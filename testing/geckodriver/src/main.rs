@@ -1,3 +1,11 @@
+#
+!
+[
+feature
+(
+slicing_syntax
+)
+]
 extern
 crate
 hyper
