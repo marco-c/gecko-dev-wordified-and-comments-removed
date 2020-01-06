@@ -4678,6 +4678,7 @@ startHeartbeat
 )
 ;
 }
+public
 static
 void
 stop
