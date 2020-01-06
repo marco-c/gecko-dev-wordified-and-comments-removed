@@ -1081,7 +1081,7 @@ servo
 #
 15482
 [
-8
+7
 ]
 *
 test_author_specified_style
