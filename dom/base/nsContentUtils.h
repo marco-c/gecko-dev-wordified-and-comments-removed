@@ -5924,6 +5924,16 @@ return
 sBytecodeCacheStrategy
 ;
 }
+static
+bool
+IsOverridingWindowName
+(
+const
+nsAString
+&
+aName
+)
+;
 private
 :
 static

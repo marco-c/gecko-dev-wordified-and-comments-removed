@@ -5353,6 +5353,8 @@ OriginAttributes
 aOpenerOriginAttributes
 float
 aFullZoom
+nsString
+aName
 )
 ;
 sync

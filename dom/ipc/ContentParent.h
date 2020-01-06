@@ -2113,6 +2113,10 @@ const
 float
 &
 aFullZoom
+const
+nsString
+&
+aName
 )
 override
 ;
@@ -2759,6 +2763,10 @@ float
 aFullZoom
 uint64_t
 aNextTabParentId
+const
+nsString
+&
+aName
 nsresult
 &
 aResult
