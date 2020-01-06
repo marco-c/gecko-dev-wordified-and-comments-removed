@@ -170,7 +170,9 @@ ENTITY
 firstrun_customize_message
 "
 Make
-Firefox
+&
+brandShortName
+;
 your
 own
 .
@@ -182,7 +184,9 @@ ENTITY
 firstrun_customize_subtext
 "
 Customize
-Firefox
+&
+brandShortName
+;
 with
 add
 -
@@ -321,7 +325,9 @@ things
 you
 save
 to
-Firefox
+&
+brandShortName
+;
 on
 all
 your
