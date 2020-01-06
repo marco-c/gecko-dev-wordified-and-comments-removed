@@ -209,7 +209,7 @@ ConversionRequired
 kNeedAVCC
 ;
 }
-MediaResult
+nsresult
 GetLastError
 (
 )
@@ -411,7 +411,7 @@ bool
 >
 mNeedAVCC
 ;
-MediaResult
+nsresult
 mLastError
 ;
 bool
