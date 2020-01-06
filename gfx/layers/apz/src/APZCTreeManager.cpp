@@ -2275,7 +2275,17 @@ wr
 :
 ToLayoutPoint
 (
+LayoutDevicePoint
+:
+:
+FromUnknownPoint
+(
 asyncScrollDelta
+.
+ToUnknownPoint
+(
+)
+)
 )
 )
 ;

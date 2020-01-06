@@ -2378,14 +2378,9 @@ AppUnitsPerDevPixel
 bool
 dummy
 ;
-LayerRect
+LayoutDeviceRect
 destRect
 =
-ViewAs
-<
-LayerPixel
->
-(
 LayoutDeviceRect
 :
 :
@@ -2401,11 +2396,6 @@ aDisplayListBuilder
 dummy
 )
 appUnitsPerDevPixel
-)
-PixelCastJustification
-:
-:
-WebRenderHasUnitResolution
 )
 ;
 wr
@@ -2509,7 +2499,7 @@ aSc
 .
 ToRelativeLayoutPoint
 (
-LayerPoint
+LayoutDevicePoint
 :
 :
 FromUnknownPoint

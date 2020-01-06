@@ -607,7 +607,7 @@ PipelineId
 &
 aPipelineId
 const
-LayerRect
+LayoutDeviceRect
 &
 aScBounds
 const
@@ -1588,7 +1588,7 @@ WrFilterOp
 true
 )
 ;
-LayerRect
+LayoutDeviceRect
 rect
 (
 0
@@ -1631,7 +1631,7 @@ isSome
 {
 rect
 =
-LayerRect
+LayoutDeviceRect
 (
 0
 0

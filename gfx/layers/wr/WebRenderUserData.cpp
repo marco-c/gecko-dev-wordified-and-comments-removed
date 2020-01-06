@@ -564,11 +564,11 @@ StackingContextHelper
 &
 aSc
 const
-LayerRect
+LayoutDeviceRect
 &
 aBounds
 const
-LayerRect
+LayoutDeviceRect
 &
 aSCBounds
 const
