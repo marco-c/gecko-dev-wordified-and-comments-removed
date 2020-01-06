@@ -284,8 +284,7 @@ siginfo
 pid_t
 tid
 ;
-struct
-ucontext
+ucontext_t
 context
 ;
 #

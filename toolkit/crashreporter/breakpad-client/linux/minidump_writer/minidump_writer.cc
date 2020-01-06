@@ -6708,8 +6708,7 @@ char
 path_
 ;
 const
-struct
-ucontext
+ucontext_t
 *
 const
 ucontext_
