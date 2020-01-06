@@ -1909,11 +1909,6 @@ sdk
 linux
 .
 sh
-tc
--
-vcs
-:
-false
 resources
 :
 -
@@ -2085,11 +2080,6 @@ sparse
 profile
 :
 null
-tc
--
-vcs
-:
-false
 resources
 :
 -

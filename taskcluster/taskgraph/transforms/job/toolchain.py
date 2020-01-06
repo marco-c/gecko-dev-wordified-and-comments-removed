@@ -63,8 +63,6 @@ common
 import
 (
     
-docker_worker_add_tc_vcs_cache
-    
 docker_worker_add_gecko_vcs_env_vars
     
 docker_worker_add_public_artifacts
@@ -175,20 +173,6 @@ internal
 '
     
 )
-    
-Required
-(
-'
-tc
--
-vcs
-'
-default
-=
-True
-)
-:
-bool
     
 Required
 (
@@ -683,24 +667,6 @@ artifacts
 :
         
 docker_worker_add_public_artifacts
-(
-config
-job
-taskdesc
-)
-    
-if
-run
-[
-'
-tc
--
-vcs
-'
-]
-:
-        
-docker_worker_add_tc_vcs_cache
 (
 config
 job
