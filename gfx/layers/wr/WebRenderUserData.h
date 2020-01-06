@@ -44,6 +44,13 @@ namespace
 mozilla
 {
 namespace
+wr
+{
+class
+IpcResourceUpdateQueue
+;
+}
+namespace
 layers
 {
 class
@@ -288,6 +295,12 @@ UpdateImageKey
 ImageContainer
 *
 aContainer
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 bool
 aForceUpdate
 =
