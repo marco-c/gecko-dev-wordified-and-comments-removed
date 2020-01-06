@@ -40,7 +40,6 @@ js
 const
 {
 element
-WebElement
 }
 =
 Cu
@@ -2366,9 +2365,9 @@ else
 if
 (
 !
-WebElement
+element
 .
-isReference
+isDOMElement
 (
 obj
 )
@@ -2385,17 +2384,24 @@ origin
 '
 to
 be
-a
-string
-or
-a
+undefined
 "
 +
+'
+"
+viewport
+"
+"
+pointer
+"
+'
++
 pprint
-web
+or
+an
 element
-reference
 got
+:
 {
 obj
 }
@@ -4541,7 +4547,6 @@ dispatch
 function
 (
 chain
-seenEls
 window
 )
 {
@@ -4575,7 +4580,6 @@ computeTickDuration
 (
 tickActions
 )
-seenEls
 window
 )
 ;
@@ -4598,7 +4602,6 @@ function
 (
 tickActions
 tickDuration
-seenEls
 window
 )
 {
@@ -4612,7 +4615,6 @@ map
 toEvents
 (
 tickDuration
-seenEls
 window
 )
 )
@@ -4850,7 +4852,6 @@ function
 toEvents
 (
 tickDuration
-seenEls
 window
 )
 {
@@ -4943,7 +4944,6 @@ dispatchPointerMove
 a
 inputState
 tickDuration
-seenEls
 window
 )
 ;
@@ -5590,7 +5590,6 @@ dispatchPointerMove
 a
 inputState
 tickDuration
-seenEls
 window
 )
 {
