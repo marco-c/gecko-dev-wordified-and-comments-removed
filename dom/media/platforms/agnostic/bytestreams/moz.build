@@ -109,8 +109,6 @@ Playback
 "
 )
 EXPORTS
-.
-mp4_demuxer
 +
 =
 [
