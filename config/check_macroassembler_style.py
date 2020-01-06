@@ -1531,12 +1531,14 @@ dict
 (
 )
     
-repo
-=
+with
 get_repository_from_env
 (
 )
-    
+as
+repo
+:
+        
 for
 filename
 in
@@ -1546,7 +1548,7 @@ get_files_in_working_directory
 (
 )
 :
-        
+            
 if
 not
 filename
@@ -1563,9 +1565,9 @@ jit
 '
 )
 :
-            
+                
 continue
-        
+            
 if
 '
 MacroAssembler
@@ -1574,9 +1576,9 @@ not
 in
 filename
 :
-            
+                
 continue
-        
+            
 filename
 =
 os
@@ -1590,7 +1592,7 @@ repo
 path
 filename
 )
-        
+            
 if
 filename
 .
@@ -1603,7 +1605,7 @@ h
 '
 )
 :
-            
+                
 decls
 =
 append_signatures
@@ -1614,10 +1616,10 @@ get_macroassembler_declaration
 filename
 )
 )
-        
+            
 else
 :
-            
+                
 defs
 =
 append_signatures
