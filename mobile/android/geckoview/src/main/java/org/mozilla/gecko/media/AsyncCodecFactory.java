@@ -49,7 +49,7 @@ Build
 .
 VERSION_CODES
 .
-LOLLIPOP
+LOLLIPOP_MR1
 ?
 new
 LollipopAsyncCodec
