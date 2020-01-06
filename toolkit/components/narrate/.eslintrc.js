@@ -9,17 +9,6 @@ exports
 =
 {
 "
-globals
-"
-:
-{
-"
-Iterator
-"
-:
-true
-}
-"
 rules
 "
 :

@@ -156,11 +156,6 @@ uuidgen
 "
 :
 false
-"
-Iterator
-"
-:
-false
 }
 rules
 :
