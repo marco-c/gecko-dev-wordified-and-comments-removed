@@ -1905,10 +1905,6 @@ std
 :
 max
 (
-aIsInterval
-?
-1
-:
 0
 interval
 )
