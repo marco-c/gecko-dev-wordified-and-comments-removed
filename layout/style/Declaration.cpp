@@ -839,10 +839,6 @@ GetPropertyValueInternal
 (
 aPropID
 aValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 }
@@ -1155,11 +1151,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 bool
 *
 aIsTokenStream
@@ -1248,7 +1239,6 @@ AppendToString
 (
 aProperty
 aResult
-aSerialization
 )
 ;
 return
@@ -1275,11 +1265,6 @@ aTable
 nsAString
 &
 aValue
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 )
 {
 const
@@ -1443,7 +1428,6 @@ nsStyleImageLayers
 positionX
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -1488,7 +1472,6 @@ nsStyleImageLayers
 positionY
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -1504,11 +1487,6 @@ data
 nsAString
 &
 aValue
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 const
 nsCSSPropertyID
 aTable
@@ -1841,7 +1819,6 @@ nsStyleImageLayers
 color
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -1872,7 +1849,6 @@ nsStyleImageLayers
 image
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -1901,7 +1877,6 @@ nsStyleImageLayers
 repeat
 ]
 aValue
-aSerialization
 )
 ;
 if
@@ -1934,7 +1909,6 @@ nsStyleImageLayers
 repeat
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -1969,7 +1943,6 @@ nsStyleImageLayers
 attachment
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -1996,7 +1969,6 @@ positionY
 mValue
 aTable
 aValue
-aSerialization
 )
 ;
 if
@@ -2076,7 +2048,6 @@ nsStyleImageLayers
 size
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -2105,7 +2076,6 @@ nsStyleImageLayers
 size
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -2348,7 +2318,6 @@ nsStyleImageLayers
 origin
 ]
 aValue
-aSerialization
 )
 ;
 if
@@ -2391,7 +2360,6 @@ nsStyleImageLayers
 clip
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -2427,7 +2395,6 @@ nsStyleImageLayers
 composite
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -2462,7 +2429,6 @@ nsStyleImageLayers
 maskMode
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -2844,11 +2810,6 @@ data
 nsAString
 &
 aValue
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 const
 nsCSSPropertyID
 aTable
@@ -2923,7 +2884,6 @@ positionY
 mValue
 aTable
 aValue
-aSerialization
 )
 ;
 positionX
@@ -3003,11 +2963,6 @@ aProperty
 nsAString
 &
 aValue
-nsCSSValue
-:
-:
-Serialization
-aSerialization
 bool
 *
 aIsTokenStream
@@ -3048,7 +3003,6 @@ AppendValueToString
 (
 aProperty
 aValue
-aSerialization
 aIsTokenStream
 )
 ;
@@ -3327,10 +3281,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 return
@@ -3353,10 +3303,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 return
@@ -3379,10 +3325,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 aValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 return
@@ -3694,7 +3636,6 @@ AppendSidesShorthandToString
 subprops
 vals
 aValue
-aSerialization
 )
 ;
 break
@@ -3779,7 +3720,6 @@ AppendBasicShapeRadiusToString
 subprops
 vals
 aValue
-aSerialization
 )
 ;
 break
@@ -3793,7 +3733,6 @@ AppendValueToString
 (
 eCSSProperty_border_image_source
 aValue
-aSerialization
 )
 ;
 bool
@@ -3855,7 +3794,6 @@ AppendValueToString
 (
 eCSSProperty_border_image_slice
 aValue
-aSerialization
 )
 ;
 if
@@ -3898,7 +3836,6 @@ AppendValueToString
 (
 eCSSProperty_border_image_width
 aValue
-aSerialization
 )
 ;
 }
@@ -3921,7 +3858,6 @@ AppendValueToString
 (
 eCSSProperty_border_image_outset
 aValue
-aSerialization
 )
 ;
 }
@@ -3958,7 +3894,6 @@ AppendValueToString
 (
 eCSSProperty_border_image_repeat
 aValue
-aSerialization
 )
 ;
 }
@@ -4331,7 +4266,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 if
@@ -4357,7 +4291,6 @@ subprops
 1
 ]
 aValue
-aSerialization
 )
 ;
 if
@@ -4429,7 +4362,6 @@ subprops
 2
 ]
 aValue
-aSerialization
 )
 ;
 }
@@ -4459,7 +4391,6 @@ GetImageLayerValue
 (
 data
 aValue
-aSerialization
 nsStyleImageLayers
 :
 :
@@ -4477,7 +4408,6 @@ GetImageLayerPositionValue
 (
 data
 aValue
-aSerialization
 nsStyleImageLayers
 :
 :
@@ -4498,7 +4428,6 @@ GetImageLayerValue
 (
 data
 aValue
-aSerialization
 nsStyleImageLayers
 :
 :
@@ -4516,7 +4445,6 @@ GetImageLayerPositionValue
 (
 data
 aValue
-aSerialization
 nsStyleImageLayers
 :
 :
@@ -4968,7 +4896,6 @@ AppendToString
 (
 eCSSProperty__x_system_font
 aValue
-aSerialization
 )
 ;
 }
@@ -5149,7 +5076,6 @@ AppendToString
 (
 eCSSProperty_font_style
 aValue
-aSerialization
 )
 ;
 aValue
@@ -5184,7 +5110,6 @@ AppendToString
 (
 eCSSProperty_font_variant_caps
 aValue
-aSerialization
 )
 ;
 aValue
@@ -5230,7 +5155,6 @@ AppendToString
 (
 eCSSProperty_font_weight
 aValue
-aSerialization
 )
 ;
 aValue
@@ -5276,7 +5200,6 @@ AppendToString
 (
 eCSSProperty_font_stretch
 aValue
-aSerialization
 )
 ;
 aValue
@@ -5298,7 +5221,6 @@ AppendToString
 (
 eCSSProperty_font_size
 aValue
-aSerialization
 )
 ;
 if
@@ -5333,7 +5255,6 @@ AppendToString
 (
 eCSSProperty_line_height
 aValue
-aSerialization
 )
 ;
 }
@@ -5355,7 +5276,6 @@ AppendToString
 (
 eCSSProperty_font_family
 aValue
-aSerialization
 )
 ;
 }
@@ -5553,7 +5473,6 @@ AppendToString
 (
 eCSSProperty_font_variant_ligatures
 aValue
-aSerialization
 )
 ;
 }
@@ -5658,7 +5577,6 @@ AppendToString
 *
 sp
 aValue
-aSerialization
 )
 ;
 }
@@ -5676,7 +5594,6 @@ AppendValueToString
 (
 eCSSProperty_list_style_position
 aValue
-aSerialization
 )
 )
 {
@@ -5698,7 +5615,6 @@ AppendValueToString
 (
 eCSSProperty_list_style_image
 aValue
-aSerialization
 )
 )
 {
@@ -5718,7 +5634,6 @@ AppendValueToString
 (
 eCSSProperty_list_style_type
 aValue
-aSerialization
 )
 ;
 break
@@ -5768,7 +5683,6 @@ AppendToString
 (
 eCSSProperty_overflow_x
 aValue
-aSerialization
 )
 ;
 break
@@ -5830,7 +5744,6 @@ AppendValueToString
 (
 eCSSProperty_text_decoration_line
 aValue
-aSerialization
 )
 ;
 if
@@ -5861,7 +5774,6 @@ AppendValueToString
 (
 eCSSProperty_text_decoration_style
 aValue
-aSerialization
 )
 ;
 }
@@ -5904,7 +5816,6 @@ AppendValueToString
 (
 eCSSProperty_text_decoration_color
 aValue
-aSerialization
 )
 ;
 }
@@ -6150,7 +6061,6 @@ AppendToString
 (
 eCSSProperty_transition_property
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6173,7 +6083,6 @@ AppendToString
 (
 eCSSProperty_transition_duration
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6196,7 +6105,6 @@ AppendToString
 (
 eCSSProperty_transition_timing_function
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6219,7 +6127,6 @@ AppendToString
 (
 eCSSProperty_transition_delay
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6304,7 +6211,6 @@ AppendToString
 (
 eCSSProperty_transition_property
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6327,7 +6233,6 @@ AppendToString
 (
 eCSSProperty_transition_duration
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6350,7 +6255,6 @@ AppendToString
 (
 eCSSProperty_transition_timing_function
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6373,7 +6277,6 @@ AppendToString
 (
 eCSSProperty_transition_delay
 aValue
-aSerialization
 )
 ;
 pro
@@ -6658,7 +6561,6 @@ subprops
 i
 ]
 aValue
-aSerialization
 )
 ;
 lists
@@ -6830,7 +6732,6 @@ AppendValueToString
 (
 eCSSProperty_marker_end
 aValue
-aSerialization
 )
 ;
 break
@@ -6860,7 +6761,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6881,7 +6781,6 @@ subprops
 1
 ]
 aValue
-aSerialization
 )
 ;
 break
@@ -6911,7 +6810,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6932,7 +6830,6 @@ subprops
 1
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -6953,7 +6850,6 @@ subprops
 2
 ]
 aValue
-aSerialization
 )
 ;
 break
@@ -7001,7 +6897,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7022,7 +6917,6 @@ subprops
 1
 ]
 aValue
-aSerialization
 )
 ;
 break
@@ -7073,7 +6967,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7092,7 +6985,6 @@ subprops
 1
 ]
 aValue
-aSerialization
 )
 ;
 break
@@ -7140,7 +7032,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7159,7 +7050,6 @@ subprops
 1
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7178,7 +7068,6 @@ subprops
 2
 ]
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7197,7 +7086,6 @@ subprops
 3
 ]
 aValue
-aSerialization
 )
 ;
 break
@@ -7504,7 +7392,6 @@ AppendValueToString
 (
 eCSSProperty_grid_auto_rows
 aValue
-aSerialization
 )
 ;
 }
@@ -7521,7 +7408,6 @@ AppendValueToString
 (
 eCSSProperty_grid_template_columns
 aValue
-aSerialization
 )
 ;
 break
@@ -7584,7 +7470,6 @@ AppendValueToString
 (
 eCSSProperty_grid_template_rows
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7624,7 +7509,6 @@ AppendValueToString
 (
 eCSSProperty_grid_auto_columns
 aValue
-aSerialization
 )
 ;
 break
@@ -7743,7 +7627,6 @@ AppendValueToString
 (
 eCSSProperty_grid_template_rows
 aValue
-aSerialization
 )
 ;
 aValue
@@ -7759,7 +7642,6 @@ AppendValueToString
 (
 eCSSProperty_grid_template_columns
 aValue
-aSerialization
 )
 ;
 break
@@ -8052,7 +7934,6 @@ AppendToString
 (
 eCSSProperty_grid_template_rows
 aValue
-aSerialization
 )
 ;
 aValue
@@ -8121,7 +8002,6 @@ AppendToString
 (
 eCSSProperty_grid_template_rows
 aValue
-aSerialization
 )
 ;
 if
@@ -8284,7 +8164,6 @@ AppendValueToString
 (
 eCSSProperty_grid_template_columns
 aValue
-aSerialization
 )
 ;
 }
@@ -8512,7 +8391,6 @@ subprops
 0
 ]
 val1
-aSerialization
 )
 ;
 AppendValueToString
@@ -8522,7 +8400,6 @@ subprops
 1
 ]
 val2
-aSerialization
 )
 ;
 if
@@ -8643,7 +8520,6 @@ AppendValueToString
 (
 eCSSProperty_text_emphasis_style
 aValue
-aSerialization
 )
 ;
 if
@@ -8675,7 +8551,6 @@ AppendValueToString
 (
 eCSSProperty_text_emphasis_color
 aValue
-aSerialization
 )
 ;
 }
@@ -8724,7 +8599,6 @@ subprops
 0
 ]
 aValue
-aSerialization
 )
 ;
 break
@@ -8774,7 +8648,6 @@ AppendValueToString
 (
 eCSSProperty_scroll_snap_type_x
 aValue
-aSerialization
 )
 ;
 }
@@ -8866,7 +8739,6 @@ AppendValueToString
 (
 eCSSProperty__webkit_text_stroke_width
 aValue
-aSerialization
 )
 ;
 if
@@ -8898,7 +8770,6 @@ AppendValueToString
 (
 eCSSProperty__webkit_text_stroke_color
 aValue
-aSerialization
 )
 ;
 }
@@ -9105,10 +8976,6 @@ AppendValueToString
 (
 aProperty
 aValue
-nsCSSValue
-:
-:
-eNormalized
 &
 aValueIsTokenStream
 )
@@ -9744,10 +9611,6 @@ GetPropertyValueInternal
 (
 shorthand
 value
-nsCSSValue
-:
-:
-eNormalized
 &
 isTokenStream
 )
@@ -9836,10 +9699,6 @@ AppendToString
 (
 eCSSProperty__x_system_font
 value
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 isTokenStream

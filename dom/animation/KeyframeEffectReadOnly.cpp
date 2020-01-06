@@ -5490,10 +5490,6 @@ AppendToString
 (
 eCSSProperty_UNKNOWN
 stringValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 }
@@ -5588,10 +5584,6 @@ propertyValue
 .
 mProperty
 stringValue
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 }

@@ -2216,12 +2216,6 @@ aOther
 )
 ;
 }
-enum
-Serialization
-{
-eNormalized
-}
-;
 void
 AppendToString
 (
@@ -2230,8 +2224,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -4021,8 +4013,6 @@ aValues
 nsAString
 &
 aString
-Serialization
-aSerialization
 )
 ;
 static
@@ -4043,8 +4033,6 @@ aValues
 nsAString
 &
 aResult
-Serialization
-aValueSerialization
 )
 ;
 static
@@ -4095,8 +4083,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -4112,8 +4098,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aSerialization
 )
 const
 ;
@@ -4127,8 +4111,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -4138,8 +4120,6 @@ AppendBasicShapePositionToString
 nsAString
 &
 aResult
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -4151,8 +4131,6 @@ aProperty
 nsAString
 &
 aResult
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -4799,11 +4777,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -4977,11 +4950,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -5158,11 +5126,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -5783,11 +5746,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -6173,11 +6131,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aValueSerialization
 )
 const
 ;
@@ -6414,11 +6367,6 @@ aProperty
 nsAString
 &
 aResult
-nsCSSValue
-:
-:
-Serialization
-aValueSerialization
 )
 const
 ;

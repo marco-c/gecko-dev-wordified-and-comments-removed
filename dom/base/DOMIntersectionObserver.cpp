@@ -647,10 +647,6 @@ AppendToString
 (
 eCSSProperty_DOM
 aRetVal
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 }

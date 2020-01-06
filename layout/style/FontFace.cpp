@@ -2552,10 +2552,6 @@ AppendToString
 (
 aPropID
 aResult
-nsCSSValue
-:
-:
-eNormalized
 )
 ;
 }
