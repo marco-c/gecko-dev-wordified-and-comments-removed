@@ -566,10 +566,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 override
 ;

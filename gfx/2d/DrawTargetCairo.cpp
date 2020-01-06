@@ -5920,9 +5920,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
 )
 {
 if

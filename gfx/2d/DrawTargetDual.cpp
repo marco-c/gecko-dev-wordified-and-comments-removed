@@ -925,10 +925,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 DualPattern
@@ -949,7 +945,6 @@ pattern
 .
 mA
 aOptions
-aRenderingOptions
 )
 ;
 mB
@@ -964,7 +959,6 @@ pattern
 .
 mB
 aOptions
-aRenderingOptions
 )
 ;
 }

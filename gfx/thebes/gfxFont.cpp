@@ -8986,9 +8986,6 @@ pat
 mFontParams
 .
 drawOptions
-mFontParams
-.
-renderingOptions
 )
 ;
 if
@@ -9039,9 +9036,6 @@ surfTransform
 mFontParams
 .
 drawOptions
-mFontParams
-.
-renderingOptions
 )
 ;
 }
@@ -9067,9 +9061,6 @@ color
 mFontParams
 .
 drawOptions
-mFontParams
-.
-renderingOptions
 )
 ;
 }
@@ -9404,9 +9395,6 @@ strokeOpts
 mFontParams
 .
 drawOptions
-mFontParams
-.
-renderingOptions
 )
 ;
 }
@@ -10228,9 +10216,6 @@ context
 fontParams
 .
 scaledFont
-fontParams
-.
-renderingOptions
 fontParams
 .
 drawOptions
@@ -11550,16 +11535,6 @@ nullptr
 ;
 fontParams
 .
-renderingOptions
-=
-GetGlyphRenderingOptions
-(
-&
-aRunParams
-)
-;
-fontParams
-.
 drawOptions
 .
 mAntialiasMode
@@ -12222,9 +12197,6 @@ gfx
 ScaledFont
 *
 scaledFont
-GlyphRenderingOptions
-*
-aRenderingOptions
 mozilla
 :
 :
@@ -12401,7 +12373,6 @@ layerIndex
 ]
 )
 aDrawOptions
-aRenderingOptions
 )
 ;
 }

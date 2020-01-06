@@ -810,7 +810,7 @@ const
 DrawOptions
 &
 )
-TILED_COMMAND5
+TILED_COMMAND4
 (
 FillGlyphs
 ScaledFont
@@ -824,9 +824,6 @@ Pattern
 const
 DrawOptions
 &
-const
-GlyphRenderingOptions
-*
 )
 TILED_COMMAND3
 (

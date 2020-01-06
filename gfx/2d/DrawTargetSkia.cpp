@@ -6582,10 +6582,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 MOZ_ASSERT
@@ -7096,10 +7092,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 if
@@ -7731,10 +7723,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 DrawGlyphs
@@ -7744,7 +7732,6 @@ aBuffer
 aPattern
 nullptr
 aOptions
-aRenderingOptions
 )
 ;
 }
@@ -7773,10 +7760,6 @@ const
 DrawOptions
 &
 aOptions
-const
-GlyphRenderingOptions
-*
-aRenderingOptions
 )
 {
 DrawGlyphs
@@ -7787,7 +7770,6 @@ aPattern
 &
 aStrokeOptions
 aOptions
-aRenderingOptions
 )
 ;
 }
