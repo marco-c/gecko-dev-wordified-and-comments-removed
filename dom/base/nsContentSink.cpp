@@ -3018,12 +3018,6 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 aRel
-mDocument
--
->
-NodePrincipal
-(
-)
 )
 ;
 if

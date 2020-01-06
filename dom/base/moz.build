@@ -937,11 +937,6 @@ ImageTracker
 h
 '
 '
-ImportManager
-.
-h
-'
-'
 Link
 .
 h
@@ -1285,11 +1280,6 @@ cpp
 '
 '
 ImageTracker
-.
-cpp
-'
-'
-ImportManager
 .
 cpp
 '

@@ -514,12 +514,6 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 rel
-mElement
--
->
-NodePrincipal
-(
-)
 )
 ;
 if
