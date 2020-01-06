@@ -272,5 +272,9 @@ attribute
 boolean
 allowFullscreen
 ;
+attribute
+boolean
+allowPaymentRequest
+;
 }
 ;
