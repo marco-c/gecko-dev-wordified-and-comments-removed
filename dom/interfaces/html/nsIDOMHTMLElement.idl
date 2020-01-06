@@ -234,10 +234,6 @@ nsIDOMHTMLElement
 :
 nsIDOMElement
 {
-attribute
-long
-tabIndex
-;
 void
 focus
 (

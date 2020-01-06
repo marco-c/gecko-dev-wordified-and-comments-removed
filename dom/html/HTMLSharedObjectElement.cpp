@@ -791,9 +791,11 @@ if
 aTabIndex
 )
 {
-GetTabIndex
-(
+*
 aTabIndex
+=
+TabIndex
+(
 )
 ;
 }
