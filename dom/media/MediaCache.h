@@ -116,7 +116,7 @@ int64_t
 aContentLength
 )
 ;
-nsresult
+void
 InitAsClone
 (
 MediaCacheStream
