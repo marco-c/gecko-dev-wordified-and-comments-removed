@@ -547,6 +547,9 @@ gfx
 Matrix
 mLoanedTransform
 ;
+bool
+mSetTransform
+;
 }
 ;
 class
@@ -779,6 +782,10 @@ aPaintState
 DrawIterator
 *
 aIter
+bool
+aSetTransform
+=
+false
 )
 ;
 nsIntRegion
