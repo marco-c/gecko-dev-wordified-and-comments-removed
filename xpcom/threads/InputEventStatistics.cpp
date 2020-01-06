@@ -40,6 +40,9 @@ InputEventStatistics
 :
 InputEventStatistics
 (
+ConstructorCookie
+&
+&
 )
 :
 mEnable
