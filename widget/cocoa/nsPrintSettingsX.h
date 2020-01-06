@@ -226,6 +226,15 @@ aScaling
 override
 ;
 NS_IMETHOD
+GetScaling
+(
+double
+*
+aScaling
+)
+override
+;
+NS_IMETHOD
 SetToFileName
 (
 const
