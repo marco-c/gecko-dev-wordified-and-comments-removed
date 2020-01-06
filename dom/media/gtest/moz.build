@@ -160,11 +160,6 @@ TestMediaMIMETypes
 cpp
 '
 '
-TestMozPromise
-.
-cpp
-'
-'
 TestMP3Demuxer
 .
 cpp
