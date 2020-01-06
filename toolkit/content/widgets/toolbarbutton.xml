@@ -1122,6 +1122,9 @@ inherits
 value
 =
 badge
+style
+=
+badgeStyle
 "
 top
 =
