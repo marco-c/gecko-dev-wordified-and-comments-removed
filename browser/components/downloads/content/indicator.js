@@ -1659,7 +1659,7 @@ indicator
 -
 progress
 -
-icon
+inner
 "
 )
 )
