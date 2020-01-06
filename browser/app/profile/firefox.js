@@ -973,6 +973,16 @@ pref
 "
 extensions
 .
+startupScanScopes
+"
+0
+)
+;
+pref
+(
+"
+extensions
+.
 geckoProfiler
 .
 symbols
