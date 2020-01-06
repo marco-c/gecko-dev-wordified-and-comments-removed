@@ -55,7 +55,7 @@ sandbox
 ;
 iframe
 .
-src
+srcdoc
 =
 src
 ;
@@ -133,14 +133,6 @@ test
 var
 script
 =
-'
-data
-:
-text
-/
-html
-'
-+
 '
 <
 script
@@ -402,6 +394,11 @@ script
 allow
 -
 scripts
+allow
+-
+secure
+-
+context
 '
 )
 ;
