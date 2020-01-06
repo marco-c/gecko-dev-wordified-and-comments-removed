@@ -15,12 +15,13 @@ analagous
 to
 PPaintingBridge
 .
+sync
 protocol
 PTestPaintThread
 {
 parent
 :
-async
+sync
 FinishedPaint
 (
 uint64_t
