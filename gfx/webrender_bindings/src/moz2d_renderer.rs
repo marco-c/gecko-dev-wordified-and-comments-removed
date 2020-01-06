@@ -570,6 +570,16 @@ req
 =
 request
 {
+self
+.
+rendered_images
+.
+remove
+(
+&
+request
+)
+;
 return
 result
 }
