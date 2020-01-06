@@ -3136,7 +3136,10 @@ IpcSender
 >
 microtask_queue
 :
+Rc
+<
 MicrotaskQueue
+>
 mutation_observer_compound_microtask_queued
 :
 Cell
@@ -5234,6 +5237,7 @@ control_port
 let
 boxed_script_sender
 =
+box
 MainThreadScriptChan
 (
 chan
@@ -5241,10 +5245,6 @@ chan
 clone
 (
 )
-)
-.
-clone
-(
 )
 ;
 let
@@ -5524,7 +5524,7 @@ state
 content_process_shutdown_chan
 microtask_queue
 :
-MicrotaskQueue
+Default
 :
 :
 default
@@ -13413,6 +13413,13 @@ channel
 self
 .
 webvr_chan
+.
+clone
+(
+)
+self
+.
+microtask_queue
 .
 clone
 (

@@ -1701,7 +1701,7 @@ upcast
 :
 :
 <
-WorkerGlobalScope
+GlobalScope
 >
 (
 )

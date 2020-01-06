@@ -1332,7 +1332,7 @@ upcast
 :
 :
 <
-WorkerGlobalScope
+GlobalScope
 >
 (
 )
