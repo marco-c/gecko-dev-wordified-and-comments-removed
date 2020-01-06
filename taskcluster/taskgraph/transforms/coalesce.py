@@ -236,6 +236,24 @@ win10
 -
 64
 '
+            
+'
+aws
+-
+provisioner
+-
+v1
+/
+gecko
+-
+t
+-
+win10
+-
+64
+-
+gpu
+'
         
 ]
 :
