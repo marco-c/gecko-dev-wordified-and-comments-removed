@@ -1105,7 +1105,7 @@ plaintext
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -2003,7 +2003,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

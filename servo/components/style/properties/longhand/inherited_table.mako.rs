@@ -60,7 +60,7 @@ NS_STYLE_BORDER
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -110,7 +110,7 @@ NS_STYLE_TABLE_EMPTY_CELLS
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -172,7 +172,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

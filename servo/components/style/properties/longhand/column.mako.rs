@@ -288,7 +288,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -534,7 +534,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -604,7 +604,7 @@ NS_STYLE_BORDER_STYLE
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

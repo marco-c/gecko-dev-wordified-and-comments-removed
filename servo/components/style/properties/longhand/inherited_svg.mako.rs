@@ -66,21 +66,6 @@ SVG
 >
 /
 /
-TODO
-(
-emilio
-)
-:
-Should
-some
-of
-these
-types
-be
-animatable
-?
-/
-/
 Section
 10
 -
@@ -108,7 +93,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -170,7 +155,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -227,7 +212,7 @@ NS_STYLE_COLOR_INTERPOLATION
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -402,7 +387,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -453,7 +438,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -988,7 +973,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

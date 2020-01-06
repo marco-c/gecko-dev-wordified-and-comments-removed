@@ -1187,7 +1187,7 @@ none
 animation_value_type
 =
 "
-none
+discrete
 "
 extra_gecko_values
 =
@@ -1266,7 +1266,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -1345,10 +1345,13 @@ StyleUserModify
 needs_conversion
 =
 True
+gecko_inexhaustive
+=
+True
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -1439,7 +1442,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
