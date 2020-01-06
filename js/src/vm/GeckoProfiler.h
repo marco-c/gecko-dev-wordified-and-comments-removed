@@ -167,7 +167,11 @@ push
 const
 char
 *
-string
+label
+const
+char
+*
+dynamicString
 void
 *
 sp
@@ -177,8 +181,6 @@ script
 jsbytecode
 *
 pc
-bool
-copy
 ProfileEntry
 :
 :
@@ -435,7 +437,7 @@ beginPseudoJS
 const
 char
 *
-string
+label
 void
 *
 sp
