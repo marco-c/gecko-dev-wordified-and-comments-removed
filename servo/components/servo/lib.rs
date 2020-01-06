@@ -645,6 +645,14 @@ get
 (
 )
 ;
+window
+.
+prepare_for_composite
+(
+0
+0
+)
+;
 let
 (
 compositor_proxy
