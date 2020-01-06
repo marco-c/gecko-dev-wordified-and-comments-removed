@@ -7942,6 +7942,7 @@ if
 IsUTF8
 (
 utf8Data
+false
 )
 )
 {
@@ -8254,6 +8255,7 @@ if
 IsUTF8
 (
 mServerCloseReason
+false
 )
 )
 {
