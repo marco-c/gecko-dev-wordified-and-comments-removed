@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsUnicharUtilCIID
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h
@@ -599,7 +592,7 @@ aChar
 )
 {
 return
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter

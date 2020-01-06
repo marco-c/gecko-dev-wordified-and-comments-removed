@@ -134,12 +134,7 @@ EXPORTS
 =
 [
 '
-nsIUGenCategory
-.
-h
-'
-'
-nsUnicharUtilCIID
+nsUGenCategory
 .
 h
 '
@@ -153,11 +148,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-nsCategoryImp
-.
-cpp
-'
 '
 nsEntityConverter
 .

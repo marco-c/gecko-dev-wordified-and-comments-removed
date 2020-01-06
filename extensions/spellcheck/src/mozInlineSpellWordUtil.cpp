@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsUnicharUtilCIID
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h
@@ -3394,9 +3387,6 @@ Length
 return
 CHAR_CLASS_SEPARATOR
 ;
-nsIUGenCategory
-:
-:
 nsUGenCategory
 charCategory
 =
@@ -3419,7 +3409,7 @@ if
 charCategory
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -3626,7 +3616,7 @@ if
 charCategory
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSeparator
@@ -3635,7 +3625,7 @@ kSeparator
 charCategory
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kOther
@@ -3644,7 +3634,7 @@ kOther
 charCategory
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kPunctuation
@@ -3653,7 +3643,7 @@ kPunctuation
 charCategory
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kSymbol
@@ -4178,7 +4168,7 @@ i
 )
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kNumber

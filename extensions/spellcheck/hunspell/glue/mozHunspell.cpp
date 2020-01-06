@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsUnicharUtilCIID
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

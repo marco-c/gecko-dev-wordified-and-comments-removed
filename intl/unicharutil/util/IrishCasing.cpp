@@ -531,7 +531,7 @@ aCh
 )
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter

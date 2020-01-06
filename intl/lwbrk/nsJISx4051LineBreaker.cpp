@@ -1614,7 +1614,7 @@ index
 mLength
 &
 &
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter

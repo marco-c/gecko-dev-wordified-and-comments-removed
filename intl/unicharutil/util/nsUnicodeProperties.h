@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIUGenCategory
+nsUGenCategory
 .
 h
 "
@@ -74,9 +74,6 @@ unicode
 {
 extern
 const
-nsIUGenCategory
-:
-:
 nsUGenCategory
 sDetailedToGeneralCategory
 [
@@ -678,9 +675,6 @@ mDefaultIgnorable
 #
 endif
 inline
-nsIUGenCategory
-:
-:
 nsUGenCategory
 GetGenCategory
 (

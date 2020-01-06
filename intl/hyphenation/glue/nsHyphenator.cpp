@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsUnicharUtilCIID
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -352,9 +345,6 @@ hyphenation
 ;
 }
 }
-nsIUGenCategory
-:
-:
 nsUGenCategory
 cat
 =
@@ -374,7 +364,7 @@ if
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kLetter
@@ -383,7 +373,7 @@ kLetter
 cat
 =
 =
-nsIUGenCategory
+nsUGenCategory
 :
 :
 kMark
