@@ -478,15 +478,6 @@ aStorage
 )
 ;
 nsresult
-ForceCrashAndReplaceDatabase
-(
-const
-nsCString
-&
-aReason
-)
-;
-nsresult
 SetupDatabaseConnection
 (
 nsCOMPtr
