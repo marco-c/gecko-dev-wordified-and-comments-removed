@@ -960,6 +960,10 @@ view
 let
 mm
 =
+!
+IS_PARENT_PROCESS
+&
+&
 aWindow
 &
 &
