@@ -823,12 +823,6 @@ ByteOrder
 }
 ;
 use
-cssparser
-:
-:
-serialize_string
-;
-use
 std
 :
 :
@@ -857,8 +851,6 @@ self
 tag
 )
 ;
-serialize_string
-(
 str
 :
 :
@@ -871,6 +863,9 @@ raw
 unwrap_or_default
 (
 )
+.
+to_css
+(
 dest
 )
 ?

@@ -2172,12 +2172,6 @@ gecko
 "
 >
 use
-cssparser
-:
-:
-serialize_string
-;
-use
 parser
 :
 :
@@ -3154,9 +3148,10 @@ dest
 ?
 ;
 }
-serialize_string
-(
 string
+.
+to_css
+(
 dest
 )
 ?

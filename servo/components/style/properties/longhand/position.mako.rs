@@ -3079,12 +3079,6 @@ True
 "
 >
 use
-cssparser
-:
-:
-serialize_string
-;
-use
 std
 :
 :
@@ -3945,9 +3939,10 @@ write_str
 ?
 ;
 }
-serialize_string
-(
 string
+.
+to_css
+(
 dest
 )
 ?
