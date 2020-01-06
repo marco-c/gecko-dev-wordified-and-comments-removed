@@ -334,9 +334,9 @@ index
 num_cpus
 1
 .
-2
+6
 .
-1
+2
 (
 registry
 +
@@ -375,9 +375,9 @@ version
 "
 1
 .
-2
+6
 .
-1
+2
 "
 source
 =
@@ -633,9 +633,9 @@ checksum
 num_cpus
 1
 .
-2
+6
 .
-1
+2
 (
 registry
 +
@@ -660,7 +660,7 @@ index
 "
 =
 "
-a225d1e2717567599c24f88e49f00856c6e825a12125181ee42c4257e3688d39
+aec53c34f2d0247c5ca5d32cca1478762f301740468ee9ee6dcb7a0dd7a0c584
 "
 "
 checksum
