@@ -3540,7 +3540,7 @@ GetInstance
 )
 -
 >
-AvailableLocalesChanged
+OnAvailableLocalesChanged
 (
 )
 ;
