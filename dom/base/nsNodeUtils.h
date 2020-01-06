@@ -378,7 +378,7 @@ nsCOMArray
 <
 nsINode
 >
-&
+*
 aNodesWithProperties
 nsINode
 *
@@ -415,12 +415,6 @@ nsINode
 aResult
 )
 {
-nsCOMArray
-<
-nsINode
->
-dummyNodeWithProperties
-;
 return
 CloneAndAdopt
 (
@@ -429,7 +423,7 @@ true
 aDeep
 nullptr
 nullptr
-dummyNodeWithProperties
+nullptr
 aNode
 -
 >
@@ -483,6 +477,7 @@ false
 true
 aNewNodeInfoManager
 aReparentScope
+&
 aNodesWithProperties
 nullptr
 getter_AddRefs
@@ -587,7 +582,7 @@ nsCOMArray
 <
 nsINode
 >
-&
+*
 aNodesWithProperties
 nsINode
 *

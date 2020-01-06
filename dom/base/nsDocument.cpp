@@ -28875,12 +28875,6 @@ nsINode
 >
 newNode
 ;
-nsCOMArray
-<
-nsINode
->
-nodesWithProperties
-;
 rv
 =
 nsNodeUtils
@@ -28891,7 +28885,7 @@ Clone
 imported
 aDeep
 mNodeInfoManager
-nodesWithProperties
+nullptr
 getter_AddRefs
 (
 newNode
