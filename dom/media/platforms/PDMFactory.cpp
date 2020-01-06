@@ -504,17 +504,11 @@ mimeType
 )
 )
 {
-mp4_demuxer
-:
-:
 SPSData
 spsdata
 ;
 if
 (
-mp4_demuxer
-:
-:
 H264
 :
 :

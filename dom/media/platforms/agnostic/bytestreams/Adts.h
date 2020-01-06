@@ -17,10 +17,6 @@ mozilla
 class
 MediaRawData
 ;
-}
-namespace
-mp4_demuxer
-{
 class
 Adts
 {

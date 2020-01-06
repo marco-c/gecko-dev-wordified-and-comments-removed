@@ -3361,9 +3361,6 @@ NS_ERROR_OUT_OF_MEMORY
 int8_t
 frequency_index
 =
-mp4_demuxer
-:
-:
 Adts
 :
 :
@@ -3377,9 +3374,6 @@ mRate
 bool
 rv
 =
-mp4_demuxer
-:
-:
 Adts
 :
 :

@@ -160,12 +160,8 @@ uval
 ;
 \
 }
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 static
 const

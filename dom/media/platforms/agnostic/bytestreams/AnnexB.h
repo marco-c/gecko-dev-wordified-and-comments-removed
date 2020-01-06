@@ -40,10 +40,6 @@ MediaRawData
 class
 MediaByteBuffer
 ;
-}
-namespace
-mp4_demuxer
-{
 class
 AnnexB
 {
