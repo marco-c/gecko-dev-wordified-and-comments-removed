@@ -1548,6 +1548,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+const
 override
 {
 return

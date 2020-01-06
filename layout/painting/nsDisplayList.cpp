@@ -14781,6 +14781,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 bool
 snap
@@ -14955,6 +14956,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -15446,6 +15448,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -18030,6 +18033,7 @@ nsDisplayBackgroundImage
 GetDestRect
 (
 )
+const
 {
 return
 mDestRect
@@ -19062,6 +19066,7 @@ nsDisplayBackgroundImage
 :
 GetInsideClipRegion
 (
+const
 nsDisplayItem
 *
 aItem
@@ -19242,6 +19247,7 @@ bool
 *
 aSnap
 )
+const
 {
 nsRegion
 result
@@ -19408,6 +19414,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 if
 (
@@ -19441,6 +19448,7 @@ nsDisplayBackgroundImage
 GetPositioningArea
 (
 )
+const
 {
 if
 (
@@ -19502,6 +19510,7 @@ nsDisplayBackgroundImage
 RenderingMightDependOnPositioningAreaSizeChange
 (
 )
+const
 {
 if
 (
@@ -19763,6 +19772,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 if
 (
@@ -20031,6 +20041,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -20155,30 +20166,6 @@ GetBackgroundPaintFlags
 )
 ;
 }
-uint32_t
-nsDisplayBackgroundImage
-:
-:
-GetPerFrameKey
-(
-)
-{
-return
-(
-mLayer
-<
-<
-TYPE_BITS
-)
-|
-nsDisplayItem
-:
-:
-GetPerFrameKey
-(
-)
-;
-}
 nsDisplayTableBackgroundImage
 :
 :
@@ -20226,6 +20213,7 @@ nsRect
 &
 aRect
 )
+const
 {
 bool
 result
@@ -20516,6 +20504,7 @@ bool
 *
 aSnap
 )
+const
 {
 nsRegion
 result
@@ -20558,6 +20547,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 if
 (
@@ -20602,6 +20592,7 @@ nscolor
 *
 aColor
 )
+const
 {
 nsITheme
 *
@@ -20638,6 +20629,7 @@ nsDisplayThemedBackground
 GetPositioningArea
 (
 )
+const
 {
 return
 mBackgroundRect
@@ -20760,6 +20752,7 @@ nsDisplayThemedBackground
 IsWindowActive
 (
 )
+const
 {
 EventStates
 docState
@@ -20808,6 +20801,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsDisplayThemedBackgroundGeometry
@@ -20963,6 +20957,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -22285,6 +22280,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -22384,6 +22380,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 Some
@@ -22664,6 +22661,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -23060,6 +23058,7 @@ nsRect
 &
 aRect
 )
+const
 {
 const
 nsStyleOutline
@@ -24178,6 +24177,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -24615,6 +24615,7 @@ nsRect
 &
 aRect
 )
+const
 {
 nsRect
 paddingRect
@@ -24729,6 +24730,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsDisplayBorderGeometry
@@ -26587,6 +26589,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -26608,6 +26611,7 @@ nsStyleBorder
 &
 aStyleBorder
 )
+const
 {
 nsRect
 borderBounds
@@ -27307,6 +27311,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -27356,6 +27361,7 @@ nsRect
 &
 aRect
 )
+const
 {
 nsPoint
 origin
@@ -28174,6 +28180,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsDisplayBoxShadowOuterGeometry
@@ -29559,6 +29566,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -29651,6 +29659,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -29696,6 +29705,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 Nothing
@@ -29976,6 +29986,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 nsRect
 bounds
@@ -30649,6 +30660,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -31731,6 +31743,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -32697,6 +32710,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 IsScrollThumbLayer
@@ -33484,6 +33498,7 @@ bool
 *
 aSnap
 )
+const
 {
 bool
 usingDisplayPort
@@ -33748,6 +33763,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 bool
 usingDisplayPort
@@ -33797,6 +33813,7 @@ bool
 *
 aSnap
 )
+const
 {
 bool
 usingDisplayPort
@@ -35799,6 +35816,7 @@ bool
 *
 aSnap
 )
+const
 {
 nsRect
 bounds
@@ -38803,6 +38821,7 @@ nsDisplayTransform
 GetTransform
 (
 )
+const
 {
 if
 (
@@ -39174,6 +39193,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 return
 MayBeAnimated
@@ -39896,6 +39916,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 if
 (
@@ -40730,6 +40751,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -40942,6 +40964,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -41051,6 +41074,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 {
 nsRect
 untransformedVisible
@@ -41550,6 +41574,7 @@ nsRect
 *
 aOutRect
 )
+const
 {
 const
 Matrix4x4
@@ -42448,6 +42473,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsCharClipGeometry
@@ -42646,6 +42672,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -42789,6 +42816,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 const
 nsDisplaySVGEffectGeometry
@@ -44271,6 +44299,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 nsDisplaySVGEffects
 :
@@ -45793,6 +45822,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 nsDisplaySVGEffects
 :

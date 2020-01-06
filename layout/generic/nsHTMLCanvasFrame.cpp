@@ -298,6 +298,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -432,6 +433,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *

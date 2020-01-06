@@ -1376,6 +1376,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 auto
@@ -1450,6 +1451,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *

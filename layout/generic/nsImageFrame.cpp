@@ -5795,6 +5795,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 {
 auto
@@ -5869,6 +5870,7 @@ bool
 *
 aSnap
 )
+const
 override
 {
 *
@@ -7149,6 +7151,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 geometry
@@ -7245,6 +7248,7 @@ nsDisplayImage
 GetDestRect
 (
 )
+const
 {
 bool
 snap
@@ -7612,6 +7616,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap

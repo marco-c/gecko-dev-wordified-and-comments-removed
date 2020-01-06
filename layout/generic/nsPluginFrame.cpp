@@ -4009,6 +4009,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 NS_DISPLAY_DECL_NAME
@@ -4086,6 +4087,7 @@ GetDisplayItemBounds
 nsDisplayListBuilder
 *
 aBuilder
+const
 nsDisplayItem
 *
 aItem
@@ -4123,6 +4125,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -4151,6 +4154,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -4560,6 +4564,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -5829,10 +5834,12 @@ nsPluginFrame
 :
 GetPaintedRect
 (
+const
 nsDisplayPlugin
 *
 aItem
 )
+const
 {
 if
 (

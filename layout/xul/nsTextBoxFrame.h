@@ -224,6 +224,7 @@ nsRect
 GetComponentAlphaBounds
 (
 )
+const
 ;
 virtual
 bool

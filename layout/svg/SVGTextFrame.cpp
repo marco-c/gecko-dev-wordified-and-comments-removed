@@ -9358,6 +9358,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+const
 override
 {
 bool

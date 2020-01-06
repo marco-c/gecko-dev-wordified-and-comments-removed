@@ -503,6 +503,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 NS_DISPLAY_DECL_NAME
@@ -527,6 +528,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -1372,6 +1374,7 @@ bool
 *
 aSnap
 )
+const
 override
 ;
 virtual
@@ -1400,6 +1403,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -1847,6 +1851,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 geometry
@@ -1999,6 +2004,7 @@ bool
 *
 aSnap
 )
+const
 {
 *
 aSnap
@@ -2118,6 +2124,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 override
 ;
 virtual
@@ -2267,6 +2274,7 @@ nsRegion
 *
 aInvalidRegion
 )
+const
 {
 auto
 geometry
