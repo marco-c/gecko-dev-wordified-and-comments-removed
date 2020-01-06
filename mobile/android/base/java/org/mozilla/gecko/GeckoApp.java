@@ -3267,6 +3267,7 @@ GeckoAccessibility
 .
 sendAccessibilityEvent
 (
+mLayerView
 message
 )
 ;
