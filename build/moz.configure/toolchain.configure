@@ -1232,8 +1232,6 @@ configure
 flag
 '
 )
-res
-=
 check_cmd_output
 (
 '
@@ -10811,6 +10809,7 @@ c_compiler
 .
 wrapper
 +
+\
 [
 c_compiler
 .
