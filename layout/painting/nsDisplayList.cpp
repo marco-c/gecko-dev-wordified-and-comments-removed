@@ -31945,6 +31945,10 @@ AddCompositorAnimationsIdForDiscard
 animationsId
 )
 ;
+animationsId
+=
+0
+;
 }
 nsTArray
 <
@@ -40046,6 +40050,10 @@ AddCompositorAnimationsIdForDiscard
 (
 animationsId
 )
+;
+animationsId
+=
+0
 ;
 }
 gfx
