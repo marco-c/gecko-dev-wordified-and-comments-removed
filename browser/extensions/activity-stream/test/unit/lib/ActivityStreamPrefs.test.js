@@ -871,10 +871,10 @@ prefs
 "
 getStringPref
 "
-(
 )
-=
->
+.
+returns
+(
 "
 default
 "
