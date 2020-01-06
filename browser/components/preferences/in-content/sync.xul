@@ -1566,7 +1566,7 @@ label
 &
 engine
 .
-passwords
+logins
 .
 label
 ;
@@ -1577,7 +1577,7 @@ accesskey
 &
 engine
 .
-passwords
+logins
 .
 accesskey
 ;

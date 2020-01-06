@@ -153,11 +153,11 @@ r
 ENTITY
 engine
 .
-passwords
+logins
 .
 label
 "
-Passwords
+Logins
 "
 >
 <
@@ -165,11 +165,11 @@ Passwords
 ENTITY
 engine
 .
-passwords
+logins
 .
 accesskey
 "
-P
+L
 "
 >
 <
