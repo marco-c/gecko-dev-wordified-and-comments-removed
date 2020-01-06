@@ -416,6 +416,14 @@ FT_Add_Default_Modules
 gPlatformFTLibrary
 )
 ;
+Factory
+:
+:
+SetFTLibrary
+(
+gPlatformFTLibrary
+)
+;
 RegisterStrongMemoryReporter
 (
 new
