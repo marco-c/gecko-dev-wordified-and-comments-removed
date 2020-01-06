@@ -166,6 +166,10 @@ gfx
 IntSize
 &
 aSize
+bool
+aAllowInvalidation
+=
+true
 )
 ;
 private
@@ -189,6 +193,10 @@ gfx
 IntSize
 &
 aSize
+bool
+aAllowInvalidation
+=
+true
 )
 ;
 public

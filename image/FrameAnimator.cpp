@@ -111,6 +111,8 @@ gfx
 IntSize
 &
 aSize
+bool
+aAllowInvalidation
 )
 {
 LookupResult
@@ -169,6 +171,8 @@ gfx
 IntSize
 &
 aSize
+bool
+aAllowInvalidation
 )
 {
 if
@@ -319,6 +323,11 @@ ret
 ;
 if
 (
+aAllowInvalidation
+)
+{
+if
+(
 mIsCurrentlyDecoded
 |
 |
@@ -391,6 +400,7 @@ mCompositedFrameInvalid
 =
 true
 ;
+}
 }
 }
 return

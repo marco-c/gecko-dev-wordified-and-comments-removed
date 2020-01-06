@@ -4935,6 +4935,7 @@ UpdateState
 mAnimationFinished
 this
 mSize
+false
 )
 ;
 MOZ_ASSERT
