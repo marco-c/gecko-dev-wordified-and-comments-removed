@@ -1677,7 +1677,7 @@ void
 KeyframeUtils
 :
 :
-ApplyDistributeSpacing
+DistributeKeyframes
 (
 nsTArray
 <

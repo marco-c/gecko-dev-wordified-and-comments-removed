@@ -179,7 +179,7 @@ aComputedValues
 ;
 static
 void
-ApplyDistributeSpacing
+DistributeKeyframes
 (
 nsTArray
 <
