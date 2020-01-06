@@ -456,7 +456,6 @@ mTaskQueue
 __func__
 [
 self
-this
 ]
 (
 )
@@ -467,6 +466,9 @@ res
 aom_codec_destroy
 (
 &
+self
+-
+>
 mCodec
 )
 ;

@@ -10124,7 +10124,6 @@ mTaskQueue
 __func__
 [
 self
-this
 aTrack
 &
 decoder
@@ -10147,6 +10146,9 @@ Complete
 (
 )
 ;
+self
+-
+>
 NotifyNewOutput
 (
 aTrack
@@ -10169,6 +10171,9 @@ GPUProcessCrashTelemetryLogger
 :
 ReportTelemetry
 (
+self
+-
+>
 mMediaDecoderOwnerID
 decoder
 .
@@ -10183,7 +10188,6 @@ get
 }
 [
 self
-this
 aTrack
 &
 decoder
@@ -10203,6 +10207,9 @@ Complete
 (
 )
 ;
+self
+-
+>
 NotifyError
 (
 aTrack
@@ -11266,7 +11273,6 @@ mTaskQueue
 __func__
 [
 self
-this
 aTrack
 &
 decoder
@@ -11310,6 +11316,9 @@ DrainCompleted
 }
 else
 {
+self
+-
+>
 NotifyNewOutput
 (
 aTrack
@@ -11326,6 +11335,9 @@ DrainState
 PartialDrainPending
 ;
 }
+self
+-
+>
 ScheduleUpdate
 (
 aTrack
@@ -11334,7 +11346,6 @@ aTrack
 }
 [
 self
-this
 aTrack
 &
 decoder
@@ -11354,6 +11365,9 @@ Complete
 (
 )
 ;
+self
+-
+>
 NotifyError
 (
 aTrack

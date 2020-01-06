@@ -404,11 +404,13 @@ mTaskQueue
 __func__
 [
 self
-this
 ]
 (
 )
 {
+self
+-
+>
 ProcessShutdown
 (
 )

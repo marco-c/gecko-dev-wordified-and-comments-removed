@@ -462,7 +462,6 @@ mTaskQueue
 __func__
 [
 self
-this
 ]
 (
 )
@@ -470,12 +469,18 @@ this
 vpx_codec_destroy
 (
 &
+self
+-
+>
 mVPX
 )
 ;
 vpx_codec_destroy
 (
 &
+self
+-
+>
 mVPXAlpha
 )
 ;
