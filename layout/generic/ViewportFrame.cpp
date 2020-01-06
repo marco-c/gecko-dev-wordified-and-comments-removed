@@ -2046,9 +2046,6 @@ newContext
 >
 ResolveSameStructsAs
 (
-PresContext
-(
-)
 oldContext
 )
 ;
