@@ -1557,9 +1557,12 @@ case
 toggleToolbar
 "
 :
-window
+gDevToolsBrowser
 .
-DeveloperToolbar
+getDeveloperToolbar
+(
+window
+)
 .
 focusToggle
 (
