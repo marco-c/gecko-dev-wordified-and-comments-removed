@@ -3204,7 +3204,7 @@ if
 configuration
 -
 >
-conformant
+renderableType
 &
 EGL_OPENGL_ES3_BIT_KHR
 )
