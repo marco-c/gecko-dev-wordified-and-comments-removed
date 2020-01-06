@@ -116,6 +116,14 @@ js
 "
 )
 ;
+const
+{
+error
+JavaScriptError
+ScriptTimeoutError
+WebDriverError
+}
+=
 Cu
 .
 import
@@ -133,6 +141,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 const

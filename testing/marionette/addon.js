@@ -53,6 +53,11 @@ jsm
 "
 )
 ;
+const
+{
+UnknownError
+}
+=
 Cu
 .
 import
@@ -70,6 +75,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 this

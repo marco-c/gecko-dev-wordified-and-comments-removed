@@ -53,6 +53,12 @@ js
 "
 )
 ;
+const
+{
+error
+InvalidCookieDomainError
+}
+=
 Cu
 .
 import
@@ -70,6 +76,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 this

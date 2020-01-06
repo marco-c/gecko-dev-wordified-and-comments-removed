@@ -91,6 +91,12 @@ js
 "
 )
 ;
+const
+{
+error
+InvalidArgumentError
+}
+=
 Cu
 .
 import
@@ -108,6 +114,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 this

@@ -80,6 +80,11 @@ nsIDOMParser
 "
 )
 ;
+const
+{
+NoSuchElementError
+}
+=
 Cu
 .
 import
@@ -97,6 +102,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 this

@@ -75,6 +75,14 @@ js
 "
 )
 ;
+const
+{
+error
+InvalidArgumentError
+MoveTargetOutOfBoundsError
+UnsupportedOperationError
+}
+=
 Cu
 .
 import
@@ -92,6 +100,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 Cu
