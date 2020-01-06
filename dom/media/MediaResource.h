@@ -1525,6 +1525,11 @@ CloseChannel
 (
 )
 ;
+void
+UpdatePrincipal
+(
+)
+;
 int64_t
 GetOffset
 (
@@ -1557,7 +1562,7 @@ nsIInputStream
 aInStream
 void
 *
-aClosure
+aResource
 const
 char
 *
@@ -1574,9 +1579,6 @@ aWriteCount
 nsresult
 CopySegmentToCache
 (
-nsIPrincipal
-*
-aPrincipal
 const
 char
 *
