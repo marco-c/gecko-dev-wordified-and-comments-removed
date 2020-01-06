@@ -376,6 +376,11 @@ TelemetryScalar
 cpp
 '
 '
+ThreadHangStats
+.
+cpp
+'
+'
 WebrtcTelemetry
 .
 cpp
