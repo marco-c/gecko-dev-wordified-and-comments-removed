@@ -1378,7 +1378,7 @@ do_wait_async_updates
 static
 const
 char
-TOPIC_PROFILE_CHANGE
+TOPIC_PROFILE_CHANGE_QM
 [
 ]
 =
@@ -1388,6 +1388,8 @@ profile
 before
 -
 change
+-
+qm
 "
 ;
 static
@@ -1460,7 +1462,7 @@ os
 AddObserver
 (
 this
-TOPIC_PROFILE_CHANGE
+TOPIC_PROFILE_CHANGE_QM
 false
 )
 )
