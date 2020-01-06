@@ -1565,6 +1565,11 @@ ViewID
 aId
 )
 ;
+uint32_t
+GetNextWrEpoch
+(
+)
+;
 private
 :
 struct
