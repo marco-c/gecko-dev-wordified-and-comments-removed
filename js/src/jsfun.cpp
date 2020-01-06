@@ -3722,7 +3722,7 @@ trc
 &
 u
 .
-i
+scripted
 .
 s
 .
@@ -3742,7 +3742,7 @@ isInterpretedLazy
 &
 u
 .
-i
+scripted
 .
 s
 .
@@ -3754,7 +3754,7 @@ trc
 &
 u
 .
-i
+scripted
 .
 s
 .
@@ -3768,7 +3768,7 @@ if
 (
 u
 .
-i
+scripted
 .
 env_
 )
@@ -3778,7 +3778,7 @@ trc
 &
 u
 .
-i
+scripted
 .
 env_
 "
@@ -8097,7 +8097,7 @@ hasScript
 !
 u
 .
-i
+scripted
 .
 s
 .
@@ -8167,7 +8167,7 @@ if
 !
 u
 .
-i
+scripted
 .
 s
 .
@@ -8241,7 +8241,7 @@ maybeLazyScript
 ;
 u
 .
-i
+scripted
 .
 s
 .
