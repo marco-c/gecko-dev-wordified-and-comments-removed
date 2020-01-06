@@ -1646,6 +1646,16 @@ mHaveScrollableDisplayPort
 true
 ;
 }
+void
+ClearHaveScrollableDisplayPort
+(
+)
+{
+mHaveScrollableDisplayPort
+=
+false
+;
+}
 bool
 SetIsCompositingCheap
 (
