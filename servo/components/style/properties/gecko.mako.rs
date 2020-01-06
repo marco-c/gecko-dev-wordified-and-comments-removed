@@ -5702,7 +5702,7 @@ MaxLength
 :
 impl_style_coord
 "
-MinLength
+MozLength
 "
 :
 impl_style_coord

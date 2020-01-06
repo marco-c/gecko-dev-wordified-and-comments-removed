@@ -643,7 +643,7 @@ longhands
 flex_basis
 :
 :
-parse
+parse_specified
 (
 context
 input
