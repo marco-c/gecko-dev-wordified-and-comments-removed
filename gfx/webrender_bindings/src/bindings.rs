@@ -347,6 +347,16 @@ names
 mNamespace
 mHandle
 ]
+/
+/
+/
+cbindgen
+:
+derive
+-
+neq
+=
+true
 type
 WrImageKey
 =
