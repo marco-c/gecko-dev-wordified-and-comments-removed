@@ -1723,6 +1723,14 @@ bool
 aOldValueSet
 )
 ;
+nsresult
+SetSingleClassFromParser
+(
+nsIAtom
+*
+aSingleClassName
+)
+;
 virtual
 nsresult
 SetAttr
