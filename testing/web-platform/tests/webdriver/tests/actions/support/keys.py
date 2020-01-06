@@ -12,6 +12,8 @@ from
 inspect
 import
 getmembers
+import
+sys
 class
 Keys
 (
@@ -4686,3 +4688,27 @@ ue040
     
 }
 }
+if
+sys
+.
+platform
+=
+=
+'
+darwin
+'
+:
+    
+MODIFIER_KEY
+=
+Keys
+.
+META
+else
+:
+    
+MODIFIER_KEY
+=
+Keys
+.
+CONTROL
