@@ -7171,6 +7171,8 @@ VoidString
 (
 )
 postStream
+-
+1
 headersStream
 loadType
 nullptr
@@ -23004,6 +23006,8 @@ VoidString
 (
 )
 nullptr
+-
+1
 nullptr
 LOAD_ERROR_PAGE
 nullptr
@@ -23485,6 +23489,8 @@ VoidString
 (
 )
 nullptr
+-
+1
 nullptr
 loadType
 nullptr
@@ -38798,6 +38804,8 @@ aTypeHint
 nsIInputStream
 *
 aPostData
+int64_t
+aPostDataLength
 nsIInputStream
 *
 aHeadersData
@@ -38874,6 +38882,10 @@ aPrincipalToInherit
 mPostData
 (
 aPostData
+)
+mPostDataLength
+(
+aPostDataLength
 )
 mHeadersData
 (
@@ -38970,6 +38982,7 @@ VoidString
 (
 )
 mPostData
+mPostDataLength
 mHeadersData
 mLoadType
 mSHEntry
@@ -39047,6 +39060,9 @@ nsCOMPtr
 nsIInputStream
 >
 mPostData
+;
+int64_t
+mPostDataLength
 ;
 nsCOMPtr
 <
@@ -39204,6 +39220,8 @@ aFileName
 nsIInputStream
 *
 aPostData
+int64_t
+aPostDataLength
 nsIInputStream
 *
 aHeadersData
@@ -40722,6 +40740,7 @@ VoidString
 (
 )
 aPostData
+aPostDataLength
 aHeadersData
 aLoadType
 aSHEntry
@@ -40976,6 +40995,7 @@ principalToInherit
 aFlags
 aTypeHint
 aPostData
+aPostDataLength
 aHeadersData
 aLoadType
 aSHEntry
@@ -42340,6 +42360,7 @@ principalToInherit
 aFlags
 aTypeHint
 aPostData
+aPostDataLength
 aHeadersData
 aLoadType
 aSHEntry
@@ -42866,6 +42887,7 @@ principalToInherit
 aTypeHint
 aFileName
 aPostData
+aPostDataLength
 aHeadersData
 aFirstParty
 aDocShell
@@ -43398,6 +43420,8 @@ aFileName
 nsIInputStream
 *
 aPostData
+int64_t
+aPostDataLength
 nsIInputStream
 *
 aHeadersData
@@ -45145,8 +45169,7 @@ aPostData
 EmptyCString
 (
 )
--
-1
+aPostDataLength
 )
 ;
 }
@@ -50728,6 +50751,8 @@ VoidString
 (
 )
 postData
+-
+1
 nullptr
 aLoadType
 aEntry
@@ -56764,6 +56789,8 @@ get
 )
 aFileName
 aPostDataStream
+-
+1
 aHeadersDataStream
 LOAD_LINK
 nullptr
