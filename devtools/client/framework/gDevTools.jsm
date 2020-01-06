@@ -206,6 +206,9 @@ getToolDefinitionArray
 getThemeDefinitionArray
 "
 "
+getTheme
+"
+"
 getThemeDefinition
 "
 "
