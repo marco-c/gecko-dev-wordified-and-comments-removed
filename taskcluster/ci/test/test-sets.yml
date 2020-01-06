@@ -1248,12 +1248,6 @@ chrome
 -
 mochitest
 -
-devtools
--
-chrome
--
-mochitest
--
 media
 -
 reftest
