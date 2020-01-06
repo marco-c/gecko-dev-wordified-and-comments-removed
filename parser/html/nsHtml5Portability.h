@@ -140,8 +140,6 @@ char16_t
 *
 buf
 int32_t
-offset
-int32_t
 length
 nsHtml5AtomTable
 *
@@ -238,8 +236,6 @@ local
 char16_t
 *
 buf
-int32_t
-offset
 int32_t
 length
 )
