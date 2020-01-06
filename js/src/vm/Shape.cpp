@@ -6093,11 +6093,13 @@ StackBaseShape
 :
 match
 (
+const
 ReadBarriered
 <
 UnownedBaseShape
 *
 >
+&
 key
 const
 Lookup
