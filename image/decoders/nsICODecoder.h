@@ -260,14 +260,6 @@ GetFinalStateFromContainedDecoder
 (
 )
 ;
-bool
-CheckAndFixBitmapSize
-(
-int8_t
-*
-aBIH
-)
-;
 uint16_t
 GetNumColors
 (
