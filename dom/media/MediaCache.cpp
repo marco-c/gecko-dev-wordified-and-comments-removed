@@ -8888,12 +8888,6 @@ aLoadID
 0
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-!
-mClosed
-)
-;
 ReentrantMonitorAutoEnter
 mon
 (
@@ -8905,6 +8899,14 @@ GetReentrantMonitor
 )
 )
 ;
+if
+(
+mClosed
+)
+{
+return
+;
+}
 LOG
 (
 "
