@@ -1,6 +1,8 @@
 import
 pytest
 from
+tests
+.
 support
 .
 asserts
@@ -10,12 +12,16 @@ assert_success
 assert_dialog_handled
 assert_same_element
 from
+tests
+.
 support
 .
 fixtures
 import
 create_dialog
 from
+tests
+.
 support
 .
 inline
