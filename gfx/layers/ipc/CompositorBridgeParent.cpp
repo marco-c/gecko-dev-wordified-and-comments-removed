@@ -7486,6 +7486,10 @@ mWrBridge
 GetWebRenderAPI
 (
 )
+;
+api
+=
+api
 -
 >
 Clone

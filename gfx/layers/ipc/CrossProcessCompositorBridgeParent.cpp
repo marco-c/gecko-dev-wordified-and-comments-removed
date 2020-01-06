@@ -1308,6 +1308,10 @@ root
 GetWebRenderAPI
 (
 )
+;
+api
+=
+api
 -
 >
 Clone
