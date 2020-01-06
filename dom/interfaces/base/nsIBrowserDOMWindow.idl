@@ -134,6 +134,7 @@ attribute
 DOMString
 referrer
 ;
+readonly
 attribute
 boolean
 isPrivate

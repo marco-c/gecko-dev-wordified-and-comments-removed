@@ -2018,10 +2018,6 @@ nsCString
 &
 aBaseURI
 const
-OriginAttributes
-&
-aOpenerOriginAttributes
-const
 float
 &
 aFullZoom
@@ -2105,10 +2101,6 @@ const
 nsCString
 &
 aBaseURI
-const
-OriginAttributes
-&
-aOpenerOriginAttributes
 const
 float
 &
@@ -2753,10 +2745,6 @@ const
 nsCString
 &
 aBaseURI
-const
-OriginAttributes
-&
-aOpenerOriginAttributes
 const
 float
 &

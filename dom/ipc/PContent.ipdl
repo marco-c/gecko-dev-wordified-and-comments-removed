@@ -5303,8 +5303,6 @@ nsCString
 aFeatures
 nsCString
 aBaseURI
-OriginAttributes
-aOpenerOriginAttributes
 float
 aFullZoom
 )
@@ -5349,8 +5347,6 @@ nsCString
 aFeatures
 nsCString
 aBaseURI
-OriginAttributes
-aOpenerOriginAttributes
 float
 aFullZoom
 nsString
