@@ -859,6 +859,19 @@ ObjectIdentifier
 oidString
 )
         
+nullEncapsulated
+=
+encoder
+.
+encode
+(
+univ
+.
+Null
+(
+)
+)
+        
 algorithmIdentifier
 [
 '
@@ -868,8 +881,9 @@ parameters
 =
 univ
 .
-Null
+Any
 (
+nullEncapsulated
 )
         
 return
