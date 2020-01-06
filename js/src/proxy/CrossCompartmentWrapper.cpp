@@ -2448,8 +2448,7 @@ return
 str
 ;
 }
-RegExpShared
-*
+bool
 CrossCompartmentWrapper
 :
 :
@@ -2460,6 +2459,8 @@ JSContext
 cx
 HandleObject
 wrapper
+MutableHandleRegExpShared
+shared
 )
 const
 {
@@ -2480,8 +2481,9 @@ wrapper
 )
 )
 ;
-re
-=
+if
+(
+!
 Wrapper
 :
 :
@@ -2489,15 +2491,12 @@ regexp_toShared
 (
 cx
 wrapper
-)
-;
-if
-(
-!
+&
 re
 )
+)
 return
-nullptr
+false
 ;
 }
 RootedAtom
@@ -2541,6 +2540,7 @@ re
 getFlags
 (
 )
+shared
 )
 ;
 }

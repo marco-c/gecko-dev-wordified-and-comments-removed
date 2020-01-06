@@ -4822,8 +4822,7 @@ endif
 extern
 JS_FRIEND_API
 (
-RegExpShared
-*
+bool
 )
 RegExpToSharedNonInline
 (
@@ -4835,6 +4834,15 @@ JS
 :
 HandleObject
 regexp
+JS
+:
+:
+MutableHandle
+<
+RegExpShared
+*
+>
+shared
 )
 ;
 typedef

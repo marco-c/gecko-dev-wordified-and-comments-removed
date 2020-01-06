@@ -741,8 +741,7 @@ indent
 const
 ;
 virtual
-RegExpShared
-*
+bool
 regexp_toShared
 (
 JSContext
@@ -750,6 +749,15 @@ JSContext
 cx
 HandleObject
 proxy
+MutableHandle
+<
+js
+:
+:
+RegExpShared
+*
+>
+shared
 )
 const
 ;
