@@ -3919,6 +3919,9 @@ mCallback
 >
 NotifySuspendedStatusChanged
 (
+IsSuspendedByCache
+(
+)
 )
 ;
 }
