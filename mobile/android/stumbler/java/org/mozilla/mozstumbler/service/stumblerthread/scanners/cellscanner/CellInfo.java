@@ -995,18 +995,6 @@ mCid
 =
 cid
 ;
-if
-(
-Build
-.
-VERSION
-.
-SDK_INT
->
-=
-9
-)
-{
 final
 int
 psc
@@ -1028,7 +1016,6 @@ mPsc
 =
 psc
 ;
-}
 if
 (
 gsmSignalStrength
