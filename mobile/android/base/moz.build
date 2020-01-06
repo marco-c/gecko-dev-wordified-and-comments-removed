@@ -5336,13 +5336,6 @@ Experiments
 java
 '
 '
-extensions
-/
-ExtensionPermissionsHelper
-.
-java
-'
-'
 FilePicker
 .
 java

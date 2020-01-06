@@ -2131,16 +2131,6 @@ pref
 "
 extensions
 .
-webextPermissionPrompts
-"
-true
-)
-;
-pref
-(
-"
-extensions
-.
 webextensions
 .
 base
