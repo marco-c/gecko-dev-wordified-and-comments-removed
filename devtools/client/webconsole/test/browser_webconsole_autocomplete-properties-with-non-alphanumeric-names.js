@@ -49,8 +49,6 @@ term
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -11019,8 +11019,6 @@ _walkerPromise
 let
 deferred
 =
-promise
-.
 defer
 (
 )

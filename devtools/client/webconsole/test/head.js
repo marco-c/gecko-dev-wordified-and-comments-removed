@@ -721,8 +721,6 @@ tab
 let
 webconsoleOpened
 =
-promise
-.
 defer
 (
 )
@@ -1382,8 +1380,6 @@ options
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1807,8 +1803,6 @@ null
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2566,8 +2560,6 @@ true
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2672,8 +2664,6 @@ jsterm
 let
 lastDeferred
 =
-promise
-.
 defer
 (
 )
@@ -2725,8 +2715,6 @@ prop
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3060,8 +3048,6 @@ incorrect
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3231,8 +3217,6 @@ selectedTab
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3558,8 +3542,6 @@ false
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -6672,8 +6654,6 @@ body
 let
 deferredVariablesView
 =
-promise
-.
 defer
 (
 )
@@ -6710,8 +6690,6 @@ _onVariablesViewOpen
 let
 deferredTab
 =
-promise
-.
 defer
 (
 )
@@ -7913,8 +7891,6 @@ target
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -8223,8 +8199,6 @@ expectedLink
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -88,8 +88,6 @@ desc
 let
 def
 =
-promise
-.
 defer
 (
 )

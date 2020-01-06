@@ -182,8 +182,6 @@ focus
 let
 scrolled
 =
-promise
-.
 defer
 (
 )
@@ -332,8 +330,6 @@ SEVERITY_LOG
 ;
 scrolled
 =
-promise
-.
 defer
 (
 )
@@ -413,8 +409,6 @@ focus
 ;
 scrolled
 =
-promise
-.
 defer
 (
 )
@@ -526,8 +520,6 @@ message
 ;
 scrolled
 =
-promise
-.
 defer
 (
 )

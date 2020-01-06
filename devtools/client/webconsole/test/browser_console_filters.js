@@ -239,8 +239,6 @@ true
 let
 deferred
 =
-promise
-.
 defer
 (
 )

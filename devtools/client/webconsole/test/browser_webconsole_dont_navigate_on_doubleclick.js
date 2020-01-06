@@ -252,8 +252,6 @@ url
 let
 deferred
 =
-promise
-.
 defer
 (
 )

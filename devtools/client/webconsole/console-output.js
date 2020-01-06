@@ -6390,8 +6390,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -13689,8 +13687,6 @@ isAttached
 let
 onReady
 =
-promise
-.
 defer
 (
 )

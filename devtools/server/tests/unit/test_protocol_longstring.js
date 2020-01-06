@@ -1070,8 +1070,6 @@ then
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1247,8 +1245,6 @@ then
 let
 deferred
 =
-promise
-.
 defer
 (
 )

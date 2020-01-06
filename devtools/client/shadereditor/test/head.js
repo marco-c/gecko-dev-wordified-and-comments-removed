@@ -566,8 +566,6 @@ aUrl
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -676,8 +674,6 @@ tab
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -941,8 +937,6 @@ aTarget
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1058,8 +1052,6 @@ aEvent
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1121,8 +1113,6 @@ aNotificationName
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1827,8 +1817,6 @@ actors
 let
 deferred
 =
-promise
-.
 defer
 (
 )

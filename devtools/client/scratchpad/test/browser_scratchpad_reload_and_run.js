@@ -275,8 +275,6 @@ selectedBrowser
 let
 deferred
 =
-promise
-.
 defer
 (
 )

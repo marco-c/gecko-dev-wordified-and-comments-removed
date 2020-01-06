@@ -953,8 +953,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )

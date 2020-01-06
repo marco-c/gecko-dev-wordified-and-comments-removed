@@ -686,8 +686,6 @@ aUrl
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -796,8 +794,6 @@ tab
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1145,8 +1141,6 @@ aTarget
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1283,8 +1277,6 @@ waitForTick
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1762,8 +1754,6 @@ script
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1963,8 +1953,6 @@ true
 let
 deferred
 =
-Promise
-.
 defer
 (
 )

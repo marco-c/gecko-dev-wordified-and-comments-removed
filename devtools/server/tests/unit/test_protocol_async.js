@@ -224,8 +224,6 @@ toWait
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -315,8 +313,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -632,8 +628,6 @@ sequence
 let
 deferAfterRejection
 =
-promise
-.
 defer
 (
 )

@@ -419,8 +419,6 @@ time
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -8869,8 +8867,6 @@ args
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -9239,8 +9235,6 @@ storage
 let
 success
 =
-promise
-.
 defer
 (
 )
@@ -11143,8 +11137,6 @@ storage
 let
 success
 =
-promise
-.
 defer
 (
 )

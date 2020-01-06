@@ -972,8 +972,6 @@ waitForConsole
 let
 deferred
 =
-promise
-.
 defer
 (
 )

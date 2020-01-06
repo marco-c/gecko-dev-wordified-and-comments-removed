@@ -359,8 +359,6 @@ aObject
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -515,8 +513,6 @@ aObject
 let
 deferred
 =
-promise
-.
 defer
 (
 )

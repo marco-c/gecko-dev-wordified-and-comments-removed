@@ -2989,9 +2989,7 @@ onDestroy
 let
 deferred
 =
-SyncPromise
-.
-defer
+Syncdefer
 (
 )
 ;
@@ -4083,9 +4081,7 @@ addonId
 let
 deferred
 =
-SyncPromise
-.
-defer
+Syncdefer
 (
 )
 ;

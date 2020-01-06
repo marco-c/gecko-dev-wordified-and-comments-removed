@@ -71,8 +71,6 @@ HUD
 let
 deferred
 =
-promise
-.
 defer
 (
 )

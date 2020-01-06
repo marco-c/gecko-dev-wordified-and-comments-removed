@@ -210,8 +210,6 @@ _opening
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -393,8 +391,6 @@ _destroying
 let
 deferred
 =
-promise
-.
 defer
 (
 )

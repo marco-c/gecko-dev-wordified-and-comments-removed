@@ -646,8 +646,6 @@ aTests
 let
 deferred
 =
-promise
-.
 defer
 (
 )

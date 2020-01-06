@@ -65,8 +65,6 @@ pushPrefEnv
 let
 deferred
 =
-promise
-.
 defer
 (
 )

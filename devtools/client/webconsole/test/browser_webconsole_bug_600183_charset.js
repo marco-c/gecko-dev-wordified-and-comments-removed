@@ -72,8 +72,6 @@ console
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -238,8 +236,6 @@ waitForRequest
 let
 deferred
 =
-promise
-.
 defer
 (
 )

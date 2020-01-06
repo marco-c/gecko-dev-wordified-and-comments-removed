@@ -457,8 +457,6 @@ getChromeActors
 let
 deferred
 =
-promise
-.
 defer
 (
 )

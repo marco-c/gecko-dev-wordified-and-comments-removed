@@ -613,8 +613,6 @@ reloadPage
 let
 def
 =
-promise
-.
 defer
 (
 )

@@ -486,8 +486,6 @@ nsIUUIDGenerator
 let
 deferred
 =
-Promise
-.
 defer
 (
 )

@@ -254,8 +254,6 @@ jsterm
 let
 deferred
 =
-promise
-.
 defer
 (
 )

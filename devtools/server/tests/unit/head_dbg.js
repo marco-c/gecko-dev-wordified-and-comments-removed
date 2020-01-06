@@ -3801,8 +3801,6 @@ url
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3902,8 +3900,6 @@ tabClient
 let
 deferred
 =
-promise
-.
 defer
 (
 )

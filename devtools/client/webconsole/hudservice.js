@@ -715,8 +715,6 @@ this
 .
 _browserConsoleDefer
 =
-promise
-.
 defer
 (
 )
@@ -729,8 +727,6 @@ connect
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -852,8 +848,6 @@ aTarget
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1862,8 +1856,6 @@ this
 .
 _destroyer
 =
-promise
-.
 defer
 (
 )
@@ -2280,8 +2272,6 @@ this
 .
 _bc_destroyer
 =
-promise
-.
 defer
 (
 )

@@ -618,8 +618,6 @@ error
 let
 deferred
 =
-promise
-.
 defer
 (
 )

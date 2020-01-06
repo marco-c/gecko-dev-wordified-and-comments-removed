@@ -792,8 +792,6 @@ this
 .
 _currentAnimationFrameSnapshot
 =
-promise
-.
 defer
 (
 )

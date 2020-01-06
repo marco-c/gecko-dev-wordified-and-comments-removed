@@ -173,8 +173,6 @@ webconsole
 let
 deferredIframe
 =
-promise
-.
 defer
 (
 )

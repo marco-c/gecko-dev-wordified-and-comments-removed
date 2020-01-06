@@ -109,8 +109,6 @@ url
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -650,8 +648,6 @@ delay
 let
 deferred
 =
-promise
-.
 defer
 (
 )

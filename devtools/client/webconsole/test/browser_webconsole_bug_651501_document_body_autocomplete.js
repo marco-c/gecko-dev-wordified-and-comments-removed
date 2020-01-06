@@ -93,8 +93,6 @@ consoleOpened
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -320,8 +318,6 @@ autocompletePopupHidden
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -461,8 +457,6 @@ testPropertyPanel
 let
 deferred
 =
-promise
-.
 defer
 (
 )
