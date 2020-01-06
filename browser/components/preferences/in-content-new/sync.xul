@@ -440,6 +440,9 @@ noFxaGroup
 vbox
 >
 <
+caption
+>
+<
 label
 id
 =
@@ -455,6 +458,10 @@ caption
 <
 /
 label
+>
+<
+/
+caption
 >
 <
 description
