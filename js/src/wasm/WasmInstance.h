@@ -16,6 +16,15 @@ h
 #
 include
 "
+vm
+/
+SharedMem
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmCode
