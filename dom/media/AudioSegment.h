@@ -1031,6 +1031,7 @@ T
 ChannelData
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1050,6 +1051,7 @@ return
 *
 reinterpret_cast
 <
+const
 nsTArray
 <
 const
