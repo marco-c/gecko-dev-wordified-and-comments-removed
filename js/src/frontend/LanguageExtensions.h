@@ -14,9 +14,6 @@ DeprecatedLanguageExtension
 ExpressionClosure
 =
 3
-BlockScopeFunRedecl
-=
-10
 Count
 }
 ;

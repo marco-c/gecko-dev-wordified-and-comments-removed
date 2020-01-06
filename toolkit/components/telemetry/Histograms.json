@@ -11947,6 +11947,9 @@ content
 ForEach
 =
 0
+(
+obsolete
+)
 DestructuringForIn
 =
 1
@@ -11956,6 +11959,9 @@ obsolete
 LegacyGenerator
 =
 2
+(
+obsolete
+)
 ExpressionClosure
 =
 3
@@ -11998,6 +12004,9 @@ obsolete
 BlockScopeFunRedecl
 =
 10
+(
+obsolete
+)
 "
 }
 "
@@ -12069,6 +12078,9 @@ ons
 ForEach
 =
 0
+(
+obsolete
+)
 DestructuringForIn
 =
 1
@@ -12078,6 +12090,9 @@ obsolete
 LegacyGenerator
 =
 2
+(
+obsolete
+)
 ExpressionClosure
 =
 3
@@ -12120,6 +12135,9 @@ obsolete
 BlockScopeFunRedecl
 =
 10
+(
+obsolete
+)
 "
 }
 "
