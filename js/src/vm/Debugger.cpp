@@ -7343,7 +7343,7 @@ if
 callee
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -27265,7 +27265,7 @@ setBoolean
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -39331,7 +39331,7 @@ script
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ;
@@ -52875,7 +52875,7 @@ return
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ;

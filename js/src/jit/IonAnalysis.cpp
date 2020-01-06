@@ -24262,7 +24262,7 @@ isDebuggee
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |

@@ -14183,7 +14183,7 @@ canonicalFunction
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 &
@@ -15081,7 +15081,7 @@ callee
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -15873,7 +15873,7 @@ callee
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -16835,7 +16835,7 @@ MOZ_ASSERT
 callee
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 &

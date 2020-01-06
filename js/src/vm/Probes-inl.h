@@ -153,7 +153,7 @@ script
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 &

@@ -5566,11 +5566,10 @@ if
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
-{
 obj
 =
 WrapAsyncGenerator
@@ -5586,9 +5585,7 @@ JSFunction
 )
 )
 ;
-}
 else
-{
 obj
 =
 WrapAsyncFunction
@@ -5604,7 +5601,6 @@ JSFunction
 )
 )
 ;
-}
 }
 if
 (

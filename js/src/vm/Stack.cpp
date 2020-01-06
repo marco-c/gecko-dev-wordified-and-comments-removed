@@ -1650,7 +1650,7 @@ callee
 (
 )
 .
-isStarGenerator
+isGenerator
 (
 )
 &

@@ -1797,7 +1797,7 @@ if
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )

@@ -12063,7 +12063,7 @@ script
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -12231,7 +12231,7 @@ if
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )

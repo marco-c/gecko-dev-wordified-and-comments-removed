@@ -2055,11 +2055,14 @@ generatorKind
 (
 )
 :
+GeneratorKind
+:
+:
 NotGenerator
 ;
 }
 bool
-isStarGenerator
+isGenerator
 (
 )
 const
@@ -2070,7 +2073,10 @@ generatorKind
 )
 =
 =
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 ;
 }
 bool
@@ -2108,7 +2114,7 @@ needsDotGeneratorName
 const
 {
 return
-isStarGenerator
+isGenerator
 (
 )
 |

@@ -3509,6 +3509,9 @@ compiler
 compileStandaloneFunction
 (
 fun
+GeneratorKind
+:
+:
 NotGenerator
 SyncFunction
 parameterListEnd
@@ -3584,7 +3587,10 @@ compiler
 compileStandaloneFunction
 (
 fun
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 SyncFunction
 parameterListEnd
 )
@@ -3659,6 +3665,9 @@ compiler
 compileStandaloneFunction
 (
 fun
+GeneratorKind
+:
+:
 NotGenerator
 AsyncFunction
 parameterListEnd
@@ -3734,7 +3743,10 @@ compiler
 compileStandaloneFunction
 (
 fun
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 AsyncFunction
 parameterListEnd
 )

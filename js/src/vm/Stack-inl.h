@@ -1701,7 +1701,7 @@ MOZ_ASSERT
 callee
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |

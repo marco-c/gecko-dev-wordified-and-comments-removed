@@ -761,7 +761,7 @@ if
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -2013,12 +2013,12 @@ isBoundFunction
 )
 ;
 bool
-isStarGenerator
+isGenerator
 =
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 ;
@@ -2063,7 +2063,7 @@ global
 else
 if
 (
-isStarGenerator
+isGenerator
 )
 objProto
 =
@@ -2122,7 +2122,7 @@ false
 if
 (
 !
-isStarGenerator
+isGenerator
 &
 &
 !
@@ -2213,7 +2213,7 @@ isConstructor
 )
 |
 |
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -2729,7 +2729,7 @@ if
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -5204,7 +5204,7 @@ if
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -8573,7 +8573,7 @@ setBoolean
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -8720,12 +8720,15 @@ false
 ;
 }
 bool
-isStarGenerator
+isGenerator
 =
 generatorKind
 =
 =
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 ;
 bool
 isAsync
@@ -8786,7 +8789,7 @@ isAsync
 {
 if
 (
-isStarGenerator
+isGenerator
 )
 introductionType
 =
@@ -8805,10 +8808,7 @@ AsyncFunction
 else
 if
 (
-generatorKind
-!
-=
-NotGenerator
+isGenerator
 )
 {
 introductionType
@@ -8933,7 +8933,7 @@ false
 ;
 if
 (
-isStarGenerator
+isGenerator
 )
 {
 if
@@ -9255,7 +9255,7 @@ cx
 ;
 if
 (
-isStarGenerator
+isGenerator
 |
 |
 isAsync
@@ -9301,7 +9301,7 @@ Flags
 flags
 =
 (
-isStarGenerator
+isGenerator
 |
 |
 isAsync
@@ -9458,7 +9458,7 @@ isAsync
 {
 if
 (
-isStarGenerator
+isGenerator
 )
 {
 if
@@ -9502,7 +9502,7 @@ else
 {
 if
 (
-isStarGenerator
+isGenerator
 )
 {
 if
@@ -9573,7 +9573,7 @@ wrapped
 ;
 if
 (
-isStarGenerator
+isGenerator
 )
 {
 wrapped
@@ -9701,6 +9701,9 @@ CreateDynamicFunction
 (
 cx
 args
+GeneratorKind
+:
+:
 NotGenerator
 SyncFunction
 )
@@ -9736,7 +9739,10 @@ CreateDynamicFunction
 (
 cx
 args
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 SyncFunction
 )
 ;
@@ -9771,6 +9777,9 @@ CreateDynamicFunction
 (
 cx
 args
+GeneratorKind
+:
+:
 NotGenerator
 AsyncFunction
 )
@@ -9806,7 +9815,10 @@ CreateDynamicFunction
 (
 cx
 args
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 AsyncFunction
 )
 ;
@@ -10466,7 +10478,7 @@ proto
 fun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |

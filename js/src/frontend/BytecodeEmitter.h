@@ -2728,7 +2728,7 @@ needsHomeObject
 bool
 isArrow
 bool
-isStarGenerator
+isGenerator
 )
 ;
 MOZ_MUST_USE

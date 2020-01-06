@@ -1754,7 +1754,7 @@ HasMappedArgsObj
 FunctionHasThisBinding
 FunctionHasExtraBodyVarScope
 IsGeneratorExp
-IsStarGenerator
+IsGenerator
 IsAsync
 HasRest
 IsExprBody
@@ -2528,7 +2528,7 @@ if
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -2539,7 +2539,7 @@ scriptBits
 1
 <
 <
-IsStarGenerator
+IsGenerator
 )
 ;
 if
@@ -3741,7 +3741,7 @@ scriptBits
 1
 <
 <
-IsStarGenerator
+IsGenerator
 )
 )
 script
@@ -3749,7 +3749,10 @@ script
 >
 setGeneratorKind
 (
-StarGenerator
+GeneratorKind
+:
+:
+Generator
 )
 ;
 if
@@ -16760,6 +16763,9 @@ script
 >
 setGeneratorKind
 (
+GeneratorKind
+:
+:
 NotGenerator
 )
 ;
@@ -19703,7 +19709,7 @@ if
 srcFun
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -24271,7 +24277,7 @@ MOZ_ASSERT
 script
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
@@ -25109,10 +25115,13 @@ length
 ;
 p
 .
-generatorKindBits
+generatorKind
 =
-GeneratorKindAsBits
+GeneratorKindAsBit
 (
+GeneratorKind
+:
+:
 NotGenerator
 )
 ;

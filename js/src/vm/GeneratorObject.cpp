@@ -88,7 +88,7 @@ script
 )
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 |
@@ -455,7 +455,7 @@ callee
 (
 )
 .
-isStarGenerator
+isGenerator
 (
 )
 )

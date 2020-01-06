@@ -42920,6 +42920,9 @@ fn
 fun
 toStringStart
 directives
+GeneratorKind
+:
+:
 NotGenerator
 SyncFunction
 )
@@ -51837,7 +51840,7 @@ parser
 pc
 -
 >
-isStarGenerator
+isGenerator
 (
 )
 )
