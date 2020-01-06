@@ -1304,14 +1304,10 @@ if
 this
 .
 size
-<
-=
+>
 limit
 )
 {
-break
-;
-}
 this
 .
 delete
@@ -1319,6 +1315,7 @@ delete
 item
 )
 ;
+}
 }
 }
 add
