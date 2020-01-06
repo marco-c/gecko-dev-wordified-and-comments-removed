@@ -252,11 +252,6 @@ HangMonitor
 h
 '
 '
-IdleTaskRunner
-.
-h
-'
-'
 LazyIdleThread
 .
 h
@@ -368,11 +363,6 @@ cpp
 '
 '
 HangMonitor
-.
-cpp
-'
-'
-IdleTaskRunner
 .
 cpp
 '
