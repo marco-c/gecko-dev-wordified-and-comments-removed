@@ -1160,8 +1160,13 @@ for
 (
 let
 key
-in
+of
+Object
+.
+keys
+(
 node
+)
 )
 {
 if
