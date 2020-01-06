@@ -1517,6 +1517,9 @@ mFastOpenLayerHasBufferedData
 uint8_t
 mFastOpenStatus
 ;
+nsresult
+mFirstRetryError
+;
 bool
 mDoNotRetryToConnect
 ;

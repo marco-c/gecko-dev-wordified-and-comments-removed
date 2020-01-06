@@ -1827,5 +1827,10 @@ TCPFastOpenPtr
 aFastOpen
 )
 ;
+readonly
+attribute
+nsresult
+firstRetryError
+;
 }
 ;
