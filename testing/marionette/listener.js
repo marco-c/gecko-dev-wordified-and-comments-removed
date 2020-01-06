@@ -1164,7 +1164,7 @@ event
 .
 target
 .
-baseURI
+documentURI
 |
 |
 event
@@ -1338,7 +1338,7 @@ event
 .
 target
 .
-baseURI
+documentURI
 .
 startsWith
 (
@@ -1389,7 +1389,7 @@ event
 .
 target
 .
-baseURI
+documentURI
 )
 )
 {
@@ -1415,7 +1415,7 @@ event
 .
 target
 .
-baseURI
+documentURI
 )
 this
 .
@@ -1460,7 +1460,7 @@ event
 .
 target
 .
-baseURI
+documentURI
 )
 )
 {
