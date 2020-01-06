@@ -10,6 +10,9 @@ fx_freetype
 h
 "
 #
+define
+DEFINE_PS_TABLES
+#
 include
 "
 psnames
