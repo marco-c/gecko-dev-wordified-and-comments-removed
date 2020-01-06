@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIPlatformCharset
-.
-h
-"
-#
-include
-"
 nsPluginLogging
 .
 h
