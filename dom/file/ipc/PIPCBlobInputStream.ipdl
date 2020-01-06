@@ -107,7 +107,7 @@ StreamNeeded
 )
 ;
 async
-Close
+__delete__
 (
 )
 ;
@@ -118,11 +118,6 @@ StreamReady
 (
 OptionalIPCStream
 aStream
-)
-;
-async
-__delete__
-(
 )
 ;
 }
