@@ -41,7 +41,7 @@ aClosure
 )
 ;
 MFBT_API
-bool
+void
 MozStackWalk
 (
 MozWalkStackCallback
@@ -94,7 +94,7 @@ define
 MOZ_STACKWALK_SUPPORTS_WINDOWS
 1
 MFBT_API
-bool
+void
 MozStackWalkThread
 (
 MozWalkStackCallback
@@ -224,7 +224,7 @@ namespace
 mozilla
 {
 MFBT_API
-bool
+void
 FramePointerStackWalk
 (
 MozWalkStackCallback
