@@ -1462,8 +1462,6 @@ state
 )
 ;
 }
-else
-{
 let
 state
 =
@@ -1496,7 +1494,6 @@ extState
 value
 )
 ;
-}
 }
 getAttributes
 :
