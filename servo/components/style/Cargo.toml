@@ -116,6 +116,11 @@ style_traits
 /
 gecko
 "
+"
+fallible
+/
+known_system_malloc
+"
 ]
 use_bindgen
 =
