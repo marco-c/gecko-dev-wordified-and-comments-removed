@@ -40,7 +40,7 @@ html
 const
 SW_TIMEOUT
 =
-5000
+2000
 ;
 requestLongerTimeout
 (
