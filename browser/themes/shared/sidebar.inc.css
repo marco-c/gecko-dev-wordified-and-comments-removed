@@ -109,13 +109,13 @@ position
 relative
 ;
 }
-#
-appcontent
-~
 .
 sidebar
 -
 splitter
+[
+overlapend
+]
 {
 border
 -
