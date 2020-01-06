@@ -240,6 +240,7 @@ src
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute
