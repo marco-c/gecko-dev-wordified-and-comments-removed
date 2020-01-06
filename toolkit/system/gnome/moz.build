@@ -157,11 +157,6 @@ nsGSettingsService
 .
 cpp
 '
-'
-nsPackageKitService
-.
-cpp
-'
 ]
 FINAL_LIBRARY
 =

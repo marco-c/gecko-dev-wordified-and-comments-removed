@@ -125,11 +125,6 @@ nsIHapticFeedback
 idl
 '
 '
-nsIPackageKitService
-.
-idl
-'
-'
 nsIPlatformInfo
 .
 idl
