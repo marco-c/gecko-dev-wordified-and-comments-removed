@@ -90,6 +90,12 @@ DOLPHIN
 )
 ;
 }
+static
+uint16_t
+GetActCtxResourceId
+(
+)
+;
 private
 :
 Compatibility
