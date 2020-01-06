@@ -4963,7 +4963,7 @@ mLength
 =
 rootValue
 .
-GetFloatValue
+GetPixelLength
 (
 )
 ;
@@ -5112,7 +5112,7 @@ mLength
 =
 length
 .
-GetFloatValue
+GetPixelLength
 (
 )
 ;
