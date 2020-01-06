@@ -230,10 +230,6 @@ attribute
 EventHandler
 onmessage
 ;
-attribute
-EventHandler
-onmessageerror
-;
 }
 ;
 Worker
