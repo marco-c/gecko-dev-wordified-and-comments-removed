@@ -30662,6 +30662,10 @@ GetPlatform
 ScreenReferenceDrawTarget
 (
 )
+.
+get
+(
+)
 )
 ;
 RefPtr
@@ -31810,6 +31814,10 @@ GetPlatform
 -
 >
 ScreenReferenceDrawTarget
+(
+)
+.
+get
 (
 )
 )

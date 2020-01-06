@@ -703,6 +703,8 @@ SourceSurface
 >
 GetSourceSurfaceForSurface
 (
+RefPtr
+<
 mozilla
 :
 :
@@ -710,7 +712,7 @@ gfx
 :
 :
 DrawTarget
-*
+>
 aTarget
 gfxASurface
 *
@@ -766,6 +768,10 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aFallback
+=
+false
 )
 ;
 already_AddRefed
@@ -1466,6 +1472,8 @@ return
 mScreenReferenceSurface
 ;
 }
+RefPtr
+<
 mozilla
 :
 :
@@ -1473,15 +1481,11 @@ gfx
 :
 :
 DrawTarget
-*
+>
 ScreenReferenceDrawTarget
 (
 )
-{
-return
-mScreenReferenceDrawTarget
 ;
-}
 virtual
 mozilla
 :
