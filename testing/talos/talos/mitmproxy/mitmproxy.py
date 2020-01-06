@@ -951,15 +951,7 @@ PATH
 "
 ]
     
-elif
-mozinfo
-.
-os
-=
-=
-'
-mac
-'
+else
 :
         
 param2
@@ -991,35 +983,6 @@ path
 dirname
 (
 browser_path
-)
-    
-else
-:
-        
-LOG
-.
-error
-(
-'
-Aborting
-:
-talos
-mitmproxy
-is
-currently
-only
-supported
-on
-Windows
-and
-Mac
-'
-)
-        
-sys
-.
-exit
-(
 )
     
 command
@@ -1214,13 +1177,13 @@ os
 =
 =
 '
-mac
+win
 '
 :
         
 mitmproxy_proc
 .
-terminate
+kill
 (
 )
     
@@ -1229,7 +1192,7 @@ else
         
 mitmproxy_proc
 .
-kill
+terminate
 (
 )
     
