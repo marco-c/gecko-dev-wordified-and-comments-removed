@@ -218,6 +218,14 @@ gfx
 Matrix4x4
 *
 aTransformPtr
+gfx
+:
+:
+Matrix4x4
+*
+aPerspectivePtr
+=
+nullptr
 const
 nsTArray
 <

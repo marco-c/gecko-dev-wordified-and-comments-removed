@@ -770,6 +770,13 @@ wr
 TransformStyle
 aTransformStyle
 const
+gfx
+:
+:
+Matrix4x4
+*
+aPerspective
+const
 wr
 :
 :
