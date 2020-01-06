@@ -1165,6 +1165,12 @@ AnonymousCounterStyle
 mozilla
 :
 :
+AtomArray
+"
+"
+mozilla
+:
+:
 ComputedTiming
 "
 "
@@ -2840,6 +2846,12 @@ mozilla
 :
 :
 AnonymousCounterStyle
+"
+"
+mozilla
+:
+:
+AtomArray
 "
 "
 mozilla
