@@ -37,6 +37,17 @@ gecko
 .
 R
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+TouchDelegateWithReset
+;
 public
 class
 TouchTargetUtil
@@ -189,7 +200,7 @@ TouchDelegate
 touchDelegate
 =
 new
-TouchDelegate
+TouchDelegateWithReset
 (
 delegateArea
 targetView
