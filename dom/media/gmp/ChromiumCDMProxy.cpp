@@ -2424,7 +2424,7 @@ const
 nsAString
 &
 aSessionId
-GMPTimestamp
+UnixTime
 aExpiryTime
 )
 {

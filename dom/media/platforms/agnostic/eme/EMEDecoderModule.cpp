@@ -43,15 +43,6 @@ h
 #
 include
 "
-gmp
--
-decryption
-.
-h
-"
-#
-include
-"
 mozIGeckoMediaPluginService
 .
 h
