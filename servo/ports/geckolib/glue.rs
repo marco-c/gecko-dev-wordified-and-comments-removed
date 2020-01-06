@@ -10392,7 +10392,6 @@ new
 &
 mut
 style
-false
 )
 .
 adjust_for_text
@@ -10739,8 +10738,6 @@ unsafe
 {
 (
 *
-(
-*
 data
 .
 stylist
@@ -10750,6 +10747,7 @@ device
 )
 .
 pres_context
+(
 )
 .
 mDocument

@@ -213,11 +213,10 @@ unsafe
 {
 (
 *
-(
-*
 device
 .
 pres_context
+(
 )
 .
 mDocument

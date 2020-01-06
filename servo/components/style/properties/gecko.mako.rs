@@ -12972,11 +12972,11 @@ mut
 self
 .
 gecko
-&
-*
 device
 .
 pres_context
+(
+)
 )
 }
 }
@@ -13520,11 +13520,11 @@ mut
 self
 .
 gecko
-&
-*
 device
 .
 pres_context
+(
+)
 )
 }
 }

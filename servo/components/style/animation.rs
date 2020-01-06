@@ -2224,7 +2224,6 @@ stylist
 device
 (
 )
-false
 iter
 previous_style
 previous_style

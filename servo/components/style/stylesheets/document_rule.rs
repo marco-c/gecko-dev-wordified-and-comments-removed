@@ -870,11 +870,11 @@ unsafe
 {
 Gecko_DocumentRule_UseForPresentation
 (
-&
-*
 device
 .
 pres_context
+(
+)
 &
 *
 pattern
