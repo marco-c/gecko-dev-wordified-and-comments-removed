@@ -4277,17 +4277,17 @@ variant
         
 if
 variant
-=
-=
+in
+(
 '
 stylo
 '
-or
 '
 stylo
 -
 sequential
 '
+)
 :
             
 buildername
