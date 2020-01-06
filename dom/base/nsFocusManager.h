@@ -869,14 +869,6 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
-void
-NotifyCurrentTopLevelContentWindowChange
-(
-nsPIDOMWindowOuter
-*
-aWindow
-)
-;
 nsCOMPtr
 <
 nsPIDOMWindowOuter
