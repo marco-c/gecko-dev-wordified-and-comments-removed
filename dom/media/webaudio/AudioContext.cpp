@@ -2574,7 +2574,6 @@ job
 new
 WebAudioDecodeJob
 (
-contentType
 this
 promise
 successCallback
