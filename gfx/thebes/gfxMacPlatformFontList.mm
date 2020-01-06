@@ -9131,12 +9131,6 @@ new
 font
 if
 (
-newFontEntry
--
->
-mIsValid
-&
-&
 NS_SUCCEEDED
 (
 newFontEntry
