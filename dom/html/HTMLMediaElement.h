@@ -3189,12 +3189,6 @@ DecoderPrincipalChangeObserver
 >
 mDecoderPrincipalChangeObservers
 ;
-WatchManager
-<
-HTMLMediaElement
->
-mWatchManager
-;
 RefPtr
 <
 VideoFrameContainer
