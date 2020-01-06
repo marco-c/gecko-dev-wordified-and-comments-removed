@@ -76,6 +76,11 @@ AnimationListHeader
 js
 '
 '
+AnimationTimelineTickItem
+.
+js
+'
+'
 AnimationTimelineTickList
 .
 js
