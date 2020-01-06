@@ -428,15 +428,6 @@ aType
 Type
 :
 :
-mozEmptyExceptChildrenWithLocalname
-|
-|
-aType
-=
-=
-Type
-:
-:
 mozSystemMetric
 |
 |
