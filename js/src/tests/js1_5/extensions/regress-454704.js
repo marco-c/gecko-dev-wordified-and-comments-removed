@@ -57,15 +57,6 @@ XPCSafeJSObjectWrapper
 '
 undefined
 '
-&
-&
-typeof
-document
-!
-=
-'
-undefined
-'
 )
 {
 gDelayTestDriverEnd
@@ -95,7 +86,7 @@ actual
 '
 Test
 requires
-browser
+XPCSafeJSObjectWrapper
 .
 '
 )
