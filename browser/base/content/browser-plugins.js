@@ -1874,13 +1874,12 @@ gNavigatorBundle
 getFormattedString
 (
 "
-pluginActivateNew
+pluginActivationWarning
 .
 message
 "
 [
-pluginName
-origin
+brand
 ]
 )
 ;
