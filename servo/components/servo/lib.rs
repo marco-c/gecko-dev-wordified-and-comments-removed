@@ -997,6 +997,11 @@ enable_profiler
 opts
 .
 webrender_stats
+enable_batcher
+:
+opts
+.
+webrender_batch
 debug
 :
 opts
