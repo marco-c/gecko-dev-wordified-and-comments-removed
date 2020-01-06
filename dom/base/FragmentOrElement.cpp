@@ -7210,7 +7210,7 @@ IsSVGElement
 )
 )
 {
-nsAtom
+nsStaticAtom
 *
 *
 *
@@ -10088,7 +10088,7 @@ IsSVGElement
 )
 )
 {
-nsAtom
+nsStaticAtom
 *
 *
 *
