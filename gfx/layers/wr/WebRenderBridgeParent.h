@@ -1318,6 +1318,9 @@ mPaused
 bool
 mDestroyed
 ;
+bool
+mIsSnapshotting
+;
 WebRenderScrollData
 mScrollData
 ;
