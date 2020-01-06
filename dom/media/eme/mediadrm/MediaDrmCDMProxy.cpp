@@ -1020,6 +1020,7 @@ dom
 :
 MediaKeyMessageType
 aMessageType
+const
 nsTArray
 <
 uint8_t
