@@ -12788,6 +12788,14 @@ mOnStopRequestCalled
 true
 ;
 }
+gHttpHandler
+-
+>
+OnStopRequest
+(
+this
+)
+;
 RemoveAsNonTailRequest
 (
 )

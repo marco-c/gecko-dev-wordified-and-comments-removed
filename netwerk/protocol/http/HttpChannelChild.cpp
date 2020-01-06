@@ -4870,6 +4870,14 @@ mOnStopRequestCalled
 =
 true
 ;
+gHttpHandler
+-
+>
+OnStopRequest
+(
+this
+)
+;
 ReleaseListeners
 (
 )
