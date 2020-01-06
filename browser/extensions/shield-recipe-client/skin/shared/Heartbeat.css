@@ -26,13 +26,6 @@ height
 :
 40px
 ;
-color
-:
-#
-333
-!
-important
-;
 }
 keyframes
 pulse
@@ -155,6 +148,13 @@ messageText
 .
 heartbeat
 {
+color
+:
+#
+333
+!
+important
+;
 margin
 -
 inline
