@@ -1815,6 +1815,10 @@ ImageMemAnimatedDiscardable
 )
 )
 ;
+mImageContainer
+=
+nullptr
+;
 gfx
 :
 :
@@ -4281,6 +4285,10 @@ if
 mAnimationState
 )
 {
+mImageContainer
+=
+nullptr
+;
 gfx
 :
 :
