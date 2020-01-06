@@ -7909,12 +7909,6 @@ CDATA
 [
 this
 .
-mInputElement
-=
-null
-;
-this
-.
 EVENTS
 .
 forEach
@@ -7975,6 +7969,12 @@ mozSystemGroup
 true
 }
 )
+;
+this
+.
+mInputElement
+=
+null
 ;
 ]
 ]
