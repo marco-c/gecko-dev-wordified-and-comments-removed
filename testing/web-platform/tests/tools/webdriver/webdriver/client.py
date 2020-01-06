@@ -1869,27 +1869,6 @@ rect
 body
 )
     
-property
-    
-command
-    
-def
-state
-(
-self
-)
-:
-        
-return
-self
-.
-rect
-[
-"
-state
-"
-]
-    
 command
     
 def

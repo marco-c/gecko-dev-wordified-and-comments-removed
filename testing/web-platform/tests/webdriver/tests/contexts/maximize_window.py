@@ -148,18 +148,6 @@ window
 .
 size
     
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-normal
-"
-    
 response
 =
 maximize
@@ -181,18 +169,6 @@ session
 window
 .
 size
-    
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-maximized
-"
 def
 test_payload
 (
@@ -207,18 +183,6 @@ session
 window
 .
 size
-    
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-normal
-"
     
 response
 =
@@ -289,13 +253,6 @@ in
 value
     
 assert
-"
-state
-"
-in
-value
-    
-assert
 isinstance
 (
 value
@@ -356,18 +313,6 @@ float
 )
     
 assert
-isinstance
-(
-value
-[
-"
-state
-"
-]
-basestring
-)
-    
-assert
 before_size
 !
 =
@@ -376,18 +321,6 @@ session
 window
 .
 size
-    
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-maximized
-"
 def
 test_maximize_twice_is_idempotent
 (
@@ -395,18 +328,6 @@ session
 )
 :
     
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-normal
-"
-    
 first_response
 =
 maximize
@@ -419,17 +340,13 @@ assert_success
 first_response
 )
     
-assert
+max_size
+=
 session
 .
 window
 .
-state
-=
-=
-"
-maximized
-"
+size
     
 second_response
 =
@@ -448,12 +365,10 @@ session
 .
 window
 .
-state
+size
 =
 =
-"
-maximized
-"
+max_size
 def
 test_maximize_when_resized_to_max_size
 (
@@ -467,18 +382,6 @@ end
 (
 )
     
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-normal
-"
-    
 available
 =
 session
@@ -488,18 +391,6 @@ window
 maximize
 (
 )
-    
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-maximized
-"
     
 session
 .
@@ -534,18 +425,6 @@ height
 )
 )
     
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-normal
-"
-    
 before
 =
 session
@@ -571,15 +450,3 @@ size
 =
 =
 before
-    
-assert
-session
-.
-window
-.
-state
-=
-=
-"
-maximized
-"
