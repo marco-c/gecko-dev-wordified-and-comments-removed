@@ -1293,6 +1293,26 @@ enabled
 "
 :
 False
+                                      
+"
+dom
+.
+send_after_paint_to_content
+"
+:
+True
+                                      
+"
+layout
+.
+interruptible
+-
+reflow
+.
+enabled
+"
+:
+False
 }
 )
         
