@@ -1371,15 +1371,6 @@ fonts
 -
 enable
 -
-clang
--
-plugin
-'
-'
--
--
-enable
--
 content
 -
 sandbox
