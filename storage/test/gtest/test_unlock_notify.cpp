@@ -57,6 +57,15 @@ char
 aSQL
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DatabaseLocker
+"
+)
 monitor
 (
 "

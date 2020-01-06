@@ -302,6 +302,15 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
+"
+ipc
+:
+:
+IToplevelProtocol
+:
+:
+Close
+"
 this
 &
 TestCancelParent

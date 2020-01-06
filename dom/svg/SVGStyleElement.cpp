@@ -248,6 +248,15 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+dom
+:
+:
+SVGStyleElement
+:
+:
+BindToTree
+"
 this
 update
 )

@@ -364,6 +364,15 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+Telemetry
+:
+:
+Common
+:
+:
+LogToBrowserConsole
+"
 [
 aLogLevel
 msg

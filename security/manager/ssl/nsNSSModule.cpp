@@ -498,6 +498,12 @@ SyncRunnable
 (
 NS_NewRunnableFunction
 (
+"
+psm
+:
+:
+Constructor
+"
 [
 &
 ]

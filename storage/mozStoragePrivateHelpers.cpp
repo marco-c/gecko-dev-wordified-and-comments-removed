@@ -1196,6 +1196,15 @@ mozIStorageCompletionCallback
 aCallback
 )
 :
+Runnable
+(
+"
+storage
+:
+:
+CallbackEvent
+"
+)
 mCallback
 (
 aCallback

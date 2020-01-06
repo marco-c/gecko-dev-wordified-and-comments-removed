@@ -797,6 +797,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+layers
+:
+:
+DestroyTextureData
+"
 [
 aTextureData
 allocatorRef

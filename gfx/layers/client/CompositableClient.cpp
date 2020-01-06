@@ -728,6 +728,15 @@ runnable
 =
 NS_NewRunnableFunction
 (
+"
+layers
+:
+:
+CompositableClient
+:
+:
+GetTextureClientRecycler
+"
 [
 &
 ]

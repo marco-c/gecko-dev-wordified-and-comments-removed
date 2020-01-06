@@ -93,6 +93,15 @@ size_t
 aSharedData
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+RWLockRunnable
+"
+)
 mRWLock
 (
 aRWLock

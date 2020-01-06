@@ -359,6 +359,12 @@ TaskCategory
 Other
 NewNonOwningRunnableMethod
 (
+"
+MediaResource
+:
+:
+Destroy
+"
 this
 &
 MediaResource

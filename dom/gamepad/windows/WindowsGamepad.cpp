@@ -4910,6 +4910,13 @@ public
 StartWindowsGamepadServiceRunnable
 (
 )
+:
+Runnable
+(
+"
+StartWindowsGamepadServiceRunnable
+"
+)
 {
 }
 NS_IMETHOD
@@ -5077,6 +5084,13 @@ public
 :
 StopWindowsGamepadServiceRunnable
 (
+)
+:
+Runnable
+(
+"
+StopWindowsGamepadServiceRunnable
+"
 )
 {
 }

@@ -1194,6 +1194,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+DeviceAttachmentsD3D11
+:
+:
+InitSyncObject
+"
 [
 ]
 (

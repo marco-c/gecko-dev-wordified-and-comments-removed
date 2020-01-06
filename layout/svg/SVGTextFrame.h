@@ -376,6 +376,12 @@ SVGTextFrame
 aFrame
 )
 :
+Runnable
+(
+"
+GlyphMetricsUpdater
+"
+)
 mFrame
 (
 aFrame

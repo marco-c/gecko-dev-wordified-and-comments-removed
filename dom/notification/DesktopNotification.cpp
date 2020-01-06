@@ -157,6 +157,15 @@ DesktopNotification
 aNotification
 )
 :
+Runnable
+(
+"
+dom
+:
+:
+DesktopNotificationRequest
+"
+)
 mDesktopNotification
 (
 aNotification

@@ -398,6 +398,12 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
+"
+FileBlockCache
+:
+:
+Init
+"
 [
 self
 ]
@@ -652,6 +658,12 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
+"
+FileBlockCache
+:
+:
+Close
+"
 [
 thread
 fd

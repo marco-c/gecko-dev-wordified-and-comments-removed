@@ -614,6 +614,15 @@ revocation
 =
 NS_NewRunnableFunction
 (
+"
+dom
+:
+:
+URLMainThread
+:
+:
+CreateObjectURL
+"
 [
 url
 ]

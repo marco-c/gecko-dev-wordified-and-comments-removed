@@ -2585,6 +2585,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+nsInputStreamPump
+:
+:
+CallOnStateStop
+"
 this
 &
 nsInputStreamPump

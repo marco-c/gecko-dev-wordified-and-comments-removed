@@ -189,6 +189,15 @@ uint32_t
 aEnsureRunsAfterMS
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+MessageLoopIdleTask
+"
+)
 mTask
 (
 aTask

@@ -895,6 +895,15 @@ PostTask
 (
 NewRunnableMethod
 (
+"
+gmp
+:
+:
+GMPVideoDecoderChild
+:
+:
+RecvDecodingComplete
+"
 this
 &
 GMPVideoDecoderChild

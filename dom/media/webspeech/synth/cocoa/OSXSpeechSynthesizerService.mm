@@ -981,6 +981,12 @@ OSXVoice
 aList
 )
 :
+Runnable
+(
+"
+RegisterVoicesRunnable
+"
+)
 mSpeechService
 (
 aSpeechService
@@ -1160,6 +1166,12 @@ OSXSpeechSynthesizerService
 aSpeechService
 )
 :
+Runnable
+(
+"
+EnumVoicesRunnable
+"
+)
 mSpeechService
 (
 aSpeechService

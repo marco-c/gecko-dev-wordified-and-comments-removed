@@ -2647,6 +2647,15 @@ UDPSocket
 aSocket
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+OpenSocketRunnable
+"
+)
 mSocket
 (
 aSocket

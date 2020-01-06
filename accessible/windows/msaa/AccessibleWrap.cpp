@@ -3221,6 +3221,12 @@ mozilla
 :
 NewRunnableMethod
 (
+"
+Accessible
+:
+:
+TakeFocus
+"
 this
 &
 Accessible

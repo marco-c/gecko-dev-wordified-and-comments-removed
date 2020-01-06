@@ -2113,6 +2113,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+CubebUtils
+:
+:
+InitLibrary
+"
 &
 InitBrandName
 )

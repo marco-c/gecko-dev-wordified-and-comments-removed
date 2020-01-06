@@ -203,6 +203,15 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+dom
+:
+:
+XMLStylesheetProcessingInstruction
+:
+:
+BindToTree
+"
 this
 update
 )

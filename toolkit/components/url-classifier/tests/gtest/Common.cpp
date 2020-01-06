@@ -109,6 +109,9 @@ r
 =
 NS_NewRunnableFunction
 (
+"
+RunTestInNewThread
+"
 mozilla
 :
 :
@@ -204,6 +207,9 @@ r
 =
 NS_NewRunnableFunction
 (
+"
+SyncApplyUpdates
+"
 [
 &
 done
@@ -238,6 +244,9 @@ r
 =
 NS_NewRunnableFunction
 (
+"
+SyncApplyUpdates
+"
 [
 &
 ]

@@ -618,6 +618,15 @@ uint64_t
 aWindowId
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+ServiceWorkerClientPostMessageRunnable
+"
+)
 StructuredCloneHolder
 (
 CloningSupported

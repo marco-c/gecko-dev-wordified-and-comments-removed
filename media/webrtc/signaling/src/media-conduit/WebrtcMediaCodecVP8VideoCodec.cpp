@@ -1231,6 +1231,12 @@ MediaCodecOutputDrain
 (
 )
 :
+Runnable
+(
+"
+MediaCodecOutputDrain
+"
+)
 mMonitor
 (
 "

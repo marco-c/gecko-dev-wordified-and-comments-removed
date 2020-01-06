@@ -516,6 +516,15 @@ bool
 aRootHasSecureConnection
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsMixedContentEvent
+"
+)
 mContext
 (
 aContext
@@ -3224,7 +3233,6 @@ aContentLocation
 originAttributes
 &
 cached
-nullptr
 &
 hsts
 )
@@ -4094,7 +4102,6 @@ HEADER_HSTS
 aURI
 0
 aOriginAttributes
-nullptr
 nullptr
 &
 hsts

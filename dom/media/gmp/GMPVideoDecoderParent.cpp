@@ -979,6 +979,15 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+gmp
+:
+:
+GMPVideoDecoderParent
+:
+:
+Reset
+"
 [
 self
 ]
@@ -1004,6 +1013,8 @@ ResetCompleteTimeout
 )
 timed
 out
+"
+"
 waiting
 for
 ResetComplete

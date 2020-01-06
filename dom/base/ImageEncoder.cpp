@@ -2375,6 +2375,15 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+dom
+:
+:
+ImageEncoder
+:
+:
+EnsureThreadPool
+"
 [
 ]
 (

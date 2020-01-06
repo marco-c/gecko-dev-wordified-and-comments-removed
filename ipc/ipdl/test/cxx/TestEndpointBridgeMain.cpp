@@ -961,6 +961,15 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
+"
+ipc
+:
+:
+IToplevelProtocol
+:
+:
+Close
+"
 this
 &
 TestEndpointBridgeMainSubChild

@@ -1017,6 +1017,9 @@ PostIdleTask
 (
 NS_NewRunnableFunction
 (
+"
+OnNativeCall
+"
 Move
 (
 Base

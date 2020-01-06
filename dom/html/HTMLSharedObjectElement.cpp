@@ -503,6 +503,15 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+dom
+:
+:
+HTMLSharedObjectElement
+:
+:
+BindToTree
+"
 this
 start
 )
