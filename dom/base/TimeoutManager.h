@@ -517,6 +517,8 @@ TimeDuration
 bool
 BudgetThrottlingEnabled
 (
+bool
+aIsBackground
 )
 const
 ;
