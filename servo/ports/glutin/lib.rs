@@ -90,6 +90,10 @@ script_traits
 ;
 extern
 crate
+servo
+;
+extern
+crate
 servo_config
 ;
 extern
