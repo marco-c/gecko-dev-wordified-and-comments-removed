@@ -86,7 +86,28 @@ usage
     
 long_description
 =
-description
+"
+see
+https
+:
+/
+/
+firefox
+-
+source
+-
+docs
+.
+mozilla
+.
+org
+/
+mozbase
+/
+index
+.
+html
+"
     
 license
 =

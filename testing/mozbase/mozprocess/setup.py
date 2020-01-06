@@ -37,19 +37,28 @@ handling
       
 long_description
 =
-'
+"
 see
-http
+https
 :
 /
 /
-mozbase
+firefox
+-
+source
+-
+docs
 .
-readthedocs
+mozilla
 .
 org
 /
-'
+mozbase
+/
+index
+.
+html
+"
       
 classifiers
 =
