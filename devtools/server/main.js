@@ -1088,17 +1088,9 @@ registerActors
 (
 {
 root
-=
-true
 browser
-=
-true
 tab
-=
-true
 windowType
-=
-null
 }
 )
 {
