@@ -100,6 +100,10 @@ WebExtensionPolicy
 =
 Cu
 .
+getGlobalForObject
+(
+Cu
+.
 import
 (
 "
@@ -117,6 +121,7 @@ jsm
 "
 {
 }
+)
 )
 ;
 let

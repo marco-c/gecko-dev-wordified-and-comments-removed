@@ -87,7 +87,12 @@ TextEncoder
 TextDecoder
 }
 =
+Cu
+.
+getGlobalForObject
+(
 jsmScope
+)
 ;
 const
 {
