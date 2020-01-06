@@ -952,14 +952,6 @@ upload
 -
 nightly
 mac
--
-.
-/
-mach
-upload
--
-nightly
-macbrew
 linux
 -
 rel
