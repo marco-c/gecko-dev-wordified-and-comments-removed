@@ -851,6 +851,13 @@ GetInsideBullet
 )
 ;
 }
+nsIFrame
+*
+GetFirstLetter
+(
+)
+const
+;
 void
 MarkIntrinsicISizesDirty
 (
