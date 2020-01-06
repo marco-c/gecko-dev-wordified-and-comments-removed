@@ -322,6 +322,15 @@ always
 multiline
 "
 ]
+"
+dot
+-
+notation
+"
+:
+"
+error
+"
 }
 }
 ;
