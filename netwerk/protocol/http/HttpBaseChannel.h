@@ -2031,6 +2031,7 @@ DoNotifyListenerCleanup
 =
 0
 ;
+virtual
 void
 ReleaseListeners
 (
