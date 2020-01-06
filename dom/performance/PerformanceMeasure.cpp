@@ -70,17 +70,6 @@ aEndTime
 aStartTime
 )
 {
-MOZ_ASSERT
-(
-mParent
-|
-|
-!
-NS_IsMainThread
-(
-)
-)
-;
 }
 PerformanceMeasure
 :

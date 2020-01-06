@@ -246,6 +246,8 @@ aMallocSizeOf
 )
 const
 ;
+private
+:
 nsCOMPtr
 <
 nsISupports

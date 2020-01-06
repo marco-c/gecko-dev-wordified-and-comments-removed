@@ -62,17 +62,6 @@ mStartTime
 aStartTime
 )
 {
-MOZ_ASSERT
-(
-mParent
-|
-|
-!
-NS_IsMainThread
-(
-)
-)
-;
 }
 PerformanceMark
 :

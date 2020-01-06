@@ -91,17 +91,6 @@ mEntryType
 aEntryType
 )
 {
-MOZ_ASSERT
-(
-mParent
-|
-|
-!
-NS_IsMainThread
-(
-)
-)
-;
 }
 PerformanceEntry
 :
