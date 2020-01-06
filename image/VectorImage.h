@@ -196,6 +196,13 @@ ImageURL
 aURI
 =
 nullptr
+StyleBackendType
+aStyleBackendType
+=
+StyleBackendType
+:
+:
+None
 )
 ;
 virtual
@@ -341,6 +348,9 @@ mHaveAnimations
 ;
 bool
 mHasPendingInvalidation
+;
+StyleBackendType
+mStyleBackendType
 ;
 friend
 class
