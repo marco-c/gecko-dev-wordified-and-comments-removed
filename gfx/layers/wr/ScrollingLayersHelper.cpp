@@ -256,7 +256,7 @@ aStackingContext
 )
 ;
 }
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 fm
 aStackingContext
@@ -763,7 +763,7 @@ aCache
 ;
 if
 (
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 metadata
 -
@@ -1032,7 +1032,7 @@ bool
 ScrollingLayersHelper
 :
 :
-PushScrollLayer
+DefineAndPushScrollLayer
 (
 const
 FrameMetrics
@@ -1116,7 +1116,7 @@ TopLeft
 mBuilder
 -
 >
-PushScrollLayer
+DefineScrollLayer
 (
 aMetrics
 .
@@ -1134,6 +1134,18 @@ aStackingContext
 ToRelativeLayoutRect
 (
 clipBounds
+)
+)
+;
+mBuilder
+-
+>
+PushScrollLayer
+(
+aMetrics
+.
+GetScrollId
+(
 )
 )
 ;
