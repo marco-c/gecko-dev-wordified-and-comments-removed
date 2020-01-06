@@ -348,8 +348,6 @@ AreAllStreamsForResourceSuspended
 nsresult
 Seek
 (
-int32_t
-aWhence
 int64_t
 aOffset
 )
