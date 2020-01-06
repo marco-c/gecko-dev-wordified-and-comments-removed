@@ -47,6 +47,7 @@ data
 ComputedStyle
 ElementData
 ElementStyles
+RestyleData
 }
 ;
 use
@@ -314,6 +315,14 @@ size_of_test
 test_size_of_element_data
 ElementData
 56
+)
+;
+size_of_test
+!
+(
+test_size_of_restyle_data
+RestyleData
+8
 )
 ;
 size_of_test
