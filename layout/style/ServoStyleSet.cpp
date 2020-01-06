@@ -2152,6 +2152,14 @@ aType
 )
 &
 &
+aOriginatingElement
+-
+>
+HasServoData
+(
+)
+&
+&
 !
 Servo_Element_IsPrimaryStyleReusedViaRuleNode
 (
