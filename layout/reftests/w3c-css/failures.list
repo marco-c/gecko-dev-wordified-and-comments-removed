@@ -532,7 +532,7 @@ html
 #
 bug
 1367947
-fails
+skip
 -
 if
 (

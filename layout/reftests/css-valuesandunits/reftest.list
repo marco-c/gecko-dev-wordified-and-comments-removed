@@ -1,4 +1,4 @@
-fails
+skip
 -
 if
 (
@@ -25,7 +25,7 @@ rem
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -54,7 +54,7 @@ rem
 ref
 .
 html
-fails
+skip
 -
 if
 (
@@ -176,7 +176,7 @@ root
 width
 .
 html
-fails
+skip
 -
 if
 (
