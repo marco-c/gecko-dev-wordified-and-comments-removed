@@ -213,7 +213,9 @@ correct
 let
 promiseTitleChange
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemChanged

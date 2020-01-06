@@ -95,7 +95,9 @@ dialogWin
 let
 promiseTitleChangeNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemChanged

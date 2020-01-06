@@ -362,7 +362,9 @@ enabled
 let
 promiseURIRemoved
 =
-promiseHistoryNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onDeleteURI
@@ -376,6 +378,9 @@ equals
 (
 v
 )
+"
+history
+"
 )
 ;
 PO
@@ -802,7 +807,9 @@ enabled
 let
 promiseItemRemoved
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemRemoved

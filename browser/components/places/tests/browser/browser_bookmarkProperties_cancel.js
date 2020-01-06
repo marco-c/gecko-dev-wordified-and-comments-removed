@@ -597,7 +597,9 @@ enabled
 let
 promiseTitleChangeNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemChanged
