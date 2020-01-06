@@ -312,7 +312,8 @@ mRefCnt
 Mutex
 mMutex
 ;
-REFIID
+const
+IID
 mTargetUnkIid
 ;
 mscom
