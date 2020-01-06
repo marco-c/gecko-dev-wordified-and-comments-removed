@@ -6606,14 +6606,6 @@ intended
 return
 namespace
 (
-build
-=
-bool
-(
-stylo_config
-.
-build
-)
 libclang_path
 =
 bindgen_config_paths
@@ -6636,7 +6628,7 @@ set_config
 '
 MOZ_STYLO
 '
-stylo
+stylo_config
 .
 build
 )
@@ -6645,7 +6637,7 @@ set_define
 '
 MOZ_STYLO
 '
-stylo
+stylo_config
 .
 build
 )
