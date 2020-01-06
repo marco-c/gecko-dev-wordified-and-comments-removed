@@ -253,7 +253,7 @@ MegamorphicLoadSlotByValueResult
 \
 _
 (
-MegamorphicHasOwnResult
+MegamorphicHasPropResult
 )
 \
 _
