@@ -1602,7 +1602,7 @@ e10s
 default
 =
 '
-both
+true
 '
 )
 :
@@ -2568,7 +2568,7 @@ setdefault
 e10s
 '
 '
-both
+true
 '
 )
         
