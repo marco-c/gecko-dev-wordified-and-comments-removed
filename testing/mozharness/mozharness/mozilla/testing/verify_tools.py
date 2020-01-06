@@ -3,6 +3,8 @@ argparse
 import
 os
 import
+posixpath
+import
 re
 import
 sys
@@ -893,6 +895,20 @@ file
 in
 changed_files
 :
+            
+file
+=
+file
+.
+replace
+(
+posixpath
+.
+sep
+os
+.
+sep
+)
             
 entry
 =

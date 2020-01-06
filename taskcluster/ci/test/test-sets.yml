@@ -822,6 +822,10 @@ no
 -
 accel
 -
+test
+-
+verify
+-
 web
 -
 platform
@@ -1101,6 +1105,10 @@ mochitest
 webgl
 -
 reftest
+-
+test
+-
+verify
 -
 web
 -

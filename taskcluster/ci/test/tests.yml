@@ -11058,6 +11058,17 @@ test
 -
 platform
 :
+macosx
+.
+*
+:
+3
+windows
+.
+*
+:
+3
+#
 windows10
 -
 64
