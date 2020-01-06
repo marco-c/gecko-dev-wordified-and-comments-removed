@@ -629,13 +629,6 @@ h
 #
 include
 "
-nsIJSON
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

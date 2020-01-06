@@ -687,13 +687,6 @@ BINPATH
 /
 components
 /
-dom_json
-.
-xpt
-BINPATH
-/
-components
-/
 dom_payments
 .
 xpt

@@ -200,9 +200,6 @@ security
 storage
 '
 '
-json
-'
-'
 offline
 '
 '
@@ -313,9 +310,6 @@ grid
 '
 '
 html
-'
-'
-json
 '
 '
 jsurl
