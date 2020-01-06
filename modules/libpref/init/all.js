@@ -7297,7 +7297,7 @@ touch_move_tolerance
 "
 0
 .
-03
+1
 "
 )
 ;
