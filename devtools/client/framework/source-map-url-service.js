@@ -332,6 +332,17 @@ _
 sourceEvent
 )
 {
+if
+(
+!
+this
+.
+_urls
+)
+{
+return
+;
+}
 let
 {
 source
