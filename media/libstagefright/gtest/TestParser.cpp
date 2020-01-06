@@ -1001,6 +1001,9 @@ mFilename
 uint32_t
 mNumberVideoTracks
 ;
+bool
+mHasVideoIndice
+;
 int64_t
 mVideoDuration
 ;
@@ -1048,6 +1051,7 @@ test_case_1156505
 mp4
 "
 0
+false
 -
 1
 0
@@ -1068,6 +1072,7 @@ test_case_1181213
 mp4
 "
 0
+false
 -
 1
 0
@@ -1088,6 +1093,7 @@ test_case_1181215
 mp4
 "
 0
+false
 -
 1
 0
@@ -1108,6 +1114,7 @@ test_case_1181220
 mp4
 "
 0
+false
 -
 1
 0
@@ -1128,6 +1135,7 @@ test_case_1181223
 mp4
 "
 0
+false
 -
 1
 0
@@ -1148,6 +1156,7 @@ test_case_1181719
 mp4
 "
 0
+false
 -
 1
 0
@@ -1168,6 +1177,7 @@ test_case_1185230
 mp4
 "
 1
+true
 416666
 320
 240
@@ -1186,6 +1196,7 @@ test_case_1187067
 mp4
 "
 1
+true
 80000
 160
 90
@@ -1205,6 +1216,7 @@ test_case_1200326
 mp4
 "
 0
+false
 -
 1
 0
@@ -1225,6 +1237,7 @@ test_case_1204580
 mp4
 "
 1
+true
 502500
 320
 180
@@ -1244,6 +1257,7 @@ test_case_1216748
 mp4
 "
 0
+false
 -
 1
 0
@@ -1264,6 +1278,7 @@ test_case_1296473
 mp4
 "
 0
+false
 -
 1
 0
@@ -1284,6 +1299,7 @@ test_case_1296532
 mp4
 "
 1
+true
 5589333
 560
 320
@@ -1302,6 +1318,7 @@ test_case_1301065
 mp4
 "
 0
+false
 -
 1
 0
@@ -1323,6 +1340,7 @@ u32max
 mp4
 "
 0
+false
 -
 1
 0
@@ -1346,6 +1364,7 @@ ez
 mp4
 "
 0
+false
 -
 1
 0
@@ -1367,6 +1386,7 @@ harder
 mp4
 "
 0
+false
 -
 1
 0
@@ -1390,6 +1410,7 @@ ok
 mp4
 "
 0
+false
 -
 1
 0
@@ -1411,6 +1432,7 @@ overfl
 mp4
 "
 0
+false
 -
 1
 0
@@ -1433,6 +1455,7 @@ i64max
 mp4
 "
 0
+false
 -
 1
 0
@@ -1455,6 +1478,7 @@ i64min
 mp4
 "
 0
+false
 -
 1
 0
@@ -1477,6 +1501,7 @@ u64max
 mp4
 "
 0
+false
 -
 1
 0
@@ -1496,6 +1521,7 @@ test_case_1329061
 mov
 "
 0
+false
 -
 1
 0
@@ -1515,6 +1541,7 @@ test_case_1351094
 mp4
 "
 0
+false
 -
 1
 0
@@ -1545,6 +1572,7 @@ test_case_1156505
 mp4
 "
 0
+false
 -
 1
 0
@@ -1565,6 +1593,7 @@ test_case_1181213
 mp4
 "
 1
+true
 416666
 320
 240
@@ -1583,6 +1612,7 @@ test_case_1181215
 mp4
 "
 0
+false
 -
 1
 0
@@ -1603,6 +1633,7 @@ test_case_1181220
 mp4
 "
 0
+false
 -
 1
 0
@@ -1623,6 +1654,7 @@ test_case_1181223
 mp4
 "
 0
+false
 416666
 320
 240
@@ -1642,6 +1674,7 @@ test_case_1181719
 mp4
 "
 0
+false
 -
 1
 0
@@ -1662,6 +1695,7 @@ test_case_1185230
 mp4
 "
 2
+true
 416666
 320
 240
@@ -1680,6 +1714,7 @@ test_case_1187067
 mp4
 "
 1
+true
 80000
 160
 90
@@ -1699,6 +1734,7 @@ test_case_1200326
 mp4
 "
 0
+false
 -
 1
 0
@@ -1719,6 +1755,7 @@ test_case_1204580
 mp4
 "
 1
+true
 502500
 320
 180
@@ -1738,6 +1775,7 @@ test_case_1216748
 mp4
 "
 0
+false
 -
 1
 0
@@ -1758,6 +1796,7 @@ test_case_1296473
 mp4
 "
 0
+false
 -
 1
 0
@@ -1778,6 +1817,7 @@ test_case_1296532
 mp4
 "
 1
+true
 5589333
 560
 320
@@ -1796,6 +1836,7 @@ test_case_1301065
 mp4
 "
 0
+false
 -
 1
 0
@@ -1817,6 +1858,7 @@ u32max
 mp4
 "
 0
+false
 -
 1
 0
@@ -1840,6 +1882,7 @@ ez
 mp4
 "
 0
+false
 -
 1
 0
@@ -1861,6 +1904,7 @@ harder
 mp4
 "
 0
+false
 -
 1
 0
@@ -1884,6 +1928,7 @@ ok
 mp4
 "
 0
+false
 -
 1
 0
@@ -1905,6 +1950,7 @@ i64max
 mp4
 "
 0
+false
 -
 1
 0
@@ -1927,6 +1973,7 @@ i64min
 mp4
 "
 0
+false
 -
 1
 0
@@ -1949,6 +1996,7 @@ u64max
 mp4
 "
 0
+false
 -
 1
 0
@@ -1968,6 +2016,7 @@ test_case_1329061
 mov
 "
 0
+false
 -
 1
 0
@@ -1987,6 +2036,7 @@ test_case_1351094
 mp4
 "
 0
+false
 -
 1
 0
@@ -2007,6 +2057,7 @@ test_case_1389299
 mp4
 "
 1
+true
 5589333
 560
 320
@@ -2016,6 +2067,25 @@ true
 0
 true
 true
+2
+}
+{
+"
+test_case_1389527
+.
+mp4
+"
+1
+false
+5005000
+80
+128
+1
+4992000
+false
+0
+false
+false
 2
 }
 }
@@ -2745,7 +2815,7 @@ videoInfo
 mTrackId
 )
 ;
-EXPECT_TRUE
+EXPECT_EQ
 (
 !
 !
@@ -2754,6 +2824,12 @@ indices
 Ref
 (
 )
+tests
+[
+test
+]
+.
+mHasVideoIndice
 )
 <
 <
@@ -2779,6 +2855,16 @@ test
 .
 mFilename
 ;
+if
+(
+tests
+[
+test
+]
+.
+mHasVideoIndice
+)
+{
 for
 (
 size_t
@@ -2919,6 +3005,7 @@ test
 .
 mFilename
 ;
+}
 }
 }
 trackInfo
