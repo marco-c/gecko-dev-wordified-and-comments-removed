@@ -2963,9 +2963,6 @@ filter
 /
 activity
 >
-#
-ifdef
-MOZ_ANDROID_CUSTOM_TABS
 <
 activity
 android
@@ -3028,8 +3025,6 @@ GeckoCustomTabs
 "
 /
 >
-#
-endif
 <
 activity
 android
@@ -3738,9 +3733,6 @@ false
 "
 /
 >
-#
-ifdef
-MOZ_ANDROID_CUSTOM_TABS
 <
 service
 android
@@ -3800,8 +3792,6 @@ filter
 /
 service
 >
-#
-endif
 #
 include
 .
