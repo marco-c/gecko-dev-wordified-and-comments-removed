@@ -688,6 +688,9 @@ gridTexture
 .
 png
 )
+#
+ifndef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -732,6 +735,8 @@ separatorVertical
 .
 png
 )
+#
+endif
 *
 skin
 /
