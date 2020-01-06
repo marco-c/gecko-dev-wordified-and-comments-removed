@@ -6,6 +6,9 @@ HangStack
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 shared
@@ -14,6 +17,8 @@ libraries
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -550,6 +555,9 @@ Clear
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 AutoTArray
 <
 Frame
@@ -840,6 +848,8 @@ module
 ;
 }
 }
+#
+endif
 }
 }
 namespace
