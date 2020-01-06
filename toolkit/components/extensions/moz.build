@@ -420,6 +420,17 @@ xpcshell
 /
 xpcshell
 -
+e10s
+.
+ini
+'
+'
+test
+/
+xpcshell
+/
+xpcshell
+-
 remote
 .
 ini
