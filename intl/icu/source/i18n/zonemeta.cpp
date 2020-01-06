@@ -3401,11 +3401,6 @@ status
 delete
 mzMappings
 ;
-deleteOlsonToMetaMappingEntry
-(
-entry
-)
-;
 uprv_free
 (
 entry
