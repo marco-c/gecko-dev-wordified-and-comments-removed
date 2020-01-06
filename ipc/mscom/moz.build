@@ -124,11 +124,6 @@ EnsureMTA
 h
 '
 '
-FastMarshaler
-.
-h
-'
-'
 MainThreadClientInfo
 .
 h
@@ -185,11 +180,6 @@ cpp
 '
 '
 EnsureMTA
-.
-cpp
-'
-'
-FastMarshaler
 .
 cpp
 '
@@ -277,6 +267,11 @@ DispatchForwarder
 h
 '
 '
+FastMarshaler
+.
+h
+'
+'
 IHandlerProvider
 .
 h
@@ -358,6 +353,11 @@ cpp
 '
 '
 DispatchForwarder
+.
+cpp
+'
+'
+FastMarshaler
 .
 cpp
 '

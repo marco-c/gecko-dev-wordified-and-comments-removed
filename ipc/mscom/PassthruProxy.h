@@ -18,6 +18,17 @@ include
 "
 mozilla
 /
+mscom
+/
+Ptr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NotNull
 .
 h
