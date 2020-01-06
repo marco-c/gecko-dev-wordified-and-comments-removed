@@ -2152,12 +2152,13 @@ properties
 :
 apply_declarations
 (
-&
 context
 .
 stylist
 .
 device
+(
+)
 false
 iter
 previous_style

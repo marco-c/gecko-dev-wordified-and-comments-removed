@@ -882,12 +882,13 @@ new
 (
 cascade
 (
-&
 shared_context
 .
 stylist
 .
 device
+(
+)
 rule_node
 &
 shared_context
@@ -1452,6 +1453,8 @@ shared
 stylist
 .
 rule_tree
+(
+)
 .
 remove_transition_rule_if_applicable
 (
@@ -3019,6 +3022,8 @@ shared
 stylist
 .
 rule_tree
+(
+)
 .
 update_rule_at_level
 (
@@ -3078,6 +3083,8 @@ shared
 stylist
 .
 rule_tree
+(
+)
 .
 update_rule_at_level
 (
@@ -3322,10 +3329,11 @@ compute_rule_node
 Self
 >
 (
-&
 stylist
 .
 rule_tree
+(
+)
 &
 mut
 applicable_declarations
@@ -3546,10 +3554,11 @@ guards
 let
 rule_tree
 =
-&
 stylist
 .
 rule_tree
+(
+)
 ;
 let
 bloom_filter
@@ -4178,6 +4187,8 @@ shared
 stylist
 .
 rule_tree
+(
+)
 .
 update_rule_at_level
 (
@@ -4844,6 +4855,8 @@ shared_context
 stylist
 .
 rule_tree
+(
+)
 .
 remove_animation_rules
 (
