@@ -24,9 +24,9 @@ mozilla
 enum
 AudioSampleFormat
 {
+AUDIO_FORMAT_SILENCE
 AUDIO_FORMAT_S16
 AUDIO_FORMAT_FLOAT32
-AUDIO_FORMAT_SILENCE
 #
 ifdef
 MOZ_SAMPLE_TYPE_S16
@@ -1062,7 +1062,7 @@ static_assert
 AUDIO_FORMAT_S16
 =
 =
-0
+1
 "
 Bad
 constant
@@ -1074,7 +1074,7 @@ static_assert
 AUDIO_FORMAT_FLOAT32
 =
 =
-1
+2
 "
 Bad
 constant
@@ -1106,11 +1106,7 @@ uint8_t
 aBase
 )
 +
-(
 aFormat
-+
-1
-)
 *
 2
 *
