@@ -2416,6 +2416,13 @@ unicode
 Script
 Script
 ;
+typedef
+gfxShapedText
+:
+:
+CompressedGlyph
+CompressedGlyph
+;
 static
 void
 Shutdown
