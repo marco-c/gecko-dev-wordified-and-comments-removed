@@ -70,6 +70,9 @@ ffi
 :
 CString
 ;
+use
+thread_state
+;
 pub
 struct
 GlobalStyleData
@@ -133,6 +136,13 @@ index
 usize
 )
 {
+thread_state
+:
+:
+initialize_layout_worker_thread
+(
+)
+;
 unsafe
 {
 Gecko_SetJemallocThreadLocalArena
