@@ -1231,7 +1231,7 @@ forget
 )
 ;
 }
-CSSRuleList
+ServoCSSRuleList
 *
 ServoStyleSheet
 :
