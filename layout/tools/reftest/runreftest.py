@@ -2398,6 +2398,19 @@ int
 (
 port
 )
+            
+prefs
+[
+'
+marionette
+.
+logging
+'
+]
+=
+"
+TRACE
+"
         
 preference_file
 =
