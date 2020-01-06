@@ -896,7 +896,7 @@ pathMatches
 (
 url
 .
-path
+pathname
 )
 )
 {
