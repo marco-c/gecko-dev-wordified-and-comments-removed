@@ -187,11 +187,6 @@ dict
 c
 '
 '
-display
-.
-c
-'
-'
 dummy_funcs
 .
 c
