@@ -1422,7 +1422,7 @@ NS_OK
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 host
 =
@@ -1856,7 +1856,7 @@ NS_OK
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 host
 =

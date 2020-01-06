@@ -1292,7 +1292,7 @@ dot
 dot
 ;
 const
-nsCSubstring
+nsACString
 &
 tail
 =
@@ -1353,7 +1353,7 @@ NS_OK
 ;
 }
 const
-nsCSubstring
+nsACString
 &
 firstTail
 =

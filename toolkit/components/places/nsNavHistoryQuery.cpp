@@ -75,7 +75,7 @@ public
 QueryKeyValuePair
 (
 const
-nsCSubstring
+nsACString
 &
 aSource
 int32_t

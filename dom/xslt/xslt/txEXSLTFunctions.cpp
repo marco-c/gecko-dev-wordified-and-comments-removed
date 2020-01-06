@@ -575,7 +575,7 @@ nsIAtom
 *
 aName
 const
-nsSubstring
+nsAString
 &
 aValue
 txNodeSet

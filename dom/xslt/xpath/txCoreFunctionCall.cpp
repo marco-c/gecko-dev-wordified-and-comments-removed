@@ -2333,7 +2333,7 @@ NS_OK
 ;
 }
 const
-nsSubstring
+nsAString
 &
 result
 =

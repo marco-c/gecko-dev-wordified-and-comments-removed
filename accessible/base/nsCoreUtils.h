@@ -569,7 +569,7 @@ bool
 IsWhitespaceString
 (
 const
-nsSubstring
+nsAString
 &
 aString
 )

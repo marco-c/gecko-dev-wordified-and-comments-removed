@@ -455,7 +455,7 @@ nsresult
 SendFTPCommand
 (
 const
-nsCSubstring
+nsACString
 &
 command
 )

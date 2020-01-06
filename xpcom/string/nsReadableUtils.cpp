@@ -3309,7 +3309,7 @@ aSourceLength
 void
 ToUpperCase
 (
-nsCSubstring
+nsACString
 &
 aCString
 )
@@ -3699,7 +3699,7 @@ aSourceLength
 void
 ToLowerCase
 (
-nsCSubstring
+nsACString
 &
 aCString
 )

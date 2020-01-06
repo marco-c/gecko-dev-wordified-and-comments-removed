@@ -211,11 +211,11 @@ nsStyleUtil
 ValueIncludes
 (
 const
-nsSubstring
+nsAString
 &
 aValueList
 const
-nsSubstring
+nsAString
 &
 aValue
 const
@@ -4123,7 +4123,7 @@ aSourceURI
 uint32_t
 aLineNumber
 const
-nsSubstring
+nsAString
 &
 aStyleText
 nsresult

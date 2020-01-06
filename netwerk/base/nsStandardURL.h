@@ -497,7 +497,7 @@ nsresult
 NormalizeIPv4
 (
 const
-nsCSubstring
+nsACString
 &
 host
 nsCString
@@ -641,7 +641,7 @@ nsresult
 NormalizeIDN
 (
 const
-nsCSubstring
+nsACString
 &
 host
 nsCString

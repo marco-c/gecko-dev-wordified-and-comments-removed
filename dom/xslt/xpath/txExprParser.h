@@ -62,7 +62,7 @@ nsresult
 createExpr
 (
 const
-nsSubstring
+nsAString
 &
 aExpression
 txIParseContext
@@ -89,7 +89,7 @@ nsresult
 createAVT
 (
 const
-nsSubstring
+nsAString
 &
 aAttrValue
 txIParseContext
@@ -108,7 +108,7 @@ nsresult
 createExprInternal
 (
 const
-nsSubstring
+nsAString
 &
 aExpression
 uint32_t

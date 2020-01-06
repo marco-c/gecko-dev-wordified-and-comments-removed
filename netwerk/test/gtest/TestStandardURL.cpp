@@ -63,7 +63,7 @@ nsresult
 Test_NormalizeIPv4
 (
 const
-nsCSubstring
+nsACString
 &
 host
 nsCString

@@ -664,14 +664,14 @@ nsACString
 void
 ToUpperCase
 (
-nsCSubstring
+nsACString
 &
 )
 ;
 void
 ToLowerCase
 (
-nsCSubstring
+nsACString
 &
 )
 ;

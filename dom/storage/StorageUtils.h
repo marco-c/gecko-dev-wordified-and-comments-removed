@@ -45,10 +45,10 @@ void
 ReverseString
 (
 const
-nsCSubstring
+nsACString
 &
 aSource
-nsCSubstring
+nsACString
 &
 aResult
 )

@@ -52,7 +52,7 @@ createHandlerAndFlush
 bool
 aHTMLRoot
 const
-nsSubstring
+nsAString
 &
 aName
 const

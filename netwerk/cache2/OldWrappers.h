@@ -829,12 +829,12 @@ NS_DECL_NSIRUNNABLE
 NS_DECL_NSICACHELISTENER
 _OldCacheLoad
 (
-nsCSubstring
 const
+nsACString
 &
 aScheme
-nsCSubstring
 const
+nsACString
 &
 aCacheKey
 nsICacheEntryOpenCallback
@@ -1004,8 +1004,8 @@ aScheme
 nsresult
 ChooseApplicationCache
 (
-nsCSubstring
 const
+nsACString
 &
 cacheKey
 nsIApplicationCache

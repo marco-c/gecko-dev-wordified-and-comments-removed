@@ -250,7 +250,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 extension
 =

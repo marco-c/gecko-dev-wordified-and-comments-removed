@@ -492,7 +492,7 @@ Loader
 *
 aLoader
 const
-nsSubstring
+nsAString
 &
 aTitle
 nsIURI
@@ -960,7 +960,7 @@ Loader
 *
 aLoader
 const
-nsSubstring
+nsAString
 &
 aTitle
 nsIURI
@@ -5635,11 +5635,11 @@ StyleSheet
 *
 aSheet
 const
-nsSubstring
+nsAString
 &
 aTitle
 const
-nsSubstring
+nsAString
 &
 aMediaString
 MediaList
@@ -10502,7 +10502,7 @@ bool
 isAlternate
 ;
 const
-nsSubstring
+nsAString
 &
 empty
 =
@@ -11141,7 +11141,7 @@ nullptr
 )
 ;
 const
-nsSubstring
+nsAString
 &
 empty
 =

@@ -6240,7 +6240,7 @@ nsresult
 GetGroupForCache
 (
 const
-nsCSubstring
+nsACString
 &
 clientID
 nsCString
@@ -12886,11 +12886,11 @@ nsOfflineCacheDevice
 ActivateCache
 (
 const
-nsCSubstring
+nsACString
 &
 group
 const
-nsCSubstring
+nsACString
 &
 clientID
 )
@@ -13064,11 +13064,11 @@ nsOfflineCacheDevice
 IsActiveCache
 (
 const
-nsCSubstring
+nsACString
 &
 group
 const
-nsCSubstring
+nsACString
 &
 clientID
 )

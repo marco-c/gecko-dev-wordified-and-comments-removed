@@ -786,7 +786,7 @@ bool
 IsForGroupID
 (
 const
-nsCSubstring
+nsACString
 &
 groupID
 )

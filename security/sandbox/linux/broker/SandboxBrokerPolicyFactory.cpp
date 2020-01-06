@@ -1190,7 +1190,7 @@ extraPathString
 for
 (
 const
-nsCSubstring
+nsACString
 &
 path
 :

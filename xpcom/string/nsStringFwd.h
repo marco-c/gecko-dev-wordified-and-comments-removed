@@ -104,13 +104,5 @@ nsDefaultCStringComparator
 class
 nsXPIDLCString
 ;
-typedef
-nsAString
-nsSubstring
-;
-typedef
-nsACString
-nsCSubstring
-;
 #
 endif

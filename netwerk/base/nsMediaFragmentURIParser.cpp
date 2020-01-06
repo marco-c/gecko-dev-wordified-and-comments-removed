@@ -1647,7 +1647,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 nv
 =

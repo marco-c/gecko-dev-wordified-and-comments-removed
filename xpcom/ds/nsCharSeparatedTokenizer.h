@@ -554,7 +554,7 @@ public
 nsCharSeparatedTokenizerTemplate
 (
 const
-nsSubstring
+nsAString
 &
 aSource
 char16_t
@@ -610,7 +610,7 @@ public
 nsCCharSeparatedTokenizerTemplate
 (
 const
-nsCSubstring
+nsACString
 &
 aSource
 char

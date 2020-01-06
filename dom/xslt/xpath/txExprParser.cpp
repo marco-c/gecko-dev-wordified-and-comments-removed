@@ -90,7 +90,7 @@ txExprParser
 createAVT
 (
 const
-nsSubstring
+nsAString
 &
 aAttrValue
 txIParseContext
@@ -132,7 +132,7 @@ inExpr
 =
 false
 ;
-nsSubstring
+nsAString
 :
 :
 const_char_iterator
@@ -599,7 +599,7 @@ txExprParser
 createExprInternal
 (
 const
-nsSubstring
+nsAString
 &
 aExpression
 uint32_t

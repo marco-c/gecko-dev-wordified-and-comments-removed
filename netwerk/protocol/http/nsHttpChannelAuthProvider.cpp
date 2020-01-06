@@ -2686,7 +2686,7 @@ GetAuthorizationMembers
 (
 bool
 proxyAuth
-nsCSubstring
+nsACString
 &
 scheme
 const
@@ -2697,7 +2697,7 @@ host
 int32_t
 &
 port
-nsCSubstring
+nsACString
 &
 path
 nsHttpAuthIdentity
@@ -6226,7 +6226,7 @@ nsHttpChannelAuthProvider
 ContinueOnAuthAvailable
 (
 const
-nsCSubstring
+nsACString
 &
 creds
 )

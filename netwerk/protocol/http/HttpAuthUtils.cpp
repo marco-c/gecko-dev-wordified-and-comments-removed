@@ -62,11 +62,11 @@ bool
 MatchesBaseURI
 (
 const
-nsCSubstring
+nsACString
 &
 matchScheme
 const
-nsCSubstring
+nsACString
 &
 matchHost
 int32_t

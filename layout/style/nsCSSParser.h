@@ -426,7 +426,7 @@ void
 ParseMediaList
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -472,7 +472,7 @@ bool
 ParseFontFamilyListString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -489,7 +489,7 @@ bool
 ParseColorString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -510,7 +510,7 @@ bool
 ParseMarginString
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -531,7 +531,7 @@ nsresult
 ParseSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI
@@ -552,7 +552,7 @@ nsCSSKeyframeRule
 ParseKeyframeRule
 (
 const
-nsSubstring
+nsAString
 &
 aBuffer
 nsIURI
@@ -566,7 +566,7 @@ bool
 ParseKeyframeSelectorString
 (
 const
-nsSubstring
+nsAString
 &
 aSelectorString
 nsIURI

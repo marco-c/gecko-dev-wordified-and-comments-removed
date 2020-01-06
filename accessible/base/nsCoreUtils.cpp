@@ -3172,12 +3172,12 @@ nsCoreUtils
 IsWhitespaceString
 (
 const
-nsSubstring
+nsAString
 &
 aString
 )
 {
-nsSubstring
+nsAString
 :
 :
 const_char_iterator

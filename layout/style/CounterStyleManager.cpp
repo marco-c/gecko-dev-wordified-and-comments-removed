@@ -163,7 +163,7 @@ GetCyclicCounterText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 const
@@ -242,7 +242,7 @@ GetFixedCounterText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 CounterValue
@@ -307,7 +307,7 @@ GetSymbolicCounterText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 const
@@ -483,7 +483,7 @@ GetAlphabeticCounterText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 const
@@ -644,7 +644,7 @@ GetNumericCounterText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 const
@@ -808,7 +808,7 @@ GetAdditiveCounterText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 const
@@ -1046,7 +1046,7 @@ DecimalToText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -1388,7 +1388,7 @@ CJKIdeographicToText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 const
@@ -1879,7 +1879,7 @@ HebrewToText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2160,7 +2160,7 @@ EthiopicToText
 (
 CounterValue
 aOrdinal
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2566,7 +2566,7 @@ virtual
 void
 GetStyleName
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2576,7 +2576,7 @@ virtual
 void
 GetPrefix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2586,7 +2586,7 @@ virtual
 void
 GetSuffix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2600,7 +2600,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -2684,7 +2684,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -2701,7 +2701,7 @@ BuiltinCounterStyle
 :
 GetStyleName
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2758,7 +2758,7 @@ BuiltinCounterStyle
 :
 GetPrefix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2776,7 +2776,7 @@ BuiltinCounterStyle
 :
 GetSuffix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -2934,7 +2934,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -3523,7 +3523,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -4181,7 +4181,7 @@ virtual
 void
 GetStyleName
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -4191,7 +4191,7 @@ virtual
 void
 GetPrefix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -4201,7 +4201,7 @@ virtual
 void
 GetSuffix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -4215,7 +4215,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -4299,7 +4299,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -4316,7 +4316,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -4721,7 +4721,7 @@ CustomCounterStyle
 :
 GetStyleName
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -4746,7 +4746,7 @@ CustomCounterStyle
 :
 GetPrefix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -4836,7 +4836,7 @@ CustomCounterStyle
 :
 GetSuffix
 (
-nsSubstring
+nsAString
 &
 aResult
 )
@@ -4934,7 +4934,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -5788,7 +5788,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -5839,7 +5839,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -6974,7 +6974,7 @@ AnonymousCounterStyle
 AnonymousCounterStyle
 (
 const
-nsSubstring
+nsAString
 &
 aContent
 )
@@ -7586,7 +7586,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool
@@ -7886,7 +7886,7 @@ CounterValue
 aOrdinal
 WritingMode
 aWritingMode
-nsSubstring
+nsAString
 &
 aResult
 bool

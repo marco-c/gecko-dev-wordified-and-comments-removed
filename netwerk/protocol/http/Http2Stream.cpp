@@ -1505,7 +1505,7 @@ originAttributes
 uint64_t
 serial
 const
-nsCSubstring
+nsACString
 &
 pathInfo
 nsCString

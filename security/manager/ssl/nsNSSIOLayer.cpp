@@ -302,7 +302,7 @@ nsACString
 hostName
 uint16_t
 port
-nsCSubstring
+nsACString
 &
 key
 )
@@ -6947,7 +6947,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 host
 =
@@ -7133,7 +7133,7 @@ hasMoreTokens
 )
 {
 const
-nsCSubstring
+nsACString
 &
 host
 =

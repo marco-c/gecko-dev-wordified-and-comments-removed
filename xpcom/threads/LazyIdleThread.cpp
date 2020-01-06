@@ -104,7 +104,7 @@ LazyIdleThread
 uint32_t
 aIdleTimeoutMS
 const
-nsCSubstring
+nsACString
 &
 aName
 ShutdownMethod

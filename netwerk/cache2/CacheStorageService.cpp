@@ -6416,8 +6416,8 @@ CacheStorageService
 :
 AddStorageEntry
 (
-nsCSubstring
 const
+nsACString
 &
 aContextKey
 const
@@ -8225,8 +8225,8 @@ CacheStorageService
 :
 DoomStorageEntries
 (
-nsCSubstring
 const
+nsACString
 &
 aContextKey
 nsILoadContextInfo

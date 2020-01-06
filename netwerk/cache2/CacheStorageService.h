@@ -779,8 +779,8 @@ private
 nsresult
 DoomStorageEntries
 (
-nsCSubstring
 const
+nsACString
 &
 aContextKey
 nsILoadContextInfo
@@ -798,8 +798,8 @@ aCallback
 nsresult
 AddStorageEntry
 (
-nsCSubstring
 const
+nsACString
 &
 aContextKey
 const

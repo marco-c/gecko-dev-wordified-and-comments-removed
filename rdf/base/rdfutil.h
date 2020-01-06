@@ -14,7 +14,7 @@ nsresult
 rdf_MakeRelativeRef
 (
 const
-nsCSubstring
+nsACString
 &
 aBaseURI
 nsCString

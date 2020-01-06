@@ -4456,7 +4456,7 @@ bool
 net_IsValidHostName
 (
 const
-nsCSubstring
+nsACString
 &
 host
 )

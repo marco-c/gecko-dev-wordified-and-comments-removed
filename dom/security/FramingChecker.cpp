@@ -969,7 +969,7 @@ hasMoreTokens
 )
 {
 const
-nsSubstring
+nsAString
 &
 tok
 =

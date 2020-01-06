@@ -263,7 +263,7 @@ nsresult
 createResultDocument
 (
 const
-nsSubstring
+nsAString
 &
 aName
 int32_t

@@ -36,7 +36,7 @@ NS_SerializeToString
 nsISerializable
 *
 obj
-nsCSubstring
+nsACString
 &
 str
 )
@@ -45,7 +45,7 @@ nsresult
 NS_DeserializeObject
 (
 const
-nsCSubstring
+nsACString
 &
 str
 nsISupports

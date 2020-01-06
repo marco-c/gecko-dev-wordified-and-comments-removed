@@ -118,7 +118,7 @@ void
 SetRequestURI
 (
 const
-nsCSubstring
+nsACString
 &
 s
 )
@@ -127,7 +127,7 @@ void
 SetPath
 (
 const
-nsCSubstring
+nsACString
 &
 s
 )

@@ -669,7 +669,7 @@ nsAString
 )
 ;
 const
-nsSubstring
+nsAString
 &
 AsString
 (
@@ -978,7 +978,7 @@ nsScannerIterator
 aEnd
 )
 ;
-nsSubstring
+nsAString
 &
 writable
 (
@@ -997,7 +997,7 @@ mString
 ;
 }
 const
-nsSubstring
+nsAString
 &
 str
 (
