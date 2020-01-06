@@ -384,6 +384,13 @@ js
 '
 '
 webextension
+-
+parent
+.
+js
+'
+'
+webextension
 .
 js
 '

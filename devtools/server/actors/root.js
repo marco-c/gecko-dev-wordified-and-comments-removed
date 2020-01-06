@@ -355,6 +355,9 @@ true
 documentLoadingMarkers
 :
 true
+webExtensionAddonConnect
+:
+true
 }
 sayHello
 :
