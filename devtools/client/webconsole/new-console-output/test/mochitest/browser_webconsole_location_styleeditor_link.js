@@ -46,12 +46,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -69,7 +69,7 @@ true
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -97,7 +97,7 @@ getToolbox
 target
 )
 ;
-yield
+await
 testViewSource
 (
 hud
@@ -122,7 +122,7 @@ again
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -132,7 +132,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testViewSource
 (
 hud
@@ -148,8 +148,8 @@ u2019
 }
 )
 ;
+async
 function
-*
 testViewSource
 (
 hud
@@ -173,7 +173,7 @@ text
 let
 messageNode
 =
-yield
+await
 waitFor
 (
 (
@@ -288,7 +288,7 @@ filename
 let
 panel
 =
-yield
+await
 onStyleEditorSelected
 ;
 ok
@@ -309,7 +309,7 @@ element
 "
 )
 ;
-yield
+await
 onStyleEditorReady
 (
 panel
@@ -387,7 +387,7 @@ for
 href
 )
 ;
-yield
+await
 performLineCheck
 (
 panel
@@ -400,8 +400,8 @@ line
 )
 ;
 }
+async
 function
-*
 onStyleEditorReady
 (
 panel
@@ -525,8 +525,8 @@ return
 foundEditor
 ;
 }
+async
 function
-*
 performLineCheck
 (
 styleEditorUI
@@ -546,7 +546,7 @@ load
 "
 )
 ;
-yield
+await
 waitForTick
 (
 )

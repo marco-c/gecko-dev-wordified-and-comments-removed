@@ -88,13 +88,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-await
-jsterm
-.
-clearHistory
-(
-)
-;
 const
 {
 autocompletePopup
@@ -321,13 +314,6 @@ history
 is
 correct
 "
-)
-;
-await
-jsterm
-.
-clearHistory
-(
 )
 ;
 }

@@ -42,15 +42,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -90,7 +90,7 @@ stringLog
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -115,7 +115,7 @@ stringLog
 }
 )
 ;
-yield
+await
 receivedMessages
 ;
 info
@@ -135,7 +135,7 @@ hud
 .
 jsterm
 ;
-yield
+await
 jsterm
 .
 execute
@@ -155,7 +155,7 @@ nconstant
 let
 msg
 =
-yield
+await
 waitFor
 (
 (

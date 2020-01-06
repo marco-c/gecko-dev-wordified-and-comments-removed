@@ -90,15 +90,15 @@ timestampMessages
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -119,7 +119,7 @@ page
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -144,7 +144,7 @@ logMessage
 }
 )
 ;
-yield
+await
 testPrefDefaults
 (
 hud
@@ -175,7 +175,7 @@ target
 let
 optionsPanel
 =
-yield
+await
 toolbox
 .
 selectTool
@@ -185,7 +185,7 @@ options
 "
 )
 ;
-yield
+await
 togglePref
 (
 optionsPanel
@@ -198,7 +198,7 @@ destroy
 (
 )
 ;
-yield
+await
 testChangedPref
 (
 hud
@@ -216,8 +216,8 @@ PREF_MESSAGE_TIMESTAMP
 }
 )
 ;
+async
 function
-*
 testPrefDefaults
 (
 hud
@@ -257,7 +257,7 @@ check
 let
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -305,8 +305,8 @@ check
 )
 ;
 }
+async
 function
-*
 togglePref
 (
 panel
@@ -370,12 +370,12 @@ click
 (
 )
 ;
-yield
+await
 prefChanged
 ;
 }
+async
 function
-*
 testChangedPref
 (
 hud
@@ -411,7 +411,7 @@ check
 let
 message
 =
-yield
+await
 waitFor
 (
 (

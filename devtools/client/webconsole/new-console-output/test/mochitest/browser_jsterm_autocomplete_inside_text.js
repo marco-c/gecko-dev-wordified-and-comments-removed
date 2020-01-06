@@ -92,13 +92,6 @@ opened
 "
 )
 ;
-await
-jsterm
-.
-clearHistory
-(
-)
-;
 const
 {
 autocompletePopup
@@ -432,13 +425,6 @@ completeNode
 is
 empty
 "
-)
-;
-await
-jsterm
-.
-clearHistory
-(
 )
 ;
 }

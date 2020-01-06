@@ -67,15 +67,15 @@ script
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -99,7 +99,7 @@ ui
 .
 outputScroller
 ;
-yield
+await
 waitFor
 (
 (
@@ -342,7 +342,7 @@ synthesizeKeyShortcut
 clearShortcut
 )
 ;
-yield
+await
 waitFor
 (
 (

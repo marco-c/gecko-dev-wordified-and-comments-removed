@@ -68,12 +68,12 @@ url
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -91,7 +91,7 @@ true
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -133,7 +133,7 @@ window
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -168,7 +168,7 @@ message
 let
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -219,7 +219,7 @@ message
 let
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -255,7 +255,7 @@ message
 "
 )
 ;
-yield
+await
 hideContextMenu
 (
 hud
@@ -298,7 +298,7 @@ log
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -327,7 +327,7 @@ reload
 ;
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -379,7 +379,7 @@ message
 ;
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -430,7 +430,7 @@ updated
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (
@@ -460,7 +460,7 @@ clipboard
 "
 )
 ;
-yield
+await
 hideContextMenu
 (
 hud

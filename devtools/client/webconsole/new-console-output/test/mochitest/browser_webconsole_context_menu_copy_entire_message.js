@@ -163,8 +163,8 @@ script
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -204,13 +204,13 @@ PREF_MESSAGE_TIMESTAMP
 true
 )
 ;
-yield
+await
 onPrefUpdated
 ;
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -239,7 +239,7 @@ page
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -281,7 +281,7 @@ log
 let
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -302,7 +302,7 @@ message
 let
 clipboardText
 =
-yield
+await
 copyMessageContent
 (
 hud
@@ -432,7 +432,7 @@ message
 ;
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -452,7 +452,7 @@ trace
 ;
 clipboardText
 =
-yield
+await
 copyMessageContent
 (
 hud
@@ -659,7 +659,7 @@ PREF_MESSAGE_TIMESTAMP
 false
 )
 ;
-yield
+await
 onPrefUpdated
 ;
 info
@@ -678,7 +678,7 @@ log
 ;
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -698,7 +698,7 @@ message
 ;
 clipboardText
 =
-yield
+await
 copyMessageContent
 (
 hud
@@ -827,7 +827,7 @@ message
 ;
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -847,7 +847,7 @@ trace
 ;
 clipboardText
 =
-yield
+await
 copyMessageContent
 (
 hud
@@ -1035,8 +1035,8 @@ PREF_MESSAGE_TIMESTAMP
 }
 )
 ;
+async
 function
-*
 copyMessageContent
 (
 hud
@@ -1046,7 +1046,7 @@ message
 let
 menuPopup
 =
-yield
+await
 openContextMenu
 (
 hud
@@ -1085,7 +1085,7 @@ enabled
 let
 clipboardText
 ;
-yield
+await
 waitForClipboardPromise
 (
 (

@@ -68,15 +68,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -94,7 +94,7 @@ outputNode
 const
 toolbar
 =
-yield
+await
 waitFor
 (
 (
@@ -150,7 +150,7 @@ click
 const
 filterBar
 =
-yield
+await
 waitFor
 (
 (
@@ -321,7 +321,7 @@ click
 (
 )
 ;
-yield
+await
 waitFor
 (
 (
@@ -360,12 +360,12 @@ shown
 "
 )
 ;
-yield
+await
 closeTabAndToolbox
 (
 )
 ;
-yield
+await
 testFilterPersistence
 (
 )
@@ -392,8 +392,8 @@ checked
 )
 ;
 }
+async
 function
-*
 testFilterPersistence
 (
 )
@@ -401,7 +401,7 @@ testFilterPersistence
 let
 hud
 =
-yield
+await
 openNewTabAndConsole
 (
 TEST_URI
@@ -419,7 +419,7 @@ outputNode
 const
 filterBar
 =
-yield
+await
 waitFor
 (
 (

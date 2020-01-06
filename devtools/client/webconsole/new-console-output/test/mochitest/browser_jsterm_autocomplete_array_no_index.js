@@ -74,13 +74,6 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-await
-jsterm
-.
-clearHistory
-(
-)
-;
 const
 {
 autocompletePopup
@@ -223,13 +216,6 @@ VK_ESCAPE
 ;
 await
 onPopupClose
-;
-await
-jsterm
-.
-clearHistory
-(
-)
 ;
 }
 )
