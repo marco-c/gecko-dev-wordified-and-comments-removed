@@ -40699,12 +40699,12 @@ goog
 -
 malware
 -
-shavar
+proto
 goog
 -
 unwanted
 -
-shavar
+proto
 test
 -
 harmful
@@ -40738,7 +40738,7 @@ goog
 -
 phish
 -
-shavar
+proto
 test
 -
 phish
@@ -40761,7 +40761,7 @@ googpub
 -
 phish
 -
-shavar
+proto
 test
 -
 phish
@@ -40784,7 +40784,7 @@ goog
 -
 downloadwhite
 -
-digest256
+proto
 "
 )
 ;
@@ -40800,7 +40800,7 @@ goog
 -
 badbinurl
 -
-shavar
+proto
 "
 )
 ;
