@@ -32763,6 +32763,9 @@ IsActiveChildrenElement
 if
 (
 isNewlyAddedContentForServo
+&
+&
+aAllowLazyConstruction
 )
 {
 LazilyStyleNewChildRange
@@ -34549,6 +34552,9 @@ IsActiveChildrenElement
 if
 (
 isNewlyAddedContentForServo
+&
+&
+aAllowLazyConstruction
 )
 {
 LazilyStyleNewChildRange
