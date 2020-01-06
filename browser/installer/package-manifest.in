@@ -2307,7 +2307,14 @@ RESPATH
 /
 components
 /
-BrowserPageThumbs
+thumbnails
+.
+xpt
+RESPATH
+/
+components
+/
+PageThumbsComponents
 .
 manifest
 RESPATH
@@ -2780,7 +2787,7 @@ RESPATH
 /
 components
 /
-PageThumbsProtocol
+PageThumbsStorageService
 .
 js
 RESPATH

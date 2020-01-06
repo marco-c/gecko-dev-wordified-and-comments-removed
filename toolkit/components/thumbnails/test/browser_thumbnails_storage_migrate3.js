@@ -185,7 +185,7 @@ true
 let
 name
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getLeafNameForURL
 (
@@ -215,7 +215,7 @@ file
 ;
 name
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getLeafNameForURL
 (
@@ -244,7 +244,7 @@ file
 ;
 name
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getLeafNameForURL
 (
@@ -273,7 +273,7 @@ file
 ;
 name
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getLeafNameForURL
 (
@@ -419,7 +419,7 @@ is
 file
 .
 path
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (

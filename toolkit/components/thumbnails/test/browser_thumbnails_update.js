@@ -58,7 +58,7 @@ url
 let
 fname
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (
@@ -134,7 +134,7 @@ url
 let
 fname
 =
-PageThumbsStorage
+PageThumbsStorageService
 .
 getFilePathForURL
 (
