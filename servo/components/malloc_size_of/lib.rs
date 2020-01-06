@@ -1879,7 +1879,7 @@ macro_export
 ]
 macro_rules
 !
-size_of_is_0
+malloc_size_of_is_0
 (
 (
 (
@@ -2012,7 +2012,7 @@ usize
 ;
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 bool
@@ -2020,7 +2020,7 @@ char
 str
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 u8
@@ -2030,7 +2030,7 @@ u64
 usize
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 i8
@@ -2040,14 +2040,14 @@ i64
 isize
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 f32
 f64
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 Range
@@ -2072,7 +2072,7 @@ usize
 >
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 Range
@@ -2097,7 +2097,7 @@ isize
 >
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 Range
@@ -2110,7 +2110,7 @@ f64
 >
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 app_units
@@ -2119,7 +2119,7 @@ app_units
 Au
 )
 ;
-size_of_is_0
+malloc_size_of_is_0
 !
 (
 cssparser
