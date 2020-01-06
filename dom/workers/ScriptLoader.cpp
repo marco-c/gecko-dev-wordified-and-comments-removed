@@ -2527,8 +2527,9 @@ do_QueryInterface
 aRequest
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mIsMainScript
 channel
 =
 =
@@ -2536,6 +2537,12 @@ loadInfo
 .
 mChannel
 )
+;
+loadInfo
+.
+mChannel
+=
+channel
 ;
 RefPtr
 <
