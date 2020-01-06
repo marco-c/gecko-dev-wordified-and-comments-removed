@@ -243,6 +243,10 @@ mSampleRate
 =
 aParam
 ;
+AdjustReverb
+(
+)
+;
 break
 ;
 default
@@ -273,6 +277,16 @@ mBuffer
 =
 aBuffer
 ;
+AdjustReverb
+(
+)
+;
+}
+void
+AdjustReverb
+(
+)
+{
 const
 size_t
 MaxFFTSize
