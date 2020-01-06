@@ -367,7 +367,7 @@ self
 data
 :
 :
-PersistentLayoutData
+LayoutData
 ;
 #
 [

@@ -36,7 +36,7 @@ data
 :
 {
 HAS_NEWLY_CONSTRUCTED_FLOW
-PersistentLayoutData
+LayoutData
 }
 ;
 use
@@ -11000,7 +11000,7 @@ layout_data
 :
 &
 mut
-PersistentLayoutData
+LayoutData
 )
 -
 >
@@ -11199,7 +11199,7 @@ data
 :
 &
 mut
-PersistentLayoutData
+LayoutData
 )
 -
 >
