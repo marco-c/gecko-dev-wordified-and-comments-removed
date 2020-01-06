@@ -332,6 +332,7 @@ str
 bool
 )
 }
+pub
 fn
 is_ascii_digit
 (
