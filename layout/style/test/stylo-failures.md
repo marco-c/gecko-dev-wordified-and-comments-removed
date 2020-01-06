@@ -327,11 +327,12 @@ test_media_queries_dynamic
 .
 html
 restyle
+count
 :
-bug
-1357461
+support
+elementsRestyled
 [
-4
+6
 ]
 *
 test_media_queries_dynamic_xbl
