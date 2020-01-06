@@ -52,6 +52,9 @@ RefPtr
 RawServoImportRule
 >
 aRawRule
+ServoStyleSheet
+*
+aSheet
 uint32_t
 aLine
 uint32_t

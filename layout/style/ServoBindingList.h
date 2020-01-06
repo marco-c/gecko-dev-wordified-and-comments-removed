@@ -538,6 +538,15 @@ result
 )
 SERVO_BINDING_FUNC
 (
+Servo_ImportRule_GetSheet
+const
+RawServoStyleSheet
+*
+RawServoImportRuleBorrowed
+rule
+)
+SERVO_BINDING_FUNC
+(
 Servo_Keyframe_GetKeyText
 void
 RawServoKeyframeBorrowed
