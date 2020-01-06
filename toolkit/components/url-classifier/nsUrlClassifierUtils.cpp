@@ -1067,16 +1067,6 @@ CSD_DOWNLOAD_WHITELIST
 }
 {
 "
-goog
--
-passwordwhite
--
-proto
-"
-CSD_WHITELIST
-}
-{
-"
 test
 -
 phish

@@ -944,18 +944,6 @@ enabled
 False
         
 '
-browser
-.
-safebrowsing
-.
-passwords
-.
-enabled
-'
-:
-False
-        
-'
 privacy
 .
 trackingprotection
