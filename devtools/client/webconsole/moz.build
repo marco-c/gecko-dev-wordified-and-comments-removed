@@ -139,13 +139,6 @@ jsterm
 js
 '
 '
-new
--
-webconsole
-.
-js
-'
-'
 panel
 .
 js
