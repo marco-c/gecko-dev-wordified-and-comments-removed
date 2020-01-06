@@ -807,3 +807,14 @@ size
 45rem
 ;
 }
+html
+|
+button
+{
+min
+-
+width
+:
+79px
+;
+}

@@ -619,3 +619,16 @@ size
 19rem
 ;
 }
+html
+|
+button
+{
+min
+-
+width
+:
+6
+.
+3em
+;
+}
