@@ -13563,7 +13563,7 @@ apiVersion
 .
 0
 .
-87
+104
 '
 ;
 source
@@ -22477,7 +22477,7 @@ version
 .
 0
 .
-87
+104
 '
 ;
 exports
@@ -22487,7 +22487,7 @@ build
 build
 =
 '
-b46443f0
+012d0756
 '
 ;
 }
@@ -36263,14 +36263,14 @@ pdfjsVersion
 .
 0
 .
-87
+104
 '
 ;
 var
 pdfjsBuild
 =
 '
-b46443f0
+012d0756
 '
 ;
 var
@@ -57651,7 +57651,7 @@ version
 .
 0
 .
-87
+104
 '
 ;
 PDFJS
@@ -57659,7 +57659,7 @@ PDFJS
 build
 =
 '
-b46443f0
+012d0756
 '
 ;
 }
@@ -58311,12 +58311,6 @@ PDFWorker
 _api
 .
 PDFWorker
-;
-PDFJS
-.
-hasCanvasTypedArrays
-=
-true
 ;
 PDFJS
 .
