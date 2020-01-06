@@ -227,7 +227,7 @@ mozversion
 .
 1
 .
-1
+2
 (
 registry
 +
@@ -3984,7 +3984,7 @@ version
 .
 1
 .
-1
+2
 "
 source
 =
@@ -9657,7 +9657,7 @@ mozversion
 .
 1
 .
-1
+2
 (
 registry
 +
@@ -9682,7 +9682,7 @@ index
 "
 =
 "
-76acea204db8c94a612821e0ddc5e4513e46af21fdbd8c15b8efe13b343062f0
+9fb3a40135553611560d3eb4a49479beaf0c91c5a93f723338c5b0edddf08f26
 "
 "
 checksum
