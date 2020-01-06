@@ -151,10 +151,7 @@ use
 sharing
 :
 :
-{
-ValidationData
 StyleSharingCandidateCache
-}
 ;
 use
 std
@@ -1224,10 +1221,6 @@ OpaqueNode
 is_initial_style
 :
 bool
-pub
-validation_data
-:
-ValidationData
 #
 [
 allow
@@ -2960,14 +2953,6 @@ is_initial_style
 data
 .
 has_styles
-(
-)
-validation_data
-:
-ValidationData
-:
-:
-default
 (
 )
 possibly_expired_animations
