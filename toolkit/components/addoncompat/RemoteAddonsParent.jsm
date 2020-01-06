@@ -5304,12 +5304,6 @@ getters
 .
 content
 =
-ChromeWindowInterposition
-.
-getters
-.
-_content
-=
 function
 (
 addon

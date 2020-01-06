@@ -2826,6 +2826,7 @@ extraArguments
 )
 ;
 [
+ChromeOnly
 Replaceable
 Throws
 NeedsCallerType
@@ -2835,17 +2836,6 @@ attribute
 object
 ?
 content
-;
-[
-ChromeOnly
-Throws
-NeedsCallerType
-]
-readonly
-attribute
-object
-?
-__content
 ;
 [
 Throws
