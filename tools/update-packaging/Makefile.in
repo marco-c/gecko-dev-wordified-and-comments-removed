@@ -402,7 +402,7 @@ MOZ_SIGN_CMD
 )
 -
 f
-mar
+mar_sha384
 '
 (
 DIST
@@ -489,7 +489,7 @@ MOZ_SIGN_CMD
 )
 -
 f
-mar
+mar_sha384
 '
 (
 STAGE_DIR
