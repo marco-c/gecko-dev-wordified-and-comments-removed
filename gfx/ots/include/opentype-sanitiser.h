@@ -308,7 +308,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 (
@@ -321,7 +321,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 (
@@ -334,7 +334,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 (
@@ -347,7 +347,7 @@ tag
 )
 (
 (
-uint8_t
+char
 )
 (
 tag
