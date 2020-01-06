@@ -137,6 +137,13 @@ result
 .
 defaultRemoved
 [
+"
+social
+-
+share
+-
+button
+"
 ]
 )
 ;
