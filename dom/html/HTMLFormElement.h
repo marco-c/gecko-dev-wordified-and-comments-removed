@@ -650,6 +650,16 @@ ImplicitSubmissionIsDisabled
 const
 ;
 bool
+IsLastActiveElement
+(
+const
+nsIFormControl
+*
+aControl
+)
+const
+;
+bool
 IsDefaultSubmitElement
 (
 const
