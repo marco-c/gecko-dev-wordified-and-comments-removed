@@ -172,16 +172,6 @@ PrincipalHandle
 override
 ;
 void
-SetDirectListeners
-(
-bool
-aHasDirectListeners
-)
-override
-{
-}
-;
-void
 NotifyPull
 (
 mozilla

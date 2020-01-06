@@ -915,15 +915,6 @@ PrincipalHandle
 ;
 virtual
 void
-SetDirectListeners
-(
-bool
-)
-=
-0
-;
-virtual
-void
 NotifyPull
 (
 MediaStreamGraph

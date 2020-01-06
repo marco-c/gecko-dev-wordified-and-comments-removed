@@ -109,10 +109,6 @@ mInitDone
 (
 false
 )
-mHasDirectListeners
-(
-false
-)
 mCaptureIndex
 (
 aIndex
@@ -163,14 +159,6 @@ nsACString
 aUUID
 )
 const
-override
-;
-void
-SetDirectListeners
-(
-bool
-aHasListeners
-)
 override
 ;
 bool
@@ -480,9 +468,6 @@ mHeight
 ;
 bool
 mInitDone
-;
-bool
-mHasDirectListeners
 ;
 int
 mCaptureIndex
