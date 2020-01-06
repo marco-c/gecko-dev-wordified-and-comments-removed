@@ -832,9 +832,6 @@ TimeStamp
 mAsyncOpen
 ;
 TimeStamp
-mWorkerStart
-;
-TimeStamp
 mRedirectStart
 ;
 TimeStamp
@@ -869,6 +866,15 @@ mResponseEnd
 ;
 TimeStamp
 mCacheReadEnd
+;
+TimeStamp
+mWorkerStart
+;
+TimeStamp
+mWorkerRequestStart
+;
+TimeStamp
+mWorkerResponseEnd
 ;
 uint8_t
 mRedirectCount
