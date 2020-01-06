@@ -564,9 +564,7 @@ library
 '
 default
 =
-milestone
-.
-is_nightly
+True
 )
 option
 (
