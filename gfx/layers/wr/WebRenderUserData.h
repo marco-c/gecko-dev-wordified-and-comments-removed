@@ -509,6 +509,9 @@ ImageContainer
 >
 mContainer
 ;
+uint32_t
+mGeneration
+;
 }
 ;
 class
