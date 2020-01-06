@@ -2786,7 +2786,7 @@ Get
 (
 )
 .
-isThreadId
+IsThreadId
 (
 )
 )
@@ -2821,7 +2821,7 @@ Get
 (
 )
 .
-isThreadId
+IsThreadId
 (
 )
 )
@@ -2883,7 +2883,7 @@ Get
 (
 )
 .
-isTime
+IsTime
 (
 )
 )
@@ -2980,7 +2980,7 @@ Get
 (
 )
 .
-isNativeLeafAddr
+IsNativeLeafAddr
 (
 )
 )
@@ -3058,7 +3058,7 @@ Get
 (
 )
 .
-isLabel
+IsLabel
 (
 )
 )
@@ -3129,7 +3129,7 @@ Get
 (
 )
 .
-isDynamicStringFragment
+IsDynamicStringFragment
 (
 )
 )
@@ -3280,7 +3280,7 @@ Get
 (
 )
 .
-isLineNumber
+IsLineNumber
 (
 )
 )
@@ -3327,7 +3327,7 @@ Get
 (
 )
 .
-isCategory
+IsCategory
 (
 )
 )
@@ -3376,7 +3376,7 @@ Get
 (
 )
 .
-isJitReturnAddr
+IsJitReturnAddr
 (
 )
 )
@@ -3550,7 +3550,7 @@ Get
 (
 )
 .
-isMarker
+IsMarker
 (
 )
 )
@@ -3583,7 +3583,7 @@ Get
 (
 )
 .
-isResponsiveness
+IsResponsiveness
 (
 )
 )
@@ -3627,7 +3627,7 @@ Get
 (
 )
 .
-isResidentMemory
+IsResidentMemory
 (
 )
 )
@@ -3671,7 +3671,7 @@ Get
 (
 )
 .
-isUnsharedMemory
+IsUnsharedMemory
 (
 )
 )
@@ -3762,7 +3762,7 @@ Get
 (
 )
 .
-isThreadId
+IsThreadId
 (
 )
 )
@@ -3795,7 +3795,7 @@ Get
 (
 )
 .
-isMarker
+IsMarker
 (
 )
 )
@@ -3937,7 +3937,7 @@ isStillValid
 =
 entry
 .
-isThreadId
+IsThreadId
 (
 )
 &
@@ -4023,7 +4023,7 @@ mEntries
 lastSampleStartPos
 ]
 .
-isThreadId
+IsThreadId
 (
 )
 &
@@ -4084,7 +4084,7 @@ mEntries
 readPos
 ]
 .
-kind
+GetKind
 (
 )
 )
