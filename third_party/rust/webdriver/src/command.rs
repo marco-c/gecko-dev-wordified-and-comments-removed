@@ -123,6 +123,7 @@ SetWindowRect
 (
 WindowRectParameters
 )
+MinimizeWindow
 MaximizeWindow
 FullscreenWindow
 SwitchToWindow
@@ -753,6 +754,16 @@ SetWindowRect
 parameters
 )
 }
+Route
+:
+:
+MinimizeWindow
+=
+>
+WebDriverCommand
+:
+:
+MinimizeWindow
 Route
 :
 :
@@ -2908,6 +2919,11 @@ IsSelected
 (
 _
 )
+|
+WebDriverCommand
+:
+:
+MinimizeWindow
 |
 WebDriverCommand
 :
