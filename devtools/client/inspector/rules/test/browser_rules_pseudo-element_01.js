@@ -184,9 +184,9 @@ querySelector
 (
 "
 .
-ruleview
+theme
 -
-expander
+twisty
 "
 )
 ;
@@ -982,9 +982,9 @@ querySelector
 (
 "
 .
-ruleview
+theme
 -
-expander
+twisty
 "
 )
 ;
