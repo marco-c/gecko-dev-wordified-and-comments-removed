@@ -98,6 +98,10 @@ in
 int
 aClipSegmentIndex
 ;
+in
+int
+aClipResourceAddress
+;
 struct
 CacheClipInstance
 {
@@ -112,6 +116,9 @@ data_index
 ;
 int
 segment_index
+;
+int
+resource_address
 ;
 }
 ;
@@ -148,6 +155,12 @@ cci
 segment_index
 =
 aClipSegmentIndex
+;
+cci
+.
+resource_address
+=
+aClipResourceAddress
 ;
 return
 cci

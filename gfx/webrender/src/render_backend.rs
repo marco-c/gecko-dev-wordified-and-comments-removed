@@ -2970,7 +2970,7 @@ get_webgl_texture
 ctx_id
 )
 .
-texture_id
+id
 {
 SourceTexture
 :

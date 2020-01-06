@@ -495,7 +495,7 @@ wt
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 {
@@ -1272,7 +1272,7 @@ wt
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 true
 )
 wt
@@ -1336,7 +1336,7 @@ wt
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 true
 )
 wt

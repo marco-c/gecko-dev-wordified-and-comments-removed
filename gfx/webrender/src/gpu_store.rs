@@ -182,7 +182,7 @@ image_format
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 4
