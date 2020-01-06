@@ -59,17 +59,12 @@ nsAppShell
 h
 "
 #
-ifdef
-MOZ_CRASHREPORTER
-#
 include
 "
 nsExceptionHandler
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -1561,9 +1556,6 @@ result
 =
 true
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 result
 &
 =
@@ -1667,8 +1659,6 @@ ToCString
 )
 ;
 }
-#
-endif
 if
 (
 sOOMErrorClass
