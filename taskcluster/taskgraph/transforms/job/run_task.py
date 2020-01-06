@@ -236,33 +236,6 @@ job
 taskdesc
 )
     
-if
-run
-.
-get
-(
-'
-cache
--
-dotcache
-'
-)
-and
-int
-(
-config
-.
-params
-[
-'
-level
-'
-]
-)
->
-1
-:
-        
 worker
 [
 '
@@ -273,7 +246,7 @@ caches
 append
 (
 {
-            
+        
 '
 type
 '
@@ -281,7 +254,7 @@ type
 '
 persistent
 '
-            
+        
 '
 name
 '
@@ -308,7 +281,7 @@ config
 .
 params
 )
-            
+        
 '
 mount
 -
@@ -325,6 +298,14 @@ worker
 cache
 '
         
+'
+skip
+-
+untrusted
+'
+:
+True
+    
 }
 )
     

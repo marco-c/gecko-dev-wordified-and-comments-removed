@@ -81,25 +81,6 @@ Add
 the
 workspace
 cache
-based
-on
-the
-build
-platform
-/
-type
-and
-level
-    
-except
-on
-try
-where
-workspace
-caches
-are
-not
-used
 .
     
 extra
@@ -128,24 +109,6 @@ caches
 "
 "
 "
-    
-if
-config
-.
-params
-[
-'
-project
-'
-]
-=
-=
-'
-try
-'
-:
-        
-return
     
 taskdesc
 [
@@ -259,6 +222,14 @@ worker
 /
 workspace
 "
+        
+'
+skip
+-
+untrusted
+'
+:
+True
     
 }
 )
