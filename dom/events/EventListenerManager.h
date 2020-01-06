@@ -525,6 +525,11 @@ mMayHaveInputOrCompositionEventListener
 1
 ;
 uint16_t
+mMayHaveSelectionChangeEventListener
+:
+1
+;
+uint16_t
 mClearingListeners
 :
 1
@@ -1392,6 +1397,15 @@ MayHavePointerEnterLeaveEventListener
 {
 return
 mMayHavePointerEnterLeaveEventListener
+;
+}
+bool
+MayHaveSelectionChangeEventListener
+(
+)
+{
+return
+mMayHaveSelectionChangeEventListener
 ;
 }
 bool

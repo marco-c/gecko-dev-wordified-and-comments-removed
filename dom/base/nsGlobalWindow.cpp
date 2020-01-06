@@ -4828,6 +4828,10 @@ mMayHaveTouchEventListener
 (
 false
 )
+mMayHaveSelectionChangeEventListener
+(
+false
+)
 mMayHaveMouseEnterLeaveEventListener
 (
 false
