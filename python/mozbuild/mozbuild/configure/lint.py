@@ -28,6 +28,8 @@ ConfigureSandbox
 DependsFunction
     
 SandboxedGlobal
+    
+TrivialDependsFunction
 )
 from
 .
@@ -436,7 +438,10 @@ if
 isinstance
 (
 obj
+(
 CombinedDependsFunction
+TrivialDependsFunction
+)
 )
 :
             
