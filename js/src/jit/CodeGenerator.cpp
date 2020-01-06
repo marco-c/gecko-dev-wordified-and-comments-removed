@@ -16998,7 +16998,7 @@ info
 .
 flags
 ;
-MOZ_ASSERT
+static_assert
 (
 JSFunction
 :
@@ -17016,6 +17016,15 @@ offsetOfNargs
 )
 +
 2
+"
+the
+code
+below
+needs
+to
+be
+adapted
+"
 )
 ;
 masm
@@ -17056,7 +17065,7 @@ output
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScriptOrLazyScript
 (
 )
 )
@@ -26098,7 +26107,7 @@ calleereg
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -26783,7 +26792,7 @@ calleereg
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -28206,7 +28215,7 @@ calleereg
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -80928,7 +80937,7 @@ target
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

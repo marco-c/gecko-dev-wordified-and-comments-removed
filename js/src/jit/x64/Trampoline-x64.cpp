@@ -2615,7 +2615,7 @@ rax
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

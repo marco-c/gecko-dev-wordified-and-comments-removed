@@ -15392,8 +15392,6 @@ AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
-bool
-checkNative
 FunApplyThing
 applyThing
 Label
@@ -15887,7 +15885,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfNativeOrEnv
 (
 )
 )
@@ -15997,22 +15995,6 @@ class_
 failure
 )
 ;
-if
-(
-checkNative
-)
-{
-masm
-.
-branchIfInterpreted
-(
-target
-failure
-)
-;
-}
-else
-{
 Register
 temp
 =
@@ -16057,7 +16039,7 @@ target
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -16080,7 +16062,6 @@ add
 temp
 )
 ;
-}
 return
 target
 ;
@@ -17390,7 +17371,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -17938,7 +17919,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -18669,7 +18650,7 @@ calleeObj
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfNativeOrEnv
 (
 )
 )
@@ -19629,7 +19610,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfNative
 (
 )
 )
@@ -20162,7 +20143,6 @@ guardFunApply
 masm
 regs
 argcReg
-false
 FunApply_Array
 &
 failure
@@ -20361,7 +20341,7 @@ target
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -20542,7 +20522,6 @@ guardFunApply
 masm
 regs
 argcReg
-false
 FunApply_MagicArgs
 &
 failure
@@ -20720,7 +20699,7 @@ target
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -20992,7 +20971,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfNativeOrEnv
 (
 )
 )
@@ -21124,7 +21103,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

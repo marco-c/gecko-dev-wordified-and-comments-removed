@@ -2388,7 +2388,7 @@ eax
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

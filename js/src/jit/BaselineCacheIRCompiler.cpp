@@ -3473,7 +3473,7 @@ callee
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -9036,7 +9036,7 @@ scratch1
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
@@ -9177,7 +9177,7 @@ scratch1
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

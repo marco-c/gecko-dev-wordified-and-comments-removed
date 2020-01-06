@@ -2598,7 +2598,7 @@ DtrOffImm
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )

@@ -2762,8 +2762,6 @@ AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
-bool
-checkNative
 FunApplyThing
 applyThing
 Label

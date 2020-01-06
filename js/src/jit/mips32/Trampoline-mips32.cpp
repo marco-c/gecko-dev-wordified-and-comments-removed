@@ -2943,7 +2943,7 @@ calleeTokenReg
 JSFunction
 :
 :
-offsetOfNativeOrScript
+offsetOfScript
 (
 )
 )
