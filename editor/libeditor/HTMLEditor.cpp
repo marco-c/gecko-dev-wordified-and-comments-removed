@@ -16848,6 +16848,9 @@ nsINode
 aParent
 int32_t
 aOffset
+nsINode
+*
+aChildAtOffset
 bool
 aNoBlockCrossing
 )
