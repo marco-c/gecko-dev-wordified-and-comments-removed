@@ -4,15 +4,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-&
-&
-winWidget
-)
 skip
 -
 if
@@ -39,10 +30,6 @@ Windows
 :
 bug
 1239170
-stylo
-:
-bug
-1411460
 !
 =
 empty
