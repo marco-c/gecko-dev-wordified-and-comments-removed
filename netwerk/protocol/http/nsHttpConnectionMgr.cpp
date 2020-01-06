@@ -6131,7 +6131,10 @@ auto
 &
 transactionInfo
 :
+Reversed
+(
 pendingQ
+)
 )
 {
 ent
@@ -6140,6 +6143,7 @@ ent
 InsertTransaction
 (
 transactionInfo
+true
 )
 ;
 }
