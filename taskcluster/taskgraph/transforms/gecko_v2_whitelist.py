@@ -296,6 +296,22 @@ pgo
 '
     
 '
+linux
+-
+rusttests
+-
+opt
+'
+    
+'
+linux
+-
+rusttests
+-
+debug
+'
+    
+'
 linux64
 -
 add
@@ -463,6 +479,22 @@ opt
 linux64
 -
 pgo
+'
+    
+'
+linux64
+-
+rusttests
+-
+opt
+'
+    
+'
+linux64
+-
+rusttests
+-
+debug
 '
     
 '
@@ -858,6 +890,14 @@ pgo
 '
 win32
 -
+rusttests
+-
+opt
+'
+    
+'
+win32
+-
 st
 -
 an
@@ -973,6 +1013,14 @@ opt
 win64
 -
 pgo
+'
+    
+'
+win64
+-
+rusttests
+-
+opt
 '
     
 '
