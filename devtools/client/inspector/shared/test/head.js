@@ -645,6 +645,8 @@ if
 (
 nameSpan
 .
+firstChild
+.
 textContent
 =
 =
@@ -656,10 +658,6 @@ prop
 =
 {
 nameSpan
-:
-nameSpan
-valueSpan
-:
 valueSpan
 }
 ;
