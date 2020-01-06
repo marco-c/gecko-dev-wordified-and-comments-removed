@@ -43980,9 +43980,6 @@ pn
 )
 ;
 }
-return
-true
-;
 }
 MOZ_NEVER_INLINE
 bool

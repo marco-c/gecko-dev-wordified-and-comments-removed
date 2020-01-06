@@ -25832,9 +25832,6 @@ array
 )
 ;
 }
-return
-true
-;
 }
 static
 bool
