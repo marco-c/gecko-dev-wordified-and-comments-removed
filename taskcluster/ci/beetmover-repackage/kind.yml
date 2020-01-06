@@ -104,10 +104,6 @@ dependencies
 repackage
 -
 signing
--
-partials
--
-signing
 only
 -
 for
