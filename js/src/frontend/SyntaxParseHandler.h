@@ -651,10 +651,6 @@ Node
 left
 Node
 right
-JSOp
-op
-=
-JSOP_NOP
 )
 {
 return
@@ -673,10 +669,6 @@ right
 ParseContext
 *
 pc
-JSOp
-op
-=
-JSOP_NOP
 )
 {
 return
@@ -2099,7 +2091,6 @@ newBinary
 kind
 lhs
 rhs
-op
 )
 ;
 }

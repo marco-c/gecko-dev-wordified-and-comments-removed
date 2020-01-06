@@ -1667,8 +1667,6 @@ appendOrCreateList
 (
 ParseNodeKind
 kind
-JSOp
-op
 ParseNode
 *
 left

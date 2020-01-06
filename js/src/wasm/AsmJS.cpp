@@ -38138,13 +38138,13 @@ switch
 comp
 -
 >
-getOp
+getKind
 (
 )
 )
 {
 case
-JSOP_EQ
+PNK_EQ
 :
 stmt
 =
@@ -38156,7 +38156,7 @@ I32Eq
 break
 ;
 case
-JSOP_NE
+PNK_NE
 :
 stmt
 =
@@ -38168,7 +38168,7 @@ I32Ne
 break
 ;
 case
-JSOP_LT
+PNK_LT
 :
 stmt
 =
@@ -38180,7 +38180,7 @@ I32LtS
 break
 ;
 case
-JSOP_LE
+PNK_LE
 :
 stmt
 =
@@ -38192,7 +38192,7 @@ I32LeS
 break
 ;
 case
-JSOP_GT
+PNK_GT
 :
 stmt
 =
@@ -38204,7 +38204,7 @@ I32GtS
 break
 ;
 case
-JSOP_GE
+PNK_GE
 :
 stmt
 =
@@ -38250,13 +38250,13 @@ switch
 comp
 -
 >
-getOp
+getKind
 (
 )
 )
 {
 case
-JSOP_EQ
+PNK_EQ
 :
 stmt
 =
@@ -38268,7 +38268,7 @@ I32Eq
 break
 ;
 case
-JSOP_NE
+PNK_NE
 :
 stmt
 =
@@ -38280,7 +38280,7 @@ I32Ne
 break
 ;
 case
-JSOP_LT
+PNK_LT
 :
 stmt
 =
@@ -38292,7 +38292,7 @@ I32LtU
 break
 ;
 case
-JSOP_LE
+PNK_LE
 :
 stmt
 =
@@ -38304,7 +38304,7 @@ I32LeU
 break
 ;
 case
-JSOP_GT
+PNK_GT
 :
 stmt
 =
@@ -38316,7 +38316,7 @@ I32GtU
 break
 ;
 case
-JSOP_GE
+PNK_GE
 :
 stmt
 =
@@ -38355,13 +38355,13 @@ switch
 comp
 -
 >
-getOp
+getKind
 (
 )
 )
 {
 case
-JSOP_EQ
+PNK_EQ
 :
 stmt
 =
@@ -38373,7 +38373,7 @@ F64Eq
 break
 ;
 case
-JSOP_NE
+PNK_NE
 :
 stmt
 =
@@ -38385,7 +38385,7 @@ F64Ne
 break
 ;
 case
-JSOP_LT
+PNK_LT
 :
 stmt
 =
@@ -38397,7 +38397,7 @@ F64Lt
 break
 ;
 case
-JSOP_LE
+PNK_LE
 :
 stmt
 =
@@ -38409,7 +38409,7 @@ F64Le
 break
 ;
 case
-JSOP_GT
+PNK_GT
 :
 stmt
 =
@@ -38421,7 +38421,7 @@ F64Gt
 break
 ;
 case
-JSOP_GE
+PNK_GE
 :
 stmt
 =
@@ -38460,13 +38460,13 @@ switch
 comp
 -
 >
-getOp
+getKind
 (
 )
 )
 {
 case
-JSOP_EQ
+PNK_EQ
 :
 stmt
 =
@@ -38478,7 +38478,7 @@ F32Eq
 break
 ;
 case
-JSOP_NE
+PNK_NE
 :
 stmt
 =
@@ -38490,7 +38490,7 @@ F32Ne
 break
 ;
 case
-JSOP_LT
+PNK_LT
 :
 stmt
 =
@@ -38502,7 +38502,7 @@ F32Lt
 break
 ;
 case
-JSOP_LE
+PNK_LE
 :
 stmt
 =
@@ -38514,7 +38514,7 @@ F32Le
 break
 ;
 case
-JSOP_GT
+PNK_GT
 :
 stmt
 =
@@ -38526,7 +38526,7 @@ F32Gt
 break
 ;
 case
-JSOP_GE
+PNK_GE
 :
 stmt
 =
