@@ -68,6 +68,8 @@ GeneratedFile
     
 HostDefines
     
+JARManifest
+    
 ObjdirFiles
 )
 from
@@ -89,8 +91,6 @@ import
 (
     
 AbsolutePath
-    
-RenamedSourcePath
     
 ObjDirPath
 )
@@ -1082,6 +1082,21 @@ obj
 backend_file
 )
         
+elif
+isinstance
+(
+obj
+JARManifest
+)
+:
+            
+self
+.
+_consume_jar_manifest
+(
+obj
+)
+        
 return
 True
     
@@ -1247,6 +1262,43 @@ DAB_CD
 en
 -
 US
+'
+            
+acdefines_flags
++
+=
+'
+-
+DBOOKMARKS_INCLUDE_DIR
+=
+%
+s
+/
+browser
+/
+locales
+/
+en
+-
+US
+/
+profile
+'
+%
+self
+.
+environment
+.
+topsrcdir
+            
+acdefines_flags
++
+=
+'
+-
+DBUILD_FASTER
+=
+1
 '
             
 fh
@@ -1913,14 +1965,6 @@ in
 files
 :
                 
-assert
-not
-isinstance
-(
-f
-RenamedSourcePath
-)
-                
 if
 not
 isinstance
@@ -2435,6 +2479,27 @@ None
 )
 :
         
+marker
+=
+'
+%
+%
+'
+if
+input_file
+.
+endswith
+(
+'
+.
+css
+'
+)
+else
+'
+#
+'
+        
 cmd
 =
 self
@@ -2450,9 +2515,18 @@ cmd
 .
 extend
 (
+[
+shell_quote
+(
+d
+)
+for
+d
+in
 backend_file
 .
 defines
+]
 )
         
 cmd
@@ -2477,6 +2551,16 @@ o
 %
 o
 '
+'
+-
+-
+marker
+=
+%
+s
+'
+%
+marker
 ]
 )
         
