@@ -2551,6 +2551,7 @@ PushImage
 this
 container
 aBuilder
+aResources
 aSc
 rect
 )

@@ -482,10 +482,6 @@ Clear
 (
 )
 ;
-RemoveUnusedAndResetWebRenderUserData
-(
-)
-;
 if
 (
 mTransactionIdAllocator
@@ -1657,6 +1653,15 @@ wr
 DisplayListBuilder
 &
 aBuilder
+mozilla
+:
+:
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
@@ -1895,6 +1900,7 @@ imageData
 UpdateImageKey
 (
 aContainer
+aResources
 )
 ;
 }
@@ -1919,6 +1925,15 @@ wr
 DisplayListBuilder
 &
 aBuilder
+mozilla
+:
+:
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
@@ -1949,6 +1964,7 @@ CreateImageKey
 aItem
 aContainer
 aBuilder
+aResources
 aSc
 size
 )
@@ -3183,6 +3199,7 @@ fallbackData
 UpdateImageKey
 (
 imageContainer
+aResources
 true
 )
 )
@@ -3955,10 +3972,6 @@ clear
 mClipIdCache
 .
 clear
-(
-)
-;
-RemoveUnusedAndResetWebRenderUserData
 (
 )
 ;

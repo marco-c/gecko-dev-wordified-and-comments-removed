@@ -6452,6 +6452,7 @@ PushImage
 aItem
 container
 aBuilder
+aResources
 aSc
 dest
 )
