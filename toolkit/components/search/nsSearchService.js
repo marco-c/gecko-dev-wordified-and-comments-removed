@@ -1264,9 +1264,6 @@ Ci
 nsIInterfaceRequestor
 Ci
 .
-nsIHttpEventSink
-Ci
-.
 nsIProgressEventSink
 ]
 )
@@ -1531,13 +1528,6 @@ QueryInterface
 aIID
 )
 ;
-}
-onRedirect
-(
-aChannel
-aNewChannel
-)
-{
 }
 onProgress
 (

@@ -161,11 +161,6 @@ nsIHttpChannelInternal
 idl
 '
 '
-nsIHttpEventSink
-.
-idl
-'
-'
 nsIHttpHeaderVisitor
 .
 idl
