@@ -1083,7 +1083,7 @@ EagerPseudoCascadeInputs
 (
 styles
 .
-as_array
+as_optional_array
 (
 )
 .
