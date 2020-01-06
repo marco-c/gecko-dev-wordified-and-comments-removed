@@ -845,6 +845,11 @@ case
 touchend
 "
 :
+case
+"
+touchcancel
+"
+:
 TouchEventHelper
 .
 TOUCH_STATE
