@@ -11747,10 +11747,13 @@ Servo_StyleSet_MediumFeaturesChanged
 set
 :
 RawServoStyleSetBorrowed
+viewport_changed
+:
+bool
 )
 -
 >
-bool
+nsRestyleHint
 ;
 }
 extern
