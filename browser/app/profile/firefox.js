@@ -3123,7 +3123,7 @@ startup
 .
 firstrunSkipsHomepage
 "
-false
+true
 )
 ;
 pref
