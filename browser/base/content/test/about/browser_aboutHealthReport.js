@@ -20,7 +20,7 @@ content
 /
 test
 /
-general
+about
 /
 "
 ;
@@ -46,7 +46,7 @@ content
 /
 test
 /
-general
+about
 /
 "
 ;
