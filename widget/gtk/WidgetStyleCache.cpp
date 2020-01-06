@@ -2056,6 +2056,14 @@ CreateWidget
 aWidgetType
 )
 ;
+if
+(
+!
+widget
+)
+return
+nullptr
+;
 GtkStyleContext
 *
 style
