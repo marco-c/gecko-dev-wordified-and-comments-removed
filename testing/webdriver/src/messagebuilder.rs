@@ -41,7 +41,7 @@ WebDriverMessage
 }
 ;
 use
-common
+error
 :
 :
 {

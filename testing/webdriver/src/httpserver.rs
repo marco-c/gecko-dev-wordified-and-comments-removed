@@ -113,13 +113,13 @@ WebDriverCommand
 }
 ;
 use
-common
+error
 :
 :
 {
 WebDriverResult
-ErrorStatus
 WebDriverError
+ErrorStatus
 }
 ;
 use
