@@ -1473,8 +1473,6 @@ posesSize
 ;
 VRHMDSensorState
 result
-{
-}
 ;
 :
 :
