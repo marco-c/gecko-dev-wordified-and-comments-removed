@@ -644,8 +644,6 @@ aPrincipal
 nsresult
 SeekInternal
 (
-int32_t
-aWhence
 int64_t
 aOffset
 )
