@@ -1388,9 +1388,10 @@ mutable
 Mutex
 mMutex
 ;
-FallibleTArray
+AutoTArray
 <
 Chunk
+1
 >
 mChunks
 ;
