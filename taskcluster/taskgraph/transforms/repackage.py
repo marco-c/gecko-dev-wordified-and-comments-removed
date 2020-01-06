@@ -409,6 +409,19 @@ dependencies
 "
 )
         
+signing_dependencies
+=
+dep_job
+.
+dependencies
+        
+dependencies
+.
+update
+(
+signing_dependencies
+)
+        
 treeherder
 =
 job
