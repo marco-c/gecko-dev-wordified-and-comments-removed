@@ -21672,7 +21672,7 @@ observer
 }
 static
 void
-RegisterPriorityCallback
+RegisterVarCacheCallback
 (
 PrefChangedFunc
 aCallback
@@ -22108,7 +22108,7 @@ CacheDataAppendElement
 data
 )
 ;
-RegisterPriorityCallback
+RegisterVarCacheCallback
 (
 BoolVarChanged
 aPref
@@ -22258,7 +22258,7 @@ CacheDataAppendElement
 data
 )
 ;
-RegisterPriorityCallback
+RegisterVarCacheCallback
 (
 IntVarChanged
 aPref
@@ -22408,7 +22408,7 @@ CacheDataAppendElement
 data
 )
 ;
-RegisterPriorityCallback
+RegisterVarCacheCallback
 (
 UintVarChanged
 aPref
@@ -22576,7 +22576,7 @@ CacheDataAppendElement
 data
 )
 ;
-RegisterPriorityCallback
+RegisterVarCacheCallback
 (
 AtomicUintVarChanged
 <
@@ -22748,7 +22748,7 @@ CacheDataAppendElement
 data
 )
 ;
-RegisterPriorityCallback
+RegisterVarCacheCallback
 (
 FloatVarChanged
 aPref
