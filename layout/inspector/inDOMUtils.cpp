@@ -1479,7 +1479,7 @@ GetBindingParent
 )
 )
 {
-for
+if
 (
 nsXBLBinding
 *
@@ -1489,17 +1489,6 @@ bindingContent
 -
 >
 GetXBLBinding
-(
-)
-;
-binding
-;
-binding
-=
-binding
--
->
-GetBaseBinding
 (
 )
 )
