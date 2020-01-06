@@ -48,7 +48,7 @@ namespace
 mozilla
 {
 namespace
-gmptest
+cdmtest
 {
 #
 if

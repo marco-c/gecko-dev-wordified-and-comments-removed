@@ -1,7 +1,7 @@
 #
 include
 "
-gmp
+cdm
 -
 test
 -
@@ -12,7 +12,7 @@ h
 #
 include
 "
-gmp
+cdm
 -
 test
 -
@@ -23,7 +23,7 @@ h
 #
 include
 "
-gmp
+cdm
 -
 test
 -
@@ -2415,7 +2415,7 @@ apis
 mozilla
 :
 :
-gmptest
+cdmtest
 :
 :
 TestOuputProtectionAPIs
