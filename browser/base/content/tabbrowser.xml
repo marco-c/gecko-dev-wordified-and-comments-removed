@@ -50695,7 +50695,7 @@ center
 <
 xul
 :
-image
+hbox
 xbl
 :
 inherits
@@ -50715,11 +50715,6 @@ class
 tab
 -
 throbber
-"
-role
-=
-"
-presentation
 "
 layer
 =
