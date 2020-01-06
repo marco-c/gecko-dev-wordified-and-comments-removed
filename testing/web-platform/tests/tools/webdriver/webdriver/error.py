@@ -570,17 +570,18 @@ operation
 def
 get
 (
-status_code
+error_code
 )
 :
     
 "
 "
 "
+    
 Gets
 exception
 from
-status_code
+error_code
 falling
 back
 to
@@ -602,7 +603,7 @@ _errors
 .
 get
 (
-status_code
+error_code
 WebDriverException
 )
 _errors
