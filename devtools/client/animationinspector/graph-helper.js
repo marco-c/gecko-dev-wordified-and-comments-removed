@@ -1351,6 +1351,16 @@ easing
 }
 )
 ;
+this
+.
+targetEl
+.
+style
+.
+opacity
+=
+0
+;
 }
 this
 .
