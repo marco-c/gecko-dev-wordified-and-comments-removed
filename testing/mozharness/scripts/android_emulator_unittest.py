@@ -3100,9 +3100,7 @@ self
 .
 adb_path
 '
-start
--
-server
+root
 '
 ]
 )
