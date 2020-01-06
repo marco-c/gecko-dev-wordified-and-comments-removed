@@ -4403,10 +4403,12 @@ IntegerOverflow
 InvalidConversionToInteger
 IntegerDivideByZero
 OutOfBounds
+UnalignedAccess
 IndirectCallToNull
 IndirectCallBadSig
 ImpreciseSimdConversion
 StackOverflow
+ThrowReported
 Limit
 }
 ;
@@ -5649,6 +5651,9 @@ Int64ToFloat32
 Int64ToDouble
 GrowMemory
 CurrentMemory
+WaitI32
+WaitI64
+Wake
 Limit
 }
 ;
