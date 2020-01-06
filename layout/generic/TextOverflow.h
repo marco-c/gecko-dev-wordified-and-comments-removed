@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -54,7 +63,9 @@ namespace
 css
 {
 class
+MOZ_HEAP_CLASS
 TextOverflow
+final
 {
 public
 :
@@ -121,7 +132,7 @@ nsIFrame
 >
 FrameHashtable
 ;
-protected
+private
 :
 TextOverflow
 (
