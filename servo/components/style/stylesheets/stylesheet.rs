@@ -341,7 +341,7 @@ quirks_mode
 QuirksMode
 line_number_offset
 :
-u64
+u32
 )
 -
 >
@@ -1501,7 +1501,7 @@ error_reporter
 R
 line_number_offset
 :
-u64
+u32
 )
 where
 R
@@ -1694,7 +1694,7 @@ quirks_mode
 QuirksMode
 line_number_offset
 :
-u64
+u32
 )
 -
 >
@@ -1727,9 +1727,10 @@ input
 ParserInput
 :
 :
-new
+new_with_line_number_offset
 (
 css
+line_number_offset
 )
 ;
 let
@@ -1752,11 +1753,11 @@ context
 ParserContext
 :
 :
-new_with_line_number_offset
+new
 (
 origin
 url_data
-line_number_offset
+None
 PARSING_MODE_DEFAULT
 quirks_mode
 )
@@ -1963,7 +1964,7 @@ quirks_mode
 QuirksMode
 line_number_offset
 :
-u64
+u32
 )
 -
 >

@@ -295,7 +295,7 @@ QuirksMode
 :
 :
 NoQuirks
-0u64
+0
 )
 )
 }

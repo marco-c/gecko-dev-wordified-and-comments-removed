@@ -756,11 +756,6 @@ input
 current_source_location
 (
 )
-self
-.
-context
-.
-line_number_offset
 )
 ;
 match_ignore_ascii_case
@@ -1943,11 +1938,6 @@ input
 current_source_location
 (
 )
-self
-.
-context
-.
-line_number_offset
 )
 ;
 match_ignore_ascii_case
@@ -3509,11 +3499,6 @@ input
 current_source_location
 (
 )
-self
-.
-context
-.
-line_number_offset
 )
 ;
 let
@@ -3672,9 +3657,6 @@ get_location_with_offset
 location
 :
 SourceLocation
-offset
-:
-u64
 )
 -
 >
@@ -3687,10 +3669,6 @@ line
 location
 .
 line
-+
-offset
-as
-u32
 column
 :
 location

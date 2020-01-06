@@ -792,6 +792,8 @@ quirks_mode
 self
 .
 line_number
+as
+u32
 )
 ;
 let
