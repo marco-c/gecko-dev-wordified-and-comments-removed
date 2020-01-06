@@ -1143,7 +1143,6 @@ const
 ;
 protected
 :
-explicit
 CustomHistogram
 (
 const
