@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsTArray
+nsTObserverArray
 .
 h
 "
@@ -130,7 +130,7 @@ aStatus
 )
 override
 ;
-nsTArray
+nsTObserverArray
 <
 Listener
 *
