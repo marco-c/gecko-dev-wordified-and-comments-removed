@@ -61,12 +61,6 @@ within
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 dir
@@ -85,12 +79,6 @@ style
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 dir

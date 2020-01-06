@@ -385,12 +385,6 @@ Android
 needs
 -
 focus
-fails
--
-if
-(
-webrender
-)
 =
 =
 text
@@ -466,12 +460,6 @@ Android
 needs
 -
 focus
-fails
--
-if
-(
-webrender
-)
 =
 =
 text
