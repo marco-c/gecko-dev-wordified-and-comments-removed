@@ -3112,7 +3112,7 @@ background
 >
 color
 /
-action_orange
+action_accent
 <
 /
 item
@@ -3439,7 +3439,7 @@ textColorHighlight
 >
 color
 /
-fennec_ui_orange
+fennec_ui_accent
 <
 /
 item
@@ -7172,7 +7172,7 @@ colorAccent
 >
 color
 /
-fennec_ui_orange
+fennec_ui_accent
 <
 /
 item

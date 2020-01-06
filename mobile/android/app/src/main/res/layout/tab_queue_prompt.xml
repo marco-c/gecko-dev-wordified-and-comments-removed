@@ -473,7 +473,7 @@ textColor
 "
 color
 /
-action_orange
+action_accent
 "
 android
 :
@@ -576,7 +576,7 @@ textColor
 "
 color
 /
-action_orange
+action_accent
 "
 android
 :
