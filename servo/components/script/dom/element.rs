@@ -1183,7 +1183,10 @@ style
 values
 :
 :
+{
 CSSFloat
+Either
+}
 ;
 use
 style
@@ -3437,15 +3440,10 @@ SpecifiedValue
 vec
 !
 [
-background_image
+Either
 :
 :
-single_value
-:
-:
-SpecifiedValue
-(
-Some
+Second
 (
 specified
 :
@@ -3459,7 +3457,6 @@ url
 .
 into
 (
-)
 )
 )
 )
