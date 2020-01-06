@@ -438,6 +438,9 @@ scan
 -
 build
 "
+"
+hacl
+"
 ]
 ;
 let

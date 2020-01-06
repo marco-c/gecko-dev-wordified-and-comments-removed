@@ -617,6 +617,11 @@ MPCPU_SRCS
 mpcpucache
 .
 c
+VERIFIED_SRCS
+=
+(
+NULL
+)
 CSRCS
 =
 \
@@ -774,6 +779,10 @@ MPCPU_SRCS
 \
 (
 ECL_SRCS
+)
+\
+(
+VERIFIED_SRCS
 )
 \
 (
