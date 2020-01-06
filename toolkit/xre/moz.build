@@ -226,6 +226,11 @@ mozilla
 =
 [
 '
+AutoSQLiteLifetime
+.
+h
+'
+'
 Bootstrap
 .
 h
@@ -553,6 +558,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AutoSQLiteLifetime
+.
+cpp
+'
 '
 Bootstrap
 .

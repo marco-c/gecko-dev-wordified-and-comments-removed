@@ -14,6 +14,13 @@ nsXPCOM
 .
 h
 "
+#
+include
+"
+AutoSQLiteLifetime
+.
+h
+"
 namespace
 mozilla
 {
@@ -26,6 +33,9 @@ Bootstrap
 {
 protected
 :
+AutoSQLiteLifetime
+mSQLLT
+;
 virtual
 void
 Dispose
