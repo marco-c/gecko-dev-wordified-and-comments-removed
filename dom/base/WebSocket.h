@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+CheckedInt
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TypedArray
@@ -673,7 +682,7 @@ mKeepingAlive
 bool
 mCheckMustKeepAlive
 ;
-uint32_t
+CheckedUint32
 mOutgoingBufferedAmount
 ;
 nsString
