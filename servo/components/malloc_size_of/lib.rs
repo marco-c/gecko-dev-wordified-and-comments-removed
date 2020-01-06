@@ -27,6 +27,8 @@ servo
 ]
 extern
 crate
+mozjs
+as
 js
 ;
 extern
