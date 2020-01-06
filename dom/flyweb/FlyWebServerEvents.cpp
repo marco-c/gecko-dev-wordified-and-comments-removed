@@ -372,6 +372,13 @@ GetInternalResponse
 (
 )
 ;
+response
+-
+>
+SetBodyUsed
+(
+)
+;
 }
 if
 (
