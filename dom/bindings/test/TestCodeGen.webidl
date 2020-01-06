@@ -8868,7 +8868,6 @@ index
 )
 ;
 setter
-creator
 void
 (
 unsigned
@@ -8917,7 +8916,6 @@ interface
 TestIndexedSetterInterface
 {
 setter
-creator
 void
 setItem
 (
@@ -8948,7 +8946,6 @@ interface
 TestNamedSetterInterface
 {
 setter
-creator
 void
 (
 DOMString
@@ -8970,7 +8967,6 @@ interface
 TestIndexedAndNamedSetterInterface
 {
 setter
-creator
 void
 (
 unsigned
@@ -8995,7 +8991,6 @@ long
 length
 ;
 setter
-creator
 void
 setNamedItem
 (
@@ -9037,7 +9032,6 @@ name
 )
 ;
 setter
-creator
 void
 (
 unsigned
@@ -9048,7 +9042,6 @@ item
 )
 ;
 setter
-creator
 void
 (
 DOMString
@@ -9283,7 +9276,6 @@ TestCEReactionsInterface
 CEReactions
 ]
 setter
-creator
 void
 (
 unsigned
@@ -9297,7 +9289,6 @@ item
 CEReactions
 ]
 setter
-creator
 void
 (
 DOMString

@@ -6506,20 +6506,6 @@ setters
 elif
 member
 .
-isCreator
-(
-)
-:
-                
-memberType
-=
-"
-creators
-"
-            
-elif
-member
-.
 isDeleter
 (
 )
@@ -6812,9 +6798,6 @@ in
 [
 "
 setter
-"
-"
-creator
 "
 "
 deleter
@@ -30512,10 +30495,6 @@ Setter
 '
         
 '
-Creator
-'
-        
-'
 Deleter
 '
         
@@ -30566,9 +30545,6 @@ getter
 =
 False
 setter
-=
-False
-creator
 =
 False
                  
@@ -30679,19 +30655,6 @@ self
 _setter
 =
 setter
-        
-assert
-isinstance
-(
-creator
-bool
-)
-        
-self
-.
-_creator
-=
-creator
         
 assert
 isinstance
@@ -31011,10 +30974,6 @@ if
 self
 .
 _setter
-or
-self
-.
-_creator
 :
             
 assert
@@ -31274,18 +31233,6 @@ self
 _setter
     
 def
-isCreator
-(
-self
-)
-:
-        
-return
-self
-.
-_creator
-    
-def
 isDeleter
 (
 self
@@ -31493,13 +31440,6 @@ or
 self
 .
 isSetter
-(
-)
-or
-                
-self
-.
-isCreator
 (
 )
 or
@@ -31926,22 +31866,6 @@ not
 method
 .
 isSetter
-(
-)
-        
-assert
-not
-self
-.
-isCreator
-(
-)
-        
-assert
-not
-method
-.
-isCreator
 (
 )
         
@@ -35535,14 +35459,6 @@ setter
 :
 "
 SETTER
-"
-        
-"
-creator
-"
-:
-"
-CREATOR
 "
         
 "
@@ -40065,23 +39981,6 @@ p
 else
 False
         
-creator
-=
-True
-if
-IDLMethod
-.
-Special
-.
-Creator
-in
-p
-[
-1
-]
-else
-False
-        
 deleter
 =
 True
@@ -40124,8 +40023,6 @@ deleter
             
 if
 setter
-or
-creator
 :
                 
 raise
@@ -40139,8 +40036,6 @@ are
 incompatible
 with
 setter
-and
-creator
 "
                                   
 [
@@ -40466,8 +40361,6 @@ p
         
 if
 setter
-or
-creator
 :
             
 if
@@ -40484,27 +40377,13 @@ raise
 WebIDLError
 (
 "
-%
-s
+setter
 has
 wrong
 number
 of
 arguments
 "
-%
-                                  
-(
-"
-setter
-"
-if
-setter
-else
-"
-creator
-"
-)
                                   
 [
 self
@@ -40577,8 +40456,7 @@ raise
 WebIDLError
 (
 "
-%
-s
+settter
 has
 wrong
 argument
@@ -40591,19 +40469,6 @@ or
 UnsignedLong
 )
 "
-%
-                                  
-(
-"
-setter
-"
-if
-setter
-else
-"
-creator
-"
-)
                                   
 [
 arguments
@@ -40635,8 +40500,7 @@ raise
 WebIDLError
 (
 "
-%
-s
+setter
 cannot
 have
 %
@@ -40644,18 +40508,8 @@ s
 argument
 "
 %
-                                  
-(
-"
-setter
-"
-if
-setter
-else
-"
-creator
-"
                                    
+(
 "
 optional
 "
@@ -40702,8 +40556,7 @@ raise
 WebIDLError
 (
 "
-%
-s
+setter
 cannot
 have
 %
@@ -40711,18 +40564,8 @@ s
 argument
 "
 %
-                                  
-(
-"
-setter
-"
-if
-setter
-else
-"
-creator
-"
                                    
+(
 "
 optional
 "
@@ -40831,9 +40674,6 @@ and
 not
 setter
 and
-not
-creator
-and
                 
 not
 deleter
@@ -40894,8 +40734,6 @@ location
                 
 "
 __
-%
-s
 %
 s
 %
@@ -40970,15 +40808,6 @@ else
 "
                  
 "
-creator
-"
-if
-creator
-else
-"
-"
-                 
-"
 legacycaller
 "
 if
@@ -41026,9 +40855,6 @@ getter
 setter
 =
 setter
-creator
-=
-creator
                            
 deleter
 =
@@ -41462,37 +41288,6 @@ IDLMethod
 Special
 .
 Setter
-    
-def
-p_SpecialCreator
-(
-self
-p
-)
-:
-        
-"
-"
-"
-            
-Special
-:
-CREATOR
-        
-"
-"
-"
-        
-p
-[
-0
-]
-=
-IDLMethod
-.
-Special
-.
-Creator
     
 def
 p_SpecialDeleter
@@ -42031,9 +41826,6 @@ CALLBACK
                          
 |
 CONST
-                         
-|
-CREATOR
                          
 |
 DELETER
@@ -42674,9 +42466,6 @@ LEGACYCALLER
                   
 |
 CONST
-                  
-|
-CREATOR
                   
 |
 DELETER

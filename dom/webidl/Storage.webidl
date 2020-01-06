@@ -198,7 +198,6 @@ Throws
 NeedsSubjectPrincipal
 ]
 setter
-creator
 void
 setItem
 (

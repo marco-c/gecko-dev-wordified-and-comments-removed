@@ -6811,7 +6811,6 @@ ix
 )
 ;
 setter
-creator
 void
 longIndexedSetter
 (
@@ -6850,7 +6849,6 @@ nomnom
 )
 ;
 setter
-creator
 void
 shortNamedSetter
 (

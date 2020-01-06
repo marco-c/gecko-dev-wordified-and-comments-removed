@@ -422,9 +422,6 @@ False
 setter
 =
 False
-creator
-=
-False
                     
 deleter
 =
@@ -609,26 +606,6 @@ has
 the
 correct
 setter
-value
-"
-)
-        
-harness
-.
-check
-(
-method
-.
-isCreator
-(
-)
-creator
-"
-Method
-has
-the
-correct
-creator
 value
 "
 )

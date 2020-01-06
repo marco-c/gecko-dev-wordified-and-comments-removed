@@ -128,7 +128,6 @@ name
 Throws
 ]
 setter
-creator
 void
 (
 unsigned
@@ -142,7 +141,6 @@ arg
 Throws
 ]
 setter
-creator
 void
 (
 DOMString

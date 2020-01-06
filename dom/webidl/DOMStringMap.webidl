@@ -187,7 +187,6 @@ CEReactions
 Throws
 ]
 setter
-creator
 void
 (
 DOMString

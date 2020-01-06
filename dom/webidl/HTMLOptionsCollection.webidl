@@ -163,7 +163,6 @@ CEReactions
 Throws
 ]
 setter
-creator
 void
 (
 unsigned
