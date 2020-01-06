@@ -298,7 +298,7 @@ echo
 Applying
 ots
 -
-config
+lz4
 .
 patch
 .
@@ -311,6 +311,6 @@ p3
 <
 ots
 -
-config
+lz4
 .
 patch
