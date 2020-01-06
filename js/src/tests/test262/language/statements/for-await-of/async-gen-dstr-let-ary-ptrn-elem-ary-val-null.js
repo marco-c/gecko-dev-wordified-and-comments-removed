@@ -64,6 +64,7 @@ constructor
 )
 =
 >
+{
 assert
 .
 sameValue
@@ -71,6 +72,8 @@ sameValue
 constructor
 TypeError
 )
+;
+}
 )
 .
 then

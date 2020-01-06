@@ -1,8 +1,8 @@
 function
 arrayContains
 (
-arr
-expected
+array
+subArray
 )
 {
 var
@@ -17,7 +17,7 @@ i
 ;
 i
 <
-expected
+subArray
 .
 length
 ;
@@ -39,7 +39,7 @@ j
 ;
 j
 <
-arr
+array
 .
 length
 ;
@@ -50,14 +50,14 @@ j
 {
 if
 (
-expected
+subArray
 [
 i
 ]
 =
 =
 =
-arr
+array
 [
 j
 ]

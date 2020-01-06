@@ -1,8 +1,12 @@
 assert
 .
-sameValue
+throws
 (
-typeof
+TypeError
+(
+)
+=
+>
 Intl
 .
 DateTimeFormat
@@ -13,9 +17,6 @@ format
 (
 0
 )
-"
-string
-"
 "
 Intl
 .

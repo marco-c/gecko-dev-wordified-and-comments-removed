@@ -1,0 +1,14 @@
+assert
+.
+sameValue
+(
+MAX_ITERATIONS
+100000
+)
+;
+reportCompare
+(
+0
+0
+)
+;

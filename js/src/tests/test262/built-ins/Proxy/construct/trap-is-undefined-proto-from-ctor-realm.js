@@ -19,12 +19,6 @@ Function
 (
 )
 ;
-C
-.
-prototype
-=
-null
-;
 var
 P
 =
@@ -61,7 +55,12 @@ Object
 .
 getPrototypeOf
 (
+Object
+.
+getPrototypeOf
+(
 p
+)
 )
 other
 .

@@ -8,7 +8,6 @@ loneCodePoints
 :
 [
 0x00060C
-0x00061B
 0x00061F
 0x00FDF2
 0x00FDFD
@@ -16,6 +15,10 @@ loneCodePoints
 ranges
 :
 [
+[
+0x00061B
+0x00061C
+]
 [
 0x000660
 0x000669
@@ -162,7 +165,7 @@ ranges
 0x00061A
 ]
 [
-0x00061C
+0x00061D
 0x00061E
 ]
 [

@@ -65,4 +65,7 @@ join
 }
 )
 ;
+return
+true
+;
 }

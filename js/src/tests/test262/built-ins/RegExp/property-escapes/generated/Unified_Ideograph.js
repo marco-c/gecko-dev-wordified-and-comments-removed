@@ -20,7 +20,7 @@ ranges
 ]
 [
 0x004E00
-0x009FD5
+0x009FEA
 ]
 [
 0x00FA0E
@@ -53,6 +53,10 @@ ranges
 [
 0x02B820
 0x02CEA1
+]
+[
+0x02CEB0
+0x02EBE0
 ]
 ]
 }
@@ -134,7 +138,7 @@ ranges
 0x004DFF
 ]
 [
-0x009FD6
+0x009FEB
 0x00DBFF
 ]
 [
@@ -167,6 +171,10 @@ ranges
 ]
 [
 0x02CEA2
+0x02CEAF
+]
+[
+0x02EBE1
 0x10FFFF
 ]
 ]

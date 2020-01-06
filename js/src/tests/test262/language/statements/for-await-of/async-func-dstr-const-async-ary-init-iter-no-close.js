@@ -23,8 +23,6 @@ function
 return
 {
 next
-:
-function
 (
 )
 {
@@ -40,8 +38,6 @@ true
 ;
 }
 return
-:
-function
 (
 )
 {

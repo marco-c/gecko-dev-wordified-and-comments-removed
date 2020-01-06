@@ -47,8 +47,6 @@ function
 return
 {
 next
-:
-function
 (
 )
 {
@@ -125,6 +123,7 @@ constructor
 )
 =
 >
+{
 assert
 .
 sameValue
@@ -132,6 +131,8 @@ sameValue
 constructor
 Test262Error
 )
+;
+}
 )
 .
 then

@@ -93,9 +93,7 @@ threw
 false
 )
 {
-throw
-new
-Test262Error
+ERROR
 (
 '
 Expected
@@ -106,9 +104,6 @@ no
 error
 was
 thrown
-for
-string
-key
 .
 '
 )

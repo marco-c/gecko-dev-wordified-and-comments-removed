@@ -60,6 +60,7 @@ constructor
 )
 =
 >
+{
 assert
 .
 sameValue
@@ -67,6 +68,8 @@ sameValue
 constructor
 ReferenceError
 )
+;
+}
 )
 .
 then

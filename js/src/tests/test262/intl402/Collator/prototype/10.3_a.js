@@ -1,7 +1,12 @@
 assert
 .
-sameValue
+throws
 (
+TypeError
+(
+)
+=
+>
 Intl
 .
 Collator
@@ -17,7 +22,6 @@ a
 a
 "
 )
-0
 "
 Intl
 .
