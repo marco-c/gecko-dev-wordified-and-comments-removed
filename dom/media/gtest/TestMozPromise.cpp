@@ -1623,6 +1623,12 @@ MozPromise
 Chaining
 )
 {
+MozPromiseRequestHolder
+<
+TestPromise
+>
+holder
+;
 AutoTaskQueue
 atq
 ;
@@ -1637,12 +1643,6 @@ atq
 Queue
 (
 )
-;
-MozPromiseRequestHolder
-<
-TestPromise
->
-holder
 ;
 RunOnTaskQueue
 (
