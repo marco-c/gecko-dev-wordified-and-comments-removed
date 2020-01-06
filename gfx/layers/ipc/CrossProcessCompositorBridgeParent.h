@@ -36,9 +36,6 @@ class
 CompositorOptions
 ;
 class
-CompositorAnimationStorage
-;
-class
 CrossProcessCompositorBridgeParent
 final
 :
