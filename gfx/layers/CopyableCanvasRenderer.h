@@ -280,9 +280,6 @@ OriginPos
 mOriginPos
 ;
 bool
-mIsMirror
-;
-bool
 mOpaque
 ;
 RefPtr

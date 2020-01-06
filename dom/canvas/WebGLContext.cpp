@@ -642,10 +642,6 @@ mMaxFetchedInstances
 (
 0
 )
-mLayerIsMirror
-(
-false
-)
 mBypassShaderValidation
 (
 false
@@ -5733,10 +5729,6 @@ static
 uint8_t
 gWebGLLayerUserData
 ;
-static
-uint8_t
-gWebGLMirrorLayerUserData
-;
 class
 WebGLContextUserData
 :
@@ -5850,8 +5842,6 @@ oldLayer
 LayerManager
 *
 manager
-bool
-aMirror
 )
 {
 if
@@ -5868,11 +5858,6 @@ oldLayer
 >
 HasUserData
 (
-aMirror
-?
-&
-gWebGLMirrorLayerUserData
-:
 &
 gWebGLLayerUserData
 )
@@ -5947,10 +5932,6 @@ IsPaintingToWindow
 &
 &
 mCanvasElement
-&
-&
-!
-aMirror
 )
 {
 userData
@@ -5967,11 +5948,6 @@ canvasLayer
 >
 SetUserData
 (
-aMirror
-?
-&
-gWebGLMirrorLayerUserData
-:
 &
 gWebGLLayerUserData
 userData
@@ -5995,7 +5971,6 @@ InitializeCanvasRenderer
 (
 builder
 canvasRenderer
-aMirror
 )
 )
 return
@@ -6032,10 +6007,6 @@ mResetLayer
 =
 false
 ;
-mLayerIsMirror
-=
-aMirror
-;
 return
 canvasLayer
 .
@@ -6056,8 +6027,6 @@ aBuilder
 CanvasRenderer
 *
 aRenderer
-bool
-aMirror
 )
 {
 if
@@ -6083,10 +6052,6 @@ IsPaintingToWindow
 &
 &
 mCanvasElement
-&
-&
-!
-aMirror
 )
 {
 data
@@ -6162,12 +6127,6 @@ IsPremultAlpha
 data
 .
 mHasAlpha
-;
-data
-.
-mIsMirror
-=
-aMirror
 ;
 aRenderer
 -
