@@ -5211,11 +5211,6 @@ this
 _isChrome
 |
 |
-AppConstants
-.
-MOZ_B2G
-|
-|
 Services
 .
 prefs

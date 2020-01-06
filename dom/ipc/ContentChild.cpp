@@ -10767,13 +10767,6 @@ defined
 (
 MOZ_CRASHREPORTER
 )
-&
-&
-!
-defined
-(
-MOZ_B2G
-)
 nsDependentCString
 reason
 (

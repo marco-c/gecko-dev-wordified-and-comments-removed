@@ -4074,9 +4074,6 @@ mCapIndex
 )
 )
 {
-#
-ifndef
-MOZ_B2G
 bool
 avail
 =
@@ -4113,8 +4110,6 @@ return
 false
 ;
 }
-#
-endif
 ScopedCustomReleasePtr
 <
 webrtc

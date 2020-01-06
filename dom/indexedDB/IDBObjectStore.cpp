@@ -3870,13 +3870,6 @@ true
 }
 }
 ;
-#
-if
-!
-defined
-(
-MOZ_B2G
-)
 class
 UpgradeDeserializationHelper
 {
@@ -4150,8 +4143,6 @@ false
 }
 }
 ;
-#
-endif
 template
 <
 class
@@ -5612,13 +5603,6 @@ return
 true
 ;
 }
-#
-if
-!
-defined
-(
-MOZ_B2G
-)
 bool
 IDBObjectStore
 :
@@ -5753,8 +5737,6 @@ return
 true
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG
