@@ -38,8 +38,12 @@ TITLE
 )
 ;
 var
-testcase
+actual
 =
+"
+pass
+"
+;
 new
 TestCase
 (
@@ -53,9 +57,7 @@ comment
 "
 pass
 "
-"
-pass
-"
+actual
 )
 ;
 test
