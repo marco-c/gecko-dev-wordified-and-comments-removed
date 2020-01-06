@@ -2190,11 +2190,9 @@ id
 =
 =
 "
-page
+urlbar
 -
-action
--
-buttons
+icons
 "
 |
 |

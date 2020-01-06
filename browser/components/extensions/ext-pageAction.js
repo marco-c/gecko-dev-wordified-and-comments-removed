@@ -926,11 +926,9 @@ document
 getElementById
 (
 "
-page
+urlbar
 -
-action
--
-buttons
+icons
 "
 )
 .
