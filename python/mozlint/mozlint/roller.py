@@ -43,7 +43,7 @@ from
 .
 vcs
 import
-VCSFiles
+VCSHelper
 def
 _run_linters
 (
@@ -303,7 +303,9 @@ self
 .
 vcs
 =
-VCSFiles
+VCSHelper
+.
+create
 (
 )
         
@@ -562,8 +564,9 @@ paths
 =
 paths
 or
-[
-]
+set
+(
+)
         
 if
 isinstance
@@ -575,9 +578,30 @@ basestring
             
 paths
 =
+set
+(
 [
 paths
 ]
+)
+        
+elif
+isinstance
+(
+paths
+(
+list
+tuple
+)
+)
+:
+            
+paths
+=
+set
+(
+paths
+)
         
 if
 not
@@ -595,7 +619,7 @@ workdir
             
 paths
 .
-extend
+update
 (
 self
 .
@@ -612,17 +636,43 @@ outgoing
             
 paths
 .
-extend
+update
 (
 self
 .
 vcs
 .
-outgoing
+by_outgoing
 (
 outgoing
 )
 )
+        
+if
+not
+paths
+and
+(
+workdir
+or
+outgoing
+)
+:
+            
+print
+(
+"
+warning
+:
+no
+files
+linted
+"
+)
+            
+return
+{
+}
         
 paths
 =
