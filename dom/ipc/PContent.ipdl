@@ -4462,6 +4462,8 @@ id
 async
 DeallocateLayerTreeId
 (
+ContentParentId
+cpId
 uint64_t
 id
 )

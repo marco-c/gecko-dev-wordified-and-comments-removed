@@ -443,6 +443,14 @@ showFocusRings
 ;
 }
 ;
+struct
+JSPluginFrameIPCTabContext
+{
+uint32_t
+jsPluginId
+;
+}
+;
 /
 /
 XXXcatalinb
@@ -592,6 +600,8 @@ IPCTabContext
 PopupIPCTabContext
 ;
 FrameIPCTabContext
+;
+JSPluginFrameIPCTabContext
 ;
 UnsafeIPCTabContext
 ;
