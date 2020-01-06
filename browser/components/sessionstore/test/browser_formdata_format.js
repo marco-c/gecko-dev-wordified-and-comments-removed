@@ -685,6 +685,7 @@ value33
 }
 }
 ]
+;
 let
 expectedValues
 =

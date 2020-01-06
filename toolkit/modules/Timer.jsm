@@ -278,6 +278,7 @@ aArgs
 )
 ;
 }
+;
 this
 .
 setTimeoutWithTarget
@@ -305,6 +306,7 @@ aArgs
 )
 ;
 }
+;
 this
 .
 setInterval
@@ -331,6 +333,7 @@ aArgs
 )
 ;
 }
+;
 this
 .
 setIntervalWithTarget
@@ -358,6 +361,7 @@ aArgs
 )
 ;
 }
+;
 this
 .
 clearInterval
@@ -402,3 +406,4 @@ aId
 ;
 }
 }
+;

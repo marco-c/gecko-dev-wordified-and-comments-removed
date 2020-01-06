@@ -269,6 +269,7 @@ propValue
 ;
 }
 }
+;
 PropertyOp
 .
 prototype
@@ -351,6 +352,7 @@ desc
 )
 ;
 }
+;
 function
 MethodOp
 (
@@ -492,6 +494,7 @@ result
 ;
 }
 }
+;
 MethodOp
 .
 prototype
@@ -679,6 +682,7 @@ desc
 )
 ;
 }
+;
 function
 CollectionOp
 (
@@ -840,6 +844,7 @@ i
 }
 }
 }
+;
 CollectionOp
 .
 prototype
@@ -975,6 +980,7 @@ desc
 ;
 }
 }
+;
 function
 CopyOp
 (
@@ -1018,6 +1024,7 @@ obj
 )
 ;
 }
+;
 function
 Database
 (

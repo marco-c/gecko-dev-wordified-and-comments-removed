@@ -653,6 +653,7 @@ ex
 ;
 }
 }
+;
 }
 function
 asyncMap
@@ -6777,6 +6778,7 @@ active
 currentAddon
 .
 active
+;
 if
 (
 !
@@ -7416,3 +7418,4 @@ true
 ;
 }
 }
+;

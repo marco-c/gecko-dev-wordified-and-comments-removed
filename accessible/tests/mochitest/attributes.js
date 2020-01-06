@@ -775,6 +775,7 @@ aWeight
 400
 ;
 }
+;
 const
 kBoldFontWeight
 =
@@ -790,6 +791,7 @@ aWeight
 400
 ;
 }
+;
 const
 kInputFontSize
 =
@@ -835,6 +837,7 @@ serif
 "
 ;
 }
+;
 const
 kInputFontFamily
 =
@@ -854,6 +857,7 @@ serif
 "
 ;
 }
+;
 const
 kMonospaceFontFamily
 =
@@ -871,6 +875,7 @@ monospace
 "
 ;
 }
+;
 const
 kSansSerifFontFamily
 =
@@ -890,6 +895,7 @@ serif
 "
 ;
 }
+;
 const
 kSerifFontFamily
 =
@@ -907,6 +913,7 @@ serif
 "
 ;
 }
+;
 const
 kCursiveFontFamily
 =

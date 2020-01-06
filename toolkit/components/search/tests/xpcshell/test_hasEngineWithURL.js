@@ -478,6 +478,7 @@ ahighrpowr
 com
 /
 "
+;
 let
 SORTED_ENGINE_QUERYPARM_CHANGE
 =

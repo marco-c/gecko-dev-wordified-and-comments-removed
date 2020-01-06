@@ -171,6 +171,7 @@ findbar
 onFindCommand
 (
 )
+;
 return
 gFindBar
 .

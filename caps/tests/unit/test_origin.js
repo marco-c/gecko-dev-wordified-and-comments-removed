@@ -88,6 +88,7 @@ e
 threw
 =
 true
+;
 }
 do_check_true
 (

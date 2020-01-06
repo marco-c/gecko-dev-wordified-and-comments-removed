@@ -61,6 +61,7 @@ NOT_REMOTE
 fakeRemoteType
 "
 ]
+;
 var
 TEST_CASES
 =
@@ -372,6 +373,7 @@ site
 "
 }
 ]
+;
 function
 run_test
 (

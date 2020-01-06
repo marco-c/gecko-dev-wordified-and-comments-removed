@@ -567,6 +567,7 @@ NodeFilter
 FILTER_REJECT
 ;
 }
+;
 let
 nodeWalker
 =

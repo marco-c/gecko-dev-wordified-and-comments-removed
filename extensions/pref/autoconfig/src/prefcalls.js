@@ -730,6 +730,7 @@ interfaces
 nsILDAPConnection
 .
 VERSION3
+;
 processLDAPValues
 (
 ldapquery

@@ -62,6 +62,7 @@ checkURLBarRevert
 }
 }
 }
+;
 gBrowser
 .
 addProgressListener

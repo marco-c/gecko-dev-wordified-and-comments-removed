@@ -60,6 +60,7 @@ name
 webextension_1
 "
 }
+;
 const
 manifestSample
 =
@@ -206,6 +207,7 @@ sampleAddon
 .
 id
 )
+;
 var
 receivedOnUninstalled
 =
@@ -352,6 +354,7 @@ resolve
 ;
 }
 }
+;
 AddonManager
 .
 addAddonListener
@@ -499,6 +502,7 @@ enabledCalled
 disabledCalled
 =
 true
+;
 }
 onEnabled
 :
@@ -516,9 +520,11 @@ disabledCalled
 enabledCalled
 =
 true
+;
 }
 }
 )
+;
 await
 Promise
 .

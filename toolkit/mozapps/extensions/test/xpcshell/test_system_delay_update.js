@@ -791,6 +791,7 @@ NORMAL_ID
 ]
 }
 )
+;
 startupManager
 (
 )
@@ -1262,6 +1263,7 @@ NORMAL_ID
 ]
 }
 )
+;
 startupManager
 (
 )
@@ -1863,6 +1865,7 @@ NORMAL_ID
 ]
 }
 )
+;
 startupManager
 (
 )
@@ -2486,6 +2489,7 @@ DEFER_ALSO_ID
 ]
 }
 )
+;
 startupManager
 (
 )

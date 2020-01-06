@@ -914,6 +914,7 @@ panel
 DateTimePickerBindingReady
 "
 )
+;
 }
 this
 .

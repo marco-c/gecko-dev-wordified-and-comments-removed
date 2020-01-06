@@ -233,8 +233,10 @@ status
 .
 textContent
 }
+;
 }
 )
+;
 is
 (
 results

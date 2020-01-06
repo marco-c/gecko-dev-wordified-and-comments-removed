@@ -135,6 +135,7 @@ args
 )
 ;
 }
+;
 newfn
 .
 boundArgs_
@@ -157,6 +158,7 @@ return
 newfn
 ;
 }
+;
 this
 .
 HTTP_FOUND
@@ -259,6 +261,7 @@ nextRequestTime_
 0
 ;
 }
+;
 RequestBackoff
 .
 prototype
@@ -288,6 +291,7 @@ nextRequestTime_
 0
 ;
 }
+;
 RequestBackoff
 .
 prototype
@@ -354,6 +358,7 @@ REQUEST_PERIOD_
 )
 ;
 }
+;
 RequestBackoff
 .
 prototype
@@ -403,6 +408,7 @@ shift
 )
 ;
 }
+;
 RequestBackoff
 .
 prototype
@@ -431,6 +437,7 @@ now
 )
 ;
 }
+;
 RequestBackoff
 .
 prototype
@@ -545,6 +552,7 @@ reset
 ;
 }
 }
+;
 RequestBackoff
 .
 prototype
@@ -591,6 +599,7 @@ status
 )
 ;
 }
+;
 function
 RequestBackoffV4
 (

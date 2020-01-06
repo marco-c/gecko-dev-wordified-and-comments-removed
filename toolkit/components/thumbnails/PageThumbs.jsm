@@ -895,6 +895,7 @@ result
 )
 ;
 }
+;
 mm
 .
 addMessageListener
@@ -1310,6 +1311,7 @@ thumbnail
 )
 ;
 }
+;
 image
 .
 src
@@ -1329,6 +1331,7 @@ imageBlob
 )
 ;
 }
+;
 mm
 .
 addMessageListener
@@ -3132,6 +3135,7 @@ filter
 (
 filterCallback
 )
+;
 else
 filter
 .

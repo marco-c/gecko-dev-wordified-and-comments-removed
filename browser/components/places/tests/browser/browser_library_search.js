@@ -153,6 +153,7 @@ return
 "
 scopeBarHistory
 "
+;
 case
 PlacesUIUtils
 .

@@ -20,6 +20,7 @@ AddonSettings
 jsm
 "
 )
+;
 let
 profileDir
 ;
@@ -1105,6 +1106,7 @@ GOOD_ID
 }
 }
 }
+;
 let
 extension
 =
@@ -1271,6 +1273,7 @@ strict_max_version
 }
 }
 }
+;
 let
 testManifest
 =
@@ -1415,6 +1418,7 @@ strict_max_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -1555,6 +1559,7 @@ strict_max_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -1692,6 +1697,7 @@ strict_min_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -1824,6 +1830,7 @@ strict_max_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -1961,6 +1968,7 @@ strict_max_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -2074,6 +2082,7 @@ strict_min_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -2186,6 +2195,7 @@ strict_max_version
 }
 }
 }
+;
 testManifest
 =
 Object
@@ -2318,6 +2328,7 @@ version
 }
 }
 }
+;
 let
 minStarTestManifest
 =
@@ -2441,6 +2452,7 @@ strict_max_version
 }
 }
 }
+;
 testManifest
 =
 Object

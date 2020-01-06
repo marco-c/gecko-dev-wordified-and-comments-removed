@@ -270,6 +270,7 @@ return
 this
 .
 _isLoadingDocument
+;
 }
 get
 DOMWindow
@@ -302,6 +303,7 @@ return
 this
 .
 _isTopLevel
+;
 }
 get
 loadType
@@ -851,6 +853,7 @@ deserializeObject
 (
 aStatus
 )
+;
 deserialized
 .
 QueryInterface

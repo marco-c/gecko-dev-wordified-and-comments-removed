@@ -428,6 +428,7 @@ resolve
 ;
 }
 }
+;
 function
 MockFxAccountsClient
 (
@@ -646,6 +647,7 @@ FxAccountsClient
 .
 prototype
 }
+;
 function
 MockFxAccounts
 (

@@ -44,6 +44,7 @@ browser_privatebrowsing_localStorage_page1
 .
 html
 "
+;
 let
 win
 =

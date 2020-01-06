@@ -1694,6 +1694,7 @@ url
 :
 val
 "
+;
 return
 PlacesUtils
 .
@@ -3045,6 +3046,7 @@ visitOrderFragment
 =
 "
 "
+;
 if
 (
 options
@@ -3244,6 +3246,7 @@ description
 |
 "
 "
+;
 let
 previewImageURL
 =
@@ -5001,6 +5004,7 @@ spec
 :
 null
 }
+;
 }
 )
 ;
@@ -5270,6 +5274,7 @@ history
 "
 }
 )
+;
 }
 }
 }
@@ -5484,3 +5489,4 @@ info
 )
 ;
 }
+;

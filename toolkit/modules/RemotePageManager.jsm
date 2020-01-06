@@ -274,6 +274,7 @@ callback
 ;
 }
 }
+;
 this
 .
 RemotePages
@@ -372,6 +373,7 @@ portCreated
 ;
 }
 }
+;
 RemotePages
 .
 prototype
@@ -815,6 +817,7 @@ registerPortListener
 port
 name
 )
+;
 }
 }
 this
@@ -1579,6 +1582,7 @@ swapBrowsers
 )
 ;
 }
+;
 ChromeMessagePort
 .
 prototype
@@ -2149,6 +2153,7 @@ this
 )
 ;
 }
+;
 var
 RemotePageManagerInternal
 =

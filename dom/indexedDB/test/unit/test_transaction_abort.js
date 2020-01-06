@@ -1587,6 +1587,7 @@ fail
 )
 ;
 }
+;
 request
 .
 onerror
@@ -1615,6 +1616,7 @@ preventDefault
 )
 ;
 }
+;
 transaction
 .
 oncomplete
@@ -1826,6 +1828,7 @@ abortErrorHandler
 expectedAbortEventCount
 +
 +
+;
 transaction
 .
 abort
@@ -1937,6 +1940,7 @@ abortErrorHandler
 expectedAbortEventCount
 +
 +
+;
 transaction
 .
 abort
@@ -1948,6 +1952,7 @@ continueToNextStep
 )
 ;
 }
+;
 yield
 undefined
 ;

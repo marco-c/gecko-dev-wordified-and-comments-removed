@@ -1871,6 +1871,7 @@ i
 disabled
 "
 )
+;
 }
 EventUtils
 .
@@ -2073,6 +2074,7 @@ event
 )
 ;
 }
+;
 window
 .
 addEventListener
@@ -4975,6 +4977,7 @@ top
 400px
 ;
 "
+;
 let
 select
 =

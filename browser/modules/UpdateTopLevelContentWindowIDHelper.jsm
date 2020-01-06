@@ -138,6 +138,7 @@ aWindow
 )
 ;
 }
+;
 function
 debug
 (

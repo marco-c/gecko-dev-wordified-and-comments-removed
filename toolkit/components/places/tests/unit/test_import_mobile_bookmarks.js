@@ -102,6 +102,7 @@ node
 .
 index
 }
+;
 if
 (
 node

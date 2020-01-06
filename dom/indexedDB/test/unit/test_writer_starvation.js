@@ -34,6 +34,7 @@ finishTest
 )
 ;
 }
+;
 }
 var
 testGenerator
@@ -542,6 +543,7 @@ reads
 )
 ;
 }
+;
 }
 else
 if

@@ -324,6 +324,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadsViewUI

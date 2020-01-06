@@ -225,6 +225,7 @@ nsIFactory
 }
 ;
 }
+;
 this
 .
 MockFilePicker

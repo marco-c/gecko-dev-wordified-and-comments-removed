@@ -310,6 +310,7 @@ value
 }
 ;
 }
+;
 yield
 undefined
 ;

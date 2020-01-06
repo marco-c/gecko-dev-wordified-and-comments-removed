@@ -2552,6 +2552,7 @@ false
 )
 ;
 }
+;
 return
 new
 Promise

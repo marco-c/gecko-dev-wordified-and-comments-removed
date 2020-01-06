@@ -821,6 +821,7 @@ installButtonLabel
 )
 ;
 }
+;
 XPInstallConfirm
 .
 onOK
@@ -883,6 +884,7 @@ return
 true
 ;
 }
+;
 XPInstallConfirm
 .
 onCancel
@@ -901,3 +903,4 @@ return
 true
 ;
 }
+;

@@ -244,6 +244,7 @@ this
 ;
 }
 }
+;
 function
 MockTSC
 (
@@ -286,6 +287,7 @@ url
 )
 ;
 }
+;
 MockTSC
 .
 prototype
@@ -376,6 +378,7 @@ new
 MockTSC
 (
 )
+;
 configureFxAccountIdentity
 (
 browseridManager
@@ -388,3 +391,4 @@ _tokenServerClient
 mockTSC
 ;
 }
+;

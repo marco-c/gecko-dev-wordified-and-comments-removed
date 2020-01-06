@@ -378,6 +378,7 @@ length
 .
 "
 )
+;
 for
 (
 let

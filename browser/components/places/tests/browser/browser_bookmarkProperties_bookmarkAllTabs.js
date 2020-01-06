@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 const
 TEST_URLS
 =
@@ -76,6 +77,7 @@ removeTab
 (
 tab
 )
+;
 }
 }
 )

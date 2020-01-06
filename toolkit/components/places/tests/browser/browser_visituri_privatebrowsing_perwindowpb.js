@@ -174,6 +174,7 @@ PlacesTestUtils
 clearHistory
 (
 )
+;
 }
 )
 ;

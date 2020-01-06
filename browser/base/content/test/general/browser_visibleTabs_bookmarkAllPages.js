@@ -194,6 +194,7 @@ finish
 )
 ;
 }
+;
 browser
 .
 addEventListener

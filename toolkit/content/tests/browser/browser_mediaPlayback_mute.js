@@ -203,6 +203,7 @@ audio
 .
 computedMuted
 }
+;
 }
 async
 function

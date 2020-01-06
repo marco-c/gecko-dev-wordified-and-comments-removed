@@ -2615,6 +2615,7 @@ Ci
 .
 nsIRDFXMLParser
 )
+;
 let
 ds
 =
@@ -5373,6 +5374,7 @@ aInstallLocation
 )
 ;
 }
+;
 function
 buildJarURI
 (
@@ -6332,6 +6334,7 @@ signedState
 )
 ;
 }
+;
 function
 escapeAddonURI
 (
@@ -6816,6 +6819,7 @@ path
 }
 return
 entries
+;
 }
 catch
 (
@@ -6933,6 +6937,7 @@ charCodeAt
 )
 )
 )
+;
 return
 hash
 .
@@ -8218,6 +8223,7 @@ missing
 "
 ]
 )
+;
 return
 Promise
 .
@@ -8234,6 +8240,7 @@ failed
 "
 ]
 )
+;
 }
 }
 zipreader
@@ -8718,6 +8725,7 @@ install
 )
 ;
 }
+;
 this
 .
 postpone
@@ -8803,6 +8811,7 @@ this
 .
 wrapper
 )
+;
 return
 ;
 }
@@ -10222,6 +10231,7 @@ this
 .
 wrapper
 )
+;
 let
 callback
 =
@@ -10980,6 +10990,7 @@ install
 ;
 }
 }
+;
 this
 .
 DownloadAddonInstall
@@ -11316,6 +11327,7 @@ this
 .
 wrapper
 )
+;
 return
 ;
 }
@@ -13059,6 +13071,7 @@ iid
 ;
 }
 }
+;
 this
 .
 StagedAddonInstall
@@ -13176,6 +13189,7 @@ STATE_INSTALLED
 ;
 }
 }
+;
 function
 createUpdate
 (
@@ -13867,6 +13881,7 @@ this
 )
 ;
 }
+;
 UpdateChecker
 .
 prototype

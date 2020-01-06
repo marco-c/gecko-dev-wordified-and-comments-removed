@@ -214,6 +214,7 @@ return
 result
 ;
 }
+;
 PerformanceWatcher
 .
 addPerformanceListener

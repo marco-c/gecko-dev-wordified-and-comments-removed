@@ -1950,6 +1950,7 @@ null
 null
 false
 ]
+;
 }
 for
 (
@@ -2070,6 +2071,7 @@ toolbar
 sidebar
 "
 ]
+;
 case
 PlacesUtils
 .
@@ -2084,6 +2086,7 @@ menu
 sidebar
 "
 ]
+;
 case
 PlacesUtils
 .
@@ -2095,6 +2098,7 @@ return
 sidebar
 "
 ]
+;
 }
 return
 [

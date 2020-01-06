@@ -339,6 +339,7 @@ _needWeakUpload
 clear
 (
 )
+;
 await
 store
 .
@@ -723,6 +724,7 @@ undefined
 ;
 }
 )
+;
 }
 async
 function

@@ -224,6 +224,7 @@ gMutationObserver
 disconnect
 (
 )
+;
 gMutationObserver
 =
 null
@@ -758,6 +759,7 @@ nextTest
 ;
 }
 }
+;
 registerCleanupFunction
 (
 function

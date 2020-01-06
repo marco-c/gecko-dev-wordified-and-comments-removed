@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 add_task
 (
 async
@@ -165,6 +166,7 @@ javascript
 "
 }
 )
+;
 gURLBar
 .
 value

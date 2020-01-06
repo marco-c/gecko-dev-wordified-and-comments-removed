@@ -218,6 +218,7 @@ id
 )
 ;
 }
+;
 TabSetRecord
 .
 prototype
@@ -282,6 +283,7 @@ service
 )
 ;
 }
+;
 TabEngine
 .
 prototype

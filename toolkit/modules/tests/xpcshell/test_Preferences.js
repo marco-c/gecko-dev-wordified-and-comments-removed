@@ -1091,6 +1091,7 @@ observed
 =
 !
 observed
+;
 }
 ;
 Preferences
@@ -1520,6 +1521,7 @@ observed
 =
 !
 observed
+;
 }
 ;
 Preferences
@@ -1605,6 +1607,7 @@ newVal
 something
 "
 )
+;
 }
 ;
 Preferences
@@ -1705,6 +1708,7 @@ newVal
 undefined
 "
 )
+;
 }
 ;
 Preferences

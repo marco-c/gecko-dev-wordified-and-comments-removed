@@ -707,6 +707,7 @@ nsIPermissionManager
 ALLOW_ACTION
 ;
 }
+;
 }
 else
 {
@@ -730,6 +731,7 @@ requestPrincipal
 originNoSuffix
 ;
 }
+;
 }
 this
 .

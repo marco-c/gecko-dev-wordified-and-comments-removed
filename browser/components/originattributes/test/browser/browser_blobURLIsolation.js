@@ -532,6 +532,7 @@ return
 result
 ;
 }
+;
 }
 let
 tests

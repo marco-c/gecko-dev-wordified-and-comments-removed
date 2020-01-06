@@ -990,6 +990,7 @@ prevent
 )
 "
 )
+;
 gCurrentTest
 .
 expectedInvokedMethods
@@ -1094,6 +1095,7 @@ runNextTest
 ;
 }
 }
+;
 function
 wrapperMethod
 (
@@ -1133,6 +1135,7 @@ arguments
 ]
 ;
 }
+;
 }
 function
 setupTestBrowserWindow
@@ -1577,6 +1580,7 @@ iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAABGdBTUEAALGPC
 p
 >
 '
+;
 doc
 .
 body
@@ -1640,6 +1644,7 @@ up
 .
 "
 )
+;
 gCurrentTest
 .
 clean

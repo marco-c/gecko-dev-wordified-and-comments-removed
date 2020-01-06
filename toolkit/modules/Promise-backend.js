@@ -1243,6 +1243,7 @@ ex
 ;
 }
 }
+;
 Promise
 .
 prototype
@@ -2176,6 +2177,7 @@ stack
 Promise
 "
 )
+;
 }
 )
 ;

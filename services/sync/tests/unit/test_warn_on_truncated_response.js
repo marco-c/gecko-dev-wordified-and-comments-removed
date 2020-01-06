@@ -214,6 +214,7 @@ d
 +
 /
 i
+;
 if
 (
 message
@@ -241,6 +242,7 @@ message
 )
 ;
 }
+;
 return
 warnMessages
 ;

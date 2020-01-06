@@ -961,6 +961,7 @@ tab
 counts
 "
 )
+;
 BrowserUsageTelemetry
 .
 _lastRecordTabCount

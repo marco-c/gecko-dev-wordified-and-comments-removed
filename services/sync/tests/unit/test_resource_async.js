@@ -1603,6 +1603,7 @@ request
 get
 (
 )
+;
 do_check_true
 (
 resourceRequested
@@ -1987,6 +1988,7 @@ msg
 )
 ;
 }
+;
 let
 didThrow
 =
@@ -2205,6 +2207,7 @@ res2
 get
 (
 )
+;
 do_check_eq
 (
 content

@@ -400,6 +400,7 @@ win
 close
 (
 )
+;
 }
 add_task
 (
@@ -608,6 +609,7 @@ target
 .
 path
 )
+;
 ok
 (
 !

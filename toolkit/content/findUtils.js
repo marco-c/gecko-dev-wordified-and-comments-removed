@@ -203,6 +203,7 @@ _current
 :
 null
 }
+;
 function
 findInPage
 (

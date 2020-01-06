@@ -148,6 +148,7 @@ usages
 )
 ;
 }
+;
 do_check_eq
 (
 c

@@ -272,6 +272,7 @@ aItem
 .
 guid
 )
+;
 }
 else
 {

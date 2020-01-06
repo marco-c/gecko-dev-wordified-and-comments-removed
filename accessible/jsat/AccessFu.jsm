@@ -4916,6 +4916,7 @@ stringify
 aEditState
 )
 ]
+;
 }
 )
 ;

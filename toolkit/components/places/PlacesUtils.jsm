@@ -7463,6 +7463,7 @@ getItemGuid
 (
 aItemId
 )
+;
 }
 promiseItemId
 (
@@ -7476,6 +7477,7 @@ getItemId
 (
 aGuid
 )
+;
 }
 promiseManyItemIds
 (
@@ -7502,6 +7504,7 @@ invalidateCacheForItemId
 (
 aItemId
 )
+;
 }
 async
 promiseBookmarksTree
@@ -10996,6 +10999,7 @@ keywordsForHref
 (
 href
 )
+;
 for
 (
 let
@@ -12822,6 +12826,7 @@ return
 aTxnCount
 ;
 }
+;
 let
 txnCount
 =
@@ -12843,6 +12848,7 @@ txnCount
 MIN_TRANSACTIONS_FOR_BATCH
 ;
 }
+;
 PlacesAggregatedTransaction
 .
 prototype
@@ -13095,6 +13101,7 @@ childTransactions
 aChildTransactions
 ;
 }
+;
 PlacesCreateFolderTransaction
 .
 prototype
@@ -13405,6 +13412,7 @@ childTransactions
 aChildTransactions
 ;
 }
+;
 PlacesCreateBookmarkTransaction
 .
 prototype
@@ -13722,6 +13730,7 @@ index
 aIndex
 ;
 }
+;
 PlacesCreateSeparatorTransaction
 .
 prototype
@@ -13860,6 +13869,7 @@ annotations
 aAnnotations
 ;
 }
+;
 PlacesCreateLivemarkTransaction
 .
 prototype
@@ -14495,6 +14505,7 @@ index
 aNewIndex
 ;
 }
+;
 PlacesMoveItemTransaction
 .
 prototype
@@ -15041,6 +15052,7 @@ id
 )
 ;
 }
+;
 PlacesRemoveItemTransaction
 .
 prototype
@@ -15607,6 +15619,7 @@ title
 aNewTitle
 ;
 }
+;
 PlacesEditItemTitleTransaction
 .
 prototype
@@ -15736,6 +15749,7 @@ uri
 aNewURI
 ;
 }
+;
 PlacesEditBookmarkURITransaction
 .
 prototype
@@ -16026,6 +16040,7 @@ aAnnotationObject
 ]
 ;
 }
+;
 PlacesSetItemAnnotationTransaction
 .
 prototype
@@ -16274,6 +16289,7 @@ aAnnotationObject
 ]
 ;
 }
+;
 PlacesSetPageAnnotationTransaction
 .
 prototype
@@ -16557,7 +16573,9 @@ new
 postData
 =
 aNewPostData
+;
 }
+;
 PlacesEditBookmarkKeywordTransaction
 .
 prototype
@@ -16898,6 +16916,7 @@ postData
 aPostData
 ;
 }
+;
 PlacesEditBookmarkPostDataTransaction
 .
 prototype
@@ -17035,6 +17054,7 @@ dateAdded
 aNewDateAdded
 ;
 }
+;
 PlacesEditItemDateAddedTransaction
 .
 prototype
@@ -17199,6 +17219,7 @@ lastModified
 aNewLastModified
 ;
 }
+;
 PlacesEditItemLastModifiedTransaction
 .
 prototype
@@ -17345,6 +17366,7 @@ id
 aFolderId
 ;
 }
+;
 PlacesSortFolderByNameTransaction
 .
 prototype
@@ -17759,6 +17781,7 @@ tags
 aTags
 ;
 }
+;
 PlacesTagURITransaction
 .
 prototype
@@ -18028,6 +18051,7 @@ tags
 ;
 }
 }
+;
 PlacesUntagURITransaction
 .
 prototype

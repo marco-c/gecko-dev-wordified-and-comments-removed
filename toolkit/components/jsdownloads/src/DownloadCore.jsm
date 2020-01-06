@@ -158,6 +158,7 @@ osfile
 jsm
 "
 )
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -549,6 +550,7 @@ defer
 )
 ;
 }
+;
 this
 .
 Download
@@ -3212,6 +3214,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadSource
@@ -3539,6 +3542,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadTarget
@@ -4121,6 +4125,7 @@ Error
 stack
 ;
 }
+;
 this
 .
 DownloadError
@@ -4371,6 +4376,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadSaver
@@ -4732,6 +4738,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadCopySaver
@@ -6284,6 +6291,7 @@ defer
 )
 ;
 }
+;
 this
 .
 DownloadLegacySaver
@@ -7087,6 +7095,7 @@ function
 )
 {
 }
+;
 this
 .
 DownloadPDFSaver

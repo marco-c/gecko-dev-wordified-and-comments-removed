@@ -2059,6 +2059,7 @@ _defaultInsertionPoint
 .
 guid
 ]
+;
 }
 _getCreateNewBookmarkTransaction
 :

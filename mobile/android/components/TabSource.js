@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 const
 {
 classes
@@ -283,6 +284,7 @@ tabshare
 title
 "
 )
+;
 let
 prompt
 =
@@ -373,6 +375,7 @@ tab
 .
 id
 }
+;
 }
 )
 )

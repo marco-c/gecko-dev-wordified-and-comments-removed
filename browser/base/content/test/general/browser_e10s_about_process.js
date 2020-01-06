@@ -44,6 +44,7 @@ flags
 :
 0
 }
+;
 const
 CANREMOTE
 =
@@ -76,6 +77,7 @@ nsIAboutModule
 .
 URI_CAN_LOAD_IN_CHILD
 }
+;
 const
 MUSTREMOTE
 =
@@ -108,6 +110,7 @@ nsIAboutModule
 .
 URI_MUST_LOAD_IN_CHILD
 }
+;
 const
 TEST_MODULES
 =
@@ -116,6 +119,7 @@ CHROME
 CANREMOTE
 MUSTREMOTE
 ]
+;
 function
 AboutModule
 (

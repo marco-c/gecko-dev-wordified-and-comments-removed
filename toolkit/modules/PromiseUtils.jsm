@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -130,6 +131,7 @@ timeout
 ;
 }
 }
+;
 function
 Deferred
 (

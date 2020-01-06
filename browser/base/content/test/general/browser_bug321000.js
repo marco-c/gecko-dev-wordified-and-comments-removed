@@ -234,6 +234,7 @@ next_test
 ;
 }
 }
+;
 element
 .
 addEventListener

@@ -81,6 +81,7 @@ panel
 )
 ;
 }
+;
 win
 .
 PopupNotifications

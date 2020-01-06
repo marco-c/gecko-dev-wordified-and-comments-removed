@@ -5630,6 +5630,7 @@ aDBConnection
 close
 (
 )
+;
 }
 catch
 (

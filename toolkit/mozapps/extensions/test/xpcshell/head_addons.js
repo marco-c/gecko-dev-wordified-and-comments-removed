@@ -1793,6 +1793,7 @@ set
 id
 info
 )
+;
 }
 else
 if
@@ -1853,6 +1854,7 @@ startupPromises
 }
 }
 }
+;
 AddonTestUtils
 .
 on
@@ -3570,6 +3572,7 @@ stringify
 aData
 )
 }
+;
 return
 AddonTestUtils
 .
@@ -6359,6 +6362,7 @@ callback
 )
 ;
 }
+;
 }
 function
 writeProxyFileToDir
@@ -6396,6 +6400,7 @@ aId
 ;
 return
 file
+;
 }
 async
 function

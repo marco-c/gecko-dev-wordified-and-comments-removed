@@ -26,6 +26,7 @@ mutable
 files
 "
 ]
+;
 const
 version
 =

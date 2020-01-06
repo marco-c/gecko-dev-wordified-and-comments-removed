@@ -1941,6 +1941,7 @@ deserializePrincipal
 (
 triggeringPrincipal
 )
+;
 this
 .
 _wrapURIChangeCall
@@ -2304,11 +2305,13 @@ break
 }
 }
 }
+;
 ControllerCommands
 .
 init
 (
 )
+;
 addEventListener
 (
 "

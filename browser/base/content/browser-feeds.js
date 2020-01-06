@@ -2020,6 +2020,7 @@ changed
 data
 }
 )
+;
 if
 (
 this

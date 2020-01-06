@@ -174,6 +174,7 @@ valueOf
 HOUR_MS
 ;
 }
+;
 client
 .
 _updateClockOffset

@@ -252,6 +252,7 @@ options
 )
 ;
 }
+;
 this
 .
 TestingCrashManager

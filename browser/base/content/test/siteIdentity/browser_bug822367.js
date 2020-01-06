@@ -145,6 +145,7 @@ linkedBrowser
 stop
 (
 )
+;
 var
 url
 =

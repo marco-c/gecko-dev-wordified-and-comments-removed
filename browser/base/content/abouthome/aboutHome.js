@@ -533,6 +533,7 @@ length
 0
 ;
 }
+;
 let
 openRequest
 =
@@ -613,6 +614,7 @@ SNIPPETS_OBJECTSTORE_NAME
 ;
 }
 }
+;
 openRequest
 .
 onsuccess
@@ -644,6 +646,7 @@ invokeCallbacks
 )
 ;
 }
+;
 db
 .
 onversionchange
@@ -666,6 +669,7 @@ invokeCallbacks
 )
 ;
 }
+;
 let
 cache
 =
@@ -730,6 +734,7 @@ invokeCallbacks
 )
 ;
 }
+;
 cursorRequest
 .
 onsuccess
@@ -930,7 +935,9 @@ invokeCallbacks
 )
 ;
 }
+;
 }
+;
 }
 function
 onSearchSubmit

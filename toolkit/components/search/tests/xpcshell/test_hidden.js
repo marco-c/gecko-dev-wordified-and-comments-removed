@@ -163,6 +163,7 @@ commitPromise
 promiseAfterCache
 (
 )
+;
 await
 asyncInit
 (

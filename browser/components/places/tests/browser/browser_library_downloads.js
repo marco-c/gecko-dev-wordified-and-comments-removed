@@ -155,6 +155,7 @@ TRANSITION_DOWNLOAD
 ]
 }
 ]
+;
 PlacesUtils
 .
 asyncHistory
@@ -294,7 +295,9 @@ finish
 }
 }
 )
+;
 }
+;
 openLibrary
 (
 onLibraryReady
@@ -345,3 +348,4 @@ prototype
 =
 {
 }
+;

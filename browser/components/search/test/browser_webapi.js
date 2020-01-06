@@ -237,6 +237,7 @@ resolve
 (
 win
 )
+;
 else
 reject
 (
@@ -651,6 +652,7 @@ error
 message
 "
 )
+;
 dialog
 .
 document
@@ -751,6 +753,7 @@ error
 message
 "
 )
+;
 dialog
 .
 document
@@ -851,6 +854,7 @@ error
 message
 "
 )
+;
 dialog
 .
 document

@@ -821,6 +821,7 @@ args
 ;
 }
 }
+;
 return
 (
 )
@@ -956,6 +957,7 @@ resolve
 ;
 }
 }
+;
 return
 (
 )
@@ -1692,6 +1694,7 @@ args
 .
 selector
 )
+;
 dump
 (
 openContextMenuForContentSelector
@@ -2241,6 +2244,7 @@ init
 complete
 "
 )
+;
 gBrowserGlue
 .
 observe

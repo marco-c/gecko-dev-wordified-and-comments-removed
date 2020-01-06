@@ -929,6 +929,7 @@ interfaces
 .
 nsIPrintProgressParams
 )
+;
 if
 (
 progressParams
@@ -981,6 +982,7 @@ window
 close
 (
 )
+;
 return
 ;
 }

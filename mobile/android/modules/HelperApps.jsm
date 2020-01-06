@@ -248,6 +248,7 @@ false
 ;
 }
 }
+;
 var
 HelperApps
 =

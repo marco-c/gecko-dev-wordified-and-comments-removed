@@ -410,6 +410,7 @@ remove
 (
 kCustomClass
 )
+;
 tempElement
 =
 null

@@ -132,8 +132,10 @@ resolve
 )
 ;
 }
+;
 }
 )
+;
 }
 add_task
 (

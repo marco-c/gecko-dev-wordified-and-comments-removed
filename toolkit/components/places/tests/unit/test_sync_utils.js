@@ -1979,6 +1979,7 @@ fetchGuidForURL
 (
 url
 )
+;
 let
 info
 =
@@ -8521,6 +8522,7 @@ syncId
 )
 }
 )
+;
 equal
 (
 bmk
@@ -20607,6 +20609,7 @@ bookmarks
 ensureMobileQuery
 (
 )
+;
 let
 queryGuids
 =
@@ -20785,6 +20788,7 @@ bookmarks
 ensureMobileQuery
 (
 )
+;
 let
 rootInfo
 =
@@ -20890,6 +20894,7 @@ bookmarks
 ensureMobileQuery
 (
 )
+;
 queryInfo
 =
 await

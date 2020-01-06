@@ -629,6 +629,7 @@ unregisterGlobalTab
 ;
 }
 }
+;
 function
 unregisterGlobalTab
 (
@@ -3709,6 +3710,7 @@ animate
 out
 "
 )
+;
 }
 }
 }
@@ -3901,6 +3903,7 @@ animate
 out
 "
 )
+;
 }
 }
 if
@@ -4229,6 +4232,7 @@ animate
 out
 "
 )
+;
 }
 }
 }
@@ -5377,6 +5381,7 @@ contextAttrName
 "
 contextMenuAttrName
 )
+;
 aNode
 .
 removeAttribute

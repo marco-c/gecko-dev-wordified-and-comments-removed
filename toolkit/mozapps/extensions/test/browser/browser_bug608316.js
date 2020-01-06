@@ -116,6 +116,7 @@ cancelUninstall
 ;
 }
 }
+;
 AddonManager
 .
 addAddonListener

@@ -420,6 +420,7 @@ advisoryLinkText
 ;
 }
 }
+;
 AboutBlockedSiteListener
 .
 init

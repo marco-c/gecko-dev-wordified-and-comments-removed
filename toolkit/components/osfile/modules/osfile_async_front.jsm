@@ -5133,6 +5133,7 @@ setupShutdown
 profileBeforeChange
 "
 )
+;
 }
 File
 .

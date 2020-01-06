@@ -4895,6 +4895,7 @@ index
 :
 newIndex
 }
+;
 updateInfo
 =
 await
@@ -7194,6 +7195,7 @@ true
 )
 ;
 }
+;
 return
 newItemGuid
 ;

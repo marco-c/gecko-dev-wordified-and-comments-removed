@@ -190,6 +190,7 @@ corret
 .
 "
 )
+;
 }
 add_task
 (

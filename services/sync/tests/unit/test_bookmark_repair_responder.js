@@ -412,6 +412,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -441,6 +442,7 @@ no
 )
 ;
 }
+;
 await
 responder
 .
@@ -567,6 +569,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -762,6 +765,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -1010,6 +1014,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -1351,6 +1356,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -1667,6 +1673,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -2452,6 +2459,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -2652,6 +2660,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -2818,6 +2827,7 @@ makeGUID
 (
 )
 }
+;
 let
 responder
 =
@@ -2907,6 +2917,7 @@ anything
 "
 ;
 }
+;
 let
 numFailures
 =
@@ -3094,6 +3105,7 @@ numIDs
 }
 ]
 )
+;
 equal
 (
 numFailures

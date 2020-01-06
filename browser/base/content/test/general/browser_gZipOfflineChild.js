@@ -28,6 +28,7 @@ test_offline_gzip
 .
 html
 "
+;
 registerCleanupFunction
 (
 function

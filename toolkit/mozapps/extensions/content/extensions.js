@@ -617,6 +617,7 @@ parsererror
 .
 xml
 "
+;
 var
 gViewDefault
 =
@@ -5766,6 +5767,7 @@ false
 ;
 }
 }
+;
 var
 updateInstallListener
 =
@@ -6627,6 +6629,7 @@ aAddon
 userDisabled
 =
 false
+;
 }
 reject
 (
@@ -9434,6 +9437,7 @@ aCallback
 addons
 installs
 )
+;
 }
 )
 ;
@@ -11310,6 +11314,7 @@ notifyInitialized
 )
 ;
 }
+;
 if
 (
 Services
@@ -11446,6 +11451,7 @@ nsIBlocklistService
 .
 STATE_BLOCKED
 }
+;
 }
 setURL
 (
@@ -12836,6 +12842,7 @@ item
 ;
 }
 }
+;
 let
 finishSearch
 =
@@ -12925,6 +12932,7 @@ notifyViewChanged
 )
 ;
 }
+;
 getAddonsAndInstalls
 (
 null
@@ -17538,6 +17546,7 @@ aAddon
 reviewCount
 text
 )
+;
 text
 =
 text
@@ -20367,6 +20376,7 @@ scrollToPreferencesRows
 )
 ;
 }
+;
 function
 stripTextNodes
 (

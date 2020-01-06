@@ -3921,6 +3921,7 @@ document
 .
 documentElement
 )
+;
 return
 false
 ;

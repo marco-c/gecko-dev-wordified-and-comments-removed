@@ -6276,6 +6276,7 @@ itemChildAnnoObj
 name
 )
 )
+;
 do_check_eq
 (
 annosvc
@@ -6394,6 +6395,7 @@ itemChildAnnoObj
 name
 )
 )
+;
 do_check_eq
 (
 annosvc

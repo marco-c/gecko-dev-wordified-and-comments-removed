@@ -110,6 +110,7 @@ BookmarkRepairRequestor
 "
 ]
 }
+;
 const
 RESPONDERS
 =
@@ -127,6 +128,7 @@ BookmarkRepairResponder
 "
 ]
 }
+;
 function
 _getRepairConstructor
 (

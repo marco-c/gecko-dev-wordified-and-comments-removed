@@ -522,6 +522,7 @@ aCallback
 (
 aBrowserWin
 )
+;
 }
 )
 ;

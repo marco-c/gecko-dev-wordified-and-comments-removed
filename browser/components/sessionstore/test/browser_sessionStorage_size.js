@@ -162,6 +162,7 @@ prev
 getEstimateChars
 (
 )
+;
 let
 tab
 =

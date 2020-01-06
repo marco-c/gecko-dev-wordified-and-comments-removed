@@ -870,6 +870,7 @@ now
 ;
 }
 }
+;
 function
 deriveKeyBundle
 (
@@ -981,6 +982,7 @@ details
 ;
 }
 }
+;
 this
 .
 BrowserIDManager
@@ -1754,6 +1756,7 @@ user
 .
 "
 )
+;
 }
 this
 .
@@ -2087,6 +2090,7 @@ _fxaService
 now
 (
 )
+;
 }
 get
 _localtimeOffsetMsec
@@ -2867,6 +2871,7 @@ userData
 )
 ;
 }
+;
 let
 getToken
 =
@@ -2988,6 +2993,7 @@ deferred
 promise
 ;
 }
+;
 let
 getAssertion
 =
@@ -3156,6 +3162,7 @@ getToken
 assertion
 )
 )
+;
 }
 )
 .
@@ -3522,6 +3529,7 @@ notifyStateChanged
 ;
 throw
 error
+;
 }
 )
 ;
@@ -4194,3 +4202,4 @@ clusterURL
 ;
 }
 }
+;

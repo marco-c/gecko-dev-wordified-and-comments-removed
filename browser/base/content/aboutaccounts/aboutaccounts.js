@@ -1354,6 +1354,7 @@ init
 uri
 urlParams
 )
+;
 }
 )
 .

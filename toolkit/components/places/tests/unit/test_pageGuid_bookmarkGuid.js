@@ -1435,6 +1435,7 @@ should
 fail
 "
 )
+;
 }
 catch
 (

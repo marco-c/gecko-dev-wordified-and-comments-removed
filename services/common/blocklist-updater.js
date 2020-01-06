@@ -314,6 +314,7 @@ name
 client
 ;
 }
+;
 async
 function
 pollChanges

@@ -323,6 +323,7 @@ origin
 menuitem
 "
 )
+;
 }
 function
 permObserver

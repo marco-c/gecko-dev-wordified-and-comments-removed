@@ -154,6 +154,7 @@ install
 }
 }
 )
+;
 }
 function
 shutdown

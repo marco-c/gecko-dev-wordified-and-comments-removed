@@ -2416,6 +2416,7 @@ label
 )
 ]
 )
+;
 aPopup
 .
 _siteURIMenuitem
@@ -12254,3 +12255,4 @@ _controller
 ;
 }
 }
+;

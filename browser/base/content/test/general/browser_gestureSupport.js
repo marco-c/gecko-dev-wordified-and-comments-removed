@@ -4276,6 +4276,7 @@ return
 rotation
 ;
 }
+;
 for
 (
 var

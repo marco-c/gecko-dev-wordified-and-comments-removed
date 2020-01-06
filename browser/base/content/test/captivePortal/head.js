@@ -642,6 +642,7 @@ getNotificationWithValue
 (
 PORTAL_NOTIFICATION_VALUE
 )
+;
 isnot
 (
 notification

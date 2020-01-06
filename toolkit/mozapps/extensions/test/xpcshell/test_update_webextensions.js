@@ -456,6 +456,7 @@ gPort
 {
 updatePath
 }
+;
 let
 addonData
 =

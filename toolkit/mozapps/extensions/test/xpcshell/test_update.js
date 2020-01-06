@@ -1688,6 +1688,7 @@ run_next_test
 )
 ;
 }
+;
 add_test
 (
 function
@@ -2132,6 +2133,7 @@ run_next_test
 )
 ;
 }
+;
 let
 continue_test_6
 ;
@@ -2316,6 +2318,7 @@ check_test_6
 )
 ;
 }
+;
 check_test_6
 =
 (
@@ -2411,6 +2414,7 @@ run_next_test
 )
 ;
 }
+;
 add_test
 (
 function
@@ -4284,6 +4288,7 @@ run_next_test
 )
 ;
 }
+;
 let
 check_test_14
 ;
@@ -4822,6 +4827,7 @@ run_next_test
 )
 ;
 }
+;
 let
 check_test_15
 ;
@@ -5341,6 +5347,7 @@ run_next_test
 )
 ;
 }
+;
 add_test
 (
 function
@@ -6393,6 +6400,7 @@ check_test_20
 )
 ;
 }
+;
 check_test_20
 =
 (
@@ -6482,13 +6490,15 @@ restartManager
 run_next_test
 (
 )
-}
-)
 ;
 }
 )
 ;
 }
+)
+;
+}
+;
 add_task
 (
 async

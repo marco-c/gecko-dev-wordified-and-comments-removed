@@ -81,6 +81,7 @@ Set
 )
 ;
 }
+;
 this
 .
 DownloadList
@@ -580,6 +581,7 @@ reportError
 )
 ;
 }
+;
 this
 .
 DownloadCombinedList
@@ -786,6 +788,7 @@ Set
 )
 ;
 }
+;
 this
 .
 DownloadSummary

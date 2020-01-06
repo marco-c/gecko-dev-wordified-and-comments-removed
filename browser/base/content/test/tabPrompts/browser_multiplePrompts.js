@@ -122,6 +122,7 @@ toSource
 script
 >
 "
+;
 let
 promptsOpenedPromise
 =

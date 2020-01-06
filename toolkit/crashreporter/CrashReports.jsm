@@ -421,6 +421,7 @@ date
 ;
 }
 }
+;
 function
 CrashReports_pendingDir
 (

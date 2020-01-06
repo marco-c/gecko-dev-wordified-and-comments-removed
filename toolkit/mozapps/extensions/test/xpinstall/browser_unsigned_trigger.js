@@ -378,8 +378,10 @@ status
 .
 textContent
 }
+;
 }
 )
+;
 is
 (
 results

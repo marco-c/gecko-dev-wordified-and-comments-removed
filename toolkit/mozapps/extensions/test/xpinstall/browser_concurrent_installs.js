@@ -47,6 +47,7 @@ installnow
 click
 (
 )
+;
 }
 )
 ;

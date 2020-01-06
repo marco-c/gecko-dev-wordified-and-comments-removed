@@ -487,6 +487,7 @@ aCallback
 (
 aBrowserWin
 )
+;
 }
 )
 ;

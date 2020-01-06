@@ -354,6 +354,7 @@ aCallback
 finishImmediately
 =
 false
+;
 if
 (
 !

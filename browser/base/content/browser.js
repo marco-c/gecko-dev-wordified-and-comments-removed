@@ -3262,6 +3262,7 @@ transactionManager
 clear
 (
 )
+;
 }
 }
 ;
@@ -3461,6 +3462,7 @@ nsISupportsPRUint64
 )
 .
 data
+;
 let
 prefStrBundle
 =
@@ -5865,6 +5867,7 @@ goTo
 hostName
 ]
 )
+;
 let
 buttons
 =
@@ -6681,6 +6684,7 @@ requiredRemoteType
 postData
 newFrameloader
 }
+;
 if
 (
 params
@@ -12285,6 +12289,7 @@ win
 focus
 (
 )
+;
 win
 .
 openLocation
@@ -13908,6 +13913,7 @@ args
 ;
 }
 }
+;
 if
 (
 Services
@@ -16103,6 +16109,7 @@ Ci
 .
 nsITransportSecurityInfo
 )
+;
 let
 errorReporter
 =
@@ -18739,6 +18746,7 @@ browser
 ;
 }
 }
+;
 function
 getMarkupDocumentViewer
 (
@@ -18948,6 +18956,7 @@ aEvent
 {
 }
 }
+;
 function
 openHomeDialog
 (
@@ -19172,6 +19181,7 @@ true
 }
 }
 }
+;
 var
 newWindowButtonObserver
 =
@@ -19253,6 +19263,7 @@ true
 }
 }
 }
+;
 const
 DOMEventHandler
 =
@@ -19619,6 +19630,7 @@ aURL
 ;
 }
 }
+;
 const
 BrowserSearch
 =
@@ -19921,6 +19933,7 @@ finished
 ;
 }
 }
+;
 win
 =
 window
@@ -24151,6 +24164,7 @@ true
 "
 ;
 }
+;
 var
 disableFindCommands
 =
@@ -24225,6 +24239,7 @@ disabled
 ;
 }
 }
+;
 var
 onContentRSChange
 =
@@ -24283,6 +24298,7 @@ target
 )
 ;
 }
+;
 if
 (
 !
@@ -26839,6 +26855,7 @@ aBrowser
 ;
 }
 }
+;
 function
 nsBrowserAccess
 (
@@ -27845,6 +27862,7 @@ Ci
 nsIScriptSecurityManager
 .
 DEFAULT_USER_CONTEXT_ID
+;
 let
 referrer
 =
@@ -27924,6 +27942,7 @@ CanCloseWindow
 ;
 }
 }
+;
 function
 getTogglableToolbars
 (
@@ -35614,6 +35633,7 @@ browserWin
 ;
 }
 }
+;
 Services
 .
 obs
@@ -35932,6 +35952,7 @@ window
 )
 ;
 }
+;
 mm
 .
 addMessageListener
@@ -36502,6 +36523,7 @@ provider
 ;
 }
 }
+;
 mm
 .
 addMessageListener
@@ -41693,6 +41715,7 @@ getNotificationBox
 (
 foundBrowser
 )
+;
 return
 null
 ;
@@ -45702,6 +45725,7 @@ true
 }
 }
 }
+;
 var
 PanicButtonNotifier
 =

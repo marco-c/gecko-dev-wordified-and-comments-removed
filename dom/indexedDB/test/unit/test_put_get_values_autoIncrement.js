@@ -282,6 +282,7 @@ value
 }
 ;
 }
+;
 yield
 undefined
 ;

@@ -241,6 +241,7 @@ next
 ;
 }
 }
+;
 }
 yield
 undefined

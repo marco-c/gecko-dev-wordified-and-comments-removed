@@ -171,6 +171,7 @@ resolve
 ;
 }
 )
+;
 }
 let
 promiseFind

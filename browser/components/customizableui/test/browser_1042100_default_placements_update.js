@@ -316,6 +316,7 @@ hadSavedState
 CustomizableUIBSPass
 .
 gSavedState
+;
 if
 (
 !

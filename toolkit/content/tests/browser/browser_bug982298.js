@@ -305,6 +305,7 @@ ScrollDone
 )
 ;
 "
+;
 browser
 .
 messageManager

@@ -95,6 +95,7 @@ osfile
 jsm
 "
 )
+;
 XPCOMUtils
 .
 defineLazyGetter
@@ -160,6 +161,7 @@ path
 aPath
 ;
 }
+;
 this
 .
 DownloadStore

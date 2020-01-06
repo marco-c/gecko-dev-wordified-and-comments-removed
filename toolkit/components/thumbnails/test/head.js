@@ -238,6 +238,7 @@ capturing_disabled
 "
 oldEnabledPref
 )
+;
 }
 )
 ;

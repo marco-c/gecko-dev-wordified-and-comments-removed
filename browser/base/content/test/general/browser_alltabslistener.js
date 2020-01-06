@@ -280,6 +280,7 @@ gFrontNotificationsPos
 ;
 }
 }
+;
 var
 gAllProgressListener
 =
@@ -666,6 +667,7 @@ gAllNotificationsPos
 ;
 }
 }
+;
 var
 gFrontNotifications
 gAllNotifications

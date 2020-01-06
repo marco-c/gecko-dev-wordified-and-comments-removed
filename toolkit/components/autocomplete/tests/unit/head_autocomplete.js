@@ -211,6 +211,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 function
 AutoCompleteResultBase
 (
@@ -376,6 +377,7 @@ nsIAutoCompleteResult
 ]
 )
 }
+;
 function
 AutoCompleteSearchBase
 (
@@ -477,6 +479,7 @@ iid
 ;
 }
 }
+;
 function
 AutocompletePopupBase
 (

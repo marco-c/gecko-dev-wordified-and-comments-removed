@@ -118,6 +118,7 @@ return
 this
 .
 fennec
+;
 }
 empty
 :

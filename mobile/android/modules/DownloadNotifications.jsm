@@ -1445,6 +1445,7 @@ kButtons
 .
 CANCEL
 ]
+;
 this
 .
 _updateOptionsForOngoing

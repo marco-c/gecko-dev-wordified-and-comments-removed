@@ -63,6 +63,7 @@ BrowserUtils
 jsm
 "
 )
+;
 var
 gImportedPrefBranches
 =

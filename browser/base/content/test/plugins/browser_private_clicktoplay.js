@@ -584,6 +584,7 @@ secondary
 button
 "
 )
+;
 gPrivateWindow
 .
 close

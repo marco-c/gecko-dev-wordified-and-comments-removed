@@ -2789,6 +2789,7 @@ event
 {
 }
 }
+;
 function
 updateContextMenu
 (

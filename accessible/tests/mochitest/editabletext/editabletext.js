@@ -23,6 +23,7 @@ aTest
 )
 ;
 }
+;
 this
 .
 run
@@ -39,6 +40,7 @@ iterate
 )
 ;
 }
+;
 this
 .
 index
@@ -106,6 +108,7 @@ finish
 )
 ;
 }
+;
 }
 function
 editableTextTest
@@ -172,6 +175,7 @@ true
 ;
 }
 }
+;
 this
 .
 setTextContents
@@ -304,6 +308,7 @@ testID
 )
 ;
 }
+;
 this
 .
 insertText
@@ -423,6 +428,7 @@ testID
 )
 ;
 }
+;
 this
 .
 copyText
@@ -500,6 +506,7 @@ testID
 )
 ;
 }
+;
 this
 .
 copyNPasteText
@@ -597,6 +604,7 @@ testID
 )
 ;
 }
+;
 this
 .
 cutText
@@ -708,6 +716,7 @@ testID
 )
 ;
 }
+;
 this
 .
 cutNPasteText
@@ -810,6 +819,7 @@ testID
 )
 ;
 }
+;
 this
 .
 pasteText
@@ -884,6 +894,7 @@ testID
 )
 ;
 }
+;
 this
 .
 deleteText
@@ -990,6 +1001,7 @@ testID
 )
 ;
 }
+;
 function
 getValue
 (
@@ -1166,6 +1178,7 @@ funcArgs
 )
 ;
 }
+;
 this
 .
 generateTest
@@ -1337,6 +1350,7 @@ mIndex
 invoker
 ;
 }
+;
 this
 .
 startTest
@@ -1386,6 +1400,7 @@ return
 DO_NOT_FINISH_TEST
 ;
 }
+;
 this
 .
 mEventQueue
@@ -1395,6 +1410,7 @@ invoke
 )
 ;
 }
+;
 this
 .
 mEventQueue

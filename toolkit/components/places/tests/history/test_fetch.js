@@ -702,6 +702,7 @@ is
 false
 "
 )
+;
 Assert
 .
 ok
@@ -727,6 +728,7 @@ is
 false
 "
 )
+;
 }
 )
 ;

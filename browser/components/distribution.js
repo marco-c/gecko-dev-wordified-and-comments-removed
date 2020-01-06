@@ -186,6 +186,7 @@ DistributionCustomizer
 )
 {
 }
+;
 DistributionCustomizer
 .
 prototype

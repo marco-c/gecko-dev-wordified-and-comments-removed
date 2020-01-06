@@ -77,6 +77,7 @@ nsIFaviconService
 MAX_FAVICON_BUFFER_SIZE
 "
 )
+;
 let
 pageURI
 =

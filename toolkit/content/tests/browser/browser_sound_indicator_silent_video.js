@@ -137,6 +137,7 @@ valid
 .
 "
 )
+;
 return
 new
 Promise

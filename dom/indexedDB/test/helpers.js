@@ -1004,6 +1004,7 @@ next
 )
 ;
 }
+;
 }
 function
 finishTest
@@ -2356,6 +2357,7 @@ _preventDefault
 _preventDefault_
 ;
 }
+;
 self
 .
 ExpectError
@@ -2581,6 +2583,7 @@ return
 false
 ;
 }
+;
 self
 .
 getRandomBuffer
@@ -2652,6 +2655,7 @@ random
 *
 255
 )
+;
 }
 return
 buffer
@@ -2736,6 +2740,7 @@ clearAllDatabases
 )
 ;
 }
+;
 self
 .
 onerror
@@ -2859,6 +2864,7 @@ self
 wasmSupported
 ;
 }
+;
 self
 .
 getWasmBinarySync
@@ -2886,6 +2892,7 @@ workers
 )
 ;
 }
+;
 self
 .
 getWasmBinary
@@ -2912,6 +2919,7 @@ _text_
 )
 ;
 }
+;
 self
 .
 getWasmModule
@@ -2936,6 +2944,7 @@ return
 module
 ;
 }
+;
 self
 .
 verifyWasmModule
@@ -2967,6 +2976,7 @@ continueToNextStep
 )
 ;
 }
+;
 self
 .
 onmessage

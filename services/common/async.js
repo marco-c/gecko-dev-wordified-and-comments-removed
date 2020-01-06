@@ -414,6 +414,7 @@ Async
 checkAppReady
 (
 )
+;
 }
 catch
 (
@@ -887,6 +888,7 @@ promiseYield
 ;
 }
 }
+;
 }
 }
 ;

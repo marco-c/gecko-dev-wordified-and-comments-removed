@@ -178,6 +178,7 @@ finishTest
 )
 ;
 }
+;
 request
 .
 onsuccess
@@ -210,6 +211,7 @@ finishTest
 )
 ;
 }
+;
 }
 }
 ;

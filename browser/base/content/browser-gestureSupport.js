@@ -909,6 +909,7 @@ function
 }
 ;
 }
+;
 }
 _power
 :
@@ -2514,6 +2515,7 @@ updateAnimation
 )
 ;
 }
+;
 SessionStore
 .
 getSessionHistory
@@ -3162,6 +3164,7 @@ stopAnimation
 )
 ;
 }
+;
 SessionStore
 .
 getSessionHistory

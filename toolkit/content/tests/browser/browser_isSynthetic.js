@@ -78,6 +78,7 @@ nsISupportsWeakReference
 ]
 )
 }
+;
 const
 FILES
 =
@@ -185,6 +186,7 @@ resolve
 )
 ;
 }
+;
 addEventListener
 (
 "

@@ -824,6 +824,7 @@ test
 com
 "
 )
+;
 }
 catch
 (

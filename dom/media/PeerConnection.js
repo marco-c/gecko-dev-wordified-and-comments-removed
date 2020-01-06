@@ -656,6 +656,7 @@ dict
 )
 ;
 }
+;
 class
 GlobalPCList
 {

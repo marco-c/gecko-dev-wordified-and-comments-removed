@@ -155,6 +155,7 @@ init
 )
 ;
 }
+;
 ViewSourceBrowser
 .
 prototype

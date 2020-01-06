@@ -28,6 +28,7 @@ feed_discovery
 .
 html
 "
+;
 add_task
 (
 async
@@ -236,3 +237,4 @@ href
 ;
 }
 )
+;

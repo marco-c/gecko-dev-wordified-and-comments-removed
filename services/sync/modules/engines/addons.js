@@ -392,6 +392,7 @@ AddonsReconciler
 )
 ;
 }
+;
 AddonsEngine
 .
 prototype

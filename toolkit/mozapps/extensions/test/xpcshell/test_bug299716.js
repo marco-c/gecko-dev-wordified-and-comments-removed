@@ -83,6 +83,7 @@ next_test
 ;
 }
 }
+;
 Components
 .
 utils
@@ -594,6 +595,7 @@ Ci
 .
 nsIXMLHttpRequest
 )
+;
 xhr
 .
 open

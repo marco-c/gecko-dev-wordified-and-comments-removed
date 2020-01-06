@@ -532,6 +532,7 @@ filter
 remote
 "
 )
+;
 EventUtils
 .
 synthesizeMouseAtCenter

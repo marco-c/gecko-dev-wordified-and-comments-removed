@@ -320,6 +320,7 @@ implemented
 .
 "
 )
+;
 }
 allow
 (
@@ -698,6 +699,7 @@ dismiss
 promptAction
 .
 dismiss
+;
 }
 popupNotificationActions
 .

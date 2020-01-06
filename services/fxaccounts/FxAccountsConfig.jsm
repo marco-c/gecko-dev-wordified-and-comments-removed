@@ -937,6 +937,7 @@ parse
 (
 jsonStr
 )
+;
 let
 authServerBase
 =

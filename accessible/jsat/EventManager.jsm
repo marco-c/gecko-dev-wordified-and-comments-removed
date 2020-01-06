@@ -2790,6 +2790,7 @@ parent
 parent
 .
 parent
+;
 }
 return
 {
@@ -2969,6 +2970,7 @@ delete
 (
 domNode
 )
+;
 }
 }
 }

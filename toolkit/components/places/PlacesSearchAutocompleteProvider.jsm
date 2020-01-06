@@ -332,6 +332,7 @@ spec
 :
 null
 }
+;
 }
 Services
 .
@@ -510,6 +511,7 @@ nsISupportsWeakReference
 ]
 )
 }
+;
 function
 SearchSuggestionControllerWrapper
 (

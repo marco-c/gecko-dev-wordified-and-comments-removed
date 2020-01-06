@@ -132,6 +132,7 @@ RECENT
 :
 1
 }
+;
 this
 .
 EXPORTED_SYMBOLS

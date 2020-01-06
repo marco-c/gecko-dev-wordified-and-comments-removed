@@ -1418,6 +1418,7 @@ prototype
 =
 {
 }
+;
 function
 compareArrayToResult
 (

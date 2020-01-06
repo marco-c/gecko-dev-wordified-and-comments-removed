@@ -1033,6 +1033,7 @@ NS_BINDING_ABORTED
 ;
 }
 }
+;
 let
 preferredApp
 =

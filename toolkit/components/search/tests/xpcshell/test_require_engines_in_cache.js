@@ -54,6 +54,7 @@ commitPromise
 promiseAfterCache
 (
 )
+;
 await
 asyncInit
 (
@@ -107,6 +108,7 @@ commitPromise
 promiseAfterCache
 (
 )
+;
 await
 asyncReInit
 (

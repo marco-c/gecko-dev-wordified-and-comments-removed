@@ -45,6 +45,7 @@ Scope
 =
 {
 }
+;
 Components
 .
 utils

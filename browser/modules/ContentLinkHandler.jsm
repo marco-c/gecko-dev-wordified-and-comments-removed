@@ -804,6 +804,7 @@ push
 (
 iconInfo
 )
+;
 load
 .
 timer

@@ -352,6 +352,7 @@ shift
 )
 ;
 }
+;
 if
 (
 installInfo
@@ -1807,6 +1808,7 @@ AddonManager
 STATE_DOWNLOADED
 ;
 }
+;
 if
 (
 !

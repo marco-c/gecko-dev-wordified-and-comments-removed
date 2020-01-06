@@ -796,6 +796,7 @@ json
 return
 "
 "
+;
 }
 )
 ;
@@ -1430,6 +1431,7 @@ should
 fail
 "
 )
+;
 }
 catch
 (
@@ -1446,6 +1448,7 @@ fetching
 +
 someJunk
 )
+;
 }
 let
 data
@@ -1546,6 +1549,7 @@ code
 "
 )
 )
+;
 }
 let
 data

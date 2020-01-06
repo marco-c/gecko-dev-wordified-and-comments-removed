@@ -223,6 +223,7 @@ left
 .
 "
 )
+;
 response
 .
 setStatusLine
@@ -400,6 +401,7 @@ client_id
 abc123
 "
 }
+;
 let
 client
 =

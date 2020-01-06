@@ -45,6 +45,7 @@ test
 browser
 /
 "
+;
 if
 (
 !
@@ -307,6 +308,7 @@ test
 browser
 /
 "
+;
 let
 tab
 =
@@ -691,6 +693,7 @@ win
 close
 (
 )
+;
 resolve
 (
 )

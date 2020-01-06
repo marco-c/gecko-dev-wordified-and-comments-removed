@@ -1457,6 +1457,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 var
 WindowWatcher
 =
@@ -1568,6 +1569,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 MockRegistrar
 .
 register

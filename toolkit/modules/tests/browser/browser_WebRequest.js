@@ -764,6 +764,7 @@ dummy_page
 html
 "
 )
+;
 is
 (
 details

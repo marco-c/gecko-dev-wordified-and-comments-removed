@@ -142,6 +142,7 @@ resolve
 )
 ;
 }
+;
 Services
 .
 obs
@@ -291,6 +292,7 @@ resolve
 ;
 }
 }
+;
 function
 MockFxAccountsClient
 (
@@ -446,6 +448,7 @@ FxAccountsClient
 .
 prototype
 }
+;
 function
 MockFxAccounts
 (
@@ -658,6 +661,7 @@ bind
 (
 cas
 )
+;
 cas
 .
 _persistCachedTokens

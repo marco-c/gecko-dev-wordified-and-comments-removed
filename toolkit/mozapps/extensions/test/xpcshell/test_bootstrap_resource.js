@@ -196,6 +196,7 @@ addon
 "
 )
 )
+;
 prepare_test
 (
 {

@@ -75,6 +75,7 @@ initially
 false
 "
 )
+;
 GetBattery
 (
 )

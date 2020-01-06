@@ -90,6 +90,7 @@ for
 autocomplete
 "
 )
+;
 await
 promiseAutocompleteResultPopup
 (

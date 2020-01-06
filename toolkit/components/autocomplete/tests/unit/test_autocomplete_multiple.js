@@ -172,6 +172,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 function
 AutoCompleteResult
 (
@@ -364,6 +365,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 function
 AutoCompleteSearch
 (
@@ -568,6 +570,7 @@ iid
 ;
 }
 }
+;
 function
 registerAutoCompleteSearch
 (

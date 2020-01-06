@@ -148,6 +148,7 @@ waitForInit
 )
 ;
 }
+;
 classifierHelper
 .
 allowCompletion
@@ -244,6 +245,7 @@ url
 )
 ;
 }
+;
 classifierHelper
 .
 addUrlToDB
@@ -408,6 +410,7 @@ reject
 )
 ;
 }
+;
 classifierHelper
 .
 resetDatabase
@@ -581,6 +584,7 @@ doReload
 )
 ;
 }
+;
 classifierHelper
 .
 _update

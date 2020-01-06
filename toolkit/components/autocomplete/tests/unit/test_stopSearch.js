@@ -158,6 +158,7 @@ selectedIndex
 return
 -
 1
+;
 }
 QueryInterface
 :
@@ -185,6 +186,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 function
 AutoCompleteSearch
 (
@@ -285,6 +287,7 @@ iid
 ;
 }
 }
+;
 function
 registerAutoCompleteSearch
 (
@@ -686,6 +689,7 @@ controller
 )
 ;
 }
+;
 do_test_pending
 (
 )

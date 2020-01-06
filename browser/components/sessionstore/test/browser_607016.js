@@ -817,6 +817,7 @@ promiseTabRestoring
 (
 tab
 )
+;
 }
 )
 )

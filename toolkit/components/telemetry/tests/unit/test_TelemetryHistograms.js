@@ -458,6 +458,7 @@ hgrams
 [
 name
 ]
+;
 do_check_eq
 (
 gh
@@ -473,6 +474,7 @@ gh
 min
 min
 )
+;
 do_check_eq
 (
 gh
@@ -480,6 +482,7 @@ gh
 max
 max
 )
+;
 h
 .
 add
@@ -512,6 +515,7 @@ s
 ]
 2
 )
+;
 do_check_eq
 (
 s
@@ -520,6 +524,7 @@ s
 ]
 2
 )
+;
 h
 .
 clear
@@ -732,6 +737,7 @@ Telemetry
 .
 HISTOGRAM_LINEAR
 ]
+;
 let
 testNames
 =
@@ -743,6 +749,7 @@ TELEMETRY_TEST_EXPONENTIAL
 TELEMETRY_TEST_LINEAR
 "
 ]
+;
 for
 (
 let
@@ -791,6 +798,7 @@ INT_MAX
 1
 10
 ]
+;
 check_histogram
 (
 histogram_type
@@ -1099,6 +1107,7 @@ uneval
 ]
 )
 )
+;
 for
 (
 var

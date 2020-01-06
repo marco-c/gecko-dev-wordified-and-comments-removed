@@ -110,6 +110,7 @@ countryCode
 .
 "
 )
+;
 ok
 (
 !
@@ -133,6 +134,7 @@ isUS
 pref
 "
 )
+;
 checkCountryResultTelemetry
 (
 TELEMETRY_RESULT_ENUM

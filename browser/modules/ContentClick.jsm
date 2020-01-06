@@ -151,6 +151,7 @@ message
 .
 target
 )
+;
 break
 ;
 }

@@ -108,6 +108,7 @@ removeTestFile
 (
 path
 )
+;
 try
 {
 mode
@@ -247,6 +248,7 @@ removeTestFile
 (
 path
 )
+;
 }
 }
 async
@@ -284,6 +286,7 @@ removeTestFile
 (
 path
 )
+;
 try
 {
 mode
@@ -420,6 +423,7 @@ removeTestFile
 (
 path
 )
+;
 }
 }
 var

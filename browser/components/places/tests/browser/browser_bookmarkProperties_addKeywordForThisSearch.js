@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 const
 TEST_URL
 =

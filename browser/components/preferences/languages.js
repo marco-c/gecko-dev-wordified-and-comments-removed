@@ -70,6 +70,7 @@ font
 kerning
 "
 )
+;
 }
 0
 )

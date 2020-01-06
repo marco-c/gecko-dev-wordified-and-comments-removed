@@ -30,6 +30,7 @@ ctypes
 jsm
 "
 )
+;
 var
 liblog
 =

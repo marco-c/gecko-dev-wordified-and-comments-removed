@@ -105,6 +105,7 @@ permission
 exists
 .
 )
+;
 browser
 .
 test

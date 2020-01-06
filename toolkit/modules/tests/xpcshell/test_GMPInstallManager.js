@@ -174,6 +174,7 @@ Preferences
 jsm
 "
 )
+;
 Cu
 .
 import
@@ -246,6 +247,7 @@ Preferences
 jsm
 "
 )
+;
 Preferences
 .
 set
@@ -1563,6 +1565,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -1863,6 +1866,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -2657,6 +2661,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -3231,6 +3236,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -3704,6 +3710,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -4206,6 +4213,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -4317,6 +4325,7 @@ updates
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -4400,6 +4409,7 @@ updates
 updates
 >
 "
+;
 overrideXHR
 (
 200
@@ -4579,6 +4589,7 @@ addons
 updates
 >
 "
+;
 overrideXHR
 (
 200

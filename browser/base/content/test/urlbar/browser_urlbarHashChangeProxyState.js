@@ -591,6 +591,7 @@ contentDocument
 .
 hidden
 )
+;
 let
 url
 =

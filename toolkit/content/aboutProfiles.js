@@ -421,6 +421,7 @@ true
 )
 ;
 }
+;
 let
 restartNormalModeButton
 =
@@ -449,6 +450,7 @@ false
 )
 ;
 }
+;
 }
 function
 openDirectory

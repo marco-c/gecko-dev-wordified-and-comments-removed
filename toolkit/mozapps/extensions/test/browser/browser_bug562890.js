@@ -209,6 +209,7 @@ optionsURL
 set
 "
 )
+;
 for
 (
 addonItem
@@ -290,6 +291,7 @@ optionsURL
 set
 "
 )
+;
 Services
 .
 ww

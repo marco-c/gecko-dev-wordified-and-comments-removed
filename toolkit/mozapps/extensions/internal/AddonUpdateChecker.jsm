@@ -136,6 +136,7 @@ mozilla
 .
 org
 "
+;
 const
 XMLURI_PARSE_ERROR
 =
@@ -158,6 +159,7 @@ parsererror
 .
 xml
 "
+;
 const
 PREF_UPDATE_REQUIREBUILTINCERTS
 =
@@ -607,6 +609,7 @@ li
 \
 n
 "
+;
 result
 +
 =
@@ -638,6 +641,7 @@ li
 \
 n
 "
+;
 }
 return
 result
@@ -1286,6 +1290,7 @@ result
 ;
 }
 }
+;
 function
 sanitizeUpdateURL
 (
@@ -2907,6 +2912,7 @@ addon
 }
 "
 )
+;
 continue
 ;
 }

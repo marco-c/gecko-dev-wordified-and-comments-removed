@@ -710,6 +710,7 @@ do_test_finished
 ;
 }
 }
+;
 var
 requestHandler
 =
@@ -828,6 +829,7 @@ Found
 ;
 }
 }
+;
 function
 run_test
 (

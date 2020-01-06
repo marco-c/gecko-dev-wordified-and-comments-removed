@@ -625,6 +625,7 @@ svgIcon
 .
 contentType
 )
+;
 let
 pageIcon
 =

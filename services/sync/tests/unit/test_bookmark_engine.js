@@ -384,6 +384,7 @@ collectionKeys
 ;
 }
 )
+;
 add_task
 (
 async
@@ -1505,6 +1506,7 @@ sync_engine_and_validate_telem
 engine
 true
 )
+;
 }
 catch
 (

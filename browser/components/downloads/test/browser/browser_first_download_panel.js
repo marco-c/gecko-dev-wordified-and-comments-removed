@@ -191,6 +191,7 @@ download
 .
 "
 )
+;
 let
 originalOnPopupShown
 =

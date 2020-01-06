@@ -2026,6 +2026,7 @@ PlacesUtils
 promiseDBConnection
 (
 )
+;
 let
 results
 =

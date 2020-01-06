@@ -2928,6 +2928,7 @@ name
 ;
 }
 }
+;
 let
 proxyEvent
 =
@@ -4368,6 +4369,7 @@ target
 )
 ;
 }
+;
 function
 makeDummyContentWindow
 (
@@ -5480,6 +5482,7 @@ browser
 )
 ;
 }
+;
 var
 RemoteAddonsParent
 =

@@ -373,6 +373,7 @@ effectiveHost
 "
 }
 ]
+;
 var
 gCurrentTest
 gCurrentTestIndex

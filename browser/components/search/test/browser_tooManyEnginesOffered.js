@@ -171,6 +171,7 @@ single
 button
 "
 )
+;
 let
 menuButton
 =

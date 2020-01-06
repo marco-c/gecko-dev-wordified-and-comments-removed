@@ -371,6 +371,7 @@ install
 rdf
 "
 )
+;
 do_check_eq
 (
 uri
@@ -415,6 +416,7 @@ icon
 png
 "
 )
+;
 do_check_eq
 (
 uri
@@ -479,6 +481,7 @@ subfile
 txt
 "
 )
+;
 do_check_eq
 (
 uri

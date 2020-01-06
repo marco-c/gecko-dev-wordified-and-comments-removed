@@ -4217,6 +4217,7 @@ getAttribute
 (
 name
 )
+;
 if
 (
 name

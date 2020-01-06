@@ -839,6 +839,7 @@ return
 false
 ;
 }
+;
 let
 expected
 =

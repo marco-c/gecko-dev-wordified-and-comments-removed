@@ -173,6 +173,7 @@ Error
 stack
 ;
 }
+;
 TokenServerClientError
 .
 prototype
@@ -210,6 +211,7 @@ message
 }
 ;
 }
+;
 TokenServerClientError
 .
 prototype
@@ -245,6 +247,7 @@ _toStringFields
 "
 ;
 }
+;
 TokenServerClientError
 .
 prototype
@@ -276,6 +279,7 @@ return
 result
 ;
 }
+;
 this
 .
 TokenServerClientNetworkError
@@ -311,6 +315,7 @@ Error
 stack
 ;
 }
+;
 TokenServerClientNetworkError
 .
 prototype
@@ -348,6 +353,7 @@ error
 }
 ;
 }
+;
 this
 .
 TokenServerClientServerError
@@ -414,6 +420,7 @@ Error
 stack
 ;
 }
+;
 TokenServerClientServerError
 .
 prototype
@@ -560,6 +567,7 @@ level
 ]
 ;
 }
+;
 TokenServerClient
 .
 prototype

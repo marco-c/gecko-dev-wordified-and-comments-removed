@@ -96,6 +96,7 @@ nsIPrefLocalizedString
 )
 .
 data
+;
 is
 (
 doc

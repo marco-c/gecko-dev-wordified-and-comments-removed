@@ -341,6 +341,7 @@ load
 ;
 await
 panelHiddenPromise
+;
 await
 BrowserTestUtils
 .

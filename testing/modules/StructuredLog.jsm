@@ -51,6 +51,7 @@ _mutatorFuns
 mutators
 ;
 }
+;
 StructuredLogger
 .
 prototype

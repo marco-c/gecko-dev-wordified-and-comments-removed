@@ -2471,6 +2471,7 @@ type_text
 "
 )
 )
+;
 else
 if
 (
@@ -2497,6 +2498,7 @@ size_text
 "
 )
 )
+;
 enclosuresDiv
 .
 appendChild
@@ -5234,6 +5236,7 @@ settings
 )
 ;
 }
+;
 if
 (
 selectedItem

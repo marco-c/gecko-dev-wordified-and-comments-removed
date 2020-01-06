@@ -467,6 +467,7 @@ expected
 image
 blocked
 "
+;
 await
 ContentTaskUtils
 .
@@ -580,6 +581,7 @@ expected
 image
 loaded
 "
+;
 await
 ContentTaskUtils
 .
@@ -701,6 +703,7 @@ expected
 image
 loaded
 "
+;
 await
 ContentTaskUtils
 .
@@ -839,6 +842,7 @@ expected
 image
 blocked
 "
+;
 await
 ContentTaskUtils
 .
@@ -962,6 +966,7 @@ expected
 image
 loaded
 "
+;
 await
 ContentTaskUtils
 .
@@ -1076,6 +1081,7 @@ expected
 image
 loaded
 "
+;
 await
 ContentTaskUtils
 .
@@ -1207,6 +1213,7 @@ expected
 image
 blocked
 "
+;
 await
 ContentTaskUtils
 .

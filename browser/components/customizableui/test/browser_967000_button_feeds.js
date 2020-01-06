@@ -66,6 +66,7 @@ feed
 .
 xml
 "
+;
 var
 newTab
 =

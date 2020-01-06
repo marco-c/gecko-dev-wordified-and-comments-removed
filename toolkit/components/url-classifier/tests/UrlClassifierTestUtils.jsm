@@ -348,6 +348,7 @@ let
 tableIndex
 =
 0
+;
 let
 doOneUpdate
 =
@@ -458,6 +459,7 @@ doOneUpdate
 )
 ;
 }
+;
 return
 doOneUpdate
 (

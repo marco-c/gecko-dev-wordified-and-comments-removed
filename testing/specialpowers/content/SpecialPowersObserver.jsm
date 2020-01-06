@@ -114,6 +114,7 @@ specialpowers
 .
 js
 "
+;
 const
 CHILD_SCRIPT_API
 =
@@ -130,6 +131,7 @@ specialpowersAPI
 .
 js
 "
+;
 const
 CHILD_LOGGER_SCRIPT
 =
@@ -146,6 +148,7 @@ MozillaLogger
 .
 js
 "
+;
 var
 loader
 =
@@ -236,6 +239,7 @@ nsIMessageBroadcaster
 )
 ;
 }
+;
 SpecialPowersObserver
 .
 prototype
@@ -2205,6 +2209,7 @@ Components
 results
 .
 NS_ERROR_NO_AGGREGATION
+;
 }
 return
 new

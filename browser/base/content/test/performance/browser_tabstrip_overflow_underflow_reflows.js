@@ -170,6 +170,7 @@ hasAttribute
 scrolledtoend
 "
 )
+;
 }
 )
 ;

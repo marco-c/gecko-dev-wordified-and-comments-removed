@@ -860,6 +860,7 @@ deviceId
 ;
 }
 }
+;
 }
 signOut
 (
@@ -1084,6 +1085,7 @@ thelocaldevice
 ;
 }
 }
+;
 }
 signOut
 (
@@ -1626,6 +1628,7 @@ run_next_test
 )
 ;
 }
+;
 pushService
 .
 observe
@@ -1704,6 +1707,7 @@ run_next_test
 )
 ;
 }
+;
 pushService
 .
 observe

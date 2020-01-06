@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 const
 {
 classes
@@ -275,6 +276,7 @@ Prompt
 :
 ShowTop
 "
+;
 else
 this
 .
@@ -287,6 +289,7 @@ Prompt
 :
 Show
 "
+;
 if
 (
 "
@@ -1294,6 +1297,7 @@ aItems
 ;
 }
 }
+;
 var
 DoorHanger
 =

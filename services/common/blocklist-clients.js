@@ -1067,6 +1067,7 @@ fetch
 (
 x5u
 )
+;
 const
 certChain
 =
@@ -1307,6 +1308,7 @@ collection
 }
 ]
 }
+;
 }
 let
 reportStatus

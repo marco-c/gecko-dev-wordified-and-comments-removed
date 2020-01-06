@@ -790,6 +790,7 @@ attribute
 value
 "
 )
+;
 value
 =
 value

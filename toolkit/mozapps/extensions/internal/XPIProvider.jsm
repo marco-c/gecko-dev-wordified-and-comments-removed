@@ -4542,6 +4542,7 @@ false
 result
 =
 val
+;
 }
 )
 ;
@@ -5046,6 +5047,7 @@ path
 }
 return
 entries
+;
 }
 catch
 (
@@ -5560,6 +5562,7 @@ location
 .
 dir
 )
+;
 }
 get
 relativePath
@@ -7694,6 +7697,7 @@ lz4
 "
 }
 )
+;
 this
 .
 _jsonFile
@@ -8184,6 +8188,7 @@ id
 )
 ;
 }
+;
 Object
 .
 values
@@ -12376,6 +12381,7 @@ return
 true
 ;
 }
+;
 if
 (
 !
@@ -14292,6 +14298,7 @@ incorrect
 ID
 "
 )
+;
 continue
 ;
 }
@@ -14474,6 +14481,7 @@ PREF_BRANCH_INSTALLED_ADDON
 id
 true
 )
+;
 if
 (
 !
@@ -18848,6 +18856,7 @@ SpellCheckDictionaryBootstrap
 .
 js
 "
+;
 else
 if
 (
@@ -18875,6 +18884,7 @@ APIExtensionBootstrap
 .
 js
 "
+;
 activeAddon
 .
 bootstrapScope
@@ -21937,6 +21947,7 @@ signedState
 AddonManager
 .
 SIGNEDSTATE_SYSTEM
+;
 case
 KEY_APP_SYSTEM_DEFAULTS
 :
@@ -22310,6 +22321,7 @@ TOOLKIT_ID
 version
 =
 aPlatformVersion
+;
 if
 (
 this
@@ -22495,6 +22507,7 @@ maxVersion
 =
 0
 )
+;
 }
 get
 matchingTargetApplication
@@ -25777,6 +25790,7 @@ updateAddonDisabledState
 addon
 false
 )
+;
 resolve
 (
 )
@@ -26721,6 +26735,7 @@ this
 _scope
 =
 aScope
+;
 this
 .
 _IDToFileMap
@@ -28105,6 +28120,7 @@ trashDir
 ;
 }
 }
+;
 try
 {
 moveOldAddon
@@ -30348,6 +30364,7 @@ installs
 )
 ;
 }
+;
 }
 await
 install
@@ -30404,6 +30421,7 @@ addon
 .
 version
 }
+;
 }
 previousState
 =
@@ -30963,6 +30981,7 @@ getStagingDir
 {
 }
 }
+;
 class
 WinRegInstallLocation
 extends

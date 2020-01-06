@@ -637,6 +637,7 @@ VK_PAGE_UP
 {
 }
 )
+;
 is_selected
 (
 0
@@ -670,6 +671,7 @@ VK_PAGE_UP
 {
 }
 )
+;
 is_selected
 (
 maxResults

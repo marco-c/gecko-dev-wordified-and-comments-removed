@@ -120,6 +120,7 @@ version
 :
 1
 }
+;
 var
 newAddon
 =
@@ -138,6 +139,7 @@ version
 :
 1
 }
+;
 var
 ancientAddon
 =
@@ -156,6 +158,7 @@ version
 :
 1
 }
+;
 var
 invalidAddon
 =
@@ -174,6 +177,7 @@ version
 :
 1
 }
+;
 function
 incrementAppVersion
 (

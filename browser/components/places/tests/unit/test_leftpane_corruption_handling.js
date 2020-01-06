@@ -248,6 +248,7 @@ folderIdToHierarchy
 (
 gLeftPaneFolderId
 )
+;
 Assert
 .
 equal
@@ -836,6 +837,7 @@ o
 =
 {
 }
+;
 o
 .
 title
@@ -856,6 +858,7 @@ aNode
 .
 itemId
 )
+;
 if
 (
 PlacesUtils

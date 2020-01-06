@@ -628,6 +628,7 @@ isRestoring
 ;
 }
 }
+;
 function
 newWindowWithState
 (

@@ -422,6 +422,7 @@ return
 message
 ;
 }
+;
 this
 .
 FakeGUIDService
@@ -488,6 +489,7 @@ length
 }
 ;
 }
+;
 this
 .
 FakeCryptoService
@@ -537,6 +539,7 @@ ciphertext
 }
 ;
 }
+;
 FakeCryptoService
 .
 prototype

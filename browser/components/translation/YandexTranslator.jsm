@@ -638,6 +638,7 @@ results
 result
 .
 text
+;
 }
 catch
 (

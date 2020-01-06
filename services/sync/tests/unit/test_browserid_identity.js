@@ -1426,6 +1426,7 @@ return
 now
 ;
 }
+;
 let
 localtimeOffsetMsec
 =
@@ -1850,6 +1851,7 @@ return
 now
 ;
 }
+;
 hawkClient
 .
 _localtimeOffsetMsec
@@ -2151,6 +2153,7 @@ fxa
 globalBrowseridManager
 .
 _fxaService
+;
 let
 signedInUser
 =
@@ -3663,6 +3666,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -3699,6 +3703,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -3886,6 +3891,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -3922,6 +3928,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -4067,6 +4074,7 @@ certificate
 sign
 "
 )
+;
 return
 {
 status
@@ -4097,6 +4105,7 @@ stringify
 }
 )
 }
+;
 }
 )
 ;
@@ -4177,6 +4186,7 @@ certificate
 sign
 "
 )
+;
 return
 {
 status
@@ -4191,6 +4201,7 @@ body
 "
 "
 }
+;
 }
 )
 ;
@@ -4330,6 +4341,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -4357,6 +4369,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -4495,6 +4508,7 @@ account
 keys
 "
 )
+;
 return
 {
 status
@@ -4522,6 +4536,7 @@ body
 }
 "
 }
+;
 }
 )
 ;
@@ -5165,6 +5180,7 @@ this
 ;
 }
 }
+;
 function
 MockedHawkClient
 (
@@ -5220,6 +5236,7 @@ extra
 )
 ;
 }
+;
 MockedHawkClient
 .
 prototype
@@ -5309,6 +5326,7 @@ storageManager
 ;
 }
 }
+;
 let
 fxa
 =
@@ -5518,6 +5536,7 @@ this
 ;
 }
 }
+;
 function
 MockTSC
 (
@@ -5560,6 +5579,7 @@ url
 )
 ;
 }
+;
 MockTSC
 .
 prototype

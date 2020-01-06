@@ -31,6 +31,7 @@ GlobalObjectsModule
 )
 {
 }
+;
 GlobalObjectsModule
 .
 prototype
@@ -128,6 +129,7 @@ finishTest
 )
 ;
 }
+;
 request
 .
 onsuccess
@@ -160,5 +162,7 @@ finishTest
 )
 ;
 }
+;
 }
 }
+;

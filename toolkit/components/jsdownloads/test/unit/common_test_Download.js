@@ -10143,6 +10143,7 @@ custom
 launcher
 "
 )
+;
 }
 catch
 (

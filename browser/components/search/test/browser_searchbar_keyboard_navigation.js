@@ -282,6 +282,7 @@ history
 "
 value
 }
+;
 }
 )
 ;
@@ -344,6 +345,7 @@ history
 "
 value
 }
+;
 }
 )
 ;
@@ -519,6 +521,7 @@ buttons
 displayed
 "
 )
+;
 ok
 (
 !
@@ -2907,6 +2910,7 @@ exposes
 engines
 "
 )
+;
 is
 (
 searchPopup

@@ -5365,6 +5365,7 @@ deferred
 resolve
 (
 )
+;
 }
 )
 ;

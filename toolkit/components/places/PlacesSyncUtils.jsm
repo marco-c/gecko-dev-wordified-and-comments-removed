@@ -4666,6 +4666,7 @@ ex
 }
 }
 }
+;
 async
 function
 insertSyncBookmark

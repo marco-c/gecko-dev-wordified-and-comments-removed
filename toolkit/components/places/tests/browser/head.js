@@ -626,6 +626,7 @@ push
 (
 aPlaceInfo
 )
+;
 }
 let
 now

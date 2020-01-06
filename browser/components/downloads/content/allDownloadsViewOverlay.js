@@ -3320,6 +3320,7 @@ view
 )
 ;
 }
+;
 }
 function
 goUpdateDownloadCommands

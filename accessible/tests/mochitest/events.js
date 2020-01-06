@@ -520,6 +520,7 @@ aEventInvoker
 )
 ;
 }
+;
 this
 .
 invoke
@@ -542,6 +543,7 @@ true
 )
 ;
 }
+;
 this
 .
 onFinish
@@ -552,6 +554,7 @@ eventQueue_finish
 )
 {
 }
+;
 this
 .
 processNextInvoker
@@ -1504,6 +1507,7 @@ true
 )
 ;
 }
+;
 this
 .
 processNextInvokerInTimeout
@@ -1587,6 +1591,7 @@ this
 )
 ;
 }
+;
 this
 .
 handleEvent
@@ -2229,6 +2234,7 @@ match
 ;
 }
 }
+;
 this
 .
 processMatchedChecker
@@ -2282,6 +2288,7 @@ mNextInvokerStatus
 )
 ;
 }
+;
 this
 .
 getNextExpectedEvent
@@ -2401,6 +2408,7 @@ idx
 null
 ;
 }
+;
 this
 .
 areExpectedEventsLeft
@@ -2537,6 +2545,7 @@ return
 false
 ;
 }
+;
 this
 .
 areAllEventsExpected
@@ -2620,6 +2629,7 @@ return
 true
 ;
 }
+;
 this
 .
 isUnexpectedEventScenario
@@ -2679,6 +2689,7 @@ aScenario
 length
 ;
 }
+;
 this
 .
 hasUnexpectedEventsScenario
@@ -2743,6 +2754,7 @@ return
 false
 ;
 }
+;
 this
 .
 hasMatchedScenario
@@ -2809,6 +2821,7 @@ return
 false
 ;
 }
+;
 this
 .
 getInvoker
@@ -2829,6 +2842,7 @@ mIndex
 ]
 ;
 }
+;
 this
 .
 getNextInvoker
@@ -2851,6 +2865,7 @@ mIndex
 ]
 ;
 }
+;
 this
 .
 setEventHandler
@@ -3368,6 +3383,7 @@ return
 true
 ;
 }
+;
 this
 .
 clearEventHandler
@@ -3508,6 +3524,7 @@ mScenarios
 null
 ;
 }
+;
 this
 .
 getEventID
@@ -3550,6 +3567,7 @@ getID
 )
 ;
 }
+;
 this
 .
 setInvokerStatus
@@ -3568,6 +3586,7 @@ mNextInvokerStatus
 aStatus
 ;
 }
+;
 this
 .
 mDefEventType
@@ -3676,6 +3695,7 @@ type
 )
 ;
 }
+;
 eventQueue
 .
 getEventTargetDescr
@@ -3764,6 +3784,7 @@ target
 )
 ;
 }
+;
 eventQueue
 .
 getEventPhase
@@ -3790,6 +3811,7 @@ phase
 true
 ;
 }
+;
 eventQueue
 .
 compareEventTypes
@@ -3827,6 +3849,7 @@ type
 eventType
 ;
 }
+;
 eventQueue
 .
 compareEvents
@@ -3933,6 +3956,7 @@ target1
 target2
 ;
 }
+;
 eventQueue
 .
 isSameEvent
@@ -3970,6 +3994,7 @@ nsIAccessibleStateChangeEvent
 )
 ;
 }
+;
 eventQueue
 .
 invokerStatusToMsg
@@ -4054,6 +4079,7 @@ return
 msg
 ;
 }
+;
 eventQueue
 .
 logEvent
@@ -4251,6 +4277,7 @@ emphText
 )
 ;
 }
+;
 function
 sequence
 (
@@ -4291,6 +4318,7 @@ item
 )
 ;
 }
+;
 this
 .
 processNext
@@ -4358,6 +4386,7 @@ startProcess
 )
 ;
 }
+;
 this
 .
 items
@@ -4690,6 +4719,7 @@ aArgs
 )
 ;
 }
+;
 this
 .
 finalCheck
@@ -4710,6 +4740,7 @@ scrollTo
 )
 ;
 }
+;
 this
 .
 getID
@@ -4730,6 +4761,7 @@ click
 "
 ;
 }
+;
 }
 function
 synthMouseMove
@@ -4791,6 +4823,7 @@ mousemove
 )
 ;
 }
+;
 this
 .
 getID
@@ -4812,6 +4845,7 @@ move
 "
 ;
 }
+;
 }
 function
 synthKey
@@ -4856,6 +4890,7 @@ mWindow
 )
 ;
 }
+;
 this
 .
 getID
@@ -5060,6 +5095,7 @@ key
 "
 ;
 }
+;
 this
 .
 mKey
@@ -5386,6 +5422,7 @@ aID
 )
 ;
 }
+;
 }
 function
 synthFocus
@@ -5488,6 +5525,7 @@ focus
 )
 ;
 }
+;
 this
 .
 getID
@@ -5508,6 +5546,7 @@ focus
 "
 ;
 }
+;
 }
 function
 synthFocusOnFrame
@@ -5570,6 +5609,7 @@ focus
 )
 ;
 }
+;
 this
 .
 getID
@@ -5592,6 +5632,7 @@ focus
 "
 ;
 }
+;
 }
 function
 changeCurrentItem
@@ -5819,6 +5860,7 @@ currentItem
 itemNode
 ;
 }
+;
 this
 .
 getID
@@ -5842,6 +5884,7 @@ aID
 )
 ;
 }
+;
 this
 .
 reportError
@@ -5876,6 +5919,7 @@ current
 )
 ;
 }
+;
 }
 function
 toggleTopMenu
@@ -5922,6 +5966,7 @@ aID
 )
 ;
 }
+;
 }
 function
 synthContextMenu
@@ -5973,6 +6018,7 @@ aID
 )
 ;
 }
+;
 }
 function
 openCombobox
@@ -6026,6 +6072,7 @@ true
 )
 ;
 }
+;
 this
 .
 getID
@@ -6047,6 +6094,7 @@ aComboboxID
 )
 ;
 }
+;
 }
 function
 closeCombobox
@@ -6088,6 +6136,7 @@ VK_ESCAPE
 )
 ;
 }
+;
 this
 .
 getID
@@ -6109,6 +6158,7 @@ aComboboxID
 )
 ;
 }
+;
 }
 function
 synthSelectAll
@@ -6187,6 +6237,7 @@ DOMNode
 ;
 }
 }
+;
 this
 .
 getID
@@ -6204,6 +6255,7 @@ selectall
 "
 ;
 }
+;
 }
 function
 moveToLineEnd
@@ -6285,6 +6337,7 @@ aID
 )
 ;
 }
+;
 }
 function
 moveToPrevLineEnd
@@ -6354,6 +6407,7 @@ VK_END
 )
 ;
 }
+;
 this
 .
 getID
@@ -6379,6 +6433,7 @@ aID
 )
 ;
 }
+;
 }
 function
 moveToLineStart
@@ -6460,6 +6515,7 @@ aID
 )
 ;
 }
+;
 }
 function
 moveToTextStart
@@ -6548,6 +6604,7 @@ aID
 )
 ;
 }
+;
 }
 function
 moveCaretToDOMPoint
@@ -6688,6 +6745,7 @@ selRange
 )
 ;
 }
+;
 this
 .
 getID
@@ -6729,6 +6787,7 @@ offset
 aDOMPointOffset
 ;
 }
+;
 this
 .
 finalCheck
@@ -6749,6 +6808,7 @@ call
 )
 ;
 }
+;
 this
 .
 eventSeq
@@ -6858,6 +6918,7 @@ this
 offset
 ;
 }
+;
 this
 .
 getID
@@ -6888,6 +6949,7 @@ this
 offset
 ;
 }
+;
 this
 .
 eventSeq
@@ -7237,6 +7299,7 @@ STATE_FOCUSED
 )
 ;
 }
+;
 }
 function
 nofocusChecker
@@ -7597,6 +7660,7 @@ aID
 )
 ;
 }
+;
 }
 function
 caretMoveChecker
@@ -7657,6 +7721,7 @@ accessible
 )
 ;
 }
+;
 }
 function
 asyncCaretMoveChecker
@@ -7745,6 +7810,7 @@ aEndOffset
 ;
 }
 }
+;
 }
 function
 objAttrChangedChecker
@@ -8124,6 +8190,7 @@ unxpdExtraState
 )
 ;
 }
+;
 this
 .
 match
@@ -8181,6 +8248,7 @@ return
 false
 ;
 }
+;
 }
 function
 asyncStateChangeChecker
@@ -8348,6 +8416,7 @@ STATE_COLLAPSED
 )
 ;
 }
+;
 }
 function
 selChangeSeq
@@ -9544,6 +9613,7 @@ invoke
 )
 ;
 }
+;
 this
 .
 queue
@@ -9573,6 +9643,7 @@ return
 DO_NOT_FINISH_TEST
 ;
 }
+;
 var
 invoker
 =
@@ -9737,4 +9808,5 @@ action
 "
 ;
 }
+;
 }

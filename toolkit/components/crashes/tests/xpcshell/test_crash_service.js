@@ -626,6 +626,7 @@ present
 n
 "
 )
+;
 try
 {
 let

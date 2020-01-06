@@ -3168,6 +3168,7 @@ return
 false
 ;
 }
+;
 let
 shouldAllowFxaStatus
 =
@@ -3249,6 +3250,7 @@ return
 false
 ;
 }
+;
 let
 shouldAllowFxaStatus
 =
@@ -3330,6 +3332,7 @@ return
 false
 ;
 }
+;
 let
 shouldAllowFxaStatus
 =
@@ -3410,6 +3413,7 @@ return
 true
 ;
 }
+;
 let
 shouldAllowFxaStatus
 =
@@ -3491,6 +3495,7 @@ return
 true
 ;
 }
+;
 let
 shouldAllowFxaStatus
 =
@@ -3572,6 +3577,7 @@ return
 true
 ;
 }
+;
 let
 shouldAllowFxaStatus
 =
@@ -3905,6 +3911,7 @@ Promise
 resolve
 (
 )
+;
 }
 }
 }
@@ -4020,6 +4027,7 @@ Promise
 resolve
 (
 )
+;
 }
 }
 }

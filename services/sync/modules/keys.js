@@ -598,6 +598,7 @@ _collection
 collection
 ;
 }
+;
 BulkKeyBundle
 .
 prototype

@@ -2410,6 +2410,7 @@ value
 "
 "
 )
+;
 }
 function
 onTreeFocus

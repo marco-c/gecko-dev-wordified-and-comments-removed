@@ -45,6 +45,7 @@ getSystemPrincipal
 (
 )
 )
+;
 await
 browserLoadedPromise
 ;

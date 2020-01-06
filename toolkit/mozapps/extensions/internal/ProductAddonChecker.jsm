@@ -342,6 +342,7 @@ nsISupports
 )
 ;
 }
+;
 var
 logger
 =
@@ -2269,3 +2270,4 @@ e
 }
 }
 }
+;

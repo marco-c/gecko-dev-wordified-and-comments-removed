@@ -127,6 +127,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 try
 {
 var
@@ -396,6 +397,7 @@ i
 ]
 )
 )
+;
 if
 (
 current_test

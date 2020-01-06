@@ -188,6 +188,7 @@ ex
 }
 ;
 }
+;
 this
 .
 IntegrationPoint

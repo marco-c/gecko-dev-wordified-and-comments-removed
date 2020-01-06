@@ -66,6 +66,7 @@ url
 }
 testPromiseMessageAPI
 )
+;
 }
 )
 ;

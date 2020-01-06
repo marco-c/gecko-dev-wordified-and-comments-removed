@@ -1018,6 +1018,7 @@ signOut
 (
 true
 )
+;
 }
 )
 ;
@@ -1250,6 +1251,7 @@ signOut
 (
 true
 )
+;
 }
 )
 ;

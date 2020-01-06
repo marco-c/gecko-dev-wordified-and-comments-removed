@@ -154,6 +154,7 @@ finishTest
 )
 ;
 }
+;
 request
 .
 onsuccess
@@ -186,4 +187,5 @@ finishTest
 )
 ;
 }
+;
 }

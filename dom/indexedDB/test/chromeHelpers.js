@@ -55,6 +55,7 @@ next
 )
 ;
 }
+;
 }
 function
 finishTest

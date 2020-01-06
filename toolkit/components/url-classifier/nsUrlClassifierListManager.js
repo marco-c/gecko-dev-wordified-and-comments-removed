@@ -189,6 +189,7 @@ n
 )
 ;
 }
+;
 this
 .
 PROT_ListManager
@@ -305,6 +306,7 @@ this
 )
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -461,6 +463,7 @@ return
 true
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -567,6 +570,7 @@ tableName
 ]
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -627,6 +631,7 @@ this
 )
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -691,6 +696,7 @@ break
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -738,6 +744,7 @@ return
 "
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -785,6 +792,7 @@ return
 "
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -839,6 +847,7 @@ true
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -891,6 +900,7 @@ return
 updatesNeeded
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -993,6 +1003,7 @@ null
 }
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1042,6 +1053,7 @@ return
 false
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1139,6 +1151,7 @@ TYPE_ONE_SHOT
 )
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1469,6 +1482,7 @@ updateUrl
 }
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1530,6 +1544,7 @@ null
 }
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1614,6 +1629,7 @@ stopUpdateCheckers
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -1705,6 +1721,7 @@ return
 true
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -2386,6 +2403,7 @@ request
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -2590,6 +2608,7 @@ provider
 ;
 }
 }
+;
 PROT_ListManager
 .
 prototype
@@ -2996,6 +3015,7 @@ success
 )
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -3071,6 +3091,7 @@ result
 )
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -3223,6 +3244,7 @@ status
 )
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -3330,6 +3352,7 @@ now
 delay
 ;
 }
+;
 PROT_ListManager
 .
 prototype
@@ -3393,6 +3416,7 @@ results
 NS_ERROR_NO_INTERFACE
 ;
 }
+;
 var
 modScope
 =

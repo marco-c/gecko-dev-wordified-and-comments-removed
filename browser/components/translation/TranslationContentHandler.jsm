@@ -199,6 +199,7 @@ global
 global
 ;
 }
+;
 TranslationContentHandler
 .
 prototype

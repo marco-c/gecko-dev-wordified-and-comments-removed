@@ -98,6 +98,7 @@ defaultValue
 ;
 }
 }
+;
 offlineByDefault
 .
 set

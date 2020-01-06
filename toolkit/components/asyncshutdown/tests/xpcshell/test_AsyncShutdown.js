@@ -516,6 +516,7 @@ to
 resolve
 "
 )
+;
 deferredBlockInner
 .
 resolve

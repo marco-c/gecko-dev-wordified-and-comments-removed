@@ -161,6 +161,7 @@ resolve
 )
 ;
 }
+;
 Services
 .
 obs
@@ -310,6 +311,7 @@ resolve
 ;
 }
 }
+;
 function
 MockFxAccountsClient
 (
@@ -465,6 +467,7 @@ FxAccountsClient
 .
 prototype
 }
+;
 function
 MockFxAccounts
 (
@@ -840,6 +843,7 @@ activeTokens
 :
 null
 }
+;
 add_task
 (
 async

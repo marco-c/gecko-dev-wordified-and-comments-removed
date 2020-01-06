@@ -33,6 +33,7 @@ file_favicon_change
 .
 html
 "
+;
 add_task
 (
 async

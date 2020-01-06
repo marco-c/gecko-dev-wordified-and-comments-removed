@@ -33,6 +33,7 @@ file_favicon_change_not_in_document
 .
 html
 "
+;
 add_task
 (
 async

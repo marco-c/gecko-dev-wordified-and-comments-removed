@@ -160,6 +160,7 @@ options
 returns
 ;
 }
+;
 Object
 .
 setPrototypeOf

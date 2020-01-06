@@ -5488,6 +5488,7 @@ resolve
 ;
 }
 }
+;
 let
 visitObserver
 =

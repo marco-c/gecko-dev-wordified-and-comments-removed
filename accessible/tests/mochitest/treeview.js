@@ -88,6 +88,7 @@ view
 aTreeView
 ;
 }
+;
 this
 .
 getID
@@ -110,6 +111,7 @@ aTreeID
 )
 ;
 }
+;
 }
 gXULTreeLoadContext
 .
@@ -155,6 +157,7 @@ return
 DO_NOT_FINISH_TEST
 ;
 }
+;
 gXULTreeLoadContext
 .
 queue

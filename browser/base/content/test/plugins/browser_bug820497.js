@@ -212,6 +212,7 @@ function
 gNumPluginBindingsAttached
 +
 +
+;
 }
 true
 true

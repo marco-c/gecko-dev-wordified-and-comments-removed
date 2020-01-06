@@ -48,6 +48,7 @@ osfile
 jsm
 "
 )
+;
 function
 promiseNewListAndStore
 (

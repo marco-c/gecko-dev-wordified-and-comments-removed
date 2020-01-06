@@ -234,6 +234,7 @@ next
 )
 ;
 }
+;
 }
 function
 finishTest
@@ -293,6 +294,7 @@ do_test_finished
 ;
 }
 )
+;
 }
 function
 grabEventAndContinueHandler
@@ -1770,6 +1772,7 @@ random
 *
 255
 )
+;
 }
 return
 view
@@ -2252,6 +2255,7 @@ next
 ;
 }
 }
+;
 }
 let
 reader
@@ -2304,6 +2308,7 @@ next
 ;
 }
 }
+;
 }
 function
 verifyMutableFile

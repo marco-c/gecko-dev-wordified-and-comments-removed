@@ -4137,6 +4137,7 @@ aCallback
 ;
 }
 }
+;
 function
 CertOverrideListener
 (
@@ -4307,6 +4308,7 @@ true
 ;
 }
 }
+;
 function
 addCertOverride
 (
@@ -4708,6 +4710,7 @@ aAddon
 oldAddon
 requiresRestart
 )
+;
 }
 removeAddon
 :

@@ -1108,6 +1108,7 @@ onItemAnnotationRemoved
 {
 }
 }
+;
 let
 historyObserver
 =

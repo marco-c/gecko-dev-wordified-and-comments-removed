@@ -249,6 +249,7 @@ name
 foo
 "
 }
+;
 if
 (
 !
@@ -346,6 +347,7 @@ stopPropagation
 )
 ;
 }
+;
 trans
 .
 oncomplete
@@ -380,6 +382,7 @@ true
 )
 ;
 }
+;
 trans
 .
 onabort
@@ -414,6 +417,7 @@ false
 )
 ;
 }
+;
 let
 completeFired
 =
@@ -569,6 +573,7 @@ continue
 ;
 }
 }
+;
 }
 trans
 .

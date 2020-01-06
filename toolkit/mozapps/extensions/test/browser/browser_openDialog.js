@@ -355,6 +355,7 @@ nsIFactory
 )
 }
 }
+;
 function
 test
 (
@@ -897,6 +898,7 @@ visible
 .
 "
 )
+;
 addonList
 .
 ensureElementIsVisible

@@ -159,6 +159,7 @@ window
 ready
 "
 )
+;
 }
 )
 ;
@@ -218,6 +219,7 @@ title
 .
 "
 )
+;
 browser
 .
 loadURI
@@ -284,6 +286,7 @@ title
 .
 "
 )
+;
 win
 .
 close

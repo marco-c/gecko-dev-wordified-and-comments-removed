@@ -483,6 +483,7 @@ this
 ;
 "
 )
+;
 let
 clearButton
 =

@@ -1320,6 +1320,7 @@ failed
 e
 )
 )
+;
 }
 get
 canClear
@@ -2005,6 +2006,7 @@ failed
 +
 err
 )
+;
 aCallback
 (
 false

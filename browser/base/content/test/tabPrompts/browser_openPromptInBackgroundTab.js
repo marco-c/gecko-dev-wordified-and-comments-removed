@@ -457,6 +457,7 @@ _identityPopup
 hidePopup
 (
 )
+;
 ok
 (
 gIdentityHandler

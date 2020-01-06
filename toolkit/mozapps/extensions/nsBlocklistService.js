@@ -452,6 +452,7 @@ parsererror
 .
 xml
 "
+;
 const
 URI_BLOCKLIST_DIALOG
 =
@@ -470,6 +471,7 @@ blocklist
 .
 xul
 "
+;
 const
 DEFAULT_SEVERITY
 =
@@ -4174,6 +4176,7 @@ file
 +
 e
 )
+;
 }
 var
 appFile
@@ -4225,6 +4228,7 @@ file
 +
 e
 )
+;
 }
 LOG
 (
@@ -7088,6 +7092,7 @@ closed
 )
 ;
 }
+;
 Services
 .
 obs

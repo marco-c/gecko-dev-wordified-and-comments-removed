@@ -388,6 +388,7 @@ reject
 (
 error
 )
+;
 throw
 new
 Error
@@ -992,6 +993,7 @@ message
 )
 ;
 }
+;
 let
 checkOne
 =
@@ -1009,6 +1011,7 @@ message
 )
 ;
 }
+;
 await
 countEntries
 (
@@ -6112,6 +6115,7 @@ checks
 +
 ;
 }
+;
 await
 countEntries
 (

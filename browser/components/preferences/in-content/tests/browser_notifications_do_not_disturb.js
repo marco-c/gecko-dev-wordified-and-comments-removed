@@ -235,6 +235,7 @@ checkbox
 command
 "
 )
+;
 checkbox
 .
 click
@@ -270,6 +271,7 @@ checkbox
 command
 "
 )
+;
 checkbox
 .
 click

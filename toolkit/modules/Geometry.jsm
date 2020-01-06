@@ -31,6 +31,7 @@ y
 )
 ;
 }
+;
 Point
 .
 prototype

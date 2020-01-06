@@ -2361,6 +2361,7 @@ acceptDialog
 )
 ;
 }
+;
 wh
 .
 open
@@ -3608,6 +3609,7 @@ this
 _resolveClosed
 =
 resolve
+;
 }
 )
 ;
@@ -3843,6 +3845,7 @@ sufficient
 size
 "
 )
+;
 height
 +
 =
@@ -4814,6 +4817,7 @@ name
 }
 )
 )
+;
 }
 function
 formNameExists

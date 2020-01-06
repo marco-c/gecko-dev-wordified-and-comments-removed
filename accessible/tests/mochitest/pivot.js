@@ -137,6 +137,7 @@ nsIAccessibleTraversalRule
 ]
 )
 }
+;
 var
 ObjectTraversalRule
 =
@@ -2290,6 +2291,7 @@ moveNext
 aRule
 )
 )
+;
 }
 SimpleTest
 .

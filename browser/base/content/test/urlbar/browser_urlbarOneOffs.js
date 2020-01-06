@@ -194,6 +194,7 @@ VK_DOWN
 {
 }
 )
+;
 await
 promisePopupShown
 (
@@ -238,6 +239,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 i
@@ -307,6 +309,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 -
@@ -327,6 +330,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 -
@@ -347,6 +351,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 0
@@ -381,6 +386,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 -
@@ -420,6 +426,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 -
@@ -456,6 +463,7 @@ VK_RIGHT
 {
 }
 )
+;
 assertState
 (
 -
@@ -495,6 +503,7 @@ VK_LEFT
 {
 }
 )
+;
 assertState
 (
 -
@@ -534,6 +543,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 i
@@ -571,6 +581,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 -
@@ -647,6 +658,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 i
@@ -718,6 +730,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 -
@@ -737,6 +750,7 @@ VK_DOWN
 {
 }
 )
+;
 assertState
 (
 0
@@ -774,6 +788,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 -
@@ -812,6 +827,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 i
@@ -851,6 +867,7 @@ VK_UP
 {
 }
 )
+;
 assertState
 (
 0
@@ -954,6 +971,7 @@ altKey
 true
 }
 )
+;
 assertState
 (
 0
@@ -1216,6 +1234,7 @@ altKey
 true
 }
 )
+;
 assertState
 (
 0
@@ -1264,6 +1283,7 @@ VK_RETURN
 {
 }
 )
+;
 await
 resultsPromise
 ;

@@ -30,6 +30,7 @@ error
 )
 ;
 }
+;
 worker
 .
 onmessage

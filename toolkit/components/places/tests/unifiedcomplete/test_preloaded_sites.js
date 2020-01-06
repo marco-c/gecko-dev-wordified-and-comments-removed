@@ -857,6 +857,7 @@ Map
 (
 sites
 )
+;
 autocompleteObject
 .
 populatePreloadedSiteStorage

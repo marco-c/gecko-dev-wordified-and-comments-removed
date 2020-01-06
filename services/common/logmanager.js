@@ -3,6 +3,7 @@ use
 strict
 ;
 "
+;
 var
 {
 classes
@@ -679,6 +680,7 @@ fullOutputFileName
 ;
 }
 }
+;
 function
 LogManager
 (
@@ -894,6 +896,7 @@ level
 level
 ;
 }
+;
 this
 .
 _prefs
@@ -933,6 +936,7 @@ return
 observer
 ;
 }
+;
 this
 .
 _observeConsolePref
@@ -1773,3 +1777,4 @@ logs
 ;
 }
 }
+;

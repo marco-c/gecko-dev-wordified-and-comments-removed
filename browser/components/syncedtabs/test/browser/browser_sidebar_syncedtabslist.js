@@ -755,6 +755,7 @@ resolve
 [
 ]
 )
+;
 }
 syncTabs
 (
@@ -1173,6 +1174,7 @@ resolve
 [
 ]
 )
+;
 }
 syncTabs
 (
@@ -2189,6 +2191,7 @@ resolve
 [
 ]
 )
+;
 }
 syncTabs
 (

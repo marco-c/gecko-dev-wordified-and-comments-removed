@@ -109,6 +109,7 @@ id
 )
 ;
 }
+;
 RotaryRecord
 .
 prototype
@@ -164,6 +165,7 @@ items
 }
 ;
 }
+;
 RotaryStore
 .
 prototype
@@ -421,6 +423,7 @@ engine
 )
 ;
 }
+;
 RotaryTracker
 .
 prototype
@@ -472,6 +475,7 @@ previousFailed
 ]
 ;
 }
+;
 RotaryEngine
 .
 prototype

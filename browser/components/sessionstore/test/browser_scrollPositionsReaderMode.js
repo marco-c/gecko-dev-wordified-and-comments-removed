@@ -26,6 +26,7 @@ sessionstore
 test
 /
 "
+;
 const
 READER_MODE_URL
 =

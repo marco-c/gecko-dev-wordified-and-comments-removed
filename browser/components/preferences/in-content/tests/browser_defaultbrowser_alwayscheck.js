@@ -844,6 +844,7 @@ return
 mockShellService
 ;
 }
+;
 mockShellService
 .
 _isDefault

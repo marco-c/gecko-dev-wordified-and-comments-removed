@@ -80,6 +80,7 @@ s
 "
 }
 )
+;
 registerCleanupFunction
 (
 async

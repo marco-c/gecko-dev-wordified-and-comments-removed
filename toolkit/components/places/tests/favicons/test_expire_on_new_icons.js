@@ -19,6 +19,7 @@ mozilla
 com
 /
 "
+;
 await
 PlacesTestUtils
 .
@@ -42,6 +43,7 @@ mozilla
 com
 /
 "
+;
 await
 PlacesTestUtils
 .

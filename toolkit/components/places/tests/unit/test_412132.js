@@ -350,6 +350,7 @@ url
 TEST_URL2
 }
 )
+;
 await
 PlacesTestUtils
 .
@@ -554,6 +555,7 @@ url
 TEST_URL2
 }
 )
+;
 await
 PlacesTestUtils
 .
@@ -689,6 +691,7 @@ url
 TEST_URL0
 }
 )
+;
 await
 PlacesUtils
 .

@@ -511,6 +511,7 @@ privateLoadContext
 nonPrivateLoadContext
 ;
 }
+;
 DownloadLastDir
 .
 prototype

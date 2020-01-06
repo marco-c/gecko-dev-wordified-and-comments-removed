@@ -1019,6 +1019,7 @@ tabshifted
 newBackgroundTab
 "
 }
+;
 let
 disposition
 =
@@ -1072,6 +1073,7 @@ MSG_INPUT_ENTERED
 text
 disposition
 )
+;
 gActiveInputSession
 =
 null

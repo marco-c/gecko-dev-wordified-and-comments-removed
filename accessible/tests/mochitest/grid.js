@@ -44,6 +44,7 @@ tHead
 )
 ;
 }
+;
 this
 .
 getColsCount
@@ -68,6 +69,7 @@ cells
 length
 ;
 }
+;
 this
 .
 getRowAtIndex
@@ -99,6 +101,7 @@ aIndex
 ]
 ;
 }
+;
 this
 .
 getMaxIndex
@@ -124,6 +127,7 @@ getColsCount
 1
 ;
 }
+;
 this
 .
 getCellAtIndex
@@ -181,6 +185,7 @@ colIdx
 ]
 ;
 }
+;
 this
 .
 getIndexByCell
@@ -237,6 +242,7 @@ colsCount
 colIdx
 ;
 }
+;
 this
 .
 getCurrentCell
@@ -335,6 +341,7 @@ return
 null
 ;
 }
+;
 this
 .
 initGrid
@@ -369,6 +376,7 @@ this
 )
 ;
 }
+;
 this
 .
 handleEvent
@@ -401,6 +409,7 @@ aEvent
 )
 ;
 }
+;
 this
 .
 handleKeyEvent
@@ -736,6 +745,7 @@ break
 ;
 }
 }
+;
 this
 .
 handleClickEvent
@@ -814,6 +824,7 @@ focus
 ;
 }
 }
+;
 this
 .
 table

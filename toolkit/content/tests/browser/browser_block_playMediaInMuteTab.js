@@ -178,6 +178,7 @@ correct
 !
 "
 )
+;
 }
 function
 check_audio_suspended

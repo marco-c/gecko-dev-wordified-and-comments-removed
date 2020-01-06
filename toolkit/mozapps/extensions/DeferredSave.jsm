@@ -621,6 +621,7 @@ _finalize
 )
 ;
 }
+;
 this
 .
 DeferredSave

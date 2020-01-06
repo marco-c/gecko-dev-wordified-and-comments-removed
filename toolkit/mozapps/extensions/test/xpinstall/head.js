@@ -188,6 +188,7 @@ browser
 "
 +
 RELATIVE_DIR
+;
 }
 return
 getRootDirectory
@@ -1728,6 +1729,7 @@ endTest
 )
 ;
 }
+;
 mm
 .
 addMessageListener
@@ -2426,3 +2428,4 @@ nsISupports
 ]
 )
 }
+;

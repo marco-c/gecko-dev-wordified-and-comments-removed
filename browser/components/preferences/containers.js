@@ -1033,6 +1033,7 @@ location
 reload
 (
 )
+;
 }
 onWindowKeyPress
 (
@@ -1058,3 +1059,4 @@ close
 ;
 }
 }
+;

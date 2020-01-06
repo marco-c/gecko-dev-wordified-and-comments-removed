@@ -107,6 +107,7 @@ animate
 ;
 }
 )
+;
 async
 function
 test_bookmarks_popup

@@ -438,6 +438,7 @@ return
 CrashMonitorInternal
 .
 previousCheckpoints
+;
 }
 init
 (

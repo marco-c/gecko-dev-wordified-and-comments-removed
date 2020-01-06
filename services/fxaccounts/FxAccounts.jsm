@@ -1304,6 +1304,7 @@ err
 ;
 }
 }
+;
 function
 getScopeKey
 (
@@ -1660,6 +1661,7 @@ external
 )
 ;
 }
+;
 function
 FxAccountsInternal
 (
@@ -3150,6 +3152,7 @@ tokenData
 .
 token
 )
+;
 }
 _destroyAllOAuthTokens
 (
@@ -3435,6 +3438,7 @@ complete
 ;
 }
 )
+;
 }
 else
 {
@@ -4102,6 +4106,7 @@ unwrapBKey
 :
 null
 }
+;
 log
 .
 debug
@@ -4566,6 +4571,7 @@ cert
 .
 rawCert
 }
+;
 }
 if
 (
@@ -4769,6 +4775,7 @@ keyPair
 rawKeyPair
 certificate
 }
+;
 }
 getUserAccountData
 (
@@ -5621,6 +5628,7 @@ verified
 true
 }
 )
+;
 const
 accountData
 =
@@ -7311,6 +7319,7 @@ null
 ;
 }
 }
+;
 FXA_PWDMGR_PLAINTEXT_FIELDS
 .
 forEach
@@ -8045,6 +8054,7 @@ _logErrorAndResetDeviceRegistrationVersion
 (
 error
 )
+;
 }
 )
 ;

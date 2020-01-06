@@ -342,6 +342,7 @@ listener
 )
 ;
 }
+;
 classifierHelper
 .
 allowCompletion
@@ -448,6 +449,7 @@ url
 )
 ;
 }
+;
 classifierHelper
 .
 addUrlToDB
@@ -598,6 +600,7 @@ testUpdate
 )
 ;
 }
+;
 classifierHelper
 .
 resetDatabase
@@ -687,6 +690,7 @@ reloadDatabase
 )
 ;
 }
+;
 classifierHelper
 .
 _update

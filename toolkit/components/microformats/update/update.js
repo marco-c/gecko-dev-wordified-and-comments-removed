@@ -669,6 +669,7 @@ parse
 (
 pack
 )
+;
 if
 (
 pack
@@ -1126,6 +1127,7 @@ replace
 findStr
 replaceStr
 )
+;
 writeFile
 (
 deployDirResolved
@@ -1177,6 +1179,7 @@ path
 }
 }
 )
+;
 }
 function
 writeFile

@@ -351,6 +351,7 @@ NS_NOINTERFACE
 ;
 }
 }
+;
 function
 onLoad
 (
@@ -392,6 +393,7 @@ interfaces
 .
 nsIPrintProgressParams
 )
+;
 if
 (
 progressParams
@@ -444,6 +446,7 @@ window
 close
 (
 )
+;
 return
 ;
 }

@@ -286,6 +286,7 @@ id
 )
 ;
 }
+;
 LoginRec
 .
 prototype
@@ -346,6 +347,7 @@ password
 .
 length
 )
+;
 }
 return
 JSON
@@ -419,6 +421,7 @@ service
 )
 ;
 }
+;
 PasswordEngine
 .
 prototype
@@ -2354,6 +2357,7 @@ Utils
 getSyncCredentialsHosts
 (
 )
+;
 let
 result
 =
@@ -2455,6 +2459,7 @@ original
 :
 item
 }
+;
 }
 async
 normalizeServerItem

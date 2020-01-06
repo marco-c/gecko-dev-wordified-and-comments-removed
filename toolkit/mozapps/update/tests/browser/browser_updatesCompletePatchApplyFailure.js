@@ -103,6 +103,7 @@ page
 .
 "
 )
+;
 gBrowser
 .
 removeTab

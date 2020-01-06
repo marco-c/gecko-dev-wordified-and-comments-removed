@@ -458,6 +458,7 @@ name
 }
 .
 )
+;
 }
 }
 )
@@ -710,6 +711,7 @@ unregister
 ;
 }
 }
+;
 function
 initContentMessageListener
 (

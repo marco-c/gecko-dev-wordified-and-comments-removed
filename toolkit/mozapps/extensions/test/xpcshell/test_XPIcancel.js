@@ -190,6 +190,7 @@ getsCancelled
 ;
 }
 }
+;
 XPIProvider
 .
 doing
@@ -257,6 +258,7 @@ doesntGetCancelled
 ;
 }
 }
+;
 XPIProvider
 .
 doing

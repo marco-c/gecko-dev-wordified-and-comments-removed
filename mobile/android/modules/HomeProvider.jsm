@@ -447,6 +447,7 @@ background_url
 TEXT
 "
 }
+;
 function
 isUsingWifi
 (

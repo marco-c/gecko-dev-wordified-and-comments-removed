@@ -193,6 +193,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;
@@ -590,6 +591,7 @@ promiseTransfer
 waitForTransferComplete
 (
 )
+;
 info
 (
 "

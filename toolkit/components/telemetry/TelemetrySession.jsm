@@ -2342,6 +2342,7 @@ then
 resolve
 reject
 )
+;
 }
 SCHEDULER_TICK_MAX_IDLE_DELAY_MS
 )
@@ -3170,6 +3171,7 @@ addObserver
 this
 aTopic
 )
+;
 this
 .
 _observedTopics
@@ -3178,6 +3180,7 @@ add
 (
 aTopic
 )
+;
 }
 removeObserver
 (
@@ -3193,6 +3196,7 @@ removeObserver
 this
 aTopic
 )
+;
 this
 .
 _observedTopics
@@ -3201,6 +3205,7 @@ delete
 (
 aTopic
 )
+;
 }
 get
 _log
@@ -3295,6 +3300,7 @@ elapsedTime
 60000
 )
 }
+;
 var
 appTimestamps
 =
@@ -3433,6 +3439,7 @@ field
 si
 .
 process
+;
 }
 for
 (
@@ -4746,6 +4753,7 @@ e
 {
 }
 }
+;
 let
 b
 =
@@ -7831,6 +7839,7 @@ id
 )
 ;
 break
+;
 }
 default
 :

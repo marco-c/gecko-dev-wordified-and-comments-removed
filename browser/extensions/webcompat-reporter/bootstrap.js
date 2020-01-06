@@ -267,6 +267,7 @@ delayedStartupFinished
 requestReporterInit
 (
 )
+;
 }
 else
 {

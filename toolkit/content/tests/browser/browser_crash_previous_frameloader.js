@@ -376,6 +376,7 @@ int32_t
 badptr
 .
 contents
+;
 }
 ;
 addEventListener

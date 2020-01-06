@@ -809,6 +809,7 @@ lastNonZero
 durations
 )
 }
+;
 }
 isEqual
 (
@@ -1504,6 +1505,7 @@ this
 .
 _id
 )
+;
 PerformanceMonitor
 .
 _monitors
@@ -2048,6 +2050,7 @@ release
 ;
 }
 }
+;
 PerformanceMonitor
 .
 _counter
@@ -2077,6 +2080,7 @@ _counter
 )
 ;
 }
+;
 Services
 .
 obs
@@ -3795,6 +3799,7 @@ data
 .
 data
 )
+;
 }
 if
 (

@@ -1153,6 +1153,7 @@ percentComplete
 -
 1
 }
+;
 for
 (
 let
@@ -4888,3 +4889,4 @@ _lastTimeLeft
 }
 }
 }
+;

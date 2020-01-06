@@ -964,6 +964,7 @@ now
 )
 -
 startTime
+;
 return
 Math
 .
@@ -1176,3 +1177,4 @@ key
 ;
 }
 }
+;

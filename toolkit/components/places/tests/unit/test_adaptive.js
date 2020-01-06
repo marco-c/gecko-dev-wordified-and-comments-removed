@@ -162,6 +162,7 @@ nsIAutoCompleteInput
 ]
 )
 }
+;
 function
 ensure_results
 (

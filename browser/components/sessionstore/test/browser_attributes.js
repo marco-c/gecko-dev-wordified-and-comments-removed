@@ -43,6 +43,7 @@ setBoolPref
 PREF
 true
 )
+;
 registerCleanupFunction
 (
 (
@@ -68,6 +69,7 @@ setBoolPref
 PREF2
 true
 )
+;
 registerCleanupFunction
 (
 (

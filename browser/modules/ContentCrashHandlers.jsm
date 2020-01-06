@@ -1162,6 +1162,7 @@ remote
 .
 "
 )
+;
 return
 ;
 }
@@ -1494,6 +1495,7 @@ if
 dumpID
 )
 return
+;
 if
 (
 !
@@ -2279,6 +2281,7 @@ browser
 ;
 }
 }
+;
 this
 .
 UnsubmittedCrashHandler

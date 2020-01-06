@@ -413,6 +413,7 @@ handleCopy
 (
 row
 )
+;
 this
 .
 tree
@@ -671,6 +672,7 @@ sortcol
 >
 -
 1
+;
 }
 canDrop
 (
@@ -1483,6 +1485,7 @@ nsCertificateDialogs
 ;
 1
 "
+;
 function
 getClipboardHelper
 (
@@ -1650,6 +1653,7 @@ org
 /
 xhtml2
 "
+;
 const
 XHTMLNSre
 =
@@ -5520,6 +5524,7 @@ theimagecontainer
 collapsed
 =
 false
+;
 document
 .
 getElementById
@@ -6229,6 +6234,7 @@ url
 }
 }
 }
+;
 function
 getContentTypeFromHeaders
 (

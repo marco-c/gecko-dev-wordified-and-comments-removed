@@ -346,6 +346,7 @@ mockTransferCallback
 )
 ;
 }
+;
 var
 saveLinkCommand
 =

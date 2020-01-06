@@ -1107,6 +1107,7 @@ allow
 "
 ;
 }
+;
 webrtcUI
 .
 addPeerConnectionBlocker

@@ -91,6 +91,7 @@ osfile
 jsm
 "
 )
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -993,6 +994,7 @@ _callObservers
 onManyLinksChanged
 "
 )
+;
 }
 error
 =

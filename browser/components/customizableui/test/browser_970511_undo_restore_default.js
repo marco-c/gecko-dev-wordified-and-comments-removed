@@ -310,6 +310,7 @@ gCustomizeMode
 undoReset
 (
 )
+;
 is
 (
 LightweightThemeManager

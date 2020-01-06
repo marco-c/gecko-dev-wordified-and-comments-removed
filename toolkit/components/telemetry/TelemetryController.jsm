@@ -746,6 +746,7 @@ getCachedClientID
 (
 )
 }
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -3549,6 +3550,7 @@ subsession
 +
 aSubsession
 )
+;
 if
 (
 !

@@ -1752,11 +1752,13 @@ hidden
 true
 "
 )
+;
 return
 rv
 ;
 }
 }
+;
 var
 DragPositionManager
 =

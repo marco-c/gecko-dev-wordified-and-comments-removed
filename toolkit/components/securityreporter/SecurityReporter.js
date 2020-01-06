@@ -477,6 +477,7 @@ UpdateUtils
 .
 UpdateChannel
 }
+;
 fetch
 (
 endpoint

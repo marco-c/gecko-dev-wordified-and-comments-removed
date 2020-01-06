@@ -362,6 +362,7 @@ comments
 ;
 }
 }
+;
 function
 AutoCompleteSearch
 (
@@ -495,6 +496,7 @@ allResults
 :
 null
 }
+;
 function
 AutoCompleteResult
 (
@@ -711,3 +713,4 @@ comments
 :
 null
 }
+;

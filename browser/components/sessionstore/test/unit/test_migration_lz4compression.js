@@ -350,6 +350,7 @@ index
 }
 ]
 }
+;
 }
 add_task
 (

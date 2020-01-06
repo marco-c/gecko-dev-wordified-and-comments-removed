@@ -436,6 +436,7 @@ resolve
 ;
 }
 }
+;
 this
 .
 waitForZeroTimer
@@ -495,6 +496,7 @@ timer
 )
 ;
 }
+;
 this
 .
 promiseZeroTimer
@@ -520,6 +522,7 @@ resolve
 )
 ;
 }
+;
 this
 .
 promiseNamedTimer
@@ -553,6 +556,7 @@ name
 )
 ;
 }
+;
 this
 .
 makeIdentityConfig
@@ -691,6 +695,7 @@ return
 result
 ;
 }
+;
 this
 .
 makeFxAccountsInternalMock
@@ -948,6 +953,7 @@ user
 email
 ;
 }
+;
 this
 .
 configureIdentity
@@ -1125,6 +1131,7 @@ endpoint
 ;
 }
 }
+;
 this
 .
 SyncTestingInfrastructure
@@ -1207,7 +1214,9 @@ FakeCryptoService
 (
 )
 }
+;
 }
+;
 this
 .
 encryptPayload
@@ -1265,6 +1274,7 @@ makeHMACKey
 }
 ;
 }
+;
 this
 .
 sumHistogram
@@ -1343,6 +1353,7 @@ return
 sum
 ;
 }
+;
 this
 .
 getLoginTelemetryScalar
@@ -1395,3 +1406,4 @@ sync_login_state_transitions
 }
 ;
 }
+;

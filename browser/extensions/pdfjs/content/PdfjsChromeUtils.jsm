@@ -230,6 +230,7 @@ disablePageLabels
 :
 false
 }
+;
 var
 PdfjsChromeUtils
 =

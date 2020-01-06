@@ -75,6 +75,7 @@ pref
 )
 ]
 )
+;
 let
 originalMalwareTable
 =
@@ -119,6 +120,7 @@ pref
 val
 )
 )
+;
 Services
 .
 prefs

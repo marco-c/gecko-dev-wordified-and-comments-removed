@@ -97,6 +97,7 @@ level
 :
 1
 }
+;
 this
 .
 Debugging
@@ -106,6 +107,7 @@ fake
 :
 false
 }
+;
 this
 .
 GetBattery
@@ -286,4 +288,5 @@ fakeSetting
 }
 }
 )
+;
 }

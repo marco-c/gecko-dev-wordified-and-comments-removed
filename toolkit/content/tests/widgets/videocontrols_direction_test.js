@@ -67,6 +67,7 @@ expected
 ]
 ;
 }
+;
 RemoteCanvas
 .
 prototype

@@ -543,6 +543,7 @@ disablePageLabels
 :
 false
 }
+;
 var
 defaultBranch
 =

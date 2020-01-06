@@ -5875,6 +5875,7 @@ field
 ]
 =
 null
+;
 }
 }
 updateIndicatorState

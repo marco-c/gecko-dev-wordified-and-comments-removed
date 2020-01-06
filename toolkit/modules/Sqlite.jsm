@@ -32,6 +32,7 @@ const
 TRANSACTIONS_QUEUE_TIMEOUT_MS
 =
 240000
+;
 Cu
 .
 import
@@ -1419,6 +1420,7 @@ removeBlocker
 key
 promiseComplete
 )
+;
 }
 }
 )
@@ -1738,6 +1740,7 @@ resolve
 )
 ;
 }
+;
 if
 (
 wrappedConnections
@@ -2737,6 +2740,7 @@ error
 (
 ex
 )
+;
 }
 )
 ;

@@ -9247,6 +9247,7 @@ failureHandler
 eventInstall
 what
 )
+;
 }
 )
 ;
@@ -10604,6 +10605,7 @@ gPreviousProviderCounter
 )
 ;
 }
+;
 this
 .
 Experiments
@@ -11223,6 +11225,7 @@ Ci
 nsIBlocklistService
 .
 STATE_NOT_BLOCKED
+;
 }
 get
 creator

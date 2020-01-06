@@ -212,6 +212,7 @@ scalars
 ;
 }
 }
+;
 for
 (
 let

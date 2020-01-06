@@ -623,6 +623,7 @@ history
 "
 value
 }
+;
 }
 )
 ;
@@ -685,6 +686,7 @@ history
 "
 value
 }
+;
 }
 )
 ;

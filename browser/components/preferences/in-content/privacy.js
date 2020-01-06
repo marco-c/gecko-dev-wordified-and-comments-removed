@@ -4570,6 +4570,7 @@ permissionType
 popup
 "
 }
+;
 params
 .
 windowTitle

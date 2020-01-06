@@ -163,6 +163,7 @@ corret
 .
 "
 )
+;
 }
 function
 play_audio
@@ -249,6 +250,7 @@ resolve
 )
 ;
 }
+;
 }
 )
 ;

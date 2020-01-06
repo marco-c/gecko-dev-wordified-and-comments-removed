@@ -1033,6 +1033,7 @@ innerStatus
 topic
 )
 )
+;
 }
 function
 getNotificationButton

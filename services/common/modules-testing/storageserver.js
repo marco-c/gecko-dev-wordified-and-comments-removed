@@ -409,6 +409,7 @@ new_timestamp
 )
 ;
 }
+;
 ServerBSO
 .
 prototype
@@ -1300,6 +1301,7 @@ STORAGE_HTTP_LOGGER
 )
 ;
 }
+;
 StorageServerCollection
 .
 prototype
@@ -4344,6 +4346,7 @@ handler
 )
 ;
 }
+;
 StorageServer
 .
 prototype
@@ -5791,6 +5794,7 @@ collectionName
 timestamp
 ;
 }
+;
 let
 deleteCollections
 =
@@ -8307,3 +8311,4 @@ return
 server
 ;
 }
+;

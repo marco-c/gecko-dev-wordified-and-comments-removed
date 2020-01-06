@@ -399,6 +399,7 @@ browser
 ;
 yield
 undefined
+;
 }
 function
 *

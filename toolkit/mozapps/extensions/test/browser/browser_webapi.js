@@ -71,6 +71,7 @@ task
 )
 ;
 }
+;
 }
 let
 gProvider

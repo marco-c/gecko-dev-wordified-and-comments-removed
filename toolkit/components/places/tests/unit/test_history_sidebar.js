@@ -451,6 +451,7 @@ return
 aContainer
 .
 visible
+;
 }
 )
 ;

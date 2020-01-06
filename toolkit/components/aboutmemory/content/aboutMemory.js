@@ -425,6 +425,7 @@ reportAssertionFailure
 (
 aMsg
 )
+;
 throw
 new
 Error
@@ -781,6 +782,7 @@ className
 "
 section
 "
+;
 if
 (
 aClassName
@@ -2897,6 +2899,7 @@ undefined
 )
 ;
 }
+;
 let
 displayReportsAndFooter
 =
@@ -2921,6 +2924,7 @@ aDisplayReports
 )
 ;
 }
+;
 gMgr
 .
 getReports
@@ -2935,6 +2939,7 @@ checked
 )
 ;
 }
+;
 appendAboutMemoryMain
 (
 processLiveMemoryReports
@@ -3142,6 +3147,7 @@ aDisplayReports
 )
 ;
 }
+;
 appendAboutMemoryMain
 (
 processMemoryReportsFromFile
@@ -5971,6 +5977,7 @@ _nMerged
 kid
 .
 _nMerged
+;
 }
 assert
 (
@@ -6148,6 +6155,7 @@ leaf
 node
 "
 )
+;
 aT
 .
 _amount
@@ -7274,6 +7282,7 @@ n
 )
 ;
 }
+;
 appendElementWithText
 (
 aP
@@ -9226,6 +9235,7 @@ _hideKids
 set
 "
 )
+;
 sep
 =
 kNoKidsSep
@@ -9758,6 +9768,7 @@ HIDE_FOOTER
 )
 ;
 }
+;
 dumper
 .
 dumpMemoryReportsToNamedFile
@@ -9773,6 +9784,7 @@ checked
 )
 ;
 }
+;
 let
 fpCallback
 =

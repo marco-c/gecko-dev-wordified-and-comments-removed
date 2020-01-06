@@ -576,6 +576,7 @@ about
 preferences
 "
 )
+;
 gBrowser
 .
 contentDocument

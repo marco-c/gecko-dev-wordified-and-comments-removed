@@ -42,6 +42,7 @@ newURI
 (
 uriString
 )
+;
 let
 cp
 =

@@ -119,6 +119,7 @@ resolve
 ;
 }
 }
+;
 bookmarksMenuPopup
 .
 addEventListener
@@ -345,6 +346,7 @@ dropmarker
 .
 "
 )
+;
 await
 shownPromise
 ;
@@ -1084,6 +1086,7 @@ checkOverflowing
 (
 kBookmarksItems
 )
+;
 await
 gCustomizeMode
 .

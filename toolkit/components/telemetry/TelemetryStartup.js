@@ -218,6 +218,7 @@ annotateEnvironment
 ;
 }
 }
+;
 function
 annotateEnvironment
 (

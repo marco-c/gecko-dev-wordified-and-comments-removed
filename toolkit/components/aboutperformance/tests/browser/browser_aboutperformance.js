@@ -465,6 +465,7 @@ found
 }
 }
 }
+;
 Services
 .
 obs
@@ -728,6 +729,7 @@ return
 match
 ;
 }
+;
 let
 deltas
 =
@@ -1413,6 +1415,7 @@ mode
 ;
 }
 }
+;
 Services
 .
 obs
@@ -1977,6 +1980,7 @@ resolve
 )
 ;
 }
+;
 window
 .
 gBrowser
@@ -2022,6 +2026,7 @@ resolve
 )
 ;
 }
+;
 for
 (
 let

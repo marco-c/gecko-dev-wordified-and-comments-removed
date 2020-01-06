@@ -126,6 +126,7 @@ should
 exist
 "
 )
+;
 AddonManager
 .
 getAddonByID

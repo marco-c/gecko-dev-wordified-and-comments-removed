@@ -192,6 +192,7 @@ example
 js
 "
 )
+;
 Assert
 .
 deepEqual
@@ -225,6 +226,7 @@ example
 com
 "
 )
+;
 Assert
 .
 deepEqual

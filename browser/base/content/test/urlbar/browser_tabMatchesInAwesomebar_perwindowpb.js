@@ -493,6 +493,7 @@ tabRemoved
 (
 testTab
 )
+;
 }
 controller
 .

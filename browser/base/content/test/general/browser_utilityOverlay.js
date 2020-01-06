@@ -59,6 +59,7 @@ name
 testFun
 (
 )
+;
 }
 else
 {
@@ -108,6 +109,7 @@ key
 )
 ;
 }
+;
 document
 .
 addEventListener

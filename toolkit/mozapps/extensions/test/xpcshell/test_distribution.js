@@ -308,6 +308,7 @@ setOldModificationTime
 shutdownManager
 (
 )
+;
 let
 extension
 =

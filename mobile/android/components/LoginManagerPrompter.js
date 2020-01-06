@@ -582,6 +582,7 @@ actionText
 :
 actionText
 }
+;
 let
 win
 =

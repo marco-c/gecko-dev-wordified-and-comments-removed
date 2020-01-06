@@ -335,8 +335,10 @@ status
 .
 textContent
 }
+;
 }
 )
+;
 is
 (
 results

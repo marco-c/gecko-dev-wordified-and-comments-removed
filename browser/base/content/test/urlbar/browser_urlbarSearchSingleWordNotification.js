@@ -134,6 +134,7 @@ resolve
 ;
 }
 }
+;
 if
 (
 notificationObserver
@@ -1100,6 +1101,7 @@ window
 ;
 }
 }
+;
 }
 add_task
 (

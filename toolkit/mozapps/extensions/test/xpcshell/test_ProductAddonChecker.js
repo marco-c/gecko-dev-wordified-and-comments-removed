@@ -164,6 +164,7 @@ primaryPort
 data
 /
 "
+;
 function
 compareBinaryData
 (
@@ -1215,6 +1216,7 @@ stat
 size
 452
 )
+;
 do_check_true
 (
 compareFiles

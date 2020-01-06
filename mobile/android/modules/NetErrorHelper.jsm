@@ -227,6 +227,7 @@ browser
 )
 ;
 }
+;
 NetErrorHelper
 .
 prototype
@@ -294,6 +295,7 @@ parentNode
 }
 }
 }
+;
 handlers
 .
 searchbutton
@@ -968,3 +970,4 @@ false
 }
 }
 }
+;

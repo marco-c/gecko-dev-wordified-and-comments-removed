@@ -463,6 +463,7 @@ mockTransferCallback
 )
 ;
 }
+;
 function
 onUCTDialog
 (

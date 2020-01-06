@@ -617,6 +617,7 @@ browser
 }
 }
 ]
+;
 function
 assertOnlyOneTypeSet
 (

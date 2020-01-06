@@ -180,6 +180,7 @@ client
 getTokenFromAssertion
 (
 )
+;
 }
 catch
 (
@@ -211,6 +212,7 @@ getTokenFromAssertion
 assertion
 "
 )
+;
 }
 catch
 (

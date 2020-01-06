@@ -550,6 +550,7 @@ coll
 ;
 }
 }
+;
 let
 server
 =
@@ -2851,6 +2852,7 @@ flowID
 flowy
 "
 }
+;
 await
 engine
 .
@@ -8892,6 +8894,7 @@ commandsProcessed
 uris
 .
 length
+;
 }
 ;
 await
@@ -9221,6 +9224,7 @@ commandsProcessed
 uris
 .
 length
+;
 }
 ;
 await
@@ -10647,6 +10651,7 @@ events
 =
 [
 ]
+;
 let
 origRecordTelemetryEvent
 =
@@ -10680,6 +10685,7 @@ extra
 )
 ;
 }
+;
 let
 server
 =
@@ -11306,6 +11312,7 @@ events
 =
 [
 ]
+;
 let
 origRecordTelemetryEvent
 =
@@ -11339,6 +11346,7 @@ extra
 )
 ;
 }
+;
 let
 server
 =
@@ -12070,6 +12078,7 @@ engine
 .
 _knownStaleFxADeviceIds
 )
+;
 Services
 .
 obs

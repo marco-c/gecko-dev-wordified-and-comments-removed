@@ -2313,6 +2313,7 @@ ObsoleteBuiltinButtons
 [
 id
 ]
+;
 if
 (
 version
@@ -3001,6 +3002,7 @@ toolbars
 .
 "
 )
+;
 }
 if
 (
@@ -7011,6 +7013,7 @@ return
 aNode
 .
 id
+;
 }
 if
 (
@@ -13691,6 +13694,7 @@ container
 widgetNode
 .
 parentNode
+;
 this
 .
 notifyListeners

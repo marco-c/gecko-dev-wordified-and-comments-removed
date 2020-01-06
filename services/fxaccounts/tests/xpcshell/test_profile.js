@@ -251,6 +251,7 @@ v1
 "
 fxa
 }
+;
 return
 new
 FxAccountsProfileClient
@@ -429,6 +430,7 @@ http
 v1
 "
 }
+;
 if
 (
 client
@@ -512,6 +514,7 @@ resolve
 )
 ;
 }
+;
 let
 profile
 =
@@ -1687,6 +1690,7 @@ resolve
 )
 ;
 }
+;
 await
 profile
 .
@@ -1845,6 +1849,7 @@ resolve
 )
 ;
 }
+;
 await
 profile
 .

@@ -171,6 +171,7 @@ promiseLibraryClosed
 (
 library
 )
+;
 }
 )
 ;

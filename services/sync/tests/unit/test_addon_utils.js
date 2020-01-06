@@ -841,6 +841,7 @@ requireSecureURI
 :
 false
 }
+;
 AddonUtils
 .
 installAddons

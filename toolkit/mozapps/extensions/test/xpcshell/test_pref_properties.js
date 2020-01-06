@@ -63,6 +63,7 @@ aEvent
 )
 ;
 }
+;
 }
 this
 )
@@ -197,6 +198,7 @@ seenEvents
 ;
 }
 }
+;
 function
 run_test
 (

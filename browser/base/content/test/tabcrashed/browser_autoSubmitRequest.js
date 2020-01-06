@@ -99,6 +99,7 @@ false
 ]
 }
 )
+;
 return
 BrowserTestUtils
 .
@@ -199,6 +200,7 @@ checked
 .
 "
 )
+;
 autoSubmit
 .
 checked
@@ -286,6 +288,7 @@ true
 ]
 }
 )
+;
 return
 BrowserTestUtils
 .

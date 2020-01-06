@@ -962,6 +962,7 @@ finalize
 )
 ;
 }
+;
 newBrowser
 .
 tabContainer

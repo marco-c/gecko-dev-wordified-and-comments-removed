@@ -68,6 +68,7 @@ mAddedWordStack
 ]
 ;
 }
+;
 InlineSpellChecker
 .
 prototype
@@ -749,6 +750,7 @@ val
 )
 ;
 }
+;
 }
 ;
 item
@@ -1286,6 +1288,7 @@ spellcheckChangeEvent
 )
 ;
 }
+;
 }
 ;
 item
@@ -2833,6 +2836,7 @@ this
 _spellInfo
 .
 currentDictionary
+;
 }
 get
 dictionaryList

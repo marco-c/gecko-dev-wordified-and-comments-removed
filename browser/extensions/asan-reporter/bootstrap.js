@@ -469,6 +469,7 @@ reports
 .
 "
 )
+;
 let
 requests
 =
@@ -477,6 +478,7 @@ Promise
 resolve
 (
 )
+;
 results
 .
 forEach
@@ -524,6 +526,7 @@ result
 .
 path
 )
+;
 }
 (
 e
@@ -553,11 +556,14 @@ Reason
 +
 e
 )
+;
 }
 )
 )
+;
 }
 )
+;
 requests
 .
 then
@@ -578,6 +584,7 @@ reports
 "
 )
 )
+;
 }
 (
 e
@@ -666,6 +673,7 @@ reportFile
 submitted
 "
 )
+;
 }
 )
 ;
@@ -774,6 +782,7 @@ unknown
 "
 )
 ]
+;
 let
 product_version
 =
@@ -844,6 +853,7 @@ nightly
 program
 "
 }
+;
 var
 xhr
 =

@@ -36,6 +36,7 @@ processCount
 ;
 }
 )
+;
 add_task
 (
 async
@@ -550,6 +551,7 @@ t
 throw
 "
 )
+;
 await
 promiseTabRestored
 (

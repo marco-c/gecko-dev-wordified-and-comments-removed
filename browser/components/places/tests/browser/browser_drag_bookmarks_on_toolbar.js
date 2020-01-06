@@ -446,6 +446,7 @@ preventDefault
 )
 ;
 }
+;
 var
 xIncrement
 =

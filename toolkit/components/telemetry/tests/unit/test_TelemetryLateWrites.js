@@ -679,6 +679,7 @@ matchingLibrary
 [
 0
 ]
+;
 let
 name
 =
@@ -779,6 +780,7 @@ unevalCanonicalStack
 obj
 ;
 }
+;
 }
 do_check_eq
 (

@@ -31,6 +31,7 @@ ignoredJAREngines
 engine
 "
 )
+;
 Services
 .
 prefs

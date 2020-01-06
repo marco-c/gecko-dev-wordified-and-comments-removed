@@ -81,6 +81,7 @@ dummy_page
 .
 html
 "
+;
 function
 waitForLoad
 (

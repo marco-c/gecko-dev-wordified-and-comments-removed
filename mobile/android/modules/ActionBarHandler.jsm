@@ -1636,6 +1636,7 @@ _getEditor
 element
 win
 )
+;
 if
 (
 editor

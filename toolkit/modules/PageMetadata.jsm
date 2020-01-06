@@ -366,6 +366,7 @@ getAttribute
 content
 "
 )
+;
 if
 (
 !

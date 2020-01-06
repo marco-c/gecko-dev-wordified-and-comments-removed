@@ -253,6 +253,7 @@ event
 }
 }
 }
+;
 var
 tab1
 =
@@ -3392,12 +3393,14 @@ switchTab
 gBrowser
 tab
 )
+;
 }
 expectedWindow
 expectedElement
 focusChanged
 testid
 )
+;
 await
 tabSwitchPromise
 ;

@@ -57,6 +57,7 @@ clicks
 )
 ;
 }
+;
 var
 clickTest
 =
@@ -438,6 +439,7 @@ entered
 cleanupObjectValue
 "
 )
+;
 await
 ContentTask
 .
@@ -550,6 +552,7 @@ exiting
 cleanupObjectValue
 "
 )
+;
 }
 function
 checkObjectValue
@@ -978,6 +981,7 @@ to
 cacheObjectValue
 "
 )
+;
 await
 cacheObjectValue
 (
@@ -997,6 +1001,7 @@ finished
 cacheObjectValue
 "
 )
+;
 swapTabsAndCloseOther
 (
 3

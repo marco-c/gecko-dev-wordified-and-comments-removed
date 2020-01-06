@@ -376,6 +376,7 @@ openNewForegroundTab
 (
 tabbrowser
 )
+;
 }
 else
 {

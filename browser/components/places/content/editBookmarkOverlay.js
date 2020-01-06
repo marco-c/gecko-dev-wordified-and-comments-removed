@@ -1701,6 +1701,7 @@ delete
 (
 tag
 )
+;
 if
 (
 commonTags
@@ -3883,6 +3884,7 @@ expander
 -
 up
 "
+;
 expander
 .
 setAttribute

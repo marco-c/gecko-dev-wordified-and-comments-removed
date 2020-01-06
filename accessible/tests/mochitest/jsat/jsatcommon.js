@@ -1971,6 +1971,7 @@ adjustRange
 true
 }
 }
+;
 }
 moveOrAdjustDown
 :
@@ -2022,6 +2023,7 @@ adjustRange
 true
 }
 }
+;
 }
 androidScrollForward
 :
@@ -2874,6 +2876,7 @@ presenter
 _todo
 "
 ]
+;
 SimpleTest
 [
 todo
@@ -2980,6 +2983,7 @@ count
 }
 return
 received
+;
 }
 ;
 ExpectedPresent

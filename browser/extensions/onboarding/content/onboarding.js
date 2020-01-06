@@ -7417,6 +7417,7 @@ tour
 title
 "
 )
+;
 footer
 .
 innerHTML

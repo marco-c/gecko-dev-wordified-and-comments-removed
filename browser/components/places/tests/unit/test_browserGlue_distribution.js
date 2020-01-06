@@ -311,6 +311,7 @@ Ci
 .
 nsIObserver
 )
+;
 Assert
 .
 equal

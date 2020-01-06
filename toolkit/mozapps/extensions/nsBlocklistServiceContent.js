@@ -79,6 +79,7 @@ child
 process
 .
 "
+;
 function
 Blocklist
 (

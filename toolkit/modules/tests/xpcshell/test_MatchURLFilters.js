@@ -5148,6 +5148,7 @@ filters
 exceptionMessageContains
 }
 )
+;
 }
 else
 if

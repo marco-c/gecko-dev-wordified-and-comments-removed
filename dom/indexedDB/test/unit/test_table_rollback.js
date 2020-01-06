@@ -518,6 +518,7 @@ continueToNextStep
 ;
 }
 }
+;
 cursor
 =
 event

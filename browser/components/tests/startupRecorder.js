@@ -202,6 +202,7 @@ this
 _resolve
 =
 resolve
+;
 }
 )
 ;

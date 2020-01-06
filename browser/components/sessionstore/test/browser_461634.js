@@ -357,6 +357,7 @@ serialized
 data
 "
 )
+;
 is
 (
 closedTabs
@@ -572,6 +573,7 @@ serialized
 data
 "
 )
+;
 is
 (
 closedTabs

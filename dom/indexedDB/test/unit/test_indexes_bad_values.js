@@ -564,6 +564,7 @@ event
 ;
 }
 }
+;
 }
 event
 =
@@ -673,11 +674,13 @@ testGenerator
 next
 (
 )
+;
 }
 )
 ;
 }
 }
+;
 }
 yield
 undefined
@@ -805,6 +808,7 @@ next
 ;
 }
 }
+;
 yield
 undefined
 ;
@@ -883,6 +887,7 @@ next
 ;
 }
 }
+;
 yield
 undefined
 ;

@@ -61,6 +61,7 @@ return
 time
 ;
 }
+;
 }
 function
 run_test

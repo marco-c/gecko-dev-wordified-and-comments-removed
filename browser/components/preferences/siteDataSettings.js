@@ -577,6 +577,7 @@ data
 isCurrentSortCol
 "
 )
+;
 let
 sortDirection
 =
@@ -679,6 +680,7 @@ bHost
 )
 ;
 }
+;
 break
 ;
 case

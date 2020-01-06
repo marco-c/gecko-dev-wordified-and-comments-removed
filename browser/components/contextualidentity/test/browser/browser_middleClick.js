@@ -254,6 +254,7 @@ once
 true
 }
 )
+;
 BrowserTestUtils
 .
 synthesizeMouseAtCenter

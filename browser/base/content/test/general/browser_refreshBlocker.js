@@ -31,6 +31,7 @@ refresh_meta
 .
 sjs
 "
+;
 const
 HEADER_PAGE
 =
@@ -59,6 +60,7 @@ refresh_header
 .
 sjs
 "
+;
 const
 TARGET_PAGE
 =

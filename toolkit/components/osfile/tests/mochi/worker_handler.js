@@ -33,6 +33,7 @@ message
 )
 ;
 }
+;
 worker
 .
 onmessage

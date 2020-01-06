@@ -60,6 +60,7 @@ nbytes
 }
 )
 }
+;
 }
 makeRecord
 .
@@ -554,6 +555,7 @@ nextResponse
 )
 ;
 }
+;
 let
 done
 =
@@ -563,6 +565,7 @@ done
 >
 {
 }
+;
 let
 pq
 =
@@ -604,6 +607,7 @@ max_record_payload_bytes
 :
 1000
 }
+;
 const
 time
 =
@@ -765,6 +769,7 @@ false
 }
 ]
 )
+;
 }
 )
 ;
@@ -787,6 +792,7 @@ max_record_payload_bytes
 :
 50
 }
+;
 const
 time
 =
@@ -1036,6 +1042,7 @@ didCommit
 length
 0
 )
+;
 equal
 (
 pq
@@ -1068,6 +1075,7 @@ max_record_payload_bytes
 :
 50
 }
+;
 const
 time
 =
@@ -1152,6 +1160,7 @@ ok
 !
 enqueued
 )
+;
 ok
 (
 (
@@ -1333,6 +1342,7 @@ max_record_payload_bytes
 :
 1000
 }
+;
 const
 time
 =
@@ -1539,6 +1549,7 @@ max_request_bytes
 :
 4000
 }
+;
 const
 time
 =
@@ -2227,6 +2238,7 @@ max_request_bytes
 :
 500
 }
+;
 const
 time0
 =
@@ -3134,6 +3146,7 @@ max_request_bytes
 :
 10000
 }
+;
 const
 time0
 =

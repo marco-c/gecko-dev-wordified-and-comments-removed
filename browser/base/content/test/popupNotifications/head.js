@@ -1582,6 +1582,7 @@ panel
 )
 ;
 }
+;
 gActiveListeners
 .
 set

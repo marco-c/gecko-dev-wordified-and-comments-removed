@@ -282,6 +282,7 @@ getItemTitle
 itemId
 )
 }
+;
 switch
 (
 queryName

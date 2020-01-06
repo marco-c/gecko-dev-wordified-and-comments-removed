@@ -106,6 +106,7 @@ version
 DATA_FORMAT_VERSION
 accountData
 }
+;
 }
 this
 .
@@ -202,6 +203,7 @@ version
 DATA_FORMAT_VERSION
 accountData
 }
+;
 }
 this
 .
@@ -311,6 +313,7 @@ contents
 ;
 }
 }
+;
 function
 add_storage_task
 (
@@ -458,6 +461,7 @@ logged
 in
 "
 )
+;
 }
 )
 ;
@@ -508,6 +512,7 @@ new
 MockedPlainStorage
 (
 )
+;
 if
 (
 sm
@@ -1085,6 +1090,7 @@ com
 "
 }
 )
+;
 if
 (
 sm
@@ -1193,6 +1199,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -1345,6 +1352,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -1507,6 +1515,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -1700,6 +1709,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -1826,6 +1836,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -1953,6 +1964,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -2082,6 +2094,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -2238,6 +2251,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -2465,6 +2479,7 @@ com
 "
 }
 )
+;
 sm
 .
 secureStorage
@@ -2542,6 +2557,7 @@ blockedPromise
 resolveBlocked
 rejectBlocked
 }
+;
 }
 add_task
 (
@@ -2828,6 +2844,7 @@ resolve
 )
 ;
 }
+;
 let
 resultPromise
 =
@@ -2914,6 +2931,7 @@ resolve
 )
 ;
 }
+;
 let
 writePromise
 =
@@ -3000,6 +3018,7 @@ resolve
 )
 ;
 }
+;
 let
 resultPromise
 =

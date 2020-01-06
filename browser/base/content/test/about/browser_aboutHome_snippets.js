@@ -293,6 +293,7 @@ snippets
 element
 "
 )
+;
 is
 (
 snippetsElt
@@ -626,6 +627,7 @@ snippetsMap
 content
 .
 gSnippetsMap
+;
 let
 snippetsElt
 =

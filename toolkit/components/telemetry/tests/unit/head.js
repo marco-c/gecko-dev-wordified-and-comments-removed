@@ -937,6 +937,7 @@ Ci
 .
 nsIJSON
 )
+;
 if
 (
 request

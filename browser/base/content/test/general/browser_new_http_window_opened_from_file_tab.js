@@ -237,6 +237,7 @@ visible
 .
 "
 )
+;
 ok
 (
 win
@@ -259,6 +260,7 @@ visible
 .
 "
 )
+;
 promiseNewWindow
 =
 BrowserTestUtils
@@ -346,6 +348,7 @@ visible
 .
 "
 )
+;
 ok
 (
 win2
@@ -368,6 +371,7 @@ visible
 .
 "
 )
+;
 }
 )
 ;

@@ -475,6 +475,7 @@ abort
 }
 }
 }
+;
 function
 LoginObserver
 (
@@ -1018,6 +1019,7 @@ set
 .
 "
 )
+;
 }
 this
 .

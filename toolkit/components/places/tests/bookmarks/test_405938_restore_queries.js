@@ -869,6 +869,7 @@ i
 )
 )
 )
+;
 }
 this
 .
@@ -1152,6 +1153,7 @@ i
 )
 )
 )
+;
 do_check_eq
 (
 child
@@ -1163,6 +1165,7 @@ bookmark
 +
 i
 )
+;
 }
 aNode
 .
@@ -1276,6 +1279,7 @@ i
 )
 )
 )
+;
 do_check_eq
 (
 child
@@ -1287,6 +1291,7 @@ bookmark
 +
 i
 )
+;
 }
 aNode
 .
@@ -1398,6 +1403,7 @@ false
 ;
 }
 }
+;
 tests
 .
 push

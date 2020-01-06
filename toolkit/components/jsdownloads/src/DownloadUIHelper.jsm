@@ -331,6 +331,7 @@ aParent
 )
 ;
 }
+;
 this
 .
 DownloadPrompter

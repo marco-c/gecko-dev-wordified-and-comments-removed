@@ -5039,6 +5039,7 @@ interrupt
 ;
 }
 }
+;
 TelemetryStopwatch
 .
 start
@@ -6072,6 +6073,7 @@ find
 matchStrict
 this
 )
+;
 if
 (
 site
@@ -8138,6 +8140,7 @@ FRECENCY_DEFAULT
 1
 icon
 }
+;
 this
 .
 _addMatch
@@ -11135,6 +11138,7 @@ null
 }
 }
 }
+;
 function
 UnifiedComplete
 (

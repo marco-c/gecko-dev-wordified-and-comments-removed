@@ -191,6 +191,7 @@ others
 )
 ;
 }
+;
 db
 .
 createObjectStore
@@ -419,6 +420,7 @@ close
 )
 ;
 }
+;
 try
 {
 db

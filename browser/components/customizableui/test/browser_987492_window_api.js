@@ -79,6 +79,7 @@ window
 ;
 }
 }
+;
 CustomizableUI
 .
 addListener
@@ -234,6 +235,7 @@ window
 ;
 }
 }
+;
 CustomizableUI
 .
 addListener
@@ -259,6 +261,7 @@ onWindowClosed
 event
 "
 )
+;
 is
 (
 newWindow

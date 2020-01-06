@@ -280,6 +280,7 @@ request
 ]
 ;
 }
+;
 RESTRequest
 .
 prototype
@@ -2701,6 +2702,7 @@ response
 ]
 ;
 }
+;
 RESTResponse
 .
 prototype
@@ -3070,6 +3072,7 @@ extra
 }
 ;
 }
+;
 TokenAuthenticatedRESTRequest
 .
 prototype

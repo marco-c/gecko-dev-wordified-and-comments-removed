@@ -1596,6 +1596,7 @@ nsITimer
 )
 ;
 }
+;
 Store
 .
 prototype
@@ -2017,6 +2018,7 @@ Debug
 ]
 ;
 }
+;
 EngineManager
 .
 prototype
@@ -2908,6 +2910,7 @@ constructed
 )
 ;
 }
+;
 Engine
 .
 prototype
@@ -3346,6 +3349,7 @@ Map
 )
 ;
 }
+;
 SyncEngine
 .
 kRecoveryStrategy
@@ -8187,6 +8191,7 @@ retry
 .
 "
 )
+;
 }
 }
 finally

@@ -142,6 +142,7 @@ syncedEngines
 =
 [
 ]
+;
 function
 SteamEngine
 (
@@ -742,6 +743,7 @@ steam
 "
 ]
 )
+;
 }
 finally
 {
@@ -845,6 +847,7 @@ stirling
 "
 ]
 )
+;
 }
 finally
 {
@@ -948,6 +951,7 @@ steam
 "
 ]
 )
+;
 }
 finally
 {
@@ -1026,6 +1030,7 @@ stirling
 "
 ]
 )
+;
 }
 finally
 {

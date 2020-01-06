@@ -210,6 +210,7 @@ level1
 containerOpen
 =
 true
+;
 let
 level2
 =
@@ -248,6 +249,7 @@ level2
 containerOpen
 =
 true
+;
 let
 bookmark
 =

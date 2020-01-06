@@ -1384,6 +1384,7 @@ this
 )
 ;
 }
+;
 this
 .
 DownloadHistoryList

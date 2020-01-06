@@ -93,6 +93,7 @@ clients
 ;
 }
 }
+;
 let
 MockClientsEngine
 =
@@ -138,6 +139,7 @@ mobile
 ;
 }
 }
+;
 Weave
 .
 Service
@@ -289,6 +291,7 @@ extra
 .
 icon
 }
+;
 }
 add_task
 (

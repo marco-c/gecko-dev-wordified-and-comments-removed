@@ -1236,6 +1236,7 @@ aArgs
 )
 ;
 }
+;
 }
 function
 promiseOrCallback
@@ -1998,6 +1999,7 @@ name
 ;
 }
 }
+;
 function
 AddonScreenshot
 (
@@ -2118,6 +2120,7 @@ url
 ;
 }
 }
+;
 function
 AddonCompatibilityOverride
 (
@@ -11812,6 +11815,7 @@ enumerable
 :
 true
 }
+;
 }
 preventExtensions
 (
@@ -12971,6 +12975,7 @@ cancelled
 ;
 }
 }
+;
 }
 )
 ;
@@ -13527,6 +13532,7 @@ install
 notify
 "
 )
+;
 }
 else
 {

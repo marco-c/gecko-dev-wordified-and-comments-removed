@@ -480,6 +480,7 @@ name
 =
 =
 aPrefName
+;
 }
 )
 ;
@@ -956,6 +957,7 @@ true
 ;
 }
 }
+;
 var
 AboutConfig
 =
@@ -2389,6 +2391,7 @@ name
 pref
 .
 name
+;
 }
 )
 ;
@@ -2464,6 +2467,7 @@ value
 }
 }
 }
+;
 function
 Pref
 (
@@ -3507,3 +3511,4 @@ true
 }
 }
 }
+;

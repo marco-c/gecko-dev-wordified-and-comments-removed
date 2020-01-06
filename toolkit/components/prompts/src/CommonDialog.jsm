@@ -121,6 +121,7 @@ ui
 ui
 ;
 }
+;
 CommonDialog
 .
 prototype

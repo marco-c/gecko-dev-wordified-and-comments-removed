@@ -51,6 +51,7 @@ finishTest
 )
 ;
 }
+;
 }
 var
 testGenerator
@@ -213,7 +214,9 @@ continueToNextStepSync
 )
 ;
 }
+;
 }
+;
 }
 function
 *
@@ -447,6 +450,7 @@ test
 simple
 insert
 "
+;
 store1
 .
 add
@@ -2862,6 +2866,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+;
 is
 (
 event
@@ -3003,6 +3008,7 @@ test
 delete
 items
 "
+;
 trans
 =
 db

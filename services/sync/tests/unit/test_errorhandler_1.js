@@ -3805,6 +3805,7 @@ code
 503
 }
 )
+;
 await
 promiseObserved
 ;
@@ -4007,6 +4008,7 @@ clear
 error
 "
 )
+;
 setLastSync
 (
 NON_PROLONGED_ERROR_DURATION

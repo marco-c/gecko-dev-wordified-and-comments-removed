@@ -289,6 +289,7 @@ root
 ;
 }
 }
+;
 fileReader
 .
 addEventListener
@@ -3398,4 +3399,5 @@ name
 }
 }
 }
+;
 }

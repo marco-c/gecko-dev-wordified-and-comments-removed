@@ -147,6 +147,7 @@ site
 link
 .
 type
+;
 }
 )
 ;

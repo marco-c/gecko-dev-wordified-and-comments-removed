@@ -140,7 +140,9 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
+;
 }
+;
 mm
 .
 sendAsyncMessage
@@ -282,6 +284,7 @@ have
 failed
 "
 )
+;
 }
 }
 )

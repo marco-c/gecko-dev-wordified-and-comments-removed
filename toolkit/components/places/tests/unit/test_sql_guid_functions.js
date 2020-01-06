@@ -43,6 +43,7 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 -
 _
 "
+;
 do_check_eq
 (
 kAllowedChars

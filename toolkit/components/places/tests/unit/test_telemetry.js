@@ -182,6 +182,7 @@ val
 0
 )
 }
+;
 function
 promiseForceExpirationStep
 (

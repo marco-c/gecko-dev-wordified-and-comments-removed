@@ -1441,6 +1441,7 @@ advisoryLinkText
 ;
 }
 }
+;
 var
 AboutNetAndCertErrorListener
 =
@@ -2503,6 +2504,7 @@ docShell
 }
 }
 }
+;
 AboutNetAndCertErrorListener
 .
 init
@@ -2974,6 +2976,7 @@ linkHasNoReferrer
 (
 node
 )
+;
 json
 .
 allowMixedContent
@@ -4043,6 +4046,7 @@ break
 }
 }
 }
+;
 PageMetadataMessenger
 .
 init

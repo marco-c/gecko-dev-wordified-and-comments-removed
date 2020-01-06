@@ -784,6 +784,7 @@ XUL_CACHE_PREF
 )
 ;
 }
+;
 }
 function
 registerManifestTemporarily
@@ -868,6 +869,7 @@ XUL_CACHE_PREF
 )
 ;
 }
+;
 }
 function
 registerManifestPermanently

@@ -364,6 +364,7 @@ getAttribute
 cachedurl
 "
 )
+;
 if
 (
 cachedurl
@@ -424,6 +425,7 @@ nsIWebNavigation
 .
 STOP_ALL
 )
+;
 }
 function
 PanelBrowserReload

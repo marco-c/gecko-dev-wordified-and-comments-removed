@@ -610,6 +610,7 @@ lastModified
 PAST_DATE
 }
 )
+;
 do_check_eq
 (
 childNode

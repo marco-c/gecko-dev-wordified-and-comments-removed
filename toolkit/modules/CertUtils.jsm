@@ -198,6 +198,7 @@ return
 certs
 ;
 }
+;
 this
 .
 validateCert
@@ -483,6 +484,7 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 }
+;
 this
 .
 checkCert
@@ -656,6 +658,7 @@ NS_ERROR_ABORT
 )
 ;
 }
+;
 this
 .
 BadCertHandler
@@ -673,6 +676,7 @@ allowNonBuiltInCerts
 aAllowNonBuiltInCerts
 ;
 }
+;
 BadCertHandler
 .
 prototype

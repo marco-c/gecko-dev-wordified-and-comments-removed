@@ -12,6 +12,7 @@ EXPORTED_SYMBOLS
 CoverageCollector
 "
 ]
+;
 const
 Cc
 =
@@ -167,6 +168,7 @@ _testIndex
 0
 ;
 }
+;
 CoverageCollector
 .
 prototype
@@ -488,6 +490,7 @@ return
 coveredLines
 ;
 }
+;
 CoverageCollector
 .
 prototype
@@ -644,6 +647,7 @@ return
 uncoveredLines
 ;
 }
+;
 CoverageCollector
 .
 prototype
@@ -772,6 +776,7 @@ return
 methodNames
 ;
 }
+;
 Object
 .
 prototype
@@ -1135,6 +1140,7 @@ tmp
 )
 ;
 }
+;
 CoverageCollector
 .
 prototype
@@ -1162,3 +1168,4 @@ enabled
 false
 ;
 }
+;

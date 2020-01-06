@@ -24,6 +24,7 @@ msg
 )
 ;
 }
+;
 let
 assertNumberOfVisibleTabs
 =
@@ -45,6 +46,7 @@ msg
 )
 ;
 }
+;
 waitForExplicitFinish
 (
 )
