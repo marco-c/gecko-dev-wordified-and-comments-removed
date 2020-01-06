@@ -56,8 +56,6 @@ MPL
 linux64
 -
 clang
-/
-opt
 :
 description
 :
@@ -184,8 +182,6 @@ linux64
 clang
 -
 tidy
-/
-opt
 :
 description
 :
@@ -342,8 +338,6 @@ sh
 linux64
 -
 gcc
-/
-opt
 :
 description
 :
@@ -451,8 +445,6 @@ gcc
 linux64
 -
 binutils
-/
-opt
 :
 description
 :
@@ -562,8 +554,6 @@ linux64
 cctools
 -
 port
-/
-opt
 :
 description
 :
@@ -679,8 +669,6 @@ sh
 linux64
 -
 hfsplus
-/
-opt
 :
 description
 :
@@ -808,8 +796,6 @@ sh
 linux64
 -
 libdmg
-/
-opt
 :
 description
 :

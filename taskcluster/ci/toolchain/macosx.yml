@@ -56,8 +56,6 @@ MPL
 macosx64
 -
 clang
-/
-opt
 :
 description
 :
@@ -184,8 +182,6 @@ macosx64
 clang
 -
 tidy
-/
-opt
 :
 description
 :
@@ -344,8 +340,6 @@ macosx64
 cctools
 -
 port
-/
-opt
 :
 description
 :

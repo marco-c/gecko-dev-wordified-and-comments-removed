@@ -58,8 +58,6 @@ win32
 clang
 -
 cl
-/
-opt
 :
 description
 :
@@ -176,8 +174,6 @@ win64
 clang
 -
 cl
-/
-opt
 :
 description
 :
@@ -294,8 +290,6 @@ win32
 clang
 -
 tidy
-/
-opt
 :
 description
 :
@@ -430,8 +424,6 @@ win64
 clang
 -
 tidy
-/
-opt
 :
 description
 :
