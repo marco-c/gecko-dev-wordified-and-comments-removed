@@ -127,6 +127,7 @@ ScrollSource
 DOM
 Touch
 Wheel
+Keyboard
 }
 ;
 typedef

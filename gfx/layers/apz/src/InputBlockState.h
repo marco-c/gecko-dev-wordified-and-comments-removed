@@ -1142,6 +1142,16 @@ return
 false
 ;
 }
+bool
+AllowScrollHandoff
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 }
