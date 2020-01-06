@@ -176,6 +176,20 @@ internal
     
 )
     
+Required
+(
+'
+tc
+-
+vcs
+'
+default
+=
+True
+)
+:
+bool
+    
 Optional
 (
 '
@@ -653,6 +667,17 @@ job
 taskdesc
 )
     
+if
+run
+[
+'
+tc
+-
+vcs
+'
+]
+:
+        
 docker_worker_add_tc_vcs_cache
 (
 config
