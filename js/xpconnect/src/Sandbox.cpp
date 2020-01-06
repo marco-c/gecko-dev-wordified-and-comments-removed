@@ -5711,6 +5711,15 @@ waiveInterposition
 priv
 -
 >
+isContentXBLCompartment
+=
+options
+.
+isContentXBLScope
+;
+priv
+-
+>
 wantXrays
 =
 AccessCheck
