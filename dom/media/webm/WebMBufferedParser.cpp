@@ -2355,6 +2355,12 @@ GetTimecodeScale
 }
 }
 }
+MediaResourceIndex
+res
+(
+aResource
+)
+;
 while
 (
 length
@@ -2387,10 +2393,9 @@ MediaByteBuffer
 >
 bytes
 =
-aResource
--
->
-CachedReadAt
+res
+.
+CachedMediaReadAt
 (
 offset
 block
