@@ -321,6 +321,8 @@ uint16_t
 port
 uint16_t
 streams
+uint32_t
+message_size
 )
 override
 ;

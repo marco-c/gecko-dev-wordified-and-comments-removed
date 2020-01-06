@@ -369,6 +369,8 @@ uint16_t
 port
 uint16_t
 streams
+uint32_t
+message_size
 )
 =
 0
@@ -643,8 +645,14 @@ GetSctpmap
 )
 const
 ;
-int
+uint32_t
 GetSctpPort
+(
+)
+const
+;
+uint32_t
+GetMaxMessageSize
 (
 )
 const
