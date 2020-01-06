@@ -672,6 +672,11 @@ nsWindowMemoryReporter
 h
 '
 '
+nsWindowSizes
+.
+h
+'
+'
 nsWrapperCache
 .
 h

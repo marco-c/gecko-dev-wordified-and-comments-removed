@@ -162,7 +162,7 @@ h
 #
 include
 "
-nsWindowMemoryReporter
+nsWindowSizes
 .
 h
 "
