@@ -28193,6 +28193,13 @@ ITfDocumentMgr
 >
 prevFocusedDocumentMgr
 ;
+bool
+hasFocus
+=
+ThinksHavingFocus
+(
+)
+;
 RefPtr
 <
 TSFTextStore
@@ -28207,9 +28214,7 @@ forget
 ;
 if
 (
-ThinksHavingFocus
-(
-)
+hasFocus
 )
 {
 RefPtr
