@@ -168,6 +168,10 @@ mMouseTransparent
 (
 false
 )
+mHasRemoteContent
+(
+false
+)
 {
 }
 nsWindowType
@@ -213,6 +217,9 @@ mSupportTranslucency
 ;
 bool
 mMouseTransparent
+;
+bool
+mHasRemoteContent
 ;
 }
 ;

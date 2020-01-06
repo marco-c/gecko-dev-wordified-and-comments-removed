@@ -881,6 +881,10 @@ mPopupType
 (
 ePopupTypeAny
 )
+mHasRemoteContent
+(
+false
+)
 mCompositorWidgetDelegate
 (
 nullptr
@@ -1555,6 +1559,13 @@ aInitData
 -
 >
 mPopupHint
+;
+mHasRemoteContent
+=
+aInitData
+-
+>
+mHasRemoteContent
 ;
 }
 if

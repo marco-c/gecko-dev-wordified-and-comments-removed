@@ -2548,6 +2548,16 @@ return
 mPopupType
 ;
 }
+bool
+HasRemoteContent
+(
+)
+const
+{
+return
+mHasRemoteContent
+;
+}
 void
 NotifyRollupGeometryChange
 (
@@ -2919,6 +2929,9 @@ mPopupType
 ;
 SizeConstraints
 mSizeConstraints
+;
+bool
+mHasRemoteContent
 ;
 CompositorWidgetDelegate
 *

@@ -567,6 +567,12 @@ aDestructRoot
 override
 ;
 bool
+HasRemoteContent
+(
+)
+const
+;
+bool
 IsNoAutoHide
 (
 )
@@ -590,6 +596,10 @@ IsNoAutoHide
 void
 EnsureWidget
 (
+bool
+aRecreate
+=
+false
 )
 ;
 nsresult
