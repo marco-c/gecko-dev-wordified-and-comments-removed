@@ -1,10 +1,3 @@
-pub
-use
-std
-:
-:
-*
-;
 extern
 crate
 heapsize
