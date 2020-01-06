@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-Monitor
+MozPromise
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-MozPromise
+Mutex
 .
 h
 "
@@ -424,8 +424,8 @@ PRFileDesc
 aFD
 )
 ;
-Monitor
-mFileMonitor
+Mutex
+mFileMutex
 ;
 nsresult
 MoveBlockInFile
@@ -476,8 +476,8 @@ mFD
 int64_t
 mFDCurrentPos
 ;
-Monitor
-mDataMonitor
+Mutex
+mDataMutex
 ;
 void
 EnsureWriteScheduled
