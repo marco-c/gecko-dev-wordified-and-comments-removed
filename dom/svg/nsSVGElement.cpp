@@ -1363,6 +1363,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aSubjectPrincipal
 bool
 aNotify
 )
@@ -1502,6 +1505,7 @@ aNamespaceID
 aName
 aValue
 aOldValue
+aSubjectPrincipal
 aNotify
 )
 ;
@@ -6660,6 +6664,7 @@ nullptr
 &
 aEmptyOrOldValue
 aNewValue
+nullptr
 modType
 hasListeners
 kNotifyDocumentObservers

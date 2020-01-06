@@ -305,6 +305,7 @@ content
 *
 /
 [
+NeedsSubjectPrincipal
 Throws
 ]
 void

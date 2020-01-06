@@ -431,6 +431,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 bool
 aNotify
 )
@@ -792,6 +795,7 @@ aNameSpaceID
 aName
 aValue
 aOldValue
+aMaybeScriptedPrincipal
 aNotify
 )
 ;

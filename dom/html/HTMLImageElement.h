@@ -1355,6 +1355,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 bool
 aNotify
 )
@@ -1456,6 +1459,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 bool
 aValueMaybeChanged
 bool

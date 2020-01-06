@@ -884,6 +884,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 bool
 aNotify
 )

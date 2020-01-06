@@ -255,6 +255,9 @@ const
 nsAttrValue
 *
 aOldValue
+nsIPrincipal
+*
+aSubjectPrincipal
 bool
 aNotify
 )
@@ -379,6 +382,7 @@ aNameSpaceID
 aName
 aValue
 aOldValue
+aSubjectPrincipal
 aNotify
 )
 ;

@@ -763,6 +763,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aTriggeringPrincipal
 ErrorResult
 &
 aRv
@@ -823,6 +826,7 @@ GetPrefixAtom
 (
 )
 aValue
+aTriggeringPrincipal
 true
 )
 ;
@@ -845,6 +849,7 @@ rv
 SetValue
 (
 aValue
+nullptr
 rv
 )
 ;

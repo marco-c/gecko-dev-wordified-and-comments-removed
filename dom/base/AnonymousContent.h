@@ -166,6 +166,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

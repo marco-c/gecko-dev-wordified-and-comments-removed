@@ -157,6 +157,7 @@ localName
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

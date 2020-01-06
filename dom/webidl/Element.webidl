@@ -317,6 +317,7 @@ localName
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 Throws
 ]
 void
@@ -330,6 +331,7 @@ value
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 Throws
 ]
 void
