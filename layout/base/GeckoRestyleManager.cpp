@@ -7372,7 +7372,7 @@ eRestyle_ForceDescendants
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 oldContext
 =
@@ -7380,6 +7380,11 @@ mFrame
 -
 >
 StyleContext
+(
+)
+-
+>
+AsGecko
 (
 )
 ;
