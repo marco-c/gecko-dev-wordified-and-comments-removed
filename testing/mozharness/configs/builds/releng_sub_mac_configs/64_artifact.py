@@ -54,16 +54,6 @@ exes
 :
 {
         
-'
-python2
-.
-7
-'
-:
-sys
-.
-executable
-        
 "
 buildbot
 "

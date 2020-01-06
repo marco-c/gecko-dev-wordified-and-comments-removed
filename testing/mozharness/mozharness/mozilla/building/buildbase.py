@@ -5498,24 +5498,13 @@ app_ini_path
 )
 :
             
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-            
 cmd
 =
 [
                 
-python
+sys
+.
+executable
 os
 .
 path
@@ -8248,24 +8237,13 @@ tooltool_manifest_src
 ]
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 cmd
 =
 [
             
-python
+sys
+.
+executable
 '
 -
 u
@@ -9634,24 +9612,13 @@ abs_app_ini_path
 ]
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 base_cmd
 =
 [
             
-python
+sys
+.
+executable
 os
 .
 path
@@ -12069,16 +12036,9 @@ else
 mach
 =
 [
-self
+sys
 .
-query_exe
-(
-'
-python2
-.
-7
-'
-)
+executable
 '
 mach
 '
@@ -12399,14 +12359,9 @@ cmd
 =
 [
             
-self
+sys
 .
-query_exe
-(
-'
-python
-'
-)
+executable
             
 multil10n_path
             
@@ -12896,23 +12851,12 @@ query_mach_build_env
 )
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 command
 =
 [
-python
+sys
+.
+executable
 '
 mach
 '
@@ -13033,19 +12977,6 @@ query_mach_build_env
 )
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 dirs
 =
 self
@@ -13062,7 +12993,9 @@ run_command_m
 command
 =
 [
-python
+sys
+.
+executable
 '
 mach
 '
@@ -13474,24 +13407,13 @@ query_check_test_env
 )
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 cmd
 =
 [
             
-python
+sys
+.
+executable
 '
 mach
 '
@@ -15976,19 +15898,6 @@ query_mach_build_env
 )
 )
         
-python
-=
-self
-.
-query_exe
-(
-'
-python2
-.
-7
-'
-)
-        
 return_code
 =
 self
@@ -15999,7 +15908,9 @@ run_command_m
 command
 =
 [
-python
+sys
+.
+executable
 '
 mach
 '
