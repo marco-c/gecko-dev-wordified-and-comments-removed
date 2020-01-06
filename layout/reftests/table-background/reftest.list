@@ -99,7 +99,12 @@ if
 styloVsGecko
 &
 &
+(
 winWidget
+|
+|
+cocoaWidget
+)
 32
 88
 )
