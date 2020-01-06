@@ -2691,9 +2691,8 @@ getContentResolver
 ;
 deviceListUpdater
 .
-updateAndMaybeRenewRegistration
+update
 (
-context
 )
 ;
 }
