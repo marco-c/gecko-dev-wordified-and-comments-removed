@@ -6584,15 +6584,6 @@ return
 false
 ;
 }
-if
-(
-mPushedLayers
-.
-empty
-(
-)
-)
-{
 SetFontSmoothingBackgroundColor
 (
 cgContext
@@ -6600,7 +6591,6 @@ mColorSpace
 aRenderingOptions
 )
 ;
-}
 SetFontColor
 (
 cgContext
