@@ -1618,12 +1618,6 @@ button
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ua
