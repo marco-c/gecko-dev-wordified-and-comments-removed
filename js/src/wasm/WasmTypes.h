@@ -6409,9 +6409,6 @@ Val
 ;
 #
 ifdef
-JS_CODEGEN_X64
-#
-define
 WASM_HUGE_MEMORY
 static
 const
