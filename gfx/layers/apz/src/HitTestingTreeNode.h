@@ -248,6 +248,10 @@ FrameMetrics
 ViewID
 aScrollViewId
 const
+uint64_t
+&
+aScrollbarAnimationId
+const
 ScrollThumbData
 &
 aThumbData
@@ -290,6 +294,14 @@ const
 ScrollThumbData
 &
 GetScrollThumbData
+(
+)
+const
+;
+const
+uint64_t
+&
+GetScrollbarAnimationId
 (
 )
 const
@@ -412,6 +424,9 @@ FrameMetrics
 :
 ViewID
 mScrollViewId
+;
+uint64_t
+mScrollbarAnimationId
 ;
 ScrollThumbData
 mScrollThumbData

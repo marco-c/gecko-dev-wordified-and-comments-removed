@@ -2739,6 +2739,11 @@ GetScrollbarTargetContainerId
 )
 aLayer
 .
+GetScrollbarAnimationId
+(
+)
+aLayer
+.
 GetScrollThumbData
 (
 )
@@ -3606,6 +3611,11 @@ SetScrollbarData
 aLayer
 .
 GetScrollbarTargetContainerId
+(
+)
+aLayer
+.
+GetScrollbarAnimationId
 (
 )
 aLayer
