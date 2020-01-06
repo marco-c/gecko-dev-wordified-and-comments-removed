@@ -377,6 +377,13 @@ string
 /
 pref_compact_tabs_summary
 "
+android
+:
+defaultValue
+=
+"
+true
+"
 /
 >
 <
