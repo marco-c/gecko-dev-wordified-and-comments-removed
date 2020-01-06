@@ -2046,6 +2046,13 @@ ServoElementSnapshotTable
 *
 snapshots
 )
+SERVO_BINDING_FUNC
+(
+Servo_HasPendingRestyleAncestor
+bool
+RawGeckoElementBorrowed
+element
+)
 #
 define
 SERVO_ARC_TYPE
