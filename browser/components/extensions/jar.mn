@@ -227,6 +227,15 @@ browser
 /
 ext
 -
+find
+.
+js
+content
+/
+browser
+/
+ext
+-
 geckoProfiler
 .
 js
