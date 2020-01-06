@@ -2404,10 +2404,7 @@ mClipIdStack
 .
 push_back
 (
-WrClipId
-{
 clip_id
-}
 )
 ;
 }
@@ -2437,8 +2434,6 @@ mClipIdStack
 back
 (
 )
-.
-id
 )
 ;
 mClipIdStack
@@ -2618,7 +2613,7 @@ ViewID
 &
 aScrollId
 const
-WrClipId
+uint64_t
 *
 aClipId
 )
@@ -2645,10 +2640,8 @@ aClipId
 ?
 Stringify
 (
+*
 aClipId
--
->
-id
 )
 .
 c_str
@@ -2665,16 +2658,6 @@ wr_dp_push_clip_and_scroll_info
 mWrState
 aScrollId
 aClipId
-?
-&
-(
-aClipId
--
->
-id
-)
-:
-nullptr
 )
 ;
 }
@@ -3726,7 +3709,7 @@ aMask
 }
 Maybe
 <
-WrClipId
+uint64_t
 >
 DisplayListBuilder
 :

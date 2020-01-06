@@ -2881,14 +2881,6 @@ argument
 }
 ;
 }
-struct
-WrClipId
-{
-uint64_t
-id
-;
-}
-;
 }
 }
 #
