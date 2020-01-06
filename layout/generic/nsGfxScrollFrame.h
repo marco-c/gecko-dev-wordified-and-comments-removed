@@ -1496,6 +1496,11 @@ nsRect
 aDirtyRect
 bool
 aSetBase
+bool
+*
+aDirtyRectHasBeenOverriden
+=
+nullptr
 )
 ;
 void
