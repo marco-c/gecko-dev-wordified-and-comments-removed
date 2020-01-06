@@ -142,7 +142,6 @@ JSObject
 >
 aRetVal
 )
-const
 ;
 already_AddRefed
 <
@@ -174,6 +173,16 @@ private
 :
 CryptoBuffer
 mRawId
+;
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+mRawIdCachedObj
 ;
 RefPtr
 <

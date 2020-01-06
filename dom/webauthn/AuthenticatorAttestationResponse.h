@@ -94,6 +94,11 @@ AuthenticatorResponse
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
+(
+AuthenticatorAttestationResponse
+AuthenticatorResponse
+)
 explicit
 AuthenticatorAttestationResponse
 (
@@ -148,7 +153,6 @@ JSObject
 >
 aRetVal
 )
-const
 ;
 nsresult
 SetAttestationObject
@@ -162,6 +166,16 @@ private
 :
 CryptoBuffer
 mAttestationObject
+;
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+mAttestationObjectCachedObj
 ;
 }
 ;
