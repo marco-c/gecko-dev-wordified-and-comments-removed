@@ -246,10 +246,6 @@ MOZ_LEANPLUM_SDK_CLIENTID
 '
                 
 '
-MOZ_ANDROID_POCKET
-'
-                
-'
 MOZ_ANDROID_SEARCH_ACTIVITY
 '
                 
@@ -604,29 +600,6 @@ CONFIG
 [
 '
 MOZ_LEANPLUM_SDK_CLIENTID
-'
-]
-    
-if
-CONFIG
-[
-'
-MOZ_ANDROID_POCKET
-'
-]
-:
-        
-DEFINES
-[
-'
-MOZ_POCKET_API_KEY
-'
-]
-=
-CONFIG
-[
-'
-MOZ_POCKET_API_KEY
 '
 ]
     

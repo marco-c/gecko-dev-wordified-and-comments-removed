@@ -212,16 +212,6 @@ leanplum
 sdk
 -
 keyfile
-ac_add_options
--
--
-without
--
-pocket
--
-api
--
-keyfile
 #
 Similarly
 explicitly

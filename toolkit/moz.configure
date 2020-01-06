@@ -5008,13 +5008,6 @@ Leanplum
 SDK
 '
 )
-simple_keyfile
-(
-'
-Pocket
-API
-'
-)
 #
 Servo
 integration
