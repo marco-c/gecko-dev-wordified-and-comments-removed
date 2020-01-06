@@ -936,6 +936,9 @@ DestroyAbsoluteFrames
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 if
@@ -954,6 +957,7 @@ DestroyFrames
 (
 this
 aDestructRoot
+aPostDestroyData
 )
 ;
 MarkAsNotAbsoluteContainingBlock
@@ -971,6 +975,9 @@ SafelyDestroyFrameListProp
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 nsIPresShell
 *
 aPresShell
@@ -1015,6 +1022,7 @@ frame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }
@@ -1047,6 +1055,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 if
@@ -1070,6 +1081,7 @@ nullptr
 DestroyAbsoluteFrames
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 mFrames
@@ -1077,6 +1089,7 @@ mFrames
 DestroyFramesFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 if
@@ -1366,6 +1379,7 @@ hasO
 SafelyDestroyFrameListProp
 (
 aDestructRoot
+aPostDestroyData
 shell
 OverflowProperty
 (
@@ -1410,6 +1424,7 @@ hasOC
 SafelyDestroyFrameListProp
 (
 aDestructRoot
+aPostDestroyData
 shell
 OverflowContainersProperty
 (
@@ -1425,6 +1440,7 @@ hasEOC
 SafelyDestroyFrameListProp
 (
 aDestructRoot
+aPostDestroyData
 shell
 ExcessOverflowContainersProperty
 (
@@ -1471,6 +1487,7 @@ hasBackdrop
 SafelyDestroyFrameListProp
 (
 aDestructRoot
+aPostDestroyData
 shell
 BackdropProperty
 (
@@ -1485,6 +1502,7 @@ nsSplittableFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

@@ -187,9 +187,14 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mInputAreaContent
 .
@@ -204,6 +209,7 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

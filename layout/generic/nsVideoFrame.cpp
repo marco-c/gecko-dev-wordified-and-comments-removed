@@ -792,9 +792,14 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mCaptionDiv
 .
@@ -803,7 +808,9 @@ forget
 )
 )
 ;
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mVideoControls
 .
@@ -812,7 +819,9 @@ forget
 )
 )
 ;
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mPosterImage
 .
@@ -827,6 +836,7 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }
