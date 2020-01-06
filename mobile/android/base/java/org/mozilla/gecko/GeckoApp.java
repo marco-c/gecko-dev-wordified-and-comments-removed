@@ -764,13 +764,6 @@ android
 .
 widget
 .
-AbsoluteLayout
-;
-import
-android
-.
-widget
-.
 AdapterView
 ;
 import
