@@ -120,6 +120,15 @@ status
 =
 200
     
+assert
+"
+value
+"
+in
+response
+.
+body
+    
 from_js
 =
 session
