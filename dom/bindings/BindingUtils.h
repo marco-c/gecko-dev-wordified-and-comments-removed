@@ -1290,6 +1290,8 @@ unwrappedObj
 T
 *
 tempValue
+=
+nullptr
 ;
 nsresult
 rv
