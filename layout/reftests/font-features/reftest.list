@@ -1976,6 +1976,12 @@ to
 load
 on
 Win7
+fails
+-
+if
+(
+webrender
+)
 random
 -
 if
