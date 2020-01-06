@@ -33,13 +33,9 @@ NS_ICSS_STYLE_RULE_DOM_WRAPPER_IID
 namespace
 mozilla
 {
-namespace
-css
-{
 class
-StyleRule
+BindingStyleRule
 ;
-}
 }
 class
 nsICSSStyleRuleDOMWrapper
@@ -59,10 +55,7 @@ GetCSSStyleRule
 mozilla
 :
 :
-css
-:
-:
-StyleRule
+BindingStyleRule
 *
 *
 aResult
