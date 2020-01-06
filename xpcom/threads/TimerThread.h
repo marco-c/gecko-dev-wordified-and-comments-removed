@@ -150,6 +150,12 @@ nsTimerImpl
 aTimer
 )
 ;
+TimeStamp
+FindNextFireTimeForCurrentThread
+(
+TimeStamp
+)
+;
 void
 DoBeforeSleep
 (
