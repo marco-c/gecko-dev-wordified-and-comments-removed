@@ -1428,9 +1428,9 @@ cinnabar
 "
         
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
         

@@ -674,9 +674,9 @@ None
 :
             
 from
-mozbuild
+moztest
 .
-testing
+resolve
 import
 TestResolver
             
