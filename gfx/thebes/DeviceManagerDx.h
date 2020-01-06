@@ -346,11 +346,6 @@ ForcedDeviceResetReason
 aReason
 )
 ;
-void
-NotifyD3D9DeviceReset
-(
-)
-;
 private
 :
 static

@@ -88,6 +88,14 @@ aFeature
 )
 ;
 static
+void
+Reset
+(
+Feature
+aFeature
+)
+;
+static
 bool
 SetDefault
 (
