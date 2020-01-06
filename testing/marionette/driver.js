@@ -2998,7 +2998,7 @@ this
 .
 sessionID
 =
-element
+WebElement
 .
 generateUUID
 (
