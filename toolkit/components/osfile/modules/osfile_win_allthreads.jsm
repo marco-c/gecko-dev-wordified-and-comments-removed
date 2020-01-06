@@ -148,6 +148,9 @@ require
 )
 ;
 }
+var
+LOG
+=
 SharedAll
 .
 LOG
@@ -286,6 +289,10 @@ path
 "
 )
 {
+operation
+=
+operation
+;
 SharedAll
 .
 OSError

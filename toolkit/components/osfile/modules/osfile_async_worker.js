@@ -283,6 +283,8 @@ prototype
 =
 {
 get
+:
+function
 (
 id
 )
@@ -318,6 +320,8 @@ resource
 ;
 }
 remove
+:
+function
 (
 id
 )
@@ -361,6 +365,8 @@ id
 ;
 }
 add
+:
+function
 (
 resource
 info
@@ -384,6 +390,10 @@ set
 id
 {
 resource
+:
+resource
+info
+:
 info
 }
 )
@@ -631,6 +641,8 @@ Agent
 =
 {
 SET_DEBUG
+:
+function
 (
 aDEBUG
 )
@@ -645,6 +657,8 @@ aDEBUG
 ;
 }
 GET_DEBUG
+:
+function
 (
 )
 {
@@ -657,6 +671,8 @@ DEBUG
 ;
 }
 Meta_shutdown
+:
+function
 (
 kill
 )
@@ -1348,6 +1364,8 @@ options
 ;
 }
 removeDir
+:
+function
 (
 path
 options

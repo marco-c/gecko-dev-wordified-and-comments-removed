@@ -360,6 +360,8 @@ object
 name
 {
 value
+:
+value
 }
 )
 ;
@@ -766,6 +768,8 @@ enumerable
 :
 true
 get
+:
+function
 (
 )
 {
@@ -777,6 +781,8 @@ key
 ;
 }
 set
+:
+function
 (
 value
 )
@@ -1044,6 +1050,8 @@ in_ptr
 "
 {
 get
+:
+function
 (
 )
 {
@@ -1105,6 +1113,8 @@ out_ptr
 "
 {
 get
+:
+function
 (
 )
 {
@@ -1166,6 +1176,8 @@ inout_ptr
 "
 {
 get
+:
+function
 (
 )
 {
@@ -3263,6 +3275,10 @@ field
 =
 {
 name
+:
+name
+type
+:
 type
 }
 ;
@@ -3778,6 +3794,8 @@ library
 "
 {
 get
+:
+function
 (
 )
 {
@@ -3800,6 +3818,8 @@ error
 ;
 }
 declareLazyFFI
+:
+function
 (
 object
 field
@@ -3822,6 +3842,8 @@ object
 field
 {
 get
+:
+function
 (
 )
 {
@@ -3874,6 +3896,8 @@ true
 ;
 }
 declareLazy
+:
+function
 (
 object
 field
@@ -3896,6 +3920,8 @@ object
 field
 {
 get
+:
+function
 (
 )
 {
@@ -3949,6 +3975,8 @@ true
 ;
 }
 declareLazyWithFallback
+:
+function
 (
 fallbacklibrary
 object
@@ -3972,6 +4000,8 @@ object
 field
 {
 get
+:
+function
 (
 )
 {
@@ -4052,6 +4082,8 @@ true
 ;
 }
 toString
+:
+function
 (
 )
 {
@@ -4210,6 +4242,12 @@ signature
 [
 symbol
 abi
+]
+;
+let
+argtypes
+=
+[
 ]
 ;
 for
@@ -4494,6 +4532,8 @@ object
 field
 {
 get
+:
+function
 (
 )
 {
@@ -4568,6 +4608,8 @@ object
 field
 {
 get
+:
+function
 (
 )
 {
@@ -4806,15 +4848,31 @@ Shared
 :
 {
 LOG
+:
+LOG
+clone
+:
 clone
 Type
+:
+Type
+HollowStructure
+:
 HollowStructure
 Error
 :
 OSError
 declareFFI
+:
+declareFFI
+projectValue
+:
 projectValue
 isTypedArray
+:
+isTypedArray
+defineLazyGetter
+:
 defineLazyGetter
 }
 }
@@ -4833,6 +4891,8 @@ DEBUG
 "
 {
 get
+:
+function
 (
 )
 {
@@ -4843,6 +4903,8 @@ DEBUG
 ;
 }
 set
+:
+function
 (
 x
 )
@@ -4872,6 +4934,8 @@ TEST
 "
 {
 get
+:
+function
 (
 )
 {
@@ -4882,6 +4946,8 @@ TEST
 ;
 }
 set
+:
+function
 (
 x
 )

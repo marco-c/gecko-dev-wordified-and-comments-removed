@@ -339,6 +339,11 @@ false
 ;
 try
 {
+let
+pos
+=
+0
+;
 try
 {
 await
