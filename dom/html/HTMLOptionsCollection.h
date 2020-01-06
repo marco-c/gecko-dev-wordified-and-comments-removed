@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIDOMHTMLOptionsCollection
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -107,8 +100,6 @@ final
 public
 nsIHTMLCollection
 public
-nsIDOMHTMLOptionsCollection
-public
 nsWrapperCache
 {
 typedef
@@ -126,6 +117,7 @@ aSelect
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_NSIDOMHTMLCOLLECTION
 using
 nsWrapperCache
 :
@@ -210,7 +202,6 @@ aScriptObjectHolder
 }
 public
 :
-NS_DECL_NSIDOMHTMLOPTIONSCOLLECTION
 virtual
 Element
 *
@@ -481,6 +472,16 @@ nsString
 aNames
 )
 override
+;
+void
+SetLength
+(
+uint32_t
+aLength
+ErrorResult
+&
+aError
+)
 ;
 private
 :

@@ -104,13 +104,6 @@ h
 #
 include
 "
-nsIDOMHTMLSelectElement
-.
-h
-"
-#
-include
-"
 nsNodeInfoManager
 .
 h

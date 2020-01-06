@@ -152,6 +152,7 @@ HTMLCollection
 {
 [
 CEReactions
+SetterThrows
 ]
 attribute
 unsigned

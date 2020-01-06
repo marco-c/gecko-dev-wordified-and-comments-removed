@@ -63,7 +63,7 @@ h
 #
 include
 "
-nsIDOMHTMLSelectElement
+nsIDOMHTMLElement
 .
 h
 "

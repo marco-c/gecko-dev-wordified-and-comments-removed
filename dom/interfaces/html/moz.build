@@ -154,17 +154,7 @@ nsIDOMHTMLOptionElement
 idl
 '
 '
-nsIDOMHTMLOptionsCollection
-.
-idl
-'
-'
 nsIDOMHTMLScriptElement
-.
-idl
-'
-'
-nsIDOMHTMLSelectElement
 .
 idl
 '
