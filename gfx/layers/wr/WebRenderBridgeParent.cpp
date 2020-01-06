@@ -2584,16 +2584,6 @@ scaleToSize
 )
 op
 .
-clipRect
-(
-)
-op
-.
-mask
-(
-)
-op
-.
 filter
 (
 )
