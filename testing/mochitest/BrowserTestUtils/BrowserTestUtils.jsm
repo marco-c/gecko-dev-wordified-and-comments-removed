@@ -3202,6 +3202,9 @@ onMessage
 ;
 resolve
 (
+msg
+.
+data
 )
 ;
 }
