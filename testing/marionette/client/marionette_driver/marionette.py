@@ -7871,7 +7871,7 @@ self
 _send_message
 (
 "
-quitApplication
+quit
 "
 body
 )
