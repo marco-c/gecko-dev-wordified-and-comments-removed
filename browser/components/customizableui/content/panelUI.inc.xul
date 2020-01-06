@@ -116,6 +116,13 @@ PanelUI
 -
 mainView
 "
+viewCacheId
+=
+"
+appMenu
+-
+viewCache
+"
 >
 <
 panelview
@@ -5168,6 +5175,13 @@ descriptionheightworkaround
 "
 true
 "
+viewCacheId
+=
+"
+appMenu
+-
+viewCache
+"
 >
 <
 panelview
@@ -6256,8 +6270,6 @@ PanelUI
 developer
 '
 this
-null
-true
 )
 "
 /
@@ -6311,8 +6323,6 @@ PanelUI
 helpView
 '
 this
-null
-true
 )
 "
 /
@@ -6483,8 +6493,6 @@ PanelUI
 characterEncodingView
 '
 this
-null
-true
 )
 "
 /
