@@ -598,6 +598,7 @@ invalidate_style_if_needed
 root
 shared_context
 None
+None
 )
 ;
 if
@@ -3772,6 +3773,16 @@ context
 thread_local
 .
 stack_limit_checker
+)
+Some
+(
+&
+mut
+context
+.
+thread_local
+.
+nth_index_cache
 )
 )
 ;

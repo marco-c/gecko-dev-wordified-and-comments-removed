@@ -91,6 +91,12 @@ RestyleDamage
 }
 ;
 use
+selectors
+:
+:
+NthIndexCache
+;
+use
 servo_arc
 :
 :
@@ -1239,6 +1245,14 @@ Option
 &
 StackLimitChecker
 >
+nth_index_cache
+:
+Option
+<
+&
+mut
+NthIndexCache
+>
 )
 -
 >
@@ -1366,6 +1380,7 @@ self
 )
 shared_context
 stack_limit_checker
+nth_index_cache
 )
 ;
 let
