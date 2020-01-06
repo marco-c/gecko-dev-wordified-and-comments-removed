@@ -342,18 +342,6 @@ captures_iter
 s
 )
 {
-if
-&
-cap
-[
-1
-]
-!
-=
-"
-GetStyleVariables
-"
-{
 w
 .
 write_all
@@ -395,7 +383,6 @@ unwrap
 (
 )
 ;
-}
 }
 }
 w
