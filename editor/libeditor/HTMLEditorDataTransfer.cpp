@@ -271,13 +271,6 @@ h
 #
 include
 "
-nsIDOMHTMLEmbedElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFrameElement
 .
 h

@@ -240,13 +240,6 @@ h
 #
 include
 "
-nsIDOMHTMLEmbedElement
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h

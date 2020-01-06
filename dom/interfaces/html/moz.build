@@ -159,11 +159,6 @@ nsIDOMHTMLElement
 idl
 '
 '
-nsIDOMHTMLEmbedElement
-.
-idl
-'
-'
 nsIDOMHTMLFieldSetElement
 .
 idl
