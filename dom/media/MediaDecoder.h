@@ -1384,11 +1384,6 @@ DownloadProgressed
 )
 ;
 void
-NotifySuspendedStatusChanged
-(
-)
-;
-void
 NotifyPrincipalChanged
 (
 )

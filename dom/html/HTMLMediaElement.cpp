@@ -24311,12 +24311,12 @@ HTMLMediaElement
 NotifySuspendedByCache
 (
 bool
-aIsSuspended
+aSuspendedByCache
 )
 {
 mDownloadSuspendedByCache
 =
-aIsSuspended
+aSuspendedByCache
 ;
 }
 void
