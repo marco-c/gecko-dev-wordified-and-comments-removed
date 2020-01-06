@@ -126,6 +126,11 @@ ExtensionChild
 jsm
 '
 '
+ExtensionChildDevToolsUtils
+.
+jsm
+'
+'
 ExtensionCommon
 .
 jsm
