@@ -382,6 +382,9 @@ mIsPrimary
 break
 ;
 case
+ePointerCancel
+:
+case
 ePointerUp
 :
 if
