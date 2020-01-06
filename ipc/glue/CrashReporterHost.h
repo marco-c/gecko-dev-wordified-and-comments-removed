@@ -485,6 +485,12 @@ mDumpID
 bool
 mFinalized
 ;
+nsCOMPtr
+<
+nsIFile
+>
+mTargetDump
+;
 }
 ;
 }
