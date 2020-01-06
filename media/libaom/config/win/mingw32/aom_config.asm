@@ -60,7 +60,7 @@ equ
 1
 HAVE_PTHREAD_H
 equ
-0
+1
 HAVE_WXWIDGETS
 equ
 0
