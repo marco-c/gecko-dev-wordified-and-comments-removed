@@ -797,10 +797,13 @@ length
 0
 )
 {
+SimpleTest
+.
+executeSoon
+(
 expectingEventPromise
 .
 resolve
-(
 )
 ;
 }
@@ -819,7 +822,7 @@ expectingEvents
 =
 eventTypes
 ;
-return
+await
 new
 Promise
 (
