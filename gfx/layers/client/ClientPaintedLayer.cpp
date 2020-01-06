@@ -1113,6 +1113,15 @@ UpdateContentClient
 state
 )
 ;
+ClientManager
+(
+)
+-
+>
+SetNeedTextureSyncOnPaintThread
+(
+)
+;
 }
 return
 true
