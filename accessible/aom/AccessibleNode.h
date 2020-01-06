@@ -210,16 +210,6 @@ return
 mIntl
 ;
 }
-static
-bool
-IsAOMEnabled
-(
-JSContext
-*
-JSObject
-*
-)
-;
 protected
 :
 AccessibleNode
