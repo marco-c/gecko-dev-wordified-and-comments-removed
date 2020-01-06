@@ -21170,6 +21170,10 @@ break
 case
 WM_DESTROY
 :
+DestroyLayerManager
+(
+)
+;
 OnDestroy
 (
 )
