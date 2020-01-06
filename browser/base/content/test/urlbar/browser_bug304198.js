@@ -82,6 +82,7 @@ browserLoaded
 deletedURLTab
 .
 linkedBrowser
+false
 testURL
 )
 ;
@@ -95,6 +96,7 @@ browserLoaded
 fullURLTab
 .
 linkedBrowser
+false
 testURL
 )
 ;
@@ -108,6 +110,7 @@ browserLoaded
 partialURLTab
 .
 linkedBrowser
+false
 testURL
 )
 ;

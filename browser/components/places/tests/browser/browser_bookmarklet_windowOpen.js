@@ -360,6 +360,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+TEST_URL
 )
 ;
 }

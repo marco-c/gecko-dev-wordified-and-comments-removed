@@ -264,6 +264,7 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
 url
 .
 replace

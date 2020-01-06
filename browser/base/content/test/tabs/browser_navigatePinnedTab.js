@@ -165,6 +165,7 @@ browserLoaded
 appTab
 .
 linkedBrowser
+false
 "
 http
 :
