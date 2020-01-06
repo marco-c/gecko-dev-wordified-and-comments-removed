@@ -382,6 +382,9 @@ noiseSuppression
 ConstrainBoolean
 autoGainControl
 ;
+ConstrainLong
+channelCount
+;
 /
 /
 Deprecated

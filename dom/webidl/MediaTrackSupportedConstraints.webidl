@@ -199,6 +199,11 @@ to
 be
 supported
 boolean
+channelCount
+=
+true
+;
+boolean
 deviceId
 =
 true

@@ -145,6 +145,9 @@ noiseSuppression
 boolean
 autoGainControl
 ;
+long
+channelCount
+;
 /
 /
 Mozilla
