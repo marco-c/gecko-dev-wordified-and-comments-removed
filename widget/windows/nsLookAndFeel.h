@@ -226,6 +226,9 @@ mUseDefaultTheme
 int32_t
 mNativeThemeId
 ;
+int32_t
+mCaretBlinkTime
+;
 struct
 CachedSystemFont
 {
