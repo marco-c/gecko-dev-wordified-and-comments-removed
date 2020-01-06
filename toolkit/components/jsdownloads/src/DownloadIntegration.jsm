@@ -1321,6 +1321,13 @@ catch
 ex
 )
 {
+}
+if
+(
+!
+directoryPath
+)
+{
 directoryPath
 =
 await
