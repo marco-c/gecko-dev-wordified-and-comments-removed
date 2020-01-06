@@ -665,13 +665,6 @@ VERSION_WIN10
 return
 true
 ;
-#
-if
-!
-defined
-(
-MOZ_SANDBOX
-)
 if
 (
 flags
@@ -808,8 +801,6 @@ false
 ;
 }
 }
-#
-endif
 return
 true
 ;
