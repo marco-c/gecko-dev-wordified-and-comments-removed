@@ -154,6 +154,12 @@ aParams
 .
 mOptions
 )
+mRate
+(
+aParams
+.
+mRate
+)
 {
 mLastError
 =
@@ -1151,6 +1157,7 @@ mGMPCrashHelper
 mType
 mOnWaitingForKeyEvent
 mDecoderOptions
+mRate
 &
 error
 }
