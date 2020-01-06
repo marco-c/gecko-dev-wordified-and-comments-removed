@@ -22704,7 +22704,7 @@ PR_IMPLEMENT
 (
 PRStatus
 )
-PR_FileDesc2PlatformOverlappedIOHandle
+PR_EXPERIMENTAL_ONLY_IN_4_17_GetOverlappedIOHandle
 (
 PRFileDesc
 *
