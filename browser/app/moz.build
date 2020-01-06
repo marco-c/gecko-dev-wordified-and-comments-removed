@@ -737,9 +737,9 @@ HEAP
 0x40000
 '
 ]
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 if
 CONFIG
 [

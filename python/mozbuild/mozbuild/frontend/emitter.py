@@ -69,6 +69,8 @@ BrandingFiles
     
 ChromeManifestEntry
     
+ComputedFlags
+    
 ConfigFileSubstitution
     
 ContextWrapped
@@ -368,6 +370,14 @@ self
 _binaries
 =
 OrderedDict
+(
+)
+        
+self
+.
+_compile_dirs
+=
+set
 (
 )
         
@@ -4931,6 +4941,17 @@ host_linkables
             
 return
         
+self
+.
+_compile_dirs
+.
+add
+(
+context
+.
+objdir
+)
+        
 sources
 =
 defaultdict
@@ -5859,10 +5880,6 @@ ANDROID_APK_PACKAGE
             
 '
 ANDROID_GENERATED_RESFILES
-'
-            
-'
-DISABLE_STL_WRAPPING
 '
             
 '
@@ -7574,6 +7591,28 @@ variables
             
 yield
 passthru
+        
+if
+context
+.
+objdir
+in
+self
+.
+_compile_dirs
+:
+            
+yield
+ComputedFlags
+(
+context
+context
+[
+'
+COMPILE_FLAGS
+'
+]
+)
     
 def
 _create_substitution

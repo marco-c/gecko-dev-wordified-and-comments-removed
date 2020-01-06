@@ -3004,21 +3004,6 @@ ALLOW_COMPILER_WARNINGS
 ]
             
 '
-DISABLE_STL_WRAPPING
-'
-:
-[
-                
-'
-DISABLE_STL_WRAPPING
-:
-=
-1
-'
-            
-]
-            
-'
 VISIBILITY_FLAGS
 '
 :
