@@ -896,6 +896,11 @@ const
 header
 )
 ;
+bool
+ShouldStopReading
+(
+)
+;
 private
 :
 class

@@ -555,6 +555,13 @@ bool
 aThrottled
 )
 ;
+bool
+IsConnEntryUnderPressure
+(
+nsHttpConnectionInfo
+*
+)
+;
 private
 :
 virtual

@@ -10830,7 +10830,7 @@ mem
 .
 gc_incremental_slice_ms
 "
-10
+5
 )
 ;
 pref
@@ -15503,7 +15503,7 @@ suspend
 -
 for
 "
-3000
+900
 )
 ;
 pref
@@ -15519,7 +15519,7 @@ resume
 -
 for
 "
-200
+100
 )
 ;
 pref
@@ -15537,7 +15537,7 @@ background
 -
 in
 "
-400
+1000
 )
 ;
 pref
