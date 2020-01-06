@@ -597,6 +597,11 @@ path
 options
 .
 default_icon
+iconType
+:
+"
+browserAction
+"
 themeIcons
 :
 options
@@ -3358,6 +3363,14 @@ details
 .
 tabId
 )
+;
+details
+.
+iconType
+=
+"
+browserAction
+"
 ;
 let
 icon
