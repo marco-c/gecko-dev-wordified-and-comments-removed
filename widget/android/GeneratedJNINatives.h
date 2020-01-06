@@ -5,6 +5,9 @@ GeneratedJNINatives_h
 define
 GeneratedJNINatives_h
 #
+ifndef
+MOZ_PREPROCESSOR
+#
 include
 "
 GeneratedJNIWrappers
@@ -22,6 +25,8 @@ Natives
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {

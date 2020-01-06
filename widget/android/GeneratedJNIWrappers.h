@@ -5,6 +5,9 @@ GeneratedJNIWrappers_h
 define
 GeneratedJNIWrappers_h
 #
+ifndef
+MOZ_PREPROCESSOR
+#
 include
 "
 mozilla
@@ -15,6 +18,8 @@ Refs
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
