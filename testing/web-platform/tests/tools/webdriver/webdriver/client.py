@@ -4125,10 +4125,34 @@ rect
 "
 )
     
+property
+    
 command
     
 def
-property
+selected
+(
+self
+)
+:
+        
+return
+self
+.
+send_element_command
+(
+"
+GET
+"
+"
+selected
+"
+)
+    
+command
+    
+def
+attribute
 (
 self
 name
@@ -4144,7 +4168,7 @@ send_element_command
 GET
 "
 "
-property
+attribute
 /
 %
 s
@@ -4156,7 +4180,7 @@ name
 command
     
 def
-attribute
+property
 (
 self
 name
@@ -4172,7 +4196,7 @@ send_element_command
 GET
 "
 "
-attribute
+property
 /
 %
 s
