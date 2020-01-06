@@ -476,11 +476,14 @@ listitem
 2
 )
 User
+long
+-
 clicked
 on
-the
-menu
-button
+on
+a
+Top
+Site
 :
 event
 =
