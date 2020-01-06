@@ -93,6 +93,10 @@ nsIEventTarget
 aEventTarget
 =
 nullptr
+uint32_t
+aMaxMemory
+=
+0
 )
 ;
 nsresult
@@ -170,6 +174,12 @@ return
 mEventTarget
 ;
 }
+size_t
+SizeOfCurrentMemoryBuffer
+(
+)
+const
+;
 private
 :
 ~
@@ -263,6 +273,9 @@ RefPtr
 MutableBlobStorageCallback
 >
 mPendingCallback
+;
+uint32_t
+mMaxMemory
 ;
 }
 ;
