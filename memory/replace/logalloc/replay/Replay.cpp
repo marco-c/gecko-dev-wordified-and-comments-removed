@@ -1018,9 +1018,6 @@ return_type
 \
 return_type
 name
-#
-#
-_impl
 (
 __VA_ARGS__
 )
@@ -1863,7 +1860,7 @@ stats
 ;
 :
 :
-jemalloc_stats_impl
+jemalloc_stats
 (
 &
 stats
