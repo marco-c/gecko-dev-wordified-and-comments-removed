@@ -287,6 +287,13 @@ va_list
 args
 )
 ;
+int
+CSFLogTestLevel
+(
+CSFLogLevel
+priority
+)
+;
 #
 ifdef
 __cplusplus
