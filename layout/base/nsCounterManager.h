@@ -222,16 +222,6 @@ aTextFrame
 override
 ;
 void
-SetCounterStyleDirty
-(
-)
-{
-mCounterStyle
-=
-nullptr
-;
-}
-void
 Calc
 (
 nsCounterList
@@ -692,7 +682,7 @@ RecalcAll
 )
 ;
 void
-SetAllCounterStylesDirty
+SetAllDirty
 (
 )
 ;
