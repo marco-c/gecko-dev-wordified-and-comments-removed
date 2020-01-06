@@ -1219,7 +1219,7 @@ if
 getenv
 (
 "
-MOZ_DEBUG
+MOZ_NO_OSX_EVENT_TAPS
 "
 )
 )
