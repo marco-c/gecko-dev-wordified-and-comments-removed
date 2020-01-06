@@ -16340,8 +16340,6 @@ matches_selector_list
 (
 &
 selectors
-.
-0
 &
 Root
 :
@@ -16538,8 +16536,6 @@ matches_selector_list
 (
 &
 selectors
-.
-0
 &
 element
 &

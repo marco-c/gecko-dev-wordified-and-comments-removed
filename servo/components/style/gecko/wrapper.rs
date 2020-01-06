@@ -8313,6 +8313,7 @@ s
 matches_complex_selector
 (
 s
+0
 self
 context
 flags_setter

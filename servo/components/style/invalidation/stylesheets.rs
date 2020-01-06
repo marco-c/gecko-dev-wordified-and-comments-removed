@@ -965,10 +965,6 @@ iter
 =
 selector
 .
-inner
-.
-complex
-.
 iter
 (
 )
@@ -1163,7 +1159,7 @@ guard
 )
 ;
 for
-selector
+selector_and_hashes
 in
 &
 style_rule
@@ -1176,6 +1172,9 @@ self
 .
 collect_scopes
 (
+&
+selector_and_hashes
+.
 selector
 )
 ;

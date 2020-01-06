@@ -2361,8 +2361,6 @@ selectors
 self
 .
 selectors
-.
-0
 ;
 let
 mut
@@ -4507,8 +4505,6 @@ matches_selector_list
 (
 &
 selectors
-.
-0
 element
 &
 mut

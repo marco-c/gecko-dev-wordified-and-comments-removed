@@ -39,7 +39,7 @@ parser
 :
 :
 {
-ComplexSelector
+Selector
 SelectorMethods
 }
 ;
@@ -332,7 +332,7 @@ MozAny
 Box
 <
 [
-ComplexSelector
+Selector
 <
 SelectorImpl
 >
@@ -2126,7 +2126,7 @@ parse_comma_separated
 input
 |
 {
-ComplexSelector
+Selector
 :
 :
 parse
