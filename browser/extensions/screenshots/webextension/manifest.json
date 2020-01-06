@@ -17,9 +17,9 @@ version
 "
 :
 "
-8
+9
 .
-1
+0
 .
 0
 "
@@ -127,7 +127,8 @@ default_title
 "
 :
 "
-__MSG_contextMenuLabel__
+Firefox
+Screenshots
 "
 "
 browser_style

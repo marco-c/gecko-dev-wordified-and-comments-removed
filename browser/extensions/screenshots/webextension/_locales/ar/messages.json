@@ -9,6 +9,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -21,7 +22,6 @@ message
 "
 :
 "
-Mozilla
 <
 screenshots
 -
@@ -66,7 +66,9 @@ message
 "
 :
 "
+.
 ESC
+.
 "
 }
 "
@@ -151,9 +153,11 @@ message
 "
 :
 "
+.
 META_KEY
-+
+-
 V
+.
 "
 "
 placeholders
@@ -185,6 +189,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -197,6 +202,8 @@ message
 "
 :
 "
+.
+.
 "
 }
 "
@@ -209,6 +216,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -221,8 +229,8 @@ message
 "
 :
 "
-Firefox
-Screenshots
+.
+.
 "
 }
 "
@@ -235,8 +243,8 @@ message
 "
 :
 "
-Firefox
-Screenshots
+.
+.
 "
 }
 "
@@ -249,6 +257,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -261,6 +270,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -273,20 +283,7 @@ message
 "
 :
 "
-Firefox
-Screenshots
-"
-}
-"
-emptySelectionErrorTitle
-"
-:
-{
-"
-message
-"
-:
-"
+!
 "
 }
 "
@@ -299,8 +296,7 @@ message
 "
 :
 "
-Firefox
-Screenshots
+.
 "
 }
 "
@@ -313,6 +309,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -325,7 +322,7 @@ message
 "
 :
 "
-Firefox
+.
 "
 }
 "
@@ -350,6 +347,8 @@ message
 "
 :
 "
+.
+.
 "
 }
 "
@@ -374,6 +373,8 @@ message
 "
 :
 "
+.
+.
 "
 }
 "
@@ -398,6 +399,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -458,13 +460,9 @@ message
 "
 :
 "
-Firefox
-Screenshots
-Firefox
-Cloud
-Services
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
+.
 "
 "
 placeholders
