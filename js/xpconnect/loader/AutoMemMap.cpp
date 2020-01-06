@@ -187,7 +187,7 @@ MOZ_ASSERT
 fd
 )
 ;
-NS_TRY
+MOZ_TRY
 (
 file
 -
@@ -331,7 +331,7 @@ addr
 PRFileInfo64
 fileInfo
 ;
-NS_TRY
+MOZ_TRY
 (
 PR_GetOpenFileInfo64
 (
