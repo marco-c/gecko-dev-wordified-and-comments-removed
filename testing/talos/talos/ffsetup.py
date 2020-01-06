@@ -17,8 +17,6 @@ test
 import
 os
 import
-re
-import
 tempfile
 import
 mozfile
