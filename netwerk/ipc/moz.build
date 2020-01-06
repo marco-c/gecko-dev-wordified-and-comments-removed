@@ -118,6 +118,11 @@ NeckoParent
 .
 h
 '
+'
+NeckoTargetHolder
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -140,6 +145,11 @@ cpp
 '
 '
 NeckoParent
+.
+cpp
+'
+'
+NeckoTargetHolder
 .
 cpp
 '
