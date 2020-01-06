@@ -285,11 +285,6 @@ states
 :
 :
 HASPOPUP
-|
-states
-:
-:
-VERTICAL
 eARIAAutoComplete
 eARIAReadonly
 eARIAOrientation
@@ -2037,10 +2032,7 @@ eNoLiveAttr
 eSelect
 |
 eTable
-states
-:
-:
-VERTICAL
+kNoReqStates
 eARIAReadonlyOrEditable
 eARIAMultiSelectable
 eFocusableUntilDisabled
