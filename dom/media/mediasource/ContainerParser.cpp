@@ -728,13 +728,6 @@ NS_PER_USEC
 =
 1000
 ;
-static
-const
-unsigned
-USEC_PER_SEC
-=
-1000000
-;
 MediaResult
 IsInitSegmentPresent
 (
