@@ -5343,7 +5343,7 @@ break
 }
 default
 :
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 surface

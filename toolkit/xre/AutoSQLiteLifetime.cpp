@@ -315,7 +315,7 @@ sSingletonEnforcer
 1
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 multiple

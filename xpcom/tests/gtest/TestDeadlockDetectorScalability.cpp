@@ -182,7 +182,7 @@ if
 !
 locks
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 couldn
@@ -402,7 +402,7 @@ if
 !
 locks
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 couldn

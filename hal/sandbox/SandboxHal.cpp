@@ -815,7 +815,7 @@ EnableAlarm
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Alarms
@@ -833,16 +833,13 @@ Yet
 "
 )
 ;
-return
-false
-;
 }
 void
 DisableAlarm
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Alarms
@@ -870,7 +867,7 @@ int32_t
 aNanoseconds
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Alarms
@@ -888,9 +885,6 @@ Yet
 "
 )
 ;
-return
-false
-;
 }
 void
 SetProcessPriority
@@ -901,7 +895,7 @@ ProcessPriority
 aPriority
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Only
@@ -923,7 +917,7 @@ SetProcessPrioritySupported
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Only
@@ -939,9 +933,6 @@ SetProcessPrioritySupported
 "
 )
 ;
-return
-false
-;
 }
 void
 SetCurrentThreadPriority
@@ -950,7 +941,7 @@ ThreadPriority
 aThreadPriority
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Setting
@@ -977,7 +968,7 @@ ThreadPriority
 aThreadPriority
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Setting

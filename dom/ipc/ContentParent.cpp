@@ -5510,7 +5510,7 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 This
@@ -5522,11 +5522,6 @@ on
 GTK
 platforms
 "
-)
-;
-return
-IPC_OK
-(
 )
 ;
 #

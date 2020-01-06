@@ -3430,7 +3430,7 @@ IPC_OK
 ;
 #
 else
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 shouldn
@@ -3444,12 +3444,6 @@ non
 ATK
 platforms
 "
-)
-;
-return
-IPC_FAIL_NO_REASON
-(
-this
 )
 ;
 #
@@ -4934,7 +4928,7 @@ int16_t
 handled
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 NPP_HandleEvent_IOSurface
@@ -4945,12 +4939,6 @@ OSX
 only
 message
 "
-)
-;
-return
-IPC_FAIL_NO_REASON
-(
-this
 )
 ;
 }
@@ -5011,7 +4999,7 @@ dontcare
 ;
 #
 else
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 WindowPosChanged
@@ -5022,12 +5010,6 @@ windows
 only
 message
 "
-)
-;
-return
-IPC_FAIL_NO_REASON
-(
-this
 )
 ;
 #
@@ -5099,7 +5081,7 @@ IPC_OK
 ;
 #
 else
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 ContentsScaleFactorChanged
@@ -5111,12 +5093,6 @@ OSX
 only
 message
 "
-)
-;
-return
-IPC_FAIL_NO_REASON
-(
-this
 )
 ;
 #

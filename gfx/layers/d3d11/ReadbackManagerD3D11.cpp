@@ -421,7 +421,7 @@ mTaskThread
 }
 else
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 ReadbackManager
@@ -575,7 +575,7 @@ Length
 0
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Trying

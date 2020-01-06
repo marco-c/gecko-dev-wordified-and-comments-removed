@@ -438,7 +438,7 @@ child
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Couldn
@@ -452,9 +452,6 @@ channel
 .
 "
 )
-;
-return
-false
 ;
 }
 sVRManagerChildSingleton
@@ -611,7 +608,7 @@ sVRManagerChildSingleton
 )
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Couldn
@@ -625,8 +622,6 @@ channel
 .
 "
 )
-;
-return
 ;
 }
 }

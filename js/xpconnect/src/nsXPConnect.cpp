@@ -426,7 +426,7 @@ if
 xpccx
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Couldn

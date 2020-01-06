@@ -25178,7 +25178,7 @@ nsIEditor
 eNone
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 CheckForEmptyBlock

@@ -3289,7 +3289,7 @@ GetCSSDeclaration
 Operation
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 called
@@ -3299,9 +3299,6 @@ nsComputedDOMStyle
 GetCSSDeclaration
 "
 )
-;
-return
-nullptr
 ;
 }
 nsresult
@@ -3314,7 +3311,7 @@ DeclarationBlock
 *
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 called
@@ -3324,9 +3321,6 @@ nsComputedDOMStyle
 SetCSSDeclaration
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 nsIDocument
@@ -3338,7 +3332,7 @@ DocToUpdate
 (
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 called
@@ -3348,9 +3342,6 @@ nsComputedDOMStyle
 DocToUpdate
 "
 )
-;
-return
-nullptr
 ;
 }
 void
@@ -3364,7 +3355,7 @@ CSSParsingEnvironment
 aCSSParseEnv
 )
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 called
@@ -3374,12 +3365,6 @@ nsComputedDOMStyle
 GetCSSParsingEnvironment
 "
 )
-;
-aCSSParseEnv
-.
-mPrincipal
-=
-nullptr
 ;
 }
 nsDOMCSSDeclaration

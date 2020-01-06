@@ -2699,7 +2699,7 @@ arrayBuf
 }
 else
 {
-NS_RUNTIMEABORT
+MOZ_CRASH
 (
 "
 Unknown
@@ -2708,9 +2708,6 @@ type
 !
 "
 )
-;
-return
-NS_ERROR_UNEXPECTED
 ;
 }
 }
