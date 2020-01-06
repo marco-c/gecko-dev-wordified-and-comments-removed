@@ -142,7 +142,7 @@ color
 "
 color
 /
-private_active_text
+photon_text_main_private
 "
 gecko
 :
@@ -171,7 +171,7 @@ color
 "
 color
 /
-private_active_text
+photon_text_main_private
 "
 gecko
 :
@@ -200,7 +200,7 @@ color
 "
 color
 /
-placeholder_active_grey
+photon_text_main
 "
 gecko
 :
@@ -229,7 +229,7 @@ color
 "
 color
 /
-placeholder_active_grey
+photon_text_main
 "
 /
 >
