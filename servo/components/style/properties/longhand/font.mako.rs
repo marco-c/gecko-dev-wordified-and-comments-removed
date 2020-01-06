@@ -6924,6 +6924,8 @@ inherited_style
 (
 )
 .
+font_computation_data
+.
 font_size_keyword
 {
 context
@@ -7346,6 +7348,8 @@ font_size_keyword
 context
 .
 inherited_style
+.
+font_computation_data
 .
 font_size_keyword
 ;
