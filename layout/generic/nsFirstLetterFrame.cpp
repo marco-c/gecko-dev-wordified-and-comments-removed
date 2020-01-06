@@ -1015,6 +1015,9 @@ FinishAndStoreOverflow
 (
 &
 kidMetrics
+rs
+.
+mStyleDisplay
 )
 ;
 kid
@@ -1104,6 +1107,9 @@ FinishAndStoreOverflow
 (
 &
 aMetrics
+aReflowInput
+.
+mStyleDisplay
 )
 ;
 }

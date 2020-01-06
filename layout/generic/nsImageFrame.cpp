@@ -4621,6 +4621,9 @@ FinishAndStoreOverflow
 (
 &
 aMetrics
+aReflowInput
+.
+mStyleDisplay
 )
 ;
 if

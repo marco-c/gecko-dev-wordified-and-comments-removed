@@ -237,6 +237,9 @@ FinishAndStoreOverflow
 (
 &
 aMetrics
+aReflowInput
+.
+mStyleDisplay
 )
 ;
 }
@@ -474,6 +477,9 @@ FinishAndStoreOverflow
 (
 &
 aDesiredSize
+aReflowInput
+.
+mStyleDisplay
 )
 ;
 }
