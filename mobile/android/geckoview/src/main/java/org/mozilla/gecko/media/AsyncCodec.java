@@ -144,6 +144,16 @@ mimeType
 ;
 public
 abstract
+boolean
+isTunneledPlaybackSupported
+(
+final
+String
+mimeType
+)
+;
+public
+abstract
 void
 start
 (

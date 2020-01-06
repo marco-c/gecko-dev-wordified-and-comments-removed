@@ -159,6 +159,11 @@ isAdaptivePlaybackSupported
 (
 )
 ;
+boolean
+isTunneledPlaybackSupported
+(
+)
+;
 void
 start
 (
