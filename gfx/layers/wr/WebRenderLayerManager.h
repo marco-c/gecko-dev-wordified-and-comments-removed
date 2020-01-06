@@ -736,16 +736,6 @@ mWrChild
 ;
 }
 void
-SetTransactionIncomplete
-(
-)
-{
-mTransactionIncomplete
-=
-true
-;
-}
-void
 LogTestDataForCurrentPaint
 (
 FrameMetrics
@@ -944,9 +934,6 @@ mDidCompositeObservers
 ;
 WebRenderScrollData
 mScrollData
-;
-bool
-mTransactionIncomplete
 ;
 bool
 mNeedsComposite
