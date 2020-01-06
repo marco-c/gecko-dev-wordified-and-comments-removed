@@ -75,16 +75,6 @@ FAKE
 '
     
 '
-objdir
-'
-:
-'
-obj
--
-firefox
-'
-    
-'
 env
 '
 :

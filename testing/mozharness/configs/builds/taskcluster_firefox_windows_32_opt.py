@@ -85,16 +85,6 @@ shared
 )
     
 '
-objdir
-'
-:
-'
-obj
--
-firefox
-'
-    
-'
 tooltool_script
 '
 :

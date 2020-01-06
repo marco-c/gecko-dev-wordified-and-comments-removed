@@ -1,12 +1,5 @@
 import
 os
-MOZ_OBJDIR
-=
-'
-obj
--
-firefox
-'
 config
 =
 {

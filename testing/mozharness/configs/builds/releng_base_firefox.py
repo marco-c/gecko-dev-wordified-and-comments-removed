@@ -1,0 +1,14 @@
+config
+=
+{
+    
+'
+objdir
+'
+:
+'
+obj
+-
+firefox
+'
+}

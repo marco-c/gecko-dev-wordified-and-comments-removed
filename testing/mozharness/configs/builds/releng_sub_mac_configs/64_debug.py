@@ -1,12 +1,5 @@
 import
 os
-MOZ_OBJDIR
-=
-'
-obj
--
-firefox
-'
 config
 =
 {
@@ -74,16 +67,6 @@ debug_build
 '
 :
 True
-    
-'
-objdir
-'
-:
-'
-obj
--
-firefox
-'
     
 '
 enable_talos_sendchange

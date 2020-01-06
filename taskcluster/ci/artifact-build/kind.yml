@@ -240,6 +240,12 @@ config
 -
 builds
 /
+releng_base_firefox
+.
+py
+-
+builds
+/
 releng_sub_linux_configs
 /
 64_artifact

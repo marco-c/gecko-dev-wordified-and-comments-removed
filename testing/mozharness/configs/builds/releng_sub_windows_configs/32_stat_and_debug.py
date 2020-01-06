@@ -1,12 +1,5 @@
 import
 os
-MOZ_OBJDIR
-=
-'
-obj
--
-firefox
-'
 config
 =
 {
@@ -107,12 +100,6 @@ platform_supports_post_upload_to_latest
 '
 :
 False
-    
-'
-objdir
-'
-:
-MOZ_OBJDIR
     
 '
 perfherder_extra_options

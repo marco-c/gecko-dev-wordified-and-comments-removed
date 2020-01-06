@@ -240,6 +240,12 @@ config
 -
 builds
 /
+releng_base_firefox
+.
+py
+-
+builds
+/
 releng_base_linux_64_builds
 .
 py

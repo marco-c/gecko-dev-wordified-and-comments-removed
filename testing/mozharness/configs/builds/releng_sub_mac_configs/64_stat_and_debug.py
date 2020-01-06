@@ -1,12 +1,5 @@
 import
 os
-MOZ_OBJDIR
-=
-'
-obj
--
-firefox
-'
 config
 =
 {
@@ -129,12 +122,6 @@ enable_unittest_sendchange
 '
 :
 False
-    
-'
-objdir
-'
-:
-MOZ_OBJDIR
     
 '
 perfherder_extra_options
