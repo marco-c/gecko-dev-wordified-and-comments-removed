@@ -80,6 +80,15 @@ transforms
 task
 :
 transforms
+job
+-
+defaults
+:
+shipping
+-
+phase
+:
+promote
 jobs
 :
 fennec
@@ -112,6 +121,11 @@ projects
 :
 [
 ]
+shipping
+-
+product
+:
+fennec
 run
 :
 using

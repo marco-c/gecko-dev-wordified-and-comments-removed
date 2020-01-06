@@ -94,6 +94,15 @@ release
 bouncer
 -
 sub
+job
+-
+defaults
+:
+shipping
+-
+phase
+:
+promote
 jobs
 :
 fennec
@@ -128,6 +137,11 @@ projects
 :
 [
 ]
+shipping
+-
+product
+:
+fennec
 worker
 -
 type

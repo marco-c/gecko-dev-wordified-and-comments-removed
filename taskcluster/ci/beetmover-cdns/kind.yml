@@ -153,6 +153,11 @@ projects
 :
 [
 ]
+shipping
+-
+phase
+:
+publish
 jobs
 :
 fennec
@@ -166,6 +171,11 @@ cdns
 name
 :
 fennec_push_to_cdns
+product
+:
+fennec
+shipping
+-
 product
 :
 fennec

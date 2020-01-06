@@ -96,6 +96,15 @@ dependencies
 beetmover
 -
 cdns
+job
+-
+defaults
+:
+shipping
+-
+phase
+:
+publish
 jobs
 :
 fennec
@@ -127,6 +136,11 @@ projects
 :
 [
 ]
+shipping
+-
+product
+:
+fennec
 run
 :
 using

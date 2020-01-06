@@ -108,6 +108,15 @@ release
 version
 -
 bump
+job
+-
+defaults
+:
+shipping
+-
+phase
+:
+ship
 jobs
 :
 fennec
@@ -146,6 +155,11 @@ projects
 :
 [
 ]
+shipping
+-
+product
+:
+fennec
 run
 :
 using

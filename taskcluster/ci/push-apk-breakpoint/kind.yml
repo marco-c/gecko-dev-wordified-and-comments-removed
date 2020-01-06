@@ -125,6 +125,16 @@ nightly
 nightly
 :
 true
+shipping
+-
+phase
+:
+ship
+shipping
+-
+product
+:
+fennec
 worker
 -
 type

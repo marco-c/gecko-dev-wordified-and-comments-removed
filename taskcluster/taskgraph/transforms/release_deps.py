@@ -43,8 +43,18 @@ job_or_task
 get
 (
 '
+shipping
+-
 product
 '
+job_or_task
+.
+get
+(
+'
+product
+'
+)
 )
     
 if
