@@ -468,6 +468,7 @@ manualUpdateUrl
 showUpdateNotification
 (
 type
+mainActionDismiss
 dismissed
 mainAction
 beforeShowDoorhanger
@@ -530,6 +531,9 @@ win
 )
 ;
 }
+dismiss
+:
+mainActionDismiss
 }
 ;
 let
@@ -634,6 +638,7 @@ showUpdateNotification
 "
 restart
 "
+true
 dismissed
 (
 )
@@ -660,6 +665,7 @@ showUpdateNotification
 "
 available
 "
+false
 dismissed
 (
 )
@@ -731,6 +737,7 @@ showUpdateNotification
 "
 manual
 "
+false
 dismissed
 win
 =
