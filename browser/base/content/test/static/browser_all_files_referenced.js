@@ -1204,9 +1204,6 @@ platforms
 "
 linux
 "
-"
-win
-"
 ]
 }
 {
