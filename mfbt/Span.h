@@ -3224,6 +3224,16 @@ ext
 data_
 (
 elements
+?
+elements
+:
+reinterpret_cast
+<
+pointer
+>
+(
+0x1
+)
 )
 {
 MOZ_RELEASE_ASSERT
