@@ -112,6 +112,10 @@ CompileMode
 mode
 ;
 const
+Shareable
+sharedMemoryEnabled
+;
+const
 Tier
 tier
 ;
@@ -196,6 +200,13 @@ DebugEnabled
 :
 :
 False
+Shareable
+sharedMemoryEnabled
+=
+Shareable
+:
+:
+False
 ModuleKind
 kind
 =
@@ -216,6 +227,10 @@ kind
 mode
 (
 mode
+)
+sharedMemoryEnabled
+(
+sharedMemoryEnabled
 )
 tier
 (
@@ -3588,6 +3603,9 @@ MOZ_MUST_USE
 bool
 Validate
 (
+JSContext
+*
+cx
 const
 ShareableBytes
 &
