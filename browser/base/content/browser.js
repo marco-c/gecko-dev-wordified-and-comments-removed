@@ -41099,11 +41099,13 @@ tm
 .
 dispatchToMainThread
 (
+async
 (
 )
 =
 >
 {
+await
 Weave
 .
 Service
