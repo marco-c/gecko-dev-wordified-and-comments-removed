@@ -392,7 +392,6 @@ dest
 >
 mSize
 destTarget
-true
 )
 ;
 }
@@ -452,7 +451,6 @@ dest
 -
 >
 mSize
-true
 )
 ;
 }
@@ -633,14 +631,6 @@ dest
 >
 mSize
 srcTarget
-!
-!
-gl
--
->
-Screen
-(
-)
 )
 ;
 }
@@ -700,7 +690,6 @@ dest
 -
 >
 mSize
-true
 )
 ;
 }
