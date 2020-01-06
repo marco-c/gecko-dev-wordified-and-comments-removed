@@ -742,6 +742,11 @@ FlushType
 h
 '
 '
+RangeBoundary
+.
+h
+'
+'
 TextInputProcessor
 .
 h
