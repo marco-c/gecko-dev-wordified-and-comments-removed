@@ -99,6 +99,16 @@ aTexture
 override
 ;
 virtual
+bool
+AcquireTextureSource
+(
+CompositableTextureSourceRef
+&
+aTexture
+)
+override
+;
+virtual
 already_AddRefed
 <
 gfx
