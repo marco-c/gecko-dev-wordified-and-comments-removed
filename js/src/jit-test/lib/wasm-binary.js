@@ -424,6 +424,12 @@ I64TruncUF64Code
 const
 FirstInvalidOpcode
 =
+wasmThreadsSupported
+(
+)
+?
+0xc5
+:
 0xc0
 ;
 const

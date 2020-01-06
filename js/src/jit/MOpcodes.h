@@ -404,7 +404,12 @@ Ursh
 \
 _
 (
-SignExtend
+SignExtendInt32
+)
+\
+_
+(
+SignExtendInt64
 )
 \
 _

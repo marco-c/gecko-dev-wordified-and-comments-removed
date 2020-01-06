@@ -3379,9 +3379,9 @@ ins
 )
 ;
 void
-visitSignExtend
+visitSignExtendInt32
 (
-LSignExtend
+LSignExtendInt32
 *
 ins
 )

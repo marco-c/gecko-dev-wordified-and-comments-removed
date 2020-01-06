@@ -777,6 +777,14 @@ MExtendInt32ToInt64
 ins
 )
 ;
+void
+visitSignExtendInt64
+(
+MSignExtendInt64
+*
+ins
+)
+;
 }
 ;
 typedef

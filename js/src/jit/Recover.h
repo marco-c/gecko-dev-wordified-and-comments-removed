@@ -96,7 +96,7 @@ Ursh
 \
 _
 (
-SignExtend
+SignExtendInt32
 )
 \
 _
@@ -906,7 +906,7 @@ override
 }
 ;
 class
-RSignExtend
+RSignExtendInt32
 final
 :
 public
@@ -921,7 +921,7 @@ public
 :
 RINSTRUCTION_HEADER_NUM_OP_
 (
-SignExtend
+SignExtendInt32
 1
 )
 MOZ_MUST_USE

@@ -1088,6 +1088,15 @@ lir
 ;
 virtual
 void
+visitSignExtendInt64
+(
+LSignExtendInt64
+*
+ins
+)
+;
+virtual
+void
 visitAddI64
 (
 LAddI64
