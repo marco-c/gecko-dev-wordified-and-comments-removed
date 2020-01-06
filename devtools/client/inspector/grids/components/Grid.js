@@ -362,7 +362,7 @@ getStr
 "
 layout
 .
-noGrids
+noGridsOnThisPage
 "
 )
 )
