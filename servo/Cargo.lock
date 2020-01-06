@@ -25750,9 +25750,9 @@ servo
 websocket
 0
 .
-19
+20
 .
-1
+0
 (
 registry
 +
@@ -38942,9 +38942,9 @@ version
 "
 0
 .
-19
+20
 .
-1
+0
 "
 source
 =
@@ -38974,9 +38974,9 @@ dependencies
 [
 "
 bitflags
-0
+1
 .
-7
+0
 .
 0
 (
@@ -58678,9 +58678,9 @@ servo
 websocket
 0
 .
-19
+20
 .
-1
+0
 (
 registry
 +
@@ -58705,7 +58705,7 @@ index
 "
 =
 "
-8a1ff13c5d852c2793805226e688044309f2c1d8f063784805a13e99cb75b611
+efde78dfcf2178d5a11e1e2268e0d8df0627dfe2724546db8585d6678e1af150
 "
 "
 checksum
