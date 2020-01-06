@@ -415,6 +415,8 @@ const
 void
 TryToFlushPendingNotifications
 (
+bool
+aAllowAsync
 )
 ;
 void
