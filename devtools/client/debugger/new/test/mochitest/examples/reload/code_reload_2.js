@@ -1,0 +1,14 @@
+function
+foo
+(
+)
+{
+console
+.
+log
+(
+"
+YO
+"
+)
+}
