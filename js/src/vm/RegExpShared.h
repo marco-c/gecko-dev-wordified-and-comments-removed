@@ -350,7 +350,7 @@ jitCode
 }
 }
 ;
-HeapPtr
+GCPtr
 <
 JSAtom
 *
