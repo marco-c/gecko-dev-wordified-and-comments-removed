@@ -4242,6 +4242,15 @@ true
 ;
 sandbox
 .
+layerChecksEnabled
+=
+!
+sandbox
+.
+webrender
+;
+sandbox
+.
 Android
 =
 xr
