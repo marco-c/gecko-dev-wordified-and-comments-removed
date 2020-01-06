@@ -41,7 +41,6 @@ utils
 const
 {
 ProgressGraphHelper
-appendPathElement
 getPreferredKeyframesProgressThreshold
 }
 =
@@ -448,6 +447,8 @@ color
 "
 )
 {
+graphHelper
+.
 appendPathElement
 (
 parentEl
@@ -478,6 +479,8 @@ y
 const
 path
 =
+graphHelper
+.
 appendPathElement
 (
 parentEl
