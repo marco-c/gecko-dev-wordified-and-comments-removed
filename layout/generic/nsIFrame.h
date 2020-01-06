@@ -357,6 +357,9 @@ layers
 class
 Layer
 ;
+class
+LayerManager
+;
 }
 }
 typedef
@@ -1551,6 +1554,16 @@ layers
 :
 Layer
 Layer
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+LayerManager
+LayerManager
 ;
 typedef
 mozilla

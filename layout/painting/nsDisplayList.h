@@ -17424,9 +17424,9 @@ ScrollMetadata
 >
 ComputeScrollMetadata
 (
-Layer
+LayerManager
 *
-aLayer
+aLayerManager
 const
 ContainerLayerParameters
 &
@@ -18350,9 +18350,9 @@ ScrollMetadata
 >
 ComputeScrollMetadata
 (
-Layer
+LayerManager
 *
-aLayer
+aLayerManager
 const
 ContainerLayerParameters
 &

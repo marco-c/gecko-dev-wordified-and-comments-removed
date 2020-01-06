@@ -110,6 +110,9 @@ layers
 class
 Layer
 ;
+class
+LayerManager
+;
 }
 }
 class
@@ -699,6 +702,15 @@ layers
 Layer
 *
 aLayer
+mozilla
+:
+:
+layers
+:
+:
+LayerManager
+*
+aLayerManager
 const
 nsIFrame
 *
