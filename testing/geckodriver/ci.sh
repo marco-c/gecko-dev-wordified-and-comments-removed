@@ -340,6 +340,8 @@ gnu
 |
 musl
 )
+|
+darwin
 "
 then
 cargo
@@ -481,6 +483,17 @@ musl
 target
 =
 linux64
+;
+;
+x86_64
+-
+apple
+-
+darwin
+)
+target
+=
+mac
 ;
 ;
 esac
