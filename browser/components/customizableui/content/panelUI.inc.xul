@@ -3371,6 +3371,11 @@ overflow
 -
 mainView
 "
+disablekeynav
+=
+"
+true
+"
 >
 <
 panelview
