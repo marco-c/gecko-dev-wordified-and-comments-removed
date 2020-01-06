@@ -563,9 +563,9 @@ WebRenderAPI
 wr
 :
 :
-RenderApi
+DocumentHandle
 *
-aRawApi
+aHandle
 wr
 :
 :
@@ -582,9 +582,9 @@ SyncHandle
 aSyncHandle
 )
 :
-mRenderApi
+mDocHandle
 (
-aRawApi
+aHandle
 )
 mId
 (
@@ -617,9 +617,9 @@ WaitFlushed
 wr
 :
 :
-RenderApi
+DocumentHandle
 *
-mRenderApi
+mDocHandle
 ;
 wr
 :
