@@ -543,6 +543,16 @@ XCode
 project
 cruft
 ^
+[
+^
+/
+]
+*
+\
+.
+xcodeproj
+/
+^
 embedding
 /
 ios
