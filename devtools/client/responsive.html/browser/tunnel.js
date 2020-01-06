@@ -1120,6 +1120,10 @@ InlineSpellChecker
 :
 "
 "
+MessageChannel
+:
+"
+"
 PageInfo
 :
 "
@@ -1153,6 +1157,10 @@ Findbar
 "
 "
 Finder
+:
+"
+"
+MessageChannel
 :
 "
 "
