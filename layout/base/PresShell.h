@@ -2226,6 +2226,10 @@ mozilla
 StyleSheet
 *
 aStyleSheet
+StyleSheet
+:
+:
+ChangeType
 )
 ;
 void

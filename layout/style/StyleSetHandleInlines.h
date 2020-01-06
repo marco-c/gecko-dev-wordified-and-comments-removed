@@ -1002,6 +1002,11 @@ RecordStyleSheetChange
 StyleSheet
 *
 aSheet
+StyleSheet
+:
+:
+ChangeType
+aChangeType
 )
 {
 FORWARD_CONCRETE
@@ -1014,6 +1019,7 @@ aSheet
 AsGecko
 (
 )
+aChangeType
 )
 (
 aSheet
@@ -1022,6 +1028,7 @@ aSheet
 AsServo
 (
 )
+aChangeType
 )
 )
 ;

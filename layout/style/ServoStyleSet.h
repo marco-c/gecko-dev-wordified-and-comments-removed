@@ -339,6 +339,10 @@ mozilla
 :
 ServoStyleSheet
 *
+StyleSheet
+:
+:
+ChangeType
 )
 {
 NoteStyleSheetsChanged

@@ -705,6 +705,10 @@ RecordStyleSheetChange
 StyleSheet
 *
 aSheet
+StyleSheet
+:
+:
+ChangeType
 )
 ;
 inline
