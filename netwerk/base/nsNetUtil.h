@@ -800,8 +800,10 @@ outChannel
 nsIURI
 *
 aUri
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aStream
 const
 nsACString
@@ -826,8 +828,10 @@ outChannel
 nsIURI
 *
 aUri
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aStream
 const
 nsACString

@@ -1696,6 +1696,14 @@ nsIChannel
 >
 channel
 ;
+RefPtr
+<
+nsJSThunk
+>
+thunk
+=
+mIOThunk
+;
 rv
 =
 NS_NewInputStreamChannelInternal
@@ -1705,7 +1713,11 @@ getter_AddRefs
 channel
 )
 aURI
-mIOThunk
+thunk
+.
+forget
+(
+)
 NS_LITERAL_CSTRING
 (
 "

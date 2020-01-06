@@ -580,6 +580,10 @@ mChannel
 )
 uri
 stream
+.
+forget
+(
+)
 NS_LITERAL_CSTRING
 (
 "

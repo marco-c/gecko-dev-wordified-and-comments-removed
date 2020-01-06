@@ -3883,6 +3883,10 @@ channel
 )
 uri
 stream
+.
+forget
+(
+)
 NS_ConvertUTF16toUTF8
 (
 contentType

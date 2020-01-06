@@ -358,6 +358,10 @@ mChannel
 )
 aURI
 inputStream
+.
+forget
+(
+)
 NS_LITERAL_CSTRING
 (
 "
