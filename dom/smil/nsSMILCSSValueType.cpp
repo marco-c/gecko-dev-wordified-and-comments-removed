@@ -1976,10 +1976,8 @@ destWrapper
 -
 >
 mGeckoValue
-valueToAddWrapper
--
->
-mGeckoValue
+*
+valueToAdd
 aCount
 )
 ;
