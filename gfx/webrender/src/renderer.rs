@@ -14,6 +14,7 @@ api
 :
 {
 ColorF
+ColorU
 Epoch
 PipelineId
 RenderApiSender
@@ -2938,7 +2939,7 @@ Alpha
 PremultipliedAlpha
 Subpixel
 (
-ColorF
+ColorU
 )
 }
 struct
@@ -12393,6 +12394,10 @@ device
 set_blend_mode_subpixel
 (
 color
+.
+into
+(
+)
 )
 ;
 }

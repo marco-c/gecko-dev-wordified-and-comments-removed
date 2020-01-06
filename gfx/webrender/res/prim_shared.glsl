@@ -4056,6 +4056,9 @@ layer
 vec2
 offset
 ;
+float
+scale
+;
 }
 ;
 GlyphResource
@@ -4095,6 +4098,12 @@ data
 ]
 .
 yz
+data
+[
+1
+]
+.
+w
 )
 ;
 }

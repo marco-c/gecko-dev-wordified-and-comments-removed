@@ -1058,7 +1058,7 @@ Alpha
 (
 AlphaRenderTask
 )
-CachePrimitive
+Picture
 (
 PrimitiveIndex
 )
@@ -1229,7 +1229,7 @@ frame_output_pipeline_id
 }
 pub
 fn
-new_prim_cache
+new_picture
 (
 size
 :
@@ -1270,7 +1270,7 @@ kind
 RenderTaskKind
 :
 :
-CachePrimitive
+Picture
 (
 prim_index
 )
@@ -1516,6 +1516,12 @@ ref
 inner
 )
 if
+!
+work_item
+.
+apply_rectangles
+&
+&
 !
 inner
 .
@@ -1898,7 +1904,7 @@ task
 RenderTaskKind
 :
 :
-CachePrimitive
+Picture
 (
 .
 .
@@ -2004,7 +2010,7 @@ task
 RenderTaskKind
 :
 :
-CachePrimitive
+Picture
 (
 .
 .
@@ -2183,7 +2189,7 @@ f32
 RenderTaskKind
 :
 :
-CachePrimitive
+Picture
 (
 .
 .
@@ -2786,7 +2792,7 @@ Alpha
 RenderTaskKind
 :
 :
-CachePrimitive
+Picture
 (
 .
 .
@@ -2907,7 +2913,7 @@ Alpha
 RenderTaskKind
 :
 :
-CachePrimitive
+Picture
 (
 .
 .

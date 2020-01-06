@@ -310,6 +310,7 @@ rect
 vec2
 size
 =
+(
 res
 .
 uv_rect
@@ -321,6 +322,11 @@ res
 uv_rect
 .
 xy
+)
+*
+res
+.
+scale
 ;
 vec2
 local_pos
