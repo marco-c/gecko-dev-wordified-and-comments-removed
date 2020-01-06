@@ -120,6 +120,11 @@ GeckoViewProgress
 jsm
 '
 '
+GeckoViewRemoteDebugger
+.
+jsm
+'
+'
 GeckoViewScroll
 .
 jsm

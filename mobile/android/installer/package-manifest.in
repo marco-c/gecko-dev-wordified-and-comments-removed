@@ -2533,9 +2533,6 @@ features
 *
 ;
 DevTools
-#
-ifndef
-MOZ_GECKOVIEW_JAR
 BINPATH
 /
 chrome
@@ -2549,8 +2546,6 @@ chrome
 devtools
 .
 manifest
-#
-endif
 ;
 [
 Default
