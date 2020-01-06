@@ -4372,7 +4372,7 @@ AreDialogsEnabled
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 TemporarilyDisableDialogs

@@ -1015,7 +1015,7 @@ return
 rv
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Init
@@ -2021,7 +2021,7 @@ ShutdownJSEnvironment
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 ShutDown

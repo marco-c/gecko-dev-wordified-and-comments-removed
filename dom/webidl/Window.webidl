@@ -3007,7 +3007,7 @@ cpp
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3024,7 +3024,7 @@ STATE_MAXIMIZED
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3041,7 +3041,7 @@ STATE_MINIMIZED
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3058,7 +3058,7 @@ STATE_NORMAL
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3075,7 +3075,7 @@ STATE_FULLSCREEN
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3091,7 +3091,7 @@ windowState
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3141,7 +3141,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3157,7 +3157,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3173,7 +3173,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3191,7 +3191,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3208,7 +3208,7 @@ cursor
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3224,7 +3224,7 @@ maximize
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3240,7 +3240,7 @@ minimize
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3283,7 +3283,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3301,7 +3301,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3344,7 +3344,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3444,7 +3444,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsPrivilegedChromeWindow
@@ -3669,7 +3669,7 @@ Throws
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsRequestIdleCallbackEnabled
@@ -3690,7 +3690,7 @@ options
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsRequestIdleCallbackEnabled

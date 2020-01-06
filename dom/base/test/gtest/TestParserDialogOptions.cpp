@@ -79,7 +79,7 @@ token
 ;
 while
 (
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 TokenizeDialogOptions
@@ -162,7 +162,7 @@ input
 nsAutoString
 result
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 ConvertDialogOptions
