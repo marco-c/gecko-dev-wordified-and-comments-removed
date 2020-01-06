@@ -13,10 +13,6 @@ dependencies
 :
 -
 build
--
-build
--
-signing
 transforms
 :
 -

@@ -64,21 +64,6 @@ in
 jobs
 :
         
-dependent_tasks
-=
-get_dependent_loaded_tasks
-(
-config
-loaded_tasks
-)
-        
-if
-not
-dependent_tasks
-:
-            
-continue
-        
 job
 [
 '
@@ -88,7 +73,11 @@ tasks
 '
 ]
 =
-dependent_tasks
+get_dependent_loaded_tasks
+(
+config
+loaded_tasks
+)
         
 yield
 job

@@ -520,6 +520,7 @@ platform
 tests
 -
 reftests
+#
 -
 xpcshell
 windows
