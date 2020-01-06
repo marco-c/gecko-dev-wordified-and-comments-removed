@@ -170,7 +170,6 @@ windows
 .
 png
 )
-*
 skin
 /
 windows
@@ -203,7 +202,6 @@ osx
 .
 png
 )
-*
 skin
 /
 osx
@@ -235,7 +233,6 @@ linux
 .
 png
 )
-*
 skin
 /
 linux

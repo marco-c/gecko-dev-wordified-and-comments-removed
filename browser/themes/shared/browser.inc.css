@@ -1,8 +1,5 @@
 %
 ifdef
-MOZ_PHOTON_THEME
-%
-ifdef
 CAN_DRAW_IN_TITLEBAR
 %
 ifdef
@@ -74,8 +71,6 @@ start
 40px
 ;
 }
-%
-endif
 .
 urlbar
 -
