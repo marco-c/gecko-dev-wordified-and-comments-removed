@@ -293,6 +293,15 @@ suffix
 tel
 "
 "
+tel
+-
+extension
+"
+:
+"
+tel
+"
+"
 email
 "
 :
