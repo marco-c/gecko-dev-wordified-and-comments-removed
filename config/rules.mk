@@ -291,7 +291,10 @@ endif
 s
 _VPATH_SRCS
 =
+(
+abspath
 <
+)
 #
 #
 #
