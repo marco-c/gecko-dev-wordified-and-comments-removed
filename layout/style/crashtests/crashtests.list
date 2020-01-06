@@ -1156,6 +1156,12 @@ load
 1
 .
 xhtml
+skip
+-
+if
+(
+Android
+)
 load
 1371450
 -
