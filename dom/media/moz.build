@@ -589,6 +589,11 @@ DOMMediaStream
 h
 '
 '
+EncodedBufferCache
+.
+h
+'
+'
 FileBlockCache
 .
 h
@@ -1086,6 +1091,11 @@ AudioTrackList
 cpp
 '
 '
+BaseMediaResource
+.
+cpp
+'
+'
 Benchmark
 .
 cpp
@@ -1122,6 +1132,11 @@ cpp
 '
 '
 DOMMediaStream
+.
+cpp
+'
+'
+EncodedBufferCache
 .
 cpp
 '
