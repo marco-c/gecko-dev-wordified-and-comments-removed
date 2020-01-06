@@ -1009,11 +1009,6 @@ type
 "
 autocomplete
 "
-class
-=
-"
-padded
-"
 flex
 =
 "
