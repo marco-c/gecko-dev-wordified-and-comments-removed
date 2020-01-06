@@ -465,12 +465,7 @@ name_
 aComputeData
 >
 (
-this
--
->
-AsGecko
-(
-)
+gecko
 mBits
 )
 ;
@@ -1107,12 +1102,7 @@ name_
 aComputeData
 >
 (
-this
--
->
-AsGecko
-(
-)
+gecko
 )
 ;
 \
