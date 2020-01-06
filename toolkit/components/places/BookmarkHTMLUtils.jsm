@@ -3551,6 +3551,11 @@ bookmarks
 insertTree
 (
 tree
+{
+fixupOrSkipInvalidEntries
+:
+true
+}
 )
 ;
 insertFaviconsForTree
