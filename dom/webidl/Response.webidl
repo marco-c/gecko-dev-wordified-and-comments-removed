@@ -261,6 +261,14 @@ Response
 {
 [
 GetterThrows
+Func
+=
+"
+nsContentUtils
+:
+:
+StreamsEnabled
+"
 ]
 readonly
 attribute
