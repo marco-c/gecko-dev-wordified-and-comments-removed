@@ -272,6 +272,8 @@ let
 mut
 n
 =
+unsafe
+{
 ops
 .
 malloc_size_of
@@ -284,6 +286,7 @@ ptr
 (
 )
 )
+}
 ;
 n
 +
@@ -3913,6 +3916,8 @@ iter_children
 n
 +
 =
+unsafe
+{
 ops
 .
 malloc_size_of
@@ -3923,6 +3928,7 @@ ptr
 (
 )
 )
+}
 ;
 n
 +

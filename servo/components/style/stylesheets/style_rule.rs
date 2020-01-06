@@ -253,6 +253,8 @@ iter
 n
 +
 =
+unsafe
+{
 ops
 .
 malloc_size_of
@@ -263,6 +265,7 @@ thin_arc_heap_ptr
 (
 )
 )
+}
 ;
 }
 n
