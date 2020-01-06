@@ -248,7 +248,7 @@ of
 the
 indicator
 (
-4dp
+6dp
 )
 .
 This
@@ -274,7 +274,7 @@ name
 tabs_panel_indicator_selected_padding_top
 "
 >
-52dp
+50dp
 <
 /
 dimen
