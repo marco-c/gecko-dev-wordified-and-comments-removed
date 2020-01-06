@@ -162,6 +162,9 @@ attribute
 nsIDOMEventTarget
 target
 ;
+[
+noscript
+]
 readonly
 attribute
 nsIArray
