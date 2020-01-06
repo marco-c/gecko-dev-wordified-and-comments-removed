@@ -7545,6 +7545,14 @@ mGroupMessageManagers
 }
 mChromeFields
 ;
+static
+bool
+sMouseDown
+;
+static
+bool
+sDragServiceDisabled
+;
 friend
 class
 nsDOMScriptableHelper
