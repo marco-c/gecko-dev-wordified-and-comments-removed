@@ -320,7 +320,7 @@ HitTestResult
 HitTest
 (
 const
-ParentLayerPoint
+LayerPoint
 &
 aPoint
 )
