@@ -1090,6 +1090,13 @@ nsIAtom
 aAttribute
 )
 ;
+bool
+HasStateDependency
+(
+EventStates
+aState
+)
+;
 private
 :
 class
