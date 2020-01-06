@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
@@ -452,8 +461,11 @@ OnHeap
 return
 ;
 }
+DebugOnly
+<
 void
 *
+>
 addr
 =
 VirtualAllocEx
