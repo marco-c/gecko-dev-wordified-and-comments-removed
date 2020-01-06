@@ -1162,6 +1162,8 @@ transitions
 "
 ]
         
+kwargs
+=
 updatecommandline
 .
 check_args

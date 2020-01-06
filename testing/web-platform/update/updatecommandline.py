@@ -170,9 +170,11 @@ wptrunner
 import
 wptcommandline
     
+kwargs
+=
 wptcommandline
 .
-set_from_config
+check_args_update
 (
 kwargs
 )
