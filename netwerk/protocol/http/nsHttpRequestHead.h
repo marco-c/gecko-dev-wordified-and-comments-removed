@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RecursiveMutex
 .
 h
 "
@@ -70,9 +70,9 @@ Enter
 (
 )
 {
-mReentrantMonitor
+mRecursiveMutex
 .
-Enter
+Lock
 (
 )
 ;
@@ -82,9 +82,9 @@ Exit
 (
 )
 {
-mReentrantMonitor
+mRecursiveMutex
 .
-Exit
+Unlock
 (
 )
 ;
@@ -501,8 +501,8 @@ mParsedMethod
 bool
 mHTTPS
 ;
-ReentrantMonitor
-mReentrantMonitor
+RecursiveMutex
+mRecursiveMutex
 ;
 bool
 mInVisitHeaders
