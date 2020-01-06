@@ -280,6 +280,15 @@ extensions
 /
 ext
 -
+toolkit
+.
+json
+content
+/
+extensions
+/
+ext
+-
 topSites
 .
 js

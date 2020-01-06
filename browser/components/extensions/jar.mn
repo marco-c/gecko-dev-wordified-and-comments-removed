@@ -136,6 +136,15 @@ browser
 /
 ext
 -
+browser
+.
+json
+content
+/
+browser
+/
+ext
+-
 browserAction
 .
 js
