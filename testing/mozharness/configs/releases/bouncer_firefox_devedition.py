@@ -85,6 +85,8 @@ alias
 "
 :
 "
+firefox
+-
 devedition
 -
 latest
@@ -423,6 +425,8 @@ alias
 "
 :
 "
+firefox
+-
 devedition
 -
 latest
@@ -763,6 +767,8 @@ alias
 "
 :
 "
+firefox
+-
 devedition
 -
 stub

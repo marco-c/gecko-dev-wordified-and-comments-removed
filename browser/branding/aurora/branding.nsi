@@ -198,6 +198,8 @@ AB_CD
 &
 product
 =
+firefox
+-
 devedition
 -
 latest
@@ -229,6 +231,8 @@ AB_CD
 &
 product
 =
+firefox
+-
 devedition
 -
 latest
