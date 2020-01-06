@@ -19,15 +19,15 @@ https
 :
 /
 /
-aus4
+balrog
 -
 admin
--
-dev
 .
-allizom
+stage
 .
-org
+mozaws
+.
+net
 /
 api
 '
@@ -49,6 +49,8 @@ firefox
 '
 :
 '
+balrog
+-
 stage
 -
 ffxbld
@@ -59,6 +61,8 @@ thunderbird
 '
 :
 '
+balrog
+-
 stage
 -
 tbirdbld
@@ -69,6 +73,8 @@ mobile
 '
 :
 '
+balrog
+-
 stage
 -
 ffxbld
@@ -79,6 +85,8 @@ Fennec
 '
 :
 '
+balrog
+-
 stage
 -
 ffxbld

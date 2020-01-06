@@ -86,6 +86,8 @@ firefox
 '
 :
 '
+balrog
+-
 ffxbld
 '
                 
@@ -94,6 +96,8 @@ thunderbird
 '
 :
 '
+balrog
+-
 tbirdbld
 '
                 
@@ -102,6 +106,8 @@ mobile
 '
 :
 '
+balrog
+-
 ffxbld
 '
                 
@@ -110,6 +116,8 @@ Fennec
 '
 :
 '
+balrog
+-
 ffxbld
 '
             
