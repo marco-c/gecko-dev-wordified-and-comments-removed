@@ -4,7 +4,6 @@ devtools_traits
 :
 {
 AutoMargins
-CONSOLE_API
 CachedConsoleMessage
 CachedConsoleMessageTypes
 }
@@ -27,7 +26,6 @@ devtools_traits
 EvaluateJSReply
 Modification
 NodeInfo
-PAGE_ERROR
 TimelineMarker
 }
 ;
@@ -1518,6 +1516,9 @@ message_types
 .
 contains
 (
+CachedConsoleMessageTypes
+:
+:
 PAGE_ERROR
 )
 {
@@ -1615,6 +1616,9 @@ message_types
 .
 contains
 (
+CachedConsoleMessageTypes
+:
+:
 CONSOLE_API
 )
 {

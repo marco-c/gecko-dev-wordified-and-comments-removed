@@ -264,10 +264,7 @@ use
 traversal_flags
 :
 :
-{
 TraversalFlags
-self
-}
 ;
 #
 [
@@ -2477,7 +2474,7 @@ traversal_flags
 .
 contains
 (
-traversal_flags
+TraversalFlags
 :
 :
 UnstyledOnly

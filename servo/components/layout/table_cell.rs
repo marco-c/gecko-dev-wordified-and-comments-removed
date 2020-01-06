@@ -71,7 +71,7 @@ flow
 self
 Flow
 FlowClass
-IS_ABSOLUTELY_POSITIONED
+FlowFlags
 OpaqueFlow
 }
 ;
@@ -499,6 +499,9 @@ flags
 .
 contains
 (
+FlowFlags
+:
+:
 IS_ABSOLUTELY_POSITIONED
 )
 {
@@ -761,6 +764,9 @@ flags
 .
 contains
 (
+FlowFlags
+:
+:
 IS_ABSOLUTELY_POSITIONED
 )
 {

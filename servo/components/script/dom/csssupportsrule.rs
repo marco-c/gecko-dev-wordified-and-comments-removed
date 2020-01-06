@@ -180,7 +180,7 @@ style_traits
 :
 :
 {
-PARSING_MODE_DEFAULT
+ParsingMode
 ToCss
 }
 ;
@@ -515,7 +515,10 @@ CssRuleType
 :
 Supports
 )
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 quirks_mode
 )
 ;

@@ -160,7 +160,7 @@ MallocSizeOf
 )
 ]
 pub
-flags
+struct
 OriginSet
 :
 u8
@@ -201,6 +201,7 @@ Origin
 UserAgent
 as
 u8
+;
 /
 /
 /
@@ -235,6 +236,7 @@ Origin
 User
 as
 u8
+;
 /
 /
 /
@@ -269,6 +271,7 @@ Origin
 Author
 as
 u8
+;
 }
 }
 impl

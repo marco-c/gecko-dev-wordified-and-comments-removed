@@ -426,6 +426,12 @@ style
 :
 :
 thread_state
+:
+:
+{
+self
+ThreadState
+}
 ;
 struct
 AutoWorkerReset
@@ -1098,12 +1104,12 @@ thread_state
 :
 initialize
 (
-thread_state
+ThreadState
 :
 :
 SCRIPT
 |
-thread_state
+ThreadState
 :
 :
 IN_WORKER

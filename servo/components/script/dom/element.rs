@@ -752,7 +752,6 @@ node
 :
 :
 {
-CLICK_IN_PROGRESS
 ChildrenMutation
 LayoutNodeHelpers
 Node
@@ -767,7 +766,7 @@ node
 :
 {
 NodeDamage
-SEQUENTIALLY_FOCUSABLE
+NodeFlags
 UnbindContext
 }
 ;
@@ -991,19 +990,6 @@ use
 selectors
 :
 :
-matching
-:
-:
-{
-HAS_EDGE_CHILD_SELECTOR
-HAS_SLOW_SELECTOR
-HAS_SLOW_SELECTOR_LATER_SIBLINGS
-}
-;
-use
-selectors
-:
-:
 sink
 :
 :
@@ -1139,7 +1125,7 @@ style
 element_state
 :
 :
-*
+ElementState
 ;
 use
 style
@@ -1154,7 +1140,7 @@ element
 restyle_hints
 :
 :
-RESTYLE_SELF
+RestyleHint
 ;
 use
 style
@@ -2192,6 +2178,9 @@ hint
 .
 insert
 (
+RestyleHint
+:
+:
 RESTYLE_SELF
 )
 ;
@@ -7489,6 +7478,9 @@ node
 .
 get_flag
 (
+NodeFlags
+:
+:
 SEQUENTIALLY_FOCUSABLE
 )
 {
@@ -18705,6 +18697,9 @@ flags
 .
 intersects
 (
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR
 )
 {
@@ -18751,6 +18746,9 @@ flags
 .
 intersects
 (
+ElementSelectorFlags
+:
+:
 HAS_SLOW_SELECTOR_LATER_SIBLINGS
 )
 {
@@ -18807,6 +18805,9 @@ flags
 .
 intersects
 (
+ElementSelectorFlags
+:
+:
 HAS_EDGE_CHILD_SELECTOR
 )
 {
@@ -20649,6 +20650,9 @@ Node
 .
 get_flag
 (
+NodeFlags
+:
+:
 CLICK_IN_PROGRESS
 )
 }
@@ -20676,6 +20680,9 @@ Node
 .
 set_flag
 (
+NodeFlags
+:
+:
 CLICK_IN_PROGRESS
 click
 )
@@ -21454,6 +21461,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_ACTIVE_STATE
 )
 }
@@ -21497,6 +21507,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_ACTIVE_STATE
 value
 )
@@ -21553,6 +21566,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_FOCUS_STATE
 )
 }
@@ -21571,6 +21587,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_FOCUS_STATE
 value
 )
@@ -21616,6 +21635,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_HOVER_STATE
 )
 }
@@ -21634,6 +21656,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_HOVER_STATE
 value
 )
@@ -21659,6 +21684,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_ENABLED_STATE
 )
 }
@@ -21677,6 +21705,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_ENABLED_STATE
 value
 )
@@ -21702,6 +21733,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_DISABLED_STATE
 )
 }
@@ -21720,6 +21754,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_DISABLED_STATE
 value
 )
@@ -21745,6 +21782,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_READ_WRITE_STATE
 )
 }
@@ -21763,6 +21803,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_READ_WRITE_STATE
 value
 )
@@ -21788,6 +21831,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_PLACEHOLDER_SHOWN_STATE
 )
 }
@@ -21816,6 +21862,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_PLACEHOLDER_SHOWN_STATE
 value
 )
@@ -21862,6 +21911,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_TARGET_STATE
 )
 }
@@ -21880,6 +21932,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_TARGET_STATE
 value
 )
@@ -21905,6 +21960,9 @@ get
 .
 contains
 (
+ElementState
+:
+:
 IN_FULLSCREEN_STATE
 )
 }
@@ -21923,6 +21981,9 @@ self
 .
 set_state
 (
+ElementState
+:
+:
 IN_FULLSCREEN_STATE
 value
 )

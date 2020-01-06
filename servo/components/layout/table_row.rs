@@ -186,10 +186,7 @@ servo
 restyle_damage
 :
 :
-{
-REFLOW
-REFLOW_OUT_OF_FLOW
-}
+ServoRestyleDamage
 ;
 use
 style
@@ -505,6 +502,9 @@ restyle_damage
 .
 contains
 (
+ServoRestyleDamage
+:
+:
 REFLOW
 )
 {
@@ -922,8 +922,14 @@ restyle_damage
 .
 remove
 (
+ServoRestyleDamage
+:
+:
 REFLOW_OUT_OF_FLOW
 |
+ServoRestyleDamage
+:
+:
 REFLOW
 )
 ;

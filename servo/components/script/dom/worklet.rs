@@ -527,6 +527,12 @@ style
 :
 :
 thread_state
+:
+:
+{
+self
+ThreadState
+}
 ;
 use
 swapper
@@ -1995,12 +2001,12 @@ thread_state
 :
 initialize
 (
-thread_state
+ThreadState
 :
 :
 SCRIPT
 |
-thread_state
+ThreadState
 :
 :
 IN_WORKER

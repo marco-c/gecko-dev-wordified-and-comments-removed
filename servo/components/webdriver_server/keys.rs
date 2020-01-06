@@ -9,7 +9,6 @@ constellation_msg
 Key
 KeyState
 KeyModifiers
-SHIFT
 }
 ;
 fn
@@ -2551,6 +2550,9 @@ modifiers
 if
 with_shift
 {
+KeyModifiers
+:
+:
 SHIFT
 }
 else

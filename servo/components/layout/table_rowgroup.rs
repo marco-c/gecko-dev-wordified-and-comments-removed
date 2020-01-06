@@ -41,7 +41,7 @@ display_list_builder
 :
 :
 {
-NEVER_CREATES_CONTAINING_BLOCK
+StackingContextCollectionFlags
 StackingContextCollectionState
 }
 ;
@@ -956,6 +956,9 @@ block_flow
 collect_stacking_contexts_for_block
 (
 state
+StackingContextCollectionFlags
+:
+:
 NEVER_CREATES_CONTAINING_BLOCK
 )
 ;
