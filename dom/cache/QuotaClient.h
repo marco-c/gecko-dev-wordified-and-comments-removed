@@ -59,14 +59,6 @@ CreateQuotaClient
 (
 )
 ;
-nsresult
-InitPaddingFile
-(
-nsIFile
-*
-aBaseDir
-)
-;
 template
 <
 typename
