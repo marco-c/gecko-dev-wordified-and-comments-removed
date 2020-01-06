@@ -948,6 +948,7 @@ __mips__
 )
 &
 &
+\
 !
 defined
 (
@@ -2078,6 +2079,7 @@ size_t
 #
 define
 CHUNK_MAP_MADVISED_OR_DECOMMITTED
+\
 (
 CHUNK_MAP_MADVISED
 |
@@ -3686,7 +3688,6 @@ CHUNK_CEILING
 (
 s
 )
-\
 (
 (
 (
@@ -3705,7 +3706,6 @@ CACHELINE_CEILING
 (
 s
 )
-\
 (
 (
 (
@@ -3732,7 +3732,6 @@ QUANTUM_CEILING
 (
 a
 )
-\
 (
 (
 (
@@ -3751,7 +3750,6 @@ PAGE_CEILING
 (
 s
 )
-\
 (
 (
 (
@@ -4762,6 +4760,7 @@ __ia64__
 )
 |
 |
+\
 (
 defined
 (
@@ -4993,6 +4992,7 @@ __ia64__
 )
 |
 |
+\
 (
 defined
 (
@@ -5096,6 +5096,7 @@ __ia64__
 )
 |
 |
+\
 (
 defined
 (
@@ -17831,9 +17832,9 @@ return_type
 template
 <
 >
+\
 inline
 return_type
-\
 MozJemalloc
 :
 :
@@ -19721,9 +19722,9 @@ return_type
 template
 <
 >
+\
 inline
 return_type
-\
 MozJemalloc
 :
 :
@@ -19732,6 +19733,7 @@ moz_arena_
 #
 name
 (
+\
 arena_id_t
 aArenaId
 ARGS_HELPER
@@ -19801,9 +19803,9 @@ return_type
 template
 <
 >
+\
 inline
 return_type
-\
 MozJemalloc
 :
 :
@@ -19829,6 +19831,7 @@ MozJemalloc
 :
 name
 (
+\
 ARGS_HELPER
 (
 ARGS
@@ -20076,7 +20079,6 @@ return_type
 .
 .
 )
-\
 MozJemalloc
 :
 :
@@ -20331,7 +20333,6 @@ REPLACE_MALLOC_GET_FUNC
 handle
 name
 )
-\
 replace_
 #
 #
@@ -20391,14 +20392,15 @@ return_type
 template
 <
 >
+\
 inline
 return_type
-\
 ReplaceMalloc
 :
 :
 name
 (
+\
 ARGS_HELPER
 (
 TYPED_ARGS
@@ -20827,6 +20829,7 @@ MALLOC_DECL
 .
 .
 )
+\
 MOZ_MEMORY_API
 MACRO_CALL
 (
@@ -20877,6 +20880,7 @@ MALLOC_DECL
 .
 .
 )
+\
 MOZ_JEMALLOC_API
 MACRO_CALL
 (
