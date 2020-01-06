@@ -119,13 +119,10 @@ macos
 )
 ]
 use
-core_foundation
+foreign_types
 :
 :
-base
-:
-:
-TCFType
+ForeignType
 ;
 #
 [
@@ -856,7 +853,7 @@ handle
 .
 0
 .
-as_concrete_TypeRef
+as_ptr
 (
 )
 as
