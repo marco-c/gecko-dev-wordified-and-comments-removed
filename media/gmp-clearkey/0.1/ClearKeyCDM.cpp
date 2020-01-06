@@ -550,4 +550,7 @@ DecodingComplete
 }
 #
 endif
+delete
+this
+;
 }
