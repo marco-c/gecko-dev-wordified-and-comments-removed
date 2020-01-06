@@ -1676,9 +1676,10 @@ initMainProcess
 (
 GeckoProfile
 .
-get
+initFromArgs
 (
 appContext
+geckoArgs
 )
 geckoArgs
 false
