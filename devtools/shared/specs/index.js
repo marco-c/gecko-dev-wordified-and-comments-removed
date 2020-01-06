@@ -733,7 +733,7 @@ shared
 /
 fronts
 /
-inspector
+node
 "
 }
 {
