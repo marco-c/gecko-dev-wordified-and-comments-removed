@@ -537,9 +537,6 @@ aProofOfLock
 ;
 if
 (
-aUpdateState
-&
-&
 mInputQueueState
 =
 =
@@ -1198,7 +1195,7 @@ Input
 )
 {
 return
-mIdleQueue
+mInputQueue
 -
 >
 HasReadyEvent
