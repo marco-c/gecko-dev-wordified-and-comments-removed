@@ -17,6 +17,13 @@ str
 use
 Url
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 PathSegmentsMut
