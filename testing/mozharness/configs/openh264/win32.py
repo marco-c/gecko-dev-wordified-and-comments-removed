@@ -207,6 +207,8 @@ s
 %
 (
            
+(
+               
 '
 {
 _VSPATH
@@ -224,6 +226,9 @@ VC140
 .
 CRT
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -240,6 +245,9 @@ VC140
 .
 CRT
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -254,6 +262,9 @@ DLLs
 /
 x86
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -268,6 +279,9 @@ DLLs
 /
 x64
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -278,6 +292,9 @@ bin
 /
 amd64_x86
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -288,6 +305,9 @@ bin
 /
 amd64
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -296,6 +316,9 @@ VC
 /
 bin
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -306,6 +329,9 @@ bin
 /
 x86
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -316,6 +342,9 @@ bin
 /
 x64
 ;
+'
+               
+'
 {
 _VSPATH
 }
@@ -325,6 +354,8 @@ SDK
 /
 bin
 '
+           
+)
 .
 format
 (
@@ -420,6 +451,8 @@ VSPATH
 INCLUDE
 '
 :
+(
+           
 '
 {
 _VSPATH
@@ -429,6 +462,9 @@ VC
 /
 include
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -439,6 +475,9 @@ atlmfc
 /
 include
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -457,6 +496,9 @@ Include
 /
 ucrt
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -475,6 +517,9 @@ Include
 /
 shared
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -493,6 +538,9 @@ Include
 /
 um
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -511,6 +559,9 @@ Include
 /
 winrt
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -520,6 +571,8 @@ SDK
 /
 include
 '
+       
+)
 .
 format
 (
@@ -532,6 +585,8 @@ VSPATH
 LIB
 '
 :
+(
+           
 '
 {
 _VSPATH
@@ -541,6 +596,9 @@ VC
 /
 lib
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -551,6 +609,9 @@ atlmfc
 /
 lib
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -571,6 +632,9 @@ ucrt
 /
 x86
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -591,6 +655,9 @@ um
 /
 x86
 ;
+'
+           
+'
 {
 _VSPATH
 }
@@ -600,6 +667,8 @@ SDK
 /
 lib
 '
+        
+)
 .
 format
 (
