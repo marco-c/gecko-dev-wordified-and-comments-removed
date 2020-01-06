@@ -32,9 +32,6 @@ class
 nsICommandParams
 ;
 class
-nsIEditor
-;
-class
 nsISupports
 ;
 class
@@ -619,6 +616,8 @@ bool
 *
 _retval
 )
+override
+final
 ;
 virtual
 nsresult
@@ -838,6 +837,8 @@ bool
 *
 _retval
 )
+override
+final
 ;
 virtual
 nsresult
