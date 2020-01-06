@@ -208,6 +208,11 @@ Fetch
 cpp
 '
 '
+FetchConsumer
+.
+cpp
+'
+'
 FetchController
 .
 cpp
