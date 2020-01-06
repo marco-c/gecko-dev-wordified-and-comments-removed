@@ -83,6 +83,10 @@ IAccessibleHolder
 ;
 typedef
 uint32_t
+IDispatchHolder
+;
+typedef
+uint32_t
 IHandlerControlHolder
 ;
 }
