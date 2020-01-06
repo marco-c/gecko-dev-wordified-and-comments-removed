@@ -1102,6 +1102,11 @@ JSOP_CALLEE
 \
 _
 (
+JSOP_SUPERBASE
+)
+\
+_
+(
 JSOP_GETRVAL
 )
 \
@@ -1732,6 +1737,13 @@ reg
 ;
 Address
 getEnvironmentCoordinateAddress
+(
+Register
+reg
+)
+;
+void
+getThisEnvironmentCallee
 (
 Register
 reg
