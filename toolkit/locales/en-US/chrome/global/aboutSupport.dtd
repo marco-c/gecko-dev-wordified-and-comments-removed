@@ -1155,6 +1155,17 @@ Used
 ENTITY
 aboutSupport
 .
+a11yInstantiator
+"
+Accessibility
+Instantiator
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 libraryVersionsTitle
 "
 Library
