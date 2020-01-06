@@ -1976,8 +1976,6 @@ gecko
 .
 mBinding
 .
-mPtr
-.
 mRawPtr
 .
 is_null
@@ -27532,8 +27530,6 @@ _moz_binding
 '
 '
 mBinding
-.
-mPtr
 '
 )
 }
