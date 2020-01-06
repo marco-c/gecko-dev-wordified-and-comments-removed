@@ -229,6 +229,11 @@ DisplayItemScrollClip
 cpp
 '
 '
+DisplayListChecker
+.
+cpp
+'
+'
 DisplayListClipState
 .
 cpp
