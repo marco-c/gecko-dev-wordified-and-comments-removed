@@ -56,6 +56,7 @@ Copy
 Clone
 Hash
 Debug
+HeapSizeOf
 )
 ]
 pub
