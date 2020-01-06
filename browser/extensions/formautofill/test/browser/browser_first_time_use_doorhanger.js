@@ -266,7 +266,7 @@ hidden
 await
 clickDoorhangerButton
 (
-MAIN_BUTTON
+MAIN_BUTTON_INDEX
 )
 ;
 let
@@ -909,7 +909,7 @@ checked
 await
 clickDoorhangerButton
 (
-MAIN_BUTTON
+MAIN_BUTTON_INDEX
 )
 ;
 let
