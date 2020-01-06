@@ -610,6 +610,7 @@ nextBatchMeta
 )
 ;
 }
+private
 void
 doStoreFailed
 (
