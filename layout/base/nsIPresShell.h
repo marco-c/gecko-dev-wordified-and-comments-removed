@@ -3334,6 +3334,15 @@ bool
 aRetVal
 )
 ;
+virtual
+bool
+HasHandledUserInput
+(
+)
+const
+=
+0
+;
 protected
 :
 void

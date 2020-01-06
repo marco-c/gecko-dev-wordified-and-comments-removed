@@ -2886,6 +2886,12 @@ mMessage
 eLoadError
 ;
 }
+bool
+IsUserAction
+(
+)
+const
+;
 }
 ;
 class
