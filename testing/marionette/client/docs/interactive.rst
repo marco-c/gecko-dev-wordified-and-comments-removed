@@ -85,6 +85,8 @@ literal
 :
 :
 from
+marionette_driver
+.
 marionette
 import
 Marionette
@@ -297,7 +299,7 @@ literal
 :
 :
 from
-marionette
+marionette_driver
 import
 By
 first_link

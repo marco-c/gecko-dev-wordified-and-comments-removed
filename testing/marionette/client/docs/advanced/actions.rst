@@ -13,6 +13,8 @@ py
 currentmodule
 :
 :
+marionette_driver
+.
 marionette
 Action
 Sequences
@@ -91,6 +93,8 @@ Action
 :
 :
 from
+marionette_driver
+.
 marionette
 import
 Actions
@@ -282,6 +286,13 @@ same
 time
 :
 :
+from
+marionette_driver
+.
+marionette
+import
+Actions
+MultiActions
 action1
 =
 Actions

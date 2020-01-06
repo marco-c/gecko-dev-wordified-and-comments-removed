@@ -15,6 +15,8 @@ py
 currentmodule
 :
 :
+marionette_driver
+.
 marionette
 Sometimes
 when
@@ -180,6 +182,9 @@ Server
 ~
 By
 calling
+:
+func
+:
 ~
 Marionette
 .
@@ -201,6 +206,9 @@ later
 be
 retrieved
 using
+:
+func
+:
 ~
 Marionette
 .
@@ -357,6 +365,9 @@ out
 The
 first
 is
+:
+func
+:
 ~
 Marionette
 .
@@ -420,6 +431,9 @@ do
 this
 with
 the
+:
+attr
+:
 ~
 Marionette
 .

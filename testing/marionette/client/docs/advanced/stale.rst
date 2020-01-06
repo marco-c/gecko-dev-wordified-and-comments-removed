@@ -36,6 +36,8 @@ py
 currentmodule
 :
 :
+marionette_driver
+.
 marionette
 Marionette
 does
@@ -119,8 +121,6 @@ func
 HTMLElement
 .
 click
-(
-)
 are
 run
 the
@@ -383,6 +383,14 @@ Conditions
 -
 -
 -
+.
+.
+py
+:
+currentmodule
+:
+:
+marionette_driver
 To
 avoid
 the
@@ -483,6 +491,10 @@ could
 do
 :
 :
+from
+marionette_driver
+import
+Wait
 button
 =
 client
@@ -571,6 +583,10 @@ could
 write
 :
 :
+from
+marionette_driver
+import
+Wait
 button
 =
 client
@@ -631,7 +647,7 @@ see
 mod
 :
 ~
-marionette
+marionette_driver
 .
 expected
 .
