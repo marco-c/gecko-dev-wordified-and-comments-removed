@@ -2992,8 +2992,7 @@ ReportValueError
 (
 cx
 JSMSG_NOT_CONSTRUCTOR
--
-1
+JSDVG_SEARCH_STACK
 cVal
 nullptr
 )
