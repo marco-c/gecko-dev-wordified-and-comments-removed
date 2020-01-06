@@ -301,6 +301,8 @@ IncludeURL
 }
 bool
 enabled
+=
+true
 ;
 if
 (
@@ -336,13 +338,6 @@ SubmitReport
 '
 0
 '
-;
-else
-enabled
-=
-ShouldEnableSending
-(
-)
 ;
 gtk_toggle_button_set_active
 (

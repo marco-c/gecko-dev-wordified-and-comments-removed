@@ -542,11 +542,6 @@ DeleteDump
 )
 ;
 bool
-ShouldEnableSending
-(
-)
-;
-bool
 SendCrashPing
 (
 StringTable
