@@ -4587,12 +4587,6 @@ inflation
 lineThreshold
 100
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 threshold
@@ -4744,12 +4738,6 @@ inflation
 .
 lineThreshold
 100
-)
-fails
--
-if
-(
-styloVsGecko
 )
 =
 =

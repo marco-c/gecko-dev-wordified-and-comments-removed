@@ -278,15 +278,6 @@ layersGPUAccelerated
 102
 4168
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 padding

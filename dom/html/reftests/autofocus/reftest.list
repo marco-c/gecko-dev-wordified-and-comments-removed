@@ -107,12 +107,6 @@ skiaContent
 needs
 -
 focus
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 input

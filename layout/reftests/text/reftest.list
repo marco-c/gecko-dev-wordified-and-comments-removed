@@ -3043,12 +3043,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 449555

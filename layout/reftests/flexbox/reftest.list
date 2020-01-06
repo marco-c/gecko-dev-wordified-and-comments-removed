@@ -165,10 +165,10 @@ items
 properties
 )
 fails
-fails
 -
 if
 (
+!
 styloVsGecko
 )
 =

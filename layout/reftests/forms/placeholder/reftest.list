@@ -319,12 +319,6 @@ browserIsRemote
 1
 8
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 placeholder
