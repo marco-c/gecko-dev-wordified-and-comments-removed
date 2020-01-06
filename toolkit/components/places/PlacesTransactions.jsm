@@ -4477,6 +4477,9 @@ oldIndex
 ;
 }
 ;
+return
+aGuid
+;
 }
 }
 )
