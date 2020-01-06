@@ -205,13 +205,12 @@ objSign
 )
 ;
 CERTCertTrust
-*
+&
 GetTrust
 (
 )
 {
 return
-&
 mTrust
 ;
 }
