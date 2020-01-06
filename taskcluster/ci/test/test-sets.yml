@@ -1475,12 +1475,6 @@ windows8
 tests
 :
 -
-mochitest
--
-browser
--
-chrome
--
 reftest
 -
 no
