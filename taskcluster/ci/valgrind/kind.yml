@@ -210,11 +210,6 @@ releng
 .
 manifest
 "
-needs
--
-sccache
-:
-true
 run
 :
 using
