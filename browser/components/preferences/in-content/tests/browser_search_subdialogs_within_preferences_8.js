@@ -62,7 +62,6 @@ await
 evaluateSearchResults
 (
 "
-set
 camera
 permissions
 "
@@ -108,7 +107,6 @@ await
 evaluateSearchResults
 (
 "
-set
 microphone
 permissions
 "
@@ -154,8 +152,7 @@ await
 evaluateSearchResults
 (
 "
-set
-notifications
+notification
 permissions
 "
 "
