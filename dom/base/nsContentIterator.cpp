@@ -1174,7 +1174,7 @@ InitInternal
 (
 nsINode
 *
-startNode
+aStartContainer
 uint32_t
 startIndx
 nsINode
@@ -1191,7 +1191,7 @@ nsContentUtils
 :
 GetCommonAncestor
 (
-startNode
+aStartContainer
 endNode
 )
 ;
@@ -1211,7 +1211,7 @@ NS_ERROR_FAILURE
 bool
 startIsData
 =
-startNode
+aStartContainer
 -
 >
 IsNodeOfType
@@ -1224,7 +1224,7 @@ eDATA_NODE
 ;
 if
 (
-startNode
+aStartContainer
 =
 =
 endNode
@@ -1257,7 +1257,7 @@ startIsData
 {
 mFirst
 =
-startNode
+aStartContainer
 -
 >
 AsContent
@@ -1316,7 +1316,7 @@ uint32_t
 startIndx
 )
 <
-startNode
+aStartContainer
 -
 >
 GetChildCount
@@ -1326,7 +1326,7 @@ GetChildCount
 {
 cChild
 =
-startNode
+aStartContainer
 -
 >
 GetChildAt
@@ -1363,7 +1363,7 @@ true
 ;
 if
 (
-startNode
+aStartContainer
 -
 >
 IsHTMLElement
@@ -1389,7 +1389,7 @@ nsIAtom
 *
 name
 =
-startNode
+aStartContainer
 -
 >
 NodeInfo
@@ -1436,7 +1436,7 @@ mFirst
 =
 GetNextSibling
 (
-startNode
+aStartContainer
 )
 ;
 NS_WARNING_ASSERTION
@@ -1461,7 +1461,7 @@ NodeIsInTraversalRange
 (
 mFirst
 mPre
-startNode
+aStartContainer
 startIndx
 endNode
 endIndx
@@ -1479,7 +1479,7 @@ else
 {
 mFirst
 =
-startNode
+aStartContainer
 -
 >
 AsContent
@@ -1495,7 +1495,7 @@ if
 NS_WARN_IF
 (
 !
-startNode
+aStartContainer
 -
 >
 IsContent
@@ -1513,7 +1513,7 @@ else
 {
 mFirst
 =
-startNode
+aStartContainer
 -
 >
 AsContent
@@ -1564,7 +1564,7 @@ NodeIsInTraversalRange
 (
 mFirst
 mPre
-startNode
+aStartContainer
 startIndx
 endNode
 endIndx
@@ -1809,7 +1809,7 @@ NodeIsInTraversalRange
 (
 mLast
 mPre
-startNode
+aStartContainer
 startIndx
 endNode
 endIndx
@@ -1909,7 +1909,7 @@ NodeIsInTraversalRange
 (
 mLast
 mPre
-startNode
+aStartContainer
 startIndx
 endNode
 endIndx
