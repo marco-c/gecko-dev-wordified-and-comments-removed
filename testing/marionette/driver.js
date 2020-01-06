@@ -5267,6 +5267,17 @@ resp
 {
 assert
 .
+window
+(
+this
+.
+getCurrentWindow
+(
+)
+)
+;
+assert
+.
 noUserPrompt
 (
 this
