@@ -573,13 +573,6 @@ if
 CONFIG
 [
 '
-NIGHTLY_BUILD
-'
-]
-and
-CONFIG
-[
-'
 MOZ_BUILD_APP
 '
 ]
