@@ -1009,11 +1009,6 @@ BrowserUsageTelemetry
 jsm
 '
 '
-CastingApps
-.
-jsm
-'
-'
 ContentClick
 .
 jsm
