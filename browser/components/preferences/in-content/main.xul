@@ -5675,7 +5675,7 @@ accesskey
 =
 "
 &
-limitContentProcess2
+limitContentProcessOption
 .
 accesskey
 ;
@@ -5687,7 +5687,7 @@ contentProcessCount
 "
 >
 &
-limitContentProcess2
+limitContentProcessOption
 .
 label
 ;
@@ -5829,7 +5829,7 @@ hbox
 description
 >
 &
-limitContentProcess2
+limitContentProcessOption
 .
 description
 ;

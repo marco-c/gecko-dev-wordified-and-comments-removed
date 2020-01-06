@@ -1338,7 +1338,7 @@ more
 <
 !
 ENTITY
-limitContentProcess
+limitContentProcessOption
 .
 label
 "
@@ -1350,7 +1350,7 @@ limit
 <
 !
 ENTITY
-limitContentProcess
+limitContentProcessOption
 .
 description
 "
@@ -1359,9 +1359,6 @@ content
 processes
 can
 improve
-&
-brandShortName
-;
 performance
 when
 using
@@ -1379,7 +1376,7 @@ memory
 <
 !
 ENTITY
-limitContentProcess
+limitContentProcessOption
 .
 accesskey
 "
