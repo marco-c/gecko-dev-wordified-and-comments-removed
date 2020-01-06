@@ -691,6 +691,8 @@ mozilla
 typedef
 AutoTArray
 <
+RefPtr
+<
 mozilla
 :
 :
@@ -698,7 +700,7 @@ dom
 :
 :
 Element
-*
+>
 16
 >
 ManualNAC
