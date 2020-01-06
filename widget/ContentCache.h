@@ -1331,6 +1331,9 @@ TabParent
 MOZ_NON_OWNING_REF
 mTabParent
 ;
+nsString
+mCompositionString
+;
 nsAString
 *
 mCommitStringByRequest
@@ -1349,6 +1352,9 @@ mPendingCompositionCount
 ;
 bool
 mWidgetHasComposition
+;
+bool
+mIsPendingLastCommitEvent
 ;
 ContentCacheInParent
 (
