@@ -1415,6 +1415,15 @@ audio_coding
 /
 neteq
 /
+audio_classifier_unittest
+.
+cc
+'
+'
+audio_coding
+/
+neteq
+/
 audio_multi_vector_unittest
 .
 cc
