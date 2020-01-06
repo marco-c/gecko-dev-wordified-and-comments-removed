@@ -196,12 +196,6 @@ if
 (
 cocoaWidget
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 bidi
@@ -224,12 +218,6 @@ random
 if
 (
 cocoaWidget
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

@@ -476,12 +476,6 @@ whitespace
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 intrinsic

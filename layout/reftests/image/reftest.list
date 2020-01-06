@@ -2985,12 +2985,6 @@ resize
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 image

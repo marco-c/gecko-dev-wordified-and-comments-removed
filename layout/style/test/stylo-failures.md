@@ -448,7 +448,7 @@ html
 pseudo
 elements
 [
-12
+4
 ]
 *
 test_transitions_and_reframes
@@ -941,13 +941,6 @@ values
 bug
 1355402
 *
-test_box_size_keywords
-.
-html
-[
-16
-]
-*
 test_flexbox_flex_shorthand
 .
 html
@@ -971,7 +964,7 @@ max
 -
 content
 [
-46
+43
 ]
 *
 .
@@ -984,7 +977,7 @@ min
 -
 content
 [
-6
+3
 ]
 *
 .
@@ -997,7 +990,7 @@ fit
 -
 content
 [
-6
+3
 ]
 *
 .
@@ -1008,7 +1001,7 @@ moz
 -
 available
 [
-4
+3
 ]
 *
 -

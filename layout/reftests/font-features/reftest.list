@@ -1943,12 +1943,6 @@ nofallback
 notref
 .
 html
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
