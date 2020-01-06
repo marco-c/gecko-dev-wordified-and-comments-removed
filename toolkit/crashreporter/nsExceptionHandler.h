@@ -657,6 +657,15 @@ nsACString
 name
 )
 ;
+void
+GetChildProcessTmpDir
+(
+nsIFile
+*
+*
+aOutTmpDir
+)
+;
 #
 if
 defined
@@ -732,6 +741,11 @@ crashPipe
 void
 InitChildProcessTmpDir
 (
+nsIFile
+*
+aDirOverride
+=
+nullptr
 )
 ;
 #
