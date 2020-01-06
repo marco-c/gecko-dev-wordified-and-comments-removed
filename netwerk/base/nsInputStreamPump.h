@@ -46,7 +46,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+RecursiveMutex
 .
 h
 "
@@ -81,8 +81,15 @@ typedef
 mozilla
 :
 :
-ReentrantMonitorAutoEnter
-ReentrantMonitorAutoEnter
+RecursiveMutexAutoLock
+RecursiveMutexAutoLock
+;
+typedef
+mozilla
+:
+:
+RecursiveMutexAutoUnlock
+RecursiveMutexAutoUnlock
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUEST
@@ -291,8 +298,8 @@ mRetargeting
 mozilla
 :
 :
-ReentrantMonitor
-mMonitor
+RecursiveMutex
+mMutex
 ;
 }
 ;
