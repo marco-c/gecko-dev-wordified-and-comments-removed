@@ -1109,6 +1109,14 @@ align
 :
 start
 ;
+word
+-
+break
+:
+break
+-
+all
+;
 border
 -
 collapse
@@ -1118,6 +1126,12 @@ collapse
 }
 table
 {
+table
+-
+layout
+:
+fixed
+;
 width
 :
 100
