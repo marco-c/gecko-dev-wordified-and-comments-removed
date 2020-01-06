@@ -182,6 +182,9 @@ StyleSheet
 >
 mSheets
 ;
+nsString
+mSourceMapURL
+;
 #
 ifdef
 DEBUG
