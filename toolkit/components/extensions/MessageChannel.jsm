@@ -938,6 +938,10 @@ data
 responseType
 }
 ;
+data
+=
+null
+;
 if
 (
 responseType
@@ -1120,6 +1124,10 @@ e
 )
 ;
 }
+message
+=
+null
+;
 return
 deferred
 .
@@ -1288,6 +1296,10 @@ e
 }
 }
 )
+;
+data
+=
+null
 ;
 responses
 =
@@ -1473,6 +1485,10 @@ e
 }
 )
 ;
+data
+=
+null
+;
 return
 ;
 }
@@ -1540,6 +1556,10 @@ resolve
 reject
 )
 ;
+data
+=
+null
+;
 }
 )
 .
@@ -1560,7 +1580,7 @@ this
 RESULT_SUCCESS
 messageName
 :
-data
+deferred
 .
 channelId
 recipient
@@ -1654,7 +1674,7 @@ this
 RESULT_ERROR
 messageName
 :
-data
+deferred
 .
 channelId
 recipient
