@@ -2879,9 +2879,9 @@ subview
 -
 body
 {
-margin
+padding
 :
-4px
+6px
 0
 ;
 }
@@ -9178,6 +9178,13 @@ float
 :
 right
 ;
+transform
+:
+translateY
+(
+1px
+)
+;
 }
 .
 PanelUI
@@ -9207,6 +9214,10 @@ scaleX
 (
 -
 1
+)
+translateY
+(
+1px
 )
 ;
 }
@@ -10320,11 +10331,7 @@ footer
 {
 margin
 :
-4px
--
-4px
--
-4px
+0
 ;
 background
 -
@@ -10924,7 +10931,7 @@ inline
 -
 start
 :
-4px
+6px
 ;
 margin
 -
@@ -10932,7 +10939,7 @@ inline
 -
 end
 :
-5px
+7px
 ;
 }
 .
