@@ -12819,7 +12819,10 @@ styleSet
 ResolveTransientServoStyle
 (
 aElement
-nullptr
+CSSPseudoElementType
+:
+:
+NotPseudo
 )
 ;
 }

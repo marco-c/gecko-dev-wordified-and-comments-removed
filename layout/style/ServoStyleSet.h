@@ -452,9 +452,6 @@ dom
 Element
 *
 aOriginatingElement
-mozilla
-:
-:
 CSSPseudoElementType
 aType
 nsStyleContext
@@ -499,8 +496,7 @@ dom
 Element
 *
 aElement
-nsIAtom
-*
+CSSPseudoElementType
 aPseudoTag
 )
 ;
@@ -870,9 +866,8 @@ dom
 Element
 *
 aElement
-nsIAtom
-*
-aPseudoTag
+CSSPseudoElementType
+aPseudoType
 )
 ;
 already_AddRefed
@@ -1121,9 +1116,8 @@ dom
 Element
 *
 aElement
-nsIAtom
-*
-aPseudoTag
+CSSPseudoElementType
+aPseudoType
 )
 ;
 void

@@ -553,9 +553,8 @@ dom
 Element
 *
 aElement
-nsIAtom
-*
-aPseudoTagOrNull
+CSSPseudoElementType
+aPseudoType
 )
 ;
 bool
