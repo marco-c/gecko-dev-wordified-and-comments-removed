@@ -792,6 +792,7 @@ virtual
 bool
 ProgressiveUpdate
 (
+const
 nsIntRegion
 &
 aValidRegion
@@ -803,6 +804,9 @@ const
 nsIntRegion
 &
 aOldValidRegion
+nsIntRegion
+&
+aOutDrawnRegion
 BasicTiledLayerPaintData
 *
 aPaintData
@@ -1022,6 +1026,7 @@ true
 bool
 ProgressiveUpdate
 (
+const
 nsIntRegion
 &
 aValidRegion
@@ -1033,6 +1038,9 @@ const
 nsIntRegion
 &
 aOldValidRegion
+nsIntRegion
+&
+aOutDrawnRegion
 BasicTiledLayerPaintData
 *
 aPaintData
