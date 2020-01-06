@@ -162,6 +162,7 @@ return
 true
 ;
 }
+virtual
 void
 UnlockAfterComposition
 (
