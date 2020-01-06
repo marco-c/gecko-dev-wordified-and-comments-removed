@@ -9458,6 +9458,17 @@ Bar
 ENTITY
 customizeMode
 .
+extraDragSpace
+"
+Drag
+Space
+"
+>
+<
+!
+ENTITY
+customizeMode
+.
 toolbars2
 "
 Toolbars
