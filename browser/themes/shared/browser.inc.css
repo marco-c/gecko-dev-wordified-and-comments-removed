@@ -73,6 +73,15 @@ start
 }
 %
 endif
+%
+include
+downloads
+/
+indicator
+.
+inc
+.
+css
 #
 navigator
 -
