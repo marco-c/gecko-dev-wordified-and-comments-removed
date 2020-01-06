@@ -573,6 +573,10 @@ vec4
 (
 alpha
 )
+*
+vColor
+.
+a
 ;
 break
 ;
@@ -581,6 +585,8 @@ MODE_SUBPX_PASS1
 :
 modulate_color
 =
+alpha
+*
 vColor
 ;
 break
