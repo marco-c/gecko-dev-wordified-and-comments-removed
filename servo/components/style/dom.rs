@@ -2852,16 +2852,6 @@ PseudoClassStringArg
 >
 bool
 ;
-fn
-is_html_document_body_element
-(
-&
-self
-)
--
->
-bool
-;
 }
 #
 [
