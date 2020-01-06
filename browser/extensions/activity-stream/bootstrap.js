@@ -435,6 +435,10 @@ uninit
 reason
 )
 ;
+activityStream
+=
+null
+;
 }
 }
 function

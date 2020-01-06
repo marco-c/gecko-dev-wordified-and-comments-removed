@@ -242,7 +242,7 @@ branch
 )
 ;
 }
-_setDefaultPref
+setDefaultPref
 (
 key
 val
@@ -394,7 +394,7 @@ value
 }
 this
 .
-_setDefaultPref
+setDefaultPref
 (
 pref
 value
