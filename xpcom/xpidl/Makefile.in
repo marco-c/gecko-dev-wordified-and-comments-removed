@@ -60,6 +60,14 @@ export
 call
 py_action
 process_install_manifest
+-
+-
+track
+install
+-
+xpidl
+.
+track
 (
 DIST
 )

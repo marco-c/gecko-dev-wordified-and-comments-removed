@@ -573,9 +573,10 @@ py_action
 process_install_manifest
 -
 -
-no
--
-remove
+track
+install_dist_include
+.
+track
 -
 -
 no
