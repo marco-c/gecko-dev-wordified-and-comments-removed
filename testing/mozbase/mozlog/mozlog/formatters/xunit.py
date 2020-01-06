@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 types
 from
@@ -10,8 +6,6 @@ xml
 etree
 import
 ElementTree
-from
-.
 import
 base
 def

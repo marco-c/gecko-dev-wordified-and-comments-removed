@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -209,7 +204,6 @@ returncode
 :
             
 print
-(
 "
 %
 s
@@ -225,10 +219,8 @@ process
 .
 returncode
 )
-)
             
 print
-(
 "
 stdout
 :
@@ -239,10 +231,8 @@ s
 "
 %
 stdout
-)
             
 print
-(
 "
 stderr
 :
@@ -253,7 +243,6 @@ s
 "
 %
 stderr
-)
             
 raise
 subprocess
@@ -770,7 +759,6 @@ here
         
 except
 TypeError
-as
 e
 :
             
@@ -921,7 +909,6 @@ here
         
 except
 TypeError
-as
 e
 :
             

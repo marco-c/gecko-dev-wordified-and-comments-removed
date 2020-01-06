@@ -58,11 +58,6 @@ run
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
 import
 unittest
 import
@@ -280,7 +275,6 @@ devices
 :
         
 print
-(
 "
 There
 are
@@ -289,7 +283,6 @@ connected
 adb
 devices
 "
-)
         
 sys
 .
@@ -362,7 +355,6 @@ output
 :
             
 print
-(
 "
 This
 test
@@ -376,7 +368,8 @@ devices
 that
 start
 "
-                  
+\
+                
 "
 adbd
 as
@@ -394,7 +387,6 @@ as
 root
 .
 "
-)
             
 sys
 .

@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 unicode_literals
-print_function
 import
 sys
 import
@@ -1728,12 +1727,10 @@ parent
 :
     
 print
-(
 '
 Starting
 parent
 '
-)
     
 currentProc
 =
@@ -1749,7 +1746,11 @@ currentProc
 :
         
 print
-(
+>
+>
+sys
+.
+stderr
 "
 You
 should
@@ -1762,12 +1763,6 @@ object
 to
 test
 "
-file
-=
-sys
-.
-stderr
-)
         
 sys
 .
@@ -1782,7 +1777,6 @@ CanCreateJobObject
 )
     
 print
-(
 '
 File
 :
@@ -1791,7 +1785,6 @@ s
 '
 %
 __file__
-)
     
 command
 =
@@ -1807,7 +1800,6 @@ child
 ]
     
 print
-(
 '
 Running
 command
@@ -1817,7 +1809,6 @@ s
 '
 %
 command
-)
     
 process
 =
@@ -1841,7 +1832,6 @@ process
 returncode
     
 print
-(
 '
 Child
 code
@@ -1851,7 +1841,6 @@ s
 '
 %
 code
-)
     
 assert
 code
@@ -1865,12 +1854,10 @@ child
 :
     
 print
-(
 '
 Starting
 child
 '
-)
     
 currentProc
 =
@@ -1886,7 +1873,6 @@ currentProc
 )
     
 print
-(
 "
 Is
 in
@@ -1899,7 +1885,6 @@ s
 "
 %
 injob
-)
     
 can_create
 =
@@ -1908,7 +1893,6 @@ CanCreateJobObject
 )
     
 print
-(
 '
 Can
 create
@@ -1920,7 +1904,6 @@ s
 '
 %
 can_create
-)
     
 process
 =
@@ -1960,7 +1943,6 @@ JobObjectExtendedLimitInformation
 )
     
 print
-(
 '
 Job
 info
@@ -1970,7 +1952,6 @@ s
 '
 %
 jobinfo
-)
     
 limitflags
 =
@@ -1987,7 +1968,6 @@ LimitFlags
 ]
     
 print
-(
 '
 LimitFlags
 :
@@ -1996,7 +1976,6 @@ s
 '
 %
 limitflags
-)
     
 process
 .

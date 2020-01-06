@@ -46,11 +46,6 @@ Mozbase
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -298,7 +293,6 @@ CalledProcessError
 :
         
 print
-(
 "
 Error
 running
@@ -311,7 +305,6 @@ s
 "
 %
 directory
-)
         
 raise
     
@@ -1235,7 +1228,6 @@ packages
 :
             
 print
-(
 '
 %
 s
@@ -1254,7 +1246,6 @@ join
 (
 here
 package
-)
 )
 )
         
@@ -1562,9 +1553,7 @@ unrolled
 :
             
 print
-(
 package
-)
         
 parser
 .

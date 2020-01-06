@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 argparse
 import
@@ -994,7 +989,6 @@ verbose
 :
             
 print
-(
 "
 %
 sLaunching
@@ -1022,7 +1016,6 @@ maxtime
 self
 .
 UNIT_TIME
-)
 )
         
 while
@@ -1109,7 +1102,6 @@ verbose
 :
             
 print
-(
 "
 %
 sFinished
@@ -1123,7 +1115,6 @@ s
 *
 level
 proc_name
-)
 )
     
 def

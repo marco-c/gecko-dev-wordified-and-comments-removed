@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 argparse
 import
@@ -30,8 +26,6 @@ import
 mozfile
 import
 mozlog
-from
-mozversion
 import
 errors
 INI_DATA_MAPPING

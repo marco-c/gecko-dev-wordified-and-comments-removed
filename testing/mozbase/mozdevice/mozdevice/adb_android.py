@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 os
 import
@@ -13,12 +8,9 @@ from
 abc
 import
 ABCMeta
-from
-.
 import
 version_codes
 from
-.
 adb
 import
 ADBDevice
@@ -63,7 +55,6 @@ ADBAndroid
 )
        
 print
-(
 adbdevice
 .
 list_files
@@ -74,7 +65,6 @@ mnt
 /
 sdcard
 "
-)
 )
        
 if
@@ -93,13 +83,11 @@ fennec
 :
            
 print
-(
 "
 Fennec
 is
 running
 "
-)
     
 "
 "
@@ -592,7 +580,6 @@ except
 ADBError
 ADBRootError
 )
-as
 e
 :
             

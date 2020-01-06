@@ -1,9 +1,4 @@
 from
-__future__
-import
-absolute_import
-print_function
-from
 optparse
 import
 OptionParser
@@ -25,10 +20,6 @@ import
 zipfile
 import
 requests
-from
-six
-import
-reraise
 import
 mozfile
 import
@@ -583,12 +574,10 @@ msg
 val
 )
                 
-reraise
-(
+raise
 InvalidSource
 msg
 tb
-)
         
 raise
 InvalidSource
@@ -814,19 +803,15 @@ exc
 )
 )
             
-reraise
-(
+raise
 InstallError
 error
 trbk
-)
         
-reraise
-(
+raise
 cls
 exc
 trbk
-)
     
 finally
 :
@@ -1194,7 +1179,6 @@ uninstall_folder
 %
 s
 \
-\
 uninstall
 '
 %
@@ -1205,7 +1189,6 @@ log_file
 '
 %
 s
-\
 \
 uninstall
 .
@@ -1238,7 +1221,6 @@ cmdArgs
 '
 %
 s
-\
 \
 uninstall
 \
@@ -1334,7 +1316,6 @@ folder
             
 except
 Exception
-as
 ex
 :
                 
@@ -1373,12 +1354,10 @@ ex
 )
 )
                 
-reraise
-(
+raise
 UninstallError
 error
 trbk
-)
             
 finally
 :
@@ -2161,9 +2140,7 @@ app
 )
     
 print
-(
 binary
-)
 def
 uninstall_cli
 (

@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 os
 import
@@ -13,19 +9,16 @@ tempfile
 import
 uuid
 from
-.
 addons
 import
 AddonManager
 import
 mozfile
 from
-.
 permissions
 import
 Permissions
 from
-.
 prefs
 import
 Preferences
