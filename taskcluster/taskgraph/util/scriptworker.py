@@ -1685,7 +1685,7 @@ beta
 '
 :
 '
-production
+rollout
 '
     
 '
@@ -1796,6 +1796,12 @@ PUSH_APK_ROLLOUT_PERCENTAGE
     
 '
 release
+'
+:
+10
+    
+'
+beta
 '
 :
 10
