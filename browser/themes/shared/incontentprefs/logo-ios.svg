@@ -92,15 +92,9 @@ path
 fill
 =
 "
-#
-0C0C0D
-"
-fill
+context
 -
-rule
-=
-"
-evenodd
+fill
 "
 d
 =
