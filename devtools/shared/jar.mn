@@ -53,7 +53,15 @@ MPL
 0
 /
 .
+[
+features
+/
 devtools
+mozilla
+.
+org
+]
+chrome
 .
 jar
 :
@@ -62,8 +70,6 @@ resource
 devtools
 %
 modules
-/
-devtools
 /
 #
 The
