@@ -559,7 +559,6 @@ if
 mNeedAVCC
 &
 &
-!
 mp4_demuxer
 :
 :
@@ -570,6 +569,10 @@ ConvertSampleToAnnexB
 (
 aSample
 mNeedKeyframe
+)
+.
+isErr
+(
 )
 )
 {
@@ -1567,7 +1570,6 @@ if
 mNeedAVCC
 &
 &
-!
 mp4_demuxer
 :
 :
@@ -1578,6 +1580,10 @@ ConvertSampleToAnnexB
 (
 aSample
 mNeedKeyframe
+)
+.
+isErr
+(
 )
 )
 {
