@@ -256,6 +256,17 @@ tests
 /
 browser
 /
+general
+/
+browser
+.
+ini
+'
+'
+tests
+/
+browser
+/
 scroll
 /
 browser
