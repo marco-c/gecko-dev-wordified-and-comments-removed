@@ -238,14 +238,6 @@ PORT_ZAlloc
 PORT_ZAlloc_Util
 #
 define
-PORT_ZAllocAligned
-PORT_ZAllocAligned_Util
-#
-define
-PORT_ZAllocAlignedOffset
-PORT_ZAllocAlignedOffset_Util
-#
-define
 PORT_ZFree
 PORT_ZFree_Util
 #
