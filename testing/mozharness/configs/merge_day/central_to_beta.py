@@ -864,19 +864,4 @@ requests
 "
     
 ]
-    
-"
-post_merge_builders
-"
-:
-[
-]
-    
-"
-post_merge_nightly_branches
-"
-:
-[
-    
-]
 }
