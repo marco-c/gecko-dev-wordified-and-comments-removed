@@ -39,7 +39,9 @@ bookmarked
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -219,7 +221,9 @@ visited
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -411,7 +415,9 @@ bookmarked
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -625,7 +631,9 @@ visited
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -824,7 +832,9 @@ bookmarked
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
