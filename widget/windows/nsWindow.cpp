@@ -13297,9 +13297,10 @@ msg
 ;
 while
 (
+WinUtils
 :
 :
-GetMessageW
+GetMessage
 (
 &
 msg

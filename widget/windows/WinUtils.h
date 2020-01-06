@@ -963,7 +963,7 @@ fmt
 )
 ;
 static
-bool
+BOOL
 PeekMessage
 (
 LPMSG
@@ -979,7 +979,7 @@ aOption
 )
 ;
 static
-bool
+BOOL
 GetMessage
 (
 LPMSG
