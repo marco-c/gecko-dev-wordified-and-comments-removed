@@ -788,6 +788,7 @@ MenuMode
 .
 HIGHLIGHT
 item
+false
 null
 null
 100
