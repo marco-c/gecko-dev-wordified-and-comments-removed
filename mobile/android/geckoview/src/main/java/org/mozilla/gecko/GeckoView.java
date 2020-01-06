@@ -613,7 +613,7 @@ message
 getString
 (
 "
-imageSrc
+elementSrc
 "
 )
 )
@@ -6027,7 +6027,7 @@ screenY
 String
 uri
 String
-imageSrc
+elementSrc
 )
 ;
 }

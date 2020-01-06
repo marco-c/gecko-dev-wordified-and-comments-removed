@@ -3068,7 +3068,7 @@ screenY
 String
 uri
 String
-imageSrc
+elementSrc
 )
 {
 }

@@ -717,7 +717,7 @@ screenY
 String
 uri
 String
-imageSrc
+elementSrc
 )
 {
 Log
@@ -748,11 +748,11 @@ uri
 uri
 +
 "
-imageSrc
+elementSrc
 =
 "
 +
-imageSrc
+elementSrc
 )
 ;
 }
