@@ -206,12 +206,6 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLSharedElement
 )
-NS_IMPL_URI_ATTR
-(
-HTMLSharedElement
-Cite
-cite
-)
 NS_IMPL_STRING_ATTR
 (
 HTMLSharedElement
