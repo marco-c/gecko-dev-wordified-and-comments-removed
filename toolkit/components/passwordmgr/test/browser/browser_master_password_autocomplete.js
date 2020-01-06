@@ -109,6 +109,17 @@ click
 (
 )
 ;
+return
+BrowserTestUtils
+.
+waitForEvent
+(
+window
+"
+DOMModalDialogClosed
+"
+)
+;
 }
 )
 ;
