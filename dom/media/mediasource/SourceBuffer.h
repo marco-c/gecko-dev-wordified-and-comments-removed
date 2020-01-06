@@ -695,6 +695,15 @@ TimeRanges
 >
 mBuffered
 ;
+MozPromiseRequestHolder
+<
+MediaSource
+:
+:
+ActiveCompletionPromise
+>
+mCompletionPromise
+;
 }
 ;
 }
