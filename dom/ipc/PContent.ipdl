@@ -3028,15 +3028,6 @@ aTab
 )
 ;
 async
-ParentActivated
-(
-PBrowser
-aTab
-bool
-aActivated
-)
-;
-async
 PParentToChildStream
 (
 )

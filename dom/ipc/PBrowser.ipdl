@@ -3989,6 +3989,13 @@ sizeMode
 )
 ;
 async
+ParentActivated
+(
+bool
+aActivated
+)
+;
+async
 SetKeyboardIndicators
 (
 UIStateChangeType
