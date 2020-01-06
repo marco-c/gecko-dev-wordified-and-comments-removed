@@ -1563,11 +1563,6 @@ Bug
 for
 Android
 failures
-Bug
-1358055
-for
-webrender
-failures
 fails
 -
 if
@@ -1628,9 +1623,4 @@ Bug
 1084564
 for
 Android
-failures
-Bug
-1358055
-for
-webrender
 failures
