@@ -3330,6 +3330,11 @@ nsIAtom
 ns
 )
 ;
+bool
+Gecko_ShouldCreateStyleThreadPool
+(
+)
+;
 #
 define
 STYLE_STRUCT
