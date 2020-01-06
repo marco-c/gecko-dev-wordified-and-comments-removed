@@ -667,6 +667,13 @@ self
 this
 )
 ;
+RunOnIOThread
+(
+FUNC
+[
+=
+]
+{
 RunOnMainThread
 (
 FUNC
@@ -694,6 +701,9 @@ NS_FAILED
 (
 rv
 )
+)
+;
+}
 )
 ;
 }
