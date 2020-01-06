@@ -91,7 +91,7 @@ MPL
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 idl
 "
@@ -133,7 +133,7 @@ a5f7
 interface
 nsILocalFileWin
 :
-nsILocalFile
+nsIFile
 {
 /
 *

@@ -160,11 +160,6 @@ nsILineInputStream
 idl
 '
 '
-nsILocalFile
-.
-idl
-'
-'
 nsILocalFileWin
 .
 idl

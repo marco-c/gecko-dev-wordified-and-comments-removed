@@ -40,7 +40,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -3453,7 +3453,7 @@ nativeResourcePath
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localPath
 (
@@ -3491,7 +3491,7 @@ Failed
 to
 create
 a
-nsILocalFile
+nsIFile
 instance
 .
 "
@@ -3534,7 +3534,7 @@ MakeResourcePath
 Failed
 to
 init
-nsILocalFile
+nsIFile
 with
 %
 S
@@ -3644,7 +3644,7 @@ get
 native
 path
 from
-nsILocalFile
+nsIFile
 (
 %
 x

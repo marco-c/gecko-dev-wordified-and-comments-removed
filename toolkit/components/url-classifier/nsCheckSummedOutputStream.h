@@ -7,13 +7,6 @@ nsCheckSummedOutputStream_h__
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

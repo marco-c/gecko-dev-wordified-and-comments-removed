@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 idl
 "
@@ -177,7 +177,7 @@ be5a
 interface
 nsILocalFileMac
 :
-nsILocalFile
+nsIFile
 {
 /
 *

@@ -974,7 +974,6 @@ NS_IMPL_ISUPPORTS
 (
 nsLocalFile
 nsILocalFileMac
-nsILocalFile
 nsIFile
 nsIHashable
 )
@@ -983,7 +982,6 @@ else
 NS_IMPL_ISUPPORTS
 (
 nsLocalFile
-nsILocalFile
 nsIFile
 nsIHashable
 )
