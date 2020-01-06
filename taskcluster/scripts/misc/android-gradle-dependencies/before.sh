@@ -59,11 +59,11 @@ taskcluster
 /
 scripts
 /
-builder
+misc
 /
-build
--
 android
+-
+gradle
 -
 dependencies
 /
