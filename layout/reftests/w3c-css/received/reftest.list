@@ -7609,15 +7609,6 @@ lime
 3
 .
 xml
-fails
--
-if
-(
-stylo
-|
-|
-styloVsGecko
-)
 =
 =
 css
