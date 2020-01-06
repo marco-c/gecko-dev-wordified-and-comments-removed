@@ -1484,7 +1484,7 @@ clearStoragesForPrincipal
 (
 principal
 null
-true
+false
 )
 ;
 req
