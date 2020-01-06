@@ -3103,8 +3103,8 @@ result
 NULL
 )
 {
-return
-NULL
+goto
+fail
 ;
 }
 ret
