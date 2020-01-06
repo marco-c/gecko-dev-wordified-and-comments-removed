@@ -2960,6 +2960,8 @@ GeckoView
 view
 int
 status
+GeckoBundle
+identity
 )
 {
 if
