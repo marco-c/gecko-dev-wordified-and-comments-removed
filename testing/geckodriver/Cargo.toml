@@ -148,15 +148,11 @@ wrap_help
 }
 hyper
 =
-{
-version
-=
 "
 0
 .
 10
 "
-}
 lazy_static
 =
 "
@@ -243,7 +239,7 @@ webdriver
 "
 0
 .
-21
+22
 "
 zip
 =
