@@ -12262,6 +12262,9 @@ getRemoteTypeForURI
 aURL
 gMultiProcessBrowser
 preferredRemoteType
+aBrowser
+.
+currentURI
 aOptions
 .
 freshProcess
