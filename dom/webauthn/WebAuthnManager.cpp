@@ -1502,12 +1502,10 @@ forget
 )
 ;
 }
-double
+uint32_t
 adjustedTimeout
 =
-30
-.
-0
+30000
 ;
 if
 (
@@ -1537,9 +1535,7 @@ std
 :
 max
 (
-15
-.
-0
+15000u
 adjustedTimeout
 )
 ;
@@ -1550,9 +1546,7 @@ std
 :
 min
 (
-120
-.
-0
+120000u
 adjustedTimeout
 )
 ;
