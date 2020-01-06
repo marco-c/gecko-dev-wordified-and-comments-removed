@@ -14,6 +14,15 @@ BEGIN_TEST
 testDateToLocaleString
 )
 {
+JSRuntime
+*
+rt
+=
+JS_GetRuntime
+(
+cx
+)
+;
 JS
 :
 :
@@ -61,7 +70,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 de
 "
@@ -111,7 +120,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 en
 "
@@ -172,7 +181,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 de
 "
@@ -233,7 +242,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 en
 "
@@ -277,7 +286,7 @@ change
 ;
 JS_ResetDefaultLocale
 (
-cx
+rt
 )
 ;
 return

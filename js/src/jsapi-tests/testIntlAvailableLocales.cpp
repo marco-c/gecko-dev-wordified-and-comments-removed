@@ -14,6 +14,15 @@ BEGIN_TEST
 testIntlAvailableLocales
 )
 {
+JSRuntime
+*
+rt
+=
+JS_GetRuntime
+(
+cx
+)
+;
 JS
 :
 :
@@ -61,7 +70,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 de
 -
@@ -508,7 +517,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 en
 -
@@ -573,7 +582,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-cx
+rt
 "
 this
 is
@@ -684,7 +693,7 @@ default
 ;
 JS_ResetDefaultLocale
 (
-cx
+rt
 )
 ;
 return
