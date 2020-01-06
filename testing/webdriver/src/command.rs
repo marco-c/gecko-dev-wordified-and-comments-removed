@@ -3173,6 +3173,7 @@ Self
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
