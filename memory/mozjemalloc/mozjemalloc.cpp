@@ -2324,6 +2324,18 @@ _malloc_options
 =
 MOZ_MALLOC_OPTIONS
 ;
+const
+uint8_t
+kAllocJunk
+=
+0xe4
+;
+const
+uint8_t
+kAllocPoison
+=
+0xe5
+;
 #
 ifndef
 MALLOC_PRODUCTION
@@ -15318,7 +15330,7 @@ opt_junk
 memset
 (
 ret
-0xe4
+kAllocJunk
 size
 )
 ;
@@ -15464,7 +15476,7 @@ opt_junk
 memset
 (
 ret
-0xe4
+kAllocJunk
 size
 )
 ;
@@ -15947,7 +15959,7 @@ opt_junk
 memset
 (
 ret
-0xe4
+kAllocJunk
 size
 )
 ;
@@ -16723,7 +16735,7 @@ opt_poison
 memset
 (
 ptr
-0xe5
+kAllocPoison
 size
 )
 ;
@@ -17177,7 +17189,7 @@ opt_poison
 memset
 (
 ptr
-0xe5
+kAllocPoison
 size
 )
 ;
@@ -17806,7 +17818,7 @@ ptr
 +
 size
 )
-0xe5
+kAllocPoison
 oldsize
 -
 size
@@ -17884,7 +17896,7 @@ ptr
 +
 size
 )
-0xe5
+kAllocPoison
 oldsize
 -
 size
@@ -18261,7 +18273,7 @@ ptr
 +
 size
 )
-0xe5
+kAllocPoison
 oldsize
 -
 size
@@ -19233,7 +19245,7 @@ MALLOC_DECOMMIT
 memset
 (
 ret
-0xe4
+kAllocJunk
 psize
 )
 ;
@@ -19242,7 +19254,7 @@ else
 memset
 (
 ret
-0xe4
+kAllocJunk
 csize
 )
 ;
@@ -19353,7 +19365,7 @@ ptr
 +
 size
 )
-0xe5
+kAllocPoison
 oldsize
 -
 size
