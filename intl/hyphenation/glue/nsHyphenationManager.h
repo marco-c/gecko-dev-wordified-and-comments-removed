@@ -45,7 +45,7 @@ class
 nsHyphenator
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIURI
@@ -65,7 +65,7 @@ nsHyphenator
 >
 GetHyphenator
 (
-nsIAtom
+nsAtom
 *
 aLocale
 )
@@ -146,9 +146,9 @@ nsRefPtrHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
-nsIAtom
+nsAtom
 >
 mHyphAliases
 ;
@@ -156,7 +156,7 @@ nsInterfaceHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 nsIURI
 >
@@ -166,7 +166,7 @@ nsRefPtrHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 nsHyphenator
 >

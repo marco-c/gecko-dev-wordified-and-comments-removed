@@ -7012,7 +7012,7 @@ eCSSUnit_Element
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -11522,7 +11522,7 @@ pseudoRestriction
 =
 0
 ;
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -32399,7 +32399,7 @@ StyleDisplay
 None
 )
 {
-nsIAtom
+nsAtom
 *
 pseudo
 =
@@ -32778,7 +32778,7 @@ item
 mNext
 )
 {
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -41094,7 +41094,7 @@ this
 list
 ]
 (
-nsIAtom
+nsAtom
 *
 type
 )
@@ -41230,7 +41230,7 @@ GetIntValue
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 ;
@@ -49560,7 +49560,7 @@ item
 mNext
 )
 {
-nsIAtom
+nsAtom
 *
 atom
 =

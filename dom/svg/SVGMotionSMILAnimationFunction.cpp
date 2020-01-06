@@ -148,7 +148,7 @@ SVGMotionSMILAnimationFunction
 :
 MarkStaleIfAttributeAffectsPath
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -296,7 +296,7 @@ SVGMotionSMILAnimationFunction
 :
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -473,7 +473,7 @@ SVGMotionSMILAnimationFunction
 :
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )

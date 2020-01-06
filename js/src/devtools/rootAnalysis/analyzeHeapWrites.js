@@ -201,7 +201,7 @@ whitelist
 nsIRunnable
 "
 "
-nsIAtom
+nsAtom
 "
 "
 nsIPermissionManager

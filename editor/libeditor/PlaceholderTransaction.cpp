@@ -70,7 +70,7 @@ PlaceholderTransaction
 EditorBase
 &
 aEditorBase
-nsIAtom
+nsAtom
 *
 aName
 Maybe
@@ -583,7 +583,7 @@ absorbingTransaction
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;
@@ -711,7 +711,7 @@ PlaceholderTransaction
 :
 GetTxnName
 (
-nsIAtom
+nsAtom
 *
 *
 aName

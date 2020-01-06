@@ -425,7 +425,7 @@ virtual
 bool
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

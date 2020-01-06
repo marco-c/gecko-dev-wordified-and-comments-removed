@@ -96,7 +96,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -132,7 +132,7 @@ ParseAtom
 aValue
 )
 ;
-nsIAtom
+nsAtom
 *
 atom
 =

@@ -450,7 +450,7 @@ aType
 bool
 HasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aTypeWithOn
 )
@@ -630,7 +630,7 @@ virtual
 void
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -651,7 +651,7 @@ virtual
 void
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -785,7 +785,7 @@ aType
 void
 KeepAliveIfHasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -802,7 +802,7 @@ aType
 void
 IgnoreKeepAliveIfHasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -832,7 +832,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mAtoms

@@ -233,7 +233,7 @@ class
 nsIContent
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIScrollableFrame
@@ -1120,7 +1120,7 @@ aContent
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aPseudoElement
 )
@@ -5915,7 +5915,7 @@ static
 bool
 CanScrollOriginClobberApz
 (
-nsIAtom
+nsAtom
 *
 aScrollOrigin
 )
@@ -6734,7 +6734,7 @@ nsSetAttrRunnable
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -6748,7 +6748,7 @@ nsSetAttrRunnable
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 int32_t
@@ -6764,7 +6764,7 @@ mContent
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttrName
 ;
@@ -6789,7 +6789,7 @@ nsUnsetAttrRunnable
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -6803,7 +6803,7 @@ mContent
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttrName
 ;

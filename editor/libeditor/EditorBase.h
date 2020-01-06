@@ -195,7 +195,7 @@ nscore
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -1143,7 +1143,7 @@ Element
 >
 DeleteSelectionAndCreateElement
 (
-nsIAtom
+nsAtom
 &
 aTag
 )
@@ -1185,10 +1185,10 @@ ReplaceContainer
 Element
 *
 aOldContainer
-nsIAtom
+nsAtom
 *
 aNodeType
-nsIAtom
+nsAtom
 *
 aAttribute
 =
@@ -1233,10 +1233,10 @@ InsertContainerAbove
 nsIContent
 *
 aNode
-nsIAtom
+nsAtom
 *
 aNodeType
-nsIAtom
+nsAtom
 *
 aAttribute
 =
@@ -1290,7 +1290,7 @@ aOffset
 nsresult
 CloneAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 Element
@@ -1307,7 +1307,7 @@ RemoveAttribute
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1319,7 +1319,7 @@ RemoveAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -1334,7 +1334,7 @@ SetAttribute
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1350,7 +1350,7 @@ SetAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1369,7 +1369,7 @@ Element
 >
 CreateHTMLContent
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1448,7 +1448,7 @@ CreateTxnForSetAttribute
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 const
@@ -1466,7 +1466,7 @@ CreateTxnForRemoveAttribute
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 )
@@ -1477,7 +1477,7 @@ CreateElementTransaction
 >
 CreateTxnForCreateElement
 (
-nsIAtom
+nsAtom
 &
 aTag
 nsINode
@@ -1493,7 +1493,7 @@ Element
 >
 CreateNode
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsINode
@@ -1867,7 +1867,7 @@ aSelection
 void
 BeginPlaceholderTransaction
 (
-nsIAtom
+nsAtom
 *
 aTransactionName
 )
@@ -2126,7 +2126,7 @@ NodeIsType
 nsIDOMNode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2158,7 +2158,7 @@ CanContainTag
 nsINode
 &
 aParent
-nsIAtom
+nsAtom
 &
 aTag
 )
@@ -2166,7 +2166,7 @@ aTag
 bool
 TagCanContain
 (
-nsIAtom
+nsAtom
 &
 aParentTag
 nsIContent
@@ -2178,10 +2178,10 @@ virtual
 bool
 TagCanContainTag
 (
-nsIAtom
+nsAtom
 &
 aParentTag
-nsIAtom
+nsAtom
 &
 aChildTag
 )
@@ -2453,7 +2453,7 @@ outString
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetTag
 (
@@ -3677,7 +3677,7 @@ PlaceholderTransaction
 >
 mPlaceholderTransaction
 ;
-nsIAtom
+nsAtom
 *
 mPlaceholderName
 ;

@@ -1485,7 +1485,7 @@ SetBooleanAttribute
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

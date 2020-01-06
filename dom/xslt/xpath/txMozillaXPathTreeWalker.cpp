@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -630,7 +630,7 @@ txXPathTreeWalker
 :
 moveToNamedAttribute
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -1140,7 +1140,7 @@ const
 txXPathNode
 &
 aNode
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -1188,7 +1188,7 @@ aValue
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 txXPathNodeUtils
 :
@@ -1237,7 +1237,7 @@ IsElement
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -1318,7 +1318,7 @@ nullptr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -1349,7 +1349,7 @@ forget
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 txXPathNodeUtils
 :

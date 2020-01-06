@@ -218,7 +218,7 @@ UnsetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -232,7 +232,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const

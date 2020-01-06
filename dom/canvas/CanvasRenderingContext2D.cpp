@@ -13684,7 +13684,7 @@ const
 nsFont
 &
 aFont
-nsIAtom
+nsAtom
 *
 aFontLanguage
 bool
@@ -13851,7 +13851,7 @@ nsFont
 &
 mFont
 ;
-nsIAtom
+nsAtom
 *
 mFontLanguage
 ;

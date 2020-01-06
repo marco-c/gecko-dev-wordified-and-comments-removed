@@ -495,7 +495,7 @@ ChangeStyleTransaction
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -1104,7 +1104,7 @@ ChangeStyleTransaction
 :
 AcceptsMoreThanOneValue
 (
-nsIAtom
+nsAtom
 &
 aCSSProperty
 )

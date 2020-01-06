@@ -372,7 +372,7 @@ TryDNSPrefetchOrPreconnectOrPrefetchOrPreloadOrPrerender
 void
 UpdatePreload
 (
-nsIAtom
+nsAtom
 *
 aName
 const

@@ -245,7 +245,7 @@ GetAlternateTextFor
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 nsAString
@@ -991,7 +991,7 @@ nsIFrame
 aParentFrame
 int32_t
 aAttrNamespace
-nsIAtom
+nsAtom
 *
 aAttrName
 nsStyleContext
@@ -1575,7 +1575,7 @@ struct
 FrameConstructionDataByTag
 {
 const
-nsIAtom
+nsAtom
 *
 const
 *
@@ -1704,7 +1704,7 @@ FrameConstructionData
 *
 FindDataByTag
 (
-nsIAtom
+nsAtom
 *
 aTag
 Element
@@ -1914,7 +1914,7 @@ aFCData
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -2003,7 +2003,7 @@ aFCData
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -3038,7 +3038,7 @@ aFCData
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -3370,7 +3370,7 @@ nsIContent
 *
 mContent
 ;
-nsIAtom
+nsAtom
 *
 mTag
 ;
@@ -4031,7 +4031,7 @@ FindHTMLData
 Element
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -4167,7 +4167,7 @@ aContent
 nsContainerFrame
 *
 aParentFrame
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -4287,7 +4287,7 @@ FindMathMLData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -4306,7 +4306,7 @@ FindXULTagData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -4513,7 +4513,7 @@ FindSVGData
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTag
 int32_t
@@ -4773,7 +4773,7 @@ aContentStyle
 nsContainerFrame
 *
 aParentFrame
-nsIAtom
+nsAtom
 *
 aScrolledPseudo
 bool

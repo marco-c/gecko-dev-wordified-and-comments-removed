@@ -71,7 +71,7 @@ SetProp
 #
 endif
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMNode
@@ -92,7 +92,7 @@ Selection
 struct
 PropItem
 {
-nsIAtom
+nsAtom
 *
 tag
 ;
@@ -108,7 +108,7 @@ PropItem
 ;
 PropItem
 (
-nsIAtom
+nsAtom
 *
 aTag
 const
@@ -166,7 +166,7 @@ NS_DECL_NSISELECTIONLISTENER
 void
 SetProp
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -187,7 +187,7 @@ ClearAllProps
 void
 ClearProp
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -226,7 +226,7 @@ isSet
 bool
 &
 theSetting
-nsIAtom
+nsAtom
 *
 aProp
 )
@@ -240,7 +240,7 @@ isSet
 bool
 &
 theSetting
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -256,7 +256,7 @@ static
 bool
 FindPropInList
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -289,7 +289,7 @@ TypeInState
 void
 RemovePropFromSetList
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -301,7 +301,7 @@ aAttr
 void
 RemovePropFromClearedList
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -313,7 +313,7 @@ aAttr
 bool
 IsPropSet
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -328,7 +328,7 @@ outValue
 bool
 IsPropSet
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -346,7 +346,7 @@ outIndex
 bool
 IsPropCleared
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -358,7 +358,7 @@ aAttr
 bool
 IsPropCleared
 (
-nsIAtom
+nsAtom
 *
 aProp
 const

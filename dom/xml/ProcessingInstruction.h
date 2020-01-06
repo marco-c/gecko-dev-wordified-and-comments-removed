@@ -187,7 +187,7 @@ ProcessingInstruction
 bool
 GetAttrValue
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString

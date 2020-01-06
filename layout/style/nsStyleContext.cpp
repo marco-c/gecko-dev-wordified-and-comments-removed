@@ -384,7 +384,7 @@ nsStyleContext
 :
 nsStyleContext
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType
@@ -2010,7 +2010,7 @@ NS_NewStyleContext
 GeckoStyleContext
 *
 aParentContext
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType

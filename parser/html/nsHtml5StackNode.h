@@ -7,7 +7,7 @@ nsHtml5StackNode_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -147,11 +147,11 @@ idxInTreeBuilder
 int32_t
 flags
 ;
-nsIAtom
+nsAtom
 *
 name
 ;
-nsIAtom
+nsAtom
 *
 popName
 ;
@@ -242,13 +242,13 @@ int32_t
 flags
 int32_t
 ns
-nsIAtom
+nsAtom
 *
 name
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 nsHtml5HtmlAttributes
@@ -298,7 +298,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 )
@@ -309,7 +309,7 @@ setValues
 nsHtml5ElementName
 *
 elementName
-nsIAtom
+nsAtom
 *
 popName
 nsIContentHandle
@@ -326,7 +326,7 @@ elementName
 nsIContentHandle
 *
 node
-nsIAtom
+nsAtom
 *
 popName
 bool

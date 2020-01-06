@@ -421,7 +421,7 @@ SVGTextPathElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

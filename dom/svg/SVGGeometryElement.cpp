@@ -143,7 +143,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -201,7 +201,7 @@ SVGGeometryElement
 AttributeDefinesGeometry
 (
 const
-nsIAtom
+nsAtom
 *
 aName
 )

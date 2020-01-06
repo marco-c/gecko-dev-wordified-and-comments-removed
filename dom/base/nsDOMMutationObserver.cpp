@@ -687,7 +687,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -3484,7 +3484,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 filters
@@ -4090,7 +4090,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -5012,7 +5012,7 @@ nsDOMMutationObserver
 :
 CurrentRecord
 (
-nsIAtom
+nsAtom
 *
 aType
 )

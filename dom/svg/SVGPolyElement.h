@@ -81,7 +81,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -102,7 +102,7 @@ mPoints
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 GetPointListAttrName
 (
@@ -130,7 +130,7 @@ bool
 AttributeDefinesGeometry
 (
 const
-nsIAtom
+nsAtom
 *
 aName
 )

@@ -1204,7 +1204,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -1505,7 +1505,7 @@ ContentInfo
 >
 &
 aElements
-nsIAtom
+nsAtom
 *
 aTagName
 CSSPseudoElementType
@@ -2024,7 +2024,7 @@ nsNumberControlFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

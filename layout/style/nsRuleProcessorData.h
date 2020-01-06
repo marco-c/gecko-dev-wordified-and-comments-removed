@@ -108,7 +108,7 @@ Element
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -253,7 +253,7 @@ mozilla
 BloomFilter
 <
 12
-nsIAtom
+nsAtom
 >
 Filter
 ;
@@ -1837,7 +1837,7 @@ AnonBoxRuleProcessorData
 nsPresContext
 *
 aPresContext
-nsIAtom
+nsAtom
 *
 aPseudoTag
 nsRuleWalker
@@ -1878,7 +1878,7 @@ walker
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 mPseudoTag
 ;
@@ -1911,7 +1911,7 @@ aParentElement
 nsRuleWalker
 *
 aRuleWalker
-nsIAtom
+nsAtom
 *
 aPseudoTag
 nsICSSPseudoComparator
@@ -1982,7 +1982,7 @@ here
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 mPseudoTag
 ;
@@ -2179,7 +2179,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -2241,7 +2241,7 @@ here
 int32_t
 mNameSpaceID
 ;
-nsIAtom
+nsAtom
 *
 mAttribute
 ;

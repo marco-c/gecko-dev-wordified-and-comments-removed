@@ -161,7 +161,7 @@ SVGTransformableElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -206,7 +206,7 @@ SVGTransformableElement
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -402,7 +402,7 @@ SVGTransformableElement
 :
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

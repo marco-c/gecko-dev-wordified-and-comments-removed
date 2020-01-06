@@ -353,7 +353,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -450,7 +450,7 @@ forget
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 CSSPseudoElement
 :

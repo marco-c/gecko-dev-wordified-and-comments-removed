@@ -1552,7 +1552,7 @@ DOMEventTargetHelper
 :
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -1610,7 +1610,7 @@ DOMEventTargetHelper
 :
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -1694,7 +1694,7 @@ DOMEventTargetHelper
 :
 KeepAliveIfHasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -1745,7 +1745,7 @@ DOMEventTargetHelper
 :
 IgnoreKeepAliveIfHasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aType
 )

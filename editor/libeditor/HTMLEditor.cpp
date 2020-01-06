@@ -8230,7 +8230,7 @@ node
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 listAtom
 =
@@ -8901,7 +8901,7 @@ node
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 blockAtom
 =
@@ -10989,7 +10989,7 @@ tagName
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 realTagAtom
 =
@@ -14888,10 +14888,10 @@ HTMLEditor
 :
 TagCanContainTag
 (
-nsIAtom
+nsAtom
 &
 aParentTag
-nsIAtom
+nsAtom
 &
 aChildTag
 )
@@ -15334,7 +15334,7 @@ IsTextPropertySetByContent
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -15389,7 +15389,7 @@ IsTextPropertySetByContent
 nsIDOMNode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aProperty
 const
@@ -18235,7 +18235,7 @@ SetAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -18450,7 +18450,7 @@ RemoveAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

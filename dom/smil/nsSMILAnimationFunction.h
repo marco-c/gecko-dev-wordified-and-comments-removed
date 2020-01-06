@@ -112,7 +112,7 @@ virtual
 bool
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -133,7 +133,7 @@ virtual
 bool
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -597,7 +597,7 @@ virtual
 bool
 HasAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -609,7 +609,7 @@ nsAttrValue
 *
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -619,7 +619,7 @@ virtual
 bool
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 nsAString
@@ -631,7 +631,7 @@ const
 bool
 ParseAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 const

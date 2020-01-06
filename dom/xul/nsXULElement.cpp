@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1995,7 +1995,7 @@ aValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrAtom
 (
@@ -2075,7 +2075,7 @@ rv
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrAtom
 (
@@ -2182,7 +2182,7 @@ nsXULElement
 :
 GetEventListenerManagerForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 bool
@@ -2973,7 +2973,7 @@ IsAtom
 )
 )
 {
-nsIAtom
+nsAtom
 *
 attr
 =
@@ -3029,7 +3029,7 @@ nsXULElement
 :
 MaybeAddPopupListener
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -3122,7 +3122,7 @@ inline
 bool
 XULElementsRulesInMinimalXULSheet
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -3329,7 +3329,7 @@ GetBindingParent
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 idAtom
 =
@@ -4348,7 +4348,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4640,7 +4640,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -5448,7 +5448,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -6488,7 +6488,7 @@ nsXULElement
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -6631,7 +6631,7 @@ nsXULElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -7871,7 +7871,7 @@ nsXULElement
 :
 AddPopupListener
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9008,7 +9008,7 @@ nsXULElement
 :
 BoolAttrIsTrue
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -9118,7 +9118,7 @@ IsAtom
 continue
 ;
 }
-nsIAtom
+nsAtom
 *
 attr
 =
@@ -9170,7 +9170,7 @@ nsXULElement
 :
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

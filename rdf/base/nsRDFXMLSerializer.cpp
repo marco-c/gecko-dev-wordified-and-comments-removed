@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -719,7 +719,7 @@ mBaseURLSpec
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -811,7 +811,7 @@ nsRDFXMLSerializer
 :
 AddNameSpace
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -822,7 +822,7 @@ aURI
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =
@@ -997,7 +997,7 @@ Length
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsRDFXMLSerializer
 :
@@ -1011,7 +1011,7 @@ qname
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -1276,7 +1276,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =

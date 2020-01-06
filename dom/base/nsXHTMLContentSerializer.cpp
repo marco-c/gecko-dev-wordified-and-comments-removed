@@ -646,7 +646,7 @@ const
 nsAString
 &
 aTagNamespaceURI
-nsIAtom
+nsAtom
 *
 aTagName
 nsAString
@@ -960,7 +960,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -971,7 +971,7 @@ LocalName
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attrPrefix
 =
@@ -2133,11 +2133,11 @@ nsXHTMLContentSerializer
 IsShorthandAttr
 (
 const
-nsIAtom
+nsAtom
 *
 aAttrName
 const
-nsIAtom
+nsAtom
 *
 aElementName
 )
@@ -2653,7 +2653,7 @@ LineBreakBeforeOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2772,7 +2772,7 @@ LineBreakAfterOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2994,7 +2994,7 @@ LineBreakBeforeClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -3128,7 +3128,7 @@ LineBreakAfterClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )

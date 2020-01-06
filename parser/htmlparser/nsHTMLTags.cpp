@@ -106,7 +106,7 @@ HTML_TAG
 #
 undef
 HTML_OTHER
-nsIAtom
+nsAtom
 *
 nsHTMLTags
 :
@@ -876,7 +876,7 @@ id
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 ;

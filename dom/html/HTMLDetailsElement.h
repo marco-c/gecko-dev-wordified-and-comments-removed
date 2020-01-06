@@ -104,7 +104,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -118,7 +118,7 @@ BeforeSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const

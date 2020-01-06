@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -28409,7 +28409,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -33202,7 +33202,7 @@ IsBlockWrapper
 )
 const
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -34452,7 +34452,7 @@ if
 mStyleContext
 )
 {
-nsIAtom
+nsAtom
 *
 pseudoTag
 =
@@ -42223,7 +42223,7 @@ aFrame
 ;
 do
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =
@@ -43941,7 +43941,7 @@ frames
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 type
 =
@@ -44091,7 +44091,7 @@ innerTable
 ;
 }
 }
-nsIAtom
+nsAtom
 *
 pseudo
 =
@@ -44274,7 +44274,7 @@ CorrectStyleParentFrame
 nsIFrame
 *
 aProspectiveParent
-nsIAtom
+nsAtom
 *
 aChildPseudo
 )
@@ -44401,7 +44401,7 @@ sibling
 ;
 }
 }
-nsIAtom
+nsAtom
 *
 parentPseudo
 =
@@ -44557,7 +44557,7 @@ parentContent
 )
 )
 {
-nsIAtom
+nsAtom
 *
 pseudo
 =
@@ -48376,7 +48376,7 @@ here
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudo
 =

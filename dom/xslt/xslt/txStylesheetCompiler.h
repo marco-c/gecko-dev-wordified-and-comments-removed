@@ -77,7 +77,7 @@ extern
 bool
 TX_XSLTFunctionAvailable
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -503,7 +503,7 @@ aName
 nsresult
 resolveNamespacePrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -515,7 +515,7 @@ override
 nsresult
 resolveFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -722,13 +722,13 @@ mNamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLocalName
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPrefix
 ;
@@ -756,7 +756,7 @@ friend
 bool
 TX_XSLTFunctionAvailable
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -821,10 +821,10 @@ startElement
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 txStylesheetAttr
@@ -912,10 +912,10 @@ startElementInternal
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
-nsIAtom
+nsAtom
 *
 aPrefix
 txStylesheetAttr

@@ -32,7 +32,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -206,7 +206,7 @@ aType
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 type
 =
@@ -244,7 +244,7 @@ virtual
 void
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -265,7 +265,7 @@ virtual
 void
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -355,7 +355,7 @@ EventHandlerNonNull
 *
 GetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aType
 const
@@ -367,7 +367,7 @@ aTypeString
 void
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aType
 const

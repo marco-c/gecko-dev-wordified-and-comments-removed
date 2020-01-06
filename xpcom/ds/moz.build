@@ -258,6 +258,11 @@ nsArrayUtils
 h
 '
 '
+nsAtom
+.
+h
+'
+'
 nsBaseHashtable
 .
 h
@@ -314,11 +319,6 @@ h
 '
 '
 nsHashPropertyBag
-.
-h
-'
-'
-nsIAtom
 .
 h
 '

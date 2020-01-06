@@ -88,7 +88,7 @@ mElement
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttributeName
 ;
@@ -182,7 +182,7 @@ nsIContent
 mElement
 ;
 const
-nsIAtom
+nsAtom
 *
 mAttributeName
 ;

@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -723,7 +723,7 @@ aOriginalObject
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 ;
@@ -844,7 +844,7 @@ resizerHeight
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 dummyUnit
 ;

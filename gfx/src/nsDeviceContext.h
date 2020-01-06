@@ -126,7 +126,7 @@ class
 nsFontCache
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDeviceContextSpec

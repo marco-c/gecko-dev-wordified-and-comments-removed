@@ -155,7 +155,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 *
 ServoNamespaceRule
 :
@@ -184,7 +184,7 @@ aURLSpec
 )
 const
 {
-nsIAtom
+nsAtom
 *
 atom
 =

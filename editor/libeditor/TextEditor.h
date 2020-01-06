@@ -150,7 +150,7 @@ RemoveAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -165,7 +165,7 @@ SetAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const

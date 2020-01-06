@@ -51,7 +51,7 @@ nsString
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -80,7 +80,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 const
@@ -121,7 +121,7 @@ mElement
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttribute
 ;

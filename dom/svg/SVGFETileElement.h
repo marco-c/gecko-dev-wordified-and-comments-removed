@@ -170,7 +170,7 @@ AttributeAffectsRendering
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )

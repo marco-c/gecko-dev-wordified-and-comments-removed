@@ -392,7 +392,7 @@ uint32_t
 aAttsCount
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 uint32_t
@@ -409,7 +409,7 @@ SetDocElement
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 nsIContent

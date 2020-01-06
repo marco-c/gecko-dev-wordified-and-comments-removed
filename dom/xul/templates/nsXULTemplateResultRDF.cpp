@@ -364,7 +364,7 @@ nsXULTemplateResultRDF
 :
 GetBindingFor
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAString
@@ -404,7 +404,7 @@ nsXULTemplateResultRDF
 :
 GetBindingObjectFor
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsISupports
@@ -554,7 +554,7 @@ nsXULTemplateResultRDF
 :
 GetAssignment
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsIRDFNode

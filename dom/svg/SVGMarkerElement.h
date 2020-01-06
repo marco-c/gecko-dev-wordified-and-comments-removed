@@ -481,7 +481,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -494,7 +494,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -673,7 +673,7 @@ ParseAttribute
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const

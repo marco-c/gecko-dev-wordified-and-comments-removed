@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -400,7 +400,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -426,7 +426,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -462,7 +462,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 (
@@ -472,7 +472,7 @@ nsIAtom
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 vertex
 =
@@ -952,7 +952,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -1020,7 +1020,7 @@ i
 +
 )
 {
-nsIAtom
+nsAtom
 *
 curVertexAtom
 =

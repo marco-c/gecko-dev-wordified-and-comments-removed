@@ -372,7 +372,7 @@ aHighlighter
 void
 errStrayStartTag
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -380,7 +380,7 @@ aName
 void
 errStrayEndTag
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -390,7 +390,7 @@ errUnclosedElements
 (
 int32_t
 aIndex
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -400,7 +400,7 @@ errUnclosedElementsImplied
 (
 int32_t
 aIndex
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -460,7 +460,7 @@ errNonSpaceInNoscriptInHead
 void
 errFooBetweenHeadAndBody
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -483,7 +483,7 @@ errStartSelectWhereEndSelectExpected
 void
 errStartTagWithSelectOpen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -491,7 +491,7 @@ aName
 void
 errBadStartTagInHead
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -509,7 +509,7 @@ errIsindex
 void
 errFooSeenWhenFooOpen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -532,7 +532,7 @@ errNoCellToClose
 void
 errStartTagInTable
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -550,7 +550,7 @@ errTableSeenWhileTableOpen
 void
 errStartTagInTableBody
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -568,7 +568,7 @@ errEndTagAfterBody
 void
 errEndTagSeenWithSelectOpen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -586,7 +586,7 @@ errEndTagBr
 void
 errNoElementToCloseButEndTagSeen
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -594,7 +594,7 @@ aName
 void
 errHtmlStartTagInForeignContext
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -622,7 +622,7 @@ errUnclosedChildrenInRuby
 void
 errStartTagSeenWithoutRuby
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -640,10 +640,10 @@ errNoCheckUnclosedElementsOnStack
 void
 errEndTagDidNotMatchCurrentOpenElement
 (
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aOther
 )
@@ -651,7 +651,7 @@ aOther
 void
 errEndTagViolatesNestingRules
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -659,7 +659,7 @@ aName
 void
 errEndWithUnclosedElements
 (
-nsIAtom
+nsAtom
 *
 aName
 )

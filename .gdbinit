@@ -538,7 +538,7 @@ string
 value
 for
 an
-nsIAtom
+nsAtom
 def
 pa
 set

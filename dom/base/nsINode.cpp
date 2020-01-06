@@ -332,7 +332,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -947,7 +947,7 @@ GetProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -1007,7 +1007,7 @@ SetProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -1074,7 +1074,7 @@ DeleteProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -1106,7 +1106,7 @@ UnsetProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -3738,7 +3738,7 @@ eCaseMatters
 )
 )
 {
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -3798,7 +3798,7 @@ aCategory
 nsINode
 *
 aNode
-nsIAtom
+nsAtom
 *
 aKey
 nsISupports
@@ -3883,7 +3883,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 key
 =
@@ -4155,7 +4155,7 @@ eGetSetUserData
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 key
 =
@@ -13369,7 +13369,7 @@ mSelectors
 mIDList
 )
 {
-nsIAtom
+nsAtom
 *
 id
 =
@@ -13869,7 +13869,7 @@ IsElement
 continue
 ;
 }
-nsIAtom
+nsAtom
 *
 id
 =

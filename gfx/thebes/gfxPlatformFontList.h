@@ -443,7 +443,7 @@ virtual
 void
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
@@ -823,7 +823,7 @@ mozilla
 :
 FontFamilyType
 aGenericType
-nsIAtom
+nsAtom
 *
 aLanguage
 nsTArray
@@ -884,13 +884,13 @@ static
 eFontPrefLang
 GetFontPrefLangFor
 (
-nsIAtom
+nsAtom
 *
 aLang
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetLangGroupForPrefLang
 (
@@ -952,7 +952,7 @@ aLang
 void
 GetSampleLangForGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 nsACString
@@ -1261,7 +1261,7 @@ const
 char
 *
 aGeneric
-nsIAtom
+nsAtom
 *
 aLangGroup
 )
@@ -1618,11 +1618,11 @@ nsString
 aFontFamilyNames
 )
 ;
-nsIAtom
+nsAtom
 *
 GetLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -1634,7 +1634,7 @@ const
 nsACString
 &
 aOSLang
-nsIAtom
+nsAtom
 *
 aLangGroup
 nsACString

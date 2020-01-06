@@ -2148,7 +2148,7 @@ eARIANone
 struct
 AttrCharacteristics
 {
-nsIAtom
+nsAtom
 *
 *
 attributeName
@@ -2875,7 +2875,7 @@ aria
 :
 AttrCharacteristicsFor
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -3019,7 +3019,7 @@ kNameSpaceID_None
 )
 )
 {
-nsIAtom
+nsAtom
 *
 attrAtom
 =

@@ -54,12 +54,12 @@ aria
 struct
 EnumTypeData
 {
-nsIAtom
+nsAtom
 *
 const
 mAttrName
 ;
-nsIAtom
+nsAtom
 *
 const
 *
@@ -101,7 +101,7 @@ TokenTypeData
 {
 TokenTypeData
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 uint32_t
@@ -138,7 +138,7 @@ aFalseState
 )
 {
 }
-nsIAtom
+nsAtom
 *
 const
 mAttrName

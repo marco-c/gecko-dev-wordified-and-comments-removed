@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -503,7 +503,7 @@ DocumentLoadNotification
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mWatchID
 ;

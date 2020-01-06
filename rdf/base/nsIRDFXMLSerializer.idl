@@ -106,10 +106,15 @@ nsIRDFDataSource
 idl
 "
 interface
-nsIAtom
+nsAtom
 ;
 /
 /
+not
+a
+real
+interface
+;
 used
 in
 [
@@ -205,7 +210,7 @@ void
 addNameSpace
 (
 in
-nsIAtom
+nsAtom
 aPrefix
 in
 DOMString

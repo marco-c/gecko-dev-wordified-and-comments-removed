@@ -489,7 +489,7 @@ ni
 =
 aNodeInfo
 ;
-nsIAtom
+nsAtom
 *
 name
 =

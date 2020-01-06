@@ -3365,7 +3365,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -3485,7 +3485,7 @@ IsJavaScript
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrNameAtom
 int32_t
@@ -3685,7 +3685,7 @@ const
 nsAString
 &
 aTagNamespaceURI
-nsIAtom
+nsAtom
 *
 aTagName
 nsAString
@@ -3828,7 +3828,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -3839,7 +3839,7 @@ LocalName
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attrPrefix
 =
@@ -4156,7 +4156,7 @@ aOriginalElement
 tagNamespaceURI
 )
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -4548,7 +4548,7 @@ return
 false
 ;
 }
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -4698,7 +4698,7 @@ forceFormat
 aStr
 )
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -6130,7 +6130,7 @@ nsXMLContentSerializer
 :
 IncrIndentation
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -6185,7 +6185,7 @@ nsXMLContentSerializer
 :
 DecrIndentation
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -6216,7 +6216,7 @@ LineBreakBeforeOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -6233,7 +6233,7 @@ LineBreakAfterOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -6250,7 +6250,7 @@ LineBreakBeforeClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -6267,7 +6267,7 @@ LineBreakAfterClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )

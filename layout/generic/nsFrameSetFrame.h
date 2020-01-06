@@ -49,7 +49,7 @@ struct
 nsSize
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsHTMLFramesetBorderFrame

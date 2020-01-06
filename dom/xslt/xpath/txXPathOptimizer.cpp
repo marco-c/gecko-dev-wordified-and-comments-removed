@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -83,7 +83,7 @@ getVariable
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLName
 txAExprResult

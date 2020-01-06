@@ -303,10 +303,10 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -424,7 +424,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -536,7 +536,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const

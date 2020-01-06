@@ -4,7 +4,7 @@ nsHtml5HtmlAttributes_cpp__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -330,7 +330,7 @@ Length
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsHtml5HtmlAttributes
 :
@@ -427,7 +427,7 @@ mMode
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsHtml5HtmlAttributes
 :
@@ -626,7 +626,7 @@ nsHtml5HtmlAttributes
 :
 AddAttributeWithLocal
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5String
@@ -973,7 +973,7 @@ found
 =
 false
 ;
-nsIAtom
+nsAtom
 *
 ownLocal
 =

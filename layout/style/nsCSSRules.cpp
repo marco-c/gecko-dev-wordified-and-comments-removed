@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -2820,7 +2820,7 @@ NameSpaceRule
 :
 NameSpaceRule
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -9516,7 +9516,7 @@ if
 (
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =

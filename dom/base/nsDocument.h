@@ -655,7 +655,7 @@ public
 :
 nsDocHeaderData
 (
-nsIAtom
+nsAtom
 *
 aField
 const
@@ -690,7 +690,7 @@ mNext
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mField
 ;
@@ -1516,7 +1516,7 @@ Element
 *
 AddIDTargetObserver
 (
-nsIAtom
+nsAtom
 *
 aID
 IDTargetObserver
@@ -1533,7 +1533,7 @@ virtual
 void
 RemoveIDTargetObserver
 (
-nsIAtom
+nsAtom
 *
 aID
 IDTargetObserver
@@ -1550,7 +1550,7 @@ virtual
 void
 GetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aHeaderField
 nsAString
@@ -1564,7 +1564,7 @@ virtual
 void
 SetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aheaderField
 const
@@ -2048,7 +2048,7 @@ AddToIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -2061,7 +2061,7 @@ RemoveFromIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -2074,7 +2074,7 @@ AddToNameTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2087,7 +2087,7 @@ RemoveFromNameTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2889,7 +2889,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -3054,7 +3054,7 @@ GetAnonymousElementByAttribute
 nsIContent
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttrName
 const

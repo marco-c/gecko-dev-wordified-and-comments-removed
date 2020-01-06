@@ -1174,7 +1174,7 @@ static
 bool
 IsGlyphPositioningAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -9838,7 +9838,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -10373,7 +10373,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -10436,7 +10436,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )

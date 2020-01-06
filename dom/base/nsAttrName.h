@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -61,7 +61,7 @@ AddRefInternalName
 explicit
 nsAttrName
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -283,7 +283,7 @@ aNodeInfo
 void
 SetTo
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -387,7 +387,7 @@ NS_ATTRNAME_NODEINFO_BIT
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 Atom
 (
@@ -414,7 +414,7 @@ name
 return
 reinterpret_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -444,7 +444,7 @@ mBits
 bool
 Equals
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -493,7 +493,7 @@ aLocalName
 bool
 Equals
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -628,7 +628,7 @@ aNamespaceID
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 LocalName
 (
@@ -654,7 +654,7 @@ NameAtom
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 GetPrefix
 (
@@ -812,7 +812,7 @@ mBits
 bool
 IsSmaller
 (
-nsIAtom
+nsAtom
 *
 aOther
 )

@@ -370,7 +370,7 @@ mozilla
 a11y
 ;
 static
-nsIAtom
+nsAtom
 *
 *
 kRelationAttrs
@@ -3051,7 +3051,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -3233,7 +3233,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -3377,7 +3377,7 @@ Accessible
 aAccessible
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -3992,7 +3992,7 @@ ARIAAttributeChanged
 Accessible
 *
 aAccessible
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -6862,7 +6862,7 @@ AddDependentIDsFor
 Accessible
 *
 aRelProvider
-nsIAtom
+nsAtom
 *
 aRelAttr
 )
@@ -6904,7 +6904,7 @@ idx
 +
 )
 {
-nsIAtom
+nsAtom
 *
 relAttr
 =
@@ -7178,7 +7178,7 @@ RemoveDependentIDsFor
 Accessible
 *
 aRelProvider
-nsIAtom
+nsAtom
 *
 aRelAttr
 )
@@ -7220,7 +7220,7 @@ idx
 +
 )
 {
-nsIAtom
+nsAtom
 *
 relAttr
 =
@@ -7399,7 +7399,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )

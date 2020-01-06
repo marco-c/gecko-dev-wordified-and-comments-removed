@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -97,7 +97,7 @@ nsHtml5AtomTable
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 GetAtom
 (
@@ -169,7 +169,7 @@ nsHtml5AtomEntry
 >
 mTable
 ;
-nsIAtom
+nsAtom
 *
 mRecentlyUsedParserAtoms
 [

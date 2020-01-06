@@ -7,7 +7,7 @@ nsRDFBinding_h__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -38,7 +38,7 @@ public
 :
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSubjectVariable
 ;
@@ -50,7 +50,7 @@ mPredicate
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mTargetVariable
 ;
@@ -69,13 +69,13 @@ RDFBindingSet
 ;
 RDFBinding
 (
-nsIAtom
+nsAtom
 *
 aSubjectVariable
 nsIRDFResource
 *
 aPredicate
-nsIAtom
+nsAtom
 *
 aTargetVariable
 )
@@ -176,10 +176,10 @@ mCount
 nsresult
 AddBinding
 (
-nsIAtom
+nsAtom
 *
 aVar
-nsIAtom
+nsAtom
 *
 aRef
 nsIRDFResource
@@ -199,7 +199,7 @@ aPredicate
 nsIRDFNode
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsXULTemplateResultRDF
@@ -235,7 +235,7 @@ aResult
 int32_t
 LookupTargetIndex
 (
-nsIAtom
+nsAtom
 *
 aTargetVariable
 RDFBinding
@@ -332,7 +332,7 @@ GetAssignmentFor
 nsXULTemplateResultRDF
 *
 aResult
-nsIAtom
+nsAtom
 *
 aVar
 nsIRDFNode

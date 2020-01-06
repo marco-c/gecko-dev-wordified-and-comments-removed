@@ -64,13 +64,13 @@ aParent
 nsXULTemplateQueryProcessorRDF
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aSourceVariable
 nsIRDFResource
 *
 aProperty
-nsIAtom
+nsAtom
 *
 aTargetVariable
 )
@@ -89,7 +89,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-nsIAtom
+nsAtom
 *
 aTargetVariable
 )
@@ -102,7 +102,7 @@ aParent
 nsXULTemplateQueryProcessorRDF
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aSourceVariable
 nsIRDFResource
@@ -373,7 +373,7 @@ mProcessor
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSourceVariable
 ;
@@ -391,7 +391,7 @@ mProperty
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mTargetVariable
 ;

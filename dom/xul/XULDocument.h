@@ -740,7 +740,7 @@ Element
 aContent
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttrName
 void
@@ -1138,7 +1138,7 @@ aBroadcaster
 Element
 *
 aListener
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -1151,10 +1151,10 @@ nsIContent
 aNode
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -1189,7 +1189,7 @@ int32_t
 gRefCnt
 ;
 static
-nsIAtom
+nsAtom
 *
 *
 kIdentityAttrs
@@ -1228,7 +1228,7 @@ nsIContent
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1241,7 +1241,7 @@ nsIContent
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2149,7 +2149,7 @@ aBroadcaster
 Element
 *
 aListener
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -2251,7 +2251,7 @@ mAttr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttrName
 ;

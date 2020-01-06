@@ -91,7 +91,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mColumnNames
@@ -117,7 +117,7 @@ aStatement
 int32_t
 GetColumnIndex
 (
-nsIAtom
+nsAtom
 *
 aColumnName
 )

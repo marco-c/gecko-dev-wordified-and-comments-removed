@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1140,7 +1140,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudoElt
 ;
@@ -5446,7 +5446,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -5676,7 +5676,7 @@ incorrect
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -5757,7 +5757,7 @@ aNames
 {
 nsTArray
 <
-nsIAtom
+nsAtom
 *
 >
 array
@@ -5819,7 +5819,7 @@ eForAllContent
 )
 )
 {
-nsIAtom
+nsAtom
 *
 atom
 =

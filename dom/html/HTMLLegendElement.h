@@ -140,7 +140,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -158,7 +158,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

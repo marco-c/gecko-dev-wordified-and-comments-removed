@@ -660,7 +660,7 @@ bool
 MatchesLanguagePrefix
 (
 const
-nsIAtom
+nsAtom
 *
 aLang
 const

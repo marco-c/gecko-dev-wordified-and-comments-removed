@@ -3736,7 +3736,7 @@ dummy
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 =
@@ -3837,7 +3837,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 =
@@ -3980,7 +3980,7 @@ aDocument
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttribute
 )

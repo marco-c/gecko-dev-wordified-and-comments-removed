@@ -231,7 +231,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -251,7 +251,7 @@ aFlags
 override
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetTransformListAttrName
 (

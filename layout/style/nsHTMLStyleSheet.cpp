@@ -726,7 +726,7 @@ eCSSUnit_Null
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 langAtom
 =
@@ -1107,7 +1107,7 @@ lang
 static_cast
 <
 const
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1188,7 +1188,7 @@ lang
 static_cast
 <
 const
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1243,7 +1243,7 @@ lang
 static_cast
 <
 const
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1276,7 +1276,7 @@ LangRule
 (
 const_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -2655,7 +2655,7 @@ nsHTMLStyleSheet
 LangRuleFor
 (
 const
-nsIAtom
+nsAtom
 *
 aLanguage
 )

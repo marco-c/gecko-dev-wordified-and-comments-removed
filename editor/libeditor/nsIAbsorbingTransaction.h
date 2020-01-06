@@ -48,7 +48,7 @@ a6cf9116
 }
 }
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -85,7 +85,7 @@ EndPlaceHolderBatch
 NS_IMETHOD
 GetTxnName
 (
-nsIAtom
+nsAtom
 *
 *
 aName

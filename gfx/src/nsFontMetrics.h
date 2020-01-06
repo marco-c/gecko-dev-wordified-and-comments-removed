@@ -100,7 +100,7 @@ class
 nsDeviceContext
 ;
 class
-nsIAtom
+nsAtom
 ;
 struct
 nsBoundingMetrics
@@ -132,7 +132,7 @@ struct
 MOZ_STACK_CLASS
 Params
 {
-nsIAtom
+nsAtom
 *
 language
 =
@@ -301,7 +301,7 @@ return
 mFont
 ;
 }
-nsIAtom
+nsAtom
 *
 Language
 (
@@ -581,7 +581,7 @@ mFontGroup
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLanguage
 ;

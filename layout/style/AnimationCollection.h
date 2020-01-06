@@ -75,7 +75,7 @@ nsTArray
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsPresContext
@@ -132,7 +132,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aElementProperty
 )
@@ -223,7 +223,7 @@ PropertyDtor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -303,7 +303,7 @@ Element
 *
 mElement
 ;
-nsIAtom
+nsAtom
 *
 mElementProperty
 ;
@@ -330,7 +330,7 @@ aPresContext
 private
 :
 static
-nsIAtom
+nsAtom
 *
 GetPropertyAtomForPseudoType
 (

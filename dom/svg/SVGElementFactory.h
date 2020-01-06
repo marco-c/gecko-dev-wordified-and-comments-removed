@@ -5,7 +5,7 @@ mozilla_dom_SVGElementFactory_h
 define
 mozilla_dom_SVGElementFactory_h
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla

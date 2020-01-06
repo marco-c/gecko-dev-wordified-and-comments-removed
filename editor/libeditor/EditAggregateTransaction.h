@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -109,7 +109,7 @@ aTransaction
 NS_IMETHOD
 GetName
 (
-nsIAtom
+nsAtom
 *
 *
 aName
@@ -134,7 +134,7 @@ mChildren
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;

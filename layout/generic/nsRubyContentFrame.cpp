@@ -71,7 +71,7 @@ IsIntraLevelWhitespace
 )
 const
 {
-nsIAtom
+nsAtom
 *
 pseudoType
 =

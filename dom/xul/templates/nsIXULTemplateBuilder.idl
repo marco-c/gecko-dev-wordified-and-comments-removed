@@ -101,10 +101,15 @@ domstubs
 idl
 "
 interface
-nsIAtom
+nsAtom
 ;
 /
 /
+not
+a
+real
+interface
+;
 used
 in
 [
@@ -2291,7 +2296,7 @@ in
 nsIRDFResource
 aNode
 in
-nsIAtom
+nsAtom
 aTag
 )
 ;

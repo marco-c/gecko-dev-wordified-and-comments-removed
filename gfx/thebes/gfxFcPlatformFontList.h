@@ -686,7 +686,7 @@ override
 bool
 FilterForFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
@@ -715,7 +715,7 @@ gfxFontconfigFontFamily
 bool
 SupportsLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 )
@@ -882,7 +882,7 @@ override
 void
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
@@ -1000,7 +1000,7 @@ mozilla
 :
 FontFamilyType
 aGenericType
-nsIAtom
+nsAtom
 *
 aLanguage
 nsTArray
@@ -1063,7 +1063,7 @@ const
 nsAString
 &
 aGeneric
-nsIAtom
+nsAtom
 *
 aLanguage
 )

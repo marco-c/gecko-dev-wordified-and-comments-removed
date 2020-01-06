@@ -500,7 +500,7 @@ return
 false
 ;
 }
-nsIAtom
+nsAtom
 *
 valAtom
 =

@@ -760,7 +760,7 @@ ExpandedPrincipal
 AddonHasPermission
 (
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )

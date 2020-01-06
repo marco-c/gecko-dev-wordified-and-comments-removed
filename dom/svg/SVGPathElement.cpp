@@ -1087,7 +1087,7 @@ SVGPathElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1153,7 +1153,7 @@ SVGPathElement
 AttributeDefinesGeometry
 (
 const
-nsIAtom
+nsAtom
 *
 aName
 )

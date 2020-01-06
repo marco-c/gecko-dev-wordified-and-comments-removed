@@ -128,7 +128,7 @@ virtual
 nsresult
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const

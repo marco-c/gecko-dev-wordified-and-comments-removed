@@ -2416,7 +2416,7 @@ GetImmediateChild
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 nsIContent

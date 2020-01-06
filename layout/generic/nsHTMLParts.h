@@ -32,7 +32,7 @@ class
 nsCheckboxRadioFrame
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsNodeInfoManager
@@ -131,7 +131,7 @@ nsNodeInfoManager
 aNodeInfoManager
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttrName
 nsIContent

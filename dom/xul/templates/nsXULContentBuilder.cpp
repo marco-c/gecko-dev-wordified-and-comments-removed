@@ -505,7 +505,7 @@ nsIContent
 aParent
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTag
 bool
@@ -551,7 +551,7 @@ CreateElement
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTag
 Element
@@ -1077,7 +1077,7 @@ IsElement
 )
 )
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -1979,7 +1979,7 @@ NamespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribName
 =
@@ -2269,7 +2269,7 @@ break
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 ;
@@ -3226,7 +3226,7 @@ mQuerySets
 r
 ]
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -3970,7 +3970,7 @@ nsIContent
 parent
 int32_t
 nameSpaceID
-nsIAtom
+nsAtom
 *
 tag
 bool
@@ -4428,7 +4428,7 @@ CreateElement
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTag
 Element
@@ -5082,7 +5082,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

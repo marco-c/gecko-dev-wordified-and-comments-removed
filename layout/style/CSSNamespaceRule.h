@@ -27,7 +27,7 @@ CSSNamespaceRuleBinding
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -91,7 +91,7 @@ Rule
 GetType
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetPrefix
 (

@@ -2036,7 +2036,7 @@ AsServo
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudo
 =

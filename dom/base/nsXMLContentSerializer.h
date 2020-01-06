@@ -67,7 +67,7 @@ NS_LITERAL_STRING
 "
 )
 class
-nsIAtom
+nsAtom
 ;
 class
 nsINode
@@ -585,7 +585,7 @@ const
 nsAString
 &
 aTagNamespaceURI
-nsIAtom
+nsAtom
 *
 aTagName
 nsAString
@@ -626,7 +626,7 @@ IsJavaScript
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttrNameAtom
 int32_t
@@ -744,7 +744,7 @@ LineBreakBeforeOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -755,7 +755,7 @@ LineBreakAfterOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -766,7 +766,7 @@ LineBreakBeforeClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -777,7 +777,7 @@ LineBreakAfterClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -795,7 +795,7 @@ MOZ_MUST_USE
 bool
 IncrIndentation
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -803,7 +803,7 @@ aName
 void
 DecrIndentation
 (
-nsIAtom
+nsAtom
 *
 aName
 )

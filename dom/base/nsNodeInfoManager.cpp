@@ -53,7 +53,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1096,17 +1096,17 @@ nsNodeInfoManager
 :
 GetNodeInfo
 (
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
 aNamespaceID
 uint16_t
 aNodeType
-nsIAtom
+nsAtom
 *
 aExtraName
 )
@@ -1322,7 +1322,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -1341,7 +1341,7 @@ DEBUG
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -1482,7 +1482,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -1589,7 +1589,7 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const

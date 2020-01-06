@@ -104,14 +104,14 @@ IsSearchbox
 )
 const
 ;
-nsIAtom
+nsAtom
 *
 LandmarkRole
 (
 )
 const
 ;
-nsIAtom
+nsAtom
 *
 ARIARoleAtom
 (

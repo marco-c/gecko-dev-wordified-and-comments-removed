@@ -161,7 +161,7 @@ class
 gfxUserFontSet
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsLanguageAtomService

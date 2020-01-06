@@ -777,7 +777,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -825,7 +825,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -873,7 +873,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2003,7 +2003,7 @@ NoteUserData
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aKey
 void
@@ -2516,7 +2516,7 @@ nullptr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagAtom
 =
@@ -2658,7 +2658,7 @@ definition
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 =

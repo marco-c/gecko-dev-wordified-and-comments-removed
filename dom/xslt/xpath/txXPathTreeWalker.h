@@ -33,7 +33,7 @@ nsTArray
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMDocument
@@ -63,7 +63,7 @@ aNode
 bool
 getAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -145,7 +145,7 @@ moveToNextAttribute
 bool
 moveToNamedAttribute
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -217,7 +217,7 @@ const
 txXPathNode
 &
 aNode
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -230,7 +230,7 @@ aValue
 static
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 getLocalName
 (
@@ -241,7 +241,7 @@ aNode
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 getPrefix
 (
@@ -415,7 +415,7 @@ const
 txXPathNode
 &
 aNode
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -735,7 +735,7 @@ txXPathTreeWalker
 :
 getAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -1026,7 +1026,7 @@ const
 txXPathNode
 &
 aNode
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -1073,7 +1073,7 @@ aLocalName
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =

@@ -323,7 +323,7 @@ mModeNsId
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mModeLocalName
 ;

@@ -250,7 +250,7 @@ LangGroupFontPrefs
 :
 Initialize
 (
-nsIAtom
+nsAtom
 *
 aLangGroupAtom
 )
@@ -1005,14 +1005,14 @@ sizeAdjust
 endif
 }
 }
-nsIAtom
+nsAtom
 *
 StaticPresData
 :
 :
 GetLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 bool
@@ -1021,7 +1021,7 @@ aNeedsToCache
 )
 const
 {
-nsIAtom
+nsAtom
 *
 langGroupAtom
 =
@@ -1058,14 +1058,14 @@ langGroupAtom
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 StaticPresData
 :
 :
 GetUncachedLangGroup
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -1073,7 +1073,7 @@ const
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 langGroupAtom
 =
@@ -1115,7 +1115,7 @@ StaticPresData
 :
 GetFontPrefsForLangHelper
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 const
@@ -1143,7 +1143,7 @@ MOZ_ASSERT
 aPrefs
 )
 ;
-nsIAtom
+nsAtom
 *
 langGroupAtom
 =
@@ -1323,7 +1323,7 @@ GetDefaultFontHelper
 (
 uint8_t
 aFontID
-nsIAtom
+nsAtom
 *
 aLanguage
 const

@@ -26,7 +26,7 @@ nsTreeStyleCache
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -57,7 +57,7 @@ GetImmediateChild
 nsIContent
 *
 aContainer
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -70,7 +70,7 @@ GetDescendantChild
 nsIContent
 *
 aContainer
-nsIAtom
+nsAtom
 *
 aTag
 )

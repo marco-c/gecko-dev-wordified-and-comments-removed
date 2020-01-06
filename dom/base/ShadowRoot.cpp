@@ -912,7 +912,7 @@ AddToIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -952,7 +952,7 @@ RemoveFromIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -2144,7 +2144,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

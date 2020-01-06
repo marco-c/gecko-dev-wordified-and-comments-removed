@@ -156,7 +156,7 @@ GetTextEquivFromIDRefs
 Accessible
 *
 aAccessible
-nsIAtom
+nsAtom
 *
 aIDRefsAttr
 nsAString

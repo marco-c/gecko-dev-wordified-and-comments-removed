@@ -266,7 +266,7 @@ const
 nsAString
 &
 aTagNamespaceURI
-nsIAtom
+nsAtom
 *
 aTagName
 int32_t
@@ -347,7 +347,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -851,7 +851,7 @@ rv
 rv
 )
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1382,7 +1382,7 @@ content
 =
 aElement
 ;
-nsIAtom
+nsAtom
 *
 name
 =

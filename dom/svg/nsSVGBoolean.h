@@ -44,7 +44,7 @@ UniquePtr
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsSMILValue
@@ -103,7 +103,7 @@ nsresult
 SetBaseValueAtom
 (
 const
-nsIAtom
+nsAtom
 *
 aValue
 nsSVGElement
@@ -111,7 +111,7 @@ nsSVGElement
 aSVGElement
 )
 ;
-nsIAtom
+nsAtom
 *
 GetBaseValueAtom
 (

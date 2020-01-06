@@ -538,7 +538,7 @@ XULSliderAccessible
 :
 GetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -594,7 +594,7 @@ XULSliderAccessible
 :
 SetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -645,7 +645,7 @@ XULSliderAccessible
 :
 GetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -716,7 +716,7 @@ XULSliderAccessible
 :
 SetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 double

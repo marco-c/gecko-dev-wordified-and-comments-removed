@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -97,7 +97,7 @@ nsAString
 aURI
 )
 ;
-nsIAtom
+nsAtom
 *
 NameSpaceURIAtom
 (
@@ -119,7 +119,7 @@ aNameSpaceID
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 NameSpaceURIAtomForServo
 (
@@ -175,7 +175,7 @@ aInChromeDoc
 int32_t
 GetNameSpaceID
 (
-nsIAtom
+nsAtom
 *
 aURI
 bool
@@ -214,7 +214,7 @@ AddNameSpace
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aURI
 const
@@ -227,7 +227,7 @@ AddDisabledNameSpace
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aURI
 const
@@ -246,7 +246,7 @@ nsDataHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 int32_t
 >
@@ -256,7 +256,7 @@ nsDataHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 int32_t
 >
@@ -266,7 +266,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mURIArray

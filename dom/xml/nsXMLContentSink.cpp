@@ -3763,7 +3763,7 @@ SetDocElement
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aTagName
 nsIContent
@@ -4035,7 +4035,7 @@ nameSpaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -4517,7 +4517,7 @@ ifdef
 DEBUG
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 debugNameSpacePrefix
 debugTagAtom
@@ -5033,7 +5033,7 @@ fragment
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -6137,7 +6137,7 @@ aContent
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName

@@ -8353,7 +8353,7 @@ IsHTMLElement
 return
 false
 ;
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -9162,7 +9162,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

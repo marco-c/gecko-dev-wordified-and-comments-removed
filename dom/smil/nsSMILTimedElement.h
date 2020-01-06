@@ -109,7 +109,7 @@ class
 nsSMILTimeValue
 ;
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -300,7 +300,7 @@ aIsDisabled
 bool
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -323,7 +323,7 @@ nullptr
 bool
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )

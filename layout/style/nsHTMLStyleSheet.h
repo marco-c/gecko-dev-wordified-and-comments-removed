@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -349,7 +349,7 @@ nsIStyleRule
 LangRuleFor
 (
 const
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -706,7 +706,7 @@ public
 explicit
 LangRule
 (
-nsIAtom
+nsAtom
 *
 aLang
 )
@@ -771,7 +771,7 @@ override
 endif
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLang
 ;

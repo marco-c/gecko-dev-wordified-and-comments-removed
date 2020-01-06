@@ -83,7 +83,7 @@ class
 nsDisplaySVGGeometry
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIFrame
@@ -262,7 +262,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

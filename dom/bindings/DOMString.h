@@ -55,7 +55,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -656,7 +656,7 @@ eNullNotExpected
 void
 SetOwnedAtom
 (
-nsIAtom
+nsAtom
 *
 aAtom
 NullHandling

@@ -4189,7 +4189,7 @@ Deal
 with
 landmarks
 first
-nsIAtom
+nsAtom
 *
 landmark
 =
@@ -4439,7 +4439,7 @@ deal
 with
 widget
 roles
-nsIAtom
+nsAtom
 *
 roleAtom
 =

@@ -1387,7 +1387,7 @@ this
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 oldValue
 ;
@@ -3066,10 +3066,10 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttr
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -3092,7 +3092,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttr
 bool
@@ -4782,7 +4782,7 @@ aFallible
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsGenericDOMDataNode
 :
@@ -4831,7 +4831,7 @@ nsGenericDOMDataNode
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -4848,7 +4848,7 @@ nsGenericDOMDataNode
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

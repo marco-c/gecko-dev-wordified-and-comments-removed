@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -484,7 +484,7 @@ nsIContent
 :
 IsEventAttributeName
 (
-nsIAtom
+nsAtom
 *
 aName
 )

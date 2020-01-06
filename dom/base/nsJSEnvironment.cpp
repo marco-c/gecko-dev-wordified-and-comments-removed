@@ -176,7 +176,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -2722,7 +2722,7 @@ DEBUG
 bool
 AtomIsEventHandlerName
 (
-nsIAtom
+nsAtom
 *
 aName
 )

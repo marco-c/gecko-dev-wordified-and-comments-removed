@@ -66,7 +66,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1284,7 +1284,7 @@ aEvent
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 onEventAtom
 =
@@ -1789,7 +1789,7 @@ EnsureEventHandler
 AutoJSAPI
 &
 jsapi
-nsIAtom
+nsAtom
 *
 aName
 JS
@@ -2911,7 +2911,7 @@ modifiersMask
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsXBLPrototypeHandler
 :
@@ -2922,7 +2922,7 @@ GetEventName
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 eventName
 =

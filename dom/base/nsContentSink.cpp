@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1385,7 +1385,7 @@ nsContentSink
 :
 ProcessHeaderData
 (
-nsIAtom
+nsAtom
 *
 aHeader
 const
@@ -3756,7 +3756,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 fieldAtom
 (

@@ -177,7 +177,7 @@ return
 mProcessor
 ;
 }
-nsIAtom
+nsAtom
 *
 GetMemberVariable
 (
@@ -216,7 +216,7 @@ mRequiredBindings
 void
 AddBinding
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAutoPtr
@@ -269,7 +269,7 @@ nsXMLQuery
 nsXULTemplateQueryProcessorXML
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsAutoPtr
@@ -315,7 +315,7 @@ mProcessor
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mMemberVariable
 ;

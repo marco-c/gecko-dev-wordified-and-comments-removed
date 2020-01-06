@@ -1,7 +1,7 @@
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -40,10 +40,10 @@ txNamedAttributeStep
 (
 int32_t
 aNsID
-nsIAtom
+nsAtom
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 aLocalName
 )

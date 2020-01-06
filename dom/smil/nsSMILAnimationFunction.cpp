@@ -324,7 +324,7 @@ nsSMILAnimationFunction
 :
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -535,7 +535,7 @@ nsSMILAnimationFunction
 :
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2972,7 +2972,7 @@ nsSMILAnimationFunction
 :
 HasAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -2996,7 +2996,7 @@ nsSMILAnimationFunction
 :
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -3018,7 +3018,7 @@ nsSMILAnimationFunction
 :
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 nsAString
@@ -3044,7 +3044,7 @@ nsSMILAnimationFunction
 :
 ParseAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 const

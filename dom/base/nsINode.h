@@ -1639,7 +1639,7 @@ inline
 bool
 IsHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1724,7 +1724,7 @@ inline
 bool
 IsSVGElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1809,7 +1809,7 @@ inline
 bool
 IsXULElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1894,7 +1894,7 @@ inline
 bool
 IsMathMLElement
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -2008,7 +2008,7 @@ void
 *
 GetProperty
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -2034,7 +2034,7 @@ GetProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -2048,7 +2048,7 @@ const
 nsresult
 SetProperty
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -2080,7 +2080,7 @@ SetProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -2113,7 +2113,7 @@ DeleteProperty
 (
 void
 *
-nsIAtom
+nsAtom
 *
 void
 *
@@ -2136,7 +2136,7 @@ aPropertyValue
 void
 DeleteProperty
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -2153,7 +2153,7 @@ DeleteProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -2162,7 +2162,7 @@ void
 *
 UnsetProperty
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult
@@ -2187,7 +2187,7 @@ UnsetProperty
 (
 uint16_t
 aCategory
-nsIAtom
+nsAtom
 *
 aPropertyName
 nsresult

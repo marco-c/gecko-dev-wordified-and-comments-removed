@@ -2108,7 +2108,7 @@ HasGeneratedContent
 nsIRDFResource
 *
 aResource
-nsIAtom
+nsAtom
 *
 aTag
 bool
@@ -3099,7 +3099,7 @@ if
 aNewResult
 )
 {
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -4363,7 +4363,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -5814,7 +5814,7 @@ GetRuleAt
 r
 )
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -6545,7 +6545,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 var
 =
@@ -7499,7 +7499,7 @@ action
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 memberVariable
 =
@@ -7543,7 +7543,7 @@ hasQuery
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 ;
@@ -7728,7 +7728,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 ;
@@ -7974,7 +7974,7 @@ continue
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 ;
@@ -8004,7 +8004,7 @@ tag
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 memberVariable
 =
@@ -8166,7 +8166,7 @@ aRuleElement
 nsIContent
 *
 aActionElement
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsTemplateQuerySet
@@ -8320,7 +8320,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsXULTemplateBuilder
 :
@@ -8406,7 +8406,7 @@ uri
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 result
 =
@@ -8442,7 +8442,7 @@ DetermineRDFQueryRef
 nsIContent
 *
 aQueryElement
-nsIAtom
+nsAtom
 *
 *
 aTag
@@ -8602,7 +8602,7 @@ aRuleElement
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 memberVariable
 ;
@@ -8741,7 +8741,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagatom
 =
@@ -8814,7 +8814,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagatom
 =
@@ -8967,7 +8967,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 svar
 ;
@@ -9089,7 +9089,7 @@ eCaseMatters
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 vvar
 ;
@@ -9434,7 +9434,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 svar
 ;
@@ -9552,7 +9552,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 ovar
 ;
@@ -9882,7 +9882,7 @@ aClosure
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 var
 =

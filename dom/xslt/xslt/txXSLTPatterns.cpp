@@ -1134,7 +1134,7 @@ hasMoreTokens
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -1217,7 +1217,7 @@ nsIContent
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 id
 =

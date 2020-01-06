@@ -4084,7 +4084,7 @@ RDFXMLDataSourceImpl
 :
 AddNameSpace
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 const

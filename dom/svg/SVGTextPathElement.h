@@ -37,7 +37,7 @@ SVGTextContentElement
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -210,7 +210,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )

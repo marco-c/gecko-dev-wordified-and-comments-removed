@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -549,7 +549,7 @@ nsMenuAttributeChangedEvent
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -710,7 +710,7 @@ mFrame
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttr
 ;
@@ -3022,7 +3022,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

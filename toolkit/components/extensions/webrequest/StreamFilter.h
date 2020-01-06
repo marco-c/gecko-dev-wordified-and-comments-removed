@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -356,7 +356,7 @@ mChannelId
 const
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAddonId
 ;

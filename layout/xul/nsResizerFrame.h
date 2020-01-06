@@ -167,7 +167,7 @@ SizeInfoDtorFunc
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void

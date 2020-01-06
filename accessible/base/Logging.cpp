@@ -5125,7 +5125,7 @@ ToUTF8String
 tag
 )
 ;
-nsIAtom
+nsAtom
 *
 idAtom
 =
@@ -5634,7 +5634,7 @@ ToUTF8String
 tag
 )
 ;
-nsIAtom
+nsAtom
 *
 idAtom
 =

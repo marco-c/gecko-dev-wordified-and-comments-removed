@@ -67,7 +67,7 @@ SetIdentAtomValue
 (
 nsCSSPropertyID
 aId
-nsIAtom
+nsAtom
 *
 aValue
 )

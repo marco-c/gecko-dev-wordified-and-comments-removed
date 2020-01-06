@@ -30,7 +30,7 @@ OriginAttributes
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContentSecurityPolicy
@@ -424,7 +424,7 @@ bool
 AddonHasPermission
 (
 const
-nsIAtom
+nsAtom
 *
 aPerm
 )
@@ -732,13 +732,13 @@ aOriginNoSuffix
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mOriginNoSuffix
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mOriginSuffix
 ;

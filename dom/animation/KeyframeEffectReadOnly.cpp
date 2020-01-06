@@ -4337,7 +4337,7 @@ element
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudo
 =

@@ -18473,7 +18473,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -18705,7 +18705,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -18966,7 +18966,7 @@ OnAttrSetButNotChanged
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -19005,7 +19005,7 @@ AfterMaybeChangeAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -30935,7 +30935,7 @@ HTMLMediaElement
 :
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

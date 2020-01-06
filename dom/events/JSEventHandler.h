@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -688,7 +688,7 @@ JSEventHandler
 nsISupports
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aType
 const
@@ -744,7 +744,7 @@ ForgetHandler
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 EventName
 (
@@ -883,7 +883,7 @@ mTarget
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mEventName
 ;
@@ -904,7 +904,7 @@ NS_NewJSEventHandler
 nsISupports
 *
 aTarget
-nsIAtom
+nsAtom
 *
 aType
 const

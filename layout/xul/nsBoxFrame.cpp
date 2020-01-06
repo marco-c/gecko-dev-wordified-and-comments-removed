@@ -1136,7 +1136,7 @@ return
 true
 ;
 }
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -1506,7 +1506,7 @@ return
 true
 ;
 }
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -4622,7 +4622,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

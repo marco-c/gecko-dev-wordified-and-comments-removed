@@ -656,7 +656,7 @@ nsMappedAttributes
 :
 SetAndSwapAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 nsAttrValue
@@ -871,7 +871,7 @@ nsMappedAttributes
 :
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -1649,7 +1649,7 @@ nsMappedAttributes
 :
 IndexOfAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )

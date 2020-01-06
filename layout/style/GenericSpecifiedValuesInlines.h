@@ -118,7 +118,7 @@ SetIdentAtomValue
 (
 nsCSSPropertyID
 aId
-nsIAtom
+nsAtom
 *
 aValue
 )
@@ -140,7 +140,7 @@ SetIdentAtomValueIfUnset
 (
 nsCSSPropertyID
 aId
-nsIAtom
+nsAtom
 *
 aValue
 )

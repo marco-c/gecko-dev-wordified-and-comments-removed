@@ -459,7 +459,7 @@ SVGFEImageElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -503,7 +503,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1156,7 +1156,7 @@ AttributeAffectsRendering
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )

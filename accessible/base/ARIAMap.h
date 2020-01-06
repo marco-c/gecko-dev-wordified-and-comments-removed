@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -140,7 +140,7 @@ nsRoleMapEntry
 bool
 Is
 (
-nsIAtom
+nsAtom
 *
 aARIARole
 )
@@ -189,7 +189,7 @@ roleAtom
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 *
 roleAtom
@@ -365,7 +365,7 @@ aElement
 uint8_t
 AttrCharacteristicsFor
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )

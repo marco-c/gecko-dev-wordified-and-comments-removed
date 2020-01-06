@@ -438,7 +438,7 @@ MarkUserData
 void
 *
 aNode
-nsIAtom
+nsAtom
 *
 aKey
 void

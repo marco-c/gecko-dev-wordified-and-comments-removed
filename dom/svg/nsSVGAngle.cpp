@@ -95,7 +95,7 @@ mozilla
 dom
 ;
 static
-nsIAtom
+nsAtom
 *
 *
 const
@@ -250,7 +250,7 @@ IsEmpty
 return
 SVG_ANGLETYPE_UNSPECIFIED
 ;
-nsIAtom
+nsAtom
 *
 unitAtom
 =

@@ -465,7 +465,7 @@ mId
 }
 public
 :
-nsIAtom
+nsAtom
 *
 GetAtom
 (
@@ -614,7 +614,7 @@ mId
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAtom
 ;

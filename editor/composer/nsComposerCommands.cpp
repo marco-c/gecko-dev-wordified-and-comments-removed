@@ -84,7 +84,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -289,7 +289,7 @@ nsBaseStateUpdatingCommand
 :
 nsBaseStateUpdatingCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -831,7 +831,7 @@ nsStyleUpdatingCommand
 :
 nsStyleUpdatingCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -1283,7 +1283,7 @@ nsListCommand
 :
 nsListCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -1533,7 +1533,7 @@ nsListItemCommand
 :
 nsListItemCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -6333,7 +6333,7 @@ nsInsertTagCommand
 :
 nsInsertTagCommand
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -7035,7 +7035,7 @@ aHTMLEditor
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 styleAtom
 =
@@ -7134,7 +7134,7 @@ aHTMLEditor
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 styleAtom
 =

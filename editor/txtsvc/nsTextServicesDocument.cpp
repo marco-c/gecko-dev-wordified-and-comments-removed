@@ -381,7 +381,7 @@ TS_ATOM
 name_
 value_
 )
-nsIAtom
+nsAtom
 *
 nsTextServicesDocument
 :
@@ -7051,7 +7051,7 @@ return
 false
 ;
 }
-nsIAtom
+nsAtom
 *
 atom
 =

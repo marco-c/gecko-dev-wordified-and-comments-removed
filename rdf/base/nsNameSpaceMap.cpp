@@ -76,7 +76,7 @@ const
 nsAString
 &
 aURI
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -108,7 +108,7 @@ const
 nsACString
 &
 aURI
-nsIAtom
+nsAtom
 *
 aPrefix
 )

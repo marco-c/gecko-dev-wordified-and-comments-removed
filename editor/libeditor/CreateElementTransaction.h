@@ -35,7 +35,7 @@ nsISupportsImpl
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -70,7 +70,7 @@ CreateElementTransaction
 EditorBase
 &
 aEditorBase
-nsIAtom
+nsAtom
 &
 aTag
 nsINode
@@ -120,7 +120,7 @@ mEditorBase
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mTag
 ;

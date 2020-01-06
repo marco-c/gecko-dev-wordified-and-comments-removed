@@ -4,7 +4,7 @@ nsHtml5ElementName_cpp__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -174,10 +174,10 @@ nsHtml5ElementName
 :
 nsHtml5ElementName
 (
-nsIAtom
+nsAtom
 *
 name
-nsIAtom
+nsAtom
 *
 camelCaseName
 mozilla

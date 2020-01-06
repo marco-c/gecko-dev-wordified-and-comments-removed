@@ -113,7 +113,7 @@ aValue
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -137,7 +137,7 @@ SetIdentAtomValue
 (
 nsCSSPropertyID
 aId
-nsIAtom
+nsAtom
 *
 aValue
 )

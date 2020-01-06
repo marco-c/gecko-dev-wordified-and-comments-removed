@@ -71,7 +71,7 @@ nsTHashtable
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -148,7 +148,7 @@ AddToIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )
@@ -159,7 +159,7 @@ RemoveFromIdTable
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aId
 )

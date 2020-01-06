@@ -1632,7 +1632,7 @@ aDocument
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAttribute
 )

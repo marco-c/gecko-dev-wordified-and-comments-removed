@@ -637,7 +637,7 @@ prefixIsNull
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -2032,7 +2032,7 @@ nsXULPrototypeDocument
 :
 GetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aField
 nsAString
@@ -2057,7 +2057,7 @@ nsXULPrototypeDocument
 :
 SetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aField
 const

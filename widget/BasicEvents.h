@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1365,7 +1365,7 @@ mFlags
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSpecifiedEventType
 ;

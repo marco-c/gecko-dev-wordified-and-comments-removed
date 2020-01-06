@@ -38,7 +38,7 @@ class
 nsIContent
 ;
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -196,7 +196,7 @@ LineBreakBeforeOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -208,7 +208,7 @@ LineBreakAfterOpen
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -220,7 +220,7 @@ LineBreakBeforeClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -232,7 +232,7 @@ LineBreakAfterClose
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -288,7 +288,7 @@ const
 nsAString
 &
 aTagNamespaceURI
-nsIAtom
+nsAtom
 *
 aTagName
 nsAString
@@ -325,11 +325,11 @@ bool
 IsShorthandAttr
 (
 const
-nsIAtom
+nsAtom
 *
 aAttrName
 const
-nsIAtom
+nsAtom
 *
 aElementName
 )

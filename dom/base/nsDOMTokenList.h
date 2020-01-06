@@ -83,7 +83,7 @@ class
 nsAttrValue
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsDOMTokenList
@@ -127,7 +127,7 @@ nsDOMTokenList
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttrAtom
 const
@@ -442,7 +442,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -516,7 +516,7 @@ mElement
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttrAtom
 ;

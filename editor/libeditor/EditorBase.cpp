@@ -404,7 +404,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -3842,7 +3842,7 @@ EditorBase
 :
 BeginPlaceholderTransaction
 (
-nsIAtom
+nsAtom
 *
 aTransactionName
 )
@@ -4889,7 +4889,7 @@ NS_ERROR_NULL_POINTER
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -4916,7 +4916,7 @@ SetAttribute
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -5083,7 +5083,7 @@ NS_ERROR_NULL_POINTER
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -5109,7 +5109,7 @@ RemoveAttribute
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -5474,7 +5474,7 @@ aNewNode
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 =
@@ -5535,7 +5535,7 @@ EditorBase
 :
 CreateNode
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsINode
@@ -6570,10 +6570,10 @@ ReplaceContainer
 Element
 *
 aOldContainer
-nsIAtom
+nsAtom
 *
 aNodeType
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -6943,10 +6943,10 @@ InsertContainerAbove
 nsIContent
 *
 aNode
-nsIAtom
+nsAtom
 *
 aNodeType
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -8852,7 +8852,7 @@ NS_ERROR_NO_INTERFACE
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -8876,7 +8876,7 @@ EditorBase
 :
 CloneAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 Element
@@ -14371,7 +14371,7 @@ CanContainTag
 nsINode
 &
 aParent
-nsIAtom
+nsAtom
 &
 aChildTag
 )
@@ -14425,7 +14425,7 @@ EditorBase
 :
 TagCanContain
 (
-nsIAtom
+nsAtom
 &
 aParentTag
 nsIContent
@@ -14488,10 +14488,10 @@ EditorBase
 :
 TagCanContainTag
 (
-nsIAtom
+nsAtom
 &
 aParentTag
-nsIAtom
+nsAtom
 &
 aChildTag
 )
@@ -14965,7 +14965,7 @@ return
 NS_OK
 ;
 }
-nsIAtom
+nsAtom
 *
 EditorBase
 :
@@ -15069,7 +15069,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -17028,7 +17028,7 @@ EditorBase
 :
 DeleteSelectionAndCreateElement
 (
-nsIAtom
+nsAtom
 &
 aTag
 )
@@ -17670,7 +17670,7 @@ CreateTxnForSetAttribute
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 const
@@ -17714,7 +17714,7 @@ CreateTxnForRemoveAttribute
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aAttribute
 )
@@ -17750,7 +17750,7 @@ EditorBase
 :
 CreateTxnForCreateElement
 (
-nsIAtom
+nsAtom
 &
 aTag
 nsINode
@@ -19486,7 +19486,7 @@ EditorBase
 :
 CreateHTMLContent
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -19670,7 +19670,7 @@ NS_ERROR_NULL_POINTER
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =
@@ -19732,7 +19732,7 @@ NS_ERROR_NULL_POINTER
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attribute
 =

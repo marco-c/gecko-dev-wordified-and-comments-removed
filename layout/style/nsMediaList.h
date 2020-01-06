@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -181,7 +181,7 @@ public
 explicit
 nsMediaQueryResultCacheKey
 (
-nsIAtom
+nsAtom
 *
 aMedium
 )
@@ -414,7 +414,7 @@ aOther
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mMedium
 ;
@@ -772,7 +772,7 @@ true
 void
 SetType
 (
-nsIAtom
+nsAtom
 *
 aMediaType
 )
@@ -851,7 +851,7 @@ mHadUnknownExpression
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mMediaType
 ;

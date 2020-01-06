@@ -19,7 +19,7 @@ plhash
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 #
 define
@@ -114,7 +114,7 @@ static
 nsHTMLTag
 AtomTagToId
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -189,7 +189,7 @@ static
 nsHTMLTag
 CaseSensitiveAtomTagToId
 (
-nsIAtom
+nsAtom
 *
 aTagName
 )
@@ -254,7 +254,7 @@ endif
 private
 :
 static
-nsIAtom
+nsAtom
 *
 sTagAtomTable
 [

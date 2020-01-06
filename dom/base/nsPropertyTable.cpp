@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -62,7 +62,7 @@ public
 :
 PropertyList
 (
-nsIAtom
+nsAtom
 *
 aName
 NSPropertyDtorFunc
@@ -94,7 +94,7 @@ Destroy
 bool
 Equals
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -118,7 +118,7 @@ aMallocSizeOf
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mName
 ;
@@ -567,7 +567,7 @@ GetPropertyInternal
 (
 nsPropertyOwner
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 bool
@@ -690,7 +690,7 @@ SetPropertyInternal
 (
 nsPropertyOwner
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -943,7 +943,7 @@ DeleteProperty
 (
 nsPropertyOwner
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -1003,7 +1003,7 @@ nsPropertyTable
 :
 GetPropertyListFor
 (
-nsIAtom
+nsAtom
 *
 aPropertyName
 )
@@ -1056,7 +1056,7 @@ PropertyList
 :
 PropertyList
 (
-nsIAtom
+nsAtom
 *
 aName
 NSPropertyDtorFunc
@@ -1403,7 +1403,7 @@ SupportsDtorFunc
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void

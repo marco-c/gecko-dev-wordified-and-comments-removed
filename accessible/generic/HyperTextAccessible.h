@@ -168,7 +168,7 @@ aDoc
 ;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
-nsIAtom
+nsAtom
 *
 LandmarkRole
 (

@@ -129,7 +129,7 @@ NodeInfo
 aNodeInfo
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttrName
 )
@@ -342,7 +342,7 @@ mNameSpaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttrName
 ;
@@ -979,7 +979,7 @@ nsNodeInfoManager
 aNodeInfoManager
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttrName
 nsIContent
@@ -1239,7 +1239,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

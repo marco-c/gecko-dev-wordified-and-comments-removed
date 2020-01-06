@@ -208,7 +208,7 @@ AnimationArray
 ;
 nsDOMMutationRecord
 (
-nsIAtom
+nsAtom
 *
 aType
 nsISupports
@@ -499,13 +499,13 @@ mTarget
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mType
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mAttrName
 ;
@@ -1003,7 +1003,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -1022,7 +1022,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -1309,7 +1309,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -1417,7 +1417,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &
@@ -1530,7 +1530,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 mAttributeFilter
@@ -1799,7 +1799,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -2592,7 +2592,7 @@ nsDOMMutationRecord
 *
 CurrentRecord
 (
-nsIAtom
+nsAtom
 *
 aType
 )

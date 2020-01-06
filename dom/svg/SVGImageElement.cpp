@@ -610,7 +610,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -919,7 +919,7 @@ SVGImageElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

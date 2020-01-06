@@ -112,7 +112,7 @@ class
 nsIDocShell
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIChannel
@@ -438,7 +438,7 @@ aChannel
 nsresult
 ProcessHeaderData
 (
-nsIAtom
+nsAtom
 *
 aHeader
 const

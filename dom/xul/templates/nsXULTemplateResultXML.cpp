@@ -85,7 +85,7 @@ aNode
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 id
 =
@@ -395,7 +395,7 @@ nsXULTemplateResultXML
 :
 GetBindingFor
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAString
@@ -547,7 +547,7 @@ nsXULTemplateResultXML
 :
 GetBindingObjectFor
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsISupports

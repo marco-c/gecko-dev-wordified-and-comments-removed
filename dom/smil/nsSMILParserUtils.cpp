@@ -1595,7 +1595,7 @@ aIter
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 ConvertUnescapedTokenToAtom
 (
@@ -1638,7 +1638,7 @@ aToken
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 ConvertTokenToAtom
 (
@@ -1877,7 +1877,7 @@ requiresUnescaping
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =

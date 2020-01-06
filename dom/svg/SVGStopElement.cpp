@@ -163,7 +163,7 @@ SVGStopElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

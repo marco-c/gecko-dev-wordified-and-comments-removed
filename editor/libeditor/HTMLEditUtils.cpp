@@ -102,7 +102,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -370,7 +370,7 @@ aNode
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nodeAtom
 =

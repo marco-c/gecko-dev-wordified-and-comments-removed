@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -63,7 +63,7 @@ nsXMLBinding
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mVar
 ;
@@ -87,7 +87,7 @@ mNext
 ;
 nsXMLBinding
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAutoPtr
@@ -162,7 +162,7 @@ nsXMLBindingSet
 void
 AddBinding
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsAutoPtr
@@ -183,7 +183,7 @@ aExpr
 int32_t
 LookupTargetIndex
 (
-nsIAtom
+nsAtom
 *
 aTargetVariable
 nsXMLBinding
@@ -269,7 +269,7 @@ aBindings
 int32_t
 LookupTargetIndex
 (
-nsIAtom
+nsAtom
 *
 aTargetVariable
 nsXMLBinding

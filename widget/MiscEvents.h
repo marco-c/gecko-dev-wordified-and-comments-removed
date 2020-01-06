@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -277,10 +277,10 @@ WidgetCommandEvent
 (
 bool
 aIsTrusted
-nsIAtom
+nsAtom
 *
 aEventType
-nsIAtom
+nsAtom
 *
 aCommand
 nsIWidget
@@ -369,7 +369,7 @@ result
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mCommand
 ;

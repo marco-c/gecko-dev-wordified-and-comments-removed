@@ -519,7 +519,7 @@ aNode
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetTag
 (
@@ -2486,7 +2486,7 @@ endOffset
 #
 endif
 static
-nsIAtom
+nsAtom
 *
 GetTag
 (
@@ -2631,7 +2631,7 @@ while
 current
 )
 {
-nsIAtom
+nsAtom
 *
 tag
 =

@@ -2984,7 +2984,7 @@ nsHtml5Highlighter
 :
 CreateElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -3104,7 +3104,7 @@ nsHtml5Highlighter
 :
 Push
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -3569,7 +3569,7 @@ const
 char
 *
 aMsgId
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -3631,10 +3631,10 @@ const
 char
 *
 aMsgId
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aOther
 )

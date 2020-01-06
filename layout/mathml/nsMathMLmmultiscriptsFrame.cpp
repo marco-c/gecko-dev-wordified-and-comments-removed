@@ -518,7 +518,7 @@ float
 aFontSizeInflation
 )
 {
-nsIAtom
+nsAtom
 *
 tag
 =

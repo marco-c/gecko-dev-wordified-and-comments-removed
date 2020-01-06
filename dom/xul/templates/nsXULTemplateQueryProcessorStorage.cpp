@@ -228,7 +228,7 @@ rv
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 columnName
 =
@@ -355,7 +355,7 @@ nsXULTemplateResultSetStorage
 :
 GetColumnIndex
 (
-nsIAtom
+nsAtom
 *
 aColumnName
 )
@@ -1082,10 +1082,10 @@ aBuilder
 nsIDOMNode
 *
 aQueryNode
-nsIAtom
+nsAtom
 *
 aRefVariable
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsISupports
@@ -1787,10 +1787,10 @@ AddBinding
 nsIDOMNode
 *
 aRuleNode
-nsIAtom
+nsAtom
 *
 aVar
-nsIAtom
+nsAtom
 *
 aRef
 const
@@ -1859,7 +1859,7 @@ aLeft
 nsIXULTemplateResult
 *
 aRight
-nsIAtom
+nsAtom
 *
 aVar
 uint32_t

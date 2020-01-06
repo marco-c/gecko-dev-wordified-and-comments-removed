@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -282,7 +282,7 @@ nsXBLKeyEventHandler
 :
 nsXBLKeyEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventType
 uint8_t
@@ -769,7 +769,7 @@ NS_NewXBLEventHandler
 nsXBLPrototypeHandler
 *
 aHandler
-nsIAtom
+nsAtom
 *
 aEventType
 )

@@ -69,7 +69,7 @@ nsWrapperCache
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDocument
@@ -90,7 +90,7 @@ nsAttrKey
 (
 int32_t
 aNs
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -366,7 +366,7 @@ DropAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aLocalName
 )

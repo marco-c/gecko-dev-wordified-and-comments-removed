@@ -7,7 +7,7 @@ nsCSSAnonBoxes_h___
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsICSSAnonBoxPseudo
 :
 public
-nsIAtom
+nsAtom
 {
 }
 ;
@@ -34,7 +34,7 @@ static
 bool
 IsAnonBox
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -46,7 +46,7 @@ static
 bool
 IsTreePseudoElement
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -57,7 +57,7 @@ static
 bool
 IsNonElement
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -148,7 +148,7 @@ static
 bool
 IsNonInheritingAnonBox
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -197,7 +197,7 @@ static
 bool
 IsInheritingAnonBox
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -245,7 +245,7 @@ static
 bool
 IsWrapperAnonBox
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -306,13 +306,13 @@ static
 NonInheriting
 NonInheritingTypeForPseudoTag
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetNonInheritingPseudoAtom
 (

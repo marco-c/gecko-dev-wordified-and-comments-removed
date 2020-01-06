@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -114,7 +114,7 @@ kPtrMask
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 AsAtom
 (
@@ -134,7 +134,7 @@ eAtom
 return
 reinterpret_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -298,7 +298,7 @@ mBits
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 MaybeAsAtom
 (
@@ -429,7 +429,7 @@ FromAtom
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aAtom
 )

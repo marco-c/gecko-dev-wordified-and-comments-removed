@@ -137,7 +137,7 @@ nsresult
 GetValueFromAtom
 (
 const
-nsIAtom
+nsAtom
 *
 aValueAsAtom
 bool
@@ -196,7 +196,7 @@ nsSVGBoolean
 SetBaseValueAtom
 (
 const
-nsIAtom
+nsAtom
 *
 aValue
 nsSVGElement
@@ -260,7 +260,7 @@ return
 NS_OK
 ;
 }
-nsIAtom
+nsAtom
 *
 nsSVGBoolean
 :

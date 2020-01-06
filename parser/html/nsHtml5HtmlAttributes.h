@@ -7,7 +7,7 @@ nsHtml5HtmlAttributes_h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -195,7 +195,7 @@ getLength
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 getLocalNameNoBoundsCheck
 (
@@ -210,7 +210,7 @@ int32_t
 aIndex
 )
 ;
-nsIAtom
+nsAtom
 *
 getPrefixNoBoundsCheck
 (
@@ -255,7 +255,7 @@ aLine
 void
 AddAttributeWithLocal
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5String

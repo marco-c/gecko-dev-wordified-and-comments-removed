@@ -540,7 +540,7 @@ ELEMENT_NODE
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =

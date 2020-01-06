@@ -18,7 +18,7 @@ class
 nsStyleContext
 ;
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -70,7 +70,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aPseudo
 )

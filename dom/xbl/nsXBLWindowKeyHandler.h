@@ -39,7 +39,7 @@ nsIDOMEventListener
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMElement
@@ -156,7 +156,7 @@ WalkHandlers
 nsIDOMKeyEvent
 *
 aKeyEvent
-nsIAtom
+nsAtom
 *
 aEventType
 )
@@ -167,7 +167,7 @@ WalkHandlersInternal
 nsIDOMKeyEvent
 *
 aKeyEvent
-nsIAtom
+nsAtom
 *
 aEventType
 nsXBLPrototypeHandler
@@ -188,7 +188,7 @@ WalkHandlersAndExecute
 nsIDOMKeyEvent
 *
 aKeyEvent
-nsIAtom
+nsAtom
 *
 aEventType
 nsXBLPrototypeHandler
@@ -238,7 +238,7 @@ aOutReservedForChrome
 nullptr
 )
 ;
-nsIAtom
+nsAtom
 *
 ConvertEventToDOMEventType
 (

@@ -156,7 +156,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1696,7 +1696,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 ;
@@ -1777,7 +1777,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIAtom
+nsAtom
 *
 nsIContent
 :
@@ -5366,7 +5366,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -5414,7 +5414,7 @@ HasAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -5446,7 +5446,7 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -5486,10 +5486,10 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -7193,7 +7193,7 @@ IsSVGElement
 )
 )
 {
-nsIAtom
+nsAtom
 *
 *
 *
@@ -7246,7 +7246,7 @@ MayHaveAnimations
 )
 )
 {
-nsIAtom
+nsAtom
 *
 *
 effectProps
@@ -7486,7 +7486,7 @@ MarkUserData
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aKey
 void
@@ -9570,7 +9570,7 @@ GetSpecOrDefault
 nsAutoString
 id
 ;
-nsIAtom
+nsAtom
 *
 idAtom
 =
@@ -9897,7 +9897,7 @@ cb
 #
 ifdef
 DEBUG
-nsIAtom
+nsAtom
 *
 *
 effectProps
@@ -10071,7 +10071,7 @@ IsSVGElement
 )
 )
 {
-nsIAtom
+nsAtom
 *
 *
 *
@@ -10142,7 +10142,7 @@ MayHaveAnimations
 )
 )
 {
-nsIAtom
+nsAtom
 *
 *
 effectProps
@@ -10840,14 +10840,14 @@ inline
 bool
 IsVoidTag
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
 {
 static
 const
-nsIAtom
+nsAtom
 *
 voidElements
 [
@@ -10935,7 +10935,7 @@ mozilla
 BloomFilter
 <
 12
-nsIAtom
+nsAtom
 >
 sFilter
 ;
@@ -11042,7 +11042,7 @@ FragmentOrElement
 :
 IsHTMLVoid
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -11667,7 +11667,7 @@ sld
 doc
 )
 ;
-nsIAtom
+nsAtom
 *
 contextLocalName
 =

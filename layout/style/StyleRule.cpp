@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -252,7 +252,7 @@ nsAtomList
 :
 nsAtomList
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -1204,10 +1204,10 @@ nsAttrSelector
 (
 int32_t
 aNameSpace
-nsIAtom
+nsAtom
 *
 aLowercaseAttr
-nsIAtom
+nsAtom
 *
 aCasedAttr
 uint8_t
@@ -3379,7 +3379,7 @@ namespace
 "
 )
 ;
-nsIAtom
+nsAtom
 *
 prefixAtom
 =
@@ -3968,7 +3968,7 @@ GetNameSpaceMap
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 prefixAtom
 =
@@ -6887,7 +6887,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 pseudoElt
 =

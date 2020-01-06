@@ -193,7 +193,7 @@ PropertyDtor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -856,7 +856,7 @@ mAnimationGeneration
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 *
 GetEffectSetPropertyAtoms
@@ -896,7 +896,7 @@ mPropertiesForAnimationsLevel
 private
 :
 static
-nsIAtom
+nsAtom
 *
 GetEffectSetPropertyAtom
 (

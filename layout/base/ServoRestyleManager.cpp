@@ -5215,7 +5215,7 @@ Element
 &
 aElement
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -5289,7 +5289,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -5384,7 +5384,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -5436,7 +5436,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -5534,7 +5534,7 @@ const
 Element
 &
 aElement
-nsIAtom
+nsAtom
 *
 aAttr
 )
@@ -5583,7 +5583,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

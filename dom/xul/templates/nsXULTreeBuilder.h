@@ -954,7 +954,7 @@ mRows
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mSortVariable
 ;

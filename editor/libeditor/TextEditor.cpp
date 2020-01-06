@@ -7217,7 +7217,7 @@ SetAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -7249,7 +7249,7 @@ RemoveAttributeOrEquivalent
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

@@ -99,7 +99,7 @@ nsDOMTokenList
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttrAtom
 const
@@ -228,7 +228,7 @@ return
 BloomFilter
 <
 8
-nsIAtom
+nsAtom
 >
 filter
 ;
@@ -267,7 +267,7 @@ i
 +
 )
 {
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -330,7 +330,7 @@ nsDataHashtable
 <
 nsPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 bool
 >
@@ -357,7 +357,7 @@ i
 +
 )
 {
-nsIAtom
+nsAtom
 *
 atom
 =

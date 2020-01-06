@@ -115,7 +115,7 @@ MustFlatten
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLocal
 )
@@ -125,7 +125,7 @@ MustPrune
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLocal
 mozilla
@@ -142,12 +142,12 @@ aElement
 bool
 IsURL
 (
-nsIAtom
+nsAtom
 *
 *
 *
 aURLs
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -168,12 +168,12 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
 aAllowed
-nsIAtom
+nsAtom
 *
 *
 *
@@ -200,7 +200,7 @@ Element
 aElement
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -253,7 +253,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -264,7 +264,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -275,7 +275,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -286,7 +286,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -297,7 +297,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -308,7 +308,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *
@@ -319,7 +319,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 >
 *

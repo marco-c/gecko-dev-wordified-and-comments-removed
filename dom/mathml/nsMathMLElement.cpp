@@ -312,7 +312,7 @@ const
 nsString
 &
 aValue
-nsIAtom
+nsAtom
 *
 aAtom
 nsIDocument
@@ -656,7 +656,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1082,7 +1082,7 @@ nsMathMLElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -4887,7 +4887,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const

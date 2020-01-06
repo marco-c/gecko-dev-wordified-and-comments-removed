@@ -260,7 +260,7 @@ aDocument
 nsIContent
 *
 aDependentContent
-nsIAtom
+nsAtom
 *
 aRelAttr
 )
@@ -295,7 +295,7 @@ GetBindingParent
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 IDAttr
 =
@@ -973,7 +973,7 @@ aDoc
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aIDRefsAttr
 )

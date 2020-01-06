@@ -93,7 +93,7 @@ class
 nsIContent
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsDisplayListBuilder
@@ -407,7 +407,7 @@ mozilla
 CSSPoint
 &
 aScrollPosition
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -448,7 +448,7 @@ nsIntPoint
 aOverflow
 =
 nullptr
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -597,7 +597,7 @@ const
 0
 ;
 virtual
-nsIAtom
+nsAtom
 *
 LastScrollOrigin
 (
@@ -614,7 +614,7 @@ AllowScrollOriginDowngrade
 0
 ;
 virtual
-nsIAtom
+nsAtom
 *
 LastSmoothScrollOrigin
 (

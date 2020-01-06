@@ -1664,7 +1664,7 @@ nsHTMLButtonControlFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

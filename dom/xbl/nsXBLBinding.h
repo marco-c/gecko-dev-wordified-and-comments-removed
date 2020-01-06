@@ -76,7 +76,7 @@ class
 nsIContent
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDocument
@@ -384,7 +384,7 @@ UnhookEventHandlers
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 GetBaseTag
 (
@@ -420,7 +420,7 @@ const
 void
 AttributeChanged
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

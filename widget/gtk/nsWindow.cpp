@@ -12166,7 +12166,7 @@ nsWindow
 :
 DispatchCommandEvent
 (
-nsIAtom
+nsAtom
 *
 aCommand
 )

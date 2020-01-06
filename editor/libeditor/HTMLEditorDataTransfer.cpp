@@ -500,7 +500,7 @@ nsContentUtils
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsILoadContext
@@ -9618,7 +9618,7 @@ contextLeaf
 contextLeafAsContent
 )
 ;
-nsIAtom
+nsAtom
 *
 contextAtom
 ;
@@ -9986,7 +9986,7 @@ const
 nsAString
 &
 aFragStr
-nsIAtom
+nsAtom
 *
 aContextLocalName
 nsIDocument

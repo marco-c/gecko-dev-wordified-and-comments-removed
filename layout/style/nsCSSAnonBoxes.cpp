@@ -113,7 +113,7 @@ name_
 #
 _buffer
 (
-nsIAtom
+nsAtom
 *
 *
 )
@@ -151,7 +151,7 @@ name_
 #
 _buffer
 (
-nsIAtom
+nsAtom
 *
 *
 )
@@ -203,7 +203,7 @@ nsCSSAnonBoxes
 :
 IsAnonBox
 (
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -232,7 +232,7 @@ nsCSSAnonBoxes
 :
 IsTreePseudoElement
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -280,7 +280,7 @@ nsCSSAnonBoxes
 :
 NonInheritingTypeForPseudoTag
 (
-nsIAtom
+nsAtom
 *
 aPseudo
 )
@@ -349,7 +349,7 @@ NonInheritingTypeForPseudoTag
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsCSSAnonBoxes
 :

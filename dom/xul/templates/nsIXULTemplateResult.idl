@@ -101,10 +101,15 @@ nsISupports
 idl
 "
 interface
-nsIAtom
+nsAtom
 ;
 /
 /
+not
+a
+real
+interface
+;
 used
 in
 [
@@ -659,7 +664,7 @@ AString
 getBindingFor
 (
 in
-nsIAtom
+nsAtom
 aVar
 )
 ;
@@ -752,7 +757,7 @@ nsISupports
 getBindingObjectFor
 (
 in
-nsIAtom
+nsAtom
 aVar
 )
 ;

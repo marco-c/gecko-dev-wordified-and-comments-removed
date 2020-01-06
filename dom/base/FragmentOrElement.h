@@ -846,7 +846,7 @@ MarkUserData
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aKey
 void
@@ -861,7 +861,7 @@ static
 bool
 IsHTMLVoid
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )

@@ -297,7 +297,7 @@ DestroyPropertyCallback
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -779,7 +779,7 @@ DestroyPropertyCallback
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void

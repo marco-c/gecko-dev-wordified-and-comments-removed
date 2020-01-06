@@ -998,7 +998,7 @@ GeckoStyleContext
 >
 ResolveInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 mozilla
@@ -1018,7 +1018,7 @@ GeckoStyleContext
 >
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 )
@@ -1085,7 +1085,7 @@ nsCSSCounterStyleRule
 *
 CounterStyleRuleForName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -1298,7 +1298,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -1958,7 +1958,7 @@ aRuleNode
 nsRuleNode
 *
 aVisitedRuleNode
-nsIAtom
+nsAtom
 *
 aPseudoTag
 mozilla

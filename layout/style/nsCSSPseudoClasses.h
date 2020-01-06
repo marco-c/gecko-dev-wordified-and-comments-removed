@@ -66,7 +66,7 @@ CSS_PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 CSS_PSEUDO_CLASS_ENABLED_IN_CHROME
 )
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -144,7 +144,7 @@ static
 Type
 GetPseudoType
 (
-nsIAtom
+nsAtom
 *
 aAtom
 EnabledState

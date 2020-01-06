@@ -11303,7 +11303,7 @@ nsIScrollbarMediator
 :
 DISABLE_SNAP
 ;
-nsIAtom
+nsAtom
 *
 origin
 =

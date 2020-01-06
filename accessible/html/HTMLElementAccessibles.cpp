@@ -857,7 +857,7 @@ roles
 SECTION
 ;
 }
-nsIAtom
+nsAtom
 *
 HTMLHeaderOrFooterAccessible
 :

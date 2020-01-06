@@ -40,7 +40,7 @@ nsMappedAttributeElement
 :
 SetAndSwapMappedAttribute
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAttrValue

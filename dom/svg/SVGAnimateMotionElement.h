@@ -175,7 +175,7 @@ GetTargetAttributeName
 int32_t
 *
 aNamespaceID
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -184,7 +184,7 @@ const
 override
 ;
 virtual
-nsIAtom
+nsAtom
 *
 GetPathDataAttrName
 (

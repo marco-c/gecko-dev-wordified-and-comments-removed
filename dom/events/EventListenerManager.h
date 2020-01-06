@@ -563,7 +563,7 @@ mListener
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mTypeAtom
 ;
@@ -1145,7 +1145,7 @@ aFlags
 nsresult
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1167,7 +1167,7 @@ aElement
 void
 RemoveEventHandler
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1328,7 +1328,7 @@ aEventName
 bool
 HasListenersFor
 (
-nsIAtom
+nsAtom
 *
 aEventNameWithOn
 )
@@ -1352,7 +1352,7 @@ aList
 uint32_t
 GetIdentifierForEvent
 (
-nsIAtom
+nsAtom
 *
 aEvent
 )
@@ -1500,7 +1500,7 @@ aListener
 bool
 IsApzAwareEvent
 (
-nsIAtom
+nsAtom
 *
 aEvent
 )
@@ -1585,7 +1585,7 @@ FindEventHandler
 (
 EventMessage
 aEventMessage
-nsIAtom
+nsAtom
 *
 aTypeAtom
 const
@@ -1598,7 +1598,7 @@ Listener
 *
 SetEventHandlerInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1639,7 +1639,7 @@ public
 void
 SetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -1683,7 +1683,7 @@ EventHandlerNonNull
 *
 GetEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -1812,7 +1812,7 @@ TypedEventHandler
 *
 GetTypedEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventName
 const
@@ -1894,7 +1894,7 @@ EventListenerHolder
 aListener
 EventMessage
 aEventMessage
-nsIAtom
+nsAtom
 *
 aTypeAtom
 const
@@ -1922,7 +1922,7 @@ EventListenerHolder
 aListener
 EventMessage
 aEventMessage
-nsIAtom
+nsAtom
 *
 aUserType
 const
@@ -1947,7 +1947,7 @@ RemoveAllListeners
 void
 NotifyEventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aUserType
 const
@@ -1972,7 +1972,7 @@ EventTypeData
 *
 GetTypeDataForEventName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -2037,7 +2037,7 @@ mTarget
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mNoListenerForEventAtom
 ;

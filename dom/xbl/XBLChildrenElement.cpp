@@ -68,7 +68,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const

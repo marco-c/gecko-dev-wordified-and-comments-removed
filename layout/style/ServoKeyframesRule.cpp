@@ -1022,7 +1022,7 @@ nsAString
 aName
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1056,7 +1056,7 @@ aName
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -1065,7 +1065,7 @@ NS_Atomize
 aName
 )
 ;
-nsIAtom
+nsAtom
 *
 oldName
 =

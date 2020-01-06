@@ -109,7 +109,7 @@ struct
 nsFontFaceRuleContainer
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -580,7 +580,7 @@ nsStyleContext
 >
 ResolveInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 nsStyleContext
@@ -595,7 +595,7 @@ nsStyleContext
 >
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 )
@@ -848,7 +848,7 @@ nsCSSCounterStyleRule
 *
 CounterStyleRuleForName
 (
-nsIAtom
+nsAtom
 *
 aName
 )

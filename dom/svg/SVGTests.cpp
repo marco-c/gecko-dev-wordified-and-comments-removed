@@ -63,7 +63,7 @@ mozilla
 namespace
 dom
 {
-nsIAtom
+nsAtom
 *
 *
 SVGTests
@@ -310,7 +310,7 @@ SVGTests
 IsConditionalProcessingAttribute
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -851,7 +851,7 @@ SVGTests
 :
 ParseConditionalProcessingAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -945,7 +945,7 @@ SVGTests
 UnsetAttr
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -999,7 +999,7 @@ return
 }
 }
 }
-nsIAtom
+nsAtom
 *
 SVGTests
 :

@@ -94,7 +94,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void

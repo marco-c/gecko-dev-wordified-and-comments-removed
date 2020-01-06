@@ -69,7 +69,7 @@ nscore
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContentIterator
@@ -479,7 +479,7 @@ AutoPlaceholderBatch
 EditorBase
 *
 aEditorBase
-nsIAtom
+nsAtom
 *
 aTransactionName
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
@@ -522,7 +522,7 @@ private
 void
 BeginPlaceholderTransaction
 (
-nsIAtom
+nsAtom
 *
 aTransactionName
 )

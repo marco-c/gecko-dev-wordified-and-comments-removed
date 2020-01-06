@@ -64,7 +64,7 @@ nsStyleSet
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsPresContext
@@ -246,7 +246,7 @@ PresContext
 )
 const
 ;
-nsIAtom
+nsAtom
 *
 GetPseudo
 (
@@ -835,7 +835,7 @@ nsStyleContext
 }
 nsStyleContext
 (
-nsIAtom
+nsAtom
 *
 aPseudoTag
 mozilla
@@ -914,7 +914,7 @@ undef
 STYLE_STRUCT_INHERITED
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPseudoTag
 ;
@@ -979,7 +979,7 @@ mozilla
 GeckoStyleContext
 *
 aParentContext
-nsIAtom
+nsAtom
 *
 aPseudoTag
 mozilla

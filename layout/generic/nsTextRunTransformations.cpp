@@ -1253,7 +1253,7 @@ LanguageSpecificCasingBehavior
 GetCasingFor
 (
 const
-nsIAtom
+nsAtom
 *
 aLang
 )
@@ -1369,7 +1369,7 @@ langStr
 (
 const_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1405,7 +1405,7 @@ index
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 truncatedLang
 =
@@ -1441,7 +1441,7 @@ aConvertedString
 bool
 aAllUppercase
 const
-nsIAtom
+nsAtom
 *
 aLanguage
 nsTArray
@@ -1575,7 +1575,7 @@ forceNonFullWidth
 false
 ;
 const
-nsIAtom
+nsAtom
 *
 lang
 =
@@ -1706,7 +1706,7 @@ charStyle
 >
 mForceNonFullWidth
 ;
-nsIAtom
+nsAtom
 *
 newLang
 =

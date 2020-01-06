@@ -74,7 +74,7 @@ GetAccAttr
 nsIPersistentProperties
 *
 aAttributes
-nsIAtom
+nsAtom
 *
 aAttrName
 nsAString
@@ -89,7 +89,7 @@ SetAccAttr
 nsIPersistentProperties
 *
 aAttributes
-nsIAtom
+nsAtom
 *
 aAttrName
 const
@@ -105,10 +105,10 @@ SetAccAttr
 nsIPersistentProperties
 *
 aAttributes
-nsIAtom
+nsAtom
 *
 aAttrName
-nsIAtom
+nsAtom
 *
 aAttrValue
 )
@@ -183,13 +183,13 @@ HasDefinedARIAToken
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAtom
 )
 ;
 static
-nsIAtom
+nsAtom
 *
 GetARIAToken
 (
@@ -202,7 +202,7 @@ dom
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aAttr
 )

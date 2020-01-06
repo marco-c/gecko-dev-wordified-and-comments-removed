@@ -465,7 +465,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -858,7 +858,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -1094,7 +1094,7 @@ HTMLTableRowElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )

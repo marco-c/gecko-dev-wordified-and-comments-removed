@@ -1736,7 +1736,7 @@ nextToken
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 lName
@@ -2052,7 +2052,7 @@ expected
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 lName
@@ -2316,7 +2316,7 @@ nextToken
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 axis
 =
@@ -2729,7 +2729,7 @@ nextToken
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 lName
@@ -4245,14 +4245,14 @@ const
 nsAString
 &
 aQName
-nsIAtom
+nsAtom
 *
 *
 aPrefix
 txIParseContext
 *
 aContext
-nsIAtom
+nsAtom
 *
 *
 aLocalName

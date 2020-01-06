@@ -235,7 +235,7 @@ GetSingleton
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 addonId
 =

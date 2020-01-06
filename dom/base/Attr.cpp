@@ -715,7 +715,7 @@ element
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -791,7 +791,7 @@ return
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =

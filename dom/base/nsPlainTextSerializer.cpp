@@ -206,7 +206,7 @@ static
 int32_t
 HeaderLevel
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -426,7 +426,7 @@ false
 mTagStack
 =
 new
-nsIAtom
+nsAtom
 *
 [
 TagStackSize
@@ -1032,7 +1032,7 @@ nsPlainTextSerializer
 :
 ShouldReplaceContainerWithPlaceholder
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1149,7 +1149,7 @@ nsPlainTextSerializer
 :
 IsIgnorableRubyAnnotation
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1654,7 +1654,7 @@ aElement
 nsresult
 rv
 ;
-nsIAtom
+nsAtom
 *
 id
 =
@@ -1757,7 +1757,7 @@ aElement
 nsresult
 rv
 ;
-nsIAtom
+nsAtom
 *
 id
 =
@@ -1895,7 +1895,7 @@ nsPlainTextSerializer
 :
 DoOpenContainer
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -3664,7 +3664,7 @@ nsPlainTextSerializer
 :
 DoCloseContainer
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -4959,7 +4959,7 @@ nsPlainTextSerializer
 :
 DoAddLeaf
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -7914,7 +7914,7 @@ nsPlainTextSerializer
 :
 GetAttributeValue
 (
-nsIAtom
+nsAtom
 *
 aName
 nsString
@@ -8011,7 +8011,7 @@ txt
 )
 ;
 }
-nsIAtom
+nsAtom
 *
 nsPlainTextSerializer
 :
@@ -8038,7 +8038,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -8285,7 +8285,7 @@ false
 int32_t
 HeaderLevel
 (
-nsIAtom
+nsAtom
 *
 aTag
 )

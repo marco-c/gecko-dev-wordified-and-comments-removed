@@ -35,7 +35,7 @@ nsTArray
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMKeyEvent
@@ -153,7 +153,7 @@ public
 :
 nsXBLKeyEventHandler
 (
-nsIAtom
+nsAtom
 *
 aEventType
 uint8_t
@@ -183,7 +183,7 @@ aProtoHandler
 bool
 Matches
 (
-nsIAtom
+nsAtom
 *
 aEventType
 uint8_t
@@ -311,7 +311,7 @@ mProtoHandlers
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mEventType
 ;
@@ -338,7 +338,7 @@ NS_NewXBLEventHandler
 nsXBLPrototypeHandler
 *
 aHandler
-nsIAtom
+nsAtom
 *
 aEventType
 )

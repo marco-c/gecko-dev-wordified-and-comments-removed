@@ -1209,7 +1209,7 @@ nsAttrAndChildArray
 :
 GetAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -1712,7 +1712,7 @@ nsAttrAndChildArray
 :
 SetAndSwapAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 nsAttrValue
@@ -1913,7 +1913,7 @@ NamespaceID
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -2705,7 +2705,7 @@ nsAttrAndChildArray
 :
 IndexOfAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t
@@ -2891,7 +2891,7 @@ nsAttrAndChildArray
 :
 SetAndSwapMappedAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 nsAttrValue

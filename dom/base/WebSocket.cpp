@@ -9236,7 +9236,7 @@ WebSocket
 :
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -9256,7 +9256,7 @@ WebSocket
 :
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

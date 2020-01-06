@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -58,13 +58,13 @@ mOffset
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mDependentElemID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mEventSymbol
 ;

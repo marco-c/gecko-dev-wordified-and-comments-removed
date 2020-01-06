@@ -120,7 +120,7 @@ aQName
 ;
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 EnsureNewPrefix
 (

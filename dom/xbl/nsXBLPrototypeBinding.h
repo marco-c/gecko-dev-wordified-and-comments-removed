@@ -107,7 +107,7 @@ StyleSheet
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -253,7 +253,7 @@ aBoundElement
 nsresult
 AddResource
 (
-nsIAtom
+nsAtom
 *
 aResourceType
 const
@@ -537,7 +537,7 @@ nullptr
 void
 AttributeChanged
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -712,7 +712,7 @@ FlushSkinSheets
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 GetBaseTag
 (
@@ -726,7 +726,7 @@ SetBaseTag
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -945,7 +945,7 @@ nsIContent
 *
 GetImmediateChild
 (
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -991,7 +991,7 @@ nsClassHashtable
 <
 nsRefPtrHashKey
 <
-nsIAtom
+nsAtom
 >
 nsXBLAttributeEntry
 >
@@ -1009,12 +1009,12 @@ AddToAttributeTable
 (
 int32_t
 aSourceNamespaceID
-nsIAtom
+nsAtom
 *
 aSourceTag
 int32_t
 aDestNamespaceID
-nsIAtom
+nsAtom
 *
 aDestTag
 nsIContent
@@ -1266,7 +1266,7 @@ mBaseNameSpaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mBaseTag
 ;

@@ -5996,7 +5996,7 @@ aMode
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsPresContext
 :
@@ -8471,7 +8471,7 @@ nsAString
 aMediaType
 )
 {
-nsIAtom
+nsAtom
 *
 previousMedium
 =
@@ -8535,7 +8535,7 @@ StopEmulatingMedium
 (
 )
 {
-nsIAtom
+nsAtom
 *
 previousMedium
 =
@@ -8577,7 +8577,7 @@ nsPresContext
 :
 ForceCacheLang
 (
-nsIAtom
+nsAtom
 *
 aLanguage
 )
@@ -8611,7 +8611,7 @@ mFontGroupCacheDirty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 thisLang
 =

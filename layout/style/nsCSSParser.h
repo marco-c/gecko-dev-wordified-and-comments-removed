@@ -732,7 +732,7 @@ aLineOffset
 ;
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 ParseCounterStyleName
 (

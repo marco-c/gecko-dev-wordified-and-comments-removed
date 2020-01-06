@@ -377,7 +377,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -505,7 +505,7 @@ ReportChildCountError
 nsresult
 ReportInvalidChildError
 (
-nsIAtom
+nsAtom
 *
 aChildTag
 )

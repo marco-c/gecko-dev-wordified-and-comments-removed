@@ -459,7 +459,7 @@ SVGFilterElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

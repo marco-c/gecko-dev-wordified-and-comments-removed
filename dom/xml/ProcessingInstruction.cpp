@@ -116,7 +116,7 @@ manager
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 target
 =
@@ -378,7 +378,7 @@ ProcessingInstruction
 :
 GetAttrValue
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString

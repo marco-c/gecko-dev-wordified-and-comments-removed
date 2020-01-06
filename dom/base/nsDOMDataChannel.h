@@ -154,7 +154,7 @@ virtual
 void
 EventListenerAdded
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -170,7 +170,7 @@ virtual
 void
 EventListenerRemoved
 (
-nsIAtom
+nsAtom
 *
 aType
 )

@@ -659,7 +659,7 @@ DocumentFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom

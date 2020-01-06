@@ -7,7 +7,7 @@ nsXBLProtoImplMember_h__
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

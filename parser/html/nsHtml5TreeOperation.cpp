@@ -1592,7 +1592,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -1678,7 +1678,7 @@ nsHtml5TreeOperation
 :
 CreateHTMLElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -2160,7 +2160,7 @@ getValueNoBoundsCheck
 i
 )
 ;
-nsIAtom
+nsAtom
 *
 klass
 =
@@ -2188,7 +2188,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -2205,7 +2205,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =
@@ -2358,7 +2358,7 @@ nsHtml5TreeOperation
 :
 CreateSVGElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -2681,7 +2681,7 @@ getValueNoBoundsCheck
 i
 )
 ;
-nsIAtom
+nsAtom
 *
 klass
 =
@@ -2709,7 +2709,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -2726,7 +2726,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =
@@ -2784,7 +2784,7 @@ nsHtml5TreeOperation
 :
 CreateMathMLElement
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5HtmlAttributes
@@ -3026,7 +3026,7 @@ getValueNoBoundsCheck
 i
 )
 ;
-nsIAtom
+nsAtom
 *
 klass
 =
@@ -3054,7 +3054,7 @@ else
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 =
@@ -3071,7 +3071,7 @@ i
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =
@@ -3661,7 +3661,7 @@ nsHtml5TreeOperation
 :
 AppendDoctypeToDocument
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -4329,7 +4329,7 @@ htmlCreator
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -4451,7 +4451,7 @@ svgCreator
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -4557,7 +4557,7 @@ node
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -4827,7 +4827,7 @@ eTreeOpAppendDoctypeToDocument
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =
@@ -5932,7 +5932,7 @@ charPtr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -5945,7 +5945,7 @@ atom
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 otherAtom
 =

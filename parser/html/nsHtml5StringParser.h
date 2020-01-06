@@ -56,7 +56,7 @@ aSourceBuffer
 nsIContent
 *
 aTargetNode
-nsIAtom
+nsAtom
 *
 aContextLocalName
 int32_t

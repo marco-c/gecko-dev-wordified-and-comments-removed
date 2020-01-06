@@ -15,7 +15,7 @@ class
 FunctionCall
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 txAExprResult
@@ -42,7 +42,7 @@ virtual
 nsresult
 resolveNamespacePrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -56,7 +56,7 @@ virtual
 nsresult
 resolveFunctionCall
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t
@@ -130,7 +130,7 @@ getVariable
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLName
 txAExprResult
@@ -199,7 +199,7 @@ getVariable
 (
 int32_t
 aNamespace
-nsIAtom
+nsAtom
 *
 aLName
 \

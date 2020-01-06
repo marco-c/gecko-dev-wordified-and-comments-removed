@@ -82,7 +82,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -333,7 +333,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 AtomArray
@@ -411,7 +411,7 @@ aValue
 explicit
 nsAttrValue
 (
-nsIAtom
+nsAtom
 *
 aValue
 )
@@ -510,7 +510,7 @@ aValue
 void
 SetTo
 (
-nsIAtom
+nsAtom
 *
 aValue
 )
@@ -809,7 +809,7 @@ const
 ;
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 GetAsAtom
 (
@@ -831,7 +831,7 @@ GetStringValue
 const
 ;
 inline
-nsIAtom
+nsAtom
 *
 GetAtomValue
 (
@@ -948,7 +948,7 @@ GetAtomCount
 )
 const
 ;
-nsIAtom
+nsAtom
 *
 AtomAt
 (
@@ -988,7 +988,7 @@ const
 bool
 Equals
 (
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -1009,7 +1009,7 @@ const
 bool
 Contains
 (
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -1568,7 +1568,7 @@ this
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 nsAttrValue
 :
@@ -1595,7 +1595,7 @@ type
 return
 reinterpret_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1765,13 +1765,13 @@ case
 eAtom
 :
 {
-nsIAtom
+nsAtom
 *
 atom
 =
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (

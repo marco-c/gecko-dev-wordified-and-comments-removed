@@ -44,7 +44,7 @@ class
 nsDefaultComparator
 <
 nsNameSpaceEntry
-nsIAtom
+nsAtom
 *
 >
 {
@@ -57,7 +57,7 @@ const
 nsNameSpaceEntry
 &
 aEntry
-nsIAtom
+nsAtom
 *
 const
 &
@@ -220,7 +220,7 @@ nsXMLNameSpaceMap
 :
 AddPrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -275,7 +275,7 @@ nsXMLNameSpaceMap
 :
 AddPrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 nsString
@@ -323,7 +323,7 @@ nsXMLNameSpaceMap
 :
 FindNameSpaceID
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -366,7 +366,7 @@ kNameSpaceID_Unknown
 kNameSpaceID_None
 ;
 }
-nsIAtom
+nsAtom
 *
 nsXMLNameSpaceMap
 :

@@ -1087,7 +1087,7 @@ nodeInfo
 =
 aNodeInfo
 ;
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1253,7 +1253,7 @@ IsCustomBuiltIn
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagAtom
 =
@@ -1266,7 +1266,7 @@ NameAtom
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 =

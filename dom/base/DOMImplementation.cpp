@@ -233,7 +233,7 @@ nullptr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 name
 =

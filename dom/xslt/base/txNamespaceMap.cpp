@@ -58,7 +58,7 @@ txNamespaceMap
 :
 mapNamespace
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -67,7 +67,7 @@ nsAString
 aNamespaceURI
 )
 {
-nsIAtom
+nsAtom
 *
 prefix
 =
@@ -257,7 +257,7 @@ txNamespaceMap
 :
 lookupNamespace
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -277,7 +277,7 @@ return
 kNameSpaceID_XML
 ;
 }
-nsIAtom
+nsAtom
 *
 prefix
 =
@@ -349,7 +349,7 @@ aPrefix
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 =

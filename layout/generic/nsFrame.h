@@ -754,7 +754,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -1866,7 +1866,7 @@ CorrectStyleParentFrame
 nsIFrame
 *
 aProspectiveParent
-nsIAtom
+nsAtom
 *
 aChildPseudo
 )

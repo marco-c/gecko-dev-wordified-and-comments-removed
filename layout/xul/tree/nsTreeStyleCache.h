@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -60,7 +60,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 AtomArray
@@ -149,7 +149,7 @@ Transition
 (
 DFAState
 aState
-nsIAtom
+nsAtom
 *
 aSymbol
 )
@@ -179,7 +179,7 @@ mState
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mInputSymbol
 ;

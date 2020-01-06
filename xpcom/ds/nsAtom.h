@@ -1,9 +1,9 @@
 #
 ifndef
-nsIAtom_h
+nsAtom_h
 #
 define
-nsIAtom_h
+nsAtom_h
 #
 include
 "
@@ -26,7 +26,7 @@ nsStringBuffer
 h
 "
 class
-nsIAtom
+nsAtom
 {
 public
 :
@@ -331,7 +331,7 @@ friend
 class
 nsHtml5AtomEntry
 ;
-nsIAtom
+nsAtom
 (
 AtomKind
 aKind
@@ -343,7 +343,7 @@ uint32_t
 aHash
 )
 ;
-nsIAtom
+nsAtom
 (
 nsStringBuffer
 *
@@ -357,7 +357,7 @@ aHash
 protected
 :
 ~
-nsIAtom
+nsAtom
 (
 )
 ;
@@ -387,10 +387,6 @@ char16_t
 mString
 ;
 }
-;
-typedef
-nsIAtom
-nsAtom
 ;
 already_AddRefed
 <

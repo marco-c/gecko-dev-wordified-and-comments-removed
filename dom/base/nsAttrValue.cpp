@@ -33,7 +33,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -269,13 +269,13 @@ return
 true
 ;
 }
-nsIAtom
+nsAtom
 *
 atom
 =
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -619,7 +619,7 @@ nsAttrValue
 :
 nsAttrValue
 (
-nsIAtom
+nsAtom
 *
 aValue
 )
@@ -923,7 +923,7 @@ case
 eAtomBase
 :
 {
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -1047,7 +1047,7 @@ ResetIfSet
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -1483,7 +1483,7 @@ else
 {
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -1566,7 +1566,7 @@ nsAttrValue
 :
 SetTo
 (
-nsIAtom
+nsAtom
 *
 aValue
 )
@@ -2477,13 +2477,13 @@ case
 eAtom
 :
 {
-nsIAtom
+nsAtom
 *
 atom
 =
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -2993,7 +2993,7 @@ break
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsAttrValue
 :
@@ -3027,7 +3027,7 @@ eAtom
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -3367,7 +3367,7 @@ return
 0
 ;
 }
-nsIAtom
+nsAtom
 *
 nsAttrValue
 :
@@ -3720,7 +3720,7 @@ for
 (
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 *
 cur
@@ -4515,7 +4515,7 @@ eCaseMatters
 return
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -4541,7 +4541,7 @@ nsDependentAtomString
 (
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -4595,7 +4595,7 @@ nsAttrValue
 :
 Equals
 (
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -4719,7 +4719,7 @@ eAtomBase
 return
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (
@@ -4905,7 +4905,7 @@ nsAttrValue
 :
 Contains
 (
-nsIAtom
+nsAtom
 *
 aValue
 nsCaseTreatment
@@ -4924,7 +4924,7 @@ case
 eAtomBase
 :
 {
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -5013,7 +5013,7 @@ for
 (
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 *
 cur
@@ -5080,7 +5080,7 @@ AtomArrayStringComparator
 bool
 Equals
 (
-nsIAtom
+nsAtom
 *
 atom
 const
@@ -5126,7 +5126,7 @@ case
 eAtomBase
 :
 {
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -5202,7 +5202,7 @@ ResetIfSet
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -5350,7 +5350,7 @@ iter
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 classAtom
 =
@@ -5419,7 +5419,7 @@ ResetIfSet
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 atom
 =
@@ -7852,7 +7852,7 @@ NS_ATTRVALUE_MAX_STRINGLENGTH_ATOM
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -8000,7 +8000,7 @@ else
 {
 static_cast
 <
-nsIAtom
+nsAtom
 *
 >
 (

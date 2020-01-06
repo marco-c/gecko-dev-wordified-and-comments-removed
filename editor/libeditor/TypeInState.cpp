@@ -105,7 +105,7 @@ nsStringFwd
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIDOMDocument
@@ -457,7 +457,7 @@ TypeInState
 :
 SetProp
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -576,7 +576,7 @@ TypeInState
 :
 ClearProp
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -778,7 +778,7 @@ isSet
 bool
 &
 theSetting
-nsIAtom
+nsAtom
 *
 aProp
 )
@@ -807,7 +807,7 @@ isSet
 bool
 &
 theSetting
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -871,7 +871,7 @@ TypeInState
 :
 RemovePropFromSetList
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -964,7 +964,7 @@ TypeInState
 :
 RemovePropFromClearedList
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -1009,7 +1009,7 @@ TypeInState
 :
 IsPropSet
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -1040,7 +1040,7 @@ TypeInState
 :
 IsPropSet
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -1142,7 +1142,7 @@ TypeInState
 :
 IsPropCleared
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -1169,7 +1169,7 @@ TypeInState
 :
 IsPropCleared
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -1230,7 +1230,7 @@ TypeInState
 :
 FindPropInList
 (
-nsIAtom
+nsAtom
 *
 aProp
 const
@@ -1356,7 +1356,7 @@ PropItem
 :
 PropItem
 (
-nsIAtom
+nsAtom
 *
 aTag
 const

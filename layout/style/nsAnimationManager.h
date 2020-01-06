@@ -784,7 +784,7 @@ CSSAnimation
 >
 {
 static
-nsIAtom
+nsAtom
 *
 ElementPropertyAtom
 (
@@ -798,7 +798,7 @@ animationsProperty
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 BeforePropertyAtom
 (
@@ -812,7 +812,7 @@ animationsOfBeforeProperty
 ;
 }
 static
-nsIAtom
+nsAtom
 *
 AfterPropertyAtom
 (

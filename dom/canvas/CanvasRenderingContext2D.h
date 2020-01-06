@@ -4707,7 +4707,7 @@ fontGroup
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 fontLanguage
 ;

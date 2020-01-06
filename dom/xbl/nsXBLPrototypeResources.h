@@ -24,7 +24,7 @@ class
 nsCSSRuleProcessor
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -74,7 +74,7 @@ aBoundElement
 void
 AddResource
 (
-nsIAtom
+nsAtom
 *
 aResourceType
 const

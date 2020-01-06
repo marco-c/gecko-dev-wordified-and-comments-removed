@@ -603,7 +603,7 @@ SVGAElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -1279,10 +1279,10 @@ SetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -1357,7 +1357,7 @@ UnsetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttr
 bool

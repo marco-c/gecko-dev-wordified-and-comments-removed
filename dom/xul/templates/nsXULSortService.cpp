@@ -1563,7 +1563,7 @@ NodeInfo
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 localName
 =
@@ -1826,7 +1826,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 sortkeyatom
 =
@@ -1877,7 +1877,7 @@ IsEmpty
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 sortkeyatom2
 =
@@ -1933,7 +1933,7 @@ hasMoreTokens
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 keyatom
 =

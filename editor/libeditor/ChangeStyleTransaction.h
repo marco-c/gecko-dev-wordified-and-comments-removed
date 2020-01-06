@@ -35,7 +35,7 @@ nsString
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -84,7 +84,7 @@ dom
 Element
 &
 aElement
-nsIAtom
+nsAtom
 &
 aProperty
 const
@@ -132,7 +132,7 @@ aNewValue
 bool
 AcceptsMoreThanOneValue
 (
-nsIAtom
+nsAtom
 &
 aCSSProperty
 )
@@ -170,7 +170,7 @@ mElement
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mProperty
 ;

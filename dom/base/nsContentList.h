@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -785,10 +785,10 @@ nsINode
 aRootNode
 int32_t
 aMatchNameSpaceId
-nsIAtom
+nsAtom
 *
 aHTMLMatchAtom
-nsIAtom
+nsAtom
 *
 aXMLMatchAtom
 bool
@@ -817,7 +817,7 @@ bool
 aDeep
 =
 true
-nsIAtom
+nsAtom
 *
 aMatchAtom
 =
@@ -1313,13 +1313,13 @@ mMatchNameSpaceId
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mHTMLMatchAtom
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mXMLMatchAtom
 ;

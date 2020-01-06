@@ -498,7 +498,7 @@ aWatch
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -576,7 +576,7 @@ aWatch
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =

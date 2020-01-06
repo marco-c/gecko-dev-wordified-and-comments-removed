@@ -5436,7 +5436,7 @@ nsListControlFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

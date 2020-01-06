@@ -629,7 +629,7 @@ CustomElementData
 :
 CustomElementData
 (
-nsIAtom
+nsAtom
 *
 aType
 )
@@ -652,7 +652,7 @@ CustomElementData
 :
 CustomElementData
 (
-nsIAtom
+nsAtom
 *
 aType
 State
@@ -1037,7 +1037,7 @@ const
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localNameAtom
 =
@@ -1048,7 +1048,7 @@ aLocalName
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 =
@@ -1195,7 +1195,7 @@ RegisterUnresolvedElement
 Element
 *
 aElement
-nsIAtom
+nsAtom
 *
 aTypeName
 )
@@ -1219,7 +1219,7 @@ NodeInfo
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeName
 =
@@ -1313,7 +1313,7 @@ aTypeExtension
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tagAtom
 =
@@ -1331,7 +1331,7 @@ NameAtom
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 typeAtom
 =
@@ -2032,7 +2032,7 @@ eAttributeChanged
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 attrName
 =
@@ -2103,7 +2103,7 @@ CustomElementRegistry
 :
 GetCustomPrototype
 (
-nsIAtom
+nsAtom
 *
 aAtom
 JS
@@ -2167,7 +2167,7 @@ CustomElementRegistry
 :
 UpgradeCandidates
 (
-nsIAtom
+nsAtom
 *
 aKey
 CustomElementDefinition
@@ -2710,7 +2710,7 @@ return
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 (
@@ -2831,7 +2831,7 @@ WasPassed
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 extendsAtom
 (
@@ -2967,7 +2967,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 observedAttributes
@@ -3385,7 +3385,7 @@ attrStr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localNameAtom
 (
@@ -3562,7 +3562,7 @@ aRetVal
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 (
@@ -3675,7 +3675,7 @@ nullptr
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 (
@@ -4014,7 +4014,7 @@ info
 .
 mName
 ;
-nsIAtom
+nsAtom
 *
 attrName
 =
@@ -5142,10 +5142,10 @@ CustomElementDefinition
 :
 CustomElementDefinition
 (
-nsIAtom
+nsAtom
 *
 aType
-nsIAtom
+nsAtom
 *
 aLocalName
 Function
@@ -5155,7 +5155,7 @@ nsTArray
 <
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 >
 &

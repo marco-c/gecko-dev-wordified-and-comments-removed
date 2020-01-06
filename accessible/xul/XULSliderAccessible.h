@@ -159,7 +159,7 @@ const
 nsresult
 GetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 nsAString
@@ -171,7 +171,7 @@ const
 nsresult
 SetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -183,7 +183,7 @@ aValue
 double
 GetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -192,7 +192,7 @@ const
 bool
 SetSliderAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 double

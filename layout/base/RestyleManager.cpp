@@ -2240,7 +2240,7 @@ aContext
 )
 )
 ;
-nsIAtom
+nsAtom
 *
 pseudoTag
 =

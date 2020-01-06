@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -25,7 +25,7 @@ nsAtomListUtils
 :
 IsMember
 (
-nsIAtom
+nsAtom
 *
 aAtom
 const

@@ -41,7 +41,7 @@ nsIDOMCSSRule
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 #
 define
@@ -82,7 +82,7 @@ public
 :
 NameSpaceRule
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 const
@@ -150,7 +150,7 @@ Clone
 const
 override
 ;
-nsIAtom
+nsAtom
 *
 GetPrefix
 (
@@ -203,7 +203,7 @@ private
 :
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPrefix
 ;

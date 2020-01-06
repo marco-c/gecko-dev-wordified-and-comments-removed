@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -38,7 +38,7 @@ nsNameSpaceEntry
 explicit
 nsNameSpaceEntry
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -51,7 +51,7 @@ aPrefix
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 ;
@@ -78,7 +78,7 @@ aForXML
 nsresult
 AddPrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 int32_t
@@ -88,7 +88,7 @@ aNameSpaceID
 nsresult
 AddPrefix
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 nsString
@@ -99,13 +99,13 @@ aURI
 int32_t
 FindNameSpaceID
 (
-nsIAtom
+nsAtom
 *
 aPrefix
 )
 const
 ;
-nsIAtom
+nsAtom
 *
 FindPrefix
 (

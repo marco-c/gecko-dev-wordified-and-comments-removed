@@ -127,7 +127,7 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIPresShell

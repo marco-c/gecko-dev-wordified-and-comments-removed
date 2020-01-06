@@ -5,7 +5,7 @@ nsGkAtoms_h___
 define
 nsGkAtoms_h___
 class
-nsIAtom
+nsAtom
 ;
 class
 nsGkAtoms
@@ -26,7 +26,7 @@ _name
 _value
 )
 static
-nsIAtom
+nsAtom
 *
 _name
 ;

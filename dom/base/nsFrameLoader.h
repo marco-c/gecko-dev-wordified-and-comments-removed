@@ -1285,7 +1285,7 @@ nsIDocShell
 aParentNode
 )
 ;
-nsIAtom
+nsAtom
 *
 TypeAttrName
 (

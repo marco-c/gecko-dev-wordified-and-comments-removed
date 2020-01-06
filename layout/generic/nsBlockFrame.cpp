@@ -15132,7 +15132,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -33430,7 +33430,7 @@ already
 #
 ifdef
 DEBUG
-nsIAtom
+nsAtom
 *
 pseudo
 =

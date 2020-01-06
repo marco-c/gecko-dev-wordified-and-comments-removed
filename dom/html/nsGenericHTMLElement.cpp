@@ -119,7 +119,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -3140,7 +3140,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -3304,7 +3304,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -3846,7 +3846,7 @@ nsGenericHTMLElement
 :
 GetEventListenerManagerForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 bool
@@ -4585,7 +4585,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -4767,7 +4767,7 @@ ParseBackgroundAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -4914,7 +4914,7 @@ nsGenericHTMLElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -5648,7 +5648,7 @@ nsGenericHTMLElement
 :
 ParseImageAttribute
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -6099,7 +6099,7 @@ eCSSProperty_text_emphasis_position
 )
 {
 const
-nsIAtom
+nsAtom
 *
 lang
 =
@@ -7976,7 +7976,7 @@ nsGenericHTMLElement
 :
 SetAttrHelper
 (
-nsIAtom
+nsAtom
 *
 aAttr
 const
@@ -8001,7 +8001,7 @@ nsGenericHTMLElement
 :
 GetIntAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 int32_t
@@ -8059,7 +8059,7 @@ nsGenericHTMLElement
 :
 SetIntAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 int32_t
@@ -8092,7 +8092,7 @@ nsGenericHTMLElement
 :
 GetUnsignedIntAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
 uint32_t
@@ -8151,10 +8151,10 @@ nsGenericHTMLElement
 :
 GetURIAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
-nsIAtom
+nsAtom
 *
 aBaseAttr
 nsAString
@@ -8237,10 +8237,10 @@ nsGenericHTMLElement
 :
 GetURIAttr
 (
-nsIAtom
+nsAtom
 *
 aAttr
-nsIAtom
+nsAtom
 *
 aBaseAttr
 nsIURI
@@ -8473,7 +8473,7 @@ Element
 aElement
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAtom
 void
@@ -9425,7 +9425,7 @@ BeforeSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -9639,7 +9639,7 @@ AfterSetAttr
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -10533,7 +10533,7 @@ string
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -10616,7 +10616,7 @@ string
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -12650,7 +12650,7 @@ IsAtom
 continue
 ;
 }
-nsIAtom
+nsAtom
 *
 attr
 =
@@ -13666,7 +13666,7 @@ nsGenericHTMLElement
 :
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

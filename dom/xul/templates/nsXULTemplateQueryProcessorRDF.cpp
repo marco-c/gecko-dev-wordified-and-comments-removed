@@ -1459,10 +1459,10 @@ aBuilder
 nsIDOMNode
 *
 aQueryNode
-nsIAtom
+nsAtom
 *
 aRefVariable
-nsIAtom
+nsAtom
 *
 aMemberVariable
 nsISupports
@@ -2214,10 +2214,10 @@ AddBinding
 nsIDOMNode
 *
 aRuleNode
-nsIAtom
+nsAtom
 *
 aVar
-nsIAtom
+nsAtom
 *
 aRef
 const
@@ -2408,7 +2408,7 @@ aLeft
 nsIXULTemplateResult
 *
 aRight
-nsIAtom
+nsAtom
 *
 aVar
 uint32_t
@@ -4895,7 +4895,7 @@ tagstr
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 ;
@@ -5038,7 +5038,7 @@ nsXULTemplateQueryProcessorRDF
 :
 CompileQueryChild
 (
-nsIAtom
+nsAtom
 *
 aTag
 nsRDFQuery
@@ -5364,7 +5364,7 @@ subject
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 svar
 ;
@@ -5517,7 +5517,7 @@ object
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 ovar
 ;
@@ -5869,7 +5869,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 containervar
 =
@@ -5932,7 +5932,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 childvar
 =
@@ -6326,7 +6326,7 @@ kNameSpaceID_XMLNS
 )
 continue
 ;
-nsIAtom
+nsAtom
 *
 attr
 =

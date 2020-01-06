@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -189,7 +189,7 @@ name_
 value_
 )
 static
-nsIAtom
+nsAtom
 *
 name_
 ;

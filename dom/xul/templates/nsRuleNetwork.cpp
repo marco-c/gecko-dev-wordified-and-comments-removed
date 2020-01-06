@@ -291,7 +291,7 @@ nsAssignmentSet
 :
 HasAssignment
 (
-nsIAtom
+nsAtom
 *
 aVariable
 nsIRDFNode
@@ -354,7 +354,7 @@ nsAssignmentSet
 :
 HasAssignmentFor
 (
-nsIAtom
+nsAtom
 *
 aVariable
 )
@@ -405,7 +405,7 @@ nsAssignmentSet
 :
 GetAssignmentFor
 (
-nsIAtom
+nsAtom
 *
 aVariable
 nsIRDFNode
@@ -1056,7 +1056,7 @@ InstantiationSet
 :
 HasAssignmentFor
 (
-nsIAtom
+nsAtom
 *
 aVariable
 )

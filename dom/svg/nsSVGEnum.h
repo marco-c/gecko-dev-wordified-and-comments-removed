@@ -62,7 +62,7 @@ UniquePtr
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsSMILValue
@@ -85,7 +85,7 @@ nsSVGEnumValue
 struct
 nsSVGEnumMapping
 {
-nsIAtom
+nsAtom
 *
 *
 mKey
@@ -135,7 +135,7 @@ nsresult
 SetBaseValueAtom
 (
 const
-nsIAtom
+nsAtom
 *
 aValue
 nsSVGElement
@@ -143,7 +143,7 @@ nsSVGElement
 aSVGElement
 )
 ;
-nsIAtom
+nsAtom
 *
 GetBaseValueAtom
 (

@@ -1177,7 +1177,7 @@ EffectiveTextZoom
 }
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 nsStyleFont
 :
@@ -1192,7 +1192,7 @@ aPresContext
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 language
 =
@@ -10304,7 +10304,7 @@ SetElementId
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aElementId
 )
@@ -10326,7 +10326,7 @@ if
 (
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -15180,7 +15180,7 @@ match
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 temp
 =
@@ -15204,7 +15204,7 @@ SetUnknownProperty
 (
 nsCSSPropertyID
 aProperty
-nsIAtom
+nsAtom
 *
 aPropertyString
 )
@@ -18478,7 +18478,7 @@ nsStyleText
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 language
 =

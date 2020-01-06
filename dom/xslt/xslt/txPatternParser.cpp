@@ -587,7 +587,7 @@ FUNCTION_NAME_AND_PAREN
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 nameAtom
 =
@@ -1199,7 +1199,7 @@ NS_ERROR_XPATH_PARSE_FAILURE
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -1412,7 +1412,7 @@ nextToken
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 lName

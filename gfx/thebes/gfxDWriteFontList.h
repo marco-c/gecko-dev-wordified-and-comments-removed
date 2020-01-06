@@ -196,7 +196,7 @@ final
 bool
 FilterForFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const

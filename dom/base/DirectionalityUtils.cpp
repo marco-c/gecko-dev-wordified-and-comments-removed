@@ -855,7 +855,7 @@ nsTextNodeDirectionalityMapDtor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -980,7 +980,7 @@ nsTextNodeDirectionalityMapPropertyDestructor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aProperty
 void

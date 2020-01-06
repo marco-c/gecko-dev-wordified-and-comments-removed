@@ -46,7 +46,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

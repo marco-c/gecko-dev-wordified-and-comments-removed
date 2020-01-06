@@ -270,7 +270,7 @@ virtual
 nsresult
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

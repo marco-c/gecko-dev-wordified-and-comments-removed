@@ -97,7 +97,7 @@ class
 nsCSSPropertyIDSet
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIFrame

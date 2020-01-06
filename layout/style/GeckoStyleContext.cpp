@@ -133,7 +133,7 @@ GeckoStyleContext
 GeckoStyleContext
 *
 aParent
-nsIAtom
+nsAtom
 *
 aPseudoTag
 CSSPseudoElementType
@@ -1610,7 +1610,7 @@ GeckoStyleContext
 FindChildWithRules
 (
 const
-nsIAtom
+nsAtom
 *
 aPseudoTag
 nsRuleNode

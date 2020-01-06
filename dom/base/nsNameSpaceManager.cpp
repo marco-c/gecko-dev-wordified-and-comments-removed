@@ -490,7 +490,7 @@ NS_OK
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -672,7 +672,7 @@ kNameSpaceID_None
 }
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -695,7 +695,7 @@ nsNameSpaceManager
 :
 GetNameSpaceID
 (
-nsIAtom
+nsAtom
 *
 aURI
 bool
@@ -1213,7 +1213,7 @@ AddNameSpace
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aURI
 const
@@ -1223,7 +1223,7 @@ aNameSpaceID
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 uri
 =
@@ -1290,7 +1290,7 @@ AddDisabledNameSpace
 (
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 aURI
 const
@@ -1300,7 +1300,7 @@ aNameSpaceID
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 uri
 =

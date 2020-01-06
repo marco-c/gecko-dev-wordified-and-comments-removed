@@ -64,11 +64,11 @@ const
 char16_t
 *
 aExpatName
-nsIAtom
+nsAtom
 *
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -295,11 +295,11 @@ const
 nsAString
 &
 aName
-nsIAtom
+nsAtom
 *
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 *
 aLocalName

@@ -5068,7 +5068,7 @@ nsComboboxControlFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

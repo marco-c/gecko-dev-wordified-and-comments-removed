@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -596,7 +596,7 @@ CheckBooleanAttr
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAtom
 )
@@ -608,7 +608,7 @@ CheckIntAttr
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAtom
 int32_t

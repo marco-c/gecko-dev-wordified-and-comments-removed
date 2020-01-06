@@ -10,7 +10,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -121,7 +121,7 @@ m8
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -270,7 +270,7 @@ i
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom16
 =
@@ -286,7 +286,7 @@ m16
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom8
 =
@@ -334,7 +334,7 @@ string
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -403,7 +403,7 @@ strCut
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atomCut
 =
@@ -414,7 +414,7 @@ strCut
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -503,7 +503,7 @@ NS_GetNumberOfAtoms
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom16
 =
@@ -576,7 +576,7 @@ NS_GetNumberOfAtoms
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom8
 =
@@ -592,7 +592,7 @@ m8
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom16
 =
@@ -646,7 +646,7 @@ ifndef
 DEBUG
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 emptyAtom
 =
@@ -685,7 +685,7 @@ NS_GetNumberOfAtoms
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom8
 =
@@ -750,7 +750,7 @@ atom
 bool
 isStaticAtom
 (
-nsIAtom
+nsAtom
 *
 atom
 )
@@ -864,7 +864,7 @@ NS_GetNumberOfAtoms
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 thirdDynamic
 =
@@ -931,7 +931,7 @@ i
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =

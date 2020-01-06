@@ -134,7 +134,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIAtom
+nsAtom
 *
 aAttribute
 bool

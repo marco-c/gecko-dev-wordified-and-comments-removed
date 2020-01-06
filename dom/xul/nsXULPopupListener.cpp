@@ -1400,7 +1400,7 @@ GetImmediateChild
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aTag
 )
@@ -1484,7 +1484,7 @@ NS_OK
 nsAutoString
 identifier
 ;
-nsIAtom
+nsAtom
 *
 type
 =

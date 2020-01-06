@@ -1,7 +1,7 @@
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "

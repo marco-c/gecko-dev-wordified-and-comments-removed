@@ -803,7 +803,7 @@ gfxPlatformGtk
 :
 GetFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const

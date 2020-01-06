@@ -537,7 +537,7 @@ SVGForeignObjectElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

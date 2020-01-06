@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -1500,7 +1500,7 @@ nsChangeHint
 GetAttributeChangeHint
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -1516,7 +1516,7 @@ bool
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -1661,7 +1661,7 @@ virtual
 bool
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -1680,7 +1680,7 @@ DOMString
 void
 GetXULAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 DOMString
@@ -1700,7 +1700,7 @@ aResult
 void
 SetXULAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -1726,7 +1726,7 @@ aError
 void
 SetXULBoolAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 bool
@@ -3212,7 +3212,7 @@ aTreeElement
 nsresult
 AddPopupListener
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -3240,7 +3240,7 @@ BeforeSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -3258,7 +3258,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -3289,7 +3289,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -3310,7 +3310,7 @@ EventListenerManager
 *
 GetEventListenerManagerForAttr
 (
-nsIAtom
+nsAtom
 *
 aAttrName
 bool
@@ -3333,7 +3333,7 @@ aCompileEventHandlers
 void
 MaybeAddPopupListener
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -3448,7 +3448,7 @@ aOldValue
 bool
 BoolAttrIsTrue
 (
-nsIAtom
+nsAtom
 *
 aName
 )

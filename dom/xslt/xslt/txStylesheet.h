@@ -471,10 +471,10 @@ public
 :
 txStripSpaceTest
 (
-nsIAtom
+nsAtom
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t

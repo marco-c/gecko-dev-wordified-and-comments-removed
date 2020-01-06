@@ -121,7 +121,7 @@ class
 nsIContent
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsPresState
@@ -553,7 +553,7 @@ SetCoordAttribute
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aAtom
 nscoord
@@ -566,7 +566,7 @@ GetCoordAttribute
 nsIFrame
 *
 aFrame
-nsIAtom
+nsAtom
 *
 aAtom
 nscoord
@@ -847,7 +847,7 @@ mozilla
 CSSPoint
 &
 aScrollPosition
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -868,7 +868,7 @@ const
 nsRect
 &
 aRange
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -898,7 +898,7 @@ aMode
 nsIntPoint
 *
 aOverflow
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -1533,7 +1533,7 @@ HandleScrollbarStyleSwitching
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 LastScrollOrigin
 (
@@ -1554,7 +1554,7 @@ mAllowScrollOriginDowngrade
 true
 ;
 }
-nsIAtom
+nsAtom
 *
 LastSmoothScrollOrigin
 (
@@ -1896,14 +1896,14 @@ nsIScrollPositionListener
 >
 mListeners
 ;
-nsIAtom
+nsAtom
 *
 mLastScrollOrigin
 ;
 bool
 mAllowScrollOriginDowngrade
 ;
-nsIAtom
+nsAtom
 *
 mLastSmoothScrollOrigin
 ;
@@ -2193,7 +2193,7 @@ nsIScrollableFrame
 :
 ScrollMode
 aMode
-nsIAtom
+nsAtom
 *
 aOrigin
 const
@@ -2219,7 +2219,7 @@ const
 nsRect
 &
 aRange
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -3120,7 +3120,7 @@ mozilla
 CSSPoint
 &
 aScrollPosition
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -3165,7 +3165,7 @@ aMode
 nsIntPoint
 *
 aOverflow
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -3423,7 +3423,7 @@ aRect
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 LastScrollOrigin
 (
@@ -3453,7 +3453,7 @@ AllowScrollOriginDowngrade
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 LastSmoothScrollOrigin
 (
@@ -5180,7 +5180,7 @@ mozilla
 CSSPoint
 &
 aScrollPosition
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -5225,7 +5225,7 @@ aMode
 nsIntPoint
 *
 aOverflow
-nsIAtom
+nsAtom
 *
 aOrigin
 =
@@ -5483,7 +5483,7 @@ aRect
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 LastScrollOrigin
 (
@@ -5513,7 +5513,7 @@ AllowScrollOriginDowngrade
 ;
 }
 virtual
-nsIAtom
+nsAtom
 *
 LastSmoothScrollOrigin
 (

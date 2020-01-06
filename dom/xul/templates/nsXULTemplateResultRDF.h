@@ -133,7 +133,7 @@ nullptr
 void
 GetAssignment
 (
-nsIAtom
+nsAtom
 *
 aVar
 nsIRDFNode

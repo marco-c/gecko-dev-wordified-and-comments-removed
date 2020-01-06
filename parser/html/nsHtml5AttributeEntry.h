@@ -157,7 +157,7 @@ getUri
 }
 nsHtml5AttributeEntry
 (
-nsIAtom
+nsAtom
 *
 aName
 nsHtml5String
@@ -240,7 +240,7 @@ kNameSpaceID_None
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 GetLocal
 (
@@ -256,7 +256,7 @@ aMode
 ;
 }
 inline
-nsIAtom
+nsAtom
 *
 GetPrefix
 (
@@ -353,7 +353,7 @@ if
 aInterner
 )
 {
-nsIAtom
+nsAtom
 *
 local
 =
@@ -429,14 +429,14 @@ clone
 }
 private
 :
-nsIAtom
+nsAtom
 *
 mLocals
 [
 3
 ]
 ;
-nsIAtom
+nsAtom
 *
 mPrefixes
 [

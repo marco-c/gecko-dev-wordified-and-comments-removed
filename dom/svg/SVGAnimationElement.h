@@ -173,7 +173,7 @@ UnsetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 bool
@@ -197,7 +197,7 @@ ParseAttribute
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -216,7 +216,7 @@ AfterSetAttr
 (
 int32_t
 aNamespaceID
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -237,7 +237,7 @@ nsAttrValue
 *
 GetAnimAttr
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -246,7 +246,7 @@ const
 bool
 GetAnimAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 nsAString
@@ -258,7 +258,7 @@ const
 bool
 HasAnimAttr
 (
-nsIAtom
+nsAtom
 *
 aAttName
 )
@@ -277,7 +277,7 @@ GetTargetAttributeName
 int32_t
 *
 aNamespaceID
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -309,7 +309,7 @@ virtual
 bool
 IsEventAttributeNameInternal
 (
-nsIAtom
+nsAtom
 *
 aName
 )

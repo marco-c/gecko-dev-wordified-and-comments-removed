@@ -193,7 +193,7 @@ SVGPolyElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )
@@ -258,7 +258,7 @@ SVGPolyElement
 AttributeDefinesGeometry
 (
 const
-nsIAtom
+nsAtom
 *
 aName
 )

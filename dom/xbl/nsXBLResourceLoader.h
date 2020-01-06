@@ -45,7 +45,7 @@ class
 nsIContent
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsXBLPrototypeResources
@@ -102,7 +102,7 @@ aBoundElement
 void
 AddResource
 (
-nsIAtom
+nsAtom
 *
 aResourceType
 const

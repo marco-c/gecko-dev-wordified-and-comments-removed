@@ -427,7 +427,7 @@ atoms
 type
 summary
 add
-nsIAtom
+nsAtom
 -
 -
 summary

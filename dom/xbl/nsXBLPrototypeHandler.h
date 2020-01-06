@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -322,7 +322,7 @@ const
 bool
 EventTypeEquals
 (
-nsIAtom
+nsAtom
 *
 aEventType
 )
@@ -361,7 +361,7 @@ inline
 bool
 MouseEventMatched
 (
-nsIAtom
+nsAtom
 *
 aEventType
 nsIDOMMouseEvent
@@ -475,7 +475,7 @@ aEvent
 ;
 already_AddRefed
 <
-nsIAtom
+nsAtom
 >
 GetEventName
 (
@@ -484,7 +484,7 @@ GetEventName
 void
 SetEventName
 (
-nsIAtom
+nsAtom
 *
 aName
 )
@@ -790,7 +790,7 @@ dom
 AutoJSAPI
 &
 jsapi
-nsIAtom
+nsAtom
 *
 aName
 JS
@@ -936,7 +936,7 @@ mNextHandler
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mEventName
 ;

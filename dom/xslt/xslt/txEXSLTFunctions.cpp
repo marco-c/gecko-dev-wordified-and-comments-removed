@@ -19,7 +19,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -571,7 +571,7 @@ static
 nsresult
 createAndAddToResult
 (
-nsIAtom
+nsAtom
 *
 aName
 const
@@ -801,7 +801,7 @@ mReturnType
 int32_t
 mNamespaceID
 ;
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -3650,7 +3650,7 @@ txEXSLTFunctionCall
 :
 getNameAtom
 (
-nsIAtom
+nsAtom
 *
 *
 aAtom
@@ -3680,7 +3680,7 @@ extern
 nsresult
 TX_ConstructEXSLTFunction
 (
-nsIAtom
+nsAtom
 *
 aName
 int32_t

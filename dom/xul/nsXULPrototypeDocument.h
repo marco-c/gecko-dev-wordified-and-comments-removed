@@ -58,7 +58,7 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIPrincipal
@@ -185,7 +185,7 @@ const
 NS_IMETHOD
 GetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aField
 nsAString
@@ -197,7 +197,7 @@ const
 NS_IMETHOD
 SetHeaderData
 (
-nsIAtom
+nsAtom
 *
 aField
 const

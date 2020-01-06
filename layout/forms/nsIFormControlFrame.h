@@ -19,7 +19,7 @@ nsStringFwd
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIFormControlFrame
@@ -53,7 +53,7 @@ virtual
 nsresult
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

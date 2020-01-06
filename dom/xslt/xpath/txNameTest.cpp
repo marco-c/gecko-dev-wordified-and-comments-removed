@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -38,10 +38,10 @@ txNameTest
 :
 txNameTest
 (
-nsIAtom
+nsAtom
 *
 aPrefix
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t

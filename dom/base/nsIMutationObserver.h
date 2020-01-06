@@ -15,7 +15,7 @@ class
 nsAttrValue
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 nsIContent
@@ -160,7 +160,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -191,7 +191,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -237,7 +237,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 )
@@ -396,7 +396,7 @@ aElement
 int32_t
 aNameSpaceID
 \
-nsIAtom
+nsAtom
 *
 aAttribute
 \
@@ -456,7 +456,7 @@ aElement
 int32_t
 aNameSpaceID
 \
-nsIAtom
+nsAtom
 *
 aAttribute
 \
@@ -694,7 +694,7 @@ aElement
 int32_t
 aNameSpaceID
 \
-nsIAtom
+nsAtom
 *
 aAttribute
 \
@@ -758,7 +758,7 @@ aElement
 int32_t
 aNameSpaceID
 \
-nsIAtom
+nsAtom
 *
 aAttribute
 \

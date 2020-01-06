@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -754,7 +754,7 @@ namespaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 tag
 =
@@ -1469,7 +1469,7 @@ GetParent
 (
 )
 ;
-nsIAtom
+nsAtom
 *
 tag
 =
@@ -10006,7 +10006,7 @@ AttributeChanged
 (
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t

@@ -12,7 +12,7 @@ nsCSSProps
 h
 "
 class
-nsIAtom
+nsAtom
 ;
 class
 nsPresContext
@@ -45,7 +45,7 @@ aResult
 struct
 nsMediaFeature
 {
-nsIAtom
+nsAtom
 *
 *
 mName
@@ -122,7 +122,7 @@ KTableEntry
 *
 mKeywordTable
 ;
-nsIAtom
+nsAtom
 *
 const
 *

@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -290,7 +290,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aChangedAttribute
 )
@@ -363,7 +363,7 @@ nsAttrValue
 *
 GetParsedAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 )
@@ -382,7 +382,7 @@ nsAttrValue
 *
 GetParsedAttr
 (
-nsIAtom
+nsAtom
 *
 aLocalName
 int32_t

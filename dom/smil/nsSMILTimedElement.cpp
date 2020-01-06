@@ -3024,7 +3024,7 @@ nsSMILTimedElement
 :
 SetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 const
@@ -3276,7 +3276,7 @@ nsSMILTimedElement
 :
 UnsetAttr
 (
-nsIAtom
+nsAtom
 *
 aAttribute
 )

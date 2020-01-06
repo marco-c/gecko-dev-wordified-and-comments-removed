@@ -184,7 +184,7 @@ aDocument
 nsIContent
 *
 aDependentContent
-nsIAtom
+nsAtom
 *
 aRelAttr
 )
@@ -231,7 +231,7 @@ DocAccessible
 *
 mDocument
 ;
-nsIAtom
+nsAtom
 *
 mRelAttr
 ;
@@ -539,7 +539,7 @@ aDoc
 nsIContent
 *
 aContent
-nsIAtom
+nsAtom
 *
 aIDRefsAttr
 )

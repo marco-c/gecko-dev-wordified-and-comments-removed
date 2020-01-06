@@ -910,7 +910,7 @@ nsCheckboxRadioFrame
 :
 SetFormProperty
 (
-nsIAtom
+nsAtom
 *
 aName
 const

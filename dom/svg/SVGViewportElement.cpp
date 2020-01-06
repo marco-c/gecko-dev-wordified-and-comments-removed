@@ -379,7 +379,7 @@ SVGViewportElement
 IsAttributeMapped
 (
 const
-nsIAtom
+nsAtom
 *
 name
 )

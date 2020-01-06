@@ -1446,7 +1446,7 @@ IsHTMLElement
 )
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =
@@ -1752,7 +1752,7 @@ IsHTMLElement
 )
 )
 {
-nsIAtom
+nsAtom
 *
 name
 =

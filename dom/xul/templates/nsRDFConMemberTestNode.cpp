@@ -87,10 +87,10 @@ aParent
 nsXULTemplateQueryProcessorRDF
 *
 aProcessor
-nsIAtom
+nsAtom
 *
 aContainerVariable
-nsIAtom
+nsAtom
 *
 aMemberVariable
 )
@@ -1681,7 +1681,7 @@ rv
 return
 rv
 ;
-nsIAtom
+nsAtom
 *
 variable
 ;

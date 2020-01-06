@@ -66,7 +66,7 @@ PropertyDtor
 void
 *
 aObject
-nsIAtom
+nsAtom
 *
 aPropertyName
 void
@@ -220,7 +220,7 @@ return
 nullptr
 ;
 }
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -380,7 +380,7 @@ aCreatedCollection
 =
 false
 ;
-nsIAtom
+nsAtom
 *
 propName
 =
@@ -641,7 +641,7 @@ template
 class
 AnimationType
 >
-nsIAtom
+nsAtom
 *
 AnimationCollection
 <
@@ -655,7 +655,7 @@ CSSPseudoElementType
 aPseudoType
 )
 {
-nsIAtom
+nsAtom
 *
 propName
 =

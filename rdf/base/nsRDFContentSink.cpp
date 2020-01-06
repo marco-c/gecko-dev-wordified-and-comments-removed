@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -404,7 +404,7 @@ name_
 value_
 )
 static
-nsIAtom
+nsAtom
 *
 name_
 ;
@@ -623,7 +623,7 @@ const
 char16_t
 *
 aExpatName
-nsIAtom
+nsAtom
 *
 *
 aLocalName
@@ -842,7 +842,7 @@ RDF_ATOM
 name_
 value_
 )
-nsIAtom
+nsAtom
 *
 RDFContentSinkImpl
 :
@@ -3015,7 +3015,7 @@ nodeID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -3354,7 +3354,7 @@ aResource
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -3617,7 +3617,7 @@ aCount
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -3846,7 +3846,7 @@ aAttributes
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -3993,7 +3993,7 @@ aName
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -4066,7 +4066,7 @@ aAttributes
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -4326,7 +4326,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -4548,7 +4548,7 @@ rv
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 localName
 ;
@@ -4894,7 +4894,7 @@ endLocal
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 preferred
 =
@@ -4944,7 +4944,7 @@ const
 char16_t
 *
 aExpatName
-nsIAtom
+nsAtom
 *
 *
 aLocalName

@@ -38,7 +38,7 @@ class
 LocationStep
 ;
 class
-nsIAtom
+nsAtom
 ;
 class
 PredicateList
@@ -282,14 +282,14 @@ const
 nsAString
 &
 aQName
-nsIAtom
+nsAtom
 *
 *
 aPrefix
 txIParseContext
 *
 aContext
-nsIAtom
+nsAtom
 *
 *
 aLocalName

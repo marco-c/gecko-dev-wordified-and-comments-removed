@@ -80,7 +80,7 @@ PlaceholderTransaction
 EditorBase
 &
 aEditorBase
-nsIAtom
+nsAtom
 *
 aName
 Maybe
@@ -119,7 +119,7 @@ override
 NS_IMETHOD
 GetTxnName
 (
-nsIAtom
+nsAtom
 *
 *
 aName

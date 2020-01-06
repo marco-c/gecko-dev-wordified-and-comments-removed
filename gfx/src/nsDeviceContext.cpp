@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -376,7 +376,7 @@ mContext
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mLocaleLanguage
 ;
@@ -573,7 +573,7 @@ Params
 aParams
 )
 {
-nsIAtom
+nsAtom
 *
 language
 =

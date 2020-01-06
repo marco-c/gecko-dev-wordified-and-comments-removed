@@ -46,7 +46,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -169,7 +169,7 @@ WebExtensionPolicy
 GetByID
 (
 const
-nsIAtom
+nsAtom
 *
 aAddonId
 )
@@ -195,7 +195,7 @@ aAddonId
 {
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 atom
 =
@@ -370,7 +370,7 @@ nsRefPtrHashtable
 nsPtrHashKey
 <
 const
-nsIAtom
+nsAtom
 >
 WebExtensionPolicy
 >

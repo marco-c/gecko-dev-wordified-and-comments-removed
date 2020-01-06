@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIAtom
+nsAtom
 .
 h
 "
@@ -41,7 +41,7 @@ const
 nsACString
 &
 aURI
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -87,7 +87,7 @@ mURI
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 mPrefix
 ;
@@ -113,7 +113,7 @@ const
 nsAString
 &
 aURI
-nsIAtom
+nsAtom
 *
 aPrefix
 )
@@ -125,7 +125,7 @@ const
 nsACString
 &
 aURI
-nsIAtom
+nsAtom
 *
 aPrefix
 )

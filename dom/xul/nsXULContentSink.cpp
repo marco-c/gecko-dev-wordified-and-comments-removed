@@ -1491,7 +1491,7 @@ nameSpaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName
@@ -1701,7 +1701,7 @@ nameSpaceID
 ;
 RefPtr
 <
-nsIAtom
+nsAtom
 >
 prefix
 localName

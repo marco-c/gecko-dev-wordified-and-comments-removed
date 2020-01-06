@@ -172,7 +172,7 @@ struct
 FontListSizes
 ;
 class
-nsIAtom
+nsAtom
 ;
 namespace
 mozilla
@@ -2485,7 +2485,7 @@ virtual
 bool
 FilterForFontList
 (
-nsIAtom
+nsAtom
 *
 aLangGroup
 const
