@@ -7529,9 +7529,13 @@ this
 }
 #
 endif
-nsCOMArray
+AutoTArray
+<
+nsCOMPtr
 <
 nsIDocument
+>
+32
 >
 documents
 ;
@@ -7549,7 +7553,7 @@ documents
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
@@ -7558,7 +7562,7 @@ i
 <
 documents
 .
-Count
+Length
 (
 )
 ;
