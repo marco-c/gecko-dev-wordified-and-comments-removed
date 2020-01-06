@@ -68,6 +68,14 @@ PORT_ZFree
 PORT_ZFree_stub
 #
 define
+PORT_ZAllocAligned
+PORT_ZAllocAligned_stub
+#
+define
+PORT_ZAllocAlignedOffset
+PORT_ZAllocAlignedOffset_stub
+#
+define
 SECITEM_AllocItem
 SECITEM_AllocItem_stub
 #
@@ -94,6 +102,10 @@ SECOID_FindOIDTag_stub
 define
 NSS_SecureMemcmp
 NSS_SecureMemcmp_stub
+#
+define
+NSS_SecureMemcmpZero
+NSS_SecureMemcmpZero_stub
 #
 define
 PR_Assert
