@@ -151,11 +151,6 @@ testChromeBuffer
 cpp
 '
 '
-testClassGetter
-.
-cpp
-'
-'
 testCloneScript
 .
 cpp
