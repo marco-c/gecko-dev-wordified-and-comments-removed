@@ -530,6 +530,11 @@ this
 props
 .
 messageId
+this
+.
+props
+.
+timeStamp
 )
 ;
 }
