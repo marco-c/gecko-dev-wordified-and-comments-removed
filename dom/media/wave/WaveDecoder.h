@@ -8,13 +8,6 @@ WaveDecoder_h_
 #
 define
 WaveDecoder_h_
-#
-include
-"
-ChannelMediaDecoder
-.
-h
-"
 namespace
 mozilla
 {

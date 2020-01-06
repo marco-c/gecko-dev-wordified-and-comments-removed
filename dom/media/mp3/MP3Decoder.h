@@ -4,13 +4,6 @@ MP3Decoder_h_
 #
 define
 MP3Decoder_h_
-#
-include
-"
-ChannelMediaDecoder
-.
-h
-"
 namespace
 mozilla
 {
