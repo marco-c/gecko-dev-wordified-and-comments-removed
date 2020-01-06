@@ -304,6 +304,12 @@ outputNode
 lastChild
 )
 {
+this
+.
+shouldScrollBottom
+=
+true
+;
 return
 ;
 }
