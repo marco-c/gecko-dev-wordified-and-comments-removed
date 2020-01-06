@@ -538,12 +538,6 @@ override
 ;
 virtual
 void
-NotifyOwnerDocumentActivityChanged
-(
-)
-;
-virtual
-void
 MetadataLoaded
 (
 const
@@ -712,6 +706,11 @@ layers
 ImageContainer
 *
 GetImageContainer
+(
+)
+;
+void
+NotifyOwnerDocumentActivityChanged
 (
 )
 ;
