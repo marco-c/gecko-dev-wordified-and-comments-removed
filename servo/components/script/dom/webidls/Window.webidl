@@ -234,8 +234,6 @@ close
 (
 )
 ;
-/
-/
 readonly
 attribute
 boolean
