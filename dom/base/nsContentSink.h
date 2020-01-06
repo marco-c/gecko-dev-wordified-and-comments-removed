@@ -238,10 +238,6 @@ endif
 #
 undef
 SINK_NO_INCREMENTAL
-#
-define
-NS_DELAY_FOR_WINDOW_CREATION
-500000
 class
 nsContentSink
 :
