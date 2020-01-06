@@ -204,7 +204,7 @@ nightly
 -
 desktop
 -
-win64
+win
 job
 :
 type
@@ -218,14 +218,14 @@ symbol
 :
 Nd
 -
-Win64
+Win
 target
 -
 tasks
 -
 method
 :
-nightly_win64
+nightly_win
 run
 -
 on
