@@ -1,0 +1,14 @@
+include_rules
+=
+[
+'
++
+fxjs
+'
+'
++
+xfa
+/
+fxbarcode
+'
+]
