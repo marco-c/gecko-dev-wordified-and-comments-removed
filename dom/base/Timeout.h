@@ -148,6 +148,14 @@ TimeRemaining
 )
 const
 ;
+const
+TimeDuration
+&
+ScheduledDelay
+(
+)
+const
+;
 RefPtr
 <
 nsGlobalWindow
@@ -209,6 +217,9 @@ mWhen
 ;
 TimeDuration
 mTimeRemaining
+;
+TimeDuration
+mScheduledDelay
 ;
 ~
 Timeout
