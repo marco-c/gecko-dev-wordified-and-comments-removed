@@ -827,7 +827,6 @@ line1
 2
 Harrison
 St
-line2
 "
 "
 address
@@ -837,6 +836,7 @@ line2
 :
 "
 line2
+line3
 "
 "
 address
