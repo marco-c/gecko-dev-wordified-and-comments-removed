@@ -64,7 +64,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+GeckoApplication
 ;
 import
 org
@@ -1352,7 +1352,7 @@ id
 .
 add_homescreen
 :
-GeckoAppShell
+GeckoApplication
 .
 createShortcut
 (

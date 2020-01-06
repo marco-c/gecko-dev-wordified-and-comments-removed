@@ -304,8 +304,8 @@ static
 void
 goToHomeScreen
 (
-Activity
-activity
+Context
+context
 )
 {
 Intent
@@ -337,7 +337,7 @@ Intent
 FLAG_ACTIVITY_NEW_TASK
 )
 ;
-activity
+context
 .
 startActivity
 (

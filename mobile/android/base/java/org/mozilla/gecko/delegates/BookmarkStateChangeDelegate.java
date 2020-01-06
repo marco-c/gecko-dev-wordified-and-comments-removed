@@ -107,7 +107,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+GeckoApplication
 ;
 import
 org
@@ -977,7 +977,7 @@ run
 (
 )
 {
-GeckoAppShell
+GeckoApplication
 .
 createShortcut
 (

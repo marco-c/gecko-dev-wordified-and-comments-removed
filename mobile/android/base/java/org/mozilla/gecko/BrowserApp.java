@@ -7555,7 +7555,7 @@ run
 (
 )
 {
-GeckoAppShell
+GeckoApplication
 .
 createShortcut
 (
@@ -10775,6 +10775,8 @@ getPreferredIconSize
 )
 )
 ;
+GeckoApplication
+.
 createAppShortcut
 (
 name
@@ -10836,6 +10838,8 @@ url
 "
 )
 ;
+GeckoApplication
+.
 createBrowserShortcut
 (
 title
