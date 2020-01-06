@@ -39,6 +39,10 @@ bool
 sFramesTimingFunctionEnabled
 ;
 static
+bool
+sUnprefixedFullscreenApiEnabled
+;
+static
 void
 Init
 (
