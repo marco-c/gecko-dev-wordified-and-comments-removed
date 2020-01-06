@@ -77,14 +77,6 @@ taskgraph
 .
 transforms
 .
-build_attrs
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 toolchain
 :
 transforms

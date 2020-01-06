@@ -88,19 +88,6 @@ in
 jobs
 :
         
-if
-'
-/
-'
-in
-job
-[
-'
-name
-'
-]
-:
-            
 build_platform
 build_type
 =
@@ -117,24 +104,6 @@ split
 /
 '
 )
-        
-else
-:
-            
-build_platform
-=
-job
-[
-'
-name
-'
-]
-            
-build_type
-=
-'
-opt
-'
         
 if
 build_type
