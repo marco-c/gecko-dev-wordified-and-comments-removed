@@ -17736,6 +17736,11 @@ Services
 appinfo
 .
 browserTabsRemoteAutostart
+|
+|
+AppConstants
+.
+NIGHTLY_BUILD
 )
 {
 return
