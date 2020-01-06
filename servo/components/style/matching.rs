@@ -3239,7 +3239,6 @@ RestyleDamage
 compute_style_difference
 (
 source
-old_values
 new_values
 )
 }

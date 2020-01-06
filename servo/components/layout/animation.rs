@@ -841,8 +841,6 @@ compute_style_difference
 &
 old_style
 &
-old_style
-&
 fragment
 .
 style
