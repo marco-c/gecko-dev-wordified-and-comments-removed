@@ -352,6 +352,8 @@ desktop
 screenshot
 -
 capture
+-
+awsy
 linux64
 -
 devedition
@@ -1118,8 +1120,6 @@ test
 sets
 :
 -
-awsy
--
 desktop
 -
 screenshot
@@ -1290,8 +1290,6 @@ test
 -
 sets
 :
--
-awsy
 -
 desktop
 -
@@ -1550,6 +1548,8 @@ sets
 macosx64
 -
 tests
+-
+awsy
 macosx64
 -
 devedition
