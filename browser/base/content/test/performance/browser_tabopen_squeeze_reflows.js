@@ -7,6 +7,9 @@ const
 EXPECTED_REFLOWS
 =
 [
+{
+stack
+:
 [
 "
 select
@@ -53,6 +56,7 @@ tabbrowser
 xml
 "
 ]
+}
 ]
 ;
 add_task
