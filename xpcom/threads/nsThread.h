@@ -922,6 +922,17 @@ mCanInvokeJS
 bool
 mHasPendingEventsPromisedIdleEvent
 ;
+#
+ifndef
+RELEASE_OR_BETA
+mozilla
+:
+:
+TimeStamp
+mNextIdleDeadline
+;
+#
+endif
 }
 ;
 #
