@@ -6821,7 +6821,7 @@ snapPoint
 )
 ;
 return
-nsEventStatus_eConsumeNoDefault
+nsEventStatus_eConsumeDoDefault
 ;
 }
 if
@@ -6943,7 +6943,7 @@ y
 )
 ;
 return
-nsEventStatus_eConsumeNoDefault
+nsEventStatus_eConsumeDoDefault
 ;
 }
 CSSPoint

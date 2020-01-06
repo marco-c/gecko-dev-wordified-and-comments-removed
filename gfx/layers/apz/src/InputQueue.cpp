@@ -1446,6 +1446,15 @@ ProcessQueue
 )
 ;
 return
+gfxPrefs
+:
+:
+APZKeyboardPassiveListeners
+(
+)
+?
+nsEventStatus_eConsumeDoDefault
+:
 nsEventStatus_eConsumeNoDefault
 ;
 }
