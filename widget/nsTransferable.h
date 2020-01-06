@@ -7,13 +7,6 @@ nsTransferable_h__
 #
 include
 "
-nsIContentPolicyBase
-.
-h
-"
-#
-include
-"
 nsIFormatConverter
 .
 h

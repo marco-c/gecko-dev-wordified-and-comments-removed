@@ -32,7 +32,7 @@ h
 #
 include
 "
-nsIContentPolicyBase
+nsIContentPolicy
 .
 h
 "

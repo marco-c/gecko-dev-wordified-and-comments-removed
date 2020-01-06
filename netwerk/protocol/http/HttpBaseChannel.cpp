@@ -15569,7 +15569,7 @@ GetExternalContentPolicyType
 )
 =
 =
-nsIContentPolicyBase
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT

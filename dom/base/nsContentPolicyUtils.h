@@ -92,16 +92,6 @@ policy
 "
 #
 define
-NS_SIMPLECONTENTPOLICY_CATEGORY
-"
-simple
--
-content
--
-policy
-"
-#
-define
 NS_CONTENTPOLICY_CID
 \
 {

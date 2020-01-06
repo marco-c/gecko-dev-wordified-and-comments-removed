@@ -103,7 +103,7 @@ idl
 #
 include
 "
-nsIContentPolicyBase
+nsIContentPolicy
 .
 idl
 "
