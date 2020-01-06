@@ -750,8 +750,6 @@ q
 PopAll
 (
 [
-&
-pops
 ]
 (
 const
