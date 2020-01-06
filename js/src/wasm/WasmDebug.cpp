@@ -1672,7 +1672,7 @@ runtime
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -1890,7 +1890,7 @@ runtime
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2110,7 +2110,7 @@ lookupRange
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2164,7 +2164,7 @@ rt
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2174,7 +2174,7 @@ base
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2204,7 +2204,7 @@ uintptr_t
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2215,7 +2215,7 @@ base
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2704,7 +2704,7 @@ trap
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2814,7 +2814,7 @@ farJump
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2926,7 +2926,7 @@ runtime
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2936,7 +2936,7 @@ base
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2966,7 +2966,7 @@ uintptr_t
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .
@@ -2977,7 +2977,7 @@ base
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .

@@ -505,7 +505,7 @@ bytes
 ;
 }
 uint32_t
-codeLength
+codeLengthTier
 (
 )
 const
@@ -514,7 +514,7 @@ return
 code_
 -
 >
-segment
+segmentTier
 (
 )
 .

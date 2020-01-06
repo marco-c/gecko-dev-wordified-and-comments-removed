@@ -1470,7 +1470,7 @@ Code
 >
 {
 UniqueConstCodeSegment
-segment_
+tier_
 ;
 SharedMetadata
 metadata_
@@ -1490,7 +1490,7 @@ Code
 Code
 (
 UniqueConstCodeSegment
-segment
+tier
 const
 Metadata
 &
@@ -1500,14 +1500,14 @@ metadata
 const
 CodeSegment
 &
-segment
+segmentTier
 (
 )
 const
 {
 return
 *
-segment_
+tier_
 ;
 }
 const
