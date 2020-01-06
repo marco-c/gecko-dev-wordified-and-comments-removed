@@ -117,6 +117,10 @@ const
 float
 &
 aPitch
+const
+bool
+&
+aIsChrome
 )
 override
 ;
@@ -165,6 +169,10 @@ const
 float
 &
 aPitch
+const
+bool
+&
+aIsChrome
 )
 override
 ;
@@ -306,12 +314,15 @@ const
 nsAString
 &
 aUtterance
+bool
+aIsChrome
 )
 :
 nsSpeechTask
 (
 aVolume
 aUtterance
+aIsChrome
 )
 {
 }

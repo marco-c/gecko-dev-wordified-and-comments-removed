@@ -110,6 +110,10 @@ const
 float
 &
 aPitch
+const
+bool
+&
+aIsChrome
 )
 {
 RefPtr
@@ -123,6 +127,7 @@ SpeechTaskParent
 (
 aVolume
 aText
+aIsChrome
 )
 ;
 SpeechSynthesisRequestParent
@@ -196,6 +201,10 @@ const
 float
 &
 aPitch
+const
+bool
+&
+aIsChrome
 )
 {
 MOZ_ASSERT
