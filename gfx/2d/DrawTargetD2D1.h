@@ -865,13 +865,6 @@ CleanupD2D
 (
 )
 ;
-static
-IDWriteFactory
-*
-GetDWriteFactory
-(
-)
-;
 operator
 std
 :
@@ -1382,11 +1375,6 @@ static
 ID2D1Factory1
 *
 mFactory
-;
-static
-IDWriteFactory
-*
-mDWriteFactory
 ;
 uint32_t
 mDeviceSeq
