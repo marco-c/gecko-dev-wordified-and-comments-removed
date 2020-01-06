@@ -964,6 +964,10 @@ MockContentControllerDelayed
 aMcc
 )
 :
+APZCTreeManager
+(
+0
+)
 mcc
 (
 aMcc
