@@ -86,6 +86,15 @@ height
 :
 30px
 ;
+overflow
+:
+-
+moz
+-
+hidden
+-
+unscrollable
+;
 }
 #
 urlbar
