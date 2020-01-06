@@ -912,7 +912,7 @@ false
 }
 pub
 fn
-status_code
+error_code
 (
 &
 self
@@ -928,7 +928,7 @@ self
 .
 error
 .
-status_code
+error_code
 (
 )
 }
@@ -1012,7 +1012,7 @@ into
 )
 self
 .
-status_code
+error_code
 (
 )
 .
@@ -1129,7 +1129,7 @@ str
 {
 self
 .
-status_code
+error_code
 (
 )
 }
