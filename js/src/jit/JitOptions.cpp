@@ -594,6 +594,12 @@ UINT32_MAX
 ;
 SET_DEFAULT
 (
+simulatorAlwaysInterrupt
+false
+)
+;
+SET_DEFAULT
+(
 branchPruningHitCountFactor
 1
 )
