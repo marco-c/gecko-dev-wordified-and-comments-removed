@@ -1930,13 +1930,6 @@ set
 )
 SERVO_BINDING_FUNC
 (
-Servo_ResolveStyleAllowStale
-ServoStyleContextStrong
-RawGeckoElementBorrowed
-element
-)
-SERVO_BINDING_FUNC
-(
 Servo_ResolvePseudoStyle
 ServoStyleContextStrong
 RawGeckoElementBorrowed
