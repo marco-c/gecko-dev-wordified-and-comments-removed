@@ -2305,7 +2305,7 @@ nsGkAtoms
 :
 :
 aria_haspopup
-ATTR_BYPASSOBJ
+ATTR_BYPASSOBJ_IF_FALSE
 |
 ATTR_VALTOKEN
 |
