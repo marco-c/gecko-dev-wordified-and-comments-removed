@@ -1032,7 +1032,11 @@ map_err
 (
 )
 |
-SelectorParseError
+input
+.
+new_custom_error
+(
+SelectorParseErrorKind
 :
 :
 UnexpectedIdent
@@ -1043,9 +1047,6 @@ clone
 (
 )
 )
-.
-into
-(
 )
 )
 ;

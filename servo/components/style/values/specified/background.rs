@@ -20,7 +20,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 use
 style_traits
@@ -172,6 +172,15 @@ height
 ;
 }
 let
+location
+=
+input
+.
+current_source_location
+(
+)
+;
+let
 ident
 =
 input
@@ -228,7 +237,11 @@ map_err
 (
 )
 |
-SelectorParseError
+location
+.
+new_custom_error
+(
+SelectorParseErrorKind
 :
 :
 UnexpectedIdent
@@ -239,9 +252,6 @@ clone
 (
 )
 )
-.
-into
-(
 )
 )
 }

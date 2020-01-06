@@ -78,7 +78,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 use
 std
@@ -894,7 +894,11 @@ _
 return
 Err
 (
-SelectorParseError
+input
+.
+new_custom_error
+(
+SelectorParseErrorKind
 :
 :
 UnexpectedIdent
@@ -905,9 +909,6 @@ clone
 (
 )
 )
-.
-into
-(
 )
 )
 }

@@ -411,7 +411,11 @@ style
 .
 Err
 (
-SelectorParseError
+input
+.
+new_custom_error
+(
+SelectorParseErrorKind
 :
 :
 UnexpectedIdent
@@ -424,9 +428,6 @@ into
 (
 )
 )
-.
-into
-(
 )
 )
 }

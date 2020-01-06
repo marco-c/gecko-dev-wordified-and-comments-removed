@@ -20,7 +20,7 @@ selectors
 parser
 :
 :
-SelectorParseError
+SelectorParseErrorKind
 ;
 use
 std
@@ -563,6 +563,15 @@ nlop
 )
 }
 let
+location
+=
+input
+.
+current_source_location
+(
+)
+;
+let
 ident
 =
 input
@@ -640,7 +649,11 @@ ident
 >
 Err
 (
-SelectorParseError
+location
+.
+new_custom_error
+(
+SelectorParseErrorKind
 :
 :
 UnexpectedIdent
@@ -651,9 +664,6 @@ clone
 (
 )
 )
-.
-into
-(
 )
 )
 }
