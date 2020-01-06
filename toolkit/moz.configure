@@ -7089,7 +7089,15 @@ milestone
 .
 is_nightly
 elif
+len
+(
 value
+)
+and
+value
+[
+0
+]
 =
 =
 '
