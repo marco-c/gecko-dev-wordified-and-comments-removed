@@ -81,6 +81,8 @@ uint8_t
 >
 &
 aChallenge
+uint32_t
+aTimeoutMS
 )
 override
 ;
@@ -112,6 +114,8 @@ uint8_t
 >
 &
 aChallenge
+uint32_t
+aTimeoutMS
 )
 override
 ;

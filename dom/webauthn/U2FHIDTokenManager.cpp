@@ -62,6 +62,8 @@ uint8_t
 >
 &
 aChallenge
+uint32_t
+aTimeoutMS
 )
 {
 return
@@ -105,6 +107,8 @@ uint8_t
 >
 &
 aChallenge
+uint32_t
+aTimeoutMS
 )
 {
 return
