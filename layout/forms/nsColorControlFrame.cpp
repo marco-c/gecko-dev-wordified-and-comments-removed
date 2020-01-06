@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsContentList
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

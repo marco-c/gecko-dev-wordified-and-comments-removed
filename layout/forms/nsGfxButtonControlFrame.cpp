@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsContentList
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h

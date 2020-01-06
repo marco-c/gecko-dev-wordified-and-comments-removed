@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsContentList
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h
