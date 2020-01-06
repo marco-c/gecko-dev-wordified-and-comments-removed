@@ -1777,6 +1777,17 @@ out
 )
 ;
 void
+dumpNoNewline
+(
+js
+:
+:
+GenericPrinter
+&
+out
+)
+;
+void
 dumpCharsNoNewline
 (
 js
