@@ -16732,9 +16732,6 @@ snapshots
 *
 const
 ServoElementSnapshotTable
-pseudo_type
-:
-CSSPseudoElementType
 )
 -
 >
