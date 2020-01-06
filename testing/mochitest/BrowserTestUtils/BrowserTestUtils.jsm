@@ -3908,11 +3908,9 @@ dumpID
 ;
 if
 (
-'
-nsICrashReporter
-'
-in
-Ci
+AppConstants
+.
+MOZ_CRASHREPORTER
 )
 {
 dumpID

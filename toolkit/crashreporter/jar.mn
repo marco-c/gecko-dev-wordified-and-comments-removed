@@ -57,6 +57,9 @@ toolkit
 .
 jar
 :
+#
+ifdef
+MOZ_CRASHREPORTER
 content
 /
 global
@@ -85,3 +88,5 @@ crashes
 .
 js
 )
+#
+endif
