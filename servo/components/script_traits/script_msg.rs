@@ -111,6 +111,15 @@ use
 net_traits
 :
 :
+request
+:
+:
+RequestInit
+;
+use
+net_traits
+:
+:
 storage_thread
 :
 :
@@ -263,6 +272,11 @@ pub
 enum
 ScriptMsg
 {
+InitiateNavigateRequest
+(
+RequestInit
+PipelineId
+)
 BroadcastStorageEvent
 (
 PipelineId

@@ -3217,6 +3217,13 @@ parsing
 it
 progressively
 .
+#
+[
+derive
+(
+JSTraceable
+)
+]
 pub
 struct
 ParserContext

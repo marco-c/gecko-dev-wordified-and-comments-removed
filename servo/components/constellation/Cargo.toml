@@ -172,6 +172,13 @@ path
 gfx_traits
 "
 }
+hyper
+=
+"
+0
+.
+10
+"
 ipc
 -
 channel

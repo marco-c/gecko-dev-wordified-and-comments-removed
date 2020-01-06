@@ -276,6 +276,7 @@ net_traits
 :
 :
 {
+FetchResponseMsg
 ReferrerPolicy
 ResourceThreads
 }
@@ -995,6 +996,11 @@ pub
 enum
 ConstellationControlMsg
 {
+NavigationResponse
+(
+PipelineId
+FetchResponseMsg
+)
 AttachLayout
 (
 NewLayoutInfo
@@ -1218,6 +1224,16 @@ match
 *
 self
 {
+NavigationResponse
+(
+.
+.
+)
+=
+>
+"
+NavigationResponse
+"
 AttachLayout
 (
 .
