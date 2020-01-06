@@ -392,11 +392,11 @@ WindowPositionResponse
 pub
 x
 :
-u64
+i64
 pub
 y
 :
-u64
+i64
 }
 impl
 WindowPositionResponse
@@ -407,10 +407,10 @@ new
 (
 x
 :
-u64
+i64
 y
 :
-u64
+i64
 )
 -
 >
