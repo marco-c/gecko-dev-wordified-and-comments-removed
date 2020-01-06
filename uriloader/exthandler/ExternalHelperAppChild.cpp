@@ -246,9 +246,10 @@ GetFrom
 window
 )
 ;
-MOZ_ASSERT
+NS_ENSURE_TRUE
 (
 tabChild
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 nsCOMPtr
