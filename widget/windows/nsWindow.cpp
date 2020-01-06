@@ -337,13 +337,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h
