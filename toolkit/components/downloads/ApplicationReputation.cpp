@@ -2238,16 +2238,6 @@ hta
 u
 "
 .
-htm
-"
-u
-"
-.
-html
-"
-u
-"
-.
 htt
 "
 u
