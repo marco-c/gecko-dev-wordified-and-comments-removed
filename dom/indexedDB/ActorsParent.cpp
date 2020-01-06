@@ -29760,9 +29760,6 @@ SendResults
 )
 override
 ;
-#
-ifdef
-ENABLE_INTL_API
 static
 nsresult
 UpdateLocaleAwareIndex
@@ -29780,8 +29777,6 @@ nsCString
 aLocale
 )
 ;
-#
-endif
 }
 ;
 class
@@ -79301,18 +79296,6 @@ nsCString
 aLocale
 )
 {
-#
-ifndef
-ENABLE_INTL_API
-return
-BindKeyRangeToStatement
-(
-aKeyRange
-aStatement
-)
-;
-#
-else
 MOZ_ASSERT
 (
 !
@@ -79511,8 +79494,6 @@ rv
 return
 NS_OK
 ;
-#
-endif
 }
 void
 DatabaseOperationBase
@@ -88730,9 +88711,6 @@ multiEntry
 !
 scratch
 ;
-#
-ifdef
-ENABLE_INTL_API
 const
 bool
 localeAware
@@ -88917,8 +88895,6 @@ rv
 }
 }
 }
-#
-endif
 if
 (
 NS_WARN_IF
@@ -89019,9 +88995,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-ENABLE_INTL_API
 nsresult
 OpenDatabaseOp
 :
@@ -89675,8 +89648,6 @@ return
 rv
 ;
 }
-#
-endif
 nsresult
 OpenDatabaseOp
 :
@@ -115948,9 +115919,6 @@ aOpen
 =
 false
 ;
-#
-ifdef
-ENABLE_INTL_API
 if
 (
 mCursor
@@ -115978,8 +115946,6 @@ mLocale
 )
 ;
 }
-#
-endif
 }
 else
 {
@@ -116017,9 +115983,6 @@ upperOpen
 (
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 if
 (
 mCursor
@@ -116072,8 +116035,6 @@ mLocale
 ;
 }
 }
-#
-endif
 }
 }
 else
