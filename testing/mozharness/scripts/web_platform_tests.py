@@ -1293,6 +1293,28 @@ dir
 "
 ]
         
+wpt_test_paths
+=
+self
+.
+try_test_paths
+.
+get
+(
+"
+web
+-
+platform
+-
+tests
+"
+)
+        
+if
+not
+wpt_test_paths
+:
+            
 for
 test_type
 in
@@ -1307,7 +1329,7 @@ test_type
 ]
 )
 :
-            
+                
 cmd
 .
 append
@@ -1430,6 +1452,8 @@ val
 )
         
 if
+wpt_test_paths
+or
 "
 wdspec
 "
