@@ -6557,6 +6557,16 @@ this
 )
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+holder
+.
+IsNull
+(
+)
+)
+;
 int32_t
 childID
 =
