@@ -7444,12 +7444,6 @@ init
 (
 )
 ;
-RefreshBlocker
-.
-init
-(
-)
-;
 CaptivePortalWatcher
 .
 init
@@ -10200,12 +10194,6 @@ uninit
 )
 ;
 TrackingProtection
-.
-uninit
-(
-)
-;
-RefreshBlocker
 .
 uninit
 (
