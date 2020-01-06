@@ -21092,15 +21092,8 @@ Init
 ;
 #
 endif
-char
-aLocal
-;
 AutoProfilerInit
 profilerInit
-(
-&
-aLocal
-)
 ;
 AUTO_PROFILER_LABEL
 (
