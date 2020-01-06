@@ -1669,11 +1669,10 @@ final
 int
 imageLevel
 =
-SecurityModeUtil
+type
 .
 getImageLevel
 (
-type
 )
 ;
 mSiteIdentityPopup
