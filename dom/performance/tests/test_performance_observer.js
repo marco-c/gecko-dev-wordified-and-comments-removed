@@ -1,12 +1,3 @@
-setup
-(
-{
-explicit_done
-:
-true
-}
-)
-;
 test
 (
 t
