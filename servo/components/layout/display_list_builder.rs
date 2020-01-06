@@ -8510,11 +8510,13 @@ clip_bounds
 )
 ;
 let
-border_padding
+border
 =
 self
 .
-border_padding
+border_width
+(
+)
 .
 to_physical
 (
@@ -8542,7 +8544,7 @@ origin
 .
 x
 +
-border_padding
+border
 .
 left
 ;
@@ -8558,7 +8560,7 @@ origin
 .
 y
 +
-border_padding
+border
 .
 top
 ;
@@ -8574,7 +8576,7 @@ size
 .
 width
 -
-border_padding
+border
 .
 horizontal
 (
@@ -8592,7 +8594,7 @@ size
 .
 height
 -
-border_padding
+border
 .
 vertical
 (
