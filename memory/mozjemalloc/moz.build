@@ -100,9 +100,9 @@ SOURCES
 =
 [
 '
-mozjemalloc
+jemalloc
 .
-cpp
+c
 '
 ]
 FINAL_LIBRARY
@@ -225,11 +225,11 @@ if
 CONFIG
 [
 '
-GNU_CXX
+GNU_CC
 '
 ]
 :
-CXXFLAGS
+CFLAGS
 +
 =
 [
@@ -257,7 +257,7 @@ _MSC_VER
 '
 ]
 :
-CXXFLAGS
+CFLAGS
 +
 =
 [
@@ -274,6 +274,3 @@ linkage
 bug
 558163
 )
-DISABLE_STL_WRAPPING
-=
-True
