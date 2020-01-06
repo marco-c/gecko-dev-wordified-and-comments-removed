@@ -457,9 +457,9 @@ AddWRImage
 wr
 :
 :
-WebRenderAPI
-*
-aAPI
+ResourceUpdateQueue
+&
+aResources
 Range
 <
 const
@@ -489,7 +489,7 @@ mWrappedTextureHost
 >
 AddWRImage
 (
-aAPI
+aResources
 aImageKeys
 aExtID
 )

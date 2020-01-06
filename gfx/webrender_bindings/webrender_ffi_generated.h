@@ -2660,9 +2660,6 @@ WrEpoch
 aEpoch
 WrPipelineId
 aPipelineId
-ResourceUpdates
-*
-aResources
 )
 WR_FUNC
 ;

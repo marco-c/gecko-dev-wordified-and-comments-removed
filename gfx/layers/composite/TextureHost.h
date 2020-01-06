@@ -256,7 +256,7 @@ class
 DisplayListBuilder
 ;
 class
-WebRenderAPI
+ResourceUpdateQueue
 ;
 }
 namespace
@@ -1794,9 +1794,9 @@ AddWRImage
 wr
 :
 :
-WebRenderAPI
-*
-aAPI
+ResourceUpdateQueue
+&
+aResources
 Range
 <
 const
@@ -2224,9 +2224,9 @@ AddWRImage
 wr
 :
 :
-WebRenderAPI
-*
-aAPI
+ResourceUpdateQueue
+&
+aResources
 Range
 <
 const

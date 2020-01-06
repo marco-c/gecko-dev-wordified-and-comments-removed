@@ -11242,13 +11242,12 @@ SurfaceFormat
 :
 B8G8R8A8
 ;
-wr
-:
-:
-ByteBuffer
+Range
+<
+uint8_t
+>
 buffer
 (
-titlebarCGContextDataLength
 static_cast
 <
 uint8_t
@@ -11260,6 +11259,7 @@ CGBitmapContextGetData
 mTitlebarCGContext
 )
 )
+titlebarCGContextDataLength
 )
 ;
 if
@@ -11387,7 +11387,7 @@ Resources
 (
 )
 .
-UpdateImage
+UpdateImageBuffer
 (
 *
 mTitlebarImageKey
@@ -11471,6 +11471,9 @@ if
 mTitlebarImageKey
 )
 {
+wr
+:
+:
 ResourceUpdateQueue
 resources
 ;

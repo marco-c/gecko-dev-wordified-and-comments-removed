@@ -449,6 +449,7 @@ mUpdates
 }
 protected
 :
+explicit
 ResourceUpdateQueue
 (
 wr
@@ -636,10 +637,8 @@ dl_data
 size_t
 dl_size
 ResourceUpdateQueue
-*
+&
 aResources
-=
-nullptr
 )
 ;
 void
@@ -672,16 +671,6 @@ ResourceUpdateQueue
 aUpdates
 )
 ;
-ResourceUpdateQueue
-&
-Resources
-(
-)
-{
-return
-mResources
-;
-}
 void
 SetFrameStartTime
 (
@@ -824,9 +813,6 @@ void
 WaitFlushed
 (
 )
-;
-ResourceUpdateQueue
-mResources
 ;
 wr
 :
