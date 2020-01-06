@@ -3376,7 +3376,7 @@ color
 DisplayItem
 :
 :
-PopTextShadow
+PopAllTextShadows
 (
 _
 )
@@ -3385,7 +3385,7 @@ _
 {
 builder
 .
-pop_shadow
+pop_all_shadows
 (
 )
 ;

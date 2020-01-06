@@ -3219,11 +3219,11 @@ Box
 PushTextShadowDisplayItem
 >
 )
-PopTextShadow
+PopAllTextShadows
 (
 Box
 <
-PopTextShadowDisplayItem
+PopAllTextShadowsDisplayItem
 >
 )
 Iframe
@@ -5681,7 +5681,7 @@ Serialize
 ]
 pub
 struct
-PopTextShadowDisplayItem
+PopAllTextShadowsDisplayItem
 {
 pub
 base
@@ -5926,7 +5926,7 @@ base
 DisplayItem
 :
 :
-PopTextShadow
+PopAllTextShadows
 (
 ref
 pop_text_shadow
@@ -6828,7 +6828,7 @@ to_owned
 DisplayItem
 :
 :
-PopTextShadow
+PopAllTextShadows
 (
 _
 )
