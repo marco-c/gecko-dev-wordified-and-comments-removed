@@ -664,6 +664,7 @@ Debug
 PartialEq
 )
 ]
+pub
 struct
 GeckoContextParameters
 {
