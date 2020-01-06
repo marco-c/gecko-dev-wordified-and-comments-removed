@@ -1700,8 +1700,6 @@ TopmostClipId
 (
 )
 ;
-Maybe
-<
 layers
 :
 :
@@ -1709,7 +1707,6 @@ FrameMetrics
 :
 :
 ViewID
->
 TopmostScrollId
 (
 )
