@@ -678,9 +678,6 @@ class
 GLImage
 ;
 class
-EGLImageImage
-;
-class
 SharedRGBImage
 ;
 #
@@ -882,17 +879,6 @@ GetTextureClient
 KnowsCompositor
 *
 aForwarder
-)
-{
-return
-nullptr
-;
-}
-virtual
-EGLImageImage
-*
-AsEGLImageImage
-(
 )
 {
 return
