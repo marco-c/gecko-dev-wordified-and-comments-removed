@@ -426,6 +426,7 @@ GLContext
 static
 MOZ_THREAD_LOCAL
 (
+const
 GLContext
 *
 )
@@ -746,6 +747,7 @@ bool
 IsCurrent
 (
 )
+const
 =
 0
 ;
@@ -764,6 +766,7 @@ protected
 bool
 mIsOffscreen
 ;
+mutable
 bool
 mContextLost
 ;
@@ -1132,6 +1135,7 @@ return
 }
 private
 :
+mutable
 GLenum
 mTopError
 ;
@@ -1139,6 +1143,7 @@ GLenum
 RawGetError
 (
 )
+const
 {
 return
 mSymbols
@@ -1152,6 +1157,7 @@ GLenum
 RawGetErrorAndClear
 (
 )
+const
 {
 GLenum
 err
@@ -1182,6 +1188,7 @@ GLenum
 FlushErrors
 (
 )
+const
 {
 GLenum
 err
@@ -12099,6 +12106,7 @@ MakeCurrentImpl
 bool
 aForce
 )
+const
 =
 0
 ;
@@ -12131,6 +12139,7 @@ aForce
 =
 false
 )
+const
 ;
 virtual
 bool
@@ -12159,6 +12168,7 @@ bool
 IsDestroyed
 (
 )
+const
 {
 return
 mSymbols

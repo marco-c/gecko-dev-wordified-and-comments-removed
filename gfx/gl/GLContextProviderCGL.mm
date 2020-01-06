@@ -571,6 +571,7 @@ MakeCurrentImpl
 bool
 aForce
 )
+const
 {
 if
 (
@@ -739,6 +740,7 @@ GLContextCGL
 IsCurrent
 (
 )
+const
 {
 return
 [
