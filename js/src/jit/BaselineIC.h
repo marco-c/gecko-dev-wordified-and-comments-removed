@@ -397,10 +397,6 @@ Compiler
 (
 cx
 TypeUpdate_PrimitiveSet
-Engine
-:
-:
-Baseline
 existingStub
 type
 )
@@ -1582,7 +1578,6 @@ initMonitoringChain
 (
 cx
 space
-engine_
 )
 )
 return
@@ -2096,7 +2091,6 @@ initMonitoringChain
 (
 cx
 space
-engine_
 )
 )
 return
@@ -2316,7 +2310,6 @@ initMonitoringChain
 (
 cx
 space
-engine_
 )
 )
 return
@@ -3042,7 +3035,6 @@ initMonitoringChain
 (
 cx
 space
-engine_
 )
 )
 return
