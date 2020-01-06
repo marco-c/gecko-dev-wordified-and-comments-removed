@@ -9521,7 +9521,7 @@ Visited
 LOCALIZATION
 NOTE
 (
-activity_stream_remove
+activity_stream_dismiss
 )
 :
 This
@@ -9569,9 +9569,9 @@ panel
 <
 !
 ENTITY
-activity_stream_remove
+activity_stream_dismiss
 "
-Remove
+Dismiss
 "
 >
 <
@@ -9632,14 +9632,6 @@ and
 other
 pages
 .
-"
->
-<
-!
-ENTITY
-activity_stream_welcome_dismiss
-"
-Dismiss
 "
 >
 <

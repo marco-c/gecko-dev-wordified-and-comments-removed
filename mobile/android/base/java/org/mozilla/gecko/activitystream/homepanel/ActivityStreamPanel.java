@@ -410,11 +410,6 @@ setOnItemClickListener
 (
 adapter
 )
-.
-setOnItemLongClickListener
-(
-adapter
-)
 ;
 final
 Resources
