@@ -84,7 +84,7 @@ h
 "
 #
 ifndef
-XP_MACOSX
+XP_UNIX
 #
 include
 "
@@ -291,7 +291,7 @@ elif
 !
 defined
 (
-XP_MACOSX
+XP_UNIX
 )
 PRProcess
 *
