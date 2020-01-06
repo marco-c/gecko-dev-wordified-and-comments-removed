@@ -476,7 +476,6 @@ ResponsePanel
 {
 request
 openLink
-connector
 }
 )
 )

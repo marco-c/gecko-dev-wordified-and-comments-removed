@@ -931,12 +931,6 @@ webConsoleClient
 }
 )
 ;
-proxy
-.
-networkDataProvider
-=
-dataProvider
-;
 }
 let
 type

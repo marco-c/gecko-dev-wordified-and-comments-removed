@@ -432,9 +432,6 @@ responseCookies
 responseContent
 "
 "
-responseContentAvailable
-"
-"
 responseContentDataUri
 "
 "

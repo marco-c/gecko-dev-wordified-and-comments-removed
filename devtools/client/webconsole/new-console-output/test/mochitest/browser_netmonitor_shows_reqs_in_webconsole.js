@@ -435,10 +435,4 @@ correct
 "
 )
 ;
-await
-waitForExistingRequests
-(
-monitor
-)
-;
 }

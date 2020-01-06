@@ -172,9 +172,9 @@ undefined
 responseContent
 :
 undefined
-responseContentAvailable
+responseContentDataUri
 :
-false
+undefined
 formDataSections
 :
 undefined
