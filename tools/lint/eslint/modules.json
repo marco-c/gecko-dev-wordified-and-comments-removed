@@ -791,6 +791,9 @@ INFO_COLLECTION_COUNTS
 INFO_QUOTA
 "
 "
+kSyncNotConfigured
+"
+"
 kSyncMasterPasswordLocked
 "
 "
