@@ -931,12 +931,6 @@ green
 rect
 .
 html
-fails
--
-if
-(
-webrender
-)
 !
 =
 sorting
@@ -1675,12 +1669,6 @@ preserve3d
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 snap
