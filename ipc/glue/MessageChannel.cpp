@@ -2941,9 +2941,9 @@ Open
 MessageChannel
 *
 aTargetChan
-MessageLoop
+nsIEventTarget
 *
-aTargetLoop
+aEventTarget
 Side
 aSide
 )
@@ -3030,10 +3030,12 @@ mChannelState
 =
 ChannelOpening
 ;
-aTargetLoop
+MOZ_ALWAYS_SUCCEEDS
+(
+aEventTarget
 -
 >
-PostTask
+Dispatch
 (
 NewNonOwningRunnableMethod
 <
@@ -3059,6 +3061,7 @@ MessageChannel
 OnOpenAsSlave
 this
 oppSide
+)
 )
 )
 ;
