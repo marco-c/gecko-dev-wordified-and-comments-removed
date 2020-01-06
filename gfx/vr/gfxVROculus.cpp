@@ -1604,13 +1604,6 @@ true
 return
 ;
 }
-MOZ_ASSERT
-(
-NS_IsInCompositorThread
-(
-)
-)
-;
 ovrLayerEyeFov
 layer
 ;
