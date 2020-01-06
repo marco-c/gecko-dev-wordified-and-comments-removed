@@ -2749,6 +2749,13 @@ nsGkAtoms
 overridePreserveAspectRatio
 )
 ;
+bool
+didHaveProperty
+=
+!
+!
+valPtr
+;
 delete
 static_cast
 <
@@ -2760,7 +2767,7 @@ valPtr
 )
 ;
 return
-valPtr
+didHaveProperty
 ;
 }
 SVGPreserveAspectRatio
