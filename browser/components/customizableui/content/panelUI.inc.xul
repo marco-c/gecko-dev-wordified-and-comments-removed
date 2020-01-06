@@ -143,6 +143,11 @@ descriptionheightworkaround
 "
 true
 "
+blockinboxworkaround
+=
+"
+true
+"
 >
 <
 vbox
