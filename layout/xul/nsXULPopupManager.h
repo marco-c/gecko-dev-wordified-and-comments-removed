@@ -1751,6 +1751,9 @@ bool
 aIsContextMenu
 bool
 aSelectFirstItem
+nsIDOMEvent
+*
+aTriggerEvent
 )
 ;
 void
