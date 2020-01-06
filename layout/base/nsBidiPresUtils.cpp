@@ -3793,7 +3793,7 @@ lastRealFrame
 nullptr
 ;
 nsBidiLevel
-lastEmbedingLevel
+lastEmbeddingLevel
 =
 kBidiLevelNone
 ;
@@ -3842,7 +3842,7 @@ embeddingLevel
 precedingControl
 >
 =
-lastEmbedingLevel
+lastEmbeddingLevel
 )
 {
 bidiData
@@ -3865,7 +3865,7 @@ precedingControl
 =
 kBidiLevelNone
 ;
-lastEmbedingLevel
+lastEmbeddingLevel
 =
 embeddingLevel
 ;
