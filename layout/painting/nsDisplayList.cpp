@@ -5487,7 +5487,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderFor
+GetParentOrPlaceholderForCrossDoc
 (
 f
 )
@@ -5563,7 +5563,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderFor
+GetParentOrPlaceholderForCrossDoc
 (
 f
 )
@@ -6345,6 +6345,9 @@ UnmarkFrameForDisplay
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aStopAtFrame
 )
 {
 aFrame
@@ -6375,7 +6378,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderFor
+GetParentOrPlaceholderForCrossDoc
 (
 f
 )
@@ -6422,6 +6425,17 @@ SetForceDescendIntoIfVisible
 false
 )
 ;
+if
+(
+f
+=
+=
+aStopAtFrame
+)
+{
+break
+;
+}
 }
 }
 nsDisplayListBuilder
@@ -6817,6 +6831,7 @@ canvasFrame
 MarkFrameForDisplayIfVisible
 (
 canvasFrame
+aReferenceFrame
 )
 ;
 }
@@ -6986,7 +7001,7 @@ state
 -
 >
 mCaretFrame
-nullptr
+aReferenceFrame
 )
 ;
 }
@@ -7253,6 +7268,7 @@ NotifyNonBlankPaint
 }
 ResetMarkedFramesForDisplayList
 (
+aReferenceFrame
 )
 ;
 mPresShellStates
@@ -7422,6 +7438,9 @@ nsDisplayListBuilder
 :
 ResetMarkedFramesForDisplayList
 (
+nsIFrame
+*
+aReferenceFrame
 )
 {
 uint32_t
@@ -7460,6 +7479,7 @@ mFramesMarkedForDisplay
 [
 i
 ]
+aReferenceFrame
 )
 ;
 }
