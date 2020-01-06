@@ -28,8 +28,7 @@ size
 {
 const
 auto
-&
-entry
+pEntry
 =
 *
 (
@@ -40,7 +39,7 @@ begin
 )
 )
 ;
-entry
+pEntry
 -
 >
 Invalidate
@@ -53,7 +52,7 @@ mCacheEntries
 .
 find
 (
-entry
+pEntry
 )
 =
 =
