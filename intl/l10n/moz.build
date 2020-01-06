@@ -95,11 +95,6 @@ L10nRegistry
 jsm
 '
 '
-Localization
-.
-jsm
-'
-'
 MessageContext
 .
 jsm
