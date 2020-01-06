@@ -3965,6 +3965,12 @@ self
 current_group
 =
 None
+        
+self
+.
+current_metadata
+=
+None
     
 abstractmethod
     
@@ -4011,6 +4017,9 @@ try
 self
 .
 current_group
+self
+.
+current_metadata
 =
 self
 .
@@ -4029,11 +4038,15 @@ Empty
                 
 return
 None
+None
         
 return
 self
 .
 current_group
+self
+.
+current_metadata
 class
 GroupedSource
 (
@@ -4110,14 +4123,17 @@ groups
 .
 append
 (
+(
 deque
 (
-[
-]
+)
+{
+}
 )
 )
             
 group
+metadata
 =
 groups
 [
@@ -4130,6 +4146,13 @@ group
 append
 (
 test
+)
+            
+test
+.
+update_metadata
+(
+metadata
 )
         
 for
@@ -4199,6 +4222,20 @@ processes
 )
 ]
         
+metadatas
+=
+[
+{
+}
+for
+_
+in
+xrange
+(
+processes
+)
+]
+        
 for
 test
 in
@@ -4223,17 +4260,35 @@ queues
 idx
 ]
             
+metadata
+=
+metadatas
+[
+idx
+]
+            
 group
 .
 append
 (
 test
 )
+            
+test
+.
+update_metadata
+(
+metadata
+)
         
 for
 item
 in
+zip
+(
 queues
+metadatas
+)
 :
             
 test_queue

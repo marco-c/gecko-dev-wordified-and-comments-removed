@@ -1453,6 +1453,9 @@ test
 test_group
 "
 "
+group_metadata
+"
+"
 failure_count
 "
 ]
@@ -1488,6 +1491,9 @@ test
 "
 "
 test_group
+"
+"
+group_metadata
 "
 ]
 )
@@ -2738,6 +2744,7 @@ self
         
 test
 test_group
+group_metadata
 =
 self
 .
@@ -2768,6 +2775,7 @@ initializing
 (
 test
 test_group
+group_metadata
 0
 )
     
@@ -2883,6 +2891,12 @@ self
 .
 state
 .
+group_metadata
+                                                   
+self
+.
+state
+.
 failure_count
 +
 1
@@ -2890,6 +2904,21 @@ failure_count
         
 else
 :
+            
+self
+.
+executor_kwargs
+[
+"
+group_metadata
+"
+]
+=
+self
+.
+state
+.
+group_metadata
             
 self
 .
@@ -3135,6 +3164,12 @@ self
 .
 state
 .
+group_metadata
+                                               
+self
+.
+state
+.
 failure_count
 +
 1
@@ -3175,6 +3210,7 @@ test_group
 :
                 
 test_group
+group_metadata
 =
 self
 .
@@ -3206,6 +3242,7 @@ tests
 return
 None
 None
+None
             
 test
 =
@@ -3218,6 +3255,7 @@ popleft
 return
 test
 test_group
+group_metadata
     
 def
 run_test
@@ -3294,6 +3332,12 @@ self
 state
 .
 test_group
+                                                 
+self
+.
+state
+.
+group_metadata
 )
         
 self
@@ -3778,6 +3822,7 @@ running
         
 test
 test_group
+group_metadata
 =
 self
 .
@@ -3824,6 +3869,7 @@ restarting
 (
 test
 test_group
+group_metadata
 )
         
 else
@@ -3889,6 +3935,11 @@ self
 state
 .
 test_group
+self
+.
+state
+.
+group_metadata
 0
 )
     
