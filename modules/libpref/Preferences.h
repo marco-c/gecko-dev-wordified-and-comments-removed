@@ -88,9 +88,6 @@ h
 class
 nsIFile
 ;
-#
-ifndef
-have_PrefChangedFunc_typedef
 typedef
 void
 (
@@ -101,15 +98,12 @@ PrefChangedFunc
 const
 char
 *
+aPref
 void
 *
+aData
 )
 ;
-#
-define
-have_PrefChangedFunc_typedef
-#
-endif
 #
 ifdef
 DEBUG
