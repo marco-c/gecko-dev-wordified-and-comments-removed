@@ -3569,6 +3569,7 @@ void
 setChildOffset
 (
 in
+unsigned
 long
 offset
 )
