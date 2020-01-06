@@ -39,6 +39,13 @@ ensureNoPreloadedBrowser
 (
 )
 ;
+let
+origTab
+=
+gBrowser
+.
+selectedTab
+;
 await
 withReflowObserver
 (
@@ -97,6 +104,8 @@ switchDone
 ;
 }
 EXPECTED_REFLOWS
+window
+origTab
 )
 ;
 let
