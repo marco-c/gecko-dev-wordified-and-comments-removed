@@ -393,7 +393,6 @@ enum
 {
 eGestureState_None
 eGestureState_StartGesture
-eGestureState_MagnifyGesture
 eGestureState_RotateGesture
 }
 mGestureState
@@ -596,18 +595,6 @@ anEvent
 void
 )
 beginGestureWithEvent
-:
-(
-NSEvent
-*
-)
-anEvent
-;
--
-(
-void
-)
-magnifyWithEvent
 :
 (
 NSEvent
