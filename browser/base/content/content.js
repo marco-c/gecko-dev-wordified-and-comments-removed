@@ -2315,6 +2315,16 @@ return
 }
 if
 (
+event
+.
+button
+=
+=
+0
+)
+{
+if
+(
 ownerDoc
 .
 documentURI
@@ -2397,6 +2407,7 @@ documentURI
 ;
 return
 ;
+}
 }
 let
 [
