@@ -16045,12 +16045,6 @@ layers
 StackingContextHelper
 &
 aSc
-layers
-:
-:
-WebRenderDisplayItemLayer
-*
-aLayer
 )
 {
 LayoutDeviceRect

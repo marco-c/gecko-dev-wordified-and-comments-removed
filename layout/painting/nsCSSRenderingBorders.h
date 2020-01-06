@@ -351,15 +351,6 @@ layers
 StackingContextHelper
 &
 aSc
-mozilla
-:
-:
-layers
-:
-:
-WebRenderDisplayItemLayer
-*
-aLayer
 )
 ;
 static
