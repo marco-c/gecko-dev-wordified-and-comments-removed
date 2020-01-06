@@ -719,12 +719,10 @@ double
 >
 mThresholds
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTArray
 <
 Element
->
+*
 >
 mObservationTargets
 ;
