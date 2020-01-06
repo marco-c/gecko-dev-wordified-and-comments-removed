@@ -109,6 +109,10 @@ js
 '
             
 '
+memory
+'
+            
+'
 mobile
 /
 android
