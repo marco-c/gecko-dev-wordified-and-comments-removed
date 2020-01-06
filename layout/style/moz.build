@@ -638,6 +638,11 @@ ServoElementSnapshotTable
 h
 '
 '
+ServoImportRule
+.
+h
+'
+'
 ServoKeyframeRule
 .
 h
@@ -1292,6 +1297,11 @@ cpp
 '
 '
 ServoElementSnapshot
+.
+cpp
+'
+'
+ServoImportRule
 .
 cpp
 '

@@ -447,6 +447,10 @@ BASIC_RULE_FUNCS
 (
 Style
 )
+BASIC_RULE_FUNCS
+(
+Import
+)
 BASIC_RULE_FUNCS_WITHOUT_GETTER
 (
 Keyframe
@@ -525,6 +529,16 @@ SERVO_BINDING_FUNC
 Servo_StyleRule_GetSelectorText
 void
 RawServoStyleRuleBorrowed
+rule
+nsAString
+*
+result
+)
+SERVO_BINDING_FUNC
+(
+Servo_ImportRule_GetHref
+void
+RawServoImportRuleBorrowed
 rule
 nsAString
 *
