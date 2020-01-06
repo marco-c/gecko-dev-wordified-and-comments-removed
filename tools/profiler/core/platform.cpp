@@ -9413,6 +9413,13 @@ Exists
 )
 )
 ;
+SharedLibraryInfo
+:
+:
+Initialize
+(
+)
+;
 uint32_t
 features
 =
