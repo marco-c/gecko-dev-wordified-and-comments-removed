@@ -154,9 +154,6 @@ DIRS
 =
 [
 '
-flyweb
-'
-'
 presentation
 '
 ]
