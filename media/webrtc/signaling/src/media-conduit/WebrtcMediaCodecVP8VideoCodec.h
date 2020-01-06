@@ -248,9 +248,6 @@ ResetOutputBuffers
 size_t
 mMaxPayloadSize
 ;
-uint32_t
-mTimestamp
-;
 webrtc
 :
 :
