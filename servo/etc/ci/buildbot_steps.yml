@@ -2033,6 +2033,16 @@ upload
 -
 nightly
 linux
+-
+.
+/
+mach
+test
+-
+perf
+-
+-
+submit
 android
 :
 -
