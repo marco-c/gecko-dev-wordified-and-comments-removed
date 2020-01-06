@@ -883,12 +883,10 @@ js
 "
 )
 "
-devtools
+sdk
 /
-shared
+util
 /
-generate
--
 uuid
 "
 :
