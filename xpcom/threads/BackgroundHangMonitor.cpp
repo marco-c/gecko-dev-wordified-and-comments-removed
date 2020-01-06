@@ -168,7 +168,7 @@ const
 uint32_t
 kMaximumNativeHangStacks
 =
-15
+300
 ;
 static
 const

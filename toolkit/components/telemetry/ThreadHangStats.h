@@ -229,7 +229,7 @@ const
 size_t
 sMaxNativeFrames
 =
-25
+150
 ;
 private
 :
