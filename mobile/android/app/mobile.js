@@ -7469,3 +7469,17 @@ false
 ;
 #
 endif
+pref
+(
+"
+media
+.
+navigator
+.
+permission
+.
+device
+"
+true
+)
+;
