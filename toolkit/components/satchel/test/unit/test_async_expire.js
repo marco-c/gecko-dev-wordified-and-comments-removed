@@ -230,7 +230,7 @@ changed
 true
 )
 ;
-var
+let
 testfile
 =
 do_get_file
@@ -242,7 +242,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 do_get_profile
@@ -435,7 +435,7 @@ C
 checkExists
 )
 ;
-var
+let
 now
 =
 1000

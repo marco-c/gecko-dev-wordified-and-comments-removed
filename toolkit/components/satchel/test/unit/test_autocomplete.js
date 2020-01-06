@@ -31,7 +31,7 @@ number
 length
 )
 {
-var
+let
 str
 =
 number
@@ -106,7 +106,7 @@ run_test
 (
 )
 {
-var
+let
 testfile
 =
 do_get_file
@@ -118,7 +118,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 dirSvc
@@ -133,7 +133,7 @@ Ci
 nsIFile
 )
 ;
-var
+let
 destFile
 =
 profileDir
@@ -263,7 +263,7 @@ test0
 (
 )
 {
-var
+let
 maxTimeGroupings
 =
 prefs
@@ -279,7 +279,7 @@ maxTimeGroupings
 "
 )
 ;
-var
+let
 bucketSize
 =
 prefs

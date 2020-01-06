@@ -36,7 +36,7 @@ next_test
 {
 try
 {
-var
+let
 testfile
 =
 do_get_file
@@ -48,7 +48,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 dirSvc
@@ -63,7 +63,7 @@ Ci
 nsIFile
 )
 ;
-var
+let
 destFile
 =
 profileDir

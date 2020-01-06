@@ -1,10 +1,10 @@
-var
+let
 expectedNotification
 ;
-var
+let
 expectedData
 ;
-var
+let
 TestObserver
 =
 {
@@ -138,7 +138,7 @@ null
 }
 }
 ;
-var
+let
 testIterator
 =
 null
@@ -183,12 +183,12 @@ run_test_steps
 (
 )
 {
-var
+let
 testnum
 =
 0
 ;
-var
+let
 testdesc
 =
 "
@@ -202,7 +202,7 @@ entries
 ;
 try
 {
-var
+let
 entry1
 =
 [
@@ -268,7 +268,7 @@ next_test
 }
 )
 ;
-var
+let
 os
 =
 Cc

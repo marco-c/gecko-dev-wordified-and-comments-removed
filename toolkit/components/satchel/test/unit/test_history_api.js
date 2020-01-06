@@ -266,7 +266,7 @@ name
 value
 )
 {
-var
+let
 change
 =
 {
@@ -535,7 +535,7 @@ true
 ;
 try
 {
-var
+let
 testfile
 =
 do_get_file
@@ -547,7 +547,7 @@ sqlite
 "
 )
 ;
-var
+let
 profileDir
 =
 dirSvc
@@ -562,7 +562,7 @@ Ci
 nsIFile
 )
 ;
-var
+let
 destFile
 =
 profileDir
