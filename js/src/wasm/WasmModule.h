@@ -80,9 +80,6 @@ struct
 LinkDataTierCacheablePod
 {
 uint32_t
-functionCodeLength
-;
-uint32_t
 interruptOffset
 ;
 uint32_t

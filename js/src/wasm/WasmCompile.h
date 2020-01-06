@@ -131,6 +131,15 @@ CompileArgs
 >
 SharedCompileArgs
 ;
+double
+EstimateCompiledCodeSize
+(
+Tier
+tier
+size_t
+bytecodeSize
+)
+;
 SharedModule
 CompileInitialTier
 (

@@ -8710,6 +8710,7 @@ mg_
 .
 init
 (
+0
 asmJSMetadata_
 .
 get

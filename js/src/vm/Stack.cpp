@@ -9292,7 +9292,7 @@ code
 (
 )
 .
-containsFunctionPC
+containsCodePC
 (
 pc
 )
