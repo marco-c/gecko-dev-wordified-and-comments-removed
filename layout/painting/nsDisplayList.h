@@ -17478,7 +17478,7 @@ mScrollTarget
 (
 aOther
 .
-mFlags
+mScrollTarget
 )
 mThumbData
 (
