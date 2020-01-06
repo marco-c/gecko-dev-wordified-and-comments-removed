@@ -25,7 +25,16 @@ h
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "
