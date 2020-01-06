@@ -590,7 +590,7 @@ Unused
 mTransactionParent
 -
 >
-SendCancel
+SendAbort
 (
 aError
 )

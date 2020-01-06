@@ -299,7 +299,7 @@ ReplyBuffer
 )
 ;
 async
-Cancel
+Abort
 (
 nsresult
 Error
