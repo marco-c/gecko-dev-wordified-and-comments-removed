@@ -1268,6 +1268,7 @@ nsIIDNService
 gIDN
 ;
 static
+const
 char
 gHostLimitDigits
 [
@@ -1314,7 +1315,10 @@ endif
 ifdef
 MOZ_RUST_URLPARSE
 static
+Atomic
+<
 bool
+>
 gRustEnabled
 ;
 RefPtr
