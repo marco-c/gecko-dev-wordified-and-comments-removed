@@ -217,6 +217,13 @@ namespace
 mozilla
 :
 :
+pkix
+;
+using
+namespace
+mozilla
+:
+:
 psm
 ;
 extern
