@@ -281,6 +281,10 @@ defined
 (
 MOZ_ASAN
 )
+extern
+"
+C
+"
 void
 abort
 (
