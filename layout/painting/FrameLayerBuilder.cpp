@@ -16008,9 +16008,6 @@ mYScale
 )
 )
 ;
-if
-(
-!
 aMaskItem
 -
 >
@@ -16019,11 +16016,7 @@ PaintMask
 mBuilder
 maskCtx
 )
-)
-{
-return
 ;
-}
 RefPtr
 <
 ImageContainer
