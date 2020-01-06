@@ -2285,6 +2285,7 @@ key
 {
 stateKey
 }
+location
 )
 ;
 stashTakeURL
