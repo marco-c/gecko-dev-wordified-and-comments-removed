@@ -305,6 +305,15 @@ SurfaceFormat
 :
 R8G8B8X8
 :
+case
+gfx
+:
+:
+SurfaceFormat
+:
+:
+R8G8B8A8
+:
 return
 Some
 (
