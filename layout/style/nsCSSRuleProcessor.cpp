@@ -6041,10 +6041,6 @@ GetContentStateForVisitedHandling
 Element
 *
 aElement
-const
-TreeMatchContext
-&
-aTreeMatchContext
 nsRuleWalker
 :
 :
@@ -6055,17 +6051,18 @@ aIsRelevantLink
 )
 {
 EventStates
-contentState
+state
 =
-GetContentState
-(
 aElement
-aTreeMatchContext
+-
+>
+StyleState
+(
 )
 ;
 if
 (
-contentState
+state
 .
 HasAtLeastOneOfStates
 (
@@ -6091,7 +6088,7 @@ state
 "
 )
 ;
-contentState
+state
 &
 =
 ~
@@ -6117,7 +6114,7 @@ nsRuleWalker
 :
 eRelevantLinkUnvisited
 :
-contentState
+state
 |
 =
 NS_EVENT_STATE_UNVISITED
@@ -6130,7 +6127,7 @@ nsRuleWalker
 :
 eRelevantLinkVisited
 :
-contentState
+state
 |
 =
 NS_EVENT_STATE_VISITED
@@ -6143,7 +6140,7 @@ nsRuleWalker
 :
 eLinksVisitedOrUnvisited
 :
-contentState
+state
 |
 =
 NS_EVENT_STATE_UNVISITED
@@ -6156,7 +6153,7 @@ break
 }
 else
 {
-contentState
+state
 |
 =
 NS_EVENT_STATE_UNVISITED
@@ -6164,7 +6161,7 @@ NS_EVENT_STATE_UNVISITED
 }
 }
 return
-contentState
+state
 ;
 }
 struct
@@ -7390,7 +7387,6 @@ nsCSSRuleProcessor
 GetContentStateForVisitedHandling
 (
 aElement
-aTreeMatchContext
 aTreeMatchContext
 .
 VisitedHandling
