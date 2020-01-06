@@ -400,6 +400,8 @@ com
 /
 www
 /
+js
+/
 root
 /
 e
@@ -431,6 +433,8 @@ com
 /
 www
 /
+js
+/
 root
 /
 c
@@ -461,6 +465,8 @@ example
 com
 /
 www
+/
+js
 /
 root
 /
