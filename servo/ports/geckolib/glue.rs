@@ -2032,6 +2032,16 @@ assert_variant_east_asian_matches
 (
 )
 ;
+specified
+:
+:
+font
+:
+:
+assert_variant_ligatures_matches
+(
+)
+;
 unsafe
 {
 DUMMY_URL_DATA

@@ -1192,6 +1192,15 @@ specified
 :
 VariantEastAsian
 ;
+pub
+type
+FontVariantLigatures
+=
+specified
+:
+:
+VariantLigatures
+;
 #
 [
 derive
