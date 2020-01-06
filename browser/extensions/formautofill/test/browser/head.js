@@ -1626,6 +1626,7 @@ menubutton
 await
 sleep
 (
+2000
 )
 ;
 let
