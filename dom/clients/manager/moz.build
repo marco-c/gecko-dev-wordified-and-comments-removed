@@ -94,6 +94,11 @@ dom
 =
 [
 '
+ClientHandle
+.
+h
+'
+'
 ClientInfo
 .
 h
@@ -143,6 +148,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ClientHandle
+.
+cpp
+'
 '
 ClientHandleChild
 .

@@ -25,6 +25,9 @@ class
 ClientManagerService
 ;
 class
+ClientSourceParent
+;
+class
 ClientHandleParent
 final
 :
@@ -36,6 +39,10 @@ RefPtr
 ClientManagerService
 >
 mService
+;
+ClientSourceParent
+*
+mSource
 ;
 mozilla
 :
@@ -115,6 +122,13 @@ IPCClientInfo
 &
 aClientInfo
 )
+;
+ClientSourceParent
+*
+GetSource
+(
+)
+const
 ;
 }
 ;

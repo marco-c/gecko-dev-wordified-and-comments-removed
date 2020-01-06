@@ -228,6 +228,10 @@ mActor
 =
 nullptr
 ;
+mShutdown
+=
+true
+;
 }
 }
 ;
