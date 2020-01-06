@@ -722,6 +722,12 @@ Allow
 )
 ;
 case
+__NR_epoll_create1
+:
+case
+__NR_epoll_create
+:
+case
 __NR_epoll_wait
 :
 case
