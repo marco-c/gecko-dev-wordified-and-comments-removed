@@ -2556,16 +2556,6 @@ toolkit
 .
 telemetry
 .
-enabled
-'
-:
-False
-        
-'
-toolkit
-.
-telemetry
-.
 server
 '
 :
