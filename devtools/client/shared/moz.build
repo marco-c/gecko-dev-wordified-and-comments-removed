@@ -130,6 +130,9 @@ map
 vendor
 '
 '
+webpack
+'
+'
 widgets
 '
 ]
