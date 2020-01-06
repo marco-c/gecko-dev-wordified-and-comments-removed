@@ -90,13 +90,6 @@ frames
 actual
 .
 txt
--
--
-max
--
-frames
-=
-8
 script
 -
 max

@@ -1155,15 +1155,6 @@ frames
 8
 "
 [
-"
--
--
-max
--
-frames
-=
-8
-"
 jsonFile
 .
 path
