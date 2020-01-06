@@ -382,7 +382,7 @@ SetStart
 (
 nsINode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -392,7 +392,7 @@ SetEnd
 (
 nsINode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -426,7 +426,7 @@ CollapseTo
 (
 nsINode
 *
-aParent
+aContainer
 int32_t
 aOffset
 )
@@ -434,9 +434,9 @@ aOffset
 return
 SetStartAndEnd
 (
-aParent
+aContainer
 aOffset
-aParent
+aContainer
 aOffset
 )
 ;
@@ -683,7 +683,7 @@ ComparePoint
 (
 nsINode
 &
-aParent
+aContainer
 uint32_t
 aOffset
 ErrorResult
@@ -791,7 +791,7 @@ IsPointInRange
 (
 nsINode
 &
-aParent
+aContainer
 uint32_t
 aOffset
 ErrorResult

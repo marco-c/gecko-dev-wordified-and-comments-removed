@@ -11721,7 +11721,7 @@ CreateAndAddRange
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -11729,11 +11729,13 @@ aOffset
 if
 (
 !
-aParentNode
+aContainer
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 RefPtr
 <
 nsRange
@@ -11743,7 +11745,7 @@ range
 new
 nsRange
 (
-aParentNode
+aContainer
 )
 ;
 nsresult
@@ -11754,9 +11756,9 @@ range
 >
 SetStartAndEnd
 (
-aParentNode
+aContainer
 aOffset
-aParentNode
+aContainer
 aOffset
 +
 1

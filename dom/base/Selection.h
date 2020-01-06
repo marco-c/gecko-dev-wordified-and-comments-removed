@@ -438,7 +438,7 @@ Collapse
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -448,7 +448,7 @@ Extend
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
@@ -643,7 +643,7 @@ CollapseJS
 (
 nsINode
 *
-aNode
+aContainer
 uint32_t
 aOffset
 mozilla
@@ -681,7 +681,7 @@ ExtendJS
 (
 nsINode
 &
-aNode
+aContainer
 uint32_t
 aOffset
 mozilla
@@ -1085,12 +1085,9 @@ Collapse
 (
 nsINode
 &
-aNode
+aContainer
 uint32_t
 aOffset
-mozilla
-:
-:
 ErrorResult
 &
 aRv
@@ -1123,12 +1120,9 @@ Extend
 (
 nsINode
 &
-aNode
+aContainer
 uint32_t
 aOffset
-mozilla
-:
-:
 ErrorResult
 &
 aRv

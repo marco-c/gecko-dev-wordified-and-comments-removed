@@ -1492,7 +1492,7 @@ CreateAndAddRange
 (
 nsINode
 *
-aParentNode
+aContainer
 int32_t
 aOffset
 )
