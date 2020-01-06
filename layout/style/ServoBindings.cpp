@@ -2429,8 +2429,6 @@ ServoComputedValuesBorrowedOrNull
 aOldComputedValues
 ServoComputedValuesBorrowedOrNull
 aComputedValues
-ServoComputedValuesBorrowedOrNull
-aParentComputedValues
 UpdateAnimationsTasks
 aTasks
 )

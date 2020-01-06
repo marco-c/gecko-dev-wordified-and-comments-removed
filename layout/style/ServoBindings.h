@@ -1135,8 +1135,6 @@ ServoComputedValuesBorrowedOrNull
 aOldComputedValues
 ServoComputedValuesBorrowedOrNull
 aComputedValues
-ServoComputedValuesBorrowedOrNull
-aParentComputedValues
 mozilla
 :
 :
