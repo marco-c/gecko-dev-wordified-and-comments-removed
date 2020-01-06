@@ -1207,6 +1207,9 @@ mSharedContext
 (
 sharedContext
 )
+mSymbols
+{
+}
 mCaps
 (
 caps
@@ -1525,10 +1528,9 @@ trygl
 )
 {
 mSymbols
-.
-Zero
-(
-)
+=
+{
+}
 ;
 NS_WARNING
 (
@@ -13234,10 +13236,9 @@ teardown
 ;
 }
 mSymbols
-.
-Zero
-(
-)
+=
+{
+}
 ;
 }
 #
