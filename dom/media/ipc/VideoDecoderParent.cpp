@@ -1092,6 +1092,9 @@ texture
 SurfaceDescriptorGPUVideo
 (
 0
+null_t
+(
+)
 )
 video
 -
