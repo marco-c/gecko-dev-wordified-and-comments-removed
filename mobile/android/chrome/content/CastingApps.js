@@ -2757,6 +2757,9 @@ click
 important
 :
 true
+useTint
+:
+false
 }
 )
 ;
@@ -2811,6 +2814,9 @@ pageAction
 .
 click
 important
+:
+true
+useTint
 :
 true
 }

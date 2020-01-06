@@ -876,6 +876,7 @@ showPageAction
 (
 icon
 title
+useTint
 )
 =
 >
@@ -914,6 +915,9 @@ browser
 important
 :
 true
+useTint
+:
+useTint
 }
 )
 ;
@@ -965,6 +969,7 @@ readerView
 close
 "
 )
+false
 )
 ;
 UITelemetry
@@ -1031,6 +1036,7 @@ readerView
 enter
 "
 )
+true
 )
 ;
 UITelemetry
