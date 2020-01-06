@@ -357,6 +357,12 @@ aStream
 )
 ;
 }
+using
+FetchBody
+:
+:
+GetBody
+;
 static
 already_AddRefed
 <
