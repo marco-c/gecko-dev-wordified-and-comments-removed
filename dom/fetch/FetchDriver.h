@@ -264,10 +264,7 @@ nsIInterfaceRequestor
 public
 nsIThreadRetargetableStreamListener
 public
-AbortSignal
-:
-:
-Follower
+AbortFollower
 {
 public
 :
@@ -339,7 +336,7 @@ aWorkerScirpt
 ;
 }
 void
-Aborted
+Abort
 (
 )
 override

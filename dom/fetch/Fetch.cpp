@@ -460,10 +460,7 @@ AbortSignalProxy
 final
 :
 public
-AbortSignal
-:
-:
-Follower
+AbortFollower
 {
 RefPtr
 <
@@ -601,7 +598,7 @@ aSignal
 ;
 }
 void
-Aborted
+Abort
 (
 )
 override
@@ -5885,7 +5882,7 @@ Derived
 >
 :
 :
-Aborted
+Abort
 (
 )
 {
@@ -5950,7 +5947,7 @@ Request
 >
 :
 :
-Aborted
+Abort
 (
 )
 ;
@@ -5962,7 +5959,7 @@ Response
 >
 :
 :
-Aborted
+Abort
 (
 )
 ;

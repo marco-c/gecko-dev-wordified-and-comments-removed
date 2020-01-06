@@ -317,10 +317,7 @@ FetchBody
 public
 FetchStreamHolder
 public
-AbortSignal
-:
-:
-Follower
+AbortFollower
 {
 public
 :
@@ -553,7 +550,7 @@ const
 0
 ;
 void
-Aborted
+Abort
 (
 )
 override

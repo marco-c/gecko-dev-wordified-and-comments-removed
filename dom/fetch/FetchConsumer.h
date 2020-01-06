@@ -80,10 +80,7 @@ nsIObserver
 public
 nsSupportsWeakReference
 public
-AbortSignal
-:
-:
-Follower
+AbortFollower
 {
 public
 :
@@ -192,7 +189,7 @@ nullptr
 ;
 }
 void
-Aborted
+Abort
 (
 )
 override
