@@ -1,10 +1,4 @@
 use
-app_units
-:
-:
-Au
-;
-use
 euclid
 :
 :
@@ -16,7 +10,7 @@ TypedSideOffsets2D
 use
 {
 ColorF
-FontKey
+FontInstanceKey
 ImageKey
 LayoutPoint
 LayoutRect
@@ -540,11 +534,7 @@ TextDisplayItem
 pub
 font_key
 :
-FontKey
-pub
-size
-:
-Au
+FontInstanceKey
 pub
 color
 :
