@@ -195,7 +195,7 @@ info
 openPreferencesViaOpenPreferencesAPI
 (
 "
-applications
+general
 "
 {
 leaveOpen

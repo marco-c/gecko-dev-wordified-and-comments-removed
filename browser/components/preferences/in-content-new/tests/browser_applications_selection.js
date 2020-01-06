@@ -25,7 +25,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-applications
+paneGeneral
 "
 {
 leaveOpen
@@ -42,7 +42,7 @@ page
 opened
 on
 the
-applications
+paneGeneral
 pane
 .
 "
