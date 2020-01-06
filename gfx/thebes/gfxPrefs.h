@@ -4359,7 +4359,7 @@ LayersAllowImageLayers
 gfxPrefs
 :
 :
-OverrideBase_WebRendest
+OverrideBase_WebRender
 (
 )
 )
