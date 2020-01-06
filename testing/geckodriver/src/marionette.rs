@@ -4663,8 +4663,6 @@ let
 poll_interval
 =
 100
-*
-1000
 ;
 let
 poll_attempts
