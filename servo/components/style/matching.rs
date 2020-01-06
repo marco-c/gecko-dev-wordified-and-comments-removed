@@ -2996,7 +2996,7 @@ skip_applying_damage
 =
 restyle
 .
-damage_handled
+damage
 .
 contains
 (
@@ -3011,17 +3011,7 @@ reconstruct
 |
 restyle
 .
-damage
-.
-contains
-(
-RestyleDamage
-:
-:
-reconstruct
-(
-)
-)
+reconstructed_ancestor
 ;
 let
 difference
