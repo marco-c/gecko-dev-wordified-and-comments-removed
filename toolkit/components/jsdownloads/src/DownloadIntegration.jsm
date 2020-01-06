@@ -2534,7 +2534,7 @@ ex
 }
 gExternalProtocolService
 .
-loadUrl
+loadURI
 (
 NetUtil
 .
@@ -2681,7 +2681,7 @@ ex
 }
 gExternalProtocolService
 .
-loadUrl
+loadURI
 (
 NetUtil
 .

@@ -1804,7 +1804,7 @@ Ci
 nsIExternalProtocolService
 )
 .
-loadUrl
+loadURI
 (
 NetUtil
 .
@@ -1966,7 +1966,7 @@ Ci
 nsIExternalProtocolService
 )
 .
-loadUrl
+loadURI
 (
 NetUtil
 .

@@ -5302,7 +5302,7 @@ scheme
 {
 protocolSvc
 .
-loadUrl
+loadURI
 (
 uri
 )
