@@ -16014,15 +16014,6 @@ i
 ]
 =
 =
-NS_STYLE_BORDER_STYLE_DOUBLE
-|
-|
-mBorderStyles
-[
-i
-]
-=
-=
 NS_STYLE_BORDER_STYLE_DOTTED
 |
 |
