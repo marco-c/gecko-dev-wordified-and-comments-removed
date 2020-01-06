@@ -116,6 +116,15 @@ clearCache
 (
 )
 {
+if
+(
+SpecialPowers
+.
+isMainProcess
+(
+)
+)
+{
 SpecialPowers
 .
 Cc
@@ -150,6 +159,7 @@ clear
 (
 )
 ;
+}
 }
 /
 /
