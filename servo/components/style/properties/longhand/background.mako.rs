@@ -110,6 +110,9 @@ IntermediateColor
 complex_color
 =
 True
+allow_quirks
+=
+True
 )
 }
 {

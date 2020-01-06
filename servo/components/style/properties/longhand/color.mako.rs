@@ -108,6 +108,7 @@ specified
 :
 :
 {
+AllowQuirks
 Color
 CSSColor
 CSSRGBA
@@ -348,10 +349,14 @@ SpecifiedValue
 CSSColor
 :
 :
-parse
+parse_quirky
 (
 context
 input
+AllowQuirks
+:
+:
+Yes
 )
 .
 map

@@ -224,7 +224,7 @@ cssparser
 .
 13
 .
-3
+5
 "
 encoding
 =
@@ -284,6 +284,13 @@ optional
 =
 true
 }
+itoa
+=
+"
+0
+.
+3
+"
 html5ever
 =
 {
