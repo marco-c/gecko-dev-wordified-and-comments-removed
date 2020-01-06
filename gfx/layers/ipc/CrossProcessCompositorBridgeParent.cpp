@@ -1230,6 +1230,13 @@ CreateDestroyed
 (
 )
 ;
+parent
+-
+>
+AddRef
+(
+)
+;
 *
 aIdNamespace
 =
