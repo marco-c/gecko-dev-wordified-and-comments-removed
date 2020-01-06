@@ -19201,12 +19201,11 @@ nsIContent
 >
 selectedNode
 =
-startNode
+range
 -
 >
-GetChildAt
+GetChildAtStartOffset
 (
-startOffset
 )
 ;
 nsCOMPtr
