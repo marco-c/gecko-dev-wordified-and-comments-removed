@@ -502,6 +502,10 @@ aIdentifier
 bool
 *
 aSuccess
+nsCString
+*
+nsCString
+*
 )
 {
 return
