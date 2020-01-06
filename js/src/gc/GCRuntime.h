@@ -207,13 +207,6 @@ ChunkPool
 (
 )
 {
-MOZ_ASSERT
-(
-empty
-(
-)
-)
-;
 }
 bool
 empty
