@@ -1306,12 +1306,6 @@ layersGPUAccelerated
 16
 6
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 animate
@@ -1382,12 +1376,6 @@ html
 #
 subpixel
 AA
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 animate

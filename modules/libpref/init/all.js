@@ -10157,6 +10157,16 @@ pref
 "
 dom
 .
+disable_window_showModalDialog
+"
+true
+)
+;
+pref
+(
+"
+dom
+.
 allow_scripts_to_close_windows
 "
 false
@@ -43899,7 +43909,7 @@ false
 endif
 #
 ifdef
-RELEASE_OR_BETA
+RELEASE
 pref
 (
 "
@@ -43973,7 +43983,7 @@ mixed_content
 .
 hsts_priming_request_timeout
 "
-3000
+2000
 )
 ;
 pref
