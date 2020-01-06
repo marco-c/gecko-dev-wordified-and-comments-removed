@@ -5152,6 +5152,14 @@ callInfo
 )
 ;
 InliningResult
+inlineIsPackedArray
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineBailout
 (
 CallInfo

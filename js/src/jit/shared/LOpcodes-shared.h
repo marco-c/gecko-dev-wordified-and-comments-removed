@@ -2048,6 +2048,11 @@ FinishBoundFunctionInit
 \
 _
 (
+IsPackedArray
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \

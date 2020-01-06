@@ -533,6 +533,11 @@ _
 IntrinsicFinishBoundFunctionInit
 )
 \
+_
+(
+IntrinsicIsPackedArray
+)
+\
 \
 _
 (
