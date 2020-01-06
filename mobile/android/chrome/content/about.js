@@ -277,16 +277,13 @@ Services
 .
 prefs
 .
-getComplexValue
+getStringPref
 (
 "
 distribution
 .
 about
 "
-Ci
-.
-nsISupportsString
 )
 ;
 let
