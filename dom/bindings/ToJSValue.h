@@ -480,8 +480,9 @@ setObjectOrNull
 (
 aArgument
 .
-CallbackOrNull
+Callback
 (
+aCx
 )
 )
 ;
