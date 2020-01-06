@@ -12,6 +12,13 @@ DrawEventRecorder
 .
 h
 "
+#
+include
+"
+RecordedEventImpl
+.
+h
+"
 namespace
 mozilla
 {
