@@ -159,6 +159,9 @@ PopupNotifications
 "
 whereToOpenLink
 "
+"
+gBrowser
+"
 ]
 ;
 function
