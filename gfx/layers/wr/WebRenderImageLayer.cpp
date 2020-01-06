@@ -150,7 +150,7 @@ WebRenderLayer
 this
 )
 )
-mImageClientContainerType
+mImageClientTypeContainer
 (
 CompositableType
 :
@@ -260,7 +260,7 @@ GetImageClientType
 {
 if
 (
-mImageClientContainerType
+mImageClientTypeContainer
 !
 =
 CompositableType
@@ -270,7 +270,7 @@ UNKNOWN
 )
 {
 return
-mImageClientContainerType
+mImageClientTypeContainer
 ;
 }
 if
@@ -283,7 +283,7 @@ IsAsync
 )
 )
 {
-mImageClientContainerType
+mImageClientTypeContainer
 =
 CompositableType
 :
@@ -291,7 +291,7 @@ CompositableType
 IMAGE_BRIDGE
 ;
 return
-mImageClientContainerType
+mImageClientTypeContainer
 ;
 }
 AutoLockImage
@@ -300,7 +300,7 @@ autoLock
 mContainer
 )
 ;
-mImageClientContainerType
+mImageClientTypeContainer
 =
 autoLock
 .
@@ -319,7 +319,7 @@ CompositableType
 UNKNOWN
 ;
 return
-mImageClientContainerType
+mImageClientTypeContainer
 ;
 }
 already_AddRefed
