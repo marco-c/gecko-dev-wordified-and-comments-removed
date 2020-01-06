@@ -7906,6 +7906,10 @@ gen
 cacheKind
 (
 )
+BaselineCacheIRStubKind
+:
+:
+Regular
 engine
 script
 stub
@@ -11341,6 +11345,10 @@ gen
 cacheKind
 (
 )
+BaselineCacheIRStubKind
+:
+:
+Monitored
 ICStubEngine
 :
 :
@@ -11741,6 +11749,10 @@ gen
 cacheKind
 (
 )
+BaselineCacheIRStubKind
+:
+:
+Monitored
 ICStubEngine
 :
 :
