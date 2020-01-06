@@ -55,12 +55,6 @@ Policy
 >
 mCommonContentPolicy
 ;
-static
-bool
-IsSystemSupported
-(
-)
-;
 }
 ;
 }
