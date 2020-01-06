@@ -258,7 +258,7 @@ mBoxFlex
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 alias
 =
