@@ -88,6 +88,20 @@ gcc3
 ]
     
 "
+linux32
+"
+:
+[
+        
+"
+Linux_x86
+-
+gcc3
+"
+    
+]
+    
+"
 linux64
 "
 :
