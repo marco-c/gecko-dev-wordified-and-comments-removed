@@ -533,10 +533,6 @@ bool
 &
 cacheEntryAvailable
 const
-uint64_t
-&
-cacheEntryId
-const
 int32_t
 &
 cacheFetchCount
@@ -1263,9 +1259,6 @@ mIsFromCache
 bool
 mCacheEntryAvailable
 ;
-uint64_t
-mCacheEntryId
-;
 bool
 mAltDataCacheEntryAvailable
 ;
@@ -1465,10 +1458,6 @@ const
 bool
 &
 cacheEntryAvailable
-const
-uint64_t
-&
-cacheEntryId
 const
 int32_t
 &
