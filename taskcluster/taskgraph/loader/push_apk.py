@@ -194,5 +194,36 @@ build_platform
     
 ]
     
-return
+non_aarch64_tasks
+=
+[
+        
+task
+for
+task
+in
 android_tasks
+        
+if
+'
+aarch64
+'
+not
+in
+task
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+'
+'
+)
+    
+]
+    
+return
+non_aarch64_tasks
