@@ -206,6 +206,8 @@ CacheClientNotifyPrincipalChanged
 void
 CacheClientNotifySuspendedStatusChanged
 (
+bool
+aSuspended
 )
 ;
 void
@@ -581,11 +583,6 @@ int64_t
 aOffset
 bool
 aResume
-)
-;
-bool
-IsSuspendedByCache
-(
 )
 ;
 nsresult

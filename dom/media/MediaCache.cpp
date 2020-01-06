@@ -7237,6 +7237,12 @@ mClient
 >
 CacheClientNotifySuspendedStatusChanged
 (
+stream
+-
+>
+AreAllStreamsForResourceSuspended
+(
+)
 )
 ;
 }
