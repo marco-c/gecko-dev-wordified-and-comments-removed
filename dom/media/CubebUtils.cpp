@@ -481,14 +481,6 @@ AudioConfig
 CHANNEL_RRS
 )
 )
-#
-ifdef
-XP_LINUX
-#
-define
-MOZ_CUBEB_REMOTING
-#
-endif
 extern
 "
 C
