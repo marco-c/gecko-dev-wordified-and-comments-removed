@@ -462,12 +462,36 @@ cycle
 "
 "
         
+format_pagename
+=
+True
+        
+if
+not
+self
+.
+test_config
+[
+'
+format_pagename
+'
+]
+:
+            
+format_pagename
+=
+False
+        
 browserLog
 =
 BrowserLogResults
 (
             
 results
+            
+format_pagename
+=
+format_pagename
             
 counter_results
 =
@@ -910,6 +934,9 @@ string
 counter_results
 =
 None
+format_pagename
+=
+True
 )
 :
         
@@ -1265,6 +1292,9 @@ string
 counter_results
 =
 None
+format_pagename
+=
+True
 )
 :
         
@@ -1441,6 +1471,10 @@ r
 ]
 ]
             
+if
+format_pagename
+:
+                
 result
 [
 '
@@ -1757,6 +1791,9 @@ __init__
 (
 self
 results_raw
+format_pagename
+=
+True
 counter_results
 =
 None
@@ -1797,6 +1834,12 @@ self
 global_counters
 =
 global_counters
+        
+self
+.
+format_pagename
+=
+format_pagename
         
 self
 .
@@ -2329,6 +2372,12 @@ format
 self
 .
 browser_results
+                                         
+format_pagename
+=
+self
+.
+format_pagename
 )
     
 def
