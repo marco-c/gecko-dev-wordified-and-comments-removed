@@ -18483,6 +18483,13 @@ mItemId
 =
 itemId
 ;
+resultNode
+-
+>
+mBookmarkGuid
+=
+aBookmarkGuid
+;
 }
 }
 if
@@ -18524,6 +18531,13 @@ resultNode
 mItemId
 =
 itemId
+;
+resultNode
+-
+>
+mBookmarkGuid
+=
+aBookmarkGuid
 ;
 resultNode
 -
