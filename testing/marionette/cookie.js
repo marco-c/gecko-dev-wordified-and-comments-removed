@@ -839,7 +839,7 @@ expiry
 :
 cookie
 .
-expires
+expiry
 }
 ;
 }
