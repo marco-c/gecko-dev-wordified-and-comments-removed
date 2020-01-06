@@ -139,7 +139,7 @@ class
 AsyncCanvasRenderer
 ;
 class
-ShareableCanvasLayer
+ShareableCanvasRenderer
 ;
 class
 CompositableForwarder
@@ -161,7 +161,7 @@ public
 typedef
 MaybeOneOf
 <
-ShareableCanvasLayer
+ShareableCanvasRenderer
 *
 AsyncCanvasRenderer
 *
@@ -241,9 +241,9 @@ gfx
 :
 IntSize
 aSize
-ShareableCanvasLayer
+ShareableCanvasRenderer
 *
-aLayer
+aCanvasRenderer
 )
 =
 0
@@ -373,9 +373,9 @@ gfx
 :
 IntSize
 aSize
-ShareableCanvasLayer
+ShareableCanvasRenderer
 *
-aLayer
+aCanvasRenderer
 )
 override
 ;
@@ -443,9 +443,9 @@ IntSize
 aSize
 TextureFlags
 aFlags
-ShareableCanvasLayer
+ShareableCanvasRenderer
 *
-aLayer
+aCanvasRenderer
 )
 ;
 RefPtr
@@ -560,9 +560,9 @@ gfx
 :
 IntSize
 aSize
-ShareableCanvasLayer
+ShareableCanvasRenderer
 *
-aLayer
+aCanvasRenderer
 )
 override
 ;
@@ -660,9 +660,9 @@ gfx
 :
 IntSize
 aSize
-ShareableCanvasLayer
+ShareableCanvasRenderer
 *
-aLayer
+aCanvasRenderer
 )
 override
 {
