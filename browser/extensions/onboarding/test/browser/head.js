@@ -75,6 +75,13 @@ onboarding
 -
 tour
 -
+screenshots
+"
+"
+onboarding
+-
+tour
+-
 addons
 "
 "
@@ -112,6 +119,13 @@ onboarding
 tour
 -
 library
+"
+"
+onboarding
+-
+tour
+-
+screenshots
 "
 "
 onboarding
