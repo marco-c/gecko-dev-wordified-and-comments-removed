@@ -165,7 +165,7 @@ document
 [
 Constructor
 (
-DOMString
+USVString
 scriptURL
 )
 Func
@@ -236,7 +236,7 @@ AbstractWorker
 [
 Constructor
 (
-DOMString
+USVString
 scriptURL
 )
 Func

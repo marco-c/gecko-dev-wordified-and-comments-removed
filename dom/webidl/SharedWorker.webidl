@@ -94,7 +94,7 @@ MPL
 [
 Constructor
 (
-DOMString
+USVString
 scriptURL
 optional
 DOMString
