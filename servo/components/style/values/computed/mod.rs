@@ -456,7 +456,10 @@ super
 specified
 :
 :
+{
 BorderStyle
+TextDecorationLine
+}
 ;
 pub
 use
