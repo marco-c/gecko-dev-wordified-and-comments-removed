@@ -1455,6 +1455,15 @@ type
 number
 "
 }
+handlerUsed
+:
+{
+type
+:
+"
+boolean
+"
+}
 }
 }
 libraryVersions
