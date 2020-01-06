@@ -111,14 +111,6 @@ CONFIG
 MOZ_APP_MAXVERSION
 '
 ]
-DIRS
-+
-=
-[
-'
-locale
-'
-]
 FINAL_TARGET_PP_FILES
 .
 features
