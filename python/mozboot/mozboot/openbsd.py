@@ -51,10 +51,6 @@ autoconf
 '
             
 '
-cargo
-'
-            
-'
 gmake
 '
             
