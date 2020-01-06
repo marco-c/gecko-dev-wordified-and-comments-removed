@@ -152,6 +152,7 @@ update
 "
 )
 ;
+async
 function
 run_test
 (
@@ -405,7 +406,8 @@ maxVersion
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -890,12 +892,14 @@ check_test_1
 )
 ;
 }
+async
 function
 check_test_1
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1114,6 +1118,7 @@ run_test_2
 )
 ;
 }
+async
 function
 run_test_2
 (
@@ -1152,7 +1157,8 @@ remove
 true
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

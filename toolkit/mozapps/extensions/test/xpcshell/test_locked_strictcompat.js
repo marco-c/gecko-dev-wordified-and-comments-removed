@@ -780,7 +780,8 @@ theme2
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1544,7 +1545,8 @@ permissions
 0
 ;
 }
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -2072,7 +2074,8 @@ e
 )
 {
 }
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -2631,7 +2634,8 @@ permissions
 =
 filePermissions
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
