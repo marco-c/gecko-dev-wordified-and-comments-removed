@@ -222,15 +222,6 @@ aFailureReason
 =
 0
 ;
-virtual
-uint32_t
-GetVendorId
-(
-)
-const
-=
-0
-;
 protected
 :
 Mutex
