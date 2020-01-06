@@ -20318,12 +20318,12 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 offset
 )
 .
-Scale
+PreScale
 (
 scale
 scale
@@ -22565,7 +22565,7 @@ resize
 )
 initialTM
 .
-Scale
+PreScale
 (
 scale
 scale
@@ -22595,7 +22595,7 @@ AppUnitsPerDevPixel
 ;
 initialTM
 .
-Translate
+PreTranslate
 (
 surfaceOffset
 )
@@ -22699,7 +22699,7 @@ gfxMatrix
 initialTM
 )
 .
-Translate
+PreTranslate
 (
 rootOffset
 )
@@ -47716,7 +47716,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 devPixelOffset
 )
