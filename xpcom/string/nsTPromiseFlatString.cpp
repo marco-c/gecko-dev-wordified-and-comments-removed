@@ -19,7 +19,9 @@ IsTerminated
 )
 )
 {
-mData
+char_type
+*
+newData
 =
 const_cast
 <
@@ -42,7 +44,8 @@ Data
 )
 )
 ;
-mLength
+size_type
+newLength
 =
 str
 .
@@ -50,7 +53,8 @@ Length
 (
 )
 ;
-mDataFlags
+DataFlags
+newDataFlags
 =
 str
 .
@@ -68,6 +72,13 @@ DataFlags
 :
 :
 LITERAL
+)
+;
+SetData
+(
+newData
+newLength
+newDataFlags
 )
 ;
 }
