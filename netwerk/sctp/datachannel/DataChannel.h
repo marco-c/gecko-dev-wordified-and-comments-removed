@@ -445,9 +445,6 @@ mData
 }
 ;
 class
-DataChannelConnectionShutdown
-;
-class
 DataChannelConnection
 final
 :
@@ -575,11 +572,6 @@ struct
 socket
 *
 aSocket
-)
-;
-void
-DestroyOnSTSFinal
-(
 )
 ;
 void
@@ -893,10 +885,6 @@ private
 friend
 class
 DataChannelConnectRunnable
-;
-friend
-class
-DataChannelConnectionShutdown
 ;
 #
 ifdef
@@ -1526,12 +1514,6 @@ mPendingType
 ;
 nsCString
 mRecvBuffer
-;
-RefPtr
-<
-DataChannelConnectionShutdown
->
-mDelayedShutdown
 ;
 }
 ;
