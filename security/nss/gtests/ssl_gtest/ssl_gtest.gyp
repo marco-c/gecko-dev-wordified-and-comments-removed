@@ -129,6 +129,11 @@ ssl_agent_unittest
 cc
 '
 '
+ssl_alths_unittest
+.
+cc
+'
+'
 ssl_auth_unittest
 .
 cc

@@ -370,16 +370,11 @@ empty
 SSL3HelloRequest
 ;
 typedef
-struct
-{
 PRUint8
-rand
+SSL3Random
 [
 SSL3_RANDOM_LENGTH
 ]
-;
-}
-SSL3Random
 ;
 typedef
 struct
