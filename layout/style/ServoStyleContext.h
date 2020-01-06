@@ -111,17 +111,6 @@ visited_style
 mPtr
 ;
 }
-void
-UpdateWithElementState
-(
-dom
-:
-:
-Element
-*
-aElement
-)
-;
 inline
 void
 ResolveSameStructsAs
