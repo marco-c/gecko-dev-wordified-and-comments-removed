@@ -1480,10 +1480,6 @@ reftest
 no
 -
 accel
--
-mochitest
--
-webgl
 devtools
 -
 tests
