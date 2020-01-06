@@ -140,6 +140,14 @@ input
 padding
 '
     
+_input_size_id
+=
+'
+input
+-
+size
+'
+    
 _textarea_id
 =
 '
@@ -4224,7 +4232,7 @@ By
 ID
 self
 .
-_input_id
+_input_size_id
 )
         
 sel
@@ -4236,23 +4244,9 @@ el
         
 original_content
 =
-'
-aaaaaaaa
-bbbbbbbb
-'
-        
-el
+sel
 .
-clear
-(
-)
-        
-el
-.
-send_keys
-(
-original_content
-)
+content
         
 words
 =
@@ -4273,46 +4267,12 @@ el
 0
 )
         
-word1_x
-word1_y
-=
 self
 .
-word_location
+long_press_on_word
 (
 el
 1
-)
-        
-self
-.
-long_press_on_location
-(
-el
-word0_x
-word0_y
-)
-        
-self
-.
-assertEqual
-(
-words
-[
-0
-]
-sel
-.
-selected_content
-)
-        
-self
-.
-long_press_on_location
-(
-el
-word1_x
-word1_y
 )
         
 self
