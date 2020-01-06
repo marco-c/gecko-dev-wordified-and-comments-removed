@@ -3627,6 +3627,11 @@ GeckoView
 java
 '
 '
+GeckoVRManager
+.
+java
+'
+'
 gfx
 /
 BitmapUtils
