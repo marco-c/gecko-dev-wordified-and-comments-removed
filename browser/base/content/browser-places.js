@@ -487,7 +487,7 @@ _isNewBookmark
 if
 (
 !
-PlacesUtils
+PlacesUIUtils
 .
 useAsyncTransactions
 )
@@ -504,8 +504,6 @@ break
 ;
 }
 PlacesTransactions
-(
-)
 .
 undo
 (
