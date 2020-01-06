@@ -3122,9 +3122,6 @@ mHasBeforeUnload
 bool
 mIsReadyToHandleInputEvents
 ;
-bool
-mIsMouseEnterIntoWidgetEventSuppressed
-;
 public
 :
 static
