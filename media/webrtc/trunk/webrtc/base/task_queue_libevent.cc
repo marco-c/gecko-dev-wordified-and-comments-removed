@@ -1287,6 +1287,11 @@ tv
 milliseconds
 /
 1000
+static_cast
+<
+suseconds_t
+>
+(
 (
 milliseconds
 %
@@ -1294,6 +1299,7 @@ milliseconds
 )
 *
 1000
+)
 }
 ;
 event_add
