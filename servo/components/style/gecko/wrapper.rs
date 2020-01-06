@@ -5325,7 +5325,7 @@ parent
 match
 self
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -5365,7 +5365,7 @@ parent
 match
 parent
 .
-parent_element
+traversal_parent
 (
 )
 {
