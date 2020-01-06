@@ -349,6 +349,16 @@ basetemp
 "
 cache
                      
+"
+-
+p
+"
+"
+no
+:
+mozlog
+"
+                     
 path
 ]
                     
