@@ -32,15 +32,6 @@ WrapForJNI
 import
 org
 .
-mozilla
-.
-gecko
-.
-AppConstants
-;
-import
-org
-.
 json
 .
 JSONArray

@@ -44,15 +44,6 @@ annotation
 WrapForJNI
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-AppConstants
-;
-import
 android
 .
 media

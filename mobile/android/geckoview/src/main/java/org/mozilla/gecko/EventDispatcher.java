@@ -96,6 +96,15 @@ ThreadUtils
 import
 org
 .
+mozilla
+.
+geckoview
+.
+BuildConfig
+;
+import
+org
+.
 json
 .
 JSONException
@@ -619,7 +628,7 @@ listeners
 if
 (
 !
-AppConstants
+BuildConfig
 .
 RELEASE_OR_BETA
 &
@@ -699,7 +708,7 @@ events
 {
 if
 (
-AppConstants
+BuildConfig
 .
 RELEASE_OR_BETA
 )
@@ -874,7 +883,7 @@ listener
 &
 &
 !
-AppConstants
+BuildConfig
 .
 RELEASE_OR_BETA
 )

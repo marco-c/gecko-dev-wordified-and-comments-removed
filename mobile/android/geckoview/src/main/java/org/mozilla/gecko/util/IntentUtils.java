@@ -60,15 +60,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 mozglue
 .
 SafeIntent

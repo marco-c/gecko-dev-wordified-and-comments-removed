@@ -19,9 +19,9 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
-AppConstants
+BuildConfig
 ;
 import
 com
@@ -1373,7 +1373,7 @@ elapsedRealtimeUs
 {
 if
 (
-AppConstants
+BuildConfig
 .
 DEBUG_BUILD
 )
