@@ -14,11 +14,6 @@ globals
 :
 {
 "
-__LOCATION__
-"
-:
-false
-"
 arguments
 "
 :
