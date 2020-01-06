@@ -122,7 +122,7 @@ function
 gotoPref
 (
 "
-general
+privacy
 "
 )
 ;
