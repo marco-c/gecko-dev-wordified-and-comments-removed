@@ -7677,6 +7677,13 @@ java
 '
 widget
 /
+CheckableFadedSingleColorTextView
+.
+java
+'
+'
+widget
+/
 CheckableLinearLayout
 .
 java

@@ -252,7 +252,7 @@ gecko
 .
 widget
 .
-FadedSingleColorTextView
+CheckableFadedSingleColorTextView
 android
 :
 id
