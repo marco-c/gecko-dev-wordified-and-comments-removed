@@ -1437,7 +1437,7 @@ protection
 -
 content
 >
-label
+description
 {
 white
 -
@@ -2934,6 +2934,14 @@ permissions
 .
 svg
 )
+;
+padding
+-
+bottom
+:
+1
+.
+5em
 ;
 }
 #

@@ -756,7 +756,7 @@ flex
 "
 >
 <
-description
+label
 class
 =
 "
@@ -783,7 +783,7 @@ title
 /
 >
 <
-label
+description
 id
 =
 "
@@ -804,10 +804,10 @@ detectedBlocked3
 ;
 <
 /
-label
+description
 >
 <
-label
+description
 id
 =
 "
@@ -828,10 +828,10 @@ detectedNotBlocked3
 ;
 <
 /
-label
+description
 >
 <
-label
+description
 id
 =
 "
@@ -854,7 +854,7 @@ notDetected3
 ;
 <
 /
-label
+description
 >
 <
 button
