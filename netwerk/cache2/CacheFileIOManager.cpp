@@ -2614,13 +2614,7 @@ mTable
 .
 RemoveEntry
 (
-*
 entry
--
->
-Hash
-(
-)
 )
 ;
 }
