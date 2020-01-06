@@ -646,7 +646,7 @@ listener
 }
 ;
 return
-SingletonEventManager
+EventManager
 .
 call
 (
@@ -665,7 +665,7 @@ Object
 .
 create
 (
-SingletonEventManager
+EventManager
 .
 prototype
 )
@@ -737,7 +737,7 @@ webNavigation
 onTabReplaced
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

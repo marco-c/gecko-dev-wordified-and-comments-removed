@@ -679,7 +679,7 @@ listener
 }
 ;
 return
-SingletonEventManager
+EventManager
 .
 call
 (
@@ -698,7 +698,7 @@ Object
 .
 create
 (
-SingletonEventManager
+EventManager
 .
 prototype
 )

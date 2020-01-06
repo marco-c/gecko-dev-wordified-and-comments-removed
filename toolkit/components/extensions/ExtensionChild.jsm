@@ -223,11 +223,11 @@ ExtensionUtils
 ;
 const
 {
+EventManager
 LocalAPIImplementation
 LocaleData
 NoCloneSpreadArgs
 SchemaAPIInterface
-SingletonEventManager
 }
 =
 ExtensionCommon
@@ -614,7 +614,7 @@ json
 onDisconnect
 :
 new
-SingletonEventManager
+EventManager
 (
 this
 .
@@ -684,7 +684,7 @@ api
 onMessage
 :
 new
-SingletonEventManager
+EventManager
 (
 this
 .
@@ -1504,7 +1504,7 @@ filter
 {
 return
 new
-SingletonEventManager
+EventManager
 (
 this
 .
@@ -2033,7 +2033,7 @@ filter
 {
 return
 new
-SingletonEventManager
+EventManager
 (
 this
 .

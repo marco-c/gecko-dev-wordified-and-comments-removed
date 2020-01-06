@@ -2038,7 +2038,7 @@ breakpadId
 onRunning
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

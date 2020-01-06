@@ -410,7 +410,7 @@ detectionIntervalInSeconds
 onStateChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
