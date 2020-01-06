@@ -1229,6 +1229,9 @@ StyleRuleInclusion
 StyleGridTrackBreadth
 "
 "
+StyleOverscrollBehavior
+"
+"
 nsStyleImageType
 "
 "
