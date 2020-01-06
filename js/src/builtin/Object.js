@@ -598,14 +598,10 @@ IsObject
 attributes
 )
 )
-ThrowTypeError
+ThrowArgTypeNotObject
 (
-JSMSG_NOT_NONNULL_OBJECT
-DecompileArg
-(
-2
-obj
-)
+NOT_OBJECT_KIND_DESCRIPTOR
+attributes
 )
 ;
 var
