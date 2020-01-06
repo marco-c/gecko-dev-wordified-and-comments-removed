@@ -4604,6 +4604,11 @@ AnimationManager
 UpdateAnimations
 (
 result
+-
+>
+AsGecko
+(
+)
 aElementForAnimation
 )
 ;
@@ -4620,8 +4625,9 @@ EffectCompositor
 UpdateEffectProperties
 (
 result
-.
-get
+-
+>
+AsGecko
 (
 )
 aElementForAnimation

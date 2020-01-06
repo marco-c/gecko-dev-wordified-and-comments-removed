@@ -124,6 +124,12 @@ uint8_t
 struct
 NonOwningAnimationTarget
 ;
+class
+GeckoStyleContext
+;
+class
+ServoStyleContext
+;
 struct
 AnimationEventInfo
 {
@@ -912,7 +918,10 @@ OwningCSSAnimationPtrArray
 void
 UpdateAnimations
 (
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 mozilla
@@ -944,7 +953,10 @@ mozilla
 CSSPseudoElementType
 aPseudoType
 const
-ServoComputedValues
+mozilla
+:
+:
+ServoStyleContext
 *
 aComputedValues
 )

@@ -1337,7 +1337,7 @@ dom
 Element
 *
 aElement
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -1363,7 +1363,7 @@ Element
 *
 aElement
 const
-ServoComputedValues
+ServoStyleContext
 *
 aComputedValues
 )
@@ -3888,7 +3888,7 @@ dom
 Element
 *
 aElement
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -4247,9 +4247,9 @@ Element
 *
 aElement
 const
-ServoComputedValues
+ServoStyleContext
 *
-aComputedValues
+aStyleContext
 )
 {
 MOZ_ASSERT
@@ -4302,7 +4302,12 @@ GetComputedKeyframeValuesFor
 (
 aKeyframes
 aElement
-aComputedValues
+aStyleContext
+-
+>
+ComputedValues
+(
+)
 )
 ;
 }

@@ -12725,7 +12725,7 @@ aDocument
 static
 already_AddRefed
 <
-ServoComputedValues
+ServoStyleContext
 >
 GetFontStyleForServo
 (
@@ -12820,7 +12820,7 @@ AsServo
 ;
 RefPtr
 <
-ServoComputedValues
+ServoStyleContext
 >
 parentStyle
 ;
@@ -12860,6 +12860,7 @@ CSSPseudoElementType
 :
 :
 NotPseudo
+nullptr
 )
 ;
 }
@@ -12958,7 +12959,7 @@ destroyed
 ;
 RefPtr
 <
-ServoComputedValues
+ServoStyleContext
 >
 sc
 =
@@ -13190,7 +13191,7 @@ aDocument
 static
 already_AddRefed
 <
-ServoComputedValues
+ServoStyleContext
 >
 ResolveFilterStyleForServo
 (
@@ -13199,7 +13200,7 @@ nsAString
 &
 aFilterString
 const
-ServoComputedValues
+ServoStyleContext
 *
 aParentStyle
 nsIPresShell
@@ -13283,7 +13284,7 @@ AsServo
 ;
 RefPtr
 <
-ServoComputedValues
+ServoStyleContext
 >
 computedValues
 =
@@ -13501,7 +13502,7 @@ IsServo
 ;
 RefPtr
 <
-ServoComputedValues
+ServoStyleContext
 >
 parentStyle
 =
@@ -13528,7 +13529,7 @@ false
 }
 RefPtr
 <
-ServoComputedValues
+ServoStyleContext
 >
 computedValues
 =
@@ -13558,6 +13559,11 @@ effects
 Servo_GetStyleEffects
 (
 computedValues
+-
+>
+ComputedValues
+(
+)
 )
 ;
 aFilterChain
@@ -18134,7 +18140,7 @@ sc
 ;
 RefPtr
 <
-ServoComputedValues
+ServoStyleContext
 >
 computedValues
 ;
@@ -18187,6 +18193,11 @@ fontStyle
 Servo_GetStyleFont
 (
 computedValues
+-
+>
+ComputedValues
+(
+)
 )
 ;
 }
