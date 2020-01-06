@@ -409,10 +409,6 @@ invisibleToDebugger
 sharedGlobal
 :
 true
-sharedGlobalBlocklist
-:
-[
-]
 sandboxName
 :
 "
