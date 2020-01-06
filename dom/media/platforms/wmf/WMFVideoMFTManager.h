@@ -104,6 +104,8 @@ layers
 ImageContainer
 *
 aImageContainer
+float
+aFramerate
 bool
 aDXVAEnabled
 )
@@ -309,6 +311,8 @@ CanUseDXVA
 IMFMediaType
 *
 aType
+float
+aFramerate
 )
 ;
 already_AddRefed
@@ -449,6 +453,10 @@ Atomic
 bool
 >
 mAMDVP9InUse
+;
+const
+float
+mFramerate
 ;
 }
 ;

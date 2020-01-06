@@ -845,6 +845,8 @@ layers
 ImageContainer
 *
 aImageContainer
+float
+aFramerate
 bool
 aDXVAEnabled
 )
@@ -878,6 +880,10 @@ aKnowsCompositor
 mAMDVP9InUse
 (
 false
+)
+mFramerate
+(
+aFramerate
 )
 {
 MOZ_COUNT_CTOR
@@ -3642,6 +3648,7 @@ mUseHwAccel
 CanUseDXVA
 (
 outputType
+mFramerate
 )
 )
 {
@@ -4412,6 +4419,7 @@ IMFMediaType
 *
 mMediaType
 ;
+const
 float
 mFramerate
 ;
@@ -4429,6 +4437,8 @@ CanUseDXVA
 IMFMediaType
 *
 aType
+float
+aFramerate
 )
 {
 MOZ_ASSERT
@@ -4448,19 +4458,6 @@ return
 true
 ;
 }
-float
-framerate
-=
-1000000
-.
-0
-/
-mLastDuration
-.
-ToMicroseconds
-(
-)
-;
 RefPtr
 <
 SupportsConfigEvent
@@ -4472,7 +4469,7 @@ SupportsConfigEvent
 (
 mDXVA2Manager
 aType
-framerate
+aFramerate
 )
 ;
 if
