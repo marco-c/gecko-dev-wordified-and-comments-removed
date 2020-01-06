@@ -566,6 +566,14 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
+or
+not
+CONFIG
+[
+'
+MOZ_BUILD_APP
+'
+]
 :
 #
 These
