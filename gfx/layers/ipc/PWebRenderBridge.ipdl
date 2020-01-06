@@ -317,7 +317,7 @@ mozilla
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 from
 "
 mozilla
@@ -531,7 +531,7 @@ LayoutSize
 aContentSize
 ByteBuffer
 aDL
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 aDLDesc
 WebRenderScrollData
 aScrollData
@@ -560,7 +560,7 @@ LayoutSize
 aContentSize
 ByteBuffer
 aDL
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 aDLDesc
 WebRenderScrollData
 aScrollData

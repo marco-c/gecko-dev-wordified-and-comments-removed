@@ -252,7 +252,7 @@ content_size
 wr
 :
 :
-WrBuiltDisplayListDescriptor
+BuiltDisplayListDescriptor
 dl_descriptor
 uint8_t
 *
@@ -484,7 +484,7 @@ WebRenderAPI
 wr
 :
 :
-WrAPI
+RenderApi
 *
 aRawApi
 wr
@@ -498,7 +498,7 @@ bool
 aUseANGLE
 )
 :
-mWrApi
+mRenderApi
 (
 aRawApi
 )
@@ -529,9 +529,9 @@ WaitFlushed
 wr
 :
 :
-WrAPI
+RenderApi
 *
-mWrApi
+mRenderApi
 ;
 wr
 :
@@ -653,13 +653,13 @@ aTransform
 wr
 :
 :
-WrTransformStyle
+TransformStyle
 aTransformStyle
 const
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 &
 aMixBlendMode
 const
@@ -1450,7 +1450,7 @@ const
 wr
 :
 :
-WrBoxShadowClipMode
+BoxShadowClipMode
 &
 aClipMode
 )
@@ -1570,9 +1570,9 @@ Maybe
 wr
 :
 :
-WrImageFormat
+ImageFormat
 >
-SurfaceFormatToWrImageFormat
+SurfaceFormatToImageFormat
 (
 gfx
 :

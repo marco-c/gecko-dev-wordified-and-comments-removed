@@ -289,14 +289,14 @@ const
 wr
 :
 :
-WrImageRendering
+ImageRendering
 &
 aFilter
 const
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 &
 aMixBlendMode
 )

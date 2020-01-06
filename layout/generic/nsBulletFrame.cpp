@@ -2160,7 +2160,7 @@ dest
 wr
 :
 :
-WrImageRendering
+ImageRendering
 :
 :
 Auto

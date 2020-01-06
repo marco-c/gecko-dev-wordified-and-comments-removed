@@ -484,7 +484,7 @@ mozilla
 wr
 :
 :
-WrImageFormatToSurfaceFormat
+ImageFormatToSurfaceFormat
 (
 aFormat
 )

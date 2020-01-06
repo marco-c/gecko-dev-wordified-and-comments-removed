@@ -635,13 +635,13 @@ Bounds
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 mixBlendMode
 =
 wr
 :
 :
-ToWrMixBlendMode
+ToMixBlendMode
 (
 GetLayer
 (

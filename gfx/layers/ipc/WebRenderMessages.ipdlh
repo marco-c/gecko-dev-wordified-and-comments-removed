@@ -140,7 +140,7 @@ mozilla
 wr
 :
 :
-WrImageRendering
+ImageRendering
 from
 "
 mozilla
@@ -159,7 +159,7 @@ mozilla
 wr
 :
 :
-WrMixBlendMode
+MixBlendMode
 from
 "
 mozilla
@@ -396,10 +396,10 @@ scTransform
 MaybeIntSize
 scaleToSize
 ;
-WrImageRendering
+ImageRendering
 filter
 ;
-WrMixBlendMode
+MixBlendMode
 mixBlendMode
 ;
 }
