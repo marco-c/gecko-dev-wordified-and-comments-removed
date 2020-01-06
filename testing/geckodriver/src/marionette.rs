@@ -3,6 +3,12 @@ serialize
 :
 :
 json
+;
+use
+serialize
+:
+:
+json
 :
 :
 {
@@ -11,19 +17,13 @@ ToJson
 }
 ;
 use
-serialize
-:
-:
-json
-;
-use
 std
 :
 :
 collections
 :
 :
-TreeMap
+BTreeMap
 ;
 use
 std
@@ -167,7 +167,7 @@ str
 >
 WebDriverResult
 <
-TreeMap
+BTreeMap
 <
 String
 Json
@@ -368,7 +368,7 @@ WebDriverMessage
 resp
 :
 &
-TreeMap
+BTreeMap
 <
 String
 Json
@@ -618,7 +618,7 @@ Unknown
 error
 "
 .
-into_string
+to_string
 (
 )
 )
@@ -1431,7 +1431,7 @@ string
 "
 )
 .
-into_string
+to_string
 (
 )
 ;
@@ -1482,7 +1482,7 @@ string
 "
 )
 .
-into_string
+to_string
 (
 )
 ;
@@ -1550,7 +1550,7 @@ String
 )
 )
 .
-into_string
+to_string
 (
 )
 )
@@ -1622,7 +1622,7 @@ String
 )
 )
 .
-into_string
+to_string
 (
 )
 )
@@ -1950,7 +1950,7 @@ string
 "
 )
 .
-into_string
+to_string
 (
 )
 ;
@@ -2012,7 +2012,7 @@ NewSessionResponse
 new
 (
 session_id
-json
+Json
 :
 :
 Object
@@ -2317,7 +2317,7 @@ let
 mut
 msg
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -2790,7 +2790,7 @@ let
 mut
 bytes
 =
-0u
+0us
 ;
 loop
 {
@@ -2837,13 +2837,13 @@ bytes
 =
 byte
 as
-uint
+usize
 -
 '
 0
 '
 as
-uint
+usize
 ;
 }
 '
@@ -3316,7 +3316,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -3397,7 +3397,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -3639,7 +3639,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -3891,7 +3891,7 @@ Json
 :
 Object
 (
-TreeMap
+BTreeMap
 :
 :
 new
@@ -3906,7 +3906,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -3986,7 +3986,7 @@ None
 ;
 Ok
 (
-json
+Json
 :
 :
 Object
@@ -4158,7 +4158,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -4191,7 +4191,7 @@ to_marionette
 ;
 Ok
 (
-json
+Json
 :
 :
 Object
@@ -4279,7 +4279,7 @@ let
 mut
 cookie
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -4490,7 +4490,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -4505,7 +4505,7 @@ insert
 cookie
 "
 .
-into_string
+to_string
 (
 )
 Json
@@ -4519,7 +4519,7 @@ cookie
 ;
 Ok
 (
-json
+Json
 :
 :
 Object
@@ -4551,7 +4551,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -4605,7 +4605,7 @@ insert
 element
 "
 .
-into_string
+to_string
 (
 )
 element
@@ -4645,7 +4645,7 @@ let
 mut
 data
 =
-TreeMap
+BTreeMap
 :
 :
 new
@@ -4674,7 +4674,7 @@ to_json
 ;
 Ok
 (
-json
+Json
 :
 :
 Object
