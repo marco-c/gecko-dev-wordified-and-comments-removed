@@ -409,6 +409,7 @@ private
 :
 HRTFDatabaseLoader
 *
+MOZ_OWNING_REF
 mLoader
 ;
 }

@@ -2383,12 +2383,15 @@ mChannels
 float
 mDopplerShift
 ;
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 AudioNodeStream
 *
+MOZ_NON_OWNING_REF
 mSource
 ;
 AudioParamTimeline

@@ -531,6 +531,7 @@ amount
 }
 AudioNode
 *
+MOZ_NON_OWNING_REF
 mInputNode
 ;
 RefPtr

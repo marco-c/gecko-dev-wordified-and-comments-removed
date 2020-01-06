@@ -485,10 +485,13 @@ aMallocSizeOf
 }
 AudioNodeStream
 *
+MOZ_NON_OWNING_REF
 mSource
 ;
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 StreamTime

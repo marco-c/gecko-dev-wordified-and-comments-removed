@@ -1392,8 +1392,10 @@ aMallocSizeOf
 )
 ;
 }
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 nsAutoPtr

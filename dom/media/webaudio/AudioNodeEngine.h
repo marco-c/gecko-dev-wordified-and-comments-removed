@@ -1210,6 +1210,7 @@ dom
 :
 AudioNode
 *
+MOZ_NON_OWNING_REF
 mNode
 ;
 const

@@ -810,8 +810,10 @@ aMallocSizeOf
 )
 ;
 }
+RefPtr
+<
 AudioNodeStream
-*
+>
 mDestination
 ;
 AudioParamTimeline
