@@ -13249,13 +13249,7 @@ __func__
 }
 }
 return
-MediaDecoderReader
-:
-:
-ResetDecode
-(
-aTracks
-)
+NS_OK
 ;
 }
 void

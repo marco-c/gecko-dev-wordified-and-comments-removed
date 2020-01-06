@@ -509,6 +509,8 @@ TrackInfo
 kVideoTrack
 )
 )
+=
+0
 ;
 virtual
 RefPtr
@@ -612,12 +614,6 @@ aProxy
 =
 0
 ;
-void
-SetIgnoreAudioOutputFormat
-(
-)
-{
-}
 virtual
 bool
 UseBufferingHeuristics

@@ -986,13 +986,6 @@ OwnerThread
 mDecoderReader
 -
 >
-SetIgnoreAudioOutputFormat
-(
-)
-;
-mDecoderReader
--
->
 AsyncReadMetadata
 (
 )
