@@ -714,7 +714,7 @@ NativeFontResourceNotFound
 "
 Failed
 to
-creative
+create
 NativeFontResource
 for
 FontKey
