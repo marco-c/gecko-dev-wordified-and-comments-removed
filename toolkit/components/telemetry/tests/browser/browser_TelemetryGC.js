@@ -191,7 +191,7 @@ gc
 length
 <
 =
-30
+24
 "
 number
 of
