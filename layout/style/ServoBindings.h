@@ -1232,6 +1232,11 @@ BeforeFlag
 aBeforeFlag
 )
 ;
+bool
+Gecko_IsFramesTimingEnabled
+(
+)
+;
 RawServoAnimationValueBorrowedOrNull
 Gecko_AnimationGetBaseStyle
 (
