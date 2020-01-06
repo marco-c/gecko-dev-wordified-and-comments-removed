@@ -1647,6 +1647,13 @@ styleSheetIndex
 this
 .
 styleSheetIndex
+sourceMapURL
+:
+this
+.
+rawSheet
+.
+sourceMapURL
 }
 ;
 try
