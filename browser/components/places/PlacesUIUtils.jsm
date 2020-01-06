@@ -1142,13 +1142,6 @@ currentURI
 =
 browser
 ;
-this
-.
-removeRequestsForInner
-(
-innerWindowID
-)
-;
 let
 loadType
 =
