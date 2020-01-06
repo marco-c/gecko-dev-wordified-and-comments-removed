@@ -300,7 +300,6 @@ mBitDepth
 =
 bitDepth
 ;
-}
 RefPtr
 <
 PDMFactory
@@ -329,6 +328,7 @@ nullptr
 return
 false
 ;
+}
 }
 continue
 ;
