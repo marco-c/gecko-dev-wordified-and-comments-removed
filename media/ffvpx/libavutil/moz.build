@@ -336,6 +336,14 @@ CONFIG
 REALTIME_LIBS
 '
 ]
+OS_LIBS
++
+=
+[
+'
+m
+'
+]
 include
 (
 "

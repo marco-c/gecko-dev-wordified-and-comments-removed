@@ -360,6 +360,14 @@ USE_LIBS
 mozavutil
 '
 ]
+OS_LIBS
++
+=
+[
+'
+m
+'
+]
 include
 (
 "
