@@ -979,7 +979,7 @@ gCSSLoader_Servo
 =
 nullptr
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 !
 gStyleCache_Gecko
@@ -1000,7 +1000,7 @@ Gecko
 "
 )
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 !
 gStyleCache_Servo
