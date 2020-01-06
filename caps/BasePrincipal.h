@@ -327,15 +327,6 @@ aIsInIsolatedMozBrowserElement
 final
 ;
 NS_IMETHOD
-GetUnknownAppId
-(
-bool
-*
-aUnknownAppId
-)
-final
-;
-NS_IMETHOD
 GetUserContextId
 (
 uint32_t

@@ -467,14 +467,6 @@ principal
 GetIsNullPrincipal
 (
 )
-|
-|
-principal
--
->
-GetUnknownAppId
-(
-)
 )
 )
 {
