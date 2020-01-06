@@ -864,7 +864,6 @@ VISIBILITY
 :
 [
 ]
-}
 #
 XXX
 :
@@ -875,10 +874,12 @@ these
 warnings
 .
 '
-ALLOW_COMPILER_WARNINGS
+WARNINGS_AS_ERRORS
 '
 :
-True
+[
+]
+}
 #
 NSS
 '

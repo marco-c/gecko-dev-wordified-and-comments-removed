@@ -130,9 +130,9 @@ webrtc
 mozbuild
 '
 )
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 DEFINES
 [
 '

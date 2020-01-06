@@ -157,9 +157,9 @@ warnings
 and
 remove
 this
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 DEFINES
 [
 '

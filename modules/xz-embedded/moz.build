@@ -158,9 +158,9 @@ xz_dec_stream
 c
 '
 ]
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 if
 CONFIG
 [

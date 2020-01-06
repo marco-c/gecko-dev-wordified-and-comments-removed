@@ -156,9 +156,9 @@ updated
 from
 upstream
 .
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 FINAL_LIBRARY
 =
 '

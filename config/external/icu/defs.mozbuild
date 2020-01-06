@@ -241,9 +241,9 @@ GR
 DisableStlWrapping
 (
 )
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 #
 We
 allow

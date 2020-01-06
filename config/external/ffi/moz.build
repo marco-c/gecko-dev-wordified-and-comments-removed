@@ -109,9 +109,9 @@ MOZ_FFI_LIBS
 ]
 else
 :
-ALLOW_COMPILER_WARNINGS
-=
-True
+AllowCompilerWarnings
+(
+)
 NoVisibilityFlags
 (
 )
