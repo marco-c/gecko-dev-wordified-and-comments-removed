@@ -547,7 +547,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_INTERNAL_STYLESHEET
+TYPE_OTHER
 window
 :
 this
