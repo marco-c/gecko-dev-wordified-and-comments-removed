@@ -1282,12 +1282,6 @@ line
 )
 endif
 #
-Windows
-equivalents
-clobber
-:
-clean
-#
 helper
 target
 for
@@ -2489,8 +2483,6 @@ PHONY
 :
 \
 build
-\
-clobber
 \
 configure
 \
