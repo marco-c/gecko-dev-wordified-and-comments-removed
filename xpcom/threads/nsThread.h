@@ -272,6 +272,14 @@ bool
 aReallyWait
 )
 ;
+mozilla
+:
+:
+TimeStamp
+GetIdleDeadline
+(
+)
+;
 void
 GetIdleEvent
 (
@@ -910,6 +918,9 @@ mLastUnlabeledRunnable
 ;
 bool
 mCanInvokeJS
+;
+bool
+mHasPendingEventsPromisedIdleEvent
 ;
 }
 ;
