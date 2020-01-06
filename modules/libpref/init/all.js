@@ -29074,7 +29074,7 @@ ms_japanese_ime
 .
 do_not_associate_imc_on_win10
 "
-true
+false
 )
 ;
 pref
@@ -44518,6 +44518,9 @@ false
 endif
 #
 endif
+#
+ifdef
+RELEASE
 pref
 (
 "
@@ -44543,8 +44546,7 @@ false
 )
 ;
 #
-ifdef
-EARLY_BETA_OR_EARLIER
+else
 pref
 (
 "
