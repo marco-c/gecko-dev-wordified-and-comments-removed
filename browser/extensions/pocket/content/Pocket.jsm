@@ -247,6 +247,11 @@ button
 "
 )
 ;
+if
+(
+libraryButton
+)
+{
 BrowserUtils
 .
 setToolbarButtonHeightProperty
@@ -254,6 +259,7 @@ setToolbarButtonHeightProperty
 libraryButton
 )
 ;
+}
 let
 urlToSave
 =
