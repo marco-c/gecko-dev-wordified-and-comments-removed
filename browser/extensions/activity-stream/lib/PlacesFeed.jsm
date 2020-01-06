@@ -922,6 +922,11 @@ addBookmark
 action
 .
 data
+action
+.
+_target
+.
+browser
 )
 ;
 break
