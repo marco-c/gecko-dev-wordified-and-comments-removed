@@ -4927,6 +4927,7 @@ timeouts
 pageLoad
 }
 )
+;
 this
 .
 curBrowser
@@ -5165,6 +5166,7 @@ String
 )
 ;
 }
+;
 GeckoDriver
 .
 prototype
@@ -5253,6 +5255,7 @@ String
 )
 ;
 }
+;
 GeckoDriver
 .
 prototype
@@ -5312,6 +5315,7 @@ assert
 firefox
 (
 )
+;
 const
 win
 =
@@ -12182,6 +12186,7 @@ parameters
 value
 ;
 }
+;
 GeckoDriver
 .
 prototype
@@ -12250,6 +12255,7 @@ assert
 firefox
 (
 )
+;
 let
 quitSeen
 ;
@@ -12454,6 +12460,7 @@ assert
 firefox
 (
 )
+;
 let
 path
 =
@@ -12538,6 +12545,7 @@ assert
 firefox
 (
 )
+;
 let
 id
 =
@@ -13025,6 +13033,7 @@ id
 )
 ;
 }
+;
 GeckoDriver
 .
 prototype
@@ -13122,6 +13131,7 @@ id
 )
 ;
 }
+;
 GeckoDriver
 .
 prototype

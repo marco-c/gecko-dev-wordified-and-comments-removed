@@ -1649,6 +1649,7 @@ nsITimer
 .
 TYPE_ONE_SHOT
 )
+;
 }
 else
 if
@@ -2040,6 +2041,7 @@ command_id
 ;
 }
 }
+;
 function
 registerSelf
 (

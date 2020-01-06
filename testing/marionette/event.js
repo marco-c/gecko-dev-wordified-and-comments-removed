@@ -2800,6 +2800,7 @@ symbolLockKey
 }
 ]
 }
+;
 for
 (
 let

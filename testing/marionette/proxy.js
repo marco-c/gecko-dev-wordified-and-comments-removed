@@ -541,6 +541,7 @@ break
 ;
 }
 }
+;
 this
 .
 dialogueObserver_

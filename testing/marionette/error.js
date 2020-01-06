@@ -831,6 +831,7 @@ stack
 "
 "
 }
+;
 }
 static
 fromJSON
