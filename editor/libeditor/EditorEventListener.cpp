@@ -4953,6 +4953,7 @@ GetPresContext
 (
 )
 focusedContent
+*
 editorBase
 )
 ;

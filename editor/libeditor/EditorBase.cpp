@@ -1504,6 +1504,7 @@ IMEStateManager
 :
 OnEditorInitialized
 (
+*
 this
 )
 ;
@@ -1927,6 +1928,7 @@ IMEStateManager
 :
 OnEditorDestroying
 (
+*
 this
 )
 ;
