@@ -75,7 +75,7 @@ Pointer
 )
 ToShortString
 (
-mClass
+mCategory
 )
 mLabel
 )
@@ -167,7 +167,7 @@ s
 "
 ToShortString
 (
-mClass
+mCategory
 )
 mLabel
 )

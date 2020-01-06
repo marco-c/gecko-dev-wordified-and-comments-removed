@@ -14,7 +14,7 @@ h
 #
 include
 "
-DDLogClass
+DDLogCategory
 .
 h
 "
@@ -135,8 +135,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -151,7 +151,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-aClass
+aCategory
 aLabel
 DDLogValue
 {
@@ -181,8 +181,8 @@ const
 Subject
 *
 aSubject
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -205,7 +205,7 @@ Name
 (
 )
 aSubject
-aClass
+aCategory
 aLabel
 Forward
 <
@@ -234,8 +234,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -255,7 +255,7 @@ EagerLogValue
 (
 aSubjectTypeName
 aSubjectPointer
-aClass
+aCategory
 aLabel
 static_cast
 <
@@ -284,8 +284,8 @@ const
 Subject
 *
 aSubject
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -304,7 +304,7 @@ N
 EagerLogValue
 (
 aSubject
-aClass
+aCategory
 aLabel
 static_cast
 <
@@ -335,8 +335,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -356,7 +356,7 @@ EagerLogValue
 (
 aSubjectTypeName
 aSubjectPointer
-aClass
+aCategory
 aLabel
 static_cast
 <
@@ -385,8 +385,8 @@ const
 Subject
 *
 aSubject
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -405,7 +405,7 @@ N
 EagerLogValue
 (
 aSubject
-aClass
+aCategory
 aLabel
 static_cast
 <
@@ -439,8 +439,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -462,7 +462,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-aClass
+aCategory
 aLabel
 DDLogValue
 {
@@ -505,8 +505,8 @@ const
 Subject
 *
 aSubject
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -536,7 +536,7 @@ Name
 (
 )
 aSubject
-aClass
+aCategory
 aLabel
 aFormat
 Forward
@@ -570,7 +570,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-DDLogClass
+DDLogCategory
 :
 :
 _Construction
@@ -611,7 +611,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-DDLogClass
+DDLogCategory
 :
 :
 _DerivedConstruction
@@ -655,7 +655,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-DDLogClass
+DDLogCategory
 :
 :
 _DerivedConstruction
@@ -727,7 +727,7 @@ Name
 (
 )
 aSubject
-DDLogClass
+DDLogCategory
 :
 :
 _Construction
@@ -756,7 +756,7 @@ Name
 (
 )
 aSubject
-DDLogClass
+DDLogCategory
 :
 :
 _DerivedConstruction
@@ -816,7 +816,7 @@ Log
 (
 aSubjectTypeName
 aSubjectPointer
-DDLogClass
+DDLogCategory
 :
 :
 _Destruction
@@ -858,7 +858,7 @@ Name
 (
 )
 aSubject
-DDLogClass
+DDLogCategory
 :
 :
 _Destruction
@@ -915,7 +915,7 @@ Name
 (
 )
 aParent
-DDLogClass
+DDLogCategory
 :
 :
 _Link
@@ -976,7 +976,7 @@ Log
 (
 aParentTypeName
 aParentPointer
-DDLogClass
+DDLogCategory
 :
 :
 _Link
@@ -1045,7 +1045,7 @@ Name
 (
 )
 aParent
-DDLogClass
+DDLogCategory
 :
 :
 _Link
@@ -1094,7 +1094,7 @@ Log
 (
 aParentTypeName
 aParentPointer
-DDLogClass
+DDLogCategory
 :
 :
 _Unlink
@@ -1158,7 +1158,7 @@ Name
 (
 )
 aParent
-DDLogClass
+DDLogCategory
 :
 :
 _Unlink
@@ -1248,8 +1248,8 @@ const
 void
 *
 aSubjectPointer
-DDLogClass
-aClass
+DDLogCategory
+aCategory
 const
 char
 *
@@ -1367,7 +1367,7 @@ this
 define
 DDLOG
 (
-_class
+_category
 _label
 _arg
 )
@@ -1392,7 +1392,7 @@ DecoderDoctorLogger
 EagerLogValue
 (
 this
-_class
+_category
 _label
 _arg
 )
@@ -1410,7 +1410,7 @@ define
 DDLOGEX
 (
 _this
-_class
+_category
 _label
 _arg
 )
@@ -1435,7 +1435,7 @@ DecoderDoctorLogger
 EagerLogValue
 (
 _this
-_class
+_category
 _label
 _arg
 )
@@ -1454,7 +1454,7 @@ DDLOGEX2
 (
 _typename
 _this
-_class
+_category
 _label
 _arg
 )
@@ -1481,7 +1481,7 @@ EagerLogValue
 \
 _typename
 _this
-_class
+_category
 _label
 _arg
 )
@@ -1547,7 +1547,7 @@ endif
 define
 DDLOGPR
 (
-_class
+_category
 _label
 _format
 .
@@ -1583,7 +1583,7 @@ EagerLogPrintf
 (
 \
 this
-_class
+_category
 _label
 _format
 __VA_ARGS__

@@ -7,7 +7,7 @@ DDLogMessage_h_
 #
 include
 "
-DDLogClass
+DDLogCategory
 .
 h
 "
@@ -73,8 +73,8 @@ mTimeStamp
 DDLogObject
 mObject
 ;
-DDLogClass
-mClass
+DDLogCategory
+mCategory
 ;
 const
 char

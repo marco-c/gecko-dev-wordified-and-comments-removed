@@ -1,7 +1,7 @@
 #
 include
 "
-DDLogClass
+DDLogCategory
 .
 h
 "
@@ -12,9 +12,9 @@ const
 char
 *
 const
-kDDLogClassShortStrings
+kDDLogCategoryShortStrings
 [
-kDDLogClassCount
+kDDLogCategoryCount
 ]
 =
 {
@@ -51,9 +51,9 @@ const
 char
 *
 const
-kDDLogClassLongStrings
+kDDLogCategoryLongStrings
 [
-kDDLogClassCount
+kDDLogCategoryCount
 ]
 =
 {
