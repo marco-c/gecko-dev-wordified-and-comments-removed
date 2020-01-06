@@ -1300,9 +1300,9 @@ GetFullPrefName
 aPrefName
 )
 ;
-nsAutoString
+nsAdoptingString
 oldValue
-;
+=
 Preferences
 :
 :
@@ -1313,7 +1313,6 @@ pref
 c_str
 (
 )
-oldValue
 )
 ;
 if

@@ -584,9 +584,9 @@ variable
 langGroup
 )
 ;
-nsAutoString
+nsAdoptingString
 value
-;
+=
 Preferences
 :
 :
@@ -597,7 +597,6 @@ pref
 get
 (
 )
-value
 )
 ;
 if
@@ -677,6 +676,8 @@ default
 langGroup
 )
 ;
+value
+=
 Preferences
 :
 :
@@ -687,7 +688,6 @@ pref
 get
 (
 )
-value
 )
 ;
 if
