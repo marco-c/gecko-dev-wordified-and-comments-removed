@@ -356,12 +356,6 @@ gfx
 Matrix4x4
 mTransform
 ;
-float
-mXScale
-;
-float
-mYScale
-;
 }
 ;
 }
