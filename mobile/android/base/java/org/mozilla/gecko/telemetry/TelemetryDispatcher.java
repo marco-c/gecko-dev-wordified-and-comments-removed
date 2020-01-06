@@ -226,7 +226,7 @@ final
 Context
 context
 final
-TelemetryPing
+TelemetryOutgoingPing
 ping
 final
 TelemetryPingStore
@@ -270,7 +270,7 @@ pingBuilder
 )
 {
 final
-TelemetryPing
+TelemetryOutgoingPing
 ping
 =
 pingBuilder
@@ -288,7 +288,6 @@ uploadAllPingsImmediatelyScheduler
 )
 ;
 }
-private
 static
 class
 QueuePingRunnable
@@ -302,7 +301,7 @@ applicationContext
 ;
 private
 final
-TelemetryPing
+TelemetryOutgoingPing
 ping
 ;
 private
@@ -315,14 +314,13 @@ final
 TelemetryUploadScheduler
 scheduler
 ;
-public
 QueuePingRunnable
 (
 final
 Context
 context
 final
-TelemetryPing
+TelemetryOutgoingPing
 ping
 final
 TelemetryPingStore
@@ -412,6 +410,7 @@ scheduler
 .
 isReadyToUpload
 (
+applicationContext
 store
 )
 )

@@ -173,6 +173,12 @@ testScheduler
 .
 isReadyToUpload
 (
+mock
+(
+Context
+.
+class
+)
 testStore
 )
 )

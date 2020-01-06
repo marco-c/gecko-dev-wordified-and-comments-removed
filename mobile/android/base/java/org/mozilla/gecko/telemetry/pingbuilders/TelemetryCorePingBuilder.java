@@ -78,15 +78,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoApp
 ;
 import
@@ -147,7 +138,7 @@ gecko
 .
 telemetry
 .
-TelemetryPing
+TelemetryOutgoingPing
 ;
 import
 org
