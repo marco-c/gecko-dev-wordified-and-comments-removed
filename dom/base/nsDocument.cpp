@@ -36345,6 +36345,11 @@ ScreenIntSize
 aDisplaySize
 )
 {
+MOZ_ASSERT
+(
+mPresShell
+)
+;
 nsPresContext
 *
 context
