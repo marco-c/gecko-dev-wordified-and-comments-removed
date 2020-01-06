@@ -1617,6 +1617,14 @@ GetProfileDir
 (
 )
 ;
+if
+(
+!
+isLinux
+(
+)
+)
+{
 tests
 .
 push
@@ -1645,6 +1653,7 @@ minProfileReadSandboxLevel
 }
 )
 ;
+}
 if
 (
 fileContentProcessEnabled
@@ -2457,6 +2466,14 @@ isDirectory
 )
 )
 {
+if
+(
+!
+isLinux
+(
+)
+)
+{
 tests
 .
 push
@@ -2485,6 +2502,7 @@ minProfileReadSandboxLevel
 }
 )
 ;
+}
 if
 (
 fileContentProcessEnabled
