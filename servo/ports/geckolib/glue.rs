@@ -19375,13 +19375,7 @@ PropertyDeclaration
 :
 FontFamily
 (
-Box
-:
-:
-new
-(
 family
-)
 )
 ;
 write_locked_arc
