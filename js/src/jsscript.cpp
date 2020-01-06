@@ -14042,15 +14042,6 @@ lock
 cx
 )
 ;
-ScriptBytecodeHasher
-:
-:
-Lookup
-l
-(
-ssd
-)
-;
 ScriptDataTable
 :
 :
@@ -14067,7 +14058,8 @@ lock
 .
 lookupForAdd
 (
-l
+*
+ssd
 )
 ;
 if
