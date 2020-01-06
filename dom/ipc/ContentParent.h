@@ -2045,7 +2045,7 @@ bool
 &
 aSizeSpecified
 const
-URIParams
+OptionalURIParams
 &
 aURIToLoad
 const

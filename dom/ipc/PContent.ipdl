@@ -5675,7 +5675,7 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
-URIParams
+OptionalURIParams
 aURIToLoad
 nsCString
 aFeatures
