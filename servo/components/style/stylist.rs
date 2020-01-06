@@ -60,7 +60,6 @@ structs
 :
 :
 {
-nsIAtom
 ServoStyleSetSizes
 StyleRuleInclusion
 }
@@ -6158,14 +6157,7 @@ guard
 .
 mName
 .
-raw
-:
-:
-<
-nsIAtom
->
-(
-)
+mRawPtr
 .
 into
 (
