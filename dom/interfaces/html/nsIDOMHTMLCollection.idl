@@ -227,13 +227,5 @@ long
 index
 )
 ;
-nsIDOMNode
-namedItem
-(
-in
-DOMString
-name
-)
-;
 }
 ;

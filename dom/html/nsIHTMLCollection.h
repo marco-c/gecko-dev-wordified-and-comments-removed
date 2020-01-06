@@ -111,12 +111,6 @@ nsIDOMHTMLCollection
 :
 Item
 ;
-using
-nsIDOMHTMLCollection
-:
-:
-NamedItem
-;
 uint32_t
 Length
 (
