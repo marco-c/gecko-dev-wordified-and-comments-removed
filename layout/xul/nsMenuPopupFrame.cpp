@@ -2621,9 +2621,6 @@ mCurrentMenu
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_GTK
 if
 (
 mContent
@@ -2681,8 +2678,6 @@ false
 return
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIRunnable

@@ -7456,8 +7456,7 @@ bottom
 ;
 }
 %
-elifndef
-MOZ_WIDGET_GTK
+else
 #
 BMB_bookmarksPopup
 {
