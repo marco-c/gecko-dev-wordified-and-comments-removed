@@ -163,6 +163,11 @@ mockCommands
 js
 "
 this
+"
+UTF
+-
+8
+"
 )
 ;
 flags
