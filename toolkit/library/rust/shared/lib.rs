@@ -101,6 +101,10 @@ extern
 crate
 audioipc_server
 ;
+extern
+crate
+u2fhid
+;
 use
 std
 :
