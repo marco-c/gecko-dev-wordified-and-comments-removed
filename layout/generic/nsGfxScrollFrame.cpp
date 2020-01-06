@@ -21724,6 +21724,7 @@ if
 !
 fit
 )
+{
 mHelper
 .
 SetScrollbarVisibility
@@ -21735,6 +21736,7 @@ mHScrollbarBox
 aAdd
 )
 ;
+}
 return
 fit
 ;
@@ -21827,6 +21829,7 @@ if
 !
 fit
 )
+{
 mHelper
 .
 SetScrollbarVisibility
@@ -21838,6 +21841,7 @@ mVScrollbarBox
 aAdd
 )
 ;
+}
 return
 fit
 ;
