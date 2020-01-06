@@ -64,7 +64,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+GeckoApplication
 ;
 import
 org
@@ -786,11 +786,7 @@ User
 -
 Agent
 "
-GeckoAppShell
-.
-getGeckoInterface
-(
-)
+GeckoApplication
 .
 getDefaultUAString
 (
