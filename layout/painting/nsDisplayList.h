@@ -2401,6 +2401,9 @@ false
 void
 ResetMarkedFramesForDisplayList
 (
+nsIFrame
+*
+aReferenceFrame
 )
 ;
 void
@@ -2535,8 +2538,6 @@ aFrame
 nsIFrame
 *
 aStopAtFrame
-=
-nullptr
 )
 ;
 void
@@ -2548,8 +2549,6 @@ aFrame
 nsIFrame
 *
 aStopAtFrame
-=
-nullptr
 )
 ;
 void

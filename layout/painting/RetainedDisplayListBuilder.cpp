@@ -434,6 +434,11 @@ mBuilder
 MarkFrameForDisplayIfVisible
 (
 f
+mBuilder
+.
+RootReferenceFrame
+(
+)
 )
 ;
 }
@@ -2814,6 +2819,11 @@ mBuilder
 MarkFrameForDisplayIfVisible
 (
 currentFrame
+mBuilder
+.
+RootReferenceFrame
+(
+)
 )
 ;
 nsDisplayListBuilder
