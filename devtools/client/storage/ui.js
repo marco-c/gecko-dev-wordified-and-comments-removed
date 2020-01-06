@@ -6154,6 +6154,17 @@ getCurrentFront
 (
 )
 ;
+let
+[
+host
+]
+=
+this
+.
+tree
+.
+selectedItem
+;
 this
 .
 table
@@ -6181,6 +6192,7 @@ this
 table
 .
 editBookmark
+host
 )
 ;
 }
