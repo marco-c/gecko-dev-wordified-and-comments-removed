@@ -783,12 +783,6 @@ state
 )
 ;
 await
-promiseWindowRestored
-(
-window
-)
-;
-await
 Promise
 .
 all

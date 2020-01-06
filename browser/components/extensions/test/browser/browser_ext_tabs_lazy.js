@@ -73,12 +73,6 @@ SESSION
 )
 )
 ;
-await
-promiseWindowRestored
-(
-window
-)
-;
 const
 tab
 =
