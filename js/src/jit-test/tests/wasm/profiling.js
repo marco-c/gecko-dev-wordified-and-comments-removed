@@ -55,6 +55,7 @@ re
 :
 /
 ^
+slow
 entry
 trampoline
 \

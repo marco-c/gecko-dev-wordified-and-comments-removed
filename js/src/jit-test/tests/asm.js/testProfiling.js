@@ -345,6 +345,7 @@ frame
 replace
 (
 /
+slow
 entry
 trampoline
 /
