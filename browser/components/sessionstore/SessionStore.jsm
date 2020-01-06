@@ -5725,6 +5725,10 @@ resolve
 ;
 }
 }
+)
+.
+catch
+(
 console
 .
 error
