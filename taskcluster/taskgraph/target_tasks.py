@@ -1032,11 +1032,14 @@ if
 platform
 not
 in
-[
+(
 '
 linux64
 '
-]
+'
+macosx64
+'
+)
 :
             
 return
