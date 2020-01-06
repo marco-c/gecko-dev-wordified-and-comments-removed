@@ -1838,9 +1838,7 @@ getClientName
 }
 catch
 (
-IOException
-|
-GeneralSecurityException
+Exception
 e
 )
 {
