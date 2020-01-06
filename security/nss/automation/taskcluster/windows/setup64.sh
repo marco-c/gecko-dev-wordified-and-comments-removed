@@ -39,7 +39,7 @@ x64
 /
 Microsoft
 .
-VC140
+VC141
 .
 CRT
 "
@@ -77,7 +77,9 @@ VC
 /
 bin
 /
-amd64
+Hostx64
+/
+x64
 :
 {
 VSPATH
@@ -86,6 +88,10 @@ VSPATH
 VC
 /
 bin
+/
+Hostx86
+/
+x86
 :
 {
 VSPATH
@@ -94,6 +100,14 @@ VSPATH
 SDK
 /
 bin
+/
+10
+.
+0
+.
+15063
+.
+0
 /
 x64
 :
@@ -109,7 +123,7 @@ x64
 /
 Microsoft
 .
-VC140
+VC141
 .
 CRT
 :
@@ -143,7 +157,7 @@ VC
 /
 lib
 /
-amd64
+x64
 :
 {
 VSPATH
@@ -157,7 +171,7 @@ lib
 .
 0
 .
-14393
+15063
 .
 0
 /
@@ -177,7 +191,7 @@ lib
 .
 0
 .
-14393
+15063
 .
 0
 /

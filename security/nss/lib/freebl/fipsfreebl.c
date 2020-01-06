@@ -42,17 +42,12 @@ prtypes
 h
 "
 #
-ifdef
-NSS_ENABLE_ECC
-#
 include
 "
 ec
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -4758,9 +4753,6 @@ SECFailure
 )
 ;
 }
-#
-ifdef
-NSS_ENABLE_ECC
 static
 SECStatus
 freebl_fips_ECDSA_Test
@@ -5669,8 +5661,6 @@ SECSuccess
 )
 ;
 }
-#
-endif
 static
 SECStatus
 freebl_fips_DSA_PowerUpSelfTest
@@ -6733,9 +6723,6 @@ SECSuccess
 return
 rv
 ;
-#
-ifdef
-NSS_ENABLE_ECC
 rv
 =
 freebl_fips_ECDSA_PowerUpSelfTest
@@ -6752,8 +6739,6 @@ SECSuccess
 return
 rv
 ;
-#
-endif
 }
 return
 (

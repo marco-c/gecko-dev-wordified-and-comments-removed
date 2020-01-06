@@ -283,6 +283,9 @@ certscript
 (
 )
 {
+ca
+=
+n
 while
 [
 #
@@ -315,6 +318,10 @@ echo
 echo
 6
 ;
+ca
+=
+y
+;
 ;
 esac
 ;
@@ -326,12 +333,7 @@ echo
 echo
 n
 echo
-{
 ca
-:
--
-n
-}
 echo
 echo
 n
@@ -488,10 +490,6 @@ CT
 CT
 '
 ;
-ca
-=
-y
-;
 type
 =
 rsa
@@ -540,10 +538,6 @@ CT
 CT
 CT
 '
-;
-ca
-=
-y
 ;
 type
 =
