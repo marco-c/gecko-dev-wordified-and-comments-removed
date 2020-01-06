@@ -639,9 +639,6 @@ eDontReparentFrames
 eInFirstLine
 =
 2
-eForDestroy
-=
-4
 }
 ;
 bool
