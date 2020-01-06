@@ -7468,17 +7468,6 @@ manifest_src
 :
             
 return
-self
-.
-warning
-(
-ERROR_MSGS
-[
-'
-tooltool_manifest_undetermined
-'
-]
-)
         
 tooltool_manifest_path
 =

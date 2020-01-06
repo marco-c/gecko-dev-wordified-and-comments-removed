@@ -260,7 +260,7 @@ macosx64
 /
 cross
 -
-releng
+l10n
 .
 manifest
 "
