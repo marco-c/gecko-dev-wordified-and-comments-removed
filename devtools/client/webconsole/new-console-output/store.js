@@ -470,7 +470,6 @@ NETXHR
 )
 ui
 :
-new
 UiState
 (
 {
