@@ -745,14 +745,6 @@ nsCSPDirective
 *
 mFrameSrc
 ;
-nsCSPDirective
-*
-mWorkerSrc
-;
-nsCSPScriptSrcDirective
-*
-mScriptSrc
-;
 bool
 mParsingFrameAncestorsDir
 ;

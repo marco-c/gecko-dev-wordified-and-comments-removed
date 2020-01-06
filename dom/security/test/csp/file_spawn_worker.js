@@ -1,9 +1,0 @@
-postMessage
-(
-"
-worker
-is
-executing
-"
-)
-;

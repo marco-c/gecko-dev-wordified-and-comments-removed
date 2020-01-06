@@ -259,14 +259,6 @@ DOMString
 >
 sandbox
 ;
-sequence
-<
-DOMString
->
-worker
--
-src
-;
 }
 ;
 dictionary

@@ -412,13 +412,6 @@ SANDBOX_DIRECTIVE
 =
 21
 ;
-const
-unsigned
-short
-WORKER_SRC_DIRECTIVE
-=
-22
-;
 /
 *
 *
