@@ -10665,8 +10665,9 @@ entry
 )
 )
 {
-JSEP_SET_ERROR
+MOZ_MTLOG
 (
+ML_WARNING
 "
 Answer
 changed
@@ -10675,6 +10676,8 @@ for
 extmap
 attribute
 at
+"
+"
 level
 "
 <
@@ -10694,6 +10697,8 @@ extensionname
 <
 "
 )
+"
+"
 from
 "
 <
@@ -10717,9 +10722,6 @@ entry
 .
 "
 )
-;
-return
-NS_ERROR_INVALID_ARG
 ;
 }
 if
