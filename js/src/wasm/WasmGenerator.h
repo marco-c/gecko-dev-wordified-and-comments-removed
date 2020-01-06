@@ -834,6 +834,9 @@ metadataTier_
 MutableMetadata
 metadata_
 ;
+UniqueJumpTable
+jumpTable_
+;
 UniqueModuleEnvironment
 env_
 ;
@@ -1452,6 +1455,15 @@ CacheableChars
 fieldChars
 uint32_t
 funcIndex
+)
+;
+UniqueJumpTable
+createJumpTable
+(
+const
+CodeSegment
+&
+codeSegment
 )
 ;
 SharedModule

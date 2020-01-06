@@ -3443,6 +3443,8 @@ const
 Metadata
 &
 metadata
+UniqueJumpTable
+maybeJumpTable
 )
 :
 segment1_
@@ -3465,6 +3467,13 @@ mutexid
 WasmCodeProfilingLabels
 CacheableCharsVector
 (
+)
+)
+jumpTable_
+(
+Move
+(
+maybeJumpTable
 )
 )
 {
