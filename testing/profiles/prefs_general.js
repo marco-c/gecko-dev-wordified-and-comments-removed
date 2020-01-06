@@ -3462,9 +3462,11 @@ extensions
 .
 formautofill
 .
-experimental
+available
 "
-true
+"
+on
+"
 )
 ;
 user_pref

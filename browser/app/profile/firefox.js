@@ -13883,9 +13883,11 @@ extensions
 .
 formautofill
 .
-experimental
+available
 "
-true
+"
+on
+"
 )
 ;
 #
@@ -13897,9 +13899,11 @@ extensions
 .
 formautofill
 .
-experimental
+available
 "
-false
+"
+detect
+"
 )
 ;
 #
