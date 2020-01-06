@@ -410,15 +410,6 @@ html
 28
 ]
 *
-test_value_storage
-.
-html
-'
-grid
-[
-20
-]
-*
 Unsupported
 values
 *
