@@ -628,7 +628,9 @@ JSAtom
 *
 atom
 =
-code_
+instance
+(
+)
 -
 >
 getFuncAtom
