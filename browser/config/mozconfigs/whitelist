@@ -126,6 +126,15 @@ profiling
 '
 '
 mk_add_options
+"
+export
+JAR_COMPRESSION
+=
+brotli
+"
+'
+'
+mk_add_options
 CLIENT_PY_ARGS
 =
 "
