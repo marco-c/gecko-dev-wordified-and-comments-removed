@@ -13,7 +13,7 @@ version
 .
 18
 .
-0
+1
 "
 authors
 =
@@ -89,7 +89,7 @@ regex
 "
 0
 .
-1
+2
 "
 rustc
 -
