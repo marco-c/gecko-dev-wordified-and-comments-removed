@@ -1236,6 +1236,10 @@ sets
 windows
 -
 tests
+-
+mochitest
+-
+headless
 windows10
 -
 64
@@ -1277,6 +1281,10 @@ disabled
 windows
 -
 tests
+-
+mochitest
+-
+headless
 windows10
 -
 64

@@ -2514,6 +2514,11 @@ linux
 *
 :
 10
+windows
+.
+*
+:
+5
 e10s
 :
 true
