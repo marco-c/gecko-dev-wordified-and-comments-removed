@@ -255,6 +255,16 @@ txt
 /
 build
 /
+sanitizers
+/
+ubsan_suppressions
+.
+txt
+'
+'
+/
+build
+/
 valgrind
 /
 cross
