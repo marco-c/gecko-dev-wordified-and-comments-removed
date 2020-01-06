@@ -6926,7 +6926,7 @@ label
 =
 "
 &
-bookmarksMenuButton
+bookmarksSubview
 .
 label
 ;
