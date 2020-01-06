@@ -6426,10 +6426,13 @@ if
 this
 .
 rootURI
-instanceof
+.
+QueryInterface
+(
 Ci
 .
 nsIJARURI
+)
 )
 {
 let
