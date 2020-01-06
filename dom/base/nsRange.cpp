@@ -5561,11 +5561,13 @@ nsINode
 nsRange
 :
 :
-IsValidBoundary
+ComputeRootNode
 (
 nsINode
 *
 aNode
+bool
+aMaySpanAnonymousSubtrees
 )
 {
 if
@@ -5633,7 +5635,7 @@ aNode
 if
 (
 !
-mMaySpanAnonymousSubtrees
+aMaySpanAnonymousSubtrees
 )
 {
 ShadowRoot
