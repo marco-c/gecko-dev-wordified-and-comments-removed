@@ -228,6 +228,9 @@ subject
 .
 *
 /
+[
+must_use
+]
 void
 startKeyGeneration
 (
@@ -280,6 +283,9 @@ it
 .
 *
 /
+[
+must_use
+]
 void
 userCanceled
 (

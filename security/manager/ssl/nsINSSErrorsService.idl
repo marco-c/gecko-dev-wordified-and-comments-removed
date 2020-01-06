@@ -147,6 +147,9 @@ NSS
 library
 *
 /
+[
+must_use
+]
 boolean
 isNSSErrorCode
 (
@@ -195,6 +198,9 @@ error
 code
 *
 /
+[
+must_use
+]
 nsresult
 getXPCOMFromNSSError
 (
@@ -287,6 +293,9 @@ or
 ERROR_CLASS_SSL_PROTOCOL
 *
 /
+[
+must_use
+]
 uint32_t
 getErrorClass
 (

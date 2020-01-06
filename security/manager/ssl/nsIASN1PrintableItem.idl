@@ -142,6 +142,7 @@ len
 ;
 [
 noscript
+must_use
 ]
 void
 getData

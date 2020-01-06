@@ -385,6 +385,9 @@ be
 overriden
 *
 /
+[
+must_use
+]
 void
 rememberValidityOverride
 (
@@ -545,6 +548,9 @@ be
 overriden
 *
 /
+[
+must_use
+]
 void
 rememberTemporaryValidityOverrideUsingFingerprint
 (
@@ -690,6 +696,9 @@ port
 cert
 *
 /
+[
+must_use
+]
 boolean
 hasMatchingOverride
 (
@@ -819,6 +828,9 @@ on
 file
 *
 /
+[
+must_use
+]
 boolean
 getValidityOverride
 (
@@ -973,6 +985,9 @@ given
 certificate
 *
 /
+[
+must_use
+]
 uint32_t
 isCertUsedForOverrides
 (

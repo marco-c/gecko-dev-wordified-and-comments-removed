@@ -188,6 +188,9 @@ zone
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -204,7 +207,6 @@ of
 "
 notBefore
 "
-*
 formatted
 as
 a
@@ -258,6 +260,9 @@ UTC
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -315,6 +320,9 @@ zone
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -331,7 +339,6 @@ of
 "
 notAfter
 "
-*
 formatted
 as
 a
@@ -386,6 +393,9 @@ UTC
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString

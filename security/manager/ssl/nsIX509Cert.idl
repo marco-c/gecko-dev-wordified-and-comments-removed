@@ -267,6 +267,9 @@ root
 ?
 *
 /
+[
+must_use
+]
 readonly
 attribute
 bool
@@ -312,6 +315,9 @@ addresses
 .
 *
 /
+[
+must_use
+]
 void
 getEmailAddresses
 (
@@ -393,6 +399,9 @@ certificate
 .
 *
 /
+[
+must_use
+]
 boolean
 containsEmailAddress
 (
@@ -466,6 +475,9 @@ unit
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -522,6 +534,9 @@ algorithm
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -589,6 +604,9 @@ certificate
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -608,6 +626,9 @@ name
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -645,6 +666,9 @@ unit
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -667,6 +691,9 @@ certificate
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIX509Cert
@@ -707,6 +734,9 @@ storage
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -727,6 +757,9 @@ certificate
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -842,6 +875,9 @@ signed
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -926,6 +962,9 @@ issuers
 .
 *
 /
+[
+must_use
+]
 nsIArray
 getChain
 (
@@ -980,6 +1019,9 @@ extension
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AString
@@ -1025,6 +1067,9 @@ structure
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIASN1Object
@@ -1073,6 +1118,9 @@ certificate
 .
 *
 /
+[
+must_use
+]
 void
 getRawDER
 (
@@ -1118,6 +1166,9 @@ are
 equal
 *
 /
+[
+must_use
+]
 boolean
 equals
 (
@@ -1148,6 +1199,9 @@ digest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -1224,6 +1278,9 @@ certificate
 .
 *
 /
+[
+must_use
+]
 void
 exportAsCMS
 (
@@ -1266,6 +1323,7 @@ interface
 [
 notxpcom
 noscript
+must_use
 ]
 CERTCertificatePtr
 getCert
@@ -1293,6 +1351,9 @@ untrusted
 .
 *
 /
+[
+must_use
+]
 void
 markForPermDeletion
 (

@@ -139,6 +139,9 @@ nsIPKCS11
 :
 nsISupports
 {
+[
+must_use
+]
 void
 deleteModule
 (
@@ -147,6 +150,9 @@ AString
 moduleName
 )
 ;
+[
+must_use
+]
 void
 addModule
 (

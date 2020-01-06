@@ -231,6 +231,9 @@ canceled
 .
 *
 /
+[
+must_use
+]
 boolean
 chooseCertificate
 (

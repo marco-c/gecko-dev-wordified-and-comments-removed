@@ -114,6 +114,9 @@ nsIGeneratingKeypairInfoDialogs
 :
 nsISupports
 {
+[
+must_use
+]
 void
 displayGeneratingKeypairInfo
 (

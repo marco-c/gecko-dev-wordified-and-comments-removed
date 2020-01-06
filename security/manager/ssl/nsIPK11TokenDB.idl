@@ -260,6 +260,9 @@ given
 name
 *
 /
+[
+must_use
+]
 nsIPK11Token
 findTokenByName
 (
@@ -276,6 +279,9 @@ all
 tokens
 *
 /
+[
+must_use
+]
 nsISimpleEnumerator
 listTokens
 (

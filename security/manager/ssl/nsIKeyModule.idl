@@ -162,6 +162,7 @@ destroyed
 .
 [
 noscript
+must_use
 ]
 void
 initKey
@@ -187,12 +188,16 @@ object
 .
 [
 noscript
+must_use
 ]
 PK11SymKeyPtr
 getKeyObj
 (
 )
 ;
+[
+must_use
+]
 short
 getType
 (
@@ -220,6 +225,9 @@ nsIKeyObjectFactory
 :
 nsISupports
 {
+[
+must_use
+]
 nsIKeyObject
 keyFromString
 (

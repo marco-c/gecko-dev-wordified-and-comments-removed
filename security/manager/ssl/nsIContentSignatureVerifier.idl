@@ -336,6 +336,9 @@ not
 .
 *
 /
+[
+must_use
+]
 boolean
 verifyContentSignature
 (
@@ -439,6 +442,9 @@ valid
 .
 *
 /
+[
+must_use
+]
 void
 createContext
 (
@@ -589,6 +595,9 @@ valid
 .
 *
 /
+[
+must_use
+]
 void
 createContextWithoutCertChain
 (
@@ -632,6 +641,9 @@ tested
 .
 *
 /
+[
+must_use
+]
 void
 update
 (
@@ -679,6 +691,9 @@ not
 .
 *
 /
+[
+must_use
+]
 boolean
 end
 (

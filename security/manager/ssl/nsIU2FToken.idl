@@ -133,6 +133,9 @@ is
 compatible
 *
 /
+[
+must_use
+]
 void
 isCompatibleVersion
 (
@@ -194,6 +197,9 @@ ours
 .
 *
 /
+[
+must_use
+]
 void
 isRegistered
 (
@@ -304,6 +310,9 @@ handle
 .
 *
 /
+[
+must_use
+]
 void
 register
 (
@@ -418,6 +427,9 @@ signature
 .
 *
 /
+[
+must_use
+]
 void
 sign
 (

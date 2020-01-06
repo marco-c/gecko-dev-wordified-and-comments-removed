@@ -121,11 +121,17 @@ nsIPKCS11Slot
 :
 nsISupports
 {
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
 name
 ;
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
@@ -143,6 +149,9 @@ slot
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
@@ -160,6 +169,9 @@ slot
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
@@ -177,6 +189,9 @@ slot
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
@@ -224,6 +239,9 @@ SLOT_READY
 =
 5
 ;
+[
+must_use
+]
 readonly
 attribute
 unsigned
@@ -273,6 +291,9 @@ there
 .
 *
 /
+[
+must_use
+]
 nsIPK11Token
 getToken
 (
@@ -296,6 +317,9 @@ token
 name
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AUTF8String

@@ -473,6 +473,9 @@ nsIX509Cert
 .
 *
 /
+[
+must_use
+]
 nsIX509Cert
 findCertByDBKey
 (
@@ -522,6 +525,9 @@ found
 .
 *
 /
+[
+must_use
+]
 nsIX509Cert
 findCertByEmailAddress
 (
@@ -906,6 +912,9 @@ interface
 .
 *
 /
+[
+must_use
+]
 void
 setCertTrust
 (
@@ -959,6 +968,9 @@ trust
 .
 *
 /
+[
+must_use
+]
 void
 setCertTrustFromString
 (
@@ -1042,6 +1054,9 @@ use
 .
 *
 /
+[
+must_use
+]
 boolean
 isCertTrusted
 (
@@ -1109,6 +1124,9 @@ nsIX509Cert
 .
 *
 /
+[
+must_use
+]
 void
 importCertsFromFile
 (
@@ -1162,6 +1180,9 @@ imported
 .
 *
 /
+[
+must_use
+]
 void
 importPKCS12File
 (
@@ -1235,6 +1256,9 @@ exported
 .
 *
 /
+[
+must_use
+]
 void
 exportPKCS12File
 (
@@ -1297,6 +1321,9 @@ object
 .
 *
 /
+[
+must_use
+]
 nsIX509Cert
 constructX509FromBase64
 (
@@ -1345,6 +1372,9 @@ object
 .
 *
 /
+[
+must_use
+]
 nsIX509Cert
 constructX509
 (
@@ -1623,6 +1653,9 @@ DeveloperImportedRoot
 =
 10
 ;
+[
+must_use
+]
 void
 openSignedAppFileAsync
 (
@@ -1726,6 +1759,9 @@ returned
 .
 *
 /
+[
+must_use
+]
 void
 verifySignedDirectoryAsync
 (
@@ -1811,6 +1847,9 @@ resulting
 certificate
 *
 /
+[
+must_use
+]
 nsIX509Cert
 addCert
 (
@@ -2100,6 +2139,9 @@ verification
 failure
 *
 /
+[
+must_use
+]
 int32_t
 /
 *
@@ -2136,6 +2178,9 @@ bool
 aHasEVPolicy
 )
 ;
+[
+must_use
+]
 int32_t
 /
 *
@@ -2196,6 +2241,9 @@ tests
 .
 *
 /
+[
+must_use
+]
 void
 asyncVerifyCertAtTime
 (
@@ -2239,6 +2287,9 @@ verification
 /
 implementation
 .
+[
+must_use
+]
 void
 clearOCSPCache
 (
@@ -2319,6 +2370,9 @@ resulting
 certificate
 *
 /
+[
+must_use
+]
 nsIX509Cert
 addCertFromBase64
 (
@@ -2343,6 +2397,9 @@ the
 database
 *
 /
+[
+must_use
+]
 nsIX509CertList
 getCerts
 (
@@ -2370,6 +2427,9 @@ Windows
 .
 *
 /
+[
+must_use
+]
 nsIX509CertList
 getEnterpriseRoots
 (

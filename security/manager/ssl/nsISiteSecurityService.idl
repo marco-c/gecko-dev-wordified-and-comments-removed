@@ -180,6 +180,9 @@ nsISiteSecurityState
 :
 nsISupports
 {
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -212,6 +215,7 @@ includeSubdomains
 ;
 [
 implicit_jscontext
+must_use
 ]
 readonly
 attribute
@@ -389,6 +393,9 @@ nsISiteHPKPState
 :
 nsISiteSecurityState
 {
+[
+must_use
+]
 readonly
 attribute
 nsISimpleEnumerator
@@ -826,6 +833,7 @@ binaryname
 ProcessHeader
 )
 noscript
+must_use
 ]
 void
 processHeaderNative
@@ -877,6 +885,7 @@ ProcessHeaderScriptable
 )
 implicit_jscontext
 optional_argc
+must_use
 ]
 void
 processHeader
@@ -1053,6 +1062,7 @@ happens
 [
 implicit_jscontext
 optional_argc
+must_use
 ]
 void
 removeState
@@ -1278,6 +1288,7 @@ binaryname
 IsSecureURI
 )
 noscript
+must_use
 ]
 boolean
 isSecureURINative
@@ -1309,6 +1320,7 @@ IsSecureURIScriptable
 )
 implicit_jscontext
 optional_argc
+must_use
 ]
 boolean
 isSecureURI
@@ -1358,6 +1370,9 @@ settings
 .
 *
 /
+[
+must_use
+]
 void
 clearAll
 (
@@ -1375,6 +1390,9 @@ state
 .
 *
 /
+[
+must_use
+]
 void
 clearPreloads
 (
@@ -1558,6 +1576,7 @@ domain
 /
 [
 noscript
+must_use
 ]
 boolean
 getKeyPinsForHostname
@@ -1758,6 +1777,7 @@ happens
 [
 implicit_jscontext
 optional_argc
+must_use
 ]
 boolean
 setKeyPins
@@ -1888,6 +1908,9 @@ epoch
 )
 *
 /
+[
+must_use
+]
 boolean
 setHSTSPreload
 (
@@ -2007,6 +2030,7 @@ happens
 /
 [
 noscript
+must_use
 ]
 void
 cacheNegativeHSTSResult
@@ -2103,6 +2127,9 @@ question
 .
 *
 /
+[
+must_use
+]
 nsISimpleEnumerator
 enumerate
 (

@@ -110,6 +110,9 @@ nsIX509CertList
 :
 nsISupports
 {
+[
+must_use
+]
 void
 addCert
 (
@@ -118,6 +121,9 @@ nsIX509Cert
 cert
 )
 ;
+[
+must_use
+]
 void
 deleteCert
 (
@@ -126,6 +132,9 @@ nsIX509Cert
 cert
 )
 ;
+[
+must_use
+]
 nsISimpleEnumerator
 getEnumerator
 (
@@ -162,6 +171,7 @@ acquired
 [
 notxpcom
 noscript
+must_use
 ]
 CERTCertListPtr
 getRawCertList
@@ -196,6 +206,9 @@ are
 equal
 *
 /
+[
+must_use
+]
 boolean
 equals
 (

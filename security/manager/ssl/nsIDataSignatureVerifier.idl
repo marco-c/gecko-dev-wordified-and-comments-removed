@@ -190,6 +190,9 @@ not
 .
 *
 /
+[
+must_use
+]
 boolean
 verifyData
 (
@@ -230,6 +233,9 @@ VERIFY_ERROR_OTHER
 =
 2
 ;
+[
+must_use
+]
 nsIX509Cert
 verifySignature
 (

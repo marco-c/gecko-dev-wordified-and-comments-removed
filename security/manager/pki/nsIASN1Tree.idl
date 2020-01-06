@@ -132,6 +132,9 @@ nsIASN1Tree
 :
 nsITreeView
 {
+[
+must_use
+]
 void
 loadASN1Structure
 (
@@ -140,6 +143,9 @@ nsIASN1Object
 asn1Object
 )
 ;
+[
+must_use
+]
 AString
 getDisplayData
 (

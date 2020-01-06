@@ -191,6 +191,9 @@ the
 result
 *
 /
+[
+must_use
+]
 void
 getOrCreateCert
 (
@@ -238,6 +241,9 @@ the
 result
 *
 /
+[
+must_use
+]
 void
 removeCert
 (
@@ -293,6 +299,9 @@ in
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
