@@ -4594,6 +4594,10 @@ mViewManagerFlushIsPending
 (
 false
 )
+mHasScheduleFlush
+(
+false
+)
 mInRefresh
 (
 false
@@ -8512,6 +8516,10 @@ dispatchRunnablesAfterTick
 =
 true
 ;
+mHasScheduleFlush
+=
+false
+;
 }
 #
 ifndef
@@ -9662,6 +9670,10 @@ prescontexts
 )
 ;
 mViewManagerFlushIsPending
+=
+true
+;
+mHasScheduleFlush
 =
 true
 ;

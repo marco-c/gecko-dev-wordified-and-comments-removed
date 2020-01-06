@@ -551,6 +551,15 @@ return
 mViewManagerFlushIsPending
 ;
 }
+bool
+HasScheduleFlush
+(
+)
+{
+return
+mHasScheduleFlush
+;
+}
 void
 ScheduleFrameRequestCallbacks
 (
@@ -1185,6 +1194,9 @@ mTestControllingRefreshes
 ;
 bool
 mViewManagerFlushIsPending
+;
+bool
+mHasScheduleFlush
 ;
 bool
 mInRefresh

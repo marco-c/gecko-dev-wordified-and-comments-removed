@@ -11480,10 +11480,15 @@ GetAnimationReadyTime
 }
 if
 (
-wrManager
+presContext
 -
 >
-ShouldNotifyInvalidation
+RefreshDriver
+(
+)
+-
+>
+HasScheduleFlush
 (
 )
 )
