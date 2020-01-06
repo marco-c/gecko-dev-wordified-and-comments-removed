@@ -49,6 +49,9 @@ dom
 class
 MessagePort
 ;
+class
+StringOrWorkerOptions
+;
 }
 }
 BEGIN_WORKERS_NAMESPACE
@@ -128,12 +131,9 @@ nsAString
 &
 aScriptURL
 const
-Optional
-<
-nsAString
->
+StringOrWorkerOptions
 &
-aName
+aOptions
 ErrorResult
 &
 aRv

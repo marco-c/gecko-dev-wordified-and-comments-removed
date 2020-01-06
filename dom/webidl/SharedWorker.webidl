@@ -97,8 +97,12 @@ Constructor
 USVString
 scriptURL
 optional
+(
 DOMString
-name
+or
+WorkerOptions
+)
+options
 )
 ]
 interface

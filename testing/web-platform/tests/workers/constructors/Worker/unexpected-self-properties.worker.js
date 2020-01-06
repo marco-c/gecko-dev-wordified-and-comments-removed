@@ -138,9 +138,6 @@ innerHeight
 innerWidth
 '
 '
-name
-'
-'
 opener
 '
 '

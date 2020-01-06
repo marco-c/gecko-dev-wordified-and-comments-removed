@@ -186,6 +186,11 @@ DedicatedWorkerGlobalScope
 :
 WorkerGlobalScope
 {
+readonly
+attribute
+DOMString
+name
+;
 [
 Throws
 ]
