@@ -5786,9 +5786,7 @@ get
 is_automation
 "
 )
-:
-            
-if
+and
 self
 .
 buildbot_config
@@ -5805,7 +5803,7 @@ buildid
 '
 )
 :
-                
+            
 self
 .
 info
@@ -5818,7 +5816,7 @@ buildbot
 properties
 "
 )
-                
+            
 buildid
 =
 self
@@ -5837,19 +5835,19 @@ buildid
 .
 encode
 (
-                    
+                
 '
 ascii
 '
 '
 replace
 '
-                
-)
             
+)
+        
 else
 :
-                
+            
 buildid
 =
 os
