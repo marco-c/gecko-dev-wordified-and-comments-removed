@@ -506,9 +506,9 @@ void
 GetAPZTestData
 (
 const
-uint64_t
-&
-aLayersId
+LayerTransactionParent
+*
+aLayerTree
 APZTestData
 *
 aOutData
@@ -1442,9 +1442,9 @@ void
 GetAPZTestData
 (
 const
-uint64_t
-&
-aLayersId
+LayerTransactionParent
+*
+aLayerTree
 APZTestData
 *
 aOutData
