@@ -46,13 +46,6 @@ h
 #
 include
 "
-MediaPromiseDefs
-.
-h
-"
-#
-include
-"
 MediaResource
 .
 h
@@ -920,10 +913,7 @@ return
 mAbstractMainThread
 ;
 }
-RefPtr
-<
-SetCDMPromise
->
+void
 SetCDMProxy
 (
 CDMProxy
