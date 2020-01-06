@@ -912,7 +912,7 @@ mozilla
 :
 ErrorResult
 &
-rv
+aError
 )
 ;
 already_AddRefed

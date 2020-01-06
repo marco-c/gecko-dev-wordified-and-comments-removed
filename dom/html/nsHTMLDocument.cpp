@@ -6498,7 +6498,7 @@ nsAString
 aReplace
 ErrorResult
 &
-rv
+aError
 )
 {
 NS_ASSERTION
@@ -6538,7 +6538,7 @@ IsHTMLDocument
 mDisableDocWrite
 )
 {
-rv
+aError
 .
 Throw
 (
@@ -6798,7 +6798,7 @@ if
 callerDoc
 )
 {
-rv
+aError
 .
 Throw
 (
@@ -6980,7 +6980,7 @@ get
 ;
 #
 endif
-rv
+aError
 .
 Throw
 (
@@ -7102,7 +7102,7 @@ do_QueryReferent
 mDocumentLoadGroup
 )
 ;
-rv
+aError
 =
 NS_NewChannel
 (
@@ -7125,7 +7125,7 @@ group
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
@@ -7144,7 +7144,7 @@ callerChannel
 nsLoadFlags
 callerLoadFlags
 ;
-rv
+aError
 =
 callerChannel
 -
@@ -7157,7 +7157,7 @@ callerLoadFlags
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
@@ -7171,7 +7171,7 @@ nullptr
 nsLoadFlags
 loadFlags
 ;
-rv
+aError
 =
 channel
 -
@@ -7184,7 +7184,7 @@ loadFlags
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
@@ -7205,7 +7205,7 @@ nsIRequest
 :
 INHIBIT_PERSISTENT_CACHING
 ;
-rv
+aError
 =
 channel
 -
@@ -7217,7 +7217,7 @@ loadFlags
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
@@ -7363,7 +7363,7 @@ SetReadyStateInternal
 READYSTATE_UNINITIALIZED
 )
 ;
-rv
+aError
 =
 window
 -
@@ -7377,7 +7377,7 @@ false
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
@@ -7474,12 +7474,12 @@ ReparentWrapper
 (
 cx
 wrapper
-rv
+aError
 )
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
@@ -7529,12 +7529,12 @@ ReparentWrapper
 (
 cx
 contentsOwnerWrapper
-rv
+aError
 )
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
