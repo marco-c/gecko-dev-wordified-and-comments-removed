@@ -104025,6 +104025,16 @@ isIdentifierLess
 continue
                 
 if
+m
+.
+isMaplikeOrSetlikeOrIterableMethod
+(
+)
+:
+                    
+continue
+                
+if
 not
 m
 .
@@ -104048,6 +104058,16 @@ isAttr
 (
 )
 :
+                
+if
+m
+.
+isMaplikeOrSetlikeAttr
+(
+)
+:
+                    
+continue
                 
 self
 .
@@ -105711,7 +105731,9 @@ member
 isAttr
 (
 )
-and
+:
+                
+if
 not
 member
 .
@@ -105719,7 +105741,7 @@ isMaplikeOrSetlikeAttr
 (
 )
 :
-                
+                    
 builder
 .
 forwardDeclareForType
@@ -110524,7 +110546,9 @@ in
 iface
 .
 members
+                 
 if
+(
 m
 .
 isAttr
@@ -110536,6 +110560,25 @@ m
 .
 isStatic
 (
+)
+and
+                     
+(
+not
+m
+.
+isMaplikeOrSetlikeAttr
+(
+)
+or
+                      
+not
+iface
+.
+isJSImplemented
+(
+)
+)
 )
 ]
         
@@ -110588,6 +110631,7 @@ iface
 members
                    
 if
+(
 m
 .
 isMethod
@@ -110601,11 +110645,31 @@ isStatic
 (
 )
 and
+                       
 not
 m
 .
 isIdentifierLess
 (
+)
+and
+                       
+(
+not
+m
+.
+isMaplikeOrSetlikeOrIterableMethod
+(
+)
+or
+                        
+not
+iface
+.
+isJSImplemented
+(
+)
+)
 )
 ]
         
