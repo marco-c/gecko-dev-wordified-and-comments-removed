@@ -391,6 +391,13 @@ NullableTimeUnit
 aCanonical
 )
 ;
+void
+SetSeamlessLoopingEnabled
+(
+bool
+aEnabled
+)
+;
 private
 :
 ~
@@ -469,6 +476,9 @@ media
 NullableTimeUnit
 >
 mDuration
+;
+bool
+mSeamlessLoopingEnabled
 ;
 }
 ;
