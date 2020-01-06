@@ -181,6 +181,12 @@ properties
 IS_LINK
 ;
 use
+properties
+:
+:
+VISITED_DEPENDENT_ONLY
+;
+use
 rule_tree
 :
 :
@@ -3645,6 +3651,8 @@ layout_parent_style_for_visited
 None
 font_metrics
 cascade_flags
+|
+VISITED_DEPENDENT_ONLY
 self
 .
 quirks_mode
