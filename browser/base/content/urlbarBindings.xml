@@ -6323,7 +6323,7 @@ aUrl
 (
 aTriggeringEvent
 instanceof
-KeyEvent
+KeyboardEvent
 )
 )
 {

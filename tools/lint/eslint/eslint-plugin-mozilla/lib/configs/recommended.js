@@ -65,11 +65,6 @@ ChromeUtils
 :
 false
 "
-ChromeWindow
-"
-:
-false
-"
 ChromeWorker
 "
 :

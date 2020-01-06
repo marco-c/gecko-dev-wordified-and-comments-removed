@@ -455,16 +455,6 @@ xbl
 :
 true
 }
-{
-name
-:
-"
-ChromeWindow
-"
-xbl
-:
-true
-}
 "
 ClipboardEvent
 "
