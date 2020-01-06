@@ -366,16 +366,6 @@ WorkerHolder
 >
 mWorkerHolder
 ;
-JS
-:
-:
-Heap
-<
-JSObject
-*
->
-mReadableStream
-;
 }
 ;
 }
