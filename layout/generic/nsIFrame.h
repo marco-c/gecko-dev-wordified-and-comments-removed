@@ -1871,6 +1871,15 @@ friend
 class
 nsFrame
 ;
+template
+<
+class
+Source
+>
+friend
+class
+do_QueryFrameHelper
+;
 public
 :
 nsIContent
