@@ -406,7 +406,7 @@ data
 )
 )
 return
-NULL
+nullptr
 ;
 IDWriteFactory
 *
@@ -454,7 +454,7 @@ uint8_t
 hb_blob_get_data
 (
 blob
-NULL
+nullptr
 )
 hb_blob_get_length
 (
@@ -522,7 +522,7 @@ HB_STMT_START
 DEBUG_MSG
 (
 DIRECTWRITE
-NULL
+nullptr
 __VA_ARGS__
 )
 ;
@@ -847,7 +847,7 @@ face
 )
 )
 return
-NULL
+nullptr
 ;
 hb_directwrite_shaper_font_data_t
 *
@@ -874,7 +874,7 @@ data
 )
 )
 return
-NULL
+nullptr
 ;
 return
 data
@@ -1088,7 +1088,7 @@ readingDirection
 )
 mCurrentRun
 (
-NULL
+nullptr
 )
 {
 }
@@ -1176,7 +1176,7 @@ mRunHead
 .
 nextRun
 =
-NULL
+nullptr
 ;
 mCurrentRun
 =
@@ -1241,7 +1241,7 @@ mTextLength
 *
 textString
 =
-NULL
+nullptr
 ;
 *
 textLength
@@ -1303,7 +1303,7 @@ mTextLength
 *
 textString
 =
-NULL
+nullptr
 ;
 *
 textLength
@@ -1378,7 +1378,7 @@ numberSubstitution
 *
 numberSubstitution
 =
-NULL
+nullptr
 ;
 *
 textLength
@@ -2258,7 +2258,7 @@ analysis
 (
 textString
 textLength
-NULL
+nullptr
 readingDirection
 )
 ;
@@ -2298,7 +2298,7 @@ HB_STMT_START
 DEBUG_MSG
 (
 DIRECTWRITE
-NULL
+nullptr
 __VA_ARGS__
 )
 ;
@@ -2382,7 +2382,7 @@ props
 language
 !
 =
-NULL
+nullptr
 )
 {
 mbstowcs
@@ -2611,7 +2611,7 @@ runHead
 >
 mScript
 localeName
-NULL
+nullptr
 &
 dwFeatures
 featureRangeLengths

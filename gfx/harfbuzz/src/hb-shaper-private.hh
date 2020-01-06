@@ -599,7 +599,7 @@ shaper
 object
 )
 data
-NULL
+nullptr
 )
 )
 {
@@ -677,7 +677,7 @@ HB_SHAPER_DATA
 shaper
 object
 )
-NULL
+nullptr
 data
 )
 )
@@ -724,7 +724,7 @@ return
 data
 !
 =
-NULL
+nullptr
 &
 &
 !

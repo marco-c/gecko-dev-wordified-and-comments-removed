@@ -842,7 +842,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 assert
 (

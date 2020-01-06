@@ -153,7 +153,7 @@ cf_data
 )
 )
 return
-NULL
+nullptr
 ;
 const
 char
@@ -192,7 +192,7 @@ data
 length
 )
 return
-NULL
+nullptr
 ;
 return
 hb_blob_create
@@ -422,7 +422,7 @@ hb_blob_t
 *
 )
 info
-NULL
+nullptr
 )
 =
 =
@@ -451,7 +451,7 @@ face
 CGFontRef
 cg_font
 =
-NULL
+nullptr
 ;
 if
 (
@@ -597,7 +597,7 @@ font_size
 CTFontRef
 ct_font
 =
-NULL
+nullptr
 ;
 CFStringRef
 cg_postscript_name
@@ -664,7 +664,7 @@ CTFontCreateUIFontForLanguage
 (
 font_type
 font_size
-NULL
+nullptr
 )
 ;
 CFStringRef
@@ -695,7 +695,7 @@ ct_font
 ;
 ct_font
 =
-NULL
+nullptr
 ;
 }
 CFRelease
@@ -720,8 +720,8 @@ CTFontCreateWithGraphicsFont
 (
 cg_font
 font_size
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -747,7 +747,7 @@ failed
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -756,7 +756,7 @@ if
 CTGetCoreTextVersion
 !
 =
-NULL
+nullptr
 &
 &
 CTGetCoreTextVersion
@@ -835,7 +835,7 @@ ct_font
 0
 .
 0
-NULL
+nullptr
 last_resort_font_desc
 )
 ;
@@ -990,7 +990,7 @@ failed
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1038,7 +1038,7 @@ face
 )
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -1080,7 +1080,7 @@ face
 )
 )
 return
-NULL
+nullptr
 ;
 CGFontRef
 cg_font
@@ -1131,7 +1131,7 @@ failed
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1230,7 +1230,7 @@ font
 )
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -3146,18 +3146,22 @@ setting
 )
 }
 ;
-ASSERT_STATIC
+static_assert
 (
-ARRAY_LENGTH
+(
+ARRAY_LENGTH_CONST
 (
 keys
 )
 =
 =
-ARRAY_LENGTH
+ARRAY_LENGTH_CONST
 (
 values
 )
+)
+"
+"
 )
 ;
 CFDictionaryRef
@@ -3287,7 +3291,7 @@ ct_font
 0
 .
 0
-NULL
+nullptr
 font_desc
 )
 ;
@@ -3304,7 +3308,7 @@ range
 >
 font
 =
-NULL
+nullptr
 ;
 }
 range
@@ -3760,7 +3764,7 @@ HB_STMT_START
 DEBUG_MSG
 (
 CORETEXT
-NULL
+nullptr
 __VA_ARGS__
 )
 ;
@@ -3785,12 +3789,12 @@ true
 CFStringRef
 string_ref
 =
-NULL
+nullptr
 ;
 CTLineRef
 line
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3831,11 +3835,11 @@ line
 ;
 string_ref
 =
-NULL
+nullptr
 ;
 line
 =
-NULL
+nullptr
 ;
 unsigned
 int
@@ -3983,7 +3987,7 @@ string_ref
 =
 CFStringCreateWithCharactersNoCopy
 (
-NULL
+nullptr
 pchars
 chars_len
 kCFAllocatorNull
@@ -4620,7 +4624,7 @@ glyph_runs
 DEBUG_MSG
 (
 CORETEXT
-NULL
+nullptr
 "
 Num
 runs
@@ -4771,9 +4775,9 @@ CTRunGetTypographicBounds
 (
 run
 range_all
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -5418,7 +5422,7 @@ CTRunGetGlyphsPtr
 run
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -5459,7 +5463,7 @@ CTRunGetStringIndicesPtr
 run
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -5561,7 +5565,7 @@ CTRunGetPositionsPtr
 run
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -6431,7 +6435,7 @@ hb_coretext_aat_shaper_face_data_t
 )
 HB_SHAPER_DATA_SUCCEEDED
 :
-NULL
+nullptr
 ;
 }
 hb_blob_destroy
@@ -6441,7 +6445,7 @@ blob
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -6480,7 +6484,7 @@ hb_coretext_aat_shaper_font_data_t
 )
 HB_SHAPER_DATA_SUCCEEDED
 :
-NULL
+nullptr
 ;
 }
 void

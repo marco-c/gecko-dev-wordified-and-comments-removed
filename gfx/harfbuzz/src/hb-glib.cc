@@ -991,7 +991,7 @@ _hb_glib_unicode_funcs
 =
 {
 HB_OBJECT_HEADER_STATIC
-NULL
+nullptr
 true
 {
 #

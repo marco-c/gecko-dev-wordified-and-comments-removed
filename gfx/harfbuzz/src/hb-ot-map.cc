@@ -607,7 +607,8 @@ int
 num_coords
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 !
 (
@@ -619,6 +620,9 @@ HB_GLYPH_FLAG_DEFINED
 1
 )
 )
+)
+"
+"
 )
 ;
 unsigned
@@ -1511,12 +1515,12 @@ shrink
 ;
 add_gsub_pause
 (
-NULL
+nullptr
 )
 ;
 add_gpos_pause
 (
-NULL
+nullptr
 )
 ;
 for

@@ -242,7 +242,7 @@ c
 )
 )
 return
-NULL
+nullptr
 ;
 \
 *

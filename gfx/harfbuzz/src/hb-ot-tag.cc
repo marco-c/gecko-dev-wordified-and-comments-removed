@@ -13926,7 +13926,7 @@ tag
 HB_OT_TAG_DEFAULT_LANGUAGE
 )
 return
-NULL
+nullptr
 ;
 switch
 (

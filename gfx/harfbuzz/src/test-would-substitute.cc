@@ -96,7 +96,7 @@ hb_blob_t
 *
 blob
 =
-NULL
+nullptr
 ;
 if
 (
@@ -183,7 +183,7 @@ argv
 1
 ]
 false
-NULL
+nullptr
 )
 ;
 font_data
@@ -344,7 +344,7 @@ blob
 ;
 blob
 =
-NULL
+nullptr
 ;
 hb_font_t
 *
@@ -437,7 +437,7 @@ argv
 [
 2
 ]
-NULL
+nullptr
 0
 )
 glyphs

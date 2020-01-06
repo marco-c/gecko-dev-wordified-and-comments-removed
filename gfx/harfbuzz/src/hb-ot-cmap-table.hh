@@ -2120,7 +2120,7 @@ result
 subtable
 )
 return
-NULL
+nullptr
 ;
 return
 &

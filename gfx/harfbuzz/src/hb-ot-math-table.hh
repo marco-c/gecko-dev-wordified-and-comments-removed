@@ -1722,7 +1722,7 @@ fullAdvance
 scale
 )
 ;
-ASSERT_STATIC
+static_assert
 (
 (
 unsigned
@@ -1739,6 +1739,8 @@ PartFlags
 :
 :
 Extender
+"
+"
 )
 ;
 out

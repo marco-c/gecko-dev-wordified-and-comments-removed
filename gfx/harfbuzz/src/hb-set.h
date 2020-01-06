@@ -282,15 +282,6 @@ other
 )
 ;
 HB_EXTERN
-void
-hb_set_invert
-(
-hb_set_t
-*
-set
-)
-;
-HB_EXTERN
 unsigned
 int
 hb_set_get_population

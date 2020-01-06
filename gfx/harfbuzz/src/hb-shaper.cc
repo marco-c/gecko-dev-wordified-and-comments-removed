@@ -170,7 +170,7 @@ hb_atomic_ptr_cmpexch
 (
 &
 static_shapers
-NULL
+nullptr
 &
 all_shapers
 [
@@ -218,7 +218,7 @@ hb_atomic_ptr_cmpexch
 (
 &
 static_shapers
-NULL
+nullptr
 &
 all_shapers
 [
@@ -419,7 +419,7 @@ hb_atomic_ptr_cmpexch
 (
 &
 static_shapers
-NULL
+nullptr
 shapers
 )
 )

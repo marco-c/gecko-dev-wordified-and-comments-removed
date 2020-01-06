@@ -586,7 +586,7 @@ HB_LANGUAGE_INVALID
 (
 hb_language_t
 )
-NULL
+0
 )
 HB_EXTERN
 hb_language_t

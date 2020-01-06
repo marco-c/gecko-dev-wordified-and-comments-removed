@@ -24,7 +24,7 @@ text
 "
 json
 "
-NULL
+nullptr
 }
 ;
 const
@@ -105,7 +105,7 @@ case
 HB_BUFFER_SERIALIZE_FORMAT_INVALID
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -147,7 +147,7 @@ info
 hb_buffer_get_glyph_infos
 (
 buffer
-NULL
+nullptr
 )
 ;
 hb_glyph_position_t
@@ -160,12 +160,12 @@ flags
 HB_BUFFER_SERIALIZE_FLAG_NO_POSITIONS
 )
 ?
-NULL
+nullptr
 :
 hb_buffer_get_glyph_positions
 (
 buffer
-NULL
+nullptr
 )
 ;
 *
@@ -834,7 +834,7 @@ info
 hb_buffer_get_glyph_infos
 (
 buffer
-NULL
+nullptr
 )
 ;
 hb_glyph_position_t
@@ -847,12 +847,12 @@ flags
 HB_BUFFER_SERIALIZE_FLAG_NO_POSITIONS
 )
 ?
-NULL
+nullptr
 :
 hb_buffer_get_glyph_positions
 (
 buffer
-NULL
+nullptr
 )
 ;
 *

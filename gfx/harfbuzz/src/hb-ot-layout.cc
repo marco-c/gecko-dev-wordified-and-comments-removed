@@ -132,7 +132,7 @@ layout
 )
 )
 return
-NULL
+nullptr
 ;
 layout
 -
@@ -1227,7 +1227,7 @@ layout
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 for
@@ -1891,7 +1891,8 @@ int
 script_index
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 OT
 :
@@ -1903,6 +1904,9 @@ NOT_FOUND_INDEX
 =
 =
 HB_OT_LAYOUT_NO_SCRIPT_INDEX
+)
+"
+"
 )
 ;
 const
@@ -2005,7 +2009,8 @@ hb_tag_t
 chosen_script
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 OT
 :
@@ -2017,6 +2022,9 @@ NOT_FOUND_INDEX
 =
 =
 HB_OT_LAYOUT_NO_SCRIPT_INDEX
+)
+"
+"
 )
 ;
 const
@@ -2226,7 +2234,8 @@ int
 feature_index
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 OT
 :
@@ -2238,6 +2247,9 @@ NOT_FOUND_INDEX
 =
 =
 HB_OT_LAYOUT_NO_FEATURE_INDEX
+)
+"
+"
 )
 ;
 const
@@ -2394,7 +2406,8 @@ int
 language_index
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 OT
 :
@@ -2406,6 +2419,9 @@ NOT_FOUND_INDEX
 =
 =
 HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX
+)
+"
+"
 )
 ;
 const
@@ -2494,7 +2510,7 @@ table_tag
 script_index
 language_index
 feature_index
-NULL
+nullptr
 )
 ;
 }
@@ -2730,7 +2746,8 @@ get_lang_sys
 language_index
 )
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 sizeof
 (
@@ -2743,6 +2760,9 @@ sizeof
 (
 hb_tag_t
 )
+)
+"
+"
 )
 ;
 unsigned
@@ -2837,7 +2857,8 @@ int
 feature_index
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 OT
 :
@@ -2849,6 +2870,9 @@ NOT_FOUND_INDEX
 =
 =
 HB_OT_LAYOUT_NO_FEATURE_INDEX
+)
+"
+"
 )
 ;
 const
@@ -3192,7 +3216,7 @@ script_index
 language_index
 &
 required_feature_index
-NULL
+nullptr
 )
 )
 _hb_ot_layout_collect_lookups_lookups
@@ -3378,8 +3402,8 @@ face
 table_tag
 script_index
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 for
@@ -3492,8 +3516,8 @@ hb_ot_layout_table_get_script_tags
 face
 table_tag
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 for
@@ -3771,7 +3795,8 @@ int
 lookup_indexes
 )
 {
-ASSERT_STATIC
+static_assert
+(
 (
 OT
 :
@@ -3783,6 +3808,9 @@ NOT_FOUND_INDEX
 =
 =
 HB_OT_LAYOUT_NO_VARIATIONS_INDEX
+)
+"
+"
 )
 ;
 const

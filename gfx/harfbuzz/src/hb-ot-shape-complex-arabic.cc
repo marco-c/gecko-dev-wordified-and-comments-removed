@@ -68,7 +68,7 @@ gen_cat
 )
 \
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 gen_cat
 )
@@ -276,7 +276,7 @@ j_type
 ;
 return
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 gen_cat
 )
@@ -867,7 +867,7 @@ map
 >
 add_gsub_pause
 (
-NULL
+nullptr
 )
 ;
 for
@@ -932,7 +932,7 @@ map
 >
 add_gsub_pause
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1031,7 +1031,7 @@ map
 >
 add_gsub_pause
 (
-NULL
+nullptr
 )
 ;
 map
@@ -1143,7 +1143,7 @@ arabic_plan
 )
 )
 return
-NULL
+nullptr
 ;
 arabic_plan
 -
@@ -2110,7 +2110,7 @@ arabic_plan
 -
 >
 fallback_plan
-NULL
+nullptr
 fallback_plan
 )
 )
@@ -2673,7 +2673,7 @@ i
 DEBUG_MSG
 (
 ARABIC
-NULL
+nullptr
 "
 %
 s
@@ -2708,7 +2708,7 @@ end
 DEBUG_MSG
 (
 ARABIC
-NULL
+nullptr
 "
 rest
 of
@@ -2731,7 +2731,7 @@ w_total
 DEBUG_MSG
 (
 ARABIC
-NULL
+nullptr
 "
 fixed
 tiles
@@ -2752,7 +2752,7 @@ w_fixed
 DEBUG_MSG
 (
 ARABIC
-NULL
+nullptr
 "
 repeating
 tiles
@@ -2905,7 +2905,7 @@ n_repeating
 DEBUG_MSG
 (
 ARABIC
-NULL
+nullptr
 "
 will
 add
@@ -2993,7 +2993,7 @@ n_copies
 DEBUG_MSG
 (
 ARABIC
-NULL
+nullptr
 "
 appending
 %
@@ -3585,16 +3585,16 @@ _hb_ot_complex_shaper_arabic
 arabic
 "
 collect_features_arabic
-NULL
+nullptr
 data_create_arabic
 data_destroy_arabic
-NULL
+nullptr
 postprocess_glyphs_arabic
 HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
-NULL
-NULL
+nullptr
+nullptr
 setup_masks_arabic
-NULL
+nullptr
 reorder_marks_arabic
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 true

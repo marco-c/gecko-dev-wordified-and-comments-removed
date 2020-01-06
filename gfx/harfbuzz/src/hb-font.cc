@@ -25,6 +25,7 @@ hb_font_get_font_h_extents_nil
 hb_font_t
 *
 font
+HB_UNUSED
 void
 *
 font_data
@@ -152,6 +153,7 @@ hb_font_get_font_v_extents_nil
 hb_font_t
 *
 font
+HB_UNUSED
 void
 *
 font_data
@@ -1265,7 +1267,7 @@ HB_FONT_FUNC_IMPLEMENT
 (
 name
 )
-NULL
+nullptr
 HB_FONT_FUNCS_IMPLEMENT_CALLBACKS
 #
 undef
@@ -1278,7 +1280,7 @@ HB_FONT_FUNC_IMPLEMENT
 (
 name
 )
-NULL
+nullptr
 HB_FONT_FUNCS_IMPLEMENT_CALLBACKS
 #
 undef
@@ -1322,7 +1324,7 @@ HB_FONT_FUNC_IMPLEMENT
 (
 name
 )
-NULL
+nullptr
 HB_FONT_FUNCS_IMPLEMENT_CALLBACKS
 #
 undef
@@ -1335,7 +1337,7 @@ HB_FONT_FUNC_IMPLEMENT
 (
 name
 )
-NULL
+nullptr
 HB_FONT_FUNCS_IMPLEMENT_CALLBACKS
 #
 undef
@@ -1754,7 +1756,7 @@ user_data
 .
 name
 =
-NULL
+nullptr
 ;
 \
 ffuncs
@@ -1764,7 +1766,7 @@ destroy
 .
 name
 =
-NULL
+nullptr
 ;
 \
 }
@@ -2755,7 +2757,7 @@ font
 >
 coords
 =
-NULL
+nullptr
 ;
 else
 {
@@ -2845,7 +2847,7 @@ _hb_font_nil
 {
 HB_OBJECT_HEADER_STATIC
 true
-NULL
+nullptr
 const_cast
 <
 hb_face_t
@@ -2861,7 +2863,7 @@ _hb_face_nil
 0
 0
 0
-NULL
+nullptr
 const_cast
 <
 hb_font_funcs_t
@@ -2871,8 +2873,8 @@ hb_font_funcs_t
 &
 _hb_font_funcs_nil
 )
-NULL
-NULL
+nullptr
+nullptr
 {
 #
 define
@@ -3713,7 +3715,7 @@ variations_length
 hb_font_set_var_coords_normalized
 (
 font
-NULL
+nullptr
 0
 )
 ;
@@ -3751,7 +3753,7 @@ int
 )
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -3829,7 +3831,7 @@ int
 )
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -3909,7 +3911,7 @@ coords
 )
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -4074,7 +4076,7 @@ trampoline
 )
 )
 return
-NULL
+nullptr
 ;
 trampoline
 -

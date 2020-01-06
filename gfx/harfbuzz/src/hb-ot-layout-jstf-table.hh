@@ -262,7 +262,7 @@ JstfLangSys
 sanitize_closure_t
 *
 =
-NULL
+nullptr
 )
 const
 {
@@ -472,7 +472,7 @@ JstfScript
 sanitize_closure_t
 *
 =
-NULL
+nullptr
 )
 const
 {

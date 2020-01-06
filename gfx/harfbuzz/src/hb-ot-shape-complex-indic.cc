@@ -722,7 +722,7 @@ return
 !
 !
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 info
 .
@@ -944,7 +944,8 @@ cat
 =
 OT_Symbol
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 (
 int
@@ -953,6 +954,9 @@ INDIC_SYLLABIC_CATEGORY_AVAGRAHA
 =
 =
 OT_Symbol
+)
+"
+"
 )
 ;
 }
@@ -1134,7 +1138,7 @@ OT_DOTTEDCIRCLE
 if
 (
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 cat
 )
@@ -1181,7 +1185,7 @@ else
 if
 (
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 cat
 )
@@ -2055,7 +2059,7 @@ map
 >
 add_gsub_pause
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2529,7 +2533,7 @@ indic_plan
 )
 )
 return
-NULL
+nullptr
 ;
 indic_plan
 -
@@ -4488,7 +4492,7 @@ i
 if
 (
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 info
 [
@@ -7266,7 +7270,7 @@ end
 &
 !
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 info
 [
@@ -7895,7 +7899,7 @@ start
 |
 !
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 _hb_glyph_info_get_general_category
 (
@@ -8451,14 +8455,14 @@ collect_features_indic
 override_features_indic
 data_create_indic
 data_destroy_indic
-NULL
-NULL
+nullptr
+nullptr
 HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 decompose_indic
 compose_indic
 setup_masks_indic
-NULL
-NULL
+nullptr
+nullptr
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 }

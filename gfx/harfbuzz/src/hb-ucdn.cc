@@ -430,7 +430,7 @@ _hb_ucdn_unicode_funcs
 =
 {
 HB_OBJECT_HEADER_STATIC
-NULL
+nullptr
 true
 {
 #

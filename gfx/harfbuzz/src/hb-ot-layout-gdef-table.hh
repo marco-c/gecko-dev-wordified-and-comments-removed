@@ -1762,7 +1762,8 @@ get_glyph_class
 glyph
 )
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 (
 unsigned
@@ -1780,8 +1781,12 @@ LookupFlag
 :
 IgnoreBaseGlyphs
 )
+"
+"
+)
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 (
 unsigned
@@ -1799,8 +1804,12 @@ LookupFlag
 :
 IgnoreLigatures
 )
+"
+"
+)
 ;
-ASSERT_STATIC
+static_assert
+(
 (
 (
 unsigned
@@ -1817,6 +1826,9 @@ LookupFlag
 :
 :
 IgnoreMarks
+)
+"
+"
 )
 ;
 switch

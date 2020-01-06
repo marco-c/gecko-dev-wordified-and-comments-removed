@@ -1222,7 +1222,7 @@ gen_cat
 )
 \
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 gen_cat
 )
@@ -1255,7 +1255,7 @@ gen_cat
 )
 \
 (
-FLAG_SAFE
+FLAG_UNSAFE
 (
 gen_cat
 )

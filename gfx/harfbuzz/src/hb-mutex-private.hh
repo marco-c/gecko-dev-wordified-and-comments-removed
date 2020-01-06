@@ -206,7 +206,7 @@ M
 pthread_mutex_init
 (
 M
-NULL
+nullptr
 )
 #
 define

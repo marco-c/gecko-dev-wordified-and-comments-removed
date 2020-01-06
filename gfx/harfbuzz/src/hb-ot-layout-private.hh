@@ -42,6 +42,8 @@ hb
 -
 set
 -
+digest
+-
 private
 .
 hh
@@ -766,6 +768,7 @@ props
 =
 UPROPS_MASK_Cf_ZWNJ
 ;
+else
 if
 (
 u
@@ -778,6 +781,7 @@ props
 =
 UPROPS_MASK_Cf_ZWJ
 ;
+else
 if
 (
 unlikely
@@ -795,6 +799,7 @@ props
 =
 UPROPS_MASK_HIDDEN
 ;
+else
 if
 (
 unlikely
@@ -805,6 +810,22 @@ u
 0xE0020u
 0xE007Fu
 )
+)
+)
+props
+|
+=
+UPROPS_MASK_HIDDEN
+;
+else
+if
+(
+unlikely
+(
+u
+=
+=
+0x034Fu
 )
 )
 props

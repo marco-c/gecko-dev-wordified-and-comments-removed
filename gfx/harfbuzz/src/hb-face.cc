@@ -64,9 +64,9 @@ _hb_face_nil
 {
 HB_OBJECT_HEADER_STATIC
 true
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 0
 1000
 0
@@ -93,7 +93,7 @@ hh
 undef
 HB_SHAPER_IMPLEMENT
 }
-NULL
+nullptr
 }
 ;
 hb_face_t
@@ -247,7 +247,7 @@ closure
 )
 )
 return
-NULL
+nullptr
 ;
 closure
 -

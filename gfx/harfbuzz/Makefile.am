@@ -49,6 +49,14 @@ CMakeLists
 .
 txt
 \
+replace
+-
+enum
+-
+strings
+.
+cmake
+\
 (
 NULL
 )

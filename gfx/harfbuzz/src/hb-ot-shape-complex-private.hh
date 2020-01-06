@@ -657,7 +657,7 @@ e
 f
 '
 )
-NULL
+nullptr
 )
 )
 return
