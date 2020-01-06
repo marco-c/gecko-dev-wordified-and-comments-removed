@@ -12242,6 +12242,8 @@ responseHead
 nsILoadContextInfo
 *
 lci
+bool
+isTracking
 )
 {
 MOZ_ASSERT
@@ -12391,6 +12393,7 @@ lci
 OriginAttributesPtr
 (
 )
+isTracking
 )
 ;
 }
@@ -12417,6 +12420,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+isTracking
 )
 {
 PREDICTOR_LOG
@@ -12591,6 +12596,7 @@ CacheabilityAction
 targetURI
 httpStatus
 method
+isTracking
 this
 )
 ;
@@ -13064,6 +13070,10 @@ GET
 &
 !
 hasQueryString
+&
+&
+!
+mIsTracking
 )
 {
 PREDICTOR_LOG

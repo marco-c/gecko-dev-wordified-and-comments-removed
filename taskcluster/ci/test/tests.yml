@@ -786,9 +786,9 @@ test
 -
 platform
 :
-windows7
+windows10
 -
-32
+64
 /
 debug
 :
@@ -1819,9 +1819,9 @@ jsdcov
 opt
 :
 false
-windows7
+windows10
 -
-32
+64
 /
 debug
 :
@@ -5583,9 +5583,9 @@ test
 -
 platform
 :
-windows7
+windows10
 -
-32
+64
 /
 debug
 :
@@ -6065,9 +6065,9 @@ jsdcov
 opt
 :
 false
-windows7
+windows10
 -
-32
+64
 /
 debug
 :

@@ -878,15 +878,6 @@ aResult
 break
 ;
 case
-eIntID_PhysicalHomeButton
-:
-aResult
-=
-0
-;
-break
-;
-case
 eIntID_ScrollbarDisplayOnMouseMove
 :
 aResult
