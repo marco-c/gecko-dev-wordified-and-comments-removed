@@ -136,6 +136,16 @@ DecoderDoctorDiagnostics
 aDiagnostics
 )
 ;
+static
+bool
+IsHttpLiveStreamingType
+(
+const
+MediaContainerType
+&
+aType
+)
+;
 }
 ;
 }
