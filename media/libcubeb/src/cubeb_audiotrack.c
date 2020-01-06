@@ -766,10 +766,7 @@ klass
 get_min_frame_count
 (
 min_frame_count
-params
--
->
-stream_type
+AUDIO_STREAM_TYPE_MUSIC
 params
 -
 >
@@ -789,10 +786,7 @@ klass
 get_min_frame_count_gingerbread
 (
 min_frame_count
-params
--
->
-stream_type
+AUDIO_STREAM_TYPE_MUSIC
 params
 -
 >
@@ -1697,12 +1691,7 @@ stm
 -
 >
 instance
-stm
--
->
-params
-.
-stream_type
+AUDIO_STREAM_TYPE_MUSIC
 stm
 -
 >

@@ -180,15 +180,6 @@ CUBEB_SAMPLE_FLOAT32NE
 preferred_rate
 max_channels
 CUBEB_LAYOUT_UNDEFINED
-#
-if
-defined
-(
-__ANDROID__
-)
-CUBEB_STREAM_TYPE_MUSIC
-#
-endif
 }
 ;
 r
