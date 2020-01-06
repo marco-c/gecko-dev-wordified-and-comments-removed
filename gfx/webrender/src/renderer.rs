@@ -5478,6 +5478,8 @@ options
 .
 enable_scrollbars
 default_font_render_mode
+:
+default_font_render_mode
 debug
 :
 options
