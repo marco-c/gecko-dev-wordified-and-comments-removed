@@ -445,7 +445,7 @@ if
 (
 mEventQueue
 .
-HasPendingEvent
+HasReadyEvent
 (
 lock
 )

@@ -577,7 +577,7 @@ return
 mBaseQueue
 -
 >
-HasPendingEvent
+HasReadyEvent
 (
 lock
 )
@@ -595,7 +595,7 @@ LastElement
 mQueue
 -
 >
-HasPendingEvent
+HasReadyEvent
 (
 lock
 )
@@ -633,11 +633,10 @@ IsEmpty
 )
 &
 &
-!
 mBaseQueue
 -
 >
-HasPendingEvent
+IsEmpty
 (
 lock
 )
