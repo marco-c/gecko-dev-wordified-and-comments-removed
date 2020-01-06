@@ -275,14 +275,12 @@ virtualenv
 pip
 install
 "
-treeherder
--
-client
+boto3
 >
 =
-3
+1
 .
-0
+4
 .
 0
 "
