@@ -148,6 +148,9 @@ class
 PCompositorBridgeChild
 ;
 class
+PCompositorManagerChild
+;
+class
 PImageBridgeChild
 ;
 class
@@ -265,6 +268,13 @@ typedef
 layers
 :
 :
+PCompositorManagerChild
+PCompositorManagerChild
+;
+typedef
+layers
+:
+:
 PImageBridgeChild
 PImageBridgeChild
 ;
@@ -360,7 +370,7 @@ ipc
 :
 Endpoint
 <
-PCompositorBridgeChild
+PCompositorManagerChild
 >
 *
 aOutCompositor
@@ -589,7 +599,7 @@ OnXPCOMShutdown
 )
 ;
 bool
-CreateContentCompositorBridge
+CreateContentCompositorManager
 (
 base
 :
@@ -601,7 +611,7 @@ ipc
 :
 Endpoint
 <
-PCompositorBridgeChild
+PCompositorManagerChild
 >
 *
 aOutEndpoint
@@ -725,6 +735,11 @@ EnsureVsyncIOThread
 ;
 void
 ShutdownVsyncIOThread
+(
+)
+;
+void
+EnsureCompositorManagerChild
 (
 )
 ;

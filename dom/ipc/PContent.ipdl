@@ -124,7 +124,7 @@ PBrowser
 ;
 include
 protocol
-PCompositorBridge
+PCompositorManager
 ;
 include
 protocol
@@ -1830,7 +1830,7 @@ InitRendering
 (
 Endpoint
 <
-PCompositorBridgeChild
+PCompositorManagerChild
 >
 compositor
 Endpoint
@@ -1906,7 +1906,7 @@ ReinitRendering
 (
 Endpoint
 <
-PCompositorBridgeChild
+PCompositorManagerChild
 >
 compositor
 Endpoint
