@@ -968,6 +968,9 @@ RECONSTRUCT_FLOW
 [
 get_box
 .
+clear
+get_box
+.
 float
 get_box
 .
