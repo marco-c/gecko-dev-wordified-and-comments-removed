@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDOMHTMLAreaElement
-.
-h
-"
-#
-include
-"
 nsITransferable
 .
 h
