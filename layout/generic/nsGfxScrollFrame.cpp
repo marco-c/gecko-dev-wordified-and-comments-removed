@@ -16001,6 +16001,7 @@ nsDisplayLayerEventRegions
 (
 aBuilder
 mScrolledFrame
+1
 )
 ;
 inactiveRegionItem
@@ -16008,6 +16009,7 @@ inactiveRegionItem
 >
 AddInactiveScrollPort
 (
+mScrolledFrame
 mScrollPort
 +
 aBuilder
