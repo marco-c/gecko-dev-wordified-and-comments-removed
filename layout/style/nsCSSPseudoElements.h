@@ -193,6 +193,13 @@ aAtom
 )
 ;
 static
+const
+size_t
+kEagerPseudoCount
+=
+4
+;
+static
 bool
 IsEagerlyCascadedInServo
 (
