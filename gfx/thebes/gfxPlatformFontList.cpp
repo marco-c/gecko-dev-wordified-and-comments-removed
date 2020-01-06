@@ -2771,7 +2771,7 @@ continue
 }
 if
 (
-fontEntry
+family
 -
 >
 SupportsLangGroup
@@ -2780,7 +2780,7 @@ aLangGroup
 )
 &
 &
-fontEntry
+family
 -
 >
 MatchesGenericFamily
