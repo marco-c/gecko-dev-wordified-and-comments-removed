@@ -73,11 +73,6 @@ GuardIsProxy
 \
 _
 (
-GuardIsCrossCompartmentWrapper
-)
-\
-_
-(
 GuardNotDOMProxy
 )
 \
@@ -114,6 +109,11 @@ GuardNoDenseElements
 _
 (
 GuardAndGetIndexFromString
+)
+\
+_
+(
+GuardIndexIsNonNegative
 )
 \
 _
