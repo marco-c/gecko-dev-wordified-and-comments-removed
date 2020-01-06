@@ -458,6 +458,11 @@ cx
 activation
 (
 )
+-
+>
+asJit
+(
+)
 )
 {
 stack

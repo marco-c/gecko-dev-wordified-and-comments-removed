@@ -1302,6 +1302,13 @@ MaxFunctionBytes
 *
 1024
 ;
+static
+const
+unsigned
+FailFP
+=
+0xbad
+;
 }
 }
 #

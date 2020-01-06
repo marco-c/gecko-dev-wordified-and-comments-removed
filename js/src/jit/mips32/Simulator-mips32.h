@@ -55,12 +55,12 @@ h
 namespace
 js
 {
-class
-WasmActivation
-;
 namespace
 jit
 {
+class
+JitActivation
+;
 class
 Simulator
 ;
@@ -1003,7 +1003,7 @@ handleWasmInterrupt
 void
 startInterrupt
 (
-WasmActivation
+JitActivation
 *
 act
 )

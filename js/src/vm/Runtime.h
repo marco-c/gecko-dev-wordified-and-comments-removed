@@ -479,9 +479,6 @@ Activation
 class
 ActivationIterator
 ;
-class
-WasmActivation
-;
 namespace
 jit
 {
@@ -1070,13 +1067,6 @@ jit
 :
 :
 JitActivation
-;
-friend
-class
-js
-:
-:
-WasmActivation
 ;
 friend
 class

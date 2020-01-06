@@ -155,7 +155,7 @@ function
 "
 <
 <
-JitFrame_Entry
+JitFrame_CppToJSJit
 >
 >
 "

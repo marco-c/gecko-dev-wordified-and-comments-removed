@@ -8659,7 +8659,7 @@ Simulator
 :
 startInterrupt
 (
-WasmActivation
+JitActivation
 *
 activation
 )

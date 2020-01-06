@@ -57,9 +57,6 @@ JSContext
 cx
 )
 ;
-class
-WasmActivation
-;
 namespace
 wasm
 {

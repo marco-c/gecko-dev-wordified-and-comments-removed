@@ -38,9 +38,6 @@ class
 Debugger
 ;
 class
-WasmActivation
-;
-class
 WasmBreakpoint
 ;
 class
