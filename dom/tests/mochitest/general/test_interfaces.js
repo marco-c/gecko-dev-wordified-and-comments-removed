@@ -277,6 +277,12 @@ interfaceNamesInGlobalScope
 =
 [
 "
+AbortController
+"
+"
+AbortSignal
+"
+"
 AnalyserNode
 "
 {

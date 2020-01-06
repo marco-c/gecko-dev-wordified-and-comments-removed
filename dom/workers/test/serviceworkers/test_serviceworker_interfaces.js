@@ -201,6 +201,12 @@ interfaceNamesInGlobalScope
 =
 [
 "
+AbortController
+"
+"
+AbortSignal
+"
+"
 Blob
 "
 "
