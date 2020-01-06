@@ -19058,12 +19058,15 @@ self
 gecko
 .
 mScriptLevel
--
+.
+saturating_sub
+(
 parent
 .
 gecko
 .
 mScriptLevel
+)
 ;
 let
 parent_size
