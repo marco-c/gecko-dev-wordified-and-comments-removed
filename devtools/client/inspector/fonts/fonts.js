@@ -336,13 +336,6 @@ onShowAllFont
 this
 .
 onShowAllFont
-onTextBoxContextMenu
-:
-this
-.
-inspector
-.
-onTextBoxContextMenu
 }
 )
 ;
