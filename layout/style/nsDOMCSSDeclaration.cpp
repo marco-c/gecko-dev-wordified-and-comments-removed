@@ -1432,6 +1432,9 @@ ModifyDeclaration
 &
 ]
 (
+css
+:
+:
 Declaration
 *
 decl
@@ -1555,6 +1558,9 @@ ModifyDeclaration
 &
 ]
 (
+css
+:
+:
 Declaration
 *
 decl
