@@ -2321,16 +2321,9 @@ false
 "
 VTTCue
 "
-{
-name
-:
 "
 VTTRegion
 "
-disabled
-:
-true
-}
 "
 WaveShaperNode
 "
