@@ -758,6 +758,8 @@ develop
 talos
 -
 venv
+^
+py3venv
 #
 Ignore
 files
