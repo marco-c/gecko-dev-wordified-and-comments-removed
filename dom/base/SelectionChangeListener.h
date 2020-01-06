@@ -61,7 +61,7 @@ nsCOMPtr
 <
 nsINode
 >
-mEndParent
+mEndContainer
 ;
 uint32_t
 mStartOffset

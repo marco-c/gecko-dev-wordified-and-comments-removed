@@ -1573,7 +1573,7 @@ mStartContainer
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mEndParent
+mEndContainer
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -2113,7 +2113,7 @@ if
 parentNode
 =
 =
-mEndParent
+mEndContainer
 &
 &
 mEndOffset
@@ -2375,7 +2375,7 @@ IsInSelection
 mStartContainer
 =
 =
-mEndParent
+mEndContainer
 ;
 if
 (
@@ -2459,7 +2459,7 @@ if
 aContent
 =
 =
-mEndParent
+mEndContainer
 &
 &
 aInfo
@@ -2592,7 +2592,7 @@ IsInSelection
 mStartContainer
 =
 =
-mEndParent
+mEndContainer
 ;
 if
 (
@@ -2629,7 +2629,7 @@ SetDescendantOfCommonAncestorForRangeInSelection
 else
 if
 (
-mEndParent
+mEndContainer
 -
 >
 IsDescendantOfCommonAncestorForRangeInSelection
@@ -2778,7 +2778,7 @@ if
 removed
 =
 =
-mEndParent
+mEndContainer
 )
 {
 newEndOffset
@@ -2886,7 +2886,7 @@ if
 parentNode
 =
 =
-mEndParent
+mEndContainer
 &
 &
 mEndOffset
@@ -2963,7 +2963,7 @@ newEndNode
 {
 newEndNode
 =
-mEndParent
+mEndContainer
 ;
 newEndOffset
 =
@@ -3241,7 +3241,7 @@ if
 container
 =
 =
-mEndParent
+mEndContainer
 &
 &
 aIndexInContainer
@@ -3483,7 +3483,7 @@ if
 container
 =
 =
-mEndParent
+mEndContainer
 )
 {
 if
@@ -3508,7 +3508,7 @@ didCheckStartParentDescendant
 mStartContainer
 =
 =
-mEndParent
+mEndContainer
 )
 {
 gravitateEnd
@@ -3525,7 +3525,7 @@ nsContentUtils
 :
 ContentIsDescendantOf
 (
-mEndParent
+mEndContainer
 aChild
 )
 ;
@@ -3558,7 +3558,7 @@ gravitateEnd
 ?
 container
 :
-mEndParent
+mEndContainer
 .
 get
 (
@@ -3686,13 +3686,13 @@ newRoot
 =
 IsValidBoundary
 (
-mEndParent
+mEndContainer
 )
 )
 {
 NS_ASSERTION
 (
-mEndParent
+mEndContainer
 -
 >
 IsInNativeAnonymousSubtree
@@ -3726,7 +3726,7 @@ DoSetRange
 (
 mStartContainer
 mStartOffset
-mEndParent
+mEndContainer
 mEndOffset
 newRoot
 )
@@ -4041,7 +4041,7 @@ nsContentUtils
 :
 ComparePoints
 (
-mEndParent
+mEndContainer
 mEndOffset
 &
 aParent
@@ -4219,7 +4219,7 @@ ComparePoints
 (
 parent
 nodeIndex
-mEndParent
+mEndContainer
 mEndOffset
 &
 disconnected
@@ -4530,7 +4530,7 @@ mStartContainer
 aStartN
 |
 |
-mEndParent
+mEndContainer
 !
 =
 aEndN
@@ -4565,7 +4565,7 @@ mStartOffset
 =
 aStartOffset
 ;
-mEndParent
+mEndContainer
 =
 aEndN
 ;
@@ -4818,7 +4818,7 @@ nsContentUtils
 GetCommonAncestor
 (
 mStartContainer
-mEndParent
+mEndContainer
 )
 :
 nullptr
@@ -4988,7 +4988,7 @@ NS_ERROR_NOT_INITIALIZED
 return
 CallQueryInterface
 (
-mEndParent
+mEndContainer
 aEndParent
 )
 ;
@@ -5024,7 +5024,7 @@ nullptr
 ;
 }
 return
-mEndParent
+mEndContainer
 ;
 }
 NS_IMETHODIMP
@@ -5155,7 +5155,7 @@ nsContentUtils
 GetCommonAncestor
 (
 mStartContainer
-mEndParent
+mEndContainer
 )
 ;
 }
@@ -5653,7 +5653,7 @@ ComparePoints
 (
 aParent
 aOffset
-mEndParent
+mEndContainer
 mEndOffset
 )
 =
@@ -5678,7 +5678,7 @@ DoSetRange
 (
 aParent
 aOffset
-mEndParent
+mEndContainer
 mEndOffset
 mRoot
 )
@@ -6848,9 +6848,9 @@ else
 {
 DoSetRange
 (
-mEndParent
+mEndContainer
 mEndOffset
-mEndParent
+mEndContainer
 mEndOffset
 mRoot
 )
@@ -8635,7 +8635,7 @@ nsINode
 >
 endContainer
 =
-mEndParent
+mEndContainer
 ;
 int32_t
 endOffset
@@ -9944,7 +9944,7 @@ START_TO_END
 :
 ourNode
 =
-mEndParent
+mEndContainer
 ;
 ourOffset
 =
@@ -10008,7 +10008,7 @@ END_TO_END
 :
 ourNode
 =
-mEndParent
+mEndContainer
 ;
 ourOffset
 =
@@ -10537,7 +10537,7 @@ IsElement
 node
 =
 =
-mEndParent
+mEndContainer
 &
 &
 mEndOffset
@@ -10625,7 +10625,7 @@ if
 node
 =
 =
-mEndParent
+mEndContainer
 )
 {
 uint32_t
@@ -11057,7 +11057,7 @@ DoSetRange
 (
 mStartContainer
 mStartOffset
-mEndParent
+mEndContainer
 mEndOffset
 mRoot
 )
@@ -11705,7 +11705,7 @@ if
 mStartContainer
 !
 =
-mEndParent
+mEndContainer
 )
 {
 bool
@@ -11725,7 +11725,7 @@ eTEXT
 bool
 endIsText
 =
-mEndParent
+mEndContainer
 -
 >
 IsNodeOfType
@@ -11751,7 +11751,7 @@ nsINode
 *
 endGrandParent
 =
-mEndParent
+mEndContainer
 -
 >
 GetParentNode
@@ -11789,7 +11789,7 @@ startGrandParent
 startGrandParent
 =
 =
-mEndParent
+mEndContainer
 )
 |
 |
@@ -12120,7 +12120,7 @@ if
 mStartContainer
 =
 =
-mEndParent
+mEndContainer
 )
 {
 nsCOMPtr
@@ -12353,7 +12353,7 @@ if
 n
 =
 =
-mEndParent
+mEndContainer
 )
 {
 textNode
@@ -13606,7 +13606,7 @@ nullptr
 this
 mStartContainer
 mStartOffset
-mEndParent
+mEndContainer
 mEndOffset
 aClampToEdge
 aFlushLayout
@@ -13736,7 +13736,7 @@ nullptr
 this
 mStartContainer
 mStartOffset
-mEndParent
+mEndContainer
 mEndOffset
 aClampToEdge
 aFlushLayout
@@ -13818,7 +13818,7 @@ mTextList
 this
 mStartContainer
 mStartOffset
-mEndParent
+mEndContainer
 mEndOffset
 true
 true
@@ -13867,7 +13867,7 @@ endContainer
 =
 do_QueryInterface
 (
-mEndParent
+mEndContainer
 )
 ;
 nsIDocument
@@ -14440,7 +14440,7 @@ mIsPositioned
 ;
 MOZ_ASSERT
 (
-mEndParent
+mEndContainer
 )
 ;
 MOZ_ASSERT
@@ -14751,7 +14751,7 @@ endParent
 range
 -
 >
-mEndParent
+mEndContainer
 ;
 int32_t
 endOffset

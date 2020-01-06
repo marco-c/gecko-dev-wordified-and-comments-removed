@@ -11351,7 +11351,7 @@ nsCOMPtr
 <
 nsINode
 >
-mEndNode
+mEndContainer
 ;
 int32_t
 mStartOffset
@@ -11529,7 +11529,7 @@ StartOffset
 ;
 range
 .
-mEndNode
+mEndContainer
 =
 r
 -
@@ -11963,7 +11963,7 @@ if
 (
 range
 .
-mEndNode
+mEndContainer
 =
 =
 &
@@ -11981,7 +11981,7 @@ aOffset
 {
 range
 .
-mEndNode
+mEndContainer
 =
 &
 aNewLeftNode
@@ -12020,7 +12020,7 @@ range
 mStartOffset
 range
 .
-mEndNode
+mEndContainer
 range
 .
 mEndOffset
@@ -12309,7 +12309,7 @@ StartOffset
 ;
 range
 .
-mEndNode
+mEndContainer
 =
 r
 -
@@ -12378,7 +12378,7 @@ if
 (
 range
 .
-mEndNode
+mEndContainer
 =
 =
 parent
@@ -12401,7 +12401,7 @@ keepOffset
 {
 range
 .
-mEndNode
+mEndContainer
 =
 aNodeToJoin
 ;
@@ -12754,7 +12754,7 @@ if
 (
 range
 .
-mEndNode
+mEndContainer
 =
 =
 aNodeToJoin
@@ -12762,7 +12762,7 @@ aNodeToJoin
 {
 range
 .
-mEndNode
+mEndContainer
 =
 aNodeToKeep
 ;
@@ -12772,7 +12772,7 @@ if
 (
 range
 .
-mEndNode
+mEndContainer
 =
 =
 aNodeToKeep
@@ -12808,7 +12808,7 @@ range
 mStartOffset
 range
 .
-mEndNode
+mEndContainer
 range
 .
 mEndOffset

@@ -118,10 +118,10 @@ nsCOMPtr
 <
 nsINode
 >
-endNode
+mEndContainer
 ;
 int32_t
-endOffset
+mEndOffset
 ;
 }
 ;
@@ -682,7 +682,7 @@ mNode
 mRangeItem
 -
 >
-endNode
+mEndContainer
 =
 *
 mNode
@@ -698,7 +698,7 @@ mOffset
 mRangeItem
 -
 >
-endOffset
+mEndOffset
 =
 *
 mOffset
@@ -765,7 +765,7 @@ mDOMNode
 mRangeItem
 -
 >
-endNode
+mEndContainer
 =
 do_QueryInterface
 (
@@ -784,7 +784,7 @@ mOffset
 mRangeItem
 -
 >
-endOffset
+mEndOffset
 =
 *
 mOffset
