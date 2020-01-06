@@ -79,6 +79,15 @@ CSSImportRule
 :
 GetStyleSheet
 ;
+using
+dom
+:
+:
+CSSImportRule
+:
+:
+GetMedia
+;
 #
 ifdef
 DEBUG
@@ -149,7 +158,7 @@ dom
 :
 MediaList
 *
-Media
+GetMedia
 (
 )
 const

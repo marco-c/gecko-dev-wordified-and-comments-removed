@@ -141,7 +141,7 @@ dom
 :
 MediaList
 *
-Media
+GetMedia
 (
 )
 const

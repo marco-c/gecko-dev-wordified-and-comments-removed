@@ -98,12 +98,12 @@ NS_ENSURE_ARG_POINTER
 aMedia
 )
 ;
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aMedia
 =
-Media
+GetMedia
 (
 )
 )
