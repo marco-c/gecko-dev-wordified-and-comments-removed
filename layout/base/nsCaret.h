@@ -326,6 +326,11 @@ aOffset
 void
 SchedulePaint
 (
+nsISelection
+*
+aSelection
+=
+nullptr
 )
 ;
 nsIFrame
