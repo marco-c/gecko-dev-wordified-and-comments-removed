@@ -38,6 +38,10 @@ extern
 crate
 time
 ;
+extern
+crate
+url
+;
 #
 [
 macro_use
@@ -49,6 +53,10 @@ macros
 pub
 mod
 httpapi
+;
+pub
+mod
+capabilities
 ;
 pub
 mod

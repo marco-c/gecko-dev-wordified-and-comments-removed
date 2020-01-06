@@ -476,7 +476,7 @@ sessionId
 :
 String
 pub
-value
+capabilities
 :
 json
 :
@@ -493,7 +493,7 @@ new
 session_id
 :
 String
-value
+capabilities
 :
 json
 :
@@ -506,9 +506,9 @@ NewSessionResponse
 {
 NewSessionResponse
 {
-value
+capabilities
 :
-value
+capabilities
 sessionId
 :
 session_id
@@ -1601,7 +1601,7 @@ sessionId
 test
 "
 "
-value
+capabilities
 "
 :
 {
