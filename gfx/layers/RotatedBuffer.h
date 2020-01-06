@@ -501,6 +501,12 @@ mDidSelfCopy
 false
 ;
 }
+ContentType
+GetContentType
+(
+)
+const
+;
 virtual
 bool
 IsLocked
