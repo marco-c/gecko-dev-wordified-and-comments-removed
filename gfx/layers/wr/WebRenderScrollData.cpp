@@ -616,9 +616,10 @@ ref
 layers
 id
 :
+0x
 %
 "
-PRIu64
+PRIx64
 "
 \
 n
