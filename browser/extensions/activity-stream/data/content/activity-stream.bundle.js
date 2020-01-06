@@ -7992,10 +7992,10 @@ input
 .
 parentNode
 "
-activitystream
+newtab
 "
 "
-activitystream
+newtab
 "
 )
 ;
