@@ -1711,6 +1711,10 @@ mCanceled
 =
 true
 ;
+mForceDispatchLoadGroup
+=
+true
+;
 if
 (
 GetOwner
@@ -1730,10 +1734,6 @@ aStatus
 )
 ;
 }
-mForceDispatchLoadGroup
-=
-true
-;
 RemoveFromLoadGroup
 (
 )
