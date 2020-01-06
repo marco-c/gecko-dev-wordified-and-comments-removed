@@ -1226,7 +1226,6 @@ arch
 '
 ]
 )
-;
     
 return
 d
