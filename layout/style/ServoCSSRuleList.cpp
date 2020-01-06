@@ -115,8 +115,15 @@ already_AddRefed
 ServoCssRules
 >
 aRawRules
+ServoStyleSheet
+*
+aDirectOwnerStyleSheet
 )
 :
+mStyleSheet
+(
+aDirectOwnerStyleSheet
+)
 mRawRules
 (
 aRawRules

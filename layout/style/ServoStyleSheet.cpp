@@ -954,13 +954,6 @@ rawRules
 forget
 (
 )
-)
-;
-mRuleList
--
->
-SetStyleSheet
-(
 this
 )
 ;

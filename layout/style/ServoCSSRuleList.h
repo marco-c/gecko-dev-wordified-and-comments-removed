@@ -62,7 +62,6 @@ CSSRuleList
 {
 public
 :
-explicit
 ServoCSSRuleList
 (
 already_AddRefed
@@ -70,6 +69,9 @@ already_AddRefed
 ServoCssRules
 >
 aRawRules
+ServoStyleSheet
+*
+aDirectOwnerStyleSheet
 )
 ;
 css
