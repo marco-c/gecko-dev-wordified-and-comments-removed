@@ -846,7 +846,7 @@ panel
 .
 firstChild
 .
-_primaryButton
+button
 .
 click
 (

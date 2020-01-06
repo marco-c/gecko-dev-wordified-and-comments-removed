@@ -559,10 +559,10 @@ Assert
 ok
 (
 !
-(
 overlay
-&
-&
+|
+|
+!
 overlay
 .
 classList
@@ -572,7 +572,6 @@ contains
 "
 visible
 "
-)
 )
 "
 Test
@@ -763,10 +762,10 @@ Assert
 ok
 (
 !
-(
 overlay
-&
-&
+|
+|
+!
 overlay
 .
 classList
@@ -776,7 +775,6 @@ contains
 "
 visible
 "
-)
 )
 "
 Test
@@ -969,7 +967,7 @@ panel
 .
 firstChild
 .
-_primaryButton
+button
 .
 click
 (
