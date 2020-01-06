@@ -3061,6 +3061,16 @@ GetDrawTarget
 )
 ;
 }
+mSourceCtx
+-
+>
+SetMatrix
+(
+gfxMatrix
+(
+)
+)
+;
 gfxRect
 clippedFrameSurfaceRect
 =
@@ -3069,10 +3079,6 @@ mSourceCtx
 >
 GetClipExtents
 (
-gfxContext
-:
-:
-eDeviceSpace
 )
 ;
 clippedFrameSurfaceRect
