@@ -24,6 +24,31 @@ OS_ARCH
 Darwin
 '
     
+is_mingw
+=
+"
+WINNT
+"
+=
+=
+buildconfig
+.
+substs
+[
+'
+OS_ARCH
+'
+]
+and
+buildconfig
+.
+substs
+[
+'
+GCC_USE_GNU_LD
+'
+]
+    
 with
 open
 (
@@ -51,6 +76,9 @@ rstrip
 )
             
 if
+not
+is_mingw
+and
 '
 ;
 -
@@ -87,6 +115,11 @@ DATA
 '
 )
             
+if
+not
+is_mingw
+:
+                
 line
 =
 line
@@ -136,6 +169,8 @@ i
                 
 if
 is_darwin
+or
+is_mingw
 :
                     
 line

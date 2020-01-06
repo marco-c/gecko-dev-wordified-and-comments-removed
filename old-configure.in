@@ -8033,12 +8033,14 @@ calls
 .
 MOZ_FOLD_LIBS_FLAGS
 =
+"
 -
 mnop
 -
 fun
 -
 dllimport
+"
 else
 TARGET_COMPILER_ABI
 =
@@ -47125,7 +47127,7 @@ AC_SUBST
 (
 MOZ_FOLD_LIBS
 )
-AC_SUBST
+AC_SUBST_LIST
 (
 MOZ_FOLD_LIBS_FLAGS
 )
