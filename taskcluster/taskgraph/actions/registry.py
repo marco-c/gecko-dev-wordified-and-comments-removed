@@ -2030,9 +2030,9 @@ HG_STORE_PATH
 :
 '
 /
-home
-/
 builds
+/
+worker
 /
 checkouts
 /
