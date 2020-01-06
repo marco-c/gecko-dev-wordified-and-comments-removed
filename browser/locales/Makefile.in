@@ -2263,8 +2263,6 @@ PWD
 WEBEXT_LANGPACKS
 =
 1
-MOZ_SIMPLE_PACKAGE_NAME
-=
 (
 MAKE
 )
@@ -2275,8 +2273,6 @@ langpack
 x
 -
 test
-MOZ_SIMPLE_PACKAGE_NAME
-=
 (
 MAKE
 )
@@ -2289,8 +2285,6 @@ l10n
 x
 -
 test
-MOZ_SIMPLE_PACKAGE_NAME
-=
 #
 Helper
 rules
