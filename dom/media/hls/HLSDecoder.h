@@ -170,7 +170,7 @@ return
 false
 ;
 }
-RefPtr
+UniquePtr
 <
 HLSResource
 >
