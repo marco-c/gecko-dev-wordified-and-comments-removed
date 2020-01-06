@@ -8740,6 +8740,13 @@ _starButtonOverflowedStarredLabel
 }
 else
 {
+if
+(
+AppConstants
+.
+MOZ_PHOTON_ANIMATIONS
+)
+{
 this
 .
 star
@@ -8751,6 +8758,7 @@ animate
 "
 )
 ;
+}
 this
 .
 broadcaster
