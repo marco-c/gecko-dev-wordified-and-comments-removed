@@ -4455,6 +4455,14 @@ aPipelineId
 )
 )
 ;
+mApi
+-
+>
+RemovePipeline
+(
+aPipelineId
+)
+;
 return
 IPC_OK
 (

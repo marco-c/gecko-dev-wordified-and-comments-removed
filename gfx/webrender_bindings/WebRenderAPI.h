@@ -701,6 +701,16 @@ aPipeline
 )
 ;
 void
+RemovePipeline
+(
+wr
+:
+:
+PipelineId
+aPipeline
+)
+;
+void
 UpdateResources
 (
 ResourceUpdateQueue
