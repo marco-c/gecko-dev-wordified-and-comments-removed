@@ -1304,9 +1304,14 @@ gecko
 |
 parent
 .
-has_current_styles
+has_current_styles_for_traversal
 (
 parent_data
+context
+.
+shared
+.
+traversal_flags
 )
 )
 ;
