@@ -192,7 +192,7 @@ mClientDataJSONCachedObj
 =
 mClientDataJSON
 .
-ToUint8Array
+ToArrayBuffer
 (
 aCx
 )

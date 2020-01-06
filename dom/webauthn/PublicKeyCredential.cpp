@@ -193,7 +193,7 @@ mRawIdCachedObj
 =
 mRawId
 .
-ToUint8Array
+ToArrayBuffer
 (
 aCx
 )

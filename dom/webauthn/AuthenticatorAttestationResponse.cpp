@@ -186,7 +186,7 @@ mAttestationObjectCachedObj
 =
 mAttestationObject
 .
-ToUint8Array
+ToArrayBuffer
 (
 aCx
 )

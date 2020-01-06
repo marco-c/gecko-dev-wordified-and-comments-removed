@@ -379,7 +379,7 @@ tests
 /
 browser
 /
-frame_webauthn_success
+tab_webauthn_success
 .
 html
 "

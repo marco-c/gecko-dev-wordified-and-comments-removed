@@ -269,6 +269,16 @@ aCx
 )
 const
 ;
+JSObject
+*
+ToArrayBuffer
+(
+JSContext
+*
+aCx
+)
+const
+;
 bool
 ToNewUnsignedBuffer
 (
