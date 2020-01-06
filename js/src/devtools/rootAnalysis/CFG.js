@@ -216,6 +216,20 @@ charAt
 return
 false
 ;
+if
+(
+!
+(
+"
+PEdgeCallInstance
+"
+in
+edge
+)
+)
+return
+false
+;
 var
 constructExp
 =
@@ -275,6 +289,7 @@ Variable
 function
 allRAIIGuardedCallPoints
 (
+typeInfo
 bodies
 body
 isConstructor
@@ -371,6 +386,7 @@ if
 !
 isConstructor
 (
+typeInfo
 edge
 .
 Type
