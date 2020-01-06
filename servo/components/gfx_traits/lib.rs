@@ -141,6 +141,7 @@ pub
 struct
 StackingContextId
 (
+pub
 u64
 )
 ;
