@@ -662,6 +662,20 @@ schedules
 ALL_COMPONENTS
 )
 }
+        
+{
+'
+only
+-
+if
+-
+dependencies
+-
+run
+'
+:
+None
+}
     
 )
     
