@@ -26,15 +26,6 @@ h
 #
 include
 "
-js
-/
-GCAPI
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
