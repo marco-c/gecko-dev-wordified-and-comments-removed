@@ -27,6 +27,10 @@ AccEventGen
 .
 py
 -
+addon
+-
+sdk
+-
 browser
 -
 build
@@ -204,10 +208,6 @@ testing
 web
 -
 platform
--
-testing
-/
-xpcshell
 -
 third_party
 -
