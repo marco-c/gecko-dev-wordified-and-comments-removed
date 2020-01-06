@@ -8,6 +8,10 @@ alloc
 ;
 pub
 mod
+diagnostic
+;
+pub
+mod
 hash_map
 ;
 pub
