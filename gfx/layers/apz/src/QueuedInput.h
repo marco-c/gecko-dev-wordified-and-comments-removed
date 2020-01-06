@@ -44,7 +44,7 @@ namespace
 layers
 {
 class
-CancelableBlockState
+InputBlockState
 ;
 class
 TouchBlockState
@@ -113,7 +113,7 @@ Input
 (
 )
 ;
-CancelableBlockState
+InputBlockState
 *
 Block
 (
@@ -129,7 +129,7 @@ mInput
 ;
 RefPtr
 <
-CancelableBlockState
+InputBlockState
 >
 mBlock
 ;

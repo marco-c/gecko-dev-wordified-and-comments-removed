@@ -180,7 +180,7 @@ get
 )
 ;
 }
-CancelableBlockState
+InputBlockState
 *
 QueuedInput
 :
