@@ -29736,6 +29736,8 @@ bool
 aShift
 bool
 aMeta
+uint16_t
+aInputSource
 )
 {
 NS_ENSURE_STATE
@@ -29825,6 +29827,7 @@ aAlt
 aShift
 aMeta
 aSourceEvent
+aInputSource
 )
 ;
 if

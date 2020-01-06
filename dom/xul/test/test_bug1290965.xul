@@ -277,6 +277,9 @@ aEvent
 .
 metaKey
 null
+aEvent
+.
+mozInputSource
 )
 ;
 aEvent
@@ -339,6 +342,9 @@ aEvent
 .
 metaKey
 null
+aEvent
+.
+mozInputSource
 )
 ;
 aEvent

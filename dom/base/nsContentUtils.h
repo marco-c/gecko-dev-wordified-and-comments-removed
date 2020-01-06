@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsIDOMMouseEvent
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
@@ -3913,6 +3920,13 @@ bool
 aMeta
 =
 false
+uint16_t
+inputSource
+=
+nsIDOMMouseEvent
+:
+:
+MOZ_SOURCE_UNKNOWN
 )
 ;
 static

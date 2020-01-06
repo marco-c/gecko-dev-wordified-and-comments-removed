@@ -122,6 +122,11 @@ MetaKey
 (
 )
 ;
+uint16_t
+InputSource
+(
+)
+;
 already_AddRefed
 <
 Event
@@ -182,6 +187,8 @@ aMetaKey
 Event
 *
 aSourceEvent
+uint16_t
+aInputSource
 )
 {
 InitCommandEvent
@@ -201,6 +208,7 @@ aAltKey
 aShiftKey
 aMetaKey
 aSourceEvent
+aInputSource
 )
 ;
 }
@@ -217,6 +225,9 @@ nsCOMPtr
 nsIDOMEvent
 >
 mSourceEvent
+;
+uint16_t
+mInputSource
 ;
 }
 ;

@@ -1124,6 +1124,7 @@ metaKey
 event
 .
 sourceEvent
+0
 )
 ;
 item

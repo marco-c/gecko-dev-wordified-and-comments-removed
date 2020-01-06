@@ -2630,6 +2630,9 @@ aEvent
 .
 metaKey
 null
+aEvent
+.
+mozInputSource
 )
 ;
 aEvent

@@ -125,6 +125,12 @@ metaKey
 ;
 readonly
 attribute
+unsigned
+short
+inputSource
+;
+readonly
+attribute
 Event
 ?
 sourceEvent
@@ -181,6 +187,12 @@ Event
 sourceEvent
 =
 null
+optional
+unsigned
+short
+inputSource
+=
+0
 )
 ;
 }
