@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 idl
 "
@@ -247,7 +247,7 @@ a6b7
 interface
 nsIThread
 :
-nsIEventTarget
+nsISerialEventTarget
 {
 /
 *

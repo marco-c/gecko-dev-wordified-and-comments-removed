@@ -283,7 +283,7 @@ override
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 WrapAsEventTarget
 (

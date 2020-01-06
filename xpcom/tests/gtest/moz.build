@@ -150,6 +150,11 @@ TestEscapeURL
 cpp
 '
 '
+TestEventTargetQI
+.
+cpp
+'
+'
 TestExpirationTracker
 .
 cpp

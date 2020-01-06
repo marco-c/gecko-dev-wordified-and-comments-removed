@@ -120,6 +120,11 @@ nsIRunnable
 idl
 '
 '
+nsISerialEventTarget
+.
+idl
+'
+'
 nsISupportsPriority
 .
 idl

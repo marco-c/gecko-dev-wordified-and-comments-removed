@@ -236,6 +236,9 @@ class
 nsIScriptTimeoutHandler
 ;
 class
+nsISerialEventTarget
+;
+class
 nsISerializable
 ;
 class
@@ -1013,7 +1016,7 @@ aRunnable
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetEventTarget
 (

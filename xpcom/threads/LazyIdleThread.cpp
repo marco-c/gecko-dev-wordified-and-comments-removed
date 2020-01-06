@@ -1597,6 +1597,7 @@ NS_IMPL_QUERY_INTERFACE
 LazyIdleThread
 nsIThread
 nsIEventTarget
+nsISerialEventTarget
 nsITimerCallback
 nsIThreadObserver
 nsIObserver

@@ -113,7 +113,7 @@ SchedulerEventTarget
 final
 :
 public
-nsIEventTarget
+nsISerialEventTarget
 {
 RefPtr
 <
@@ -477,6 +477,7 @@ NS_IMPL_ISUPPORTS
 SchedulerEventTarget
 SchedulerEventTarget
 nsIEventTarget
+nsISerialEventTarget
 )
 NS_IMETHODIMP
 SchedulerEventTarget
