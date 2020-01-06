@@ -6300,6 +6300,14 @@ targetIsInAppMenu
 (
 aTarget
 )
+|
+|
+this
+.
+targetIsInPageActionPanel
+(
+aTarget
+)
 )
 {
 highlighter
