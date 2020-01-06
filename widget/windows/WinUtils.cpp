@@ -5322,7 +5322,7 @@ rv
 imgtool
 -
 >
-DecodeImageData
+DecodeImage
 (
 stream
 aMimeType
