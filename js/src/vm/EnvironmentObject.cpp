@@ -17971,13 +17971,15 @@ found
 )
 ;
 }
-return
 GetNonSyntacticGlobalThis
 (
 cx
 scopeChain
 res
 )
+;
+return
+true
 ;
 }
 bool
