@@ -7115,6 +7115,15 @@ mApi
 GetUseANGLE
 (
 )
+false
+false
+false
+mApi
+-
+>
+GetSyncHandle
+(
+)
 )
 ;
 }
