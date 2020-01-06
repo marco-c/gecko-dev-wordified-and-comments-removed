@@ -31726,7 +31726,7 @@ aStyleBasicShape
 Coordinates
 (
 )
-true
+false
 )
 ;
 if
