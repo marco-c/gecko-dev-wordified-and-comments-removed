@@ -200,4 +200,11 @@ config
 link
 .
 py
+LINK_PDBFILE
+=
+xul
+-
+gtest
+.
+pdb
 endif
