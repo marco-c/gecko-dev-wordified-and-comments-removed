@@ -326,6 +326,13 @@ aCapacity
 )
 ;
 }
+virtual
+void
+LastRelease
+(
+)
+{
+}
 protected
 :
 virtual
@@ -1025,6 +1032,13 @@ Reset
 )
 ;
 }
+virtual
+void
+LastRelease
+(
+)
+override
+;
 protected
 :
 bool
