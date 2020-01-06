@@ -1334,6 +1334,12 @@ gzInputStream
 outputStream
 )
 ;
+outputStream
+.
+flush
+(
+)
+;
 if
 (
 !
