@@ -2332,17 +2332,6 @@ UpdateStylistIfNeeded
 (
 )
 ;
-bool
-skipFixup
-=
-nsCSSAnonBoxes
-:
-:
-AnonBoxSkipsParentDisplayBasedStyleFixup
-(
-aPseudoTag
-)
-;
 const
 ServoComputedValues
 *
@@ -2369,7 +2358,6 @@ Servo_ComputedValues_GetForAnonymousBox
 (
 parentStyle
 aPseudoTag
-skipFixup
 mRawSet
 .
 get
@@ -2622,7 +2610,6 @@ Servo_ComputedValues_GetForAnonymousBox
 (
 nullptr
 aPseudoTag
-true
 mRawSet
 .
 get

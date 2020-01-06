@@ -1578,8 +1578,6 @@ parent_style_or_null
 nsIAtom
 *
 pseudo_tag
-bool
-skip_display_fixup
 RawServoStyleSetBorrowed
 set
 )

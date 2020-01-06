@@ -28,7 +28,6 @@ CSS_ANON_BOX
 (
 name_
 value_
-true
 )
 #
 define
@@ -45,7 +44,6 @@ moz
 -
 text
 "
-false
 )
 CSS_NON_INHERITING_ANON_BOX
 (
@@ -74,7 +72,6 @@ letter
 -
 continuation
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -92,7 +89,6 @@ inline
 -
 wrapper
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -108,7 +104,6 @@ anonymous
 -
 block
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -124,7 +119,6 @@ anonymous
 -
 block
 "
-false
 )
 CSS_NON_INHERITING_ANON_BOX
 (
@@ -164,7 +158,6 @@ line
 -
 frame
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -178,7 +171,6 @@ button
 -
 content
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -192,7 +184,6 @@ cell
 -
 content
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -206,7 +197,6 @@ dropdown
 -
 list
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -220,7 +210,6 @@ fieldset
 -
 content
 "
-false
 )
 CSS_NON_INHERITING_ANON_BOX
 (
@@ -249,7 +238,6 @@ comboboxcontrol
 -
 frame
 "
-true
 )
 CSS_ANON_BOX
 (
@@ -265,7 +253,6 @@ canvas
 -
 content
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -279,7 +266,6 @@ inline
 -
 table
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -291,7 +277,6 @@ moz
 -
 table
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -305,7 +290,6 @@ table
 -
 cell
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -321,7 +305,6 @@ column
 -
 group
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -335,7 +318,6 @@ table
 -
 column
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -349,7 +331,6 @@ table
 -
 wrapper
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -365,7 +346,6 @@ row
 -
 group
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -379,7 +359,6 @@ table
 -
 row
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -391,7 +370,6 @@ moz
 -
 canvas
 "
-false
 )
 CSS_NON_INHERITING_ANON_BOX
 (
@@ -414,7 +392,6 @@ moz
 -
 page
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -426,7 +403,6 @@ moz
 -
 pagecontent
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -440,7 +416,6 @@ page
 -
 sequence
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -454,7 +429,6 @@ scrolled
 -
 content
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -468,7 +442,6 @@ scrolled
 -
 canvas
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -484,7 +457,6 @@ page
 -
 sequence
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -498,7 +470,6 @@ column
 -
 content
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -510,7 +481,6 @@ moz
 -
 viewport
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -524,7 +494,6 @@ viewport
 -
 scroll
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -540,7 +509,6 @@ flex
 -
 item
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -556,7 +524,6 @@ grid
 -
 item
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -568,7 +535,6 @@ moz
 -
 ruby
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -582,7 +548,6 @@ ruby
 -
 base
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -598,7 +563,6 @@ base
 -
 container
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -612,7 +576,6 @@ ruby
 -
 text
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -628,7 +591,6 @@ text
 -
 container
 "
-false
 )
 #
 ifdef
@@ -645,7 +607,6 @@ tree
 -
 column
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -659,7 +620,6 @@ tree
 -
 row
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -673,7 +633,6 @@ tree
 -
 separator
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -687,7 +646,6 @@ tree
 -
 cell
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -701,7 +659,6 @@ tree
 -
 indentation
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -715,7 +672,6 @@ tree
 -
 line
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -729,7 +685,6 @@ tree
 -
 twisty
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -743,7 +698,6 @@ tree
 -
 image
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -759,7 +713,6 @@ cell
 -
 text
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -773,7 +726,6 @@ tree
 -
 checkbox
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -787,7 +739,6 @@ tree
 -
 progressmeter
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -803,7 +754,6 @@ drop
 -
 feedback
 "
-false
 )
 #
 endif
@@ -823,7 +773,6 @@ anon
 -
 child
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -843,7 +792,6 @@ anon
 -
 child
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -859,7 +807,6 @@ foreign
 -
 content
 "
-false
 )
 CSS_ANON_BOX
 (
@@ -873,7 +820,6 @@ svg
 -
 text
 "
-false
 )
 #
 ifdef
