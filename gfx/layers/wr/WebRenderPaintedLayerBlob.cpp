@@ -575,7 +575,7 @@ mImageKey
 =
 Some
 (
-GenerateImageKey
+GetImageKey
 (
 )
 )
