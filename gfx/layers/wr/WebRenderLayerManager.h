@@ -513,6 +513,13 @@ override
 ;
 virtual
 void
+WaitOnTransactionProcessed
+(
+)
+override
+;
+virtual
+void
 SendInvalidRegion
 (
 const
