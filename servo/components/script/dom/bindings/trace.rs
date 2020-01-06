@@ -212,6 +212,15 @@ buffer_queue
 BufferQueue
 ;
 use
+html5ever
+:
+:
+tendril
+:
+:
+IncompleteUtf8
+;
+use
 hyper
 :
 :
@@ -2233,6 +2242,7 @@ unsafe_no_jsmanaged_fields
 (
 BufferQueue
 QuirksMode
+IncompleteUtf8
 )
 ;
 unsafe_no_jsmanaged_fields

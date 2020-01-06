@@ -593,12 +593,8 @@ self
 inner
 .
 sink
-(
-)
 .
 sink
-(
-)
 .
 base_url
 }
@@ -724,11 +720,10 @@ self
 let
 tree_builder
 =
+&
 self
 .
 sink
-(
-)
 ;
 tree_builder
 .
@@ -741,8 +736,6 @@ tracer
 tree_builder
 .
 sink
-(
-)
 .
 trace
 (
