@@ -143,8 +143,6 @@ EXPORTED_SYMBOLS
 error
 "
 "
-error
-.
 pprint
 "
 ]
@@ -433,7 +431,7 @@ error
 }
 }
 ;
-error
+this
 .
 pprint
 =
@@ -1063,8 +1061,6 @@ none
 :
 msg
 =
-error
-.
 pprint
 Element
 {
@@ -1098,8 +1094,6 @@ pointer
 events
 enabled
 +
-error
-.
 pprint
 and
 element
@@ -1119,8 +1113,6 @@ default
 :
 msg
 =
-error
-.
 pprint
 Element
 {
@@ -1145,8 +1137,6 @@ y
 }
 )
 +
-error
-.
 pprint
 because
 another

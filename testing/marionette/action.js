@@ -58,7 +58,7 @@ js
 ;
 const
 {
-error
+pprint
 InvalidArgumentError
 MoveTargetOutOfBoundsError
 UnsupportedOperationError
@@ -132,13 +132,6 @@ EXPORTED_SYMBOLS
 action
 "
 ]
-;
-const
-{
-pprint
-}
-=
-error
 ;
 this
 .

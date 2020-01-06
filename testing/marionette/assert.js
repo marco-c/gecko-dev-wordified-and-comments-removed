@@ -77,10 +77,10 @@ jsm
 ;
 const
 {
-error
 InvalidArgumentError
 InvalidSessionIDError
 NoSuchWindowError
+pprint
 UnexpectedAlertOpenError
 UnsupportedOperationError
 }
@@ -490,8 +490,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -542,8 +540,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -588,8 +584,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 {
 obj
@@ -639,8 +633,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -693,8 +685,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -744,8 +734,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -796,8 +784,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -849,8 +835,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -942,8 +926,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {
@@ -999,8 +981,6 @@ msg
 msg
 |
 |
-error
-.
 pprint
 Expected
 {

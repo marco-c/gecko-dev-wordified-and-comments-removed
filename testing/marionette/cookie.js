@@ -55,8 +55,8 @@ js
 ;
 const
 {
-error
 InvalidCookieDomainError
+pprint
 }
 =
 Cu
@@ -132,8 +132,6 @@ assert
 object
 (
 json
-error
-.
 pprint
 Expected
 cookie
