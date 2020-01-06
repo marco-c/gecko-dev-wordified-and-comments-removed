@@ -3056,17 +3056,6 @@ Protection
 <
 !
 ENTITY
-pref_tracking_protection_summary3
-"
-Enabled
-in
-Private
-Browsing
-"
->
-<
-!
-ENTITY
 pref_donottrack_title
 "
 Do
