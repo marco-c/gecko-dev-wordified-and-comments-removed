@@ -411,6 +411,17 @@ BEGIN_TEST
 testGCRootsRemoved
 )
 {
+#
+ifdef
+JS_GC_ZEAL
+AutoLeaveZeal
+nozeal
+(
+cx
+)
+;
+#
+endif
 JS_SetGCParameter
 (
 cx
