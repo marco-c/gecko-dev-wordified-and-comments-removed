@@ -221,9 +221,18 @@ jsm
 "
 )
 ;
-const
+XPCOMUtils
+.
+defineLazyGetter
+(
+this
+"
 PREFS_GUID
+"
+(
+)
 =
+>
 CommonUtils
 .
 encodeBase64URL
@@ -233,6 +242,7 @@ Services
 appinfo
 .
 ID
+)
 )
 ;
 this
