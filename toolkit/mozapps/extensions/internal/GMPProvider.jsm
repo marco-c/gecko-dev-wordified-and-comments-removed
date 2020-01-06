@@ -646,7 +646,7 @@ level
 =
 GMPPrefs
 .
-get
+getInt
 (
 GMPPrefs
 .
@@ -663,7 +663,7 @@ logDumping
 =
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -937,7 +937,7 @@ _plugin
 id
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -1060,7 +1060,7 @@ version
 return
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -1120,7 +1120,7 @@ isEME
 !
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1146,7 +1146,7 @@ return
 !
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1168,7 +1168,7 @@ aVal
 {
 GMPPrefs
 .
-set
+setBool
 (
 GMPPrefs
 .
@@ -1297,12 +1297,12 @@ Number
 (
 GMPPrefs
 .
-get
+getInt
 (
 GMPPrefs
 .
 KEY_PLUGIN_LAST_UPDATE
-null
+0
 this
 .
 _plugin
@@ -1313,13 +1313,6 @@ id
 ;
 if
 (
-!
-isNaN
-(
-time
-)
-&
-&
 this
 .
 isInstalled
@@ -1416,7 +1409,7 @@ AUTOUPDATE_DEFAULT
 return
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -1482,7 +1475,7 @@ AUTOUPDATE_ENABLE
 {
 GMPPrefs
 .
-set
+setBool
 (
 GMPPrefs
 .
@@ -1509,7 +1502,7 @@ AUTOUPDATE_DISABLE
 {
 GMPPrefs
 .
-set
+setBool
 (
 GMPPrefs
 .
@@ -2780,7 +2773,7 @@ _plugin
 id
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -3217,7 +3210,7 @@ abi
 =
 GMPPrefs
 .
-get
+getString
 (
 GMPPrefs
 .
@@ -3947,7 +3940,7 @@ isEnabled
 return
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .
@@ -4198,7 +4191,7 @@ if
 !
 GMPPrefs
 .
-get
+getBool
 (
 GMPPrefs
 .

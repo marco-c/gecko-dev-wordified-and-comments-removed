@@ -288,7 +288,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setString
 (
 GMPScope
 .
@@ -312,7 +312,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setString
 (
 GMPScope
 .
@@ -338,16 +338,14 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setInt
 (
 GMPScope
 .
 GMPPrefs
 .
 KEY_PLUGIN_LAST_UPDATE
-"
 1
-"
 addon1
 )
 ;
@@ -355,7 +353,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setString
 (
 GMPScope
 .
@@ -372,16 +370,14 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setInt
 (
 GMPScope
 .
 GMPPrefs
 .
 KEY_PLUGIN_LAST_UPDATE
-"
 3
-"
 addon2
 )
 ;
@@ -389,16 +385,14 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setInt
 (
 GMPScope
 .
 GMPPrefs
 .
 KEY_PLUGIN_VERSION
-"
 4
-"
 addon2
 )
 ;
@@ -406,7 +400,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setBool
 (
 GMPScope
 .
@@ -421,7 +415,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setBool
 (
 GMPScope
 .
@@ -437,7 +431,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getString
 (
 GMPScope
 .
@@ -464,7 +458,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getString
 (
 GMPScope
 .
@@ -493,7 +487,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getInt
 (
 GMPScope
 .
@@ -504,9 +498,7 @@ KEY_PLUGIN_LAST_UPDATE
 "
 addon1
 )
-"
 1
-"
 )
 ;
 do_check_eq
@@ -515,7 +507,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getString
 (
 GMPScope
 .
@@ -537,7 +529,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getInt
 (
 GMPScope
 .
@@ -548,9 +540,7 @@ KEY_PLUGIN_LAST_UPDATE
 "
 addon2
 )
-"
 3
-"
 )
 ;
 do_check_eq
@@ -559,7 +549,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getInt
 (
 GMPScope
 .
@@ -570,9 +560,7 @@ KEY_PLUGIN_VERSION
 "
 addon2
 )
-"
 4
-"
 )
 ;
 do_check_eq
@@ -581,7 +569,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getBool
 (
 GMPScope
 .
@@ -600,7 +588,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getBool
 (
 GMPScope
 .
@@ -614,7 +602,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setBool
 (
 GMPScope
 .
@@ -1202,7 +1190,8 @@ GMPScope
 GMPPrefs
 .
 KEY_URL_OVERRIDE
-undefined
+"
+"
 )
 ;
 Preferences
@@ -1238,7 +1227,8 @@ Preferences
 get
 (
 CERTS_BRANCH_DOT_ONE
-undefined
+"
+"
 )
 ;
 Services
@@ -3849,7 +3839,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getInt
 (
 GMPScope
 .
@@ -3870,7 +3860,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getString
 (
 GMPScope
 .
@@ -3896,7 +3886,7 @@ GMPScope
 .
 GMPPrefs
 .
-get
+getString
 (
 GMPScope
 .
@@ -4048,7 +4038,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setBool
 (
 GMPScope
 .
@@ -4241,7 +4231,7 @@ GMPScope
 .
 GMPPrefs
 .
-set
+setBool
 (
 GMPScope
 .
