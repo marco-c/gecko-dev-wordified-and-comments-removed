@@ -445,7 +445,9 @@ SetPlaneOffset
 %
 d
 %
-d
+"
+PRIu32
+"
 )
 this
 =
@@ -517,7 +519,9 @@ SetStride
 %
 d
 %
-d
+"
+PRIu32
+"
 )
 this
 =
