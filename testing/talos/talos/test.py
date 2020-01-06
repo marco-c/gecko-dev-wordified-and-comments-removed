@@ -541,6 +541,10 @@ tpmozafterpaint
 '
         
 '
+fnbpaint
+'
+        
+'
 firstpaint
 '
         
@@ -1263,6 +1267,9 @@ tpchrome
 tpmozafterpaint
 '
 '
+fnbpaint
+'
+'
 tploadnocache
 '
 '
@@ -1440,6 +1447,10 @@ ms
 '
     
 lower_is_better
+=
+True
+    
+fnbpaint
 =
 True
 register_test

@@ -136,6 +136,10 @@ tpmozafterpaint
 =
 False
         
+fnbpaint
+=
+False
+        
 firstpaint
 =
 False
@@ -1982,6 +1986,10 @@ tpmozafterpaint
 '
     
 '
+fnbpaint
+'
+    
+'
 firstpaint
 '
     
@@ -2855,6 +2863,17 @@ userready
 None
 )
     
+firstNonBlankPaint
+=
+getattr
+(
+test_instance
+'
+fnbpaint
+'
+None
+)
+    
 test_instance
 .
 update
@@ -2876,6 +2895,19 @@ test_instance
 tpmozafterpaint
 =
 mozAfterPaint
+    
+if
+firstNonBlankPaint
+is
+not
+None
+:
+        
+test_instance
+.
+fnbpaint
+=
+firstNonBlankPaint
     
 if
 firstPaint
