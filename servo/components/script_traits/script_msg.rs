@@ -69,7 +69,10 @@ ipc_channel
 ipc
 :
 :
+{
+IpcReceiver
 IpcSender
+}
 ;
 use
 msg
@@ -262,6 +265,11 @@ ScriptMsg
 InitiateNavigateRequest
 (
 RequestInit
+IpcReceiver
+<
+(
+)
+>
 )
 BroadcastStorageEvent
 (

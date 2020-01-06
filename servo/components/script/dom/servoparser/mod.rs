@@ -927,6 +927,12 @@ FromParser
 loader
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 document

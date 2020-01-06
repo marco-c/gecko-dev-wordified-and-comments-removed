@@ -823,6 +823,12 @@ NotFromParser
 loader
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 {

@@ -179,6 +179,19 @@ initiate_fetch
 (
 &
 self
+cancel_chan
+:
+Option
+<
+ipc
+:
+:
+IpcReceiver
+<
+(
+)
+>
+>
 )
 {
 let
@@ -345,7 +358,7 @@ FetchChannels
 ResponseMsg
 (
 ipc_sender
-None
+cancel_chan
 )
 )
 }
@@ -685,6 +698,7 @@ self
 .
 initiate_fetch
 (
+None
 )
 ;
 }

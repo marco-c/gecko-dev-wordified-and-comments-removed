@@ -530,6 +530,12 @@ FromParser
 loader
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 ServoParser
@@ -619,6 +625,12 @@ NotFromParser
 loader
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 ServoParser

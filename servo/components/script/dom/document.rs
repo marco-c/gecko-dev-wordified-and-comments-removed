@@ -973,6 +973,12 @@ euclid
 Point2D
 ;
 use
+fetch
+:
+:
+FetchCanceller
+;
+use
 html5ever
 :
 :
@@ -2309,6 +2315,9 @@ DomRefCell
 <
 InteractiveWindow
 >
+canceller
+:
+FetchCanceller
 }
 #
 [
@@ -12058,6 +12067,9 @@ Option
 <
 ReferrerPolicy
 >
+canceller
+:
+FetchCanceller
 )
 -
 >
@@ -12940,6 +12952,9 @@ new
 (
 )
 )
+canceller
+:
+canceller
 }
 }
 pub
@@ -13026,6 +13041,12 @@ NotFromParser
 docloader
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 )
 }
@@ -13085,6 +13106,9 @@ Option
 <
 ReferrerPolicy
 >
+canceller
+:
+FetchCanceller
 )
 -
 >
@@ -13120,6 +13144,7 @@ source
 doc_loader
 referrer
 referrer_policy
+canceller
 )
 )
 window
@@ -13938,6 +13963,12 @@ loader
 )
 None
 None
+Default
+:
+:
+default
+(
+)
 )
 ;
 new_doc
