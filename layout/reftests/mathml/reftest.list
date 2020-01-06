@@ -5429,12 +5429,6 @@ html
 Bugs
 1010678
 1010679
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 mathvariant
