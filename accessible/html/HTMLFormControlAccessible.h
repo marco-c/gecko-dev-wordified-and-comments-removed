@@ -21,6 +21,9 @@ h
 namespace
 mozilla
 {
+class
+TextEditor
+;
 namespace
 a11y
 {
@@ -310,7 +313,7 @@ NS_DECL_ISUPPORTS_INHERITED
 virtual
 already_AddRefed
 <
-nsIEditor
+TextEditor
 >
 GetEditor
 (

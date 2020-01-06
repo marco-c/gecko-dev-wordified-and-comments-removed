@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -107,6 +100,9 @@ kDefaultCacheLength
 namespace
 mozilla
 {
+class
+TextEditor
+;
 namespace
 a11y
 {
@@ -369,7 +365,7 @@ override
 virtual
 already_AddRefed
 <
-nsIEditor
+TextEditor
 >
 GetEditor
 (

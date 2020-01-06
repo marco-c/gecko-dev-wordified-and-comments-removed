@@ -60,14 +60,14 @@ class
 nsRange
 ;
 class
-nsIEditor
-;
-class
 nsIWidget
 ;
 namespace
 mozilla
 {
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -1059,7 +1059,7 @@ aPosition
 virtual
 already_AddRefed
 <
-nsIEditor
+TextEditor
 >
 GetEditor
 (
