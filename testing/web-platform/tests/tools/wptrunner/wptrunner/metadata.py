@@ -1205,7 +1205,7 @@ open
 (
 path
 "
-w
+wb
 "
 )
 as
