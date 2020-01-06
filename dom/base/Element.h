@@ -852,7 +852,6 @@ return
 nullptr
 ;
 }
-virtual
 nsICSSDeclaration
 *
 GetSMILOverrideStyle
