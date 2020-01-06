@@ -14025,7 +14025,7 @@ tourset
 -
 version
 "
-2
+1
 )
 ;
 pref
@@ -14134,12 +14134,12 @@ onboarding
 newtour
 "
 "
-performance
 private
-screenshots
 addons
 customize
+search
 default
+sync
 "
 )
 ;
@@ -14153,12 +14153,6 @@ onboarding
 updatetour
 "
 "
-performance
-library
-screenshots
-singlesearch
-customize
-sync
 "
 )
 ;
