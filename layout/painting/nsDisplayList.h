@@ -2311,7 +2311,7 @@ return
 mIsCompositingCheap
 ;
 }
-void
+bool
 DisplayCaret
 (
 nsIFrame
@@ -2347,7 +2347,13 @@ this
 aList
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 nsIFrame
 *
