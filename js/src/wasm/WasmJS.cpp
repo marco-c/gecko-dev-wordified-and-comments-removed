@@ -12589,6 +12589,8 @@ state
 )
 ;
 }
+break
+;
 case
 JS
 :
@@ -12650,6 +12652,8 @@ state
 )
 ;
 }
+break
+;
 }
 MOZ_CRASH
 (
