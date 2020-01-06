@@ -56,6 +56,9 @@ debugEnabled
 bool
 ionEnabled
 ;
+bool
+testTiering
+;
 CompileArgs
 (
 Assumptions
@@ -91,6 +94,10 @@ debugEnabled
 false
 )
 ionEnabled
+(
+false
+)
+testTiering
 (
 false
 )
