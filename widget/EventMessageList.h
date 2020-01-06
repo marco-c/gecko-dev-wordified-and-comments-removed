@@ -829,10 +829,6 @@ eMessage
 )
 NS_EVENT_MESSAGE
 (
-eMessageError
-)
-NS_EVENT_MESSAGE
-(
 eOpen
 )
 NS_EVENT_MESSAGE

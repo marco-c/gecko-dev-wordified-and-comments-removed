@@ -840,10 +840,6 @@ onmessage
 ;
 attribute
 EventHandler
-onmessageerror
-;
-attribute
-EventHandler
 onoffline
 ;
 attribute
