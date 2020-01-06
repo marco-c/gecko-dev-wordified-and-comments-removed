@@ -225,6 +225,23 @@ inputs
 }
 )
             
+if
+'
+in
+-
+tree
+'
+in
+worker
+[
+'
+docker
+-
+image
+'
+]
+:
+                
 extra
 [
 '
@@ -245,7 +262,7 @@ image
 ]
 =
 {
-                
+                    
 "
 task
 -
@@ -259,7 +276,7 @@ docker
 image
 >
 "
-            
+                
 }
         
 elif
