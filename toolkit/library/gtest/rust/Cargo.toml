@@ -213,9 +213,9 @@ xpcom
 /
 rust
 /
-nsstring
-/
 gtest
+/
+nsstring
 "
 }
 gkrust

@@ -45,6 +45,13 @@ string
 types
 "
 [
+features
+]
+gecko_debug
+=
+[
+]
+[
 dependencies
 ]
 bitflags

@@ -121,9 +121,11 @@ path
 .
 .
 /
-xpcom
+servo
 /
-rust
+support
+/
+gecko
 /
 nsstring
 "
@@ -600,6 +602,11 @@ gecko_debug
 [
 "
 geckoservo
+/
+gecko_debug
+"
+"
+nsstring
 /
 gecko_debug
 "
