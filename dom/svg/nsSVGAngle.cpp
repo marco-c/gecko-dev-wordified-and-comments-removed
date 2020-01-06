@@ -358,8 +358,10 @@ unitString
 )
 ;
 }
-static
 bool
+nsSVGAngle
+:
+:
 GetValueFromString
 (
 const
