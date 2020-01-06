@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-null
-"
-)
-;
 const
 TEST_URI
 =

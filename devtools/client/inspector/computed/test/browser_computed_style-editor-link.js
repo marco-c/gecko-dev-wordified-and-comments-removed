@@ -3,17 +3,6 @@ use
 strict
 "
 ;
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-Error
-:
-Unknown
-sheet
-source
-"
-)
-;
 const
 STYLESHEET_URL
 =

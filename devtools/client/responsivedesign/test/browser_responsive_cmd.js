@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-destroy
-"
-)
-;
 function
 test
 (

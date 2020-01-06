@@ -1,13 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-[
-object
-Object
-]
-"
-)
-;
 if
 (
 !
