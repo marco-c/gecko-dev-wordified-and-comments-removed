@@ -45,7 +45,6 @@ WorkerHolder
 {
 public
 :
-NS_DECL_OWNINGTHREAD
 enum
 Behavior
 {
@@ -122,6 +121,10 @@ const
 const
 Behavior
 mBehavior
+;
+void
+*
+mThread
 ;
 }
 ;
