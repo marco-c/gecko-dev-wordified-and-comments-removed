@@ -338,6 +338,7 @@ id
 title
 panel
 selected
+index
 )
 {
 this
@@ -350,6 +351,8 @@ id
 title
 selected
 panel
+null
+index
 )
 ;
 this
@@ -374,6 +377,7 @@ function
 id
 title
 selected
+index
 )
 {
 let
@@ -409,6 +413,7 @@ id
 title
 panel
 selected
+index
 )
 ;
 }
@@ -420,6 +425,7 @@ id
 title
 url
 selected
+index
 )
 {
 let
@@ -468,6 +474,7 @@ id
 title
 panel
 selected
+index
 )
 ;
 }
