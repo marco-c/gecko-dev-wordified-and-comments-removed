@@ -36396,7 +36396,7 @@ GetContent
 aChild
 )
 {
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 aChild
 aContainer
@@ -36631,7 +36631,7 @@ return
 }
 }
 }
-ClearDisplayContentsIn
+UnregisterDisplayContentsStyleFor
 (
 aChild
 aContainer
@@ -37331,7 +37331,7 @@ GetContent
 aChild
 )
 {
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 aChild
 aContainer

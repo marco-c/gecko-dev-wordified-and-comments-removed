@@ -329,7 +329,7 @@ aContent
 ;
 }
 void
-ClearUndisplayedContentIn
+UnregisterDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -340,7 +340,7 @@ aParentContent
 )
 ;
 void
-ClearDisplayContentsIn
+UnregisterDisplayContentsStyleFor
 (
 nsIContent
 *
