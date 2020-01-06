@@ -89,6 +89,12 @@ numbering
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 numbering
@@ -265,6 +271,12 @@ isize
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 bullet

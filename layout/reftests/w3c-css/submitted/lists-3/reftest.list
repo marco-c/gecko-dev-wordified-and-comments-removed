@@ -11,6 +11,9 @@ fails
 if
 (
 stylo
+|
+|
+webrender
 )
 =
 =
@@ -43,6 +46,9 @@ fails
 if
 (
 stylo
+|
+|
+webrender
 )
 =
 =
