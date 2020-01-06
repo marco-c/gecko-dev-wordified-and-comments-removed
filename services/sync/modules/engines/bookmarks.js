@@ -712,12 +712,12 @@ kind
 this
 .
 type
-syncId
+recordId
 :
 this
 .
 id
-parentSyncId
+parentRecordId
 :
 this
 .
@@ -775,7 +775,7 @@ parentid
 =
 item
 .
-parentSyncId
+parentRecordId
 ;
 this
 .
@@ -1310,7 +1310,7 @@ children
 =
 item
 .
-childSyncIds
+childRecordIds
 ;
 }
 }
@@ -1795,7 +1795,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-guidToSyncId
+guidToRecordId
 (
 guid
 )
@@ -3774,13 +3774,13 @@ kind
 {
 item
 .
-syncId
+recordId
 }
 under
 {
 item
 .
-parentSyncId
+parentRecordId
 }
 item
 )
@@ -3805,7 +3805,7 @@ addForWeakUpload
 (
 item
 .
-syncId
+recordId
 )
 ;
 }
@@ -3897,13 +3897,13 @@ kind
 {
 item
 .
-syncId
+recordId
 }
 under
 {
 item
 .
-parentSyncId
+parentRecordId
 }
 item
 )
@@ -3928,7 +3928,7 @@ addForWeakUpload
 (
 item
 .
-syncId
+recordId
 )
 ;
 }
@@ -3942,7 +3942,7 @@ _orderChildren
 for
 (
 let
-syncID
+id
 in
 this
 .
@@ -3956,7 +3956,7 @@ this
 .
 _childrenToOrder
 [
-syncID
+id
 ]
 ;
 try
@@ -3968,7 +3968,7 @@ bookmarks
 .
 order
 (
-syncID
+id
 children
 )
 ;
@@ -3990,7 +3990,7 @@ order
 children
 for
 {
-syncID
+id
 }
 ex
 )
@@ -4188,7 +4188,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-guidToSyncId
+guidToRecordId
 (
 guid
 )
@@ -4206,7 +4206,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-syncIdToGuid
+recordIdToGuid
 (
 guid
 .
@@ -4783,7 +4783,7 @@ entries
 for
 (
 let
-syncID
+id
 in
 existingIDs
 )
@@ -4793,7 +4793,7 @@ change
 =
 existingIDs
 [
-syncID
+id
 ]
 ;
 let
@@ -4818,9 +4818,9 @@ entries
 push
 (
 {
-syncId
+recordId
 :
-syncID
+id
 modified
 :
 timestamp

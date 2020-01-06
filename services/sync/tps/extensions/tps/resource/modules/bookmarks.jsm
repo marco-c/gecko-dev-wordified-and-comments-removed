@@ -4487,7 +4487,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-fetchChildSyncIds
+fetchChildRecordIds
 (
 this
 .

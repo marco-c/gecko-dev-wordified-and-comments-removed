@@ -3384,7 +3384,7 @@ PlacesSyncUtils
 .
 bookmarks
 .
-fetchSyncIdsForRepair
+fetchRecordIdsForRepair
 (
 request
 .
@@ -3430,7 +3430,7 @@ item
 >
 item
 .
-syncId
+recordId
 )
 ;
 log
@@ -3501,7 +3501,7 @@ for
 (
 let
 {
-syncId
+recordId
 :
 id
 syncable
