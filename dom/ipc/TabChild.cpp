@@ -487,12 +487,17 @@ include
 algorithm
 >
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -5367,6 +5372,9 @@ do
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -5381,6 +5389,8 @@ URL
 aURI
 )
 ;
+#
+endif
 return
 IPC_OK
 (

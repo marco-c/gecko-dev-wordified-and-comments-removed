@@ -15,6 +15,12 @@ WindowsVersion
 h
 "
 #
+if
+defined
+(
+MOZ_CRASHREPORTER
+)
+#
 include
 "
 nsExceptionHandler
@@ -28,6 +34,8 @@ nsPrintfCString
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -901,6 +909,9 @@ InitConsumers
 (
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -923,6 +934,8 @@ sConsumers
 )
 )
 ;
+#
+endif
 uint32_t
 temp
 =
@@ -1719,6 +1732,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+MOZ_CRASHREPORTER
+)
 CrashReporter
 :
 :
@@ -1738,6 +1757,8 @@ NoSystemTypeLibOrPS
 )
 )
 ;
+#
+endif
 return
 false
 ;

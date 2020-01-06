@@ -283,12 +283,17 @@ h
 #
 endif
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -7358,6 +7363,9 @@ Init
 (
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -7377,6 +7385,8 @@ Active
 )
 )
 ;
+#
+endif
 #
 ifdef
 XP_WIN

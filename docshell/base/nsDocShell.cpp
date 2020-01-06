@@ -10393,6 +10393,9 @@ bool
 aUseRemoteTabs
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 aUseRemoteTabs
@@ -10418,6 +10421,8 @@ NS_LITERAL_CSTRING
 )
 ;
 }
+#
+endif
 mUseRemoteTabs
 =
 aUseRemoteTabs

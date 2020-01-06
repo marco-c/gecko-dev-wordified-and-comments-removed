@@ -493,6 +493,9 @@ ago
 ;
 }
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 switch
 (
 XRE_GetProcessType
@@ -523,6 +526,8 @@ default
 :
 ;
 }
+#
+endif
 #
 ifdef
 DEBUG

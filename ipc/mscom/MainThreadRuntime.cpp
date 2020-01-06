@@ -70,6 +70,12 @@ defined
 (
 ACCESSIBILITY
 )
+&
+&
+defined
+(
+MOZ_CRASHREPORTER
+)
 #
 include
 "
@@ -210,6 +216,12 @@ if
 defined
 (
 ACCESSIBILITY
+)
+&
+&
+defined
+(
+MOZ_CRASHREPORTER
 )
 GeckoProcessType
 procType

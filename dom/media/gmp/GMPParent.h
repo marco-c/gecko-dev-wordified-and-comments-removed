@@ -570,6 +570,9 @@ nsIFile
 aFile
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 void
 WriteExtraDataForMinidump
 (
@@ -583,6 +586,8 @@ nsString
 aResult
 )
 ;
+#
+endif
 void
 ActorDestroy
 (
@@ -819,6 +824,9 @@ mChildPid
 bool
 mHoldingSelfRef
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 UniquePtr
 <
 ipc
@@ -828,6 +836,8 @@ CrashReporterHost
 >
 mCrashReporter
 ;
+#
+endif
 const
 RefPtr
 <

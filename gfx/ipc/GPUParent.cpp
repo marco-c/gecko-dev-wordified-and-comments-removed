@@ -535,6 +535,9 @@ SendBuildID
 (
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporterClient
 :
 :
@@ -543,6 +546,8 @@ InitSingleton
 this
 )
 ;
+#
+endif
 gfxPrefs
 :
 :
@@ -2501,6 +2506,9 @@ DestroySingleton
 (
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporterClient
 :
 :
@@ -2508,6 +2516,8 @@ DestroySingleton
 (
 )
 ;
+#
+endif
 XRE_ShutdownChildProcess
 (
 )

@@ -82,12 +82,17 @@ TabParent
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -7360,6 +7365,9 @@ mCommitStringByRequest
 )
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 mDispatchedEventMessages
 .
 AppendElement
@@ -7369,6 +7377,8 @@ aEvent
 mMessage
 )
 ;
+#
+endif
 if
 (
 !
@@ -7678,6 +7688,9 @@ mPendingCompositionCount
 )
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 mDispatchedEventMessages
 .
 AppendElement
@@ -7687,6 +7700,8 @@ aSelectionEvent
 mMessage
 )
 ;
+#
+endif
 mPendingEventsNeedingAck
 +
 +
@@ -7751,6 +7766,9 @@ mPendingCompositionCount
 )
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 mReceivedEventMessages
 .
 AppendElement
@@ -7758,6 +7776,8 @@ AppendElement
 aMessage
 )
 ;
+#
+endif
 if
 (
 WidgetCompositionEvent
@@ -7775,6 +7795,9 @@ aMessage
 eCompositionCommitRequestHandled
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 mPendingCompositionCount
@@ -7788,6 +7811,8 @@ RemoveUnnecessaryEventMessageLog
 )
 ;
 }
+#
+endif
 if
 (
 NS_WARN_IF
@@ -7797,6 +7822,9 @@ mPendingCompositionCount
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 nsPrintfCString
 info
 (
@@ -7842,6 +7870,8 @@ AppendAppNotesToCrashReport
 info
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 "
@@ -7892,6 +7922,9 @@ mPendingEventsNeedingAck
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 nsPrintfCString
 info
 (
@@ -7937,6 +7970,8 @@ AppendAppNotesToCrashReport
 info
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 "
@@ -8076,6 +8111,9 @@ mPendingCompositionCount
 1
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 mRequestIMEToCommitCompositionResults
 .
 AppendElement
@@ -8086,6 +8124,8 @@ RequestIMEToCommitCompositionResult
 eToOldCompositionReceived
 )
 ;
+#
+endif
 return
 false
 ;
@@ -8095,6 +8135,9 @@ if
 mIsPendingLastCommitEvent
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 mRequestIMEToCommitCompositionResults
 .
 AppendElement
@@ -8105,6 +8148,8 @@ RequestIMEToCommitCompositionResult
 eToCommittedCompositionReceived
 )
 ;
+#
+endif
 return
 false
 ;
@@ -8122,6 +8167,9 @@ mTabParent
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 mRequestIMEToCommitCompositionResults
 .
 AppendElement
@@ -8132,6 +8180,8 @@ RequestIMEToCommitCompositionResult
 eReceivedAfterTabParentBlur
 )
 ;
+#
+endif
 aCommittedString
 =
 mCompositionString
@@ -8191,6 +8241,9 @@ this
 )
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 mRequestIMEToCommitCompositionResults
 .
 AppendElement
@@ -8201,6 +8254,8 @@ RequestIMEToCommitCompositionResult
 eReceivedButNoTextComposition
 )
 ;
+#
+endif
 return
 false
 ;
@@ -8292,6 +8347,9 @@ Destroyed
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 mRequestIMEToCommitCompositionResults
 .
 AppendElement
@@ -8302,10 +8360,15 @@ RequestIMEToCommitCompositionResult
 eHandledAsynchronously
 )
 ;
+#
+endif
 return
 false
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 mRequestIMEToCommitCompositionResults
 .
 AppendElement
@@ -8316,6 +8379,8 @@ RequestIMEToCommitCompositionResult
 eHandledSynchronously
 )
 ;
+#
+endif
 return
 true
 ;
@@ -8696,6 +8761,9 @@ widget
 ;
 }
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 void
 ContentCacheInParent
 :
@@ -9134,6 +9202,8 @@ n
 )
 ;
 }
+#
+endif
 LayoutDeviceIntRect
 ContentCache
 :

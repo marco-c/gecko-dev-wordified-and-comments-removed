@@ -1323,6 +1323,9 @@ mPendingLayoutChange
 IMENotification
 mPendingCompositionUpdate
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 nsTArray
 <
 EventMessage
@@ -1520,6 +1523,8 @@ RequestIMEToCommitCompositionResult
 >
 mRequestIMEToCommitCompositionResults
 ;
+#
+endif
 dom
 :
 :
@@ -1608,6 +1613,9 @@ nsIWidget
 aWidget
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 void
 RemoveUnnecessaryEventMessageLog
 (
@@ -1622,6 +1630,8 @@ aLog
 )
 const
 ;
+#
+endif
 }
 ;
 }

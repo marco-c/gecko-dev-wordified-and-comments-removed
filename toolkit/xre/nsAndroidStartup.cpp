@@ -150,6 +150,9 @@ SetGeckoThreadEnv
 env
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 const
 struct
 mapping_info
@@ -196,6 +199,8 @@ info
 +
 ;
 }
+#
+endif
 if
 (
 !

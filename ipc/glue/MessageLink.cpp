@@ -79,12 +79,17 @@ nsDebug
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -565,6 +570,9 @@ Channel
 kMaximumMessageSize
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -613,6 +621,8 @@ size
 )
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 "

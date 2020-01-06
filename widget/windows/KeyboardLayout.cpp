@@ -60,12 +60,17 @@ nsAlgorithm
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -13432,6 +13437,9 @@ return
 mIsPrintableKey
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 static
 nsCString
 GetResultOfInSendMessageEx
@@ -13583,6 +13591,8 @@ return
 result
 ;
 }
+#
+endif
 bool
 NativeKey
 :
@@ -15047,6 +15057,9 @@ if
 doCrash
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 nsPrintfCString
 info
 (
@@ -15271,6 +15284,8 @@ window
 )
 ;
 }
+#
+endif
 MOZ_CRASH
 (
 "
@@ -16062,6 +16077,9 @@ get
 )
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 nsPrintfCString
 info
 (
@@ -16344,6 +16362,8 @@ windows
 )
 ;
 }
+#
+endif
 MOZ_CRASH
 (
 "
@@ -16399,6 +16419,9 @@ get
 )
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 nsPrintfCString
 info
 (
@@ -16502,6 +16525,8 @@ AppendAppNotesToCrashReport
 info
 )
 ;
+#
+endif
 MOZ_CRASH
 (
 "

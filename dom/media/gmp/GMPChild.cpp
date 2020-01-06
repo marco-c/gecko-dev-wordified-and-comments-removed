@@ -1268,6 +1268,9 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporterClient
 :
 :
@@ -1276,6 +1279,8 @@ InitSingleton
 this
 )
 ;
+#
+endif
 mPluginPath
 =
 aPluginPath
@@ -3259,6 +3264,9 @@ QuickExit
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporterClient
 :
 :
@@ -3266,6 +3274,8 @@ DestroySingleton
 (
 )
 ;
+#
+endif
 XRE_ShutdownChildProcess
 (
 )

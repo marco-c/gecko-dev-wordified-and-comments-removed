@@ -42,6 +42,9 @@ Shmem
 .
 h
 "
+#
+ifdef
+MOZ_CRASHREPORTER
 namespace
 mozilla
 {
@@ -248,5 +251,7 @@ mMetadata
 ;
 }
 }
+#
+endif
 #
 endif
