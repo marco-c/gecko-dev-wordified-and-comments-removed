@@ -837,7 +837,7 @@ Assert
 .
 assertEquals
 (
-32
+112
 request
 .
 getTargetSize

@@ -166,14 +166,6 @@ COLORS
 0xFF36385A
 }
 ;
-private
-static
-final
-int
-TEXT_SIZE_DP
-=
-12
-;
 Override
 public
 IconResponse
@@ -363,7 +355,9 @@ applyDimension
 TypedValue
 .
 COMPLEX_UNIT_DIP
-TEXT_SIZE_DP
+widthAndHeight
+/
+8
 context
 .
 getResources
