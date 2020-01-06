@@ -352,13 +352,6 @@ if
 !
 defined
 (
-WEBRTC_GONK
-)
-&
-&
-!
-defined
-(
 ANDROID
 )
 #

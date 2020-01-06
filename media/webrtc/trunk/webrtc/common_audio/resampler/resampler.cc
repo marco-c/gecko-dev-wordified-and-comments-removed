@@ -55,12 +55,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-|
-|
-defined
-(
-WEBRTC_GONK
-)
 #
 define
 RESAMPLER_QUALITY

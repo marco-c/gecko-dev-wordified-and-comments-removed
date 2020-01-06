@@ -201,12 +201,6 @@ defined
 (
 WEBRTC_IOS
 )
-|
-|
-defined
-(
-WEBRTC_GONK
-)
 GainControl
 :
 :
@@ -236,12 +230,6 @@ WEBRTC_ANDROID
 defined
 (
 WEBRTC_IOS
-)
-|
-|
-defined
-(
-WEBRTC_GONK
 )
 false
 ;

@@ -17,12 +17,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-|
-|
-defined
-(
-WEBRTC_GONK
-)
 #
 define
 OS_LINUX

@@ -11435,15 +11435,7 @@ opus
 48000
 2
 960
-#
-ifdef
-WEBRTC_GONK
-16000
-#
-else
 40000
-#
-endif
 )
 )
 ;

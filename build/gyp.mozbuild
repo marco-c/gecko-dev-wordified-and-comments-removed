@@ -500,11 +500,6 @@ arm_neon_optional
 :
 1
 '
-moz_widget_toolkit_gonk
-'
-:
-0
-'
 moz_webrtc_omx
 '
 :
