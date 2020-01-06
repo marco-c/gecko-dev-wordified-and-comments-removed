@@ -305,7 +305,6 @@ MessageManagerProxy
 defineLazyGetter
 promiseDocumentLoaded
 promiseEvent
-promiseFileContents
 promiseObserved
 }
 =
@@ -6798,10 +6797,16 @@ Map
 try
 {
 let
-data
+{
+buffer
+}
 =
 await
-promiseFileContents
+OS
+.
+File
+.
+read
 (
 this
 .
@@ -6814,7 +6819,7 @@ aomStartup
 .
 decodeBlob
 (
-data
+buffer
 )
 ;
 }
