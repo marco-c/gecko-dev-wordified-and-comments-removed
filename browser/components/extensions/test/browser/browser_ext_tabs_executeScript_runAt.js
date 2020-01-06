@@ -71,7 +71,7 @@ URL
 BASE
 +
 "
-file_iframe_document
+file_slowed_document
 .
 sjs
 "
@@ -221,6 +221,10 @@ url
 URL
 }
 ?
+with
+-
+iframe
+&
 r
 =
 {
