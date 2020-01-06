@@ -1735,6 +1735,9 @@ connection
 timeout
 :
 KINTO_REQUEST_TIMEOUT
+retry
+:
+0
 }
 )
 }
