@@ -2007,6 +2007,7 @@ UANormal
 0
 PresHints
 UserNormal
+XBL
 AuthorNormal
 StyleAttributeNormal
 SMILOverride
@@ -5086,6 +5087,11 @@ CascadeLevel
 :
 :
 UserImportant
+|
+CascadeLevel
+:
+:
+XBL
 =
 >
 {
