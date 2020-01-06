@@ -56,7 +56,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
