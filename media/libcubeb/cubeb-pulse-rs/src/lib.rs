@@ -14,6 +14,10 @@ pulse_ffi
 ;
 extern
 crate
+pulse
+;
+extern
+crate
 semver
 ;
 mod
