@@ -505,6 +505,14 @@ return
 }
 MoveOverflowToChildList
 (
+aReflowInput
+.
+mLineLayout
+-
+>
+LineContainerFrame
+(
+)
 )
 ;
 mLeadings
@@ -1082,7 +1090,7 @@ SetIncomplete
 (
 )
 ;
-PushChildren
+PushChildrenToOverflow
 (
 aBaseContainer
 aBaseContainer
@@ -1274,7 +1282,7 @@ LastChild
 )
 )
 {
-PushChildren
+PushChildrenToOverflow
 (
 lastChild
 -
