@@ -3277,6 +3277,12 @@ mGLMaxVertexAttribs
 LOCAL_GL_FLOAT
 )
 ;
+mGenericVertexAttribTypeInvalidator
+.
+InvalidateCaches
+(
+)
+;
 static
 const
 float

@@ -72,10 +72,6 @@ array
 )
 return
 ;
-InvalidateBufferFetching
-(
-)
-;
 MakeContextCurrent
 (
 )
