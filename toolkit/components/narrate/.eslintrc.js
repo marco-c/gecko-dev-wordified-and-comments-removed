@@ -22,7 +22,7 @@ aArgs
 "
 :
 "
-warn
+error
 "
 "
 mozilla
@@ -33,7 +33,7 @@ importGlobalProperties
 "
 :
 "
-warn
+error
 "
 "
 mozilla
@@ -50,7 +50,7 @@ level
 "
 :
 "
-warn
+error
 "
 "
 block
@@ -68,7 +68,7 @@ camelcase
 "
 :
 "
-warn
+error
 "
 "
 comma
@@ -110,7 +110,7 @@ location
 :
 [
 "
-warn
+error
 "
 "
 property
@@ -122,7 +122,7 @@ indent
 :
 [
 "
-warn
+error
 "
 2
 {
@@ -141,7 +141,7 @@ len
 :
 [
 "
-warn
+error
 "
 80
 2
@@ -223,7 +223,7 @@ comments
 "
 :
 "
-warn
+error
 "
 "
 no
@@ -249,7 +249,7 @@ spaces
 "
 :
 "
-warn
+error
 "
 "
 no
@@ -260,7 +260,7 @@ str
 "
 :
 "
-warn
+error
 "
 "
 no
@@ -274,7 +274,7 @@ lines
 :
 [
 "
-warn
+error
 "
 {
 "
@@ -311,7 +311,7 @@ shadow
 "
 :
 "
-warn
+error
 "
 "
 no
@@ -343,7 +343,7 @@ blocks
 :
 [
 "
-warn
+error
 "
 "
 never
@@ -355,7 +355,7 @@ quotes
 :
 [
 "
-warn
+error
 "
 "
 double
@@ -372,7 +372,7 @@ semi
 :
 [
 "
-warn
+error
 "
 "
 always
@@ -386,7 +386,7 @@ spacing
 :
 [
 "
-warn
+error
 "
 {
 "
@@ -411,7 +411,7 @@ parens
 :
 [
 "
-warn
+error
 "
 "
 never
