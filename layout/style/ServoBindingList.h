@@ -424,7 +424,9 @@ RawServoSelectorListBorrowed
 SERVO_BINDING_FUNC
 (
 Servo_SelectorList_Closest
-RawGeckoElementBorrowedOrNull
+const
+RawGeckoElement
+*
 RawGeckoElementBorrowed
 RawServoSelectorListBorrowed
 )
