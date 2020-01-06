@@ -16,12 +16,6 @@ methods
 DoneChannel
 ;
 use
-http_loader
-:
-:
-is_redirect_status
-;
-use
 hyper
 :
 :
