@@ -3387,6 +3387,15 @@ gcScheduled_
 js
 :
 :
+ActiveThreadData
+<
+bool
+>
+gcScheduledSaved_
+;
+js
+:
+:
 ZoneGroupData
 <
 bool
