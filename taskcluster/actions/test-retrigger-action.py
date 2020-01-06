@@ -64,6 +64,16 @@ __name__
 register_callback_action
 (
     
+name
+=
+'
+run
+-
+with
+-
+options
+'
+    
 title
 =
 '

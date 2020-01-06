@@ -6,6 +6,12 @@ register_callback_action
 register_callback_action
 (
     
+name
+=
+'
+hello
+'
+    
 title
 =
 '
