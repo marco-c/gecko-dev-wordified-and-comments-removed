@@ -7587,6 +7587,15 @@ lime
 3
 .
 xml
+fails
+-
+if
+(
+stylo
+|
+|
+styloVsGecko
+)
 =
 =
 css
@@ -7615,6 +7624,9 @@ lime
 5
 .
 xml
+#
+bug
+1388911
 =
 =
 css
