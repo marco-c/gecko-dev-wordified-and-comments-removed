@@ -405,16 +405,6 @@ global
 tree
 .
 css
-*
-skin
-/
-classic
-/
-global
-/
-viewbuttons
-.
-css
 skin
 /
 classic
