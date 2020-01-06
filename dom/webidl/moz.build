@@ -3055,6 +3055,11 @@ CreateOfferRequest
 webidl
 '
 '
+CredentialManagement
+.
+webidl
+'
+'
 Crypto
 .
 webidl
