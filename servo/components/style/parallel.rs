@@ -408,6 +408,7 @@ DispatchMode
 :
 :
 TailCall
+0
 root
 traversal_data
 scope
@@ -626,6 +627,9 @@ E
 ConcreteNode
 >
 ]
+recursion_depth
+:
+usize
 root
 :
 OpaqueNode
@@ -816,6 +820,7 @@ DispatchMode
 :
 :
 NotTailCall
+recursion_depth
 root
 traversal_data_copy
 scope
@@ -940,6 +945,7 @@ DispatchMode
 :
 :
 TailCall
+recursion_depth
 root
 traversal_data
 scope
@@ -990,6 +996,13 @@ TailCall
 )
 }
 }
+const
+RECURSION_DEPTH_LIMIT
+:
+usize
+=
+150
+;
 #
 [
 inline
@@ -1020,6 +1033,9 @@ ConcreteNode
 mode
 :
 DispatchMode
+recursion_depth
+:
+usize
 root
 :
 OpaqueNode
@@ -1094,6 +1110,15 @@ is_empty
 )
 )
 ;
+debug_assert
+!
+(
+recursion_depth
+<
+=
+RECURSION_DEPTH_LIMIT
+)
+;
 let
 may_dispatch_tail
 =
@@ -1102,6 +1127,12 @@ mode
 is_tail_call
 (
 )
+&
+&
+recursion_depth
+!
+=
+RECURSION_DEPTH_LIMIT
 &
 &
 !
@@ -1160,6 +1191,9 @@ top_down_dom
 (
 &
 work
+recursion_depth
++
+1
 root
 traversal_data
 scope
@@ -1189,6 +1223,7 @@ top_down_dom
 (
 &
 work
+0
 root
 traversal_data
 scope
@@ -1270,6 +1305,7 @@ top_down_dom
 &
 *
 n
+0
 root
 traversal_data_copy
 scope
