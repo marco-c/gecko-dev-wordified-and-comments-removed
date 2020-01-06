@@ -261,12 +261,6 @@ browser
 "
 )
 ;
-enumerator
-.
-getNext
-(
-)
-;
 if
 (
 !
