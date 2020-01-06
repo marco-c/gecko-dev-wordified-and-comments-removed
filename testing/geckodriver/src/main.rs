@@ -1318,7 +1318,7 @@ io
 Read
 ;
 const
-MARIONETTE_DEFAULT_PORT
+MARIONETTE_PORT
 :
 u16
 =
@@ -1540,7 +1540,7 @@ handler
 .
 set_prefs
 (
-MARIONETTE_DEFAULT_PORT
+MARIONETTE_PORT
 &
 mut
 gecko_profile
