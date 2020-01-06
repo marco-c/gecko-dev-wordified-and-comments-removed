@@ -633,7 +633,6 @@ MOZ_MEMORY
 '
 ]
 and
-(
 not
 CONFIG
 [
@@ -641,14 +640,6 @@ CONFIG
 MOZ_SYSTEM_SQLITE
 '
 ]
-or
-CONFIG
-[
-'
-MOZ_SYSTEM_JEMALLOC
-'
-]
-)
 :
 if
 CONFIG

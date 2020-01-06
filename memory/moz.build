@@ -188,15 +188,6 @@ MOZ_REPLACE_MALLOC
 '
 ]
 :
-if
-not
-CONFIG
-[
-'
-MOZ_SYSTEM_JEMALLOC
-'
-]
-:
 DIRS
 +
 =

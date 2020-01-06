@@ -345,7 +345,6 @@ MOZ_MEMORY
 '
 ]
 and
-(
 CONFIG
 [
 '
@@ -363,14 +362,6 @@ Darwin
 '
 Android
 '
-)
-or
-CONFIG
-[
-'
-MOZ_SYSTEM_JEMALLOC
-'
-]
 )
 :
 FINAL_LIBRARY

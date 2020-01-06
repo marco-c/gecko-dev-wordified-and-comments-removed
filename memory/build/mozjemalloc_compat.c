@@ -49,17 +49,6 @@ stdbool
 h
 >
 #
-if
-defined
-(
-MOZ_SYSTEM_JEMALLOC
-)
-#
-include
-MALLOC_H
-#
-else
-#
 include
 "
 jemalloc
@@ -68,8 +57,6 @@ jemalloc
 .
 h
 "
-#
-endif
 #
 define
 CTL_GET

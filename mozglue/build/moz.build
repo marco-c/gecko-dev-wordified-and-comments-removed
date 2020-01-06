@@ -251,16 +251,7 @@ MOZ_MEMORY
 '
 ]
 and
-(
-CONFIG
-[
-'
-MOZ_SYSTEM_JEMALLOC
-'
-]
-or
 FORCE_SHARED_LIB
-)
 :
 pass
 #

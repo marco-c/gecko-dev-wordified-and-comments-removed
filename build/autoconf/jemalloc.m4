@@ -83,13 +83,6 @@ configure
 script
 if
 test
--
-z
-"
-MOZ_SYSTEM_JEMALLOC
-"
--
-a
 "
 MOZ_MEMORY
 "
