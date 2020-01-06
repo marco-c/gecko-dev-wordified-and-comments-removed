@@ -2151,14 +2151,10 @@ shape
 lexicalEnv
 -
 >
-setSlot
+setSlotWithType
 (
+cx
 shape
--
->
-slot
-(
-)
 value
 )
 ;
