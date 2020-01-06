@@ -407,7 +407,7 @@ if
 (
 aHost
 .
-Equals
+EqualsLiteral
 (
 "
 "
@@ -416,7 +416,7 @@ Equals
 |
 aHost
 .
-Equals
+EqualsLiteral
 (
 kAPP
 )
@@ -486,7 +486,7 @@ MOZ_ASSERT
 !
 aRoot
 .
-Equals
+EqualsLiteral
 (
 "
 "
@@ -498,7 +498,7 @@ MOZ_ASSERT
 !
 aRoot
 .
-Equals
+EqualsLiteral
 (
 kAPP
 )
@@ -509,7 +509,7 @@ MOZ_ASSERT
 !
 aRoot
 .
-Equals
+EqualsLiteral
 (
 kGRE
 )
@@ -548,7 +548,7 @@ MOZ_ASSERT
 !
 aRoot
 .
-Equals
+EqualsLiteral
 (
 "
 "
@@ -560,7 +560,7 @@ MOZ_ASSERT
 !
 aRoot
 .
-Equals
+EqualsLiteral
 (
 kAPP
 )
@@ -571,7 +571,7 @@ MOZ_ASSERT
 !
 aRoot
 .
-Equals
+EqualsLiteral
 (
 kGRE
 )

@@ -2822,7 +2822,7 @@ if
 !
 provider
 .
-Equals
+EqualsLiteral
 (
 TESTING_TABLE_PROVIDER_NAME
 )

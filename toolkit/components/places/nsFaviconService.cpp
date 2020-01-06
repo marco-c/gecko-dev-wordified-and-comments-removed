@@ -1771,7 +1771,7 @@ icon
 .
 spec
 .
-Equals
+EqualsLiteral
 (
 FAVICON_ERRORPAGE_URL
 )

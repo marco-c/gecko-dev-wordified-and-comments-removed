@@ -2959,7 +2959,7 @@ if
 !
 type
 .
-Equals
+EqualsLiteral
 (
 "
 desktop

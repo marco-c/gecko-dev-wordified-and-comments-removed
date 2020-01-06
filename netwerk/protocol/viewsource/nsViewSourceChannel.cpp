@@ -1540,7 +1540,7 @@ if
 !
 contentType
 .
-Equals
+EqualsLiteral
 (
 UNKNOWN_CONTENT_TYPE
 )

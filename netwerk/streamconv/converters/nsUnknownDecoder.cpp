@@ -3838,7 +3838,7 @@ if
 (
 mContentType
 .
-Equals
+EqualsLiteral
 (
 APPLICATION_OCTET_STREAM
 )
