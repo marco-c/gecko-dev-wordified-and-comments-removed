@@ -140,6 +140,7 @@ small
 "
 )
 ;
+typename
 detail
 :
 :
