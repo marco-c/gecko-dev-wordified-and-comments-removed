@@ -4308,6 +4308,11 @@ checkboxhidden
 "
 true
 "
+buttonhighlight
+=
+"
+true
+"
 hidden
 =
 "
@@ -4481,6 +4486,11 @@ dropmarkerhidden
 true
 "
 checkboxhidden
+=
+"
+true
+"
+buttonhighlight
 =
 "
 true
@@ -4658,6 +4668,11 @@ dropmarkerhidden
 true
 "
 checkboxhidden
+=
+"
+true
+"
+buttonhighlight
 =
 "
 true
