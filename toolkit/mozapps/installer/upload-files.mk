@@ -702,7 +702,7 @@ INNER_MAKE_PACKAGE
 (
 call
 py_action
-7z_exe_archive
+exe_7z_archive
 '
 (
 MOZ_PKG_DIR
@@ -733,7 +733,7 @@ INNER_UNMAKE_PACKAGE
 (
 call
 py_action
-7z_exe_extract
+exe_7z_extract
 (
 UNPACKAGE
 )

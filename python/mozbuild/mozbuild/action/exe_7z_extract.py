@@ -65,7 +65,7 @@ print
 '
 Usage
 :
-7z_exe_extract
+exe_7z_extract
 .
 py
 <
