@@ -1810,6 +1810,15 @@ aResult
 break
 ;
 case
+eIntID_ColorPickerAvailable
+:
+aResult
+=
+true
+;
+break
+;
+case
 eIntID_UseOverlayScrollbars
 :
 aResult
