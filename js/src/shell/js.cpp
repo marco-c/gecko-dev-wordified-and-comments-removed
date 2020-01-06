@@ -19632,6 +19632,15 @@ cx
 ShellInterruptCallback
 )
 ;
+js
+:
+:
+UseInternalJobQueues
+(
+cx
+true
+)
+;
 MOZ_ALWAYS_TRUE
 (
 EnsureGeckoProfilingStackInstalled
