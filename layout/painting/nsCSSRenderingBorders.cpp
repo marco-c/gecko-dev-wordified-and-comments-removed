@@ -897,6 +897,12 @@ AreBorderSideFinalStylesSame
 eSideBitsAll
 )
 ;
+mAllBordersSameWidth
+=
+AllBordersSameWidth
+(
+)
+;
 mAvoidStroke
 =
 false
@@ -14617,16 +14623,9 @@ mNext
 return
 ;
 }
-bool
-allBordersSameWidth
-=
-AllBordersSameWidth
-(
-)
-;
 if
 (
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mBorderWidths
@@ -14776,7 +14775,7 @@ mCompositeColors
 nullptr
 &
 &
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mBorderStyles
@@ -14974,7 +14973,7 @@ if
 allBordersSolid
 &
 &
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mCompositeColors
@@ -15034,7 +15033,7 @@ if
 allBordersSolid
 &
 &
-allBordersSameWidth
+mAllBordersSameWidth
 &
 &
 mNoBorderRadius
