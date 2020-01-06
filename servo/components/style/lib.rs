@@ -263,10 +263,6 @@ ordered_float
 ;
 extern
 crate
-owning_ref
-;
-extern
-crate
 parking_lot
 ;
 extern
