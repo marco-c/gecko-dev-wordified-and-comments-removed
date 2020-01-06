@@ -55,15 +55,6 @@ h
 #
 include
 "
-include
-/
-ESDS
-.
-h
-"
-#
-include
-"
 VideoUtils
 .
 h
@@ -82,10 +73,6 @@ mp4parse
 .
 h
 "
-using
-namespace
-stagefright
-;
 using
 mozilla
 :
