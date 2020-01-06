@@ -958,13 +958,6 @@ ScriptThread
 schedule_job
 (
 job
-&
-*
-self
-.
-global
-(
-)
 )
 ;
 promise
