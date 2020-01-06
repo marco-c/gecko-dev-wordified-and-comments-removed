@@ -291,9 +291,14 @@ mochitest
 unittests
 platform
 :
+-
 linux64
 /
 opt
+-
+linux64
+/
+debug
 require
 -
 build
