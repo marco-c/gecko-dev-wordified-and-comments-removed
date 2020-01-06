@@ -399,11 +399,6 @@ nsDeviceContextSpecG
 cpp
 '
 '
-nsPaperPS
-.
-cpp
-'
-'
 nsPrintDialogGTK
 .
 cpp

@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsPaperPS
-.
-h
-"
-#
-include
-"
 nsPrintSettingsGTK
 .
 h
