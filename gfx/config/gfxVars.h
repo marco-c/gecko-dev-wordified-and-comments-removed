@@ -231,6 +231,13 @@ bool
 false
 )
 \
+_
+(
+AllowD3D11KeyedMutex
+bool
+false
+)
+\
 class
 gfxVars
 final
