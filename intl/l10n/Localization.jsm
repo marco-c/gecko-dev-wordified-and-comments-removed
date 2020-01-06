@@ -993,5 +993,8 @@ this
 EXPORTED_SYMBOLS
 =
 [
+'
+Localization
+'
 ]
 ;
