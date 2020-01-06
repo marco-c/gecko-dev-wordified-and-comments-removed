@@ -110,6 +110,9 @@ aDecodeTaskQueue
 bool
 *
 aSuccess
+nsCString
+*
+aErrorDescription
 )
 ;
 void
