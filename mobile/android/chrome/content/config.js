@@ -2435,9 +2435,9 @@ if
 aField
 =
 =
-'
+"
 name
-'
+"
 )
 {
 gClipboardHelper

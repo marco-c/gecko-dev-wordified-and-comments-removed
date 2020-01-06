@@ -131,11 +131,11 @@ msg
 {
 type
 :
-'
+"
 RuntimePermissions
 :
 Check
-'
+"
 permissions
 :
 permissions
@@ -195,11 +195,11 @@ msg
 {
 type
 :
-'
+"
 RuntimePermissions
 :
 Check
-'
+"
 permissions
 :
 permissions

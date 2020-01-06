@@ -193,9 +193,9 @@ authentication
 !
 =
 =
-'
+"
 PROMPT
-'
+"
 )
 {
 return
@@ -369,9 +369,9 @@ authentication
 !
 =
 =
-'
+"
 OOB_CERT
-'
+"
 |
 |
 !

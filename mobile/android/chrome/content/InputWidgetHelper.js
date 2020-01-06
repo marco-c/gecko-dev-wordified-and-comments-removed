@@ -139,9 +139,9 @@ aElement
 .
 getAttribute
 (
-'
+"
 type
-'
+"
 )
 ;
 let
@@ -175,9 +175,9 @@ aElement
 .
 getAttribute
 (
-'
+"
 type
-'
+"
 )
 )
 buttons
@@ -405,9 +405,9 @@ aElement
 .
 getAttribute
 (
-'
+"
 type
-'
+"
 )
 ;
 if

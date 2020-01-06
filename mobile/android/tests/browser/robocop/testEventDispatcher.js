@@ -303,9 +303,9 @@ scope
 =
 =
 =
-'
+"
 global
-'
+"
 )
 {
 return
@@ -320,9 +320,9 @@ scope
 =
 =
 =
-'
+"
 window
-'
+"
 )
 {
 let

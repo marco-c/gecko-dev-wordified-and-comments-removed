@@ -504,9 +504,9 @@ subscription
 .
 getKey
 (
-'
+"
 p256dh
-'
+"
 )
 )
 pushAuthKey
@@ -517,9 +517,9 @@ subscription
 .
 getKey
 (
-'
+"
 auth
-'
+"
 )
 )
 }

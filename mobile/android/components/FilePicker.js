@@ -100,9 +100,9 @@ Cu
 importGlobalProperties
 (
 [
-'
+"
 File
-'
+"
 ]
 )
 ;
@@ -987,11 +987,11 @@ wm
 .
 getMostRecentWindow
 (
-'
+"
 navigator
 :
 browser
-'
+"
 )
 ;
 let
