@@ -395,6 +395,8 @@ int32_t
 lengthSamples
 int32_t
 samplingFreqHz
+uint32_t
+channels
 int32_t
 capture_time
 )
