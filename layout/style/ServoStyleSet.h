@@ -1132,9 +1132,17 @@ return
 aPresContext
 !
 =
-mPresContextInitXBLStyleSet
+mLastPresContextUsesXBLStyleSet
 ;
 }
+bool
+SetPresContext
+(
+nsPresContext
+*
+aPresContext
+)
+;
 bool
 MightHaveAttributeDependency
 (
@@ -1426,7 +1434,7 @@ nullptr
 void
 *
 MOZ_NON_OWNING_REF
-mPresContextInitXBLStyleSet
+mLastPresContextUsesXBLStyleSet
 =
 nullptr
 ;
