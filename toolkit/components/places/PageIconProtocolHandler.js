@@ -630,6 +630,12 @@ contentType
 =
 mimeType
 ;
+channel
+.
+contentLength
+=
+len
+;
 serveIcon
 (
 pipe
