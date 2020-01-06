@@ -1442,6 +1442,8 @@ nscoord
 aFontSize
 bool
 aUseUserFontSet
+FlushUserFontSet
+aFlushUserFontSet
 )
 {
 nsFont
@@ -1517,6 +1519,13 @@ aPresContext
 >
 GetUserFontSet
 (
+aFlushUserFontSet
+=
+=
+FlushUserFontSet
+:
+:
+Yes
 )
 :
 nullptr
@@ -1623,6 +1632,10 @@ isVertical
 aStyleFont
 aFontSize
 aUseUserFontSet
+FlushUserFontSet
+:
+:
+Yes
 )
 ;
 }

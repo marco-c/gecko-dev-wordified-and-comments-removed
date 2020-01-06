@@ -11129,6 +11129,13 @@ aIsVertical
 aFont
 aFontSize
 aUseUserFontSet
+nsRuleNode
+:
+:
+FlushUserFontSet
+:
+:
+No
 )
 ;
 ret
