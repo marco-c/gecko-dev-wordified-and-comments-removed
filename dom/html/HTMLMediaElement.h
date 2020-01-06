@@ -3307,11 +3307,13 @@ mPendingEvents
 nsMediaNetworkState
 mNetworkState
 ;
-Watchable
-<
 nsMediaReadyState
->
 mReadyState
+=
+nsIDOMHTMLMediaElement
+:
+:
+HAVE_NOTHING
 ;
 enum
 LoadAlgorithmState
