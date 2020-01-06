@@ -913,6 +913,10 @@ mLastRefPoint
 0
 0
 )
+mFocusSequenceNumber
+(
+0
+)
 mSpecifiedEventType
 (
 nullptr
@@ -1086,6 +1090,9 @@ mRefPoint
 LayoutDeviceIntPoint
 mLastRefPoint
 ;
+uint64_t
+mFocusSequenceNumber
+;
 BaseEventFlags
 mFlags
 ;
@@ -1171,6 +1178,12 @@ mRefPoint
 aEvent
 .
 mRefPoint
+;
+mFocusSequenceNumber
+=
+aEvent
+.
+mFocusSequenceNumber
 ;
 AssignEventTime
 (

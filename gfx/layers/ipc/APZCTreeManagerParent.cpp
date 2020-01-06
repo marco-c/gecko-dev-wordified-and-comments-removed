@@ -1200,7 +1200,7 @@ IPCResult
 APZCTreeManagerParent
 :
 :
-RecvTransformEventRefPoint
+RecvProcessUnhandledEvent
 (
 const
 LayoutDeviceIntPoint
@@ -1212,6 +1212,9 @@ aOutRefPoint
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutFocusSequenceNumber
 )
 {
 LayoutDeviceIntPoint
@@ -1222,11 +1225,12 @@ aRefPoint
 mTreeManager
 -
 >
-TransformEventRefPoint
+ProcessUnhandledEvent
 (
 &
 refPoint
 aOutTargetGuid
+aOutFocusSequenceNumber
 )
 ;
 *

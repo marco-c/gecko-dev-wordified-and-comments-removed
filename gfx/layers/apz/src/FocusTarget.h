@@ -79,6 +79,8 @@ FocusTarget
 nsIPresShell
 *
 aRootPresShell
+uint64_t
+aFocusSequenceNumber
 )
 ;
 bool
@@ -95,6 +97,9 @@ const
 ;
 public
 :
+uint64_t
+mSequenceNumber
+;
 bool
 mFocusHasKeyEventListeners
 ;

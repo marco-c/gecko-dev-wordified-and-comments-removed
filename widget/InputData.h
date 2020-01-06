@@ -240,6 +240,9 @@ mTime
 TimeStamp
 mTimeStamp
 ;
+uint64_t
+mFocusSequenceNumber
+;
 Modifiers
 modifiers
 ;

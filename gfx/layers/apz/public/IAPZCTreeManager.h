@@ -351,7 +351,7 @@ protected
 :
 virtual
 void
-TransformEventRefPoint
+ProcessUnhandledEvent
 (
 LayoutDeviceIntPoint
 *
@@ -359,6 +359,9 @@ aRefPoint
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutFocusSequenceNumber
 )
 =
 0

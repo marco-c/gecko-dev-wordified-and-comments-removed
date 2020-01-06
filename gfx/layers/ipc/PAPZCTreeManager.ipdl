@@ -861,7 +861,7 @@ aEventMessage
 )
 ;
 sync
-TransformEventRefPoint
+ProcessUnhandledEvent
 (
 LayoutDeviceIntPoint
 aRefPoint
@@ -872,6 +872,8 @@ LayoutDeviceIntPoint
 aOutRefPoint
 ScrollableLayerGuid
 aOutTargetGuid
+uint64_t
+aOutFocusSequenceNumber
 )
 ;
 async
