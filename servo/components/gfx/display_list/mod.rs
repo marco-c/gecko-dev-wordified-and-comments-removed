@@ -5314,7 +5314,6 @@ pub
 enum
 BoxShadowClipMode
 {
-None
 Outset
 Inset
 }
