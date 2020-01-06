@@ -122,7 +122,6 @@ InflateString
 (
 cx
 str
-&
 length_
 )
 ;
@@ -159,7 +158,6 @@ InflateString
 (
 cx
 str
-&
 length_
 )
 ;

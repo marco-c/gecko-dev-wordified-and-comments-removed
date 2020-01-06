@@ -1143,7 +1143,6 @@ char
 *
 bytes
 size_t
-*
 length
 )
 ;

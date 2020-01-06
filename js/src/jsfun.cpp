@@ -4063,7 +4063,6 @@ InflateString
 (
 cx
 rawSource
-&
 sourceLen
 )
 )
