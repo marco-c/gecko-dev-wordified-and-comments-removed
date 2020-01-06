@@ -4693,6 +4693,11 @@ notification
 -
 anchor
 "
+hidden
+=
+"
+true
+"
 >
 <
 vbox
