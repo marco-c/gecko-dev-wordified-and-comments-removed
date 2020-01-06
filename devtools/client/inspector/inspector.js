@@ -563,6 +563,16 @@ Telemetry
 ;
 this
 .
+previousURL
+=
+this
+.
+target
+.
+url
+;
+this
+.
 nodeMenuTriggerInfo
 =
 null
