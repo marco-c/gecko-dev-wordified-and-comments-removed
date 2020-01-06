@@ -212,9 +212,6 @@ strndup
 #
 undef
 strdup
-#
-ifndef
-XP_DARWIN
 MOZ_MEMORY_API
 char
 *
@@ -297,8 +294,6 @@ len
 )
 ;
 }
-#
-endif
 #
 ifdef
 ANDROID
