@@ -240023,7 +240023,7 @@ FontVariation
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_198168_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_198186_close0_instantiation
 (
 )
 {
@@ -244027,7 +244027,7 @@ TErrorResult
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_199951_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_199969_close0_instantiation
 (
 )
 {
@@ -245865,7 +245865,7 @@ DeletePolicy
 test
 ]
 fn
-__bindgen_test_layout_iterator_open0_input_iterator_tag_UniquePtr_open1_JSErrorNotes_Note_DeletePolicy_open2_JSErrorNotes_Note_close2_close1_long__bindgen_ty_id_205538__bindgen_ty_id_205545_close0_instantiation
+__bindgen_test_layout_iterator_open0_input_iterator_tag_UniquePtr_open1_JSErrorNotes_Note_DeletePolicy_open2_JSErrorNotes_Note_close2_close1_long__bindgen_ty_id_205560__bindgen_ty_id_205567_close0_instantiation
 (
 )
 {
@@ -248389,7 +248389,7 @@ StyleSheet
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_208021_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_208043_close0_instantiation
 (
 )
 {
@@ -249177,7 +249177,7 @@ nsCOMPtr
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_208323_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_208345_close0_instantiation
 (
 )
 {
@@ -250393,7 +250393,7 @@ URLExtraData
 test
 ]
 fn
-__bindgen_test_layout_NotNull_open0__bindgen_ty_id_208865_close0_instantiation
+__bindgen_test_layout_NotNull_open0__bindgen_ty_id_208887_close0_instantiation
 (
 )
 {
@@ -254513,7 +254513,7 @@ StyleSheet
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_209278_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_209300_close0_instantiation
 (
 )
 {
@@ -255461,7 +255461,7 @@ ServoStyleSheet
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_209675_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_209697_close0_instantiation
 (
 )
 {
@@ -256635,7 +256635,7 @@ nsStringRepr
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_210634_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_210652_close0_instantiation
 (
 )
 {
@@ -257549,7 +257549,7 @@ nsCSSFontFaceRule
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_210937_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_210955_close0_instantiation
 (
 )
 {
@@ -257679,7 +257679,7 @@ nsIContent
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_210942_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_210960_close0_instantiation
 (
 )
 {
@@ -258297,7 +258297,7 @@ CSSStyleSheet
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_211417_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_211435_close0_instantiation
 (
 )
 {
@@ -265063,7 +265063,7 @@ nsCOMPtr
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_214248_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_214266_close0_instantiation
 (
 )
 {
@@ -265977,7 +265977,7 @@ DefaultDelete
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_220493_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_220511_close0_instantiation
 (
 )
 {
@@ -266411,7 +266411,7 @@ CallbackObject
 test
 ]
 fn
-__bindgen_test_layout_Heap_open0__bindgen_ty_id_221654_close0_instantiation
+__bindgen_test_layout_Heap_open0__bindgen_ty_id_221672_close0_instantiation
 (
 )
 {
@@ -266553,7 +266553,7 @@ JSObject
 test
 ]
 fn
-__bindgen_test_layout_Heap_open0__bindgen_ty_id_221658_close0_instantiation
+__bindgen_test_layout_Heap_open0__bindgen_ty_id_221676_close0_instantiation
 (
 )
 {
@@ -266793,7 +266793,7 @@ nsCOMPtr
 test
 ]
 fn
-__bindgen_test_layout_TenuredHeap_open0__bindgen_ty_id_221665_close0_instantiation
+__bindgen_test_layout_TenuredHeap_open0__bindgen_ty_id_221683_close0_instantiation
 (
 )
 {
@@ -267575,7 +267575,7 @@ CycleCollectedJSContext_RunInMetastableStateData
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_222838_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_222856_close0_instantiation
 (
 )
 {
@@ -269805,7 +269805,7 @@ f64
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_224286_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_224304_close0_instantiation
 (
 )
 {
@@ -271039,7 +271039,7 @@ nsIAtom
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_226674_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_226692_close0_instantiation
 (
 )
 {
@@ -279017,7 +279017,7 @@ nsStyleImageRequest
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_229151_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_229169_close0_instantiation
 (
 )
 {
@@ -281635,7 +281635,7 @@ nsCOMPtr
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_236959_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_236977_close0_instantiation
 (
 )
 {
@@ -281765,7 +281765,7 @@ nsIContent
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_236964_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_236982_close0_instantiation
 (
 )
 {
@@ -282737,7 +282737,7 @@ ShadowRoot
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_237077_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_237095_close0_instantiation
 (
 )
 {
@@ -286011,7 +286011,7 @@ ExplicitChildIterator
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_238657_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_238675_close0_instantiation
 (
 )
 {
@@ -286287,7 +286287,7 @@ Element
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_238815_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_238833_close0_instantiation
 (
 )
 {
@@ -286417,7 +286417,7 @@ nsIContent
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_238820_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_238838_close0_instantiation
 (
 )
 {
@@ -287953,7 +287953,7 @@ FontVariation
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_240894_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_240912_close0_instantiation
 (
 )
 {
@@ -288107,7 +288107,7 @@ DocumentRule
 test
 ]
 fn
-__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_240900_close0_instantiation
+__bindgen_test_layout_nsTArray_open0__bindgen_ty_id_240918_close0_instantiation
 (
 )
 {
