@@ -59,6 +59,11 @@ MatchPatternSet
 :
 false
 "
+WebExtensionPolicy
+"
+:
+false
+"
 AppConstants
 "
 :
