@@ -322,10 +322,6 @@ break
 ;
 default
 :
-MOZ_CRASH
-(
-)
-;
 return
 NavigationType
 :
