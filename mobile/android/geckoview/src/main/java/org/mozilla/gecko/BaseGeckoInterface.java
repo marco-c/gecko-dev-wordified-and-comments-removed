@@ -120,16 +120,6 @@ listener
 }
 Override
 public
-void
-setAccessibilityEnabled
-(
-boolean
-enabled
-)
-{
-}
-Override
-public
 boolean
 openUriExternal
 (
