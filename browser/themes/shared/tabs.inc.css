@@ -287,6 +287,17 @@ padding
 horizontalTabPadding
 ;
 }
+:
+root
+:
+not
+(
+[
+uidensity
+=
+compact
+]
+)
 .
 tab
 -
