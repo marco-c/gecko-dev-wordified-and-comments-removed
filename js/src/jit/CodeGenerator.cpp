@@ -49249,14 +49249,6 @@ jump
 ReturnReg
 )
 ;
-lazyLinkStubEndOffset_
-=
-masm
-.
-currentOffset
-(
-)
-;
 }
 void
 JitRuntime
