@@ -272,7 +272,7 @@ aElement
 removeEventListener
 (
 "
-mouseover
+mousemove
 "
 eventOccurred
 true
@@ -288,7 +288,7 @@ aElement
 addEventListener
 (
 "
-mouseover
+mousemove
 "
 eventOccurred
 true
