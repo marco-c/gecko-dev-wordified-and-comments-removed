@@ -989,7 +989,7 @@ styleWindow
 ;
 view
 .
-throttle
+debounce
 .
 flush
 (

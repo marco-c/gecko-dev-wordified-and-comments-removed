@@ -297,9 +297,9 @@ ruleview
 .
 view
 .
-throttle
+debounce
 =
-manualThrottle
+manualDebounce
 (
 )
 ;
@@ -676,7 +676,7 @@ updated
 )
 ;
 function
-manualThrottle
+manualDebounce
 (
 )
 {
@@ -687,7 +687,7 @@ calls
 ]
 ;
 function
-throttle
+debounce
 (
 func
 wait
@@ -750,7 +750,7 @@ arguments
 }
 ;
 }
-throttle
+debounce
 .
 flush
 =
@@ -788,7 +788,7 @@ calls
 }
 ;
 return
-throttle
+debounce
 ;
 }
 function
