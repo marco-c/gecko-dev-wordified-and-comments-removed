@@ -356,6 +356,13 @@ optional
 =
 true
 }
+itertools
+=
+"
+0
+.
+5
+"
 itoa
 =
 "
