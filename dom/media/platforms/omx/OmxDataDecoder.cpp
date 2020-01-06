@@ -1972,6 +1972,9 @@ Clear
 }
 )
 ;
+nsresult
+rv
+=
 mOmxTaskQueue
 -
 >
@@ -1981,6 +1984,14 @@ r
 .
 forget
 (
+)
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;

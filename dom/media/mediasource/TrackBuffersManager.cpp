@@ -934,6 +934,9 @@ IsCurrentThreadIn
 )
 )
 {
+nsresult
+rv
+=
 taskQueue
 -
 >
@@ -960,6 +963,14 @@ TrackBuffersManager
 :
 QueueTask
 aTask
+)
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;
