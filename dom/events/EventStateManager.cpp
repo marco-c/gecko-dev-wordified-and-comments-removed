@@ -5725,9 +5725,17 @@ case
 eDragEventClass
 :
 {
+RefPtr
+<
+TabParent
+>
+tabParent
+=
+remote
+;
 if
 (
-remote
+tabParent
 -
 >
 Manager
@@ -5740,7 +5748,7 @@ IsContentParent
 )
 )
 {
-remote
+tabParent
 -
 >
 Manager
@@ -5755,7 +5763,7 @@ AsContentParent
 >
 MaybeInvokeDragSession
 (
-remote
+tabParent
 )
 ;
 }
@@ -5842,7 +5850,7 @@ dropEffect
 ;
 }
 }
-remote
+tabParent
 -
 >
 SendRealDragEvent
