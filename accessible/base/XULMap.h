@@ -5,6 +5,11 @@ New_MaybeImageOrToolbarButtonAccessible
 )
 XULMAP
 (
+statusbar
+New_StatusBarAccessible
+)
+XULMAP
+(
 menuseparator
 New_MenuSeparator
 )
