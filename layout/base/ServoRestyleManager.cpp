@@ -3080,6 +3080,7 @@ nsChangeHint
 }
 if
 (
+(
 aAttribute
 =
 =
@@ -3100,6 +3101,16 @@ nsGkAtoms
 table
 )
 )
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+lang
+)
 {
 PostRestyleEvent
 (
@@ -3112,6 +3123,7 @@ nsChangeHint
 )
 ;
 }
+else
 if
 (
 aElement
