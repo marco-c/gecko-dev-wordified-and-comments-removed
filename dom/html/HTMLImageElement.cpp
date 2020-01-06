@@ -1589,6 +1589,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )
@@ -1851,6 +1855,7 @@ AfterSetAttr
 aNameSpaceID
 aName
 aValue
+aOldValue
 aNotify
 )
 ;
