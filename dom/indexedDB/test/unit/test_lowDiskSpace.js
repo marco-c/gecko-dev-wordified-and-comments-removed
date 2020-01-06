@@ -921,9 +921,6 @@ onabort
 =
 grabEventAndContinueHandler
 ;
-let
-objectStore
-=
 db
 .
 createObjectStore
@@ -1250,9 +1247,6 @@ objectStore
 objectStoreName
 )
 ;
-let
-index
-=
 objectStore
 .
 createIndex
@@ -1420,9 +1414,6 @@ objectStore
 objectStoreName
 )
 ;
-let
-index
-=
 objectStore
 .
 createIndex
@@ -1874,9 +1865,6 @@ objectStoreName
 objectStoreOptions
 )
 ;
-let
-index
-=
 objectStore
 .
 createIndex

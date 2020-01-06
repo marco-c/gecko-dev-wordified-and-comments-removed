@@ -195,9 +195,6 @@ exception
 ;
 try
 {
-let
-transaction
-=
 db
 .
 transaction

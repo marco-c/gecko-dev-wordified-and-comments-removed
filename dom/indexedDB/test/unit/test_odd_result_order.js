@@ -115,9 +115,6 @@ true
 }
 )
 ;
-let
-index
-=
 objectStore
 .
 createIndex

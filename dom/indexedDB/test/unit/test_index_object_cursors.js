@@ -266,9 +266,6 @@ indexData
 indexIndex
 ]
 ;
-let
-index
-=
 objectStore
 .
 createIndex

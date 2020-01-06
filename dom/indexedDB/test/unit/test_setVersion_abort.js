@@ -85,9 +85,6 @@ foo
 "
 )
 ;
-let
-index
-=
 objectStore
 .
 createIndex
@@ -528,9 +525,6 @@ foo
 "
 )
 ;
-let
-index2
-=
 objectStore2
 .
 createIndex

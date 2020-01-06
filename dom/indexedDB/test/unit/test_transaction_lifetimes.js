@@ -111,9 +111,6 @@ true
 }
 )
 ;
-let
-index
-=
 os
 .
 createIndex
