@@ -673,9 +673,10 @@ getSelectedTab
 (
 )
 ;
-waitUntilTabMediaStarted
+checkTabMediaPlayingState
 (
 tab
+true
 )
 ;
 info
@@ -879,9 +880,10 @@ getSelectedTab
 (
 )
 ;
-waitUntilTabMediaStarted
+checkTabMediaPlayingState
 (
 tab
+true
 )
 ;
 info
@@ -1064,9 +1066,10 @@ getSelectedTab
 (
 )
 ;
-waitUntilTabMediaStarted
+checkTabMediaPlayingState
 (
 tab
+true
 )
 ;
 info
@@ -1401,9 +1404,10 @@ getSelectedTab
 (
 )
 ;
-waitUntilTabMediaStarted
+checkTabMediaPlayingState
 (
 tab
+true
 )
 ;
 info
