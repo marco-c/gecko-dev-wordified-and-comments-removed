@@ -213,16 +213,6 @@ public
 static
 final
 String
-REVISIT_WEBSITE
-=
-"
-E_Revisit_Website
-"
-;
-public
-static
-final
-String
 LAUNCH_BUT_NOT_DEFAULT_BROWSER
 =
 "
