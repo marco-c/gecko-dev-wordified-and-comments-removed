@@ -7086,9 +7086,9 @@ resource
 :
 /
 /
-gre
+content
 -
-resources
+accessible
 /
 viewsource
 .

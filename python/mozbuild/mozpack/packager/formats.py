@@ -2504,5 +2504,9 @@ update
 .
 locale
 '
+            
+'
+contentaccessible
+'
         
 ]
