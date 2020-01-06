@@ -5960,8 +5960,6 @@ GetHostName
 (
 )
 certList
-&
-peerCertChain
 saveIntermediates
 flags
 infoObject

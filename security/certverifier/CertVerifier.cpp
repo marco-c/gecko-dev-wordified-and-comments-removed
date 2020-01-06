@@ -2203,9 +2203,6 @@ hostname
 UniqueCERTCertList
 &
 builtChain
-UniqueCERTCertList
-*
-peerCertChain
 const
 Flags
 flags
@@ -2656,7 +2653,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -2900,7 +2896,6 @@ i
 mNetscapeStepUpPolicy
 originAttributes
 builtChain
-peerCertChain
 pinningTelemetryInfo
 hostname
 )
@@ -3261,7 +3256,6 @@ j
 mNetscapeStepUpPolicy
 originAttributes
 builtChain
-peerCertChain
 pinningTelemetryInfo
 hostname
 )
@@ -3495,7 +3489,6 @@ Allowed
 mNetscapeStepUpPolicy
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -3560,7 +3553,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -3663,7 +3655,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -3766,7 +3757,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -3909,7 +3899,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -3969,7 +3958,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -4029,7 +4017,6 @@ NetscapeStepUpPolicy
 NeverMatch
 originAttributes
 builtChain
-peerCertChain
 nullptr
 nullptr
 )
@@ -4112,9 +4099,6 @@ hostname
 UniqueCERTCertList
 &
 builtChain
-UniqueCERTCertList
-*
-peerCertChain
 bool
 saveIntermediatesInPermanentDatabase
 Flags
@@ -4207,7 +4191,6 @@ get
 (
 )
 builtChain
-peerCertChain
 flags
 stapledOCSPResponse
 sctsFromTLS

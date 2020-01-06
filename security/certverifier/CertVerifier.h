@@ -385,11 +385,6 @@ hostname
 UniqueCERTCertList
 &
 builtChain
-UniqueCERTCertList
-*
-peerCertChain
-=
-nullptr
 Flags
 flags
 =
@@ -485,11 +480,6 @@ hostname
 UniqueCERTCertList
 &
 builtChain
-UniqueCERTCertList
-*
-peerCertChain
-=
-nullptr
 bool
 saveIntermediatesInPermanentDatabase
 =
