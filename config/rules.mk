@@ -7072,12 +7072,6 @@ RUSTC
 RUSTC
 )
 \
-MOZ_SRC
-=
-(
-topsrcdir
-)
-\
 MOZ_DIST
 =
 (
