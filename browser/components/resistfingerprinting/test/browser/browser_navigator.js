@@ -82,6 +82,10 @@ NT
 6
 .
 1
+;
+Win64
+;
+x64
 "
 ;
 const
@@ -778,11 +782,9 @@ Mozilla
 .
 0
 (
-Windows
-NT
-6
-.
-1
+{
+SPOOFED_OSCPU
+}
 ;
 rv
 :
