@@ -711,7 +711,7 @@ t
 ;
 }
 }
-public
+private
 static
 void
 onResume
