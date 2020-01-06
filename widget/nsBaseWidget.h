@@ -715,13 +715,6 @@ mIsFullyOccluded
 ;
 }
 virtual
-nsCursor
-GetCursor
-(
-)
-override
-;
-virtual
 void
 SetCursor
 (

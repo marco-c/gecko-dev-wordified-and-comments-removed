@@ -1891,15 +1891,6 @@ aColor
 {
 }
 virtual
-nsCursor
-GetCursor
-(
-void
-)
-=
-0
-;
-virtual
 void
 SetCursor
 (
