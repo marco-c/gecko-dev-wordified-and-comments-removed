@@ -6236,10 +6236,10 @@ aContinue
 if
 (
 !
-aRoot
+aEndEntity
 )
 {
-aRoot
+aEndEntity
 =
 aCert
 ;
@@ -6251,7 +6251,7 @@ if
 hasMore
 )
 {
-aEndEntity
+aRoot
 =
 aCert
 ;
