@@ -1540,6 +1540,7 @@ mDetectedNotRunning
 bool
 mPostedRunInStableState
 ;
+const
 bool
 mRealtime
 ;
