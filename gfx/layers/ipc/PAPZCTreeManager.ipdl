@@ -104,6 +104,17 @@ h
 ;
 include
 "
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
+include
+"
 ipc
 /
 nsGUIEventIPC

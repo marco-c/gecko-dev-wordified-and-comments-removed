@@ -130,6 +130,17 @@ GfxMessageUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
 using
 NPError
 from

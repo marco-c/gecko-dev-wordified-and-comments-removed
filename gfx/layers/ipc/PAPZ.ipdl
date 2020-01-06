@@ -114,6 +114,17 @@ h
 "
 ;
 include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
+include
 protocol
 PCompositorBridge
 ;

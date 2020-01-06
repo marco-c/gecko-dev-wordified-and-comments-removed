@@ -131,6 +131,17 @@ GfxMessageUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
 using
 struct
 mozilla
