@@ -967,6 +967,12 @@ removeAllRanges
 (
 )
 ;
+gSearchResultsPane
+.
+removeAllSearchTooltips
+(
+)
+;
 }
 if
 (
