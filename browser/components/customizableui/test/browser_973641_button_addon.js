@@ -182,6 +182,11 @@ bar
 )
 ;
 await
+waitForOverflowButtonShown
+(
+)
+;
+await
 document
 .
 getElementById

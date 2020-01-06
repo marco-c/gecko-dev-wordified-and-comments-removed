@@ -66,6 +66,11 @@ CustomizableUI
 AREA_FIXED_OVERFLOW_PANEL
 )
 ;
+await
+waitForOverflowButtonShown
+(
+)
+;
 registerCleanupFunction
 (
 (
@@ -160,7 +165,6 @@ promiseOverflowHidden
 window
 )
 ;
-await
 document
 .
 getElementById
@@ -182,6 +186,14 @@ hidePopup
 ;
 await
 panelHidePromise
+;
+info
+(
+"
+Panel
+hidden
+"
+)
 ;
 let
 newTab
@@ -453,7 +465,6 @@ promiseOverflowHidden
 window
 )
 ;
-await
 document
 .
 getElementById
@@ -475,6 +486,14 @@ hidePopup
 ;
 await
 panelHidePromise
+;
+info
+(
+"
+Panel
+hidden
+"
+)
 ;
 await
 BrowserTestUtils

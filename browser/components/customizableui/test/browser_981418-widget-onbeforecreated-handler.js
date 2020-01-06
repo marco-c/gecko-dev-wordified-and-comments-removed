@@ -324,6 +324,11 @@ AREA_FIXED_OVERFLOW_PANEL
 )
 ;
 await
+waitForOverflowButtonShown
+(
+)
+;
+await
 document
 .
 getElementById
