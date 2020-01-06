@@ -9086,7 +9086,7 @@ char
 aName
 void
 *
-stackTop
+aStackTop
 )
 {
 MOZ_RELEASE_ASSERT
@@ -9140,7 +9140,7 @@ GetCurrentId
 NS_IsMainThread
 (
 )
-stackTop
+aStackTop
 )
 ;
 TLSInfo
