@@ -1677,7 +1677,9 @@ NewWakeLock
 NS_LITERAL_STRING
 (
 "
-screen
+video
+-
+playing
 "
 )
 OwnerDoc
