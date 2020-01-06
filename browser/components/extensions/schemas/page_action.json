@@ -1443,6 +1443,11 @@ type
 function
 "
 "
+async
+"
+:
+true
+"
 description
 "
 :
