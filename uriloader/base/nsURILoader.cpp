@@ -1627,11 +1627,6 @@ GetContentDisposition
 disposition
 )
 ;
-bool
-allowContentDispositionToForceExternalHandling
-=
-true
-;
 if
 (
 NS_SUCCEEDED
@@ -1640,7 +1635,6 @@ rv
 )
 &
 &
-(
 disposition
 =
 =
@@ -1648,10 +1642,6 @@ nsIChannel
 :
 :
 DISPOSITION_ATTACHMENT
-)
-&
-&
-allowContentDispositionToForceExternalHandling
 )
 {
 forceExternalHandling
