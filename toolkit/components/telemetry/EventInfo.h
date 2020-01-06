@@ -29,6 +29,9 @@ uint32_t
 extra_count
 ;
 uint32_t
+expiration_day
+;
+uint32_t
 dataset
 ;
 mozilla
