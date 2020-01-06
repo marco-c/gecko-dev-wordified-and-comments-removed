@@ -18765,6 +18765,13 @@ aFrame
 list
 )
 ;
+builder
+.
+IncrementPresShellPaintCount
+(
+presShell
+)
+;
 if
 (
 !

@@ -2290,6 +2290,14 @@ nsDisplayList
 aPaintedContents
 )
 ;
+void
+IncrementPresShellPaintCount
+(
+nsIPresShell
+*
+aPresShell
+)
+;
 bool
 IsInTransform
 (
