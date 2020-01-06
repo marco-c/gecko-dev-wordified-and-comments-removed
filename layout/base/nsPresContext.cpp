@@ -6712,8 +6712,6 @@ RefPtr
 nsStyleContext
 >
 rootStyle
-;
-rootStyle
 =
 styleSet
 -
@@ -6837,8 +6835,6 @@ RefPtr
 <
 nsStyleContext
 >
-bodyStyle
-;
 bodyStyle
 =
 styleSet
@@ -8245,13 +8241,6 @@ sLookAndFeelChanged
 false
 ;
 }
-nsCSSRuleProcessor
-:
-:
-FreeSystemMetrics
-(
-)
-;
 GetDocumentColorPreferences
 (
 )
