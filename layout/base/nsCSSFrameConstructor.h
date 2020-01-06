@@ -4428,6 +4428,14 @@ RemoveFlags
 aFlags
 )
 ;
+void
+UpdateTableCellSpans
+(
+nsIContent
+*
+aContent
+)
+;
 bool
 MaybeRecreateContainerForFrameRemoval
 (
