@@ -6446,7 +6446,7 @@ attributes
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 attribute
@@ -6457,7 +6457,7 @@ deprecatedAttribute
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 byte
@@ -6469,7 +6469,7 @@ deprecatedMethod
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 byte
@@ -6540,7 +6540,7 @@ attributes
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 static
@@ -6552,7 +6552,7 @@ staticDeprecatedAttribute
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 static
@@ -6565,7 +6565,7 @@ staticDeprecatedMethod
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 static
@@ -9116,7 +9116,7 @@ volatile
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 Constructor
 (

@@ -5491,7 +5491,7 @@ attributes
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 attribute
@@ -5502,7 +5502,7 @@ deprecatedAttribute
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 void
@@ -5516,7 +5516,7 @@ arg
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 void
@@ -5564,7 +5564,7 @@ attributes
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 static
@@ -5576,7 +5576,7 @@ staticDeprecatedAttribute
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 static
@@ -5591,7 +5591,7 @@ arg
 Deprecated
 =
 "
-GetAttributeNode
+EnablePrivilege
 "
 ]
 static
