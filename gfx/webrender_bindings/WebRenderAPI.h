@@ -1389,7 +1389,7 @@ const
 wr
 :
 :
-WrGlyphInstance
+GlyphInstance
 >
 aGlyphBuffer
 float
