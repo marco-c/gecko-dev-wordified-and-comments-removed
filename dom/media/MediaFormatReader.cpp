@@ -7548,6 +7548,7 @@ return
 (
 nextKeyframe
 <
+=
 aTimeThreshold
 |
 |
