@@ -104,11 +104,11 @@ icon
 {
 width
 :
-16px
+12px
 ;
 height
 :
-16px
+12px
 ;
 background
 -
@@ -158,6 +158,12 @@ vertical
 align
 :
 middle
+;
+margin
+-
+bottom
+:
+1px
 ;
 }
 .
