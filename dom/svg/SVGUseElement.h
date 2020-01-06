@@ -369,13 +369,7 @@ class
 SourceReference
 :
 public
-mozilla
-:
-:
-dom
-:
-:
-IDTracker
+nsReferencedElement
 {
 public
 :
@@ -408,7 +402,7 @@ aTo
 )
 override
 {
-IDTracker
+nsReferencedElement
 :
 :
 ElementChanged

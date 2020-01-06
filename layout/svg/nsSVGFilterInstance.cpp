@@ -554,7 +554,7 @@ return
 nullptr
 ;
 }
-IDTracker
+nsReferencedElement
 filterElement
 ;
 bool
