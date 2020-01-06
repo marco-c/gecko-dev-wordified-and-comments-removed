@@ -2759,6 +2759,8 @@ runtime
 ArenaLists
 *
 fromArenaLists
+bool
+targetZoneIsCollecting
 )
 ;
 bool
@@ -3049,14 +3051,6 @@ Arena
 arena
 AllocKind
 kind
-)
-;
-inline
-void
-normalizeBackgroundFinalizeState
-(
-AllocKind
-thingKind
 )
 ;
 friend
