@@ -3252,10 +3252,13 @@ false
 }
 if
 (
+MOZ_UNLIKELY
+(
 aListener
 -
 >
 mAllEvents
+)
 )
 {
 return
@@ -3308,6 +3311,8 @@ mSpecifiedEventTypeString
 }
 if
 (
+MOZ_UNLIKELY
+(
 !
 nsContentUtils
 :
@@ -3336,6 +3341,7 @@ aEventMessage
 =
 =
 eFullscreenError
+)
 )
 )
 {
