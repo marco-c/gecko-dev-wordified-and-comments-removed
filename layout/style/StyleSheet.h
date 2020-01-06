@@ -389,6 +389,8 @@ aArray
 ;
 enum
 DocumentAssociationMode
+:
+uint8_t
 {
 OwnedByDocument
 NotOwnedByDocument
@@ -1125,15 +1127,15 @@ mType
 bool
 mDisabled
 ;
+bool
+mDirty
+;
 DocumentAssociationMode
 mDocumentAssociationMode
 ;
 StyleSheetInfo
 *
 mInner
-;
-bool
-mDirty
 ;
 nsTArray
 <

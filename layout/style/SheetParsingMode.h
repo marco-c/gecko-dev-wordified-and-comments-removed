@@ -4,6 +4,13 @@ mozilla_css_SheetParsingMode_h
 #
 define
 mozilla_css_SheetParsingMode_h
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 mozilla
 {
@@ -12,6 +19,8 @@ css
 {
 enum
 SheetParsingMode
+:
+uint8_t
 {
 eAuthorSheetFeatures
 =
