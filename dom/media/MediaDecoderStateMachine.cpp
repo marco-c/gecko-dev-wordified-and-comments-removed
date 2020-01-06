@@ -6897,6 +6897,13 @@ EventVisibility
 Suppressed
 )
 ;
+mMaster
+-
+>
+mMinimizePreroll
+=
+false
+;
 return
 mFutureSeekJob
 .
