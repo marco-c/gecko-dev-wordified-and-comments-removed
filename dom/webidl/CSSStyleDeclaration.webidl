@@ -119,6 +119,7 @@ interface
 CSSStyleDeclaration
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -175,6 +176,7 @@ property
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -203,6 +205,7 @@ priority
 )
 ;
 [
+CEReactions
 Throws
 ]
 DOMString
