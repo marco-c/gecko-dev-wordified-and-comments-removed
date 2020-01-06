@@ -78,6 +78,9 @@ nsINode
 aParent
 int32_t
 aOffsetInParent
+nsIContent
+*
+aChildAtOffset
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

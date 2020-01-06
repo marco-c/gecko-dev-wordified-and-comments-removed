@@ -5489,6 +5489,9 @@ nsINode
 aParent
 int32_t
 aPosition
+nsIContent
+*
+aChildAtPosition
 )
 {
 MOZ_ASSERT
@@ -5566,6 +5569,7 @@ aTag
 *
 aParent
 aPosition
+aChildAtPosition
 )
 ;
 nsresult
@@ -17786,6 +17790,9 @@ nsINode
 aParent
 int32_t
 aPosition
+nsIContent
+*
+aChildAtPosition
 )
 {
 RefPtr
@@ -17802,6 +17809,7 @@ this
 aTag
 aParent
 aPosition
+aChildAtPosition
 )
 ;
 return
