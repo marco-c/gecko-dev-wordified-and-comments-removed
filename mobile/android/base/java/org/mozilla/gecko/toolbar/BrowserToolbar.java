@@ -4036,11 +4036,7 @@ null
 )
 ;
 }
-GeckoAppShell
-.
-getGeckoInterface
-(
-)
+activity
 .
 invalidateOptionsMenu
 (

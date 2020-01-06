@@ -2538,7 +2538,6 @@ refreshChrome
 )
 {
 }
-Override
 public
 void
 invalidateOptionsMenu

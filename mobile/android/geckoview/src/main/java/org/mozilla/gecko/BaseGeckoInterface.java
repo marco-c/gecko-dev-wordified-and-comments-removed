@@ -121,14 +121,6 @@ listener
 Override
 public
 void
-invalidateOptionsMenu
-(
-)
-{
-}
-Override
-public
-void
 createShortcut
 (
 String
