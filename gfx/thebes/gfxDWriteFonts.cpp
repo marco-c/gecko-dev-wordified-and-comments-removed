@@ -2237,7 +2237,7 @@ cairo_scaled_font_t
 *
 scaledFont
 =
-GetCairoScaledFont
+InitCairoScaledFont
 (
 )
 ;
@@ -2356,7 +2356,7 @@ cairo_scaled_font_t
 gfxDWriteFont
 :
 :
-GetCairoScaledFont
+InitCairoScaledFont
 (
 )
 {
@@ -3303,7 +3303,7 @@ cairo_scaled_font_t
 *
 cairoScaledFont
 =
-GetCairoScaledFont
+InitCairoScaledFont
 (
 )
 ;
