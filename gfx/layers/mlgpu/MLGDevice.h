@@ -1513,6 +1513,16 @@ aTopology
 =
 0
 ;
+virtual
+bool
+VerifyConstantBufferOffsetting
+(
+)
+{
+return
+true
+;
+}
 bool
 Fail
 (
