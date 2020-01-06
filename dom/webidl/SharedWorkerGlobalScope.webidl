@@ -186,6 +186,9 @@ SharedWorkerGlobalScope
 :
 WorkerGlobalScope
 {
+[
+Replaceable
+]
 readonly
 attribute
 DOMString

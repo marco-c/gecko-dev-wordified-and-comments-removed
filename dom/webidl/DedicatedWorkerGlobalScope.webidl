@@ -186,6 +186,9 @@ DedicatedWorkerGlobalScope
 :
 WorkerGlobalScope
 {
+[
+Replaceable
+]
 readonly
 attribute
 DOMString
