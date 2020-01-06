@@ -38,6 +38,8 @@ taskgraph
 import
 (
     
+generator
+    
 graph
     
 optimize
@@ -310,14 +312,13 @@ fake
 config
 graph_config
 )
-    
 def
-_load_graph_config
+fake_load_graph_config
 (
-self
+root_dir
 )
 :
-        
+    
 return
 {
 }
@@ -635,6 +636,19 @@ parameters
 update
 (
 params
+)
+        
+self
+.
+patch
+.
+setattr
+(
+generator
+'
+load_graph_config
+'
+fake_load_graph_config
 )
         
 return
