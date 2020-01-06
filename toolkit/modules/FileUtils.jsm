@@ -129,7 +129,11 @@ slice
 -
 1
 )
-true
+pathArray
+.
+length
+>
+1
 followLinks
 )
 ;
