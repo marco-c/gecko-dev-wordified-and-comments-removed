@@ -2164,6 +2164,16 @@ GetOpacity
 )
 const
 ;
+already_AddRefed
+<
+const
+nsCSSValueSharedList
+>
+GetTransformList
+(
+)
+const
+;
 gfxSize
 GetScaleValue
 (
