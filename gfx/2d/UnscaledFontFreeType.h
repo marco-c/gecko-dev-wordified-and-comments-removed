@@ -334,6 +334,17 @@ aNumVariations
 )
 override
 ;
+bool
+GetWRFontDescriptor
+(
+WRFontDescriptorOutput
+aCb
+void
+*
+aBaton
+)
+override
+;
 private
 :
 RefPtr
