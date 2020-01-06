@@ -172,6 +172,12 @@ TYPE_PRINT
 '
 print
 '
+URL_TARGET_TYPE_TEST
+:
+0
+URL_TARGET_TYPE_REFERENCE
+:
+1
 EXPECTED_PASS
 :
 0
@@ -373,10 +379,10 @@ Slow
 totalTests
 :
 0
-state
+currentURL
 :
 undefined
-currentURL
+currentURLTargetType
 :
 undefined
 testLog

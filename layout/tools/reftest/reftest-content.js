@@ -249,6 +249,9 @@ var
 gCurrentURL
 ;
 var
+gCurrentURLTargetType
+;
+var
 gCurrentTestType
 ;
 var
@@ -305,6 +308,16 @@ TYPE_PRINT
 '
 print
 '
+;
+const
+URL_TARGET_TYPE_TEST
+=
+0
+;
+const
+URL_TARGET_TYPE_REFERENCE
+=
+1
 ;
 function
 markupDocumentViewer
@@ -717,6 +730,7 @@ StartTestURI
 (
 type
 uri
+uriTargetType
 timeout
 )
 {
@@ -767,6 +781,10 @@ type
 gCurrentURL
 =
 uri
+;
+gCurrentURLTargetType
+=
+uriTargetType
 ;
 gCurrentTestStartTime
 =
@@ -5123,6 +5141,10 @@ gCurrentURL
 =
 null
 ;
+gCurrentURLTargetType
+=
+undefined
+;
 if
 (
 gCurrentTestType
@@ -5870,6 +5892,11 @@ m
 .
 json
 .
+uriTargetType
+m
+.
+json
+.
 timeout
 )
 ;
@@ -5916,6 +5943,7 @@ RecvLoadTest
 (
 type
 uri
+uriTargetType
 timeout
 )
 {
@@ -5923,6 +5951,7 @@ StartTestURI
 (
 type
 uri
+uriTargetType
 timeout
 )
 ;
@@ -5938,6 +5967,7 @@ StartTestURI
 (
 TYPE_SCRIPT
 uri
+URL_TARGET_TYPE_TEST
 timeout
 )
 ;
@@ -5953,6 +5983,7 @@ StartTestURI
 (
 TYPE_PRINT
 uri
+URL_TARGET_TYPE_TEST
 timeout
 )
 ;
