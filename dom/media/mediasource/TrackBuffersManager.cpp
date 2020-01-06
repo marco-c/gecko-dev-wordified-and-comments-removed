@@ -425,7 +425,7 @@ public
 :
 DispatchKeyNeededEvent
 (
-AbstractMediaDecoder
+MediaSourceDecoder
 *
 aDecoder
 const
@@ -505,7 +505,7 @@ private
 :
 RefPtr
 <
-AbstractMediaDecoder
+MediaSourceDecoder
 >
 mDecoder
 ;
