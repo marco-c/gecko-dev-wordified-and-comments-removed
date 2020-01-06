@@ -670,10 +670,12 @@ RTCPeerConnection
 )
 ;
 return
-generateOffer
+pc
+.
+createOffer
 (
 {
-audio
+offerToReceiveAudio
 :
 true
 }

@@ -122,10 +122,6 @@ Allow
 -
 Headers
 "
-'
-{
-'
-+
 request
 .
 GET
@@ -134,10 +130,6 @@ GET
 headers
 "
 ]
-+
-'
-}
-'
 )
     
 if
@@ -165,10 +157,6 @@ Allow
 -
 Methods
 "
-'
-{
-'
-+
 request
 .
 GET
@@ -177,10 +165,6 @@ GET
 methods
 "
 ]
-+
-'
-}
-'
 )
     
 headers
@@ -209,34 +193,6 @@ header
 ]
 [
 0
-]
-    
-headers
-[
-"
-get_value
-"
-]
-=
-"
-"
-if
-"
-get_value
-"
-not
-in
-request
-.
-GET
-else
-request
-.
-GET
-[
-"
-get_value
-"
 ]
     
 return
