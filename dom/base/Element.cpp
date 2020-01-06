@@ -15145,6 +15145,11 @@ nsGkAtoms
 :
 :
 sizes
+&
+nsGkAtoms
+:
+:
+dirAutoSetBy
 nullptr
 }
 ;
