@@ -945,7 +945,7 @@ script_layout_interface
 message
 :
 :
-ReflowQueryType
+ReflowGoal
 ;
 use
 script_thread
@@ -1129,10 +1129,7 @@ style
 context
 :
 :
-{
 QuirksMode
-ReflowGoal
-}
 ;
 use
 style
@@ -23432,11 +23429,7 @@ reflow
 ReflowGoal
 :
 :
-ForDisplay
-ReflowQueryType
-:
-:
-NoQuery
+Full
 ReflowReason
 :
 :
@@ -23612,11 +23605,7 @@ reflow
 ReflowGoal
 :
 :
-ForDisplay
-ReflowQueryType
-:
-:
-NoQuery
+Full
 ReflowReason
 :
 :
