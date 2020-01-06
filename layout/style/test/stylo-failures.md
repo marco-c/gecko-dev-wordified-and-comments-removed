@@ -457,7 +457,7 @@ test_supports_rules
 .
 html
 [
-6
+1
 ]
 *
 test_condition_text
