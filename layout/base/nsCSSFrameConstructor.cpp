@@ -15870,13 +15870,6 @@ ControlType
 (
 )
 ;
-#
-if
-!
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 if
 (
 (
@@ -15911,8 +15904,6 @@ return
 nullptr
 ;
 }
-#
-endif
 return
 FindDataByInt
 (
