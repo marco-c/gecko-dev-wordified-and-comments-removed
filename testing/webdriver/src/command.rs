@@ -111,6 +111,7 @@ FindElementElements
 WebElement
 LocatorParameters
 )
+GetActiveElement
 IsDisplayed
 (
 WebElement
@@ -930,6 +931,16 @@ element
 parameters
 )
 }
+Route
+:
+:
+GetActiveElement
+=
+>
+WebDriverCommand
+:
+:
+GetActiveElement
 Route
 :
 :
@@ -2108,6 +2119,11 @@ WebDriverCommand
 :
 :
 SwitchToParentFrame
+|
+WebDriverCommand
+:
+:
+GetActiveElement
 |
 WebDriverCommand
 :
