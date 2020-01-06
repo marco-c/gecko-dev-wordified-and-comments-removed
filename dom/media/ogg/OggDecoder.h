@@ -43,13 +43,6 @@ aInit
 )
 {
 }
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 static
 bool
 IsSupportedType
