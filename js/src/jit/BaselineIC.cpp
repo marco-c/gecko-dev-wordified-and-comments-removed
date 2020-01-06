@@ -13513,12 +13513,6 @@ op
 =
 =
 JSOP_NEW
-|
-|
-op
-=
-=
-JSOP_SUPERCALL
 )
 ;
 bool
@@ -13656,7 +13650,10 @@ false
 }
 if
 (
-constructing
+op
+=
+=
+JSOP_NEW
 )
 {
 if
@@ -14024,12 +14021,6 @@ op
 =
 =
 JSOP_SPREADNEW
-|
-|
-op
-=
-=
-JSOP_SPREADSUPERCALL
 )
 ;
 FallbackICSpew

@@ -12940,16 +12940,6 @@ pc
 )
 =
 =
-JSOP_CHECKTHISREINIT
-|
-|
-*
-GetNextPc
-(
-pc
-)
-=
-=
 JSOP_CHECKRETURN
 )
 ;
