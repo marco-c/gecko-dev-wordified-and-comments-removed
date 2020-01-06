@@ -27,7 +27,6 @@ derive
 Serialize
 Deserialize
 PartialEq
-Debug
 )
 ]
 struct
@@ -47,7 +46,6 @@ derive
 Serialize
 Deserialize
 PartialEq
-Debug
 )
 ]
 struct
@@ -154,10 +152,12 @@ unwrap
 (
 )
 ;
-assert_eq
+assert
 !
 (
 world
+=
+=
 decoded
 )
 ;
