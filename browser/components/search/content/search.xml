@@ -8851,7 +8851,11 @@ _isHiding
 =
 true
 ;
-setTimeout
+Services
+.
+tm
+.
+dispatchToMainThread
 (
 (
 )
@@ -8865,7 +8869,6 @@ _isHiding
 false
 ;
 }
-0
 )
 ;
 ]
