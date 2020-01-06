@@ -2366,10 +2366,13 @@ let
 mut
 values
 =
-vec
-!
-[
-]
+Vec
+:
+:
+with_capacity
+(
+1
+)
 ;
 loop
 {
