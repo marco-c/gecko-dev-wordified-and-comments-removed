@@ -4526,6 +4526,8 @@ scale
 scale
 scale
 1
+.
+000001f
 )
 ;
 }
