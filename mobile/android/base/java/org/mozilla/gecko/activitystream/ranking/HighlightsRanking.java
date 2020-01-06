@@ -1187,7 +1187,7 @@ hasImage
 &
 next
 .
-getImageUrl
+getFastImageUrlForComparison
 (
 )
 .
@@ -1195,7 +1195,7 @@ equals
 (
 previous
 .
-getImageUrl
+getFastImageUrlForComparison
 (
 )
 )
