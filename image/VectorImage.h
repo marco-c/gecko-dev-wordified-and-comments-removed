@@ -296,7 +296,10 @@ uint32_t
 aFlags
 )
 ;
-void
+already_AddRefed
+<
+SourceSurface
+>
 DrawInternal
 (
 const
@@ -307,7 +310,10 @@ bool
 aContextPaint
 )
 ;
-void
+already_AddRefed
+<
+SourceSurface
+>
 CreateSurfaceAndShow
 (
 const
