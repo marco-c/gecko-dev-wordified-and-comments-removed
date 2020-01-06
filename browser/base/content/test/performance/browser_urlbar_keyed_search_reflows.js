@@ -256,6 +256,9 @@ autocomplete
 xml
 "
 ]
+minTimes
+:
+39
 times
 :
 51
