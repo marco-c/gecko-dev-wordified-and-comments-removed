@@ -110,7 +110,6 @@ PointerHasher
 <
 void
 *
-3
 >
 SystemAllocPolicy
 >

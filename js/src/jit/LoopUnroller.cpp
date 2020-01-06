@@ -49,7 +49,6 @@ PointerHasher
 <
 MDefinition
 *
-2
 >
 SystemAllocPolicy
 >

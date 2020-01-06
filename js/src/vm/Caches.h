@@ -110,7 +110,6 @@ PointerHasher
 <
 jsbytecode
 *
-0
 >
 SystemAllocPolicy
 >

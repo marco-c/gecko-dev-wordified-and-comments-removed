@@ -924,7 +924,6 @@ PointerHasher
 <
 JSPrincipals
 *
-3
 >
 JSPrincipalsPtrHasher
 ;

@@ -327,7 +327,6 @@ PointerHasher
 <
 Cell
 *
-3
 >
 SystemAllocPolicy
 UniqueIdGCPolicy

@@ -1390,7 +1390,6 @@ PointerHasher
 const
 void
 *
-3
 >
 SystemAllocPolicy
 >
