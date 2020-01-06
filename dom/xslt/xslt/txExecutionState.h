@@ -228,6 +228,10 @@ txLoadedDocumentEntry
 (
 4
 )
+mSourceDocument
+(
+nullptr
+)
 {
 }
 ~
@@ -239,10 +243,9 @@ MOZ_MUST_USE
 nsresult
 init
 (
-const
 txXPathNode
-&
-aSource
+*
+aSourceDocument
 )
 ;
 private
@@ -251,10 +254,8 @@ friend
 class
 txExecutionState
 ;
-nsAutoPtr
-<
 txXPathNode
->
+*
 mSourceDocument
 ;
 }

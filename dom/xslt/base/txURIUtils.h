@@ -15,7 +15,7 @@ class
 nsIDocument
 ;
 class
-nsINode
+nsIDOMNode
 ;
 class
 URIUtils
@@ -29,7 +29,7 @@ ResetWithSource
 nsIDocument
 *
 aNewDoc
-nsINode
+nsIDOMNode
 *
 aSourceNode
 )

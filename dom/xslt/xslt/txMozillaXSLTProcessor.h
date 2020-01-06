@@ -251,18 +251,8 @@ override
 NS_IMETHOD
 SetSourceContentModel
 (
-nsIDocument
+nsIDOMNode
 *
-aDocument
-const
-nsTArray
-<
-nsCOMPtr
-<
-nsIContent
->
->
-&
 aSource
 )
 override
@@ -565,7 +555,7 @@ char16_t
 aSourceText
 )
 ;
-nsINode
+nsIDOMNode
 *
 GetSourceContentModel
 (
@@ -668,7 +658,7 @@ mEmbeddedStylesheetRoot
 ;
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mSource
 ;

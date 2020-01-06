@@ -543,10 +543,6 @@ DidAddContent
 {
 if
 (
-!
-mXSLTProcessor
-&
-&
 IsTimeToNotify
 (
 )
@@ -729,15 +725,6 @@ nsCOMPtr
 nsIDocumentTransformer
 >
 mXSLTProcessor
-;
-nsTArray
-<
-nsCOMPtr
-<
-nsIContent
->
->
-mDocumentChildren
 ;
 static
 const
