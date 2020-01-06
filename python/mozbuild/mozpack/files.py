@@ -7657,7 +7657,12 @@ self
 .
 _files
 [
+mozpath
+.
+normpath
+(
 relpath
+)
 ]
 =
 None
@@ -7709,6 +7714,15 @@ self
 path
 )
 :
+        
+path
+=
+mozpath
+.
+normpath
+(
+path
+)
         
 if
 self
