@@ -398,6 +398,9 @@ GetImageContainerAtSize
 (
 layerManager
 requestedSize
+Nothing
+(
+)
 imgIContainer
 :
 :
@@ -486,6 +489,9 @@ GetImageContainerAtSize
 (
 layerManager
 requestedSize
+Nothing
+(
+)
 imgIContainer
 :
 :
@@ -544,6 +550,9 @@ layerManager
 testCase
 .
 mSize
+Nothing
+(
+)
 imgIContainer
 :
 :

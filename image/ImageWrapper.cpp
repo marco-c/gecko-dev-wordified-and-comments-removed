@@ -805,6 +805,13 @@ const
 IntSize
 &
 aSize
+const
+Maybe
+<
+SVGImageContext
+>
+&
+aSVGContext
 uint32_t
 aFlags
 )
@@ -817,6 +824,7 @@ GetImageContainerAtSize
 (
 aManager
 aSize
+aSVGContext
 aFlags
 )
 ;
