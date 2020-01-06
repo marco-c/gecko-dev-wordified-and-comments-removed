@@ -200,8 +200,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -230,7 +230,7 @@ true
 ;
 gProcess
 =
-yield
+await
 initChromeDebugger
 (
 )
@@ -436,7 +436,7 @@ gProcess
 _dbgProfilePath
 )
 ;
-yield
+await
 gProcess
 .
 close

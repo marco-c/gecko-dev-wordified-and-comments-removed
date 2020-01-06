@@ -28,15 +28,15 @@ size
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -70,13 +70,13 @@ firstCall
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
 )
 ;
-yield
+await
 navigate
 (
 dbg
@@ -94,7 +94,7 @@ js
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -113,7 +113,7 @@ main
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -140,7 +140,7 @@ loaded
 "
 )
 ;
-yield
+await
 navigate
 (
 dbg
@@ -151,7 +151,7 @@ blank
 "
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
@@ -193,7 +193,7 @@ exists
 "
 )
 ;
-yield
+await
 navigate
 (
 dbg
@@ -242,7 +242,7 @@ loaded
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -253,7 +253,7 @@ js
 "
 )
 ;
-yield
+await
 reload
 (
 dbg

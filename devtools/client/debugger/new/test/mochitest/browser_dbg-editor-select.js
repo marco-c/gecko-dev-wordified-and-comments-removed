@@ -38,8 +38,8 @@ bpLine
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -51,7 +51,7 @@ requestLongerTimeout
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -101,7 +101,7 @@ js
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -132,7 +132,7 @@ main
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -143,7 +143,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 stepIn
 (
 dbg
@@ -154,13 +154,13 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 stepOut
 (
 dbg
 )
 ;
-yield
+await
 stepOut
 (
 dbg
@@ -171,7 +171,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -190,7 +190,7 @@ js
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -205,7 +205,7 @@ testModel
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg

@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -57,7 +57,7 @@ line
 }
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
@@ -66,7 +66,7 @@ LOAD_SOURCE_TEXT
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -89,7 +89,7 @@ js
 16
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -101,7 +101,7 @@ js
 17
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -189,7 +189,7 @@ loadedState
 )
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg

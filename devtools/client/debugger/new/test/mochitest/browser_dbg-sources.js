@@ -1,12 +1,12 @@
+async
 function
-*
 waitForSourceCount
 (
 dbg
 i
 )
 {
-yield
+await
 waitUntil
 (
 (
@@ -35,15 +35,15 @@ i
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -67,7 +67,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -103,6 +103,7 @@ length
 2
 )
 ;
+await
 clickElement
 (
 dbg
@@ -126,6 +127,7 @@ length
 7
 )
 ;
+await
 clickElement
 (
 dbg
@@ -183,6 +185,7 @@ SELECT_SOURCE
 "
 )
 ;
+await
 clickElement
 (
 dbg
@@ -192,7 +195,7 @@ sourceNode
 4
 )
 ;
-yield
+await
 selected
 ;
 ok
@@ -303,7 +306,7 @@ script
 }
 )
 ;
-yield
+await
 waitForSourceCount
 (
 dbg
@@ -342,15 +345,15 @@ exists
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -374,7 +377,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -436,7 +439,7 @@ js
 }
 )
 ;
-yield
+await
 waitForSourceCount
 (
 dbg
@@ -468,6 +471,7 @@ exists
 "
 )
 ;
+await
 clickElement
 (
 dbg
@@ -477,7 +481,7 @@ sourceArrow
 3
 )
 ;
-yield
+await
 waitForSourceCount
 (
 dbg

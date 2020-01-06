@@ -117,15 +117,15 @@ line
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -163,7 +163,7 @@ js
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -178,7 +178,7 @@ dbg
 4
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg
@@ -218,7 +218,7 @@ dbg
 4
 )
 ;
-yield
+await
 waitForDispatch
 (
 dbg

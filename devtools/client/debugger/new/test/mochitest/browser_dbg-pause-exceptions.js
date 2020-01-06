@@ -38,15 +38,15 @@ caughtException
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -58,7 +58,7 @@ html
 "
 )
 ;
-yield
+await
 uncaughtException
 (
 )
@@ -72,7 +72,7 @@ dbg
 )
 )
 ;
-yield
+await
 togglePauseOnExceptions
 (
 dbg
@@ -84,7 +84,7 @@ uncaughtException
 (
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -95,7 +95,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -105,7 +105,7 @@ caughtException
 (
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -116,13 +116,13 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
 )
 ;
-yield
+await
 togglePauseOnExceptions
 (
 dbg
@@ -134,7 +134,7 @@ caughtException
 (
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -145,7 +145,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg

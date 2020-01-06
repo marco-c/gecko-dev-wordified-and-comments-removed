@@ -25,8 +25,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -48,7 +48,7 @@ html
 const
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 url
@@ -82,7 +82,7 @@ debugger
 "
 )
 ;
-yield
+await
 waitOnToolbox
 (
 toolbox
@@ -125,7 +125,7 @@ getState
 =
 dbg
 ;
-yield
+await
 waitForDispatch
 (
 dbg

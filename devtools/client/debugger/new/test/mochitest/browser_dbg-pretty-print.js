@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 dbg
 =
-yield
+await
 initDebugger
 (
 "
@@ -20,7 +20,7 @@ html
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
@@ -42,7 +42,7 @@ prettyPrintButton
 "
 )
 ;
-yield
+await
 waitForSource
 (
 dbg
@@ -86,7 +86,7 @@ exists
 "
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -101,7 +101,7 @@ arithmetic
 "
 )
 ;
-yield
+await
 waitForPaused
 (
 dbg
@@ -112,7 +112,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 stepOver
 (
 dbg
@@ -123,7 +123,7 @@ assertPausedLocation
 dbg
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -146,7 +146,7 @@ hidden
 "
 )
 ;
-yield
+await
 selectSource
 (
 dbg
