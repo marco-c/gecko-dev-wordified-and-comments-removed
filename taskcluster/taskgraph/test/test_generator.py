@@ -344,6 +344,12 @@ target_tasks_method
 '
 test_method
 '
+            
+'
+try_mode
+'
+:
+None
         
 }
         

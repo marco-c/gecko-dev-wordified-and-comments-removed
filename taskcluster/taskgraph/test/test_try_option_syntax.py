@@ -12,6 +12,7 @@ taskgraph
 try_option_syntax
 import
 TryOptionSyntax
+parse_message
 from
 taskgraph
 .
@@ -505,298 +506,6 @@ TestCase
 :
     
 def
-test_empty_message
-(
-self
-)
-:
-        
-"
-Given
-an
-empty
-message
-it
-should
-return
-an
-empty
-value
-"
-        
-tos
-=
-TryOptionSyntax
-(
-'
-'
-graph_with_jobs
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-build_types
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-jobs
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-unittests
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-talos
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-platforms
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-trigger_tests
-0
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-talos_trigger_tests
-0
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-env
-[
-]
-)
-        
-self
-.
-assertFalse
-(
-tos
-.
-profile
-)
-        
-self
-.
-assertIsNone
-(
-tos
-.
-tag
-)
-        
-self
-.
-assertFalse
-(
-tos
-.
-no_retry
-)
-    
-def
-test_message_without_try
-(
-self
-)
-:
-        
-"
-Given
-a
-non
--
-try
-message
-it
-should
-return
-an
-empty
-value
-"
-        
-tos
-=
-TryOptionSyntax
-(
-'
-Bug
-1234
-:
-frobnicte
-the
-foo
-'
-graph_with_jobs
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-build_types
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-jobs
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-unittests
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-talos
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-platforms
-[
-]
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-trigger_tests
-0
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-talos_trigger_tests
-0
-)
-        
-self
-.
-assertEqual
-(
-tos
-.
-env
-[
-]
-)
-        
-self
-.
-assertFalse
-(
-tos
-.
-profile
-)
-        
-self
-.
-assertIsNone
-(
-tos
-.
-tag
-)
-        
-self
-.
-assertFalse
-(
-tos
-.
-no_retry
-)
-    
-def
 test_unknown_args
 (
 self
@@ -810,9 +519,14 @@ are
 ignored
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -824,6 +538,14 @@ doubledash
 z
 extra
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -863,9 +585,14 @@ break
 parsing
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 Increase
@@ -883,6 +610,14 @@ try
 b
 do
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -923,9 +658,14 @@ both
 build_types
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -934,6 +674,14 @@ try
 b
 do
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -979,9 +727,14 @@ debug
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -990,6 +743,14 @@ try
 b
 d
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1032,9 +793,14 @@ opt
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1043,6 +809,14 @@ try
 b
 o
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1086,9 +860,14 @@ opt
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1098,6 +877,14 @@ try
 build
 o
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1144,9 +931,14 @@ the
 x
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1155,6 +947,14 @@ try
 b
 dx
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1196,9 +996,14 @@ somejob
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1207,6 +1012,14 @@ try
 j
 somejob
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1252,9 +1065,14 @@ job2
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1264,6 +1082,14 @@ j
 job1
 job2
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1304,9 +1130,14 @@ jobs
 None
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1315,6 +1146,14 @@ try
 j
 all
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1349,9 +1188,14 @@ job1
 job2
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1363,6 +1207,14 @@ job1
 j
 job2
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1406,9 +1258,14 @@ platforms
 None
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1417,6 +1274,14 @@ try
 p
 all
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1456,9 +1321,14 @@ l10n
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1467,6 +1337,14 @@ try
 p
 linux
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1519,9 +1397,14 @@ win32
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1531,6 +1414,14 @@ p
 linux
 win32
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1576,9 +1467,14 @@ the
 RIDEALONG_BUILDS
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1588,6 +1484,14 @@ p
 linux
 linux64
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1662,9 +1566,14 @@ unittests
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1673,6 +1582,14 @@ try
 u
 none
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1714,9 +1631,14 @@ list
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1725,6 +1647,14 @@ try
 u
 all
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1779,9 +1709,14 @@ webgl
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1792,6 +1727,14 @@ mochitest
 -
 webgl
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1846,9 +1789,14 @@ webgl
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1859,6 +1807,14 @@ mochitest
 -
 gl
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1911,9 +1867,14 @@ unittests
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1922,6 +1883,14 @@ try
 u
 e10s
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -1981,9 +1950,14 @@ unittests
 both
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -1995,6 +1969,14 @@ mochitest
 webgl
 gtest
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2064,9 +2046,14 @@ of
 gtest
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2080,6 +2067,14 @@ gtest
 -
 4
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2143,9 +2138,14 @@ for
 gtest
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2157,6 +2157,14 @@ gtest
 linux
 ]
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2222,9 +2230,14 @@ for
 gtest
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2237,6 +2250,14 @@ linux
 win32
 ]
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2320,9 +2341,14 @@ gtest
 "
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2334,6 +2360,14 @@ gtest
 Ubuntu
 ]
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2419,9 +2453,14 @@ for
 gtest
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2434,6 +2473,14 @@ gtest
 linux
 ]
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2523,9 +2570,14 @@ for
 gtest
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2539,6 +2591,14 @@ Ubuntu
 x64
 ]
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2609,9 +2669,14 @@ of
 gtest
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2626,6 +2691,14 @@ linux
 win32
 ]
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2697,9 +2770,14 @@ talos
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2708,6 +2786,14 @@ try
 t
 none
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2749,9 +2835,14 @@ list
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2760,6 +2851,14 @@ try
 t
 all
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2814,9 +2913,14 @@ webgl
 ]
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2827,6 +2931,14 @@ mochitest
 -
 webgl
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2874,9 +2986,14 @@ sets
 trigger_tests
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2886,6 +3003,14 @@ try
 rebuild
 10
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2917,9 +3042,14 @@ sets
 talos_trigger_tests
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2931,6 +3061,14 @@ rebuild
 talos
 10
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -2959,9 +3097,14 @@ sets
 interactive
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -2970,6 +3113,14 @@ try
 -
 interactive
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3000,9 +3151,14 @@ sets
 notifications
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -3013,6 +3169,14 @@ all
 -
 emails
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3045,9 +3209,14 @@ sets
 notifications
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -3058,6 +3227,14 @@ failure
 -
 emails
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3091,14 +3268,27 @@ set
 notifications
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
 :
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3135,10 +3325,16 @@ to
 env
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
+            
 '
 try
 :
@@ -3155,6 +3351,14 @@ VAR2
 =
 value2
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3196,9 +3400,14 @@ to
 true
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -3207,6 +3416,14 @@ try
 -
 geckoProfile
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3238,9 +3455,14 @@ TAG
 value
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -3250,6 +3472,14 @@ try
 tag
 tagName
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
@@ -3284,9 +3514,14 @@ to
 true
 "
         
-tos
+parameters
 =
-TryOptionSyntax
+{
+'
+try_options
+'
+:
+parse_message
 (
 '
 try
@@ -3297,6 +3532,14 @@ no
 -
 retry
 '
+)
+}
+        
+tos
+=
+TryOptionSyntax
+(
+parameters
 graph_with_jobs
 )
         
