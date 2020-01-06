@@ -595,10 +595,6 @@ RawServoAnimationValueMap
 )
 DECL_BORROWED_REF_TYPE_FOR
 (
-RawServoSelectorList
-)
-DECL_BORROWED_REF_TYPE_FOR
-(
 RawGeckoNode
 )
 DECL_NULLABLE_BORROWED_REF_TYPE_FOR
