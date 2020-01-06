@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleBackendType
+.
+h
+"
+#
+include
+"
 nsISMILAttr
 .
 h
@@ -141,6 +150,11 @@ IsPropertyAnimatable
 (
 nsCSSPropertyID
 aPropID
+mozilla
+:
+:
+StyleBackendType
+aBackend
 )
 ;
 protected
