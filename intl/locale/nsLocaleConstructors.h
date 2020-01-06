@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIScriptableDateFormat
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIScriptableDateFormat
-.
-h
-"
-#
-include
-"
 nsICollation
 .
 h

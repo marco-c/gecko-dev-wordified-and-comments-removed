@@ -209,11 +209,6 @@ nsICollation
 .
 idl
 '
-'
-nsIScriptableDateFormat
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -285,11 +280,6 @@ cpp
 '
 '
 nsLanguageAtomService
-.
-cpp
-'
-'
-nsScriptableDateFormat
 .
 cpp
 '
