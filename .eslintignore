@@ -57,10 +57,6 @@ chrome
 /
 *
 *
-config
-/
-*
-*
 docshell
 /
 *
@@ -188,6 +184,10 @@ s
 performance
 .
 build
+/
+*
+*
+config
 /
 *
 *
