@@ -3454,6 +3454,15 @@ aNotify
 )
 ;
 void
+UpdateRequiredState
+(
+bool
+aIsRequired
+bool
+aNotify
+)
+;
+void
 FieldSetFirstLegendChanged
 (
 bool
