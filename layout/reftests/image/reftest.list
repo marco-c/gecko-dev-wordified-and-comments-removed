@@ -299,12 +299,6 @@ dyn
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 image
@@ -391,12 +385,6 @@ dyn
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 image
