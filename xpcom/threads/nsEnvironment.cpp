@@ -566,10 +566,7 @@ entry
 mData
 )
 {
-mozilla
-:
-:
-SmprintfFree
+free
 (
 entry
 -

@@ -15549,10 +15549,7 @@ defined
 (
 XP_MACOSX
 )
-mozilla
-:
-:
-SmprintfFree
+free
 (
 childCrashNotifyPipe
 )
