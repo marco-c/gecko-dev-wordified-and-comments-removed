@@ -877,14 +877,6 @@ tier
 :
 3
 run
--
-on
--
-projects
-:
-[
-]
-run
 :
 spidermonkey
 -
