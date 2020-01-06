@@ -486,9 +486,6 @@ aFlags
 }
 private
 :
-Flags
-mContains
-;
 nsTArray
 <
 ServoAttrSnapshot
@@ -497,6 +494,9 @@ mAttrs
 ;
 ServoStateType
 mState
+;
+Flags
+mContains
 ;
 bool
 mIsHTMLElementInHTMLDocument
