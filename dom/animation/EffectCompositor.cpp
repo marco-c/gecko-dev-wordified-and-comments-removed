@@ -4605,6 +4605,9 @@ PostRestyleEventForAnimations
 target
 .
 mElement
+target
+.
+mPseudoType
 cascadeLevel
 =
 =
@@ -4892,6 +4895,7 @@ AsServo
 PostRestyleEventForAnimations
 (
 aElement
+aPseudoType
 cascadeLevel
 =
 =

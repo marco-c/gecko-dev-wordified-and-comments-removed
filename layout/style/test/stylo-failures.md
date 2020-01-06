@@ -384,16 +384,6 @@ Transition
 support
 :
 *
-test_transitions
-.
-html
-:
-pseudo
-elements
-[
-4
-]
-*
 test_transitions_and_reframes
 .
 html
