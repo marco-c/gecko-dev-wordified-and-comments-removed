@@ -607,6 +607,9 @@ char
 *
 location
 ;
+nsCString
+resolvedURL
+;
 }
 ;
 friend
@@ -683,6 +686,13 @@ ModuleEntry
 *
 >
 mInProgressImports
+;
+nsClassHashtable
+<
+nsCStringHashKey
+nsCString
+>
+mLocations
 ;
 bool
 mInitialized
