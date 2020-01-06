@@ -184,13 +184,13 @@ InvalidSessionIDError
 (
 driver
 .
-sessionId
+sessionID
 )
 ;
 return
 driver
 .
-sessionId
+sessionID
 ;
 }
 ;

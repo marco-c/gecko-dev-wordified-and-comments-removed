@@ -828,7 +828,7 @@ server
 ;
 this
 .
-sessionId
+sessionID
 =
 null
 ;
@@ -3045,7 +3045,7 @@ if
 (
 this
 .
-sessionId
+sessionID
 )
 {
 throw
@@ -3064,20 +3064,13 @@ sessions
 }
 this
 .
-sessionId
+sessionID
 =
 cmd
 .
 parameters
 .
 sessionId
-|
-|
-cmd
-.
-parameters
-.
-session_id
 |
 |
 element
@@ -3616,7 +3609,7 @@ sessionId
 :
 this
 .
-sessionId
+sessionID
 capabilities
 :
 this
@@ -10999,7 +10992,7 @@ uninstallOverride
 ;
 this
 .
-sessionId
+sessionID
 =
 null
 ;
