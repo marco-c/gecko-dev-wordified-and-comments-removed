@@ -466,6 +466,8 @@ about
 :
 preferences
 #
+general
+-
 search
 "
 )

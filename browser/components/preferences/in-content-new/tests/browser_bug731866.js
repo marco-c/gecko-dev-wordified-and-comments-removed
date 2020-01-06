@@ -391,13 +391,16 @@ panes
 General
 "
 "
-Search
+Applications
 "
 "
 Privacy
 "
 "
 Sync
+"
+"
+Advanced
 "
 ]
 ;

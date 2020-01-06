@@ -319,8 +319,6 @@ url
 about
 :
 preferences
-#
-search
 "
 }
 async
