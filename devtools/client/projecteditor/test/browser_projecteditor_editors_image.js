@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+destroy
+"
+)
+;
 loadHelperScript
 (
 "

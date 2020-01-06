@@ -5723,10 +5723,6 @@ resolve
 ;
 }
 }
-)
-.
-catch
-(
 console
 .
 error

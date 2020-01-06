@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+false
+"
+)
+;
 const
 TEST_PAGE
 =
