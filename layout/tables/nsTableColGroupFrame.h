@@ -56,6 +56,9 @@ nsContainerFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsTableColGroupFrame
+)
 friend
 nsTableColGroupFrame
 *

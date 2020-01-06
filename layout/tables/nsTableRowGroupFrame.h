@@ -97,12 +97,11 @@ TableRowGroupReflowInput
 ;
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsTableRowGroupFrame
 )
-NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
 friend
 nsTableRowGroupFrame
 *

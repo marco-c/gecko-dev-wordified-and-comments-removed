@@ -104,6 +104,9 @@ SVGA
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGAFrame
+)
 #
 ifdef
 DEBUG

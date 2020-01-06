@@ -98,12 +98,11 @@ mozilla
 ContainerLayerParameters
 ContainerLayerParameters
 ;
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsHTMLCanvasFrame
 )
-NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
 explicit
 nsHTMLCanvasFrame
 (

@@ -118,13 +118,12 @@ DrawResult
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-#
-ifdef
-DEBUG
-NS_DECL_QUERYFRAME_TARGET
 (
 nsBulletFrame
 )
+#
+ifdef
+DEBUG
 NS_DECL_QUERYFRAME
 #
 endif

@@ -106,6 +106,9 @@ SVGGenericContainer
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGGenericContainerFrame
+)
 virtual
 nsresult
 AttributeChanged

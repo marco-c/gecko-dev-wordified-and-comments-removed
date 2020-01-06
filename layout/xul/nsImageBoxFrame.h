@@ -153,6 +153,9 @@ class
 nsDisplayXULImage
 ;
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsImageBoxFrame
+)
 virtual
 nsSize
 GetXULPrefSize

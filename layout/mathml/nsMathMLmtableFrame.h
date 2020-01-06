@@ -74,6 +74,9 @@ aContext
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmtableWrapperFrame
+)
 virtual
 void
 Reflow
@@ -177,12 +180,11 @@ nsTableFrame
 {
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsMathMLmtableFrame
 )
-NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
 friend
 nsContainerFrame
 *
@@ -494,6 +496,9 @@ nsTableRowFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmtrFrame
+)
 friend
 nsContainerFrame
 *
@@ -709,6 +714,9 @@ nsTableCellFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmtdFrame
+)
 friend
 nsContainerFrame
 *
@@ -892,6 +900,9 @@ aContext
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmtdInnerFrame
+)
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
 (

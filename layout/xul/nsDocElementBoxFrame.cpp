@@ -197,6 +197,9 @@ true
 }
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsDocElementBoxFrame
+)
 virtual
 nsresult
 CreateAnonymousContent

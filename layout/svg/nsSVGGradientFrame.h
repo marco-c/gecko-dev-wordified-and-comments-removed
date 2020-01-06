@@ -409,6 +409,9 @@ SVGLinearGradient
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGLinearGradientFrame
+)
 #
 ifdef
 DEBUG
@@ -571,6 +574,9 @@ SVGRadialGradient
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGRadialGradientFrame
+)
 #
 ifdef
 DEBUG

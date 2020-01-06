@@ -30,6 +30,9 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsGridRowGroupFrame
+)
 #
 ifdef
 DEBUG_FRAME_DUMP

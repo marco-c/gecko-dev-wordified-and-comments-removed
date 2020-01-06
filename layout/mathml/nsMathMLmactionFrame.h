@@ -43,6 +43,9 @@ nsMathMLSelectedFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmactionFrame
+)
 friend
 nsIFrame
 *

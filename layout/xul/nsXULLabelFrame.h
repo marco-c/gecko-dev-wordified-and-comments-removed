@@ -45,6 +45,9 @@ nsBlockFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsXULLabelFrame
+)
 friend
 nsIFrame
 *

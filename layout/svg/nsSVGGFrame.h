@@ -98,6 +98,9 @@ SVGG
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGGFrame
+)
 #
 ifdef
 DEBUG

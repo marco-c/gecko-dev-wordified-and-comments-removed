@@ -36,6 +36,9 @@ nsMathMLTokenFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsMathMLmoFrame
+)
 friend
 nsIFrame
 *

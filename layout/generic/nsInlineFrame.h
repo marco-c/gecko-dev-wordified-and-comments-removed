@@ -31,12 +31,11 @@ nsContainerFrame
 {
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsInlineFrame
 )
-NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
 friend
 nsInlineFrame
 *
@@ -703,6 +702,9 @@ nsInlineFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsFirstLineFrame
+)
 friend
 nsFirstLineFrame
 *

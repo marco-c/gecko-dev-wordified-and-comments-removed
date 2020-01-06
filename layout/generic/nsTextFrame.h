@@ -252,11 +252,10 @@ Text
 )
 {
 }
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsTextFrame
 )
-NS_DECL_FRAMEARENA_HELPERS
 friend
 class
 nsContinuingTextFrame

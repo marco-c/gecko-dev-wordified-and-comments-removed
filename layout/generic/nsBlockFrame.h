@@ -80,11 +80,10 @@ BlockReflowInput
 ;
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECL_FRAMEARENA_HELPERS
 (
 nsBlockFrame
 )
-NS_DECL_FRAMEARENA_HELPERS
 typedef
 nsLineList
 :

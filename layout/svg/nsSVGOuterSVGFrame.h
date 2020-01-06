@@ -93,6 +93,9 @@ public
 :
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGOuterSVGFrame
+)
 #
 ifdef
 DEBUG
@@ -713,6 +716,9 @@ SVGOuterSVGAnonChild
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGOuterSVGAnonChildFrame
+)
 #
 ifdef
 DEBUG

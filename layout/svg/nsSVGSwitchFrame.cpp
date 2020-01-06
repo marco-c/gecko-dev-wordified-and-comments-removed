@@ -94,6 +94,9 @@ SVGSwitch
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGSwitchFrame
+)
 #
 ifdef
 DEBUG

@@ -290,7 +290,6 @@ nsContainerFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-NS_DECL_QUERYFRAME_TARGET
 (
 nsGridContainerFrame
 )

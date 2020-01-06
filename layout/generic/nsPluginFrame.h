@@ -223,6 +223,10 @@ ContainerLayerParameters
 ContainerLayerParameters
 ;
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsPluginFrame
+)
+NS_DECL_QUERYFRAME
 friend
 nsIFrame
 *
@@ -236,11 +240,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_QUERYFRAME
-NS_DECL_QUERYFRAME_TARGET
-(
-nsPluginFrame
-)
 virtual
 void
 Init

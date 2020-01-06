@@ -46,6 +46,9 @@ nsIAnonymousContentCreator
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsGfxButtonControlFrame
+)
 explicit
 nsGfxButtonControlFrame
 (

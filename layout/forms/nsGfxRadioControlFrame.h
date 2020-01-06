@@ -42,6 +42,9 @@ nsGfxRadioControlFrame
 )
 ;
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsGfxRadioControlFrame
+)
 #
 ifdef
 ACCESSIBILITY

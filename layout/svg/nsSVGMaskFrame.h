@@ -188,6 +188,9 @@ NS_FRAME_IS_NONDISPLAY
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsSVGMaskFrame
+)
 struct
 MaskParams
 {

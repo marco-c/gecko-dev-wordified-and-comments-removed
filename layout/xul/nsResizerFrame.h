@@ -55,6 +55,9 @@ mVertical
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+(
+nsResizerFrame
+)
 friend
 nsIFrame
 *
