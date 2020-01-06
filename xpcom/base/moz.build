@@ -1045,6 +1045,12 @@ build
 '
 '
 /
+dom
+/
+base
+'
+'
+/
 xpcom
 /
 ds

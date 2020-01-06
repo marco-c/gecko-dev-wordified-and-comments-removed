@@ -276,6 +276,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ScriptSettings
@@ -995,6 +1004,9 @@ NS_UnescapeURL
 script
 )
 ;
+mozilla
+:
+:
 nsAutoMicroTask
 mt
 ;
