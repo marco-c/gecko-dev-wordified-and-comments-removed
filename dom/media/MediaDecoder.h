@@ -1669,6 +1669,9 @@ mOnDecoderDoctorEvent
 MediaEventListener
 mOnMediaNotSeekable
 ;
+MediaEventListener
+mOnEncrypted
+;
 protected
 :
 double
