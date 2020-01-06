@@ -187,8 +187,6 @@ InitInternal
 nsPIDOMWindowInner
 *
 aWindow
-int32_t
-aAudioAgentType
 nsIAudioChannelAgentCallback
 *
 aCallback
@@ -223,9 +221,6 @@ mCallback
 ;
 nsWeakPtr
 mWeakCallback
-;
-int32_t
-mAudioChannelType
 ;
 uint64_t
 mInnerWindowID
