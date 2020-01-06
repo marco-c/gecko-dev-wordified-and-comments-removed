@@ -912,6 +912,12 @@ return
 mIsProcessingRestyles
 ;
 }
+bool
+HasPendingRestyles
+(
+)
+const
+;
 private
 :
 inline
