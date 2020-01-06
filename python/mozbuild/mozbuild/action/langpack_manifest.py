@@ -766,6 +766,31 @@ languages
 }
         
 '
+sources
+'
+:
+{
+            
+'
+browser
+'
+:
+{
+                
+'
+base_path
+'
+:
+'
+browser
+/
+'
+            
+}
+        
+}
+        
+'
 author
 '
 :
@@ -941,12 +966,6 @@ version
 '
 :
 min_app_ver
-            
-'
-resources
-'
-:
-None
             
 '
 chrome_resources
