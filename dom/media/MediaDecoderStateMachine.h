@@ -1096,11 +1096,6 @@ aError
 )
 ;
 void
-EnqueueLoadedMetadataEvent
-(
-)
-;
-void
 EnqueueFirstFrameLoadedEvent
 (
 )
@@ -1603,9 +1598,6 @@ mozilla
 :
 MediaMetadataManager
 mMetadataManager
-;
-bool
-mSentLoadedMetadataEvent
 ;
 bool
 mSentFirstFrameLoadedEvent
