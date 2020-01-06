@@ -17,7 +17,7 @@ marionette_driver
 .
 errors
 import
-JavascriptException
+NoSuchElementException
 NoSuchWindowException
 from
 marionette_harness
@@ -2107,7 +2107,7 @@ self
 .
 assertRaisesRegexp
 (
-JavascriptException
+NoSuchElementException
 "
 Element
 reference
@@ -2151,7 +2151,7 @@ self
 .
 assertRaisesRegexp
 (
-JavascriptException
+NoSuchElementException
 "
 Element
 reference
