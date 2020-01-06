@@ -1,3 +1,15 @@
+if
+(
+!
+wasmDebuggingIsSupported
+(
+)
+)
+quit
+(
+0
+)
+;
 var
 g
 =

@@ -9,6 +9,17 @@ js
 "
 )
 ;
+if
+(
+!
+wasmDebuggingIsSupported
+(
+)
+)
+quit
+(
+)
+;
 var
 offsets
 ;

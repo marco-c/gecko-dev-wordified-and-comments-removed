@@ -20,6 +20,17 @@ js
 '
 )
 ;
+if
+(
+!
+wasmDebuggingIsSupported
+(
+)
+)
+quit
+(
+)
+;
 function
 monitorLocalValues
 (

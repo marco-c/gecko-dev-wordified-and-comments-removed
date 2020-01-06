@@ -25,7 +25,7 @@ js
 if
 (
 !
-wasmIsSupported
+wasmDebuggingIsSupported
 (
 )
 )
