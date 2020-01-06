@@ -104,6 +104,14 @@ margin
 :
 8px
 ;
+white
+-
+space
+:
+pre
+-
+wrap
+;
 }
 body
 .
@@ -160,12 +168,5 @@ body
 -
 background
 )
-;
-}
-table
-{
-font
-:
-inherit
 ;
 }
