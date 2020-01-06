@@ -2309,6 +2309,11 @@ gBrowser
 addTab
 (
 url
+{
+relatedToCurrent
+:
+true
+}
 )
 ;
 }
