@@ -6059,11 +6059,6 @@ AnimationPlaybackEvent
 webidl
 '
 '
-AutocompleteErrorEvent
-.
-webidl
-'
-'
 BlobEvent
 .
 webidl
