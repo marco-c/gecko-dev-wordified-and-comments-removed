@@ -1242,6 +1242,17 @@ vp9
 enabled
 "
 "
+media
+.
+wmf
+.
+amd
+.
+vp9
+.
+enabled
+"
+"
 memory
 .
 free_dirty_pages

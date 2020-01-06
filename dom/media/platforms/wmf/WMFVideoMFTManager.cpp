@@ -2914,6 +2914,14 @@ useDxva
 &
 &
 mCheckForAMDDecoder
+&
+&
+MediaPrefs
+:
+:
+PDMWMFAMDVP9DecoderEnabled
+(
+)
 )
 {
 if
