@@ -109,6 +109,9 @@ const
 string
 &
 prefix
+std
+:
+:
 vector
 <
 string

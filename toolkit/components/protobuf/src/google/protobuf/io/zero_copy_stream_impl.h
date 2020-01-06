@@ -83,11 +83,6 @@ block_size
 1
 )
 ;
-~
-FileInputStream
-(
-)
-;
 bool
 Close
 (
@@ -452,6 +447,9 @@ public
 explicit
 IstreamInputStream
 (
+std
+:
+:
 istream
 *
 stream
@@ -460,11 +458,6 @@ block_size
 =
 -
 1
-)
-;
-~
-IstreamInputStream
-(
 )
 ;
 bool
@@ -513,6 +506,9 @@ public
 :
 CopyingIstreamInputStream
 (
+std
+:
+:
 istream
 *
 input
@@ -534,6 +530,9 @@ size
 )
 ;
 private
+:
+std
+:
 :
 istream
 *
@@ -571,6 +570,9 @@ public
 explicit
 OstreamOutputStream
 (
+std
+:
+:
 ostream
 *
 stream
@@ -624,6 +626,9 @@ public
 :
 CopyingOstreamOutputStream
 (
+std
+:
+:
 ostream
 *
 output
@@ -646,6 +651,9 @@ size
 )
 ;
 private
+:
+std
+:
 :
 ostream
 *
@@ -690,11 +698,6 @@ streams
 ]
 int
 count
-)
-;
-~
-ConcatenatingInputStream
-(
 )
 ;
 bool

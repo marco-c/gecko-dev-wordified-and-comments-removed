@@ -35,12 +35,10 @@ internal
 {
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 {
-:
-:
 MemoryBarrier
 (
 )

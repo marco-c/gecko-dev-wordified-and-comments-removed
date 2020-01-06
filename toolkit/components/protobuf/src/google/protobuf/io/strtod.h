@@ -26,6 +26,13 @@ char
 endptr
 )
 ;
+float
+SafeDoubleToFloat
+(
+double
+value
+)
+;
 }
 }
 }

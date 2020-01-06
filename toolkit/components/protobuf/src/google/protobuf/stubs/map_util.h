@@ -897,7 +897,7 @@ find
 key
 )
 ;
-CHECK
+GOOGLE_CHECK
 (
 it
 !
@@ -1502,7 +1502,7 @@ value_type
 value
 )
 {
-CHECK
+GOOGLE_CHECK
 (
 InsertIfNotPresent
 (
@@ -1544,7 +1544,7 @@ value_type
 value
 )
 {
-CHECK
+GOOGLE_CHECK
 (
 InsertIfNotPresent
 (
@@ -1597,14 +1597,6 @@ second_type
 data
 )
 {
-typedef
-typename
-Collection
-:
-:
-value_type
-value_type
-;
 GOOGLE_CHECK
 (
 InsertIfNotPresent
@@ -1662,14 +1654,6 @@ second_type
 data
 )
 {
-typedef
-typename
-Collection
-:
-:
-value_type
-value_type
-;
 GOOGLE_CHECK
 (
 InsertIfNotPresent

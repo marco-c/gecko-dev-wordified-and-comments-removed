@@ -43,7 +43,6 @@ ZeroCopyInputStream
 {
 public
 :
-inline
 ZeroCopyInputStream
 (
 )
@@ -54,7 +53,8 @@ virtual
 ZeroCopyInputStream
 (
 )
-;
+{
+}
 virtual
 bool
 Next
@@ -115,7 +115,6 @@ ZeroCopyOutputStream
 {
 public
 :
-inline
 ZeroCopyOutputStream
 (
 )
@@ -126,7 +125,8 @@ virtual
 ZeroCopyOutputStream
 (
 )
-;
+{
+}
 virtual
 bool
 Next

@@ -404,7 +404,7 @@ __x86_64__
 )
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 {
@@ -440,7 +440,7 @@ ptr
 =
 value
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -449,7 +449,7 @@ MemoryBarrier
 else
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 {
@@ -616,7 +616,7 @@ Atomic32
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -925,7 +925,7 @@ ptr
 =
 value
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -1004,7 +1004,7 @@ Atomic64
 ptr
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;

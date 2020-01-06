@@ -121,7 +121,7 @@ increment
 }
 inline
 void
-MemoryBarrier
+MemoryBarrierInternal
 (
 void
 )
@@ -147,7 +147,7 @@ Atomic32
 increment
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -160,7 +160,7 @@ ptr
 increment
 )
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -192,7 +192,7 @@ old_value
 new_value
 )
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -214,7 +214,7 @@ Atomic32
 new_value
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -452,7 +452,7 @@ Atomic64
 increment
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -470,7 +470,7 @@ ptr
 increment
 )
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -502,7 +502,7 @@ old_value
 new_value
 )
 ;
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
@@ -524,7 +524,7 @@ Atomic64
 new_value
 )
 {
-MemoryBarrier
+MemoryBarrierInternal
 (
 )
 ;
