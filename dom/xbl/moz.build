@@ -131,6 +131,11 @@ nsXBLService
 .
 h
 '
+'
+nsXBLWindowKeyHandler
+.
+h
+'
 ]
 EXPORTS
 .

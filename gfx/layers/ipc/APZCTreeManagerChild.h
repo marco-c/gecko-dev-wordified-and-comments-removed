@@ -73,6 +73,16 @@ aOutInputBlockId
 override
 ;
 void
+SetKeyboardMap
+(
+const
+KeyboardMap
+&
+aKeyboardMap
+)
+override
+;
+void
 ZoomToRect
 (
 const
