@@ -3645,17 +3645,6 @@ StyleSheet
 aSheet
 )
 ;
-nsRadioGroupStruct
-*
-GetRadioGroupInternal
-(
-const
-nsAString
-&
-aName
-)
-const
-;
 void
 SendToConsole
 (
