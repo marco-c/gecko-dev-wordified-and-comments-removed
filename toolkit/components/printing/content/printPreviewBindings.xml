@@ -2849,14 +2849,6 @@ value
 "
 "
 )
-|
-|
-result
-.
-value
-=
-=
-value
 )
 {
 return
