@@ -1293,10 +1293,6 @@ fails
 if
 (
 !
-styloVsGecko
-&
-&
-!
 stylo
 )
 =
