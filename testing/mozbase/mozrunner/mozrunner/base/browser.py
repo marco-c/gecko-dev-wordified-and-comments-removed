@@ -507,6 +507,19 @@ MOZ_CRASHREPORTER
 "
 1
 "
+            
+self
+.
+env
+[
+"
+MOZ_CRASHREPORTER_SHUTDOWN
+"
+]
+=
+"
+1
+"
         
 BaseRunner
 .
