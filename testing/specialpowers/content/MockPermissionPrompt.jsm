@@ -394,7 +394,6 @@ MockPermissionPromptInstance
 )
 {
 }
-;
 MockPermissionPromptInstance
 .
 prototype
@@ -544,9 +543,9 @@ props
 prop
 ]
 =
-'
+"
 rw
-'
+"
 ;
 obj
 .

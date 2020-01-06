@@ -59,9 +59,9 @@ utils
 importGlobalProperties
 (
 [
-'
+"
 File
-'
+"
 ]
 )
 ;
@@ -2187,7 +2187,6 @@ results
 .
 NS_ERROR_NO_AGGREGATION
 }
-;
 return
 new
 SpecialPowersObserver
