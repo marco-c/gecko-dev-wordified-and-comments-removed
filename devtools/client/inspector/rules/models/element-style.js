@@ -1285,7 +1285,7 @@ setProperty
 function
 (
 style
-bame
+name
 userValue
 )
 {
@@ -1297,7 +1297,7 @@ this
 getKey
 (
 style
-bame
+name
 )
 ;
 let
@@ -1320,7 +1320,7 @@ entry
 {
 entry
 [
-bame
+name
 ]
 =
 userValue
@@ -1336,7 +1336,7 @@ props
 ;
 props
 [
-bame
+name
 ]
 =
 userValue
