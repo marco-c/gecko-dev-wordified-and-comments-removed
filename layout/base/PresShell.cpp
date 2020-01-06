@@ -19657,7 +19657,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-ContentAndNotify
+Style
 )
 ;
 if
