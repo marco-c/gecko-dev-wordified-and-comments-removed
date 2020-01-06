@@ -62,6 +62,15 @@ ScrollingLayersHelper
 ;
 private
 :
+void
+PushLayerLocalClip
+(
+const
+StackingContextHelper
+&
+aStackingContext
+)
+;
 WebRenderLayer
 *
 mLayer
@@ -72,6 +81,9 @@ wr
 DisplayListBuilder
 *
 mBuilder
+;
+bool
+mPushedLayerLocalClip
 ;
 }
 ;
