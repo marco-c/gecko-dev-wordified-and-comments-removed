@@ -589,6 +589,9 @@ class
 NextFrameSeekingFromDormantState
 ;
 class
+VideoOnlySeekingState
+;
+class
 BufferingState
 ;
 class
