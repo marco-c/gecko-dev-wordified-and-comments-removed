@@ -29,6 +29,11 @@ uid
 public
 final
 String
+hashedFxaUid
+;
+public
+final
+String
 endpoint
 ;
 public
@@ -40,6 +45,8 @@ String
 key
 String
 uid
+String
+hashedFxaUid
 String
 endpoint
 )
@@ -61,6 +68,12 @@ this
 uid
 =
 uid
+;
+this
+.
+hashedFxaUid
+=
+hashedFxaUid
 ;
 this
 .
