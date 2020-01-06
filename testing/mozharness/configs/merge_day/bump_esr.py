@@ -152,7 +152,7 @@ to_repo_url
 "
 :
 "
-ssh
+https
 :
 /
 /

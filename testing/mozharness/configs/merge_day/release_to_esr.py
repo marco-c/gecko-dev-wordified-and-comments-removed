@@ -20,7 +20,7 @@ build
 NEW_ESR_REPO
 =
 "
-ssh
+https
 :
 /
 /
@@ -407,7 +407,7 @@ from_repo_url
 "
 :
 "
-ssh
+https
 :
 /
 /
