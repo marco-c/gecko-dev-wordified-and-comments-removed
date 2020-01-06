@@ -1025,6 +1025,13 @@ ImageValue
 (
 )
 ;
+private
+:
+bool
+mLoadedImage
+=
+false
+;
 public
 :
 nsRefPtrHashtable
@@ -1036,13 +1043,6 @@ nsIDocument
 imgRequestProxy
 >
 mRequests
-;
-private
-:
-bool
-mLoadedImage
-=
-false
 ;
 }
 ;
