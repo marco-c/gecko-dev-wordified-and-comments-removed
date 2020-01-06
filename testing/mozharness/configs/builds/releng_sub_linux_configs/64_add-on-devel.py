@@ -242,6 +242,13 @@ gcc
 bin
 :
 /
+tools
+/
+buildbot
+/
+bin
+:
+/
 usr
 /
 local

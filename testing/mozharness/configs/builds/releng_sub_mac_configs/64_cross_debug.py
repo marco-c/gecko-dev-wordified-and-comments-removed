@@ -231,6 +231,13 @@ python
 bin
 :
 /
+tools
+/
+buildbot
+/
+bin
+:
+/
 opt
 /
 local
