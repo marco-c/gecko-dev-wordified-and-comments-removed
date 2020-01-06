@@ -421,11 +421,7 @@ publish_rules
 "
 :
 [
-"
-firefox
--
-beta
-"
+32
 ]
             
 "
@@ -640,11 +636,7 @@ publish_rules
 "
 :
 [
-"
-firefox
--
-release
-"
+145
 ]
             
 "

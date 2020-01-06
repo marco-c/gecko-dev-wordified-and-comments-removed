@@ -401,11 +401,7 @@ publish_rules
 "
 :
 [
-"
-firefox
--
-beta
-"
+32
 ]
             
 "
