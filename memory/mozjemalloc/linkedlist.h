@@ -11,13 +11,8 @@ stddef
 .
 h
 >
-typedef
 struct
-LinkedList_s
 LinkedList
-;
-struct
-LinkedList_s
 {
 LinkedList
 *
