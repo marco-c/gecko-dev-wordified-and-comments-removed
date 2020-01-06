@@ -18,15 +18,6 @@ skiaContent
 1
 4
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 css
