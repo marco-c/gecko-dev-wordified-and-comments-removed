@@ -6625,12 +6625,6 @@ visit_complex_selector
 &
 mut
 self
-_
-:
-SelectorIter
-<
-SelectorImpl
->
 combinator
 :
 Option

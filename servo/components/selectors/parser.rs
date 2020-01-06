@@ -1703,11 +1703,6 @@ visitor
 .
 visit_complex_selector
 (
-current
-.
-clone
-(
-)
 combinator
 )
 {

@@ -120,15 +120,6 @@ visit_complex_selector
 &
 mut
 self
-_
-:
-SelectorIter
-<
-Self
-:
-:
-Impl
->
 _combinator_to_right
 :
 Option
