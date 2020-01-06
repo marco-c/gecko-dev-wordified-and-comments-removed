@@ -242,10 +242,10 @@ initialize
 .
 then
 (
-function
-onStorageInitialized
 (
 )
+=
+>
 {
 this
 .
@@ -254,11 +254,6 @@ _updateSavedFieldNames
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 return

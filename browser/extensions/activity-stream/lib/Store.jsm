@@ -187,13 +187,14 @@ this
 method
 ]
 =
-function
 (
 .
 .
 .
 args
 )
+=
+>
 {
 return
 this
@@ -210,11 +211,6 @@ args
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 }
 )
