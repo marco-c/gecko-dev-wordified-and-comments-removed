@@ -133,16 +133,6 @@ TextDrawTarget
 .
 h
 "
-typedef
-mozilla
-:
-:
-layout
-:
-:
-TextDrawTarget
-TextDrawTarget
-;
 namespace
 mozilla
 {
