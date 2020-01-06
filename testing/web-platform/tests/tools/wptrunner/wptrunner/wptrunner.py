@@ -799,6 +799,16 @@ repeat
 =
 1
 and
+kwargs
+[
+"
+rerun
+"
+]
+=
+=
+1
+and
 total_tests
 =
 =
@@ -1469,6 +1479,13 @@ browser_kwargs
 executor_cls
                                       
 executor_kwargs
+                                      
+kwargs
+[
+"
+rerun
+"
+]
                                       
 kwargs
 [

@@ -1564,6 +1564,9 @@ browser_kwargs
 executor_cls
 executor_kwargs
 stop_flag
+rerun
+=
+1
 pause_after_test
 =
 False
@@ -1759,6 +1762,18 @@ multiprocessing
 Event
 (
 )
+        
+self
+.
+rerun
+=
+rerun
+        
+self
+.
+run_count
+=
+0
         
 self
 .
@@ -3276,6 +3291,12 @@ popleft
 (
 )
         
+self
+.
+run_count
+=
+0
+        
 return
 test
 test_group
@@ -3378,6 +3399,46 @@ test
 .
 id
 )
+        
+if
+self
+.
+rerun
+>
+1
+:
+            
+self
+.
+logger
+.
+info
+(
+"
+Run
+%
+d
+/
+%
+d
+"
+%
+(
+self
+.
+run_count
+self
+.
+rerun
+)
+)
+        
+self
+.
+run_count
++
+=
+1
         
 self
 .
@@ -3817,6 +3878,7 @@ self
 .
 after_test_end
 (
+test
 restart_before_next
 )
     
@@ -3862,6 +3924,7 @@ def
 after_test_end
 (
 self
+test
 restart
 )
 :
@@ -3877,6 +3940,17 @@ RunnerManagerState
 running
 )
         
+if
+self
+.
+run_count
+=
+=
+self
+.
+rerun
+:
+            
 test
 test_group
 group_metadata
@@ -3886,20 +3960,20 @@ self
 get_next_test
 (
 )
-        
+            
 if
 test
 is
 None
 :
-            
+                
 return
 RunnerManagerState
 .
 stop
 (
 )
-        
+            
 if
 test_group
 !
@@ -3910,10 +3984,33 @@ state
 .
 test_group
 :
-            
+                
 restart
 =
 True
+        
+else
+:
+            
+test
+=
+test
+            
+test_group
+=
+self
+.
+state
+.
+test_group
+            
+group_metadata
+=
+self
+.
+state
+.
+group_metadata
         
 if
 restart
@@ -4490,6 +4587,10 @@ browser_kwargs
 executor_cls
 executor_kwargs
                  
+rerun
+=
+1
+                 
 pause_after_test
 =
 False
@@ -4596,6 +4697,12 @@ self
 debug_info
 =
 debug_info
+        
+self
+.
+rerun
+=
+rerun
         
 self
 .
@@ -4783,6 +4890,10 @@ executor_kwargs
 self
 .
 stop_flag
+                                        
+self
+.
+rerun
                                         
 self
 .
