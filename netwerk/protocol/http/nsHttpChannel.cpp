@@ -11856,16 +11856,6 @@ true
 }
 break
 ;
-case
-425
-:
-CloseCacheEntry
-(
-false
-)
-;
-MOZ_FALLTHROUGH
-;
 default
 :
 rv

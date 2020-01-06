@@ -1429,15 +1429,11 @@ mPeerAddr
 bool
 m0RTTInProgress
 ;
-bool
-mDoNotTryEarlyData
-;
 enum
 {
 EARLY_NONE
 EARLY_SENT
 EARLY_ACCEPTED
-EARLY_425
 }
 mEarlyDataDisposition
 ;
