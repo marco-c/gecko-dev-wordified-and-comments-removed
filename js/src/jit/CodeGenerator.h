@@ -1361,9 +1361,9 @@ lir
 )
 ;
 void
-visitNewArrayIterator
+visitNewIterator
 (
-LNewArrayIterator
+LNewIterator
 *
 lir
 )

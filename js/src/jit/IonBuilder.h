@@ -4199,11 +4199,16 @@ callInfo
 )
 ;
 InliningResult
-inlineNewArrayIterator
+inlineNewIterator
 (
 CallInfo
 &
 callInfo
+MNewIterator
+:
+:
+Type
+type
 )
 ;
 InliningResult

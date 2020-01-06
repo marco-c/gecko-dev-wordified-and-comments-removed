@@ -4109,7 +4109,7 @@ toNewArrayDynamicLength
 }
 ;
 class
-LNewArrayIterator
+LNewIterator
 :
 public
 LInstructionHelper
@@ -4123,10 +4123,10 @@ public
 :
 LIR_HEADER
 (
-NewArrayIterator
+NewIterator
 )
 explicit
-LNewArrayIterator
+LNewIterator
 (
 const
 LDefinition
@@ -4155,7 +4155,7 @@ getTemp
 )
 ;
 }
-MNewArrayIterator
+MNewIterator
 *
 mir
 (
@@ -4166,7 +4166,7 @@ return
 mir_
 -
 >
-toNewArrayIterator
+toNewIterator
 (
 )
 ;

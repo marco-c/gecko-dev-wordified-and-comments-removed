@@ -308,7 +308,7 @@ NewArrayDynamicLength
 \
 _
 (
-NewArrayIterator
+NewIterator
 )
 \
 _

@@ -1365,14 +1365,14 @@ void
 LIRGenerator
 :
 :
-visitNewArrayIterator
+visitNewIterator
 (
-MNewArrayIterator
+MNewIterator
 *
 ins
 )
 {
-LNewArrayIterator
+LNewIterator
 *
 lir
 =
@@ -1382,7 +1382,7 @@ alloc
 (
 )
 )
-LNewArrayIterator
+LNewIterator
 (
 temp
 (

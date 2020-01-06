@@ -706,7 +706,7 @@ isNewCallObject
 ins
 -
 >
-isNewArrayIterator
+isNewIterator
 (
 )
 ;

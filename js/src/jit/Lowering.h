@@ -410,9 +410,9 @@ ins
 )
 ;
 void
-visitNewArrayIterator
+visitNewIterator
 (
-MNewArrayIterator
+MNewIterator
 *
 ins
 )
