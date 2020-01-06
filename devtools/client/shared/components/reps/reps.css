@@ -1298,6 +1298,15 @@ tree
 tree
 -
 node
+[
+data
+-
+expandable
+=
+"
+true
+"
+]
 {
 cursor
 :
