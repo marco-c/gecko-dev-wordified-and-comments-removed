@@ -2236,6 +2236,7 @@ requested
 }
 )
 ;
+await
 ExtensionPermissions
 .
 _uninit
