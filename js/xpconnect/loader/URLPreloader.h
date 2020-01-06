@@ -1109,6 +1109,11 @@ mReaderInitialized
 =
 false
 ;
+bool
+mCacheWritten
+=
+false
+;
 nsCString
 mGREPrefix
 ;
