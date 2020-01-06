@@ -2642,6 +2642,16 @@ manager
 )
 :
         
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+            
+return
+        
 dist_idl_backend_file
 =
 self
