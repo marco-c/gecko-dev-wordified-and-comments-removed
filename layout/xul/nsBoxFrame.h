@@ -530,6 +530,10 @@ nsBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 bool
 aIsRoot
 =
@@ -544,6 +548,7 @@ nullptr
 nsBoxFrame
 (
 aContext
+aID
 mozilla
 :
 :
@@ -666,6 +671,8 @@ nsBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :

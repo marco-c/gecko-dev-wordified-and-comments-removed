@@ -22530,6 +22530,7 @@ aContext
 nsTextFrame
 (
 aContext
+kClassID
 )
 {
 }

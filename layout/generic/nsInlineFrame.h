@@ -517,6 +517,8 @@ nsInlineFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -527,6 +529,7 @@ aType
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 mBaseline
@@ -541,11 +544,16 @@ nsInlineFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 :
 nsInlineFrame
 (
 aContext
+aID
 mozilla
 :
 :
@@ -797,6 +805,7 @@ aContext
 nsInlineFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

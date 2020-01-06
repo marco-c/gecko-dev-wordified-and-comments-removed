@@ -112,6 +112,11 @@ nsHTMLButtonControlFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 LayoutFrameType
 aType
 )
@@ -119,6 +124,7 @@ aType
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 {

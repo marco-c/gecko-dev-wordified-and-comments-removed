@@ -219,6 +219,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 )
 mStayActive
 (

@@ -93,6 +93,7 @@ aContext
 nsHTMLButtonControlFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

@@ -84,11 +84,16 @@ aIsRoot
 nsBoxLayout
 *
 aLayoutManager
+ClassID
+aID
+=
+kClassID
 )
 :
 nsBoxFrame
 (
 aContext
+aID
 aIsRoot
 aLayoutManager
 )

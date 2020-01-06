@@ -45,6 +45,7 @@ aContext
 nsContainerFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

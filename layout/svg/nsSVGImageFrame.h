@@ -260,6 +260,7 @@ aContext
 SVGGeometryFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

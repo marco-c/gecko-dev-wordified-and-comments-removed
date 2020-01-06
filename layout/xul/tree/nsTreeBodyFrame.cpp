@@ -627,6 +627,7 @@ aContext
 nsLeafBoxFrame
 (
 aContext
+kClassID
 )
 mSlots
 (

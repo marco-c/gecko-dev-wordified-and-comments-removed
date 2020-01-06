@@ -49,6 +49,10 @@ nsFormControlFrame
 (
 nsStyleContext
 *
+nsIFrame
+:
+:
+ClassID
 )
 ;
 virtual

@@ -296,6 +296,7 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

@@ -237,11 +237,16 @@ nsTextFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 :
 nsTextFrame
 (
 aContext
+aID
 mozilla
 :
 :
@@ -2208,6 +2213,8 @@ nsTextFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -2218,6 +2225,7 @@ aType
 nsFrame
 (
 aContext
+aID
 aType
 )
 mNextContinuation

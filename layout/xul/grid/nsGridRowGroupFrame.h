@@ -75,6 +75,7 @@ aLayoutManager
 nsBoxFrame
 (
 aContext
+kClassID
 false
 aLayoutManager
 )

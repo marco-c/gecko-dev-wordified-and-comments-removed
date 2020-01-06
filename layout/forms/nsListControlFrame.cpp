@@ -381,6 +381,7 @@ aContext
 nsHTMLScrollFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

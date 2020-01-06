@@ -103,6 +103,7 @@ aContext
 nsSVGContainerFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

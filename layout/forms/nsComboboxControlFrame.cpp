@@ -1030,6 +1030,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :
@@ -5438,6 +5439,7 @@ aComboBox
 nsBlockFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

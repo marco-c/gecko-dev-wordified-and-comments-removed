@@ -770,6 +770,10 @@ nsTableRowFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 ;
 void

@@ -249,11 +249,14 @@ nsButtonBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 )
 :
 nsBoxFrame
 (
 aContext
+aID
 false
 )
 mButtonBoxListener

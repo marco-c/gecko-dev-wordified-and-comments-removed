@@ -164,6 +164,11 @@ SVGGeometryFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 mozilla
 :
 :
@@ -174,6 +179,7 @@ aType
 nsFrame
 (
 aContext
+aID
 aType
 )
 {
@@ -196,6 +202,7 @@ aContext
 SVGGeometryFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

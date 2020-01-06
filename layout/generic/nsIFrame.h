@@ -1631,6 +1631,13 @@ DisplayItemData
 >
 DisplayItemArray
 ;
+typedef
+nsQueryFrame
+:
+:
+ClassID
+ClassID
+;
 NS_DECL_QUERYFRAME_TARGET
 (
 nsIFrame
@@ -1638,6 +1645,8 @@ nsIFrame
 explicit
 nsIFrame
 (
+ClassID
+aID
 mozilla
 :
 :
@@ -1677,6 +1686,10 @@ NS_FRAME_IS_DIRTY
 mType
 (
 aType
+)
+mClass
+(
+aID
 )
 {
 mozilla
@@ -9115,6 +9128,9 @@ mozilla
 :
 LayoutFrameType
 mType
+;
+ClassID
+mClass
 ;
 virtual
 FrameSearchResult

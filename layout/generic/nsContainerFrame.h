@@ -977,6 +977,8 @@ nsContainerFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -987,6 +989,7 @@ aType
 nsSplittableFrame
 (
 aContext
+aID
 aType
 )
 {

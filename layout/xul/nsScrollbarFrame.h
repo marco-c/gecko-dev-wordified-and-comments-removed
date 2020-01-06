@@ -55,6 +55,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

@@ -221,11 +221,14 @@ nsTableWrapperFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 )
 :
 nsContainerFrame
 (
 aContext
+aID
 LayoutFrameType
 :
 :

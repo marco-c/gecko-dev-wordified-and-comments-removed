@@ -245,6 +245,8 @@ aContext
 nsTableFrame
 *
 aTableFrame
+ClassID
+aID
 LayoutFrameType
 aType
 )
@@ -252,6 +254,7 @@ aType
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 mDesiredSize
@@ -4954,6 +4957,7 @@ nsTableCellFrame
 (
 aContext
 aTableFrame
+kClassID
 LayoutFrameType
 :
 :

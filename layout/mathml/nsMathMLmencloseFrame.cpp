@@ -164,11 +164,14 @@ nsMathMLmencloseFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 )
 :
 nsMathMLContainerFrame
 (
 aContext
+aID
 )
 mNotationsToDraw
 (

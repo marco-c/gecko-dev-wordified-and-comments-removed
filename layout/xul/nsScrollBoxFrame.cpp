@@ -169,6 +169,7 @@ aContext
 nsButtonBoxFrame
 (
 aContext
+kClassID
 )
 {
 }

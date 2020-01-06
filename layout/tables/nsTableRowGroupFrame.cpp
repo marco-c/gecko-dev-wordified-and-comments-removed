@@ -215,6 +215,7 @@ aContext
 nsContainerFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

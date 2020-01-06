@@ -167,12 +167,17 @@ aContext
 nsTableFrame
 *
 aTableFrame
+ClassID
+aID
+=
+kClassID
 )
 :
 nsTableCellFrame
 (
 aContext
 aTableFrame
+aID
 mozilla
 :
 :
@@ -817,6 +822,8 @@ aContext
 nsTableFrame
 *
 aTableFrame
+ClassID
+aID
 mozilla
 :
 :

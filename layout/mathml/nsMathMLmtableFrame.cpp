@@ -5864,6 +5864,7 @@ aContext
 nsBlockFrame
 (
 aContext
+kClassID
 )
 {
 mUniqueStyleText

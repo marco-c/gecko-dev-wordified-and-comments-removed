@@ -58,6 +58,7 @@ aContext
 nsMathMLSelectedFrame
 (
 aContext
+kClassID
 )
 {
 }

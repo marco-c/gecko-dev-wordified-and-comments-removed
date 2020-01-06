@@ -249,6 +249,7 @@ aContext
 nsMathMLTokenFrame
 (
 aContext
+kClassID
 )
 mFlags
 (

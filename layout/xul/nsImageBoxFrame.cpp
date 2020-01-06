@@ -659,6 +659,7 @@ aContext
 nsLeafBoxFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

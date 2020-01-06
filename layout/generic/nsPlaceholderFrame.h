@@ -105,6 +105,7 @@ aTypeBit
 nsFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

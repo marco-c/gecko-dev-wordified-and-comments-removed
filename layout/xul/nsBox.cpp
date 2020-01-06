@@ -726,12 +726,15 @@ nsBox
 :
 nsBox
 (
+ClassID
+aID
 LayoutFrameType
 aType
 )
 :
 nsIFrame
 (
+aID
 aType
 )
 {

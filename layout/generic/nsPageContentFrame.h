@@ -164,6 +164,7 @@ aContext
 ViewportFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

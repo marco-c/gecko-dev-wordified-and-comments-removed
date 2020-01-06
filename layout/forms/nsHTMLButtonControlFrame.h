@@ -61,6 +61,7 @@ aContext
 nsHTMLButtonControlFrame
 (
 aContext
+kClassID
 mozilla
 :
 :
@@ -445,6 +446,11 @@ nsHTMLButtonControlFrame
 nsStyleContext
 *
 aContext
+nsIFrame
+:
+:
+ClassID
+aID
 mozilla
 :
 :

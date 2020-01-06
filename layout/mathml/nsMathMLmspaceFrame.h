@@ -103,6 +103,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 mWidth
 (

@@ -358,11 +358,16 @@ nsLeafBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 :
 nsLeafBoxFrame
 (
 aContext
+aID
 mozilla
 :
 :
@@ -378,6 +383,8 @@ nsLeafBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :

@@ -55,6 +55,9 @@ nsButtonBoxFrame
 nsStyleContext
 *
 aContext
+ClassID
+=
+kClassID
 )
 ;
 virtual

@@ -259,6 +259,7 @@ aContext
 nsMathMLContainerFrame
 (
 aContext
+kClassID
 )
 mOpenChar
 (

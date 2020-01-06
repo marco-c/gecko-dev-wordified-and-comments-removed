@@ -902,6 +902,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 )
 mInner
 (

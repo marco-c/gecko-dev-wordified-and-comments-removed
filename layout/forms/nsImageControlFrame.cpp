@@ -261,6 +261,7 @@ aContext
 nsImageFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :

@@ -221,6 +221,7 @@ aContext
 nsTitleBarFrame
 (
 aContext
+kClassID
 )
 {
 }

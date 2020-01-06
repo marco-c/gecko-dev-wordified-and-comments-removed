@@ -245,9 +245,10 @@ aState
 ;
 #
 endif
-explicit
 nsBox
 (
+ClassID
+aID
 mozilla
 :
 :

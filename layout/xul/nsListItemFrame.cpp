@@ -72,6 +72,7 @@ nsGridRowLeafFrame
 aContext
 aIsRoot
 aLayoutManager
+kClassID
 )
 {
 }

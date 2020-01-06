@@ -155,6 +155,7 @@ aContext
 nsInlineFrame
 (
 aContext
+kClassID
 mozilla
 :
 :

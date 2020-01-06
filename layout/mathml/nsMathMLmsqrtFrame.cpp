@@ -56,6 +56,7 @@ aContext
 nsMathMLmencloseFrame
 (
 aContext
+kClassID
 )
 {
 }

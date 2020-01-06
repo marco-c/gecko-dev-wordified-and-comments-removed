@@ -1715,6 +1715,10 @@ nsTableFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
+=
+kClassID
 )
 ;
 virtual

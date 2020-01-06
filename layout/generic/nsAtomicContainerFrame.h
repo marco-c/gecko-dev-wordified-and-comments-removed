@@ -106,6 +106,8 @@ nsAtomicContainerFrame
 nsStyleContext
 *
 aContext
+ClassID
+aID
 mozilla
 :
 :
@@ -116,6 +118,7 @@ aType
 nsContainerFrame
 (
 aContext
+aID
 aType
 )
 {

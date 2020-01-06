@@ -92,6 +92,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 )
 mNeedsReflowCallback
 (

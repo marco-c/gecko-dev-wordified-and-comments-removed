@@ -503,6 +503,7 @@ aContext
 nsBoxFrame
 (
 aContext
+kClassID
 LayoutFrameType
 :
 :
