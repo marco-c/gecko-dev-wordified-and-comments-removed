@@ -983,7 +983,9 @@ ENTITY
 fxaccount_pref_sync_use_metered_summary2
 '
 Prevent
-Firefox
+&
+brandShortName
+;
 from
 syncing
 over
