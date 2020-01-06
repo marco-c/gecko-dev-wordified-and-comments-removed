@@ -61,7 +61,12 @@ jsm
 ;
 addDebuggerToGlobal
 (
+Cu
+.
+getGlobalForObject
+(
 this
+)
 )
 ;
 this
