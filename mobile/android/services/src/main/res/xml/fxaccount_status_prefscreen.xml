@@ -442,7 +442,7 @@ fxaccount_status_choose_what
 "
 >
 <
-SwitchPreference
+CheckBoxPreference
 android
 :
 key
@@ -469,7 +469,7 @@ fxaccount_status_bookmarks
 /
 >
 <
-SwitchPreference
+CheckBoxPreference
 android
 :
 key
@@ -496,7 +496,7 @@ fxaccount_status_history
 /
 >
 <
-SwitchPreference
+CheckBoxPreference
 android
 :
 key
@@ -523,7 +523,7 @@ fxaccount_status_tabs
 /
 >
 <
-SwitchPreference
+CheckBoxPreference
 android
 :
 key
