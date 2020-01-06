@@ -1256,7 +1256,6 @@ _mainEnqueuer
 .
 enqueue
 (
-async
 (
 )
 =
@@ -3068,7 +3067,6 @@ excludingAnnotation
 "
 )
 ;
-async
 function
 createItemsFromBookmarksTree
 (
@@ -6643,7 +6641,6 @@ Untag
 prototype
 =
 {
-async
 execute
 (
 {

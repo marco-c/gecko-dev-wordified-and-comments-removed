@@ -4342,7 +4342,6 @@ execute
 (
 query
 null
-async
 function
 (
 row
@@ -4687,7 +4686,6 @@ pageInfo
 var
 insert
 =
-async
 function
 (
 db
@@ -4772,7 +4770,6 @@ pageInfo
 var
 insertMany
 =
-async
 function
 (
 db

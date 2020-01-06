@@ -1298,7 +1298,6 @@ moz_bookmarks_tracked
 )
 ;
 }
-async
 order
 (
 parentSyncId
@@ -2229,7 +2228,6 @@ reset
 )
 ;
 }
-async
 reset
 (
 )
@@ -2337,7 +2335,6 @@ moz_bookmarks_deleted
 )
 ;
 }
-async
 dedupe
 (
 localSyncId
@@ -2410,7 +2407,6 @@ remoteParentSyncId
 )
 ;
 }
-async
 update
 (
 info
@@ -2445,7 +2441,6 @@ updateInfo
 )
 ;
 }
-async
 insert
 (
 info
@@ -8651,7 +8646,6 @@ NORMAL
 var
 removeTombstones
 =
-async
 function
 (
 db
