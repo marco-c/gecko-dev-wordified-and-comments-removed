@@ -116,6 +116,12 @@ Init
 )
 override
 ;
+void
+Flush
+(
+)
+override
+;
 int32_t
 GetMaxBlocks
 (

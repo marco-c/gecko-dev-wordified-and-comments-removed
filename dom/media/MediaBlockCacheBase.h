@@ -95,6 +95,14 @@ Init
 0
 ;
 virtual
+void
+Flush
+(
+)
+=
+0
+;
+virtual
 int32_t
 GetMaxBlocks
 (

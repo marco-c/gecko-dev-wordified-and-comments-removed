@@ -55,6 +55,12 @@ Init
 )
 override
 ;
+void
+Flush
+(
+)
+override
+;
 int32_t
 GetMaxBlocks
 (
@@ -163,6 +169,8 @@ mBuffer
 ;
 bool
 mHasGrown
+=
+false
 ;
 }
 ;
