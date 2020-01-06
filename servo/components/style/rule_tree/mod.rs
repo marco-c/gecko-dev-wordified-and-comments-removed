@@ -1088,6 +1088,10 @@ _
 }
 if
 any_normal
+|
+|
+!
+any_important
 {
 if
 matches
