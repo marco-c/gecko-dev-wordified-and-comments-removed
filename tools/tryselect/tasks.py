@@ -405,6 +405,9 @@ params
 load_parameters_file
 (
 params
+strict
+=
+False
 )
         
 params
