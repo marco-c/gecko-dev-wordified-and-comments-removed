@@ -41892,6 +41892,14 @@ proto
 frame
 )
 ;
+if
+(
+!
+arguments
+)
+return
+false
+;
 }
 else
 {
