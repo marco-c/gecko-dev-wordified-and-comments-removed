@@ -12,6 +12,11 @@ map
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -128,7 +133,13 @@ std
 :
 :
 string
+std
+:
+:
+shared_ptr
+<
 Macro
+>
 >
 MacroSet
 ;

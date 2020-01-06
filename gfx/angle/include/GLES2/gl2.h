@@ -36,6 +36,15 @@ GL_APIENTRY
 endif
 #
 ifndef
+GL_GLES_PROTOTYPES
+#
+define
+GL_GLES_PROTOTYPES
+1
+#
+endif
+#
+ifndef
 GL_ES_VERSION_2_0
 #
 define
@@ -3534,8 +3543,8 @@ height
 )
 ;
 #
-ifdef
-GL_GLEXT_PROTOTYPES
+if
+GL_GLES_PROTOTYPES
 GL_APICALL
 void
 GL_APIENTRY

@@ -37,12 +37,6 @@ VertexArrayState
 data
 )
 ;
-~
-VertexArrayNULL
-(
-)
-override
-;
 }
 ;
 }

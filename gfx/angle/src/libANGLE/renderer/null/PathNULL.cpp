@@ -77,9 +77,8 @@ return
 gl
 :
 :
-Error
+InternalError
 (
-GL_INVALID_OPERATION
 )
 ;
 }

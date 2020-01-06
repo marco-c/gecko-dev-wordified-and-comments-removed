@@ -29,7 +29,7 @@ namespace
 {
 TEST
 (
-ParseUniformName
+ParseResourceName
 ArrayIndex
 )
 {
@@ -44,7 +44,7 @@ foo
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 foo
@@ -71,7 +71,7 @@ bar
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 bar
@@ -93,7 +93,7 @@ index
 }
 TEST
 (
-ParseUniformName
+ParseResourceName
 NegativeArrayIndex
 )
 {
@@ -108,7 +108,7 @@ foo
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 foo
@@ -131,7 +131,7 @@ index
 }
 TEST
 (
-ParseUniformName
+ParseResourceName
 NoArrayIndex
 )
 {
@@ -146,7 +146,7 @@ foo
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 foo
@@ -165,7 +165,7 @@ index
 }
 TEST
 (
-ParseUniformName
+ParseResourceName
 NULLArrayIndex
 )
 {
@@ -177,7 +177,7 @@ foo
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 foo
@@ -192,7 +192,7 @@ nullptr
 }
 TEST
 (
-ParseUniformName
+ParseResourceName
 TrailingWhitespace
 )
 {
@@ -207,7 +207,7 @@ foo
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 foo
@@ -234,7 +234,7 @@ foo
 gl
 :
 :
-ParseUniformName
+ParseResourceName
 (
 "
 foo

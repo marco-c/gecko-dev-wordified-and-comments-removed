@@ -240,7 +240,7 @@ ppvObject
 *
 ppvObject
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2446,7 +2446,7 @@ EXPECT_HRESULT_SUCCEEDED
 (
 CoInitializeEx
 (
-NULL
+nullptr
 COINIT_MULTITHREADED
 )
 )
@@ -2534,7 +2534,7 @@ EXPECT_HRESULT_SUCCEEDED
 (
 CoInitializeEx
 (
-NULL
+nullptr
 COINIT_MULTITHREADED
 )
 )
@@ -2786,7 +2786,7 @@ EXPECT_HRESULT_SUCCEEDED
 (
 CoInitializeEx
 (
-NULL
+nullptr
 COINIT_MULTITHREADED
 )
 )
@@ -3084,7 +3084,7 @@ EXPECT_HRESULT_SUCCEEDED
 (
 CoInitializeEx
 (
-NULL
+nullptr
 COINIT_MULTITHREADED
 )
 )

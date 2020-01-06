@@ -239,7 +239,7 @@ mResources
 ;
 mCompiler
 =
-NULL
+nullptr
 ;
 }
 virtual
@@ -273,7 +273,7 @@ mCompiler
 ;
 mCompiler
 =
-NULL
+nullptr
 ;
 }
 }
@@ -305,7 +305,7 @@ ASSERT_TRUE
 mCompiler
 !
 =
-NULL
+nullptr
 )
 <
 <

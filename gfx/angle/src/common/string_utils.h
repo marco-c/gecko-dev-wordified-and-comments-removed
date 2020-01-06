@@ -224,6 +224,17 @@ char
 suffix
 )
 ;
+void
+ToLower
+(
+std
+:
+:
+string
+*
+str
+)
+;
 }
 #
 endif

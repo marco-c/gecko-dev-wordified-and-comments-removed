@@ -1,0 +1,11 @@
+#
+ifndef
+ANGLEBASE_BASE_EXPORT_H_
+#
+define
+ANGLEBASE_BASE_EXPORT_H_
+#
+define
+ANGLEBASE_EXPORT
+#
+endif

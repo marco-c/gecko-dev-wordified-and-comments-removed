@@ -208,7 +208,7 @@ pthread_key_create
 (
 &
 index
-NULL
+nullptr
 )
 )
 !
@@ -596,7 +596,7 @@ TLS_INVALID_INDEX
 )
 {
 return
-NULL
+nullptr
 ;
 }
 #

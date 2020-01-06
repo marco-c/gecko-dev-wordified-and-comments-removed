@@ -2260,6 +2260,9 @@ eglImageTargetTexture2DOES
 PFNGLDISCARDFRAMEBUFFEREXTPROC
 discardFramebuffer
 ;
+PFNGLGETINTERNALFORMATSAMPLEIVNVPROC
+getInternalformatSampleivNV
+;
 private
 :
 void

@@ -50,13 +50,4 @@ gl32
 h
 "
 #
-ifndef
-GL_SAMPLER_2D_RECT_ARB
-#
-define
-GL_SAMPLER_2D_RECT_ARB
-0x8B63
-#
-endif
-#
 endif

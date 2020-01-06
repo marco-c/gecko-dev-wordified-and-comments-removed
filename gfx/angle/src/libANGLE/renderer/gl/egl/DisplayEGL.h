@@ -45,6 +45,13 @@ public
 :
 DisplayEGL
 (
+const
+egl
+:
+:
+DisplayState
+&
+state
 )
 ;
 ~

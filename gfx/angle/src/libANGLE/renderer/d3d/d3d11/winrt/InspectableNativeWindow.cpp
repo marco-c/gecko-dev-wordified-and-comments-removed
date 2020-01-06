@@ -122,10 +122,6 @@ nullptr
 coreWindow
 =
 coreWin
-.
-Detach
-(
-)
 ;
 }
 return
@@ -229,10 +225,6 @@ nullptr
 swapChainPanel
 =
 panel
-.
-Detach
-(
-)
 ;
 }
 return
@@ -400,6 +392,9 @@ hasEglNativeWindowPropertyKey
 {
 ERR
 (
+)
+<
+<
 "
 Could
 not
@@ -409,12 +404,13 @@ in
 IPropertySet
 .
 Valid
+"
+"
 EGLNativeWindowTypeProperty
 values
 include
 ICoreWindow
 "
-)
 ;
 return
 false

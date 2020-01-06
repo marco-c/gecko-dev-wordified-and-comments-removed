@@ -123,9 +123,8 @@ return
 gl
 :
 :
-Error
+NoError
 (
-GL_NO_ERROR
 )
 ;
 }
@@ -163,9 +162,8 @@ return
 gl
 :
 :
-Error
+NoError
 (
-GL_NO_ERROR
 )
 ;
 }
@@ -192,9 +190,8 @@ return
 gl
 :
 :
-Error
+NoError
 (
-GL_NO_ERROR
 )
 ;
 }

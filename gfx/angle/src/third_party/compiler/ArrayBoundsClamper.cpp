@@ -9,6 +9,17 @@ ArrayBoundsClamper
 .
 h
 "
+#
+include
+"
+compiler
+/
+translator
+/
+IntermTraverse
+.
+h
+"
 const
 char
 *

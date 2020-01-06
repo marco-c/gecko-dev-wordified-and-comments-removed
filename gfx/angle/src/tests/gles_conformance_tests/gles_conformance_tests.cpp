@@ -76,7 +76,7 @@ len
 =
 vsnprintf
 (
-NULL
+nullptr
 0
 fmt
 vararg
@@ -158,7 +158,7 @@ executablePathLen
 =
 GetModuleFileNameA
 (
-NULL
+nullptr
 executableFileBuf
 .
 data

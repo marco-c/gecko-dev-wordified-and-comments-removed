@@ -457,6 +457,12 @@ glBindFragmentInputLocationCHROMIUM
 343
 glProgramPathFragmentInputGenCHROMIUM
 344
+glFramebufferTextureMultiviewLayeredANGLE
+413
+glFramebufferTextureMultiviewSideBySideANGLE
+414
+glRequestExtensionANGLE
+415
 ;
 GLES
 3
@@ -817,9 +823,7 @@ glVertexBindingDivisor
 ANGLE
 Platform
 Implementation
-ANGLEPlatformCurrent
+ANGLEGetDisplayPlatform
 290
-ANGLEPlatformInitialize
+ANGLEResetDisplayPlatform
 291
-ANGLEPlatformShutdown
-292

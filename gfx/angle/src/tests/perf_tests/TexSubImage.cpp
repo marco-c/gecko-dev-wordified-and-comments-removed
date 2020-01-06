@@ -389,7 +389,8 @@ std
 string
 vs
 =
-SHADER_SOURCE
+R
+"
 (
 attribute
 vec4
@@ -418,6 +419,7 @@ a_texCoord
 ;
 }
 )
+"
 ;
 const
 std
@@ -426,7 +428,8 @@ std
 string
 fs
 =
-SHADER_SOURCE
+R
+"
 (
 precision
 mediump
@@ -455,6 +458,7 @@ v_texCoord
 ;
 }
 )
+"
 ;
 mProgram
 =
@@ -899,10 +903,11 @@ sizeof
 (
 GLfloat
 )
-(
-GLvoid
+reinterpret_cast
+<
+void
 *
-)
+>
 (
 3
 *

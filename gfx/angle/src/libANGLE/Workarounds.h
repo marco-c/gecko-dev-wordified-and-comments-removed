@@ -15,6 +15,11 @@ loseContextOnOutOfMemory
 =
 false
 ;
+bool
+disableProgramCachingForTransformFeedback
+=
+false
+;
 }
 ;
 }

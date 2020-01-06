@@ -22,13 +22,8 @@ root
 unsigned
 int
 conditionsToSimplify
-unsigned
-int
-*
-temporaryIndex
-const
 TSymbolTable
-&
+*
 symbolTable
 int
 shaderVersion

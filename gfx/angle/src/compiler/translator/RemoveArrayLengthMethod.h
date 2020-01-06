@@ -1,0 +1,15 @@
+namespace
+sh
+{
+class
+TIntermBlock
+;
+void
+RemoveArrayLengthMethod
+(
+TIntermBlock
+*
+root
+)
+;
+}

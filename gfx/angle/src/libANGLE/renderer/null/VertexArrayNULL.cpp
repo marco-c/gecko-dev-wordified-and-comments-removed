@@ -43,13 +43,4 @@ data
 )
 {
 }
-VertexArrayNULL
-:
-:
-~
-VertexArrayNULL
-(
-)
-{
-}
 }

@@ -74,7 +74,8 @@ std
 string
 vsSource
 =
-SHADER_SOURCE
+R
+"
 (
 attribute
 highp
@@ -93,6 +94,7 @@ position
 ;
 }
 )
+"
 ;
 const
 std
@@ -101,7 +103,8 @@ std
 string
 fsSource
 =
-SHADER_SOURCE
+R
+"
 (
 uniform
 highp
@@ -120,6 +123,7 @@ color
 ;
 }
 )
+"
 ;
 mProgram
 =
@@ -318,7 +322,7 @@ size
 0
 GL_RGBA
 GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 }
@@ -679,7 +683,7 @@ size
 0
 GL_RGBA
 GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 }
