@@ -978,7 +978,7 @@ ClearUser
 const
 char
 *
-aPref
+aPrefName
 )
 ;
 static
@@ -1650,6 +1650,16 @@ PrefValueKind
 :
 :
 User
+)
+;
+static
+nsresult
+ClearUserInAnyProcess
+(
+const
+char
+*
+aPrefName
 )
 ;
 static
