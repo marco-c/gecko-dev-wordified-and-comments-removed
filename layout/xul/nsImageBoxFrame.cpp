@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsIDOMHTMLMapElement
-.
-h
-"
-#
-include
-"
 nsTransform2D
 .
 h

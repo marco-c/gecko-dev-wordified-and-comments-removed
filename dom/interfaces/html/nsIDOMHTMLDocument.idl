@@ -169,7 +169,7 @@ cookie
 ;
 readonly
 attribute
-nsIDOMHTMLHeadElement
+nsISupports
 head
 ;
 attribute

@@ -20,13 +20,6 @@ nsGenericHTMLElement
 .
 h
 "
-#
-include
-"
-nsIDOMHTMLLabelElement
-.
-h
-"
 namespace
 mozilla
 {
@@ -42,8 +35,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLLabelElement
 {
 public
 :
@@ -94,7 +85,6 @@ return
 true
 ;
 }
-NS_DECL_NSIDOMHTMLLABELELEMENT
 HTMLFormElement
 *
 GetForm
@@ -127,9 +117,6 @@ const
 nsAString
 &
 aHtmlFor
-ErrorResult
-&
-aError
 )
 {
 SetHTMLAttr
@@ -139,7 +126,6 @@ nsGkAtoms
 :
 _for
 aHtmlFor
-aError
 )
 ;
 }

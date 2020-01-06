@@ -20,13 +20,6 @@ nsGenericHTMLElement
 .
 h
 "
-#
-include
-"
-nsIDOMHTMLTableCellElement
-.
-h
-"
 namespace
 mozilla
 {
@@ -42,8 +35,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLTableCellElement
 {
 public
 :
@@ -75,7 +66,6 @@ SetHasWeirdParserInsertionMode
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMHTMLTABLECELLELEMENT
 uint32_t
 ColSpan
 (

@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsIDOMHTMLMapElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EventDispatcher

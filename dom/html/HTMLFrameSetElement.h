@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsIDOMHTMLFrameSetElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -76,8 +69,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLFrameSetElement
 {
 public
 :
@@ -126,7 +117,6 @@ HTMLFrameSetElement
 frameset
 )
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMHTMLFRAMESETELEMENT
 void
 GetCols
 (

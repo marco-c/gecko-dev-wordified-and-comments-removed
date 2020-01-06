@@ -357,13 +357,6 @@ h
 #
 include
 "
-nsIDOMHTMLHeadElement
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h
@@ -5123,7 +5116,7 @@ nsHTMLDocument
 :
 GetHead
 (
-nsIDOMHTMLHeadElement
+nsISupports
 *
 *
 aHead

@@ -18,13 +18,6 @@ ImageAccessibleWrap
 .
 h
 "
-#
-include
-"
-nsIDOMHTMLMapElement
-.
-h
-"
 namespace
 mozilla
 {

@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsIDOMHTMLOptGroupElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFormElement
 .
 h

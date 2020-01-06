@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsIDOMHTMLOptGroupElement
-.
-h
-"
-#
-include
-"
 nsIFormControlFrame
 .
 h

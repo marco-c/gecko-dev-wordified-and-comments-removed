@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIDOMHTMLPictureElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -39,8 +32,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLPictureElement
 {
 public
 :
@@ -62,7 +53,6 @@ aNodeInfo
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMHTMLPICTUREELEMENT
 virtual
 nsresult
 Clone

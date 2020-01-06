@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIDOMHTMLOptGroupElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -42,8 +35,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLOptGroupElement
 {
 public
 :
@@ -70,7 +61,6 @@ HTMLOptGroupElement
 optgroup
 )
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMHTMLOPTGROUPELEMENT
 virtual
 nsresult
 InsertChildAt

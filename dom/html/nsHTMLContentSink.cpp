@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsIDOMHTMLMapElement
-.
-h
-"
-#
-include
-"
 nsICookieService
 .
 h
