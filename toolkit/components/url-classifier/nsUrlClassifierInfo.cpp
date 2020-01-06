@@ -16,6 +16,12 @@ nsUrlClassifierPositiveCacheEntry
 nsUrlClassifierPositiveCacheEntry
 (
 )
+:
+expirySec
+(
+-
+1
+)
 {
 }
 NS_IMETHODIMP
@@ -77,6 +83,12 @@ nsUrlClassifierCacheEntry
 :
 nsUrlClassifierCacheEntry
 (
+)
+:
+expirySec
+(
+-
+1
 )
 {
 }
