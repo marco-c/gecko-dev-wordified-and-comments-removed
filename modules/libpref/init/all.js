@@ -44201,3 +44201,17 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+noopener
+.
+newprocess
+.
+enabled
+"
+true
+)
+;
