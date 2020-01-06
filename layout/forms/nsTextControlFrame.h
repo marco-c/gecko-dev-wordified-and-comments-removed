@@ -1335,12 +1335,6 @@ mEditorHasBeenInitialized
 bool
 mIsProcessing
 ;
-bool
-mUsePlaceholder
-;
-bool
-mUsePreview
-;
 #
 ifdef
 DEBUG
