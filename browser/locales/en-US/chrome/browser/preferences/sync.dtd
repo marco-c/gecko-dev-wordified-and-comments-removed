@@ -747,10 +747,16 @@ signedOut
 .
 accountBox
 .
-create
+create2
 "
-Create
-Account
+Don
+t
+have
+an
+account
+?
+Get
+started
 "
 >
 <
@@ -760,7 +766,7 @@ signedOut
 .
 accountBox
 .
-create
+create2
 .
 accesskey
 "
@@ -774,7 +780,7 @@ signedOut
 .
 accountBox
 .
-signin
+signin2
 "
 Sign
 In
@@ -787,7 +793,7 @@ signedOut
 .
 accountBox
 .
-signin
+signin2
 .
 accesskey
 "
