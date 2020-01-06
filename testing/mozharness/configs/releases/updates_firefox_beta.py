@@ -245,6 +245,8 @@ balrog_username
 "
 :
 "
+balrog
+-
 ffxbld
 "
     
