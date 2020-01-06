@@ -445,6 +445,16 @@ return
 mRegionToClear
 ;
 }
+uint32_t
+GetDebugFrameNumber
+(
+)
+const
+{
+return
+mDebugFrameNumber
+;
+}
 private
 :
 void
@@ -567,6 +577,9 @@ mTargetRect
 FrameBuilder
 *
 mCurrentFrame
+;
+uint32_t
+mDebugFrameNumber
 ;
 RefPtr
 <

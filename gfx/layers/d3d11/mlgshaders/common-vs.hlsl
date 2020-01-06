@@ -120,8 +120,8 @@ RenderTargetOffset
 int
 SortIndexOffset
 ;
-float
-padding
+uint
+DebugFrameNumber
 ;
 }
 ;
