@@ -3230,17 +3230,6 @@ cache
 ;
 request
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIJSXMLHttpRequest
-)
-;
-request
-.
 addEventListener
 (
 "
