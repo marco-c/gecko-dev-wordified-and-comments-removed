@@ -110,9 +110,10 @@ VREventObserver
 (
 )
 ;
+RefPtr
+<
 nsGlobalWindow
-*
-MOZ_NON_OWNING_REF
+>
 mWindow
 ;
 TimeStamp
