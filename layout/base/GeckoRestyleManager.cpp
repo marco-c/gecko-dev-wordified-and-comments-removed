@@ -6295,7 +6295,7 @@ nodes
 fc
 -
 >
-GetAllUndisplayedContentIn
+GetAllRegisteredDisplayNoneStylesIn
 (
 aParent
 )
@@ -6316,7 +6316,7 @@ nodes
 fc
 -
 >
-GetAllDisplayContentsIn
+GetAllRegisteredDisplayContentsStylesIn
 (
 aParent
 )
@@ -7252,7 +7252,7 @@ if
 fc
 -
 >
-GetAllUndisplayedContentIn
+GetAllRegisteredDisplayNoneStylesIn
 (
 undisplayedParent
 )
@@ -7261,7 +7261,7 @@ undisplayedParent
 fc
 -
 >
-GetAllDisplayContentsIn
+GetAllRegisteredDisplayContentsStylesIn
 (
 undisplayedParent
 )
@@ -13301,7 +13301,7 @@ nodes
 fc
 -
 >
-GetAllUndisplayedContentIn
+GetAllRegisteredDisplayNoneStylesIn
 (
 aParent
 )
@@ -13323,7 +13323,7 @@ nodes
 fc
 -
 >
-GetAllDisplayContentsIn
+GetAllRegisteredDisplayContentsStylesIn
 (
 aParent
 )
