@@ -43,6 +43,15 @@ Printf
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MathAlgorithms
+.
+h
+"
 using
 double_conversion
 :
