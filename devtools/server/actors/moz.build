@@ -90,6 +90,9 @@ DIRS
 =
 [
 '
+emulation
+'
+'
 highlighters
 '
 '
