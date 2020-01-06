@@ -5545,12 +5545,6 @@ mDemuxer
 =
 nullptr
 ;
-mCompositorUpdatedListener
-.
-DisconnectIfExists
-(
-)
-;
 mOnTrackWaitingForKeyListener
 .
 Disconnect
