@@ -169,6 +169,9 @@ test_keysize
 test_keysize_ev
 '
 '
+test_missing_intermediate
+'
+'
 test_name_constraints
 '
 '

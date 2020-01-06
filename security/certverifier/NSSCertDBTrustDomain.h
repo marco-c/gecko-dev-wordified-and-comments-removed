@@ -262,6 +262,11 @@ originAttributes
 UniqueCERTCertList
 &
 builtChain
+UniqueCERTCertList
+*
+peerCertChain
+=
+nullptr
 PinningTelemetryInfo
 *
 pinningTelemetryInfo
@@ -840,6 +845,10 @@ mOriginAttributes
 UniqueCERTCertList
 &
 mBuiltChain
+;
+UniqueCERTCertList
+*
+mPeerCertChain
 ;
 PinningTelemetryInfo
 *
