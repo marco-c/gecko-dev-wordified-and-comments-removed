@@ -114,6 +114,11 @@ SOURCES
 =
 [
 '
+RemoteUtils
+.
+cpp
+'
+'
 XRemoteClient
 .
 cpp
