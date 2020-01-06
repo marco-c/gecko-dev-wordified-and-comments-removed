@@ -124,7 +124,7 @@ ObtainGit
 ;
 private
 :
-REFIID
+IID
 mIid
 ;
 RefPtr
