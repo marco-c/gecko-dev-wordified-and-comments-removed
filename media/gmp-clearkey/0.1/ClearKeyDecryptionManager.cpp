@@ -125,10 +125,9 @@ const
 {
 return
 !
-!
 mKey
 .
-size
+empty
 (
 )
 ;

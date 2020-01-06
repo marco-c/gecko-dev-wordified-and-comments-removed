@@ -237,10 +237,9 @@ keyId
 }
 if
 (
-!
 mKeyIds
 .
-size
+empty
 (
 )
 )

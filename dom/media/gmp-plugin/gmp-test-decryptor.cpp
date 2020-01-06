@@ -823,11 +823,12 @@ override
 {
 if
 (
-aData
 !
-=
-"
-"
+aData
+.
+empty
+(
+)
 )
 {
 FakeDecryptor
