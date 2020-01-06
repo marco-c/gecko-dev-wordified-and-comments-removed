@@ -2068,7 +2068,6 @@ oldPref
 )
 ;
 }
-;
 Services
 .
 prefs
@@ -3742,7 +3741,6 @@ tmpPath
 )
 ;
 }
-;
 if
 (
 isTypedArray
@@ -3772,7 +3770,6 @@ buffer
 byteLength
 ;
 }
-;
 let
 refObj
 =
