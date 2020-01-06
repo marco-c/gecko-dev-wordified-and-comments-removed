@@ -347,11 +347,6 @@ JAVA_JAR_TARGETS
     
 b
 '
-LD_VERSION_SCRIPT
-'
-    
-b
-'
 LIBRARY_NAME
 '
     

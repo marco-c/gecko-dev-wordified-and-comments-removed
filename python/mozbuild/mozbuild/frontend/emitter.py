@@ -4648,15 +4648,6 @@ get
 DEFFILE
 '
 )
-or
-context
-.
-get
-(
-'
-LD_VERSION_SCRIPT
-'
-)
 :
                     
 raise
@@ -4670,13 +4661,9 @@ be
 used
 along
 DEFFILE
-or
-'
-                        
-'
-LD_VERSION_SCRIPT
 .
 '
+                        
 context
 )
                 
@@ -6127,10 +6114,6 @@ DEFFILE
             
 '
 WIN32_EXE_LDFLAGS
-'
-            
-'
-LD_VERSION_SCRIPT
 '
             
 '
