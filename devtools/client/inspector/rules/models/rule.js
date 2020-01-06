@@ -50,9 +50,7 @@ styles
 )
 ;
 const
-{
 TextProperty
-}
 =
 require
 (

@@ -756,9 +756,9 @@ isValid
 }
 }
 ;
-exports
+module
 .
-TextProperty
+exports
 =
 TextProperty
 ;

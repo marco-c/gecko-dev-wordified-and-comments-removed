@@ -5136,9 +5136,9 @@ active
 }
 }
 ;
-exports
+module
 .
-TextPropertyEditor
+exports
 =
 TextPropertyEditor
 ;
