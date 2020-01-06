@@ -243,9 +243,9 @@ extend_mode
 .
 x
 )
+!
 =
-=
-EXTEND_MODE_REPEAT
+EXTEND_MODE_CLAMP
 )
 ;
 }

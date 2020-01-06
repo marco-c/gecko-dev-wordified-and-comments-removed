@@ -309,9 +309,9 @@ start_end_radius_ratio_xy_extend_mode
 .
 w
 )
+!
 =
-=
-EXTEND_MODE_REPEAT
+EXTEND_MODE_CLAMP
 )
 ;
 }

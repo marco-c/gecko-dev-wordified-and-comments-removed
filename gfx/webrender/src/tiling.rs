@@ -3,7 +3,6 @@ api
 :
 :
 {
-BuiltDisplayList
 ClipAndScrollInfo
 ClipId
 ColorF
@@ -251,16 +250,6 @@ MIN_TARGET_SIZE
 u32
 =
 2048
-;
-pub
-type
-DisplayListMap
-=
-FastHashMap
-<
-PipelineId
-BuiltDisplayList
->
 ;
 trait
 AlphaBatchHelpers

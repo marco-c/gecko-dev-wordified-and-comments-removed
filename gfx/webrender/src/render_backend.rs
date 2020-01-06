@@ -507,7 +507,7 @@ self
 .
 scene
 .
-display_lists
+pipelines
 accumulated_scale_factor
 pan
 &
@@ -1244,7 +1244,7 @@ doc
 .
 scene
 .
-display_lists
+pipelines
 .
 get
 (
@@ -3102,7 +3102,7 @@ document
 for
 (
 _
-display_list
+pipeline
 )
 in
 &
@@ -3110,7 +3110,7 @@ doc
 .
 scene
 .
-display_lists
+pipelines
 {
 let
 mut
@@ -3135,6 +3135,8 @@ traverse_items
 (
 &
 mut
+pipeline
+.
 display_list
 .
 iter
