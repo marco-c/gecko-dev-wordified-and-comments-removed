@@ -338,6 +338,10 @@ browsing_context_id
 :
 BrowsingContextId
 pub
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
+pub
 parent_info
 :
 Option
@@ -1271,6 +1275,9 @@ state
 browsing_context_id
 state
 .
+top_level_browsing_context_id
+state
+.
 parent_info
 script_chan
 pipeline_chan
@@ -1322,6 +1329,9 @@ PipelineId
 browsing_context_id
 :
 BrowsingContextId
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 parent_info
 :
 Option
@@ -1379,6 +1389,9 @@ id
 browsing_context_id
 :
 browsing_context_id
+top_level_browsing_context_id
+:
+top_level_browsing_context_id
 parent_info
 :
 parent_info
@@ -1914,6 +1927,15 @@ id
 self
 .
 id
+.
+clone
+(
+)
+top_level_browsing_context_id
+:
+self
+.
+top_level_browsing_context_id
 .
 clone
 (

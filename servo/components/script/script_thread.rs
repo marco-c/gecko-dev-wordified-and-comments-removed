@@ -8214,9 +8214,9 @@ reply
 WebDriverScriptCommand
 :
 :
-GetPipelineId
+GetBrowsingContextId
 (
-browsing_context_id
+webdriver_frame_id
 reply
 )
 =
@@ -8224,13 +8224,13 @@ reply
 webdriver_handlers
 :
 :
-handle_get_pipeline_id
+handle_get_browsing_context_id
 (
 &
 *
 documents
 pipeline_id
-browsing_context_id
+webdriver_frame_id
 reply
 )
 WebDriverScriptCommand

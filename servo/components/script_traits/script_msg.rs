@@ -394,15 +394,12 @@ MozBrowserEvent
 )
 TraverseHistory
 (
-Option
-<
-PipelineId
->
+TopLevelBrowsingContextId
 TraversalDirection
 )
 JointSessionHistoryLength
 (
-PipelineId
+TopLevelBrowsingContextId
 IpcSender
 <
 u32
