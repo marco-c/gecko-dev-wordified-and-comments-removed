@@ -9632,8 +9632,9 @@ frame_builder
 .
 dl_builder
 .
-push_built_display_list
+push_nested_display_list
 (
+&
 dl
 )
 ;
