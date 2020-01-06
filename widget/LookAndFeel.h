@@ -320,6 +320,9 @@ FontID
 eFont_Caption
 =
 1
+FontID_MINIMUM
+=
+eFont_Caption
 eFont_Icon
 eFont_Menu
 eFont_MessageBox
@@ -336,6 +339,9 @@ eFont_PullDownMenu
 eFont_List
 eFont_Field
 eFont_Tooltips
+eFont_Widget
+FontID_MAXIMUM
+=
 eFont_Widget
 }
 ;
