@@ -1147,6 +1147,11 @@ thread
 "
 ;
 }
+if
+(
+aBridge
+)
+{
 aBridge
 -
 >
@@ -1155,6 +1160,7 @@ NotifyFinishedAsyncPrepareBuffer
 aState
 )
 ;
+}
 }
 void
 PaintThread
