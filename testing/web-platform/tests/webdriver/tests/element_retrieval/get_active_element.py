@@ -689,6 +689,7 @@ session
 accept2
 "
 )
+is
 True
     
 create_dialog
@@ -956,11 +957,9 @@ execute_script
 "
 return
 dismiss2
-;
 "
 )
-=
-=
+is
 False
     
 create_dialog
