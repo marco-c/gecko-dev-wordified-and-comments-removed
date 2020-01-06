@@ -10750,7 +10750,7 @@ if
 SECSuccess
 !
 =
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 (
 fd
 PR_TRUE
