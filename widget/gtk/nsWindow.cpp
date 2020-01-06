@@ -6458,6 +6458,16 @@ UpdateClientOffset
 (
 )
 ;
+NotifyWindowMoved
+(
+mBounds
+.
+x
+mBounds
+.
+y
+)
+;
 return
 FALSE
 ;
