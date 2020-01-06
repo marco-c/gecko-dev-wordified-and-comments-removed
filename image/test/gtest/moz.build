@@ -105,6 +105,11 @@ TestADAM7InterpolatingFilter
 cpp
 '
 '
+TestContainers
+.
+cpp
+'
+'
 TestCopyOnWrite
 .
 cpp
