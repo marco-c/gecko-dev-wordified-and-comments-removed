@@ -93,6 +93,13 @@ content
 /
 ext
 -
+browsingData
+.
+js
+content
+/
+ext
+-
 pageAction
 .
 js
