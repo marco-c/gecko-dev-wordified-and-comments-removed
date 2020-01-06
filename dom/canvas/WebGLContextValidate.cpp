@@ -366,7 +366,7 @@ const
 float
 kCommonAliasedLineWidthRangeMax
 =
-5
+1
 ;
 template
 <
