@@ -207,6 +207,9 @@ attribute
 USVString
 scope
 ;
+[
+Throws
+]
 readonly
 attribute
 ServiceWorkerUpdateViaCache
