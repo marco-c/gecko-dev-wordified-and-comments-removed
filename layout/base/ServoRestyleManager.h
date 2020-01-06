@@ -508,7 +508,7 @@ ProcessPendingRestyles
 )
 ;
 void
-UpdateAnimationStylesForHitTesting
+UpdateOnlyAnimationStyles
 (
 )
 ;

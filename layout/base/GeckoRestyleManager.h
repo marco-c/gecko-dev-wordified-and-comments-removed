@@ -701,12 +701,7 @@ EndProcessingRestyles
 public
 :
 void
-UpdateAnimationStyles
-(
-)
-;
-void
-UpdateAnimationStylesForHitTesting
+UpdateOnlyAnimationStyles
 (
 )
 ;
