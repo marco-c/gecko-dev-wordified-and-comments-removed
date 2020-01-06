@@ -15308,6 +15308,15 @@ aTab
 /
 >
 <
+parameter
+name
+=
+"
+aInsertedOnTabCreation
+"
+/
+>
+<
 body
 >
 <
@@ -15792,6 +15801,9 @@ true
 detail
 :
 {
+insertedOnTabCreation
+:
+aInsertedOnTabCreation
 }
 }
 )
@@ -17363,6 +17375,7 @@ this
 _insertBrowser
 (
 t
+true
 )
 ;
 }
