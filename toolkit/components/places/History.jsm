@@ -2242,7 +2242,7 @@ execute
 (
 DELETE
 FROM
-moz_updatehosts_temp
+moz_updatehostsdelete_temp
 )
 ;
 await
@@ -2654,7 +2654,7 @@ executeCached
 (
 DELETE
 FROM
-moz_updatehosts_temp
+moz_updatehostsdelete_temp
 )
 ;
 let
