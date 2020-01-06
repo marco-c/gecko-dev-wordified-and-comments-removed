@@ -22,6 +22,17 @@ false
 "
 dom
 .
+canvas
+-
+text
+.
+enabled
+"
+:
+false
+"
+dom
+.
 compositionevent
 .
 enabled
