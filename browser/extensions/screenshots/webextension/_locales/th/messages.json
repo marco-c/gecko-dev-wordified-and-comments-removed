@@ -28,7 +28,7 @@ screenshots
 feedback
 mozilla
 .
-org
+com
 >
 "
 }
@@ -276,6 +276,7 @@ message
 "
 Firefox
 Screenshots
+!
 "
 }
 "
@@ -303,6 +304,7 @@ message
 "
 :
 "
+?
 "
 }
 "
@@ -450,11 +452,9 @@ message
 "
 Firefox
 Screenshots
-Firefox
-Cloud
-Services
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
+Firefox
 "
 "
 placeholders

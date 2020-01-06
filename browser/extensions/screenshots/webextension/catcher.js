@@ -210,6 +210,7 @@ function
 watchFunction
 (
 func
+quiet
 )
 {
 return
@@ -234,6 +235,12 @@ catch
 e
 )
 {
+if
+(
+!
+quiet
+)
+{
 exports
 .
 unhandled
@@ -241,6 +248,7 @@ unhandled
 e
 )
 ;
+}
 throw
 e
 ;
