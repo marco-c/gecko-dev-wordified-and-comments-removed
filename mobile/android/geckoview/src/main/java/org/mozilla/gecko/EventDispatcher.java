@@ -361,6 +361,16 @@ mNativeQueue
 queue
 ;
 }
+public
+NativeQueue
+getNativeQueue
+(
+)
+{
+return
+mNativeQueue
+;
+}
 private
 boolean
 isReadyForDispatchingToGecko
