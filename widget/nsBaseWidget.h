@@ -1208,6 +1208,15 @@ override
 }
 ;
 virtual
+nsresult
+AsyncEnableDragDrop
+(
+bool
+aEnable
+)
+override
+;
+virtual
 MOZ_MUST_USE
 nsresult
 GetAttention
