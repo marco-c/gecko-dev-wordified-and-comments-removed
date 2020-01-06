@@ -289,13 +289,11 @@ GetUnfocusedKeyEventTarget
 )
 override
 ;
-virtual
 nsContentList
 *
 GetForms
 (
 )
-override
 ;
 nsContentList
 *

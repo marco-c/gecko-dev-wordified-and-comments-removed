@@ -99,15 +99,6 @@ IsWriting
 0
 ;
 virtual
-nsContentList
-*
-GetForms
-(
-)
-=
-0
-;
-virtual
 nsresult
 ChangeContentEditableCount
 (
