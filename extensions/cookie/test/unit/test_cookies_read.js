@@ -82,7 +82,9 @@ cookieBehavior
 ;
 Services
 .
-cookies
+cookiemgr
+.
+sessionEnumerator
 ;
 do_check_true
 (
