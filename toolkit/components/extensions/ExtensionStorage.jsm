@@ -645,7 +645,6 @@ set
 (
 extensionId
 items
-context
 )
 {
 return
@@ -679,16 +678,10 @@ items
 let
 item
 =
-this
-.
-sanitize
-(
 items
 [
 prop
 ]
-context
-)
 ;
 changes
 [
