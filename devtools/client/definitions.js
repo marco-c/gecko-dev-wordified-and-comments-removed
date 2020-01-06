@@ -871,10 +871,10 @@ devtools
 /
 client
 /
-responsivedesign
+responsive
+.
+html
 /
-resize
--
 commands
 "
 "
