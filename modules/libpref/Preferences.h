@@ -1620,6 +1620,13 @@ mCurrentFile
 ;
 bool
 mDirty
+=
+false
+;
+bool
+mProfileShutdown
+=
+false
 ;
 static
 Preferences
