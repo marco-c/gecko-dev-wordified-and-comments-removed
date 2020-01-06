@@ -1118,10 +1118,7 @@ mBackPressureDelayMS
 )
 mThrottleTrackingTimeouts
 (
-gTrackingTimeoutThrottlingDelay
-<
-=
-0
+false
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
