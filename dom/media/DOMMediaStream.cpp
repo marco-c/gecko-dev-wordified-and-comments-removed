@@ -1748,6 +1748,8 @@ false
 mAbstractMainThread
 (
 aWindow
+?
+aWindow
 -
 >
 GetDocGroup
@@ -1762,6 +1764,8 @@ TaskCategory
 :
 Other
 )
+:
+nullptr
 )
 {
 nsresult
@@ -3988,6 +3992,11 @@ MediaStreamGraph
 aGraph
 )
 {
+MOZ_ASSERT
+(
+mAbstractMainThread
+)
+;
 InitInputStreamCommon
 (
 aGraph
@@ -4022,6 +4031,11 @@ MediaStreamGraph
 aGraph
 )
 {
+MOZ_ASSERT
+(
+mAbstractMainThread
+)
+;
 InitInputStreamCommon
 (
 aGraph
@@ -4059,6 +4073,11 @@ MediaStreamGraph
 aGraph
 )
 {
+MOZ_ASSERT
+(
+mAbstractMainThread
+)
+;
 const
 TrackID
 AUDIO_TRACK
@@ -4201,6 +4220,11 @@ aGraph
 {
 MOZ_ASSERT
 (
+mAbstractMainThread
+)
+;
+MOZ_ASSERT
+(
 !
 mPlaybackStream
 "
@@ -4284,6 +4308,11 @@ MediaStreamGraph
 aGraph
 )
 {
+MOZ_ASSERT
+(
+mAbstractMainThread
+)
+;
 mPlaybackStream
 =
 aGraph
