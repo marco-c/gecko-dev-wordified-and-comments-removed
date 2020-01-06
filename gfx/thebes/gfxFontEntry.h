@@ -607,6 +607,7 @@ return
 mIgnoreGSUB
 ;
 }
+virtual
 bool
 SupportsOpenTypeFeature
 (
