@@ -243,6 +243,11 @@ CompareSymbolResult
 \
 _
 (
+ArrayJoinResult
+)
+\
+_
+(
 CallPrintString
 )
 \
