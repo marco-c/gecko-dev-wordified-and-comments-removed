@@ -147,6 +147,10 @@ aUnscaledFont
 Float
 aSize
 bool
+aUseFontSmoothing
+=
+true
+bool
 aOwnsFont
 =
 false
@@ -277,6 +281,9 @@ mFont
 ;
 CTFontRef
 mCTFont
+;
+bool
+mUseFontSmoothing
 ;
 typedef
 void
