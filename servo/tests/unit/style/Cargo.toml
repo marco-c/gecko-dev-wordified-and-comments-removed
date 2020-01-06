@@ -106,14 +106,12 @@ rayon
 .
 8
 "
-rustc
--
-serialize
+serde_json
 =
 "
-0
+1
 .
-3
+0
 "
 selectors
 =
