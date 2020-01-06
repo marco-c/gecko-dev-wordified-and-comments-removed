@@ -768,6 +768,12 @@ prctl
 0
 )
 ;
+ARG_HEX
+(
+ioctl
+1
+)
+;
 ARG_DECIMAL
 (
 madvise
