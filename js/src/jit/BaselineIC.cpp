@@ -19082,7 +19082,7 @@ NotEqual
 genObj
 scratch
 &
-StarGeneratorObject
+GeneratorObject
 :
 :
 class_
@@ -19139,7 +19139,7 @@ AboveOrEqual
 scratch
 Imm32
 (
-StarGeneratorObject
+GeneratorObject
 :
 :
 YIELD_AND_AWAIT_INDEX_CLOSING

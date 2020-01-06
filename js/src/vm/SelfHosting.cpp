@@ -5178,7 +5178,7 @@ isObject
 )
 )
 ;
-StarGeneratorObject
+GeneratorObject
 *
 genObj
 =
@@ -5194,7 +5194,7 @@ toObject
 .
 as
 <
-StarGeneratorObject
+GeneratorObject
 >
 (
 )
@@ -5281,7 +5281,7 @@ toObject
 .
 is
 <
-StarGeneratorObject
+GeneratorObject
 >
 (
 )
@@ -5302,7 +5302,7 @@ return
 true
 ;
 }
-StarGeneratorObject
+GeneratorObject
 &
 genObj
 =
@@ -5317,7 +5317,7 @@ toObject
 .
 as
 <
-StarGeneratorObject
+GeneratorObject
 >
 (
 )
@@ -14749,7 +14749,7 @@ IsStarGeneratorObject
 "
 intrinsic_IsInstanceOfBuiltin
 <
-StarGeneratorObject
+GeneratorObject
 >
 1
 0
@@ -15154,7 +15154,7 @@ CallNonGenericSelfhostedMethod
 <
 Is
 <
-StarGeneratorObject
+GeneratorObject
 >
 >
 2
