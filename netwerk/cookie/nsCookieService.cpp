@@ -12066,6 +12066,17 @@ mDefaultDBState
 -
 >
 syncConn
+-
+>
+AsyncClose
+(
+nullptr
+)
+;
+mDefaultDBState
+-
+>
+syncConn
 =
 nullptr
 ;
