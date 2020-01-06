@@ -268,7 +268,7 @@ frontend
 -
 enabled
 "
-false
+true
 )
 ;
 }
