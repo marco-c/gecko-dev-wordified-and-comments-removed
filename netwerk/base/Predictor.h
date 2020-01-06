@@ -878,8 +878,9 @@ int32_t
 confidence
 uint32_t
 flags
-nsIURI
-*
+const
+nsCString
+&
 uri
 )
 ;
@@ -1012,9 +1013,8 @@ const
 char
 *
 value
-nsIURI
-*
-*
+nsCString
+&
 uri
 uint32_t
 &
