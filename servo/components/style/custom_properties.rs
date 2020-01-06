@@ -259,6 +259,8 @@ derive
 (
 Clone
 Debug
+Eq
+PartialEq
 )
 ]
 #
