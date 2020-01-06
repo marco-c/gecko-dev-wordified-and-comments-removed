@@ -80,13 +80,7 @@ WebRenderLayerManager
 *
 aWRManager
 )
-:
-mWRManager
-(
-aWRManager
-)
-{
-}
+;
 virtual
 WebRenderImageData
 *
@@ -133,8 +127,7 @@ virtual
 WebRenderUserData
 (
 )
-{
-}
+;
 WebRenderBridgeChild
 *
 WrBridge
@@ -142,8 +135,10 @@ WrBridge
 )
 const
 ;
+RefPtr
+<
 WebRenderLayerManager
-*
+>
 mWRManager
 ;
 }
