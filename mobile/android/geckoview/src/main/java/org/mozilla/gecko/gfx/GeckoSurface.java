@@ -19,13 +19,6 @@ android
 .
 os
 .
-Build
-;
-import
-android
-.
-os
-.
 Parcel
 ;
 import
