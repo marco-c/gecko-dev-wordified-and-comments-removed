@@ -2229,6 +2229,11 @@ InitWebRenderConfig
 (
 )
 ;
+void
+InitOMTPConfig
+(
+)
+;
 static
 bool
 IsDXInterop2Blocked

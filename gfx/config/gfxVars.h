@@ -224,6 +224,13 @@ nsCString
 )
 )
 \
+_
+(
+UseOMTP
+bool
+false
+)
+\
 class
 gfxVars
 final
