@@ -55,7 +55,7 @@ default
 -
 toolchain
 =
-beta
+1
 }
 #
 Add
@@ -611,6 +611,14 @@ main
 (
 )
 {
+TOOLCHAIN
+=
+{
+TOOLCHAIN
+:
+=
+beta
+}
 if
 [
 !
@@ -625,6 +633,7 @@ setup_docker
 print_versions
 else
 rustup_install
+TOOLCHAIN
 print_versions
 rustup_target_add
 TARGET
