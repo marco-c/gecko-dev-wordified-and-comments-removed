@@ -84,19 +84,11 @@ postflight_build_mach_commands
         
 [
 '
-gradle
+android
 '
          
 '
-app
-:
-lintOfficialAustralisDebug
-'
-         
-'
-app
-:
-lintOfficialPhotonDebug
+lint
 '
         
 ]

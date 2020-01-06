@@ -86,19 +86,11 @@ postflight_build_mach_commands
         
 [
 '
-gradle
+android
 '
          
 '
-app
-:
-testOfficialAustralisDebugUnitTest
-'
-         
-'
-app
-:
-testOfficialPhotonDebugUnitTest
+test
 '
         
 ]
