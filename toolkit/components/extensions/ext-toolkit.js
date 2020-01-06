@@ -28,6 +28,17 @@ jsm
 ;
 Cu
 .
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
+Cu
+.
 import
 (
 "
