@@ -15701,6 +15701,23 @@ runTests
 stepOptions
 )
             
+result
+=
+result
+or
+(
+-
+2
+if
+self
+.
+countfail
+>
+0
+else
+0
+)
+            
 self
 .
 message_logger
@@ -15755,6 +15772,23 @@ self
 runTests
 (
 stepOptions
+)
+                
+result
+=
+result
+or
+(
+-
+2
+if
+self
+.
+countfail
+>
+0
+else
+0
 )
                 
 self
@@ -16230,7 +16264,7 @@ info
 )
         
 return
-result
+0
     
 def
 runTests
@@ -16792,23 +16826,6 @@ INFO
 SimpleTest
 FINISHED
 "
-)
-        
-result
-=
-result
-or
-(
--
-2
-if
-self
-.
-countfail
->
-0
-else
-0
 )
         
 return
