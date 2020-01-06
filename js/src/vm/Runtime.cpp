@@ -535,6 +535,10 @@ telemetryCallback
 (
 nullptr
 )
+consumeStreamCallback
+(
+nullptr
+)
 readableStreamDataRequestCallback
 (
 nullptr
