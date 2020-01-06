@@ -924,6 +924,11 @@ ReferrerPolicy
 h
 '
 '
+SimpleChannelParent
+.
+h
+'
+'
 TCPFastOpen
 .
 h
@@ -1260,6 +1265,11 @@ cpp
 '
 '
 SimpleChannel
+.
+cpp
+'
+'
+SimpleChannelParent
 .
 cpp
 '

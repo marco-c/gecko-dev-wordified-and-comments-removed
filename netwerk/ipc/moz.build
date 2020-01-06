@@ -192,6 +192,11 @@ PRtspController
 .
 ipdl
 '
+'
+PSimpleChannel
+.
+ipdl
+'
 ]
 #
 needed
