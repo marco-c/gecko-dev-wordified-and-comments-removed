@@ -3452,6 +3452,13 @@ kListStylePositionKTable
 static
 const
 KTableEntry
+kListStyleKTable
+[
+]
+;
+static
+const
+KTableEntry
 kMaskTypeKTable
 [
 ]
