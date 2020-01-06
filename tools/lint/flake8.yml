@@ -72,6 +72,10 @@ tools
 /
 mercurial
 -
+tools
+/
+tryselect
+-
 toolkit
 /
 components
