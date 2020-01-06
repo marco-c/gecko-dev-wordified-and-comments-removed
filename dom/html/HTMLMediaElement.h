@@ -550,7 +550,7 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags
@@ -3329,7 +3329,7 @@ mLoadWaitStatus
 double
 mVolume
 ;
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags

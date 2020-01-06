@@ -20,13 +20,6 @@ AbstractThread
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -78,7 +71,7 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
+UniquePtr
 <
 const
 MetadataTags
