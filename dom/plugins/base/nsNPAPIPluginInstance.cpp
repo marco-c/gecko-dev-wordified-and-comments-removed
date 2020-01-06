@@ -768,10 +768,6 @@ return
 NS_OK
 ;
 }
-{
-AsyncCallbackAutoLock
-lock
-;
 mRunning
 =
 DESTROYING
@@ -783,13 +779,6 @@ TimeStamp
 :
 Now
 (
-)
-;
-}
-OnPluginDestroy
-(
-&
-mNPP
 )
 ;
 while
