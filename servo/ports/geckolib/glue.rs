@@ -6975,8 +6975,11 @@ RawServoStyleSheetContentsBorrowed
 )
 -
 >
-OriginFlags
+u8
 {
+let
+origin
+=
 match
 StylesheetContents
 :
@@ -7011,6 +7014,10 @@ Author
 >
 OriginFlags_Author
 }
+;
+origin
+.
+0
 }
 #
 [
