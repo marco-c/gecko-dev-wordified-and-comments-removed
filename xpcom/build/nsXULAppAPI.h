@@ -200,6 +200,12 @@ XREUSysExt
 "
 #
 define
+XRE_USER_SYS_EXTENSION_DEV_DIR
+"
+XRESysExtDev
+"
+#
+define
 XRE_APP_DISTRIBUTION_DIR
 "
 XREAppDist
