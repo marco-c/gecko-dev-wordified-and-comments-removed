@@ -1,7 +1,7 @@
 #
 include
 "
-StorageManager
+LocalStorageManager
 .
 h
 "

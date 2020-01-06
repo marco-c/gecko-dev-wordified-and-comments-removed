@@ -8,7 +8,7 @@ h
 #
 include
 "
-StorageManager
+LocalStorageManager
 .
 h
 "
@@ -218,7 +218,7 @@ StorageDBChild
 :
 StorageDBChild
 (
-DOMLocalStorageManager
+LocalStorageManager
 *
 aManager
 )
@@ -1805,7 +1805,7 @@ Origin
 const
 {
 return
-StorageManagerBase
+LocalStorageManager
 :
 :
 CreateOrigin
@@ -2818,7 +2818,7 @@ Origin
 const
 {
 return
-StorageManagerBase
+LocalStorageManager
 :
 :
 CreateOrigin

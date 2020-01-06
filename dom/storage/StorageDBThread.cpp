@@ -22,7 +22,7 @@ h
 #
 include
 "
-StorageManager
+LocalStorageManager
 .
 h
 "

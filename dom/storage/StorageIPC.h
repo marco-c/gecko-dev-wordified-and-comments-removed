@@ -73,7 +73,7 @@ namespace
 dom
 {
 class
-DOMLocalStorageManager
+LocalStorageManager
 ;
 class
 StorageDBChild
@@ -95,7 +95,7 @@ public
 explicit
 StorageDBChild
 (
-DOMLocalStorageManager
+LocalStorageManager
 *
 aManager
 )
@@ -460,7 +460,7 @@ mRefCnt
 NS_DECL_OWNINGTHREAD
 RefPtr
 <
-DOMLocalStorageManager
+LocalStorageManager
 >
 mManager
 ;
