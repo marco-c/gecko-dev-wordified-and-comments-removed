@@ -319,6 +319,7 @@ UseProgressiveDraw
 bool
 RenderHighPrecision
 (
+const
 nsIntRegion
 &
 aInvalidRegion
@@ -339,6 +340,7 @@ aCallbackData
 bool
 RenderLowPrecision
 (
+const
 nsIntRegion
 &
 aInvalidRegion

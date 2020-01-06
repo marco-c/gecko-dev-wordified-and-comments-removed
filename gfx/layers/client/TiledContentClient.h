@@ -795,6 +795,7 @@ ProgressiveUpdate
 nsIntRegion
 &
 aValidRegion
+const
 nsIntRegion
 &
 aInvalidRegion
@@ -1024,6 +1025,7 @@ ProgressiveUpdate
 nsIntRegion
 &
 aValidRegion
+const
 nsIntRegion
 &
 aInvalidRegion

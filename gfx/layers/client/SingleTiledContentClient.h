@@ -125,6 +125,7 @@ ProgressiveUpdate
 nsIntRegion
 &
 aValidRegion
+const
 nsIntRegion
 &
 aInvalidRegion

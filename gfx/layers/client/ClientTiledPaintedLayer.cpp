@@ -1385,6 +1385,7 @@ ClientTiledPaintedLayer
 :
 RenderHighPrecision
 (
+const
 nsIntRegion
 &
 aInvalidRegion
@@ -1679,6 +1680,7 @@ ClientTiledPaintedLayer
 :
 RenderLowPrecision
 (
+const
 nsIntRegion
 &
 aInvalidRegion
@@ -1696,6 +1698,11 @@ void
 aCallbackData
 )
 {
+nsIntRegion
+invalidRegion
+=
+aInvalidRegion
+;
 if
 (
 !
@@ -1838,7 +1845,7 @@ mPaintData
 mResolution
 )
 ;
-aInvalidRegion
+invalidRegion
 =
 aVisibleRegion
 ;
@@ -1868,11 +1875,10 @@ mLowPrecisionPaintCount
 +
 +
 ;
-aInvalidRegion
+invalidRegion
 .
-Sub
+SubOut
 (
-aInvalidRegion
 mValidRegion
 )
 ;
@@ -1900,7 +1906,7 @@ n
 this
 Stringify
 (
-aInvalidRegion
+invalidRegion
 )
 .
 c_str
@@ -1944,7 +1950,7 @@ c_str
 if
 (
 !
-aInvalidRegion
+invalidRegion
 .
 IsEmpty
 (
@@ -1964,7 +1970,7 @@ GetLowPrecisionTiledBuffer
 ProgressiveUpdate
 (
 mLowPrecisionValidRegion
-aInvalidRegion
+invalidRegion
 oldValidRegion
 &
 mPaintData
