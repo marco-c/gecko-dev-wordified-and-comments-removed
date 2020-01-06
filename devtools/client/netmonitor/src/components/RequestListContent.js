@@ -268,7 +268,7 @@ displayedRequests
 :
 PropTypes
 .
-object
+array
 .
 isRequired
 firstRequestStartedMillis
