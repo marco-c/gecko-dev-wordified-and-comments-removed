@@ -2520,6 +2520,18 @@ opt
 '
                                          
 '
+macosx64
+/
+opt
+'
+                                         
+'
+macosx64
+/
+debug
+'
+                                         
+'
 android
 -
 4
