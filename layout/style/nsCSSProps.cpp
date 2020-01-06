@@ -5823,6 +5823,13 @@ eCSSKeyword_currentcolor
 NS_COLOR_CURRENTCOLOR
 }
 {
+eCSSKeyword__moz_win_accentcolor
+LookAndFeel
+:
+:
+eColorID__moz_win_accentcolor
+}
+{
 eCSSKeyword__moz_win_mediatext
 LookAndFeel
 :
