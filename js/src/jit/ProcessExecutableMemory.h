@@ -126,6 +126,12 @@ CanLikelyAllocateMoreExecutableMemory
 (
 )
 ;
+extern
+size_t
+LikelyAvailableExecutableMemory
+(
+)
+;
 }
 }
 #
