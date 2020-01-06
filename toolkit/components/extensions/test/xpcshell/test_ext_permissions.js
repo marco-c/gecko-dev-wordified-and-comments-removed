@@ -34,7 +34,7 @@ gre
 /
 modules
 /
-ExtensionContent
+ExtensionChild
 .
 jsm
 "
