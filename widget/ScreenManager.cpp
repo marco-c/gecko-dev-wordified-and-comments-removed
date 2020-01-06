@@ -568,6 +568,7 @@ DesktopToLayoutDeviceScale
 CSSToLayoutDeviceScale
 (
 )
+96
 )
 ;
 ret
@@ -1016,6 +1017,7 @@ DesktopToLayoutDeviceScale
 CSSToLayoutDeviceScale
 (
 )
+96
 )
 ;
 ret

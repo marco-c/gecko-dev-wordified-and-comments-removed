@@ -87,6 +87,15 @@ aScaleFactor
 )
 override
 ;
+NS_IMETHOD
+GetDpi
+(
+float
+*
+aDPI
+)
+override
+;
 protected
 :
 virtual

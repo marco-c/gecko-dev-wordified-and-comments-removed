@@ -492,6 +492,13 @@ NSBitsPerPixelFromDepth
 depth
 )
 ;
+float
+dpi
+=
+96
+.
+0f
+;
 MOZ_LOG
 (
 sScreenLog
@@ -516,6 +523,8 @@ d
 d
 %
 f
+%
+f
 ]
 "
 rect
@@ -534,6 +543,7 @@ pixelDepth
 contentsScaleFactor
 .
 scale
+dpi
 )
 )
 ;
@@ -552,6 +562,7 @@ pixelDepth
 pixelDepth
 contentsScaleFactor
 defaultCssScaleFactor
+dpi
 )
 ;
 return

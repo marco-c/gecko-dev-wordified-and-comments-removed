@@ -478,6 +478,9 @@ contentsScaleFactor
 CSSToLayoutDeviceScale
 defaultCSSScaleFactor
 ;
+float
+dpi
+;
 }
 ;
 struct
