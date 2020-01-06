@@ -597,15 +597,18 @@ try
             
 response
 =
-Response
-.
-from_http_response
-(
 conn
 .
 getresponse
 (
 )
+            
+return
+Response
+.
+from_http_response
+(
+response
 )
         
 finally
@@ -616,6 +619,3 @@ conn
 close
 (
 )
-        
-return
-response
