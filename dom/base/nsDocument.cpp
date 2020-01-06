@@ -34441,6 +34441,13 @@ while
 true
 )
 {
+nsCOMPtr
+<
+nsIAttribute
+>
+attr
+;
+{
 auto
 iter
 =
@@ -34465,10 +34472,6 @@ Done
 break
 ;
 }
-nsCOMPtr
-<
-nsIAttribute
->
 attr
 =
 iter
@@ -34477,6 +34480,7 @@ UserData
 (
 )
 ;
+}
 NS_ASSERTION
 (
 attr
