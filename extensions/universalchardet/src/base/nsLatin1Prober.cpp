@@ -7,13 +7,6 @@ h
 "
 #
 include
-"
-prmem
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -611,7 +604,7 @@ newBuf1
 =
 aBuf
 )
-PR_FREEIF
+free
 (
 newBuf1
 )

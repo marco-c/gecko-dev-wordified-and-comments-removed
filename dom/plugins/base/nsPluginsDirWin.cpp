@@ -49,13 +49,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 windows
 .
 h
@@ -605,7 +598,7 @@ char
 *
 *
 )
-PR_Calloc
+calloc
 (
 variants
 sizeof
@@ -783,7 +776,7 @@ nullptr
 ;
 }
 }
-PR_Free
+free
 (
 array
 )
@@ -1586,7 +1579,7 @@ versionsize
 )
 verbuf
 =
-PR_Malloc
+malloc
 (
 versionsize
 )
@@ -1821,7 +1814,7 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-PR_Free
+free
 (
 verbuf
 )

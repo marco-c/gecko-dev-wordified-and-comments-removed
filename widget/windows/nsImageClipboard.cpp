@@ -67,13 +67,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 imgIEncoder
 .
 h

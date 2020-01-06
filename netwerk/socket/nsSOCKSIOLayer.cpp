@@ -7316,7 +7316,7 @@ nsSOCKSSocketInfo
 )
 )
 ;
-PR_DELETE
+PR_Free
 (
 layer
 )
@@ -7433,7 +7433,7 @@ NS_RELEASE
 infoObject
 )
 ;
-PR_DELETE
+PR_Free
 (
 layer
 )

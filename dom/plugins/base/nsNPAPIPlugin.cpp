@@ -26,13 +26,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prenv
 .
 h
@@ -5035,7 +5028,7 @@ npobj
 NPObject
 *
 )
-PR_Malloc
+malloc
 (
 sizeof
 (
@@ -5316,7 +5309,7 @@ npobj
 }
 else
 {
-PR_Free
+free
 (
 npobj
 )
@@ -7523,7 +7516,7 @@ UTF8Characters
 0
 )
 {
-PR_Free
+free
 (
 (
 void

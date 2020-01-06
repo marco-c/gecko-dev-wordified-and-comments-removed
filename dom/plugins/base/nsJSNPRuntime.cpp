@@ -122,13 +122,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -4708,7 +4701,7 @@ idarray
 NPIdentifier
 *
 )
-PR_Malloc
+malloc
 (
 *
 count
@@ -4790,7 +4783,7 @@ v
 )
 )
 {
-PR_Free
+free
 (
 *
 idarray
@@ -4844,7 +4837,7 @@ if
 str
 )
 {
-PR_Free
+free
 (
 *
 idarray
@@ -6884,7 +6877,7 @@ npargs
 NPVariant
 *
 )
-PR_Malloc
+malloc
 (
 argc
 *
@@ -6972,7 +6965,7 @@ npargs
 npargs_buf
 )
 {
-PR_Free
+free
 (
 npargs
 )
@@ -7293,7 +7286,7 @@ npargs
 npargs_buf
 )
 {
-PR_Free
+free
 (
 npargs
 )
@@ -7639,7 +7632,7 @@ id
 )
 ;
 }
-PR_Free
+free
 (
 identifiers
 )
@@ -9324,7 +9317,7 @@ npobj
 }
 else
 {
-PR_Free
+free
 (
 npobj
 )
@@ -9665,7 +9658,7 @@ memberPrivate
 NPObjectMemberPrivate
 *
 )
-PR_Malloc
+malloc
 (
 sizeof
 (
@@ -9710,7 +9703,7 @@ if
 memobj
 )
 {
-PR_Free
+free
 (
 memberPrivate
 )
@@ -10026,7 +10019,7 @@ memberPrivate
 )
 return
 ;
-PR_Free
+free
 (
 memberPrivate
 )
@@ -10198,7 +10191,7 @@ npargs
 NPVariant
 *
 )
-PR_Malloc
+malloc
 (
 args
 .
@@ -10295,7 +10288,7 @@ npargs
 npargs_buf
 )
 {
-PR_Free
+free
 (
 npargs
 )
@@ -10374,7 +10367,7 @@ npargs
 npargs_buf
 )
 {
-PR_Free
+free
 (
 npargs
 )

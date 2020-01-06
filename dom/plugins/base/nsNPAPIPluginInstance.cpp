@@ -33,13 +33,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -784,12 +777,8 @@ if
 mMIMEType
 )
 {
-PR_Free
+free
 (
-(
-void
-*
-)
 mMIMEType
 )
 ;

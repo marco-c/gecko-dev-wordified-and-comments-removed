@@ -1628,7 +1628,7 @@ PR_FAILURE
 delete
 secret
 ;
-PR_DELETE
+PR_Free
 (
 layer
 )

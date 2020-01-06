@@ -15,13 +15,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -605,7 +598,7 @@ newKey
 uint8_t
 *
 )
-PR_Malloc
+malloc
 (
 keyLength
 +

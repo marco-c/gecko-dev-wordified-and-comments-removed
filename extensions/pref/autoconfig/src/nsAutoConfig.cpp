@@ -43,13 +43,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -1715,7 +1708,7 @@ buf
 char
 *
 )
-PR_Malloc
+malloc
 (
 fs
 *
@@ -1777,7 +1770,7 @@ Close
 (
 )
 ;
-PR_Free
+free
 (
 buf
 )

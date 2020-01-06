@@ -203,13 +203,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

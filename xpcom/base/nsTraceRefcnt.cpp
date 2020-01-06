@@ -244,13 +244,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prthread
 .
 h
@@ -676,7 +669,7 @@ aSize
 )
 {
 return
-PR_MALLOC
+malloc
 (
 aSize
 )
@@ -694,7 +687,7 @@ void
 aItem
 )
 {
-PR_Free
+free
 (
 aItem
 )
@@ -715,9 +708,16 @@ aKey
 )
 {
 return
-PR_NEW
 (
 PLHashEntry
+*
+)
+malloc
+(
+sizeof
+(
+PLHashEntry
+)
 )
 ;
 }
@@ -756,7 +756,7 @@ aHashEntry
 value
 )
 ;
-PR_Free
+free
 (
 aHashEntry
 )
@@ -808,7 +808,7 @@ key
 )
 )
 ;
-PR_Free
+free
 (
 aHashEntry
 )
@@ -1676,7 +1676,7 @@ value
 delete
 entry
 ;
-PR_Free
+free
 (
 aHashEntry
 )

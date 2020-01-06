@@ -2821,7 +2821,7 @@ aFd
 lower
 )
 ;
-PR_DELETE
+PR_Free
 (
 aFd
 )

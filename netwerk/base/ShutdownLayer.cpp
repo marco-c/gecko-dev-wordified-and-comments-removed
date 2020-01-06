@@ -288,7 +288,7 @@ status
 PR_FAILURE
 )
 {
-PR_DELETE
+PR_Free
 (
 layer
 )

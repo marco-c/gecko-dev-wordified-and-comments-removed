@@ -388,7 +388,7 @@ c
 +
 ;
 }
-PR_Free
+free
 (
 proxyArray
 )

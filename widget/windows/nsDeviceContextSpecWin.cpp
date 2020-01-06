@@ -65,13 +65,6 @@ h
 "
 #
 include
-"
-prmem
-.
-h
-"
-#
-include
 <
 winspool
 .
@@ -1060,7 +1053,7 @@ return
 }
 else
 {
-PR_Free
+free
 (
 aStr
 )
@@ -1085,7 +1078,7 @@ aStr
 wchar_t
 *
 )
-PR_Malloc
+malloc
 (
 sizeof
 (

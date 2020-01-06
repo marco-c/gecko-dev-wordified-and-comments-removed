@@ -5,13 +5,6 @@ nsCharSetProber
 .
 h
 "
-#
-include
-"
-prmem
-.
-h
-"
 bool
 nsCharSetProber
 :
@@ -57,7 +50,7 @@ newBuf
 char
 *
 )
-PR_Malloc
+malloc
 (
 aLen
 )
@@ -276,7 +269,7 @@ newBuf
 char
 *
 )
-PR_Malloc
+malloc
 (
 aLen
 )

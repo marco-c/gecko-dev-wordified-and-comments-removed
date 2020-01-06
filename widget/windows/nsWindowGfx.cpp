@@ -160,13 +160,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 WinUtils
 .
 h
@@ -2608,7 +2601,7 @@ height
 1
 )
 ;
-PR_Free
+free
 (
 a1data
 )
@@ -2733,7 +2726,7 @@ outData
 uint8_t
 *
 )
-PR_Calloc
+calloc
 (
 outBpr
 aHeight

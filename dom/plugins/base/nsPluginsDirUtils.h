@@ -18,13 +18,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-prmem
-.
-h
-"
 static
 nsresult
 ParsePluginMimeDescription
@@ -270,7 +263,7 @@ char
 *
 *
 )
-PR_Malloc
+malloc
 (
 mimeTypeVariantCount
 *
@@ -290,7 +283,7 @@ char
 *
 *
 )
-PR_Malloc
+malloc
 (
 mimeTypeVariantCount
 *
@@ -310,7 +303,7 @@ char
 *
 *
 )
-PR_Malloc
+malloc
 (
 mimeTypeVariantCount
 *
@@ -409,7 +402,7 @@ if
 (
 mdescDup
 )
-PR_Free
+PL_strfree
 (
 mdescDup
 )

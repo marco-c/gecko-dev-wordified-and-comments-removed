@@ -375,6 +375,13 @@ sslproto
 h
 "
 #
+include
+"
+prmem
+.
+h
+"
+#
 ifndef
 MOZ_NO_SMART_CARDS
 #

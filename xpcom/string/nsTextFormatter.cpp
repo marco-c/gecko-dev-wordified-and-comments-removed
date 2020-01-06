@@ -54,13 +54,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsCRTGlue
 .
 h
@@ -255,7 +248,7 @@ array_
 )
 #
 define
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -272,7 +265,7 @@ nasArray
 )
 )
 {
-PR_DELETE
+free
 (
 nas
 )
@@ -3358,7 +3351,7 @@ nas
 aNasArray
 )
 {
-PR_DELETE
+free
 (
 nas
 )
@@ -3607,7 +3600,7 @@ nas
 aNasArray
 )
 {
-PR_DELETE
+free
 (
 nas
 )
@@ -3835,7 +3828,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -3897,7 +3890,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -3980,7 +3973,7 @@ nas
 nasArray
 )
 {
-PR_DELETE
+free
 (
 nas
 )
@@ -4782,7 +4775,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -4882,7 +4875,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5022,7 +5015,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5063,7 +5056,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5116,7 +5109,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5281,7 +5274,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5334,7 +5327,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5433,7 +5426,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5471,7 +5464,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -5511,7 +5504,7 @@ va_end
 aAp
 )
 ;
-PR_CHECK_DELETE
+FREE_IF_NECESSARY
 (
 nas
 )
@@ -6070,7 +6063,7 @@ ss
 base
 )
 {
-PR_DELETE
+free
 (
 ss
 .

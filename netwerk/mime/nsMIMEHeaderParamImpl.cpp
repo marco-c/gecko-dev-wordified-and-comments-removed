@@ -8,13 +8,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
@@ -4428,7 +4421,7 @@ dest
 char
 *
 )
-PR_Calloc
+calloc
 (
 length
 +
@@ -4634,7 +4627,7 @@ dest
 ;
 badsyntax
 :
-PR_Free
+free
 (
 dest
 )
@@ -5233,7 +5226,7 @@ utf8Text
 )
 ;
 }
-PR_Free
+free
 (
 decodedText
 )

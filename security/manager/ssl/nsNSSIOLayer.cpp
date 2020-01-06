@@ -7642,7 +7642,7 @@ unsigned
 char
 *
 )
-PR_Malloc
+malloc
 (
 dername
 -
@@ -7737,7 +7737,7 @@ unsigned
 char
 *
 )
-PR_Malloc
+malloc
 (
 dername
 -
@@ -7835,7 +7835,7 @@ unsigned
 char
 *
 )
-PR_Malloc
+malloc
 (
 dername
 -
@@ -8026,7 +8026,7 @@ newitem
 data
 )
 {
-PR_Free
+free
 (
 newitem
 .
@@ -8047,7 +8047,7 @@ newitem
 data
 )
 {
-PR_Free
+free
 (
 newitem
 .

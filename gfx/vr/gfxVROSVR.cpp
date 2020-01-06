@@ -15,13 +15,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prenv
 .
 h

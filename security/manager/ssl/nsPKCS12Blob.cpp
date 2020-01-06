@@ -114,13 +114,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 secerr
 .
 h

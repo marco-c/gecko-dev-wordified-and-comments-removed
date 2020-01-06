@@ -43,13 +43,6 @@ nsIServiceManager
 h
 "
 #
-include
-"
-prmem
-.
-h
-"
-#
 define
 kAscending
 (
@@ -857,7 +850,7 @@ StringValue
 (
 )
 {
-PR_Free
+free
 (
 mKey
 )
@@ -868,12 +861,8 @@ mCaseLength
 >
 0
 )
-PR_Free
+free
 (
-(
-uint8_t
-*
-)
 mCaseKey
 )
 ;

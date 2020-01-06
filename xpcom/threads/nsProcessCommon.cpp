@@ -109,13 +109,6 @@ PROCESSMODEL_WINAPI
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -524,7 +517,7 @@ cmdLine
 char
 *
 )
-PR_MALLOC
+malloc
 (
 cmdLineSize
 *
@@ -866,7 +859,7 @@ aWideCmdLine
 wchar_t
 *
 )
-PR_MALLOC
+malloc
 (
 numChars
 *
@@ -888,7 +881,7 @@ aWideCmdLine
 numChars
 )
 ;
-PR_Free
+free
 (
 cmdLine
 )
@@ -2128,7 +2121,7 @@ if
 cmdLine
 )
 {
-PR_Free
+free
 (
 cmdLine
 )

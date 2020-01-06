@@ -15,13 +15,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h
@@ -715,7 +708,7 @@ if
 mStreamBuffer
 )
 {
-PR_Free
+free
 (
 mStreamBuffer
 )
@@ -2070,7 +2063,7 @@ mStreamBuffer
 char
 *
 )
-PR_Malloc
+malloc
 (
 mStreamBufferSize
 )
@@ -2204,7 +2197,7 @@ buf
 char
 *
 )
-PR_Realloc
+realloc
 (
 mStreamBuffer
 mStreamBufferSize

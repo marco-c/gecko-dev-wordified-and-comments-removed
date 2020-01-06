@@ -96,13 +96,6 @@ EncodingConstraints
 h
 "
 #
-include
-"
-prmem
-.
-h
-"
-#
 define
 GTEST_HAS_RTTI
 0
@@ -5345,7 +5338,7 @@ frame
 uint8_t
 *
 )
-PR_MALLOC
+malloc
 (
 len
 )
@@ -5378,7 +5371,7 @@ kVideoI420
 0
 )
 ;
-PR_Free
+free
 (
 frame
 )
