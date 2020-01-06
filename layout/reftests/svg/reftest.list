@@ -6540,12 +6540,6 @@ skiaContent
 1
 340
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 stroke
