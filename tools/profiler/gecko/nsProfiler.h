@@ -1,9 +1,9 @@
 #
 ifndef
-_NSPROFILER_H_
+nsProfiler_h
 #
 define
-_NSPROFILER_H_
+nsProfiler_h
 #
 include
 "
