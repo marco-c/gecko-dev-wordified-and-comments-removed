@@ -6214,7 +6214,7 @@ rv
 range
 -
 >
-Set
+SetStartAndEnd
 (
 aStartNode
 aStartOffset

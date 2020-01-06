@@ -3090,7 +3090,7 @@ NS_FAILED
 range
 -
 >
-Set
+SetStartAndEnd
 (
 startNode
 startOffset
