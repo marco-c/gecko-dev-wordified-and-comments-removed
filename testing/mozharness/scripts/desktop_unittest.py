@@ -5302,18 +5302,33 @@ self
 )
 :
         
+self
+.
+start_time
+=
+datetime
+.
+now
+(
+)
+        
 for
 category
 in
 SUITE_CATEGORIES
 :
             
+if
+not
 self
 .
 _run_category_suites
 (
 category
 )
+:
+                
+break
     
 def
 get_timeout_for_category
@@ -5420,18 +5435,6 @@ timedelta
 minutes
 =
 60
-)
-        
-verify_time_exceeded
-=
-False
-        
-start_time
-=
-datetime
-.
-now
-(
 )
         
 if
@@ -6141,6 +6144,8 @@ now
 (
 )
 -
+self
+.
 start_time
 )
 >
@@ -6171,11 +6176,8 @@ br
 "
 )
                         
-verify_time_exceeded
-=
-True
-                        
-break
+return
+False
                     
 final_cmd
 =
@@ -6335,12 +6337,6 @@ level
 =
 log_level
 )
-                
-if
-verify_time_exceeded
-:
-                    
-break
         
 else
 :
@@ -6363,6 +6359,9 @@ s
 %
 suite_category
 )
+        
+return
+True
 if
 __name__
 =
