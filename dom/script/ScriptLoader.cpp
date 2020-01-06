@@ -9564,7 +9564,7 @@ doc
 doc
 -
 >
-BeginEvaluatingExternalScript
+IncrementIgnoreDestructiveWritesCounter
 (
 )
 ;
@@ -9584,7 +9584,7 @@ doc
 doc
 -
 >
-EndEvaluatingExternalScript
+DecrementIgnoreDestructiveWritesCounter
 (
 )
 ;

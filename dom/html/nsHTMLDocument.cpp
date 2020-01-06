@@ -8221,7 +8221,7 @@ IsInsertionPointDefined
 {
 if
 (
-mExternalScriptsBeingEvaluated
+mIgnoreDestructiveWritesCounter
 )
 {
 nsContentUtils
@@ -8289,7 +8289,7 @@ mParser
 {
 if
 (
-mExternalScriptsBeingEvaluated
+mIgnoreDestructiveWritesCounter
 )
 {
 nsContentUtils
