@@ -1862,10 +1862,6 @@ ErrorString
 Snippet
 (
 property
-.
-into
-(
-)
 )
 (
 _

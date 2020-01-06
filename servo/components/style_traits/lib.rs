@@ -414,7 +414,11 @@ UnknownVendorProperty
 ExperimentalProperty
 InvalidValue
 (
-String
+CompactCowStr
+<
+'
+i
+>
 )
 AnimationPropertyInKeyframeBlock
 NotAllowedInPageRule
