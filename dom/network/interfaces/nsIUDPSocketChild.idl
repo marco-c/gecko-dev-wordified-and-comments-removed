@@ -79,6 +79,9 @@ nsIInputStream
 interface
 nsIPrincipal
 ;
+interface
+nsIEventTarget
+;
 %
 {
 C
@@ -223,6 +226,12 @@ recvBufferSize
 in
 uint32_t
 sendBufferSize
+[
+optional
+]
+in
+nsIEventTarget
+mainThreadTarget
 )
 ;
 /
