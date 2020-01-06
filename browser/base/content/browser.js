@@ -5911,7 +5911,7 @@ hostName
 =
 alternativeURI
 .
-host
+displayHost
 ;
 let
 asciiHost
