@@ -1870,7 +1870,7 @@ Some
 TypeKind
 :
 :
-TypeParam
+Named
 )
 =
 >

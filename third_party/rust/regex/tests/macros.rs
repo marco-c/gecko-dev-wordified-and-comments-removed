@@ -89,6 +89,15 @@ name
 )
 {
 let
+text
+=
+text
+!
+(
+text
+)
+;
+let
 re
 =
 regex
@@ -108,10 +117,6 @@ re
 is_match
 (
 text
-!
-(
-text
-)
 )
 )
 ;

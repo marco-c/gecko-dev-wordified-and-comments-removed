@@ -202,7 +202,6 @@ find_by_name
 (
 p
 *
-*
 n
 opts
 iter
@@ -247,7 +246,6 @@ find_by_name
 !
 (
 p
-*
 *
 n
 positionals
@@ -2174,10 +2172,8 @@ max
 (
 )
 .
-unwrap_or_else
+unwrap_or
 (
-|
-|
 p
 .
 positionals
@@ -3325,6 +3321,7 @@ p
 .
 arg_names_in_group
 (
+&
 g
 .
 name
@@ -3350,6 +3347,7 @@ if
 let
 Some
 (
+ref
 m
 )
 =
@@ -3848,7 +3846,6 @@ find_by_name
 !
 (
 p
-*
 a
 flags
 iter
@@ -3875,7 +3872,6 @@ find_by_name
 !
 (
 p
-*
 a
 opts
 iter

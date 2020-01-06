@@ -738,16 +738,6 @@ debug
 '
 sm
 -
-rust
--
-bindings
--
-debug
-'
-    
-'
-sm
--
 tsan
 -
 opt
