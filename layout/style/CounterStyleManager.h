@@ -125,7 +125,6 @@ delete
 ;
 public
 :
-constexpr
 int32_t
 GetStyle
 (
@@ -354,7 +353,6 @@ nullptr
 }
 protected
 :
-const
 int32_t
 mStyle
 ;
@@ -1371,6 +1369,12 @@ CounterStyleManager
 nsPresContext
 *
 aPresContext
+)
+;
+static
+void
+InitializeBuiltinCounterStyles
+(
 )
 ;
 void
