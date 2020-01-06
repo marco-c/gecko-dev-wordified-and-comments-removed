@@ -723,6 +723,10 @@ imagedata
 ;
 pub
 mod
+inputevent
+;
+pub
+mod
 keyboardevent
 ;
 pub
