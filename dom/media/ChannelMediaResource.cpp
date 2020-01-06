@@ -3123,7 +3123,7 @@ owner
 )
 {
 return
-NS_OK
+NS_ERROR_ABORT
 ;
 }
 dom
@@ -3147,7 +3147,7 @@ element
 )
 {
 return
-NS_OK
+NS_ERROR_ABORT
 ;
 }
 nsCOMPtr
