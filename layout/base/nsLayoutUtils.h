@@ -6323,6 +6323,12 @@ nsIFrame
 aFrame
 )
 ;
+static
+uint8_t
+ControlCharVisibilityDefault
+(
+)
+;
 private
 :
 static

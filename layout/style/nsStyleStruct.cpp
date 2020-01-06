@@ -18429,7 +18429,7 @@ NS_STYLE_TEXT_COMBINE_UPRIGHT_NONE
 )
 mControlCharacterVisibility
 (
-nsCSSParser
+nsLayoutUtils
 :
 :
 ControlCharVisibilityDefault

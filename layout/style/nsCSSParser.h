@@ -822,12 +822,6 @@ nsAString
 aPropValue
 )
 ;
-static
-uint8_t
-ControlCharVisibilityDefault
-(
-)
-;
 protected
 :
 void
