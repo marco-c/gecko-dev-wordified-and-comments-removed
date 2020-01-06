@@ -3123,7 +3123,7 @@ passwordStr
 }
 else
 {
-nsCString
+nsAutoCString
 anonPassword
 ;
 bool
@@ -3186,10 +3186,7 @@ ftp
 .
 anonymous_password
 "
-getter_Copies
-(
 anonPassword
-)
 )
 ;
 }

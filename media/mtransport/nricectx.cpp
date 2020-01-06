@@ -2019,10 +2019,7 @@ ice
 .
 force_interface
 "
-getter_Copies
-(
 force_net_interface
-)
 )
 ;
 }
@@ -2882,10 +2879,10 @@ false
 ;
 }
 }
-nsCString
+nsAutoCString
 mapping_type
 ;
-nsCString
+nsAutoCString
 filtering_type
 ;
 bool
@@ -2966,10 +2963,7 @@ nat_simulator
 .
 mapping_type
 "
-getter_Copies
-(
 mapping_type
-)
 )
 ;
 rv
@@ -2988,10 +2982,7 @@ nat_simulator
 .
 filtering_type
 "
-getter_Copies
-(
 filtering_type
-)
 )
 ;
 rv

@@ -492,7 +492,7 @@ locale
 )
 )
 ;
-nsCString
+nsAutoCString
 defLocale
 ;
 rv
@@ -509,10 +509,7 @@ searchplugins
 .
 defaultLocale
 "
-getter_Copies
-(
 defLocale
-)
 )
 ;
 if

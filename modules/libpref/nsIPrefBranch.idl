@@ -359,7 +359,7 @@ startup
 /
 readonly
 attribute
-string
+ACString
 root
 ;
 /
@@ -757,7 +757,7 @@ set
 *
 *
 return
-string
+ACString
 The
 value
 of
@@ -779,7 +779,7 @@ binaryname
 GetCharPrefWithDefault
 )
 ]
-string
+ACString
 getCharPref
 (
 in
@@ -789,7 +789,7 @@ aPrefName
 optional
 ]
 in
-string
+ACString
 aDefaultValue
 )
 ;
@@ -800,7 +800,7 @@ binaryname
 GetCharPref
 )
 ]
-string
+ACString
 getCharPrefXPCOM
 (
 in
@@ -880,7 +880,7 @@ in
 string
 aPrefName
 in
-string
+ACString
 aValue
 )
 ;
@@ -927,7 +927,7 @@ set
 *
 *
 return
-string
+ACString
 The
 value
 of
