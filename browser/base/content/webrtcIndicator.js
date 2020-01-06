@@ -268,6 +268,13 @@ updateIndicatorState
 (
 )
 {
+if
+(
+!
+gStringBundle
+)
+return
+;
 updateWindowAttr
 (
 "
