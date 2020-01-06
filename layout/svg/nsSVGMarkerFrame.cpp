@@ -189,7 +189,7 @@ viewBox
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

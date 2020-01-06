@@ -341,7 +341,7 @@ observe
 "
 )
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 AddRenderingObserver
@@ -491,7 +491,7 @@ if
 mInObserverList
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 AddRenderingObserver

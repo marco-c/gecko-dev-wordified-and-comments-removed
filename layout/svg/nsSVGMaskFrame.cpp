@@ -981,7 +981,7 @@ maskContentUnits
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

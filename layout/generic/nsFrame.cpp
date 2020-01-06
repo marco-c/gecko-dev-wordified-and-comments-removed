@@ -3466,7 +3466,7 @@ nsContainerFrame
 "
 )
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -28013,13 +28013,13 @@ aStatus
 )
 )
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
 (
 this
-nsSVGEffects
+SVGObserverUtils
 :
 :
 INVALIDATE_REFLOW
@@ -30516,7 +30516,7 @@ aFrame
 )
 )
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -30561,7 +30561,7 @@ NS_FRAME_DESCENDANT_NEEDS_PAINT
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -30775,7 +30775,7 @@ NS_FRAME_NEEDS_PAINT
 )
 ;
 }
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -30857,7 +30857,7 @@ NS_FRAME_DESCENDANT_NEEDS_PAINT
 )
 ;
 }
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -43922,7 +43922,7 @@ if
 anyOverflowChanged
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

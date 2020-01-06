@@ -41628,7 +41628,7 @@ while
 parent
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

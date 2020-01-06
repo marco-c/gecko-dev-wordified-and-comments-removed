@@ -1394,7 +1394,7 @@ mInvalidated
 )
 return
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

@@ -501,7 +501,7 @@ url
 =
 aTargetFrame
 ?
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetFilterURI

@@ -365,7 +365,7 @@ invalidate
 "
 )
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

@@ -1125,7 +1125,7 @@ if
 svgElem
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 RemoveAllRenderingObservers

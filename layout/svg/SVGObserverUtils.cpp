@@ -176,7 +176,7 @@ if
 mInObserverList
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 RemoveRenderingObserver
@@ -341,7 +341,7 @@ target
 mInObserverList
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 AddRenderingObserver
@@ -655,7 +655,7 @@ get
 mInObserverList
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 RemoveRenderingObserver
@@ -1014,7 +1014,7 @@ filterURL
 =
 aFilteredFrame
 ?
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetFilterURI
@@ -1446,7 +1446,7 @@ nsIURI
 >
 maskUri
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetMaskURI
@@ -1954,7 +1954,7 @@ aFrame
 >
 GetProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 FilterProperty
@@ -1991,7 +1991,7 @@ aFrame
 >
 SetProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 FilterProperty
@@ -2023,7 +2023,7 @@ aFrame
 >
 GetProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 MaskProperty
@@ -2056,7 +2056,7 @@ aFrame
 >
 SetProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 MaskProperty
@@ -2154,7 +2154,7 @@ prop
 }
 nsSVGMarkerProperty
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetMarkerProperty
@@ -2222,7 +2222,7 @@ aProperty
 }
 nsSVGTextPathProperty
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetTextPathProperty
@@ -2256,7 +2256,7 @@ aProperty
 }
 nsSVGPaintingProperty
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintingProperty
@@ -2290,7 +2290,7 @@ aProperty
 }
 nsSVGPaintingProperty
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintingPropertyForURI
@@ -2313,7 +2313,7 @@ aURI
 return
 nullptr
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 URIObserverHashtable
@@ -2337,7 +2337,7 @@ hashtable
 hashtable
 =
 new
-nsSVGEffects
+SVGObserverUtils
 :
 :
 URIObserverHashtable
@@ -2385,7 +2385,7 @@ watchImage
 aProperty
 =
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 BackgroundImageProperty
@@ -2416,11 +2416,11 @@ return
 prop
 ;
 }
-nsSVGEffects
+SVGObserverUtils
 :
 :
 EffectProperties
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetEffectProperties
@@ -2496,7 +2496,7 @@ nsIURI
 >
 pathURI
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetClipPathURI
@@ -2563,7 +2563,7 @@ result
 }
 nsSVGPaintServerFrame
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintServer
@@ -2683,7 +2683,7 @@ nsIURI
 >
 paintServerURL
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintURI
@@ -2696,7 +2696,7 @@ nsSVGPaintingProperty
 *
 property
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintingProperty
@@ -2787,7 +2787,7 @@ result
 }
 nsSVGClipPathFrame
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 EffectProperties
@@ -2837,7 +2837,7 @@ nsTArray
 nsSVGMaskFrame
 *
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 EffectProperties
@@ -2969,7 +2969,7 @@ result
 ;
 }
 bool
-nsSVGEffects
+SVGObserverUtils
 :
 :
 EffectProperties
@@ -2996,7 +2996,7 @@ HasNoOrValidFilter
 ;
 }
 bool
-nsSVGEffects
+SVGObserverUtils
 :
 :
 EffectProperties
@@ -3070,7 +3070,7 @@ true
 ;
 }
 bool
-nsSVGEffects
+SVGObserverUtils
 :
 :
 EffectProperties
@@ -3161,7 +3161,7 @@ true
 ;
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects
@@ -3392,7 +3392,7 @@ MarkerEndProperty
 }
 nsSVGFilterProperty
 *
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetFilterProperty
@@ -3782,7 +3782,7 @@ NotifyEvictedFromRenderingObserverList
 }
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 AddRenderingObserver
@@ -3862,7 +3862,7 @@ aObserver
 ;
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 RemoveRenderingObserver
@@ -3943,7 +3943,7 @@ false
 }
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 RemoveAllRenderingObservers
@@ -3985,7 +3985,7 @@ false
 }
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateRenderingObservers
@@ -4167,7 +4167,7 @@ return
 }
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -4262,7 +4262,7 @@ InvalidateAll
 }
 }
 void
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -4315,7 +4315,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetBaseURLForLocalRef
@@ -4589,7 +4589,7 @@ nsIURI
 >
 baseURI
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetBaseURLForLocalRef
@@ -4622,7 +4622,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetMarkerURI
@@ -4665,7 +4665,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetClipPathURI
@@ -4733,7 +4733,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetFilterURI
@@ -4811,7 +4811,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetFilterURI
@@ -4870,7 +4870,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintURI
@@ -4941,7 +4941,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetMaskURI

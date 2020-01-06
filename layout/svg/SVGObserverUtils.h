@@ -1183,7 +1183,7 @@ mObservers
 }
 ;
 class
-nsSVGEffects
+SVGObserverUtils
 {
 public
 :

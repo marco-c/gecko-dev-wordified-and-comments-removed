@@ -1115,7 +1115,7 @@ this
 )
 )
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

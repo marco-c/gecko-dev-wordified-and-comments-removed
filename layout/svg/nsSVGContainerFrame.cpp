@@ -807,7 +807,7 @@ nsIFrame
 aOldFrame
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateRenderingObservers
@@ -1729,7 +1729,7 @@ if
 isFirstReflow
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects

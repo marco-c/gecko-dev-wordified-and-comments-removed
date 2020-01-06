@@ -835,7 +835,7 @@ if
 isFirstReflow
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects

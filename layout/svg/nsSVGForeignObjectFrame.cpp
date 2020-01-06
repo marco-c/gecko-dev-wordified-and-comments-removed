@@ -1792,7 +1792,7 @@ mState
 NS_FRAME_FIRST_REFLOW
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 UpdateEffects

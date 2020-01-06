@@ -1716,7 +1716,7 @@ IsLocalRefURL
 href
 )
 ?
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetBaseURLForLocalRef

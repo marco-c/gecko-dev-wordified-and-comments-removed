@@ -296,7 +296,7 @@ viewBox
 )
 )
 {
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -332,7 +332,7 @@ href
 {
 DeleteProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 HrefAsPaintingProperty
@@ -344,7 +344,7 @@ mNoHRefURI
 =
 false
 ;
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -2432,7 +2432,7 @@ property
 =
 GetProperty
 (
-nsSVGEffects
+SVGObserverUtils
 :
 :
 HrefAsPaintingProperty
@@ -2577,14 +2577,14 @@ base
 ;
 property
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintingProperty
 (
 targetURI
 this
-nsSVGEffects
+SVGObserverUtils
 :
 :
 HrefAsPaintingProperty

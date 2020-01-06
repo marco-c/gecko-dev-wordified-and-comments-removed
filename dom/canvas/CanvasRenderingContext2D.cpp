@@ -5952,7 +5952,7 @@ return
 NS_OK
 ;
 }
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers
@@ -6044,7 +6044,7 @@ docshell
 return
 ;
 }
-nsSVGEffects
+SVGObserverUtils
 :
 :
 InvalidateDirectRenderingObservers

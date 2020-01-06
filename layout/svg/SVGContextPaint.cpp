@@ -316,7 +316,7 @@ nsStyleSVG
 :
 *
 aFillOrStroke
-nsSVGEffects
+SVGObserverUtils
 :
 :
 PaintingPropertyDescriptor
@@ -342,7 +342,7 @@ nsSVGPaintServerFrame
 *
 ps
 =
-nsSVGEffects
+SVGObserverUtils
 :
 :
 GetPaintServer
@@ -616,7 +616,7 @@ nsStyleSVG
 :
 :
 mFill
-nsSVGEffects
+SVGObserverUtils
 :
 :
 FillProperty
@@ -698,7 +698,7 @@ nsStyleSVG
 :
 :
 mStroke
-nsSVGEffects
+SVGObserverUtils
 :
 :
 StrokeProperty
