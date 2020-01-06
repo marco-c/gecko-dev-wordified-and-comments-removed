@@ -430,9 +430,6 @@ basic_compositor_video
 "
 glvideo
 "
-"
-displaylist_mutate
-"
 ]
 }
 "
