@@ -5578,13 +5578,6 @@ string
 aValue
 )
 {
-if
-(
-IsAPZTestLoggingEnabled
-(
-)
-)
-{
 DoLogTestDataForPaint
 (
 aManager
@@ -5593,7 +5586,6 @@ aKey
 aValue
 )
 ;
-}
 }
 template
 <
@@ -5628,13 +5620,6 @@ Value
 aValue
 )
 {
-if
-(
-IsAPZTestLoggingEnabled
-(
-)
-)
-{
 DoLogTestDataForPaint
 (
 aManager
@@ -5649,7 +5634,6 @@ aValue
 )
 )
 ;
-}
 }
 static
 FrameMetrics
