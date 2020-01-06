@@ -308,6 +308,11 @@ nsSVGSwitchFrame
 cpp
 '
 '
+nsSVGSymbolFrame
+.
+cpp
+'
+'
 nsSVGUseFrame
 .
 cpp
