@@ -463,6 +463,9 @@ aImgParams
 void
 BuildSourceImage
 (
+DrawTarget
+*
+aDest
 imgDrawingParams
 &
 aImgParams
