@@ -6567,11 +6567,13 @@ relative
 }
 html
 body
-#
-app
--
-wrapper
 {
+display
+:
+block
+!
+important
+;
 height
 :
 100
