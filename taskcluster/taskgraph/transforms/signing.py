@@ -551,10 +551,6 @@ setdefault
 tier
 '
 1
-if
-is_nightly
-else
-3
 )
         
 treeherder
