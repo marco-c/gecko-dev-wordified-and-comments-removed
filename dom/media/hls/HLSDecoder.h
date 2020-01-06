@@ -40,7 +40,7 @@ aInit
 )
 {
 }
-MediaDecoder
+ChannelMediaDecoder
 *
 Clone
 (

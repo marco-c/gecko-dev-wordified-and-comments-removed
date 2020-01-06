@@ -43,7 +43,7 @@ h
 namespace
 mozilla
 {
-MediaDecoder
+ChannelMediaDecoder
 *
 MP3Decoder
 :

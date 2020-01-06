@@ -66,7 +66,7 @@ MediaDecoderInit
 aInit
 )
 ;
-MediaDecoder
+ChannelMediaDecoder
 *
 Clone
 (

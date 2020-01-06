@@ -152,7 +152,7 @@ mReader
 )
 ;
 }
-MediaDecoder
+ChannelMediaDecoder
 *
 HLSDecoder
 :

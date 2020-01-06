@@ -185,6 +185,9 @@ class
 AbstractThread
 ;
 class
+ChannelMediaDecoder
+;
+class
 DecoderDoctorDiagnostics
 ;
 class
@@ -2534,7 +2537,7 @@ aGraph
 nsresult
 InitializeDecoderAsClone
 (
-MediaDecoder
+ChannelMediaDecoder
 *
 aOriginal
 )

@@ -102,16 +102,6 @@ MediaDecoderInit
 aInit
 )
 ;
-MediaDecoder
-*
-Clone
-(
-MediaDecoderInit
-&
-aInit
-)
-override
-;
 MediaDecoderStateMachine
 *
 CreateStateMachine
