@@ -268,6 +268,15 @@ LoadFailed
 (
 )
 ;
+nsresult
+ReparseSheet
+(
+const
+nsAString
+&
+aInput
+)
+;
 const
 RawServoStyleSheet
 *
