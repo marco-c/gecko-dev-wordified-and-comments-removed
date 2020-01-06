@@ -160,9 +160,7 @@ const
 size_t
 kMinimumStackSize
 =
-1
-*
-1024
+256
 ;
 static
 const
