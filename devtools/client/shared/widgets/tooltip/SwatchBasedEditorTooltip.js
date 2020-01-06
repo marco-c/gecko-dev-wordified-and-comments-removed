@@ -92,8 +92,10 @@ tooltip
 container
 "
 ;
-function
+class
 SwatchBasedEditorTooltip
+{
+constructor
 (
 document
 useInline
@@ -317,14 +319,7 @@ this
 )
 ;
 }
-SwatchBasedEditorTooltip
-.
-prototype
-=
-{
 isVisible
-:
-function
 (
 )
 {
@@ -339,8 +334,6 @@ isVisible
 ;
 }
 isEditing
-:
-function
 (
 )
 {
@@ -353,8 +346,6 @@ isVisible
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -485,8 +476,6 @@ resolve
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -500,8 +489,6 @@ hide
 ;
 }
 addSwatch
-:
-function
 (
 swatchEl
 callbacks
@@ -614,8 +601,6 @@ _onSwatchClick
 ;
 }
 removeSwatch
-:
-function
 (
 swatchEl
 )
@@ -680,8 +665,6 @@ swatchEl
 }
 }
 _onSwatchClick
-:
-function
 (
 event
 )
@@ -752,8 +735,6 @@ stopPropagation
 }
 }
 preview
-:
-function
 (
 value
 )
@@ -791,8 +772,6 @@ value
 }
 }
 revert
-:
-function
 (
 )
 {
@@ -851,8 +830,6 @@ onRevert
 }
 }
 commit
-:
-function
 (
 )
 {
@@ -888,8 +865,6 @@ onCommit
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -939,7 +914,6 @@ destroy
 ;
 }
 }
-;
 module
 .
 exports
