@@ -79,9 +79,6 @@ png
 ;
 }
 }
-%
-ifndef
-MOZ_PHOTON_ANIMATIONS
 media
 (
 min
@@ -202,5 +199,3 @@ png
 ;
 }
 }
-%
-endif
