@@ -126,6 +126,9 @@ interface
 nsIDocShell
 ;
 interface
+nsIFrameLoaderOwner
+;
+interface
 nsITabParent
 ;
 interface
@@ -482,6 +485,9 @@ tooltip
 in
 AString
 direction
+in
+nsIFrameLoaderOwner
+browser
 )
 ;
 void
