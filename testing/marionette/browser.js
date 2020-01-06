@@ -652,6 +652,14 @@ this
 tabBrowser
 |
 |
+!
+this
+.
+tabBrowser
+.
+tabs
+|
+|
 this
 .
 tabBrowser
