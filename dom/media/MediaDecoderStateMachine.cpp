@@ -16791,8 +16791,7 @@ str
 nsPrintfCString
 (
 "
-MediaDecoderStateMachine
-State
+MDSM
 :
 duration
 =

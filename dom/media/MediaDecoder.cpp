@@ -7074,7 +7074,9 @@ nsPrintfCString
 (
 "
 MediaDecoder
-State
+=
+%
+p
 :
 channels
 =
@@ -7098,11 +7100,8 @@ mPlayState
 =
 %
 s
-mdsm
-=
-%
-p
 "
+this
 mInfo
 ?
 mInfo
@@ -7144,9 +7143,6 @@ HasVideo
 :
 0
 PlayStateStr
-(
-)
-GetStateMachine
 (
 )
 )
