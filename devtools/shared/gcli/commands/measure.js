@@ -165,11 +165,6 @@ buttonClass
 command
 -
 button
-command
--
-button
--
-invertable
 "
 tooltipText
 :
