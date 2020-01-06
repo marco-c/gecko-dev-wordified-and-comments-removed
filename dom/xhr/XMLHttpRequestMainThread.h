@@ -1096,6 +1096,13 @@ XMLHttpRequestMainThread
 )
 ;
 nsresult
+MaybeSilentSendFailure
+(
+nsresult
+aRv
+)
+;
+nsresult
 SendInternal
 (
 const
