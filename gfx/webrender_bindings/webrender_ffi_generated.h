@@ -2465,7 +2465,7 @@ WrState
 *
 aState
 WrRect
-aClipRect
+aRect
 const
 WrImageMask
 *
