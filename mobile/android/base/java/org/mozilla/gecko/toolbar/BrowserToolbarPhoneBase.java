@@ -695,15 +695,6 @@ canvas
 ;
 if
 (
-SkinConfig
-.
-isAustralis
-(
-)
-)
-{
-if
-(
 uiMode
 =
 =
@@ -720,7 +711,6 @@ roundCornerShape
 roundCornerPaint
 )
 ;
-}
 }
 }
 Override

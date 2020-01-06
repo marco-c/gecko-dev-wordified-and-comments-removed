@@ -324,13 +324,13 @@ R
 .
 color
 .
-url_bar_text_highlight_private
+url_bar_text_highlight_pb
 :
 R
 .
 color
 .
-url_bar_text_highlight
+fennec_ui_orange
 )
 ;
 setHighlightColor
