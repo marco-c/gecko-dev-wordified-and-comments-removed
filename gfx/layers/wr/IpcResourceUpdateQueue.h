@@ -316,7 +316,7 @@ aAllocator
 size_t
 aChunkSize
 =
-32768
+57344
 )
 ;
 void
