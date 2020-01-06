@@ -5314,7 +5314,7 @@ do_check_eq
 getShutdownReason
 (
 )
-ADDON_UNINSTALL
+ADDON_DOWNGRADE
 )
 ;
 do_check_eq
@@ -5322,7 +5322,7 @@ do_check_eq
 getUninstallReason
 (
 )
-ADDON_UNINSTALL
+ADDON_DOWNGRADE
 )
 ;
 do_check_eq
@@ -5330,7 +5330,7 @@ do_check_eq
 getInstallReason
 (
 )
-ADDON_INSTALL
+ADDON_DOWNGRADE
 )
 ;
 do_check_eq
@@ -5338,7 +5338,7 @@ do_check_eq
 getStartupReason
 (
 )
-ADDON_INSTALL
+ADDON_DOWNGRADE
 )
 ;
 do_check_eq
