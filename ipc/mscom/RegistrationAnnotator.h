@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_mscom_InterfaceRegistrationAnnotator_h
+mozilla_mscom_RegistrationAnnotator_h
 #
 define
-mozilla_mscom_InterfaceRegistrationAnnotator_h
+mozilla_mscom_RegistrationAnnotator_h
 #
 if
 !
@@ -36,6 +36,13 @@ AnnotateInterfaceRegistration
 (
 REFIID
 aIid
+)
+;
+void
+AnnotateClassRegistration
+(
+REFCLSID
+aClsid
 )
 ;
 }

@@ -237,7 +237,7 @@ UNIFIED_SOURCES
 =
 [
 '
-InterfaceRegistrationAnnotator
+RegistrationAnnotator
 .
 cpp
 '
