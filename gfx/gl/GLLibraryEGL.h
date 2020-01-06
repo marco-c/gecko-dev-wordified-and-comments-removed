@@ -1284,7 +1284,7 @@ dpy
 attrib_list
 )
 )
-EGLStreamKHR
+EGLBoolean
 fDestroyStreamKHR
 (
 EGLDisplay
@@ -2265,7 +2265,7 @@ EGLint
 attrib_list
 )
 ;
-EGLStreamKHR
+EGLBoolean
 (
 GLAPIENTRY
 *
