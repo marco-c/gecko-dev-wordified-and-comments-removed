@@ -697,8 +697,6 @@ eval
 "
 !
 !
-content
-.
 document
 .
 documentElement
