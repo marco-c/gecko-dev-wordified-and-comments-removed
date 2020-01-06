@@ -1260,6 +1260,16 @@ localization
 )
 :
         
+if
+not
+formatter
+.
+contains
+(
+p
+)
+:
+            
 formatter
 .
 add
