@@ -16893,6 +16893,9 @@ RegisterThemeGeometry
 nsDisplayListBuilder
 *
 aBuilder
+nsDisplayItem
+*
+aItem
 nsIFrame
 *
 aFrame
@@ -16980,7 +16983,7 @@ aBuilder
 RegisterThemeGeometry
 (
 aType
-aFrame
+aItem
 LayoutDeviceIntRect
 :
 :
@@ -21731,6 +21734,7 @@ eThemeGeometryTypeUnknown
 RegisterThemeGeometry
 (
 aBuilder
+this
 aFrame
 type
 )
