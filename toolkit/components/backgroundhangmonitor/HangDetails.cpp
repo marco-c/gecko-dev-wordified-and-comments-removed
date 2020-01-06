@@ -1068,6 +1068,14 @@ Run
 (
 )
 {
+mHangDetails
+.
+mStack
+.
+ReadModuleInformation
+(
+)
+;
 RefPtr
 <
 nsHangDetails
