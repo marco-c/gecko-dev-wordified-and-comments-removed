@@ -1355,6 +1355,10 @@ regs
 ;
 if
 (
+(
+unsigned
+int
+)
 regs
 [
 0
