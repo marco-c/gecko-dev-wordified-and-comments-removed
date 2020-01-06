@@ -40123,7 +40123,7 @@ jsloader
 .
 shareGlobal
 "
-false
+true
 )
 ;
 pref

@@ -4614,16 +4614,6 @@ endif
 pref
 (
 "
-jsloader
-.
-shareGlobal
-"
-true
-)
-;
-pref
-(
-"
 dom
 .
 disable_window_open_feature
