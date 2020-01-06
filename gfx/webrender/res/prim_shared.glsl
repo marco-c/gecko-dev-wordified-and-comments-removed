@@ -1336,9 +1336,9 @@ fetch_render_task
 address
 )
 ;
-return
-PictureTask
-(
+RectWithSize
+target_rect
+=
 RectWithSize
 (
 task_data
@@ -1352,6 +1352,13 @@ data0
 .
 zw
 )
+;
+PictureTask
+task
+=
+PictureTask
+(
+target_rect
 task_data
 .
 data1
@@ -1366,6 +1373,9 @@ task_data
 .
 data2
 )
+;
+return
+task
 ;
 }
 struct

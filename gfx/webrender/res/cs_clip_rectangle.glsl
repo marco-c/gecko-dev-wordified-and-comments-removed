@@ -576,6 +576,14 @@ alpha
 )
 ;
 float
+aa_range
+=
+compute_aa_range
+(
+local_pos
+)
+;
+float
 clip_alpha
 =
 rounded_rect
@@ -585,6 +593,7 @@ vClipCenter_Radius_TL
 vClipCenter_Radius_TR
 vClipCenter_Radius_BR
 vClipCenter_Radius_BL
+aa_range
 )
 ;
 float

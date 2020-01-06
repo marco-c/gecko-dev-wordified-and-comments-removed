@@ -545,7 +545,9 @@ clipped_local_rect
 size
 )
 ;
-return
+ClipVertexInfo
+vi
+=
 ClipVertexInfo
 (
 layer_pos
@@ -554,6 +556,9 @@ xyw
 actual_pos
 clipped_local_rect
 )
+;
+return
+vi
 ;
 }
 #

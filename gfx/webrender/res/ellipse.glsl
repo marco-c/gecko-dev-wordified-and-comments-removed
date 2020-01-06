@@ -727,6 +727,8 @@ vec4
 clip_center_radius_br
 vec4
 clip_center_radius_bl
+float
+aa_range
 )
 {
 /
@@ -873,14 +875,6 @@ choice
 of
 constants
 .
-float
-aa_range
-=
-compute_aa_range
-(
-pos
-)
-;
 return
 distance_aa
 (
