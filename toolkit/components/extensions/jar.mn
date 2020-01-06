@@ -152,15 +152,6 @@ extensions
 /
 ext
 -
-geolocation
-.
-js
-content
-/
-extensions
-/
-ext
--
 i18n
 .
 js
