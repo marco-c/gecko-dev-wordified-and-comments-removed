@@ -676,7 +676,6 @@ ErrorStatus
 :
 :
 InvalidSessionId
-&
 format
 !
 (
@@ -696,10 +695,6 @@ existing_session
 .
 id
 )
-[
-.
-.
-]
 )
 )
 }
