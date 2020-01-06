@@ -929,6 +929,9 @@ normalization
 depends
 (
 input
+when
+=
+when
 )
 def
 input
@@ -1005,6 +1008,9 @@ var
 nargs
 =
 1
+when
+=
+when
 help
 =
 '
@@ -1206,6 +1212,9 @@ depends_if
 (
 check
 progs
+when
+=
+when
 )
 def
 normalized_for_config
