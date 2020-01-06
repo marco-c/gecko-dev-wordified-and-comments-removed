@@ -229,9 +229,6 @@ button
 class
 =
 "
-browser
--
-style
 default
 "
 >
