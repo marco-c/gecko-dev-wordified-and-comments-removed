@@ -699,7 +699,6 @@ bool
 unsafe
 {
 (
-(
 *
 self
 .
@@ -708,13 +707,8 @@ as_ptr
 )
 )
 .
-_bitfield_1
-&
+mIsStatic
 (
-0x80000000
-as
-u32
-)
 )
 !
 =
