@@ -8098,8 +8098,6 @@ selectors
 index
 ]
 .
-selector
-.
 to_css
 (
 unsafe
@@ -8277,8 +8275,6 @@ selectors
 index
 ]
 .
-selector
-.
 specificity
 (
 )
@@ -8353,7 +8349,7 @@ false
 ;
 }
 let
-selector_and_hashes
+selector
 =
 &
 rule
@@ -8391,8 +8387,6 @@ pseudo
 >
 {
 match
-selector_and_hashes
-.
 selector
 .
 pseudo_element
@@ -8432,8 +8426,6 @@ None
 >
 {
 if
-selector_and_hashes
-.
 selector
 .
 has_pseudo_element
@@ -8475,15 +8467,9 @@ owner_document_quirks_mode
 ;
 matches_selector
 (
-&
-selector_and_hashes
-.
 selector
 0
-&
-selector_and_hashes
-.
-hashes
+None
 &
 element
 &

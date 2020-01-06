@@ -1248,7 +1248,7 @@ guard
 )
 ;
 for
-selector_and_hashes
+selector
 in
 &
 style_rule
@@ -1261,9 +1261,6 @@ self
 .
 collect_scopes
 (
-&
-selector_and_hashes
-.
 selector
 )
 ;

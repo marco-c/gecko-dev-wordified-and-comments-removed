@@ -3041,10 +3041,7 @@ selector
 dependency
 .
 selector_offset
-&
-dependency
-.
-hashes
+None
 &
 self
 .
@@ -3074,10 +3071,7 @@ selector
 dependency
 .
 selector_offset
-&
-dependency
-.
-hashes
+None
 &
 self
 .
@@ -3149,10 +3143,7 @@ selector
 dependency
 .
 selector_offset
-&
-dependency
-.
-hashes
+None
 &
 self
 .
@@ -3191,10 +3182,7 @@ selector
 dependency
 .
 selector_offset
-&
-dependency
-.
-hashes
+None
 &
 self
 .
