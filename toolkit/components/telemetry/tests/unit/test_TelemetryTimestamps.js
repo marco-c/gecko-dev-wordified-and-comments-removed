@@ -152,6 +152,10 @@ loadAddonManager
 (
 )
 ;
+finishAddonManagerStartup
+(
+)
+;
 do_get_profile
 (
 )
