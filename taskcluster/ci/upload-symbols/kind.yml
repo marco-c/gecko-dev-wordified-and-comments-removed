@@ -222,10 +222,14 @@ on
 -
 projects
 :
--
-try
--
+[
+'
 release
+'
+'
+try
+'
+]
 worker
 -
 type
