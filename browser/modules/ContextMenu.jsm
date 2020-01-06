@@ -3525,13 +3525,13 @@ isPrivate
 :
 PrivateBrowsingUtils
 .
-isBrowserPrivate
+isContentWindowPrivate
 (
 context
 .
 target
 .
-ownerDocument
+ownerGlobal
 )
 }
 ;
