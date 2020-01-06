@@ -110,6 +110,7 @@ SpecifiedUrl
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -821,6 +822,7 @@ write_str
 [
 derive
 (
+Clone
 Debug
 )
 ]

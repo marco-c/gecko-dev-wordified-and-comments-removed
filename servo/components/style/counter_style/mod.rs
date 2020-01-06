@@ -1039,6 +1039,7 @@ rule
 [
 derive
 (
+Clone
 Debug
 )
 ]

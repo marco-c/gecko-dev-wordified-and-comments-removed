@@ -2201,6 +2201,7 @@ Err
 [
 derive
 (
+Clone
 Debug
 PartialEq
 )
