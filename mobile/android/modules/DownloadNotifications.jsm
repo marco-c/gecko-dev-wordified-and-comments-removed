@@ -437,7 +437,7 @@ chrome
 -
 document
 -
-loaded
+interactive
 "
 )
 {
