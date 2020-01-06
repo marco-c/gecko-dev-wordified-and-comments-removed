@@ -404,7 +404,7 @@ do_check_eq
 (
 uri4
 .
-host
+displayHost
 "
 jos
 \
@@ -440,10 +440,10 @@ do_check_eq
 (
 uri4
 .
-host
+displayHost
 uri5
 .
-host
+displayHost
 )
 ;
 do_check_eq

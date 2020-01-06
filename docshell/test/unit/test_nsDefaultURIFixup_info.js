@@ -2410,7 +2410,12 @@ http
 :
 /
 /
+xn
+-
+-
 caf
+-
+dma
 .
 local
 /
@@ -2424,7 +2429,12 @@ http
 /
 www
 .
+xn
+-
+-
 caf
+-
+dma
 .
 local
 /
