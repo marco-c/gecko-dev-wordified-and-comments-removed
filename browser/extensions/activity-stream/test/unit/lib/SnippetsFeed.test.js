@@ -16,6 +16,9 @@ jsm
 ;
 const
 {
+actionCreators
+:
+ac
 actionTypes
 :
 at
@@ -714,7 +717,7 @@ it
 (
 "
 should
-dispatch
+broadcast
 a
 SNIPPETS_RESET
 on
@@ -762,6 +765,10 @@ feed
 store
 .
 dispatch
+ac
+.
+BroadcastToContent
+(
 {
 type
 :
@@ -769,6 +776,7 @@ at
 .
 SNIPPETS_RESET
 }
+)
 )
 ;
 }

@@ -369,6 +369,9 @@ Separator
 "
 BlockUrl
 "
+"
+DeleteUrl
+"
 ]
 emptyState
 :

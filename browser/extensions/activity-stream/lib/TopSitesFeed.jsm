@@ -254,6 +254,11 @@ FRECENCY_THRESHOLD
 =
 100
 ;
+const
+MIN_FAVICON_SIZE
+=
+96
+;
 this
 .
 TopSitesFeed
@@ -760,6 +765,14 @@ if
 link
 .
 tippyTopIcon
+|
+|
+link
+.
+faviconSize
+>
+=
+MIN_FAVICON_SIZE
 )
 {
 continue
