@@ -1107,7 +1107,7 @@ index
 {
 aDestInsertionPoints
 .
-SetLength
+RemoveElementAt
 (
 index
 )
