@@ -612,6 +612,9 @@ regex
 )
 ;
 }
+#
+if
+0
 int
 Sanity3_Child
 (
@@ -902,6 +905,8 @@ regex
 )
 ;
 }
+#
+endif
 int
 Sanity4_Child
 (
@@ -1114,6 +1119,9 @@ id
 ;
 }
 ;
+#
+if
+0
 static
 void
 TwoThreads_thread
@@ -1458,6 +1466,8 @@ regex
 )
 ;
 }
+#
+endif
 static
 void
 ContentionNoDeadlock_thread
