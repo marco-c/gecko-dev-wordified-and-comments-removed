@@ -1,3 +1,6 @@
+-
+-
+-
 yamllint
 :
 description
@@ -27,6 +30,12 @@ taskcluster
 yml
 -
 taskcluster
+-
+testing
+/
+mozharness
+-
+tools
 extensions
 :
 [
