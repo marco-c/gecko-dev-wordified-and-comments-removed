@@ -216,13 +216,6 @@ InitTextChangeData
 (
 )
 ;
-if
-(
-BrowserTabsRemoteAutostart
-(
-)
-)
-{
 mscom
 :
 :
@@ -343,7 +336,6 @@ release
 (
 )
 ;
-}
 }
 void
 a11y
