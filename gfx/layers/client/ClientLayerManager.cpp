@@ -997,15 +997,6 @@ gfxContext
 aTarget
 )
 {
-GetCompositorBridgeChild
-(
-)
--
->
-FlushAsyncPaints
-(
-)
-;
 MOZ_ASSERT
 (
 mForwarder

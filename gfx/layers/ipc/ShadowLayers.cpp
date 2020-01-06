@@ -4269,15 +4269,6 @@ false
 }
 }
 }
-GetCompositorBridgeChild
-(
-)
--
->
-PostponeMessagesIfAsyncPainting
-(
-)
-;
 MOZ_LAYERS_LOG
 (
 (
