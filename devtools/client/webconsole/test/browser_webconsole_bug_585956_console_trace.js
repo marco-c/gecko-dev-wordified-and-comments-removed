@@ -210,9 +210,6 @@ window
 .
 foobar585956c
 "
-language
-:
-2
 lineNumber
 :
 9
@@ -229,9 +226,6 @@ functionName
 "
 foobar585956b
 "
-language
-:
-2
 lineNumber
 :
 14
@@ -248,9 +242,6 @@ functionName
 "
 foobar585956a
 "
-language
-:
-2
 lineNumber
 :
 18
@@ -266,9 +257,6 @@ functionName
 :
 "
 "
-language
-:
-2
 lineNumber
 :
 21

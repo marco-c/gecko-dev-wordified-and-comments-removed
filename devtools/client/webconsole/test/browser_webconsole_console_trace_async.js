@@ -295,9 +295,6 @@ functionName
 "
 inner
 "
-language
-:
-2
 lineNumber
 :
 9
@@ -320,9 +317,6 @@ functionName
 "
 time1
 "
-language
-:
-2
 lineNumber
 :
 13
@@ -344,9 +338,6 @@ functionName
 :
 "
 "
-language
-:
-2
 lineNumber
 :
 18

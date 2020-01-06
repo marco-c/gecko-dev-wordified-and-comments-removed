@@ -160,11 +160,6 @@ nsIMutable
 idl
 '
 '
-nsIProgrammingLanguage
-.
-idl
-'
-'
 nsISecurityConsoleMessage
 .
 idl

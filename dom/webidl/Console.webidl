@@ -675,12 +675,6 @@ functionName
 "
 "
 ;
-unsigned
-long
-language
-=
-0
-;
 DOMString
 ?
 asyncCause
