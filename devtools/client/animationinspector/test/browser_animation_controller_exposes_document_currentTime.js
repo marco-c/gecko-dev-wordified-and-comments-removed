@@ -223,6 +223,12 @@ yield
 onPlayerAdded
 ;
 yield
+waitForAnimationTimelineRendering
+(
+panel
+)
+;
+yield
 waitForAllAnimationTargets
 (
 panel
