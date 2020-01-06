@@ -603,6 +603,9 @@ return
 ptr
 ;
 }
+#
+ifndef
+LOGALLOC_MINIMAL
 int
 replace_posix_memalign
 (
@@ -752,6 +755,8 @@ return
 ptr
 ;
 }
+#
+endif
 void
 *
 replace_calloc
@@ -1024,6 +1029,9 @@ return
 ptr
 ;
 }
+#
+ifndef
+LOGALLOC_MINIMAL
 void
 *
 replace_valloc
@@ -1089,6 +1097,8 @@ return
 ptr
 ;
 }
+#
+endif
 void
 replace_jemalloc_stats
 (

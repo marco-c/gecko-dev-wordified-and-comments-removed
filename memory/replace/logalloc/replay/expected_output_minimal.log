@@ -21,15 +21,6 @@ malloc
 =
 #
 2
-2
-2
-malloc
-(
-42
-)
-=
-#
-1
 1
 1
 free
@@ -39,7 +30,7 @@ free
 )
 1
 1
-posix_memalign
+memalign
 (
 4096
 1024
@@ -77,7 +68,7 @@ realloc
 2
 1
 1
-aligned_alloc
+memalign
 (
 256
 1024
@@ -97,8 +88,9 @@ memalign
 4
 1
 1
-valloc
+memalign
 (
+4096
 1024
 )
 =
