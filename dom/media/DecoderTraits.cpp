@@ -1103,9 +1103,9 @@ const
 MediaContainerType
 &
 aType
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -1144,7 +1144,7 @@ decoder
 new
 MP4Decoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1173,7 +1173,7 @@ decoder
 new
 MP3Decoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1200,7 +1200,7 @@ decoder
 new
 ADTSDecoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1227,7 +1227,7 @@ decoder
 new
 OggDecoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1254,7 +1254,7 @@ decoder
 new
 WaveDecoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1281,7 +1281,7 @@ decoder
 new
 FlacDecoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1322,7 +1322,7 @@ decoder
 new
 AndroidMediaDecoder
 (
-aOwner
+aInit
 aType
 )
 ;
@@ -1352,7 +1352,7 @@ decoder
 new
 WebMDecoder
 (
-aOwner
+aInit
 )
 ;
 return
@@ -1401,9 +1401,9 @@ const
 nsACString
 &
 aType
-MediaDecoderOwner
-*
-aOwner
+MediaDecoderInit
+&
+aInit
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -1442,7 +1442,7 @@ InstantiateDecoder
 (
 *
 type
-aOwner
+aInit
 aDiagnostics
 )
 ;
