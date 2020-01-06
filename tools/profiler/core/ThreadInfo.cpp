@@ -314,10 +314,6 @@ aWriter
 .
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 {

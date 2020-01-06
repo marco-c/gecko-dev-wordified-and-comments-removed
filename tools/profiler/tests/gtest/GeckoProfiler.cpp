@@ -2987,10 +2987,6 @@ w
 .
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 ASSERT_TRUE
@@ -3151,10 +3147,6 @@ w
 .
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 ASSERT_TRUE

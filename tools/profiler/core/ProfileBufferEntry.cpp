@@ -320,6 +320,10 @@ StartObjectProperty
 "
 schema
 "
+SpliceableJSONWriter
+:
+:
+SingleLineStyle
 )
 ;
 }
@@ -665,6 +669,10 @@ mJSONWriter
 .
 StartArrayElement
 (
+SpliceableJSONWriter
+:
+:
+SingleLineStyle
 )
 ;
 }
@@ -693,6 +701,10 @@ mJSONWriter
 .
 StartArrayElement
 (
+SpliceableJSONWriter
+:
+:
+SingleLineStyle
 )
 ;
 }
@@ -3912,10 +3924,6 @@ aWriter
 .
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 if

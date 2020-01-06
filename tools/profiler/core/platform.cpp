@@ -7287,10 +7287,6 @@ StartArrayProperty
 "
 pausedRanges
 "
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 {
@@ -10673,10 +10669,6 @@ b
 .
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 {
@@ -11339,10 +11331,6 @@ w
 .
 Start
 (
-SpliceableJSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 {
