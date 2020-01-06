@@ -81,12 +81,6 @@ aRegionToDraw
 gfx
 :
 :
-DrawTargetCapture
-*
-aCapture
-gfx
-:
-:
 DrawTarget
 *
 aTarget
@@ -96,10 +90,12 @@ gfx
 DrawTarget
 *
 aTargetOnWhite
+const
 gfx
 :
 :
 Matrix
+&
 aTargetTransform
 SurfaceMode
 aSurfaceMode
@@ -110,10 +106,6 @@ aContentType
 mRegionToDraw
 (
 aRegionToDraw
-)
-mCapture
-(
-aCapture
 )
 mTarget
 (
