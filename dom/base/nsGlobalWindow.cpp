@@ -17690,7 +17690,9 @@ IsTrusted
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
@@ -58083,7 +58085,9 @@ const
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
@@ -59015,7 +59019,9 @@ aReason
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
@@ -59171,7 +59177,9 @@ aReason
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
@@ -59287,7 +59295,9 @@ aDisplayID
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
@@ -59386,7 +59396,9 @@ aDisplayID
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
@@ -59485,7 +59497,9 @@ aDisplayID
 {
 for
 (
+const
 auto
+&
 display
 :
 mVRDisplays
