@@ -5152,10 +5152,10 @@ isDOMClass
 )
 )
 {
-DebugOnly
-<
+#
+ifdef
+DEBUG
 IsArrayAnswer
->
 answer
 ;
 MOZ_ASSERT
@@ -5183,6 +5183,8 @@ IsArrayAnswer
 NotArray
 )
 ;
+#
+endif
 return
 true
 ;
