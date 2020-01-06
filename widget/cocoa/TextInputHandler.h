@@ -1728,6 +1728,11 @@ IMENotification
 aIMENotification
 )
 ;
+void
+OnLayoutChange
+(
+)
+;
 bool
 OnHandleEvent
 (
