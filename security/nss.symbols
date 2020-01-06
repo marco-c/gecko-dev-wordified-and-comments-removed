@@ -920,6 +920,9 @@ boundaries
 NSS_SecureMemcmpZero
 PORT_ZAllocAlignedOffset_Util
 CERT_FindCertByNicknameOrEmailAddrCX
+SECKEY_GetPrivateKeyType
+SEC_DerSignDataWithAlgorithmID
+SEC_CreateSignatureAlgorithmParameters
 #
 These
 symbols

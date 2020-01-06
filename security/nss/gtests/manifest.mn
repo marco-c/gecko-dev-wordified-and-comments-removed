@@ -109,6 +109,8 @@ certdb_gtest
 \
 certhigh_gtest
 \
+cryptohi_gtest
+\
 der_gtest
 \
 pk11_gtest

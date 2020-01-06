@@ -64,6 +64,9 @@ SetUp
 (
 )
 ;
+(
+void
+)
 remove
 (
 keylog_file_path

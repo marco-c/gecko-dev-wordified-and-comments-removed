@@ -4779,6 +4779,13 @@ objectID
 =
 id
 ;
+obj
+-
+>
+owner
+=
+PR_FALSE
+;
 newLog
 -
 >

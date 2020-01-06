@@ -563,6 +563,13 @@ HOSTDIR
 }
 /
 distrust
+RSAPSSDIR
+=
+{
+HOSTDIR
+}
+/
+rsapss
 SERVER_CADIR
 =
 {
@@ -4427,6 +4434,13 @@ D_DISTRUST
 =
 "
 Distrust
+.
+version
+"
+D_RSAPSS
+=
+"
+RSAPSS
 .
 version
 "

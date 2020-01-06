@@ -322,14 +322,6 @@ std
 :
 :
 string
-kServerRsaChain
-;
-static
-const
-std
-:
-:
-string
 kServerEcdsa256
 ;
 static

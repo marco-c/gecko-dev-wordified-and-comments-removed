@@ -4733,6 +4733,9 @@ KU_KEY_ENCIPHERMENT
 break
 ;
 case
+rsaPssKey
+:
+case
 dsaKey
 :
 requiredUsage
