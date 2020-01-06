@@ -779,6 +779,17 @@ layout
 .
 css
 .
+servo
+.
+chrome
+.
+enabled
+"
+"
+layout
+.
+css
+.
 stylo
 -
 blocklist
