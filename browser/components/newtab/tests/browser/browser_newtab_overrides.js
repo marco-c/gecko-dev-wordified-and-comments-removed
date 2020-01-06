@@ -144,11 +144,9 @@ browser
 /
 content
 /
-downloads
-/
-contentAreaDownloadsView
+aboutRobots
 .
-xul
+xhtml
 "
 "
 about
@@ -343,11 +341,9 @@ browser
 /
 content
 /
-downloads
-/
-contentAreaDownloadsView
+aboutRobots
 .
-xul
+xhtml
 "
 "
 about
