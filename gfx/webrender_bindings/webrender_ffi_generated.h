@@ -3577,7 +3577,7 @@ aBufferSize
 WR_FUNC
 ;
 WR_INLINE
-void
+bool
 wr_renderer_render
 (
 Renderer

@@ -840,6 +840,9 @@ Synchronize
 )
 ;
 }
+if
+(
+!
 wr_renderer_render
 (
 mRenderer
@@ -850,7 +853,17 @@ size
 .
 height
 )
+)
+{
+NotifyWebRenderError
+(
+WebRenderError
+:
+:
+RENDER
+)
 ;
+}
 mGL
 -
 >
