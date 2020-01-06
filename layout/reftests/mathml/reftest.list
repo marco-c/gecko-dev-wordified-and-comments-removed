@@ -6843,15 +6843,6 @@ x
 math
 40
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 default

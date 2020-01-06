@@ -2599,6 +2599,16 @@ RawGeckoPresContextBorrowed
 pres_context
 )
 ;
+void
+Gecko_nsStyleFont_FixupMinFontSize
+(
+nsStyleFont
+*
+font
+RawGeckoPresContextBorrowed
+pres_context
+)
+;
 FontSizePrefs
 Gecko_GetBaseSize
 (
