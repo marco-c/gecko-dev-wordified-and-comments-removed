@@ -4277,6 +4277,8 @@ classic
 /
 browser
 /
+bookmarks
+-
 toolbar
 .
 svg
@@ -4288,6 +4290,8 @@ shared
 /
 icons
 /
+bookmarks
+-
 toolbar
 .
 svg
