@@ -326,6 +326,11 @@ SourceSurfaceCairo
 h
 '
 '
+SourceSurfaceCapture
+.
+h
+'
+'
 SourceSurfaceRawData
 .
 h
@@ -1118,6 +1123,11 @@ cpp
 '
 '
 SourceSurfaceCairo
+.
+cpp
+'
+'
+SourceSurfaceCapture
 .
 cpp
 '
