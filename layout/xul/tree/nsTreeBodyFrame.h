@@ -1024,6 +1024,9 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 nsITreeBoxObject
@@ -1112,6 +1115,9 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 DrawResult
@@ -1162,6 +1168,9 @@ nscoord
 aCurrX
 nsPoint
 aPt
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 DrawResult
@@ -1222,6 +1231,9 @@ aRemainingWidth
 nscoord
 &
 aCurrX
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 DrawResult
@@ -1297,6 +1309,9 @@ const
 nsRect
 &
 aDirtyRect
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 DrawResult
