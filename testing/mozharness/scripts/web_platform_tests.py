@@ -426,7 +426,7 @@ compositor
 "
 -
 -
-parallel
+single
 -
 stylo
 -
@@ -448,7 +448,7 @@ dest
 "
 :
 "
-parallel_stylo_traversal
+single_stylo_traversal
 "
             
 "
@@ -464,14 +464,15 @@ help
 "
 Forcibly
 enable
-parallel
+single
+thread
 traversal
 in
 Stylo
 with
 STYLO_THREADS
 =
-4
+1
 "
 }
          
@@ -1451,9 +1452,27 @@ if
 c
 [
 "
-parallel_stylo_traversal
+single_stylo_traversal
 "
 ]
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+stylo
+-
+threads
+=
+1
+"
+)
+        
+else
 :
             
 cmd
@@ -2119,6 +2138,31 @@ MOZ_WEBRENDER
 1
 '
         
+if
+self
+.
+config
+[
+'
+single_stylo_traversal
+'
+]
+:
+            
+env
+[
+'
+STYLO_THREADS
+'
+]
+=
+'
+1
+'
+        
+else
+:
+            
 env
 [
 '
@@ -2128,19 +2172,6 @@ STYLO_THREADS
 =
 '
 4
-'
-if
-self
-.
-config
-[
-'
-parallel_stylo_traversal
-'
-]
-else
-'
-1
 '
         
 if
