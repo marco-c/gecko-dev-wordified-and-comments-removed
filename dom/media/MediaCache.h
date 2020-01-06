@@ -714,9 +714,6 @@ nsIPrincipal
 mPrincipal
 ;
 bool
-mDidNotifyDataEnded
-;
-bool
 mClosed
 =
 false
@@ -769,6 +766,11 @@ mPlaybackBytesPerSecond
 ;
 uint32_t
 mPinCount
+;
+bool
+mDidNotifyDataEnded
+=
+false
 ;
 nsresult
 mNotifyDataEndedStatus
