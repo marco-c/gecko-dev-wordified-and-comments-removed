@@ -297,11 +297,6 @@ char
 progname
 )
 ;
-uint32_t
-MultiprocessBlockPolicy
-(
-)
-;
 #
 ifdef
 MOZ_WIDGET_GTK
