@@ -3270,6 +3270,8 @@ String
 [
 ]
 stagesToSkip
+boolean
+ignoreSettings
 )
 {
 FirefoxAccounts
@@ -3281,6 +3283,7 @@ getAndroidAccount
 )
 stagesToSync
 stagesToSkip
+ignoreSettings
 )
 ;
 }

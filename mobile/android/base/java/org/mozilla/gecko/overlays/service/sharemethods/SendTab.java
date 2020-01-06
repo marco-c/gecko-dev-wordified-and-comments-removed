@@ -1376,6 +1376,7 @@ requestImmediateSync
 (
 STAGES_TO_SYNC
 null
+true
 )
 ;
 }
