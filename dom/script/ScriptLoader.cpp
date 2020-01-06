@@ -4033,7 +4033,7 @@ NS_SUCCEEDED
 nsJSUtils
 :
 :
-ModuleDeclarationInstantiation
+ModuleInstantiate
 (
 jsapi
 .
@@ -10284,7 +10284,7 @@ rv
 nsJSUtils
 :
 :
-ModuleEvaluation
+ModuleEvaluate
 (
 aes
 .
