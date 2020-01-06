@@ -574,14 +574,6 @@ mClosed
 protected
 :
 void
-OnChannelConnected
-(
-int32_t
-pid
-)
-override
-;
-void
 Bind
 (
 Endpoint
