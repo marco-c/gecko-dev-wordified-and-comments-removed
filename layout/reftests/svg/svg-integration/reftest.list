@@ -648,12 +648,6 @@ html
 ref
 .
 svg
-fails
--
-if
-(
-stylo
-)
 =
 =
 mask
