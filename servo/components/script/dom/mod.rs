@@ -799,6 +799,14 @@ pagetransitionevent
 ;
 pub
 mod
+paintrenderingcontext2d
+;
+pub
+mod
+paintsize
+;
+pub
+mod
 paintworkletglobalscope
 ;
 pub
