@@ -3084,10 +3084,6 @@ load
 1
 .
 html
-asserts
-(
-1
-)
 test
 -
 pref
@@ -3105,9 +3101,6 @@ load
 791601
 .
 xhtml
-#
-Bug
-871327
 test
 -
 pref
