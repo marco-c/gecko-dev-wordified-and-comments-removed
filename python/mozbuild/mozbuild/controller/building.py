@@ -7791,6 +7791,16 @@ None
 )
 :
         
+mkdir
+(
+self
+.
+topobjdir
+not_indexed
+=
+True
+)
+        
 def
 on_line
 (
