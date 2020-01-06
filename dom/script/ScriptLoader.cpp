@@ -386,6 +386,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AsyncEventDispatcher
 .
 h

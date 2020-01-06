@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ClearOnShutdown
 .
 h

@@ -13,15 +13,6 @@ include
 "
 mozilla
 /
-AbstractThread
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IndexSequence
 .
 h
@@ -86,6 +77,13 @@ include
 mozilla
 /
 Variant
+.
+h
+"
+#
+include
+"
+nsISerialEventTarget
 .
 h
 "
@@ -1434,9 +1432,9 @@ AllPromiseType
 >
 All
 (
-AbstractThread
+nsISerialEventTarget
 *
-aProcessingThread
+aProcessingTarget
 nsTArray
 <
 RefPtr
@@ -1520,7 +1518,7 @@ i
 >
 Then
 (
-aProcessingThread
+aProcessingTarget
 __func__
 [
 holder
@@ -1788,7 +1786,7 @@ mPromise
 ;
 ThenValueBase
 (
-AbstractThread
+nsISerialEventTarget
 *
 aResponseTarget
 const
@@ -2000,10 +1998,6 @@ r
 forget
 (
 )
-AbstractThread
-:
-:
-DontAssertDispatchSuccess
 )
 ;
 }
@@ -2018,7 +2012,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mResponseTarget
 -
 >
-IsCurrentThreadIn
+IsOnCurrentThread
 (
 )
 )
@@ -2098,7 +2092,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mResponseTarget
 -
 >
-IsCurrentThreadIn
+IsOnCurrentThread
 (
 )
 )
@@ -2148,9 +2142,9 @@ aValue
 )
 ;
 }
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
 mResponseTarget
 ;
@@ -2604,7 +2598,7 @@ public
 :
 ThenValue
 (
-AbstractThread
+nsISerialEventTarget
 *
 aResponseTarget
 ThisType
@@ -2863,7 +2857,7 @@ public
 :
 ThenValue
 (
-AbstractThread
+nsISerialEventTarget
 *
 aResponseTarget
 ThisType
@@ -3099,7 +3093,7 @@ public
 :
 ThenValue
 (
-AbstractThread
+nsISerialEventTarget
 *
 aResponseTarget
 ResolveFunction
@@ -3391,7 +3385,7 @@ public
 :
 ThenValue
 (
-AbstractThread
+nsISerialEventTarget
 *
 aResponseTarget
 ResolveRejectFunction
@@ -4027,9 +4021,9 @@ ThenValueType
 ReturnType
 Then
 (
-AbstractThread
+nsISerialEventTarget
 *
-aResponseThread
+aResponseTarget
 const
 char
 *
@@ -4053,7 +4047,7 @@ thenValue
 new
 ThenValueType
 (
-aResponseThread
+aResponseTarget
 aThisVal
 aMethods
 .
@@ -4103,9 +4097,9 @@ ThenValueType
 ReturnType
 Then
 (
-AbstractThread
+nsISerialEventTarget
 *
-aResponseThread
+aResponseTarget
 const
 char
 *
@@ -4128,7 +4122,7 @@ thenValue
 new
 ThenValueType
 (
-aResponseThread
+aResponseTarget
 Move
 (
 aFunctions
@@ -6222,7 +6216,7 @@ PromiseType
 >
 InvokeAsyncImpl
 (
-AbstractThread
+nsISerialEventTarget
 *
 aTarget
 ThisType
@@ -6509,7 +6503,7 @@ PromiseType
 >
 InvokeAsync
 (
-AbstractThread
+nsISerialEventTarget
 *
 aTarget
 ThisType
@@ -6686,7 +6680,7 @@ PromiseType
 >
 InvokeAsync
 (
-AbstractThread
+nsISerialEventTarget
 *
 aTarget
 ThisType
@@ -6993,7 +6987,7 @@ static
 auto
 InvokeAsync
 (
-AbstractThread
+nsISerialEventTarget
 *
 aTarget
 const
@@ -7165,7 +7159,7 @@ static
 auto
 InvokeAsync
 (
-AbstractThread
+nsISerialEventTarget
 *
 aTarget
 const

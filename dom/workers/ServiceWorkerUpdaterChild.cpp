@@ -5,6 +5,15 @@ ServiceWorkerUpdaterChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AbstractThread
+.
+h
+"
 namespace
 mozilla
 {
