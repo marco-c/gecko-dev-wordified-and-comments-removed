@@ -237,7 +237,7 @@ default
 -
 toolchain
 =
-stable
+beta
 -
 rustc
 -
