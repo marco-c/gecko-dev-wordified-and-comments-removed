@@ -307,14 +307,6 @@ gtk3
 '
 )
 :
-DEFINES
-[
-'
-MOZ_ENABLE_FREETYPE
-'
-]
-=
-True
 CXXFLAGS
 +
 =
