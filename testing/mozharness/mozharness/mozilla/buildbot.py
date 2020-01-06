@@ -475,9 +475,6 @@ allowed
 d
 !
 Setting
-"
-                                   
-"
 TBPL_FAILURE
 (
 was
@@ -489,7 +486,6 @@ s
 .
 "
 %
-                                   
 (
 file_size
 self
@@ -532,7 +528,6 @@ tbpl_status
 self
 .
 worst_buildbot_status
-                                                          
 TBPL_WORST_LEVEL_TUPLE
 )
             
@@ -563,7 +558,6 @@ it
 .
 "
 %
-                          
 self
 .
 worst_buildbot_status
@@ -984,7 +978,6 @@ s
 !
 "
 %
-                         
 str
 (
 prop_list
@@ -1078,7 +1071,7 @@ None
 branch
 =
 None
-                          
+                   
 username
 =
 "
@@ -1207,7 +1200,6 @@ properties
 branch
 "
 ]
-                                                   
 platform
 )
             
@@ -1242,7 +1234,6 @@ properties
 branch
 "
 ]
-                                                 
 self
 .
 buildbot_config
@@ -1396,7 +1387,6 @@ sendchange
 -
 username
 '
-                               
 self
 .
 buildbot_config
@@ -1463,7 +1453,6 @@ buildbot_config
 sourcestamp
 '
 ]
-                               
 [
 '
 changes
@@ -1566,7 +1555,6 @@ builduid
 s
 "
 %
-                               
 self
 .
 buildbot_config
@@ -1673,7 +1661,6 @@ orange
 s
 "
 %
-                      
 retcode
 )
     

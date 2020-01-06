@@ -432,9 +432,6 @@ the
 test
 was
 otherwise
-"
-         
-"
 unsuccessful
 in
 even
@@ -1754,8 +1751,6 @@ opts
 self
 .
 buildbot_config
-(
-                   
 [
 '
 sourcestamp
@@ -1782,8 +1777,6 @@ partition
 mozharness
 :
 '
-)
-                   
 )
             
 except
@@ -2019,7 +2012,6 @@ abs_dirs
 abs_work_dir
 '
 ]
-                                                       
 '
 blobber_upload_dir
 '
@@ -2594,10 +2586,10 @@ None
 :
             
 if
+not
 self
 .
 suite
-not
 in
 self
 .
@@ -2703,9 +2695,6 @@ can
 specify
 binary_path
 or
-"
-                       
-"
 add
 download
 -
@@ -3145,7 +3134,6 @@ if
 a
 '
 in
-(
 self
 .
 config
@@ -3155,7 +3143,6 @@ talos_extra_options
 '
 ]
 or
-                        
 '
 -
 -
@@ -3170,7 +3157,6 @@ config
 talos_extra_options
 '
 ]
-)
 :
                 
 self
@@ -3724,7 +3710,6 @@ talos
 '
 mitmproxy
 '
-                        
 '
 mitmproxy_requirements
 .
@@ -3986,9 +3971,6 @@ mitmproxy
 rel
 binary
 because
-"
-                              
-"
 no
 -
 download
@@ -4105,8 +4087,6 @@ self
 .
 mitmproxy_rel_bin
 =
-(
-                
 self
 .
 talos_json_config
@@ -4125,8 +4105,6 @@ get
 (
 config_key
 False
-)
-            
 )
             
 return
@@ -4371,8 +4349,6 @@ self
 .
 mitmproxy_recording_set
 =
-(
-                
 self
 .
 talos_json_config
@@ -4393,8 +4369,6 @@ get
 mitmproxy_recording_set
 '
 False
-)
-            
 )
             
 return
@@ -4479,7 +4453,6 @@ talos
 '
 mitmproxy
 '
-                                     
 '
 mitmproxy
 -
@@ -5052,6 +5025,14 @@ s
 src
 dest
 )
+)
+            
+parser
+.
+update_worst_log_and_tbpl_levels
+(
+CRITICAL
+TBPL_FAILURE
 )
     
 def

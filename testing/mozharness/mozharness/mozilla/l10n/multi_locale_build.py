@@ -993,6 +993,12 @@ self
 )
 :
         
+c
+=
+self
+.
+config
+        
 dirs
 =
 self
@@ -1717,7 +1723,6 @@ Skipping
 .
 "
 %
-                         
 (
 dirs
 [

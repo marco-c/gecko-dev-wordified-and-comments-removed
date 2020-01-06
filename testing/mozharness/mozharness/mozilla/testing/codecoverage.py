@@ -17,6 +17,14 @@ PreScriptAction
     
 PostScriptAction
 )
+from
+mozharness
+.
+mozilla
+.
+tooltool
+import
+TooltoolMixin
 code_coverage_config_options
 =
 [
@@ -408,7 +416,6 @@ get
 '
 abs_test_install_dir
 '
-                                
 os
 .
 path
@@ -426,7 +433,8 @@ tests
 '
 )
 )
-                                
+\
+            
 '
 config
 /
@@ -476,7 +484,8 @@ net
 '
 fetch
 '
-               
+\
+            
 '
 -
 m
@@ -526,7 +535,6 @@ tar
 -
 jxvf
 '
-                          
 os
 .
 path
@@ -550,7 +558,8 @@ tar
 bz2
 '
 )
-                          
+\
+            
 '
 -
 C
@@ -625,7 +634,6 @@ ccov_upload_disabled
 canary_dirs
 =
 [
-                
 '
 browser
 '
@@ -650,7 +658,6 @@ xpcom
 '
 xpfe
 '
-            
 ]
             
 rel_topsrcdir
@@ -940,13 +947,13 @@ self
 .
 get_output_from_command
 (
-                
 grcov_command
 cwd
 =
 self
 .
 grcov_dir
+\
                 
 silent
 =
@@ -966,6 +973,7 @@ grcov_dir
 grcov_lcov_output
 '
 )
+\
                 
 save_tmpfiles
 =
@@ -975,7 +983,6 @@ return_type
 '
 files
 '
-                
 )
             
 new_output_name
@@ -1019,7 +1026,6 @@ dirs
 abs_blob_upload_dir
 '
 ]
-                       
 '
 code
 -
