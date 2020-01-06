@@ -251,6 +251,7 @@ BINOP_BITXOR
 BINOP_BITAND
 BINOP_IN
 BINOP_INSTANCEOF
+BINOP_PIPELINE
 BINOP_LIMIT
 }
 ;
@@ -461,6 +462,10 @@ in
 "
 "
 instanceof
+"
+"
+|
+>
 "
 }
 ;
@@ -9122,6 +9127,12 @@ PNK_INSTANCEOF
 return
 BINOP_INSTANCEOF
 ;
+case
+PNK_PIPELINE
+:
+return
+BINOP_PIPELINE
+;
 default
 :
 return
@@ -14993,6 +15004,9 @@ dst
 )
 ;
 }
+case
+PNK_PIPELINE
+:
 case
 PNK_ADD
 :
