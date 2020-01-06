@@ -94,7 +94,7 @@ w
 <
 !
 ENTITY
-noTranslationForLanguages
+noTranslationForLanguages2
 .
 label
 "
@@ -107,7 +107,6 @@ for
 the
 following
 languages
-:
 "
 >
 <
@@ -168,7 +167,7 @@ e
 <
 !
 ENTITY
-noTranslationForSites
+noTranslationForSites2
 .
 label
 "
@@ -181,7 +180,6 @@ for
 the
 following
 sites
-:
 "
 >
 <
