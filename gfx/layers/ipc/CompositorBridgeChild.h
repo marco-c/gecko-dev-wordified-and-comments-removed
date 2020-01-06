@@ -1368,7 +1368,7 @@ bool
 mOutstandingAsyncEndTransaction
 ;
 bool
-mIsWaitingForPaint
+mIsDelayingForAsyncPaints
 ;
 uintptr_t
 mSlowFlushCount
