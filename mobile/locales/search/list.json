@@ -726,6 +726,9 @@ visibleDefaultEngines
 google
 "
 "
+bing
+"
+"
 duckduckgo
 "
 "
@@ -742,9 +745,6 @@ cz
 seznam
 -
 cz
-"
-"
-twitter
 "
 "
 wikipedia
