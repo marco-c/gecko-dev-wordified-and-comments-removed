@@ -1228,11 +1228,10 @@ other
 #
 struct_
 =
-\
 aNewContext
 -
 >
-ThreadsafeStyle
+Style
 #
 #
 struct_
@@ -1644,7 +1643,7 @@ data
 aNewContext
 -
 >
-ThreadsafeStyle
+Style
 #
 #
 name_
@@ -1786,11 +1785,10 @@ name_
 *
 thisVisStruct
 =
-\
 thisVis
 -
 >
-ThreadsafeStyle
+Style
 #
 #
 name_
@@ -1806,11 +1804,10 @@ name_
 *
 otherVisStruct
 =
-\
 otherVis
 -
 >
-ThreadsafeStyle
+Style
 #
 #
 name_
