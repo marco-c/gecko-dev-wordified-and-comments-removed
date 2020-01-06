@@ -3085,9 +3085,6 @@ TlsFree
 )
 &
 &
-#
-ifdef
-_M_IX86
 TestDetour
 (
 "
@@ -3101,8 +3098,6 @@ BaseThreadInitThunk
 )
 &
 &
-#
-endif
 TestDetour
 (
 "
