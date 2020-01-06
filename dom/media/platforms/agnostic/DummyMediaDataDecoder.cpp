@@ -85,7 +85,7 @@ mIsH264
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
