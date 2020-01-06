@@ -321,7 +321,7 @@ refreshPageActionIcons
 ;
 }
 Override
-public
+protected
 void
 onAttachedToWindow
 (
@@ -356,7 +356,7 @@ Remove
 ;
 }
 Override
-public
+protected
 void
 onDetachedFromWindow
 (
