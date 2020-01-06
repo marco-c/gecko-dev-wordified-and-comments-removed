@@ -1432,11 +1432,7 @@ endif
 #
 Windows
 equivalents
-build_all
-:
-build
 clobber
-clobber_all
 :
 clean
 #
@@ -2642,11 +2638,7 @@ PHONY
 \
 build
 \
-build_all
-\
 clobber
-\
-clobber_all
 \
 configure
 \
