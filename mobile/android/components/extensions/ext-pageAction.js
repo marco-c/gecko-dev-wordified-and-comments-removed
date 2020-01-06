@@ -847,7 +847,6 @@ hide
 ;
 }
 }
-;
 this
 .
 pageAction

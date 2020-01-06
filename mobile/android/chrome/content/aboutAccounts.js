@@ -419,7 +419,6 @@ resolve
 )
 ;
 }
-;
 var
 wrapper
 =

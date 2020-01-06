@@ -2219,7 +2219,6 @@ aType
 ;
 }
 else
-{
 if
 (
 aURIs
@@ -2242,7 +2241,6 @@ aCallback
 null
 )
 ;
-}
 }
 }
 )

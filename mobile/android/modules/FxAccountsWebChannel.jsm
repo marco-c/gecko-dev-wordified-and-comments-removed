@@ -1289,8 +1289,6 @@ success
 )
 ;
 }
-else
-{
 return
 Accounts
 .
@@ -1352,7 +1350,6 @@ success
 }
 )
 ;
-}
 }
 )
 .

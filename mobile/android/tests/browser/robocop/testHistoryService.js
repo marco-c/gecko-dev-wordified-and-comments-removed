@@ -350,7 +350,6 @@ spec
 )
 ;
 }
-;
 var
 gBrowser
 ;

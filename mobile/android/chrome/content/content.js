@@ -928,8 +928,6 @@ document
 mozSyntheticDocument
 )
 {
-return
-;
 }
 else
 {
