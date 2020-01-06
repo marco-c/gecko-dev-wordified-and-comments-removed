@@ -4160,9 +4160,9 @@ notification
 "
 ]
 {
-visibility
+display
 :
-collapse
+none
 ;
 transition
 :
@@ -4190,9 +4190,12 @@ notification
 "
 ]
 {
-visibility
+display
 :
-visible
+-
+moz
+-
+deck
 ;
 }
 #
