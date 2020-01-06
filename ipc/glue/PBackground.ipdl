@@ -118,6 +118,10 @@ PPendingIPCBlob
 ;
 include
 protocol
+PMemoryStream
+;
+include
+protocol
 PMessagePort
 ;
 include
@@ -308,6 +312,9 @@ manages
 PIPCBlobInputStream
 ;
 manages
+PMemoryStream
+;
+manages
 PPendingIPCBlob
 ;
 manages
@@ -491,6 +498,13 @@ PGamepadEventChannel
 async
 PGamepadTestChannel
 (
+)
+;
+async
+PMemoryStream
+(
+uint64_t
+aSize
 )
 ;
 async
