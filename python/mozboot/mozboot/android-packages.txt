@@ -25,3 +25,4 @@ extras
 google
 ;
 m2repository
+emulator
