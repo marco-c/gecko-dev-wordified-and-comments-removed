@@ -1119,6 +1119,12 @@ eIncludeOnlyCurrentFrameForNonSVGElement
 <
 <
 8
+eUseUserSpaceOfUseElement
+=
+1
+<
+<
+9
 }
 ;
 static

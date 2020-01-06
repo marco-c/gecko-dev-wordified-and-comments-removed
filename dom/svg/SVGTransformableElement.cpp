@@ -822,6 +822,15 @@ nsSVGUtils
 GetBBox
 (
 frame
+nsSVGUtils
+:
+:
+eBBoxIncludeFillGeometry
+|
+nsSVGUtils
+:
+:
+eUseUserSpaceOfUseElement
 )
 )
 )
@@ -832,7 +841,10 @@ else
 uint32_t
 flags
 =
-0
+nsSVGUtils
+:
+:
+eUseUserSpaceOfUseElement
 ;
 if
 (
