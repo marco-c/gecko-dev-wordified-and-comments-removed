@@ -381,7 +381,7 @@ context
 Override
 public
 void
-track
+event
 (
 String
 leanplumEvent
@@ -398,7 +398,7 @@ leanplumEvent
 Override
 public
 void
-track
+event
 (
 String
 leanplumEvent
