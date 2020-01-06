@@ -743,6 +743,10 @@ mTotalBytesWritten
 mTotalBytesRead
 )
 )
+&
+&
+!
+mFastOpen
 ;
 }
 virtual
