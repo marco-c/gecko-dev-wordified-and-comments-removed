@@ -316,7 +316,7 @@ unchecked
 Deprecated
 abstract
 class
-BaseTest
+OldBaseTest
 extends
 BaseRobocopTest
 {

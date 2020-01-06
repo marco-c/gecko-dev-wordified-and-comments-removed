@@ -21,7 +21,7 @@ getAsset
 )
 method
 in
-BaseTest
+OldBaseTest
 .
 (
 This

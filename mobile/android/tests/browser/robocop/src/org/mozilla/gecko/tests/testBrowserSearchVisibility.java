@@ -45,7 +45,7 @@ public
 class
 testBrowserSearchVisibility
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

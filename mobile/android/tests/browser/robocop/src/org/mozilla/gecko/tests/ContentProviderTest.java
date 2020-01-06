@@ -159,13 +159,6 @@ Uri
 import
 android
 .
-os
-.
-Build
-;
-import
-android
-.
 test
 .
 IsolatedContext
@@ -199,7 +192,7 @@ abstract
 class
 ContentProviderTest
 extends
-BaseTest
+OldBaseTest
 {
 protected
 ContentProvider

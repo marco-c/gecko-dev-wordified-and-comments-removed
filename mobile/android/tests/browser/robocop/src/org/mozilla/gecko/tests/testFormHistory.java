@@ -59,7 +59,7 @@ public
 class
 testFormHistory
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

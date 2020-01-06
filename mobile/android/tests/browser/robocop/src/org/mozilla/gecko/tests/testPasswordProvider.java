@@ -24,17 +24,6 @@ gecko
 db
 .
 BrowserContract
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-db
-.
-BrowserContract
 .
 GeckoDisabledHosts
 ;
@@ -90,7 +79,7 @@ public
 class
 testPasswordProvider
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

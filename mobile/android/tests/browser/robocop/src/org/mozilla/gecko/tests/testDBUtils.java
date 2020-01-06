@@ -59,7 +59,7 @@ public
 class
 testDBUtils
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

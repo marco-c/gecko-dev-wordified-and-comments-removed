@@ -45,7 +45,7 @@ public
 class
 testThumbnails
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

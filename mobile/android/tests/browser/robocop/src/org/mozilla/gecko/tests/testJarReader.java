@@ -45,7 +45,7 @@ public
 class
 testJarReader
 extends
-BaseTest
+OldBaseTest
 {
 public
 void

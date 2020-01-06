@@ -29,7 +29,7 @@ abstract
 class
 PixelTest
 extends
-BaseTest
+OldBaseTest
 {
 private
 static

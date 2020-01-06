@@ -54,7 +54,7 @@ public
 class
 testDoorHanger
 extends
-BaseTest
+OldBaseTest
 {
 private
 boolean

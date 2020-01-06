@@ -70,7 +70,7 @@ public
 class
 testOSLocale
 extends
-BaseTest
+OldBaseTest
 {
 Override
 public
