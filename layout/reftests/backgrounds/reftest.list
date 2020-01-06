@@ -3577,12 +3577,6 @@ skiaContent
 102
 2811
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 background
