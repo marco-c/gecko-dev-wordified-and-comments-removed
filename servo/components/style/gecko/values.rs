@@ -115,6 +115,7 @@ computed
 :
 {
 Angle
+Length
 LengthOrPercentage
 LengthOrPercentageOrAuto
 }
@@ -153,7 +154,7 @@ computed
 :
 :
 {
-NonNegativeAu
+NonNegativeLength
 NonNegativeLengthOrPercentage
 NonNegativeNumber
 }
@@ -773,7 +774,7 @@ LengthOrPercentage
 :
 Length
 (
-au
+px
 )
 =
 >
@@ -782,9 +783,11 @@ CoordDataValue
 :
 Coord
 (
-au
+px
 .
-0
+to_i32_au
+(
+)
 )
 LengthOrPercentage
 :
@@ -880,6 +883,10 @@ Length
 Au
 (
 coord
+)
+.
+into
+(
 )
 )
 )
@@ -1009,7 +1016,7 @@ LengthOrPercentage
 impl
 GeckoStyleCoordConvertible
 for
-Au
+Length
 {
 fn
 to_gecko_style_coord
@@ -1039,7 +1046,9 @@ Coord
 (
 self
 .
-0
+to_i32_au
+(
+)
 )
 )
 ;
@@ -1086,6 +1095,10 @@ Au
 (
 coord
 )
+.
+into
+(
+)
 )
 _
 =
@@ -1097,7 +1110,7 @@ None
 impl
 GeckoStyleCoordConvertible
 for
-NonNegativeAu
+NonNegativeLength
 {
 fn
 to_gecko_style_coord
@@ -1146,7 +1159,7 @@ Option
 Self
 >
 {
-Au
+Length
 :
 :
 from_gecko_style_coord
@@ -1160,7 +1173,7 @@ NonNegative
 :
 :
 <
-Au
+Length
 >
 )
 }
@@ -1270,7 +1283,7 @@ LengthOrPercentageOrAuto
 :
 Length
 (
-au
+px
 )
 =
 >
@@ -1279,9 +1292,11 @@ CoordDataValue
 :
 Coord
 (
-au
+px
 .
-0
+to_i32_au
+(
+)
 )
 LengthOrPercentageOrAuto
 :
@@ -1387,6 +1402,10 @@ Length
 Au
 (
 coord
+)
+.
+into
+(
 )
 )
 )
@@ -1489,7 +1508,7 @@ LengthOrPercentageOrNone
 :
 Length
 (
-au
+px
 )
 =
 >
@@ -1498,9 +1517,11 @@ CoordDataValue
 :
 Coord
 (
-au
+px
 .
-0
+to_i32_au
+(
+)
 )
 LengthOrPercentageOrNone
 :
@@ -1606,6 +1627,10 @@ Length
 Au
 (
 coord
+)
+.
+into
+(
 )
 )
 )

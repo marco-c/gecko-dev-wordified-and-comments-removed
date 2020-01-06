@@ -28,7 +28,7 @@ computed
 :
 {
 Context
-NonNegativeAu
+NonNegativeLength
 ToComputedValue
 }
 ;
@@ -405,7 +405,7 @@ BorderSideWidth
 type
 ComputedValue
 =
-NonNegativeAu
+NonNegativeLength
 ;
 #
 [

@@ -325,12 +325,13 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
 :
 :
-from_px
+new
 (
 3
+.
 )
 "
 initial_specified_value
@@ -355,7 +356,7 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
 "
 products
 =
@@ -391,7 +392,7 @@ width
 animation_value_type
 =
 "
-NonNegativeAu
+NonNegativeLength
 "
 extra_prefixes
 =

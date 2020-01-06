@@ -378,12 +378,13 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
 :
 :
-from_px
+new
 (
 3
+.
 )
 "
 computed_type
@@ -397,7 +398,7 @@ values
 computed
 :
 :
-NonNegativeAu
+NonNegativeLength
 "
 alias
 =
@@ -429,7 +430,7 @@ width
 animation_value_type
 =
 "
-NonNegativeAu
+NonNegativeLength
 "
 logical
 =

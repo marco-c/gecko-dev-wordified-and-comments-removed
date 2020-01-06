@@ -584,7 +584,7 @@ values
 specified
 :
 :
-AllowedLengthType
+AllowedNumericType
 :
 :
 NonNegative

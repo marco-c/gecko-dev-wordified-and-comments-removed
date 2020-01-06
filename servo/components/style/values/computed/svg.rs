@@ -20,7 +20,7 @@ computed
 {
 ComputedUrl
 LengthOrPercentage
-NonNegativeAu
+NonNegativeLength
 }
 ;
 use
@@ -338,7 +338,7 @@ NonNegativeSvgLengthOrPercentageOrNumber
 impl
 From
 <
-NonNegativeAu
+NonNegativeLength
 >
 for
 SVGWidth
@@ -348,7 +348,7 @@ from
 (
 length
 :
-NonNegativeAu
+NonNegativeLength
 )
 -
 >
