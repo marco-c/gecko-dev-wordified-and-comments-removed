@@ -13227,6 +13227,16 @@ SavePreserves3DRect
 (
 )
 ;
+if
+(
+aBuilder
+-
+>
+IsRetainingDisplayList
+(
+)
+)
+{
 dirtyRect
 =
 visibleRect
@@ -13239,6 +13249,7 @@ MarkFrameModifiedDuringBuilding
 this
 )
 ;
+}
 }
 bool
 inTransform
