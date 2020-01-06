@@ -19,6 +19,16 @@ jsm
 "
 )
 ;
+window
+.
+top
+.
+gUIDensity
+.
+update
+(
+)
+;
 var
 SidebarUtils
 =
