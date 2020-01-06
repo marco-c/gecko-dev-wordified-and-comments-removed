@@ -9459,8 +9459,6 @@ gint
 bottom
 GtkTextDirection
 direction
-gboolean
-inhtml
 )
 {
 GtkWidget

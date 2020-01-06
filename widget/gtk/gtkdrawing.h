@@ -522,8 +522,6 @@ gint
 bottom
 GtkTextDirection
 direction
-gboolean
-inhtml
 )
 ;
 gint
