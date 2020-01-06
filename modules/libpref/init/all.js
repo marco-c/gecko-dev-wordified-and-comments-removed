@@ -22612,7 +22612,7 @@ display
 .
 enabled
 "
-false
+true
 )
 ;
 pref
