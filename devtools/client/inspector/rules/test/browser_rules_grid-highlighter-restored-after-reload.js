@@ -331,6 +331,8 @@ highlighters
 once
 (
 "
+grid
+-
 state
 -
 restored
@@ -444,6 +446,8 @@ highlighters
 once
 (
 "
+grid
+-
 state
 -
 restored
