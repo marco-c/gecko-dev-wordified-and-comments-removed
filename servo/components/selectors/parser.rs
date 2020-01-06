@@ -99,6 +99,13 @@ smallvec
 :
 SmallVec
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :

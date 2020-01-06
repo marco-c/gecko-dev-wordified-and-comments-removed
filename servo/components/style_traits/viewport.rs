@@ -18,6 +18,13 @@ euclid
 :
 TypedSize2D
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :
