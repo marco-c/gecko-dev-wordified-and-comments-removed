@@ -700,12 +700,9 @@ originKey
 ;
 if
 (
-NS_WARN_IF
-(
 NS_FAILED
 (
 rv
-)
 )
 )
 {
