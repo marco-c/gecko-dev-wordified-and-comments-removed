@@ -184,6 +184,13 @@ CloneForNewRequest
 const
 ;
 void
+SynthesizeServiceWorkerTainting
+(
+LoadTainting
+aTainting
+)
+;
+void
 SetIsPreflight
 (
 )
