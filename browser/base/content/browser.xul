@@ -3599,7 +3599,7 @@ accesskey
 oncommand
 =
 "
-BookmarkingUI
+RecentBookmarksMenuUI
 .
 hideRecentlyBookmarked
 (
@@ -3651,7 +3651,7 @@ accesskey
 oncommand
 =
 "
-BookmarkingUI
+RecentBookmarksMenuUI
 .
 showRecentlyBookmarked
 (
