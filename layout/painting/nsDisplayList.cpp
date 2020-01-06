@@ -37224,6 +37224,9 @@ aBuilder
 PushStickyFrame
 (
 id
+GetClipChain
+(
+)
 )
 ;
 }
@@ -37262,6 +37265,9 @@ aBuilder
 .
 PopStickyFrame
 (
+GetClipChain
+(
+)
 )
 ;
 }
