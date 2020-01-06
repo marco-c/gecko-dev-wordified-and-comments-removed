@@ -3463,7 +3463,9 @@ test
 -
 platform
 :
-windows
+windows7
+-
+32
 .
 *
 :
