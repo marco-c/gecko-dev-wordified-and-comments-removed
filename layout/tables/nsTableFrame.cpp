@@ -15904,6 +15904,12 @@ aReflowInput
 bCoord
 )
 ;
+aStatus
+.
+Reset
+(
+)
+;
 ReflowChild
 (
 kidFrame
