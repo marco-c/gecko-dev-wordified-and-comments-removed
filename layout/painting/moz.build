@@ -181,6 +181,11 @@ nsImageRenderer
 .
 h
 '
+'
+RetainedDisplayListBuilder
+.
+h
+'
 ]
 EXPORTS
 .
@@ -275,6 +280,11 @@ cpp
 '
 '
 PaintTracker
+.
+cpp
+'
+'
+RetainedDisplayListBuilder
 .
 cpp
 '

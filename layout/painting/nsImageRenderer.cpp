@@ -115,6 +115,17 @@ nsSVGIntegrationUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+WebRenderLayerManager
+.
+h
+"
 using
 namespace
 mozilla
