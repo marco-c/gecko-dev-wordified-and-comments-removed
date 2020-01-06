@@ -4294,7 +4294,7 @@ CompileOptions
 options
 (
 cx
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 options
