@@ -588,14 +588,9 @@ char
 name
 )
 {
-char
-stackTop
-;
-profiler_register_thread
+PROFILER_REGISTER_THREAD
 (
 name
-&
-stackTop
 )
 ;
 }
@@ -604,7 +599,7 @@ gecko_profiler_unregister_thread
 (
 )
 {
-profiler_unregister_thread
+PROFILER_UNREGISTER_THREAD
 (
 )
 ;
