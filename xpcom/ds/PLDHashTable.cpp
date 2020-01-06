@@ -939,8 +939,8 @@ mRemovedCount
 )
 ;
 mEntryStore
-=
-Move
+.
+Set
 (
 aOther
 .
