@@ -1580,16 +1580,6 @@ pref
 "
 media
 .
-wakelock_timeout
-"
-2000
-)
-;
-pref
-(
-"
-media
-.
 play
 -
 stand
