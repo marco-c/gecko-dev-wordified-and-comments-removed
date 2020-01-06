@@ -11315,6 +11315,11 @@ tab
 activePageData
 .
 title
+{
+isContentTitle
+:
+true
+}
 )
 ;
 }
