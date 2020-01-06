@@ -246,6 +246,9 @@ GetPseudoStack
 Stack
 &
 aStack
+nsACString
+&
+aRunnableName
 )
 ;
 void
@@ -254,6 +257,9 @@ GetNativeStack
 NativeStack
 &
 aNativeStack
+nsACString
+&
+aRunnableName
 )
 ;
 void
@@ -265,6 +271,9 @@ aStack
 NativeStack
 &
 aNativeStack
+nsACString
+&
+aRunnableName
 )
 ;
 private
@@ -278,6 +287,9 @@ aStack
 NativeStack
 *
 aNativeStack
+nsACString
+&
+aRunnableName
 )
 ;
 int

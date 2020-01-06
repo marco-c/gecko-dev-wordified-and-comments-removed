@@ -657,6 +657,9 @@ ProcessHangRunnable
 >
 mProcessHangRunnables
 ;
+nsCString
+mRunnableName
+;
 BackgroundHangThread
 (
 const
@@ -1201,6 +1204,10 @@ currentThread
 -
 >
 mNativeHangStack
+currentThread
+-
+>
+mRunnableName
 )
 ;
 }
@@ -1217,6 +1224,10 @@ currentThread
 -
 >
 mHangStack
+currentThread
+-
+>
+mRunnableName
 )
 ;
 }
@@ -1233,6 +1244,10 @@ currentThread
 -
 >
 mHangStack
+currentThread
+-
+>
+mRunnableName
 )
 ;
 #
@@ -2105,6 +2120,7 @@ Move
 (
 mHangStack
 )
+mRunnableName
 )
 ;
 for

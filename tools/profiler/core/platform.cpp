@@ -13193,13 +13193,7 @@ std
 :
 function
 <
-void
-(
-void
-*
-*
-size_t
-)
+ProfilerStackCallback
 >
 &
 aCallback
@@ -13330,6 +13324,12 @@ mPCs
 nativeStack
 .
 mCount
+info
+-
+>
+IsMainThread
+(
+)
 )
 ;
 }

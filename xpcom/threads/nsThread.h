@@ -263,6 +263,12 @@ aShouldSave
 ;
 #
 endif
+static
+const
+char
+*
+sMainThreadRunnableName
+;
 private
 :
 void
