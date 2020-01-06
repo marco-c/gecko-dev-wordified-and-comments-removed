@@ -132,6 +132,12 @@ platform
 =
 [
 '
+harness
+/
+*
+*
+'
+'
 outbound
 /
 *
