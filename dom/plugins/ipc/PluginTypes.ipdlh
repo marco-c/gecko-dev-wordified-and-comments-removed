@@ -157,6 +157,9 @@ isFromExtension
 int32_t
 sandboxLevel
 ;
+uint16_t
+blocklistState
+;
 }
 ;
 struct
