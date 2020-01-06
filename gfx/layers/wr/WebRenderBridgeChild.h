@@ -354,6 +354,8 @@ aImageId
 void
 Destroy
 (
+bool
+aIsSync
 )
 ;
 bool

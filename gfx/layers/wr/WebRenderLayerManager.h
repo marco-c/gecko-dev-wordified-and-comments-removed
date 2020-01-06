@@ -135,6 +135,13 @@ Destroy
 )
 override
 ;
+void
+DoDestroy
+(
+bool
+aIsSync
+)
+;
 protected
 :
 virtual
