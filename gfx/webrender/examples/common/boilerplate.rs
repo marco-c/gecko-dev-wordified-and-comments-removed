@@ -1,3 +1,7 @@
+extern
+crate
+env_logger
+;
 use
 gleam
 :
@@ -443,6 +447,17 @@ RendererOptions
 >
 )
 {
+env_logger
+:
+:
+init
+(
+)
+.
+unwrap
+(
+)
+;
 let
 args
 :
