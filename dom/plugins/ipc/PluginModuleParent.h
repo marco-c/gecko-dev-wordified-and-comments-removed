@@ -696,12 +696,6 @@ instance
 NPStream
 *
 s
-PluginAsyncSurrogate
-*
-*
-aSurrogate
-=
-nullptr
 )
 ;
 virtual

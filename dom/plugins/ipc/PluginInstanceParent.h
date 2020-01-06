@@ -1316,16 +1316,6 @@ return
 mNPP
 ;
 }
-bool
-UseSurrogate
-(
-)
-const
-{
-return
-mUseSurrogate
-;
-}
 void
 GetSrcAttribute
 (
@@ -1726,9 +1716,6 @@ RefPtr
 PluginAsyncSurrogate
 >
 mSurrogate
-;
-bool
-mUseSurrogate
 ;
 NPP
 mNPP

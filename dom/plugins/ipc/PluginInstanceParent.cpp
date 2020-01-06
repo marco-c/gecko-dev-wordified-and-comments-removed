@@ -633,10 +633,6 @@ Cast
 npp
 )
 )
-mUseSurrogate
-(
-true
-)
 mNPP
 (
 npp
