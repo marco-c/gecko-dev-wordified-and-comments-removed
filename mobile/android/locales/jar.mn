@@ -522,10 +522,6 @@ list
 in
 sync
 with
-l10n
-.
-toml
-and
 filter
 .
 py
