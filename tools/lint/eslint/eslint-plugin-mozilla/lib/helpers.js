@@ -1837,6 +1837,16 @@ type
 "
 FunctionDeclaration
 "
+|
+|
+parent
+.
+type
+=
+=
+"
+ArrowFunctionExpression
+"
 )
 {
 return
