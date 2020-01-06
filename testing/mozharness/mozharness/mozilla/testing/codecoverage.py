@@ -1266,6 +1266,28 @@ file_path_gcda
             
 ]
             
+if
+mozinfo
+.
+os
+=
+=
+'
+win
+'
+:
+                
+grcov_command
++
+=
+[
+'
+-
+-
+llvm
+'
+]
+            
 grcov_output
 _
 =
