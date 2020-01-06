@@ -9433,7 +9433,7 @@ is_viewport_enabled
 >
 bool
 {
-true
+false
 }
 impl
 <
