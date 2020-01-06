@@ -738,7 +738,7 @@ sc
 fm
 -
 >
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 mBoundElement
 )

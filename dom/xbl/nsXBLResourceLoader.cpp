@@ -1141,7 +1141,7 @@ FrameManager
 )
 -
 >
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 content
 )

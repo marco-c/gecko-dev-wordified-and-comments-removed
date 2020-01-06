@@ -228,7 +228,7 @@ aStyleContext
 }
 nsStyleContext
 *
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 const
 nsIContent

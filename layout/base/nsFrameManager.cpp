@@ -1144,7 +1144,7 @@ endif
 MOZ_ASSERT
 (
 !
-GetUndisplayedContent
+GetDisplayNoneStyleFor
 (
 aContent
 )
