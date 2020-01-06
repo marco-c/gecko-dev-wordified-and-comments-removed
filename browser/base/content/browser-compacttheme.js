@@ -386,11 +386,6 @@ null
 ;
 if
 (
-AppConstants
-.
-INSTALL_COMPACT_THEMES
-&
-&
 this
 !
 =

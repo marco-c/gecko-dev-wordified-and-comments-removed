@@ -4766,13 +4766,6 @@ init
 (
 )
 ;
-if
-(
-AppConstants
-.
-INSTALL_COMPACT_THEMES
-)
-{
 let
 vendorShortName
 =
@@ -4995,7 +4988,6 @@ vendorShortName
 }
 )
 ;
-}
 const
 multilocalePath
 =
