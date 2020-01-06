@@ -7,6 +7,10 @@ function
 e
 )
 {
+e
+.
+waitUntil
+(
 self
 .
 clients
@@ -79,6 +83,7 @@ quit
 )
 ;
 }
+)
 )
 ;
 }

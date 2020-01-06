@@ -776,6 +776,7 @@ upgrade_func
 t
 db
 tx
+open
 )
 ;
 }
@@ -849,6 +850,7 @@ open_func
 (
 t
 db
+open
 )
 ;
 }

@@ -40,7 +40,26 @@ headers
 '
 '
     
+status
+=
+200
+    
+if
+"
+noLocationRedirect
+"
+in
+request
+.
+GET
+:
+        
+status
+=
+302
+    
 return
+status
 [
 ]
 '

@@ -111,6 +111,13 @@ event
 request
 .
 mode
+redirect
+:
+event
+.
+request
+.
+redirect
 credentials
 :
 event

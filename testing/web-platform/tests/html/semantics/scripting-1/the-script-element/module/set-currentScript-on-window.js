@@ -1,0 +1,8 @@
+window
+.
+currentScriptRecorded
+=
+document
+.
+currentScript
+;
