@@ -324,7 +324,6 @@ OnStopRequest
 (
 aRequest
 aStatus
-mReopenOnError
 )
 ;
 }
@@ -1503,8 +1502,6 @@ nsIRequest
 aRequest
 nsresult
 aStatus
-bool
-aReopenOnError
 )
 {
 NS_ASSERTION
@@ -1619,7 +1616,7 @@ NotifyDataEnded
 (
 mLoadID
 aStatus
-aReopenOnError
+true
 )
 ;
 return
@@ -3132,13 +3129,6 @@ mChannel
 mChannelStatistics
 .
 Start
-(
-)
-;
-mListener
--
->
-SetReopenOnError
 (
 )
 ;
