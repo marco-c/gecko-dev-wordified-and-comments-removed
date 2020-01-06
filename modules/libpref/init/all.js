@@ -23390,16 +23390,6 @@ pref
 "
 dom
 .
-max_ext_content_script_run_time
-"
-5
-)
-;
-pref
-(
-"
-dom
-.
 global_stop_script
 "
 true

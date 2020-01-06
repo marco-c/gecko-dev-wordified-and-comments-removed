@@ -407,12 +407,6 @@ aInit
 .
 mMozExtensionHostname
 )
-mName
-(
-aInit
-.
-mName
-)
 mContentSecurityPolicy
 (
 aInit

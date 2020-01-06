@@ -151,9 +151,6 @@ tabId
 nsCString
 filename
 ;
-nsString
-addonId
-;
 }
 ;
 struct
@@ -198,8 +195,6 @@ child
 async
 TerminateScript
 (
-bool
-aTerminateGlobal
 )
 ;
 async

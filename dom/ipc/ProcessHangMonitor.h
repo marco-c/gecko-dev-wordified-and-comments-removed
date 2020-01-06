@@ -45,9 +45,6 @@ nsITabChild
 class
 nsIThread
 ;
-class
-nsString
-;
 namespace
 mozilla
 {
@@ -162,7 +159,6 @@ SlowScriptAction
 Continue
 Terminate
 StartDebugger
-TerminateGlobal
 }
 ;
 SlowScriptAction
@@ -175,10 +171,6 @@ const
 char
 *
 aFileName
-const
-nsString
-&
-aAddonId
 )
 ;
 void

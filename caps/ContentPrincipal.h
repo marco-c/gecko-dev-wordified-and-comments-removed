@@ -158,16 +158,6 @@ ContentPrincipal
 (
 )
 ;
-static
-PrincipalKind
-Kind
-(
-)
-{
-return
-eCodebasePrincipal
-;
-}
 nsresult
 Init
 (
