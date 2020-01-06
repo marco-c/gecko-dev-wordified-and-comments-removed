@@ -1093,6 +1093,11 @@ ChannelMediaDecoder
 cpp
 '
 '
+ChannelMediaResource
+.
+cpp
+'
+'
 CubebUtils
 .
 cpp

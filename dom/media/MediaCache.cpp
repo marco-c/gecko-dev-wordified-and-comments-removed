@@ -8,6 +8,13 @@ h
 #
 include
 "
+ChannelMediaResource
+.
+h
+"
+#
+include
+"
 FileBlockCache
 .
 h
