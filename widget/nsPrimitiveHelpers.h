@@ -18,6 +18,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsISupports
 ;
