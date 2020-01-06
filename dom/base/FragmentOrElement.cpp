@@ -1260,6 +1260,15 @@ HasFlag
 (
 NODE_MAY_BE_IN_BINDING_MNGR
 )
+|
+|
+parent
+-
+>
+HasFlag
+(
+NODE_MAY_BE_IN_BINDING_MNGR
+)
 )
 {
 if
@@ -1288,7 +1297,6 @@ parent
 )
 ;
 }
-}
 else
 if
 (
@@ -1314,6 +1322,7 @@ parent
 return
 nullptr
 ;
+}
 }
 if
 (
