@@ -167,7 +167,7 @@ mozilla
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 from
 "
 mozilla
@@ -184,7 +184,7 @@ mozilla
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 from
 "
 mozilla
@@ -751,7 +751,7 @@ process
 async
 AccumulateChildHistograms
 (
-Accumulation
+HistogramAccumulation
 [
 ]
 accumulations
@@ -760,7 +760,7 @@ accumulations
 async
 AccumulateChildKeyedHistograms
 (
-KeyedAccumulation
+KeyedHistogramAccumulation
 [
 ]
 accumulations

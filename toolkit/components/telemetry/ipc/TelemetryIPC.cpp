@@ -55,7 +55,7 @@ nsTArray
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 >
 &
 aAccumulations
@@ -88,7 +88,7 @@ nsTArray
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 &
 aAccumulations

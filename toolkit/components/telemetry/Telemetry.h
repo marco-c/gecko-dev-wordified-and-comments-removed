@@ -84,10 +84,10 @@ namespace
 Telemetry
 {
 struct
-Accumulation
+HistogramAccumulation
 ;
 struct
-KeyedAccumulation
+KeyedHistogramAccumulation
 ;
 struct
 ScalarAction

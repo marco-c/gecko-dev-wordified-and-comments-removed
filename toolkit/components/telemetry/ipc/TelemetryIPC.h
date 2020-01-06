@@ -34,10 +34,10 @@ namespace
 Telemetry
 {
 struct
-Accumulation
+HistogramAccumulation
 ;
 struct
-KeyedAccumulation
+KeyedHistogramAccumulation
 ;
 struct
 ScalarAction
@@ -69,7 +69,7 @@ nsTArray
 Telemetry
 :
 :
-Accumulation
+HistogramAccumulation
 >
 &
 aAccumulations
@@ -89,7 +89,7 @@ nsTArray
 Telemetry
 :
 :
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 &
 aAccumulations

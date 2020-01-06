@@ -188,7 +188,7 @@ RecvAccumulateChildHistograms
 (
 InfallibleTArray
 <
-Accumulation
+HistogramAccumulation
 >
 &
 &
@@ -207,7 +207,7 @@ RecvAccumulateChildKeyedHistograms
 (
 InfallibleTArray
 <
-KeyedAccumulation
+KeyedHistogramAccumulation
 >
 &
 &
