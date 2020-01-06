@@ -489,6 +489,10 @@ python
 /
 which
 /
+third_party
+/
+rust
+/
 toolkit
 /
 components
