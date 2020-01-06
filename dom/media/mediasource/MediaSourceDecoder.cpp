@@ -1498,7 +1498,7 @@ DEFAULT_NEXT_FRAME_AVAILABLE_BUFFERED
 return
 buffered
 .
-ContainsStrict
+ContainsWithStrictEnd
 (
 ClampIntervalToEnd
 (
@@ -1675,7 +1675,7 @@ timeAhead
 return
 buffered
 .
-ContainsStrict
+ContainsWithStrictEnd
 (
 ClampIntervalToEnd
 (
