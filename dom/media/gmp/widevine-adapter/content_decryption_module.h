@@ -1609,6 +1609,8 @@ virtual
 void
 OnStorageId
 (
+uint32_t
+version
 const
 uint8_t
 *
@@ -2248,6 +2250,8 @@ virtual
 void
 RequestStorageId
 (
+uint32_t
+version
 )
 =
 0
