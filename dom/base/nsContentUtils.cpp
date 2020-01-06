@@ -24501,8 +24501,10 @@ aInstalling
 )
 ;
 }
-static
 bool
+nsContentUtils
+:
+:
 SchemeIs
 (
 nsIURI
