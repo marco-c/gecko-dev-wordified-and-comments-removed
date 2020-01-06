@@ -55,9 +55,4 @@ double
 value
 )
 ;
-void
-stop
-(
-)
-;
 }
