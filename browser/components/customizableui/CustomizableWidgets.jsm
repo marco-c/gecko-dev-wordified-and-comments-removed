@@ -1508,6 +1508,7 @@ window
 "
 toolbarbutton
 "
+true
 )
 ;
 let
