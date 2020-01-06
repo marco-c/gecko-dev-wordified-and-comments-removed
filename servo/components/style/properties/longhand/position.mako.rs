@@ -1016,7 +1016,7 @@ JustifyItems
 initial_value
 =
 "
-specified
+computed
 :
 :
 JustifyItems
