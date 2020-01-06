@@ -839,10 +839,6 @@ stream
 (
 )
 .
-get_IPCStream
-(
-)
-.
 type
 (
 )
@@ -1667,10 +1663,6 @@ MOZ_DIAGNOSTIC_ASSERT
 aReadStream
 .
 stream
-(
-)
-.
-get_IPCStream
 (
 )
 .
