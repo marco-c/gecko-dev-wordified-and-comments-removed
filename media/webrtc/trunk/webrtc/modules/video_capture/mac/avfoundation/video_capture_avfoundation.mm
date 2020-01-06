@@ -230,10 +230,6 @@ int32_t
 id
 )
 :
-VideoCaptureImpl
-(
-id
-)
 _captureDevice
 (
 NULL

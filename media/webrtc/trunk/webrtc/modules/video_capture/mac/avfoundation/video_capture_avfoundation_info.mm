@@ -163,11 +163,6 @@ const
 int32_t
 id
 )
-:
-DeviceInfoImpl
-(
-id
-)
 {
 nsAutoreleasePool
 localPool
@@ -448,7 +443,7 @@ webrtc
 :
 :
 kTraceVideoCapture
-_id
+0
 "
 API
 not
@@ -488,7 +483,7 @@ webrtc
 :
 :
 kTraceVideoCapture
-_id
+0
 "
 API
 not
