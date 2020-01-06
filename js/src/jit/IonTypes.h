@@ -153,7 +153,6 @@ Bailout_FirstExecution
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
 Bailout_DoubleOutput
-Bailout_LoadStaticObject
 Bailout_ArgumentCheck
 Bailout_BoundsCheck
 Bailout_Detached
@@ -415,14 +414,6 @@ Bailout_DoubleOutput
 return
 "
 Bailout_DoubleOutput
-"
-;
-case
-Bailout_LoadStaticObject
-:
-return
-"
-Bailout_LoadStaticObject
 "
 ;
 case
