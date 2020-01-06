@@ -1054,6 +1054,7 @@ gfxFontCache
 gGlobalCache
 ;
 struct
+MOZ_STACK_CLASS
 Key
 {
 const
@@ -1578,6 +1579,7 @@ DrawTarget
 DrawTarget
 ;
 struct
+MOZ_STACK_CLASS
 Parameters
 {
 DrawTarget
@@ -7204,6 +7206,7 @@ DEFAULT_XHEIGHT_FACTOR
 .
 56f
 struct
+MOZ_STACK_CLASS
 TextRunDrawParams
 {
 RefPtr
@@ -7299,6 +7302,7 @@ paintSVGGlyphs
 }
 ;
 struct
+MOZ_STACK_CLASS
 FontDrawParams
 {
 RefPtr
@@ -7378,6 +7382,7 @@ haveColorGlyphs
 }
 ;
 struct
+MOZ_STACK_CLASS
 EmphasisMarkDrawParams
 {
 gfxContext

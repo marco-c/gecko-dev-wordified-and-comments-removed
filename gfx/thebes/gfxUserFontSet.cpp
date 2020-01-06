@@ -783,6 +783,7 @@ nullptr
 ;
 }
 class
+MOZ_STACK_CLASS
 gfxOTSContext
 :
 public
