@@ -326,6 +326,7 @@ IsEnabledInFetch
 "
 ]
 AbortSignal
+?
 signal
 ;
 [
