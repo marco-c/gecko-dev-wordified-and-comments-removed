@@ -318,6 +318,11 @@ nsSVGUtils
 cpp
 '
 '
+nsSVGViewportFrame
+.
+cpp
+'
+'
 SVGContextPaint
 .
 cpp

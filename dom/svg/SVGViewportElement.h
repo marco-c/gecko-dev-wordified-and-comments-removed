@@ -98,7 +98,7 @@ class
 nsSVGOuterSVGFrame
 ;
 class
-nsSVGInnerSVGFrame
+nsSVGViewportFrame
 ;
 namespace
 mozilla
@@ -199,7 +199,7 @@ friend
 class
 :
 :
-nsSVGInnerSVGFrame
+nsSVGViewportFrame
 ;
 protected
 :
