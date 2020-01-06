@@ -3270,7 +3270,7 @@ Message
 aMsg
 )
 {
-nsAutoPtr
+UniquePtr
 <
 Message
 >
@@ -3338,6 +3338,10 @@ ReportConnectionError
 MessageChannel
 "
 msg
+.
+get
+(
+)
 )
 ;
 return
@@ -3351,7 +3355,7 @@ EchoMessage
 (
 msg
 .
-forget
+release
 (
 )
 )
@@ -3522,7 +3526,7 @@ OUT_MESSAGE
 aMsg
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Message
 >
@@ -3590,6 +3594,10 @@ ReportConnectionError
 MessageChannel
 "
 msg
+.
+get
+(
+)
 )
 ;
 return
@@ -3600,7 +3608,7 @@ SendMessageToLink
 (
 msg
 .
-forget
+release
 (
 )
 )
@@ -5645,7 +5653,7 @@ size
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 Message
 >
@@ -5714,6 +5722,10 @@ f
 this
 OUT_MESSAGE
 msg
+.
+get
+(
+)
 )
 ;
 MonitorAutoLock
@@ -6110,6 +6122,10 @@ MessageChannel
 SendAndWait
 "
 msg
+.
+get
+(
+)
 )
 ;
 mLastSendError
@@ -6269,7 +6285,7 @@ SendMessageToLink
 (
 msg
 .
-forget
+release
 (
 )
 )
@@ -6828,7 +6844,7 @@ Message
 aReply
 )
 {
-nsAutoPtr
+UniquePtr
 <
 Message
 >
@@ -6889,6 +6905,10 @@ cxxframe
 this
 OUT_MESSAGE
 msg
+.
+get
+(
+)
 )
 ;
 MonitorAutoLock
@@ -6915,6 +6935,10 @@ MessageChannel
 Call
 "
 msg
+.
+get
+(
+)
 )
 ;
 return
@@ -7034,7 +7058,7 @@ SendMessage
 (
 msg
 .
-forget
+release
 (
 )
 )
