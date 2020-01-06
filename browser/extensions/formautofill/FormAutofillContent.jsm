@@ -2593,12 +2593,6 @@ _clearProfilePreview
 (
 )
 ;
-ProfileAutocomplete
-.
-lastProfileAutoCompleteResult
-=
-null
-;
 }
 _markAsAutofillField
 (
