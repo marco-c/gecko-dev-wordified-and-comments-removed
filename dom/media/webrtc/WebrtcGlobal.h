@@ -163,7 +163,7 @@ ReadParam
 (
 aMsg
 aIter
-dynamic_cast
+static_cast
 <
 FallibleTArray
 <
