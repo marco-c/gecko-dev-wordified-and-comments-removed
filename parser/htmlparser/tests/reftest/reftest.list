@@ -86,12 +86,6 @@ bug582788
 ref
 .
 html
-skip
--
-if
-(
-OSX
-)
 fuzzy
 -
 if
@@ -99,6 +93,12 @@ if
 skiaContent
 2
 5
+)
+skip
+-
+if
+(
+OSX
 )
 =
 =
