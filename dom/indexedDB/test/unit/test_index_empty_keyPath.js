@@ -252,6 +252,7 @@ data
 "
 )
 ;
+let
 index
 =
 objectStore

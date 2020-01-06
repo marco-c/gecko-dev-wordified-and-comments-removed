@@ -179,6 +179,7 @@ true
 ]
 )
 {
+let
 objectStore
 =
 db
