@@ -248,15 +248,6 @@ arrayvec
 .
 20
 "
-arraydeque
-=
-"
-0
-.
-2
-.
-3
-"
 atomic_refcell
 =
 "

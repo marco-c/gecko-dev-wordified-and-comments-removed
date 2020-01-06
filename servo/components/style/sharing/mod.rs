@@ -26,7 +26,10 @@ use
 cache
 :
 :
+{
 LRUCache
+Entry
+}
 ;
 use
 context
@@ -1474,8 +1477,12 @@ entries
 :
 LRUCache
 <
-[
 Candidate
+[
+Entry
+<
+Candidate
+>
 ;
 SHARING_CACHE_BACKING_STORE_SIZE
 ]
@@ -1689,10 +1696,6 @@ self
 entries
 .
 iter_mut
-(
-)
-.
-enumerate
 (
 )
 {
