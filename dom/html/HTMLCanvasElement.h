@@ -955,7 +955,7 @@ LayerManager
 aManager
 )
 ;
-void
+bool
 InitializeCanvasRenderer
 (
 nsDisplayListBuilder

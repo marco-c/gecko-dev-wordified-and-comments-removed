@@ -1925,7 +1925,7 @@ false
 )
 override
 ;
-void
+bool
 InitializeCanvasRenderer
 (
 nsDisplayListBuilder
