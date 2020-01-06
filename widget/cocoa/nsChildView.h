@@ -1808,6 +1808,7 @@ nsCocoaWindow
 GetXULWindowWidget
 (
 )
+const
 ;
 virtual
 void
