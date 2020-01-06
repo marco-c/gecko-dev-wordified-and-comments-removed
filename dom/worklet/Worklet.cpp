@@ -1015,6 +1015,12 @@ cx
 globalObj
 )
 ;
+NS_ConvertUTF16toUTF8
+url
+(
+mURL
+)
+;
 JS
 :
 :
@@ -1037,10 +1043,7 @@ compileOptions
 .
 setFileAndLine
 (
-NS_ConvertUTF16toUTF8
-(
-mURL
-)
+url
 .
 get
 (
