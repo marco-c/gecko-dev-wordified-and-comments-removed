@@ -8996,7 +8996,7 @@ true
 #
 ifdef
 NIGHTLY_BUILD
-pref
+sticky_pref
 (
 "
 devtools
@@ -9012,7 +9012,7 @@ false
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools
@@ -9031,7 +9031,7 @@ endif
 #
 ifdef
 MOZILLA_OFFICIAL
-pref
+sticky_pref
 (
 "
 devtools
@@ -9043,7 +9043,7 @@ enabled
 false
 )
 ;
-pref
+sticky_pref
 (
 "
 devtools
@@ -9059,7 +9059,7 @@ false
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools
@@ -9071,7 +9071,7 @@ enabled
 true
 )
 ;
-pref
+sticky_pref
 (
 "
 devtools
@@ -11308,23 +11308,6 @@ options
 mem
 .
 max
-"
--
-1
-)
-;
-pref
-(
-"
-javascript
-.
-options
-.
-mem
-.
-nursery
-.
-max_kb
 "
 -
 1
