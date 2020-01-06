@@ -87,16 +87,6 @@ ons
 <
 !
 ENTITY
-aboutAddons
-.
-options
-"
-Options
-"
->
-<
-!
-ENTITY
 addonAction
 .
 enable
