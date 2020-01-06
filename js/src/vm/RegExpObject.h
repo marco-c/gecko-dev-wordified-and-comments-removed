@@ -142,12 +142,9 @@ CloneRegExpObject
 JSContext
 *
 cx
-Handle
-<
-RegExpObject
+JSObject
 *
->
-regex
+regexp
 )
 ;
 class
@@ -766,8 +763,7 @@ trc
 void
 initIgnoringLastIndex
 (
-JSAtom
-*
+HandleAtom
 source
 RegExpFlag
 flags
@@ -776,8 +772,7 @@ flags
 void
 initAndZeroLastIndex
 (
-JSAtom
-*
+HandleAtom
 source
 RegExpFlag
 flags
