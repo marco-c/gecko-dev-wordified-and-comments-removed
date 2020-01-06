@@ -6266,7 +6266,7 @@ void
 gfxMacPlatformFontList
 :
 :
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <

@@ -1103,7 +1103,7 @@ aListOfFonts
 ;
 virtual
 void
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <
