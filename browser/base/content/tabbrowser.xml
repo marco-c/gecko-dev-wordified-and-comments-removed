@@ -43396,7 +43396,7 @@ this
 .
 _handleTabSelect
 (
-false
+true
 )
 ;
 }
@@ -43689,7 +43689,9 @@ this
 .
 mTabstrip
 .
-scrollPosition
+_scrollbox
+.
+scrollLeft
 -
 draggedTab
 .
@@ -44379,7 +44381,7 @@ this
 .
 _handleTabSelect
 (
-false
+true
 )
 ;
 this
@@ -47870,7 +47872,9 @@ this
 .
 mTabstrip
 .
-scrollPosition
+_scrollbox
+.
+scrollLeft
 screenX
 :
 event
