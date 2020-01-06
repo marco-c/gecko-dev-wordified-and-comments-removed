@@ -1887,9 +1887,7 @@ window
 windowState
 =
 =
-Ci
-.
-nsIDOMChromeWindow
+window
 .
 STATE_MINIMIZED
 )
