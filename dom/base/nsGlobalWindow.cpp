@@ -12017,6 +12017,11 @@ CreateAboutBlankContentViewer
 newWindowPrincipal
 )
 ;
+if
+(
+mDoc
+)
+{
 mDoc
 -
 >
@@ -12025,6 +12030,7 @@ SetIsInitialDocument
 true
 )
 ;
+}
 nsCOMPtr
 <
 nsIPresShell
