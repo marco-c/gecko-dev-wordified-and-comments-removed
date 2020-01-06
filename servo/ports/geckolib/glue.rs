@@ -13049,6 +13049,7 @@ if
 let
 Ok
 (
+mut
 url
 )
 =
@@ -13066,6 +13067,12 @@ into
 context
 )
 {
+url
+.
+build_image_value
+(
+)
+;
 let
 decl
 =
