@@ -1341,13 +1341,6 @@ h
 '
 mlgpu
 /
-MemoryReportingMLGPU
-.
-h
-'
-'
-mlgpu
-/
 MLGDevice
 .
 h
@@ -2731,13 +2724,6 @@ cpp
 mlgpu
 /
 MaskOperation
-.
-cpp
-'
-'
-mlgpu
-/
-MemoryReportingMLGPU
 .
 cpp
 '
