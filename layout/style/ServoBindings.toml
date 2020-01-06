@@ -2488,6 +2488,9 @@ MatrixTransformOperator
 "
 RawGeckoGfxMatrix4x4
 "
+"
+EventStates
+"
 ]
 array
 -
