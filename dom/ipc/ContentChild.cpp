@@ -10806,6 +10806,13 @@ QuickExit
 #
 ifndef
 NS_FREE_PERMANENT_DATA
+CompositorManagerChild
+:
+:
+Shutdown
+(
+)
+;
 ProcessChild
 :
 :
