@@ -460,6 +460,7 @@ DEBUG_BUILD
 ;
 private
 static
+final
 AtomicInteger
 sPlayerId
 =

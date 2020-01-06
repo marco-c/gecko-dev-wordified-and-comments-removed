@@ -383,6 +383,7 @@ OpenNoHandler
 ;
 private
 static
+final
 String
 MARKET_INTENT_URI_PACKAGE_PREFIX
 =
@@ -399,6 +400,7 @@ id
 ;
 private
 static
+final
 String
 EXTRA_BROWSER_FALLBACK_URL
 =
@@ -408,6 +410,7 @@ browser_fallback_url
 ;
 private
 static
+final
 String
 UNKNOWN_PROTOCOL_URI_PREFIX
 =

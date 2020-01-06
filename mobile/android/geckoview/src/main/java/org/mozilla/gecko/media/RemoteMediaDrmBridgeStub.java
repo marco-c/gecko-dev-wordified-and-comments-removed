@@ -101,6 +101,7 @@ mStubId
 ;
 public
 static
+final
 ArrayList
 <
 RemoteMediaDrmBridgeStub

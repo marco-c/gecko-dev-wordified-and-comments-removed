@@ -252,6 +252,7 @@ TopStory
 {
 public
 static
+final
 String
 LOGTAG
 =

@@ -50,6 +50,7 @@ RelativeLayout
 {
 private
 static
+final
 long
 MIN_DISPLAY_TIME
 =
@@ -57,6 +58,7 @@ MIN_DISPLAY_TIME
 ;
 private
 static
+final
 long
 MAX_DISPLAY_TIME
 =

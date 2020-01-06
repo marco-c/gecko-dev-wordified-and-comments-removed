@@ -129,6 +129,7 @@ RestrictionConfiguration
 {
 private
 static
+final
 Map
 <
 Restrictable
@@ -268,6 +269,7 @@ true
 }
 private
 static
+final
 List
 <
 Restrictable

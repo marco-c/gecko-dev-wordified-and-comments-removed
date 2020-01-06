@@ -91,6 +91,7 @@ sNextHandle
 ;
 private
 static
+final
 HashMap
 <
 Integer

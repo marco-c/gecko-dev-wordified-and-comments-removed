@@ -544,6 +544,7 @@ value
 }
 private
 static
+final
 String
 HISTOGRAM_DATABASE_LOCKED
 =
@@ -553,6 +554,7 @@ DATABASE_LOCKED_EXCEPTION
 ;
 private
 static
+final
 String
 HISTOGRAM_DATABASE_UNLOCKED
 =
