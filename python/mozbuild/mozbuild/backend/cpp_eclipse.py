@@ -9012,6 +9012,9 @@ preferences
 version
 =
 1
+buildConsoleLines
+=
+10000
 ensureNewlineAtEOF
 =
 false
