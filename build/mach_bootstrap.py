@@ -1118,16 +1118,15 @@ mozilla_dir
 )
         
 except
+(
 mozversioncontrol
 .
 InvalidRepoPath
-:
-            
-return
-None
-        
-except
-Exception
+                
+mozversioncontrol
+.
+MissingVCSTool
+)
 :
             
 return
