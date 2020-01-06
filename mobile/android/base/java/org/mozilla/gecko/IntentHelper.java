@@ -678,10 +678,12 @@ if
 showPromptInPrivateBrowsing
 |
 |
+!
+(
 activityContext
-=
-=
-null
+instanceof
+FragmentActivity
+)
 )
 {
 if
