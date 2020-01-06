@@ -235,6 +235,13 @@ NotifyChannelRecreated
 )
 ;
 void
+NotifyClientSuspended
+(
+bool
+aSuspended
+)
+;
+void
 Pin
 (
 )
@@ -786,6 +793,11 @@ BLOCK_SIZE
 const
 bool
 mIsPrivateBrowsing
+;
+bool
+mClientSuspended
+=
+false
 ;
 }
 ;
