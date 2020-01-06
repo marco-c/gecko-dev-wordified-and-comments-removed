@@ -1466,6 +1466,12 @@ MOZ_COUNT_CTOR
 RangePaintInfo
 )
 ;
+mBuilder
+.
+BeginFrame
+(
+)
+;
 }
 ~
 RangePaintInfo
@@ -1478,6 +1484,12 @@ DeleteAll
 (
 &
 mBuilder
+)
+;
+mBuilder
+.
+EndFrame
+(
 )
 ;
 MOZ_COUNT_DTOR
