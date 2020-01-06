@@ -49,6 +49,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsIPresShell
+.
+h
+"
 using
 namespace
 mozilla
