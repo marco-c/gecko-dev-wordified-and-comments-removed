@@ -2470,6 +2470,14 @@ manifest
 ;
 this
 .
+baseURL
+=
+data
+.
+baseURL
+;
+this
+.
 baseURI
 =
 Services
