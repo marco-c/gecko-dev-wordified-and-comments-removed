@@ -2453,9 +2453,6 @@ BEGIN_TEST
 testHashTableMovableEnum
 )
 {
-IntSet
-set
-;
 CHECK
 (
 set
@@ -2482,7 +2479,6 @@ e
 =
 enumerateSet
 (
-set
 )
 ;
 !
@@ -2643,14 +2639,14 @@ true
 ;
 }
 IntSet
+set
+;
+IntSet
 :
 :
 Enum
 enumerateSet
 (
-IntSet
-&
-set
 )
 {
 return

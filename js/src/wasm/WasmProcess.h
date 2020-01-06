@@ -75,11 +75,6 @@ CodeSegment
 cs
 )
 ;
-void
-ShutDownProcessStaticData
-(
-)
-;
 }
 }
 #

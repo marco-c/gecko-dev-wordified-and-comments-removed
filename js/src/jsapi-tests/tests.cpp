@@ -178,12 +178,6 @@ cx
 nullptr
 ;
 }
-msgs
-.
-clear
-(
-)
-;
 }
 bool
 JSAPITest
