@@ -44439,6 +44439,9 @@ aIsBackground
 if
 (
 inner
+&
+&
+changed
 )
 {
 inner
