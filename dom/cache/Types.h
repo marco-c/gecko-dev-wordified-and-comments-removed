@@ -118,17 +118,6 @@ nsIInputStream
 >
 InputStreamResolver
 ;
-enum
-class
-OpenMode
-:
-uint8_t
-{
-Eager
-Lazy
-NumTypes
-}
-;
 }
 }
 }
