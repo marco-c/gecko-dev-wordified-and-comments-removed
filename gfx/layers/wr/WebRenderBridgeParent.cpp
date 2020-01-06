@@ -3481,9 +3481,8 @@ wrHost
 wrHost
 -
 >
-SetWrBridge
+ClearWrBridge
 (
-nullptr
 )
 ;
 }
@@ -4417,9 +4416,8 @@ Data
 )
 -
 >
-SetWrBridge
+ClearWrBridge
 (
-nullptr
 )
 ;
 }
