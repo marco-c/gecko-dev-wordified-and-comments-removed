@@ -2465,7 +2465,7 @@ placementsAfterMove
 ;
 if
 (
-isInNightly
+isNotReleaseOrBeta
 (
 )
 )
@@ -2520,7 +2520,7 @@ zoomControls
 ;
 if
 (
-isInNightly
+isNotReleaseOrBeta
 (
 )
 )
