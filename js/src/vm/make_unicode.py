@@ -11050,6 +11050,16 @@ LineTerminator
 '
 line_terminator
 )
+        
+character_range
+(
+'
+LineTerminatorAndSurrogate
+'
+line_terminator
++
+surrogate_chars
+)
 def
 update_unicode
 (
