@@ -5,6 +5,13 @@ ClientManagerOpParent
 .
 h
 "
+#
+include
+"
+ClientManagerService
+.
+h
+"
 namespace
 mozilla
 {

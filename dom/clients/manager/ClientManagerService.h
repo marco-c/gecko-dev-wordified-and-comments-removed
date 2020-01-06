@@ -7,6 +7,17 @@ _mozilla_dom_ClientManagerService_h
 #
 include
 "
+mozilla
+/
+ipc
+/
+PBackgroundSharedTypes
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
