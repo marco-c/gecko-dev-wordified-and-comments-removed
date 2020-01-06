@@ -303,7 +303,7 @@ result
 StringFromGUID2
 (
 aGuid
-char16ptr_t
+wwc
 (
 aOutString
 .
