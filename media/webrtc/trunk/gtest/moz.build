@@ -503,14 +503,6 @@ WEBRTC_POSIX
 ]
 =
 True
-DEFINES
-[
-'
-MOZ_JEMALLOC_IMPL
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =
