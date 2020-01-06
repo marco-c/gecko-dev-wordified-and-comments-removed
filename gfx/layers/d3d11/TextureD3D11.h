@@ -1532,7 +1532,7 @@ GetDevice
 )
 ;
 bool
-OpenSharedHandle
+EnsureTexture
 (
 )
 ;
@@ -1847,7 +1847,7 @@ GetDevice
 )
 ;
 bool
-OpenSharedHandle
+EnsureTexture
 (
 )
 ;
