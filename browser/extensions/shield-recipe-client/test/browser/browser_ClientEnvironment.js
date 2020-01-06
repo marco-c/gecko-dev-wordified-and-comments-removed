@@ -902,7 +902,6 @@ getEnvironment
 ;
 ok
 (
-!
 environment
 .
 isFirstRun
