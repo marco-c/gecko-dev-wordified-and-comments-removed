@@ -353,6 +353,10 @@ aDocument
 nsIContent
 *
 aAnonParent
+bool
+aNullParent
+=
+true
 )
 ;
 void

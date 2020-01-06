@@ -24760,6 +24760,16 @@ here
 ;
 MOZ_ASSERT
 (
+aContent
+-
+>
+IsInComposedDoc
+(
+)
+)
+;
+MOZ_ASSERT
+(
 !
 aContent
 -
