@@ -455,6 +455,10 @@ const
 OriginAttributes
 &
 aAttrs
+const
+bool
+&
+aFromHttp
 )
 {
 if
@@ -528,7 +532,7 @@ hostURI
 aIsForeign
 cookieString
 aServerTime
-false
+aFromHttp
 aAttrs
 dummyChannel
 )

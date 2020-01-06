@@ -674,6 +674,8 @@ nsCString
 serverTime
 OriginAttributes
 attrs
+bool
+aFromHttp
 )
 ;
 async

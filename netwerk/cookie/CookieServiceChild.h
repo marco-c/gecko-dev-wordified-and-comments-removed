@@ -147,6 +147,8 @@ const
 char
 *
 aServerTime
+bool
+aFromHttp
 )
 ;
 void
