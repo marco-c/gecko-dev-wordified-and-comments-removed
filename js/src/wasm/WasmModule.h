@@ -960,6 +960,8 @@ extractCode
 JSContext
 *
 cx
+Tier
+tier
 MutableHandleValue
 vp
 )
