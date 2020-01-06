@@ -1302,6 +1302,8 @@ const
 aResultPrincipalURI
 bool
 aLoadReplace
+bool
+aLoadFromExternal
 nsIURI
 *
 aReferrer

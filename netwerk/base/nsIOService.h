@@ -395,6 +395,12 @@ IsDataURIUniqueOpaqueOrigin
 (
 )
 ;
+static
+bool
+BlockToplevelDataUriNavigations
+(
+)
+;
 void
 IncrementRequestNumber
 (
@@ -751,6 +757,10 @@ mNetworkNotifyChanged
 static
 bool
 sIsDataURIUniqueOpaqueOrigin
+;
+static
+bool
+sBlockToplevelDataUriNavigations
 ;
 uint32_t
 mTotalRequests
