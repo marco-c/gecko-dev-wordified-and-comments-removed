@@ -557,7 +557,7 @@ CallSite
 SlowCallSiteSearchByOffset
 (
 const
-Metadata
+MetadataTier
 &
 metadata
 uint32_t
@@ -963,7 +963,7 @@ callsite
 =
 SlowCallSiteSearchByOffset
 (
-metadata
+metadataTier
 (
 )
 lineno
@@ -1165,7 +1165,7 @@ CallSite
 &
 callSite
 :
-metadata
+metadataTier
 (
 )
 .
@@ -1299,7 +1299,7 @@ if
 !
 SlowCallSiteSearchByOffset
 (
-metadata
+metadataTier
 (
 )
 offset
@@ -2038,7 +2038,7 @@ false
 return
 SlowCallSiteSearchByOffset
 (
-metadata
+metadataTier
 (
 )
 offset
@@ -2074,7 +2074,7 @@ callSite
 =
 SlowCallSiteSearchByOffset
 (
-metadata
+metadataTier
 (
 )
 offset
@@ -2719,7 +2719,7 @@ Uint32Vector
 &
 farJumpOffsets
 =
-metadata
+metadataTier
 (
 )
 .

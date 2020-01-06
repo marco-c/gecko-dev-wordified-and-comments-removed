@@ -1960,7 +1960,7 @@ CodeRange
 &
 p
 :
-metadata
+metadataTier
 (
 )
 .
@@ -2568,7 +2568,7 @@ CodeRangeVector
 &
 codeRanges
 =
-metadata
+metadataTier
 (
 )
 .
