@@ -2074,6 +2074,7 @@ new
 UnscaledFontMac
 (
 baseFont
+mIsDataUserFont
 )
 ;
 mUnscaledFont
