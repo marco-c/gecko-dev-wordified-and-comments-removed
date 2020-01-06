@@ -238,6 +238,7 @@ Var
 ForOfVar
 Let
 Const
+Class
 Import
 BodyLevelFunction
 ModuleBodyLevelFunction
@@ -327,6 +328,12 @@ DeclarationKind
 :
 :
 Let
+:
+case
+DeclarationKind
+:
+:
+Class
 :
 case
 DeclarationKind
