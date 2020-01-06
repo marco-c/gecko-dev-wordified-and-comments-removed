@@ -33042,7 +33042,10 @@ abstractThread
 #
 if
 XP_WIN
+DebugOnly
+<
 HRESULT
+>
 hr
 =
 CoInitializeEx

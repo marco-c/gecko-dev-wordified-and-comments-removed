@@ -1087,9 +1087,6 @@ if
 chromeInstance
 )
 {
-NPError
-rv
-=
 chromeInstance
 -
 >
