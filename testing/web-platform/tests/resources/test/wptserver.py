@@ -171,9 +171,12 @@ self
 .
 wpt_root
 '
-serve
+wpt
 '
 )
+'
+serve
+'
 '
 -
 -

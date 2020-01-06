@@ -1149,7 +1149,7 @@ manually
 by
 starting
 the
-lint
+wpt
 executable
 from
 the
@@ -1164,11 +1164,17 @@ platform
 tests
 working
 directory
+and
+invoking
+the
+lint
+subcommand
 like
 this
 :
 .
 /
+wpt
 lint
 The
 lint

@@ -3342,6 +3342,24 @@ Flush
 the
 output
 .
+Returns
+False
+if
+the
+flush
+failed
+due
+to
+        
+the
+socket
+being
+closed
+by
+the
+remote
+end
+.
 "
 "
 "
@@ -3356,6 +3374,9 @@ _wfile
 flush
 (
 )
+            
+return
+True
         
 except
 socket
@@ -3363,4 +3384,5 @@ socket
 error
 :
             
-pass
+return
+False

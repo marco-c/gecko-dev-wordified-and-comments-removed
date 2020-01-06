@@ -405,6 +405,7 @@ manifest
 .
 .
 /
+wpt
 manifest
 Navigate
 to
@@ -690,6 +691,7 @@ manifest
 .
 .
 /
+wpt
 manifest
 *
 *
@@ -1153,6 +1155,7 @@ manifest
 .
 .
 /
+wpt
 manifest
 #
 #
