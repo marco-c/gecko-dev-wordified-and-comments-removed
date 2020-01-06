@@ -891,6 +891,13 @@ BoxShadowClipMode
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone

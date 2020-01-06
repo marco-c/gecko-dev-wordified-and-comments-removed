@@ -114,7 +114,7 @@ ClipRegion
 {
 pub
 fn
-for_clip_node
+create_for_clip_node
 (
 rect
 :
@@ -289,7 +289,7 @@ clone
 ClipRegion
 :
 :
-for_clip_node
+create_for_clip_node
 (
 *
 local_clip
@@ -303,7 +303,7 @@ None
 }
 pub
 fn
-for_local_clip
+create_for_local_clip
 (
 local_clip
 :

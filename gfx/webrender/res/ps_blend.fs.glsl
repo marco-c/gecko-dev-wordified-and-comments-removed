@@ -972,17 +972,9 @@ amount
 )
 {
 return
-vec4
-(
 Cs
-.
-rgb
-Cs
-.
-a
 *
 amount
-)
 ;
 }
 void

@@ -312,6 +312,13 @@ src_task
 data0
 .
 xy
++
+vec2
+(
+0
+.
+5
+)
 src_task
 .
 data0
@@ -323,6 +330,13 @@ src_task
 data0
 .
 zw
+-
+vec2
+(
+0
+.
+5
+)
 )
 ;
 vUvRect
