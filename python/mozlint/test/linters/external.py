@@ -32,21 +32,6 @@ lintargs
 )
 :
     
-if
-lintargs
-.
-get
-(
-'
-fix
-'
-)
-:
-        
-return
-[
-]
-    
 results
 =
 [
