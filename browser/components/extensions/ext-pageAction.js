@@ -523,6 +523,14 @@ shutdown
 ;
 if
 (
+reason
+!
+=
+"
+APP_SHUTDOWN
+"
+&
+&
 this
 .
 browserPageAction
