@@ -40,6 +40,17 @@ Zone
 .
 h
 "
+#
+include
+"
+gc
+/
+ArenaList
+-
+inl
+.
+h
+"
 namespace
 js
 {
