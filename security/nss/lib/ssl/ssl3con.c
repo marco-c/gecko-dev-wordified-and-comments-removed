@@ -31528,6 +31528,10 @@ rv
 SECSuccess
 )
 {
+desc
+=
+handshake_failure
+;
 errCode
 =
 PORT_GetError
@@ -31535,7 +31539,7 @@ PORT_GetError
 )
 ;
 goto
-loser
+alert_loser
 ;
 }
 rv

@@ -1013,6 +1013,13 @@ spki
 >
 algorithm
 SEC_OID_PKCS1_RSA_PSS_SIGNATURE
+hashAlgTag
+=
+=
+SEC_OID_UNKNOWN
+?
+NULL
+:
 params
 )
 ;
