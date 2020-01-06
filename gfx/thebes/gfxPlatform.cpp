@@ -2821,7 +2821,12 @@ MOZ_WIDGET_ANDROID
 uint32_t
 cacheSize
 =
-10
+gfxPrefs
+:
+:
+SkiaContentFontCacheSize
+(
+)
 *
 1024
 *
