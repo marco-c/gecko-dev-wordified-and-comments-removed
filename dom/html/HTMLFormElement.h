@@ -779,6 +779,14 @@ aRv
 ;
 }
 void
+GetAction
+(
+nsString
+&
+aValue
+)
+;
+void
 SetAction
 (
 const
