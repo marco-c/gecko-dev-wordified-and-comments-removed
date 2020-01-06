@@ -513,8 +513,6 @@ build
 platform
 :
 linux64
--
-stylo
 /
 debug
 test
@@ -536,8 +534,6 @@ build
 platform
 :
 linux64
--
-stylo
 /
 opt
 test
@@ -563,8 +559,6 @@ build
 platform
 :
 linux64
--
-stylo
 /
 debug
 test
@@ -590,8 +584,6 @@ build
 platform
 :
 linux64
--
-stylo
 /
 opt
 test
