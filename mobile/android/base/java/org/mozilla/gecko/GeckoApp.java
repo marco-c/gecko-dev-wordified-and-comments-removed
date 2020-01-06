@@ -8996,6 +8996,9 @@ new
 PromptService
 (
 this
+getAppEventDispatcher
+(
+)
 )
 ;
 mJavaUiStartupTimer
