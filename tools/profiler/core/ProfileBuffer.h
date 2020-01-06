@@ -246,6 +246,17 @@ aUniqueStacks
 )
 const
 ;
+void
+StreamPausedRangesToJSON
+(
+SpliceableJSONWriter
+&
+aWriter
+double
+aSinceTime
+)
+const
+;
 bool
 DuplicateLastSample
 (
