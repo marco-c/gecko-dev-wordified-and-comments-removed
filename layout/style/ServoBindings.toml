@@ -2106,6 +2106,9 @@ nsStyleContent
 nsStyleContentData
 "
 "
+nsStyleContentData_CounterFunction
+"
+"
 nsStyleContentType
 "
 "

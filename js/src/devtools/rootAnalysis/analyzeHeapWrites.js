@@ -965,6 +965,15 @@ aContent
 null
 ]
 [
+"
+Gecko_SetCounterFunction
+"
+"
+aContent
+"
+null
+]
+[
 /
 Gecko_EnsureStyle
 .
