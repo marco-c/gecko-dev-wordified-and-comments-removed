@@ -777,6 +777,11 @@ CSS
 h
 '
 '
+CSSImportRule
+.
+h
+'
+'
 CSSKeyframeRule
 .
 h
@@ -937,6 +942,11 @@ cpp
 '
 '
 CSS
+.
+cpp
+'
+'
+CSSImportRule
 .
 cpp
 '
