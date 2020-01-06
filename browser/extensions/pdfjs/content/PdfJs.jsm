@@ -498,6 +498,11 @@ enablePrintAutoRotate
 :
 false
 "
+disablePageMode
+"
+:
+false
+"
 disablePageLabels
 "
 :
