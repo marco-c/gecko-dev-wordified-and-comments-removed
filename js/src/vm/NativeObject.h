@@ -5505,6 +5505,14 @@ sweepDictionaryListPointer
 (
 )
 ;
+void
+updateDictionaryListPointerAfterMinorGC
+(
+NativeObject
+*
+old
+)
+;
 static
 size_t
 offsetOfElements
