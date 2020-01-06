@@ -3518,9 +3518,8 @@ layout_parent_style
 )
 ;
 }
-let
-computed
-=
+Some
+(
 properties
 :
 :
@@ -3553,10 +3552,6 @@ self
 .
 quirks_mode
 )
-;
-Some
-(
-computed
 )
 }
 else
