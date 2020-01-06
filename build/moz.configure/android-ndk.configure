@@ -1841,7 +1841,6 @@ ndk
 )
 depends
 (
-stlport_cppflags
 extra_toolchain_flags
 android_toolchain
 android_toolchain_prefix_base
@@ -1869,7 +1868,6 @@ isdir
 def
 bindgen_cflags_defaults
 (
-stlport_cppflags
 toolchain_flags
 toolchain
 toolchain_prefix
@@ -1878,7 +1876,7 @@ _
 :
 if
 not
-stlport_cppflags
+toolchain_flags
 :
 return
 gcc_include
@@ -1939,8 +1937,6 @@ cflags_format
 "
 %
 s
-%
-s
 -
 I
 %
@@ -1954,13 +1950,6 @@ return
 cflags_format
 %
 (
-'
-'
-.
-join
-(
-stlport_cppflags
-)
 '
 '
 .
