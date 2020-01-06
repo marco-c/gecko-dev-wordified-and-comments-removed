@@ -86,6 +86,12 @@ CFStringRef
 }
 ;
 use
+libc
+:
+:
+c_void
+;
+use
 std
 :
 :
@@ -104,8 +110,12 @@ repr
 C
 )
 ]
+pub
 struct
 __CTFontCollection
+(
+c_void
+)
 ;
 pub
 type

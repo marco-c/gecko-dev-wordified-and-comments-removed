@@ -7,11 +7,6 @@ dead_code
 )
 ]
 #
-!
-[
-no_std
-]
-#
 [
 macro_use
 ]
@@ -26,7 +21,7 @@ bitflags
 /
 /
 baz
-struct
+flags
 Flags
 :
 u32
@@ -35,7 +30,6 @@ const
 A
 =
 0b00000001
-;
 #
 [
 doc
@@ -48,12 +42,10 @@ const
 B
 =
 0b00000010
-;
 const
 C
 =
 0b00000100
-;
 #
 [
 doc
@@ -76,7 +68,6 @@ bits
 C
 .
 bits
-;
 }
 }
 #

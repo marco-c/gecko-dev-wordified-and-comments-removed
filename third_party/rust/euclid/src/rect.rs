@@ -104,6 +104,13 @@ Mul
 Div
 }
 ;
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 TypedRect
