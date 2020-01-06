@@ -1575,6 +1575,12 @@ nsFont
 dst
 )
 ;
+gfxFontFeatureValueSet
+*
+Gecko_ConstructFontFeatureValueSet
+(
+)
+;
 nsTArray
 <
 unsigned
