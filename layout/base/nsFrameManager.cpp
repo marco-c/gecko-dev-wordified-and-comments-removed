@@ -839,7 +839,7 @@ void
 nsFrameManager
 :
 :
-SetUndisplayedContent
+RegisterDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -1368,7 +1368,7 @@ void
 nsFrameManager
 :
 :
-SetDisplayContents
+RegisterDisplayContentsStyleFor
 (
 nsIContent
 *

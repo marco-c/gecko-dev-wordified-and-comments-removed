@@ -167,7 +167,7 @@ Destroy
 )
 ;
 void
-SetUndisplayedContent
+RegisterDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -178,7 +178,7 @@ aStyleContext
 )
 ;
 void
-SetDisplayContents
+RegisterDisplayContentsStyleFor
 (
 nsIContent
 *

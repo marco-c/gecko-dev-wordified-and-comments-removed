@@ -1913,7 +1913,7 @@ i
 mgr
 -
 >
-SetUndisplayedContent
+RegisterDisplayNoneStyleFor
 (
 item
 .

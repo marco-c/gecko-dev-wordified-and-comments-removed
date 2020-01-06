@@ -10975,7 +10975,7 @@ None
 )
 )
 {
-SetUndisplayedContent
+RegisterDisplayNoneStyleFor
 (
 aDocElement
 styleContext
@@ -24543,7 +24543,7 @@ aContent
 should
 have
 called
-SetUndisplayedContent
+RegisterDisplayNoneStyleFor
 earlier
 "
 )
@@ -25731,7 +25731,7 @@ aState
 mFrameManager
 -
 >
-SetDisplayContents
+RegisterDisplayContentsStyleFor
 (
 aContent
 styleContext
