@@ -2939,6 +2939,8 @@ uint8_t
 aData
 uint32_t
 aDataLength
+uint32_t
+aIndex
 )
 {
 switch
@@ -2963,6 +2965,7 @@ CreateFromFontDescriptor
 (
 aData
 aDataLength
+aIndex
 )
 ;
 #
@@ -2984,6 +2987,7 @@ CreateFromFontDescriptor
 (
 aData
 aDataLength
+aIndex
 )
 ;
 #

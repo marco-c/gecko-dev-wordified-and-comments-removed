@@ -368,6 +368,7 @@ sizeof
 (
 mLogFont
 )
+0
 aBaton
 )
 ;
@@ -390,6 +391,8 @@ uint8_t
 aData
 uint32_t
 aDataLength
+uint32_t
+aIndex
 )
 {
 if
