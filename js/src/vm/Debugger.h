@@ -2415,6 +2415,16 @@ JSTracer
 trc
 )
 ;
+friend
+struct
+js
+:
+:
+GCManagedDeletePolicy
+<
+Debugger
+>
+;
 void
 traceForMovingGC
 (

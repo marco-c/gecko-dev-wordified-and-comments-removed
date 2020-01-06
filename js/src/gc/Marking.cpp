@@ -833,6 +833,13 @@ IsBufferGrayRootsTracer
 (
 trc
 )
+&
+&
+!
+IsClearEdgesTracer
+(
+trc
+)
 )
 {
 MOZ_ASSERT
