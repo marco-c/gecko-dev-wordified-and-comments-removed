@@ -4374,15 +4374,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-stylo
-&
-&
-cocoaWidget
-)
 =
 =
 272646
@@ -4397,9 +4388,6 @@ xul
 ref
 .
 xul
-#
-bug
-1410787
 =
 =
 272646
