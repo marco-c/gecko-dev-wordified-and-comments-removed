@@ -41866,8 +41866,6 @@ contextTab
 hasAttribute
 (
 "
-activemedia
--
 blocked
 "
 )
