@@ -996,7 +996,7 @@ self
 .
 cascade_data
 .
-add_size_of_children
+add_size_of
 (
 ops
 sizes
@@ -1649,7 +1649,7 @@ gecko
 ]
 pub
 fn
-add_size_of_children
+add_size_of
 (
 &
 self
@@ -1669,7 +1669,7 @@ self
 .
 user
 .
-add_size_of_children
+add_size_of
 (
 ops
 sizes
@@ -1679,7 +1679,7 @@ self
 .
 author
 .
-add_size_of_children
+add_size_of
 (
 ops
 sizes
@@ -5823,7 +5823,7 @@ gecko
 ]
 pub
 fn
-add_size_of_children
+add_size_of
 (
 &
 self
@@ -5843,7 +5843,7 @@ self
 .
 cascade_data
 .
-add_size_of_children
+add_size_of
 (
 ops
 sizes
@@ -9040,7 +9040,7 @@ gecko
 ]
 pub
 fn
-add_size_of_children
+add_size_of
 (
 &
 self

@@ -24017,7 +24017,7 @@ unwrap
 ;
 data
 .
-add_size_of_children
+add_size_of
 (
 &
 mut

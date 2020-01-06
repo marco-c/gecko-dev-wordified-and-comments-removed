@@ -943,7 +943,7 @@ is_private_browsing_enabled
 }
 pub
 fn
-add_size_of_children
+add_size_of
 (
 &
 self
@@ -963,7 +963,7 @@ self
 .
 stylist
 .
-add_size_of_children
+add_size_of
 (
 ops
 sizes
