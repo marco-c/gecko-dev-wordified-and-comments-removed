@@ -2745,6 +2745,14 @@ CompositorDrawColorBars
 ;
 if
 (
+mTarget
+)
+{
+return
+;
+}
+if
+(
 drawFps
 )
 {
