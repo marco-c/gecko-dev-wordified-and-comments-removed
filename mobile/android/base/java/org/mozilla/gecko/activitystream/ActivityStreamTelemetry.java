@@ -245,6 +245,16 @@ public
 final
 static
 String
+TYPE_LEARN_MORE
+=
+"
+learn_more
+"
+;
+public
+final
+static
+String
 SUBTYPE_PINNED
 =
 "
