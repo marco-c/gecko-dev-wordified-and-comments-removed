@@ -2998,15 +2998,6 @@ frameElement
 IsNativeAnonymous
 (
 )
-&
-&
-nsCSSPseudoElements
-:
-:
-PseudoElementIsJSCreatedNAC
-(
-aPseudoType
-)
 )
 {
 Element
