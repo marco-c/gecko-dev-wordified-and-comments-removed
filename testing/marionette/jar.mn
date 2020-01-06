@@ -377,6 +377,16 @@ reftest
 .
 xul
 )
+content
+/
+dom
+.
+js
+(
+dom
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
