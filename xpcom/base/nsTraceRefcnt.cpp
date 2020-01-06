@@ -4284,8 +4284,6 @@ PrintStackFrame
 2
 0
 aStream
-0
-nullptr
 )
 ;
 }
@@ -4318,8 +4316,6 @@ PrintStackFrameCached
 2
 0
 aStream
-0
-nullptr
 )
 ;
 }
@@ -4371,8 +4367,6 @@ kFramesToSkip
 0
 &
 aLocations
-0
-nullptr
 )
 ;
 }

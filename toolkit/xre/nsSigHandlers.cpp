@@ -386,8 +386,6 @@ PrintStackFrame
 2
 0
 nullptr
-0
-nullptr
 )
 ;
 printf

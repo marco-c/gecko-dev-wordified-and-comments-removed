@@ -291,8 +291,6 @@ aFramesToSkip
 sStackTraceDepth
 &
 msgStream
-0
-nullptr
 )
 ;
 }

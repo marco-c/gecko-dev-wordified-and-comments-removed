@@ -413,8 +413,6 @@ SandboxPrintStackFrame
 3
 0
 nullptr
-0
-nullptr
 )
 ;
 SANDBOX_LOG_ERROR

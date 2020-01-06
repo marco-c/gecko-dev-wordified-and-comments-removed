@@ -3830,7 +3830,7 @@ defined
 GP_OS_windows
 )
 static
-uintptr_t
+HANDLE
 GetThreadHandle
 (
 PlatformData
@@ -4034,7 +4034,7 @@ defined
 (
 USE_MOZ_STACK_WALK
 )
-uintptr_t
+HANDLE
 thread
 =
 GetThreadHandle
@@ -4051,7 +4051,7 @@ MOZ_ASSERT
 thread
 )
 ;
-MozStackWalk
+MozStackWalkThread
 (
 StackWalkCallback
 0
@@ -5470,7 +5470,7 @@ HasData
 )
 )
 {
-double
+TimeDuration
 delta
 =
 resp
@@ -5478,20 +5478,7 @@ resp
 >
 GetUnresponsiveDuration
 (
-(
 aNow
--
-CorePS
-:
-:
-ProcessStartTime
-(
-)
-)
-.
-ToMilliseconds
-(
-)
 )
 ;
 buffer
@@ -5504,6 +5491,10 @@ ProfileBufferEntry
 Responsiveness
 (
 delta
+.
+ToMilliseconds
+(
+)
 )
 )
 ;

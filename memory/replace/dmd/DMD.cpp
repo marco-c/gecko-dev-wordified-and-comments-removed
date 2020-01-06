@@ -3172,8 +3172,6 @@ skipFrames
 MaxFrames
 &
 tmp
-0
-nullptr
 )
 ;
 #
@@ -6635,8 +6633,6 @@ MozStackWalk
 NopStackWalkCallback
 0
 1
-nullptr
-0
 nullptr
 )
 ;

@@ -269,7 +269,7 @@ mProfiledThread
 ;
 }
 ;
-uintptr_t
+HANDLE
 GetThreadHandle
 (
 PlatformData
@@ -278,9 +278,6 @@ aData
 )
 {
 return
-(
-uintptr_t
-)
 aData
 -
 >
