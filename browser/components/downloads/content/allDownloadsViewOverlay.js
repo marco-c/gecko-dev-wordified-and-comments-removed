@@ -4267,7 +4267,6 @@ _ensureInitialSelection
 onDownloadAdded
 (
 download
-newest
 )
 {
 this
@@ -4276,7 +4275,7 @@ _addDownloadData
 (
 download
 null
-newest
+true
 )
 ;
 }
