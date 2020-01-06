@@ -1478,11 +1478,6 @@ SharedMemoryEnabled
 )
 ;
 bool
-DOMStreamsEnabled
-(
-)
-;
-bool
 SetAddonInterposition
 (
 const

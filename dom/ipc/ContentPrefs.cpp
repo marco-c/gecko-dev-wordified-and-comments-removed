@@ -304,13 +304,6 @@ testing
 "
 dom
 .
-streams
-.
-enabled
-"
-"
-dom
-.
 url
 .
 encode_decode_hash
