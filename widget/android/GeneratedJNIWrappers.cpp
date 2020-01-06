@@ -1506,7 +1506,7 @@ a0
 )
 -
 >
-void
+bool
 {
 return
 mozilla
