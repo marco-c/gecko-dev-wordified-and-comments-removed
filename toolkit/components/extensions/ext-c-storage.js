@@ -411,12 +411,6 @@ serialize
 keys
 )
 ]
-null
-{
-noClone
-:
-true
-}
 )
 .
 then
@@ -501,12 +495,6 @@ serialize
 items
 )
 ]
-null
-{
-noClone
-:
-true
-}
 )
 ;
 TelemetryStopwatch
