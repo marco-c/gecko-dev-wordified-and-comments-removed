@@ -85,11 +85,6 @@ MPL
 0
 /
 .
-DIST_SUBDIR
-=
-'
-browser
-'
 DevToolsModules
 (
 '
