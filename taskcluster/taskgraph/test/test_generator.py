@@ -258,6 +258,16 @@ fake
 config
 )
 class
+FakeParameters
+(
+dict
+)
+:
+    
+strict
+=
+True
+class
 TestGenerator
 (
 unittest
@@ -329,6 +339,8 @@ target_tasks_method
         
 parameters
 =
+FakeParameters
+(
 {
             
 '
@@ -352,6 +364,7 @@ try_mode
 None
         
 }
+)
         
 return
 WithFakeKind
