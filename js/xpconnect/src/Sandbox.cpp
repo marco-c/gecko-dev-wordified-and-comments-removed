@@ -8244,6 +8244,15 @@ sandbox
 "
 )
 ;
+#
+ifndef
+DEBUG
+else
+return
+NS_OK
+;
+#
+endif
 XPCCallContext
 *
 cc
