@@ -36998,7 +36998,7 @@ null
 )
 ;
 TokenKind
-tt
+firstToken
 ;
 if
 (
@@ -37008,7 +37008,7 @@ tokenStream
 getToken
 (
 &
-tt
+firstToken
 TokenStream
 :
 :
@@ -37032,7 +37032,7 @@ endsExpr
 ;
 if
 (
-tt
+firstToken
 =
 =
 TOK_NAME
@@ -37093,7 +37093,7 @@ name
 }
 if
 (
-tt
+firstToken
 =
 =
 TOK_NUMBER
@@ -37132,7 +37132,7 @@ currentToken
 }
 if
 (
-tt
+firstToken
 =
 =
 TOK_STRING
@@ -37166,7 +37166,7 @@ stringLiteral
 }
 if
 (
-tt
+firstToken
 =
 =
 TOK_YIELD
@@ -37189,7 +37189,7 @@ false
 ;
 if
 (
-tt
+firstToken
 =
 =
 TOK_ASYNC
@@ -37261,6 +37261,9 @@ this
 Node
 lhs
 ;
+TokenKind
+tokenAfterLHS
+;
 if
 (
 maybeAsyncArrow
@@ -37278,7 +37281,7 @@ Operand
 )
 ;
 TokenKind
-tt
+tokenAfterAsync
 ;
 if
 (
@@ -37288,7 +37291,7 @@ tokenStream
 getToken
 (
 &
-tt
+tokenAfterAsync
 )
 )
 return
@@ -37300,7 +37303,7 @@ MOZ_ASSERT
 (
 TokenKindIsPossibleIdentifier
 (
-tt
+tokenAfterAsync
 )
 )
 ;
@@ -37332,7 +37335,7 @@ tokenStream
 getToken
 (
 &
-tt
+tokenAfterLHS
 )
 )
 return
@@ -37342,7 +37345,7 @@ null
 ;
 if
 (
-tt
+tokenAfterLHS
 !
 =
 TOK_ARROW
@@ -37362,7 +37365,7 @@ list
 "
 TokenKindToDesc
 (
-tt
+tokenAfterLHS
 )
 )
 ;
@@ -37405,7 +37408,7 @@ tokenStream
 getToken
 (
 &
-tt
+tokenAfterLHS
 )
 )
 return
@@ -37419,7 +37422,7 @@ kind
 ;
 switch
 (
-tt
+tokenAfterLHS
 )
 {
 case
