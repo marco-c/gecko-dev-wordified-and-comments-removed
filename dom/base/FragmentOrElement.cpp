@@ -2181,10 +2181,6 @@ doc
 GetDocumentCharacterSet
 (
 )
-.
-get
-(
-)
 base
 )
 ;
