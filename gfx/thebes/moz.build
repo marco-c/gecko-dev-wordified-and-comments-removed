@@ -134,11 +134,6 @@ EXPORTS
 =
 [
 '
-ContextStateTracker
-.
-h
-'
-'
 DrawMode
 .
 h
@@ -890,11 +885,6 @@ SOURCES
 +
 =
 [
-'
-ContextStateTracker
-.
-cpp
-'
 #
 Includes
 mac
