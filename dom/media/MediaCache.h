@@ -667,9 +667,6 @@ nsIPrincipal
 mPrincipal
 ;
 bool
-mHasHadUpdate
-;
-bool
 mClosed
 ;
 bool
