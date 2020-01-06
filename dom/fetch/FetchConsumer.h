@@ -237,12 +237,6 @@ const
 bool
 RegisterWorkerHolder
 (
-workers
-:
-:
-WorkerPrivate
-*
-aWorkerPrivate
 )
 ;
 nsCOMPtr
