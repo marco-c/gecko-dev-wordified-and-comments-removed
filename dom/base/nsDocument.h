@@ -5608,15 +5608,6 @@ Value
 aVp
 )
 ;
-static
-bool
-IsWebComponentsEnabled
-(
-nsPIDOMWindowInner
-*
-aWindow
-)
-;
 public
 :
 virtual
