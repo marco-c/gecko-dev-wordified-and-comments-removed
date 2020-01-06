@@ -5265,7 +5265,7 @@ getSettings
 .
 setString
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 CHROME_URI
 "

@@ -21,7 +21,7 @@ mozilla
 .
 gecko
 .
-GeckoView
+GeckoSessionSettings
 ;
 import
 org
@@ -30,7 +30,7 @@ mozilla
 .
 gecko
 .
-GeckoViewSettings
+GeckoView
 ;
 import
 org
@@ -638,7 +638,7 @@ getSettings
 .
 setString
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 CHROME_URI
 PRESENTATION_VIEW_URI
@@ -658,7 +658,7 @@ getSettings
 .
 setInt
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 SCREEN_ID
 screenId

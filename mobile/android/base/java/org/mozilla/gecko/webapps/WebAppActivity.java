@@ -244,6 +244,15 @@ mozilla
 .
 gecko
 .
+GeckoSessionSettings
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoSharedPrefs
 ;
 import
@@ -254,15 +263,6 @@ mozilla
 gecko
 .
 GeckoView
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-GeckoViewSettings
 ;
 import
 org
@@ -626,7 +626,7 @@ create
 )
 ;
 final
-GeckoViewSettings
+GeckoSessionSettings
 settings
 =
 mGeckoView
@@ -639,7 +639,7 @@ settings
 .
 setBoolean
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 USE_MULTIPROCESS
 false
@@ -649,7 +649,7 @@ settings
 .
 setBoolean
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 USE_REMOTE_DEBUGGER
 GeckoSharedPrefs
@@ -1329,7 +1329,7 @@ standalone
 :
 mode
 =
-GeckoViewSettings
+GeckoSessionSettings
 .
 DISPLAY_MODE_STANDALONE
 ;
@@ -1342,7 +1342,7 @@ fullscreen
 :
 mode
 =
-GeckoViewSettings
+GeckoSessionSettings
 .
 DISPLAY_MODE_FULLSCREEN
 ;
@@ -1357,7 +1357,7 @@ ui
 :
 mode
 =
-GeckoViewSettings
+GeckoSessionSettings
 .
 DISPLAY_MODE_MINIMAL_UI
 ;
@@ -1372,7 +1372,7 @@ default
 :
 mode
 =
-GeckoViewSettings
+GeckoSessionSettings
 .
 DISPLAY_MODE_BROWSER
 ;
@@ -1387,7 +1387,7 @@ getSettings
 .
 setInt
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 DISPLAY_MODE
 mode

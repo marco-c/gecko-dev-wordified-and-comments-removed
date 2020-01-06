@@ -320,7 +320,7 @@ mozilla
 .
 gecko
 .
-GeckoView
+GeckoSessionSettings
 ;
 import
 org
@@ -329,7 +329,7 @@ mozilla
 .
 gecko
 .
-GeckoViewSettings
+GeckoView
 ;
 import
 org
@@ -973,7 +973,7 @@ create
 )
 ;
 final
-GeckoViewSettings
+GeckoSessionSettings
 settings
 =
 mGeckoView
@@ -986,7 +986,7 @@ settings
 .
 setBoolean
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 USE_MULTIPROCESS
 false
@@ -996,7 +996,7 @@ settings
 .
 setBoolean
 (
-GeckoViewSettings
+GeckoSessionSettings
 .
 USE_REMOTE_DEBUGGER
 GeckoSharedPrefs

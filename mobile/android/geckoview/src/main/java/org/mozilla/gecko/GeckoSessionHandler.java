@@ -47,7 +47,7 @@ Log
 ;
 abstract
 class
-GeckoViewHandler
+GeckoSessionHandler
 <
 Listener
 >
@@ -61,7 +61,7 @@ String
 LOGTAG
 =
 "
-GeckoViewHandler
+GeckoSessionHandler
 "
 ;
 private
@@ -93,7 +93,7 @@ String
 ]
 mEvents
 ;
-GeckoViewHandler
+GeckoSessionHandler
 (
 final
 String
@@ -117,7 +117,7 @@ false
 )
 ;
 }
-GeckoViewHandler
+GeckoSessionHandler
 (
 final
 String
