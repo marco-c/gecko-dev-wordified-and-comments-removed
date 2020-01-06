@@ -550,7 +550,7 @@ mInvalidBounds
 mContainer
 -
 >
-GetShadowVisibleRegion
+GetRenderRegion
 (
 )
 .
@@ -860,8 +860,6 @@ AdvancedLayersEnableCPUOcclusion
 LayerIntRegion
 region
 =
-Move
-(
 aItem
 .
 layer
@@ -870,14 +868,13 @@ layer
 GetShadowVisibleRegion
 (
 )
-)
 ;
 aItem
 .
 layer
 -
 >
-SetRegionToRender
+SetRenderRegion
 (
 Move
 (
@@ -1058,8 +1055,6 @@ c_str
 LayerIntRegion
 region
 =
-Move
-(
 aItem
 .
 layer
@@ -1067,7 +1062,6 @@ layer
 >
 GetShadowVisibleRegion
 (
-)
 )
 ;
 region
@@ -1182,7 +1176,7 @@ aItem
 layer
 -
 >
-SetRegionToRender
+SetRenderRegion
 (
 Move
 (
@@ -1214,7 +1208,7 @@ aItem
 layer
 -
 >
-GetShadowVisibleRegion
+GetRenderRegion
 (
 )
 )
