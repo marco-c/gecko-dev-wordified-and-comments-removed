@@ -5971,6 +5971,11 @@ ProgressEvent
 webidl
 '
 '
+RecordErrorEvent
+.
+webidl
+'
+'
 StyleRuleChangeEvent
 .
 webidl
@@ -6184,11 +6189,6 @@ MediaQueryListEvent
 webidl
 '
 '
-MediaRecorderErrorEvent
-.
-webidl
-'
-'
 MediaStreamEvent
 .
 webidl
@@ -6245,6 +6245,11 @@ webidl
 '
 '
 PromiseRejectionEvent
+.
+webidl
+'
+'
+RecordErrorEvent
 .
 webidl
 '
