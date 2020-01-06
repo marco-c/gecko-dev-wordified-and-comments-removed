@@ -658,13 +658,6 @@ True
 imply_option
 (
 '
-MOZ_SOCIAL
-'
-False
-)
-imply_option
-(
-'
 MOZ_SERVICES_HEALTHREPORT
 '
 True
