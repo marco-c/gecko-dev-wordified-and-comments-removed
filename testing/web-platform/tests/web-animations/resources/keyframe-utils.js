@@ -1018,11 +1018,6 @@ left
 "
 30px
 "
-top
-:
-"
-invalid
-"
 }
 {
 offset
@@ -1526,11 +1521,6 @@ easing
 "
 linear
 "
-left
-:
-"
-invalid
-"
 }
 {
 offset
@@ -1622,11 +1612,6 @@ easing
 :
 "
 linear
-"
-left
-:
-"
-invalid
 "
 }
 ]
