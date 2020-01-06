@@ -88,10 +88,7 @@ class
 OwningArrayBufferViewOrArrayBuffer
 ;
 struct
-ScopedCredentialOptions
-;
-struct
-ScopedCredentialParameters
+MakePublicKeyCredentialOptions
 ;
 class
 Promise
@@ -176,7 +173,7 @@ nsPIDOMWindowInner
 *
 aParent
 const
-MakeCredentialOptions
+MakePublicKeyCredentialOptions
 &
 aOptions
 )

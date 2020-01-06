@@ -204,7 +204,7 @@ publicKey
 dictionary
 CredentialCreationOptions
 {
-MakeCredentialOptions
+MakePublicKeyCredentialOptions
 publicKey
 ;
 }
