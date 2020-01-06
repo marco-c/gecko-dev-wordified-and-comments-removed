@@ -2864,7 +2864,7 @@ matchesIgnore
 let
 id
 =
-matches
+matchesIgnore
 [
 1
 ]
@@ -2914,13 +2914,7 @@ if
 (
 !
 (
-{
 entry
-}
-.
-dmp
-.
-ignore
 in
 ignored
 )
