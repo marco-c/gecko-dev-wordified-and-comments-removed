@@ -137,16 +137,7 @@ GetDescriptionName
 )
 const
 override
-{
-return
-NS_LITERAL_CSTRING
-(
-"
-RemoteVideoDecoder
-"
-)
 ;
-}
 ConversionRequired
 NeedsConversion
 (
@@ -170,6 +161,9 @@ RefPtr
 VideoDecoderChild
 >
 mActor
+;
+nsCString
+mDescription
 ;
 }
 ;
