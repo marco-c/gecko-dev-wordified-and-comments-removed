@@ -4700,6 +4700,9 @@ nsContainerFrame
 aParentFrame
 nsStyleContext
 *
+aParentStyleContext
+nsStyleContext
+*
 aStyleContext
 nsFrameItems
 &
