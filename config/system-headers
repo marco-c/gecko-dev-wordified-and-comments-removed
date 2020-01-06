@@ -3383,6 +3383,11 @@ sane
 saneopts
 .
 h
+sanitizer
+/
+asan_interface
+.
+h
 sched
 .
 h
