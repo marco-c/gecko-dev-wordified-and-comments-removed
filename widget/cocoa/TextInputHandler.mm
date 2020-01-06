@@ -168,15 +168,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextEventDispatcher
 .
 h
@@ -2399,8 +2390,8 @@ X
 len
 =
 %
+zu
 "
-PRIuSIZE
 this
 static_cast
 <
@@ -2812,9 +2803,7 @@ X
 len
 =
 %
-"
-PRIuSIZE
-"
+zu
 deadKeyState
 =
 %

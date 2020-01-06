@@ -249,15 +249,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -7575,9 +7566,7 @@ d
 numItems
 =
 %
-"
-PRIuSIZE
-"
+zu
 ]
 "
 this

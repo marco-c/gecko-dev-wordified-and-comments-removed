@@ -318,15 +318,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 webrtc
 /
 common_types
@@ -10285,9 +10276,7 @@ p
 :
 Inserting
 %
-"
-PRIuSIZE
-"
+zu
 samples
 into
 track

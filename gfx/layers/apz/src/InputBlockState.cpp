@@ -40,15 +40,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -2413,9 +2404,7 @@ touch
 behaviours
 for
 %
-"
-PRIuSIZE
-"
+zu
 points
 \
 n

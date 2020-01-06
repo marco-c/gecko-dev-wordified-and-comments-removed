@@ -26,15 +26,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 nsNavHistory
 .
 h

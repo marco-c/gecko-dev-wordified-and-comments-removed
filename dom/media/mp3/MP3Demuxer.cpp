@@ -34,15 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -1575,9 +1566,7 @@ Size
 )
 =
 %
-"
-PRIuSIZE
-"
+zu
 aNumSamples
 =
 %
@@ -3440,8 +3429,8 @@ Size
 )
 =
 %
+zu
 "
-PRIuSIZE
 read
 frame
 -

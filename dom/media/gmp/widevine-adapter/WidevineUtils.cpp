@@ -14,15 +14,6 @@ h
 "
 #
 include
-<
-mozilla
-/
-SizePrintfMacros
-.
-h
->
-#
-include
 "
 gmp
 -
@@ -444,9 +435,7 @@ WidevineBuffer
 size
 =
 %
-"
-PRIuSIZE
-"
+zu
 )
 created
 "

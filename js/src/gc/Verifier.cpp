@@ -2941,9 +2941,7 @@ Heap
 check
 :
 %
-"
-PRIuSIZE
-"
+zu
 failure
 (
 s

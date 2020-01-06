@@ -31,15 +31,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Tokenizer
 .
 h
@@ -1178,8 +1169,8 @@ of
 pairs
 :
 %
+zu
 "
-PRIuSIZE
 mMap
 .
 Length

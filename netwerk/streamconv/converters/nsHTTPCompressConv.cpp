@@ -82,15 +82,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 nsIForcePendingChannel
 .
 h
@@ -1011,9 +1002,7 @@ p
 brotlihandler
 decompress
 %
-"
-PRIuSIZE
-"
+zu
 \
 n
 "
@@ -1123,9 +1112,7 @@ PRIx32
 out
 =
 %
-"
-PRIuSIZE
-"
+zu
 \
 n
 "

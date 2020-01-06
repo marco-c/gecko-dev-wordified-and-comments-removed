@@ -17,15 +17,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ToJSValue
@@ -612,9 +603,7 @@ array
 of
 length
 %
-"
-PRIuSIZE
-"
+zu
 .
 "
 funcName
@@ -681,9 +670,7 @@ array
 of
 length
 %
-"
-PRIuSIZE
-"
+zu
 .
 "
 funcName

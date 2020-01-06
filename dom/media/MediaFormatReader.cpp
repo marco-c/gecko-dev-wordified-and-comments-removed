@@ -111,15 +111,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SyncRunnable
 .
 h
@@ -7904,9 +7895,7 @@ LOGV
 (
 "
 %
-"
-PRIuSIZE
-"
+zu
 video
 samples
 demuxed
@@ -8394,9 +8383,7 @@ LOGV
 (
 "
 %
-"
-PRIuSIZE
-"
+zu
 audio
 samples
 demuxed

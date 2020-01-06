@@ -44,15 +44,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

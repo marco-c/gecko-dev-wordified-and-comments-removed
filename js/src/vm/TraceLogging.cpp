@@ -2187,13 +2187,11 @@ script
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 :
 %
+zu
 "
-PRIuSIZE
 filename
 lineno
 colno

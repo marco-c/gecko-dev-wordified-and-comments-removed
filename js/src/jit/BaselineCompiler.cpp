@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 jsfun
 .
 h
@@ -501,9 +492,7 @@ script
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 (
 %
 p
@@ -538,8 +527,8 @@ script
 s
 :
 %
+zu
 "
-PRIuSIZE
 script
 -
 >
@@ -1231,8 +1220,8 @@ for
 s
 :
 %
+zu
 "
-PRIuSIZE
 (
 void
 *
@@ -1562,9 +1551,7 @@ script
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 (
 %
 p

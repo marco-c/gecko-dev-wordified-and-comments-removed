@@ -1736,14 +1736,10 @@ buf
 "
 before
 %
-"
-PRIuSIZE
-"
+zu
 after
 %
-"
-PRIuSIZE
-"
+zu
 \
 n
 "

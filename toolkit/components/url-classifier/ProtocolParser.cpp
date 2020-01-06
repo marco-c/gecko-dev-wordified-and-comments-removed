@@ -97,15 +97,6 @@ IntegerPrintfMacros
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 mozilla
 :
 :
@@ -5063,8 +5054,8 @@ of
 prefixes
 :
 %
+zu
 "
-PRIuSIZE
 numOfFixedLengthPrefixes
 )
 )

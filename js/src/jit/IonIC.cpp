@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 jit
 /
 CacheIRCompiler
@@ -842,8 +833,8 @@ cache
 s
 :
 %
+zu
 "
-PRIuSIZE
 outerScript
 -
 >

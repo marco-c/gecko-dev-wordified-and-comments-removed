@@ -26,15 +26,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -761,9 +752,7 @@ s
 )
 read
 %
-"
-PRIuSIZE
-"
+zu
 bytes
 rv
 =
@@ -854,9 +843,7 @@ s
 '
 )
 %
-"
-PRIuSIZE
-"
+zu
 bytes
 "
 this

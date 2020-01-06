@@ -91,15 +91,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 cinttypes
 >
@@ -1463,9 +1454,7 @@ no
 type
 size
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 mSize
@@ -1687,9 +1676,7 @@ PRIu32
 "
 size
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 mType

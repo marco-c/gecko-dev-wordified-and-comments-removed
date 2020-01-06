@@ -62,15 +62,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 inttypes
 .
@@ -1065,8 +1056,8 @@ d
 length
 =
 %
+zu
 "
-PRIuSIZE
 frames_number
 aSample
 -

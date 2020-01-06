@@ -569,15 +569,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -1775,9 +1766,7 @@ s
 size
 :
 %
-"
-PRIuSIZE
-"
+zu
 hash
 :
 %

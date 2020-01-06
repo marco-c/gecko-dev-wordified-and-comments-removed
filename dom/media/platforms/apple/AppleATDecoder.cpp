@@ -49,15 +49,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SyncRunnable
 .
 h
@@ -2048,9 +2039,7 @@ LOG
 "
 found
 %
-"
-PRIuSIZE
-"
+zu
 available
 audio
 stream

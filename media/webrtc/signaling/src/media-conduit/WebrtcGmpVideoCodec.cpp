@@ -47,15 +47,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SyncRunnable
 .
 h
@@ -4229,9 +4220,7 @@ PRIu64
 "
 len
 %
-"
-PRIuSIZE
-"
+zu
 %
 s
 "

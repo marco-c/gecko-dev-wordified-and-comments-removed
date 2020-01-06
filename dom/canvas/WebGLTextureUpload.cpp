@@ -105,15 +105,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h
@@ -3423,9 +3414,7 @@ needs
 u
 has
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 funcName

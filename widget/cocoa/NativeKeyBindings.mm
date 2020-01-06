@@ -128,15 +128,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextEvents
 .
 h
@@ -1405,8 +1396,8 @@ GetEditCommands
 bindingCommands
 =
 %
+zu
 "
-PRIuSIZE
 this
 bindingCommands
 .

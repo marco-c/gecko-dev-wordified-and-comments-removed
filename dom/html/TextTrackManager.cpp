@@ -89,15 +89,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -1445,8 +1436,8 @@ Length
 (
 )
 %
+zu
 "
-PRIuSIZE
 showingCues
 .
 Length

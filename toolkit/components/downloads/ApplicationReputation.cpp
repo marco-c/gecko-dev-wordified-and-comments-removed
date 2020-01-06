@@ -198,15 +198,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -6508,9 +6499,7 @@ p
 length
 =
 %
-"
-PRIuSIZE
-"
+zu
 )
 %
 s

@@ -514,11 +514,6 @@ SHA1
 h
 '
 '
-SizePrintfMacros
-.
-h
-'
-'
 SmallPointerArray
 .
 h

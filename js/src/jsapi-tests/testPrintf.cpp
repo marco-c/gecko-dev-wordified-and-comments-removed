@@ -9,15 +9,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 cfloat
 >
@@ -332,8 +323,8 @@ print_one
 "
 "
 %
+zu
 "
-PRIuSIZE
 (
 size_t
 )

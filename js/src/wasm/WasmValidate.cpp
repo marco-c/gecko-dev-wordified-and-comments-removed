@@ -151,9 +151,7 @@ JS_smprintf
 at
 offset
 %
-"
-PRIuSIZE
-"
+zu
 :
 %
 s

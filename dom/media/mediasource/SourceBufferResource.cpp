@@ -38,15 +38,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TaskQueue
 .
 h
@@ -677,9 +668,7 @@ p
 aLength
 =
 %
-"
-PRIuSIZE
-"
+zu
 )
 "
 aData

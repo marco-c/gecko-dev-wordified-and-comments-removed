@@ -36,15 +36,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
 <
 stdarg
 .
@@ -696,8 +687,8 @@ printf
 (
 "
 %
+zu
 "
-PRIuSIZE
 value
 )
 ;

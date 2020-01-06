@@ -3115,9 +3115,7 @@ p
 :
 Inserting
 %
-"
-PRIuSIZE
-"
+zu
 samples
 into
 graph

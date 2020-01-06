@@ -93,15 +93,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 VideoUtils
 .
 h
@@ -393,9 +384,7 @@ us
 %
 s
 %
-"
-PRIuSIZE
-"
+zu
 bytes
 "
 aSample

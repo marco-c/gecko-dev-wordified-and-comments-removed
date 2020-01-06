@@ -175,15 +175,6 @@ Logging
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
 using
 mozilla
 :
@@ -4692,9 +4683,7 @@ in
 scanner
 :
 %
-"
-PRIuSIZE
-"
+zu
 .
 "
 mExpatBuffered
@@ -5496,9 +5485,7 @@ in
 scanner
 :
 %
-"
-PRIuSIZE
-"
+zu
 .
 "
 mExpatBuffered

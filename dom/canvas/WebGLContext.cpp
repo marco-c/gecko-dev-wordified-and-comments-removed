@@ -220,15 +220,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -5370,9 +5361,7 @@ GenerateWarning
 "
 Exceeded
 %
-"
-PRIuSIZE
-"
+zu
 live
 WebGL
 contexts
@@ -5425,9 +5414,7 @@ GenerateWarning
 "
 Exceeded
 %
-"
-PRIuSIZE
-"
+zu
 live
 WebGL
 contexts

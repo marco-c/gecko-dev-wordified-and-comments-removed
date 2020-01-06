@@ -17,15 +17,6 @@ h
 #
 include
 "
-mozilla
-/
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
 mp4_demuxer
 /
 BitReader
@@ -4383,9 +4374,7 @@ mSamples
 Length
 =
 %
-"
-PRIuSIZE
-"
+zu
 aNumSamples
 =
 %
@@ -5058,8 +5047,8 @@ frame
 Size
 =
 %
+zu
 "
-PRIuSIZE
 read
 frame
 -

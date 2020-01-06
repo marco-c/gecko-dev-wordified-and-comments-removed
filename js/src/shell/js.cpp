@@ -84,15 +84,6 @@ include
 "
 mozilla
 /
-SizePrintfMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Sprintf
 .
 h
@@ -9345,8 +9336,8 @@ SprintfLiteral
 loadLengthStr
 "
 %
+zu
 "
-PRIuSIZE
 loadBuffer
 .
 length
@@ -9365,8 +9356,8 @@ SprintfLiteral
 saveLengthStr
 "
 %
+zu
 "
-PRIuSIZE
 saveBuffer
 .
 length
@@ -31556,9 +31547,7 @@ location
 s
 :
 %
-"
-PRIuSIZE
-"
+zu
 \
 "
 \
@@ -31568,9 +31557,7 @@ offset
 "
 :
 %
-"
-PRIuSIZE
-"
+zu
 \
 "
 index
