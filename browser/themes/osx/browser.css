@@ -16851,6 +16851,9 @@ solid
 transparent
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 min
@@ -17064,6 +17067,8 @@ png
 ;
 }
 }
+%
+endif
 .
 private
 -
