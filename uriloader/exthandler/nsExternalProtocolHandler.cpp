@@ -668,6 +668,11 @@ rv
 mListener
 )
 {
+Cancel
+(
+NS_ERROR_NO_CONTENT
+)
+;
 RefPtr
 <
 nsExtProtocolChannel
