@@ -212,6 +212,9 @@ partial
 interface
 XMLDocument
 {
+[
+UseCounter
+]
 attribute
 boolean
 async
