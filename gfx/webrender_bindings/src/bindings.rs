@@ -7634,7 +7634,7 @@ extern
 C
 "
 fn
-wr_dp_push_text_shadow
+wr_dp_push_shadow
 (
 state
 :
@@ -7652,7 +7652,7 @@ is_backface_visible
 bool
 shadow
 :
-TextShadow
+Shadow
 )
 {
 debug_assert
@@ -7695,7 +7695,7 @@ frame_builder
 .
 dl_builder
 .
-push_text_shadow
+push_shadow
 (
 &
 prim_info
@@ -7717,7 +7717,7 @@ extern
 C
 "
 fn
-wr_dp_pop_text_shadow
+wr_dp_pop_shadow
 (
 state
 :
@@ -7743,7 +7743,7 @@ frame_builder
 .
 dl_builder
 .
-pop_text_shadow
+pop_shadow
 (
 )
 ;
