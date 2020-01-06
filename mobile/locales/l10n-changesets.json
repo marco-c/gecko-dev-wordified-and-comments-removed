@@ -591,6 +591,11 @@ api
 -
 15
 "
+"
+android
+-
+multilocale
+"
 ]
 "
 revision
@@ -1797,6 +1802,11 @@ android
 api
 -
 15
+"
+"
+android
+-
+multilocale
 "
 ]
 "
