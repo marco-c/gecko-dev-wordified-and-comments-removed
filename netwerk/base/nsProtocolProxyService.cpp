@@ -1750,7 +1750,7 @@ nsCString
 aResult
 )
 {
-nsCString
+nsAutoCString
 temp
 ;
 nsresult
@@ -1762,10 +1762,7 @@ aPrefBranch
 GetCharPref
 (
 aPref
-getter_Copies
-(
 temp
-)
 )
 ;
 if
@@ -2265,7 +2262,7 @@ type
 PROXYCONFIG_PAC
 )
 {
-nsCString
+nsAutoCString
 pacSpec
 ;
 prefs
@@ -2279,10 +2276,7 @@ PROXY_PREF
 autoconfig_url
 "
 )
-getter_Copies
-(
 pacSpec
-)
 )
 ;
 if
@@ -2871,7 +2865,7 @@ reloadPAC
 =
 false
 ;
-nsCString
+nsAutoCString
 tempString
 ;
 if
@@ -3463,10 +3457,7 @@ PROXY_PREF
 no_proxies_on
 "
 )
-getter_Copies
-(
 tempString
-)
 )
 ;
 if
@@ -3555,10 +3546,7 @@ PROXY_PREF
 autoconfig_url
 "
 )
-getter_Copies
-(
 tempString
-)
 )
 ;
 if
@@ -5536,7 +5524,7 @@ rv
 return
 NS_OK
 ;
-nsCString
+nsAutoCString
 pacSpec
 ;
 if
@@ -5557,10 +5545,7 @@ PROXY_PREF
 autoconfig_url
 "
 )
-getter_Copies
-(
 pacSpec
-)
 )
 ;
 else
