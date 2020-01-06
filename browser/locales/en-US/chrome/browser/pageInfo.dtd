@@ -508,6 +508,14 @@ Session
 <
 !
 ENTITY
+permHide
+"
+Hide
+"
+>
+<
+!
+ENTITY
 permBlock
 "
 Block
