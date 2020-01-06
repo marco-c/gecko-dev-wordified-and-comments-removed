@@ -23226,12 +23226,6 @@ JSContext
 cx
 HandleScript
 script
-const
-char
-*
-name
-unsigned
-indent
 )
 {
 MOZ_ASSERT
@@ -23293,7 +23287,6 @@ JS_DecompileFunction
 (
 cx
 fun
-indent
 )
 ;
 bool
@@ -23376,8 +23369,6 @@ JSContext
 cx
 HandleFunction
 fun
-unsigned
-indent
 )
 {
 MOZ_ASSERT
@@ -23422,12 +23413,7 @@ FunctionToString
 (
 cx
 fun
-!
-(
-indent
-&
-JS_DONT_PRETTY_PRINT
-)
+false
 )
 ;
 }

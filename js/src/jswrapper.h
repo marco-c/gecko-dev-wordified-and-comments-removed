@@ -608,8 +608,8 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-indent
+bool
+isToSource
 )
 const
 override
@@ -1253,8 +1253,8 @@ JSContext
 cx
 HandleObject
 wrapper
-unsigned
-indent
+bool
+isToSource
 )
 const
 override
@@ -1732,8 +1732,8 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-indent
+bool
+isToSource
 )
 const
 override

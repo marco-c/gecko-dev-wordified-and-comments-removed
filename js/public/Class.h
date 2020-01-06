@@ -1265,8 +1265,8 @@ JS
 :
 HandleObject
 obj
-unsigned
-indent
+bool
+isToSource
 )
 ;
 typedef

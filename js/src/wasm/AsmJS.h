@@ -197,7 +197,7 @@ cx
 HandleFunction
 fun
 bool
-addParenToLambda
+isToSource
 )
 ;
 extern

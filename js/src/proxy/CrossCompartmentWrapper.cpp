@@ -2380,8 +2380,8 @@ JSContext
 cx
 HandleObject
 wrapper
-unsigned
-indent
+bool
+isToSource
 )
 const
 {
@@ -2411,7 +2411,7 @@ fun_toString
 (
 cx
 wrapper
-indent
+isToSource
 )
 ;
 if

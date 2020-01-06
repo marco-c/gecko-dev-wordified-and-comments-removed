@@ -5959,7 +5959,6 @@ JS_DecompileFunction
 (
 cx
 fun
-JS_DONT_PRETTY_PRINT
 )
 ;
 if
@@ -13553,8 +13552,6 @@ JS_DecompileScript
 (
 cx
 script
-nullptr
-0
 )
 ;
 if

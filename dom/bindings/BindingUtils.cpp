@@ -3419,7 +3419,7 @@ JSObject
 *
 >
 aObject
-unsigned
+bool
 )
 {
 const

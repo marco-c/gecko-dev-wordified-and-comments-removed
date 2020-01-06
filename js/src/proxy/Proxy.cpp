@@ -3395,8 +3395,8 @@ JSContext
 cx
 HandleObject
 proxy
-unsigned
-indent
+bool
+isToSource
 )
 {
 if
@@ -3463,7 +3463,7 @@ fun_toString
 (
 cx
 proxy
-indent
+isToSource
 )
 ;
 return
@@ -3474,7 +3474,7 @@ fun_toString
 (
 cx
 proxy
-indent
+isToSource
 )
 ;
 }

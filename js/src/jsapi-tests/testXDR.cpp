@@ -911,10 +911,6 @@ JS_DecompileScript
 (
 cx
 script
-"
-testing
-"
-0
 )
 ;
 CHECK

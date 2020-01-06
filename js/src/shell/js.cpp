@@ -26445,7 +26445,6 @@ JS_DecompileFunction
 (
 cx
 fun
-0
 )
 ;
 if
@@ -26563,10 +26562,6 @@ JS_DecompileScript
 (
 cx
 script
-"
-test
-"
-0
 )
 ;
 if
