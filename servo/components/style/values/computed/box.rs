@@ -60,6 +60,7 @@ box_
 :
 {
 AnimationName
+OverscrollBehavior
 ScrollSnapType
 }
 ;
