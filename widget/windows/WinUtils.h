@@ -1372,12 +1372,6 @@ aOutput
 ifdef
 ACCESSIBILITY
 static
-void
-SetAPCPending
-(
-)
-;
-static
 a11y
 :
 :
