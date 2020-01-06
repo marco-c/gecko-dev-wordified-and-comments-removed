@@ -160,6 +160,10 @@ jsreftest
 -
 marionette
 -
+marionette
+-
+headless
+-
 mochitest
 -
 mochitest
@@ -315,12 +319,6 @@ awsy
 :
 -
 awsy
-headless
-:
--
-marionette
--
-headless
 #
 #
 #
@@ -480,6 +478,10 @@ jittest
 jsreftest
 -
 marionette
+-
+marionette
+-
+headless
 -
 mochitest
 -
@@ -654,6 +656,10 @@ jittest
 jsreftest
 -
 marionette
+-
+marionette
+-
+headless
 -
 mochitest
 -

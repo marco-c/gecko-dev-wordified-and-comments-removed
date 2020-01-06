@@ -270,8 +270,6 @@ web
 platform
 -
 tests
--
-headless
 linux64
 /
 opt
@@ -313,8 +311,6 @@ capture
 talos
 -
 awsy
--
-headless
 linux64
 -
 nightly
@@ -356,8 +352,6 @@ desktop
 screenshot
 -
 capture
--
-headless
 linux64
 -
 devedition
@@ -401,8 +395,6 @@ desktop
 screenshot
 -
 capture
--
-headless
 #
 TODO
 :
@@ -453,8 +445,6 @@ platform
 tests
 -
 talos
--
-headless
 linux64
 -
 asan
@@ -478,8 +468,6 @@ sets
 common
 -
 tests
--
-headless
 #
 Stylo
 builds
@@ -942,8 +930,6 @@ tests
 awsy
 -
 talos
--
-headless
 linux64
 -
 jsdcov
@@ -1004,8 +990,6 @@ test
 sets
 :
 -
-headless
--
 windows
 -
 tests
@@ -1034,8 +1018,6 @@ desktop
 screenshot
 -
 capture
--
-headless
 -
 windows
 -
@@ -1074,8 +1056,6 @@ screenshot
 -
 capture
 -
-headless
--
 windows
 -
 tests
@@ -1113,8 +1093,6 @@ screenshot
 -
 capture
 -
-headless
--
 windows
 -
 tests
@@ -1147,8 +1125,6 @@ desktop
 screenshot
 -
 capture
--
-headless
 -
 windows
 -
@@ -1173,8 +1149,6 @@ test
 sets
 :
 -
-headless
--
 windows
 -
 tests
@@ -1203,8 +1177,6 @@ desktop
 screenshot
 -
 capture
--
-headless
 -
 windows
 -
@@ -1243,8 +1215,6 @@ screenshot
 -
 capture
 -
-headless
--
 windows
 -
 talos
@@ -1282,8 +1252,6 @@ screenshot
 -
 capture
 -
-headless
--
 windows
 -
 tests
@@ -1316,8 +1284,6 @@ desktop
 screenshot
 -
 capture
--
-headless
 -
 windows
 -
