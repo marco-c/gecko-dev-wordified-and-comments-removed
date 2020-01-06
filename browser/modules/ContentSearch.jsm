@@ -895,6 +895,16 @@ current
 "
 )
 {
+this
+.
+_reply
+(
+msg
+"
+Blur
+"
+)
+;
 browser
 .
 loadURIWithFlags
