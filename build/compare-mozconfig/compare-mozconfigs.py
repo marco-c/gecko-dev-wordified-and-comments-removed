@@ -211,10 +211,6 @@ def
 readConfig
 (
 configfile
-keys
-=
-[
-]
 )
 :
     
@@ -229,21 +225,13 @@ configfile
 c
 )
     
-for
-k
-in
-keys
-:
-        
-c
-=
-c
-[
-k
-]
-    
 return
 c
+[
+'
+whitelist
+'
+]
 def
 verify_mozconfigs
 (
@@ -995,11 +983,6 @@ readConfig
 options
 .
 whitelist
-[
-'
-whitelist
-'
-]
 )
     
 for
