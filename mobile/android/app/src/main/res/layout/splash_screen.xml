@@ -124,14 +124,14 @@ layout_centerInParent
 "
 true
 "
-android
+app
 :
-src
+srcCompat
 =
 "
 drawable
 /
-firefox_logo
+firefox_logo_svg
 "
 /
 >
