@@ -630,6 +630,13 @@ g_type_init
 #
 ifdef
 MOZ_ENABLE_DBUS
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIPowerManagerService
@@ -677,6 +684,7 @@ broken
 "
 )
 ;
+}
 }
 #
 endif
