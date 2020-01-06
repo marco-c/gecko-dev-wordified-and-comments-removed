@@ -192,11 +192,6 @@ flac
 c
 '
 '
-flac_parser
-.
-c
-'
-'
 flacdata
 .
 c

@@ -804,13 +804,6 @@ h
 /
 libavcodec
 /
-flac_parser
-.
-c
-.
-/
-libavcodec
-/
 flacdec
 .
 c
