@@ -167,6 +167,10 @@ unsigned
 int
 h
 ;
+unsigned
+int
+allow_lowbitdepth
+;
 }
 aom_codec_dec_cfg_t
 ;

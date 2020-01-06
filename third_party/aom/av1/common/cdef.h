@@ -222,6 +222,8 @@ cm
 MACROBLOCKD
 *
 xd
+int
+fast
 )
 ;
 #

@@ -636,9 +636,6 @@ cdf
 nsymbs
 )
 ;
-#
-if
-CONFIG_EC_ADAPT
 update_cdf
 (
 cdf
@@ -646,8 +643,6 @@ symb
 nsymbs
 )
 ;
-#
-endif
 }
 static
 INLINE

@@ -223,7 +223,7 @@ nsyms
 =
 cdf_size
 -
-CONFIG_EC_ADAPT
+1
 ;
 \
 int

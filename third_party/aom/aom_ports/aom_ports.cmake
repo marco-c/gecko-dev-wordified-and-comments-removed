@@ -410,12 +410,6 @@ set
 aom_ports_has_symbols
 1
 )
-list
-(
-APPEND
-AOM_LIB_TARGETS
-aom_ports
-)
 target_sources
 (
 aom
@@ -436,7 +430,7 @@ aom_ports_has_symbols
 target_sources
 (
 aom_ports
-PUBLIC
+PRIVATE
 {
 AOM_PORTS_INCLUDES
 }
@@ -466,7 +460,7 @@ x86_64
 target_sources
 (
 aom_ports
-PUBLIC
+PRIVATE
 {
 AOM_PORTS_INCLUDES_X86
 }
@@ -488,7 +482,7 @@ else
 target_sources
 (
 aom
-PUBLIC
+PRIVATE
 {
 AOM_PORTS_INCLUDES
 }
@@ -518,7 +512,7 @@ x86_64
 target_sources
 (
 aom
-PUBLIC
+PRIVATE
 {
 AOM_PORTS_INCLUDES_X86
 }

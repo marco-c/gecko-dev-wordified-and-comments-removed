@@ -91,13 +91,6 @@ public
 libaom_test
 :
 :
-EncoderTest
-public
-:
-:
-libaom_test
-:
-:
 CodecTestWith2Params
 <
 libaom_test
@@ -106,6 +99,13 @@ libaom_test
 TestMode
 int
 >
+public
+:
+:
+libaom_test
+:
+:
+EncoderTest
 {
 public
 :

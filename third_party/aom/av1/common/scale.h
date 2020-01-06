@@ -36,6 +36,10 @@ C
 endif
 #
 define
+SCALE_DENOMINATOR
+16
+#
+define
 REF_SCALE_SHIFT
 14
 #

@@ -232,6 +232,18 @@ verticalb
 3
 ]
 ;
+PICK_MODE_CONTEXT
+horizontal4
+[
+4
+]
+;
+PICK_MODE_CONTEXT
+vertical4
+[
+4
+]
+;
 #
 endif
 union
@@ -254,7 +266,7 @@ leaf_split
 }
 ;
 #
-ifdef
+if
 CONFIG_SUPERTX
 PICK_MODE_CONTEXT
 horizontal_supertx

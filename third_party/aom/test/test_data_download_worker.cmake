@@ -197,6 +197,11 @@ test_data
 libvpx
 "
 )
+if
+(
+NOT
+AOM_TEST_DATA_PATH
+)
 set
 (
 AOM_TEST_DATA_PATH
@@ -206,6 +211,9 @@ ENV
 LIBAOM_TEST_DATA_PATH
 }
 "
+)
+endif
+(
 )
 if
 (

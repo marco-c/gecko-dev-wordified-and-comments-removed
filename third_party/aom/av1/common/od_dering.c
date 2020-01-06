@@ -1547,6 +1547,7 @@ j
 ]
 ;
 }
+static
 void
 copy_dering_16bit_to_16bit
 (

@@ -258,7 +258,7 @@ PARENT_SCOPE
 target_sources
 (
 aom
-PUBLIC
+PRIVATE
 <
 TARGET_OBJECTS
 :

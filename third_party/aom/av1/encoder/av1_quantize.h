@@ -728,9 +728,6 @@ qparam
 ;
 #
 endif
-#
-if
-CONFIG_HIGHBITDEPTH
 void
 av1_highbd_quantize_fp_facade
 (
@@ -950,8 +947,6 @@ QUANT_PARAM
 qparam
 )
 ;
-#
-endif
 #
 endif
 #

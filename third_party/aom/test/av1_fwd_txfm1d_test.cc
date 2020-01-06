@@ -500,6 +500,7 @@ row
 +
 col
 block_size
+block_size
 stride
 -
 4

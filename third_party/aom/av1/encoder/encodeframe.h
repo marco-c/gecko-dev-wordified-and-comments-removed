@@ -125,6 +125,10 @@ xd
 if
 CONFIG_TXK_SEL
 int
+blk_row
+int
+blk_col
+int
 block
 int
 plane

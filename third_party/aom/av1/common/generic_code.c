@@ -64,9 +64,6 @@ CDF_PROB_TOP
 nsyms
 )
 ;
-#
-if
-CONFIG_EC_ADAPT
 cdf
 [
 cdf_size
@@ -76,8 +73,6 @@ cdf_size
 =
 0
 ;
-#
-endif
 }
 void
 aom_cdf_adapt_q15

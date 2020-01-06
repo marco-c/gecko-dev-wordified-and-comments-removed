@@ -132,8 +132,9 @@ int
 subsampling_x
 int
 subsampling_y
-int
-ref_frm
+ConvolveParams
+*
+conv_params
 int16_t
 alpha
 int16_t
@@ -303,8 +304,9 @@ int
 subsampling_y
 int
 bd
-int
-ref_frm
+ConvolveParams
+*
+conv_params
 int16_t
 alpha
 int16_t

@@ -31,6 +31,10 @@ av1_entropy_mv_init
 void
 )
 ;
+#
+if
+!
+CONFIG_NEW_MULTISYMBOL
 void
 av1_write_nmv_probs
 (
@@ -48,6 +52,8 @@ const
 counts
 )
 ;
+#
+endif
 void
 av1_encode_mv
 (
@@ -88,8 +94,8 @@ const
 nmv_context
 *
 mvctx
-int
-usehp
+MvSubpelPrecision
+precision
 )
 ;
 void

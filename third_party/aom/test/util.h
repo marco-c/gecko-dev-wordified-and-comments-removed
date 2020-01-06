@@ -42,6 +42,15 @@ include
 "
 aom
 /
+aom_integer
+.
+h
+"
+#
+include
+"
+aom
+/
 aom_image
 .
 h

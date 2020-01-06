@@ -3129,8 +3129,10 @@ uint8_t
 dest
 int
 stride
-int
-tx_type
+const
+TxfmParam
+*
+txfm_param
 )
 {
 __m256i
@@ -3138,6 +3140,14 @@ in
 [
 16
 ]
+;
+int
+tx_type
+=
+txfm_param
+-
+>
+tx_type
 ;
 load_buffer_16x16
 (

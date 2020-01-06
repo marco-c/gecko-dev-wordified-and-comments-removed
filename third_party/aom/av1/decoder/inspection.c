@@ -618,7 +618,7 @@ mi
 >
 uv_mode
 =
-INTRA_INVALID
+UV_MODE_INVALID
 ;
 }
 mi
@@ -776,7 +776,7 @@ mbmi
 uv_mode
 =
 =
-DC_PRED
+UV_DC_PRED
 )
 {
 mi

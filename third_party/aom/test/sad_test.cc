@@ -1354,8 +1354,6 @@ class
 SADx4Test
 :
 public
-SADTestBase
-public
 :
 :
 testing
@@ -1365,6 +1363,8 @@ WithParamInterface
 <
 SadMxNx4Param
 >
+public
+SADTestBase
 {
 public
 :
@@ -1508,8 +1508,6 @@ class
 SADTest
 :
 public
-SADTestBase
-public
 :
 :
 testing
@@ -1519,6 +1517,8 @@ WithParamInterface
 <
 SadMxNParam
 >
+public
+SADTestBase
 {
 public
 :
@@ -1655,8 +1655,6 @@ class
 SADavgTest
 :
 public
-SADTestBase
-public
 :
 :
 testing
@@ -1666,6 +1664,8 @@ WithParamInterface
 <
 SadMxNAvgParam
 >
+public
+SADTestBase
 {
 public
 :

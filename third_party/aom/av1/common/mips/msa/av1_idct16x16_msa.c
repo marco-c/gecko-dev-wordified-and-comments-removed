@@ -39,8 +39,9 @@ uint8_t
 dst
 int32_t
 dst_stride
-int32_t
-tx_type
+TxfmParam
+*
+txfm_param
 )
 {
 int32_t
@@ -67,6 +68,14 @@ out
 [
 0
 ]
+;
+int32_t
+tx_type
+=
+txfm_param
+-
+>
+tx_type
 ;
 switch
 (

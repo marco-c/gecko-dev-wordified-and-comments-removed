@@ -273,7 +273,7 @@ AOM_SCALE_SOURCES
 target_sources
 (
 aom
-PUBLIC
+PRIVATE
 <
 TARGET_OBJECTS
 :
@@ -296,6 +296,9 @@ aom_scale
 "
 "
 AOM_SCALE_INTRIN_DSPR2
+"
+"
+aom_scale
 "
 )
 endif

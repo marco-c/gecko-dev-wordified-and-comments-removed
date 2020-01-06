@@ -950,9 +950,6 @@ nsymbs
 ACCT_STR_NAME
 )
 ;
-#
-if
-CONFIG_EC_ADAPT
 update_cdf
 (
 cdf
@@ -960,8 +957,6 @@ ret
 nsymbs
 )
 ;
-#
-endif
 return
 ret
 ;

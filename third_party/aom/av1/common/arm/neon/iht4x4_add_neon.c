@@ -853,8 +853,10 @@ uint8_t
 dest
 int
 dest_stride
-int
-tx_type
+const
+TxfmParam
+*
+txfm_param
 )
 {
 uint8x8_t
@@ -915,6 +917,14 @@ q8s16
 q9s16
 )
 ;
+int
+tx_type
+=
+txfm_param
+-
+>
+tx_type
+;
 switch
 (
 tx_type
@@ -928,7 +938,7 @@ av1_iht4x4_16_add_c
 input
 dest
 dest_stride
-tx_type
+txfm_param
 )
 ;
 return

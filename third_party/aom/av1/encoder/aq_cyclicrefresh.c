@@ -1870,13 +1870,6 @@ low_content_frame
 }
 if
 (
-av1_resize_pending
-(
-cpi
-)
-|
-|
-(
 cnt1
 *
 10
@@ -1895,7 +1888,6 @@ cnt2
 20
 <
 cnt1
-)
 )
 {
 av1_cyclic_refresh_set_golden_update

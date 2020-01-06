@@ -61,8 +61,9 @@ int
 subsampling_y
 int
 bd
-int
-comp_avg
+ConvolveParams
+*
+conv_params
 int16_t
 alpha
 int16_t
@@ -73,6 +74,14 @@ int16_t
 delta
 )
 {
+int
+comp_avg
+=
+conv_params
+-
+>
+do_average
+;
 #
 if
 HORSHEAR_REDUCE_PREC_BITS

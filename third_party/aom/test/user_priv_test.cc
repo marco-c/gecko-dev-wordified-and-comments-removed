@@ -222,6 +222,12 @@ aom_codec_dec_cfg_t
 (
 )
 ;
+cfg
+.
+allow_lowbitdepth
+=
+1
+;
 libaom_test
 :
 :

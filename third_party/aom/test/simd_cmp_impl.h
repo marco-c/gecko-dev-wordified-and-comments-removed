@@ -10578,7 +10578,7 @@ reinterpret_cast
 fptr
 >
 (
-u64_store_aligned
+s64_store_aligned
 )
 reinterpret_cast
 <
@@ -10601,7 +10601,7 @@ reinterpret_cast
 fptr
 >
 (
-c_u64_store_aligned
+c_s64_store_aligned
 )
 reinterpret_cast
 <

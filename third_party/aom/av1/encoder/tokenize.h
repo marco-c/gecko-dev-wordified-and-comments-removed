@@ -111,6 +111,15 @@ ENTROPY_TOKENS
 )
 ]
 ;
+#
+if
+CONFIG_PALETTE
+aom_cdf_prob
+*
+palette_cdf
+;
+#
+endif
 int
 eob_val
 ;

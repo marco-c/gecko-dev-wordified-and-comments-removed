@@ -182,7 +182,7 @@ set
 CONFIG_PIC
 1
 CACHE
-STRING
+NUMBER
 "
 "
 )

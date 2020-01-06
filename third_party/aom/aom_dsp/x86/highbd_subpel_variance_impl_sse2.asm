@@ -489,7 +489,7 @@ m7
 store
 sse
 movd
-rax
+eax
 m6
 ;
 store

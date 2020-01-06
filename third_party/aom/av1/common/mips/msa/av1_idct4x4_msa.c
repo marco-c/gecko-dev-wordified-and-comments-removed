@@ -39,8 +39,9 @@ uint8_t
 dst
 int32_t
 dst_stride
-int32_t
-tx_type
+TxfmParam
+*
+txfm_param
 )
 {
 v8i16
@@ -48,6 +49,14 @@ in0
 in1
 in2
 in3
+;
+int32_t
+tx_type
+=
+txfm_param
+-
+>
+tx_type
 ;
 LD4x4_SH
 (
