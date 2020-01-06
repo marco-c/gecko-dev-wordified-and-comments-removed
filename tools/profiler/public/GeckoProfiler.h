@@ -1216,15 +1216,6 @@ aStr
 )
 PROFILER_FUNC
 (
-void
-*
-profiler_get_stack_top
-(
-)
-nullptr
-)
-PROFILER_FUNC
-(
 int
 profiler_current_thread_id
 (
