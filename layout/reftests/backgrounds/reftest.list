@@ -2479,12 +2479,6 @@ boundaries
 )
 .
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 background
@@ -2507,6 +2501,9 @@ repeat
 ref
 .
 html
+#
+bug
+1073209
 #
 -
 moz
