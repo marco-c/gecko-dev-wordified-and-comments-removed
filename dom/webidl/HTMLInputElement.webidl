@@ -300,7 +300,6 @@ form
 [
 Pure
 ]
-readonly
 attribute
 FileList
 ?

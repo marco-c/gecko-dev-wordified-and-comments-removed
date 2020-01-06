@@ -1923,6 +1923,14 @@ GetFiles
 )
 ;
 void
+SetFiles
+(
+FileList
+*
+aFiles
+)
+;
+void
 SetFormAction
 (
 const
