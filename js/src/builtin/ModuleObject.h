@@ -1029,7 +1029,6 @@ ModuleSlot
 ScriptSlot
 =
 0
-InitialEnvironmentSlot
 EnvironmentSlot
 NamespaceSlot
 StatusSlot
@@ -1359,11 +1358,6 @@ JS
 Value
 &
 value
-)
-;
-void
-createEnvironment
-(
 )
 ;
 bool
