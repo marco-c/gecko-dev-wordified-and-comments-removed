@@ -8245,6 +8245,13 @@ sLookAndFeelChanged
 false
 ;
 }
+nsCSSRuleProcessor
+:
+:
+FreeSystemMetrics
+(
+)
+;
 GetDocumentColorPreferences
 (
 )
