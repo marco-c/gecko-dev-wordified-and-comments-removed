@@ -26,11 +26,7 @@ auto
 -
 generated
 see
-gen
--
-histogram
--
-enum
+gen_histogram_enum
 .
 py
 .

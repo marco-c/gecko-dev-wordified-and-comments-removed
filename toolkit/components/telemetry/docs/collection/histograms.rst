@@ -1640,11 +1640,7 @@ components
 /
 telemetry
 /
-gen
--
-histogram
--
-data
+gen_histogram_data
 .
 py
 >

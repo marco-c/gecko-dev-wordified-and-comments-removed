@@ -2215,11 +2215,7 @@ C
 +
 core
 .
-gen
--
-scalar
--
-data
+gen_scalar_data
 .
 py
 -
@@ -2291,11 +2287,7 @@ all
 the
 scalars
 .
-gen
--
-scalar
--
-enum
+gen_scalar_enum
 .
 py
 -

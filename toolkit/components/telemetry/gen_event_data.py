@@ -37,11 +37,7 @@ TelemetryEvent
 h
    
 see
-gen
--
-event
--
-data
+gen_event_data
 .
 py
 .
