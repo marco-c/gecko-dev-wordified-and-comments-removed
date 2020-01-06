@@ -20,6 +20,17 @@ assert
 )
 CHECK
 (
+DanglingOnTemporaryChecker
+"
+dangling
+-
+on
+-
+temporary
+"
+)
+CHECK
+(
 ExplicitImplicitChecker
 "
 implicit
