@@ -78,6 +78,7 @@ in
 #
 topsrcdir
 .
+export
 VSPATH
 =
 "
