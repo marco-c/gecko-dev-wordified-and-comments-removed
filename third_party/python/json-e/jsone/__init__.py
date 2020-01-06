@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-datetime
-import
 re
 from
 .
@@ -20,6 +18,7 @@ import
 JSONTemplateError
 DeleteMarker
 TemplateError
+fromNow
 from
 .
 import
@@ -88,7 +87,7 @@ context
 must
 follow
 '
-                                
+                            
 '
 /
 [
@@ -119,12 +118,13 @@ full_context
 now
 '
 :
-datetime
-.
-datetime
-.
-utcnow
+fromNow
 (
+'
+0
+seconds
+'
+None
 )
 }
     

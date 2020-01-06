@@ -836,6 +836,7 @@ KeyError
 raise
 TemplateError
 (
+                
 '
 no
 context
@@ -1458,6 +1459,7 @@ KeyError
 raise
 TemplateError
 (
+                
 '
 {
 }
@@ -1795,6 +1797,7 @@ list
 raise
 expectationError
 (
+                
 '
 in
 '

@@ -69,6 +69,7 @@ None
 raise
 BuiltinError
 (
+                    
 (
 reason
 or
@@ -76,6 +77,8 @@ or
 invalid
 arguments
 to
+builtin
+:
 {
 }
 '
@@ -293,6 +296,29 @@ string
 list
 )
 )
+    
+def
+anything_except_array
+(
+v
+)
+:
+        
+return
+isinstance
+(
+v
+(
+string
+int
+float
+bool
+)
+)
+or
+v
+is
+None
     
 def
 anything
@@ -522,7 +548,7 @@ str
 argument_tests
 =
 [
-anything
+anything_except_array
 ]
 )
 (
