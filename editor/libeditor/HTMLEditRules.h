@@ -2012,7 +2012,7 @@ aAction
 nsresult
 FindNearSelectableNode
 (
-nsIDOMNode
+nsINode
 *
 aSelNode
 int32_t
@@ -2025,7 +2025,7 @@ EDirection
 aDirection
 nsCOMPtr
 <
-nsIDOMNode
+nsIContent
 >
 *
 outSelectableNode
