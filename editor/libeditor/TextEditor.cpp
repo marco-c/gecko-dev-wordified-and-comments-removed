@@ -5782,6 +5782,12 @@ outString
 &
 resultString
 ;
+ruleInfo
+.
+flags
+=
+aFlags
+;
 nsAutoString
 str
 (

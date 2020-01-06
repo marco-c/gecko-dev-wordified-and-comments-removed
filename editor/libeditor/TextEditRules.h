@@ -540,6 +540,8 @@ aInFormat
 nsAString
 *
 aOutText
+uint32_t
+aFlags
 bool
 *
 aOutCancel
@@ -809,6 +811,10 @@ maxLength
 -
 1
 )
+flags
+(
+0
+)
 collapsedAction
 (
 nsIEditor
@@ -861,6 +867,9 @@ outputFormat
 ;
 int32_t
 maxLength
+;
+uint32_t
+flags
 ;
 nsIEditor
 :
