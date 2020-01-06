@@ -201,6 +201,9 @@ class
 ImageContainer
 ;
 class
+ImageContainerListener
+;
+class
 ImageBridgeParent
 ;
 class
@@ -1219,13 +1222,12 @@ mTexturesWaitingRecycled
 Mutex
 mContainerMapLock
 ;
-nsDataHashtable
+nsRefPtrHashtable
 <
 nsUint64HashKey
-ImageContainer
-*
+ImageContainerListener
 >
-mImageContainers
+mImageContainerListeners
 ;
 }
 ;

@@ -1216,6 +1216,11 @@ ClearImageContainer
 (
 )
 ;
+void
+DropImageClient
+(
+)
+;
 private
 :
 typedef
