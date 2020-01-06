@@ -3558,12 +3558,6 @@ absence
 of
 GPOS
 :
-fails
--
-if
-(
-webrender
-)
 HTTP
 (
 .
