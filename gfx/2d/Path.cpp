@@ -1135,6 +1135,11 @@ t
 =
 0
 ;
+double
+currentTolerance
+=
+aTolerance
+;
 while
 (
 t
@@ -1224,7 +1229,7 @@ t
 *
 sqrt
 (
-aTolerance
+currentTolerance
 *
 std
 :
@@ -1237,6 +1242,13 @@ s3inv
 3
 .
 )
+;
+currentTolerance
+*
+=
+1
++
+aTolerance
 ;
 if
 (
