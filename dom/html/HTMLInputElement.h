@@ -4605,6 +4605,12 @@ aType
 =
 =
 NS_FORM_INPUT_TIME
+|
+|
+aType
+=
+=
+NS_FORM_INPUT_DATE
 ;
 }
 static
