@@ -56,7 +56,7 @@ StartProfiling
 TEST
 (
 ThreadProfile
-InsertOneTag
+InsertOneEntry
 )
 {
 Thread
@@ -92,7 +92,7 @@ ProfileBuffer
 pb
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -170,7 +170,7 @@ mDouble
 TEST
 (
 ThreadProfile
-InsertTagsNoWrap
+InsertEntriesNoWrap
 )
 {
 Thread
@@ -227,7 +227,7 @@ i
 pb
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -329,7 +329,7 @@ mEntrySize
 TEST
 (
 ThreadProfile
-InsertTagsWrap
+InsertEntriesWrap
 )
 {
 Thread
@@ -341,14 +341,14 @@ tid
 1000
 ;
 int
-tags
+entries
 =
 24
 ;
 int
 buffer_size
 =
-tags
+entries
 +
 1
 ;
@@ -398,7 +398,7 @@ i
 pb
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -489,7 +489,7 @@ ctr
 (
 test_size
 -
-tags
+entries
 )
 )
 ;

@@ -2358,7 +2358,7 @@ endif
 ;
 static
 void
-AddDynamicCodeLocationTag
+AddDynamicCodeLocationEntry
 (
 ProfileBuffer
 *
@@ -2372,7 +2372,7 @@ aStr
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -2463,7 +2463,7 @@ kNumChars
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -2711,7 +2711,7 @@ locationString
 label
 ;
 }
-AddDynamicCodeLocationTag
+AddDynamicCodeLocationEntry
 (
 aBuffer
 locationString
@@ -2809,7 +2809,7 @@ else
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -2851,7 +2851,7 @@ lineno
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -2866,14 +2866,14 @@ lineno
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
 :
 Category
 (
-uint32_t
+int
 (
 entry
 .
@@ -3279,7 +3279,7 @@ value
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -3682,7 +3682,7 @@ ProfilingFrameIterator
 Frame_Wasm
 )
 {
-AddDynamicCodeLocationTag
+AddDynamicCodeLocationEntry
 (
 aBuffer
 jsFrame
@@ -3726,7 +3726,7 @@ Frame_Baseline
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -3781,7 +3781,7 @@ nativeIndex
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -5182,7 +5182,7 @@ aLock
 aBuffer
 -
 >
-addTagThreadId
+addThreadIdEntry
 (
 aThreadInfo
 .
@@ -5207,7 +5207,7 @@ ProcessStartTime
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -5289,7 +5289,7 @@ aLock
 aBuffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -5444,7 +5444,7 @@ marker
 buffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -5493,7 +5493,7 @@ aNow
 buffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -5531,7 +5531,7 @@ aRSSMemory
 buffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -5565,7 +5565,7 @@ aUSSMemory
 buffer
 -
 >
-addTag
+addEntry
 (
 ProfileBufferEntry
 :

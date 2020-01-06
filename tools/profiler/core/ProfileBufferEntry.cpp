@@ -2626,7 +2626,7 @@ char
 [
 ]
 >
-tagBuff
+strbuf
 =
 MakeUnique
 <
@@ -3011,7 +3011,7 @@ framePos
 %
 mEntrySize
 ;
-tagBuff
+strbuf
 [
 DYNAMIC_MAX_STRING
 -
@@ -3043,12 +3043,12 @@ isEmbeddedString
 {
 string
 =
-processDynamicTag
+processEmbeddedString
 (
-framePos
+readAheadPos
 &
 incBy
-tagBuff
+strbuf
 .
 get
 (
@@ -3086,7 +3086,7 @@ mPtr
 ;
 snprintf
 (
-tagBuff
+strbuf
 .
 get
 (
@@ -3109,7 +3109,7 @@ UniqueStacks
 :
 OnStackFrameKey
 (
-tagBuff
+strbuf
 .
 get
 (
@@ -3748,7 +3748,7 @@ mInt
 aThreadId
 )
 ;
-addTagThreadId
+addThreadIdEntry
 (
 aThreadId
 &
@@ -3817,7 +3817,7 @@ Kind
 :
 Time
 :
-addTag
+addEntry
 (
 ProfileBufferEntry
 :
@@ -3856,7 +3856,7 @@ break
 ;
 default
 :
-addTag
+addEntry
 (
 mEntries
 [
