@@ -168,7 +168,7 @@ String
 MOZILLA_ADJUST_SOURCE
 =
 "
-xodfft
+adjust_store
 "
 ;
 private
