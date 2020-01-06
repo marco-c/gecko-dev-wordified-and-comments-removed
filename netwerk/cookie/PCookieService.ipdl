@@ -202,9 +202,7 @@ provided
 by
 the
 nsICookieManager
-and
-nsICookieManager2
-interfaces
+interface
 )
 are
 not

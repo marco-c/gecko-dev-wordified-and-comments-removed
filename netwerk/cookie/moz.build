@@ -140,11 +140,6 @@ nsICookieManager
 idl
 '
 '
-nsICookieManager2
-.
-idl
-'
-'
 nsICookiePermission
 .
 idl

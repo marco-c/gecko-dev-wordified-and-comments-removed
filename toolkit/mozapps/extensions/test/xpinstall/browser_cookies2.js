@@ -45,7 +45,7 @@ Components
 .
 interfaces
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 cm
@@ -244,7 +244,7 @@ Components
 .
 interfaces
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 cm

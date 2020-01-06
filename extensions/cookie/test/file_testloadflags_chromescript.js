@@ -550,7 +550,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 info
@@ -753,7 +753,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 cs

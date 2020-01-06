@@ -102,7 +102,7 @@ QueryInterface
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 function

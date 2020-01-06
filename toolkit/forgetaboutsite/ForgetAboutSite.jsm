@@ -440,7 +440,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 let

@@ -67,7 +67,7 @@ getService
 (
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 var

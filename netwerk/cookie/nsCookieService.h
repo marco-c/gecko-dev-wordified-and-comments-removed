@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsICookieManager2
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -726,7 +719,7 @@ final
 public
 nsICookieService
 public
-nsICookieManager2
+nsICookieManager
 public
 nsIObserver
 public
@@ -753,7 +746,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSICOOKIESERVICE
 NS_DECL_NSICOOKIEMANAGER
-NS_DECL_NSICOOKIEMANAGER2
 NS_DECL_NSIMEMORYREPORTER
 nsCookieService
 (

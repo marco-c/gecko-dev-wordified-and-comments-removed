@@ -122,7 +122,7 @@ cookiemanager
 1
 "
 "
-nsICookieManager2
+nsICookieManager
 "
 )
 ;

@@ -2707,7 +2707,7 @@ XRE_IsParentProcess
 ;
 nsCOMPtr
 <
-nsICookieManager2
+nsICookieManager
 >
 cookieManager
 =
@@ -3017,7 +3017,6 @@ NS_IMPL_ISUPPORTS
 nsCookieService
 nsICookieService
 nsICookieManager
-nsICookieManager2
 nsIObserver
 nsISupportsWeakReference
 nsIMemoryReporter
@@ -11562,7 +11561,7 @@ aCx
 aArgc
 u
 "
-nsICookieManager2
+nsICookieManager
 .
 add
 (
@@ -19702,7 +19701,7 @@ aCx
 aArgc
 u
 "
-nsICookieManager2
+nsICookieManager
 .
 cookieExists
 (
@@ -20610,7 +20609,7 @@ aCx
 aArgc
 u
 "
-nsICookieManager2
+nsICookieManager
 .
 getCookiesFromHost
 (

@@ -194,7 +194,7 @@ cookies
 "
 Ci
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 checkService

@@ -167,7 +167,7 @@ Components
 .
 interfaces
 .
-nsICookieManager2
+nsICookieManager
 )
 ;
 do_check_false
