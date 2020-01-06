@@ -137,6 +137,12 @@ App
 '
 CodeName
 '
+                                                
+fallback
+=
+'
+Name
+'
 )
         
 create_dmg
