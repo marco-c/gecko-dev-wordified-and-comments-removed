@@ -387,8 +387,10 @@ return
 true
 ;
 }
+RefPtr
+<
 ID2D1Device
-*
+>
 device
 =
 Factory
