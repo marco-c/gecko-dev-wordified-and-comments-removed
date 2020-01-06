@@ -87,6 +87,11 @@ suggested_key
 default
 :
 Value
+"
+Shifty
++
+Y
+"
 must
 either
 :
