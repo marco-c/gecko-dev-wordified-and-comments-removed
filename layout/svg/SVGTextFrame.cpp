@@ -11540,13 +11540,6 @@ item
 run
 )
 ;
-aContext
-.
-SetMatrix
-(
-initialMatrix
-)
-;
 RefPtr
 <
 SVGContextPaintImpl
@@ -11568,11 +11561,7 @@ Init
 (
 &
 aDrawTarget
-aContext
-.
-CurrentMatrix
-(
-)
+initialMatrix
 frame
 outerContextPaint
 aImgParams
