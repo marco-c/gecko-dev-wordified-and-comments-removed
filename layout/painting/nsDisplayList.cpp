@@ -25915,7 +25915,7 @@ mImageSize
 wr
 :
 :
-WrGradientExtendMode
+ExtendMode
 extendMode
 ;
 nsTArray
@@ -25923,7 +25923,7 @@ nsTArray
 wr
 :
 :
-WrGradientStop
+GradientStop
 >
 stops
 ;

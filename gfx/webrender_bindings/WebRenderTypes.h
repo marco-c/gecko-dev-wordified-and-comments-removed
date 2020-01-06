@@ -108,13 +108,6 @@ typedef
 wr
 :
 :
-WrGradientExtendMode
-GradientExtendMode
-;
-typedef
-wr
-:
-:
 WrMixBlendMode
 MixBlendMode
 ;

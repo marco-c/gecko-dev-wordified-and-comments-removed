@@ -5657,7 +5657,7 @@ aOpacity
 wr
 :
 :
-WrGradientExtendMode
+ExtendMode
 &
 aMode
 nsTArray
@@ -5665,7 +5665,7 @@ nsTArray
 wr
 :
 :
-WrGradientStop
+GradientStop
 >
 &
 aStops
@@ -5690,7 +5690,7 @@ mRepeating
 wr
 :
 :
-WrGradientExtendMode
+ExtendMode
 :
 :
 Repeat
@@ -5698,7 +5698,7 @@ Repeat
 wr
 :
 :
-WrGradientExtendMode
+ExtendMode
 :
 :
 Clamp
@@ -5923,7 +5923,7 @@ return
 wr
 :
 :
-WrGradientExtendMode
+ExtendMode
 extendMode
 ;
 nsTArray
@@ -5931,7 +5931,7 @@ nsTArray
 wr
 :
 :
-WrGradientStop
+GradientStop
 >
 stops
 ;
