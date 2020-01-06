@@ -262,3 +262,15 @@ glob
 *
 .
 gradle
+#
+for
+action
+-
+task
+building
+path
+:
+.
+taskcluster
+.
+yml
