@@ -893,8 +893,6 @@ int64_t
 >
 &
 aResult
-bool
-aSkipTags
 )
 ;
 nsresult
