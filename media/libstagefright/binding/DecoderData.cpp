@@ -101,6 +101,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 OpusDecoder
 .
 h

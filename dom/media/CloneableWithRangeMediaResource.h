@@ -7,7 +7,7 @@ mozilla_dom_media_CloneableWithRangeMediaResource_h
 #
 include
 "
-MediaResource
+BaseMediaResource
 .
 h
 "

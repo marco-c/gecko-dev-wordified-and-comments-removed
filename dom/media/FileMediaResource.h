@@ -7,7 +7,16 @@ mozilla_dom_media_FileMediaResource_h
 #
 include
 "
-MediaResource
+BaseMediaResource
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Mutex
 .
 h
 "
