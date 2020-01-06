@@ -381,6 +381,16 @@ aLeft
 mTimeout
 ;
 }
+TimeStamp
+Timeout
+(
+)
+const
+{
+return
+mTimeout
+;
+}
 }
 ;
 nsTArray

@@ -1705,7 +1705,7 @@ a
 time
 "
 ;
-EXPECT_EQ
+EXPECT_LT
 (
 t
 middle
