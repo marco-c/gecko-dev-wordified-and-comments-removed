@@ -273,6 +273,7 @@ ThreadLocalKeyStorage
 {
 public
 :
+constexpr
 ThreadLocalKeyStorage
 (
 )
