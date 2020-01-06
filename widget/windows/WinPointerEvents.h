@@ -745,9 +745,6 @@ sPointerEventEnabled
 ;
 static
 bool
-WinPointerEvents
-:
-:
 sFirePointerEventsByWinPointerMessages
 ;
 static
