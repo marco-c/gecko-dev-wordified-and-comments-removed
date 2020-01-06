@@ -7,6 +7,25 @@ resource
 :
 /
 /
+services
+-
+common
+/
+utils
+.
+js
+"
+)
+;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
 gre
 /
 modules
@@ -2033,7 +2052,7 @@ bookmarks
 insertBookmark
 (
 folder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -2515,7 +2534,7 @@ PlacesUtils
 bookmarks
 .
 unfiledBookmarksFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -2742,7 +2761,7 @@ bookmarks
 insertBookmark
 (
 syncFolderID
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -3443,7 +3462,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -3679,7 +3698,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -3794,7 +3813,7 @@ bookmarks
 changeBookmarkURI
 (
 fx_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -3962,7 +3981,7 @@ tags
 let
 uri
 =
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -4143,7 +4162,7 @@ bookmarks
 let
 uri
 =
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -5001,7 +5020,7 @@ keywords
 let
 uri
 =
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -5648,7 +5667,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -5834,7 +5853,7 @@ bookmarks
 insertBookmark
 (
 folder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6108,7 +6127,7 @@ bookmarks
 insertBookmark
 (
 rootID
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6186,7 +6205,7 @@ PlacesUtils
 bookmarks
 .
 placesRoot
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6347,7 +6366,7 @@ PlacesUtils
 bookmarks
 .
 placesRoot
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6491,7 +6510,7 @@ annotation
 let
 pageURI
 =
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6680,7 +6699,7 @@ stopTracking
 let
 pageURI
 =
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6698,7 +6717,7 @@ com
 let
 iconURI
 =
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -6940,7 +6959,7 @@ bookmarks
 menuGuid
 feedURI
 :
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -7062,7 +7081,7 @@ bookmarks
 menuGuid
 feedURI
 :
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -7196,7 +7215,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -7260,7 +7279,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8079,7 +8098,7 @@ bookmarks
 insertBookmark
 (
 folder_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8136,7 +8155,7 @@ bookmarks
 insertBookmark
 (
 folder_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8197,7 +8216,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8449,7 +8468,7 @@ bookmarks
 insertBookmark
 (
 folder_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8508,7 +8527,7 @@ bookmarks
 insertBookmark
 (
 folder_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8838,7 +8857,7 @@ bookmarks
 insertBookmark
 (
 folder2_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8871,7 +8890,7 @@ bookmarks
 insertBookmark
 (
 folder2_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -8994,7 +9013,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -9034,7 +9053,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -9925,7 +9944,7 @@ insertBookmark
 PlacesUtils
 .
 mobileFolderId
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -9986,7 +10005,7 @@ insertBookmark
 PlacesUtils
 .
 mobileFolderId
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -10049,7 +10068,7 @@ PlacesUtils
 bookmarks
 .
 bookmarksMenuFolder
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -10277,7 +10296,7 @@ bookmarks
 insertBookmark
 (
 folder2_id
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -10326,7 +10345,7 @@ bookmarks
 insertBookmark
 (
 folder2_id
-Utils
+CommonUtils
 .
 makeURI
 (

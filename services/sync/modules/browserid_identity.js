@@ -1156,9 +1156,7 @@ complete
 "
 )
 ;
-Weave
-.
-Utils
+CommonUtils
 .
 nextTick
 (
@@ -2731,7 +2729,7 @@ _syncKeyBundle
 =
 deriveKeyBundle
 (
-Utils
+CommonUtils
 .
 hexToBytes
 (
