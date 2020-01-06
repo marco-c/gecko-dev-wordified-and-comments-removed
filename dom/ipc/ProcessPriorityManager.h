@@ -58,12 +58,6 @@ CurrentProcessIsForeground
 (
 )
 ;
-static
-bool
-AnyProcessHasHighPriority
-(
-)
-;
 private
 :
 ProcessPriorityManager
