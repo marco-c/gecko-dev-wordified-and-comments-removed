@@ -2929,16 +2929,6 @@ mPhase
 =
 PHASE_DRAWING
 ;
-SetCompositionTime
-(
-TimeStamp
-:
-:
-Now
-(
-)
-)
-;
 RenderTraceLayers
 (
 mRoot
