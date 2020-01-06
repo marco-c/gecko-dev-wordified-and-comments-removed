@@ -14465,9 +14465,9 @@ aChild
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIHTMLEditor
+HTMLEditor
 >
 kungFuDeathGrip
 (
@@ -14690,9 +14690,9 @@ aChild
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIHTMLEditor
+HTMLEditor
 >
 kungFuDeathGrip
 (
