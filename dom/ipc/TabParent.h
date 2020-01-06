@@ -36,17 +36,6 @@ mozilla
 /
 dom
 /
-AudioChannelBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ipc
 /
 IdType
