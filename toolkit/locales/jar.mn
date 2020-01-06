@@ -1488,6 +1488,9 @@ platform
 /
 gtk
 /
+os
+=
+LikeUnix
 %
 locale
 global
