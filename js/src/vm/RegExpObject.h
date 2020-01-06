@@ -695,9 +695,12 @@ hasShared
 sharedRef
 (
 )
-=
+.
+init
+(
 &
 shared
+)
 ;
 }
 static
@@ -786,7 +789,7 @@ MutableHandleRegExpShared
 shared
 )
 ;
-ReadBarriered
+PreBarriered
 <
 RegExpShared
 *
@@ -811,7 +814,7 @@ PRIVATE_SLOT
 return
 reinterpret_cast
 <
-ReadBarriered
+PreBarriered
 <
 RegExpShared
 *
