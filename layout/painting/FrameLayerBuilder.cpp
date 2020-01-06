@@ -17090,6 +17090,12 @@ itemVisibleRect
 =
 itemDrawRect
 ;
+if
+(
+!
+prerenderedTransform
+)
+{
 itemVisibleRect
 =
 itemVisibleRect
@@ -17108,6 +17114,7 @@ false
 )
 )
 ;
+}
 if
 (
 maxLayers
