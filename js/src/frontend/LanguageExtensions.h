@@ -14,9 +14,6 @@ DeprecatedLanguageExtension
 ForEach
 =
 0
-LegacyGenerator
-=
-2
 ExpressionClosure
 =
 3

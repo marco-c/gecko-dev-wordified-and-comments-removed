@@ -21065,15 +21065,6 @@ stackDepth
 =
 =
 1
-&
-&
-!
-script
--
->
-isLegacyGenerator
-(
-)
 )
 {
 masm

@@ -51840,16 +51840,6 @@ pc
 isStarGenerator
 (
 )
-|
-|
-parser
-.
-pc
--
->
-isLegacyGenerator
-(
-)
 )
 return
 Warn

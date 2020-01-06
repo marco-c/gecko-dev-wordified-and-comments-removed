@@ -776,14 +776,6 @@ isStarGenerator
 script
 -
 >
-isLegacyGenerator
-(
-)
-|
-|
-script
--
->
 isAsync
 (
 )

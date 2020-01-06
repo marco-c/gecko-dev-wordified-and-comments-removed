@@ -3220,17 +3220,6 @@ functionNonDelazifying
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-lazy
--
->
-isLegacyGenerator
-(
-)
-)
-;
 ParseNode
 *
 pn
