@@ -8,9 +8,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -251,9 +248,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -283,9 +277,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -339,9 +330,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -633,9 +621,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -665,9 +650,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -730,9 +712,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 =
@@ -820,9 +799,6 @@ skip
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 )
 !
