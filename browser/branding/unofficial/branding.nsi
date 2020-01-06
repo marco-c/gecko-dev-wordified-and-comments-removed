@@ -130,14 +130,6 @@ Preview
 "
 !
 define
-BrandFullName
-"
-Mozilla
-Developer
-Preview
-"
-!
-define
 CompanyName
 "
 mozilla
