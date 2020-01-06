@@ -985,6 +985,11 @@ ServiceWorkerInfo
 aWorker
 )
 ;
+void
+CheckPendingReadyPromises
+(
+)
+;
 private
 :
 ServiceWorkerManager
@@ -1330,11 +1335,6 @@ aURI
 Promise
 *
 aPromise
-)
-;
-void
-CheckPendingReadyPromises
-(
 )
 ;
 bool
