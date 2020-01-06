@@ -11139,9 +11139,9 @@ MOZ_CRASH
 }
 nsTArray
 <
-FontFamilyListEntry
+SystemFontListEntry
 >
-fontFamilies
+fontList
 ;
 gfxPlatform
 :
@@ -11151,10 +11151,10 @@ GetPlatform
 )
 -
 >
-GetSystemFontFamilyList
+GetSystemFontList
 (
 &
-fontFamilies
+fontList
 )
 ;
 nsTArray
@@ -11413,7 +11413,7 @@ SendSetXPCOMProcessAttributes
 xpcomInit
 initialData
 lnfCache
-fontFamilies
+fontList
 )
 ;
 if
