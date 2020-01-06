@@ -60,12 +60,6 @@ html
 #
 Bug
 1128229
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
