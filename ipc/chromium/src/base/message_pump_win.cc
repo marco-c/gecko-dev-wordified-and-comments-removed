@@ -527,17 +527,6 @@ should_quit
 break
 ;
 }
-DHISTOGRAM_COUNTS
-(
-"
-Loop
-.
-PumpOutPendingPaintMessages
-Peeks
-"
-peek_count
-)
-;
 }
 LRESULT
 CALLBACK
