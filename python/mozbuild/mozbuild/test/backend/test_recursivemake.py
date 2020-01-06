@@ -2984,6 +2984,31 @@ readlines
 ]
 ]
         
+deffile_path
+=
+mozpath
+.
+relpath
+(
+mozpath
+.
+join
+(
+env
+.
+topsrcdir
+'
+baz
+.
+def
+'
+)
+                                       
+env
+.
+topobjdir
+)
+        
 expected
 =
 {
@@ -3064,10 +3089,11 @@ DEFFILE
 DEFFILE
 :
 =
-baz
-.
-def
+%
+s
 '
+%
+deffile_path
             
 ]
             
