@@ -326,14 +326,24 @@ last_modified
 page
 .
 headers
-[
+.
+get
+(
 '
 Last
 -
 Modified
 '
-]
+None
+)
     
+if
+last_modified
+is
+not
+None
+:
+        
 last_modified
 =
 datetime
