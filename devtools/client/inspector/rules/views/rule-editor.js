@@ -255,12 +255,14 @@ PREF_ORIG_SOURCES
 "
 devtools
 .
-styleeditor
-.
 source
 -
-maps
+map
+.
+client
 -
+service
+.
 enabled
 "
 ;
