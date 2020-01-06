@@ -2630,7 +2630,7 @@ delegate
 )
 ;
 }
-public
+private
 void
 maybeRegisterDevice
 (
