@@ -187,6 +187,7 @@ this
 }
 }
 )
+;
 this
 .
 _actions

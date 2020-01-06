@@ -166,6 +166,10 @@ return
 node
 .
 textContent
+.
+trim
+(
+)
 =
 =
 "
