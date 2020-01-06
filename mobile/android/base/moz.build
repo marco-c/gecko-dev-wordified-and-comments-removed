@@ -7598,13 +7598,6 @@ ToolbarPrefs
 java
 '
 '
-toolbar
-/
-ToolbarProgressView
-.
-java
-'
-'
 trackingprotection
 /
 TrackingProtectionPrompt
