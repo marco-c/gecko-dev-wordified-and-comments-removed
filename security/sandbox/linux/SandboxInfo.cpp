@@ -108,15 +108,6 @@ h
 #
 include
 "
-mozilla
-/
-SandboxSettings
-.
-h
-"
-#
-include
-"
 sandbox
 /
 linux

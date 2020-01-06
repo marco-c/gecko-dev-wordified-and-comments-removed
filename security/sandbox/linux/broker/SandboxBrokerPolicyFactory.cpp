@@ -2313,10 +2313,12 @@ NS_IsMainThread
 ;
 if
 (
-!
-IsContentSandboxEnabled
+GetEffectiveContentSandboxLevel
 (
 )
+<
+=
+1
 )
 {
 return
