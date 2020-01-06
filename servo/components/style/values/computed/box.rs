@@ -58,7 +58,10 @@ specified
 box_
 :
 :
+{
 AnimationName
+ScrollSnapType
+}
 ;
 pub
 type

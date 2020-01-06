@@ -312,6 +312,7 @@ box_
 {
 AnimationIterationCount
 AnimationName
+ScrollSnapType
 VerticalAlign
 }
 ;
