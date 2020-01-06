@@ -116,5 +116,10 @@ unsigned
 short
 code
 ;
+readonly
+attribute
+DOMString
+message
+;
 }
 ;
