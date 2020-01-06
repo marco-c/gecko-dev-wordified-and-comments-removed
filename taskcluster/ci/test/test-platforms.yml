@@ -1345,6 +1345,8 @@ platform
 macosx64
 -
 devedition
+-
+nightly
 /
 opt
 test
