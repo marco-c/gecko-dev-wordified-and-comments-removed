@@ -985,6 +985,9 @@ mFeedChardet
 bool
 mInitialEncodingWasFromParentFrame
 ;
+bool
+mHasHadErrors
+;
 nsCOMPtr
 <
 nsITimer
