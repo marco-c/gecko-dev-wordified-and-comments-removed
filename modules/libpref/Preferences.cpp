@@ -1337,16 +1337,6 @@ mUserPref
 }
 ;
 static
-nsresult
-PREF_ClearUserPref
-(
-const
-char
-*
-aPrefName
-)
-;
-static
 void
 ClearPrefEntry
 (
