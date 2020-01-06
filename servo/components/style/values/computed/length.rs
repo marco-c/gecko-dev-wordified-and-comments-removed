@@ -2515,7 +2515,11 @@ LengthOrPercentage
 :
 Calc
 (
+(
+*
+*
 calc
+)
 .
 to_computed_value
 (
@@ -3042,7 +3046,11 @@ LengthOrPercentageOrAuto
 :
 Calc
 (
+(
+*
+*
 calc
+)
 .
 to_computed_value
 (
@@ -3581,7 +3589,11 @@ LengthOrPercentageOrNone
 :
 Calc
 (
+(
+*
+*
 calc
+)
 .
 to_computed_value
 (
