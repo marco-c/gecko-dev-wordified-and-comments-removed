@@ -211,15 +211,5 @@ nsIDOMHTMLImageElement
 :
 nsISupports
 {
-attribute
-unsigned
-long
-width
-;
-attribute
-unsigned
-long
-height
-;
 }
 ;
