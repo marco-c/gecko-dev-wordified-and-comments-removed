@@ -351,6 +351,16 @@ ShouldReportCrossOriginRedirect
 const
 ;
 DOMHighResTimeStamp
+AsyncOpenHighRes
+(
+)
+;
+DOMHighResTimeStamp
+WorkerStartHighRes
+(
+)
+;
+DOMHighResTimeStamp
 FetchStartHighRes
 (
 )
@@ -820,6 +830,9 @@ mZeroTime
 ;
 TimeStamp
 mAsyncOpen
+;
+TimeStamp
+mWorkerStart
 ;
 TimeStamp
 mRedirectStart
