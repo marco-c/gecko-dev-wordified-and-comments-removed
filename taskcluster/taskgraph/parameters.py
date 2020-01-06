@@ -69,6 +69,10 @@ message
 '
     
 '
+morph_templates
+'
+    
+'
 moz_build_date
 '
     
@@ -97,19 +101,26 @@ release_history
 '
     
 '
+target_task_labels
+'
+    
+'
 target_tasks_method
 '
+]
+)
+TRY_ONLY_PARAMETERS
+=
+set
+(
+[
     
 '
-try_mode
+morph_templates
 '
     
 '
-try_options
-'
-    
-'
-try_task_config
+target_task_labels
 '
 ]
 )
@@ -158,6 +169,8 @@ msg
 missing
 =
 PARAMETER_NAMES
+-
+TRY_ONLY_PARAMETERS
 -
 names
         

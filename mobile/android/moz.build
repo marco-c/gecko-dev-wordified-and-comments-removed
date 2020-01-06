@@ -110,15 +110,6 @@ IDE
 Support
 '
 )
-SCHEDULES
-.
-exclusive
-=
-[
-'
-android
-'
-]
 with
 Files
 (

@@ -117,8 +117,6 @@ Extra
 Optional
     
 Required
-    
-Exclusive
 )
 logger
 =
@@ -371,20 +369,17 @@ coalesce
 '
 ]
     
-Exclusive
+Optional
 (
 '
-optimization
-'
-'
-optimization
+optimizations
 '
 )
 :
 task_description_schema
 [
 '
-optimization
+optimizations
 '
 ]
     
@@ -406,13 +401,10 @@ sccache
 '
 ]
     
-Exclusive
+Optional
 (
 '
 when
-'
-'
-optimization
 '
 )
 :
@@ -570,16 +562,6 @@ when
 }
 )
         
-if
-not
-when
-:
-            
-yield
-job
-            
-continue
-        
 files_changed
 =
 when
@@ -592,6 +574,16 @@ files
 changed
 '
 )
+        
+if
+not
+files_changed
+:
+            
+yield
+job
+            
+continue
         
 files_changed
 .
@@ -699,13 +691,19 @@ tree
 )
         
 job
+.
+setdefault
+(
+'
+optimizations
+'
 [
-'
-optimization
-'
 ]
-=
-{
+)
+.
+append
+(
+[
 '
 skip
 -
@@ -713,9 +711,9 @@ unless
 -
 changed
 '
-:
 files_changed
-}
+]
+)
         
 assert
 '
