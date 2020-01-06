@@ -678,6 +678,14 @@ py
 taskcluster_nightly
 .
 py
+run
+-
+on
+-
+projects
+:
+[
+]
 win64
 /
 pgo
