@@ -1561,6 +1561,7 @@ target_tasks_default
 (
 full_task_graph
 parameters
+graph_config
 )
     
 def
@@ -2515,6 +2516,7 @@ target_tasks_mozilla_beta_desktop_promotion
         
 full_task_graph
 parameters
+graph_config
     
 )
     
@@ -2615,6 +2617,7 @@ target_tasks_nightly_fennec
 (
 full_task_graph
 parameters
+graph_config
 )
     
 def
@@ -2874,8 +2877,11 @@ filtered_for_candidates
 =
 target_tasks_candidates_fennec
 (
+        
 full_task_graph
 parameters
+graph_config
+    
 )
     
 def
@@ -3657,6 +3663,7 @@ target_tasks_nightly_win32
 (
 full_task_graph
 parameters
+graph_config
 )
 )
         
@@ -3667,6 +3674,7 @@ target_tasks_nightly_win64
 (
 full_task_graph
 parameters
+graph_config
 )
 )
         
@@ -3677,6 +3685,7 @@ target_tasks_nightly_macosx
 (
 full_task_graph
 parameters
+graph_config
 )
 )
         
@@ -3687,6 +3696,7 @@ target_tasks_nightly_linux
 (
 full_task_graph
 parameters
+graph_config
 )
 )
     
