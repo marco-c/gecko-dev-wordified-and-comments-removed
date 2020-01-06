@@ -28846,6 +28846,7 @@ typename
 .
 Args
 >
+explicit
 IncrementalIter
 (
 State
@@ -29004,6 +29005,7 @@ func
 ;
 public
 :
+explicit
 SweepActionFunc
 (
 Func
