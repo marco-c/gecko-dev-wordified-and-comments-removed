@@ -60,6 +60,9 @@ class
 nsIObjectOutputStream
 ;
 class
+nsIDocument
+;
+class
 nsXBLResourceLoader
 :
 public
@@ -177,6 +180,13 @@ virtual
 nsXBLResourceLoader
 (
 )
+;
+private
+:
+nsIDocument
+*
+MOZ_NON_OWNING_REF
+mBoundDocument
 ;
 }
 ;
