@@ -1332,14 +1332,11 @@ aShadowRoot
 =
 0
 ;
-virtual
 bool
 IsSafeToFlush
 (
 )
 const
-=
-0
 ;
 public
 :
@@ -3749,6 +3746,9 @@ mResolution
 ;
 int16_t
 mSelectionFlags
+;
+uint16_t
+mChangeNestCount
 ;
 RenderFlags
 mRenderFlags

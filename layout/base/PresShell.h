@@ -539,14 +539,6 @@ CancelAllPendingReflows
 override
 ;
 virtual
-bool
-IsSafeToFlush
-(
-)
-const
-override
-;
-virtual
 void
 DoFlushPendingNotifications
 (
@@ -3347,9 +3339,6 @@ mAPZFocusSequenceNumber
 ;
 FocusTarget
 mAPZFocusTarget
-;
-uint16_t
-mChangeNestCount
 ;
 bool
 mDocumentLoading
