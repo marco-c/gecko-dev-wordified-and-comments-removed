@@ -394,16 +394,6 @@ script_thread
 ScriptThread
 )
 {
-if
-!
-self
-.
-0
-.
-is_cancelled
-(
-)
-{
 self
 .
 0
@@ -413,6 +403,5 @@ main_thread_handler
 script_thread
 )
 ;
-}
 }
 }
