@@ -43,7 +43,7 @@ openContextMenu
 HighlightItem
 highlightItem
 int
-actualPosition
+position
 NonNull
 final
 String
