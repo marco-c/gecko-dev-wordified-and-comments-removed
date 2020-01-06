@@ -738,6 +738,8 @@ String
 mimeType
 )
 {
+try
+{
 return
 mCodec
 .
@@ -757,6 +759,17 @@ CodecCapabilities
 FEATURE_TunneledPlayback
 )
 ;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+false
+;
+}
 }
 Override
 public
