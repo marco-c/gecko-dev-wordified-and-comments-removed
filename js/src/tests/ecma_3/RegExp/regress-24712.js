@@ -1,3 +1,8 @@
+var
+BUGNUMBER
+=
+24712
+;
 test
 (
 )
@@ -9,7 +14,7 @@ test
 {
 printBugNumber
 (
-24712
+BUGNUMBER
 )
 ;
 var

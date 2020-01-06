@@ -1521,13 +1521,6 @@ XorShiftGenerator
 =
 XorShiftGenerator
 ;
-global
-.
-BUGNUMBER
-=
-"
-"
-;
 var
 PASSED
 =
@@ -2092,10 +2085,6 @@ printBugNumber
 num
 )
 {
-BUGNUMBER
-=
-num
-;
 print
 (
 '

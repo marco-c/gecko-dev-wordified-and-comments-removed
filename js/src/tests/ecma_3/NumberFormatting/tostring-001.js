@@ -1,3 +1,8 @@
+var
+BUGNUMBER
+=
+11178
+;
 test
 (
 )
@@ -36,9 +41,7 @@ test
 ;
 printBugNumber
 (
-"
-11178
-"
+BUGNUMBER
 )
 ;
 reportCompare

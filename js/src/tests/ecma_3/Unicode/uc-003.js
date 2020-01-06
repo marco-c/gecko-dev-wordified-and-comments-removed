@@ -1,3 +1,13 @@
+var
+BUGNUMBER
+=
+23608
+;
+var
+BUGNUMBER
+=
+23607
+;
 test
 (
 )
@@ -33,12 +43,7 @@ test
 ;
 printBugNumber
 (
-23608
-)
-;
-printBugNumber
-(
-23607
+BUGNUMBER
 )
 ;
 reportCompare
