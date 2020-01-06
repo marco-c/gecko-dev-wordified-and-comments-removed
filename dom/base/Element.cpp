@@ -16073,7 +16073,10 @@ GetTransformToAncestor
 (
 primaryFrame
 ancestorFrame
-true
+nsIFrame
+:
+:
+IN_CSS_UNITS
 )
 ;
 }
@@ -16152,7 +16155,10 @@ GetTransformToAncestor
 (
 primaryFrame
 parentFrame
-true
+nsIFrame
+:
+:
+IN_CSS_UNITS
 )
 ;
 }
@@ -16226,7 +16232,10 @@ GetDisplayRootFrame
 (
 primaryFrame
 )
-true
+nsIFrame
+:
+:
+IN_CSS_UNITS
 )
 ;
 }
