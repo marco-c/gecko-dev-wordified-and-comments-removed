@@ -35,15 +35,9 @@ sut_tools
 '
 '
 import
-datetime
-import
-os
-import
 re
 import
 subprocess
-import
-sys
 import
 time
 from
@@ -559,6 +553,9 @@ connect
 or
 specify
 a
+"
+                           
+"
 device_id
 or
 device_ip
@@ -594,6 +591,9 @@ specify
 '
 device_id
 '
+"
+                             
+"
 or
 \
 n
@@ -2511,10 +2511,9 @@ install
 -
 r
 '
-                                                       
 file_path
 ]
-                                                       
+                                                      
 ignore_errors
 =
 True
@@ -3432,6 +3431,7 @@ protocol
 !
 "
 %
+                       
 str
 (
 device_protocol

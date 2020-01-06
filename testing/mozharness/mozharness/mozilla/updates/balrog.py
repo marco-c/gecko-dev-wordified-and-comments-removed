@@ -792,6 +792,7 @@ dirs
 abs_tools_dir
 '
 ]
+                         
 "
 scripts
 /
@@ -822,6 +823,7 @@ build
 -
 properties
 "
+                   
 os
 .
 path
@@ -899,6 +901,7 @@ dirs
 build_dir
 '
 ]
+                   
 self
 .
 config
@@ -937,6 +940,7 @@ dirs
 base_work_dir
 '
 ]
+                   
 self
 .
 config

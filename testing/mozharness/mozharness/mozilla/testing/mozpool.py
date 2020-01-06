@@ -150,8 +150,8 @@ if
 self
 .
 mozpool_handler
-!
-=
+is
+not
 None
 :
             
@@ -167,6 +167,8 @@ self
 .
 mozpool_api_url
 =
+(
+                
 self
 .
 determine_mozpool_host
@@ -178,12 +180,14 @@ device
 else
 mozpool_api_url
             
+)
+            
 assert
 self
 .
 mozpool_api_url
-!
-=
+is
+not
 None
 \
                 
@@ -246,9 +250,12 @@ try
 from
 mozpoolclient
 import
+(
 MozpoolHandler
 MozpoolException
+                                           
 MozpoolConflictException
+)
                 
 self
 .
@@ -414,16 +421,16 @@ self
 .
 mozpool_device
 image
+                                              
 assignee
 =
 self
 .
 mozpool_assignee
-\
-                               
 b2gbase
 =
 b2gbase
+                                              
 pxe_config
 =
 None
@@ -559,26 +566,30 @@ mozpool_device
         
 exception_message
 =
+(
+            
 str
 (
 exception
 )
 if
 exception
-!
-=
+is
+not
 None
 and
 str
 (
 exception
 )
-!
-=
+is
+not
 None
 else
 "
 "
+        
+)
         
 self
 .
@@ -773,7 +784,7 @@ RETRY_INTERVAL
 max_retries
 =
 MAX_RETRIES
-                
+                                       
 error_message
 =
 "
@@ -785,11 +796,14 @@ Request
 did
 not
 become
+"
+                                                     
+"
 ready
 in
 time
 "
-                
+                                       
 tbpl_status
 =
 TBPL_EXCEPTION
