@@ -4432,6 +4432,11 @@ nullptr
 nullptr
 )
 ;
+if
+(
+ctFont
+)
+{
 CFArrayRef
 features
 =
@@ -4445,6 +4450,11 @@ CFRelease
 ctFont
 )
 ;
+if
+(
+features
+)
+{
 mHasAATSmallCaps
 =
 CheckForAATSmallCaps
@@ -4457,6 +4467,8 @@ CFRelease
 features
 )
 ;
+}
+}
 return
 mHasAATSmallCaps
 ;
