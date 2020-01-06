@@ -4934,19 +4934,6 @@ tools
 '
 ]
     
-print
-(
-"
->
->
->
-%
-s
-"
-%
-exe
-)
-    
 found
 =
 False
@@ -4982,22 +4969,6 @@ exists
 exe_path
 )
 :
-                
-print
-(
-"
->
->
->
-found
-in
-substs
-%
-s
-"
-%
-exe_path
-)
                 
 found
 =
