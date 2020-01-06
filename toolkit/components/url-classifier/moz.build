@@ -248,6 +248,11 @@ RiceDeltaDecoder
 .
 cpp
 '
+'
+UrlClassifierTelemetryUtils
+.
+cpp
+'
 ]
 #
 define
