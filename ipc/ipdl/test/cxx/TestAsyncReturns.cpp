@@ -80,7 +80,7 @@ if
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 )
@@ -105,7 +105,7 @@ Then
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 __func__
@@ -183,7 +183,7 @@ Then
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 __func__
@@ -379,7 +379,7 @@ if
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 )
@@ -404,7 +404,7 @@ Then
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 __func__
