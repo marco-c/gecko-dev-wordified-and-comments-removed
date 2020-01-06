@@ -1926,7 +1926,7 @@ MOZ_ASSERT
 calledPrepareVMCall_
 )
 ;
-JitCode
+uint8_t
 *
 code
 =
@@ -1947,14 +1947,6 @@ getVMWrapper
 (
 fun
 )
-;
-if
-(
-!
-code
-)
-return
-false
 ;
 uint32_t
 frameSize
@@ -2000,7 +1992,10 @@ masm
 .
 callJit
 (
+ImmPtr
+(
 code
+)
 )
 ;
 int

@@ -271,7 +271,7 @@ inline
 void
 EmitBaselineTailCallVM
 (
-JitCode
+uint8_t
 *
 target
 MacroAssembler
@@ -400,9 +400,12 @@ lr
 ;
 masm
 .
-branch
+jump
+(
+ImmPtr
 (
 target
+)
 )
 ;
 }
@@ -410,7 +413,7 @@ inline
 void
 EmitIonTailCallVM
 (
-JitCode
+uint8_t
 *
 target
 MacroAssembler
@@ -516,9 +519,12 @@ lr
 ;
 masm
 .
-branch
+jump
+(
+ImmPtr
 (
 target
+)
 )
 ;
 }
@@ -583,7 +589,7 @@ inline
 void
 EmitBaselineCallVM
 (
-JitCode
+uint8_t
 *
 target
 MacroAssembler
@@ -614,7 +620,10 @@ masm
 .
 call
 (
+ImmPtr
+(
 target
+)
 )
 ;
 }

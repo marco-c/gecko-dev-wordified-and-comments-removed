@@ -247,7 +247,7 @@ CallVMPhase
 phase
 )
 {
-JitCode
+uint8_t
 *
 code
 =
@@ -268,14 +268,6 @@ getVMWrapper
 (
 fun
 )
-;
-if
-(
-!
-code
-)
-return
-false
 ;
 #
 ifdef
@@ -673,7 +665,10 @@ masm
 .
 call
 (
+ImmPtr
+(
 code
+)
 )
 ;
 uint32_t

@@ -22810,7 +22810,7 @@ pushArg
 scratch2
 )
 ;
-JitCode
+uint8_t
 *
 code
 =
@@ -22831,14 +22831,6 @@ getVMWrapper
 (
 GeneratorThrowInfo
 )
-;
-if
-(
-!
-code
-)
-return
-false
 ;
 masm
 .
@@ -22887,7 +22879,10 @@ masm
 .
 jump
 (
+ImmPtr
+(
 code
+)
 )
 ;
 }

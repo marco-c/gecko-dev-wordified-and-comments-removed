@@ -2981,7 +2981,7 @@ MacroAssembler
 masm
 )
 {
-JitCode
+uint8_t
 *
 code
 =
@@ -3002,14 +3002,6 @@ getVMWrapper
 (
 fun
 )
-;
-if
-(
-!
-code
-)
-return
-false
 ;
 MOZ_ASSERT
 (
@@ -3103,7 +3095,7 @@ MOZ_ASSERT
 inStubFrame_
 )
 ;
-JitCode
+uint8_t
 *
 code
 =
@@ -3124,14 +3116,6 @@ getVMWrapper
 (
 fun
 )
-;
-if
-(
-!
-code
-)
-return
-false
 ;
 MOZ_ASSERT
 (
