@@ -1545,14 +1545,6 @@ return
 true
 ;
 }
-void
-SetCurrentProcessPrivileges
-(
-ChildPrivileges
-privs
-)
-{
-}
 ProcessMetrics
 :
 :
