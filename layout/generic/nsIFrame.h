@@ -8120,11 +8120,6 @@ aSelection
 )
 ;
 bool
-IsPseudoStackingContextFromStyle
-(
-)
-;
-bool
 IsVisuallyAtomic
 (
 mozilla
