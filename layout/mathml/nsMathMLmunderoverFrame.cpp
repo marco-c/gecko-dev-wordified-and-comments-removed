@@ -256,11 +256,6 @@ IsEmpty
 )
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -500,11 +495,6 @@ IsEmpty
 )
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

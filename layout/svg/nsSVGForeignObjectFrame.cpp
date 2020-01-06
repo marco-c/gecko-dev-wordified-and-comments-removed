@@ -2068,11 +2068,6 @@ needReflow
 &
 &
 !
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -2346,11 +2341,6 @@ kid
 )
 return
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

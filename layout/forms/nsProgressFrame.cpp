@@ -1094,11 +1094,6 @@ max
 auto
 shell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

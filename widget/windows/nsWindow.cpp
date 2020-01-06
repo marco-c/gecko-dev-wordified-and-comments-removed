@@ -29784,11 +29784,6 @@ GetDocAccessible
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

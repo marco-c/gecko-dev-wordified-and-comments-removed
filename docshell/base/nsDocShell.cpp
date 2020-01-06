@@ -35628,11 +35628,6 @@ frame
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

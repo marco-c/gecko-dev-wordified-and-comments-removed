@@ -549,11 +549,6 @@ embeddingFrame
 embeddingFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -2253,11 +2248,6 @@ aReflowInput
 aStatus
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -3276,11 +3266,6 @@ embeddingFrame
 embeddingFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -3300,11 +3285,6 @@ NS_FRAME_IS_DIRTY
 }
 else
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

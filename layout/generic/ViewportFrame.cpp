@@ -773,11 +773,6 @@ nsIPresShell
 *
 shell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1336,11 +1331,6 @@ nsIPresShell
 *
 ps
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1931,11 +1921,6 @@ ShouldClipSubdocument
 container
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1987,11 +1972,6 @@ nsIScrollableFrame
 *
 rootScrollFrame
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

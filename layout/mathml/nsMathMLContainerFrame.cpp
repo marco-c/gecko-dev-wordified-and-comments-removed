@@ -2704,11 +2704,6 @@ NS_OK
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -2940,11 +2935,6 @@ int32_t
 aModType
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

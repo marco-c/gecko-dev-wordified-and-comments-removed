@@ -558,11 +558,6 @@ this
 aFrameList
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -673,11 +668,6 @@ aPrevFrame
 aFrameList
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -748,11 +738,6 @@ DestroyFrame
 aOldFrame
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

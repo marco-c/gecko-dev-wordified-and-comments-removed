@@ -272,11 +272,6 @@ aFrameList
 aDelegatingFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -374,11 +369,6 @@ aFrameList
 )
 ;
 aDelegatingFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

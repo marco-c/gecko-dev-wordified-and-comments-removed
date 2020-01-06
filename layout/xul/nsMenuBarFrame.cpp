@@ -594,11 +594,6 @@ nullptr
 auto
 insertion
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

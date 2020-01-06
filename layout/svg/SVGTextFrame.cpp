@@ -10209,11 +10209,6 @@ reflow
 "
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -13784,11 +13779,6 @@ float
 aResult
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )

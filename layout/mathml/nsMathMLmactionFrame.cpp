@@ -834,11 +834,6 @@ if
 needsReflow
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -1287,11 +1282,6 @@ value
 notify
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

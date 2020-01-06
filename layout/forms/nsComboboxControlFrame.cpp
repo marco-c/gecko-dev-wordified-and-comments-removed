@@ -2388,11 +2388,6 @@ shell
 mFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -4560,11 +4555,6 @@ ActuallyDisplayText
 true
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5805,11 +5795,6 @@ nsIPresShell
 *
 shell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )

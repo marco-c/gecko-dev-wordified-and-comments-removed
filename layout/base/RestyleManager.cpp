@@ -3555,11 +3555,6 @@ rc
 aFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -5750,11 +5745,6 @@ eNoPositionOrSizeChange
 do
 {
 aFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

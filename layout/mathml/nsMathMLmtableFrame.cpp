@@ -3309,11 +3309,6 @@ nsGkAtoms
 align
 )
 {
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -3354,11 +3349,6 @@ GetParent
 )
 )
 ;
-PresContext
-(
-)
--
->
 PresShell
 (
 )

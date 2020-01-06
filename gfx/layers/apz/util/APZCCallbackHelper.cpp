@@ -2720,11 +2720,6 @@ doc
 aRootFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
@@ -2873,11 +2868,6 @@ target
 )
 :
 aRootFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell
@@ -3071,11 +3061,6 @@ APZCCallbackHelper
 InitializeRootDisplayport
 (
 aRootFrame
--
->
-PresContext
-(
-)
 -
 >
 PresShell

@@ -17650,11 +17650,6 @@ return
 frame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

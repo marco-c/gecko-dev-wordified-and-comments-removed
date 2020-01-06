@@ -3641,11 +3641,6 @@ presShell
 aImageFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

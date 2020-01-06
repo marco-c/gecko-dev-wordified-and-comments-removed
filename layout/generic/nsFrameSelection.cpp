@@ -2169,11 +2169,6 @@ cursorFrame
 cursorFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )

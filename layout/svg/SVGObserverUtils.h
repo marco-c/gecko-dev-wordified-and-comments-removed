@@ -463,11 +463,6 @@ mFramePresShell
 aFrame
 -
 >
-PresContext
-(
-)
--
->
 PresShell
 (
 )
