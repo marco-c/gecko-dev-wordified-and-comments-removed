@@ -1274,15 +1274,8 @@ gDiscardedData
 }
 ;
 }
-mozilla
-:
-:
-Unused
-<
-<
-NS_WARN_IF
+MOZ_ASSERT
 (
-!
 ipcActor
 )
 ;
