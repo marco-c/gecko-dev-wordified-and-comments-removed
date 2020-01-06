@@ -682,12 +682,6 @@ mozilla
 CondVar
 mCondVar
 ;
-RefPtr
-<
-EventTarget
->
-mEventTarget
-;
 nsTArray
 <
 RefPtr
@@ -1012,14 +1006,6 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
-)
-;
-already_AddRefed
-<
-nsISerialEventTarget
->
-GetEventTarget
-(
 )
 ;
 bool
