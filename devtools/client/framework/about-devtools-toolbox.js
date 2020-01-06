@@ -201,6 +201,12 @@ getSystemPrincipal
 (
 )
 ;
+chan
+.
+originalURI
+=
+aURI
+;
 return
 chan
 ;

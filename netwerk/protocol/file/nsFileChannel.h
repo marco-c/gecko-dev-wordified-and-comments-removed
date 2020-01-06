@@ -48,6 +48,11 @@ nsIURI
 uri
 )
 ;
+nsresult
+Init
+(
+)
+;
 protected
 :
 ~
@@ -103,6 +108,12 @@ mUploadStream
 ;
 int64_t
 mUploadLength
+;
+nsCOMPtr
+<
+nsIURI
+>
+mFileURI
 ;
 }
 ;

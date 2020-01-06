@@ -132,6 +132,12 @@ nsCOMPtr
 <
 nsIURI
 >
+mResultPrincipalURI
+;
+nsCOMPtr
+<
+nsIURI
+>
 mReferrerURI
 ;
 uint32_t
