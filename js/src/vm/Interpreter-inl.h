@@ -2150,8 +2150,8 @@ JSOp
 op
 HandleObject
 obj
-HandleId
-id
+HandlePropertyName
+name
 HandleValue
 rhs
 )
@@ -2200,7 +2200,7 @@ NativeObject
 >
 (
 )
-id
+name
 rhs
 propAttrs
 )
@@ -2224,7 +2224,17 @@ layout
 .
 lookup
 (
+name
+)
+)
+;
+RootedId
 id
+(
+cx
+NameToId
+(
+name
 )
 )
 ;
