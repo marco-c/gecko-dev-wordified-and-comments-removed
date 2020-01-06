@@ -961,6 +961,9 @@ aOutEndpoint
 nsresult
 *
 aOutRv
+nsCString
+*
+aOutErrorDescription
 )
 override
 ;
@@ -1010,6 +1013,9 @@ aOutEndpoint
 nsresult
 *
 aOutRv
+nsCString
+*
+aOutErrorDescription
 )
 override
 ;

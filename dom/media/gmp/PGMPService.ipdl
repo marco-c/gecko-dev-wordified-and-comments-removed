@@ -157,6 +157,8 @@ PGMPContentParent
 endpoint
 nsresult
 aResult
+nsCString
+aErrorDescription
 )
 ;
 sync
@@ -190,6 +192,8 @@ PGMPContentParent
 endpoint
 nsresult
 aResult
+nsCString
+aErrorDescription
 )
 ;
 sync
