@@ -37783,6 +37783,9 @@ RecalcQuotesAndCounters
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 if
 (
 mQuotesDirty
