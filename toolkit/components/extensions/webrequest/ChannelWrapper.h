@@ -1207,6 +1207,11 @@ mSuspended
 =
 false
 ;
+bool
+mResponseStarted
+=
+false
+;
 nsInterfaceHashtable
 <
 nsPtrHashKey
