@@ -116,12 +116,6 @@ Init
 )
 override
 ;
-void
-Close
-(
-)
-override
-;
 nsresult
 WriteBlock
 (
@@ -415,6 +409,11 @@ aFD
 )
 ;
 void
+Close
+(
+)
+;
+void
 PerformBlockIOs
 (
 )
@@ -508,9 +507,6 @@ mIsWriteScheduled
 ;
 bool
 mIsReading
-;
-bool
-mIsOpen
 ;
 bool
 mInitialized

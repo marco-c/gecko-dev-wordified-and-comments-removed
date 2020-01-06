@@ -56,13 +56,6 @@ Init
 override
 ;
 virtual
-void
-Close
-(
-)
-override
-;
-virtual
 nsresult
 WriteBlock
 (
