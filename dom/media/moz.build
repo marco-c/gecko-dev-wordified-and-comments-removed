@@ -761,11 +761,6 @@ MP3Demuxer
 h
 '
 '
-MP3FrameParser
-.
-h
-'
-'
 nsIDocumentActivity
 .
 h
@@ -1269,11 +1264,6 @@ cpp
 '
 '
 MP3Demuxer
-.
-cpp
-'
-'
-MP3FrameParser
 .
 cpp
 '
