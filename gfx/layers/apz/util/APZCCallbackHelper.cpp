@@ -1140,6 +1140,13 @@ gfxPrefs
 APZAllowZooming
 (
 )
+&
+&
+aMetrics
+.
+GetScrollOffsetUpdated
+(
+)
 )
 {
 float
