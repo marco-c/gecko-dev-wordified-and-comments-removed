@@ -783,6 +783,13 @@ samplerBindings
 )
 {
 }
+virtual
+void
+ensureUniformBlocksInitialized
+(
+)
+{
+}
 protected
 :
 const

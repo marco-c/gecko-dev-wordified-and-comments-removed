@@ -3709,6 +3709,13 @@ this
 )
 ;
 }
+mProgram
+-
+>
+ensureUniformBlocksInitialized
+(
+)
+;
 double
 delta
 =

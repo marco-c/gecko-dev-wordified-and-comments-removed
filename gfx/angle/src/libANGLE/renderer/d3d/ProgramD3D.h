@@ -1390,6 +1390,12 @@ uniformBlockBinding
 )
 override
 ;
+void
+ensureUniformBlocksInitialized
+(
+)
+override
+;
 UniformStorageD3D
 &
 getVertexUniformStorage
@@ -2177,11 +2183,6 @@ context
 ;
 void
 reset
-(
-)
-;
-void
-ensureUniformBlocksInitialized
 (
 )
 ;
