@@ -4401,6 +4401,7 @@ loadUrl
 (
 url
 null
+null
 INVALID_TAB_ID
 null
 flags
@@ -4460,6 +4461,7 @@ loadUrl
 (
 url
 null
+null
 INVALID_TAB_ID
 intent
 flags
@@ -4489,6 +4491,7 @@ loadUrl
 (
 url
 searchEngine
+null
 parentId
 null
 flags
@@ -4505,9 +4508,14 @@ url
 final
 String
 searchEngine
+Nullable
+final
+String
+referrerUri
 final
 int
 parentId
+Nullable
 final
 SafeIntent
 intent
@@ -4710,6 +4718,16 @@ putBoolean
 desktopMode
 "
 desktopMode
+)
+;
+data
+.
+putString
+(
+"
+referrerURI
+"
+referrerUri
 )
 ;
 final
