@@ -1128,10 +1128,6 @@ Printing
 :
 "
 "
-Social
-:
-"
-"
 PageMetadata
 :
 "
@@ -1165,10 +1161,6 @@ PageInfo
 "
 "
 Printing
-:
-"
-"
-Social
 :
 "
 "
