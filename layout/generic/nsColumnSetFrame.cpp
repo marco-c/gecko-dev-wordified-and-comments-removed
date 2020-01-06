@@ -560,10 +560,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ColumnSet
 )
 mLastBalanceBSize
 (

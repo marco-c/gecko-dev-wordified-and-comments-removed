@@ -802,10 +802,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Menu
 )
 mIsMenu
 (

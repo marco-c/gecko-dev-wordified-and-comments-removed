@@ -139,13 +139,6 @@ nsFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Bullet
 )
 mPadding
 (

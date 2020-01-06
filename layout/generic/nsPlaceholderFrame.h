@@ -106,13 +106,6 @@ nsFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Placeholder
 )
 mOutOfFlowFrame
 (

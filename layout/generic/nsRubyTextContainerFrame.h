@@ -175,13 +175,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-RubyTextContainer
 )
 mISize
 (

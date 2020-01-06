@@ -244,10 +244,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Sequence
 )
 mTotalPages
 (

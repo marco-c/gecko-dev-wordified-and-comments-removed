@@ -46,13 +46,6 @@ nsBlockFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Legend
 )
 {
 }

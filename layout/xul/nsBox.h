@@ -249,10 +249,6 @@ nsBox
 (
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
 )
 ;
 virtual

@@ -657,10 +657,6 @@ nsFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Object
 )
 mInstanceOwner
 (

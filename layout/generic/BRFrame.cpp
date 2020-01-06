@@ -310,10 +310,6 @@ nsFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Br
 )
 mAscent
 (

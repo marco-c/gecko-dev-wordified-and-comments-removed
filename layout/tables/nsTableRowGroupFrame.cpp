@@ -216,10 +216,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-TableRowGroup
 )
 {
 SetRepeatable

@@ -131,13 +131,6 @@ nsBlockFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-XULLabel
 )
 {
 }

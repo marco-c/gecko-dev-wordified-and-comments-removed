@@ -449,10 +449,6 @@ nsBoxFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Slider
 )
 mRatio
 (

@@ -41,7 +41,6 @@ const
 ;
 protected
 :
-explicit
 nsRubyContentFrame
 (
 nsStyleContext
@@ -49,18 +48,12 @@ nsStyleContext
 aContext
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 )
 :
 nsInlineFrame
 (
 aContext
 aID
-aType
 )
 {
 }

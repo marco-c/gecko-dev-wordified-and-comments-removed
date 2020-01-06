@@ -4208,13 +4208,6 @@ nsHTMLScrollFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Scroll
 aIsRoot
 )
 {
@@ -4229,11 +4222,6 @@ nsIFrame
 :
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 bool
 aIsRoot
 )

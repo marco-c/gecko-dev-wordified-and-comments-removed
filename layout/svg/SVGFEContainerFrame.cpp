@@ -73,13 +73,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-SVGFEContainer
 )
 {
 AddStateBits

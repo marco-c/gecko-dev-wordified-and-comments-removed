@@ -247,13 +247,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-RubyBaseContainer
 )
 {
 }

@@ -165,13 +165,6 @@ ViewportFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-PageContent
 )
 {
 }

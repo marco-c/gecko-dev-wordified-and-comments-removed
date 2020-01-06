@@ -247,10 +247,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Range
 )
 {
 }

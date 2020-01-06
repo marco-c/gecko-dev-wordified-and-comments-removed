@@ -499,10 +499,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-TextInput
 )
 mFirstBaseline
 (

@@ -262,10 +262,6 @@ nsImageFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ImageControl
 )
 {
 }

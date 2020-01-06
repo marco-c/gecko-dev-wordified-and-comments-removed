@@ -36,13 +36,6 @@ nsFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Backdrop
 )
 {
 }

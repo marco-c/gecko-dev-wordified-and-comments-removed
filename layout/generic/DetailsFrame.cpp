@@ -128,10 +128,6 @@ nsBlockFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Details
 )
 {
 }

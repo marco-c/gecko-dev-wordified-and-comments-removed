@@ -207,10 +207,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Progress
 )
 mBarDiv
 (

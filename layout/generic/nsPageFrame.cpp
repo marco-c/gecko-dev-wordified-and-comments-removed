@@ -212,10 +212,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-Page
 )
 {
 }
@@ -3400,10 +3396,6 @@ nsLeafFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-PageBreak
 )
 mHaveReflowed
 (

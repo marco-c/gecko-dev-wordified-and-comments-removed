@@ -310,10 +310,6 @@ nsAtomicContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-SubDocument
 )
 mOuterView
 (

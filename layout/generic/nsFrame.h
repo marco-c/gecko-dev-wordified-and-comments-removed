@@ -1890,11 +1890,6 @@ nsStyleContext
 aContext
 ClassID
 aID
-mozilla
-:
-:
-LayoutFrameType
-aType
 )
 ;
 explicit
@@ -1912,13 +1907,6 @@ ClassID
 :
 :
 nsFrame_id
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-None
 )
 {
 }

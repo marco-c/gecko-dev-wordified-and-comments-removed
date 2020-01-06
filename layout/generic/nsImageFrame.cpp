@@ -677,15 +677,12 @@ nsStyleContext
 aContext
 ClassID
 aID
-LayoutFrameType
-aType
 )
 :
 nsAtomicContainerFrame
 (
 aContext
 aID
-aType
 )
 mComputedSize
 (

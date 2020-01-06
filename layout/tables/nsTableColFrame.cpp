@@ -121,10 +121,6 @@ nsSplittableFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-TableCol
 )
 mMinCoord
 (

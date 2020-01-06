@@ -88,13 +88,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-Canvas
 )
 mDoPaintFocus
 (

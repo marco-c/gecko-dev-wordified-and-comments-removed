@@ -257,10 +257,6 @@ nsContainerFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-NumberControl
 )
 mHandlingInputEvent
 (

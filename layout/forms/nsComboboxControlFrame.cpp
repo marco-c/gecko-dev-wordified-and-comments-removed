@@ -1031,10 +1031,6 @@ nsBlockFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ComboboxControl
 )
 mDisplayFrame
 (
@@ -5440,10 +5436,6 @@ nsBlockFrame
 (
 aContext
 kClassID
-LayoutFrameType
-:
-:
-ComboboxDisplay
 )
 mComboBox
 (

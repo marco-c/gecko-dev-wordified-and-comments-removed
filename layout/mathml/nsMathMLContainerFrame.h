@@ -105,13 +105,6 @@ nsContainerFrame
 (
 aContext
 aID
-mozilla
-:
-:
-LayoutFrameType
-:
-:
-None
 )
 mIntrinsicWidth
 (

@@ -609,10 +609,6 @@ nsContainerFrame
 (
 aContext
 aID
-LayoutFrameType
-:
-:
-TableRow
 )
 mContentBSize
 (
