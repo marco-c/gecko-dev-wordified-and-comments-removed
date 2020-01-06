@@ -1414,7 +1414,10 @@ DrawPixelSnapped
 (
 ctx
 drawable
+SizeDouble
+(
 aSize
+)
 ImageRegion
 :
 :
@@ -1823,7 +1826,10 @@ DrawPixelSnapped
 (
 aContext
 drawable
+SizeDouble
+(
 aSize
+)
 aRegion
 SurfaceFormat
 :

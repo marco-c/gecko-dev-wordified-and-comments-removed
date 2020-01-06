@@ -860,7 +860,10 @@ DrawPixelSnapped
 (
 aContext
 mDrawable
+SizeDouble
+(
 drawableSize
+)
 aRegion
 SurfaceFormat
 :
@@ -960,7 +963,10 @@ DrawPixelSnapped
 (
 aContext
 mDrawable
+SizeDouble
+(
 drawableSize
+)
 region
 SurfaceFormat
 :

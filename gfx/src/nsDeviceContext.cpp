@@ -2795,12 +2795,13 @@ CalcPrintingSize
 {
 gfxSize
 size
-=
+(
 mPrintTarget
 -
 >
 GetSize
 (
+)
 )
 ;
 mWidth

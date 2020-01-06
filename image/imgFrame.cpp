@@ -1666,10 +1666,13 @@ DrawPixelSnapped
 (
 ctx
 aDrawable
+SizeDouble
+(
 mFrameRect
 .
 Size
 (
+)
 )
 ImageRegion
 :

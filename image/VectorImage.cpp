@@ -3938,9 +3938,12 @@ aParams
 .
 context
 aDrawable
+SizeDouble
+(
 aParams
 .
 size
+)
 aParams
 .
 region

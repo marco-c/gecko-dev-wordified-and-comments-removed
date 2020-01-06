@@ -253,16 +253,6 @@ h
 "
 ;
 using
-struct
-gfxSize
-from
-"
-gfxPoint
-.
-h
-"
-;
-using
 mozilla
 :
 :
