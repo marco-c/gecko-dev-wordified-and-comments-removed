@@ -26,7 +26,7 @@ std
 io
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 NativeFontHandle

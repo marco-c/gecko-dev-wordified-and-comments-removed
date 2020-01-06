@@ -1532,7 +1532,7 @@ percent_encoding
 percent_decode
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ClipId

@@ -66,7 +66,7 @@ cef_window_handle_t
 }
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ScrollLocation

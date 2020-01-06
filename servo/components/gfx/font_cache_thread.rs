@@ -220,7 +220,7 @@ FamilyName
 }
 ;
 use
-webrender_traits
+webrender_api
 ;
 struct
 FontTemplates
@@ -257,7 +257,7 @@ font_key
 :
 Option
 <
-webrender_traits
+webrender_api
 :
 :
 FontKey
@@ -645,7 +645,7 @@ webrender_api
 :
 Option
 <
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -655,7 +655,7 @@ webrender_fonts
 HashMap
 <
 Atom
-webrender_traits
+webrender_api
 :
 :
 FontKey
@@ -2611,7 +2611,7 @@ webrender_api
 :
 Option
 <
-webrender_traits
+webrender_api
 :
 :
 RenderApi

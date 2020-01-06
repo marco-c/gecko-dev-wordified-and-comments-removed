@@ -136,7 +136,7 @@ path
 url
 "
 }
-webrender_traits
+webrender_api
 =
 {
 git

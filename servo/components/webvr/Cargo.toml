@@ -119,7 +119,7 @@ path
 webvr_traits
 "
 }
-webrender_traits
+webrender_api
 =
 {
 git

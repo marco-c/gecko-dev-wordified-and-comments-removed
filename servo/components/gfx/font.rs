@@ -190,7 +190,7 @@ unicode_script
 Script
 ;
 use
-webrender_traits
+webrender_api
 ;
 macro_rules
 !
@@ -766,7 +766,7 @@ FractionalPixel
 pub
 font_key
 :
-webrender_traits
+webrender_api
 :
 :
 FontKey
@@ -798,7 +798,7 @@ actual_pt_size
 Au
 font_key
 :
-webrender_traits
+webrender_api
 :
 :
 FontKey

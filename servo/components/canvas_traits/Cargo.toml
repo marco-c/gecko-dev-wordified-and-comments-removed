@@ -101,7 +101,7 @@ serde
 .
 0
 "
-webrender_traits
+webrender_api
 =
 {
 git

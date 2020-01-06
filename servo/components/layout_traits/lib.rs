@@ -36,7 +36,7 @@ servo_url
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 use
 gfx
@@ -233,7 +233,7 @@ IpcSender
 >
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender

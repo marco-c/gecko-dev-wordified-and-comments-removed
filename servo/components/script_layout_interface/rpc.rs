@@ -38,7 +38,7 @@ overflow_x
 }
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 ClipId

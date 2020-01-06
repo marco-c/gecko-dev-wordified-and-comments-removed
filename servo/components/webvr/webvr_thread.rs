@@ -86,10 +86,10 @@ Sender
 }
 ;
 use
-webrender_traits
+webrender_api
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 DeviceIntSize
@@ -1856,7 +1856,7 @@ compositors
 :
 HashMap
 <
-webrender_traits
+webrender_api
 :
 :
 VRCompositorId
@@ -1972,7 +1972,7 @@ sender
 }
 }
 impl
-webrender_traits
+webrender_api
 :
 :
 VRCompositorHandler
@@ -1994,7 +1994,7 @@ mut
 self
 cmd
 :
-webrender_traits
+webrender_api
 :
 :
 VRCompositorCommand
@@ -2012,7 +2012,7 @@ DeviceIntSize
 match
 cmd
 {
-webrender_traits
+webrender_api
 :
 :
 VRCompositorCommand
@@ -2033,7 +2033,7 @@ compositor_id
 )
 ;
 }
-webrender_traits
+webrender_api
 :
 :
 VRCompositorCommand
@@ -2132,7 +2132,7 @@ Err
 ;
 }
 }
-webrender_traits
+webrender_api
 :
 :
 VRCompositorCommand
@@ -2228,7 +2228,7 @@ layer
 }
 }
 }
-webrender_traits
+webrender_api
 :
 :
 VRCompositorCommand
@@ -2273,7 +2273,7 @@ mut
 self
 display_id
 :
-webrender_traits
+webrender_api
 :
 :
 VRCompositorId

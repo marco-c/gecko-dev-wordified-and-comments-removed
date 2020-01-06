@@ -263,7 +263,7 @@ path
 style
 "
 }
-webrender_traits
+webrender_api
 =
 {
 git

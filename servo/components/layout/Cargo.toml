@@ -405,7 +405,7 @@ harfbuzz
 "
 ]
 }
-webrender_traits
+webrender_api
 =
 {
 git

@@ -312,7 +312,7 @@ components
 style_traits
 "
 }
-webrender_traits
+webrender_api
 =
 {
 git

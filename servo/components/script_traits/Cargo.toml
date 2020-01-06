@@ -310,7 +310,7 @@ heap_size
 "
 ]
 }
-webrender_traits
+webrender_api
 =
 {
 git

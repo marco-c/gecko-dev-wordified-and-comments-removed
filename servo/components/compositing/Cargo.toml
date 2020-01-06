@@ -237,7 +237,7 @@ servo
 webrender
 "
 }
-webrender_traits
+webrender_api
 =
 {
 git

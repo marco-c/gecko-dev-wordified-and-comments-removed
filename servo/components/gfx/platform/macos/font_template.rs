@@ -135,7 +135,7 @@ sync
 Mutex
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 NativeFontHandle

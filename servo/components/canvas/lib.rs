@@ -52,7 +52,7 @@ servo_config
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 pub
 mod

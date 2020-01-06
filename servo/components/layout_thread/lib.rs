@@ -136,7 +136,7 @@ style
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 use
 app_units
@@ -1217,7 +1217,7 @@ RegisteredPainter
 >
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -1322,7 +1322,7 @@ IpcSender
 >
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -2307,7 +2307,7 @@ mem
 ProfilerChan
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -6226,7 +6226,7 @@ epoch
 let
 viewport_size
 =
-webrender_traits
+webrender_api
 :
 :
 LayoutSize
@@ -6251,7 +6251,7 @@ get_root_flow_background_color
 layout_root
 )
 )
-webrender_traits
+webrender_api
 :
 :
 Epoch
@@ -10894,7 +10894,7 @@ Flow
 )
 -
 >
-webrender_traits
+webrender_api
 :
 :
 ColorF
@@ -10902,7 +10902,7 @@ ColorF
 let
 transparent
 =
-webrender_traits
+webrender_api
 :
 :
 ColorF

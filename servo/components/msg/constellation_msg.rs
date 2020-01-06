@@ -14,7 +14,7 @@ std
 fmt
 ;
 use
-webrender_traits
+webrender_api
 ;
 #
 [
@@ -587,7 +587,7 @@ self
 )
 -
 >
-webrender_traits
+webrender_api
 :
 :
 PipelineId
@@ -612,7 +612,7 @@ self
 .
 index
 ;
-webrender_traits
+webrender_api
 :
 :
 PipelineId
@@ -630,12 +630,12 @@ self
 )
 -
 >
-webrender_traits
+webrender_api
 :
 :
 ClipId
 {
-webrender_traits
+webrender_api
 :
 :
 ClipId

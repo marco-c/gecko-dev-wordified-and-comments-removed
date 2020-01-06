@@ -130,7 +130,7 @@ use
 webrender
 ;
 use
-webrender_traits
+webrender_api
 ;
 pub
 trait
@@ -396,7 +396,7 @@ Exit
 ShutdownComplete
 ScrollFragmentPoint
 (
-webrender_traits
+webrender_api
 :
 :
 ClipId
@@ -1117,7 +1117,7 @@ Renderer
 pub
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender

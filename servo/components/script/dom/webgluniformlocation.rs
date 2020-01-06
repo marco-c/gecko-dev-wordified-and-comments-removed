@@ -56,7 +56,7 @@ dom_struct
 dom_struct
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 WebGLProgramId

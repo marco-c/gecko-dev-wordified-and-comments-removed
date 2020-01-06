@@ -590,10 +590,10 @@ collections
 HashMap
 ;
 use
-webrender_traits
+webrender_api
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 {
@@ -604,7 +604,7 @@ WebGLParameter
 }
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 WebGLError
@@ -1032,7 +1032,7 @@ ignore_heap_size_of
 "
 Defined
 in
-webrender_traits
+webrender_api
 "
 ]
 last_error
@@ -8248,7 +8248,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -8972,7 +8972,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -9067,7 +9067,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -9162,7 +9162,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -9276,7 +9276,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -9852,7 +9852,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -10220,7 +10220,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -18400,7 +18400,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -18820,7 +18820,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -19056,7 +19056,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -19383,7 +19383,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel
@@ -20948,7 +20948,7 @@ sender
 receiver
 )
 =
-webrender_traits
+webrender_api
 :
 :
 channel

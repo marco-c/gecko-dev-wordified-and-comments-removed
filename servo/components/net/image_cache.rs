@@ -166,7 +166,7 @@ std
 thread
 ;
 use
-webrender_traits
+webrender_api
 ;
 fn
 convert_format
@@ -177,7 +177,7 @@ PixelFormat
 )
 -
 >
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -216,7 +216,7 @@ PixelFormat
 RGB8
 =
 >
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -229,7 +229,7 @@ PixelFormat
 BGRA8
 =
 >
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -279,7 +279,7 @@ get_placeholder_image
 webrender_api
 :
 &
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -372,7 +372,7 @@ set_webrender_image_key
 webrender_api
 :
 &
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -431,7 +431,7 @@ if
 format
 =
 =
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -452,7 +452,7 @@ as_mut_slice
 let
 descriptor
 =
-webrender_traits
+webrender_api
 :
 :
 ImageDescriptor
@@ -489,7 +489,7 @@ bytes
 let
 data
 =
-webrender_traits
+webrender_api
 :
 :
 ImageData
@@ -534,7 +534,7 @@ is_image_opaque
 (
 format
 :
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -552,7 +552,7 @@ bool
 match
 format
 {
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -607,7 +607,7 @@ break
 }
 is_opaque
 }
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -617,7 +617,7 @@ RGB8
 =
 >
 true
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -627,7 +627,7 @@ RG8
 =
 >
 true
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -637,7 +637,7 @@ A8
 =
 >
 false
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -645,7 +645,7 @@ ImageFormat
 :
 Invalid
 |
-webrender_traits
+webrender_api
 :
 :
 ImageFormat
@@ -1652,7 +1652,7 @@ placeholder_url
 ServoUrl
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi
@@ -2104,7 +2104,7 @@ new
 (
 webrender_api
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApi

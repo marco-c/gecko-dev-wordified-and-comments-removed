@@ -308,7 +308,7 @@ style_traits
 CSSPixel
 ;
 use
-webrender_traits
+webrender_api
 ;
 use
 webvr_traits
@@ -536,7 +536,7 @@ bool
 pub
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender
@@ -2511,7 +2511,7 @@ IpcReceiver
 >
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender

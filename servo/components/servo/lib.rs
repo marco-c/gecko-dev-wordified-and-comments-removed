@@ -161,7 +161,7 @@ style_traits
 pub
 extern
 crate
-webrender_traits
+webrender_api
 ;
 pub
 extern
@@ -955,7 +955,7 @@ framebuffer_size
 let
 framebuffer_size
 =
-webrender_traits
+webrender_api
 :
 :
 DeviceUintSize
@@ -1498,7 +1498,7 @@ webrender
 Renderer
 webrender_api_sender
 :
-webrender_traits
+webrender_api
 :
 :
 RenderApiSender

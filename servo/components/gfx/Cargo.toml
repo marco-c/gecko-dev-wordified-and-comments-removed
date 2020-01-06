@@ -337,7 +337,7 @@ harfbuzz
 "
 ]
 }
-webrender_traits
+webrender_api
 =
 {
 git
@@ -420,7 +420,7 @@ core
 text
 =
 "
-5
+6
 .
 0
 "

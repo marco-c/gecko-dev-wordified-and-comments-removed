@@ -525,7 +525,7 @@ webrender
 name
 =
 "
-webrender_traits
+webrender_api
 "
 '
 ]

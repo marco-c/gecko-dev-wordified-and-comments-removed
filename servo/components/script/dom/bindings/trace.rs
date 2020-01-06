@@ -794,7 +794,7 @@ uuid
 Uuid
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 {
@@ -805,7 +805,7 @@ WebGLProgramId
 }
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 {

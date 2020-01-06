@@ -347,7 +347,7 @@ v4
 "
 ]
 }
-webrender_traits
+webrender_api
 =
 {
 git
