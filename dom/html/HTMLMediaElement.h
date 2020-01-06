@@ -2983,6 +2983,13 @@ UpdateCustomPolicyAfterPlayed
 (
 )
 ;
+bool
+CanBeCaptured
+(
+bool
+aCaptureAudio
+)
+;
 class
 nsAsyncEventRunner
 ;
