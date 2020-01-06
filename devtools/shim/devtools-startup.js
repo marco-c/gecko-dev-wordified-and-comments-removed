@@ -1811,6 +1811,17 @@ key
 )
 {
 let
+startTime
+=
+window
+.
+performance
+.
+now
+(
+)
+;
+let
 require
 =
 this
@@ -1853,6 +1864,7 @@ onKeyShortcut
 (
 window
 key
+startTime
 )
 ;
 }

@@ -180,6 +180,13 @@ toggleToolboxCommand
 window
 .
 gBrowser
+window
+.
+performance
+.
+now
+(
+)
 )
 ;
 }
