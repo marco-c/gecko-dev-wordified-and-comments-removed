@@ -177,15 +177,6 @@ skiaContent
 2
 88
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 text
