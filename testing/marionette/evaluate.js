@@ -1060,8 +1060,6 @@ seenEls
 )
 ;
 }
-else
-{
 let
 rv
 =
@@ -1098,6 +1096,8 @@ seenEls
 catch
 (
 e
+)
+{
 if
 (
 e
@@ -1108,7 +1108,6 @@ result
 Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
-)
 )
 {
 logger
@@ -1126,6 +1125,12 @@ e
 message
 }
 )
+;
+}
+else
+{
+throw
+e
 ;
 }
 }

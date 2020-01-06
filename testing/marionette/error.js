@@ -485,7 +485,10 @@ obj
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 TypeError
@@ -501,6 +504,13 @@ message
 }
 >
 ;
+}
+else
+{
+throw
+e
+;
+}
 }
 return
 proto
