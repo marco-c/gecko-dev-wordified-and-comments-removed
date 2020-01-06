@@ -1995,6 +1995,11 @@ nsGlobalWindowInner
 .
 cpp
 '
+'
+nsGlobalWindowOuter
+.
+cpp
+'
 #
 Conflicts
 with
