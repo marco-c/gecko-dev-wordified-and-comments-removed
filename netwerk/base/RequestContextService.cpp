@@ -425,8 +425,10 @@ if
 IsNeckoChild
 (
 )
-&
-&
+)
+{
+if
+(
 gNeckoChild
 )
 {
@@ -438,6 +440,7 @@ SendRequestContextLoadBegin
 mID
 )
 ;
+}
 return
 NS_OK
 ;
