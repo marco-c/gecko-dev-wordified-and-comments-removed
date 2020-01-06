@@ -3256,6 +3256,13 @@ transition
 true
 )
 ;
+this
+.
+descriptionHeightWorkaround
+(
+viewNode
+)
+;
 viewRect
 =
 await

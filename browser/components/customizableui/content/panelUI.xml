@@ -787,7 +787,7 @@ backCmd
 label
 ;
 "
-onclick
+oncommand
 =
 "
 document
