@@ -1078,6 +1078,7 @@ break
 ;
 }
 }
+async
 handleClick
 (
 window
@@ -1128,6 +1129,9 @@ if
 popupURL
 )
 {
+let
+popup
+=
 new
 PanelPopup
 (
@@ -1145,6 +1149,11 @@ this
 .
 browserStyle
 )
+;
+await
+popup
+.
+contentReady
 ;
 TelemetryStopwatch
 .
