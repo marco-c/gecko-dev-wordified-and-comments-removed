@@ -1767,6 +1767,11 @@ id
 ;
 if
 (
+policy
+)
+{
+if
+(
 extensions
 .
 has
@@ -1798,6 +1803,7 @@ active
 =
 false
 ;
+}
 }
 Services
 .
