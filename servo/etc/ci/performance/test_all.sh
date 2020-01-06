@@ -330,7 +330,7 @@ date
 s
 )
 .
-json
+csv
 "
 echo
 "
