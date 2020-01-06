@@ -157,11 +157,6 @@ nsISAXMutableAttributes
 idl
 '
 '
-nsISAXXMLFilter
-.
-idl
-'
-'
 nsISAXXMLReader
 .
 idl
