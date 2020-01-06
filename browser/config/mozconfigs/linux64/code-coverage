@@ -66,9 +66,12 @@ ac_add_options
 disable
 -
 profiling
-MOZ_CODE_COVERAGE
-=
-1
+ac_add_options
+-
+-
+enable
+-
+coverage
 export
 CFLAGS
 =
