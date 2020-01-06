@@ -1157,6 +1157,10 @@ checkTaskThreadLimit
 (
 size_t
 maxThreads
+bool
+isMaster
+=
+false
 )
 const
 ;
