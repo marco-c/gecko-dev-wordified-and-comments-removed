@@ -1096,7 +1096,7 @@ aStatus
 )
 ;
 void
-CacheClientNotifyPrincipalChanged
+CacheClientUpdatePrincipal
 (
 )
 ;
@@ -1533,6 +1533,11 @@ CloseChannel
 (
 )
 ;
+void
+UpdatePrincipal
+(
+)
+;
 nsresult
 ParseContentRangeHeader
 (
@@ -1559,7 +1564,7 @@ nsIInputStream
 aInStream
 void
 *
-aClosure
+aResource
 const
 char
 *
@@ -1576,9 +1581,6 @@ aWriteCount
 nsresult
 CopySegmentToCache
 (
-nsIPrincipal
-*
-aPrincipal
 const
 char
 *
