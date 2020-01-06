@@ -51,6 +51,13 @@ validateD3DNV12Texture
 void
 *
 pointer
+const
+egl
+:
+:
+AttributeMap
+&
+attributes
 )
 const
 override
@@ -110,10 +117,7 @@ UINT
 mArraySlice
 ;
 UINT
-mTextureWidth
-;
-UINT
-mTextureHeight
+mPlaneOffset
 ;
 }
 ;

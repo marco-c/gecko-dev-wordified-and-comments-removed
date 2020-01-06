@@ -96,7 +96,7 @@ emulateIsnanFloat
 false
 ;
 bool
-callClearTwiceOnSmallTarget
+callClearTwice
 =
 false
 ;

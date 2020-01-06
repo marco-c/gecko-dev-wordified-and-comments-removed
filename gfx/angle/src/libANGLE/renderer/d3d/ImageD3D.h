@@ -194,6 +194,14 @@ forceRelease
 =
 0
 ;
+GLenum
+getSizedInputFormat
+(
+GLenum
+inputType
+)
+const
+;
 virtual
 gl
 :
