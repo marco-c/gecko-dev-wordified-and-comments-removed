@@ -406,6 +406,13 @@ NS_LITERAL_CSTRING
 )
 )
 ;
+CrashReporter
+:
+:
+SetMinidumpAnalysisAllThreads
+(
+)
+;
 }
 #
 endif
