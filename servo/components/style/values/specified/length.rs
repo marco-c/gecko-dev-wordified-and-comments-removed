@@ -3210,7 +3210,6 @@ NoCalcLength
 )
 Calc
 (
-AllowedLengthType
 Box
 <
 CalcLengthOrPercentage
@@ -3288,7 +3287,6 @@ Length
 :
 Calc
 (
-_
 ref
 calc
 )
@@ -3360,7 +3358,6 @@ Length
 :
 Calc
 (
-_
 ref
 calc
 )
@@ -3927,6 +3924,7 @@ parse_length
 (
 context
 input
+num_context
 )
 .
 map
@@ -3934,13 +3932,11 @@ map
 |
 calc
 |
-{
 Length
 :
 :
 Calc
 (
-num_context
 Box
 :
 :
@@ -3949,7 +3945,6 @@ new
 calc
 )
 )
-}
 )
 }
 )
@@ -4631,7 +4626,6 @@ Length
 :
 Calc
 (
-_
 l
 )
 =
@@ -5093,6 +5087,7 @@ parse_length_or_percentage
 (
 context
 i
+num_context
 )
 }
 )
@@ -6059,6 +6054,7 @@ parse_length_or_percentage
 (
 context
 i
+num_context
 )
 }
 )
@@ -6753,6 +6749,7 @@ parse_length_or_percentage
 (
 context
 i
+num_context
 )
 }
 )
@@ -7260,6 +7257,7 @@ parse_length_or_percentage
 (
 context
 i
+num_context
 )
 }
 )
