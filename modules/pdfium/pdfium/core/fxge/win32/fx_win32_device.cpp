@@ -566,6 +566,9 @@ IsGDIEnabled
 (
 )
 {
+return
+false
+;
 HDC
 hdc
 =
