@@ -610,6 +610,8 @@ position
 self
 .
 current_line_start_position
++
+1
 )
 as
 u32
