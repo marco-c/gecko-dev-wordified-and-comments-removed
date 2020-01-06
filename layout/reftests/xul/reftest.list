@@ -214,6 +214,10 @@ fails
 if
 (
 cocoaWidget
+&
+&
+!
+stylo
 )
 fuzzy
 -

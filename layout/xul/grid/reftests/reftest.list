@@ -594,6 +594,16 @@ OSX
 1
 565
 )
+fails
+-
+if
+(
+stylo
+&
+&
+!
+gtkWidget
+)
 =
 =
 scrollable
@@ -611,6 +621,10 @@ xhtml
 #
 bug
 650597
+stylo
+:
+bug
+1408235
 fails
 =
 =

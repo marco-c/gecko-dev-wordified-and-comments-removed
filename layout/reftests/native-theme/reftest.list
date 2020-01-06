@@ -523,6 +523,12 @@ Windows
 -
 only
 bug
+fails
+-
+if
+(
+stylo
+)
 skip
 -
 if
@@ -546,6 +552,11 @@ winmenu
 rtl
 .
 xul
+#
+stylo
+:
+bug
+1408235
 fails
 -
 if
@@ -1044,6 +1055,12 @@ blank
 window
 .
 xul
+fails
+-
+if
+(
+stylo
+)
 skip
 -
 if
@@ -1070,6 +1087,9 @@ resizer
 bottomend
 .
 xul
+#
+bug
+1408235
 #
 Windows
 -
