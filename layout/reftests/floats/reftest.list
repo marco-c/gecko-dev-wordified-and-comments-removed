@@ -260,12 +260,6 @@ gtkWidget
 1
 10
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 float

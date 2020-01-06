@@ -343,7 +343,7 @@ support
 bug
 1290276
 [
-2
+1
 ]
 *
 Animation

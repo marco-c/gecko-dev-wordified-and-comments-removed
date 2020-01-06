@@ -1944,12 +1944,6 @@ quirks
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 underline
@@ -2166,12 +2160,6 @@ standards
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 underline

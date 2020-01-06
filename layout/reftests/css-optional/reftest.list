@@ -7,12 +7,6 @@ support
 :
 optional
 .
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 css

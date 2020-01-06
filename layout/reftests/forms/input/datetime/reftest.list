@@ -86,12 +86,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-styloVsGecko
-)
 !
 =
 time

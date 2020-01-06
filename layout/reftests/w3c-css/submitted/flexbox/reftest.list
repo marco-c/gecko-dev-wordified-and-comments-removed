@@ -1708,12 +1708,6 @@ vert
 ref
 .
 xhtml
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 flexbox
@@ -1740,12 +1734,6 @@ horiz
 ref
 .
 xhtml
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 flexbox

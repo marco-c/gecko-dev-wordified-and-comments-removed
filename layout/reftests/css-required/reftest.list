@@ -8,12 +8,6 @@ elements
 support
 :
 required
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 css

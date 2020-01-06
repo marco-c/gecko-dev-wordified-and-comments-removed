@@ -30,12 +30,6 @@ button
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 textarea
@@ -124,12 +118,6 @@ html
 needs
 -
 focus
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 textarea

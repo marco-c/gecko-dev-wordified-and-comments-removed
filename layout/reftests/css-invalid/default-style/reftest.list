@@ -18,12 +18,6 @@ button
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 textarea

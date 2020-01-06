@@ -924,12 +924,6 @@ property
 enabled
 true
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 scroll
