@@ -166,7 +166,7 @@ CacheStorageService
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -175,6 +175,16 @@ AppCacheStorage
 .
 cpp
 '
+'
+CacheStorage
+.
+cpp
+'
+]
+UNIFIED_SOURCES
++
+=
+[
 '
 CacheEntry
 .
@@ -252,11 +262,6 @@ cpp
 '
 '
 CacheObserver
-.
-cpp
-'
-'
-CacheStorage
 .
 cpp
 '
