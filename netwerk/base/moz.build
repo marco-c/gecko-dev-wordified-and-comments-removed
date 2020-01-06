@@ -500,6 +500,11 @@ nsIRedirectChannelRegistrar
 idl
 '
 '
+nsIRedirectHistoryEntry
+.
+idl
+'
+'
 nsIRedirectResultListener
 .
 idl
@@ -864,6 +869,11 @@ LoadTainting
 .
 h
 '
+'
+nsRedirectHistoryEntry
+.
+h
+'
 ]
 EXPORTS
 .
@@ -1105,6 +1115,11 @@ cpp
 '
 '
 nsProxyInfo
+.
+cpp
+'
+'
+nsRedirectHistoryEntry
 .
 cpp
 '
