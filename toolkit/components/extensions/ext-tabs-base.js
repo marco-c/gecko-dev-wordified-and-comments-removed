@@ -2626,15 +2626,6 @@ window
 =
 >
 {
-window
-.
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-;
 return
 getWinUtils
 (
