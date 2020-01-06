@@ -232,13 +232,13 @@ currentSectionStart
 =
 cur_
 ;
-uint32_t
+uint8_t
 idValue
 ;
 if
 (
 !
-readVarU32
+readFixedU8
 (
 &
 idValue
@@ -252,7 +252,7 @@ while
 idValue
 !
 =
-uint32_t
+uint8_t
 (
 id
 )
@@ -263,7 +263,7 @@ if
 idValue
 !
 =
-uint32_t
+uint8_t
 (
 SectionId
 :
@@ -296,7 +296,7 @@ cur_
 if
 (
 !
-readVarU32
+readFixedU8
 (
 &
 idValue
@@ -812,13 +812,13 @@ initialPosition
 =
 cur_
 ;
-uint32_t
+uint8_t
 nameTypeValue
 ;
 if
 (
 !
-readVarU32
+readFixedU8
 (
 &
 nameTypeValue
@@ -4933,7 +4933,7 @@ sigIndex
 +
 )
 {
-uint32_t
+uint8_t
 form
 ;
 if
@@ -4941,7 +4941,7 @@ if
 !
 d
 .
-readVarU32
+readFixedU8
 (
 &
 form
@@ -4951,7 +4951,7 @@ form
 form
 !
 =
-uint32_t
+uint8_t
 (
 TypeCode
 :
@@ -5385,7 +5385,7 @@ Limits
 limits
 )
 {
-uint32_t
+uint8_t
 flags
 ;
 if
@@ -5393,7 +5393,7 @@ if
 !
 d
 .
-readVarU32
+readFixedU8
 (
 &
 flags
@@ -5415,7 +5415,7 @@ if
 flags
 &
 ~
-uint32_t
+uint8_t
 (
 0x1
 )
@@ -5439,7 +5439,7 @@ PRIu32
 flags
 &
 ~
-uint32_t
+uint8_t
 (
 0x1
 )
@@ -5582,7 +5582,7 @@ TableDescVector
 tables
 )
 {
-uint32_t
+uint8_t
 elementType
 ;
 if
@@ -5590,7 +5590,7 @@ if
 !
 d
 .
-readVarU32
+readFixedU8
 (
 &
 elementType
@@ -5614,7 +5614,7 @@ if
 elementType
 !
 =
-uint32_t
+uint8_t
 (
 TypeCode
 :
@@ -5865,7 +5865,7 @@ type
 return
 false
 ;
-uint32_t
+uint8_t
 flags
 ;
 if
@@ -5873,7 +5873,7 @@ if
 !
 d
 .
-readVarU32
+readFixedU8
 (
 &
 flags
@@ -5896,7 +5896,7 @@ if
 flags
 &
 ~
-uint32_t
+uint8_t
 (
 GlobalTypeImmediate
 :
@@ -5924,7 +5924,7 @@ isMutable
 =
 flags
 &
-uint32_t
+uint8_t
 (
 GlobalTypeImmediate
 :
@@ -6208,7 +6208,7 @@ name
 "
 )
 ;
-uint32_t
+uint8_t
 rawImportKind
 ;
 if
@@ -6216,7 +6216,7 @@ if
 !
 d
 .
-readVarU32
+readFixedU8
 (
 &
 rawImportKind
@@ -8123,7 +8123,7 @@ fieldName
 return
 false
 ;
-uint32_t
+uint8_t
 exportKind
 ;
 if
@@ -8131,7 +8131,7 @@ if
 !
 d
 .
-readVarU32
+readFixedU8
 (
 &
 exportKind
