@@ -1627,13 +1627,6 @@ if
 mTrackBuffersManager
 )
 {
-mTrackBuffersManager
--
->
-Detach
-(
-)
-;
 mMediaSource
 -
 >
@@ -1650,6 +1643,13 @@ GetDemuxer
 DetachSourceBuffer
 (
 mTrackBuffersManager
+)
+;
+mTrackBuffersManager
+-
+>
+Detach
+(
 )
 ;
 }
