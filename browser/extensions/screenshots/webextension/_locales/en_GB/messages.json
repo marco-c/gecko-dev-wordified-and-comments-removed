@@ -495,7 +495,7 @@ page
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -516,7 +516,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -533,7 +533,7 @@ Want
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -566,7 +566,7 @@ selection
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -583,7 +583,7 @@ Pages
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -617,7 +617,7 @@ page
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -633,7 +633,7 @@ It
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

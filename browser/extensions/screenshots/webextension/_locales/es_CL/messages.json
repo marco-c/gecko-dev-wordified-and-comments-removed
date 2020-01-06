@@ -587,7 +587,7 @@ diferente
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -609,7 +609,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -625,7 +625,7 @@ necesitas
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -664,7 +664,7 @@ n
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -682,7 +682,7 @@ completas
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -718,7 +718,7 @@ completa
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -733,7 +733,7 @@ quieras
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

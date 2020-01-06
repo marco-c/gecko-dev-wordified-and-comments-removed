@@ -602,7 +602,7 @@ pagina
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -625,7 +625,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -646,7 +646,7 @@ vuls
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -685,7 +685,7 @@ relevar
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -704,7 +704,7 @@ cumplettas
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -742,7 +742,7 @@ cumpletta
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -758,7 +758,7 @@ prefereschas
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

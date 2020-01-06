@@ -359,7 +359,7 @@ message
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -373,7 +373,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -385,7 +385,7 @@ message
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -399,7 +399,7 @@ message
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -412,7 +412,7 @@ Windows
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -425,7 +425,7 @@ message
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -437,7 +437,7 @@ message
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {
