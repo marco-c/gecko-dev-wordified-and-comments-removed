@@ -1911,6 +1911,13 @@ Snapshot
 (
 )
 {
+MutexAutoLock
+lock
+(
+*
+mSnapshotLock
+)
+;
 RefPtr
 <
 SourceSurfaceSkia
