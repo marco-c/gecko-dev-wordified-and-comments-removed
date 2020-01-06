@@ -31,6 +31,15 @@ browser
 -
 test
 "
+"
+plugin
+:
+mozilla
+/
+xpcshell
+-
+test
+"
 ]
 }
 ;
