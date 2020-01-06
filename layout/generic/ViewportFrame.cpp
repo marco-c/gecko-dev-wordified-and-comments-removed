@@ -2035,8 +2035,11 @@ nullptr
 newContext
 -
 >
-EnsureSameStructsCached
+ResolveSameStructsAs
 (
+PresContext
+(
+)
 oldContext
 )
 ;
