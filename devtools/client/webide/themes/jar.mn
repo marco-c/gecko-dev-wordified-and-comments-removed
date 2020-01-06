@@ -203,16 +203,6 @@ css
 )
 skin
 /
-simulator
-.
-css
-(
-simulator
-.
-css
-)
-skin
-/
 rocket
 .
 svg
