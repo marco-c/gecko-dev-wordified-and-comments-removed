@@ -8301,6 +8301,19 @@ path
 ]
 )
 )
+                
+fh
+.
+write
+(
+b
+'
+export
+FOUND_MOZCONFIG
+\
+n
+'
+)
         
 append_env
 [

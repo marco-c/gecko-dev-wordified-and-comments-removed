@@ -472,8 +472,6 @@ mozconfig
 client
 -
 mk
-export
-FOUND_MOZCONFIG
 #
 As
 '
