@@ -175,6 +175,16 @@ I
 (
 db
 )
+valgrind
+-
+build
+:
+symbol
+:
+I
+(
+vb
+)
 lint
 :
 symbol

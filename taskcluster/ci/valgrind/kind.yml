@@ -180,7 +180,7 @@ in
 -
 tree
 :
-desktop
+valgrind
 -
 build
 }
