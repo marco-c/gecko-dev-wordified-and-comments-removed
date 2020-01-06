@@ -123,14 +123,14 @@ type
 FloatAreaShape
 <
 BasicShape
-Url
+Image
 >
 =
 ShapeSource
 <
 BasicShape
 ShapeBox
-Url
+Image
 >
 ;
 define_css_keyword_enum
@@ -204,7 +204,7 @@ ShapeSource
 <
 BasicShape
 ReferenceBox
-Url
+ImageOrUrl
 >
 {
 #
@@ -214,9 +214,9 @@ animation
 error
 )
 ]
-Url
+ImageOrUrl
 (
-Url
+ImageOrUrl
 )
 Shape
 (
