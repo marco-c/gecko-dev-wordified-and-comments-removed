@@ -41326,8 +41326,10 @@ mCachedXBLPrototypeHandlers
 {
 mCachedXBLPrototypeHandlers
 =
-new
+MakeUnique
+<
 XBLPrototypeHandlerTable
+>
 (
 )
 ;
@@ -57064,8 +57066,10 @@ mOrientationChangeObserver
 {
 mOrientationChangeObserver
 =
-new
+MakeUnique
+<
 WindowOrientationObserver
+>
 (
 this
 )

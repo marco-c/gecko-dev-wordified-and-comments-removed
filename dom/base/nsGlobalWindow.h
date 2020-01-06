@@ -10027,7 +10027,10 @@ JSObject
 *
 >
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 XBLPrototypeHandlerTable
 >
@@ -10084,7 +10087,10 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :
