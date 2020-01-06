@@ -367,7 +367,7 @@ layout_marginEnd
 "
 >
 -
-3dp
+4dp
 <
 /
 item
@@ -648,7 +648,7 @@ layout_marginEnd
 "
 >
 -
-3dp
+2dp
 <
 /
 item
@@ -743,7 +743,7 @@ layout_marginEnd
 "
 >
 -
-3dp
+2dp
 <
 /
 item
@@ -766,7 +766,7 @@ parent
 "
 UrlBar
 .
-V17
+V15
 .
 QRCode
 "
@@ -779,7 +779,7 @@ name
 "
 UrlBar
 .
-V17
+V15
 .
 QRCode
 "
@@ -802,7 +802,7 @@ layout_marginRight
 "
 >
 -
-3dp
+2dp
 <
 /
 item

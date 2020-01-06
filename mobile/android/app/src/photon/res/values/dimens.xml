@@ -141,7 +141,7 @@ name
 browser_toolbar_image_button_width
 "
 >
-42dp
+48dp
 <
 /
 dimen
@@ -190,7 +190,7 @@ padding
 (
 56
 -
-42
+48
 )
 /
 2
@@ -205,7 +205,7 @@ name
 browser_toolbar_image_button_v_spacing
 "
 >
-7dp
+4dp
 <
 /
 dimen
@@ -2085,9 +2085,7 @@ name
 page_action_button_width
 "
 >
-dimen
-/
-browser_toolbar_image_button_width
+48dp
 <
 /
 dimen
