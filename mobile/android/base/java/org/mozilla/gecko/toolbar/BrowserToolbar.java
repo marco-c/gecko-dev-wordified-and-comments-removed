@@ -556,7 +556,7 @@ final
 int
 LIGHTWEIGHT_THEME_INVERT_ALPHA_END
 =
-102
+179
 ;
 public
 static

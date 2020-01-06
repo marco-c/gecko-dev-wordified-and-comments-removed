@@ -220,7 +220,7 @@ padding
 (
 56
 -
-48
+36
 )
 /
 2
@@ -235,7 +235,7 @@ name
 browser_toolbar_image_button_v_spacing
 "
 >
-4dp
+10dp
 <
 /
 dimen
@@ -248,7 +248,7 @@ name
 browser_toolbar_image_button_h_spacing
 "
 >
-4dp
+10dp
 <
 /
 dimen
@@ -275,6 +275,19 @@ browser_toolbar_site_security_margin_end
 "
 >
 6dp
+<
+/
+dimen
+>
+<
+dimen
+name
+=
+"
+browser_toolbar_url_height
+"
+>
+36dp
 <
 /
 dimen

@@ -633,6 +633,13 @@ drawable
 /
 url_bar_action_button
 "
+gecko
+:
+showLWTBackground
+=
+"
+true
+"
 /
 >
 <
@@ -861,6 +868,13 @@ src
 drawable
 /
 ic_overflow
+"
+gecko
+:
+showLWTBackground
+=
+"
+true
 "
 /
 >

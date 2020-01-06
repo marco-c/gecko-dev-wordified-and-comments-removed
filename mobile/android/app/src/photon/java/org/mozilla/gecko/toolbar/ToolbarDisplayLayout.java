@@ -425,8 +425,8 @@ mTitle
 ;
 private
 final
-ThemedView
-mTitleBackground
+ThemedLinearLayout
+mThemeBackground
 ;
 private
 final
@@ -625,10 +625,10 @@ id
 url_bar_title
 )
 ;
-mTitleBackground
+mThemeBackground
 =
 (
-ThemedView
+ThemedLinearLayout
 )
 findViewById
 (
@@ -1026,7 +1026,7 @@ setPrivateMode
 isPrivate
 )
 ;
-mTitleBackground
+mThemeBackground
 .
 setPrivateMode
 (
@@ -1350,7 +1350,7 @@ isPrivate
 )
 )
 ;
-mTitleBackground
+mThemeBackground
 .
 setPrivateMode
 (
