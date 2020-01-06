@@ -60,9 +60,6 @@ pushedAtStart_
 int32_t
 pushedAtCycle_
 ;
-int32_t
-pushedAtSpill_
-;
 void
 assertDone
 (
@@ -336,11 +333,6 @@ framePushed
 )
 )
 pushedAtCycle_
-(
--
-1
-)
-pushedAtSpill_
 (
 -
 1
