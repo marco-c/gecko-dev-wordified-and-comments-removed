@@ -27304,6 +27304,12 @@ frameLoader
 ;
 shouldBeBlank
 =
+!
+this
+.
+minimized
+&
+&
 (
 !
 fl
