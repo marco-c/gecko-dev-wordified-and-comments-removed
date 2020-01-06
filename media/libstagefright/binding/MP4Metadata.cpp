@@ -6550,6 +6550,17 @@ mp3
 ;
 break
 ;
+case
+mp4parse_codec_MP4V
+:
+codec_string
+=
+"
+mp4v
+"
+;
+break
+;
 }
 MOZ_LOG
 (
