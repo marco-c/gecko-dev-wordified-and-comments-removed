@@ -3790,6 +3790,19 @@ tRPHeaderCValue
 )
 ;
 }
+if
+(
+!
+(
+aFlags
+&
+nsIChannelEventSink
+:
+:
+REDIRECT_INTERNAL
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -3910,6 +3923,7 @@ spec
 fragment
 )
 ;
+}
 NS_ConvertUTF8toUTF16
 tRPHeaderValue
 (
@@ -3964,6 +3978,7 @@ if
 httpChannel
 )
 {
+nsresult
 rv
 =
 FetchUtil
