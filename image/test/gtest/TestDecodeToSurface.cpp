@@ -264,10 +264,6 @@ ImageOps
 DecodeToSurface
 (
 mInputStream
-.
-forget
-(
-)
 nsDependentCString
 (
 mTestCase
@@ -715,10 +711,6 @@ ImageOps
 DecodeToSurface
 (
 inputStream
-.
-forget
-(
-)
 nsDependentCString
 (
 testCase
@@ -789,10 +781,6 @@ ImageOps
 CreateImageBuffer
 (
 inputStream
-.
-forget
-(
-)
 )
 ;
 ASSERT_TRUE

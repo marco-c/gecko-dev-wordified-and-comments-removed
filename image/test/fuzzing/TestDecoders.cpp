@@ -233,10 +233,6 @@ ImageOps
 DecodeToSurface
 (
 mInputStream
-.
-forget
-(
-)
 nsDependentCString
 (
 mimeType

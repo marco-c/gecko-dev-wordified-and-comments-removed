@@ -1665,10 +1665,6 @@ getter_AddRefs
 aBufferedStream
 )
 stream
-.
-forget
-(
-)
 4096
 )
 ;

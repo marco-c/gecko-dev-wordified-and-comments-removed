@@ -2671,14 +2671,6 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
-nsIAsyncInputStream
->
-stream
-=
-mAsyncStream
-;
 nsresult
 rv
 =
@@ -2688,11 +2680,7 @@ getter_AddRefs
 (
 mBufferedStream
 )
-stream
-.
-forget
-(
-)
+mAsyncStream
 4096
 )
 ;

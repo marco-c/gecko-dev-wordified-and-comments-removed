@@ -227,10 +227,8 @@ ImageBuffer
 >
 CreateImageBuffer
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aInputStream
 )
 ;
@@ -238,10 +236,8 @@ static
 nsresult
 DecodeMetadata
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aInputStream
 const
 nsACString
@@ -278,10 +274,8 @@ SourceSurface
 >
 DecodeToSurface
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aInputStream
 const
 nsACString

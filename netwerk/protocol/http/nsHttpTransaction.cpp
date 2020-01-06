@@ -1695,10 +1695,6 @@ getter_AddRefs
 mRequestStream
 )
 stream
-.
-forget
-(
-)
 nsIOService
 :
 :

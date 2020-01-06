@@ -4816,10 +4816,6 @@ nsSyncLoadService
 PushSyncStreamToListener
 (
 in
-.
-forget
-(
-)
 listener
 channel
 )
