@@ -13117,9 +13117,6 @@ EXTENDED_PAYLOAD_FIELDS
 chromeHangs
 "
 "
-threadHangStats
-"
-"
 log
 "
 "
