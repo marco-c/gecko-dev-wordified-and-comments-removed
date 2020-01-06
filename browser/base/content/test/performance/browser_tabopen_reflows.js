@@ -7,6 +7,9 @@ const
 EXPECTED_REFLOWS
 =
 [
+{
+stack
+:
 [
 "
 select
@@ -25,6 +28,7 @@ textbox
 xml
 "
 ]
+}
 ]
 ;
 add_task
