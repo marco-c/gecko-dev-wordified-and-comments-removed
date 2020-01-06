@@ -4074,12 +4074,14 @@ def
 task_matches
 (
 self
-attributes
+task
 )
 :
         
 attr
 =
+task
+.
 attributes
 .
 get
@@ -4244,9 +4246,7 @@ test
                 
 platform
 =
-attributes
-.
-get
+attr
 (
 '
 test_platform
@@ -4333,6 +4333,24 @@ in
 self
 .
 jobs
+:
+                
+return
+False
+            
+elif
+not
+self
+.
+jobs
+and
+'
+build
+'
+in
+task
+.
+dependencies
 :
                 
 return
