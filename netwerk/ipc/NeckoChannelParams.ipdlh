@@ -449,6 +449,9 @@ uint64_t
 parentOuterWindowID
 ;
 uint64_t
+topOuterWindowID
+;
+uint64_t
 frameOuterWindowID
 ;
 bool
