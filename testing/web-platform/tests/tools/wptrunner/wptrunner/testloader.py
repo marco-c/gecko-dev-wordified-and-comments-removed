@@ -3965,6 +3965,12 @@ self
 current_queue
 =
 None
+        
+self
+.
+current_metadata
+=
+None
     
 abstractmethod
     
@@ -4023,6 +4029,9 @@ try
 self
 .
 current_queue
+self
+.
+current_metadata
 =
 self
 .
@@ -4047,6 +4056,9 @@ return
 self
 .
 current_queue
+self
+.
+current_metadata
     
 def
 __exit__
@@ -4139,11 +4151,19 @@ deque
 ]
 )
                 
+metadata
+=
+{
+}
+                
 test_queue
 .
 put
 (
+(
 group
+metadata
+)
 )
             
 group
@@ -4151,6 +4171,13 @@ group
 append
 (
 test
+)
+            
+test
+.
+update_metadata
+(
+metadata
 )
 class
 SingleTestSource
@@ -4200,6 +4227,20 @@ processes
 )
 ]
         
+metadatas
+=
+[
+{
+}
+for
+_
+in
+xrange
+(
+processes
+)
+]
+        
 for
 test
 in
@@ -4227,17 +4268,35 @@ queues
 idx
 ]
             
+metadata
+=
+metadatas
+[
+idx
+]
+            
 group
 .
 append
 (
 test
 )
+            
+test
+.
+update_metadata
+(
+metadata
+)
         
 for
 item
 in
+zip
+(
 queues
+metadatas
+)
 :
             
 test_queue

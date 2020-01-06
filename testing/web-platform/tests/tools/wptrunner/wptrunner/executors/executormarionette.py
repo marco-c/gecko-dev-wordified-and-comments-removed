@@ -3239,6 +3239,9 @@ reftest_screenshot
 unexpected
 "
                  
+queue_metadata
+=
+None
 *
 *
 kwargs
@@ -3346,6 +3349,12 @@ original_pref_values
 =
 {
 }
+        
+self
+.
+queue_metadata
+=
+queue_metadata
         
 with
 open

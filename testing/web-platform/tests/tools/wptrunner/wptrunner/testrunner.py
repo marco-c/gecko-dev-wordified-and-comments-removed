@@ -1437,12 +1437,12 @@ before_init
 ]
 )
     
-initalizing
+initializing
 =
 namedtuple
 (
 "
-initalizing_browser
+initializing_browser
 "
                              
 [
@@ -1451,6 +1451,9 @@ test
 "
 "
 test_queue
+"
+"
+queue_metadata
 "
 "
 failure_count
@@ -1488,6 +1491,9 @@ test
 "
 "
 test_queue
+"
+"
+queue_metadata
 "
 ]
 )
@@ -2013,7 +2019,7 @@ start_init
                 
 RunnerManagerState
 .
-initalizing
+initializing
 :
 self
 .
@@ -2345,7 +2351,7 @@ before_init
             
 RunnerManagerState
 .
-initalizing
+initializing
 :
             
 {
@@ -2769,6 +2775,7 @@ self
         
 test
 test_queue
+queue_metadata
 =
 self
 .
@@ -2795,10 +2802,11 @@ else
 return
 RunnerManagerState
 .
-initalizing
+initializing
 (
 test
 test_queue
+queue_metadata
 0
 )
     
@@ -2817,7 +2825,7 @@ self
 state
 RunnerManagerState
 .
-initalizing
+initializing
 )
         
 if
@@ -2896,20 +2904,26 @@ result
 return
 RunnerManagerState
 .
-initalizing
+initializing
 (
 self
 .
 state
 .
 test
-                                                  
+                                                   
 self
 .
 state
 .
 test_queue
-                                                  
+                                                   
+self
+.
+state
+.
+queue_metadata
+                                                   
 self
 .
 state
@@ -2921,6 +2935,21 @@ failure_count
         
 else
 :
+            
+self
+.
+executor_kwargs
+[
+"
+queue_metadata
+"
+]
+=
+self
+.
+state
+.
+queue_metadata
             
 self
 .
@@ -2943,7 +2972,7 @@ self
 state
 RunnerManagerState
 .
-initalizing
+initializing
 )
         
 assert
@@ -3081,7 +3110,7 @@ self
 state
 RunnerManagerState
 .
-initalizing
+initializing
 )
         
 self
@@ -3125,7 +3154,7 @@ self
 state
 RunnerManagerState
 .
-initalizing
+initializing
 )
         
 self
@@ -3148,20 +3177,26 @@ True
 return
 RunnerManagerState
 .
-initalizing
+initializing
 (
 self
 .
 state
 .
 test
-                                              
+                                               
 self
 .
 state
 .
 test_queue
-                                              
+                                               
+self
+.
+state
+.
+queue_metadata
+                                               
 self
 .
 state
@@ -3198,6 +3233,7 @@ None
 :
                 
 test_queue
+queue_metadata
 =
 self
 .
@@ -3229,6 +3265,7 @@ tests
 return
 None
 None
+None
                 
 if
 len
@@ -3241,7 +3278,9 @@ test_queue
 :
                     
 test_queue
+queue_metadata
 =
+None
 None
                 
 else
@@ -3258,6 +3297,7 @@ popleft
 return
 test
 test_queue
+queue_metadata
     
 def
 run_test
@@ -3334,6 +3374,12 @@ self
 state
 .
 test_queue
+                                                 
+self
+.
+state
+.
+queue_metadata
 )
         
 self
@@ -3818,6 +3864,7 @@ running
         
 test
 test_queue
+queue_metadata
 =
 self
 .
@@ -3864,6 +3911,7 @@ restarting
 (
 test
 test_queue
+queue_metadata
 )
         
 else
@@ -3917,7 +3965,7 @@ stop_runner
 return
 RunnerManagerState
 .
-initalizing
+initializing
 (
 self
 .
@@ -3929,6 +3977,11 @@ self
 state
 .
 test_queue
+self
+.
+state
+.
+queue_metadata
 0
 )
     
