@@ -6,13 +6,6 @@ define
 nsTextFormatter_h___
 #
 include
-"
-prio
-.
-h
-"
-#
-include
 <
 stdio
 .
