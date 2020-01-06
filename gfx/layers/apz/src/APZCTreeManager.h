@@ -122,6 +122,9 @@ h
 "
 #
 endif
+struct
+WrTransformProperty
+;
 namespace
 mozilla
 {
@@ -261,6 +264,12 @@ const
 TimeStamp
 &
 aSampleTime
+nsTArray
+<
+WrTransformProperty
+>
+&
+aTransformArray
 )
 ;
 void

@@ -1173,6 +1173,12 @@ const
 bool
 PushAPZStateToWR
 (
+nsTArray
+<
+WrTransformProperty
+>
+&
+aTransformArray
 )
 ;
 private
