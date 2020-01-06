@@ -4627,7 +4627,6 @@ leafName
 RFind
 (
 suffix
-0
 )
 ;
 if
@@ -7697,7 +7696,6 @@ tableName
 RFind
 (
 METADATA_SUFFIX
-0
 )
 ;
 if
