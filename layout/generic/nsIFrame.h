@@ -2287,7 +2287,6 @@ GetInFlowParent
 (
 )
 ;
-inline
 nsIFrame
 *
 GetFlattenedTreeParentPrimaryFrame
