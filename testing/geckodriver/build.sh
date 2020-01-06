@@ -11,6 +11,10 @@ V
 cargo
 -
 V
+cc
+-
+-
+version
 }
 rustup_install
 (
