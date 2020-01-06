@@ -77,7 +77,7 @@ TimeStamp
 )
 ;
 }
-void
+TimeDuration
 TimeoutBudgetManager
 :
 :
@@ -102,6 +102,9 @@ mStart
 )
 {
 return
+TimeDuration
+(
+)
 ;
 }
 TimeDuration
@@ -172,6 +175,9 @@ duration
 ;
 }
 }
+return
+duration
+;
 }
 void
 TimeoutBudgetManager
