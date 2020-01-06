@@ -1,0 +1,12 @@
+with
+(
+{
+}
+)
+async
+function
+f
+(
+)
+{
+}

@@ -1,0 +1,12 @@
+do
+async
+function
+f
+(
+)
+{
+}
+while
+(
+false
+)

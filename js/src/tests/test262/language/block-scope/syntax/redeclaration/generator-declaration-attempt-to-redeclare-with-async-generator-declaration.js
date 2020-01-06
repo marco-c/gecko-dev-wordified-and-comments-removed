@@ -1,0 +1,17 @@
+{
+function
+*
+f
+(
+)
+{
+}
+async
+function
+*
+f
+(
+)
+{
+}
+}

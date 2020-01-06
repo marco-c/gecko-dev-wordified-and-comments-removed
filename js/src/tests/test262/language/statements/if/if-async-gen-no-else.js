@@ -1,0 +1,12 @@
+if
+(
+true
+)
+async
+function
+*
+f
+(
+)
+{
+}

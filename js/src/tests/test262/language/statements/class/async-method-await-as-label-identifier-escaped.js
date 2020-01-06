@@ -1,0 +1,14 @@
+class
+C
+{
+async
+method
+(
+)
+{
+\
+u0061wait
+:
+;
+}
+}

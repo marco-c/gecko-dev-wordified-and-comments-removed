@@ -37,17 +37,12 @@ resolvedOptions
 .
 locale
 ;
-if
+assert
 (
-!
 isCanonicalizedStructurallyValidLanguageTag
 (
 locale
 )
-)
-{
-ERROR
-(
 "
 Collator
 returns
@@ -62,7 +57,6 @@ locale
 "
 )
 ;
-}
 reportCompare
 (
 0

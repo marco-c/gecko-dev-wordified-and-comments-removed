@@ -1,0 +1,15 @@
+{
+function
+f
+(
+)
+{
+}
+function
+*
+f
+(
+)
+{
+}
+}

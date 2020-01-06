@@ -1,0 +1,17 @@
+var
+C
+=
+class
+{
+static
+async
+method
+(
+)
+{
+void
+await
+;
+}
+}
+;

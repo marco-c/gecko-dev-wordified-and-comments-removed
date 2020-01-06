@@ -346,7 +346,9 @@ pairs
 i
 ]
 ;
-if
+assert
+.
+sameValue
 (
 collator
 .
@@ -361,14 +363,7 @@ pair
 1
 ]
 )
-!
-=
-=
 0
-)
-{
-ERROR
-(
 "
 Collator
 .
@@ -420,7 +415,6 @@ pair
 "
 )
 ;
-}
 }
 function
 toU

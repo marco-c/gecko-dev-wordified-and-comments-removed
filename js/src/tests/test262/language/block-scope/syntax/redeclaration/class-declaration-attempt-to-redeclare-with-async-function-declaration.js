@@ -1,0 +1,13 @@
+{
+class
+f
+{
+}
+async
+function
+f
+(
+)
+{
+}
+}

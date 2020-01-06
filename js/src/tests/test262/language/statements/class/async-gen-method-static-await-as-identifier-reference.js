@@ -1,0 +1,15 @@
+class
+C
+{
+static
+async
+*
+gen
+(
+)
+{
+void
+await
+;
+}
+}

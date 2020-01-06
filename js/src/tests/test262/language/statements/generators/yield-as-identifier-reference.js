@@ -1,0 +1,10 @@
+function
+*
+gen
+(
+)
+{
+void
+yield
+;
+}

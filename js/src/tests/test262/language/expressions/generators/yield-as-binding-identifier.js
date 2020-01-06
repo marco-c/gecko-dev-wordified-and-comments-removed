@@ -1,14 +1,13 @@
 var
-g
+gen
 =
 function
 *
 (
 )
 {
+var
 yield
-=
-1
 ;
 }
 ;

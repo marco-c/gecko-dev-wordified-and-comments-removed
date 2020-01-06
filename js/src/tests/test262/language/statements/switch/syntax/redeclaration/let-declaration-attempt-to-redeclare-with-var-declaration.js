@@ -1,0 +1,17 @@
+switch
+(
+0
+)
+{
+case
+1
+:
+let
+f
+;
+default
+:
+var
+f
+;
+}

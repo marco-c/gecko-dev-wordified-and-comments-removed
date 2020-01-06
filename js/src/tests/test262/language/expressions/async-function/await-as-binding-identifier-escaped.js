@@ -1,0 +1,14 @@
+var
+fn
+=
+async
+function
+(
+)
+{
+var
+\
+u0061wait
+;
+}
+;

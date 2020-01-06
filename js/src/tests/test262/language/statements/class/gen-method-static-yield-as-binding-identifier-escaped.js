@@ -1,0 +1,16 @@
+class
+C
+{
+static
+*
+gen
+(
+)
+{
+var
+yi
+\
+u0065ld
+;
+}
+}

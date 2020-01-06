@@ -1,0 +1,15 @@
+var
+gen
+=
+async
+function
+*
+(
+)
+{
+var
+\
+u0061wait
+;
+}
+;

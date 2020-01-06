@@ -31,17 +31,12 @@ resolvedOptions
 .
 locale
 ;
-if
+assert
 (
-!
 isCanonicalizedStructurallyValidLanguageTag
 (
 locale
 )
-)
-{
-ERROR
-(
 "
 NumberFormat
 returns
@@ -56,7 +51,6 @@ locale
 "
 )
 ;
-}
 reportCompare
 (
 0

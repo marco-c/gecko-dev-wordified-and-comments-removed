@@ -1,0 +1,13 @@
+var
+fn
+=
+async
+function
+(
+)
+{
+var
+await
+;
+}
+;

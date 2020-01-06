@@ -1,0 +1,16 @@
+var
+gen
+=
+async
+function
+*
+g
+(
+)
+{
+void
+\
+u0061wait
+;
+}
+;

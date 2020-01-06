@@ -1,0 +1,12 @@
+function
+*
+gen
+(
+)
+{
+var
+yi
+\
+u0065ld
+;
+}

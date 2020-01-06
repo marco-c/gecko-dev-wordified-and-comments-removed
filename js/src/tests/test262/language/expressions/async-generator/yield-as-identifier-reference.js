@@ -1,0 +1,14 @@
+var
+gen
+=
+async
+function
+*
+(
+)
+{
+void
+yield
+;
+}
+;

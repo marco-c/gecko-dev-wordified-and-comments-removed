@@ -1,0 +1,17 @@
+for
+(
+var
+x
+of
+[
+]
+)
+let
+{
+}
+reportCompare
+(
+0
+0
+)
+;

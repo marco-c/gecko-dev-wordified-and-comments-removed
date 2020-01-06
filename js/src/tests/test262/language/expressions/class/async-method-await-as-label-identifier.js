@@ -1,0 +1,16 @@
+var
+C
+=
+class
+{
+async
+method
+(
+)
+{
+await
+:
+;
+}
+}
+;

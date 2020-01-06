@@ -1,0 +1,13 @@
+var
+gen
+=
+function
+*
+(
+)
+{
+void
+yield
+;
+}
+;

@@ -1,0 +1,12 @@
+'
+use
+strict
+'
+;
+var
+packag
+\
+u0065
+=
+123
+;

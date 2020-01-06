@@ -1,0 +1,17 @@
+var
+gen
+=
+async
+function
+*
+g
+(
+)
+{
+yi
+\
+u0065ld
+:
+;
+}
+;

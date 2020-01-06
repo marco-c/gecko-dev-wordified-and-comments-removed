@@ -1,0 +1,17 @@
+var
+C
+=
+class
+{
+async
+*
+gen
+(
+)
+{
+await
+:
+;
+}
+}
+;

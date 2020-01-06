@@ -1,0 +1,13 @@
+class
+C
+{
+*
+gen
+(
+)
+{
+var
+yield
+;
+}
+}

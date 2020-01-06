@@ -1,0 +1,15 @@
+class
+C
+{
+static
+async
+method
+(
+)
+{
+var
+\
+u0061wait
+;
+}
+}

@@ -1,0 +1,13 @@
+{
+var
+f
+;
+async
+function
+*
+f
+(
+)
+{
+}
+}

@@ -1,0 +1,16 @@
+var
+obj
+=
+{
+async
+method
+(
+)
+{
+void
+\
+u0061wait
+;
+}
+}
+;

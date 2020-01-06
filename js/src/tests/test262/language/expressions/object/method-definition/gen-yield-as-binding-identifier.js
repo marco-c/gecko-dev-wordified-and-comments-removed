@@ -1,0 +1,15 @@
+var
+obj
+=
+{
+*
+method
+(
+)
+{
+var
+yield
+;
+}
+}
+;

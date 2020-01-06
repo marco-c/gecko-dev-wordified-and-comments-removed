@@ -1,0 +1,13 @@
+if
+(
+false
+)
+;
+else
+async
+function
+f
+(
+)
+{
+}

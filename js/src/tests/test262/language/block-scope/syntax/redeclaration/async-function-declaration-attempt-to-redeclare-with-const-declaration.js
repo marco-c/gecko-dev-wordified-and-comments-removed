@@ -1,0 +1,14 @@
+{
+async
+function
+f
+(
+)
+{
+}
+const
+f
+=
+0
+;
+}

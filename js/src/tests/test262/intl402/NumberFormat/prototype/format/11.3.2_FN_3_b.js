@@ -48,7 +48,9 @@ format
 20
 )
 ;
-if
+assert
+.
+notSameValue
 (
 formattedTwentyPercent
 .
@@ -56,15 +58,8 @@ indexOf
 (
 formattedTwenty
 )
-=
-=
-=
 -
 1
-)
-{
-ERROR
-(
 "
 Intl
 .
@@ -79,9 +74,6 @@ does
 not
 include
 a
-"
-+
-"
 formatting
 of
 20
@@ -92,8 +84,9 @@ substring
 "
 )
 ;
-}
-if
+assert
+.
+notSameValue
 (
 percentFormatter
 .
@@ -103,9 +96,6 @@ format
 .
 011
 )
-=
-=
-=
 percentFormatter
 .
 format
@@ -114,10 +104,6 @@ format
 .
 02
 )
-)
-{
-ERROR
-(
 '
 Intl
 .
@@ -138,7 +124,6 @@ way
 '
 )
 ;
-}
 reportCompare
 (
 0

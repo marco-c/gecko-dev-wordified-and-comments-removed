@@ -1,0 +1,12 @@
+{
+let
+f
+;
+async
+function
+f
+(
+)
+{
+}
+}

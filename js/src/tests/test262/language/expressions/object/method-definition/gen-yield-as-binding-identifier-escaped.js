@@ -1,0 +1,17 @@
+var
+obj
+=
+{
+*
+method
+(
+)
+{
+var
+yi
+\
+u0065ld
+;
+}
+}
+;

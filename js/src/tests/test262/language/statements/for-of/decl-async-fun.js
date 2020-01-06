@@ -1,0 +1,15 @@
+for
+(
+var
+x
+of
+[
+]
+)
+async
+function
+f
+(
+)
+{
+}

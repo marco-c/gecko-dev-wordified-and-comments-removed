@@ -1,0 +1,9 @@
+label
+:
+async
+function
+f
+(
+)
+{
+}

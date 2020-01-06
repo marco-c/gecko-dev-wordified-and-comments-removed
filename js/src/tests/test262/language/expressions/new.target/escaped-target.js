@@ -1,0 +1,12 @@
+function
+f
+(
+)
+{
+new
+.
+t
+\
+u0061rget
+;
+}

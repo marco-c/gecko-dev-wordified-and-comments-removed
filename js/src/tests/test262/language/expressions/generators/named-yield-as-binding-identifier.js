@@ -1,0 +1,14 @@
+var
+gen
+=
+function
+*
+g
+(
+)
+{
+var
+yield
+;
+}
+;

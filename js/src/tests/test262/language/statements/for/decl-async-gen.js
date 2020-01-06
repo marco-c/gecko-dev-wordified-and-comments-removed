@@ -1,0 +1,14 @@
+for
+(
+;
+false
+;
+)
+async
+function
+*
+g
+(
+)
+{
+}

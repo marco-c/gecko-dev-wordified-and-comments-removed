@@ -1,0 +1,12 @@
+'
+use
+strict
+'
+;
+var
+inte
+\
+u0072face
+=
+123
+;

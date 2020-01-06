@@ -1,0 +1,11 @@
+async
+function
+*
+gen
+(
+)
+{
+yield
+:
+;
+}

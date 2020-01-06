@@ -1,0 +1,10 @@
+async
+function
+fn
+(
+)
+{
+await
+:
+;
+}

@@ -1,0 +1,14 @@
+class
+C
+{
+async
+*
+gen
+(
+)
+{
+var
+yield
+;
+}
+}

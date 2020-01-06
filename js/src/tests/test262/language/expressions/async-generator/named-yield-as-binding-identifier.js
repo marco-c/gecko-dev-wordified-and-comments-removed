@@ -1,0 +1,15 @@
+var
+gen
+=
+async
+function
+*
+g
+(
+)
+{
+var
+yield
+;
+}
+;

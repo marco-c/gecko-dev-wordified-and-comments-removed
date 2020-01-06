@@ -19,17 +19,12 @@ resolvedOptions
 .
 locale
 ;
-if
+assert
 (
-!
 isCanonicalizedStructurallyValidLanguageTag
 (
 defaultLocale
 )
-)
-{
-ERROR
-(
 "
 Default
 locale
@@ -54,7 +49,6 @@ tag
 "
 )
 ;
-}
 return
 true
 ;

@@ -1,0 +1,12 @@
+{
+class
+f
+{
+}
+function
+f
+(
+)
+{
+}
+}

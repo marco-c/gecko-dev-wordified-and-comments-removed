@@ -1,0 +1,11 @@
+async
+function
+fn
+(
+)
+{
+void
+\
+u0061wait
+;
+}

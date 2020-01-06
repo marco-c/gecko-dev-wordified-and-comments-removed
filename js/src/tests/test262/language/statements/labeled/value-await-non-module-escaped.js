@@ -1,0 +1,12 @@
+aw
+\
+u0061it
+:
+1
+;
+reportCompare
+(
+0
+0
+)
+;

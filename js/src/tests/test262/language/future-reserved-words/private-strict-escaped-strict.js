@@ -1,0 +1,12 @@
+'
+use
+strict
+'
+;
+var
+privat
+\
+u0065
+=
+123
+;

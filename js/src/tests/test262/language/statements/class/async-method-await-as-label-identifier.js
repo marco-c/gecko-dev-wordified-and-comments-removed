@@ -1,0 +1,13 @@
+class
+C
+{
+async
+method
+(
+)
+{
+await
+:
+;
+}
+}

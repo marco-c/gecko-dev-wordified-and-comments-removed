@@ -1,0 +1,14 @@
+class
+C
+{
+static
+*
+gen
+(
+)
+{
+var
+yield
+;
+}
+}

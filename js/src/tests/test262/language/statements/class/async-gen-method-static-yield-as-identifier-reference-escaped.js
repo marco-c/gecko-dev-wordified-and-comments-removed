@@ -1,0 +1,17 @@
+class
+C
+{
+static
+async
+*
+gen
+(
+)
+{
+void
+yi
+\
+u0065ld
+;
+}
+}

@@ -1,0 +1,15 @@
+class
+C
+{
+async
+*
+gen
+(
+)
+{
+\
+u0061wait
+:
+;
+}
+}
