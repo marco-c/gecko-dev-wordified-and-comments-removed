@@ -6,9 +6,17 @@ define
 mozilla_windowsdllblocklist_h
 #
 if
+(
 defined
 (
 _MSC_VER
+)
+|
+|
+defined
+(
+__MINGW32__
+)
 )
 &
 &
