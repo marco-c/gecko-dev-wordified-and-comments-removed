@@ -2228,6 +2228,9 @@ const
 PaymentDetailsInit
 &
 aDetails
+const
+bool
+aRequestShipping
 nsAString
 &
 aErrorMsg
@@ -2271,6 +2274,7 @@ return
 IsValidDetailsBase
 (
 aDetails
+aRequestShipping
 aErrorMsg
 )
 ;
@@ -2285,6 +2289,9 @@ const
 PaymentDetailsUpdate
 &
 aDetails
+const
+bool
+aRequestShipping
 )
 {
 nsAutoString
@@ -2328,6 +2335,7 @@ return
 IsValidDetailsBase
 (
 aDetails
+aRequestShipping
 message
 )
 ;
@@ -2342,6 +2350,9 @@ const
 PaymentDetailsBase
 &
 aDetails
+const
+bool
+aRequestShipping
 nsAString
 &
 aErrorMsg
@@ -2424,6 +2435,9 @@ mShippingOptions
 WasPassed
 (
 )
+&
+&
+aRequestShipping
 )
 {
 const
@@ -3033,6 +3047,9 @@ rv
 IsValidDetailsInit
 (
 aDetails
+aOptions
+.
+mRequestShipping
 message
 )
 ;

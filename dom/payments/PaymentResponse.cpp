@@ -346,16 +346,6 @@ value
 aCx
 )
 ;
-JS
-:
-:
-MutableHandleValue
-handleValue
-(
-&
-value
-)
-;
 if
 (
 NS_WARN_IF
@@ -366,7 +356,8 @@ response
 ToObjectInternal
 (
 aCx
-handleValue
+&
+value
 )
 )
 )
@@ -379,7 +370,7 @@ aRetVal
 set
 (
 &
-handleValue
+value
 .
 toObject
 (

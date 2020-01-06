@@ -1004,7 +1004,7 @@ resolve
 ;
 }
 function
-testShippingOtpionAttribute
+testShippingOptionAttribute
 (
 )
 {
@@ -1142,12 +1142,12 @@ created
 "
 )
 ;
-ok
+is
 (
-!
 payRequest1
 .
 shippingOption
+null
 "
 request
 .
@@ -1203,12 +1203,12 @@ created
 "
 )
 ;
-ok
+is
 (
-!
 payRequest2
 .
 shippingOption
+null
 "
 request
 .
@@ -1793,7 +1793,7 @@ testCrossOriginTopLevelPrincipal
 .
 then
 (
-testShippingOtpionAttribute
+testShippingOptionAttribute
 )
 .
 then

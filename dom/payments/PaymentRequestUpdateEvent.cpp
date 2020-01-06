@@ -302,6 +302,7 @@ mRequest
 IsValidDetailsUpdate
 (
 details
+true
 )
 ;
 if
