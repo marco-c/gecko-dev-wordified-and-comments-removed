@@ -1490,6 +1490,14 @@ capture
 browser
 -
 screenshots
+desktop
+-
+instrumentation
+:
+-
+browser
+-
+instrumentation
 android
 -
 common
