@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+abc
+import
 os
 import
 re
@@ -149,6 +151,12 @@ Repository
 object
 )
 :
+    
+__metaclass__
+=
+abc
+.
+ABCMeta
     
 '
 '
@@ -367,6 +375,10 @@ self
 .
 version
     
+abc
+.
+abstractmethod
+    
 def
 get_modified_files
 (
@@ -397,9 +409,10 @@ copy
 '
 '
 '
-        
-raise
-NotImplementedError
+    
+abc
+.
+abstractmethod
     
 def
 get_added_files
@@ -431,9 +444,10 @@ copy
 '
 '
 '
-        
-raise
-NotImplementedError
+    
+abc
+.
+abstractmethod
     
 def
 add_remove_files
@@ -464,9 +478,10 @@ copy
 '
 '
 '
-        
-raise
-NotImplementedError
+    
+abc
+.
+abstractmethod
     
 def
 forget_add_remove_files
@@ -494,9 +509,10 @@ path
 '
 '
 '
-        
-raise
-NotImplementedError
+    
+abc
+.
+abstractmethod
     
 def
 get_files_in_working_directory
@@ -522,9 +538,6 @@ directory
 "
 "
 "
-        
-raise
-NotImplementedError
 class
 HgRepository
 (
