@@ -800,17 +800,6 @@ PLDHashTable
 *
 gHashTable
 ;
-namespace
-mozilla
-{
-namespace
-dom
-{
-class
-PrefSetting
-;
-}
-}
 typedef
 nsTArray
 <
