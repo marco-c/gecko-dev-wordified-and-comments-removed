@@ -1821,7 +1821,7 @@ return
 nullptr
 ;
 }
-AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
+AUTO_PROFILER_LABEL_DYNAMIC
 (
 "
 mozJSComponentLoader
@@ -1831,6 +1831,10 @@ LoadModule
 "
 OTHER
 spec
+.
+get
+(
+)
 )
 ;
 ModuleEntry

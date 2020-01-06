@@ -592,7 +592,7 @@ GetSpecOrDefault
 ;
 }
 }
-AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
+AUTO_PROFILER_LABEL_DYNAMIC
 (
 "
 RestyleTracker
@@ -602,6 +602,10 @@ DoProcessRestyles
 "
 CSS
 docURL
+.
+get
+(
+)
 )
 ;
 #
