@@ -57,14 +57,6 @@ MPL
 *
 /
 #
-ifdef
-WR_FEATURE_CACHE
-#
-define
-PRIMITIVE_HAS_PICTURE_TASK
-#
-endif
-#
 include
 shared
 prim_shared
@@ -533,7 +525,9 @@ prim
 .
 task
 .
-target_rect
+common_data
+.
+task_rect
 .
 p0
 +

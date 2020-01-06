@@ -11,9 +11,9 @@ version
 "
 0
 .
-53
+54
 .
-2
+0
 "
 authors
 =
@@ -163,7 +163,7 @@ gleam
 .
 4
 .
-8
+14
 "
 lazy_static
 =
@@ -353,7 +353,7 @@ glutin
 "
 0
 .
-12
+13
 "
 #
 for
@@ -462,7 +462,9 @@ graphics
 "
 0
 .
-9
+12
+.
+2
 "
 core
 -
@@ -472,7 +474,7 @@ text
 version
 =
 "
-7
+8
 .
 0
 "
