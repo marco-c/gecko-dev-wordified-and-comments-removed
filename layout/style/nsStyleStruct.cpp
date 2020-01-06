@@ -15846,14 +15846,7 @@ mFloat
 hint
 |
 =
-nsChangeHint_AllReflowHints
-&
-~
-(
-nsChangeHint_ClearDescendantIntrinsics
-|
-nsChangeHint_NeedDirtyReflow
-)
+nsChangeHint_ReflowHintsForFloatAreaChange
 ;
 }
 if
