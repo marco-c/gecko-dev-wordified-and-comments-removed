@@ -323,6 +323,13 @@ BG_COLOUR
 flags
 )
 ;
+if
+(
+highlights
+.
+length
+)
+{
 ctx
 =
 capture
@@ -335,6 +342,7 @@ top
 left
 )
 ;
+}
 return
 canvas
 ;
