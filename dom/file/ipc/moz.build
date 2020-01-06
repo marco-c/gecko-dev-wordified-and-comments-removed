@@ -165,6 +165,11 @@ IPCBlobInputStreamStorage
 cpp
 '
 '
+IPCBlobInputStreamThread
+.
+cpp
+'
+'
 IPCBlobUtils
 .
 cpp
@@ -226,6 +231,12 @@ ipc
 dom
 /
 workers
+'
+'
+/
+xpcom
+/
+build
 '
 ]
 include
