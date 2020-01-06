@@ -37569,6 +37569,13 @@ dependencies
 if
 test
 "
+COMPILE_ENVIRONMENT
+"
+;
+then
+if
+test
+"
 GNU_CC
 "
 -
@@ -37900,6 +37907,9 @@ NONASCII
 )
 fi
 fi
+fi
+#
+COMPILE_ENVIRONMENT
 dnl
 =
 =
