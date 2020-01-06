@@ -43635,7 +43635,7 @@ cssGradient
 -
 >
 mAngle
-VARIANT_ANGLE
+VARIANT_ANGLE_OR_ZERO
 nullptr
 )
 &
