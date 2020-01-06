@@ -2783,7 +2783,7 @@ void
 AddSizeOfIncludingThis
 (
 nsWindowSizes
-*
+&
 aWindowSizes
 )
 const
