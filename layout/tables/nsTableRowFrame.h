@@ -263,11 +263,13 @@ aLists
 )
 override
 ;
+inline
 nsTableCellFrame
 *
 GetFirstCell
 (
 )
+const
 ;
 virtual
 void
