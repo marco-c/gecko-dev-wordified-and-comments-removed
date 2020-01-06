@@ -270,6 +270,9 @@ gfx
 IntRect
 mInvalidRect
 ;
+bool
+mInvalidateEntireSurface
+;
 }
 ;
 }
