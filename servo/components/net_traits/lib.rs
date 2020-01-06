@@ -11,7 +11,7 @@ box_syntax
 [
 feature
 (
-iterator_step_by
+step_by
 )
 ]
 #
