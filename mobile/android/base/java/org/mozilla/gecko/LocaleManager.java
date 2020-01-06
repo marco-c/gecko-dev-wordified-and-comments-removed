@@ -48,11 +48,6 @@ Context
 context
 )
 ;
-boolean
-isEnabled
-(
-)
-;
 Locale
 getCurrentLocale
 (

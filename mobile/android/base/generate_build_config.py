@@ -258,10 +258,6 @@ MOZ_INSTALL_TRACKING
 '
                 
 '
-MOZ_LOCALE_SWITCHER
-'
-                
-'
 MOZ_NATIVE_DEVICES
 '
                 
