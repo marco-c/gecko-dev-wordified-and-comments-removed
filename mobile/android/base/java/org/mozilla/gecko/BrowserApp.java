@@ -18800,7 +18800,7 @@ isPrivate
 &
 HardwareUtils
 .
-isTablet
+isLargeTablet
 (
 )
 )
