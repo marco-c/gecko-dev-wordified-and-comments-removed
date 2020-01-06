@@ -2605,7 +2605,6 @@ mNumRuns
 ;
 static
 constexpr
-long
 double
 kRunOverhead
 =
@@ -2615,7 +2614,6 @@ kRunOverhead
 ;
 static
 constexpr
-long
 double
 kRunRelaxedOverhead
 =
