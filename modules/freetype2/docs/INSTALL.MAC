@@ -25,6 +25,7 @@ Carbon
 APIs
 return
 FT_Err_Unimplemented_Feature
+'
 always
 even
 if
@@ -60,6 +61,7 @@ base
 ftmac
 .
 c
+'
 by
 builds
 /
@@ -68,6 +70,7 @@ mac
 ftmac
 .
 c
+'
 .
 Starting
 with
@@ -152,6 +155,7 @@ mmacosx
 version
 -
 min
+'
 to
 gcc
 .
@@ -202,7 +206,6 @@ Alternatively
 you
 could
 pass
-"
 -
 mmacosx
 -
@@ -213,7 +216,7 @@ min
 10
 .
 2
-"
+'
 to
 gcc
 .
@@ -237,9 +240,8 @@ on
 .
 In
 the
-cases
-in
 above
+cases
 the
 built
 binaries

@@ -361,6 +361,16 @@ value
 ;
 FT_EXPORT
 (
+void
+)
+FT_Set_Default_Properties
+(
+FT_Library
+library
+)
+;
+FT_EXPORT
+(
 FT_Error
 )
 FT_Reference_Library

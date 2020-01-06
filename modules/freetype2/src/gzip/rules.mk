@@ -11,7 +11,7 @@ rules
 Copyright
 2002
 -
-2016
+2017
 by
 #
 David
@@ -174,9 +174,9 @@ c
 '
 only
 if
-SYTEM_ZLIB
-is
+SYSTEM_ZLIB
 #
+is
 not
 defined
 (

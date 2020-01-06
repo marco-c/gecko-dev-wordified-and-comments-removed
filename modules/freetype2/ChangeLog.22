@@ -1486,7 +1486,7 @@ replacing
 .
 .
 (
-FT_MemTable_Rec
+FT_MemTableRec
 )
 [
 FT_DEBUG_MEMORY
@@ -3812,7 +3812,7 @@ as
 FT_LOCAL_DEF
 .
 (
-FTC_MruListFind
+FTC_MruList_Find
 FTC_MruList_Lookup
 )
 [
@@ -4701,7 +4701,7 @@ reflect
 many
 fixes
 for
-backwards
+backward
 compatibility
 .
 Still
@@ -6249,7 +6249,7 @@ FTC_OldFontRec
 FTC_OldImageDescRec
 FTC_ImageCache_Lookup
 FTC_Image_Cache_New
-FTC_OldImage_Desc
+FTC_OldImageDesc
 FTC_OLD_IMAGE_FORMAT
 ftc_old_image_xxx
 ftc_image_type_from_old_desc
@@ -19267,7 +19267,7 @@ src
 /
 gxvalid
 /
-gxmort1
+gxvmort1
 .
 c
 (
@@ -19277,7 +19277,7 @@ src
 /
 gxvalid
 /
-gxmort2
+gxvmort2
 .
 c
 (
@@ -21983,7 +21983,7 @@ worry
 about
 source
 code
-backwards
+backward
 compatibility
 .
 *
@@ -22273,7 +22273,7 @@ Update
 Copyright
 2005
 -
-2016
+2017
 by
 David
 Turner

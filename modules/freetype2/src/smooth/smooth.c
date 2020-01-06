@@ -11,13 +11,6 @@ h
 #
 include
 "
-ftspic
-.
-c
-"
-#
-include
-"
 ftgrays
 .
 c
@@ -26,6 +19,13 @@ c
 include
 "
 ftsmooth
+.
+c
+"
+#
+include
+"
+ftspic
 .
 c
 "

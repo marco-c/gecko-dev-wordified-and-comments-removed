@@ -2213,8 +2213,9 @@ font
 lu
 load
 error
+0x
 %
-d
+x
 \
 n
 "

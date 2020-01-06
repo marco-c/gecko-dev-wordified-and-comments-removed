@@ -608,9 +608,11 @@ FT_CONFIG_OPTION_ENVIRONMENT_PROPERTIES
 define
 MAX_LENGTH
 128
-static
+FT_EXPORT_DEF
+(
 void
-ft_set_default_properties
+)
+FT_Set_Default_Properties
 (
 FT_Library
 library
@@ -991,9 +993,11 @@ property_value
 }
 #
 else
-static
+FT_EXPORT_DEF
+(
 void
-ft_set_default_properties
+)
+FT_Set_Default_Properties
 (
 FT_Library
 library
@@ -1083,7 +1087,7 @@ FT_Add_Default_Modules
 alibrary
 )
 ;
-ft_set_default_properties
+FT_Set_Default_Properties
 (
 *
 alibrary

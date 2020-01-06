@@ -2013,7 +2013,7 @@ Implement
 it
 .
 For
-backwards
+backward
 compatibility
 retain
 the
@@ -8948,7 +8948,7 @@ org
 autofit
 ]
 Adjust
-Devenagari
+Devanagari
 character
 range
 .
@@ -34164,7 +34164,7 @@ cf2arrst
 .
 c
 (
-cf2_arrstack_setNum_Elements
+cf2_arrstack_setNumElements
 )
 :
 Use
@@ -36758,7 +36758,7 @@ code
 Copyright
 2013
 -
-2016
+2017
 by
 David
 Turner
