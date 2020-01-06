@@ -95,14 +95,6 @@ match_parent
 "
 android
 :
-background
-=
-"
-#
-ffffff
-"
-android
-:
 orientation
 =
 "

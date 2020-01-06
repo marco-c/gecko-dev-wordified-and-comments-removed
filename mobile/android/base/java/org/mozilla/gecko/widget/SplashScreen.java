@@ -53,7 +53,7 @@ static
 long
 MIN_DISPLAY_TIME
 =
-500
+0
 ;
 private
 static
