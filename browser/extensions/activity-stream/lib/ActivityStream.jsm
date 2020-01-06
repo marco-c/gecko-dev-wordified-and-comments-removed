@@ -486,13 +486,13 @@ https
 :
 /
 /
-onyx_tiles
+tiles
 .
-stage
+services
 .
-mozaws
+mozilla
 .
-net
+com
 /
 v4
 /

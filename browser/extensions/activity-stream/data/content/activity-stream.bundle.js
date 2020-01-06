@@ -1283,6 +1283,9 @@ eTLDExtra
 toLowerCase
 (
 )
+|
+|
+hostname
 ;
 }
 ;
