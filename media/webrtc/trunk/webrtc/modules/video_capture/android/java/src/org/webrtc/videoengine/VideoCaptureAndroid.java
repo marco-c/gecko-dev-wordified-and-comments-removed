@@ -1440,10 +1440,11 @@ camera
 null
 )
 {
-throw
-new
-RuntimeException
+Log
+.
+e
 (
+TAG
 "
 Camera
 is
@@ -1452,6 +1453,8 @@ stopped
 !
 "
 )
+;
+return
 ;
 }
 Throwable
