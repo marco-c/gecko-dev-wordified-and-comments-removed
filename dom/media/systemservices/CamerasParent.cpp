@@ -4448,7 +4448,6 @@ WithEntry
 (
 capnum
 [
-capnum
 &
 engine
 &
@@ -4770,7 +4769,6 @@ WithEntry
 (
 capnum
 [
-capnum
 ]
 (
 VideoEngine
