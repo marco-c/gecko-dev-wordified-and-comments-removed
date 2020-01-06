@@ -177,12 +177,6 @@ fuzzy
 80
 1500
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 border
