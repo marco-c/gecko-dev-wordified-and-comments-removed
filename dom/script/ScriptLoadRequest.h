@@ -518,12 +518,6 @@ bool
 mIsAsync
 ;
 bool
-mPreloadAsAsync
-;
-bool
-mPreloadAsDefer
-;
-bool
 mIsNonAsyncScriptInserted
 ;
 bool
