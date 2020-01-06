@@ -1191,6 +1191,14 @@ GetFrameMetrics
 )
 const
 ;
+const
+ScrollMetadata
+&
+GetScrollMetadata
+(
+)
+const
+;
 APZCTreeManager
 *
 GetApzcTreeManager
