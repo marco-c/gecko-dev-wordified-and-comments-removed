@@ -224,6 +224,13 @@ MediaDecoderInit
 aInit
 )
 ;
+MediaDecoderStateMachine
+*
+CreateStateMachine
+(
+)
+override
+;
 MediaResource
 *
 GetResource
@@ -291,12 +298,6 @@ override
 ;
 private
 :
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-;
 virtual
 ChannelMediaDecoder
 *
