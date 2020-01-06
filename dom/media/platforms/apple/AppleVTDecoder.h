@@ -370,7 +370,7 @@ const
 uint32_t
 mDisplayHeight
 ;
-nsresult
+MediaResult
 InitializeSession
 (
 )
