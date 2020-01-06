@@ -6489,7 +6489,7 @@ label
 =
 "
 &
-printButton
+printCmd
 .
 label
 ;
