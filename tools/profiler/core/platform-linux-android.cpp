@@ -240,7 +240,7 @@ gettid
 }
 static
 void
-FillInRegs
+PopulateRegsFromContext
 (
 Registers
 &
@@ -1224,7 +1224,7 @@ break
 Registers
 regs
 ;
-FillInRegs
+PopulateRegsFromContext
 (
 regs
 &
@@ -1727,7 +1727,7 @@ sSyncUContext
 )
 )
 {
-FillInRegs
+PopulateRegsFromContext
 (
 *
 this
