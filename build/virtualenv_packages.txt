@@ -389,6 +389,13 @@ marionette
 puppeteer
 /
 firefox
+mozilla
+.
+pth
+:
+testing
+/
+talos
 packages
 .
 txt
