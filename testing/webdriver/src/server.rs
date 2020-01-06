@@ -1494,6 +1494,9 @@ let
 mut
 server
 =
+try
+!
+(
 Server
 :
 :
@@ -1501,9 +1504,6 @@ http
 (
 address
 )
-.
-unwrap
-(
 )
 ;
 server
@@ -1538,6 +1538,9 @@ to_string
 )
 )
 ;
+try
+!
+(
 builder
 .
 spawn
@@ -1567,9 +1570,6 @@ msg_recv
 ;
 }
 )
-.
-unwrap
-(
 )
 ;
 server
