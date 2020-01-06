@@ -213,7 +213,7 @@ GeckoLayerClient
 mTarget
 ;
 private
-LayerView
+LayerSession
 .
 Compositor
 mCompositor
@@ -829,7 +829,7 @@ value
 void
 notifyCompositorCreated
 (
-LayerView
+LayerSession
 .
 Compositor
 aCompositor
