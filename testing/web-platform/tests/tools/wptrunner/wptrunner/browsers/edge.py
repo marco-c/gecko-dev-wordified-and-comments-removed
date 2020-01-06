@@ -131,6 +131,8 @@ webdriver_binary
 def
 browser_kwargs
 (
+test_type
+run_info_data
 *
 *
 kwargs
