@@ -2132,6 +2132,12 @@ mozilla
 TimeStamp
 mSuspendTimestamp
 ;
+mozilla
+:
+:
+TimeStamp
+mOnCacheEntryCheckTimestamp
+;
 uint32_t
 mSuspendTotalTime
 ;
