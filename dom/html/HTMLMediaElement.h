@@ -2609,6 +2609,10 @@ AddMediaElementToURITable
 void
 RemoveMediaElementFromURITable
 (
+bool
+aFroceClearEntry
+=
+false
 )
 ;
 HTMLMediaElement
