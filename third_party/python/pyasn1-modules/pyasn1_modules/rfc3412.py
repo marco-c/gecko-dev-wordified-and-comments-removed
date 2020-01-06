@@ -5,8 +5,6 @@ type
 import
 univ
 namedtype
-namedval
-tag
 constraint
 from
 pyasn1_modules
@@ -69,7 +67,7 @@ PDUs
 (
 )
 )
-        
+    
 )
 class
 ScopedPduData
@@ -112,7 +110,7 @@ OctetString
 (
 )
 )
-        
+    
 )
 class
 HeaderData
@@ -137,6 +135,7 @@ NamedType
 '
 msgID
 '
+                            
 univ
 .
 Integer
@@ -164,6 +163,7 @@ NamedType
 '
 msgMaxSize
 '
+                            
 univ
 .
 Integer
@@ -218,6 +218,7 @@ NamedType
 '
 msgSecurityModel
 '
+                            
 univ
 .
 Integer
@@ -237,7 +238,7 @@ ValueRangeConstraint
 )
 )
 )
-        
+    
 )
 class
 SNMPv3Message
@@ -254,7 +255,7 @@ namedtype
 .
 NamedTypes
 (
-         
+        
 namedtype
 .
 NamedType
@@ -262,6 +263,7 @@ NamedType
 '
 msgVersion
 '
+                            
 univ
 .
 Integer
@@ -281,7 +283,7 @@ ValueRangeConstraint
 )
 )
 )
-         
+        
 namedtype
 .
 NamedType
@@ -293,7 +295,7 @@ HeaderData
 (
 )
 )
-         
+        
 namedtype
 .
 NamedType
@@ -307,7 +309,7 @@ OctetString
 (
 )
 )
-         
+        
 namedtype
 .
 NamedType
@@ -319,5 +321,5 @@ ScopedPduData
 (
 )
 )
-         
+    
 )

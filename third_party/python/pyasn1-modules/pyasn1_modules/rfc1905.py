@@ -71,6 +71,7 @@ NamedType
 '
 noSuchObject
 '
+                            
 univ
 .
 Null
@@ -103,6 +104,7 @@ NamedType
 '
 noSuchInstance
 '
+                            
 univ
 .
 Null
@@ -135,6 +137,7 @@ NamedType
 '
 endOfMibView
 '
+                            
 univ
 .
 Null
@@ -159,7 +162,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 VarBind
@@ -201,7 +204,7 @@ _BindValue
 (
 )
 )
-        
+    
 )
 class
 VarBindList
@@ -233,7 +236,7 @@ ValueSizeConstraint
         
 0
 max_bindings
-        
+    
 )
 class
 PDU
@@ -280,6 +283,7 @@ univ
 .
 Integer
 (
+            
 namedValues
 =
 namedval
@@ -310,6 +314,7 @@ badValue
 '
 3
 )
+                                             
 (
 '
 readOnly
@@ -334,6 +339,7 @@ wrongType
 '
 7
 )
+                                             
 (
 '
 wrongLength
@@ -352,6 +358,7 @@ wrongValue
 '
 10
 )
+                                             
 (
 '
 noCreation
@@ -370,6 +377,7 @@ resourceUnavailable
 '
 13
 )
+                                             
 (
 '
 commitFailed
@@ -388,6 +396,7 @@ authorizationError
 '
 16
 )
+                                             
 (
 '
 notWritable
@@ -413,6 +422,7 @@ error
 -
 index
 '
+                            
 univ
 .
 Integer
@@ -446,7 +456,7 @@ VarBindList
 (
 )
 )
-        
+    
 )
 class
 BulkPDU
@@ -489,6 +499,7 @@ non
 -
 repeaters
 '
+                            
 univ
 .
 Integer
@@ -518,6 +529,7 @@ max
 -
 repetitions
 '
+                            
 univ
 .
 Integer
@@ -551,7 +563,7 @@ VarBindList
 (
 )
 )
-        
+    
 )
 class
 GetRequestPDU
@@ -581,7 +593,7 @@ tag
 tagFormatConstructed
 0
 )
-        
+    
 )
 class
 GetNextRequestPDU
@@ -611,7 +623,7 @@ tag
 tagFormatConstructed
 1
 )
-        
+    
 )
 class
 ResponsePDU
@@ -641,7 +653,7 @@ tag
 tagFormatConstructed
 2
 )
-        
+    
 )
 class
 SetRequestPDU
@@ -671,7 +683,7 @@ tag
 tagFormatConstructed
 3
 )
-        
+    
 )
 class
 GetBulkRequestPDU
@@ -701,7 +713,7 @@ tag
 tagFormatConstructed
 5
 )
-        
+    
 )
 class
 InformRequestPDU
@@ -731,7 +743,7 @@ tag
 tagFormatConstructed
 6
 )
-        
+    
 )
 class
 SNMPv2TrapPDU
@@ -761,7 +773,7 @@ tag
 tagFormatConstructed
 7
 )
-        
+    
 )
 class
 ReportPDU
@@ -791,7 +803,7 @@ tag
 tagFormatConstructed
 8
 )
-        
+    
 )
 class
 PDUs
@@ -920,5 +932,5 @@ ReportPDU
 (
 )
 )
-        
+    
 )

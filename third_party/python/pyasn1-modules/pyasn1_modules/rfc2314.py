@@ -1,14 +1,4 @@
 from
-pyasn1
-.
-type
-import
-tag
-namedtype
-namedval
-univ
-constraint
-from
 pyasn1_modules
 .
 rfc2459
@@ -36,6 +26,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 CertificationRequestInfo
@@ -96,6 +87,7 @@ NamedType
 '
 attributes
 '
+                            
 Attributes
 (
 )
@@ -128,6 +120,7 @@ univ
 BitString
 )
 :
+    
 pass
 class
 SignatureAlgorithmIdentifier
@@ -135,6 +128,7 @@ SignatureAlgorithmIdentifier
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 CertificationRequest

@@ -5,7 +5,6 @@ type
 import
 univ
 namedtype
-namedval
 tag
 constraint
 class
@@ -16,6 +15,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 SimpleSyntax
@@ -88,7 +88,7 @@ Null
 (
 )
 )
-        
+    
 )
 class
 IpAddress
@@ -122,7 +122,7 @@ tag
 tagFormatSimple
 0
 )
-        
+    
 )
     
 subtypeSpec
@@ -140,7 +140,7 @@ ValueSizeConstraint
         
 4
 4
-        
+    
 )
 class
 NetworkAddress
@@ -169,7 +169,7 @@ IpAddress
 (
 )
 )
-        
+    
 )
 class
 Counter
@@ -203,7 +203,7 @@ tag
 tagFormatSimple
 1
 )
-        
+    
 )
     
 subtypeSpec
@@ -221,7 +221,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Gauge
@@ -255,7 +255,7 @@ tag
 tagFormatSimple
 2
 )
-        
+    
 )
     
 subtypeSpec
@@ -273,7 +273,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 TimeTicks
@@ -307,7 +307,7 @@ tag
 tagFormatSimple
 3
 )
-        
+    
 )
     
 subtypeSpec
@@ -325,7 +325,7 @@ ValueRangeConstraint
         
 0
 4294967295
-        
+    
 )
 class
 Opaque
@@ -359,7 +359,7 @@ tag
 tagFormatSimple
 4
 )
-        
+    
 )
 class
 ApplicationSyntax
@@ -436,7 +436,7 @@ Opaque
 (
 )
 )
-        
+    
 )
 class
 ObjectSyntax
@@ -479,5 +479,5 @@ ApplicationSyntax
 (
 )
 )
-        
+    
 )

@@ -5,9 +5,7 @@ type
 import
 tag
 namedtype
-namedval
 univ
-constraint
 from
 pyasn1_modules
 .
@@ -254,7 +252,12 @@ ObjectIdentifier
 )
 MAX
 =
-16
+float
+(
+'
+inf
+'
+)
 class
 Version
 (
@@ -263,6 +266,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 RSAPrivateKey
@@ -479,6 +483,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -509,6 +514,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -539,6 +545,7 @@ AlgorithmIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag

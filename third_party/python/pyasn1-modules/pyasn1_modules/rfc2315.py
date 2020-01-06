@@ -1,16 +1,4 @@
 from
-pyasn1
-.
-type
-import
-tag
-namedtype
-namedval
-univ
-constraint
-char
-useful
-from
 pyasn1_modules
 .
 rfc2459
@@ -62,7 +50,7 @@ AttributeValue
 )
 )
 )
-        
+    
 )
 class
 AttributeValueAssertion
@@ -103,7 +91,7 @@ AttributeValue
 (
 )
 )
-        
+    
 )
 pkcs_7
 =
@@ -265,6 +253,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 ContentEncryptionAlgorithmIdentifier
@@ -272,6 +261,7 @@ ContentEncryptionAlgorithmIdentifier
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 EncryptedContent
@@ -281,6 +271,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 EncryptedContentInfo
@@ -335,6 +326,7 @@ EncryptedContent
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -351,7 +343,7 @@ tagFormatConstructed
 )
 )
 )
-        
+    
 )
 class
 Version
@@ -361,6 +353,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 EncryptedData
@@ -401,7 +394,7 @@ EncryptedContentInfo
 (
 )
 )
-        
+    
 )
 class
 DigestAlgorithmIdentifier
@@ -409,6 +402,7 @@ DigestAlgorithmIdentifier
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 DigestAlgorithmIdentifiers
@@ -432,6 +426,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 ContentInfo
@@ -476,6 +471,7 @@ Any
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -492,7 +488,7 @@ tagFormatConstructed
 )
 )
 )
-        
+    
 )
 class
 DigestedData
@@ -554,8 +550,10 @@ NamedType
 digest
 '
 Digest
+(
 )
-        
+)
+    
 )
 class
 IssuerAndSerialNumber
@@ -596,7 +594,7 @@ CertificateSerialNumber
 (
 )
 )
-        
+    
 )
 class
 KeyEncryptionAlgorithmIdentifier
@@ -604,6 +602,7 @@ KeyEncryptionAlgorithmIdentifier
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 EncryptedKey
@@ -613,6 +612,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 RecipientInfo
@@ -677,7 +677,7 @@ EncryptedKey
 (
 )
 )
-        
+    
 )
 class
 RecipientInfos
@@ -758,7 +758,7 @@ Attributes
 (
 )
 )
-        
+    
 )
 class
 SignatureAlgorithmIdentifier
@@ -766,6 +766,7 @@ SignatureAlgorithmIdentifier
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 Signature
@@ -775,6 +776,7 @@ univ
 BitString
 )
 :
+    
 pass
 class
 ExtendedCertificate
@@ -827,7 +829,7 @@ Signature
 (
 )
 )
-        
+    
 )
 class
 ExtendedCertificateOrCertificate
@@ -870,6 +872,7 @@ ExtendedCertificate
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -886,7 +889,7 @@ tagFormatConstructed
 )
 )
 )
-        
+    
 )
 class
 ExtendedCertificatesAndCertificates
@@ -910,6 +913,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 CRLEntry
@@ -952,7 +956,7 @@ UTCTime
 (
 )
 )
-        
+    
 )
 class
 TBSCertificateRevocationList
@@ -1040,7 +1044,7 @@ CRLEntry
 )
 )
 )
-        
+    
 )
 class
 CertificateRevocationList
@@ -1095,7 +1099,7 @@ BitString
 (
 )
 )
-        
+    
 )
 class
 CertificateRevocationLists
@@ -1117,6 +1121,7 @@ DigestEncryptionAlgorithmIdentifier
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 EncryptedDigest
@@ -1126,6 +1131,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 SignerInfo
@@ -1192,6 +1198,7 @@ Attributes
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1246,6 +1253,7 @@ Attributes
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1262,7 +1270,7 @@ tagFormatConstructed
 )
 )
 )
-        
+    
 )
 class
 SignerInfos
@@ -1355,6 +1363,7 @@ ExtendedCertificatesAndCertificates
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1385,6 +1394,7 @@ CertificateRevocationLists
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1413,7 +1423,7 @@ SignerInfos
 (
 )
 )
-        
+    
 )
 class
 EnvelopedData
@@ -1466,7 +1476,7 @@ EncryptedContentInfo
 (
 )
 )
-        
+    
 )
 class
 DigestInfo
@@ -1507,7 +1517,7 @@ Digest
 (
 )
 )
-        
+    
 )
 class
 SignedData
@@ -1574,6 +1584,7 @@ ExtendedCertificatesAndCertificates
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1604,6 +1615,7 @@ CertificateRevocationLists
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -1632,7 +1644,7 @@ SignerInfos
 (
 )
 )
-        
+    
 )
 class
 Data
@@ -1642,4 +1654,5 @@ univ
 OctetString
 )
 :
+    
 pass

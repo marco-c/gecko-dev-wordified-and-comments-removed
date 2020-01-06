@@ -7,7 +7,6 @@ tag
 namedtype
 namedval
 univ
-constraint
 useful
 from
 pyasn1_modules
@@ -98,7 +97,7 @@ aACompromise
 '
 10
 )
-        
+    
 )
 class
 GeneralName
@@ -108,6 +107,7 @@ univ
 OctetString
 )
 :
+    
 pass
 id_kp_OCSPSigning
 =
@@ -302,6 +302,7 @@ useful
 GeneralizedTime
 )
 :
+    
 pass
 class
 UnknownInfo
@@ -311,6 +312,7 @@ univ
 Null
 )
 :
+    
 pass
 class
 RevokedInfo
@@ -355,6 +357,7 @@ CRLReason
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -371,7 +374,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 CertID
@@ -444,7 +447,7 @@ CertificateSerialNumber
 (
 )
 )
-        
+    
 )
 class
 CertStatus
@@ -469,6 +472,7 @@ NamedType
 '
 good
 '
+                            
 univ
 .
 Null
@@ -501,6 +505,7 @@ NamedType
 '
 revoked
 '
+                            
 RevokedInfo
 (
 )
@@ -531,6 +536,7 @@ NamedType
 '
 unknown
 '
+                            
 UnknownInfo
 (
 )
@@ -553,7 +559,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 SingleResponse
@@ -624,6 +630,7 @@ GeneralizedTime
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -656,6 +663,7 @@ Extensions
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -672,7 +680,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 KeyHash
@@ -682,6 +690,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 ResponderID
@@ -706,6 +715,7 @@ NamedType
 '
 byName
 '
+                            
 rfc2459
 .
 Name
@@ -714,7 +724,7 @@ Name
 .
 subtype
 (
-implicitTag
+explicitTag
 =
 tag
 .
@@ -738,13 +748,14 @@ NamedType
 '
 byKey
 '
+                            
 KeyHash
 (
 )
 .
 subtype
 (
-implicitTag
+explicitTag
 =
 tag
 .
@@ -760,7 +771,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 Version
@@ -816,6 +827,7 @@ v1
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -870,6 +882,8 @@ univ
 .
 SequenceOf
 (
+componentType
+=
 SingleResponse
 (
 )
@@ -891,6 +905,7 @@ Extensions
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -907,7 +922,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 BasicOCSPResponse
@@ -976,6 +991,8 @@ univ
 .
 SequenceOf
 (
+componentType
+=
 rfc2459
 .
 Certificate
@@ -985,6 +1002,7 @@ Certificate
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1001,7 +1019,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 ResponseBytes
@@ -1046,7 +1064,7 @@ OctetString
 (
 )
 )
-        
+    
 )
 class
 OCSPResponseStatus
@@ -1112,7 +1130,7 @@ unauthorized
 '
 6
 )
-        
+    
 )
 class
 OCSPResponse
@@ -1155,6 +1173,7 @@ ResponseBytes
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1171,7 +1190,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 Request
@@ -1216,6 +1235,7 @@ Extensions
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1232,7 +1252,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 Signature
@@ -1289,6 +1309,8 @@ univ
 .
 SequenceOf
 (
+componentType
+=
 rfc2459
 .
 Certificate
@@ -1298,6 +1320,7 @@ Certificate
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1314,7 +1337,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 TBSRequest
@@ -1348,6 +1371,7 @@ v1
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1378,6 +1402,7 @@ GeneralName
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1406,6 +1431,8 @@ univ
 .
 SequenceOf
 (
+componentType
+=
 Request
 (
 )
@@ -1427,6 +1454,7 @@ Extensions
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1443,7 +1471,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 OCSPRequest
@@ -1486,6 +1514,7 @@ Signature
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -1502,5 +1531,5 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )

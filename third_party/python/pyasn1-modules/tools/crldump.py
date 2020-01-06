@@ -70,7 +70,7 @@ cnt
 =
 0
 while
-1
+True
 :
     
 idx
@@ -140,6 +140,7 @@ asn1Spec
 if
 rest
 :
+        
 substrate
 =
 substrate
@@ -167,30 +168,10 @@ encoder
 encode
 (
 key
-defMode
-=
-False
 )
 =
 =
 substrate
-or
-\
-           
-encoder
-.
-encode
-(
-key
-defMode
-=
-True
-)
-=
-=
-substrate
-\
-           
 '
 pkcs8
 recode
@@ -198,9 +179,8 @@ fails
 '
     
 cnt
-=
-cnt
 +
+=
 1
 print
 (

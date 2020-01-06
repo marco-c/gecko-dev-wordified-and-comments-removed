@@ -1,3 +1,22 @@
+import
+hashlib
+import
+sys
+try
+:
+    
+import
+urllib2
+except
+ImportError
+:
+    
+import
+urllib
+.
+request
+as
+urllib2
 from
 pyasn1
 .
@@ -8,35 +27,17 @@ import
 decoder
 encoder
 from
-pyasn1_modules
-import
-rfc2560
-rfc2459
-pem
-from
 pyasn1
 .
 type
 import
 univ
+from
+pyasn1_modules
 import
-sys
-hashlib
-try
-:
-  
-import
-urllib2
-except
-ImportError
-:
-  
-import
-urllib
-.
-request
-as
-urllib2
+rfc2560
+rfc2459
+pem
 sha1oid
 =
 univ
@@ -71,6 +72,7 @@ self
 args
 )
 :
+        
 return
 '
 '
@@ -83,6 +85,7 @@ self
 args
 )
 :
+        
 return
 '
 '
@@ -135,7 +138,7 @@ None
 bitStringValue
 defMode
 =
-1
+True
 maxChunkSize
 =
 0
@@ -223,7 +226,7 @@ userIssuer
 prettyPrint
 (
 )
-        
+    
 )
     
 userIssuerHash
@@ -239,7 +242,7 @@ encode
 (
 userIssuer
 )
-        
+    
 )
 .
 digest
@@ -259,6 +262,7 @@ subjectPublicKeyInfo
 .
 getComponentByName
 (
+        
 '
 subjectPublicKey
 '
@@ -275,7 +279,7 @@ valueOnlyBitStringEncoder
 (
 issuerSubjectPublicKey
 )
-        
+    
 )
 .
 digest
@@ -505,6 +509,8 @@ assert
 responseType
 =
 =
+rfc2560
+.
 id_pkix_ocsp_basic
 responseType
 .
@@ -539,7 +545,7 @@ rfc2560
 BasicOCSPResponse
 (
 )
-        
+    
 )
     
 tbsResponseData
@@ -611,7 +617,7 @@ getComponentByName
 thisUpdate
 '
 )
-        
+    
 )
 if
 len
@@ -738,7 +744,6 @@ rfc2459
 Certificate
 (
 )
-    
 )
 userCert
 _
@@ -799,7 +804,6 @@ rfc2459
 Certificate
 (
 )
-    
 )
 ocspReq
 =
@@ -839,7 +843,6 @@ ocsp
 request
 '
 }
-    
 )
 httpRsp
 =
@@ -899,7 +902,6 @@ n
 '
 %
 (
-       
 certId
 .
 getComponentByName
@@ -908,11 +910,9 @@ getComponentByName
 serialNumber
 '
 )
-       
+                                                   
 certStatus
-       
 producedAt
-       
 thisUpdate
 )
 )

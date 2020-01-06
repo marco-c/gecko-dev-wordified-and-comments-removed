@@ -12,7 +12,12 @@ char
 useful
 MAX
 =
-64
+float
+(
+'
+inf
+'
+)
 ub_name
 =
 univ
@@ -301,6 +306,7 @@ char
 UniversalString
 )
 :
+    
 pass
 class
 BMPString
@@ -310,6 +316,7 @@ char
 BMPString
 )
 :
+    
 pass
 class
 UTF8String
@@ -319,6 +326,7 @@ char
 UTF8String
 )
 :
+    
 pass
 id_pkix
 =
@@ -550,6 +558,7 @@ univ
 Any
 )
 :
+    
 pass
 class
 AttributeType
@@ -559,6 +568,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 AttributeTypeAndValue
@@ -599,7 +609,7 @@ AttributeValue
 (
 )
 )
-        
+    
 )
 class
 Attribute
@@ -647,7 +657,7 @@ AttributeValue
 )
 )
 )
-        
+    
 )
 id_at
 =
@@ -680,6 +690,8 @@ ObjectIdentifier
 '
 )
 id_at_sutname
+=
+id_at_surname
 =
 univ
 .
@@ -766,6 +778,7 @@ NamedType
 '
 teletexString
 '
+                            
 char
 .
 TeletexString
@@ -793,6 +806,7 @@ NamedType
 '
 printableString
 '
+                            
 char
 .
 PrintableString
@@ -820,6 +834,7 @@ NamedType
 '
 universalString
 '
+                            
 char
 .
 UniversalString
@@ -847,6 +862,7 @@ NamedType
 '
 utf8String
 '
+                            
 char
 .
 UTF8String
@@ -874,6 +890,7 @@ NamedType
 '
 bmpString
 '
+                            
 char
 .
 BMPString
@@ -942,6 +959,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -969,6 +987,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -996,6 +1015,7 @@ UniversalString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1015,6 +1035,7 @@ NamedType
 '
 utf8String
 '
+                            
 char
 .
 UTF8String
@@ -1042,6 +1063,7 @@ NamedType
 '
 bmpString
 '
+                            
 char
 .
 BMPString
@@ -1110,6 +1132,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1137,6 +1160,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1164,6 +1188,7 @@ UniversalString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1183,6 +1208,7 @@ NamedType
 '
 utf8String
 '
+                            
 char
 .
 UTF8String
@@ -1210,6 +1236,7 @@ NamedType
 '
 bmpString
 '
+                            
 char
 .
 BMPString
@@ -1270,6 +1297,7 @@ NamedType
 '
 teletexString
 '
+                            
 char
 .
 TeletexString
@@ -1305,6 +1333,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1332,6 +1361,7 @@ UniversalString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1351,6 +1381,7 @@ NamedType
 '
 utf8String
 '
+                            
 char
 .
 UTF8String
@@ -1378,6 +1409,7 @@ NamedType
 '
 bmpString
 '
+                            
 char
 .
 BMPString
@@ -1446,6 +1478,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1473,6 +1506,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1500,6 +1534,7 @@ UniversalString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1527,6 +1562,7 @@ UTF8String
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1554,6 +1590,7 @@ BMPString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1614,6 +1651,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1641,6 +1679,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1668,6 +1707,7 @@ UniversalString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1695,6 +1735,7 @@ UTF8String
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1722,6 +1763,7 @@ BMPString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -1774,6 +1816,7 @@ NamedType
 '
 teletexString
 '
+                            
 char
 .
 TeletexString
@@ -1801,6 +1844,7 @@ NamedType
 '
 printableString
 '
+                            
 char
 .
 PrintableString
@@ -1828,6 +1872,7 @@ NamedType
 '
 universalString
 '
+                            
 char
 .
 UniversalString
@@ -1855,6 +1900,7 @@ NamedType
 '
 utf8String
 '
+                            
 char
 .
 UTF8String
@@ -1882,6 +1928,7 @@ NamedType
 '
 bmpString
 '
+                            
 char
 .
 BMPString
@@ -1927,6 +1974,7 @@ char
 PrintableString
 )
 :
+    
 pass
 id_at_countryName
 =
@@ -2159,7 +2207,7 @@ Integer
 (
 )
 )
-        
+    
 )
 class
 RelativeDistinguishedName
@@ -2215,7 +2263,7 @@ RDNSequence
 (
 )
 )
-        
+    
 )
 class
 DirectoryString
@@ -2240,6 +2288,7 @@ NamedType
 '
 teletexString
 '
+                            
 char
 .
 TeletexString
@@ -2267,6 +2316,7 @@ NamedType
 '
 printableString
 '
+                            
 char
 .
 PrintableString
@@ -2294,6 +2344,7 @@ NamedType
 '
 universalString
 '
+                            
 char
 .
 UniversalString
@@ -2321,6 +2372,7 @@ NamedType
 '
 utf8String
 '
+                            
 char
 .
 UTF8String
@@ -2394,7 +2446,7 @@ MAX
 )
 )
 )
-        
+    
 )
 class
 AlgorithmIdentifier
@@ -2439,7 +2491,7 @@ Any
 (
 )
 )
-        
+    
 )
 class
 Extension
@@ -2501,7 +2553,7 @@ Any
 (
 )
 )
-        
+    
 )
 class
 Extensions
@@ -2541,14 +2593,14 @@ univ
 Sequence
 )
 :
-     
+    
 componentType
 =
 namedtype
 .
 NamedTypes
 (
-         
+        
 namedtype
 .
 NamedType
@@ -2560,7 +2612,7 @@ AlgorithmIdentifier
 (
 )
 )
-         
+        
 namedtype
 .
 NamedType
@@ -2574,7 +2626,7 @@ BitString
 (
 )
 )
-         
+    
 )
 class
 UniqueIdentifier
@@ -2584,6 +2636,7 @@ univ
 BitString
 )
 :
+    
 pass
 class
 Time
@@ -2628,7 +2681,7 @@ GeneralizedTime
 (
 )
 )
-        
+    
 )
 class
 Validity
@@ -2669,7 +2722,7 @@ Time
 (
 )
 )
-        
+    
 )
 class
 CertificateSerialNumber
@@ -2679,6 +2732,7 @@ univ
 Integer
 )
 :
+    
 pass
 class
 Version
@@ -2714,7 +2768,7 @@ v3
 '
 2
 )
-        
+    
 )
 class
 TBSCertificate
@@ -2748,6 +2802,7 @@ v1
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -2850,6 +2905,7 @@ UniqueIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -2880,6 +2936,7 @@ UniqueIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -2910,6 +2967,7 @@ Extensions
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -2926,7 +2984,7 @@ tagFormatSimple
 )
 )
 )
-        
+    
 )
 class
 Certificate
@@ -2981,7 +3039,7 @@ BitString
 (
 )
 )
-        
+    
 )
 class
 RevokedCertificate
@@ -3144,6 +3202,7 @@ Extensions
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -3658,6 +3717,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -3835,6 +3895,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -3867,6 +3928,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -3899,6 +3961,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -3938,6 +4001,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -3952,6 +4016,7 @@ tag
 tagFormatSimple
 3
 )
+            
 subtypeSpec
 =
 constraint
@@ -4004,6 +4069,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4013,6 +4079,7 @@ ValueSizeConstraint
 1
 ub_e163_4_number_length
 )
+            
 explicitTag
 =
 tag
@@ -4047,6 +4114,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4056,6 +4124,7 @@ ValueSizeConstraint
 1
 ub_e163_4_sub_address_length
 )
+            
 explicitTag
 =
 tag
@@ -4121,6 +4190,7 @@ PresentationAddress
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4172,6 +4242,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4201,6 +4272,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4228,6 +4300,7 @@ LocalPostalAttributes
 PDSParameter
 )
 :
+    
 pass
 class
 UniquePostalName
@@ -4235,6 +4308,7 @@ UniquePostalName
 PDSParameter
 )
 :
+    
 pass
 unique_postal_name
 =
@@ -4258,6 +4332,7 @@ PosteRestanteAddress
 PDSParameter
 )
 :
+    
 pass
 post_office_box_address
 =
@@ -4273,6 +4348,7 @@ PostOfficeBoxAddress
 PDSParameter
 )
 :
+    
 pass
 street_address
 =
@@ -4288,6 +4364,7 @@ StreetAddress
 PDSParameter
 )
 :
+    
 pass
 class
 UnformattedPostalAddress
@@ -4328,6 +4405,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4341,6 +4419,7 @@ ub_pds_parameter_length
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4371,6 +4450,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4398,6 +4478,7 @@ PhysicalDeliveryOfficeName
 PDSParameter
 )
 :
+    
 pass
 physical_delivery_office_number
 =
@@ -4413,6 +4494,7 @@ PhysicalDeliveryOfficeNumber
 PDSParameter
 )
 :
+    
 pass
 extension_OR_address_components
 =
@@ -4428,6 +4510,7 @@ ExtensionORAddressComponents
 PDSParameter
 )
 :
+    
 pass
 physical_delivery_personal_name
 =
@@ -4443,6 +4526,7 @@ PhysicalDeliveryPersonalName
 PDSParameter
 )
 :
+    
 pass
 physical_delivery_organization_name
 =
@@ -4458,6 +4542,7 @@ PhysicalDeliveryOrganizationName
 PDSParameter
 )
 :
+    
 pass
 extension_physical_delivery_address_components
 =
@@ -4473,6 +4558,7 @@ ExtensionPhysicalDeliveryAddressComponents
 PDSParameter
 )
 :
+    
 pass
 unformatted_postal_address
 =
@@ -4523,6 +4609,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4552,6 +4639,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4600,6 +4688,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4607,6 +4696,7 @@ constraint
 ValueSizeConstraint
 (
 ub_country_name_numeric_length
+                                                       
 ub_country_name_numeric_length
 )
 )
@@ -4633,6 +4723,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4787,6 +4878,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4796,6 +4888,7 @@ ValueSizeConstraint
 1
 ub_surname_length
 )
+            
 explicitTag
 =
 tag
@@ -4830,6 +4923,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4839,6 +4933,7 @@ ValueSizeConstraint
 1
 ub_given_name_length
 )
+            
 explicitTag
 =
 tag
@@ -4871,6 +4966,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4880,6 +4976,7 @@ ValueSizeConstraint
 1
 ub_initials_length
 )
+            
 explicitTag
 =
 tag
@@ -4914,6 +5011,7 @@ TeletexString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -4923,6 +5021,7 @@ ValueSizeConstraint
 1
 ub_generation_qualifier_length
 )
+            
 explicitTag
 =
 tag
@@ -5072,6 +5171,7 @@ Integer
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5081,6 +5181,7 @@ ValueSizeConstraint
 0
 ub_extension_attributes
 )
+            
 explicitTag
 =
 tag
@@ -5109,6 +5210,7 @@ attribute
 -
 value
 '
+                            
 univ
 .
 Any
@@ -5196,6 +5298,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5223,6 +5326,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5351,6 +5455,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5360,6 +5465,7 @@ ValueSizeConstraint
 1
 ub_surname_length
 )
+            
 explicitTag
 =
 tag
@@ -5394,6 +5500,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5403,6 +5510,7 @@ ValueSizeConstraint
 1
 ub_given_name_length
 )
+            
 explicitTag
 =
 tag
@@ -5435,6 +5543,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5444,6 +5553,7 @@ ValueSizeConstraint
 1
 ub_initials_length
 )
+            
 explicitTag
 =
 tag
@@ -5478,6 +5588,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5487,6 +5598,7 @@ ValueSizeConstraint
 1
 ub_generation_qualifier_length
 )
+            
 explicitTag
 =
 tag
@@ -5584,6 +5696,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5611,6 +5724,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5678,6 +5792,7 @@ NetworkAddress
 X121Address
 )
 :
+    
 pass
 class
 AdministrationDomainName
@@ -5711,7 +5826,7 @@ tag
 tagFormatConstructed
 2
 )
-        
+    
 )
     
 componentType
@@ -5736,6 +5851,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5763,6 +5879,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5808,7 +5925,7 @@ tag
 tagFormatConstructed
 1
 )
-        
+    
 )
     
 componentType
@@ -5837,6 +5954,7 @@ NumericString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5844,6 +5962,7 @@ constraint
 ValueSizeConstraint
 (
 ub_country_name_numeric_length
+                                                       
 ub_country_name_numeric_length
 )
 )
@@ -5870,6 +5989,7 @@ PrintableString
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -5944,6 +6064,7 @@ NetworkAddress
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -5976,6 +6097,7 @@ TerminalIdentifier
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -6010,6 +6132,7 @@ PrivateDomainName
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -6042,6 +6165,7 @@ OrganizationName
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -6076,6 +6200,7 @@ NumericUserIdentifier
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -6108,6 +6233,7 @@ PersonalName
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -6142,6 +6268,7 @@ OrganizationalUnitNames
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -6253,6 +6380,7 @@ useful
 GeneralizedTime
 )
 :
+    
 pass
 id_holdinstruction_none
 =
@@ -6356,6 +6484,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 id_ce_cRLReasons
 =
@@ -6492,6 +6621,7 @@ BaseCRLNumber
 CRLNumber
 )
 :
+    
 pass
 id_kp_serverAuth
 =
@@ -6515,8 +6645,6 @@ ObjectIdentifier
 7
 .
 3
-.
-1
 .
 1
 '
@@ -6753,6 +6881,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 ExtKeyUsageSyntax
@@ -6919,6 +7048,7 @@ SkipCerts
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -6949,6 +7079,7 @@ SkipCerts
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7001,7 +7132,7 @@ NamedTypes
         
 namedtype
 .
-NamedType
+DefaultedNamedType
 (
 '
 cA
@@ -7021,6 +7152,7 @@ OptionalNamedType
 '
 pathLenConstraint
 '
+                                    
 univ
 .
 Integer
@@ -7117,6 +7249,7 @@ DirectoryString
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7141,6 +7274,7 @@ NamedType
 '
 partyName
 '
+                            
 DirectoryString
 (
 )
@@ -7204,6 +7338,7 @@ NamedType
 '
 value
 '
+                            
 univ
 .
 Any
@@ -7253,6 +7388,7 @@ NamedType
 '
 otherName
 '
+                            
 AnotherName
 (
 )
@@ -7283,6 +7419,7 @@ NamedType
 '
 rfc822Name
 '
+                            
 char
 .
 IA5String
@@ -7315,6 +7452,7 @@ NamedType
 '
 dNSName
 '
+                            
 char
 .
 IA5String
@@ -7347,6 +7485,7 @@ NamedType
 '
 x400Address
 '
+                            
 ORAddress
 (
 )
@@ -7377,6 +7516,7 @@ NamedType
 '
 directoryName
 '
+                            
 Name
 (
 )
@@ -7407,6 +7547,7 @@ NamedType
 '
 ediPartyName
 '
+                            
 EDIPartyName
 (
 )
@@ -7437,6 +7578,7 @@ NamedType
 '
 uniformResourceIdentifier
 '
+                            
 char
 .
 IA5String
@@ -7477,6 +7619,7 @@ OctetString
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7509,6 +7652,7 @@ ObjectIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7675,6 +7819,7 @@ GeneralNames
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7705,6 +7850,7 @@ RelativeDistinguishedName
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7752,6 +7898,7 @@ DistributionPointName
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7782,6 +7929,7 @@ ReasonFlags
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7812,6 +7960,7 @@ GeneralNames
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7882,6 +8031,8 @@ SequenceOf
 componentType
 =
 DistributionPoint
+(
+)
     
 subtypeSpec
 =
@@ -7943,6 +8094,7 @@ DistributionPointName
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -7976,6 +8128,7 @@ False
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8009,6 +8162,7 @@ False
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8039,6 +8193,7 @@ ReasonFlags
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8072,6 +8227,7 @@ False
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8120,7 +8276,7 @@ GeneralName
         
 namedtype
 .
-NamedType
+DefaultedNamedType
 (
 '
 minimum
@@ -8132,6 +8288,7 @@ BaseDistance
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8162,6 +8319,7 @@ BaseDistance
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8255,6 +8413,7 @@ GeneralSubtrees
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8285,6 +8444,7 @@ GeneralSubtrees
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8297,7 +8457,7 @@ tagClassContext
 tag
 .
 tagFormatConstructed
-0
+1
 )
 )
 )
@@ -8326,6 +8486,7 @@ NamedType
 '
 visibleString
 '
+                            
 char
 .
 VisibleString
@@ -8500,6 +8661,7 @@ char
 IA5String
 )
 :
+    
 pass
 class
 PolicyQualifierId
@@ -8533,6 +8695,7 @@ univ
 ObjectIdentifier
 )
 :
+    
 pass
 class
 PolicyQualifierInfo
@@ -8641,6 +8804,7 @@ PolicyQualifierInfo
 .
 subtype
 (
+            
 subtypeSpec
 =
 constraint
@@ -8818,6 +8982,7 @@ GeneralizedTime
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -8850,6 +9015,7 @@ GeneralizedTime
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -9002,6 +9168,7 @@ univ
 OctetString
 )
 :
+    
 pass
 id_ce_subjectKeyIdentifier
 =
@@ -9025,6 +9192,7 @@ SubjectKeyIdentifier
 KeyIdentifier
 )
 :
+    
 pass
 class
 AuthorityKeyIdentifier
@@ -9055,6 +9223,7 @@ KeyIdentifier
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -9085,6 +9254,7 @@ GeneralNames
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -9115,6 +9285,7 @@ CertificateSerialNumber
 .
 subtype
 (
+            
 implicitTag
 =
 tag
@@ -9155,6 +9326,7 @@ CertificateIssuer
 GeneralNames
 )
 :
+    
 pass
 id_ce_subjectAltName
 =
@@ -9178,6 +9350,7 @@ SubjectAltName
 GeneralNames
 )
 :
+    
 pass
 id_ce_issuerAltName
 =
@@ -9201,4 +9374,235 @@ IssuerAltName
 GeneralNames
 )
 :
+    
 pass
+certificateAttributesMap
+=
+{
+    
+id_at_name
+:
+X520name
+(
+)
+    
+id_at_surname
+:
+X520name
+(
+)
+    
+id_at_givenName
+:
+X520name
+(
+)
+    
+id_at_initials
+:
+X520name
+(
+)
+    
+id_at_generationQualifier
+:
+X520name
+(
+)
+    
+id_at_commonName
+:
+X520CommonName
+(
+)
+    
+id_at_localityName
+:
+X520LocalityName
+(
+)
+    
+id_at_stateOrProvinceName
+:
+X520StateOrProvinceName
+(
+)
+    
+id_at_organizationName
+:
+X520OrganizationName
+(
+)
+    
+id_at_organizationalUnitName
+:
+X520OrganizationalUnitName
+(
+)
+    
+id_at_title
+:
+X520Title
+(
+)
+    
+id_at_dnQualifier
+:
+X520dnQualifier
+(
+)
+    
+id_at_countryName
+:
+X520countryName
+(
+)
+    
+emailAddress
+:
+Pkcs9email
+(
+)
+}
+certificateExtensionsMap
+=
+{
+    
+id_ce_authorityKeyIdentifier
+:
+AuthorityKeyIdentifier
+(
+)
+    
+id_ce_subjectKeyIdentifier
+:
+SubjectKeyIdentifier
+(
+)
+    
+id_ce_keyUsage
+:
+KeyUsage
+(
+)
+    
+id_ce_privateKeyUsagePeriod
+:
+PrivateKeyUsagePeriod
+(
+)
+    
+id_ce_certificatePolicies
+:
+PolicyInformation
+(
+)
+    
+id_ce_policyMappings
+:
+PolicyMappings
+(
+)
+    
+id_ce_subjectAltName
+:
+SubjectAltName
+(
+)
+    
+id_ce_issuerAltName
+:
+IssuerAltName
+(
+)
+    
+id_ce_subjectDirectoryAttributes
+:
+SubjectDirectoryAttributes
+(
+)
+    
+id_ce_basicConstraints
+:
+BasicConstraints
+(
+)
+    
+id_ce_nameConstraints
+:
+NameConstraints
+(
+)
+    
+id_ce_policyConstraints
+:
+PolicyConstraints
+(
+)
+    
+id_ce_extKeyUsage
+:
+ExtKeyUsageSyntax
+(
+)
+    
+id_ce_cRLDistributionPoints
+:
+CRLDistPointsSyntax
+(
+)
+    
+id_pe_authorityInfoAccess
+:
+AuthorityInfoAccessSyntax
+(
+)
+    
+id_ce_cRLNumber
+:
+univ
+.
+Integer
+(
+)
+    
+id_ce_deltaCRLIndicator
+:
+BaseCRLNumber
+(
+)
+    
+id_ce_issuingDistributionPoint
+:
+IssuingDistributionPoint
+(
+)
+    
+id_ce_cRLReasons
+:
+CRLReason
+(
+)
+    
+id_ce_holdInstructionCode
+:
+univ
+.
+ObjectIdentifier
+(
+)
+    
+id_ce_invalidityDate
+:
+useful
+.
+GeneralizedTime
+(
+)
+    
+id_ce_certificateIssuer
+:
+GeneralNames
+(
+)
+}

@@ -70,7 +70,7 @@ certCnt
 =
 0
 while
-1
+True
 :
     
 idx
@@ -80,7 +80,7 @@ pem
 .
 readPemBlocksFromFile
 (
-                      
+        
 sys
 .
 stdin
@@ -100,7 +100,7 @@ REQUEST
 -
 -
 '
-                                  
+                    
 '
 -
 -
@@ -117,7 +117,7 @@ REQUEST
 -
 '
 )
-                     
+    
 )
     
 if
@@ -143,6 +143,7 @@ certType
 if
 rest
 :
+        
 substrate
 =
 substrate
@@ -170,30 +171,10 @@ encoder
 encode
 (
 cert
-defMode
-=
-False
 )
 =
 =
 substrate
-or
-\
-           
-encoder
-.
-encode
-(
-cert
-defMode
-=
-True
-)
-=
-=
-substrate
-\
-           
 '
 cert
 recode
@@ -201,9 +182,8 @@ fails
 '
     
 certCnt
-=
-certCnt
 +
+=
 1
 print
 (

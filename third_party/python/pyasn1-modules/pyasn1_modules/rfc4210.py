@@ -18,7 +18,12 @@ rfc2511
 rfc2314
 MAX
 =
-64
+float
+(
+'
+inf
+'
+)
 class
 KeyIdentifier
 (
@@ -27,6 +32,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 CMPCertificate
@@ -36,6 +42,7 @@ rfc2459
 Certificate
 )
 :
+    
 pass
 class
 OOBCert
@@ -43,6 +50,7 @@ OOBCert
 CMPCertificate
 )
 :
+    
 pass
 class
 CertAnnContent
@@ -50,6 +58,7 @@ CertAnnContent
 CMPCertificate
 )
 :
+    
 pass
 class
 PKIFreeText
@@ -388,6 +397,7 @@ univ
 Null
 )
 :
+    
 pass
 class
 CRLAnnContent
@@ -625,7 +635,6 @@ CMPCertificate
 .
 subtype
 (
-            
 explicitTag
 =
 tag
@@ -640,9 +649,7 @@ tag
 tagFormatConstructed
 0
 )
-            
 )
-        
 )
         
 namedtype
@@ -660,7 +667,6 @@ EncryptedValue
 .
 subtype
 (
-            
 explicitTag
 =
 tag
@@ -675,9 +681,7 @@ tag
 tagFormatConstructed
 1
 )
-            
 )
-        
 )
     
 )
@@ -758,7 +762,6 @@ EncryptedValue
 .
 subtype
 (
-                
 explicitTag
 =
 tag
@@ -773,9 +776,7 @@ tag
 tagFormatConstructed
 0
 )
-            
 )
-        
 )
         
 namedtype
@@ -793,7 +794,6 @@ PKIPublicationInfo
 .
 subtype
 (
-                
 explicitTag
 =
 tag
@@ -808,9 +808,7 @@ tag
 tagFormatConstructed
 1
 )
-            
 )
-        
 )
     
 )
@@ -1472,7 +1470,7 @@ PKIFailureInfo
 (
 )
 )
-        
+    
 )
 class
 ErrorMsgContent
@@ -1883,6 +1881,7 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 revCerts
 '
@@ -1890,7 +1889,6 @@ univ
 .
 SequenceOf
 (
-                
 componentType
 =
 rfc2511
@@ -1898,7 +1896,6 @@ rfc2511
 CertId
 (
 )
-            
 )
 .
 subtype
@@ -1937,6 +1934,7 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 crls
 '
@@ -1944,7 +1942,6 @@ univ
 .
 SequenceOf
 (
-                
 componentType
 =
 rfc2459
@@ -1952,7 +1949,6 @@ rfc2459
 CertificateList
 (
 )
-            
 )
 .
 subtype
@@ -2081,6 +2077,7 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 newSigCert
 '
@@ -2090,7 +2087,7 @@ CMPCertificate
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -2114,6 +2111,7 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 caCerts
 '
@@ -2121,13 +2119,11 @@ univ
 .
 SequenceOf
 (
-                
 componentType
 =
 CMPCertificate
 (
 )
-            
 )
 .
 subtype
@@ -2173,18 +2169,16 @@ univ
 .
 SequenceOf
 (
-                
 componentType
 =
 CertifiedKeyPair
 (
 )
-            
 )
 .
 subtype
 (
-                
+            
 explicitTag
 =
 tag
@@ -2199,7 +2193,7 @@ tag
 tagFormatConstructed
 2
 )
-                
+            
 subtypeSpec
 =
 constraint
@@ -2209,7 +2203,6 @@ ValueSizeConstraint
 1
 MAX
 )
-            
 )
         
 )
@@ -2375,6 +2368,7 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 caPubs
 '
@@ -2393,7 +2387,6 @@ CMPCertificate
 .
 subtype
 (
-                
 subtypeSpec
 =
 constraint
@@ -2403,7 +2396,6 @@ ValueSizeConstraint
 1
 MAX
 )
-                
 explicitTag
 =
 tag
@@ -2418,7 +2410,6 @@ tag
 tagFormatConstructed
 1
 )
-            
 )
         
 )
@@ -2434,14 +2425,12 @@ univ
 .
 SequenceOf
 (
-                
 componentType
 =
 CertResponse
 (
 )
 )
-            
 )
     
 )
@@ -2514,10 +2503,10 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 hashAlg
 '
-                                    
 rfc2459
 .
 AlgorithmIdentifier
@@ -2526,7 +2515,6 @@ AlgorithmIdentifier
 .
 subtype
 (
-            
 explicitTag
 =
 tag
@@ -2541,7 +2529,6 @@ tag
 tagFormatConstructed
 0
 )
-            
 )
         
 )
@@ -2550,6 +2537,7 @@ namedtype
 .
 OptionalNamedType
 (
+            
 '
 certId
 '
@@ -2561,7 +2549,6 @@ CertId
 .
 subtype
 (
-            
 explicitTag
 =
 tag
@@ -2576,7 +2563,6 @@ tag
 tagFormatConstructed
 1
 )
-            
 )
         
 )
@@ -2813,6 +2799,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 salt
 '
@@ -2824,7 +2811,6 @@ OctetString
 .
 subtype
 (
-                
 subtypeSpec
 =
 constraint
@@ -2834,7 +2820,6 @@ ValueSizeConstraint
 0
 128
 )
-            
 )
         
 )
@@ -2912,6 +2897,7 @@ univ
 BitString
 )
 :
+    
 pass
 nestedMessageContent
 =
@@ -2921,6 +2907,7 @@ NestedMessageContent
 .
 subtype
 (
+    
 explicitTag
 =
 tag
@@ -3199,6 +3186,56 @@ GenMsgContent
 -
 General
 Message
+         
+genp
+[
+22
+]
+GenRepContent
+-
+-
+General
+Response
+         
+error
+[
+23
+]
+ErrorMsgContent
+-
+-
+Error
+Message
+         
+certConf
+[
+24
+]
+CertConfirmContent
+-
+-
+Certificate
+confirm
+         
+pollReq
+[
+25
+]
+PollReqContent
+-
+-
+Polling
+request
+         
+pollRep
+[
+26
+]
+PollRepContent
+-
+-
+Polling
+response
     
 "
 "
@@ -3215,6 +3252,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 ir
 '
@@ -3226,7 +3264,7 @@ CertReqMessages
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3250,6 +3288,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 ip
 '
@@ -3259,7 +3298,7 @@ CertRepMessage
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3283,6 +3322,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 cr
 '
@@ -3294,7 +3334,7 @@ CertReqMessages
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3318,6 +3358,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 cp
 '
@@ -3327,7 +3368,7 @@ CertRepMessage
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3351,6 +3392,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 p10cr
 '
@@ -3362,7 +3404,7 @@ CertificationRequest
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3386,6 +3428,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 popdecc
 '
@@ -3395,7 +3438,7 @@ POPODecKeyChallContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3419,6 +3462,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 popdecr
 '
@@ -3428,7 +3472,7 @@ POPODecKeyRespContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3452,6 +3496,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 kur
 '
@@ -3463,7 +3508,7 @@ CertReqMessages
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3487,6 +3532,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 kup
 '
@@ -3496,7 +3542,7 @@ CertRepMessage
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3520,6 +3566,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 krr
 '
@@ -3531,7 +3578,7 @@ CertReqMessages
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3555,6 +3602,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 krp
 '
@@ -3564,7 +3612,7 @@ KeyRecRepContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3588,6 +3636,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 rr
 '
@@ -3597,7 +3646,7 @@ RevReqContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3621,6 +3670,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 rp
 '
@@ -3630,7 +3680,7 @@ RevRepContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3654,6 +3704,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 ccr
 '
@@ -3665,7 +3716,7 @@ CertReqMessages
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3689,6 +3740,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 ccp
 '
@@ -3698,7 +3750,7 @@ CertRepMessage
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3722,6 +3774,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 ckuann
 '
@@ -3731,7 +3784,7 @@ CAKeyUpdAnnContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3755,6 +3808,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 cann
 '
@@ -3764,7 +3818,7 @@ CertAnnContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3788,6 +3842,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 rann
 '
@@ -3797,7 +3852,7 @@ RevAnnContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3821,6 +3876,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 crlann
 '
@@ -3830,7 +3886,7 @@ CRLAnnContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3854,6 +3910,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 pkiconf
 '
@@ -3863,7 +3920,7 @@ PKIConfirmContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3887,16 +3944,19 @@ namedtype
 .
 NamedType
 (
+            
 '
 nested
 '
 nestedMessageContent
+        
 )
         
 namedtype
 .
 NamedType
 (
+            
 '
 genm
 '
@@ -3906,7 +3966,7 @@ GenMsgContent
 .
 subtype
 (
-            
+                
 explicitTag
 =
 tag
@@ -3920,6 +3980,176 @@ tag
 .
 tagFormatConstructed
 21
+)
+            
+)
+        
+)
+        
+namedtype
+.
+NamedType
+(
+            
+'
+gen
+'
+GenRepContent
+(
+)
+.
+subtype
+(
+                
+explicitTag
+=
+tag
+.
+Tag
+(
+tag
+.
+tagClassContext
+tag
+.
+tagFormatConstructed
+22
+)
+            
+)
+        
+)
+        
+namedtype
+.
+NamedType
+(
+            
+'
+error
+'
+ErrorMsgContent
+(
+)
+.
+subtype
+(
+                
+explicitTag
+=
+tag
+.
+Tag
+(
+tag
+.
+tagClassContext
+tag
+.
+tagFormatConstructed
+23
+)
+            
+)
+        
+)
+        
+namedtype
+.
+NamedType
+(
+            
+'
+certConf
+'
+CertConfirmContent
+(
+)
+.
+subtype
+(
+                
+explicitTag
+=
+tag
+.
+Tag
+(
+tag
+.
+tagClassContext
+tag
+.
+tagFormatConstructed
+24
+)
+            
+)
+        
+)
+        
+namedtype
+.
+NamedType
+(
+            
+'
+pollReq
+'
+PollReqContent
+(
+)
+.
+subtype
+(
+                
+explicitTag
+=
+tag
+.
+Tag
+(
+tag
+.
+tagClassContext
+tag
+.
+tagFormatConstructed
+25
+)
+            
+)
+        
+)
+        
+namedtype
+.
+NamedType
+(
+            
+'
+pollRep
+'
+PollRepContent
+(
+)
+.
+subtype
+(
+                
+explicitTag
+=
+tag
+.
+Tag
+(
+tag
+.
+tagClassContext
+tag
+.
+tagFormatConstructed
+26
 )
             
 )
@@ -4059,6 +4289,7 @@ namedtype
 .
 NamedType
 (
+            
 '
 pvno
 '
@@ -4073,21 +4304,18 @@ namedval
 .
 NamedValues
 (
-                    
 (
 '
 cmp1999
 '
 1
 )
-                    
 (
 '
 cmp2000
 '
 2
 )
-                
 )
             
 )
@@ -4137,6 +4365,7 @@ GeneralizedTime
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4202,6 +4431,7 @@ KeyIdentifier
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4234,6 +4464,7 @@ KeyIdentifier
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4266,6 +4497,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4298,6 +4530,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4330,6 +4563,7 @@ OctetString
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4360,6 +4594,7 @@ PKIFreeText
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4384,12 +4619,12 @@ OptionalNamedType
 '
 generalInfo
 '
-            
+                                    
 univ
 .
 SequenceOf
 (
-                
+                                        
 componentType
 =
 InfoTypeAndValue
@@ -4398,7 +4633,7 @@ InfoTypeAndValue
 .
 subtype
 (
-                    
+                                            
 subtypeSpec
 =
 constraint
@@ -4408,7 +4643,7 @@ ValueSizeConstraint
 1
 MAX
 )
-                    
+                                            
 explicitTag
 =
 tag
@@ -4423,13 +4658,13 @@ tag
 tagFormatSimple
 8
 )
-                    
+                                        
 )
-                
+                                    
 )
-            
+                                    
 )
-        
+    
 )
 class
 ProtectedPart
@@ -4493,7 +4728,7 @@ PKIBody
 (
 )
 )
-        
+    
 )
 class
 PKIMessage
@@ -4594,6 +4829,7 @@ PKIProtection
 .
 subtype
 (
+            
 explicitTag
 =
 tag
@@ -4618,23 +4854,23 @@ OptionalNamedType
 '
 extraCerts
 '
-            
+                                    
 univ
 .
 SequenceOf
 (
-                
+                                        
 componentType
 =
 CMPCertificate
 (
 )
-            
+                                    
 )
 .
 subtype
 (
-                
+                                        
 subtypeSpec
 =
 constraint
@@ -4644,7 +4880,7 @@ ValueSizeConstraint
 1
 MAX
 )
-                
+                                        
 explicitTag
 =
 tag
@@ -4659,9 +4895,9 @@ tag
 tagFormatConstructed
 1
 )
-            
+                                    
 )
-        
+                                    
 )
     
 )
@@ -4720,14 +4956,14 @@ MAX
 )
 NestedMessageContent
 .
-componentType
+_componentType
 =
 PKIMessages
 (
 )
 nestedMessageContent
 .
-componentType
+_componentType
 =
 PKIMessages
 (

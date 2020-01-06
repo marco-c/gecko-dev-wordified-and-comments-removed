@@ -1,14 +1,4 @@
 from
-pyasn1
-.
-type
-import
-tag
-namedtype
-namedval
-univ
-constraint
-from
 pyasn1_modules
 .
 rfc2459
@@ -24,6 +14,7 @@ KeyEncryptionAlgorithms
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 PrivateKeyAlgorithms
@@ -31,6 +22,7 @@ PrivateKeyAlgorithms
 AlgorithmIdentifier
 )
 :
+    
 pass
 class
 EncryptedData
@@ -40,6 +32,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 EncryptedPrivateKeyInfo
@@ -90,6 +83,7 @@ univ
 OctetString
 )
 :
+    
 pass
 class
 Attributes
@@ -200,6 +194,7 @@ Attributes
 .
 subtype
 (
+            
 implicitTag
 =
 tag

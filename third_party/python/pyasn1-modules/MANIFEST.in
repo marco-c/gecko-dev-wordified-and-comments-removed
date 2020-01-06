@@ -1,7 +1,10 @@
 include
-CHANGES
-README
-LICENSE
+*
+.
+txt
+*
+.
+md
 recursive
 -
 include
@@ -12,7 +15,11 @@ py
 recursive
 -
 include
-test
+tests
 *
 .
-sh
+py
+prune
+doc
+/
+build

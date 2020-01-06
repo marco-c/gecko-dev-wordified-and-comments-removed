@@ -5,8 +5,6 @@ type
 import
 univ
 namedtype
-namedval
-tag
 constraint
 class
 UsmSecurityParameters
@@ -45,6 +43,7 @@ NamedType
 '
 msgAuthoritativeEngineBoots
 '
+                            
 univ
 .
 Integer
@@ -72,6 +71,7 @@ NamedType
 '
 msgAuthoritativeEngineTime
 '
+                            
 univ
 .
 Integer
@@ -99,6 +99,7 @@ NamedType
 '
 msgUserName
 '
+                            
 univ
 .
 OctetString
@@ -146,5 +147,5 @@ OctetString
 (
 )
 )
-        
+    
 )
