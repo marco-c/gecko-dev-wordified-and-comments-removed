@@ -190,6 +190,13 @@ html
 '
 webextension
 /
+blobConverters
+.
+js
+'
+'
+webextension
+/
 catcher
 .
 js

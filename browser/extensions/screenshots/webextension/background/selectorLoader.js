@@ -55,6 +55,11 @@ assertIsBlankDocument
 js
 "
 "
+blobConverters
+.
+js
+"
+"
 background
 /
 selectorLoader

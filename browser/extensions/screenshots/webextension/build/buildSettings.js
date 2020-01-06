@@ -56,6 +56,17 @@ uploadBinary
 true
 "
 )
+pngToJpegCutoff
+:
+parseInt
+(
+"
+"
+|
+|
+2500000
+10
+)
 }
 ;
 null
