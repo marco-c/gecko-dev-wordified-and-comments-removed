@@ -2670,6 +2670,7 @@ clone_display
 (
 )
 ;
+(
 context
 .
 shared
@@ -2678,6 +2679,10 @@ traversal_flags
 .
 for_css_rule_changes
 (
+)
+&
+&
+has_new_animation_style
 )
 |
 |
