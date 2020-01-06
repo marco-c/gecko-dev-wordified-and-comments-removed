@@ -106,8 +106,6 @@ preferences
 in
 -
 content
--
-old
 /
 tests
 /
@@ -155,8 +153,6 @@ preferences
 in
 -
 content
--
-old
 /
 tests
 /

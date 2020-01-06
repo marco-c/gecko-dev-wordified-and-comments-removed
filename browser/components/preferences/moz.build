@@ -100,8 +100,6 @@ new
 in
 -
 content
--
-old
 '
 ]
 BROWSER_CHROME_MANIFESTS
@@ -125,8 +123,6 @@ ini
 in
 -
 content
--
-old
 /
 tests
 /

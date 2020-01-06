@@ -77,8 +77,6 @@ preferences
 in
 -
 content
--
-old
 /
 preferences
 .
@@ -98,8 +96,6 @@ preferences
 in
 -
 content
--
-old
 /
 dialog
 .

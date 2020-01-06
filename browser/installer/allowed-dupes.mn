@@ -93,8 +93,6 @@ preferences
 in
 -
 content
--
-old
 /
 advanced
 .
@@ -114,8 +112,6 @@ preferences
 in
 -
 content
--
-old
 /
 applications
 .
@@ -135,8 +131,6 @@ preferences
 in
 -
 content
--
-old
 /
 containers
 .
@@ -156,8 +150,6 @@ preferences
 in
 -
 content
--
-old
 /
 content
 .
@@ -177,8 +169,6 @@ preferences
 in
 -
 content
--
-old
 /
 main
 .
@@ -198,8 +188,6 @@ preferences
 in
 -
 content
--
-old
 /
 preferences
 .
@@ -219,8 +207,6 @@ preferences
 in
 -
 content
--
-old
 /
 privacy
 .
@@ -240,8 +226,6 @@ preferences
 in
 -
 content
--
-old
 /
 search
 .
@@ -261,8 +245,6 @@ preferences
 in
 -
 content
--
-old
 /
 security
 .
@@ -282,8 +264,6 @@ preferences
 in
 -
 content
--
-old
 /
 sync
 .
@@ -983,8 +963,6 @@ preferences
 in
 -
 content
--
-old
 /
 search
 .
@@ -1006,8 +984,6 @@ preferences
 in
 -
 content
--
-old
 /
 containers
 .
@@ -1029,8 +1005,6 @@ preferences
 in
 -
 content
--
-old
 /
 favicon
 .
@@ -1052,8 +1026,6 @@ preferences
 in
 -
 content
--
-old
 /
 icons
 .
@@ -1075,8 +1047,6 @@ preferences
 in
 -
 content
--
-old
 /
 preferences
 .
@@ -1098,8 +1068,6 @@ preferences
 in
 -
 content
--
-old
 /
 dialog
 .

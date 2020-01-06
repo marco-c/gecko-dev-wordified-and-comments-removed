@@ -554,8 +554,6 @@ preferences
 in
 -
 content
--
-new
 /
 preferences
 .
@@ -961,6 +959,7 @@ preferences
 )
 &
 &
+!
 sUseOldPreferences
 )
 {
@@ -983,7 +982,7 @@ in
 -
 content
 -
-old
+new
 /
 preferences
 .
