@@ -1002,6 +1002,13 @@ mozilla
 CSSStyleSheet
 *
 aStyleSheet
+mozilla
+:
+:
+StyleSheet
+:
+:
+ChangeType
 )
 ;
 void
