@@ -27,15 +27,6 @@ test
 tier
 :
 1
-run
--
-on
--
-projects
-:
-[
-try
-]
 worker
 -
 type
