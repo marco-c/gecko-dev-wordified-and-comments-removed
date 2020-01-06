@@ -161,6 +161,10 @@ int32_t
 aModType
 )
 {
+MarkNeedsDisplayItemRebuild
+(
+)
+;
 RemoveFencesAndSeparators
 (
 )
