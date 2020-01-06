@@ -13406,18 +13406,11 @@ nsISupports
 native
 =
                       
-nsContentUtils
+xpc
 :
 :
-XPConnect
+UnwrapReflectorToISupports
 (
-)
--
->
-GetNativeOfWrapper
-(
-cx
-                                                                      
 js
 :
 :
