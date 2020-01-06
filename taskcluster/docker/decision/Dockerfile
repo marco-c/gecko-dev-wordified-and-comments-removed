@@ -18,15 +18,11 @@ Add
 worker
 user
 RUN
-mkdir
-/
-builds
-RUN
 useradd
 -
 d
 /
-builds
+home
 /
 worker
 -
@@ -41,7 +37,7 @@ worker
 RUN
 mkdir
 /
-builds
+home
 /
 worker
 /
@@ -53,7 +49,7 @@ worker
 :
 worker
 /
-builds
+home
 /
 worker
 /
@@ -211,7 +207,7 @@ run
 -
 task
 /
-builds
+home
 /
 worker
 /
@@ -223,7 +219,7 @@ task
 ENV
 PATH
 /
-builds
+home
 /
 worker
 /
@@ -239,7 +235,7 @@ bash
 ENV
 HOME
 /
-builds
+home
 /
 worker
 #

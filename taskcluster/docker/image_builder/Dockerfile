@@ -245,14 +245,14 @@ AUFS
 .
 VOLUME
 /
-builds
+home
 /
 worker
 /
 checkouts
 VOLUME
 /
-builds
+home
 /
 worker
 /
@@ -280,7 +280,7 @@ manual
 ENV
 HOME
 /
-builds
+home
 /
 worker
 ENV
@@ -312,7 +312,7 @@ useradd
 -
 d
 /
-builds
+home
 /
 worker
 -
@@ -331,7 +331,7 @@ sane
 defaults
 WORKDIR
 /
-builds
+home
 /
 worker
 /

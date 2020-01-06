@@ -726,7 +726,7 @@ point
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -744,7 +744,7 @@ volumes
                     
 '
 /
-builds
+home
 /
 worker
 /
@@ -753,7 +753,7 @@ checkouts
                     
 '
 /
-builds
+home
 /
 worker
 /
@@ -783,7 +783,7 @@ path
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -827,7 +827,7 @@ HG_STORE_PATH
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -907,26 +907,6 @@ params
 head_rev
 '
 ]
-                    
-'
-TASKCLUSTER_VOLUMES
-'
-:
-'
-/
-builds
-/
-worker
-/
-checkouts
-;
-/
-builds
-/
-worker
-/
-workspace
-'
                 
 }
                 
