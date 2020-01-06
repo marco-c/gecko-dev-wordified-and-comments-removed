@@ -1618,6 +1618,12 @@ oldPW
 newPW
 )
 ;
+token
+.
+logoutSimple
+(
+)
+;
 }
 }
 enable

@@ -1274,6 +1274,12 @@ oldPW
 newPW
 )
 ;
+token
+.
+logoutSimple
+(
+)
+;
 }
 function
 logoutMasterPassword
