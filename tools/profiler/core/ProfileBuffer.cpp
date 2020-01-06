@@ -425,7 +425,9 @@ tagBuffPos
 =
 readAheadEntry
 .
-mTagChars
+u
+.
+mChars
 [
 pos
 ]
