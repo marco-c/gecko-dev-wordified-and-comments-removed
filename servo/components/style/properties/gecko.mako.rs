@@ -528,6 +528,7 @@ computed
 {
 NonNegativeAu
 ToComputedValue
+Percentage
 }
 ;
 use
@@ -545,18 +546,6 @@ BoxShadow
 Filter
 SimpleShadow
 }
-;
-use
-values
-:
-:
-computed
-:
-:
-length
-:
-:
-Percentage
 ;
 use
 computed_values
