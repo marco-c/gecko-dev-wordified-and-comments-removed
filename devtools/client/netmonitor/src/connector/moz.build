@@ -63,15 +63,6 @@ connector
 js
 '
 '
-firefox
--
-data
--
-provider
-.
-js
-'
-'
 index
 .
 js

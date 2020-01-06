@@ -546,8 +546,8 @@ return
 elements
 ;
 }
-async
 function
+*
 openContextMenu
 (
 hud
@@ -577,7 +577,7 @@ synthesizeContextMenuEvent
 element
 )
 ;
-await
+yield
 onConsoleMenuOpened
 ;
 return

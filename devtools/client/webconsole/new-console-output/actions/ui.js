@@ -44,7 +44,6 @@ const
 FILTER_BAR_TOGGLE
 PREFS
 TIMESTAMPS_TOGGLE
-SELECT_NETWORK_MESSAGE_TAB
 }
 =
 require
@@ -138,21 +137,6 @@ visible
 }
 ;
 }
-function
-selectNetworkMessageTab
-(
-id
-)
-{
-return
-{
-type
-:
-SELECT_NETWORK_MESSAGE_TAB
-id
-}
-;
-}
 module
 .
 exports
@@ -160,6 +144,5 @@ exports
 {
 filterBarToggle
 timestampsToggle
-selectNetworkMessageTab
 }
 ;

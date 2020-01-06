@@ -248,13 +248,6 @@ PropTypes
 array
 .
 isRequired
-networkMessageActiveTabId
-:
-PropTypes
-.
-string
-.
-isRequired
 }
 componentDidMount
 (
@@ -354,7 +347,7 @@ nextProps
 .
 messages
 .
-size
+length
 -
 this
 .
@@ -362,7 +355,7 @@ props
 .
 messages
 .
-size
+length
 ;
 this
 .
@@ -470,7 +463,6 @@ messagesObjectProperties
 messagesObjectEntries
 messagesRepeat
 networkMessagesUpdate
-networkMessageActiveTabId
 serviceContainer
 timestampsVisible
 }
@@ -529,7 +521,6 @@ networkMessagesUpdate
 [
 messageId
 ]
-networkMessageActiveTabId
 getMessage
 :
 (
@@ -723,13 +714,6 @@ state
 ui
 .
 timestampsVisible
-networkMessageActiveTabId
-:
-state
-.
-ui
-.
-networkMessageActiveTabId
 }
 ;
 }
