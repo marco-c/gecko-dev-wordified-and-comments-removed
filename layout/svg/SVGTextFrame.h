@@ -1064,6 +1064,11 @@ mFrame
 }
 ;
 void
+MaybeResolveBidiForAnonymousBlockChild
+(
+)
+;
+void
 MaybeReflowAnonymousBlockChild
 (
 )
