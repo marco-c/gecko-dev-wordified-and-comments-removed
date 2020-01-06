@@ -84,7 +84,16 @@ file
 /
 topsrcdir
 /
-jcentral
+jcenter
+"
+"
+file
+:
+/
+/
+topsrcdir
+/
+google
 "
 unset
 HOST_CC
