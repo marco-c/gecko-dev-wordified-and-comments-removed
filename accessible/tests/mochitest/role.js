@@ -160,6 +160,13 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 ;
 const
+ROLE_EDITCOMBOBOX
+=
+nsIAccessibleRole
+.
+ROLE_EDITCOMBOBOX
+;
+const
 ROLE_EMBEDDED_OBJECT
 =
 nsIAccessibleRole
