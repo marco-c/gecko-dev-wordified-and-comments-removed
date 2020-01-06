@@ -70,6 +70,10 @@ match
 opaque
 -
 response
+\
+?
+from
+=
 /
 )
 )

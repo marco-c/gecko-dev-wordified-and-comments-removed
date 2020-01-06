@@ -191,6 +191,15 @@ script
 >
 "
 ]
+{
+type
+:
+"
+text
+/
+html
+"
+}
 )
 )
 eSecureIfCreatorSecure

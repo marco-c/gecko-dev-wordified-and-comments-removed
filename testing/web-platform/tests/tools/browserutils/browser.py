@@ -638,7 +638,6 @@ def
 install
 (
 self
-platform
 dest
 =
 None
@@ -665,8 +664,12 @@ dest
 =
 os
 .
-pwd
+getcwd
+(
+)
         
+resp
+=
 self
 .
 get_from_nightly
@@ -727,7 +730,7 @@ untar
 resp
 .
 raw
-path
+dest
 =
 dest
 )
@@ -775,6 +778,15 @@ find_executable
 certutil
 "
 )
+        
+if
+path
+is
+None
+:
+            
+return
+None
         
 if
 os
@@ -1338,7 +1350,9 @@ dest
 =
 os
 .
-pwd
+getcwd
+(
+)
         
 version
 =

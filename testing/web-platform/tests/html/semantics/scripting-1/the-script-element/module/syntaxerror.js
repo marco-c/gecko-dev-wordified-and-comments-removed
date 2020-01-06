@@ -1,0 +1,14 @@
+log
+.
+push
+(
+"
+syntaxerror
+"
+)
+;
+%
+!
+#
+#
+#

@@ -653,14 +653,6 @@ Menu
 ]
 [
 "
-menuitem
-"
-"
-MenuItem
-"
-]
-[
-"
 meta
 "
 "

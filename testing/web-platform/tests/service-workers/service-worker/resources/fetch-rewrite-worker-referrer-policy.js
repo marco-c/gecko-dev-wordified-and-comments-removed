@@ -1,0 +1,13 @@
+importScripts
+(
+'
+fetch
+-
+rewrite
+-
+worker
+.
+js
+'
+)
+;

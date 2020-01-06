@@ -26,6 +26,14 @@ href
 ;
 obj
 .
+origin
+=
+location
+.
+origin
+;
+obj
+.
 protocol
 =
 location

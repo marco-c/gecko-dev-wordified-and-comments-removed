@@ -126,7 +126,12 @@ open
 GET
 "
 "
+/
 interfaces
+/
+dedicated
+-
+workers
 .
 idl
 "

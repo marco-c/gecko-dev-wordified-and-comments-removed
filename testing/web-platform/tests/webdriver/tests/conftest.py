@@ -10,13 +10,14 @@ import
 (
     
 configuration
+create_dialog
 create_frame
 create_window
 http
+    
 new_session
 server_config
 session
-    
 url
 )
 pytest
@@ -31,6 +32,14 @@ session
 )
 (
 configuration
+)
+pytest
+.
+fixture
+(
+)
+(
+create_dialog
 )
 pytest
 .

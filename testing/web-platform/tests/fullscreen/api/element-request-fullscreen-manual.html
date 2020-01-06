@@ -123,7 +123,7 @@ assert_equals
 event
 .
 target
-document
+div
 "
 event
 .
@@ -131,7 +131,7 @@ target
 "
 )
 ;
-assert_false
+assert_true
 (
 event
 .
@@ -152,6 +152,18 @@ cancelable
 event
 .
 cancelable
+"
+)
+;
+assert_true
+(
+event
+.
+composed
+"
+event
+.
+composed
 "
 )
 ;

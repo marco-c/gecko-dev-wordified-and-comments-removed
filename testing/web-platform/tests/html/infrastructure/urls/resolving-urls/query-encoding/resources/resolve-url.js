@@ -786,8 +786,6 @@ formAction
 button
 formaction
 formAction
-menuitem
-icon
 script
 src
 '

@@ -1,0 +1,15 @@
+Feature
+-
+Policy
+:
+{
+"
+payment
+"
+:
+[
+"
+*
+"
+]
+}
