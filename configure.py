@@ -674,14 +674,20 @@ add_targets
 (
 [
 "
-(
-OBJDIR
-)
+%
+s
 /
 config
 .
 status
 "
+%
+config
+[
+'
+TOPOBJDIR
+'
+]
 ]
 )
     
