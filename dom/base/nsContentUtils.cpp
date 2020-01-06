@@ -2465,6 +2465,14 @@ Dump
 "
 )
 ;
+PopupControlState
+nsContentUtils
+:
+:
+sPopupControlState
+=
+openAbused
+;
 enum
 AutocompleteUnsupportedFieldName
 :

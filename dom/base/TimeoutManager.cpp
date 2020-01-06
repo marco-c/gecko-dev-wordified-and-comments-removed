@@ -2254,8 +2254,9 @@ gRunningTimeoutDepth
 0
 &
 &
-mWindow
-.
+nsContentUtils
+:
+:
 GetPopupControlState
 (
 )
@@ -2276,8 +2277,9 @@ timeout
 >
 mPopupState
 =
-mWindow
-.
+nsContentUtils
+:
+:
 GetPopupControlState
 (
 )
