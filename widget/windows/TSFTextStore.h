@@ -1200,6 +1200,12 @@ IsMSJapaneseIMEActive
 (
 )
 ;
+static
+bool
+DoNotReturnErrorFromGetSelection
+(
+)
+;
 #
 ifdef
 DEBUG
