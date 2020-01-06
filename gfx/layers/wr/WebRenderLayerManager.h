@@ -162,7 +162,7 @@ nsIWidget
 aWidget
 )
 ;
-void
+bool
 Initialize
 (
 PCompositorBridgeChild
