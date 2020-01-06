@@ -797,7 +797,7 @@ dir
 MozLocaleDir
 mozLocaleDir
 _
-PSEUDO_CLASS_INTERNAL
+_
 )
 (
 "
