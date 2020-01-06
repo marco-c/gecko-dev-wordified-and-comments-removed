@@ -24218,7 +24218,7 @@ useNativeEventProcessing
 .
 content
 "
-true
+false
 )
 ;
 pref
