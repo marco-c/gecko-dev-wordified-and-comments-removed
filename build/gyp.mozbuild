@@ -661,6 +661,11 @@ rtc_opus_variable_complexity
 '
 :
 1
+'
+apm_debug_dump
+'
+:
+1
 }
 )
 if
