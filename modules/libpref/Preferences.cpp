@@ -3101,9 +3101,6 @@ InitStaticMembers
 (
 )
 {
-#
-ifndef
-MOZ_B2G
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -3122,8 +3119,6 @@ IsInServoTraversal
 )
 )
 ;
-#
-endif
 if
 (
 !
