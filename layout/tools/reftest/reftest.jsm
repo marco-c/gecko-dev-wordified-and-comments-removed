@@ -4326,14 +4326,6 @@ windows
 ;
 sandbox
 .
-is64Bit
-=
-xr
-.
-is64Bit
-;
-sandbox
-.
 transparentScrollbars
 =
 xr
