@@ -123,6 +123,15 @@ Move
 aRuleNode
 )
 )
+#
+ifdef
+DEBUG
+mComputingStruct
+(
+nsStyleStructID_None
+)
+#
+endif
 {
 mBits
 |
