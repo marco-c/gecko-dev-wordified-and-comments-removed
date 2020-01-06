@@ -44,15 +44,6 @@ build
 .
 rs
 "
-workspace
-=
-"
-.
-.
-/
-.
-.
-"
 [
 lib
 ]
