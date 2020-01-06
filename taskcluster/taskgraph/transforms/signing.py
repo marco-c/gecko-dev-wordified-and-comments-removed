@@ -233,19 +233,6 @@ routes
 [
 basestring
 ]
-    
-Optional
-(
-'
-use
--
-funsize
--
-route
-'
-)
-:
-bool
 }
 )
 transforms
@@ -891,9 +878,8 @@ routes
         
 if
 '
-macosx
+linux
 '
-not
 in
 dep_job
 .
@@ -908,18 +894,15 @@ build_platform
 and
 \
                 
-job
+dep_job
+.
+attributes
 .
 get
 (
 '
-use
--
-funsize
--
-route
+nightly
 '
-False
 )
 :
             
