@@ -547,9 +547,7 @@ platform
 .
 tests
 .
-tar
-.
-gz
+zip
 TALOS_PACKAGE
 =
 (
