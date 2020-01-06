@@ -192,7 +192,7 @@ format
 '
 :
 '
-dmg
+macapp
 '
                  
 }
