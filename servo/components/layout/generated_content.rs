@@ -103,7 +103,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -2696,7 +2696,7 @@ self
 style
 :
 &
-ServoComputedValues
+ComputedValues
 close
 :
 bool
@@ -3091,7 +3091,7 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 list_style_type
 :
@@ -3461,7 +3461,7 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 string
 :

@@ -47,6 +47,7 @@ properties
 self
 CascadeFlags
 ComputedValues
+ComputedValuesInner
 Importance
 }
 ;
@@ -1419,11 +1420,11 @@ Time
 old_style
 :
 &
-ComputedValues
+ComputedValuesInner
 new_style
 :
 &
-ComputedValues
+ComputedValuesInner
 )
 -
 >
@@ -2080,11 +2081,11 @@ KeyframesStep
 previous_style
 :
 &
-ComputedValues
+ComputedValuesInner
 style_from_cascade
 :
 &
-ComputedValues
+ComputedValuesInner
 font_metrics_provider
 :
 &
@@ -2092,7 +2093,7 @@ FontMetricsProvider
 )
 -
 >
-ComputedValues
+ComputedValuesInner
 {
 match
 step

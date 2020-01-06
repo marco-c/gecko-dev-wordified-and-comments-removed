@@ -160,7 +160,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -2254,7 +2254,7 @@ new_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {
@@ -2790,7 +2790,7 @@ top
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2839,7 +2839,7 @@ right
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2888,7 +2888,7 @@ bottom
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2937,7 +2937,7 @@ left
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -2989,7 +2989,7 @@ PhysicalSide
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -3066,7 +3066,7 @@ inline_start
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -3098,7 +3098,7 @@ inline_end
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -3130,7 +3130,7 @@ block_start
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -3162,7 +3162,7 @@ block_end
 css_style
 :
 &
-ServoComputedValues
+ComputedValues
 provenance
 :
 CollapsedBorderProvenance
@@ -4233,7 +4233,7 @@ perform_inline_direction_border_collapse_for_row
 row_style
 :
 &
-ServoComputedValues
+ComputedValues
 children_count
 :
 usize

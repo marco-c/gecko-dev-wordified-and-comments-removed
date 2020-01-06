@@ -523,10 +523,7 @@ default_values
 &
 '
 a
-Arc
-<
-ComputedValues
->
+ComputedValuesInner
 }
 impl
 <
@@ -575,10 +572,7 @@ default_values
 &
 '
 a
-Arc
-<
-ComputedValues
->
+ComputedValuesInner
 )
 -
 >
@@ -1079,10 +1073,7 @@ default_values
 &
 '
 a
-Arc
-<
-ComputedValues
->
+ComputedValuesInner
 )
 -
 >

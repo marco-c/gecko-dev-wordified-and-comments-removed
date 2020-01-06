@@ -816,7 +816,13 @@ mem
 :
 transmute
 (
+Arc
+:
+:
+into_raw_offset
+(
 other
+)
 )
 }
 ;

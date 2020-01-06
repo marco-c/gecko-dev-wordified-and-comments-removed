@@ -85,6 +85,7 @@ properties
 {
 AnimationRules
 ComputedValues
+ComputedValuesInner
 PropertyDeclarationBlock
 }
 ;
@@ -243,7 +244,10 @@ use
 stylearc
 :
 :
+{
 Arc
+ArcBorrow
+}
 ;
 use
 stylist
@@ -1815,8 +1819,7 @@ self
 >
 Option
 <
-&
-Arc
+ArcBorrow
 <
 Locked
 <
@@ -1843,8 +1846,7 @@ self
 >
 Option
 <
-&
-Arc
+ArcBorrow
 <
 Locked
 <
@@ -2069,7 +2071,7 @@ PseudoElement
 _primary_style
 :
 &
-ComputedValues
+ComputedValuesInner
 )
 -
 >

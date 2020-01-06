@@ -87,7 +87,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 pub
 struct
@@ -425,7 +425,7 @@ new_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {

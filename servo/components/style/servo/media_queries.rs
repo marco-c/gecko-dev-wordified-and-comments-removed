@@ -51,7 +51,7 @@ properties
 :
 :
 {
-ComputedValues
+ComputedValuesInner
 StyleBuilder
 }
 ;
@@ -249,9 +249,9 @@ self
 -
 >
 &
-ComputedValues
+ComputedValuesInner
 {
-ComputedValues
+ComputedValuesInner
 :
 :
 initial_values

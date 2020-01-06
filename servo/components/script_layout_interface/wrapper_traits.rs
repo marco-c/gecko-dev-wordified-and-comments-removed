@@ -153,7 +153,7 @@ properties
 :
 {
 CascadeFlags
-ServoComputedValues
+ComputedValues
 }
 ;
 use
@@ -1029,7 +1029,7 @@ self
 >
 Arc
 <
-ServoComputedValues
+ComputedValues
 >
 ;
 #
@@ -1359,7 +1359,7 @@ SharedStyleContext
 >
 Arc
 <
-ServoComputedValues
+ComputedValues
 >
 {
 if
@@ -1411,7 +1411,7 @@ self
 >
 Arc
 <
-ServoComputedValues
+ComputedValues
 >
 {
 if
@@ -2309,7 +2309,7 @@ SharedStyleContext
 >
 Arc
 <
-ServoComputedValues
+ComputedValues
 >
 {
 let
@@ -2435,6 +2435,10 @@ empty
 )
 &
 ServoMetricsProvider
+(
+)
+(
+)
 )
 .
 clone
@@ -2483,6 +2487,10 @@ primary
 false
 &
 ServoMetricsProvider
+(
+)
+(
+)
 )
 .
 unwrap
@@ -2511,7 +2519,7 @@ self
 >
 Arc
 <
-ServoComputedValues
+ComputedValues
 >
 {
 let
@@ -2575,7 +2583,7 @@ self
 >
 Arc
 <
-ServoComputedValues
+ComputedValues
 >
 {
 let

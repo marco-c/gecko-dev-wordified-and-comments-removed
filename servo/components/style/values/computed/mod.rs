@@ -44,7 +44,7 @@ properties
 :
 :
 {
-ComputedValues
+ComputedValuesInner
 StyleBuilder
 }
 ;
@@ -520,14 +520,14 @@ inherited_style
 &
 '
 a
-ComputedValues
+ComputedValuesInner
 pub
 layout_parent_style
 :
 &
 '
 a
-ComputedValues
+ComputedValuesInner
 pub
 style
 :
@@ -656,7 +656,7 @@ self
 -
 >
 &
-ComputedValues
+ComputedValuesInner
 {
 &
 self

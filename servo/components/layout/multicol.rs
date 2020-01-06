@@ -122,7 +122,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -1142,7 +1142,7 @@ new_style
 &
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {
@@ -1602,7 +1602,7 @@ new_style
 &
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {

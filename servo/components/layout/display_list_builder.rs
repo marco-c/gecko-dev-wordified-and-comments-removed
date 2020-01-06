@@ -419,7 +419,7 @@ properties
 :
 {
 self
-ServoComputedValues
+ComputedValues
 }
 ;
 use
@@ -2621,7 +2621,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -2642,7 +2642,7 @@ self
 style
 :
 &
-ServoComputedValues
+ComputedValues
 bounds
 :
 &
@@ -2678,7 +2678,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -2715,7 +2715,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -2751,7 +2751,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -2876,7 +2876,7 @@ Gradient
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 ;
 fn
@@ -2892,7 +2892,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 border_painting_mode
 :
 BorderPaintingMode
@@ -2928,7 +2928,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 bounds
 :
 &
@@ -2958,7 +2958,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -2991,7 +2991,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 stacking_relative_border_box
 :
 &
@@ -3574,7 +3574,7 @@ Au
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -3848,7 +3848,7 @@ Au
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 -
 >
@@ -5172,7 +5172,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -5836,7 +5836,7 @@ self
 style
 :
 &
-ServoComputedValues
+ComputedValues
 bounds
 :
 &
@@ -6275,7 +6275,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -6359,7 +6359,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -7333,7 +7333,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -8877,7 +8877,7 @@ Gradient
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 {
 let
@@ -9134,7 +9134,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 display_list_section
 :
 DisplayListSection
@@ -9409,7 +9409,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 border_painting_mode
 :
 BorderPaintingMode
@@ -10367,7 +10367,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 bounds
 :
 &
@@ -10720,7 +10720,7 @@ DisplayListBuildState
 style
 :
 &
-ServoComputedValues
+ComputedValues
 stacking_relative_border_box
 :
 &
@@ -18794,7 +18794,7 @@ Au
 }
 }
 trait
-ServoComputedValuesCursorUtility
+ComputedValuesCursorUtility
 {
 fn
 get_cursor
@@ -18814,9 +18814,9 @@ Cursor
 ;
 }
 impl
-ServoComputedValuesCursorUtility
+ComputedValuesCursorUtility
 for
-ServoComputedValues
+ComputedValues
 {
 #
 [

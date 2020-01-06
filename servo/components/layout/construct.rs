@@ -347,7 +347,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -592,7 +592,7 @@ PseudoElementType
 >
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 RestyleDamage
 )
@@ -3783,7 +3783,7 @@ style
 &
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {
@@ -12533,7 +12533,7 @@ style
 &
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 -
@@ -13029,7 +13029,7 @@ bool
 impl
 ComputedValueUtils
 for
-ServoComputedValues
+ComputedValues
 {
 fn
 has_padding_or_border

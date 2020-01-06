@@ -120,7 +120,7 @@ use
 properties
 :
 :
-ComputedValues
+ComputedValuesInner
 ;
 use
 shared_lock
@@ -982,10 +982,7 @@ self
 -
 >
 &
-Arc
-<
-ComputedValues
->
+ComputedValuesInner
 {
 self
 .
@@ -995,7 +992,7 @@ device
 (
 )
 .
-default_computed_values_arc
+default_computed_values
 (
 )
 }

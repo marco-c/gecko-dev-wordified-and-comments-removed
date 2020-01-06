@@ -874,6 +874,17 @@ clone
 (
 )
 }
+pub
+fn
+pseudo_info
+(
+&
+self
+)
+{
+(
+)
+}
 }
 pub
 type

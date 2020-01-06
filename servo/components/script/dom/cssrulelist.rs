@@ -658,6 +658,14 @@ new_rule
 =
 css_rules
 .
+with_raw_offset_arc
+(
+|
+arc
+|
+{
+arc
+.
 insert_rule
 (
 &
@@ -672,6 +680,8 @@ contents
 index
 nested
 None
+)
+}
 )
 ?
 ;

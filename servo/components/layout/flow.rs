@@ -249,7 +249,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -2076,7 +2076,7 @@ new_style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 ;
@@ -2662,7 +2662,7 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 ;
@@ -4600,7 +4600,7 @@ style
 Option
 <
 &
-ServoComputedValues
+ComputedValues
 >
 writing_mode
 :
@@ -5126,7 +5126,7 @@ self
 style
 :
 &
-ServoComputedValues
+ComputedValues
 )
 {
 if
@@ -6376,7 +6376,7 @@ style
 :
 StyleArc
 <
-ServoComputedValues
+ComputedValues
 >
 )
 {

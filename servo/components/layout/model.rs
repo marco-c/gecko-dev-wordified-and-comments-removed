@@ -77,7 +77,7 @@ style
 properties
 :
 :
-ServoComputedValues
+ComputedValues
 ;
 use
 style
@@ -2207,7 +2207,7 @@ padding_from_style
 style
 :
 &
-ServoComputedValues
+ComputedValues
 containing_block_inline_size
 :
 Au
@@ -2288,7 +2288,7 @@ specified_margin_from_style
 style
 :
 &
-ServoComputedValues
+ComputedValues
 writing_mode
 :
 WritingMode
