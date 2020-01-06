@@ -236,7 +236,7 @@ async
 function
 promiseFileContents
 (
-file
+path
 )
 {
 let
@@ -249,8 +249,6 @@ File
 .
 read
 (
-file
-.
 path
 )
 ;
