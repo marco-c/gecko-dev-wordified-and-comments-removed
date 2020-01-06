@@ -1934,11 +1934,6 @@ selectiontype
 "
 single
 "
-hideifprivatebrowsing
-=
-"
-true
-"
 forcehideselection
 =
 "
