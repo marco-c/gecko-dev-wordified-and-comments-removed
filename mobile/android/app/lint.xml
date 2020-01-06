@@ -824,14 +824,9 @@ ignore
 path
 =
 "
-*
-*
+src
 /
-mobile
-/
-android
-/
-base
+australis
 /
 java
 /
