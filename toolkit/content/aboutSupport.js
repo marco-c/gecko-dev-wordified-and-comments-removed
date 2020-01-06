@@ -4145,6 +4145,12 @@ pre
 wrap
 "
 ;
+td
+.
+colSpan
+=
+8
+;
 return
 .
 new
