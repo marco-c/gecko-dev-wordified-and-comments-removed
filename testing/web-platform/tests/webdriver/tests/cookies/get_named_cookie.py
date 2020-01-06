@@ -593,6 +593,7 @@ test_duplicated_cookie
 (
 session
 url
+server_config
 )
 :
     
@@ -647,13 +648,16 @@ world
 domain
 "
 :
+server_config
+[
 "
-web
--
-platform
-.
-test
+domains
 "
+]
+[
+"
+"
+]
             
 "
 path
@@ -757,11 +761,8 @@ newworld
 ;
 domain
 =
-web
--
-platform
-.
-test
+%
+s
 ;
 path
 =
@@ -773,6 +774,17 @@ path
 script
 >
 "
+%
+server_config
+[
+"
+domains
+"
+]
+[
+"
+"
+]
 )
     
 result
