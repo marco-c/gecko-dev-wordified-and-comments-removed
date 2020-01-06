@@ -75,9 +75,11 @@ path
 .
 .
 /
-xpcom
+servo
 /
-rust
+support
+/
+gecko
 /
 nsstring
 "

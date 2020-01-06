@@ -90,6 +90,8 @@ UNIFIED_SOURCES
 =
 [
 '
+nsstring
+/
 Test
 .
 cpp
