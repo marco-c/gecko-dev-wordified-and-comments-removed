@@ -7040,6 +7040,13 @@ parsedOK
 =
 false
 ;
+mTempData
+.
+ClearProperty
+(
+eCSSProperty_transform
+)
+;
 }
 bool
 changed
@@ -7121,6 +7128,12 @@ Reset
 )
 ;
 }
+mTempData
+.
+AssertInitialState
+(
+)
+;
 ReleaseScanner
 (
 )
