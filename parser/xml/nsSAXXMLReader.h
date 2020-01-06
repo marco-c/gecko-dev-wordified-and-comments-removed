@@ -343,9 +343,6 @@ mPublicId
 nsString
 mSystemId
 ;
-bool
-mEnableNamespacePrefixes
-;
 }
 ;
 #
