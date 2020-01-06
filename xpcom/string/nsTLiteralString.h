@@ -188,6 +188,8 @@ template
 <
 typename
 N
+typename
+Dummy
 >
 struct
 raw_type
@@ -204,11 +206,14 @@ ifdef
 MOZ_USE_CHAR16_WRAPPER
 template
 <
+typename
+Dummy
 >
 struct
 raw_type
 <
 char16_t
+Dummy
 >
 {
 typedef
@@ -224,6 +229,7 @@ typename
 raw_type
 <
 T
+int
 >
 :
 :
@@ -242,6 +248,7 @@ typename
 raw_type
 <
 T
+int
 >
 :
 :
