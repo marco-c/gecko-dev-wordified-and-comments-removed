@@ -48,7 +48,7 @@ nsIDocument
 class
 nsStyleContext
 ;
-struct
+class
 ServoComputedValues
 ;
 struct
