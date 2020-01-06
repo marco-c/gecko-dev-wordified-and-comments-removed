@@ -839,13 +839,6 @@ setPrivateMode
 isPrivate
 )
 ;
-mPageActionLayout
-.
-setPrivateMode
-(
-isPrivate
-)
-;
 }
 Override
 public
