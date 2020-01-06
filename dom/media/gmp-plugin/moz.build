@@ -115,14 +115,14 @@ SOURCES
 =
 [
 '
-gmp
+cdm
 -
 fake
 .
 cpp
 '
 '
-gmp
+cdm
 -
 test
 -
@@ -131,7 +131,7 @@ decryptor
 cpp
 '
 '
-gmp
+cdm
 -
 test
 -
