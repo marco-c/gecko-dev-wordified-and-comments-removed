@@ -35196,9 +35196,6 @@ isEmpty
 return
 ;
 }
-#
-ifdef
-MOZ_CRASHREPORTER
 nsAutoCString
 note
 ;
@@ -35578,8 +35575,6 @@ AppendAppNotesToCrashReport
 note
 )
 ;
-#
-endif
 MOZ_CRASH
 (
 "

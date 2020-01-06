@@ -5249,9 +5249,6 @@ nsCString
 >
 mBlobURLs
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 UniquePtr
 <
 mozilla
@@ -5264,8 +5261,6 @@ CrashReporterHost
 >
 mCrashReporter
 ;
-#
-endif
 static
 uint64_t
 sNextTabParentId
