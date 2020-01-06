@@ -225,6 +225,25 @@ basename
 __file__
 )
     
+if
+hooktype
+=
+=
+'
+hooks
+.
+py
+'
+:
+        
+hooktype
+=
+'
+pre
+-
+push
+'
+    
 return
 run_mozlint
 (
