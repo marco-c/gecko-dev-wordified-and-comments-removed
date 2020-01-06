@@ -302,6 +302,7 @@ tar
 bz2
 EOF
 prepare
+prepare_mingw
 build_binutils
 build_gcc_and_mingw
 #
