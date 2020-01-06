@@ -566,8 +566,9 @@ CloseSocket
 PRFileDesc
 *
 aFd
-bool
-aTelemetryEnabled
+nsSocketTransportService
+*
+aSTS
 )
 ;
 static
