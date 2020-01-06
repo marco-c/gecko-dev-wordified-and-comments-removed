@@ -1307,8 +1307,6 @@ cached_system_font
 :
 None
 quirks_mode
-:
-quirks_mode
 for_smil_animation
 :
 false

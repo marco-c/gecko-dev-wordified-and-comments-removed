@@ -1328,8 +1328,6 @@ self
 bool
 {
 use
-:
-:
 gecko_bindings
 :
 :
@@ -3046,7 +3044,6 @@ and_then
 |
 s
 |
-{
 unsafe
 {
 s
@@ -3058,7 +3055,6 @@ mPtr
 as_ref
 (
 )
-}
 }
 )
 }
@@ -3324,11 +3320,9 @@ null_mut
 |
 slots
 |
-{
 slots
 .
 mBindingParent
-}
 )
 }
 fn
@@ -5883,6 +5877,7 @@ has_id
 {
 return
 None
+;
 }
 let
 ptr
