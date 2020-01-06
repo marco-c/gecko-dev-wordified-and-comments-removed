@@ -269,13 +269,6 @@ h
 #
 include
 "
-nsExceptionHandler
-.
-h
-"
-#
-include
-"
 nsThreadManager
 .
 h
