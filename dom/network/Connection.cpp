@@ -338,15 +338,6 @@ previousType
 !
 =
 aType
-&
-&
-!
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-)
 )
 {
 DispatchTrustedEvent
