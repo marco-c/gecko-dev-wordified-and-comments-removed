@@ -1412,12 +1412,6 @@ color
 devtools
 -
 tab
-:
-not
-(
-.
-selected
-)
 .
 highlighted
 >
