@@ -477,7 +477,9 @@ for
 +
 url
 .
-url
+uri
+.
+spec
 transition
 :
 url

@@ -945,7 +945,7 @@ PlacesUtils
 .
 bookmarks
 .
-unfileGuid
+unfiledGuid
 feedURI
 :
 FEED_URI
