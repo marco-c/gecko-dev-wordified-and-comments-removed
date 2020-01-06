@@ -706,10 +706,10 @@ aRange
 nsIDOMNode
 *
 *
-aParent1
+aStartContainer
 int32_t
 *
-aOffset1
+aStartOffset
 nsIDOMNode
 *
 *
@@ -725,7 +725,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode

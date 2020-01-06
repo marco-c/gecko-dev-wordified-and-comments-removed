@@ -1309,7 +1309,7 @@ CreateRange
 (
 nsINode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -1342,7 +1342,7 @@ range
 new
 nsRange
 (
-aStartParent
+aStartContainer
 )
 ;
 nsresult
@@ -1353,7 +1353,7 @@ range
 >
 SetStartAndEnd
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset
@@ -1393,7 +1393,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -1415,7 +1415,7 @@ startParent
 =
 do_QueryInterface
 (
-aStartParent
+aStartContainer
 )
 ;
 nsCOMPtr
@@ -1448,7 +1448,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -1476,7 +1476,7 @@ nsRange
 :
 CreateRange
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset
@@ -4851,7 +4851,7 @@ GetStartContainer
 nsIDOMNode
 *
 *
-aStartParent
+aStartContainer
 )
 {
 if
@@ -4866,7 +4866,7 @@ return
 CallQueryInterface
 (
 mStartContainer
-aStartParent
+aStartContainer
 )
 ;
 }
@@ -6268,7 +6268,7 @@ SetStartAndEnd
 (
 nsINode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -6283,7 +6283,7 @@ if
 NS_WARN_IF
 (
 !
-aStartParent
+aStartContainer
 )
 |
 |
@@ -6304,7 +6304,7 @@ newStartRoot
 =
 IsValidBoundary
 (
-aStartParent
+aStartContainer
 )
 ;
 if
@@ -6322,7 +6322,7 @@ if
 !
 IsValidOffset
 (
-aStartParent
+aStartContainer
 aStartOffset
 )
 )
@@ -6333,7 +6333,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 }
 if
 (
-aStartParent
+aStartContainer
 =
 =
 aEndParent
@@ -6374,7 +6374,7 @@ else
 {
 DoSetRange
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset
@@ -6447,7 +6447,7 @@ nsContentUtils
 :
 ComparePoints
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset
@@ -6472,7 +6472,7 @@ NS_OK
 }
 DoSetRange
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset
@@ -8219,9 +8219,9 @@ SplitDataNode
 (
 nsIDOMCharacterData
 *
-aStartNode
+aStartContainer
 uint32_t
-aStartIndex
+aStartOffset
 nsIDOMCharacterData
 *
 *
@@ -8243,7 +8243,7 @@ node
 =
 do_QueryInterface
 (
-aStartNode
+aStartContainer
 )
 ;
 NS_ENSURE_STATE
@@ -8293,7 +8293,7 @@ dataNode
 >
 SplitData
 (
-aStartIndex
+aStartOffset
 getter_AddRefs
 (
 newData
@@ -13107,7 +13107,7 @@ nsRange
 aRange
 nsINode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -13127,7 +13127,7 @@ nsINode
 >
 startContainer
 =
-aStartParent
+aStartContainer
 ;
 nsCOMPtr
 <
@@ -13140,7 +13140,7 @@ aEndParent
 if
 (
 !
-aStartParent
+aStartContainer
 -
 >
 IsInUncomposedDoc
@@ -13156,7 +13156,7 @@ if
 aFlushLayout
 )
 {
-aStartParent
+aStartContainer
 -
 >
 OwnerDoc
@@ -13175,7 +13175,7 @@ Layout
 if
 (
 !
-aStartParent
+aStartContainer
 -
 >
 IsInUncomposedDoc
@@ -13226,7 +13226,7 @@ content
 =
 do_QueryInterface
 (
-aStartParent
+aStartContainer
 )
 ;
 if
@@ -15649,7 +15649,7 @@ ErrorResult
 aError
 nsIContent
 *
-aStartParent
+aStartContainer
 uint32_t
 aStartOffset
 nsIContent
@@ -15669,7 +15669,7 @@ nsIContent
 *
 currentNode
 =
-aStartParent
+aStartContainer
 ;
 TreeTraversalState
 currentState
@@ -15678,7 +15678,7 @@ AFTER_NODE
 ;
 if
 (
-aStartParent
+aStartContainer
 -
 >
 IsNodeOfType
@@ -15699,12 +15699,12 @@ nsGenericDOMDataNode
 *
 >
 (
-aStartParent
+aStartContainer
 )
 ;
 if
 (
-aStartParent
+aStartContainer
 =
 =
 aEndParent
@@ -15744,7 +15744,7 @@ uint32_t
 aStartOffset
 )
 <
-aStartParent
+aStartContainer
 -
 >
 GetChildCount
@@ -15754,7 +15754,7 @@ GetChildCount
 {
 currentNode
 =
-aStartParent
+aStartContainer
 -
 >
 GetChildAt

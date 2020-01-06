@@ -10153,7 +10153,7 @@ nsINode
 outNodeList
 nsINode
 *
-aStartNode
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -10166,10 +10166,10 @@ aEndOffset
 if
 (
 !
-aStartNode
+aStartContainer
 )
 {
-aStartNode
+aStartContainer
 =
 &
 aFragment
@@ -10206,7 +10206,7 @@ nsRange
 :
 CreateRange
 (
-aStartNode
+aStartContainer
 aStartOffset
 aEndNode
 aEndOffset

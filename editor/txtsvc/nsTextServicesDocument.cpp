@@ -10230,7 +10230,7 @@ aRange
 nsIDOMNode
 *
 *
-aStartParent
+aStartContainer
 int32_t
 *
 aStartOffset
@@ -10248,7 +10248,7 @@ NS_ENSURE_TRUE
 aRange
 &
 &
-aStartParent
+aStartContainer
 &
 &
 aStartOffset
@@ -10269,7 +10269,7 @@ aRange
 >
 GetStartContainer
 (
-aStartParent
+aStartContainer
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10280,7 +10280,7 @@ rv
 ;
 NS_ENSURE_TRUE
 (
-aStartParent
+aStartContainer
 NS_ERROR_FAILURE
 )
 ;
@@ -10340,7 +10340,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -10360,7 +10360,7 @@ nsRange
 :
 CreateRange
 (
-aStartParent
+aStartContainer
 aStartOffset
 aEndParent
 aEndOffset

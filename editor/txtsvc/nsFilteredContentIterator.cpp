@@ -779,7 +779,7 @@ bool
 aIsPreMode
 nsIDOMNode
 *
-aStartNode
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -791,7 +791,7 @@ aEndOffset
 {
 NS_ENSURE_TRUE
 (
-aStartNode
+aStartContainer
 &
 &
 aEndNode
@@ -846,7 +846,7 @@ nsContentUtils
 :
 ComparePoints
 (
-aStartNode
+aStartContainer
 aStartOffset
 parentNode
 indx

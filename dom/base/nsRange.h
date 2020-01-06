@@ -171,7 +171,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -191,7 +191,7 @@ CreateRange
 (
 nsIDOMNode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsIDOMNode
@@ -211,7 +211,7 @@ CreateRange
 (
 nsINode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -411,7 +411,7 @@ SetStartAndEnd
 (
 nsINode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsINode
@@ -1071,7 +1071,7 @@ ErrorResult
 aError
 nsIContent
 *
-aStartParent
+aStartContainer
 uint32_t
 aStartOffset
 nsIContent
@@ -1227,7 +1227,7 @@ nsRange
 aRange
 nsINode
 *
-aStartParent
+aStartContainer
 int32_t
 aStartOffset
 nsINode
