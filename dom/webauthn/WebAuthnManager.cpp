@@ -181,6 +181,12 @@ FLAG_AT
 =
 0x40
 ;
+const
+uint8_t
+FLAG_UV
+=
+0x04
+;
 namespace
 {
 StaticRefPtr

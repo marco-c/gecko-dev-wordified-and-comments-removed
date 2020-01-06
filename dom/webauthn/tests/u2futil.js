@@ -14,6 +14,11 @@ flag_TUP
 0x01
 ;
 const
+flag_UV
+=
+0x04
+;
+const
 flag_AT
 =
 0x40
