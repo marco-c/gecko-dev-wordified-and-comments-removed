@@ -1878,14 +1878,12 @@ self
 _mach_context
 )
             
-changed_files
-changed_tags
+res
 =
 at
 .
 find_paths_and_tags
 (
-                
 False
 detect_paths
 =
@@ -1893,7 +1891,12 @@ True
 )
             
 if
-changed_files
+res
+[
+'
+paths
+'
+]
 :
                 
 print
@@ -1931,7 +1934,12 @@ t
 .
 join
 (
-changed_files
+res
+[
+'
+paths
+'
+]
 )
 )
             
@@ -1954,7 +1962,12 @@ reader
 .
 files_info
 (
-changed_files
+res
+[
+'
+paths
+'
+]
 )
             
 paths
