@@ -1273,6 +1273,17 @@ i
 >
 {
 let
+url_data
+=
+parent_stylesheet
+.
+url_data
+.
+read
+(
+)
+;
+let
 error_reporter
 =
 NullReporter
@@ -1289,8 +1300,6 @@ parent_stylesheet
 .
 origin
 &
-parent_stylesheet
-.
 url_data
 &
 error_reporter

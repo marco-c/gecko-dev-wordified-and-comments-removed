@@ -963,6 +963,8 @@ _
 =
 >
 {
+(
+*
 rule
 .
 parent_stylesheet
@@ -974,6 +976,11 @@ style_stylesheet
 )
 .
 url_data
+.
+read
+(
+)
+)
 .
 clone
 (

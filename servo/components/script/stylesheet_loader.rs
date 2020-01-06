@@ -945,7 +945,6 @@ Some
 (
 environment_encoding
 )
-&
 final_url
 Some
 (

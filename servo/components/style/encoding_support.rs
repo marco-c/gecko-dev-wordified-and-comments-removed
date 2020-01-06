@@ -390,7 +390,6 @@ EncodingRef
 >
 url_data
 :
-&
 UrlExtraData
 stylesheet_loader
 :

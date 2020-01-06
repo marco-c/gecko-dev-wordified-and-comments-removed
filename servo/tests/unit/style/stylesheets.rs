@@ -663,7 +663,13 @@ namespaces
 )
 url_data
 :
+RwLock
+:
+:
+new
+(
 url
+)
 dirty_on_viewport_size_change
 :
 AtomicBool

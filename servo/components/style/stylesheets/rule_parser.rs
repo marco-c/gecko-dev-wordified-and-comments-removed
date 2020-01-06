@@ -967,6 +967,11 @@ context
 stylesheet_origin
 url_data
 :
+RwLock
+:
+:
+new
+(
 self
 .
 context
@@ -975,6 +980,7 @@ url_data
 .
 clone
 (
+)
 )
 namespaces
 :
