@@ -265,7 +265,7 @@ aShouldSave
 endif
 static
 const
-nsACString
+char
 *
 sMainThreadRunnableName
 ;
