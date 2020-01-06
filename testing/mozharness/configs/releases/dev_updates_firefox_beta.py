@@ -274,6 +274,8 @@ update_channels
         
 "
 beta
+-
+dev
 "
 :
 {
@@ -331,6 +333,8 @@ update_verify_channel
 "
 beta
 -
+dev
+-
 localtest
 "
             
@@ -348,14 +352,20 @@ channel_names
 [
 "
 beta
+-
+dev
 "
 "
 beta
+-
+dev
 -
 localtest
 "
 "
 beta
+-
+dev
 -
 cdntest
 "
@@ -371,12 +381,16 @@ firefox
 -
 beta
 -
+dev
+-
 cdntest
 "
 "
 firefox
 -
 beta
+-
+dev
 -
 localtest
 "
