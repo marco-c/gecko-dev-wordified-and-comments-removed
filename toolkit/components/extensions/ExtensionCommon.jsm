@@ -5348,12 +5348,6 @@ Map
 (
 )
 ;
-this
-.
-inputHandling
-=
-false
-;
 }
 EventManager
 .
@@ -5896,11 +5890,6 @@ hasListener
 .
 args
 )
-setUserInput
-:
-this
-.
-inputHandling
 [
 Schemas
 .
