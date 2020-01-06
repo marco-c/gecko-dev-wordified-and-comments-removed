@@ -10682,7 +10682,8 @@ mScriptText
 length
 (
 )
-<
+>
+=
 1024
 )
 {
