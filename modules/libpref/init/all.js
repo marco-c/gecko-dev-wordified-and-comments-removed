@@ -11314,7 +11314,7 @@ options
 .
 wasm_baselinejit
 "
-false
+true
 )
 ;
 pref
