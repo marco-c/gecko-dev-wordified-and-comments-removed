@@ -11,7 +11,7 @@ EXPECTED_ENTRIES
 const
 EXPECTED_HSTS_COLUMNS
 =
-3
+4
 ;
 const
 EXPECTED_HPKP_COLUMNS
@@ -808,6 +808,11 @@ maxAge
 includeSubdomains
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 )
 ;
 }

@@ -189,6 +189,11 @@ uri
 pinValue
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 )
 ;
 }
@@ -318,6 +323,11 @@ uri
 validPinValue
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 )
 ;
 }
@@ -336,6 +346,11 @@ uri
 pinValue
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 {
 }
 maxAge

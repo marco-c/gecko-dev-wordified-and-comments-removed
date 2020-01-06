@@ -20893,6 +20893,7 @@ aURI
 flags
 mOriginAttributes
 nullptr
+nullptr
 &
 isStsHost
 )
@@ -20917,6 +20918,7 @@ HEADER_HPKP
 aURI
 flags
 mOriginAttributes
+nullptr
 nullptr
 &
 isPinnedHost

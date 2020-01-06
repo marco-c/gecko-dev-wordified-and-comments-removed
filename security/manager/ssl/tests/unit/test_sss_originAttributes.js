@@ -330,6 +330,11 @@ uri
 header
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 originAttributes1
 )
 ;
@@ -658,6 +663,11 @@ uri
 header
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_ORGANIC_REQUEST
 originAttributes
 )
 (

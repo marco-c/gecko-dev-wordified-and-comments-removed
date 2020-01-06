@@ -1026,6 +1026,11 @@ uri
 header
 sslStatus
 0
+Ci
+.
+nsISiteSecurityService
+.
+SOURCE_PRELOAD_LIST
 {
 }
 maxAge

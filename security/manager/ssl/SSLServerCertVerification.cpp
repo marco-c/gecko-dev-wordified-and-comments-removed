@@ -1700,6 +1700,7 @@ GetOriginAttributes
 (
 )
 nullptr
+nullptr
 &
 strictTransportSecurityEnabled
 )
@@ -1762,6 +1763,7 @@ mInfoObject
 GetOriginAttributes
 (
 )
+nullptr
 nullptr
 &
 hasPinningInformation
