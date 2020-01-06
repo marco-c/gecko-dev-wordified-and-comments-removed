@@ -124,8 +124,9 @@ error
 "
   
 if
-not
 entity
+is
+None
 :
     
 if
