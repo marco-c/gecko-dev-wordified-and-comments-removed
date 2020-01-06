@@ -456,6 +456,9 @@ nscolor
 mBackgroundColor
 ;
 bool
+mAllBordersSameStyle
+;
+bool
 mOneUnitBorder
 ;
 bool
