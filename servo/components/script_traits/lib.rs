@@ -2836,6 +2836,10 @@ IpcSender
 TopLevelBrowsingContextId
 >
 )
+CloseBrowser
+(
+TopLevelBrowsingContextId
+)
 SelectBrowser
 (
 TopLevelBrowsingContextId
