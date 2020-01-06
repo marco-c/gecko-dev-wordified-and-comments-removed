@@ -995,13 +995,6 @@ suggestURL
 searchProvider
 .
 suggest_url
-queryCharset
-:
-"
-UTF
--
-8
-"
 }
 ;
 Services
