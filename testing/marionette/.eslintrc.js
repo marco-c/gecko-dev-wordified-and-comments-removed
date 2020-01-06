@@ -141,6 +141,15 @@ init
 error
 "
 "
+no
+-
+var
+"
+:
+"
+error
+"
+"
 object
 -
 curly
