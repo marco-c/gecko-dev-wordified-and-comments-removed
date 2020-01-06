@@ -3472,9 +3472,6 @@ openlink
 bookmarklink
 "
 "
-sharelink
-"
-"
 savelink
 "
 "
@@ -3595,9 +3592,6 @@ copyaudiourl
 saveimage
 "
 "
-shareimage
-"
-"
 sendimage
 "
 "
@@ -3611,9 +3605,6 @@ viewimagedesc
 "
 "
 savevideo
-"
-"
-sharevideo
 "
 "
 saveaudio
@@ -3638,9 +3629,6 @@ play
 ctp
 -
 hide
-"
-"
-sharepage
 "
 "
 savepage
@@ -3677,9 +3665,6 @@ keywordfield
 "
 "
 searchselect
-"
-"
-shareselect
 "
 "
 frame
