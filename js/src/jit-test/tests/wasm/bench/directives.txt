@@ -23,16 +23,6 @@ wasm
 -
 ion
 ;
-test
--
-also
--
-wasm
--
-check
--
-bce
-;
 include
 :
 wasm

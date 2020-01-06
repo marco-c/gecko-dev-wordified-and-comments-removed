@@ -813,12 +813,6 @@ false
 ;
 SET_DEFAULT
 (
-wasmAlwaysCheckBounds
-false
-)
-;
-SET_DEFAULT
-(
 wasmFoldOffsets
 true
 )
