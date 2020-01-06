@@ -44,6 +44,15 @@ l10n
 changesets
 .
 json
+path
+:
+browser
+/
+config
+/
+version_display
+.
+txt
 #
 Lots
 of

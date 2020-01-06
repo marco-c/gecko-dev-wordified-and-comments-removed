@@ -1779,6 +1779,22 @@ breakpoint
 '
     
 '
+maple
+'
+:
+'
+aws
+-
+provisioner
+-
+v1
+/
+taskcluster
+-
+generic
+'
+    
+'
 default
 '
 :
@@ -1803,6 +1819,12 @@ beta
 '
 :
 False
+    
+'
+maple
+'
+:
+True
     
 '
 release
