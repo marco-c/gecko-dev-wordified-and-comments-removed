@@ -414,16 +414,6 @@ SelectorImpl
 Debug
 {
 fn
-is_link
-(
-&
-self
-)
--
->
-bool
-;
-fn
 matches_user_and_author_rules
 (
 &

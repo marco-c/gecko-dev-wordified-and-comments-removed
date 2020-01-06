@@ -2164,6 +2164,7 @@ iter
 previous_style
 previous_style
 None
+None
 &
 *
 context

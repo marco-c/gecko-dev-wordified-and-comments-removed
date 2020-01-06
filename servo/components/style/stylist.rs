@@ -2563,6 +2563,7 @@ p
 p
 )
 None
+None
 &
 RustLogReporter
 font_metrics
@@ -2875,6 +2876,7 @@ Some
 (
 parent_style
 )
+None
 None
 &
 RustLogReporter
@@ -4682,6 +4684,7 @@ Some
 (
 parent_style
 )
+None
 None
 &
 RustLogReporter

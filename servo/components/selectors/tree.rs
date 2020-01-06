@@ -14,6 +14,7 @@ matching
 {
 ElementSelectorFlags
 MatchingContext
+RelevantLinkStatus
 }
 ;
 use
@@ -256,6 +257,10 @@ context
 &
 mut
 MatchingContext
+relevant_link
+:
+&
+RelevantLinkStatus
 flags_setter
 :
 &
@@ -299,6 +304,16 @@ context
 &
 mut
 MatchingContext
+)
+-
+>
+bool
+;
+fn
+is_link
+(
+&
+self
 )
 -
 >
