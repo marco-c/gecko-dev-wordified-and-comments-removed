@@ -16127,9 +16127,15 @@ pub
 fn
 Servo_HasAuthorSpecifiedRules
 (
+style
+:
+ServoStyleContextBorrowed
 element
 :
 RawGeckoElementBorrowed
+pseudo_type
+:
+CSSPseudoElementType
 rule_type_mask
 :
 u32
