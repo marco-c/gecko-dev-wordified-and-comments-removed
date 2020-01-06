@@ -957,14 +957,9 @@ if
 mBufferProvider
 -
 >
-SetForwarder
+SetKnowsCompositor
 (
 GetForwarder
-(
-)
--
->
-AsLayerForwarder
 (
 )
 )
