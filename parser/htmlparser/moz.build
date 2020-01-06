@@ -141,11 +141,6 @@ nsIExpatSink
 .
 idl
 '
-'
-nsIExtendedExpatSink
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
