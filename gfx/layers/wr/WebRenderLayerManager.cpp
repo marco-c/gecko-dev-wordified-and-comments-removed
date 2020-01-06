@@ -3424,6 +3424,16 @@ GetTransactionId
 true
 )
 ;
+TimeStamp
+transactionStart
+=
+mTransactionIdAllocator
+-
+>
+GetTransactionStart
+(
+)
+;
 if
 (
 !
@@ -3517,6 +3527,7 @@ ToUnknownSize
 sync
 mLatestTransactionId
 mScrollData
+transactionStart
 )
 ;
 }

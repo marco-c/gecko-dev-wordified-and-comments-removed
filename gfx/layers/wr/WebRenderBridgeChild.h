@@ -262,6 +262,13 @@ const
 WebRenderScrollData
 &
 aScrollData
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTxnStartTime
 )
 ;
 void

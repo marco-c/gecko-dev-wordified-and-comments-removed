@@ -557,6 +557,8 @@ aScrollData
 IdNamespace
 aIdNamespace
 TimeStamp
+txnStartTime
+TimeStamp
 fwdTime
 )
 ;
@@ -587,6 +589,8 @@ WebRenderScrollData
 aScrollData
 IdNamespace
 aIdNamespace
+TimeStamp
+txnStartTime
 TimeStamp
 fwdTime
 )

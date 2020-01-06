@@ -57,6 +57,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 RenderBufferTextureHost

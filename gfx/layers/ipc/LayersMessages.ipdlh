@@ -2875,6 +2875,9 @@ isRepeatTransaction
 TimeStamp
 transactionStart
 ;
+TimeStamp
+fwdTime
+;
 }
 ;
 union
