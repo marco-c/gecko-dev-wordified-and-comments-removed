@@ -2012,6 +2012,14 @@ InvalidArgumentError
 [
 "
 invalid
+cookie
+domain
+"
+InvalidCookieDomainError
+]
+[
+"
+invalid
 element
 state
 "
