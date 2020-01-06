@@ -60,12 +60,9 @@ nsXBLPrototypeResources
 (
 )
 ;
-void
+bool
 LoadResources
 (
-bool
-*
-aResult
 )
 ;
 void
