@@ -99,6 +99,17 @@ aHref
 type
 :
 aType
+ownerDocument
+:
+{
+characterSet
+:
+"
+UTF
+-
+8
+"
+}
 }
 ;
 return
