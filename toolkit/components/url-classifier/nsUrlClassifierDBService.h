@@ -796,12 +796,6 @@ CacheResultArray
 aResult
 )
 ;
-nsCOMPtr
-<
-nsICryptoHash
->
-mCryptoHash
-;
 nsAutoPtr
 <
 mozilla

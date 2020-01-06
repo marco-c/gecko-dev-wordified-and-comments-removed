@@ -332,25 +332,6 @@ CleanupUpdates
 )
 ;
 }
-nsresult
-ProtocolParser
-:
-:
-Init
-(
-nsICryptoHash
-*
-aHasher
-)
-{
-mCryptoHash
-=
-aHasher
-;
-return
-NS_OK
-;
-}
 void
 ProtocolParser
 :
@@ -1984,7 +1965,6 @@ hash
 FromPlaintext
 (
 line
-mCryptoHash
 )
 ;
 nsresult
@@ -2051,7 +2031,6 @@ hash
 FromPlaintext
 (
 line
-mCryptoHash
 )
 ;
 nsresult
@@ -2193,7 +2172,6 @@ Substring
 iter
 end
 )
-mCryptoHash
 )
 ;
 nsresult
@@ -2265,7 +2243,6 @@ Substring
 iter
 end
 )
-mCryptoHash
 )
 ;
 nsresult
