@@ -180,17 +180,6 @@ MediaDecoderInit
 aInit
 )
 ;
-MediaResourceCallback
-*
-GetResourceCallback
-(
-)
-const
-{
-return
-mResourceCallback
-;
-}
 void
 Shutdown
 (

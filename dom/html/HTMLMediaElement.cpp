@@ -10340,7 +10340,6 @@ FinishDecoderSetup
 (
 decoder
 nullptr
-nullptr
 )
 ;
 }
@@ -20117,7 +20116,6 @@ FinishDecoderSetup
 (
 decoder
 nullptr
-nullptr
 )
 ;
 }
@@ -20405,7 +20403,6 @@ rv
 FinishDecoderSetup
 (
 decoder
-nullptr
 aListener
 )
 ;
@@ -20459,9 +20456,6 @@ FinishDecoderSetup
 MediaDecoder
 *
 aDecoder
-MediaResource
-*
-aStream
 nsIStreamListener
 *
 *
@@ -20485,20 +20479,6 @@ SetDecoder
 aDecoder
 )
 ;
-if
-(
-aStream
-)
-{
-mDecoder
--
->
-SetResource
-(
-aStream
-)
-;
-}
 NotifyDecoderActivityChanges
 (
 )
