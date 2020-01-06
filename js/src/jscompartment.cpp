@@ -343,10 +343,6 @@ warnedAboutForEach
 (
 false
 )
-warnedAboutLegacyGenerator
-(
-false
-)
 warnedAboutStringGenericsMethods
 (
 0
@@ -373,6 +369,10 @@ performanceMonitoring
 runtime_
 )
 data
+(
+nullptr
+)
+realmData
 (
 nullptr
 )
