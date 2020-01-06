@@ -115,6 +115,7 @@ an
 exception
 "
 )
+;
 }
 catch
 (
@@ -138,6 +139,7 @@ as
 expected
 "
 )
+;
 }
 info
 (
@@ -326,6 +328,7 @@ exception
 .
 "
 )
+;
 }
 catch
 (
@@ -348,6 +351,7 @@ shutdown
 .
 "
 )
+;
 }
 ok
 (
