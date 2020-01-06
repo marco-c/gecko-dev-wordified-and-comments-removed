@@ -1072,8 +1072,9 @@ customization
 header
 {
 %
-ifndef
+ifdef
 MOZ_PHOTON_THEME
+;
 border
 -
 bottom
