@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
+nsIHTMLCollection
 .
 h
 "

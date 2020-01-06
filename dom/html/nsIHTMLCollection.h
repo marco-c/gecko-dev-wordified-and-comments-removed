@@ -7,7 +7,7 @@ nsIHTMLCollection_h___
 #
 include
 "
-nsIDOMHTMLCollection
+nsISupports
 .
 h
 "
@@ -88,7 +88,7 @@ class
 nsIHTMLCollection
 :
 public
-nsIDOMHTMLCollection
+nsISupports
 {
 public
 :

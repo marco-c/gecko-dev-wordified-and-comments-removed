@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 nsISelectControlFrame
 .
 h

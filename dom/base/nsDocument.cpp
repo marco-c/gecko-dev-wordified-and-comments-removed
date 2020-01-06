@@ -3245,7 +3245,6 @@ aRoot
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
 nsINode
 *
@@ -3747,7 +3746,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 SimpleHTMLCollection
 nsSimpleContentList
 nsIHTMLCollection
-nsIDOMHTMLCollection
 )
 }
 }

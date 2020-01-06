@@ -184,13 +184,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLDocument
 .
 h

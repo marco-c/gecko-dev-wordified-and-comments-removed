@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

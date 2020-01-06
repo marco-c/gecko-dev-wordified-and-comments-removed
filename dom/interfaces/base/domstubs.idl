@@ -253,9 +253,6 @@ interface
 nsIDOMHTMLFormElement
 ;
 interface
-nsIDOMHTMLCollection
-;
-interface
 nsIDOMHTMLHeadElement
 ;
 /

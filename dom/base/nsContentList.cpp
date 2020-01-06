@@ -1941,7 +1941,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 nsContentList
 nsBaseContentList
 nsIHTMLCollection
-nsIDOMHTMLCollection
 nsIMutationObserver
 )
 uint32_t

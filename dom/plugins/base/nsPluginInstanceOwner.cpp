@@ -270,13 +270,6 @@ h
 #
 include
 "
-nsIDOMHTMLCollection
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
