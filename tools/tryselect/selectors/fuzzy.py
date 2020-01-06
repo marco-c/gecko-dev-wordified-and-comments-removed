@@ -29,7 +29,7 @@ from
 .
 tasks
 import
-generate_target
+generate_tasks
 from
 .
 .
@@ -1155,6 +1155,12 @@ False
 query
 =
 None
+full
+=
+False
+parameters
+=
+None
 )
 :
     
@@ -1193,8 +1199,10 @@ check_working_directory
     
 all_tasks
 =
-generate_target
+generate_tasks
 (
+parameters
+full
 )
     
 key_shortcuts
