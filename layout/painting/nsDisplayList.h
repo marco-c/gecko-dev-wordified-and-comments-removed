@@ -14516,7 +14516,7 @@ LayerManager
 aManager
 )
 ;
-void
+bool
 PaintMask
 (
 nsDisplayListBuilder
