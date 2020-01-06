@@ -3082,8 +3082,10 @@ NS_IMPL_ISUPPORTS
 StartupCacheWrapper
 nsIStartupCache
 )
+already_AddRefed
+<
 StartupCacheWrapper
-*
+>
 StartupCacheWrapper
 :
 :
@@ -3103,13 +3105,11 @@ StartupCacheWrapper
 (
 )
 ;
-NS_ADDREF
+return
+do_AddRef
 (
 gStartupCacheWrapper
 )
-;
-return
-gStartupCacheWrapper
 ;
 }
 nsresult

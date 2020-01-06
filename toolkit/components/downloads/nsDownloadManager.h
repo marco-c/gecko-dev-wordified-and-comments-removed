@@ -63,8 +63,10 @@ Init
 )
 ;
 static
+already_AddRefed
+<
 nsDownloadManager
-*
+>
 GetSingleton
 (
 )

@@ -129,8 +129,10 @@ dns
 disablePrefetch
 "
 ;
+already_AddRefed
+<
 ChildDNSService
-*
+>
 ChildDNSService
 :
 :
@@ -159,13 +161,11 @@ ChildDNSService
 )
 ;
 }
-NS_ADDREF
+return
+do_AddRef
 (
 gChildDNSService
 )
-;
-return
-gChildDNSService
 ;
 }
 NS_IMPL_ISUPPORTS

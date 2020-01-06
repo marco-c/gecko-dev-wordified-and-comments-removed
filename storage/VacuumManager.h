@@ -70,8 +70,10 @@ VacuumManager
 )
 ;
 static
+already_AddRefed
+<
 VacuumManager
-*
+>
 getSingleton
 (
 )

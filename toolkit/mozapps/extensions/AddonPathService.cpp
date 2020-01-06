@@ -252,8 +252,10 @@ AddonPathService
 :
 sInstance
 ;
+already_AddRefed
+<
 AddonPathService
-*
+>
 AddonPathService
 :
 :
@@ -275,13 +277,11 @@ AddonPathService
 )
 ;
 }
-NS_ADDREF
+return
+do_AddRef
 (
 sInstance
 )
-;
-return
-sInstance
 ;
 }
 static

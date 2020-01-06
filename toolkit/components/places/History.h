@@ -247,8 +247,10 @@ GetService
 )
 ;
 static
+already_AddRefed
+<
 History
-*
+>
 GetSingleton
 (
 )

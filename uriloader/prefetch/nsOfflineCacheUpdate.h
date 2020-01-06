@@ -1189,8 +1189,10 @@ EnsureService
 )
 ;
 static
+already_AddRefed
+<
 nsOfflineCacheUpdateService
-*
+>
 GetInstance
 (
 )

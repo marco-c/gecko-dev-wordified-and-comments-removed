@@ -78,8 +78,10 @@ NS_DECL_NSIAPPLICATIONREPUTATIONSERVICE
 public
 :
 static
+already_AddRefed
+<
 ApplicationReputationService
-*
+>
 GetSingleton
 (
 )

@@ -177,8 +177,10 @@ Get
 )
 ;
 static
+already_AddRefed
+<
 QuotaManagerService
-*
+>
 FactoryCreate
 (
 )

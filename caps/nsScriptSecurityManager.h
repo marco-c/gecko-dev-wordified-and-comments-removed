@@ -152,8 +152,10 @@ InitStatics
 )
 ;
 static
+already_AddRefed
+<
 SystemPrincipal
-*
+>
 SystemPrincipalSingletonConstructor
 (
 )

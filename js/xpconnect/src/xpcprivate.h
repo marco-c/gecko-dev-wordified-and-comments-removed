@@ -835,8 +835,10 @@ gSystemPrincipal
 ;
 }
 static
+already_AddRefed
+<
 nsXPConnect
-*
+>
 GetSingleton
 (
 )

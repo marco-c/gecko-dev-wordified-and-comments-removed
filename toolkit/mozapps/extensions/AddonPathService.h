@@ -57,8 +57,10 @@ AddonPathService
 )
 ;
 static
+already_AddRefed
+<
 AddonPathService
-*
+>
 GetInstance
 (
 )

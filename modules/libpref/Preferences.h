@@ -237,8 +237,10 @@ InitializeUserPrefs
 )
 ;
 static
+already_AddRefed
+<
 Preferences
-*
+>
 GetInstanceForService
 (
 )

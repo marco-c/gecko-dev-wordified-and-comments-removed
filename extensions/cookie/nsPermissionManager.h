@@ -601,8 +601,10 @@ nsPermissionManager
 )
 ;
 static
+already_AddRefed
+<
 nsIPermissionManager
-*
+>
 GetXPCOMSingleton
 (
 )
