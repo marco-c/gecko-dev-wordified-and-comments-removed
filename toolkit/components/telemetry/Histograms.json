@@ -22642,7 +22642,7 @@ race
 "
 }
 "
-HTTP_AUTH_DIALOG_STATS_3
+HTTP_AUTH_DIALOG_STATS_2
 "
 :
 {
@@ -22676,12 +22676,6 @@ mozilla
 .
 com
 "
-"
-ddamjanovic
-mozilla
-.
-com
-"
 ]
 "
 bug_numbers
@@ -22701,7 +22695,7 @@ enumerated
 n_values
 "
 :
-64
+32
 "
 description
 "
@@ -22734,13 +22728,6 @@ subresources
 same
 origin
 xhr
-32
-=
-non
--
-web
--
-content
 (
 nsIContentPolicy
 type
