@@ -7010,6 +7010,11 @@ nsStyleContext
 newstyle
 :
 ServoComputedValuesBorrowed
+any_style_changed
+:
+*
+mut
+bool
 )
 -
 >
