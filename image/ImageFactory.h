@@ -90,6 +90,10 @@ const
 nsCString
 &
 aMimeType
+uint32_t
+aSizeHint
+=
+0
 )
 ;
 static
