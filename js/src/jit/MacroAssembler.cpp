@@ -4905,10 +4905,10 @@ GetJitContext
 )
 -
 >
-compartment
+runtime
 -
 >
-zone
+jitRuntime
 (
 )
 -
