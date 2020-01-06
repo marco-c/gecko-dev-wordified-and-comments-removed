@@ -95626,6 +95626,14 @@ sBinding
 DefineDOMInterface
 %
 s
+constructors
+:
+:
+id
+:
+:
+%
+s
 )
 ;
 \
@@ -95633,6 +95641,7 @@ n
 "
 %
 (
+                
 currentOffset
 length
 desc
@@ -95642,6 +95651,9 @@ getCheck
 (
 desc
 )
+desc
+.
+name
 )
             
 currentOffset
@@ -118090,6 +118102,21 @@ mozilla
 dom
 /
 WebIDLGlobalNameHash
+.
+h
+'
+)
+        
+defineIncludes
+.
+append
+(
+'
+mozilla
+/
+dom
+/
+PrototypeList
 .
 h
 '
