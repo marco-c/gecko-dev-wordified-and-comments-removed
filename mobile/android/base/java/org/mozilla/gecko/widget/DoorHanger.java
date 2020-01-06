@@ -379,6 +379,10 @@ public
 EventCallback
 callback
 ;
+public
+Integer
+defaultCallback
+;
 protected
 DoorHanger
 (
