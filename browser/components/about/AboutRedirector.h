@@ -62,10 +62,6 @@ static
 bool
 sUseOldPreferences
 ;
-static
-bool
-sActivityStreamEnabled
-;
 }
 ;
 }
