@@ -4335,14 +4335,30 @@ if
 self
 .
 jobs
-is
-None
-or
+and
 job_try_name
+not
 in
 self
 .
 jobs
+:
+                
+return
+False
+            
+elif
+not
+self
+.
+jobs
+and
+attr
+(
+'
+build_platform
+'
+)
 :
                 
 if
@@ -4364,6 +4380,12 @@ self
 platforms
 :
                     
+return
+True
+                
+return
+False
+            
 return
 True
         
