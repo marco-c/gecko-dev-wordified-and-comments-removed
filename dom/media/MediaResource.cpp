@@ -193,6 +193,15 @@ nsIContentPolicy
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorNames
+.
+h
+"
 using
 mozilla
 :
