@@ -113,10 +113,6 @@ attribute
 EventHandler
 onfetch
 ;
-attribute
-EventHandler
-onforeignfetch
-;
 /
 /
 event

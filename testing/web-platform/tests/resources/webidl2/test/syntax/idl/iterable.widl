@@ -20,3 +20,16 @@ double
 ;
 }
 ;
+interface
+IterableThree
+{
+iterable
+<
+[
+XAttr
+]
+long
+>
+;
+}
+;

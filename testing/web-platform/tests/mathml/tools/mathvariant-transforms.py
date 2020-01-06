@@ -797,7 +797,7 @@ single
 -
 char
 <
-mi
+mtext
 >
 with
 a
@@ -809,7 +809,7 @@ equivalent
 to
 an
 <
-mi
+mtext
 >
 with
 the
@@ -1087,7 +1087,7 @@ span
 math
 >
 <
-mi
+mtext
 mathvariant
 =
 "
@@ -1103,7 +1103,7 @@ x
 ;
 <
 /
-mi
+mtext
 >
 <
 /
@@ -1144,7 +1144,7 @@ span
 math
 >
 <
-mi
+mtext
 >
 &
 #
@@ -1154,7 +1154,7 @@ x
 ;
 <
 /
-mi
+mtext
 >
 <
 /

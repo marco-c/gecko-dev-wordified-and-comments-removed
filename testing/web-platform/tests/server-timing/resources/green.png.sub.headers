@@ -3,11 +3,15 @@ Server
 Timing
 :
 metric3
+;
+dur
 =
 3
 .
 1
 ;
+desc
+=
 green
 .
 png

@@ -73,11 +73,6 @@ nullable
 :
 false
 "
-array
-"
-:
-false
-"
 union
 "
 :
@@ -191,11 +186,6 @@ nullable
 :
 false
 "
-array
-"
-:
-false
-"
 union
 "
 :
@@ -268,11 +258,6 @@ generic
 null
 "
 nullable
-"
-:
-false
-"
-array
 "
 :
 false

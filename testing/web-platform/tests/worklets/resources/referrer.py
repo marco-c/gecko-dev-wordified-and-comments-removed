@@ -57,7 +57,6 @@ first
 "
 is_cross_origin
 "
-False
 )
     
 response_headers
@@ -152,6 +151,11 @@ origin
         
 if
 is_cross_origin
+=
+=
+"
+true
+"
 and
 not
 referrer
@@ -166,8 +170,12 @@ response_headers
 )
         
 if
-not
 is_cross_origin
+=
+=
+"
+false
+"
 and
 referrer
 :

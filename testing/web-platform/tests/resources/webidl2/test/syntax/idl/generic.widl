@@ -22,8 +22,6 @@ Promise
 <
 DOMString
 >
-[
-]
 baz
 ;
 }
@@ -60,8 +58,6 @@ ServiceWorkerClients
 Promise
 <
 Client
-[
-]
 ?
 >
 getServiced

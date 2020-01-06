@@ -423,14 +423,6 @@ set
 "
 common
 "
-                             
-"
-work
--
-in
--
-progress
-"
 ]
 )
     
@@ -483,19 +475,6 @@ css
 "
 "
 common
-"
-)
-                         
-(
-"
-css
-"
-"
-work
--
-in
--
-progress
 "
 )
 }

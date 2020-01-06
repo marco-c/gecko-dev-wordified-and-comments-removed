@@ -19,3 +19,16 @@ long
 ;
 }
 ;
+interface
+SetLikeExt
+{
+setlike
+<
+[
+XAttr
+]
+long
+>
+;
+}
+;
