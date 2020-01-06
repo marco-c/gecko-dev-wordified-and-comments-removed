@@ -225,6 +225,8 @@ ship_it_username
 "
 :
 "
+ship_it
+-
 ffxbld
 "
 }
