@@ -3610,7 +3610,7 @@ LayersDrawFPS
 aContainer
 -
 >
-IsScrollInfoLayer
+IsScrollableWithoutContent
 (
 )
 )
