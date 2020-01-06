@@ -24,11 +24,7 @@ JavaScript
 Version
 :
 MOZILLA_VERSION
-Requires
-.
-private
-:
-NSPR_PKGCONF_CHECK
+PKGCONF_REQUIRES_PRIVATE
 Libs
 :
 -
