@@ -367,7 +367,9 @@ Services
 .
 tm
 .
-idleDispatchToMainThread
+mainThread
+.
+idleDispatch
 (
 this
 .
