@@ -709,16 +709,6 @@ aGenericChannel
 )
 ;
 static
-nsresult
-GetPluginTempDir
-(
-nsIFile
-*
-*
-aDir
-)
-;
-static
 bool
 IsTypeWhitelisted
 (
