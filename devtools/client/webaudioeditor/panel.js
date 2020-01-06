@@ -52,16 +52,6 @@ webaudio
 "
 )
 ;
-var
-Promise
-=
-require
-(
-"
-promise
-"
-)
-;
 function
 WebAudioEditorPanel
 (

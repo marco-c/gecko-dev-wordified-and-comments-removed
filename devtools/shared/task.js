@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-Promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 defer
 =
 require
