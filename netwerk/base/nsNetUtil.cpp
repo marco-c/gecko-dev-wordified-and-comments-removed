@@ -1570,6 +1570,7 @@ nsContentUtils
 HtmlObjectContentTypeForMIMEType
 (
 mimeType
+false
 nullptr
 )
 =
