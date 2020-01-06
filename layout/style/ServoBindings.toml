@@ -581,6 +581,11 @@ nsMediaList
 .
 h
 "
+"
+nsXBLBinding
+.
+h
+"
 ]
 raw
 -
@@ -2160,6 +2165,9 @@ RawGeckoServoStyleRuleList
 RawGeckoURLExtraData
 "
 "
+RawGeckoXBLBinding
+"
+"
 RefPtr
 "
 "
@@ -2547,6 +2555,9 @@ RawGeckoPresContext
 "
 "
 RawGeckoStyleAnimationList
+"
+"
+RawGeckoXBLBinding
 "
 ]
 servo

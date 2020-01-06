@@ -689,6 +689,17 @@ GetRuleProcessor
 (
 )
 ;
+const
+mozilla
+:
+:
+ServoStyleSet
+*
+GetServoStyleSet
+(
+)
+const
+;
 nsresult
 FlushSkinSheets
 (

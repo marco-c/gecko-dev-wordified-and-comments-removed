@@ -165,6 +165,9 @@ nsPresContext
 struct
 nsTimingFunction
 ;
+class
+nsXBLBinding
+;
 using
 mozilla
 :
@@ -201,6 +204,10 @@ RawGeckoDocument
 typedef
 nsPresContext
 RawGeckoPresContext
+;
+typedef
+nsXBLBinding
+RawGeckoXBLBinding
 ;
 typedef
 mozilla
@@ -475,6 +482,10 @@ DECL_OWNED_REF_TYPE_FOR
 (
 RawServoStyleSet
 )
+DECL_NULLABLE_BORROWED_REF_TYPE_FOR
+(
+RawServoStyleSet
+)
 DECL_NULLABLE_OWNED_REF_TYPE_FOR
 (
 StyleChildrenIterator
@@ -514,6 +525,14 @@ RawGeckoDocument
 DECL_NULLABLE_BORROWED_REF_TYPE_FOR
 (
 RawGeckoDocument
+)
+DECL_BORROWED_REF_TYPE_FOR
+(
+RawGeckoXBLBinding
+)
+DECL_NULLABLE_BORROWED_REF_TYPE_FOR
+(
+RawGeckoXBLBinding
 )
 DECL_BORROWED_MUT_REF_TYPE_FOR
 (
@@ -590,6 +609,10 @@ nsCSSPropertyIDSet
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawGeckoCSSPropertyIDList
+)
+DECL_BORROWED_REF_TYPE_FOR
+(
+nsXBLBinding
 )
 #
 undef
