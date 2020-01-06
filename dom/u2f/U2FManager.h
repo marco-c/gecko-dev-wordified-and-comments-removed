@@ -341,8 +341,8 @@ false
 >
 BackgroundActorPromise
 ;
-void
-GetOrCreateBackgroundActor
+bool
+MaybeCreateBackgroundActor
 (
 )
 ;
