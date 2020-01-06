@@ -228,6 +228,17 @@ gContextMenuContentData
 null
 ;
 function
+setContextMenuContentData
+(
+data
+)
+{
+gContextMenuContentData
+=
+data
+;
+}
+function
 openContextMenu
 (
 aMessage
