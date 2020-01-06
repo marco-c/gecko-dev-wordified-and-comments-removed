@@ -1084,6 +1084,7 @@ spec
 default
 :
 throw
+new
 TypeError
 (
 Unknown
@@ -1166,6 +1167,7 @@ currentTitle
 default
 :
 throw
+new
 TypeError
 (
 Unknown
@@ -10190,6 +10192,7 @@ toDelete
 }
 }
 throw
+new
 UnknownError
 (
 "
@@ -12300,6 +12303,7 @@ boolean
 )
 {
 throw
+new
 InvalidArgumentError
 (
 )

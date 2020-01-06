@@ -64,6 +64,7 @@ undefined
 )
 {
 throw
+new
 TypeError
 (
 "
