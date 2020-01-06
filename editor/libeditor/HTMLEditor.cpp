@@ -14977,7 +14977,7 @@ rv
 aSelection
 -
 >
-CollapseNative
+Collapse
 (
 headNode
 0
@@ -15003,7 +15003,7 @@ return
 aSelection
 -
 >
-ExtendNative
+Extend
 (
 headNode
 childCount
@@ -16397,7 +16397,7 @@ NS_SUCCEEDED
 selection
 -
 >
-CollapseNative
+Collapse
 (
 node
 0
@@ -16863,7 +16863,7 @@ return
 aSelection
 -
 >
-CollapseNative
+Collapse
 (
 rootElement
 0

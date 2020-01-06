@@ -5469,7 +5469,7 @@ rv
 aSelection
 -
 >
-CollapseNative
+Collapse
 (
 body
 0
