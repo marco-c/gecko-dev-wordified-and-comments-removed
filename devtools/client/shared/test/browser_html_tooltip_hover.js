@@ -347,7 +347,7 @@ container
 type
 :
 "
-mouseout
+mousemove
 "
 }
 doc
