@@ -78,6 +78,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1305,6 +1314,9 @@ aChannels
 2
 )
 ;
+Unused
+<
+<
 fwrite
 (
 header
@@ -1353,6 +1365,9 @@ FILE
 aFile
 )
 {
+Unused
+<
+<
 fwrite
 (
 aInput
@@ -1463,6 +1478,9 @@ i
 )
 ;
 }
+Unused
+<
+<
 fwrite
 (
 output
