@@ -2969,8 +2969,10 @@ endif
 #
 ifdef
 NS_ENABLE_TSF
+RefPtr
+<
 ITfMessagePump
-*
+>
 msgPump
 =
 TSFTextStore
@@ -3054,8 +3056,10 @@ aLastMessage
 #
 ifdef
 NS_ENABLE_TSF
+RefPtr
+<
 ITfMessagePump
-*
+>
 msgPump
 =
 TSFTextStore
