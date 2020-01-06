@@ -141,6 +141,14 @@ GetType
 =
 0
 ;
+bool
+IsDataValid
+(
+WebRenderLayerManager
+*
+aManager
+)
+;
 protected
 :
 virtual

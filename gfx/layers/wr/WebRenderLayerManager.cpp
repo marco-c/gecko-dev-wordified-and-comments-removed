@@ -447,6 +447,12 @@ aIsSync
 )
 ;
 }
+mLastCanvasDatas
+.
+Clear
+(
+)
+;
 if
 (
 mTransactionIdAllocator
