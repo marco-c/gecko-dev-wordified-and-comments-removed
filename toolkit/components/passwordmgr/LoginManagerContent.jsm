@@ -2324,7 +2324,7 @@ hasLoginForm
 !
 thisWindow
 .
-isSecureContextIfOpenerIgnored
+isSecureContext
 )
 |
 |

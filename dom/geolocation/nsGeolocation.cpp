@@ -4709,7 +4709,7 @@ win
 )
 -
 >
-IsSecureContextIfOpenerIgnored
+IsSecureContext
 (
 )
 )
