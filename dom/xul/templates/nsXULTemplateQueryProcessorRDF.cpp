@@ -209,6 +209,13 @@ nsIDocument
 h
 "
 #
+include
+"
+nsIRDFCompositeDataSource
+.
+h
+"
+#
 define
 PARSE_TYPE_INTEGER
 "
