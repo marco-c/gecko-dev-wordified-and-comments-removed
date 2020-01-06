@@ -2114,6 +2114,13 @@ return
 mCanvasElement
 ;
 }
+nsIDocument
+*
+GetOwnerDoc
+(
+)
+const
+;
 void
 Commit
 (
