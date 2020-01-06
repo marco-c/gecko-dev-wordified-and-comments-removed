@@ -36,6 +36,12 @@ sourcemaps
 )
 ;
 await
+waitForLoadedSources
+(
+dbg
+)
+;
+await
 reload
 (
 dbg
