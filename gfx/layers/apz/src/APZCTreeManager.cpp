@@ -7222,6 +7222,17 @@ GetScrollThumbData
 (
 )
 ;
+MOZ_ASSERT
+(
+thumbData
+.
+mDirection
+.
+isSome
+(
+)
+)
+;
 dragBlock
 -
 >
@@ -7332,6 +7343,7 @@ mThumbStart
 +
 (
 (
+*
 thumbData
 .
 mDirection
@@ -7340,7 +7352,7 @@ mDirection
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 )
 ?
 thumbTransform
@@ -7392,6 +7404,7 @@ GetGuid
 mPresShellId
 dragBlockId
 dragStart
+*
 thumbData
 .
 mDirection

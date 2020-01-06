@@ -458,12 +458,10 @@ return
 mScrollThumbData
 .
 mDirection
-!
-=
-ScrollDirection
-:
-:
-NONE
+.
+isSome
+(
+)
 ;
 }
 bool

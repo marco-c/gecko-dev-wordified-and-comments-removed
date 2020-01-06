@@ -51,7 +51,7 @@ aDir
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 )
 {
 return
@@ -96,7 +96,7 @@ aDir
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 )
 {
 return
@@ -149,7 +149,7 @@ aDir
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 )
 {
 return
@@ -200,7 +200,7 @@ aDir
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 )
 {
 return
@@ -233,17 +233,17 @@ aDir
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 ?
 ScrollDirection
 :
 :
-VERTICAL
+eVertical
 :
 ScrollDirection
 :
 :
-HORIZONTAL
+eHorizontal
 ;
 }
 }
