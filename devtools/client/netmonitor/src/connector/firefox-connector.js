@@ -810,6 +810,13 @@ onReloaded
 (
 )
 {
+if
+(
+this
+.
+panel
+)
+{
 this
 .
 panel
@@ -821,6 +828,7 @@ reloaded
 "
 )
 ;
+}
 }
 displayCachedEvents
 (
