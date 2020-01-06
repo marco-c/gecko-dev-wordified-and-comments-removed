@@ -340,7 +340,10 @@ attribute
 boolean
 loop
 ;
+Promise
+<
 void
+>
 play
 (
 )
