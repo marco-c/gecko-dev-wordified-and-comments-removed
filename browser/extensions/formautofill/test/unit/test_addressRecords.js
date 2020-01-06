@@ -2432,7 +2432,9 @@ mergeToStorage
 (
 anotherAddress
 )
-true
+.
+length
+2
 )
 ;
 do_check_eq
