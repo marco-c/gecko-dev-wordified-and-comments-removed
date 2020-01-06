@@ -22,6 +22,12 @@ addPermission
 (
 )
 ;
+browserElementTestHelpers
+.
+allowTopLevelDataURINavigation
+(
+)
+;
 function
 createHtml
 (
