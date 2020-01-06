@@ -1201,6 +1201,15 @@ specified
 :
 VariantLigatures
 ;
+pub
+type
+FontVariantNumeric
+=
+specified
+:
+:
+VariantNumeric
+;
 #
 [
 derive

@@ -299,6 +299,7 @@ font
 :
 {
 FontVariantLigatures
+FontVariantNumeric
 MozScriptLevel
 MozScriptMinSize
 XTextZoom
