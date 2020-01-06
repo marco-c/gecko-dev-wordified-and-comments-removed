@@ -119,6 +119,17 @@ GetOriginQuotaUsage
 const
 override
 ;
+bool
+IsForkOf
+(
+const
+Storage
+*
+aStorage
+)
+const
+override
+;
 uint32_t
 GetLength
 (
