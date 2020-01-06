@@ -3098,12 +3098,8 @@ nsGlobalWindowOuter
 (
 )
 :
-nsPIDOMWindow
-<
-nsISupports
->
+nsPIDOMWindowOuter
 (
-nullptr
 )
 mIdleFuzzFactor
 (

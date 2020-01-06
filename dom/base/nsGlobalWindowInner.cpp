@@ -1830,10 +1830,7 @@ nsGlobalWindowOuter
 aOuterWindow
 )
 :
-nsPIDOMWindow
-<
-nsISupports
->
+nsPIDOMWindowInner
 (
 aOuterWindow
 -
