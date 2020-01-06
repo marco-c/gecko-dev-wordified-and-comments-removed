@@ -7116,6 +7116,9 @@ ResolveCallback
 T
 =
 resolvetype
+ref
+=
+2
 )
                         
 '
@@ -7144,6 +7147,9 @@ ipc
 :
 RejectCallback
 "
+ref
+=
+2
 )
 '
 aReject
