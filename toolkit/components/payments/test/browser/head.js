@@ -539,6 +539,7 @@ load
 ;
 }
 )
+;
 await
 taskFn
 (
