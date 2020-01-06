@@ -1464,7 +1464,7 @@ webextPerms
 .
 description
 .
-tabs
+history
 "
 ]
 [
@@ -1473,7 +1473,7 @@ webextPerms
 .
 description
 .
-history
+tabs
 "
 ]
 ]
