@@ -1321,6 +1321,12 @@ GetMediaElement
 (
 )
 )
+mContainerType
+(
+aInit
+.
+mContainerType
+)
 {
 MOZ_ASSERT
 (

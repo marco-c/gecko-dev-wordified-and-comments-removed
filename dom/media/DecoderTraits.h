@@ -87,10 +87,6 @@ ChannelMediaDecoder
 >
 CreateDecoder
 (
-const
-nsACString
-&
-aType
 MediaDecoderInit
 &
 aInit
