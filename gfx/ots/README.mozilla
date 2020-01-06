@@ -58,6 +58,11 @@ src
 /
 include
 /
+tests
+/
+*
+.
+cc
 Additional
 files
 :
