@@ -329,11 +329,34 @@ endswith
 )
 :
             
-raise
-HTTPException
+response
+.
+status
+=
+301
+            
+response
+.
+headers
+=
+[
 (
-404
+"
+Location
+"
+"
+%
+s
+/
+"
+%
+request
+.
+url
 )
+]
+            
+return
         
 path
 =

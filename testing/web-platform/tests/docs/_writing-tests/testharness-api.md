@@ -1697,7 +1697,7 @@ assert_
 *
 functions
 are
-avaliable
+available
 as
 normal
 but
@@ -1828,7 +1828,7 @@ full
 list
 of
 asserts
-avaliable
+available
 is
 documented
 in
@@ -4265,7 +4265,7 @@ capability
 since
 they
 are
-runing
+running
 in
 the
 background
