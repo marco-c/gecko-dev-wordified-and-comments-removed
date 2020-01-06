@@ -1,3 +1,8 @@
+setExpectedFailuresForSelfTest
+(
+1
+)
+;
 function
 test
 (
