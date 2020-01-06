@@ -56,7 +56,14 @@ final
 boolean
 DEBUG
 =
-false
+AppConstants
+.
+NIGHTLY_BUILD
+|
+|
+AppConstants
+.
+DEBUG_BUILD
 ;
 private
 BaseHlsPlayer
