@@ -13420,13 +13420,6 @@ Kind
 from
 taskgraph
 .
-optimize
-import
-optimize_task
-        
-from
-taskgraph
-.
 util
 .
 taskcluster
@@ -14076,6 +14069,13 @@ if
 from_build
 :
             
+from
+taskgraph
+.
+optimize
+import
+IndexSearch
+            
 params
 =
 {
@@ -14424,11 +14424,30 @@ return
                 
 task_id
 =
-optimize_task
+IndexSearch
 (
+)
+.
+should_replace_task
+(
+                    
 task
 {
 }
+task
+.
+optimization
+.
+get
+(
+'
+index
+-
+search
+'
+[
+]
+)
 )
                 
 artifact_name
