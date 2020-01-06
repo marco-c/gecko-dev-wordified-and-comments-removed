@@ -3468,6 +3468,13 @@ node
 null
 &
 &
+"
+nodeType
+"
+in
+node
+&
+&
 node
 .
 nodeType
