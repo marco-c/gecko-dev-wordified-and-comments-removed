@@ -2092,15 +2092,6 @@ NotifyCueDisplayStatesChanged
 )
 ;
 bool
-GetHasUserInteraction
-(
-)
-{
-return
-mHasUserInteraction
-;
-}
-bool
 IsCurrentlyPlaying
 (
 )
