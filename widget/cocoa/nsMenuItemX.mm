@@ -1478,13 +1478,11 @@ else
 {
 keyChar
 .
-Assign
+AssignLiteral
 (
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
 )
 ;
 }
