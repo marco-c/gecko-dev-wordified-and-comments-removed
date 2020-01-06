@@ -3088,6 +3088,8 @@ ClampToScaleFactor
 (
 gfxFloat
 aVal
+bool
+aRoundDown
 )
 {
 static
@@ -3179,6 +3181,9 @@ else
 if
 (
 inverse
+!
+=
+aRoundDown
 )
 {
 power

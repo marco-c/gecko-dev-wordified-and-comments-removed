@@ -480,6 +480,10 @@ ClampToScaleFactor
 (
 gfxFloat
 aVal
+bool
+aRoundDown
+=
+false
 )
 ;
 static
