@@ -4241,6 +4241,15 @@ ChangeType
 :
 RuleChanged
 :
+case
+StyleSheet
+:
+:
+ChangeType
+:
+:
+ReparsedFromInspector
+:
 return
 MarkOriginsDirty
 (
