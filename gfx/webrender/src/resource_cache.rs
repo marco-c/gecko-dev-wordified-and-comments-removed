@@ -69,6 +69,7 @@ api
 {
 FontInstanceOptions
 FontInstancePlatformOptions
+FontVariation
 }
 ;
 use
@@ -1528,6 +1529,9 @@ options
 instance
 .
 platform_options
+instance
+.
+variations
 )
 ;
 }
@@ -1677,6 +1681,12 @@ Option
 <
 FontInstancePlatformOptions
 >
+variations
+:
+Vec
+<
+FontVariation
+>
 )
 {
 let
@@ -1761,6 +1771,7 @@ new
 render_mode
 subpx_dir
 platform_options
+variations
 )
 ;
 self

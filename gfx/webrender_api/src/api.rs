@@ -22,6 +22,7 @@ use
 FontInstance
 FontInstanceOptions
 FontInstancePlatformOptions
+FontVariation
 NativeFontHandle
 WorldPoint
 }
@@ -431,6 +432,12 @@ Option
 <
 FontInstancePlatformOptions
 >
+variations
+:
+Vec
+<
+FontVariation
+>
 )
 {
 self
@@ -451,6 +458,7 @@ font_key
 glyph_size
 options
 platform_options
+variations
 }
 )
 )
@@ -662,6 +670,13 @@ Option
 <
 FontInstancePlatformOptions
 >
+pub
+variations
+:
+Vec
+<
+FontVariation
+>
 }
 #
 [
@@ -739,6 +754,9 @@ DeviceUintSize
 inner_rect
 :
 DeviceUintRect
+device_pixel_ratio
+:
+f32
 }
 Scroll
 (
@@ -2844,6 +2862,9 @@ DeviceUintSize
 inner_rect
 :
 DeviceUintRect
+device_pixel_ratio
+:
+f32
 )
 {
 self
@@ -2858,6 +2879,7 @@ SetWindowParameters
 {
 window_size
 inner_rect
+device_pixel_ratio
 }
 )
 ;

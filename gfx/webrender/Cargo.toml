@@ -11,7 +11,7 @@ version
 "
 0
 .
-50
+51
 .
 0
 "
@@ -448,6 +448,15 @@ macos
 .
 dependencies
 ]
+core
+-
+foundation
+=
+"
+0
+.
+3
+"
 core
 -
 graphics

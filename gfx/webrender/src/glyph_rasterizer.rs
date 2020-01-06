@@ -2061,6 +2061,12 @@ SubpixelDirection
 :
 Horizontal
 None
+Vec
+:
+:
+new
+(
+)
 )
 ;
 let

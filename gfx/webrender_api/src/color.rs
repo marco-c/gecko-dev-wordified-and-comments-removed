@@ -266,6 +266,7 @@ state
 ;
 }
 }
+pub
 trait
 ToBits
 {

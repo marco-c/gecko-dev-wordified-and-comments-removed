@@ -1555,6 +1555,12 @@ from_px
 )
 None
 None
+Vec
+:
+:
+new
+(
+)
 )
 ;
 let
