@@ -264,7 +264,7 @@ x64
 %
 TOPSRCDIR
 ]
-LOCAL_includes
+LOCAL_INCLUDES
 +
 =
 [
