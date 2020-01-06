@@ -5084,15 +5084,11 @@ global
 js_JSON_str
 JSON
 JSPROP_RESOLVING
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
-{
 return
 nullptr
 ;
-}
 if
 (
 !

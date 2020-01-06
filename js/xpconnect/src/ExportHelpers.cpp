@@ -2036,8 +2036,6 @@ targetScope
 id
 rval
 JSPROP_ENUMERATE
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
 {
@@ -2248,8 +2246,6 @@ options
 defineAs
 obj
 JSPROP_ENUMERATE
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
 return

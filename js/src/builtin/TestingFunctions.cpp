@@ -12215,11 +12215,8 @@ index
 "
 createdIndex
 0
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
-{
 oomUnsafe
 .
 crash
@@ -12232,7 +12229,6 @@ build
 "
 )
 ;
-}
 if
 (
 !
@@ -12245,11 +12241,8 @@ stack
 "
 stack
 0
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
-{
 oomUnsafe
 .
 crash
@@ -12262,7 +12255,6 @@ build
 "
 )
 ;
-}
 int
 stackIndex
 =
@@ -12353,11 +12345,8 @@ stack
 id
 callee
 0
-JS_STUBGETTER
-JS_STUBSETTER
 )
 )
-{
 oomUnsafe
 .
 crash
@@ -12370,7 +12359,6 @@ build
 "
 )
 ;
-}
 stackIndex
 +
 +
