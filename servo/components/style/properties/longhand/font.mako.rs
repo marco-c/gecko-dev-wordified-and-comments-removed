@@ -16284,6 +16284,7 @@ variant
 "
 "
 "
+none
 normal
 bold
 italic
@@ -16359,6 +16360,11 @@ animation_value_type
 =
 "
 none
+"
+need_clone
+=
+"
+True
 "
 needs_conversion
 =
