@@ -261,6 +261,17 @@ jsscriptinlines
 .
 h
 "
+#
+include
+"
+gc
+/
+Iteration
+-
+inl
+.
+h
+"
 using
 namespace
 js

@@ -103,6 +103,17 @@ jsgcinlines
 .
 h
 "
+#
+include
+"
+gc
+/
+Marking
+-
+inl
+.
+h
+"
 using
 namespace
 js
