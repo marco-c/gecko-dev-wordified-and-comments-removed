@@ -39,7 +39,6 @@ CSSSupportsRule
 {
 public
 :
-explicit
 ServoSupportsRule
 (
 RefPtr
@@ -47,6 +46,10 @@ RefPtr
 RawServoSupportsRule
 >
 aRawRule
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

@@ -38,7 +38,6 @@ CSSNamespaceRule
 {
 public
 :
-explicit
 ServoNamespaceRule
 (
 already_AddRefed
@@ -46,12 +45,16 @@ already_AddRefed
 RawServoNamespaceRule
 >
 aRule
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 :
 CSSNamespaceRule
 (
-0
-0
+aLine
+aColumn
 )
 mRawRule
 (

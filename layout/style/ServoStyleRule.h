@@ -171,7 +171,6 @@ nsIDOMCSSStyleRule
 {
 public
 :
-explicit
 ServoStyleRule
 (
 already_AddRefed
@@ -179,6 +178,10 @@ already_AddRefed
 RawServoStyleRule
 >
 aRawRule
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

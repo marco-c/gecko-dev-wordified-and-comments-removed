@@ -312,6 +312,13 @@ ServoCssRulesBorrowed
 rules
 uint32_t
 index
+\
+uint32_t
+*
+line
+uint32_t
+*
+column
 )
 \
 SERVO_BINDING_FUNC

@@ -36,6 +36,10 @@ RefPtr
 RawServoDocumentRule
 >
 aRawRule
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 :
 CSSMozDocumentRule

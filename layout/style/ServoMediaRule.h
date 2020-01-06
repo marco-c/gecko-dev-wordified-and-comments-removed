@@ -42,7 +42,6 @@ CSSMediaRule
 {
 public
 :
-explicit
 ServoMediaRule
 (
 RefPtr
@@ -50,6 +49,10 @@ RefPtr
 RawServoMediaRule
 >
 aRawRule
+uint32_t
+aLine
+uint32_t
+aColumn
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
