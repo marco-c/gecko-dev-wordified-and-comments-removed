@@ -110,13 +110,13 @@ const
 UITOUR_JS_URI
 =
 "
-chrome
+resource
 :
 /
 /
-browser
+onboarding
 /
-content
+lib
 /
 UITour
 -
