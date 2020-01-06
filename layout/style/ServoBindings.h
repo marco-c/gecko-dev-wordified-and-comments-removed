@@ -1246,11 +1246,6 @@ aDoc
 )
 ;
 bool
-Gecko_AreVisitedLinksEnabled
-(
-)
-;
-bool
 Gecko_GetAnimationRule
 (
 RawGeckoElementBorrowed
