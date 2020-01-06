@@ -405,6 +405,9 @@ principalToInheritInfo
 OptionalPrincipalInfo
 sandboxedLoadingPrincipalInfo
 ;
+OptionalURIParams
+resultPrincipalURI
+;
 uint32_t
 securityFlags
 ;
