@@ -246,14 +246,6 @@ animationsId
 ;
 if
 (
-gfxPrefs
-:
-:
-WebRenderOMTAEnabled
-(
-)
-&
-&
 !
 GetAnimations
 (
