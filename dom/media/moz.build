@@ -272,6 +272,9 @@ DIRS
 =
 [
 '
+doctor
+'
+'
 eme
 '
 '
@@ -570,11 +573,6 @@ h
 '
 '
 CubebUtils
-.
-h
-'
-'
-DecoderDoctorDiagnostics
 .
 h
 '
@@ -1117,11 +1115,6 @@ cpp
 '
 '
 CubebUtils
-.
-cpp
-'
-'
-DecoderDoctorDiagnostics
 .
 cpp
 '
