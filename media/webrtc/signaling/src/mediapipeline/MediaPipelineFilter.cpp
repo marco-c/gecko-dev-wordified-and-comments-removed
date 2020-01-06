@@ -366,6 +366,16 @@ const
 {
 if
 (
+!
+data
+)
+{
+return
+false
+;
+}
+if
+(
 len
 <
 FIRST_SSRC_OFFSET
