@@ -314,6 +314,9 @@ const
 GLint
 mLoc_uColorMatrix
 ;
+GLenum
+mType_uColorMatrix
+;
 public
 :
 struct
