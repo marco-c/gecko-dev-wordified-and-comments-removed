@@ -1585,6 +1585,12 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
+)
 static
 TimeStamp
 FromSystemTime
