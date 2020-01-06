@@ -1274,16 +1274,6 @@ profiler_time
 )
 0
 )
-PROFILER_FUNC_VOID
-(
-profiler_log
-(
-const
-char
-*
-aStr
-)
-)
 PROFILER_FUNC
 (
 int

@@ -4271,8 +4271,11 @@ Dump
 ss
 )
 ;
-profiler_log
+profiler_tracing
 (
+"
+log
+"
 ss
 .
 str

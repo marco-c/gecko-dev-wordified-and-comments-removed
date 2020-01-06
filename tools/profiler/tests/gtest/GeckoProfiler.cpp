@@ -1685,13 +1685,6 @@ A
 "
 )
 ;
-profiler_log
-(
-"
-X
-"
-)
-;
 }
 profiler_add_marker
 (
