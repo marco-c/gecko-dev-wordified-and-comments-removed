@@ -264,6 +264,12 @@ closePicker
 (
 )
 ;
+this
+.
+close
+(
+)
+;
 break
 ;
 }

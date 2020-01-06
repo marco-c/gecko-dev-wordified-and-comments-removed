@@ -9451,6 +9451,16 @@ getTimePickerPref
 return
 ;
 }
+if
+(
+this
+.
+_inputElement
+)
+{
+return
+;
+}
 this
 .
 _inputElement
