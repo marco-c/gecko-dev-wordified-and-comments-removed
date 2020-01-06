@@ -4940,6 +4940,11 @@ aBuilder
 nsDisplayList
 *
 aList
+bool
+*
+aCreatedContainerItem
+=
+nullptr
 )
 ;
 enum
@@ -9294,6 +9299,11 @@ aBuilder
 nsDisplayList
 *
 aList
+bool
+*
+aCreatedContainerItem
+=
+nullptr
 )
 ;
 static
