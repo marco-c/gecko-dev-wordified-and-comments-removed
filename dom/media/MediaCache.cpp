@@ -6852,6 +6852,8 @@ i
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 switch
 (
@@ -6903,8 +6905,6 @@ i
 mResume
 )
 ;
-rv
-=
 stream
 -
 >

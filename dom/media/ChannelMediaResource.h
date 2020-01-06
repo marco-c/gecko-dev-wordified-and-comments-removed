@@ -209,7 +209,7 @@ CacheClientNotifySuspendedStatusChanged
 (
 )
 ;
-nsresult
+void
 CacheClientSeek
 (
 int64_t
@@ -581,6 +581,15 @@ override
 ;
 protected
 :
+nsresult
+Seek
+(
+int64_t
+aOffset
+bool
+aResume
+)
+;
 bool
 IsSuspendedByCache
 (
