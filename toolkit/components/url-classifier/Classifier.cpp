@@ -2341,6 +2341,7 @@ aResults
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -2348,9 +2349,11 @@ if
 !
 result
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 LOG
 (
 (
