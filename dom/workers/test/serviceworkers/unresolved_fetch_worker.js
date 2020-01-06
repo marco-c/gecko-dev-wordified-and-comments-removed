@@ -70,7 +70,7 @@ rej
 )
 ;
 }
-onactivate
+onmessage
 =
 function
 (
@@ -87,5 +87,11 @@ claim
 (
 )
 )
+;
+self
+.
+onmessage
+=
+null
 ;
 }
