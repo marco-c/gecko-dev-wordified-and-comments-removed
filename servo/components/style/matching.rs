@@ -648,7 +648,12 @@ ForCSSRuleChanges
 )
 &
 &
+(
 has_new_animation_style
+|
+|
+has_animations
+)
 )
 |
 |
