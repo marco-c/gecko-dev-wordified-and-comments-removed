@@ -231,7 +231,7 @@ else
 {
 RefPtr
 <
-MediaResource
+MockMediaResource
 >
 resource
 =
@@ -253,7 +253,6 @@ resource
 >
 Open
 (
-nullptr
 )
 ;
 EXPECT_TRUE
@@ -328,7 +327,7 @@ else
 {
 RefPtr
 <
-MediaResource
+MockMediaResource
 >
 resource
 =
@@ -350,7 +349,6 @@ resource
 >
 Open
 (
-nullptr
 )
 ;
 EXPECT_TRUE

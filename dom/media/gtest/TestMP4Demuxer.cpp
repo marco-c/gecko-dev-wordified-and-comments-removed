@@ -244,7 +244,6 @@ resource
 >
 Open
 (
-nullptr
 )
 )
 ;

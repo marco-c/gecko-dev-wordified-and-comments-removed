@@ -53,10 +53,6 @@ MockMediaResource
 :
 Open
 (
-nsIStreamListener
-*
-*
-aStreamListener
 )
 {
 mFileHandle

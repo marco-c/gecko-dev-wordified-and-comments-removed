@@ -1722,7 +1722,6 @@ mResource
 >
 Open
 (
-nullptr
 )
 )
 ;
