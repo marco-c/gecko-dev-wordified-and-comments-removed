@@ -122,9 +122,11 @@ set
 SERVO_BINDING_FUNC
 (
 Servo_StyleSet_MediumFeaturesChanged
-bool
+nsRestyleHint
 RawServoStyleSetBorrowed
 set
+bool
+viewport_changed
 )
 SERVO_BINDING_FUNC
 (
