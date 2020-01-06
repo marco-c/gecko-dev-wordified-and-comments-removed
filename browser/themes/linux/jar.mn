@@ -380,6 +380,17 @@ classic
 /
 browser
 /
+Toolbar
+-
+small
+.
+png
+skin
+/
+classic
+/
+browser
+/
 webRTC
 -
 indicator
@@ -900,7 +911,6 @@ unstarred48
 .
 png
 )
-*
 skin
 /
 classic
