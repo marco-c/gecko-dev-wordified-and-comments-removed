@@ -503,12 +503,6 @@ Request
 (
 )
 ;
-nsCOMPtr
-<
-nsIGlobalObject
->
-mOwner
-;
 RefPtr
 <
 InternalRequest
