@@ -1109,28 +1109,6 @@ virtualenv_modules
 [
                     
 "
-pip
-=
-=
-9
-.
-0
-.
-1
-"
-                    
-"
-setuptools
-=
-=
-36
-.
-6
-.
-0
-"
-                    
-"
 boto
 "
                     
@@ -1144,6 +1122,17 @@ Jinja2
                     
 "
 redo
+"
+                    
+"
+cryptography
+=
+=
+2
+.
+0
+.
+3
 "
                     
 "
