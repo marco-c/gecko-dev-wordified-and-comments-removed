@@ -455,7 +455,7 @@ AutoCheckCannotGC
 static
 JSLinearString
 *
-ArgToRootedString
+ArgToLinearString
 (
 JSContext
 *
@@ -512,16 +512,6 @@ str
 )
 return
 nullptr
-;
-args
-[
-argno
-]
-.
-setString
-(
-str
-)
 ;
 return
 str
@@ -1754,15 +1744,16 @@ argc
 vp
 )
 ;
-JSLinearString
-*
+RootedLinearString
 str
-=
-ArgToRootedString
+(
+cx
+ArgToLinearString
 (
 cx
 args
 0
+)
 )
 ;
 if
@@ -2413,7 +2404,7 @@ RootedLinearString
 str
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -7460,7 +7451,7 @@ JSLinearString
 *
 formStr
 =
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -11181,7 +11172,7 @@ RootedLinearString
 searchStr
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -11415,7 +11406,7 @@ RootedLinearString
 searchStr
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -11847,7 +11838,7 @@ RootedLinearString
 searchStr
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -12499,7 +12490,7 @@ RootedLinearString
 searchStr
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -12782,7 +12773,7 @@ RootedLinearString
 searchStr
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -23075,7 +23066,7 @@ RootedLinearString
 str
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -23132,7 +23123,7 @@ RootedLinearString
 str
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -23189,7 +23180,7 @@ RootedLinearString
 str
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
@@ -23247,7 +23238,7 @@ RootedLinearString
 str
 (
 cx
-ArgToRootedString
+ArgToLinearString
 (
 cx
 args
