@@ -82,7 +82,7 @@ category
 webextension
 -
 schemas
-menus_internal
+context_menus_internal
 chrome
 :
 /
@@ -93,6 +93,6 @@ content
 /
 schemas
 /
-menus_internal
+context_menus_internal
 .
 json
