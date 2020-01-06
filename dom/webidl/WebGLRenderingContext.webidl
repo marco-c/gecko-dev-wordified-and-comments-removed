@@ -1312,6 +1312,9 @@ SAMPLE_COVERAGE
 ErrorCode
 *
 /
+[
+NeedsWindowsUndef
+]
 const
 GLenum
 NO_ERROR

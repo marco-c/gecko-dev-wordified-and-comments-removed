@@ -1738,6 +1738,9 @@ CONDITION_SATISFIED
 =
 0x911C
 ;
+[
+NeedsWindowsUndef
+]
 const
 GLenum
 WAIT_FAILED
