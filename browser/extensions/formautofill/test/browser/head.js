@@ -1980,10 +1980,9 @@ click
 )
 ;
 }
-registerCleanupFunction
-(
 async
 function
+removeAllRecords
 (
 )
 {
@@ -2052,5 +2051,8 @@ guid
 ;
 }
 }
+registerCleanupFunction
+(
+removeAllRecords
 )
 ;
