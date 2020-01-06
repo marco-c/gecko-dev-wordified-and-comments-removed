@@ -9098,13 +9098,13 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+nsresult
 Selection
 :
 :
 SetTextRangeStyle
 (
-nsIDOMRange
+nsRange
 *
 aRange
 const
