@@ -413,9 +413,6 @@ mVisibleRegion
 ToUnknownRegion
 (
 )
-aState
-.
-mDidSelfCopy
 )
 ;
 }
