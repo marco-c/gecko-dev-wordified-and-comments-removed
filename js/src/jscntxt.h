@@ -3493,7 +3493,17 @@ void
 freeOsrTempData
 (
 )
+{
+js_free
+(
+osrTempData_
+)
 ;
+osrTempData_
+=
+nullptr
+;
+}
 js
 :
 :
