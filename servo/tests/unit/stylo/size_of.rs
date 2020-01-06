@@ -288,6 +288,14 @@ Rule
 size_of_test
 !
 (
+test_size_of_cv
+ComputedValues
+272
+)
+;
+size_of_test
+!
+(
 test_size_of_option_arc_cv
 Option
 <
