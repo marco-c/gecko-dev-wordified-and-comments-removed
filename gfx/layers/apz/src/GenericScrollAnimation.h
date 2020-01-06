@@ -44,6 +44,10 @@ const
 nsPoint
 &
 aInitialPosition
+const
+ScrollAnimationPhysicsSettings
+&
+aSettings
 )
 ;
 bool
@@ -120,7 +124,10 @@ AsyncPanZoomController
 &
 mApzc
 ;
+UniquePtr
+<
 ScrollAnimationPhysics
+>
 mAnimationPhysics
 ;
 nsPoint
