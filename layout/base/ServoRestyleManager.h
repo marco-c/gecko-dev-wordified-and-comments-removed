@@ -342,7 +342,7 @@ mReentrantChanges
 }
 private
 :
-void
+bool
 ProcessPostTraversal
 (
 Element
@@ -362,7 +362,7 @@ aChangeList
 struct
 TextPostTraversalState
 ;
-void
+bool
 ProcessPostTraversalForText
 (
 nsIContent
