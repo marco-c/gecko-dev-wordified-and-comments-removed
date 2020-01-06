@@ -243,6 +243,12 @@ MacroAssemblerMIPSShared
 :
 ma_subTestOverflow
 ;
+using
+MacroAssemblerMIPSShared
+:
+:
+ma_liPatchable
+;
 void
 ma_li
 (

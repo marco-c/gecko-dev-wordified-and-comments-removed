@@ -1685,14 +1685,7 @@ Address
 &
 addr
 )
-DEFINED_ON
-(
-x86_shared
-arm
-arm64
-mips32
-mips64
-)
+PER_SHARED_ARCH
 ;
 void
 call
