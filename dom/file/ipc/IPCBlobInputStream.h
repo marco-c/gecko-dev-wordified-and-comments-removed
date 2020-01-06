@@ -39,13 +39,6 @@ nsISeekableStream
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 namespace
 mozilla
 {
