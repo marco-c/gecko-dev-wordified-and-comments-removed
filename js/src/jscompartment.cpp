@@ -2059,6 +2059,11 @@ return
 true
 ;
 }
+ExposeObjectToActiveJS
+(
+obj
+)
+;
 auto
 wrap
 =
