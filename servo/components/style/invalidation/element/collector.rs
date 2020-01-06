@@ -1718,8 +1718,6 @@ removed_id
 self
 .
 classes_removed
-&
-mut
 |
 dependency
 |
@@ -1776,8 +1774,6 @@ removed_id
 self
 .
 classes_removed
-&
-mut
 |
 dependency
 |

@@ -5620,8 +5620,6 @@ element
 self
 .
 quirks_mode
-&
-mut
 |
 selector_and_hashes
 |
@@ -5682,8 +5680,6 @@ element
 stylist
 .
 quirks_mode
-&
-mut
 |
 selector_and_hashes
 |
