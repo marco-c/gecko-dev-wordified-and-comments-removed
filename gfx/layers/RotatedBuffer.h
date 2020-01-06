@@ -1214,7 +1214,6 @@ ContextSource
 aSource
 )
 const
-override
 ;
 virtual
 gfx
@@ -1233,7 +1232,6 @@ HaveBuffer
 (
 )
 const
-override
 {
 return
 !
@@ -1247,7 +1245,6 @@ HaveBufferOnWhite
 (
 )
 const
-override
 {
 return
 !
@@ -1265,7 +1262,6 @@ GetDTBuffer
 (
 )
 const
-override
 {
 return
 nullptr
@@ -1281,7 +1277,6 @@ GetDTBufferOnWhite
 (
 )
 const
-override
 {
 return
 nullptr
