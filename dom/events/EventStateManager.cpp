@@ -12543,6 +12543,14 @@ return
 }
 }
 }
+if
+(
+aKeyboardEvent
+-
+>
+mWidget
+)
+{
 aKeyboardEvent
 -
 >
@@ -12554,6 +12562,7 @@ PostHandleKeyEvent
 aKeyboardEvent
 )
 ;
+}
 if
 (
 aKeyboardEvent
