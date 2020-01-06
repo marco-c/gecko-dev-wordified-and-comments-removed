@@ -94,7 +94,6 @@ function
 SwatchBasedEditorTooltip
 (
 document
-stylesheet
 useInline
 )
 {
@@ -149,7 +148,6 @@ true
 useXulWrapper
 :
 true
-stylesheet
 }
 )
 ;
