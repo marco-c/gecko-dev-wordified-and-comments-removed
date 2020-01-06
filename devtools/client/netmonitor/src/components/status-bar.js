@@ -608,6 +608,13 @@ StatusBar
 propTypes
 =
 {
+connector
+:
+PropTypes
+.
+object
+.
+isRequired
 openStatistics
 :
 PropTypes
@@ -676,6 +683,7 @@ firstDocumentLoadTimestamp
 )
 (
 dispatch
+props
 )
 =
 >
@@ -693,6 +701,9 @@ Actions
 .
 openStatistics
 (
+props
+.
+connector
 true
 )
 )
