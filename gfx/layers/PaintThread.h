@@ -274,7 +274,7 @@ FinishedLayerBatch
 )
 ;
 void
-SynchronizePaintTextures
+FinishedLayerTransaction
 (
 SyncObjectClient
 *
@@ -333,7 +333,7 @@ EndAsyncPaintingLayer
 )
 ;
 void
-SyncTextureData
+EndAsyncLayerTransaction
 (
 CompositorBridgeChild
 *
