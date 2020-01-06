@@ -6214,7 +6214,7 @@ GetEffectiveContentSandboxLevel
 (
 )
 >
-0
+2
 &
 &
 !
