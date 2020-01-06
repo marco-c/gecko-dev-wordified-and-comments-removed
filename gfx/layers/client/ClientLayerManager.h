@@ -916,7 +916,7 @@ mNeedsComposite
 }
 virtual
 void
-Composite
+ScheduleComposite
 (
 )
 override

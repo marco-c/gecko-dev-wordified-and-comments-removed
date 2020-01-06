@@ -997,7 +997,7 @@ GetLayerManager
 )
 -
 >
-Composite
+ScheduleComposite
 (
 )
 ;
@@ -1280,7 +1280,7 @@ GetLayerManager
 )
 -
 >
-Composite
+ScheduleComposite
 (
 )
 ;
@@ -1782,7 +1782,7 @@ GetLayerManager
 )
 -
 >
-Composite
+ScheduleComposite
 (
 )
 ;

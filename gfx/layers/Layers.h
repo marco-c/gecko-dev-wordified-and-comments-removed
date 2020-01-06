@@ -920,7 +920,7 @@ END_DEFAULT
 ;
 virtual
 void
-Composite
+ScheduleComposite
 (
 )
 {

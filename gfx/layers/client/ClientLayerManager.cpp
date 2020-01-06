@@ -2124,7 +2124,7 @@ void
 ClientLayerManager
 :
 :
-Composite
+ScheduleComposite
 (
 )
 {
