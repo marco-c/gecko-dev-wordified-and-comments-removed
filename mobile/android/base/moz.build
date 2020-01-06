@@ -4560,6 +4560,17 @@ homepanel
 /
 stream
 /
+LearnMoreRow
+.
+java
+'
+'
+activitystream
+/
+homepanel
+/
+stream
+/
 StreamOverridablePageIconLayout
 .
 java
