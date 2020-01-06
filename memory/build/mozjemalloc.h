@@ -1,4 +1,10 @@
 #
+ifndef
+mozjemalloc_h
+#
+define
+mozjemalloc_h
+#
 include
 "
 mozjemalloc_types
@@ -305,3 +311,5 @@ h
 "
 }
 ;
+#
+endif
