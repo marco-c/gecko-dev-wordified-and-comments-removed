@@ -46428,6 +46428,12 @@ aBuilder
 .
 DefineClip
 (
+Nothing
+(
+)
+Nothing
+(
+)
 aSc
 .
 ToRelativeLayoutRect

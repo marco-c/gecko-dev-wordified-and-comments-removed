@@ -16227,6 +16227,12 @@ aBuilder
 .
 DefineClip
 (
+Nothing
+(
+)
+Nothing
+(
+)
 clipRect
 )
 ;
