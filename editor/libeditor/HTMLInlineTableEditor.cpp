@@ -440,20 +440,9 @@ GetPresShell
 (
 )
 ;
-nsCOMPtr
-<
-nsIContent
->
-bodyContent
-=
-GetRoot
-(
-)
-;
 DeleteRefToAnonymousNode
 (
 mAddColumnBeforeButton
-bodyContent
 ps
 )
 ;
@@ -464,7 +453,6 @@ nullptr
 DeleteRefToAnonymousNode
 (
 mRemoveColumnButton
-bodyContent
 ps
 )
 ;
@@ -475,7 +463,6 @@ nullptr
 DeleteRefToAnonymousNode
 (
 mAddColumnAfterButton
-bodyContent
 ps
 )
 ;
@@ -486,7 +473,6 @@ nullptr
 DeleteRefToAnonymousNode
 (
 mAddRowBeforeButton
-bodyContent
 ps
 )
 ;
@@ -497,7 +483,6 @@ nullptr
 DeleteRefToAnonymousNode
 (
 mRemoveRowButton
-bodyContent
 ps
 )
 ;
@@ -508,7 +493,6 @@ nullptr
 DeleteRefToAnonymousNode
 (
 mAddRowAfterButton
-bodyContent
 ps
 )
 ;
