@@ -6986,6 +6986,17 @@ GetEndTime
 )
 ;
 }
+data
+-
+>
+mTime
++
+=
+mParent
+-
+>
+mDecodedAudioDuration
+;
 return
 data
 ;
