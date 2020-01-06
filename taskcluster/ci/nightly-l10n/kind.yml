@@ -184,9 +184,11 @@ browser
 /
 locales
 /
-all
+l10n
 -
-locales
+changesets
+.
+json
 android
 -
 api
