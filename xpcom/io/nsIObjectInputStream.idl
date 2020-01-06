@@ -276,6 +276,17 @@ aLength
 C
 +
 +
+already_AddRefed
+<
+nsIObjectInputStream
+>
+NS_NewObjectInputStream
+(
+nsIInputStream
+*
+aOutputStream
+)
+;
 inline
 nsresult
 NS_ReadOptionalObject

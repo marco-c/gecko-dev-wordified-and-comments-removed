@@ -472,6 +472,17 @@ aLength
 C
 +
 +
+already_AddRefed
+<
+nsIObjectOutputStream
+>
+NS_NewObjectOutputStream
+(
+nsIOutputStream
+*
+aOutputStream
+)
+;
 inline
 nsresult
 NS_WriteOptionalObject
