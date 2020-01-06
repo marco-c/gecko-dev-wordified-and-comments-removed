@@ -225,6 +225,14 @@ secondary
 :
 "
 "
+categories
+:
+FormAutofillUtils
+.
+getCategoriesFromFieldNames
+(
+allFieldNames
+)
 }
 )
 ;
