@@ -1272,12 +1272,6 @@ reverse
 about
 :
 blank
-skip
--
-if
-(
-styloVsGecko
-)
 !
 =
 clipped
@@ -1292,12 +1286,6 @@ html
 about
 :
 blank
-#
-Bug
-1352628
-(
-styloVsGecko
-)
 random
 -
 if
