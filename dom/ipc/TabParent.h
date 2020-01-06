@@ -2427,6 +2427,15 @@ GetWidget
 )
 const
 ;
+already_AddRefed
+<
+nsIWidget
+>
+GetDocWidget
+(
+)
+const
+;
 const
 TabId
 GetTabId
@@ -2440,6 +2449,11 @@ mTabId
 }
 LayoutDeviceIntPoint
 GetChildProcessOffset
+(
+)
+;
+LayoutDeviceIntPoint
+GetClientOffset
 (
 )
 ;
