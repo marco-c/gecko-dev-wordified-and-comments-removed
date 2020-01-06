@@ -2227,6 +2227,11 @@ module
 "
 webextension
 -
+modules
+"
+"
+webextension
+-
 scripts
 "
 "
@@ -4498,6 +4503,10 @@ jsm
 "
 "
 .
+json
+"
+"
+.
 html
 "
 "
@@ -4538,10 +4547,6 @@ css
 "
 .
 manifest
-"
-"
-.
-json
 "
 "
 .
