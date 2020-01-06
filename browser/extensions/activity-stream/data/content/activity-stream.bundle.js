@@ -9594,7 +9594,7 @@ input
 .
 parentNode
 "
-newtab
+activitystream
 "
 "
 newtab
