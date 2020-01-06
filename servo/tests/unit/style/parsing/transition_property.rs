@@ -47,6 +47,15 @@ shorthands
 transition
 ;
 use
+style
+:
+:
+values
+:
+:
+CustomIdent
+;
+use
 style_traits
 :
 :
@@ -197,6 +206,8 @@ TransitionProperty
 :
 Unsupported
 (
+CustomIdent
+(
 Atom
 :
 :
@@ -209,6 +220,7 @@ delay
 "
 )
 )
+)
 TransitionProperty
 :
 :
@@ -217,6 +229,8 @@ TransitionProperty
 :
 :
 Unsupported
+(
+CustomIdent
 (
 Atom
 :
@@ -228,6 +242,7 @@ from
 -
 var
 "
+)
 )
 )
 ]
