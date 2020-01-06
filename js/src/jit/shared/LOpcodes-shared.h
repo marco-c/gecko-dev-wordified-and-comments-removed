@@ -1388,6 +1388,11 @@ LoadUnboxedPointerT
 \
 _
 (
+LoadElementFromStateV
+)
+\
+_
+(
 UnboxObjectOrNull
 )
 \

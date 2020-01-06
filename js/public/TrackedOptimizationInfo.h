@@ -167,7 +167,12 @@ GetElem_Arguments
 \
 _
 (
-GetElem_ArgumentsInlined
+GetElem_ArgumentsInlinedConstant
+)
+\
+_
+(
+GetElem_ArgumentsInlinedSwitch
 )
 \
 _
