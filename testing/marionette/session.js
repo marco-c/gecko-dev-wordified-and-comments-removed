@@ -1881,7 +1881,7 @@ moz
 :
 webdriverClick
 "
-false
+true
 ]
 ]
 )

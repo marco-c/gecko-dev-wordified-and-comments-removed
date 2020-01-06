@@ -631,11 +631,11 @@ moz
 webdriverClick
 "
 ]
-False
+True
 )
     
 def
-test_set_webdriver_click
+test_disable_webdriver_click
 (
 self
 )
@@ -662,7 +662,7 @@ moz
 webdriverClick
 "
 :
-True
+False
 }
 )
         
@@ -678,7 +678,7 @@ self
 .
 assertEqual
 (
-True
+False
 caps
 [
 "
