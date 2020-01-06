@@ -1948,6 +1948,7 @@ default
 low
 '
 }
+)
 def
 task_template_builder
 (
@@ -2132,7 +2133,6 @@ treeherder
 .
 .
 }
-)
 This
 kind
 of

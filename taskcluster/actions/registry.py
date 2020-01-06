@@ -154,6 +154,8 @@ description
 order
 context
 schema
+=
+None
 )
 :
     
@@ -2432,10 +2434,8 @@ compatible
 object
 '
             
-result
-.
-append
-(
+res
+=
 {
                 
 '
@@ -2493,6 +2493,32 @@ task
 task
             
 }
+            
+if
+res
+[
+'
+schema
+'
+]
+is
+None
+:
+                
+res
+.
+pop
+(
+'
+schema
+'
+)
+            
+result
+.
+append
+(
+res
 )
     
 return
