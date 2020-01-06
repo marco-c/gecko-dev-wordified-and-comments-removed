@@ -4434,6 +4434,14 @@ callInfo
 )
 ;
 InliningResult
+inlineReflectGetPrototypeOf
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineRegExpMatcher
 (
 CallInfo

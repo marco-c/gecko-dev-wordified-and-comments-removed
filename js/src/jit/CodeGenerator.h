@@ -3089,6 +3089,14 @@ lir
 )
 ;
 void
+visitGetPrototypeOf
+(
+LGetPrototypeOf
+*
+lir
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed
