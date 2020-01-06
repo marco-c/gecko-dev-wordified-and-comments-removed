@@ -30,7 +30,7 @@ html
 "
 ;
 var
-events
+EventEmitter
 =
 require
 (
@@ -777,7 +777,7 @@ function
 tabActor
 )
 {
-events
+EventEmitter
 .
 on
 (
@@ -805,7 +805,7 @@ data
 }
 )
 ;
-events
+EventEmitter
 .
 on
 (

@@ -1484,11 +1484,10 @@ function
 data
 )
 {
-EventEmitter
+this
 .
 emit
 (
-this
 "
 garbage
 -
@@ -1526,11 +1525,10 @@ function
 (
 )
 {
-EventEmitter
+this
 .
 emit
 (
-this
 "
 allocations
 "

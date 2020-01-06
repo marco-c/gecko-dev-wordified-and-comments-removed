@@ -48,7 +48,7 @@ jsm
 )
 ;
 var
-events
+EventEmitter
 =
 require
 (
@@ -326,7 +326,7 @@ resolve
 =
 >
 {
-events
+EventEmitter
 .
 on
 (

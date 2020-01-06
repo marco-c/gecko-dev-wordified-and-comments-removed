@@ -1034,11 +1034,10 @@ of
 subscribers
 )
 {
-EventEmitter
+subscriber
 .
 emit
 (
-subscriber
 eventName
 data
 )

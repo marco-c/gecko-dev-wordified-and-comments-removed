@@ -26,7 +26,7 @@ Services
 )
 ;
 const
-events
+EventEmitter
 =
 require
 (
@@ -210,7 +210,7 @@ this
 _contentWindow
 )
 {
-events
+EventEmitter
 .
 emit
 (
@@ -248,7 +248,7 @@ nsISupportsPRUint64
 .
 data
 ;
-events
+EventEmitter
 .
 emit
 (

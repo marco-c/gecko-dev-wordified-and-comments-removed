@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-Events
+EventEmitter
 =
 require
 (
@@ -131,7 +131,7 @@ function
 (
 )
 {
-Events
+EventEmitter
 .
 on
 (
@@ -151,7 +151,7 @@ function
 (
 )
 {
-Events
+EventEmitter
 .
 off
 (

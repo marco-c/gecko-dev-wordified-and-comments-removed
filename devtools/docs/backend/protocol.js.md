@@ -3484,7 +3484,7 @@ would
 look
 :
 const
-event
+EventEmitter
 =
 require
 (
@@ -3515,7 +3515,7 @@ function
 news
 )
 {
-event
+EventEmitter
 .
 emit
 (

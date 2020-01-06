@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-events
+EventEmitter
 =
 require
 (
@@ -417,7 +417,7 @@ environment
 }
 )
 ;
-events
+EventEmitter
 .
 once
 (

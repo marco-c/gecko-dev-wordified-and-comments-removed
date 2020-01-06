@@ -26,7 +26,7 @@ Arg
 protocol
 ;
 var
-events
+EventEmitter
 =
 require
 (
@@ -311,7 +311,7 @@ function
 (
 )
 {
-events
+EventEmitter
 .
 emit
 (
@@ -338,7 +338,7 @@ function
 (
 )
 {
-events
+EventEmitter
 .
 emit
 (
