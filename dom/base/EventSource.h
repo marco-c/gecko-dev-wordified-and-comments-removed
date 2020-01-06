@@ -78,13 +78,6 @@ nsDeque
 .
 h
 "
-#
-include
-"
-nsIUnicodeDecoder
-.
-h
-"
 class
 nsPIDOMWindowInner
 ;

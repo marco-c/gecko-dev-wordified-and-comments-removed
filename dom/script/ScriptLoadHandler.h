@@ -141,9 +141,15 @@ mSRIDataVerifier
 nsresult
 mSRIStatus
 ;
-nsCOMPtr
+mozilla
+:
+:
+UniquePtr
 <
-nsIUnicodeDecoder
+mozilla
+:
+:
+Decoder
 >
 mDecoder
 ;

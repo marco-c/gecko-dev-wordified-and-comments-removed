@@ -114,9 +114,12 @@ flags
 uint32_t
 aWrapColumn
 const
-char
+mozilla
+:
+:
+Encoding
 *
-aCharSet
+aEncoding
 bool
 aIsCopying
 bool

@@ -2184,7 +2184,7 @@ AssignLiteral
 "
 UTF
 -
-16
+16LE
 "
 )
 ;

@@ -40,7 +40,9 @@ h
 #
 include
 "
-nsIUnicodeEncoder
+mozilla
+/
+Encoding
 .
 h
 "
@@ -203,14 +205,6 @@ ErrorResult
 &
 aRv
 )
-;
-private
-:
-nsCOMPtr
-<
-nsIUnicodeEncoder
->
-mEncoder
 ;
 }
 ;

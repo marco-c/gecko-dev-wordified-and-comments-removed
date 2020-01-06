@@ -1,13 +1,6 @@
 #
 include
 "
-nsEncoderDecoderUtils
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

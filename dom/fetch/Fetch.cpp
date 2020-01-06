@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIUnicodeDecoder
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h

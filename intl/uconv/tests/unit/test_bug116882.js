@@ -27,11 +27,11 @@ expectedText
 =
 "
 \
-uf8f1
+ufffd
 \
-uf8f2
+ufffd
 \
-uf8f3
+ufffd
 \
 ufffd
 \

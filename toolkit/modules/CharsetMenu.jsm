@@ -217,7 +217,7 @@ ISO
 2
 "
 "
-gbk
+GBK
 "
 "
 Big5
@@ -1144,7 +1144,7 @@ charset
 =
 =
 "
-gbk
+GBK
 "
 )
 {
@@ -1189,7 +1189,7 @@ charset
 =
 =
 "
-gbk
+GBK
 "
 )
 {
@@ -1264,7 +1264,7 @@ gb18030
 :
 return
 "
-gbk
+GBK
 "
 ;
 default

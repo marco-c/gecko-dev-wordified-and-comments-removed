@@ -263,13 +263,6 @@ underlying
 stream
 .
 *
-*
-see
-nsIUnicodeEncoder
-:
-:
-Finish
-*
 /
 void
 flush

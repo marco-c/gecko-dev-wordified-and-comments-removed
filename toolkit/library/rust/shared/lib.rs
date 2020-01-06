@@ -63,6 +63,10 @@ extern
 crate
 encoding_c
 ;
+extern
+crate
+encoding_glue
+;
 use
 std
 :
