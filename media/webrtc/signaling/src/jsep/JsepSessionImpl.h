@@ -704,6 +704,8 @@ std
 string
 GetLocalDescription
 (
+JsepDescriptionPendingOrCurrent
+type
 )
 const
 override
@@ -715,6 +717,8 @@ std
 string
 GetRemoteDescription
 (
+JsepDescriptionPendingOrCurrent
+type
 )
 const
 override
@@ -1597,6 +1601,8 @@ Sdp
 *
 GetParsedLocalDescription
 (
+JsepDescriptionPendingOrCurrent
+type
 )
 const
 ;
@@ -1607,6 +1613,8 @@ Sdp
 *
 GetParsedRemoteDescription
 (
+JsepDescriptionPendingOrCurrent
+type
 )
 const
 ;
