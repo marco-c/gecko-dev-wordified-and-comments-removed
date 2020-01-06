@@ -217,6 +217,12 @@ syncWidgetWithPreference
 )
 )
 ;
+this
+.
+syncPreferenceWithWidget
+(
+)
+;
 }
 onCustomizeEnd
 (

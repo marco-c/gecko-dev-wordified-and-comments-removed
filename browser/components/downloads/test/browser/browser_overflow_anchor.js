@@ -1,3 +1,8 @@
+const
+kForceOverflowWidthPx
+=
+200
+;
 registerCleanupFunction
 (
 async
@@ -78,11 +83,6 @@ urlbar
 -
 container
 "
-"
-search
--
-container
-"
 ]
 ;
 registerCleanupFunction
@@ -106,9 +106,7 @@ window
 .
 resizeTo
 (
-oldWidth
-/
-2
+kForceOverflowWidthPx
 window
 .
 outerHeight

@@ -4164,7 +4164,7 @@ widget
 .
 inNavBar
 "
-true
+false
 )
 ;
 #

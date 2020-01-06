@@ -59,11 +59,6 @@ window
 .
 outerWidth
 ;
-const
-kSmallWidth
-=
-400
-;
 function
 bookmarksMenuPanelShown
 (
@@ -657,7 +652,7 @@ window
 .
 resizeTo
 (
-kSmallWidth
+kForceOverflowWidthPx
 window
 .
 outerHeight
