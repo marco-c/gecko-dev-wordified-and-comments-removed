@@ -1389,6 +1389,17 @@ finish
 (
 )
 {
+mGeckoView
+.
+loadUri
+(
+"
+about
+:
+blank
+"
+)
+;
 super
 .
 finish
