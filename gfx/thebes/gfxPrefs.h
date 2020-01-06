@@ -5813,7 +5813,7 @@ resize
 "
 LayersForceSynchronousResize
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
