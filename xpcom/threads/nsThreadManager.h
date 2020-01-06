@@ -53,15 +53,7 @@ nsThreadManager
 get
 (
 )
-{
-static
-nsThreadManager
-sInstance
 ;
-return
-sInstance
-;
-}
 nsresult
 Init
 (
