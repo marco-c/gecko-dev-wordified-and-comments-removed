@@ -492,6 +492,11 @@ url
 addon
 .
 url
+manifestURL
+:
+addon
+.
+manifestURL
 }
 ;
 }
