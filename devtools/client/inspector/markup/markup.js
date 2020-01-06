@@ -5195,6 +5195,7 @@ getContainer
 node
 )
 ;
+return
 this
 .
 _expandContainer
