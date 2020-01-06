@@ -63,6 +63,7 @@ proc_macro_derive
 Animate
 attributes
 (
+animate
 animation
 )
 )
@@ -127,6 +128,7 @@ ComputeSquaredDistance
 attributes
 (
 animation
+distance
 )
 )
 ]
@@ -305,6 +307,10 @@ unwrap
 proc_macro_derive
 (
 ToAnimatedZero
+attributes
+(
+animation
+)
 )
 ]
 pub
@@ -364,6 +370,10 @@ unwrap
 proc_macro_derive
 (
 ToComputedValue
+attributes
+(
+compute
+)
 )
 ]
 pub

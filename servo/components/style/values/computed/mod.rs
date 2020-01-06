@@ -1879,6 +1879,12 @@ bool
 impl
 ComputedValueAsSpecified
 for
+f32
+{
+}
+impl
+ComputedValueAsSpecified
+for
 specified
 :
 :
