@@ -7972,6 +7972,7 @@ runtime
 parseTask
 )
 ;
+{
 AutoCompartment
 ac
 (
@@ -7982,7 +7983,6 @@ parseTask
 parseGlobal
 )
 ;
-{
 GlobalObject
 *
 parseGlobal

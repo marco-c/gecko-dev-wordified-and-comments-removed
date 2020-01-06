@@ -235,6 +235,14 @@ useExclusiveLocking
 true
 ;
 }
+void
+deleteEmptyZone
+(
+Zone
+*
+zone
+)
+;
 #
 ifdef
 DEBUG
