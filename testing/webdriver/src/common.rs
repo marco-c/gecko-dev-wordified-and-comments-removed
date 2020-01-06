@@ -59,6 +59,7 @@ WebDriverError
 ErrorStatus
 }
 ;
+pub
 static
 ELEMENT_KEY
 :

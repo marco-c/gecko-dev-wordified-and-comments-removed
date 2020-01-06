@@ -17,6 +17,14 @@ core
 #
 !
 [
+feature
+(
+collections
+)
+]
+#
+!
+[
 allow
 (
 non_snake_case
