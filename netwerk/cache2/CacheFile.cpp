@@ -12570,6 +12570,9 @@ mallocSizeOf
 if
 (
 mMetadata
+&
+&
+mReady
 )
 {
 n

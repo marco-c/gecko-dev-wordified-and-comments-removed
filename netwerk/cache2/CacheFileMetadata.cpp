@@ -5691,14 +5691,6 @@ mallocSizeOf
 mBuf
 )
 ;
-n
-+
-=
-mallocSizeOf
-(
-mWriteBuf
-)
-;
 return
 n
 ;
