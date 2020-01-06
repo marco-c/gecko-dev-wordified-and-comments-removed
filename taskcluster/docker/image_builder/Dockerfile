@@ -242,6 +242,14 @@ won
 t
 use
 AUFS
+.
+VOLUME
+/
+home
+/
+worker
+/
+checkouts
 VOLUME
 /
 home
