@@ -1224,7 +1224,7 @@ hasActiveTabPermission
 {
 options
 .
-matchesHost
+matches
 =
 [
 "
@@ -1239,7 +1239,7 @@ else
 {
 options
 .
-matchesHost
+matches
 =
 this
 .
