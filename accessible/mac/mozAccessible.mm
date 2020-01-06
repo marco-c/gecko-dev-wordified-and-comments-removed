@@ -5514,6 +5514,17 @@ navigation
 }
 {
 "
+AXLandmarkRegion
+"
+NS_LITERAL_STRING
+(
+"
+region
+"
+)
+}
+{
+"
 AXLandmarkSearch
 "
 NS_LITERAL_STRING
