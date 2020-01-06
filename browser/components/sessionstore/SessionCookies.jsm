@@ -120,13 +120,9 @@ jsm
 const
 MAX_EXPIRY
 =
-Math
+Number
 .
-pow
-(
-2
-62
-)
+MAX_SAFE_INTEGER
 ;
 this
 .
