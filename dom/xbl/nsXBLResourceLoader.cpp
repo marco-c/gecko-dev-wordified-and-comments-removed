@@ -802,6 +802,16 @@ mPendingSheets
 0
 )
 {
+if
+(
+aSheet
+-
+>
+IsGecko
+(
+)
+)
+{
 mResources
 -
 >
@@ -809,6 +819,7 @@ GatherRuleProcessor
 (
 )
 ;
+}
 if
 (
 !
