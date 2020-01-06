@@ -1204,6 +1204,12 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+RefPtr
+<
+APZCTreeManager
+>
+manager
+=
 state
 -
 >
@@ -1213,6 +1219,13 @@ mParent
 GetAPZCTreeManager
 (
 )
+;
+if
+(
+manager
+)
+{
+manager
 -
 >
 InitializeDynamicToolbarAnimator
@@ -1220,6 +1233,7 @@ InitializeDynamicToolbarAnimator
 mRootLayerTreeId
 )
 ;
+}
 #
 endif
 }
