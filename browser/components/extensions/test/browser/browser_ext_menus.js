@@ -584,9 +584,6 @@ kind
 of
 [
 "
-page
-"
-"
 browser
 "
 ]
