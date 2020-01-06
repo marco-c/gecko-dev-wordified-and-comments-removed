@@ -2290,7 +2290,9 @@ base_dir
 /
 builds
 /
-slave
+worker
+/
+workspace
 /
 moz
 -
