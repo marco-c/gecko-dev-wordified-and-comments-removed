@@ -514,7 +514,7 @@ vbox
 >
 <
 image
-id
+class
 =
 "
 fxaProfileImage
@@ -950,14 +950,10 @@ flex
 >
 <
 image
-id
-=
-"
-fxaProfileImage
-"
 class
 =
 "
+fxaProfileImage
 actionable
 "
 role
@@ -1189,7 +1185,7 @@ vbox
 >
 <
 image
-id
+class
 =
 "
 fxaProfileImage
@@ -1216,7 +1212,7 @@ vbox
 >
 <
 image
-id
+class
 =
 "
 fxaLoginRejectedWarning
@@ -1373,7 +1369,7 @@ vbox
 >
 <
 image
-id
+class
 =
 "
 fxaProfileImage
@@ -1400,7 +1396,7 @@ vbox
 >
 <
 image
-id
+class
 =
 "
 fxaLoginRejectedWarning
