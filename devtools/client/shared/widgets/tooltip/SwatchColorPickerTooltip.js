@@ -919,6 +919,14 @@ pickereyedropper
 "
 )
 ;
+toolbox
+.
+highlighterUtils
+.
+cancelPicker
+(
+)
+;
 inspector
 .
 pickColorFromPage
