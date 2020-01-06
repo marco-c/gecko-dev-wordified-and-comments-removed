@@ -10,6 +10,14 @@ and
 release
 mozconfigs
 .
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+stylo
 ac_add_options
 -
 -

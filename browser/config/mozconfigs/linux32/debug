@@ -18,6 +18,14 @@ enable
 verify
 -
 mar
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+stylo
 MOZ_AUTOMATION_L10N_CHECK
 =
 0
