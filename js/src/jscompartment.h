@@ -5027,6 +5027,11 @@ clearScriptCounts
 (
 )
 ;
+void
+clearScriptNames
+(
+)
+;
 bool
 needsDelazificationForDebugger
 (
@@ -5108,6 +5113,13 @@ js
 ScriptCountsMap
 *
 scriptCountsMap
+;
+js
+:
+:
+ScriptNameMap
+*
+scriptNameMap
 ;
 js
 :
