@@ -401,14 +401,11 @@ is
 win
 .
 frame1
-.
-name
-"
-frame1
-"
+undefined
 "
 IFrames
-cannot
+should
+not
 be
 found
 by
@@ -434,7 +431,7 @@ frame1
 "
 "
 IFrames
-cannot
+should
 be
 found
 by

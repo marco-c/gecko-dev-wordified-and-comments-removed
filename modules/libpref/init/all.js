@@ -11017,16 +11017,6 @@ incremental
 true
 )
 ;
-pref
-(
-"
-dom
-.
-allow_named_properties_object_for_xrays
-"
-1
-)
-;
 #
 ifndef
 XP_WIN
