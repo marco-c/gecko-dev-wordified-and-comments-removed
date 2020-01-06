@@ -46224,6 +46224,9 @@ aCustomElement
 LifecycleCallbackArgs
 *
 aArgs
+LifecycleAdoptedCallbackArgs
+*
+aAdoptedCallbackArgs
 CustomElementDefinition
 *
 aDefinition
@@ -46256,6 +46259,7 @@ EnqueueLifecycleCallback
 aType
 aCustomElement
 aArgs
+aAdoptedCallbackArgs
 aDefinition
 )
 ;

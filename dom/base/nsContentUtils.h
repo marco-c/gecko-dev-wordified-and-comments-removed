@@ -536,6 +536,9 @@ IPCDataTransferItem
 struct
 LifecycleCallbackArgs
 ;
+struct
+LifecycleAdoptedCallbackArgs
+;
 class
 NodeInfo
 ;
@@ -6006,6 +6009,17 @@ dom
 LifecycleCallbackArgs
 *
 aArgs
+=
+nullptr
+mozilla
+:
+:
+dom
+:
+:
+LifecycleAdoptedCallbackArgs
+*
+aAdoptedCallbackArgs
 =
 nullptr
 mozilla
