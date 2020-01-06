@@ -25,6 +25,17 @@ include
 "
 mozilla
 /
+dom
+/
+Animation
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationUtils
 .
 h

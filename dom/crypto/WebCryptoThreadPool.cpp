@@ -12,6 +12,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Services
@@ -31,6 +38,13 @@ h
 include
 "
 nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
+nsNSSComponent
 .
 h
 "

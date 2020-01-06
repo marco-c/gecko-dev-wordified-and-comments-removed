@@ -5,6 +5,17 @@ ClientState
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ClientIPCTypes
+.
+h
+"
 namespace
 mozilla
 {
