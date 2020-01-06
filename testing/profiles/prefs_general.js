@@ -1045,16 +1045,6 @@ false
 user_pref
 (
 "
-urlclassifier
-.
-updateinterval
-"
-172800
-)
-;
-user_pref
-(
-"
 browser
 .
 safebrowsing

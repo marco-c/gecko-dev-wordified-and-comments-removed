@@ -958,14 +958,6 @@ enabled
 True
     
 '
-urlclassifier
-.
-updateinterval
-'
-:
-172800
-    
-'
 browser
 .
 safebrowsing
