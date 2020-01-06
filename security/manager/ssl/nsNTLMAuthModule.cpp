@@ -2695,7 +2695,6 @@ auth
 .
 workstation
 "
-&
 hostBuf
 )
 ;

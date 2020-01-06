@@ -530,7 +530,6 @@ Preferences
 GetCString
 (
 MAC_OS_X_PAGE_SETUP_PREFNAME
-&
 encodedData
 )
 ;

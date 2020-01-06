@@ -3083,7 +3083,6 @@ editor
 .
 background_color
 "
-&
 aColor
 )
 ;
@@ -3157,7 +3156,6 @@ display
 .
 background_color
 "
-&
 aColor
 )
 ;
@@ -3221,7 +3219,6 @@ css
 .
 default_length_unit
 "
-&
 aLengthUnit
 )
 ;

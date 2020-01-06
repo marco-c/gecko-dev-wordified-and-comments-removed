@@ -844,7 +844,6 @@ UA_PREF
 device_string
 "
 )
-&
 deviceString
 )
 ;
@@ -5214,7 +5213,7 @@ endif
 ifdef
 MOZ_MULET
 {
-nsCString
+nsAutoCString
 deviceType
 ;
 nsresult
@@ -5232,7 +5231,6 @@ useragent
 .
 device_type
 "
-&
 deviceType
 )
 ;

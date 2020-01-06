@@ -3380,7 +3380,6 @@ height
 GETSTRPREF
 (
 kPrintPaperName
-&
 str
 )
 ;
@@ -3715,7 +3714,6 @@ if
 GETSTRPREF
 (
 kPrintHeaderStrLeft
-&
 str
 )
 )
@@ -3760,7 +3758,6 @@ if
 GETSTRPREF
 (
 kPrintHeaderStrCenter
-&
 str
 )
 )
@@ -3805,7 +3802,6 @@ if
 GETSTRPREF
 (
 kPrintHeaderStrRight
-&
 str
 )
 )
@@ -3850,7 +3846,6 @@ if
 GETSTRPREF
 (
 kPrintFooterStrLeft
-&
 str
 )
 )
@@ -3895,7 +3890,6 @@ if
 GETSTRPREF
 (
 kPrintFooterStrCenter
-&
 str
 )
 )
@@ -3940,7 +3934,6 @@ if
 GETSTRPREF
 (
 kPrintFooterStrRight
-&
 str
 )
 )
@@ -4244,7 +4237,6 @@ if
 GETSTRPREF
 (
 kPrintToFileName
-&
 str
 )
 )
@@ -6299,7 +6291,6 @@ Preferences
 GetString
 (
 kPrinterName
-&
 lastPrinterName
 )
 ;
@@ -7004,7 +6995,6 @@ Preferences
 GetCString
 (
 aPrefId
-&
 str
 )
 ;
@@ -7124,7 +7114,6 @@ Preferences
 GetString
 (
 aPrefId
-&
 str
 )
 ;
@@ -7151,7 +7140,6 @@ Preferences
 GetString
 (
 aMarginPref
-&
 str
 )
 ;
@@ -7412,7 +7400,6 @@ Preferences
 GetString
 (
 aPrefId
-&
 justStr
 )
 )

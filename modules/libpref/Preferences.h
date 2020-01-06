@@ -559,7 +559,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -572,7 +572,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
@@ -585,7 +585,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -598,7 +598,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
@@ -1320,7 +1320,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -1333,7 +1333,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;
@@ -1346,7 +1346,7 @@ char
 *
 aPref
 nsACString
-*
+&
 aResult
 )
 ;
@@ -1359,7 +1359,7 @@ char
 *
 aPref
 nsAString
-*
+&
 aResult
 )
 ;

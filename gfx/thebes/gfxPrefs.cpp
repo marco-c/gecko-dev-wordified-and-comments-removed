@@ -857,7 +857,6 @@ Preferences
 GetCString
 (
 aPref
-&
 result
 )
 ;
