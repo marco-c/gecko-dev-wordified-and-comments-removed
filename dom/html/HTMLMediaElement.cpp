@@ -15718,14 +15718,6 @@ AddMediaElementToURITable
 NS_ASSERTION
 (
 mDecoder
-&
-&
-mDecoder
--
->
-GetResource
-(
-)
 "
 Call
 this
