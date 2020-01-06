@@ -252,6 +252,11 @@ test_case_1351094
 .
 mp4
 '
+'
+test_case_1389299
+.
+mp4
+'
 ]
 UNIFIED_SOURCES
 +

@@ -1070,7 +1070,7 @@ sampleToGroupEntry
 =
 nullptr
 ;
-nsTArray
+FallibleTArray
 <
 SampleToGroupEntry
 >
@@ -1165,7 +1165,7 @@ return
 nullptr
 ;
 }
-nsTArray
+FallibleTArray
 <
 CencSampleEncryptionInfoEntry
 >
