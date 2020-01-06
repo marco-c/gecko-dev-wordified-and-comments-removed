@@ -5266,12 +5266,12 @@ aResult
 if
 (
 mState
-!
+=
 =
 RecordingState
 :
 :
-Recording
+Inactive
 )
 {
 aResult
