@@ -187,12 +187,13 @@ IsEmpty
 ;
 private
 :
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 RangeItem
 >
+1
 >
 mArray
 ;
