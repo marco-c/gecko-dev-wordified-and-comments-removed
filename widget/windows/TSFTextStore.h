@@ -1458,9 +1458,9 @@ RecordCompositionStartAction
 ITfCompositionView
 *
 aComposition
-LONG
+ULONG
 aStart
-LONG
+ULONG
 aLength
 bool
 aPreserveSelection
@@ -2665,9 +2665,9 @@ newAction
 bool
 WasTextInsertedWithoutCompositionAt
 (
-LONG
+ULONG
 aStart
-LONG
+ULONG
 aLength
 )
 const
