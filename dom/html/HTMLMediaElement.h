@@ -1761,7 +1761,7 @@ aInitDataType
 override
 ;
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

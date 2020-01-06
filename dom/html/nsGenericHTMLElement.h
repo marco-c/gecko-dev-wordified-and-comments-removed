@@ -964,7 +964,7 @@ aValue
 ;
 virtual
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

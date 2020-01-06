@@ -400,7 +400,7 @@ bool
 SVGTransformableElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

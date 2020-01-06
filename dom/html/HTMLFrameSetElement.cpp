@@ -1503,7 +1503,7 @@ bool
 HTMLFrameSetElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

@@ -2088,7 +2088,7 @@ bool
 HTMLBodyElement
 :
 :
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *

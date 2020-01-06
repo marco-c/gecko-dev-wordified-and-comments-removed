@@ -508,7 +508,7 @@ override
 ;
 virtual
 bool
-IsEventAttributeName
+IsEventAttributeNameInternal
 (
 nsIAtom
 *
