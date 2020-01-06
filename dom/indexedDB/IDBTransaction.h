@@ -290,9 +290,6 @@ mRegistered
 bool
 mAbortedByScript
 ;
-bool
-mNotedActiveTransaction
-;
 #
 ifdef
 DEBUG
@@ -421,10 +418,6 @@ mNormalBackgroundActor
 nullptr
 ;
 }
-MaybeNoteInactiveTransaction
-(
-)
-;
 }
 indexedDB
 :
@@ -925,16 +918,6 @@ SendAbort
 (
 nsresult
 aResultCode
-)
-;
-void
-NoteActiveTransaction
-(
-)
-;
-void
-MaybeNoteInactiveTransaction
-(
 )
 ;
 void
