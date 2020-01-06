@@ -231,6 +231,13 @@ bug
 js
 parser
 /
+bug
+-
+1355046
+.
+js
+parser
+/
 modifier
 -
 yield
