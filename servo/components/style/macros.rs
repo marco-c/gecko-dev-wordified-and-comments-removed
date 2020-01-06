@@ -563,10 +563,10 @@ fmt
 :
 Result
 {
-write
-!
-(
 f
+.
+write_str
+(
 css
 )
 }

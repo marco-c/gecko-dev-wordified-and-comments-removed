@@ -2239,10 +2239,10 @@ fixed
 )
 {
 return
-write
-!
-(
 dest
+.
+write_str
+(
 "
 monospace
 "

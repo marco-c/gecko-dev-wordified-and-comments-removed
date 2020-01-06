@@ -170,10 +170,6 @@ location
 .
 column
 error
-.
-to_string
-(
-)
 )
 }
 let

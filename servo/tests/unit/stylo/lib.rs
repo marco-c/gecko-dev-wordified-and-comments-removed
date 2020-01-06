@@ -46,9 +46,6 @@ extern
 crate
 style_traits
 ;
-mod
-sanity_checks
-;
 #
 [
 cfg
