@@ -11611,10 +11611,9 @@ rule
 GetFamilyList
 (
 )
-.
-GetFontlist
-(
-)
+-
+>
+mNames
 ;
 const
 nsTArray
