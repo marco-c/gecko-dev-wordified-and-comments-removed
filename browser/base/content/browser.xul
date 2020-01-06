@@ -8828,11 +8828,6 @@ page
 -
 action
 "
-role
-=
-"
-button
-"
 context
 =
 "
@@ -8921,7 +8916,7 @@ image
 role
 =
 "
-button
+presentation
 "
 observes
 =

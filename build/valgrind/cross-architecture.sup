@@ -114,7 +114,7 @@ Leak
 .
 fun
 :
-_ZL13SaveWordToEnvPKcRK10nsACString
+_ZL13SaveWordToEnvPKcRK12nsTSubstringIcE
 .
 .
 .

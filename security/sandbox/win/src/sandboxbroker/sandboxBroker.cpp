@@ -506,13 +506,15 @@ cacheVar
 .
 Equals
 (
-L
+NS_LITERAL_STRING
+(
 "
 \
 \
 \
 \
 "
+)
 )
 )
 {
