@@ -11135,6 +11135,7 @@ blocklistState
 (
 )
 {
+return
 Ci
 .
 nsIBlocklistService
