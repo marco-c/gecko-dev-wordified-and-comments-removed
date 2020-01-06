@@ -479,15 +479,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 229764
