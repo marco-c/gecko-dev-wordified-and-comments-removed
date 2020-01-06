@@ -21143,6 +21143,15 @@ html
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+|
+|
+styloVsGecko
+)
 =
 =
 485012
@@ -21157,6 +21166,9 @@ html
 ref
 .
 html
+#
+bug
+1396093
 =
 =
 485275
