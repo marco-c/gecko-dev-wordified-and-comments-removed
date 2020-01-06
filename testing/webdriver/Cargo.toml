@@ -123,13 +123,6 @@ MPL
 [
 dependencies
 ]
-backtrace
-=
-"
-0
-.
-3
-"
 cookie
 =
 {
