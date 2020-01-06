@@ -5329,9 +5329,6 @@ let
 baseClassName
 =
 "
-theme
--
-gutter
 ruleview
 -
 header

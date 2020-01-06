@@ -67,7 +67,7 @@ font
 -
 size
 :
-11px
+12px
 ;
 padding
 :
@@ -85,6 +85,16 @@ width
 :
 100
 %
+;
+align
+-
+items
+:
+center
+;
+display
+:
+flex
 ;
 -
 moz
@@ -114,6 +124,8 @@ var
 theme
 -
 toolbar
+-
+background
 -
 hover
 )
