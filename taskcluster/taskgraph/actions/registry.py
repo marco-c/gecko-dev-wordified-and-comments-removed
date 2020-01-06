@@ -2186,6 +2186,19 @@ parameters
 '
 }
 }
+                        
+'
+TASKCLUSTER_CACHES
+'
+:
+'
+/
+builds
+/
+worker
+/
+checkouts
+'
                     
 }
                     
