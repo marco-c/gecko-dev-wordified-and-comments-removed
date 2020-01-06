@@ -649,9 +649,9 @@ withPopup
 true
 inArea
 :
-CustomizableUI
-.
-AREA_PANEL
+getCustomizableUIPanelID
+(
+)
 }
 )
 ;
@@ -672,9 +672,9 @@ testExecuteBrowserActionWithOptions
 {
 inArea
 :
-CustomizableUI
-.
-AREA_PANEL
+getCustomizableUIPanelID
+(
+)
 }
 )
 ;

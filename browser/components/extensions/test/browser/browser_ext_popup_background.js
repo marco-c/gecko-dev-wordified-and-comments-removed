@@ -670,9 +670,9 @@ addWidgetToArea
 widget
 .
 id
-CustomizableUI
-.
-AREA_PANEL
+getCustomizableUIPanelID
+(
+)
 )
 ;
 clickBrowserAction

@@ -1080,6 +1080,12 @@ toolbar
 "
 )
 ;
+if
+(
+!
+gPhotonStructure
+)
+{
 for
 (
 let
@@ -1134,6 +1140,7 @@ hide
 (
 )
 ;
+}
 await
 extension
 .
