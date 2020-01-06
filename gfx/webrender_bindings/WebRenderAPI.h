@@ -1173,6 +1173,13 @@ const
 StickyOffsetBounds
 &
 aHorizontalBounds
+const
+wr
+:
+:
+LayoutVector2D
+&
+aAppliedOffset
 )
 ;
 void

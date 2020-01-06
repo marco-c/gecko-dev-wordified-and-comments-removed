@@ -3634,6 +3634,13 @@ const
 StickyOffsetBounds
 &
 aHorizontalBounds
+const
+wr
+:
+:
+LayoutVector2D
+&
+aAppliedOffset
 )
 {
 uint64_t
@@ -3649,6 +3656,7 @@ aBottomMargin
 aLeftMargin
 aVerticalBounds
 aHorizontalBounds
+aAppliedOffset
 )
 ;
 WRDL_LOG
@@ -3686,6 +3694,10 @@ v
 %
 s
 h
+=
+%
+s
+a
 =
 %
 s
@@ -3773,6 +3785,14 @@ c_str
 Stringify
 (
 aHorizontalBounds
+)
+.
+c_str
+(
+)
+Stringify
+(
+aAppliedOffset
 )
 .
 c_str
