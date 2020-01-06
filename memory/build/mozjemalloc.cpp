@@ -18062,6 +18062,9 @@ void
 *
 ret
 ;
+size_t
+num_size
+;
 if
 (
 malloc_init
@@ -18077,7 +18080,6 @@ goto
 RETURN
 ;
 }
-size_t
 num_size
 =
 aNum
