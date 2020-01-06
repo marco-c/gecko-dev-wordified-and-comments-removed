@@ -262,6 +262,9 @@ class
 nsContainerFrame
 ;
 class
+nsPlaceholderFrame
+;
+class
 nsStyleChangeList
 ;
 struct
@@ -3565,6 +3568,11 @@ mozilla
 :
 :
 FrameBidiData
+)
+NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
+(
+PlaceholderFrameProperty
+nsPlaceholderFrame
 )
 mozilla
 :
