@@ -529,6 +529,26 @@ MOZ_MAIN_THREAD_IO_LOG
 =
 mainthread_io
         
+if
+browser_config
+[
+'
+stylo
+'
+]
+:
+            
+setup
+.
+env
+[
+'
+STYLO_FORCE_ENABLED
+'
+]
+=
+1
+        
 test_config
 [
 '
