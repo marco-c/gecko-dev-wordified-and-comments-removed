@@ -3420,18 +3420,6 @@ release
 "
 ]
         
-else
-:
-            
-features
-+
-=
-[
-"
-gecko_debug
-"
-]
-        
 if
 features
 :
