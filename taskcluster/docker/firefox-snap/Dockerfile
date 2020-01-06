@@ -20,6 +20,7 @@ qy
 snapcraft
 bzip2
 curl
+git
 &
 &
 apt
