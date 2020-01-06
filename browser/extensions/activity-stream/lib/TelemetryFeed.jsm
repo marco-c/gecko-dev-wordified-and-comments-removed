@@ -267,6 +267,14 @@ snippets
 <
 <
 4
+"
+showSponsored
+"
+:
+1
+<
+<
+5
 }
 ;
 const

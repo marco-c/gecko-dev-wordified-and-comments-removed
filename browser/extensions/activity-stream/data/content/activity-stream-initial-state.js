@@ -445,6 +445,12 @@ settings_pane_done_button
 "
 "
 "
+settings_pane_topstories_options_sponsored
+"
+:
+"
+"
+"
 edit_topsites_button_text
 "
 :
