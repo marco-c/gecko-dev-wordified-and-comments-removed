@@ -4800,6 +4800,17 @@ GetSpec
 blockedDataStr
 )
 ;
+if
+(
+blockedDataStr
+.
+Length
+(
+)
+>
+40
+)
+{
 bool
 isData
 =
@@ -4848,6 +4859,7 @@ AppendASCII
 "
 )
 ;
+}
 }
 }
 else
