@@ -524,7 +524,6 @@ pageproxystate
 parentfocused
 =
 focused
-usertyping
 "
 /
 >
@@ -586,7 +585,6 @@ enablehistory
 parentfocused
 =
 focused
-usertyping
 "
 /
 >
