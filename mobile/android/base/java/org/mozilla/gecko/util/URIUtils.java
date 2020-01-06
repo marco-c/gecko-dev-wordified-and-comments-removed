@@ -273,7 +273,8 @@ normalizedHost
 ?
 normalizedHost
 :
-uriString
+"
+"
 ;
 }
 return
