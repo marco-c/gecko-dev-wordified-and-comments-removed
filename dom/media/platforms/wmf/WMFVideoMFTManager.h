@@ -18,6 +18,13 @@ h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 WMF
 .
 h
@@ -106,7 +113,7 @@ WMFVideoMFTManager
 (
 )
 ;
-bool
+MediaResult
 Init
 (
 )
@@ -248,7 +255,7 @@ kNeedNone
 }
 private
 :
-bool
+MediaResult
 ValidateVideoInfo
 (
 )
@@ -258,7 +265,7 @@ InitializeDXVA
 (
 )
 ;
-bool
+MediaResult
 InitInternal
 (
 )
