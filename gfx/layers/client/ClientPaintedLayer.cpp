@@ -1212,6 +1212,9 @@ CreatePaintedLayer
 return
 CreatePaintedLayerWithHint
 (
+PaintedLayerCreationHint
+:
+:
 NONE
 )
 ;
