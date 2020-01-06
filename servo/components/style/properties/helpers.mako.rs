@@ -47,6 +47,9 @@ None
 allow_quirks
 =
 False
+allow_empty
+=
+False
 *
 *
 kwargs
@@ -178,6 +181,10 @@ T
 %
 endif
 }
+%
+if
+initial_value
+:
 #
 [
 inline
@@ -198,6 +205,8 @@ T
 initial_value
 }
 }
+%
+endif
 %
 if
 initial_specified_value
@@ -354,6 +363,12 @@ name
 predefined_type
 =
 type
+allow_empty
+=
+allow_empty
+or
+not
+initial_value
 *
 *
 kwargs
@@ -1492,6 +1507,13 @@ T
 %
 if
 allow_empty
+and
+allow_empty
+!
+=
+"
+NotInitial
+"
 :
 computed_value
 :
