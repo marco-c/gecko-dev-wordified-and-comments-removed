@@ -444,7 +444,7 @@ default
 ;
 document
 .
-mut_loader
+loader
 (
 )
 .

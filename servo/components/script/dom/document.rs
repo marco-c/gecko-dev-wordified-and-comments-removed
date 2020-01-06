@@ -2717,7 +2717,7 @@ inline
 ]
 pub
 fn
-mut_loader
+loader_mut
 (
 &
 self
