@@ -3297,7 +3297,7 @@ GdkScaleFactor
 gfxPlatformGtk
 :
 :
-GetDPIScale
+GetFontScaleFactor
 (
 )
 ;

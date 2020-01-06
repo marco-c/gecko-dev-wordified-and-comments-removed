@@ -601,7 +601,7 @@ GetGTKMonitorScaleFactor
 gfxPlatformGtk
 :
 :
-GetDPIScale
+GetFontScaleFactor
 (
 )
 ;
