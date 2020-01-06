@@ -1236,6 +1236,12 @@ xul
 '
 '
 /
+docshell
+/
+base
+'
+'
+/
 dom
 /
 base

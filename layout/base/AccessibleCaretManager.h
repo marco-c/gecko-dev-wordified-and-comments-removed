@@ -136,6 +136,8 @@ virtual
 AccessibleCaretManager
 (
 )
+=
+default
 ;
 void
 Terminate
