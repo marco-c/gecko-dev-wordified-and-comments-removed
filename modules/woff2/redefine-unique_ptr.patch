@@ -140,6 +140,8 @@ include
 "
 .
 /
+brotli
+/
 decode
 .
 h

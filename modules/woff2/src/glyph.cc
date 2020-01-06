@@ -666,6 +666,7 @@ flags
 num_contours
 )
 ;
+{
 uint8_t
 flag
 =
@@ -825,6 +826,7 @@ flag
 &
 kFLAG_ONCURVE
 ;
+}
 }
 }
 int

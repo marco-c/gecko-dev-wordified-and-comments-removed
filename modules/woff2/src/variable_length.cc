@@ -209,7 +209,7 @@ val
 for
 (
 uint8_t
-val
+packed_byte
 :
 packed
 )
@@ -224,7 +224,7 @@ offset
 +
 ]
 =
-val
+packed_byte
 ;
 }
 }

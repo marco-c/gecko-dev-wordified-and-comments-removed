@@ -233,14 +233,14 @@ Buffer
 const
 uint8_t
 *
-buffer
+data
 size_t
 len
 )
 :
 buffer_
 (
-buffer
+data
 )
 length_
 (
@@ -272,7 +272,7 @@ Read
 (
 uint8_t
 *
-buffer
+data
 size_t
 n_bytes
 )
@@ -322,7 +322,7 @@ FONT_COMPRESSION_FAILURE
 }
 if
 (
-buffer
+data
 )
 {
 std
@@ -330,7 +330,7 @@ std
 :
 memcpy
 (
-buffer
+data
 buffer_
 +
 offset_
