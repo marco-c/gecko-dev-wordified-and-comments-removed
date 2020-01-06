@@ -159,11 +159,6 @@ GetInstanceOrNull
 (
 )
 ;
-bool
-Init
-(
-)
-;
 FPDF_DOCUMENT
 LoadDocument
 (
@@ -247,6 +242,11 @@ PDFiumEngineShim
 ;
 ~
 PDFiumEngineShim
+(
+)
+;
+bool
+Init
 (
 )
 ;
