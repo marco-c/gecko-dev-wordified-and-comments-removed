@@ -449,6 +449,14 @@ gCachedAttrData
 )
 ;
 }
+getCachedAttributionData
+(
+)
+{
+return
+gCachedAttrData
+;
+}
 deleteFileAsync
 (
 )
