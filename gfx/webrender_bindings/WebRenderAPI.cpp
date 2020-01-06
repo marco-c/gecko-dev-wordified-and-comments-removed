@@ -4938,11 +4938,11 @@ void
 DisplayListBuilder
 :
 :
-PopShadow
+PopAllShadows
 (
 )
 {
-wr_dp_pop_shadow
+wr_dp_pop_all_shadows
 (
 mWrState
 )
