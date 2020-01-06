@@ -27110,6 +27110,8 @@ ko
 "
 "
 Gulim
+Malgun
+Gothic
 "
 )
 ;
