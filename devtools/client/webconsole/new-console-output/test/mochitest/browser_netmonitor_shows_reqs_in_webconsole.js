@@ -435,4 +435,10 @@ correct
 "
 )
 ;
+await
+waitForExistingRequests
+(
+monitor
+)
+;
 }

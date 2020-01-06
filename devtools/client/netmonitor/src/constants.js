@@ -432,7 +432,7 @@ responseCookies
 responseContent
 "
 "
-responseContentDataUri
+responseContentAvailable
 "
 "
 formDataSections

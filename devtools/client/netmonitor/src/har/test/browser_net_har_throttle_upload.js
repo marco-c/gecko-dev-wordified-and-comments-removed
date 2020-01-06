@@ -136,6 +136,7 @@ let
 getLongString
 getTabTarget
 setPreferences
+requestData
 }
 =
 connector
@@ -292,6 +293,7 @@ RequestListContextMenu
 {
 getTabTarget
 getLongString
+requestData
 }
 )
 ;
