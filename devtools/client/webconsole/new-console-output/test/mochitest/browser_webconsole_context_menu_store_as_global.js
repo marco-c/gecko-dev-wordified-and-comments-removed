@@ -152,9 +152,9 @@ querySelector
 (
 "
 .
-cm
+objectBox
 -
-variable
+object
 "
 )
 ;
@@ -185,11 +185,6 @@ querySelector
 objectBox
 -
 array
->
-.
-cm
--
-variable
 "
 )
 ;
@@ -205,11 +200,6 @@ querySelector
 objectBox
 -
 object
->
-.
-cm
--
-variable
 "
 )
 ;
