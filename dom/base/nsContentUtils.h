@@ -6081,6 +6081,16 @@ sShowInputPlaceholderOnFocus
 }
 static
 bool
+AutoFocusEnabled
+(
+)
+{
+return
+sAutoFocusEnabled
+;
+}
+static
+bool
 IsBytecodeCacheEnabled
 (
 )
@@ -6626,6 +6636,10 @@ sLowerNetworkPriority
 static
 bool
 sShowInputPlaceholderOnFocus
+;
+static
+bool
+sAutoFocusEnabled
 ;
 #
 ifndef
