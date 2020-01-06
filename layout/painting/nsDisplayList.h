@@ -15340,6 +15340,11 @@ aDisplayListBuilder
 )
 override
 ;
+private
+:
+nsRect
+mEffectsBounds
+;
 }
 ;
 class
