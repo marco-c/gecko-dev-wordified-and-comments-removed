@@ -2301,12 +2301,16 @@ when
 '
 )
 :
+Any
+(
 {
         
 Optional
 (
 '
-schedules
+files
+-
+changed
 '
 )
 :
@@ -2315,6 +2319,7 @@ basestring
 ]
     
 }
+)
     
 Optional
 (
@@ -4494,7 +4499,7 @@ suite
 '
 test
 -
-verify
+verification
 '
 :
             
@@ -7665,6 +7670,34 @@ platform
         
 }
         
+if
+test
+.
+get
+(
+'
+when
+'
+)
+:
+            
+jobdesc
+[
+'
+when
+'
+]
+=
+test
+[
+'
+when
+'
+]
+        
+else
+:
+            
 schedules
 =
 [
@@ -7686,40 +7719,7 @@ platform
 ]
 )
 ]
-        
-when
-=
-test
-.
-get
-(
-'
-when
-'
-)
-        
-if
-when
-and
-'
-schedules
-'
-in
-when
-:
             
-schedules
-.
-extend
-(
-when
-[
-'
-schedules
-'
-]
-)
-        
 if
 config
 .
@@ -7735,7 +7735,7 @@ project
 try
 '
 :
-            
+                
 jobdesc
 [
 '
@@ -7758,10 +7758,10 @@ seta
 :
 schedules
 }
-        
+            
 else
 :
-            
+                
 jobdesc
 [
 '
