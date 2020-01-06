@@ -4318,12 +4318,10 @@ break
 ;
 }
 }
-mCache
--
->
-LoadDone
+NS_ENSURE_SUCCESS
 (
-NS_OK
+rv
+rv
 )
 ;
 break
