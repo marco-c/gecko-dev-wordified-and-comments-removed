@@ -185,9 +185,7 @@ join
 (
 here
 '
-mn
--
-restartless
+webextension
 -
 unsigned
 .
@@ -255,9 +253,7 @@ join
 (
 here
 '
-mn
--
-restartless
+webextension
 -
 unsigned
 .
