@@ -23190,6 +23190,9 @@ size_t
 typePool
 size_t
 *
+regexpZone
+size_t
+*
 jitZone
 size_t
 *
@@ -23217,6 +23220,17 @@ types
 typeLifoAlloc
 (
 )
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
+;
+*
+regexpZone
++
+=
+regExps
 .
 sizeOfExcludingThis
 (

@@ -1734,6 +1734,10 @@ typePool
 &
 zStats
 .
+regexpZone
+&
+zStats
+.
 jitZone
 &
 zStats
@@ -1904,10 +1908,6 @@ objectMetadataTable
 cStats
 .
 crossCompartmentWrappersTable
-&
-cStats
-.
-regexpCompartment
 &
 cStats
 .
