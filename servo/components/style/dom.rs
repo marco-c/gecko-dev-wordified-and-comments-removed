@@ -85,7 +85,6 @@ properties
 {
 AnimationRules
 ComputedValues
-ComputedValuesInner
 PropertyDeclarationBlock
 }
 ;
@@ -2077,7 +2076,7 @@ PseudoElement
 _primary_style
 :
 &
-ComputedValuesInner
+ComputedValues
 )
 -
 >

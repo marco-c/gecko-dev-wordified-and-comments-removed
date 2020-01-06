@@ -4680,9 +4680,6 @@ device
 inherited_style
 :
 default_values
-layout_parent_style
-:
-default_values
 style
 :
 StyleBuilder
@@ -4690,7 +4687,9 @@ StyleBuilder
 :
 for_derived_style
 (
+device
 default_values
+None
 )
 font_metrics_provider
 :

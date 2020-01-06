@@ -67,7 +67,6 @@ properties
 :
 {
 ComputedValues
-ComputedValuesInner
 StyleBuilder
 }
 ;
@@ -598,7 +597,7 @@ new
 let
 initial_style
 =
-ComputedValuesInner
+ComputedValues
 :
 :
 initial_values
@@ -635,9 +634,6 @@ device
 inherited_style
 :
 initial_style
-layout_parent_style
-:
-initial_style
 style
 :
 StyleBuilder
@@ -646,7 +642,9 @@ StyleBuilder
 for_derived_style
 (
 &
+device
 initial_style
+None
 )
 cached_system_font
 :
