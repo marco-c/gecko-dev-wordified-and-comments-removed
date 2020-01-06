@@ -355,15 +355,7 @@ ImageKey
 &
 aKey
 )
-{
-mKey
-=
-Some
-(
-aKey
-)
 ;
-}
 already_AddRefed
 <
 ImageClient
