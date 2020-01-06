@@ -1540,7 +1540,7 @@ aTimingEnabled
 *
 aTimingEnabled
 =
-true
+false
 ;
 return
 NS_OK
