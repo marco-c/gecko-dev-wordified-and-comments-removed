@@ -538,7 +538,7 @@ cleanup
         
 self
 .
-killNamedOrphans
+killNamedProc
 (
 '
 ssltunnel
@@ -547,7 +547,7 @@ ssltunnel
         
 self
 .
-killNamedOrphans
+killNamedProc
 (
 '
 xpcshell
