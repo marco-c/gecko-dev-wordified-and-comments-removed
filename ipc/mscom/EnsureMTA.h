@@ -227,7 +227,6 @@ thread
 return
 ;
 }
-static
 nsAutoHandle
 event
 (
