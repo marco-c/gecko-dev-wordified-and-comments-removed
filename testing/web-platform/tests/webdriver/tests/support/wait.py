@@ -1,4 +1,6 @@
 import
+sys
+import
 time
 class
 TimeoutException
@@ -14,6 +16,7 @@ wait
 session
 condition
 message
+         
 interval
 =
 0
@@ -22,6 +25,9 @@ interval
 timeout
 =
 5
+ignored_exceptions
+=
+Exception
 )
 :
     
@@ -114,6 +120,24 @@ Default
 :
 5
     
+:
+param
+ignored_exceptions
+:
+Exceptions
+that
+are
+expected
+and
+can
+be
+ignored
+.
+        
+Default
+:
+Exception
+    
 "
 "
 "
@@ -156,12 +180,34 @@ time
 +
 interval
         
+try
+:
+            
 success
 =
 condition
 (
 session
 )
+        
+except
+ignored_exceptions
+:
+            
+last_exc
+=
+sys
+.
+exc_info
+(
+)
+[
+0
+]
+            
+success
+=
+False
         
 next_interval
 =
@@ -193,6 +239,21 @@ continue
         
 return
 success
+    
+print
+"
+Last
+exception
+encountered
+was
+{
+}
+"
+.
+format
+(
+last_exc
+)
     
 raise
 TimeoutException
