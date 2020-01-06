@@ -332,6 +332,14 @@ lir
 )
 ;
 void
+visitSignExtendInt64
+(
+LSignExtendInt64
+*
+ins
+)
+;
+void
 visitClzI64
 (
 LClzI64
