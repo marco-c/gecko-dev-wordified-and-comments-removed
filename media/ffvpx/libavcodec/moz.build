@@ -187,6 +187,11 @@ flacdsp
 c
 '
 '
+log2_tab
+.
+c
+'
+'
 null_bsf
 .
 c
@@ -277,11 +282,6 @@ c
 '
 '
 imgconvert
-.
-c
-'
-'
-log2_tab
 .
 c
 '

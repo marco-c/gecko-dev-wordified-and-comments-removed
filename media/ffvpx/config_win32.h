@@ -917,7 +917,7 @@ HAVE_FAST_64BIT
 #
 define
 HAVE_FAST_CLZ
-1
+0
 #
 define
 HAVE_FAST_CMOV
