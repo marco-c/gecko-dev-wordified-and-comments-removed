@@ -39,6 +39,13 @@ Client
 .
 h
 "
+#
+include
+"
+mozIStorageConnection
+.
+h
+"
 namespace
 mozilla
 {

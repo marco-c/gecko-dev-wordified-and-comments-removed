@@ -108,6 +108,17 @@ mozilla
 /
 ipc
 /
+IPCStreamUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 PBackgroundChild
 .
 h
