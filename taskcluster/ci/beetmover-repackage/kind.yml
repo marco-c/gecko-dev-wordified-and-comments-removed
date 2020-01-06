@@ -94,6 +94,8 @@ dependencies
 :
 -
 repackage
+-
+signing
 only
 -
 for
