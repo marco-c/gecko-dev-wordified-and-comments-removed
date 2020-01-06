@@ -158,6 +158,16 @@ browser
 .
 onboarding
 .
+state
+"
+PREF_STRING
+]
+[
+"
+browser
+.
+onboarding
+.
 notification
 .
 finished
