@@ -2691,13 +2691,6 @@ cpp
 '
 wasm
 /
-WasmBinaryToExperimentalText
-.
-cpp
-'
-'
-wasm
-/
 WasmBinaryToText
 .
 cpp
