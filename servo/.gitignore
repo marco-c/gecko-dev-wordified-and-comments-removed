@@ -66,6 +66,12 @@ swo
 *
 .
 csv
+*
+.
+rej
+*
+.
+orig
 .
 DS_Store
 Servo
