@@ -11,6 +11,13 @@ ServiceWorkerJob
 .
 h
 "
+#
+include
+"
+ServiceWorkerRegistration
+.
+h
+"
 namespace
 mozilla
 {
@@ -47,8 +54,8 @@ aScriptSpec
 nsILoadGroup
 *
 aLoadGroup
-nsLoadFlags
-aLoadFlags
+ServiceWorkerUpdateViaCache
+aUpdateViaCache
 )
 ;
 already_AddRefed
@@ -80,8 +87,8 @@ aScriptSpec
 nsILoadGroup
 *
 aLoadGroup
-nsLoadFlags
-aLoadFlags
+ServiceWorkerUpdateViaCache
+aUpdateViaCache
 )
 ;
 virtual
@@ -125,8 +132,8 @@ Update
 (
 )
 ;
-nsLoadFlags
-GetLoadFlags
+ServiceWorkerUpdateViaCache
+GetUpdateViaCache
 (
 )
 const
@@ -189,8 +196,8 @@ nsILoadGroup
 >
 mLoadGroup
 ;
-nsLoadFlags
-mLoadFlags
+ServiceWorkerUpdateViaCache
+mUpdateViaCache
 ;
 RefPtr
 <

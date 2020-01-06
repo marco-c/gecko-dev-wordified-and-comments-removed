@@ -628,8 +628,8 @@ aScope
 nsIPrincipal
 *
 aPrincipal
-nsLoadFlags
-aLoadFlags
+ServiceWorkerUpdateViaCache
+aUpdateViaCache
 )
 ;
 void

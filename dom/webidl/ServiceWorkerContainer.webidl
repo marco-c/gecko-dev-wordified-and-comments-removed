@@ -298,5 +298,12 @@ RegistrationOptions
 USVString
 scope
 ;
+ServiceWorkerUpdateViaCache
+updateViaCache
+=
+"
+imports
+"
+;
 }
 ;
