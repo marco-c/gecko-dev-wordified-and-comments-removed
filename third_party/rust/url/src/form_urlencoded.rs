@@ -556,16 +556,10 @@ replaced
 }
 fn
 replace_plus
-<
-'
-a
->
 (
 input
 :
 &
-'
-a
 [
 u8
 ]
@@ -574,8 +568,6 @@ u8
 >
 Cow
 <
-'
-a
 [
 u8
 ]

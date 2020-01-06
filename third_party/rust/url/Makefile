@@ -21,6 +21,14 @@ idna
 cargo
 test
 )
+(
+cd
+url_serde
+&
+&
+cargo
+test
+)
 .
 PHONY
 :

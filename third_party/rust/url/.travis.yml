@@ -9,6 +9,12 @@ nightly
 beta
 -
 stable
+-
+1
+.
+15
+.
+0
 script
 :
 make
