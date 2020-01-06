@@ -4502,14 +4502,7 @@ mSharedCmaps
 .
 RemoveEntry
 (
-const_cast
-<
-gfxCharacterMap
-*
->
-(
-aCharMap
-)
+found
 )
 ;
 }
