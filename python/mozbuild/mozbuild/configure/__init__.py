@@ -6421,6 +6421,18 @@ value
 '
 '
         
+when
+=
+self
+.
+_normalize_when
+(
+when
+'
+imply_option
+'
+)
+        
 if
 self
 .
@@ -6589,18 +6601,6 @@ call
                 
 %
 option
-)
-        
-when
-=
-self
-.
-_normalize_when
-(
-when
-'
-imply_option
-'
 )
         
 prefix
