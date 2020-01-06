@@ -124,8 +124,6 @@ TraceBlackJS
 JSTracer
 *
 aTrc
-uint32_t
-aGCNumber
 bool
 aIsShutdownGC
 )

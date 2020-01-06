@@ -240,6 +240,12 @@ checkEdges_
 }
 #
 endif
+uint32_t
+gcNumberForMarking
+(
+)
+const
+;
 protected
 :
 JSTracer
