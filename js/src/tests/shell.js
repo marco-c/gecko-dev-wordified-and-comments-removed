@@ -1439,13 +1439,6 @@ XorShiftGenerator
 ;
 global
 .
-VERSION
-=
-"
-"
-;
-global
-.
 BUGNUMBER
 =
 "

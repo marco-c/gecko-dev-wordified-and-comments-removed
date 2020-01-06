@@ -10,13 +10,6 @@ js
 "
 ;
 var
-VERSION
-=
-"
-JS_12
-"
-;
-var
 TITLE
 =
 "

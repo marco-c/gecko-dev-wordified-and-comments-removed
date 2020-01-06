@@ -1,11 +1,4 @@
 var
-VERSION
-=
-"
-ECMA_1
-"
-;
-var
 SECTION
 =
 "
@@ -135,13 +128,6 @@ SECTION
 3
 .
 8
-"
-;
-var
-VERSION
-=
-"
-ECMA_1
 "
 ;
 writeHeaderToLog

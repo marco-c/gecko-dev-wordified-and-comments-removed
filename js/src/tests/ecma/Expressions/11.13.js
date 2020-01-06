@@ -7,13 +7,6 @@ SECTION
 12
 "
 ;
-var
-VERSION
-=
-"
-ECMA_1
-"
-;
 writeHeaderToLog
 (
 SECTION

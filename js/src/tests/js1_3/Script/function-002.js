@@ -8,13 +8,6 @@ function
 "
 ;
 var
-VERSION
-=
-"
-JS1_3
-"
-;
-var
 TITLE
 =
 "

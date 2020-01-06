@@ -6,13 +6,6 @@ js1_2
 "
 ;
 var
-VERSION
-=
-"
-ECMA_2
-"
-;
-var
 TITLE
 =
 "

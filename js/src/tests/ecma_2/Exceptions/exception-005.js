@@ -8,13 +8,6 @@ exception
 "
 ;
 var
-VERSION
-=
-"
-js1_4
-"
-;
-var
 TITLE
 =
 "
