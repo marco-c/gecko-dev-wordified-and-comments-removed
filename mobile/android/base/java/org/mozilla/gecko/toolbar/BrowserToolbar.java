@@ -2351,6 +2351,15 @@ msg
 case
 START
 :
+flags
+.
+add
+(
+UpdateFlags
+.
+PROGRESS
+)
+;
 updateProgressVisibility
 (
 tab
