@@ -2010,6 +2010,9 @@ TraversalRootBehavior
 ComputedTimingFunction_BeforeFlag
 "
 "
+CounterStylePtr
+"
+"
 FontFamilyList
 "
 "
