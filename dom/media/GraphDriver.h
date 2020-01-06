@@ -269,11 +269,6 @@ GraphDriver
 aPreviousDriver
 )
 ;
-bool
-Scheduled
-(
-)
-;
 virtual
 TimeStamp
 GetCurrentTimeStamp
@@ -407,9 +402,6 @@ RefPtr
 GraphDriver
 >
 mNextDriver
-;
-bool
-mScheduled
 ;
 virtual
 ~
@@ -1161,6 +1153,9 @@ Atomic
 bool
 >
 mMicrophoneActive
+;
+bool
+mShouldFallbackIfError
 ;
 bool
 mFromFallback
