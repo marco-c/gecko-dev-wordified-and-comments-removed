@@ -34,7 +34,7 @@ ChannelMediaDecoder
 WaveDecoder
 :
 :
-Clone
+CloneImpl
 (
 MediaDecoderInit
 &

@@ -34,7 +34,7 @@ ChannelMediaDecoder
 ADTSDecoder
 :
 :
-Clone
+CloneImpl
 (
 MediaDecoderInit
 &
