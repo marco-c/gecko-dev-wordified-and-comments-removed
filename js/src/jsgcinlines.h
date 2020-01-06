@@ -1841,8 +1841,6 @@ GCCompartmentsIter
 class
 GCSweepGroupIter
 {
-private
-:
 JS
 :
 :
