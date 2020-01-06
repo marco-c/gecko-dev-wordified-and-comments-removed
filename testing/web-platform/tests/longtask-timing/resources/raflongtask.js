@@ -6,7 +6,7 @@ function
 (
 )
 {
-var
+const
 begin
 =
 window

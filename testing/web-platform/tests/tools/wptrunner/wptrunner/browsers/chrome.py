@@ -31,6 +31,14 @@ SeleniumTestharnessExecutor
                                           
 SeleniumRefTestExecutor
 )
+from
+.
+.
+executors
+.
+executorchrome
+import
+ChromeDriverWdspecExecutor
 __wptrunner__
 =
 {
@@ -77,6 +85,14 @@ reftest
 :
 "
 SeleniumRefTestExecutor
+"
+                              
+"
+wdspec
+"
+:
+"
+ChromeDriverWdspecExecutor
 "
 }
                  
@@ -367,6 +383,29 @@ enable
 automation
 "
 ]
+    
+if
+test_type
+=
+=
+"
+wdspec
+"
+:
+        
+capabilities
+[
+"
+chromeOptions
+"
+]
+[
+"
+w3c
+"
+]
+=
+True
     
 executor_kwargs
 [

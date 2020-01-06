@@ -404,6 +404,26 @@ visit
 tree
 )
         
+if
+hasattr
+(
+self
+.
+output_node
+"
+set_defaults
+"
+)
+:
+            
+self
+.
+output_node
+.
+set_defaults
+(
+)
+        
 assert
 self
 .

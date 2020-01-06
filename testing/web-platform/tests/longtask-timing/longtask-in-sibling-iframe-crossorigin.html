@@ -79,9 +79,9 @@ window
 .
 addEventListener
 (
-"
+'
 message
-"
+'
 t
 .
 step_func
@@ -95,7 +95,7 @@ assert_equals
 e
 .
 data
-"
+'
 longtask
 +
 cross
@@ -104,8 +104,11 @@ origin
 -
 unreachable
 +
-frame
-"
+script
++
++
++
+'
 )
 ;
 t
@@ -119,7 +122,7 @@ done
 )
 ;
 }
-"
+'
 Performance
 longtask
 entries
@@ -130,7 +133,8 @@ observable
 in
 child
 iframe
-"
+.
+'
 )
 ;
 <
@@ -176,7 +180,7 @@ task
 .
 *
 /
-var
+const
 iframe
 =
 document
@@ -254,6 +258,7 @@ longtask
 .
 html
 '
+;
 <
 /
 script

@@ -2,11 +2,7 @@ Feature
 -
 Policy
 :
-{
-"
 usb
-"
-:
-[
-]
-}
+'
+none
+'

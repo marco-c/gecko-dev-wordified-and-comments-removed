@@ -844,6 +844,7 @@ instanceof
 DOMException
 &
 &
+(
 e
 .
 code
@@ -853,6 +854,15 @@ DOMException
 [
 exceptionName
 ]
+|
+|
+e
+.
+name
+=
+=
+exceptionName
+)
 )
 {
 this

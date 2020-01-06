@@ -336,6 +336,7 @@ with
 TypeError
 '
 )
+;
 promise_test
 (
 t
@@ -401,6 +402,7 @@ with
 InvalidStateError
 '
 )
+;
 /
 *
 Operations
@@ -459,10 +461,12 @@ offer
 )
 ;
 return
-generateOffer
+pc2
+.
+createOffer
 (
 {
-audio
+offerToReceiveAudio
 :
 true
 }
@@ -512,10 +516,12 @@ then
 )
 =
 >
-generateOffer
+pc2
+.
+createOffer
 (
 {
-data
+offerToReceiveVideo
 :
 true
 }
@@ -527,6 +533,8 @@ then
 offer2
 =
 >
+{
+return
 pc
 .
 setRemoteDescription
@@ -587,6 +595,8 @@ offer2
 ;
 }
 )
+;
+}
 )
 )
 ;

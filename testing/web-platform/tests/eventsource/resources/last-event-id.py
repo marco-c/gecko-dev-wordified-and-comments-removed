@@ -57,6 +57,21 @@ ID
 None
 )
   
+value
+=
+request
+.
+GET
+.
+first
+(
+"
+idvalue
+"
+"
+"
+)
+  
 if
 (
 last_event_id
@@ -85,6 +100,11 @@ return
 "
 id
 :
+"
++
+value
++
+"
 \
 nretry
 :

@@ -340,6 +340,14 @@ body
 ;
 document
 .
+dir
+=
+"
+ltr
+"
+;
+document
+.
 documentElement
 .
 removeAttribute

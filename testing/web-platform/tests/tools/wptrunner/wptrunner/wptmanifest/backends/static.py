@@ -946,6 +946,15 @@ join
 rv
 )
     
+def
+set_defaults
+(
+self
+)
+:
+        
+pass
+    
 property
     
 def

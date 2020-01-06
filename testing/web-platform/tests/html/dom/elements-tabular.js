@@ -441,8 +441,7 @@ max
 headers
 :
 "
-settable
-tokenlist
+string
 "
 scope
 :
@@ -591,8 +590,7 @@ max
 headers
 :
 "
-settable
-tokenlist
+string
 "
 scope
 :

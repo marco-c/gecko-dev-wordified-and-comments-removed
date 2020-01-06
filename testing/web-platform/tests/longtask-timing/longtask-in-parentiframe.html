@@ -67,7 +67,7 @@ script
 <
 script
 >
-var
+const
 t
 =
 async_test
@@ -80,9 +80,9 @@ window
 .
 addEventListener
 (
-"
+'
 message
-"
+'
 t
 .
 step_func
@@ -96,7 +96,7 @@ assert_equals
 e
 .
 data
-"
+'
 longtask
 +
 same
@@ -106,7 +106,10 @@ origin
 ancestor
 +
 script
-"
++
++
++
+'
 )
 ;
 t
@@ -120,7 +123,7 @@ done
 )
 ;
 }
-"
+'
 Performance
 longtask
 entries
@@ -131,10 +134,11 @@ observable
 in
 child
 iframe
-"
+.
+'
 )
 ;
-var
+const
 iframe
 =
 document
@@ -162,7 +166,7 @@ function
 (
 )
 {
-var
+const
 begin
 =
 window

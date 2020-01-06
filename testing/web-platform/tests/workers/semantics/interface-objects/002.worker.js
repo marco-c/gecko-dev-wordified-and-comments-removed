@@ -119,6 +119,12 @@ KeyboardEvent
 "
 CompositionEvent
 "
+"
+VTTCue
+"
+"
+VTTRegion
+"
 ]
 ;
 for

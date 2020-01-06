@@ -19,21 +19,15 @@ from
 base
 import
 (
-ExecutorException
-                   
 Protocol
                    
 RefTestExecutor
                    
 RefTestImplementation
                    
-TestExecutor
-                   
 TestharnessExecutor
                    
-testharness_result_converter
-                   
-reftest_result_converter
+extra_timeout
                    
 strip_server
 )
@@ -72,9 +66,6 @@ None
 RemoteConnection
 =
 None
-extra_timeout
-=
-5
 def
 do_delayed_imports
 (

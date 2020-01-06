@@ -2,14 +2,5 @@ Feature
 -
 Policy
 :
-{
-"
 payment
-"
-:
-[
-"
 *
-"
-]
-}

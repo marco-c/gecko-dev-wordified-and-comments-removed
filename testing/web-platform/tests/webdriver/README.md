@@ -61,7 +61,7 @@ whether
 they
 meet
 the
-recognised
+recognized
 standard
 .
 #
@@ -133,7 +133,7 @@ tested
 .
 The
 spec
-contrubutors
+contributors
 and
 editors
 can

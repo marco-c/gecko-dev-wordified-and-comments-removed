@@ -161,6 +161,11 @@ abc
 .
 ABCMeta
     
+headers
+=
+[
+]
+    
 def
 __init__
 (
@@ -226,6 +231,25 @@ request
 response
 )
 :
+        
+for
+header_name
+header_value
+in
+self
+.
+headers
+:
+            
+response
+.
+headers
+.
+set
+(
+header_name
+header_value
+)
         
 path
 =
@@ -1226,6 +1250,23 @@ AnyWorkerHandler
 WrapperHandler
 )
 :
+    
+headers
+=
+[
+(
+'
+Content
+-
+Type
+'
+'
+text
+/
+javascript
+'
+)
+]
     
 path_replace
 =
