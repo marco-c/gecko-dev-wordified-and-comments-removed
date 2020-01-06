@@ -401,15 +401,6 @@ MapType
 :
 Range
 ;
-using
-Entry
-=
-typename
-MapType
-:
-:
-Entry
-;
 explicit
 NurseryAwareHashMap
 (

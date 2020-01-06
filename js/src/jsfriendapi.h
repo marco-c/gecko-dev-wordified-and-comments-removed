@@ -5047,9 +5047,10 @@ const
 CompartmentFilter
 &
 sourceFilter
-JSCompartment
-*
-target
+const
+CompartmentFilter
+&
+targetFilter
 NukeReferencesToWindow
 nukeReferencesToWindow
 NukeReferencesFromTarget

@@ -2398,7 +2398,13 @@ js
 AllCompartments
 (
 )
+js
+:
+:
+SingleCompartment
+(
 compartment
+)
 nukeReferencesToWindow
 js
 :
