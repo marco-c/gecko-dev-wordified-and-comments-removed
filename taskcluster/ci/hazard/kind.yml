@@ -295,10 +295,6 @@ clang
 linux64
 -
 gcc
--
-linux64
--
-sccache
 linux64
 -
 haz
@@ -425,7 +421,3 @@ clang
 linux64
 -
 gcc
--
-linux64
--
-sccache
