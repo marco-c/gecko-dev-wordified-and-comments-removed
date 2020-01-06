@@ -57,6 +57,10 @@ selectors
 ;
 extern
 crate
+servo_arc
+;
+extern
+crate
 servo_atoms
 ;
 extern

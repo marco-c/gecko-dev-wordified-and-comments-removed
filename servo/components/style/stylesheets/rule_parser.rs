@@ -97,6 +97,12 @@ parser
 SelectorParseError
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -128,12 +134,6 @@ style_traits
 StyleParseError
 ParseError
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheets

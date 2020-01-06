@@ -112,7 +112,7 @@ VisitedHandlingMode
 }
 ;
 use
-stylearc
+servo_arc
 :
 :
 Arc

@@ -17,6 +17,12 @@ ownership
 HasArcFFI
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 std
 :
 :
@@ -45,12 +51,6 @@ ops
 Deref
 DerefMut
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 pub
 unsafe

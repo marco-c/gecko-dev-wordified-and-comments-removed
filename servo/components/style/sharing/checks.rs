@@ -23,6 +23,12 @@ dom
 TElement
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 sharing
 :
 :
@@ -30,12 +36,6 @@ sharing
 StyleSharingCandidate
 StyleSharingTarget
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 pub
 fn

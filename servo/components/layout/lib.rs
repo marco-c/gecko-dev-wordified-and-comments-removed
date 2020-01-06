@@ -164,6 +164,10 @@ serde_json
 ;
 extern
 crate
+servo_arc
+;
+extern
+crate
 servo_atoms
 ;
 extern
@@ -355,13 +359,10 @@ data
 LayoutData
 ;
 use
-style
-:
-:
-stylearc
+servo_arc
 :
 :
 Arc
 as
-StyleArc
+ServoArc
 ;

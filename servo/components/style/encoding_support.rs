@@ -42,6 +42,12 @@ DecoderTrap
 }
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -52,12 +58,6 @@ std
 :
 :
 str
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylesheets

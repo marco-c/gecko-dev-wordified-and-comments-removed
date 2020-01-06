@@ -142,6 +142,12 @@ matching
 ElementSelectorFlags
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -207,12 +213,6 @@ mpsc
 :
 :
 Sender
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylist

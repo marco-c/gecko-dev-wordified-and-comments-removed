@@ -39,6 +39,12 @@ parser
 SelectorParseError
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 std
 :
 :
@@ -85,12 +91,6 @@ ToCss
 StyleParseError
 ParseError
 }
-;
-use
-stylearc
-:
-:
-Arc
 ;
 pub
 type

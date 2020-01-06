@@ -76,6 +76,12 @@ parser
 ParserContext
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 shared_lock
 :
 :
@@ -99,12 +105,6 @@ style_traits
 :
 :
 PARSING_MODE_DEFAULT
-;
-use
-stylearc
-:
-:
-Arc
 ;
 pub
 use

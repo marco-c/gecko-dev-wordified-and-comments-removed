@@ -1,4 +1,10 @@
 use
+servo_arc
+:
+:
+Arc
+;
+use
 style
 :
 :
@@ -31,15 +37,6 @@ shared_lock
 :
 :
 SharedRwLock
-;
-use
-style
-:
-:
-stylearc
-:
-:
-Arc
 ;
 use
 style

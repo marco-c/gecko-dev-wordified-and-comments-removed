@@ -93,6 +93,12 @@ VisitedHandlingMode
 }
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 smallvec
 :
 :
@@ -121,12 +127,6 @@ ops
 :
 :
 Deref
-;
-use
-stylearc
-:
-:
-Arc
 ;
 use
 stylist

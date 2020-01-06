@@ -128,10 +128,7 @@ dom
 node
 :
 :
-{
 Node
-TreeIterator
-}
 ;
 use
 dom
@@ -198,10 +195,7 @@ serialize
 TraversalScope
 :
 :
-{
 ChildrenOnly
-IncludeNode
-}
 ;
 use
 html5ever

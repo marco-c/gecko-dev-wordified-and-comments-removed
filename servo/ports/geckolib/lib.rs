@@ -34,6 +34,10 @@ extern
 crate
 selectors
 ;
+extern
+crate
+servo_arc
+;
 #
 [
 macro_use
