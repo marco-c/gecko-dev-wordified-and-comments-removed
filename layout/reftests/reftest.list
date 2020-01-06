@@ -952,6 +952,14 @@ reftest
 .
 list
 #
+frameset
+include
+frameset
+/
+reftest
+.
+list
+#
 gfx
 include
 .
