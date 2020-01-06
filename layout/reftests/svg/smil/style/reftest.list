@@ -2241,13 +2241,6 @@ with
 pixel
 values
 only
-skip
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 anim
