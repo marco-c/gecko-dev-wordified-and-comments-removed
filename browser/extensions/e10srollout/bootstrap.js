@@ -183,7 +183,7 @@ buckets
 1
 :
 .
-99
+5
 4
 :
 1
@@ -194,9 +194,9 @@ prefix
 )
 {
 return
-!
-!
-prefix
+getAddonsDisqualifyForMulti
+(
+)
 ;
 }
 }
