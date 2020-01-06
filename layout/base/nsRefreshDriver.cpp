@@ -4651,7 +4651,7 @@ ObserverCount
 )
 =
 =
-mPendingSelectionScrolls
+mEarlyRunners
 .
 Length
 (
@@ -5564,7 +5564,7 @@ mViewManagerFlushIsPending
 sum
 +
 =
-mPendingSelectionScrolls
+mEarlyRunners
 .
 Length
 (
@@ -7176,13 +7176,13 @@ nsIRunnable
 >
 16
 >
-pendingSelectionScrolls
+earlyRunners
 ;
-pendingSelectionScrolls
+earlyRunners
 .
 SwapElements
 (
-mPendingSelectionScrolls
+mEarlyRunners
 )
 ;
 for
@@ -7194,7 +7194,7 @@ i
 ;
 i
 <
-pendingSelectionScrolls
+earlyRunners
 .
 Length
 (
@@ -7205,7 +7205,7 @@ Length
 i
 )
 {
-pendingSelectionScrolls
+earlyRunners
 [
 i
 ]

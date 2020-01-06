@@ -489,14 +489,14 @@ aShell
 ;
 }
 void
-AddPendingSelectionScroll
+AddEarlyRunner
 (
 nsIRunnable
 *
 aRunnable
 )
 {
-mPendingSelectionScrolls
+mEarlyRunners
 .
 AppendElement
 (
@@ -1205,7 +1205,7 @@ nsIRunnable
 >
 16
 >
-mPendingSelectionScrolls
+mEarlyRunners
 ;
 struct
 PendingEvent
