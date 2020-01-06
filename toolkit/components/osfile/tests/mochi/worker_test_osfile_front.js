@@ -1206,7 +1206,7 @@ for
 (
 let
 entry
-in
+of
 iterator
 )
 {
@@ -1577,7 +1577,7 @@ for
 (
 let
 x
-in
+of
 iterator
 )
 {
