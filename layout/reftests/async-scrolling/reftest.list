@@ -874,12 +874,6 @@ if
 !
 asyncPan
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 sticky
