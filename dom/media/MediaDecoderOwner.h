@@ -386,6 +386,13 @@ AsyncRejectSeekDOMPromiseIfExists
 =
 0
 ;
+virtual
+void
+NotifyWaitingForKey
+(
+)
+{
+}
 }
 ;
 }

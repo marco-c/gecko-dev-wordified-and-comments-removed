@@ -21075,7 +21075,7 @@ this
 HTMLMediaElement
 :
 :
-CannotDecryptWaitingForKey
+NotifyWaitingForKey
 )
 ;
 }
@@ -30665,7 +30665,7 @@ void
 HTMLMediaElement
 :
 :
-CannotDecryptWaitingForKey
+NotifyWaitingForKey
 (
 )
 {
@@ -30679,7 +30679,7 @@ Debug
 "
 %
 p
-CannotDecryptWaitingForKey
+NotifyWaitingForKey
 (
 )
 "
