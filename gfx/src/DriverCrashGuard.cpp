@@ -41,17 +41,12 @@ nsDirectoryServiceUtils
 h
 "
 #
-ifdef
-MOZ_CRASHREPORTER
-#
 include
 "
 nsExceptionHandler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -626,9 +621,6 @@ mType
 )
 ;
 }
-#
-ifdef
-MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -647,8 +639,6 @@ NS_LITERAL_CSTRING
 )
 )
 ;
-#
-endif
 }
 bool
 DriverCrashGuard
@@ -770,9 +760,6 @@ mGuardActivated
 =
 true
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 if
 (
 mMode
@@ -804,8 +791,6 @@ NS_LITERAL_CSTRING
 )
 ;
 }
-#
-endif
 if
 (
 XRE_IsContentProcess
