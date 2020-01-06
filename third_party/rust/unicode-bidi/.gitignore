@@ -1,9 +1,12 @@
 Cargo
 .
 lock
-/
-data
-/
-/
 target
+src
 /
+ReadMe
+.
+txt
+*
+.
+txt
