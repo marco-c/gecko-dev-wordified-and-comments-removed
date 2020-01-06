@@ -124,14 +124,6 @@ symbol
 basestring
             
 '
-triggered
--
-by
-'
-:
-basestring
-            
-'
 target
 -
 tasks

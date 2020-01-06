@@ -95,10 +95,6 @@ pushlog_id
 '
 target_tasks_method
 '
-    
-'
-triggered_by
-'
 ]
 )
 class
