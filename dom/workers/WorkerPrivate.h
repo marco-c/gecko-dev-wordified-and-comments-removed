@@ -3968,7 +3968,7 @@ aFlags
 NS_DISPATCH_NORMAL
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 ControlEventTarget
 (
