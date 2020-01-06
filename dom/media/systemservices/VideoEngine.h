@@ -113,7 +113,7 @@ const
 int64_t
 kCacheExpiryPeriodMs
 =
-1000
+2000
 ;
 public
 :
