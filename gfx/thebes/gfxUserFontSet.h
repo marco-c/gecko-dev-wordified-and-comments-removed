@@ -1617,7 +1617,6 @@ false
 )
 {
 }
-explicit
 LoadResultEntry
 (
 LoadResultEntry
