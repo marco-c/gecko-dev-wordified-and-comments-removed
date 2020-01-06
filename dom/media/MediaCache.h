@@ -695,6 +695,9 @@ mChannelEnded
 ;
 int64_t
 mStreamLength
+=
+-
+1
 ;
 int64_t
 mChannelOffset
