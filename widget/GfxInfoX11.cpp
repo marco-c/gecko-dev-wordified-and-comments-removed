@@ -99,7 +99,8 @@ endif
 int
 glxtest_pipe
 =
-0
+-
+1
 ;
 pid_t
 glxtest_pid
@@ -181,8 +182,11 @@ GetData
 {
 if
 (
-!
 glxtest_pipe
+=
+=
+-
+1
 )
 return
 ;
@@ -219,7 +223,8 @@ glxtest_pipe
 ;
 glxtest_pipe
 =
-0
+-
+1
 ;
 if
 (
