@@ -432,6 +432,12 @@ PerformWorkerDebuggerMicroTaskCheckpoint
 (
 )
 ;
+static
+bool
+IsWorkerDebuggerMicroTaskEmpty
+(
+)
+;
 nsIGlobalObject
 *
 GetParentObject
