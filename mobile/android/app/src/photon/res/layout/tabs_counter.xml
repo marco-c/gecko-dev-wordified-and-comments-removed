@@ -293,17 +293,6 @@ id
 /
 counter_text
 "
-style
-=
-"
-style
-/
-UrlBar
-.
-TabCounter
-.
-Text
-"
 android
 :
 layout_width

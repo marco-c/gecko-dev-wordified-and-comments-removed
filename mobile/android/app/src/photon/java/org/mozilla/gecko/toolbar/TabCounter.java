@@ -168,7 +168,7 @@ ONE_DIGIT_SIZE_RATIO
 =
 0
 .
-6f
+7f
 ;
 private
 static
