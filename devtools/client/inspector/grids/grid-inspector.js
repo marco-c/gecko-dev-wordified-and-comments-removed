@@ -716,6 +716,13 @@ this
 onReflow
 )
 ;
+if
+(
+this
+.
+swatchColorPickerTooltip
+)
+{
 this
 .
 swatchColorPickerTooltip
@@ -724,6 +731,7 @@ destroy
 (
 )
 ;
+}
 this
 .
 document
