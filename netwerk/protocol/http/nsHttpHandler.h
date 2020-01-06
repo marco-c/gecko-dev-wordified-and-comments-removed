@@ -733,6 +733,11 @@ mUseFastOpen
 &
 &
 mFastOpenSupported
+&
+&
+mFastOpenConsecutiveFailureCounter
+<
+mFastOpenConsecutiveFailureLimit
 ;
 }
 void
