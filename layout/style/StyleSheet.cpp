@@ -137,6 +137,10 @@ mDisabled
 (
 false
 )
+mDirty
+(
+false
+)
 mDocumentAssociationMode
 (
 NotOwnedByDocument
@@ -144,10 +148,6 @@ NotOwnedByDocument
 mInner
 (
 nullptr
-)
-mDirty
-(
-false
 )
 {
 }
@@ -217,6 +217,12 @@ aCopy
 .
 mDisabled
 )
+mDirty
+(
+aCopy
+.
+mDirty
+)
 mDocumentAssociationMode
 (
 NotOwnedByDocument
@@ -226,12 +232,6 @@ mInner
 aCopy
 .
 mInner
-)
-mDirty
-(
-aCopy
-.
-mDirty
 )
 {
 MOZ_ASSERT
