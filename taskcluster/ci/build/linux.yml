@@ -1874,6 +1874,11 @@ tooltool
 downloads
 :
 public
+need
+-
+xvfb
+:
+true
 run
 -
 on
@@ -2045,6 +2050,11 @@ tooltool
 downloads
 :
 public
+need
+-
+xvfb
+:
+true
 run
 -
 on
