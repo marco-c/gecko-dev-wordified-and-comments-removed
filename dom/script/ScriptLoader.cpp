@@ -12684,11 +12684,17 @@ aDocument
 {
 unicodeDecoder
 =
+Encoding
+:
+:
+ForName
+(
 aDocument
 -
 >
 GetDocumentCharacterSet
 (
+)
 )
 -
 >

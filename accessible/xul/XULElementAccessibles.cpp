@@ -1021,6 +1021,10 @@ document
 GetDocumentCharacterSet
 (
 )
+.
+get
+(
+)
 baseURI
 )
 ;

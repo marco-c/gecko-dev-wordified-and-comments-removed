@@ -160,13 +160,9 @@ nsHtml5DocumentBuilder
 :
 SetDocumentCharsetAndSource
 (
-NotNull
-<
-const
-Encoding
-*
->
-aEncoding
+nsACString
+&
+aCharset
 int32_t
 aCharsetSource
 )
@@ -189,7 +185,7 @@ mDocument
 >
 SetDocumentCharacterSet
 (
-aEncoding
+aCharset
 )
 ;
 }

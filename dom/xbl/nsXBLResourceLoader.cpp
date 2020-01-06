@@ -539,6 +539,10 @@ doc
 GetDocumentCharacterSet
 (
 )
+.
+get
+(
+)
 docURL
 )
 )

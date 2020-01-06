@@ -1068,6 +1068,11 @@ mDocument
 {
 encoding
 =
+Encoding
+:
+:
+ForName
+(
 mScriptLoader
 -
 >
@@ -1076,6 +1081,7 @@ mDocument
 >
 GetDocumentCharacterSet
 (
+)
 )
 ;
 mDecoder
