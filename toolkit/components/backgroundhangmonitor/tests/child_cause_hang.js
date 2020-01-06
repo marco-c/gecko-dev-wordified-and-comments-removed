@@ -147,9 +147,9 @@ startTime
 await
 do_await_remote_message
 (
-'
+"
 bhr_hangs_detected
-'
+"
 )
 ;
 }

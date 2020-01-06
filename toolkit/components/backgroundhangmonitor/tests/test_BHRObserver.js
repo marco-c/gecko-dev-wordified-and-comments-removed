@@ -708,9 +708,9 @@ string
 ;
 do_send_remote_message
 (
-'
+"
 bhr_hangs_detected
-'
+"
 )
 ;
 await
