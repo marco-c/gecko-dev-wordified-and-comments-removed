@@ -4947,7 +4947,7 @@ regions
 .
 enabled
 "
-true
+false
 )
 ;
 pref
