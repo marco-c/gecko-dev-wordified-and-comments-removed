@@ -955,9 +955,13 @@ location
 column
 +
 =
+(
 target
 -
 position
+)
+as
+u32
 ;
 self
 .
@@ -1401,11 +1405,11 @@ SourceLocation
 pub
 line
 :
-usize
+u32
 pub
 column
 :
-usize
+u32
 }
 fn
 next_token

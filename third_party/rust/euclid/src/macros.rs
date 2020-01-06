@@ -217,6 +217,8 @@ heap_size_of_children
 }
 impl
 <
+'
+de
 T
 (
 phantom
@@ -229,6 +231,10 @@ serde
 :
 :
 Deserialize
+<
+'
+de
+>
 for
 name
 <
@@ -247,6 +253,10 @@ serde
 :
 :
 Deserialize
+<
+'
+de
+>
 {
 fn
 deserialize
@@ -277,6 +287,10 @@ serde
 :
 :
 Deserializer
+<
+'
+de
+>
 {
 let
 (
