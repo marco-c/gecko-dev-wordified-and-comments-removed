@@ -361,6 +361,8 @@ eval
 const
 div
 =
+content
+.
 document
 .
 createElement
@@ -379,6 +381,8 @@ item
 3
 "
 ;
+content
+.
 document
 .
 querySelector

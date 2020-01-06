@@ -998,6 +998,8 @@ testActor
 eval
 (
 "
+content
+.
 document
 .
 title
@@ -1026,7 +1028,7 @@ testActor
 eval
 (
 "
-window
+content
 .
 foo
 "
@@ -1115,6 +1117,8 @@ testActor
 eval
 (
 "
+content
+.
 document
 .
 documentElement
@@ -1261,6 +1265,8 @@ testActor
 eval
 (
 "
+content
+.
 document
 .
 title
@@ -1291,7 +1297,7 @@ testActor
 eval
 (
 "
-window
+content
 .
 foo
 "
@@ -1526,6 +1532,8 @@ testActor
 eval
 (
 "
+content
+.
 document
 .
 documentElement
@@ -1673,6 +1681,8 @@ testActor
 eval
 (
 "
+content
+.
 document
 .
 title
@@ -1704,7 +1714,7 @@ testActor
 eval
 (
 "
-window
+content
 .
 foo
 "

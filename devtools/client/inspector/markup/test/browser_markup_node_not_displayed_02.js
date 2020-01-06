@@ -58,6 +58,8 @@ eval
 let
 div
 =
+content
+.
 document
 .
 createElement
@@ -101,6 +103,8 @@ style
 >
 "
 ;
+content
+.
 document
 .
 body
@@ -154,6 +158,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 getElementById
@@ -216,6 +222,8 @@ eval
 let
 node
 =
+content
+.
 document
 .
 querySelector
@@ -282,6 +290,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 querySelector
@@ -405,6 +415,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 styleSheets
@@ -478,6 +490,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 styleSheets
@@ -552,6 +566,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 styleSheets
@@ -578,6 +594,8 @@ none
 2
 )
 ;
+content
+.
 document
 .
 querySelector
