@@ -349,6 +349,13 @@ void
 ptr
 )
 ;
+void
+SetIncludeContextHeap
+(
+bool
+aValue
+)
+;
 typedef
 nsDataHashtable
 <
