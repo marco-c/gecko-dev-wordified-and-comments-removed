@@ -11816,6 +11816,16 @@ return
 NS_OK
 ;
 }
+bool
+textZoomChange
+=
+(
+mTextZoom
+!
+=
+aTextZoom
+)
+;
 mTextZoom
 =
 aTextZoom
@@ -11878,6 +11888,11 @@ SetExtResourceTextZoom
 ZoomInfo
 )
 ;
+if
+(
+textZoomChange
+)
+{
 nsContentUtils
 :
 :
@@ -11902,6 +11917,7 @@ true
 true
 )
 ;
+}
 return
 NS_OK
 ;
