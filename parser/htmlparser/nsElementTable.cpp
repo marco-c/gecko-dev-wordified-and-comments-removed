@@ -1,13 +1,6 @@
 #
 include
 "
-nsIAtom
-.
-h
-"
-#
-include
-"
 nsElementTable
 .
 h
@@ -1346,7 +1339,7 @@ t
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 gHTMLElements
 [
