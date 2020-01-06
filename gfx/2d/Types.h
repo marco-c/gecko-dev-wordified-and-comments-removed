@@ -454,6 +454,16 @@ UNBOUNDED
 BOUNDED
 }
 ;
+enum
+class
+LuminanceType
+:
+int8_t
+{
+LUMINANCE
+LINEARRGB
+}
+;
 struct
 Color
 {
