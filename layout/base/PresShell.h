@@ -3005,17 +3005,6 @@ ResumePainting
 override
 ;
 void
-UpdateActivePointerState
-(
-mozilla
-:
-:
-WidgetGUIEvent
-*
-aEvent
-)
-;
-void
 UpdateApproximateFrameVisibility
 (
 )

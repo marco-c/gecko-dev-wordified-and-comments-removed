@@ -831,6 +831,17 @@ U2FTokenManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PointerEventHandler
+.
+h
+"
 using
 namespace
 mozilla
@@ -1484,7 +1495,7 @@ Initialize
 (
 )
 ;
-nsIPresShell
+PointerEventHandler
 :
 :
 InitializeStatics
@@ -2117,7 +2128,7 @@ Shutdown
 (
 )
 ;
-nsIPresShell
+PointerEventHandler
 :
 :
 ReleaseStatics
