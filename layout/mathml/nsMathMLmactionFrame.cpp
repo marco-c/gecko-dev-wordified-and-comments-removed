@@ -736,6 +736,10 @@ needsReflow
 =
 false
 ;
+InvalidateFrame
+(
+)
+;
 if
 (
 aAttribute

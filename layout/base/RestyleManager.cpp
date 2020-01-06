@@ -6947,6 +6947,13 @@ InvalidateRenderingObservers
 frame
 )
 ;
+frame
+-
+>
+SchedulePaint
+(
+)
+;
 }
 if
 (
