@@ -688,6 +688,7 @@ pub
 struct
 Expression
 (
+pub
 ExpressionKind
 )
 ;

@@ -14,6 +14,10 @@ extern
 crate
 servo_url
 ;
+extern
+crate
+style
+;
 #
 [
 cfg
@@ -71,4 +75,14 @@ test
 ]
 mod
 htmlareaelement
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+htmlimageelement
 ;
