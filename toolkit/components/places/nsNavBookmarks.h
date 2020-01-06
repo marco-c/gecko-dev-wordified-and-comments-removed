@@ -558,7 +558,7 @@ aFolderId
 )
 ;
 nsresult
-ReadRoots
+EnsureRoots
 (
 )
 ;

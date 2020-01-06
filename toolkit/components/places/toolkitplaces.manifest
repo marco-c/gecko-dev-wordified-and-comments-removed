@@ -235,9 +235,11 @@ categoriesStarter
 ;
 1
 category
-bookmark
+places
 -
-observers
+init
+-
+complete
 PlacesCategoriesStarter
 mozilla
 .

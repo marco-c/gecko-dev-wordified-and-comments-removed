@@ -610,7 +610,9 @@ true
 ;
 PlacesUtils
 .
-addLazyBookmarkObserver
+bookmarks
+.
+addObserver
 (
 this
 true
