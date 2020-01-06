@@ -1972,6 +1972,27 @@ py
 '
         
 '
+fuzzing
+-
+asan
+-
+tc
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_fuzzing_asan_tc
+.
+py
+'
+        
+'
 tsan
 '
 :
