@@ -929,6 +929,28 @@ logging
 INFO
 )
     
+parser
+.
+add_argument
+(
+"
+-
+-
+product
+"
+help
+=
+"
+Override
+product
+name
+from
+application
+.
+ini
+"
+)
+    
 args
 =
 parser
@@ -1296,6 +1318,19 @@ args
 dummy
 )
             
+productName
+=
+args
+.
+product
+or
+e
+[
+"
+appName
+"
+]
+            
 retry
 (
 lambda
@@ -1315,12 +1350,7 @@ platform
 ]
 productName
 =
-e
-[
-"
-appName
-"
-]
+productName
                 
 version
 =
@@ -1685,6 +1715,19 @@ args
 dummy
 )
             
+productName
+=
+args
+.
+product
+or
+e
+[
+"
+appName
+"
+]
+            
 retry
 (
 lambda
@@ -1713,12 +1756,7 @@ to_buildid
                 
 productName
 =
-e
-[
-"
-appName
-"
-]
+productName
 branch
 =
 e
