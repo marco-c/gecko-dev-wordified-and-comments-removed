@@ -118,6 +118,12 @@ Init
 (
 )
 ;
+static
+bool
+HasKnownNonUiaConsumer
+(
+)
+;
 private
 :
 Compatibility
@@ -139,6 +145,12 @@ operator
 const
 Compatibility
 &
+)
+;
+static
+void
+InitConsumers
+(
 )
 ;
 enum
