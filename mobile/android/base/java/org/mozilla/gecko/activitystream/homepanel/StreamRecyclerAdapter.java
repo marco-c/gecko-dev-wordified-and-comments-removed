@@ -621,6 +621,13 @@ emptyList
 )
 ;
 }
+public
+void
+reset
+(
+)
+{
+}
 void
 setOnUrlOpenListeners
 (
