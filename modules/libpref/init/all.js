@@ -6608,18 +6608,6 @@ pref
 "
 apz
 .
-autoscroll
-.
-enabled
-"
-false
-)
-;
-pref
-(
-"
-apz
-.
 axis_lock
 .
 mode
@@ -42726,7 +42714,7 @@ content
 description
 "
 "
-mozfullDesc2
+mozfullDesc
 "
 )
 ;
@@ -44518,9 +44506,6 @@ false
 endif
 #
 endif
-#
-ifdef
-RELEASE
 pref
 (
 "
@@ -44546,7 +44531,8 @@ false
 )
 ;
 #
-else
+ifdef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "

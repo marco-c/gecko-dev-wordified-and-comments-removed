@@ -802,9 +802,6 @@ max_max_age_seconds
 5184000
 )
 ;
-#
-ifdef
-RELEASE
 pref
 (
 "
@@ -830,7 +827,8 @@ false
 )
 ;
 #
-else
+ifdef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
