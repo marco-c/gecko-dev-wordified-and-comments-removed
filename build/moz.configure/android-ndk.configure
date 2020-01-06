@@ -652,7 +652,6 @@ ANDROID_NDK_MAJOR_VERSION
 '
 ndk_major_version
 )
-;
 depends
 (
 ndk_version
@@ -718,7 +717,6 @@ ANDROID_NDK_MINOR_VERSION
 '
 ndk_minor_version
 )
-;
 depends
 (
 target
