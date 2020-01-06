@@ -334,15 +334,6 @@ MADV_DONTNEED
 #
 endif
 #
-ifndef
-MAP_NOSYNC
-#
-define
-MAP_NOSYNC
-0
-#
-endif
-#
 endif
 #
 if
