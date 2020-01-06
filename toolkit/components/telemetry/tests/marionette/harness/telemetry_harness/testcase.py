@@ -329,6 +329,7 @@ def
 wait_for_ping
 (
 self
+ping_filter_func
 )
 :
         
@@ -396,6 +397,36 @@ e
 message
 )
 )
+        
+self
+.
+ping_list
+=
+[
+p
+for
+p
+in
+self
+.
+ping_list
+if
+ping_filter_func
+(
+p
+)
+]
+        
+assert
+len
+(
+self
+.
+ping_list
+)
+=
+=
+1
         
 return
 self
