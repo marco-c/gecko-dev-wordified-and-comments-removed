@@ -213,6 +213,12 @@ idProp
 =
 idProp
 ;
+this
+.
+ignoresMissingClients
+=
+false
+;
 }
 emptyProblemData
 (
@@ -789,6 +795,12 @@ client
 {
 if
 (
+!
+this
+.
+ignoresMissingClients
+&
+&
 server
 .
 understood
