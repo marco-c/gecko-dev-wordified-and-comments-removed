@@ -94,7 +94,7 @@ located
 in
 the
 file
-ftoption
+ftoptions
 .
 h
 '
@@ -1376,7 +1376,7 @@ runtime
 Copyright
 2002
 -
-2017
+2016
 by
 David
 Turner

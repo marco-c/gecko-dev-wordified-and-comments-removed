@@ -13,13 +13,6 @@ aflatin
 h
 "
 #
-include
-"
-afcjk
-.
-h
-"
-#
 ifdef
 AF_CONFIG_OPTION_INDIC
 #
@@ -33,6 +26,13 @@ h
 include
 "
 aferrors
+.
+h
+"
+#
+include
+"
+afcjk
 .
 h
 "

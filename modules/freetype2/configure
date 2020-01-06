@@ -9,7 +9,7 @@ sh
 Copyright
 2002
 -
-2017
+2016
 by
 #
 David
@@ -124,7 +124,7 @@ GNUMAKE
 environment
 variable
 for
-backward
+backwards
 compatibility
 if
 test

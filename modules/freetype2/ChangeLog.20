@@ -10988,7 +10988,7 @@ t1decode
 .
 c
 (
-T1_Decoder_Parse_Charstrings
+T1_Decoder_Parse_CharStrings
 )
 :
 Ditto
@@ -12481,7 +12481,7 @@ scale
 factors
 !
 (
-FT_RoundFix
+FT_Round_Fix
 FT_CeilFix
 FT_FloorFix
 )
@@ -17769,7 +17769,7 @@ Changed
 the
 structures
 for
-CFF_Charset
+CFF_Encoding
 and
 CFF_Encoding
 for
@@ -21473,7 +21473,7 @@ released
 Copyright
 2000
 -
-2017
+2016
 by
 David
 Turner

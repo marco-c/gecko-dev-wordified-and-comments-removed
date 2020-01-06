@@ -246,16 +246,6 @@ h
 >
 #
 define
-FT_PCF_DRIVER_H
-<
-freetype
-/
-ftpcfdrv
-.
-h
->
-#
-define
 FT_TYPE1_TABLES_H
 <
 freetype

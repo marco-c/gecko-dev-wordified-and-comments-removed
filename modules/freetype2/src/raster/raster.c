@@ -11,6 +11,13 @@ h
 #
 include
 "
+rastpic
+.
+c
+"
+#
+include
+"
 ftraster
 .
 c
@@ -19,13 +26,6 @@ c
 include
 "
 ftrend1
-.
-c
-"
-#
-include
-"
-rastpic
 .
 c
 "

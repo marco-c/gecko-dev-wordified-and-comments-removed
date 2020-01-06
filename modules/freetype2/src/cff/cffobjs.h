@@ -136,9 +136,6 @@ darken_params
 8
 ]
 ;
-FT_Int32
-random_seed
-;
 }
 CFF_DriverRec
 ;

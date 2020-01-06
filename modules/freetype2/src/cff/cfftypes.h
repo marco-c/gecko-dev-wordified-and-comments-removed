@@ -565,9 +565,6 @@ FT_Byte
 *
 local_subrs
 ;
-FT_UInt32
-random
-;
 }
 CFF_SubFontRec
 ;

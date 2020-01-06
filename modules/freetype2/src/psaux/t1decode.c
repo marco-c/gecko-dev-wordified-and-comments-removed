@@ -2126,7 +2126,7 @@ FT_TRACE4
 (
 "
 %
-d
+ld
 "
 value
 )
@@ -2138,7 +2138,7 @@ FT_TRACE4
 (
 "
 %
-d
+ld
 "
 value
 /
@@ -2462,21 +2462,6 @@ idx
 <
 7
 )
-{
-if
-(
-FT_SET_ERROR
-(
-t1_builder_check_points
-(
-builder
-1
-)
-)
-)
-goto
-Syntax_Error
-;
 t1_builder_add_point
 (
 builder
@@ -2499,7 +2484,6 @@ idx
 )
 )
 ;
-}
 }
 break
 ;

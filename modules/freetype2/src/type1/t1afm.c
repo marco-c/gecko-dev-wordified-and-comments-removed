@@ -29,9 +29,6 @@ t1errors
 h
 "
 #
-ifndef
-T1_CONFIG_OPTION_NO_AFM
-#
 undef
 FT_COMPONENT
 #
@@ -1593,11 +1590,3 @@ return
 FT_Err_Ok
 ;
 }
-#
-else
-typedef
-int
-_t1_afm_dummy
-;
-#
-endif

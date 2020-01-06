@@ -1422,9 +1422,8 @@ FT_TRACE5
 FT_Outline_Decompose
 :
 Error
-0x
 %
-x
+d
 \
 n
 "

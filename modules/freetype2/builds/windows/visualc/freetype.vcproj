@@ -420,7 +420,7 @@ OutputFile
 \
 objs
 \
-freetype28
+freetype271
 .
 lib
 "
@@ -820,7 +820,7 @@ OutputFile
 \
 objs
 \
-freetype28MT
+freetype271MT
 .
 lib
 "
@@ -1220,7 +1220,7 @@ OutputFile
 \
 objs
 \
-freetype28ST
+freetype271ST
 .
 lib
 "
@@ -1608,7 +1608,7 @@ OutputFile
 \
 objs
 \
-freetype28_D
+freetype271_D
 .
 lib
 "
@@ -2002,7 +2002,7 @@ OutputFile
 \
 objs
 \
-freetype28ST_D
+freetype271ST_D
 .
 lib
 "
@@ -2403,7 +2403,7 @@ OutputFile
 \
 objs
 \
-freetype28MT_D
+freetype271MT_D
 .
 lib
 "

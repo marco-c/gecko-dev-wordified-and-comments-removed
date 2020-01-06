@@ -11,7 +11,7 @@ h
 #
 include
 "
-cidgload
+cidparse
 .
 c
 "
@@ -32,14 +32,14 @@ c
 #
 include
 "
-cidparse
+cidriver
 .
 c
 "
 #
 include
 "
-cidriver
+cidgload
 .
 c
 "

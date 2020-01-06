@@ -11,14 +11,14 @@ h
 #
 include
 "
-psmodule
+pspic
 .
 c
 "
 #
 include
 "
-pspic
+psmodule
 .
 c
 "

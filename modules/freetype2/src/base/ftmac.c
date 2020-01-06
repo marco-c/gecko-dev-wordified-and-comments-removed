@@ -22,9 +22,6 @@ ftbase
 h
 "
 #
-ifdef
-FT_MACINTOSH
-#
 if
 !
 HAVE_ANSI_OS_INLINE
@@ -135,6 +132,9 @@ PREFER_LWFN
 1
 #
 endif
+#
+ifdef
+FT_MACINTOSH
 FT_EXPORT_DEF
 (
 FT_Error
@@ -3498,11 +3498,5 @@ aface
 #
 endif
 }
-#
-else
-typedef
-int
-_ft_mac_dummy
-;
 #
 endif

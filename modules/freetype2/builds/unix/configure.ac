@@ -26,7 +26,7 @@ script
 Copyright
 2001
 -
-2017
+2016
 by
 #
 David
@@ -103,7 +103,9 @@ FreeType
 [
 2
 .
-8
+7
+.
+1
 ]
 [
 freetype
@@ -140,11 +142,11 @@ TXT
 version_info
 =
 '
-20
+19
 :
 0
 :
-14
+13
 '
 AC_SUBST
 (

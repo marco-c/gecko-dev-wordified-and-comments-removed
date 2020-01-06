@@ -280,7 +280,7 @@ FT_TRACE1
 "
 too
 strong
-emboldening
+embolding
 parameter
 ystr
 =

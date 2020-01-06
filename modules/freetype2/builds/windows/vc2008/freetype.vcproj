@@ -430,7 +430,7 @@ win32
 \
 vc2008
 \
-freetype28
+freetype271
 .
 lib
 "
@@ -836,7 +836,7 @@ win32
 \
 vc2008
 \
-freetype28MT
+freetype271MT
 .
 lib
 "
@@ -1242,7 +1242,7 @@ win32
 \
 vc2008
 \
-freetype28ST
+freetype271ST
 .
 lib
 "
@@ -1636,7 +1636,7 @@ win32
 \
 vc2008
 \
-freetype28_D
+freetype271_D
 .
 lib
 "
@@ -2036,7 +2036,7 @@ win32
 \
 vc2008
 \
-freetype28ST_D
+freetype271ST_D
 .
 lib
 "
@@ -2443,7 +2443,7 @@ win32
 \
 vc2008
 \
-freetype28MT_D
+freetype271MT_D
 .
 lib
 "

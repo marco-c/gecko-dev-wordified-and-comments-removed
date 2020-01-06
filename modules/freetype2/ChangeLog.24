@@ -2502,7 +2502,7 @@ previous
 version
 was
 not
-backward
+backwards
 compatible
 .
 Reported
@@ -5516,7 +5516,7 @@ to
 .
 .
 (
-sph_X_SCALING_Rules
+spu_X_SCALING_Rules
 SPH_X_SCALING_RULES_SIZE
 )
 :
@@ -15275,7 +15275,7 @@ it
 using
 a
 simplified
-emboldening
+embolding
 algorithm
 .
 (
@@ -21415,7 +21415,7 @@ src
 /
 type42
 /
-t42drivr
+t42driver
 .
 c
 (
@@ -21448,8 +21448,7 @@ h
 :
 Updated
 for
-t42
-driver
+t42driver
 changes
 .
 2011
@@ -27625,7 +27624,7 @@ different
 entries
 pointing
 same
-tracking
+traking
 value
 .
 (
@@ -27703,7 +27702,7 @@ src
 /
 gxvalid
 /
-gxvmorx0
+gxmorx0
 .
 c
 (
@@ -27728,7 +27727,7 @@ src
 /
 gxvalid
 /
-gxvmorx1
+gxmorx1
 .
 c
 (
@@ -27914,7 +27913,7 @@ src
 /
 gxvalid
 /
-gxvmort0
+gxmort0
 .
 c
 (
@@ -27936,7 +27935,7 @@ src
 /
 gxvalid
 /
-gxvmort1
+gxmort1
 .
 c
 (
@@ -29424,7 +29423,7 @@ of
 af_latin_metrics_init_blues
 .
 (
-af_cjk_hint_edges
+af_cjk_hints_edges
 )
 :
 Add
@@ -42094,7 +42093,7 @@ set
 charmap
 .
 {
-platform
+platfom
 encoding
 }
 _id
@@ -43017,7 +43016,7 @@ src
 /
 type1
 /
-t1objs
+t1jobjs
 .
 c
 (
@@ -43031,7 +43030,7 @@ src
 /
 type42
 /
-t42objs
+t42jobjs
 .
 c
 (
@@ -46814,7 +46813,7 @@ tt_get_metrics_incr_overrides
 Copyright
 2010
 -
-2017
+2016
 by
 David
 Turner

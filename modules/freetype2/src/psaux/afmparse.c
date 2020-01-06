@@ -15,9 +15,6 @@ FT_INTERNAL_DEBUG_H
 include
 FT_INTERNAL_POSTSCRIPT_AUX_H
 #
-ifndef
-T1_CONFIG_OPTION_NO_AFM
-#
 include
 "
 afmparse
@@ -3322,11 +3319,3 @@ return
 error
 ;
 }
-#
-else
-typedef
-int
-_afm_parse_dummy
-;
-#
-endif

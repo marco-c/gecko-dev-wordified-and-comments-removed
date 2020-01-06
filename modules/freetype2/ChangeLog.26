@@ -2504,7 +2504,7 @@ smooth
 ]
 Sanitize
 memory
-management
+managenent
 .
 *
 src
@@ -3279,7 +3279,7 @@ Light
 that
 would
 glitch
-severely
+severly
 after
 calling
 ALIGNRP
@@ -3451,7 +3451,7 @@ from
 straight
 line
 being
-asymptotically
+assymptotically
 cut
 4
 -
@@ -4212,7 +4212,7 @@ Direct_Move_Y
 )
 :
 Handle
-backward
+backwards
 compatibility
 .
 Updated
@@ -4247,7 +4247,7 @@ Ins_FLIPRGOFF
 )
 :
 Handle
-backward
+backwards
 compatibility
 .
 (
@@ -4267,7 +4267,7 @@ Ins_SHPIX
 )
 :
 Handle
-backward
+backwards
 compatibility
 .
 Updated
@@ -4294,7 +4294,7 @@ Ins_DELTAP
 )
 :
 Handle
-backward
+backwards
 compatibility
 .
 Updated
@@ -4314,7 +4314,7 @@ TT_RunIns
 )
 :
 Handle
-backward
+backwards
 compatibility
 mode
 .
@@ -4463,7 +4463,7 @@ subpixel_hinting_lean
 '
 vertical_lcd_lean
 '
-backward_compatibility
+backwards_compatibility
 '
 iupx_called
 '
@@ -4514,7 +4514,7 @@ points
 unless
 in
 v38
-backward
+backwards
 compatibility
 mode
 .
@@ -4526,7 +4526,7 @@ compute_glyph_metrics
 :
 Add
 v38
-backward
+backwards
 compatibility
 mode
 constraint
@@ -7073,7 +7073,7 @@ to
 here
 .
 (
-gray_render_line
+gray_rander_line
 gray_render_scanline
 )
 :
@@ -10615,7 +10615,7 @@ We
 need
 this
 for
-backward
+backwards
 compatibility
 .
 Problem
@@ -29923,7 +29923,7 @@ ClearType
 hinting
 '
 disabling
-backward
+backwards
 compatibility
 mode
 as
@@ -38704,7 +38704,7 @@ And
 the
 smooth
 rasterizer
-superseded
+superceded
 it
 over
 ten
@@ -40404,7 +40404,7 @@ interpreter
 Copyright
 2015
 -
-2017
+2016
 by
 David
 Turner

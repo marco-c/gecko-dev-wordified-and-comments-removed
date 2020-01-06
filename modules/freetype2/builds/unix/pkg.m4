@@ -564,7 +564,7 @@ only
 at
 the
 first
-occurrence
+occurence
 in
 configure
 .

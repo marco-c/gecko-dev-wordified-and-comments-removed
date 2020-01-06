@@ -1764,13 +1764,6 @@ p
 ;
 if
 (
-!
-num_subrs
-)
-continue
-;
-if
-(
 num_subrs
 +
 1

@@ -998,8 +998,6 @@ m_scale
 \
 m_done
 \
-m_stdw
-\
 h_init
 \
 h_apply

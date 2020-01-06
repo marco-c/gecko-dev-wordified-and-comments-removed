@@ -7,7 +7,7 @@ txt
 Copyright
 2013
 -
-2017
+2016
 by
 #
 David
@@ -926,14 +926,14 @@ set
 (
 VERSION_MINOR
 "
-8
+7
 "
 )
 set
 (
 VERSION_PATCH
 "
-0
+1
 "
 )
 set
