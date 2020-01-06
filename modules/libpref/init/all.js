@@ -44351,7 +44351,7 @@ blocklist
 .
 enabled
 "
-true
+false
 )
 ;
 pref
