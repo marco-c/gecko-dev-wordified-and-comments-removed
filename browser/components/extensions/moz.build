@@ -145,6 +145,13 @@ worker
 js
 '
 '
+ParseCppFiltSymbols
+-
+worker
+.
+js
+'
+'
 ParseNMSymbols
 -
 worker
