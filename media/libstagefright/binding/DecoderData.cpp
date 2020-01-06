@@ -21,7 +21,7 @@ include
 "
 mp4_demuxer
 /
-ByteReader
+BufferReader
 .
 h
 "
@@ -451,7 +451,11 @@ aDest
 )
 ;
 }
-bool
+Result
+<
+Ok
+nsresult
+>
 CryptoFile
 :
 :
@@ -465,7 +469,7 @@ size_t
 aLength
 )
 {
-ByteReader
+BufferReader
 reader
 (
 aData
@@ -499,7 +503,10 @@ uuid
 )
 {
 return
-false
+Err
+(
+NS_ERROR_FAILURE
+)
 ;
 }
 if
@@ -516,7 +523,10 @@ uint32_t
 )
 {
 return
-false
+Err
+(
+NS_ERROR_FAILURE
+)
 ;
 }
 auto
@@ -546,7 +556,10 @@ length
 )
 {
 return
-false
+Err
+(
+NS_ERROR_FAILURE
+)
 ;
 }
 pssh
@@ -558,7 +571,9 @@ psshInfo
 ;
 }
 return
-true
+Ok
+(
+)
 ;
 }
 static
