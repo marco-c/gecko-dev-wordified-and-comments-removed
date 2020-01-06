@@ -590,6 +590,7 @@ observe
 (
 PREF_FLASH_STATE
 function
+prefWatcher
 (
 )
 {
@@ -617,6 +618,14 @@ from
 {
 currentCohort
 }
+)
+;
+Preferences
+.
+ignore
+(
+PREF_FLASH_STATE
+prefWatcher
 )
 ;
 }
