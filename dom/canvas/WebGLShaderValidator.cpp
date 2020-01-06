@@ -571,13 +571,13 @@ resources
 .
 MaxCombinedTextureImageUnits
 =
-mGLMaxTextureUnits
+mGLMaxCombinedTextureImageUnits
 ;
 resources
 .
 MaxTextureImageUnits
 =
-mGLMaxTextureImageUnits
+mGLMaxFragmentTextureImageUnits
 ;
 resources
 .

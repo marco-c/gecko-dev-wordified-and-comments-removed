@@ -401,10 +401,7 @@ texture
 =
 LOCAL_GL_TEXTURE0
 +
-uint32_t
-(
 mGLMaxTextureUnits
-)
 )
 {
 return
@@ -1844,7 +1841,7 @@ mActiveTexture
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0

@@ -106,7 +106,7 @@ return
 ;
 for
 (
-int
+uint32_t
 n
 =
 0
@@ -236,10 +236,7 @@ return
 ;
 if
 (
-GLint
-(
 unit
-)
 >
 =
 mGLMaxTextureUnits
@@ -255,7 +252,7 @@ must
 be
 <
 %
-d
+u
 "
 mGLMaxTextureUnits
 )
