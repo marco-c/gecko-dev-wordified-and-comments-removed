@@ -258,13 +258,6 @@ result
 )
 ;
 async
-NPN_DestroyStream
-(
-NPReason
-reason
-)
-;
-async
 StreamDestroyed
 (
 )
