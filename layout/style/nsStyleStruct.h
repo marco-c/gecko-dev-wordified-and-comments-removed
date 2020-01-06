@@ -10010,7 +10010,7 @@ GetURLValue
 nullptr
 ;
 }
-bool
+void
 SetURL
 (
 css
