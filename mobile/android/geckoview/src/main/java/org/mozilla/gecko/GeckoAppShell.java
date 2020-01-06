@@ -8796,13 +8796,6 @@ interface
 GeckoInterface
 {
 public
-NonNull
-EventDispatcher
-getAppEventDispatcher
-(
-)
-;
-public
 void
 enableOrientationListener
 (
