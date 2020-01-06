@@ -108,15 +108,6 @@ GetForms
 0
 ;
 virtual
-nsContentList
-*
-GetFormControls
-(
-)
-=
-0
-;
-virtual
 nsresult
 ChangeContentEditableCount
 (
