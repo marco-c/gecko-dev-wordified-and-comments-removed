@@ -59,6 +59,13 @@ h
 #
 include
 "
+jsweakmap
+.
+h
+"
+#
+include
+"
 builtin
 /
 AtomicsObject
