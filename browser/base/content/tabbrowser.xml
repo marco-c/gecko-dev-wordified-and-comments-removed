@@ -4416,6 +4416,11 @@ if
 this
 .
 mTotalProgress
+&
+&
+aWebProgress
+.
+isTopLevel
 )
 this
 .
@@ -5097,6 +5102,11 @@ nsIWebProgressListener
 .
 STATE_RESTORING
 )
+&
+&
+aWebProgress
+.
+isTopLevel
 )
 {
 this
