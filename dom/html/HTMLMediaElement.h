@@ -154,6 +154,13 @@ nsStubMutationObserver
 h
 "
 #
+include
+"
+MediaSegment
+.
+h
+"
+#
 ifdef
 CurrentTime
 #
