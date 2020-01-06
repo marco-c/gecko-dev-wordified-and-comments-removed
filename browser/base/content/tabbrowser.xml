@@ -52777,6 +52777,15 @@ speculativeConnectOnTabHover
 this
 )
 ;
+tabContainer
+.
+tabbrowser
+.
+warmupTab
+(
+this
+)
+;
 ]
 ]
 >
