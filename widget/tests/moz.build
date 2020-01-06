@@ -193,7 +193,7 @@ Core
 "
 Widget
 :
-win32
+Win32
 "
 )
 with

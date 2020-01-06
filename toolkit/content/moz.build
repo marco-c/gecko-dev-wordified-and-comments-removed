@@ -563,10 +563,9 @@ BUG_COMPONENT
 (
 '
 Toolkit
-Graveyard
 '
 '
-XULRunner
+General
 '
 )
 with

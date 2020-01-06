@@ -194,7 +194,7 @@ BUG_COMPONENT
 Firefox
 "
 "
-preferences
+Preferences
 "
 )
 BROWSER_CHROME_MANIFESTS

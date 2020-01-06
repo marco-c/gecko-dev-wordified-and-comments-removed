@@ -370,7 +370,7 @@ BUG_COMPONENT
 Toolkit
 '
 '
-WebExtentions
+WebExtensions
 :
 General
 '
@@ -664,8 +664,7 @@ BUG_COMPONENT
 Toolkit
 '
 '
-Web
-Extensions
+WebExtensions
 :
 General
 '
