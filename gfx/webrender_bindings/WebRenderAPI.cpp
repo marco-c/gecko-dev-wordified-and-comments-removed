@@ -2661,8 +2661,6 @@ WrFilterOp
 >
 &
 aFilters
-bool
-aIsBackfaceVisible
 )
 {
 wr
@@ -2796,7 +2794,6 @@ aFilters
 Length
 (
 )
-aIsBackfaceVisible
 )
 ;
 }
@@ -3524,8 +3521,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -3586,7 +3581,6 @@ wr_dp_push_rect
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aColor
 )
 ;
@@ -3611,8 +3605,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -3661,7 +3653,6 @@ wr_dp_push_linear_gradient
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aStartPoint
 aEndPoint
 aStops
@@ -3700,8 +3691,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -3750,7 +3739,6 @@ wr_dp_push_radial_gradient
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aCenter
 aRadius
 aStops
@@ -3789,8 +3777,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 wr
 :
 :
@@ -3833,7 +3819,6 @@ PushImage
 (
 aBounds
 aClip
-aIsBackfaceVisible
 size
 size
 aFilter
@@ -3861,8 +3846,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -3952,7 +3935,6 @@ wr_dp_push_image
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aStretchSize
 aTileSpacing
 aFilter
@@ -3980,8 +3962,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 wr
 :
 :
@@ -4014,7 +3994,6 @@ wr_dp_push_yuv_planar_image
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aImageChannel0
 aImageChannel1
 aImageChannel2
@@ -4043,8 +4022,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 wr
 :
 :
@@ -4072,7 +4049,6 @@ wr_dp_push_yuv_NV12_image
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aImageChannel0
 aImageChannel1
 aColorSpace
@@ -4100,8 +4076,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 wr
 :
 :
@@ -4124,7 +4098,6 @@ wr_dp_push_yuv_interleaved_image
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aImageChannel0
 aColorSpace
 aRendering
@@ -4144,8 +4117,6 @@ wr
 LayoutRect
 &
 aBounds
-bool
-aIsBackfaceVisible
 PipelineId
 aPipeline
 )
@@ -4154,7 +4125,6 @@ wr_dp_push_iframe
 (
 mWrState
 aBounds
-aIsBackfaceVisible
 aPipeline
 )
 ;
@@ -4179,8 +4149,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4240,7 +4208,6 @@ wr_dp_push_border
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aWidths
 aSides
 [
@@ -4282,8 +4249,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4331,7 +4296,6 @@ wr_dp_push_border_image
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aWidths
 aImage
 aPatch
@@ -4361,8 +4325,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4413,7 +4375,6 @@ wr_dp_push_border_gradient
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aWidths
 aStartPoint
 aEndPoint
@@ -4452,8 +4413,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4504,7 +4463,6 @@ wr_dp_push_border_radial_gradient
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 aWidths
 aCenter
 aRadius
@@ -4543,8 +4501,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 gfx
 :
@@ -4580,7 +4536,6 @@ wr_dp_push_text
 mWrState
 aBounds
 aClip
-aIsBackfaceVisible
 ToColorF
 (
 aColor
@@ -4613,8 +4568,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4628,7 +4581,6 @@ wr_dp_push_line
 (
 mWrState
 aClip
-aIsBackfaceVisible
 aLine
 .
 baseline
@@ -4673,8 +4625,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4689,7 +4639,6 @@ wr_dp_push_text_shadow
 mWrState
 aRect
 aClip
-aIsBackfaceVisible
 aShadow
 )
 ;
@@ -4728,8 +4677,6 @@ wr
 LayoutRect
 &
 aClip
-bool
-aIsBackfaceVisible
 const
 wr
 :
@@ -4777,7 +4724,6 @@ wr_dp_push_box_shadow
 mWrState
 aRect
 aClip
-aIsBackfaceVisible
 aBoxBounds
 aOffset
 aColor
