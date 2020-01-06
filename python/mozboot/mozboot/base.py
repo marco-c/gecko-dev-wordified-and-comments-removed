@@ -1735,21 +1735,9 @@ install_tooltool_clang_package
 self
 state_dir
 checkout_root
-manifest_file
+toolchain_job
 )
 :
-        
-abs_manifest_file
-=
-os
-.
-path
-.
-join
-(
-checkout_root
-manifest_file
-)
         
 mach_binary
 =
@@ -1829,15 +1817,11 @@ toolchain
 '
 -
 -
-tooltool
+from
 -
-manifest
+build
 '
-abs_manifest_file
-               
-'
-clang
-'
+toolchain_job
 ]
         
 subprocess
