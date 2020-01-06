@@ -231,6 +231,7 @@ alt
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

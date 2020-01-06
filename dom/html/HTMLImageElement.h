@@ -600,6 +600,8 @@ GetSrc
 nsAString
 &
 aSrc
+nsIPrincipal
+&
 )
 {
 GetURIAttr
@@ -620,6 +622,9 @@ const
 nsAString
 &
 aSrc
+nsIPrincipal
+&
+aTriggeringPrincipal
 ErrorResult
 &
 aError
@@ -632,6 +637,7 @@ nsGkAtoms
 :
 src
 aSrc
+aTriggeringPrincipal
 aError
 )
 ;
@@ -1476,6 +1482,12 @@ RefPtr
 ImageLoadTask
 >
 mPendingImageLoadTask
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mSrcTriggeringPrincipal
 ;
 nsCOMPtr
 <

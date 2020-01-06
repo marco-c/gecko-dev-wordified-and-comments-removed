@@ -622,6 +622,8 @@ image
 ;
 image
 .
+wrappedJSObject
+.
 src
 =
 "
