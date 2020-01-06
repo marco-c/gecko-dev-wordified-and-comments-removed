@@ -4452,6 +4452,11 @@ mPercent
 ;
 ComputedCalc
 (
+)
+{
+}
+ComputedCalc
+(
 nscoord
 aLength
 float
