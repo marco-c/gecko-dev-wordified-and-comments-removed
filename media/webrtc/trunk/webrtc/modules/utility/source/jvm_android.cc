@@ -1025,7 +1025,7 @@ res
 jni_
 -
 >
-CallStaticObjectMethod
+CallStaticObjectMethodV
 (
 j_class_
 methodID
@@ -1076,7 +1076,7 @@ res
 jni_
 -
 >
-CallStaticIntMethod
+CallStaticIntMethodV
 (
 j_class_
 methodID
