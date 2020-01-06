@@ -116,11 +116,6 @@ app
 js
 '
 '
-commands
-.
-js
-'
-'
 constants
 .
 js

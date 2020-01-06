@@ -68,6 +68,13 @@ ini
 DevToolsModules
 (
 '
+resize
+-
+commands
+.
+js
+'
+'
 responsivedesign
 -
 old
