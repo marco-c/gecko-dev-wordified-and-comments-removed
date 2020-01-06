@@ -2998,6 +2998,12 @@ callback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+nsPNGEncoder
+:
+:
+NotifyListener
+"
 mCallback
 mCallbackTarget
 )

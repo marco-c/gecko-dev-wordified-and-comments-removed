@@ -44,6 +44,12 @@ callback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+nsBaseContentStream
+:
+:
+DispatchCallback
+"
 mCallback
 mCallbackTarget
 )
