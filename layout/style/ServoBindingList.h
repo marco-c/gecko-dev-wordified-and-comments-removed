@@ -1375,6 +1375,13 @@ target
 )
 SERVO_BINDING_FUNC
 (
+Servo_ComputedValues_GetVisitedStyle
+ServoComputedValuesStrong
+ServoComputedValuesBorrowed
+values
+)
+SERVO_BINDING_FUNC
+(
 Servo_Initialize
 void
 RawGeckoURLExtraData
