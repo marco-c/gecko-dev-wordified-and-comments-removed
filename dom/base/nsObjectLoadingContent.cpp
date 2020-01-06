@@ -4328,9 +4328,9 @@ param
 )
 ;
 }
-nsAdoptingCString
+nsAutoCString
 wmodeOverride
-=
+;
 Preferences
 :
 :
@@ -4343,6 +4343,7 @@ force
 .
 wmode
 "
+wmodeOverride
 )
 ;
 for
