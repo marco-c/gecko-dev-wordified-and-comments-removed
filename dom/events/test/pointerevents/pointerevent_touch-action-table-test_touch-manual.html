@@ -878,8 +878,10 @@ updateDescriptionThirdStepTable
 (
 target0
 scrollReturnInterval
+function
+(
 )
-;
+{
 setTimeout
 (
 function
@@ -891,8 +893,6 @@ isFirstPart
 false
 ;
 }
-2
-*
 scrollReturnInterval
 )
 ;
@@ -907,6 +907,9 @@ is
 still
 being
 performed
+}
+)
+;
 }
 }
 else
@@ -995,6 +998,9 @@ updateDescriptionThirdStepTable
 (
 target
 scrollReturnInterval
+callback
+=
+null
 )
 {
 window
@@ -1014,6 +1020,16 @@ left
 0
 )
 ;
+if
+(
+callback
+)
+{
+callback
+(
+)
+;
+}
 }
 scrollReturnInterval
 )

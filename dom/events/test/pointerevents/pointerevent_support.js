@@ -1223,6 +1223,9 @@ updateDescriptionThirdStepTouchActionElement
 (
 target
 scrollReturnInterval
+callback
+=
+null
 )
 {
 window
@@ -1242,6 +1245,16 @@ left
 0
 )
 ;
+if
+(
+callback
+)
+{
+callback
+(
+)
+;
+}
 }
 scrollReturnInterval
 )
