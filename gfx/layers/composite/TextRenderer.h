@@ -27,6 +27,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

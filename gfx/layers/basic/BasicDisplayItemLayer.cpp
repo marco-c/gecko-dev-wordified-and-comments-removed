@@ -105,6 +105,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Helpers
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
