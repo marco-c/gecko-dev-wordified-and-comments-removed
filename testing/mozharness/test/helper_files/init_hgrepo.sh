@@ -43,12 +43,11 @@ rm
 -
 rf
 dest
-mkdir
+hg
+init
 dest
 cd
 dest
-hg
-init
 echo
 "
 Hello

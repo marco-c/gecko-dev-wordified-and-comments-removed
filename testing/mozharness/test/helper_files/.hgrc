@@ -22,12 +22,6 @@ pager
 purge
 =
 [
-format
-]
-dotencode
-=
-0
-[
 ui
 ]
 username
