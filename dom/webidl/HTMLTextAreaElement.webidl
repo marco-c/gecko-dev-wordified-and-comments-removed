@@ -206,8 +206,11 @@ HTMLTextAreaElement
 :
 HTMLElement
 {
-/
-/
+[
+CEReactions
+SetterThrows
+Pure
+]
 attribute
 DOMString
 autocomplete
