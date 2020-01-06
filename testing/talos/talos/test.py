@@ -4001,13 +4001,11 @@ tppagecycles
     
 gecko_profile_interval
 =
-0
-.
 1
     
 gecko_profile_entries
 =
-1000000
+5000000
     
 tpmozafterpaint
 =
