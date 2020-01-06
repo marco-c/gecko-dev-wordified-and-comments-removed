@@ -586,6 +586,8 @@ self
 mobile_android_packages
 )
         
+from
+mozboot
 import
 android
         
@@ -617,6 +619,8 @@ False
 )
 :
         
+from
+mozboot
 import
 android
         

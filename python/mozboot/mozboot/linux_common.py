@@ -30,6 +30,8 @@ checkout_root
 )
 :
         
+from
+mozboot
 import
 stylo
         

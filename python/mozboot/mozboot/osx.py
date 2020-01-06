@@ -2393,6 +2393,8 @@ Android
 '
 )
         
+from
+mozboot
 import
 android
         
@@ -2424,6 +2426,8 @@ False
 )
 :
         
+from
+mozboot
 import
 android
         
@@ -2795,6 +2799,8 @@ Android
 '
 )
         
+from
+mozboot
 import
 android
         
@@ -2826,6 +2832,8 @@ False
 )
 :
         
+from
+mozboot
 import
 android
         
