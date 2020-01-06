@@ -7248,7 +7248,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
@@ -7414,7 +7414,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
@@ -7597,7 +7597,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
@@ -7832,7 +7832,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
@@ -8538,7 +8538,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
@@ -8706,7 +8706,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
@@ -8874,7 +8874,7 @@ FxAccountsOAuthGrantClient
 serverURL
 :
 "
-http
+https
 :
 /
 /
