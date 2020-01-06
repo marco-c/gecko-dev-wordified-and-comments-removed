@@ -71,6 +71,13 @@ Units
 .
 h
 "
+#
+define
+NS_USER_INTERACTION_INTERVAL
+5000
+/
+/
+ms
 class
 nsFrameLoader
 ;

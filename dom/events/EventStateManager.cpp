@@ -673,13 +673,6 @@ using
 namespace
 dom
 ;
-#
-define
-NS_USER_INTERACTION_INTERVAL
-5000
-/
-/
-ms
 static
 const
 LayoutDeviceIntPoint
