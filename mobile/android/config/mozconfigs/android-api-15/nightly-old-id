@@ -102,6 +102,10 @@ export
 MOZ_ANDROID_MMA
 =
 1
+export
+MOZ_ANDROID_POCKET
+=
+1
 .
 "
 topsrcdir
