@@ -5388,7 +5388,7 @@ namespace
 )
         
 except
-Exception
+KeyError
 :
             
 raise

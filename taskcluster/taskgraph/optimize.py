@@ -79,8 +79,6 @@ import
 logging
 import
 os
-import
-requests
 from
 collections
 import
@@ -1878,11 +1876,7 @@ return
 task_id
             
 except
-requests
-.
-exceptions
-.
-HTTPError
+KeyError
 :
                 
 pass
