@@ -782,12 +782,6 @@ HaveEnoughDecodedVideo
 )
 ;
 bool
-IsShutdown
-(
-)
-const
-;
-bool
 IsPlaying
 (
 )
