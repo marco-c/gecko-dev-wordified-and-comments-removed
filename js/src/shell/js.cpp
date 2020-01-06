@@ -31088,9 +31088,6 @@ SystemAllocPolicy
 >
 jobs
 ;
-ConditionVariable
-jobsEmpty
-;
 size_t
 delayMillis
 ;
@@ -31135,7 +31132,7 @@ empty
 }
 }
 ;
-ExclusiveData
+ExclusiveWaitableData
 <
 BufferStreamState
 >
@@ -31419,9 +31416,6 @@ empty
 )
 )
 state
--
->
-jobsEmpty
 .
 notify_all
 (
@@ -31649,10 +31643,6 @@ state
 .
 wait
 (
-state
--
->
-jobsEmpty
 )
 ;
 }

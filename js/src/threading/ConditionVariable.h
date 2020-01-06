@@ -435,7 +435,7 @@ T
 >
 friend
 class
-ExclusiveData
+ExclusiveWaitableData
 ;
 mozilla
 :

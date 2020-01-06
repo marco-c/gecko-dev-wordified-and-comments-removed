@@ -590,10 +590,6 @@ taskState
 .
 wait
 (
-taskState
--
->
-failedOrFinished
 )
 ;
 }
@@ -3708,9 +3704,6 @@ error
 ;
 }
 taskState
--
->
-failedOrFinished
 .
 notify_one
 (
@@ -4023,10 +4016,6 @@ taskState
 .
 wait
 (
-taskState
--
->
-failedOrFinished
 )
 ;
 }

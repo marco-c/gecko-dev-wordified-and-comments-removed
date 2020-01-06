@@ -339,9 +339,6 @@ empty
 struct
 CompileTaskState
 {
-ConditionVariable
-failedOrFinished
-;
 CompileTaskPtrVector
 finished
 ;
@@ -385,7 +382,7 @@ numFailed
 }
 ;
 typedef
-ExclusiveData
+ExclusiveWaitableData
 <
 CompileTaskState
 >
