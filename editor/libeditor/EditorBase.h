@@ -1501,14 +1501,10 @@ CreateTxnForCreateElement
 nsAtom
 &
 aTag
-nsINode
+const
+EditorRawDOMPoint
 &
-aParent
-int32_t
-aPosition
-nsIContent
-*
-aChildAtPosition
+aPointToInsert
 )
 ;
 already_AddRefed
