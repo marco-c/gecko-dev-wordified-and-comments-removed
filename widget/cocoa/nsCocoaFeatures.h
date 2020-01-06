@@ -60,6 +60,12 @@ OnSierraOrLater
 ;
 static
 bool
+OnHighSierraOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
