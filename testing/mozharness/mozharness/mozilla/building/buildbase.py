@@ -5896,6 +5896,17 @@ get
 is_automation
 '
 )
+or
+os
+.
+environ
+.
+get
+(
+"
+TASK_ID
+"
+)
 :
             
 self
