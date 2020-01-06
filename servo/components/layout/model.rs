@@ -113,8 +113,8 @@ LengthOrPercentageOrNone
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -273,8 +273,8 @@ most_negative
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -1416,8 +1416,8 @@ Au
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -1432,9 +1432,9 @@ AccumulatingMarginIn
 [
 derive
 (
-Serialize
-Copy
 Clone
+Copy
+Serialize
 )
 ]
 pub
@@ -1767,10 +1767,10 @@ preferred_inline_size
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 Debug
+PartialEq
 )
 ]
 pub

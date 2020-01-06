@@ -21,10 +21,10 @@ CSSFloat
 derive
 (
 Clone
-PartialEq
-PartialOrd
 Copy
 Debug
+PartialEq
+PartialOrd
 )
 ]
 #

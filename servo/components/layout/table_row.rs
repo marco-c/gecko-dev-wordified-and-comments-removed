@@ -313,9 +313,9 @@ serializer
 [
 derive
 (
-Serialize
-Copy
 Clone
+Copy
+Serialize
 )
 ]
 pub
@@ -2669,8 +2669,8 @@ Au
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -2749,8 +2749,8 @@ dead_code
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 Serialize
@@ -4259,8 +4259,8 @@ column_inline_size
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

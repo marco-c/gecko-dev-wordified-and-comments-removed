@@ -97,11 +97,11 @@ derive
 (
 Clone
 Copy
+Debug
+Deserialize
 Eq
 Hash
-Deserialize
 Serialize
-Debug
 )
 ]
 pub

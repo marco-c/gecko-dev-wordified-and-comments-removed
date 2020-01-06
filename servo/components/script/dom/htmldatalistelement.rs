@@ -258,8 +258,8 @@ HTMLCollection
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

@@ -935,8 +935,8 @@ value
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )

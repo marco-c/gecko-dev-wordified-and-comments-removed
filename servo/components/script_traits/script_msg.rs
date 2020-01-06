@@ -529,9 +529,9 @@ Exit
 [
 derive
 (
+Clone
 Deserialize
 Serialize
-Clone
 )
 ]
 pub
@@ -569,10 +569,10 @@ WorkerId
 [
 derive
 (
+Clone
+Debug
 Deserialize
 Serialize
-Debug
-Clone
 )
 ]
 pub

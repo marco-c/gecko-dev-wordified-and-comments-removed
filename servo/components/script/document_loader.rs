@@ -64,11 +64,11 @@ thread
 [
 derive
 (
-JSTraceable
-PartialEq
 Clone
 Debug
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 pub
@@ -181,8 +181,8 @@ url
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #
@@ -385,8 +385,8 @@ is_none
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

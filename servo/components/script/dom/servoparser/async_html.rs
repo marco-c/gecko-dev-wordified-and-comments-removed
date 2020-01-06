@@ -3234,9 +3234,9 @@ set_plaintext_state
 [
 derive
 (
-JSTraceable
-HeapSizeOf
 Default
+HeapSizeOf
+JSTraceable
 )
 ]
 struct

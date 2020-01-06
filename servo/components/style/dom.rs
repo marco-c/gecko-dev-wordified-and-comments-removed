@@ -291,11 +291,11 @@ UnsafeNode
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
-Hash
 Eq
+Hash
+PartialEq
 )
 ]
 #

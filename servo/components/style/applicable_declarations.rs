@@ -109,8 +109,8 @@ HeapSizeOf
 [
 derive
 (
-Copy
 Clone
+Copy
 Eq
 PartialEq
 )
@@ -320,8 +320,8 @@ HeapSizeOf
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]

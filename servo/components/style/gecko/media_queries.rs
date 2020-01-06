@@ -985,8 +985,8 @@ mEffectiveTextZoom
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -1255,9 +1255,9 @@ range
 [
 derive
 (
-PartialEq
-Debug
 Clone
+Debug
+PartialEq
 )
 ]
 pub
@@ -1627,9 +1627,9 @@ dest
 [
 derive
 (
-PartialEq
-Debug
 Clone
+Debug
+PartialEq
 )
 ]
 pub

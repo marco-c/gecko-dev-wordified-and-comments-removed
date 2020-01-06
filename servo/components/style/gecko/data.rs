@@ -140,9 +140,9 @@ Stylist
 [
 derive
 (
-PartialEq
-Eq
 Debug
+Eq
+PartialEq
 )
 ]
 pub

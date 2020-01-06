@@ -52,9 +52,9 @@ fmt
 [
 derive
 (
+Clone
 Debug
 PartialEq
-Clone
 )
 ]
 pub
@@ -74,9 +74,9 @@ Au
 [
 derive
 (
+Clone
 Debug
 PartialEq
-Clone
 )
 ]
 pub

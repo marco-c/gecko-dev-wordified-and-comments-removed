@@ -2625,8 +2625,8 @@ derive
 Clone
 Copy
 Debug
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

@@ -81,9 +81,9 @@ parse_line_names
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -769,8 +769,8 @@ MinContent
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -2176,8 +2176,8 @@ RepeatCount
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -2902,8 +2902,8 @@ derive
 (
 Clone
 Copy
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -2943,8 +2943,8 @@ TrackListType
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #
@@ -3305,9 +3305,9 @@ Ok
 derive
 (
 Clone
-PartialEq
 Debug
 Default
+PartialEq
 )
 ]
 #
@@ -3937,8 +3937,8 @@ LineNameList
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 ToCss
 )
 ]

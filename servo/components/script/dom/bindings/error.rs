@@ -204,8 +204,8 @@ from_raw_parts
 [
 derive
 (
-Debug
 Clone
+Debug
 HeapSizeOf
 )
 ]

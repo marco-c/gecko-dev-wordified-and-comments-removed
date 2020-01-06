@@ -200,10 +200,10 @@ HyperHeaders
 [
 derive
 (
-Copy
 Clone
-JSTraceable
+Copy
 HeapSizeOf
+JSTraceable
 PartialEq
 )
 ]

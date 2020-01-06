@@ -2996,9 +2996,9 @@ bool
 [
 derive
 (
-Debug
 Clone
 Copy
+Debug
 )
 ]
 struct

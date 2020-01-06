@@ -21,10 +21,10 @@ BitOrAssign
 derive
 (
 Clone
-PartialEq
-Eq
 Copy
 Debug
+Eq
+PartialEq
 )
 ]
 #

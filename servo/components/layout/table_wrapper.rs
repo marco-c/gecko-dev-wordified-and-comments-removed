@@ -198,10 +198,10 @@ ColumnIntrinsicInlineSize
 [
 derive
 (
-Copy
 Clone
-Serialize
+Copy
 Debug
+Serialize
 )
 ]
 pub
@@ -2798,10 +2798,10 @@ preferred_guess
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 Debug
+PartialEq
 )
 ]
 enum

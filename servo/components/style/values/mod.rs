@@ -584,11 +584,11 @@ Second
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
 Hash
+PartialEq
 )
 ]
 #
@@ -814,8 +814,8 @@ dest
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 #

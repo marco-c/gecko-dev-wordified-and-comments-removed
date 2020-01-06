@@ -566,9 +566,9 @@ must_root
 [
 derive
 (
-JSTraceable
 Clone
 HeapSizeOf
+JSTraceable
 )
 ]
 #
@@ -694,9 +694,9 @@ must_root
 [
 derive
 (
-JSTraceable
 Clone
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

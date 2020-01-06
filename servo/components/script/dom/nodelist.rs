@@ -121,8 +121,8 @@ Cell
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #
@@ -838,8 +838,8 @@ i
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #

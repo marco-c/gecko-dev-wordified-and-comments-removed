@@ -425,12 +425,12 @@ NetworkingTaskSource
 [
 derive
 (
-JSTraceable
-PartialEq
-Copy
 Clone
+Copy
 Debug
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 enum

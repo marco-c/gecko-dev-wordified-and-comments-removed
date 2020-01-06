@@ -88,9 +88,9 @@ LengthOrPercentageOrAuto
 derive
 (
 Clone
-Serialize
-Debug
 Copy
+Debug
+Serialize
 )
 ]
 pub
@@ -173,8 +173,8 @@ Right
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -2258,8 +2258,8 @@ is_present
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

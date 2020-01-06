@@ -477,12 +477,12 @@ ty
 derive
 (
 Clone
-PartialEq
-PartialOrd
+Copy
+Debug
 Eq
 Ord
-Debug
-Copy
+PartialEq
+PartialOrd
 )
 ]
 (

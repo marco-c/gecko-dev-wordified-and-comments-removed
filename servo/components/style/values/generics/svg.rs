@@ -592,8 +592,8 @@ ToAnimatedValue
 derive
 (
 ToAnimatedZero
-ToCss
 ToComputedValue
+ToCss
 )
 ]
 pub
@@ -1110,8 +1110,8 @@ derive
 Clone
 ComputeSquaredDistance
 Debug
-PartialEq
 HasViewportPercentage
+PartialEq
 ToAnimatedValue
 ToComputedValue
 )

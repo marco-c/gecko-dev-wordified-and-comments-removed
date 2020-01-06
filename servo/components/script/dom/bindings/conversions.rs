@@ -942,8 +942,8 @@ rval
 [
 derive
 (
-PartialEq
 Clone
+PartialEq
 )
 ]
 pub

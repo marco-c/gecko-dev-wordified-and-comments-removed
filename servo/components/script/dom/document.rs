@@ -1692,8 +1692,8 @@ empty
 derive
 (
 Clone
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #
@@ -2353,8 +2353,8 @@ Element
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2399,8 +2399,8 @@ HTMLImageElement
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2445,8 +2445,8 @@ HTMLEmbedElement
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2520,8 +2520,8 @@ href
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2566,8 +2566,8 @@ HTMLFormElement
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2612,8 +2612,8 @@ HTMLScriptElement
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2673,8 +2673,8 @@ href
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -11619,8 +11619,8 @@ unwrap
 [
 derive
 (
-PartialEq
 HeapSizeOf
+PartialEq
 )
 ]
 pub
@@ -12214,12 +12214,12 @@ false
 [
 derive
 (
-Copy
 Clone
+Copy
+Eq
 HeapSizeOf
 JSTraceable
 PartialEq
-Eq
 )
 ]
 pub
@@ -23375,8 +23375,8 @@ JSObject
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -27184,8 +27184,8 @@ pipeline
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]
@@ -27337,8 +27337,8 @@ refresh
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

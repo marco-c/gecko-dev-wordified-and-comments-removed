@@ -1030,8 +1030,8 @@ items
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -1408,8 +1408,8 @@ d
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 )
 ]
@@ -8659,10 +8659,10 @@ current
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 HeapSizeOf
+PartialEq
 )
 ]
 pub
@@ -16022,10 +16022,10 @@ self
 [
 derive
 (
-Copy
 Clone
-PartialEq
+Copy
 HeapSizeOf
+PartialEq
 )
 ]
 pub

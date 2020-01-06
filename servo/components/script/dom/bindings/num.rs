@@ -23,10 +23,10 @@ Deref
 [
 derive
 (
-JSTraceable
 Clone
 Copy
 Eq
+JSTraceable
 PartialEq
 )
 ]

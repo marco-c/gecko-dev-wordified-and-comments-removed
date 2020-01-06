@@ -126,10 +126,10 @@ new
 [
 derive
 (
-PartialEq
-Eq
 Debug
+Eq
 JSTraceable
+PartialEq
 )
 ]
 enum

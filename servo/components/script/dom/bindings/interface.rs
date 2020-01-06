@@ -1425,8 +1425,8 @@ ptr
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

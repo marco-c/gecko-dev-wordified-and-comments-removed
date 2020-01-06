@@ -197,10 +197,10 @@ form_urlencoded
 [
 derive
 (
-Copy
 Clone
-JSTraceable
+Copy
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

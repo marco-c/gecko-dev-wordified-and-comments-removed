@@ -322,10 +322,10 @@ Attr
 [
 derive
 (
-Debug
-PartialEq
-Eq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -782,10 +782,10 @@ endif
 [
 derive
 (
-Debug
-PartialEq
-Eq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -2014,8 +2014,8 @@ CustomIdent
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]
@@ -2062,8 +2062,8 @@ CustomIdent
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]

@@ -610,8 +610,8 @@ derive
 (
 Clone
 Copy
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #
@@ -633,10 +633,10 @@ Broken
 [
 derive
 (
-Copy
 Clone
-JSTraceable
+Copy
 HeapSizeOf
+JSTraceable
 )
 ]
 enum
@@ -649,8 +649,8 @@ Current
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #
@@ -5448,8 +5448,8 @@ None
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

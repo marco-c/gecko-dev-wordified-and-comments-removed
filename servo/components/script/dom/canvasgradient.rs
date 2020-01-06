@@ -184,9 +184,9 @@ CanvasGradientStop
 [
 derive
 (
-JSTraceable
 Clone
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

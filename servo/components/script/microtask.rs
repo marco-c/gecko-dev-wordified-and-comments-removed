@@ -131,9 +131,9 @@ Rc
 [
 derive
 (
-JSTraceable
-HeapSizeOf
 Default
+HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -160,8 +160,8 @@ bool
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -200,8 +200,8 @@ self
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

@@ -204,10 +204,10 @@ Time
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
 Default
+PartialEq
 )
 ]
 #

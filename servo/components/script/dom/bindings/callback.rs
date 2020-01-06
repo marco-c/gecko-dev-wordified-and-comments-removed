@@ -213,8 +213,8 @@ Rc
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

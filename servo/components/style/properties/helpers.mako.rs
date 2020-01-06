@@ -3225,11 +3225,11 @@ i32
 [
 derive
 (
-Debug
 Clone
-PartialEq
-Eq
 Copy
+Debug
+Eq
+PartialEq
 ToCss
 )
 ]

@@ -493,9 +493,9 @@ Rc
 [
 derive
 (
-PartialEq
 Clone
 JSTraceable
+PartialEq
 )
 ]
 pub
@@ -591,11 +591,11 @@ parent
 [
 derive
 (
-JSTraceable
-Copy
 Clone
-PartialEq
+Copy
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 pub
@@ -609,8 +609,8 @@ Bubbling
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 PartialEq
 )
 ]
@@ -631,9 +631,9 @@ usize
 [
 derive
 (
+Clone
 JSTraceable
 PartialEq
-Clone
 )
 ]
 enum
@@ -780,8 +780,8 @@ handler
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 PartialEq
 )
 ]
@@ -1480,8 +1480,8 @@ EventListenerType
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct

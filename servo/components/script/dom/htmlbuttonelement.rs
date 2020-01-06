@@ -283,10 +283,10 @@ element_state
 [
 derive
 (
+Clone
+Copy
 JSTraceable
 PartialEq
-Copy
-Clone
 )
 ]
 #

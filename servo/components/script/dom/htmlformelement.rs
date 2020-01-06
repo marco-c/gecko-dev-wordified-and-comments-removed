@@ -617,11 +617,11 @@ TaskSource
 [
 derive
 (
-JSTraceable
-PartialEq
 Clone
 Copy
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 pub
@@ -1583,8 +1583,8 @@ elements
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 struct
@@ -2117,8 +2117,8 @@ index
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 PartialEq
 )
@@ -2134,8 +2134,8 @@ NotFromForm
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 )
 ]
@@ -5571,9 +5571,9 @@ idx
 [
 derive
 (
-JSTraceable
-HeapSizeOf
 Clone
+HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -5603,9 +5603,9 @@ DOMString
 [
 derive
 (
+Clone
 HeapSizeOf
 JSTraceable
-Clone
 )
 ]
 pub
@@ -5729,8 +5729,8 @@ clone
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 )
 ]
@@ -5746,8 +5746,8 @@ FormDataEncoded
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 )
 ]
@@ -6117,8 +6117,8 @@ unreachable
 [
 derive
 (
-Copy
 Clone
+Copy
 HeapSizeOf
 )
 ]

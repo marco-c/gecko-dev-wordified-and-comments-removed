@@ -108,12 +108,12 @@ FromStr
 [
 derive
 (
-JSTraceable
 Clone
-Eq
-PartialEq
-HeapSizeOf
 Debug
+Eq
+HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 pub

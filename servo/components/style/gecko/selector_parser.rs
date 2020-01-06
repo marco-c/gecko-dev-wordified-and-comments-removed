@@ -267,8 +267,8 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub
@@ -1930,8 +1930,8 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

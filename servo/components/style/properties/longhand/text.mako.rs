@@ -244,8 +244,8 @@ Side
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]

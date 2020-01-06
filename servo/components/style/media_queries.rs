@@ -116,8 +116,8 @@ Expression
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 #
@@ -251,9 +251,9 @@ Not
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -597,10 +597,10 @@ Ok
 [
 derive
 (
-PartialEq
-Eq
 Clone
 Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -734,10 +734,10 @@ other
 [
 derive
 (
-PartialEq
-Eq
 Clone
 Debug
+Eq
+PartialEq
 )
 ]
 #

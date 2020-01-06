@@ -1406,12 +1406,12 @@ ToCss
 [
 derive
 (
-Copy
 Clone
-Eq
-PartialEq
+Copy
 Debug
+Eq
 Hash
+PartialEq
 )
 ]
 pub
@@ -2347,9 +2347,9 @@ SpecifiedValue
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -3307,8 +3307,8 @@ String
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]
@@ -3387,8 +3387,8 @@ String
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]
@@ -4746,8 +4746,8 @@ HeapSizeOf
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 ToCss
 )

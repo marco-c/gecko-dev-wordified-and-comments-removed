@@ -89,8 +89,8 @@ StylesheetInDocument
 derive
 (
 Debug
-Hash
 Eq
+Hash
 PartialEq
 )
 ]

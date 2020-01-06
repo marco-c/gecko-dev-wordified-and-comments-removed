@@ -471,9 +471,9 @@ computed_value
 [
 derive
 (
-Debug
 Clone
 Copy
+Debug
 PartialEq
 )
 ]

@@ -1985,8 +1985,8 @@ Auto
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -2377,10 +2377,10 @@ dest
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 )
 ]
 pub
@@ -2660,8 +2660,8 @@ true
 [
 derive
 (
-Debug
 Clone
+Debug
 ToCss
 )
 ]
@@ -2761,8 +2761,8 @@ ok
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -3526,10 +3526,10 @@ Fallback
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 )
 ]
 pub

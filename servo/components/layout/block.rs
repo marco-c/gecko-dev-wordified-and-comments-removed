@@ -382,8 +382,8 @@ float_kind
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 struct
@@ -15548,9 +15548,9 @@ equation
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 )
 ]
 pub
@@ -15672,8 +15672,8 @@ equation
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -21236,8 +21236,8 @@ inline_end
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

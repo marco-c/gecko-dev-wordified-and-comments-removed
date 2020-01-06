@@ -476,8 +476,8 @@ none
 [
 derive
 (
-Debug
 Clone
+Debug
 Eq
 PartialEq
 ToCss
@@ -1002,8 +1002,8 @@ HeapSizeOf
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 ToCss
 )
@@ -1301,8 +1301,8 @@ computed_value
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]

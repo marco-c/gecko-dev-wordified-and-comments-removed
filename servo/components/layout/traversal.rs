@@ -1191,8 +1191,8 @@ BUBBLE_ISIZES
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -1295,8 +1295,8 @@ REFLOW
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

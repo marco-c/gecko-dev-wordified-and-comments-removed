@@ -4924,8 +4924,8 @@ ptr
 [
 derive
 (
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

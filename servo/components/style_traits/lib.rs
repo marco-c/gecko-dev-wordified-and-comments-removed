@@ -223,8 +223,8 @@ servo
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -587,9 +587,9 @@ None
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 pub

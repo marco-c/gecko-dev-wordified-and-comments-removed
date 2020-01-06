@@ -778,8 +778,8 @@ RGBA
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]
@@ -817,8 +817,8 @@ RGBA
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]
@@ -1855,8 +1855,8 @@ HeapSizeOf
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 ToCss
 )
@@ -1891,8 +1891,8 @@ HeapSizeOf
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 ToCss
 )

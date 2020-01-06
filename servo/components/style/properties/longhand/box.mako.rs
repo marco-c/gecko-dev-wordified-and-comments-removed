@@ -2949,10 +2949,10 @@ non_camel_case_types
 [
 derive
 (
-PartialEq
-Copy
 Clone
+Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -4123,8 +4123,8 @@ derive
 (
 Clone
 Debug
-Hash
 Eq
+Hash
 PartialEq
 )
 ]
@@ -4855,8 +4855,8 @@ HeapSizeOf
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 ToCss
 )
@@ -15972,8 +15972,8 @@ T
 [
 derive
 (
-Debug
 Clone
+Debug
 PartialEq
 )
 ]

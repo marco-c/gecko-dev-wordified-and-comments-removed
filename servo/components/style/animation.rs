@@ -201,8 +201,8 @@ GenericTimingFunction
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -220,8 +220,8 @@ f32
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -238,8 +238,8 @@ Running
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -1045,8 +1045,8 @@ false
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -1066,8 +1066,8 @@ f64
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub

@@ -630,8 +630,8 @@ bitflags
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 flags

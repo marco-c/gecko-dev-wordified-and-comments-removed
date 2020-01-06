@@ -53,9 +53,9 @@ derive
 (
 Clone
 Debug
+Deserialize
 HeapSizeOf
 Serialize
-Deserialize
 )
 ]
 pub

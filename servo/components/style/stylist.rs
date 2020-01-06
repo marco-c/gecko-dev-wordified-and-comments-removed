@@ -1937,8 +1937,8 @@ usize
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

@@ -547,9 +547,9 @@ new
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -586,9 +586,9 @@ Length
 [
 derive
 (
-PartialEq
 Clone
 Debug
+PartialEq
 )
 ]
 #
@@ -1111,11 +1111,11 @@ dest
 [
 derive
 (
-PartialEq
-Eq
-Copy
 Clone
+Copy
 Debug
+Eq
+PartialEq
 )
 ]
 #

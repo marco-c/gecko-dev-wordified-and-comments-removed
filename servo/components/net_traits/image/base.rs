@@ -35,9 +35,9 @@ Copy
 Debug
 Deserialize
 Eq
+HeapSizeOf
 PartialEq
 Serialize
-HeapSizeOf
 )
 ]
 pub
@@ -55,8 +55,8 @@ derive
 (
 Clone
 Deserialize
-Serialize
 HeapSizeOf
+Serialize
 )
 ]
 pub
@@ -198,9 +198,9 @@ Clone
 Debug
 Deserialize
 Eq
+HeapSizeOf
 PartialEq
 Serialize
-HeapSizeOf
 )
 ]
 pub

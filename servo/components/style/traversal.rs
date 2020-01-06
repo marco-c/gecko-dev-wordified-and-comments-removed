@@ -190,9 +190,9 @@ self
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 )
 ]
 pub

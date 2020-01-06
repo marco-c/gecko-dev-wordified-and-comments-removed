@@ -119,8 +119,8 @@ ToComputedValue
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #

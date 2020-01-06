@@ -221,8 +221,8 @@ Relaxed
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -2188,11 +2188,11 @@ u8
 [
 derive
 (
+Clone
+Copy
+Debug
 Eq
 PartialEq
-Copy
-Clone
-Debug
 PartialOrd
 )
 ]

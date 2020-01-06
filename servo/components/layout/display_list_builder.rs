@@ -18964,8 +18964,8 @@ cursor
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 struct
@@ -19175,8 +19175,8 @@ alpha_f32
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -19201,8 +19201,8 @@ Hidden
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]

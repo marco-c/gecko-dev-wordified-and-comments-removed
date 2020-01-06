@@ -315,9 +315,9 @@ i32
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -827,9 +827,9 @@ length
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -1150,9 +1150,9 @@ value
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -1303,9 +1303,9 @@ i32
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -1944,9 +1944,9 @@ scalar
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -2181,9 +2181,9 @@ scalar
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #

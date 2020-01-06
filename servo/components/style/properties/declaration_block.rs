@@ -242,12 +242,12 @@ HeapSizeOf
 [
 derive
 (
-Debug
-Copy
 Clone
-PartialEq
+Copy
+Debug
 Eq
 Hash
+PartialEq
 )
 ]
 pub

@@ -89,8 +89,8 @@ dom_struct
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 #

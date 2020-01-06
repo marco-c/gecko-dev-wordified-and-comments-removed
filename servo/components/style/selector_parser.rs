@@ -406,10 +406,10 @@ is_chrome
 [
 derive
 (
-Debug
 Clone
-PartialEq
+Debug
 Eq
+PartialEq
 )
 ]
 pub

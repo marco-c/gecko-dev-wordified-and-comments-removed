@@ -241,8 +241,8 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
+PartialEq
 )
 ]
 #
@@ -1336,8 +1336,8 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

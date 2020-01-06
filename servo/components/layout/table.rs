@@ -2870,9 +2870,9 @@ Au
 derive
 (
 Clone
-Serialize
-Debug
 Copy
+Debug
+Serialize
 )
 ]
 pub
@@ -2972,10 +2972,10 @@ percentage
 [
 derive
 (
-Serialize
 Clone
 Copy
 Debug
+Serialize
 )
 ]
 pub

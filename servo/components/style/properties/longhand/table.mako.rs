@@ -178,10 +178,10 @@ ToCss
 [
 derive
 (
-PartialEq
 Clone
 Copy
 Debug
+PartialEq
 )
 ]
 #

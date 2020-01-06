@@ -396,8 +396,8 @@ usize
 [
 derive
 (
-JSTraceable
 HeapSizeOf
+JSTraceable
 )
 ]
 pub
@@ -468,8 +468,8 @@ JSCLASS_USERBIT1
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub

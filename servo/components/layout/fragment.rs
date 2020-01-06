@@ -2636,8 +2636,8 @@ SELECTED
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub
@@ -2816,8 +2816,8 @@ selection
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 pub
@@ -21012,8 +21012,8 @@ details
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 pub
@@ -21254,8 +21254,8 @@ false
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -21363,8 +21363,8 @@ overflow
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]
@@ -21676,8 +21676,8 @@ logic
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 )
 ]

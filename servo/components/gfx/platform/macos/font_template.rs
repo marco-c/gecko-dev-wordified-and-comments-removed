@@ -144,9 +144,9 @@ NativeFontHandle
 [
 derive
 (
+Debug
 Deserialize
 Serialize
-Debug
 )
 ]
 pub

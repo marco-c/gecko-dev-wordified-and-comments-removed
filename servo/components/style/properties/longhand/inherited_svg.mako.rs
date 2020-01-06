@@ -1516,10 +1516,10 @@ priority
 [
 derive
 (
-PartialEq
 Clone
 Copy
 Debug
+PartialEq
 )
 ]
 #

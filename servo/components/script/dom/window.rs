@@ -1337,12 +1337,12 @@ WebVRMsg
 [
 derive
 (
-JSTraceable
-Copy
 Clone
+Copy
 Debug
-PartialEq
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 enum

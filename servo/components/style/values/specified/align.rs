@@ -729,8 +729,8 @@ NS_STYLE_ALIGN_ALL_SHIFT
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -1291,8 +1291,8 @@ into
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -1463,8 +1463,8 @@ into
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq
@@ -1635,8 +1635,8 @@ into
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 PartialEq

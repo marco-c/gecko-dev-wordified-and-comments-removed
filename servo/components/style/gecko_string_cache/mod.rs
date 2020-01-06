@@ -242,8 +242,8 @@ s
 [
 derive
 (
-PartialEq
 Eq
+PartialEq
 )
 ]
 pub

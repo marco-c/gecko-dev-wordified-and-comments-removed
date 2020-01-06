@@ -2738,11 +2738,11 @@ computed_value
 [
 derive
 (
-PartialEq
 Clone
-Eq
 Copy
 Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -2771,11 +2771,11 @@ Column
 [
 derive
 (
-PartialEq
 Clone
-Eq
 Copy
 Debug
+Eq
+PartialEq
 )
 ]
 #

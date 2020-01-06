@@ -475,9 +475,9 @@ computed
 derive
 (
 Clone
-PartialEq
 Copy
 Debug
+PartialEq
 )
 ]
 #

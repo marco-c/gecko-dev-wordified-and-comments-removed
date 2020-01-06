@@ -72,8 +72,8 @@ Sender
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 )
 ]
 pub
@@ -213,8 +213,8 @@ clone
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 )
 ]
 pub

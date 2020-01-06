@@ -114,11 +114,11 @@ u16
 [
 derive
 (
-JSTraceable
-Copy
 Clone
+Copy
 Debug
 HeapSizeOf
+JSTraceable
 )
 ]
 pub

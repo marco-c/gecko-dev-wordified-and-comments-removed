@@ -46,11 +46,11 @@ Stylesheet
 [
 derive
 (
-Debug
-Copy
 Clone
-Hash
+Copy
+Debug
 Eq
+Hash
 PartialEq
 )
 ]

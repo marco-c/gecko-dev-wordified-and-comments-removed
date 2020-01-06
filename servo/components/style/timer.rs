@@ -13,8 +13,8 @@ time
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 enum
@@ -30,8 +30,8 @@ Current
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 pub

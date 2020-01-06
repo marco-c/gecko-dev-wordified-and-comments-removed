@@ -383,8 +383,8 @@ FromTimeoutThread
 [
 derive
 (
-JSTraceable
 Clone
+JSTraceable
 )
 ]
 pub

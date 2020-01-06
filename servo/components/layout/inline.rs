@@ -297,9 +297,9 @@ bidi
 [
 derive
 (
-Serialize
-Debug
 Clone
+Debug
+Serialize
 )
 ]
 pub
@@ -3712,8 +3712,8 @@ FragmentIndex
 [
 derive
 (
-Serialize
 Clone
+Serialize
 )
 ]
 pub
@@ -9298,8 +9298,8 @@ space_below_baseline
 [
 derive
 (
-Copy
 Clone
+Copy
 PartialEq
 )
 ]
@@ -9313,8 +9313,8 @@ Flush
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Serialize
 )

@@ -164,8 +164,8 @@ Err
 derive
 (
 Clone
-PartialEq
 Debug
+PartialEq
 )
 ]
 #

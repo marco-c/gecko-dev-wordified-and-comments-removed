@@ -165,10 +165,10 @@ derive
 (
 Clone
 Copy
-PartialEq
 Debug
-JSTraceable
 HeapSizeOf
+JSTraceable
+PartialEq
 )
 ]
 pub

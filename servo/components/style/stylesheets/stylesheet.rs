@@ -205,8 +205,8 @@ Stylesheet
 derive
 (
 Clone
-Default
 Debug
+Default
 )
 ]
 #

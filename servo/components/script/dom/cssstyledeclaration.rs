@@ -986,8 +986,8 @@ clone
 [
 derive
 (
-PartialEq
 HeapSizeOf
+PartialEq
 )
 ]
 pub

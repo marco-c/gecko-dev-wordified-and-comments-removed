@@ -207,9 +207,9 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
 Hash
+PartialEq
 )
 ]
 #
@@ -1173,9 +1173,9 @@ derive
 (
 Clone
 Debug
-PartialEq
 Eq
 Hash
+PartialEq
 )
 ]
 #
