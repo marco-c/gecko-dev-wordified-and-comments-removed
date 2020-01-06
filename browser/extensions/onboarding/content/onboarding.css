@@ -101,7 +101,7 @@ pointer
 ;
 top
 :
-12px
+34px
 ;
 offset
 -
@@ -109,7 +109,7 @@ inline
 -
 start
 :
-12px
+34px
 ;
 border
 :
@@ -118,12 +118,6 @@ none
 background
 :
 none
-;
-z
--
-index
-:
-10
 ;
 }
 #
@@ -186,7 +180,7 @@ icon
 {
 width
 :
-32px
+36px
 ;
 vertical
 -
