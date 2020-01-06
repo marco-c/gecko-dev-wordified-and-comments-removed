@@ -1226,6 +1226,13 @@ IsContextLost
 )
 return
 ;
+gl
+-
+>
+MakeCurrent
+(
+)
+;
 if
 (
 mBoundReadFramebuffer
