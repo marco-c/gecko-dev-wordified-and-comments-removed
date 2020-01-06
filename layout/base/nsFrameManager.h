@@ -172,7 +172,7 @@ aContent
 if
 (
 !
-mUndisplayedMap
+mDisplayNoneMap
 )
 {
 return
@@ -182,7 +182,7 @@ nullptr
 return
 GetStyleContextInMap
 (
-mUndisplayedMap
+mDisplayNoneMap
 aContent
 )
 ;
@@ -223,7 +223,7 @@ aStyleContext
 {
 ChangeStyleContextInMap
 (
-mUndisplayedMap
+mDisplayNoneMap
 aContent
 aStyleContext
 )
