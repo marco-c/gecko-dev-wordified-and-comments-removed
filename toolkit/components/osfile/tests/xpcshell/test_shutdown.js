@@ -407,7 +407,10 @@ true
 catch
 (
 ex
+)
+{
 if
+(
 ex
 =
 =
@@ -420,6 +423,13 @@ resolved
 =
 false
 ;
+}
+else
+{
+throw
+ex
+;
+}
 }
 Services
 .

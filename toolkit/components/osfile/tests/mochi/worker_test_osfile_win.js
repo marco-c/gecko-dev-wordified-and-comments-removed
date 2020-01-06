@@ -1665,7 +1665,10 @@ null
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 TypeError
@@ -1690,6 +1693,13 @@ exceptionRaised
 =
 true
 ;
+}
+else
+{
+throw
+e
+;
+}
 }
 ok
 (

@@ -2492,7 +2492,10 @@ next
 catch
 (
 ex
+)
+{
 if
+(
 ex
 instanceof
 OS
@@ -2543,6 +2546,13 @@ exist
 "
 )
 ;
+}
+else
+{
+throw
+ex
+;
+}
 }
 test
 .
