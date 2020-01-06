@@ -208,6 +208,14 @@ pc
 guard
 '
 ]
+if
+CONFIG
+[
+'
+FUZZING_INTERFACES
+'
+]
+:
 TEST_DIRS
 +
 =
