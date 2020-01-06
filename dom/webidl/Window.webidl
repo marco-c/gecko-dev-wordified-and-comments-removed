@@ -3955,9 +3955,6 @@ getRegionalPrefsLocales
 (
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 /
 *
 *
@@ -3989,7 +3986,5 @@ attribute
 IntlUtils
 intlUtils
 ;
-#
-endif
 }
 ;
