@@ -399,10 +399,6 @@ crashtest
 -
 reftest
 -
-reftest
--
-stylo
--
 web
 -
 platform
@@ -454,6 +450,14 @@ media
 mochitest
 -
 webgl
+reftest
+-
+stylo
+:
+-
+reftest
+-
+stylo
 qr
 -
 talos

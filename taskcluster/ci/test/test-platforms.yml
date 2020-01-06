@@ -270,6 +270,10 @@ web
 platform
 -
 tests
+-
+reftest
+-
+stylo
 linux64
 /
 opt
@@ -301,6 +305,10 @@ opt
 only
 -
 tests
+-
+reftest
+-
+stylo
 -
 desktop
 -

@@ -5759,20 +5759,6 @@ for
 all
 its
 tests
-except
-Stylo
-vs
-.
-Gecko
-reftests
-where
-the
-    
-test
-harness
-will
-handle
-this
 .
     
 "
@@ -5807,22 +5793,6 @@ test
             
 continue
         
-if
-'
-reftest
--
-stylo
-'
-not
-in
-test
-[
-'
-suite
-'
-]
-:
-            
 test
 [
 '
