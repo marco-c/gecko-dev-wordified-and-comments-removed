@@ -4639,15 +4639,6 @@ activitystream
 /
 homepanel
 /
-StreamHighlightItemRowContextMenuListener
-.
-java
-'
-'
-activitystream
-/
-homepanel
-/
 StreamItemAnimator
 .
 java

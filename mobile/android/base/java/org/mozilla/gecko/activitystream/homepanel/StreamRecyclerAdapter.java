@@ -398,7 +398,6 @@ OnItemClickListener
 RecyclerViewClickSupport
 .
 OnItemLongClickListener
-StreamHighlightItemRowContextMenuListener
 {
 private
 static
@@ -2007,8 +2006,7 @@ return
 true
 ;
 }
-Override
-public
+private
 void
 openContextMenu
 (
