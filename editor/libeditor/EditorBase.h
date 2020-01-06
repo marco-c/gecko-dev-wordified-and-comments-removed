@@ -1052,6 +1052,9 @@ false
 nsresult
 SetTextImpl
 (
+Selection
+&
+aSelection
 const
 nsAString
 &
@@ -1653,6 +1656,17 @@ DoAfterUndoTransaction
 void
 DoAfterRedoTransaction
 (
+)
+;
+nsresult
+DoTransaction
+(
+Selection
+*
+aSelection
+nsITransaction
+*
+aTxn
 )
 ;
 enum
