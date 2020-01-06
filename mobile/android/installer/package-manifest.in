@@ -1661,9 +1661,6 @@ components
 mozProtocolHandler
 .
 manifest
-#
-ifndef
-MOZ_GECKOVIEW_JAR
 BINPATH
 /
 components
@@ -1678,8 +1675,6 @@ components
 nsDNSServiceDiscovery
 .
 js
-#
-endif
 BINPATH
 /
 components
