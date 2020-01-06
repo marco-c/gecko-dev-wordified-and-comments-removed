@@ -582,7 +582,7 @@ true
 )
 ;
 function
-onDPRChange
+onDevicePixelRatioChange
 (
 )
 {
@@ -634,7 +634,7 @@ removeListener
 listener
 )
 ;
-onDPRChange
+onDevicePixelRatioChange
 (
 )
 ;
@@ -657,7 +657,7 @@ contentURI
 {
 try
 {
-onDPRChange
+onDevicePixelRatioChange
 (
 )
 ;

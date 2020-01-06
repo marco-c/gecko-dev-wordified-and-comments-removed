@@ -1736,7 +1736,7 @@ value
 )
 ;
 const
-selectDPR
+selectDevicePixelRatio
 =
 (
 ui
@@ -1751,7 +1751,11 @@ ui
 #
 global
 -
-dpr
+device
+-
+pixel
+-
+ratio
 -
 selector
 "

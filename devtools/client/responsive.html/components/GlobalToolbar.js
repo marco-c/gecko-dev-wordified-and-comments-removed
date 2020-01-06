@@ -60,7 +60,7 @@ types
 )
 ;
 const
-DPRSelector
+DevicePixelRatioSelector
 =
 createFactory
 (
@@ -69,7 +69,7 @@ require
 "
 .
 /
-DprSelector
+DevicePixelRatioSelector
 "
 )
 )
@@ -320,7 +320,7 @@ networkThrottling
 onChangeNetworkThrottling
 }
 )
-DPRSelector
+DevicePixelRatioSelector
 (
 {
 devices

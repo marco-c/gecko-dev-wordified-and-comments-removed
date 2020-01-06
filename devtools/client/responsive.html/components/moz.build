@@ -103,12 +103,12 @@ DeviceModal
 js
 '
 '
-DeviceSelector
+DevicePixelRatioSelector
 .
 js
 '
 '
-DprSelector
+DeviceSelector
 .
 js
 '
