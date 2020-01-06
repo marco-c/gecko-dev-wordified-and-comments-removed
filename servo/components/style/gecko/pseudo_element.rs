@@ -182,7 +182,6 @@ self
 >
 bool
 {
-!
 matches
 !
 (
