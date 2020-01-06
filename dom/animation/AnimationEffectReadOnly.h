@@ -207,16 +207,12 @@ IsActiveDurationZero
 const
 {
 return
+!
 SpecifiedTiming
 (
 )
 .
 ActiveDuration
-(
-)
-=
-=
-StickyTimeDuration
 (
 )
 ;
