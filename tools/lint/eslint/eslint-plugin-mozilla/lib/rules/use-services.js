@@ -570,6 +570,13 @@ parents
 }
 )
 ;
+delete
+servicesASTParser
+.
+result
+.
+nsIPropertyBag2
+;
 return
 servicesASTParser
 .
