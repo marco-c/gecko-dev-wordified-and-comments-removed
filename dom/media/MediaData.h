@@ -1582,11 +1582,6 @@ YUVColorSpace
 :
 BT601
 ;
-uint32_t
-mDepth
-=
-8
-;
 }
 ;
 class
