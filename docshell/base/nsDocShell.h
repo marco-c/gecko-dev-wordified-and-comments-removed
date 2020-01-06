@@ -2928,11 +2928,6 @@ mIsBeingDestroyed
 1
 ;
 bool
-mScriptGlobalDead
-:
-1
-;
-bool
 mIsExecutingOnLoadHandler
 :
 1
