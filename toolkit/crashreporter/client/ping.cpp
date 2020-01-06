@@ -594,6 +594,9 @@ entries
 =
 {
 "
+AsyncShutdownTimeout
+"
+"
 AvailablePageFile
 "
 "
@@ -645,13 +648,13 @@ RemoteType
 SecondsSinceLastCrash
 "
 "
+ShutdownProgress
+"
+"
 StartupCrash
 "
 "
 SystemMemoryUsePercentage
-"
-"
-TelemetrySessionId
 "
 "
 TextureUsage
