@@ -409,6 +409,11 @@ GetCssRulesInternal
 (
 )
 ;
+OriginFlags
+GetOrigin
+(
+)
+;
 protected
 :
 virtual
