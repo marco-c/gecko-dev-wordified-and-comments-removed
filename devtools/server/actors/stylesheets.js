@@ -94,11 +94,13 @@ events
 require
 (
 "
-sdk
+devtools
+/
+shared
 /
 event
-/
-core
+-
+emitter
 "
 )
 ;

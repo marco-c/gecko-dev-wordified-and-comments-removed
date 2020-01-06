@@ -88,11 +88,13 @@ this
 events
 "
 "
-sdk
+devtools
+/
+shared
 /
 event
-/
-core
+-
+emitter
 "
 )
 ;
