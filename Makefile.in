@@ -1914,8 +1914,6 @@ zip
 call
 py_action
 symbols_archive
-(
-abspath
 '
 (
 DIST
@@ -1930,7 +1928,6 @@ SYMBOL_FULL_ARCHIVE_BASENAME
 .
 zip
 '
-)
 \
 (
 abspath
@@ -2001,8 +1998,6 @@ zip
 call
 py_action
 symbols_archive
-(
-abspath
 '
 (
 DIST
@@ -2017,7 +2012,6 @@ SYMBOL_ARCHIVE_BASENAME
 .
 zip
 '
-)
 \
 (
 abspath
