@@ -89,7 +89,7 @@ types
 ;
 const
 {
-getAllMessages
+getVisibleMessages
 }
 =
 require
@@ -296,7 +296,7 @@ filtersClear
 ;
 numMessages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -305,7 +305,7 @@ getState
 )
 )
 .
-size
+length
 ;
 }
 )
@@ -350,7 +350,7 @@ LOG
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -363,7 +363,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -405,7 +405,7 @@ DEBUG
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -418,7 +418,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -469,7 +469,7 @@ WARN
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -482,7 +482,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -524,7 +524,7 @@ ERROR
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -537,7 +537,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -597,7 +597,7 @@ message
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -610,7 +610,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -634,7 +634,7 @@ css
 ;
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -647,7 +647,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -699,7 +699,7 @@ message
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -712,7 +712,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -736,7 +736,7 @@ netxhr
 ;
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -749,7 +749,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -800,7 +800,7 @@ message
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -813,7 +813,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -837,7 +837,7 @@ net
 ;
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -850,7 +850,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual
@@ -907,7 +907,7 @@ danger
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -920,7 +920,7 @@ expect
 (
 messages
 .
-size
+length
 -
 numUnfilterableMessages
 )
@@ -961,7 +961,7 @@ filterTextSet
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -974,7 +974,7 @@ expect
 (
 messages
 .
-size
+length
 -
 numUnfilterableMessages
 )
@@ -1088,7 +1088,7 @@ js
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -1101,7 +1101,7 @@ expect
 (
 messages
 .
-size
+length
 -
 numUnfilterableMessages
 )
@@ -1169,7 +1169,7 @@ testStacktraceFiltering
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -1182,7 +1182,7 @@ expect
 (
 messages
 .
-size
+length
 -
 numUnfilterableMessages
 )
@@ -1294,7 +1294,7 @@ js
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -1307,7 +1307,7 @@ expect
 (
 messages
 .
-size
+length
 -
 numUnfilterableMessages
 )
@@ -1366,7 +1366,7 @@ filterTextSet
 let
 messages
 =
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -1379,7 +1379,7 @@ expect
 (
 messages
 .
-size
+length
 )
 .
 toEqual

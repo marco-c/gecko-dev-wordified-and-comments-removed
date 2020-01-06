@@ -39,7 +39,7 @@ index
 ;
 const
 {
-getAllMessages
+getVisibleMessages
 }
 =
 require
@@ -177,7 +177,7 @@ red
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -186,7 +186,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -242,7 +242,7 @@ redValue
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -251,7 +251,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -310,7 +310,7 @@ c
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -319,7 +319,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -375,7 +375,7 @@ value1
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -384,7 +384,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -440,7 +440,7 @@ key1
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -449,7 +449,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -504,7 +504,7 @@ myobj
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -513,7 +513,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -585,7 +585,7 @@ get
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -594,7 +594,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -659,7 +659,7 @@ html
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -668,7 +668,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
@@ -720,7 +720,7 @@ devtools
 ;
 expect
 (
-getAllMessages
+getVisibleMessages
 (
 store
 .
@@ -729,7 +729,7 @@ getState
 )
 )
 .
-size
+length
 )
 .
 toEqual
