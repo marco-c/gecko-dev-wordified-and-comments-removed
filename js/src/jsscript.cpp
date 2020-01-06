@@ -8100,6 +8100,16 @@ GetScriptNameMapEntry
 this
 )
 ;
+js_delete
+(
+p
+-
+>
+value
+(
+)
+)
+;
 compartment
 (
 )
