@@ -137,6 +137,11 @@ StorageIPC
 .
 h
 '
+'
+StorageNotifierService
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -189,6 +194,11 @@ cpp
 '
 '
 StorageIPC
+.
+cpp
+'
+'
+StorageNotifierService
 .
 cpp
 '
