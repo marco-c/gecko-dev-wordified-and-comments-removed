@@ -26418,12 +26418,6 @@ aWebProgress
 isLoadingDocument
 &
 &
-!
-gBrowser
-.
-tabAnimationsInProgress
-&
-&
 this
 .
 animate
@@ -26553,12 +26547,6 @@ isTopLevel
 aWebProgress
 .
 isLoadingDocument
-&
-&
-!
-gBrowser
-.
-tabAnimationsInProgress
 &
 &
 this
