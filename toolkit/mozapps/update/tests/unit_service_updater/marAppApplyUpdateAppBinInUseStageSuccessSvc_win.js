@@ -34,7 +34,7 @@ gTestDirsCompleteSuccess
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
-undefined
+false
 )
 ;
 }

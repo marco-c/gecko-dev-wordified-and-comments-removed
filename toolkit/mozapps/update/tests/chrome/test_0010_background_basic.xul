@@ -259,6 +259,16 @@ entering
 "
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_APP_UPDATE_AUTO
+false
+)
+;
 let
 url
 =
@@ -267,10 +277,6 @@ URL_HTTP_UPDATE_XML
 "
 ?
 showDetails
-=
-1
-&
-showPrompt
 =
 1
 "

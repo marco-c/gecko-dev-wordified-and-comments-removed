@@ -18,6 +18,10 @@ set
 PREF_APP_UPDATE_STAGING_ENABLED
 false
 ]
+[
+PREF_APP_UPDATE_AUTO
+false
+]
 ]
 }
 )
@@ -26,10 +30,6 @@ let
 updateParams
 =
 "
-showPrompt
-=
-1
-&
 promptWaitTime
 =
 0

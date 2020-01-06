@@ -288,7 +288,6 @@ setResponseBody
 (
 aHashFunction
 aHashValue
-aSize
 )
 {
 let
@@ -296,11 +295,8 @@ patches
 =
 getRemotePatchString
 (
-null
-null
-aHashFunction
-aHashValue
-aSize
+{
+}
 )
 ;
 let
@@ -308,6 +304,8 @@ updates
 =
 getRemoteUpdateString
 (
+{
+}
 patches
 )
 ;
