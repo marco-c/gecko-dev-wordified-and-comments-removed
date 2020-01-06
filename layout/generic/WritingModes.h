@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsStyleContextInlines
+.
+h
+"
+#
+include
+"
 nsBidiUtils
 .
 h
