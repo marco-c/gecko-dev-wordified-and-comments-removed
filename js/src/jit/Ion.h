@@ -458,6 +458,9 @@ LIRGraph
 class
 CodeGenerator
 ;
+class
+LazyLinkExitFrameLayout
+;
 MOZ_MUST_USE
 bool
 OptimizeMIR
@@ -545,6 +548,12 @@ uint8_t
 *
 LazyLinkTopActivation
 (
+JSContext
+*
+cx
+LazyLinkExitFrameLayout
+*
+frame
 )
 ;
 static
