@@ -974,6 +974,8 @@ WrFilterOp
 >
 &
 aFilters
+bool
+aIsBackfaceVisible
 )
 ;
 void
@@ -1160,6 +1162,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1186,6 +1190,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1246,6 +1252,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1306,6 +1314,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 wr
 :
 :
@@ -1335,6 +1345,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1378,6 +1390,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 wr
 :
 :
@@ -1422,6 +1436,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 wr
 :
 :
@@ -1461,6 +1477,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 wr
 :
 :
@@ -1488,6 +1506,8 @@ wr
 LayoutRect
 &
 aBounds
+bool
+aIsBackfaceVisible
 wr
 :
 :
@@ -1512,6 +1532,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1556,6 +1578,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1615,6 +1639,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1677,6 +1703,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1739,6 +1767,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 gfx
 :
@@ -1781,6 +1811,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1807,6 +1839,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
@@ -1838,6 +1872,8 @@ wr
 LayoutRect
 &
 aClip
+bool
+aIsBackfaceVisible
 const
 wr
 :
