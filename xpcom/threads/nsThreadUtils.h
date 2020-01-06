@@ -8061,6 +8061,8 @@ mozilla
 :
 TimeStamp
 aDefault
+uint32_t
+aSearchBound
 )
 ;
 namespace

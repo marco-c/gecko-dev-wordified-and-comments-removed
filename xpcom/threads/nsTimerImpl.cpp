@@ -184,6 +184,8 @@ NS_GetTimerDeadlineHintOnCurrentThread
 (
 TimeStamp
 aDefault
+uint32_t
+aSearchBound
 )
 {
 return
@@ -195,6 +197,7 @@ gThread
 FindNextFireTimeForCurrentThread
 (
 aDefault
+aSearchBound
 )
 :
 TimeStamp
