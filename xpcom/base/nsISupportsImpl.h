@@ -221,14 +221,7 @@ public
 nsAutoOwningThread
 (
 )
-{
-mThread
-=
-PR_GetCurrentThread
-(
-)
 ;
-}
 template
 <
 int
