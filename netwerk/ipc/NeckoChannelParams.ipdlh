@@ -521,6 +521,9 @@ bool
 isPreflight
 ;
 bool
+loadTriggeredFromExternal
+;
+bool
 forceHSTSPriming
 ;
 bool
