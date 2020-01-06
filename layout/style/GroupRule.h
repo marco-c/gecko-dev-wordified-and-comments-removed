@@ -403,6 +403,11 @@ Clear
 (
 )
 {
+if
+(
+mRuleList
+)
+{
 mRuleList
 -
 >
@@ -414,6 +419,7 @@ mRuleList
 =
 nullptr
 ;
+}
 }
 void
 Traverse
