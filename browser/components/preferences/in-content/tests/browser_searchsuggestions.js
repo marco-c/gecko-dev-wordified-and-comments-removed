@@ -77,7 +77,6 @@ openPreferencesViaOpenPreferencesAPI
 "
 search
 "
-undefined
 {
 leaveOpen
 :
@@ -191,7 +190,6 @@ openPreferencesViaOpenPreferencesAPI
 "
 search
 "
-undefined
 {
 leaveOpen
 :

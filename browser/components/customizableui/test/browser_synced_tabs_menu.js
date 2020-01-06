@@ -591,6 +591,7 @@ resolve
 let
 handler
 =
+async
 (
 e
 )
