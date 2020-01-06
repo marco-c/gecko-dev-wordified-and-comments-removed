@@ -142,12 +142,6 @@ namespace
 dom
 {
 using
-base
-:
-:
-Thread
-;
-using
 namespace
 ipc
 ;
