@@ -938,17 +938,6 @@ HasH264
 (
 )
 {
-if
-(
-IsH264DecoderBlacklisted
-(
-)
-)
-{
-return
-false
-;
-}
 return
 CanCreateWMFDecoder
 <
