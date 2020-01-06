@@ -348,14 +348,6 @@ aFallbackKey
 override
 ;
 NS_IMETHOD
-ForceIntercepted
-(
-uint64_t
-aInterceptionID
-)
-override
-;
-NS_IMETHOD
 GetResponseSynthesized
 (
 bool
