@@ -1114,6 +1114,11 @@ offlineAppCache
 jsm
 '
 '
+PageActions
+.
+jsm
+'
+'
 PermissionUI
 .
 jsm
