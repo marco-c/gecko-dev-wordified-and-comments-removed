@@ -2190,6 +2190,15 @@ context
 quirks_mode
 (
 )
+None
+&
+mut
+Default
+:
+:
+default
+(
+)
 )
 ;
 computed

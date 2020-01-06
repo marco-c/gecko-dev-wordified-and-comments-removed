@@ -3976,6 +3976,8 @@ RuleNode
 derive
 (
 Debug
+Eq
+Hash
 PartialEq
 )
 ]
