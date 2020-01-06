@@ -121,6 +121,12 @@ exists
 )
 return
 ;
+tmp1
+.
+normalize
+(
+)
+;
 var
 tmp2
 =

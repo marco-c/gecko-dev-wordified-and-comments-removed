@@ -6746,6 +6746,13 @@ NS_OS_TEMP_DIR
 nsAutoCString
 tempDirPath
 ;
+tempDir
+-
+>
+Normalize
+(
+)
+;
 rv
 =
 tempDir
