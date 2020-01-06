@@ -1442,9 +1442,6 @@ bool
 false
 )
 ;
-#
-ifdef
-MOZ_CUBEB_REMOTING
 DECL_MEDIA_PREF
 (
 "
@@ -1459,8 +1456,6 @@ bool
 false
 )
 ;
-#
-endif
 DECL_MEDIA_PREF
 (
 "
