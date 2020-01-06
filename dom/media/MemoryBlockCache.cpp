@@ -742,6 +742,14 @@ desiredLength
 -
 initialLength
 ;
+if
+(
+initialLength
+=
+=
+0
+)
+{
 static
 const
 size_t
@@ -865,6 +873,7 @@ limit
 return
 false
 ;
+}
 }
 if
 (
