@@ -195,11 +195,11 @@ js
 )
 content
 /
-sync
+wait
 .
 js
 (
-sync
+wait
 .
 js
 )
