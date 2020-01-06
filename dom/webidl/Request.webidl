@@ -302,7 +302,7 @@ Func
 AbortController
 :
 :
-IsEnabledInFetch
+IsEnabled
 "
 ]
 AbortSignal
