@@ -532,7 +532,7 @@ Version
 (
 version
 )
-depends
+depends_if
 (
 yasm_version
 )
@@ -549,7 +549,7 @@ yasm_version
 .
 major
 )
-depends
+depends_if
 (
 yasm_version
 )
