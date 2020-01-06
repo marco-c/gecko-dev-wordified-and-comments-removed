@@ -222,10 +222,6 @@ clang
 linux64
 -
 gcc
--
-linux64
--
-sccache
 macosx64
 -
 clang
@@ -431,10 +427,6 @@ clang
 linux64
 -
 gcc
--
-linux64
--
-sccache
 macosx64
 -
 cctools
@@ -599,7 +591,3 @@ clang
 linux64
 -
 gcc
--
-linux64
--
-sccache

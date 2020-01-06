@@ -205,10 +205,6 @@ toolchains
 linux64
 -
 gcc
--
-linux64
--
-sccache
 linux64
 -
 clang
@@ -401,10 +397,6 @@ clang
 linux64
 -
 gcc
--
-linux64
--
-sccache
 linux64
 -
 gcc
@@ -780,10 +772,6 @@ toolchains
 linux64
 -
 clang
--
-linux64
--
-sccache
 linux64
 -
 hfsplus
@@ -941,10 +929,6 @@ toolchains
 linux64
 -
 clang
--
-linux64
--
-sccache
 linux64
 -
 libdmg
