@@ -342,6 +342,7 @@ frames
 let
 menu
 =
+yield
 toolbox
 .
 showFramesMenu

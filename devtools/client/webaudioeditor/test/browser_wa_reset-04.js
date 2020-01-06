@@ -170,6 +170,7 @@ children
 let
 menu
 =
+yield
 toolbox
 .
 showFramesMenu
