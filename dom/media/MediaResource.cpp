@@ -424,13 +424,6 @@ ChannelMediaResource
 mLock
 "
 )
-mChannelStatistics
-(
-new
-MediaChannelStatistics
-(
-)
-)
 mIgnoreResume
 (
 false
@@ -459,8 +452,9 @@ const
 MediaContainerType
 &
 aContainerType
+const
 MediaChannelStatistics
-*
+&
 aStatistics
 )
 :
@@ -498,11 +492,7 @@ mLock
 )
 mChannelStatistics
 (
-new
-MediaChannelStatistics
-(
 aStatistics
-)
 )
 mIgnoreResume
 (
@@ -1292,8 +1282,7 @@ mLock
 )
 ;
 mChannelStatistics
--
->
+.
 Start
 (
 )
@@ -1713,8 +1702,7 @@ mLock
 )
 ;
 mChannelStatistics
--
->
+.
 Stop
 (
 )
@@ -2077,8 +2065,7 @@ mLock
 )
 ;
 mChannelStatistics
--
->
+.
 AddBytes
 (
 aCount
@@ -2885,8 +2872,7 @@ resource
 -
 >
 mChannelStatistics
--
->
+.
 Stop
 (
 )
@@ -2930,8 +2916,7 @@ mLock
 )
 ;
 mChannelStatistics
--
->
+.
 Stop
 (
 )
@@ -3410,8 +3395,7 @@ mLock
 )
 ;
 mChannelStatistics
--
->
+.
 Stop
 (
 )
@@ -3518,8 +3502,7 @@ mLock
 )
 ;
 mChannelStatistics
--
->
+.
 Start
 (
 )
@@ -4398,8 +4381,7 @@ mLock
 ;
 return
 mChannelStatistics
--
->
+.
 GetRate
 (
 aIsReliable

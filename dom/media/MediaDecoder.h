@@ -1723,10 +1723,7 @@ VideoFrameContainer
 >
 mVideoFrameContainer
 ;
-RefPtr
-<
 MediaChannelStatistics
->
 mPlaybackStatistics
 ;
 bool
