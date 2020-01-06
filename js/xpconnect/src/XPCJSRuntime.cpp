@@ -505,9 +505,6 @@ item
 __proto__
 "
 "
-__iterator__
-"
-"
 __exposedProps__
 "
 "
