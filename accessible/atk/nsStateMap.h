@@ -205,7 +205,7 @@ kNone
 kMapDirectly
 }
 {
-kNone
+ATK_STATE_HAS_POPUP
 kMapDirectly
 }
 {
