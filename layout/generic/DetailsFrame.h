@@ -147,6 +147,14 @@ aFilter
 )
 override
 ;
+bool
+HasMainSummaryFrame
+(
+nsIFrame
+*
+aSummaryFrame
+)
+;
 private
 :
 nsCOMPtr
