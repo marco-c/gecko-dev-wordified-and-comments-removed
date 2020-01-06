@@ -11643,7 +11643,10 @@ params
 .
 framePt
 =
-gfxPoint
+gfx
+:
+:
+Point
 (
 )
 ;

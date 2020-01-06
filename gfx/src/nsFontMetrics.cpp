@@ -1720,7 +1720,10 @@ get
 return
 ;
 }
-gfxPoint
+gfx
+:
+:
+Point
 pt
 (
 aX
@@ -1864,7 +1867,10 @@ get
 return
 ;
 }
-gfxPoint
+gfx
+:
+:
+Point
 pt
 (
 aX
