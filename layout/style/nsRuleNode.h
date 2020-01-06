@@ -4375,7 +4375,10 @@ static
 bool
 HasAuthorSpecifiedRules
 (
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 uint32_t
