@@ -4504,14 +4504,6 @@ nullptr
 ;
 if
 (
-gfxPrefs
-:
-:
-WebRenderLayersFree
-(
-)
-&
-&
 frame
 -
 >
