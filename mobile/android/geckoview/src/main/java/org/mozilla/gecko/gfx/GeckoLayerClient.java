@@ -179,6 +179,7 @@ volatile
 boolean
 mGeckoIsReady
 ;
+private
 final
 PanZoomController
 mPanZoomController
@@ -188,6 +189,7 @@ final
 DynamicToolbarAnimator
 mToolbarAnimator
 ;
+private
 final
 LayerView
 mView
@@ -385,13 +387,9 @@ run
 (
 )
 {
-mPanZoomController
-.
-attach
+getView
 (
 )
-;
-mView
 .
 updateCompositor
 (
@@ -1750,7 +1748,9 @@ run
 (
 )
 {
-mView
+getView
+(
+)
 .
 dispatchTouchEvent
 (

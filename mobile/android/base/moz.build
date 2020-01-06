@@ -3573,11 +3573,6 @@ GeckoView
 java
 '
 '
-GeckoViewFragment
-.
-java
-'
-'
 GeckoViewHandler
 .
 java
