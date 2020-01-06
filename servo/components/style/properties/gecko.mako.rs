@@ -32457,7 +32457,7 @@ T
 AngleWithFlipped
 (
 ref
-orientation
+angle
 flipped
 )
 =
@@ -32475,10 +32475,13 @@ mut
 self
 .
 gecko
-*
-orientation
+angle
+.
+radians
+(
+)
 as
-u8
+f64
 flipped
 )
 ;
