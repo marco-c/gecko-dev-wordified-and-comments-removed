@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+__builtin__
+import
 inspect
 import
 logging
@@ -1381,10 +1383,11 @@ ReadOnlyDict
         
 b
 :
-__builtins__
-[
+getattr
+(
+__builtin__
 b
-]
+)
         
 for
 b
