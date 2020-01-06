@@ -113,8 +113,6 @@ mozlint
 yml
 -
 python
--
-tests
 .
 yml
 -

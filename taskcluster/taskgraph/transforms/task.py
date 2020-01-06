@@ -273,6 +273,17 @@ object
 Optional
 (
 '
+job
+-
+from
+'
+)
+:
+basestring
+    
+Optional
+(
+'
 dependencies
 '
 )
