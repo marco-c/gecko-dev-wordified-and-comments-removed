@@ -78,6 +78,17 @@ res
 .
 jsm
 )
+res
+/
+phonenumberutils
+/
+(
+phonenumberutils
+/
+*
+.
+jsm
+)
 %
 content
 formautofill
