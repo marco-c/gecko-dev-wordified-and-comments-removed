@@ -6699,6 +6699,12 @@ uint32_t
 aFlags
 =
 0
+const
+nsStyleDisplay
+*
+aStyleDisplay
+=
+nullptr
 )
 const
 ;
@@ -8224,6 +8230,12 @@ inline
 bool
 IsAbsolutelyPositioned
 (
+const
+nsStyleDisplay
+*
+aStyleDisplay
+=
+nullptr
 )
 const
 ;

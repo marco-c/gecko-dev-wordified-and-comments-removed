@@ -2419,6 +2419,8 @@ mFrame
 >
 GetContainingBlock
 (
+0
+mStyleDisplay
 )
 )
 {
@@ -2529,6 +2531,10 @@ mFrame
 >
 IsAbsolutelyPositioned
 (
+rs
+-
+>
+mStyleDisplay
 )
 )
 {
@@ -8826,6 +8832,10 @@ mFrame
 >
 IsAbsolutelyPositioned
 (
+rs
+-
+>
+mStyleDisplay
 )
 )
 {
@@ -9182,6 +9192,7 @@ mFrame
 >
 IsAbsolutelyPositioned
 (
+mStyleDisplay
 )
 &
 &
