@@ -710,6 +710,10 @@ generateOutOfLineCode
 (
 )
 {
+current
+=
+nullptr
+;
 for
 (
 size_t
