@@ -270,10 +270,6 @@ XRE_API
 nsresult
 XRE_GetBinaryPath
 (
-const
-char
-*
-aArgv0
 nsIFile
 *
 *
