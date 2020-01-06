@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -148,7 +148,7 @@ postMessage
 let
 result
 =
-yield
+await
 new
 Promise
 (

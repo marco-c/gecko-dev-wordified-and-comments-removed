@@ -31,15 +31,15 @@ sjs
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -85,7 +85,7 @@ return
 "
 )
 ;
-yield
+await
 errorPageLoaded
 ;
 let
@@ -94,7 +94,7 @@ contentURL
 originalURL
 ]
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -203,7 +203,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

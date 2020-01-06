@@ -46,8 +46,8 @@ serviceworkers
 ;
 add_task
 (
+async
 function
-*
 test_update
 (
 )
@@ -67,7 +67,7 @@ enabled
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -159,7 +159,7 @@ getBrowserForTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -201,7 +201,7 @@ getBrowserForTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -238,7 +238,7 @@ test
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -512,7 +512,7 @@ wrong
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -520,7 +520,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

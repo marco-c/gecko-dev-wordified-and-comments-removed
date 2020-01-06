@@ -1000,8 +1000,8 @@ internal
 }
 add_task
 (
+async
 function
-*
 test_non_https_remote_server_uri_with_requireHttps_false
 (
 )
@@ -1068,7 +1068,7 @@ html
 ;
 do_check_eq
 (
-yield
+await
 fxAccounts
 .
 promiseAccountsSignUpURI
@@ -1140,8 +1140,8 @@ allowHttp
 ;
 add_task
 (
+async
 function
-*
 test_non_https_remote_server_uri
 (
 )
@@ -1234,8 +1234,8 @@ uri
 ;
 add_task
 (
+async
 function
-*
 test_get_signed_in_user_initially_unset
 (
 )
@@ -1310,7 +1310,7 @@ true
 let
 result
 =
-yield
+await
 account
 .
 getSignedInUser
@@ -1323,7 +1323,7 @@ result
 null
 )
 ;
-yield
+await
 account
 .
 setSignedInUser
@@ -1365,7 +1365,7 @@ clear
 ;
 result
 =
-yield
+await
 account
 .
 getSignedInUser
@@ -1411,7 +1411,7 @@ signedInUser
 ;
 result
 =
-yield
+await
 account
 .
 getSignedInUser
@@ -1453,7 +1453,7 @@ localOnly
 =
 true
 ;
-yield
+await
 account
 .
 signOut
@@ -1463,7 +1463,7 @@ localOnly
 ;
 result
 =
-yield
+await
 account
 .
 getSignedInUser
@@ -1481,8 +1481,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_set_signed_in_user_deletes_previous_device
 (
 )
@@ -1559,7 +1559,7 @@ verified
 true
 }
 ;
-yield
+await
 account
 .
 setSignedInUser
@@ -1591,7 +1591,7 @@ true
 )
 ;
 }
-yield
+await
 account
 .
 setSignedInUser
@@ -1609,8 +1609,8 @@ deleteDeviceRegistrationCalled
 ;
 add_task
 (
+async
 function
-*
 test_update_account_data
 (
 )
@@ -1680,7 +1680,7 @@ verified
 true
 }
 ;
-yield
+await
 account
 .
 setSignedInUser
@@ -1708,7 +1708,7 @@ assertion
 new_assertion
 "
 }
-yield
+await
 account
 .
 updateUserAccountData
@@ -1719,7 +1719,7 @@ newCreds
 do_check_eq
 (
 (
-yield
+await
 account
 .
 getSignedInUser
@@ -1762,7 +1762,7 @@ assertion
 new_assertion
 "
 }
-yield
+await
 Assert
 .
 rejects
@@ -1794,7 +1794,7 @@ assertion
 new_assertion
 "
 }
-yield
+await
 Assert
 .
 rejects
@@ -1816,7 +1816,7 @@ assertion
 new_assertion
 "
 }
-yield
+await
 Assert
 .
 rejects
@@ -1848,7 +1848,7 @@ foo
 bar
 "
 }
-yield
+await
 Assert
 .
 rejects
@@ -1866,8 +1866,8 @@ newCreds
 ;
 add_task
 (
+async
 function
-*
 test_getCertificateOffline
 (
 )
@@ -1918,7 +1918,7 @@ verified
 true
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -1943,7 +1943,7 @@ offline
 =
 true
 ;
-yield
+await
 fxa
 .
 internal
@@ -2005,7 +2005,7 @@ OFFLINE
 }
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -2018,8 +2018,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_getCertificateCached
 (
 )
@@ -2114,7 +2114,7 @@ cert
 }
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -2128,7 +2128,7 @@ keyPair
 certificate
 }
 =
-yield
+await
 fxa
 .
 internal
@@ -2162,7 +2162,7 @@ cert
 rawCert
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -2175,8 +2175,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_getCertificateExpiredCert
 (
 )
@@ -2292,7 +2292,7 @@ cert
 }
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -2306,7 +2306,7 @@ keyPair
 certificate
 }
 =
-yield
+await
 fxa
 .
 internal
@@ -2340,7 +2340,7 @@ cert
 rawCert
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -2353,8 +2353,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_getCertificateExpiredKeypair
 (
 )
@@ -2460,7 +2460,7 @@ cert
 }
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -2474,7 +2474,7 @@ keyPair
 certificate
 }
 =
-yield
+await
 fxa
 .
 internal
@@ -2508,7 +2508,7 @@ cert
 rawCert
 )
 ;
-yield
+await
 fxa
 .
 signOut
@@ -3157,8 +3157,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_getKeys_nonexistent_account
 (
 )
@@ -3231,7 +3231,7 @@ ERRNO_INVALID_AUTH_TOKEN
 ;
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -3279,7 +3279,7 @@ resolve
 ;
 try
 {
-yield
+await
 fxa
 .
 internal
@@ -3316,13 +3316,13 @@ ERRNO_INVALID_AUTH_TOKEN
 )
 ;
 }
-yield
+await
 promiseLogout
 ;
 let
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -3342,8 +3342,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_getKeys_invalid_token
 (
 )
@@ -3416,7 +3416,7 @@ ERRNO_INVALID_AUTH_TOKEN
 ;
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -3426,7 +3426,7 @@ yusuf
 ;
 try
 {
-yield
+await
 fxa
 .
 internal
@@ -3466,7 +3466,7 @@ ERRNO_INVALID_AUTH_TOKEN
 let
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -3865,8 +3865,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_getAssertion_invalid_token
 (
 )
@@ -3941,7 +3941,7 @@ com
 "
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -3985,7 +3985,7 @@ ERRNO_INVALID_AUTH_TOKEN
 }
 )
 ;
-yield
+await
 promiseAssertion
 ;
 do_check_true
@@ -4027,7 +4027,7 @@ ERRNO_INVALID_AUTH_TOKEN
 let
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -4059,8 +4059,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_getAssertion
 (
 )
@@ -4075,12 +4075,12 @@ MockFxAccounts
 ;
 do_check_throws
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 fxa
 .
 getAssertion
@@ -4123,7 +4123,7 @@ verified
 true
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -4225,7 +4225,7 @@ cert1
 let
 assertion
 =
-yield
+await
 d
 ;
 do_check_eq
@@ -4305,7 +4305,7 @@ cert1
 let
 userData
 =
-yield
+await
 fxa
 .
 getSignedInUser
@@ -4531,7 +4531,7 @@ defer
 ;
 assertion
 =
-yield
+await
 fxa
 .
 getAssertion
@@ -4572,7 +4572,7 @@ now
 ;
 assertion
 =
-yield
+await
 fxa
 .
 getAssertion
@@ -4668,7 +4668,7 @@ com
 ;
 userData
 =
-yield
+await
 fxa
 .
 getSignedInUser
@@ -4767,7 +4767,7 @@ cert2
 ;
 assertion
 =
-yield
+await
 d
 ;
 do_check_eq
@@ -4882,7 +4882,7 @@ com
 ;
 userData
 =
-yield
+await
 fxa
 .
 getSignedInUser
@@ -4961,8 +4961,8 @@ n
 ;
 add_task
 (
+async
 function
-*
 test_resend_email_not_signed_in
 (
 )
@@ -4977,7 +4977,7 @@ MockFxAccounts
 ;
 try
 {
-yield
+await
 fxa
 .
 resendVerificationEmail
@@ -5186,8 +5186,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_resend_email_invalid_token
 (
 )
@@ -5268,7 +5268,7 @@ resolve
 true
 )
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -5279,7 +5279,7 @@ sophia
 let
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -5321,7 +5321,7 @@ resent
 ;
 try
 {
-yield
+await
 fxa
 .
 resendVerificationEmail
@@ -5366,7 +5366,7 @@ ERRNO_INVALID_AUTH_TOKEN
 }
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -5609,8 +5609,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_sign_out_with_device
 (
 )
@@ -5633,7 +5633,7 @@ alice
 "
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -5646,7 +5646,7 @@ credentials
 const
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -5916,14 +5916,14 @@ resolve
 }
 )
 ;
-yield
+await
 fxa
 .
 signOut
 (
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -5931,8 +5931,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_sign_out_without_device
 (
 )
@@ -5960,7 +5960,7 @@ credentials
 .
 deviceId
 ;
-yield
+await
 fxa
 .
 internal
@@ -5970,7 +5970,7 @@ setSignedInUser
 credentials
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -6227,14 +6227,14 @@ resolve
 }
 )
 ;
-yield
+await
 fxa
 .
 signOut
 (
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -6242,8 +6242,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_sign_out_with_remote_error
 (
 )
@@ -6333,7 +6333,7 @@ jane
 "
 )
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -6341,20 +6341,20 @@ setSignedInUser
 jane
 )
 ;
-yield
+await
 fxa
 .
 signOut
 (
 )
 ;
-yield
+await
 promiseLogout
 ;
 let
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -6727,8 +6727,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_getOAuthTokenCached
 (
 )
@@ -6832,7 +6832,7 @@ token
 ;
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -6843,7 +6843,7 @@ alice
 let
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -6881,7 +6881,7 @@ token
 ;
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -6919,7 +6919,7 @@ token
 ;
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -6962,8 +6962,8 @@ token
 ;
 add_task
 (
+async
 function
-*
 test_getOAuthTokenCachedScopeNormalization
 (
 )
@@ -7067,7 +7067,7 @@ token
 ;
 }
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -7078,7 +7078,7 @@ alice
 let
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -7121,7 +7121,7 @@ token
 ;
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -7164,7 +7164,7 @@ token
 ;
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -7207,7 +7207,7 @@ token
 ;
 result
 =
-yield
+await
 fxa
 .
 getOAuthToken
@@ -8633,8 +8633,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_checkVerificationStatusFailed
 (
 )
@@ -8713,7 +8713,7 @@ resolve
 true
 )
 ;
-yield
+await
 fxa
 .
 setSignedInUser
@@ -8724,7 +8724,7 @@ alice
 let
 user
 =
-yield
+await
 fxa
 .
 internal
@@ -8759,7 +8759,7 @@ verified
 true
 )
 ;
-yield
+await
 fxa
 .
 checkVerificationStatus
@@ -8768,7 +8768,7 @@ checkVerificationStatus
 ;
 user
 =
-yield
+await
 fxa
 .
 internal

@@ -208,12 +208,9 @@ function
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -257,7 +254,7 @@ src
 =
 IFRAME_URL
 ;
-yield
+await
 promise
 ;
 info
@@ -309,7 +306,7 @@ register
 let
 registration
 =
-yield
+await
 promise
 ;
 registrations
@@ -476,7 +473,7 @@ unregister
 ;
 registration
 =
-yield
+await
 promise
 ;
 swm
@@ -509,6 +506,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

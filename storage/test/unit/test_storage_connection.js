@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_connectionReady_open
 (
 )
@@ -25,8 +25,8 @@ connectionReady
 ;
 add_task
 (
+async
 function
-*
 test_connectionReady_closed
 (
 )
@@ -60,8 +60,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_databaseFile
 (
 )
@@ -92,8 +92,8 @@ databaseFile
 ;
 add_task
 (
+async
 function
-*
 test_tableExists_not_created
 (
 )
@@ -122,8 +122,8 @@ foo
 ;
 add_task
 (
+async
 function
-*
 test_indexExists_not_created
 (
 )
@@ -152,8 +152,8 @@ foo
 ;
 add_task
 (
+async
 function
-*
 test_temp_tableExists_and_indexExists
 (
 )
@@ -253,8 +253,8 @@ test_temp
 ;
 add_task
 (
+async
 function
-*
 test_createTable_not_created
 (
 )
@@ -300,8 +300,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 test_indexExists_created
 (
 )
@@ -346,8 +346,8 @@ name_ind
 ;
 add_task
 (
+async
 function
-*
 test_createTable_already_created
 (
 )
@@ -405,8 +405,8 @@ NS_ERROR_FAILURE
 ;
 add_task
 (
+async
 function
-*
 test_attach_createTable_tableExists_indexExists
 (
 )
@@ -622,8 +622,8 @@ e
 ;
 add_task
 (
+async
 function
-*
 test_lastInsertRowID
 (
 )
@@ -668,8 +668,8 @@ lastInsertRowID
 ;
 add_task
 (
+async
 function
-*
 test_transactionInProgress_no
 (
 )
@@ -693,8 +693,8 @@ transactionInProgress
 ;
 add_task
 (
+async
 function
-*
 test_transactionInProgress_yes
 (
 )
@@ -763,8 +763,8 @@ transactionInProgress
 ;
 add_task
 (
+async
 function
-*
 test_commitTransaction_no_transaction
 (
 )
@@ -806,8 +806,8 @@ NS_ERROR_UNEXPECTED
 ;
 add_task
 (
+async
 function
-*
 test_rollbackTransaction_no_transaction
 (
 )
@@ -849,8 +849,8 @@ NS_ERROR_UNEXPECTED
 ;
 add_task
 (
+async
 function
-*
 test_get_schemaVersion_not_set
 (
 )
@@ -870,8 +870,8 @@ schemaVersion
 ;
 add_task
 (
+async
 function
-*
 test_set_schemaVersion
 (
 )
@@ -907,8 +907,8 @@ schemaVersion
 ;
 add_task
 (
+async
 function
-*
 test_set_schemaVersion_same
 (
 )
@@ -944,8 +944,8 @@ schemaVersion
 ;
 add_task
 (
+async
 function
-*
 test_set_schemaVersion_negative
 (
 )
@@ -982,8 +982,8 @@ schemaVersion
 ;
 add_task
 (
+async
 function
-*
 test_createTable
 (
 )
@@ -1106,8 +1106,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_defaultSynchronousAtNormal
 (
 )
@@ -1168,8 +1168,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_close_does_not_spin_event_loop
 (
 )
@@ -1252,8 +1252,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_asyncClose_succeeds_with_finalized_async_statement
 (
 )
@@ -1283,7 +1283,7 @@ finalize
 (
 )
 ;
-yield
+await
 asyncClose
 (
 getOpenedDatabase
@@ -1308,8 +1308,8 @@ DEBUG
 {
 add_task
 (
+async
 function
-*
 test_close_then_release_statement
 (
 )
@@ -1358,8 +1358,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_asyncClose_then_release_statement
 (
 )
@@ -1387,7 +1387,7 @@ test_asyncClose_then_release_statement
 "
 )
 ;
-yield
+await
 asyncClose
 (
 db
@@ -1417,8 +1417,8 @@ DEBUG
 {
 add_task
 (
+async
 function
-*
 test_close_fails_with_async_statement_ran
 (
 )
@@ -1483,8 +1483,8 @@ null
 }
 add_task
 (
+async
 function
-*
 test_clone_optional_param
 (
 )
@@ -1621,8 +1621,8 @@ close
 }
 )
 ;
+async
 function
-*
 standardAsyncTest
 (
 promisedDB
@@ -1647,7 +1647,7 @@ name
 let
 adb
 =
-yield
+await
 promisedDB
 ;
 do_check_true
@@ -1691,7 +1691,7 @@ TEXT
 "
 )
 ;
-yield
+await
 executeAsync
 (
 stmt
@@ -1760,7 +1760,7 @@ name
 let
 result
 =
-yield
+await
 executeAsync
 (
 stmt
@@ -1817,7 +1817,7 @@ found
 =
 false
 ;
-yield
+await
 executeAsync
 (
 stmt
@@ -1898,7 +1898,7 @@ finalize
 (
 )
 ;
-yield
+await
 asyncClose
 (
 adb
@@ -1922,13 +1922,13 @@ complete
 }
 add_task
 (
+async
 function
-*
 test_open_async
 (
 )
 {
-yield
+await
 standardAsyncTest
 (
 openAsyncDatabase
@@ -1943,7 +1943,7 @@ default
 "
 )
 ;
-yield
+await
 standardAsyncTest
 (
 openAsyncDatabase
@@ -1959,7 +1959,7 @@ arg
 "
 )
 ;
-yield
+await
 standardAsyncTest
 (
 openAsyncDatabase
@@ -1984,7 +1984,7 @@ options
 "
 )
 ;
-yield
+await
 standardAsyncTest
 (
 openAsyncDatabase
@@ -2002,7 +2002,7 @@ database
 true
 )
 ;
-yield
+await
 standardAsyncTest
 (
 openAsyncDatabase
@@ -2054,7 +2054,7 @@ try
 {
 adb
 =
-yield
+await
 openAsyncDatabase
 (
 "
@@ -2088,7 +2088,7 @@ if
 adb
 )
 {
-yield
+await
 asyncClose
 (
 adb
@@ -2126,7 +2126,7 @@ try
 {
 adb
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -2161,7 +2161,7 @@ if
 adb
 )
 {
-yield
+await
 asyncClose
 (
 adb
@@ -2199,7 +2199,7 @@ try
 {
 adb
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -2234,7 +2234,7 @@ if
 adb
 )
 {
-yield
+await
 asyncClose
 (
 adb
@@ -2252,8 +2252,8 @@ raised
 ;
 add_task
 (
+async
 function
-*
 test_async_open_with_shared_cache
 (
 )
@@ -2279,7 +2279,7 @@ stuff
 let
 adb
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -2327,7 +2327,7 @@ clockworker
 let
 result
 =
-yield
+await
 executeAsync
 (
 stmt
@@ -2384,7 +2384,7 @@ found
 =
 false
 ;
-yield
+await
 executeAsync
 (
 stmt
@@ -2467,7 +2467,7 @@ finalize
 (
 )
 ;
-yield
+await
 asyncClose
 (
 adb
@@ -2478,8 +2478,8 @@ adb
 ;
 add_task
 (
+async
 function
-*
 test_clone_trivial_async
 (
 )
@@ -2526,7 +2526,7 @@ connection
 let
 clone
 =
-yield
+await
 asyncClone
 (
 db
@@ -2550,7 +2550,7 @@ connection
 "
 )
 ;
-yield
+await
 asyncClose
 (
 db
@@ -2564,7 +2564,7 @@ clone
 "
 )
 ;
-yield
+await
 asyncClose
 (
 clone
@@ -2575,8 +2575,8 @@ clone
 ;
 add_task
 (
+async
 function
-*
 test_clone_no_optional_param_async
 (
 )
@@ -2598,7 +2598,7 @@ cloning
 let
 adb1
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -2627,7 +2627,7 @@ database
 let
 adb2
 =
-yield
+await
 asyncClone
 (
 adb1
@@ -2718,7 +2718,7 @@ yoric
 let
 result
 =
-yield
+await
 executeAsync
 (
 stmt
@@ -2778,7 +2778,7 @@ found
 =
 false
 ;
-yield
+await
 executeAsync
 (
 stmt
@@ -2869,7 +2869,7 @@ databases
 "
 )
 ;
-yield
+await
 asyncClose
 (
 adb2
@@ -2884,7 +2884,7 @@ closed
 "
 )
 ;
-yield
+await
 asyncClose
 (
 adb1
@@ -2904,8 +2904,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 test_clone_readonly
 (
 )
@@ -3041,8 +3041,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_clone_shared_readonly
 (
 )
@@ -3168,8 +3168,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_close_clone_fails
 (
 )
@@ -3240,8 +3240,8 @@ clone
 ;
 add_task
 (
+async
 function
-*
 test_memory_clone_fails
 (
 )
@@ -3287,8 +3287,8 @@ clone
 ;
 add_task
 (
+async
 function
-*
 test_clone_copies_functions
 (
 )
@@ -3465,8 +3465,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_clone_copies_overridden_functions
 (
 )
@@ -3697,8 +3697,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_clone_copies_pragmas
 (
 )
@@ -4016,8 +4016,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_readonly_clone_copies_pragmas
 (
 )
@@ -4336,8 +4336,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_clone_attach_database
 (
 )
@@ -4648,8 +4648,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_getInterface
 (
 )
@@ -4688,7 +4688,7 @@ target
 null
 )
 ;
-yield
+await
 asyncClose
 (
 db

@@ -350,8 +350,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -404,7 +404,7 @@ test
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -415,8 +415,8 @@ testPromises
 }
 )
 ;
+async
 function
-*
 testObtainingManifest
 (
 aBrowser
@@ -456,7 +456,7 @@ try
 const
 manifest
 =
-yield
+await
 ManifestObtainer
 .
 browserObtainManifest
@@ -521,7 +521,7 @@ if
 observer
 )
 {
-yield
+await
 observer
 .
 untilFinished

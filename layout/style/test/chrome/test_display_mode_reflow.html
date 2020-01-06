@@ -282,12 +282,12 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 waitOneEvent
 (
 window
@@ -407,7 +407,7 @@ VK_F11
 }
 )
 ;
-yield
+await
 fullScreenEntered
 ;
 ok
@@ -446,7 +446,7 @@ VK_F11
 }
 )
 ;
-yield
+await
 fullScreenExited
 ;
 ok
@@ -501,7 +501,7 @@ mozRequestFullScreen
 (
 )
 ;
-yield
+await
 fullScreenEntered
 ok
 (
@@ -535,7 +535,7 @@ mozCancelFullScreen
 (
 )
 ;
-yield
+await
 fullScreenExited
 ;
 ok

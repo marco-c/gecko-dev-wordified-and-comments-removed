@@ -388,8 +388,8 @@ testCrashChildPlugin_expectFullScreenElementToRemain
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -426,7 +426,7 @@ default
 )
 *
 /
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -478,8 +478,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -520,7 +520,7 @@ mozRequestFullScreen
 (
 )
 ;
-yield
+await
 fullScreenChange
 ;
 ok
@@ -533,7 +533,7 @@ fullscreen
 "
 )
 ;
-yield
+await
 crashPlugin
 (
 plugin
@@ -584,8 +584,8 @@ crashed
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -645,7 +645,7 @@ test
 .
 *
 /
-yield
+await
 new
 Promise
 (

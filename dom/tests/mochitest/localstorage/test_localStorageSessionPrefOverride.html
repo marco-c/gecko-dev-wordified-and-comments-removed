@@ -106,12 +106,12 @@ ACCEPT_SESSION
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -141,7 +141,7 @@ ACCEPT_SESSION
 Before
 setting
 permission
-yield
+await
 new
 Promise
 (
@@ -242,7 +242,7 @@ frame
 After
 setting
 permission
-yield
+await
 new
 Promise
 (
@@ -283,7 +283,7 @@ resolve
 }
 )
 ;
-yield
+await
 new
 Promise
 (

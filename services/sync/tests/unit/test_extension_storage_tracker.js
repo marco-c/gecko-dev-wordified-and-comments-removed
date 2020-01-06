@@ -156,8 +156,8 @@ loadWebExtensionTestFunctions
 ;
 add_task
 (
+async
 function
-*
 test_changing_extension_storage_changes_score
 (
 )
@@ -201,7 +201,7 @@ tracking
 "
 )
 ;
-yield
+await
 withSyncContext
 (
 async
@@ -245,7 +245,7 @@ resetScore
 (
 )
 ;
-yield
+await
 withSyncContext
 (
 async

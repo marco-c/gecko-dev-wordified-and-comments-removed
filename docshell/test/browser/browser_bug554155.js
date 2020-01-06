@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -25,8 +25,8 @@ example
 com
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -83,7 +83,7 @@ addTabsProgressListener
 listener
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -110,7 +110,7 @@ foo
 }
 )
 ;
-yield
+await
 Promise
 .
 resolve

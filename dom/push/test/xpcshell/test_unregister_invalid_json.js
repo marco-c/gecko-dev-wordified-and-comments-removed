@@ -56,8 +56,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_unregister_invalid_json
 (
 )
@@ -224,7 +224,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -351,7 +351,7 @@ unregisterDone
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -394,7 +394,7 @@ response
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -425,7 +425,7 @@ record
 '
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -482,7 +482,7 @@ response
 ;
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -517,7 +517,7 @@ JSON
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 }

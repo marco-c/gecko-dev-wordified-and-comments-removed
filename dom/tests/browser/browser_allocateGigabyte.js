@@ -114,12 +114,12 @@ topic
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -142,7 +142,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -152,8 +152,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 aBrowser
 )
@@ -165,7 +165,7 @@ expectProcessCreated
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -187,10 +187,10 @@ TEST_URI
 }
 )
 ;
-yield
+await
 epc
 ;
-yield
+await
 ContentTask
 .
 spawn

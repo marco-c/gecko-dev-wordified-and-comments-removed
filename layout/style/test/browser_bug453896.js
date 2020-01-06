@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -19,7 +19,7 @@ bug453896_iframe
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -31,7 +31,6 @@ url
 uri
 }
 function
-*
 (
 browser
 )
@@ -43,8 +42,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {

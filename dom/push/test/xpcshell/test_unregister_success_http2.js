@@ -235,8 +235,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_pushUnsubscriptionSuccess
 (
 )
@@ -293,7 +293,7 @@ localhost
 +
 serverPort
 ;
-yield
+await
 db
 .
 put
@@ -377,7 +377,7 @@ db
 }
 )
 ;
-yield
+await
 PushService
 .
 unregister
@@ -425,7 +425,7 @@ false
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -456,8 +456,8 @@ record
 ;
 add_task
 (
+async
 function
-*
 test_complete
 (
 )

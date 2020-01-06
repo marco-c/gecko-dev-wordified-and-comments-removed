@@ -71,8 +71,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_rollback
 (
 )
@@ -391,7 +391,7 @@ unregisterDone
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -445,7 +445,7 @@ failure
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 equal

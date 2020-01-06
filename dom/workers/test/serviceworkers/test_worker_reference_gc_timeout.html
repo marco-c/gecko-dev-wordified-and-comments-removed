@@ -288,8 +288,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_worker_ref_gc
 (
 )
@@ -297,7 +297,7 @@ test_worker_ref_gc
 let
 registration
 =
-yield
+await
 navigator
 .
 serviceWorker
@@ -422,7 +422,7 @@ event
 "
 )
 ;
-yield
+await
 registration
 .
 unregister
@@ -434,8 +434,8 @@ unregister
 ;
 add_task
 (
+async
 function
-*
 test_worker_ref_gc_ready_promise
 (
 )
@@ -559,7 +559,7 @@ res
 let
 registration
 =
-yield
+await
 navigator
 .
 serviceWorker
@@ -580,10 +580,10 @@ scope
 }
 )
 ;
-yield
+await
 wait_active
 ;
-yield
+await
 registration
 .
 unregister
@@ -595,13 +595,13 @@ unregister
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 popPrefEnv

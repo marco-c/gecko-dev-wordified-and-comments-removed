@@ -591,8 +591,8 @@ return
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -791,8 +791,8 @@ testFileAccess
 }
 )
 ;
+async
 function
-*
 createFileInHome
 (
 )
@@ -821,7 +821,7 @@ path
 let
 fileCreated
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -867,8 +867,8 @@ false
 ;
 }
 }
+async
 function
-*
 createTempFile
 (
 )
@@ -892,7 +892,7 @@ path
 let
 fileCreated
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -923,7 +923,7 @@ permitted
 let
 fileDeleted
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -952,8 +952,8 @@ permitted
 )
 ;
 }
+async
 function
-*
 testFileAccess
 (
 )
@@ -1970,7 +1970,7 @@ file
 let
 result
 =
-yield
+await
 ContentTask
 .
 spawn

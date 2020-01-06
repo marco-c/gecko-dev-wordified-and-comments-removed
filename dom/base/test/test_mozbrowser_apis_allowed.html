@@ -165,12 +165,12 @@ javascript
 >
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -210,8 +210,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -225,7 +225,7 @@ mozbrowser
 let
 frame
 =
-yield
+await
 loadFrame
 (
 {

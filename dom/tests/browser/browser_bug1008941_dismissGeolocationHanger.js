@@ -33,8 +33,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 testDismissHanger
 (
 )
@@ -72,7 +72,7 @@ popupshown
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -81,7 +81,7 @@ gBrowser
 TEST_URI
 )
 ;
-yield
+await
 promisePanelShown
 ;
 window
@@ -118,7 +118,7 @@ it
 let
 hasLocation
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -128,8 +128,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -166,7 +166,7 @@ shared
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

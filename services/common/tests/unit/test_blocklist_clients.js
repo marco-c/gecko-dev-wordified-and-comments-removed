@@ -389,8 +389,8 @@ collectionName
 )
 ;
 }
+async
 function
-*
 readJSON
 (
 filepath
@@ -399,7 +399,7 @@ filepath
 const
 binaryData
 =
-yield
+await
 OS
 .
 File
@@ -438,8 +438,8 @@ textData
 )
 ;
 }
+async
 function
-*
 clear_state
 (
 )
@@ -472,7 +472,7 @@ try
 {
 sqliteHandle
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -495,7 +495,7 @@ collectionName
 sqliteHandle
 )
 ;
-yield
+await
 collection
 .
 clear
@@ -505,7 +505,7 @@ clear
 }
 finally
 {
-yield
+await
 sqliteHandle
 .
 close
@@ -546,7 +546,7 @@ dirname
 dumpFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -893,8 +893,8 @@ stop
 }
 add_task
 (
+async
 function
-*
 test_records_obtained_from_server_are_stored_in_db
 (
 )
@@ -909,7 +909,7 @@ of
 gBlocklistClients
 )
 {
-yield
+await
 client
 .
 maybeSync
@@ -930,7 +930,7 @@ false
 const
 sqliteHandle
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -956,7 +956,7 @@ sqliteHandle
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -973,7 +973,7 @@ length
 1
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -991,8 +991,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_list_is_written_to_file_in_profile
 (
 )
@@ -1050,7 +1050,7 @@ exists
 false
 )
 ;
-yield
+await
 client
 .
 maybeSync
@@ -1081,7 +1081,7 @@ true
 const
 content
 =
-yield
+await
 readJSON
 (
 profFile
@@ -1120,8 +1120,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_current_server_time_is_saved_in_pref
 (
 )
@@ -1145,7 +1145,7 @@ now
 (
 )
 ;
-yield
+await
 client
 .
 maybeSync
@@ -1192,8 +1192,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_update_json_file_when_addons_has_changes
 (
 )
@@ -1209,7 +1209,7 @@ of
 gBlocklistClients
 )
 {
-yield
+await
 client
 .
 maybeSync
@@ -1283,7 +1283,7 @@ now
 (
 )
 ;
-yield
+await
 client
 .
 maybeSync
@@ -1303,7 +1303,7 @@ lastModifiedTime
 const
 content
 =
-yield
+await
 readJSON
 (
 profFile
@@ -1369,8 +1369,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_sends_reload_message_when_blocklist_has_changes
 (
 )
@@ -1388,7 +1388,7 @@ gBlocklistClients
 let
 received
 =
-yield
+await
 new
 Promise
 (
@@ -1473,8 +1473,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_telemetry_reports_up_to_date
 (
 )
@@ -1489,7 +1489,7 @@ of
 gBlocklistClients
 )
 {
-yield
+await
 client
 .
 maybeSync
@@ -1573,7 +1573,7 @@ client
 identifier
 )
 ;
-yield
+await
 client
 .
 maybeSync
@@ -1660,8 +1660,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_telemetry_if_sync_succeeds
 (
 )
@@ -1695,7 +1695,7 @@ client
 identifier
 )
 ;
-yield
+await
 client
 .
 maybeSync
@@ -1752,8 +1752,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_telemetry_reports_if_application_fails
 (
 )
@@ -1816,7 +1816,7 @@ boom
 ;
 try
 {
-yield
+await
 client
 .
 maybeSync
@@ -1885,8 +1885,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_telemetry_reports_if_sync_fails
 (
 )
@@ -1913,7 +1913,7 @@ now
 const
 sqliteHandle
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -1936,7 +1936,7 @@ collectionName
 sqliteHandle
 )
 ;
-yield
+await
 collection
 .
 db
@@ -1946,7 +1946,7 @@ saveLastModified
 9999
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -1965,7 +1965,7 @@ identifier
 ;
 try
 {
-yield
+await
 client
 .
 maybeSync
@@ -2023,8 +2023,8 @@ clear_state
 ;
 add_task
 (
+async
 function
-*
 test_telemetry_reports_unknown_errors
 (
 )
@@ -2087,7 +2087,7 @@ identifier
 ;
 try
 {
-yield
+await
 client
 .
 maybeSync

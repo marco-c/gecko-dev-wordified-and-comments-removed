@@ -62,8 +62,8 @@ sjs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -124,7 +124,7 @@ delay
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -136,7 +136,6 @@ url
 TEST_URI
 }
 function
-*
 (
 browser
 )

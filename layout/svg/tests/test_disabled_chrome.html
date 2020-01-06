@@ -194,8 +194,8 @@ javascript
 >
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -335,7 +335,7 @@ appendChild
 chromeIframeEl
 )
 ;
-yield
+await
 chromeLoadPromise
 ;
 const
@@ -416,7 +416,7 @@ appendChild
 iframeEl
 )
 ;
-yield
+await
 loadPromise
 ;
 const
@@ -601,7 +601,7 @@ appendChild
 iframeElScript
 )
 ;
-yield
+await
 loadPromiseScript
 ;
 ok

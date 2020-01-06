@@ -35,8 +35,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -55,7 +55,7 @@ pref
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -90,8 +90,7 @@ webLargeAllocation
 }
 )
 ;
-yield
-*
+await
 largeAllocSuccessTests
 (
 )

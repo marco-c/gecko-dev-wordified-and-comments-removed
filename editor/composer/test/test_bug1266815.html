@@ -373,8 +373,8 @@ mockHelperAppService
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -485,7 +485,7 @@ iframe
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -568,7 +568,7 @@ stream
 TESTCONTENT
 "
 ;
-yield
+await
 helperAppDlgPromise
 ;
 ok

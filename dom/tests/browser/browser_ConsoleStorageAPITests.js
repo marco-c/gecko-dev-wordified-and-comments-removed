@@ -44,12 +44,12 @@ removeCurrentTab
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -129,8 +129,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 opt
 )
@@ -384,7 +384,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -488,10 +488,10 @@ observerPromise
 let
 windowId
 =
-yield
+await
 observerPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -551,7 +551,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -572,7 +572,7 @@ resolve
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 runTests
 (
 )
@@ -9,7 +9,7 @@ runTests
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -25,7 +25,6 @@ about
 registerCleanupFunction
 (
 function
-*
 (
 )
 {
@@ -60,7 +59,7 @@ accounts
 let
 href
 =
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -119,7 +118,7 @@ body
 ;
 href
 =
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -172,7 +171,7 @@ goBack
 ;
 href
 =
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -210,7 +209,7 @@ goForward
 ;
 href
 =
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

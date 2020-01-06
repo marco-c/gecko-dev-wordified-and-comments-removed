@@ -465,8 +465,8 @@ whitelist
 let
 testFontWhitelist
 =
+async
 function
-*
 (
 useMono
 useSans
@@ -524,7 +524,7 @@ serif
 )
 ;
 }
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -767,8 +767,8 @@ combination
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -805,7 +805,7 @@ true
 ]
 )
 {
-yield
+await
 testFontWhitelist
 (
 useMono

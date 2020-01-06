@@ -14,12 +14,8 @@ timelineTest
 )
 ;
 return
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -36,7 +32,7 @@ waitForExplicitFinish
 (
 )
 ;
-yield
+await
 timelineTestOpenUrl
 (
 url
@@ -190,7 +186,6 @@ finish
 )
 ;
 }
-)
 ;
 }
 function

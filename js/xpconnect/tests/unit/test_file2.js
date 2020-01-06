@@ -20,8 +20,8 @@ interfaces
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -76,7 +76,7 @@ ini
 var
 f1
 =
-yield
+await
 File
 .
 createFromFileName
@@ -89,7 +89,7 @@ path
 var
 f2
 =
-yield
+await
 File
 .
 createFromNsIFile
@@ -328,7 +328,7 @@ nsIFile
 var
 f7
 =
-yield
+await
 File
 .
 createFromNsIFile

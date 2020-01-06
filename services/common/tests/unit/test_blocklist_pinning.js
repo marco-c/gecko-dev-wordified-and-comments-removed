@@ -296,8 +296,8 @@ collectionName
 }
 add_task
 (
+async
 function
-*
 test_something
 (
 )
@@ -747,7 +747,7 @@ com
 )
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -763,7 +763,7 @@ now
 let
 connection
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -787,7 +787,7 @@ COLLECTION_NAME
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -835,7 +835,7 @@ com
 )
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -858,7 +858,7 @@ COLLECTION_NAME
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -875,7 +875,7 @@ length
 5
 )
 ;
-yield
+await
 connection
 .
 close
@@ -991,7 +991,7 @@ server
 "
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1004,7 +1004,7 @@ now
 )
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1035,7 +1035,7 @@ checked
 0
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync
@@ -1169,7 +1169,7 @@ primaryPort
 v1
 )
 ;
-yield
+await
 PinningPreloadClient
 .
 maybeSync

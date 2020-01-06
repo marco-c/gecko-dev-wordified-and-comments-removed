@@ -52,8 +52,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notification_error
 (
 )
@@ -285,7 +285,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -516,7 +516,7 @@ ackDone
 }
 )
 ;
-yield
+await
 notifyPromise
 ;
 ok
@@ -573,13 +573,13 @@ C
 '
 )
 ;
-yield
+await
 ackPromise
 ;
 let
 aRecord
 =
-yield
+await
 db
 .
 getByIdentifiers
@@ -651,7 +651,7 @@ A
 let
 bRecord
 =
-yield
+await
 db
 .
 getByIdentifiers
@@ -723,7 +723,7 @@ B
 let
 cRecord
 =
-yield
+await
 db
 .
 getByIdentifiers

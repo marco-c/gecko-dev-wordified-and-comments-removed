@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -9,7 +9,7 @@ test
 let
 testTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -22,7 +22,7 @@ addons
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -31,8 +31,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -113,7 +113,7 @@ firstChild
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -155,7 +155,7 @@ true
 ;
 try
 {
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -178,7 +178,7 @@ mouseover
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -201,7 +201,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -235,7 +235,7 @@ false
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -243,7 +243,7 @@ removeTab
 testTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -151,12 +151,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -232,7 +232,7 @@ yet
 )
 ;
 }
-yield
+await
 new
 Promise
 (
@@ -357,7 +357,7 @@ have
 access
 however
 .
-yield
+await
 new
 Promise
 (

@@ -322,8 +322,8 @@ browser
 frameDepth
 command
 }
+async
 function
-*
 (
 args
 )
@@ -647,7 +647,7 @@ if
 destroyedOuterWindows
 )
 {
-yield
+await
 TestUtils
 .
 topicObserved
@@ -734,7 +734,7 @@ if
 destroyedOuterWindows
 )
 {
-yield
+await
 TestUtils
 .
 topicObserved
@@ -771,8 +771,8 @@ break
 )
 ;
 }
+async
 function
-*
 prepareSubframes
 (
 browser
@@ -785,7 +785,7 @@ reload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -793,7 +793,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -803,8 +803,8 @@ browser
 options
 PAGE_URL
 }
+async
 function
-*
 (
 args
 )
@@ -943,7 +943,7 @@ allSubframeOptions
 {
 currentDoc
 =
-yield
+await
 loadBeforeUnloadHelper
 (
 currentDoc
@@ -979,13 +979,13 @@ expected
 }
 add_task
 (
+async
 function
-*
 test_inner_window_scenarios
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -996,8 +996,8 @@ url
 :
 PAGE_URL
 }
+async
 function
-*
 (
 browser
 )
@@ -1030,7 +1030,7 @@ browser
 false
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1042,7 +1042,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1054,7 +1054,7 @@ browser
 false
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1067,7 +1067,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1079,7 +1079,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1091,7 +1091,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1103,14 +1103,14 @@ browser
 false
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
 5
 )
 ;
-yield
+await
 navigateSubframe
 (
 browser
@@ -1138,7 +1138,7 @@ loadURI
 PAGE_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1146,7 +1146,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1185,7 +1185,7 @@ browser
 false
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1199,7 +1199,7 @@ browser
 true
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1213,7 +1213,7 @@ browser
 true
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1227,7 +1227,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1241,7 +1241,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1255,7 +1255,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1269,7 +1269,7 @@ browser
 false
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1283,7 +1283,7 @@ browser
 true
 )
 ;
-yield
+await
 navigateSubframe
 (
 browser
@@ -1305,7 +1305,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1323,7 +1323,7 @@ null
 ]
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1331,7 +1331,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1345,7 +1345,7 @@ browser
 true
 )
 ;
-yield
+await
 navigateSubframe
 (
 browser
@@ -1367,7 +1367,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1385,7 +1385,7 @@ null
 ]
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1393,7 +1393,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1407,7 +1407,7 @@ browser
 true
 )
 ;
-yield
+await
 removeSubframeFrom
 (
 browser
@@ -1420,7 +1420,7 @@ browser
 true
 )
 ;
-yield
+await
 removeSubframeFrom
 (
 browser
@@ -1433,7 +1433,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1451,7 +1451,7 @@ null
 ]
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1459,7 +1459,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1473,7 +1473,7 @@ browser
 true
 )
 ;
-yield
+await
 removeSubframeFrom
 (
 browser
@@ -1486,7 +1486,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1512,7 +1512,7 @@ scripts
 ]
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1520,7 +1520,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1534,7 +1534,7 @@ browser
 false
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1542,7 +1542,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1556,7 +1556,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1588,7 +1588,7 @@ modals
 ]
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1596,7 +1596,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -1610,7 +1610,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1624,7 +1624,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -1646,13 +1646,13 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_outer_window_scenarios
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1663,8 +1663,8 @@ url
 :
 PAGE_URL
 }
+async
 function
-*
 (
 browser
 )
@@ -1697,7 +1697,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1730,7 +1730,7 @@ BOTTOM
 =
 2
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -1742,7 +1742,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -1754,7 +1754,7 @@ browser
 false
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -1767,7 +1767,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -1779,7 +1779,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -1791,7 +1791,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -1803,14 +1803,14 @@ browser
 false
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
 5
 )
 ;
-yield
+await
 navigateSubframe
 (
 browser
@@ -1839,7 +1839,7 @@ loadURI
 PAGE_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1853,7 +1853,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1871,7 +1871,7 @@ null
 ]
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -1885,7 +1885,7 @@ browser
 true
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -1899,7 +1899,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -1913,7 +1913,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -1927,7 +1927,7 @@ browser
 false
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -1941,7 +1941,7 @@ browser
 true
 )
 ;
-yield
+await
 navigateSubframe
 (
 browser
@@ -1963,7 +1963,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -1981,7 +1981,7 @@ null
 ]
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -1989,7 +1989,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2003,7 +2003,7 @@ browser
 true
 )
 ;
-yield
+await
 navigateSubframe
 (
 browser
@@ -2025,7 +2025,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -2043,7 +2043,7 @@ null
 ]
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2051,7 +2051,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2065,7 +2065,7 @@ browser
 true
 )
 ;
-yield
+await
 removeSubframeFrom
 (
 browser
@@ -2078,7 +2078,7 @@ browser
 true
 )
 ;
-yield
+await
 removeSubframeFrom
 (
 browser
@@ -2091,7 +2091,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -2109,7 +2109,7 @@ null
 ]
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2117,7 +2117,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2131,7 +2131,7 @@ browser
 true
 )
 ;
-yield
+await
 removeSubframeFrom
 (
 browser
@@ -2144,7 +2144,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -2180,7 +2180,7 @@ scripts
 ]
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2188,7 +2188,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2202,7 +2202,7 @@ browser
 false
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -2210,7 +2210,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -2224,7 +2224,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -2266,7 +2266,7 @@ modals
 ]
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2274,7 +2274,7 @@ browser
 MIDDLE
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2288,7 +2288,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -2302,7 +2302,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -2324,13 +2324,13 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_mixed_inner_and_outer_window_scenarios
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -2341,8 +2341,8 @@ url
 :
 PAGE_URL
 }
+async
 function
-*
 (
 browser
 )
@@ -2375,7 +2375,7 @@ browser
 false
 )
 ;
-yield
+await
 prepareSubframes
 (
 browser
@@ -2408,7 +2408,7 @@ BOTTOM
 =
 2
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -2422,7 +2422,7 @@ browser
 true
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -2436,7 +2436,7 @@ browser
 true
 )
 ;
-yield
+await
 addBeforeUnloadListeners
 (
 browser
@@ -2450,7 +2450,7 @@ browser
 true
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2464,7 +2464,7 @@ browser
 true
 )
 ;
-yield
+await
 addOuterBeforeUnloadListeners
 (
 browser
@@ -2478,7 +2478,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -2492,7 +2492,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -2506,7 +2506,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser
@@ -2520,7 +2520,7 @@ browser
 true
 )
 ;
-yield
+await
 removeBeforeUnloadListeners
 (
 browser
@@ -2534,7 +2534,7 @@ browser
 true
 )
 ;
-yield
+await
 removeOuterBeforeUnloadListeners
 (
 browser

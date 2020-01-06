@@ -220,12 +220,9 @@ test
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -291,7 +288,7 @@ Worker
 WORKER_URL
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -315,7 +312,7 @@ running
 "
 )
 ;
-yield
+await
 waitForMultiple
 (
 [
@@ -361,6 +358,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

@@ -220,12 +220,9 @@ test
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -297,7 +294,7 @@ dbg
 childDbg
 ]
 =
-yield
+await
 promise
 ;
 info
@@ -348,7 +345,7 @@ ping
 "
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -400,7 +397,7 @@ ping
 "
 )
 ;
-yield
+await
 promise
 ;
 SimpleTest
@@ -410,6 +407,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

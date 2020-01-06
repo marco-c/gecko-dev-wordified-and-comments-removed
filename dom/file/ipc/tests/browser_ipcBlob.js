@@ -62,8 +62,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_CtoPtoC_big
 (
 )
@@ -71,7 +71,7 @@ test_CtoPtoC_big
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -93,7 +93,7 @@ tab1
 let
 blob
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -185,7 +185,7 @@ matches
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -207,7 +207,7 @@ tab2
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -296,7 +296,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -304,7 +304,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -317,8 +317,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 test_CtoPtoC_small
 (
 )
@@ -326,7 +326,7 @@ test_CtoPtoC_small
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -348,7 +348,7 @@ tab1
 let
 blob
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -422,7 +422,7 @@ matches
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -444,7 +444,7 @@ tab2
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -524,7 +524,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -532,7 +532,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -545,8 +545,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 test_CtoPtoC_bc_big
 (
 )
@@ -554,7 +554,7 @@ test_CtoPtoC_bc_big
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -573,7 +573,7 @@ getBrowserForTab
 tab1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -638,7 +638,7 @@ join
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -660,7 +660,7 @@ tab2
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -785,7 +785,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -793,7 +793,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -806,8 +806,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 test_CtoPtoC_bc_small
 (
 )
@@ -815,7 +815,7 @@ test_CtoPtoC_bc_small
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -834,7 +834,7 @@ getBrowserForTab
 tab1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -890,7 +890,7 @@ world
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -912,7 +912,7 @@ tab2
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1028,7 +1028,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1036,7 +1036,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1049,8 +1049,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 test_CtoPtoC_bc_small
 (
 )
@@ -1058,7 +1058,7 @@ test_CtoPtoC_bc_small
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1080,7 +1080,7 @@ tab1
 let
 blobURL
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1119,7 +1119,7 @@ world
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1141,7 +1141,7 @@ tab2
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1230,7 +1230,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1238,7 +1238,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1251,8 +1251,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 test_CtoPtoC_multipart
 (
 )
@@ -1260,7 +1260,7 @@ test_CtoPtoC_multipart
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1282,7 +1282,7 @@ tab1
 let
 blob
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1361,7 +1361,7 @@ blob
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1383,7 +1383,7 @@ tab2
 let
 status
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1472,7 +1472,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1480,7 +1480,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

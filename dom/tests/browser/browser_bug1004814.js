@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -15,8 +15,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 aBrowser
 )
@@ -24,7 +24,7 @@ aBrowser
 let
 duration
 =
-yield
+await
 ContentTask
 .
 spawn

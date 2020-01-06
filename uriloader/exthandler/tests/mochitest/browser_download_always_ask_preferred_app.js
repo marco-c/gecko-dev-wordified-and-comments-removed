@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,8 +16,7 @@ false
 let
 dlg
 =
-yield
-*
+await
 openHelperAppDialog
 (
 launcher
@@ -74,7 +73,7 @@ populated
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForAttribute
@@ -161,7 +160,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 helperAppDialogHiddenPromise
 ;
 }

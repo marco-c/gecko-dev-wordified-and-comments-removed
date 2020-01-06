@@ -197,8 +197,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test1
 (
 )
@@ -315,7 +315,7 @@ systemRecord
 true
 }
 ;
-yield
+await
 db
 .
 put
@@ -354,13 +354,13 @@ db
 }
 )
 ;
-yield
+await
 notifyPromise
 ;
 let
 aRecord
 =
-yield
+await
 db
 .
 getByKeyID

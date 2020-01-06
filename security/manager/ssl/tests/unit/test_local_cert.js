@@ -187,8 +187,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -203,7 +203,7 @@ loginPromptRequired
 let
 certA
 =
-yield
+await
 getOrCreateCert
 (
 gNickname
@@ -220,7 +220,7 @@ gNickname
 let
 certB
 =
-yield
+await
 getOrCreateCert
 (
 gNickname
@@ -266,7 +266,7 @@ USER_CERT
 let
 diffNameCert
 =
-yield
+await
 getOrCreateCert
 (
 "
@@ -287,7 +287,7 @@ certA
 )
 )
 ;
-yield
+await
 removeCert
 (
 gNickname
@@ -296,7 +296,7 @@ gNickname
 let
 newCert
 =
-yield
+await
 getOrCreateCert
 (
 gNickname
@@ -345,7 +345,7 @@ forceCC
 let
 certAfterGC
 =
-yield
+await
 getOrCreateCert
 (
 gNickname

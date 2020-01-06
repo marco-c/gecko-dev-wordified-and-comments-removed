@@ -131,8 +131,8 @@ jsm
 "
 )
 ;
+async
 function
-*
 runTest
 (
 url
@@ -340,7 +340,7 @@ fire
 let
 doc
 =
-yield
+await
 promise
 ;
 let
@@ -422,7 +422,7 @@ run
 "
 )
 ;
-yield
+await
 blockerPromise
 ;
 /
@@ -492,7 +492,7 @@ run
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -568,12 +568,12 @@ remove
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 runTest
 (
 "
@@ -701,7 +701,7 @@ html
 '
 )
 ;
-yield
+await
 runTest
 (
 "
@@ -855,7 +855,7 @@ html
 '
 )
 ;
-yield
+await
 runTest
 (
 "
@@ -984,7 +984,7 @@ html
 '
 )
 ;
-yield
+await
 runTest
 (
 "
@@ -1144,8 +1144,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_cleanup
 (
 )
@@ -1383,7 +1383,7 @@ appendChild
 iframe
 )
 ;
-yield
+await
 insertedPromise
 ;
 /
@@ -1467,7 +1467,7 @@ let
 data
 ]
 =
-yield
+await
 destroyedPromise
 ;
 is

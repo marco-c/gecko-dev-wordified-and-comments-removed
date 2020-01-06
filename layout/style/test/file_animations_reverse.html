@@ -269,8 +269,8 @@ SpecialPowers
 ;
 addAsyncAnimTest
 (
+async
 function
-*
 (
 )
 {
@@ -311,7 +311,7 @@ initially
 running
 on
 compositor
-yield
+await
 waitForPaintsFlushed
 (
 )
@@ -374,7 +374,7 @@ not
 have
 changed
 .
-yield
+await
 waitForPaints
 (
 )

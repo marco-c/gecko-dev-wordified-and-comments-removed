@@ -38,8 +38,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_unknown_status_is_not_reported
 (
 )
@@ -99,8 +99,8 @@ expectedIncrements
 ;
 add_task
 (
+async
 function
-*
 test_each_status_can_be_caught_in_snapshot
 (
 )

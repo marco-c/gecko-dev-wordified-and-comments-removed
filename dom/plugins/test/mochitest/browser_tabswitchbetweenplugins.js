@@ -38,8 +38,8 @@ http
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -72,7 +72,7 @@ selectedTab
 let
 pluginTab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -90,7 +90,7 @@ html
 let
 pluginTab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -107,7 +107,7 @@ html
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -116,8 +116,8 @@ pluginTab1
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -161,7 +161,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -170,8 +170,8 @@ pluginTab2
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -231,7 +231,7 @@ selected
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -240,8 +240,8 @@ pluginTab1
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -292,7 +292,7 @@ hidden
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -301,8 +301,8 @@ pluginTab2
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -363,12 +363,12 @@ selectedTab
 =
 pluginTab1
 ;
-yield
+await
 tabSwitchedPromise
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -377,8 +377,8 @@ pluginTab1
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -429,7 +429,7 @@ visible
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -438,8 +438,8 @@ pluginTab2
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -500,12 +500,12 @@ selectedTab
 =
 pluginTab2
 ;
-yield
+await
 tabSwitchedPromise
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -514,8 +514,8 @@ pluginTab1
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -566,7 +566,7 @@ hidden
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -575,8 +575,8 @@ pluginTab2
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -637,12 +637,12 @@ selectedTab
 =
 testTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -651,8 +651,8 @@ pluginTab1
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -703,7 +703,7 @@ hidden
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -712,8 +712,8 @@ pluginTab2
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

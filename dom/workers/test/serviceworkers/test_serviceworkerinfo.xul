@@ -313,12 +313,9 @@ function
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -365,7 +362,7 @@ src
 =
 IFRAME_URL
 ;
-yield
+await
 promise
 ;
 info
@@ -419,7 +416,7 @@ let
 registration
 ]
 =
-yield
+await
 promise
 ;
 /
@@ -433,7 +430,7 @@ active
 .
 registration
 =
-yield
+await
 wait_for_active_worker
 (
 registration
@@ -652,7 +649,7 @@ detachDebugger
 (
 )
 ;
-yield
+await
 promise
 ;
 ok
@@ -689,7 +686,7 @@ unregister
 ;
 registration
 =
-yield
+await
 promise
 ;
 SimpleTest
@@ -699,6 +696,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

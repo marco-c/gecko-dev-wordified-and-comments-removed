@@ -240,12 +240,8 @@ toString
 var
 checkProcess
 =
-Task
-.
 async
-(
 function
-*
 (
 mm
 )
@@ -255,7 +251,7 @@ let
 target
 }
 =
-yield
+await
 promiseMessage
 (
 mm
@@ -277,7 +273,7 @@ Reply
 "
 )
 ;
-yield
+await
 promiseMessage
 (
 target
@@ -299,7 +295,6 @@ finished
 )
 ;
 }
-)
 ;
 function
 promiseMessage
@@ -353,12 +348,12 @@ listener
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -389,8 +384,8 @@ false
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -407,7 +402,7 @@ releaseCachedProcesses
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -431,7 +426,7 @@ processCount
 ]
 }
 )
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -484,7 +479,7 @@ tabs
 i
 ]
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -514,7 +509,7 @@ i
 +
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -556,8 +551,8 @@ point
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -607,7 +602,7 @@ processScriptURL
 false
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -620,8 +615,8 @@ checks
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -662,7 +657,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -746,7 +741,7 @@ processScriptURL
 true
 )
 ;
-yield
+await
 check
 ;
 check
@@ -779,7 +774,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -808,7 +803,7 @@ point
 "
 )
 ;
-yield
+await
 check
 ;
 ppmm
@@ -841,7 +836,7 @@ false
 let
 msg
 =
-yield
+await
 promiseMessage
 (
 childMM

@@ -223,8 +223,8 @@ chrome
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -248,8 +248,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -292,7 +292,7 @@ addTab
 gBrowser
 )
 ;
-yield
+await
 promiseTabLoad
 (
 pluginTab
@@ -305,7 +305,7 @@ html
 "
 )
 ;
-yield
+await
 promiseTabLoad
 (
 prefTab
@@ -316,7 +316,7 @@ preferences
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -325,8 +325,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -383,7 +383,7 @@ selectedTab
 =
 prefTab
 ;
-yield
+await
 ppromise
 ;
 let
@@ -518,10 +518,10 @@ childNodes
 window
 )
 ;
-yield
+await
 ppromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -530,8 +530,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -603,10 +603,10 @@ childNodes
 window
 )
 ;
-yield
+await
 ppromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -615,8 +615,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

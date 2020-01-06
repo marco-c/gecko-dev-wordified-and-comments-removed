@@ -70,8 +70,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_timeout
 (
 )
@@ -373,7 +373,7 @@ registers
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -429,7 +429,7 @@ timeout
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -454,7 +454,7 @@ responses
 '
 )
 ;
-yield
+await
 timeoutPromise
 ;
 equal

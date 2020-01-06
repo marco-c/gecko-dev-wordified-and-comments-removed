@@ -51,8 +51,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -206,7 +206,7 @@ appFile
 )
 ;
 }
-yield
+await
 Promise
 .
 all

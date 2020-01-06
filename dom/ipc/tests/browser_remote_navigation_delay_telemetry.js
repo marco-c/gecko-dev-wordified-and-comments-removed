@@ -29,8 +29,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_memory_distribution
 (
 )
@@ -76,7 +76,7 @@ disabled
 return
 ;
 }
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -156,7 +156,7 @@ clear
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -196,7 +196,7 @@ browser
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -232,7 +232,7 @@ browser
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -273,7 +273,7 @@ now
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -438,7 +438,7 @@ clear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -446,7 +446,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

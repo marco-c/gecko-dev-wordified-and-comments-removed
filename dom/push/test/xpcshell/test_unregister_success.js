@@ -67,8 +67,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_unregister_success
 (
 )
@@ -111,7 +111,7 @@ close
 }
 )
 ;
-yield
+await
 db
 .
 put
@@ -324,7 +324,7 @@ PushServiceComponent
 subscriptionModifiedTopic
 )
 ;
-yield
+await
 PushService
 .
 unregister
@@ -361,7 +361,7 @@ data
 subModifiedScope
 }
 =
-yield
+await
 subModifiedPromise
 ;
 equal
@@ -397,7 +397,7 @@ unsubscribing
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -418,7 +418,7 @@ record
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 }

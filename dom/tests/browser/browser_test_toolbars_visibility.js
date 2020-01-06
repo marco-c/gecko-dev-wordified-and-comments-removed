@@ -58,8 +58,8 @@ spawn
 aBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -466,12 +466,12 @@ no
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -482,8 +482,8 @@ url
 :
 CONTENT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -498,7 +498,7 @@ waitForNewTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -515,13 +515,13 @@ browser
 let
 tab
 =
-yield
+await
 newTabPromise
 ;
 let
 toolbars
 =
-yield
+await
 getToolbarsFromBrowserContent
 (
 gBrowser
@@ -534,7 +534,7 @@ testDefaultToolbars
 toolbars
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -551,7 +551,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -568,7 +568,7 @@ browser
 let
 popupWindow
 =
-yield
+await
 winPromise
 ;
 let
@@ -580,7 +580,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -591,7 +591,7 @@ popupBrowser
 let
 popupToolbars
 =
-yield
+await
 getToolbarsFromBrowserContent
 (
 popupBrowser
@@ -615,7 +615,7 @@ testNonDefaultContentToolbars
 chromeToolbars
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -631,12 +631,12 @@ popupWindow
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -647,8 +647,8 @@ url
 :
 CONTENT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -662,7 +662,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -679,7 +679,7 @@ browser
 let
 popupWindow
 =
-yield
+await
 winPromise
 ;
 let
@@ -694,7 +694,7 @@ selectedBrowser
 let
 popupToolbars
 =
-yield
+await
 getToolbarsFromBrowserContent
 (
 popupBrowser
@@ -718,7 +718,7 @@ testNonDefaultContentToolbars
 chromeToolbars
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -734,8 +734,8 @@ popupWindow
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -761,7 +761,7 @@ _blank
 let
 defaultWindow
 =
-yield
+await
 defaultWindowPromise
 ;
 let
@@ -824,7 +824,7 @@ features
 let
 popupWindow
 =
-yield
+await
 popupWindowPromise
 ;
 let
@@ -840,7 +840,7 @@ testNonDefaultChromeToolbars
 hiddenToolbars
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -848,7 +848,7 @@ closeWindow
 defaultWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

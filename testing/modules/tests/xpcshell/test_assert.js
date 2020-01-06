@@ -2322,8 +2322,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_rejects
 (
 )
@@ -2366,8 +2366,8 @@ Assert
 (
 )
 ;
+async
 function
-*
 checkRejectsFails
 (
 err
@@ -2376,7 +2376,7 @@ expected
 {
 try
 {
-yield
+await
 assert
 .
 rejects
@@ -2433,7 +2433,7 @@ function
 {
 }
 ;
-yield
+await
 assert
 .
 rejects
@@ -2453,7 +2453,7 @@ no
 )
 )
 ;
-yield
+await
 assert
 .
 rejects
@@ -2469,7 +2469,7 @@ no
 )
 )
 ;
-yield
+await
 assert
 .
 rejects
@@ -2493,7 +2493,7 @@ rejected
 "
 )
 ;
-yield
+await
 assert
 .
 rejects
@@ -2520,7 +2520,7 @@ rejected
 "
 )
 ;
-yield
+await
 checkRejectsFails
 (
 new
@@ -2534,7 +2534,7 @@ else
 SomeErrorLikeThing
 )
 ;
-yield
+await
 checkRejectsFails
 (
 new
@@ -2551,7 +2551,7 @@ no
 /
 )
 ;
-yield
+await
 assert
 .
 rejects
@@ -2574,7 +2574,7 @@ rejected
 "
 )
 ;
-yield
+await
 checkRejectsFails
 (
 "

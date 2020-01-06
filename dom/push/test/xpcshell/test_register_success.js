@@ -71,8 +71,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_success
 (
 )
@@ -318,7 +318,7 @@ subscriptionModifiedTopic
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -394,7 +394,7 @@ data
 subModifiedScope
 }
 =
-yield
+await
 subModifiedPromise
 ;
 equal
@@ -426,7 +426,7 @@ subscribing
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID

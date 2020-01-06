@@ -142,8 +142,8 @@ h
 ;
 add_task
 (
+async
 function
-*
 test_onepw_setup_credentials
 (
 )
@@ -352,8 +352,8 @@ unwrapKey
 ;
 add_task
 (
+async
 function
-*
 test_client_stretch_kdf
 (
 )
@@ -451,7 +451,7 @@ hkdfLength
 let
 results
 =
-yield
+await
 Credentials
 .
 setup

@@ -35,8 +35,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -56,7 +56,7 @@ header
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -101,8 +101,7 @@ webLargeAllocation
 }
 )
 ;
-yield
-*
+await
 largeAllocSuccessTests
 (
 )
@@ -112,8 +111,8 @@ largeAllocSuccessTests
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -134,7 +133,7 @@ header
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -179,8 +178,7 @@ webLargeAllocation
 }
 )
 ;
-yield
-*
+await
 largeAllocFailTests
 (
 )

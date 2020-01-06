@@ -30,8 +30,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ loadURI
 testURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -86,7 +86,7 @@ getNotificationWithValue
 notificationValue
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -378,7 +378,7 @@ gBrowser
 expectedURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -395,7 +395,7 @@ browser
 let
 tab
 =
-yield
+await
 promiseTabOpened
 ;
 gBrowser
@@ -423,7 +423,7 @@ bar
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -440,7 +440,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -457,10 +457,10 @@ browser
 let
 win
 =
-yield
+await
 newWindowPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -472,7 +472,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -514,7 +514,7 @@ bar
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -532,7 +532,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -543,10 +543,10 @@ link
 browser
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition

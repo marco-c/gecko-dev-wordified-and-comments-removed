@@ -207,12 +207,9 @@ test
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -243,7 +240,7 @@ WORKER_URL
 let
 dbg
 =
-yield
+await
 promise
 ;
 info
@@ -291,7 +288,7 @@ resolve
 "
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -339,7 +336,7 @@ resolve
 "
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -389,7 +386,7 @@ pause
 "
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -451,7 +448,7 @@ resume
 "
 )
 ;
-yield
+await
 promise
 ;
 SimpleTest
@@ -461,6 +458,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

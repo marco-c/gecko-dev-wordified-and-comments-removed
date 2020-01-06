@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -113,7 +113,7 @@ testingList
 uri
 )
 ;
-yield
+await
 loadedPromise
 ;
 for
@@ -137,7 +137,7 @@ i
 let
 tagName
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -151,8 +151,8 @@ i
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -246,7 +246,7 @@ i
 +
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab

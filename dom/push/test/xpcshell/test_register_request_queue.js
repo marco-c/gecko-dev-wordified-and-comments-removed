@@ -40,8 +40,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_request_queue
 (
 )
@@ -296,7 +296,7 @@ false
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -329,7 +329,7 @@ request
 ]
 )
 ;
-yield
+await
 helloPromise
 ;
 }

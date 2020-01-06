@@ -51,8 +51,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notifyWithData
 (
 )
@@ -126,7 +126,7 @@ let
 data
 =
 (
-yield
+await
 notifyPromise
 )
 .
@@ -206,8 +206,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 test_empty_notifyWithData
 (
 )
@@ -246,7 +246,7 @@ let
 data
 =
 (
-yield
+await
 notifyPromise
 )
 .

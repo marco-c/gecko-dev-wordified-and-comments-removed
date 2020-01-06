@@ -329,8 +329,8 @@ nsICertificateDialogs
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -347,7 +347,7 @@ testCase
 .
 cert
 =
-yield
+await
 readCertificate
 (
 testCase
@@ -420,8 +420,8 @@ certificateDialogsCID
 ;
 add_task
 (
+async
 function
-*
 testTrustHeaderAndViewCertButton
 (
 )
@@ -439,7 +439,7 @@ let
 win
 ]
 =
-yield
+await
 openCertDownloadDialog
 (
 testCase
@@ -571,7 +571,7 @@ once
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -585,8 +585,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testAcceptDialogReturnValues
 (
 )
@@ -597,7 +597,7 @@ win
 retVals
 ]
 =
-yield
+await
 openCertDownloadDialog
 (
 TEST_CASES
@@ -676,7 +676,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed
@@ -794,8 +794,8 @@ checked
 ;
 add_task
 (
+async
 function
-*
 testCancelDialogReturnValues
 (
 )
@@ -806,7 +806,7 @@ win
 retVals
 ]
 =
-yield
+await
 openCertDownloadDialog
 (
 TEST_CASES
@@ -840,7 +840,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed

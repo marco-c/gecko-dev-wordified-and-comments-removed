@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -140,7 +140,7 @@ uri
 let
 loadedURI
 =
-yield
+await
 eventPromise
 ;
 is

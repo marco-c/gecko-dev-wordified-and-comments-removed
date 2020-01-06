@@ -775,8 +775,8 @@ DEVICE_REGISTRATION_VERSION
 }
 add_task
 (
+async
 function
-*
 test_updateDeviceRegistration_with_new_device
 (
 )
@@ -823,7 +823,7 @@ deviceName
 }
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -1023,7 +1023,7 @@ resolve
 const
 result
 =
-yield
+await
 fxa
 .
 updateDeviceRegistration
@@ -1215,7 +1215,7 @@ currentAccountState
 const
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -1249,8 +1249,8 @@ DEVICE_REGISTRATION_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_updateDeviceRegistration_with_existing_device
 (
 )
@@ -1288,7 +1288,7 @@ deviceName
 }
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -1474,7 +1474,7 @@ resolve
 const
 result
 =
-yield
+await
 fxa
 .
 updateDeviceRegistration
@@ -1662,7 +1662,7 @@ currentAccountState
 const
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -1692,8 +1692,8 @@ DEVICE_REGISTRATION_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_updateDeviceRegistration_with_unknown_device_error
 (
 )
@@ -1735,7 +1735,7 @@ deviceName
 }
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -1943,7 +1943,7 @@ resolve
 const
 result
 =
-yield
+await
 fxa
 .
 updateDeviceRegistration
@@ -2128,7 +2128,7 @@ currentAccountState
 const
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -2155,8 +2155,8 @@ DEVICE_REGISTRATION_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_deleteDeviceRegistration
 (
 )
@@ -2187,7 +2187,7 @@ device
 }
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -2209,7 +2209,7 @@ currentAccountState
 let
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -2299,7 +2299,7 @@ resolve
 ;
 }
 ;
-yield
+await
 fxa
 .
 deleteDeviceRegistration
@@ -2375,7 +2375,7 @@ deviceId
 ;
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -2401,8 +2401,8 @@ deviceRegistrationVersion
 ;
 add_task
 (
+async
 function
-*
 test_updateDeviceRegistration_with_device_session_conflict_error
 (
 )
@@ -2444,7 +2444,7 @@ deviceName
 }
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -2723,7 +2723,7 @@ true
 const
 result
 =
-yield
+await
 fxa
 .
 updateDeviceRegistration
@@ -2960,7 +2960,7 @@ currentAccountState
 const
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -2990,8 +2990,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_updateDeviceRegistration_with_unrecoverable_error
 (
 )
@@ -3031,7 +3031,7 @@ deviceName
 }
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -3215,7 +3215,7 @@ resolve
 const
 result
 =
-yield
+await
 fxa
 .
 updateDeviceRegistration
@@ -3284,7 +3284,7 @@ currentAccountState
 const
 data
 =
-yield
+await
 state
 .
 getUserAccountData
@@ -3303,8 +3303,8 @@ deviceId
 ;
 add_task
 (
+async
 function
-*
 test_getDeviceId_with_no_device_id_invokes_device_registration
 (
 )
@@ -3338,7 +3338,7 @@ MockFxAccounts
 (
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -3430,7 +3430,7 @@ bar
 const
 result
 =
-yield
+await
 fxa
 .
 internal
@@ -3506,8 +3506,8 @@ bar
 ;
 add_task
 (
+async
 function
-*
 test_getDeviceId_with_registration_version_outdated_invokes_device_registration
 (
 )
@@ -3536,7 +3536,7 @@ MockFxAccounts
 (
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -3628,7 +3628,7 @@ wibble
 const
 result
 =
-yield
+await
 fxa
 .
 internal
@@ -3689,8 +3689,8 @@ wibble
 ;
 add_task
 (
+async
 function
-*
 test_getDeviceId_with_device_id_and_uptodate_registration_version_doesnt_invoke_device_registration
 (
 )
@@ -3719,7 +3719,7 @@ MockFxAccounts
 (
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -3798,7 +3798,7 @@ bar
 const
 result
 =
-yield
+await
 fxa
 .
 internal
@@ -3832,8 +3832,8 @@ id
 ;
 add_task
 (
+async
 function
-*
 test_getDeviceId_with_device_id_and_with_no_registration_version_invokes_device_registration
 (
 )
@@ -3862,7 +3862,7 @@ MockFxAccounts
 (
 )
 ;
-yield
+await
 fxa
 .
 internal
@@ -3951,7 +3951,7 @@ wibble
 const
 result
 =
-yield
+await
 fxa
 .
 internal

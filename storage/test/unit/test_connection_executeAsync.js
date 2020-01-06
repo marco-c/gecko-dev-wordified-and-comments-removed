@@ -30,8 +30,8 @@ BLOB
 ;
 add_task
 (
+async
 function
-*
 test_first_create_and_add
 (
 )
@@ -260,7 +260,7 @@ length
 let
 execResult
 =
-yield
+await
 executeMultipleStatementsAsync
 (
 db
@@ -533,8 +533,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 test_last_multiple_bindings_on_statements
 (
 )
@@ -809,7 +809,7 @@ reset
 let
 execResult
 =
-yield
+await
 executeMultipleStatementsAsync
 (
 db
@@ -910,7 +910,7 @@ finalize
 )
 )
 ;
-yield
+await
 asyncClose
 (
 db

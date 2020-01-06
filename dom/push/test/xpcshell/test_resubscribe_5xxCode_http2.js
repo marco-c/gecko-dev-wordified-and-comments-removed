@@ -408,8 +408,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test1
 (
 )
@@ -530,7 +530,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -556,13 +556,13 @@ db
 }
 )
 ;
-yield
+await
 handlerPromise
 ;
 let
 record
 =
-yield
+await
 db
 .
 getByIdentifiers

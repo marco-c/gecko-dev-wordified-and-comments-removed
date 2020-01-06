@@ -211,8 +211,8 @@ collectionName
 }
 add_task
 (
+async
 function
-*
 test_something
 (
 )
@@ -446,7 +446,7 @@ recordsPath
 handleResponse
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -461,7 +461,7 @@ now
 ;
 sqliteHandle
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -486,7 +486,7 @@ certificates
 let
 list
 =
-yield
+await
 collection
 .
 list
@@ -538,7 +538,7 @@ checked
 0
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -588,14 +588,14 @@ server
 dummyServerURL
 )
 ;
-yield
+await
 collection
 .
 clear
 (
 )
 ;
-yield
+await
 collection
 .
 db
@@ -605,7 +605,7 @@ saveLastModified
 1000
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -620,7 +620,7 @@ now
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -637,7 +637,7 @@ length
 1
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -652,7 +652,7 @@ now
 ;
 list
 =
-yield
+await
 collection
 .
 list
@@ -684,7 +684,7 @@ server
 "
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -697,7 +697,7 @@ now
 )
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -728,7 +728,7 @@ checked
 0
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -783,7 +783,7 @@ server
 dummyServerURL
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync

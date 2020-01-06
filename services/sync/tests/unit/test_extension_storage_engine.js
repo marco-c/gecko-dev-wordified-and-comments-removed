@@ -219,8 +219,8 @@ ret
 }
 add_task
 (
+async
 function
-*
 test_calling_sync_calls__sync
 (
 )
@@ -254,7 +254,7 @@ true
 ;
 try
 {
-yield
+await
 engine
 .
 sync
@@ -288,8 +288,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_calling_sync_calls_ext_storage_sync
 (
 )
@@ -336,7 +336,7 @@ resolve
 ;
 try
 {
-yield
+await
 withSyncContext
 (
 async

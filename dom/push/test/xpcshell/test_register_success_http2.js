@@ -254,8 +254,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -302,8 +302,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionSuccess
 (
 )
@@ -330,7 +330,7 @@ db
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -437,7 +437,7 @@ record
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -529,8 +529,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_pushSubscriptionMissingLink2
 (
 )
@@ -557,7 +557,7 @@ db
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -660,7 +660,7 @@ record
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -747,8 +747,8 @@ record
 ;
 add_task
 (
+async
 function
-*
 test_complete
 (
 )

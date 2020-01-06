@@ -416,8 +416,8 @@ nsIClientAuthDialogs
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -461,15 +461,15 @@ clientAuthDialogsCID
 }
 )
 ;
+async
 function
-*
 testHelper
 (
 prefValue
 expectedURL
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -492,7 +492,7 @@ prefValue
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -518,7 +518,7 @@ com
 let
 loadedURL
 =
-yield
+await
 Promise
 .
 race
@@ -568,8 +568,8 @@ logoutAndTeardown
 }
 add_task
 (
+async
 function
-*
 testCertChosenAutomatically
 (
 )
@@ -582,8 +582,7 @@ DialogState
 .
 ASSERT_NOT_CALLED
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -609,8 +608,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 testCertNotChosenByUser
 (
 )
@@ -623,8 +622,7 @@ DialogState
 .
 RETURN_CERT_NOT_SELECTED
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -640,8 +638,8 @@ undefined
 ;
 add_task
 (
+async
 function
-*
 testCertChosenByUser
 (
 )
@@ -654,8 +652,7 @@ DialogState
 .
 RETURN_CERT_SELECTED
 ;
-yield
-*
+await
 testHelper
 (
 "

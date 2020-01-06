@@ -22,8 +22,8 @@ REAL
 ;
 add_task
 (
+async
 function
-*
 test_create_and_add
 (
 )
@@ -31,7 +31,7 @@ test_create_and_add
 let
 adb
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -42,7 +42,7 @@ getTestDB
 let
 completion
 =
-yield
+await
 executeSimpleSQLAsync
 (
 adb
@@ -73,7 +73,7 @@ completion
 ;
 completion
 =
-yield
+await
 executeSimpleSQLAsync
 (
 adb
@@ -131,7 +131,7 @@ null
 ;
 completion
 =
-yield
+await
 executeSimpleSQLAsync
 (
 adb
@@ -212,7 +212,7 @@ result
 =
 null
 ;
-yield
+await
 executeSimpleSQLAsync
 (
 adb
@@ -258,7 +258,7 @@ result
 null
 )
 ;
-yield
+await
 asyncClose
 (
 adb
@@ -269,8 +269,8 @@ adb
 ;
 add_task
 (
+async
 function
-*
 test_asyncClose_does_not_complete_before_statement
 (
 )
@@ -278,7 +278,7 @@ test_asyncClose_does_not_complete_before_statement
 let
 adb
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -294,7 +294,7 @@ false
 let
 reason
 =
-yield
+await
 executeSimpleSQLAsync
 (
 adb
@@ -387,7 +387,7 @@ do_check_true
 executed
 )
 ;
-yield
+await
 asyncClose
 (
 adb

@@ -31,8 +31,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_startup_error
 (
 )
@@ -170,7 +170,7 @@ request
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -321,7 +321,7 @@ request
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService

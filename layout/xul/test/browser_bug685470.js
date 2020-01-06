@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -40,7 +40,7 @@ p
 >
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -57,7 +57,7 @@ html
 html
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -91,7 +91,7 @@ resolve
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -112,7 +112,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -128,7 +128,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 new
 Promise
 (

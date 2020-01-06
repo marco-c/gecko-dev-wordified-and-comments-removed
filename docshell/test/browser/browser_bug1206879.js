@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -22,7 +22,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -119,7 +119,7 @@ listener
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -154,7 +154,7 @@ foo
 }
 )
 ;
-yield
+await
 locationPromise
 ;
 gBrowser

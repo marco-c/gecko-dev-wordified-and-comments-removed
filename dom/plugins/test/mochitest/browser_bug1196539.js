@@ -92,8 +92,8 @@ kMaxPaints
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -126,7 +126,7 @@ selectedTab
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -144,7 +144,7 @@ html
 let
 homeTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -159,7 +159,7 @@ home
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -168,8 +168,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -213,7 +213,7 @@ loaded
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -222,8 +222,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -273,7 +273,7 @@ hidden
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -282,8 +282,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -332,10 +332,10 @@ selectedTab
 =
 pluginTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
-yield
+await
 waitForMs
 (
 100
@@ -343,7 +343,7 @@ waitForMs
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -352,8 +352,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -404,7 +404,7 @@ visible
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -413,8 +413,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -469,10 +469,10 @@ selectedTab
 =
 homeTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -481,8 +481,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -519,7 +519,7 @@ resetPaintCount
 }
 )
 ;
-yield
+await
 waitForMs
 (
 100
@@ -527,7 +527,7 @@ waitForMs
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -536,8 +536,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -591,7 +591,7 @@ correct
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -600,8 +600,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -651,7 +651,7 @@ hidden
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -660,8 +660,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -710,12 +710,12 @@ selectedTab
 =
 pluginTab
 ;
-yield
+await
 tabSwitchedPromise
 ;
 result
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -724,8 +724,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

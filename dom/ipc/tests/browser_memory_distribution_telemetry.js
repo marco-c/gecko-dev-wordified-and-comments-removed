@@ -97,8 +97,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_memory_distribution
 (
 )
@@ -150,7 +150,7 @@ finish
 return
 ;
 }
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -204,7 +204,7 @@ clear
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -216,7 +216,7 @@ DUMMY_PAGE_DATA_URI
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -228,7 +228,7 @@ DUMMY_PAGE_DATA_URI
 let
 tab3
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -306,7 +306,7 @@ getPayload
 (
 )
 ;
-yield
+await
 finishedGathering
 ;
 let
@@ -465,7 +465,7 @@ clear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -473,7 +473,7 @@ removeTab
 tab3
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -481,7 +481,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

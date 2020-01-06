@@ -58,8 +58,8 @@ HTML_URI
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -75,14 +75,14 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 HTML_URI
+async
 function
-*
 (
 aBrowser
 )
@@ -169,7 +169,7 @@ button
 aBrowser
 )
 ;
-yield
+await
 popupPromise
 ;
 let
@@ -218,7 +218,7 @@ hidePopup
 let
 tab
 =
-yield
+await
 tabPromise
 ;
 is
@@ -272,7 +272,7 @@ false
 HTML_URI
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -296,7 +296,7 @@ HTML_URI
 }
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -389,7 +389,7 @@ button
 aBrowser
 )
 ;
-yield
+await
 popupPromise
 ;
 loadPromise
@@ -437,7 +437,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -466,7 +466,7 @@ succeeded
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

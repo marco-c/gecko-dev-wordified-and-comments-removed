@@ -41,8 +41,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_updateQuota
 (
 )
@@ -268,8 +268,8 @@ negative
 ;
 add_task
 (
+async
 function
-*
 test_systemRecord_updateQuota
 (
 )
@@ -558,8 +558,8 @@ notification
 }
 add_task
 (
+async
 function
-*
 test_principal_permissions
 (
 )

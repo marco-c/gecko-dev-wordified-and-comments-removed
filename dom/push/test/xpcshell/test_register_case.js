@@ -47,8 +47,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_case
 (
 )
@@ -212,7 +212,7 @@ case
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -284,7 +284,7 @@ record
 let
 record
 =
-yield
+await
 db
 .
 getByPushEndpoint

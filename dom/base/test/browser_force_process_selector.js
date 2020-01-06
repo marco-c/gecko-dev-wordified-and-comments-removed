@@ -50,13 +50,13 @@ forceNewProcess
 :
 true
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 processCreated
 ;
 let
@@ -102,7 +102,7 @@ if
 recur
 )
 {
-yield
+await
 spawnNewAndTest
 (
 recur
@@ -149,7 +149,7 @@ observer
 CONTENT_CREATED
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -165,7 +165,6 @@ blank
 "
 }
 function
-*
 (
 browser
 )

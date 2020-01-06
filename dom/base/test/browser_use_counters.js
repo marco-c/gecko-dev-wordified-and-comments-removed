@@ -84,8 +84,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -126,7 +126,7 @@ canRecordExtended
 =
 true
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -151,7 +151,7 @@ processCount
 ;
 gOldContentCanRecord
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -226,12 +226,12 @@ gOldContentCanRecord
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -244,7 +244,7 @@ SVGSVGELEMENT_GETELEMENTBYID
 "
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -257,7 +257,7 @@ SVGSVGELEMENT_CURRENTSCALE_getter
 "
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -270,7 +270,7 @@ SVGSVGELEMENT_CURRENTSCALE_setter
 "
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -284,7 +284,7 @@ SVGSVGELEMENT_GETELEMENTBYID
 false
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -298,7 +298,7 @@ SVGSVGELEMENT_CURRENTSCALE_getter
 false
 )
 ;
-yield
+await
 check_use_counter_iframe
 (
 "
@@ -312,7 +312,7 @@ SVGSVGELEMENT_CURRENTSCALE_setter
 false
 )
 ;
-yield
+await
 check_use_counter_img
 (
 "
@@ -325,7 +325,7 @@ PROPERTY_FILL
 "
 )
 ;
-yield
+await
 check_use_counter_img
 (
 "
@@ -338,7 +338,7 @@ PROPERTY_FILL
 "
 )
 ;
-yield
+await
 check_use_counter_direct
 (
 "
@@ -352,7 +352,7 @@ PROPERTY_FILLOPACITY
 true
 )
 ;
-yield
+await
 check_use_counter_direct
 (
 "
@@ -370,8 +370,8 @@ PROPERTY_FILLOPACITY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -406,7 +406,7 @@ canRecordExtended
 =
 gOldParentCanRecord
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -419,8 +419,8 @@ oldCanRecord
 :
 gOldContentCanRecord
 }
+async
 function
-*
 (
 arg
 )
@@ -444,7 +444,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -540,8 +540,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -564,7 +564,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1247,8 +1247,8 @@ file
 :
 file
 }
+async
 function
-*
 (
 opts
 )
@@ -1584,8 +1584,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1608,7 +1608,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (

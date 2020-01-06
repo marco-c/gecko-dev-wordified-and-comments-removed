@@ -55,8 +55,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notification_duplicate
 (
 )
@@ -277,7 +277,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -771,10 +771,10 @@ ackDone
 }
 )
 ;
-yield
+await
 notifyPromise
 ;
-yield
+await
 ackPromise
 ;
 for
@@ -791,7 +791,7 @@ testData
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID

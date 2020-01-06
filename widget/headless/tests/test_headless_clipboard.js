@@ -182,8 +182,8 @@ str
 }
 add_task
 (
+async
 function
-*
 test_clipboard
 (
 )

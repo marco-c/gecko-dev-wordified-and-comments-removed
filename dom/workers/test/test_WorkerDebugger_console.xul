@@ -351,12 +351,9 @@ consoleListener
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -428,7 +425,7 @@ dbg
 childDbg
 ]
 =
-yield
+await
 promise
 ;
 info
@@ -594,6 +591,8 @@ magic
 )
 ;
 }
+)
+(
 )
 ;
 }

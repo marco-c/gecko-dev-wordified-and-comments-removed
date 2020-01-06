@@ -471,8 +471,8 @@ href
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -508,7 +508,7 @@ test
 {
 try
 {
-yield
+await
 ManifestFinder
 .
 contentManifestLink
@@ -542,7 +542,7 @@ expected
 }
 try
 {
-yield
+await
 ManifestFinder
 .
 browserManifestLink
@@ -580,8 +580,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -619,8 +619,8 @@ BrowserTestUtils
 withNewTab
 (
 tabOptions
+async
 function
-*
 (
 browser
 )
@@ -628,7 +628,7 @@ browser
 const
 result
 =
-yield
+await
 ManifestFinder
 .
 browserHasManifestLink
@@ -649,7 +649,7 @@ result
 )
 )
 ;
-yield
+await
 Promise
 .
 all

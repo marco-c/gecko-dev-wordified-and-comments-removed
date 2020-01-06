@@ -26,8 +26,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_windowlessBrowserTroubleshootCrash
 (
 )
@@ -192,7 +192,7 @@ null
 null
 )
 ;
-yield
+await
 onLoaded
 ;
 let
@@ -287,7 +287,7 @@ Troubleshoot
 var
 data
 =
-yield
+await
 new
 Promise
 (

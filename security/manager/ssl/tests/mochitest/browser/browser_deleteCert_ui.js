@@ -214,8 +214,8 @@ true
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -242,7 +242,7 @@ certFilename
 {
 cert
 =
-yield
+await
 readCertificate
 (
 testCase
@@ -305,8 +305,8 @@ certTreeItem
 }
 )
 ;
+async
 function
-*
 testHelper
 (
 tabID
@@ -320,7 +320,7 @@ let
 win
 ]
 =
-yield
+await
 openDeleteCertConfirmDialog
 (
 tabID
@@ -502,7 +502,7 @@ tabID
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -513,8 +513,8 @@ win
 }
 add_task
 (
+async
 function
-*
 testDeletePersonalCerts
 (
 )
@@ -571,8 +571,7 @@ yourself
 .
 "
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -588,8 +587,8 @@ expectedImpact
 ;
 add_task
 (
+async
 function
-*
 testDeleteOtherPeopleCerts
 (
 )
@@ -663,8 +662,7 @@ person
 .
 "
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -680,8 +678,8 @@ expectedImpact
 ;
 add_task
 (
+async
 function
-*
 testDeleteServerCerts
 (
 )
@@ -745,8 +743,7 @@ certificate
 .
 "
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -762,8 +759,8 @@ expectedImpact
 ;
 add_task
 (
+async
 function
-*
 testDeleteCACerts
 (
 )
@@ -860,8 +857,7 @@ CA
 .
 "
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -877,8 +873,8 @@ expectedImpact
 ;
 add_task
 (
+async
 function
-*
 testDeleteOtherCerts
 (
 )
@@ -913,8 +909,7 @@ expectedImpact
 "
 "
 ;
-yield
-*
+await
 testHelper
 (
 "
@@ -930,8 +925,8 @@ expectedImpact
 ;
 add_task
 (
+async
 function
-*
 testAcceptDialogReturnValues
 (
 )
@@ -942,7 +937,7 @@ win
 retVals
 ]
 =
-yield
+await
 openDeleteCertConfirmDialog
 (
 "
@@ -973,7 +968,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed
@@ -1003,8 +998,8 @@ accepted
 ;
 add_task
 (
+async
 function
-*
 testCancelDialogReturnValues
 (
 )
@@ -1015,7 +1010,7 @@ win
 retVals
 ]
 =
-yield
+await
 openDeleteCertConfirmDialog
 (
 "
@@ -1046,7 +1041,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed

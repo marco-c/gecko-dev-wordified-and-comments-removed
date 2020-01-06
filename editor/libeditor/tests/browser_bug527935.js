@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -44,7 +44,7 @@ bug527935
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -55,8 +55,8 @@ url
 :
 kPageURL
 }
+async
 function
-*
 (
 aBrowser
 )
@@ -87,7 +87,7 @@ popupshowing
 listener
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -95,8 +95,8 @@ spawn
 aBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -188,7 +188,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -196,8 +196,8 @@ spawn
 aBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -217,7 +217,7 @@ window
 .
 document
 ;
-yield
+await
 window
 .
 loadPromise
@@ -315,7 +315,7 @@ event
 }
 )
 ;
-yield
+await
 new
 Promise
 (

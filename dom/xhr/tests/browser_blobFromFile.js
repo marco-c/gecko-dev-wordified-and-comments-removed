@@ -12,13 +12,13 @@ Components
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -168,7 +168,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -179,7 +179,7 @@ browser
 let
 blob
 =
-yield
+await
 ContentTask
 .
 spawn

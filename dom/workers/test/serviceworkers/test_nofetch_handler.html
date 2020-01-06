@@ -438,8 +438,8 @@ iframe
 }
 add_task
 (
+async
 function
-*
 test_nofetch_worker
 (
 )
@@ -447,7 +447,7 @@ test_nofetch_worker
 let
 registration
 =
-yield
+await
 navigator
 .
 serviceWorker
@@ -491,7 +491,7 @@ swr
 let
 iframe
 =
-yield
+await
 create_iframe
 (
 "
@@ -531,14 +531,14 @@ intercepted
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
 (
 )
 ;
-yield
+await
 registration
 .
 unregister

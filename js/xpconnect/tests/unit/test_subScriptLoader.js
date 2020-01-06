@@ -42,8 +42,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_executeScriptAfterNuked
 (
 )

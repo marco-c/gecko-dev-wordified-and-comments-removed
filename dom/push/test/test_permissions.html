@@ -279,13 +279,13 @@ registration
 ;
 add_task
 (
+async
 function
-*
 start
 (
 )
 {
-yield
+await
 setupPrefsAndMockSocket
 (
 new
@@ -294,7 +294,7 @@ MockWebSocket
 )
 )
 ;
-yield
+await
 setPushPermission
 (
 false
@@ -321,7 +321,7 @@ random
 ;
 registration
 =
-yield
+await
 navigator
 .
 serviceWorker
@@ -338,7 +338,7 @@ scope
 }
 )
 ;
-yield
+await
 waitForActive
 (
 registration
@@ -349,15 +349,15 @@ registration
 ;
 add_task
 (
+async
 function
-*
 denySubscribe
 (
 )
 {
 try
 {
-yield
+await
 registration
 .
 pushManager
@@ -422,8 +422,8 @@ name
 ;
 add_task
 (
+async
 function
-*
 denySubscribeInWorker
 (
 )
@@ -472,7 +472,7 @@ bug
 var
 errorInfo
 =
-yield
+await
 sendRequestToWorker
 (
 {
@@ -516,8 +516,8 @@ name
 ;
 add_task
 (
+async
 function
-*
 getEndpoint
 (
 )
@@ -525,7 +525,7 @@ getEndpoint
 var
 pushSubscription
 =
-yield
+await
 registration
 .
 pushManager
@@ -558,8 +558,8 @@ push
 ;
 add_task
 (
+async
 function
-*
 checkPermissionState
 (
 )
@@ -635,7 +635,7 @@ of
 tests
 )
 {
-yield
+await
 setPushPermission
 (
 test
@@ -646,7 +646,7 @@ action
 var
 state
 =
-yield
+await
 registration
 .
 pushManager
@@ -671,7 +671,7 @@ test
 ;
 try
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -698,7 +698,7 @@ true
 ;
 state
 =
-yield
+await
 registration
 .
 pushManager
@@ -731,7 +731,7 @@ set
 }
 finally
 {
-yield
+await
 SpecialPowers
 .
 flushPrefEnv
@@ -745,8 +745,8 @@ flushPrefEnv
 ;
 add_task
 (
+async
 function
-*
 unregister
 (
 )
@@ -754,7 +754,7 @@ unregister
 var
 result
 =
-yield
+await
 registration
 .
 unregister

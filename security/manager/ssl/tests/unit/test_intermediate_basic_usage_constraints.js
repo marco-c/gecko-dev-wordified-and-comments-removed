@@ -148,8 +148,8 @@ expected_usages
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -197,7 +197,7 @@ CTu
 "
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -206,7 +206,7 @@ ca_name
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -221,7 +221,7 @@ extensions
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -246,7 +246,7 @@ extensions
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -263,7 +263,7 @@ ca
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -292,7 +292,7 @@ ca
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -311,7 +311,7 @@ keyCertSign
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -344,7 +344,7 @@ keyCertSign
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -359,7 +359,7 @@ depth
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -383,7 +383,7 @@ depth
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -408,7 +408,7 @@ depth
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -444,7 +444,7 @@ depth
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -463,7 +463,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -495,7 +495,7 @@ eku
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -515,7 +515,7 @@ eku
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -548,7 +548,7 @@ eku
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -567,7 +567,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -599,7 +599,7 @@ eku
 ee_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -618,7 +618,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -650,7 +650,7 @@ eku
 eku_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -670,7 +670,7 @@ eku
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -703,7 +703,7 @@ eku
 ]
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [
@@ -722,7 +722,7 @@ eku
 ca_usages
 )
 ;
-yield
+await
 test_cert_for_usages
 (
 [

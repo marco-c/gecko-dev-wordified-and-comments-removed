@@ -16,8 +16,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -48,8 +48,8 @@ loaded
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -79,7 +79,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -87,7 +87,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 isDOMLoaded
 (
 browser
@@ -105,8 +105,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -160,7 +160,7 @@ u
 linkedBrowser
 ]
 ;
-yield
+await
 Promise
 .
 all
@@ -203,7 +203,7 @@ of
 browsers
 )
 {
-yield
+await
 isDOMLoaded
 (
 browser

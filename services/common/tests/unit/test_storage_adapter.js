@@ -163,8 +163,8 @@ test_collection_operations
 {
 add_task
 (
+async
 function
-*
 test_kinto_clear
 (
 )
@@ -172,7 +172,7 @@ test_kinto_clear
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -185,14 +185,14 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
+await
 adapter
 .
 clear
 (
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -204,8 +204,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_create_new_get_existing
 (
 )
@@ -213,7 +213,7 @@ test_kinto_create_new_get_existing
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -244,7 +244,7 @@ bar
 "
 }
 ;
-yield
+await
 adapter
 .
 execute
@@ -265,7 +265,7 @@ record
 let
 newRecord
 =
-yield
+await
 adapter
 .
 get
@@ -283,7 +283,7 @@ record
 newRecord
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -295,8 +295,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_can_remove_some_records
 (
 )
@@ -304,7 +304,7 @@ test_kinto_can_remove_some_records
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -337,7 +337,7 @@ baz
 "
 }
 ;
-yield
+await
 adapter
 .
 execute
@@ -358,7 +358,7 @@ record
 let
 newRecord
 =
-yield
+await
 adapter
 .
 get
@@ -378,7 +378,7 @@ record
 newRecord
 )
 ;
-yield
+await
 adapter
 .
 execute
@@ -400,7 +400,7 @@ id
 ;
 newRecord
 =
-yield
+await
 adapter
 .
 get
@@ -418,7 +418,7 @@ undefined
 ;
 newRecord
 =
-yield
+await
 adapter
 .
 get
@@ -436,7 +436,7 @@ newRecord
 undefined
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -448,8 +448,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_get_non_existant
 (
 )
@@ -457,7 +457,7 @@ test_kinto_get_non_existant
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -473,7 +473,7 @@ sqliteHandle
 let
 newRecord
 =
-yield
+await
 adapter
 .
 get
@@ -493,7 +493,7 @@ newRecord
 undefined
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -505,8 +505,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_update_get_existing
 (
 )
@@ -514,7 +514,7 @@ test_kinto_update_get_existing
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -563,14 +563,14 @@ baz
 "
 }
 ;
-yield
+await
 adapter
 .
 clear
 (
 )
 ;
-yield
+await
 adapter
 .
 execute
@@ -588,7 +588,7 @@ originalRecord
 )
 )
 ;
-yield
+await
 adapter
 .
 execute
@@ -609,7 +609,7 @@ updatedRecord
 let
 newRecord
 =
-yield
+await
 adapter
 .
 get
@@ -627,7 +627,7 @@ updatedRecord
 newRecord
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -639,8 +639,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_list
 (
 )
@@ -648,7 +648,7 @@ test_kinto_list
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -684,7 +684,7 @@ bar
 let
 records
 =
-yield
+await
 adapter
 .
 list
@@ -699,7 +699,7 @@ length
 1
 )
 ;
-yield
+await
 adapter
 .
 execute
@@ -719,7 +719,7 @@ originalRecord
 ;
 records
 =
-yield
+await
 adapter
 .
 list
@@ -734,7 +734,7 @@ length
 2
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -746,8 +746,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_aborting_transaction
 (
 )
@@ -755,7 +755,7 @@ test_kinto_aborting_transaction
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -768,7 +768,7 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
+await
 adapter
 .
 clear
@@ -796,7 +796,7 @@ null
 ;
 try
 {
-yield
+await
 adapter
 .
 execute
@@ -846,7 +846,7 @@ null
 let
 records
 =
-yield
+await
 adapter
 .
 list
@@ -861,7 +861,7 @@ length
 0
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -873,8 +873,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_last_modified
 (
 )
@@ -892,7 +892,7 @@ intendedValue
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -908,7 +908,7 @@ sqliteHandle
 let
 lastModified
 =
-yield
+await
 adapter
 .
 getLastModified
@@ -924,7 +924,7 @@ initialValue
 let
 result
 =
-yield
+await
 adapter
 .
 saveLastModified
@@ -940,7 +940,7 @@ intendedValue
 ;
 lastModified
 =
-yield
+await
 adapter
 .
 getLastModified
@@ -955,7 +955,7 @@ intendedValue
 ;
 result
 =
-yield
+await
 adapter
 .
 saveLastModified
@@ -978,7 +978,7 @@ intendedValue
 ;
 lastModified
 =
-yield
+await
 adapter
 .
 getLastModified
@@ -991,7 +991,7 @@ lastModified
 intendedValue
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -1003,8 +1003,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_import_records
 (
 )
@@ -1012,7 +1012,7 @@ test_kinto_import_records
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -1056,7 +1056,7 @@ baz
 let
 impactedRecords
 =
-yield
+await
 adapter
 .
 loadDump
@@ -1078,7 +1078,7 @@ length
 let
 newRecord1
 =
-yield
+await
 adapter
 .
 get
@@ -1097,7 +1097,7 @@ newRecord1
 let
 newRecord2
 =
-yield
+await
 adapter
 .
 get
@@ -1113,7 +1113,7 @@ record2
 newRecord2
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -1125,8 +1125,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_kinto_import_records_should_override_existing
 (
 )
@@ -1134,7 +1134,7 @@ test_kinto_import_records_should_override_existing
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -1147,7 +1147,7 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
+await
 adapter
 .
 clear
@@ -1157,7 +1157,7 @@ clear
 let
 records
 =
-yield
+await
 adapter
 .
 list
@@ -1175,7 +1175,7 @@ length
 let
 impactedRecords
 =
-yield
+await
 adapter
 .
 loadDump
@@ -1212,7 +1212,7 @@ length
 2
 )
 ;
-yield
+await
 adapter
 .
 loadDump
@@ -1243,7 +1243,7 @@ bab
 ;
 records
 =
-yield
+await
 adapter
 .
 list
@@ -1261,7 +1261,7 @@ length
 let
 newRecord1
 =
-yield
+await
 adapter
 .
 get
@@ -1281,7 +1281,7 @@ baz
 "
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -1293,8 +1293,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_import_updates_lastModified
 (
 )
@@ -1302,7 +1302,7 @@ test_import_updates_lastModified
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -1315,7 +1315,7 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
+await
 adapter
 .
 loadDump
@@ -1353,7 +1353,7 @@ last_modified
 let
 lastModified
 =
-yield
+await
 adapter
 .
 getLastModified
@@ -1366,7 +1366,7 @@ lastModified
 1458796542
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -1378,8 +1378,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_import_preserves_older_lastModified
 (
 )
@@ -1387,7 +1387,7 @@ test_import_preserves_older_lastModified
 let
 sqliteHandle
 =
-yield
+await
 do_get_kinto_connection
 (
 )
@@ -1400,7 +1400,7 @@ do_get_kinto_adapter
 sqliteHandle
 )
 ;
-yield
+await
 adapter
 .
 saveLastModified
@@ -1408,7 +1408,7 @@ saveLastModified
 1458796543
 )
 ;
-yield
+await
 adapter
 .
 loadDump
@@ -1446,7 +1446,7 @@ last_modified
 let
 lastModified
 =
-yield
+await
 adapter
 .
 getLastModified
@@ -1459,7 +1459,7 @@ lastModified
 1458796543
 )
 ;
-yield
+await
 sqliteHandle
 .
 close

@@ -84,8 +84,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -122,7 +122,7 @@ close
 )
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -147,7 +147,7 @@ page
 8
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -172,7 +172,7 @@ page
 16
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -197,7 +197,7 @@ page
 0
 )
 ;
-yield
+await
 putTestRecord
 (
 db
@@ -397,7 +397,7 @@ resolve
 }
 )
 ;
-yield
+await
 handshakePromise
 ;
 }
@@ -405,8 +405,8 @@ handshakePromise
 ;
 add_task
 (
+async
 function
-*
 test_sanitize
 (
 )
@@ -514,7 +514,7 @@ length
 ]
 )
 ;
-yield
+await
 PushService
 .
 clear
@@ -528,7 +528,7 @@ domain
 }
 )
 ;
-yield
+await
 promiseCleared
 ;
 deepEqual
@@ -613,7 +613,7 @@ scope
 let
 remainingIDs
 =
-yield
+await
 getAllKeyIDs
 (
 db

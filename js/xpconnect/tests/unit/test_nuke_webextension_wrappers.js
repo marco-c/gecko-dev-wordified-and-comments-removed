@@ -214,8 +214,8 @@ string
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -381,7 +381,7 @@ close
 (
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved

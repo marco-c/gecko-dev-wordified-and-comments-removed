@@ -70,8 +70,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_wrong_id
 (
 )
@@ -232,7 +232,7 @@ serverChannelID
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -284,7 +284,7 @@ reply
 '
 )
 ;
-yield
+await
 helloPromise
 ;
 equal

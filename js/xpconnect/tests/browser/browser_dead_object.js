@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -38,7 +38,7 @@ html
 let
 newTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -64,7 +64,7 @@ innerWindowID
 let
 contentDocDead
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -73,8 +73,8 @@ browser
 {
 innerWindowId
 }
+async
 function
-*
 (
 args
 )
@@ -172,7 +172,7 @@ about
 home
 "
 ;
-yield
+await
 promise
 ;
 return
@@ -199,7 +199,7 @@ dead
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

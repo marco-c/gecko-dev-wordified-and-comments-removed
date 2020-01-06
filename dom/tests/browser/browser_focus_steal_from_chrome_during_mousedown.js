@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -147,7 +147,7 @@ body
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -296,7 +296,7 @@ button
 button
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

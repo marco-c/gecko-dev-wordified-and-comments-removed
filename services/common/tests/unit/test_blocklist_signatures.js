@@ -547,8 +547,8 @@ n
 )
 ;
 }
+async
 function
-*
 checkRecordCount
 (
 count
@@ -593,7 +593,7 @@ PREF_BLOCKLIST_ONECRL_COLLECTION
 const
 sqliteHandle
 =
-yield
+await
 FirefoxAdapter
 .
 openConnection
@@ -645,7 +645,7 @@ collectionName
 let
 records
 =
-yield
+await
 collection
 .
 list
@@ -662,7 +662,7 @@ data
 length
 )
 ;
-yield
+await
 sqliteHandle
 .
 close
@@ -672,8 +672,8 @@ close
 }
 add_task
 (
+async
 function
-*
 test_check_signatures
 (
 )
@@ -2167,7 +2167,7 @@ getUptakeTelemetrySnapshot
 TELEMETRY_HISTOGRAM_KEY
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -2361,7 +2361,7 @@ registerHandlers
 twoItemsResponses
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -2522,7 +2522,7 @@ registerHandlers
 oneAddedOneRemovedResponses
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -2656,7 +2656,7 @@ registerHandlers
 noOpResponses
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -2940,7 +2940,7 @@ getUptakeTelemetrySnapshot
 TELEMETRY_HISTOGRAM_KEY
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -3056,7 +3056,7 @@ RESPONSE_EMPTY_INITIAL
 ]
 }
 ;
-yield
+await
 checkRecordCount
 (
 2
@@ -3067,7 +3067,7 @@ registerHandlers
 badSigGoodOldResponses
 )
 ;
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -3168,7 +3168,7 @@ allBadSigResponses
 ;
 try
 {
-yield
+await
 OneCRLBlocklistClient
 .
 maybeSync
@@ -3199,7 +3199,7 @@ catch
 e
 )
 {
-yield
+await
 checkRecordCount
 (
 2

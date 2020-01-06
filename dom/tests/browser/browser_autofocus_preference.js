@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -107,10 +107,10 @@ loadURI
 url
 )
 ;
-yield
+await
 loadedPromise
 ;
-yield
+await
 new
 Promise
 (
@@ -123,7 +123,7 @@ resolve
 )
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -132,8 +132,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {

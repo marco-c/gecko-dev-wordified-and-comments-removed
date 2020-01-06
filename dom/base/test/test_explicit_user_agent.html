@@ -187,12 +187,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -291,7 +291,7 @@ null
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -417,7 +417,7 @@ null
 var
 response
 =
-yield
+await
 fetch
 (
 '
@@ -498,7 +498,7 @@ ua
 var
 response2
 =
-yield
+await
 fetch
 (
 '

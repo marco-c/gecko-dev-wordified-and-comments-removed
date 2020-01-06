@@ -22,8 +22,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -116,7 +116,7 @@ response
 "
 )
 ;
-yield
+await
 new
 Promise
 (

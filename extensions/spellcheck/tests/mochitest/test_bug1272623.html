@@ -303,8 +303,8 @@ Bug
 *
 *
 /
+async
 function
-*
 performCorrection
 (
 misspelled
@@ -321,7 +321,7 @@ misspelled
 window
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -516,7 +516,7 @@ script
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -537,8 +537,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -573,7 +573,7 @@ page
 to
 be
 ready
-yield
+await
 new
 Promise
 (
@@ -623,8 +623,7 @@ would
 change
 the
 style
-yield
-*
+await
 performCorrection
 (
 '
@@ -723,8 +722,7 @@ is
 spelling
 -
 corrected
-yield
-*
+await
 performCorrection
 (
 '

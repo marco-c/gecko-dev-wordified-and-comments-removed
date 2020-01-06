@@ -271,8 +271,8 @@ break
 )
 ;
 }
+async
 function
-*
 loadFrame
 (
 attributes
@@ -348,7 +348,7 @@ appendChild
 iframe
 )
 ;
-yield
+await
 loaded
 ;
 return

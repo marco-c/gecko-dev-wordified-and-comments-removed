@@ -42,8 +42,8 @@ html
 "
 ]
 ;
+async
 function
-*
 runTest
 (
 input
@@ -71,7 +71,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -157,7 +157,7 @@ length
 let
 dataBack
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -282,7 +282,7 @@ content
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -293,8 +293,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -346,7 +346,7 @@ length
 i
 )
 {
-yield
+await
 runTest
 (
 "
@@ -359,7 +359,7 @@ i
 ]
 )
 ;
-yield
+await
 runTest
 (
 a

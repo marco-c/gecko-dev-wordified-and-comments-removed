@@ -835,8 +835,8 @@ href
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -909,7 +909,7 @@ collector
 const
 results
 =
-yield
+await
 Promise
 .
 all
@@ -924,8 +924,8 @@ aTest
 )
 {
 return
+async
 function
-*
 (
 aBrowser
 )
@@ -935,7 +935,7 @@ try
 const
 manifest
 =
-yield
+await
 ManifestObtainer
 .
 browserObtainManifest
@@ -972,8 +972,8 @@ e
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1435,7 +1435,7 @@ url
 linkedBrowser
 ]
 ;
-yield
+await
 Promise
 .
 all
@@ -1459,7 +1459,7 @@ browser
 const
 results
 =
-yield
+await
 Promise
 .
 all

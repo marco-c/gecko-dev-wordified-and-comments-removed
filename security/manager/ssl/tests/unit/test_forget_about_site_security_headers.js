@@ -283,8 +283,8 @@ pem
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -392,7 +392,7 @@ HPKP
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -479,8 +479,8 @@ now
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -662,7 +662,7 @@ HSTS
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -780,8 +780,8 @@ HSTS
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1016,7 +1016,7 @@ case
 )
 ;
 }
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 runTests
 (
 )
 {
-yield
+await
 setup
 (
 )
@@ -18,7 +18,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 checkListeners
 (
 "
@@ -39,7 +39,7 @@ part
 "
 )
 ;
-yield
+await
 whenPageShown
 (
 browser
@@ -66,7 +66,7 @@ com
 )
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -94,7 +94,7 @@ back
 "
 )
 ;
-yield
+await
 whenPageShown
 (
 browser
@@ -109,7 +109,7 @@ goBack
 )
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -137,7 +137,7 @@ forward
 "
 )
 ;
-yield
+await
 whenPageShown
 (
 browser
@@ -152,7 +152,7 @@ goForward
 )
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -167,7 +167,7 @@ shentry
 "
 )
 ;
-yield
+await
 whenPageShown
 (
 browser
@@ -182,7 +182,7 @@ reload
 )
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -195,7 +195,7 @@ reloaded
 "
 )
 ;
-yield
+await
 whenPageShown
 (
 browser
@@ -211,7 +211,7 @@ gotoIndex
 )
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -238,7 +238,7 @@ part
 ok
 (
 (
-yield
+await
 notifyReload
 (
 )
@@ -252,7 +252,7 @@ canceled
 "
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -275,12 +275,12 @@ part
 "
 )
 ;
-yield
+await
 resetListeners
 (
 )
 ;
-yield
+await
 setListenerRetval
 (
 0
@@ -291,7 +291,7 @@ ok
 (
 !
 (
-yield
+await
 notifyReload
 (
 )
@@ -304,7 +304,7 @@ canceled
 "
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -327,12 +327,12 @@ part
 "
 )
 ;
-yield
+await
 resetListeners
 (
 )
 ;
-yield
+await
 setListenerRetval
 (
 1
@@ -343,7 +343,7 @@ ok
 (
 !
 (
-yield
+await
 notifyReload
 (
 )
@@ -356,7 +356,7 @@ canceled
 "
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -379,12 +379,12 @@ part
 "
 )
 ;
-yield
+await
 resetListeners
 (
 )
 ;
-yield
+await
 setListenerRetval
 (
 0
@@ -395,7 +395,7 @@ ok
 (
 !
 (
-yield
+await
 notifyReload
 (
 )
@@ -408,7 +408,7 @@ canceled
 "
 )
 ;
-yield
+await
 checkListeners
 (
 "
@@ -662,12 +662,12 @@ linkedBrowser
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 listenOnce
 (
 "

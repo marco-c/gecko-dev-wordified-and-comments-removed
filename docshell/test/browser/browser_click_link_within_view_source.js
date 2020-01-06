@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_click_link_within_view_source
 (
 )
@@ -91,14 +91,14 @@ DUMMY_FILE_URI
 .
 spec
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 TEST_FILE_URI
+async
 function
-*
 (
 aBrowser
 )
@@ -196,7 +196,7 @@ doCommand
 let
 tab
 =
-yield
+await
 tabPromise
 ;
 tabSpec
@@ -294,7 +294,7 @@ html
 )
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -304,8 +304,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -323,7 +323,7 @@ complete
 "
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -404,7 +404,7 @@ click
 }
 )
 ;
-yield
+await
 loadPromise
 ;
 tabSpec
@@ -463,7 +463,7 @@ succeeded
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

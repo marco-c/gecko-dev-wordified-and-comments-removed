@@ -319,8 +319,8 @@ testFunction
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -336,7 +336,7 @@ manager
 "
 )
 ;
-yield
+await
 testFunction
 (
 new
@@ -350,8 +350,8 @@ FxAccountsStorageManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -367,7 +367,7 @@ manager
 "
 )
 ;
-yield
+await
 testFunction
 (
 new
@@ -387,8 +387,8 @@ false
 }
 add_storage_task
 (
+async
 function
-*
 checkInitializedEmpty
 (
 sm
@@ -412,7 +412,7 @@ null
 )
 ;
 }
-yield
+await
 sm
 .
 initialize
@@ -424,7 +424,7 @@ Assert
 strictEqual
 (
 (
-yield
+await
 sm
 .
 getAccountData
@@ -463,8 +463,8 @@ in
 ;
 add_storage_task
 (
+async
 function
-*
 checkNewUser
 (
 sm
@@ -526,7 +526,7 @@ null
 )
 ;
 }
-yield
+await
 sm
 .
 initialize
@@ -537,7 +537,7 @@ initialAccountData
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -698,8 +698,8 @@ kA
 ;
 add_storage_task
 (
+async
 function
-*
 checkEverythingRead
 (
 sm
@@ -755,7 +755,7 @@ null
 )
 ;
 }
-yield
+await
 sm
 .
 initialize
@@ -765,7 +765,7 @@ initialize
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -833,7 +833,7 @@ deviceRegistrationVersion
 null
 )
 ;
-yield
+await
 sm
 .
 updateAccountData
@@ -860,7 +860,7 @@ DEVICE_REGISTRATION_VERSION
 ;
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -913,7 +913,7 @@ deviceRegistrationVersion
 DEVICE_REGISTRATION_VERSION
 )
 ;
-yield
+await
 sm
 .
 _promiseStorageComplete
@@ -1057,7 +1057,6 @@ kB
 add_storage_task
 (
 function
-*
 checkInvalidUpdates
 (
 sm
@@ -1157,8 +1156,8 @@ change
 ;
 add_storage_task
 (
+async
 function
-*
 checkNullUpdatesRemovedUnlocked
 (
 sm
@@ -1253,14 +1252,14 @@ kB
 )
 ;
 }
-yield
+await
 sm
 .
 initialize
 (
 )
 ;
-yield
+await
 sm
 .
 updateAccountData
@@ -1275,7 +1274,7 @@ null
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -1309,8 +1308,8 @@ kB
 ;
 add_storage_task
 (
+async
 function
-*
 checkDelete
 (
 sm
@@ -1405,14 +1404,14 @@ kB
 )
 ;
 }
-yield
+await
 sm
 .
 initialize
 (
 )
 ;
-yield
+await
 sm
 .
 deleteAccountData
@@ -1456,7 +1455,7 @@ Assert
 equal
 (
 (
-yield
+await
 sm
 .
 getAccountData
@@ -1471,8 +1470,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 checkNullUpdatesRemovedLocked
 (
 )
@@ -1537,14 +1536,14 @@ locked
 =
 true
 ;
-yield
+await
 sm
 .
 initialize
 (
 )
 ;
-yield
+await
 sm
 .
 updateAccountData
@@ -1559,7 +1558,7 @@ null
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -1596,7 +1595,7 @@ false
 ;
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -1664,8 +1663,8 @@ kB
 ;
 add_task
 (
+async
 function
-*
 checkEverythingReadSecure
 (
 )
@@ -1717,7 +1716,7 @@ kA
 }
 )
 ;
-yield
+await
 sm
 .
 initialize
@@ -1727,7 +1726,7 @@ initialize
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -1790,8 +1789,8 @@ kA
 ;
 add_task
 (
+async
 function
-*
 checkMemoryFieldsNotReturnedByDefault
 (
 )
@@ -1843,14 +1842,14 @@ kA
 }
 )
 ;
-yield
+await
 sm
 .
 initialize
 (
 )
 ;
-yield
+await
 sm
 .
 updateAccountData
@@ -1869,7 +1868,7 @@ value
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -1888,7 +1887,7 @@ undefined
 ;
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -1917,8 +1916,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 checkExplicitGet
 (
 )
@@ -1970,7 +1969,7 @@ kA
 }
 )
 ;
-yield
+await
 sm
 .
 initialize
@@ -1980,7 +1979,7 @@ initialize
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -2046,8 +2045,8 @@ undefined
 ;
 add_task
 (
+async
 function
-*
 checkExplicitGetNoSecureRead
 (
 )
@@ -2099,7 +2098,7 @@ kA
 }
 )
 ;
-yield
+await
 sm
 .
 initialize
@@ -2121,7 +2120,7 @@ fetchCount
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -2202,8 +2201,8 @@ fetchCount
 ;
 add_task
 (
+async
 function
-*
 checkLockedUpdates
 (
 )
@@ -2270,7 +2269,7 @@ locked
 =
 true
 ;
-yield
+await
 sm
 .
 initialize
@@ -2280,7 +2279,7 @@ initialize
 let
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -2324,7 +2323,7 @@ kA
 ;
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -2355,7 +2354,7 @@ false
 ;
 accountData
 =
-yield
+await
 sm
 .
 getAccountData
@@ -2546,8 +2545,8 @@ rejectBlocked
 }
 add_task
 (
+async
 function
-*
 checkQueueSemantics
 (
 )
@@ -2558,7 +2557,7 @@ sm
 resolveBlocked
 }
 =
-yield
+await
 setupStorageManagerForQueueTest
 (
 )
@@ -2623,7 +2622,7 @@ resolveBlocked
 (
 )
 ;
-yield
+await
 subsequentPromise
 ;
 Assert
@@ -2633,7 +2632,7 @@ ok
 subsequentCalled
 )
 ;
-yield
+await
 sm
 .
 finalize
@@ -2645,8 +2644,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 checkQueueSemanticsOnError
 (
 )
@@ -2658,7 +2657,7 @@ blockedPromise
 rejectBlocked
 }
 =
-yield
+await
 setupStorageManagerForQueueTest
 (
 )
@@ -2727,7 +2726,7 @@ no
 "
 )
 ;
-yield
+await
 subsequentPromise
 ;
 Assert
@@ -2739,7 +2738,7 @@ subsequentCalled
 ;
 try
 {
-yield
+await
 blockedPromise
 ;
 Assert
@@ -2774,7 +2773,7 @@ no
 )
 ;
 }
-yield
+await
 sm
 .
 finalize
@@ -2786,8 +2785,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 checkQueuedReadAndUpdate
 (
 )
@@ -2798,7 +2797,7 @@ sm
 resolveBlocked
 }
 =
-yield
+await
 setupStorageManagerForQueueTest
 (
 )
@@ -2850,7 +2849,7 @@ resolveBlocked
 (
 )
 ;
-yield
+await
 resultPromise
 ;
 Assert
@@ -2860,7 +2859,7 @@ ok
 _doReadCalled
 )
 ;
-yield
+await
 sm
 .
 finalize
@@ -2872,8 +2871,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 checkQueuedWrite
 (
 )
@@ -2884,7 +2883,7 @@ sm
 resolveBlocked
 }
 =
-yield
+await
 setupStorageManagerForQueueTest
 (
 )
@@ -2936,7 +2935,7 @@ resolveBlocked
 (
 )
 ;
-yield
+await
 writePromise
 ;
 Assert
@@ -2946,7 +2945,7 @@ ok
 __writeCalled
 )
 ;
-yield
+await
 sm
 .
 finalize
@@ -2958,8 +2957,8 @@ finalize
 ;
 add_task
 (
+async
 function
-*
 checkQueuedDelete
 (
 )
@@ -2970,7 +2969,7 @@ sm
 resolveBlocked
 }
 =
-yield
+await
 setupStorageManagerForQueueTest
 (
 )
@@ -3022,7 +3021,7 @@ resolveBlocked
 (
 )
 ;
-yield
+await
 resultPromise
 ;
 Assert
@@ -3032,7 +3031,7 @@ ok
 _deleteCalled
 )
 ;
-yield
+await
 sm
 .
 finalize

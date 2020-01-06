@@ -375,8 +375,8 @@ icon
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -393,14 +393,14 @@ manifest
 )
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 tabOptions
+async
 function
-*
 (
 browser
 )
@@ -408,7 +408,7 @@ browser
 const
 manifest
 =
-yield
+await
 ManifestObtainer
 .
 browserObtainManifest
@@ -419,7 +419,7 @@ browser
 let
 icon
 =
-yield
+await
 ManifestIcons
 .
 browserFetchIcon
@@ -432,7 +432,7 @@ manifest
 let
 color
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -458,7 +458,7 @@ icon
 ;
 icon
 =
-yield
+await
 ManifestIcons
 .
 browserFetchIcon
@@ -470,7 +470,7 @@ manifest
 ;
 color
 =
-yield
+await
 ContentTask
 .
 spawn

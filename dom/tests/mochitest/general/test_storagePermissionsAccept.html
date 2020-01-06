@@ -132,12 +132,12 @@ javascript
 >
 task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 setCookieBehavior
 (
 BEHAVIOR_ACCEPT
@@ -152,7 +152,7 @@ able
 to
 access
 storage
-yield
+await
 storageAllowed
 (
 )
@@ -175,7 +175,7 @@ with
 the
 null
 principal
-yield
+await
 runIFrame
 (
 "
@@ -185,7 +185,7 @@ html
 "
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -195,7 +195,7 @@ sjs
 "
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -246,7 +246,7 @@ scripts
 '
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -258,7 +258,7 @@ nullprincipal
 "
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -301,7 +301,7 @@ with
 the
 null
 principal
-yield
+await
 runIFrame
 (
 thirdparty
@@ -313,7 +313,7 @@ html
 "
 )
 ;
-yield
+await
 runIFrame
 (
 thirdparty
@@ -325,7 +325,7 @@ sjs
 "
 )
 ;
-yield
+await
 runIFrame
 (
 thirdparty
@@ -350,7 +350,7 @@ able
 to
 access
 storage
-yield
+await
 runWorker
 (
 "

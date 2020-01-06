@@ -51,8 +51,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_with_data_enabled
 (
 )
@@ -101,7 +101,7 @@ publicKey
 privateKey
 ]
 =
-yield
+await
 PushCrypto
 .
 generateKeys
@@ -236,7 +236,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -389,7 +389,7 @@ new
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -451,7 +451,7 @@ records
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID
@@ -503,7 +503,7 @@ record
 ;
 record
 =
-yield
+await
 db
 .
 getByKeyID

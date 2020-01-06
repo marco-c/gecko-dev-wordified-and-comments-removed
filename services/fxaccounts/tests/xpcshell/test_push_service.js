@@ -236,8 +236,8 @@ error
 ;
 add_task
 (
+async
 function
-*
 initialize
 (
 )
@@ -265,8 +265,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 registerPushEndpointSuccess
 (
 )
@@ -290,7 +290,7 @@ mockFxAccounts
 let
 subscription
 =
-yield
+await
 pushService
 .
 registerPushEndpoint
@@ -310,8 +310,8 @@ MOCK_ENDPOINT
 ;
 add_task
 (
+async
 function
-*
 registerPushEndpointFailure
 (
 )
@@ -364,7 +364,7 @@ mockFxAccounts
 let
 subscription
 =
-yield
+await
 pushService
 .
 registerPushEndpoint
@@ -382,8 +382,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 unsubscribeSuccess
 (
 )
@@ -407,7 +407,7 @@ mockFxAccounts
 let
 result
 =
-yield
+await
 pushService
 .
 unsubscribe
@@ -425,8 +425,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 unsubscribeFailure
 (
 )
@@ -479,7 +479,7 @@ mockFxAccounts
 let
 result
 =
-yield
+await
 pushService
 .
 unsubscribe

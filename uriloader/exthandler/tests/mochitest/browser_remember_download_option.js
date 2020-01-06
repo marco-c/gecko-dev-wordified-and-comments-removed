@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,8 +16,7 @@ true
 let
 dlg
 =
-yield
-*
+await
 openHelperAppDialog
 (
 launcher
@@ -122,7 +121,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 dialogClosedPromise
 ;
 ok

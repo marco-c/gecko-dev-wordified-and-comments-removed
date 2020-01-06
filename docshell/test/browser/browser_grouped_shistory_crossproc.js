@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -138,7 +138,7 @@ true
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -156,8 +156,8 @@ html
 a
 "
 }
+async
 function
-*
 (
 browser1
 )
@@ -206,7 +206,7 @@ getSystemPrincipal
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -229,7 +229,7 @@ linkedBrowser
 frameLoader
 )
 ;
-yield
+await
 awaitProcessChange
 (
 browser1
@@ -262,7 +262,7 @@ null
 null
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -363,7 +363,7 @@ complete
 "
 )
 ;
-yield
+await
 tabClose
 ;
 }

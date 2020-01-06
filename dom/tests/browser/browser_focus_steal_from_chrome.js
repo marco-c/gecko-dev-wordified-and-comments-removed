@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -804,7 +804,7 @@ element
 }
 ]
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -814,13 +814,13 @@ about
 :
 blank
 "
+async
 function
-*
 (
 bg
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -830,8 +830,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 fg
 )
@@ -850,7 +850,7 @@ focus
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -861,7 +861,7 @@ test
 uri
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -869,7 +869,7 @@ browserLoaded
 bg
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -880,7 +880,7 @@ test
 uri
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -903,7 +903,7 @@ loaded
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1019,7 +1019,7 @@ f
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1185,7 +1185,7 @@ focus
 .
 focusedElement
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1198,7 +1198,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1206,7 +1206,7 @@ browserLoaded
 bg
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1219,7 +1219,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1227,7 +1227,7 @@ browserLoaded
 fg
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1238,7 +1238,7 @@ test
 uri
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1246,7 +1246,7 @@ browserLoaded
 bg
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1257,7 +1257,7 @@ test
 uri
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1280,7 +1280,7 @@ loaded
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1395,7 +1395,7 @@ f
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

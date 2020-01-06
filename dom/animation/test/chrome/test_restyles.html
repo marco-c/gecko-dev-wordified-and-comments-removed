@@ -586,8 +586,8 @@ function
 {
 add_task
 (
+async
 function
-*
 restyling_for_main_thread_animations
 (
 )
@@ -624,7 +624,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -640,7 +640,7 @@ isRunningOnCompositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -674,7 +674,7 @@ thread
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -685,8 +685,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_for_compositor_animations
 (
 )
@@ -721,7 +721,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -736,7 +736,7 @@ isRunningOnCompositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -769,7 +769,7 @@ thread
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -780,8 +780,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_for_compositor_transitions
 (
 )
@@ -835,7 +835,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -850,7 +850,7 @@ isRunningOnCompositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -883,7 +883,7 @@ thread
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -894,8 +894,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_when_animation_duration_is_changed
 (
 )
@@ -930,7 +930,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -953,7 +953,7 @@ animationDuration
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -985,7 +985,7 @@ thread
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -996,8 +996,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 only_one_restyling_after_finish_is_called
 (
 )
@@ -1032,7 +1032,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -1053,7 +1053,7 @@ finish
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -1088,7 +1088,7 @@ called
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -1099,8 +1099,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_restyling_mouse_movement_on_finished_transition
 (
 )
@@ -1163,7 +1163,7 @@ getBoundingClientRect
 (
 )
 ;
-yield
+await
 animation
 .
 finished
@@ -1197,7 +1197,7 @@ height
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -1272,7 +1272,7 @@ animations
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -1283,8 +1283,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_restyling_mouse_movement_on_finished_animation
 (
 )
@@ -1328,7 +1328,7 @@ getBoundingClientRect
 (
 )
 ;
-yield
+await
 animation
 .
 finished
@@ -1362,7 +1362,7 @@ height
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -1437,7 +1437,7 @@ animations
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -1448,8 +1448,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_compositor_animations_out_of_view_element
 (
 )
@@ -1515,7 +1515,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -1531,7 +1531,7 @@ isRunningOnCompositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -1567,7 +1567,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -1578,8 +1578,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_restyling_main_thread_animations_out_of_view_element
 (
 )
@@ -1647,7 +1647,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -1655,7 +1655,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -1693,7 +1693,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -1704,8 +1704,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_compositor_animations_in_scrolled_out_element
 (
 )
@@ -1840,7 +1840,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -1848,7 +1848,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -1882,7 +1882,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 parentElement
@@ -1893,8 +1893,8 @@ parentElement
 ;
 add_task
 (
+async
 function
-*
 no_restyling_main_thread_animations_in_scrolled_out_element
 (
 )
@@ -2027,7 +2027,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -2035,7 +2035,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -2071,7 +2071,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 parentElement
@@ -2082,8 +2082,8 @@ parentElement
 ;
 add_task
 (
+async
 function
-*
 no_restyling_main_thread_animations_in_nested_scrolled_out_element
 (
 )
@@ -2247,7 +2247,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -2255,7 +2255,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -2294,7 +2294,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 grandParent
@@ -2305,8 +2305,8 @@ grandParent
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_compositor_animations_in_visiblily_hidden_element
 (
 )
@@ -2345,7 +2345,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -2361,7 +2361,7 @@ isRunningOnCompositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -2396,7 +2396,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -2407,8 +2407,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 restyling_main_thread_animations_moved_in_view_by_scrolling
 (
 )
@@ -2576,7 +2576,7 @@ height
 /
 2
 ;
-yield
+await
 animation
 .
 ready
@@ -2584,7 +2584,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 1
@@ -2669,7 +2669,7 @@ scrolling
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 parentElement
@@ -2680,8 +2680,8 @@ parentElement
 ;
 add_task
 (
+async
 function
-*
 restyling_main_thread_animations_moved_in_view_by_scrolling
 (
 )
@@ -2846,7 +2846,7 @@ height
 /
 2
 ;
-yield
+await
 animation
 .
 ready
@@ -2854,7 +2854,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 1
@@ -2954,7 +2954,7 @@ scrolling
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 grandParent
@@ -2965,8 +2965,8 @@ grandParent
 ;
 add_task
 (
+async
 function
-*
 restyling_main_thread_animations_move_out_of_view_by_scrolling
 (
 )
@@ -3151,7 +3151,7 @@ height
 /
 2
 ;
-yield
+await
 animation
 .
 ready
@@ -3192,7 +3192,7 @@ deltaY
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -3241,7 +3241,7 @@ restyling
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 parentElement
@@ -3252,8 +3252,8 @@ parentElement
 ;
 add_task
 (
+async
 function
-*
 restyling_main_thread_animations_moved_in_view_by_resizing
 (
 )
@@ -3352,7 +3352,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -3360,7 +3360,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 1
@@ -3422,7 +3422,7 @@ resizing
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 parentElement
@@ -3433,8 +3433,8 @@ parentElement
 ;
 add_task
 (
+async
 function
-*
 no_restyling_main_thread_animations_in_visiblily_hidden_element
 (
 )
@@ -3475,7 +3475,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -3483,7 +3483,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -3520,7 +3520,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -3531,8 +3531,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_compositor_animations_after_pause_is_called
 (
 )
@@ -3567,7 +3567,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -3585,7 +3585,7 @@ pause
 (
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -3593,7 +3593,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -3632,7 +3632,7 @@ called
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -3643,8 +3643,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_restyling_main_thread_animations_after_pause_is_called
 (
 )
@@ -3681,7 +3681,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -3692,7 +3692,7 @@ pause
 (
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -3700,7 +3700,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -3740,7 +3740,7 @@ called
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -3751,8 +3751,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 only_one_restyling_when_current_time_is_set_to_middle_of_duration
 (
 )
@@ -3787,7 +3787,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -3803,7 +3803,7 @@ MS_PER_SEC
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -3844,7 +3844,7 @@ time
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -3855,8 +3855,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 change_duration_and_currenttime
 (
 )
@@ -3889,7 +3889,7 @@ opacity
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -3960,7 +3960,7 @@ MS_PER_SEC
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -3998,7 +3998,7 @@ time
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -4009,8 +4009,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 script_animation_on_display_none_element
 (
 )
@@ -4047,7 +4047,7 @@ blue
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -4077,7 +4077,7 @@ display
 none
 style
 .
-yield
+await
 waitForFrame
 (
 )
@@ -4144,7 +4144,7 @@ compositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4197,7 +4197,7 @@ display
 none
 style
 .
-yield
+await
 waitForFrame
 (
 )
@@ -4205,7 +4205,7 @@ waitForFrame
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4237,7 +4237,7 @@ styles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -4248,8 +4248,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 compositable_script_animation_on_display_none_element
 (
 )
@@ -4282,7 +4282,7 @@ opacity
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -4312,7 +4312,7 @@ display
 none
 style
 .
-yield
+await
 waitForFrame
 (
 )
@@ -4381,7 +4381,7 @@ compositor
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4438,7 +4438,7 @@ display
 none
 style
 .
-yield
+await
 waitForFrame
 (
 )
@@ -4471,7 +4471,7 @@ compositor
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -4482,8 +4482,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 restyling_for_empty_keyframes
 (
 )
@@ -4510,7 +4510,7 @@ animate
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -4518,7 +4518,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4564,7 +4564,7 @@ blue
 ;
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4605,7 +4605,7 @@ setKeyframes
 ;
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4641,7 +4641,7 @@ style
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -4652,8 +4652,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 no_restyling_when_animation_style_when_re_setting_same_animation_property
 (
 )
@@ -4688,7 +4688,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -4721,7 +4721,7 @@ opacity
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4748,7 +4748,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -4759,8 +4759,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 necessary_update_should_be_invoked
 (
 )
@@ -4797,12 +4797,12 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
 ;
-yield
+await
 waitForAnimationFrames
 (
 5
@@ -4842,7 +4842,7 @@ getAnimations
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -4874,7 +4874,7 @@ frame
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -4885,8 +4885,8 @@ div
 ;
 add_task_if_omta_enabled
 (
+async
 function
-*
 changing_cascading_result_for_main_thread_animation
 (
 )
@@ -4940,7 +4940,7 @@ red
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -5027,7 +5027,7 @@ important
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5072,7 +5072,7 @@ compositor
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -5083,8 +5083,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 restyling_for_animation_on_orphaned_element
 (
 )
@@ -5121,7 +5121,7 @@ marginLeft
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -5135,7 +5135,7 @@ remove
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5170,7 +5170,7 @@ div
 ;
 markers
 =
-yield
+await
 observeStyling
 (
 1
@@ -5259,7 +5259,7 @@ document
 ;
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5287,7 +5287,7 @@ style
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -5334,8 +5334,8 @@ to
 the
 document
 .
+async
 function
-*
 restyling_for_opacity_animation_on_re_attached_element
 (
 )
@@ -5379,7 +5379,7 @@ opacity
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -5449,7 +5449,7 @@ remove
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5503,7 +5503,7 @@ the
 /
 compositor
 .
-yield
+await
 waitForFrame
 (
 )
@@ -5559,7 +5559,7 @@ removed
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -5583,8 +5583,8 @@ all
 .
 add_task
 (
+async
 function
-*
 no_throttling_animations_out_of_view_element
 (
 )
@@ -5673,7 +5673,7 @@ visible
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -5681,7 +5681,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5724,7 +5724,7 @@ throttled
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -5744,8 +5744,8 @@ test
 .
 add_task
 (
+async
 function
-*
 no_restyling_discrete_animations_out_of_view_element
 (
 )
@@ -5837,7 +5837,7 @@ hidden
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -5845,7 +5845,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5884,7 +5884,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -5895,8 +5895,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_restyling_while_computed_timing_is_not_changed
 (
 )
@@ -5944,7 +5944,7 @@ end
 }
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -5952,7 +5952,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -5988,7 +5988,7 @@ restyles
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -5999,8 +5999,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_throttling_animations_in_view_svg
 (
 )
@@ -6169,7 +6169,7 @@ lime
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -6177,7 +6177,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -6214,7 +6214,7 @@ throttled
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -6225,8 +6225,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 throttling_animations_out_of_view_svg
 (
 )
@@ -6405,7 +6405,7 @@ lime
 MS_PER_SEC
 )
 ;
-yield
+await
 animation
 .
 ready
@@ -6413,7 +6413,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -6451,7 +6451,7 @@ throttled
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 div
@@ -6462,8 +6462,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 no_throttling_animations_in_view_css_transform
 (
 )
@@ -6584,7 +6584,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -6592,7 +6592,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -6628,7 +6628,7 @@ throttled
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 scrollDiv
@@ -6639,8 +6639,8 @@ scrollDiv
 ;
 add_task
 (
+async
 function
-*
 throttling_animations_out_of_view_css_transform
 (
 )
@@ -6781,7 +6781,7 @@ getAnimations
 0
 ]
 ;
-yield
+await
 animation
 .
 ready
@@ -6789,7 +6789,7 @@ ready
 var
 markers
 =
-yield
+await
 observeStyling
 (
 5
@@ -6826,7 +6826,7 @@ throttled
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 scrollDiv

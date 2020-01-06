@@ -370,8 +370,8 @@ serverEEUsages
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -422,7 +422,7 @@ pem
 "
 )
 ;
-yield
+await
 asyncTestCertificateUsages
 (
 certdb
@@ -470,7 +470,7 @@ pem
 "
 )
 ;
-yield
+await
 asyncTestCertificateUsages
 (
 certdb

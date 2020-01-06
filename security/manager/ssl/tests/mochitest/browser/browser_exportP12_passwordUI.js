@@ -369,8 +369,8 @@ true
 }
 add_task
 (
+async
 function
-*
 testFocus
 (
 )
@@ -380,7 +380,7 @@ let
 win
 ]
 =
-yield
+await
 openSetP12PasswordDialog
 (
 )
@@ -416,7 +416,7 @@ focus
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -429,8 +429,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testPasswordStrengthAndEquality
 (
 )
@@ -440,7 +440,7 @@ let
 win
 ]
 =
-yield
+await
 openSetP12PasswordDialog
 (
 )
@@ -598,7 +598,7 @@ name
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -611,8 +611,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testAcceptDialogReturnValues
 (
 )
@@ -623,7 +623,7 @@ win
 retVals
 ]
 =
-yield
+await
 openSetP12PasswordDialog
 (
 )
@@ -719,7 +719,7 @@ acceptDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed
@@ -779,8 +779,8 @@ match
 ;
 add_task
 (
+async
 function
-*
 testCancelDialogReturnValues
 (
 )
@@ -791,7 +791,7 @@ win
 retVals
 ]
 =
-yield
+await
 openSetP12PasswordDialog
 (
 )
@@ -819,7 +819,7 @@ cancelDialog
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 windowClosed

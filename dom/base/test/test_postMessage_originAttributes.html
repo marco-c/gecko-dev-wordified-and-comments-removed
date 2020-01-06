@@ -143,12 +143,12 @@ javascript
 >
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -180,8 +180,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -259,7 +259,7 @@ privateBrowsingId
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -456,7 +456,7 @@ test
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -476,7 +476,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 consolePromise
 ;
 /

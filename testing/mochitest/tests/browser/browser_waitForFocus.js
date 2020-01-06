@@ -23,7 +23,6 @@ browser
 "
 ;
 function
-*
 promiseTabLoadEvent
 (
 tab
@@ -148,12 +147,12 @@ url
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -174,7 +173,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -221,8 +220,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -252,7 +251,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -265,7 +264,7 @@ html
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -292,7 +291,7 @@ loaded
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -340,12 +339,12 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -366,7 +365,7 @@ focus
 (
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus

@@ -368,13 +368,13 @@ browser
 .
 selectedBrowser
 aMessage
+async
 function
-*
 (
 aMessage
 )
 {
-yield
+await
 new
 Promise
 (

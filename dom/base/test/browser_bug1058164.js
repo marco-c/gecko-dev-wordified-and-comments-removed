@@ -198,8 +198,8 @@ eventListener
 }
 add_task
 (
+async
 function
-*
 test_swap_frameloader_pagevisibility_events
 (
 )
@@ -228,7 +228,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -246,7 +246,7 @@ replaceTabWithWindow
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -266,7 +266,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 prepareForVisibilityEvents
 (
 newWindowBrowser
@@ -303,7 +303,7 @@ newTab
 .
 linkedBrowser
 ;
-yield
+await
 new
 Promise
 (
@@ -367,7 +367,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 emptyBrowserPromise
 ;
 gBrowser

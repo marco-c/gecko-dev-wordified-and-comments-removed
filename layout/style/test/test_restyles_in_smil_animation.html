@@ -428,13 +428,13 @@ waitForExplicitFinish
 ;
 add_task
 (
+async
 function
-*
 smil_is_in_display_none_subtree
 (
 )
 {
-yield
+await
 waitForPaintFlushed
 (
 )
@@ -544,7 +544,7 @@ appendChild
 animate
 )
 ;
-yield
+await
 waitForPaintFlushed
 (
 )
@@ -552,7 +552,7 @@ waitForPaintFlushed
 var
 displayMarkers
 =
-yield
+await
 observeStyling
 (
 5
@@ -656,7 +656,7 @@ div
 .
 display
 ;
-yield
+await
 waitForPaintFlushed
 (
 )
@@ -664,7 +664,7 @@ waitForPaintFlushed
 var
 displayNoneMarkers
 =
-yield
+await
 observeStyling
 (
 5
@@ -703,7 +703,7 @@ div
 .
 display
 ;
-yield
+await
 waitForPaintFlushed
 (
 )
@@ -711,7 +711,7 @@ waitForPaintFlushed
 var
 displayAgainMarkers
 =
-yield
+await
 observeStyling
 (
 5
@@ -782,7 +782,7 @@ expected
 '
 )
 ;
-yield
+await
 ensureElementRemoval
 (
 animate

@@ -52,8 +52,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -276,7 +276,7 @@ null
 null
 )
 ;
-yield
+await
 new
 Promise
 (

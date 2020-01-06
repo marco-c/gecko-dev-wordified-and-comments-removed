@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -456,7 +456,7 @@ already
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -465,7 +465,7 @@ gBrowser
 pageurl
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -483,7 +483,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 fragmentPromise
 ;
 gBrowser

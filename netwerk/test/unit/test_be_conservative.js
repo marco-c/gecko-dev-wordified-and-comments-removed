@@ -1112,8 +1112,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1154,7 +1154,7 @@ hostname
 let
 cert
 =
-yield
+await
 getCert
 (
 )
@@ -1185,7 +1185,7 @@ port
 cert
 )
 ;
-yield
+await
 startClient
 (
 server
@@ -1226,7 +1226,7 @@ port
 cert
 )
 ;
-yield
+await
 startClient
 (
 server
@@ -1236,7 +1236,7 @@ true
 false
 )
 ;
-yield
+await
 startClient
 (
 server

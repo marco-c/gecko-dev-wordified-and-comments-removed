@@ -52,8 +52,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_notification_incomplete
 (
 )
@@ -322,7 +322,7 @@ of
 records
 )
 {
-yield
+await
 db
 .
 put
@@ -620,13 +620,13 @@ updates
 }
 )
 ;
-yield
+await
 notificationPromise
 ;
 let
 storeRecords
 =
-yield
+await
 db
 .
 getAllKeyIDs

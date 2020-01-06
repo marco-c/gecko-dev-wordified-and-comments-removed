@@ -12,8 +12,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -37,8 +37,8 @@ textContent
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -205,7 +205,7 @@ body
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -229,7 +229,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -246,7 +246,7 @@ browser
 let
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -265,7 +265,7 @@ synthesizeMouseAtCenter
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -283,7 +283,7 @@ browser
 ;
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -302,7 +302,7 @@ synthesizeMouse
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtPoint
@@ -316,7 +316,7 @@ browser
 ;
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -337,7 +337,7 @@ body
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtPoint
@@ -351,7 +351,7 @@ browser
 ;
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -372,7 +372,7 @@ button
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -389,7 +389,7 @@ browser
 ;
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -414,7 +414,7 @@ selector
 let
 cancelled
 =
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -436,7 +436,7 @@ browser
 ;
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -475,7 +475,7 @@ cancelled
 ;
 cancelled
 =
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -497,7 +497,7 @@ browser
 ;
 details
 =
-yield
+await
 getLastEventDetails
 (
 browser
@@ -546,12 +546,12 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 registerAboutPage
@@ -582,7 +582,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -619,7 +619,7 @@ it
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -629,7 +629,7 @@ tab
 ;
 try
 {
-yield
+await
 BrowserTestUtils
 .
 unregisterAboutPage
@@ -681,7 +681,7 @@ page
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 unregisterAboutPage

@@ -33,12 +33,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -49,8 +49,8 @@ url
 :
 kPage
 }
+async
 function
-*
 (
 aBrowser
 )
@@ -143,7 +143,7 @@ button
 window
 )
 ;
-yield
+await
 popupShownPromise
 ;
 is
@@ -261,12 +261,12 @@ spawn
 (
 aBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -367,7 +367,7 @@ testMenuItem
 window
 )
 ;
-yield
+await
 promiseCtxMenuClick
 ;
 }

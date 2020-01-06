@@ -319,8 +319,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 getAndRevokeToken
 (
 )
@@ -375,7 +375,7 @@ clientOptions
 let
 result
 =
-yield
+await
 client
 .
 getTokenFromAssertion
@@ -414,7 +414,7 @@ token
 "
 )
 ;
-yield
+await
 client
 .
 destroyToken
@@ -441,7 +441,7 @@ it
 "
 )
 ;
-yield
+await
 promiseStopServer
 (
 server

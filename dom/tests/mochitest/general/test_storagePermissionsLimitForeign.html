@@ -132,12 +132,12 @@ javascript
 >
 task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 setCookieBehavior
 (
 BEHAVIOR_LIMIT_FOREIGN
@@ -152,7 +152,7 @@ able
 to
 access
 storage
-yield
+await
 storageAllowed
 (
 )
@@ -166,7 +166,7 @@ should
 be
 allowed
 .
-yield
+await
 runIFrame
 (
 "
@@ -176,7 +176,7 @@ html
 "
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -198,7 +198,7 @@ iframes
 should
 not
 .
-yield
+await
 runIFrame
 (
 "
@@ -245,7 +245,7 @@ scripts
 '
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -257,7 +257,7 @@ nullprincipal
 "
 )
 ;
-yield
+await
 runIFrame
 (
 "
@@ -298,7 +298,7 @@ chrome
 over
 Xrays
 .
-yield
+await
 runIFrame
 (
 thirdparty
@@ -312,7 +312,7 @@ thirdparty
 "
 )
 ;
-yield
+await
 runIFrame
 (
 thirdparty
@@ -324,7 +324,7 @@ sjs
 "
 )
 ;
-yield
+await
 runIFrame
 (
 thirdparty
@@ -349,7 +349,7 @@ unable
 to
 access
 storage
-yield
+await
 runWorker
 (
 "

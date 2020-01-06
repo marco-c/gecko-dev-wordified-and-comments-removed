@@ -30,12 +30,8 @@ dd0c9845837f
 let
 clearForPattern
 =
-Task
-.
 async
-(
 function
-*
 (
 testRecords
 pattern
@@ -51,7 +47,7 @@ stringify
 pattern
 )
 ;
-yield
+await
 PushService
 .
 _clearOriginData
@@ -97,7 +93,7 @@ originAttributes
 let
 registration
 =
-yield
+await
 PushService
 .
 registration
@@ -190,7 +186,6 @@ patternString
 }
 }
 }
-)
 ;
 function
 run_test
@@ -221,8 +216,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_webapps_cleardata
 (
 )
@@ -719,7 +714,7 @@ unregisterDone
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -756,7 +751,7 @@ originAttributes
 )
 )
 ;
-yield
+await
 clearForPattern
 (
 testRecords
@@ -770,7 +765,7 @@ false
 }
 )
 ;
-yield
+await
 clearForPattern
 (
 testRecords
@@ -781,7 +776,7 @@ appId
 }
 )
 ;
-yield
+await
 clearForPattern
 (
 testRecords
@@ -795,7 +790,7 @@ true
 }
 )
 ;
-yield
+await
 clearForPattern
 (
 testRecords
@@ -821,7 +816,7 @@ records
 '
 )
 ;
-yield
+await
 unregisterPromise
 ;
 }

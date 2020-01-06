@@ -25,8 +25,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 testPermissionUnknownInPrivateWindow
 (
 )
@@ -53,7 +53,7 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -111,7 +111,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -207,7 +207,7 @@ time
 win
 )
 ;
-yield
+await
 promiseMessage
 (
 false

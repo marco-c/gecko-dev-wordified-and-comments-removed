@@ -77,8 +77,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -238,8 +238,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -271,7 +271,7 @@ beforeUnloadCount
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -301,7 +301,7 @@ remote
 "
 )
 ;
-yield
+await
 injectBeforeUnload
 (
 browser
@@ -315,7 +315,7 @@ awaitAndCloseBeforeUnloadDialog
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -328,7 +328,7 @@ support
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -399,7 +399,7 @@ goBack
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -407,7 +407,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 injectBeforeUnload
 (
 browser
@@ -445,7 +445,7 @@ goForward
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -476,7 +476,7 @@ events
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -489,8 +489,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -522,7 +522,7 @@ beforeUnloadCount
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -558,15 +558,15 @@ remote
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -625,7 +625,7 @@ awaitAndCloseBeforeUnloadDialog
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -634,7 +634,7 @@ browser
 TEST_URL
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -703,7 +703,7 @@ goBack
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -711,15 +711,15 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -802,7 +802,7 @@ goForward
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -833,7 +833,7 @@ events
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -1819,8 +1819,8 @@ resolve
 var
 testMediaQueriesInPictureElements
 =
+async
 function
-*
 (
 resisting
 )
@@ -2018,7 +2018,7 @@ testImage
 "
 )
 ;
-yield
+await
 sleep
 (
 0
@@ -2116,8 +2116,8 @@ resolve
 var
 test
 =
+async
 function
-*
 (
 isContent
 )
@@ -2132,7 +2132,7 @@ true
 ]
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -2244,7 +2244,7 @@ resisting
 )
 ;
 }
-yield
+await
 testMediaQueriesInPictureElements
 (
 resisting

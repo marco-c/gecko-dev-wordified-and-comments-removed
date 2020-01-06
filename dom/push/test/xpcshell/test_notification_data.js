@@ -152,8 +152,8 @@ server
 ;
 add_task
 (
+async
 function
-*
 test_notification_ack_data_setup
 (
 )
@@ -195,7 +195,7 @@ close
 }
 )
 ;
-yield
+await
 putRecord
 (
 '
@@ -271,7 +271,7 @@ c_sGN6uCv9Hu7JOQT34jAQ
 '
 )
 ;
-yield
+await
 putRecord
 (
 '
@@ -342,7 +342,7 @@ t3P246Gj9vjKDHHRYaY6hw
 '
 )
 ;
-yield
+await
 putRecord
 (
 '
@@ -542,7 +542,7 @@ request
 }
 )
 ;
-yield
+await
 setupDonePromise
 ;
 }
@@ -550,8 +550,8 @@ setupDonePromise
 ;
 add_task
 (
+async
 function
-*
 test_notification_ack_data
 (
 )
@@ -1397,7 +1397,7 @@ ackReceived
 ;
 }
 ;
-yield
+await
 allTestData
 .
 reduce

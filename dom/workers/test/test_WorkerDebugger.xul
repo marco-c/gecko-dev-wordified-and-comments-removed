@@ -210,12 +210,9 @@ test
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -291,7 +288,7 @@ dbg
 childDbg
 ]
 =
-yield
+await
 promise
 ;
 info
@@ -569,7 +566,7 @@ terminate
 (
 )
 ;
-yield
+await
 promise
 ;
 info
@@ -611,7 +608,7 @@ SHARED_WORKER_URL
 let
 sharedDbg
 =
-yield
+await
 promise
 ;
 info
@@ -845,7 +842,7 @@ close
 "
 )
 ;
-yield
+await
 promise
 ;
 wdm
@@ -862,6 +859,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

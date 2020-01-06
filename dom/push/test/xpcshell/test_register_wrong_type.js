@@ -54,8 +54,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_wrong_type
 (
 )
@@ -223,7 +223,7 @@ type
 }
 )
 ;
-yield
+await
 rejects
 (
 PushService
@@ -277,7 +277,7 @@ ID
 '
 )
 ;
-yield
+await
 helloPromise
 ;
 equal

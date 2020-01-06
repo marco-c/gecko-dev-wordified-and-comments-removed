@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -114,7 +114,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -130,7 +130,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 new
 Promise
 (
@@ -164,7 +164,7 @@ resolve
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -200,7 +200,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -221,7 +221,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -237,7 +237,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -259,7 +259,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 function
@@ -324,7 +324,7 @@ startDragSession
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -345,7 +345,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -375,7 +375,7 @@ endDragSession
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -410,7 +410,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -431,7 +431,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 popupHiddenPromise
@@ -446,7 +446,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -468,7 +468,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 popupShownPromise
@@ -483,7 +483,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -504,7 +504,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 popupHiddenPromise
@@ -519,7 +519,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -540,10 +540,10 @@ mousedown
 browser
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -564,7 +564,7 @@ mouseup
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse

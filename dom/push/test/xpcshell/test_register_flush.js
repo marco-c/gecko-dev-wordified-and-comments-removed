@@ -71,8 +71,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_register_flush
 (
 )
@@ -177,7 +177,7 @@ systemRecord
 true
 }
 ;
-yield
+await
 db
 .
 put
@@ -390,7 +390,7 @@ ackDone
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -452,7 +452,7 @@ data
 scope
 }
 =
-yield
+await
 notifyPromise
 ;
 equal
@@ -478,13 +478,13 @@ scope
 '
 )
 ;
-yield
+await
 ackPromise
 ;
 let
 prevRecord
 =
-yield
+await
 db
 .
 getByKeyID
@@ -549,7 +549,7 @@ responses
 let
 registeredRecord
 =
-yield
+await
 db
 .
 getByPushEndpoint

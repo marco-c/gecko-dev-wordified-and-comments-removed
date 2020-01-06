@@ -302,8 +302,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 grace_timeout_termination_with_interrupted_intercept
 (
 )
@@ -332,7 +332,7 @@ length
 idle
 timeout
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -411,7 +411,7 @@ resolve
 let
 registration
 =
-yield
+await
 navigator
 .
 serviceWorker
@@ -433,7 +433,7 @@ scope
 }
 )
 ;
-yield
+await
 waitForControlled
 ;
 ok
@@ -595,7 +595,7 @@ dies
 }
 )
 ;
-yield
+await
 waitForFetchActive
 ;
 let
@@ -739,7 +739,7 @@ rescheduled
 .
 .
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -807,7 +807,7 @@ the
 fetch
 failing
 .
-yield
+await
 hangingFetch
 ;
 /
@@ -826,7 +826,7 @@ wait
 /
 assert
 .
-yield
+await
 wait_for_expected_message
 (
 expectedMessage
@@ -846,21 +846,21 @@ preferences
 and
 otherwise
 cleanup
-yield
+await
 SpecialPowers
 .
 popPrefEnv
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
 (
 )
 ;
-yield
+await
 registration
 .
 unregister

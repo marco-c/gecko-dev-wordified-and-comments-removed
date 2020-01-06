@@ -55,13 +55,13 @@ browser
 .
 selectedBrowser
 aMessage
+async
 function
-*
 (
 aMessage
 )
 {
-yield
+await
 new
 Promise
 (
@@ -132,8 +132,8 @@ true
 }
 add_task
 (
+async
 function
-*
 test1
 (
 )
@@ -186,7 +186,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -264,7 +264,7 @@ hidden
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -307,8 +307,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 test2
 (
 )
@@ -325,7 +325,7 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -383,7 +383,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -458,7 +458,7 @@ hidden
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 "
@@ -515,8 +515,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test3
 (
 )
@@ -561,7 +561,7 @@ loadURI
 testPageURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -652,7 +652,7 @@ time
 }
 )
 ;
-yield
+await
 promiseMessage
 (
 "

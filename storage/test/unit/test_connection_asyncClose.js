@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_asyncClose_does_not_complete_before_statements
 (
 )
@@ -49,7 +49,7 @@ finalize
 (
 )
 ;
-yield
+await
 asyncClose
 (
 db
@@ -58,7 +58,7 @@ db
 equal
 (
 (
-yield
+await
 asyncStatementPromise
 )
 Ci
@@ -81,8 +81,8 @@ DEBUG
 {
 add_task
 (
+async
 function
-*
 test_double_asyncClose_throws
 (
 )
@@ -90,7 +90,7 @@ test_double_asyncClose_throws
 let
 db
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB
@@ -101,7 +101,7 @@ getTestDB
 let
 realClosePromise
 =
-yield
+await
 asyncClose
 (
 db
@@ -142,7 +142,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 ;
 }
-yield
+await
 realClosePromise
 ;
 }
@@ -151,8 +151,8 @@ realClosePromise
 }
 add_task
 (
+async
 function
-*
 test_asyncClose_on_sync_db
 (
 )
@@ -171,7 +171,7 @@ getTestDB
 )
 )
 ;
-yield
+await
 asyncClose
 (
 db
@@ -193,8 +193,8 @@ asynchronously
 ;
 add_task
 (
+async
 function
-*
 test_asyncClose_failed_open
 (
 )
@@ -209,7 +209,7 @@ getFakeDB
 )
 )
 ;
-yield
+await
 openPromise
 .
 then
@@ -271,8 +271,8 @@ happen
 ;
 add_task
 (
+async
 function
-*
 test_asyncClose_does_not_throw_without_callback
 (
 )
@@ -280,7 +280,7 @@ test_asyncClose_does_not_throw_without_callback
 let
 db
 =
-yield
+await
 openAsyncDatabase
 (
 getTestDB

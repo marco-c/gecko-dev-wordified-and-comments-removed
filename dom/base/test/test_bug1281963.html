@@ -202,7 +202,6 @@ let
 setPref
 =
 function
-*
 (
 key
 value
@@ -261,8 +260,8 @@ active
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -280,7 +279,7 @@ Disable
 fingerprinting
 resistance
 .
-yield
+await
 setPref
 (
 "
@@ -449,7 +448,7 @@ with
 fingerprinting
 resistance
 enabled
-yield
+await
 setPref
 (
 "

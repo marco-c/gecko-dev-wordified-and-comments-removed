@@ -320,8 +320,8 @@ received
 /
 add_task
 (
+async
 function
-*
 register_404
 (
 )
@@ -395,7 +395,7 @@ at
 our
 generator
 .
-yield
+await
 navigator
 .
 serviceWorker
@@ -463,7 +463,7 @@ expected
 }
 )
 ;
-yield
+await
 wait_for_expected_message
 (
 expectedMessage
@@ -507,8 +507,8 @@ type
 /
 add_task
 (
+async
 function
-*
 register_bad_mime_type
 (
 )
@@ -561,7 +561,7 @@ thrown
 at
 us
 .
-yield
+await
 navigator
 .
 serviceWorker
@@ -631,7 +631,7 @@ expected
 }
 )
 ;
-yield
+await
 wait_for_expected_message
 (
 expectedMessage

@@ -28,8 +28,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_service_parent
 (
 )
@@ -72,7 +72,7 @@ close
 }
 )
 ;
-yield
+await
 setUpServiceInParent
 (
 PushService
@@ -119,7 +119,7 @@ topic
 "
 )
 ;
-yield
+await
 run_test_in_child
 (
 '
@@ -131,7 +131,7 @@ js
 '
 )
 ;
-yield
+await
 tearDownServiceInParent
 (
 db

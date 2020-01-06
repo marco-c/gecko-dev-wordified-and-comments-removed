@@ -386,8 +386,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test1
 (
 )
@@ -505,7 +505,7 @@ false
 let
 newRecord
 =
-yield
+await
 PushService
 .
 register
@@ -596,7 +596,7 @@ record
 let
 record
 =
-yield
+await
 db
 .
 getByKeyID

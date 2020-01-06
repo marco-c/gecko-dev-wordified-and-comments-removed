@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -27,7 +27,7 @@ html
 let
 viewSourceTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -108,8 +108,8 @@ viewSourceTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ textContent
 let
 results
 =
-yield
+await
 Promise
 .
 all
@@ -156,7 +156,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
