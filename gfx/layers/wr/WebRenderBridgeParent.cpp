@@ -410,7 +410,7 @@ resourcePath
 PR_GetEnv
 (
 "
-WR_RESOURCE_Path
+WR_RESOURCE_PATH
 "
 )
 ;
