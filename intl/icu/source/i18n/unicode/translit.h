@@ -1021,7 +1021,7 @@ ID
 append
 (
 (
-UChar
+char16_t
 )
 0
 )

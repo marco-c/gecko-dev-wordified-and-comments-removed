@@ -102,11 +102,6 @@ isIncremental
 )
 const
 ;
-const
-UCaseProps
-*
-fCsp
-;
 UCaseMapFull
 *
 fMap

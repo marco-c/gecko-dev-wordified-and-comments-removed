@@ -705,7 +705,7 @@ UnicodeString
 ;
 static
 const
-UChar
+char16_t
 *
 findID
 (
@@ -717,7 +717,7 @@ id
 ;
 static
 const
-UChar
+char16_t
 *
 dereferOlsonLink
 (
@@ -729,7 +729,7 @@ id
 ;
 static
 const
-UChar
+char16_t
 *
 getRegion
 (
@@ -746,7 +746,7 @@ ifndef
 U_HIDE_INTERNAL_API
 static
 const
-UChar
+char16_t
 *
 getRegion
 (

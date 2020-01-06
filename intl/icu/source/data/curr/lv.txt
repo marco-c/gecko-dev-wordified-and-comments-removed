@@ -895,7 +895,7 @@ ISK
 ISK
 "
 "
-slandes
+Islandes
 krona
 "
 }
@@ -1461,7 +1461,6 @@ PEN
 "
 "
 Peru
-jaunais
 sols
 "
 }
@@ -4708,21 +4707,21 @@ ISK
 one
 {
 "
-slandes
+Islandes
 krona
 "
 }
 other
 {
 "
-slandes
+Islandes
 kronas
 "
 }
 zero
 {
 "
-slandes
+Islandes
 kronas
 "
 }
@@ -5863,7 +5862,6 @@ one
 {
 "
 Peru
-jaunais
 sols
 "
 }
@@ -5871,7 +5869,6 @@ other
 {
 "
 Peru
-jaunie
 soli
 "
 }
@@ -5879,7 +5876,6 @@ zero
 {
 "
 Peru
-jaunie
 soli
 "
 }
@@ -7717,9 +7713,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

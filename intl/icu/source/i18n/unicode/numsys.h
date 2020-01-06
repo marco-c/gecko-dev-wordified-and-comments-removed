@@ -216,7 +216,9 @@ algorithmic
 void
 setDesc
 (
+const
 UnicodeString
+&
 desc
 )
 ;

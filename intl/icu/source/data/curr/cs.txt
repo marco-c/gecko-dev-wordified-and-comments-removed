@@ -2213,7 +2213,6 @@ PEN
 "
 peru
 nsk
-nov
 sol
 "
 }
@@ -11215,7 +11214,6 @@ few
 "
 peru
 nsk
-nov
 soly
 "
 }
@@ -11225,8 +11223,6 @@ many
 peru
 nsk
 ho
-nov
-ho
 solu
 "
 }
@@ -11235,7 +11231,6 @@ one
 "
 peru
 nsk
-nov
 sol
 "
 }
@@ -11244,8 +11239,6 @@ other
 "
 peru
 nsk
-ch
-nov
 ch
 sol
 "
@@ -15329,9 +15322,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

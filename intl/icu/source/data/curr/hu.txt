@@ -2063,7 +2063,7 @@ PEI
 PEI
 "
 "
-Perui
+perui
 inti
 "
 }
@@ -2075,7 +2075,6 @@ PEN
 "
 perui
 sol
-nuevo
 "
 }
 PES
@@ -2084,8 +2083,12 @@ PES
 PES
 "
 "
-Perui
+perui
 sol
+(
+1863
+1965
+)
 "
 }
 PGK
@@ -6418,7 +6421,6 @@ one
 "
 perui
 sol
-nuevo
 "
 }
 other
@@ -6426,7 +6428,6 @@ other
 "
 perui
 sol
-nuevo
 "
 }
 }
@@ -7995,9 +7996,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

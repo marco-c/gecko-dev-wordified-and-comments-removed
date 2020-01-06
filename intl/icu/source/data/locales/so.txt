@@ -95,7 +95,7 @@ decimalFormat
 one
 {
 "
-Kun
+0K
 "
 }
 other
@@ -160,9 +160,9 @@ Version
 .
 1
 .
-27
+33
 .
-78
+76
 "
 }
 calendar

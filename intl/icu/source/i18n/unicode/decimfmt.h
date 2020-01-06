@@ -1201,7 +1201,7 @@ void
 setCurrency
 (
 const
-UChar
+char16_t
 *
 theCurrency
 UErrorCode
@@ -1214,7 +1214,7 @@ void
 setCurrency
 (
 const
-UChar
+char16_t
 *
 theCurrency
 )
@@ -1408,7 +1408,7 @@ result
 ParsePosition
 &
 pos
-UChar
+char16_t
 *
 currency
 )
@@ -1457,7 +1457,7 @@ digits
 UBool
 *
 status
-UChar
+char16_t
 *
 currency
 )
@@ -1479,7 +1479,7 @@ digits
 UBool
 *
 status
-UChar
+char16_t
 *
 currency
 )
@@ -1518,7 +1518,7 @@ UBool
 complexCurrencyParsing
 int8_t
 type
-UChar
+char16_t
 *
 currency
 )
@@ -1629,7 +1629,7 @@ int32_t
 pos
 int8_t
 type
-UChar
+char16_t
 *
 currency
 )
@@ -1742,7 +1742,7 @@ double
 getCurrencyRounding
 (
 const
-UChar
+char16_t
 *
 currency
 UErrorCode
@@ -1755,7 +1755,7 @@ int
 getCurrencyFractionDigits
 (
 const
-UChar
+char16_t
 *
 currency
 UErrorCode
@@ -1862,7 +1862,7 @@ virtual
 void
 getEffectiveCurrency
 (
-UChar
+char16_t
 *
 result
 UErrorCode

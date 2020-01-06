@@ -801,9 +801,9 @@ Version
 .
 1
 .
-30
+32
 .
-58
+59
 "
 }
 currencySpacing

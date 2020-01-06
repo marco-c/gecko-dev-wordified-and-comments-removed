@@ -12,6 +12,15 @@ include
 "
 unicode
 /
+strenum
+.
+h
+"
+#
+include
+"
+unicode
+/
 uloc
 .
 h

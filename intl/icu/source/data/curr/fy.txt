@@ -2131,7 +2131,6 @@ PEN
 "
 "
 Peruaanske
-nieuwe
 sol
 "
 }
@@ -2143,6 +2142,10 @@ PES
 "
 Peruaanske
 sol
+(
+1863
+1985
+)
 "
 }
 PGK
@@ -6899,7 +6902,6 @@ one
 {
 "
 Peruaanske
-nieuwe
 sol
 "
 }
@@ -6907,7 +6909,6 @@ other
 {
 "
 Peruaanske
-nieuwe
 sol
 "
 }
@@ -6919,6 +6920,10 @@ one
 "
 Peruaanske
 sol
+(
+1863
+1985
+)
 "
 }
 other
@@ -6926,6 +6931,10 @@ other
 "
 Peruaanske
 sol
+(
+1863
+1985
+)
 "
 }
 }
@@ -8950,9 +8959,9 @@ Version
 .
 1
 .
-29
+31
 .
-44
+86
 "
 }
 }

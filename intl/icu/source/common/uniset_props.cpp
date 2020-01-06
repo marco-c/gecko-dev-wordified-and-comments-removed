@@ -898,9 +898,6 @@ status
 }
 ucase_addPropertyStarts
 (
-ucase_getSingleton
-(
-)
 &
 sa
 &
@@ -1073,9 +1070,6 @@ UPROPS_SRC_CASE
 :
 ucase_addPropertyStarts
 (
-ucase_getSingleton
-(
-)
 &
 sa
 &

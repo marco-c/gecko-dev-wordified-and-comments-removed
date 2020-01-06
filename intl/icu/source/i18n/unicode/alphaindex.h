@@ -32,6 +32,15 @@ locid
 h
 "
 #
+include
+"
+unicode
+/
+unistr
+.
+h
+"
+#
 if
 !
 UCONFIG_NO_COLLATION

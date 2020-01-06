@@ -40,7 +40,7 @@ length
 const
 ;
 inline
-UChar
+char16_t
 charAt
 (
 int32_t
@@ -135,7 +135,7 @@ const
 0
 ;
 virtual
-UChar
+char16_t
 getCharAt
 (
 int32_t
@@ -184,7 +184,7 @@ getLength
 ;
 }
 inline
-UChar
+char16_t
 Replaceable
 :
 :

@@ -38,9 +38,7 @@ public
 :
 CurrencyUnit
 (
-const
-UChar
-*
+ConstChar16Ptr
 isoCode
 UErrorCode
 &
@@ -96,7 +94,7 @@ getStaticClassID
 ;
 inline
 const
-UChar
+char16_t
 *
 getISOCurrency
 (
@@ -105,7 +103,7 @@ const
 ;
 private
 :
-UChar
+char16_t
 isoCode
 [
 4
@@ -115,7 +113,7 @@ isoCode
 ;
 inline
 const
-UChar
+char16_t
 *
 CurrencyUnit
 :

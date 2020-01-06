@@ -115,6 +115,15 @@ SHARED_OBJECT
 &
 %
 s
+^
+_
+%
+.
+*
+#
+#
+&
+s
 %
 ^
 LD_SONAME

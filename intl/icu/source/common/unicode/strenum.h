@@ -74,7 +74,7 @@ status
 ;
 virtual
 const
-UChar
+char16_t
 *
 unext
 (

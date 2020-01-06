@@ -172,7 +172,7 @@ i
 const
 ;
 virtual
-UChar
+char16_t
 getElementUnit
 (
 int32_t
@@ -238,7 +238,7 @@ int32_t
 i
 int32_t
 unitIndex
-UChar
+char16_t
 unit
 )
 const
@@ -307,7 +307,7 @@ public
 UCTLinearMatchNode
 (
 const
-UChar
+char16_t
 *
 units
 int32_t
@@ -342,7 +342,7 @@ builder
 private
 :
 const
-UChar
+char16_t
 *
 s
 ;
@@ -384,7 +384,7 @@ int32_t
 write
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -446,7 +446,7 @@ elementsCapacity
 int32_t
 elementsLength
 ;
-UChar
+char16_t
 *
 uchars
 ;

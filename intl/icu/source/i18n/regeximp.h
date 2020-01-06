@@ -956,11 +956,6 @@ UText
 fUText
 ;
 const
-UCaseProps
-*
-fcsp
-;
-const
 UChar
 *
 fFoldChars
@@ -1025,11 +1020,6 @@ fIndex
 ;
 int64_t
 fLimit
-;
-const
-UCaseProps
-*
-fcsp
 ;
 const
 UChar

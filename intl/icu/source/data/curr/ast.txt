@@ -2261,8 +2261,7 @@ PEN
 PEN
 "
 "
-sol
-nuevu
+Sol
 peruanu
 "
 }
@@ -7863,7 +7862,6 @@ one
 {
 "
 sol
-nuevu
 peruanu
 "
 }
@@ -7871,7 +7869,6 @@ other
 {
 "
 soles
-nuevos
 peruanos
 "
 }
@@ -10067,9 +10064,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

@@ -53,6 +53,15 @@ unum
 .
 h
 "
+#
+include
+"
+unicode
+/
+unistr
+.
+h
+"
 U_NAMESPACE_BEGIN
 class
 U_I18N_API
@@ -346,7 +355,7 @@ ifndef
 U_HIDE_INTERNAL_API
 inline
 const
-UChar
+char16_t
 *
 getCurrencyPattern
 (
@@ -383,7 +392,7 @@ ULOC_FULLNAME_CAPACITY
 ]
 ;
 const
-UChar
+char16_t
 *
 currPattern
 ;
@@ -666,7 +675,7 @@ ifndef
 U_HIDE_INTERNAL_API
 inline
 const
-UChar
+char16_t
 *
 DecimalFormatSymbols
 :

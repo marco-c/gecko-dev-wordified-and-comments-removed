@@ -16,6 +16,15 @@ include
 "
 unicode
 /
+strenum
+.
+h
+"
+#
+include
+"
+unicode
+/
 ustring
 .
 h

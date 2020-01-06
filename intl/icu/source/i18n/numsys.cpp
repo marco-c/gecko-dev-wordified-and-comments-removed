@@ -1055,7 +1055,9 @@ NumberingSystem
 :
 setDesc
 (
+const
 UnicodeString
+&
 d
 )
 {

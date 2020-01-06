@@ -691,7 +691,7 @@ const
 ;
 static
 const
-UChar
+char16_t
 fgCalendarFieldToPatternLetter
 [
 ]

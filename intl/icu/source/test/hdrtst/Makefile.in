@@ -1121,7 +1121,7 @@ U_HIDE_DRAFT_API
 hd_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1143,7 +1143,7 @@ h
 hd_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1160,7 +1160,7 @@ void
 hd_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1177,7 +1177,7 @@ junk
 hd_
 incfile
 .
-c
+cpp
 ;
 \
 (
@@ -1193,7 +1193,7 @@ cppflags
 hd_
 incfile
 .
-c
+cpp
 |
 |
 FAIL
@@ -1271,7 +1271,7 @@ U_HIDE_DEPRECATED_API
 hdp_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1293,7 +1293,7 @@ h
 hdp_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1310,7 +1310,7 @@ void
 hdp_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1327,7 +1327,7 @@ junk
 hdp_
 incfile
 .
-c
+cpp
 ;
 \
 (
@@ -1343,7 +1343,7 @@ cppflags
 hdp_
 incfile
 .
-c
+cpp
 |
 |
 FAIL
@@ -1422,7 +1422,7 @@ U_HIDE_INTERNAL_API
 hin_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1444,7 +1444,7 @@ h
 hin_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1461,7 +1461,7 @@ void
 hin_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1478,7 +1478,7 @@ junk
 hin_
 incfile
 .
-c
+cpp
 ;
 \
 (
@@ -1494,7 +1494,7 @@ cppflags
 hin_
 incfile
 .
-c
+cpp
 |
 |
 FAIL
@@ -1572,7 +1572,7 @@ U_HIDE_OBSOLETE_API
 hob_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1594,7 +1594,7 @@ h
 hob_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1611,7 +1611,7 @@ void
 hob_
 incfile
 .
-c
+cpp
 ;
 \
 echo
@@ -1628,7 +1628,7 @@ junk
 hob_
 incfile
 .
-c
+cpp
 ;
 \
 (
@@ -1644,7 +1644,7 @@ cppflags
 hob_
 incfile
 .
-c
+cpp
 |
 |
 FAIL

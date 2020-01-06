@@ -1166,7 +1166,6 @@ PEN
 "
 Peruko
 sol
-berria
 "
 }
 PGK
@@ -4092,7 +4091,6 @@ one
 "
 Peruko
 sol
-berri
 "
 }
 other
@@ -4100,7 +4098,6 @@ other
 "
 Peruko
 sol
-berri
 "
 }
 }
@@ -5029,9 +5026,9 @@ Version
 .
 1
 .
-29
+32
 .
-20
+59
 "
 }
 }

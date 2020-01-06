@@ -565,15 +565,6 @@ c
 )
 {
 const
-UCaseProps
-*
-csp
-=
-ucase_getSingleton
-(
-)
-;
-const
 UChar
 *
 resultString
@@ -585,7 +576,6 @@ UBool
 (
 ucase_toFullFolding
 (
-csp
 c
 &
 resultString
@@ -2751,15 +2741,6 @@ getNFKCInstance
 pErrorCode
 )
 ;
-const
-UCaseProps
-*
-csp
-=
-ucase_getSingleton
-(
-)
-;
 if
 (
 U_FAILURE
@@ -2786,7 +2767,6 @@ folded1Length
 =
 ucase_toFullFolding
 (
-csp
 c
 &
 folded1

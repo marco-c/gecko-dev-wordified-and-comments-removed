@@ -251,7 +251,7 @@ Include
 "
 sprintf
 .
-c
+cpp
 "
 >
 <
@@ -274,7 +274,7 @@ Include
 "
 sscanf
 .
-c
+cpp
 "
 >
 <
@@ -320,7 +320,7 @@ Include
 "
 ufile
 .
-c
+cpp
 "
 >
 <
@@ -343,7 +343,7 @@ Include
 "
 ufmt_cmn
 .
-c
+cpp
 "
 >
 <
@@ -389,7 +389,7 @@ Include
 "
 uprntf_p
 .
-c
+cpp
 "
 >
 <
@@ -412,7 +412,7 @@ Include
 "
 uscanf
 .
-c
+cpp
 "
 >
 <
@@ -435,7 +435,7 @@ Include
 "
 uscanf_p
 .
-c
+cpp
 "
 >
 <
@@ -458,7 +458,7 @@ Include
 "
 ustdio
 .
-c
+cpp
 "
 >
 <

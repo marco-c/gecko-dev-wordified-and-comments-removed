@@ -51,9 +51,7 @@ const
 Formattable
 &
 amount
-const
-UChar
-*
+ConstChar16Ptr
 isoCode
 UErrorCode
 &
@@ -64,9 +62,7 @@ CurrencyAmount
 (
 double
 amount
-const
-UChar
-*
+ConstChar16Ptr
 isoCode
 UErrorCode
 &
@@ -131,7 +127,7 @@ const
 ;
 inline
 const
-UChar
+char16_t
 *
 getISOCurrency
 (
@@ -165,7 +161,7 @@ getUnit
 }
 inline
 const
-UChar
+char16_t
 *
 CurrencyAmount
 :

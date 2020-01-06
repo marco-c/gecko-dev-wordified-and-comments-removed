@@ -1203,7 +1203,6 @@ PEN
 "
 "
 Peruaanse
-nuwe
 sol
 "
 }
@@ -4195,7 +4194,6 @@ one
 {
 "
 Peruaanse
-nuwe
 sol
 "
 }
@@ -4203,7 +4201,6 @@ other
 {
 "
 Peruaanse
-nuwe
 sol
 "
 }
@@ -5151,9 +5148,9 @@ Version
 .
 1
 .
-29
+32
 .
-44
+59
 "
 }
 }

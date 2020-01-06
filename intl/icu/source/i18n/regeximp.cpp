@@ -42,10 +42,6 @@ fUText
 (
 text
 )
-fcsp
-(
-NULL
-)
 fFoldChars
 (
 NULL
@@ -55,12 +51,6 @@ fFoldLength
 0
 )
 {
-fcsp
-=
-ucase_getSingleton
-(
-)
-;
 }
 CaseFoldingUTextIterator
 :
@@ -117,7 +107,6 @@ fFoldLength
 =
 ucase_toFullFolding
 (
-fcsp
 originalC
 &
 fFoldChars
@@ -237,10 +226,6 @@ fLimit
 (
 limit
 )
-fcsp
-(
-NULL
-)
 fFoldChars
 (
 NULL
@@ -250,12 +235,6 @@ fFoldLength
 0
 )
 {
-fcsp
-=
-ucase_getSingleton
-(
-)
-;
 }
 CaseFoldingUCharIterator
 :
@@ -312,7 +291,6 @@ fFoldLength
 =
 ucase_toFullFolding
 (
-fcsp
 originalC
 &
 fFoldChars

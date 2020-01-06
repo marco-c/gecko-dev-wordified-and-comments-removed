@@ -408,7 +408,7 @@ util64_pow
 (
 int32_t
 radix
-uint32_t
+uint16_t
 exponent
 )
 ;

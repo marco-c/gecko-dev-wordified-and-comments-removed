@@ -2192,7 +2192,6 @@ PEN
 "
 "
 peruansk
-nuevo
 sol
 "
 }
@@ -7610,7 +7609,6 @@ one
 {
 "
 peruansk
-nuevo
 sol
 "
 }
@@ -7618,7 +7616,6 @@ other
 {
 "
 peruanska
-nuevo
 sol
 "
 }
@@ -9684,9 +9681,9 @@ Version
 .
 1
 .
-30
+32
 .
-7
+59
 "
 }
 }

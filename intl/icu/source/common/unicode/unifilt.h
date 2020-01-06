@@ -28,7 +28,7 @@ define
 U_ETHER
 (
 (
-UChar
+char16_t
 )
 0xFFFF
 )

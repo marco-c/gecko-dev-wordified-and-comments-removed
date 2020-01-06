@@ -44,7 +44,7 @@ virtual
 UBool
 appendCodeUnit
 (
-UChar
+char16_t
 c
 )
 =
@@ -63,7 +63,7 @@ UBool
 appendString
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -79,7 +79,7 @@ appendCapacity
 )
 ;
 virtual
-UChar
+char16_t
 *
 getAppendBuffer
 (
@@ -87,7 +87,7 @@ int32_t
 minCapacity
 int32_t
 desiredCapacityHint
-UChar
+char16_t
 *
 scratch
 int32_t
@@ -131,7 +131,7 @@ virtual
 UBool
 appendCodeUnit
 (
-UChar
+char16_t
 c
 )
 ;
@@ -148,7 +148,7 @@ UBool
 appendString
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -164,7 +164,7 @@ appendCapacity
 )
 ;
 virtual
-UChar
+char16_t
 *
 getAppendBuffer
 (
@@ -172,7 +172,7 @@ int32_t
 minCapacity
 int32_t
 desiredCapacityHint
-UChar
+char16_t
 *
 scratch
 int32_t

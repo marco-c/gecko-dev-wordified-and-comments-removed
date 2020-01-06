@@ -42,6 +42,9 @@ h
 "
 U_NAMESPACE_BEGIN
 class
+CharString
+;
+class
 Hashtable
 ;
 class
@@ -516,7 +519,7 @@ fAvailableFormatKeyHash
 UnicodeString
 emptyString
 ;
-UChar
+char16_t
 fDefaultHourFormatChar
 ;
 int32_t

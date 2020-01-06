@@ -1989,7 +1989,6 @@ PEN
 PEN
 "
 "
-Nuevo
 Sol
 Periw
 "
@@ -11542,7 +11541,6 @@ PEN
 few
 {
 "
-nuevo
 sol
 Periw
 "
@@ -11550,7 +11548,6 @@ Periw
 many
 {
 "
-nuevo
 sol
 Periw
 "
@@ -11558,7 +11555,6 @@ Periw
 one
 {
 "
-nuevo
 sol
 Periw
 "
@@ -11566,7 +11562,6 @@ Periw
 other
 {
 "
-nuevo
 sol
 Periw
 "
@@ -11574,7 +11569,6 @@ Periw
 two
 {
 "
-nuevo
 sol
 Periw
 "
@@ -11582,7 +11576,6 @@ Periw
 zero
 {
 "
-nuevo
 sol
 Periw
 "
@@ -15637,9 +15630,9 @@ Version
 .
 1
 .
-30
+31
 .
-6
+86
 "
 }
 }

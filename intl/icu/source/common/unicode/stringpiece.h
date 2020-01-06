@@ -73,9 +73,6 @@ char
 str
 )
 ;
-#
-if
-U_HAVE_STD_STRING
 StringPiece
 (
 const
@@ -111,8 +108,6 @@ size
 )
 {
 }
-#
-endif
 StringPiece
 (
 const

@@ -2266,7 +2266,6 @@ PEN
 "
 "
 Sol
-r
 Pear
 thach
 "
@@ -11214,7 +11213,6 @@ few
 {
 "
 sol
-ra
 Pear
 thach
 "
@@ -11223,7 +11221,6 @@ one
 {
 "
 sol
-r
 Pear
 thach
 "
@@ -11232,7 +11229,6 @@ other
 {
 "
 sol
-r
 Pear
 thach
 "
@@ -11241,7 +11237,6 @@ two
 {
 "
 shol
-r
 Pear
 thach
 "
@@ -15419,9 +15414,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

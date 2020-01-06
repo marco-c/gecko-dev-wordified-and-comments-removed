@@ -4611,7 +4611,7 @@ fCurrency
 }
 }
 const
-UChar
+char16_t
 *
 NumberFormat
 :

@@ -18,7 +18,7 @@ include
 "
 unicode
 /
-ustring
+localpointer
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 unicode
 /
-localpointer
+ustring
 .
 h
 "
@@ -144,6 +144,10 @@ U_TITLECASE_NO_LOWERCASE
 define
 U_TITLECASE_NO_BREAK_ADJUSTMENT
 0x200
+#
+define
+UCASEMAP_OMIT_UNCHANGED_TEXT
+0x4000
 #
 if
 !

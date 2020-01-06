@@ -303,7 +303,7 @@ __cplusplus
 #
 define
 NULL
-0
+nullptr
 #
 else
 #

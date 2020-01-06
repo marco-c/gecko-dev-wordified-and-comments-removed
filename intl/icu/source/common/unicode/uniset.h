@@ -96,7 +96,7 @@ bufferCapacity
 int32_t
 patLen
 ;
-UChar
+char16_t
 *
 pat
 ;
@@ -627,7 +627,7 @@ int32_t
 span
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -656,7 +656,7 @@ int32_t
 spanBack
 (
 const
-UChar
+char16_t
 *
 s
 int32_t

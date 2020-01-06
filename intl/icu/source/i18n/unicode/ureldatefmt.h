@@ -64,9 +64,6 @@ endif
 }
 UDateRelativeDateTimeFormatterStyle
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 URelativeDateTimeUnit
@@ -95,11 +92,6 @@ endif
 }
 URelativeDateTimeUnit
 ;
-#
-endif
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 URelativeDateTimeFormatter
 ;
@@ -108,7 +100,7 @@ struct
 URelativeDateTimeFormatter
 URelativeDateTimeFormatter
 ;
-U_DRAFT
+U_STABLE
 URelativeDateTimeFormatter
 *
 U_EXPORT2
@@ -130,7 +122,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ureldatefmt_close
@@ -154,7 +146,7 @@ ureldatefmt_close
 U_NAMESPACE_END
 #
 endif
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ureldatefmt_formatNumeric
@@ -177,7 +169,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ureldatefmt_format
@@ -200,7 +192,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ureldatefmt_combineDateAndTime
@@ -231,8 +223,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

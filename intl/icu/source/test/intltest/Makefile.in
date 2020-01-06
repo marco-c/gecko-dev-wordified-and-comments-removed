@@ -397,6 +397,11 @@ CPPFLAGS
 -
 I
 (
+srcdir
+)
+-
+I
+(
 top_srcdir
 )
 /
@@ -435,6 +440,10 @@ DUNISTR_FROM_CHAR_EXPLICIT
 -
 DUNISTR_FROM_STRING_EXPLICIT
 =
+-
+DUCHAR_TYPE
+=
+char16_t
 DEFS
 +
 =

@@ -1309,10 +1309,16 @@ getBuffer
 const
 {
 return
+icu
+:
+:
+toUCharPtr
+(
 fString
 .
 getBuffer
 (
+)
 )
 ;
 }

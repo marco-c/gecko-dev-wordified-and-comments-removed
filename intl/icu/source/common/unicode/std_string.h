@@ -15,9 +15,6 @@ h
 "
 #
 if
-U_HAVE_STD_STRING
-#
-if
 defined
 (
 __GLIBCXX__
@@ -36,7 +33,5 @@ include
 <
 string
 >
-#
-endif
 #
 endif

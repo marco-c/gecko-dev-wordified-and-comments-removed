@@ -2875,7 +2875,9 @@ return
 AllowedHourFormat
 getHourFormatFromUnicodeString
 (
+const
 UnicodeString
+&
 s
 )
 {

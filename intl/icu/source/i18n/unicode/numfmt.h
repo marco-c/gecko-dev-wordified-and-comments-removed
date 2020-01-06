@@ -869,7 +869,7 @@ void
 setCurrency
 (
 const
-UChar
+char16_t
 *
 theCurrency
 UErrorCode
@@ -878,7 +878,7 @@ ec
 )
 ;
 const
-UChar
+char16_t
 *
 getCurrency
 (
@@ -955,7 +955,7 @@ virtual
 void
 getEffectiveCurrency
 (
-UChar
+char16_t
 *
 result
 UErrorCode
@@ -1048,7 +1048,7 @@ fParseIntegerOnly
 UBool
 fLenient
 ;
-UChar
+char16_t
 fCurrency
 [
 4

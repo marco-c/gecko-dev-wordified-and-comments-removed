@@ -21,6 +21,15 @@ include
 "
 unicode
 /
+uchar
+.
+h
+"
+#
+include
+"
+unicode
+/
 ustring
 .
 h

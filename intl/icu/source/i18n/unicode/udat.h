@@ -526,17 +526,12 @@ UDAT_RELATED_YEAR_FIELD
 34
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 UDAT_AM_PM_MIDNIGHT_NOON_FIELD
 =
 35
 UDAT_FLEXIBLE_DAY_PERIOD_FIELD
 =
 36
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -565,7 +560,7 @@ UDAT_HAS_PATTERN_CHAR_FOR_TIME_SEPARATOR
 0
 #
 endif
-U_STABLE
+U_CAPI
 UCalendarDateFields
 U_EXPORT2
 udat_toCalendarDateField
@@ -574,7 +569,7 @@ UDateFormatField
 field
 )
 ;
-U_STABLE
+U_CAPI
 UDateFormat
 *
 U_EXPORT2
@@ -605,7 +600,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_close
@@ -637,7 +632,7 @@ UDAT_BOOLEAN_ATTRIBUTE_COUNT
 }
 UDateFormatBooleanAttribute
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 udat_getBooleanAttribute
@@ -653,7 +648,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setBooleanAttribute
@@ -684,7 +679,7 @@ udat_close
 U_NAMESPACE_END
 #
 endif
-U_STABLE
+U_CAPI
 UDateFormat
 *
 U_EXPORT2
@@ -699,7 +694,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_format
@@ -723,7 +718,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_formatCalendar
@@ -748,7 +743,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_formatForFields
@@ -772,7 +767,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_formatCalendarForFields
@@ -797,7 +792,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 udat_parse
@@ -820,7 +815,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_parseCalendar
@@ -846,7 +841,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 udat_isLenient
@@ -857,7 +852,7 @@ UDateFormat
 fmt
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setLenient
@@ -869,7 +864,7 @@ UBool
 isLenient
 )
 ;
-U_STABLE
+U_CAPI
 const
 UCalendar
 *
@@ -882,7 +877,7 @@ UDateFormat
 fmt
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setCalendar
@@ -896,7 +891,7 @@ UCalendar
 calendarToSet
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNumberFormat
 *
@@ -909,7 +904,7 @@ UDateFormat
 fmt
 )
 ;
-U_STABLE
+U_CAPI
 const
 UNumberFormat
 *
@@ -924,7 +919,7 @@ UChar
 field
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_adoptNumberFormatForFields
@@ -944,7 +939,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setNumberFormat
@@ -958,7 +953,7 @@ UNumberFormat
 numberFormatToSet
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_adoptNumberFormat
@@ -971,7 +966,7 @@ UNumberFormat
 numberFormatToAdopt
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -982,7 +977,7 @@ int32_t
 localeIndex
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_countAvailable
@@ -990,7 +985,7 @@ udat_countAvailable
 void
 )
 ;
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 udat_get2DigitYearStart
@@ -1004,7 +999,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_set2DigitYearStart
@@ -1019,7 +1014,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_toPattern
@@ -1040,7 +1035,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_applyPattern
@@ -1101,7 +1096,7 @@ struct
 UDateFormatSymbols
 UDateFormatSymbols
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_getSymbols
@@ -1124,7 +1119,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udat_countSymbols
@@ -1137,7 +1132,7 @@ UDateFormatSymbolType
 type
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udat_setSymbols
@@ -1159,7 +1154,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1177,7 +1172,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_CAPI
 void
 U_EXPORT2
 udat_setContext
@@ -1192,7 +1187,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 UDisplayContext
 U_EXPORT2
 udat_getContext

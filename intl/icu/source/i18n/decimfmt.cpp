@@ -68,6 +68,15 @@ h
 #
 include
 "
+unicode
+/
+ustring
+.
+h
+"
+#
+include
+"
 uresimp
 .
 h

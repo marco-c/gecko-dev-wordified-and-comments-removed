@@ -1991,7 +1991,6 @@ PEN
 PEN
 "
 "
-nouveau
 sol
 p
 ruvien
@@ -2006,6 +2005,10 @@ PES
 sol
 p
 ruvien
+(
+1863
+1985
+)
 "
 }
 PGK
@@ -7125,7 +7128,6 @@ PEN
 one
 {
 "
-nouveau
 sol
 p
 ruvien
@@ -7134,7 +7136,6 @@ ruvien
 other
 {
 "
-nouveaux
 sols
 p
 ruviens
@@ -9274,9 +9275,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

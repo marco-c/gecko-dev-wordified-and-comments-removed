@@ -22,9 +22,6 @@ unistr
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 U_NAMESPACE_BEGIN
 class
 U_COMMON_API
@@ -43,7 +40,7 @@ SimpleFormatter
 compiledPattern
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -331,7 +328,7 @@ int32_t
 getArgumentLimit
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -357,7 +354,7 @@ UnicodeString
 getTextWithNoArguments
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -370,7 +367,7 @@ UnicodeString
 format
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -403,7 +400,5 @@ errorCode
 }
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif

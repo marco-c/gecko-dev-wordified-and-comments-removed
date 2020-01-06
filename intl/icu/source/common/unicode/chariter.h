@@ -103,7 +103,7 @@ const
 0
 ;
 virtual
-UChar
+char16_t
 nextPostInc
 (
 void
@@ -194,7 +194,7 @@ const
 0
 ;
 virtual
-UChar
+char16_t
 first
 (
 void
@@ -203,7 +203,7 @@ void
 0
 ;
 virtual
-UChar
+char16_t
 firstPostInc
 (
 void
@@ -232,7 +232,7 @@ setToStart
 )
 ;
 virtual
-UChar
+char16_t
 last
 (
 void
@@ -256,7 +256,7 @@ setToEnd
 )
 ;
 virtual
-UChar
+char16_t
 setIndex
 (
 int32_t
@@ -276,7 +276,7 @@ position
 0
 ;
 virtual
-UChar
+char16_t
 current
 (
 void
@@ -296,7 +296,7 @@ const
 0
 ;
 virtual
-UChar
+char16_t
 next
 (
 void
@@ -314,7 +314,7 @@ void
 0
 ;
 virtual
-UChar
+char16_t
 previous
 (
 void
@@ -382,6 +382,14 @@ origin
 =
 0
 ;
+#
+ifdef
+move32
+#
+undef
+move32
+#
+endif
 virtual
 int32_t
 move32

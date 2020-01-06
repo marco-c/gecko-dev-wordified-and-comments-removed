@@ -34,7 +34,7 @@ struct
 UListFormatter
 UListFormatter
 ;
-U_STABLE
+U_CAPI
 UListFormatter
 *
 U_EXPORT2
@@ -49,7 +49,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulistfmt_close
@@ -73,7 +73,7 @@ ulistfmt_close
 U_NAMESPACE_END
 #
 endif
-U_DRAFT
+U_CAPI
 int32_t
 U_EXPORT2
 ulistfmt_format

@@ -1968,7 +1968,6 @@ PEN
 PEN
 "
 "
-nuevo
 sol
 peruano
 "
@@ -6588,7 +6587,6 @@ PEN
 one
 {
 "
-nuevo
 sol
 peruano
 "
@@ -6596,7 +6594,6 @@ peruano
 other
 {
 "
-nuevos
 soles
 peruanos
 "
@@ -8187,9 +8184,9 @@ Version
 .
 1
 .
-28
+32
 .
-80
+59
 "
 }
 }

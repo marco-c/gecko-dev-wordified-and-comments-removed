@@ -931,7 +931,6 @@ CZK
 "
 "
 Czech
-Republic
 Koruna
 "
 }
@@ -4909,7 +4908,6 @@ one
 {
 "
 Czech
-Republic
 koruna
 "
 }
@@ -4917,7 +4915,6 @@ other
 {
 "
 Czech
-Republic
 korunas
 "
 }
@@ -9183,9 +9180,9 @@ Version
 .
 1
 .
-30
+32
 .
-50
+59
 "
 }
 }

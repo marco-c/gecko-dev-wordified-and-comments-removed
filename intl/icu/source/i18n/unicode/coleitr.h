@@ -46,6 +46,9 @@ struct
 CollationData
 ;
 class
+CharacterIterator
+;
+class
 CollationIterator
 ;
 class

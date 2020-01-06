@@ -787,7 +787,7 @@ UnicodeString
 &
 s
 const
-UChar
+char16_t
 *
 const
 *

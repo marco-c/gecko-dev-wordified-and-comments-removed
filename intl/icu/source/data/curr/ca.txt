@@ -2257,7 +2257,6 @@ PEN
 PEN
 "
 "
-nou
 sol
 peru
 "
@@ -2270,6 +2269,10 @@ PES
 "
 sol
 peru
+(
+1863
+1965
+)
 "
 }
 PGK
@@ -7803,7 +7806,6 @@ PEN
 one
 {
 "
-nou
 sol
 peru
 "
@@ -7811,7 +7813,6 @@ peru
 other
 {
 "
-nous
 sols
 peruans
 "
@@ -7824,6 +7825,10 @@ one
 "
 sol
 peru
+(
+1863
+1965
+)
 "
 }
 other
@@ -7831,6 +7836,10 @@ other
 "
 sols
 peruans
+(
+1863
+1965
+)
 "
 }
 }
@@ -9917,9 +9926,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

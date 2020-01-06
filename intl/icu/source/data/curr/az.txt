@@ -1943,7 +1943,6 @@ PEN
 "
 "
 Peru
-Nuevo
 Solu
 "
 }
@@ -1955,6 +1954,10 @@ PES
 "
 Peru
 Solu
+(
+1863
+1965
+)
 "
 }
 PGK
@@ -6783,7 +6786,6 @@ one
 {
 "
 Peru
-Nuevo
 solu
 "
 }
@@ -6791,7 +6793,6 @@ other
 {
 "
 Peru
-Nuevo
 solu
 "
 }
@@ -6803,6 +6804,10 @@ one
 "
 Peru
 solu
+(
+1863
+1965
+)
 "
 }
 other
@@ -6810,6 +6815,10 @@ other
 "
 Peru
 solu
+(
+1863
+1965
+)
 "
 }
 }
@@ -8637,9 +8646,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

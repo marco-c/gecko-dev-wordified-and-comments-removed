@@ -1130,7 +1130,6 @@ PEN
 "
 "
 Peru
-nuevo
 sol
 "
 }
@@ -4088,7 +4087,6 @@ one
 {
 "
 Peru
-nuevo
 sol
 "
 }
@@ -4096,7 +4094,6 @@ other
 {
 "
 Peru
-nuevo
 sol
 "
 }
@@ -5102,9 +5099,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

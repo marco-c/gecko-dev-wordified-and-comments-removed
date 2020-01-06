@@ -40,7 +40,7 @@ include
 "
 unicode
 /
-normlzr
+unorm
 .
 h
 "
@@ -296,13 +296,13 @@ EComparisonResult
 compare
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
 sourceLength
 const
-UChar
+char16_t
 *
 target
 int32_t
@@ -315,13 +315,13 @@ UCollationResult
 compare
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
 sourceLength
 const
-UChar
+char16_t
 *
 target
 int32_t
@@ -394,7 +394,7 @@ CollationKey
 getCollationKey
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
@@ -784,7 +784,7 @@ uint32_t
 setVariableTop
 (
 const
-UChar
+char16_t
 *
 varTop
 int32_t
@@ -879,7 +879,7 @@ int32_t
 getSortKey
 (
 const
-UChar
+char16_t
 *
 source
 int32_t

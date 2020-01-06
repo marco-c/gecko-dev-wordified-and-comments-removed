@@ -196,7 +196,7 @@ const
 0
 ;
 virtual
-UChar
+char16_t
 getElementUnit
 (
 int32_t
@@ -272,7 +272,7 @@ int32_t
 i
 int32_t
 unitIndex
-UChar
+char16_t
 unit
 )
 const
@@ -930,7 +930,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -983,7 +983,7 @@ length
 ]
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -1041,7 +1041,7 @@ values
 kMaxBranchLinearSubNodeLength
 ]
 ;
-UChar
+char16_t
 units
 [
 kMaxBranchLinearSubNodeLength
@@ -1059,7 +1059,7 @@ public
 :
 SplitBranchNode
 (
-UChar
+char16_t
 middleUnit
 Node
 *
@@ -1141,7 +1141,7 @@ builder
 ;
 protected
 :
-UChar
+char16_t
 unit
 ;
 Node

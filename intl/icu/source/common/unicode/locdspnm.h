@@ -31,6 +31,15 @@ include
 "
 unicode
 /
+strenum
+.
+h
+"
+#
+include
+"
+unicode
+/
 uscript
 .
 h

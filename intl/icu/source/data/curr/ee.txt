@@ -2114,7 +2114,6 @@ PEN
 "
 "
 peruga
-nuevo
 sol
 "
 }
@@ -2125,7 +2124,6 @@ PES
 "
 "
 peruga
-nuevo
 sol
 (
 1863
@@ -7018,7 +7016,6 @@ one
 {
 "
 peruga
-nuevo
 sol
 "
 }
@@ -7026,7 +7023,6 @@ other
 {
 "
 peruga
-nuevo
 sol
 "
 }
@@ -7037,7 +7033,6 @@ one
 {
 "
 peruga
-nuevo
 sol
 (
 1863
@@ -7049,7 +7044,6 @@ other
 {
 "
 peruga
-nuevo
 sol
 (
 1863
@@ -9098,9 +9092,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

@@ -2100,7 +2100,6 @@ PEN
 PEN
 "
 "
-nuevo
 sol
 Perou
 "
@@ -11104,7 +11103,6 @@ PEN
 few
 {
 "
-nuevo
 sol
 Perou
 "
@@ -11112,7 +11110,6 @@ Perou
 many
 {
 "
-nuevo
 sol
 Perou
 "
@@ -11120,7 +11117,6 @@ Perou
 one
 {
 "
-nuevo
 sol
 Perou
 "
@@ -11128,7 +11124,6 @@ Perou
 other
 {
 "
-nuevo
 sol
 Perou
 "
@@ -11136,7 +11131,6 @@ Perou
 two
 {
 "
-nuevo
 sol
 Perou
 "
@@ -15276,9 +15270,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

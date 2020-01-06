@@ -183,7 +183,7 @@ common
 /
 cmemory
 .
-c
+cpp
 '
 '
 /
@@ -211,7 +211,7 @@ common
 /
 cstring
 .
-c
+cpp
 '
 '
 /
@@ -225,7 +225,7 @@ common
 /
 cwchar
 .
-c
+cpp
 '
 '
 /
@@ -266,6 +266,20 @@ source
 common
 /
 dtintrv
+.
+cpp
+'
+'
+/
+intl
+/
+icu
+/
+source
+/
+common
+/
+edits
 .
 cpp
 '
@@ -323,7 +337,7 @@ common
 /
 icudataver
 .
-c
+cpp
 '
 '
 /
@@ -463,7 +477,7 @@ common
 /
 locmap
 .
-c
+cpp
 '
 '
 /
@@ -617,7 +631,7 @@ common
 /
 propsvec
 .
-c
+cpp
 '
 '
 /
@@ -995,7 +1009,7 @@ common
 /
 uarrsort
 .
-c
+cpp
 '
 '
 /
@@ -1009,7 +1023,7 @@ common
 /
 ubidi
 .
-c
+cpp
 '
 '
 /
@@ -1023,7 +1037,7 @@ common
 /
 ubidi_props
 .
-c
+cpp
 '
 '
 /
@@ -1037,7 +1051,7 @@ common
 /
 ubidiln
 .
-c
+cpp
 '
 '
 /
@@ -1051,7 +1065,7 @@ common
 /
 ubiditransform
 .
-c
+cpp
 '
 '
 /
@@ -1065,7 +1079,7 @@ common
 /
 ubidiwrt
 .
-c
+cpp
 '
 '
 /
@@ -1135,7 +1149,7 @@ common
 /
 ucat
 .
-c
+cpp
 '
 '
 /
@@ -1149,7 +1163,7 @@ common
 /
 uchar
 .
-c
+cpp
 '
 '
 /
@@ -1233,7 +1247,7 @@ common
 /
 ucmndata
 .
-c
+cpp
 '
 '
 /
@@ -1247,7 +1261,7 @@ common
 /
 ucnv
 .
-c
+cpp
 '
 '
 /
@@ -1289,7 +1303,7 @@ common
 /
 ucnv_cb
 .
-c
+cpp
 '
 '
 /
@@ -1303,7 +1317,7 @@ common
 /
 ucnv_cnv
 .
-c
+cpp
 '
 '
 /
@@ -1317,7 +1331,7 @@ common
 /
 ucnv_ct
 .
-c
+cpp
 '
 '
 /
@@ -1331,7 +1345,7 @@ common
 /
 ucnv_err
 .
-c
+cpp
 '
 '
 /
@@ -1373,7 +1387,7 @@ common
 /
 ucnv_lmb
 .
-c
+cpp
 '
 '
 /
@@ -1387,7 +1401,7 @@ common
 /
 ucnv_set
 .
-c
+cpp
 '
 '
 /
@@ -1401,7 +1415,7 @@ common
 /
 ucnv_u16
 .
-c
+cpp
 '
 '
 /
@@ -1415,7 +1429,7 @@ common
 /
 ucnv_u32
 .
-c
+cpp
 '
 '
 /
@@ -1429,7 +1443,7 @@ common
 /
 ucnv_u7
 .
-c
+cpp
 '
 '
 /
@@ -1443,7 +1457,7 @@ common
 /
 ucnv_u8
 .
-c
+cpp
 '
 '
 /
@@ -1471,7 +1485,7 @@ common
 /
 ucnvdisp
 .
-c
+cpp
 '
 '
 /
@@ -1485,7 +1499,7 @@ common
 /
 ucnvhz
 .
-c
+cpp
 '
 '
 /
@@ -1499,7 +1513,7 @@ common
 /
 ucnvisci
 .
-c
+cpp
 '
 '
 /
@@ -1513,7 +1527,7 @@ common
 /
 ucnvlat1
 .
-c
+cpp
 '
 '
 /
@@ -1541,7 +1555,7 @@ common
 /
 ucnvscsu
 .
-c
+cpp
 '
 '
 /
@@ -1611,7 +1625,7 @@ common
 /
 udatamem
 .
-c
+cpp
 '
 '
 /
@@ -1625,7 +1639,7 @@ common
 /
 udataswp
 .
-c
+cpp
 '
 '
 /
@@ -1639,7 +1653,7 @@ common
 /
 uenum
 .
-c
+cpp
 '
 '
 /
@@ -1653,7 +1667,7 @@ common
 /
 uhash
 .
-c
+cpp
 '
 '
 /
@@ -1709,7 +1723,7 @@ common
 /
 uinvchar
 .
-c
+cpp
 '
 '
 /
@@ -1737,7 +1751,7 @@ common
 /
 ulist
 .
-c
+cpp
 '
 '
 /
@@ -1793,7 +1807,7 @@ common
 /
 uloc_tag
 .
-c
+cpp
 '
 '
 /
@@ -1807,7 +1821,7 @@ common
 /
 umapfile
 .
-c
+cpp
 '
 '
 /
@@ -1821,7 +1835,7 @@ common
 /
 umath
 .
-c
+cpp
 '
 '
 /
@@ -2101,7 +2115,7 @@ common
 /
 ures_cnv
 .
-c
+cpp
 '
 '
 /
@@ -2143,7 +2157,7 @@ common
 /
 usc_impl
 .
-c
+cpp
 '
 '
 /
@@ -2157,7 +2171,7 @@ common
 /
 uscript
 .
-c
+cpp
 '
 '
 /
@@ -2353,7 +2367,7 @@ common
 /
 ustrfmt
 .
-c
+cpp
 '
 '
 /
@@ -2409,7 +2423,7 @@ common
 /
 utf_impl
 .
-c
+cpp
 '
 '
 /
@@ -2451,7 +2465,7 @@ common
 /
 utrace
 .
-c
+cpp
 '
 '
 /
@@ -2521,7 +2535,7 @@ common
 /
 utypes
 .
-c
+cpp
 '
 '
 /
@@ -2577,7 +2591,7 @@ common
 /
 wintz
 .
-c
+cpp
 '
 ]
 EXPORTS
@@ -2694,6 +2708,38 @@ common
 /
 unicode
 /
+casemap
+.
+h
+'
+'
+/
+intl
+/
+icu
+/
+source
+/
+common
+/
+unicode
+/
+char16ptr
+.
+h
+'
+'
+/
+intl
+/
+icu
+/
+source
+/
+common
+/
+unicode
+/
 chariter
 .
 h
@@ -2743,6 +2789,22 @@ common
 unicode
 /
 dtintrv
+.
+h
+'
+'
+/
+intl
+/
+icu
+/
+source
+/
+common
+/
+unicode
+/
+edits
 .
 h
 '

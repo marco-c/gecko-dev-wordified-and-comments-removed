@@ -19,6 +19,13 @@ if
 UCONFIG_NO_CONVERSION
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 unicode
 /

@@ -2215,7 +2215,6 @@ PEN
 "
 "
 Peru
-naujasis
 solis
 "
 }
@@ -10936,7 +10935,6 @@ few
 {
 "
 Peru
-naujieji
 soliai
 "
 }
@@ -10944,7 +10942,6 @@ many
 {
 "
 Peru
-naujojo
 solio
 "
 }
@@ -10952,7 +10949,6 @@ one
 {
 "
 Peru
-naujasis
 solis
 "
 }
@@ -10960,8 +10956,6 @@ other
 {
 "
 Peru
-nauj
-j
 soli
 "
 }
@@ -14864,9 +14858,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

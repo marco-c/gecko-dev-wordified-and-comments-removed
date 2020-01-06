@@ -1967,7 +1967,6 @@ PEN
 "
 "
 Peruanski
-novi
 sol
 "
 }
@@ -1979,6 +1978,10 @@ PES
 "
 Peruanski
 sol
+(
+1863
+1965
+)
 "
 }
 PGK
@@ -8290,7 +8293,6 @@ few
 {
 "
 peruanska
-nova
 sola
 "
 }
@@ -8298,7 +8300,6 @@ one
 {
 "
 peruanski
-novi
 sol
 "
 }
@@ -8306,7 +8307,6 @@ other
 {
 "
 peruanskih
-novih
 sola
 "
 }
@@ -8318,6 +8318,10 @@ few
 "
 peruanska
 sola
+(
+1863
+1965
+)
 "
 }
 one
@@ -8325,6 +8329,10 @@ one
 "
 peruanski
 sol
+(
+1863
+1965
+)
 "
 }
 other
@@ -8332,6 +8340,10 @@ other
 "
 peruanskih
 sola
+(
+1863
+1965
+)
 "
 }
 }
@@ -11107,9 +11119,9 @@ Version
 .
 1
 .
-29
+32
 .
-33
+73
 "
 }
 }

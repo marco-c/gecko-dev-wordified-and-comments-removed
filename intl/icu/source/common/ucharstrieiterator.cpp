@@ -41,9 +41,7 @@ Iterator
 :
 Iterator
 (
-const
-UChar
-*
+ConstChar16Ptr
 trieUChars
 int32_t
 maxStringLength

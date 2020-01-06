@@ -1731,7 +1731,7 @@ OutputFile
 \
 bin
 \
-icudt58
+icudt59
 .
 dll
 <
@@ -2188,7 +2188,7 @@ OutputFile
 \
 bin
 \
-icudt58
+icudt59
 .
 dll
 <
@@ -2638,7 +2638,7 @@ OutputFile
 \
 bin64
 \
-icudt58
+icudt59
 .
 dll
 <
@@ -3090,7 +3090,7 @@ OutputFile
 \
 bin64
 \
-icudt58
+icudt59
 .
 dll
 <
@@ -3197,7 +3197,7 @@ Include
 "
 stubdata
 .
-c
+cpp
 "
 /
 >

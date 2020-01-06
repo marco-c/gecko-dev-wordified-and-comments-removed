@@ -164,7 +164,7 @@ void
 setText
 (
 const
-UChar
+char16_t
 *
 newText
 int32_t

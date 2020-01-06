@@ -2251,7 +2251,6 @@ PEN
 PEN
 "
 "
-Nuevo
 Sol
 Pheiri
 "
@@ -10750,7 +10749,6 @@ PEN
 few
 {
 "
-nuevo
 sol
 Pheiri
 "
@@ -10758,7 +10756,6 @@ Pheiri
 many
 {
 "
-nuevo
 sol
 Pheiri
 "
@@ -10766,7 +10763,6 @@ Pheiri
 one
 {
 "
-nuevo
 sol
 Pheiri
 "
@@ -10774,7 +10770,6 @@ Pheiri
 other
 {
 "
-nuevo
 sol
 Pheiri
 "
@@ -10782,7 +10777,6 @@ Pheiri
 two
 {
 "
-nuevo
 sol
 Pheiri
 "
@@ -14387,9 +14381,9 @@ Version
 .
 1
 .
-28
+31
 .
-79
+86
 "
 }
 }

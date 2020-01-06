@@ -246,9 +246,6 @@ CheckedArrayByteSink
 ;
 }
 ;
-#
-if
-U_HAVE_STD_STRING
 template
 <
 typename
@@ -326,8 +323,6 @@ StringByteSink
 ;
 }
 ;
-#
-endif
 U_NAMESPACE_END
 #
 endif

@@ -808,10 +808,9 @@ h
 (
 CXX
 )
--
-W
--
-Wall
+(
+CXXFLAGS
+)
 -
 I
 (
@@ -824,8 +823,6 @@ top_srcdir
 )
 /
 common
--
-pedantic
 (
 srcdir
 )

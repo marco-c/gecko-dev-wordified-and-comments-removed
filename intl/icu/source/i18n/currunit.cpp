@@ -35,9 +35,7 @@ CurrencyUnit
 :
 CurrencyUnit
 (
-const
-UChar
-*
+ConstChar16Ptr
 _isoCode
 UErrorCode
 &
@@ -60,6 +58,9 @@ ec
 if
 (
 _isoCode
+!
+=
+nullptr
 &
 &
 u_strlen

@@ -1180,8 +1180,6 @@ PEN
 "
 "
 Sola
-nuevo
--
 peruane
 "
 }
@@ -3668,8 +3666,6 @@ one
 {
 "
 sol
-nuevo
--
 peruane
 "
 }
@@ -3677,8 +3673,6 @@ other
 {
 "
 sola
-nuevo
--
 peruane
 "
 }
@@ -4663,9 +4657,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

@@ -1464,7 +1464,6 @@ PEN
 "
 "
 peruski
-nowy
 sol
 "
 }
@@ -6545,7 +6544,6 @@ few
 {
 "
 peruske
-nowe
 sole
 "
 }
@@ -6553,7 +6551,6 @@ one
 {
 "
 peruski
-nowy
 sol
 "
 }
@@ -6561,7 +6558,6 @@ other
 {
 "
 peruskich
-nowych
 solow
 "
 }
@@ -6569,7 +6565,6 @@ two
 {
 "
 peruskej
-nowej
 sola
 "
 }
@@ -8387,9 +8382,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

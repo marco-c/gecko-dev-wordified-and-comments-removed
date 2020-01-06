@@ -268,10 +268,13 @@ NULL
 0
 &
 len
+toUCharPtr
+(
 outString
 .
 getBuffer
 (
+)
 )
 outString
 .
@@ -305,10 +308,13 @@ dest
 len
 &
 len
+toUCharPtr
+(
 outString
 .
 getBuffer
 (
+)
 )
 outString
 .

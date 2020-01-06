@@ -74,10 +74,16 @@ s
 return
 uprv_isInvariantUString
 (
+icu
+:
+:
+toUCharPtr
+(
 s
 .
 getBuffer
 (
+)
 )
 s
 .

@@ -30,6 +30,15 @@ include
 "
 unicode
 /
+uchar
+.
+h
+"
+#
+include
+"
+unicode
+/
 uloc
 .
 h

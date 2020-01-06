@@ -2402,7 +2402,6 @@ PEN
 PEN
 "
 "
-Nuevo
 Sol
 Peru
 "
@@ -5392,7 +5391,6 @@ PEN
 other
 {
 "
-Nuevo
 Sol
 Peru
 "
@@ -5991,9 +5989,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+59
 "
 }
 }

@@ -537,10 +537,13 @@ UChar
 *
 u
 =
+toUCharPtr
+(
 s
 .
 getBuffer
 (
+)
 )
 ;
 int32_t
@@ -594,10 +597,13 @@ UChar
 *
 u
 =
+toUCharPtr
+(
 s
 .
 getBuffer
 (
+)
 )
 ;
 int32_t

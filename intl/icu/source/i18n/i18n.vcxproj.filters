@@ -1110,7 +1110,7 @@ Include
 "
 decContext
 .
-c
+cpp
 "
 >
 <
@@ -1198,7 +1198,7 @@ Include
 "
 decNumber
 .
-c
+cpp
 "
 >
 <
@@ -2452,7 +2452,7 @@ Include
 "
 ulocdata
 .
-c
+cpp
 "
 >
 <
@@ -2562,7 +2562,7 @@ Include
 "
 utmscale
 .
-c
+cpp
 "
 >
 <

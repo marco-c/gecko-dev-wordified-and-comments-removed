@@ -1683,7 +1683,6 @@ PEN
 "
 "
 sol
-nou
 peruvian
 "
 }
@@ -6871,7 +6870,6 @@ few
 {
 "
 soli
-noi
 peruvieni
 "
 }
@@ -6879,7 +6877,6 @@ one
 {
 "
 sol
-nou
 peruvian
 "
 }
@@ -6887,7 +6884,6 @@ other
 {
 "
 soli
-noi
 peruvieni
 "
 }
@@ -6898,7 +6894,7 @@ few
 {
 "
 soli
-Peru
+peruvieni
 (
 1863
 1965
@@ -6920,7 +6916,7 @@ other
 {
 "
 soli
-Peru
+peruvieni
 (
 1863
 1965
@@ -9126,9 +9122,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+60
 "
 }
 }

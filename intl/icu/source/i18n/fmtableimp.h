@@ -11,6 +11,10 @@ digitlst
 .
 h
 "
+#
+if
+!
+UCONFIG_NO_FORMATTING
 U_NAMESPACE_BEGIN
 struct
 FmtStackData
@@ -28,5 +32,7 @@ MAX_INT64_IN_DOUBLE
 0x001FFFFFFFFFFFFFLL
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

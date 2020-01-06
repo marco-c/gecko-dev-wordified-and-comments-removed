@@ -29,6 +29,15 @@ include
 "
 unicode
 /
+ucasemap
+.
+h
+"
+#
+include
+"
+unicode
+/
 ureldatefmt
 .
 h

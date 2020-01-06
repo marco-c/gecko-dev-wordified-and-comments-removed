@@ -34,6 +34,15 @@ include
 "
 unicode
 /
+ucasemap
+.
+h
+"
+#
+include
+"
+unicode
+/
 ures
 .
 h

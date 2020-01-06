@@ -2002,7 +2002,6 @@ PEN
 "
 "
 Peruaneschen
-Neie
 Sol
 "
 }
@@ -2012,7 +2011,7 @@ PES
 PES
 "
 "
-Peruanesche
+Peruaneschen
 Sol
 (
 1863
@@ -6652,7 +6651,6 @@ one
 {
 "
 Peruaneschen
-Neie
 Sol
 "
 }
@@ -6660,7 +6658,6 @@ other
 {
 "
 Peruanesch
-Nei
 Soles
 "
 }
@@ -6670,7 +6667,7 @@ PES
 one
 {
 "
-Peruanesche
+Peruaneschen
 Sol
 (
 1863
@@ -8738,9 +8735,9 @@ Version
 .
 1
 .
-28
+31
 .
-76
+86
 "
 }
 }

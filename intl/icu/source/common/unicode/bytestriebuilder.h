@@ -150,7 +150,7 @@ i
 const
 ;
 virtual
-UChar
+char16_t
 getElementUnit
 (
 int32_t
@@ -216,7 +216,7 @@ int32_t
 i
 int32_t
 byteIndex
-UChar
+char16_t
 byte
 )
 const

@@ -980,6 +980,10 @@ destCapacity
 {
 u_memcpy
 (
+(
+UChar
+*
+)
 dest
 src
 srcLength
@@ -1955,6 +1959,11 @@ destCapacity
 u_memcpy
 (
 dest
+(
+const
+UChar
+*
+)
 src
 srcLength
 )

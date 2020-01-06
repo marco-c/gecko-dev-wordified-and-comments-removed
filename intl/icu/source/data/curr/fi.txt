@@ -2192,7 +2192,6 @@ PEN
 "
 "
 Perun
-uusi
 sol
 "
 }
@@ -7708,7 +7707,6 @@ one
 {
 "
 Perun
-uusi
 sol
 "
 }
@@ -7716,7 +7714,6 @@ other
 {
 "
 Perun
-uutta
 solia
 "
 }
@@ -9842,9 +9839,9 @@ Version
 .
 1
 .
-29
+32
 .
-88
+59
 "
 }
 }

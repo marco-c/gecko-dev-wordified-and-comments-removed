@@ -44,6 +44,15 @@ include
 "
 unicode
 /
+strenum
+.
+h
+"
+#
+include
+"
+unicode
+/
 ures
 .
 h

@@ -1913,7 +1913,6 @@ PEN
 PEN
 "
 "
-nuovo
 sol
 peruviano
 "
@@ -1926,6 +1925,10 @@ PES
 "
 sol
 peruviano
+(
+1863
+1965
+)
 "
 }
 PGK
@@ -5454,7 +5457,6 @@ PEN
 one
 {
 "
-nuovo
 sol
 peruviano
 "
@@ -5462,7 +5464,6 @@ peruviano
 other
 {
 "
-nuovi
 sol
 peruviani
 "
@@ -6515,9 +6516,9 @@ Version
 .
 1
 .
-28
+32
 .
-79
+60
 "
 }
 }

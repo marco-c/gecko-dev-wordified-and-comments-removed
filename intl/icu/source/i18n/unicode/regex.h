@@ -314,7 +314,7 @@ RegexMatcher
 matcher
 (
 const
-UChar
+char16_t
 *
 input
 UErrorCode
@@ -679,7 +679,7 @@ UnicodeString
 &
 regexp
 const
-UChar
+char16_t
 *
 input
 uint32_t
@@ -976,7 +976,7 @@ RegexMatcher
 reset
 (
 const
-UChar
+char16_t
 *
 input
 )

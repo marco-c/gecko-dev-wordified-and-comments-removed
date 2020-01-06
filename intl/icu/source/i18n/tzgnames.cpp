@@ -68,6 +68,15 @@ include
 "
 unicode
 /
+strenum
+.
+h
+"
+#
+include
+"
+unicode
+/
 vtzone
 .
 h

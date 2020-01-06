@@ -207,7 +207,7 @@ setDivisor
 (
 int32_t
 radix
-int32_t
+int16_t
 exponent
 UErrorCode
 &

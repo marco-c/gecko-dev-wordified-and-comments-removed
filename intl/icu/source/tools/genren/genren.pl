@@ -239,9 +239,9 @@ pl
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 #
 *
 tab
@@ -927,9 +927,9 @@ headername
 *
 encoding
 :
-US
+UTF
 -
-ASCII
+8
 *
 tab
 size

@@ -956,7 +956,9 @@ addCutoff
 (
 CutoffType
 type
+const
 UnicodeString
+&
 hour_str
 UErrorCode
 &

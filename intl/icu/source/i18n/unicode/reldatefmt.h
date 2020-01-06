@@ -123,6 +123,9 @@ if
 UCONFIG_NO_BREAK_ITERATION
 U_NAMESPACE_BEGIN
 class
+BreakIterator
+;
+class
 RelativeDateTimeCacheData
 ;
 class
@@ -260,9 +263,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnicodeString
 &
 formatNumeric
@@ -297,8 +297,6 @@ status
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 combineDateAndTime

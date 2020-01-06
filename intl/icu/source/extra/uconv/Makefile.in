@@ -454,6 +454,11 @@ CPPFLAGS
 -
 I
 (
+srcdir
+)
+-
+I
+(
 top_srcdir
 )
 /

@@ -27,6 +27,15 @@ h
 #
 include
 "
+unicode
+/
+ustring
+.
+h
+"
+#
+include
+"
 ucnv_bld
 .
 h

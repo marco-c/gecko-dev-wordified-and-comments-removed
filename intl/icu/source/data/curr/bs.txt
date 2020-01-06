@@ -2064,7 +2064,6 @@ PEN
 "
 "
 Peruanski
-novi
 sol
 "
 }
@@ -8731,7 +8730,6 @@ few
 {
 "
 peruanska
-nova
 sola
 "
 }
@@ -8739,7 +8737,6 @@ one
 {
 "
 peruanski
-novi
 sol
 "
 }
@@ -8747,7 +8744,6 @@ other
 {
 "
 peruanskih
-novih
 sola
 "
 }
@@ -11613,9 +11609,9 @@ Version
 .
 1
 .
-28
+31
 .
-79
+86
 "
 }
 }

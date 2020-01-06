@@ -2156,7 +2156,7 @@ PEI
 PEI
 "
 "
-peruvianske
+peruanske
 inti
 "
 }
@@ -2167,7 +2167,6 @@ PEN
 "
 "
 peruanske
-nuevo
 sol
 "
 }
@@ -2177,7 +2176,7 @@ PES
 PES
 "
 "
-peruvianske
+peruanske
 sol
 (
 1863
@@ -7471,14 +7470,14 @@ PEI
 one
 {
 "
-peruviansk
+peruansk
 inti
 "
 }
 other
 {
 "
-peruvianske
+peruanske
 inti
 "
 }
@@ -7489,7 +7488,6 @@ one
 {
 "
 peruansk
-nuevo
 sol
 "
 }
@@ -7497,7 +7495,6 @@ other
 {
 "
 peruanske
-nuevo
 sol
 "
 }
@@ -7507,7 +7504,7 @@ PES
 one
 {
 "
-peruviansk
+peruansk
 sol
 (
 1863
@@ -7518,7 +7515,7 @@ sol
 other
 {
 "
-peruvianske
+peruanske
 sol
 (
 1863
@@ -9502,9 +9499,9 @@ Version
 .
 1
 .
-30
+32
 .
-7
+59
 "
 }
 }
