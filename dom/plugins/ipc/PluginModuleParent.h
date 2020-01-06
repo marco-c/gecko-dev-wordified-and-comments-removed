@@ -308,8 +308,6 @@ PluginModuleParent
 (
 bool
 aIsChrome
-bool
-aAllowAsyncInit
 )
 ;
 virtual
@@ -1792,8 +1790,6 @@ public
 explicit
 PluginModuleContentParent
 (
-bool
-aAllowAsyncInit
 )
 ;
 static
@@ -2545,8 +2541,6 @@ uint32_t
 aPluginId
 int32_t
 aSandboxLevel
-bool
-aAllowAsyncInit
 )
 ;
 void
