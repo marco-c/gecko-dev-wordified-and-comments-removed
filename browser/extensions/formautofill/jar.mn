@@ -89,15 +89,6 @@ phonenumberutils
 .
 jsm
 )
-res
-/
-addressmetadata
-/
-(
-addressmetadata
-/
-*
-)
 %
 content
 formautofill
