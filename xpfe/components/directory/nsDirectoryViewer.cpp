@@ -2436,11 +2436,9 @@ NS_OK
 mEncoding
 =
 "
-ISO
+windows
 -
-8859
--
-1
+1252
 "
 ;
 mDirRDF
@@ -2789,11 +2787,9 @@ rv
 mEncoding
 =
 "
-ISO
+windows
 -
-8859
--
-1
+1252
 "
 ;
 rv

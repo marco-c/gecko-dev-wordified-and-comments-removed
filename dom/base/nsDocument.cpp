@@ -6155,11 +6155,9 @@ mCharacterSet
 NS_LITERAL_CSTRING
 (
 "
-ISO
+windows
 -
-8859
--
-1
+1252
 "
 )
 )
