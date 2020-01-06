@@ -2092,9 +2092,9 @@ trans
 void
 CheckConnEntryMustBeInmCT
 (
-nsHttpConnectionInfo
+nsConnectionEntry
 *
-ci
+ent
 )
 ;
 }
