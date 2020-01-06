@@ -1943,7 +1943,7 @@ FinishAsyncOperation
 )
 ;
 }
-1000
+2500
 this
 "
 postTabsOpening
