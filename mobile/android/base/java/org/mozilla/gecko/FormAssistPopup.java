@@ -2057,6 +2057,8 @@ aMetrics
 ;
 }
 private
+static
+final
 class
 AutoCompleteListAdapter
 extends

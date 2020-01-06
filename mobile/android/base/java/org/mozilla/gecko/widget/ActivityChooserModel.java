@@ -2543,6 +2543,7 @@ toString
 }
 }
 public
+static
 final
 class
 ActivityResolveInfo
@@ -2789,6 +2790,7 @@ toString
 }
 }
 private
+static
 final
 class
 DefaultSorter

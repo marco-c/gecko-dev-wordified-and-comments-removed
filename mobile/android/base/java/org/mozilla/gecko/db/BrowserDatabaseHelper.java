@@ -15741,6 +15741,8 @@ bookmark
 ;
 }
 private
+static
+final
 class
 BookmarkMigrator3to4
 implements

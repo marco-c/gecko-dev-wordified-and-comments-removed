@@ -696,6 +696,8 @@ false
 ;
 }
 private
+static
+final
 class
 FadePaint
 extends

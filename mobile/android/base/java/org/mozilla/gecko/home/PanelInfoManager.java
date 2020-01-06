@@ -152,6 +152,8 @@ GeckoPanelInfoManager
 "
 ;
 public
+static
+final
 class
 PanelInfo
 {

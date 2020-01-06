@@ -135,6 +135,8 @@ WIDTH
 HEIGHT
 }
 private
+static
+final
 class
 ElementHolder
 {

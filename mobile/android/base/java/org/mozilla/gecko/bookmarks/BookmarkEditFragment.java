@@ -2592,6 +2592,8 @@ null
 }
 }
 private
+static
+final
 class
 BookmarkTextWatcher
 implements

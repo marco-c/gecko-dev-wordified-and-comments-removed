@@ -325,6 +325,8 @@ GetContext
 )
 ;
 private
+static
+final
 class
 CameraThread
 extends

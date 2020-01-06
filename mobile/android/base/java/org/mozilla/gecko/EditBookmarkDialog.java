@@ -161,6 +161,8 @@ context
 ;
 }
 private
+static
+final
 class
 Bookmark
 {
@@ -212,6 +214,7 @@ aKeyword
 }
 }
 private
+static
 class
 EditBookmarkTextWatcher
 implements
@@ -344,6 +347,8 @@ after
 }
 }
 private
+static
+final
 class
 LocationTextWatcher
 extends
@@ -410,6 +415,8 @@ count
 }
 }
 private
+static
+final
 class
 KeywordTextWatcher
 extends

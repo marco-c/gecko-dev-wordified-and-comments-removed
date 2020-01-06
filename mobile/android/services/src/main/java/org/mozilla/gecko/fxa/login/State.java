@@ -60,6 +60,8 @@ CURRENT_VERSION
 3L
 ;
 public
+static
+final
 class
 NotASessionTokenState
 extends

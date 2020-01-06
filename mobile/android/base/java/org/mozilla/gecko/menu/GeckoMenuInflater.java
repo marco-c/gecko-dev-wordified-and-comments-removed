@@ -164,6 +164,8 @@ Context
 mContext
 ;
 private
+static
+final
 class
 ParsedItem
 {

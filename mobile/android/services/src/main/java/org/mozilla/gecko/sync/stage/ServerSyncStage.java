@@ -1399,6 +1399,8 @@ this
 ;
 }
 private
+static
+final
 class
 WipeWaiter
 {
