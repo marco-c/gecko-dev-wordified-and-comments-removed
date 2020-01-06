@@ -59,10 +59,7 @@ MOZ_WRAP_NEW_DELETE
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _Znwj
-)
 (
 unsigned
 int
@@ -79,10 +76,7 @@ size
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _Znaj
-)
 (
 unsigned
 int
@@ -98,10 +92,7 @@ size
 }
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdlPv
-)
 (
 void
 *
@@ -116,10 +107,7 @@ ptr
 }
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdaPv
-)
 (
 void
 *
@@ -135,10 +123,7 @@ ptr
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _ZnwjRKSt9nothrow_t
-)
 (
 unsigned
 int
@@ -155,10 +140,7 @@ size
 MOZ_MEMORY_API
 void
 *
-mozmem_malloc_impl
-(
 _ZnajRKSt9nothrow_t
-)
 (
 unsigned
 int
@@ -174,10 +156,7 @@ size
 }
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdlPvRKSt9nothrow_t
-)
 (
 void
 *
@@ -192,10 +171,7 @@ ptr
 }
 MOZ_MEMORY_API
 void
-mozmem_malloc_impl
-(
 _ZdaPvRKSt9nothrow_t
-)
 (
 void
 *
