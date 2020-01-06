@@ -7376,16 +7376,9 @@ init
 cx
 )
 )
-{
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 BAILOUT_RETURN_FATAL_ERROR
 ;
-}
 #
 ifdef
 TRACK_SNAPSHOTS
