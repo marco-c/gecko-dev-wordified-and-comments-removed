@@ -1145,7 +1145,7 @@ nsCOMPtr
 <
 nsIEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 RefPtr
 <
@@ -1171,7 +1171,7 @@ AssertIsOnBackgroundThread
 ;
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 DebugOnly
@@ -1184,7 +1184,7 @@ MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 IsOnCurrentThread
@@ -1209,7 +1209,7 @@ OwningThread
 const
 {
 return
-mOwningThread
+mOwningEventTarget
 ;
 }
 void
@@ -1261,9 +1261,9 @@ FileHandle
 aFileHandle
 )
 :
-mOwningThread
+mOwningEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadSerialEventTarget
 (
 )
 )
@@ -2156,9 +2156,9 @@ FileHandleThreadPool
 (
 )
 :
-mOwningThread
+mOwningEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadSerialEventTarget
 (
 )
 )
@@ -2177,7 +2177,7 @@ AssertIsOnBackgroundThread
 ;
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 AssertIsOnOwningThread
@@ -2302,7 +2302,7 @@ const
 {
 MOZ_ASSERT
 (
-mOwningThread
+mOwningEventTarget
 )
 ;
 bool
@@ -2310,7 +2310,7 @@ current
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-mOwningThread
+mOwningEventTarget
 -
 >
 IsOnCurrentThread
@@ -7854,7 +7854,7 @@ mOffset
 mSize
 )
 ;
-mOwningThread
+mOwningEventTarget
 -
 >
 Dispatch

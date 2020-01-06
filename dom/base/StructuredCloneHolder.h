@@ -1088,9 +1088,9 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mCreationThread
+mCreationEventTarget
 ;
 #
 endif

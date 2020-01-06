@@ -63,10 +63,10 @@ mShouldRunTimerAgain
 #
 ifdef
 DEBUG
-nsIThread
+nsISerialEventTarget
 *
 const
-mThread
+mEventTarget
 ;
 #
 endif

@@ -192,9 +192,9 @@ mWeakRef
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -244,7 +244,7 @@ Create
 Manager
 *
 aManager
-nsIThread
+nsISerialEventTarget
 *
 aTarget
 Action
@@ -366,7 +366,7 @@ Context
 Manager
 *
 aManager
-nsIThread
+nsISerialEventTarget
 *
 aTarget
 Action
@@ -449,7 +449,7 @@ mManager
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
 mTarget
 ;

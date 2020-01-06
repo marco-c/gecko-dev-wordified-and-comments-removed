@@ -245,9 +245,9 @@ mPendingOperations
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 UniquePtr
 <

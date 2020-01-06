@@ -3182,9 +3182,9 @@ ServiceWorkerRegistrarSaveDataRunnable
 (
 )
 :
-mThread
+mEventTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -3244,7 +3244,7 @@ DataSaved
 nsresult
 rv
 =
-mThread
+mEventTarget
 -
 >
 Dispatch
@@ -3276,9 +3276,9 @@ private
 :
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 }
 ;

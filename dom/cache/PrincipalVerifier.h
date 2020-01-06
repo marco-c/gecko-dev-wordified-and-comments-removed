@@ -204,9 +204,9 @@ mPrincipalInfo
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mInitiatingThread
+mInitiatingEventTarget
 ;
 nsresult
 mResult

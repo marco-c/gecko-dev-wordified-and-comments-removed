@@ -84,7 +84,7 @@ mEventTarget
 {
 mEventTarget
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;

@@ -873,7 +873,7 @@ aParent
 )
 mBackgroundEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )

@@ -362,7 +362,7 @@ aPath
 )
 mBackgroundEventTarget
 (
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )

@@ -986,13 +986,13 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIEventTarget
 >
 target
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
