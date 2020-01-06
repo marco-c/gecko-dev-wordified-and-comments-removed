@@ -33,6 +33,12 @@ build
 '
         
 '
+upload
+-
+files
+'
+        
+'
 sendchange
 '
     
@@ -155,7 +161,7 @@ False
 enable_unittest_sendchange
 '
 :
-True
+False
     
 '
 enable_talos_sendchange
