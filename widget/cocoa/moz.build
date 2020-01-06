@@ -483,6 +483,12 @@ xul
 /
 widget
 '
+'
+/
+widget
+/
+headless
+'
 ]
 if
 CONFIG
