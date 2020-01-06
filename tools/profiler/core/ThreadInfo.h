@@ -122,8 +122,13 @@ const
 char
 *
 aMarkerName
+mozilla
+:
+:
+UniquePtr
+<
 ProfilerMarkerPayload
-*
+>
 aPayload
 double
 aTime
@@ -137,7 +142,10 @@ new
 ProfilerMarker
 (
 aMarkerName
+Move
+(
 aPayload
+)
 aTime
 )
 ;
