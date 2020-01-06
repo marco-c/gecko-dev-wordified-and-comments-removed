@@ -16,6 +16,10 @@ ipc_channel
 ;
 extern
 crate
+metrics
+;
+extern
+crate
 msg
 ;
 extern
@@ -58,6 +62,12 @@ ipc
 IpcReceiver
 IpcSender
 }
+;
+use
+metrics
+:
+:
+PaintTimeMetrics
 ;
 use
 msg
@@ -240,6 +250,9 @@ RenderApiSender
 layout_threads
 :
 usize
+paint_time_metrics
+:
+PaintTimeMetrics
 )
 ;
 }

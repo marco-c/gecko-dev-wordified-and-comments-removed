@@ -39,6 +39,12 @@ IpcSender
 }
 ;
 use
+metrics
+:
+:
+PaintTimeMetrics
+;
+use
 msg
 :
 :
@@ -281,6 +287,10 @@ Arc
 Painter
 >
 )
+SetNavigationStart
+(
+f64
+)
 }
 #
 [
@@ -518,4 +528,8 @@ pub
 layout_threads
 :
 usize
+pub
+paint_time_metrics
+:
+PaintTimeMetrics
 }

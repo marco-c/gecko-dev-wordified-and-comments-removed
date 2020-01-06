@@ -354,6 +354,12 @@ ScriptWebVREvent
 ScriptWorkletEvent
 =
 0x7a
+TimeToFirstPaint
+=
+0x80
+TimeToFirstContentfulPaint
+=
+0x81
 ApplicationHeartbeat
 =
 0x90
