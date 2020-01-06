@@ -3858,7 +3858,7 @@ DEV_INPUT
 }
 if
 (
-has_input
+has_output
 (
 stm
 )
