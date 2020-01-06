@@ -1287,13 +1287,9 @@ Init
 namespace
 mozilla
 {
-NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
+NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 ExtensionProtocolHandler
-ExtensionProtocolHandler
-:
-:
-GetSingleton
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (

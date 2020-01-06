@@ -350,11 +350,6 @@ EXPORTS
 =
 [
 '
-FileDescriptorFile
-.
-h
-'
-'
 nsAnonymousTemporaryFile
 .
 h
@@ -490,11 +485,6 @@ cpp
 crc32c
 .
 c
-'
-'
-FileDescriptorFile
-.
-cpp
 '
 '
 nsAnonymousTemporaryFile
