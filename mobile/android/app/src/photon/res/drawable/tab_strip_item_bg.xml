@@ -132,7 +132,7 @@ drawable
 "
 color
 /
-photon_tab_strip_item_checked_pressed_private
+photon_tab_strip_item_private_checked_pressed
 "
 android
 :
@@ -166,7 +166,7 @@ drawable
 "
 color
 /
-photon_tab_strip_item_checked_private
+photon_tab_strip_item_private_checked
 "
 android
 :
@@ -193,7 +193,7 @@ drawable
 "
 color
 /
-photon_tab_strip_item_checked_pressed_private
+photon_tab_strip_item_private_pressed
 "
 android
 :
@@ -267,7 +267,7 @@ drawable
 "
 color
 /
-photon_tab_strip_item_checked_pressed
+photon_tab_strip_item_pressed
 "
 android
 :
@@ -285,11 +285,9 @@ android
 drawable
 =
 "
-android
-:
 color
 /
-transparent
+photon_tab_strip_item
 "
 /
 >

@@ -146,7 +146,7 @@ color
 "
 color
 /
-photon_icon_private
+photon_icon_private_disabled
 "
 /
 >
@@ -193,7 +193,7 @@ color
 "
 color
 /
-photon_icon
+photon_icon_disabled
 "
 /
 >

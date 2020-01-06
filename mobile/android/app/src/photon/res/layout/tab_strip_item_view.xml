@@ -444,6 +444,15 @@ drawable
 /
 tab_close
 "
+android
+:
+tint
+=
+"
+color
+/
+tab_strip_item_title
+"
 /
 >
 <

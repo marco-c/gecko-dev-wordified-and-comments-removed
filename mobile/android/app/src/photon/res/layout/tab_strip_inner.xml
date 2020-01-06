@@ -222,13 +222,6 @@ layout_marginStart
 "
 android
 :
-layout_marginTop
-=
-"
-8dp
-"
-android
-:
 layout_weight
 =
 "
@@ -317,7 +310,7 @@ layout_width
 "
 dimen
 /
-tablet_tab_strip_height
+browser_toolbar_icon_width
 "
 android
 :
