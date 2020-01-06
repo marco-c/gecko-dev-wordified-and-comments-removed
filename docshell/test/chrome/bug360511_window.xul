@@ -507,10 +507,9 @@ dispatchEvent
 event
 )
 ;
-setTimeout
+waitForNextPaint
 (
 nextTest
-0
 )
 ;
 yield
