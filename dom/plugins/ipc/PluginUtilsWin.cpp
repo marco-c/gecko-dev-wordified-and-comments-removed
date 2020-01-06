@@ -199,13 +199,13 @@ AudioNotification
 (
 )
 :
-mRefCt
-(
-1
-)
 mIsRegistered
 (
 false
+)
+mRefCt
+(
+1
 )
 {
 HRESULT

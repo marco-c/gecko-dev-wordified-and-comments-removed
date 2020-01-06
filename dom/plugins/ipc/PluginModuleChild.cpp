@@ -8099,6 +8099,10 @@ Runnable
 GetKeyStateTask
 "
 )
+mKeyState
+(
+aKeyState
+)
 mVirtKey
 (
 aVirtKey
@@ -8106,10 +8110,6 @@ aVirtKey
 mSemaphore
 (
 aSemaphore
-)
-mKeyState
-(
-aKeyState
 )
 {
 }
@@ -8394,6 +8394,10 @@ Runnable
 PluginThreadTask
 "
 )
+mSuccess
+(
+false
+)
 mTaskData
 (
 aTaskData
@@ -8401,10 +8405,6 @@ aTaskData
 mSemaphore
 (
 aSemaphore
-)
-mSuccess
-(
-false
 )
 {
 }
