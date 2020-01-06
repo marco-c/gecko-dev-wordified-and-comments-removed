@@ -78,7 +78,7 @@ eventtarget
 *
 /
 [
-Abstract
+Constructor
 Exposed
 =
 (
