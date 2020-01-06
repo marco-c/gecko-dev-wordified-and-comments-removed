@@ -1151,10 +1151,6 @@ getter_AddRefs
 mStream
 )
 stream
-.
-forget
-(
-)
 64
 *
 1024
@@ -1168,6 +1164,13 @@ rv
 )
 )
 {
+stream
+-
+>
+Close
+(
+)
+;
 mHeaders
 .
 Clear

@@ -3266,10 +3266,6 @@ getter_AddRefs
 buffered
 )
 responseBody
-.
-forget
-(
-)
 kCopySegmentSize
 )
 ;
