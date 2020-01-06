@@ -5008,12 +5008,6 @@ CSSFiltersEnabled
 ;
 static
 bool
-CSSClipPathShapesEnabled
-(
-)
-;
-static
-bool
 UnsetValueEnabled
 (
 )
