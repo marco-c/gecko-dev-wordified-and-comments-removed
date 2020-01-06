@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-removeCacheFile
-(
-)
-;
 do_load_manifest
 (
 "
@@ -223,10 +219,6 @@ break
 do_check_true
 (
 found
-)
-;
-removeCacheFile
-(
 )
 ;
 }

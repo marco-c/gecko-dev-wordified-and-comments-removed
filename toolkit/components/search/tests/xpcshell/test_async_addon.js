@@ -7,14 +7,6 @@ do_test_pending
 (
 )
 ;
-removeMetadata
-(
-)
-;
-removeCacheFile
-(
-)
-;
 do_load_manifest
 (
 "

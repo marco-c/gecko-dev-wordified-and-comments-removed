@@ -159,10 +159,6 @@ enabled
 true
 )
 ;
-removeMetadata
-(
-)
-;
 let
 server
 =
