@@ -134,12 +134,12 @@ image
 :
 :
 {
+ImageRect
+as
+GenericImageRect
 LineDirection
 as
 GenericLineDirection
-MozImageRect
-as
-GenericMozImageRect
 }
 ;
 use
@@ -188,7 +188,7 @@ Image
 GenericImage
 <
 Gradient
-MozImageRect
+ImageRect
 >
 ;
 pub
@@ -287,9 +287,9 @@ LengthOrPercentage
 ;
 pub
 type
-MozImageRect
+ImageRect
 =
-GenericMozImageRect
+GenericImageRect
 <
 NumberOrPercentage
 >
