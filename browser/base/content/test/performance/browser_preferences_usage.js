@@ -422,7 +422,7 @@ max_chrome_script_run_time
 {
 min
 :
-30
+20
 max
 :
 55
