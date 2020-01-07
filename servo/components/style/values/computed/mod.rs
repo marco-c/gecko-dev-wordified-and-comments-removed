@@ -322,6 +322,7 @@ border
 :
 :
 {
+BorderImageRepeat
 BorderImageSlice
 BorderImageWidth
 BorderImageSideWidth

@@ -182,7 +182,7 @@ specified
 background
 :
 :
-RepeatKeyword
+BackgroundRepeatKeyword
 ;
 use
 style
@@ -1025,7 +1025,7 @@ tile_image_axis
 (
 repeat
 :
-RepeatKeyword
+BackgroundRepeatKeyword
 position
 :
 &
@@ -1068,7 +1068,7 @@ offset
 match
 repeat
 {
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 NoRepeat
@@ -1088,7 +1088,7 @@ size
 tile_size
 ;
 }
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 Repeat
@@ -1115,7 +1115,7 @@ tile_size
 )
 ;
 }
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 Space
@@ -1160,7 +1160,7 @@ combined_tile_size
 )
 ;
 }
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 Round

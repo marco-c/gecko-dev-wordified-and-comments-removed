@@ -312,7 +312,7 @@ missing_docs
 ]
 pub
 enum
-RepeatKeyword
+BackgroundRepeatKeyword
 {
 Repeat
 Space
@@ -338,10 +338,10 @@ RepeatX
 RepeatY
 Keywords
 (
-RepeatKeyword
+BackgroundRepeatKeyword
 Option
 <
-RepeatKeyword
+BackgroundRepeatKeyword
 >
 )
 }
@@ -366,7 +366,7 @@ BackgroundRepeat
 :
 Keywords
 (
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 Repeat
@@ -471,7 +471,7 @@ let
 horizontal
 =
 match
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 from_ident
@@ -526,7 +526,7 @@ input
 .
 try
 (
-RepeatKeyword
+BackgroundRepeatKeyword
 :
 :
 parse
