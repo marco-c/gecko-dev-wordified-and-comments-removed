@@ -183,6 +183,9 @@ True
 USE_STATIC_LIBS
 =
 True
+DisableStlWrapping
+(
+)
 if
 CONFIG
 [
