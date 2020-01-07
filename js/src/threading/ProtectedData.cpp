@@ -655,16 +655,10 @@ isAtomsZone
 {
 if
 (
-CurrentThreadCanAccessRuntime
-(
-rt
-)
-&
-&
 rt
 -
 >
-currentThreadHasExclusiveAccess
+currentThreadHasAtomsTableAccess
 (
 )
 )

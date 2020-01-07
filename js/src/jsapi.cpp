@@ -2915,7 +2915,7 @@ parentRuntime
 rt
 -
 >
-transformToPermanentAtoms
+initMainAtomsTables
 (
 cx
 )

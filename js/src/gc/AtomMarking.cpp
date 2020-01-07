@@ -1056,7 +1056,9 @@ runtimeFromAnyThread
 )
 -
 >
-permanentAtoms
+permanentAtomsPopulated
+(
+)
 )
 return
 true
