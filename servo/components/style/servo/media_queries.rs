@@ -142,6 +142,7 @@ FontSize
 [
 derive
 (
+Debug
 MallocSizeOf
 )
 ]
