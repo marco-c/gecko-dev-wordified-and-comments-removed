@@ -4662,7 +4662,7 @@ getusermedia
 .
 agc
 "
-3
+1
 )
 ;
 #
@@ -15260,7 +15260,7 @@ auth
 -
 allow
 "
-false
+true
 )
 ;
 pref
@@ -38894,7 +38894,7 @@ network
 .
 activity
 .
-blipIntervalMilliseconds
+intervalMilliseconds
 "
 0
 )
