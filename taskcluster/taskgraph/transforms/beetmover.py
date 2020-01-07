@@ -64,6 +64,14 @@ get_worker_type_for_scope
 from
 taskgraph
 .
+util
+.
+taskcluster
+import
+get_artifact_prefix
+from
+taskgraph
+.
 transforms
 .
 task
@@ -2613,6 +2621,7 @@ task
 def
 generate_upstream_artifacts
 (
+job
 signing_task_ref
 build_task_ref
 platform
@@ -2633,11 +2642,10 @@ UPSTREAM_ARTIFACT_SIGNED_PATHS
     
 artifact_prefix
 =
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+job
+)
     
 if
 locale
@@ -2646,9 +2654,8 @@ locale
 artifact_prefix
 =
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2656,6 +2663,7 @@ build
 .
 format
 (
+artifact_prefix
 locale
 )
         
@@ -3405,6 +3413,7 @@ artifacts
 generate_upstream_artifacts
 (
                 
+job
 signing_task_ref
 build_task_ref
 platform

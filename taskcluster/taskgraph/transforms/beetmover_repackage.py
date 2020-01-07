@@ -86,6 +86,14 @@ get_worker_type_for_scope
 from
 taskgraph
 .
+util
+.
+taskcluster
+import
+get_artifact_prefix
+from
+taskgraph
+.
 transforms
 .
 task
@@ -1634,6 +1642,7 @@ task
 def
 generate_upstream_artifacts
 (
+job
 build_task_ref
 build_signing_task_ref
                                 
@@ -1665,11 +1674,10 @@ UPSTREAM_ARTIFACT_SIGNED_REPACKAGE_PATHS
     
 artifact_prefix
 =
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+job
+)
     
 if
 locale
@@ -1678,9 +1686,8 @@ locale
 artifact_prefix
 =
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -1688,6 +1695,7 @@ build
 .
 format
 (
+artifact_prefix
 locale
 )
         
@@ -1883,6 +1891,7 @@ upstream_artifacts
 def
 generate_partials_upstream_artifacts
 (
+job
 artifacts
 platform
 locale
@@ -1891,12 +1900,18 @@ None
 )
 :
     
-if
-not
-locale
-or
-locale
+artifact_prefix
 =
+get_artifact_prefix
+(
+job
+)
+    
+if
+locale
+and
+locale
+!
 =
 '
 en
@@ -1908,20 +1923,8 @@ US
 artifact_prefix
 =
 '
-public
-/
-build
-'
-    
-else
-:
-        
-artifact_prefix
-=
-'
-public
-/
-build
+{
+}
 /
 {
 }
@@ -1929,6 +1932,7 @@ build
 .
 format
 (
+artifact_prefix
 locale
 )
     
@@ -2422,6 +2426,7 @@ artifacts
 generate_upstream_artifacts
 (
                 
+job
 build_task_ref
 build_signing_task_ref
 repackage_task_ref
@@ -2605,6 +2610,7 @@ upstream_artifacts
 generate_partials_upstream_artifacts
 (
             
+job
 artifacts
 balrog_platform
 locale
