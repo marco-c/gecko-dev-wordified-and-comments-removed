@@ -392,6 +392,15 @@ no
 cacheprovider
 "
                          
+"
+-
+o
+=
+console_output_style
+=
+classic
+"
+                         
 path
 ]
                         
