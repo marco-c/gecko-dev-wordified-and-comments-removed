@@ -9805,13 +9805,6 @@ let
 addon
 =
 await
-new
-Promise
-(
-resolve
-=
->
-{
 XPIDatabase
 .
 getVisibleAddonForID
@@ -9821,10 +9814,6 @@ this
 addon
 .
 id
-resolve
-)
-;
-}
 )
 ;
 this
