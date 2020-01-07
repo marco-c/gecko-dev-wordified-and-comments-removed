@@ -17012,12 +17012,13 @@ getCloneBuffer
 setCloneBuffer
 0
 )
-JS_PSG
+JS_PSGS
 (
 "
 arraybuffer
 "
 getCloneBufferAsArrayBuffer
+setCloneBuffer
 0
 )
 JS_PS_END
