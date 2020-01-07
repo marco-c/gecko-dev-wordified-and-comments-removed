@@ -985,6 +985,7 @@ nsresult
 aResult
 )
 ;
+MOZ_MUST_USE
 nsresult
 DidAbsolutePosition
 (
