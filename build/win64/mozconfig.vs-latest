@@ -8,3 +8,15 @@ win64
 mozconfig
 .
 vs2017
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+clang
+-
+cl
+"
