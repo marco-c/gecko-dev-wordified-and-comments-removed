@@ -704,11 +704,6 @@ test_checkcompatibility
 js
 "
 "
-test_proxies
-.
-js
-"
-"
 test_signed_verify
 .
 js
