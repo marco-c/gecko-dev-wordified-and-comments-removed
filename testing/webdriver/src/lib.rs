@@ -38,6 +38,10 @@ extern
 crate
 url
 ;
+extern
+crate
+unicode_segmentation
+;
 #
 [
 macro_use
