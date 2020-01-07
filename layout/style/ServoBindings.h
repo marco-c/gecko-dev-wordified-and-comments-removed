@@ -3653,6 +3653,16 @@ char
 pref_name
 )
 ;
+bool
+Gecko_IsInServoTraversal
+(
+)
+;
+bool
+Gecko_IsMainThread
+(
+)
+;
 }
 #
 endif
