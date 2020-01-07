@@ -5422,9 +5422,6 @@ webdriver
 /
 command
 /
-index
-.
-html
 [
 responses
 ]
@@ -5445,9 +5442,6 @@ webdriver
 /
 response
 /
-index
-.
-html
 [
 errors
 ]
@@ -5496,6 +5490,8 @@ testing
 /
 marionette
 /
+doc
+/
 marionette
 /
 Protocol
@@ -5517,11 +5513,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 [
 FirefoxDriver
 ]
@@ -5562,6 +5553,8 @@ org
 testing
 /
 marionette
+/
+doc
 /
 marionette
 /
