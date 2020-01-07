@@ -281,17 +281,7 @@ nsCSSKeywords
 h
 '
 '
-nsCSSPropAliasList
-.
-h
-'
-'
 nsCSSPropertyIDSet
-.
-h
-'
-'
-nsCSSPropList
 .
 h
 '
