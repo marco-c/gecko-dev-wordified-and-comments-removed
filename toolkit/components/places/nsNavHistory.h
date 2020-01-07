@@ -1157,14 +1157,10 @@ mNumVisitsForFrecency
 ;
 }
 void
-NotifyOnVisits
+UpdateDaysOfHistory
 (
-nsIVisitData
-*
-*
-aVisits
-uint32_t
-aVisitsCount
+PRTime
+visitTime
 )
 ;
 void
