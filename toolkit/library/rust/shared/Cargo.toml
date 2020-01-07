@@ -232,7 +232,7 @@ libpref
 parser
 "
 }
-rust_url_capi
+mozurl
 =
 {
 path
@@ -254,11 +254,7 @@ netwerk
 /
 base
 /
-rust
--
-url
--
-capi
+mozurl
 "
 }
 webrender_bindings

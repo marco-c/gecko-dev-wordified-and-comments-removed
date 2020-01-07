@@ -26,13 +26,9 @@ h
 #
 include
 "
-.
-.
+mozilla
 /
-.
-.
-/
-base
+net
 /
 MozURL
 .
@@ -311,7 +307,7 @@ NS_LITERAL_CSTRING
 "
 )
 )
-NS_ERROR_FAILURE
+NS_ERROR_MALFORMED_URI
 )
 ;
 ASSERT_EQ
