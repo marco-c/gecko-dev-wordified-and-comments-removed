@@ -23564,6 +23564,9 @@ return
 false
 ;
 case
+NS_THEME_SCROLLCORNER
+:
+case
 NS_THEME_SCROLLBARTRACK_HORIZONTAL
 :
 case
