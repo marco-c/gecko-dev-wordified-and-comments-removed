@@ -2981,6 +2981,17 @@ unit
 )
 ;
 void
+Gecko_CSSValue_SetFloat
+(
+nsCSSValueBorrowedMut
+css_value
+float
+value
+nsCSSUnit
+unit
+)
+;
+void
 Gecko_CSSValue_SetPair
 (
 nsCSSValueBorrowedMut
