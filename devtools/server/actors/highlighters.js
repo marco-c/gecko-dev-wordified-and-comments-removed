@@ -3082,6 +3082,16 @@ flexbox
 register
 (
 "
+FontsHighlighter
+"
+"
+fonts
+"
+)
+;
+register
+(
+"
 GeometryEditorHighlighter
 "
 "
