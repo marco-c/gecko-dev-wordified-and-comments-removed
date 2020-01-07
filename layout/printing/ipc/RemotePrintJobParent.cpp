@@ -127,6 +127,10 @@ mPrintSettings
 (
 aPrintSettings
 )
+mIsDoingPrinting
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -463,6 +467,10 @@ aResult
 )
 ;
 }
+mIsDoingPrinting
+=
+true
+;
 return
 NS_OK
 ;
@@ -710,6 +718,11 @@ nsresult
 aResult
 )
 {
+MOZ_ASSERT
+(
+mIsDoingPrinting
+)
+;
 if
 (
 NS_FAILED
@@ -819,6 +832,10 @@ UnregisterPageDoneCallback
 )
 ;
 }
+mIsDoingPrinting
+=
+false
+;
 Unused
 <
 <
@@ -874,6 +891,10 @@ UnregisterPageDoneCallback
 )
 ;
 }
+mIsDoingPrinting
+=
+false
+;
 Unused
 <
 <
@@ -1210,6 +1231,10 @@ UnregisterPageDoneCallback
 )
 ;
 }
+mIsDoingPrinting
+=
+false
+;
 }
 }
 }
