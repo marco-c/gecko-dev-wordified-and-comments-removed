@@ -424,13 +424,6 @@ endif
 #
 ifdef
 JS_CODEGEN_ARM
-static
-const
-Register
-FuncPtrCallTemp
-=
-CallTempReg1
-;
 #
 define
 RABALDR_SCRATCH_I32
