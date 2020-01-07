@@ -1005,7 +1005,8 @@ normandy
 ie
 .
 JEXL
-filters
+filter
+expressions
 )
 Uptake
 Telemetry
