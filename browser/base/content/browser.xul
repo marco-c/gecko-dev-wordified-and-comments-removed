@@ -7133,9 +7133,11 @@ aboutHomeOverrideTooltip
 =
 "
 &
-abouthome
+homeButton
 .
-pageTitle
+defaultPage
+.
+tooltip
 ;
 "
 /
