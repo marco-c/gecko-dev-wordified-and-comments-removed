@@ -12,8 +12,6 @@ import
 shutil
 import
 subprocess
-import
-sys
 from
 mozbuild
 .
