@@ -93,9 +93,6 @@ namespace
 dom
 {
 class
-PerformanceInfo
-;
-class
 DocGroup
 final
 {
@@ -162,11 +159,6 @@ return
 mPerformanceCounter
 ;
 }
-PerformanceInfo
-ReportPerformanceInfo
-(
-)
-;
 #
 endif
 TabGroup
