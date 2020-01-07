@@ -4727,7 +4727,7 @@ c
 MEMORY_JS_COMPARTMENTS_SYSTEM
 "
 "
-JSMainRuntimeCompartmentsSystem
+JSMainRuntimeRealmsSystem
 "
 )
 ;
@@ -4737,7 +4737,7 @@ c
 MEMORY_JS_COMPARTMENTS_USER
 "
 "
-JSMainRuntimeCompartmentsUser
+JSMainRuntimeRealmsUser
 "
 )
 ;
@@ -4768,16 +4768,6 @@ LOW_MEMORY_EVENTS_VIRTUAL
 "
 "
 lowMemoryEventsVirtual
-"
-)
-;
-cc
-(
-"
-LOW_MEMORY_EVENTS_COMMIT_SPACE
-"
-"
-lowMemoryEventsCommitSpace
 "
 )
 ;

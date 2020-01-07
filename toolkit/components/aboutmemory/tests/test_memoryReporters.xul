@@ -926,7 +926,7 @@ window
 /
 .
 *
-compartment
+realm
 \
 (
 /
@@ -938,7 +938,7 @@ compartment
 {
 present
 .
-jsNonWindowCompartments
+jsNonWindowRealms
 =
 true
 ;
@@ -969,7 +969,7 @@ top
 /
 js
 -
-compartment
+realm
 \
 (
 /
@@ -981,7 +981,7 @@ compartment
 {
 present
 .
-windowObjectsJsCompartments
+windowObjectsJsRealms
 =
 true
 ;
@@ -1414,10 +1414,10 @@ JSMainRuntimeGCHeap
 JSMainRuntimeTemporaryPeak
 "
 "
-JSMainRuntimeCompartmentsSystem
+JSMainRuntimeRealmsSystem
 "
 "
-JSMainRuntimeCompartmentsUser
+JSMainRuntimeRealmsUser
 "
 "
 imagesContentUsedUncompressed
@@ -1427,9 +1427,6 @@ storageSQLite
 "
 "
 lowMemoryEventsVirtual
-"
-"
-lowMemoryEventsCommitSpace
 "
 "
 lowMemoryEventsPhysical
@@ -2029,14 +2026,14 @@ ok
 (
 present
 .
-jsNonWindowCompartments
+jsNonWindowRealms
 "
 js
 -
 non
 -
 window
-compartments
+realms
 are
 present
 "
@@ -2046,7 +2043,7 @@ ok
 (
 present
 .
-windowObjectsJsCompartments
+windowObjectsJsRealms
 "
 window
 -
@@ -2057,7 +2054,7 @@ objects
 .
 /
 js
-compartments
+realms
 are
 present
 "

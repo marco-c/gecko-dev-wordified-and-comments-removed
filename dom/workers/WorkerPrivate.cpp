@@ -4278,7 +4278,7 @@ i
 i
 !
 =
-compartmentStatsVector
+realmStatsVector
 .
 length
 (
@@ -4295,11 +4295,11 @@ static_cast
 xpc
 :
 :
-CompartmentStatsExtras
+RealmStatsExtras
 *
 >
 (
-compartmentStatsVector
+realmStatsVector
 [
 i
 ]
@@ -4414,7 +4414,7 @@ extras
 }
 virtual
 void
-initExtraCompartmentStats
+initExtraRealmStats
 (
 JSCompartment
 *
@@ -4422,16 +4422,16 @@ aCompartment
 JS
 :
 :
-CompartmentStats
+RealmStats
 *
-aCompartmentStats
+aRealmStats
 )
 override
 {
 MOZ_ASSERT
 (
 !
-aCompartmentStats
+aRealmStats
 -
 >
 extra
@@ -4440,7 +4440,7 @@ extra
 xpc
 :
 :
-CompartmentStatsExtras
+RealmStatsExtras
 *
 extras
 =
@@ -4448,7 +4448,7 @@ new
 xpc
 :
 :
-CompartmentStatsExtras
+RealmStatsExtras
 ;
 extras
 -
@@ -4507,7 +4507,7 @@ aCompartment
 NS_LITERAL_CSTRING
 (
 "
-compartment
+realm
 (
 web
 -
@@ -4522,7 +4522,7 @@ atoms
 NS_LITERAL_CSTRING
 (
 "
-compartment
+realm
 (
 web
 -
@@ -4579,7 +4579,7 @@ location
 =
 nullptr
 ;
-aCompartmentStats
+aRealmStats
 -
 >
 extra
