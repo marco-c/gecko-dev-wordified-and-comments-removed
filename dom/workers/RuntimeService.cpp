@@ -4145,10 +4145,10 @@ JSObject
 *
 originGlobal
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
