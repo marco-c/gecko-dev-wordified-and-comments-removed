@@ -505,6 +505,12 @@ defined
 (
 MOZ_ASAN
 )
+|
+|
+defined
+(
+MOZ_CODE_COVERAGE
+)
 #
 define
 NS_FREE_PERMANENT_DATA
