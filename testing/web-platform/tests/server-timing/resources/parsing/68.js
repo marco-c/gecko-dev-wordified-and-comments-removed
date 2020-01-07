@@ -13,5 +13,14 @@ name
 metric1
 "
 }
+{
+"
+name
+"
+:
+"
+metric2
+"
+}
 ]
 )
