@@ -43,6 +43,9 @@ nsIInputStream
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -79,6 +82,12 @@ nsCOMPtr
 nsIInputStream
 >
 mPostData
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipal
 ;
 friend
 class

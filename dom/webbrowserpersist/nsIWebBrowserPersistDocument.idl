@@ -97,6 +97,9 @@ interface
 nsIOutputStream
 ;
 interface
+nsIPrincipal
+;
+interface
 nsITabParent
 ;
 interface
@@ -374,6 +377,11 @@ readonly
 attribute
 nsIInputStream
 postData
+;
+readonly
+attribute
+nsIPrincipal
+principal
 ;
 /
 *
