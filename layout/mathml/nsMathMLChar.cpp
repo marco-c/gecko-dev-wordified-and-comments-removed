@@ -1841,6 +1841,10 @@ FamilyName
 )
 eUnquotedName
 )
+mGlyphID
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
