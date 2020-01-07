@@ -9332,6 +9332,9 @@ frame1Ancestors
 ;
 if
 (
+aCommonAncestor
+&
+&
 !
 FillAncestors
 (
@@ -9340,9 +9343,6 @@ aCommonAncestor
 &
 frame1Ancestors
 )
-&
-&
-aCommonAncestor
 )
 {
 return
