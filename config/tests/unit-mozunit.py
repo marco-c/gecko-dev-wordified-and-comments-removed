@@ -1,6 +1,4 @@
 import
-sys
-import
 os
 from
 mozunit

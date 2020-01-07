@@ -5,8 +5,6 @@ print_function
 import
 sys
 import
-os
-import
 re
 search_string
 =

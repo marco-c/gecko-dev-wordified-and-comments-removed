@@ -29,6 +29,7 @@ ValueError
 :
     
 print
+(
 "
 Usage
 :
@@ -45,6 +46,7 @@ section
 setting
 >
 "
+)
     
 sys
 .
@@ -141,10 +143,12 @@ try
 :
     
 print
+(
 s
 [
 key
 ]
+)
 except
 KeyError
 :
