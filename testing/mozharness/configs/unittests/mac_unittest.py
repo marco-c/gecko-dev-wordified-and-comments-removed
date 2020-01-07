@@ -55,21 +55,6 @@ exes
 {
         
 '
-virtualenv
-'
-:
-'
-/
-tools
-/
-virtualenv
-/
-bin
-/
-virtualenv
-'
-        
-'
 tooltool
 .
 py
