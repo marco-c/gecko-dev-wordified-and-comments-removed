@@ -22,7 +22,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -405,7 +405,7 @@ amazondotcom
 azerdict
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -440,7 +440,7 @@ bing
 yahoo
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -514,7 +514,7 @@ yahoo
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -697,7 +697,7 @@ espanol
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -729,7 +729,7 @@ google
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 heureka
@@ -790,7 +790,7 @@ co
 uk
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -868,7 +868,7 @@ amazon
 de
 "
 "
-duckduckgo
+ddg
 "
 "
 qwant
@@ -1002,7 +1002,7 @@ co
 uk
 "
 "
-duckduckgo
+ddg
 "
 "
 qwant
@@ -1046,7 +1046,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -1081,7 +1081,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -1116,7 +1116,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -1152,6 +1152,9 @@ au
 google
 -
 2018
+"
+"
+duckduckgo
 "
 ]
 }
@@ -1210,7 +1213,7 @@ yahoo
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 reta
@@ -1340,7 +1343,7 @@ es
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -1385,7 +1388,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 mercadolibre
@@ -1630,7 +1633,7 @@ france
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 qwant
@@ -1774,7 +1777,7 @@ GB
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 faclair
@@ -2024,7 +2027,7 @@ co
 uk
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -2190,7 +2193,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -2307,7 +2310,7 @@ it
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -2392,7 +2395,7 @@ bing
 amazondotcom
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -2838,7 +2841,7 @@ in
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -2990,7 +2993,7 @@ visibleDefaultEngines
 google
 "
 "
-duckduckgo
+ddg
 "
 "
 gulesider
@@ -3077,7 +3080,7 @@ bolcom
 nl
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -3130,7 +3133,7 @@ visibleDefaultEngines
 google
 "
 "
-duckduckgo
+ddg
 "
 "
 gulesider
@@ -3291,7 +3294,7 @@ google
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -3417,7 +3420,7 @@ ch
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 leo_ende_de
@@ -3679,7 +3682,7 @@ yahoo
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -3764,7 +3767,7 @@ amazon
 in
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -3999,7 +4002,7 @@ amazon
 in
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -4072,7 +4075,7 @@ google
 coccoc
 "
 "
-duckduckgo
+ddg
 "
 "
 twitter
@@ -4112,7 +4115,7 @@ france
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -4252,7 +4255,7 @@ google
 bing
 "
 "
-duckduckgo
+ddg
 "
 "
 wikipedia
@@ -4260,6 +4263,23 @@ wikipedia
 zh
 -
 TW
+"
+]
+}
+"
+experimental
+-
+hidden
+"
+:
+{
+"
+visibleDefaultEngines
+"
+:
+[
+"
+duckduckgo
 "
 ]
 }
