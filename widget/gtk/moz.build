@@ -538,6 +538,11 @@ UNIFIED_SOURCES
 =
 [
 '
+nsClipboardWayland
+.
+cpp
+'
+'
 WindowSurfaceWayland
 .
 cpp
