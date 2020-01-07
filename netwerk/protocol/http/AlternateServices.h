@@ -184,6 +184,15 @@ OriginAttributes
 originAttributes
 )
 ;
+static
+bool
+AcceptableProxy
+(
+nsProxyInfo
+*
+pi
+)
+;
 const
 nsCString
 &
