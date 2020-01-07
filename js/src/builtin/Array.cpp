@@ -4961,8 +4961,6 @@ lengthId
 array_length_getter
 array_length_setter
 JSPROP_PERMANENT
-|
-JSPROP_SHADOWABLE
 )
 ;
 }

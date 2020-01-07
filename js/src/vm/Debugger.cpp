@@ -43838,15 +43838,7 @@ NativeDefineAccessorProperty
 cx
 obj
 id
-JS_DATA_TO_FUNC_PTR
-(
-GetterOp
 getobj
-.
-get
-(
-)
-)
 nullptr
 JSPROP_ENUMERATE
 |
