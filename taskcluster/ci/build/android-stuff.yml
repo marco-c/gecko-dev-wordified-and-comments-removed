@@ -415,6 +415,17 @@ test
 -
 ccov
 )
+run
+-
+on
+-
+projects
+:
+[
+mozilla
+-
+central
+]
 worker
 -
 type
