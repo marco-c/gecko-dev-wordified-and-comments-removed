@@ -369,6 +369,12 @@ eUnknown
 ;
 }
 }
+nsDependentCSubstring
+GetIMName
+(
+)
+const
+;
 protected
 :
 ~
