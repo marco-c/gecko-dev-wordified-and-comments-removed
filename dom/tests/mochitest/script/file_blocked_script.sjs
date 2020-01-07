@@ -333,6 +333,12 @@ query
 ]
 )
 ;
+response
+.
+processAsync
+(
+)
+;
 if
 (
 alreadyUnblocked
@@ -371,12 +377,6 @@ query
 [
 1
 ]
-)
-;
-response
-.
-processAsync
-(
 )
 ;
 }
