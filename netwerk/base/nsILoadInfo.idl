@@ -1643,13 +1643,10 @@ certerror
 about
 :
 blocked
-about
-:
-tabcrashed
 or
 about
 :
-restartrequired
+tabcrashed
 .
 *
 /

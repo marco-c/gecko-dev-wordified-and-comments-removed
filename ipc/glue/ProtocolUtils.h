@@ -241,11 +241,6 @@ namespace
 {
 enum
 {
-BUILD_IDS_MATCH_MESSAGE_TYPE
-=
-kuint16max
--
-8
 BUILD_ID_MESSAGE_TYPE
 =
 kuint16max
