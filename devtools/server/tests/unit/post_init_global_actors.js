@@ -59,7 +59,16 @@ DebuggerServer
 .
 addGlobalActor
 (
+{
+constructorName
+:
+"
 PostInitGlobalActor
+"
+constructorFun
+:
+PostInitGlobalActor
+}
 "
 postInitGlobalActor
 "
