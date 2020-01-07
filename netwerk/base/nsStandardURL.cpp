@@ -12400,9 +12400,6 @@ true
 {
 if
 (
-nsCRT
-:
-:
 strncmp
 (
 relpath

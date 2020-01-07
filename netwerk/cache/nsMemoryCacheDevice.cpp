@@ -2132,9 +2132,6 @@ return
 clientID
 |
 |
-nsCRT
-:
-:
 strncmp
 (
 clientID

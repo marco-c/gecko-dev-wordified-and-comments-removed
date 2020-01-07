@@ -928,9 +928,6 @@ special_ftp_len
 else
 if
 (
-nsCRT
-:
-:
 strncmp
 (
 path
