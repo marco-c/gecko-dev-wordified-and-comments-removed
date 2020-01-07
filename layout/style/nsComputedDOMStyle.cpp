@@ -1190,7 +1190,7 @@ do_GetWeakReference
 aDocument
 )
 ;
-mContent
+mElement
 =
 aElement
 ;
@@ -1235,7 +1235,7 @@ ClearComputedStyle
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mContent
+mElement
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -1245,7 +1245,7 @@ nsComputedDOMStyle
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mContent
+mElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
@@ -3038,7 +3038,7 @@ mResolvedComputedStyle
 =
 false
 ;
-mContent
+mElement
 -
 >
 RemoveMutationObserver
@@ -3079,7 +3079,7 @@ mResolvedComputedStyle
 =
 true
 ;
-mContent
+mElement
 -
 >
 AddMutationObserver
@@ -3143,7 +3143,7 @@ if
 aDocument
 !
 =
-mContent
+mElement
 -
 >
 OwnerDoc
@@ -3160,12 +3160,7 @@ if
 DocumentNeedsRestyle
 (
 aDocument
-mContent
--
->
-AsElement
-(
-)
+mElement
 mPseudo
 )
 )
@@ -3313,7 +3308,7 @@ nsContentUtils
 :
 GetPresShellForContent
 (
-mContent
+mElement
 )
 ;
 if
@@ -3423,7 +3418,7 @@ mComputedStyleGeneration
 currentGeneration
 &
 &
-mContent
+mElement
 -
 >
 IsInComposedDoc
@@ -3448,7 +3443,7 @@ eAll
 &
 &
 !
-mContent
+mElement
 -
 >
 IsHTMLElement
@@ -3472,7 +3467,7 @@ mPseudo
 {
 mOuterFrame
 =
-mContent
+mElement
 -
 >
 GetPrimaryFrame
@@ -3533,7 +3528,7 @@ Element
 *
 >
 (
-mContent
+mElement
 -
 >
 GetProperty
@@ -3683,12 +3678,7 @@ resolvedComputedStyle
 =
 DoGetComputedStyleNoFlush
 (
-mContent
--
->
-AsElement
-(
-)
+mElement
 mPseudo
 presShellForContent
 ?
@@ -28406,7 +28396,7 @@ ReflowInput
 :
 CalcLineHeight
 (
-mContent
+mElement
 mComputedStyle
 presContext
 blockHeight
@@ -36008,7 +35998,7 @@ aContent
 {
 NS_ASSERTION
 (
-mContent
+mElement
 =
 =
 aContent
@@ -36018,7 +36008,7 @@ didn
 t
 we
 register
-mContent
+mElement
 ?
 "
 )

@@ -316,7 +316,6 @@ StyleType
 aStyleType
 )
 ;
-virtual
 nsINode
 *
 GetParentObject
@@ -325,7 +324,7 @@ GetParentObject
 override
 {
 return
-mContent
+mElement
 ;
 }
 static
@@ -3905,11 +3904,17 @@ GetComputedStyleMap
 nsWeakPtr
 mDocumentWeak
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
-mContent
+mElement
 ;
 mozilla
 :
