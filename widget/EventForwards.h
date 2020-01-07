@@ -69,6 +69,15 @@ eYes
 eNo
 }
 ;
+enum
+class
+Composed
+{
+eYes
+eNo
+eDefault
+}
+;
 typedef
 uint16_t
 EventMessageType
