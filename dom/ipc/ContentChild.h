@@ -393,6 +393,9 @@ ID
 nsCString
 vendor
 ;
+nsCString
+sourceURL
+;
 }
 ;
 nsresult
@@ -2100,6 +2103,10 @@ const
 nsCString
 &
 vendor
+const
+nsCString
+&
+sourceURL
 )
 override
 ;
