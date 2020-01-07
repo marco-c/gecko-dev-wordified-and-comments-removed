@@ -1059,11 +1059,6 @@ Forms
 UpdateDropDown
 "
 "
-PageVisibility
-:
-Show
-"
-"
 SessionStore
 :
 update
