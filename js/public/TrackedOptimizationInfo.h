@@ -142,6 +142,11 @@ GetElem_TypedObject
 \
 _
 (
+GetElem_CallSiteObject
+)
+\
+_
+(
 GetElem_Dense
 )
 \
