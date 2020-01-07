@@ -17992,7 +17992,7 @@ hasScriptName
 )
 )
 {
-compartment
+realm
 (
 )
 -
@@ -18001,7 +18001,7 @@ lcovOutput
 .
 collectCodeCoverageInfo
 (
-compartment
+realm
 (
 )
 this
