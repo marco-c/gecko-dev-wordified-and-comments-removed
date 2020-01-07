@@ -203,6 +203,12 @@ artifact
             
 return
 {
+                
+'
+artifact
+'
+:
+{
 '
 enabled
 '
@@ -210,6 +216,8 @@ enabled
 '
 1
 '
+}
+            
 }
         
 if
@@ -264,6 +272,12 @@ disable
                 
 return
 {
+                    
+'
+artifact
+'
+:
+{
 '
 enabled
 '
@@ -271,6 +285,8 @@ enabled
 '
 1
 '
+}
+                
 }
         
 except
@@ -357,6 +373,12 @@ env
 return
         
 return
+{
+            
+'
+env
+'
+:
 dict
 (
 e
@@ -373,6 +395,8 @@ e
 in
 env
 )
+        
+}
 class
 RangeAction
 (
@@ -618,7 +642,15 @@ rebuild
 return
         
 return
+{
+            
+'
 rebuild
+'
+:
+rebuild
+        
+}
 all_templates
 =
 {
