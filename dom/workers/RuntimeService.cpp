@@ -3773,6 +3773,9 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
+PerThreadAtomCache
+{
+}
 mWorkerPrivate
 (
 aWorkerPrivate
@@ -3783,16 +3786,6 @@ MOZ_ASSERT
 !
 NS_IsMainThread
 (
-)
-)
-;
-memset
-(
-this
-0
-sizeof
-(
-PerThreadAtomCache
 )
 )
 ;
