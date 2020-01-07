@@ -155,14 +155,6 @@ testing
 *
 *
 "
-"
-tools
-/
-profiler
-/
-*
-*
-"
 ]
 "
 rules
