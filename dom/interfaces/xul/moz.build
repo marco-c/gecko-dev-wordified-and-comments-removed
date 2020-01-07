@@ -144,6 +144,11 @@ nsIDOMXULDescriptionElement
 idl
 '
 '
+nsIDOMXULDocument
+.
+idl
+'
+'
 nsIDOMXULElement
 .
 idl
