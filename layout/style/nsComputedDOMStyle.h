@@ -2691,7 +2691,15 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetOverflowClipBox
+DoGetOverflowClipBoxBlock
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
+DoGetOverflowClipBoxInline
 (
 )
 ;

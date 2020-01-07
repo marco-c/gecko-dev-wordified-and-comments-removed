@@ -10417,7 +10417,10 @@ uint8_t
 mOverflowY
 ;
 uint8_t
-mOverflowClipBox
+mOverflowClipBoxBlock
+;
+uint8_t
+mOverflowClipBoxInline
 ;
 uint8_t
 mResize
