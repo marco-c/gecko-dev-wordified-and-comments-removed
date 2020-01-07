@@ -768,7 +768,7 @@ mCodecContext
 flags
 |
 =
-CODEC_FLAG_LOW_DELAY
+AV_CODEC_FLAG_LOW_DELAY
 ;
 mCodecContext
 -
