@@ -181,6 +181,17 @@ Length
 NonNegativeLength
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 values
 :
@@ -262,7 +273,7 @@ Angle
 Factor
 NonNegativeLength
 Impossible
-SpecifiedUrl
+Impossible
 >
 ;
 #

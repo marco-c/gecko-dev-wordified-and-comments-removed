@@ -125,6 +125,17 @@ length
 :
 Length
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 values
 :
@@ -344,7 +355,7 @@ Angle
 Number
 Length
 Impossible
-ComputedUrl
+Impossible
 >
 ;
 pub
