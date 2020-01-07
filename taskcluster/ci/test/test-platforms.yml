@@ -1085,6 +1085,12 @@ instrumentation
 windows
 -
 tests
+-
+windows
+-
+talos
+-
+profiling
 windows10
 -
 64
