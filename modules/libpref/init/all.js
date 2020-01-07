@@ -19664,16 +19664,6 @@ pref
 "
 security
 .
-xcto_nosniff_block_images
-"
-false
-)
-;
-pref
-(
-"
-security
-.
 ssl
 .
 enable_ocsp_must_staple
