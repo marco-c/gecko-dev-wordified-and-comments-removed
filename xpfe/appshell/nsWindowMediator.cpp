@@ -3270,7 +3270,6 @@ false
 NS_IMPL_ISUPPORTS
 (
 nsWindowMediator
-nsIWindowMediator_44
 nsIWindowMediator
 nsIObserver
 nsISupportsWeakReference
