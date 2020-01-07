@@ -2407,6 +2407,9 @@ PresContext
 HasPendingMediaQueryUpdates
 (
 )
+|
+|
+mDoRebuildAllStyleData
 "
 Someone
 forgot
