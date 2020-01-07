@@ -126,14 +126,6 @@ devtools
 *
 "
 "
-dom
-/
-indexedDB
-/
-*
-*
-"
-"
 extensions
 /
 pref
