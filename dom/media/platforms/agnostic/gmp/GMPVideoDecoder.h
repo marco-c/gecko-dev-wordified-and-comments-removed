@@ -95,6 +95,12 @@ mCrashHelper
 ;
 }
 ;
+DDLoggedTypeDeclNameAndBase
+(
+GMPVideoDecoder
+MediaDataDecoder
+)
+;
 class
 GMPVideoDecoder
 :
@@ -102,6 +108,11 @@ public
 MediaDataDecoder
 public
 GMPVideoDecoderCallbackProxy
+public
+DecoderDoctorLifeLogger
+<
+GMPVideoDecoder
+>
 {
 public
 :

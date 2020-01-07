@@ -74,6 +74,11 @@ h
 namespace
 mozilla
 {
+DDLoggedTypeDeclName
+(
+MP4Metadata
+)
+;
 class
 IndiceWrapper
 {
@@ -193,6 +198,12 @@ mOffset
 ;
 class
 MP4Metadata
+:
+public
+DecoderDoctorLifeLogger
+<
+MP4Metadata
+>
 {
 public
 :

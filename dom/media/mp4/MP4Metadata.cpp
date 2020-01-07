@@ -547,6 +547,14 @@ mSourceAdaptor
 aSource
 )
 {
+DDLINKCHILD
+(
+"
+source
+"
+aSource
+)
+;
 Mp4parseIo
 io
 =
