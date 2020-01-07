@@ -7233,12 +7233,6 @@ init
 (
 )
 ;
-TabsInTitlebar
-.
-updateAppearance
-(
-)
-;
 }
 onDOMContentLoaded
 (
