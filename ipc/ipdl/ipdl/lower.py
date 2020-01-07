@@ -4891,9 +4891,6 @@ structDecl
 __class__
 =
 StructDecl
-        
-return
-structDecl
 class
 _StructField
 (
@@ -5469,9 +5466,6 @@ unionDecl
 __class__
 =
 UnionDecl
-        
-return
-unionDecl
 class
 _UnionMember
 (
@@ -7778,9 +7772,6 @@ messageDecl
 __class__
 =
 MessageDecl
-        
-return
-messageDecl
 def
 _usesShmem
 (
@@ -9075,9 +9066,6 @@ protocol
 __class__
 =
 Protocol
-        
-return
-protocol
 class
 TranslationUnit
 (
@@ -9114,9 +9102,6 @@ tu
 __class__
 =
 TranslationUnit
-        
-return
-tu
 class
 _DecorateWithCxxStuff
 (
