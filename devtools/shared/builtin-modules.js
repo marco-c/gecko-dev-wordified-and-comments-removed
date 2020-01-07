@@ -702,11 +702,6 @@ module
 )
 ;
 }
-DocumentFragment
-:
-Ci
-.
-nsIDOMDocumentFragment
 Element
 :
 Ci
