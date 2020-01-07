@@ -2986,7 +2986,7 @@ setScriptSourceOffset
 lazy
 -
 >
-begin
+sourceStart
 (
 )
 )
@@ -3232,13 +3232,13 @@ sourceObject
 lazy
 -
 >
-begin
+sourceStart
 (
 )
 lazy
 -
 >
-end
+sourceEnd
 (
 )
 lazy
