@@ -3419,7 +3419,6 @@ instr
 )
 ;
 static
-inline
 uintptr_t
 StackLimit
 (
@@ -3437,6 +3436,16 @@ Current
 stackLimit
 (
 )
+;
+}
+static
+bool
+supportsAtomics
+(
+)
+{
+return
+true
 ;
 }
 void

@@ -356,6 +356,18 @@ Simulator
 )
 ;
 static
+bool
+supportsAtomics
+(
+)
+{
+return
+HasLDSTREXBHD
+(
+)
+;
+}
+static
 Simulator
 *
 Current
@@ -363,7 +375,6 @@ Current
 )
 ;
 static
-inline
 uintptr_t
 StackLimit
 (
