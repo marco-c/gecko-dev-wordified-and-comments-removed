@@ -8,7 +8,7 @@ use
 euclid
 :
 :
-ScaleFactor
+TypedScale
 ;
 use
 euclid
@@ -293,7 +293,7 @@ new
 .
 0
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -4086,7 +4086,7 @@ new
 .
 0
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -4296,7 +4296,7 @@ new
 .
 0
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -5023,7 +5023,7 @@ new
 .
 0
 )
-ScaleFactor
+TypedScale
 :
 :
 new

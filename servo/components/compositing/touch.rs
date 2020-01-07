@@ -11,7 +11,7 @@ use
 euclid
 :
 :
-ScaleFactor
+TypedScale
 ;
 use
 script_traits
@@ -522,7 +522,7 @@ c1
 -
 c0
 *
-ScaleFactor
+TypedScale
 :
 :
 new

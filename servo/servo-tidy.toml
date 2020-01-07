@@ -187,9 +187,6 @@ toml
 "
 unicase
 "
-"
-smallvec
-"
 ]
 #
 Files

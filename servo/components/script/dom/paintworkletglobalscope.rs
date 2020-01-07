@@ -254,7 +254,7 @@ use
 euclid
 :
 :
-ScaleFactor
+TypedScale
 ;
 use
 euclid
@@ -636,7 +636,7 @@ cached_device_pixel_ratio
 :
 Cell
 <
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -812,7 +812,7 @@ Cell
 :
 new
 (
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -1443,7 +1443,7 @@ CSSPixel
 >
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -1543,7 +1543,7 @@ DevicePixel
 >
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -2631,7 +2631,7 @@ CSSPixel
 >
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -3391,7 +3391,7 @@ TypedSize2D
 f32
 CSSPixel
 >
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel

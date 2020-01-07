@@ -29,7 +29,7 @@ euclid
 {
 TypedPoint2D
 TypedVector2D
-ScaleFactor
+TypedScale
 }
 ;
 use
@@ -541,7 +541,7 @@ PipelineDetails
 >
 scale
 :
-ScaleFactor
+TypedScale
 <
 f32
 LayerPixel
@@ -570,7 +570,7 @@ PinchZoomFactor
 >
 page_zoom
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -578,7 +578,7 @@ DeviceIndependentPixel
 >
 scale_factor
 :
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
@@ -1433,7 +1433,7 @@ window_rect
 window_rect
 scale
 :
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -1481,7 +1481,7 @@ ShutdownState
 NotShuttingDown
 page_zoom
 :
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -5442,7 +5442,7 @@ scroll_location
 let
 old_event_count
 =
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -5464,7 +5464,7 @@ event_count
 let
 new_event_count
 =
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -6047,7 +6047,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 DeviceIndependentPixel
@@ -6070,7 +6070,7 @@ device_pixels_per_px
 )
 =
 >
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -6096,7 +6096,7 @@ _
 )
 =
 >
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -6122,7 +6122,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -6160,7 +6160,7 @@ self
 .
 scale
 =
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -6186,7 +6186,7 @@ self
 .
 page_zoom
 =
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -6235,7 +6235,7 @@ self
 .
 page_zoom
 =
-ScaleFactor
+TypedScale
 :
 :
 new

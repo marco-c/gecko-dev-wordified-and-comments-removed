@@ -203,7 +203,7 @@ euclid
 Point2D
 Rect
 Size2D
-ScaleFactor
+TypedScale
 TypedSize2D
 }
 ;
@@ -2285,7 +2285,7 @@ to_f32
 (
 )
 *
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -2294,7 +2294,7 @@ new
 .
 0
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -10141,7 +10141,7 @@ CSSPixel
 >
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel

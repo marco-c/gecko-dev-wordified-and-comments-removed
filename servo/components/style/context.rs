@@ -66,13 +66,13 @@ use
 euclid
 :
 :
-ScaleFactor
+Size2D
 ;
 use
 euclid
 :
 :
-Size2D
+TypedScale
 ;
 use
 fnv
@@ -883,7 +883,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel

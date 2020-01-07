@@ -32,13 +32,13 @@ use
 euclid
 :
 :
-ScaleFactor
+Size2D
 ;
 use
 euclid
 :
 :
-Size2D
+TypedScale
 ;
 use
 gecko
@@ -888,7 +888,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -914,7 +914,7 @@ override_dppx
 0
 {
 return
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -943,7 +943,7 @@ AU_PER_PX
 as
 f32
 ;
-ScaleFactor
+TypedScale
 :
 :
 new

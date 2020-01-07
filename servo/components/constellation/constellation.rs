@@ -114,7 +114,7 @@ euclid
 {
 Size2D
 TypedSize2D
-ScaleFactor
+TypedScale
 }
 ;
 use
@@ -2132,7 +2132,7 @@ to_f32
 (
 )
 *
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -2143,7 +2143,7 @@ new
 )
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 :
 :
 new

@@ -11,7 +11,7 @@ use
 euclid
 :
 :
-ScaleFactor
+TypedScale
 ;
 use
 euclid
@@ -727,7 +727,7 @@ new
 600
 .
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -950,7 +950,7 @@ new
 600
 .
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -1858,7 +1858,7 @@ new
 600
 .
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -2511,7 +2511,7 @@ new
 600
 .
 )
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -3119,7 +3119,7 @@ screen
 (
 )
 initial_viewport
-ScaleFactor
+TypedScale
 :
 :
 new
@@ -3444,7 +3444,7 @@ screen
 (
 )
 initial_viewport
-ScaleFactor
+TypedScale
 :
 :
 new

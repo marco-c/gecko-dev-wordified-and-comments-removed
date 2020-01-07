@@ -24,7 +24,7 @@ euclid
 :
 :
 {
-ScaleFactor
+TypedScale
 Size2D
 TypedSize2D
 }
@@ -151,7 +151,7 @@ CSSPixel
 >
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -216,7 +216,7 @@ CSSPixel
 >
 device_pixel_ratio
 :
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
@@ -512,7 +512,7 @@ self
 )
 -
 >
-ScaleFactor
+TypedScale
 <
 f32
 CSSPixel
