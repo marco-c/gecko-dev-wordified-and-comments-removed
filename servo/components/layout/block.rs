@@ -156,7 +156,7 @@ use
 servo_geometry
 :
 :
-max_rect
+MaxRect
 ;
 use
 std
@@ -10295,6 +10295,9 @@ base
 .
 clip
 =
+Rect
+:
+:
 max_rect
 (
 )

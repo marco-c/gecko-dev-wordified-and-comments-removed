@@ -889,7 +889,7 @@ servo_geometry
 :
 {
 f32_rect_to_au_rect
-max_rect
+MaxRect
 }
 ;
 use
@@ -9648,6 +9648,9 @@ had_clip_rect
 clip_rect
 !
 =
+MaxRect
+:
+:
 max_rect
 (
 )
@@ -10884,6 +10887,9 @@ Cell
 :
 new
 (
+MaxRect
+:
+:
 max_rect
 (
 )

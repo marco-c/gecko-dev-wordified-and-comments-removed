@@ -713,7 +713,7 @@ use
 servo_geometry
 :
 :
-max_rect
+MaxRect
 ;
 use
 servo_url
@@ -8512,6 +8512,9 @@ reflow_info
 Reflow
 {
 page_clip_rect
+:
+Rect
+:
 :
 max_rect
 (

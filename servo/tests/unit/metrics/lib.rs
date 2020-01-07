@@ -8,10 +8,6 @@ test
 ]
 extern
 crate
-euclid
-;
-extern
-crate
 gfx
 ;
 extern
@@ -44,11 +40,11 @@ servo_url
 ;
 extern
 crate
-style
+time
 ;
 extern
 crate
-time
+webrender_api
 ;
 mod
 interactive_time
