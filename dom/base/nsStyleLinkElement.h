@@ -166,7 +166,7 @@ aDontLoadStyle
 )
 override
 ;
-NS_IMETHOD
+nsresult
 UpdateStyleSheet
 (
 nsICSSLoaderObserver

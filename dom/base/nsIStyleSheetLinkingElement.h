@@ -94,7 +94,8 @@ aDontLoadStyle
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 UpdateStyleSheet
 (
 nsICSSLoaderObserver
