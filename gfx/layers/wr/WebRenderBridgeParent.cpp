@@ -4213,6 +4213,11 @@ MOZ_ASSERT
 mPaused
 )
 ;
+MOZ_ASSERT
+(
+mWidget
+)
+;
 RefPtr
 <
 TextureHost
@@ -6038,6 +6043,11 @@ IntRect
 aRect
 )
 {
+MOZ_ASSERT
+(
+mWidget
+)
+;
 MOZ_ASSERT
 (
 aTarget
