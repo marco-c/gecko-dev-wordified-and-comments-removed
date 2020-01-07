@@ -1580,6 +1580,14 @@ aWhichClipboard
 targetNums
 )
 ;
+if
+(
+!
+targets
+)
+return
+NS_OK
+;
 for
 (
 uint32_t
