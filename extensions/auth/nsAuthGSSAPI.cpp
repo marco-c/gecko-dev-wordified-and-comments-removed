@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsNativeCharsetUtils
 .
 h
