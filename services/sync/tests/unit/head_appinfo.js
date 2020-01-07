@@ -37,15 +37,6 @@ jsm
 )
 ;
 var
-gSyncProfile
-;
-gSyncProfile
-=
-do_get_profile
-(
-)
-;
-var
 fhs
 =
 Cc
