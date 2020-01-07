@@ -185,6 +185,15 @@ getSelectedSource
 state
 )
 ;
+if
+(
+!
+source
+)
+{
+return
+;
+}
 const
 symbols
 =

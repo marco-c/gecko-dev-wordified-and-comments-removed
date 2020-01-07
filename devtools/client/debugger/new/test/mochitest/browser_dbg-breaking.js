@@ -116,11 +116,6 @@ getState
 (
 )
 )
-.
-toJS
-(
-)
-;
 ok
 (
 !

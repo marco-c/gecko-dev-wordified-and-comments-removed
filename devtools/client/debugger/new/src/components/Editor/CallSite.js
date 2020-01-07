@@ -119,12 +119,7 @@ sourceId
 =
 source
 .
-get
-(
-"
 id
-"
-)
 ;
 const
 editorRange

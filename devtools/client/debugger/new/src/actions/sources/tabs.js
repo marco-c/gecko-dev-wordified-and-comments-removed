@@ -284,12 +284,7 @@ removeDocument
 (
 source
 .
-get
-(
-"
 id
-"
-)
 )
 ;
 }

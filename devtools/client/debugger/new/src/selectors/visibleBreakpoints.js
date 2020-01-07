@@ -122,12 +122,7 @@ sourceId
 =
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 ;
 const
 isGeneratedSource
@@ -170,12 +165,7 @@ sourceId
 =
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 ;
 const
 isGeneratedSource
