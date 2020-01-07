@@ -213,10 +213,7 @@ state
 {
 sidebarVisible
 :
-!
-state
-.
-sidebarVisible
+false
 gripInSidebar
 :
 null
