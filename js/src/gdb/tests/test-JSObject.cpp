@@ -20,6 +20,9 @@ JSObject
 simple
 )
 {
+AutoSuppressHazardsForTest
+noanalysis
+;
 JS
 :
 :
