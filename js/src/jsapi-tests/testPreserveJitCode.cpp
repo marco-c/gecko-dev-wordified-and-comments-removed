@@ -18,17 +18,6 @@ tests
 .
 h
 "
-#
-include
-"
-vm
-/
-JSObject
--
-inl
-.
-h
-"
 using
 namespace
 JS
@@ -132,7 +121,7 @@ cx
 global
 -
 >
-nonCCWRealm
+realm
 (
 )
 &
