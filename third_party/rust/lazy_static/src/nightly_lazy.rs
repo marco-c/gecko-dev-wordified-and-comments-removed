@@ -2,6 +2,10 @@ extern
 crate
 std
 ;
+extern
+crate
+core
+;
 use
 self
 :
@@ -159,13 +163,13 @@ x
 None
 =
 >
-std
+core
 :
 :
-mem
+hint
 :
 :
-unreachable
+unreachable_unchecked
 (
 )
 }
