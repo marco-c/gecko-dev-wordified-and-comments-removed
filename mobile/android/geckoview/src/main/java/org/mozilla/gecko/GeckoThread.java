@@ -2234,7 +2234,7 @@ mExtras
 .
 getInt
 (
-EXTRA_CRASH_FD
+EXTRA_IPC_FD
 -
 1
 )
@@ -2242,7 +2242,7 @@ mExtras
 .
 getInt
 (
-EXTRA_IPC_FD
+EXTRA_CRASH_FD
 -
 1
 )
