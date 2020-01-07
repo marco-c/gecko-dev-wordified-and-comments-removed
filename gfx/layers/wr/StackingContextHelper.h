@@ -322,6 +322,9 @@ Matrix4x4
 >
 mTransformForScrollData
 ;
+bool
+mIsPreserve3D
+;
 }
 ;
 }
