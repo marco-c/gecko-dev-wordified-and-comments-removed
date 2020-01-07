@@ -3005,7 +3005,7 @@ ScriptableCPInfo
 :
 GetMessageManager
 (
-nsISupports
+nsIMessageSender
 *
 *
 aMessenger
@@ -9736,10 +9736,6 @@ shm
 .
 Create
 (
-"
-"
-false
-false
 prefs
 .
 Length
