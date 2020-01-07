@@ -1664,6 +1664,11 @@ tmpfile
 "
 (
 mktemp
+temp
+-
+filelist
+.
+XXXXXX
 )
 "
 find
@@ -1706,6 +1711,8 @@ name
 temp
 -
 dirlist
+.
+*
 "
 \
 !
@@ -1715,6 +1722,8 @@ name
 temp
 -
 filelist
+.
+*
 "
 \
 |
@@ -1819,6 +1828,11 @@ tmpfile
 "
 (
 mktemp
+temp
+-
+dirlist
+.
+XXXXXX
 )
 "
 find
