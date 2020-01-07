@@ -1246,6 +1246,9 @@ container
 width
 :
 CONTAINER_WIDTH
+height
+:
+Infinity
 }
 )
 ;
