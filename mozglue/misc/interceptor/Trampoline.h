@@ -115,7 +115,12 @@ VirtualProtect
 (
 aLocalBase
 aChunkSize
-PAGE_EXECUTE_READWRITE
+MMPolicy
+:
+:
+GetTrampWriteProtFlags
+(
+)
 &
 mPrevLocalProt
 )
