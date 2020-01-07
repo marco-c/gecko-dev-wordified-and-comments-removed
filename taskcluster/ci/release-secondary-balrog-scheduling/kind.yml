@@ -172,6 +172,12 @@ worker
 product
 :
 firefox
+release
+-
+eta
+:
+'
+'
 channel
 -
 names
