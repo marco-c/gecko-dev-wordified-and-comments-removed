@@ -841,6 +841,16 @@ mDropEffect
 aDropEffectInt
 ;
 }
+uint32_t
+EffectAllowedInt
+(
+)
+const
+{
+return
+mEffectAllowed
+;
+}
 void
 GetMozTriggeringPrincipalURISpec
 (
