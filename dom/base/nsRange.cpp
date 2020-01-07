@@ -7743,7 +7743,7 @@ StealNSResult
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsRange
 :
 :
@@ -7759,7 +7759,6 @@ if
 mIsPositioned
 )
 return
-NS_ERROR_NOT_INITIALIZED
 ;
 AutoInvalidateSelection
 atEndOfBlock
@@ -7806,9 +7805,6 @@ mRoot
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsRange
@@ -7831,9 +7827,6 @@ mCalledByJS
 =
 true
 ;
-Unused
-<
-<
 Collapse
 (
 aToStart
@@ -9085,7 +9078,7 @@ startContainer
 =
 commonAncestor
 )
-return
+{
 aRange
 -
 >
@@ -9094,6 +9087,10 @@ Collapse
 true
 )
 ;
+return
+NS_OK
+;
+}
 if
 (
 endContainer
@@ -9101,7 +9098,7 @@ endContainer
 =
 commonAncestor
 )
-return
+{
 aRange
 -
 >
@@ -9110,6 +9107,10 @@ Collapse
 false
 )
 ;
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsINode
@@ -9184,7 +9185,6 @@ StealNSResult
 (
 )
 ;
-return
 aRange
 -
 >
@@ -9192,6 +9192,9 @@ Collapse
 (
 false
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

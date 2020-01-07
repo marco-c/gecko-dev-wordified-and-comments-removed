@@ -207,14 +207,6 @@ refNode
 )
 ;
 void
-collapse
-(
-in
-boolean
-toStart
-)
-;
-void
 selectNode
 (
 in
