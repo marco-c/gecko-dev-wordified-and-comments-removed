@@ -1217,9 +1217,10 @@ type
 "
 TabBrowserInserted
 "
-&
-&
-!
+)
+{
+if
+(
 event
 .
 detail
@@ -1227,6 +1228,9 @@ detail
 insertedOnTabCreation
 )
 {
+return
+;
+}
 needed
 .
 push
