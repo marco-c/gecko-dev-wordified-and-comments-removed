@@ -2090,6 +2090,48 @@ args
 kwargs
 )
         
+self
+.
+countpass
++
+=
+self
+.
+counts
+[
+'
+pass
+'
+]
+        
+self
+.
+countfail
++
+=
+self
+.
+counts
+[
+'
+fail
+'
+]
+        
+self
+.
+counttodo
++
+=
+self
+.
+counts
+[
+'
+todo
+'
+]
+        
 return
 ret
 None
@@ -2117,6 +2159,12 @@ logger
 None
 )
     
+counts
+=
+dict
+(
+)
+    
 process_args
 =
 {
@@ -2125,6 +2173,11 @@ messageLogger
 '
 :
 message_logger
+'
+counts
+'
+:
+counts
 }
     
 auto
@@ -2242,6 +2295,12 @@ mochitest
 message_logger
 =
 message_logger
+    
+mochitest
+.
+counts
+=
+counts
     
 expected
 =
