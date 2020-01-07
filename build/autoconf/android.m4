@@ -90,10 +90,7 @@ directory_include_args
 "
 -
 isystem
-android_system
--
-isystem
-android_sysroot
+android_platform
 /
 usr
 /
@@ -141,10 +138,6 @@ CPPFLAGS
 =
 "
 extra_opts
--
-D__ANDROID_API__
-=
-android_version
 CPPFLAGS
 "
 ASFLAGS

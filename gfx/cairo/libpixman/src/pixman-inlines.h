@@ -6,13 +6,6 @@ define
 PIXMAN_FAST_PATH_H__
 #
 include
-<
-malloc
-.
-h
->
-#
-include
 "
 pixman
 -

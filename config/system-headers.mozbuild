@@ -6010,15 +6010,6 @@ system_headers
 '
 android
 /
-api
--
-level
-.
-h
-'
-'
-android
-/
 ashmem
 .
 h
