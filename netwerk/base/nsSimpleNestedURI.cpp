@@ -826,7 +826,6 @@ Mutator
 nsIURISetters
 nsIURIMutator
 nsISerializable
-nsINestedURIMutator
 )
 NS_IMETHODIMP
 nsSimpleNestedURI

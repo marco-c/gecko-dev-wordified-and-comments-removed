@@ -995,7 +995,6 @@ nsIURISetters
 nsIURIMutator
 nsIURLMutator
 nsISerializable
-nsIJARURIMutator
 )
 NS_IMETHODIMP
 nsJARURI
