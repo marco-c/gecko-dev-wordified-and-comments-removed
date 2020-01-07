@@ -907,6 +907,14 @@ text
 not
 (
 .
+menulist
+-
+label
+)
+:
+not
+(
+.
 indent
 )
 :
