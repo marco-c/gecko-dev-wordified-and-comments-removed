@@ -96,9 +96,6 @@ class
 nsIFrame
 ;
 class
-nsIStyleRule
-;
-class
 nsPresContext
 ;
 class

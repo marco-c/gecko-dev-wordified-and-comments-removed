@@ -5116,7 +5116,6 @@ Stylo
 )
 depends
 (
-stylo_config
 '
 -
 -
@@ -5141,7 +5140,6 @@ environment
 def
 building_stylo_bindgen
 (
-stylo_config
 bindgen_enabled
 compile_environment
 )
@@ -5159,9 +5157,7 @@ bindgen_enabled
 return
 False
 return
-stylo_config
-.
-build
+True
 #
 We
 support
