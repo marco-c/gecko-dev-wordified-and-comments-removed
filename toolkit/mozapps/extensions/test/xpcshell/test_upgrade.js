@@ -140,6 +140,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -207,6 +210,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -273,6 +279,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -333,6 +342,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -508,7 +520,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -529,7 +541,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -551,7 +563,7 @@ Assert
 ok
 (
 !
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a3
@@ -572,7 +584,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a4
@@ -633,6 +645,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -744,7 +759,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -765,7 +780,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -786,7 +801,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a3
@@ -807,7 +822,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a4
@@ -867,6 +882,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -981,7 +999,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a1
@@ -1002,7 +1020,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a2
@@ -1023,7 +1041,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 a3
@@ -1044,7 +1062,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 globalDir
 a4
