@@ -101,6 +101,13 @@ nsIAccessibleEvent
 .
 EVENT_DOCUMENT_RELOAD
 ;
+const
+EVENT_VIRTUALCURSOR_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_VIRTUALCURSOR_CHANGED
+;
 function
 eventToString
 (

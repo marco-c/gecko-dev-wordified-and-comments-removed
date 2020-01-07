@@ -1466,6 +1466,15 @@ in
 long
 aOldEnd
 in
+nsIAccessible
+aNewAccessible
+in
+long
+aNewStart
+in
+long
+aNewEnd
+in
 PivotMoveReason
 aReason
 in
