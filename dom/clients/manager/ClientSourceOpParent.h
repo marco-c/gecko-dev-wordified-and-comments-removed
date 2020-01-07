@@ -39,6 +39,10 @@ final
 public
 PClientSourceOpParent
 {
+const
+ClientOpConstructorArgs
+mArgs
+;
 RefPtr
 <
 ClientOpPromise
