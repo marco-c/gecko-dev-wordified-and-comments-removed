@@ -166,9 +166,6 @@ nsIDOMText
 interface
 nsIDOMClientRect
 ;
-interface
-nsIDOMClientRectList
-;
 /
 /
 Needed

@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIDOMClientRectList
-.
-h
-"
-#
-include
-"
 nsIDOMClientRect
 .
 h

@@ -154,11 +154,6 @@ nsIDOMClientRect
 idl
 '
 '
-nsIDOMClientRectList
-.
-idl
-'
-'
 nsIDOMConstructor
 .
 idl
