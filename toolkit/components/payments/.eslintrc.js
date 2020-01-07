@@ -355,16 +355,6 @@ radix
 "
 error
 "
-semi
-:
-[
-"
-error
-"
-"
-always
-"
-]
 "
 semi
 -
