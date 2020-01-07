@@ -17,8 +17,8 @@ api
 :
 {
 ImageRendering
-LayerRect
-LayerSize
+LayoutRect
+LayoutSize
 LayoutPoint
 LayoutVector2D
 LocalClip
@@ -30,8 +30,7 @@ api
 :
 {
 BoxShadowClipMode
-LayerPoint
-LayerToWorldScale
+LayoutToWorldScale
 LineOrientation
 LineStyle
 }
@@ -128,7 +127,7 @@ util
 :
 :
 {
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 MaxRect
 calculate_screen_bounding_rect
 }
@@ -204,7 +203,7 @@ LineDecorationClipSource
 {
 rect
 :
-LayerRect
+LayoutRect
 style
 :
 LineStyle
@@ -230,7 +229,7 @@ ClipRegion
 pub
 main
 :
-LayerRect
+LayoutRect
 pub
 image_mask
 :
@@ -255,7 +254,7 @@ create_for_clip_node
 (
 rect
 :
-LayerRect
+LayoutRect
 mut
 complex_clips
 :
@@ -437,12 +436,12 @@ ClipSource
 {
 Rectangle
 (
-LayerRect
+LayoutRect
 ClipMode
 )
 RoundedRectangle
 (
-LayerRect
+LayoutRect
 BorderRadius
 ClipMode
 )
@@ -584,7 +583,7 @@ new_rounded_rect
 (
 rect
 :
-LayerRect
+LayoutRect
 mut
 radii
 :
@@ -641,7 +640,7 @@ new_line_decoration
 (
 rect
 :
-LayerRect
+LayoutRect
 style
 :
 LineStyle
@@ -676,13 +675,13 @@ new_box_shadow
 (
 shadow_rect
 :
-LayerRect
+LayoutRect
 shadow_radius
 :
 BorderRadius
 prim_shadow_rect
 :
-LayerRect
+LayoutRect
 blur_radius
 :
 f32
@@ -697,7 +696,7 @@ ClipSource
 let
 fract_offset
 =
-LayerPoint
+LayoutPoint
 :
 :
 new
@@ -733,7 +732,7 @@ abs
 let
 fract_size
 =
-LayerSize
+LayoutSize
 :
 :
 new
@@ -874,7 +873,7 @@ blur_region
 let
 min_shadow_rect_size
 =
-LayerSize
+LayoutSize
 :
 :
 new
@@ -899,12 +898,12 @@ let
 mut
 minimal_shadow_rect
 =
-LayerRect
+LayoutRect
 :
 :
 new
 (
-LayerPoint
+LayoutPoint
 :
 :
 new
@@ -920,7 +919,7 @@ fract_offset
 .
 y
 )
-LayerSize
+LayoutSize
 :
 :
 new
@@ -1029,7 +1028,7 @@ Simple
 let
 shadow_rect_alloc_size
 =
-LayerSize
+LayoutSize
 :
 :
 new
@@ -1200,13 +1199,13 @@ GpuCacheHandle
 pub
 local_inner_rect
 :
-LayerRect
+LayoutRect
 pub
 local_outer_rect
 :
 Option
 <
-LayerRect
+LayoutRect
 >
 }
 impl
@@ -1314,10 +1313,10 @@ ClipSource
 -
 >
 (
-LayerRect
+LayoutRect
 Option
 <
-LayerRect
+LayoutRect
 >
 )
 {
@@ -1330,7 +1329,7 @@ is_empty
 {
 return
 (
-LayerRect
+LayoutRect
 :
 :
 zero
@@ -1346,7 +1345,7 @@ local_outer
 =
 Some
 (
-LayerRect
+LayoutRect
 :
 :
 max_rect
@@ -1633,7 +1632,7 @@ local_outer
 .
 unwrap_or_else
 (
-LayerRect
+LayoutRect
 :
 :
 zero
@@ -1655,7 +1654,7 @@ local_inner
 .
 unwrap_or_else
 (
-LayerRect
+LayoutRect
 :
 :
 zero
@@ -1663,7 +1662,7 @@ zero
 }
 else
 {
-LayerRect
+LayoutRect
 :
 :
 zero
@@ -2065,7 +2064,7 @@ round
 let
 content_scale
 =
-LayerToWorldScale
+LayoutToWorldScale
 :
 :
 new
@@ -2280,7 +2279,7 @@ self
 transform
 :
 &
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 device_pixel_scale
 :
 DevicePixelScale
@@ -2381,7 +2380,7 @@ Geometry
 pub
 local_rect
 :
-LayerRect
+LayoutRect
 pub
 device_rect
 :
@@ -2390,7 +2389,7 @@ DeviceIntRect
 impl
 From
 <
-LayerRect
+LayoutRect
 >
 for
 Geometry
@@ -2400,7 +2399,7 @@ from
 (
 local_rect
 :
-LayerRect
+LayoutRect
 )
 -
 >
@@ -2431,7 +2430,7 @@ LayoutPoint
 rect
 :
 &
-LayerRect
+LayoutRect
 radii
 :
 &
@@ -2757,7 +2756,7 @@ ClipWorkItem
 pub
 local_clip_rect
 :
-LayerRect
+LayoutRect
 pub
 screen_outer_rect
 :

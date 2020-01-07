@@ -2266,7 +2266,7 @@ unwrap
 ;
 }
 fn
-new_document_ready
+new_frame_ready
 (
 &
 self

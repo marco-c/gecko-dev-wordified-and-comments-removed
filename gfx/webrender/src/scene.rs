@@ -7,7 +7,6 @@ BuiltDisplayList
 ColorF
 DynamicProperties
 Epoch
-LayerSize
 LayoutSize
 }
 ;
@@ -486,7 +485,7 @@ PipelineId
 pub
 viewport_size
 :
-LayerSize
+LayoutSize
 pub
 content_size
 :
@@ -652,7 +651,7 @@ ColorF
 >
 viewport_size
 :
-LayerSize
+LayoutSize
 content_size
 :
 LayoutSize

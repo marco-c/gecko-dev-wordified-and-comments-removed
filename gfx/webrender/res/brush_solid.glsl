@@ -162,7 +162,7 @@ endif
 #
 ifdef
 WR_FRAGMENT_SHADER
-vec4
+Fragment
 brush_fs
 (
 )
@@ -186,7 +186,10 @@ vLocalPos
 #
 endif
 return
+Fragment
+(
 color
+)
 ;
 }
 #

@@ -3,9 +3,9 @@ api
 :
 :
 {
-LayerPoint
-LayerSize
-LayerVector2D
+LayoutPoint
+LayoutSize
+LayoutVector2D
 }
 ;
 use
@@ -42,7 +42,7 @@ Ellipse
 pub
 radius
 :
-LayerSize
+LayoutSize
 pub
 total_arc_length
 :
@@ -57,7 +57,7 @@ new
 (
 radius
 :
-LayerSize
+LayoutSize
 )
 -
 >
@@ -231,8 +231,8 @@ f32
 -
 >
 (
-LayerPoint
-LayerPoint
+LayoutPoint
+LayoutPoint
 )
 {
 let
@@ -250,7 +250,7 @@ sin_cos
 let
 point
 =
-LayerPoint
+LayoutPoint
 :
 :
 new
@@ -274,7 +274,7 @@ sin_theta
 let
 tangent
 =
-LayerPoint
+LayoutPoint
 :
 :
 new
@@ -309,7 +309,7 @@ contains
 self
 point
 :
-LayerPoint
+LayoutPoint
 )
 -
 >
@@ -338,7 +338,7 @@ signed_distance
 self
 point
 :
-LayerVector2D
+LayoutVector2D
 )
 -
 >
@@ -376,7 +376,7 @@ let
 mut
 p
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 new
@@ -881,7 +881,7 @@ sqrt
 let
 r
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 new

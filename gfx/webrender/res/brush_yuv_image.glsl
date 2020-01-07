@@ -918,7 +918,7 @@ mat3
 ;
 #
 endif
-vec4
+Fragment
 brush_fs
 (
 )
@@ -1286,7 +1286,10 @@ vLocalPos
 #
 endif
 return
+Fragment
+(
 color
+)
 ;
 }
 #

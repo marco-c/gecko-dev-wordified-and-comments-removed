@@ -542,7 +542,7 @@ false
 ;
 }
 fn
-new_document_ready
+new_frame_ready
 (
 &
 self
@@ -1513,7 +1513,7 @@ size
 Au
 origin
 :
-LayerPoint
+LayoutPoint
 flags
 :
 FontInstanceFlags
@@ -1527,7 +1527,7 @@ u32
 >
 Vec
 <
-LayerPoint
+LayoutPoint
 >
 LayoutRect
 )
@@ -1629,7 +1629,7 @@ new
 (
 *
 glyph_index
-LayerPoint
+LayoutPoint
 :
 :
 zero
@@ -1696,7 +1696,7 @@ FontInstanceFlags
 TRANSPOSE
 )
 {
-LayerVector2D
+LayoutVector2D
 :
 :
 new
@@ -1730,7 +1730,7 @@ else
 }
 else
 {
-LayerVector2D
+LayoutVector2D
 :
 :
 new
@@ -2818,7 +2818,7 @@ Vec
 <
 (
 PipelineId
-LayerSize
+LayoutSize
 BuiltDisplayList
 )
 >
@@ -2828,7 +2828,7 @@ scroll_offsets
 HashMap
 <
 ExternalScrollId
-LayerPoint
+LayoutPoint
 >
 )
 {

@@ -6,9 +6,9 @@ api
 DeviceIntRect
 DevicePixelScale
 ExternalScrollId
-LayerPoint
-LayerRect
-LayerVector2D
+LayoutPoint
+LayoutRect
+LayoutVector2D
 }
 ;
 use
@@ -101,8 +101,8 @@ util
 :
 :
 {
-LayerFastTransform
-LayerToWorldFastTransform
+LayoutFastTransform
+LayoutToWorldFastTransform
 }
 ;
 pub
@@ -339,7 +339,7 @@ FastHashMap
 <
 ExternalScrollId
 (
-LayerPoint
+LayoutPoint
 ScrollClamping
 )
 >
@@ -368,19 +368,19 @@ TransformUpdateState
 pub
 parent_reference_frame_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 pub
 parent_accumulated_scroll_offset
 :
-LayerVector2D
+LayoutVector2D
 pub
 nearest_scrolling_ancestor_offset
 :
-LayerVector2D
+LayoutVector2D
 pub
 nearest_scrolling_ancestor_viewport
 :
-LayerRect
+LayoutRect
 pub
 parent_clip_chain_index
 :
@@ -392,7 +392,7 @@ CoordinateSystemId
 pub
 coordinate_system_relative_transform
 :
-LayerFastTransform
+LayoutFastTransform
 pub
 invertible
 :
@@ -905,7 +905,7 @@ mut
 self
 origin
 :
-LayerPoint
+LayoutPoint
 id
 :
 ExternalScrollId
@@ -1107,7 +1107,7 @@ TransformUpdateState
 {
 parent_reference_frame_transform
 :
-LayerVector2D
+LayoutVector2D
 :
 :
 new
@@ -1125,7 +1125,7 @@ into
 )
 parent_accumulated_scroll_offset
 :
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -1133,7 +1133,7 @@ zero
 )
 nearest_scrolling_ancestor_offset
 :
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -1141,7 +1141,7 @@ zero
 )
 nearest_scrolling_ancestor_viewport
 :
-LayerRect
+LayoutRect
 :
 :
 zero
@@ -1163,7 +1163,7 @@ root
 )
 coordinate_system_relative_transform
 :
-LayerFastTransform
+LayoutFastTransform
 :
 :
 identity
@@ -1708,7 +1708,7 @@ handle
 ClipSourcesHandle
 clip_rect
 :
-LayerRect
+LayoutRect
 pipeline_id
 :
 PipelineId
@@ -1784,7 +1784,7 @@ parent_index
 ClipScrollNodeIndex
 frame_rect
 :
-LayerRect
+LayoutRect
 sticky_frame_info
 :
 StickyFrameInfo

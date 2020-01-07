@@ -5,10 +5,10 @@ api
 {
 DevicePixelScale
 ExternalScrollId
-LayerPixel
-LayerPoint
-LayerRect
-LayerSize
+LayoutPixel
+LayoutPoint
+LayoutRect
+LayoutSize
 }
 ;
 use
@@ -16,9 +16,8 @@ api
 :
 :
 {
-LayerVector2D
-LayoutTransform
 LayoutVector2D
+LayoutTransform
 PipelineId
 PropertyBinding
 }
@@ -114,8 +113,7 @@ util
 :
 :
 {
-LayerToWorldFastTransform
-LayerFastTransform
+LayoutToWorldFastTransform
 LayoutFastTransform
 }
 ;
@@ -163,7 +161,7 @@ LayoutVector2D
 pub
 current_offset
 :
-LayerVector2D
+LayoutVector2D
 }
 impl
 StickyFrameInfo
@@ -203,7 +201,7 @@ horizontal_offset_bounds
 previously_applied_offset
 current_offset
 :
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -300,15 +298,15 @@ ClipScrollNode
 pub
 local_viewport_rect
 :
-LayerRect
+LayoutRect
 pub
 world_viewport_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 pub
 world_content_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 pub
 pipeline_id
 :
@@ -342,7 +340,7 @@ CoordinateSystemId
 pub
 coordinate_system_relative_transform
 :
-LayerFastTransform
+LayoutFastTransform
 pub
 node_data_index
 :
@@ -367,7 +365,7 @@ ClipScrollNodeIndex
 rect
 :
 &
-LayerRect
+LayoutRect
 node_type
 :
 NodeType
@@ -384,7 +382,7 @@ local_viewport_rect
 rect
 world_viewport_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 :
 :
 identity
@@ -392,7 +390,7 @@ identity
 )
 world_content_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 :
 :
 identity
@@ -411,8 +409,6 @@ new
 )
 pipeline_id
 node_type
-:
-node_type
 invertible
 :
 true
@@ -424,7 +420,7 @@ CoordinateSystemId
 )
 coordinate_system_relative_transform
 :
-LayerFastTransform
+LayoutFastTransform
 :
 :
 identity
@@ -460,7 +456,7 @@ dummy
 )
 None
 &
-LayerRect
+LayoutRect
 :
 :
 zero
@@ -491,11 +487,11 @@ ExternalScrollId
 frame_rect
 :
 &
-LayerRect
+LayoutRect
 content_size
 :
 &
-LayerSize
+LayoutSize
 scroll_sensitivity
 :
 ScrollSensitivity
@@ -518,7 +514,7 @@ ScrollFrameInfo
 new
 (
 scroll_sensitivity
-LayerSize
+LayoutSize
 :
 :
 new
@@ -591,7 +587,7 @@ ClipScrollNodeIndex
 frame_rect
 :
 &
-LayerRect
+LayoutRect
 source_transform
 :
 Option
@@ -609,7 +605,7 @@ LayoutTransform
 >
 origin_in_parent_reference_frame
 :
-LayerVector2D
+LayoutVector2D
 pipeline_id
 :
 PipelineId
@@ -656,7 +652,7 @@ ReferenceFrameInfo
 {
 resolved_transform
 :
-LayerFastTransform
+LayoutFastTransform
 :
 :
 identity
@@ -676,8 +672,6 @@ Value
 identity
 )
 )
-source_perspective
-:
 source_perspective
 origin_in_parent_reference_frame
 invertible
@@ -711,7 +705,7 @@ parent_index
 ClipScrollNodeIndex
 frame_rect
 :
-LayerRect
+LayoutRect
 sticky_frame_info
 :
 StickyFrameInfo
@@ -841,7 +835,7 @@ old_scrolling_state
 offset
 !
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -883,7 +877,7 @@ self
 origin
 :
 &
-LayerPoint
+LayoutPoint
 clamp
 :
 ScrollClamping
@@ -995,7 +989,7 @@ false
 let
 origin
 =
-LayerPoint
+LayoutPoint
 :
 :
 new
@@ -1022,7 +1016,7 @@ max
 )
 )
 ;
-LayerVector2D
+LayoutVector2D
 :
 :
 new
@@ -1081,7 +1075,7 @@ ScrollClamping
 NoClamping
 =
 >
-LayerPoint
+LayoutPoint
 :
 :
 zero
@@ -1131,7 +1125,7 @@ self
 .
 world_content_transform
 =
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 :
 :
 identity
@@ -1142,7 +1136,7 @@ self
 .
 world_viewport_transform
 =
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 :
 :
 identity
@@ -1763,7 +1757,7 @@ if
 accumulated_offset
 !
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -1804,7 +1798,7 @@ if
 scroll_offset
 !
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -1965,7 +1959,7 @@ info
 .
 resolved_transform
 =
-LayerFastTransform
+LayoutFastTransform
 :
 :
 with_vector
@@ -2015,7 +2009,7 @@ with_destination
 :
 :
 <
-LayerPixel
+LayoutPixel
 >
 (
 )
@@ -2096,7 +2090,7 @@ self
 .
 coordinate_system_relative_transform
 =
-LayerFastTransform
+LayoutFastTransform
 :
 :
 identity
@@ -2135,15 +2129,15 @@ self
 viewport_scroll_offset
 :
 &
-LayerVector2D
+LayoutVector2D
 viewport_rect
 :
 &
-LayerRect
+LayoutRect
 )
 -
 >
-LayerVector2D
+LayoutVector2D
 {
 let
 info
@@ -2168,7 +2162,7 @@ _
 =
 >
 return
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -2221,7 +2215,7 @@ is_none
 )
 {
 return
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -2245,7 +2239,7 @@ let
 mut
 sticky_offset
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -2895,7 +2889,7 @@ state
 .
 parent_accumulated_scroll_offset
 =
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -3042,7 +3036,7 @@ self
 )
 -
 >
-LayerSize
+LayoutSize
 {
 match
 self
@@ -3064,7 +3058,7 @@ scrollable_size
 _
 =
 >
-LayerSize
+LayoutSize
 :
 :
 zero
@@ -3432,7 +3426,7 @@ scrollable_size
 )
 =
 =
-LayerSize
+LayoutSize
 :
 :
 zero
@@ -3473,7 +3467,7 @@ self
 )
 -
 >
-LayerVector2D
+LayoutVector2D
 {
 match
 self
@@ -3496,7 +3490,7 @@ offset
 _
 =
 >
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -3566,7 +3560,7 @@ ScrollFrameInfo
 pub
 offset
 :
-LayerVector2D
+LayoutVector2D
 pub
 scroll_sensitivity
 :
@@ -3574,7 +3568,7 @@ ScrollSensitivity
 pub
 scrollable_size
 :
-LayerSize
+LayoutSize
 pub
 external_id
 :
@@ -3595,7 +3589,7 @@ scroll_sensitivity
 ScrollSensitivity
 scrollable_size
 :
-LayerSize
+LayoutSize
 external_id
 :
 Option
@@ -3611,7 +3605,7 @@ ScrollFrameInfo
 {
 offset
 :
-LayerVector2D
+LayoutVector2D
 :
 :
 zero
@@ -3671,7 +3665,7 @@ ReferenceFrameInfo
 pub
 resolved_transform
 :
-LayerFastTransform
+LayoutFastTransform
 pub
 source_transform
 :
@@ -3686,7 +3680,7 @@ LayoutFastTransform
 pub
 origin_in_parent_reference_frame
 :
-LayerVector2D
+LayoutVector2D
 pub
 invertible
 :

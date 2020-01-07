@@ -1298,7 +1298,7 @@ MixBlendMode_Luminosity
 =
 15
 ;
-vec4
+Fragment
 brush_fs
 (
 )
@@ -1340,7 +1340,10 @@ a
 )
 {
 return
+Fragment
+(
 Cs
+)
 ;
 }
 if
@@ -1356,11 +1359,14 @@ a
 )
 {
 return
+Fragment
+(
 vec4
 (
 0
 .
 0
+)
 )
 ;
 }
@@ -1861,7 +1867,10 @@ result
 a
 ;
 return
+Fragment
+(
 result
+)
 ;
 }
 #

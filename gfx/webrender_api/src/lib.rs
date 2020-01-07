@@ -28,8 +28,9 @@ clippy
 "
 allow
 (
-too_many_arguments
 float_cmp
+too_many_arguments
+unreadable_literal
 )
 )
 ]

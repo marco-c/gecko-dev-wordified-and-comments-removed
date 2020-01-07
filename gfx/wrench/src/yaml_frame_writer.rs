@@ -5003,7 +5003,7 @@ info
 =
 base
 .
-get_layer_primitive_info
+get_layout_primitive_info
 (
 &
 LayoutVector2D

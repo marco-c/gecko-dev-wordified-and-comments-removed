@@ -28,7 +28,7 @@ api
 :
 :
 {
-LayerSize
+LayoutSize
 PipelineId
 }
 ;
@@ -384,7 +384,7 @@ Epoch
 pub
 viewport_size
 :
-LayerSize
+LayoutSize
 pub
 background_color
 :
@@ -566,7 +566,7 @@ ColorF
 viewport_size
 :
 &
-LayerSize
+LayoutSize
 )
 {
 let

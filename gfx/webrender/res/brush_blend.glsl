@@ -892,7 +892,7 @@ vec3
 )
 ;
 }
-vec4
+Fragment
 brush_fs
 (
 )
@@ -919,11 +919,14 @@ a
 )
 {
 return
+Fragment
+(
 vec4
 (
 0
 .
 0
+)
 )
 ;
 /
@@ -1084,6 +1087,8 @@ output
 value
 .
 return
+Fragment
+(
 alpha
 *
 vec4
@@ -1092,6 +1097,7 @@ color
 1
 .
 0
+)
 )
 ;
 }
