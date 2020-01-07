@@ -7271,11 +7271,6 @@ AssertIsOnParentThread
 (
 )
 ;
-MOZ_ASSERT
-(
-mParentFrozen
-)
-;
 if
 (
 (
