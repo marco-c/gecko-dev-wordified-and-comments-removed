@@ -502,7 +502,7 @@ true
 ;
 }
 void
-CompartmentName
+RealmName
 (
 JSContext
 *
@@ -540,7 +540,7 @@ cname
 xpc
 :
 :
-GetCurrentCompartmentName
+GetCurrentRealmName
 (
 cx
 cname
@@ -3898,7 +3898,7 @@ false
 nsAutoString
 name
 ;
-CompartmentName
+RealmName
 (
 cx
 global

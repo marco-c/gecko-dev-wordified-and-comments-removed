@@ -572,10 +572,6 @@ sizeOfIncludingThisCompartmentCallback
 (
 nullptr
 )
-compartmentNameCallback
-(
-nullptr
-)
 destroyRealmCallback
 (
 nullptr

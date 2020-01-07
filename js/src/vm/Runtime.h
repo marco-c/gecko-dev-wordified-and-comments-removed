@@ -1371,15 +1371,6 @@ js
 :
 MainThreadData
 <
-JSCompartmentNameCallback
->
-compartmentNameCallback
-;
-js
-:
-:
-MainThreadData
-<
 JS
 :
 :

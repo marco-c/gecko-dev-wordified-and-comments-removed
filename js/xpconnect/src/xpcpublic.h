@@ -1907,7 +1907,7 @@ exceptionValue
 ;
 extern
 void
-GetCurrentCompartmentName
+GetCurrentRealmName
 (
 JSContext
 *
