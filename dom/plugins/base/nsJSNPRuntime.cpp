@@ -9007,6 +9007,10 @@ entry
 -
 >
 mJSObj
+.
+unbarrieredGetPtr
+(
+)
 JS
 :
 :
@@ -9223,6 +9227,10 @@ entry
 -
 >
 mJSObj
+.
+unbarrieredGetPtr
+(
+)
 ;
 if
 (
@@ -9786,6 +9794,10 @@ entry
 -
 >
 mJSObj
+.
+unbarrieredGetPtr
+(
+)
 JS
 :
 :
