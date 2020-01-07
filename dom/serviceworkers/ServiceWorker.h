@@ -245,6 +245,12 @@ aDescriptor
 )
 const
 ;
+void
+DisconnectFromOwner
+(
+)
+override
+;
 private
 :
 ServiceWorker
