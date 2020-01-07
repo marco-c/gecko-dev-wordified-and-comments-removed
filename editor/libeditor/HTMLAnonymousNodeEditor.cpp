@@ -903,9 +903,9 @@ GetAsServo
 {
 if
 (
-styleSet
--
->
+ServoStyleSet
+:
+:
 MayTraverseFrom
 (
 newContent

@@ -1421,8 +1421,9 @@ if
 index
 !
 =
-mAttachedStack
-.
+nsBindingList
+:
+:
 NoIndex
 )
 {

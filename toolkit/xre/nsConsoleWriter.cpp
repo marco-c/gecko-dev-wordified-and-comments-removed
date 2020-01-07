@@ -141,9 +141,9 @@ return
 ;
 rv
 =
-gDirServiceProvider
--
->
+nsXREDirProvider
+:
+:
 GetUserAppDataDirectory
 (
 getter_AddRefs

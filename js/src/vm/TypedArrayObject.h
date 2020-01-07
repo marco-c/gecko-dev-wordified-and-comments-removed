@@ -858,9 +858,12 @@ char
 this
 )
 +
-this
--
->
+js
+:
+:
+TypedArrayObject
+:
+:
 dataOffset
 (
 )

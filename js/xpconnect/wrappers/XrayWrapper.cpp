@@ -4995,8 +4995,12 @@ false
 ;
 if
 (
-self
-.
+xpc
+:
+:
+JSXrayTraits
+:
+:
 getProtoKey
 (
 holder

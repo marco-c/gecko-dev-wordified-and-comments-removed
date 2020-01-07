@@ -315,9 +315,9 @@ rv
 GenerateRandomName
 (
 salt
-key
--
->
+OriginKey
+:
+:
 EncodedLength
 )
 ;

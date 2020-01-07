@@ -104,9 +104,12 @@ return
 false
 ;
 return
-mShMem
--
->
+base
+:
+:
+SharedMemory
+:
+:
 IsHandleValid
 (
 mShMem

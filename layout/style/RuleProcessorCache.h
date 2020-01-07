@@ -283,9 +283,12 @@ aRuleProcessor
 )
 override
 {
-mCache
--
->
+mozilla
+:
+:
+RuleProcessorCache
+:
+:
 RemoveRuleProcessor
 (
 aRuleProcessor

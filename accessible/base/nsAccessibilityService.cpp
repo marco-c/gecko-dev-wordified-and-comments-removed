@@ -9267,9 +9267,9 @@ if
 accService
 |
 |
-accService
--
->
+nsAccessibilityService
+:
+:
 IsShutdown
 (
 )
@@ -9599,9 +9599,9 @@ accService
 &
 &
 !
-accService
--
->
+nsAccessibilityService
+:
+:
 IsShutdown
 (
 )
