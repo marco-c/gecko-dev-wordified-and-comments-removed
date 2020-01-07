@@ -24055,13 +24055,6 @@ Ci
 .
 nsIWebProgressListener
 ;
-const
-nsIChannel
-=
-Ci
-.
-nsIChannel
-;
 let
 browser
 =
@@ -24186,6 +24179,8 @@ if
 (
 aRequest
 instanceof
+Ci
+.
 nsIChannel
 |
 |
@@ -32099,6 +32094,9 @@ hiddenRows
 :
 [
 "
+description
+"
+"
 location
 "
 "
@@ -37529,6 +37527,11 @@ bookmarkData
 spec
 )
 title
+description
+:
+bookmarkData
+.
+description
 keyword
 :
 "
@@ -37548,6 +37551,9 @@ hiddenRows
 [
 "
 location
+"
+"
+description
 "
 "
 tags
