@@ -362,8 +362,11 @@ marionette
 _send_message
 (
 "
-getElementAttribute
+WebDriver
+:
+GetElementAttribute
 "
+                                             
 body
 key
 =
@@ -430,8 +433,11 @@ marionette
 _send_message
 (
 "
-getElementProperty
+WebDriver
+:
+GetElementProperty
 "
+                                                 
 body
 key
 =
@@ -482,8 +488,11 @@ marionette
 _send_message
 (
 "
-clickElement
+WebDriver
+:
+ElementClick
 "
+                                      
 {
 "
 id
@@ -654,8 +663,11 @@ marionette
 _send_message
 (
 "
-getElementText
+WebDriver
+:
+GetElementText
 "
+                                             
 body
 key
 =
@@ -752,8 +764,18 @@ convert_keys
 strings
 )
         
-body
-=
+self
+.
+marionette
+.
+_send_message
+(
+"
+WebDriver
+:
+ElementSendKeys
+"
+                                      
 {
 "
 id
@@ -768,17 +790,6 @@ text
 :
 keys
 }
-        
-self
-.
-marionette
-.
-_send_message
-(
-"
-sendKeysToElement
-"
-body
 )
     
 def
@@ -809,8 +820,11 @@ marionette
 _send_message
 (
 "
-clearElement
+WebDriver
+:
+ElementClear
 "
+                                      
 {
 "
 id
@@ -864,8 +878,11 @@ marionette
 _send_message
 (
 "
-isElementSelected
+WebDriver
+:
+IsElementSelected
 "
+                                             
 body
 key
 =
@@ -944,8 +961,11 @@ marionette
 _send_message
 (
 "
-isElementEnabled
+WebDriver
+:
+IsElementEnabled
 "
+                                             
 body
 key
 =
@@ -998,8 +1018,11 @@ marionette
 _send_message
 (
 "
-isElementDisplayed
+WebDriver
+:
+IsElementDisplayed
 "
+                                             
 body
 key
 =
@@ -1137,8 +1160,11 @@ marionette
 _send_message
 (
 "
-getElementTagName
+WebDriver
+:
+GetElementTagName
 "
+                                             
 body
 key
 =
@@ -1368,8 +1394,19 @@ HTMLElement
 "
 "
         
-body
-=
+return
+self
+.
+marionette
+.
+_send_message
+(
+"
+WebDriver
+:
+GetElementRect
+"
+                                             
 {
 "
 id
@@ -1379,18 +1416,6 @@ self
 .
 id
 }
-        
-return
-self
-.
-marionette
-.
-_send_message
-(
-"
-getElementRect
-"
-body
 )
     
 def
@@ -1456,10 +1481,12 @@ marionette
 .
 _send_message
 (
-            
 "
-getElementValueOfCssProperty
+WebDriver
+:
+GetElementCSSValue
 "
+                                             
 body
 key
 =
@@ -4088,7 +4115,9 @@ marionette
 _send_message
 (
 "
-acceptDialog
+WebDriver
+:
+AcceptDialog
 "
 )
     
@@ -4120,7 +4149,9 @@ marionette
 _send_message
 (
 "
-dismissDialog
+WebDriver
+:
+DismissAlert
 "
 )
     
@@ -4158,8 +4189,11 @@ marionette
 _send_message
 (
 "
-getTextFromDialog
+WebDriver
+:
+GetAlertText
 "
+                                             
 key
 =
 "
@@ -4200,8 +4234,18 @@ dialog
 "
 "
         
-body
-=
+self
+.
+marionette
+.
+_send_message
+(
+"
+WebDriver
+:
+SendAlertText
+"
+                                      
 {
 "
 text
@@ -4215,17 +4259,6 @@ convert_keys
 string
 )
 }
-        
-self
-.
-marionette
-.
-_send_message
-(
-"
-sendKeysToDialog
-"
-body
 )
 class
 Marionette
@@ -5388,7 +5421,9 @@ name
 !
 =
 "
-newSession
+WebDriver
+:
+NewSession
 "
 :
             
@@ -7367,8 +7402,11 @@ self
 _send_message
 (
 "
-getContext
+Marionette
+:
+GetContext
 "
+                                         
 key
 =
 "
@@ -7758,8 +7796,11 @@ self
 _send_message
 (
 "
-quitApplication
+Marionette
+:
+Quit
 "
+                                  
 body
 key
 =
@@ -8013,8 +8054,11 @@ self
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
+                                   
 {
 "
 value
@@ -8363,8 +8407,11 @@ self
 _send_message
 (
 "
-getContext
+Marionette
+:
+GetContext
 "
+                                     
 key
 =
 "
@@ -8443,8 +8490,11 @@ self
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
+                                   
 {
 "
 value
@@ -8986,8 +9036,11 @@ self
 _send_message
 (
 "
-newSession
+WebDriver
+:
+NewSession
 "
+                                  
 body
 )
         
@@ -9183,7 +9236,9 @@ self
 _send_message
 (
 "
-deleteSession
+WebDriver
+:
+DeleteSession
 "
 )
         
@@ -9736,8 +9791,11 @@ self
 _send_message
 (
 "
-getWindowHandle
+WebDriver
+:
+GetWindowHandle
 "
+                                         
 key
 =
 "
@@ -10200,14 +10258,8 @@ values
 "
 )
         
-return
-self
-.
-_send_message
-(
-"
-setWindowRect
-"
+body
+=
 {
 "
 x
@@ -10219,19 +10271,30 @@ y
 "
 :
 y
-                                                    
 "
 height
 "
 :
 height
-                                                    
 "
 width
 "
 :
 width
 }
+        
+return
+self
+.
+_send_message
+(
+"
+WebDriver
+:
+SetWindowRect
+"
+                                  
+body
 )
     
 property
@@ -10249,7 +10312,9 @@ self
 _send_message
 (
 "
-getWindowRect
+WebDriver
+:
+GetWindowRect
 "
 )
     
@@ -10282,8 +10347,11 @@ self
 _send_message
 (
 "
-getTitle
+WebDriver
+:
+GetTitle
 "
+                                  
 key
 =
 "
@@ -10408,7 +10476,9 @@ self
 _send_message
 (
 "
-getWindowHandles
+WebDriver
+:
+GetWindowHandles
 "
 )
     
@@ -10513,8 +10583,11 @@ self
 _send_message
 (
 "
-getPageSource
+WebDriver
+:
+GetPageSource
 "
+                                  
 key
 =
 "
@@ -10574,7 +10647,9 @@ self
 _send_message
 (
 "
-close
+WebDriver
+:
+CloseWindow
 "
 )
     
@@ -10730,8 +10805,11 @@ self
 _send_message
 (
 "
-setContext
+Marionette
+:
+SetContext
 "
+                           
 {
 "
 value
@@ -10849,8 +10927,11 @@ self
 _send_message
 (
 "
-getContext
+Marionette
+:
+GetContext
 "
+                                   
 key
 =
 "
@@ -11021,8 +11102,16 @@ to
 "
 "
         
-body
-=
+self
+.
+_send_message
+(
+"
+WebDriver
+:
+SwitchToWindow
+"
+                           
 {
 "
 focus
@@ -11035,15 +11124,6 @@ name
 :
 window_id
 }
-        
-self
-.
-_send_message
-(
-"
-switchToWindow
-"
-body
 )
         
 self
@@ -11093,8 +11173,11 @@ self
 _send_message
 (
 "
-getActiveFrame
+WebDriver
+:
+GetActiveFrame
 "
+                                  
 key
 =
 "
@@ -11160,7 +11243,9 @@ self
 _send_message
 (
 "
-switchToParentFrame
+WebDriver
+:
+SwitchToParentFrame
 "
 )
     
@@ -11340,8 +11425,11 @@ self
 _send_message
 (
 "
-switchToFrame
+WebDriver
+:
+SwitchToFrame
 "
+                           
 body
 )
     
@@ -11477,8 +11565,11 @@ self
 _send_message
 (
 "
-switchToShadowRoot
+WebDriver
+:
+SwitchToShadowRoot
 "
+                                  
 body
 )
     
@@ -11569,8 +11660,11 @@ self
 _send_message
 (
 "
-getCurrentUrl
+WebDriver
+:
+GetCurrentURL
 "
+                                  
 key
 =
 "
@@ -11855,8 +11949,11 @@ self
 _send_message
 (
 "
-get
+WebDriver
+:
+Navigate
 "
+                           
 {
 "
 url
@@ -11894,7 +11991,9 @@ self
 _send_message
 (
 "
-goBack
+WebDriver
+:
+Back
 "
 )
     
@@ -11926,7 +12025,9 @@ self
 _send_message
 (
 "
-goForward
+WebDriver
+:
+Forward
 "
 )
     
@@ -11960,7 +12061,9 @@ self
 _send_message
 (
 "
-refresh
+WebDriver
+:
+Refresh
 "
 )
     
@@ -12971,8 +13074,11 @@ self
 _send_message
 (
 "
-executeScript
+WebDriver
+:
+ExecuteScript
 "
+                                
 body
 key
 =
@@ -13386,8 +13492,11 @@ self
 _send_message
 (
 "
-executeAsyncScript
+WebDriver
+:
+ExecuteAsyncScript
 "
+                                
 body
 key
 =
@@ -13731,8 +13840,11 @@ self
 _send_message
 (
 "
-findElement
+WebDriver
+:
+FindElement
 "
+                                  
 body
 key
 =
@@ -14046,8 +14158,11 @@ self
 _send_message
 (
 "
-findElements
+WebDriver
+:
+FindElements
 "
+                                  
 body
 )
     
@@ -14065,8 +14180,11 @@ self
 _send_message
 (
 "
-getActiveElement
+WebDriver
+:
+GetActiveElement
 "
+                                       
 key
 =
 "
@@ -14232,8 +14350,16 @@ True
 "
 "
         
-body
-=
+self
+.
+_send_message
+(
+"
+WebDriver
+:
+AddCookie
+"
+                           
 {
 "
 cookie
@@ -14241,15 +14367,6 @@ cookie
 :
 cookie
 }
-        
-self
-.
-_send_message
-(
-"
-addCookie
-"
-body
 )
     
 def
@@ -14296,7 +14413,9 @@ self
 _send_message
 (
 "
-deleteAllCookies
+WebDriver
+:
+DeleteAllCookies
 "
 )
     
@@ -14355,8 +14474,11 @@ self
 _send_message
 (
 "
-deleteCookie
+WebDriver
+:
+DeleteCookie
 "
+                           
 {
 "
 name
@@ -14501,7 +14623,9 @@ self
 _send_message
 (
 "
-getCookies
+WebDriver
+:
+GetCookies
 "
 )
     
@@ -14881,8 +15005,11 @@ self
 _send_message
 (
 "
-takeScreenshot
+WebDriver
+:
+TakeScreenshot
 "
+                                  
 body
 key
 =
@@ -15564,7 +15691,9 @@ self
 _send_message
 (
 "
-maximizeWindow
+WebDriver
+:
+MaximizeWindow
 "
 )
     
@@ -15631,6 +15760,8 @@ self
 _send_message
 (
 "
-fullscreen
+WebDriver
+:
+FullscreenWindow
 "
 )
