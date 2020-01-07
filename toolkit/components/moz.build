@@ -277,6 +277,9 @@ resistfingerprinting
 securityreporter
 '
 '
+sessionstore
+'
+'
 startup
 '
 '
