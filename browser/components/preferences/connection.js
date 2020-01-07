@@ -2160,7 +2160,7 @@ disabled
 if
 (
 !
-isLocked
+isControlled
 )
 {
 gConnectionsDialog
