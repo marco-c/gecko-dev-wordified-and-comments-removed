@@ -7156,15 +7156,6 @@ AssertIsOnMainThread
 (
 )
 ;
-MOZ_ASSERT_IF
-(
-aWhy
-=
-=
-FetchEvent
-aLoadGroup
-)
-;
 if
 (
 aNewWorkerCreated
