@@ -5021,6 +5021,15 @@ nsFrameItems
 aFrameItems
 )
 ;
+nsIFrame
+*
+FindNextSiblingForAppend
+(
+const
+InsertionPoint
+&
+)
+;
 enum
 class
 SiblingDirection
