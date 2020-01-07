@@ -1525,15 +1525,6 @@ EditorDOMPoint
 aOutPoint
 )
 ;
-static
-bool
-IsLeafNode
-(
-nsIDOMNode
-*
-aNode
-)
-;
 }
 ;
 class

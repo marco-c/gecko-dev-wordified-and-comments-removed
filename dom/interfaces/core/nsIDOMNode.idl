@@ -288,10 +288,5 @@ attribute
 nsIDOMDocument
 ownerDocument
 ;
-boolean
-hasChildNodes
-(
-)
-;
 }
 ;
