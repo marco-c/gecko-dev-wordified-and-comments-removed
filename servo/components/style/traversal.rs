@@ -56,6 +56,12 @@ selector_parser
 PseudoElement
 ;
 use
+selectors
+:
+:
+NthIndexCache
+;
+use
 sharing
 :
 :
@@ -534,7 +540,14 @@ invalidate_style_if_needed
 root
 shared_context
 None
-None
+&
+mut
+NthIndexCache
+:
+:
+default
+(
+)
 )
 ;
 if
@@ -3434,8 +3447,6 @@ thread_local
 .
 stack_limit_checker
 )
-Some
-(
 &
 mut
 context
@@ -3443,7 +3454,6 @@ context
 thread_local
 .
 nth_index_cache
-)
 )
 ;
 }

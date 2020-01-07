@@ -31,7 +31,10 @@ use
 selectors
 :
 :
+{
 Element
+NthIndexCache
+}
 ;
 use
 selectors
@@ -26983,7 +26986,14 @@ element
 &
 shared_style_context
 None
-None
+&
+mut
+NthIndexCache
+:
+:
+default
+(
+)
 )
 ;
 if
