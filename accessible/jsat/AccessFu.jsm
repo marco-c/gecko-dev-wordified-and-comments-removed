@@ -89,11 +89,6 @@ jsm
 ;
 }
 const
-ACCESSFU_DISABLE
-=
-0
-;
-const
 ACCESSFU_ENABLE
 =
 1

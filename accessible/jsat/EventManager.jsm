@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-const
-TEXT_NODE
-=
-3
-;
 ChromeUtils
 .
 import

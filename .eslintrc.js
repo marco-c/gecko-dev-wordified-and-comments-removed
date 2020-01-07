@@ -217,16 +217,6 @@ files
 :
 [
 "
-accessible
-/
-*
-*
-/
-*
-.
-jsm
-"
-"
 browser
 /
 components
