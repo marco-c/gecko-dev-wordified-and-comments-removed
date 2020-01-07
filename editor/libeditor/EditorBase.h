@@ -1264,11 +1264,11 @@ aSource
 )
 ;
 nsresult
-RemoveContainer
+RemoveContainerWithTransaction
 (
-nsIContent
-*
-aNode
+Element
+&
+aElement
 )
 ;
 already_AddRefed

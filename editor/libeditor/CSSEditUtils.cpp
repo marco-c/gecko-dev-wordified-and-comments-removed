@@ -2929,8 +2929,9 @@ return
 mHTMLEditor
 -
 >
-RemoveContainer
+RemoveContainerWithTransaction
 (
+*
 element
 )
 ;
