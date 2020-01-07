@@ -884,6 +884,11 @@ base_path
 =
 "
 "
+host
+=
+"
+localhost
+"
 args
 =
 None
@@ -898,12 +903,12 @@ __init__
 self
 logger
 binary
+host
+=
+host
 port
 =
 port
-base_path
-=
-base_path
 args
 =
 args
