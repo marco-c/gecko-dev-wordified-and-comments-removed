@@ -147,6 +147,20 @@ use
 values
 :
 :
+generics
+:
+:
+color
+:
+:
+Color
+as
+GenericColor
+;
+use
+values
+:
+:
 specified
 :
 :
@@ -2516,7 +2530,7 @@ match
 *
 computed
 {
-ComputedColor
+GenericColor
 :
 :
 Numeric
@@ -2532,7 +2546,7 @@ rgba
 (
 color
 )
-ComputedColor
+GenericColor
 :
 :
 Foreground
@@ -2544,7 +2558,7 @@ Color
 currentcolor
 (
 )
-ComputedColor
+GenericColor
 :
 :
 Complex

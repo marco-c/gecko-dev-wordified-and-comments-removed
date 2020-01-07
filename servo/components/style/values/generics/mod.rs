@@ -74,6 +74,10 @@ box_
 ;
 pub
 mod
+color
+;
+pub
+mod
 column
 ;
 pub
