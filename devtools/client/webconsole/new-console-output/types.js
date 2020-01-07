@@ -146,10 +146,6 @@ null
 indent
 :
 0
-prefix
-:
-"
-"
 }
 props
 )
