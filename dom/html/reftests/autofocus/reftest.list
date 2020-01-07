@@ -7,15 +7,6 @@ dom
 .
 forms
 .
-number
-true
-)
-pref
-(
-dom
-.
-forms
-.
 datetime
 true
 )
