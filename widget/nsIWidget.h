@@ -3333,6 +3333,15 @@ aEvent
 ;
 virtual
 void
+EnableIMEForPlugin
+(
+bool
+aEnable
+)
+{
+}
+virtual
+void
 SetInputContext
 (
 const

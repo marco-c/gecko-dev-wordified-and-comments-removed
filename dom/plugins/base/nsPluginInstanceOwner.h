@@ -1046,6 +1046,13 @@ bool
 aCommitted
 )
 ;
+bool
+EnableIME
+(
+bool
+aEnable
+)
+;
 virtual
 void
 HandledWindowedPluginKeyEvent
