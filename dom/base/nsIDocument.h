@@ -4171,7 +4171,6 @@ return
 mReadyState
 ;
 }
-virtual
 void
 ContentStateChanged
 (
@@ -4184,10 +4183,7 @@ mozilla
 EventStates
 aStateMask
 )
-=
-0
 ;
-virtual
 void
 DocumentStatesChanged
 (
@@ -4197,10 +4193,7 @@ mozilla
 EventStates
 aStateMask
 )
-=
-0
 ;
-virtual
 void
 StyleRuleChanged
 (
@@ -4220,10 +4213,7 @@ Rule
 *
 aStyleRule
 )
-=
-0
 ;
-virtual
 void
 StyleRuleAdded
 (
@@ -4243,10 +4233,7 @@ Rule
 *
 aStyleRule
 )
-=
-0
 ;
-virtual
 void
 StyleRuleRemoved
 (
@@ -4266,8 +4253,6 @@ Rule
 *
 aStyleRule
 )
-=
-0
 ;
 virtual
 void
