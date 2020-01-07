@@ -53,10 +53,10 @@ acinclude
 .
 m4
 -
-473
+469
 30
 +
-473
+469
 36
 AC_DEFUN
 (
@@ -89,7 +89,7 @@ use
 -
 std
 =
-c99
+c11
 to
 disable
 the
@@ -106,7 +106,7 @@ CFLAGS
 -
 std
 =
-c99
+c11
 "
 ;
 ;
@@ -377,10 +377,10 @@ source
 /
 configure
 -
-4319
+4359
 30
 +
-4319
+4359
 36
 fi
 *
@@ -409,7 +409,7 @@ use
 -
 std
 =
-c99
+c11
 to
 disable
 the
@@ -426,7 +426,7 @@ CFLAGS
 -
 std
 =
-c99
+c11
 "
 ;
 ;
