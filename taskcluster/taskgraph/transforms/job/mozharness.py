@@ -943,18 +943,13 @@ script
 ]
     
 if
-'
-try
-'
-in
 config
 .
 params
-[
-'
-project
-'
-]
+.
+is_try
+(
+)
 :
         
 env
@@ -1546,18 +1541,13 @@ config
 )
     
 if
-'
-try
-'
-in
 config
 .
 params
-[
-'
-project
-'
-]
+.
+is_try
+(
+)
 :
         
 env
