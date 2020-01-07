@@ -58743,6 +58743,7 @@ bug_numbers
 [
 1330315
 1420062
+1427973
 ]
 "
 alert_emails
@@ -58852,6 +58853,12 @@ autofillFooter
 "
 "
 autofillDoorhanger
+"
+"
+mozscreenshots
+"
+"
+searchChangeSettings
 "
 ]
 "
