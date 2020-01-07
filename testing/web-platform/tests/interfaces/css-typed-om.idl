@@ -196,6 +196,11 @@ DOMString
 values
 )
 ;
+void
+clear
+(
+)
+;
 }
 ;
 [
