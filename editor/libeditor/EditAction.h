@@ -50,8 +50,8 @@ ePasteHTMLContent
 eInsertHTMLSource
 eSetPositionToAbsolute
 eSetPositionToStatic
-decreaseZIndex
-increaseZIndex
+eDecreaseZIndex
+eIncreaseZIndex
 }
 ;
 }

@@ -3522,7 +3522,7 @@ case
 EditSubAction
 :
 :
-decreaseZIndex
+eDecreaseZIndex
 :
 return
 WillRelativeChangeZIndex
@@ -3537,7 +3537,7 @@ case
 EditSubAction
 :
 :
-increaseZIndex
+eIncreaseZIndex
 :
 return
 WillRelativeChangeZIndex
