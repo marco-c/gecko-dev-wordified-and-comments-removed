@@ -1230,7 +1230,7 @@ PlacesUtils
 .
 bookmarks
 .
-rootGuid
+unfiledGuid
 ;
 this
 .
