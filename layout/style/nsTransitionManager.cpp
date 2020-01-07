@@ -1438,6 +1438,11 @@ nsRFPService
 ReduceTimePrecisionAsSecs
 (
 elapsedTime
+0
+TimerPrecisionType
+:
+:
+RFPOnly
 )
 ;
 }
