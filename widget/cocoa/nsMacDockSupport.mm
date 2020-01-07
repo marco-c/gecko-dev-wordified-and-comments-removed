@@ -137,6 +137,9 @@ mProgressBackground
 (
 nil
 )
+mProgressBounds
+(
+)
 mProgressState
 (
 STATE_NO_PROGRESS
