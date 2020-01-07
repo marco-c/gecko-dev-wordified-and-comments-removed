@@ -5087,6 +5087,12 @@ IsAnimationLoggingEnabled
 )
 ;
 static
+bool
+AreRetainedDisplayListsEnabled
+(
+)
+;
+static
 Size
 ComputeSuitableScaleForAnimation
 (
