@@ -701,15 +701,6 @@ asan
 *
 :
 3
-windows10
--
-64
--
-ccov
-.
-*
-:
-3
 default
 :
 default
