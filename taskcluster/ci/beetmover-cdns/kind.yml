@@ -142,7 +142,9 @@ treeherder
 -
 platform
 :
-Android
+fennec
+-
+release
 /
 opt
 devedition
@@ -168,9 +170,9 @@ treeherder
 -
 platform
 :
-Linux64
--
 devedition
+-
+release
 /
 opt
 firefox
@@ -196,6 +198,8 @@ treeherder
 -
 platform
 :
-Linux64
+firefox
+-
+release
 /
 opt
