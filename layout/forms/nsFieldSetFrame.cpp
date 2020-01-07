@@ -127,9 +127,9 @@ NS_NewFieldSetFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -139,7 +139,7 @@ aPresShell
 )
 nsFieldSetFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -152,14 +152,14 @@ nsFieldSetFrame
 :
 nsFieldSetFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 :
 nsContainerFrame
 (
-aContext
+aStyle
 kClassID
 )
 mLegendRect
@@ -331,7 +331,7 @@ last
 last
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -1340,7 +1340,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-mStyleContext
+mComputedStyle
 borderFlags
 )
 ;
@@ -1374,7 +1374,7 @@ Size
 (
 )
 )
-mStyleContext
+mComputedStyle
 borderFlags
 )
 ;

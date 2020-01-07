@@ -1075,9 +1075,9 @@ NS_NewHTMLCanvasFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -1087,7 +1087,7 @@ aPresShell
 )
 nsHTMLCanvasFrame
 (
-aContext
+aStyle
 )
 ;
 }

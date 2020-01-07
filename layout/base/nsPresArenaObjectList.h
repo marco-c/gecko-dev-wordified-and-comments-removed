@@ -16,7 +16,7 @@ STYLE_STRUCT
 endif
 PRES_ARENA_OBJECT
 (
-GeckoStyleContext
+GeckoComputedStyle
 )
 PRES_ARENA_OBJECT
 (

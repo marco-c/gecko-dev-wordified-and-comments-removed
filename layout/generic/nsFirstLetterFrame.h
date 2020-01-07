@@ -37,14 +37,14 @@ nsFirstLetterFrame
 explicit
 nsFirstLetterFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 :
 nsContainerFrame
 (
-aContext
+aStyle
 kClassID
 )
 {

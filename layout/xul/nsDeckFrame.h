@@ -42,9 +42,9 @@ NS_NewDeckFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual
@@ -158,9 +158,9 @@ endif
 explicit
 nsDeckFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 nsIFrame

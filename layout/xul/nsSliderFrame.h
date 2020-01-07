@@ -68,9 +68,9 @@ NS_NewSliderFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 class
@@ -155,9 +155,9 @@ nsSliderMediator
 explicit
 nsSliderFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

@@ -1407,7 +1407,7 @@ endif
 ifdef
 DEBUG
 void
-ListStyleContexts
+ListComputedStyles
 (
 FILE
 *

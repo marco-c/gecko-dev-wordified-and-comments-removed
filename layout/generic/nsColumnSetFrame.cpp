@@ -404,9 +404,9 @@ NS_NewColumnSetFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 nsFrameState
 aStateFlags
 )
@@ -421,7 +421,7 @@ aPresShell
 )
 nsColumnSetFrame
 (
-aContext
+aStyle
 )
 ;
 it
@@ -447,14 +447,14 @@ nsColumnSetFrame
 :
 nsColumnSetFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 :
 nsContainerFrame
 (
-aContext
+aStyle
 kClassID
 )
 mLastBalanceBSize
@@ -1140,7 +1140,7 @@ this
 aDirtyRect
 aLineRect
 border
-StyleContext
+Style
 (
 )
 &
@@ -5738,7 +5738,7 @@ MOZ_ASSERT
 column
 -
 >
-StyleContext
+Style
 (
 )
 -

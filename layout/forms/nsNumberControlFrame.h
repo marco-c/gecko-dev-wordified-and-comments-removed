@@ -89,9 +89,9 @@ NS_NewNumberControlFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 typedef
@@ -138,9 +138,9 @@ WidgetGUIEvent
 explicit
 nsNumberControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 public

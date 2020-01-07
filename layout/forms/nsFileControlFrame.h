@@ -80,9 +80,9 @@ public
 explicit
 nsFileControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

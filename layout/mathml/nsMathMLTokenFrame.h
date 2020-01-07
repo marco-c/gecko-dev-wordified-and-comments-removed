@@ -40,9 +40,9 @@ NS_NewMathMLTokenFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 NS_IMETHOD
@@ -172,9 +172,9 @@ protected
 explicit
 nsMathMLTokenFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 ClassID
 aID
 =
@@ -183,7 +183,7 @@ kClassID
 :
 nsMathMLContainerFrame
 (
-aContext
+aStyle
 aID
 )
 {

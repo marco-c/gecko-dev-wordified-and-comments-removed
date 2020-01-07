@@ -80,9 +80,9 @@ nsProgressFrame
 explicit
 nsProgressFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

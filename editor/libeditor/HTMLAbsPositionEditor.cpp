@@ -2714,14 +2714,14 @@ NS_OK
 }
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 style
 =
 nsComputedDOMStyle
 :
 :
-GetStyleContext
+GetComputedStyle
 (
 &
 aElement

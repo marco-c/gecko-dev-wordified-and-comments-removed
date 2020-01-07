@@ -188,9 +188,9 @@ return
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
-baseStyleContext
+baseComputedStyle
 ;
 if
 (
@@ -199,12 +199,12 @@ MightNeedBaseStyle
 )
 )
 {
-baseStyleContext
+baseComputedStyle
 =
 nsComputedDOMStyle
 :
 :
-GetUnanimatedStyleContextNoFlush
+GetUnanimatedComputedStyleNoFlush
 (
 mKey
 .
@@ -221,7 +221,7 @@ smilAttr
 =
 CreateSMILAttr
 (
-baseStyleContext
+baseComputedStyle
 )
 ;
 if
@@ -471,9 +471,9 @@ nsSMILCompositor
 :
 CreateSMILAttr
 (
-nsStyleContext
+ComputedStyle
 *
-aBaseStyleContext
+aBaseComputedStyle
 )
 {
 nsCSSPropertyID
@@ -505,7 +505,7 @@ mElement
 get
 (
 )
-aBaseStyleContext
+aBaseComputedStyle
 )
 ;
 }

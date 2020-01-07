@@ -87,9 +87,6 @@ class
 nsIGlobalObject
 ;
 class
-nsStyleContext
-;
-class
 ServoComputedData
 ;
 struct
@@ -98,6 +95,9 @@ nsStyleDisplay
 namespace
 mozilla
 {
+class
+ComputedStyle
+;
 namespace
 css
 {
@@ -116,10 +116,10 @@ Promise
 ;
 }
 class
-GeckoStyleContext
+GeckoComputedStyle
 ;
 class
-ServoStyleContext
+ComputedStyle
 ;
 enum
 class
@@ -782,7 +782,7 @@ const
 mozilla
 :
 :
-ServoStyleContext
+ComputedStyle
 *
 aComputedValues
 )

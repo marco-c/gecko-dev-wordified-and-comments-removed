@@ -85,9 +85,9 @@ NS_NewScrollbarFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -97,7 +97,7 @@ aPresShell
 )
 nsScrollbarFrame
 (
-aContext
+aStyle
 )
 ;
 }

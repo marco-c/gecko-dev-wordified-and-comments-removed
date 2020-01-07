@@ -299,12 +299,12 @@ mPtr
 }
 ;
 class
-ServoStyleContext
+ComputedStyle
 ;
 struct
 ServoVisitedStyle
 {
-ServoStyleContext
+ComputedStyle
 *
 mPtr
 ;
@@ -453,7 +453,7 @@ class
 mozilla
 :
 :
-ServoStyleContext
+ComputedStyle
 ;
 public
 :

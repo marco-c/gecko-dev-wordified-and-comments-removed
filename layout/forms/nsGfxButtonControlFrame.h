@@ -52,9 +52,9 @@ nsGfxButtonControlFrame
 explicit
 nsGfxButtonControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

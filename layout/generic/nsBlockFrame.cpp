@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+ComputedStyle
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -134,13 +143,6 @@ h
 include
 "
 nsIPresShell
-.
-h
-"
-#
-include
-"
-nsStyleContext
 .
 h
 "
@@ -1561,9 +1563,9 @@ NS_NewBlockFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -1573,7 +1575,7 @@ aPresShell
 )
 nsBlockFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -1584,9 +1586,9 @@ NS_NewBlockFormattingContext
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 )
 {
 nsBlockFrame
@@ -1596,7 +1598,7 @@ blockFrame
 NS_NewBlockFrame
 (
 aPresShell
-aStyleContext
+aComputedStyle
 )
 ;
 blockFrame
@@ -2841,7 +2843,7 @@ CalcLineHeight
 GetContent
 (
 )
-StyleContext
+Style
 (
 )
 contentRect
@@ -4647,7 +4649,7 @@ const
 {
 if
 (
-StyleContext
+Style
 (
 )
 -
@@ -26433,14 +26435,14 @@ nsCSSPseudoElements
 firstLetter
 )
 ;
-ServoStyleContext
+ComputedStyle
 *
 parentStyle
 =
 styleParent
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -26451,7 +26453,7 @@ AsServo
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 firstLetterStyle
 =
@@ -26479,7 +26481,7 @@ nullptr
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 continuationStyle
 =
@@ -26526,7 +26528,7 @@ FirstChild
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 firstTextStyle
 =
@@ -26555,7 +26557,7 @@ AsServo
 textFrame
 -
 >
-SetStyleContext
+SetComputedStyle
 (
 firstTextStyle
 )
@@ -33131,7 +33133,7 @@ nsAtom
 *
 pseudo
 =
-StyleContext
+Style
 (
 )
 -
@@ -33163,7 +33165,7 @@ GetParent
 )
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -33251,7 +33253,7 @@ eMathML
 &
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 (
 GetFirstLetterStyle
@@ -33457,7 +33459,7 @@ mozListNumber
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 kidSC
 =
@@ -35455,7 +35457,7 @@ type
 bullet
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -35466,7 +35468,7 @@ GetPseudoType
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 newBulletStyle
 =
@@ -35518,14 +35520,14 @@ nsCSSPseudoElements
 firstLine
 )
 ;
-ServoStyleContext
+ComputedStyle
 *
 parentStyle
 =
 styleParent
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -35536,7 +35538,7 @@ AsServo
 ;
 RefPtr
 <
-ServoStyleContext
+ComputedStyle
 >
 firstLineStyle
 =
@@ -35564,7 +35566,7 @@ nullptr
 ;
 RefPtr
 <
-ServoStyleContext
+ComputedStyle
 >
 continuationStyle
 =
@@ -35633,7 +35635,7 @@ PrincipalChildList
 manager
 -
 >
-ReparentStyleContext
+ReparentComputedStyle
 (
 kid
 )
@@ -35643,7 +35645,7 @@ kid
 }
 already_AddRefed
 <
-nsStyleContext
+ComputedStyle
 >
 nsBlockFrame
 :
@@ -35656,7 +35658,7 @@ StyleSetHandle
 aStyleSet
 )
 {
-nsStyleContext
+ComputedStyle
 *
 parentStyle
 =
@@ -35673,7 +35675,7 @@ aType
 )
 -
 >
-StyleContext
+Style
 (
 )
 ;
@@ -36836,7 +36838,7 @@ depth
 }
 already_AddRefed
 <
-nsStyleContext
+ComputedStyle
 >
 nsBlockFrame
 :
@@ -36869,7 +36871,7 @@ CSSPseudoElementType
 :
 :
 firstLetter
-mStyleContext
+mComputedStyle
 )
 ;
 }

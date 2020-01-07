@@ -283,9 +283,12 @@ NS_NewMenuPopupFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+mozilla
+:
+:
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 class
@@ -390,9 +393,9 @@ nsMenuPopupFrame
 explicit
 nsMenuPopupFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

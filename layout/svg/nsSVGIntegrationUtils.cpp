@@ -1700,7 +1700,7 @@ DrawTarget
 aMaskDT
 float
 aOpacity
-nsStyleContext
+ComputedStyle
 *
 aSC
 const
@@ -2211,7 +2211,7 @@ PaintFramesParams
 aParams
 float
 aOpacity
-nsStyleContext
+ComputedStyle
 *
 aSC
 const
@@ -3542,7 +3542,7 @@ opacity
 firstFrame
 -
 >
-StyleContext
+Style
 (
 )
 maskFrames
@@ -3909,7 +3909,7 @@ opacity
 firstFrame
 -
 >
-StyleContext
+Style
 (
 )
 maskFrames

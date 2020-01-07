@@ -71,9 +71,9 @@ NS_NewColorControlFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual
@@ -181,9 +181,9 @@ private
 explicit
 nsColorControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 nsCOMPtr

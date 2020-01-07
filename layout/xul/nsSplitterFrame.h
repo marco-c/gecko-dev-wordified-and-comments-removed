@@ -30,9 +30,12 @@ NS_NewSplitterFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+mozilla
+:
+:
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 class
@@ -51,9 +54,9 @@ nsSplitterFrame
 explicit
 nsSplitterFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual
