@@ -473,6 +473,9 @@ self
 metadata_root
 product
 debug
+browser_version
+=
+None
 extras
 =
 None
@@ -603,6 +606,19 @@ stylo
 ]
 =
 False
+        
+if
+browser_version
+:
+            
+self
+[
+"
+browser_version
+"
+]
+=
+browser_version
         
 if
 extras

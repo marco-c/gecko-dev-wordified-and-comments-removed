@@ -219,6 +219,17 @@ product
 "
 ]
                                         
+browser_version
+=
+kwargs
+.
+get
+(
+"
+browser_version
+"
+)
+                                        
 debug
 =
 False
