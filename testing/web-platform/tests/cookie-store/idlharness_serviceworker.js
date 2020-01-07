@@ -271,13 +271,16 @@ add_objects
 CookieStore
 :
 [
+"
 self
 .
 cookieStore
+"
 ]
 ExtendableCookieChangeEvent
 :
 [
+"
 new
 ExtendableCookieChangeEvent
 (
@@ -285,6 +288,7 @@ ExtendableCookieChangeEvent
 cookiechange
 '
 )
+"
 ]
 }
 )
