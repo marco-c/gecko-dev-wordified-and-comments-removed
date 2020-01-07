@@ -1272,6 +1272,10 @@ PopulateSelf
 (
 uint32_t
 aNeededLength
+uint32_t
+aExpectedElementsIfDirty
+=
+0
 )
 ;
 bool
@@ -1841,6 +1845,10 @@ PopulateSelf
 (
 uint32_t
 aNeededLength
+uint32_t
+aExpectedElementsIfDirty
+=
+0
 )
 override
 ;
