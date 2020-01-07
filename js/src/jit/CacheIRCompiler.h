@@ -188,6 +188,16 @@ Int32NotResult
 \
 _
 (
+DoubleNegationResult
+)
+\
+_
+(
+TruncateDoubleToUInt32
+)
+\
+_
+(
 LoadArgumentsObjectLengthResult
 )
 \
