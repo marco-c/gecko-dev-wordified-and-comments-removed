@@ -1854,6 +1854,7 @@ DocumentOrShadowRoot
 GetUncomposedDocOrConnectedShadowRoot
 (
 )
+const
 ;
 uint16_t
 NodeType
