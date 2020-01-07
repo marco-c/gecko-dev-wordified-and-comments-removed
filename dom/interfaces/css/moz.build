@@ -118,11 +118,6 @@ nsIDOMCounter
 idl
 '
 '
-nsIDOMCSSKeyframeRule
-.
-idl
-'
-'
 nsIDOMCSSPageRule
 .
 idl

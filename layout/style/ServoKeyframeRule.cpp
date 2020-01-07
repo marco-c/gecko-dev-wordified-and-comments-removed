@@ -695,7 +695,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+void
 ServoKeyframeRule
 :
 :
@@ -713,11 +713,8 @@ mRaw
 aKeyText
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 ServoKeyframeRule
 :
 :
@@ -754,9 +751,6 @@ keyText
 ;
 }
 )
-;
-return
-NS_OK
 ;
 }
 void

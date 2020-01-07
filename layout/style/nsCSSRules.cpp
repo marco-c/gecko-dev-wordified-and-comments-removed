@@ -4249,7 +4249,7 @@ AppendLiteral
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsCSSKeyframeRule
 :
 :
@@ -4264,9 +4264,6 @@ DoGetKeyText
 (
 aKeyText
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -4368,7 +4365,7 @@ AppendLiteral
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsCSSKeyframeRule
 :
 :
@@ -4404,7 +4401,6 @@ newSelectors
 )
 {
 return
-NS_OK
 ;
 }
 nsIDocument
@@ -4449,9 +4445,6 @@ this
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsICSSDeclaration
 *
