@@ -4223,7 +4223,7 @@ openNewTabWith
 aURL
 aDocument
 aPostData
-aEvent
+aShiftKey
 aAllowThirdPartyFixup
 aReferrer
 aReferrerPolicy
@@ -4265,12 +4265,7 @@ characterSet
 openLinkIn
 (
 aURL
-aEvent
-&
-&
-aEvent
-.
-shiftKey
+aShiftKey
 ?
 "
 tabshifted
