@@ -252,6 +252,16 @@ gcDelayBytes
 (
 0
 )
+tenuredStrings
+(
+group
+0
+)
+allocNurseryStrings
+(
+group
+true
+)
 propertyTree_
 (
 group
