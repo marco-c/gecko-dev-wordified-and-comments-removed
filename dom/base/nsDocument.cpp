@@ -7146,6 +7146,10 @@ mAllowUnsafeHTML
 (
 false
 )
+mInDestructor
+(
+false
+)
 mIsScopedStyleEnabled
 (
 eScopedStyle_Unknown
@@ -7342,10 +7346,6 @@ mHeaderData
 nullptr
 )
 mIsGoingAway
-(
-false
-)
-mInDestructor
 (
 false
 )
@@ -22937,7 +22937,7 @@ false
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 AddObserver
@@ -22987,7 +22987,7 @@ aObserver
 ;
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 RemoveObserver

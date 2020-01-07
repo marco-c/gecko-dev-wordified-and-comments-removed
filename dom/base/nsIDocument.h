@@ -4083,7 +4083,6 @@ const
 =
 0
 ;
-virtual
 void
 AddObserver
 (
@@ -4091,10 +4090,7 @@ nsIDocumentObserver
 *
 aObserver
 )
-=
-0
 ;
-virtual
 bool
 RemoveObserver
 (
@@ -4102,8 +4098,6 @@ nsIDocumentObserver
 *
 aObserver
 )
-=
-0
 ;
 virtual
 void
@@ -9759,6 +9753,11 @@ mAllowUnsafeHTML
 :
 1
 ;
+bool
+mInDestructor
+:
+1
+;
 enum
 {
 eScopedStyle_Unknown
@@ -10038,6 +10037,13 @@ dom
 MediaQueryList
 >
 mDOMMediaQueryLists
+;
+nsTObserverArray
+<
+nsIDocumentObserver
+*
+>
+mObservers
 ;
 std
 :
