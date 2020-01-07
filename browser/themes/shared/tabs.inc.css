@@ -245,6 +245,16 @@ width
 ;
 }
 .
+tabbrowser
+-
+arrowscrollbox
+>
+.
+arrowscrollbox
+-
+scrollbox
+>
+.
 scrollbox
 -
 innerbox
