@@ -89,7 +89,11 @@ aChannel
 const
 nsACString
 &
-aBytes
+aFirst
+const
+nsACString
+&
+aSecond
 const
 nsACString
 &

@@ -2442,7 +2442,11 @@ aStatus
 const
 nsACString
 &
-aBytes
+aBytes1
+const
+nsACString
+&
+aBytes2
 nsIChannel
 *
 aChannel
@@ -3481,7 +3485,8 @@ VerifyIntegrity
 (
 sriMetadata
 aChannel
-aBytes
+aBytes1
+aBytes2
 sourceUri
 mLoader
 -

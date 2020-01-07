@@ -260,7 +260,11 @@ aStatus
 const
 nsACString
 &
-aBytes
+aBytes1
+const
+nsACString
+&
+aBytes2
 nsIChannel
 *
 aChannel
