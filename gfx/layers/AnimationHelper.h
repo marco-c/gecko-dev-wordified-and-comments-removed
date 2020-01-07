@@ -583,7 +583,7 @@ GetNextCompositorAnimationsId
 )
 ;
 static
-void
+bool
 SampleAnimations
 (
 CompositorAnimationStorage

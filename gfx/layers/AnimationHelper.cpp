@@ -3497,7 +3497,7 @@ return
 nextId
 ;
 }
-void
+bool
 AnimationHelper
 :
 :
@@ -3515,6 +3515,11 @@ MOZ_ASSERT
 aStorage
 )
 ;
+bool
+isAnimating
+=
+false
+;
 if
 (
 !
@@ -3527,6 +3532,7 @@ AnimationsCount
 )
 {
 return
+isAnimating
 ;
 }
 for
@@ -3578,6 +3584,10 @@ IsEmpty
 continue
 ;
 }
+isAnimating
+=
+true
+;
 RefPtr
 <
 RawServoAnimationValue
@@ -3860,6 +3870,9 @@ property
 ;
 }
 }
+return
+isAnimating
+;
 }
 }
 }
