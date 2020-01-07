@@ -764,15 +764,7 @@ dataPointerShared
 static
 SharedArrayBufferObject
 *
-createEmpty
-(
-JSContext
-*
-cx
-)
-;
-void
-initializeRawBuffer
+createFromNewRawBuffer
 (
 JSContext
 *
@@ -781,7 +773,7 @@ SharedArrayRawBuffer
 *
 buffer
 uint32_t
-length
+initialSize
 )
 ;
 mozilla
