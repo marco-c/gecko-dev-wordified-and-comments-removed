@@ -456,6 +456,7 @@ ANDROID_PACKAGE_NAME
 .
 replace
 (
+        
 '
 fennec
 '
@@ -616,6 +617,7 @@ path
 .
 join
 (
+        
 buildconfig
 .
 topobjdir
@@ -768,17 +770,17 @@ includes
 [
 input_filename
 ]
-                                   
+                                       
 defines
 =
 _defines
 (
 )
-                                   
+                                       
 output
 =
 output_file
-                                   
+                                       
 marker
 =
 '
