@@ -848,6 +848,7 @@ APP_SHUTDOWN
 2
 ;
 let
+addonData
 startupReason
 ;
 function
@@ -857,6 +858,10 @@ data
 reason
 )
 {
+addonData
+=
+data
+;
 startupReason
 =
 reason
@@ -1096,6 +1101,7 @@ webExtension
 startup
 (
 startupReason
+addonData
 )
 .
 then
