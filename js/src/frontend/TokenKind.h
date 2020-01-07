@@ -5,6 +5,13 @@ frontend_TokenKind_h
 define
 frontend_TokenKind_h
 #
+include
+<
+stdint
+.
+h
+>
+#
 define
 FOR_EACH_TOKEN_KIND_WITH_RANGE
 (
@@ -1670,6 +1677,8 @@ frontend
 enum
 class
 TokenKind
+:
+uint8_t
 {
 #
 define
