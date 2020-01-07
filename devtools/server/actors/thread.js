@@ -6791,6 +6791,10 @@ null
 ;
 if
 (
+!
+url
+|
+|
 this
 .
 sources
