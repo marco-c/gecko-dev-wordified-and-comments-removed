@@ -5052,6 +5052,11 @@ nsIURL
 aServerURL
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aServerURL
+)
+;
 if
 (
 !
