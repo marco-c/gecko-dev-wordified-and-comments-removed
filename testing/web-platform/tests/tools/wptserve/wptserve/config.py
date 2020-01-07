@@ -724,6 +724,13 @@ self
 )
 :
         
+new_ports
+=
+defaultdict
+(
+list
+)
+        
 try
 :
             
@@ -741,15 +748,6 @@ old_ports
 =
 {
 }
-        
-self
-.
-_computed_ports
-=
-defaultdict
-(
-list
-)
         
 for
 scheme
@@ -843,9 +841,7 @@ port
 =
 port
                 
-self
-.
-_computed_ports
+new_ports
 [
 scheme
 ]
@@ -854,6 +850,12 @@ append
 (
 port
 )
+        
+self
+.
+_computed_ports
+=
+new_ports
         
 return
 self
