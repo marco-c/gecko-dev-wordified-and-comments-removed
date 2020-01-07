@@ -456,11 +456,15 @@ return
 mChannelInterpretation
 ;
 }
+virtual
 void
 SetChannelInterpretationValue
 (
 ChannelInterpretation
 aMode
+ErrorResult
+&
+aRv
 )
 {
 mChannelInterpretation
