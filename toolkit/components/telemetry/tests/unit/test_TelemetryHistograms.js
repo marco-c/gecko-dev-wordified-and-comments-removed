@@ -6983,8 +6983,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 test_keyed_keys
 (
 )

@@ -4617,8 +4617,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 test_dynamicEventRegistrationValidation
 (
 )
@@ -5561,8 +5561,8 @@ a10
 ;
 add_task
 (
+async
 function
-*
 test_dynamicEventRegisterAgain
 (
 )

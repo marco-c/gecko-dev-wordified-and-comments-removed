@@ -3313,8 +3313,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_dynamicScalars_registration
 (
 )
@@ -3686,8 +3686,8 @@ description
 ;
 add_task
 (
+async
 function
-*
 test_dynamicScalars_doubleRegistration
 (
 )
@@ -4002,8 +4002,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_dynamicScalars_recording
 (
 )
