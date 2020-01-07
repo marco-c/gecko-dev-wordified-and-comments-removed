@@ -39397,7 +39397,7 @@ blacklist
 -
 duration
 "
-1200
+60
 )
 ;
 pref

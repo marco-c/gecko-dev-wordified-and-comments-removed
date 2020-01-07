@@ -4781,6 +4781,7 @@ horizontal
 scrollbartrack
 -
 vertical
+scrollcorner
 searchfield
 separator
 spinner

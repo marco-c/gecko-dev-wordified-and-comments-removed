@@ -1279,6 +1279,9 @@ scrollbartrack
 vertical
 "
 "
+scrollcorner
+"
+"
 searchfield
 "
 "
