@@ -318,9 +318,7 @@ armv7
 a
 MOZ_FPU
 =
-vfpv3
--
-d16
+neon
 MOZ_FLOAT_ABI
 =
 softfp

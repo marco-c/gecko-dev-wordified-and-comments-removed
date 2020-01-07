@@ -392,6 +392,6 @@ CFLAGS
 -
 std
 =
-c89
+gnu89
 '
 ]
