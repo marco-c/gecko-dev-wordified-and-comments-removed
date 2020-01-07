@@ -687,6 +687,9 @@ tempChunks
 )
 )
 ;
+#
+ifndef
+__aarch64__
 CHECK
 (
 positionIsCorrect
@@ -713,6 +716,8 @@ tempChunks
 )
 )
 ;
+#
+endif
 CHECK
 (
 positionIsCorrect
