@@ -1777,6 +1777,8 @@ actors
 inspector
 /
 inspector
+-
+actor
 "
 {
 prefix

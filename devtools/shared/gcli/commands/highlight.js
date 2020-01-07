@@ -27,6 +27,8 @@ actors
 inspector
 /
 inspector
+-
+actor
 "
 )
 ;
