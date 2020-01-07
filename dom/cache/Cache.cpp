@@ -2941,10 +2941,6 @@ Promise
 All
 (
 aGlobal
-.
-Context
-(
-)
 fetchList
 aRv
 )

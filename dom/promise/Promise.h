@@ -487,9 +487,10 @@ Promise
 >
 All
 (
-JSContext
-*
-aCx
+const
+GlobalObject
+&
+aGlobal
 const
 nsTArray
 <
