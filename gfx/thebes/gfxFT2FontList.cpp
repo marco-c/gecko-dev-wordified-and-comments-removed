@@ -2460,6 +2460,10 @@ rv
 &
 &
 !
+mIsDataUserFont
+&
+&
+!
 HasGraphiteTables
 (
 )
