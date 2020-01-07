@@ -13,6 +13,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -360,7 +369,10 @@ js
 :
 NumCodeSpecs
 =
-JS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 CodeSpec
 )

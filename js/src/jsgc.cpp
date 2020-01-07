@@ -891,7 +891,10 @@ OBJECT16
 ;
 static_assert
 (
-JS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 slotsToThingKind
 )
@@ -1559,7 +1562,10 @@ uint8_t
 ;
 static_assert
 (
-JS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 ThingSizes
 )
@@ -1587,7 +1593,10 @@ sizes
 ;
 static_assert
 (
-JS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 FirstThingOffsets
 )
@@ -1614,7 +1623,10 @@ offsets
 ;
 static_assert
 (
-JS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 ThingsPerArena
 )
