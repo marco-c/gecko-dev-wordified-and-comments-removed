@@ -6332,6 +6332,16 @@ max_per_test_tests
 =
 10
         
+if
+self
+.
+per_test_coverage
+:
+            
+max_per_test_tests
+=
+30
+        
 executed_tests
 =
 0
