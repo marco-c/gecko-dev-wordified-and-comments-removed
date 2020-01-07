@@ -5880,16 +5880,6 @@ dtoaState
 (
 nullptr
 )
-heapState
-(
-JS
-:
-:
-HeapState
-:
-:
-Idle
-)
 suppressGC
 (
 0

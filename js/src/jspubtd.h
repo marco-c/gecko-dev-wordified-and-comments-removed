@@ -498,6 +498,10 @@ AutoEnterCycleCollection
 #
 ifdef
 DEBUG
+JSRuntime
+*
+runtime_
+;
 public
 :
 explicit
