@@ -149,6 +149,11 @@ App
 js
 '
 '
+CurrentTimeLabel
+.
+js
+'
+'
 KeyframesProgressTickItem
 .
 js
