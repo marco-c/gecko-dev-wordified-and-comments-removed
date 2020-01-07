@@ -1094,11 +1094,12 @@ aRegistration
 )
 ;
 nsresult
-GetDocumentRegistration
+GetClientRegistration
 (
-nsIDocument
-*
-aDoc
+const
+ClientInfo
+&
+aClientInfo
 ServiceWorkerRegistrationInfo
 *
 *
