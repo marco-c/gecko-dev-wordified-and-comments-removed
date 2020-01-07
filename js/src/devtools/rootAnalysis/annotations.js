@@ -1704,6 +1704,8 @@ if
 (
 /
 refillFreeList
+|
+tryNew
 /
 .
 test
