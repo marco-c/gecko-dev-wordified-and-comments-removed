@@ -2151,14 +2151,6 @@ ref
 .
 html
 fails
--
-if
-(
-cocoaWidget
-|
-|
-winWidget
-)
 !
 =
 underline
