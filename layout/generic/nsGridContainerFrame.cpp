@@ -17349,6 +17349,14 @@ GetUnit
 !
 =
 eStyleUnit_Auto
+&
+&
+!
+sizeStyle
+.
+HasPercent
+(
+)
 )
 {
 nscoord
