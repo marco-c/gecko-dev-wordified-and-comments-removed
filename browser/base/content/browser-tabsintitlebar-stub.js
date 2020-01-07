@@ -7,6 +7,11 @@ init
 )
 {
 }
+whenWindowLayoutReady
+(
+)
+{
+}
 uninit
 (
 )
