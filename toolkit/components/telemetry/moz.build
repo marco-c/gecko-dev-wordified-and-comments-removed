@@ -388,11 +388,6 @@ TelemetryGeckoViewPersistence
 cpp
 '
 '
-HangReports
-.
-cpp
-'
-'
 ipc
 /
 TelemetryIPC

@@ -22189,16 +22189,6 @@ count_for_prediction
 pref
 (
 "
-hangmonitor
-.
-timeout
-"
-0
-)
-;
-pref
-(
-"
 plugins
 .
 load_appdir_plugins
