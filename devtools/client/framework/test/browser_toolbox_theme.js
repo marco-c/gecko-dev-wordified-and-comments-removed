@@ -223,7 +223,7 @@ setCharPref
 (
 PREF_DEVTOOLS_THEME
 "
-firebug
+unknown
 "
 )
 ;
