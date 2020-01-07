@@ -813,3 +813,17 @@ outline
 true
 )
 ;
+pref
+(
+"
+devtools
+.
+debugger
+.
+features
+.
+replay
+"
+false
+)
+;
