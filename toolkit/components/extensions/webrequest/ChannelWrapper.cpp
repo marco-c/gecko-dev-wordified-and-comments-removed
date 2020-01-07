@@ -1206,6 +1206,8 @@ const
 nsCString
 &
 aValue
+bool
+aMerge
 ErrorResult
 &
 aRv
@@ -1238,7 +1240,7 @@ SetRequestHeader
 (
 aHeader
 aValue
-false
+aMerge
 )
 ;
 }
@@ -1273,6 +1275,8 @@ const
 nsCString
 &
 aValue
+bool
+aMerge
 ErrorResult
 &
 aRv
@@ -1345,7 +1349,7 @@ SetResponseHeader
 (
 aHeader
 aValue
-false
+aMerge
 )
 ;
 }
