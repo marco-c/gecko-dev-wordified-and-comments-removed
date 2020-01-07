@@ -107,6 +107,7 @@ initialize
 (
 objectActor
 options
+conn
 )
 {
 protocol
@@ -120,6 +121,7 @@ initialize
 call
 (
 this
+conn
 )
 ;
 if

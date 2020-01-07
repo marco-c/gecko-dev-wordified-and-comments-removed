@@ -224,6 +224,11 @@ node
 js
 '
 '
+object
+.
+js
+'
+'
 perf
 .
 js
