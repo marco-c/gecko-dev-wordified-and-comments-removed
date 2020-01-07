@@ -339,6 +339,11 @@ mIsLoading
 1
 ;
 bool
+mIsBeingParsed
+:
+1
+;
+bool
 mIsCancelled
 :
 1
