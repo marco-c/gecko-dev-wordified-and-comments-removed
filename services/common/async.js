@@ -502,6 +502,7 @@ _queue
 ;
 try
 {
+return
 await
 func
 (
@@ -521,6 +522,9 @@ error
 (
 e
 )
+;
+return
+false
 ;
 }
 }
