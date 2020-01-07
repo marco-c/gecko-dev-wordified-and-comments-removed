@@ -1985,6 +1985,13 @@ samples
 4
 8
 2147483646
+uint32_t
+(
+INT_MAX
+)
++
+1
+UINT32_MAX
 }
 )
 ;
@@ -2222,7 +2229,7 @@ const
 uint32_t
 kExpectedCountLast
 =
-1
+3
 ;
 ASSERT_EQ
 (
