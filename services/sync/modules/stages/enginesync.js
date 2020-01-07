@@ -792,6 +792,17 @@ throw
 ex
 ;
 }
+await
+this
+.
+service
+.
+engineManager
+.
+switchAlternatives
+(
+)
+;
 let
 enginesToSync
 ;
