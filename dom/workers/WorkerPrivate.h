@@ -2686,16 +2686,6 @@ ErrorResult
 aRv
 )
 ;
-static
-bool
-WorkerAvailable
-(
-JSContext
-*
-JSObject
-*
-)
-;
 enum
 LoadGroupBehavior
 {
