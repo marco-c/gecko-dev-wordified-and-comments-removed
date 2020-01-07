@@ -2082,7 +2082,6 @@ bool
 aNotify
 )
 ;
-virtual
 nsresult
 UnsetAttr
 (
