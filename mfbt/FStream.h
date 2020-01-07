@@ -16,7 +16,12 @@ h
 #
 include
 <
-iostream
+istream
+>
+#
+include
+<
+ostream
 >
 #
 include
