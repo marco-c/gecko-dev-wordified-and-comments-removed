@@ -143,7 +143,7 @@ class
 EventInfo
 >
 class
-DelayedEventDispatcher
+AnimationEventDispatcher
 ;
 namespace
 dom
@@ -411,7 +411,7 @@ mPresContext
 mozilla
 :
 :
-DelayedEventDispatcher
+AnimationEventDispatcher
 <
 AnimationEventType
 >
@@ -674,11 +674,11 @@ class
 EventInfo
 >
 class
-DelayedEventDispatcher
+AnimationEventDispatcher
 {
 public
 :
-DelayedEventDispatcher
+AnimationEventDispatcher
 (
 )
 :
@@ -1048,7 +1048,7 @@ inline
 void
 ImplCycleCollectionUnlink
 (
-DelayedEventDispatcher
+AnimationEventDispatcher
 <
 EventInfo
 >
@@ -1075,7 +1075,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
-DelayedEventDispatcher
+AnimationEventDispatcher
 <
 EventInfo
 >
