@@ -138,13 +138,10 @@ mozilla
 dom
 :
 :
-network
+DOMPreferences
 :
 :
-Connection
-:
-:
-IsEnabled
+NetworkInformationEnabled
 "
 Exposed
 =
