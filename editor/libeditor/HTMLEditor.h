@@ -1470,6 +1470,7 @@ aMouseEvent
 nsresult
 DoInlineTableEditingAction
 (
+const
 Element
 &
 aUIAnonymousElement
