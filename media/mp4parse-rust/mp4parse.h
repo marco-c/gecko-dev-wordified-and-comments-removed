@@ -113,9 +113,6 @@ MP4PARSE_TRACK_TYPE_AUDIO
 }
 Mp4parseTrackType
 ;
-struct
-Mp4parseParser
-;
 typedef
 struct
 Mp4parseParser

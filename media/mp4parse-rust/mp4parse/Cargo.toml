@@ -13,7 +13,7 @@ version
 .
 9
 .
-0
+1
 "
 authors
 =
@@ -171,13 +171,14 @@ traits
 mp4parse_fallible
 =
 {
-path
+version
 =
 "
+0
 .
+0
 .
-/
-mp4parse_fallible
+1
 "
 optional
 =
