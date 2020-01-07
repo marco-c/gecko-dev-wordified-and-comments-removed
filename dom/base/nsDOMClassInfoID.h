@@ -24,7 +24,6 @@ eDOMClassInfo_XULControlElement_id
 eDOMClassInfo_XULLabeledControlElement_id
 eDOMClassInfo_XULButtonElement_id
 eDOMClassInfo_XULCheckboxElement_id
-eDOMClassInfo_XULPopupElement_id
 eDOMClassInfoIDCount
 }
 ;

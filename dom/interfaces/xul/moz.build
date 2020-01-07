@@ -174,11 +174,6 @@ nsIDOMXULMultSelectCntrlEl
 idl
 '
 '
-nsIDOMXULPopupElement
-.
-idl
-'
-'
 nsIDOMXULRelatedElement
 .
 idl

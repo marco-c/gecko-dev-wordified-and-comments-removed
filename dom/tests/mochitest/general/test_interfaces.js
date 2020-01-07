@@ -2530,16 +2530,6 @@ true
 name
 :
 "
-XULPopupElement
-"
-xbl
-:
-true
-}
-{
-name
-:
-"
 XULTemplateBuilder
 "
 xbl

@@ -202,11 +202,6 @@ resources
 >
 <
 implementation
-implements
-=
-"
-nsIDOMXULPopupElement
-"
 >
 <
 property
@@ -1919,11 +1914,6 @@ base
 >
 <
 implementation
-implements
-=
-"
-nsIDOMXULPopupElement
-"
 >
 <
 field
