@@ -51,7 +51,7 @@ include
 "
 mozilla
 /
-StylePrefs
+StaticPrefs
 .
 h
 "
@@ -1562,10 +1562,12 @@ NS_FONT_DISPLAY_AUTO
 ;
 if
 (
-StylePrefs
+StaticPrefs
 :
 :
-sFontDisplayEnabled
+layout_css_font_display_enabled
+(
+)
 )
 {
 fontDisplay

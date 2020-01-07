@@ -687,7 +687,7 @@ h
 "
 mozilla
 /
-StylePrefs
+StaticPrefs
 .
 h
 "
@@ -1774,7 +1774,7 @@ ServoTraversalFlags
 mozilla
 :
 :
-StylePrefs
+StaticPrefs
 "
 "
 mozilla

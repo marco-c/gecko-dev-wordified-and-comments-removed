@@ -657,11 +657,6 @@ StyleComplexColor
 h
 '
 '
-StylePrefs
-.
-h
-'
-'
 StyleSheet
 .
 h
@@ -1216,11 +1211,6 @@ cpp
 '
 '
 StyleAnimationValue
-.
-cpp
-'
-'
-StylePrefs
 .
 cpp
 '
