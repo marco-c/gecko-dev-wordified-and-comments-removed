@@ -223,6 +223,11 @@ currentHostType
 PropTypes
 .
 string
+areDockOptionsEnabled
+:
+PropTypes
+.
+bool
 canCloseToolbox
 :
 PropTypes
@@ -238,11 +243,6 @@ disableAutohide
 PropTypes
 .
 bool
-selectTool
-:
-PropTypes
-.
-func
 toggleOptions
 :
 PropTypes
