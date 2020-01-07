@@ -185,6 +185,8 @@ GetAppCodeName
 nsString
 &
 aAppCodeName
+ErrorResult
+&
 )
 const
 {

@@ -494,6 +494,7 @@ Mozilla
 [
 Constant
 Cached
+Throws
 ]
 readonly
 attribute
