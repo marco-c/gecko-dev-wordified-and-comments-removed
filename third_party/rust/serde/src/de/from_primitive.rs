@@ -18,7 +18,7 @@ ident
 )
 =
 >
-(
+{
 if
 dst
 :
@@ -60,7 +60,8 @@ else
 {
 None
 }
-)
+}
+;
 }
 macro_rules
 !
@@ -76,7 +77,7 @@ ident
 )
 =
 >
-(
+{
 if
 0
 <
@@ -109,7 +110,8 @@ else
 {
 None
 }
-)
+}
+;
 }
 macro_rules
 !
@@ -125,7 +127,7 @@ ident
 )
 =
 >
-(
+{
 if
 n
 as
@@ -152,7 +154,8 @@ else
 {
 None
 }
-)
+}
+;
 }
 pub
 trait
@@ -312,7 +315,7 @@ ident
 )
 =
 >
-(
+{
 impl
 FromPrimitive
 for
@@ -569,7 +572,8 @@ n
 )
 }
 }
-)
+}
+;
 }
 macro_rules
 !
@@ -582,7 +586,7 @@ ident
 )
 =
 >
-(
+{
 impl
 FromPrimitive
 for
@@ -839,7 +843,8 @@ n
 )
 }
 }
-)
+}
+;
 }
 macro_rules
 !
@@ -852,7 +857,7 @@ ident
 )
 =
 >
-(
+{
 impl
 FromPrimitive
 for
@@ -1109,7 +1114,8 @@ Self
 )
 }
 }
-)
+}
+;
 }
 impl_from_primitive_for_int
 !

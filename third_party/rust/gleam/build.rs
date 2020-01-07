@@ -2,10 +2,6 @@ extern
 crate
 gl_generator
 ;
-extern
-crate
-pkg_config
-;
 use
 std
 :
@@ -187,6 +183,9 @@ GL_ARB_get_program_binary
 "
 GL_ARB_blend_func_extended
 "
+"
+GL_KHR_debug
+"
 ]
 ;
 let
@@ -251,6 +250,9 @@ GL_EXT_disjoint_timer_query
 "
 "
 GL_EXT_debug_marker
+"
+"
+GL_KHR_debug
 "
 ]
 ;

@@ -44,10 +44,10 @@ content
 :
 :
 {
+Content
+ContentSerializer
 SerializeStructVariantAsMapValue
 SerializeTupleVariantAsMapValue
-ContentSerializer
-Content
 }
 ;
 pub

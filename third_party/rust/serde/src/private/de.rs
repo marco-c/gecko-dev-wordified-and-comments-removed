@@ -41,8 +41,8 @@ de
 :
 :
 {
-Unexpected
 MapAccess
+Unexpected
 }
 ;
 #
@@ -76,6 +76,7 @@ content
 Content
 ContentDeserializer
 ContentRefDeserializer
+EnumDeserializer
 InternallyTaggedUnitVisitor
 TagContentOtherField
 TagContentOtherFieldVisitor
@@ -83,7 +84,6 @@ TagOrContentField
 TagOrContentFieldVisitor
 TaggedContentVisitor
 UntaggedUnitVisitor
-EnumDeserializer
 }
 ;
 pub
@@ -1328,6 +1328,12 @@ lib
 *
 ;
 use
+super
+:
+:
+size_hint
+;
+use
 de
 :
 :
@@ -1342,12 +1348,6 @@ SeqAccess
 Unexpected
 Visitor
 }
-;
-use
-super
-:
-:
-size_hint
 ;
 #
 [
@@ -13264,7 +13264,6 @@ is_none
 |
 key
 |
-{
 match
 self
 .
@@ -13293,7 +13292,6 @@ _
 =
 >
 false
-}
 }
 )
 }

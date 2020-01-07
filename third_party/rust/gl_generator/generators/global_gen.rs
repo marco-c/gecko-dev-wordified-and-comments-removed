@@ -287,6 +287,8 @@ mut
 FnMut
 (
 &
+'
+static
 str
 )
 -
@@ -303,12 +305,16 @@ c_void
 symbol
 :
 &
+'
+static
 str
 fallbacks
 :
 &
 [
 &
+'
+static
 str
 ]
 )
@@ -1444,6 +1450,8 @@ F
 FnMut
 (
 &
+'
+static
 str
 )
 -
@@ -1721,6 +1729,8 @@ F
 FnMut
 (
 &
+'
+static
 str
 )
 -
