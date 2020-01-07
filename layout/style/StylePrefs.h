@@ -51,6 +51,10 @@ bool
 sMozDocumentEnabledInContent
 ;
 static
+bool
+sGridTemplateSubgridValueEnabled
+;
+static
 void
 Init
 (
