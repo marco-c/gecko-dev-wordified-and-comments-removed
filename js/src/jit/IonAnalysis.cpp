@@ -8593,6 +8593,7 @@ toInstruction
 (
 )
 ;
+const
 TypePolicy
 *
 policy

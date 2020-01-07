@@ -5096,6 +5096,7 @@ true
 ;
 }
 virtual
+const
 TypePolicy
 *
 typePolicy
@@ -5153,6 +5154,7 @@ opcode
 )
 \
 virtual
+const
 TypePolicy
 *
 typePolicy
@@ -33133,6 +33135,7 @@ INSTRUCTION_HEADER_WITHOUT_TYPEPOLICY
 Phi
 )
 virtual
+const
 TypePolicy
 *
 typePolicy

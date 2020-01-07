@@ -76,6 +76,7 @@ MInstruction
 *
 def
 )
+const
 =
 0
 ;
@@ -122,6 +123,7 @@ Data
 {
 \
 static
+const
 TypePolicy
 *
 thisTypePolicy
@@ -146,6 +148,7 @@ DATA_TYPE
 {
 \
 static
+const
 TypePolicy
 *
 thisTypePolicy
@@ -170,6 +173,7 @@ struct
 Data
 {
 static
+const
 TypePolicy
 *
 thisTypePolicy
@@ -208,7 +212,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -220,6 +223,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -243,7 +247,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -255,6 +258,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -294,6 +298,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -317,7 +322,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -329,6 +333,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -344,7 +349,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -356,6 +360,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -371,7 +376,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -383,6 +387,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -398,7 +403,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -410,6 +414,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -425,7 +430,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -437,6 +441,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -452,7 +457,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -464,6 +468,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -479,7 +484,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -491,6 +495,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -524,7 +529,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -536,6 +540,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -577,7 +582,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -589,6 +593,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -630,7 +635,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -642,6 +646,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -683,7 +688,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -695,6 +699,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -736,7 +741,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -748,6 +752,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -789,7 +794,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -801,6 +805,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -842,7 +847,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -854,6 +858,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -895,7 +900,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -907,6 +911,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -935,7 +940,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -947,6 +951,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -980,7 +985,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -992,6 +996,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -1020,7 +1025,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1032,6 +1036,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1060,7 +1065,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1072,6 +1076,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -1108,7 +1113,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1120,6 +1124,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -1156,7 +1161,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1168,6 +1172,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -1209,7 +1214,6 @@ MInstruction
 ins
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1221,6 +1225,7 @@ MInstruction
 *
 ins
 )
+const
 override
 {
 return
@@ -1269,7 +1274,6 @@ MInstruction
 def
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1281,6 +1285,7 @@ MInstruction
 *
 def
 )
+const
 override
 {
 return
@@ -1304,7 +1309,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1316,6 +1320,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1336,7 +1341,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1348,6 +1352,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1363,7 +1368,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1375,6 +1379,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1390,7 +1395,6 @@ public
 :
 SPECIALIZATION_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1402,6 +1406,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1435,7 +1440,6 @@ MInstruction
 ins
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1447,6 +1451,7 @@ MInstruction
 *
 ins
 )
+const
 override
 {
 return
@@ -1488,7 +1493,6 @@ MInstruction
 ins
 )
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1500,6 +1504,7 @@ MInstruction
 *
 ins
 )
+const
 override
 {
 return
@@ -1554,6 +1559,7 @@ MInstruction
 *
 ins
 )
+const
 override
 {
 return
@@ -1606,6 +1612,7 @@ MInstruction
 *
 ins
 )
+const
 override
 {
 return
@@ -1765,7 +1772,6 @@ ins
 )
 ;
 }
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1777,6 +1783,7 @@ MInstruction
 *
 ins
 )
+const
 override
 {
 return
@@ -1800,7 +1807,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1812,6 +1818,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -1827,7 +1834,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1839,6 +1845,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -1885,7 +1892,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1897,6 +1903,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1912,7 +1919,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1924,6 +1930,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -1939,7 +1946,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1951,6 +1957,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -1966,7 +1973,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -1978,6 +1984,7 @@ MInstruction
 *
 def
 )
+const
 override
 ;
 }
@@ -1993,7 +2000,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -2005,6 +2011,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
@@ -2020,7 +2027,6 @@ public
 :
 EMPTY_DATA_
 ;
-virtual
 MOZ_MUST_USE
 bool
 adjustInputs
@@ -2032,6 +2038,7 @@ MInstruction
 *
 ins
 )
+const
 override
 ;
 }
