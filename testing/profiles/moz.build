@@ -94,6 +94,11 @@ common
 *
 '
 '
+perf
+/
+*
+'
+'
 profiles
 .
 json

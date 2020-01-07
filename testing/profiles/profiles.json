@@ -31,6 +31,15 @@ common
 "
 ]
 "
+talos
+"
+:
+[
+"
+perf
+"
+]
+"
 valgrind
 "
 :
