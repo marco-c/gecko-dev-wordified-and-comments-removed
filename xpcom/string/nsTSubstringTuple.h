@@ -7,6 +7,15 @@ nsTSubstringTuple_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsTStringRepr
 .
 h
@@ -17,6 +26,7 @@ typename
 T
 >
 class
+MOZ_TEMPORARY_CLASS
 nsTSubstringTuple
 {
 public
