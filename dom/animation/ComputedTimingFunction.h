@@ -220,6 +220,11 @@ nsTimingFunction
 &
 aFunction
 )
+:
+mStepsOrFrames
+(
+0
+)
 {
 Init
 (
@@ -646,6 +651,10 @@ x1
 y1
 x2
 y2
+)
+mStepsOrFrames
+(
+0
 )
 {
 }
