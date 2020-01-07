@@ -190,11 +190,6 @@ event
 target
 .
 value
-this
-.
-props
-.
-toolbox
 )
 ;
 }
