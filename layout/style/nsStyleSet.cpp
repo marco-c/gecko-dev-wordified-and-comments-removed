@@ -11922,11 +11922,15 @@ void
 nsStyleSet
 :
 :
-SheetChanged
+RecordStyleSheetChange
 (
 CSSStyleSheet
-&
+*
 aStyleSheet
+StyleSheet
+:
+:
+ChangeType
 )
 {
 MOZ_ASSERT
@@ -11959,7 +11963,8 @@ Element
 scopeElement
 =
 aStyleSheet
-.
+-
+>
 GetScopeElement
 (
 )
