@@ -44,13 +44,11 @@ command
 desktop
 -
 launch
+SNAP
+/
 firefox
 desktop
 :
-opt
-/
-firefox
-/
 distribution
 /
 firefox
