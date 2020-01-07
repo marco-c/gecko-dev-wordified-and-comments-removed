@@ -409,14 +409,6 @@ if
 aIsAnimated
 &
 &
-gfxVars
-:
-:
-UseWebRender
-(
-)
-&
-&
 gfxPrefs
 :
 :
