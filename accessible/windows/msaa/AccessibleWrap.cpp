@@ -5835,6 +5835,13 @@ IsProxy
 )
 &
 &
+varChild
+.
+lVal
+<
+0
+&
+&
 !
 sIDGen
 .
