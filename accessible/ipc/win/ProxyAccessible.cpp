@@ -142,7 +142,11 @@ VARIANT
 kChildIdSelf
 =
 {
+{
+{
 VT_I4
+}
+}
 }
 ;
 namespace
@@ -214,7 +218,11 @@ VARIANT
 realId
 =
 {
+{
+{
 VT_I4
+}
+}
 }
 ;
 realId
