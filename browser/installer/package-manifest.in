@@ -1199,13 +1199,6 @@ RESPATH
 /
 components
 /
-dom_xhr
-.
-xpt
-RESPATH
-/
-components
-/
 dom_xul
 .
 xpt

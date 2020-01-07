@@ -13,13 +13,6 @@ DOMEventTargetHelper
 .
 h
 "
-#
-include
-"
-nsIXMLHttpRequest
-.
-h
-"
 namespace
 mozilla
 {
@@ -31,8 +24,6 @@ XMLHttpRequestEventTarget
 :
 public
 DOMEventTargetHelper
-public
-nsIXMLHttpRequestEventTarget
 {
 protected
 :
@@ -70,7 +61,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 XMLHttpRequestEventTarget
 DOMEventTargetHelper
 )
-NS_DECL_NSIXMLHTTPREQUESTEVENTTARGET
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
 DOMEventTargetHelper

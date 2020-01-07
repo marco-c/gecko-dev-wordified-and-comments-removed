@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsIXMLHttpRequest
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

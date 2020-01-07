@@ -26,10 +26,6 @@ NS_INTERFACE_MAP_BEGIN
 (
 XMLHttpRequestUpload
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsIXMLHttpRequestUpload
-)
 NS_INTERFACE_MAP_END_INHERITING
 (
 XMLHttpRequestEventTarget
