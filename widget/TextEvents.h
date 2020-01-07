@@ -1253,6 +1253,14 @@ aCodeName
 )
 ;
 }
+static
+uint32_t
+GetFallbackKeyCodeOfPunctuationKey
+(
+CodeNameIndex
+aCodeNameIndex
+)
+;
 bool
 IsModifierKeyEvent
 (
