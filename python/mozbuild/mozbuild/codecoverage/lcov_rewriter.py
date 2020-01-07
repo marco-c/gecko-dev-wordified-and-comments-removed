@@ -3233,7 +3233,7 @@ dest
                     
 objdir_path
 =
-url
+term
 .
 replace
 (
