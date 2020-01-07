@@ -126,7 +126,7 @@ AnimationList
 )
 ;
 const
-CurrentTimeScrubberController
+CurrentTimeScrubber
 =
 createFactory
 (
@@ -135,7 +135,7 @@ require
 "
 .
 /
-CurrentTimeScrubberController
+CurrentTimeScrubber
 "
 )
 )
@@ -552,7 +552,7 @@ ProgressInspectionPanel
 {
 indicator
 :
-CurrentTimeScrubberController
+CurrentTimeScrubber
 (
 {
 addAnimationsCurrentTimeListener
