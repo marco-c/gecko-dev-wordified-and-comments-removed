@@ -749,16 +749,6 @@ aChannel
 }
 virtual
 void
-SetScriptGlobalObject
-(
-nsIScriptGlobalObject
-*
-aGlobalObject
-)
-override
-;
-virtual
-void
 EndUpdate
 (
 nsUpdateType

@@ -4448,8 +4448,6 @@ nsIScriptGlobalObject
 *
 aGlobalObject
 )
-=
-0
 ;
 nsIScriptGlobalObject
 *
