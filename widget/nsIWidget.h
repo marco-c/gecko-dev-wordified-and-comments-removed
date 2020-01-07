@@ -2256,6 +2256,14 @@ aCallback
 0
 ;
 virtual
+void
+CleanupFullscreenTransition
+(
+)
+=
+0
+;
+virtual
 already_AddRefed
 <
 nsIScreen
