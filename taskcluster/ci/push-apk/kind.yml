@@ -89,6 +89,12 @@ build
 -
 signing
 -
+google
+-
+play
+-
+strings
+-
 push
 -
 apk
@@ -216,6 +222,11 @@ commit
 #
 see
 transforms
+requires
+:
+all
+-
+resolved
 scopes
 :
 #
@@ -262,6 +273,9 @@ mozilla
 -
 release
 '
+'
+maple
+'
 ]
 deadline
 -
@@ -269,8 +283,3 @@ after
 :
 5
 days
-extra
-:
-product
-:
-fennec
