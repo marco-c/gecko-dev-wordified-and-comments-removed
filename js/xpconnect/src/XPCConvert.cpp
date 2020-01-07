@@ -4448,14 +4448,6 @@ flat
 &
 &
 cache
-&
-&
-cache
--
->
-IsDOMBinding
-(
-)
 )
 {
 RootedObject

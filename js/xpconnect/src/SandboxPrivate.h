@@ -283,10 +283,6 @@ mPrincipal
 principal
 )
 {
-SetIsNotDOMBinding
-(
-)
-;
 }
 virtual
 ~
