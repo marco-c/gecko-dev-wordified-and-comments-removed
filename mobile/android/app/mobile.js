@@ -1225,6 +1225,16 @@ pref
 "
 extensions
 .
+autoDisableScopes
+"
+15
+)
+;
+pref
+(
+"
+extensions
+.
 enabledScopes
 "
 1
