@@ -43367,7 +43367,7 @@ mLoadingTimeStamp
 }
 Element
 *
-nsDocument
+nsIDocument
 :
 :
 FindImageMap

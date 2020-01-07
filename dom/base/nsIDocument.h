@@ -6771,7 +6771,6 @@ nsDOMNavigationTiming
 aTiming
 )
 ;
-virtual
 Element
 *
 FindImageMap
@@ -6781,8 +6780,6 @@ nsAString
 &
 aNormalizedMapName
 )
-=
-0
 ;
 void
 RegisterPendingLinkUpdate
@@ -10734,6 +10731,12 @@ dom
 DOMImplementation
 >
 mDOMImplementation
+;
+RefPtr
+<
+nsContentList
+>
+mImageMaps
 ;
 public
 :
