@@ -309,6 +309,35 @@ bin
         
 }
 )
+        
+if
+'
+USE_ARTIFACT_PATH
+'
+in
+os
+.
+environ
+:
+            
+options
+[
+'
+sandboxReadWhitelist
+'
+]
+.
+append
+(
+os
+.
+environ
+[
+'
+USE_ARTIFACT_PATH
+'
+]
+)
     
 else
 :
