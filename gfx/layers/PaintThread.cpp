@@ -847,6 +847,14 @@ GetPlatform
 UsesTiling
 (
 )
+|
+|
+gfxPrefs
+:
+:
+LayersTilesEnabledIfSkiaPOMTP
+(
+)
 )
 {
 int32_t

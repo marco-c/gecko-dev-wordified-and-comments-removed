@@ -5773,7 +5773,7 @@ false
 ;
 DECL_GFX_PREF
 (
-Live
+Once
 "
 layers
 .
