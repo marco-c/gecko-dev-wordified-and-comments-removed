@@ -145,12 +145,12 @@ UNIFIED_SOURCES
 =
 [
 '
-nsTransactionItem
+nsTransactionStack
 .
 cpp
 '
 '
-nsTransactionStack
+TransactionItem
 .
 cpp
 '
