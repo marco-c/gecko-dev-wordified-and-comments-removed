@@ -252,6 +252,13 @@ AddonManager
 ERROR_CORRUPT_FILE
 )
 ;
+xpi1
+.
+remove
+(
+false
+)
+;
 }
 )
 ;
