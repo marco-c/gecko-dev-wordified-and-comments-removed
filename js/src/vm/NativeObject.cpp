@@ -12127,7 +12127,10 @@ pc
 JSContext
 :
 :
-ALLOW_CROSS_COMPARTMENT
+AllowCrossRealm
+:
+:
+Allow
 )
 ;
 if
