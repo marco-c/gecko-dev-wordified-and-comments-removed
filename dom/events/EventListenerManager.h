@@ -581,7 +581,6 @@ uint8_t
 eNoListener
 eNativeListener
 eJSEventListener
-eWrappedJSListener
 eWebIDLListener
 }
 ;
