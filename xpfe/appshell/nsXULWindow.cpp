@@ -5710,6 +5710,10 @@ mIgnoreXULSize
 =
 true
 ;
+mIgnoreXULPosition
+=
+true
+;
 }
 mWindow
 -
