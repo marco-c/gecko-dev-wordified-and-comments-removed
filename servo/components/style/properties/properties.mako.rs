@@ -747,6 +747,8 @@ include
 (
 "
 {
+repr
+(
 os
 .
 path
@@ -770,6 +772,13 @@ style_struct
 name_lower
 )
 )
+)
+[
+1
+:
+-
+1
+]
 }
 "
 )
@@ -1056,6 +1065,8 @@ include
 (
 "
 {
+repr
+(
 os
 .
 path
@@ -1079,6 +1090,13 @@ style_struct
 name_lower
 )
 )
+)
+[
+1
+:
+-
+1
+]
 }
 "
 )
