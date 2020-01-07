@@ -87,6 +87,10 @@ JSStructuredCloneReader
 struct
 JSStructuredCloneWriter
 ;
+#
+define
+JS_STRUCTURED_CLONE_VERSION
+8
 namespace
 JS
 {
@@ -325,10 +329,6 @@ void
 closure
 )
 ;
-#
-define
-JS_STRUCTURED_CLONE_VERSION
-8
 struct
 JSStructuredCloneCallbacks
 {
