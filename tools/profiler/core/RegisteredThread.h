@@ -486,8 +486,6 @@ mThread
 void
 StartJSSampling
 (
-bool
-aTrackOptimizations
 )
 {
 MOZ_RELEASE_ASSERT
@@ -507,10 +505,6 @@ INACTIVE_REQUESTED
 mJSSampling
 =
 ACTIVE_REQUESTED
-;
-mJSTrackOptimizations
-=
-aTrackOptimizations
 ;
 }
 void
@@ -566,13 +560,6 @@ EnableContextProfilingStack
 (
 mContext
 true
-)
-;
-JS_SetGlobalJitCompilerOption
-(
-mContext
-JSJITCOMPILER_TRACK_OPTIMIZATIONS
-mJSTrackOptimizations
 )
 ;
 js
@@ -659,9 +646,6 @@ INACTIVE_REQUESTED
 3
 }
 mJSSampling
-;
-bool
-mJSTrackOptimizations
 ;
 }
 ;
