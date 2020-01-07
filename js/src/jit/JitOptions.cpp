@@ -801,12 +801,6 @@ true
 ;
 SET_DEFAULT
 (
-spectreStringMitigations
-false
-)
-;
-SET_DEFAULT
-(
 disableUnboxedObjects
 false
 )

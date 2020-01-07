@@ -833,15 +833,6 @@ javascript
 .
 options
 .
-spectre
-.
-string_mitigations
-"
-"
-javascript
-.
-options
-.
 streams
 "
 "
