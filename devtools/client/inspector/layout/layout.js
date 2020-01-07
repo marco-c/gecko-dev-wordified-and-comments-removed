@@ -283,7 +283,9 @@ let
 {
 getSwatchColorPickerTooltip
 onSetGridOverlayColor
-onShowGridOutlineHighlight
+onShowGridAreaHighlight
+onShowGridCellHighlight
+onShowGridLineNamesHighlight
 onToggleGridHighlighter
 onToggleShowGridAreas
 onToggleShowGridLineNumbers
@@ -314,7 +316,9 @@ onSetGridOverlayColor
 onShowBoxModelEditor
 onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
-onShowGridOutlineHighlight
+onShowGridAreaHighlight
+onShowGridCellHighlight
+onShowGridLineNamesHighlight
 onToggleFlexboxHighlighter
 onToggleGeometryEditor
 onToggleGridHighlighter
