@@ -17904,10 +17904,6 @@ ContentChild
 :
 RecvDumpCodeCoverageCounters
 (
-DumpCodeCoverageCountersResolver
-&
-&
-aResolver
 )
 {
 #
@@ -17918,11 +17914,7 @@ CodeCoverageHandler
 :
 DumpCounters
 (
-)
-;
-aResolver
-(
-true
+0
 )
 ;
 return
@@ -17966,10 +17958,6 @@ ContentChild
 :
 RecvResetCodeCoverageCounters
 (
-ResetCodeCoverageCountersResolver
-&
-&
-aResolver
 )
 {
 #
@@ -17980,11 +17968,7 @@ CodeCoverageHandler
 :
 ResetCounters
 (
-)
-;
-aResolver
-(
-true
+0
 )
 ;
 return

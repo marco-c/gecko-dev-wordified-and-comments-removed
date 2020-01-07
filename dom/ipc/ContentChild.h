@@ -3184,10 +3184,6 @@ ipc
 IPCResult
 RecvDumpCodeCoverageCounters
 (
-DumpCodeCoverageCountersResolver
-&
-&
-aResolver
 )
 override
 ;
@@ -3201,10 +3197,6 @@ ipc
 IPCResult
 RecvResetCodeCoverageCounters
 (
-ResetCodeCoverageCountersResolver
-&
-&
-aResolver
 )
 override
 ;
