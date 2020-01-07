@@ -462,6 +462,16 @@ h
 '
 frontend
 /
+BinSource
+-
+auto
+.
+h
+'
+    
+'
+frontend
+/
 ReservedWordsGenerated
 .
 h

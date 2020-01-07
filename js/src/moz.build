@@ -5713,6 +5713,15 @@ SOURCES
 frontend
 /
 BinSource
+-
+auto
+.
+cpp
+'
+'
+frontend
+/
+BinSource
 .
 cpp
 '
