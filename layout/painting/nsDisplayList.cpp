@@ -27465,9 +27465,6 @@ return
 LAYER_NONE
 ;
 }
-bool
-hasCompositeColors
-;
 if
 (
 !
@@ -27476,12 +27473,7 @@ br
 >
 AllBordersSolid
 (
-&
-hasCompositeColors
 )
-|
-|
-hasCompositeColors
 )
 {
 return
