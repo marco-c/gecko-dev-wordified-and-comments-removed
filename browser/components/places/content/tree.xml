@@ -4763,14 +4763,12 @@ node
 &
 node
 .
-itemId
+bookmarkGuid
 =
 =
 PlacesUIUtils
 .
-leftPaneQueries
-.
-AllBookmarks
+virtualAllBookmarksGuid
 )
 )
 ;
