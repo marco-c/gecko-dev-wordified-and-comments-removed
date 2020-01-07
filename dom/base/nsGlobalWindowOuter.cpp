@@ -1229,13 +1229,6 @@ h
 #
 include
 "
-nsIPopupWindowManager
-.
-h
-"
-#
-include
-"
 nsIDragService
 .
 h

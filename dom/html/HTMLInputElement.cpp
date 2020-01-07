@@ -588,13 +588,6 @@ h
 #
 include
 "
-nsIPopupWindowManager
-.
-h
-"
-#
-include
-"
 nsGlobalWindow
 .
 h

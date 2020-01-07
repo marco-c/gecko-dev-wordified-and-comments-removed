@@ -117,11 +117,6 @@ nsPermissionManager
 .
 cpp
 '
-'
-nsPopupWindowManager
-.
-cpp
-'
 ]
 LOCAL_INCLUDES
 +

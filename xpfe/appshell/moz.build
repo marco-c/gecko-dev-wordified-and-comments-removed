@@ -127,11 +127,6 @@ nsIAppShellService
 idl
 '
 '
-nsIPopupWindowManager
-.
-idl
-'
-'
 nsIWindowlessBrowser
 .
 idl
