@@ -615,13 +615,21 @@ build_platform
         
 if
 build_platform
-=
-=
+in
+(
 '
 linux64
 -
 nightly
 '
+'
+linux64
+-
+devedition
+-
+nightly
+'
+)
 :
             
 yield
@@ -629,13 +637,21 @@ job
         
 elif
 build_platform
-=
-=
+in
+(
 '
 macosx64
 -
 nightly
 '
+'
+macosx64
+-
+devedition
+-
+nightly
+'
+)
 and
 \
                 

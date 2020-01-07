@@ -1035,9 +1035,8 @@ job
 else
 :
             
-for
-platform
-in
+platforms
+=
 (
 '
 linux
@@ -1055,6 +1054,49 @@ win32
 win64
 '
 )
+            
+if
+'
+devedition
+'
+in
+job
+[
+'
+attributes
+'
+]
+[
+'
+build_platform
+'
+]
+:
+                
+platforms
+=
+(
+'
+{
+}
+-
+devedition
+'
+.
+format
+(
+plat
+)
+for
+plat
+in
+platforms
+)
+            
+for
+platform
+in
+platforms
 :
                 
 platform_job
@@ -1083,12 +1125,20 @@ chunk_locales
 '
 ]
 and
+\
+                        
 platform
-=
-=
+in
+(
 '
 macosx64
 '
+'
+macosx64
+-
+devedition
+'
+)
 :
                     
 platform_job
@@ -1223,6 +1273,28 @@ platform
 )
 :
     
+orig_platform
+=
+'
+linux64
+'
+    
+if
+'
+devedition
+'
+in
+platform
+:
+        
+orig_platform
+=
+'
+linux64
+-
+devedition
+'
+    
 platform_job
 [
 '
@@ -1253,9 +1325,7 @@ label
 .
 replace
 (
-'
-linux64
-'
+orig_platform
 platform
 )
     
@@ -1275,9 +1345,7 @@ description
 .
 replace
 (
-'
-linux64
-'
+orig_platform
 platform
 )
     
@@ -1308,9 +1376,7 @@ platform
 replace
 (
         
-'
-linux64
-'
+orig_platform
 platform
     
 )
