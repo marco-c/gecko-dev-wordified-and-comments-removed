@@ -990,7 +990,7 @@ request
 &
 mut
 self
-services
+resources
 :
 &
 BlobImageResources

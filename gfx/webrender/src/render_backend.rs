@@ -3575,6 +3575,7 @@ frame_counter
 mut
 profile_counters
 ops
+true
 )
 ;
 }
@@ -4687,6 +4688,7 @@ DocumentOps
 nop
 (
 )
+false
 )
 }
 }
@@ -4718,6 +4720,9 @@ BackendProfileCounters
 initial_op
 :
 DocumentOps
+has_built_scene
+:
+bool
 )
 {
 let
@@ -5148,6 +5153,9 @@ resources
 op
 .
 build
+|
+|
+has_built_scene
 )
 ;
 debug
