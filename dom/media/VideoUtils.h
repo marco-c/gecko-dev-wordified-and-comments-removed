@@ -746,10 +746,13 @@ const
 nsAString
 &
 aCodecs
-int16_t
+uint8_t
 &
 aProfile
-int16_t
+uint8_t
+&
+aConstraint
+uint8_t
 &
 aLevel
 )

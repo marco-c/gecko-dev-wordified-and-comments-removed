@@ -62,8 +62,11 @@ nsAString
 aCodec
 )
 {
-int16_t
+uint8_t
 profile
+=
+0
+constraint
 =
 0
 level
@@ -77,6 +80,7 @@ ExtractH264CodecDetails
 (
 aCodec
 profile
+constraint
 level
 )
 )
