@@ -29,7 +29,7 @@ eSplitNode
 eJoinNodes
 eDeleteText
 eInsertText
-insertIMEText
+eInsertTextComingFromIME
 deleteSelection
 setTextProperty
 removeTextProperty

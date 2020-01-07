@@ -4480,7 +4480,7 @@ editSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 ;
 }
 AutoPlaceholderBatch

@@ -462,7 +462,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 deleted
