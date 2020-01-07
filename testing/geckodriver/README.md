@@ -1776,6 +1776,8 @@ firefoxOptions
 -
 -
 -
+-
+-
 A
 dictionary
 used
@@ -2553,6 +2555,8 @@ useNonSpecCompliantPointerOrigin
 -
 -
 -
+-
+-
 A
 boolean
 value
@@ -2660,6 +2664,8 @@ behavior
 moz
 :
 webdriverClick
+-
+-
 -
 -
 -
