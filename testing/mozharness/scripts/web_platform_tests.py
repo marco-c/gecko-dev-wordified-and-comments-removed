@@ -3,6 +3,8 @@ copy
 import
 os
 import
+shutil
+import
 sys
 from
 datetime
@@ -2601,7 +2603,7 @@ now
 (
 )
         
-max_verify_time
+max_per_test_time
 =
 timedelta
 (
@@ -2610,34 +2612,29 @@ minutes
 60
 )
         
-max_verify_tests
+max_per_test_tests
 =
 10
         
-verified_tests
+executed_tests
 =
 0
         
 if
 self
 .
-config
+per_test_coverage
+or
+self
 .
-get
-(
-"
-verify
-"
-)
-is
-True
+verify_enabled
 :
             
-verify_suites
+suites
 =
 self
 .
-query_verify_category_suites
+query_per_test_category_suites
 (
 None
 None
@@ -2648,7 +2645,7 @@ if
 wdspec
 "
 in
-verify_suites
+suites
 :
                 
 geckodriver_path
@@ -2674,7 +2671,7 @@ geckodriver_path
 )
 :
                     
-verify_suites
+suites
 .
 remove
 (
@@ -2688,9 +2685,7 @@ self
 info
 (
 "
-Test
-verification
-skipping
+Skipping
 '
 wdspec
 '
@@ -2719,36 +2714,52 @@ test_type
 ]
 )
             
-verify_suites
+suites
 =
 [
 None
 ]
         
 for
-verify_suite
+suite
 in
-verify_suites
+suites
 :
             
 if
-verify_suite
+suite
 :
                 
 test_types
 =
 [
-verify_suite
+suite
 ]
             
+if
+self
+.
+per_test_coverage
+:
+                
+gcov_dir
+jsvm_dir
+=
+self
+.
+set_coverage_env
+(
+env
+)
+            
 for
-verify_args
+per_test_args
 in
 self
 .
-query_verify_args
+query_args
 (
-verify_suite
+suite
 )
 :
                 
@@ -2763,7 +2774,7 @@ now
 start_time
 )
 >
-max_verify_time
+max_per_test_time
 :
                     
 self
@@ -2773,7 +2784,9 @@ info
 "
 TinderboxPrint
 :
-Verification
+Running
+tests
+took
 too
 long
 :
@@ -2784,7 +2797,7 @@ tests
                               
 "
 were
-verified
+executed
 .
 <
 br
@@ -2796,10 +2809,10 @@ br
 return
                 
 if
-verified_tests
+executed_tests
 >
 =
-max_verify_tests
+max_per_test_tests
 :
                     
 self
@@ -2821,7 +2834,7 @@ tests
                               
 "
 were
-verified
+executed
 .
 <
 br
@@ -2832,9 +2845,9 @@ br
                     
 return
                 
-verified_tests
+executed_tests
 =
-verified_tests
+executed_tests
 +
 1
                 
@@ -2851,7 +2864,23 @@ cmd
 .
 extend
 (
-verify_args
+per_test_args
+)
+                
+if
+self
+.
+per_test_coverage
+:
+                    
+gcov_dir
+jsvm_dir
+=
+self
+.
+set_coverage_env
+(
+env
 )
                 
 return_code
@@ -2884,6 +2913,37 @@ env
 env
 )
                 
+if
+self
+.
+per_test_coverage
+:
+                    
+grcov_file
+jsvm_file
+=
+self
+.
+parse_coverage_artifacts
+(
+gcov_dir
+jsvm_dir
+)
+                    
+shutil
+.
+rmtree
+(
+gcov_dir
+)
+                    
+shutil
+.
+rmtree
+(
+jsvm_dir
+)
+                
 tbpl_status
 log_level
 =
@@ -2907,7 +2967,7 @@ log_level
 if
 len
 (
-verify_args
+per_test_args
 )
 >
 0
@@ -2915,9 +2975,9 @@ verify_args
                     
 self
 .
-log_verify_status
+log_per_test_status
 (
-verify_args
+per_test_args
 [
 -
 1
