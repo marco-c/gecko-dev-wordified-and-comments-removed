@@ -922,6 +922,11 @@ IsUpdatePending
 (
 )
 ;
+bool
+WaitingForParent
+(
+)
+;
 private
 :
 NotificationController
