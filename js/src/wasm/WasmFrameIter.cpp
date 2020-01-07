@@ -164,7 +164,7 @@ LookupCode
 activation
 -
 >
-wasmTrapPC
+wasmTrapUnwoundPC
 (
 )
 )
@@ -180,7 +180,7 @@ lookupFuncRange
 activation
 -
 >
-wasmTrapPC
+wasmTrapUnwoundPC
 (
 )
 )
@@ -5205,7 +5205,7 @@ case
 SymbolicAddress
 :
 :
-ReportTrap
+OnTrap
 :
 case
 SymbolicAddress

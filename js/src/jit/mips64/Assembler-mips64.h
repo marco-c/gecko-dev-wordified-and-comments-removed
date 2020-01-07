@@ -980,6 +980,13 @@ WasmStackAlignment
 SimdMemoryAlignment
 ;
 static
+const
+uint32_t
+WasmTrapInstructionLength
+=
+4
+;
+static
 constexpr
 bool
 SupportsUint32x4FloatConversions

@@ -3413,6 +3413,14 @@ ins
 )
 ;
 void
+visitWasmInterruptCheck
+(
+LWasmInterruptCheck
+*
+lir
+)
+;
+void
 visitWasmTrap
 (
 LWasmTrap
