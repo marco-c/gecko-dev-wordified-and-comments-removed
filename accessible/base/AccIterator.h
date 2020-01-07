@@ -80,6 +80,7 @@ public
 :
 AccIterator
 (
+const
 Accessible
 *
 aRoot
@@ -133,6 +134,7 @@ IteratorState
 explicit
 IteratorState
 (
+const
 Accessible
 *
 aParent
@@ -143,6 +145,7 @@ mParentState
 nullptr
 )
 ;
+const
 Accessible
 *
 mParent
