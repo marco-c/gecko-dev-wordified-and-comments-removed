@@ -65,9 +65,6 @@ MPL
 /
 .
 #
-define
-MAC_NON_BROWSER_WINDOW
-#
 This
 include
 file
