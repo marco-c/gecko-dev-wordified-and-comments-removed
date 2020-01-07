@@ -565,10 +565,6 @@ delete
 ;
 }
 ;
-typedef
-nsAutoString
-nsVoidableString
-;
 #
 include
 "

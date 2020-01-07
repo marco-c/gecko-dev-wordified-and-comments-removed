@@ -933,7 +933,7 @@ prefix
 )
 ;
 }
-nsVoidableString
+nsAutoString
 ns
 ;
 if
