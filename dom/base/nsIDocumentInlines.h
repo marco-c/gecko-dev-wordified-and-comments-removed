@@ -287,15 +287,6 @@ mServoRestyleRoot
 aRoot
 |
 |
-!
-aRoot
--
->
-IsElement
-(
-)
-|
-|
 nsContentUtils
 :
 :
