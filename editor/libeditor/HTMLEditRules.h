@@ -594,12 +594,15 @@ InitFields
 (
 )
 ;
-void
+MOZ_MUST_USE
+nsresult
 WillInsert
 (
 bool
 *
 aCancel
+=
+nullptr
 )
 ;
 MOZ_MUST_USE
