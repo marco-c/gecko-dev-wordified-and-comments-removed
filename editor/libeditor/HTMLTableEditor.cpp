@@ -11526,13 +11526,6 @@ cellParent
 NS_ERROR_FAILURE
 )
 ;
-cellParent
-.
-forget
-(
-aCellParent
-)
-;
 if
 (
 aCellOffset
@@ -11548,6 +11541,13 @@ cellParent
 )
 ;
 }
+cellParent
+.
+forget
+(
+aCellParent
+)
+;
 }
 return
 NS_OK
