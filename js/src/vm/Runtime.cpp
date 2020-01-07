@@ -879,6 +879,9 @@ mutexid
 :
 WasmRuntimeInstances
 )
+moduleResolveHook
+(
+)
 {
 JS_COUNT_CTOR
 (
