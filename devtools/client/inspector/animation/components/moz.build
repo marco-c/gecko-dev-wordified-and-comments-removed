@@ -64,6 +64,11 @@ graph
 DevToolsModules
 (
 '
+AnimationDetailContainer
+.
+js
+'
+'
 AnimationItem
 .
 js

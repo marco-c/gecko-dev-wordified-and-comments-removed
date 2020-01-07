@@ -165,6 +165,15 @@ height
 100
 %
 ;
+overflow
+:
+hidden
+;
+width
+:
+100
+%
+;
 }
 .
 animation
@@ -300,8 +309,6 @@ type
 none
 ;
 margin
--
-top
 :
 0
 ;
