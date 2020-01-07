@@ -18,7 +18,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -44,7 +44,7 @@ actionTypes
 at
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -72,7 +72,7 @@ const
 shortURL
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -100,7 +100,7 @@ const
 SectionsManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -128,7 +128,7 @@ const
 TOP_SITES_SHOWMORE_LENGTH
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -156,7 +156,7 @@ const
 Dedupe
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -179,9 +179,9 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -204,9 +204,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -229,9 +229,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -252,9 +252,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -277,9 +277,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

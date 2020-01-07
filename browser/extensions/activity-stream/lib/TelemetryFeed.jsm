@@ -15,7 +15,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -34,7 +34,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -63,7 +63,7 @@ actionUtils
 au
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -91,7 +91,7 @@ const
 Prefs
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -114,9 +114,9 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -139,9 +139,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
