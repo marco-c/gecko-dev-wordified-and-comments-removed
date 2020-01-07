@@ -2422,6 +2422,9 @@ mTakeFullMinidumpCallback
 TerminateChildProcessCallback
 mTerminateChildProcessCallback
 ;
+bool
+mIsCleaningFromTimeout
+;
 }
 ;
 }
