@@ -766,7 +766,6 @@ flags_
 pref_
 parsevariant_
 kwtable_
-group_
 struct_
 stylestructoffset_
 animtype_
@@ -819,7 +818,6 @@ flags_
 pref_
 parsevariant_
 kwtable_
-group_
 struct_
 stylestructoffset_
 animtype_
@@ -1404,7 +1402,6 @@ flags_
 pref_
 parsevariant_
 kwtable_
-group_
 struct_
 stylestructoffset_
 animtype_
@@ -1994,7 +1991,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Size
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2045,7 +2041,6 @@ CSS_PROPERTY_LOGICAL_END_EDGE
 "
 VARIANT_HC
 nullptr
-BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2074,7 +2069,6 @@ CSS_PROPERTY_LOGICAL_END_EDGE
 "
 VARIANT_HK
 kBorderStyleKTable
-BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2109,7 +2103,6 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2149,7 +2142,6 @@ CSS_PROPERTY_LOGICAL_BLOCK_AXIS
 "
 VARIANT_HC
 nullptr
-BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2176,7 +2168,6 @@ CSS_PROPERTY_LOGICAL_BLOCK_AXIS
 "
 VARIANT_HK
 kBorderStyleKTable
-BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2209,7 +2200,6 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2529,7 +2519,6 @@ CSS_PROPERTY_LOGICAL_END_EDGE
 "
 VARIANT_HC
 nullptr
-BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2556,7 +2545,6 @@ CSS_PROPERTY_LOGICAL_END_EDGE
 "
 VARIANT_HK
 kBorderStyleKTable
-BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2589,7 +2577,6 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2627,7 +2614,6 @@ CSS_PROPERTY_LOGICAL
 "
 VARIANT_HC
 nullptr
-BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2652,7 +2638,6 @@ CSS_PROPERTY_LOGICAL
 "
 VARIANT_HK
 kBorderStyleKTable
-BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2683,7 +2668,6 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5158,7 +5142,6 @@ VARIANT_AHKLP
 |
 VARIANT_CALC
 kWidthKTable
-Size
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5476,7 +5459,6 @@ VARIANT_AHLP
 VARIANT_CALC
 nullptr
 Margin
-Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -5508,7 +5490,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Margin
 Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5571,7 +5552,6 @@ VARIANT_AHLP
 VARIANT_CALC
 nullptr
 Margin
-Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -5599,7 +5579,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Margin
 Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6037,7 +6016,6 @@ VARIANT_HLPO
 |
 VARIANT_CALC
 nullptr
-MaxSize
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6095,7 +6073,6 @@ VARIANT_HKLPO
 |
 VARIANT_CALC
 kWidthKTable
-MaxSize
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6155,7 +6132,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-MinSize
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6253,7 +6229,6 @@ VARIANT_AHKLP
 |
 VARIANT_CALC
 kWidthKTable
-MinSize
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6377,7 +6352,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Offset
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6406,7 +6380,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Offset
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6435,7 +6408,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Offset
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6462,7 +6434,6 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-Offset
 Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6977,7 +6948,6 @@ VARIANT_HLP
 VARIANT_CALC
 nullptr
 Padding
-Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -7011,7 +6981,6 @@ VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
-Padding
 Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -7080,7 +7049,6 @@ VARIANT_HLP
 VARIANT_CALC
 nullptr
 Padding
-Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -7112,7 +7080,6 @@ VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
-Padding
 Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None

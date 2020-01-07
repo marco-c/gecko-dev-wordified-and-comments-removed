@@ -105,7 +105,6 @@ pref
 parsevariant
 kwtable
 \
-group
 stylestruct
 stylestructoffset
 animtype
