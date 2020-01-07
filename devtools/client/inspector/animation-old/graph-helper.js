@@ -353,7 +353,9 @@ animation
 .
 effect
 .
-timing
+getComputedTiming
+(
+)
 .
 duration
 ;
@@ -1681,11 +1683,12 @@ animation
 .
 effect
 .
-timing
-.
+updateTiming
+(
+{
 fill
-=
-fill
+}
+)
 ;
 }
 setClosePathNeeded
