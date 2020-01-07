@@ -25,12 +25,12 @@ FlameGraph
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -40,7 +40,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -54,8 +54,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
@@ -66,7 +66,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
@@ -135,7 +135,7 @@ true
 }
 )
 ;
-yield
+await
 graph
 .
 ready
@@ -164,7 +164,7 @@ host
 graph
 )
 ;
-yield
+await
 graph
 .
 destroy
@@ -263,6 +263,10 @@ is
 graph
 .
 width
+Math
+.
+round
+(
 bounds
 .
 width
@@ -270,6 +274,7 @@ width
 window
 .
 devicePixelRatio
+)
 "
 The
 graph
@@ -286,6 +291,10 @@ is
 graph
 .
 height
+Math
+.
+round
+(
 bounds
 .
 height
@@ -293,6 +302,7 @@ height
 window
 .
 devicePixelRatio
+)
 "
 The
 graph
