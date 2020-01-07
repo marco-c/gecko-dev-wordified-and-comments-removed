@@ -145,10 +145,8 @@ mMap
 )
 {
 return
-RawDataToWrExternalImage
+InvalidToWrExternalImage
 (
-nullptr
-0
 )
 ;
 }

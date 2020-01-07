@@ -466,13 +466,8 @@ MakeCurrent
 )
 {
 return
-NativeTextureToWrExternalImage
+InvalidToWrExternalImage
 (
-0
-0
-0
-0
-0
 )
 ;
 }
