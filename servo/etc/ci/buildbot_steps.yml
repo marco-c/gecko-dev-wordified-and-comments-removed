@@ -15,6 +15,11 @@ sccache
 RUSTC_WRAPPER
 :
 sccache
+SCCACHE_IDLE_TIMEOUT
+:
+"
+600
+"
 mac
 -
 rel
