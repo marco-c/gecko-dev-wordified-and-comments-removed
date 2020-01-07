@@ -633,6 +633,8 @@ true
 #
 ifdef
 MOZ_CALLGRIND
+ok
+=
 js_DumpCallgrind
 (
 outfile
