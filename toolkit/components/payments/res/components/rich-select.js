@@ -465,6 +465,13 @@ return
 ;
 }
 let
+isOpen
+=
+this
+.
+open
+;
+let
 option
 =
 event
@@ -483,9 +490,7 @@ option
 ;
 if
 (
-this
-.
-open
+isOpen
 &
 &
 option
@@ -533,9 +538,7 @@ this
 open
 =
 !
-this
-.
-open
+isOpen
 ;
 }
 onKeyDown
