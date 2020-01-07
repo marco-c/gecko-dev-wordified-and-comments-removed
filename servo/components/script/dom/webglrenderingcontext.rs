@@ -7074,6 +7074,10 @@ i32
 format
 data_type
 pixels
+.
+into
+(
+)
 )
 ;
 self
@@ -7307,6 +7311,10 @@ as_gl_constant
 (
 )
 pixels
+.
+into
+(
+)
 )
 ;
 self
@@ -7733,6 +7741,10 @@ recv
 )
 .
 unwrap
+(
+)
+.
+into
 (
 )
 )
@@ -11096,6 +11108,10 @@ offset
 as
 isize
 data_vec
+.
+into
+(
+)
 )
 )
 ;

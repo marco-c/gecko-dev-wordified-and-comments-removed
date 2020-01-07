@@ -2660,6 +2660,10 @@ Canvas2dMsg
 DrawImage
 (
 image_data
+.
+into
+(
+)
 image_size
 dest_rect
 source_rect
@@ -7330,14 +7334,6 @@ ipc
 :
 :
 channel
-:
-:
-<
-Vec
-<
-u8
->
->
 (
 self
 .
@@ -7488,6 +7484,11 @@ let
 mut
 data
 =
+Vec
+:
+:
+from
+(
 receiver
 .
 recv
@@ -7496,6 +7497,7 @@ recv
 .
 unwrap
 (
+)
 )
 ;
 for
@@ -7805,6 +7807,10 @@ Canvas2dMsg
 PutImageData
 (
 data
+.
+into
+(
+)
 offset
 image_data_size
 dirty_rect

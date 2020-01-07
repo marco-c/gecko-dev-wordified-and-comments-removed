@@ -182,6 +182,13 @@ osmesa
 "
 ]
 }
+serde_bytes
+=
+"
+0
+.
+10
+"
 servo_config
 =
 {

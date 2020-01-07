@@ -46,6 +46,12 @@ NativeGLContextMethods
 }
 ;
 use
+serde_bytes
+:
+:
+ByteBuf
+;
+use
 std
 :
 :
@@ -6614,10 +6620,7 @@ chan
 :
 WebGLSender
 <
-Vec
-<
-u8
->
+ByteBuf
 >
 )
 {
@@ -6641,6 +6644,10 @@ chan
 send
 (
 result
+.
+into
+(
+)
 )
 .
 unwrap
