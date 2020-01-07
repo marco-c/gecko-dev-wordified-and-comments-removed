@@ -387,7 +387,7 @@ aNotify
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLFieldSetElement
 :
 :
@@ -397,6 +397,7 @@ nsAString
 &
 aType
 )
+const
 {
 aType
 .
@@ -406,9 +407,6 @@ AssignLiteral
 fieldset
 "
 )
-;
-return
-NS_OK
 ;
 }
 bool

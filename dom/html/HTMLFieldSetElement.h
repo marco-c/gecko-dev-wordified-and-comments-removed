@@ -354,13 +354,14 @@ aRv
 )
 ;
 }
-NS_IMETHOD
+void
 GetType
 (
 nsAString
 &
 aType
 )
+const
 ;
 nsIHTMLCollection
 *
