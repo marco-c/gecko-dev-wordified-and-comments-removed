@@ -1924,6 +1924,9 @@ options
 &
 ReftestOptions
 )
+-
+>
+usize
 {
 let
 manifest
@@ -2068,16 +2071,11 @@ reftest
 ;
 }
 }
-assert
-!
-(
 failing
 .
-is_empty
+len
 (
 )
-)
-;
 }
 fn
 run_reftest

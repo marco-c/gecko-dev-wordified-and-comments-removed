@@ -4,7 +4,7 @@ api
 :
 {
 ApiMsg
-DocumentMsg
+FrameMsg
 }
 ;
 use
@@ -475,13 +475,16 @@ msgs
 for
 msg
 in
+&
 msgs
+.
+frame_ops
 {
 match
 *
 msg
 {
-DocumentMsg
+FrameMsg
 :
 :
 GetScrollNodeState
@@ -490,7 +493,7 @@ GetScrollNodeState
 .
 )
 |
-DocumentMsg
+FrameMsg
 :
 :
 HitTest

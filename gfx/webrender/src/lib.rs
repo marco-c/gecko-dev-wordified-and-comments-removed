@@ -129,10 +129,10 @@ mod
 device
 ;
 mod
-ellipse
+display_list_flattener
 ;
 mod
-frame
+ellipse
 ;
 mod
 frame_builder
@@ -215,6 +215,9 @@ resource_cache
 ;
 mod
 scene
+;
+mod
+scene_builder
 ;
 mod
 segment
