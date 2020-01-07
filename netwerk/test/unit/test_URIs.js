@@ -3823,9 +3823,6 @@ scheme
 "
 host
 "
-"
-port
-"
 ]
 ;
 propertiesToCheck

@@ -4619,9 +4619,6 @@ scheme
 "
 host
 "
-"
-port
-"
 ]
 ;
 propertiesToCheck
