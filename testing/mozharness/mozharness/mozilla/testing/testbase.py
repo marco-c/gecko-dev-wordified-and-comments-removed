@@ -5,15 +5,9 @@ os
 import
 platform
 import
-pprint
-import
-re
-import
 urllib2
 import
 json
-import
-socket
 from
 urlparse
 import
@@ -312,6 +306,9 @@ installer
 to
 install
 .
+"
+      
+"
 This
 is
 set
@@ -1527,7 +1524,6 @@ self
 .
 exception
 (
-                    
 "
 You
 must
@@ -1546,6 +1542,9 @@ packages
 -
 url
 with
+"
+                               
+"
 developer_config
 .
 py
@@ -1987,6 +1986,7 @@ URL
 "
         
 if
+(
 self
 .
 config
@@ -1998,15 +1998,18 @@ require_test_zip
 "
 )
 and
+            
 not
 self
 .
 test_url
 and
+            
 not
 self
 .
 test_packages_url
+)
 :
             
 message
@@ -4553,11 +4556,10 @@ abs_nodejs_path
 else
 :
             
-self
-.
-warning
-(
-                
+msg
+=
+"
+"
 "
 nodejs
 path
@@ -4578,8 +4580,18 @@ in
 s
 '
 "
+"
+"
 %
+\
+                
 abs_nodejs_path
+            
+self
+.
+warning
+(
+msg
 )
             
 self
