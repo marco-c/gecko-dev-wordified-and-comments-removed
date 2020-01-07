@@ -8616,9 +8616,7 @@ center
 ]
 cursor
 :
-"
-move
-"
+hoverCursor
 }
 {
 pointName
