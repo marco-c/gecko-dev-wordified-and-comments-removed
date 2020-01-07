@@ -35122,6 +35122,9 @@ if
 (
 !
 mTreeOwner
+|
+|
+mIsBeingDestroyed
 )
 {
 return
