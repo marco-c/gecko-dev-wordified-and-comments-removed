@@ -1998,8 +1998,6 @@ treeherder
 platform
 :
 linux32
--
-rusttests
 /
 opt
 symbol
@@ -2041,6 +2039,9 @@ time
 5400
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+rusttests
 TOOLTOOL_MANIFEST
 :
 "
@@ -2198,8 +2199,6 @@ treeherder
 platform
 :
 linux32
--
-rusttests
 /
 debug
 symbol
@@ -2241,6 +2240,9 @@ time
 5400
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+rusttests
 TOOLTOOL_MANIFEST
 :
 "
@@ -3950,8 +3952,6 @@ treeherder
 platform
 :
 linux64
--
-rusttests
 /
 opt
 symbol
@@ -3993,6 +3993,9 @@ time
 5400
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+rusttests
 TOOLTOOL_MANIFEST
 :
 "
@@ -4150,8 +4153,6 @@ treeherder
 platform
 :
 linux64
--
-rusttests
 /
 debug
 symbol
@@ -4193,6 +4194,9 @@ time
 5400
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+rusttests
 TOOLTOOL_MANIFEST
 :
 "

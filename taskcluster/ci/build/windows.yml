@@ -2533,8 +2533,6 @@ platform
 windows2012
 -
 32
--
-rusttests
 /
 opt
 symbol
@@ -2576,6 +2574,9 @@ time
 7200
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+rusttests
 TOOLTOOL_MANIFEST
 :
 "
@@ -2713,8 +2714,6 @@ platform
 windows2012
 -
 64
--
-rusttests
 /
 opt
 symbol
@@ -2756,6 +2755,9 @@ time
 7200
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+rusttests
 TOOLTOOL_MANIFEST
 :
 "
