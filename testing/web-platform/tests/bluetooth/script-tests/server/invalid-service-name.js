@@ -139,7 +139,7 @@ bluetooth_test
 )
 =
 >
-getHealthThermometerDevice
+getConnectedHealthThermometerDevice
 (
 )
 .

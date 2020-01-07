@@ -69,7 +69,7 @@ bluetooth_test
 )
 =
 >
-getHealthThermometerDevice
+getConnectedHealthThermometerDevice
 (
 {
 filters
