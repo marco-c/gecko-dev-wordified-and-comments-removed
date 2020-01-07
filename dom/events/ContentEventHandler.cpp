@@ -1093,7 +1093,7 @@ NS_WARN_IF
 startNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 !
@@ -1116,7 +1116,7 @@ NS_ASSERTION
 startNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 =
@@ -1124,7 +1124,7 @@ GetUncomposedDoc
 endNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 "
