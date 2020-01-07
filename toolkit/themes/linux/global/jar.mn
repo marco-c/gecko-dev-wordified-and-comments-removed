@@ -130,6 +130,7 @@ global
 dropmarker
 .
 css
+*
 skin
 /
 classic

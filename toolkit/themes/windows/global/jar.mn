@@ -195,6 +195,7 @@ global
 commonDialog
 .
 css
+*
 skin
 /
 classic
