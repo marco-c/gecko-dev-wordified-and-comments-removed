@@ -554,6 +554,15 @@ mAsyncExecutionThreadShuttingDown
 bool
 mConnectionClosed
 ;
+mozilla
+:
+:
+Atomic
+<
+int32_t
+>
+mDefaultTransactionType
+;
 bool
 mTransactionInProgress
 ;
