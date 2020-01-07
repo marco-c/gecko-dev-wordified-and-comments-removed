@@ -470,12 +470,6 @@ set
 "
 WORKSPACE
 "
-.
-setup
--
-ccache
-.
-sh
 #
 Mozbuild
 config
