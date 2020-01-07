@@ -11328,6 +11328,17 @@ takeUnchecked
 FloatReg0
 )
 ;
+save
+.
+takeUnchecked
+(
+FloatReg0
+.
+asSingle
+(
+)
+)
+;
 masm
 .
 PushRegsInMask
