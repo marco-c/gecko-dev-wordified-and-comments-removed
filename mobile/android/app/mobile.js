@@ -5300,9 +5300,6 @@ true
 ;
 #
 endif
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -5315,8 +5312,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
