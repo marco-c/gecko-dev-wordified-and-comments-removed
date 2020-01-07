@@ -4,6 +4,13 @@ nsMediaFeatures_h_
 #
 define
 nsMediaFeatures_h_
+#
+include
+<
+stdint
+.
+h
+>
 class
 nsAtom
 ;
