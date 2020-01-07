@@ -442,6 +442,9 @@ int64_t
 aFolderId
 nsNavHistoryQueryOptions
 *
+aOriginalOptions
+nsNavHistoryQueryOptions
+*
 aOptions
 nsCOMArray
 <
@@ -457,6 +460,9 @@ ProcessFolderNodeRow
 mozIStorageValueArray
 *
 aRow
+nsNavHistoryQueryOptions
+*
+aOriginalOptions
 nsNavHistoryQueryOptions
 *
 aOptions

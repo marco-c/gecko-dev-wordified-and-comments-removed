@@ -10225,6 +10225,9 @@ int64_t
 aFolderId
 nsNavHistoryQueryOptions
 *
+aOriginalOptions
+nsNavHistoryQueryOptions
+*
 aOptions
 nsCOMArray
 <
@@ -10234,6 +10237,11 @@ nsNavHistoryResultNode
 aChildren
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aOriginalOptions
+)
+;
 NS_ENSURE_ARG_POINTER
 (
 aOptions
@@ -10443,6 +10451,7 @@ rv
 ProcessFolderNodeRow
 (
 row
+aOriginalOptions
 aOptions
 aChildren
 index
@@ -10470,6 +10479,9 @@ mozIStorageValueArray
 aRow
 nsNavHistoryQueryOptions
 *
+aOriginalOptions
+nsNavHistoryQueryOptions
+*
 aOptions
 nsCOMArray
 <
@@ -10485,6 +10497,11 @@ aCurrentIndex
 NS_ENSURE_ARG_POINTER
 (
 aRow
+)
+;
+NS_ENSURE_ARG_POINTER
+(
+aOriginalOptions
 )
 ;
 NS_ENSURE_ARG_POINTER
@@ -10755,7 +10772,7 @@ new
 nsNavHistoryFolderResultNode
 (
 title
-aOptions
+aOriginalOptions
 id
 )
 ;
