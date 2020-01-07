@@ -965,11 +965,6 @@ GfxInfoCollector
 cpp
 '
 '
-GfxInfoWebGL
-.
-cpp
-'
-'
 InProcessCompositorWidget
 .
 cpp

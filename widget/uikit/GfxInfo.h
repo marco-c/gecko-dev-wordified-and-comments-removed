@@ -267,12 +267,6 @@ GfxInfoBase
 :
 GetFeatureSuggestedDriverVersion
 ;
-using
-GfxInfoBase
-:
-:
-GetWebGLParameter
-;
 #
 ifdef
 DEBUG

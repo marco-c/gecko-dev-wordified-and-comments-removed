@@ -45,13 +45,6 @@ h
 #
 include
 "
-GfxInfoWebGL
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h
