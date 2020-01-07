@@ -149,6 +149,10 @@ mozharness
 -
 testing
 /
+raptor
+-
+testing
+/
 remotecppunittests
 .
 py

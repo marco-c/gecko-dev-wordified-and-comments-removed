@@ -427,6 +427,13 @@ pth
 :
 testing
 /
+raptor
+mozilla
+.
+pth
+:
+testing
+/
 talos
 packages
 .
