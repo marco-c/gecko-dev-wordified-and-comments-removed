@@ -173,6 +173,11 @@ optional
 "
 :
 true
+"
+default
+"
+:
+true
 }
 "
 default_panel

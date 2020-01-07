@@ -674,6 +674,11 @@ optional
 "
 :
 true
+"
+default
+"
+:
+true
 }
 "
 chrome_style

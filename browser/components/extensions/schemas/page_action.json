@@ -188,6 +188,11 @@ optional
 "
 :
 true
+"
+default
+"
+:
+false
 }
 "
 show_matches

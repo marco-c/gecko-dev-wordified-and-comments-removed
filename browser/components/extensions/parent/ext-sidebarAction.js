@@ -202,15 +202,6 @@ browserStyle
 options
 .
 browser_style
-|
-|
-options
-.
-browser_style
-=
-=
-=
-null
 ;
 this
 .

@@ -52,11 +52,11 @@ test
 notifyFail
 (
 "
-options
+sidebar
 -
-ui
+browser
 -
-browser_style
+style
 "
 )
 ;

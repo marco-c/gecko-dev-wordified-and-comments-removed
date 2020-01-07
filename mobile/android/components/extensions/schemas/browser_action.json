@@ -208,6 +208,11 @@ optional
 "
 :
 true
+"
+default
+"
+:
+false
 }
 "
 default_area
