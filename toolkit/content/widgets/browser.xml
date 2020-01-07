@@ -159,7 +159,6 @@ implements
 "
 nsIObserver
 nsIDOMEventListener
-nsIMessageListener
 nsIBrowser
 "
 >
