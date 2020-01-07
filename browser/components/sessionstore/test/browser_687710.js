@@ -105,6 +105,9 @@ triggeringPrincipal_base64
 ]
 }
 ;
+add_task
+(
+async
 function
 test
 (
@@ -126,16 +129,10 @@ stateBackup
 }
 )
 ;
-ss
-.
+await
 setBrowserState
 (
-JSON
-.
-stringify
-(
 state
-)
 )
 ;
 ok
@@ -151,3 +148,5 @@ hang
 )
 ;
 }
+)
+;

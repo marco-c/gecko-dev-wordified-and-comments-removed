@@ -771,16 +771,10 @@ tabs
 ;
 }
 }
-ss
-.
+await
 setBrowserState
 (
-JSON
-.
-stringify
-(
 state
-)
 )
 ;
 await

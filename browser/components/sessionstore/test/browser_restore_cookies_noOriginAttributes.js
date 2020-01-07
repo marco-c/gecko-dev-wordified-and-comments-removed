@@ -599,8 +599,7 @@ promiseNewWindowLoaded
 (
 )
 ;
-ss
-.
+await
 setWindowState
 (
 win
@@ -726,8 +725,7 @@ removeAll
 (
 )
 ;
-ss
-.
+await
 setWindowState
 (
 win

@@ -470,8 +470,7 @@ scenario
 selectedTab
 )
 ;
-SessionStore
-.
+await
 setWindowState
 (
 win

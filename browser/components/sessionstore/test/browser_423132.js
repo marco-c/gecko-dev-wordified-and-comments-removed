@@ -180,8 +180,7 @@ removeAll
 (
 )
 ;
-ss
-.
+await
 setBrowserState
 (
 state
