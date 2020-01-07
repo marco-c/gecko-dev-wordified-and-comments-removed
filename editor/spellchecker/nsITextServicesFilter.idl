@@ -105,6 +105,7 @@ Node
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 5BEC321F
