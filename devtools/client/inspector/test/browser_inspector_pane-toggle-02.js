@@ -20,7 +20,7 @@ pane
 inspector
 to
 test
-that
+the
 3
 pane
 toggle
@@ -439,6 +439,8 @@ collapsed
 state
 "
 )
+;
+debugger
 ;
 is
 (
