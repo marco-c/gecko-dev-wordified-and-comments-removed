@@ -1078,6 +1078,16 @@ build
     
 }
     
+templates
+=
+[
+'
+chemspill
+-
+prio
+'
+]
+    
 def
 __init__
 (
