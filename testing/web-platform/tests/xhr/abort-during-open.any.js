@@ -3,7 +3,17 @@ test
 =
 async_test
 (
+"
+XMLHttpRequest
+:
+abort
+(
 )
+during
+OPEN
+"
+)
+;
 test
 .
 step

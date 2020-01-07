@@ -57,4 +57,16 @@ abort
 (
 )
 }
+"
+XMLHttpRequest
+:
+send
+(
 )
+-
+send
+(
+)
+"
+)
+;
