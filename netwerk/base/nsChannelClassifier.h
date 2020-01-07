@@ -273,6 +273,7 @@ RemoveShutdownObserver
 (
 )
 ;
+static
 nsresult
 SendThreatHitReport
 (
@@ -283,6 +284,14 @@ const
 nsACString
 &
 aProvider
+const
+nsACString
+&
+aList
+const
+nsACString
+&
+aFullHash
 )
 ;
 public
