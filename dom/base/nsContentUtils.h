@@ -3984,13 +3984,6 @@ GetCurrentJSContext
 )
 ;
 static
-JSContext
-*
-GetCurrentJSContextForThread
-(
-)
-;
-static
 bool
 EqualsIgnoreASCIICase
 (
