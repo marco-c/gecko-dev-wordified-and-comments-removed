@@ -189,26 +189,6 @@ hg
 }
     
 "
-default_blob_upload_servers
-"
-:
-[
-         
-"
-https
-:
-/
-/
-blobupload
-.
-elasticbeanstalk
-.
-com
-"
-    
-]
-    
-"
 run_cmd_checks_enabled
 "
 :

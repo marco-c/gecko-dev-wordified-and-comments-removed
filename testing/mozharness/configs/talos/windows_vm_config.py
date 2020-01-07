@@ -181,26 +181,6 @@ tests
 ]
     
 "
-default_blob_upload_servers
-"
-:
-[
-        
-"
-https
-:
-/
-/
-blobupload
-.
-elasticbeanstalk
-.
-com
-"
-    
-]
-    
-"
 metro_harness_path_frmt
 "
 :

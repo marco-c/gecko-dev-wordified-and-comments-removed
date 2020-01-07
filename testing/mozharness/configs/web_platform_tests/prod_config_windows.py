@@ -178,26 +178,6 @@ hg
 }
     
 "
-default_blob_upload_servers
-"
-:
-[
-         
-"
-https
-:
-/
-/
-blobupload
-.
-elasticbeanstalk
-.
-com
-"
-    
-]
-    
-"
 download_minidump_stackwalk
 "
 :
