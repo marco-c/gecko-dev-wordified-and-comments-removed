@@ -876,6 +876,8 @@ network
 standard
 -
 url
+-
+mutator
 ;
 1
 '
@@ -887,13 +889,11 @@ SpecialPowers
 .
 Ci
 .
-nsIURI
+nsIURIMutator
 )
-;
-testURI
 .
-spec
-=
+setSpec
+(
 "
 http
 :
@@ -906,6 +906,11 @@ foobar
 org
 /
 "
+)
+.
+finalize
+(
+)
 ;
 is
 (
