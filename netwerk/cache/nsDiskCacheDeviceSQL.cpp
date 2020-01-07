@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 mozIStorageService
 .
 h
