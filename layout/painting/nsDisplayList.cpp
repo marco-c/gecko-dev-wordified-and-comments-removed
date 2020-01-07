@@ -9478,6 +9478,10 @@ cursor
 next
 ;
 }
+aIsAsync
+=
+true
+;
 return
 cursor
 ;
