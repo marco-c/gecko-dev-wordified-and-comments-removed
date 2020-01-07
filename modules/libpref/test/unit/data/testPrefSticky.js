@@ -10,7 +10,7 @@ bool
 true
 )
 ;
-sticky_pref
+pref
 (
 "
 testPref
@@ -20,5 +20,6 @@ sticky
 bool
 "
 false
+sticky
 )
 ;
