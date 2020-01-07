@@ -14,7 +14,7 @@ platforms
 ;
 android
 -
-23
+26
 extras
 ;
 android
