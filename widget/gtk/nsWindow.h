@@ -1740,6 +1740,17 @@ aState
 )
 override
 ;
+virtual
+void
+UpdateWindowDraggingRegion
+(
+const
+LayoutDeviceIntRegion
+&
+aRegion
+)
+override
+;
 gint
 GdkScaleFactor
 (
@@ -2182,6 +2193,9 @@ mIsCSDAvailable
 ;
 bool
 mIsCSDEnabled
+;
+LayoutDeviceIntRegion
+mDraggableRegion
 ;
 #
 ifdef
