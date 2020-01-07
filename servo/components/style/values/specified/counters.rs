@@ -571,6 +571,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToCss
 )
 ]
 pub
@@ -591,6 +592,13 @@ gecko
 )
 ]
 MozAltContent
+#
+[
+css
+(
+iterable
+)
+]
 Items
 (
 Box
