@@ -34,7 +34,11 @@ devtools
 /
 client
 /
-animationinspector
+inspector
+/
+animation
+-
+old
 /
 utils
 "
@@ -54,7 +58,11 @@ devtools
 /
 client
 /
-animationinspector
+inspector
+/
+animation
+-
+old
 /
 graph
 -

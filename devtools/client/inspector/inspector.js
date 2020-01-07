@@ -4450,7 +4450,11 @@ devtools
 /
 content
 /
-animationinspector
+inspector
+/
+animation
+-
+old
 /
 animation
 -
