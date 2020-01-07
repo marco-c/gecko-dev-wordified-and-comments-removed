@@ -579,15 +579,11 @@ cmd
 )
 )
         
-if
-interactive
-:
-            
-filtered_env
+encoded_env
 =
 {
 }
-            
+        
 for
 k
 in
@@ -595,7 +591,7 @@ self
 .
 env
 :
-                
+            
 v
 =
 self
@@ -604,7 +600,7 @@ env
 [
 k
 ]
-                
+            
 if
 isinstance
 (
@@ -612,7 +608,7 @@ v
 unicode_type
 )
 :
-                    
+                
 v
 =
 v
@@ -625,7 +621,7 @@ utf
 8
 '
 )
-                
+            
 if
 isinstance
 (
@@ -633,7 +629,7 @@ k
 unicode_type
 )
 :
-                    
+                
 k
 =
 k
@@ -646,13 +642,17 @@ utf
 8
 '
 )
-                
-filtered_env
+            
+encoded_env
 [
 k
 ]
 =
 v
+        
+if
+interactive
+:
             
 self
 .
@@ -665,7 +665,7 @@ Popen
 cmd
 env
 =
-filtered_env
+encoded_env
 )
         
 else
@@ -682,9 +682,7 @@ process_class
 cmd
 env
 =
-self
-.
-env
+encoded_env
 *
 *
 self
