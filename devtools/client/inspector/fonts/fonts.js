@@ -2352,7 +2352,7 @@ rule
 >
 rule
 .
-style
+domRule
 .
 type
 =

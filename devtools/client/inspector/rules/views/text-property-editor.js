@@ -1915,7 +1915,7 @@ this
 .
 rule
 .
-style
+domRule
 name
 this
 .
@@ -1960,7 +1960,7 @@ this
 .
 rule
 .
-style
+domRule
 name
 )
 ;
