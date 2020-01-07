@@ -558,22 +558,6 @@ get_signing_cert_scope
 config
 )
         
-signing_cert_scope
-=
-'
-project
-:
-releng
-:
-signing
-:
-cert
-:
-dep
--
-signing
-'
-        
 task
 =
 {
