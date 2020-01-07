@@ -242,6 +242,11 @@ aState
 )
 ;
 void
+MaybeDispatchStateChangeEvent
+(
+)
+;
+void
 GetScriptURL
 (
 nsString
@@ -337,6 +342,9 @@ RefPtr
 ServiceWorkerRegistration
 >
 mRegistration
+;
+ServiceWorkerState
+mLastNotifiedState
 ;
 }
 ;
