@@ -36,6 +36,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleBackendType
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -80,6 +89,7 @@ MediaList
 >
 Create
 (
+StyleBackendType
 const
 nsAString
 &
