@@ -2640,11 +2640,6 @@ PREPROCESSED_WEBIDL_FILES
 =
 [
 '
-ChromeUtils
-.
-webidl
-'
-'
 Navigator
 .
 webidl
@@ -2940,6 +2935,11 @@ webidl
 '
 '
 ChromeNodeList
+.
+webidl
+'
+'
+ChromeUtils
 .
 webidl
 '
