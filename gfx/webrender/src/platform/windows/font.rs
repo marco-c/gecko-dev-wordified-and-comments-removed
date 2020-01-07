@@ -46,7 +46,10 @@ use
 internal_types
 :
 :
+{
 FastHashMap
+ResourceCacheError
+}
 ;
 use
 std
@@ -460,7 +463,11 @@ new
 )
 -
 >
+Result
+<
 FontContext
+ResourceCacheError
+>
 {
 let
 contrast
@@ -483,6 +490,8 @@ gdi_gamma
 .
 3
 ;
+Ok
+(
 FontContext
 {
 fonts
@@ -524,6 +533,7 @@ gdi_gamma
 gdi_gamma
 )
 }
+)
 }
 pub
 fn

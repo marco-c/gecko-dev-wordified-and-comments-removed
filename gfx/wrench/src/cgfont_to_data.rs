@@ -339,7 +339,7 @@ u32
 )
 ;
 for
-tag
+tag_ref
 in
 tags
 .
@@ -347,6 +347,12 @@ iter
 (
 )
 {
+let
+tag
+=
+*
+tag_ref
+;
 if
 tag
 =

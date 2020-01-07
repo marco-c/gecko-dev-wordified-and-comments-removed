@@ -62,10 +62,7 @@ core_foundation
 dictionary
 :
 :
-{
 CFDictionary
-CFDictionaryRef
-}
 ;
 use
 core_foundation
@@ -219,7 +216,10 @@ use
 internal_types
 :
 :
+{
 FastHashMap
+ResourceCacheError
+}
 ;
 use
 std
@@ -1018,6 +1018,9 @@ let
 axes
 :
 CFArray
+<
+CFDictionary
+>
 =
 TCFType
 :
@@ -1054,7 +1057,7 @@ usize
 )
 ;
 for
-axis_ptr
+axis
 in
 axes
 .
@@ -1062,21 +1065,6 @@ iter
 (
 )
 {
-let
-axis
-:
-CFDictionary
-=
-TCFType
-:
-:
-wrap_under_get_rule
-(
-axis_ptr
-as
-CFDictionaryRef
-)
-;
 if
 !
 axis
@@ -1085,7 +1073,6 @@ instance_of
 :
 :
 <
-CFDictionaryRef
 CFDictionary
 >
 (
@@ -1140,7 +1127,6 @@ instance_of
 :
 :
 <
-CFNumberRef
 CFNumber
 >
 (
@@ -1270,7 +1256,6 @@ instance_of
 :
 :
 <
-CFStringRef
 CFString
 >
 (
@@ -1325,7 +1310,6 @@ instance_of
 :
 :
 <
-CFNumberRef
 CFNumber
 >
 (
@@ -1408,7 +1392,6 @@ instance_of
 :
 :
 <
-CFNumberRef
 CFNumber
 >
 (
@@ -1491,7 +1474,6 @@ instance_of
 :
 :
 <
-CFNumberRef
 CFNumber
 >
 (
@@ -1668,7 +1650,11 @@ new
 )
 -
 >
+Result
+<
 FontContext
+ResourceCacheError
+>
 {
 debug
 !
@@ -1702,6 +1688,8 @@ gamma
 .
 0
 ;
+Ok
+(
 FontContext
 {
 cg_fonts
@@ -1732,6 +1720,7 @@ gamma
 gamma
 )
 }
+)
 }
 pub
 fn

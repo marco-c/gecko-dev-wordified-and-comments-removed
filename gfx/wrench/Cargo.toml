@@ -11,9 +11,9 @@ version
 "
 0
 .
-2
+3
 .
-6
+0
 "
 authors
 =
@@ -104,7 +104,7 @@ glutin
 "
 0
 .
-13
+14
 "
 app_units
 =
@@ -270,6 +270,9 @@ features
 capture
 "
 "
+replay
+"
+"
 debugger
 "
 "
@@ -295,9 +298,10 @@ features
 =
 [
 "
-debug
--
-serialization
+serialize
+"
+"
+deserialize
 "
 ]
 }
@@ -342,9 +346,7 @@ graphics
 "
 0
 .
-12
-.
-4
+13
 "
 core
 -
@@ -353,7 +355,7 @@ foundation
 "
 0
 .
-4
+5
 "
 [
 features
@@ -435,5 +437,5 @@ loader
 "
 0
 .
-5
+6
 "

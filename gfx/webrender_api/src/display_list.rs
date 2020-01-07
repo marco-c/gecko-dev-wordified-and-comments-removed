@@ -169,9 +169,7 @@ cfg
 feature
 =
 "
-debug
--
-serialization
+deserialize
 "
 )
 ]
@@ -191,9 +189,7 @@ cfg
 feature
 =
 "
-debug
--
-serialization
+serialize
 "
 )
 ]
@@ -2469,9 +2465,7 @@ cfg
 feature
 =
 "
-debug
--
-serialization
+serialize
 "
 )
 ]
@@ -2965,9 +2959,7 @@ cfg
 feature
 =
 "
-debug
--
-serialization
+deserialize
 "
 )
 ]
