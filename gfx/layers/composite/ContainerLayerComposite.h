@@ -58,6 +58,9 @@ namespace
 layers
 {
 class
+APZSampler
+;
+class
 CompositableHost
 ;
 class
@@ -245,6 +248,13 @@ RenderMinimap
 ContainerT
 *
 aContainer
+const
+RefPtr
+<
+APZSampler
+>
+&
+aSampler
 LayerManagerComposite
 *
 aManager
