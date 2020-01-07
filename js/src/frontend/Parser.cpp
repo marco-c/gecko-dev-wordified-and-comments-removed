@@ -4026,12 +4026,6 @@ const
 ReadOnlyCompileOptions
 &
 options
-const
-char16_t
-*
-chars
-size_t
-length
 bool
 foldConstants
 UsedNameTracker
@@ -4208,12 +4202,6 @@ const
 ReadOnlyCompileOptions
 &
 options
-const
-char16_t
-*
-chars
-size_t
-length
 bool
 foldConstants
 UsedNameTracker
@@ -4229,8 +4217,6 @@ ParserBase
 cx
 alloc
 options
-chars
-length
 foldConstants
 usedNames
 )
@@ -4292,8 +4278,6 @@ Base
 cx
 alloc
 options
-chars
-length
 foldConstants
 usedNames
 lazyOuterFunction
