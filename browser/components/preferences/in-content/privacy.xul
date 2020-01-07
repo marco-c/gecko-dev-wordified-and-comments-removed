@@ -5585,7 +5585,7 @@ browser
 .
 chrome
 .
-errorCollection
+errorReporter
 .
 enabled
 "

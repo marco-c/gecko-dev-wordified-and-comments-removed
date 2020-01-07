@@ -892,7 +892,7 @@ browser
 .
 chrome
 .
-errorCollection
+errorReporter
 .
 enabled
 "
@@ -7853,7 +7853,7 @@ browser
 .
 chrome
 .
-errorCollection
+errorReporter
 .
 infoURL
 "
