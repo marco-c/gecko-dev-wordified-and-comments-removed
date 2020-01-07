@@ -85,8 +85,9 @@ public
 MoveOperand
 (
 )
-{
-}
+=
+delete
+;
 explicit
 MoveOperand
 (
@@ -105,6 +106,10 @@ reg
 code
 (
 )
+)
+disp_
+(
+0
 )
 {
 }
@@ -126,6 +131,10 @@ reg
 code
 (
 )
+)
+disp_
+(
+0
 )
 {
 }
@@ -897,8 +906,9 @@ public
 MoveOp
 (
 )
-{
-}
+=
+delete
+;
 MoveOp
 (
 const
@@ -1174,8 +1184,9 @@ PendingMove
 PendingMove
 (
 )
-{
-}
+=
+delete
+;
 PendingMove
 (
 const

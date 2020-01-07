@@ -158,6 +158,10 @@ machineState
 (
 )
 )
+activation_
+(
+nullptr
+)
 {
 uint8_t
 *
@@ -253,6 +257,10 @@ bailout
 machine
 (
 )
+)
+activation_
+(
+nullptr
 )
 {
 framePointer_

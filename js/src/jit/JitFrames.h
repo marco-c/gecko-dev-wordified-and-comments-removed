@@ -695,8 +695,9 @@ public
 FrameSizeClass
 (
 )
-{
-}
+=
+delete
+;
 static
 FrameSizeClass
 None

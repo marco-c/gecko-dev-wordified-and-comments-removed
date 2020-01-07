@@ -257,6 +257,10 @@ public
 TypedObjectPrediction
 (
 )
+:
+data_
+(
+)
 {
 kind_
 =

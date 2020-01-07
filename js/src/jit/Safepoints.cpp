@@ -2176,6 +2176,14 @@ sizeof
 intptr_t
 )
 )
+nunboxSlotsRemaining_
+(
+0
+)
+slotsOrElementsSlotsRemaining_
+(
+0
+)
 {
 osiCallPointOffset_
 =

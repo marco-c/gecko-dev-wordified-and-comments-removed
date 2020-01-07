@@ -160,6 +160,10 @@ isDebuggee
 (
 )
 )
+hasInitialEnv_
+(
+false
+)
 isConstructing_
 (
 iter
@@ -203,6 +207,14 @@ iter
 script
 (
 )
+)
+envChain_
+(
+nullptr
+)
+argsObj_
+(
+nullptr
 )
 {
 if

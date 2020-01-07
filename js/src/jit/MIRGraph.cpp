@@ -2680,6 +2680,14 @@ firstStackSlot
 (
 )
 )
+id_
+(
+0
+)
+domIndex_
+(
+0
+)
 numDominated_
 (
 0
