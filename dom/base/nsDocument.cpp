@@ -41223,7 +41223,7 @@ nullptr
 }
 nsIDocument
 *
-nsDocument
+nsIDocument
 :
 :
 GetTemplateContentsOwner

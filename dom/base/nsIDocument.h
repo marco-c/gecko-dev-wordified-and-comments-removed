@@ -6276,14 +6276,11 @@ mAllowXULXBL
 eTriTrue
 ;
 }
-virtual
 nsIDocument
 *
 GetTemplateContentsOwner
 (
 )
-=
-0
 ;
 bool
 IsStaticDocument
@@ -11031,6 +11028,12 @@ mozilla
 PendingAnimationTracker
 >
 mPendingAnimationTracker
+;
+nsCOMPtr
+<
+nsIDocument
+>
+mTemplateContentsOwner
 ;
 public
 :

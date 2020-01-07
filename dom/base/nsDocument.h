@@ -2044,14 +2044,6 @@ aData
 )
 override
 ;
-virtual
-nsIDocument
-*
-GetTemplateContentsOwner
-(
-)
-override
-;
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsDocument
@@ -2527,12 +2519,6 @@ mReportedUseCounters
 ;
 uint8_t
 mXMLDeclarationBits
-;
-nsCOMPtr
-<
-nsIDocument
->
-mTemplateContentsOwner
 ;
 nsCOMPtr
 <
