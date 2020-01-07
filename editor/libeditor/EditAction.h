@@ -48,8 +48,8 @@ eInsertElement
 eInsertQuotation
 ePasteHTMLContent
 eInsertHTMLSource
-setAbsolutePosition
-removeAbsolutePosition
+eSetPositionToAbsolute
+eSetPositionToStatic
 decreaseZIndex
 increaseZIndex
 }

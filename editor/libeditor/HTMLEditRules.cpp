@@ -3336,7 +3336,7 @@ case
 EditSubAction
 :
 :
-setAbsolutePosition
+eSetPositionToAbsolute
 :
 return
 WillAbsolutePosition
@@ -3349,7 +3349,7 @@ case
 EditSubAction
 :
 :
-removeAbsolutePosition
+eSetPositionToStatic
 :
 return
 WillRemoveAbsolutePosition
@@ -3693,7 +3693,7 @@ case
 EditSubAction
 :
 :
-setAbsolutePosition
+eSetPositionToAbsolute
 :
 {
 nsresult
@@ -36030,7 +36030,7 @@ aEditSubAction
 EditSubAction
 :
 :
-setAbsolutePosition
+eSetPositionToAbsolute
 )
 {
 for
@@ -36238,7 +36238,7 @@ aEditSubAction
 EditSubAction
 :
 :
-setAbsolutePosition
+eSetPositionToAbsolute
 |
 |
 aEditSubAction
@@ -52329,7 +52329,7 @@ arrayOfRanges
 EditSubAction
 :
 :
-setAbsolutePosition
+eSetPositionToAbsolute
 )
 ;
 nsTArray
@@ -52351,7 +52351,7 @@ arrayOfNodes
 EditSubAction
 :
 :
-setAbsolutePosition
+eSetPositionToAbsolute
 TouchContent
 :
 :
