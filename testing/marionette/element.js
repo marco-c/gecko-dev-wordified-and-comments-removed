@@ -2969,15 +2969,6 @@ ownerGlobal
 if
 (
 !
-element
-.
-isXULElement
-(
-el
-)
-&
-&
-!
 atom
 .
 isElementDisplayed
