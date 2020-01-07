@@ -104,6 +104,9 @@ maxdepth
 TraceLogs
 .
 md
+CrashReports
+.
+md
 For
 developers
 =
