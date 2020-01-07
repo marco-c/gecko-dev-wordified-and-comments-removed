@@ -384,6 +384,14 @@ bindings
 '
 '
 /
+js
+/
+xpconnect
+/
+loader
+'
+'
+/
 xpcom
 /
 build
