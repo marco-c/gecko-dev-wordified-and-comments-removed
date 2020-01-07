@@ -693,9 +693,6 @@ false
 ;
 #
 endif
-if
-(
-!
 jit
 :
 :
@@ -703,9 +700,6 @@ EnsureAsyncInterrupt
 (
 this
 )
-)
-return
-false
 ;
 if
 (
