@@ -6378,7 +6378,7 @@ aData
 >
 PropertyIsSet
 (
-eCSSProperty_float_
+eCSSProperty_float
 )
 )
 {
@@ -6395,7 +6395,7 @@ aData
 >
 SetKeywordValue
 (
-eCSSProperty_float_
+eCSSProperty_float
 StyleFloat
 :
 :
@@ -6417,7 +6417,7 @@ aData
 >
 SetKeywordValue
 (
-eCSSProperty_float_
+eCSSProperty_float
 StyleFloat
 :
 :
