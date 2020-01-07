@@ -364,10 +364,12 @@ response
 {
 value
 :
+RetVal
+(
 "
-correct
-response
+string
 "
+)
 }
 }
 release
@@ -696,6 +698,12 @@ event
 this
 ]
 )
+;
+return
+"
+correct
+response
+"
 ;
 }
 release

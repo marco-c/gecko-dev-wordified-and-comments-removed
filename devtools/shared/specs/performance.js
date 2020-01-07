@@ -366,13 +366,9 @@ number
 "
 )
 }
-response
-:
-{
 oneway
 :
 true
-}
 }
 }
 }
