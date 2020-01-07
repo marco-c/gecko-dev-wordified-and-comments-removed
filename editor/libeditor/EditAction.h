@@ -39,7 +39,7 @@ eInsertParagraphSeparator
 eCreateOrChangeList
 eIndent
 eOutdent
-align
+eSetOrClearAlignment
 makeBasicBlock
 removeList
 makeDefListItem

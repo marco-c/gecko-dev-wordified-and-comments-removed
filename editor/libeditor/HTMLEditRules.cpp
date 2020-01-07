@@ -464,7 +464,7 @@ aEditSubAction
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 |
 |
 aEditSubAction
@@ -3362,7 +3362,7 @@ case
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 :
 return
 WillAlign
@@ -3682,7 +3682,7 @@ case
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 :
 return
 DidMakeBasicBlock
@@ -4764,7 +4764,7 @@ arrayOfRanges
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 )
 ;
 nsTArray
@@ -4786,7 +4786,7 @@ arrayOfNodes
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 TouchContent
 :
 :
@@ -29549,7 +29549,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 nodeArray
 TouchContent
 :
@@ -34393,7 +34393,7 @@ aEditSubAction
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 |
 |
 aEditSubAction
@@ -36229,7 +36229,7 @@ aEditSubAction
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 |
 |
 aEditSubAction

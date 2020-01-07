@@ -9915,7 +9915,7 @@ this
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 nsIEditor
 :
 :
@@ -9948,7 +9948,7 @@ subActionInfo
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 )
 ;
 subActionInfo
