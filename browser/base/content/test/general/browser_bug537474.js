@@ -15,6 +15,12 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+false
+"
+about
+:
+mozilla
+"
 )
 ;
 window
