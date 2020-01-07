@@ -181,6 +181,11 @@ RetainedDisplayListBuilder
 .
 h
 '
+'
+RetainedDisplayListHelpers
+.
+h
+'
 ]
 EXPORTS
 .
