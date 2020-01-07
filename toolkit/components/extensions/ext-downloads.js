@@ -1607,14 +1607,12 @@ totalBytesGreater
 const
 totalBytesLess
 =
-(
 query
 .
 totalBytesLess
 !
 =
 null
-)
 ?
 query
 .
@@ -2151,6 +2149,7 @@ map
 field
 =
 >
+(
 field
 [
 0
@@ -2183,6 +2182,7 @@ name
 :
 field
 }
+)
 )
 ;
 for

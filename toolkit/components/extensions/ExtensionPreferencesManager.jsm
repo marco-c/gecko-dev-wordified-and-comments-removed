@@ -483,6 +483,7 @@ some
 pref
 =
 >
+(
 expectedPrefs
 [
 pref
@@ -501,6 +502,7 @@ expectedPrefs
 [
 pref
 ]
+)
 )
 )
 {

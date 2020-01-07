@@ -8705,7 +8705,7 @@ namespace
 "
 )
 ;
-do_check_eq
+equal
 (
 typeof
 root
