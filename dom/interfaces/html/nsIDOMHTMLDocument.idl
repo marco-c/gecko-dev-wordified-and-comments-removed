@@ -159,10 +159,6 @@ nsIDOMHTMLDocument
 :
 nsIDOMDocument
 {
-attribute
-DOMString
-cookie
-;
 readonly
 attribute
 nsISupports
