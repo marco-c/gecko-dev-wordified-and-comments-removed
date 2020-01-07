@@ -171,8 +171,8 @@ div
 ;
 div
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 <
 div
 data
@@ -395,6 +395,7 @@ div
 /
 div
 >
+)
 ;
 info
 (

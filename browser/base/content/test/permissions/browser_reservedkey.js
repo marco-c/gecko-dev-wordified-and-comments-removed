@@ -188,9 +188,10 @@ box
 ;
 container
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 keyset
+)
 ;
 document
 .

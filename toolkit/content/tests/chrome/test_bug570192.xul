@@ -354,8 +354,8 @@ content
 ;
 content
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 '
 <
 textbox
@@ -395,6 +395,7 @@ xul
 /
 >
 '
+)
 ;
 var
 textbox

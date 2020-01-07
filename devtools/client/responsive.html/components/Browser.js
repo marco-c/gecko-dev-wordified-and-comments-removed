@@ -161,6 +161,12 @@ content
 js
 "
 ;
+document
+.
+allowUnsafeHTML
+=
+true
+;
 class
 Browser
 extends
