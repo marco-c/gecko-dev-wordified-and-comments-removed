@@ -183,6 +183,7 @@ com
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -194,15 +195,14 @@ config
 promiseSignUpURI
 (
 )
-null
-"
+/
 Firefox
 Accounts
 server
 must
 use
 HTTPS
-"
+/
 )
 ;
 Services

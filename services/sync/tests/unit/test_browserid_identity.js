@@ -747,6 +747,7 @@ browseridManager
 _ensureValidToken
 (
 )
+AuthenticationError
 "
 should
 reject
@@ -1767,6 +1768,20 @@ _ensureValidToken
 (
 true
 )
+/
+Can
+'
+t
+possibly
+get
+keys
+;
+User
+is
+not
+signed
+in
+/
 "
 expecting
 rejection
@@ -2109,6 +2124,7 @@ browseridManager
 _ensureValidToken
 (
 )
+AuthenticationError
 "
 should
 reject
@@ -2188,6 +2204,7 @@ browseridManager
 _ensureValidToken
 (
 )
+TokenServerClientServerError
 "
 should
 reject
@@ -2643,6 +2660,7 @@ browseridManager
 _ensureValidToken
 (
 )
+TokenServerClientServerError
 "
 should
 reject
@@ -2760,6 +2778,7 @@ browseridManager
 _ensureValidToken
 (
 )
+TokenServerClientServerError
 "
 should
 reject
@@ -2991,6 +3010,7 @@ browseridManager
 _ensureValidToken
 (
 )
+TokenServerClientServerError
 "
 should
 reject
@@ -3234,6 +3254,7 @@ browseridManager
 _ensureValidToken
 (
 )
+TokenServerClientServerError
 "
 should
 reject
@@ -4698,6 +4719,11 @@ _ensureValidToken
 (
 true
 )
+(
+)
+=
+>
+true
 "
 expecting
 rejection

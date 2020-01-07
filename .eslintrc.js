@@ -264,12 +264,6 @@ head_devtools_inspector_sidebar
 js
 "
 "
-services
-/
-*
-*
-"
-"
 storage
 /
 test
