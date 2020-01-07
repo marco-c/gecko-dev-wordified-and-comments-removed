@@ -1743,16 +1743,3 @@ run_next_test
 )
 ;
 }
-registerCleanupFunction
-(
-function
-(
-)
-{
-stopThrowingOnUpdateErrors
-(
-)
-;
-}
-)
-;
