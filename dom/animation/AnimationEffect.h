@@ -224,6 +224,15 @@ Forever
 )
 ;
 }
+void
+GetTiming
+(
+EffectTiming
+&
+aRetVal
+)
+const
+;
 already_AddRefed
 <
 AnimationEffectTimingReadOnly

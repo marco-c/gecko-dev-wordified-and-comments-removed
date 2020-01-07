@@ -311,6 +311,11 @@ attribute
 AnimationEffectTimingReadOnly
 timing
 ;
+EffectTiming
+getTiming
+(
+)
+;
 [
 BinaryName
 =
