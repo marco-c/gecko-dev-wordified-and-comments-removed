@@ -74,6 +74,9 @@ random
 if
 (
 Android
+|
+|
+winWidget
 )
 fuzzy
 -
@@ -101,6 +104,9 @@ size
 ref
 .
 xul
+#
+Bug
+1426797
 =
 =
 image
