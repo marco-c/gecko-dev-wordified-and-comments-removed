@@ -133,12 +133,6 @@ bash
 -
 m
 worker
--
-u
-1000
--
-g
-1000
 COPY
 requirements
 .
