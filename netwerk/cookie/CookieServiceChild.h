@@ -213,6 +213,8 @@ aIsForeign
 bool
 aIsTrackingResource
 bool
+aFirstPartyStorageAccessGranted
+bool
 aIsSafeTopLevelNav
 bool
 aIsSameSiteForeign
@@ -235,6 +237,8 @@ bool
 aIsForeign
 bool
 aIsTrackingResource
+bool
+aFirstPartyStorageAccessGranted
 bool
 aIsSafeTopLevelNav
 bool

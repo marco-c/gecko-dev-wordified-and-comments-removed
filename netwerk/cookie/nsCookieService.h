@@ -914,6 +914,8 @@ bool
 aIsForeign
 bool
 aIsTrackingResource
+bool
+aIsFirstPartyStorageAccessGranted
 const
 char
 *
@@ -947,6 +949,8 @@ bool
 aIsForeign
 bool
 aIsTrackingResource
+bool
+aFirstPartyStorageAccessGranted
 bool
 aIsSafeTopLevelNav
 bool
@@ -1138,6 +1142,8 @@ aIsForeign
 bool
 aIsTrackingResource
 bool
+aFirstPartyStorageAccessGranted
+bool
 aIsSafeTopLevelNav
 bool
 aIsTopLevelForeign
@@ -1183,6 +1189,8 @@ bool
 aIsForeign
 bool
 aIsTrackingResource
+bool
+aFirstPartyStorageAccessGranted
 nsDependentCString
 &
 aCookieHeader
