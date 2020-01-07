@@ -859,6 +859,13 @@ dummy
 dummy
 )
 \
+imaginary
+(
+WasmGlobal
+dummy
+dummy
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE
