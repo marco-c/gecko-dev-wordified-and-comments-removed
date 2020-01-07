@@ -975,6 +975,16 @@ next_version
 =
 None
     
+parameters
+[
+'
+desktop_release_type
+'
+]
+=
+'
+'
+    
 if
 '
 '

@@ -126,6 +126,13 @@ build_number
 1
     
 '
+desktop_release_type
+'
+:
+'
+'
+    
+'
 do_not_optimize
 '
 :
