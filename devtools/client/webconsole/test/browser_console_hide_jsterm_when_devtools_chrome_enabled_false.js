@@ -65,7 +65,6 @@ hud
 function
 openVariablesView
 (
-event
 vview
 )
 {

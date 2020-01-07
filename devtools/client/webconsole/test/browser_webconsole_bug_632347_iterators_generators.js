@@ -449,7 +449,6 @@ function
 testVariablesView
 (
 aWebconsole
-aEvent
 aView
 )
 {

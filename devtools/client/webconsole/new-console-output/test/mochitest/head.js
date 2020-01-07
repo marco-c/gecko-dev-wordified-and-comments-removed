@@ -523,7 +523,6 @@ messages
 function
 messagesReceived
 (
-e
 newMessages
 )
 {

@@ -174,8 +174,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -1532,7 +1530,6 @@ messages
 function
 onThisMessage
 (
-e
 messages
 )
 {

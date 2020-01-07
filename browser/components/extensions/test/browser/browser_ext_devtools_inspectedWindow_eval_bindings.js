@@ -880,7 +880,6 @@ messages
 function
 onThisMessage
 (
-e
 messages
 )
 {
@@ -1124,7 +1123,6 @@ variablesview
 open
 "
 (
-evt
 view
 options
 )

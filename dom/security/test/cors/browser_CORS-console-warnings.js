@@ -49,7 +49,6 @@ expected_messages
 function
 on_new_message
 (
-event
 new_messages
 )
 {

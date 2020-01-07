@@ -356,7 +356,6 @@ variablesview
 fetched
 "
 (
-e
 variable
 )
 =

@@ -6,7 +6,6 @@ strict
 function
 onNewMessage
 (
-aEvent
 aNewMessages
 )
 {
@@ -626,7 +625,6 @@ let
 onFetch
 =
 (
-aEvent
 aVar
 )
 =

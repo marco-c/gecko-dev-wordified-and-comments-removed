@@ -2012,7 +2012,6 @@ resolve
 function
 receiveMessages
 (
-e
 messages
 )
 {
@@ -2554,7 +2553,6 @@ resolve
 function
 receiveMessages
 (
-e
 messages
 )
 {

@@ -214,7 +214,6 @@ iframeWindow
 function
 onNodeListViewFetched
 (
-event
 variable
 )
 {

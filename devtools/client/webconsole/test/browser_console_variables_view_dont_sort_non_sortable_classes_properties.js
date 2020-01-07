@@ -373,7 +373,6 @@ variablesview
 fetched
 "
 (
-_
 aVar
 )
 =
@@ -527,7 +526,6 @@ variablesview
 fetched
 "
 (
-_
 aVar
 )
 =

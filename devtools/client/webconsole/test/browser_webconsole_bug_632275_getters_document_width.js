@@ -145,7 +145,6 @@ function
 onViewOpened
 (
 hud
-event
 view
 )
 {

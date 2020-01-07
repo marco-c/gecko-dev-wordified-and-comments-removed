@@ -255,7 +255,6 @@ Scratchpad
 function
 onMessage
 (
-event
 messages
 )
 {
