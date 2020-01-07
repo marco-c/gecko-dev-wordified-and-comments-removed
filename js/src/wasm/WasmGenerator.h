@@ -517,15 +517,10 @@ env_
 Assumptions
 assumptions_
 ;
-LinkDataTier
-*
+UniqueLinkDataTier
 linkDataTier_
 ;
-LinkData
-linkData_
-;
-MetadataTier
-*
+UniqueMetadataTier
 metadataTier_
 ;
 MutableMetadata
