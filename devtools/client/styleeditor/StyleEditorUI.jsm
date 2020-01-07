@@ -2426,7 +2426,7 @@ this
 .
 _window
 .
-openUILinkIn
+openWebLinkIn
 (
 this
 .

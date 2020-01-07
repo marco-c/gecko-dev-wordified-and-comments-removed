@@ -709,7 +709,7 @@ defaultView
 ;
 window
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 https

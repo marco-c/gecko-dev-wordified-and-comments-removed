@@ -417,7 +417,7 @@ top
 ;
 top
 .
-openUILinkIn
+openWebLinkIn
 (
 link
 "

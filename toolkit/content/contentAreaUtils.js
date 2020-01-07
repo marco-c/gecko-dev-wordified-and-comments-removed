@@ -4868,7 +4868,7 @@ recentWindow
 {
 recentWindow
 .
-openUILinkIn
+openWebLinkIn
 (
 uri
 .
@@ -4876,6 +4876,15 @@ spec
 "
 tab
 "
+{
+triggeringPrincipal
+:
+recentWindow
+.
+document
+.
+contentPrincipal
+}
 )
 ;
 return

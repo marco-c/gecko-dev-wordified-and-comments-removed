@@ -752,7 +752,7 @@ top
 ;
 top
 .
-openUILinkIn
+openWebLinkIn
 (
 url
 "

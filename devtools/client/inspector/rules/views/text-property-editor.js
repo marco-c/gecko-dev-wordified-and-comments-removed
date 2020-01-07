@@ -1546,7 +1546,7 @@ defaultView
 ;
 browserWin
 .
-openUILinkIn
+openTrustedLinkIn
 (
 target
 .

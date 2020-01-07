@@ -1218,7 +1218,7 @@ mainWindow
 {
 mainWindow
 .
-openUILinkIn
+openWebLinkIn
 (
 url
 "
