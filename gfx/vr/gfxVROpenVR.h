@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -99,6 +92,9 @@ mozilla
 namespace
 gfx
 {
+class
+VRThread
+;
 namespace
 impl
 {
@@ -523,9 +519,9 @@ float
 >
 mAxisMove
 ;
-nsCOMPtr
+RefPtr
 <
-nsIThread
+VRThread
 >
 mVibrateThread
 ;

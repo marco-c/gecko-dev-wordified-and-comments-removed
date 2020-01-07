@@ -90,6 +90,9 @@ PixelShaderConstants
 namespace
 gfx
 {
+class
+VRThread
+;
 namespace
 impl
 {
@@ -234,6 +237,12 @@ RefPtr
 ID3D11Device
 >
 mDevice
+;
+RefPtr
+<
+VRThread
+>
+mSubmitThread
 ;
 TimeStamp
 mLastShouldQuit
@@ -674,9 +683,9 @@ mIndexTrigger
 float
 mHandTrigger
 ;
-nsCOMPtr
+RefPtr
 <
-nsIThread
+VRThread
 >
 mVibrateThread
 ;
