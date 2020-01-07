@@ -107,13 +107,11 @@ beetmover
 -
 dummy
 -
-release
+post
 -
-beetmover
+langpack
 -
-signed
--
-langpacks
+dummy
 job
 -
 defaults
