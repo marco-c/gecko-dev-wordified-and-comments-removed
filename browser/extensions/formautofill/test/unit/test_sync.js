@@ -945,17 +945,6 @@ true
 ]
 )
 ;
-await
-engine
-.
-_tracker
-.
-asyncObserver
-.
-promiseObserversComplete
-(
-)
-;
 equal
 (
 engine
