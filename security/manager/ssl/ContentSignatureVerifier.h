@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -96,8 +89,6 @@ public
 nsIContentSignatureVerifier
 public
 nsIStreamListener
-public
-nsNSSShutDownObject
 public
 nsIInterfaceRequestor
 {

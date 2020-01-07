@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -54,9 +47,6 @@ nsIX509Cert
 ;
 class
 nsPKCS12Blob
-:
-public
-nsNSSShutDownObject
 {
 public
 :

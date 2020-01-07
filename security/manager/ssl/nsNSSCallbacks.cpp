@@ -3018,8 +3018,6 @@ PK11PasswordPromptRunnable
 :
 public
 SyncRunnableBase
-public
-nsNSSShutDownObject
 {
 public
 :

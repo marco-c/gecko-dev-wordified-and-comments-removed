@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 secmodt
 .
 h
@@ -91,8 +84,6 @@ final
 :
 public
 nsICryptoHash
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -104,6 +95,7 @@ nsCryptoHash
 ;
 private
 :
+virtual
 ~
 nsCryptoHash
 (
@@ -126,8 +118,6 @@ nsCryptoHMAC
 :
 public
 nsICryptoHMAC
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -139,6 +129,7 @@ nsCryptoHMAC
 ;
 private
 :
+virtual
 ~
 nsCryptoHMAC
 (

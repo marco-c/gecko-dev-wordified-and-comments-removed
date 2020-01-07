@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsStreamUtils
 .
 h
@@ -99,8 +92,6 @@ BackgroundFileSaver
 :
 public
 nsIBackgroundFileSaver
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -443,8 +434,6 @@ class
 DigestOutputStream
 :
 public
-nsNSSShutDownObject
-public
 nsIOutputStream
 {
 public
@@ -463,6 +452,7 @@ aContext
 ;
 private
 :
+virtual
 ~
 DigestOutputStream
 (

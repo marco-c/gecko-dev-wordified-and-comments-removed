@@ -99,8 +99,6 @@ public
 nsISerializable
 public
 nsIClassInfo
-public
-nsNSSShutDownObject
 {
 protected
 :

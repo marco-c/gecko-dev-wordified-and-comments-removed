@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -84,8 +77,6 @@ final
 :
 public
 nsIX509CertDB
-public
-nsNSSShutDownObject
 {
 public
 :

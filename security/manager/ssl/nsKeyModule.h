@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 pk11pub
 .
 h
@@ -105,8 +98,6 @@ final
 :
 public
 nsIKeyObject
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -141,8 +132,6 @@ final
 :
 public
 nsIKeyObjectFactory
-public
-nsNSSShutDownObject
 {
 public
 :

@@ -386,9 +386,6 @@ nsINSSComponent
 NS_INSSCOMPONENT_IID
 )
 class
-nsNSSShutDownList
-;
-class
 nsNSSComponent
 final
 :

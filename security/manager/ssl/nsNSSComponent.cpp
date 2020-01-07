@@ -300,13 +300,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h
@@ -4823,8 +4816,6 @@ final
 :
 public
 Runnable
-public
-nsNSSShutDownObject
 {
 public
 :

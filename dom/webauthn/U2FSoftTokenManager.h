@@ -22,13 +22,6 @@ ScopedNSSTypes
 .
 h
 "
-#
-include
-"
-nsNSSShutDown
-.
-h
-"
 namespace
 mozilla
 {
@@ -41,8 +34,6 @@ final
 :
 public
 U2FTokenTransport
-public
-nsNSSShutDownObject
 {
 public
 :

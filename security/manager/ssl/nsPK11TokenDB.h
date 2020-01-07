@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -72,8 +65,6 @@ nsPK11Token
 :
 public
 nsIPK11Token
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -159,8 +150,6 @@ nsPK11TokenDB
 :
 public
 nsIPK11TokenDB
-public
-nsNSSShutDownObject
 {
 public
 :

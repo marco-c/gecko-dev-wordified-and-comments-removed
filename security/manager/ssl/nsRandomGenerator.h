@@ -21,13 +21,6 @@ nsIRandomGenerator
 h
 "
 #
-include
-"
-nsNSSShutDown
-.
-h
-"
-#
 define
 NS_RANDOMGENERATOR_CID
 \
@@ -69,8 +62,6 @@ final
 :
 public
 nsIRandomGenerator
-public
-nsNSSShutDownObject
 {
 public
 :

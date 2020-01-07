@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -63,8 +56,6 @@ SecretDecoderRing
 :
 public
 nsISecretDecoderRing
-public
-nsNSSShutDownObject
 {
 public
 :

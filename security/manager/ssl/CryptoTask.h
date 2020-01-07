@@ -20,13 +20,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsNSSShutDown
-.
-h
-"
 namespace
 mozilla
 {
@@ -35,8 +28,6 @@ CryptoTask
 :
 public
 Runnable
-public
-nsNSSShutDownObject
 {
 public
 :

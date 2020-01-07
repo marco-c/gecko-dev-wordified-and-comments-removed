@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -113,8 +106,6 @@ nsKeygenFormProcessor
 :
 public
 nsIFormProcessor
-public
-nsNSSShutDownObject
 {
 public
 :

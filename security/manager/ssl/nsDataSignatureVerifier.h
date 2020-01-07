@@ -12,13 +12,6 @@ nsIDataSignatureVerifier
 h
 "
 #
-include
-"
-nsNSSShutDown
-.
-h
-"
-#
 define
 NS_DATASIGNATUREVERIFIER_CID
 \
@@ -59,8 +52,6 @@ final
 :
 public
 nsIDataSignatureVerifier
-public
-nsNSSShutDownObject
 {
 public
 :
