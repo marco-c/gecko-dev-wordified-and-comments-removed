@@ -5915,7 +5915,7 @@ if
 !
 div
 .
-createShadowRoot
+attachShadow
 )
 {
 todo
@@ -5930,7 +5930,7 @@ testInsideShadowDOM
 +
 "
 because
-createShadowRoot
+attachShadow
 is
 not
 supported
@@ -6023,8 +6023,15 @@ sr
 =
 div
 .
-createShadowRoot
+attachShadow
 (
+{
+mode
+:
+"
+open
+"
+}
 )
 ;
 sr

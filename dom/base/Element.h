@@ -3618,17 +3618,6 @@ nsAString
 aName
 )
 ;
-already_AddRefed
-<
-ShadowRoot
->
-CreateShadowRoot
-(
-ErrorResult
-&
-aError
-)
-;
 ShadowRoot
 *
 GetShadowRoot
