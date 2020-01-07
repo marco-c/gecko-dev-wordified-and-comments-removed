@@ -136,9 +136,6 @@ ServiceWorkerRegistrationPromise
 >
 Update
 (
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -298,9 +295,6 @@ ServiceWorkerRegistrationPromise
 >
 Update
 (
-ErrorResult
-&
-aRv
 )
 override
 ;
