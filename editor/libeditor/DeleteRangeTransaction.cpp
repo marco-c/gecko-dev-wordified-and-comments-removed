@@ -707,8 +707,10 @@ DeleteTextTransaction
 >
 deleteTextTransaction
 =
-new
 DeleteTextTransaction
+:
+:
+MaybeCreate
 (
 *
 mEditorBase
@@ -720,7 +722,6 @@ Offset
 (
 )
 numToDel
-mRangeUpdater
 )
 ;
 if
@@ -729,11 +730,6 @@ NS_WARN_IF
 (
 !
 deleteTextTransaction
--
->
-CanDoIt
-(
-)
 )
 )
 {
@@ -984,8 +980,10 @@ DeleteTextTransaction
 >
 deleteTextTransaction
 =
-new
 DeleteTextTransaction
+:
+:
+MaybeCreate
 (
 *
 mEditorBase
@@ -993,7 +991,6 @@ mEditorBase
 dataNode
 startOffset
 numToDelete
-mRangeUpdater
 )
 ;
 if
@@ -1002,11 +999,6 @@ NS_WARN_IF
 (
 !
 deleteTextTransaction
--
->
-CanDoIt
-(
-)
 )
 )
 {
