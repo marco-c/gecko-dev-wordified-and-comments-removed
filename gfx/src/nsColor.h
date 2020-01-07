@@ -359,17 +359,6 @@ n
 255
 ;
 }
-nscolor
-LinearBlendColors
-(
-nscolor
-aBg
-nscolor
-aFg
-uint_fast8_t
-aFgRatio
-)
-;
 }
 bool
 NS_LooseHexToRGB

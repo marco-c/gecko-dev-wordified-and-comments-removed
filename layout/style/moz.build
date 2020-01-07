@@ -1187,6 +1187,11 @@ StyleAnimationValue
 cpp
 '
 '
+StyleComplexColor
+.
+cpp
+'
+'
 StyleSheet
 .
 cpp
