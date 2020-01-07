@@ -28775,7 +28775,7 @@ loadInfo
 nsIWebNavigation
 :
 :
-LOAD_FLAGS_NONE
+LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 true
 )
 ;
