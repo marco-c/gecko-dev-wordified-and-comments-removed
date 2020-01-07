@@ -1860,6 +1860,18 @@ isTenured
 (
 )
 )
+{
+if
+(
+isPermanentAtom
+(
+)
+)
+return
+zoneFromAnyThread
+(
+)
+;
 return
 asTenured
 (
@@ -1869,6 +1881,7 @@ zone
 (
 )
 ;
+}
 return
 js
 :
