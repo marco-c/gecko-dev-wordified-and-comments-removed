@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -74,7 +74,7 @@ const
 Translation
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -233,7 +233,7 @@ function
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -253,7 +253,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

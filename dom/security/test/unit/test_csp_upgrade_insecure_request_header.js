@@ -19,7 +19,7 @@ Components
 .
 classes
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -38,7 +38,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -57,7 +57,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

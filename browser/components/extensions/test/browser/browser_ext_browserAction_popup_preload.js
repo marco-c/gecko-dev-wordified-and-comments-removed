@@ -206,7 +206,7 @@ browserActionFor
 }
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -856,7 +856,7 @@ browserActionFor
 }
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

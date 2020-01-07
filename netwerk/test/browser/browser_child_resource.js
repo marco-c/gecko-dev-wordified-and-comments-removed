@@ -35,9 +35,7 @@ true
 "
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -90,9 +88,7 @@ frameScript
 (
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

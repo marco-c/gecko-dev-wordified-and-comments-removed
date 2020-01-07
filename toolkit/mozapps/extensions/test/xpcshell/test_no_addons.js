@@ -1,9 +1,7 @@
 var
 XPIScope
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

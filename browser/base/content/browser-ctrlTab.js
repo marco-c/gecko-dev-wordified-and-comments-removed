@@ -60,7 +60,7 @@ let
 PageThumbUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

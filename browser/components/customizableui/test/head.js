@@ -9,7 +9,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -29,7 +29,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -48,7 +48,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -19,7 +19,7 @@ Cm
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (

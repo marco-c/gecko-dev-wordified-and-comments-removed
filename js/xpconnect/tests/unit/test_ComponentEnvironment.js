@@ -16,9 +16,7 @@ tgt
 const
 a
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -39,9 +37,7 @@ tgt
 const
 b
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

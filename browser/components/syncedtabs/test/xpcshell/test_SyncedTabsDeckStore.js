@@ -8,7 +8,7 @@ let
 SyncedTabsDeckStore
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

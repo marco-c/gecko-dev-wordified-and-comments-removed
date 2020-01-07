@@ -21,7 +21,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -59,9 +59,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -86,9 +86,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -818,13 +818,6 @@ removeStudy
 message
 .
 data
-.
-recipeId
-message
-.
-data
-.
-reason
 )
 ;
 break
@@ -896,7 +889,6 @@ async
 removeStudy
 (
 recipeId
-reason
 )
 {
 await
@@ -905,7 +897,6 @@ AddonStudies
 stop
 (
 recipeId
-reason
 )
 ;
 Services

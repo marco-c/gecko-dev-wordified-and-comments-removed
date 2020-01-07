@@ -233,7 +233,7 @@ NC_NS
 dBusInterface
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

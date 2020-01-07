@@ -34,7 +34,7 @@ FormValidationHandler
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (

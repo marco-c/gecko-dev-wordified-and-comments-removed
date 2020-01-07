@@ -16,7 +16,7 @@ sync
 enabled
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -516,7 +516,7 @@ const
 FirefoxAdapter
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

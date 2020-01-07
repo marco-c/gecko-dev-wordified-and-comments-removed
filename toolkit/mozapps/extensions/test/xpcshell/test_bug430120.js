@@ -71,9 +71,7 @@ update
 timer
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -92,9 +90,7 @@ js
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

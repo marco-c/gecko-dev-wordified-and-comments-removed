@@ -513,9 +513,7 @@ addDirectory
 map
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

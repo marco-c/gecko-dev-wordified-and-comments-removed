@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -19,9 +17,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -1235,9 +1231,7 @@ clear
 range
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

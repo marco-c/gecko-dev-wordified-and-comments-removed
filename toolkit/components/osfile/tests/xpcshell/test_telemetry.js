@@ -14,9 +14,7 @@ Constants
 }
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -42,9 +40,7 @@ var
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -85,9 +85,7 @@ interfaces
 nsIPluginHost
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

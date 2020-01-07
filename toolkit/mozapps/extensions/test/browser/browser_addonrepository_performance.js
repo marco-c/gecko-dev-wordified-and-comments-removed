@@ -4,9 +4,7 @@ tmp
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

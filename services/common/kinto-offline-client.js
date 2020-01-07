@@ -573,7 +573,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -608,7 +608,7 @@ const
 EventEmitter
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -661,7 +661,7 @@ const
 KintoHttpClient
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

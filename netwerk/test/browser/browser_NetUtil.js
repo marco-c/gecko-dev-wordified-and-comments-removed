@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -28,9 +26,7 @@ waitForExplicitFinish
 (
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

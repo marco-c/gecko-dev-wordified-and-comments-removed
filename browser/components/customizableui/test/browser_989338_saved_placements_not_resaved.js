@@ -40,7 +40,7 @@ test
 let
 backstagePass
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -308,7 +308,7 @@ function
 let
 backstagePass
 =
-Cu
+ChromeUtils
 .
 import
 (

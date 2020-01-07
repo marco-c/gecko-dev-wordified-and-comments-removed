@@ -9,9 +9,7 @@ scope
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -66,9 +64,7 @@ function
 var
 module
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -177,9 +173,7 @@ function
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -232,9 +226,7 @@ scope2
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -394,9 +386,7 @@ throws
 )
 =
 >
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -415,9 +405,7 @@ false
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

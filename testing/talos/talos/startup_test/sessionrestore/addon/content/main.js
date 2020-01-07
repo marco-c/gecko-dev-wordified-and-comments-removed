@@ -6,9 +6,7 @@ strict
 var
 Services
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

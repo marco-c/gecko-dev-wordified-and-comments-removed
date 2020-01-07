@@ -38,7 +38,7 @@ Ci
 .
 nsIProfileStartup
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -57,7 +57,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

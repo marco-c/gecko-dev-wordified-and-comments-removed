@@ -29,9 +29,7 @@ MODULE_URI
 =
 __URI__
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

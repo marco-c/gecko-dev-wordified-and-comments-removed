@@ -10,7 +10,7 @@ waitForExplicitFinish
 let
 FileUtils
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -36,7 +36,7 @@ FileUtils
 let
 DownloadLastDir
 =
-Cu
+ChromeUtils
 .
 import
 (

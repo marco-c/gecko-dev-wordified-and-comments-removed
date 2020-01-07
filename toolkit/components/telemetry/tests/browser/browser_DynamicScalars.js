@@ -8,7 +8,7 @@ const
 ContentTaskUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -34,7 +34,7 @@ const
 TelemetryController
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -60,7 +60,7 @@ const
 TelemetryUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

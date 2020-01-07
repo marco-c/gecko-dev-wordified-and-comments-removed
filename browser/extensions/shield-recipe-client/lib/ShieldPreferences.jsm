@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -31,7 +31,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -50,9 +50,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -73,9 +73,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -100,9 +100,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -426,7 +426,6 @@ prefName
 case
 FHR_UPLOAD_ENABLED_PREF
 :
-{
 prefValue
 =
 Services
@@ -450,11 +449,9 @@ prefValue
 ;
 break
 ;
-}
 case
 OPT_OUT_STUDIES_ENABLED_PREF
 :
-{
 prefValue
 =
 Services
@@ -500,13 +497,6 @@ stop
 study
 .
 recipeId
-"
-general
--
-opt
--
-out
-"
 )
 ;
 }
@@ -514,7 +504,6 @@ out
 }
 break
 ;
-}
 }
 }
 injectOptOutStudyCheckbox

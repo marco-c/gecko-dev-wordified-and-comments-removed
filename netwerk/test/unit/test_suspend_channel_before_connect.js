@@ -5,7 +5,7 @@ Components
 .
 Constructor
 ;
-Cu
+ChromeUtils
 .
 import
 (
