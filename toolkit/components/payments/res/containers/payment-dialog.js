@@ -763,17 +763,6 @@ if
 (
 state
 .
-request
-.
-paymentOptions
-.
-requestShipping
-)
-{
-if
-(
-state
-.
 selectedShippingAddress
 !
 =
@@ -817,7 +806,6 @@ state
 selectedShippingOption
 )
 ;
-}
 }
 this
 .
