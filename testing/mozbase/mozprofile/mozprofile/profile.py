@@ -220,23 +220,19 @@ None
 addons
 =
 None
-addon_manifests
-=
-None
-                 
 preferences
 =
 None
 locations
 =
 None
+                 
 proxy
 =
 None
 restore
 =
 True
-                 
 whitelistpaths
 =
 None
@@ -269,26 +265,6 @@ of
 addons
 to
 install
-        
-:
-param
-addon_manifests
-:
-Manifest
-for
-addons
-(
-see
-http
-:
-/
-/
-bit
-.
-ly
-/
-17jQ7i6
-)
         
 :
 param
@@ -361,12 +337,6 @@ self
 _addons
 =
 addons
-        
-self
-.
-_addon_manifests
-=
-addon_manifests
         
 self
 .
@@ -840,9 +810,6 @@ install_addons
 self
 .
 _addons
-self
-.
-_addon_manifests
 )
     
 def
