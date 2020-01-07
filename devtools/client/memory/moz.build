@@ -121,6 +121,11 @@ children
 js
 '
 '
+initializer
+.
+js
+'
+'
 models
 .
 js
