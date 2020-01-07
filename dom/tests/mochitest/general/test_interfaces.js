@@ -1395,9 +1395,6 @@ PerformanceObserverEntryList
 PerformanceResourceTiming
 "
 "
-PerformanceServerTiming
-"
-"
 PerformanceTiming
 "
 "
