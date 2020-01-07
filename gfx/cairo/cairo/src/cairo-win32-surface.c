@@ -310,10 +310,9 @@ context
 }
 else
 {
-fwprintf
+fprintf
 (
 stderr
-L
 "
 %
 s
