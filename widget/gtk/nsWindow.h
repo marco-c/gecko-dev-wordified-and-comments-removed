@@ -2110,6 +2110,11 @@ IsComposited
 )
 const
 ;
+void
+UpdateClientOffsetForCSDWindow
+(
+)
+;
 GtkWidget
 *
 mShell
