@@ -82,6 +82,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleSetHandleInlines
+.
+h
+"
+#
+include
+"
 RubyUtils
 .
 h

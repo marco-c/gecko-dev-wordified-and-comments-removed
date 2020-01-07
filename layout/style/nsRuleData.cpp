@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsStyleContextInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 GeckoStyleContext

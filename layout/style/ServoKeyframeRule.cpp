@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+DeclarationBlockInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoDeclarationBlock
 .
 h

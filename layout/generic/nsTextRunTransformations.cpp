@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsStyleContextInlines
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

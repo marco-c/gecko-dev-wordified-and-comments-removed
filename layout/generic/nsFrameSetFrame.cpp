@@ -104,6 +104,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h

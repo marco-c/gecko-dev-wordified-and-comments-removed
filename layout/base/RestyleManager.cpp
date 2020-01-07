@@ -70,6 +70,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsIPresShellInlines
 .
 h
