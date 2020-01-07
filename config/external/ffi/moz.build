@@ -962,11 +962,15 @@ CONFIG
 CC_TYPE
 '
 ]
-=
-=
+in
+(
 '
 gcc
 '
+'
+clang
+'
+)
 :
 ffi_srcs
 +
