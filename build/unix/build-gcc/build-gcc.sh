@@ -787,6 +787,15 @@ cd
 root_dir
 /
 tools
+ln
+-
+s
+gcc
+gcc
+/
+bin
+/
+cc
 tar
 caf
 root_dir
