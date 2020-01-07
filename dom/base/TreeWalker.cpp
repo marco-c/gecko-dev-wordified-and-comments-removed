@@ -51,6 +51,17 @@ mozilla
 /
 dom
 /
+NodeFilterBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TreeWalkerBinding
 .
 h
@@ -245,7 +256,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -436,7 +447,7 @@ while
 filtered
 !
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_REJECT
@@ -485,7 +496,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -560,7 +571,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -600,7 +611,7 @@ aResult
 int16_t
 filtered
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -627,7 +638,7 @@ while
 filtered
 !
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_REJECT
@@ -675,7 +686,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -784,7 +795,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -878,7 +889,7 @@ filtered
 )
 {
 case
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -895,7 +906,7 @@ forget
 )
 ;
 case
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_SKIP
@@ -937,7 +948,7 @@ break
 ;
 }
 case
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_REJECT
@@ -1124,7 +1135,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
@@ -1147,7 +1158,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_REJECT
@@ -1247,7 +1258,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
