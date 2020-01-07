@@ -2003,6 +2003,22 @@ s
 %
 geckodriver_path
 )
+            
+cmd
+.
+append
+(
+"
+-
+-
+webdriver
+-
+arg
+=
+-
+vv
+"
+)
         
 options
 =
