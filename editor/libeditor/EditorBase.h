@@ -4372,6 +4372,11 @@ bool
 aHide
 )
 ;
+void
+SyncRealTimeSpell
+(
+)
+;
 private
 :
 nsCOMPtr
