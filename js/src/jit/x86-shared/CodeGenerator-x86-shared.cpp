@@ -3670,8 +3670,14 @@ LSnapshot
 snapshot
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+masm
+.
+oom
+(
+)
 label
 -
 >
