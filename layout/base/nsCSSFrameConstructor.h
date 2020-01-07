@@ -1817,11 +1817,6 @@ aFCData
 nsIContent
 *
 aContent
-nsAtom
-*
-aTag
-int32_t
-aNameSpaceID
 PendingBinding
 *
 aPendingBinding
@@ -1857,8 +1852,6 @@ FrameConstructionItem
 (
 aFCData
 aContent
-aTag
-aNameSpaceID
 aPendingBinding
 aComputedStyle
 aSuppressWhiteSpaceOptimizations
@@ -1906,11 +1899,6 @@ aFCData
 nsIContent
 *
 aContent
-nsAtom
-*
-aTag
-int32_t
-aNameSpaceID
 PendingBinding
 *
 aPendingBinding
@@ -1946,8 +1934,6 @@ FrameConstructionItem
 (
 aFCData
 aContent
-aTag
-aNameSpaceID
 aPendingBinding
 aComputedStyle
 aSuppressWhiteSpaceOptimizations
@@ -2941,11 +2927,6 @@ aFCData
 nsIContent
 *
 aContent
-nsAtom
-*
-aTag
-int32_t
-aNameSpaceID
 PendingBinding
 *
 aPendingBinding
@@ -2976,10 +2957,6 @@ mContent
 (
 aContent
 )
-mTag
-(
-aTag
-)
 mPendingBinding
 (
 aPendingBinding
@@ -2987,10 +2964,6 @@ aPendingBinding
 mComputedStyle
 (
 aComputedStyle
-)
-mNameSpaceID
-(
-aNameSpaceID
 )
 mSuppressWhiteSpaceOptimizations
 (
@@ -3273,10 +3246,6 @@ nsIContent
 *
 mContent
 ;
-nsAtom
-*
-mTag
-;
 PendingBinding
 *
 mPendingBinding
@@ -3286,9 +3255,6 @@ RefPtr
 ComputedStyle
 >
 mComputedStyle
-;
-int32_t
-mNameSpaceID
 ;
 bool
 mSuppressWhiteSpaceOptimizations
