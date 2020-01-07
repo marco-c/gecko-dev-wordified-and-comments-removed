@@ -91,6 +91,8 @@ aUnscaledFont
 cairo_scaled_font_t
 *
 aCairoFont
+FT_Face
+aFTFace
 FT2FontEntry
 *
 aFontEntry
@@ -339,6 +341,9 @@ CharGlyphMap
 ;
 CharGlyphMap
 mCharGlyphCache
+;
+FT_Face
+mFTFace
 ;
 }
 ;
