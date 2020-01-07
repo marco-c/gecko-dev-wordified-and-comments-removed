@@ -548,7 +548,7 @@ browser
 .
 test
 .
-notifyFailure
+notifyFail
 (
 "
 removeCSS

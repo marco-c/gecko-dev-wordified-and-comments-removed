@@ -565,7 +565,7 @@ browser
 .
 test
 .
-notifyFailure
+notifyFail
 (
 "
 insertCSS
