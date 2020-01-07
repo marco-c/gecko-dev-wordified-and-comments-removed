@@ -589,6 +589,16 @@ country
 US
 "
 "
+email
+"
+:
+"
+foo
+bar
+.
+com
+"
+"
 guid
 "
 :
