@@ -131,7 +131,7 @@ HostRustLibrary
     
 RustProgram
     
-RustTest
+RustTests
     
 SharedLibrary
     
@@ -8694,20 +8694,21 @@ None
 )
 :
             
-rust_test
+rust_tests
 =
 context
 .
 get
 (
 '
-RUST_TEST
+RUST_TESTS
 '
-None
+[
+]
 )
             
 if
-rust_test
+rust_tests
 :
                 
 features
@@ -8724,10 +8725,10 @@ RUST_TEST_FEATURES
 )
                 
 yield
-RustTest
+RustTests
 (
 context
-rust_test
+rust_tests
 features
 )
         

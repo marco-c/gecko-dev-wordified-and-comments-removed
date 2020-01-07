@@ -144,7 +144,7 @@ HostRustLibrary
     
 RustProgram
     
-RustTest
+RustTests
     
 SharedLibrary
     
@@ -3974,13 +3974,13 @@ elif
 isinstance
 (
 obj
-RustTest
+RustTests
 )
 :
             
 self
 .
-_process_rust_test
+_process_rust_tests
 (
 obj
 backend_file
@@ -7604,7 +7604,7 @@ HOST_RUST_CARGO_PROGRAMS
 )
     
 def
-_process_rust_test
+_process_rust_tests
 (
 self
 obj
@@ -7653,7 +7653,7 @@ backend_file
 write_once
 (
 '
-RUST_TEST
+RUST_TESTS
 :
 =
 %
@@ -7662,9 +7662,15 @@ s
 n
 '
 %
+'
+'
+.
+join
+(
 obj
 .
-name
+names
+)
 )
         
 backend_file

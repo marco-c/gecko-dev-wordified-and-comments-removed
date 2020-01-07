@@ -9201,21 +9201,23 @@ instead
 )
     
 '
-RUST_TEST
+RUST_TESTS
 '
 :
 (
+TypedList
+(
 unicode
-unicode
+)
+list
         
 "
 "
 "
-Name
+Names
 of
-a
 Rust
-test
+tests
 to
 build
 and
@@ -9223,25 +9225,6 @@ run
 via
 cargo
 test
-.
-        
-This
-variable
-should
-not
-be
-used
-directly
-;
-you
-should
-be
-using
-the
-        
-RustTest
-template
-instead
 .
         
 "
@@ -9254,7 +9237,10 @@ RUST_TEST_FEATURES
 '
 :
 (
-List
+TypedList
+(
+unicode
+)
 list
         
 "
@@ -9265,26 +9251,7 @@ features
 to
 activate
 for
-RUST_TEST
-.
-        
-This
-variable
-should
-not
-be
-used
-directly
-;
-you
-should
-be
-using
-the
-        
-RustTest
-template
-instead
+RUST_TESTS
 .
         
 "

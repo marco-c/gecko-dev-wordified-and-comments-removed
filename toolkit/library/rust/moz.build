@@ -139,10 +139,13 @@ artifacts
 with
 gkrust
 .
-RustTest
-(
+RUST_TESTS
+=
+[
 '
 stylo_tests
 '
+]
+RUST_TEST_FEATURES
+=
 gkrust_features
-)

@@ -84,12 +84,13 @@ OS_ARCH
 WINNT
 "
 :
-RustTest
-(
+RUST_TESTS
+=
+[
 "
 geckodriver
 "
-)
+]
 with
 Files
 (
