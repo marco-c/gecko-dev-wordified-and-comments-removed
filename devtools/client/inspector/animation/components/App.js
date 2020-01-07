@@ -204,6 +204,13 @@ PropTypes
 func
 .
 isRequired
+getComputedStyle
+:
+PropTypes
+.
+func
+.
+isRequired
 getNodeFromActor
 :
 PropTypes
@@ -304,6 +311,7 @@ animations
 detailVisibility
 emitEventForTest
 getAnimatedPropertyMap
+getComputedStyle
 getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
@@ -369,6 +377,7 @@ AnimationDetailContainer
 {
 emitEventForTest
 getAnimatedPropertyMap
+getComputedStyle
 setDetailVisibility
 simulateAnimation
 }

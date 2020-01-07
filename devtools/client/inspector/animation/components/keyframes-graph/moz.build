@@ -66,6 +66,11 @@ ComputedStylePath
 js
 '
 '
+DiscretePath
+.
+js
+'
+'
 DistancePath
 .
 js

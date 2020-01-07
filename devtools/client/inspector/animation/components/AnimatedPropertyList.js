@@ -117,6 +117,13 @@ PropTypes
 func
 .
 isRequired
+getComputedStyle
+:
+PropTypes
+.
+func
+.
+isRequired
 simulateAnimation
 :
 PropTypes
@@ -293,6 +300,7 @@ render
 {
 const
 {
+getComputedStyle
 simulateAnimation
 }
 =
@@ -380,6 +388,7 @@ return
 AnimatedPropertyItem
 (
 {
+getComputedStyle
 property
 simulateAnimation
 state

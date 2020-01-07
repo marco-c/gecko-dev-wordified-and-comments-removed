@@ -115,6 +115,13 @@ propTypes
 {
 return
 {
+getComputedStyle
+:
+PropTypes
+.
+func
+.
+isRequired
 property
 :
 PropTypes
@@ -159,6 +166,7 @@ render
 {
 const
 {
+getComputedStyle
 property
 simulateAnimation
 state
@@ -196,6 +204,8 @@ state
 KeyframesGraph
 (
 {
+getComputedStyle
+property
 simulateAnimation
 type
 values

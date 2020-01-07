@@ -154,6 +154,13 @@ PropTypes
 func
 .
 isRequired
+getComputedStyle
+:
+PropTypes
+.
+func
+.
+isRequired
 setDetailVisibility
 :
 PropTypes
@@ -180,6 +187,7 @@ const
 animation
 emitEventForTest
 getAnimatedPropertyMap
+getComputedStyle
 setDetailVisibility
 simulateAnimation
 }
@@ -223,6 +231,7 @@ AnimatedPropertyListContainer
 animation
 emitEventForTest
 getAnimatedPropertyMap
+getComputedStyle
 simulateAnimation
 }
 )
