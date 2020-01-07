@@ -1740,6 +1740,16 @@ bool
 aEnabled
 )
 ;
+bool
+ExtractPendingInput
+(
+StreamTime
+aDesiredUpToTime
+bool
+*
+aEnsureNextIteration
+)
+;
 void
 NotifyListenersEventImpl
 (
