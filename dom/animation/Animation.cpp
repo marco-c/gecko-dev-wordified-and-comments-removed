@@ -3049,6 +3049,19 @@ CancelNoUpdate
 (
 )
 {
+if
+(
+PlayState
+(
+)
+!
+=
+AnimationPlayState
+:
+:
+Idle
+)
+{
 ResetPendingTasks
 (
 )
@@ -3081,6 +3094,7 @@ cancel
 )
 )
 ;
+}
 StickyTimeDuration
 activeTime
 =
