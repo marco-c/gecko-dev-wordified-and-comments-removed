@@ -336,7 +336,7 @@ GetCurrentInnerWindowInternal
 targetWindow
 -
 >
-IsClosedOrClosing
+IsDying
 (
 )
 )
