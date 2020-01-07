@@ -1159,6 +1159,7 @@ IntentHelper
 .
 getImageCaptureIntent
 (
+context
 new
 File
 (
@@ -1331,6 +1332,7 @@ IntentHelper
 .
 getImageCaptureIntent
 (
+context
 new
 File
 (
