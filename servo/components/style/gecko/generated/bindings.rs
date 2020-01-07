@@ -7811,12 +7811,6 @@ Gecko_ImageValue_Create
 aURI
 :
 ServoBundledURI
-aURIString
-:
-ServoRawOffsetArc
-<
-RustString
->
 )
 -
 >
