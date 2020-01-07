@@ -503,7 +503,7 @@ runTaskTyped
 }
 GCParallelTaskHelper
 (
-GCParallelTask
+GCParallelTaskHelper
 &
 &
 other
