@@ -4020,7 +4020,7 @@ with
 identifiers
 %
 "
-PRId64
+PRIx64
 "
 %
 "
@@ -4035,9 +4035,12 @@ aLayer
 GetLayer
 (
 )
+uint64_t
+(
 guid
 .
 mLayersId
+)
 guid
 .
 mScrollId
@@ -4335,7 +4338,7 @@ with
 identifiers
 %
 "
-PRId64
+PRIx64
 "
 %
 "
@@ -4350,7 +4353,10 @@ aLayer
 GetLayer
 (
 )
+uint64_t
+(
 aLayersId
+)
 aMetrics
 .
 GetScrollId
@@ -5040,7 +5046,10 @@ PRIx64
 \
 n
 "
+uint64_t
+(
 aLayersId
+)
 )
 ;
 RefPtr
