@@ -852,6 +852,12 @@ GetBrowserElement
 const
 ;
 bool
+CanModify
+(
+)
+const
+;
+bool
 GetCanModify
 (
 ErrorResult
@@ -859,7 +865,13 @@ ErrorResult
 aRv
 )
 const
+{
+return
+CanModify
+(
+)
 ;
+}
 void
 GetProxyInfo
 (

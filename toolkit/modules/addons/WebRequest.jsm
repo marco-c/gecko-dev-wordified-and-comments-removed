@@ -4318,6 +4318,11 @@ if
 opts
 .
 requestBody
+&
+&
+channel
+.
+canModify
 )
 {
 requestBody
