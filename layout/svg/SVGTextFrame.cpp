@@ -15442,6 +15442,16 @@ a
 )
 )
 {
+MOZ_ASSERT
+(
+aContent
+-
+>
+IsSVGElement
+(
+)
+)
+;
 nsSVGElement
 *
 element
