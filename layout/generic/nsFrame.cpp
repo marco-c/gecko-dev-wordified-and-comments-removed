@@ -30398,8 +30398,6 @@ const
 ReflowInput
 *
 aReflowInput
-nsDidReflowStatus
-aStatus
 )
 {
 NS_FRAME_TRACE_MSG

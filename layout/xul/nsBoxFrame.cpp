@@ -2279,8 +2279,6 @@ const
 ReflowInput
 *
 aReflowInput
-nsDidReflowStatus
-aStatus
 )
 {
 nsFrameState

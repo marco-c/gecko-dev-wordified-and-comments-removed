@@ -2234,8 +2234,6 @@ const
 ReflowInput
 *
 aReflowInput
-nsDidReflowStatus
-aStatus
 )
 {
 nsSVGDisplayContainerFrame

@@ -3719,8 +3719,6 @@ const
 ReflowInput
 *
 aReflowInput
-nsDidReflowStatus
-aStatus
 )
 {
 if

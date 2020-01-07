@@ -5664,8 +5664,6 @@ const
 ReflowInput
 *
 aReflowInput
-nsDidReflowStatus
-aStatus
 )
 {
 bool
