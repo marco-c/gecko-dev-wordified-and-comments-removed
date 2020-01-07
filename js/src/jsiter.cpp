@@ -4580,10 +4580,9 @@ numGuards
 0
 ;
 }
-if
+MOZ_ASSERT
 (
-MOZ_UNLIKELY
-(
+!
 obj
 -
 >
@@ -4594,9 +4593,6 @@ PropertyIteratorObject
 (
 )
 )
-)
-return
-obj
 ;
 if
 (
