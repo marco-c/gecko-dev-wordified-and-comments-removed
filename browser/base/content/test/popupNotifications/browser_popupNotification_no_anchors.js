@@ -978,7 +978,9 @@ KEY_Backspace
 let
 notShowing
 =
-promiseTopicObserved
+TestUtils
+.
+topicObserved
 (
 "
 PopupNotifications
