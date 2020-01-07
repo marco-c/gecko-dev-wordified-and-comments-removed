@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsHtml5AttributeName
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-nsHtml5AttributeName
+nsHtml5ViewSourceUtils
 .
 h
 "
@@ -37,13 +44,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsHtml5ViewSourceUtils
 .
 h
 "

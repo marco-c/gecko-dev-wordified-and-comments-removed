@@ -10,7 +10,6 @@ NS_HTML5_CONTINUE
 (
 target
 )
-\
 goto
 target
 #
@@ -19,7 +18,6 @@ NS_HTML5_BREAK
 (
 target
 )
-\
 goto
 target
 #

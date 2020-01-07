@@ -348,9 +348,9 @@ impl
 .
 .
 /
-dom
+xpcom
 /
-base
+ds
 /
 nsGkAtomList
 .
