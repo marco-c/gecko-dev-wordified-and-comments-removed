@@ -270,11 +270,6 @@ nsIDOMNode
 {
 readonly
 attribute
-nsIDOMDocumentType
-doctype
-;
-readonly
-attribute
 nsIDOMDOMImplementation
 implementation
 ;
