@@ -397,16 +397,6 @@ _removeObservers
 (
 )
 ;
-Services
-.
-prefs
-.
-setIntPref
-(
-kPrefSpoofEnglish
-0
-)
-;
 }
 }
 _handleSpoofEnglishChanged
