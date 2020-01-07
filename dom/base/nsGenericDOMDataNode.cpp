@@ -2798,15 +2798,6 @@ nsIDocument
 *
 document
 =
-HasFlag
-(
-NODE_FORCE_XBL_BINDINGS
-)
-?
-OwnerDoc
-(
-)
-:
 GetComposedDoc
 (
 )
