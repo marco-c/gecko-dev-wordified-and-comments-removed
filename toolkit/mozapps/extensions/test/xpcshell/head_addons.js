@@ -809,11 +809,6 @@ test_compatoverrides
 js
 "
 "
-test_corrupt
-.
-js
-"
-"
 test_dataDirectory
 .
 js
