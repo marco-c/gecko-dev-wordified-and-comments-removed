@@ -147,6 +147,22 @@ cpp
 '
     
 '
+jit
+/
+LOpcodes
+.
+h
+'
+    
+'
+jit
+/
+MOpcodes
+.
+h
+'
+    
+'
 jscustomallocator
 .
 h
