@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

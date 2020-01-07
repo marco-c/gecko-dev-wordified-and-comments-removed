@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h

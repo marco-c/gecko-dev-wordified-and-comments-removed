@@ -131,9 +131,6 @@ DOMHighResTimeStamp
 /
 Core
 interface
-nsIDOMAttr
-;
-interface
 nsIDOMCDATASection
 ;
 interface

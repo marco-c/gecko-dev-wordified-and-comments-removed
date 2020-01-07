@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentFragment
 .
 h
