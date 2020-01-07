@@ -834,13 +834,6 @@ header
 name
 :
 header
-boxName
-:
-"
-response
--
-header
-"
 canFilter
 :
 false
