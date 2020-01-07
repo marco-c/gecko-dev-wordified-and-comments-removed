@@ -98,11 +98,12 @@ BUG_COMPONENT
 =
 (
 '
-Toolkit
-'
-'
+Firefox
 Build
-Config
+System
+'
+'
+General
 '
 )
 if

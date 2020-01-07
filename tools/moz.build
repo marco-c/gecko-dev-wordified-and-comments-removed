@@ -221,11 +221,13 @@ BUG_COMPONENT
 =
 (
 "
-Core
-"
-"
+Firefox
 Build
-Config
+System
+"
+"
+Generated
+Documentation
 "
 )
 SCHEDULES

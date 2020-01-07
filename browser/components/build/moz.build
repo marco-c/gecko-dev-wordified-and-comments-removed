@@ -99,10 +99,11 @@ BUG_COMPONENT
 (
 "
 Firefox
-"
-"
 Build
-Config
+System
+"
+"
+General
 "
 )
 EXPORTS

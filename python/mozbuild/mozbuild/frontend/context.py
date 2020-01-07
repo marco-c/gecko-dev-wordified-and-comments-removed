@@ -7409,11 +7409,12 @@ g
 .
 (
 '
-Core
-'
-'
+Firefox
 Build
-Config
+System
+'
+'
+General
 '
 )
 .
