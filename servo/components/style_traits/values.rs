@@ -2023,6 +2023,12 @@ f32
 impl_to_css_for_predefined_type
 !
 (
+i8
+)
+;
+impl_to_css_for_predefined_type
+!
+(
 i32
 )
 ;
