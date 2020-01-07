@@ -3116,7 +3116,7 @@ TypeError
 <
 code
 >
-clearBreakpoints
+clearBreakpoint
 (
 handler
 [
