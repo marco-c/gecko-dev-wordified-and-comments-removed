@@ -126,13 +126,6 @@ Nightly
 "
 !
 define
-BrandFullName
-"
-Firefox
-Nightly
-"
-!
-define
 CompanyName
 "
 mozilla

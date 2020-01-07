@@ -252,9 +252,6 @@ MOZ_APP_DISPLAYNAME
 !
 endif
 !
-ifndef
-BrandFullName
-!
 define
 BrandFullName
 "
@@ -262,8 +259,6 @@ BrandFullName
 BrandFullNameInternal
 }
 "
-!
-endif
 !
 define
 CERTIFICATE_NAME
