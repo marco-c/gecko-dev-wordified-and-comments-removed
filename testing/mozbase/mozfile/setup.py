@@ -91,10 +91,7 @@ Language
 Python
 :
 :
-2
-:
-:
-Only
+3
 '
 ]
       
@@ -172,6 +169,16 @@ False
 install_requires
 =
 [
+'
+six
+>
+=
+1
+.
+10
+.
+0
+'
 ]
       
 tests_require
