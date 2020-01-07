@@ -24,12 +24,7 @@ options
 .
 then
 (
-Task
-.
-async
-(
 runTests
-)
 )
 .
 then
