@@ -717,7 +717,9 @@ GetName
 const
 {
 return
-mName
+Name
+(
+)
 ;
 }
 uint8_t
@@ -753,10 +755,10 @@ arg
 )
 ;
 return
-mParams
-[
+Param
+(
 idx
-]
+)
 ;
 }
 private
