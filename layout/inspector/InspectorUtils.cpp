@@ -2759,6 +2759,8 @@ nsRange
 aRange
 uint32_t
 aMaxRanges
+bool
+aSkipCollapsedWhitespace
 nsTArray
 <
 nsAutoPtr
@@ -2782,6 +2784,7 @@ GetUsedFontFaces
 (
 aResult
 aMaxRanges
+aSkipCollapsedWhitespace
 )
 ;
 if
