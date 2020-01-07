@@ -591,12 +591,12 @@ if
 aElement
 -
 >
-IsSVGElement
+IsNodeOfType
 (
-nsGkAtoms
+nsINode
 :
 :
-path
+eSHAPE
 )
 )
 {
@@ -604,7 +604,7 @@ pathScale
 =
 static_cast
 <
-SVGPathElement
+SVGGeometryElement
 *
 >
 (
@@ -614,7 +614,7 @@ aElement
 >
 GetPathLengthScale
 (
-SVGPathElement
+SVGGeometryElement
 :
 :
 eForStroking
