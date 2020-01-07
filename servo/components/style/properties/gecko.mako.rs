@@ -31414,6 +31414,12 @@ value
 }
 %
 endfor
+%
+if
+keyword
+.
+gecko_inexhaustive
+:
 _
 =
 >
@@ -31434,6 +31440,8 @@ ident
 property
 "
 )
+%
+endif
 }
 }
 )

@@ -934,6 +934,9 @@ gecko_enum_prefix
 "
 StyleGeometryBox
 "
+gecko_inexhaustive
+=
+True
 animation_value_type
 =
 "
@@ -1017,6 +1020,9 @@ gecko_enum_prefix
 "
 StyleGeometryBox
 "
+gecko_inexhaustive
+=
+True
 animation_value_type
 =
 "
