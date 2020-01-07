@@ -6261,12 +6261,8 @@ MOZ_ASSERT
 parent
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 ;

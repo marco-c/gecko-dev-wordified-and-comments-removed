@@ -11405,12 +11405,8 @@ MOZ_ASSERT
 child
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 ;

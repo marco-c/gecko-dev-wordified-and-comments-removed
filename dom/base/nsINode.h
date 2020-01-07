@@ -1236,12 +1236,6 @@ nsINode
 ;
 enum
 {
-eDOCUMENT
-=
-1
-<
-<
-1
 eATTRIBUTE
 =
 1

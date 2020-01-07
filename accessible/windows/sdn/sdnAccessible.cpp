@@ -1083,12 +1083,8 @@ if
 mNode
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 return
@@ -1306,12 +1302,8 @@ if
 mNode
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 return

@@ -2320,12 +2320,8 @@ IsElement
 !
 aStyle
 .
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 )
