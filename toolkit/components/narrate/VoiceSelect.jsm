@@ -170,7 +170,7 @@ button
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 )
@@ -207,7 +207,7 @@ listbox
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 )
@@ -671,7 +671,7 @@ break
 ;
 case
 "
-keypress
+keydown
 "
 :
 if
@@ -709,7 +709,7 @@ else
 {
 this
 .
-_keyPressedButton
+_keyDownedButton
 (
 evt
 )
@@ -733,7 +733,7 @@ hovering
 ;
 this
 .
-_keyPressedInBox
+_keyDownedInBox
 (
 evt
 )
@@ -872,7 +872,7 @@ return
 next
 ;
 }
-_keyPressedButton
+_keyDownedButton
 (
 evt
 )
@@ -1034,7 +1034,7 @@ toSelect
 ;
 }
 }
-_keyPressedInBox
+_keyDownedInBox
 (
 evt
 )
