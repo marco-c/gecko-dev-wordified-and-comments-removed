@@ -169,10 +169,6 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-MediaEnginePrefs
-&
-aPrefs
-const
 nsString
 &
 aDeviceId
@@ -196,10 +192,6 @@ mConstraints
 (
 aConstraints
 )
-mPrefs
-(
-aPrefs
-)
 {
 }
 const
@@ -219,9 +211,6 @@ mPrincipalInfo
 ;
 NormalizedConstraints
 mConstraints
-;
-MediaEnginePrefs
-mPrefs
 ;
 }
 ;
