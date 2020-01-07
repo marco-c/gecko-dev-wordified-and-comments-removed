@@ -1531,16 +1531,6 @@ x
 )
 :
         
-x
-=
-LogLevelFilter
-(
-x
-"
-WARNING
-"
-)
-        
 if
 not
 kwargs
@@ -1550,6 +1540,16 @@ verify_log_full
 "
 ]
 :
+            
+x
+=
+LogLevelFilter
+(
+x
+"
+WARNING
+"
+)
             
 x
 =
