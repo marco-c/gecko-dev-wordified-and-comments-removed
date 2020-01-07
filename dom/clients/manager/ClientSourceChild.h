@@ -22,6 +22,9 @@ namespace
 dom
 {
 class
+ClientSource
+;
+class
 ClientSourceConstructorArgs
 ;
 template
@@ -39,10 +42,7 @@ final
 public
 PClientSourceChild
 {
-ClientThing
-<
-ClientSourceChild
->
+ClientSource
 *
 mSource
 ;
@@ -128,6 +128,13 @@ ClientSourceChild
 *
 aThing
 )
+;
+ClientSource
+*
+GetSource
+(
+)
+const
 ;
 void
 MaybeStartTeardown
