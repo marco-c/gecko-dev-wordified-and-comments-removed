@@ -74,14 +74,6 @@ refcount
 (
 0
 )
-#
-ifdef
-JS_DEBUG
-debugToken
-{
-}
-#
-endif
 {
 }
 void

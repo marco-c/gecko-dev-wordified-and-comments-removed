@@ -4208,14 +4208,6 @@ keyHash
 (
 0
 )
-#
-ifdef
-JS_DEBUG
-mutationCount
-{
-}
-#
-endif
 {
 }
 }
@@ -5539,9 +5531,6 @@ mEntered
 (
 false
 )
-stats
-{
-}
 #
 endif
 {
