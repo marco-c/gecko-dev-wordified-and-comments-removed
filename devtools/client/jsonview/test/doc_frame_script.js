@@ -86,7 +86,7 @@ content
 addEventListener
 (
 "
-AppReadyStateChange
+JSONViewInitialized
 "
 (
 )
@@ -100,7 +100,7 @@ Test
 :
 JsonView
 :
-AppReadyStateChange
+JSONViewInitialized
 "
 )
 ;
@@ -109,12 +109,10 @@ AppReadyStateChange
 ;
 content
 .
-document
-.
 addEventListener
 (
 "
-readystatechange
+load
 "
 (
 )
@@ -128,7 +126,7 @@ Test
 :
 JsonView
 :
-DocReadyStateChange
+load
 "
 )
 ;
