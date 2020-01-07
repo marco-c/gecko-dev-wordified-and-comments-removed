@@ -85,16 +85,6 @@ MPL
 0
 /
 .
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]
 MOCHITEST_CHROME_MANIFESTS
 +
 =
