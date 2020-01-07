@@ -4209,3 +4209,7 @@ intlUtils
 ;
 }
 ;
+Window
+implements
+WebGPUProvider
+;

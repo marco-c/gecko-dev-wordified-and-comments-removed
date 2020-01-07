@@ -2131,6 +2131,12 @@ webbrowserpersist
 *
 dom
 /
+webgpu
+/
+*
+*
+dom
+/
 webidl
 /
 *

@@ -237,6 +237,9 @@ cache
 canvas
 '
 '
+webgpu
+'
+'
 chrome
 -
 webidl
