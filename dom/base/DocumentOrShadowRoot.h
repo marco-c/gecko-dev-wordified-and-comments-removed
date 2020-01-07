@@ -482,14 +482,6 @@ aSheet
 )
 ;
 void
-AppendSheet
-(
-StyleSheet
-&
-aSheet
-)
-;
-void
 InsertSheetAt
 (
 size_t
