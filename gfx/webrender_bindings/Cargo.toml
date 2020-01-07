@@ -92,13 +92,6 @@ log
 .
 4
 "
-env_logger
-=
-"
-0
-.
-5
-"
 [
 dependencies
 .

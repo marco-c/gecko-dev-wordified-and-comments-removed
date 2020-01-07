@@ -3122,6 +3122,10 @@ Init
 nullptr
 )
 ;
+GkRust_Init
+(
+)
+;
 nsresult
 rv
 =

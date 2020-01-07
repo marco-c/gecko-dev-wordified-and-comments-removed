@@ -38,10 +38,6 @@ extern
 crate
 log
 ;
-extern
-crate
-env_logger
-;
 #
 [
 cfg
