@@ -829,7 +829,7 @@ SuppressException
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
-ServiceWorkerJob
+ServiceWorkerJobProxyRunnable
 "
 kungFuDeathGrip
 .

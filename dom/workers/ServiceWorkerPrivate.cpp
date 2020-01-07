@@ -3750,7 +3750,7 @@ ServiceWorkerRegistrationInfo
 >
 (
 "
-ServiceWorkerRegistrationInfo
+ServiceWorkerRegistrationInfoProxy
 "
 aRegistration
 false
@@ -6995,7 +6995,7 @@ ServiceWorkerRegistrationInfo
 >
 (
 "
-ServiceWorkerRegistrationInfo
+ServiceWorkerRegistrationInfoProxy
 "
 registration
 false
