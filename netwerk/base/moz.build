@@ -1079,6 +1079,11 @@ nsIOService
 cpp
 '
 '
+nsIURIMutatorUtils
+.
+cpp
+'
+'
 nsLoadGroup
 .
 cpp
