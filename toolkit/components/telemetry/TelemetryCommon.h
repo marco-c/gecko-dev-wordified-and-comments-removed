@@ -405,15 +405,6 @@ ProcessID
 process
 )
 ;
-ProcessID
-GetIDForProcessName
-(
-const
-char
-*
-aProcessName
-)
-;
 GeckoProcessType
 GetGeckoProcessType
 (

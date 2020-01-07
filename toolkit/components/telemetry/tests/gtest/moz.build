@@ -115,11 +115,6 @@ UNIFIED_SOURCES
 =
 [
 '
-TelemetryFixture
-.
-cpp
-'
-'
 TelemetryTestHelpers
 .
 cpp
