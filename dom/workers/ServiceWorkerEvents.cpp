@@ -1674,6 +1674,10 @@ mInternalResponse
 TakeCacheInfoChannel
 (
 )
+.
+get
+(
+)
 ;
 if
 (
