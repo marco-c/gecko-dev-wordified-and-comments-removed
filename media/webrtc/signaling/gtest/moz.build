@@ -291,6 +291,11 @@ mediaconduit_unittests
 cpp
 '
 '
+rtpsources_unittests
+.
+cpp
+'
+'
 sdp_unittests
 .
 cpp
