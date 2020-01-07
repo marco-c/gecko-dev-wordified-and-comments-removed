@@ -377,15 +377,6 @@ resourceIds
 )
 {
 const
-availableLocales
-=
-L10nRegistry
-.
-getAvailableLocales
-(
-)
-;
-const
 appLocales
 =
 Services
@@ -586,7 +577,7 @@ obs
 addObserver
 (
 this
-'
+"
 intl
 :
 app
@@ -594,7 +585,7 @@ app
 locales
 -
 changed
-'
+"
 true
 )
 ;
@@ -610,7 +601,7 @@ obs
 removeObserver
 (
 this
-'
+"
 intl
 :
 app
@@ -618,7 +609,7 @@ app
 locales
 -
 changed
-'
+"
 )
 ;
 }
