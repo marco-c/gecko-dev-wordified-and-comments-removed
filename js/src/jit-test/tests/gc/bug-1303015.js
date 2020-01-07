@@ -32,6 +32,11 @@ lfGlobal
 =
 newGlobal
 (
+{
+sameZoneAs
+:
+this
+}
 )
 ;
 for

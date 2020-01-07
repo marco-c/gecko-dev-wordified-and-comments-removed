@@ -81,6 +81,11 @@ static
 =
 newGlobal
 (
+{
+sameZoneAs
+:
+this
+}
 )
 ;
 g

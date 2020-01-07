@@ -48,6 +48,11 @@ g
 =
 newGlobal
 (
+{
+sameZoneAs
+:
+this
+}
 )
 ;
 g

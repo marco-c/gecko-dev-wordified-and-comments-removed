@@ -131,6 +131,9 @@ function
 newGlobal
 (
 {
+sameZoneAs
+:
+this
 }
 )
 }

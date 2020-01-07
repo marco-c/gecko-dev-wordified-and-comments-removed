@@ -73,6 +73,11 @@ function
 {
 newGlobal
 (
+{
+sameZoneAs
+:
+this
+}
 )
 ;
 }
