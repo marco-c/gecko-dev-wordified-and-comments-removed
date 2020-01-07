@@ -3361,6 +3361,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mDefaultScale
+=
+-
+1
+.
+0
+;
 if
 (
 mIsRTL
