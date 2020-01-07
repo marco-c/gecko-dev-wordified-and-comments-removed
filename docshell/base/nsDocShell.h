@@ -393,9 +393,6 @@ ScreenOrientationInternal
 }
 }
 class
-nsIClipboardDragDropHookList
-;
-class
 nsICommandManager
 ;
 class
@@ -2719,12 +2716,6 @@ nsAutoPtr
 nsDocShellEditorData
 >
 mEditorData
-;
-nsCOMPtr
-<
-nsIClipboardDragDropHookList
->
-mTransferableHookData
 ;
 nsCOMPtr
 <

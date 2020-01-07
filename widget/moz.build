@@ -599,16 +599,6 @@ nsIClipboard
 idl
 '
 '
-nsIClipboardDragDropHookList
-.
-idl
-'
-'
-nsIClipboardDragDropHooks
-.
-idl
-'
-'
 nsIClipboardHelper
 .
 idl

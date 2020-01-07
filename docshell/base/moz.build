@@ -507,11 +507,6 @@ nsDocShellLoadInfo
 cpp
 '
 '
-nsDocShellTransferableHooks
-.
-cpp
-'
-'
 nsDocShellTreeOwner
 .
 cpp
