@@ -103,7 +103,7 @@ isLoaded
 await
 blocklist
 .
-loadBlocklistAsync
+_preloadBlocklist
 (
 )
 ;
@@ -145,7 +145,7 @@ complete
 await
 blocklist
 .
-loadBlocklistAsync
+_preloadBlocklist
 (
 )
 ;
@@ -235,7 +235,7 @@ args
 await
 blocklist
 .
-loadBlocklistAsync
+_preloadBlocklist
 (
 )
 ;

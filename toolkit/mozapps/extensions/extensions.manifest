@@ -40,9 +40,6 @@ ae1d
 process
 =
 main
-#
-ifndef
-MOZ_BUILD_APP_IS_BROWSER
 category
 profile
 -
@@ -62,8 +59,6 @@ blocklist
 process
 =
 main
-#
-endif
 category
 update
 -
