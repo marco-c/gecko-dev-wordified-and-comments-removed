@@ -11,7 +11,7 @@ PACKAGE_VERSION
 '
 0
 .
-25
+26
 '
 setup
 (
