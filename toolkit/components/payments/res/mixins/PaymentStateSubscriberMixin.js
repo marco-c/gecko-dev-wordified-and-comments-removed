@@ -97,12 +97,12 @@ shipping
 }
 savedAddresses
 :
-[
-]
+{
+}
 savedBasicCards
 :
-[
-]
+{
+}
 }
 )
 ;

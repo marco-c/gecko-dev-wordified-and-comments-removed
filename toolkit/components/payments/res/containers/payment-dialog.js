@@ -242,7 +242,7 @@ cardSecurityCode
 )
 ;
 }
-setLoadingState
+setStateFromParent
 (
 state
 )

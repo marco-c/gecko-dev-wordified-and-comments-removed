@@ -24,6 +24,9 @@ concat
 expiration
 "
 "
+guid
+"
+"
 number
 "
 "
