@@ -207,6 +207,16 @@ comdlg32
 dll
 '
 '
+hid
+.
+dll
+'
+'
+msimg32
+.
+dll
+'
+'
 netapi32
 .
 dll
