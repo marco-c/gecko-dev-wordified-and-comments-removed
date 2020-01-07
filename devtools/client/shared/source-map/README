@@ -21,9 +21,9 @@ devtools
 -
 html
 /
-devtools
--
-core
+debugger
+.
+html
 /
 tree
 /
@@ -85,9 +85,9 @@ devtools
 -
 html
 /
-devtools
--
-core
+debugger
+.
+html
 /
 issues
 and
@@ -95,6 +95,8 @@ label
 it
 with
 "
+devtools
+-
 source
 -
 map

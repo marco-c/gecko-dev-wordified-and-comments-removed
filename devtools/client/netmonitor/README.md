@@ -1017,9 +1017,9 @@ devtools
 -
 html
 /
-devtools
--
-core
+debugger
+.
+html
 /
 blob
 /
