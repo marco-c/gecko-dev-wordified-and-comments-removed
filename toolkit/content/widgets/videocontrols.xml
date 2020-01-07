@@ -2177,8 +2177,6 @@ updateOrientationState
 this
 .
 isVideoInFullScreen
-(
-)
 )
 ;
 if
@@ -7065,7 +7063,7 @@ if
 (
 this
 .
-isEventWithin
+checkEventWithin
 (
 event
 this
@@ -7771,6 +7769,7 @@ video
 playback
 .
 }
+get
 isVideoWithoutAudioTrack
 (
 )
@@ -7813,8 +7812,6 @@ if
 this
 .
 isVideoWithoutAudioTrack
-(
-)
 )
 {
 return
@@ -7830,8 +7827,6 @@ muted
 this
 .
 isEffectivelyMuted
-(
-)
 ;
 if
 (
@@ -7889,6 +7884,7 @@ controlling
 volume
 .
 }
+get
 isVideoInFullScreen
 (
 )
@@ -7911,8 +7907,6 @@ toggleFullscreen
 this
 .
 isVideoInFullScreen
-(
-)
 ?
 document
 .
@@ -7994,8 +7988,6 @@ attrName
 this
 .
 isVideoInFullScreen
-(
-)
 ?
 "
 exitfullscreenlabel
@@ -8036,8 +8028,6 @@ if
 this
 .
 isVideoInFullScreen
-(
-)
 )
 {
 this
@@ -8202,8 +8192,6 @@ updateOrientationState
 this
 .
 isVideoInFullScreen
-(
-)
 )
 ;
 /
@@ -8275,8 +8263,6 @@ if
 this
 .
 isVideoInFullScreen
-(
-)
 )
 {
 Utils
@@ -8847,6 +8833,7 @@ value
 )
 ;
 }
+get
 isEffectivelyMuted
 (
 )
@@ -8877,8 +8864,6 @@ muted
 this
 .
 isEffectivelyMuted
-(
-)
 ;
 if
 (
@@ -9776,7 +9761,7 @@ Prevent
 page
 scrolling
 }
-isSupportedTextTrack
+checkTextTrackSupport
 (
 textTrack
 )
@@ -9855,7 +9840,7 @@ video
 textTracks
 this
 .
-isSupportedTextTrack
+checkTextTrackSupport
 )
 ;
 }
@@ -9910,6 +9895,7 @@ index
 0
 ;
 }
+get
 isCastingOn
 (
 )
@@ -9936,8 +9922,6 @@ if
 this
 .
 isCastingOn
-(
-)
 )
 {
 this
@@ -10042,6 +10026,7 @@ setCastingButtonState
 )
 ;
 }
+get
 isClosedCaptionOn
 (
 )
@@ -10087,8 +10072,6 @@ if
 this
 .
 isClosedCaptionOn
-(
-)
 )
 {
 this
@@ -10203,7 +10186,7 @@ if
 !
 this
 .
-isSupportedTextTrack
+checkTextTrackSupport
 (
 tt
 )
@@ -10797,7 +10780,7 @@ setClosedCaptionButtonState
 )
 ;
 }
-isEventWithin
+checkEventWithin
 (
 event
 parent1
