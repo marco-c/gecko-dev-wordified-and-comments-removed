@@ -1277,10 +1277,9 @@ Type
 )
 =
 =
-LayoutFrameType
-:
-:
-Image
+Type
+(
+)
 &
 &
 static_cast
