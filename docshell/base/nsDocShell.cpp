@@ -20284,7 +20284,7 @@ NS_ERROR_BLOCKED_BY_POLICY
 error
 =
 "
-blockedByPolicyTemp
+blockedByPolicy
 "
 ;
 break
