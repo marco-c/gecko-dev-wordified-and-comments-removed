@@ -1893,7 +1893,6 @@ async
 bookmarkPage
 (
 aBrowser
-aShowEditUI
 aUrl
 =
 null
@@ -1953,10 +1952,6 @@ info
 let
 showEditUI
 =
-aShowEditUI
-&
-&
-(
 !
 isNewBookmark
 |
@@ -1964,7 +1959,6 @@ isNewBookmark
 StarUI
 .
 showForNewBookmarks
-)
 ;
 if
 (
@@ -7895,7 +7889,6 @@ bookmarkPage
 gBrowser
 .
 selectedBrowser
-true
 )
 ;
 }

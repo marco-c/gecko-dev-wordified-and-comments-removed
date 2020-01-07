@@ -4529,7 +4529,6 @@ PlacesCommandHook
 bookmarkPage
 (
 aBrowser
-true
 url
 title
 )
