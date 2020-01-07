@@ -9142,6 +9142,15 @@ scalability
 numberOfLines
 =
 15000
+markOccurrences
+=
+true
+markOverloadedOperatorsOccurrences
+=
+true
+stickyOccurrences
+=
+false
 "
 "
 "
