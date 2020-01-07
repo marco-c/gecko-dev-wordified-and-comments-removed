@@ -204,14 +204,6 @@ AllPoliciesApplied
 "
 )
 ;
-dump
-(
-bytesized
-:
-setupPolicyEngineWithJson
-resolving
-)
-;
 resolve
 (
 )
