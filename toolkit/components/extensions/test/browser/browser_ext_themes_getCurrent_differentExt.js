@@ -134,17 +134,6 @@ theme
 )
 ;
 }
-manifest
-:
-{
-permissions
-:
-[
-"
-theme
-"
-]
-}
 }
 )
 ;
