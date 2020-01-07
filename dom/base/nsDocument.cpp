@@ -384,13 +384,6 @@ h
 #
 include
 "
-nsIDOMDOMImplementation
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentXBL
 .
 h

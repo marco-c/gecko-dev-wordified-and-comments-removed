@@ -139,11 +139,6 @@ nsIDOMDOMException
 idl
 '
 '
-nsIDOMDOMImplementation
-.
-idl
-'
-'
 nsIDOMElement
 .
 idl

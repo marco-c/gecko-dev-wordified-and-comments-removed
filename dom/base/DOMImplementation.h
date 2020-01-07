@@ -7,13 +7,6 @@ mozilla_dom_DOMImplementation_h
 #
 include
 "
-nsIDOMDOMImplementation
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -85,9 +78,6 @@ nsString
 .
 h
 "
-class
-nsIDOMDocument
-;
 namespace
 mozilla
 {
@@ -102,7 +92,7 @@ DOMImplementation
 final
 :
 public
-nsIDOMDOMImplementation
+nsISupports
 public
 nsWrapperCache
 {
@@ -192,7 +182,6 @@ aGivenProto
 )
 override
 ;
-NS_DECL_NSIDOMDOMIMPLEMENTATION
 bool
 HasFeature
 (
@@ -285,10 +274,6 @@ nsIDocument
 *
 *
 aDocument
-nsIDOMDocument
-*
-*
-aDOMDocument
 )
 ;
 nsresult
@@ -302,10 +287,6 @@ nsIDocument
 *
 *
 aDocument
-nsIDOMDocument
-*
-*
-aDOMDocument
 )
 ;
 nsCOMPtr
