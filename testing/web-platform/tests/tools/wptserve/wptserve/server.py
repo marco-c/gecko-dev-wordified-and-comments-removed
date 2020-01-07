@@ -1091,7 +1091,16 @@ config
 =
 {
 "
-host
+browser_host
+"
+:
+server_address
+[
+0
+]
+                             
+"
+server_host
 "
 :
 server_address

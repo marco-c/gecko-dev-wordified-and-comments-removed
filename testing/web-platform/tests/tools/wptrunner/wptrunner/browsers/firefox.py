@@ -791,7 +791,7 @@ env_options
 return
 {
 "
-host_ip
+server_host
 "
 :
 "
@@ -805,34 +805,10 @@ host_ip
 "
             
 "
-host
-"
-:
-"
-web
--
-platform
-.
-test
-"
-            
-"
 bind_address
 "
 :
 False
-            
-"
-certificate_domain
-"
-:
-"
-web
--
-platform
-.
-test
-"
             
 "
 supports_debugger

@@ -272,7 +272,7 @@ env_options
 return
 {
 "
-host_ip
+server_host
 "
 :
 "
@@ -283,18 +283,6 @@ host_ip
 0
 .
 1
-"
-            
-"
-host
-"
-:
-"
-web
--
-platform
-.
-test
 "
             
 "

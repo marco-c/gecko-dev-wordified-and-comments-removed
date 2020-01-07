@@ -329,7 +329,7 @@ args
             
 if
 "
-host
+server_host
 "
 in
 env_options
@@ -339,7 +339,7 @@ assert
 config
 [
 "
-host
+server_host
 "
 ]
 =
@@ -347,7 +347,26 @@ host
 env_options
 [
 "
-host
+server_host
+"
+]
+            
+else
+:
+                
+assert
+config
+[
+"
+server_host
+"
+]
+=
+=
+config
+[
+"
+browser_host
 "
 ]
             

@@ -1090,7 +1090,7 @@ self
 server_config
 [
 "
-host
+browser_host
 "
 ]
                                

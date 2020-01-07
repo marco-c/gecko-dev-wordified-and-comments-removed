@@ -1,6 +1,6 @@
 {
 "
-host
+browser_host
 "
 :
 "
@@ -21,7 +21,7 @@ ws_doc_root
 :
 null
 "
-host_ip
+server_host
 "
 :
 null

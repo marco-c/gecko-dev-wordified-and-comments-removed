@@ -910,7 +910,7 @@ ssl
         
 if
 "
-host
+browser_host
 "
 in
 self
@@ -921,7 +921,7 @@ options
 local_config
 [
 "
-host
+browser_host
 "
 ]
 =
@@ -930,7 +930,7 @@ self
 options
 [
 "
-host
+browser_host
 "
 ]
         
@@ -981,7 +981,7 @@ f
 local_config
 [
 "
-host_ip
+server_host
 "
 ]
 =
@@ -992,7 +992,7 @@ options
 get
 (
 "
-host_ip
+server_host
 "
 None
 )
@@ -1072,22 +1072,12 @@ None
         
 host
 =
-self
-.
-options
-.
-get
-(
-"
-certificate_domain
-"
 config
 [
 "
-host
+browser_host
 "
 ]
-)
         
 hosts
 =
@@ -1666,24 +1656,11 @@ host
 self
 .
 config
-.
-get
-(
+[
 "
-host_ip
+server_host
 "
-)
-or
-self
-.
-config
-.
-get
-(
-"
-host
-"
-)
+]
         
 for
 scheme
