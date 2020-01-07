@@ -15,9 +15,16 @@ fluent
 .
 migrate
 import
-MESSAGE_REFERENCE
 COPY
 REPLACE
+from
+fluent
+.
+migrate
+.
+helpers
+import
+MESSAGE_REFERENCE
 def
 migrate
 (

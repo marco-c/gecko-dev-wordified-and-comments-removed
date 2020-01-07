@@ -161,20 +161,7 @@ isinstance
 entry
 FTL
 .
-Comment
-)
-:
-            
-return
-entry
-        
-if
-isinstance
-(
-entry
-FTL
-.
-Section
+BaseComment
 )
 :
             
@@ -280,7 +267,4 @@ FTL
 Resource
 (
 body
-reference
-.
-comment
 )

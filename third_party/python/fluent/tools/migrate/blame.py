@@ -3,6 +3,15 @@ argparse
 import
 json
 import
+os
+from
+compare_locales
+.
+parser
+import
+getParser
+Junk
+import
 hglib
 from
 hglib
@@ -11,13 +20,6 @@ util
 import
 b
 cmdbuilder
-from
-compare_locales
-.
-parser
-import
-getParser
-Junk
 class
 Blame
 (
@@ -29,7 +31,7 @@ def
 __init__
 (
 self
-repopath
+client
 )
 :
         
@@ -37,12 +39,7 @@ self
 .
 client
 =
-hglib
-.
-open
-(
-repopath
-)
+client
         
 self
 .
@@ -59,9 +56,10 @@ blame
 }
     
 def
-main
+attribution
 (
 self
+file_paths
 )
 :
         
@@ -76,6 +74,26 @@ b
 annotate
 '
 )
+*
+map
+(
+b
+file_paths
+)
+template
+=
+'
+json
+'
+            
+date
+=
+True
+user
+=
+True
+cwd
+=
 self
 .
 client
@@ -83,17 +101,6 @@ client
 root
 (
 )
-d
-=
-True
-u
-=
-True
-T
-=
-'
-json
-'
 )
         
 blame_json
@@ -162,12 +169,12 @@ file_blame
 )
 :
         
-abspath
+path
 =
 file_blame
 [
 '
-abspath
+path
 '
 ]
         
@@ -178,7 +185,7 @@ parser
 =
 getParser
 (
-abspath
+path
 )
         
 except
@@ -191,7 +198,7 @@ self
 .
 blame
 [
-abspath
+path
 ]
 =
 {
@@ -201,12 +208,21 @@ parser
 .
 readFile
 (
-file_blame
-[
-'
+os
+.
 path
-'
-]
+.
+join
+(
+self
+.
+client
+.
+root
+(
+)
+path
+)
 )
         
 entities
@@ -352,7 +368,7 @@ self
 .
 blame
 [
-abspath
+path
 ]
 [
 e
@@ -385,9 +401,23 @@ parser
 .
 add_argument
 (
-"
-repopath
-"
+'
+repo_path
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+file_path
+'
+nargs
+=
+'
++
+'
 )
     
 args
@@ -402,17 +432,25 @@ blame
 =
 Blame
 (
+hglib
+.
+open
+(
 args
 .
-repopath
+repo_path
+)
 )
     
-blimey
+attrib
 =
 blame
 .
-main
+attribution
 (
+args
+.
+file_path
 )
     
 print
@@ -421,7 +459,7 @@ json
 .
 dumps
 (
-blimey
+attrib
 indent
 =
 4

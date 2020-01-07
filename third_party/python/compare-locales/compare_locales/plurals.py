@@ -244,6 +244,27 @@ zero
 other
 '
 )
+    
+(
+'
+zero
+'
+'
+one
+'
+'
+two
+'
+'
+few
+'
+'
+many
+'
+'
+other
+'
+)
 )
 CATEGORIES_BY_LOCALE
 =
@@ -309,7 +330,7 @@ az
 :
 CATEGORIES_BY_INDEX
 [
-0
+1
 ]
     
 '
@@ -338,7 +359,7 @@ BD
 :
 CATEGORIES_BY_INDEX
 [
-1
+2
 ]
     
 '
@@ -349,7 +370,7 @@ IN
 :
 CATEGORIES_BY_INDEX
 [
-1
+2
 ]
     
 '
@@ -367,7 +388,7 @@ bs
 :
 CATEGORIES_BY_INDEX
 [
-1
+7
 ]
     
 '
@@ -403,7 +424,7 @@ cy
 :
 CATEGORIES_BY_INDEX
 [
-1
+18
 ]
     
 '
@@ -552,7 +573,7 @@ fa
 :
 CATEGORIES_BY_INDEX
 [
-0
+2
 ]
     
 '
@@ -659,7 +680,7 @@ IN
 :
 CATEGORIES_BY_INDEX
 [
-1
+2
 ]
     
 '
@@ -773,7 +794,7 @@ ka
 :
 CATEGORIES_BY_INDEX
 [
-0
+1
 ]
     
 '
@@ -800,7 +821,7 @@ km
 :
 CATEGORIES_BY_INDEX
 [
-1
+0
 ]
     
 '
@@ -908,7 +929,7 @@ ms
 :
 CATEGORIES_BY_INDEX
 [
-1
+0
 ]
     
 '
@@ -917,7 +938,7 @@ my
 :
 CATEGORIES_BY_INDEX
 [
-1
+0
 ]
     
 '
@@ -968,7 +989,7 @@ oc
 :
 CATEGORIES_BY_INDEX
 [
-1
+2
 ]
     
 '
@@ -988,7 +1009,7 @@ IN
 :
 CATEGORIES_BY_INDEX
 [
-1
+2
 ]
     
 '
@@ -1037,7 +1058,7 @@ ro
 :
 CATEGORIES_BY_INDEX
 [
-1
+5
 ]
     
 '
@@ -1156,7 +1177,7 @@ tr
 :
 CATEGORIES_BY_INDEX
 [
-0
+1
 ]
     
 '
@@ -1192,7 +1213,7 @@ uz
 :
 CATEGORIES_BY_INDEX
 [
-0
+1
 ]
     
 '
@@ -1201,7 +1222,7 @@ vi
 :
 CATEGORIES_BY_INDEX
 [
-1
+0
 ]
     
 '

@@ -299,14 +299,9 @@ else
                 
 self
 .
-assertEqual
-(
-type
+assertIsInstance
 (
 entity
-)
-.
-__name__
 ref
 [
 0
