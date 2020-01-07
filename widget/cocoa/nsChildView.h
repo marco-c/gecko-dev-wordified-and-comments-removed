@@ -1032,6 +1032,11 @@ GetScreenBounds
 )
 override
 ;
+void
+UpdateBoundsFromView
+(
+)
+;
 CGFloat
 BackingScaleFactor
 (
