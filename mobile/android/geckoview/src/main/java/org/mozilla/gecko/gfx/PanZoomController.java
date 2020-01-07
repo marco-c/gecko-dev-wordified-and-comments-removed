@@ -301,6 +301,8 @@ add
 (
 new
 Pair
+<
+>
 (
 EVENT_SOURCE_MOTION
 event
@@ -604,6 +606,8 @@ add
 (
 new
 Pair
+<
+>
 (
 EVENT_SOURCE_SCROLL
 event
@@ -758,6 +762,8 @@ add
 (
 new
 Pair
+<
+>
 (
 EVENT_SOURCE_MOUSE
 event
