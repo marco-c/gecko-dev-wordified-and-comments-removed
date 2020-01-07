@@ -119,11 +119,6 @@ dom
 =
 [
 '
-FileReaderSync
-.
-h
-'
-'
 WorkerLocation
 .
 h
@@ -250,11 +245,6 @@ UNIFIED_SOURCES
 [
 '
 ChromeWorkerScope
-.
-cpp
-'
-'
-FileReaderSync
 .
 cpp
 '

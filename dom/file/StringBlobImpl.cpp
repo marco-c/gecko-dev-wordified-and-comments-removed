@@ -1,7 +1,7 @@
 #
 include
 "
-StreamBlobImpl
+StringBlobImpl
 .
 h
 "

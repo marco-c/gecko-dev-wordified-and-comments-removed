@@ -201,6 +201,11 @@ FileReader
 h
 '
 '
+FileReaderSync
+.
+h
+'
+'
 MemoryBlobImpl
 .
 h
@@ -277,6 +282,11 @@ cpp
 '
 '
 FileReader
+.
+cpp
+'
+'
+FileReaderSync
 .
 cpp
 '
