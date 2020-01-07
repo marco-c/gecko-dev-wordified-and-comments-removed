@@ -115,12 +115,15 @@ break
 case
 MemPressure_Ongoing
 :
+case
+MemPressure_Stopping
+:
 sMemoryPressurePending
 .
 compareExchange
 (
 MemPressure_None
-MemPressure_Ongoing
+aState
 )
 ;
 break

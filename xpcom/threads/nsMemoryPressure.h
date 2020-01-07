@@ -19,6 +19,7 @@ MemPressure_None
 0
 MemPressure_New
 MemPressure_Ongoing
+MemPressure_Stopping
 }
 ;
 MemoryPressureState
