@@ -1034,10 +1034,6 @@ run_test
 (
 )
 {
-throwOnUpdateErrors
-(
-)
-;
 gHttpServ
 =
 new
@@ -1635,6 +1631,10 @@ forceTableUpdate
 (
 )
 {
+throwOnUpdateErrors
+(
+)
+;
 Services
 .
 prefs
@@ -1671,6 +1671,10 @@ disableAllUpdates
 (
 )
 {
+stopThrowingOnUpdateErrors
+(
+)
+;
 TEST_TABLE_DATA_LIST
 .
 forEach
