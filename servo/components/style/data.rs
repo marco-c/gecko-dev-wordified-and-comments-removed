@@ -1352,7 +1352,7 @@ empty
 }
 let
 mut
-xbl_stylists
+non_document_styles
 =
 SmallVec
 :
@@ -1371,7 +1371,7 @@ new
 )
 ;
 let
-cut_off_inheritance
+matches_doc_author_rules
 =
 element
 .
@@ -1382,7 +1382,7 @@ data
 quirks_mode
 |
 {
-xbl_stylists
+non_document_styles
 .
 push
 (
@@ -1405,8 +1405,8 @@ new
 (
 shared_context
 &
-xbl_stylists
-cut_off_inheritance
+non_document_styles
+matches_doc_author_rules
 element
 self
 nth_index_cache
