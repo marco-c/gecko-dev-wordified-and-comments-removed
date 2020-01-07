@@ -40,8 +40,6 @@ css
 :
 :
 ConditionRule
-public
-nsIDOMCSSGroupingRule
 {
 protected
 :
@@ -60,7 +58,6 @@ CSSMozDocumentRule
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 int32_t
 GetType
 (
@@ -110,7 +107,6 @@ URLMatchingFunction
 aUrlMatchingFunction
 )
 ;
-NS_DECL_NSIDOMCSSGROUPINGRULE
 uint16_t
 Type
 (
