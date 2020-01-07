@@ -1558,10 +1558,6 @@ zone
 str
 -
 >
-asTenured
-(
-)
-.
 zone
 (
 )
