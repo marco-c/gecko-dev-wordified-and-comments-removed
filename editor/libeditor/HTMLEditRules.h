@@ -374,17 +374,6 @@ aDD
 )
 ;
 nsresult
-GetIndentState
-(
-bool
-*
-aCanIndent
-bool
-*
-aCanOutdent
-)
-;
-nsresult
 GetAlignment
 (
 bool
