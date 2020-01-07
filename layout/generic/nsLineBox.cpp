@@ -1119,7 +1119,6 @@ BreakTypeToString
 StyleClear
 aBreakType
 )
-const
 {
 switch
 (
