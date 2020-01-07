@@ -183,6 +183,10 @@ uint8_t
 aFontData
 =
 nullptr
+uint32_t
+aLength
+=
+0
 )
 ;
 virtual
@@ -203,6 +207,12 @@ cairo_font_face_t
 *
 CairoFontFace
 (
+const
+gfxFontStyle
+*
+aStyle
+=
+nullptr
 )
 ;
 cairo_scaled_font_t
