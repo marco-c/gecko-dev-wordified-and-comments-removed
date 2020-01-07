@@ -42,7 +42,7 @@ h
 #
 include
 <
-ImageHlp
+imagehlp
 .
 h
 >
