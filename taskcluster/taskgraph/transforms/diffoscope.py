@@ -181,7 +181,6 @@ in
 tasks
 :
         
-yield
 validate_schema
 (
             
@@ -214,6 +213,9 @@ unknown
 )
 )
 )
+        
+yield
+task
 transforms
 .
 add
