@@ -719,7 +719,7 @@ function
 (
 )
 {
-assert_true
+assert_greater_than
 (
 animations
 [
@@ -727,7 +727,6 @@ animations
 ]
 .
 startTime
->
 animations
 [
 1
@@ -910,7 +909,7 @@ startTime
 '
 )
 ;
-assert_true
+assert_less_than
 (
 animations
 [
@@ -918,7 +917,6 @@ animations
 ]
 .
 startTime
-<
 animations
 [
 0
@@ -1177,7 +1175,7 @@ function
 (
 )
 {
-assert_true
+assert_greater_than
 (
 animations
 [
@@ -1185,7 +1183,6 @@ animations
 ]
 .
 startTime
->
 animations
 [
 0
@@ -1199,11 +1196,14 @@ starts
 later
 than
 existing
+'
++
+'
 animations
 '
 )
 ;
-assert_true
+assert_greater_than
 (
 animations
 [
@@ -1211,7 +1211,6 @@ animations
 ]
 .
 startTime
->
 animations
 [
 2
