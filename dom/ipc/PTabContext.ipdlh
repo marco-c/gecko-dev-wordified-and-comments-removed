@@ -115,6 +115,17 @@ MPL
 *
 /
 include
+"
+mozilla
+/
+dom
+/
+TabMessageUtils
+.
+h
+"
+;
+include
 protocol
 PBrowser
 ;

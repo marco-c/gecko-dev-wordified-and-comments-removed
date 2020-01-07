@@ -29,6 +29,9 @@ InputData
 namespace
 layers
 {
+class
+APZInputBridgeParent
+;
 struct
 ScrollableLayerGuid
 ;
@@ -79,6 +82,10 @@ aEvent
 ;
 protected
 :
+friend
+class
+APZInputBridgeParent
+;
 virtual
 void
 ProcessUnhandledEvent

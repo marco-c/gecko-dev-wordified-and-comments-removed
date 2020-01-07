@@ -671,10 +671,10 @@ APZThreadUtils
 :
 SetControllerThread
 (
-CompositorThreadHolder
+MessageLoop
 :
 :
-Loop
+current
 (
 )
 )
