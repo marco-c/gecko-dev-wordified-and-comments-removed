@@ -3067,6 +3067,7 @@ extra_prefixes
 =
 "
 webkit
+moz
 "
 animation_value_type
 =
