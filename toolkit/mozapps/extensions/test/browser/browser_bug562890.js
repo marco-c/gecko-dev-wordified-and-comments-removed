@@ -1,3 +1,4 @@
+async
 function
 test
 (
@@ -94,6 +95,10 @@ addonPrefsURI
 ]
 )
 ;
+let
+aManager
+=
+await
 open_manager
 (
 "
@@ -105,11 +110,8 @@ list
 /
 extension
 "
-function
-(
-aManager
 )
-{
+;
 var
 addonList
 =
@@ -298,9 +300,6 @@ close_manager
 (
 aManager
 finish
-)
-;
-}
 )
 ;
 }
