@@ -667,6 +667,11 @@ tab_text
 :
 case
 "
+tab_selected
+"
+:
+case
+"
 toolbar_field
 "
 :
