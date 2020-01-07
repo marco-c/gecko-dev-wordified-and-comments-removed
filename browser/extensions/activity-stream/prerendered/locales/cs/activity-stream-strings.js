@@ -801,7 +801,7 @@ topsites_form_use_image_link
 :
 "
 Pou
-vejte
+t
 vlastn
 obr
 zek
