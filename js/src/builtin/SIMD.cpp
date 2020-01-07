@@ -3962,6 +3962,13 @@ x
 )
 {
 return
+static_cast
+<
+MaybeUnsignedT
+>
+(
+1U
+*
 MaybeUnsignedT
 (
 -
@@ -3971,6 +3978,7 @@ MaybeUnsignedT
 MaybeUnsignedT
 (
 x
+)
 )
 ;
 }
