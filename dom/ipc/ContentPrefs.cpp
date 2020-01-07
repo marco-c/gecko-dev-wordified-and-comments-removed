@@ -2338,6 +2338,13 @@ privacy
 .
 resistFingerprinting
 .
+autoDeclineNoUserInputCanvasPrompts
+"
+"
+privacy
+.
+resistFingerprinting
+.
 reduceTimerPrecision
 .
 microseconds
