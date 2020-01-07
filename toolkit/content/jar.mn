@@ -318,6 +318,13 @@ content
 /
 global
 /
+buildconfig
+.
+css
+content
+/
+global
+/
 contentAreaUtils
 .
 js
@@ -369,6 +376,13 @@ global
 mozilla
 .
 xhtml
+content
+/
+global
+/
+aboutMozilla
+.
+css
 content
 /
 global
