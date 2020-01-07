@@ -2800,16 +2800,6 @@ uint32_t
 codePoint
 )
 {
-MOZ_ASSERT
-(
-!
-userbuf
-.
-atStart
-(
-)
-)
-;
 unsigned
 numUnits
 =
