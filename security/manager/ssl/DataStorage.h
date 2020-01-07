@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -617,12 +610,6 @@ mTemporaryDataTable
 ;
 DataStorageTable
 mPrivateDataTable
-;
-nsCOMPtr
-<
-nsIThread
->
-mWorkerThread
 ;
 nsCOMPtr
 <
