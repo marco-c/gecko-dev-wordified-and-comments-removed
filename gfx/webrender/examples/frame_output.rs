@@ -57,7 +57,7 @@ use
 euclid
 :
 :
-ScaleFactor
+TypedScale
 ;
 #
 [
@@ -442,7 +442,7 @@ to_f32
 (
 )
 /
-ScaleFactor
+TypedScale
 :
 :
 new

@@ -4215,6 +4215,14 @@ dirty
 origin
 .
 x
+*
+descriptor
+.
+format
+.
+bytes_per_pixel
+(
+)
 ;
 let
 origin

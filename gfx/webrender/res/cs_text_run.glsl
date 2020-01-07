@@ -143,6 +143,13 @@ prim
 .
 user_data1
 ;
+int
+subpx_dir
+=
+prim
+.
+user_data2
+;
 Glyph
 glyph
 =
@@ -152,8 +159,6 @@ prim
 .
 specific_prim_address
 glyph_index
-text
-.
 subpx_dir
 )
 ;

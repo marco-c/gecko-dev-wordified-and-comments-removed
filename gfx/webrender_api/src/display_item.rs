@@ -344,6 +344,13 @@ LayerPixel
 ;
 #
 [
+repr
+(
+u8
+)
+]
+#
+[
 derive
 (
 Clone

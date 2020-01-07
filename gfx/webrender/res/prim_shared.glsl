@@ -4386,9 +4386,6 @@ bg_color
 vec2
 offset
 ;
-int
-subpx_dir
-;
 }
 ;
 TextRun
@@ -4426,15 +4423,6 @@ data
 ]
 .
 xy
-int
-(
-data
-[
-2
-]
-.
-z
-)
 )
 ;
 }
