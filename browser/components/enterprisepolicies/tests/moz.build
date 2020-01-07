@@ -142,6 +142,15 @@ browser
 .
 ini
 '
+'
+browser
+/
+disable_fxscreenshots
+/
+browser
+.
+ini
+'
 ]
 TESTING_JS_MODULES
 +
