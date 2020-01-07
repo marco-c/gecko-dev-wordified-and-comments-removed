@@ -1390,6 +1390,12 @@ GetApzcTreeManager
 )
 const
 ;
+void
+AssertOnSamplerThread
+(
+)
+const
+;
 bool
 ConvertToGecko
 (

@@ -748,6 +748,11 @@ AsyncTransformComponentMatrix
 aOutClipTransform
 )
 ;
+void
+AssertOnSamplerThread
+(
+)
+;
 protected
 :
 virtual
@@ -755,6 +760,13 @@ virtual
 APZCTreeManager
 (
 )
+;
+APZSampler
+*
+GetSampler
+(
+)
+const
 ;
 virtual
 AsyncPanZoomController

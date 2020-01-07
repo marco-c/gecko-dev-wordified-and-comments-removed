@@ -231,13 +231,6 @@ FocusTarget
 aState
 )
 {
-APZThreadUtils
-:
-:
-AssertOnSamplerThread
-(
-)
-;
 MutexAutoLock
 lock
 (
@@ -705,13 +698,6 @@ LayersId
 aLayersId
 )
 {
-APZThreadUtils
-:
-:
-AssertOnSamplerThread
-(
-)
-;
 MutexAutoLock
 lock
 (
