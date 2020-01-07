@@ -2066,17 +2066,6 @@ aStats
 )
 )
 ;
-AbstractThread
-:
-:
-AutoEnter
-context
-(
-AbstractMainThread
-(
-)
-)
-;
 GetOwner
 (
 )
