@@ -6061,6 +6061,11 @@ this
 >
 <
 toolbarseparator
+hidden
+=
+"
+true
+"
 /
 >
 <
@@ -6073,6 +6078,11 @@ appMenuRecentHighlights
 .
 label
 ;
+"
+hidden
+=
+"
+true
 "
 class
 =
@@ -6093,6 +6103,11 @@ appMenu
 library
 -
 recentHighlights
+"
+hidden
+=
+"
+true
 "
 orient
 =
