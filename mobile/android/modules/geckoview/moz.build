@@ -95,11 +95,6 @@ AndroidLog
 jsm
 '
 '
-GeckoViewAccessibility
-.
-jsm
-'
-'
 GeckoViewContent
 .
 jsm
