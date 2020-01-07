@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

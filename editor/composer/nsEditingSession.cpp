@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsHTMLDocument
 .
 h

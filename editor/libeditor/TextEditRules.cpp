@@ -217,13 +217,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

@@ -66,9 +66,6 @@ class
 nsIContent
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMEvent
 ;
 class
@@ -493,7 +490,7 @@ DataTransfer
 aDataTransfer
 int32_t
 aIndex
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 nsINode
@@ -536,7 +533,7 @@ aAction
 bool
 IsSafeToInsertData
 (
-nsIDOMDocument
+nsIDocument
 *
 aSourceDoc
 )

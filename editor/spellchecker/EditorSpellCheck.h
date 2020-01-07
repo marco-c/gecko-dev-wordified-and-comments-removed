@@ -108,6 +108,9 @@ mozilla
 class
 DictionaryFetcher
 ;
+class
+EditorBase
+;
 enum
 dictCompare
 {
@@ -165,9 +168,9 @@ nsITextServicesFilter
 >
 mTxtSrvFilter
 ;
-nsCOMPtr
+RefPtr
 <
-nsIEditor
+EditorBase
 >
 mEditor
 ;

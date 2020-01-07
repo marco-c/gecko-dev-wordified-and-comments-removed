@@ -434,6 +434,12 @@ base
 '
 '
 /
+dom
+/
+html
+'
+'
+/
 extensions
 /
 spellcheck

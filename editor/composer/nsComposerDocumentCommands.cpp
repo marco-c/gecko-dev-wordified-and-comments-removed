@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
