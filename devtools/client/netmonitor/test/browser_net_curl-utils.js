@@ -1862,6 +1862,7 @@ requestData
 {
 let
 {
+id
 url
 method
 httpVersion
@@ -1885,6 +1886,18 @@ postDataText
 null
 }
 ;
+let
+requestHeaders
+=
+yield
+requestData
+(
+id
+"
+requestHeaders
+"
+)
+;
 for
 (
 let
@@ -1893,8 +1906,6 @@ name
 value
 }
 of
-selected
-.
 requestHeaders
 .
 headers
@@ -1934,8 +1945,6 @@ requestPostData
 yield
 requestData
 (
-selected
-.
 id
 "
 requestPostData
