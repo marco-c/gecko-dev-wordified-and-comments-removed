@@ -210,6 +210,10 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 private
 :
+static
+bool
+sExternalViewSource
+;
 #
 ifdef
 DEBUG_NS_HTML5_TREE_OP_EXECUTOR_FLUSH
@@ -813,6 +817,12 @@ const
 nsAString
 &
 aURL
+)
+;
+static
+void
+InitializeStatics
+(
 )
 ;
 private
