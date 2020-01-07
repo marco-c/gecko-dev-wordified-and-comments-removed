@@ -4191,7 +4191,7 @@ trimLeft
 return
 callFunction
 (
-std_String_trimLeft
+std_String_trimStart
 string
 )
 ;
@@ -4232,7 +4232,7 @@ trimRight
 return
 callFunction
 (
-std_String_trimRight
+std_String_trimEnd
 string
 )
 ;
