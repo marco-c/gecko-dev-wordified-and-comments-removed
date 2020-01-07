@@ -6221,6 +6221,9 @@ _loadURI
 browser
 uri
 params
+=
+{
+}
 )
 {
 let
