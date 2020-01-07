@@ -1156,7 +1156,7 @@ static
 size_t
 kNumSubTables
 =
-1
+128
 ;
 private
 :
