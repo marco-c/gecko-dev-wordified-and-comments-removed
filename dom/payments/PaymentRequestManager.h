@@ -222,6 +222,14 @@ nsAString
 aOption
 )
 ;
+void
+RequestIPCOver
+(
+PaymentRequest
+*
+aRequest
+)
+;
 private
 :
 PaymentRequestManager
