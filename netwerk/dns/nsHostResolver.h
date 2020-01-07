@@ -479,6 +479,11 @@ queryFlags
 )
 const
 ;
+void
+Invalidate
+(
+)
+;
 bool
 Blacklisted
 (
@@ -1055,6 +1060,12 @@ nsIDNSService
 :
 :
 RESOLVE_DISABLE_TRR
+RES_REFRESH_CACHE
+=
+nsIDNSService
+:
+:
+RESOLVE_REFRESH_CACHE
 }
 ;
 size_t
