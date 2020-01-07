@@ -46,7 +46,7 @@ devtools
 /
 shared
 /
-L10N
+l10n
 "
 )
 ;
