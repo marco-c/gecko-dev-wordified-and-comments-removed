@@ -213,6 +213,7 @@ HTMLCheckboxAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1020,6 +1021,7 @@ HTMLButtonAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1216,6 +1218,7 @@ HTMLTextFieldAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -2136,6 +2139,7 @@ HTMLFileInputAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2323,6 +2327,7 @@ HTMLSpinnerAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2620,6 +2625,7 @@ HTMLRangeAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2950,6 +2956,7 @@ HTMLGroupboxAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

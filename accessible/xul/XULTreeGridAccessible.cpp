@@ -904,6 +904,7 @@ XULTreeGridAccessible
 NativeRole
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -1149,6 +1150,7 @@ XULTreeGridRowAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2815,6 +2817,7 @@ XULTreeGridCellAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

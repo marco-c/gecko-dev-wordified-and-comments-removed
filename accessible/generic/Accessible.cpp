@@ -1742,6 +1742,7 @@ Accessible
 VisibilityState
 (
 )
+const
 {
 nsIFrame
 *
@@ -7733,6 +7734,7 @@ Accessible
 NativeRole
 (
 )
+const
 {
 return
 roles

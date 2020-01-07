@@ -48,6 +48,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 protected

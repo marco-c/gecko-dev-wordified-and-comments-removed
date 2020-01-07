@@ -687,6 +687,7 @@ role
 NativeRole
 (
 )
+const
 ;
 virtual
 uint64_t
@@ -799,6 +800,7 @@ uint64_t
 VisibilityState
 (
 )
+const
 ;
 virtual
 bool

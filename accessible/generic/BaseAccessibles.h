@@ -312,6 +312,7 @@ role
 NativeRole
 (
 )
+const
 override
 {
 return

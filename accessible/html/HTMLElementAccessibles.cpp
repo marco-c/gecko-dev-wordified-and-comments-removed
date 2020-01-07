@@ -101,6 +101,7 @@ HTMLHRAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -116,6 +117,7 @@ HTMLBRAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -706,6 +708,7 @@ HTMLHeaderOrFooterAccessible
 NativeRole
 (
 )
+const
 {
 nsIContent
 *

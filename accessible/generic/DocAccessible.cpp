@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
@@ -976,6 +983,7 @@ DocAccessible
 NativeRole
 (
 )
+const
 {
 nsCOMPtr
 <

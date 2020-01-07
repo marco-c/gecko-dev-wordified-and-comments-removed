@@ -599,6 +599,7 @@ XULTreeAccessible
 NativeRole
 (
 )
+const
 {
 nsIContent
 *
@@ -4519,6 +4520,7 @@ XULTreeItemAccessible
 NativeRole
 (
 )
+const
 {
 nsCOMPtr
 <

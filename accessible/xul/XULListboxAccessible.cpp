@@ -146,6 +146,7 @@ XULColumAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -196,6 +197,7 @@ XULColumnItemAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -490,6 +492,7 @@ XULListboxAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -2449,6 +2452,7 @@ XULListitemAccessible
 NativeRole
 (
 )
+const
 {
 Accessible
 *
@@ -3306,6 +3310,7 @@ XULListCellAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

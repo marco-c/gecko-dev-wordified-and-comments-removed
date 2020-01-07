@@ -190,6 +190,7 @@ XULComboboxAccessible
 NativeRole
 (
 )
+const
 {
 return
 IsAutoComplete

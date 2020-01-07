@@ -76,6 +76,7 @@ Max
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -672,6 +673,7 @@ RadioButtonAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

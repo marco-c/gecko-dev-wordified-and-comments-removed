@@ -70,6 +70,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 virtual

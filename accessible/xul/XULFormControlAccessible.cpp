@@ -292,6 +292,7 @@ XULButtonAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1003,6 +1004,7 @@ XULDropmarkerAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1060,6 +1062,7 @@ XULCheckboxAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1263,6 +1266,7 @@ XULGroupboxAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1612,6 +1616,7 @@ XULRadioGroupAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1716,6 +1721,7 @@ XULStatusBarAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1943,6 +1949,7 @@ XULToolbarAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2019,6 +2026,7 @@ XULToolbarSeparatorAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

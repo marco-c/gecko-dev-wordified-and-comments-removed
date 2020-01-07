@@ -1280,6 +1280,7 @@ XULMenuitemAccessible
 NativeRole
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -1737,6 +1738,7 @@ XULMenuSeparatorAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2105,6 +2107,7 @@ XULMenupopupAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -2502,6 +2505,7 @@ XULMenubarAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

@@ -46,6 +46,7 @@ HTMLCanvasAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

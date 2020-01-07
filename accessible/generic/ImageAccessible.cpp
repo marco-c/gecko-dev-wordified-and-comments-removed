@@ -335,6 +335,7 @@ ImageAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
