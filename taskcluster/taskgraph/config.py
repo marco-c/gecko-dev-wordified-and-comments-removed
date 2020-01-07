@@ -125,6 +125,17 @@ scriptworker
 Required
 (
 '
+scope
+-
+prefix
+'
+)
+:
+basestring
+        
+Required
+(
+'
 worker
 -
 types

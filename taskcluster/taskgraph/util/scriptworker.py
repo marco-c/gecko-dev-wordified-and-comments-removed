@@ -491,10 +491,6 @@ branches
 '
 :
 '
-project
-:
-releng
-:
 signing
 :
 cert
@@ -513,10 +509,6 @@ branches
 '
 :
 '
-project
-:
-releng
-:
 signing
 :
 cert
@@ -531,10 +523,6 @@ default
 '
 :
 '
-project
-:
-releng
-:
 signing
 :
 cert
@@ -575,10 +563,6 @@ beta
 '
 :
 '
-project
-:
-releng
-:
 signing
 :
 cert
@@ -593,10 +577,6 @@ default
 '
 :
 '
-project
-:
-releng
-:
 signing
 :
 cert
@@ -904,10 +884,6 @@ branches
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 bucket
@@ -936,10 +912,6 @@ branches
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 bucket
@@ -968,10 +940,6 @@ branches
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 bucket
@@ -986,10 +954,6 @@ default
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 bucket
@@ -1027,10 +991,6 @@ tasks
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 action
@@ -1051,10 +1011,6 @@ tasks
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 action
@@ -1075,10 +1031,6 @@ tasks
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 action
@@ -1095,10 +1047,6 @@ default
 '
 :
 '
-project
-:
-releng
-:
 beetmover
 :
 action
@@ -1285,10 +1233,6 @@ nightly
 '
 :
 '
-project
-:
-releng
-:
 balrog
 :
 server
@@ -1301,10 +1245,6 @@ aurora
 '
 :
 '
-project
-:
-releng
-:
 balrog
 :
 server
@@ -1317,10 +1257,6 @@ beta
 '
 :
 '
-project
-:
-releng
-:
 balrog
 :
 server
@@ -1333,10 +1269,6 @@ release
 '
 :
 '
-project
-:
-releng
-:
 balrog
 :
 server
@@ -1349,10 +1281,6 @@ esr
 '
 :
 '
-project
-:
-releng
-:
 balrog
 :
 server
@@ -1365,10 +1293,6 @@ default
 '
 :
 '
-project
-:
-releng
-:
 balrog
 :
 server
@@ -1404,10 +1328,6 @@ nightly
 [
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1416,10 +1336,6 @@ nightly
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1432,10 +1348,6 @@ id
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1452,10 +1364,6 @@ aurora
 [
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1472,10 +1380,6 @@ beta
 [
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1484,10 +1388,6 @@ beta
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1498,10 +1398,6 @@ localtest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1520,10 +1416,6 @@ release
 [
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1532,10 +1424,6 @@ release
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1546,10 +1434,6 @@ localtest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1568,10 +1452,6 @@ esr
 [
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1580,10 +1460,6 @@ esr
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1594,10 +1470,6 @@ localtest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1616,10 +1488,6 @@ default
 [
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1628,10 +1496,6 @@ nightly
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1644,10 +1508,6 @@ id
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1656,10 +1516,6 @@ aurora
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1668,10 +1524,6 @@ beta
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1682,10 +1534,6 @@ localtest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1696,10 +1544,6 @@ cdntest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1708,10 +1552,6 @@ release
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1722,10 +1562,6 @@ localtest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1736,10 +1572,6 @@ cdntest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1748,10 +1580,6 @@ esr
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1762,10 +1590,6 @@ localtest
 '
         
 '
-project
-:
-releng
-:
 balrog
 :
 channel
@@ -1844,10 +1668,6 @@ central
 '
 :
 '
-project
-:
-releng
-:
 googleplay
 :
 aurora
@@ -1858,10 +1678,6 @@ beta
 '
 :
 '
-project
-:
-releng
-:
 googleplay
 :
 beta
@@ -1872,10 +1688,6 @@ release
 '
 :
 '
-project
-:
-releng
-:
 googleplay
 :
 release
@@ -1886,21 +1698,263 @@ default
 '
 :
 '
-project
-:
-releng
-:
 googleplay
 :
 invalid
 '
 }
 def
+add_scope_prefix
+(
+config
+scope
+)
+:
+    
+"
+"
+"
+    
+Prepends
+the
+scriptworker
+scope
+prefix
+from
+the
+:
+ref
+:
+graph
+config
+    
+<
+taskgraph
+-
+graph
+-
+config
+>
+.
+    
+Args
+:
+        
+config
+(
+TransformConfig
+)
+:
+The
+configuration
+for
+the
+kind
+being
+transformed
+.
+        
+scope
+(
+string
+)
+:
+The
+suffix
+of
+the
+scope
+    
+Returns
+:
+        
+string
+:
+the
+scope
+to
+use
+.
+    
+"
+"
+"
+    
+return
+"
+{
+prefix
+}
+:
+{
+scope
+}
+"
+.
+format
+(
+        
+prefix
+=
+config
+.
+graph_config
+[
+'
+scriptworker
+'
+]
+[
+'
+scope
+-
+prefix
+'
+]
+        
+scope
+=
+scope
+    
+)
+def
+with_scope_prefix
+(
+f
+)
+:
+    
+"
+"
+"
+    
+Wraps
+a
+function
+calling
+:
+py
+:
+func
+:
+add_scope_prefix
+on
+the
+result
+of
+    
+calling
+the
+wrapped
+function
+.
+    
+Args
+:
+        
+f
+(
+callable
+)
+:
+A
+function
+that
+takes
+a
+config
+and
+some
+keyword
+            
+arguments
+and
+returns
+a
+scope
+suffix
+.
+    
+Returns
+:
+        
+callable
+:
+the
+wrapped
+function
+    
+"
+"
+"
+    
+functools
+.
+wraps
+(
+f
+)
+    
+def
+wrapper
+(
+config
+*
+*
+kwargs
+)
+:
+        
+scope_or_scopes
+=
+f
+(
+config
+*
+*
+kwargs
+)
+        
+if
+isinstance
+(
+scope_or_scopes
+list
+)
+:
+            
+return
+map
+(
+functools
+.
+partial
+(
+add_scope_prefix
+config
+)
+scope_or_scopes
+)
+        
+else
+:
+            
+return
+add_scope_prefix
+(
+config
+scope_or_scopes
+)
+    
+return
+wrapper
+with_scope_prefix
+def
 get_scope_from_project
 (
+config
 alias_to_project_map
 alias_to_scope_map
-config
 )
 :
     
@@ -1924,6 +1978,20 @@ project
     
 Args
 :
+        
+config
+(
+TransformConfig
+)
+:
+The
+configuration
+for
+the
+kind
+being
+transformed
+.
         
 alias_to_project_map
 (
@@ -1962,20 +2030,6 @@ alias
 alias
 to
 scope
-        
-config
-(
-TransformConfig
-)
-:
-The
-configuration
-for
-the
-kind
-being
-transformed
-.
     
 Returns
 :
@@ -2029,12 +2083,13 @@ alias_to_scope_map
 default
 '
 ]
+with_scope_prefix
 def
 get_scope_from_target_method
 (
+config
 alias_to_tasks_map
 alias_to_scope_map
-config
 )
 :
     
@@ -2058,6 +2113,20 @@ target_tasks_method
     
 Args
 :
+        
+config
+(
+TransformConfig
+)
+:
+The
+configuration
+for
+the
+kind
+being
+transformed
+.
         
 alias_to_tasks_map
 (
@@ -2097,20 +2166,6 @@ alias
 alias
 to
 scope
-        
-config
-(
-TransformConfig
-)
-:
-The
-configuration
-for
-the
-kind
-being
-transformed
-.
     
 Returns
 :
@@ -2164,14 +2219,15 @@ alias_to_scope_map
 default
 '
 ]
+with_scope_prefix
 def
 get_scope_from_target_method_and_project
 (
-alias_to_tasks_map
-alias_to_project_map
-                                             
-aliases_to_scope_map
 config
+alias_to_tasks_map
+                                             
+alias_to_project_map
+aliases_to_scope_map
 )
 :
     
@@ -2234,6 +2290,20 @@ both
     
 Args
 :
+        
+config
+(
+TransformConfig
+)
+:
+The
+configuration
+for
+the
+kind
+being
+transformed
+.
         
 alias_to_tasks_map
 (
@@ -2305,20 +2375,6 @@ project
 alias
 to
 scope
-        
-config
-(
-TransformConfig
-)
-:
-The
-configuration
-for
-the
-kind
-being
-transformed
-.
     
 Returns
 :
@@ -2416,9 +2472,9 @@ default
 def
 get_phase_from_target_method
 (
+config
 alias_to_tasks_map
 alias_to_phase_map
-config
 )
 :
     
@@ -2441,6 +2497,20 @@ target_tasks_method
     
 Args
 :
+        
+config
+(
+TransformConfig
+)
+:
+The
+configuration
+for
+the
+kind
+being
+transformed
+.
         
 alias_to_tasks_map
 (
@@ -2480,20 +2550,6 @@ alias
 to
 phase
 map
-        
-config
-(
-TransformConfig
-)
-:
-The
-configuration
-for
-the
-kind
-being
-transformed
-.
     
 Returns
 :
@@ -2556,8 +2612,12 @@ partial
     
 get_scope_from_project
     
+alias_to_project_map
+=
 SIGNING_SCOPE_ALIAS_TO_PROJECT
     
+alias_to_scope_map
+=
 SIGNING_CERT_SCOPES
 )
 get_devedition_signing_cert_scope
@@ -2569,8 +2629,12 @@ partial
     
 get_scope_from_project
     
+alias_to_project_map
+=
 DEVEDITION_SIGNING_SCOPE_ALIAS_TO_PROJECT
     
+alias_to_scope_map
+=
 DEVEDITION_SIGNING_CERT_SCOPES
 )
 get_beetmover_bucket_scope
@@ -2582,10 +2646,16 @@ partial
     
 get_scope_from_target_method_and_project
     
+alias_to_tasks_map
+=
 BEETMOVER_SCOPE_ALIAS_TO_TARGET_TASK
     
+alias_to_project_map
+=
 BEETMOVER_SCOPE_ALIAS_TO_PROJECT
     
+aliases_to_scope_map
+=
 BEETMOVER_BUCKET_SCOPES
 )
 get_beetmover_action_scope
@@ -2597,8 +2667,12 @@ partial
     
 get_scope_from_target_method
     
+alias_to_tasks_map
+=
 BEETMOVER_SCOPE_ALIAS_TO_TARGET_TASK
     
+alias_to_scope_map
+=
 BEETMOVER_ACTION_SCOPES
 )
 get_phase
@@ -2610,8 +2684,12 @@ partial
     
 get_phase_from_target_method
     
+alias_to_tasks_map
+=
 BEETMOVER_SCOPE_ALIAS_TO_TARGET_TASK
     
+alias_to_phase_map
+=
 PHASES
 )
 get_balrog_server_scope
@@ -2623,8 +2701,12 @@ partial
     
 get_scope_from_project
     
+alias_to_project_map
+=
 BALROG_SCOPE_ALIAS_TO_PROJECT
     
+alias_to_scope_map
+=
 BALROG_SERVER_SCOPES
 )
 get_balrog_channel_scopes
@@ -2636,8 +2718,12 @@ partial
     
 get_scope_from_project
     
+alias_to_project_map
+=
 BALROG_SCOPE_ALIAS_TO_PROJECT
     
+alias_to_scope_map
+=
 BALROG_CHANNEL_SCOPES
 )
 get_push_apk_scope
@@ -2649,8 +2735,12 @@ partial
     
 get_scope_from_project
     
+alias_to_project_map
+=
 PUSH_APK_SCOPE_ALIAS_TO_PROJECT
     
+alias_to_scope_map
+=
 PUSH_APK_SCOPES
 )
 def
@@ -3094,11 +3184,10 @@ else
 :
         
 return
+add_scope_prefix
+(
+config
 '
-project
-:
-releng
-:
 signing
 :
 cert
@@ -3107,6 +3196,7 @@ dep
 -
 signing
 '
+)
 def
 get_worker_type_for_scope
 (
