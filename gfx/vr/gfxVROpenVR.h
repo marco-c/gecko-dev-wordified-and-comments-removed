@@ -799,6 +799,9 @@ IVRSystem
 mVRSystem
 ;
 bool
+mRuntimeCheckFailed
+;
+bool
 mIsWindowsMR
 ;
 }
