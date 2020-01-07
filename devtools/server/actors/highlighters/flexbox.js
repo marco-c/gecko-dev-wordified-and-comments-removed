@@ -2655,6 +2655,14 @@ if
 !
 this
 .
+options
+.
+showFlexBasis
+|
+|
+!
+this
+.
 computedStyle
 )
 {
