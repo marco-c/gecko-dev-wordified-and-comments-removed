@@ -1548,7 +1548,7 @@ mMessage
 JS
 :
 :
-Value
+UninitializedValue
 mJSException
 ;
 DOMExceptionInfo
