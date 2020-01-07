@@ -192,16 +192,6 @@ nsPKCS12Blob
 (
 )
 {
-if
-(
-isAlreadyShutDown
-(
-)
-)
-{
-return
-;
-}
 shutdown
 (
 ShutdownCalledFrom

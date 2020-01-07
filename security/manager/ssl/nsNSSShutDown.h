@@ -36,16 +36,6 @@ ShutdownCalledFrom
 )
 {
 }
-bool
-isAlreadyShutDown
-(
-)
-const
-{
-return
-false
-;
-}
 protected
 :
 virtual
