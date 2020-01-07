@@ -140,6 +140,13 @@ PropTypes
 object
 .
 isRequired
+emitEventForTest
+:
+PropTypes
+.
+func
+.
+isRequired
 getAnimatedPropertyMap
 :
 PropTypes
@@ -164,6 +171,7 @@ render
 const
 {
 animation
+emitEventForTest
 getAnimatedPropertyMap
 setDetailVisibility
 }
@@ -205,6 +213,7 @@ AnimatedPropertyListContainer
 (
 {
 animation
+emitEventForTest
 getAnimatedPropertyMap
 }
 )

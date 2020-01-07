@@ -367,6 +367,7 @@ endPanel
 AnimationDetailContainer
 (
 {
+emitEventForTest
 getAnimatedPropertyMap
 setDetailVisibility
 }
