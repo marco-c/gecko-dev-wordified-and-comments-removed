@@ -132,7 +132,6 @@ Exposed
 (
 Window
 Worker
-AudioWorklet
 System
 )
 ]

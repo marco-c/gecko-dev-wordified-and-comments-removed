@@ -207,7 +207,6 @@ Exposed
 Window
 Worker
 WorkerDebugger
-AudioWorklet
 System
 )
 ]

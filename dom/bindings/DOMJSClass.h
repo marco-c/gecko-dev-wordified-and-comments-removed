@@ -395,16 +395,6 @@ WorkletGlobalScope
 <
 6
 ;
-static
-const
-uint32_t
-AudioWorkletGlobalScope
-=
-1u
-<
-<
-7
-;
 }
 struct
 PrefableDisablers
