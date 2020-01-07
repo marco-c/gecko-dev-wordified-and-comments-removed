@@ -3886,6 +3886,7 @@ nsUrlClassifierDBServiceWorker
 :
 CacheResultToTableUpdate
 (
+const
 CacheResult
 *
 aCacheResult
@@ -3928,6 +3929,7 @@ CacheResult
 :
 Cast
 <
+const
 CacheResultV2
 >
 (
@@ -4065,6 +4067,7 @@ CacheResult
 :
 Cast
 <
+const
 CacheResultV4
 >
 (
@@ -4521,6 +4524,7 @@ CacheResult
 :
 Cast
 <
+const
 CacheResultV2
 >
 (
@@ -4536,6 +4540,7 @@ CacheResult
 :
 Cast
 <
+const
 CacheResultV2
 >
 (
@@ -4570,6 +4575,7 @@ CacheResult
 :
 Cast
 <
+const
 CacheResultV4
 >
 (
@@ -4585,6 +4591,7 @@ CacheResult
 :
 Cast
 <
+const
 CacheResultV4
 >
 (

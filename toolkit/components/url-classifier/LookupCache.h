@@ -380,10 +380,12 @@ typename
 T
 >
 static
+const
 T
 *
 Cast
 (
+const
 CacheResult
 *
 aThat
@@ -411,6 +413,7 @@ Ver
 ?
 reinterpret_cast
 <
+const
 T
 *
 >

@@ -783,6 +783,7 @@ results
 nsresult
 CacheResultToTableUpdate
 (
+const
 CacheResult
 *
 aCacheResult
