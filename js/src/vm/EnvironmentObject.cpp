@@ -13774,8 +13774,12 @@ if
 (
 !
 debugEnvs
-|
-|
+)
+return
+nullptr
+;
+if
+(
 !
 debugEnvs
 -
