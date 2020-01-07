@@ -778,6 +778,9 @@ FunctionAsyncKind
 functionAsyncKind
 FunctionSyntaxKind
 syntax
+ParseNode
+*
+name
 )
 ;
 MOZ_MUST_USE

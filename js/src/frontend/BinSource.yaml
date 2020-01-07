@@ -3362,6 +3362,7 @@ FunctionAsyncKind
 :
 SyncFunction
 syntax
+name
 )
 )
 ;
@@ -3519,6 +3520,7 @@ FunctionSyntaxKind
 :
 :
 Getter
+name
 )
 )
 ;
@@ -3739,6 +3741,7 @@ FunctionSyntaxKind
 :
 :
 Setter
+name
 )
 )
 ;
