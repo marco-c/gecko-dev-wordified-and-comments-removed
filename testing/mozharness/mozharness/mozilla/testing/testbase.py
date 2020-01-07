@@ -3219,6 +3219,16 @@ mochitest
 '
             
 '
+geckoview
+-
+junit
+'
+:
+'
+mochitest
+'
+            
+'
 jsreftest
 '
 :
