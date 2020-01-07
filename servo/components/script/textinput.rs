@@ -753,6 +753,7 @@ i
 set_content
 (
 initial
+false
 )
 ;
 i
@@ -2941,6 +2942,9 @@ self
 direction
 :
 Direction
+update_text_cursor
+:
+bool
 )
 {
 self
@@ -2958,6 +2962,7 @@ Selection
 :
 :
 NotSelected
+update_text_cursor
 )
 ;
 }
@@ -3493,6 +3498,9 @@ Direction
 select
 :
 Selection
+update_text_cursor
+:
+bool
 )
 {
 if
@@ -3506,6 +3514,9 @@ select
 {
 return
 }
+if
+update_text_cursor
+{
 match
 direction
 {
@@ -3586,6 +3597,7 @@ len
 (
 )
 ;
+}
 }
 }
 }
@@ -4267,6 +4279,7 @@ Direction
 :
 Backward
 maybe_select
+true
 )
 ;
 KeyReaction
@@ -4314,6 +4327,7 @@ Direction
 :
 Forward
 maybe_select
+true
 )
 ;
 KeyReaction
@@ -4999,6 +5013,9 @@ self
 content
 :
 DOMString
+update_text_cursor
+:
+bool
 )
 {
 self
@@ -5070,6 +5087,9 @@ content
 )
 }
 ;
+if
+update_text_cursor
+{
 self
 .
 edit_point
@@ -5114,6 +5134,7 @@ current_line_length
 )
 )
 ;
+}
 self
 .
 selection_origin
