@@ -446,8 +446,10 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
 nsIVariant
-*
+>
 GetParameter
 (
 const
