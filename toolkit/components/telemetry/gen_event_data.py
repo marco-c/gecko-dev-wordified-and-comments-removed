@@ -462,6 +462,8 @@ d
 s
 %
 s
+%
+s
 }
 "
 %
@@ -508,6 +510,17 @@ join
 e
 .
 record_in_processes_enum
+)
+               
+"
+|
+"
+.
+join
+(
+e
+.
+products_enum
 )
 )
               
