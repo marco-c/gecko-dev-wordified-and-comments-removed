@@ -241,6 +241,9 @@ globalmessagemanager
 .
 getService
 (
+Ci
+.
+nsIMessageListenerManager
 )
 ;
 function

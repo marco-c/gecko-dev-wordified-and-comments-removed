@@ -94,7 +94,6 @@ defineOnGlobal
 typedef
 bool
 (
-*
 ConstructorEnabled
 )
 (
@@ -123,6 +122,7 @@ aNameLength
 DefineGlobalName
 aDefine
 ConstructorEnabled
+*
 aEnabled
 constructors
 :

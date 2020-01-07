@@ -67,6 +67,9 @@ interface
 nsIDOMElement
 ;
 interface
+nsIMessageSender
+;
+interface
 nsIURI
 ;
 [
@@ -202,7 +205,7 @@ manager
 /
 readonly
 attribute
-nsISupports
+nsIMessageSender
 messageManager
 ;
 }

@@ -506,7 +506,7 @@ parentprocessmessagemanager
 1
 "
 "
-nsISupports
+nsIMessageBroadcaster
 "
 )
 ;
@@ -994,6 +994,18 @@ reason
 return
 ;
 }
+let
+sender
+=
+target
+.
+QueryInterface
+(
+Ci
+.
+nsIMessageSender
+)
+;
 return
 this
 .
@@ -1010,7 +1022,7 @@ result
 =
 >
 {
-target
+sender
 .
 sendAsyncMessage
 (
@@ -1040,7 +1052,7 @@ error
 =
 >
 {
-target
+sender
 .
 sendAsyncMessage
 (
@@ -1536,7 +1548,7 @@ childprocessmessagemanager
 1
 "
 "
-nsISupports
+nsISyncMessageSender
 "
 )
 ;

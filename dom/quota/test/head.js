@@ -406,9 +406,6 @@ data
 once
 :
 true
-capture
-:
-true
 }
 true
 )

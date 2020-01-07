@@ -428,10 +428,6 @@ test
 :
 ipcClonedMessage
 "
-SpecialPowers
-.
-wrapCallback
-(
 function
 (
 message
@@ -446,13 +442,9 @@ json
 ;
 if
 (
-SpecialPowers
-.
-call_Instanceof
-(
 data
+instanceof
 Blob
-)
 )
 {
 is
@@ -620,12 +612,7 @@ done
 }
 }
 ;
-SpecialPowers
-.
-wrap
-(
 reader1
-)
 .
 readAsText
 (
@@ -667,7 +654,6 @@ response
 )
 ;
 }
-)
 )
 ;
 mm

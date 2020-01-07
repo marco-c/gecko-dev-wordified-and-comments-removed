@@ -1730,6 +1730,8 @@ receiveMessage
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 b949bfec
@@ -2097,6 +2099,8 @@ manager
 *
 /
 [
+scriptable
+builtinclass
 uuid
 (
 bb5d79e4
@@ -2450,6 +2454,8 @@ window
 *
 /
 [
+scriptable
+builtinclass
 uuid
 (
 4d7d62ad
@@ -2638,6 +2644,8 @@ releaseCachedProcesses
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 0e602c9e
@@ -2845,6 +2853,8 @@ principal
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 13f3555f
@@ -2948,6 +2958,8 @@ aBase64Data
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 694e367c
@@ -3072,6 +3084,8 @@ aFrameLoader
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 6d12e467
@@ -3127,6 +3141,8 @@ initialProcessData
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 bf61446b
@@ -3317,6 +3333,8 @@ getDelayedFrameScripts
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 7e1e1a20
@@ -3493,6 +3511,8 @@ getDelayedProcessScripts
 }
 ;
 [
+scriptable
+builtinclass
 uuid
 (
 5b390753
