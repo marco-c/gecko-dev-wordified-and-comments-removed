@@ -6715,6 +6715,15 @@ tab
 -
 notification
 "
+class
+=
+"
+extension
+-
+controlled
+-
+notification
+"
 popupid
 =
 "
@@ -6723,6 +6732,11 @@ extension
 new
 -
 tab
+"
+hidden
+=
+"
+true
 "
 label
 =

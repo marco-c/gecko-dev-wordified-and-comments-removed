@@ -1496,6 +1496,15 @@ addon_parent
 "
 ]
 "
+events
+"
+:
+[
+"
+uninstall
+"
+]
+"
 manifest
 "
 :

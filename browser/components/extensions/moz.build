@@ -133,6 +133,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+ExtensionControlledPopup
+.
+jsm
+'
+'
 ExtensionPopups
 .
 jsm
