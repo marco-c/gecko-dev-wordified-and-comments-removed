@@ -569,11 +569,6 @@ EXPORTS
 =
 [
 '
-gfxFontconfigFonts
-.
-h
-'
-'
 gfxFT2FontBase
 .
 h
