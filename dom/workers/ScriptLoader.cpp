@@ -4905,7 +4905,7 @@ InitChannelInfo
 channel
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+NS_ENSURE_TRUE
 (
 mWorkerPrivate
 -
@@ -4914,6 +4914,7 @@ FinalChannelPrincipalIsValid
 (
 channel
 )
+NS_ERROR_FAILURE
 )
 ;
 rv
