@@ -96,8 +96,9 @@ HttpBackgroundChannelChild
 HttpBackgroundChannelChild
 (
 )
-{
-}
+=
+default
+;
 HttpBackgroundChannelChild
 :
 :
@@ -105,8 +106,9 @@ HttpBackgroundChannelChild
 HttpBackgroundChannelChild
 (
 )
-{
-}
+=
+default
+;
 nsresult
 HttpBackgroundChannelChild
 :
@@ -311,7 +313,9 @@ mQueuedRunnables
 ;
 for
 (
+const
 auto
+&
 event
 :
 runnables

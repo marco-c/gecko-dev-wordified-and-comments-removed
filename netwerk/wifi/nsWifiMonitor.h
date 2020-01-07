@@ -202,8 +202,9 @@ false
 nsWifiListener
 (
 )
-{
-}
+=
+default
+;
 nsMainThreadPtrHandle
 <
 nsIWifiListener
@@ -239,6 +240,8 @@ private
 nsWifiMonitor
 (
 )
+=
+default
 ;
 nsresult
 DoScan

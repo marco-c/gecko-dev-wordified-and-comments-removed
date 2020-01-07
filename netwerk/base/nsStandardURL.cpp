@@ -955,8 +955,9 @@ DumpLeakedURLs
 DumpLeakedURLs
 (
 )
-{
-}
+=
+default
+;
 ~
 DumpLeakedURLs
 (
@@ -3561,12 +3562,6 @@ mPath
 )
 ;
 URLSegment
-filepath
-(
-mFilepath
-)
-;
-URLSegment
 directory
 (
 mDirectory
@@ -4649,7 +4644,6 @@ mLen
 '
 )
 ;
-else
 return
 !
 strncmp
@@ -4782,7 +4776,6 @@ mLen
 '
 )
 ;
-else
 return
 !
 strncmp
@@ -4912,7 +4905,6 @@ seg1
 mLen
 )
 ;
-else
 return
 !
 strncmp
@@ -9732,8 +9724,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-else
-{
 if
 (
 flat
@@ -9746,7 +9736,6 @@ IsEmpty
 return
 NS_ERROR_UNEXPECTED
 ;
-}
 }
 if
 (
@@ -10615,7 +10604,6 @@ spec
 )
 ;
 }
-else
 if
 (
 mPath
@@ -13866,7 +13854,6 @@ spec
 )
 ;
 }
-else
 if
 (
 mPath

@@ -69,8 +69,9 @@ nsIDNSListener
 nsDNSPrefetch
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

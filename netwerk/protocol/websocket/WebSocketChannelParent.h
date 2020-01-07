@@ -91,6 +91,8 @@ nsIInterfaceRequestor
 WebSocketChannelParent
 (
 )
+=
+default
 ;
 public
 :

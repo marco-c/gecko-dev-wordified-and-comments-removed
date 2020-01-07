@@ -132,8 +132,9 @@ virtual
 nsBaseContentStream
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual

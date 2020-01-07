@@ -86,8 +86,9 @@ private
 nsSyncStreamListener
 (
 )
-{
-}
+=
+default
+;
 nsresult
 WaitForData
 (

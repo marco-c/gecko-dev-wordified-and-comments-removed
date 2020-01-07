@@ -112,6 +112,8 @@ virtual
 ChildDNSService
 (
 )
+=
+default
 ;
 void
 MOZ_ALWAYS_INLINE

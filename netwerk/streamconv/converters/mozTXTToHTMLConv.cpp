@@ -976,7 +976,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -1071,7 +1070,6 @@ start
 pos
 ;
 }
-else
 return
 false
 ;
@@ -1209,7 +1207,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -1496,7 +1493,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -2643,7 +2639,6 @@ return
 true
 ;
 }
-else
 return
 false
 ;
@@ -5218,23 +5213,6 @@ true
 return
 false
 ;
-}
-mozTXTToHTMLConv
-:
-:
-mozTXTToHTMLConv
-(
-)
-{
-}
-mozTXTToHTMLConv
-:
-:
-~
-mozTXTToHTMLConv
-(
-)
-{
 }
 NS_IMPL_ISUPPORTS
 (

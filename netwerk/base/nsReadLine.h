@@ -108,7 +108,7 @@ Truncate
 ;
 while
 (
-1
+true
 )
 {
 if

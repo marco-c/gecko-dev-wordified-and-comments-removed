@@ -1949,6 +1949,8 @@ virtual
 nsContentEncodings
 (
 )
+=
+default
 ;
 MOZ_MUST_USE
 nsresult
@@ -3511,8 +3513,9 @@ virtual
 ProxyReleaseRunnable
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 nsCOMPtr

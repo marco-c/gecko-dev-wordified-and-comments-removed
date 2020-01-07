@@ -470,8 +470,9 @@ private
 nsIncrementalDownload
 (
 )
-{
-}
+=
+default
+;
 nsresult
 FlushChunk
 (

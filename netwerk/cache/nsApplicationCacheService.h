@@ -50,6 +50,8 @@ private
 nsApplicationCacheService
 (
 )
+=
+default
 ;
 RefPtr
 <

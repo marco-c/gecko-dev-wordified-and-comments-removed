@@ -2437,6 +2437,8 @@ virtual
 CacheOutputCloseListener
 (
 )
+=
+default
 ;
 NS_DECL_NSIRUNNABLE
 explicit

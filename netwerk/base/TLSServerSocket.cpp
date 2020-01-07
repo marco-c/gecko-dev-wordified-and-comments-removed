@@ -133,15 +133,6 @@ nullptr
 )
 {
 }
-TLSServerSocket
-:
-:
-~
-TLSServerSocket
-(
-)
-{
-}
 NS_IMPL_ISUPPORTS_INHERITED
 (
 TLSServerSocket
@@ -1004,8 +995,9 @@ nsITLSServerSecurityObserver
 TLSServerSecurityObserverProxy
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

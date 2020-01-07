@@ -49,6 +49,8 @@ virtual
 LoadContextInfo
 (
 )
+=
+default
 ;
 protected
 :
@@ -73,8 +75,9 @@ virtual
 LoadContextInfoFactory
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

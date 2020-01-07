@@ -224,15 +224,6 @@ false
 )
 {
 }
-nsSimpleURI
-:
-:
-~
-nsSimpleURI
-(
-)
-{
-}
 NS_IMPL_ADDREF
 (
 nsSimpleURI

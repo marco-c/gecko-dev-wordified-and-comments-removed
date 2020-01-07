@@ -65,6 +65,8 @@ private
 DataChannelParent
 (
 )
+=
+default
 ;
 virtual
 void

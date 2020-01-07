@@ -208,15 +208,6 @@ ServiceWorkerInterceptController
 ;
 }
 }
-HttpChannelParentListener
-:
-:
-~
-HttpChannelParentListener
-(
-)
-{
-}
 NS_IMPL_ADDREF
 (
 HttpChannelParentListener
@@ -1268,8 +1259,9 @@ mChannel
 HeaderVisitor
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

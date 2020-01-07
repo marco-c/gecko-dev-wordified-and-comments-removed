@@ -39,8 +39,9 @@ public
 nsBase64Encoder
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOUTPUTSTREAM
 nsresult
@@ -57,8 +58,9 @@ private
 nsBase64Encoder
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mData
 ;

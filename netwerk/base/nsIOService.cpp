@@ -5807,8 +5807,9 @@ virtual
 nsWakeupNotifier
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIIOServiceInternal
@@ -7113,8 +7114,9 @@ nsIProtocolProxyCallback
 IOServiceProxyCallback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

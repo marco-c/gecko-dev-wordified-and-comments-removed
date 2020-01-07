@@ -43,6 +43,8 @@ public
 NeckoChild
 (
 )
+=
+default
 ;
 virtual
 ~

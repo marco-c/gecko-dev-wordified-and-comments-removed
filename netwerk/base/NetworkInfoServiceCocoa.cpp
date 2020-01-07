@@ -389,7 +389,7 @@ sizeof
 (
 host
 )
-0
+nullptr
 0
 NI_NUMERICHOST
 )

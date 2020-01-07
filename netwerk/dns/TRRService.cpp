@@ -488,7 +488,7 @@ mCaptiveIsPassed
 }
 ReadPrefs
 (
-NULL
+nullptr
 )
 ;
 gTRRService
@@ -2601,8 +2601,6 @@ return
 true
 ;
 }
-else
-{
 RefPtr
 <
 DataStorage
@@ -2669,7 +2667,6 @@ Run
 (
 )
 ;
-}
 }
 }
 return

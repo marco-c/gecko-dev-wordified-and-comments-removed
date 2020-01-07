@@ -639,8 +639,9 @@ NS_DECL_NSIABOUTMODULE
 nsAboutCache
 (
 )
-{
-}
+=
+default
+;
 static
 MOZ_MUST_USE
 nsresult
@@ -682,8 +683,9 @@ virtual
 nsAboutCache
 (
 )
-{
-}
+=
+default
+;
 class
 Channel
 final
@@ -751,8 +753,9 @@ virtual
 Channel
 (
 )
-{
-}
+=
+default
+;
 public
 :
 MOZ_MUST_USE

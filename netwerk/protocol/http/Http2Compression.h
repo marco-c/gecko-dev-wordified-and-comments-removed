@@ -382,8 +382,8 @@ virtual
 Http2Decompressor
 (
 )
-{
-}
+=
+default
 ;
 MOZ_MUST_USE
 nsresult
@@ -703,8 +703,9 @@ virtual
 Http2Compressor
 (
 )
-{
-}
+=
+default
+;
 MOZ_MUST_USE
 nsresult
 EncodeHeaderBlock

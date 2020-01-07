@@ -170,6 +170,8 @@ virtual
 ConvertedStreamListener
 (
 )
+=
+default
 ;
 static
 nsresult

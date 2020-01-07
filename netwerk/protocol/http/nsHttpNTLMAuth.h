@@ -30,8 +30,9 @@ NS_DECL_NSIHTTPAUTHENTICATOR
 nsHttpNTLMAuth
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -39,8 +40,9 @@ virtual
 nsHttpNTLMAuth
 (
 )
-{
-}
+=
+default
+;
 bool
 mUseNative
 ;

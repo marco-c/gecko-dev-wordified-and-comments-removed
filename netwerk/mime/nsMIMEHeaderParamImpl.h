@@ -24,8 +24,9 @@ NS_DECL_NSIMIMEHEADERPARAM
 nsMIMEHeaderParamImpl
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -33,8 +34,9 @@ virtual
 nsMIMEHeaderParamImpl
 (
 )
-{
-}
+=
+default
+;
 enum
 ParamDecoding
 {

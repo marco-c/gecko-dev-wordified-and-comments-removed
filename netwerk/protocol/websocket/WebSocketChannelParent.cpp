@@ -145,15 +145,6 @@ kPBOverride_Unset
 )
 ;
 }
-WebSocketChannelParent
-:
-:
-~
-WebSocketChannelParent
-(
-)
-{
-}
 mozilla
 :
 :

@@ -56,15 +56,6 @@ mData
 )
 {
 }
-nsStreamLoader
-:
-:
-~
-nsStreamLoader
-(
-)
-{
-}
 NS_IMETHODIMP
 nsStreamLoader
 :

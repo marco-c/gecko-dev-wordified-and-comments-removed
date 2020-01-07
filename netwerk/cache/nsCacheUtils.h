@@ -53,6 +53,8 @@ aThread
 nsShutdownThread
 (
 )
+=
+default
 ;
 NS_IMETHOD
 Run

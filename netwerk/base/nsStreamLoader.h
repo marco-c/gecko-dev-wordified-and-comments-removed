@@ -93,6 +93,8 @@ protected
 nsStreamLoader
 (
 )
+=
+default
 ;
 static
 nsresult

@@ -39,12 +39,16 @@ virtual
 mozTXTToHTMLConv
 (
 )
+=
+default
 ;
 public
 :
 mozTXTToHTMLConv
 (
 )
+=
+default
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_MOZITXTTOHTMLCONV

@@ -136,15 +136,6 @@ aPinning
 )
 {
 }
-CacheStorage
-:
-:
-~
-CacheStorage
-(
-)
-{
-}
 NS_IMETHODIMP
 CacheStorage
 :

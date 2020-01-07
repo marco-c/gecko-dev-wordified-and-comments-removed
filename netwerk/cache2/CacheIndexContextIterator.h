@@ -45,6 +45,8 @@ virtual
 CacheIndexContextIterator
 (
 )
+=
+default
 ;
 private
 :

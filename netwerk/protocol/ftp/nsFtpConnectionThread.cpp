@@ -7881,7 +7881,13 @@ aPrompter
 )
 mResponseMsg
 (
+std
+:
+:
+move
+(
 aResponseMsg
+)
 )
 {
 }
@@ -7892,8 +7898,9 @@ virtual
 nsFtpAsyncAlert
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_IMETHOD

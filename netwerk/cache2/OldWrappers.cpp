@@ -217,8 +217,9 @@ virtual
 DoomCallbackSynchronizer
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_NSIRUNNABLE
 nsCOMPtr
 <
@@ -374,8 +375,9 @@ virtual
 DoomCallbackWrapper
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsICacheEntryDoomCallback
@@ -2052,8 +2054,9 @@ virtual
 MetaDataVisitorWrapper
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICACHEMETADATAVISITOR
 explicit
@@ -3875,8 +3878,9 @@ _OldStorage
 _OldStorage
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 _OldStorage
 :

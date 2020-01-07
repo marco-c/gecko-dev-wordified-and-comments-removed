@@ -78,6 +78,8 @@ public
 TransportProviderParent
 (
 )
+=
+default
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITRANSPORTPROVIDER
@@ -98,6 +100,8 @@ private
 TransportProviderParent
 (
 )
+=
+default
 ;
 void
 MaybeNotify
@@ -144,6 +148,8 @@ public
 TransportProviderChild
 (
 )
+=
+default
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITRANSPORTPROVIDER

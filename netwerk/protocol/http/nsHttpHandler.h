@@ -2286,8 +2286,9 @@ virtual
 nsHttpsHandler
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -2313,8 +2314,9 @@ gHttpHandler
 nsHttpsHandler
 (
 )
-{
-}
+=
+default
+;
 MOZ_MUST_USE
 nsresult
 Init

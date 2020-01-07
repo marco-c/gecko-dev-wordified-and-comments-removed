@@ -386,8 +386,9 @@ virtual
 nsMemoryCacheDeviceInfo
 (
 )
-{
-}
+=
+default
+;
 nsMemoryCacheDevice
 *
 mDevice

@@ -299,8 +299,9 @@ event
 LinkedRunnableEvent
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 nsIRunnable

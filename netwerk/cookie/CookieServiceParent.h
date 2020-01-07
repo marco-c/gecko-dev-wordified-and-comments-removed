@@ -54,6 +54,8 @@ virtual
 CookieServiceParent
 (
 )
+=
+default
 ;
 void
 TrackCookieLoad

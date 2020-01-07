@@ -837,8 +837,9 @@ virtual
 OriginClearObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

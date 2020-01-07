@@ -111,6 +111,8 @@ virtual
 MemoryDownloader
 (
 )
+=
+default
 ;
 static
 nsresult

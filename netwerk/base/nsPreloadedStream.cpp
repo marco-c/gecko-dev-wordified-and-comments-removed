@@ -451,8 +451,9 @@ virtual
 RunOnThread
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (

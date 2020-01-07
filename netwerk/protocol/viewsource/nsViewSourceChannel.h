@@ -192,8 +192,9 @@ protected
 nsViewSourceChannel
 (
 )
-{
-}
+=
+default
+;
 nsresult
 BuildViewSourceURI
 (

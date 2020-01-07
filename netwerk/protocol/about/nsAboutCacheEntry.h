@@ -76,8 +76,9 @@ virtual
 nsAboutCacheEntry
 (
 )
-{
-}
+=
+default
+;
 class
 Channel
 final
@@ -131,8 +132,9 @@ virtual
 Channel
 (
 )
-{
-}
+=
+default
+;
 public
 :
 MOZ_MUST_USE

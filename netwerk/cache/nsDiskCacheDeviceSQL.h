@@ -159,8 +159,9 @@ private
 nsApplicationCacheNamespace
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 mItemType
 ;
@@ -212,8 +213,9 @@ private
 nsOfflineCacheEvictionFunction
 (
 )
-{
-}
+=
+default
+;
 nsOfflineCacheDevice
 *
 mDevice
@@ -855,6 +857,8 @@ private
 nsOfflineCacheDevice
 (
 )
+=
+default
 ;
 friend
 class

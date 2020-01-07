@@ -31,8 +31,9 @@ virtual
 DataChannelListener
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 OnMessageAvailable

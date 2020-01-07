@@ -1314,8 +1314,9 @@ virtual
 PendingTransactionInfo
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 friend

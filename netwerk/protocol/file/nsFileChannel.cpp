@@ -713,8 +713,9 @@ virtual
 nsFileUploadContentStream
 (
 )
-{
-}
+=
+default
+;
 void
 OnCopyComplete
 (
@@ -1227,15 +1228,6 @@ mFileURI
 return
 NS_OK
 ;
-}
-nsFileChannel
-:
-:
-~
-nsFileChannel
-(
-)
-{
 }
 nsresult
 nsFileChannel

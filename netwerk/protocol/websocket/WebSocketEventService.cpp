@@ -232,8 +232,9 @@ protected
 WebSocketBaseRunnable
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 DoWork

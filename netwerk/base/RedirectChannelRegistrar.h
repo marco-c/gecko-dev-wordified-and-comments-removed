@@ -75,8 +75,9 @@ private
 RedirectChannelRegistrar
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 typedef

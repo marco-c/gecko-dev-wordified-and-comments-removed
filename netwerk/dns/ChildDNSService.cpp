@@ -231,15 +231,6 @@ IsNeckoChild
 )
 ;
 }
-ChildDNSService
-:
-:
-~
-ChildDNSService
-(
-)
-{
-}
 void
 ChildDNSService
 :

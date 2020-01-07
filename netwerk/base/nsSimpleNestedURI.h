@@ -204,8 +204,9 @@ explicit
 Mutator
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -213,8 +214,9 @@ virtual
 Mutator
 (
 )
-{
-}
+=
+default
+;
 MOZ_MUST_USE
 NS_IMETHOD
 Deserialize

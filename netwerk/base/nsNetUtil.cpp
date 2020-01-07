@@ -12789,8 +12789,6 @@ return
 NS_OK
 ;
 }
-else
-{
 Telemetry
 :
 :
@@ -12805,7 +12803,6 @@ LABELS_HTTP_SCHEME_UPGRADE_TYPE
 PrefBlockedSTS
 )
 ;
-}
 }
 else
 {

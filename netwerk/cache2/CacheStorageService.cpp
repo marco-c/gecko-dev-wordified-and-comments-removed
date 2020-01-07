@@ -2341,8 +2341,9 @@ virtual
 CleaupCacheDirectoriesRunnable
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIFile

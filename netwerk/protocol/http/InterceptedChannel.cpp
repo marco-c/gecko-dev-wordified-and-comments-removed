@@ -190,15 +190,6 @@ Invalid
 )
 {
 }
-InterceptedChannelBase
-:
-:
-~
-InterceptedChannelBase
-(
-)
-{
-}
 void
 InterceptedChannelBase
 :

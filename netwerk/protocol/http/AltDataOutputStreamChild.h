@@ -92,6 +92,8 @@ virtual
 AltDataOutputStreamChild
 (
 )
+=
+default
 ;
 bool
 WriteDataInChunks

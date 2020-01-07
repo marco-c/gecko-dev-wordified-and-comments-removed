@@ -72,6 +72,8 @@ virtual
 nsHttpActivityDistributor
 (
 )
+=
+default
 ;
 ObserverArray
 mObservers

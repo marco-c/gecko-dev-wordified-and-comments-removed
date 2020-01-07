@@ -319,8 +319,9 @@ virtual
 nsDiskCacheEntryInfo
 (
 )
-{
-}
+=
+default
+;
 const
 char
 *

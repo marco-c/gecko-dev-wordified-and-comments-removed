@@ -344,6 +344,8 @@ private
 BackgroundFileSaverOutputStream
 (
 )
+=
+default
 ;
 nsCOMPtr
 <
@@ -393,6 +395,8 @@ private
 BackgroundFileSaverStreamListener
 (
 )
+=
+default
 ;
 mozilla
 :
@@ -457,8 +461,9 @@ virtual
 DigestOutputStream
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIOutputStream
@@ -476,6 +481,8 @@ DigestOutputStream
 &
 d
 )
+=
+delete
 ;
 }
 ;

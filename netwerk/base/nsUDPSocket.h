@@ -336,6 +336,8 @@ virtual
 nsUDPOutputStream
 (
 )
+=
+default
 ;
 RefPtr
 <

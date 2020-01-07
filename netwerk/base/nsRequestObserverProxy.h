@@ -66,8 +66,9 @@ nsIRequestObserverProxy
 nsRequestObserverProxy
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -76,8 +77,9 @@ NS_DECL_NSIREQUESTOBSERVERPROXY
 nsRequestObserverProxy
 (
 )
-{
-}
+=
+default
+;
 nsIRequestObserver
 *
 Observer
@@ -141,8 +143,9 @@ virtual
 nsARequestObserverEvent
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIRequest

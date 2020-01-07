@@ -456,8 +456,9 @@ NS_DECL_ISUPPORTS
 DataChannelShutdown
 (
 )
-{
-}
+=
+default
+;
 void
 Init
 (
@@ -14722,8 +14723,6 @@ DATA_CHANNEL_PPID_BINARY
 )
 ;
 }
-else
-{
 return
 SendDataMsg
 (
@@ -14734,7 +14733,6 @@ DATA_CHANNEL_PPID_DOMSTRING_PARTIAL
 DATA_CHANNEL_PPID_DOMSTRING
 )
 ;
-}
 }
 void
 DataChannelConnection
@@ -15843,8 +15841,6 @@ return
 true
 ;
 }
-else
-{
 aRv
 .
 Throw
@@ -15855,6 +15851,5 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 false
 ;
-}
 }
 }

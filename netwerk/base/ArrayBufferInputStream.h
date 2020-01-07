@@ -122,8 +122,9 @@ virtual
 ArrayBufferInputStream
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

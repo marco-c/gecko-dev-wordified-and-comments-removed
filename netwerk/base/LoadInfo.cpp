@@ -2284,15 +2284,6 @@ aRedirectChain
 )
 ;
 }
-LoadInfo
-:
-:
-~
-LoadInfo
-(
-)
-{
-}
 void
 LoadInfo
 :

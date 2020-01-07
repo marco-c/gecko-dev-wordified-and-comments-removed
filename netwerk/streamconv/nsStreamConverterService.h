@@ -55,6 +55,8 @@ NS_DECL_NSISTREAMCONVERTERSERVICE
 nsStreamConverterService
 (
 )
+=
+default
 ;
 private
 :
@@ -63,6 +65,8 @@ virtual
 nsStreamConverterService
 (
 )
+=
+default
 ;
 nsresult
 FindConverter

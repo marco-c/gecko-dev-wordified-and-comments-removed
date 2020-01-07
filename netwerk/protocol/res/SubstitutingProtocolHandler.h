@@ -144,8 +144,9 @@ virtual
 SubstitutingProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 void
 ConstructInternal
 (
@@ -286,8 +287,9 @@ flags
 SubstitutionEntry
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIURI

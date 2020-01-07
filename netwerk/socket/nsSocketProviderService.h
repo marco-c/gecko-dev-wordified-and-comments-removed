@@ -22,8 +22,9 @@ virtual
 nsSocketProviderService
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -31,8 +32,9 @@ NS_DECL_NSISOCKETPROVIDERSERVICE
 nsSocketProviderService
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 Create

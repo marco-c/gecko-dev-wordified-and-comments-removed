@@ -5674,7 +5674,7 @@ checkChars
 ;
 }
 return
-0
+nullptr
 ;
 }
 mLineBuf
@@ -5735,7 +5735,7 @@ len
 )
 ;
 return
-0
+nullptr
 ;
 }
 return
@@ -5878,7 +5878,7 @@ len
 ;
 }
 return
-0
+nullptr
 ;
 }
 nsresult

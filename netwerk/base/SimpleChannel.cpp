@@ -129,8 +129,9 @@ virtual
 SimpleChannel
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 OpenContentStream

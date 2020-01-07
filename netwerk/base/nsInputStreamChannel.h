@@ -53,8 +53,9 @@ virtual
 nsInputStreamChannel
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 OpenContentStream

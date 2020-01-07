@@ -158,8 +158,9 @@ virtual
 nsInputStreamTransport
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -1213,8 +1214,9 @@ virtual
 AvailableEvent
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIInputStream

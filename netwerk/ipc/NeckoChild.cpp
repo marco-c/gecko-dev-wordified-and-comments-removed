@@ -307,14 +307,6 @@ nullptr
 NeckoChild
 :
 :
-NeckoChild
-(
-)
-{
-}
-NeckoChild
-:
-:
 ~
 NeckoChild
 (

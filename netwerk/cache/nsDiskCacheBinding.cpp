@@ -870,7 +870,7 @@ mGeneration
 ;
 while
 (
-1
+true
 )
 {
 if
@@ -1181,8 +1181,6 @@ HashNumber
 return
 ;
 }
-else
-{
 hashEntry
 -
 >
@@ -1197,7 +1195,6 @@ PR_NEXT_LINK
 binding
 )
 ;
-}
 }
 PR_REMOVE_AND_INIT_LINK
 (

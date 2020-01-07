@@ -75,6 +75,8 @@ NS_DECL_NSIDIRINDEXLISTENER
 nsIndexedToHTML
 (
 )
+=
+default
 ;
 nsresult
 Init
@@ -176,6 +178,8 @@ virtual
 nsIndexedToHTML
 (
 )
+=
+default
 ;
 }
 ;

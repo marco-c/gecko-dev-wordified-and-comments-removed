@@ -107,14 +107,6 @@ Entry
 "
 #
 endif
-nsFileProtocolHandler
-:
-:
-nsFileProtocolHandler
-(
-)
-{
-}
 nsresult
 nsFileProtocolHandler
 :

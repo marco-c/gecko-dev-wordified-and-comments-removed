@@ -410,8 +410,6 @@ return
 rv
 ;
 }
-else
-{
 secret
 -
 >
@@ -455,7 +453,6 @@ PR_WOULD_BLOCK_ERROR
 return
 PR_FAILURE
 ;
-}
 }
 }
 SOCKET_LOG
@@ -871,8 +868,6 @@ return
 rv
 ;
 }
-else
-{
 secret
 -
 >
@@ -907,7 +902,6 @@ secret
 mFirstPacketBufLen
 )
 ;
-}
 }
 }
 rv
@@ -2478,8 +2472,6 @@ return
 true
 ;
 }
-else
-{
 secret
 -
 >
@@ -2500,7 +2492,6 @@ SOCKET_ERROR_STATE
 return
 false
 ;
-}
 }
 secret
 -

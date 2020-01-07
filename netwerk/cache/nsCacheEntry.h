@@ -1300,8 +1300,9 @@ virtual
 nsCacheEntryInfo
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct

@@ -187,6 +187,8 @@ virtual
 nsSocketInputStream
 (
 )
+=
+default
 ;
 bool
 IsReferenced
@@ -273,6 +275,8 @@ virtual
 nsSocketOutputStream
 (
 )
+=
+default
 ;
 bool
 IsReferenced
@@ -849,8 +853,9 @@ aSocketTransport
 LockedPRFileDesc
 (
 )
-{
-}
+=
+default
+;
 bool
 IsInitialized
 (

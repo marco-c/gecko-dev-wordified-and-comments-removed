@@ -440,7 +440,7 @@ getErrorCodeBool
 value
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1042,10 +1042,10 @@ sysctl
 (
 mib
 6
-NULL
+nullptr
 &
 needed
-NULL
+nullptr
 0
 )
 <
@@ -1106,7 +1106,7 @@ buf
 ]
 &
 needed
-NULL
+nullptr
 0
 )
 ;
@@ -1376,10 +1376,10 @@ sysctl
 (
 mib
 6
-NULL
+nullptr
 &
 needed
-NULL
+nullptr
 0
 )
 <
@@ -1418,7 +1418,7 @@ buf
 ]
 &
 needed
-NULL
+nullptr
 0
 )
 <
@@ -2084,7 +2084,7 @@ mReachability
 :
 SCNetworkReachabilityCreateWithAddress
 (
-NULL
+nullptr
 (
 struct
 sockaddr
@@ -2110,9 +2110,9 @@ context
 {
 0
 this
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 }
 ;
 if
@@ -2147,7 +2147,7 @@ mReachability
 ;
 mReachability
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -2159,9 +2159,9 @@ storeContext
 {
 0
 this
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 }
 ;
 mStoreRef
@@ -2170,7 +2170,7 @@ mStoreRef
 :
 SCDynamicStoreCreate
 (
-NULL
+nullptr
 CFSTR
 (
 "
@@ -2189,8 +2189,8 @@ patterns
 ]
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 OSStatus
@@ -2240,7 +2240,7 @@ patterns
 :
 SCDynamicStoreKeyCreateNetworkServiceEntity
 (
-NULL
+nullptr
 kSCDynamicStoreDomainState
 kSCCompAnyRegex
 kSCEntNetIPv4
@@ -2295,7 +2295,7 @@ patterns
 :
 SCDynamicStoreKeyCreateNetworkServiceEntity
 (
-NULL
+nullptr
 kSCDynamicStoreDomainState
 kSCCompAnyRegex
 kSCEntNetIPv6
@@ -2316,7 +2316,7 @@ patterns
 CFArrayRef
 patternList
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2371,7 +2371,7 @@ patternList
 :
 CFArrayCreate
 (
-NULL
+nullptr
 (
 const
 void
@@ -2414,7 +2414,7 @@ getErrorCodeBool
 SCDynamicStoreSetNotificationKeys
 (
 mStoreRef
-NULL
+nullptr
 patternList
 )
 )
@@ -2434,7 +2434,7 @@ mRunLoopSource
 :
 SCDynamicStoreCreateRunLoopSource
 (
-NULL
+nullptr
 mStoreRef
 0
 )
@@ -2555,7 +2555,7 @@ mReachability
 ;
 mReachability
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -2608,7 +2608,7 @@ mReachability
 ;
 mReachability
 =
-NULL
+nullptr
 ;
 :
 :
@@ -2619,7 +2619,7 @@ mCFRunLoop
 ;
 mCFRunLoop
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE

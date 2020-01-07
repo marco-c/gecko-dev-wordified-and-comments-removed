@@ -154,6 +154,8 @@ ValidityPair
 &
 aOther
 )
+=
+default
 ;
 bool
 CanBeMerged

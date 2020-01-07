@@ -216,15 +216,6 @@ nsInputStreamPump
 )
 {
 }
-nsInputStreamPump
-:
-:
-~
-nsInputStreamPump
-(
-)
-{
-}
 nsresult
 nsInputStreamPump
 :

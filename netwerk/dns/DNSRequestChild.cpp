@@ -142,6 +142,8 @@ virtual
 ChildDNSRecord
 (
 )
+=
+default
 ;
 nsCString
 mCanonicalName
@@ -248,15 +250,6 @@ i
 )
 ;
 }
-}
-ChildDNSRecord
-:
-:
-~
-ChildDNSRecord
-(
-)
-{
 }
 NS_IMETHODIMP
 ChildDNSRecord

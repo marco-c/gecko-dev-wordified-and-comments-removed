@@ -1631,8 +1631,9 @@ private
 CachePushCheckCallback
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 Http2Session

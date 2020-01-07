@@ -94,14 +94,6 @@ nsIRequestObserver
 nsIStreamListener
 nsIDirIndexParser
 )
-nsDirIndexParser
-:
-:
-nsDirIndexParser
-(
-)
-{
-}
 nsresult
 nsDirIndexParser
 :

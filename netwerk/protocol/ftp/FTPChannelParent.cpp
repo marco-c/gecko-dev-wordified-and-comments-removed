@@ -2752,8 +2752,6 @@ SuspendInternal
 )
 ;
 }
-else
-{
 return
 mChannel
 -
@@ -2762,7 +2760,6 @@ Suspend
 (
 )
 ;
-}
 }
 nsresult
 FTPChannelParent
@@ -2797,8 +2794,6 @@ ResumeInternal
 )
 ;
 }
-else
-{
 return
 mChannel
 -
@@ -2807,7 +2802,6 @@ Resume
 (
 )
 ;
-}
 }
 nsresult
 FTPChannelParent

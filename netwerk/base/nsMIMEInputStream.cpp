@@ -144,6 +144,8 @@ virtual
 nsMIMEInputStream
 (
 )
+=
+default
 ;
 public
 :
@@ -341,15 +343,6 @@ nsMIMEInputStream
 :
 mMutex
 "
-)
-{
-}
-nsMIMEInputStream
-:
-:
-~
-nsMIMEInputStream
-(
 )
 {
 }

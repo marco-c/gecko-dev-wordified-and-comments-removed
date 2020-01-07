@@ -59,6 +59,8 @@ protected
 nsFileChannel
 (
 )
+=
+default
 ;
 MOZ_MUST_USE
 nsresult

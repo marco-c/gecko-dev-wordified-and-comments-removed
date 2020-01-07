@@ -95,15 +95,6 @@ mSignal
 1000
 ;
 }
-nsWifiAccessPoint
-:
-:
-~
-nsWifiAccessPoint
-(
-)
-{
-}
 NS_IMETHODIMP
 nsWifiAccessPoint
 :

@@ -3991,7 +3991,7 @@ mReadBuffer
 ;
 mReadBuffer
 =
-0
+nullptr
 ;
 mReadBufferLen
 =
@@ -5608,7 +5608,7 @@ uncompressedLenStr
 .
 Adopt
 (
-0
+nullptr
 )
 ;
 uncompressedLenStr
@@ -5661,7 +5661,7 @@ mWriteBuffer
 ;
 mWriteBuffer
 =
-0
+nullptr
 ;
 mWriteBufferLen
 =

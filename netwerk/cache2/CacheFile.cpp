@@ -626,8 +626,9 @@ virtual
 DoomFileHelper
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 CacheFileListener

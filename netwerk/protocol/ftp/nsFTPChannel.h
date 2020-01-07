@@ -342,8 +342,9 @@ virtual
 nsFtpChannel
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 OpenContentStream

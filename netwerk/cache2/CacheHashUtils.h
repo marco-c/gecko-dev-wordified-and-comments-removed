@@ -257,8 +257,9 @@ virtual
 CacheHash
 (
 )
-{
-}
+=
+default
+;
 void
 Feed
 (

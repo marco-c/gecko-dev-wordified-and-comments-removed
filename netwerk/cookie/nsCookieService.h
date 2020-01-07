@@ -336,8 +336,9 @@ forbidden
 nsCookieEntry
 (
 )
-{
-}
+=
+default
+;
 inline
 ArrayType
 &
@@ -543,8 +544,9 @@ private
 DBState
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

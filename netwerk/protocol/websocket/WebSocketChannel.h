@@ -1108,8 +1108,9 @@ virtual
 WebSocketSSLChannel
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

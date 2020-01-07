@@ -31,6 +31,8 @@ virtual
 nsDataHandler
 (
 )
+=
+default
 ;
 public
 :
@@ -39,6 +41,8 @@ NS_DECL_NSIPROTOCOLHANDLER
 nsDataHandler
 (
 )
+=
+default
 ;
 static
 MOZ_MUST_USE

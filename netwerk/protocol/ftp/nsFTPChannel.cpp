@@ -375,8 +375,9 @@ nsIFTPEventSink
 FTPEventSinkProxy
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

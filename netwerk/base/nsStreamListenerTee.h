@@ -70,8 +70,9 @@ NS_DECL_NSISTREAMLISTENERTEE
 nsStreamListenerTee
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -79,8 +80,9 @@ virtual
 nsStreamListenerTee
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIInputStreamTee

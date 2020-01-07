@@ -31,8 +31,9 @@ virtual
 nsAuthInformationHolder
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsAuthInformationHolder

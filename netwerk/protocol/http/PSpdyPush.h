@@ -49,6 +49,8 @@ public
 SpdyPushCache
 (
 )
+=
+default
 ;
 virtual
 ~

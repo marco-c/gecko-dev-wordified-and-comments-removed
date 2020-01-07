@@ -79,8 +79,9 @@ virtual
 nsSOCKSSocketProvider
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 mVersion
 ;

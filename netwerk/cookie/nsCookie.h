@@ -551,8 +551,9 @@ virtual
 nsCookie
 (
 )
-{
-}
+=
+default
+;
 private
 :
 const

@@ -282,6 +282,8 @@ aPreflightChannel
 nsCORSListenerProxy
 (
 )
+=
+default
 ;
 MOZ_MUST_USE
 nsresult

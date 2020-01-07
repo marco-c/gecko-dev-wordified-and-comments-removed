@@ -41,12 +41,16 @@ public
 ChannelDiverterParent
 (
 )
+=
+default
 ;
 virtual
 ~
 ChannelDiverterParent
 (
 )
+=
+default
 ;
 bool
 Init

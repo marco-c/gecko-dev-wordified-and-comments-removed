@@ -129,8 +129,9 @@ protected
 ExtensionProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 private
 :
 explicit

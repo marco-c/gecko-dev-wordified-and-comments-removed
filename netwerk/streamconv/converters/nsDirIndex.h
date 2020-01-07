@@ -34,6 +34,8 @@ private
 nsDirIndex
 (
 )
+=
+default
 ;
 public
 :

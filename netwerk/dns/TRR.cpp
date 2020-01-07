@@ -531,7 +531,7 @@ labelLength
 }
 while
 (
-1
+true
 )
 ;
 aBody
