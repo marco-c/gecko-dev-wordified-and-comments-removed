@@ -15799,7 +15799,7 @@ if
 sheet
 -
 >
-GetAssociatedDocument
+GetAssociatedDocumentOrShadowRoot
 (
 )
 )

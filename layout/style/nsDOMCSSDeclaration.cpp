@@ -897,10 +897,10 @@ nsIDocument
 *
 document
 =
-aRule
+sheet
 -
 >
-GetDocument
+GetAssociatedDocument
 (
 )
 )

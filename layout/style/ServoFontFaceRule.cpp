@@ -464,7 +464,7 @@ ContainingRule
 )
 -
 >
-GetDocument
+GetParentObject
 (
 )
 ;

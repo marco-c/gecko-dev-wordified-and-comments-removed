@@ -9937,7 +9937,7 @@ if
 aParentSheet
 -
 >
-GetAssociatedDocument
+GetAssociatedDocumentOrShadowRoot
 (
 )
 )
