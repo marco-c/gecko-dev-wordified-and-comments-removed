@@ -858,6 +858,7 @@ DummyAccessible
 NativeState
 (
 )
+const
 {
 return
 0

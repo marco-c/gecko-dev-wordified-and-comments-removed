@@ -105,6 +105,7 @@ uint64_t
 NativeState
 (
 )
+const
 override
 ;
 protected
@@ -295,6 +296,7 @@ uint64_t
 NativeState
 (
 )
+const
 override
 ;
 virtual

@@ -215,6 +215,7 @@ XULComboboxAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state

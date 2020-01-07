@@ -784,6 +784,7 @@ uint64_t
 NativeState
 (
 )
+const
 ;
 virtual
 uint64_t

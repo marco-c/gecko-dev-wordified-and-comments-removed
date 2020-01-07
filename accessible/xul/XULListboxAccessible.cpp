@@ -162,6 +162,7 @@ XULColumAccessible
 NativeState
 (
 )
+const
 {
 return
 states
@@ -213,6 +214,7 @@ XULColumnItemAccessible
 NativeState
 (
 )
+const
 {
 return
 states
@@ -368,6 +370,7 @@ XULListboxAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 states
@@ -2561,6 +2564,7 @@ XULListitemAccessible
 NativeState
 (
 )
+const
 {
 if
 (

@@ -340,6 +340,7 @@ XULTreeAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -3859,6 +3860,7 @@ XULTreeItemAccessibleBase
 NativeState
 (
 )
+const
 {
 uint64_t
 state

@@ -372,6 +372,7 @@ HyperTextAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 states

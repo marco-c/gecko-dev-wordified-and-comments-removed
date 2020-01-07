@@ -68,6 +68,7 @@ uint64_t
 NativeState
 (
 )
+const
 override
 ;
 virtual
@@ -193,6 +194,7 @@ uint64_t
 NativeState
 (
 )
+const
 override
 ;
 }
@@ -231,6 +233,7 @@ uint64_t
 NativeState
 (
 )
+const
 override
 ;
 }

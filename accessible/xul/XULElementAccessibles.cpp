@@ -297,6 +297,7 @@ XULLabelAccessible
 NativeState
 (
 )
+const
 {
 return
 HyperTextAccessibleWrap
@@ -571,6 +572,7 @@ XULLabelTextLeafAccessible
 NativeState
 (
 )
+const
 {
 return
 TextLeafAccessibleWrap
@@ -613,6 +615,7 @@ XULTooltipAccessible
 NativeState
 (
 )
+const
 {
 return
 LeafAccessible

@@ -136,6 +136,7 @@ XULColorPickerTileAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -294,6 +295,7 @@ XULColorPickerAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
