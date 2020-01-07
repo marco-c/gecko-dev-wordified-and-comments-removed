@@ -7,6 +7,13 @@ StickyScrollContainer_h
 #
 include
 "
+nsCoordBox
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -145,10 +152,10 @@ GetScrollRanges
 nsIFrame
 *
 aFrame
-nsRect
+nsCoordBox
 *
 aOuter
-nsRect
+nsCoordBox
 *
 aInner
 )

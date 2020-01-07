@@ -2300,7 +2300,7 @@ GetIsStickyPosition
 )
 {
 const
-LayerRect
+LayerBox
 &
 stickyOuter
 =
@@ -2312,7 +2312,7 @@ GetStickyScrollRangeOuter
 )
 ;
 const
-LayerRect
+LayerBox
 &
 stickyInner
 =
