@@ -403,6 +403,11 @@ old_data
 "
         
 assert
+bytes_remaining
+=
+=
+0
+or
 self
 .
 _buf_position
@@ -473,6 +478,11 @@ _file_position
 bytes_remaining
         
 assert
+bytes_remaining
+=
+=
+0
+or
 self
 .
 _buf_position
