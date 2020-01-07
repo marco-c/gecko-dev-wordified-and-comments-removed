@@ -1070,6 +1070,12 @@ CUBEB_NORMAL_LATENCY_FRAMES
 namespace
 CubebUtils
 {
+cubeb
+*
+GetCubebContextUnlocked
+(
+)
+;
 void
 PrefChanged
 (
