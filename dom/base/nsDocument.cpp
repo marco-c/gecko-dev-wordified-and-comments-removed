@@ -11023,6 +11023,13 @@ do_GetWeakReference
 aLoadGroup
 )
 ;
+if
+(
+IsContentDocument
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIRequestContextService
@@ -11083,6 +11090,7 @@ BeginLoad
 (
 )
 ;
+}
 }
 }
 }
