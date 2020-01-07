@@ -2928,6 +2928,15 @@ CompilerConstraintList
 constraints
 )
 ;
+Realm
+*
+getKnownRealm
+(
+CompilerConstraintList
+*
+constraints
+)
+;
 enum
 ForAllResult
 {

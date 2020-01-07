@@ -3941,7 +3941,7 @@ C
 )
 &
 &
-IsWrappedArrayConstructor
+IsCrossRealmArrayConstructor
 (
 C
 )

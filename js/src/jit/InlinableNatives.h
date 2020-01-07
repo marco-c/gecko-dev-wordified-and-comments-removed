@@ -536,7 +536,7 @@ IntrinsicIsObject
 \
 _
 (
-IntrinsicIsWrappedArrayConstructor
+IntrinsicIsCrossRealmArrayConstructor
 )
 \
 _

@@ -850,7 +850,7 @@ true
 }
 static
 bool
-intrinsic_IsWrappedArrayConstructor
+intrinsic_IsCrossRealmArrayConstructor
 (
 JSContext
 *
@@ -879,7 +879,7 @@ false
 if
 (
 !
-IsWrappedArrayConstructor
+IsCrossRealmArrayConstructor
 (
 cx
 args
@@ -15017,12 +15017,12 @@ ArrayIsArray
 JS_INLINABLE_FN
 (
 "
-IsWrappedArrayConstructor
+IsCrossRealmArrayConstructor
 "
-intrinsic_IsWrappedArrayConstructor
+intrinsic_IsCrossRealmArrayConstructor
 1
 0
-IntrinsicIsWrappedArrayConstructor
+IntrinsicIsCrossRealmArrayConstructor
 )
 JS_INLINABLE_FN
 (

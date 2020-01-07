@@ -758,7 +758,7 @@ vp
 ;
 extern
 bool
-IsWrappedArrayConstructor
+IsCrossRealmArrayConstructor
 (
 JSContext
 *
