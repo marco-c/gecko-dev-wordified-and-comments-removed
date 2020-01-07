@@ -1,7 +1,9 @@
 #
 include
 "
-jsmath
+builtin
+/
+Math
 .
 h
 "
