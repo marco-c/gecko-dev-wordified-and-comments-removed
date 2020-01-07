@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+4
+)
+;
 async
 function
 breakpointScopes
@@ -527,11 +532,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-3
-)
-;
 await
 pushPref
 (
