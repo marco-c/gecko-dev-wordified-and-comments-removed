@@ -132,14 +132,6 @@ s
 )
     
 "
-mozilla_dir
-"
-:
-"
-jamun
-"
-    
-"
 repos
 "
 :

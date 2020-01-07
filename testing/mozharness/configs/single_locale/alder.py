@@ -135,14 +135,6 @@ s
 )
     
 "
-mozilla_dir
-"
-:
-"
-alder
-"
-    
-"
 repos
 "
 :

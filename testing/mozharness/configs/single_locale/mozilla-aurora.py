@@ -141,16 +141,6 @@ s
 )
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-aurora
-"
-    
-"
 repos
 "
 :

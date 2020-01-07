@@ -95,16 +95,6 @@ MAR_TOOLS_URL
 ]
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-beta
-"
-    
-"
 repos
 "
 :

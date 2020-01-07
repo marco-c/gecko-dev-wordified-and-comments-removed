@@ -680,12 +680,6 @@ s
 "
     
 "
-mozilla_dir
-"
-:
-MOZILLA_DIR
-    
-"
 signature_verification_script
 "
 :

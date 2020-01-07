@@ -132,16 +132,6 @@ s
 )
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-central
-"
-    
-"
 repos
 "
 :

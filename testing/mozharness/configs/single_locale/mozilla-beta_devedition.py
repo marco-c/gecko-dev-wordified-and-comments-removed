@@ -80,16 +80,6 @@ central
 "
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-beta
-"
-    
-"
 repos
 "
 :

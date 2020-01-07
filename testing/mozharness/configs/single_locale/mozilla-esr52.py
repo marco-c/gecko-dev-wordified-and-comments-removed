@@ -84,16 +84,6 @@ release
 "
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-esr52
-"
-    
-"
 repos
 "
 :

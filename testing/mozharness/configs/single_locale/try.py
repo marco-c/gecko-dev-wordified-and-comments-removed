@@ -136,14 +136,6 @@ s
 )
     
 "
-mozilla_dir
-"
-:
-"
-try
-"
-    
-"
 repos
 "
 :

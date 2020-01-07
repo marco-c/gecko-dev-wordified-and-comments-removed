@@ -29,7 +29,7 @@ buildbase
 import
 (
     
-_get_mozconfig_path
+get_mozconfig_path
 MozconfigPathError
 )
 class
@@ -99,7 +99,7 @@ for
 :
 func
 :
-_get_mozconfig_path
+get_mozconfig_path
 .
     
 "
@@ -139,7 +139,7 @@ FakeScriptMixin
         
 abs_src_path
 =
-_get_mozconfig_path
+get_mozconfig_path
 (
             
 script
@@ -268,7 +268,7 @@ platform9000
         
 abs_src_path
 =
-_get_mozconfig_path
+get_mozconfig_path
 (
             
 script
@@ -391,7 +391,7 @@ json
         
 abs_src_path
 =
-_get_mozconfig_path
+get_mozconfig_path
 (
             
 script
@@ -788,7 +788,7 @@ MozconfigPathError
 )
 :
                 
-_get_mozconfig_path
+get_mozconfig_path
 (
 script
 config

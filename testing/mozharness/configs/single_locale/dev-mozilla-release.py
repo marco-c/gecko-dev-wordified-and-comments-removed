@@ -45,14 +45,6 @@ central
 "
     
 "
-mozilla_dir
-"
-:
-"
-jamun
-"
-    
-"
 repos
 "
 :
