@@ -128,6 +128,8 @@ libucl
 -
 dev
 \
+patch
+\
 p7zip
 -
 full
