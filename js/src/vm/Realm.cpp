@@ -3096,7 +3096,7 @@ MOZ_ASSERT
 obj
 -
 >
-realm
+maybeCCWRealm
 (
 )
 =
@@ -3138,7 +3138,7 @@ MOZ_ASSERT
 metadata
 -
 >
-realm
+maybeCCWRealm
 (
 )
 =
@@ -3146,7 +3146,7 @@ realm
 obj
 -
 >
-realm
+maybeCCWRealm
 (
 )
 )
@@ -4869,7 +4869,7 @@ nullptr
 obj
 -
 >
-realm
+nonCCWRealm
 (
 )
 ;

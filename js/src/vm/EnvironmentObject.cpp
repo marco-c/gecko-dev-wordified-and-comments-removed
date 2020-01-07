@@ -13953,7 +13953,7 @@ realm
 debugEnv
 -
 >
-realm
+nonCCWRealm
 (
 )
 )
@@ -14137,7 +14137,7 @@ realm
 debugEnv
 -
 >
-realm
+nonCCWRealm
 (
 )
 )
@@ -15864,11 +15864,6 @@ if
 (
 frame
 .
-environmentChain
-(
-)
--
->
 realm
 (
 )
@@ -16090,11 +16085,6 @@ MOZ_ASSERT
 (
 frame
 .
-environmentChain
-(
-)
--
->
 realm
 (
 )
@@ -16249,11 +16239,6 @@ if
 (
 frame
 .
-environmentChain
-(
-)
--
->
 realm
 (
 )
