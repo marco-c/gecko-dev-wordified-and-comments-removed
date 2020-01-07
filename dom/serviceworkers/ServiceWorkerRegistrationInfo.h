@@ -473,6 +473,12 @@ NotifyChromeRegistrationListeners
 (
 )
 ;
+static
+uint64_t
+GetNextId
+(
+)
+;
 }
 ;
 }

@@ -129,6 +129,9 @@ necessary
 struct
 IPCServiceWorkerRegistrationDescriptor
 {
+uint64_t
+id
+;
 /
 /
 These
