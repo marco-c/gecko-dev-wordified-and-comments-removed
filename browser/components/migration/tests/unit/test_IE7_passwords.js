@@ -2675,6 +2675,7 @@ url
 )
 )
 ;
+await
 migrator
 .
 _migrateURIs
@@ -3011,6 +3012,7 @@ website
 hash
 )
 ;
+await
 migrator
 .
 _migrateURIs
