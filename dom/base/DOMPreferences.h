@@ -316,6 +316,12 @@ JSObject
 aObj
 )
 ;
+static
+bool
+ResistFingerprintingEnabled
+(
+)
+;
 }
 ;
 }
