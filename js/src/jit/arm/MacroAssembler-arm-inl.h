@@ -8850,6 +8850,15 @@ Assembler
 :
 :
 Zero
+|
+|
+cond
+=
+=
+Assembler
+:
+:
+NonZero
 )
 {
 MOZ_ASSERT
