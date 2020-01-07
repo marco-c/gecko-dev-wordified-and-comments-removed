@@ -185,15 +185,13 @@ dev
 -
 dependencies
 ]
-rust
--
-crypto
+sha2
 =
 "
 ^
 0
 .
-2
+7
 "
 base64
 =
