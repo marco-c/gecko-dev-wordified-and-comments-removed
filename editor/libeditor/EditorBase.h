@@ -1572,17 +1572,6 @@ aPointToInsert
 ;
 already_AddRefed
 <
-DeleteNodeTransaction
->
-CreateTxnForDeleteNode
-(
-nsINode
-*
-aNode
-)
-;
-already_AddRefed
-<
 EditAggregateTransaction
 >
 CreateTxnForDeleteSelection
