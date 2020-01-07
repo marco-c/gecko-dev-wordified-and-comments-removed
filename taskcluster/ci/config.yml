@@ -849,6 +849,16 @@ linux
 -
 l10n
 '
+-
+'
+sm
+-
+arm
+-
+sim
+-
+linux32
+'
 '
 linux64
 '
