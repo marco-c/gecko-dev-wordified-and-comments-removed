@@ -254,6 +254,13 @@ PropTypes
 func
 .
 isRequired
+setAnimationsPlayState
+:
+PropTypes
+.
+func
+.
+isRequired
 setDetailVisibility
 :
 PropTypes
@@ -331,6 +338,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 selectAnimation
+setAnimationsPlayState
 setDetailVisibility
 setSelectedNode
 simulateAnimation
@@ -376,6 +384,10 @@ length
 [
 AnimationToolbar
 (
+{
+animations
+setAnimationsPlayState
+}
 )
 SplitBox
 (

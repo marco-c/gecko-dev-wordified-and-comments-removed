@@ -92,6 +92,8 @@ item
 length
 animationInspector
 .
+state
+.
 animations
 .
 length

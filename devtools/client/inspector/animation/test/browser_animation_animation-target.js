@@ -72,6 +72,8 @@ animationItemEls
 length
 animationInspector
 .
+state
+.
 animations
 .
 length

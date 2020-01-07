@@ -163,4 +163,9 @@ NoAnimationPanel
 .
 js
 '
+'
+PauseResumeButton
+.
+js
+'
 )
