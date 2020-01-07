@@ -2348,7 +2348,7 @@ uint8_t
 path
 )
 pathLength
-0
+mIndex
 aBaton
 )
 ;
