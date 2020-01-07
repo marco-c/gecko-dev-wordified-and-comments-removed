@@ -351,7 +351,7 @@ gl
 GLLibraryEGL
 :
 :
-ANGLE_stream_producer_d3d_texture_nv12
+ANGLE_stream_producer_d3d_texture
 )
 )
 {
@@ -590,7 +590,7 @@ MOZ_ALWAYS_TRUE
 egl
 -
 >
-fCreateStreamProducerD3DTextureNV12ANGLE
+fCreateStreamProducerD3DTextureANGLE
 (
 egl
 -
@@ -715,7 +715,7 @@ MOZ_ALWAYS_TRUE
 egl
 -
 >
-fCreateStreamProducerD3DTextureNV12ANGLE
+fCreateStreamProducerD3DTextureANGLE
 (
 egl
 -
@@ -734,7 +734,7 @@ MOZ_ALWAYS_TRUE
 egl
 -
 >
-fStreamPostD3DTextureNV12ANGLE
+fStreamPostD3DTextureANGLE
 (
 egl
 -
@@ -1437,7 +1437,7 @@ gl
 GLLibraryEGL
 :
 :
-ANGLE_stream_producer_d3d_texture_nv12
+ANGLE_stream_producer_d3d_texture
 )
 )
 {
@@ -1735,7 +1735,7 @@ MOZ_ALWAYS_TRUE
 egl
 -
 >
-fCreateStreamProducerD3DTextureNV12ANGLE
+fCreateStreamProducerD3DTextureANGLE
 (
 egl
 -
@@ -1756,7 +1756,7 @@ MOZ_ALWAYS_TRUE
 egl
 -
 >
-fStreamPostD3DTextureNV12ANGLE
+fStreamPostD3DTextureANGLE
 (
 egl
 -

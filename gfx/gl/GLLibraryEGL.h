@@ -230,7 +230,7 @@ KHR_stream
 KHR_stream_consumer_gltexture
 EXT_device_query
 NV_stream_consumer_gltexture_yuv
-ANGLE_stream_producer_d3d_texture_nv12
+ANGLE_stream_producer_d3d_texture
 ANGLE_device_creation
 ANGLE_device_creation_d3d11
 Extensions_Max
@@ -1410,7 +1410,7 @@ attrib_list
 )
 )
 EGLBoolean
-fCreateStreamProducerD3DTextureNV12ANGLE
+fCreateStreamProducerD3DTextureANGLE
 (
 EGLDisplay
 dpy
@@ -1424,7 +1424,7 @@ attrib_list
 const
 WRAP
 (
-fCreateStreamProducerD3DTextureNV12ANGLE
+fCreateStreamProducerD3DTextureANGLE
 (
 dpy
 stream
@@ -1432,7 +1432,7 @@ attrib_list
 )
 )
 EGLBoolean
-fStreamPostD3DTextureNV12ANGLE
+fStreamPostD3DTextureANGLE
 (
 EGLDisplay
 dpy
@@ -1449,7 +1449,7 @@ attrib_list
 const
 WRAP
 (
-fStreamPostD3DTextureNV12ANGLE
+fStreamPostD3DTextureANGLE
 (
 dpy
 stream
@@ -2394,7 +2394,7 @@ EGLBoolean
 (
 GLAPIENTRY
 *
-fCreateStreamProducerD3DTextureNV12ANGLE
+fCreateStreamProducerD3DTextureANGLE
 )
 (
 EGLDisplay
@@ -2411,7 +2411,7 @@ EGLBoolean
 (
 GLAPIENTRY
 *
-fStreamPostD3DTextureNV12ANGLE
+fStreamPostD3DTextureANGLE
 )
 (
 EGLDisplay

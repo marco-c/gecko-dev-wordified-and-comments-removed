@@ -7,7 +7,7 @@ WEBGL_SHADER_VALIDATOR_H_
 #
 include
 "
-angle
+GLSLANG
 /
 ShaderLang
 .

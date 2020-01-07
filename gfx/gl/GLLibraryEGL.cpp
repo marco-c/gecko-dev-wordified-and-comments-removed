@@ -8,15 +8,6 @@ h
 #
 include
 "
-angle
-/
-Platform
-.
-h
-"
-#
-include
-"
 gfxConfig
 .
 h
@@ -286,7 +277,7 @@ EGL_EXT_device_query
 EGL_NV_stream_consumer_gltexture_yuv
 "
 "
-EGL_ANGLE_stream_producer_d3d_texture_nv12
+EGL_ANGLE_stream_producer_d3d_texture
 "
 "
 EGL_ANGLE_device_creation
@@ -3253,7 +3244,7 @@ if
 (
 IsExtensionSupported
 (
-ANGLE_stream_producer_d3d_texture_nv12
+ANGLE_stream_producer_d3d_texture
 )
 )
 {
@@ -3269,11 +3260,11 @@ nvStreamSymbols
 {
 SYMBOL
 (
-CreateStreamProducerD3DTextureNV12ANGLE
+CreateStreamProducerD3DTextureANGLE
 )
 SYMBOL
 (
-StreamPostD3DTextureNV12ANGLE
+StreamPostD3DTextureANGLE
 )
 END_OF_SYMBOLS
 }
@@ -3292,7 +3283,7 @@ NS_ERROR
 "
 EGL
 supports
-ANGLE_stream_producer_d3d_texture_nv12
+ANGLE_stream_producer_d3d_texture
 without
 exposing
 its
@@ -3303,7 +3294,7 @@ functions
 ;
 MarkExtensionUnsupported
 (
-ANGLE_stream_producer_d3d_texture_nv12
+ANGLE_stream_producer_d3d_texture
 )
 ;
 }
