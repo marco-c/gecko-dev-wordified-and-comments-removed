@@ -599,8 +599,8 @@ isSome
 )
 )
 ;
-FramePtr
-framePtr
+Key
+key
 (
 *
 maybeFramePtr
@@ -662,13 +662,13 @@ numberStillValid
 ;
 if
 (
-framePtr
+key
 =
 =
 p
 -
 >
-framePtr
+key
 &
 &
 pc
