@@ -2726,7 +2726,7 @@ override
 mPresContext
 -
 >
-UIResolutionChanged
+UIResolutionChangedSync
 (
 )
 ;
