@@ -448,6 +448,16 @@ use
 self
 :
 :
+inherited_box
+:
+:
+ImageOrientation
+;
+pub
+use
+self
+:
+:
 length
 :
 :
@@ -806,6 +816,10 @@ grid
 pub
 mod
 image
+;
+pub
+mod
+inherited_box
 ;
 pub
 mod
