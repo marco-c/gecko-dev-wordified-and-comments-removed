@@ -607,6 +607,12 @@ qr
 talos
 -
 awsy
+-
+web
+-
+platform
+-
+tests
 linux64
 -
 qr
@@ -628,6 +634,12 @@ sets
 linux
 -
 qr
+-
+tests
+-
+web
+-
+platform
 -
 tests
 linux64
