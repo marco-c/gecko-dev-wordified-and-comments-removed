@@ -2219,14 +2219,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-RefPtr
-<
-APZCTreeManager
->
-GetAPZCTreeManager
-(
-)
-;
 AndroidDynamicToolbarAnimator
 *
 GetAndroidDynamicToolbarAnimator
