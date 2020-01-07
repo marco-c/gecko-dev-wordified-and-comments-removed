@@ -3176,6 +3176,9 @@ True
 quiet
 =
 False
+vendored
+=
+False
 )
 :
         
@@ -3328,6 +3331,35 @@ append
 -
 quiet
 '
+)
+        
+if
+vendored
+:
+            
+args
+.
+extend
+(
+[
+                
+'
+-
+-
+no
+-
+deps
+'
+                
+'
+-
+-
+no
+-
+index
+'
+            
+]
 )
         
 return
