@@ -519,6 +519,10 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+nscoord
+aMainGapSize
+nscoord
+aCrossGapSize
 )
 ;
 template
@@ -659,6 +663,8 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+nscoord
+aMainGapSize
 nsTArray
 <
 nsIFrame
