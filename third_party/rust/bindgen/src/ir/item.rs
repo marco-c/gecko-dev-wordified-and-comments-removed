@@ -5123,9 +5123,6 @@ io
 :
 Write
 {
-try
-!
-(
 writeln
 !
 (
@@ -5188,7 +5185,7 @@ get
 (
 )
 )
-)
+?
 ;
 if
 self

@@ -383,7 +383,7 @@ sa_flags
 :
 :
 :
-c_uint
+c_int
 pub
 sa_sigaction
 :

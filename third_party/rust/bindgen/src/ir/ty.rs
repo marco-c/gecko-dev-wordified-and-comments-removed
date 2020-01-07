@@ -2178,9 +2178,6 @@ self
 .
 layout
 {
-try
-!
-(
 writeln
 !
 (
@@ -2242,16 +2239,13 @@ layout
 .
 align
 )
-)
+?
 ;
 if
 layout
 .
 packed
 {
-try
-!
-(
 writeln
 !
 (
@@ -2282,7 +2276,7 @@ tr
 >
 "
 )
-)
+?
 ;
 }
 }
@@ -2291,9 +2285,6 @@ self
 .
 is_const
 {
-try
-!
-(
 writeln
 !
 (
@@ -2324,7 +2315,7 @@ tr
 >
 "
 )
-)
+?
 ;
 }
 self
@@ -4008,9 +3999,6 @@ is_some
 let
 signature
 =
-try
-!
-(
 FunctionSig
 :
 :
@@ -4021,7 +4009,7 @@ ty
 location
 ctx
 )
-)
+?
 ;
 TypeKind
 :
@@ -5057,9 +5045,6 @@ CXType_FunctionProto
 let
 signature
 =
-try
-!
-(
 FunctionSig
 :
 :
@@ -5070,7 +5055,7 @@ ty
 location
 ctx
 )
-)
+?
 ;
 TypeKind
 :

@@ -1,7 +1,7 @@
 FROM
 ubuntu
 :
-17
+18
 .
 04
 RUN

@@ -1,8 +1,11 @@
 #
 !
 /
+usr
+/
 bin
 /
+env
 bash
 #
 Copyright

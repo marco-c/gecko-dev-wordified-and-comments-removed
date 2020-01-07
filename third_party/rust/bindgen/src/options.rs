@@ -4483,9 +4483,6 @@ output
 let
 file
 =
-try
-!
-(
 File
 :
 :
@@ -4493,7 +4490,7 @@ create
 (
 path
 )
-)
+?
 ;
 Box
 :

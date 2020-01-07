@@ -579,9 +579,6 @@ collect
 (
 )
 ;
-try
-!
-(
 writeln
 !
 (
@@ -615,7 +612,7 @@ tr
 "
 mangled
 )
-)
+?
 ;
 }
 Ok
@@ -1799,9 +1796,6 @@ kind
 =
 CXCursor_ObjCClassMethodDecl
 {
-try
-!
-(
 ty
 .
 ret_type
@@ -1826,13 +1820,10 @@ ParseError
 :
 Continue
 )
-)
+?
 }
 else
 {
-try
-!
-(
 ty
 .
 ret_type
@@ -1846,7 +1837,7 @@ ParseError
 :
 Continue
 )
-)
+?
 }
 ;
 let
@@ -2276,9 +2267,6 @@ Continue
 let
 sig
 =
-try
-!
-(
 Item
 :
 :
@@ -2294,7 +2282,7 @@ cursor
 None
 context
 )
-)
+?
 ;
 let
 mut

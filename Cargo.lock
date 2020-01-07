@@ -464,7 +464,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -721,7 +721,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -1143,7 +1143,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -1443,7 +1443,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -1858,7 +1858,7 @@ version
 .
 33
 .
-1
+2
 "
 source
 =
@@ -1952,9 +1952,9 @@ clang
 sys
 0
 .
-21
+22
 .
-1
+0
 (
 registry
 +
@@ -2590,7 +2590,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -2696,7 +2696,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -3002,9 +3002,9 @@ version
 "
 0
 .
-21
+22
 .
-1
+0
 "
 source
 =
@@ -3067,7 +3067,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -3094,7 +3094,7 @@ index
 libloading
 0
 .
-4
+5
 .
 0
 (
@@ -3636,7 +3636,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -3715,7 +3715,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -3883,7 +3883,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -4053,7 +4053,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -6653,7 +6653,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -7389,7 +7389,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -7579,7 +7579,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -7685,7 +7685,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -8733,7 +8733,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -9601,7 +9601,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -10264,7 +10264,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -10462,7 +10462,7 @@ bindgen
 .
 33
 .
-1
+2
 (
 registry
 +
@@ -10607,7 +10607,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -11036,7 +11036,7 @@ version
 .
 2
 .
-33
+39
 "
 source
 =
@@ -11076,7 +11076,7 @@ version
 "
 0
 .
-4
+5
 .
 0
 "
@@ -11107,43 +11107,12 @@ dependencies
 =
 [
 "
-kernel32
--
-sys
+cc
+1
+.
 0
 .
-2
-.
-2
-(
-registry
-+
-https
-:
-/
-/
-github
-.
-com
-/
-rust
--
-lang
-/
-crates
-.
-io
--
-index
-)
-"
-"
-lazy_static
-0
-.
-2
-.
-11
+4
 (
 registry
 +
@@ -11170,9 +11139,9 @@ index
 winapi
 0
 .
-2
+3
 .
-8
+4
 (
 registry
 +
@@ -11247,7 +11216,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -11340,7 +11309,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -11446,7 +11415,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -12106,7 +12075,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -12241,7 +12210,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -12491,7 +12460,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -12624,7 +12593,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -12817,7 +12786,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -13039,7 +13008,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -13328,7 +13297,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -14266,7 +14235,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -15056,7 +15025,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -15480,7 +15449,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -16569,7 +16538,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -16794,7 +16763,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -17037,7 +17006,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -17624,7 +17593,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -19205,7 +19174,7 @@ bindgen
 .
 33
 .
-1
+2
 (
 registry
 +
@@ -20707,7 +20676,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -21530,7 +21499,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -21773,7 +21742,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -22025,7 +21994,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -22666,7 +22635,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -23119,7 +23088,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -26135,7 +26104,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -26753,7 +26722,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -27507,7 +27476,7 @@ bindgen
 .
 33
 .
-1
+2
 (
 registry
 +
@@ -27532,7 +27501,7 @@ index
 "
 =
 "
-1657d607dd7a8e10b3181149f60f3b27ea0eac81058c09a1c791b8f6ead91f19
+603ed8d8392ace9581e834e26bd09799bf1e989a79bd1aedbb893e72962bdc6e
 "
 "
 checksum
@@ -27987,9 +27956,9 @@ clang
 sys
 0
 .
-21
+22
 .
-1
+0
 (
 registry
 +
@@ -28014,7 +27983,7 @@ index
 "
 =
 "
-00048189ee171715296dfe3b2fcfd439563c7bfec0d98d3976ce3402d62c8f07
+939a1a34310b120d26eba35c29475933128b0ec58e24b43327f8dbe6036fc538
 "
 "
 checksum
@@ -30179,7 +30148,7 @@ libc
 .
 2
 .
-33
+39
 (
 registry
 +
@@ -30204,14 +30173,14 @@ index
 "
 =
 "
-5ba3df4dcb460b9dfbd070d41c94c19209620c191b0340b929ce748a2bcd42d2
+f54263ad99207254cf58b5f701ecb432c717445ea2ee8af387334bdd1a03fdff
 "
 "
 checksum
 libloading
 0
 .
-4
+5
 .
 0
 (
@@ -30238,7 +30207,7 @@ index
 "
 =
 "
-be99f814beb3e9503a786a592c909692bb6d4fc5a695f6ed7987223acfbd5194
+9c3ad660d7cb8c5822cd83d10897b0f1f1526792737a179e73896152f85b88c2
 "
 "
 checksum
