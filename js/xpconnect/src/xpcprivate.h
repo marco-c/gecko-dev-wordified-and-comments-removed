@@ -10084,6 +10084,11 @@ messageChannel
 :
 1
 ;
+bool
+inspectorUtils
+:
+1
+;
 private
 :
 bool
