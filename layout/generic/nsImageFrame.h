@@ -621,6 +621,15 @@ sIOService
 )
 ;
 }
+already_AddRefed
+<
+imgIRequest
+>
+GetCurrentRequest
+(
+)
+const
+;
 nsresult
 Notify
 (
