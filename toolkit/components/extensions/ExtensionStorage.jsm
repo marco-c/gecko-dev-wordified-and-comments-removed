@@ -252,7 +252,7 @@ try
 void
 JSON
 .
-serialize
+stringify
 (
 value
 )
