@@ -1455,7 +1455,6 @@ horiz
 ref
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1482,9 +1481,6 @@ horiz
 ref
 .
 xhtml
-#
-bug
-1267462
 =
 =
 flexbox
@@ -1511,7 +1507,6 @@ vert
 ref
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1538,9 +1533,6 @@ vert
 ref
 .
 xhtml
-#
-bug
-1267462
 #
 Tests
 for
@@ -1586,7 +1578,6 @@ horiz
 ref
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1613,9 +1604,6 @@ horiz
 ref
 .
 xhtml
-#
-bug
-1267462
 =
 =
 flexbox
@@ -1642,7 +1630,6 @@ vert
 ref
 .
 xhtml
-fails
 =
 =
 flexbox
@@ -1669,9 +1656,6 @@ vert
 ref
 .
 xhtml
-#
-bug
-1267462
 =
 =
 flexbox
@@ -2505,7 +2489,6 @@ ratio
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2528,9 +2511,6 @@ ratio
 ref
 .
 html
-#
-bug
-1267462
 =
 =
 flexbox
@@ -2553,7 +2533,6 @@ ratio
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2576,9 +2555,6 @@ ratio
 ref
 .
 html
-#
-bug
-1267462
 =
 =
 flexbox
@@ -2601,7 +2577,6 @@ ratio
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2624,9 +2599,6 @@ ratio
 ref
 .
 html
-#
-bug
-1267462
 =
 =
 flexbox
@@ -2649,7 +2621,6 @@ ratio
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2672,9 +2643,6 @@ ratio
 ref
 .
 html
-#
-bug
-1267462
 =
 =
 flexbox
@@ -2697,7 +2665,6 @@ ratio
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2720,9 +2687,6 @@ ratio
 ref
 .
 html
-#
-bug
-1267462
 =
 =
 flexbox
@@ -2745,7 +2709,6 @@ ratio
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2768,9 +2731,6 @@ ratio
 ref
 .
 html
-#
-bug
-1267462
 #
 Tests
 for
@@ -3407,11 +3367,6 @@ horiz
 ref
 .
 xhtml
-asserts
-(
-16
-)
-fails
 =
 =
 flexbox
@@ -3434,9 +3389,6 @@ horiz
 ref
 .
 xhtml
-#
-bug
-1267462
 =
 =
 flexbox
@@ -3459,11 +3411,6 @@ horiz
 ref
 .
 xhtml
-asserts
-(
-32
-)
-fails
 =
 =
 flexbox
@@ -3486,9 +3433,6 @@ horiz
 ref
 .
 xhtml
-#
-bug
-1267462
 =
 =
 flexbox
