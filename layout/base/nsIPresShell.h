@@ -1980,6 +1980,11 @@ nsIContent
 aTargetContent
 =
 nullptr
+nsIContent
+*
+aOverrideClickTarget
+=
+nullptr
 )
 =
 0
