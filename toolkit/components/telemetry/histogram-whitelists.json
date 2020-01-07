@@ -4202,9 +4202,6 @@ expiry_default
 :
 [
 "
-A11Y_CONSUMERS
-"
-"
 IDLE_NOTIFY_IDLE_MS
 "
 "

@@ -89,7 +89,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -118,6 +118,7 @@ bug_numbers
 :
 [
 1382820
+1462238
 ]
 "
 description
@@ -173,6 +174,12 @@ alert_emails
 [
 "
 accessibility
+mozilla
+.
+com
+"
+"
+jteh
 mozilla
 .
 com
