@@ -4519,10 +4519,6 @@ new
 AddrInfo
 (
 mHost
-.
-get
-(
-)
 mType
 )
 )
@@ -4686,10 +4682,6 @@ new
 AddrInfo
 (
 mHost
-.
-get
-(
-)
 mType
 )
 ;
