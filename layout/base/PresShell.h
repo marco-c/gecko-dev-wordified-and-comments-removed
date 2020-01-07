@@ -191,6 +191,9 @@ nsPresShellEventCB
 class
 nsAutoCauseReflowNotifier
 ;
+class
+AutoPointerEventTargetUpdater
+;
 namespace
 mozilla
 {
@@ -1982,6 +1985,12 @@ class
 :
 :
 nsAutoCauseReflowNotifier
+;
+friend
+class
+:
+:
+AutoPointerEventTargetUpdater
 ;
 nsresult
 DispatchEventToDOM
