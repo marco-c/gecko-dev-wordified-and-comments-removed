@@ -567,17 +567,6 @@ Run
 )
 override
 {
-AUTO_PROFILER_LABEL
-(
-"
-AsyncFreeSnowWhite
-:
-:
-Run
-"
-GCCC
-)
-;
 TimeStamp
 start
 =
