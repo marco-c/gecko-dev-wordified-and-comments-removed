@@ -35750,7 +35750,7 @@ IsSafeToFlush
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 Sanitize

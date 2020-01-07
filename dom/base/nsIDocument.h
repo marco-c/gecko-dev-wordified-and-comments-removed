@@ -5566,13 +5566,10 @@ return
 mPartID
 ;
 }
-virtual
 void
 Sanitize
 (
 )
-=
-0
 ;
 typedef
 bool

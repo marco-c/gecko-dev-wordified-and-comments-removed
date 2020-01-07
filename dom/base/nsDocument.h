@@ -1279,13 +1279,6 @@ nullptr
 override
 ;
 virtual
-void
-Sanitize
-(
-)
-override
-;
-virtual
 bool
 CanSavePresentation
 (
