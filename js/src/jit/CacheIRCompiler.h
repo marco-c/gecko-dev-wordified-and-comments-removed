@@ -68,6 +68,11 @@ GuardIsNativeFunction
 \
 _
 (
+GuardIsNativeObject
+)
+\
+_
+(
 GuardIsProxy
 )
 \
@@ -259,6 +264,11 @@ MegamorphicLoadSlotByValueResult
 _
 (
 MegamorphicHasPropResult
+)
+\
+_
+(
+CallObjectHasSparseElementResult
 )
 \
 _
