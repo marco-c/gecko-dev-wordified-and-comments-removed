@@ -247,6 +247,13 @@ PropTypes
 func
 .
 isRequired
+rewindAnimationsCurrentTime
+:
+PropTypes
+.
+func
+.
+isRequired
 selectAnimation
 :
 PropTypes
@@ -337,6 +344,7 @@ getComputedStyle
 getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
+rewindAnimationsCurrentTime
 selectAnimation
 setAnimationsPlayState
 setDetailVisibility
@@ -386,6 +394,7 @@ AnimationToolbar
 (
 {
 animations
+rewindAnimationsCurrentTime
 setAnimationsPlayState
 }
 )
