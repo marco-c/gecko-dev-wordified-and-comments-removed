@@ -462,6 +462,16 @@ test_addon_update
 (
 )
 {
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_APP_UPDATE_ENABLED
+true
+)
+;
 await
 setupSystemAddonConditions
 (
