@@ -281,7 +281,7 @@ valgrind
 /
 i386
 -
-redhat
+pc
 -
 linux
 -
@@ -297,7 +297,7 @@ valgrind
 /
 x86_64
 -
-redhat
+pc
 -
 linux
 -

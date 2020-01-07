@@ -492,7 +492,7 @@ supps_path
 "
 x86_64
 -
-redhat
+pc
 -
 linux
 -
@@ -549,7 +549,7 @@ supps_path
 "
 i386
 -
-redhat
+pc
 -
 linux
 -

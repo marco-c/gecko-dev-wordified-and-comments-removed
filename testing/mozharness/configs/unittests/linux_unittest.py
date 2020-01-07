@@ -167,7 +167,7 @@ VALGRIND_SUPP_DIR
 "
 x86_64
 -
-redhat
+pc
 -
 linux
 -
@@ -246,7 +246,7 @@ VALGRIND_SUPP_DIR
 "
 i386
 -
-redhat
+pc
 -
 linux
 -
