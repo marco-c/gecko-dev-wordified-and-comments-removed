@@ -719,9 +719,7 @@ false
 var
 shiftMask
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 SHIFT_MASK
 ;

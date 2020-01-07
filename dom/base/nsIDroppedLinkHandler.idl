@@ -70,9 +70,6 @@ nsIPrincipal
 .
 idl
 "
-interface
-nsIDOMEvent
-;
 webidl
 DragEvent
 ;

@@ -5,9 +5,6 @@ nsWindowRoot_h__
 define
 nsWindowRoot_h__
 class
-nsIDOMEvent
-;
-class
 nsIGlobalObject
 ;
 #

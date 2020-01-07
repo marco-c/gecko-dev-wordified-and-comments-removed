@@ -245,13 +245,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h

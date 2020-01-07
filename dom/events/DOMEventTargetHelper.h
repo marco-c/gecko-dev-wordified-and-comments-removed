@@ -101,6 +101,13 @@ mozilla
 class
 ErrorResult
 ;
+namespace
+dom
+{
+class
+Event
+;
+}
 #
 define
 NS_DOMEVENTTARGETHELPER_IID
@@ -764,7 +771,10 @@ mListenerManager
 nsresult
 DispatchTrustedEvent
 (
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aEvent
 )

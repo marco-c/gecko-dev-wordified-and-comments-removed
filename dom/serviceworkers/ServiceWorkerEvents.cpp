@@ -212,6 +212,17 @@ mozilla
 /
 dom
 /
+EventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FetchEventBinding
 .
 h
@@ -3827,7 +3838,7 @@ EventPhase
 )
 =
 =
-nsIDOMEvent
+EventBinding
 :
 :
 NONE

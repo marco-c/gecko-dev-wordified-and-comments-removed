@@ -137,6 +137,9 @@ namespace
 dom
 {
 class
+Event
+;
+class
 EventTarget
 ;
 }
@@ -410,7 +413,13 @@ NS_DECL_NSIDOMEVENTLISTENER
 NS_IMETHOD
 MouseMove
 (
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aMouseEvent
 )

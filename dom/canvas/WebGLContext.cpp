@@ -274,13 +274,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIGfxInfo
 .
 h

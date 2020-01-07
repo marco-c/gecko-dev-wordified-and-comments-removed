@@ -4602,7 +4602,7 @@ ChromeTooltipListener
 :
 MouseMove
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -4612,11 +4612,6 @@ MouseEvent
 mouseEvent
 =
 aMouseEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsMouseEvent
@@ -4776,11 +4771,6 @@ EventTarget
 eventTarget
 =
 aMouseEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetTarget

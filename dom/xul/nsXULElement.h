@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

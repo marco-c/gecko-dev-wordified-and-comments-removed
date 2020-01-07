@@ -359,9 +359,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMEvent
-;
-class
 nsIDOMNode
 ;
 class
@@ -552,6 +549,9 @@ DocumentFragment
 ;
 class
 Element
+;
+class
+Event
 ;
 class
 EventTarget
@@ -4155,7 +4155,13 @@ nsIContent
 aTarget
 bool
 aTrusted
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aSourceEvent
 =

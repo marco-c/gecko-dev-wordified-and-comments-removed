@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h

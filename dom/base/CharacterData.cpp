@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

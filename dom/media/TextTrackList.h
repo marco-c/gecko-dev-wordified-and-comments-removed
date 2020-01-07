@@ -38,6 +38,9 @@ namespace
 dom
 {
 class
+Event
+;
+class
 HTMLMediaElement
 ;
 class
@@ -233,7 +236,7 @@ aTextTrackManager
 nsresult
 DispatchTrackEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

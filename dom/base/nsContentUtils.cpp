@@ -29356,7 +29356,7 @@ nsIContent
 aTarget
 bool
 aTrusted
-nsIDOMEvent
+Event
 *
 aSourceEvent
 nsIPresShell

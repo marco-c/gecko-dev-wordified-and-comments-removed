@@ -25,6 +25,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TextTrackListBinding
 .
 h
@@ -652,7 +663,7 @@ TrackEventRunner
 TextTrackList
 *
 aList
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -702,7 +713,7 @@ private
 :
 RefPtr
 <
-nsIDOMEvent
+Event
 >
 mEvent
 ;
@@ -722,7 +733,7 @@ ChangeEventRunner
 TextTrackList
 *
 aList
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -764,7 +775,7 @@ TextTrackList
 :
 DispatchTrackEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
