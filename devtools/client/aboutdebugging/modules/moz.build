@@ -65,9 +65,4 @@ connect
 .
 js
 '
-'
-worker
-.
-js
-'
 )
