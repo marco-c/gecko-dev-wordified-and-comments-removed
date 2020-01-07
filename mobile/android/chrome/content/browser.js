@@ -8887,6 +8887,17 @@ closedTabData
 ;
 }
 }
+tabIndex
+=
+this
+.
+_tabs
+.
+indexOf
+(
+aTab
+)
+;
 aTab
 .
 destroy
