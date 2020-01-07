@@ -139,6 +139,11 @@ AnimationTimelineTickList
 js
 '
 '
+AnimationToolbar
+.
+js
+'
+'
 App
 .
 js
