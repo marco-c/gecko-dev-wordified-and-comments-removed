@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDOMHistory
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -92,7 +85,7 @@ nsHistory
 final
 :
 public
-nsIDOMHistory
+nsISupports
 public
 nsWrapperCache
 {

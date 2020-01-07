@@ -169,11 +169,6 @@ nsIDOMGlobalPropertyInitializer
 idl
 '
 '
-nsIDOMHistory
-.
-idl
-'
-'
 nsIDOMModalContentWindow
 .
 idl
