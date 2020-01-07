@@ -39,6 +39,7 @@ import
 CommandBase
 cd
 call
+BIN_SUFFIX
 from
 servo
 .
@@ -127,9 +128,6 @@ geckolib
             
 if
 params
-[
-0
-]
 and
 params
 [
@@ -199,7 +197,7 @@ geckoservo
             
 self
 .
-set_use_stable_rust
+set_use_geckolib_toolchain
 (
 )
         
@@ -211,12 +209,14 @@ time
         
 status
 =
-call
+self
+.
+call_rustup_run
 (
 [
-'
+"
 cargo
-'
+"
 ]
 +
 params
@@ -1549,7 +1549,9 @@ topdir
 )
 :
                 
-call
+self
+.
+call_rustup_run
 (
 [
 "
@@ -1561,7 +1563,6 @@ update
 ]
 +
 params
-                     
 env
 =
 self
@@ -1652,7 +1653,9 @@ ensure_bootstrapped
 )
         
 return
-call
+self
+.
+call_rustup_run
 (
 [
 "
@@ -1760,7 +1763,7 @@ params
         
 self
 .
-set_use_stable_rust
+set_use_geckolib_toolchain
 (
 )
         
@@ -1782,7 +1785,9 @@ True
 )
         
 return
-call
+self
+.
+call_rustup_run
 (
 [
 "
@@ -1794,62 +1799,6 @@ params
 env
 =
 env
-)
-    
-Command
-(
-'
-rust
--
-root
-'
-             
-description
-=
-'
-Print
-the
-path
-to
-the
-root
-of
-the
-Rust
-compiler
-'
-             
-category
-=
-'
-devenv
-'
-)
-    
-def
-rust_root
-(
-self
-)
-:
-        
-print
-(
-self
-.
-config
-[
-"
-tools
-"
-]
-[
-"
-rust
--
-root
-"
-]
 )
     
 Command
@@ -2157,6 +2106,15 @@ read
 (
 )
         
+toolchain
+=
+"
+nightly
+-
+"
++
+nightly_date
+        
 filename
 =
 path
@@ -2191,41 +2149,28 @@ f
 .
 write
 (
+toolchain
++
 "
-nightly
--
-%
-s
 \
 n
 "
-%
-nightly_date
 )
         
-self
-.
-_rust_nightly_date
-=
-None
-        
-self
-.
-set_use_stable_rust
+return
+call
 (
-False
-)
-        
-self
-.
-set_cargo_root
-(
-)
-        
-self
-.
-fetch
-(
+[
+"
+rustup
+"
++
+BIN_SUFFIX
+"
+install
+"
+toolchain
+]
 )
     
 Command
@@ -2276,7 +2221,10 @@ topdir
 )
 :
             
-call
+return
+self
+.
+call_rustup_run
 (
 [
 "
