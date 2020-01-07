@@ -11,9 +11,9 @@ version
 "
 0
 .
-6
+7
 .
-1
+0
 "
 authors
 =
@@ -25,11 +25,10 @@ Mozilla
 description
 =
 "
-Library
-for
-starting
+Reliable
 Firefox
-binaries
+process
+management
 .
 "
 repository
