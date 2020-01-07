@@ -1382,6 +1382,13 @@ null
 if
 (
 background
+=
+=
+=
+null
+|
+|
+background
 !
 =
 =
