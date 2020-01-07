@@ -1587,6 +1587,13 @@ nsRange
 aRanges
 )
 ;
+nsresult
+SelectionLanguageChange
+(
+bool
+aLangRTL
+)
+;
 private
 :
 friend
