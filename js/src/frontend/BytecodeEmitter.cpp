@@ -8679,9 +8679,9 @@ class
 State
 {
 Start
-If
+Then
 Cond
-IfElse
+ThenElse
 Else
 ElseIf
 End
@@ -8763,7 +8763,7 @@ nextState
 State
 :
 :
-If
+Then
 |
 |
 nextState
@@ -8772,7 +8772,7 @@ nextState
 State
 :
 :
-IfElse
+ThenElse
 |
 |
 nextState
@@ -8799,7 +8799,7 @@ nextState
 State
 :
 :
-If
+Then
 |
 |
 nextState
@@ -8808,7 +8808,7 @@ nextState
 State
 :
 :
-IfElse
+ThenElse
 )
 ;
 if
@@ -8861,7 +8861,7 @@ nextState
 State
 :
 :
-IfElse
+ThenElse
 |
 |
 nextState
@@ -8940,7 +8940,7 @@ public
 :
 MOZ_MUST_USE
 bool
-emitIf
+emitThen
 (
 )
 {
@@ -8970,7 +8970,7 @@ emitIfInternal
 State
 :
 :
-If
+Then
 SRC_IF
 )
 ;
@@ -9005,7 +9005,7 @@ SRC_COND
 }
 MOZ_MUST_USE
 bool
-emitIfElse
+emitThenElse
 (
 )
 {
@@ -9035,7 +9035,7 @@ emitIfInternal
 State
 :
 :
-IfElse
+ThenElse
 SRC_IF_ELSE
 )
 ;
@@ -9054,7 +9054,7 @@ state_
 State
 :
 :
-IfElse
+ThenElse
 |
 |
 state_
@@ -9132,7 +9132,7 @@ state_
 State
 :
 :
-IfElse
+ThenElse
 )
 ;
 if
@@ -9176,7 +9176,7 @@ state_
 State
 :
 :
-If
+Then
 |
 |
 state_
@@ -9200,7 +9200,7 @@ state_
 State
 :
 :
-If
+Then
 )
 {
 if
@@ -9503,7 +9503,7 @@ if
 !
 ifIteratorIsNotClosed
 .
-emitIf
+emitThen
 (
 )
 )
@@ -9636,7 +9636,7 @@ if
 !
 ifGeneratorClosing
 .
-emitIf
+emitThen
 (
 )
 )
@@ -24514,7 +24514,7 @@ if
 !
 ifReturnMethodIsDefined
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -25713,7 +25713,7 @@ if
 !
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -25975,7 +25975,7 @@ if
 !
 ifAlreadyDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -26145,7 +26145,7 @@ if
 !
 ifDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -26384,7 +26384,7 @@ if
 !
 ifDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -30886,7 +30886,7 @@ if
 !
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -30901,7 +30901,7 @@ if
 !
 ifThenElse
 .
-emitIf
+emitThen
 (
 )
 )
@@ -31918,7 +31918,7 @@ if
 !
 ifAsyncIterIsUndefined
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -33374,7 +33374,7 @@ if
 !
 ifDone
 .
-emitIf
+emitThen
 (
 )
 )
@@ -38717,7 +38717,7 @@ if
 !
 ifThrowMethodIsNotDefined
 .
-emitIf
+emitThen
 (
 )
 )
@@ -38947,7 +38947,7 @@ if
 !
 ifGeneratorClosing
 .
-emitIf
+emitThen
 (
 )
 )
@@ -39016,7 +39016,7 @@ if
 !
 ifReturnMethodIsDefined
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -39158,7 +39158,7 @@ if
 !
 ifReturnDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -42796,7 +42796,7 @@ if
 !
 ifNotOptimizable
 .
-emitIf
+emitThen
 (
 )
 )
@@ -47815,7 +47815,7 @@ if
 !
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 )
