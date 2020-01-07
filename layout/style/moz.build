@@ -514,11 +514,6 @@ ServoComputedDataInlines
 h
 '
 '
-ServoCounterStyleRule
-.
-h
-'
-'
 ServoCSSParser
 .
 h
@@ -639,6 +634,11 @@ dom
 [
 '
 CSS
+.
+h
+'
+'
+CSSCounterStyleRule
 .
 h
 '
@@ -823,6 +823,11 @@ cpp
 '
 '
 CSS
+.
+cpp
+'
+'
+CSSCounterStyleRule
 .
 cpp
 '
@@ -1083,11 +1088,6 @@ cpp
 '
 '
 ServoBindings
-.
-cpp
-'
-'
-ServoCounterStyleRule
 .
 cpp
 '

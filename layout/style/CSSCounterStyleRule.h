@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ServoCounterStyleRule_h
+mozilla_CSSCounterStyleRule_h
 #
 define
-mozilla_ServoCounterStyleRule_h
+mozilla_CSSCounterStyleRule_h
 #
 include
 "
@@ -30,8 +30,11 @@ RawServoCounterStyleRule
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
-ServoCounterStyleRule
+CSSCounterStyleRule
 final
 :
 public
@@ -42,7 +45,7 @@ Rule
 {
 public
 :
-ServoCounterStyleRule
+CSSCounterStyleRule
 (
 already_AddRefed
 <
@@ -80,10 +83,10 @@ aRawRule
 }
 private
 :
-ServoCounterStyleRule
+CSSCounterStyleRule
 (
 const
-ServoCounterStyleRule
+CSSCounterStyleRule
 &
 aCopy
 )
@@ -91,7 +94,7 @@ aCopy
 delete
 ;
 ~
-ServoCounterStyleRule
+CSSCounterStyleRule
 (
 )
 =
@@ -244,6 +247,7 @@ mRawRule
 ;
 }
 ;
+}
 }
 #
 endif
