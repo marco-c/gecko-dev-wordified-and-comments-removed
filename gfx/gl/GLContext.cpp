@@ -963,10 +963,13 @@ return
 true
 ;
 }
-static
 uint8_t
+GLContext
+:
+:
 ChooseDebugFlags
 (
+const
 CreateContextFlags
 createFlags
 )
