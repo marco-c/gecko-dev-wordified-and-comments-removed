@@ -4693,6 +4693,7 @@ function
 (
 aPackage
 aInstallLocation
+aOldAddon
 )
 {
 async
@@ -5039,10 +5040,16 @@ file
 ;
 }
 }
+await
 addon
 .
 updateBlocklistState
 (
+{
+oldAddon
+:
+aOldAddon
+}
 )
 ;
 addon
@@ -5073,6 +5080,7 @@ function
 (
 aFile
 aInstallLocation
+aOldAddon
 )
 {
 let
@@ -5095,6 +5103,7 @@ loadManifest
 (
 pkg
 aInstallLocation
+aOldAddon
 )
 ;
 return
@@ -7163,6 +7172,9 @@ pkg
 this
 .
 installLocation
+this
+.
+existingAddon
 )
 ;
 }
@@ -9874,6 +9886,7 @@ existingAddon
 =
 addon
 ;
+await
 this
 .
 addon
@@ -11838,6 +11851,7 @@ this
 addon
 .
 id
+async
 aAddon
 =
 >
@@ -11919,6 +11933,7 @@ addon
 updateDate
 ;
 }
+await
 this
 .
 addon

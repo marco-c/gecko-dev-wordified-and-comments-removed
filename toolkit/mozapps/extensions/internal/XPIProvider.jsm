@@ -4236,6 +4236,7 @@ syncLoadManifestFromFile
 (
 aFile
 aInstallLocation
+aOldAddon
 )
 {
 let
@@ -4252,6 +4253,7 @@ loadManifestFromFile
 (
 aFile
 aInstallLocation
+aOldAddon
 )
 .
 then
@@ -19983,6 +19985,7 @@ return
 app
 ;
 }
+async
 findBlocklistEntry
 (
 )
@@ -20049,6 +20052,7 @@ wrapper
 )
 ;
 }
+async
 updateBlocklistState
 (
 options
@@ -20112,6 +20116,7 @@ blocklistState
 let
 entry
 =
+await
 this
 .
 findBlocklistEntry
@@ -22038,6 +22043,7 @@ applySoftBlock
 true
 )
 {
+return
 addonFor
 (
 this

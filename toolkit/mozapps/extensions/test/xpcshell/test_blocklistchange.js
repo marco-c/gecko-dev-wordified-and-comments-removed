@@ -4983,7 +4983,8 @@ version
 2
 "
 ;
-startupManager
+await
+promiseStartupManager
 (
 true
 )
@@ -5195,7 +5196,8 @@ version
 5
 "
 ;
-startupManager
+await
+promiseStartupManager
 (
 true
 )
@@ -5493,7 +5495,8 @@ version
 1
 "
 ;
-startupManager
+await
+promiseStartupManager
 (
 true
 )
@@ -7393,7 +7396,8 @@ remove
 true
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -8505,7 +8509,8 @@ remove
 true
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
@@ -9402,7 +9407,8 @@ remove
 true
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 false
 )
