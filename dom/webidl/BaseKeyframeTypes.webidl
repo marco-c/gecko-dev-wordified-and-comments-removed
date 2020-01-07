@@ -290,10 +290,12 @@ easing
 ;
 (
 CompositeOperation
+?
 or
 sequence
 <
 CompositeOperation
+?
 >
 )
 composite
@@ -320,7 +322,10 @@ linear
 "
 ;
 CompositeOperation
+?
 composite
+=
+null
 ;
 /
 /
