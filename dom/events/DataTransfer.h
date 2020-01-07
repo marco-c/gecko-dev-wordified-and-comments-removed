@@ -343,12 +343,6 @@ const
 GlobalObject
 &
 aGlobal
-const
-nsAString
-&
-aEventType
-bool
-aIsExternal
 ErrorResult
 &
 aRv

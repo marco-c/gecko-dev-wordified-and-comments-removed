@@ -129,13 +129,7 @@ interface
 *
 /
 [
-ChromeConstructor
-(
-DOMString
-eventType
-boolean
-isExternal
-)
+Constructor
 ]
 interface
 DataTransfer
