@@ -2550,6 +2550,8 @@ LogModule
 :
 Init
 (
+gArgc
+gArgv
 )
 ;
 if

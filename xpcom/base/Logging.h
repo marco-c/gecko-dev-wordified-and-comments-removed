@@ -137,6 +137,13 @@ static
 void
 Init
 (
+int
+argc
+char
+*
+argv
+[
+]
 )
 ;
 static

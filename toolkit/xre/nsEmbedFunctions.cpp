@@ -1822,6 +1822,8 @@ LogModule
 :
 Init
 (
+aArgc
+aArgv
 )
 ;
 AUTO_PROFILER_INIT
@@ -3533,6 +3535,8 @@ LogModule
 :
 Init
 (
+aArgc
+aArgv
 )
 ;
 AUTO_PROFILER_INIT

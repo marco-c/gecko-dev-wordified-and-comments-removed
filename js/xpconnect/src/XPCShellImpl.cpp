@@ -5674,6 +5674,8 @@ LogModule
 :
 Init
 (
+argc
+argv
 )
 ;
 #

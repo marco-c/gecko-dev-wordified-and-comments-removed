@@ -2087,6 +2087,8 @@ LogModule
 :
 Init
 (
+0
+nullptr
 )
 ;
 nsresult
@@ -3200,6 +3202,8 @@ LogModule
 :
 Init
 (
+0
+nullptr
 )
 ;
 nsresult
