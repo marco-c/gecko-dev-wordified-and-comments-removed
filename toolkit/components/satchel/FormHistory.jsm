@@ -6884,16 +6884,6 @@ expireStartCountFailure
 )
 ;
 }
-shutdown
-(
-)
-{
-dbClose
-(
-true
-)
-;
-}
 }
 ;
 Object
