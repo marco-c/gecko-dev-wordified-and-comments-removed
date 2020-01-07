@@ -139,7 +139,7 @@ cubeb
 ChannelLayout
 :
 :
-Mono
+MONO
 )
 .
 take

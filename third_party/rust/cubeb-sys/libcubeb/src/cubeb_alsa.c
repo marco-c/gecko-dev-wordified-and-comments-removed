@@ -6369,10 +6369,6 @@ get_preferred_sample_rate
 =
 alsa_get_preferred_sample_rate
 .
-get_preferred_channel_layout
-=
-NULL
-.
 enumerate_devices
 =
 alsa_enumerate_devices
