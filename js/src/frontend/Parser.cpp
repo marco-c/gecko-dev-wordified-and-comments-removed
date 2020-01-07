@@ -19454,7 +19454,7 @@ Node
 list
 )
 {
-JS_ALWAYS_FALSE
+MOZ_ALWAYS_FALSE
 (
 abortIfSyntaxParser
 (

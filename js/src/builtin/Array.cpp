@@ -10654,7 +10654,7 @@ if
 allStrings
 )
 {
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 vec
 .
@@ -10700,7 +10700,7 @@ if
 allInts
 )
 {
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 vec
 .
@@ -10766,7 +10766,7 @@ if
 allInts
 )
 {
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 vec
 .

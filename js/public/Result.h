@@ -129,7 +129,7 @@ isErr
 )
 {
 \
-JS_ALWAYS_FALSE
+MOZ_ALWAYS_FALSE
 (
 (
 cx
@@ -241,7 +241,7 @@ isErr
 )
 {
 \
-JS_ALWAYS_FALSE
+MOZ_ALWAYS_FALSE
 (
 (
 cx
