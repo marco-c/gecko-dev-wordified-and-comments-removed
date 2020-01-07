@@ -32,8 +32,20 @@ project
 ext
 .
 compileSdkVersion
+buildToolsVersion
+project
+.
+ext
+.
+buildToolsVersion
 defaultConfig
 {
+defaultPublishConfig
+'
+release
+'
+publishNonDefault
+true
 targetSdkVersion
 project
 .
@@ -178,7 +190,7 @@ leakcanary
 }
 dependencies
 {
-implementation
+compile
 "
 com
 .
@@ -207,7 +219,7 @@ substs
 MOZ_ANDROID_MMA
 )
 {
-implementation
+compile
 "
 com
 .
@@ -227,7 +239,7 @@ substs
 ANDROID_SUPPORT_LIBRARY_VERSION
 }
 "
-implementation
+compile
 "
 com
 .
@@ -247,7 +259,7 @@ substs
 ANDROID_GOOGLE_PLAY_SERVICES_VERSION
 }
 "
-implementation
+compile
 "
 com
 .
