@@ -804,6 +804,12 @@ REMOTE_NAME
 BRANCH_NAME
 }
 "
+&
+>
+/
+dev
+/
+null
 |
 |
 return
