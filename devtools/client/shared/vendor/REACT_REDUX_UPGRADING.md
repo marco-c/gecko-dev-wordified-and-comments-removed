@@ -94,7 +94,7 @@ v5
 .
 0
 .
-6
+7
 #
 checkout
 the
@@ -107,6 +107,11 @@ Building
 bash
 npm
 install
+npm
+run
+build
+:
+umd
 cp
 dist
 /
@@ -186,7 +191,7 @@ v5
 .
 0
 .
-6
+7
 *
 /
 -
