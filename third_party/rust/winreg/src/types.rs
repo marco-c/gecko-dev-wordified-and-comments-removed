@@ -47,6 +47,9 @@ super
 winapi
 :
 :
+shared
+:
+:
 winerror
 ;
 use

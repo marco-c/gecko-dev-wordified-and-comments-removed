@@ -1,6 +1,10 @@
+#
+[
+macro_use
+]
 extern
 crate
-rustc_serialize
+serde_derive
 ;
 extern
 crate
@@ -20,8 +24,8 @@ enums
 derive
 (
 Debug
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 PartialEq
 )
 ]
@@ -40,8 +44,8 @@ u32
 derive
 (
 Debug
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 PartialEq
 )
 ]
@@ -60,8 +64,8 @@ u32
 derive
 (
 Debug
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 PartialEq
 )
 ]
@@ -80,8 +84,8 @@ Size
 derive
 (
 Debug
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 PartialEq
 )
 ]
@@ -194,7 +198,7 @@ t_u64
 123456789101112
 t_usize
 :
-123456789101112
+1234567891
 t_struct
 :
 Rectangle

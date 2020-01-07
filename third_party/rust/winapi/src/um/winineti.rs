@@ -1,0 +1,17 @@
+use
+shared
+:
+:
+minwindef
+:
+:
+DWORD
+;
+pub
+const
+INTERNET_FLAG_BGUPDATE
+:
+DWORD
+=
+0x00000008
+;
