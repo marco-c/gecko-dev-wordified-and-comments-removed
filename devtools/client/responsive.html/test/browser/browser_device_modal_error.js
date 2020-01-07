@@ -163,7 +163,7 @@ listState
 =
 Types
 .
-deviceListState
+loadableState
 .
 ERROR
 )
