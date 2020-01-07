@@ -1343,6 +1343,10 @@ host_cert_path
 self
 .
 domains
+.
+itervalues
+(
+)
 )
         
 return
