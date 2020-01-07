@@ -1065,7 +1065,7 @@ e
 senhas
 salvas
 em
-outros
+outro
 navegador
 .
 "

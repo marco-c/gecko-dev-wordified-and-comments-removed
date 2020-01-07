@@ -3718,7 +3718,7 @@ it
 "
 should
 dispatch
-sendToMain
+SendToPreloaded
 when
 broadcast
 is
@@ -3780,7 +3780,7 @@ store
 dispatch
 ac
 .
-SendToMain
+SendToPreloaded
 (
 {
 type

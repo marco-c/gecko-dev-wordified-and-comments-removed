@@ -329,7 +329,7 @@ onEndUpdateBatch
 )
 {
 }
-onVisits
+onVisit
 (
 )
 {

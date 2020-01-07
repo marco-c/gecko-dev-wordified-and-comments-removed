@@ -937,7 +937,7 @@ Services
 .
 locale
 .
-getRequestedLocale
+getAppLocaleAsLangTag
 (
 )
 user_prefs
