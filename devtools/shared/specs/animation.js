@@ -6,6 +6,7 @@ strict
 const
 {
 Arg
+Option
 RetVal
 generateActorSpec
 types
@@ -472,6 +473,15 @@ shouldPause
 Arg
 (
 2
+"
+boolean
+"
+)
+relativeToCreatedTime
+:
+Option
+(
+3
 "
 boolean
 "
