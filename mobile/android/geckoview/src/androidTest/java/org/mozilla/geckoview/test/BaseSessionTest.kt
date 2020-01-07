@@ -398,8 +398,6 @@ forEachCall
 values
 )
 fun
-GeckoSession
-.
 getTestBytes
 (
 path
