@@ -246,9 +246,6 @@ nsIDOMHTMLHeadElement
 /
 CSS
 interface
-nsIDOMCSSValue
-;
-interface
 nsIDOMCSSStyleDeclaration
 ;
 /

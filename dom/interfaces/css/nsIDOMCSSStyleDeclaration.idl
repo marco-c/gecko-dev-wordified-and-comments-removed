@@ -274,14 +274,6 @@ DOMString
 propertyName
 )
 ;
-nsIDOMCSSValue
-getPropertyCSSValue
-(
-in
-DOMString
-propertyName
-)
-;
 DOMString
 removeProperty
 (

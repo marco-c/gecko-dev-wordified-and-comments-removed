@@ -101,9 +101,6 @@ idl
 interface
 nsIDOMCSSStyleDeclaration
 ;
-interface
-nsIDOMCSSValue
-;
 [
 uuid
 (

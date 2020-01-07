@@ -117,11 +117,6 @@ nsIDOMCSSStyleDeclaration
 .
 idl
 '
-'
-nsIDOMCSSValue
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
