@@ -345,6 +345,9 @@ class
 TextEditor
 ;
 class
+TextInputListener
+;
+class
 TextServicesDocument
 ;
 enum
@@ -988,6 +991,14 @@ aNotification
 )
 ;
 NS_DECL_NSIEDITOR
+void
+SetTextInputListener
+(
+TextInputListener
+*
+aTextInputListener
+)
+;
 public
 :
 virtual
@@ -3721,6 +3732,12 @@ RefPtr
 TextEditRules
 >
 mRules
+;
+RefPtr
+<
+TextInputListener
+>
+mTextInputListener
 ;
 typedef
 AutoTArray
