@@ -1809,6 +1809,7 @@ actor
 .
 watchDocument
 (
+node
 this
 .
 onMutations
@@ -1822,6 +1823,18 @@ actor
 isShadowRoot
 )
 {
+actor
+.
+watchDocument
+(
+node
+.
+ownerDocument
+this
+.
+onMutations
+)
+;
 actor
 .
 watchSlotchange

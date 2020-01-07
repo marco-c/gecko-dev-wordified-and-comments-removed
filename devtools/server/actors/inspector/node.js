@@ -972,6 +972,7 @@ watchDocument
 :
 function
 (
+doc
 callback
 )
 {
@@ -986,7 +987,7 @@ let
 observer
 =
 new
-node
+doc
 .
 defaultView
 .
