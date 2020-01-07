@@ -162,7 +162,6 @@ intervalID
 ;
 resolve
 (
-conditionPassed
 )
 ;
 }
