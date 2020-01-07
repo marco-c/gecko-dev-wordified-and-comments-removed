@@ -8105,6 +8105,9 @@ const
 gfxMatrix
 &
 aCanvasTM
+imgDrawingParams
+&
+aImgParams
 bool
 aShouldPaintSVGGlyphs
 )
@@ -8128,6 +8131,10 @@ aFrame
 mCanvasTM
 (
 aCanvasTM
+)
+mImgParams
+(
+aImgParams
 )
 {
 }
@@ -8220,9 +8227,6 @@ MakeFillPattern
 GeneralPattern
 *
 aOutPattern
-imgDrawingParams
-&
-aImgParams
 )
 ;
 void
@@ -8256,6 +8260,10 @@ const
 gfxMatrix
 &
 mCanvasTM
+;
+imgDrawingParams
+&
+mImgParams
 ;
 nscolor
 mColor
@@ -8296,14 +8304,10 @@ aColor
 GeneralPattern
 fillPattern
 ;
-imgDrawingParams
-imgParams
-;
 MakeFillPattern
 (
 &
 fillPattern
-imgParams
 )
 ;
 if
@@ -8692,9 +8696,6 @@ MakeFillPattern
 GeneralPattern
 *
 aOutPattern
-imgDrawingParams
-&
-aImgParams
 )
 {
 if
@@ -8720,7 +8721,7 @@ mFrame
 &
 mContext
 aOutPattern
-aImgParams
+mImgParams
 )
 ;
 return
@@ -8897,14 +8898,10 @@ FillGeometry
 GeneralPattern
 fillPattern
 ;
-imgDrawingParams
-imgParams
-;
 MakeFillPattern
 (
 &
 fillPattern
-imgParams
 )
 ;
 if
@@ -9050,9 +9047,6 @@ nullptr
 GeneralPattern
 strokePattern
 ;
-imgDrawingParams
-imgParams
-;
 nsSVGUtils
 :
 :
@@ -9063,7 +9057,7 @@ mFrame
 mContext
 &
 strokePattern
-imgParams
+mImgParams
 nullptr
 )
 ;
@@ -11673,6 +11667,7 @@ this
 aContext
 frame
 matrixForPaintServers
+aImgParams
 paintSVGGlyphs
 )
 ;
