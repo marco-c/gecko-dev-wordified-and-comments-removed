@@ -437,6 +437,9 @@ nsISupports
 aSecInfo
 )
 ;
+#
+ifdef
+XP_UNIX
 nsresult
 InitWithFilename
 (
@@ -446,6 +449,8 @@ char
 filename
 )
 ;
+#
+endif
 void
 OnSocketReady
 (

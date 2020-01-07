@@ -3578,6 +3578,9 @@ nsISocketTransport
 result
 )
 {
+#
+ifdef
+XP_UNIX
 nsresult
 rv
 ;
@@ -3655,6 +3658,13 @@ result
 return
 NS_OK
 ;
+#
+else
+return
+NS_ERROR_SOCKET_ADDRESS_NOT_SUPPORTED
+;
+#
+endif
 }
 NS_IMETHODIMP
 nsSocketTransportService
