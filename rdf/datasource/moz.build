@@ -100,11 +100,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsFileSystemDataSource
-.
-cpp
-'
-'
 nsLocalStore
 .
 cpp
