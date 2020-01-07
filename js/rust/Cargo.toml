@@ -241,6 +241,15 @@ nonzero
 =
 [
 ]
+bigint
+=
+[
+'
+mozjs_sys
+/
+bigint
+'
+]
 [
 dependencies
 .
