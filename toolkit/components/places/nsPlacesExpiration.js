@@ -2264,6 +2264,11 @@ STATUS
 CLEAN
 ;
 }
+onVisits
+(
+)
+{
+}
 onTitleChanged
 (
 )
