@@ -37874,7 +37874,7 @@ nsTextFrame
 :
 IsVisibleInSelection
 (
-nsISelection
+Selection
 *
 aSelection
 )
