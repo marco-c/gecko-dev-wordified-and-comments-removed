@@ -5414,7 +5414,7 @@ label
 =
 "
 &
-alwaysSubmitCrashReports1
+sendBackloggedCrashReports
 .
 label
 ;
@@ -5423,7 +5423,7 @@ accesskey
 =
 "
 &
-alwaysSubmitCrashReports1
+sendBackloggedCrashReports
 .
 accesskey
 ;
