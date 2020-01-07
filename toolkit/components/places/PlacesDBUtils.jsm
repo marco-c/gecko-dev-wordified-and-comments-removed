@@ -155,7 +155,7 @@ this
 _refreshUI
 this
 .
-frecencyStats
+originFrecencyStats
 this
 .
 incrementalVacuum
@@ -255,7 +255,7 @@ this
 expire
 this
 .
-frecencyStats
+originFrecencyStats
 this
 .
 vacuum
@@ -4126,7 +4126,7 @@ return
 logs
 ;
 }
-frecencyStats
+originFrecencyStats
 (
 )
 {
@@ -4142,7 +4142,7 @@ PlacesUtils
 .
 history
 .
-recalculateFrecencyStats
+recalculateOriginFrecencyStats
 (
 (
 )
@@ -4153,6 +4153,7 @@ resolve
 [
 "
 Recalculated
+origin
 frecency
 stats
 "

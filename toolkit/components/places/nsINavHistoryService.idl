@@ -8378,6 +8378,7 @@ Resets
 and
 recalculates
 the
+origin
 frecency
 statistics
 that
@@ -8415,7 +8416,7 @@ defined
 *
 /
 void
-recalculateFrecencyStats
+recalculateOriginFrecencyStats
 (
 [
 optional

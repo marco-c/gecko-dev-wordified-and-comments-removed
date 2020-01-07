@@ -92,7 +92,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-51
+52
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -774,8 +774,13 @@ MigrateV51Up
 (
 )
 ;
+nsresult
+MigrateV52Up
+(
+)
+;
 void
-MigrateV48Frecencies
+MigrateV52OriginFrecencies
 (
 )
 ;

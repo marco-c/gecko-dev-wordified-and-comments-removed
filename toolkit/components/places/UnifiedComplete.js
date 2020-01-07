@@ -1135,7 +1135,7 @@ WHERE
 key
 =
 "
-frecency_count
+origin_frecency_count
 "
 )
 AS
@@ -1158,7 +1158,7 @@ WHERE
 key
 =
 "
-frecency_sum
+origin_frecency_sum
 "
 )
 AS
@@ -1181,7 +1181,7 @@ WHERE
 key
 =
 "
-frecency_sum_of_squares
+origin_frecency_sum_of_squares
 "
 )
 AS

@@ -12784,6 +12784,16 @@ urlQuery
 )
 )
 ;
+await
+db
+.
+executeCached
+(
+DELETE
+FROM
+moz_updateoriginsupdate_temp
+)
+;
 if
 (
 collapseNotifications
