@@ -2432,6 +2432,10 @@ gtk_widget_path_get_object_type
 )
 STUB
 (
+gtk_widget_path_length
+)
+STUB
+(
 gtk_widget_path_new
 )
 STUB
