@@ -366,7 +366,6 @@ session
 window_handle
 =
 current_window
-ignore_exceptions
 def
 _switch_to_top_level_browsing_context
 (
