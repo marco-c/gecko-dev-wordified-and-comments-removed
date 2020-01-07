@@ -957,14 +957,6 @@ pos
 )
 ;
 ValueOperand
-ToOutValue
-(
-LInstruction
-*
-ins
-)
-;
-ValueOperand
 ToTempValue
 (
 LInstruction

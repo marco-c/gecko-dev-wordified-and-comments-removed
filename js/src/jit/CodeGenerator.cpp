@@ -13042,7 +13042,7 @@ RegExpMatcherLastIndexReg
 ;
 MOZ_ASSERT
 (
-GetValueOutput
+ToOutValue
 (
 lir
 )
@@ -21398,7 +21398,7 @@ obj
 ValueOperand
 output
 =
-GetValueOutput
+ToOutValue
 (
 ins
 )
@@ -60137,7 +60137,7 @@ lir
 ValueOperand
 result
 =
-GetValueOutput
+ToOutValue
 (
 lir
 )
@@ -64734,7 +64734,7 @@ slot
 ValueOperand
 result
 =
-GetValueOutput
+ToOutValue
 (
 ins
 )
@@ -65403,11 +65403,10 @@ envObj
 ;
 ValueOperand
 output
-(
-GetValueOutput
+=
+ToOutValue
 (
 ins
-)
 )
 ;
 Register
@@ -66103,10 +66102,8 @@ type
 ;
 TypedOrValueRegister
 output
-=
-TypedOrValueRegister
 (
-GetValueOutput
+ToOutValue
 (
 ins
 )
@@ -66441,10 +66438,8 @@ type
 ;
 TypedOrValueRegister
 output
-=
-TypedOrValueRegister
 (
-GetValueOutput
+ToOutValue
 (
 ins
 )
@@ -75606,7 +75601,7 @@ domMemberSlotIndex
 ValueOperand
 result
 =
-GetValueOutput
+ToOutValue
 (
 ins
 )
@@ -80696,7 +80691,7 @@ ins
 ValueOperand
 output
 =
-GetValueOutput
+ToOutValue
 (
 ins
 )
