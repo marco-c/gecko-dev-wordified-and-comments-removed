@@ -269,15 +269,6 @@ interfaces
 nsIDOMEvent
 ;
 const
-nsIDOMHTMLDocument
-=
-Components
-.
-interfaces
-.
-nsIDOMHTMLDocument
-;
-const
 nsIDOMNode
 =
 Components
