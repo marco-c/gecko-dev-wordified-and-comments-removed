@@ -4973,6 +4973,17 @@ GetChildNotificationPipe
 )
 )
 ;
+if
+(
+!
+CrashReporter
+:
+:
+IsDummy
+(
+)
+)
+{
 PROsfd
 h
 =
@@ -5042,6 +5053,7 @@ hStr
 )
 )
 ;
+}
 cmdLine
 .
 AppendLooseValue
