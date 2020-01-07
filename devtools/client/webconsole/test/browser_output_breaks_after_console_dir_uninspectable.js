@@ -149,9 +149,7 @@ Object
 }
 )
 ;
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 console
 .

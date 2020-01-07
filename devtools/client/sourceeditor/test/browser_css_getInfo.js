@@ -1214,9 +1214,9 @@ then
 {
 doc
 =
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 ;
 runTests
 (

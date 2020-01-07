@@ -140,9 +140,7 @@ reference
 "
 )
 ;
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 wrappedJSObject
 .

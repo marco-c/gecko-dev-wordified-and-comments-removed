@@ -105,6 +105,14 @@ Extension
 Compatibility
 '
 )
+TEST_DIRS
++
+=
+[
+'
+tests
+'
+]
 EXTRA_COMPONENTS
 +
 =

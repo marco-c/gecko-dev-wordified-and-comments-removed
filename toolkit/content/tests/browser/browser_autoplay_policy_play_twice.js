@@ -152,7 +152,7 @@ tab
 .
 linkedBrowser
 .
-contentDocumentAsCPOW
+contentDocument
 ;
 let
 video

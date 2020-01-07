@@ -269,9 +269,9 @@ linkedBrowser
 ok
 (
 !
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 .
 querySelector
 (

@@ -898,11 +898,13 @@ tab
 linkedBrowser
 ;
 yield
-BrowserTestUtils
-.
-browserLoaded
+once
 (
 browser
+"
+load
+"
+true
 )
 ;
 info

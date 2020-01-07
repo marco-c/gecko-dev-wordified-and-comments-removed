@@ -162,9 +162,9 @@ function
 {
 doc
 =
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 ;
 node
 =

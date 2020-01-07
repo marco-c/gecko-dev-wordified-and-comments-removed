@@ -961,7 +961,7 @@ gBrowser
 .
 selectedBrowser
 .
-contentWindowAsCPOW
+contentWindow
 "
 test
 -
@@ -1647,7 +1647,7 @@ gBrowser
 .
 selectedBrowser
 .
-contentWindowAsCPOW
+contentWindow
 "
 test
 -

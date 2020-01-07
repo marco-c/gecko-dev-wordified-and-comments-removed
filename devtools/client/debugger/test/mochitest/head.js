@@ -3731,7 +3731,7 @@ tab
 .
 linkedBrowser
 .
-contentWindowAsCPOW
+contentWindow
 .
 wrappedJSObject
 ;

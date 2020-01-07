@@ -327,7 +327,7 @@ expectedURL
 ;
 gBrowser
 .
-contentDocumentAsCPOW
+contentDocument
 .
 getElementById
 (
@@ -447,7 +447,7 @@ doc
 =
 gBrowser
 .
-contentDocumentAsCPOW
+contentDocument
 ;
 let
 defaultEngineSpan
@@ -660,7 +660,7 @@ search
 ;
 gBrowser
 .
-contentDocumentAsCPOW
+contentDocument
 .
 getElementById
 (
