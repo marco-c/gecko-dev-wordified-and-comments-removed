@@ -3079,6 +3079,14 @@ toolkit
 /
 library
 '
+                                                   
+'
+js
+/
+src
+/
+shell
+'
 )
 :
                         
