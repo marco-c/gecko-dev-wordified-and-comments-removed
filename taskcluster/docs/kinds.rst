@@ -1734,9 +1734,9 @@ version
 product
 name
 )
-beetmover
--
 release
+-
+beetmover
 -
 source
 -
