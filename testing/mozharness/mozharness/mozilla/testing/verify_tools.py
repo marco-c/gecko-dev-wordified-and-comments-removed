@@ -2062,6 +2062,20 @@ jsreftest_test_dir
 file
 )
                 
+file
+=
+file
+.
+replace
+(
+os
+.
+sep
+posixpath
+.
+sep
+)
+                
 files
 .
 append
