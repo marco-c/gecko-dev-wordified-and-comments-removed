@@ -586,7 +586,7 @@ options
 append
 (
 '
-p
+partner
 =
 {
 }
