@@ -1311,16 +1311,6 @@ MediaSessionConduit
 aConduit
 )
 ;
-int
-SegmentsAdded
-(
-)
-const
-{
-return
-mSegmentsAdded
-;
-}
 virtual
 void
 SetPrincipalHandle_m
@@ -1339,9 +1329,6 @@ protected
 MediaPipelineReceive
 (
 )
-;
-int
-mSegmentsAdded
 ;
 }
 ;
