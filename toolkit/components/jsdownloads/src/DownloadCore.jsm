@@ -5124,8 +5124,8 @@ referrer
 {
 channel
 .
-referrer
-=
+setReferrerWithPolicy
+(
 NetUtil
 .
 newURI
@@ -5135,6 +5135,12 @@ download
 source
 .
 referrer
+)
+Ci
+.
+nsIHttpChannel
+.
+REFERRER_POLICY_UNSAFE_URL
 )
 ;
 }
