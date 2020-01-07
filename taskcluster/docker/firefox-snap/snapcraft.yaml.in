@@ -93,6 +93,10 @@ home
 -
 network
 -
+network
+-
+observe
+-
 opengl
 -
 pulseaudio
