@@ -289,7 +289,7 @@ js
 frontend
 :
 :
-BinTokenReaderMultipart
+BinTokenReaderTester
 >
 reader
 (

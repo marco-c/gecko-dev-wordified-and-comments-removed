@@ -368,9 +368,6 @@ stop_
 return
 false
 ;
-#
-ifndef
-FUZZING
 if
 (
 !
@@ -398,8 +395,6 @@ value
 return
 false
 ;
-#
-endif
 current_
 +
 =
