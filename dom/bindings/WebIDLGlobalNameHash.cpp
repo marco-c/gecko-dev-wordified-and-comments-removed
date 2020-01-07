@@ -564,7 +564,6 @@ WebIDLGlobalNameHash
 :
 :
 ConstructorEnabled
-*
 mEnabled
 ;
 }
@@ -725,7 +724,6 @@ aNameLength
 DefineGlobalName
 aDefine
 ConstructorEnabled
-*
 aEnabled
 constructors
 :
@@ -944,7 +942,6 @@ aFound
 true
 ;
 ConstructorEnabled
-*
 checkEnabledForScope
 =
 entry
