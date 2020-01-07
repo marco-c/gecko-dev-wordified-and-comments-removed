@@ -312,7 +312,7 @@ targets
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -364,7 +364,7 @@ getTargets
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -385,7 +385,7 @@ isFound
 =
 false
 ;
-var
+let
 enumerate
 =
 actualTargets
@@ -403,7 +403,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 relatedAcc
 =
 enumerate
@@ -459,7 +459,7 @@ relDescr
 )
 ;
 }
-var
+let
 enumerate
 =
 actualTargets
@@ -477,7 +477,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 relatedAcc
 =
 enumerate
@@ -491,9 +491,11 @@ QueryInterface
 nsIAccessible
 )
 ;
+let
+idx
+;
 for
 (
-var
 idx
 =
 0
@@ -649,7 +651,7 @@ targets
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -701,7 +703,7 @@ getTargets
 ;
 for
 (
-var
+let
 idx
 =
 0

@@ -1684,7 +1684,7 @@ aSequence
 ;
 for
 (
-var
+let
 i
 =
 1
@@ -1700,7 +1700,7 @@ i
 +
 )
 {
-var
+let
 invoker
 =
 new
@@ -1743,7 +1743,7 @@ false
 ;
 for
 (
-var
+let
 i
 =
 aSequence
@@ -1762,7 +1762,7 @@ i
 -
 )
 {
-var
+let
 invoker
 =
 new

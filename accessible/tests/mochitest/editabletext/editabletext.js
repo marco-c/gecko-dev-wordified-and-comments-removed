@@ -1225,7 +1225,7 @@ if
 aRemoveTriple
 )
 {
-var
+let
 checker
 =
 new
@@ -1262,7 +1262,7 @@ if
 aInsertTriple
 )
 {
-var
+let
 checker
 =
 new

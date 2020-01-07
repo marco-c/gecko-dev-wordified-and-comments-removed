@@ -260,7 +260,7 @@ children
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -332,7 +332,7 @@ headersObj
 }
 for
 (
-var
+let
 rowIdx
 =
 0
@@ -346,7 +346,7 @@ rowIdx
 +
 )
 {
-var
+let
 rowObj
 =
 {
@@ -368,7 +368,7 @@ children
 ;
 for
 (
-var
+let
 colIdx
 =
 0
@@ -382,7 +382,7 @@ colIdx
 +
 )
 {
-var
+let
 celltype
 =
 aCellsArray
@@ -563,7 +563,7 @@ aIdentifier
 ;
 for
 (
-var
+let
 rowIdx
 =
 0
@@ -579,7 +579,7 @@ rowIdx
 {
 for
 (
-var
+let
 colIdx
 =
 0
@@ -593,7 +593,7 @@ colIdx
 +
 )
 {
-var
+let
 celltype
 =
 aCellsArray
@@ -622,9 +622,11 @@ rowIdx
 colIdx
 )
 ;
+let
+idx
+;
 for
 (
-var
 idx
 =
 rowIdx
@@ -707,7 +709,6 @@ colIdx
 ;
 for
 (
-var
 idx
 =
 colIdx
@@ -1799,7 +1800,7 @@ selCols
 ;
 for
 (
-var
+let
 colIdx
 =
 0
@@ -1820,7 +1821,7 @@ true
 ;
 for
 (
-var
+let
 rowIdx
 =
 0
@@ -1993,7 +1994,7 @@ getSelectedColumns
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2047,7 +2048,7 @@ selRows
 ;
 for
 (
-var
+let
 rowIdx
 =
 0
@@ -2068,7 +2069,7 @@ true
 ;
 for
 (
-var
+let
 colIdx
 =
 0
@@ -2241,7 +2242,7 @@ getSelectedRows
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2295,7 +2296,7 @@ selCells
 ;
 for
 (
-var
+let
 rowIdx
 =
 0
@@ -2311,7 +2312,7 @@ rowIdx
 {
 for
 (
-var
+let
 colIdx
 =
 0
@@ -2501,7 +2502,7 @@ getSelectedCells
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2558,7 +2559,7 @@ selectedCells
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2583,7 +2584,7 @@ i
 nsIAccessibleTableCell
 )
 ;
-var
+let
 colIdx
 =
 acc
@@ -2596,7 +2597,7 @@ i
 ]
 )
 ;
-var
+let
 rowIdx
 =
 acc
@@ -2678,7 +2679,7 @@ selected
 }
 for
 (
-var
+let
 rowIdx
 =
 0
@@ -2694,7 +2695,7 @@ rowIdx
 {
 for
 (
-var
+let
 colIdx
 =
 0
@@ -3656,7 +3657,7 @@ rowHeaderCellsCount
 {
 for
 (
-var
+let
 idx
 =
 0
@@ -3781,7 +3782,7 @@ colHeaderCellsCount
 {
 for
 (
-var
+let
 idx
 =
 0
@@ -3898,7 +3899,7 @@ prevRowIdx
 -
 )
 {
-var
+let
 prevCellState
 =
 aCellsArray
@@ -3954,7 +3955,7 @@ prevColIdx
 -
 )
 {
-var
+let
 prevCellState
 =
 aCellsArray

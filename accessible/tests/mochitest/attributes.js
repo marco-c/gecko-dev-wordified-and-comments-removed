@@ -301,7 +301,7 @@ aAccOrElmOrID
 )
 )
 ;
-var
+let
 attrs
 =
 {
@@ -355,7 +355,7 @@ aAccOrElmOrID
 )
 )
 ;
-var
+let
 attrs
 =
 {
@@ -510,7 +510,7 @@ expectedAttrs
 ;
 for
 (
-var
+let
 name
 in
 aAttrs
@@ -527,7 +527,7 @@ name
 ;
 for
 (
-var
+let
 name
 in
 aDefAttrs
@@ -1301,7 +1301,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 prop
 =
 enumerate
@@ -1431,7 +1431,7 @@ msg
 }
 for
 (
-var
+let
 name
 in
 aExpectedAttrs
@@ -1506,7 +1506,6 @@ wasFound
 =
 false
 ;
-var
 enumerate
 =
 aAttrs
@@ -1524,7 +1523,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 prop
 =
 enumerate

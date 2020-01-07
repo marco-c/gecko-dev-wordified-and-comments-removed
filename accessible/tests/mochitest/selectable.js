@@ -78,7 +78,7 @@ aIdentifier
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -92,7 +92,7 @@ idx
 +
 )
 {
-var
+let
 expectedAcc
 =
 getAccessible
@@ -194,7 +194,7 @@ aIdentifier
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -208,7 +208,7 @@ idx
 +
 )
 {
-var
+let
 expectedAcc
 =
 getAccessible
