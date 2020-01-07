@@ -17096,7 +17096,7 @@ AUTO_PROFILER_LABEL
 "
 nsCycleCollector_forgetSkippable
 "
-CC
+GCCC
 )
 ;
 TimeLog
@@ -17275,7 +17275,7 @@ AUTO_PROFILER_LABEL
 "
 nsCycleCollector_collect
 "
-CC
+GCCC
 )
 ;
 SliceBudget
@@ -17340,7 +17340,7 @@ AUTO_PROFILER_LABEL
 "
 nsCycleCollector_collectSlice
 "
-CC
+GCCC
 )
 ;
 data
@@ -17479,7 +17479,7 @@ AUTO_PROFILER_LABEL
 "
 nsCycleCollector_shutdown
 "
-CC
+OTHER
 )
 ;
 if
