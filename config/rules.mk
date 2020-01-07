@@ -6442,6 +6442,12 @@ RUSTDOC
 RUSTDOC
 )
 \
+RUSTFMT
+=
+(
+RUSTFMT
+)
+\
 MOZ_SRC
 =
 (

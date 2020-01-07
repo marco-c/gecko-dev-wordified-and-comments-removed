@@ -57,6 +57,17 @@ bin
 /
 rustdoc
 "
+RUSTFMT
+=
+"
+TOOLTOOL_DIR
+/
+rustc
+/
+bin
+/
+rustfmt
+"
 ac_add_options
 -
 -
