@@ -13910,3 +13910,16 @@ maskTemp
 )
 ;
 }
+void
+MacroAssembler
+:
+:
+speculationBarrier
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
