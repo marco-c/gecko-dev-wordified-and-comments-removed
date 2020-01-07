@@ -210,9 +210,6 @@ sheetService
 >
 AuthorStyleSheets
 (
-GetStyleBackendType
-(
-)
 )
 ;
 if

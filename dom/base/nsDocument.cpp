@@ -11534,9 +11534,6 @@ sheetService
 >
 AuthorStyleSheets
 (
-GetStyleBackendType
-(
-)
 )
 SheetType
 :
@@ -11811,12 +11808,6 @@ sheetService
 >
 AuthorStyleSheets
 (
-aStyleSet
--
->
-BackendType
-(
-)
 )
 ;
 for
