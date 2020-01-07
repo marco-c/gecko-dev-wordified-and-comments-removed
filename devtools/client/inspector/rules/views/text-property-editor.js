@@ -1641,15 +1641,6 @@ cssProperties
 this
 .
 cssProperties
-cssVariables
-:
-this
-.
-rule
-.
-elementStyle
-.
-variables
 }
 )
 ;
