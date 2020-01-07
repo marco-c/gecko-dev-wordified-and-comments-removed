@@ -211,8 +211,14 @@ _buildPropertiesView
 ;
 }
 }
-async
 _buildPropertiesView
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -251,7 +257,7 @@ AudioParams
 let
 props
 =
-await
+yield
 node
 .
 getParams
@@ -341,6 +347,7 @@ id
 )
 ;
 }
+)
 _togglePropertiesView
 :
 function
@@ -443,8 +450,14 @@ id
 )
 ;
 }
-async
 _onEval
+:
+Task
+.
+async
+(
+function
+*
 (
 variable
 value
@@ -544,7 +557,7 @@ value
 }
 error
 =
-await
+yield
 node
 .
 actor
@@ -618,5 +631,6 @@ value
 ;
 }
 }
+)
 }
 ;

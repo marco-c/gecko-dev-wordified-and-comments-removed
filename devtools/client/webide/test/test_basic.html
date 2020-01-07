@@ -174,16 +174,19 @@ waitForExplicitFinish
 (
 )
 ;
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
 let
 win
 =
-await
+yield
 openWebIDE
 (
 )
@@ -208,7 +211,7 @@ browser
 "
 )
 ;
-await
+yield
 gDevToolsBrowser
 .
 isWebIDEInitialized
@@ -364,7 +367,7 @@ BOOM
 ;
 try
 {
-await
+yield
 win
 .
 UI
@@ -417,7 +420,7 @@ reported
 "
 )
 ;
-await
+yield
 closeWebIDE
 (
 win
@@ -430,8 +433,6 @@ finish
 )
 ;
 }
-)
-(
 )
 ;
 }

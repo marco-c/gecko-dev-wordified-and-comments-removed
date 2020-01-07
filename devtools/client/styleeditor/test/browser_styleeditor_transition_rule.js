@@ -31,8 +31,8 @@ purple
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -41,7 +41,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -73,7 +73,7 @@ editors
 0
 ]
 ;
-await
+yield
 openEditor
 (
 editor
@@ -110,13 +110,13 @@ NEW_RULE
 "
 )
 ;
-await
+yield
 styleChanges
 ;
 let
 rules
 =
-await
+yield
 ContentTask
 .
 spawn
@@ -125,8 +125,8 @@ gBrowser
 .
 selectedBrowser
 0
-async
 function
+*
 (
 index
 )

@@ -1,5 +1,5 @@
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 MULTIPLE_CONTEXTS_URL
@@ -27,14 +27,14 @@ true
 }
 )
 ;
-await
+yield
 getPrograms
 (
 front
 2
 )
 ;
-await
+yield
 front
 .
 waitForFrame
@@ -44,7 +44,7 @@ waitForFrame
 let
 pixel
 =
-await
+yield
 front
 .
 getPixel
@@ -139,7 +139,7 @@ canvas
 ;
 pixel
 =
-await
+yield
 front
 .
 getPixel
@@ -232,7 +232,7 @@ canvas
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

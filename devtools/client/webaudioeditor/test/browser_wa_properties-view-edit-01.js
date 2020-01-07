@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -89,7 +89,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -120,7 +120,7 @@ nodeIds
 )
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -193,7 +193,7 @@ nodeIds
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
@@ -230,13 +230,13 @@ nodeIds
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
 EVENTS
 )
-await
+yield
 setAndCheck
 (
 0
@@ -270,13 +270,13 @@ nodeIds
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
 EVENTS
 )
-await
+yield
 setAndCheck
 (
 0
@@ -299,7 +299,7 @@ number
 "
 )
 ;
-await
+yield
 setAndCheck
 (
 0
@@ -322,7 +322,7 @@ float
 "
 )
 ;
-await
+yield
 setAndCheck
 (
 0
@@ -347,7 +347,7 @@ float
 "
 )
 ;
-await
+yield
 teardown
 (
 target
@@ -364,8 +364,12 @@ gVars
 )
 {
 return
+Task
+.
 async
+(
 function
+*
 (
 varNum
 prop
@@ -374,7 +378,7 @@ expected
 desc
 )
 {
-await
+yield
 modifyVariableView
 (
 panelWin
@@ -406,5 +410,6 @@ desc
 )
 ;
 }
+)
 ;
 }

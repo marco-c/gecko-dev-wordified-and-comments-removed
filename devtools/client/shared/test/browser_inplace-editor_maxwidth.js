@@ -59,12 +59,12 @@ wrap
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -93,7 +93,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 )
@@ -115,7 +115,7 @@ size
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -164,8 +164,12 @@ removeCurrentTab
 let
 testMaxWidth
 =
+Task
+.
 async
+(
 function
+*
 (
 editor
 )
@@ -635,6 +639,7 @@ RETURN
 )
 ;
 }
+)
 ;
 function
 getLines

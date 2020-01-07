@@ -132,8 +132,8 @@ true
 }
 add_task
 (
-async
 function
+*
 testLegacyInstallSuccess
 (
 )
@@ -144,7 +144,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -152,13 +152,13 @@ addons
 "
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
 )
 ;
-await
+yield
 installAddon
 (
 {
@@ -180,7 +180,7 @@ ADDON_NAME
 }
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -194,7 +194,7 @@ ADDON_NAME
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab
@@ -205,8 +205,8 @@ tab
 ;
 add_task
 (
-async
 function
+*
 testWebextensionInstallError
 (
 )
@@ -218,7 +218,7 @@ document
 window
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -226,7 +226,7 @@ addons
 "
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
@@ -298,7 +298,7 @@ top
 "
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -312,7 +312,7 @@ error
 top
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab
@@ -323,8 +323,8 @@ tab
 ;
 add_task
 (
-async
 function
+*
 testWebextensionInstallErrorRetry
 (
 )
@@ -336,7 +336,7 @@ document
 window
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -344,7 +344,7 @@ addons
 "
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
@@ -453,7 +453,7 @@ js
 }
 }
 ;
-await
+yield
 promiseWriteWebManifestForExtension
 (
 manifest
@@ -534,7 +534,7 @@ top
 "
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -614,7 +614,7 @@ js
 }
 ]
 ;
-await
+yield
 promiseWriteWebManifestForExtension
 (
 manifest
@@ -677,7 +677,7 @@ shown
 "
 )
 ;
-await
+yield
 waitUntilElement
 (
 [
@@ -705,7 +705,7 @@ installed
 "
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -719,7 +719,7 @@ addonName
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

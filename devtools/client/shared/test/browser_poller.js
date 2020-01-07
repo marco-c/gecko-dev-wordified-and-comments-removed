@@ -23,8 +23,8 @@ poller
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -141,7 +141,7 @@ poller
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -189,7 +189,7 @@ polled
 "
 )
 ;
-await
+yield
 poller2
 .
 off
@@ -213,7 +213,7 @@ on
 (
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -284,21 +284,21 @@ poll
 "
 )
 ;
-await
+yield
 poller2
 .
 off
 (
 )
 ;
-await
+yield
 poller2
 .
 off
 (
 )
 ;
-await
+yield
 poller2
 .
 off
@@ -378,8 +378,8 @@ poller
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -491,7 +491,7 @@ on
 1
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -503,7 +503,7 @@ count
 50
 )
 ;
-await
+yield
 asyncPoller
 .
 off
@@ -515,8 +515,8 @@ off
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -587,7 +587,7 @@ on
 (
 )
 ;
-await
+yield
 asyncPoller
 .
 off
@@ -639,8 +639,8 @@ polling
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -711,7 +711,7 @@ on
 (
 )
 ;
-await
+yield
 asyncPoller
 .
 destroy

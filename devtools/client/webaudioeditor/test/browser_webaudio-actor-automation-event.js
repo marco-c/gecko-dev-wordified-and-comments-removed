@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 AUTOMATION_URL
@@ -102,7 +102,7 @@ connect2
 ]
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -350,7 +350,7 @@ event
 onAutomationEvent
 )
 ;
-await
+yield
 removeTab
 (
 target

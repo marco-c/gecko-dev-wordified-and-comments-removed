@@ -57,8 +57,8 @@ window
 .
 setup
 =
-async
 function
+*
 (
 )
 {
@@ -78,7 +78,7 @@ idb1
 let
 db
 =
-await
+yield
 new
 Promise
 (
@@ -218,7 +218,7 @@ db
 }
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -377,7 +377,7 @@ baz
 }
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -412,7 +412,7 @@ idb2
 let
 db2
 =
-await
+yield
 new
 Promise
 (
@@ -462,7 +462,7 @@ result
 }
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -502,8 +502,8 @@ window
 .
 clear
 =
-async
 function
+*
 (
 )
 {
@@ -522,7 +522,7 @@ idb2
 ]
 )
 {
-await
+yield
 new
 Promise
 (

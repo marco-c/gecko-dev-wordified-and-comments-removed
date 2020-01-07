@@ -166,8 +166,12 @@ window
 .
 onload
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -185,7 +189,7 @@ container
 "
 )
 ;
-await
+yield
 renderComponent
 (
 CensusTreeItem
@@ -236,7 +240,7 @@ inverted
 "
 )
 ;
-await
+yield
 renderComponent
 (
 CensusTreeItem
@@ -286,7 +290,7 @@ inverted
 "
 )
 ;
-await
+yield
 renderComponent
 (
 CensusTreeItem
@@ -348,7 +352,7 @@ children
 "
 )
 ;
-await
+yield
 renderComponent
 (
 CensusTreeItem
@@ -448,6 +452,7 @@ finish
 ;
 }
 }
+)
 ;
 <
 /

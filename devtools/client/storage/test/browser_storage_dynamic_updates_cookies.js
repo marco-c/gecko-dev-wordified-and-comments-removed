@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -68,7 +68,7 @@ browser
 "
 )
 ;
-await
+yield
 selectTableItem
 (
 c1id
@@ -251,7 +251,7 @@ value
 ]
 ]
 ;
-await
+yield
 findVariableViewProperties
 (
 initialValue
@@ -261,7 +261,7 @@ initialValue
 false
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 initialValue
@@ -271,7 +271,7 @@ initialValue
 true
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -382,7 +382,7 @@ browser
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -394,7 +394,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -408,7 +408,7 @@ updated
 "
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 finalValue
@@ -418,7 +418,7 @@ finalValue
 false
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 finalValue
@@ -428,7 +428,7 @@ finalValue
 true
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -523,7 +523,7 @@ booyeah
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -537,7 +537,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -677,7 +677,7 @@ booyeah
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -691,7 +691,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -705,7 +705,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -872,7 +872,7 @@ browser
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -884,7 +884,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -898,7 +898,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1012,7 +1012,7 @@ row
 "
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 [
@@ -1040,7 +1040,7 @@ c3
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1054,7 +1054,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1124,7 +1124,7 @@ test
 ]
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 [
@@ -1156,7 +1156,7 @@ browser
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1168,7 +1168,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1182,7 +1182,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1235,7 +1235,7 @@ test
 ]
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 [
@@ -1263,7 +1263,7 @@ c4
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1277,7 +1277,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1321,7 +1321,7 @@ rows
 "
 )
 ;
-await
+yield
 finishTests
 (
 )

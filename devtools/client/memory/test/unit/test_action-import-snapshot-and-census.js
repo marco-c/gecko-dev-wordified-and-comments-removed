@@ -68,8 +68,8 @@ snapshot
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -89,7 +89,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -115,7 +115,7 @@ store
 let
 destPath
 =
-await
+yield
 createTempFile
 (
 )
@@ -129,7 +129,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -187,7 +187,7 @@ destPath
 )
 )
 ;
-await
+yield
 exportEvents
 ;
 let
@@ -381,7 +381,7 @@ destPath
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store

@@ -443,8 +443,8 @@ waitForExplicitFinish
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -453,7 +453,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -489,7 +489,7 @@ editors
 ]
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -501,7 +501,7 @@ editors
 origNames
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -513,7 +513,7 @@ editors
 origNames
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -525,7 +525,7 @@ editors
 origNames
 )
 ;
-await
+yield
 togglePref
 (
 ui
@@ -550,7 +550,7 @@ toggled
 "
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -562,7 +562,7 @@ editors
 cssNames
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -574,7 +574,7 @@ editors
 cssNames
 )
 ;
-await
+yield
 testEditor
 (
 ui

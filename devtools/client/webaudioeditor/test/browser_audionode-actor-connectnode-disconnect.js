@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -69,7 +69,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -98,7 +98,7 @@ disconnect
 (
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -150,7 +150,7 @@ connectNode
 gain
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -182,7 +182,7 @@ reconnected
 "
 )
 ;
-await
+yield
 teardown
 (
 target

@@ -946,9 +946,12 @@ count
 0
 ;
 return
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
@@ -983,7 +986,7 @@ count
 eventRepeat
 )
 {
-await
+yield
 _afterDispatchDone
 (
 store
@@ -1014,8 +1017,6 @@ s
 ;
 }
 }
-)
-(
 )
 ;
 }

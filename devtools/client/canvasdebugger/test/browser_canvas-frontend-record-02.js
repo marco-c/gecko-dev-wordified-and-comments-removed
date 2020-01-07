@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -28,7 +28,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
@@ -73,7 +73,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 recordingStarted
 ;
 ok
@@ -431,7 +431,7 @@ hidden
 "
 )
 ;
-await
+yield
 recordingFinished
 ;
 ok
@@ -450,7 +450,7 @@ loop
 "
 )
 ;
-await
+yield
 recordingSelected
 ;
 ok
@@ -659,7 +659,7 @@ visible
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

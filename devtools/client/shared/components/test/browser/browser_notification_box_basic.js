@@ -58,8 +58,8 @@ page
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -77,7 +77,7 @@ started
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URI

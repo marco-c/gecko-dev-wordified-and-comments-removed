@@ -78,8 +78,8 @@ properties
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -100,7 +100,7 @@ toolbox
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -119,7 +119,7 @@ tab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -197,7 +197,7 @@ toolbox
 win
 )
 ;
-await
+yield
 onHostChanged
 ;
 checkHostType
@@ -239,7 +239,7 @@ toolbox
 win
 )
 ;
-await
+yield
 onHostChanged
 ;
 checkHostType
@@ -258,7 +258,7 @@ window
 "
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -305,7 +305,7 @@ toolbox
 win
 )
 ;
-await
+yield
 onHostChanged
 ;
 checkHostType
@@ -315,7 +315,7 @@ BOTTOM
 WINDOW
 )
 ;
-await
+yield
 toolbox
 .
 destroy

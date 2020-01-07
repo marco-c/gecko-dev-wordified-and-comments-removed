@@ -6,8 +6,12 @@ strict
 var
 test
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -18,7 +22,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -73,7 +77,7 @@ parseInt
 ;
 try
 {
-await
+yield
 PerformanceController
 .
 importRecording
@@ -136,7 +140,7 @@ cancelled
 )
 ;
 }
-await
+yield
 teardown
 (
 panel
@@ -147,4 +151,5 @@ finish
 )
 ;
 }
+)
 ;

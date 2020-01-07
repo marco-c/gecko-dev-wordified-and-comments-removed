@@ -3,8 +3,8 @@ use
 strict
 "
 ;
-async
 function
+*
 spawnTest
 (
 )
@@ -14,7 +14,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformance
 (
 ALLOCS_URL
@@ -51,19 +51,19 @@ ALLOCATIONS_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 idleWait
 (
 1000
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -103,7 +103,7 @@ MAX_VALUE
 }
 )
 ;
-await
+yield
 rendered
 ;
 let
@@ -228,7 +228,7 @@ targetBar
 let
 showAllocsButton
 ;
-await
+yield
 waitUntil
 (
 (
@@ -297,7 +297,7 @@ click
 showAllocsButton
 )
 ;
-await
+yield
 rendered
 ;
 is
@@ -382,7 +382,7 @@ duration
 }
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -392,7 +392,7 @@ waterfall
 "
 )
 ;
-await
+yield
 rendered
 ;
 bars
@@ -461,7 +461,7 @@ mousedown
 targetBar
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -530,7 +530,7 @@ click
 showAllocsButton
 )
 ;
-await
+yield
 rendered
 ;
 within
@@ -628,7 +628,7 @@ duration
 }
 )
 ;
-await
+yield
 rendered
 ;
 Services
@@ -641,7 +641,7 @@ ALLOCATIONS_PREF
 false
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -657,13 +657,13 @@ EVENTS
 UI_WATERFALL_RENDERED
 )
 ;
-await
+yield
 stopRecording
 (
 panel
 )
 ;
-await
+yield
 rendered
 ;
 injectGCMarkers
@@ -699,7 +699,7 @@ MAX_VALUE
 }
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -797,7 +797,7 @@ disabled
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

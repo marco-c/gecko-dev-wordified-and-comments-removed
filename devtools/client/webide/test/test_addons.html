@@ -360,9 +360,12 @@ click
 )
 ;
 }
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
@@ -382,7 +385,7 @@ installed
 let
 win
 =
-await
+yield
 openWebIDE
 (
 true
@@ -411,7 +414,7 @@ installed
 "
 )
 ;
-await
+yield
 nextTick
 (
 )
@@ -457,7 +460,7 @@ hidden
 "
 )
 ;
-await
+yield
 uninstallADBFromUI
 (
 addonDoc
@@ -525,7 +528,7 @@ present
 "
 )
 ;
-await
+yield
 closeWebIDE
 (
 win
@@ -538,8 +541,6 @@ finish
 )
 ;
 }
-)
-(
 )
 ;
 }

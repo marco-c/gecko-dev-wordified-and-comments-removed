@@ -90,8 +90,8 @@ EXPECTED_DTU_ASSERT_FAILURE_COUNT
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -111,7 +111,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -186,7 +186,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilSnapshotState
 (
 store
@@ -723,7 +723,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

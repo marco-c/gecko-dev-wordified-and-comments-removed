@@ -121,8 +121,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -131,7 +131,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -165,13 +165,13 @@ UI_ENABLE_ALLOCATIONS_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -188,7 +188,7 @@ EVENTS
 UI_MEMORY_CALL_TREE_RENDERED
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -200,7 +200,7 @@ calltree
 "
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -318,7 +318,7 @@ true
 }
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

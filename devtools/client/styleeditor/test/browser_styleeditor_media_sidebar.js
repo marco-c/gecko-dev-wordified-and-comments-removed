@@ -122,8 +122,8 @@ waitForExplicitFinish
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -132,7 +132,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -164,7 +164,7 @@ editors
 0
 ]
 ;
-await
+yield
 openEditor
 (
 plainEditor
@@ -185,7 +185,7 @@ editors
 1
 ]
 ;
-await
+yield
 openEditor
 (
 mediaEditor
@@ -196,14 +196,14 @@ testMediaEditor
 mediaEditor
 )
 ;
-await
+yield
 testShowHide
 (
 ui
 mediaEditor
 )
 ;
-await
+yield
 testMediaRuleAdded
 (
 ui
@@ -240,7 +240,7 @@ RESIZE
 RESIZE
 )
 ;
-await
+yield
 onMatchesChange
 ;
 testMediaMatchChanged
@@ -543,8 +543,8 @@ resizing
 )
 ;
 }
-async
 function
+*
 testShowHide
 (
 UI
@@ -569,7 +569,7 @@ MEDIA_PREF
 false
 )
 ;
-await
+yield
 sidebarChange
 ;
 let
@@ -621,7 +621,7 @@ clearUserPref
 MEDIA_PREF
 )
 ;
-await
+yield
 sidebarChange
 ;
 is
@@ -642,15 +642,15 @@ back
 )
 ;
 }
-async
 function
+*
 testMediaRuleAdded
 (
 UI
 editor
 )
 {
-await
+yield
 editor
 .
 getSourceEditor
@@ -690,7 +690,7 @@ setText
 text
 )
 ;
-await
+yield
 listChange
 ;
 let

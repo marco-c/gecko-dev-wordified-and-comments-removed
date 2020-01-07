@@ -16,8 +16,8 @@ json
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -34,7 +34,7 @@ started
 let
 tab
 =
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -59,7 +59,7 @@ principal
 ;
 is
 (
-await
+yield
 countRows
 (
 )
@@ -76,7 +76,7 @@ rows
 let
 objectCellCount
 =
-await
+yield
 getElementCount
 (
 "
@@ -106,7 +106,7 @@ cell
 let
 objectCellText
 =
-await
+yield
 getElementText
 (
 "
@@ -136,7 +136,7 @@ expanded
 "
 )
 ;
-await
+yield
 clickJsonNode
 (
 "
@@ -151,7 +151,7 @@ treeValueCell
 ;
 is
 (
-await
+yield
 countRows
 (
 )
@@ -166,7 +166,7 @@ rows
 "
 )
 ;
-await
+yield
 clickJsonNode
 (
 "
@@ -181,7 +181,7 @@ treeLabel
 ;
 is
 (
-await
+yield
 countRows
 (
 )
@@ -195,7 +195,7 @@ row
 "
 )
 ;
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -203,7 +203,7 @@ headers
 "
 )
 ;
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -213,7 +213,7 @@ json
 ;
 is
 (
-await
+yield
 countRows
 (
 )

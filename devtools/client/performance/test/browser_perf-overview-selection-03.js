@@ -146,8 +146,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -156,7 +156,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -189,13 +189,13 @@ UI_ENABLE_MEMORY_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -284,7 +284,7 @@ width
 }
 )
 ;
-await
+yield
 rangeSelected
 ;
 is
@@ -433,7 +433,7 @@ width
 }
 )
 ;
-await
+yield
 rangeSelected
 ;
 is
@@ -582,7 +582,7 @@ width
 }
 )
 ;
-await
+yield
 rangeSelected
 ;
 is
@@ -692,7 +692,7 @@ selection
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

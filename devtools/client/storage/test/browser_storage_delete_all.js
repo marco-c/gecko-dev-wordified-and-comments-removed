@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -312,7 +312,7 @@ js
 ]
 ]
 ;
-await
+yield
 checkState
 (
 beforeState
@@ -475,7 +475,7 @@ join
 "
 )
 ;
-await
+yield
 selectTreeItem
 (
 store
@@ -508,7 +508,7 @@ rowName
 cellToClick
 ]
 ;
-await
+yield
 waitForContextMenu
 (
 contextMenu
@@ -544,7 +544,7 @@ click
 }
 )
 ;
-await
+yield
 eventWait
 ;
 }
@@ -766,13 +766,13 @@ plop
 ]
 ]
 ;
-await
+yield
 checkState
 (
 afterState
 )
 ;
-await
+yield
 finishTests
 (
 )

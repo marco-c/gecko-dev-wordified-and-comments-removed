@@ -122,8 +122,8 @@ div
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -132,7 +132,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -161,7 +161,7 @@ useXulWrapper
 =
 false
 ;
-await
+yield
 runTests
 (
 doc
@@ -186,7 +186,7 @@ useXulWrapper
 =
 true
 ;
-await
+yield
 runTests
 (
 doc
@@ -195,14 +195,14 @@ doc
 }
 )
 ;
-async
 function
+*
 runTests
 (
 doc
 )
 {
-await
+yield
 addTab
 (
 "
@@ -331,7 +331,7 @@ box1
 )
 )
 ;
-await
+yield
 onShown
 ;
 is
@@ -347,7 +347,7 @@ once
 "
 )
 ;
-await
+yield
 waitForReflow
 (
 tooltip
@@ -424,7 +424,7 @@ hide
 (
 )
 ;
-await
+yield
 onPopupHidden
 ;
 is
@@ -440,7 +440,7 @@ once
 "
 )
 ;
-await
+yield
 waitForReflow
 (
 tooltip

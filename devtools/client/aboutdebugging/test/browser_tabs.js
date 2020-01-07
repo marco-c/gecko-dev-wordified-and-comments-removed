@@ -24,8 +24,8 @@ title
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -35,7 +35,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -51,7 +51,7 @@ getTabList
 document
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -111,7 +111,7 @@ tab
 let
 newTab
 =
-await
+yield
 addTab
 (
 TAB_URL
@@ -144,7 +144,7 @@ name
 let
 container
 =
-await
+yield
 waitUntilTabContainer
 (
 "
@@ -165,7 +165,7 @@ update
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -247,7 +247,7 @@ image
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -329,7 +329,7 @@ src
 }
 )
 ;
-await
+yield
 removeTab
 (
 newTab
@@ -348,7 +348,7 @@ removed
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -403,7 +403,7 @@ UI
 "
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab
@@ -486,15 +486,15 @@ return
 null
 ;
 }
-async
 function
+*
 waitUntilTabContainer
 (
 name
 document
 )
 {
-await
+yield
 waitUntil
 (
 (

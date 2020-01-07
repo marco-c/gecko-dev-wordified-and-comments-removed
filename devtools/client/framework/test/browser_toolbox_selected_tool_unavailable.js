@@ -86,8 +86,8 @@ document
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -101,7 +101,7 @@ testToolDefinition
 let
 tab
 =
-await
+yield
 addTab
 (
 "
@@ -124,7 +124,7 @@ tab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -154,7 +154,7 @@ selected
 "
 )
 ;
-await
+yield
 gDevTools
 .
 closeToolbox
@@ -183,7 +183,7 @@ tab
 ;
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -207,7 +207,7 @@ selected
 "
 )
 ;
-await
+yield
 gDevTools
 .
 closeToolbox

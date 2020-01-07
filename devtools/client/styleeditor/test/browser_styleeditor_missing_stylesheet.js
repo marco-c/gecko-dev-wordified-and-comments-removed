@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -28,7 +28,7 @@ toolbox
 panel
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI

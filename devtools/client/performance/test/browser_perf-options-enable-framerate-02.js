@@ -97,8 +97,8 @@ actions
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -107,7 +107,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -139,7 +139,7 @@ UI_ENABLE_FRAMERATE_PREF
 false
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -155,7 +155,7 @@ UI_ENABLE_FRAMERATE_PREF
 true
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -186,7 +186,7 @@ framerate
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -202,7 +202,7 @@ UI_ENABLE_FRAMERATE_PREF
 false
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -233,7 +233,7 @@ framerate
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

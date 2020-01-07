@@ -176,8 +176,8 @@ heapWorker
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -191,7 +191,7 @@ view
 )
 )
 ;
-await
+yield
 dispatch
 (
 refresh
@@ -216,8 +216,8 @@ heapWorker
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -230,7 +230,7 @@ popView
 )
 )
 ;
-await
+yield
 dispatch
 (
 refresh

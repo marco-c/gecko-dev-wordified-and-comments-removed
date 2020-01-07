@@ -118,8 +118,8 @@ jsm
 ;
 add_task
 (
-async
 function
+*
 testWebExtensionsToolboxNoBackgroundPage
 (
 )
@@ -131,7 +131,7 @@ document
 debugBtn
 }
 =
-await
+yield
 setupTestAboutDebuggingWebExtension
 (
 ADDON_NOBG_NAME
@@ -494,7 +494,7 @@ click
 (
 )
 ;
-await
+yield
 onToolboxClose
 ;
 ok
@@ -507,7 +507,7 @@ closed
 "
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -521,7 +521,7 @@ ADDON_NOBG_NAME
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

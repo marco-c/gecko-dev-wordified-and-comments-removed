@@ -158,8 +158,12 @@ window
 .
 onload
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -200,7 +204,7 @@ DOMINATOR_TREE
 ]
 )
 {
-await
+yield
 renderComponent
 (
 Toolbar
@@ -249,7 +253,7 @@ view
 )
 ;
 }
-await
+yield
 renderComponent
 (
 Toolbar
@@ -336,6 +340,7 @@ finish
 ;
 }
 }
+)
 ;
 <
 /

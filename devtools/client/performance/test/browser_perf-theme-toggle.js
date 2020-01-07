@@ -58,8 +58,8 @@ requestLongerTimeout
 2
 )
 ;
-async
 function
+*
 spawnTest
 (
 )
@@ -69,7 +69,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -88,7 +88,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 startRecording
 (
 panel
@@ -125,7 +125,7 @@ markers
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -149,7 +149,7 @@ light
 "
 )
 ;
-await
+yield
 refreshed
 ;
 ok
@@ -201,7 +201,7 @@ dark
 "
 )
 ;
-await
+yield
 refreshed
 ;
 info
@@ -224,7 +224,7 @@ MEMORY_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -261,7 +261,7 @@ memory
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -298,7 +298,7 @@ light
 "
 )
 ;
-await
+yield
 refreshed
 ;
 ok
@@ -385,10 +385,10 @@ light
 "
 )
 ;
-await
+yield
 refreshed
 ;
-await
+yield
 teardown
 (
 panel

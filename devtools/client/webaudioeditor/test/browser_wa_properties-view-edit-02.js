@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 COMPLEX_CONTEXT_URL
@@ -90,7 +90,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -121,7 +121,7 @@ nodeIds
 )
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -155,7 +155,7 @@ UI_SET_PARAM_ERROR
 ;
 try
 {
-await
+yield
 modifyVariableView
 (
 panelWin
@@ -174,7 +174,7 @@ e
 )
 {
 }
-await
+yield
 errorEvent
 ;
 checkVariableView
@@ -197,7 +197,7 @@ updated
 "
 )
 ;
-await
+yield
 teardown
 (
 target

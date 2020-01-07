@@ -11,8 +11,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -22,7 +22,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 BUG_1130901_URL
@@ -59,7 +59,7 @@ reload
 target
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -94,7 +94,7 @@ apply
 "
 )
 ;
-await
+yield
 teardown
 (
 target

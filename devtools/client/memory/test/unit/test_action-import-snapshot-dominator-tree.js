@@ -66,8 +66,8 @@ view
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -87,7 +87,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -257,7 +257,7 @@ expectStates
 const
 snapshotPath
 =
-await
+yield
 front
 .
 saveHeapSnapshot
@@ -273,7 +273,7 @@ snapshotPath
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store

@@ -77,8 +77,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -104,7 +104,7 @@ vbox
 "
 )
 ;
-await
+yield
 appendAndWaitForPaint
 (
 gBrowser
@@ -188,7 +188,7 @@ arrow
 )
 )
 ;
-await
+yield
 receivedFocusEvent
 ;
 is

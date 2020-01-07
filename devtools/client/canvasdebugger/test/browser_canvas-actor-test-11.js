@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-await
+yield
 initCanvasDebuggerBackend
 (
 SET_TIMEOUT_URL
@@ -27,7 +27,7 @@ navigate
 "
 )
 ;
-await
+yield
 front
 .
 setup
@@ -53,7 +53,7 @@ successfully
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -76,7 +76,7 @@ up
 let
 snapshotActor
 =
-await
+yield
 front
 .
 recordAnimationFrame
@@ -101,7 +101,7 @@ recording
 let
 animationOverview
 =
-await
+yield
 snapshotActor
 .
 getOverview
@@ -628,7 +628,7 @@ correct
 let
 firstNonDrawCall
 =
-await
+yield
 functionCalls
 [
 1
@@ -641,7 +641,7 @@ getDetails
 let
 secondNonDrawCall
 =
-await
+yield
 functionCalls
 [
 3
@@ -654,7 +654,7 @@ getDetails
 let
 lastNonDrawCall
 =
-await
+yield
 functionCalls
 [
 7
@@ -739,7 +739,7 @@ correct
 let
 firstScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -753,7 +753,7 @@ functionCalls
 let
 secondScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -767,7 +767,7 @@ functionCalls
 let
 lastScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -841,7 +841,7 @@ function
 let
 firstActualScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -930,7 +930,7 @@ height
 let
 secondActualScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -1019,7 +1019,7 @@ height
 let
 lastActualScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -1163,7 +1163,7 @@ different
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

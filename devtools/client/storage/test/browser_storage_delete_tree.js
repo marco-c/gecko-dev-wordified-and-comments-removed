@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -73,7 +73,7 @@ delete
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -438,7 +438,7 @@ join
 "
 )
 ;
-await
+yield
 selectTreeItem
 (
 store
@@ -535,7 +535,7 @@ storeName
 }
 )
 ;
-await
+yield
 waitForContextMenu
 (
 contextMenu
@@ -566,7 +566,7 @@ click
 }
 )
 ;
-await
+yield
 eventWait
 ;
 }
@@ -580,7 +580,7 @@ delete
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -699,7 +699,7 @@ plop
 ]
 )
 ;
-await
+yield
 finishTests
 (
 )

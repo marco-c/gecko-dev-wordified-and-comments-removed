@@ -317,12 +317,12 @@ propertyName
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -351,7 +351,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -385,7 +385,7 @@ autocomplete
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -449,8 +449,12 @@ removeCurrentTab
 let
 runAutocompletionTest
 =
+Task
+.
 async
+(
 function
+*
 (
 editor
 )
@@ -556,7 +560,7 @@ offset
 }
 else
 {
-await
+yield
 testCompletion
 (
 data
@@ -582,6 +586,7 @@ defaultView
 )
 ;
 }
+)
 ;
 function
 getPopupOffset

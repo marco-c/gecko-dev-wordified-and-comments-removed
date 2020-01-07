@@ -52,8 +52,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -62,7 +62,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -85,7 +85,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 gFront
 .
 setProfilerStatusInterval
@@ -200,7 +200,7 @@ attribute
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

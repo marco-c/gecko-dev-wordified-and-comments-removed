@@ -78,8 +78,8 @@ test
 makeMemoryTest
 (
 TEST_URL
-async
 function
+*
 (
 {
 tab
@@ -168,7 +168,7 @@ rendered
 "
 )
 ;
-await
+yield
 takeSnapshot
 (
 panel
@@ -253,7 +253,7 @@ class
 "
 )
 ;
-await
+yield
 takeSnapshot
 (
 panel
@@ -363,7 +363,7 @@ class
 "
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 gStore

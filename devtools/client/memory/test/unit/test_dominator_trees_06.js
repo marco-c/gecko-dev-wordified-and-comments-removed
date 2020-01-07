@@ -87,8 +87,8 @@ view
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -108,7 +108,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -149,7 +149,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -426,7 +426,7 @@ state
 "
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -768,7 +768,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

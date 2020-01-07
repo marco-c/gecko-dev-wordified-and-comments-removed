@@ -87,8 +87,8 @@ view
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -108,7 +108,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -159,7 +159,7 @@ default
 const
 s1
 =
-await
+yield
 dispatch
 (
 takeSnapshot
@@ -172,7 +172,7 @@ heapWorker
 const
 s2
 =
-await
+yield
 dispatch
 (
 takeSnapshot
@@ -185,7 +185,7 @@ heapWorker
 const
 s3
 =
-await
+yield
 dispatch
 (
 takeSnapshot
@@ -222,7 +222,7 @@ s3
 )
 )
 ;
-await
+yield
 waitUntilSnapshotState
 (
 store
@@ -348,7 +348,7 @@ selected
 "
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -386,7 +386,7 @@ diff
 "
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -557,7 +557,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

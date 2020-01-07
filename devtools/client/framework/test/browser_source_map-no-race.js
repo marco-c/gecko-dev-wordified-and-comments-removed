@@ -114,15 +114,15 @@ ORIGINAL_LINE
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 const
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 PAGE_URL
@@ -156,7 +156,7 @@ GENERATED_LINE
 let
 newLoc
 =
-await
+yield
 service
 .
 originalPositionFor

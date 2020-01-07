@@ -60,8 +60,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -70,7 +70,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -119,7 +119,7 @@ none
 cssIsValid
 )
 ;
-await
+yield
 widget
 .
 once
@@ -151,7 +151,7 @@ contrast
 )
 "
 ;
-await
+yield
 showFilterPopupPresetsAndCreatePreset
 (
 widget
@@ -201,7 +201,7 @@ removeButton
 }
 )
 ;
-await
+yield
 onRender
 ;
 is
@@ -232,7 +232,7 @@ preset
 let
 list
 =
-await
+yield
 widget
 .
 getPresets

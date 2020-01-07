@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -92,7 +92,7 @@ click
 (
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -104,7 +104,7 @@ panel
 document
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
@@ -172,7 +172,7 @@ current
 "
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -221,7 +221,7 @@ goBack
 (
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -233,7 +233,7 @@ panel
 document
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
@@ -275,7 +275,7 @@ goBack
 (
 )
 ;
-await
+yield
 waitUntilElement
 (
 "
@@ -318,7 +318,7 @@ page
 "
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

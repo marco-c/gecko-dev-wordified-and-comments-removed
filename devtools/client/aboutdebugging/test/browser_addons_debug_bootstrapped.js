@@ -91,12 +91,12 @@ jsm
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 new
 Promise
 (
@@ -183,7 +183,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -191,13 +191,13 @@ addons
 "
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
 )
 ;
-await
+yield
 installAddon
 (
 {
@@ -490,7 +490,7 @@ click
 (
 )
 ;
-await
+yield
 onCustomMessage
 ;
 ok
@@ -510,7 +510,7 @@ function
 "
 )
 ;
-await
+yield
 onToolboxClose
 ;
 ok
@@ -523,7 +523,7 @@ closed
 "
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -537,7 +537,7 @@ ADDON_NAME
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

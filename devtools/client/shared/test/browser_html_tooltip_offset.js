@@ -66,12 +66,12 @@ js
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 pushPref
 (
 "
@@ -91,7 +91,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -248,7 +248,7 @@ box1
 "
 )
 ;
-await
+yield
 showTooltip
 (
 tooltip
@@ -350,7 +350,7 @@ box2
 "
 )
 ;
-await
+yield
 showTooltip
 (
 tooltip
@@ -448,7 +448,7 @@ box3
 "
 )
 ;
-await
+yield
 showTooltip
 (
 tooltip
@@ -547,7 +547,7 @@ box4
 "
 )
 ;
-await
+yield
 showTooltip
 (
 tooltip
@@ -636,7 +636,7 @@ expected
 "
 )
 ;
-await
+yield
 hideTooltip
 (
 tooltip

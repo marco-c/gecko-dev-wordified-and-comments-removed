@@ -278,8 +278,8 @@ item
 value
 ;
 }
-async
 function
+*
 openScratchpadWindow
 (
 )
@@ -305,7 +305,7 @@ openScratchpad
 (
 )
 ;
-await
+yield
 once
 (
 win

@@ -82,8 +82,8 @@ FETCHED
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -103,7 +103,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -144,7 +144,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -274,7 +274,7 @@ of
 EXPECTED_INDIVIDUAL_STATES
 )
 {
-await
+yield
 waitUntilState
 (
 store
@@ -417,7 +417,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

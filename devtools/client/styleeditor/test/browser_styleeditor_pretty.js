@@ -222,8 +222,8 @@ expandtab
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -250,7 +250,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -286,7 +286,7 @@ sheet
 let
 editor
 =
-await
+yield
 ui
 .
 editors
@@ -345,7 +345,7 @@ sheet
 "
 )
 ;
-await
+yield
 ui
 .
 selectStyleSheet

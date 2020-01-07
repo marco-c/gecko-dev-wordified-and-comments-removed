@@ -517,8 +517,8 @@ removed
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -549,7 +549,7 @@ URL_ROOT
 +
 JSON_FILE
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -560,7 +560,7 @@ promise
 rawJSON
 prettyJSON
 ;
-await
+yield
 fetch
 (
 new
@@ -633,7 +633,7 @@ json
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -755,7 +755,7 @@ clicked
 }
 )
 ;
-await
+yield
 promise
 .
 then
@@ -799,7 +799,7 @@ json
 "
 )
 ;
-await
+yield
 click
 (
 saveButton
@@ -815,7 +815,7 @@ button
 "
 )
 ;
-await
+yield
 promise
 .
 then
@@ -849,7 +849,7 @@ saved
 }
 )
 ;
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -869,7 +869,7 @@ tab
 "
 )
 ;
-await
+yield
 click
 (
 prettifyButton
@@ -896,7 +896,7 @@ json
 "
 )
 ;
-await
+yield
 click
 (
 saveButton
@@ -912,7 +912,7 @@ button
 "
 )
 ;
-await
+yield
 promise
 .
 then
@@ -951,8 +951,8 @@ saved
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -979,7 +979,7 @@ json
 2
 "
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -1018,7 +1018,7 @@ json
 "
 )
 ;
-await
+yield
 click
 (
 saveButton
@@ -1034,7 +1034,7 @@ button
 "
 )
 ;
-await
+yield
 promise
 .
 then
@@ -1047,8 +1047,8 @@ getFileContents
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -1077,7 +1077,7 @@ json
 3
 "
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -1114,7 +1114,7 @@ index
 null
 )
 ;
-await
+yield
 click
 (
 saveButton
@@ -1130,7 +1130,7 @@ button
 "
 )
 ;
-await
+yield
 promise
 .
 then

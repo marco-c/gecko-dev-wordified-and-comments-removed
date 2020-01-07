@@ -122,8 +122,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -132,7 +132,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -176,13 +176,13 @@ UI_INVERT_CALL_TREE_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -199,7 +199,7 @@ EVENTS
 UI_MEMORY_CALL_TREE_RENDERED
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -211,7 +211,7 @@ calltree
 "
 )
 ;
-await
+yield
 rendered
 ;
 rendered
@@ -234,7 +234,7 @@ UI_INVERT_CALL_TREE_PREF
 false
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -274,7 +274,7 @@ UI_INVERT_CALL_TREE_PREF
 true
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -295,7 +295,7 @@ tree
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

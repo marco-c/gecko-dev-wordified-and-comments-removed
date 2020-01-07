@@ -158,8 +158,12 @@ window
 .
 onload
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -177,7 +181,7 @@ container
 "
 )
 ;
-await
+yield
 renderComponent
 (
 Heap
@@ -303,7 +307,7 @@ message
 "
 )
 ;
-await
+yield
 renderComponent
 (
 Heap
@@ -464,7 +468,7 @@ message
 "
 )
 ;
-await
+yield
 renderComponent
 (
 Heap
@@ -599,6 +603,7 @@ finish
 ;
 }
 }
+)
 ;
 <
 /

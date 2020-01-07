@@ -70,8 +70,8 @@ heapWorker
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -112,7 +112,7 @@ view
 "
 )
 ;
-await
+yield
 dispatch
 (
 refreshDiffing
@@ -128,7 +128,7 @@ viewState
 .
 CENSUS
 :
-await
+yield
 dispatch
 (
 snapshot
@@ -146,7 +146,7 @@ viewState
 .
 DOMINATOR_TREE
 :
-await
+yield
 dispatch
 (
 snapshot
@@ -164,7 +164,7 @@ viewState
 .
 TREE_MAP
 :
-await
+yield
 dispatch
 (
 snapshot
@@ -182,7 +182,7 @@ viewState
 .
 INDIVIDUALS
 :
-await
+yield
 dispatch
 (
 snapshot

@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 DESTROY_NODES_URL
@@ -80,7 +80,7 @@ let
 created
 ]
 =
-await
+yield
 events
 ;
 let
@@ -101,7 +101,7 @@ ev
 id
 )
 ;
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -127,7 +127,7 @@ forceNodeCollection
 (
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -306,7 +306,7 @@ collected
 "
 )
 ;
-await
+yield
 teardown
 (
 target

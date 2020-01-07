@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -73,7 +73,7 @@ delete
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -147,7 +147,7 @@ default
 "
 ]
 ;
-await
+yield
 selectTreeItem
 (
 deletedDb
@@ -247,7 +247,7 @@ join
 }
 )
 ;
-await
+yield
 waitForContextMenu
 (
 contextMenu
@@ -285,7 +285,7 @@ click
 }
 )
 ;
-await
+yield
 eventWait
 ;
 info
@@ -298,7 +298,7 @@ delete
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -331,7 +331,7 @@ default
 ]
 )
 ;
-await
+yield
 finishTests
 (
 )

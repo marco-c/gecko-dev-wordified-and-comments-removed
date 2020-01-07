@@ -167,8 +167,8 @@ args
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -231,8 +231,8 @@ resolve
 (
 dispatch
 (
-async
 function
+*
 (
 )
 {
@@ -257,7 +257,8 @@ getState
 )
 ;
 return
-await
+yield
+*
 task
 (
 .
@@ -299,6 +300,7 @@ error
 )
 ;
 return
+yield
 cache
 .
 get

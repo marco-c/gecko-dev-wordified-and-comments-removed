@@ -1477,12 +1477,12 @@ true
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -1538,7 +1538,7 @@ item
 )
 )
 {
-await
+yield
 selectTreeItem
 (
 item
@@ -1559,7 +1559,7 @@ item
 ]
 )
 {
-await
+yield
 selectTableItem
 (
 item
@@ -1569,7 +1569,7 @@ item
 )
 ;
 }
-await
+yield
 findVariableViewProperties
 (
 item
@@ -1583,7 +1583,7 @@ item
 )
 ;
 }
-await
+yield
 finishTests
 (
 )
