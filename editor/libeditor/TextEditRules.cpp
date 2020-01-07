@@ -3035,16 +3035,10 @@ mTextEditor
 if
 (
 !
-EditorBase
-:
-:
-IsTextNode
-(
 atStartOfSelection
 .
-Container
+IsInTextNode
 (
-)
 )
 &
 &
@@ -3057,7 +3051,7 @@ CanContainTag
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 *
@@ -3133,7 +3127,7 @@ GetIMESelectionStartOffsetIn
 (
 betterInsertionPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -3152,7 +3146,7 @@ Set
 (
 betterInsertionPoint
 .
-Container
+GetContainer
 (
 )
 IMESelectionOffset

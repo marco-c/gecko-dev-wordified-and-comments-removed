@@ -451,7 +451,7 @@ IsEndOfContainer
 {
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 -
@@ -486,7 +486,7 @@ return
 }
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 -
@@ -537,7 +537,7 @@ GetChildAtOffset
 &
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 !
@@ -567,7 +567,7 @@ return
 }
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 -
@@ -635,7 +635,7 @@ error
 ;
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 -

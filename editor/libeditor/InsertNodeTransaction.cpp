@@ -260,7 +260,7 @@ SetToEndOf
 (
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -296,7 +296,7 @@ SetToEndOf
 (
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -336,7 +336,7 @@ error
 ;
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 -
@@ -518,7 +518,7 @@ error
 ;
 mPointToInsert
 .
-Container
+GetContainer
 (
 )
 -

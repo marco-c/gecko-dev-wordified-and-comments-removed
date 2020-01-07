@@ -4261,12 +4261,7 @@ Collapsed
 |
 atStartOfSelection
 .
-Container
-(
-)
--
->
-GetAsText
+GetContainerAsText
 (
 )
 )
@@ -4275,7 +4270,7 @@ nodeToExamine
 =
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 ;
@@ -4285,12 +4280,7 @@ if
 (
 atStartOfSelection
 .
-Container
-(
-)
--
->
-IsHTMLElement
+IsContainerHTMLElement
 (
 nsGkAtoms
 :
@@ -6204,7 +6194,7 @@ GetBlock
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 )
@@ -6557,7 +6547,7 @@ IsTextNode
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -6572,7 +6562,7 @@ CanContainTag
 *
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 *
@@ -6614,7 +6604,7 @@ GetIMESelectionStartOffsetIn
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -6633,7 +6623,7 @@ Set
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 IMESelectionOffset
@@ -6693,7 +6683,7 @@ wsObj
 mHTMLEditor
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 pointToInsert
@@ -6764,7 +6754,7 @@ GetAsDOMNode
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -7036,7 +7026,7 @@ SetToEndOf
 (
 currentPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -7298,7 +7288,7 @@ wsObj
 mHTMLEditor
 currentPoint
 .
-Container
+GetContainer
 (
 )
 currentPoint
@@ -7449,7 +7439,7 @@ SetToEndOf
 (
 currentPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -7637,7 +7627,7 @@ nsRange
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -8080,7 +8070,7 @@ IsModifiableNode
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 )
@@ -8135,7 +8125,7 @@ GetBlock
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 host
@@ -8266,7 +8256,7 @@ StandardBreakImpl
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 atStartOfSelection
@@ -8425,7 +8415,7 @@ GetBlock
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 host
@@ -8462,7 +8452,7 @@ StandardBreakImpl
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 atStartOfSelection
@@ -8570,7 +8560,7 @@ listItem
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 atStartOfSelection
@@ -8609,7 +8599,7 @@ blockParent
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 atStartOfSelection
@@ -8749,7 +8739,7 @@ StandardBreakImpl
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 atStartOfSelection
@@ -9029,7 +9019,7 @@ node
 =
 splitPoint
 .
-Container
+GetContainer
 (
 )
 ;
@@ -9710,7 +9700,7 @@ CreateBR
 (
 pointToInsertBrNode
 .
-Container
+GetContainer
 (
 )
 pointToInsertBrNode
@@ -9781,7 +9771,7 @@ selNode
 =
 atBrNode
 .
-Container
+GetContainer
 (
 )
 ;
@@ -14381,7 +14371,7 @@ WSRunObject
 kAfterBlock
 atRightBlockChild
 .
-Container
+GetContainer
 (
 )
 atRightBlockChild
@@ -14416,7 +14406,7 @@ rightBlock
 =
 atRightBlockChild
 .
-Container
+GetContainer
 (
 )
 )
@@ -14425,12 +14415,7 @@ if
 (
 atRightBlockChild
 .
-Container
-(
-)
--
->
-IsElement
+GetContainerAsElement
 (
 )
 )
@@ -14439,12 +14424,7 @@ rightBlock
 =
 atRightBlockChild
 .
-Container
-(
-)
--
->
-AsElement
+GetContainerAsElement
 (
 )
 ;
@@ -14458,7 +14438,7 @@ NS_WARN_IF
 !
 atRightBlockChild
 .
-Container
+GetContainer
 (
 )
 -
@@ -14480,7 +14460,7 @@ rightBlock
 =
 atRightBlockChild
 .
-Container
+GetContainer
 (
 )
 -
@@ -14729,7 +14709,7 @@ leftBlock
 =
 leftBlockChild
 .
-Container
+GetContainer
 (
 )
 )
@@ -14738,12 +14718,7 @@ if
 (
 leftBlockChild
 .
-Container
-(
-)
--
->
-IsElement
+GetContainerAsElement
 (
 )
 )
@@ -14752,12 +14727,7 @@ leftBlock
 =
 leftBlockChild
 .
-Container
-(
-)
--
->
-AsElement
+GetContainerAsElement
 (
 )
 ;
@@ -14771,7 +14741,7 @@ NS_WARN_IF
 !
 leftBlockChild
 .
-Container
+GetContainer
 (
 )
 -
@@ -14793,7 +14763,7 @@ leftBlock
 =
 leftBlockChild
 .
-Container
+GetContainer
 (
 )
 -
@@ -14957,7 +14927,7 @@ previousContentParent
 =
 previousContent
 .
-Container
+GetContainer
 (
 )
 ;
@@ -15063,12 +15033,7 @@ MoveBlock
 *
 previousContent
 .
-Container
-(
-)
--
->
-AsElement
+GetContainerAsElement
 (
 )
 *
@@ -16575,7 +16540,7 @@ CanContainTag
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 listType
@@ -17062,12 +17027,7 @@ if
 !
 atCurNode
 .
-Container
-(
-)
--
->
-IsHTMLElement
+IsContainerHTMLElement
 (
 listType
 )
@@ -17098,12 +17058,7 @@ NS_WARN_IF
 !
 atCurNode
 .
-Container
-(
-)
--
->
-IsContent
+GetContainerAsContent
 (
 )
 )
@@ -17169,7 +17124,7 @@ atParentOfCurNode
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -17257,12 +17212,7 @@ curList
 =
 atCurNode
 .
-Container
-(
-)
--
->
-AsElement
+GetContainerAsElement
 (
 )
 ;
@@ -17272,7 +17222,7 @@ if
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 !
@@ -18285,7 +18235,7 @@ GetBlock
 *
 pointToInsertBlock
 .
-Container
+GetContainer
 (
 )
 )
@@ -18437,7 +18387,7 @@ CreateBR
 (
 pointToInsertBrNode
 .
-Container
+GetContainer
 (
 )
 pointToInsertBrNode
@@ -19505,7 +19455,7 @@ IsList
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -19537,7 +19487,7 @@ sibling
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -19567,7 +19517,7 @@ NameAtom
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -19647,7 +19597,7 @@ sibling
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -19677,7 +19627,7 @@ NameAtom
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -19775,7 +19725,7 @@ containerName
 =
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -19932,7 +19882,7 @@ CanContainTag
 *
 atCurNode
 .
-Container
+GetContainer
 (
 )
 *
@@ -20503,7 +20453,7 @@ IsList
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -20535,7 +20485,7 @@ sibling
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -20565,7 +20515,7 @@ NameAtom
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -20645,7 +20595,7 @@ sibling
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -20675,7 +20625,7 @@ NameAtom
 &
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -20773,7 +20723,7 @@ containerName
 =
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -20962,7 +20912,7 @@ containerName
 =
 atListItem
 .
-Container
+GetContainer
 (
 )
 -
@@ -21091,7 +21041,7 @@ CanContainTag
 *
 atCurNode
 .
-Container
+GetContainer
 (
 )
 *
@@ -23380,7 +23330,7 @@ node
 =
 splitPoint
 .
-Container
+GetContainer
 (
 )
 ;
@@ -24419,7 +24369,7 @@ IsTableElement
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -24434,7 +24384,7 @@ IsTableCellOrCaption
 *
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -24448,7 +24398,7 @@ IsList
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -24564,7 +24514,7 @@ IsList
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -24617,7 +24567,7 @@ CanContainTag
 *
 atCurNode
 .
-Container
+GetContainer
 (
 )
 *
@@ -27733,17 +27683,8 @@ if
 (
 point
 .
-Container
+IsInTextNode
 (
-)
--
->
-IsNodeOfType
-(
-nsINode
-:
-:
-eTEXT
 )
 )
 {
@@ -27752,7 +27693,7 @@ if
 !
 point
 .
-Container
+GetContainer
 (
 )
 -
@@ -27772,7 +27713,7 @@ Set
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -27876,12 +27817,7 @@ nearNode
 !
 point
 .
-Container
-(
-)
--
->
-IsHTMLElement
+IsContainerHTMLElement
 (
 nsGkAtoms
 :
@@ -27892,7 +27828,7 @@ body
 &
 point
 .
-Container
+GetContainer
 (
 )
 -
@@ -27915,12 +27851,7 @@ outdent
 &
 point
 .
-Container
-(
-)
--
->
-IsHTMLElement
+IsContainerHTMLElement
 (
 nsGkAtoms
 :
@@ -27980,7 +27911,7 @@ IsDescendantOfEditorRoot
 (
 point
 .
-Container
+GetContainer
 (
 )
 -
@@ -28003,7 +27934,7 @@ IsDescendantOfEditorRoot
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -28019,7 +27950,7 @@ Set
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -28047,17 +27978,8 @@ if
 (
 point
 .
-Container
+IsInTextNode
 (
-)
--
->
-IsNodeOfType
-(
-nsINode
-:
-:
-eTEXT
 )
 )
 {
@@ -28066,7 +27988,7 @@ if
 !
 point
 .
-Container
+GetContainer
 (
 )
 -
@@ -28086,7 +28008,7 @@ Set
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -28344,12 +28266,7 @@ nearNode
 !
 point
 .
-Container
-(
-)
--
->
-IsHTMLElement
+IsContainerHTMLElement
 (
 nsGkAtoms
 :
@@ -28360,7 +28277,7 @@ body
 &
 point
 .
-Container
+GetContainer
 (
 )
 -
@@ -28380,7 +28297,7 @@ IsDescendantOfEditorRoot
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -28394,7 +28311,7 @@ IsDescendantOfEditorRoot
 (
 point
 .
-Container
+GetContainer
 (
 )
 -
@@ -28414,7 +28331,7 @@ Set
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -29080,17 +28997,8 @@ IsSet
 !
 atEnd
 .
-Container
+IsInTextNode
 (
-)
--
->
-IsNodeOfType
-(
-nsINode
-:
-:
-eTEXT
 )
 )
 {
@@ -29162,7 +29070,7 @@ atContainerOfSplitNode
 (
 atEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -31046,7 +30954,7 @@ mEndContainer
 =
 splitPointAtEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -31176,7 +31084,7 @@ mStartContainer
 =
 splitPointAtStart
 .
-Container
+GetContainer
 (
 )
 ;
@@ -31404,7 +31312,7 @@ AsContent
 )
 atNextNode
 .
-Container
+GetContainer
 (
 )
 atNextNode
@@ -31662,7 +31570,7 @@ nsRange
 (
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -32698,7 +32606,7 @@ doesCRCreateNewP
 &
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 =
@@ -32715,16 +32623,10 @@ nullptr
 else
 if
 (
-EditorBase
-:
-:
-IsTextNode
-(
 atStartOfSelection
 .
-Container
+IsInTextNode
 (
-)
 )
 )
 {
@@ -32746,7 +32648,7 @@ GetPriorHTMLSibling
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 )
@@ -32785,7 +32687,7 @@ Set
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 )
@@ -32815,7 +32717,7 @@ GetNextHTMLSibling
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 )
@@ -32854,7 +32756,7 @@ Set
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 )
@@ -32961,7 +32863,7 @@ Set
 (
 pointToSplitParentDivOrP
 .
-Container
+GetContainer
 (
 )
 )
@@ -33175,7 +33077,7 @@ CreateBR
 (
 pointToInsertBR
 .
-Container
+GetContainer
 (
 )
 pointToInsertBR
@@ -33320,7 +33222,7 @@ selNode
 =
 aStartOfRightNode
 .
-Container
+GetContainer
 (
 )
 ;
@@ -33846,7 +33748,7 @@ IsList
 (
 atNextSiblingOfLeftList
 .
-Container
+GetContainer
 (
 )
 )
@@ -33863,7 +33765,7 @@ MoveNode
 aListItem
 atNextSiblingOfLeftList
 .
-Container
+GetContainer
 (
 )
 atNextSiblingOfLeftList
@@ -36085,7 +35987,7 @@ NS_WARN_IF
 (
 aStartOfDeepestRightNode
 .
-Container
+GetContainer
 (
 )
 !
@@ -36102,7 +36004,7 @@ IsDescendantOf
 *
 aStartOfDeepestRightNode
 .
-Container
+GetContainer
 (
 )
 *
@@ -36139,7 +36041,7 @@ Set
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -36177,7 +36079,7 @@ CanContainTag
 *
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 aTag
@@ -36201,14 +36103,14 @@ if
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 =
 =
 aStartOfDeepestRightNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -38345,7 +38247,7 @@ IsEditable
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -38357,7 +38259,7 @@ Set
 (
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -38399,7 +38301,7 @@ GetBlock
 *
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -38465,7 +38367,7 @@ CanContainTag
 *
 point
 .
-Container
+GetContainer
 (
 )
 *
@@ -38504,7 +38406,7 @@ if
 (
 point
 .
-Container
+GetContainer
 (
 )
 =
@@ -38522,7 +38424,7 @@ CreateMozBR
 *
 point
 .
-Container
+GetContainer
 (
 )
 point
@@ -38536,16 +38438,10 @@ Offset
 }
 if
 (
-EditorBase
-:
-:
-IsTextNode
-(
 point
 .
-Container
+IsInTextNode
 (
-)
 )
 )
 {
@@ -38600,7 +38496,7 @@ GetBlock
 *
 point
 .
-Container
+GetContainer
 (
 )
 )
@@ -38675,7 +38571,7 @@ CreateMozBR
 *
 point
 .
-Container
+GetContainer
 (
 )
 point
@@ -39231,7 +39127,7 @@ InDifferentTableElements
 nearNode
 aPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -40634,7 +40530,7 @@ MoveNode
 aListItem
 pointToInsertListItem
 .
-Container
+GetContainer
 (
 )
 pointToInsertListItem
@@ -40660,7 +40556,7 @@ IsList
 (
 pointToInsertListItem
 .
-Container
+GetContainer
 (
 )
 )
@@ -43988,7 +43884,7 @@ IsList
 (
 atCurNode
 .
-Container
+GetContainer
 (
 )
 )
@@ -44033,7 +43929,7 @@ containerName
 =
 atCurNode
 .
-Container
+GetContainer
 (
 )
 -
@@ -44253,7 +44149,7 @@ containerName
 =
 atListItem
 .
-Container
+GetContainer
 (
 )
 -
@@ -44312,7 +44208,7 @@ atListItemParent
 (
 atListItem
 .
-Container
+GetContainer
 (
 )
 )
