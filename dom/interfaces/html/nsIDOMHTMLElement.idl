@@ -234,11 +234,6 @@ nsIDOMHTMLElement
 :
 nsIDOMElement
 {
-readonly
-attribute
-boolean
-spellcheck
-;
 /
 /
 CSSOM
