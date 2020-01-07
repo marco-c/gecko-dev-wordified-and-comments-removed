@@ -603,6 +603,9 @@ CLANG_LDFLAGS
 clang
 .
 lib
+clangASTMatchers
+.
+lib
 "
 else
 CLANG_LDFLAGS
