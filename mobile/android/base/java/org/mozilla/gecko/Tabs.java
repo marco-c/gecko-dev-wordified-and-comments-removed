@@ -5291,6 +5291,7 @@ LOADURL_NONE
 )
 ;
 }
+RobocopTarget
 public
 Tab
 addPrivateTab

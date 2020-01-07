@@ -279,6 +279,14 @@ string
 .
 new_tab
 )
+NEW_PRIVATE_TAB
+(
+R
+.
+string
+.
+new_private_tab
+)
 PAGE
 (
 R
