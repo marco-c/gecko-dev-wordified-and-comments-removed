@@ -8037,7 +8037,7 @@ GetContent
 )
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
