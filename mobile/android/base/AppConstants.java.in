@@ -1009,6 +1009,16 @@ public
 static
 final
 String
+MOZ_APP_VERSION_DISPLAY
+=
+"
+MOZ_APP_VERSION_DISPLAY
+"
+;
+public
+static
+final
+String
 MOZ_APP_DISPLAYNAME
 =
 "

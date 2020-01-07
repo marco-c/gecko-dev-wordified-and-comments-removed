@@ -401,6 +401,10 @@ MOZ_APP_VERSION
 '
                 
 '
+MOZ_APP_VERSION_DISPLAY
+'
+                
+'
 MOZ_CHILD_PROCESS_NAME
 '
                 
