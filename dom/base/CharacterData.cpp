@@ -213,6 +213,13 @@ h
 #
 include
 "
+nsWindowSizes
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h

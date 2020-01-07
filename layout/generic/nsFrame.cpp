@@ -583,6 +583,13 @@ h
 #
 include
 "
+nsWindowSizes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AsyncEventDispatcher

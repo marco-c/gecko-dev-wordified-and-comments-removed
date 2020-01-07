@@ -563,6 +563,13 @@ nsCSSPseudoElements
 h
 "
 #
+include
+"
+nsWindowSizes
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #

@@ -67,6 +67,13 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+nsWindowSizes
+.
+h
+"
 NS_IMPL_NS_NEW_HTML_ELEMENT
 (
 Area
