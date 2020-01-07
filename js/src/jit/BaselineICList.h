@@ -105,6 +105,12 @@ ToNumber_Fallback
 \
 _
 (
+UnaryArith_Fallback
+)
+\
+\
+_
+(
 Call_Fallback
 )
 \
