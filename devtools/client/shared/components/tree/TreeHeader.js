@@ -365,6 +365,11 @@ className
 "
 treeHeaderCellBox
 "
+role
+:
+"
+presentation
+"
 }
 col
 .
