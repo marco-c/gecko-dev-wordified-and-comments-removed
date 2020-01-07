@@ -6299,13 +6299,6 @@ ca
 &
 certmgr
 .
-tab
-.
-orphan2
-;
-&
-certmgr
-.
 mine2
 ;
 &
@@ -6322,11 +6315,6 @@ websites3
 certmgr
 .
 cas2
-;
-&
-certmgr
-.
-orphans2
 ;
 &
 certmgr
