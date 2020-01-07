@@ -207,6 +207,15 @@ nsFileStreamBase
 (
 )
 {
+mBehaviorFlags
+&
+=
+~
+nsIFileInputStream
+:
+:
+REOPEN_ON_REWIND
+;
 Close
 (
 )
