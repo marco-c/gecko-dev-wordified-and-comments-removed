@@ -1791,6 +1791,15 @@ transceiver
 ;
 if
 (
+!
+mTransmitPipeline
+)
+{
+return
+;
+}
+if
+(
 mJsepTransceiver
 -
 >
