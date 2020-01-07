@@ -87,6 +87,13 @@ nsAutoPtr
 h
 "
 #
+include
+"
+Tracing
+.
+h
+"
+#
 ifdef
 FF
 #
@@ -5916,6 +5923,10 @@ uint32_t
 aChannels
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 if
 (
 PassThrough

@@ -5713,6 +5713,10 @@ RunMessagesInQueue
 (
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 MOZ_ASSERT
 (
 OnGraphThread
@@ -5806,6 +5810,10 @@ GraphTime
 aEndBlockingDecisions
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 MOZ_ASSERT
 (
 OnGraphThread
@@ -6342,6 +6350,10 @@ Process
 (
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 MOZ_ASSERT
 (
 OnGraphThread
@@ -6824,6 +6836,10 @@ GraphTime
 aStateEnd
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 mLifecycleState
@@ -7568,6 +7584,10 @@ Run
 )
 override
 {
+TRACE
+(
+)
+;
 if
 (
 mGraph
@@ -13284,6 +13304,10 @@ NotifyPullPromise
 aPromises
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 MutexAutoLock
 lock
 (
