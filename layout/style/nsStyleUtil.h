@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsTArrayForwardDeclare
 .
 h
