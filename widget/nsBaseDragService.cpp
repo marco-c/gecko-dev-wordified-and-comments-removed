@@ -2086,7 +2086,7 @@ document
 content
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
