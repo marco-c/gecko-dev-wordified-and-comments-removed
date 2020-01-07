@@ -1310,6 +1310,8 @@ macosx
 windows
 .
 *
+/
+opt
 :
 2
 default
