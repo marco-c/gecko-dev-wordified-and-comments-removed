@@ -3881,6 +3881,17 @@ restart_on_unexpected
         
 if
 (
+not
+file_result
+.
+status
+=
+=
+"
+CRASH
+"
+and
+            
 self
 .
 pause_after_test
