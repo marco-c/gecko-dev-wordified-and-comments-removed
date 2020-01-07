@@ -383,6 +383,13 @@ value
 -
 slider
 "
+name
+:
+this
+.
+props
+.
+name
 title
 :
 this
