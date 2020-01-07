@@ -350,7 +350,7 @@ log
 "
 0
 .
-3
+4
 "
 malloc_size_of
 =
@@ -705,7 +705,7 @@ log
 "
 0
 .
-3
+4
 "
 bindgen
 =

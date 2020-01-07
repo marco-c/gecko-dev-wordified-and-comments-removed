@@ -20,7 +20,7 @@ use
 env_logger
 :
 :
-LogBuilder
+Builder
 ;
 use
 malloc_size_of
@@ -2011,7 +2011,7 @@ let
 mut
 builder
 =
-LogBuilder
+Builder
 :
 :
 new
@@ -2067,10 +2067,6 @@ v
 init
 (
 )
-.
-unwrap
-(
-)
 _
 =
 >
@@ -2082,10 +2078,6 @@ default_level
 )
 .
 init
-(
-)
-.
-unwrap
 (
 )
 }

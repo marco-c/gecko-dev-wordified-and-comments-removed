@@ -132,7 +132,7 @@ log_enabled
 log
 :
 :
-LogLevel
+Level
 :
 :
 Info

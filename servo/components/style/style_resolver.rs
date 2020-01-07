@@ -33,7 +33,7 @@ use
 log
 :
 :
-LogLevel
+Level
 :
 :
 Trace
