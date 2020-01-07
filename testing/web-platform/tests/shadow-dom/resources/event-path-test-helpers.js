@@ -128,15 +128,6 @@ label
 null
 )
 ;
-if
-(
-!
-event
-.
-composedPath
-)
-return
-;
 pathAtTargets
 .
 push

@@ -40,6 +40,14 @@ EventTarget
 ?
 currentTarget
 ;
+sequence
+<
+EventTarget
+>
+composedPath
+(
+)
+;
 const
 unsigned
 short
@@ -107,6 +115,11 @@ readonly
 attribute
 boolean
 defaultPrevented
+;
+readonly
+attribute
+boolean
+composed
 ;
 [
 Unforgeable
