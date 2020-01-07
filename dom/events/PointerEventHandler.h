@@ -256,9 +256,9 @@ aEvent
 )
 ;
 static
-nsIFrame
+nsIContent
 *
-GetPointerCapturingFrame
+GetPointerCapturingContent
 (
 WidgetGUIEvent
 *
