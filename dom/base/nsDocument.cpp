@@ -13665,6 +13665,9 @@ GetLoadInfo
 if
 (
 loadInfo
+&
+&
+loadInfo
 -
 >
 GetAllowDocumentToBeAgnosticToCSP
