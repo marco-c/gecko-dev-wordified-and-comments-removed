@@ -2144,6 +2144,8 @@ lastStubSegmentIndex_
 bool
 createMany
 (
+HasGcTypes
+gcTypesEnabled
 const
 Uint32Vector
 &
@@ -2214,6 +2216,8 @@ codeTier
 bool
 createTier2
 (
+HasGcTypes
+gcTypesEnabled
 const
 Uint32Vector
 &
