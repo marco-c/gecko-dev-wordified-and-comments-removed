@@ -13,6 +13,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -33,6 +35,8 @@ test
 platform
 :
 android
+-
+em
 -
 4
 .
@@ -55,6 +59,8 @@ androidx86
 .
 py
 android
+-
+em
 .
 *
 :
@@ -231,6 +237,8 @@ debug
 10
 android
 -
+em
+-
 4
 .
 2
@@ -241,6 +249,8 @@ opt
 :
 6
 android
+-
+em
 -
 4
 .
@@ -288,6 +298,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -308,6 +320,8 @@ test
 platform
 :
 android
+-
+em
 -
 4
 .

@@ -49,6 +49,8 @@ platform
 :
 android
 -
+em
+-
 4
 .
 2
@@ -71,6 +73,8 @@ androidx86
 py
 android
 -
+em
+-
 7
 .
 0
@@ -92,6 +96,8 @@ androidx86_7_0
 .
 py
 android
+-
+em
 .
 *
 :
@@ -179,6 +185,8 @@ platform
 :
 android
 -
+em
+-
 4
 .
 3
@@ -212,6 +220,8 @@ platform
 :
 android
 -
+em
+-
 4
 .
 2
@@ -234,6 +244,8 @@ androidx86
 py
 android
 -
+em
+-
 7
 .
 0
@@ -255,6 +267,8 @@ androidx86_7_0
 .
 py
 android
+-
+em
 .
 *
 :
@@ -319,6 +333,8 @@ platform
 #
 android
 -
+em
+-
 4
 .
 3
@@ -335,6 +351,8 @@ debug
 not
 run
 android
+-
+em
 -
 4
 .
@@ -506,6 +524,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -617,6 +637,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -637,6 +659,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -653,6 +677,8 @@ androidarm_4_3
 .
 py
 android
+-
+em
 -
 7
 .
@@ -770,6 +796,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -881,6 +909,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -901,6 +931,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -917,6 +949,8 @@ androidarm_4_3
 .
 py
 android
+-
+em
 -
 7
 .
@@ -1075,6 +1109,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -1095,6 +1131,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -1294,6 +1332,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -1314,6 +1354,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :

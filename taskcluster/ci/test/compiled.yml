@@ -16,6 +16,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -36,6 +38,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -113,6 +117,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -300,6 +306,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -345,6 +353,8 @@ macosx
 1
 android
 -
+em
+-
 4
 .
 3
@@ -359,6 +369,8 @@ debug
 :
 20
 android
+-
+em
 .
 *
 :

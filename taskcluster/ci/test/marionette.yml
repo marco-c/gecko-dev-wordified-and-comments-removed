@@ -16,6 +16,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -36,6 +38,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -116,6 +120,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -134,6 +140,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -150,6 +158,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
@@ -166,6 +176,8 @@ test
 platform
 :
 android
+-
+em
 .
 *
 :
