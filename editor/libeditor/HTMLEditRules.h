@@ -771,6 +771,7 @@ EDirection
 aAction
 )
 ;
+MOZ_MUST_USE
 EditActionResult
 TryToJoinBlocksWithTransaction
 (
