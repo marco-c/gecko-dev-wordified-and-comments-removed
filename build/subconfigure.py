@@ -1854,6 +1854,8 @@ srcdir
 '
 ]
 '
+old
+-
 configure
 '
 )
