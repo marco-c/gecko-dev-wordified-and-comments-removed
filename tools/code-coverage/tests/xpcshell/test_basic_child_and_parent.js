@@ -22,6 +22,7 @@ test
 '
 ;
 "
+async
 function
 (
 )
@@ -53,12 +54,14 @@ Ci
 nsICodeCoverage
 )
 ;
+await
 codeCoverage
 .
 dumpCounters
 (
 )
 ;
+await
 codeCoverage
 .
 resetCounters
