@@ -368,7 +368,7 @@ GetAuthorStyleDisabled
 )
 ;
 }
-nsresult
+void
 StyleSetHandle
 :
 :

@@ -1534,8 +1534,12 @@ GetAuthorStyleDisabled
 (
 )
 const
+{
+return
+mAuthorStyleDisabled
 ;
-nsresult
+}
+void
 SetAuthorStyleDisabled
 (
 bool
@@ -1883,7 +1887,7 @@ SheetType
 aType
 )
 ;
-nsresult
+void
 GatherRuleProcessors
 (
 mozilla
