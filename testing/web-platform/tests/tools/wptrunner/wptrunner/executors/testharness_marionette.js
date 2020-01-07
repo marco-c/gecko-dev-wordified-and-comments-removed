@@ -1,7 +1,5 @@
 window
 .
-wrappedJSObject
-.
 timeout_multiplier
 =
 %
@@ -12,8 +10,6 @@ d
 ;
 window
 .
-wrappedJSObject
-.
 explicit_timeout
 =
 %
@@ -23,8 +19,6 @@ explicit_timeout
 d
 ;
 window
-.
-wrappedJSObject
 .
 message_queue
 =
@@ -32,8 +26,6 @@ message_queue
 ]
 ;
 window
-.
-wrappedJSObject
 .
 setMessageListener
 =
@@ -44,15 +36,11 @@ func
 {
 window
 .
-wrappedJSObject
-.
 current_listener
 =
 func
 ;
 window
-.
-wrappedJSObject
 .
 addEventListener
 (
@@ -67,8 +55,6 @@ false
 ;
 window
 .
-wrappedJSObject
-.
 setMessageListener
 (
 function
@@ -77,8 +63,6 @@ event
 )
 {
 window
-.
-wrappedJSObject
 .
 message_queue
 .
@@ -92,13 +76,9 @@ event
 ;
 window
 .
-wrappedJSObject
-.
 win
 =
 window
-.
-wrappedJSObject
 .
 open
 (
@@ -120,8 +100,6 @@ s
 ;
 window
 .
-wrappedJSObject
-.
 timer
 =
 setTimeout
@@ -132,8 +110,6 @@ function
 {
 window
 .
-wrappedJSObject
-.
 win
 .
 timeout
@@ -141,8 +117,6 @@ timeout
 )
 ;
 window
-.
-wrappedJSObject
 .
 win
 .

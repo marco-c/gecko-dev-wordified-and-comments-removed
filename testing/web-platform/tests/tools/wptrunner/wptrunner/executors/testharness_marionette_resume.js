@@ -108,8 +108,6 @@ clearTimeout
 (
 window
 .
-wrappedJSObject
-.
 timer
 )
 ;
@@ -122,8 +120,6 @@ action
 :
 window
 .
-wrappedJSObject
-.
 setMessageListener
 (
 function
@@ -132,8 +128,6 @@ event
 )
 {
 window
-.
-wrappedJSObject
 .
 message_queue
 .
@@ -176,8 +170,6 @@ payload
 }
 window
 .
-wrappedJSObject
-.
 removeEventListener
 (
 "
@@ -185,16 +177,12 @@ message
 "
 window
 .
-wrappedJSObject
-.
 current_listener
 )
 ;
 if
 (
 window
-.
-wrappedJSObject
 .
 message_queue
 .
@@ -205,8 +193,6 @@ var
 next
 =
 window
-.
-wrappedJSObject
 .
 message_queue
 .
@@ -224,8 +210,6 @@ else
 {
 window
 .
-wrappedJSObject
-.
 addEventListener
 (
 "
@@ -238,8 +222,6 @@ event
 )
 {
 window
-.
-wrappedJSObject
 .
 removeEventListener
 (
