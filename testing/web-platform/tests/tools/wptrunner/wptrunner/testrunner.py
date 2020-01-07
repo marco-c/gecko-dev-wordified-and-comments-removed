@@ -650,8 +650,6 @@ self
 .
 executor
 .
-protocol
-.
 wait
 (
 )

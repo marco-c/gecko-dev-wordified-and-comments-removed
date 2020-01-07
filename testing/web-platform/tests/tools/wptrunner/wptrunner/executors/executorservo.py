@@ -41,7 +41,7 @@ import
 (
 ExecutorException
                    
-Protocol
+ConnectionlessProtocol
                    
 RefTestImplementation
                    
@@ -50,6 +50,7 @@ testharness_result_converter
 reftest_result_converter
                    
 WdspecExecutor
+                   
 WebDriverProtocol
 )
 from
@@ -215,7 +216,7 @@ self
 .
 protocol
 =
-Protocol
+ConnectionlessProtocol
 (
 self
 browser
@@ -1055,7 +1056,7 @@ self
 .
 protocol
 =
-Protocol
+ConnectionlessProtocol
 (
 self
 browser

@@ -145,6 +145,10 @@ data
 ;
 break
 ;
+default
+:
+return
+;
 }
 callback
 (
