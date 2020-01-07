@@ -814,15 +814,9 @@ Nothing
 (
 )
 ;
-current_
-+
-=
-byteLen
-;
-return
-true
-;
 }
+else
+{
 out
 .
 emplace
@@ -863,6 +857,7 @@ current_
 byteLen
 )
 ;
+}
 current_
 +
 =
