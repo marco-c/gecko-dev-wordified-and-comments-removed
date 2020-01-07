@@ -249,13 +249,6 @@ xul
 :
 menu
 "
-role
-=
-"
-xul
-:
-menulist
-"
 extends
 =
 "

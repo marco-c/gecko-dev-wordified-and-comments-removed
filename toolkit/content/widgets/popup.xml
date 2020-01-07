@@ -3821,13 +3821,6 @@ id
 "
 tooltip
 "
-role
-=
-"
-xul
-:
-tooltip
-"
 extends
 =
 "

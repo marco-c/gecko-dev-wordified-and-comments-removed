@@ -2966,13 +2966,6 @@ id
 "
 notification
 "
-role
-=
-"
-xul
-:
-alert
-"
 >
 <
 content

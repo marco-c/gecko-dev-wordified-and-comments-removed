@@ -145,13 +145,6 @@ id
 "
 radiogroup
 "
-role
-=
-"
-xul
-:
-radiogroup
-"
 extends
 =
 "
@@ -3024,13 +3017,6 @@ id
 =
 "
 radio
-"
-role
-=
-"
-xul
-:
-radiobutton
 "
 extends
 =

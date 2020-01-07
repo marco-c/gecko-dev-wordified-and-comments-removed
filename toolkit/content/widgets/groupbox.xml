@@ -185,13 +185,6 @@ id
 "
 groupbox
 "
-role
-=
-"
-xul
-:
-groupbox
-"
 extends
 =
 "

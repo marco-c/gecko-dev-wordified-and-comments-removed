@@ -145,13 +145,6 @@ id
 "
 progressmeter
 "
-role
-=
-"
-xul
-:
-progressmeter
-"
 >
 <
 resources

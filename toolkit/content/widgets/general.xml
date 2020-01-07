@@ -1163,13 +1163,6 @@ xul
 :
 button
 "
-role
-=
-"
-xul
-:
-dropmarker
-"
 >
 <
 resources

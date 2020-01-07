@@ -145,13 +145,6 @@ id
 "
 checkbox
 "
-role
-=
-"
-xul
-:
-checkbox
-"
 extends
 =
 "
