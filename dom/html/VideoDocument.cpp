@@ -516,6 +516,9 @@ element
 SetAutoplay
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 element
@@ -524,6 +527,9 @@ element
 SetControls
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 element
