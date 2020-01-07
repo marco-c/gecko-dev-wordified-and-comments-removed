@@ -780,6 +780,11 @@ bool
 mDestroying
 ;
 bool
+mSyncingAttributesToWidget
+=
+false
+;
+bool
 mRegistered
 ;
 uint32_t
