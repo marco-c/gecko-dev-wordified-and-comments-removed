@@ -10151,6 +10151,17 @@ const
 ;
 inline
 bool
+HasPerspective
+(
+const
+nsIFrame
+*
+aContextFrame
+)
+const
+;
+inline
+bool
 IsFixedPosContainingBlock
 (
 const

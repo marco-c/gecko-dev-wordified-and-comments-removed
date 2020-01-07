@@ -2436,7 +2436,16 @@ HasPerspective
 (
 )
 const
+{
+return
+mOuter
+-
+>
+ChildrenHavePerspective
+(
+)
 ;
+}
 bool
 HasBgAttachmentLocal
 (
