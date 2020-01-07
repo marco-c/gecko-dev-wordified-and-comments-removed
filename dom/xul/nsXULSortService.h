@@ -64,14 +64,6 @@ MOZ_INIT_OUTSIDE_CTOR
 bool
 invertSort
 ;
-MOZ_INIT_OUTSIDE_CTOR
-bool
-inbetweenSeparatorSort
-;
-MOZ_INIT_OUTSIDE_CTOR
-bool
-sortStaticsLast
-;
 uint32_t
 sortHints
 ;
