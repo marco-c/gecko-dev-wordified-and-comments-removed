@@ -2273,10 +2273,10 @@ GetCurrentScrollParentId
 bool
 hasDocumentLevelListenersForApzAwareEvents
 =
-aBuilder
--
->
-IsBuildingLayerEventRegions
+nsDisplayListBuilder
+:
+:
+LayerEventRegionsEnabled
 (
 )
 &
