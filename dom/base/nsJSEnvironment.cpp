@@ -1033,7 +1033,12 @@ win
 win
 -
 >
-InnerObjectsFreed
+AsGlobal
+(
+)
+-
+>
+IsDying
 (
 )
 )

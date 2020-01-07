@@ -622,16 +622,6 @@ true
 ;
 }
 bool
-InnerObjectsFreed
-(
-)
-const
-{
-return
-mInnerObjectsFreed
-;
-}
-bool
 IsSecureContext
 (
 )
@@ -1713,9 +1703,6 @@ mMayHaveMouseEnterLeaveEventListener
 ;
 bool
 mMayHavePointerEnterLeaveEventListener
-;
-bool
-mInnerObjectsFreed
 ;
 bool
 mAudioCaptured
