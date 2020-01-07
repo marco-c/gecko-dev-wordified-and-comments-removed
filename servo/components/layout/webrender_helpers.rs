@@ -1949,17 +1949,6 @@ is_backface_visible
 :
 true
 tag
-edge_aa_segment_mask
-:
-webrender_api
-:
-:
-EdgeAaSegmentMask
-:
-:
-empty
-(
-)
 }
 }
 fn
