@@ -110,6 +110,11 @@ TestLocaleServiceNegotiate
 cpp
 '
 '
+TestMozLocale
+.
+cpp
+'
+'
 TestOSPreferences
 .
 cpp
