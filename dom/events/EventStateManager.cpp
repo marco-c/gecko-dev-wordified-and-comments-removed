@@ -3212,10 +3212,6 @@ KillClickHoldTimer
 )
 ;
 }
-mInTouchDrag
-=
-false
-;
 StopTrackingDragGesture
 (
 )
@@ -22620,7 +22616,7 @@ mHoverContent
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsFlattenedTreeDescendantOf
 (
 mHoverContent
 aContent
@@ -22632,7 +22628,7 @@ SetContentState
 aContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 NS_EVENT_STATE_HOVER
@@ -22647,7 +22643,7 @@ mActiveContent
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsFlattenedTreeDescendantOf
 (
 mActiveContent
 aContent
@@ -22659,7 +22655,7 @@ SetContentState
 aContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 NS_EVENT_STATE_ACTIVE
@@ -22690,7 +22686,7 @@ OwnerDoc
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsFlattenedTreeDescendantOf
 (
 sDragOverContent
 aContent
