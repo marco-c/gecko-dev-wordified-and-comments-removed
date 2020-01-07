@@ -9,7 +9,16 @@ include
 "
 mozilla
 /
-EditorBase
+EditAction
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EditorDOMPoint
 .
 h
 "

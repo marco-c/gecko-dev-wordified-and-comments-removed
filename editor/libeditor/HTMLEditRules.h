@@ -129,6 +129,12 @@ SplitNodeResult
 class
 TextEditor
 ;
+enum
+class
+EditAction
+:
+int32_t
+;
 namespace
 dom
 {

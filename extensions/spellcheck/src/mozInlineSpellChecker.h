@@ -102,6 +102,16 @@ UpdateCurrentDictionaryCallback
 class
 mozInlineSpellResume
 ;
+namespace
+mozilla
+{
+enum
+class
+EditAction
+:
+int32_t
+;
+}
 class
 mozInlineSpellStatus
 {
@@ -118,6 +128,9 @@ aSpellChecker
 nsresult
 InitForEditorChange
 (
+mozilla
+:
+:
 EditAction
 aAction
 nsINode

@@ -20,6 +20,15 @@ include
 "
 mozilla
 /
+EditAction
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditorBase
 .
 h

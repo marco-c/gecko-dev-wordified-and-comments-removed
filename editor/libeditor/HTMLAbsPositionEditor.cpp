@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+EditAction
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditorUtils
 .
 h
