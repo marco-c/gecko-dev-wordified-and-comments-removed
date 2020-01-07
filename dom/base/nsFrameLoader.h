@@ -813,6 +813,11 @@ Hide
 (
 )
 ;
+void
+ForceLayoutIfNecessary
+(
+)
+;
 nsresult
 SwapWithOtherLoader
 (
