@@ -1591,6 +1591,16 @@ NS_ASSERT_OWNINGTHREAD
 ClientSource
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mClientInfo
+.
+IsPrivateBrowsing
+(
+)
+)
+;
 if
 (
 mController

@@ -214,6 +214,12 @@ ToIPC
 )
 const
 ;
+bool
+IsPrivateBrowsing
+(
+)
+const
+;
 }
 ;
 }
