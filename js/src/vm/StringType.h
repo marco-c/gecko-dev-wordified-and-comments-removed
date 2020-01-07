@@ -7047,7 +7047,7 @@ extern
 const
 char
 *
-ValueToPrintable
+ValueToPrintableLatin1
 (
 JSContext
 *

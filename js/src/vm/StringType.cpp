@@ -11275,7 +11275,7 @@ char
 js
 :
 :
-ValueToPrintable
+ValueToPrintableLatin1
 (
 JSContext
 *
