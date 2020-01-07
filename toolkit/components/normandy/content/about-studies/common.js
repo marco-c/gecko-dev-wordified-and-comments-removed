@@ -338,6 +338,15 @@ RemoteValue
 StudiesEnabled
 "
 )
+shieldTranslations
+:
+new
+RemoteValue
+(
+"
+ShieldTranslations
+"
+)
 }
 ;
 function
