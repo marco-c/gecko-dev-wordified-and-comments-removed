@@ -811,6 +811,7 @@ int32_t
 aInOutDestOffset
 )
 ;
+MOZ_MUST_USE
 EditActionResult
 MoveContents
 (
