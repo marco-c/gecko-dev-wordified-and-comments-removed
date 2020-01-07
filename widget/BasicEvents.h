@@ -2005,6 +2005,12 @@ IsAllowedToDispatchInSystemGroup
 )
 const
 ;
+bool
+IsBlockedForFingerprintingResistance
+(
+)
+const
+;
 void
 SetDefaultComposed
 (
