@@ -17392,7 +17392,7 @@ Assembler
 :
 :
 Equal
-temp1
+scratch
 ImmPtr
 (
 &
@@ -17410,7 +17410,7 @@ Assembler
 :
 :
 Equal
-temp1
+scratch
 ImmPtr
 (
 &
