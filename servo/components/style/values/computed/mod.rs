@@ -851,7 +851,7 @@ ui
 :
 :
 {
-CaretColor
+ColorOrAuto
 Cursor
 MozForceBrokenImageIcon
 }
