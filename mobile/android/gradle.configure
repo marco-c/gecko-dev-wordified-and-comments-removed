@@ -1093,6 +1093,11 @@ geckoview_example
 assembleWithGeckoBinaries
 '
 '
+geckoview_example
+:
+assembleWithGeckoBinariesAndroidTest
+'
+'
 geckoview
 :
 uploadArchives
