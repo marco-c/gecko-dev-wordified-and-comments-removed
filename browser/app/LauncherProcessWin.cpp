@@ -195,7 +195,7 @@ if
 mozilla
 :
 :
-IsWin10November2015UpdateOrLater
+IsWin10AnniversaryUpdateOrLater
 (
 )
 )
@@ -475,7 +475,7 @@ argv
 {
 if
 (
-IsWin10November2015UpdateOrLater
+IsWin10AnniversaryUpdateOrLater
 (
 )
 )
