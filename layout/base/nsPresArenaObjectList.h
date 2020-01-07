@@ -79,7 +79,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 PRES_ARENA_OBJECT
