@@ -380,6 +380,15 @@ this
 editor
 ;
 }
+get
+CodeMirror
+(
+)
+{
+return
+CodeMirror
+;
+}
 setText
 (
 str

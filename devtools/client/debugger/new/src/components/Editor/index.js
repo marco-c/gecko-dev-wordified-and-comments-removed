@@ -1261,7 +1261,7 @@ editor
 0
 _editor
 .
-createEditor
+getEditor
 )
 (
 )
@@ -1570,16 +1570,6 @@ setState
 {
 editor
 }
-)
-;
-(
-0
-_editor
-.
-setEditor
-)
-(
-editor
 )
 ;
 return
