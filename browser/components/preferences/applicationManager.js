@@ -437,9 +437,10 @@ selectedIndex
 ;
 list
 .
-removeItemAt
+selectedItem
+.
+remove
 (
-index
 )
 ;
 if
