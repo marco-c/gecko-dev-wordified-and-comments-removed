@@ -2,6 +2,9 @@
 ifndef
 CLIENT_MAC_HANDLER_BREAKPAD_NLIST_H__
 #
+define
+CLIENT_MAC_HANDLER_BREAKPAD_NLIST_H__
+#
 include
 <
 mach

@@ -1384,6 +1384,12 @@ DW_LANG_UPC
 DW_LANG_D
 =
 0x0013
+DW_LANG_Rust
+=
+0x001c
+DW_LANG_Swift
+=
+0x001e
 DW_LANG_lo_user
 =
 0x8000

@@ -12,6 +12,15 @@ string
 #
 include
 "
+common
+/
+using_std_string
+.
+h
+"
+#
+include
+"
 google_breakpad
 /
 common
@@ -23,9 +32,6 @@ h
 namespace
 google_breakpad
 {
-std
-:
-:
 string
 NTStatusToString
 (

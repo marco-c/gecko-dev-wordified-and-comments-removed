@@ -52,6 +52,12 @@ const
 MappingList
 &
 mappings
+bool
+skip_dump_if_main_module_not_referenced
+uintptr_t
+address_within_main_module
+bool
+sanitize_stack
 const
 MicrodumpExtraInfo
 &

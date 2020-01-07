@@ -276,7 +276,7 @@ OF
 SUCH
 DAMAGE
 .
-source
+.
 "
 {
 0
@@ -287,6 +287,10 @@ source
 /
 microdump_stackwalk_test_vars
 "
+|
+|
+exit
+1
 #
 for
 MICRODUMP_SUPPORTED_ARCHS

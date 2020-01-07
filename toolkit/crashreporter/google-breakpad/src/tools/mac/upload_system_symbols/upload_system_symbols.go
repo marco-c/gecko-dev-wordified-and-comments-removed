@@ -1873,6 +1873,14 @@ Type
 !
 =
 MachOBundle
+&
+&
+image
+.
+Type
+!
+=
+MachODylinker
 {
 return
 }

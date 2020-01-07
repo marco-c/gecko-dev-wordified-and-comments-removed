@@ -510,6 +510,17 @@ abort
 ;
 }
 virtual
+bool
+is_unloaded
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 uint64_t
 shrink_down_delta
 (
@@ -930,9 +941,6 @@ char
 CopySymbolDataAndOwnTheCopy
 (
 const
-std
-:
-:
 string
 &
 info

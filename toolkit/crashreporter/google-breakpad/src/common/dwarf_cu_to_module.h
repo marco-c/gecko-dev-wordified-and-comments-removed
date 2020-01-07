@@ -447,8 +447,6 @@ const
 string
 &
 input
-int
-error
 )
 ;
 virtual

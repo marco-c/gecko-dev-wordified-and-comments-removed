@@ -156,5 +156,12 @@ modules_
 =
 NULL
 ;
+delete
+unloaded_modules_
+;
+unloaded_modules_
+=
+NULL
+;
 }
 }

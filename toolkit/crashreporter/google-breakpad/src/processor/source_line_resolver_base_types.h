@@ -198,6 +198,8 @@ MemAddr
 code_size
 int
 set_parameter_size
+bool
+is_multiple
 )
 :
 name
@@ -216,6 +218,10 @@ parameter_size
 (
 set_parameter_size
 )
+is_multiple
+(
+is_multiple
+)
 {
 }
 string
@@ -229,6 +235,9 @@ size
 ;
 int32_t
 parameter_size
+;
+bool
+is_multiple
 ;
 }
 ;
@@ -253,6 +262,8 @@ MemAddr
 set_address
 int
 set_parameter_size
+bool
+is_multiple
 )
 :
 name
@@ -267,6 +278,10 @@ parameter_size
 (
 set_parameter_size
 )
+is_multiple
+(
+is_multiple
+)
 {
 }
 string
@@ -277,6 +292,9 @@ address
 ;
 int32_t
 parameter_size
+;
+bool
+is_multiple
 ;
 }
 ;
