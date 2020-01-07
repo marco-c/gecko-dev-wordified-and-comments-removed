@@ -569,6 +569,11 @@ AutoplayPolicy
 h
 '
 '
+BackgroundVideoDecodingPermissionObserver
+.
+h
+'
+'
 Benchmark
 .
 h
@@ -1117,6 +1122,11 @@ cpp
 '
 '
 AutoplayPolicy
+.
+cpp
+'
+'
+BackgroundVideoDecodingPermissionObserver
 .
 cpp
 '

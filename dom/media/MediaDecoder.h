@@ -11,6 +11,13 @@ MediaDecoder_h_
 #
 include
 "
+BackgroundVideoDecodingPermissionObserver
+.
+h
+"
+#
+include
+"
 DecoderDoctorDiagnostics
 .
 h
@@ -809,6 +816,13 @@ UpdateVideoDecodeMode
 (
 )
 ;
+void
+SetIsBackgroundVideoDecodingAllowed
+(
+bool
+aAllowed
+)
+;
 virtual
 void
 ChangeState
@@ -1588,9 +1602,6 @@ Canonical
 PrincipalHandle
 >
 mMediaPrincipalHandle
-;
-class
-BackgroundVideoDecodingPermissionObserver
 ;
 RefPtr
 <
