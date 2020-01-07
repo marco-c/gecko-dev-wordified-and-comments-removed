@@ -549,6 +549,17 @@ ScriptMode
 eAsync
 ;
 }
+virtual
+bool
+IsTopLevel
+(
+)
+const
+{
+return
+true
+;
+}
 void
 MaybeCancelOffThreadScript
 (
