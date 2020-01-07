@@ -226,13 +226,6 @@ DefineEnum
 h
 '
 '
-double
--
-conversion
-.
-h
-'
-'
 DoublyLinkedList
 .
 h
