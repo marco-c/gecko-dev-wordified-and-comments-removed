@@ -1741,11 +1741,9 @@ add_image
 clip_and_scroll
 &
 prim_info
-&
 info
 .
 stretch_size
-&
 info
 .
 tile_spacing
@@ -3688,9 +3686,7 @@ add_image
 clip_and_scroll
 &
 prim_info
-&
 stretched_size
-&
 info
 .
 tile_spacing

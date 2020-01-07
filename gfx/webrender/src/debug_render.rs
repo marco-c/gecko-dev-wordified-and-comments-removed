@@ -7,6 +7,7 @@ ColorU
 DeviceIntRect
 DeviceUintSize
 ImageFormat
+TextureTarget
 }
 ;
 use
@@ -31,7 +32,6 @@ device
 :
 {
 TextureFilter
-TextureTarget
 VertexAttribute
 VertexAttributeKind
 VertexUsageHint

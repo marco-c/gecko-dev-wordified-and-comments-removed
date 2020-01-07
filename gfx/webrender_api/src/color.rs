@@ -213,7 +213,7 @@ f32
 )
 -
 >
-ColorF
+Self
 {
 ColorF
 {
@@ -235,7 +235,7 @@ f32
 )
 -
 >
-ColorF
+Self
 {
 ColorF
 {

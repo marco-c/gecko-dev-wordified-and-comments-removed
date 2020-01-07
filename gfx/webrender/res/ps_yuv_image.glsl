@@ -514,7 +514,7 @@ y_rect
 .
 uv_rect
 .
-xy
+p0
 /
 y_texture_size_normalization_factor
 ;
@@ -525,7 +525,7 @@ y_rect
 .
 uv_rect
 .
-zw
+p1
 /
 y_texture_size_normalization_factor
 ;
@@ -591,7 +591,7 @@ u_rect
 .
 uv_rect
 .
-xy
+p0
 /
 uv_texture_size_normalization_factor
 ;
@@ -602,7 +602,7 @@ u_rect
 .
 uv_rect
 .
-zw
+p1
 /
 uv_texture_size_normalization_factor
 ;
@@ -616,7 +616,7 @@ v_rect
 .
 uv_rect
 .
-xy
+p0
 /
 uv_texture_size_normalization_factor
 ;
