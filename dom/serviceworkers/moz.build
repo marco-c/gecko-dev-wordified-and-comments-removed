@@ -325,6 +325,11 @@ ServiceWorkerPrivate
 cpp
 '
 '
+ServiceWorkerProxy
+.
+cpp
+'
+'
 ServiceWorkerRegisterJob
 .
 cpp
