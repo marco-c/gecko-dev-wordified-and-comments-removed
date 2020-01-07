@@ -319,9 +319,9 @@ SuspendAndSampleAndResumeThread
 PSLockRef
 aLock
 const
-ThreadInfo
+RegisteredThread
 &
-aThreadInfo
+aRegisteredThread
 const
 Func
 &
@@ -331,7 +331,7 @@ aProcessRegs
 thread_act_t
 samplee_thread
 =
-aThreadInfo
+aRegisteredThread
 .
 GetPlatformData
 (
