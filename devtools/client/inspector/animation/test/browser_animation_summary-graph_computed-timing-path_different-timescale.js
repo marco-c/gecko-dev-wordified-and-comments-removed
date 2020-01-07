@@ -51,9 +51,7 @@ selectNodeAndWaitForAnimations
 (
 "
 .
-no
--
-compositor
+animated
 "
 inspector
 )
@@ -103,7 +101,7 @@ await
 selectNodeAndWaitForAnimations
 (
 "
-.
+#
 endDelayed
 "
 inspector
@@ -125,9 +123,7 @@ selectNodeAndWaitForAnimations
 (
 "
 .
-no
--
-compositor
+animated
 "
 inspector
 )
