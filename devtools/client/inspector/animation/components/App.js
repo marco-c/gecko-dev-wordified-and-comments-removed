@@ -152,6 +152,13 @@ PropTypes
 func
 .
 isRequired
+getAnimatedPropertyMap
+:
+PropTypes
+.
+func
+.
+isRequired
 getNodeFromActor
 :
 PropTypes
@@ -236,6 +243,7 @@ const
 {
 animations
 emitEventForTest
+getAnimatedPropertyMap
 getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
@@ -271,6 +279,7 @@ AnimationListContainer
 {
 animations
 emitEventForTest
+getAnimatedPropertyMap
 getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode

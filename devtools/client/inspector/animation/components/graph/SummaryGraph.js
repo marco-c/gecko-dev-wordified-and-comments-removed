@@ -170,6 +170,13 @@ PropTypes
 object
 .
 isRequired
+getAnimatedPropertyMap
+:
+PropTypes
+.
+func
+.
+isRequired
 simulateAnimation
 :
 PropTypes
@@ -795,6 +802,7 @@ render
 const
 {
 animation
+getAnimatedPropertyMap
 simulateAnimation
 timeScale
 }
@@ -848,6 +856,7 @@ SummaryGraphPath
 (
 {
 animation
+getAnimatedPropertyMap
 simulateAnimation
 timeScale
 }
