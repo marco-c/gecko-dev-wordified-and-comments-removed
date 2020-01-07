@@ -14,3 +14,4 @@ mozinfo
 0
 .
 8
+six

@@ -15,6 +15,11 @@ processes
 "
 "
 "
+from
+__future__
+import
+absolute_import
+print_function
 import
 argparse
 import
@@ -27,6 +32,8 @@ from
 collections
 import
 defaultdict
+from
+.
 import
 httpd
 __all__
@@ -1180,11 +1187,7 @@ servers
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 {
 }
@@ -1204,6 +1207,12 @@ argv
 0
 ]
 url
+)
+file
+=
+sys
+.
+stderr
 )
     
 try

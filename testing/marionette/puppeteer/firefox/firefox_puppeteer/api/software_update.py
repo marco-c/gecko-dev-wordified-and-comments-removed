@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 ConfigParser
 import
@@ -8,6 +12,10 @@ import
 sys
 import
 mozinfo
+from
+six
+import
+reraise
 from
 firefox_puppeteer
 .
@@ -2699,8 +2707,8 @@ exc_info
 (
 )
             
-raise
-Exception
+msg
+=
 "
 Failed
 to
@@ -2709,20 +2717,27 @@ update
 snippet
 '
 {
+0
 }
 '
 :
 {
+1
 }
 "
+            
+reraise
+(
+Exception
+msg
 .
 format
 (
-                
 update_url
 val
 )
 tb
+)
     
 def
 get_formatted_update_url

@@ -84,6 +84,7 @@ mozversion
 1
 .
 1
+six
 wptserve
 >
 =

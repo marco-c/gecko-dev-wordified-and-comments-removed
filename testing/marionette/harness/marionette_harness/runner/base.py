@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 json
 import
@@ -36,8 +40,6 @@ import
 mozprofile
 import
 mozversion
-import
-serve
 from
 manifestparser
 import
@@ -72,10 +74,13 @@ TestResult
 TestResultCollection
 relevant_line
 from
-serve
+six
 import
-iter_proc
-iter_url
+reraise
+from
+.
+import
+serve
 here
 =
 os
@@ -4951,7 +4956,8 @@ formatted
 }
 "
                     
-raise
+reraise
+(
 exc
 msg
 .
@@ -4970,6 +4976,7 @@ e
 message
 )
 tb
+)
         
 return
 data
@@ -5681,7 +5688,8 @@ error
 }
 "
                     
-raise
+reraise
+(
 exc
 msg
 .
@@ -5692,6 +5700,7 @@ port
 e
 )
 tb
+)
         
 if
 self
@@ -6352,6 +6361,8 @@ start_fixture_servers
 for
 url
 in
+serve
+.
 iter_url
 (
 self
@@ -6816,7 +6827,8 @@ if
 interrupted
 :
                 
-raise
+reraise
+(
 interrupted
 [
 0
@@ -6829,6 +6841,7 @@ interrupted
 [
 2
 ]
+)
     
 def
 _print_summary
@@ -8372,6 +8385,8 @@ self
 for
 proc
 in
+serve
+.
 iter_proc
 (
 self

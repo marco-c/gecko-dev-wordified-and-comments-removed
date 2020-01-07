@@ -1,9 +1,14 @@
 from
+__future__
+import
+absolute_import
+print_function
+import
+socket
+from
 functools
 import
 wraps
-import
-socket
 def
 _find_marionette_in_args
 (

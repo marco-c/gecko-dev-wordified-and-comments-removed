@@ -1,4 +1,8 @@
 from
+__future__
+import
+absolute_import
+from
 marionette_driver
 .
 errors
@@ -515,6 +519,7 @@ True
         
 except
 JavascriptException
+as
 inst
 :
             

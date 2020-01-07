@@ -159,10 +159,6 @@ gtest
 -
 testing
 /
-marionette
--
-testing
-/
 mochitest
 -
 testing

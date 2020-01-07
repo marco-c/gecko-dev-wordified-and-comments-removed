@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 sys
 from
@@ -5,6 +9,10 @@ marionette_driver
 import
 By
 Wait
+from
+six
+import
+reraise
 class
 WindowManagerMixin
 (
@@ -407,7 +415,8 @@ exc_info
 (
 )
             
-raise
+reraise
+(
 exc
 '
 Failed
@@ -427,6 +436,7 @@ format
 val
 )
 tb
+)
         
 else
 :
@@ -669,7 +679,8 @@ exc_info
 (
 )
             
-raise
+reraise
+(
 exc
 '
 Failed
@@ -689,6 +700,7 @@ format
 val
 )
 tb
+)
         
 else
 :

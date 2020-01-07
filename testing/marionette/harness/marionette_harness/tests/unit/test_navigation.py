@@ -1,3 +1,8 @@
+from
+__future__
+import
+absolute_import
+print_function
 import
 contextlib
 import
@@ -5834,11 +5839,13 @@ self
 test_page_insecure
         
 print
+(
 "
 with
 safe
 session
 "
+)
         
 with
 self
@@ -5869,11 +5876,13 @@ invalid_cert_url
 )
         
 print
+(
 "
 with
 unsafe
 session
 "
+)
         
 with
 self
@@ -5893,12 +5902,14 @@ invalid_cert_url
 )
         
 print
+(
 "
 with
 safe
 session
 again
 "
+)
         
 with
 self

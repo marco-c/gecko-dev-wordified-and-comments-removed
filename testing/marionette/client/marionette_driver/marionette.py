@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 base64
 import
@@ -20,8 +24,16 @@ from
 contextlib
 import
 contextmanager
+from
+six
+import
+reraise
+from
+.
 import
 errors
+from
+.
 import
 transport
 from
@@ -4835,7 +4847,8 @@ exc_info
 (
 )
             
-raise
+reraise
+(
 IOError
 msg
 .
@@ -4844,6 +4857,7 @@ format
 timeout
 )
 tb
+)
     
 def
 cleanup
@@ -5827,10 +5841,12 @@ self
 instance
 :
             
-raise
+reraise
+(
 exc
 val
 tb
+)
         
 else
 :
@@ -5984,7 +6000,8 @@ reason
 )
 '
             
-raise
+reraise
+(
 IOError
 message
 .
@@ -5998,6 +6015,7 @@ reason
 val
 )
 tb
+)
     
 staticmethod
     
@@ -8527,7 +8545,8 @@ cleanup
 (
 )
                     
-raise
+reraise
+(
 exc
 "
 Requested
@@ -8539,6 +8558,7 @@ was
 aborted
 "
 tb
+)
         
 else
 :
