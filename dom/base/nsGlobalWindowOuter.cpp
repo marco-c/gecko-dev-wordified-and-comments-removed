@@ -8654,6 +8654,12 @@ newInnerWindow
 AsInner
 (
 )
+aDocument
+-
+>
+NodePrincipal
+(
+)
 currentInner
 -
 >
