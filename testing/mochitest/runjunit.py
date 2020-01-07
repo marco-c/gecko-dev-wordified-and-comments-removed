@@ -1830,6 +1830,8 @@ s
 cmd
 )
             
+p
+=
 self
 .
 device
@@ -1847,6 +1849,47 @@ max_time
 stdout_callback
 =
 callback
+)
+            
+if
+p
+.
+timedout
+:
+                
+self
+.
+log
+.
+error
+(
+"
+TEST
+-
+UNEXPECTED
+-
+TIMEOUT
+|
+runjunit
+.
+py
+|
+"
+                               
+"
+Timed
+out
+after
+%
+d
+seconds
+"
+%
+self
+.
+options
+.
+max_time
 )
             
 self
@@ -2408,7 +2451,7 @@ store
                           
 type
 =
-str
+int
                           
 dest
 =
