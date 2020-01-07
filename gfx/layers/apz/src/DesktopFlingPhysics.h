@@ -60,6 +60,8 @@ const
 ParentLayerPoint
 &
 aStartingVelocity
+float
+aPLPPI
 )
 {
 mVelocity

@@ -304,6 +304,8 @@ const
 FlingHandoffState
 &
 aHandoffState
+float
+aPLPPI
 )
 ;
 static
@@ -2076,6 +2078,16 @@ void
 DoDelayedRequestContentRepaint
 (
 )
+;
+float
+ComputePLPPI
+(
+ParentLayerPoint
+aPoint
+ParentLayerPoint
+aDirection
+)
+const
 ;
 public
 :

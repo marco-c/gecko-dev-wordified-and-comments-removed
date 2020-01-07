@@ -262,6 +262,8 @@ const
 FlingHandoffState
 &
 aHandoffState
+float
+aPLPPI
 )
 {
 if
@@ -291,6 +293,7 @@ mIsHandoff
 aHandoffState
 .
 mScrolledApzc
+aPLPPI
 )
 ;
 }

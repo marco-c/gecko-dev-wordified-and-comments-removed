@@ -155,6 +155,8 @@ AsyncPanZoomController
 >
 &
 aScrolledApzc
+float
+aPLPPI
 )
 :
 mApzc
@@ -514,6 +516,7 @@ mApzc
 GetVelocityVector
 (
 )
+aPLPPI
 )
 ;
 }
