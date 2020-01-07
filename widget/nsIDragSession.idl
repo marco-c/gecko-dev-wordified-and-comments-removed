@@ -124,13 +124,13 @@ nsSize
 )
 ;
 interface
-nsIDOMDocument
-;
-interface
 nsIDOMNode
 ;
 webidl
 DataTransfer
+;
+webidl
+Document
 ;
 [
 scriptable
@@ -346,7 +346,7 @@ document
 /
 readonly
 attribute
-nsIDOMDocument
+Document
 sourceDocument
 ;
 /

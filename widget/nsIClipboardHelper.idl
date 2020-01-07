@@ -126,9 +126,6 @@ nsAString
 unfortunately
 %
 }
-interface
-nsIDOMDocument
-;
 /
 *
 *
