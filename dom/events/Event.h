@@ -613,16 +613,6 @@ GetTarget
 )
 const
 ;
-static
-bool
-IsSrcElementEnabled
-(
-JSContext
-*
-JSObject
-*
-)
-;
 EventTarget
 *
 GetCurrentTarget
