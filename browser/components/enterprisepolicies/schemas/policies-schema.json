@@ -71,11 +71,6 @@ Mozilla
 Integrated_authentication
 "
 "
-enterprise_only
-"
-:
-true
-"
 type
 "
 :
@@ -1277,7 +1272,7 @@ telemetry
 .
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
@@ -1484,7 +1479,7 @@ IDs
 .
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
@@ -1738,7 +1733,7 @@ homepage
 .
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
@@ -2021,7 +2016,7 @@ page
 .
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
@@ -2076,7 +2071,7 @@ page
 .
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
@@ -2863,11 +2858,6 @@ changed
 .
 "
 "
-enterprise_only
-"
-:
-true
-"
 type
 "
 :
@@ -3196,7 +3186,7 @@ each
 .
 "
 "
-enterprise_only
+machine_only
 "
 :
 "
