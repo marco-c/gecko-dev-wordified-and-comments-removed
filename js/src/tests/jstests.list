@@ -36,7 +36,7 @@ jstests
 list
 skip
 script
-non262
+ecma_6
 /
 String
 /

@@ -11663,6 +11663,14 @@ if
 gfxPrefs
 :
 :
+LayersTilesEnabled
+(
+)
+&
+&
+gfxPrefs
+:
+:
 TileEdgePaddingEnabled
 (
 )
