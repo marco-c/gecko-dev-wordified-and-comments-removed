@@ -281,6 +281,11 @@ nsCSSKeywords
 h
 '
 '
+nsCSSParser
+.
+h
+'
+'
 nsCSSPropAliasList
 .
 h
@@ -449,6 +454,11 @@ CSSEnabledState
 h
 '
 '
+CSSPropFlags
+.
+h
+'
+'
 DeclarationBlock
 .
 h
@@ -570,6 +580,11 @@ h
 '
 '
 ServoKeyframesRule
+.
+h
+'
+'
+ServoMediaList
 .
 h
 '
@@ -1148,6 +1163,11 @@ cpp
 '
 '
 ServoKeyframesRule
+.
+cpp
+'
+'
+ServoMediaList
 .
 cpp
 '

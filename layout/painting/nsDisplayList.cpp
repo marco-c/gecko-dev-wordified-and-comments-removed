@@ -3955,7 +3955,10 @@ nsCSSProps
 PropHasFlags
 (
 aProperty
-CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+CSSPropFlags
+:
+:
+CanAnimateOnCompositor
 )
 "
 inconsistent
@@ -4590,7 +4593,10 @@ nsCSSProps
 PropHasFlags
 (
 aProperty
-CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+CSSPropFlags
+:
+:
+CanAnimateOnCompositor
 )
 "
 inconsistent

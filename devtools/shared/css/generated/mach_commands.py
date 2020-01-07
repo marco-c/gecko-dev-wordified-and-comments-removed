@@ -406,7 +406,10 @@ data
             
 if
 '
-CSS_PROPERTY_INTERNAL
+CSSPropFlags
+:
+:
+Internal
 '
 not
 in

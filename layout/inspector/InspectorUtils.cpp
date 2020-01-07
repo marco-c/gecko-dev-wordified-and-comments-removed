@@ -1736,7 +1736,10 @@ nsCSSPropertyID
 (
 prop
 )
-CSS_PROPERTY_PARSE_INACCESSIBLE
+CSSPropFlags
+:
+:
+Inaccessible
 )
 )
 {
