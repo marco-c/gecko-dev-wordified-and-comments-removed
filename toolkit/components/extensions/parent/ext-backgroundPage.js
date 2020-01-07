@@ -423,6 +423,9 @@ extension
 }
 )
 ;
+void
+browserPaintedPromise
+;
 extension
 .
 once
