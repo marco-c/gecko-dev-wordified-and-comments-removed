@@ -581,6 +581,11 @@ MOZ_PKG_DIR
 OMNIJAR_NAME
 )
 \
+(
+if
+(
+MOZ_BUILD_MOBILE_ANDROID_WITH_GRADLE
+)
 -
 -
 classes
@@ -593,6 +598,7 @@ GECKO_APP_AP_PATH
 classes
 .
 dex
+)
 \
 -
 -
@@ -787,6 +793,11 @@ MOZ_PKG_DIR
 OMNIJAR_NAME
 )
 \
+(
+if
+(
+MOZ_BUILD_MOBILE_ANDROID_WITH_GRADLE
+)
 -
 -
 classes
@@ -799,6 +810,7 @@ GECKO_APP_AP_PATH
 classes
 .
 dex
+)
 \
 -
 -

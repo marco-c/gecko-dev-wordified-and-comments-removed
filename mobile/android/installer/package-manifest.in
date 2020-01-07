@@ -381,11 +381,6 @@ package
 name
 .
 txt
-BINPATH
-/
-classes
-.
-dex
 [
 browser
 ]
