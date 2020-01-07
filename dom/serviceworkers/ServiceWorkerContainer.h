@@ -219,11 +219,6 @@ ServiceWorkerContainer
 (
 )
 ;
-void
-RemoveReadyPromise
-(
-)
-;
 RefPtr
 <
 ServiceWorker
