@@ -1,9 +1,9 @@
 #
 ifndef
-wasm_compartment_h
+wasm_realm_h
 #
 define
-wasm_compartment_h
+wasm_realm_h
 #
 include
 "
@@ -20,7 +20,7 @@ namespace
 wasm
 {
 class
-Compartment
+Realm
 {
 JSRuntime
 *
@@ -32,7 +32,7 @@ instances_
 public
 :
 explicit
-Compartment
+Realm
 (
 JSRuntime
 *
@@ -40,7 +40,7 @@ rt
 )
 ;
 ~
-Compartment
+Realm
 (
 )
 ;
@@ -91,7 +91,7 @@ MallocSizeOf
 mallocSizeOf
 size_t
 *
-compartmentTables
+realmTables
 )
 ;
 }

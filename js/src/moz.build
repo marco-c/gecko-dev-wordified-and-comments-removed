@@ -3080,13 +3080,6 @@ cpp
 '
 wasm
 /
-WasmCompartment
-.
-cpp
-'
-'
-wasm
-/
 WasmCompile
 .
 cpp
@@ -3151,6 +3144,13 @@ cpp
 wasm
 /
 WasmProcess
+.
+cpp
+'
+'
+wasm
+/
+WasmRealm
 .
 cpp
 '
