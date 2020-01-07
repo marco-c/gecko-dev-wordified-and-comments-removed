@@ -3779,7 +3779,7 @@ getNext
 {
 ComputedStyle
 *
-sc
+computedStyle
 =
 node
 -
@@ -3795,11 +3795,11 @@ mState
 .
 HaveSeenPtr
 (
-sc
+computedStyle
 )
 )
 {
-sc
+computedStyle
 -
 >
 AddSizeOfIncludingThis
