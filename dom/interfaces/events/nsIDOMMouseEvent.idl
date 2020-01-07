@@ -342,12 +342,6 @@ MOZ_SOURCE_KEYBOARD
 =
 6
 ;
-readonly
-attribute
-unsigned
-short
-mozInputSource
-;
 bool
 getModifierState
 (
