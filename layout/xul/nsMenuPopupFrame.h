@@ -1580,6 +1580,8 @@ nsIFrame
 aAnchor
 bool
 aSizedToPopup
+bool
+aIsOpenChanged
 )
 {
 mPosted
@@ -1593,6 +1595,10 @@ aAnchor
 mSizedToPopup
 =
 aSizedToPopup
+;
+mIsOpenChanged
+=
+aIsOpenChanged
 ;
 }
 void
@@ -1612,6 +1618,10 @@ mSizedToPopup
 =
 false
 ;
+mIsOpenChanged
+=
+false
+;
 }
 bool
 mPosted
@@ -1622,6 +1632,9 @@ mAnchor
 ;
 bool
 mSizedToPopup
+;
+bool
+mIsOpenChanged
 ;
 }
 ;
@@ -1663,6 +1676,9 @@ mHFlip
 ;
 bool
 mVFlip
+;
+nscoord
+mPositionedOffset
 ;
 MenuPopupAnchorType
 mAnchorType
