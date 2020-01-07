@@ -935,9 +935,20 @@ body
 {
 }
         
-try
+payload
+=
+None
+        
+if
+body
+is
+not
+None
 :
             
+try
+:
+                
 payload
 =
 json
@@ -952,11 +963,11 @@ encoder
 *
 codec_kwargs
 )
-        
+            
 except
 ValueError
 :
-            
+                
 raise
 ValueError
 (
@@ -972,7 +983,7 @@ JSON
 \
 n
 "
-                
+                    
 "
 %
 s
@@ -988,7 +999,7 @@ indent
 2
 )
 )
-        
+            
 if
 isinstance
 (
@@ -996,7 +1007,7 @@ payload
 text_type
 )
 :
-            
+                
 payload
 =
 body
