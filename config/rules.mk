@@ -3629,6 +3629,17 @@ PDB
 (
 LINK_PDBFILE
 )
+-
+IMPLIB
+:
+(
+basename
+(
+F
+)
+)
+.
+lib
 (
 WIN32_EXE_LDFLAGS
 )
