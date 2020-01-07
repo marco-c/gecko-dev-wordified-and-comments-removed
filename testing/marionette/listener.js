@@ -466,13 +466,13 @@ resetClick
 addEventListener
 (
 "
-dblclick
+unload
 "
 event
 .
 DoubleClickTracker
 .
-cancelTimer
+resetClick
 )
 ;
 const
