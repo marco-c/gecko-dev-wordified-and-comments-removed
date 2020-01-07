@@ -1117,6 +1117,11 @@ aStartAtTop
 ;
 #
 endif
+void
+ReturnToGalleyPresentation
+(
+)
+;
 bool
 ShouldAttachToTopLevel
 (
