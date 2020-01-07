@@ -708,11 +708,5 @@ section_menu_action_privacy_notice
 :
 "
 "
-"
-prefs_topstories_description
-"
-:
-"
-"
 }
 ;

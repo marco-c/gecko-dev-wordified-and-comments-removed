@@ -1320,6 +1320,10 @@ args
 .
 locale
 }
+&
+feed_variant
+=
+default
 stories_referrer
 :
 "
@@ -1372,7 +1376,7 @@ locale
 }
 show_spocs
 :
-false
+true
 personalized
 :
 true
