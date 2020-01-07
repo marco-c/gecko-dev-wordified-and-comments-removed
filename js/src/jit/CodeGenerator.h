@@ -2501,10 +2501,6 @@ emitArrayPush
 LInstruction
 *
 lir
-const
-MArrayPush
-*
-mir
 Register
 obj
 const
@@ -3511,9 +3507,6 @@ Register
 maybeTemp
 GetPropertyResultFlags
 flags
-jsbytecode
-*
-profilerLeavePc
 )
 ;
 void
@@ -3548,9 +3541,6 @@ bool
 needsTypeBarrier
 bool
 guardHoles
-jsbytecode
-*
-profilerLeavePc
 )
 ;
 MOZ_MUST_USE

@@ -11810,7 +11810,6 @@ jitZone
 >
 sweep
 (
-fop
 )
 ;
 for
@@ -11892,7 +11891,6 @@ c
 >
 sweepJitCompartment
 (
-fop
 )
 ;
 c
@@ -26481,7 +26479,6 @@ c
 >
 sweepJitCompartment
 (
-fop
 )
 ;
 for
@@ -26527,7 +26524,6 @@ jitZone
 >
 sweep
 (
-fop
 )
 ;
 }

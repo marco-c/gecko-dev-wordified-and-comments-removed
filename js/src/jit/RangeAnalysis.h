@@ -364,9 +364,6 @@ direction
 void
 analyzeLoopPhi
 (
-MBasicBlock
-*
-header
 LoopIterationBound
 *
 loopBound

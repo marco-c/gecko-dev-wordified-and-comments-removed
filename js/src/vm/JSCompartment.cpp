@@ -3701,9 +3701,6 @@ JSCompartment
 :
 sweepJitCompartment
 (
-FreeOp
-*
-fop
 )
 {
 if
@@ -3715,7 +3712,6 @@ jitCompartment_
 >
 sweep
 (
-fop
 this
 )
 ;

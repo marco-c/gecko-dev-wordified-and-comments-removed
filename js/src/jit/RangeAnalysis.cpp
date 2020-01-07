@@ -10289,7 +10289,6 @@ iter
 )
 analyzeLoopPhi
 (
-header
 iterationBound
 *
 iter
@@ -11195,9 +11194,6 @@ RangeAnalysis
 :
 analyzeLoopPhi
 (
-MBasicBlock
-*
-header
 LoopIterationBound
 *
 loopBound

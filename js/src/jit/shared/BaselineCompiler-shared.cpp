@@ -110,7 +110,6 @@ CanIonCompileScript
 (
 cx
 script
-false
 )
 )
 ionOSRCompileable_
@@ -128,7 +127,6 @@ CanIonCompileScript
 (
 cx
 script
-true
 )
 )
 compileDebugInstrumentation_

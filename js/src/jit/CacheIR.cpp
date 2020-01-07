@@ -1092,7 +1092,6 @@ tryAttachArgumentsObjectArg
 (
 obj
 objId
-index
 indexId
 )
 )
@@ -8804,8 +8803,6 @@ HandleObject
 obj
 ObjOperandId
 objId
-uint32_t
-index
 Int32OperandId
 indexId
 )
@@ -12451,8 +12448,6 @@ HandleObject
 obj
 ObjOperandId
 objId
-uint32_t
-index
 Int32OperandId
 indexId
 )
@@ -13156,8 +13151,6 @@ HandleObject
 obj
 ObjOperandId
 objId
-uint32_t
-index
 Int32OperandId
 indexId
 )
@@ -13880,7 +13873,6 @@ tryAttachTypedArray
 (
 obj
 objId
-index
 indexId
 )
 )
@@ -13893,7 +13885,6 @@ tryAttachSparse
 (
 obj
 objId
-index
 indexId
 )
 )
@@ -21073,9 +21064,6 @@ jsbytecode
 pc
 JSOp
 op
-ICCall_Fallback
-*
-stub
 ICState
 :
 :

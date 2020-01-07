@@ -1254,9 +1254,6 @@ void
 *
 canonicalNativeAddrFor
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1267,9 +1264,6 @@ MOZ_MUST_USE
 bool
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1285,9 +1279,6 @@ const
 uint32_t
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1304,9 +1295,6 @@ const
 void
 youngestFrameLocationAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1449,9 +1437,6 @@ uint8_t
 >
 trackedOptimizationIndexAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1463,9 +1448,6 @@ entryOffsetOut
 void
 forEachOptimizationAttempt
 (
-JSRuntime
-*
-rt
 uint8_t
 index
 JS
@@ -1479,9 +1461,6 @@ op
 void
 forEachOptimizationTypeInfo
 (
-JSRuntime
-*
-rt
 uint8_t
 index
 IonTrackedOptimizationsTypeInfo
@@ -1684,9 +1663,6 @@ void
 *
 canonicalNativeAddrFor
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1697,9 +1673,6 @@ MOZ_MUST_USE
 bool
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1715,9 +1688,6 @@ const
 uint32_t
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1734,9 +1704,6 @@ const
 void
 youngestFrameLocationAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1879,12 +1846,6 @@ void
 *
 canonicalNativeAddrFor
 (
-JSRuntime
-*
-rt
-void
-*
-ptr
 )
 const
 ;
@@ -3052,7 +3013,6 @@ ionEntry
 .
 canonicalNativeAddrFor
 (
-rt
 ptr
 )
 ;
@@ -3066,7 +3026,6 @@ baselineEntry
 .
 canonicalNativeAddrFor
 (
-rt
 ptr
 )
 ;
@@ -3080,8 +3039,6 @@ ionCacheEntry
 .
 canonicalNativeAddrFor
 (
-rt
-ptr
 )
 ;
 case
@@ -3151,7 +3108,6 @@ ionEntry
 .
 callStackAtAddr
 (
-rt
 ptr
 results
 depth
@@ -3167,7 +3123,6 @@ baselineEntry
 .
 callStackAtAddr
 (
-rt
 ptr
 results
 depth
@@ -3258,7 +3213,6 @@ ionEntry
 .
 callStackAtAddr
 (
-rt
 ptr
 results
 maxResults
@@ -3274,7 +3228,6 @@ baselineEntry
 .
 callStackAtAddr
 (
-rt
 ptr
 results
 maxResults
@@ -3366,7 +3319,6 @@ ionEntry
 .
 youngestFrameLocationAtAddr
 (
-rt
 ptr
 script
 pc
@@ -3382,7 +3334,6 @@ baselineEntry
 .
 youngestFrameLocationAtAddr
 (
-rt
 ptr
 script
 pc
@@ -3612,7 +3563,6 @@ ionEntry
 .
 trackedOptimizationIndexAtAddr
 (
-rt
 addr
 entryOffsetOut
 )
@@ -3694,7 +3644,6 @@ ionEntry
 .
 forEachOptimizationAttempt
 (
-rt
 index
 op
 )
@@ -3771,7 +3720,6 @@ ionEntry
 .
 forEachOptimizationTypeInfo
 (
-rt
 index
 op
 )
@@ -4512,9 +4460,6 @@ JitcodeGlobalEntry
 IonEntry
 &
 entry
-JSRuntime
-*
-rt
 )
 {
 return
@@ -4524,7 +4469,6 @@ JitcodeGlobalEntry
 (
 entry
 )
-rt
 )
 ;
 }
@@ -4539,9 +4483,6 @@ JitcodeGlobalEntry
 BaselineEntry
 &
 entry
-JSRuntime
-*
-rt
 )
 {
 return
@@ -4551,7 +4492,6 @@ JitcodeGlobalEntry
 (
 entry
 )
-rt
 )
 ;
 }
@@ -4566,9 +4506,6 @@ JitcodeGlobalEntry
 IonCacheEntry
 &
 entry
-JSRuntime
-*
-rt
 )
 {
 return
@@ -4578,7 +4515,6 @@ JitcodeGlobalEntry
 (
 entry
 )
-rt
 )
 ;
 }
@@ -4593,9 +4529,6 @@ JitcodeGlobalEntry
 DummyEntry
 &
 entry
-JSRuntime
-*
-rt
 )
 {
 return
@@ -4605,7 +4538,6 @@ JitcodeGlobalEntry
 (
 entry
 )
-rt
 )
 ;
 }
@@ -4619,9 +4551,6 @@ JitcodeGlobalEntry
 *
 *
 prevTower
-JSRuntime
-*
-rt
 )
 ;
 void
@@ -4642,9 +4571,6 @@ rt
 void
 setAllEntriesAsExpired
 (
-JSRuntime
-*
-rt
 )
 ;
 void
@@ -4682,9 +4608,6 @@ const
 JitcodeGlobalEntry
 &
 entry
-JSRuntime
-*
-rt
 )
 ;
 JitcodeGlobalEntry

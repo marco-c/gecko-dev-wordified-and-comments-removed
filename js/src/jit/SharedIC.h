@@ -3516,9 +3516,6 @@ scratch
 void
 assumeStubFrame
 (
-MacroAssembler
-&
-masm
 )
 ;
 void

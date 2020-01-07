@@ -653,9 +653,6 @@ static
 void
 AnalyzeLoadUnboxedScalar
 (
-TempAllocator
-&
-alloc
 MLoadUnboxedScalar
 *
 load
@@ -1535,11 +1532,6 @@ isLoadUnboxedScalar
 )
 AnalyzeLoadUnboxedScalar
 (
-graph_
-.
-alloc
-(
-)
 i
 -
 >

@@ -3074,8 +3074,6 @@ state
 ControlStatus
 processDoWhileLoop
 (
-JSOp
-op
 jssrcnote
 *
 sn

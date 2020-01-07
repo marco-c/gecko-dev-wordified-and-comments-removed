@@ -7233,7 +7233,6 @@ SRC_WHILE
 return
 processDoWhileLoop
 (
-op
 sn
 )
 ;
@@ -7732,8 +7731,6 @@ ControlFlowGenerator
 :
 processDoWhileLoop
 (
-JSOp
-op
 jssrcnote
 *
 sn

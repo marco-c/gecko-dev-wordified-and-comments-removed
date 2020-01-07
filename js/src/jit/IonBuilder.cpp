@@ -404,9 +404,6 @@ temp
 BaselineFrame
 *
 frame
-CompileInfo
-*
-info
 )
 {
 MOZ_ASSERT
@@ -5882,8 +5879,6 @@ slotIdx
 MDefinition
 *
 param
-int32_t
-argIndex
 )
 {
 MOZ_ASSERT
@@ -6054,17 +6049,6 @@ rewriteParameter
 (
 i
 param
-param
--
->
-toParameter
-(
-)
--
->
-index
-(
-)
 )
 ;
 }
@@ -26573,9 +26557,6 @@ createThisScriptedSingleton
 JSFunction
 *
 target
-MDefinition
-*
-callee
 )
 {
 if
@@ -27496,7 +27477,6 @@ createThis
 createThisScriptedSingleton
 (
 target
-callee
 )
 )
 return
@@ -31728,7 +31708,6 @@ compareTrySharedStub
 (
 &
 emitted
-op
 left
 right
 )
@@ -32923,8 +32902,6 @@ compareTrySharedStub
 bool
 *
 emitted
-JSOp
-op
 MDefinition
 *
 left
@@ -35868,17 +35845,6 @@ pop
 (
 )
 ;
-TemporaryTypeSet
-*
-objTypes
-=
-obj
--
->
-resultTypeSet
-(
-)
-;
 bool
 barrier
 =
@@ -35914,7 +35880,6 @@ obj
 name
 value
 barrier
-objTypes
 )
 )
 ;
@@ -43186,9 +43151,6 @@ uint32_t
 elemSize
 MDefinition
 *
-obj
-MDefinition
-*
 index
 TypedObjectPrediction
 objPrediction
@@ -43415,7 +43377,6 @@ if
 checkTypedObjectIndexInBounds
 (
 elemSize
-obj
 index
 objPrediction
 &
@@ -43521,7 +43482,6 @@ if
 checkTypedObjectIndexInBounds
 (
 elemSize
-obj
 index
 objPrediction
 &
@@ -44091,7 +44051,6 @@ if
 checkTypedObjectIndexInBounds
 (
 elemSize
-obj
 index
 objPrediction
 &
@@ -47078,7 +47037,6 @@ initLength
 =
 initializedLength
 (
-obj
 elements
 )
 ;
@@ -48738,8 +48696,6 @@ setElemTryArguments
 &
 emitted
 object
-index
-value
 )
 )
 ;
@@ -49188,7 +49144,6 @@ if
 checkTypedObjectIndexInBounds
 (
 elemSize
-obj
 index
 objPrediction
 &
@@ -49287,7 +49242,6 @@ if
 checkTypedObjectIndexInBounds
 (
 elemSize
-obj
 index
 objPrediction
 &
@@ -50015,12 +49969,6 @@ emitted
 MDefinition
 *
 object
-MDefinition
-*
-index
-MDefinition
-*
-value
 )
 {
 MOZ_ASSERT
@@ -50804,7 +50752,6 @@ initLength
 =
 initializedLength
 (
-obj
 elements
 )
 ;
@@ -62832,7 +62779,6 @@ obj
 name
 value
 barrier
-objTypes
 )
 )
 ;
@@ -62872,7 +62818,6 @@ obj
 name
 value
 barrier
-objTypes
 )
 )
 ;
@@ -62935,7 +62880,6 @@ obj
 name
 value
 barrier
-objTypes
 )
 )
 ;
@@ -64097,9 +64041,6 @@ MDefinition
 value
 bool
 barrier
-TemporaryTypeSet
-*
-objTypes
 )
 {
 MOZ_ASSERT
@@ -64796,9 +64737,6 @@ MDefinition
 value
 bool
 barrier
-TemporaryTypeSet
-*
-objTypes
 )
 {
 MOZ_ASSERT
@@ -65885,9 +65823,6 @@ MDefinition
 value
 bool
 barrier
-TemporaryTypeSet
-*
-objTypes
 )
 {
 MOZ_ASSERT
@@ -69140,8 +69075,6 @@ IonBuilder
 :
 hasStaticEnvironmentObject
 (
-EnvironmentCoordinate
-ec
 JSObject
 *
 *
@@ -69595,7 +69528,6 @@ if
 (
 hasStaticEnvironmentObject
 (
-ec
 &
 call
 )
@@ -69718,7 +69650,6 @@ if
 (
 hasStaticEnvironmentObject
 (
-ec
 &
 call
 )
@@ -70338,7 +70269,6 @@ initLength
 =
 initializedLength
 (
-obj
 elements
 )
 ;
@@ -74489,9 +74419,6 @@ IonBuilder
 :
 initializedLength
 (
-MDefinition
-*
-obj
 MDefinition
 *
 elements

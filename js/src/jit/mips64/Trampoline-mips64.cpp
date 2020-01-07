@@ -3868,7 +3868,6 @@ if
 !
 generateTLEnterVM
 (
-cx
 masm
 f
 )
@@ -4093,7 +4092,6 @@ if
 !
 generateTLExitVM
 (
-cx
 masm
 f
 )

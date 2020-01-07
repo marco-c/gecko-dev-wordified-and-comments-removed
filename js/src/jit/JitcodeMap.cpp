@@ -253,9 +253,6 @@ IonEntry
 :
 canonicalNativeAddrFor
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -310,9 +307,6 @@ IonEntry
 :
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -470,9 +464,6 @@ IonEntry
 :
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -601,9 +592,6 @@ IonEntry
 :
 youngestFrameLocationAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -847,9 +835,6 @@ BaselineEntry
 :
 canonicalNativeAddrFor
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -869,9 +854,6 @@ BaselineEntry
 :
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -968,9 +950,6 @@ BaselineEntry
 :
 callStackAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1022,9 +1001,6 @@ BaselineEntry
 :
 youngestFrameLocationAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -1193,12 +1169,6 @@ IonCacheEntry
 :
 canonicalNativeAddrFor
 (
-JSRuntime
-*
-rt
-void
-*
-ptr
 )
 const
 {
@@ -2532,9 +2502,6 @@ const
 JitcodeGlobalEntry
 &
 entry
-JSRuntime
-*
-rt
 )
 {
 MOZ_ASSERT
@@ -2807,9 +2774,6 @@ JitcodeGlobalEntry
 *
 *
 prevTower
-JSRuntime
-*
-rt
 )
 {
 MOZ_ASSERT
@@ -3052,7 +3016,6 @@ removeEntry
 (
 entry
 prevTower
-rt
 )
 ;
 }
@@ -3835,9 +3798,6 @@ JitcodeGlobalTable
 :
 setAllEntriesAsExpired
 (
-JSRuntime
-*
-rt
 )
 {
 AutoSuppressProfilerSampling

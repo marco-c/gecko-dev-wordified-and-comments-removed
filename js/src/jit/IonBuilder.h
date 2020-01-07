@@ -125,9 +125,6 @@ temp
 BaselineFrame
 *
 frame
-CompileInfo
-*
-info
 )
 ;
 using
@@ -796,8 +793,6 @@ slotIdx
 MDefinition
 *
 param
-int32_t
-argIndex
 )
 ;
 AbortReasonOr
@@ -857,9 +852,6 @@ MInstruction
 *
 initializedLength
 (
-MDefinition
-*
-obj
 MDefinition
 *
 elements
@@ -1068,9 +1060,6 @@ createThisScriptedSingleton
 JSFunction
 *
 target
-MDefinition
-*
-callee
 )
 ;
 MDefinition
@@ -1264,8 +1253,6 @@ invalidatedIdempotentCache
 bool
 hasStaticEnvironmentObject
 (
-EnvironmentCoordinate
-ec
 JSObject
 *
 *
@@ -1807,9 +1794,6 @@ MDefinition
 value
 bool
 barrier
-TemporaryTypeSet
-*
-objTypes
 )
 ;
 AbortReasonOr
@@ -1832,9 +1816,6 @@ MDefinition
 value
 bool
 barrier
-TemporaryTypeSet
-*
-objTypes
 )
 ;
 AbortReasonOr
@@ -2002,9 +1983,6 @@ MDefinition
 value
 bool
 barrier
-TemporaryTypeSet
-*
-objTypes
 )
 ;
 MBinaryArithInstruction
@@ -2198,8 +2176,6 @@ compareTrySharedStub
 bool
 *
 emitted
-JSOp
-op
 MDefinition
 *
 left
@@ -2461,9 +2437,6 @@ uint32_t
 elemSize
 MDefinition
 *
-obj
-MDefinition
-*
 index
 TypedObjectPrediction
 objTypeDescrs
@@ -2649,12 +2622,6 @@ emitted
 MDefinition
 *
 object
-MDefinition
-*
-index
-MDefinition
-*
-value
 )
 ;
 AbortReasonOr

@@ -2787,12 +2787,6 @@ tryInitWithTable
 (
 table
 pc
-cx
--
->
-runtime
-(
-)
 false
 )
 )
@@ -2829,12 +2823,6 @@ tryInitWithTable
 (
 table
 lastCallSite
-cx
--
->
-runtime
-(
-)
 true
 )
 )
@@ -3060,9 +3048,6 @@ table
 void
 *
 pc
-JSRuntime
-*
-rt
 bool
 forLastCallSite
 )

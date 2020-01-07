@@ -4476,9 +4476,6 @@ JSContext
 cx
 HandleObject
 obj
-BaselineFrame
-*
-frame
 jsbytecode
 *
 pc

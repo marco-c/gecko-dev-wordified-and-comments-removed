@@ -680,9 +680,6 @@ f
 bool
 generateTLEventVM
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
@@ -698,9 +695,6 @@ inline
 bool
 generateTLEnterVM
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
@@ -713,7 +707,6 @@ f
 return
 generateTLEventVM
 (
-cx
 masm
 f
 true
@@ -724,9 +717,6 @@ inline
 bool
 generateTLExitVM
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
@@ -739,7 +729,6 @@ f
 return
 generateTLEventVM
 (
-cx
 masm
 f
 false
@@ -1800,9 +1789,6 @@ cx
 void
 sweep
 (
-FreeOp
-*
-fop
 )
 ;
 void
@@ -2618,9 +2604,6 @@ StringConcat
 void
 sweep
 (
-FreeOp
-*
-fop
 JSCompartment
 *
 compartment

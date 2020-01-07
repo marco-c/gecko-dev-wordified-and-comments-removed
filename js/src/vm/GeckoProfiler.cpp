@@ -463,7 +463,6 @@ getJitcodeGlobalTable
 >
 setAllEntriesAsExpired
 (
-rt
 )
 ;
 rt

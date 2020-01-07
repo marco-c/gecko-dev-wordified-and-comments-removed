@@ -863,9 +863,6 @@ table
 void
 *
 pc
-JSRuntime
-*
-rt
 bool
 forLastCallSite
 )
