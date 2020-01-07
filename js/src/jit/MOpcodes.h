@@ -294,11 +294,6 @@ ComputeThis
 \
 _
 (
-ImplicitThis
-)
-\
-_
-(
 Call
 )
 \
@@ -1035,6 +1030,11 @@ BoundsCheck
 _
 (
 BoundsCheckLower
+)
+\
+_
+(
+SpectreMaskIndex
 )
 \
 _
