@@ -1096,13 +1096,7 @@ aFlags
 const
 {
 return
-!
-(
-aFlags
-&
-~
-eATTRIBUTE
-)
+false
 ;
 }
 uint32_t
