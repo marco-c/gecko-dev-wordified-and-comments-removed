@@ -3423,6 +3423,15 @@ nsAString
 aTagName
 )
 ;
+nsresult
+RemoveStyleSheetWithTransaction
+(
+const
+nsAString
+&
+aURL
+)
+;
 protected
 :
 RefPtr
