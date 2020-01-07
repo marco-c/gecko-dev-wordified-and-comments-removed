@@ -41152,7 +41152,7 @@ temp
 temp
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 ;
@@ -41225,7 +41225,7 @@ temp
 temp
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 ;

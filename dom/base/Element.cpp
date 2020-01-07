@@ -8190,6 +8190,14 @@ GetParent
 while
 (
 parent
+&
+&
+parent
+-
+>
+IsElement
+(
+)
 )
 {
 parent

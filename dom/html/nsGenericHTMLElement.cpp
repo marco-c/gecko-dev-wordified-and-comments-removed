@@ -2082,7 +2082,7 @@ EditableInclusiveDescendantCount
 bool
 isEditable
 =
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 &
@@ -2197,6 +2197,7 @@ GetAtomValue
 )
 ;
 }
+}
 if
 (
 HasFlag
@@ -2211,6 +2212,11 @@ GetContentEditableValue
 =
 =
 eTrue
+&
+&
+IsInComposedDoc
+(
+)
 )
 {
 nsCOMPtr
@@ -2221,7 +2227,9 @@ htmlDocument
 =
 do_QueryInterface
 (
-aDocument
+GetComposedDoc
+(
+)
 )
 ;
 if
@@ -2239,7 +2247,6 @@ this
 1
 )
 ;
-}
 }
 }
 nsExtendedDOMSlots
@@ -2325,7 +2332,7 @@ htmlDocument
 =
 do_QueryInterface
 (
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
@@ -12575,7 +12582,7 @@ nsIDocument
 *
 document
 =
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
@@ -12633,6 +12640,14 @@ GetParent
 while
 (
 parent
+&
+&
+parent
+-
+>
+IsElement
+(
+)
 )
 {
 parent

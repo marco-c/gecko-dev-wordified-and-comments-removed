@@ -2975,7 +2975,7 @@ doc
 rootContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
