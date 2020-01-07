@@ -3686,6 +3686,15 @@ target
 "
 string
 "
+&
+&
+!
+Array
+.
+isArray
+(
+target
+)
 )
 {
 cpowObject
