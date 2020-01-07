@@ -94,9 +94,6 @@ UniqueStacks
 aUniqueStacks
 )
 {
-double
-firstSampleTimeIgnored
-;
 StreamSamplesAndMarkers
 (
 mName
@@ -120,13 +117,8 @@ TimeStamp
 (
 )
 0
-&
-firstSampleTimeIgnored
 nullptr
 nullptr
-0
-.
-0
 nullptr
 aUniqueStacks
 )

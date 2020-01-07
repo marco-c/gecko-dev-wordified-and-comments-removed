@@ -1479,14 +1479,6 @@ bool
 aIsShuttingDown
 =
 false
-mozilla
-:
-:
-TimeStamp
-*
-aOutFirstSampleTime
-=
-nullptr
 )
 ;
 extern

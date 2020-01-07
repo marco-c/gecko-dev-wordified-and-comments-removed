@@ -562,7 +562,7 @@ mStackTop
 ;
 public
 :
-double
+void
 StreamJSON
 (
 const
@@ -795,9 +795,6 @@ char
 >
 mSavedStreamedSamples
 ;
-double
-mFirstSavedStreamedSampleTime
-;
 mozilla
 :
 :
@@ -896,17 +893,12 @@ TimeStamp
 aUnregisterTime
 double
 aSinceTime
-double
-*
-aOutFirstSampleTime
 JSContext
 *
 aContext
 char
 *
 aSavedStreamedSamples
-double
-aFirstSavedStreamedSampleTime
 char
 *
 aSavedStreamedMarkers
