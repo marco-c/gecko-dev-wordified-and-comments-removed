@@ -156,9 +156,13 @@ installDistroAddons
 False
         
 "
-app
+extensions
 .
-normandy
+shield
+-
+recipe
+-
+client
 .
 api_url
 "
