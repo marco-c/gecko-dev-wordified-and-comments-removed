@@ -257,6 +257,9 @@ enum
 add_sentinel
 =
 true
+derive_helper_methods
+=
+true
 [
 defines
 ]
