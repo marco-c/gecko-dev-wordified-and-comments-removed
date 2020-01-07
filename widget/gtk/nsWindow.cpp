@@ -15085,6 +15085,9 @@ useAlphaVisual
 =
 true
 ;
+#
+ifdef
+GL_PROVIDER_GLX
 bool
 useWebRender
 =
@@ -15180,6 +15183,9 @@ visualId
 }
 }
 else
+#
+endif
+{
 if
 (
 useAlphaVisual
@@ -15217,6 +15223,7 @@ mShell
 visual
 )
 ;
+}
 }
 }
 NativeResize
