@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -54,7 +63,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
+StyleSheet
 .
 h
 "
@@ -63,7 +72,7 @@ include
 "
 mozilla
 /
-StyleSheet
+UniquePtr
 .
 h
 "
@@ -291,7 +300,7 @@ class
 AccessibleCaretEventHub
 ;
 class
-CSSStyleSheet
+ServoStyleSheet
 ;
 }
 class
@@ -892,7 +901,8 @@ endif
 mozilla
 :
 :
-StyleSetHandle
+ServoStyleSet
+*
 StyleSet
 (
 )
@@ -900,6 +910,10 @@ const
 {
 return
 mStyleSet
+.
+get
+(
+)
 ;
 }
 nsCSSFrameConstructor
@@ -2137,7 +2151,7 @@ RefPtr
 mozilla
 :
 :
-StyleSheet
+ServoStyleSheet
 >
 >
 &
@@ -2158,7 +2172,7 @@ RefPtr
 mozilla
 :
 :
-StyleSheet
+ServoStyleSheet
 >
 >
 &
@@ -3712,7 +3726,13 @@ mPresContext
 mozilla
 :
 :
-StyleSetHandle
+UniquePtr
+<
+mozilla
+:
+:
+ServoStyleSet
+>
 mStyleSet
 ;
 nsCSSFrameConstructor
