@@ -13956,6 +13956,12 @@ valOrTmp
 HeapReg
 ptr
 ptr
+Register
+:
+:
+Invalid
+(
+)
 )
 ;
 }
