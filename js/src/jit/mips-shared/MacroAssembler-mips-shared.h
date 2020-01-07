@@ -626,6 +626,8 @@ imm
 void
 ma_addTestCarry
 (
+Condition
+cond
 Register
 rd
 Register
@@ -640,6 +642,8 @@ overflow
 void
 ma_addTestCarry
 (
+Condition
+cond
 Register
 rd
 Register

@@ -2461,10 +2461,14 @@ overflow
 break
 ;
 case
+CarryClear
+:
+case
 CarrySet
 :
 ma_addTestCarry
 (
+cond
 dest
 dest
 src

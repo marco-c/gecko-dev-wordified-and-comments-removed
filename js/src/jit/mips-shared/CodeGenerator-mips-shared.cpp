@@ -15353,8 +15353,12 @@ ok
 ;
 masm
 .
-ma_addTestCarryClear
+ma_addTestCarry
 (
+Assembler
+:
+:
+CarryClear
 out
 base
 Imm32
