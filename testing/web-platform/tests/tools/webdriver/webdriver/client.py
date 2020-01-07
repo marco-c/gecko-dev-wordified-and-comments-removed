@@ -4484,14 +4484,9 @@ send_element_command
 "
 POST
 "
-self
-.
-url
-(
 "
 clear
 "
-)
 {
 }
 )
