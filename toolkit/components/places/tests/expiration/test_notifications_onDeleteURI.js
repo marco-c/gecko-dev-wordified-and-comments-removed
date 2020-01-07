@@ -430,8 +430,6 @@ onPageChanged
 }
 onDeleteVisits
 (
-aURI
-aTime
 )
 {
 }

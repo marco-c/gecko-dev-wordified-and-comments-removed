@@ -11073,8 +11073,8 @@ OnDeleteVisits
 nsIURI
 *
 aURI
-PRTime
-aVisitTime
+bool
+aPartialRemoval
 const
 nsACString
 &
@@ -11093,7 +11093,7 @@ aURI
 if
 (
 !
-aVisitTime
+aPartialRemoval
 )
 {
 ItemChangeData

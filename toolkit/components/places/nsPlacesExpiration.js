@@ -2624,6 +2624,8 @@ onDeleteVisits
 [
 uri
 visitDate
+>
+0
 guid
 reason
 0
