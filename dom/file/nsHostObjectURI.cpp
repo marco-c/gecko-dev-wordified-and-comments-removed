@@ -792,11 +792,6 @@ newRef
 simpleClone
 )
 ;
-NS_TryToSetImmutable
-(
-simpleClone
-)
-;
 simpleClone
 .
 forget
