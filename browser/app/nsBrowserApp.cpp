@@ -1216,16 +1216,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-HAS_DLL_BLOCKLIST
-uint32_t
-gBlocklistInitFlags
-=
-eDllBlocklistInitFlagDefault
-;
-#
-endif
 int
 main
 (
@@ -1390,7 +1380,6 @@ ifdef
 HAS_DLL_BLOCKLIST
 DllBlocklist_Initialize
 (
-gBlocklistInitFlags
 )
 ;
 #

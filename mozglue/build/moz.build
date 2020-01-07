@@ -459,16 +459,6 @@ Authenticode
 .
 h
 '
-'
-WindowsDllBlocklistCommon
-.
-h
-'
-'
-WindowsDllBlocklistDefs
-.
-h
-'
 ]
 EXPORTS
 .
