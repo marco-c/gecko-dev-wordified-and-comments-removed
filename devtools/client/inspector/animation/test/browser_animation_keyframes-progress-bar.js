@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-3
+2
 )
 ;
 const
