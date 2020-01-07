@@ -112,6 +112,11 @@ DIRS
 =
 [
 '
+hybrid
+-
+content
+'
+'
 pingsender
 '
 ]
