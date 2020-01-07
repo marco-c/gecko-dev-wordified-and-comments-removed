@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULMultSelectCntrlEl
 .
 h
@@ -1235,7 +1228,7 @@ final
 public
 nsStyledElement
 public
-nsIDOMXULElement
+nsIDOMElement
 {
 public
 :
@@ -1504,7 +1497,6 @@ aAttribute
 const
 override
 ;
-NS_DECL_NSIDOMXULELEMENT
 virtual
 nsresult
 Clone

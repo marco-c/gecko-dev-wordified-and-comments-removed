@@ -139,11 +139,6 @@ nsIDOMXULDescriptionElement
 idl
 '
 '
-nsIDOMXULElement
-.
-idl
-'
-'
 nsIDOMXULLabeledControlEl
 .
 idl
