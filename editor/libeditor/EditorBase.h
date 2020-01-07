@@ -276,9 +276,6 @@ nsIWidget
 class
 nsRange
 ;
-class
-nsTransactionManager
-;
 namespace
 mozilla
 {
@@ -359,6 +356,9 @@ TextInputListener
 ;
 class
 TextServicesDocument
+;
+class
+TransactionManager
 ;
 enum
 class
@@ -4044,9 +4044,9 @@ mTextServicesDocument
 ;
 RefPtr
 <
-nsTransactionManager
+TransactionManager
 >
-mTxnMgr
+mTransactionManager
 ;
 nsCOMPtr
 <

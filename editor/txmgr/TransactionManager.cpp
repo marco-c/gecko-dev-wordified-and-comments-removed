@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+TransactionManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
@@ -82,21 +91,17 @@ h
 #
 include
 "
-nsTransactionManager
-.
-h
-"
-#
-include
-"
 nsTransactionStack
 .
 h
 "
-nsTransactionManager
+namespace
+mozilla
+{
+TransactionManager
 :
 :
-nsTransactionManager
+TransactionManager
 (
 int32_t
 aMaxTransactionCount
@@ -129,22 +134,13 @@ FOR_REDO
 )
 {
 }
-nsTransactionManager
-:
-:
-~
-nsTransactionManager
-(
-)
-{
-}
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsTransactionManager
+TransactionManager
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsTransactionManager
+TransactionManager
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -180,7 +176,7 @@ DoUnlink
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
-nsTransactionManager
+TransactionManager
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -219,7 +215,7 @@ cb
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsTransactionManager
+TransactionManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -237,14 +233,14 @@ nsITransactionManager
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsTransactionManager
+TransactionManager
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-nsTransactionManager
+TransactionManager
 )
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 DoTransaction
@@ -356,7 +352,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 UndoTransaction
@@ -513,7 +509,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 RedoTransaction
@@ -670,7 +666,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 Clear
@@ -703,7 +699,7 @@ ClearUndoStack
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 BeginBatch
@@ -782,7 +778,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 EndBatch
@@ -905,7 +901,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 GetNumberOfUndoItems
@@ -929,7 +925,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 GetNumberOfRedoItems
@@ -953,7 +949,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 GetMaxTransactionCount
@@ -979,7 +975,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 SetMaxTransactionCount
@@ -1153,7 +1149,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 PeekUndoStack
@@ -1188,7 +1184,7 @@ already_AddRefed
 <
 nsITransaction
 >
-nsTransactionManager
+TransactionManager
 :
 :
 PeekUndoStack
@@ -1227,7 +1223,7 @@ GetTransaction
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 PeekRedoStack
@@ -1262,7 +1258,7 @@ already_AddRefed
 <
 nsITransaction
 >
-nsTransactionManager
+TransactionManager
 :
 :
 PeekRedoStack
@@ -1301,7 +1297,7 @@ GetTransaction
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 BatchTopUndo
@@ -1442,7 +1438,7 @@ rv
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 RemoveTopUndo
@@ -1479,7 +1475,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 AddListener
@@ -1509,7 +1505,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 RemoveListener
@@ -1539,7 +1535,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 ClearUndoStack
@@ -1557,7 +1553,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsTransactionManager
+TransactionManager
 :
 :
 ClearRedoStack
@@ -1575,7 +1571,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 WillDoNotify
@@ -1661,7 +1657,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 DidDoNotify
@@ -1742,7 +1738,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 WillUndoNotify
@@ -1828,7 +1824,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 DidUndoNotify
@@ -1909,7 +1905,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 WillRedoNotify
@@ -1995,7 +1991,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 DidRedoNotify
@@ -2076,7 +2072,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 WillBeginBatchNotify
@@ -2158,7 +2154,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 DidBeginBatchNotify
@@ -2235,7 +2231,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 WillEndBatchNotify
@@ -2317,7 +2313,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 DidEndBatchNotify
@@ -2394,7 +2390,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 WillMergeNotify
@@ -2484,7 +2480,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 DidMergeNotify
@@ -2572,7 +2568,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 BeginTransaction
@@ -2676,7 +2672,7 @@ NS_OK
 ;
 }
 nsresult
-nsTransactionManager
+TransactionManager
 :
 :
 EndTransaction
@@ -3015,4 +3011,5 @@ forget
 return
 NS_OK
 ;
+}
 }
