@@ -829,9 +829,6 @@ dom
 MediaList
 *
 aMedia
-ImportRule
-*
-aGeckoParentRule
 LoaderReusableStyleSheets
 *
 aSavedSheets
@@ -1204,9 +1201,6 @@ aSheet
 StyleSheet
 *
 aParentSheet
-ImportRule
-*
-aGeckoParentRule
 )
 ;
 nsresult
