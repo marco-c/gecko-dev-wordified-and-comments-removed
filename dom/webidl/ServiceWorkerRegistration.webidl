@@ -293,7 +293,13 @@ Worker
 Func
 =
 "
-nsContentUtils
+mozilla
+:
+:
+dom
+:
+:
+DOMPrefs
 :
 :
 PushEnabled

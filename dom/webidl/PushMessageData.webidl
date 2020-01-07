@@ -119,7 +119,13 @@ api
 Func
 =
 "
-nsContentUtils
+mozilla
+:
+:
+dom
+:
+:
+DOMPrefs
 :
 :
 PushEnabled
