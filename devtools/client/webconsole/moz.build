@@ -117,6 +117,13 @@ utils
 DevToolsModules
 (
 '
+browser
+-
+console
+.
+js
+'
+'
 console
 -
 commands
@@ -187,6 +194,11 @@ webconsole
 output
 -
 wrapper
+.
+js
+'
+'
+webconsole
 .
 js
 '
