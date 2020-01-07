@@ -242,6 +242,15 @@ for
 developer
 builds
 .
+Tests
+always
+need
+a
+new
+buildid
+as
+well
+.
 ifneq
 (
 (
@@ -249,6 +258,9 @@ MOZ_AUTOMATION
 )
 (
 MOZ_BUILD_DATE
+)
+(
+TEST_MOZBUILD
 )
 )
 buildid
