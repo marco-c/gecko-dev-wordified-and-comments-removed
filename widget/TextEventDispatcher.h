@@ -739,6 +739,10 @@ static
 bool
 sDispatchKeyEventsDuringComposition
 ;
+static
+bool
+sDispatchKeyPressEventsOnlySystemGroupInContent
+;
 nsresult
 BeginInputTransactionInternal
 (
