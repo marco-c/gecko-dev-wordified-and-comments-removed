@@ -516,6 +516,9 @@ bar
 512
 ]
 ;
+size_t
+dummy
+;
 void
 end_test
 (
