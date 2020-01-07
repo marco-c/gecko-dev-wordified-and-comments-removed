@@ -116,12 +116,6 @@ Ci
 nsIDOMParser
 )
 ;
-parser
-.
-init
-(
-)
-;
 let
 parsedDoc
 =

@@ -112,7 +112,7 @@ nsIDOMParser
 ;
 parser
 .
-init
+forceEnableXULXBL
 (
 )
 ;
