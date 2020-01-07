@@ -180,7 +180,7 @@ CentralizedAdminPrefManagerFinish
 )
 ;
 static
-void
+nsresult
 DisplayError
 (
 void
@@ -218,6 +218,7 @@ if
 promptService
 )
 return
+NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
@@ -236,6 +237,7 @@ if
 bundleService
 )
 return
+NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
@@ -273,6 +275,7 @@ if
 bundle
 )
 return
+NS_ERROR_FAILURE
 ;
 nsAutoString
 title
@@ -298,6 +301,7 @@ rv
 )
 )
 return
+rv
 ;
 nsAutoString
 err
@@ -323,7 +327,9 @@ rv
 )
 )
 return
+rv
 ;
+return
 promptService
 -
 >
@@ -484,10 +490,20 @@ rv
 )
 )
 {
+rv
+=
 DisplayError
 (
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
 nsCOMPtr
 <
 nsIAppStartup
@@ -514,6 +530,7 @@ nsIAppStartup
 eAttemptQuit
 )
 ;
+}
 }
 }
 return
