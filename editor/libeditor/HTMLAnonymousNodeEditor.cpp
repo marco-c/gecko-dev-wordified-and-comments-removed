@@ -1546,17 +1546,8 @@ absPosElement
 mAbsolutelyPositionedObject
 )
 {
-nsresult
-rv
-=
 HideGrabber
 (
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 NS_ASSERTION
@@ -1799,7 +1790,7 @@ else
 nsresult
 rv
 =
-ShowGrabberOnElement
+ShowGrabber
 (
 *
 absPosElement
