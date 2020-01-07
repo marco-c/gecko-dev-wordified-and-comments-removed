@@ -31,12 +31,6 @@ x86
 '
     
 '
-publish_nightly_en_US_routes
-'
-:
-False
-    
-'
 build_type
 '
 :

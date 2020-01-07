@@ -87,12 +87,6 @@ max_build_output_timeout
 80
     
 '
-publish_nightly_en_US_routes
-'
-:
-True
-    
-'
 env
 '
 :

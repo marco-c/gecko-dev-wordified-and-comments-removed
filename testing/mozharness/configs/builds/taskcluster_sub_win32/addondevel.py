@@ -44,12 +44,6 @@ devel
 '
     
 '
-publish_nightly_en_US_routes
-'
-:
-False
-    
-'
 mozconfig_variant
 '
 :

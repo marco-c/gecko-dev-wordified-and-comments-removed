@@ -37,12 +37,6 @@ asan
 '
     
 '
-publish_nightly_en_US_routes
-'
-:
-False
-    
-'
 build_type
 '
 :

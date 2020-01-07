@@ -71,18 +71,6 @@ net
 '
         
 '
-taskcluster_index
-'
-:
-'
-index
-.
-garbage
-.
-staging
-'
-        
-'
 post_upload_extra
 '
 :
@@ -170,14 +158,6 @@ graphs
 mozilla
 .
 org
-'
-        
-'
-taskcluster_index
-'
-:
-'
-index
 '
     
 }

@@ -853,12 +853,6 @@ mobile
 '
     
 '
-publish_nightly_en_US_routes
-'
-:
-True
-    
-'
 post_upload_include_platform
 '
 :
@@ -869,12 +863,6 @@ enable_max_vsize
 '
 :
 False
-    
-'
-use_package_as_marfile
-'
-:
-True
     
 '
 env

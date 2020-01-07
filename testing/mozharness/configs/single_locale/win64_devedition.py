@@ -11,14 +11,6 @@ win64
 "
     
 "
-stage_product
-"
-:
-"
-firefox
-"
-    
-"
 app_name
 "
 :
