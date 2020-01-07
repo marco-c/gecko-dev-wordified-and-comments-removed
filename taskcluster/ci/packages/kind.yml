@@ -470,13 +470,6 @@ dsc
 sha256
 :
 25cd62b011d669c31bcd51d36d454dd826bc50af6a3af8d87bcab8948ec21626
-patch
-:
-ninja
--
-wheezy
-.
-diff
 deb7
 -
 mercurial
@@ -691,13 +684,6 @@ dsc
 sha256
 :
 6e81a318fb4eb5cca0333b7b6ff0c70dd0097e9fe711b159d5eac4b9f47c6c27
-patch
-:
-git
--
-wheezy
-.
-diff
 deb7
 -
 valgrind
