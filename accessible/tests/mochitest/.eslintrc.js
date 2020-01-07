@@ -57,17 +57,6 @@ error
 "
 no
 -
-cond
--
-assign
-"
-:
-"
-off
-"
-"
-no
--
 lonely
 -
 if

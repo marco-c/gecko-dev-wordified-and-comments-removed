@@ -1931,12 +1931,14 @@ res
 ;
 while
 (
+(
 res
 =
 result
 .
 iterateNext
 (
+)
 )
 )
 found
