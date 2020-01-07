@@ -77,6 +77,16 @@ nsISelectionDisplay
 .
 h
 "
+namespace
+mozilla
+{
+enum
+class
+TableSelection
+:
+uint32_t
+;
+}
 #
 define
 NS_FRAME_TRACE_CALLS
@@ -2233,7 +2243,7 @@ override
 ;
 protected
 :
-NS_IMETHOD
+nsresult
 GetDataForTableSelection
 (
 const
@@ -2256,7 +2266,10 @@ aParentContent
 int32_t
 *
 aContentOffset
-int32_t
+mozilla
+:
+:
+TableSelection
 *
 aTarget
 )

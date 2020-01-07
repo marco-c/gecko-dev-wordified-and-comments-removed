@@ -1923,7 +1923,10 @@ result
 NS_ERROR_FAILURE
 )
 *
-TABLESELECTION_CELL
+TableSelection
+:
+:
+Cell
 There
 are
 1
@@ -1941,7 +1944,10 @@ are
 not
 selected
 *
-TABLESELECTION_ROW
+TableSelection
+:
+:
+Row
 All
 cells
 are
@@ -1977,7 +1983,10 @@ cells
 are
 selected
 *
-TABLESELECTION_COLUMN
+TableSelection
+:
+:
+Column
 All
 cells
 are
