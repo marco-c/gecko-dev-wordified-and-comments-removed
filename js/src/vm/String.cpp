@@ -2879,6 +2879,10 @@ js_free
 wholeChars
 )
 ;
+if
+(
+maybecx
+)
 ReportOutOfMemory
 (
 maybecx
