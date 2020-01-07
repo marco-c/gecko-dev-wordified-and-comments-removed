@@ -240,7 +240,7 @@ GeckoViewSettings
 extends
 GeckoViewModule
 {
-init
+onInit
 (
 )
 {
