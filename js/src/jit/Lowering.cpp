@@ -12543,6 +12543,9 @@ useRegister
 (
 idx
 )
+temp
+(
+)
 )
 ;
 define
