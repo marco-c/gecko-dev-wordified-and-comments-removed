@@ -22,6 +22,17 @@ js
 "
 )
 ;
+const
+{
+InvalidArgumentError
+InvalidSessionIDError
+JavaScriptError
+NoSuchWindowError
+SessionNotCreatedError
+UnexpectedAlertOpenError
+UnsupportedOperationError
+}
+=
 ChromeUtils
 .
 import
@@ -39,6 +50,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 add_test

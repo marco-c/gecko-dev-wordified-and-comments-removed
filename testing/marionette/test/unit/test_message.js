@@ -1,3 +1,9 @@
+const
+{
+InvalidArgumentError
+WebDriverError
+}
+=
 ChromeUtils
 .
 import
@@ -15,6 +21,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 ChromeUtils
@@ -940,7 +948,8 @@ resp
 .
 sendConditionally
 (
-r
+(
+)
 =
 >
 false
@@ -964,7 +973,8 @@ resp
 .
 sendConditionally
 (
-r
+(
+)
 =
 >
 true
