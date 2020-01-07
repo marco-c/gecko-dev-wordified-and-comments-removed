@@ -540,17 +540,6 @@ mOriginAttributes
 .
 mFirstPartyDomain
 ;
-attrs
-.
-mPrivateBrowsingId
-=
-mRequestSession
--
->
-mOriginAttributes
-.
-mPrivateBrowsingId
-;
 nsCOMPtr
 <
 nsILoadInfo
