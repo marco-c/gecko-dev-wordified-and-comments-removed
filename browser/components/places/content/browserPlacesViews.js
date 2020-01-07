@@ -938,7 +938,7 @@ null
 ;
 return
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -8133,7 +8133,7 @@ dropPoint
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -8233,7 +8233,7 @@ dropPoint
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -8305,7 +8305,7 @@ dropPoint
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -8398,7 +8398,7 @@ dropPoint
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -8471,7 +8471,7 @@ dropPoint
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -8523,7 +8523,7 @@ dropPoint
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId

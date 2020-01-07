@@ -336,7 +336,7 @@ let
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId

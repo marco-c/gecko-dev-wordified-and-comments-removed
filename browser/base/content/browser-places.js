@@ -2257,7 +2257,7 @@ let
 defaultInsertionPoint
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -2519,7 +2519,7 @@ let
 toolbarIP
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -4582,7 +4582,7 @@ let
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -4640,7 +4640,7 @@ let
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId

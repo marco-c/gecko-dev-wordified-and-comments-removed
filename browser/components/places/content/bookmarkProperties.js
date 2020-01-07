@@ -527,7 +527,7 @@ this
 _defaultInsertionPoint
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId

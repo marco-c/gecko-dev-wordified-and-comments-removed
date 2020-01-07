@@ -68,7 +68,7 @@ jsm
 )
 ;
 function
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 parentId
@@ -133,7 +133,7 @@ dropNearNode
 dropNearNode
 ;
 }
-InsertionPoint
+PlacesInsertionPoint
 .
 prototype
 =
