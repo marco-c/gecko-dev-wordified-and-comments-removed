@@ -2257,7 +2257,7 @@ options
 .
 runByManifest
 =
-False
+True
     
 if
 options
