@@ -6194,6 +6194,11 @@ CleanupRedirectingChannel
 rv
 )
 ;
+if
+(
+mNewChannel
+)
+{
 mNewChannel
 -
 >
@@ -6202,6 +6207,7 @@ Cancel
 rv
 )
 ;
+}
 return
 NS_OK
 ;
