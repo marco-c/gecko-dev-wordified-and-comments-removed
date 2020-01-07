@@ -16,7 +16,7 @@ html
 ;
 const
 {
-openWebLink
+openDocLink
 openTrustedLink
 }
 =
@@ -55,7 +55,7 @@ page
 "
 )
 ;
-openWebLink
+openDocLink
 (
 TEST_URI
 )
@@ -81,7 +81,7 @@ currentURI
 spec
 TEST_URI
 "
-openWebLink
+openDocLink
 opened
 a
 tab

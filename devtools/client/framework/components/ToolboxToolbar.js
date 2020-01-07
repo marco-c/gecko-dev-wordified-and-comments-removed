@@ -78,7 +78,7 @@ dom
 ;
 const
 {
-openWebLink
+openDocLink
 }
 =
 require
@@ -1484,7 +1484,7 @@ click
 =
 >
 {
-openWebLink
+openDocLink
 (
 "
 https
@@ -1560,7 +1560,7 @@ click
 =
 >
 {
-openWebLink
+openDocLink
 (
 "
 https

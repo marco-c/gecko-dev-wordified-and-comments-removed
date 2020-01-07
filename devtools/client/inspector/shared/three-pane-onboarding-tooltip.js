@@ -15,7 +15,7 @@ Services
 ;
 const
 {
-openWebLink
+openDocLink
 }
 =
 require
@@ -720,7 +720,7 @@ hide
 (
 )
 ;
-openWebLink
+openDocLink
 (
 LEARN_MORE_LINK
 )

@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-openWebLink
+openDocLink
 openTrustedLink
 }
 =
@@ -243,7 +243,7 @@ openDocumentation
 (
 )
 {
-openWebLink
+openDocLink
 (
 DOC_URL
 )
