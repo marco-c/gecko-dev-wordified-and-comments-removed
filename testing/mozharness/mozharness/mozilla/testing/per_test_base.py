@@ -1961,15 +1961,11 @@ get
 '
 gpu_required
 '
-'
 False
-'
 )
-!
-=
-'
+is
+not
 False
-'
 :
             
 self
