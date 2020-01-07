@@ -8651,14 +8651,6 @@ UpdateUrlbarSearchSplitterState
 (
 )
 ;
-gBrowser
-.
-tabContainer
-.
-updateVisibility
-(
-)
-;
 BookmarkingUI
 .
 init
