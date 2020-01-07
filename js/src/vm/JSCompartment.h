@@ -3282,9 +3282,6 @@ SystemAllocPolicy
 IteratorCache
 iteratorCache
 ;
-uint32_t
-globalWriteBarriered
-;
 int32_t
 detachedTypedObjects
 ;
@@ -4504,6 +4501,11 @@ nullptr
 ;
 int64_t
 lastAnimationTime
+=
+0
+;
+uint32_t
+globalWriteBarriered
 =
 0
 ;

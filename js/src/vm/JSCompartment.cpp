@@ -291,10 +291,6 @@ nullptr
 regExps
 (
 )
-globalWriteBarriered
-(
-0
-)
 detachedTypedObjects
 (
 0
@@ -3454,10 +3450,6 @@ JSTracer
 trc
 )
 {
-globalWriteBarriered
-=
-0
-;
 InnerViewTable
 &
 table
@@ -3500,6 +3492,13 @@ GetRealmForCompartment
 (
 this
 )
+;
+realm
+-
+>
+globalWriteBarriered
+=
+0
 ;
 realm
 -
