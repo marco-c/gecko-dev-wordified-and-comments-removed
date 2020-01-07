@@ -281,10 +281,6 @@ ScrollState
 )
 MOZ_DECL_STATE_CLASS_GETTER
 (
-PostScrollState
-)
-MOZ_DECL_STATE_CLASS_GETTER
-(
 LongTapState
 )
 void
@@ -428,12 +424,6 @@ nsITimer
 >
 mLongTapInjectorTimer
 ;
-nsCOMPtr
-<
-nsITimer
->
-mScrollEndInjectorTimer
-;
 nsPoint
 mPressPoint
 {
@@ -459,13 +449,6 @@ false
 static
 bool
 sUseLongTapInjector
-;
-static
-const
-int32_t
-kScrollEndTimerDelay
-=
-300
 ;
 static
 const
