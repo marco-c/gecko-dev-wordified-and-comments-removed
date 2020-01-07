@@ -1336,11 +1336,9 @@ workingDir
 topobjdir
 }
 /
-mobile
+widget
 /
 android
-/
-base
 "
 dependsOn
 jarTask
@@ -1623,11 +1621,11 @@ workingDir
 topobjdir
 }
 /
-mobile
+widget
 /
 android
 /
-base
+fennec
 "
 /
 /
