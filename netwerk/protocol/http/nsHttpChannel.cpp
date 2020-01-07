@@ -16369,8 +16369,17 @@ allowApplicationCache
 ;
 maybeRCWN
 =
+(
 !
 lookupAppCache
+)
+&
+&
+mRequestHead
+.
+IsSafeMethod
+(
+)
 ;
 rv
 =
