@@ -87,22 +87,6 @@ l10n
 "
     
 "
-locales_file
-"
-:
-"
-src
-/
-browser
-/
-locales
-/
-all
--
-locales
-"
-    
-"
 locales_dir
 "
 :
