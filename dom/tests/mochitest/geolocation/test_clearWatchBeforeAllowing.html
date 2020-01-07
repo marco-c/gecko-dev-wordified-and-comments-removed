@@ -191,6 +191,11 @@ text
 javascript
 "
 >
+"
+use
+strict
+"
+;
 SimpleTest
 .
 waitForExplicitFinish
@@ -239,6 +244,11 @@ function
 pos
 )
 {
+check_geolocation
+(
+pos
+)
+;
 successCallbackCalled
 =
 true
@@ -267,6 +277,11 @@ function
 pos
 )
 {
+check_geolocation
+(
+pos
+)
+;
 SimpleTest
 .
 executeSoon

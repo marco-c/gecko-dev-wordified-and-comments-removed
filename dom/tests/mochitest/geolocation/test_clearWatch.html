@@ -193,6 +193,11 @@ text
 javascript
 "
 >
+"
+use
+strict
+"
+;
 SimpleTest
 .
 waitForExplicitFinish
@@ -279,6 +284,11 @@ successWasCalledAfterClear
 successWasCalledAfterClear
 )
 ;
+check_geolocation
+(
+position
+)
+;
 if
 (
 hasBeenCleared
@@ -310,6 +320,9 @@ false
 ;
 }
 }
+let
+watchID
+;
 function
 clearWatch
 (

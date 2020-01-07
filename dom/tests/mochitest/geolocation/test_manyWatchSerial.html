@@ -191,6 +191,11 @@ text
 javascript
 "
 >
+"
+use
+strict
+"
+;
 SimpleTest
 .
 waitForExplicitFinish
@@ -228,6 +233,11 @@ successCallback
 position
 )
 {
+check_geolocation
+(
+position
+)
+;
 navigator
 .
 geolocation
