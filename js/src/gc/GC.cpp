@@ -1111,7 +1111,7 @@ FreeSpan
 ArenaLists
 :
 :
-placeholder
+emptySentinel
 ;
 #
 undef
@@ -14259,7 +14259,7 @@ i
 ]
 =
 &
-placeholder
+emptySentinel
 ;
 backgroundFinalizeState
 (
