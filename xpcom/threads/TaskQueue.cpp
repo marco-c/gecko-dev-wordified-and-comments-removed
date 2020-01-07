@@ -302,17 +302,6 @@ TaskQueue
 (
 )
 {
-MonitorAutoLock
-mon
-(
-mQueueMonitor
-)
-;
-MOZ_ASSERT
-(
-mIsShutdown
-)
-;
 }
 TaskDispatcher
 &
