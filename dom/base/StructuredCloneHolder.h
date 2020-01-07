@@ -147,7 +147,7 @@ StructuredCloneHolderBase
 aOther
 )
 =
-default
+delete
 ;
 virtual
 JSObject
@@ -521,7 +521,7 @@ StructuredCloneHolder
 aOther
 )
 =
-default
+delete
 ;
 void
 Write
