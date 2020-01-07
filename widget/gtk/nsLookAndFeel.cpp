@@ -152,6 +152,10 @@ prenv
 h
 "
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :
@@ -2646,9 +2650,6 @@ aFontStyle
 >
 weight
 =
-mozilla
-:
-:
 FontWeight
 (
 pango_font_description_get_weight
