@@ -1985,16 +1985,10 @@ stylesheet_origin
 :
 origin
 shared_lock
-:
-shared_lock
 loader
 :
 stylesheet_loader
 context
-:
-context
-error_context
-:
 error_context
 state
 :
@@ -2005,8 +1999,6 @@ Start
 had_hierarchy_error
 :
 false
-namespaces
-:
 namespaces
 }
 ;
