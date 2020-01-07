@@ -660,13 +660,6 @@ aInsertToBreak
 )
 ;
 nsresult
-DidInsertBreak
-(
-nsresult
-aResult
-)
-;
-nsresult
 SplitMailCites
 (
 bool
