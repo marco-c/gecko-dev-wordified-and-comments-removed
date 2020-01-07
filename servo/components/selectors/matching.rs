@@ -501,9 +501,6 @@ always
 ]
 fn
 may_match
-<
-E
->
 (
 hashes
 :
@@ -517,10 +514,6 @@ BloomFilter
 -
 >
 bool
-where
-E
-:
-Element
 {
 for
 i
@@ -976,11 +969,6 @@ bloom_filter
 if
 !
 may_match
-:
-:
-<
-E
->
 (
 hashes
 filter
