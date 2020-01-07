@@ -534,11 +534,6 @@ ServoElementSnapshotTable
 h
 '
 '
-ServoFontFeatureValuesRule
-.
-h
-'
-'
 ServoSpecifiedValues
 .
 h
@@ -1083,11 +1078,6 @@ cpp
 '
 '
 ServoElementSnapshot
-.
-cpp
-'
-'
-ServoFontFeatureValuesRule
 .
 cpp
 '
