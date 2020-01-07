@@ -1726,7 +1726,7 @@ settings
 )
 session
 .
-openWindow
+open
 (
 null
 )

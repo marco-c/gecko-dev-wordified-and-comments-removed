@@ -5335,7 +5335,7 @@ getSession
 (
 )
 .
-closeWindow
+close
 (
 )
 ;

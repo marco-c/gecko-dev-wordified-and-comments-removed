@@ -1050,7 +1050,7 @@ instance
 }
 session
 .
-openWindow
+open
 (
 null
 )
@@ -3195,7 +3195,7 @@ isReady
 }
 public
 void
-openWindow
+open
 (
 final
 Nullable
@@ -3403,7 +3403,7 @@ onWindowChanged
 }
 public
 void
-closeWindow
+close
 (
 )
 {
