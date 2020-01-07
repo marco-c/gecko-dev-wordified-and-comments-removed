@@ -438,6 +438,8 @@ attributes
 build_platform
 :
 linux64
+-
+nightly
 firefox
 -
 linux
@@ -527,6 +529,8 @@ attributes
 build_platform
 :
 linux
+-
+nightly
 firefox
 -
 win64
@@ -616,6 +620,8 @@ attributes
 build_platform
 :
 win64
+-
+nightly
 firefox
 -
 win32
@@ -705,6 +711,8 @@ attributes
 build_platform
 :
 win32
+-
+nightly
 firefox
 -
 macosx64
@@ -794,6 +802,8 @@ attributes
 build_platform
 :
 macosx64
+-
+nightly
 devedition
 -
 linux64
@@ -844,6 +854,8 @@ build_platform
 linux64
 -
 devedition
+-
+nightly
 devedition
 -
 linux
@@ -894,6 +906,8 @@ build_platform
 linux
 -
 devedition
+-
+nightly
 devedition
 -
 win64
@@ -944,6 +958,8 @@ build_platform
 win64
 -
 devedition
+-
+nightly
 devedition
 -
 win32
@@ -994,6 +1010,8 @@ build_platform
 win32
 -
 devedition
+-
+nightly
 devedition
 -
 macosx64
@@ -1044,3 +1062,5 @@ build_platform
 macosx64
 -
 devedition
+-
+nightly

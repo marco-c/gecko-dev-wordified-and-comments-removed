@@ -465,6 +465,8 @@ attributes
 build_platform
 :
 linux
+-
+nightly
 extra
 :
 platform
@@ -506,6 +508,8 @@ attributes
 build_platform
 :
 linux64
+-
+nightly
 extra
 :
 platform
@@ -547,6 +551,8 @@ attributes
 build_platform
 :
 macosx64
+-
+nightly
 extra
 :
 platform
@@ -586,6 +592,8 @@ attributes
 build_platform
 :
 win32
+-
+nightly
 extra
 :
 platform
@@ -625,6 +633,8 @@ attributes
 build_platform
 :
 win64
+-
+nightly
 extra
 :
 platform
