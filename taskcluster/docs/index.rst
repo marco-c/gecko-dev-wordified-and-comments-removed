@@ -208,6 +208,9 @@ images
 cron
 try
 actions
+release
+-
+promotion
 how
 -
 tos
