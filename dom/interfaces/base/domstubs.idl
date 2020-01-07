@@ -285,9 +285,6 @@ nsIDOMRect
 interface
 nsIDOMCSSStyleRule
 ;
-interface
-nsIDOMCSSStyleRuleCollection
-;
 /
 /
 Range
