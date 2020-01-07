@@ -50,6 +50,10 @@ friend
 class
 SVGForeignObjectElement
 ;
+friend
+class
+nsIDocument
+;
 public
 :
 SVGDocument
