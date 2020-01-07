@@ -152,7 +152,7 @@ false
 }
 virtual
 LayoutDeviceIntSize
-GetClientSize
+GetBufferSize
 (
 )
 =

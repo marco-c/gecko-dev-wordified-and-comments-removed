@@ -356,7 +356,7 @@ LayoutDeviceIntSize
 RenderCompositorOGL
 :
 :
-GetClientSize
+GetBufferSize
 (
 )
 {
