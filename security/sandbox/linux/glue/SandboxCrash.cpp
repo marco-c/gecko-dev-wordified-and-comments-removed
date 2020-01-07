@@ -33,6 +33,15 @@ include
 "
 mozilla
 /
+StackWalk
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -65,9 +74,7 @@ h
 #
 include
 "
-mozilla
-/
-StackWalk
+nsIException
 .
 h
 "

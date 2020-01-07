@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h

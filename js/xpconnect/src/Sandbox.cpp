@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h

@@ -284,6 +284,13 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

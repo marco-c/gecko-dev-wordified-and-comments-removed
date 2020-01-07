@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

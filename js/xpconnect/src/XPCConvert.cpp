@@ -4749,7 +4749,7 @@ methodName
 nsISupports
 *
 data
-nsIException
+Exception
 *
 *
 exceptn
@@ -5048,7 +5048,7 @@ const
 JSErrorReport
 *
 report
-nsIException
+Exception
 *
 *
 exceptn
@@ -5299,7 +5299,7 @@ const
 char
 *
 methodName
-nsIException
+Exception
 *
 *
 exceptn
@@ -5397,7 +5397,7 @@ unwrapped
 {
 nsCOMPtr
 <
-nsIException
+Exception
 >
 iface
 =
@@ -5411,15 +5411,7 @@ if
 iface
 )
 {
-nsCOMPtr
-<
-nsIException
->
-temp
-=
 iface
-;
-temp
 .
 forget
 (
@@ -5430,8 +5422,6 @@ return
 NS_OK
 ;
 }
-else
-{
 return
 ConstructException
 (
@@ -5445,7 +5435,6 @@ nullptr
 nullptr
 )
 ;
-}
 }
 else
 {
