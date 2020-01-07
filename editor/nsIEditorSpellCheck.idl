@@ -303,7 +303,7 @@ nsISpellChecker
 GetNextMisspelledWord
 *
 /
-wstring
+AString
 GetNextMisspelledWord
 (
 )
@@ -389,7 +389,7 @@ nsISpellChecker
 GetSuggestedWord
 *
 /
-wstring
+AString
 GetSuggestedWord
 (
 )
@@ -459,7 +459,7 @@ boolean
 CheckCurrentWord
 (
 in
-wstring
+AString
 suggestedWord
 )
 ;
@@ -491,10 +491,10 @@ void
 ReplaceWord
 (
 in
-wstring
+AString
 misspelledWord
 in
-wstring
+AString
 replaceWord
 in
 boolean
@@ -516,7 +516,7 @@ void
 IgnoreWordAllOccurrences
 (
 in
-wstring
+AString
 word
 )
 ;
@@ -602,7 +602,7 @@ words
 .
 *
 /
-wstring
+AString
 GetPersonalDictionaryWord
 (
 )
@@ -633,7 +633,7 @@ void
 AddWordToDictionary
 (
 in
-wstring
+AString
 word
 )
 ;
@@ -663,7 +663,7 @@ void
 RemoveWordFromDictionary
 (
 in
-wstring
+AString
 word
 )
 ;
@@ -952,7 +952,7 @@ boolean
 CheckCurrentWordNoSuggest
 (
 in
-wstring
+AString
 suggestedWord
 )
 ;
