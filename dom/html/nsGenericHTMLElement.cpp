@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsIDOMDocumentFragment
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

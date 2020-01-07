@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMDocumentFragment
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

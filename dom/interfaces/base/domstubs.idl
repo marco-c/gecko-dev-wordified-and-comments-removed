@@ -140,9 +140,6 @@ interface
 nsIDOMDocument
 ;
 interface
-nsIDOMDocumentFragment
-;
-interface
 nsIDOMElement
 ;
 interface
