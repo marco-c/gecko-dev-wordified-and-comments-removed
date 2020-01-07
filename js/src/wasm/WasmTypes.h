@@ -7726,6 +7726,13 @@ Instance
 *
 instance
 ;
+JS
+:
+:
+Realm
+*
+realm
+;
 JSContext
 *
 cx
@@ -7887,6 +7894,13 @@ code
 TlsData
 *
 tls
+;
+JS
+:
+:
+Realm
+*
+realm
 ;
 jit
 :

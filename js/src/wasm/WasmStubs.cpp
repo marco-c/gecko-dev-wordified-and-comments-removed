@@ -5754,6 +5754,14 @@ loadWasmPinnedRegsFromTls
 (
 )
 ;
+masm
+.
+switchToWasmTlsRealm
+(
+ABINonArgReturnReg0
+ABINonArgReturnReg1
+)
+;
 GenerateFunctionEpilogue
 (
 masm
