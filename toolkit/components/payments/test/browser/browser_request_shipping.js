@@ -82,7 +82,7 @@ number
 "
 }
 ;
-profileStorage
+formAutofillStorage
 .
 creditCards
 .

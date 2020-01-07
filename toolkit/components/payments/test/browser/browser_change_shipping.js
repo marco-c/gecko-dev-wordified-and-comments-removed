@@ -39,7 +39,7 @@ add
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -82,7 +82,7 @@ add
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -125,7 +125,7 @@ add
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 creditCards
 .
