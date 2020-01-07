@@ -3477,6 +3477,12 @@ on
 projects
 :
 [
+'
+trunk
+'
+'
+try
+'
 ]
 toolchains
 :
@@ -3651,6 +3657,12 @@ on
 projects
 :
 [
+'
+trunk
+'
+'
+try
+'
 ]
 toolchains
 :
