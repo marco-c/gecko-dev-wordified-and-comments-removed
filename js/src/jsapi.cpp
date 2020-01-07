@@ -17037,6 +17037,13 @@ rc
 =
 0
 )
+{
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 cx
 -
 >
@@ -17050,6 +17057,7 @@ destroyPrincipals
 principals
 )
 ;
+}
 }
 JS_PUBLIC_API
 (

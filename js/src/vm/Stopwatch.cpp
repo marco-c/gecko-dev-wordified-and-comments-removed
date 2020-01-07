@@ -1970,6 +1970,12 @@ refCount_
 )
 return
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 this
 -
 >
