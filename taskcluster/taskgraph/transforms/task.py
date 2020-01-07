@@ -9869,6 +9869,23 @@ if
 task_th
 :
             
+extra
+.
+setdefault
+(
+'
+treeherder
+-
+platform
+'
+task_th
+[
+'
+platform
+'
+]
+)
+            
 treeherder
 =
 extra
