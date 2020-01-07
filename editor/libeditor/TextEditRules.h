@@ -347,6 +347,7 @@ InitFields
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 WillInsertText
 (
