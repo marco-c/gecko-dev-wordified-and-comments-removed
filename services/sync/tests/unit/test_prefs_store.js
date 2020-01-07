@@ -225,7 +225,7 @@ Services
 .
 prefs
 .
-readUserPrefsFromFile
+readDefaultPrefsFromFile
 (
 do_get_file
 (
