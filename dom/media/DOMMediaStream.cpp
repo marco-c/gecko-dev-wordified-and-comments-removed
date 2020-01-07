@@ -2604,6 +2604,9 @@ GetCurrentTime
 -
 mLogicalStreamStartTime
 )
+GetRandomTimelineSeed
+(
+)
 )
 ;
 }

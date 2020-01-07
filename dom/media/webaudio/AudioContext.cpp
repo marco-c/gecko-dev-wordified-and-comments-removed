@@ -2932,7 +2932,6 @@ AudioContext
 CurrentTime
 (
 )
-const
 {
 MediaStream
 *
@@ -2964,6 +2963,9 @@ stream
 GetCurrentTime
 (
 )
+)
+GetRandomTimelineSeed
+(
 )
 )
 ;
