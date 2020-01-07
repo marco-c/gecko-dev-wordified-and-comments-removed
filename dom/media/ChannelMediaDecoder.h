@@ -225,6 +225,12 @@ aEventVisibility
 )
 override
 ;
+void
+NotifyPrincipalChanged
+(
+)
+override
+;
 RefPtr
 <
 ResourceCallback
@@ -464,6 +470,11 @@ mPlaybackPosition
 ;
 bool
 mCanPlayThrough
+=
+false
+;
+bool
+mInitialChannelPrincipalKnown
 =
 false
 ;

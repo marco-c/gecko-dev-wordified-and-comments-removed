@@ -1366,6 +1366,7 @@ SeekTarget
 aTarget
 )
 ;
+virtual
 void
 NotifyPrincipalChanged
 (
