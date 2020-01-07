@@ -1338,7 +1338,6 @@ nsIContentPolicy
 TYPE_SCRIPT
 nullptr
 nullptr
-nullptr
 nsIRequest
 :
 :

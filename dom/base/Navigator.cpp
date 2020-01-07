@@ -4876,7 +4876,6 @@ nsIContentPolicy
 TYPE_BEACON
 nullptr
 nullptr
-nullptr
 loadFlags
 )
 ;

@@ -1075,6 +1075,13 @@ ClearResourceTimings
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mResourceEntries
 .
 Clear
@@ -1964,7 +1971,6 @@ Length
 (
 )
 <
-=
 mResourceTimingBufferSize
 )
 ;

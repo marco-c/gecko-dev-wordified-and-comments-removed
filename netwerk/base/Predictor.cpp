@@ -6690,7 +6690,6 @@ nsIContentPolicy
 TYPE_OTHER
 nullptr
 nullptr
-nullptr
 nsIRequest
 :
 :

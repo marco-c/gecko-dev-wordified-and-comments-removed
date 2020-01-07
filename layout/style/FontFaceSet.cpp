@@ -3158,7 +3158,6 @@ nsIContentPolicy
 :
 :
 TYPE_FONT
-nullptr
 loadGroup
 )
 ;

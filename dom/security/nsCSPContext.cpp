@@ -4554,7 +4554,6 @@ nsIContentPolicy
 TYPE_CSP_REPORT
 nullptr
 nullptr
-nullptr
 loadFlags
 )
 ;
@@ -4579,7 +4578,6 @@ nsIContentPolicy
 :
 :
 TYPE_CSP_REPORT
-nullptr
 nullptr
 nullptr
 loadFlags

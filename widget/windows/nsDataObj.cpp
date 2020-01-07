@@ -339,7 +339,6 @@ SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
 aContentPolicyType
 nullptr
 nullptr
-nullptr
 nsIRequest
 :
 :

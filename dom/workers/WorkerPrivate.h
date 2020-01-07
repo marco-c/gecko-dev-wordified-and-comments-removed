@@ -293,9 +293,6 @@ class
 MessagePortIdentifier
 ;
 class
-PerformanceStorage
-;
-class
 PromiseNativeHandler
 ;
 class
@@ -2895,12 +2892,6 @@ nsIRunnable
 >
 mLoadFailedRunnable
 ;
-RefPtr
-<
-PerformanceStorage
->
-mPerformanceStorage
-;
 JS
 :
 :
@@ -4093,12 +4084,6 @@ aServiceWorker
 ;
 void
 ExecutionReady
-(
-)
-;
-PerformanceStorage
-*
-GetPerformanceStorage
 (
 )
 ;

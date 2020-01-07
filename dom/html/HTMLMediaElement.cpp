@@ -4814,7 +4814,6 @@ aElement
 triggeringPrincipal
 securityFlags
 contentPolicyType
-nullptr
 loadGroup
 nullptr
 nsICachingChannel

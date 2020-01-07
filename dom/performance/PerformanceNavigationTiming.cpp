@@ -88,7 +88,7 @@ UnloadEventStart
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -111,7 +111,7 @@ UnloadEventEnd
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -134,7 +134,7 @@ DomInteractive
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -157,7 +157,7 @@ DomContentLoadedEventStart
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -180,7 +180,7 @@ DomContentLoadedEventEnd
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -203,7 +203,7 @@ DomComplete
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -226,7 +226,7 @@ LoadEventStart
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -249,7 +249,7 @@ LoadEventEnd
 const
 {
 return
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -273,7 +273,7 @@ const
 {
 switch
 (
-mPerformance
+mTiming
 -
 >
 GetDOMTiming
@@ -348,7 +348,7 @@ RedirectCount
 const
 {
 return
-mTimingData
+mTiming
 -
 >
 GetRedirectCount

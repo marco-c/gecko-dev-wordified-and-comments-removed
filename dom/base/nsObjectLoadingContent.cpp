@@ -11006,7 +11006,6 @@ mURI
 thisContent
 securityFlags
 contentPolicyType
-nullptr
 group
 shim
 nsIChannel

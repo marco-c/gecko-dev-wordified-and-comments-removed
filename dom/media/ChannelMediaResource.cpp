@@ -3139,7 +3139,6 @@ element
 triggeringPrincipal
 securityFlags
 contentPolicyType
-nullptr
 loadGroup
 nullptr
 loadFlags

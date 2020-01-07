@@ -3919,7 +3919,6 @@ aTriggeringPrincipal
 securityFlags
 aPolicyType
 nullptr
-nullptr
 callbacks
 aLoadFlags
 )
@@ -4002,7 +4001,6 @@ GetSystemPrincipal
 )
 securityFlags
 aPolicyType
-nullptr
 nullptr
 callbacks
 aLoadFlags

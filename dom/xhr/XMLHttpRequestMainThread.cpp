@@ -10478,7 +10478,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
-nullptr
 loadGroup
 nullptr
 loadFlags
@@ -10516,7 +10515,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
-mPerformanceStorage
 loadGroup
 nullptr
 loadFlags
@@ -10540,7 +10538,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
-mPerformanceStorage
 loadGroup
 nullptr
 loadFlags

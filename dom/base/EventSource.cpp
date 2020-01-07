@@ -4068,7 +4068,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_EVENTSOURCE
-nullptr
 loadGroup
 nullptr
 loadFlags
@@ -4092,7 +4091,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_EVENTSOURCE
-nullptr
 nullptr
 nullptr
 loadFlags

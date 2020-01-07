@@ -141,14 +141,6 @@ apply
 .
 *
 /
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 PerformanceResourceTiming
 :

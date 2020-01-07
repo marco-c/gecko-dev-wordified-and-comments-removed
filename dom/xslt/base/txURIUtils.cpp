@@ -247,7 +247,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
 loadGroup
 nullptr
 nsIChannel

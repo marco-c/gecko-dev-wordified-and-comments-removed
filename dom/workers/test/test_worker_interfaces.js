@@ -1042,16 +1042,6 @@ true
 name
 :
 "
-PerformanceResourceTiming
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 ProgressEvent
 "
 insecureContext

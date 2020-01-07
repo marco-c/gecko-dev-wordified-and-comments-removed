@@ -1216,7 +1216,6 @@ aURI
 aLoaderPrincipal
 aSecurityFlags
 aContentPolicyType
-nullptr
 aLoadGroup
 )
 ;
