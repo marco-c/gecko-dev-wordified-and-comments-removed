@@ -2576,6 +2576,13 @@ return
 mParent
 ;
 }
+nsINode
+*
+GetParentOrHostNode
+(
+)
+const
+;
 enum
 FlattenedParentType
 {
