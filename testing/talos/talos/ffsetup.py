@@ -1349,6 +1349,20 @@ not
 self
 .
 debug_mode
+and
+self
+.
+test_config
+[
+'
+name
+'
+]
+!
+=
+"
+damp
+"
 :
                 
 self
