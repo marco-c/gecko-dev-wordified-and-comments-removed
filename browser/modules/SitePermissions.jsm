@@ -2066,9 +2066,16 @@ ALLOW
 return
 SitePermissions
 .
-BLOCK
+UNKNOWN
 ;
 }
+labelID
+:
+"
+autoplay
+-
+media
+"
 }
 "
 image
