@@ -1,10 +1,6 @@
 #
 include
 "
-mozilla
-/
-layers
-/
 FocusState
 .
 h

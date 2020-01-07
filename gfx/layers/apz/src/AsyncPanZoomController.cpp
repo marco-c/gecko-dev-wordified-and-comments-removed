@@ -43,6 +43,13 @@ h
 #
 include
 "
+AsyncPanZoomAnimation
+.
+h
+"
+#
+include
+"
 AutoscrollAnimation
 .
 h

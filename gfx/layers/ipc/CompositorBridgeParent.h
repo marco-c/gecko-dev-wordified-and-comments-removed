@@ -158,17 +158,6 @@ mozilla
 /
 layers
 /
-FocusState
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 GeckoContentController
 .
 h

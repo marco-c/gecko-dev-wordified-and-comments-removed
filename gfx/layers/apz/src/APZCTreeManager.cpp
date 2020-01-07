@@ -177,17 +177,6 @@ mozilla
 /
 layers
 /
-FocusState
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayerMetricsWrapper
 .
 h
