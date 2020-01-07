@@ -781,11 +781,11 @@ startOfAttribute
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
-SetSpec
+SetSpecInternal
 (
 const
 nsACString

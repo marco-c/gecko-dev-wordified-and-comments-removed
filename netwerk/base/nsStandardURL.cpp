@@ -7461,11 +7461,11 @@ gopher
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsStandardURL
 :
 :
-SetSpec
+SetSpecInternal
 (
 const
 nsACString
@@ -10905,7 +10905,7 @@ path
 )
 ;
 return
-SetSpec
+SetSpecInternal
 (
 spec
 )
@@ -14159,7 +14159,7 @@ end
 ;
 }
 return
-SetSpec
+SetSpecInternal
 (
 spec
 )

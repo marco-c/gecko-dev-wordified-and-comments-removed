@@ -813,11 +813,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
-SetSpec
+SetSpecInternal
 (
 const
 nsACString
