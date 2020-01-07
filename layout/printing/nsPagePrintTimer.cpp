@@ -59,7 +59,7 @@ nsPagePrintTimer
 mDocViewerPrint
 -
 >
-DecrementDestroyRefCount
+DecrementDestroyBlockedCount
 (
 )
 ;

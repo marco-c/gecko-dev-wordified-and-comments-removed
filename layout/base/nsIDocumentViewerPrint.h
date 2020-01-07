@@ -114,7 +114,7 @@ aDocument
 ;
 virtual
 void
-IncrementDestroyRefCount
+IncrementDestroyBlockedCount
 (
 )
 =
@@ -122,7 +122,7 @@ IncrementDestroyRefCount
 ;
 virtual
 void
-DecrementDestroyRefCount
+DecrementDestroyBlockedCount
 (
 )
 =
@@ -226,14 +226,14 @@ override
 ;
 \
 void
-IncrementDestroyRefCount
+IncrementDestroyBlockedCount
 (
 )
 override
 ;
 \
 void
-DecrementDestroyRefCount
+DecrementDestroyBlockedCount
 (
 )
 override
