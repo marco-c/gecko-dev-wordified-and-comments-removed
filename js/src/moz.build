@@ -5905,6 +5905,15 @@ builtin
 /
 intl
 /
+Collator
+.
+js
+'
+'
+builtin
+/
+intl
+/
 CurrencyDataGenerated
 .
 js
