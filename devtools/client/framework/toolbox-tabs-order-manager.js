@@ -211,14 +211,6 @@ onMouseUp
 (
 )
 ;
-this
-.
-telemetry
-.
-destroy
-(
-)
-;
 }
 setCurrentPanelDefinitions
 (

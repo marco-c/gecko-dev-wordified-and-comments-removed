@@ -2605,9 +2605,10 @@ this
 .
 _telemetry
 .
-startTimer
+start
 (
 timerId
+this
 )
 ;
 this
@@ -2630,9 +2631,10 @@ this
 .
 _telemetry
 .
-stopTimer
+finish
 (
 timerId
+this
 )
 ;
 }
