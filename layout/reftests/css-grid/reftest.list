@@ -1436,8 +1436,6 @@ sizing
 ref
 .
 html
-#
-fails
 fuzzy
 -
 if
@@ -1630,7 +1628,6 @@ size
 ref
 .
 html
-fails
 =
 =
 grid
@@ -1699,7 +1696,6 @@ size
 ref
 .
 html
-fails
 =
 =
 grid
@@ -1776,7 +1772,6 @@ size
 ref
 .
 html
-fails
 =
 =
 grid
@@ -1861,7 +1856,6 @@ size
 ref
 .
 html
-fails
 =
 =
 grid
