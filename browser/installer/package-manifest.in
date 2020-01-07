@@ -1809,13 +1809,6 @@ RESPATH
 /
 components
 /
-RemoteSettingsComponents
-.
-js
-RESPATH
-/
-components
-/
 cryptoComponents
 .
 manifest
