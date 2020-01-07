@@ -158,6 +158,14 @@ urlopen
 (
 url
 )
+        
+body
+=
+resp
+.
+read
+(
+)
     
 except
 Exception
@@ -194,11 +202,21 @@ HTTP
 status
 %
 s
+.
+Response
+:
 "
 %
 resp
 .
 code
+)
+        
+logger
+.
+error
+(
+body
 )
         
 return
@@ -213,11 +231,7 @@ json
 .
 loads
 (
-resp
-.
-read
-(
-)
+body
 )
     
 except
@@ -235,7 +249,15 @@ read
 response
 as
 JSON
+:
 "
+)
+        
+logger
+.
+error
+(
+body
 )
         
 return
@@ -511,11 +533,25 @@ HTTP
 status
 %
 s
+.
+Response
+:
 "
 %
 resp
 .
 code
+)
+        
+logger
+.
+error
+(
+resp
+.
+read
+(
+)
 )
         
 return
