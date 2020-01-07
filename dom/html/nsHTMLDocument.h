@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h
@@ -145,8 +138,6 @@ public
 nsDocument
 public
 nsIHTMLDocument
-public
-nsIDOMHTMLDocument
 {
 public
 :
@@ -361,7 +352,6 @@ nsDocument
 :
 MozSetImageElement
 ;
-NS_DECL_NSIDOMHTMLDOCUMENT
 mozilla
 :
 :
@@ -1882,12 +1872,6 @@ NS_INTERFACE_TABLE_ENTRY
 (
 _class
 nsIHTMLDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY
-(
-_class
-nsIDOMHTMLDocument
 )
 #
 endif

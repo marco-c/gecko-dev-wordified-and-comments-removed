@@ -197,13 +197,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsHTMLParts
 .
 h

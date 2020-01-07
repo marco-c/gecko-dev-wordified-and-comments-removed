@@ -1026,7 +1026,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 nsHTMLDocument
 nsDocument
 nsIHTMLDocument
-nsIDOMHTMLDocument
 )
 JSObject
 *
@@ -5662,7 +5661,7 @@ ErrorResult
 rv
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 nsContentUtils
 :
@@ -5671,7 +5670,7 @@ CanCallerAccess
 (
 static_cast
 <
-nsIDOMHTMLDocument
+nsIDOMDocument
 *
 >
 (
@@ -5815,7 +5814,7 @@ ErrorResult
 aError
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 nsContentUtils
 :
@@ -5824,7 +5823,7 @@ CanCallerAccess
 (
 static_cast
 <
-nsIDOMHTMLDocument
+nsIDOMDocument
 *
 >
 (

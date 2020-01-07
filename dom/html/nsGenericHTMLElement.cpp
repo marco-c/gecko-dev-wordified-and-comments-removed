@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentFragment
 .
 h
