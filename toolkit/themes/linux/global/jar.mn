@@ -204,6 +204,7 @@ global
 notification
 .
 css
+*
 skin
 /
 classic
