@@ -1,5 +1,10 @@
-session
+capabilities
 module
+=
+=
+=
+=
+=
 =
 =
 =
@@ -30,8 +35,6 @@ js
 autoclass
 :
 :
-session
-.
 Timeouts
 :
 members
@@ -60,8 +63,6 @@ js
 autoclass
 :
 :
-session
-.
 PageLoadStrategy
 :
 members
@@ -79,8 +80,6 @@ js
 autoclass
 :
 :
-session
-.
 Proxy
 :
 members
@@ -105,8 +104,6 @@ js
 autoclass
 :
 :
-session
-.
 Capabilities
 :
 members
