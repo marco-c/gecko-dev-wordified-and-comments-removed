@@ -141,6 +141,7 @@ virtual
 void
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

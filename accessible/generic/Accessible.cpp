@@ -13085,6 +13085,7 @@ Accessible
 :
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

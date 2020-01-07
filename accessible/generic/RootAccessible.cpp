@@ -441,6 +441,7 @@ RootAccessible
 GetChromeFlags
 (
 )
+const
 {
 nsCOMPtr
 <

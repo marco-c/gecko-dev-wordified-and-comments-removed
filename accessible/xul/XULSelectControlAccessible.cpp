@@ -960,6 +960,7 @@ XULSelectControlAccessible
 :
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

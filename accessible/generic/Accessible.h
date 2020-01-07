@@ -1030,6 +1030,7 @@ bool
 HasChildren
 (
 )
+const
 {
 return
 !
@@ -2351,6 +2352,7 @@ virtual
 void
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

@@ -122,6 +122,7 @@ virtual
 void
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem
@@ -688,6 +689,7 @@ virtual
 void
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem
