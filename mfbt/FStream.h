@@ -34,6 +34,12 @@ defined
 (
 __MINGW32__
 )
+&
+&
+defined
+(
+__GLIBCXX__
+)
 #
 include
 "
@@ -69,6 +75,12 @@ if
 defined
 (
 __MINGW32__
+)
+&
+&
+defined
+(
+__GLIBCXX__
 )
 class
 IFStream
