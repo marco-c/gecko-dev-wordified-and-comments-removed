@@ -783,7 +783,7 @@ GetZoom
 ;
 }
 CSSRect
-CalculateCompositedRectInCssPixels
+CalculateCompositionBoundsInCssPixelsOfSurroundingContent
 (
 )
 const
@@ -814,6 +814,11 @@ mCompositionBounds
 GetZoom
 (
 )
+*
+CSSToCSSScale
+{
+mPresShellResolution
+}
 ;
 }
 CSSSize

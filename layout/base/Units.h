@@ -1125,6 +1125,17 @@ gfx
 ScaleFactor
 <
 CSSPixel
+CSSPixel
+>
+CSSToCSSScale
+;
+typedef
+gfx
+:
+:
+ScaleFactor
+<
+CSSPixel
 LayoutDevicePixel
 >
 CSSToLayoutDeviceScale
