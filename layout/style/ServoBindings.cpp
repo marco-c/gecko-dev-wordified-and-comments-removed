@@ -2508,15 +2508,6 @@ if
 (
 !
 doc
-|
-|
-!
-doc
--
->
-GetShell
-(
-)
 )
 {
 return
@@ -2528,11 +2519,6 @@ nsPresContext
 presContext
 =
 doc
--
->
-GetShell
-(
-)
 -
 >
 GetPresContext
