@@ -22,13 +22,13 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMRange
-;
-class
 nsIEditor
 ;
 class
 nsITextServicesFilter
+;
+class
+nsRange
 ;
 #
 define
@@ -123,7 +123,7 @@ aEditor
 NS_IMETHOD
 SetExtent
 (
-nsIDOMRange
+nsRange
 *
 aDOMRange
 )
@@ -133,7 +133,7 @@ aDOMRange
 NS_IMETHOD
 ExpandRangeToWordBoundaries
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )
