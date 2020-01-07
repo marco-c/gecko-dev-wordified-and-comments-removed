@@ -936,12 +936,11 @@ boolean
 <
 td
 >
-Boolean
-initially
-set
-to
 false
-indicating
+<
+td
+>
+Indicates
 the
 session
 will
@@ -983,6 +982,10 @@ code
 td
 >
 string
+<
+td
+>
+normal
 <
 td
 >
