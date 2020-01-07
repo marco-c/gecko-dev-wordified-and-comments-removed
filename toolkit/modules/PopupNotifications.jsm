@@ -2732,7 +2732,7 @@ popupnotification
 setAttribute
 (
 "
-startlabel
+label
 "
 n
 .
@@ -2756,7 +2756,7 @@ popupnotification
 setAttribute
 (
 "
-startlabel
+label
 "
 n
 .

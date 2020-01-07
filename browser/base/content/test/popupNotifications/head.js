@@ -1143,7 +1143,7 @@ notification
 getAttribute
 (
 "
-startlabel
+label
 "
 )
 notifyObj
@@ -1165,7 +1165,7 @@ notification
 getAttribute
 (
 "
-startlabel
+label
 "
 )
 notifyObj
