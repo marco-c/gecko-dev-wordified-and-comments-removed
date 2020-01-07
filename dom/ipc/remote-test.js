@@ -40,6 +40,11 @@ childprocessmessagemanager
 .
 getService
 (
+Components
+.
+interfaces
+.
+nsISyncMessageSender
 )
 ;
 cpm

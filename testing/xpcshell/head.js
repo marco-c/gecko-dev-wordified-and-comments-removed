@@ -6341,6 +6341,9 @@ parentprocessmessagemanager
 .
 getService
 (
+Ci
+.
+nsIMessageBroadcaster
 )
 ;
 }
@@ -6363,6 +6366,9 @@ childprocessmessagemanager
 .
 getService
 (
+Ci
+.
+nsISyncMessageSender
 )
 ;
 }
@@ -6416,6 +6422,9 @@ parentprocessmessagemanager
 .
 getService
 (
+Ci
+.
+nsIMessageBroadcaster
 )
 ;
 sender
@@ -6444,6 +6453,9 @@ childprocessmessagemanager
 .
 getService
 (
+Ci
+.
+nsISyncMessageSender
 )
 ;
 sender

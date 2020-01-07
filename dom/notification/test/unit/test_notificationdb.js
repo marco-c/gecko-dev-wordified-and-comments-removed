@@ -894,8 +894,6 @@ name
 msgGetReply
 )
 {
-Services
-.
 cpmm
 .
 removeMessageListener
@@ -940,8 +938,6 @@ run_next_test
 }
 }
 ;
-Services
-.
 cpmm
 .
 addMessageListener
@@ -989,8 +985,6 @@ msgSaveCalls
 2
 )
 {
-Services
-.
 cpmm
 .
 sendAsyncMessage
@@ -1296,8 +1290,6 @@ msgGetCalls
 2
 )
 {
-Services
-.
 cpmm
 .
 removeMessageListener
@@ -1324,8 +1316,6 @@ run_next_test
 }
 }
 ;
-Services
-.
 cpmm
 .
 addMessageListener
@@ -1387,8 +1377,6 @@ msgSaveCalls
 2
 )
 {
-Services
-.
 cpmm
 .
 removeMessageListener
@@ -1397,8 +1385,6 @@ msgSaveReply
 msgSaveHandler
 )
 ;
-Services
-.
 cpmm
 .
 sendAsyncMessage
@@ -1426,8 +1412,6 @@ requestID
 }
 )
 ;
-Services
-.
 cpmm
 .
 sendAsyncMessage
@@ -1460,8 +1444,6 @@ requestID
 }
 }
 ;
-Services
-.
 cpmm
 .
 addMessageListener
@@ -1470,8 +1452,6 @@ msgSaveReply
 msgSaveHandler
 )
 ;
-Services
-.
 cpmm
 .
 sendAsyncMessage
@@ -1496,8 +1476,6 @@ requestID
 }
 )
 ;
-Services
-.
 cpmm
 .
 sendAsyncMessage

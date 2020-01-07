@@ -71,6 +71,9 @@ nsIDroppedLinkHandler
 idl
 "
 interface
+nsIContentFrameMessageManager
+;
+interface
 nsIWebBrowserChrome3
 ;
 native
@@ -116,7 +119,7 @@ nsISupports
 {
 readonly
 attribute
-nsISupports
+nsIContentFrameMessageManager
 messageManager
 ;
 attribute

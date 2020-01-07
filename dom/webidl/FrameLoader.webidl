@@ -104,6 +104,9 @@ interface
 nsIDocShell
 ;
 interface
+nsIMessageSender
+;
+interface
 nsIPrintSettings
 ;
 interface
@@ -568,7 +571,7 @@ swapped
 .
 readonly
 attribute
-MessageSender
+nsIMessageSender
 ?
 messageManager
 ;

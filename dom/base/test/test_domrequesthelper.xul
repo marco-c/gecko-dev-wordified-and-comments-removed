@@ -249,6 +249,9 @@ parentprocessmessagemanager
 .
 getService
 (
+Ci
+.
+nsIMessageBroadcaster
 )
 ;
 function

@@ -778,13 +778,9 @@ undefined
 ;
 ok
 (
-SpecialPowers
-.
-call_Instanceof
-(
 slice
+instanceof
 Blob
-)
 "
 Received
 a
@@ -836,12 +832,7 @@ onload
 =
 grabAndContinue
 ;
-SpecialPowers
-.
-wrap
-(
 reader
-)
 .
 readAsText
 (
@@ -890,10 +881,6 @@ mm
 addMessageListener
 (
 messageName
-SpecialPowers
-.
-wrapCallback
-(
 function
 (
 message
@@ -995,7 +982,6 @@ finish
 }
 }
 }
-)
 )
 ;
 mm

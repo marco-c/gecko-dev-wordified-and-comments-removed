@@ -2989,7 +2989,7 @@ ScriptableCPInfo
 :
 GetMessageManager
 (
-nsISupports
+nsIMessageSender
 *
 *
 aMessenger
