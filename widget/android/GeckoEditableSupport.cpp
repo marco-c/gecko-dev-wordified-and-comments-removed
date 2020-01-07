@@ -2798,6 +2798,12 @@ mKeyNameIndex
 =
 KEY_NAME_INDEX_Process
 ;
+event
+.
+PreventNativeKeyBindings
+(
+)
+;
 NS_ENSURE_SUCCESS_VOID
 (
 BeginInputTransaction
