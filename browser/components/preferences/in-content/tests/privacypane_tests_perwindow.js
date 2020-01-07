@@ -2109,6 +2109,17 @@ pref
 of
 prefs
 )
+if
+(
+gPrefCache
+.
+has
+(
+pref
+.
+name
+)
+)
 pref
 .
 value

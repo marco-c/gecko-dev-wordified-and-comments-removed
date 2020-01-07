@@ -321,6 +321,15 @@ function
 )
 {
 }
+PluralForm
+:
+{
+get
+(
+)
+{
+}
+}
 Preferences
 :
 FakePrefs
