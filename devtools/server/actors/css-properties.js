@@ -323,7 +323,7 @@ type
 let
 values
 =
-DOMUtils
+InspectorUtils
 .
 getCSSValuesForProperty
 (
