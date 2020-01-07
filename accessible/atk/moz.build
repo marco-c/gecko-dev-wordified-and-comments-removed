@@ -129,6 +129,11 @@ DocAccessibleWrap
 cpp
 '
 '
+DOMtoATK
+.
+cpp
+'
+'
 nsMaiHyperlink
 .
 cpp
