@@ -693,7 +693,7 @@ hash
 }
 ;
 uint32_t
-mangledNameHash
+hash32
 (
 )
 const

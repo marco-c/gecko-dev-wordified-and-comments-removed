@@ -686,7 +686,7 @@ gl
 Context
 *
 context
-size_t
+int
 dataSize
 )
 {

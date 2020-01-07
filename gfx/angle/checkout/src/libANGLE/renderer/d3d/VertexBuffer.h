@@ -120,7 +120,7 @@ GLenum
 currentValueType
 GLint
 start
-size_t
+GLsizei
 count
 GLsizei
 instances
@@ -331,7 +331,7 @@ gl
 VertexBinding
 &
 binding
-size_t
+GLsizei
 count
 GLsizei
 instances
@@ -402,7 +402,7 @@ GLenum
 currentValueType
 GLint
 start
-size_t
+GLsizei
 count
 GLsizei
 instances
@@ -436,7 +436,7 @@ gl
 VertexBinding
 &
 binding
-size_t
+GLsizei
 count
 GLsizei
 instances

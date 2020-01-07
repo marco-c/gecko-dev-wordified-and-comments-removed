@@ -34,7 +34,7 @@ compiler
 /
 translator
 /
-ParseContext
+IntermTraverse
 .
 h
 "
@@ -45,9 +45,7 @@ compiler
 /
 translator
 /
-tree_util
-/
-IntermTraverse
+ParseContext
 .
 h
 "

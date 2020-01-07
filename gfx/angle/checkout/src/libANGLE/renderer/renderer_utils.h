@@ -1095,10 +1095,7 @@ gl
 Context
 *
 context
-gl
-:
-:
-TextureType
+GLenum
 type
 MultisampleTextureInitializer
 *

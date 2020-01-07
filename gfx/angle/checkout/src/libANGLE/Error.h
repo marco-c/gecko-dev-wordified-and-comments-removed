@@ -822,12 +822,10 @@ glErr
 inline
 Error
 (
-const
 gl
 :
 :
 Error
-&
 glErr
 )
 ;

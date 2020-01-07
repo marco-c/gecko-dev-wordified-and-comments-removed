@@ -3590,13 +3590,8 @@ addParameter
 (
 2
 .
-createVariable
+turnToConst
 (
-&
-context
--
->
-symbolTable
 )
 )
 ;
@@ -3695,13 +3690,8 @@ addParameter
 (
 3
 .
-createVariable
+turnToConst
 (
-&
-context
--
->
-symbolTable
 )
 )
 ;
@@ -6689,7 +6679,6 @@ TIntermBlock
 (
 )
 ;
-context
 -
 >
 appendStatement
@@ -6705,7 +6694,6 @@ statement
 =
 1
 ;
-context
 -
 >
 appendStatement

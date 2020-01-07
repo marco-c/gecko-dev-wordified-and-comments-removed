@@ -94,10 +94,7 @@ gl
 Context
 *
 context
-gl
-:
-:
-TextureTarget
+GLenum
 target
 int
 level
@@ -313,10 +310,7 @@ gl
 Context
 *
 context
-gl
-:
-:
-TextureTarget
+GLenum
 target
 int
 level
@@ -484,10 +478,7 @@ gl
 Context
 *
 context
-gl
-:
-:
-TextureTarget
+GLenum
 target
 int
 level
@@ -648,10 +639,7 @@ gl
 Context
 *
 context
-gl
-:
-:
-TextureTarget
+GLenum
 target
 int
 level

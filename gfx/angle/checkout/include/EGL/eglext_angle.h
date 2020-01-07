@@ -705,17 +705,4 @@ EGL_TEXTURE_INTERNAL_FORMAT_ANGLE
 #
 endif
 #
-ifndef
-EGL_ANGLE_create_context_extensions_enabled
-#
-define
-EGL_ANGLE_create_context_extensions_enabled
-1
-#
-define
-EGL_EXTENSIONS_ENABLED_ANGLE
-0x345F
-#
-endif
-#
 endif

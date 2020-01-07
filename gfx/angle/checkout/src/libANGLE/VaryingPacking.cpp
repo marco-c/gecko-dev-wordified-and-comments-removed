@@ -1287,7 +1287,7 @@ isBuiltIn
 input
 -
 >
-active
+staticUse
 )
 |
 |
@@ -1306,7 +1306,7 @@ isBuiltIn
 output
 -
 >
-active
+staticUse
 )
 )
 {

@@ -847,10 +847,6 @@ _snprintf
 endif
 #
 define
-GL_A1RGB5_ANGLEX
-0x6AC5
-#
-define
 GL_BGRX8_ANGLEX
 0x6ABA
 #

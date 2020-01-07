@@ -226,7 +226,7 @@ gl
 Context
 *
 context
-size_t
+int
 dataSize
 )
 ;
@@ -350,7 +350,8 @@ unsigned
 int
 mStaticVertexBufferOutOfDate
 ;
-size_t
+unsigned
+int
 mUnmodifiedDataUse
 ;
 D3DBufferUsage

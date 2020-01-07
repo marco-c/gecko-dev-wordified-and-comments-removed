@@ -121,10 +121,6 @@ mNextValue
 (
 1
 )
-mLoggingEnabled
-(
-false
-)
 {
 mUnallocatedList
 .
