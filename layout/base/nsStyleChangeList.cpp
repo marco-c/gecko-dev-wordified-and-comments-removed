@@ -268,14 +268,9 @@ reflow
 ;
 if
 (
-aContent
-&
-&
-(
 aHint
 &
 nsChangeHint_ReconstructFrame
-)
 )
 {
 if
@@ -285,6 +280,9 @@ IsServo
 )
 )
 {
+#
+ifdef
+DEBUG
 for
 (
 size_t
@@ -358,6 +356,8 @@ content
 )
 ;
 }
+#
+endif
 }
 else
 {
