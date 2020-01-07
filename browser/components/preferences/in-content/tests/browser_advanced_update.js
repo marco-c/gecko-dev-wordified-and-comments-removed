@@ -805,6 +805,8 @@ frameDoc
 querySelectorAll
 (
 "
+richlistitem
+.
 update
 "
 )
