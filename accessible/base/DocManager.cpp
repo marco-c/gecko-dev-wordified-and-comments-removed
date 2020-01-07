@@ -1972,6 +1972,14 @@ IsResourceDoc
 )
 |
 |
+aDocument
+-
+>
+IsStaticDocument
+(
+)
+|
+|
 !
 aDocument
 -
@@ -1980,9 +1988,11 @@ IsActive
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 nsIPresShell
 *
 presShell
