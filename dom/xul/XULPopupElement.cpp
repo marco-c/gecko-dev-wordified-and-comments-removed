@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIRootBox
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
