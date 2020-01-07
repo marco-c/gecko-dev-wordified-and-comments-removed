@@ -2365,6 +2365,9 @@ value
 nscolor
 *
 result_color
+bool
+*
+was_current_color
 )
 ;
 SERVO_BINDING_FUNC
