@@ -684,11 +684,6 @@ isRunning
 "
 :
 "
-worker__debug
--
-link
--
--
 disabled
 "
 ;
