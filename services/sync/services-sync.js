@@ -281,6 +281,13 @@ blob
 :
 .
 *
+|
+moz
+-
+extension
+:
+.
+*
 )
 "
 )
