@@ -1715,7 +1715,7 @@ Values
 (
 )
 .
-SharedHandles
+ExternalHandles
 (
 )
 >
@@ -1727,7 +1727,7 @@ surfacePathPrefix
 AppendLiteral
 (
 "
-shared
+external
 :
 "
 )
@@ -1744,7 +1744,7 @@ Values
 (
 )
 .
-SharedHandles
+ExternalHandles
 (
 )
 )

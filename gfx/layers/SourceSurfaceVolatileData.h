@@ -170,6 +170,9 @@ aHeapSizeOut
 size_t
 &
 aNonHeapSizeOut
+size_t
+&
+aExtHandlesOut
 )
 const
 override

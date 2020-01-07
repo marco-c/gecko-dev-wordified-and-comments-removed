@@ -451,7 +451,7 @@ size_t
 aNonHeapSizeOut
 size_t
 &
-aSharedHandlesOut
+aExtHandlesOut
 )
 {
 MutexAutoLock
@@ -478,7 +478,7 @@ AddSizeOfExcludingThis
 aMallocSizeOf
 aHeapSizeOut
 aNonHeapSizeOut
-aSharedHandlesOut
+aExtHandlesOut
 )
 ;
 }
