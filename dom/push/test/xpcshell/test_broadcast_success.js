@@ -1727,10 +1727,13 @@ getGhi
 "
 }
 )
-"
-missing
+/
 moduleURI
-"
+must
+be
+a
+string
+/
 "
 rejects
 sourceInfo
