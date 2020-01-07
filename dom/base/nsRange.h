@@ -1204,6 +1204,11 @@ aErr
 )
 ;
 void
+Detach
+(
+)
+;
+void
 CollapseJS
 (
 bool
