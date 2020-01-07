@@ -282,9 +282,9 @@ uptake
 :
 doc
 :
-hybrid
-content
-telemety
+Hybrid
+Content
+Telemetry
 <
 hybrid
 -
