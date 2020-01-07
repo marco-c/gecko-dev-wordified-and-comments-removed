@@ -205,6 +205,11 @@ XULElement
 :
 false
 "
+console
+"
+:
+true
+"
 dump
 "
 :
