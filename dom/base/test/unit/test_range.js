@@ -757,17 +757,6 @@ doc
 instanceof
 C_i
 .
-nsIDOMXPathEvaluator
-)
-;
-Assert
-.
-ok
-(
-doc
-instanceof
-C_i
-.
 nsIDOMDocument
 )
 ;

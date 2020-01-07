@@ -456,7 +456,3 @@ XMLSerializer
 implements
 LegacyQueryInterface
 ;
-XPathEvaluator
-implements
-LegacyQueryInterface
-;

@@ -97,11 +97,6 @@ Constructor
 interface
 XPathEvaluator
 {
-/
-/
-Based
-on
-nsIDOMXPathEvaluator
 [
 NewObject
 Throws

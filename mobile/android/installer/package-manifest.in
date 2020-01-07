@@ -778,13 +778,6 @@ BINPATH
 /
 components
 /
-dom_xpath
-.
-xpt
-BINPATH
-/
-components
-/
 dom_xul
 .
 xpt
