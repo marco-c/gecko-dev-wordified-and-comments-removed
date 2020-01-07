@@ -946,14 +946,12 @@ return
 rv
 ;
 }
-EnableUndo
+ClearUndoRedo
 (
-false
 )
 ;
-EnableUndo
+EnableUndoRedo
 (
-true
 )
 ;
 return
