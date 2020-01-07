@@ -11926,6 +11926,9 @@ selection
 >
 DeleteFromDocument
 (
+IgnoreErrors
+(
+)
 )
 ;
 return
