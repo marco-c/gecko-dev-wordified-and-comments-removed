@@ -3220,12 +3220,6 @@ central
 try
 '
 ]
-windows
-.
-*
-:
-[
-]
 default
 :
 [
@@ -3447,12 +3441,6 @@ autoland
 '
 try
 '
-]
-windows
-.
-*
-:
-[
 ]
 default
 :
