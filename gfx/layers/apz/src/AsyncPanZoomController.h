@@ -892,6 +892,16 @@ GetAllowedHandoffDirections
 const
 ;
 bool
+CanScroll
+(
+const
+ParentLayerPoint
+&
+aDelta
+)
+const
+;
+bool
 CanScrollWithWheel
 (
 const
