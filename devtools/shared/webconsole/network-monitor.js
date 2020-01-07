@@ -1877,6 +1877,17 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+httpActivity
+)
+{
+return
+;
+}
 this
 .
 _findOpenResponse
