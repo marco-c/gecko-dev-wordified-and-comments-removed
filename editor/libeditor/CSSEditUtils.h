@@ -185,6 +185,7 @@ caseSensitiveValue
 ;
 }
 ;
+static
 bool
 IsCSSEditableProperty
 (
@@ -259,6 +260,7 @@ aSuppressTxn
 false
 )
 ;
+static
 nsresult
 GetSpecifiedProperty
 (
@@ -273,6 +275,7 @@ nsAString
 aValue
 )
 ;
+static
 nsresult
 GetComputedProperty
 (
@@ -302,6 +305,7 @@ nsAString
 aPropertyValue
 )
 ;
+static
 bool
 IsCSSInvertible
 (
@@ -313,6 +317,7 @@ nsAtom
 aAttribute
 )
 ;
+static
 void
 GetDefaultBackgroundColor
 (
@@ -321,6 +326,7 @@ nsAString
 aColor
 )
 ;
+static
 void
 GetDefaultLengthUnit
 (
@@ -329,6 +335,7 @@ nsAString
 aLengthUnit
 )
 ;
+static
 nsresult
 GetCSSEquivalentToHTMLInlineStyleSet
 (
@@ -348,6 +355,7 @@ StyleType
 aStyleType
 )
 ;
+static
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -367,6 +375,7 @@ StyleType
 aStyleType
 )
 ;
+static
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -387,6 +396,7 @@ StyleType
 aStyleType
 )
 ;
+static
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
@@ -407,6 +417,7 @@ StyleType
 aStyleType
 )
 ;
+static
 bool
 HaveCSSEquivalentStyles
 (
@@ -469,6 +480,7 @@ bool
 aSuppressTransaction
 )
 ;
+static
 void
 ParseLength
 (
@@ -496,7 +508,9 @@ bool
 IsCSSPrefChecked
 (
 )
+const
 ;
+static
 bool
 ElementsSameStyle
 (
@@ -514,6 +528,7 @@ Element
 aSecondNode
 )
 ;
+static
 bool
 ElementsSameStyle
 (
@@ -525,6 +540,7 @@ nsIDOMNode
 aSecondNode
 )
 ;
+static
 nsresult
 GetInlineStyles
 (
@@ -545,6 +561,7 @@ aLength
 ;
 public
 :
+static
 dom
 :
 :
@@ -557,6 +574,7 @@ nsINode
 aNode
 )
 ;
+static
 already_AddRefed
 <
 nsComputedDOMStyle
@@ -573,6 +591,7 @@ aElement
 ;
 private
 :
+static
 void
 GetCSSPropertyAtom
 (
@@ -584,6 +603,7 @@ nsAtom
 aAtom
 )
 ;
+static
 void
 BuildCSSDeclarations
 (
@@ -612,6 +632,7 @@ bool
 aGetOrRemoveRequest
 )
 ;
+static
 void
 GenerateCSSDeclarationsFromHTMLStyle
 (
@@ -648,6 +669,7 @@ bool
 aGetOrRemoveRequest
 )
 ;
+static
 nsresult
 GetCSSInlinePropertyBase
 (

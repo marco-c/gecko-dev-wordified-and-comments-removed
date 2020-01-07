@@ -6114,6 +6114,7 @@ CSSEditUtils
 IsCSSPrefChecked
 (
 )
+const
 {
 return
 mIsCSSPrefChecked
