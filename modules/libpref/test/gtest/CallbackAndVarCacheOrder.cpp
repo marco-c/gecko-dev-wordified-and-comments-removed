@@ -107,8 +107,8 @@ void
 SetFunc
 (
 const
-char
-*
+nsCString
+&
 aPrefName
 bool
 aValue
@@ -123,6 +123,10 @@ Preferences
 SetBool
 (
 aPrefName
+.
+get
+(
+)
 aValue
 )
 ;
@@ -139,8 +143,8 @@ void
 SetFunc
 (
 const
-char
-*
+nsCString
+&
 aPrefName
 int32_t
 aValue
@@ -155,6 +159,10 @@ Preferences
 SetInt
 (
 aPrefName
+.
+get
+(
+)
 aValue
 )
 ;
@@ -171,8 +179,8 @@ void
 SetFunc
 (
 const
-char
-*
+nsCString
+&
 aPrefName
 uint32_t
 aValue
@@ -187,6 +195,10 @@ Preferences
 SetUint
 (
 aPrefName
+.
+get
+(
+)
 aValue
 )
 ;
@@ -203,8 +215,8 @@ void
 SetFunc
 (
 const
-char
-*
+nsCString
+&
 aPrefName
 float
 aValue
@@ -219,6 +231,10 @@ Preferences
 SetFloat
 (
 aPrefName
+.
+get
+(
+)
 aValue
 )
 ;
@@ -238,8 +254,8 @@ bool
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -275,8 +291,8 @@ Relaxed
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -312,8 +328,8 @@ ReleaseAcquire
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -345,8 +361,8 @@ int32_t
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -382,8 +398,8 @@ Relaxed
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -415,8 +431,8 @@ uint32_t
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -452,8 +468,8 @@ Relaxed
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -489,8 +505,8 @@ ReleaseAcquire
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -522,8 +538,8 @@ float
 *
 aVar
 const
-char
-*
+nsCString
+&
 aPrefName
 )
 {
@@ -561,12 +577,12 @@ void
 RunTest
 (
 const
-char
-*
+nsCString
+&
 aPrefName1
 const
-char
-*
+nsCString
+&
 aPrefName2
 T
 aValue1
@@ -594,7 +610,15 @@ rv
 ASSERT_STRNE
 (
 aPrefName1
+.
+get
+(
+)
 aPrefName2
+.
+get
+(
+)
 )
 ;
 ASSERT_NE
@@ -771,6 +795,8 @@ RunTest
 bool
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -778,6 +804,9 @@ bool
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -785,6 +814,7 @@ bool
 .
 2
 "
+)
 false
 true
 )
@@ -806,6 +836,8 @@ Relaxed
 >
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -813,6 +845,9 @@ atomic_bool
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -820,6 +855,7 @@ atomic_bool
 .
 2
 "
+)
 false
 true
 )
@@ -841,6 +877,8 @@ ReleaseAcquire
 >
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -848,6 +886,9 @@ atomic_bool
 .
 3
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -855,6 +896,7 @@ atomic_bool
 .
 4
 "
+)
 false
 true
 )
@@ -871,6 +913,8 @@ RunTest
 int32_t
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -878,6 +922,9 @@ int
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -885,6 +932,7 @@ int
 .
 2
 "
+)
 -
 2
 3
@@ -907,6 +955,8 @@ Relaxed
 >
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -914,6 +964,9 @@ atomic_int
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -921,6 +974,7 @@ atomic_int
 .
 2
 "
+)
 -
 3
 4
@@ -938,6 +992,8 @@ RunTest
 uint32_t
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -945,6 +1001,9 @@ uint
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -952,6 +1011,7 @@ uint
 .
 2
 "
+)
 4u
 5u
 )
@@ -973,6 +1033,8 @@ Relaxed
 >
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -980,6 +1042,9 @@ atomic_uint
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -987,6 +1052,7 @@ atomic_uint
 .
 2
 "
+)
 6u
 7u
 )
@@ -1008,6 +1074,8 @@ ReleaseAcquire
 >
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -1015,6 +1083,9 @@ atomic_uint
 .
 3
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -1022,6 +1093,7 @@ atomic_uint
 .
 4
 "
+)
 8u
 9u
 )
@@ -1038,6 +1110,8 @@ RunTest
 float
 >
 (
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -1045,6 +1119,9 @@ float
 .
 1
 "
+)
+NS_LITERAL_CSTRING
+(
 "
 test_pref
 .
@@ -1052,6 +1129,7 @@ float
 .
 2
 "
+)
 -
 10
 .
