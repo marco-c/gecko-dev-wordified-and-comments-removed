@@ -31791,6 +31791,8 @@ ActiveScrolledRoot
 aActiveScrolledRoot
 bool
 aForEventsAndPluginsOnly
+bool
+aNeedsActiveLayer
 )
 :
 nsDisplayWrapList
@@ -31816,6 +31818,10 @@ mOpacity
 mForEventsAndPluginsOnly
 (
 aForEventsAndPluginsOnly
+)
+mNeedsActiveLayer
+(
+aNeedsActiveLayer
 )
 mChildOpacityState
 (
@@ -32593,11 +32599,7 @@ false
 }
 if
 (
-NeedsActiveLayer
-(
-aBuilder
-mFrame
-)
+mNeedsActiveLayer
 |
 |
 mOpacity
@@ -32681,11 +32683,7 @@ LAYER_INACTIVE
 }
 if
 (
-NeedsActiveLayer
-(
-aBuilder
-mFrame
-)
+mNeedsActiveLayer
 )
 {
 return

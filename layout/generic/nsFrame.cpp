@@ -14146,6 +14146,11 @@ hoistedScrollInfoItemsStorage
 ;
 }
 bool
+needsActiveOpacityLayer
+=
+false
+;
+bool
 useOpacity
 =
 HasVisualOpacity
@@ -14165,10 +14170,9 @@ this
 &
 &
 (
-!
-usingSVGEffects
-|
-|
+(
+needsActiveOpacityLayer
+=
 nsDisplayOpacity
 :
 :
@@ -14177,6 +14181,11 @@ NeedsActiveLayer
 aBuilder
 this
 )
+)
+|
+|
+!
+usingSVGEffects
 )
 ;
 bool
@@ -15305,6 +15314,7 @@ this
 resultList
 containerItemASR
 opacityItemForEventsAndPluginsOnly
+needsActiveOpacityLayer
 )
 )
 ;
