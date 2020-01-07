@@ -1,6 +1,14 @@
 extern
 crate
-rustc_serialize
+serde
+;
+#
+[
+macro_use
+]
+extern
+crate
+serde_derive
 ;
 extern
 crate
@@ -10,7 +18,7 @@ use
 toml
 :
 :
-encode_str
+to_string
 ;
 #
 [
@@ -21,8 +29,8 @@ Clone
 Hash
 PartialEq
 Eq
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 )
 ]
 struct
@@ -46,8 +54,8 @@ Clone
 Hash
 PartialEq
 Eq
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 )
 ]
 struct
@@ -70,8 +78,8 @@ Clone
 Hash
 PartialEq
 Eq
-RustcEncodable
-RustcDecodable
+Serialize
+Deserialize
 )
 ]
 struct
@@ -99,7 +107,7 @@ assert
 !
 (
 !
-encode_str
+to_string
 (
 &
 Users
@@ -155,6 +163,10 @@ to_string
 }
 )
 .
+unwrap
+(
+)
+.
 starts_with
 (
 "
@@ -178,7 +190,7 @@ assert
 !
 (
 !
-encode_str
+to_string
 (
 &
 TwoUsers
@@ -230,6 +242,10 @@ to_string
 )
 }
 }
+)
+.
+unwrap
+(
 )
 .
 starts_with
