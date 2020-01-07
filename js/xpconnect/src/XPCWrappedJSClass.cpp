@@ -4522,16 +4522,12 @@ nsCOMPtr
 nsIStackFrame
 >
 location
-;
+=
 xpc_exception
 -
 >
 GetLocation
 (
-getter_AddRefs
-(
-location
-)
 )
 ;
 if
