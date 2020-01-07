@@ -18,6 +18,10 @@ LInstruction
 {
 public
 :
+LIR_HEADER
+(
+UnboxFloatingPoint
+)
 static
 const
 size_t
@@ -71,6 +75,10 @@ LInstruction
 {
 public
 :
+LIR_HEADER
+(
+TableSwitch
+)
 MTableSwitch
 *
 mir
@@ -128,6 +136,10 @@ LInstruction
 {
 public
 :
+LIR_HEADER
+(
+TableSwitchV
+)
 MTableSwitch
 *
 mir

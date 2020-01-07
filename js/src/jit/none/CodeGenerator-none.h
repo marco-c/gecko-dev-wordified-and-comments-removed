@@ -29,7 +29,7 @@ CodeGeneratorNone
 public
 CodeGeneratorShared
 {
-public
+protected
 :
 CodeGeneratorNone
 (
