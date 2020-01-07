@@ -91,7 +91,7 @@ error
 {
 max
 :
-20
+23
 }
 ]
 curly

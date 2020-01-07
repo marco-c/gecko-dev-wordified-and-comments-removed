@@ -21,7 +21,7 @@ complexity
 "
 error
 "
-42
+47
 ]
 "
 consistent
