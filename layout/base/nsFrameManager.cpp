@@ -469,15 +469,6 @@ nsIFrame
 aOldFrame
 )
 {
-bool
-wasDestroyingFrames
-=
-mIsDestroyingFrames
-;
-mIsDestroyingFrames
-=
-true
-;
 aOldFrame
 -
 >
@@ -608,10 +599,6 @@ aOldFrame
 )
 ;
 }
-mIsDestroyingFrames
-=
-wasDestroyingFrames
-;
 }
 void
 nsFrameManager

@@ -76,10 +76,6 @@ mRootFrame
 (
 nullptr
 )
-mIsDestroyingFrames
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -98,16 +94,6 @@ nsFrameManager
 (
 )
 ;
-bool
-IsDestroyingFrames
-(
-)
-const
-{
-return
-mIsDestroyingFrames
-;
-}
 nsIFrame
 *
 GetRootFrame
@@ -262,9 +248,6 @@ mPresShell
 nsIFrame
 *
 mRootFrame
-;
-bool
-mIsDestroyingFrames
 ;
 }
 ;
