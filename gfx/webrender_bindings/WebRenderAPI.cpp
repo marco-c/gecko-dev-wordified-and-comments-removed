@@ -3445,6 +3445,8 @@ DisplayListBuilder
 :
 PopStackingContext
 (
+bool
+aIsReferenceFrame
 )
 {
 WRDL_LOG
@@ -3460,6 +3462,7 @@ mWrState
 wr_dp_pop_stacking_context
 (
 mWrState
+aIsReferenceFrame
 )
 ;
 }

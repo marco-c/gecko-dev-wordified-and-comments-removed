@@ -1256,6 +1256,8 @@ aRasterSpace
 void
 PopStackingContext
 (
+bool
+aIsReferenceFrame
 )
 ;
 wr

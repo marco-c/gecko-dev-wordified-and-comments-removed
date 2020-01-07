@@ -411,6 +411,11 @@ mBuilder
 >
 PopStackingContext
 (
+mReferenceFrameId
+.
+isSome
+(
+)
 )
 ;
 }

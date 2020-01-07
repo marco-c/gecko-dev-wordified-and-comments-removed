@@ -3819,6 +3819,8 @@ wr_dp_pop_stacking_context
 WrState
 *
 aState
+bool
+aIsReferenceFrame
 )
 WR_FUNC
 ;
