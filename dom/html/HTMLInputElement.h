@@ -4092,12 +4092,6 @@ IsMutable
 const
 ;
 bool
-DoesReadOnlyApply
-(
-)
-const
-;
-bool
 DoesMinMaxApply
 (
 )

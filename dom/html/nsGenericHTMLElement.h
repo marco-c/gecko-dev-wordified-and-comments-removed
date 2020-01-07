@@ -3427,6 +3427,12 @@ CanBeDisabled
 )
 const
 ;
+bool
+DoesReadOnlyApply
+(
+)
+const
+;
 virtual
 bool
 IsHTMLFocusable
