@@ -13276,17 +13276,6 @@ LayerManager
 aManager
 )
 ;
-bool
-TryOptimizeToImageLayer
-(
-LayerManager
-*
-aManager
-nsDisplayListBuilder
-*
-aBuilder
-)
-;
 nsRect
 GetBoundsInternal
 (
