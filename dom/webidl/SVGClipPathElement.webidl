@@ -162,7 +162,3 @@ transform
 ;
 }
 ;
-SVGClipPathElement
-implements
-SVGUnitTypeValues
-;

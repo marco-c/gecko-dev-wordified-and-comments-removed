@@ -212,7 +212,3 @@ height
 ;
 }
 ;
-SVGMaskElement
-implements
-SVGUnitTypeValues
-;

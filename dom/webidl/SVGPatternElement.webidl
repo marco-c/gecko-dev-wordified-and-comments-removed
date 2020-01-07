@@ -215,7 +215,3 @@ SVGPatternElement
 implements
 SVGURIReference
 ;
-SVGPatternElement
-implements
-SVGUnitTypeValues
-;

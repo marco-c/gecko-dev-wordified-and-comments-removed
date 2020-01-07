@@ -207,7 +207,3 @@ SVGFilterElement
 implements
 SVGURIReference
 ;
-SVGFilterElement
-implements
-SVGUnitTypeValues
-;
