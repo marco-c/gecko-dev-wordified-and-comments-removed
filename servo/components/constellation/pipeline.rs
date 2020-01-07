@@ -2315,6 +2315,15 @@ script_chan
 clone
 (
 )
+self
+.
+load_data
+.
+url
+.
+clone
+(
+)
 )
 ;
 let
