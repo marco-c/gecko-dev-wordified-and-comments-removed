@@ -1,5 +1,0 @@
-VERSION
-=
-'
-master
-'

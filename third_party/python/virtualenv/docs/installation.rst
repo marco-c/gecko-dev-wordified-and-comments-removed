@@ -179,7 +179,7 @@ virtualenv
 /
 tarball
 /
-master
+develop
 To
 install
 version

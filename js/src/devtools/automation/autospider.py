@@ -5288,10 +5288,7 @@ join
 (
 OBJDIR
 "
-_virtualenvs
-"
-"
-init
+_virtualenv
 "
 "
 bin

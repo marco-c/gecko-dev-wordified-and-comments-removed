@@ -2221,10 +2221,7 @@ join
 (
 topobjdir
 '
-_virtualenvs
-'
-'
-init
+_virtualenv
 '
 )
 out

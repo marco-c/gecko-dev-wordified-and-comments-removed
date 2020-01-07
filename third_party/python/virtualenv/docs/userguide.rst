@@ -1005,7 +1005,7 @@ but
 you
 will
 be
-prompted
+prometed
 on
 a
 subsequent
