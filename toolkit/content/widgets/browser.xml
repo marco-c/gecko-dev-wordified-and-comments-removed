@@ -8624,7 +8624,7 @@ height
 ;
 screen
 .
-GetAvailRectDisplayPix
+GetAvailRect
 (
 left
 top
