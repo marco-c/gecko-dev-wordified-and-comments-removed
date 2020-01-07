@@ -206,6 +206,14 @@ OS_TARGET
 ]
 =
 1
+NO_PGO
+=
+True
+#
+Don
+'
+t
+PGO
 if
 CONFIG
 [

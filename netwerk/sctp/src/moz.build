@@ -587,6 +587,14 @@ __DragonFly__
 ]
 =
 False
+NO_PGO
+=
+True
+#
+Don
+'
+t
+PGO
 if
 CONFIG
 [
