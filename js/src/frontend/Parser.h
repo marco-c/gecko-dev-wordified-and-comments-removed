@@ -376,9 +376,7 @@ Normal
 Shorthand
 CoverInitializedName
 Getter
-GetterNoExpressionClosure
 Setter
-SetterNoExpressionClosure
 Method
 GeneratorMethod
 AsyncMethod
