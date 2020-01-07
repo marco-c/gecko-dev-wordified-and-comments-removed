@@ -1934,6 +1934,12 @@ gfx
 IntSize
 mSize
 ;
+gfx
+:
+:
+IntSize
+mSizeCbCr
+;
 WindowsHandle
 mHandles
 [

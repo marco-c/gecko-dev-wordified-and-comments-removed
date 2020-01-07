@@ -1269,6 +1269,11 @@ gfx
 :
 IntSize
 aSize
+gfx
+:
+:
+IntSize
+aSizeCbCr
 )
 :
 mHandles
@@ -1301,6 +1306,10 @@ mTextureHandles
 mSize
 (
 aSize
+)
+mSizeCbCr
+(
+aSizeCbCr
 )
 mLocked
 (
@@ -2107,9 +2116,7 @@ mSize
 else
 {
 return
-mSize
-/
-2
+mSizeCbCr
 ;
 }
 }
