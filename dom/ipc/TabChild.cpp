@@ -15507,6 +15507,9 @@ PPaymentRequestChild
 actor
 )
 {
+delete
+actor
+;
 return
 true
 ;
