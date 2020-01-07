@@ -3430,10 +3430,16 @@ appname
 sig
 =
 None
+native
+=
+False
 )
 :
         
 if
+not
+native
+and
 not
 sig
 :
