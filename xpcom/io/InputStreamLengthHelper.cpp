@@ -609,6 +609,9 @@ streamLength
 asyncStreamLength
 )
 {
+#
+ifdef
+DEBUG
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -626,6 +629,8 @@ MOZ_DIAGNOSTIC_ASSERT
 asyncStream
 )
 ;
+#
+endif
 bool
 nonBlocking
 =
