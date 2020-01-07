@@ -287,7 +287,11 @@ id
 "
 forms
 -
-remember
+ask
+-
+to
+-
+save
 -
 logins
 "
