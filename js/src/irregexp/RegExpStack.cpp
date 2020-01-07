@@ -82,9 +82,10 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
-TlsContext
-.
-get
+rt
+-
+>
+mainContextFromOwnThread
 (
 )
 -
