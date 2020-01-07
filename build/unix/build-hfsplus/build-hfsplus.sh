@@ -158,11 +158,11 @@ mega
 -
 P
 TMPDIR
-http
+https
 :
 /
 /
-pkgs
+src
 .
 fedoraproject
 .
