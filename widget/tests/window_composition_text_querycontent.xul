@@ -1112,13 +1112,6 @@ Ci
 nsITextInputProcessorCallback
 ;
 const
-nsIDOMNSEditableElement
-=
-Ci
-.
-nsIDOMNSEditableElement
-;
-const
 nsIInterfaceRequestor
 =
 Ci
@@ -1180,11 +1173,6 @@ aNode
 {
 return
 aNode
-.
-QueryInterface
-(
-nsIDOMNSEditableElement
-)
 .
 editor
 ;

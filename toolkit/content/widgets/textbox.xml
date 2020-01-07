@@ -1125,13 +1125,6 @@ this
 mEditor
 )
 {
-const
-nsIDOMNSEditableElement
-=
-Ci
-.
-nsIDOMNSEditableElement
-;
 this
 .
 mEditor
@@ -1139,11 +1132,6 @@ mEditor
 this
 .
 inputField
-.
-QueryInterface
-(
-nsIDOMNSEditableElement
-)
 .
 editor
 ;

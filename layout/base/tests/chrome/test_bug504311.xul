@@ -288,13 +288,6 @@ editor
 =
 inputField
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMNSEditableElement
-)
-.
 editor
 ;
 editor

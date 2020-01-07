@@ -158,13 +158,6 @@ event
 .
 target
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMNSEditableElement
-)
-.
 editor
 )
 ;
