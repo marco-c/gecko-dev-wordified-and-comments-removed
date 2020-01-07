@@ -4537,6 +4537,10 @@ MemoryBarrierBits
 barrier
 )
 {
+if
+(
+barrier
+)
 as_sync
 (
 )
