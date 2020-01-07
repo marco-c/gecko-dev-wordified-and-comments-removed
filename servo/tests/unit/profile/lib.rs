@@ -1,3 +1,11 @@
+#
+!
+[
+cfg
+(
+test
+)
+]
 extern
 crate
 ipc_channel
@@ -14,13 +22,6 @@ extern
 crate
 servo_allocator
 ;
-#
-[
-cfg
-(
-test
-)
-]
 mod
 time
 ;

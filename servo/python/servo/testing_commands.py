@@ -1931,6 +1931,14 @@ RUST_BACKTRACE
 1
 "
         
+del
+env
+[
+"
+RUSTDOCFLAGS
+"
+]
+        
 if
 "
 msvc
