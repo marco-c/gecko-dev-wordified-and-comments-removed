@@ -33244,6 +33244,15 @@ ApplyOpacityToChildren
 (
 aBuilder
 )
+|
+|
+!
+gfxVars
+:
+:
+UseWebRender
+(
+)
 ;
 }
 nsDisplayItem
