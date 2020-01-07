@@ -553,6 +553,11 @@ info
 )
 ;
 bool
+IsDefaultPlaybackDeviceMono
+(
+)
+;
+bool
 IsVideoContentType
 (
 const
