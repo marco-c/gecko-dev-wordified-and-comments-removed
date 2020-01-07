@@ -299,7 +299,7 @@ parentWindow
 =
 assert
 .
-window
+open
 (
 this
 .
