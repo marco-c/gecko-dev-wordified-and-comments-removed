@@ -1587,15 +1587,6 @@ ini
 .
 so
 '
-        
-'
-*
-*
-/
-interfaces
-.
-xpt
-'
     
 }
     
@@ -1873,17 +1864,6 @@ firefox
 *
 .
 so
-'
-        
-'
-firefox
-/
-*
-*
-/
-interfaces
-.
-xpt
 '
     
 }
@@ -2521,15 +2501,6 @@ libclearkey
 .
 dylib
 '
-                    
-'
-*
-*
-/
-interfaces
-.
-xpt
-'
                 
 ]
 )
@@ -2875,17 +2846,6 @@ firefox
 *
 .
 exe
-'
-        
-'
-firefox
-/
-*
-*
-/
-interfaces
-.
-xpt
 '
         
 '
