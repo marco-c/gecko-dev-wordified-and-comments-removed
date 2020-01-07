@@ -912,6 +912,7 @@ bool
 aHandled
 )
 ;
+MOZ_MUST_USE
 nsresult
 WillOutdent
 (
@@ -1251,6 +1252,12 @@ nsIEditor
 :
 EDirection
 aDirection
+)
+;
+MOZ_MUST_USE
+SplitRangeOffFromNodeResult
+OutdentAroundSelection
+(
 )
 ;
 MOZ_MUST_USE
