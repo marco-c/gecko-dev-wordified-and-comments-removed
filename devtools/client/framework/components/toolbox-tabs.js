@@ -183,11 +183,11 @@ focusedButton
 PropTypes
 .
 string
-highlightedTool
+highlightedTools
 :
 PropTypes
 .
-string
+object
 panelDefinitions
 :
 PropTypes
@@ -439,7 +439,7 @@ let
 currentToolId
 focusButton
 focusedButton
-highlightedTool
+highlightedTools
 panelDefinitions
 selectTool
 }
@@ -464,7 +464,7 @@ ToolboxTab
 currentToolId
 focusButton
 focusedButton
-highlightedTool
+highlightedTools
 panelDefinition
 selectTool
 }
