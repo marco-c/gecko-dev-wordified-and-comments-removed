@@ -276,6 +276,9 @@ CLI_bool_options
 tpchrome
 '
 '
+tphero
+'
+'
 tpmozafterpaint
 '
 '
@@ -284,6 +287,7 @@ tploadnocache
 '
 tpscrolltest
 '
+                        
 '
 fnbpaint
 '
