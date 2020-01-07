@@ -1741,7 +1741,8 @@ CT
 aStartOfDeepestRightNode
 )
 ;
-EditorDOMPoint
+MOZ_MUST_USE
+nsresult
 JoinNearestEditableNodesWithTransaction
 (
 nsIContent
@@ -1750,6 +1751,9 @@ aLeftNode
 nsIContent
 &
 aRightNode
+EditorDOMPoint
+*
+aNewFirstChildOfRightNode
 )
 ;
 Element
