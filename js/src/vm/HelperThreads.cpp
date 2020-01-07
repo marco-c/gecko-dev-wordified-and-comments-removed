@@ -1907,14 +1907,6 @@ HelperThreadState
 )
 .
 threads
-|
-|
-realm
--
->
-isAtomsRealm
-(
-)
 )
 return
 false

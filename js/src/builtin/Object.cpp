@@ -10619,12 +10619,12 @@ MOZ_ASSERT
 cx
 -
 >
-realm
+zone
 (
 )
 -
 >
-isAtomsRealm
+isAtomsZone
 (
 )
 )

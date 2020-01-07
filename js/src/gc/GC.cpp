@@ -17844,17 +17844,6 @@ GetRealmForCompartment
 comp
 )
 ;
-MOZ_ASSERT
-(
-!
-realm
--
->
-isAtomsRealm
-(
-)
-)
-;
 bool
 dontDelete
 =
@@ -19432,17 +19421,6 @@ comp
 compartment
 |
 |
-runtime
-(
-)
--
->
-isAtomsCompartment
-(
-comp
-)
-|
-|
 (
 srcKind
 =
@@ -19974,8 +19952,15 @@ isCollecting
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+zone
+-
+>
+isAtomsZone
+(
+)
 !
 zone
 -
@@ -20127,7 +20112,6 @@ CompartmentsIter
 c
 (
 rt
-WithAtoms
 )
 ;
 !
@@ -21050,7 +21034,6 @@ CompartmentsIter
 comp
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -23411,7 +23394,6 @@ CompartmentsIter
 c
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -24550,7 +24532,6 @@ CompartmentsIter
 c
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -25970,7 +25951,6 @@ RealmsIter
 realm
 (
 runtime
-SkipAtoms
 )
 ;
 !
@@ -33495,7 +33475,6 @@ CompartmentsIter
 c
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -36547,7 +36526,6 @@ RealmsIter
 realm
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -36801,7 +36779,6 @@ CompartmentsIter
 c
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -41544,7 +41521,6 @@ CompartmentsIter
 c
 (
 rt
-SkipAtoms
 )
 ;
 !

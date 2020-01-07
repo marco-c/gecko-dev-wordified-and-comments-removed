@@ -642,7 +642,6 @@ RealmsIter
 r
 (
 rt
-SkipAtoms
 )
 ;
 !

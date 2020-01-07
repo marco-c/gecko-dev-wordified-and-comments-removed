@@ -112,7 +112,7 @@ MOZ_ASSERT
 cx
 -
 >
-realm
+zone
 (
 )
 =
@@ -120,7 +120,7 @@ realm
 cx
 -
 >
-atomsRealm
+atomsZone
 (
 lock
 )
@@ -229,8 +229,8 @@ Symbol
 sym
 ;
 {
-AutoAtomsRealm
-ar
+AutoAtomsZone
+az
 (
 cx
 lock
@@ -245,7 +245,7 @@ code
 cx
 -
 >
-realm
+runtime
 (
 )
 -
@@ -361,8 +361,8 @@ Symbol
 sym
 ;
 {
-AutoAtomsRealm
-ar
+AutoAtomsZone
+az
 (
 cx
 lock
