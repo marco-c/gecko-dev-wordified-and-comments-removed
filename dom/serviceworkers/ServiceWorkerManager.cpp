@@ -7358,6 +7358,12 @@ registration
 Scope
 (
 )
+registration
+-
+>
+Id
+(
+)
 currentWorkerURL
 aRegistration
 .

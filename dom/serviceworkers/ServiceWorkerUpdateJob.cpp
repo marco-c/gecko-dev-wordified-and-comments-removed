@@ -1613,6 +1613,12 @@ mRegistration
 Scope
 (
 )
+mRegistration
+-
+>
+Id
+(
+)
 mScriptSpec
 aNewCacheName
 flags

@@ -310,6 +310,8 @@ const
 nsACString
 &
 aScope
+uint64_t
+aRegistrationId
 const
 nsACString
 &

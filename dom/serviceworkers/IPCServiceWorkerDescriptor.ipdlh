@@ -129,6 +129,9 @@ IPCServiceWorkerDescriptor
 uint64_t
 id
 ;
+uint64_t
+registrationId
+;
 PrincipalInfo
 principalInfo
 ;

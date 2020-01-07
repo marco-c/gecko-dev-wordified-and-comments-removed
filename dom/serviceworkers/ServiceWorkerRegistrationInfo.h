@@ -470,6 +470,12 @@ Descriptor
 )
 const
 ;
+uint64_t
+Id
+(
+)
+const
+;
 uint32_t
 GetUpdateDelay
 (
