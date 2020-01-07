@@ -5061,7 +5061,7 @@ indent
 )
     
 def
-write_CanUpperCaseSpecialCasing
+write_ChangesWhenUpperCasedSpecialCasing
 (
 )
 :
@@ -5100,7 +5100,7 @@ js
 unicode
 :
 :
-CanUpperCaseSpecialCasing
+ChangesWhenUpperCasedSpecialCasing
 (
 char16_t
 ch
@@ -5807,7 +5807,7 @@ println
 '
 )
     
-write_CanUpperCaseSpecialCasing
+write_ChangesWhenUpperCasedSpecialCasing
 (
 )
     

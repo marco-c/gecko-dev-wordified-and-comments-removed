@@ -801,7 +801,7 @@ lowerCase
 }
 inline
 bool
-CanUpperCase
+ChangesWhenUpperCased
 (
 char16_t
 ch
@@ -843,7 +843,7 @@ upperCase
 }
 inline
 bool
-CanUpperCase
+ChangesWhenUpperCased
 (
 JS
 :
@@ -878,7 +878,7 @@ z
 '
 ;
 bool
-canUpper
+hasUpper
 =
 ch
 =
@@ -908,10 +908,10 @@ DIVISION_SIGN
 ;
 MOZ_ASSERT
 (
-canUpper
+hasUpper
 =
 =
-CanUpperCase
+ChangesWhenUpperCased
 (
 char16_t
 (
@@ -921,12 +921,12 @@ ch
 )
 ;
 return
-canUpper
+hasUpper
 ;
 }
 inline
 bool
-CanLowerCase
+ChangesWhenLowerCased
 (
 char16_t
 ch
@@ -968,7 +968,7 @@ lowerCase
 }
 inline
 bool
-CanLowerCase
+ChangesWhenLowerCased
 (
 JS
 :
@@ -1003,7 +1003,7 @@ Z
 '
 ;
 bool
-canLower
+hasLower
 =
 (
 (
@@ -1031,10 +1031,10 @@ MULTIPLICATION_SIGN
 ;
 MOZ_ASSERT
 (
-canLower
+hasLower
 =
 =
-CanLowerCase
+ChangesWhenLowerCased
 (
 char16_t
 (
@@ -1044,7 +1044,7 @@ ch
 )
 ;
 return
-canLower
+hasLower
 ;
 }
 #
@@ -1084,7 +1084,7 @@ true
 ;
 inline
 bool
-CanUpperCaseNonBMP
+ChangesWhenUpperCasedNonBMP
 (
 char16_t
 lead
@@ -1102,7 +1102,7 @@ false
 }
 inline
 bool
-CanLowerCaseNonBMP
+ChangesWhenLowerCasedNonBMP
 (
 char16_t
 lead
@@ -1238,7 +1238,7 @@ trail
 ;
 }
 bool
-CanUpperCaseSpecialCasing
+ChangesWhenUpperCasedSpecialCasing
 (
 char16_t
 ch
