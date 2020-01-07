@@ -2317,6 +2317,14 @@ C
 "
 {
 fn
+wr_notifier_wake_up
+(
+window_id
+:
+WrWindowId
+)
+;
+fn
 wr_notifier_new_frame_ready
 (
 window_id
@@ -2389,7 +2397,7 @@ self
 {
 unsafe
 {
-wr_notifier_new_frame_ready
+wr_notifier_wake_up
 (
 self
 .
