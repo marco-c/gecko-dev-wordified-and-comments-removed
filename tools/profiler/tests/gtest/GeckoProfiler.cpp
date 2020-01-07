@@ -1832,10 +1832,7 @@ B
 A
 "
 TRACING_EVENT
-std
-:
-:
-move
+Move
 (
 bt
 )
@@ -2083,7 +2080,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 (
 "
 "
-CSS
+LAYOUT
 okstr1
 .
 get
@@ -2096,7 +2093,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 "
 okstr2
 "
-CSS
+LAYOUT
 okstr2
 .
 get
@@ -2108,7 +2105,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 (
 "
 "
-CSS
+LAYOUT
 longstr
 .
 get
