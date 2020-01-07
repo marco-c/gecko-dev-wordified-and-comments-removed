@@ -548,6 +548,15 @@ aCx
 )
 )
 ;
+MOZ_ASSERT
+(
+aArgument
+.
+IsDOMBinding
+(
+)
+)
+;
 return
 GetOrCreateDOMReflector
 (
@@ -724,7 +733,7 @@ aCx
 )
 )
 ;
-xpcObjectHelper
+qsObjectHelper
 helper
 (
 ToSupports
@@ -732,6 +741,7 @@ ToSupports
 &
 aArgument
 )
+nullptr
 )
 ;
 JS
