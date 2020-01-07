@@ -205,6 +205,14 @@ popuphidden
 "
 )
 ;
+document
+.
+documentElement
+.
+focus
+(
+)
+;
 EventUtils
 .
 synthesizeKey
