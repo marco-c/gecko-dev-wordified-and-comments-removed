@@ -588,6 +588,15 @@ h
 "
 mozilla
 /
+dom
+/
+ShadowRoot
+.
+h
+"
+"
+mozilla
+/
 AnimationPropertySegment
 .
 h

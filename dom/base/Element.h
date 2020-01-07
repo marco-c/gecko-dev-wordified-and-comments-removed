@@ -1460,8 +1460,7 @@ ShadowRoot
 >
 AttachShadowInternal
 (
-bool
-aClosed
+ShadowRootMode
 ErrorResult
 &
 aError
