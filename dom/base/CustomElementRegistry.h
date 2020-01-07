@@ -646,9 +646,6 @@ aCb
 const
 {
 }
-#
-if
-DEBUG
 bool
 IsUpgradeReaction
 (
@@ -665,8 +662,6 @@ mIsUpgradeReaction
 =
 false
 ;
-#
-endif
 }
 ;
 class
