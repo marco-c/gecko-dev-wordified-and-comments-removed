@@ -689,7 +689,9 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-return
+ErrorResult
+rv
+;
 mCharData
 -
 >
@@ -697,6 +699,14 @@ InsertData
 (
 mOffset
 mDeletedText
+rv
+)
+;
+return
+rv
+.
+StealNSResult
+(
 )
 ;
 }
