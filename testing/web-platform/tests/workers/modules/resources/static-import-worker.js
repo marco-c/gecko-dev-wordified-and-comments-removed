@@ -15,3 +15,10 @@ worker
 js
 '
 ;
+postMessage
+(
+'
+LOADED
+'
+)
+;

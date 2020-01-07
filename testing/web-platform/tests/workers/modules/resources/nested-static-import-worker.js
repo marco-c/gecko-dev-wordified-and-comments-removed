@@ -11,3 +11,9 @@ worker
 js
 '
 ;
+postMessage
+(
+'
+LOADED
+'
+)
