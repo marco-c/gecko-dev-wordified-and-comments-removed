@@ -1938,11 +1938,12 @@ GESTURE_NONE
 ;
 ParentLayerPoint
 point
+=
+PinchGestureInput
+:
+:
+BothFingersLifted
 (
--
-1
--
-1
 )
 ;
 if
