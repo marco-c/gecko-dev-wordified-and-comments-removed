@@ -8659,12 +8659,23 @@ OutOfLineWasmTruncateCheck
 (
 mir
 input
+output
 )
 ;
 addOutOfLineCode
 (
 ool
 mir
+)
+;
+bool
+isSaturating
+=
+mir
+-
+>
+isSaturating
+(
 )
 ;
 if
@@ -8703,6 +8714,7 @@ wasmTruncateFloat32ToUInt64
 (
 input
 output
+isSaturating
 ool
 -
 >
@@ -8725,6 +8737,7 @@ wasmTruncateFloat32ToInt64
 (
 input
 output
+isSaturating
 ool
 -
 >
@@ -8758,6 +8771,7 @@ wasmTruncateDoubleToUInt64
 (
 input
 output
+isSaturating
 ool
 -
 >
@@ -8780,6 +8794,7 @@ wasmTruncateDoubleToInt64
 (
 input
 output
+isSaturating
 ool
 -
 >

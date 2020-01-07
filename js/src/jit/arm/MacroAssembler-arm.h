@@ -458,6 +458,8 @@ MIRType
 fromType
 bool
 isUnsigned
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -472,8 +474,8 @@ MIRType
 fromType
 MIRType
 toType
-bool
-isUnsigned
+TruncFlags
+flags
 Label
 *
 rejoin

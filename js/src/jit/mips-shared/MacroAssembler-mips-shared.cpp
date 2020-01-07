@@ -7469,6 +7469,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -7528,6 +7530,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry

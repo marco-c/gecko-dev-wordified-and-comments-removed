@@ -4303,6 +4303,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -4356,6 +4358,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -4409,6 +4413,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -4463,6 +4469,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -4517,6 +4525,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -4661,6 +4671,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry

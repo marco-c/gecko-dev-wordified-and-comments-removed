@@ -455,6 +455,16 @@ wasmThreadsSupported
 const
 LastInvalidOpcode
 =
+0xfb
+;
+const
+NumericPrefix
+=
+0xfc
+;
+const
+SimdPrefix
+=
 0xfd
 ;
 const
