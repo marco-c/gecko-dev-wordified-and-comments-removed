@@ -116,7 +116,7 @@ kSubstitutingURLCID
 NS_SUBSTITUTINGURL_CID
 )
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_NSIURIMUTATOR_ISUPPORTS
 (
 SubstitutingURL
 :
@@ -127,6 +127,7 @@ nsIURIMutator
 nsIStandardURLMutator
 nsIURLMutator
 nsIFileURLMutator
+nsISerializable
 )
 nsresult
 SubstitutingURL
