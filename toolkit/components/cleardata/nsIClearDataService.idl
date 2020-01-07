@@ -1056,7 +1056,13 @@ CLEAR_SECURITY_SETTINGS
 ;
 /
 *
-TODO
+*
+*
+Media
+plugin
+data
+*
+/
 const
 uint32_t
 CLEAR_EME
@@ -1064,8 +1070,11 @@ CLEAR_EME
 1
 <
 <
-4
+18
 ;
+/
+*
+TODO
 const
 uint32_t
 CLEAR_FORMDATA
