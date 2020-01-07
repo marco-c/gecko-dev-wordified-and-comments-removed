@@ -1,10 +1,5 @@
-from
-__future__
 import
-absolute_import
-print_function
-import
-ConfigParser
+configparser
 import
 argparse
 import
@@ -287,7 +282,7 @@ filename
     
 config
 =
-ConfigParser
+configparser
 .
 ConfigParser
 (

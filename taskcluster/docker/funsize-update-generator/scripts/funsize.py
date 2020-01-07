@@ -1,11 +1,5 @@
-from
-__future__
 import
-absolute_import
-print_function
-unicode_literals
-import
-ConfigParser
+configparser
 import
 argparse
 import
@@ -811,7 +805,7 @@ filename
     
 config
 =
-ConfigParser
+configparser
 .
 ConfigParser
 (
@@ -1020,30 +1014,15 @@ as
 f
 :
         
-for
-chunk
-in
-iter
-(
-functools
-.
-partial
-(
-f
-.
-read
-4096
-)
-'
-'
-)
-:
-            
 h
 .
 update
 (
-chunk
+f
+.
+read
+(
+)
 )
     
 return
@@ -1730,9 +1709,12 @@ message
 )
 s
 "
-                        
-level
-=
+)
+    
+log
+.
+setLevel
+(
 args
 .
 log_level
