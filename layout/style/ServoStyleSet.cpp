@@ -5789,7 +5789,7 @@ MOZ_DIAGNOSTIC_ASSERT
 computedValues
 -
 >
-PresContext
+PresContextForFrame
 (
 )
 =
