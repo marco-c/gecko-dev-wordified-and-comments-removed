@@ -7,6 +7,13 @@ mozilla_dom_MediaKeySession_h
 #
 include
 "
+DecoderDoctorLogger
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
