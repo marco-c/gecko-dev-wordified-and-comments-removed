@@ -3348,7 +3348,7 @@ in
 -
 tree
 :
-desktop
+mingw32
 -
 build
 }
@@ -3449,7 +3449,7 @@ in
 -
 tree
 :
-desktop
+mingw32
 -
 build
 }
@@ -3555,7 +3555,7 @@ in
 -
 tree
 :
-desktop
+mingw32
 -
 build
 }
@@ -3680,7 +3680,7 @@ in
 -
 tree
 :
-desktop
+mingw32
 -
 build
 }
@@ -3797,7 +3797,7 @@ in
 -
 tree
 :
-desktop
+mingw32
 -
 build
 }
