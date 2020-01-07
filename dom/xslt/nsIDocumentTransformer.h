@@ -32,7 +32,7 @@ class
 nsIDocument
 ;
 class
-nsIDOMNode
+nsINode
 ;
 class
 nsIURI
@@ -163,18 +163,8 @@ aLoaderDocument
 NS_IMETHOD
 SetSourceContentModel
 (
-nsIDocument
+nsINode
 *
-aDocument
-const
-nsTArray
-<
-nsCOMPtr
-<
-nsIContent
->
->
-&
 aSource
 )
 =
@@ -221,7 +211,7 @@ const
 nsString
 &
 aSelect
-nsIDOMNode
+nsINode
 *
 aContextNode
 )
