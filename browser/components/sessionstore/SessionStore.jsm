@@ -7131,6 +7131,14 @@ restart
 "
 )
 {
+if
+(
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+)
+{
 this
 .
 _prefBranch
@@ -7145,6 +7153,7 @@ resume_session_once
 true
 )
 ;
+}
 Services
 .
 obs

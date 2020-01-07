@@ -2450,6 +2450,14 @@ aForce
 )
 return
 ;
+if
+(
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+)
+{
 Services
 .
 prefs
@@ -2466,6 +2474,7 @@ resume_session_once
 true
 )
 ;
+}
 Services
 .
 prefs
