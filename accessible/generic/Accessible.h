@@ -2895,6 +2895,7 @@ aActionIndex
 =
 0
 )
+const
 ;
 virtual
 void
@@ -2906,6 +2907,7 @@ aContent
 uint32_t
 aActionIndex
 )
+const
 ;
 nsIContent
 *

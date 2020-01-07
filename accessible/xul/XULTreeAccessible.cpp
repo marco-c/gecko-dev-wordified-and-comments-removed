@@ -4079,6 +4079,7 @@ aContent
 uint32_t
 aActionIndex
 )
+const
 {
 if
 (
