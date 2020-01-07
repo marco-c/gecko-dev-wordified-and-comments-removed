@@ -198,11 +198,6 @@ nsIDOMCSSStyleSheet
 idl
 '
 '
-nsIDOMCSSSupportsRule
-.
-idl
-'
-'
 nsIDOMCSSUnknownRule
 .
 idl

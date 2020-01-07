@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsIDOMCSSSupportsRule
+nsIDOMCSSConditionRule
 .
 h
 "
@@ -37,7 +37,7 @@ css
 :
 ConditionRule
 public
-nsIDOMCSSSupportsRule
+nsIDOMCSSConditionRule
 {
 protected
 :
@@ -93,7 +93,6 @@ override
 =
 0
 ;
-NS_DECL_NSIDOMCSSSUPPORTSRULE
 uint16_t
 Type
 (
