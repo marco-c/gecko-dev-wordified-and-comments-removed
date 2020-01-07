@@ -96,7 +96,6 @@ withReflowObserver
 async
 function
 (
-dirtyFrame
 )
 {
 let
@@ -209,7 +208,6 @@ withReflowObserver
 async
 function
 (
-dirtyFrame
 )
 {
 let
@@ -271,7 +269,6 @@ withReflowObserver
 async
 function
 (
-dirtyFrame
 )
 {
 let
@@ -355,7 +352,6 @@ withReflowObserver
 async
 function
 (
-dirtyFrame
 )
 {
 let
