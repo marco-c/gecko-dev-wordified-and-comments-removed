@@ -5393,6 +5393,7 @@ popup
 popup
 -
 menulist
+subviewkeynav
 "
 )
 ;
@@ -5767,6 +5768,7 @@ permission
 remove
 -
 button
+subviewkeynav
 "
 )
 ;
@@ -6188,6 +6190,7 @@ label
 text
 -
 link
+subviewkeynav
 "
 )
 ;
