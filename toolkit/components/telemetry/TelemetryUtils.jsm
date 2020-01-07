@@ -494,6 +494,17 @@ telemetry
 .
 previousBuildID
 "
+EventPingEnabled
+:
+"
+toolkit
+.
+telemetry
+.
+eventping
+.
+enabled
+"
 EventPingEventLimit
 :
 "

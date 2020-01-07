@@ -72,3 +72,17 @@ isGeckoViewMode
 true
 )
 ;
+pref
+(
+"
+toolkit
+.
+telemetry
+.
+eventping
+.
+enabled
+"
+false
+)
+;
