@@ -410,17 +410,6 @@ nsIAndroidBridge
 :
 nsIAndroidEventDispatcher
 {
-[
-implicit_jscontext
-]
-void
-handleGeckoMessage
-(
-in
-jsval
-message
-)
-;
 attribute
 nsIAndroidBrowserApp
 browserApp
