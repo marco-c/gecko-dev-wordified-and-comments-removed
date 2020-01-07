@@ -10437,13 +10437,8 @@ import
 (
             
 get_artifact_url
-            
-list_artifacts
         
 )
-        
-import
-yaml
         
 self
 .
