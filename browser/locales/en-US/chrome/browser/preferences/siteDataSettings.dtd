@@ -117,6 +117,17 @@ Storage
 <
 !
 ENTITY
+lastAccessedCol
+.
+label
+"
+Last
+Used
+"
+>
+<
+!
+ENTITY
 searchTextboxPlaceHolder
 "
 Search
