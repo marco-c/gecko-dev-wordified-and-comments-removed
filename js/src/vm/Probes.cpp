@@ -22,7 +22,11 @@ INCLUDE_MOZILLA_DTRACE
 #
 include
 "
-jsscriptinlines
+vm
+/
+JSScript
+-
+inl
 .
 h
 "

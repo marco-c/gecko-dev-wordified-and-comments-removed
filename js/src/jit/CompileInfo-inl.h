@@ -25,7 +25,11 @@ h
 #
 include
 "
-jsscriptinlines
+vm
+/
+JSScript
+-
+inl
 .
 h
 "

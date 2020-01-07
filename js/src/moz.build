@@ -2268,11 +2268,6 @@ jsprf
 cpp
 '
 '
-jsscript
-.
-cpp
-'
-'
 jsstr
 .
 cpp
@@ -2538,6 +2533,13 @@ cpp
 vm
 /
 JSONPrinter
+.
+cpp
+'
+'
+vm
+/
+JSScript
 .
 cpp
 '

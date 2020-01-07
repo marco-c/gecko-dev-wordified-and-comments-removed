@@ -14,7 +14,9 @@ h
 #
 include
 "
-jsscript
+vm
+/
+JSScript
 .
 h
 "
