@@ -834,7 +834,7 @@ jni
 DispatchTarget
 :
 :
-CURRENT
+GECKO
 ;
 }
 ;
