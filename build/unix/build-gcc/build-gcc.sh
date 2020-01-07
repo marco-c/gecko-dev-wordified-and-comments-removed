@@ -388,9 +388,7 @@ multiprecision
 .
 org
 /
-mpc
-/
-download
+downloads
 file
 .
 asc
