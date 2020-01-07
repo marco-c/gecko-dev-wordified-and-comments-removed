@@ -2975,6 +2975,13 @@ return
 rv
 ;
 }
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 mAllocations
 .
 AppendElement
@@ -2985,6 +2992,7 @@ handle
 )
 )
 ;
+}
 handle
 .
 forget
