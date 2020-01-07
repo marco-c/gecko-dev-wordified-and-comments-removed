@@ -8749,7 +8749,7 @@ true
 ;
 class
 MOZ_STACK_CLASS
-IfThenElseEmitter
+IfEmitter
 {
 BytecodeEmitter
 *
@@ -8794,7 +8794,7 @@ endif
 public
 :
 explicit
-IfThenElseEmitter
+IfEmitter
 (
 BytecodeEmitter
 *
@@ -8832,7 +8832,7 @@ endif
 {
 }
 ~
-IfThenElseEmitter
+IfEmitter
 (
 )
 {
@@ -9655,7 +9655,7 @@ JSOP_STRICTNE
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifIteratorIsNotClosed
 (
 bce
@@ -9774,7 +9774,7 @@ emitFinally
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifGeneratorClosing
 (
 bce
@@ -24656,7 +24656,7 @@ JSOP_CALLPROP
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifReturnMethodIsDefined
 (
 this
@@ -25861,7 +25861,7 @@ Spread
 )
 )
 {
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -26123,7 +26123,7 @@ Spread
 )
 )
 ;
-IfThenElseEmitter
+IfEmitter
 ifAlreadyDone
 (
 this
@@ -26299,7 +26299,7 @@ emitted
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifDone
 (
 this
@@ -26538,7 +26538,7 @@ false
 ;
 }
 }
-IfThenElseEmitter
+IfEmitter
 ifDone
 (
 this
@@ -31026,7 +31026,7 @@ ParseNode
 pn
 )
 {
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -32067,7 +32067,7 @@ JSOP_CALLELEM
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifAsyncIterIsUndefined
 (
 this
@@ -33544,7 +33544,7 @@ JSOP_GETPROP
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifDone
 (
 this
@@ -38889,7 +38889,7 @@ JSOP_EQ
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifThrowMethodIsNotDefined
 (
 this
@@ -39108,7 +39108,7 @@ emitFinally
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifGeneratorClosing
 (
 this
@@ -39178,7 +39178,7 @@ JSOP_CALLPROP
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifReturnMethodIsDefined
 (
 this
@@ -39300,7 +39300,7 @@ IteratorReturn
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifReturnDone
 (
 this
@@ -42927,7 +42927,7 @@ args
 pn_kid
 )
 ;
-IfThenElseEmitter
+IfEmitter
 ifNotOptimizable
 (
 this
@@ -44055,7 +44055,7 @@ condition
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -47932,7 +47932,7 @@ if
 heritageExpression
 )
 {
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
