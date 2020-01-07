@@ -1164,9 +1164,9 @@ const
 return
 MoveDistanceExceeds
 (
-mAsyncPanZoomController
--
->
+AsyncPanZoomController
+:
+:
 GetTouchStartTolerance
 (
 )
@@ -1185,9 +1185,9 @@ const
 return
 MoveDistanceExceeds
 (
-mAsyncPanZoomController
--
->
+AsyncPanZoomController
+:
+:
 GetSecondTapTolerance
 (
 )

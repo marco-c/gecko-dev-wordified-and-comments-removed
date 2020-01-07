@@ -769,6 +769,15 @@ bool
 aTapGestureEnabled
 )
 ;
+async
+ProcessTouchVelocity
+(
+uint32_t
+aTimestampMs
+float
+aSpeedY
+)
+;
 /
 /
 The

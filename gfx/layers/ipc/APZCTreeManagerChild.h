@@ -213,6 +213,16 @@ aTapGestureEnabled
 override
 ;
 void
+ProcessTouchVelocity
+(
+uint32_t
+aTimestampMs
+float
+aSpeedY
+)
+override
+;
+void
 ProcessUnhandledEvent
 (
 LayoutDeviceIntPoint
