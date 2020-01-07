@@ -1134,7 +1134,7 @@ bool
 nsINode
 :
 :
-IsEditableInternal
+IsEditable
 (
 )
 const

@@ -970,7 +970,7 @@ GetDesiredIMEState
 if
 (
 !
-IsEditableInternal
+IsEditable
 (
 )
 )
@@ -1180,7 +1180,7 @@ GetEditingHost
 if
 (
 !
-IsEditableInternal
+IsEditable
 (
 )
 )
