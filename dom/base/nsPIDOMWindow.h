@@ -99,6 +99,9 @@ window
 thawed
 "
 class
+nsDOMWindowList
+;
+class
 nsGlobalWindowInner
 ;
 class
@@ -1432,10 +1435,8 @@ aControllers
 0
 ;
 virtual
-already_AddRefed
-<
-nsIDOMWindowCollection
->
+nsDOMWindowList
+*
 GetFrames
 (
 )
@@ -2861,10 +2862,8 @@ GetOpener
 0
 ;
 virtual
-already_AddRefed
-<
-nsIDOMWindowCollection
->
+nsDOMWindowList
+*
 GetFrames
 (
 )

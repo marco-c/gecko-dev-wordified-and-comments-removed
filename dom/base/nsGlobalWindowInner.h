@@ -2942,14 +2942,12 @@ ErrorResult
 aError
 )
 ;
-already_AddRefed
-<
-nsIDOMWindowCollection
->
+nsDOMWindowList
+*
 GetFrames
 (
 )
-override
+final
 ;
 already_AddRefed
 <

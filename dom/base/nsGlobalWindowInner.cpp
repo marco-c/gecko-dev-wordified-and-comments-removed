@@ -11440,10 +11440,8 @@ false
 )
 ;
 }
-already_AddRefed
-<
-nsIDOMWindowCollection
->
+nsDOMWindowList
+*
 nsGlobalWindowInner
 :
 :
