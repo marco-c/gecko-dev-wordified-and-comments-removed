@@ -371,13 +371,6 @@ new_disabled
 :
                             
 print
-"
-disabled
-:
-%
-s
-"
-%
 os
 .
 path
@@ -406,13 +399,6 @@ new_disabled
 :
                         
 print
-"
-disabled
-:
-%
-s
-"
-%
 test
 .
 root
@@ -2250,10 +2236,10 @@ iterchildren
 :
         
 if
-not
 test
 .
 id
+not
 in
 tests_by_id
 :

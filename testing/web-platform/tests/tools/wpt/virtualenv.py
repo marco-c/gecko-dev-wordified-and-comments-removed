@@ -1,6 +1,8 @@
 import
 os
 import
+shutil
+import
 sys
 import
 logging
@@ -138,6 +140,13 @@ virtualenv
 self
 .
 path
+"
+-
+p
+"
+sys
+.
+executable
 )
     
 property

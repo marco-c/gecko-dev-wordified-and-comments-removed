@@ -130,11 +130,6 @@ step_log
 "
 )
 ;
-var
-navigated
-=
-false
-;
 log
 =
 function
@@ -180,10 +175,6 @@ function
 (
 )
 {
-navigated
-=
-true
-;
 assert_equals
 (
 f
@@ -227,11 +218,6 @@ function
 (
 )
 {
-var
-navigated
-=
-true
-;
 assert_equals
 (
 f
@@ -243,8 +229,9 @@ name
 test3
 "
 "
-Initial
-load
+After
+navigation
+1
 "
 )
 ;
@@ -362,6 +349,7 @@ test3
 "
 After
 navigation
+2
 "
 )
 ;
@@ -396,6 +384,7 @@ test3
 "
 After
 navigation
+3
 "
 )
 ;

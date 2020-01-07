@@ -172,7 +172,6 @@ to
 test
 against
 :
-b2g
 chrome
 firefox
 or
@@ -1842,7 +1841,7 @@ For
 test
 expectations
 the
-available
+avaliable
 variables
 are
 those

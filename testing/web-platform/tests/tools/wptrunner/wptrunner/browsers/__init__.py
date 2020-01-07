@@ -214,6 +214,10 @@ chrome
 "
                 
 "
+chrome_android
+"
+                
+"
 edge
 "
                 

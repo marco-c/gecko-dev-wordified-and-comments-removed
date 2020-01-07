@@ -1177,6 +1177,7 @@ pid
 )
         
 except
+Exception
 :
             
 self
@@ -3867,8 +3868,8 @@ subtest_unexpected
 or
 is_unexpected
 )
-                                
 and
+                                
 self
 .
 restart_on_unexpected
@@ -4576,7 +4577,7 @@ cmd
 log
 "
 :
-                     
+                    
 self
 .
 log

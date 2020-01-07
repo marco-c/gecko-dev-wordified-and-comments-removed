@@ -812,8 +812,8 @@ root
 )
         
 if
-not
 sync_path
+not
 in
 sys
 .

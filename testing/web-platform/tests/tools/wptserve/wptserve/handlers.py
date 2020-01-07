@@ -1825,6 +1825,13 @@ handler
 request
 response
 )
+                
+wrap_pipeline
+(
+path
+request
+response
+)
             
 else
 :
@@ -2006,6 +2013,14 @@ response
 content
 =
 content
+            
+wrap_pipeline
+(
+'
+'
+request
+response
+)
 def
 handler
 (
@@ -2276,6 +2291,13 @@ f
 read
 (
 )
+)
+            
+wrap_pipeline
+(
+path
+request
+response
 )
             
 response
