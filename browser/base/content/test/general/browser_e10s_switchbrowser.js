@@ -503,12 +503,13 @@ gBrowser
 .
 selectedBrowser
 .
-loadURI
+loadURIWithFlags
 (
 uri
-{
 flags
-}
+null
+null
+null
 )
 ;
 await

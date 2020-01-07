@@ -115,12 +115,13 @@ func
 ;
 browser
 .
-loadURI
+loadURIWithFlags
 (
 url
-{
 flags
-}
+null
+null
+null
 )
 ;
 }

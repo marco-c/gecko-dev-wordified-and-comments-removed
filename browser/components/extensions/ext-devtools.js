@@ -568,7 +568,7 @@ this
 .
 browser
 .
-loadURI
+loadURIWithFlags
 (
 this
 .

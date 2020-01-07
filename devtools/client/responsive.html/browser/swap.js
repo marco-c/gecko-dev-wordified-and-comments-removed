@@ -410,7 +410,7 @@ URL
 ;
 containerBrowser
 .
-loadURI
+loadURIWithFlags
 (
 containerURL
 {
