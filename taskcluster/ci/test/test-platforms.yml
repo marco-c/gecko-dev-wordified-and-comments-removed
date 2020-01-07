@@ -325,6 +325,8 @@ linux
 talos
 -
 flex
+-
+raptor
 linux64
 -
 nightly
@@ -467,6 +469,8 @@ platform
 tests
 -
 talos
+-
+raptor
 linux64
 -
 asan
@@ -572,6 +576,8 @@ web
 platform
 -
 tests
+-
+raptor
 linux64
 -
 qr
@@ -970,6 +976,8 @@ tests
 mochitest
 -
 headless
+-
+raptor
 windows10
 -
 64
@@ -1007,6 +1015,8 @@ talos
 windows
 -
 tests
+-
+raptor
 windows10
 -
 64
@@ -1172,6 +1182,8 @@ tests
 windows
 -
 talos
+-
+raptor
 #
 #
 #
@@ -1236,8 +1248,6 @@ screenshot
 capture
 -
 awsy
--
-macosx64
 -
 raptor
 macosx64
