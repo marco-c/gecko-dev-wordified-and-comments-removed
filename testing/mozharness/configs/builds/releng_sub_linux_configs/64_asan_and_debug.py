@@ -198,13 +198,6 @@ sbin
 /
 sbin
 :
-/
-tools
-/
-git
-/
-bin
-:
 \
 /
 home
