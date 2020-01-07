@@ -164,14 +164,6 @@ EXPORT_JS_API
 ]
 =
 True
-DEFINES
-[
-'
-ENABLE_WASM_GLOBAL
-'
-]
-=
-True
 if
 CONFIG
 [
