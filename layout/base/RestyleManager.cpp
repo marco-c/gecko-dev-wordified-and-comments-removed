@@ -13035,6 +13035,17 @@ GetFlattenedTreeParentNodeForStyle
 aContent
 )
 ;
+MOZ_ASSERT
+(
+!
+content
+-
+>
+IsActiveChildrenElement
+(
+)
+)
+;
 VerifyFlatTree
 (
 *
