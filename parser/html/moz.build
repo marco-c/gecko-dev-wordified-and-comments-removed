@@ -525,9 +525,14 @@ or
 CONFIG
 [
 '
-CLANG_CXX
+CC_TYPE
 '
 ]
+=
+=
+'
+clang
+'
 :
 CXXFLAGS
 +

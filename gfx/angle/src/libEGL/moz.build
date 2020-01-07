@@ -119,9 +119,14 @@ if
 CONFIG
 [
 '
-CLANG_CXX
+CC_TYPE
 '
 ]
+=
+=
+'
+clang
+'
 :
 CXXFLAGS
 +

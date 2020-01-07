@@ -433,9 +433,16 @@ and
 CONFIG
 [
 '
-CLANG_CL
+CC_TYPE
 '
 ]
+=
+=
+'
+clang
+-
+cl
+'
 :
 FINAL_TARGET_FILES
 +
