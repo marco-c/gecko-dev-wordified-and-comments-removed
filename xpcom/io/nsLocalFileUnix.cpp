@@ -687,12 +687,11 @@ return
 rv
 ;
 }
-NS_IF_ADDREF
-(
-*
-aResult
-=
 file
+.
+forget
+(
+aResult
 )
 ;
 return
