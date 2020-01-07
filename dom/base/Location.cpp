@@ -3067,7 +3067,7 @@ uri
 ;
 aRv
 =
-GetWritableURI
+GetURI
 (
 getter_AddRefs
 (
@@ -3139,9 +3139,11 @@ end
 nsresult
 rv
 =
+NS_MutateURI
+(
 uri
--
->
+)
+.
 SetScheme
 (
 NS_ConvertUTF16toUTF8
@@ -3152,6 +3154,11 @@ start
 iter
 )
 )
+)
+.
+Finalize
+(
+uri
 )
 ;
 if
