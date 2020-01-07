@@ -2459,7 +2459,12 @@ Classifier
 :
 :
 Clear_All
-mUpdateTables
+mProtocolParser
+-
+>
+TablesToReset
+(
+)
 )
 ;
 }
