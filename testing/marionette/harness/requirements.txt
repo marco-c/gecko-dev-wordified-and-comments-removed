@@ -21,7 +21,7 @@ driver
 =
 2
 .
-5
+6
 .
 0
 mozcrash
@@ -71,7 +71,7 @@ mozrunner
 =
 6
 .
-13
+15
 moztest
 >
 =
