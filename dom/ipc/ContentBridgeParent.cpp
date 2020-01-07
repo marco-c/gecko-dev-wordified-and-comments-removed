@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-ChromeMessageSender
+ProcessMessageManager
 .
 h
 "

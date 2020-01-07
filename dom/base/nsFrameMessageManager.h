@@ -236,10 +236,10 @@ class
 ChromeMessageBroadcaster
 ;
 class
-ChromeMessageSender
+ClonedMessageData
 ;
 class
-ClonedMessageData
+MessageBroadcaster
 ;
 class
 MessageListener
@@ -257,6 +257,12 @@ T
 >
 class
 Optional
+;
+class
+ParentProcessMessageManager
+;
+class
+ProcessMessageManager
 ;
 namespace
 ipc
@@ -404,7 +410,7 @@ mozilla
 dom
 :
 :
-ChromeMessageSender
+ProcessMessageManager
 *
 GetProcessMessageManager
 (
@@ -879,7 +885,7 @@ mozilla
 dom
 :
 :
-ChromeMessageSender
+ProcessMessageManager
 >
 GetProcessMessageManager
 (
@@ -1066,7 +1072,7 @@ mozilla
 dom
 :
 :
-ChromeMessageSender
+ProcessMessageManager
 *
 NewProcessMessageManager
 (
@@ -1259,7 +1265,7 @@ mozilla
 dom
 :
 :
-ChromeMessageBroadcaster
+ParentProcessMessageManager
 *
 GetParentProcessManager
 (
@@ -1334,7 +1340,7 @@ mozilla
 dom
 :
 :
-ChromeMessageBroadcaster
+MessageBroadcaster
 *
 GetParentManager
 (
@@ -1819,7 +1825,7 @@ mozilla
 dom
 :
 :
-ChromeMessageBroadcaster
+ParentProcessMessageManager
 *
 sParentProcessManager
 ;
