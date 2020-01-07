@@ -118,6 +118,11 @@ packages
 '
 mach
 '
+'
+mach
+.
+mixin
+'
 ]
     
 version
