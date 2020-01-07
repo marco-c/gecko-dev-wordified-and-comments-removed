@@ -96,11 +96,6 @@ aDoc
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ARIAGridAccessible
-Accessible
-)
 uint32_t
 ARIAGridAccessible
 :
@@ -2568,11 +2563,6 @@ mGenericTypes
 eTableRow
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ARIARowAccessible
-Accessible
-)
 GroupPos
 ARIARowAccessible
 :
@@ -2684,11 +2674,6 @@ mGenericTypes
 eTableCell
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ARIAGridCellAccessible
-HyperTextAccessible
-)
 TableAccessible
 *
 ARIAGridCellAccessible

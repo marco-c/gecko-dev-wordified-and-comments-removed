@@ -43,7 +43,11 @@ DocAccessible
 aDoc
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLImageMapAccessible
+ImageAccessibleWrap
+)
 virtual
 a11y
 :

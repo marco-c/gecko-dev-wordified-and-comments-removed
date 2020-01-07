@@ -121,11 +121,6 @@ behavior
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-AnalyserNode
-AudioNode
-)
 class
 AnalyserNodeEngine
 final

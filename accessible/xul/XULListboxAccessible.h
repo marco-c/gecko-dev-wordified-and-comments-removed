@@ -458,7 +458,11 @@ eAction_Click
 0
 }
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+XULListitemAccessible
+XULMenuitemAccessible
+)
 XULListitemAccessible
 (
 nsIContent
@@ -577,7 +581,11 @@ DocAccessible
 aDoc
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+XULListCellAccessible
+HyperTextAccessibleWrap
+)
 virtual
 TableCellAccessible
 *

@@ -1829,11 +1829,6 @@ sLastUserInputTime
 timestamp
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsWindow
-nsBaseWidget
-)
 nsWindow
 :
 :

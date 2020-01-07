@@ -553,11 +553,6 @@ mozilla
 :
 ipc
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsWindow
-nsBaseWidget
-)
 #
 include
 "

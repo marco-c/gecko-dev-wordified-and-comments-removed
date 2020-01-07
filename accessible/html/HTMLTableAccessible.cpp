@@ -256,11 +256,6 @@ mGenericTypes
 eTableCell
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLTableCellAccessible
-HyperTextAccessible
-)
 role
 HTMLTableCellAccessible
 :
@@ -1684,11 +1679,6 @@ roles
 COLUMNHEADER
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLTableRowAccessible
-Accessible
-)
 role
 HTMLTableRowAccessible
 :
@@ -1833,11 +1823,6 @@ GroupPosition
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLTableAccessible
-Accessible
-)
 bool
 HTMLTableAccessible
 :

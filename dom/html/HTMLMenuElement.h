@@ -60,7 +60,11 @@ NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 HTMLMenuElement
 menu
 )
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLMenuElement
+nsGenericHTMLElement
+)
 virtual
 nsresult
 AfterSetAttr

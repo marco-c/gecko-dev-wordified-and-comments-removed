@@ -2143,11 +2143,6 @@ forget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-WorkerControlRunnable
-WorkerRunnable
-)
 WorkerMainThreadRunnable
 :
 :

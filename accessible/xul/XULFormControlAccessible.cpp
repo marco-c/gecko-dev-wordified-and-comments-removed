@@ -229,11 +229,6 @@ XULButtonAccessible
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-XULButtonAccessible
-Accessible
-)
 uint8_t
 XULButtonAccessible
 :

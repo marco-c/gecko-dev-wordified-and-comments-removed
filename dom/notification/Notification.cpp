@@ -4685,7 +4685,11 @@ MainThreadNotificationObserver
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+WorkerNotificationObserver
+MainThreadNotificationObserver
+)
 NS_DECL_NSIOBSERVER
 explicit
 WorkerNotificationObserver
@@ -4784,11 +4788,6 @@ nullptr
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-WorkerNotificationObserver
-MainThreadNotificationObserver
-)
 class
 ServiceWorkerNotificationObserver
 final

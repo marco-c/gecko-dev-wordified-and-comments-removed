@@ -734,11 +734,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-WorkerThread
-nsThread
-)
 NS_IMETHODIMP
 WorkerThread
 :

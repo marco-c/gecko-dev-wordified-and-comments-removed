@@ -132,11 +132,6 @@ _XSSQueryInfo
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsIdleServiceGTK
-nsIdleService
-)
 static
 void
 Initialize

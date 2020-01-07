@@ -2862,11 +2862,6 @@ mNativeDragTarget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsWindow
-nsBaseWidget
-)
 int32_t
 nsWindow
 :

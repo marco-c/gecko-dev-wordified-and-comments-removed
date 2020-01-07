@@ -68,7 +68,11 @@ NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 HTMLIFrameElement
 iframe
 )
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLIFrameElement
+nsGenericHTMLFrameElement
+)
 virtual
 bool
 IsInteractiveHTMLContent

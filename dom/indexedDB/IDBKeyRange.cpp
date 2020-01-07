@@ -993,11 +993,6 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 IDBKeyRange
 )
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-IDBLocaleAwareKeyRange
-IDBKeyRange
-)
 void
 IDBKeyRange
 :

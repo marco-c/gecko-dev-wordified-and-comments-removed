@@ -95,11 +95,6 @@ mStateFlags
 eNoKidsFromDOM
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-LeafAccessible
-Accessible
-)
 Accessible
 *
 LeafAccessible
@@ -191,11 +186,6 @@ return
 false
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-LinkableAccessible
-AccessibleWrap
-)
 void
 LinkableAccessible
 :

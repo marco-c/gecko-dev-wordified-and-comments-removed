@@ -45,7 +45,11 @@ DocAccessible
 aDoc
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+LeafAccessible
+AccessibleWrap
+)
 virtual
 Accessible
 *
@@ -138,7 +142,11 @@ aDoc
 )
 {
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+LinkableAccessible
+AccessibleWrap
+)
 virtual
 void
 Value

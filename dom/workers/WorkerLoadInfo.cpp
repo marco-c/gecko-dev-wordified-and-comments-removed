@@ -176,7 +176,11 @@ aLoadGroupToCancel
 )
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+MainThreadReleaseRunnable
+Runnable
+)
 NS_IMETHOD
 Run
 (
@@ -323,11 +327,6 @@ rawSupports
 ;
 }
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-MainThreadReleaseRunnable
-Runnable
-)
 WorkerLoadInfo
 :
 :

@@ -124,11 +124,6 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-MultipartBlobImpl
-BlobImpl
-)
 already_AddRefed
 <
 MultipartBlobImpl

@@ -1185,11 +1185,6 @@ mType
 eHTMLTextFieldType
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLTextFieldAccessible
-HyperTextAccessible
-)
 role
 HTMLTextFieldAccessible
 :

@@ -150,11 +150,6 @@ HTMLIFrameElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLIFrameElement
-nsGenericHTMLFrameElement
-)
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLIFrameElement

@@ -57,7 +57,11 @@ mGenericTypes
 eList
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLListAccessible
+HyperTextAccessibleWrap
+)
 virtual
 a11y
 :
@@ -104,7 +108,11 @@ DocAccessible
 aDoc
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLLIAccessible
+HyperTextAccessibleWrap
+)
 virtual
 void
 Shutdown

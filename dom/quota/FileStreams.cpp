@@ -369,11 +369,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-FileInputStream
-nsFileInputStream
-)
 already_AddRefed
 <
 FileInputStream
@@ -446,11 +441,6 @@ forget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-FileOutputStream
-nsFileOutputStream
-)
 already_AddRefed
 <
 FileOutputStream
@@ -523,11 +513,6 @@ forget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-FileStream
-nsFileStream
-)
 already_AddRefed
 <
 FileStream

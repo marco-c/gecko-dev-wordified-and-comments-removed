@@ -198,7 +198,11 @@ nsThread
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+AndroidUiThread
+nsThread
+)
 AndroidUiThread
 (
 )
@@ -271,11 +275,6 @@ AndroidUiThread
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-AndroidUiThread
-nsThread
-)
 NS_IMETHODIMP
 AndroidUiThread
 :

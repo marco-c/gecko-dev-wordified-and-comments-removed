@@ -425,7 +425,11 @@ mStreamWrapper
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+CloseRunnable
+Runnable
+)
 private
 :
 explicit
@@ -1432,14 +1436,6 @@ aResult
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-StreamWrapper
-:
-:
-CloseRunnable
-Runnable
-)
 NS_IMETHODIMP
 StreamWrapper
 :

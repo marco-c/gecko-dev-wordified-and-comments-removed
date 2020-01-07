@@ -86,11 +86,6 @@ Foundation
 .
 h
 >
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-nsIdleServiceX
-nsIdleService
-)
 bool
 nsIdleServiceX
 :

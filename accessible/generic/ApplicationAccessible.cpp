@@ -145,11 +145,6 @@ info
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-ApplicationAccessible
-Accessible
-)
 ENameValueFlag
 ApplicationAccessible
 :

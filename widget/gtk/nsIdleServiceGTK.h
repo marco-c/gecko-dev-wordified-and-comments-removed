@@ -73,7 +73,11 @@ nsIdleService
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+nsIdleServiceGTK
+nsIdleService
+)
 virtual
 bool
 PollIdleTime

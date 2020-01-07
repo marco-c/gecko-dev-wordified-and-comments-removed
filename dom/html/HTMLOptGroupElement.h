@@ -60,7 +60,11 @@ NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 HTMLOptGroupElement
 optgroup
 )
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+HTMLOptGroupElement
+nsGenericHTMLElement
+)
 virtual
 nsresult
 InsertChildBefore

@@ -45,7 +45,11 @@ uint32_t
 aNumberOfOutputChannels
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+ScriptProcessorNode
+AudioNode
+)
 IMPL_EVENT_HANDLER
 (
 audioprocess

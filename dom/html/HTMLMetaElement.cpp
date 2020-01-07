@@ -160,11 +160,6 @@ HTMLMetaElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
-(
-HTMLMetaElement
-nsGenericHTMLElement
-)
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLMetaElement
