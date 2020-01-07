@@ -46,17 +46,6 @@ HTMLMediaElement
 aElement
 )
 ;
-private
-:
-static
-bool
-IsDocumentAllowedToPlay
-(
-nsIDocument
-*
-aDoc
-)
-;
 }
 ;
 }
