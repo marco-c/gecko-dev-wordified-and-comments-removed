@@ -664,7 +664,7 @@ splitlines
 (
 )
 :
-           
+            
 if
 line
 .
@@ -675,7 +675,7 @@ E
 "
 )
 :
-               
+                
 message
 =
 line
@@ -687,7 +687,7 @@ line
 strip
 (
 )
-               
+                
 break
         
 self
