@@ -1939,10 +1939,6 @@ gtk_widget_set_sensitive
 )
 STUB
 (
-gtk_widget_set_valign
-)
-STUB
-(
 gtk_widget_set_window
 )
 STUB
@@ -2425,6 +2421,10 @@ gtk_widget_path_new
 STUB
 (
 gtk_widget_path_unref
+)
+STUB
+(
+gtk_widget_set_valign
 )
 STUB
 (
