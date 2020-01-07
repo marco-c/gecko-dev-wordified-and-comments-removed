@@ -233,6 +233,11 @@ Switching
 (
 )
 ;
+void
+SwitchToNextDriver
+(
+)
+;
 GraphDriver
 *
 NextDriver
