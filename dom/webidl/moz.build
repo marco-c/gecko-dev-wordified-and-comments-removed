@@ -4035,6 +4035,11 @@ KeyIdsInitData
 webidl
 '
 '
+L10nUtils
+.
+webidl
+'
+'
 LegacyQueryInterface
 .
 webidl
