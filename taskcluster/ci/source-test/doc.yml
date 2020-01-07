@@ -148,6 +148,11 @@ no
 open
 -
 -
+no
+-
+serve
+-
+-
 archive
 sparse
 -
@@ -280,6 +285,11 @@ upload
 no
 -
 open
+-
+-
+no
+-
+serve
 sparse
 -
 profile
