@@ -159,11 +159,6 @@ nsIDOMHTMLDocument
 :
 nsIDOMDocument
 {
-readonly
-attribute
-nsISupports
-head
-;
 /
 /
 If
