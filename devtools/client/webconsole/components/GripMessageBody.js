@@ -256,6 +256,9 @@ props
 :
 0
 mode
+focusable
+:
+false
 }
 ;
 if
