@@ -172,9 +172,12 @@ COMMIT_AUTHOR
 =
 '
 ffxbld
+<
+ffxbld
 mozilla
 .
 com
+>
 '
 REPODIR
 =
