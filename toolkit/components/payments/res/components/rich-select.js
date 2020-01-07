@@ -59,7 +59,7 @@ this
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 )
@@ -183,13 +183,13 @@ break
 }
 case
 "
-keypress
+keydown
 "
 :
 {
 this
 .
-onKeyPress
+onKeyDown
 (
 event
 )
@@ -254,7 +254,7 @@ open
 ;
 }
 }
-onKeyPress
+onKeyDown
 (
 event
 )
