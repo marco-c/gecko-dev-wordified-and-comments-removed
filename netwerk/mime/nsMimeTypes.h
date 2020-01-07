@@ -592,6 +592,16 @@ package
 "
 #
 define
+APPLICATION_JAVASCRIPT_BINAST
+"
+application
+/
+javascript
+-
+binast
+"
+#
+define
 AUDIO_BASIC
 "
 audio
