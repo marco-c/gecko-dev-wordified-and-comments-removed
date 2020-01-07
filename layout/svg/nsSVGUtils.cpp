@@ -6417,7 +6417,7 @@ if
 nsLayoutUtils
 :
 :
-HasAnimationOfProperty
+MayHaveAnimationOfProperty
 (
 aFrame
 eCSSProperty_opacity
