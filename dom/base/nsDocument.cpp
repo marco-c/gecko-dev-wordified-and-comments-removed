@@ -7573,7 +7573,7 @@ PrincipalFlashClassifier
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 ClearAllBoxObjects
@@ -13663,7 +13663,7 @@ rv
 }
 }
 nsresult
-nsDocument
+nsIDocument
 :
 :
 InitCSP
@@ -14039,7 +14039,14 @@ principal
 >
 EnsureCSP
 (
+static_cast
+<
+nsDocument
+*
+>
+(
 this
+)
 getter_AddRefs
 (
 csp
@@ -37934,7 +37941,7 @@ public
 explicit
 nsUnblockOnloadEvent
 (
-nsDocument
+nsIDocument
 *
 aDoc
 )
@@ -37975,14 +37982,14 @@ private
 :
 RefPtr
 <
-nsDocument
+nsIDocument
 >
 mDoc
 ;
 }
 ;
 void
-nsDocument
+nsIDocument
 :
 :
 PostUnblockOnloadEvent
@@ -38052,7 +38059,7 @@ nsUnblockOnloadEvent
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 DoUnblockOnload
