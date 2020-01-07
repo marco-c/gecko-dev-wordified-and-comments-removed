@@ -59,6 +59,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 EventTarget
 ;
 }
