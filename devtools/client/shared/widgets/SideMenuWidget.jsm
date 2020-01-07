@@ -735,13 +735,6 @@ function
 )
 {
 let
-parent
-=
-this
-.
-_parent
-;
-let
 list
 =
 this
