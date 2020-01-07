@@ -2066,6 +2066,3 @@ reflect
 xptinfo
 '
 ]
-NO_PGO
-=
-True
