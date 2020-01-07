@@ -44,8 +44,6 @@ mozilla
 /
 dom
 /
-workers
-/
 WorkerCommon
 .
 h

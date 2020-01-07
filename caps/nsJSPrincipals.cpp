@@ -86,9 +86,9 @@ mozilla
 /
 dom
 /
-workers
+workerinternals
 /
-WorkerCommon
+JSSettings
 .
 h
 "
@@ -449,7 +449,7 @@ debugToken
 dom
 :
 :
-workers
+workerinternals
 :
 :
 kJSPrincipalsDebugToken

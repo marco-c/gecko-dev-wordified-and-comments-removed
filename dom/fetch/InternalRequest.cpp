@@ -64,8 +64,6 @@ mozilla
 /
 dom
 /
-workers
-/
 WorkerCommon
 .
 h
@@ -73,6 +71,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h

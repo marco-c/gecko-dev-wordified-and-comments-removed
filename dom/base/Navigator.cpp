@@ -352,7 +352,7 @@ mozilla
 /
 dom
 /
-workers
+workerinternals
 /
 RuntimeService
 .
@@ -2920,14 +2920,14 @@ HardwareConcurrency
 (
 )
 {
-workers
+workerinternals
 :
 :
 RuntimeService
 *
 rts
 =
-workers
+workerinternals
 :
 :
 RuntimeService

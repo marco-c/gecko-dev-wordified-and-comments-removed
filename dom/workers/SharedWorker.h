@@ -64,7 +64,7 @@ class
 WorkerPrivate
 ;
 namespace
-workers
+workerinternals
 {
 class
 RuntimeService
@@ -79,7 +79,7 @@ DOMEventTargetHelper
 {
 friend
 class
-workers
+workerinternals
 :
 :
 RuntimeService

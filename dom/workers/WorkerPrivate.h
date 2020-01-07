@@ -11,8 +11,6 @@ mozilla
 /
 dom
 /
-workers
-/
 WorkerCommon
 .
 h
@@ -99,7 +97,20 @@ mozilla
 /
 dom
 /
-workers
+workerinternals
+/
+JSSettings
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+workerinternals
 /
 Queue
 .
@@ -427,7 +438,7 @@ nsIRunnable
 >
 mQueuedRunnables
 ;
-workers
+workerinternals
 :
 :
 JSSettings
@@ -1890,7 +1901,7 @@ mLocationInfo
 void
 CopyJSSettings
 (
-workers
+workerinternals
 :
 :
 JSSettings
@@ -2344,7 +2355,7 @@ WorkerDebugger
 *
 mDebugger
 ;
-workersinternals
+workerinternals
 :
 :
 Queue
@@ -2355,7 +2366,7 @@ WorkerControlRunnable
 >
 mControlQueue
 ;
-workersinternals
+workerinternals
 :
 :
 Queue
