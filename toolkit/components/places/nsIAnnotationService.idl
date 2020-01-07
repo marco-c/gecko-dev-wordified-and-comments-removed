@@ -1828,6 +1828,9 @@ in
 AUTF8String
 aName
 out
+nsIVariant
+aValue
+out
 long
 aFlags
 out
