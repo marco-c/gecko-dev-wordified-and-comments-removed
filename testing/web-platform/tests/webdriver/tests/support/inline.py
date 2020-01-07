@@ -393,9 +393,14 @@ query
 else
 :
         
-rv
-=
+response
+.
+headers
+.
+update
+(
 [
+          
 (
 "
 Content
@@ -404,7 +409,25 @@ Type
 "
 content_type
 )
+          
+(
+"
+X
+-
+XSS
+-
+Protection
+"
+"
+0
+"
+)
+        
 ]
+)
+        
+rv
+=
 doc
     
 return
