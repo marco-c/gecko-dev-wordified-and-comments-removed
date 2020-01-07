@@ -339,17 +339,6 @@ __STD_C
 ]
 =
 True
-#
-DEFINES
-[
-'
-constexpr14
-'
-]
-=
-'
-constexpr
-'
 LOCAL_INCLUDES
 +
 =

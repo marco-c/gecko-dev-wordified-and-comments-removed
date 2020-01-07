@@ -606,7 +606,7 @@ nullptr
 )
 {
 }
-constexpr14
+constexpr
 explicit
 TConstParameter
 (
