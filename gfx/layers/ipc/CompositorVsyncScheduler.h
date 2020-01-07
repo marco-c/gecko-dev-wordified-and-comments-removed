@@ -149,11 +149,6 @@ SetNeedsComposite
 )
 ;
 void
-ResumeComposition
-(
-)
-;
-void
 ComposeToTarget
 (
 gfx

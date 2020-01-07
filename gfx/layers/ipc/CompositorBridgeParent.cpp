@@ -3315,8 +3315,10 @@ Invalidate
 mCompositorScheduler
 -
 >
-ResumeComposition
+ForceComposeToTarget
 (
+nullptr
+nullptr
 )
 ;
 lock
