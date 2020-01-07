@@ -2639,11 +2639,10 @@ JSAtom
 atom
 ;
 {
-AutoAtomsZone
+AutoAllocInAtomsZone
 az
 (
 cx
-lock
 )
 ;
 JSFlatString
