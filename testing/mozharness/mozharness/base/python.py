@@ -286,6 +286,30 @@ find_links
 "
         
 "
+default
+"
+:
+[
+"
+http
+:
+/
+/
+pypi
+.
+pub
+.
+build
+.
+mozilla
+.
+org
+/
+pub
+"
+]
+        
+"
 help
 "
 :
@@ -325,7 +349,7 @@ store_true
 default
 "
 :
-True
+False
         
 "
 dest
@@ -343,9 +367,6 @@ help
 Use
 pip
 indexes
-(
-default
-)
 "
     
 }
@@ -392,6 +413,9 @@ t
 use
 pip
 indexes
+(
+default
+)
 "
     
 }
