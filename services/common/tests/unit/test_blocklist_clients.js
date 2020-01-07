@@ -1756,14 +1756,6 @@ test_entries_are_filtered_when_jexl_filters_is_present
 (
 )
 {
-if
-(
-IS_ANDROID
-)
-{
-return
-;
-}
 const
 records
 =

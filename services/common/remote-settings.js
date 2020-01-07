@@ -232,9 +232,13 @@ resource
 :
 /
 /
-normandy
+gre
 /
-lib
+modules
+/
+components
+-
+utils
 /
 FilterExpressions
 .
