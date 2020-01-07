@@ -1032,6 +1032,10 @@ mNSSInitialized
 (
 false
 )
+mMitmDetecionEnabled
+(
+false
+)
 {
 MOZ_LOG
 (
