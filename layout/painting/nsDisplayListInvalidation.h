@@ -520,17 +520,6 @@ aBuilder
 )
 ;
 virtual
-void
-MoveBy
-(
-const
-nsPoint
-&
-aOffset
-)
-override
-;
-virtual
 bool
 InvalidateForSyncDecodeImages
 (
@@ -544,9 +533,6 @@ ShouldInvalidateToSyncDecodeImages
 )
 ;
 }
-nsRect
-mContentRect
-;
 }
 ;
 class
