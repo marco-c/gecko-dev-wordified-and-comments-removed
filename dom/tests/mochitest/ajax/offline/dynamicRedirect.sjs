@@ -128,13 +128,13 @@ setHeader
 Location
 "
 "
-http
+https
 :
 /
 /
 example
 .
-com
+org
 /
 non
 -

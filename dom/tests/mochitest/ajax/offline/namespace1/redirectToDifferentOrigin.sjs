@@ -27,7 +27,7 @@ setHeader
 Location
 "
 "
-http
+https
 :
 /
 /
