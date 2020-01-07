@@ -34,7 +34,7 @@ prepare
 pushd
 root_dir
 download_and_check
-ftp
+https
 :
 /
 /
@@ -77,7 +77,7 @@ in
 *
 )
 download
-ftp
+https
 :
 /
 /
@@ -107,7 +107,7 @@ gcc_ext
 *
 )
 download_and_check
-ftp
+https
 :
 /
 /
