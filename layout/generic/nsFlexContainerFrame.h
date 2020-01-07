@@ -544,7 +544,7 @@ aAxisTracker
 const
 CachedMeasuringReflowResult
 &
-MeasureAscentAndHeightForFlexItem
+MeasureAscentAndBSizeForFlexItem
 (
 FlexItem
 &
@@ -558,7 +558,7 @@ aChildReflowInput
 )
 ;
 nscoord
-MeasureFlexItemContentHeight
+MeasureFlexItemContentBSize
 (
 nsPresContext
 *
@@ -567,7 +567,7 @@ FlexItem
 &
 aFlexItem
 bool
-aForceVerticalResizeForMeasuringReflow
+aForceBResizeForMeasuringReflow
 const
 ReflowInput
 &

@@ -4764,7 +4764,11 @@ mode
 ref
 .
 html
-fails
+fuzzy
+(
+1
+16
+)
 =
 =
 flexbox
@@ -4787,9 +4791,6 @@ mode
 ref
 .
 html
-#
-bug
-1267462
 fuzzy
 (
 1
@@ -4861,7 +4862,6 @@ mode
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -4884,10 +4884,6 @@ mode
 ref
 .
 html
-#
-bug
-1267462
-fails
 =
 =
 flexbox
@@ -4910,9 +4906,6 @@ mode
 ref
 .
 html
-#
-bug
-1267462
 #
 Single
 -
