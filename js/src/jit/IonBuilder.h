@@ -4070,6 +4070,14 @@ PropertyName
 name
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_importmeta
+(
+)
+;
 enum
 InliningStatus
 {
