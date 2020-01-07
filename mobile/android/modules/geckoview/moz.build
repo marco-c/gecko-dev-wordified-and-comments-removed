@@ -130,16 +130,6 @@ GeckoViewRemoteDebugger
 jsm
 '
 '
-GeckoViewScroll
-.
-jsm
-'
-'
-GeckoViewSelectionAction
-.
-jsm
-'
-'
 GeckoViewSettings
 .
 jsm
