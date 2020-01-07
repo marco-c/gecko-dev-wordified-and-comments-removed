@@ -2875,6 +2875,16 @@ out
 )
 const
 ;
+MOZ_MUST_USE
+bool
+hash
+(
+uint32_t
+*
+outhHash
+)
+const
+;
 JSString
 *
 leftChild
