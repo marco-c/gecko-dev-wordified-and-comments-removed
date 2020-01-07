@@ -307,7 +307,7 @@ pointeroutcount
 0
 ;
 function
-sendPointerEvent
+sendMouseEventToElement
 (
 t
 elem
@@ -322,7 +322,7 @@ getBoundingClientRect
 (
 )
 ;
-synthesizePointer
+synthesizeMouse
 (
 elem
 r
@@ -509,10 +509,10 @@ the
 test
 elements
 .
-sendPointerEvent
+sendMouseEventToElement
 (
 "
-pointermove
+mousemove
 "
 outside
 )
@@ -559,10 +559,10 @@ innertest
 "
 ]
 ;
-sendPointerEvent
+sendMouseEventToElement
 (
 "
-pointermove
+mousemove
 "
 inner
 )
@@ -641,10 +641,10 @@ outertest
 "
 ]
 ;
-sendPointerEvent
+sendMouseEventToElement
 (
 "
-pointermove
+mousemove
 "
 outside
 )
@@ -727,7 +727,7 @@ expectedRelatedLeave
 =
 file
 ;
-synthesizePointer
+synthesizeMouse
 (
 file
 r
@@ -744,7 +744,7 @@ height
 type
 :
 "
-pointermove
+mousemove
 "
 }
 )
@@ -823,7 +823,7 @@ enter
 /
 leave
 events
-synthesizePointer
+synthesizeMouse
 (
 file
 r
@@ -846,7 +846,7 @@ height
 type
 :
 "
-pointermove
+mousemove
 "
 }
 )
@@ -911,10 +911,10 @@ expectedRelatedLeave
 =
 outside
 ;
-sendPointerEvent
+sendMouseEventToElement
 (
 "
-pointermove
+mousemove
 "
 outside
 )
@@ -1184,7 +1184,7 @@ inside
 the
 iframe
 .
-synthesizePointer
+synthesizeMouse
 (
 iframe
 .
@@ -1205,7 +1205,7 @@ height
 type
 :
 "
-pointermove
+mousemove
 "
 }
 iframe
@@ -1239,7 +1239,7 @@ count
 "
 )
 ;
-synthesizePointer
+synthesizeMouse
 (
 iframe
 .
@@ -1266,7 +1266,7 @@ height
 type
 :
 "
-pointermove
+mousemove
 "
 }
 iframe
@@ -1308,10 +1308,10 @@ expectedRelatedLeave
 =
 outside
 ;
-sendPointerEvent
+sendMouseEventToElement
 (
 "
-pointermove
+mousemove
 "
 outside
 )
@@ -1365,7 +1365,7 @@ inside
 the
 iframe
 .
-synthesizePointer
+synthesizeMouse
 (
 iframe
 .
@@ -1386,7 +1386,7 @@ height
 type
 :
 "
-pointerdown
+mousedown
 "
 }
 iframe
@@ -1394,7 +1394,7 @@ iframe
 contentWindow
 )
 ;
-synthesizePointer
+synthesizeMouse
 (
 iframe
 .
@@ -1421,7 +1421,7 @@ height
 type
 :
 "
-pointerdown
+mousedown
 "
 }
 iframe
@@ -1460,7 +1460,7 @@ expectedRelatedLeave
 =
 iframe
 ;
-synthesizePointer
+synthesizeMouse
 (
 iframe
 .
@@ -1481,7 +1481,7 @@ height
 type
 :
 "
-pointerdown
+mousedown
 "
 }
 iframe
@@ -1489,7 +1489,7 @@ iframe
 contentWindow
 )
 ;
-synthesizePointer
+synthesizeMouse
 (
 iframe
 .
@@ -1514,7 +1514,7 @@ height
 type
 :
 "
-pointermove
+mousemove
 "
 }
 iframe
