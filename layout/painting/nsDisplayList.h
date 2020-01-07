@@ -25095,6 +25095,7 @@ Metric
 {
 DisplayList
 Layerization
+FlushRasterization
 Rasterization
 COUNT
 }
