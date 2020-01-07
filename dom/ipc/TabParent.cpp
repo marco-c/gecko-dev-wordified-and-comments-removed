@@ -10893,6 +10893,16 @@ IPC_OK
 )
 )
 ;
+MOZ_ASSERT
+(
+aEvent
+.
+mMessage
+=
+=
+eKeyPress
+)
+;
 WidgetKeyboardEvent
 localEvent
 (
