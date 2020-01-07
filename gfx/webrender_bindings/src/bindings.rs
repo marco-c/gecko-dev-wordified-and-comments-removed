@@ -429,7 +429,6 @@ derive
 neq
 =
 true
-pub
 type
 WrIdNamespace
 =
