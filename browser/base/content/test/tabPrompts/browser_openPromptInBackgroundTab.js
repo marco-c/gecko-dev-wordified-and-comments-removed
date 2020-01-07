@@ -532,6 +532,13 @@ again
 )
 ;
 await
+TestUtils
+.
+waitForTick
+(
+)
+;
+await
 BrowserTestUtils
 .
 removeTab
