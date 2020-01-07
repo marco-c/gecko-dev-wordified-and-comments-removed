@@ -882,6 +882,9 @@ debug
 stylo
 "
 "
+webrender
+"
+"
 e10s
 "
 "
@@ -907,6 +910,9 @@ e10s
 "
 "
 stylo
+"
+"
+webrender
 "
 }
 )
