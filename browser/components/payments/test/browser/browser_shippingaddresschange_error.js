@@ -584,6 +584,11 @@ PTU
 .
 Details
 .
+noShippingOptions
+PTU
+.
+Details
+.
 total2USD
 )
 }
@@ -1485,9 +1490,5 @@ closed
 )
 ;
 }
-)
-.
-skip
-(
 )
 ;
