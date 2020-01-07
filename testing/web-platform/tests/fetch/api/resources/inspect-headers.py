@@ -51,7 +51,7 @@ header
 in
 checked_headers
 :
-          
+            
 if
 header
 in
@@ -59,7 +59,7 @@ request
 .
 headers
 :
-              
+                
 headers
 .
 append

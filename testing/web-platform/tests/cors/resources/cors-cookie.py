@@ -168,7 +168,6 @@ ident
 COOKIE
 "
 )
-;
         
 body
 =

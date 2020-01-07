@@ -63,7 +63,7 @@ is
 not
 None
 :
-      
+        
 response
 .
 writer
@@ -72,7 +72,7 @@ write_status
 (
 304
 )
-      
+        
 response
 .
 writer
@@ -92,7 +92,7 @@ options
 nosniff
 "
 )
-      
+        
 response
 .
 writer
@@ -106,7 +106,7 @@ length
 "
 0
 )
-      
+        
 if
 (
 type
@@ -115,7 +115,7 @@ type
 None
 )
 :
-        
+            
 response
 .
 writer
@@ -129,7 +129,7 @@ type
 "
 type
 )
-      
+        
 response
 .
 writer
@@ -137,7 +137,7 @@ writer
 end_headers
 (
 )
-      
+        
 response
 .
 writer
@@ -150,7 +150,7 @@ write
     
 else
 :
-      
+        
 response
 .
 writer
@@ -159,7 +159,7 @@ write_status
 (
 200
 )
-      
+        
 response
 .
 writer
@@ -179,7 +179,7 @@ options
 nosniff
 "
 )
-      
+        
 response
 .
 writer
@@ -196,7 +196,7 @@ len
 content
 )
 )
-      
+        
 if
 (
 type
@@ -205,7 +205,7 @@ type
 None
 )
 :
-        
+            
 response
 .
 writer
@@ -219,7 +219,7 @@ type
 "
 type
 )
-      
+        
 response
 .
 writer
@@ -227,7 +227,7 @@ writer
 end_headers
 (
 )
-      
+        
 response
 .
 writer

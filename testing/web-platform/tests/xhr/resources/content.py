@@ -20,7 +20,7 @@ request
 .
 GET
 :
-      
+        
 response_ctype
 =
 "

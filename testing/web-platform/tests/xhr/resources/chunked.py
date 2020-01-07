@@ -70,7 +70,6 @@ Encoding
 chunked
 "
 )
-;
     
 response
 .
@@ -89,7 +88,6 @@ Test
 Me
 "
 )
-;
     
 response
 .
@@ -108,7 +106,6 @@ text
 plain
 "
 )
-;
     
 response
 .

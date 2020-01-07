@@ -45,17 +45,14 @@ page
 "
 alternate
 "
-;
     
 type
 =
 302
-;
     
 mix
 =
 0
-;
     
 if
 request

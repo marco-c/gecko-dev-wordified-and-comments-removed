@@ -602,7 +602,7 @@ control_request_headers
 =
 None
 :
-      
+        
 headers
 .
 append
@@ -700,7 +700,7 @@ Origin
 if
 token
 :
-      
+        
 request
 .
 server

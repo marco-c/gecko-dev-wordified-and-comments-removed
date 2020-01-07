@@ -46,7 +46,6 @@ origin
 "
 )
 )
-;
     
 response
 .
@@ -67,7 +66,6 @@ Credentials
 true
 '
 )
-;
     
 response
 .
@@ -88,7 +86,6 @@ Methods
 GET
 '
 )
-;
     
 response
 .
@@ -114,7 +111,6 @@ x
 pass
 '
 )
-;
     
 response
 .
@@ -143,7 +139,6 @@ ses
 user
 '
 )
-;
     
 auth
 =

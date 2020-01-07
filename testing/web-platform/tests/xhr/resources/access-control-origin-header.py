@@ -23,7 +23,6 @@ text
 plain
 "
 )
-;
     
 response
 .
@@ -45,7 +44,6 @@ no
 store
 "
 )
-;
     
 response
 .
@@ -66,7 +64,6 @@ External
 true
 "
 )
-;
     
 response
 .
@@ -87,7 +84,6 @@ Origin
 *
 "
 )
-;
     
 response
 .
@@ -126,4 +122,3 @@ get
 origin
 "
 )
-;

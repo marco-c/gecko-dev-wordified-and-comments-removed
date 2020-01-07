@@ -85,7 +85,6 @@ sleep
 (
 delay
 )
-;
     
 for
 i

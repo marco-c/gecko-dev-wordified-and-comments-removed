@@ -484,7 +484,6 @@ Origin
 *
 "
 )
-;
     
 if
 redirect
@@ -501,7 +500,6 @@ Location
 "
 redirect
 )
-;
         
 response
 .

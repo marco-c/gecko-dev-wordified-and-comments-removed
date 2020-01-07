@@ -9,7 +9,7 @@ response
 headers
 =
 {
-            
+        
 "
 Cache
 -
@@ -21,7 +21,7 @@ no
 -
 store
 "
-            
+        
 "
 Access
 -
@@ -39,7 +39,7 @@ Requested
 -
 With
 "
-            
+        
 "
 Access
 -
@@ -51,7 +51,7 @@ Age
 "
 :
 0
-            
+        
 "
 Access
 -
@@ -65,7 +65,7 @@ Origin
 "
 *
 "
-            
+        
 "
 Access
 -
@@ -79,7 +79,7 @@ Methods
 "
 *
 "
-            
+        
 "
 Vary
 "
@@ -89,7 +89,7 @@ Accept
 -
 Encoding
 "
-            
+        
 "
 Content
 -

@@ -67,7 +67,7 @@ w
 as
 f
 :
-      
+        
 f
 .
 write

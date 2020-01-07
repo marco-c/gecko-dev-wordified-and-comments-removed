@@ -36,7 +36,7 @@ svg
 in
 type
 :
-      
+        
 filename
 =
 "
@@ -49,7 +49,7 @@ svg
     
 else
 :
-      
+        
 filename
 =
 "
@@ -163,7 +163,7 @@ type
 None
 )
 :
-      
+        
 response
 .
 writer

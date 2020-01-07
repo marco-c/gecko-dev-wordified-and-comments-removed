@@ -33,7 +33,6 @@ delay
 /
 1E3
 )
-;
     
 return
 [
