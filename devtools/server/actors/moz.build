@@ -102,6 +102,9 @@ highlighters
 inspector
 '
 '
+object
+'
+'
 utils
 '
 '
@@ -144,6 +147,13 @@ js
 '
 '
 animation
+.
+js
+'
+'
+array
+-
+buffer
 .
 js
 '
