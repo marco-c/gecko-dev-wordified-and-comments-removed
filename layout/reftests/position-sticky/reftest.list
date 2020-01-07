@@ -721,7 +721,7 @@ if
 !
 asyncPan
 )
-fails
+fuzzy
 -
 if
 (
@@ -729,6 +729,12 @@ webrender
 &
 &
 winWidget
+126
+-
+126
+4
+-
+4
 )
 =
 =

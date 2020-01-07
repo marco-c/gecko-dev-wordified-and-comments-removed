@@ -158,7 +158,7 @@ detail
 id
 =
 568
-fails
+fuzzy
 -
 if
 (
@@ -166,6 +166,12 @@ webrender
 &
 &
 winWidget
+117
+-
+117
+54
+-
+54
 )
 =
 =
@@ -448,7 +454,7 @@ skiaContent
 3
 106
 )
-fails
+fuzzy
 -
 if
 (
@@ -456,6 +462,12 @@ webrender
 &
 &
 winWidget
+222
+-
+222
+1323
+-
+1323
 )
 =
 =

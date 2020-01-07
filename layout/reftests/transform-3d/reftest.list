@@ -1681,7 +1681,7 @@ perspective
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -1689,6 +1689,12 @@ webrender
 &
 &
 winWidget
+1
+-
+1
+16
+-
+16
 )
 =
 =
@@ -1706,7 +1712,7 @@ layer
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -1714,6 +1720,12 @@ webrender
 &
 &
 winWidget
+1
+-
+1
+16
+-
+16
 )
 =
 =

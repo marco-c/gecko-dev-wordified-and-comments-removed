@@ -1582,7 +1582,7 @@ winWidget
 75
 404
 )
-fails
+fuzzy
 -
 if
 (
@@ -1590,6 +1590,12 @@ webrender
 &
 &
 winWidget
+92
+-
+92
+300
+-
+300
 )
 css
 -
@@ -1735,7 +1741,7 @@ winWidget
 62
 404
 )
-fails
+fuzzy
 -
 if
 (
@@ -1743,6 +1749,12 @@ webrender
 &
 &
 winWidget
+92
+-
+92
+100
+-
+100
 )
 css
 -
@@ -2010,7 +2022,7 @@ winWidget
 75
 404
 )
-fails
+fuzzy
 -
 if
 (
@@ -2018,6 +2030,12 @@ webrender
 &
 &
 winWidget
+92
+-
+92
+300
+-
+300
 )
 css
 -

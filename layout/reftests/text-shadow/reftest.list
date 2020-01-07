@@ -8,7 +8,7 @@ html
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -16,6 +16,12 @@ webrender
 &
 &
 winWidget
+1
+-
+1
+7
+-
+7
 )
 =
 =
@@ -33,7 +39,7 @@ if
 (
 Android
 )
-fails
+fuzzy
 -
 if
 (
@@ -41,6 +47,12 @@ webrender
 &
 &
 winWidget
+1
+-
+1
+6
+-
+6
 )
 =
 =
@@ -66,7 +78,7 @@ blur
 notref
 .
 xul
-fails
+fuzzy
 -
 if
 (
@@ -74,6 +86,12 @@ webrender
 &
 &
 winWidget
+1
+-
+1
+6
+-
+6
 )
 =
 =
@@ -89,7 +107,7 @@ inherit
 ref
 .
 xul
-fails
+fuzzy
 -
 if
 (
@@ -97,6 +115,12 @@ webrender
 &
 &
 winWidget
+1
+-
+1
+44
+-
+44
 )
 =
 =

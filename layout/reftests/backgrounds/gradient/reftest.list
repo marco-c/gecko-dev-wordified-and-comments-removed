@@ -42,7 +42,7 @@ interpolation
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -50,6 +50,12 @@ webrender
 &
 &
 winWidget
+2
+-
+2
+72
+-
+72
 )
 =
 =
