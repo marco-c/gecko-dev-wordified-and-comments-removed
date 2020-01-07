@@ -1755,6 +1755,8 @@ return
 DoClone
 (
 aFlags
+|
+SIGCHLD
 &
 ctx
 )
