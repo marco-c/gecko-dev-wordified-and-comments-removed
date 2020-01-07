@@ -3223,15 +3223,6 @@ ResetChromeMargins
 )
 ;
 void
-SetTitlebarColor
-(
-nscolor
-aColor
-bool
-aActive
-)
-;
-void
 SetDrawsInTitlebar
 (
 bool
