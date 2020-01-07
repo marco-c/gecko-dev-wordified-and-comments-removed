@@ -517,6 +517,9 @@ eChannelOpen
 "
 eRedirect
 "
+"
+eTerminated
+"
 ]
 ;
 var
