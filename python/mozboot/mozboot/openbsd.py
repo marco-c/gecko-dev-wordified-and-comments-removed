@@ -43,10 +43,6 @@ packages
 [
             
 '
-mercurial
-'
-            
-'
 autoconf
 -
 2

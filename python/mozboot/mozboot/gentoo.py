@@ -82,17 +82,6 @@ noreplace
 quiet
 '
 '
-dev
--
-vcs
-/
-git
-'
-                          
-'
-mercurial
-'
-'
 nodejs
 '
 ]

@@ -61,19 +61,7 @@ devel
 '
         
 '
-ccache
-'
-        
-'
-mercurial
-'
-        
-'
 nodejs
-'
-        
-'
-npm
 '
         
 '
@@ -236,10 +224,6 @@ gst
 plugins
 -
 good
-'
-        
-'
-networkmanager
 '
     
 ]
