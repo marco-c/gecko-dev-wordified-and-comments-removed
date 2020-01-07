@@ -1593,6 +1593,14 @@ notes
 )
 const
 {
+MOZ_ASSERT
+(
+!
+inPrologue
+(
+)
+)
+;
 return
 current
 -
