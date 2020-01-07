@@ -144,12 +144,6 @@ open
 optional
 DOMString
 type
-=
-"
-text
-/
-html
-"
 optional
 DOMString
 replace
@@ -158,6 +152,11 @@ replace
 "
 )
 ;
+/
+/
+type
+is
+ignored
 [
 CEReactions
 Throws
