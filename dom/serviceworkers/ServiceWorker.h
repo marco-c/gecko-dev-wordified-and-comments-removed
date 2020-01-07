@@ -296,7 +296,6 @@ ServiceWorker
 ServiceWorkerDescriptor
 mDescriptor
 ;
-const
 RefPtr
 <
 Inner

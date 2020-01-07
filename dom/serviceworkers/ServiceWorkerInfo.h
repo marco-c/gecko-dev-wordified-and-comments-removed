@@ -116,8 +116,10 @@ mRedundantTime
 ;
 AutoTArray
 <
+RefPtr
+<
 ServiceWorker
-*
+>
 1
 >
 mInstances
