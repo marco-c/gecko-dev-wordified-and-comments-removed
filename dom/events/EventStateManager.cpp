@@ -3212,6 +3212,10 @@ KillClickHoldTimer
 )
 ;
 }
+mInTouchDrag
+=
+false
+;
 StopTrackingDragGesture
 (
 )
