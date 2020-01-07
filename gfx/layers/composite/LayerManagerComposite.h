@@ -2293,6 +2293,11 @@ return
 mShadowOpacitySetByAnimation
 ;
 }
+void
+RecomputeShadowVisibleRegionFromChildren
+(
+)
+;
 protected
 :
 HostLayerManager

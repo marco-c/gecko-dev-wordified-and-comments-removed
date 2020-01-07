@@ -523,6 +523,14 @@ aTransformToSurface
 )
 ;
 }
+const
+LayerIntRegion
+&
+GetShadowVisibleRegion
+(
+)
+override
+;
 MOZ_LAYER_DECL_NAME
 (
 "
