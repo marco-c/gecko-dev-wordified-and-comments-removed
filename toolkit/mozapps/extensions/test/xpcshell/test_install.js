@@ -2880,6 +2880,19 @@ a2
 version
 )
 ;
+if
+(
+AppConstants
+.
+OS
+!
+=
+=
+"
+win
+"
+)
+{
 equal
 (
 a2
@@ -2904,6 +2917,7 @@ xpi
 "
 )
 ;
+}
 ok
 (
 !
