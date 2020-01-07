@@ -1529,20 +1529,8 @@ runKeyEventTests
 )
 {
 var
-name
+currentTestName
 ;
-/
-/
-Current
-test
-name
-.
-Needs
-to
-be
-renamed
-later
-.
 var
 eventList
 keyDownFlags
@@ -1736,7 +1724,7 @@ kCtrlFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Ctrl
@@ -1767,7 +1755,7 @@ kMetaFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Command
@@ -1798,7 +1786,7 @@ kAltFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Alt
@@ -1829,7 +1817,7 @@ type
 "
 keydown
 "
-name
+currentTestName
 +
 "
 Shift
@@ -1881,7 +1869,7 @@ e
 .
 altKey
 )
-name
+currentTestName
 +
 "
 AltGraph
@@ -1948,7 +1936,7 @@ type
 "
 keydown
 "
-name
+currentTestName
 +
 "
 Ctrl
@@ -1979,7 +1967,7 @@ kMetaFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Command
@@ -2057,7 +2045,7 @@ modifiers
 .
 altGrKey
 )
-name
+currentTestName
 +
 "
 Alt
@@ -2088,7 +2076,7 @@ kShiftFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Shift
@@ -2148,7 +2136,7 @@ e
 .
 altKey
 )
-name
+currentTestName
 +
 "
 AltGraph
@@ -2244,7 +2232,7 @@ modifiers
 .
 altGrKey
 )
-name
+currentTestName
 +
 "
 Ctrl
@@ -2275,7 +2263,7 @@ kMetaFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Command
@@ -2321,7 +2309,7 @@ modifiers
 .
 altGrKey
 )
-name
+currentTestName
 +
 "
 Alt
@@ -2352,7 +2340,7 @@ kShiftFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Shift
@@ -2414,7 +2402,7 @@ e
 altKey
 )
 )
-name
+currentTestName
 +
 "
 AltGraph
@@ -2561,7 +2549,7 @@ kCtrlFlag
 &
 !
 IS_WIN
-name
+currentTestName
 +
 "
 Ctrl
@@ -2592,7 +2580,7 @@ kMetaFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Command
@@ -2627,7 +2615,7 @@ kAltFlag
 &
 !
 IS_WIN
-name
+currentTestName
 +
 "
 Alt
@@ -2658,7 +2646,7 @@ kShiftFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Shift
@@ -2695,7 +2683,7 @@ type
 "
 keydown
 "
-name
+currentTestName
 +
 "
 AltGraph
@@ -2756,7 +2744,7 @@ kCtrlFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Ctrl
@@ -2769,7 +2757,7 @@ e
 type
 +
 "
-evnet
+event
 mismatch
 "
 )
@@ -2787,7 +2775,7 @@ type
 "
 keydown
 "
-name
+currentTestName
 +
 "
 Command
@@ -2800,7 +2788,7 @@ e
 type
 +
 "
-evnet
+event
 mismatch
 "
 )
@@ -2818,7 +2806,7 @@ kAltFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Alt
@@ -2831,7 +2819,7 @@ e
 type
 +
 "
-evnet
+event
 mismatch
 "
 )
@@ -2849,7 +2837,7 @@ kShiftFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Shift
@@ -2862,7 +2850,7 @@ e
 type
 +
 "
-evnet
+event
 mismatch
 "
 )
@@ -2900,7 +2888,7 @@ e
 .
 altKey
 )
-name
+currentTestName
 +
 "
 AltGraph
@@ -2967,7 +2955,7 @@ kCtrlFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Ctrl
@@ -2998,7 +2986,7 @@ kMetaFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Command
@@ -3029,7 +3017,7 @@ kAltFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Alt
@@ -3060,7 +3048,7 @@ kShiftFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Shift
@@ -3089,7 +3077,7 @@ AltGraph
 "
 )
 false
-name
+currentTestName
 +
 "
 AltGraph
@@ -3172,7 +3160,7 @@ kCtrlFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Ctrl
@@ -3203,7 +3191,7 @@ kMetaFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Command
@@ -3234,7 +3222,7 @@ kAltFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Alt
@@ -3265,7 +3253,7 @@ kShiftFlag
 !
 =
 0
-name
+currentTestName
 +
 "
 Shift
@@ -3310,7 +3298,7 @@ AltGraph
 "
 )
 false
-name
+currentTestName
 +
 "
 AltGraph
@@ -3775,7 +3763,7 @@ expectedDOMKeyCode
 =
 aExpectedGeckoKeyCode
 ;
-name
+currentTestName
 =
 eventToString
 (
@@ -3790,7 +3778,7 @@ Starting
 :
 "
 +
-name
+currentTestName
 )
 ;
 return
@@ -3893,7 +3881,7 @@ length
 expectEventTypeList
 .
 length
-name
+currentTestName
 +
 "
 wrong
@@ -3984,11 +3972,12 @@ firedEventType
 "
 "
 )
+{
 is
 (
 firedEventType
 expectEventType
-name
+currentTestName
 +
 "
 "
@@ -4002,12 +3991,14 @@ fired
 "
 )
 ;
+}
 else
+{
 is
 (
 firedEventType
 expectEventType
-name
+currentTestName
 +
 "
 a
@@ -4019,6 +4010,7 @@ fired
 "
 )
 ;
+}
 if
 (
 firedEventType
@@ -4187,7 +4179,7 @@ modifiers
 .
 shiftRightKey
 )
-name
+currentTestName
 +
 "
 Shift
@@ -4232,7 +4224,7 @@ modifiers
 .
 metaRightKey
 )
-name
+currentTestName
 +
 "
 Command
@@ -4408,7 +4400,7 @@ e
 .
 ctrlKey
 isControlExpected
-name
+currentTestName
 +
 "
 Ctrl
@@ -4438,7 +4430,7 @@ e
 .
 altKey
 isAltExpected
-name
+currentTestName
 +
 "
 Alt
@@ -4473,7 +4465,7 @@ AltGraph
 "
 )
 isAltGraphExpected
-name
+currentTestName
 +
 "
 AltGraph
@@ -4506,7 +4498,7 @@ e
 .
 key
 expectedKeyValue
-name
+currentTestName
 +
 "
 wrong
@@ -4521,7 +4513,7 @@ e
 .
 code
 aExpectedCodeValue
-name
+currentTestName
 +
 "
 wrong
@@ -4562,7 +4554,7 @@ keypressCount
 +
 +
 )
-name
+currentTestName
 +
 "
 charcode
@@ -4588,7 +4580,7 @@ e
 .
 keyCode
 0
-name
+currentTestName
 +
 "
 wrong
@@ -4605,7 +4597,7 @@ e
 .
 keyCode
 aExpectedGeckoKeyCode
-name
+currentTestName
 +
 "
 wrong
@@ -4624,7 +4616,7 @@ e
 .
 charCode
 0
-name
+currentTestName
 +
 "
 no
@@ -4646,7 +4638,7 @@ e
 .
 keyCode
 aExpectedGeckoKeyCode
-name
+currentTestName
 +
 "
 wrong
@@ -4662,7 +4654,7 @@ e
 .
 location
 aExpectLocation
-name
+currentTestName
 +
 "
 wrong
@@ -67938,7 +67930,7 @@ function
 )
 {
 var
-name
+currentTestName
 =
 eventToString
 (
@@ -67953,7 +67945,7 @@ aShouldActivate
 1
 :
 0
-name
+currentTestName
 +
 "
 activating
@@ -73251,7 +73243,7 @@ focus
 )
 ;
 var
-name
+currentTestName
 =
 eventToString
 (
@@ -73323,7 +73315,7 @@ aEvent
 .
 charCode
 0
-name
+currentTestName
 +
 "
 the
@@ -73359,7 +73351,7 @@ length
 ok
 (
 false
-name
+currentTestName
 +
 "
 causes
@@ -73384,7 +73376,7 @@ keypress
 -
 1
 ]
-name
+currentTestName
 +
 "
 "
@@ -73429,7 +73421,7 @@ keypress
 -
 1
 )
-name
+currentTestName
 +
 "
 "
@@ -73510,7 +73502,7 @@ is
 (
 keypress
 1
-name
+currentTestName
 +
 "
 should
@@ -73538,7 +73530,7 @@ keypress
 aExpectText
 .
 length
-name
+currentTestName
 +
 "
 should
@@ -73561,7 +73553,7 @@ textbox
 .
 value
 aExpectText
-name
+currentTestName
 +
 "
 does
@@ -74333,7 +74325,7 @@ aKeyboardLayout
 .
 layout
 .
-name
+currentTestName
 +
 "
 )
