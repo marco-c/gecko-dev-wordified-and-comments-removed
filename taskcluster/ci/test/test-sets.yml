@@ -1564,6 +1564,7 @@ junit
 jsreftest
 -
 mochitest
+#
 -
 mochitest
 -
@@ -1580,8 +1581,17 @@ gpu
 mochitest
 -
 media
+#
+-
+mochitest
+-
+webgl
 -
 reftest
+-
+test
+-
+verify
 devtools
 -
 tests
