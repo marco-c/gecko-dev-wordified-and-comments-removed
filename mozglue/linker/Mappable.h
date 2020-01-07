@@ -481,7 +481,7 @@ _MappableBuffer
 >
 buffer
 ;
-zxx_stream
+z_stream
 zStream
 ;
 }
