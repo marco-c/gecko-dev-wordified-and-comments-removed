@@ -71,6 +71,7 @@ TreeColumns
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 ae835ecf
