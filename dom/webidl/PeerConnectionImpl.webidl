@@ -373,6 +373,9 @@ RTCRtpSender
 sender
 )
 ;
+[
+Throws
+]
 sequence
 <
 RTCRtpSourceEntry
@@ -411,6 +414,9 @@ closeStreams
 (
 )
 ;
+[
+Throws
+]
 void
 addRIDExtension
 (
@@ -421,6 +427,9 @@ short
 extensionId
 )
 ;
+[
+Throws
+]
 void
 addRIDFilter
 (
@@ -440,6 +449,9 @@ the
 RtpSourceObserver
 for
 testing
+[
+Throws
+]
 void
 insertAudioLevelForContributingSource
 (
@@ -456,6 +468,9 @@ byte
 level
 )
 ;
+[
+Throws
+]
 void
 enablePacketDump
 (
@@ -468,6 +483,9 @@ boolean
 sending
 )
 ;
+[
+Throws
+]
 void
 disablePacketDump
 (
@@ -565,6 +583,9 @@ deletes
 state
 *
 /
+[
+Throws
+]
 void
 close
 (
@@ -712,6 +733,9 @@ attribute
 DOMString
 id
 ;
+[
+SetterThrows
+]
 attribute
 DOMString
 peerIdentity
