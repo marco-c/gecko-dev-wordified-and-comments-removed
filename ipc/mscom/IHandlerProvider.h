@@ -110,14 +110,6 @@ aIid
 =
 0
 ;
-virtual
-STDMETHODIMP
-DisconnectHandlerRemotes
-(
-)
-=
-0
-;
 }
 ;
 struct

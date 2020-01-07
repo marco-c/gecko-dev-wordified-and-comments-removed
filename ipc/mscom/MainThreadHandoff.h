@@ -328,12 +328,6 @@ aIid
 override
 ;
 STDMETHODIMP
-DisconnectHandlerRemotes
-(
-)
-override
-;
-STDMETHODIMP
 OnWalkInterface
 (
 REFIID
