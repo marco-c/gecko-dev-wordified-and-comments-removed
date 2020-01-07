@@ -224,10 +224,6 @@ DISTRO_PACKAGES
 DEBIAN_PACKAGES
 =
 [
-        
-'
-npm
-'
     
 ]
     
