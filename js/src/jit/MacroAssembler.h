@@ -274,12 +274,6 @@ UnboxedObject
 .
 h
 "
-using
-mozilla
-:
-:
-FloatingPoint
-;
 #
 define
 ALL_ARCH

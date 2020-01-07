@@ -100,6 +100,11 @@ h
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 jsapi
 .
@@ -15283,12 +15288,11 @@ map
 }
 UniqueChars
 name
-(
-js_strdup
+=
+DuplicateString
 (
 filename
 (
-)
 )
 )
 ;

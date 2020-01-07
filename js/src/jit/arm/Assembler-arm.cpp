@@ -136,6 +136,12 @@ mozilla
 CountLeadingZeroes32
 ;
 using
+mozilla
+:
+:
+DebugOnly
+;
+using
 LabelDoc
 =
 DisassemblerSpew
