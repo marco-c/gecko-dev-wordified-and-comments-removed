@@ -33,7 +33,7 @@ Set
 (
 [
 /
-toolkit
+browser
 \
 /
 res
@@ -58,7 +58,7 @@ mixins
 js
 /
 /
-toolkit
+browser
 \
 /
 res
@@ -73,7 +73,7 @@ paymentRequest
 js
 /
 /
-toolkit
+browser
 \
 /
 res

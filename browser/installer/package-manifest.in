@@ -1171,12 +1171,16 @@ ifdef
 NIGHTLY_BUILD
 RESPATH
 /
+browser
+/
 components
 /
 payments
 .
 manifest
 RESPATH
+/
+browser
 /
 components
 /
