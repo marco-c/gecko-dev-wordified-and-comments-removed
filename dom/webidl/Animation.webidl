@@ -377,13 +377,6 @@ pause
 (
 )
 ;
-void
-updatePlaybackRate
-(
-double
-playbackRate
-)
-;
 [
 Throws
 ]
