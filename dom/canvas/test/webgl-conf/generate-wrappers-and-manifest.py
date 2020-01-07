@@ -2,6 +2,10 @@ import
 os
 import
 re
+from
+pathlib
+import
+*
 WRAPPER_TEMPLATE_FILE
 =
 '
@@ -484,7 +488,7 @@ open
 (
 listPath
 '
-rb
+r
 '
 )
 as
@@ -936,7 +940,7 @@ open
 (
 inFilePath
 '
-rb
+r
 '
 )
 as
@@ -971,7 +975,13 @@ open
 (
 outFilePath
 '
-wb
+w
+'
+newline
+=
+'
+\
+n
 '
 )
 as
@@ -1861,6 +1871,7 @@ destPathStr
 DEST_MANIFEST_PATHSTR
     
 print
+(
 '
 Generating
 manifest
@@ -1868,6 +1879,7 @@ manifest
 '
 +
 destPathStr
+)
     
 errataMap
 =
@@ -2105,6 +2117,7 @@ errataMap
 :
         
 print
+(
 '
 Errata
 left
@@ -2112,6 +2125,7 @@ in
 map
 :
 '
+)
         
 for
 x
@@ -2124,12 +2138,14 @@ keys
 :
             
 print
+(
 '
 '
 *
 4
 +
 x
+)
         
 assert
 False
@@ -2255,7 +2271,7 @@ open
 (
 path
 '
-rb
+r
 '
 )
 as
@@ -2485,7 +2501,7 @@ sectionMap
 in
 iniMap
 .
-iteritems
+items
 (
 )
 :
@@ -2566,7 +2582,7 @@ val
 in
 sectionMap
 .
-iteritems
+items
 (
 )
 :
@@ -2784,20 +2800,30 @@ __main__
 '
 :
     
-fileDir
+file_dir
 =
-os
-.
-path
-.
-dirname
+Path
 (
 __file__
 )
+.
+parent
+    
+cwd
+=
+Path
+.
+cwd
+(
+)
     
 assert
-not
-fileDir
+cwd
+.
+samefile
+(
+file_dir
+)
 '
 Run
 this
@@ -2805,10 +2831,8 @@ file
 from
 its
 directory
-not
+.
 '
-+
-fileDir
     
 testEntryList
 =
