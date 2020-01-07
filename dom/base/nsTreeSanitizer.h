@@ -136,7 +136,6 @@ IsURL
 (
 nsStaticAtom
 *
-*
 const
 *
 aURLs
@@ -167,7 +166,6 @@ nsAtom
 *
 aAllowed
 nsStaticAtom
-*
 *
 const
 *
