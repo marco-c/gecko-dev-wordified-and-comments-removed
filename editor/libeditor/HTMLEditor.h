@@ -1651,13 +1651,10 @@ NotifyRootChanged
 (
 )
 ;
-nsresult
+Element
+*
 GetBodyElement
 (
-nsIDOMHTMLElement
-*
-*
-aBody
 )
 ;
 already_AddRefed

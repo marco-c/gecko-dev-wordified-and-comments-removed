@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
