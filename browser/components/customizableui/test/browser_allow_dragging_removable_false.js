@@ -135,6 +135,9 @@ simulateItemDrag
 (
 forwardButton
 urlbarContainer
+"
+start
+"
 )
 ;
 assertAreaPlacements
