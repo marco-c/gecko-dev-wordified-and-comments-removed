@@ -7240,22 +7240,14 @@ hasInstanceIncludes
 =
 set
 (
-"
-nsIDOM
-"
-+
+self
+.
+getDeclarationFilename
+(
 d
 .
 interface
-.
-identifier
-.
-name
-+
-"
-.
-h
-"
+)
 for
 d
                                   

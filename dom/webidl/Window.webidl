@@ -410,9 +410,6 @@ interface
 nsIBrowserDOMWindow
 ;
 interface
-nsIMessageBroadcaster
-;
-interface
 XULControllers
 ;
 /
@@ -3256,7 +3253,7 @@ IsPrivilegedChromeWindow
 ]
 readonly
 attribute
-nsIMessageBroadcaster
+ChromeMessageBroadcaster
 messageManager
 ;
 /
@@ -3297,7 +3294,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-nsIMessageBroadcaster
+ChromeMessageBroadcaster
 getGroupMessageManager
 (
 DOMString
