@@ -309,10 +309,6 @@ MLGPrimitiveTopology
 :
 Unknown
 )
-mInitialized
-{
-false
-}
 mIsValid
 (
 false

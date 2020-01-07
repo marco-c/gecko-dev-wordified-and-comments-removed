@@ -81,12 +81,6 @@ nsICOEncoder
 (
 )
 :
-mICOFileHeader
-{
-}
-mICODirEntry
-{
-}
 mImageBufferStart
 (
 nullptr

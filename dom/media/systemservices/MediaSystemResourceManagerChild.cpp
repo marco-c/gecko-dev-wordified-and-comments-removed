@@ -29,10 +29,6 @@ mDestroyed
 (
 false
 )
-mManager
-{
-nullptr
-}
 {
 }
 MediaSystemResourceManagerChild

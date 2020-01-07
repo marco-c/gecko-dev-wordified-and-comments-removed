@@ -243,10 +243,6 @@ mSdpHelper
 &
 mLastError
 )
-mRunRustParser
-{
-false
-}
 {
 }
 virtual

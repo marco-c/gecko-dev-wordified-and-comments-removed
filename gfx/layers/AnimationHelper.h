@@ -163,12 +163,6 @@ AnimatedValue
 :
 TRANSFORM
 )
-mOpacity
-{
-0
-.
-0
-}
 {
 mTransform
 .

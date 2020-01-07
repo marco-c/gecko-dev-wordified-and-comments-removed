@@ -961,10 +961,6 @@ WaitForCondition
 waiter
 )
 :
-mResult
-{
-NS_ERROR_NOT_INITIALIZED
-}
 mWaiter
 (
 waiter

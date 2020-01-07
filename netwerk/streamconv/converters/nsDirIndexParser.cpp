@@ -100,14 +100,6 @@ nsDirIndexParser
 nsDirIndexParser
 (
 )
-:
-mLineStart
-{
-}
-mHasDescription
-{
-false
-}
 {
 }
 nsresult

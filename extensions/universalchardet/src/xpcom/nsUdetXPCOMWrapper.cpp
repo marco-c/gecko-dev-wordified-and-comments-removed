@@ -372,10 +372,6 @@ nsXPCOMStringDetector
 nsUniversalDetector
 (
 )
-mResult
-{
-nullptr
-}
 {
 }
 nsXPCOMStringDetector

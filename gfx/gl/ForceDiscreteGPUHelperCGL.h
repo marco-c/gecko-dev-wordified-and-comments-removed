@@ -24,11 +24,6 @@ public
 ForceDiscreteGPUHelperCGL
 (
 )
-:
-mPixelFormatObj
-{
-nullptr
-}
 {
 CGLPixelFormatAttribute
 attribs

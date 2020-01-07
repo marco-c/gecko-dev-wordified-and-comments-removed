@@ -2910,13 +2910,6 @@ RangeItem
 RangeItem
 (
 )
-:
-mStartOffset
-{
-}
-mEndOffset
-{
-}
 {
 }
 RangeItem

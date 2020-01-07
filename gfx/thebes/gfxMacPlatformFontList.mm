@@ -2635,9 +2635,6 @@ mTrakSizeTable
 (
 nullptr
 )
-mNumTrakSizes
-{
-}
 {
 mWeight
 =
@@ -2730,9 +2727,6 @@ mTrakSizeTable
 (
 nullptr
 )
-mNumTrakSizes
-{
-}
 {
 mFontRef
 =

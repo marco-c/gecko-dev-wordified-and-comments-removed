@@ -4120,10 +4120,6 @@ mApplySyntheticBold
 (
 false
 )
-mKerningEnabled
-{
-false
-}
 mMathInitialized
 (
 false

@@ -447,10 +447,6 @@ impl_
 (
 options
 )
-on_arena_init_
-{
-nullptr
-}
 {
 Init
 (
@@ -468,10 +464,6 @@ ArenaOptions
 (
 )
 )
-on_arena_init_
-{
-nullptr
-}
 {
 Init
 (

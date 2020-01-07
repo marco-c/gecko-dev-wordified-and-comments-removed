@@ -870,9 +870,6 @@ mDest
 (
 dest
 )
-mColor
-{
-}
 mListStyleType
 (
 NS_STYLE_LIST_STYLE_NONE

@@ -4380,10 +4380,6 @@ mX
 (
 0
 )
-mChildFrameType
-{
-eMathMLFrameType_UNKNOWN
-}
 mCarrySpace
 (
 0

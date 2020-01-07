@@ -999,10 +999,6 @@ mNumModalDescendents
 (
 0
 )
-mWindowAnimationBehavior
-{
-NSWindowAnimationBehaviorDefault
-}
 {
 if
 (

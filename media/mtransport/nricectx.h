@@ -212,9 +212,6 @@ has_addr_
 (
 true
 )
-port_
-{
-}
 {
 memcpy
 (
@@ -312,13 +309,6 @@ char
 transport
 )
 :
-has_addr_
-{
-false
-}
-port_
-{
-}
 addr_
 (
 )

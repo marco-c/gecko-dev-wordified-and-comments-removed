@@ -209,12 +209,6 @@ aParams
 .
 mTaskQueue
 )
-mTheoraInfo
-{
-}
-mTheoraComment
-{
-}
 mTheoraSetupInfo
 (
 nullptr

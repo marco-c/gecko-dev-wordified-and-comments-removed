@@ -188,9 +188,6 @@ mSegmentSize
 (
 0
 )
-mSegmentSizeLog2
-{
-}
 mWriteInProgress
 (
 false

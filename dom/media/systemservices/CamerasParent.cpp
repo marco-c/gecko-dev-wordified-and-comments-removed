@@ -652,9 +652,6 @@ mProperties
 (
 aProperties
 )
-mResult
-{
-}
 {
 mAlternateBuffer
 .
@@ -739,9 +736,6 @@ mProperties
 (
 aProperties
 )
-mResult
-{
-}
 {
 }
 ;

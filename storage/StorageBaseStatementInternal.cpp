@@ -284,10 +284,6 @@ StorageBaseStatementInternal
 (
 )
 :
-mNativeConnection
-{
-nullptr
-}
 mAsyncStatement
 (
 nullptr

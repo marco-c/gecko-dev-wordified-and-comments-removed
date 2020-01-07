@@ -63,13 +63,6 @@ mDataStorage
 (
 nullptr
 )
-mData
-{
-nullptr
-}
-mStride
-{
-}
 {
 }
 ~

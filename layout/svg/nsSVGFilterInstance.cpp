@@ -200,12 +200,6 @@ mUserSpaceToFilterSpaceScale
 (
 aUserSpaceToFilterSpaceScale
 )
-mSourceGraphicIndex
-{
-}
-mSourceAlphaIndex
-{
-}
 mSourceAlphaAvailable
 (
 false

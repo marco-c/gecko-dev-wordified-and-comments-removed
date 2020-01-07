@@ -4235,9 +4235,6 @@ mFontFamilies
 (
 4
 )
-mRebuildGeneration
-{
-}
 mLocalRulesUsed
 (
 false

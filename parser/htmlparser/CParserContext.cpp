@@ -92,16 +92,6 @@ mDTDMode
 (
 eDTDMode_unknown
 )
-mDocType
-{
-static_cast
-<
-eParserDocType
->
-(
-0
-)
-}
 mStreamListenerState
 (
 eNone

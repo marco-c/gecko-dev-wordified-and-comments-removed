@@ -498,13 +498,6 @@ VRSubmitFrameResultInfo
 (
 )
 :
-mFormat
-{
-SurfaceFormat
-:
-:
-UNKNOWN
-}
 mFrameNum
 (
 0

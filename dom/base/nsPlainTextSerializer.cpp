@@ -314,16 +314,6 @@ nsPlainTextSerializer
 (
 )
 :
-mFlags
-{
-}
-mFloatingLines
-{
-}
-mLineBreakDue
-{
-false
-}
 kSpace
 (
 NS_LITERAL_STRING

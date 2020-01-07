@@ -44,15 +44,6 @@ public
 SmallPointerArray
 (
 )
-:
-mPadding
-{
-nullptr
-}
-mArray
-{
-nullptr
-}
 {
 mInlineElements
 [

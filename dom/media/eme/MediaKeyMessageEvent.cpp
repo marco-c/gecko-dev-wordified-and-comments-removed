@@ -177,16 +177,6 @@ aOwner
 nullptr
 nullptr
 )
-mMessageType
-{
-static_cast
-<
-MediaKeyMessageType
->
-(
-0
-)
-}
 {
 mozilla
 :

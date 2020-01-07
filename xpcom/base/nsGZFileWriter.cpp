@@ -77,10 +77,6 @@ mFinished
 (
 false
 )
-mGZFile
-{
-nullptr
-}
 {
 }
 nsGZFileWriter

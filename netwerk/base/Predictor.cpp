@@ -1242,16 +1242,6 @@ mInitialized
 (
 false
 )
-mCleanedUp
-{
-false
-}
-mStartupTime
-{
-}
-mLastStartupTime
-{
-}
 mStartupCount
 (
 1

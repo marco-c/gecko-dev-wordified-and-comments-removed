@@ -373,10 +373,6 @@ mRunLength
 (
 0
 )
-mSkipped
-{
-false
-}
 mVisitSkipped
 (
 false

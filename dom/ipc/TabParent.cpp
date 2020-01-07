@@ -1013,12 +1013,6 @@ mCursor
 (
 eCursorInvalid
 )
-mCustomCursorHotspotX
-{
-}
-mCustomCursorHotspotY
-{
-}
 mTabSetsCursor
 (
 false

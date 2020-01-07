@@ -288,10 +288,6 @@ dirSvcProvider
 nullptr
 )
 :
-mServMgr
-{
-nullptr
-}
 mDirSvcProvider
 (
 dirSvcProvider

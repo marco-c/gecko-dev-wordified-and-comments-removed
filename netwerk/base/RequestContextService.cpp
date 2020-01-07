@@ -1905,9 +1905,6 @@ RequestContextService
 (
 )
 :
-mRCIDNamespace
-{
-}
 mNextRCID
 (
 1

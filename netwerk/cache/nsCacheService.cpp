@@ -4734,10 +4734,6 @@ mEnableDiskDevice
 (
 true
 )
-mEnableOfflineDevice
-{
-false
-}
 mMemoryDevice
 (
 nullptr
@@ -4750,9 +4746,6 @@ mOfflineDevice
 (
 nullptr
 )
-mDoomedEntries
-{
-}
 mTotalEntries
 (
 0

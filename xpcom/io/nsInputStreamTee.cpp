@@ -582,14 +582,6 @@ nsInputStreamTee
 (
 )
 :
-mWriter
-{
-nullptr
-}
-mClosure
-{
-nullptr
-}
 mLock
 (
 nullptr

@@ -592,12 +592,6 @@ nsUint32HashKey
 (
 aKey
 )
-mNextBlock
-{
-}
-mPrevBlock
-{
-}
 {
 }
 Entry

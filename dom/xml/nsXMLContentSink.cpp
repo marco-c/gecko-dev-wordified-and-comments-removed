@@ -523,16 +523,6 @@ nsXMLContentSink
 (
 )
 :
-mState
-{
-static_cast
-<
-XMLContentSinkState
->
-(
-0
-)
-}
 mTextLength
 (
 0

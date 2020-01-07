@@ -47,9 +47,6 @@ prefix
 (
 aPrefix
 )
-nameSpaceID
-{
-}
 {
 }
 RefPtr

@@ -2408,10 +2408,6 @@ mASR
 (
 nullptr
 )
-mClipChain
-{
-nullptr
-}
 mReferenceFrame
 (
 nullptr
@@ -4798,10 +4794,6 @@ mHasExplicitLastPaintOffset
 (
 false
 )
-mDisabledAlpha
-{
-false
-}
 {
 }
 NS_INLINE_DECL_REFCOUNTING
@@ -4893,10 +4885,6 @@ mRetainingManager
 (
 nullptr
 )
-mDisplayListBuilder
-{
-nullptr
-}
 mContainingPaintedLayer
 (
 nullptr

@@ -631,9 +631,6 @@ mStorage
 (
 nullptr
 )
-mCount
-{
-}
 {
 }
 explicit
@@ -648,10 +645,6 @@ aZero
 false
 )
 :
-mPtr
-{
-nullptr
-}
 mStorage
 (
 nullptr

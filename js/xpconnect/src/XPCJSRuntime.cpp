@@ -14969,14 +14969,6 @@ mWrappedJSRoots
 (
 nullptr
 )
-mPrevGCSliceCallback
-{
-nullptr
-}
-mPrevDoCycleCollectionCallback
-{
-nullptr
-}
 mAsyncSnowWhiteFreer
 (
 new

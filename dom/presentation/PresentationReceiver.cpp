@@ -175,9 +175,6 @@ nsPIDOMWindowInner
 aWindow
 )
 :
-mWindowId
-{
-}
 mOwner
 (
 aWindow

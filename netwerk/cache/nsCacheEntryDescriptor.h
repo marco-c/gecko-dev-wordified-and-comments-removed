@@ -362,9 +362,6 @@ mReadBufferLen
 (
 0
 )
-mZstream
-{
-}
 mStreamInitialized
 (
 false
@@ -623,9 +620,6 @@ mWriteBufferLen
 (
 0
 )
-mZstream
-{
-}
 mStreamInitialized
 (
 false

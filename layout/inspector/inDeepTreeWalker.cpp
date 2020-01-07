@@ -106,9 +106,6 @@ mShowDocumentsAsNodes
 (
 false
 )
-mCurrentIndex
-{
-}
 mWhatToShow
 (
 mozilla

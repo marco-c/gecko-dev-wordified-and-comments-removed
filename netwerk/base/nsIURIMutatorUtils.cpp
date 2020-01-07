@@ -92,11 +92,6 @@ char
 *
 aContractID
 )
-:
-mStatus
-{
-NS_ERROR_NOT_INITIALIZED
-}
 {
 mMutator
 =

@@ -66,12 +66,6 @@ mRatio
 0
 0
 )
-mWidth
-{
-}
-mHeight
-{
-}
 mHasWidth
 (
 false

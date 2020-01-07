@@ -259,15 +259,6 @@ public
 Position
 (
 )
-:
-mBuffer
-{
-nullptr
-}
-mPosition
-{
-nullptr
-}
 {
 }
 Position

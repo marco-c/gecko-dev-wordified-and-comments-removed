@@ -590,9 +590,6 @@ mSpeechSynthesizer
 (
 aSynth
 )
-mCurrentIndex
-{
-}
 mOffsets
 (
 aOffsets

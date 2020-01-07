@@ -146,10 +146,6 @@ mRecycleCallback
 (
 nullptr
 )
-mClosure
-{
-nullptr
-}
 mRefCount
 (
 0

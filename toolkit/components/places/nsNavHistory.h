@@ -1551,9 +1551,6 @@ nsURIHashKey
 (
 aURI
 )
-visitTime
-{
-}
 {
 }
 VisitHashKey

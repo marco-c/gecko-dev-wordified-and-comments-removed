@@ -91,9 +91,6 @@ mMode
 (
 aMode
 )
-mResult
-{
-}
 {
 }
 virtual

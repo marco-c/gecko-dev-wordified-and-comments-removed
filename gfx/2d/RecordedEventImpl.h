@@ -518,13 +518,6 @@ mRefPtr
 (
 aRefPtr
 )
-mBackendType
-{
-BackendType
-:
-:
-NONE
-}
 {
 }
 virtual
@@ -951,9 +944,6 @@ mRect
 (
 aRect
 )
-mPattern
-{
-}
 mOptions
 (
 aOptions
@@ -1095,9 +1085,6 @@ mRect
 (
 aRect
 )
-mPattern
-{
-}
 mStrokeOptions
 (
 aStrokeOptions
@@ -1254,9 +1241,6 @@ mEnd
 (
 aEnd
 )
-mPattern
-{
-}
 mStrokeOptions
 (
 aStrokeOptions
@@ -1402,9 +1386,6 @@ mPath
 (
 aPath
 )
-mPattern
-{
-}
 mOptions
 (
 aOptions
@@ -1546,9 +1527,6 @@ mScaledFont
 (
 aScaledFont
 )
-mPattern
-{
-}
 mOptions
 (
 aOptions
@@ -1719,12 +1697,6 @@ RecordedDrawingEvent
 MASK
 aDT
 )
-mSource
-{
-}
-mMask
-{
-}
 mOptions
 (
 aOptions
@@ -1870,9 +1842,6 @@ mPath
 (
 aPath
 )
-mPattern
-{
-}
 mStrokeOptions
 (
 aStrokeOptions
@@ -4992,9 +4961,6 @@ mData
 (
 nullptr
 )
-mFontDetails
-{
-}
 {
 mGetFontFileDataSucceeded
 =
@@ -6333,9 +6299,6 @@ RecordedDrawingEvent
 MASKSURFACE
 aDT
 )
-mPattern
-{
-}
 mRefMask
 (
 aRefMask

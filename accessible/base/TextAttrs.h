@@ -234,14 +234,6 @@ mGetRootValue
 (
 aGetRootValue
 )
-mIsDefined
-{
-false
-}
-mIsRootDefined
-{
-false
-}
 {
 }
 virtual

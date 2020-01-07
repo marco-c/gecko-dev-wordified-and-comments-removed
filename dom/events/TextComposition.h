@@ -1124,10 +1124,6 @@ TextComposition
 CompositionEventDispatcher
 "
 )
-mEventMessage
-{
-eVoidEvent
-}
 mIsSynthesizedEvent
 (
 false

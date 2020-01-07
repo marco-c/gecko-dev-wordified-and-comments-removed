@@ -220,10 +220,6 @@ nsTimingFunction
 &
 aFunction
 )
-:
-mStepsOrFrames
-{
-}
 {
 Init
 (
@@ -651,9 +647,6 @@ y1
 x2
 y2
 )
-mStepsOrFrames
-{
-}
 {
 }
 ComputedTimingFunction

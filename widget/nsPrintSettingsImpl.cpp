@@ -144,12 +144,6 @@ mOrientation
 (
 kPortraitOrientation
 )
-mResolution
-{
-}
-mDuplex
-{
-}
 mNumCopies
 (
 1

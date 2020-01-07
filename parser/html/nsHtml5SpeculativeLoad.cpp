@@ -32,10 +32,15 @@ nsHtml5SpeculativeLoad
 (
 )
 :
+#
+ifdef
+DEBUG
 mOpCode
 (
 eSpeculativeLoadUninitialized
 )
+#
+endif
 mIsAsync
 (
 false
@@ -44,10 +49,6 @@ mIsDefer
 (
 false
 )
-mEncoding
-{
-nullptr
-}
 {
 MOZ_COUNT_CTOR
 (

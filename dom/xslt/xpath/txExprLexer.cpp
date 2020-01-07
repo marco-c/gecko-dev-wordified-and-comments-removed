@@ -40,10 +40,6 @@ txExprLexer
 (
 )
 :
-mPosition
-{
-nullptr
-}
 mCurrentItem
 (
 nullptr

@@ -75,17 +75,6 @@ gfxFloat
 aSize
 )
 {
-this
--
->
-mMathVariantCache
-.
-vertical
-=
-{
-false
-}
-;
 mHBFont
 =
 hb_font_create

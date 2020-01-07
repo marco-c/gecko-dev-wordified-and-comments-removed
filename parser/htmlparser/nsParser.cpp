@@ -339,10 +339,6 @@ nsParser
 (
 )
 :
-mParserContext
-{
-nullptr
-}
 mCharset
 (
 WINDOWS_1252_ENCODING

@@ -44656,11 +44656,6 @@ nsIFrame
 *
 aFrame
 )
-:
-mOldValue
-{
-false
-}
 {
 if
 (

@@ -1508,10 +1508,6 @@ mURL
 (
 aURL
 )
-mRv
-{
-NS_ERROR_NOT_INITIALIZED
-}
 {
 MOZ_ASSERT
 (
@@ -7699,9 +7695,6 @@ DOMEventTargetHelper
 (
 aOwnerWindow
 )
-mReadyState
-{
-}
 mWithCredentials
 (
 aWithCredentials

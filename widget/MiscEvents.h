@@ -546,11 +546,6 @@ protected
 WidgetPluginEvent
 (
 )
-:
-mRetargetToFocusedDocument
-{
-false
-}
 {
 }
 }

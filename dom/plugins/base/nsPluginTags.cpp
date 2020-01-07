@@ -1364,10 +1364,6 @@ mContentProcessRunningCount
 (
 0
 )
-mHadLocalInstance
-{
-false
-}
 mLibrary
 (
 nullptr

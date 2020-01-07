@@ -620,10 +620,6 @@ nsRDFXMLSerializer
 nsRDFXMLSerializer
 (
 )
-:
-mPrefixID
-{
-}
 {
 }
 nsRDFXMLSerializer

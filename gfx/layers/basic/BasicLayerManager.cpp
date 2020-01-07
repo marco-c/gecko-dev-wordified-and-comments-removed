@@ -1786,10 +1786,6 @@ mTransactionIncomplete
 (
 false
 )
-mCompositorMightResample
-{
-false
-}
 {
 MOZ_COUNT_CTOR
 (

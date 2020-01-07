@@ -6046,11 +6046,6 @@ nsIndexedToHTML
 nsIndexedToHTML
 (
 )
-:
-mExpectAbsLoc
-{
-false
-}
 {
 }
 nsIndexedToHTML

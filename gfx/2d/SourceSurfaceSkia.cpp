@@ -72,16 +72,6 @@ SourceSurfaceSkia
 (
 )
 :
-mFormat
-{
-SurfaceFormat
-:
-:
-UNKNOWN
-}
-mStride
-{
-}
 mDrawTarget
 (
 nullptr

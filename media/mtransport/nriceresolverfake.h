@@ -344,10 +344,6 @@ cb_arg_
 (
 cb_arg
 )
-timer_handle_
-{
-nullptr
-}
 {
 }
 NrIceResolverFake

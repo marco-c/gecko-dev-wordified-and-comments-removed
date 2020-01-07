@@ -241,10 +241,6 @@ mResultHandler
 (
 nullptr
 )
-mOutputHandlerFactory
-{
-nullptr
-}
 mStylesheet
 (
 aStylesheet

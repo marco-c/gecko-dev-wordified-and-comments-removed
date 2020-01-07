@@ -667,12 +667,6 @@ mContext
 (
 nullptr
 )
-mBodyOffset
-{
-}
-mChildOffset
-{
-}
 mParent
 (
 nullptr

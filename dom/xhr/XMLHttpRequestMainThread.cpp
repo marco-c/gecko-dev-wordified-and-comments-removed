@@ -1165,9 +1165,6 @@ mLoadTotal
 -
 1
 )
-mLoadTransferred
-{
-}
 mIsSystem
 (
 false

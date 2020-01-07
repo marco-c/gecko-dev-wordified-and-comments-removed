@@ -54,9 +54,6 @@ eVoidEvent
 nullptr
 )
 )
-mInputSource
-{
-}
 {
 if
 (

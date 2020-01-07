@@ -3918,9 +3918,6 @@ NrSocketBase
 external_socket
 )
 :
-last_used_
-{
-}
 external_socket_
 (
 external_socket

@@ -1386,9 +1386,6 @@ mUnit
 (
 aUnit
 )
-mValue
-{
-}
 {
 MOZ_ASSERT
 (

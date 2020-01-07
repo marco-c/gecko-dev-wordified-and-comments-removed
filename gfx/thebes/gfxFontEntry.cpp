@@ -388,10 +388,6 @@ mSpaceGlyphIsInvisibleInitialized
 (
 false
 )
-mHasGraphiteTables
-{
-false
-}
 mCheckedForGraphiteTables
 (
 false
@@ -448,10 +444,6 @@ mGrFace
 (
 nullptr
 )
-mGrTableMap
-{
-nullptr
-}
 mGrFaceRefCnt
 (
 0
@@ -577,10 +569,6 @@ mSpaceGlyphIsInvisibleInitialized
 (
 false
 )
-mHasGraphiteTables
-{
-false
-}
 mCheckedForGraphiteTables
 (
 false
@@ -637,10 +625,6 @@ mGrFace
 (
 nullptr
 )
-mGrTableMap
-{
-nullptr
-}
 mGrFaceRefCnt
 (
 0

@@ -50,10 +50,6 @@ public
 nsPluginManifestLineReader
 (
 )
-:
-mLength
-{
-}
 {
 mBase
 =

@@ -1789,10 +1789,6 @@ DrawTargetSkia
 (
 )
 :
-mCanvas
-{
-nullptr
-}
 mSnapshot
 (
 nullptr

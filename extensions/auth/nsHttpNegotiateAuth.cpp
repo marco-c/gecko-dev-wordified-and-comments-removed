@@ -1072,13 +1072,6 @@ mCreds
 (
 nullptr
 )
-mFlags
-{
-}
-mResult
-{
-NS_ERROR_NOT_INITIALIZED
-}
 mCancelled
 (
 false

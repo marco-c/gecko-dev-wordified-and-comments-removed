@@ -144,10 +144,6 @@ mach_port_name_
 (
 mach_port_name
 )
-server_thread_
-{
-nullptr
-}
 {
 }
 CrashGenerationServer

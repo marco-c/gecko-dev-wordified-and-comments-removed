@@ -73,12 +73,6 @@ mFrameKey
 (
 0
 )
-mComputedOpacity
-{
-0
-.
-0
-}
 mPrepared
 (
 false
