@@ -2357,7 +2357,6 @@ crossStart
 0
 )
 {
-;
 drawLine
 (
 this
