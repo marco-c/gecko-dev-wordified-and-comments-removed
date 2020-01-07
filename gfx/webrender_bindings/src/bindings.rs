@@ -5245,10 +5245,10 @@ is_in_compositor_thread
 let
 scroll_id
 =
-IdType
+ScrollNodeIdType
 :
 :
-ExternalScrollId
+from
 (
 ExternalScrollId
 (
