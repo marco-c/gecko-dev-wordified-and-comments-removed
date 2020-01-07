@@ -164,6 +164,13 @@ DEFAULT_169_VIDEO_HEIGHT
 static
 const
 int
+DEFAULT_SAMPLE_RATE
+=
+32000
+;
+static
+const
+int
 USE_GRAPH_RATE
 =
 -

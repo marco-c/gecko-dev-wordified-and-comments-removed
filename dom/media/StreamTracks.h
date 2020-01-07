@@ -40,7 +40,7 @@ TrackTicks
 aTicks
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 0
 <
@@ -58,7 +58,7 @@ rate
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 0
 <
@@ -76,7 +76,7 @@ rate
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 0
 <
@@ -116,7 +116,7 @@ TrackTicks
 aTicks
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 0
 <
@@ -134,7 +134,7 @@ rate
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 0
 <
@@ -152,7 +152,7 @@ rate
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 0
 <

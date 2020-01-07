@@ -740,9 +740,6 @@ mTrackID
 TrackTicks
 mLastNotify
 ;
-uint32_t
-mFreq
-;
 nsAutoPtr
 <
 SineWaveGenerator

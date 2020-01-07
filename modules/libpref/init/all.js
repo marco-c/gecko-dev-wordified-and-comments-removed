@@ -4662,7 +4662,7 @@ getusermedia
 .
 agc
 "
-3
+1
 )
 ;
 #
