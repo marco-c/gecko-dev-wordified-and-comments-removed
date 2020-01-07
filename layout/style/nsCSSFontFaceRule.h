@@ -29,13 +29,6 @@ nsICSSDeclaration
 .
 h
 "
-#
-include
-"
-nsIDOMCSSFontFaceRule
-.
-h
-"
 namespace
 mozilla
 {
@@ -291,8 +284,6 @@ css
 :
 :
 Rule
-public
-nsIDOMCSSFontFaceRule
 {
 public
 :
@@ -416,7 +407,6 @@ Clone
 const
 override
 ;
-NS_DECL_NSIDOMCSSFONTFACERULE
 void
 SetDesc
 (
