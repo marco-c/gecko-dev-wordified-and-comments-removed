@@ -42,7 +42,7 @@ tabs1
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -132,7 +132,7 @@ tabs2
 uri
 :
 "
-http
+https
 :
 /
 /
