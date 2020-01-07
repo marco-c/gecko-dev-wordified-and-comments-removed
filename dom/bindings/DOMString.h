@@ -939,7 +939,7 @@ if
 aAtom
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )

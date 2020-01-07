@@ -451,7 +451,7 @@ if
 local
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )

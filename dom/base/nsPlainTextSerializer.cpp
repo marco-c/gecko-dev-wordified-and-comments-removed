@@ -8068,7 +8068,7 @@ return
 localName
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 ?
