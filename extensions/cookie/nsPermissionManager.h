@@ -747,6 +747,11 @@ nsIPrincipal
 aPrincipal
 )
 ;
+nsresult
+RemoveAllFromIPC
+(
+)
+;
 private
 :
 virtual
