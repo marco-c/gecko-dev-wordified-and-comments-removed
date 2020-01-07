@@ -3986,6 +3986,11 @@ nsIRequest
 :
 :
 LOAD_BYPASS_CACHE
+|
+nsIRequest
+:
+:
+INHIBIT_CACHING
 ;
 nsCOMPtr
 <
