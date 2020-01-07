@@ -5332,7 +5332,7 @@ intptr_t
 zone
 -
 >
-addressOfNurseryPosition
+addressOfStringNurseryPosition
 (
 )
 )
@@ -5345,7 +5345,7 @@ intptr_t
 zone
 -
 >
-addressOfNurseryCurrentEnd
+addressOfStringNurseryCurrentEnd
 (
 )
 )
