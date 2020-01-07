@@ -144,6 +144,14 @@ certverifier
 /
 security
 /
+manager
+/
+ssl
+'
+'
+/
+security
+/
 pkix
 /
 include
