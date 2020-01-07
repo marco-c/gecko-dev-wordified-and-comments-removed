@@ -3474,7 +3474,7 @@ var
 statusText
 =
 "
-nsIXMLHttpRequest
+XMLHttpRequest
 channel
 unavailable
 "
