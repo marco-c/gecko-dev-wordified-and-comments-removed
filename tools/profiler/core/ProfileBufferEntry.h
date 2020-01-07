@@ -1018,9 +1018,6 @@ mHash
 explicit
 UniqueStacks
 (
-JSContext
-*
-aContext
 )
 ;
 MOZ_MUST_USE
@@ -1054,6 +1051,9 @@ FrameKey
 >
 GetOrAddJITFrameKeysForAddress
 (
+JSContext
+*
+aContext
 void
 *
 aJITAddress
@@ -1100,6 +1100,9 @@ private
 void
 MaybeAddJITFrameIndex
 (
+JSContext
+*
+aContext
 const
 FrameKey
 &
@@ -1125,6 +1128,9 @@ aFrame
 void
 StreamJITFrame
 (
+JSContext
+*
+aContext
 const
 JS
 :
@@ -1150,10 +1156,6 @@ mUniqueStrings
 ;
 private
 :
-JSContext
-*
-mContext
-;
 nsClassHashtable
 <
 nsPtrHashKey

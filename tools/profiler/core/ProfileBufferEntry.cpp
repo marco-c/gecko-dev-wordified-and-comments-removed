@@ -1193,14 +1193,6 @@ UniqueStacks
 :
 UniqueStacks
 (
-JSContext
-*
-aContext
-)
-:
-mContext
-(
-aContext
 )
 {
 mFrameTableWriter
@@ -1296,6 +1288,9 @@ UniqueStacks
 :
 GetOrAddJITFrameKeysForAddress
 (
+JSContext
+*
+aContext
 void
 *
 aJITAddress
@@ -1325,11 +1320,6 @@ IsEmpty
 )
 )
 {
-MOZ_RELEASE_ASSERT
-(
-mContext
-)
-;
 for
 (
 JS
@@ -1343,7 +1333,7 @@ JS
 :
 GetProfiledFrames
 (
-mContext
+aContext
 aJITAddress
 )
 )
@@ -1365,6 +1355,7 @@ Length
 ;
 MaybeAddJITFrameIndex
 (
+aContext
 frameKey
 handle
 )
@@ -1405,6 +1396,9 @@ UniqueStacks
 :
 MaybeAddJITFrameIndex
 (
+JSContext
+*
+aContext
 const
 FrameKey
 &
@@ -1465,6 +1459,7 @@ index
 ;
 StreamJITFrame
 (
+aContext
 aJITFrame
 )
 ;
@@ -2298,6 +2293,9 @@ UniqueStacks
 :
 StreamJITFrame
 (
+JSContext
+*
+aContext
 const
 JS
 :
@@ -2444,7 +2442,7 @@ StreamJITFrameOptimizations
 (
 aWriter
 aUniqueStrings
-mContext
+aContext
 aJITFrame
 )
 ;
@@ -3449,6 +3447,11 @@ numFrames
 +
 +
 ;
+MOZ_RELEASE_ASSERT
+(
+aContext
+)
+;
 void
 *
 pc
@@ -3476,6 +3479,7 @@ aUniqueStacks
 .
 GetOrAddJITFrameKeysForAddress
 (
+aContext
 pc
 )
 ;
