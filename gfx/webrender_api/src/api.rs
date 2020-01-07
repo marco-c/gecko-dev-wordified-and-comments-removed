@@ -1226,6 +1226,8 @@ bool
 FetchDocuments
 FetchPasses
 FetchClipScrollTree
+FetchRenderTasks
+FetchScreenshot
 }
 #
 [

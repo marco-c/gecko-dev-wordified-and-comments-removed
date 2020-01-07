@@ -47,7 +47,10 @@ use
 box_shadow
 :
 :
+{
 BLUR_SAMPLE_SCALE
+BoxShadowCacheKey
+}
 ;
 use
 frame_builder
@@ -199,6 +202,9 @@ BorderRadiusKind
 content_rect
 :
 LayerRect
+cache_key
+:
+BoxShadowCacheKey
 }
 Image
 {
@@ -480,6 +486,9 @@ BoxShadowClipMode
 radii_kind
 :
 BorderRadiusKind
+cache_key
+:
+BoxShadowCacheKey
 pipeline_id
 :
 PipelineId
@@ -521,6 +530,7 @@ LayerRect
 zero
 (
 )
+cache_key
 }
 pipeline_id
 cull_children
@@ -1107,6 +1117,7 @@ self
 .
 rasterization_kind
 child_tasks
+None
 )
 ;
 let
@@ -1165,6 +1176,7 @@ PremultipliedColorF
 :
 :
 TRANSPARENT
+None
 )
 ;
 let
@@ -1246,6 +1258,7 @@ self
 .
 rasterization_kind
 child_tasks
+None
 )
 ;
 let
@@ -1376,6 +1389,7 @@ self
 .
 rasterization_kind
 child_tasks
+None
 )
 ;
 self
@@ -1449,6 +1463,7 @@ self
 .
 rasterization_kind
 child_tasks
+None
 )
 ;
 self
@@ -1623,6 +1638,7 @@ Vec
 new
 (
 )
+None
 )
 ;
 let
@@ -1662,6 +1678,7 @@ color
 premultiplied
 (
 )
+None
 )
 ;
 self
@@ -1690,6 +1707,7 @@ ref
 blur_regions
 color
 content_rect
+cache_key
 .
 .
 }
@@ -1851,6 +1869,10 @@ Vec
 new
 (
 )
+Some
+(
+cache_key
+)
 )
 ;
 let
@@ -1884,6 +1906,10 @@ color
 .
 premultiplied
 (
+)
+Some
+(
+cache_key
 )
 )
 ;

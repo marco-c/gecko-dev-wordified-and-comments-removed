@@ -1815,11 +1815,6 @@ create_with_offset
 (
 offset
 )
-edge_aa_segment_mask
-:
-info
-.
-edge_aa_segment_mask
 is_backface_visible
 :
 info
