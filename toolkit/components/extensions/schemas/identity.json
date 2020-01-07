@@ -840,11 +840,13 @@ url
 :
 {
 "
-type
+ref
 "
 :
 "
-string
+manifest
+.
+HttpURL
 "
 }
 "
