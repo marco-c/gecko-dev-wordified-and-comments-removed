@@ -607,22 +607,8 @@ self
 query_is_nightly
 (
 )
-or
-self
-.
-query_is_nightly_promotion
-(
-)
 :
             
-if
-self
-.
-query_is_nightly
-(
-)
-:
-                
 repack_env
 [
 "
@@ -633,7 +619,7 @@ IS_NIGHTLY
 "
 yes
 "
-            
+        
 if
 c
 .
@@ -644,7 +630,7 @@ update_channel
 '
 )
 :
-                
+            
 repack_env
 [
 "
@@ -658,10 +644,10 @@ c
 update_channel
 '
 ]
-            
+        
 else
 :
-                
+            
 repack_env
 [
 "
@@ -670,7 +656,7 @@ MOZ_UPDATE_CHANNEL
 ]
 =
 \
-                    
+                
 "
 nightly
 -
