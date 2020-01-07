@@ -7079,7 +7079,6 @@ ErrorResult
 rv
 )
 ;
-virtual
 mozilla
 :
 :
@@ -7097,8 +7096,6 @@ ErrorResult
 &
 rv
 )
-=
-0
 ;
 MOZ_MUST_USE
 nsresult
@@ -10736,6 +10733,18 @@ mFullScreenStack
 ;
 nsWeakPtr
 mFullscreenRoot
+;
+RefPtr
+<
+mozilla
+:
+:
+dom
+:
+:
+DOMImplementation
+>
+mDOMImplementation
 ;
 nsTArray
 <

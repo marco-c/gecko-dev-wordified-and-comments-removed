@@ -25069,7 +25069,7 @@ nullptr
 }
 DOMImplementation
 *
-nsDocument
+nsIDocument
 :
 :
 GetImplementation
