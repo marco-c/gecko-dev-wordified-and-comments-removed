@@ -2832,16 +2832,6 @@ last_output_sample_rate_hz
 )
 const
 {
-rtc
-:
-:
-CritScope
-lock
-(
-&
-crit_sect_
-)
-;
 return
 last_output_sample_rate_hz_
 ;
