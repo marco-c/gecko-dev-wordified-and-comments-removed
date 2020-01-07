@@ -170,9 +170,6 @@ packages
 bitflags
 "
 "
-cookie
-"
-"
 lazy_static
 "
 "
