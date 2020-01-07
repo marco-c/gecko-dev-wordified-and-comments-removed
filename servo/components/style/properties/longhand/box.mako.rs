@@ -6322,6 +6322,11 @@ checkmenuitem
 dialog
 dualbutton
 groupbox
+inner
+-
+spin
+-
+button
 listbox
 listitem
 menuarrow
