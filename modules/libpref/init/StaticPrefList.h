@@ -314,7 +314,7 @@ enabled
 "
 layout_css_offset_logical_properties_enabled
 bool
-false
+true
 )
 #
 ifdef
