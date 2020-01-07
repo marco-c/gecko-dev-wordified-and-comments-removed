@@ -4795,9 +4795,6 @@ true
 "
 /
 >
-#
-ifdef
-FULL_BROWSER_WINDOW
 <
 key
 id
@@ -4829,8 +4826,6 @@ shift
 "
 /
 >
-#
-endif
 <
 key
 id

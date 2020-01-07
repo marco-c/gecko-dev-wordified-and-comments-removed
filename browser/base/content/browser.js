@@ -10758,6 +10758,11 @@ View
 :
 PageInfo
 "
+"
+History
+:
+UndoCloseTab
+"
 ]
 ;
 var
