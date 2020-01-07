@@ -16,15 +16,15 @@ ready
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -43,7 +43,7 @@ tab
 const
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -84,7 +84,7 @@ client
 const
 toolbox2
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -107,7 +107,7 @@ toolbox
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy

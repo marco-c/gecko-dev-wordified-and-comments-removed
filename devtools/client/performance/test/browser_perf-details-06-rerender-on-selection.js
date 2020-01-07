@@ -124,8 +124,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -134,7 +134,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -161,13 +161,13 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -198,7 +198,7 @@ endTime
 }
 )
 ;
-yield
+await
 waterfallRendered
 ;
 let
@@ -212,7 +212,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -224,7 +224,7 @@ calltree
 "
 )
 ;
-yield
+await
 callTreeRendered
 ;
 let
@@ -238,7 +238,7 @@ EVENTS
 UI_JS_FLAMEGRAPH_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -250,7 +250,7 @@ flamegraph
 "
 )
 ;
-yield
+await
 flamegraphRendered
 ;
 let
@@ -350,7 +350,7 @@ x
 }
 )
 ;
-yield
+await
 overviewRangeSelected
 ;
 ok
@@ -365,7 +365,7 @@ changed
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -375,7 +375,7 @@ waterfall
 "
 )
 ;
-yield
+await
 waterfallRerendered
 ;
 ok
@@ -393,7 +393,7 @@ interval
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -405,7 +405,7 @@ calltree
 "
 )
 ;
-yield
+await
 callTreeRerendered
 ;
 ok
@@ -423,7 +423,7 @@ interval
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

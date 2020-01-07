@@ -171,8 +171,8 @@ run
 "
 prepare
 :
+async
 function
-*
 (
 )
 {
@@ -278,11 +278,10 @@ aloha
 let
 pageResult
 =
-yield
+await
 inContent
 (
 function
-*
 (
 )
 {
@@ -312,7 +311,6 @@ foobarBug636725
 then
 :
 function
-*
 (
 )
 {
@@ -349,7 +347,6 @@ run
 prepare
 :
 function
-*
 (
 )
 {
@@ -492,7 +489,6 @@ worked
 then
 :
 function
-*
 (
 )
 {
@@ -544,7 +540,6 @@ run
 prepare
 :
 function
-*
 (
 )
 {
@@ -598,7 +593,6 @@ range
 then
 :
 function
-*
 (
 [
 result
@@ -635,7 +629,6 @@ run
 prepare
 :
 function
-*
 (
 )
 {
@@ -656,7 +649,6 @@ foobarBug636725cache
 then
 :
 function
-*
 (
 [
 result
@@ -689,7 +681,6 @@ run
 prepare
 :
 function
-*
 (
 )
 {
@@ -721,7 +712,6 @@ foobarBug636725cache
 then
 :
 function
-*
 (
 [
 result
@@ -756,7 +746,6 @@ run
 prepare
 :
 function
-*
 (
 )
 {
@@ -788,7 +777,6 @@ foobarBug636725cache2
 then
 :
 function
-*
 (
 [
 result
@@ -823,7 +811,6 @@ run
 prepare
 :
 function
-*
 (
 )
 {
@@ -865,7 +852,6 @@ foobarBug636725cache2
 then
 :
 function
-*
 (
 [
 result

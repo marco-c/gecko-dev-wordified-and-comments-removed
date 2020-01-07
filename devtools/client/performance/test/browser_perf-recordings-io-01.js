@@ -6,12 +6,8 @@ strict
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -22,7 +18,7 @@ panel
 toolbox
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -77,19 +73,19 @@ canUpdateWhileHidden
 =
 true
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -101,7 +97,7 @@ calltree
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -113,7 +109,7 @@ flamegraph
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -125,7 +121,7 @@ calltree
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -212,7 +208,7 @@ EVENTS
 RECORDING_EXPORTED
 )
 ;
-yield
+await
 PerformanceController
 .
 exportRecording
@@ -227,7 +223,7 @@ getCurrentRecording
 file
 )
 ;
-yield
+await
 exported
 ;
 ok
@@ -345,7 +341,7 @@ UI_IMPORT_RECORDING
 file
 )
 ;
-yield
+await
 imported
 ;
 ok
@@ -365,7 +361,7 @@ imported
 "
 )
 ;
-yield
+await
 rerendered
 ;
 ok
@@ -674,7 +670,7 @@ data
 "
 )
 ;
-yield
+await
 teardown
 (
 panel
@@ -685,5 +681,4 @@ finish
 )
 ;
 }
-)
 ;

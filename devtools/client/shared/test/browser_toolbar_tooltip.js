@@ -89,13 +89,13 @@ window
 ;
 add_task
 (
+async
 function
-*
 showToolbar
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -152,7 +152,7 @@ doCommand
 (
 )
 ;
-yield
+await
 showPromise
 ;
 }
@@ -160,8 +160,8 @@ showPromise
 ;
 add_task
 (
+async
 function
-*
 testDimensions
 (
 )
@@ -181,7 +181,7 @@ helpRequest
 (
 )
 ;
-yield
+await
 toolbar
 .
 inputter
@@ -425,8 +425,8 @@ start
 ;
 add_task
 (
+async
 function
-*
 testThemes
 (
 )
@@ -463,7 +463,7 @@ dark
 "
 )
 ;
-yield
+await
 toolbar
 .
 inputter
@@ -474,7 +474,7 @@ setInput
 "
 )
 ;
-yield
+await
 toolbar
 .
 inputter
@@ -525,7 +525,7 @@ light
 "
 )
 ;
-yield
+await
 toolbar
 .
 inputter
@@ -536,7 +536,7 @@ setInput
 "
 )
 ;
-yield
+await
 toolbar
 .
 inputter
@@ -580,8 +580,8 @@ theme
 ;
 add_task
 (
+async
 function
-*
 hideToolbar
 (
 )
@@ -596,7 +596,7 @@ js
 "
 )
 ;
-yield
+await
 toolbar
 .
 inputter
@@ -654,7 +654,7 @@ doCommand
 (
 )
 ;
-yield
+await
 hidePromise
 ;
 ok

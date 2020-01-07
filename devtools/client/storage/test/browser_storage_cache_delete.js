@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -94,7 +94,7 @@ delete
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 cacheToDelete
@@ -200,7 +200,7 @@ present
 "
 )
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -265,7 +265,7 @@ cacheName
 }
 )
 ;
-yield
+await
 eventWait
 ;
 info
@@ -278,7 +278,7 @@ delete
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 cacheToDelete
@@ -308,7 +308,7 @@ tree
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

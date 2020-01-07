@@ -314,8 +314,8 @@ STORAGE_PREF
 }
 )
 ;
+async
 function
-*
 openTab
 (
 url
@@ -328,7 +328,7 @@ options
 let
 tab
 =
-yield
+await
 addTab
 (
 url
@@ -350,7 +350,7 @@ content
 .
 wrappedJSObject
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -359,8 +359,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -479,7 +479,7 @@ complete
 "
 )
 {
-yield
+await
 new
 Promise
 (
@@ -532,7 +532,7 @@ win
 setup
 )
 {
-yield
+await
 win
 .
 setup
@@ -548,8 +548,8 @@ return
 tab
 ;
 }
+async
 function
-*
 openTabAndSetupStorage
 (
 url
@@ -559,7 +559,7 @@ options
 }
 )
 {
-yield
+await
 openTab
 (
 url
@@ -567,7 +567,6 @@ options
 )
 ;
 return
-yield
 openStoragePanel
 (
 )
@@ -576,12 +575,8 @@ openStoragePanel
 var
 openStoragePanel
 =
-Task
-.
 async
-(
 function
-*
 (
 cb
 )
@@ -705,7 +700,7 @@ toolbox
 ;
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -761,7 +756,7 @@ update
 "
 )
 ;
-yield
+await
 gUI
 .
 once
@@ -775,7 +770,7 @@ updated
 "
 )
 ;
-yield
+await
 waitForToolboxFrameFocus
 (
 toolbox
@@ -805,7 +800,6 @@ storage
 }
 ;
 }
-)
 ;
 function
 waitForToolboxFrameFocus
@@ -873,8 +867,8 @@ forceShrinkingGC
 )
 ;
 }
+async
 function
-*
 finishTests
 (
 )
@@ -890,7 +884,7 @@ length
 1
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -899,8 +893,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1021,7 +1015,7 @@ win
 clear
 )
 {
-yield
+await
 win
 .
 clear
@@ -1033,7 +1027,7 @@ clear
 }
 )
 ;
-yield
+await
 closeTabAndToolbox
 (
 gBrowser
@@ -1060,7 +1054,6 @@ finish
 ;
 }
 function
-*
 click
 (
 node
@@ -2057,8 +2050,8 @@ true
 )
 ;
 }
+async
 function
-*
 selectTreeItem
 (
 ids
@@ -2103,12 +2096,12 @@ selectedItem
 =
 ids
 ;
-yield
+await
 updated
 ;
 }
+async
 function
-*
 selectTableItem
 (
 id
@@ -2209,13 +2202,13 @@ updated
 "
 )
 ;
-yield
+await
 click
 (
 target
 )
 ;
-yield
+await
 updated
 ;
 }
@@ -2894,8 +2887,8 @@ column
 ]
 ;
 }
+async
 function
-*
 editCell
 (
 id
@@ -2934,7 +2927,7 @@ column
 ]
 )
 ;
-yield
+await
 typeWithTerminator
 (
 newValue
@@ -2946,7 +2939,6 @@ validate
 ;
 }
 function
-*
 startCellEdit
 (
 id
@@ -3217,8 +3209,8 @@ state
 ;
 }
 }
+async
 function
-*
 typeWithTerminator
 (
 str
@@ -3351,7 +3343,7 @@ event
 let
 uniqueId
 =
-yield
+await
 gUI
 .
 table
@@ -3377,7 +3369,6 @@ uniqueId
 ;
 }
 return
-yield
 gUI
 .
 table
@@ -3456,8 +3447,8 @@ modifiers
 ;
 }
 }
+async
 function
-*
 checkState
 (
 state
@@ -3496,7 +3487,7 @@ storeName
 }
 )
 ;
-yield
+await
 selectTreeItem
 (
 store
@@ -3644,12 +3635,8 @@ false
 var
 focusSearchBoxUsingShortcut
 =
-Task
-.
 async
-(
 function
-*
 (
 panelWin
 callback
@@ -3737,7 +3724,7 @@ key
 )
 )
 ;
-yield
+await
 focused
 ;
 if
@@ -3751,7 +3738,6 @@ callback
 ;
 }
 }
-)
 ;
 function
 getCookieId
@@ -3875,8 +3861,8 @@ sidebarToggleBtn
 hidden
 ;
 }
+async
 function
-*
 performAdd
 (
 store
@@ -3918,7 +3904,7 @@ store
 0
 ]
 ;
-yield
+await
 selectTreeItem
 (
 store
@@ -4009,10 +3995,10 @@ click
 let
 rowId
 =
-yield
+await
 eventEdit
 ;
-yield
+await
 eventWait
 ;
 let

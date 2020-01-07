@@ -1,5 +1,5 @@
+async
 function
-*
 spawnTest
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -87,7 +87,7 @@ markers
 ;
 }
 ;
-yield
+await
 startRecording
 (
 panel
@@ -104,7 +104,7 @@ started
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -182,7 +182,7 @@ Paint
 }
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -640,7 +640,7 @@ time
 )
 ;
 }
-yield
+await
 teardown
 (
 panel

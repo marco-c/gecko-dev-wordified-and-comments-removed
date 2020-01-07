@@ -87,15 +87,15 @@ NetUtil
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 htmlFile
 =
-yield
+await
 copy
 (
 TESTCASE_URI_HTML
@@ -106,7 +106,7 @@ html
 "
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_CSS
@@ -145,7 +145,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 filePath
@@ -161,7 +161,7 @@ editors
 0
 ]
 ;
-yield
+await
 editor
 .
 getSourceEditor
@@ -221,7 +221,7 @@ beginCursor
 beginCursor
 )
 ;
-yield
+await
 dirty
 ;
 is
@@ -327,7 +327,7 @@ URI
 }
 )
 ;
-yield
+await
 dirty
 ;
 is

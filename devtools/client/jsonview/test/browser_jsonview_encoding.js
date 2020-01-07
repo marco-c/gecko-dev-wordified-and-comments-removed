@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -248,7 +248,7 @@ input
 "
 )
 ;
-yield
+await
 addJsonViewTab
 (
 "
@@ -262,7 +262,7 @@ json
 input
 )
 ;
-yield
+await
 selectJsonViewContentTab
 (
 "
@@ -273,7 +273,7 @@ rawdata
 let
 data
 =
-yield
+await
 getElementText
 (
 "

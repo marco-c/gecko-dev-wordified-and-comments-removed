@@ -102,8 +102,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -257,7 +257,7 @@ url
 )
 )
 ;
-yield
+await
 idleWait
 (
 100
@@ -299,7 +299,7 @@ url
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (

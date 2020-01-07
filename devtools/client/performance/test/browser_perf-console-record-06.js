@@ -144,8 +144,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -155,7 +155,7 @@ target
 console
 }
 =
-yield
+await
 initConsoleInNewTab
 (
 {
@@ -173,7 +173,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInTab
 (
 {
@@ -209,7 +209,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profile
@@ -219,7 +219,7 @@ rust
 "
 )
 ;
-yield
+await
 started
 ;
 let
@@ -271,7 +271,7 @@ selected
 "
 )
 ;
-yield
+await
 times
 (
 OverviewView
@@ -312,7 +312,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profile
@@ -322,7 +322,7 @@ golang
 "
 )
 ;
-yield
+await
 started
 ;
 recordings
@@ -374,7 +374,7 @@ selected
 "
 )
 ;
-yield
+await
 times
 (
 OverviewView
@@ -410,7 +410,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profileEnd
@@ -420,7 +420,7 @@ rust
 "
 )
 ;
-yield
+await
 stopped
 ;
 recordings
@@ -515,7 +515,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profileEnd
@@ -525,7 +525,7 @@ golang
 "
 )
 ;
-yield
+await
 stopped
 ;
 recordings
@@ -602,7 +602,7 @@ recording
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

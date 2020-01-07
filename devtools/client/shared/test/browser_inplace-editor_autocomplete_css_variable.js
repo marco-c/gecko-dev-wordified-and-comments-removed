@@ -224,12 +224,12 @@ def
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -262,7 +262,7 @@ win
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
@@ -290,7 +290,7 @@ true
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -357,12 +357,8 @@ removeCurrentTab
 let
 runAutocompletionTest
 =
-Task
-.
 async
-(
 function
-*
 (
 editor
 )
@@ -400,7 +396,7 @@ of
 testData
 )
 {
-yield
+await
 testCompletion
 (
 data
@@ -425,5 +421,4 @@ defaultView
 )
 ;
 }
-)
 ;

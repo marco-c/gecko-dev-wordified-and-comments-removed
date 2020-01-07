@@ -20,15 +20,15 @@ xul
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -47,7 +47,7 @@ tab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -42,7 +42,7 @@ frameContent
 "
 ]
 ;
-yield
+await
 selectTreeItem
 (
 cacheItemId
@@ -77,7 +77,7 @@ the
 tree
 )
 ;
-yield
+await
 finishTests
 (
 )

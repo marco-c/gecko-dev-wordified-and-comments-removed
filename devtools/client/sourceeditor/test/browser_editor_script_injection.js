@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 runTest
 (
 )
@@ -18,8 +18,8 @@ runTest
 }
 )
 ;
+async
 function
-*
 runTest
 (
 )
@@ -63,7 +63,7 @@ ed
 win
 }
 =
-yield
+await
 setup
 (
 null

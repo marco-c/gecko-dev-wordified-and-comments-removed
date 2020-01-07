@@ -51,12 +51,9 @@ target
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -140,7 +137,7 @@ toolId
 ;
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -204,7 +201,7 @@ ready
 )
 ;
 }
-yield
+await
 toolbox
 .
 destroy
@@ -212,6 +209,8 @@ destroy
 )
 ;
 }
+)
+(
 )
 ;
 }
@@ -351,8 +350,8 @@ Task
 .
 spawn
 (
+async
 function
-*
 (
 )
 {
@@ -361,7 +360,7 @@ toggleAllTools
 true
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -374,7 +373,7 @@ blank
 let
 client
 =
-yield
+await
 getClient
 (
 )
@@ -382,13 +381,13 @@ getClient
 let
 target
 =
-yield
+await
 getTarget
 (
 client
 )
 ;
-yield
+await
 runTools
 (
 target

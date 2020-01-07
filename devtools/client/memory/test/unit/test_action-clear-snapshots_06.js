@@ -66,8 +66,8 @@ diffing
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -141,7 +141,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -230,7 +230,7 @@ view
 "
 )
 ;
-yield
+await
 waitUntilAction
 (
 store
@@ -292,7 +292,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 deleteEvents
 ;
 ok
@@ -352,7 +352,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

@@ -139,12 +139,12 @@ FlameGraph
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -154,7 +154,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -168,8 +168,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
@@ -180,7 +180,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
@@ -240,7 +240,7 @@ fixedHeight
 =
 TEST_HEIGHT
 ;
-yield
+await
 graph
 .
 ready
@@ -252,7 +252,7 @@ testGraph
 graph
 )
 ;
-yield
+await
 graph
 .
 destroy

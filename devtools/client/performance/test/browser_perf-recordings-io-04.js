@@ -347,12 +347,8 @@ data
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -363,7 +359,7 @@ panel
 toolbox
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -458,7 +454,7 @@ parseInt
 )
 )
 ;
-yield
+await
 asyncCopy
 (
 oldProfilerData
@@ -498,7 +494,7 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-yield
+await
 PerformanceController
 .
 importRecording
@@ -508,7 +504,7 @@ importRecording
 file
 )
 ;
-yield
+await
 imported
 ;
 ok
@@ -529,10 +525,10 @@ imported
 "
 )
 ;
-yield
+await
 calltreeRendered
 ;
-yield
+await
 fpsRendered
 ;
 ok
@@ -1051,7 +1047,7 @@ import
 ;
 }
 }
-yield
+await
 teardown
 (
 panel
@@ -1062,7 +1058,6 @@ finish
 )
 ;
 }
-)
 ;
 function
 getUnicodeConverter

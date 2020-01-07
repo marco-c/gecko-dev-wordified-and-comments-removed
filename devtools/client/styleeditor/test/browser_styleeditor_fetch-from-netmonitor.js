@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -32,7 +32,7 @@ netmonitor
 let
 tab
 =
-yield
+await
 addTab
 (
 "
@@ -55,7 +55,7 @@ tab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -152,7 +152,7 @@ page
 "
 )
 ;
-yield
+await
 navigateTo
 (
 TEST_URL
@@ -170,7 +170,7 @@ Editor
 let
 styleeditor
 =
-yield
+await
 toolbox
 .
 selectTool
@@ -201,7 +201,7 @@ loaded
 "
 )
 ;
-yield
+await
 ui
 .
 editors
@@ -213,7 +213,7 @@ getSourceEditor
 (
 )
 ;
-yield
+await
 ui
 .
 selectStyleSheet
@@ -228,7 +228,7 @@ editors
 styleSheet
 )
 ;
-yield
+await
 ui
 .
 editors

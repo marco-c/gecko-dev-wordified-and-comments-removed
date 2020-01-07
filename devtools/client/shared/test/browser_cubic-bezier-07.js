@@ -60,8 +60,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -71,7 +71,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -109,7 +109,7 @@ PREDEFINED
 linear
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -130,7 +130,7 @@ w
 ]
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -150,7 +150,7 @@ w
 ]
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -171,7 +171,7 @@ w
 ]
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -183,7 +183,7 @@ ease
 "
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -221,8 +221,8 @@ destroy
 }
 )
 ;
+async
 function
-*
 previewDotReactsToChanges
 (
 widget
@@ -248,7 +248,7 @@ coordinates
 =
 coords
 ;
-yield
+await
 onUpdated
 ;
 let

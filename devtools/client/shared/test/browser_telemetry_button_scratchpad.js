@@ -40,12 +40,12 @@ TOOL_DELAY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -58,7 +58,7 @@ loadTelemetryAndRecordLogs
 (
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -90,7 +90,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -126,14 +126,14 @@ button
 "
 )
 ;
-yield
+await
 testButton
 (
 toolbox
 Telemetry
 )
 ;
-yield
+await
 onAllWindowsOpened
 ;
 checkResults
@@ -149,7 +149,7 @@ stopRecordingTelemetryLogs
 Telemetry
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -363,8 +363,8 @@ true
 )
 ;
 }
+async
 function
-*
 testButton
 (
 toolbox
@@ -414,7 +414,7 @@ button
 "
 )
 ;
-yield
+await
 delayedClicks
 (
 button

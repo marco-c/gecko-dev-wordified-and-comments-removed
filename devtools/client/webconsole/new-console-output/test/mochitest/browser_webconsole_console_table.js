@@ -47,15 +47,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -898,7 +898,7 @@ undefined
 }
 ]
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -959,7 +959,7 @@ testCases
 let
 node
 =
-yield
+await
 waitFor
 (
 (

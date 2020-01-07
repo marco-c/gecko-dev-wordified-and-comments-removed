@@ -45,12 +45,12 @@ FlameGraph
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -60,7 +60,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -75,7 +75,6 @@ removeCurrentTab
 )
 ;
 function
-*
 performTest
 (
 )

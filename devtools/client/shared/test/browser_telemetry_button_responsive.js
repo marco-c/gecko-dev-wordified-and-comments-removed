@@ -222,12 +222,12 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -255,7 +255,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -284,7 +284,7 @@ button
 "
 )
 ;
-yield
+await
 testButton
 (
 toolbox
@@ -296,7 +296,7 @@ stopRecordingTelemetryLogs
 Telemetry
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -313,8 +313,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 testButton
 (
 toolbox
@@ -364,7 +364,7 @@ button
 "
 )
 ;
-yield
+await
 delayedClicks
 (
 button
@@ -454,12 +454,8 @@ handler
 var
 delayedClicks
 =
-Task
-.
 async
-(
 function
-*
 (
 node
 clicks
@@ -506,10 +502,10 @@ click
 (
 )
 ;
-yield
+await
 toggled
 ;
-yield
+await
 DevToolsUtils
 .
 waitForTime
@@ -519,7 +515,6 @@ TOOL_DELAY
 ;
 }
 }
-)
 ;
 function
 checkResults

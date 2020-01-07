@@ -135,8 +135,8 @@ jsona
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -279,14 +279,14 @@ store
 mimeInfo
 )
 ;
-yield
+await
 testType
 (
 isValid
 type
 )
 ;
-yield
+await
 testType
 (
 isValid

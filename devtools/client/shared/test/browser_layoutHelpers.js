@@ -34,8 +34,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -45,7 +45,7 @@ host
 win
 ]
 =
-yield
+await
 createHost
 (
 "

@@ -1,5 +1,5 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -30,7 +30,7 @@ true
 let
 programActor
 =
-yield
+await
 once
 (
 front
@@ -66,7 +66,7 @@ notification
 let
 vertexShader
 =
-yield
+await
 programActor
 .
 getVertexShader
@@ -94,7 +94,7 @@ actor
 let
 fragmentShader
 =
-yield
+await
 programActor
 .
 getFragmentShader
@@ -119,7 +119,7 @@ actor
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

@@ -16,8 +16,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -31,7 +31,7 @@ started
 "
 )
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -40,7 +40,7 @@ TEST_JSON_URL
 let
 countBefore
 =
-yield
+await
 getElementCount
 (
 "
@@ -71,7 +71,7 @@ row
 let
 text
 =
-yield
+await
 getElementText
 (
 "
@@ -146,7 +146,7 @@ button
 copy
 "
 ;
-yield
+await
 waitForClipboardPromise
 (
 function

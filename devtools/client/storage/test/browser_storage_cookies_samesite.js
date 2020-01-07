@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -116,7 +116,7 @@ test
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -215,7 +215,7 @@ Strict
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

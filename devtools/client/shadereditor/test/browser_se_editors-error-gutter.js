@@ -1,5 +1,5 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -32,7 +32,7 @@ reload
 target
 )
 ;
-yield
+await
 promise
 .
 all
@@ -62,7 +62,7 @@ SOURCES_SHOWN
 let
 vsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -75,7 +75,7 @@ vs
 let
 fsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -115,7 +115,7 @@ let
 vertError
 ]
 =
-yield
+await
 onceSpread
 (
 panel
@@ -169,7 +169,7 @@ ch
 }
 )
 ;
-yield
+await
 once
 (
 panel
@@ -234,7 +234,7 @@ editor
 vertError
 ]
 =
-yield
+await
 onceSpread
 (
 panel
@@ -305,7 +305,7 @@ let
 fragError
 ]
 =
-yield
+await
 onceSpread
 (
 panel
@@ -365,7 +365,7 @@ ch
 }
 )
 ;
-yield
+await
 once
 (
 panel
@@ -436,7 +436,7 @@ editor
 fragError
 ]
 =
-yield
+await
 onceSpread
 (
 panel
@@ -508,7 +508,7 @@ ch
 }
 )
 ;
-yield
+await
 once
 (
 panel
@@ -559,7 +559,7 @@ again
 vertError
 ]
 =
-yield
+await
 onceSpread
 (
 panel
@@ -607,7 +607,7 @@ again
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

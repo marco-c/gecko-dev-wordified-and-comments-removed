@@ -671,14 +671,8 @@ _renderList
 )
 ;
 }
-_onSelect
-:
-Task
-.
 async
-(
-function
-*
+_onSelect
 (
 recording
 )
@@ -708,7 +702,6 @@ _renderList
 )
 ;
 }
-)
 _onSaveButtonClick
 :
 function

@@ -1,21 +1,5 @@
 var
 {
-Task
-}
-=
-require
-(
-"
-devtools
-/
-shared
-/
-task
-"
-)
-;
-var
-{
 TargetFactory
 }
 =
@@ -78,8 +62,8 @@ error
 )
 ;
 }
+async
 function
-*
 runTests
 (
 [
@@ -112,7 +96,7 @@ let
 result
 ]
 =
-yield
+await
 sp
 .
 display
@@ -148,7 +132,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -173,7 +157,7 @@ opened
 let
 closed
 =
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -205,7 +189,7 @@ let
 result2
 ]
 =
-yield
+await
 sp
 .
 display

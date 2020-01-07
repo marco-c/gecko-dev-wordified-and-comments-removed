@@ -1,5 +1,5 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -43,7 +43,7 @@ target
 let
 firstProgram
 =
-yield
+await
 once
 (
 gFront
@@ -54,7 +54,7 @@ linked
 "
 )
 ;
-yield
+await
 reloaded
 ;
 let
@@ -72,20 +72,20 @@ secondProgram
 thirdProgram
 ]
 =
-yield
+await
 getPrograms
 (
 gFront
 2
 )
 ;
-yield
+await
 navigated
 ;
 let
 vsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -98,7 +98,7 @@ vs
 let
 fsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -108,7 +108,7 @@ fs
 "
 )
 ;
-yield
+await
 navigateInHistory
 (
 target
@@ -122,7 +122,7 @@ navigate
 "
 )
 ;
-yield
+await
 once
 (
 panel
@@ -133,7 +133,7 @@ EVENTS
 PROGRAMS_ADDED
 )
 ;
-yield
+await
 once
 (
 panel
@@ -266,7 +266,7 @@ text
 "
 )
 ;
-yield
+await
 navigateInHistory
 (
 target
@@ -280,7 +280,7 @@ navigate
 "
 )
 ;
-yield
+await
 once
 (
 panel
@@ -291,7 +291,7 @@ EVENTS
 PROGRAMS_ADDED
 )
 ;
-yield
+await
 once
 (
 panel
@@ -424,7 +424,7 @@ text
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

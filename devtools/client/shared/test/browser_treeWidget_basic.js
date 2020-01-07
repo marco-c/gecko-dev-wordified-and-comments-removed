@@ -107,12 +107,12 @@ TreeWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -128,7 +128,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "

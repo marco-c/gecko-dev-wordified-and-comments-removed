@@ -23,12 +23,12 @@ LineGraphWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -38,7 +38,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -56,8 +56,8 @@ finish
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
@@ -68,7 +68,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
@@ -140,7 +140,7 @@ true
 }
 )
 ;
-yield
+await
 graph
 .
 ready
@@ -169,7 +169,7 @@ host
 graph
 )
 ;
-yield
+await
 graph
 .
 destroy
