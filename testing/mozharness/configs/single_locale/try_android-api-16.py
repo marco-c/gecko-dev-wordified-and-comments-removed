@@ -249,23 +249,6 @@ try
 }
     
 "
-upload_branch
-"
-:
-"
-%
-s
--
-android
--
-api
--
-16
-"
-%
-BRANCH
-    
-"
 platform
 "
 :
