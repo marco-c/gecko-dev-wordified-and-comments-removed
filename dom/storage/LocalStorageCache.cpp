@@ -987,16 +987,7 @@ TelemetryAutoTimer
 Telemetry
 :
 :
-AccumulateDelta_impl
-<
-Telemetry
-:
-:
-Millisecond
->
-:
-:
-compute
+AccumulateTimeDelta
 (
 id
 start

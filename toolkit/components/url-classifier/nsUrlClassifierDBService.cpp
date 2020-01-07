@@ -8391,13 +8391,7 @@ startTime
 >
 void
 {
-AccumulateDelta_impl
-<
-Millisecond
->
-:
-:
-compute
+AccumulateTimeDelta
 (
 Telemetry
 :
