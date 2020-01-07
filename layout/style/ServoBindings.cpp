@@ -2770,7 +2770,9 @@ Element
 aElement
 )
 pseudoType
+*
 aOldComputedData
+*
 aComputedData
 )
 ;
