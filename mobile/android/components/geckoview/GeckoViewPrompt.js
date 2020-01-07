@@ -3952,7 +3952,7 @@ aCallback
 aContext
 aLevel
 aAuthInfo
-aCheckLabel
+aCheckMsg
 aCheckState
 )
 {
