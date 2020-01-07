@@ -593,6 +593,7 @@ uri
 "
 :
 "
+self
 "
 }
 false
@@ -646,6 +647,7 @@ uri
 "
 :
 "
+self
 "
 "
 script
@@ -841,6 +843,7 @@ uri
 "
 :
 "
+self
 "
 }
 true
@@ -925,6 +928,7 @@ uri
 "
 :
 "
+self
 "
 }
 true

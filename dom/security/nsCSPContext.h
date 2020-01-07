@@ -200,9 +200,9 @@ aSeverityFlag
 nsresult
 GatherSecurityPolicyViolationEventData
 (
-nsIURI
+nsISupports
 *
-aBlockedURI
+aBlockedContentSource
 nsIURI
 *
 aOriginalURI
