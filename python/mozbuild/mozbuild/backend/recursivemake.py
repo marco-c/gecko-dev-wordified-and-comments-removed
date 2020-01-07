@@ -7626,15 +7626,9 @@ s
 n
 '
 %
-self
-.
-_pretty_path
-(
 obj
 .
-output_path
-backend_file
-)
+program
 )
         
 if
