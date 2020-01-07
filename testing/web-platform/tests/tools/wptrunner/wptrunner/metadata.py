@@ -2236,10 +2236,10 @@ iterchildren
 :
         
 if
-not
 test
 .
 id
+not
 in
 tests_by_id
 :

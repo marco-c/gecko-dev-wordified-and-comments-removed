@@ -571,8 +571,8 @@ sep
 )
             
 if
-not
 test_dir
+not
 in
 by_dir
 :

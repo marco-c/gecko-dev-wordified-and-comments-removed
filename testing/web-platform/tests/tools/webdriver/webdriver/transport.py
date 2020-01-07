@@ -6,6 +6,10 @@ import
 urlparse
 import
 error
+from
+six
+import
+text_type
 "
 "
 "
@@ -997,7 +1001,7 @@ if
 isinstance
 (
 payload
-unicode
+text_type
 )
 :
             
