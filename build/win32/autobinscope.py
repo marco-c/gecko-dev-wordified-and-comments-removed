@@ -26,6 +26,7 @@ argv
 :
     
 print
+(
 "
 "
 "
@@ -40,7 +41,7 @@ path_to_symbols
 log_file_path
 ]
 "
-		
+    
 log_file_path
 is
 optional
@@ -59,6 +60,7 @@ default
 "
 "
 "
+)
     
 sys
 .
@@ -126,6 +128,7 @@ KeyError
 :
     
 print
+(
 "
 TEST
 -
@@ -143,6 +146,9 @@ variable
 is
 not
 set
+"
+          
+"
 can
 '
 t
@@ -155,6 +161,7 @@ etc
 status
 .
 "
+)
     
 sys
 .
@@ -369,6 +376,7 @@ errno
 :
         
 print
+(
 "
 TEST
 -
@@ -393,6 +401,7 @@ s
 errno
 strerror
 )
+)
         
 sys
 .
@@ -405,6 +414,7 @@ else
 :
         
 print
+(
 "
 TEST
 -
@@ -423,6 +433,9 @@ binscope
 at
 location
 :
+"
+              
+"
 %
 s
 \
@@ -430,6 +443,7 @@ n
 "
 %
 binscope_path
+)
         
 sys
 .
@@ -501,6 +515,7 @@ returncode
 :
     
 print
+(
 "
 TEST
 -
@@ -524,12 +539,13 @@ file
 s
 "
 %
+          
 (
-        
 proc
 .
 returncode
 binary_path
+)
 )
 elif
 errors
@@ -539,6 +555,7 @@ errors
 :
     
 print
+(
 "
 TEST
 -
@@ -569,10 +586,12 @@ s
 errors
 binary_path
 )
+)
 else
 :
     
 print
+(
 "
 TEST
 -
@@ -588,3 +607,4 @@ succeeded
 "
 %
 binary_path
+)

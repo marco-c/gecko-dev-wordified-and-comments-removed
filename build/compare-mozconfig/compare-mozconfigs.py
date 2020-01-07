@@ -196,6 +196,7 @@ diff_instance
 .
 compare
 (
+        
 mozconfig_lines
 nightly_mozconfig_lines
 )

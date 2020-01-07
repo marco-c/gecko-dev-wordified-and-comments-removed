@@ -164,6 +164,7 @@ True
 debugger
 =
 False
+                    
 lsanPath
 =
 None
@@ -311,6 +312,7 @@ timeout
 maxTime
 startTime
 debuggerInfo
+                      
 symbolsPath
 outputHandler
 =
@@ -405,6 +407,7 @@ procName
 :
             
 print
+(
 "
 Browser
 unexpectedly
@@ -416,6 +419,7 @@ Killing
 .
 .
 "
+)
             
 proc
 .
@@ -436,6 +440,7 @@ maxTime
 :
                 
 print
+(
 "
 TEST
 -
@@ -452,7 +457,6 @@ for
 longer
 than
 "
-\
                       
 "
 allowed
@@ -471,11 +475,13 @@ self
 lastTestSeen
 maxTime
 )
+)
             
 else
 :
                 
 print
+(
 "
 TEST
 -
@@ -492,7 +498,6 @@ for
 longer
 than
 "
-\
                       
 "
 allowed
@@ -505,6 +510,7 @@ self
 .
 lastTestSeen
 )
+)
         
 if
 status
@@ -514,6 +520,7 @@ status
 :
             
 print
+(
 "
 TEST
 -
@@ -532,11 +539,13 @@ after
 d
 seconds
 with
+"
+                  
+"
 no
 output
 "
-\
-                
+                  
 %
 (
 self
@@ -545,6 +554,7 @@ lastTestSeen
 int
 (
 timeout
+)
 )
 )
         
@@ -619,6 +629,7 @@ e
 :
             
 print
+(
 "
 Error
 deleting
@@ -634,6 +645,7 @@ traces
 str
 (
 e
+)
 )
 )
     
@@ -704,6 +716,7 @@ stripped
 :
                         
 print
+(
 "
 Contents
 of
@@ -713,9 +726,12 @@ s
 "
 %
 traces
+)
                         
 print
+(
 t
+)
                 
 self
 .
@@ -730,6 +746,7 @@ e
 :
                 
 print
+(
 "
 Error
 pulling
@@ -747,11 +764,13 @@ str
 e
 )
 )
+)
         
 else
 :
             
 print
+(
 "
 %
 s
@@ -760,6 +779,7 @@ found
 "
 %
 traces
+)
     
 def
 deleteTombstones
@@ -965,6 +985,7 @@ else
 :
                 
 print
+(
 "
 %
 s
@@ -978,11 +999,13 @@ skipped
 "
 %
 remoteDir
+)
         
 else
 :
             
 print
+(
 "
 MOZ_UPLOAD_DIR
 not
@@ -992,6 +1015,7 @@ tombstone
 check
 skipped
 "
+)
     
 def
 checkForCrashes
@@ -1098,6 +1122,7 @@ remoteCrashDir
 :
                 
 print
+(
 "
 Automation
 Error
@@ -1115,7 +1140,9 @@ remote
 device
 "
 %
+                      
 remoteCrashDir
+)
                 
 return
 True
@@ -1173,6 +1200,7 @@ e
 :
                 
 print
+(
 "
 WARNING
 :
@@ -1193,6 +1221,7 @@ dumpDir
 str
 (
 e
+)
 )
 )
         
@@ -1280,6 +1309,7 @@ foreground
 )
         
 except
+Exception
 :
             
 pass
@@ -1517,6 +1547,7 @@ cmd
 :
                     
 print
+(
 "
 remote_automation
 .
@@ -1529,6 +1560,7 @@ s
 "
 %
 cmd
+)
             
 else
 :
@@ -1882,7 +1914,9 @@ testStartFilenames
 ]
                 
 print
+(
 newLogContent
+)
                 
 return
 True
@@ -2175,6 +2209,7 @@ todo
 val
                                 
 except
+Exception
 :
                                     
 pass
@@ -2223,8 +2258,7 @@ interval
             
 if
 timeout
-=
-=
+is
 None
 :
                 
@@ -2456,6 +2490,7 @@ None
 :
                         
 print
+(
 "
 Failed
 to
@@ -2468,6 +2503,7 @@ once
 .
 .
 "
+)
                         
 top
 =
@@ -2602,6 +2638,7 @@ procName
 :
                         
 print
+(
 "
 %
 s
@@ -2619,6 +2656,7 @@ waiting
 self
 .
 procName
+)
                         
 time
 .
@@ -2661,6 +2699,7 @@ except
 :
                     
 print
+(
 "
 %
 s
@@ -2674,6 +2713,7 @@ SIGKILL
 self
 .
 procName
+)
                 
 if
 self

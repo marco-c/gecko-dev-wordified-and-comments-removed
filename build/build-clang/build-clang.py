@@ -635,6 +635,7 @@ path
 )
         
 except
+Exception
 :
             
 pass
