@@ -74,6 +74,12 @@ dom_struct
 dom_struct
 ;
 use
+metrics
+:
+:
+ToMs
+;
+use
 script_traits
 :
 :
@@ -183,8 +189,10 @@ paint
 "
 )
 start_time
-as
-f64
+.
+to_ms
+(
+)
 0
 .
 )

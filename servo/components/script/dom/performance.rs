@@ -220,6 +220,12 @@ dom_struct
 dom_struct
 ;
 use
+metrics
+:
+:
+ToMs
+;
+use
 std
 :
 :
@@ -1539,11 +1545,10 @@ precise_time_ns
 -
 nav_start
 )
-as
-f64
-/
-1000000
 .
+to_ms
+(
+)
 }
 }
 impl
