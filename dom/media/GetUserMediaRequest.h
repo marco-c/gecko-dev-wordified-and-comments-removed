@@ -195,8 +195,9 @@ virtual
 GetUserMediaRequest
 (
 )
-{
-}
+=
+default
+;
 uint64_t
 mInnerWindowID
 mOuterWindowID
