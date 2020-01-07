@@ -195,16 +195,8 @@ USVString
 )
 BodyInit
 ;
-[
-NoInterfaceObject
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
+mixin
 Body
 {
 readonly
@@ -392,7 +384,7 @@ clone
 }
 ;
 Request
-implements
+includes
 Body
 ;
 dictionary

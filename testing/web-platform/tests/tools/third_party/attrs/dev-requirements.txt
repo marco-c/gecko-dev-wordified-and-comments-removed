@@ -1,0 +1,8 @@
+coverage
+hypothesis
+pympler
+pytest
+six
+zope
+.
+interface

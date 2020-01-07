@@ -1587,16 +1587,17 @@ script
 var
 id
 =
+"
 %
 s
+"
+;
                     
 document
 .
 getElementById
 (
-"
 id
-"
 )
 .
 addEventListener
@@ -1612,9 +1613,7 @@ document
 .
 getElementById
 (
-"
 id
-"
 )
 .
 addEventListener
@@ -1745,7 +1744,7 @@ all
 False
 )
     
-test_clear_element_helper
+clear_element_test_helper
 (
 session
 empty_element
@@ -1819,14 +1818,14 @@ all
 False
 )
     
-test_clear_element_helper
+clear_element_test_helper
 (
 session
 test_element
 True
 )
 def
-test_clear_element_helper
+clear_element_test_helper
 (
 session
 element

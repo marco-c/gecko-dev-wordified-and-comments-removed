@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 argparse
 import
@@ -7,20 +11,31 @@ json
 import
 io
 import
-log
-import
 os
 from
 datetime
 import
 datetime
 timedelta
-import
-urllib2
 from
+six
+.
+moves
+.
+urllib
+.
+request
+import
+urlopen
+from
+.
 vcs
 import
 Git
+from
+.
+import
+log
 here
 =
 os
@@ -226,8 +241,6 @@ try
         
 resp
 =
-urllib2
-.
 urlopen
 (
 "
@@ -505,8 +518,6 @@ try
         
 resp
 =
-urllib2
-.
 urlopen
 (
 url

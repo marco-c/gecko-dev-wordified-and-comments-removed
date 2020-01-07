@@ -408,7 +408,7 @@ PRODUCT
 =
 chrome
 :
-unstable
+dev
 -
 os
 :
@@ -722,7 +722,7 @@ PRODUCT
 =
 chrome
 :
-unstable
+dev
 -
 env
 :

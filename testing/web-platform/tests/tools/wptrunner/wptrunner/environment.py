@@ -190,17 +190,6 @@ except
 ImportError
 :
         
-from
-wpt_tools
-.
-serve
-import
-serve
-    
-except
-ImportError
-:
-        
 failed
 .
 append
@@ -511,12 +500,6 @@ None
         
 self
 .
-external_config
-=
-None
-        
-self
-.
 pause_after_test
 =
 pause_after_test
@@ -647,18 +630,34 @@ load_config
 (
 )
         
+ports
+=
 serve
 .
-set_computed_defaults
+get_ports
 (
 self
 .
 config
+self
+.
+ssl_env
 )
         
 self
 .
-external_config
+config
+=
+serve
+.
+normalise_config
+(
+self
+.
+config
+ports
+)
+        
 self
 .
 servers
@@ -673,7 +672,7 @@ config
 self
 .
 ssl_env
-                                                         
+                                   
 self
 .
 get_routes
@@ -1114,6 +1113,13 @@ certificate
 ]
 =
 certificate
+        
+serve
+.
+set_computed_defaults
+(
+config
+)
         
 return
 config

@@ -28,7 +28,8 @@ clientId
 !
 =
 =
-null
+"
+"
 )
 {
 e
@@ -46,8 +47,8 @@ set
 to
 non
 -
-null
-value
+empty
+string
 for
 request
 with

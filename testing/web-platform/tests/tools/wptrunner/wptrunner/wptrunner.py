@@ -1401,7 +1401,7 @@ test_type
                                                           
 test_environment
 .
-external_config
+config
                                                           
 test_environment
 .

@@ -90,6 +90,7 @@ def
 test_status_with_session_running_on_endpoint_node
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -98,10 +99,23 @@ session
 =
 new_session
 (
+{
 "
+capabilities
+"
+:
+{
+"
+alwaysMatch
+"
+:
+add_browser_capabilites
+(
 {
 }
-"
+)
+}
+}
 )
     
 value

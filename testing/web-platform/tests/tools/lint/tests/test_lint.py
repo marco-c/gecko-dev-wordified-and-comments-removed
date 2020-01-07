@@ -823,7 +823,6 @@ _dummy_repo
 "
 normal
 "
-False
 )
     
 assert
@@ -884,7 +883,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -966,7 +964,6 @@ name
 "
 normal
 "
-False
 )
             
 assert
@@ -1039,7 +1036,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1116,7 +1112,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1209,7 +1204,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1288,7 +1282,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1367,7 +1360,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1474,7 +1466,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1582,7 +1573,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1697,7 +1687,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1791,7 +1780,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1888,7 +1876,6 @@ html
 "
 normal
 "
-False
 )
             
 assert
@@ -1984,6 +1971,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -1994,6 +1983,8 @@ a
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2006,7 +1997,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2076,6 +2066,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2089,6 +2081,8 @@ html
 "
 "
 css
+/
+css
 -
 unique
 /
@@ -2100,7 +2094,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2176,6 +2169,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2186,6 +2181,8 @@ a
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2198,7 +2195,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2268,6 +2264,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2278,6 +2276,8 @@ a
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2294,7 +2294,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2364,6 +2363,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2374,6 +2375,8 @@ a
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2390,7 +2393,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2460,6 +2462,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2475,6 +2479,8 @@ html
 "
 "
 css
+/
+css
 -
 unique
 /
@@ -2488,7 +2494,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2564,6 +2569,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2574,6 +2581,8 @@ a
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2586,7 +2595,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2656,6 +2664,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2666,6 +2676,8 @@ ref
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2682,7 +2694,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2752,6 +2763,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2767,6 +2780,8 @@ html
 "
 "
 css
+/
+css
 -
 unique
 /
@@ -2780,7 +2795,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2856,6 +2870,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2866,6 +2882,8 @@ ref
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2878,7 +2896,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -2948,6 +2965,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -2958,6 +2977,8 @@ a
 html
 "
 "
+css
+/
 css
 -
 unique
@@ -2976,7 +2997,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -3046,6 +3066,8 @@ _dummy_repo
 [
 "
 css
+/
+css
 -
 unique
 /
@@ -3059,7 +3081,6 @@ html
 "
 normal
 "
-True
 )
             
 assert
@@ -3313,7 +3334,6 @@ c
 "
 normal
 "
-False
 )
     
 finally
@@ -3420,7 +3440,6 @@ bar
 "
 normal
 "
-False
 )
     
 finally
@@ -3532,7 +3551,6 @@ bar
 "
 normal
 "
-False
 )
     
 finally

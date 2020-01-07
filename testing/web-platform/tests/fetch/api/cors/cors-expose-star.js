@@ -433,6 +433,9 @@ Headers
 set
 -
 cookie
+\
+\
+*
 )
 "
 return

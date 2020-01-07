@@ -691,7 +691,6 @@ check_path_length
 (
 repo_root
 path
-css_mode
 )
 :
     
@@ -752,7 +751,6 @@ check_worker_collision
 (
 repo_root
 path
-css_mode
 )
 :
     
@@ -867,7 +865,6 @@ check_ahem_copy
 (
 repo_root
 path
-css_mode
 )
 :
     
@@ -1056,7 +1053,6 @@ check_css_globally_unique
 (
 repo_root
 paths
-css_mode
 )
 :
     
@@ -1152,19 +1148,6 @@ all
 paths
     
 :
-param
-css_mode
-:
-whether
-we
-'
-re
-in
-CSS
-testsuite
-mode
-    
-:
 returns
 :
 a
@@ -1234,11 +1217,6 @@ replace
         
 if
 not
-css_mode
-:
-            
-if
-not
 path
 .
 startswith
@@ -1249,7 +1227,7 @@ css
 "
 )
 :
-                
+            
 continue
         
 source_file
@@ -2424,6 +2402,48 @@ domain
 used
 "
 class
+WebPlatformTestRegexp
+(
+Regexp
+)
+:
+    
+pattern
+=
+b
+"
+web
+\
+-
+platform
+\
+.
+test
+"
+    
+error
+=
+"
+WEB
+-
+PLATFORM
+.
+TEST
+"
+    
+description
+=
+"
+Internal
+web
+-
+platform
+.
+test
+domain
+used
+"
+class
 Webidl2Regexp
 (
 Regexp
@@ -2808,6 +2828,8 @@ SetTimeoutRegexp
             
 W3CTestOrgRegexp
             
+WebPlatformTestRegexp
+            
 Webidl2Regexp
             
 ConsoleRegexp
@@ -2827,7 +2849,6 @@ check_regexp_line
 repo_root
 path
 f
-css_mode
 )
 :
     
@@ -2904,7 +2925,6 @@ check_parsed
 repo_root
 path
 f
-css_mode
 )
 :
     
@@ -2932,8 +2952,6 @@ errors
 ]
     
 if
-css_mode
-or
 path
 .
 startswith
@@ -4681,7 +4699,6 @@ check_python_ast
 repo_root
 path
 f
-css_mode
 )
 :
     
@@ -4824,7 +4841,6 @@ check_script_metadata
 repo_root
 path
 f
-css_mode
 )
 :
     
@@ -5138,7 +5154,6 @@ check_path
 (
 repo_root
 path
-css_mode
 )
 :
     
@@ -5177,19 +5192,6 @@ the
 repository
     
 :
-param
-css_mode
-:
-whether
-we
-'
-re
-in
-CSS
-testsuite
-mode
-    
-:
 returns
 :
 a
@@ -5223,7 +5225,6 @@ path_fn
 (
 repo_root
 path
-css_mode
 )
 )
     
@@ -5234,7 +5235,6 @@ check_all_paths
 (
 repo_root
 paths
-css_mode
 )
 :
     
@@ -5274,19 +5274,6 @@ the
 repository
     
 :
-param
-css_mode
-:
-whether
-we
-'
-re
-in
-CSS
-testsuite
-mode
-    
-:
 returns
 :
 a
@@ -5320,7 +5307,6 @@ paths_fn
 (
 repo_root
 paths
-css_mode
 )
 )
     
@@ -5332,7 +5318,6 @@ check_file_contents
 repo_root
 path
 f
-css_mode
 )
 :
     
@@ -5385,19 +5370,6 @@ file
 contents
     
 :
-param
-css_mode
-:
-whether
-we
-'
-re
-in
-CSS
-testsuite
-mode
-    
-:
 returns
 :
 a
@@ -5432,7 +5404,6 @@ file_fn
 repo_root
 path
 f
-css_mode
 )
 )
         
@@ -6363,15 +6334,6 @@ lint
 repo_root
 paths
 output_format
-kwargs
-.
-get
-(
-"
-css_mode
-"
-False
-)
 )
 def
 lint
@@ -6379,7 +6341,6 @@ lint
 repo_root
 paths
 output_format
-css_mode
 )
 :
     
@@ -6640,7 +6601,6 @@ check_path
 (
 repo_root
 path
-css_mode
 )
         
 last
@@ -6683,7 +6643,6 @@ check_file_contents
 repo_root
 path
 f
-css_mode
 )
                 
 last
@@ -6701,7 +6660,6 @@ check_all_paths
 (
 repo_root
 paths
-css_mode
 )
     
 last

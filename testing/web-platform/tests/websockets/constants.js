@@ -23,7 +23,7 @@ PORT_SSL
 {
 ports
 [
-ws
+wss
 ]
 [
 0
