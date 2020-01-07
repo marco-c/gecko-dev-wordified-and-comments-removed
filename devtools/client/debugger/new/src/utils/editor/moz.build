@@ -117,4 +117,11 @@ search
 .
 js
 '
+'
+token
+-
+events
+.
+js
+'
 )

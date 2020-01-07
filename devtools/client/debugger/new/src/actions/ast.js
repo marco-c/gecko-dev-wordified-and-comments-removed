@@ -552,6 +552,7 @@ compressed
 =
 {
 }
+;
 for
 (
 const
@@ -567,6 +568,7 @@ line
 =
 {
 }
+;
 for
 (
 const
@@ -588,6 +590,7 @@ line
 [
 col
 ]
+;
 compressed
 [
 line
@@ -613,6 +616,7 @@ step
 &
 2
 )
+;
 }
 }
 return
