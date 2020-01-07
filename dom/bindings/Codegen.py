@@ -36637,10 +36637,10 @@ nullptr
                 
 globalObj
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 unwrappedVal
 )
