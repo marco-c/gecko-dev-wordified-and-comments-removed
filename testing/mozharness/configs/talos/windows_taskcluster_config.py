@@ -55,16 +55,6 @@ talos
 "
     
 "
-buildbot_json_path
-"
-:
-"
-buildprops
-.
-json
-"
-    
-"
 installer_path
 "
 :

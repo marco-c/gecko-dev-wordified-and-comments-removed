@@ -46,16 +46,6 @@ is_automation
 True
     
 "
-buildbot_json_path
-"
-:
-"
-buildprops
-.
-json
-"
-    
-"
 force_clobber
 "
 :
