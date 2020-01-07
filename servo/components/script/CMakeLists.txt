@@ -676,14 +676,8 @@ Bindings
 bindinggen_deps
 }
 {
-webidls_src
+webidls
 }
-/
-{
-binding
-}
-.
-webidl
 ParserResults
 VERBATIM
 )
