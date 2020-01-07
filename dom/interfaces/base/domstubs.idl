@@ -282,9 +282,6 @@ nsIDOMCounter
 interface
 nsIDOMRect
 ;
-interface
-nsIDOMCSSStyleRule
-;
 /
 /
 Range

@@ -138,11 +138,6 @@ nsIDOMCSSStyleDeclaration
 idl
 '
 '
-nsIDOMCSSStyleRule
-.
-idl
-'
-'
 nsIDOMCSSStyleSheet
 .
 idl

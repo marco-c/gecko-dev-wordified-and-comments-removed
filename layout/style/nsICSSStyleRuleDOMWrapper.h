@@ -5,13 +5,6 @@ nsICSSStyleRuleDOMWrapper_h_
 define
 nsICSSStyleRuleDOMWrapper_h_
 #
-include
-"
-nsIDOMCSSStyleRule
-.
-h
-"
-#
 define
 NS_ICSS_STYLE_RULE_DOM_WRAPPER_IID
 \
@@ -41,7 +34,7 @@ class
 nsICSSStyleRuleDOMWrapper
 :
 public
-nsIDOMCSSStyleRule
+nsISupports
 {
 public
 :

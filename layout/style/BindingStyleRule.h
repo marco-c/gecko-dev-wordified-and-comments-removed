@@ -206,7 +206,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 GetSelectorText
 (
 nsAString
@@ -216,7 +217,8 @@ aSelectorText
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetSelectorText
 (
 const
