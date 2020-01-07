@@ -6220,11 +6220,6 @@ return
 rv
 ;
 }
-bool
-hasContainerTest
-=
-false
-;
 TestNode
 *
 prevnode
@@ -6394,12 +6389,6 @@ kNameSpaceID_None
 )
 )
 {
-if
-(
-hasContainerTest
-)
-continue
-;
 nsRDFConInstanceTestNode
 :
 :
