@@ -29457,10 +29457,10 @@ cx
 >
 requestInterrupt
 (
-JSContext
+InterruptReason
 :
 :
-RequestInterruptUrgent
+CallbackUrgent
 )
 ;
 }
@@ -29480,10 +29480,10 @@ cx
 >
 requestInterrupt
 (
-JSContext
+InterruptReason
 :
 :
-RequestInterruptCanWait
+CallbackCanWait
 )
 ;
 }

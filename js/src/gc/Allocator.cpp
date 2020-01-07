@@ -1935,7 +1935,7 @@ if
 cx
 -
 >
-hasPendingInterrupt
+hasAnyPendingInterrupt
 (
 )
 )

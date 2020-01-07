@@ -142,7 +142,7 @@ addressOfJitStackLimit
 const
 void
 *
-addressOfInterrupt
+addressOfInterruptBits
 (
 )
 ;

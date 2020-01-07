@@ -15185,10 +15185,10 @@ mainContextFromOwnThread
 >
 requestInterrupt
 (
-JSContext
+InterruptReason
 :
 :
-RequestInterruptCanWait
+GC
 )
 ;
 }
@@ -15251,10 +15251,10 @@ mainContextFromOwnThread
 >
 requestInterrupt
 (
-JSContext
+InterruptReason
 :
 :
-RequestInterruptCanWait
+GC
 )
 ;
 }

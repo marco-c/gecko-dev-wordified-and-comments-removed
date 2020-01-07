@@ -9258,10 +9258,10 @@ mainContextFromAnyThread
 >
 requestInterrupt
 (
-JSContext
+InterruptReason
 :
 :
-RequestInterruptCanWait
+AttachIonCompilations
 )
 ;
 currentTask
