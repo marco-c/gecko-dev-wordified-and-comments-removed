@@ -12032,16 +12032,6 @@ CHANNEL
 pref
 (
 "
-experiments
-.
-supported
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 ping

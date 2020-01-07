@@ -875,16 +875,6 @@ user_pref
 "
 experiments
 .
-supported
-"
-true
-)
-;
-user_pref
-(
-"
-experiments
-.
 manifest
 .
 uri
