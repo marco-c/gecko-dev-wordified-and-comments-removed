@@ -2861,30 +2861,12 @@ __file__
 .
 parent
     
-cwd
-=
-Path
+os
 .
-cwd
-(
-)
-    
-assert
-cwd
-.
-samefile
+chdir
 (
 file_dir
 )
-'
-Run
-this
-file
-from
-its
-directory
-.
-'
     
 testEntryList
 =
