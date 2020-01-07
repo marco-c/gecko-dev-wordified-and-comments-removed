@@ -4160,6 +4160,7 @@ forget
 return
 ;
 }
+static
 void
 TryUpgrade
 (
