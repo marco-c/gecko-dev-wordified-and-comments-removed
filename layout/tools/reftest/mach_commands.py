@@ -1055,6 +1055,11 @@ self
 args
 .
 app
+device_serial
+=
+args
+.
+deviceSerial
 )
         
 if
@@ -1781,6 +1786,15 @@ kwargs
 [
 "
 app
+"
+]
+                                  
+device_serial
+=
+kwargs
+[
+"
+deviceSerial
 "
 ]
 )

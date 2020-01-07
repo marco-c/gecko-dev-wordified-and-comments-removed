@@ -1696,9 +1696,23 @@ import
 verify_android_device
 get_adb_path
             
+device_serial
+=
+params
+.
+get
+(
+'
+deviceSerial
+'
+)
+            
 verify_android_device
 (
 self
+device_serial
+=
+device_serial
 )
             
 if
