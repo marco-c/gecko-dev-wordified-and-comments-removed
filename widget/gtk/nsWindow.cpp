@@ -17448,6 +17448,8 @@ NativeMove
 (
 )
 ;
+return
+;
 }
 GdkRectangle
 size
