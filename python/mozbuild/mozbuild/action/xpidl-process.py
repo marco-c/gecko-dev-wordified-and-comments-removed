@@ -350,9 +350,12 @@ module
 )
     
 with
-FileAvoidWrite
+open
 (
 xpt_path
+'
+w
+'
 )
 as
 fh
