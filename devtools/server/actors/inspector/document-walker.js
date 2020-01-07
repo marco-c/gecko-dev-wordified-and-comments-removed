@@ -93,6 +93,9 @@ standardTreeWalkerFilter
 skipTo
 =
 SKIP_TO_PARENT
+showAnonymousContent
+=
+true
 }
 =
 {
@@ -167,7 +170,7 @@ walker
 .
 showAnonymousContent
 =
-true
+showAnonymousContent
 ;
 this
 .
