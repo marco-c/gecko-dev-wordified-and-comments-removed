@@ -4054,7 +4054,7 @@ aria_activedescendant
 mNotificationController
 -
 >
-HandleNotification
+ScheduleNotification
 <
 DocAccessible
 Accessible
