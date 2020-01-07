@@ -1,4 +1,4 @@
-52456
+52460
 0
 /
 nm
@@ -44735,6 +44735,9 @@ SM
 banana
 /
 SM
+banc
+/
+S
 band
 '
 s
@@ -58111,7 +58114,7 @@ MS
 copyleft
 copyright
 /
-GSMD
+GSMDB
 copywriter
 /
 MS
@@ -60259,7 +60262,7 @@ curare
 M
 curate
 /
-DSMGV
+DSMGVN
 curative
 /
 MS
@@ -63296,6 +63299,9 @@ U
 differentiation
 /
 M
+differentiator
+/
+S
 difficult
 /
 Y
@@ -66813,6 +66819,8 @@ effusiveness
 /
 M
 egad
+/
+S
 egalitarian
 /
 SM
@@ -88174,6 +88182,7 @@ kronur
 krypton
 /
 M
+kryptonite
 kr
 na
 /
@@ -137497,6 +137506,9 @@ SM
 webmistress
 /
 MS
+webpage
+/
+SM
 website
 /
 SM
