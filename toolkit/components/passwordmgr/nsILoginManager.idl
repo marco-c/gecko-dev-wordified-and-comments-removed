@@ -76,10 +76,10 @@ interface
 nsIFormAutoCompleteObserver
 ;
 interface
-nsIDOMHTMLInputElement
-;
-interface
 nsIPropertyBag
+;
+webidl
+HTMLInputElement
 ;
 [
 scriptable
@@ -1585,7 +1585,7 @@ in
 nsIAutoCompleteResult
 aPreviousResult
 in
-nsIDOMHTMLInputElement
+HTMLInputElement
 aElement
 in
 nsIFormAutoCompleteObserver

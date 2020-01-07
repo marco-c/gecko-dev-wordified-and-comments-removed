@@ -66,8 +66,8 @@ idl
 interface
 nsIAutoCompleteResult
 ;
-interface
-nsIDOMHTMLInputElement
+webidl
+HTMLInputElement
 ;
 [
 scriptable
@@ -111,7 +111,7 @@ in
 AString
 aSearchString
 in
-nsIDOMHTMLInputElement
+HTMLInputElement
 aField
 )
 ;

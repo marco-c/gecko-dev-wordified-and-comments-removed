@@ -69,8 +69,8 @@ nsIDocShell
 interface
 nsIAutoCompletePopup
 ;
-interface
-nsIDOMHTMLInputElement
+webidl
+HTMLInputElement
 ;
 /
 *
@@ -187,7 +187,7 @@ to
 /
 readonly
 attribute
-nsIDOMHTMLInputElement
+HTMLInputElement
 focusedInput
 ;
 /
@@ -327,7 +327,7 @@ void
 markAsLoginManagerField
 (
 in
-nsIDOMHTMLInputElement
+HTMLInputElement
 aInput
 )
 ;
@@ -381,7 +381,7 @@ void
 markAsAutofillField
 (
 in
-nsIDOMHTMLInputElement
+HTMLInputElement
 aInput
 )
 ;

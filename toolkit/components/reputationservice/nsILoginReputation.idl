@@ -119,10 +119,10 @@ nsISupports
 idl
 "
 interface
-nsIDOMHTMLInputElement
-;
-interface
 nsIURI
+;
+webidl
+HTMLInputElement
 ;
 [
 scriptable
@@ -300,7 +300,7 @@ void
 queryReputationAsync
 (
 in
-nsIDOMHTMLInputElement
+HTMLInputElement
 aInput
 in
 nsILoginReputationQueryCallback
