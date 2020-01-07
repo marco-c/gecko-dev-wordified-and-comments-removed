@@ -1910,6 +1910,11 @@ params
 [
 ]
 ;
+if
+(
+formDataSections
+)
+{
 formDataSections
 .
 forEach
@@ -1948,6 +1953,7 @@ paramsArray
 }
 )
 ;
+}
 let
 string
 =
