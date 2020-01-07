@@ -99,12 +99,14 @@ Library
 fuzzer
 '
 )
-DIRS
+EXPORTS
 +
 =
 [
 '
-harness
+FuzzerDefs
+.
+h
 '
 ]
 SOURCES
