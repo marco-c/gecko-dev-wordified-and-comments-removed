@@ -367,6 +367,13 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
+void
+SetVideoKeyFrameInterval
+(
+int32_t
+aVideoKeyFrameInterval
+)
+;
 protected
 :
 ~

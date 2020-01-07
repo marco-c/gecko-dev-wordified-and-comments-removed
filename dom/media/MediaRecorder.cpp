@@ -4638,6 +4638,14 @@ track
 )
 ;
 }
+mEncoder
+-
+>
+SetVideoKeyFrameInterval
+(
+mTimeSlice
+)
+;
 mRunningState
 =
 RunningState

@@ -190,6 +190,9 @@ uint8_t
 >
 mI420Frame
 ;
+StreamTime
+mDurationSinceLastKeyframe
+;
 VideoSegment
 mSourceSegment
 ;
