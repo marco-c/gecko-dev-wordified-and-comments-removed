@@ -127,7 +127,13 @@ eventInitDict
 Func
 =
 "
-nsContentUtils
+mozilla
+:
+:
+dom
+:
+:
+DOMPreferences
 :
 :
 PushEnabled
