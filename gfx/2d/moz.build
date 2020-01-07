@@ -161,11 +161,6 @@ BorrowedContext
 h
 '
 '
-Box
-.
-h
-'
-'
 Coord
 .
 h
@@ -307,6 +302,11 @@ h
 '
 '
 Rect
+.
+h
+'
+'
+RectAbsolute
 .
 h
 '
