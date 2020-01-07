@@ -297,6 +297,13 @@ mContentPolicyTypeOverridden
 =
 mContentPolicyTypeOverridden
 ;
+copy
+-
+>
+mPreferredAlternativeDataType
+=
+mPreferredAlternativeDataType
+;
 return
 copy
 .
