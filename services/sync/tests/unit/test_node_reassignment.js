@@ -1039,6 +1039,7 @@ rotary
 "
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -2766,6 +2767,7 @@ deferred
 .
 promise
 ;
+await
 tracker
 .
 clearChangedIDs
