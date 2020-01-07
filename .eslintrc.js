@@ -164,12 +164,6 @@ android
 *
 "
 "
-security
-/
-*
-*
-"
-"
 testing
 /
 *
