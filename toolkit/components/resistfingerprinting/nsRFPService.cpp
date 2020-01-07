@@ -282,7 +282,7 @@ jitter
 #
 define
 RFP_JITTER_VALUE_DEFAULT
-false
+true
 #
 define
 RFP_SPOOFED_FRAMES_PER_SEC_PREF
