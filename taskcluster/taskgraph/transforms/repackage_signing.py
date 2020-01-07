@@ -895,37 +895,21 @@ sha2signcode
 )
 )
             
-no_stub
+use_stub
 =
+attributes
+.
+get
 (
-"
-mozilla
+'
+stub
 -
-esr60
-"
-"
-jamun
-"
+installer
+'
 )
             
 if
-'
-win32
-'
-in
-build_platform
-and
-not
-config
-.
-params
-[
-"
-project
-"
-]
-in
-no_stub
+use_stub
 :
                 
 upstream_artifacts

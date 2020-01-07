@@ -1778,23 +1778,27 @@ paths
 :
 ]
                     
-no_stub
+use_stub
 =
+job
+[
+"
+attributes
+"
+]
+.
+get
 (
-"
-mozilla
+'
+stub
 -
-esr60
-"
-"
-jamun
-"
+installer
+'
 )
                     
 if
-project
-in
-no_stub
+not
+use_stub
 :
                         
 if
