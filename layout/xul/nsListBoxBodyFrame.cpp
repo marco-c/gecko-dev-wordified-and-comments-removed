@@ -4536,7 +4536,7 @@ contentIndex
 topParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 topContent
 )
@@ -4801,7 +4801,7 @@ i
 parentContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 prevContent
 )

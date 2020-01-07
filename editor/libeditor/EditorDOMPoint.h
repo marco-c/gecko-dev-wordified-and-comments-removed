@@ -1394,7 +1394,7 @@ Some
 mParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mChild
 )

@@ -3077,7 +3077,7 @@ int32_t
 nsGenericDOMDataNode
 :
 :
-IndexOf
+ComputeIndexOf
 (
 const
 nsINode
@@ -3442,7 +3442,7 @@ insertionIndex
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 this
 )
@@ -3724,7 +3724,7 @@ index
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 this
 )

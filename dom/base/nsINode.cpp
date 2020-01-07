@@ -2927,7 +2927,7 @@ OwnerDoc
 int32_t
 index
 =
-IndexOf
+ComputeIndexOf
 (
 &
 aOldChild
@@ -3525,7 +3525,7 @@ RemoveChildAt_Deprecated
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -4965,7 +4965,7 @@ return
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child1
 )
@@ -4973,7 +4973,7 @@ child1
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child2
 )
@@ -7055,7 +7055,7 @@ MOZ_ASSERT
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 tmp
 )
@@ -9212,7 +9212,7 @@ aIndex
 )
 &
 &
-IndexOf
+ComputeIndexOf
 (
 aKid
 )
@@ -9635,7 +9635,7 @@ doctypeIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 docTypeContent
 )
@@ -9646,7 +9646,7 @@ insertIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aRefChild
 )
@@ -9768,7 +9768,7 @@ rootIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 rootElement
 )
@@ -9779,7 +9779,7 @@ insertIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aRefChild
 )
@@ -10387,7 +10387,7 @@ removeIndex
 oldParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 newContent
 )
@@ -11084,7 +11084,7 @@ nodeToInsertBefore
 {
 insPos
 =
-IndexOf
+ComputeIndexOf
 (
 nodeToInsertBefore
 )

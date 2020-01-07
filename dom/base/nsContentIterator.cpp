@@ -2172,7 +2172,7 @@ InsertElementAt
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 current
 )
@@ -2702,7 +2702,7 @@ indx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -2979,7 +2979,7 @@ indx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -3346,7 +3346,7 @@ indx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -3660,7 +3660,7 @@ indx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -4541,7 +4541,7 @@ indx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 newCurNode
 )

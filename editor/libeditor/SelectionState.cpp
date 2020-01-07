@@ -1139,7 +1139,7 @@ parent
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )

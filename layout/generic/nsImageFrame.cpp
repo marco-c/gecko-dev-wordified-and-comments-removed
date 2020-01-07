@@ -8954,7 +8954,7 @@ thisOffset
 parentContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mContent
 )

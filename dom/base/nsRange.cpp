@@ -581,7 +581,7 @@ nodeStart
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -4901,7 +4901,7 @@ nodeIndex
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 &
 aNode
@@ -5570,7 +5570,7 @@ parent
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aChild
 )
@@ -7425,7 +7425,7 @@ MOZ_ASSERT
 aContainer
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aStartContent
 )
@@ -7434,7 +7434,7 @@ aStartContent
 aContainer
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aEndContent
 )
@@ -7448,7 +7448,7 @@ aStartContent
 aContainer
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aStartContent
 )
@@ -7466,7 +7466,7 @@ aEndContent
 aContainer
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aEndContent
 )
@@ -8350,7 +8350,7 @@ index
 container
 -
 >
-IndexOf
+ComputeIndexOf
 (
 &
 aNode
@@ -16627,7 +16627,7 @@ startOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 startContainer
 )

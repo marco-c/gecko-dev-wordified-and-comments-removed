@@ -1445,7 +1445,7 @@ pos
 foster
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aTable
 )
@@ -3662,7 +3662,7 @@ pos
 foster
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aTable
 )

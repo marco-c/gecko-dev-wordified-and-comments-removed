@@ -890,7 +890,7 @@ safeMutation
 this
 this
 nullptr
-IndexOf
+ComputeIndexOf
 (
 aKid
 )
@@ -1957,7 +1957,7 @@ index
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aOptions
 )

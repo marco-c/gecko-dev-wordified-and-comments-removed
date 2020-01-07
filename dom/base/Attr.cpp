@@ -1145,7 +1145,7 @@ int32_t
 Attr
 :
 :
-IndexOf
+ComputeIndexOf
 (
 const
 nsINode

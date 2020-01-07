@@ -12600,7 +12600,7 @@ newIndex
 container
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -12728,7 +12728,7 @@ index
 container
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )

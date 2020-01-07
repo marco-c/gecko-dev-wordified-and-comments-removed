@@ -7210,7 +7210,7 @@ offset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )

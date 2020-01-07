@@ -755,7 +755,7 @@ indexInParent
 parentNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -846,7 +846,7 @@ indexInParent
 parentNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )

@@ -7845,7 +7845,7 @@ outOffset
 content
 -
 >
-IndexOf
+ComputeIndexOf
 (
 cChild
 )

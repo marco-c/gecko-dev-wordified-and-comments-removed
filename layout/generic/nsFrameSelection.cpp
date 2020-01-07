@@ -2491,7 +2491,7 @@ aChildOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -11443,7 +11443,7 @@ offset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aCellElement
 )

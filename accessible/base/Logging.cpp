@@ -4987,7 +4987,7 @@ parentNode
 parentNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )

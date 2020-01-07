@@ -1675,7 +1675,7 @@ NS_ASSERTION
 mDocument
 -
 >
-IndexOf
+ComputeIndexOf
 (
 rootElement
 )

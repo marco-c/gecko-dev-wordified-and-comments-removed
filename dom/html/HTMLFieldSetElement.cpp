@@ -561,7 +561,7 @@ aIndex
 )
 <
 =
-IndexOf
+ComputeIndexOf
 (
 mFirstLegend
 )
