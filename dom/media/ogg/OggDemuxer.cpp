@@ -5500,6 +5500,8 @@ mMetadataDuration
 ToMicroseconds
 (
 )
++
+startTime
 ;
 if
 (
