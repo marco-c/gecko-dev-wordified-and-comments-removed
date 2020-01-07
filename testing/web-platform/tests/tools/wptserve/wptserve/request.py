@@ -246,13 +246,6 @@ tempfile
 .
 TemporaryFile
 (
-mode
-=
-"
-rw
-+
-b
-"
 )
         
 else
