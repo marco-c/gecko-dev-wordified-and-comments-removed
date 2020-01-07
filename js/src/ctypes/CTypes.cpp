@@ -498,10 +498,9 @@ x
 c
 )
 ;
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 maybecx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_BAD_SURROGATE_CHAR

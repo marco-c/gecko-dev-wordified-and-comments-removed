@@ -1156,7 +1156,7 @@ exn
 ;
 }
 static
-bool
+void
 ReportArgTypeError
 (
 JSContext
@@ -1191,13 +1191,10 @@ if
 bytes
 )
 return
-false
 ;
-return
-JS_ReportErrorFlagsAndNumberLatin1
+JS_ReportErrorNumberLatin1
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE

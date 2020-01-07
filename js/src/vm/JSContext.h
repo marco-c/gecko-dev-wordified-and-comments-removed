@@ -4155,7 +4155,7 @@ id
 )
 ;
 extern
-bool
+void
 ReportIsNullOrUndefined
 (
 JSContext
@@ -4165,8 +4165,6 @@ int
 spindex
 HandleValue
 v
-HandleString
-fallback
 )
 ;
 extern

@@ -710,10 +710,9 @@ JSContext
 cx
 )
 {
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_THROW_TYPE_ERROR
@@ -1562,10 +1561,9 @@ strict
 )
 )
 {
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_CALLER_IS_STRICT
@@ -1863,10 +1861,9 @@ strict
 )
 )
 {
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_CALLER_IS_STRICT

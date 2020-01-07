@@ -18343,7 +18343,6 @@ ReportIsNullOrUndefined
 cx
 JSDVG_SEARCH_STACK
 val
-nullptr
 )
 ;
 }
