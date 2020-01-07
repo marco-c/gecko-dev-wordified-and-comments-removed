@@ -7630,6 +7630,13 @@ blacklist
 :
 [
 "
+chrome
+-
+hangs
+-
+section
+"
+"
 raw
 -
 payload
