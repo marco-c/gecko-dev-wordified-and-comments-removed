@@ -492,6 +492,14 @@ aDT
 IsDualDrawTarget
 (
 )
+|
+|
+aDT
+-
+>
+IsCaptureDT
+(
+)
 )
 {
 gfxDevCrash
