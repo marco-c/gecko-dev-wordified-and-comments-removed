@@ -200,13 +200,15 @@ h
 "
 #
 define
-DELAYED_STARTUP_TOPIC
+STARTUP_COMPLETE_TOPIC
 "
 browser
 -
-delayed
+idle
 -
 startup
+-
+tasks
 -
 finished
 "
@@ -1038,7 +1040,7 @@ obs
 AddObserver
 (
 this
-DELAYED_STARTUP_TOPIC
+STARTUP_COMPLETE_TOPIC
 false
 )
 ;
@@ -1357,7 +1359,7 @@ if
 strcmp
 (
 topic
-DELAYED_STARTUP_TOPIC
+STARTUP_COMPLETE_TOPIC
 )
 )
 {
@@ -1367,7 +1369,7 @@ obs
 RemoveObserver
 (
 this
-DELAYED_STARTUP_TOPIC
+STARTUP_COMPLETE_TOPIC
 )
 ;
 MOZ_ASSERT
