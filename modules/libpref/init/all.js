@@ -1099,7 +1099,7 @@ net
 /
 p
 /
-mensuel
+*
 .
 framapad
 .
