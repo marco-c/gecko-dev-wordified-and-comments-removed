@@ -7,6 +7,10 @@ png
 output
 /
 *
+.
+cache
+/
+*
 page_load_test
 /
 tp5n
