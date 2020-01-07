@@ -161,7 +161,7 @@ RequestListColumnProtocol
 js
 '
 '
-RequestListColumnRemoteIp
+RequestListColumnRemoteIP
 .
 js
 '
