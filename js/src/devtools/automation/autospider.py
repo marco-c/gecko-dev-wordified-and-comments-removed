@@ -229,6 +229,16 @@ r
 s
 )
 )
+env
+[
+'
+AUTOSPIDER_DIR
+'
+]
+=
+DIR
+.
+js_src
 parser
 =
 argparse
