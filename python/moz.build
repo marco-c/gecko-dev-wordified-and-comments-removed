@@ -375,6 +375,16 @@ mach
 /
 docs
 '
+SPHINX_TREES
+[
+'
+python
+'
+]
+=
+'
+docs
+'
 with
 Files
 (

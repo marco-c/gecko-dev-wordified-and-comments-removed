@@ -40,6 +40,10 @@ docs
 -
 python
 /
+docs
+-
+python
+/
 mozlint
 -
 taskcluster
