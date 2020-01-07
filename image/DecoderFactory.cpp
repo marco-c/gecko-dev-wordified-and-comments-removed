@@ -812,6 +812,8 @@ DecoderFlags
 aDecoderFlags
 SurfaceFlags
 aSurfaceFlags
+size_t
+aCurrentFrame
 IDecodingTask
 *
 *
@@ -981,6 +983,7 @@ WrapNotNull
 (
 decoder
 )
+aCurrentFrame
 )
 ;
 switch

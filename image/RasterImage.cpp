@@ -4782,6 +4782,16 @@ if
 animated
 )
 {
+size_t
+currentFrame
+=
+mAnimationState
+-
+>
+GetCurrentAnimationFrameIndex
+(
+)
+;
 rv
 =
 DecoderFactory
@@ -4798,6 +4808,7 @@ mSourceBuffer
 mSize
 decoderFlags
 surfaceFlags
+currentFrame
 getter_AddRefs
 (
 task
