@@ -14,7 +14,7 @@ resource
 /
 services
 -
-settings
+common
 /
 remote
 -
