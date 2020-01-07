@@ -447,7 +447,7 @@ _telemetry
 toolClosed
 (
 "
-accessibilityPickerUsed
+accessibility_picker
 "
 )
 ;
@@ -656,7 +656,7 @@ _telemetry
 toolOpened
 (
 "
-accessibilityPickerUsed
+accessibility_picker
 "
 )
 ;
