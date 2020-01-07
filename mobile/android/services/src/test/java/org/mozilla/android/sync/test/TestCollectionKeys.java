@@ -580,11 +580,9 @@ input
 .
 getBytes
 (
-"
-UTF
--
-8
-"
+StringUtils
+.
+UTF_8
 )
 ;
 byte
