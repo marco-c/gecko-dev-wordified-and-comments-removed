@@ -3695,6 +3695,9 @@ is_null
 (
 )
 {
+use
+AllocationInfo
+;
 return
 Err
 (
@@ -3710,11 +3713,15 @@ when
 allocating
 RawTable
 "
-allocation_size
+allocation_info
 :
 Some
 (
+AllocationInfo
+{
 size
+alignment
+}
 )
 }
 )
