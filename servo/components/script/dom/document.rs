@@ -8472,7 +8472,9 @@ RequestAnimationFrame
 )
 ;
 }
-if
+let
+is_empty
+=
 self
 .
 animation_frame_list
@@ -8484,6 +8486,9 @@ borrow
 is_empty
 (
 )
+;
+if
+is_empty
 |
 |
 (
@@ -8497,6 +8502,9 @@ is_faking_animation_frames
 (
 )
 )
+{
+if
+is_empty
 {
 mem
 :
@@ -8519,6 +8527,7 @@ mut
 animation_frame_list
 )
 ;
+}
 let
 event
 =
