@@ -1002,6 +1002,7 @@ function
 dumpKeyStatuses
 (
 keyStatuses
+short
 )
 {
 var
@@ -1032,6 +1033,12 @@ edge
 1
 )
 {
+if
+(
+!
+short
+)
+{
 consoleWrite
 (
 "
@@ -1045,6 +1052,7 @@ keyStatuses
 "
 )
 ;
+}
 for
 (
 var
@@ -1074,6 +1082,12 @@ entry
 )
 ;
 }
+if
+(
+!
+short
+)
+{
 consoleWrite
 (
 "
@@ -1236,7 +1250,14 @@ status
 )
 ;
 }
+}
 else
+{
+if
+(
+!
+short
+)
 {
 consoleWrite
 (
@@ -1249,6 +1270,7 @@ forEach
 "
 )
 ;
+}
 keyStatuses
 .
 forEach
