@@ -10021,6 +10021,8 @@ InvalidateFrame
 (
 uint32_t
 aDisplayItemKey
+bool
+aRebuildDisplayItems
 )
 {
 nsIFrame
@@ -10029,6 +10031,7 @@ nsIFrame
 InvalidateFrame
 (
 aDisplayItemKey
+aRebuildDisplayItems
 )
 ;
 if
@@ -10068,6 +10071,7 @@ GetPosition
 (
 )
 aDisplayItemKey
+false
 )
 ;
 }
@@ -10084,6 +10088,8 @@ nsRect
 aRect
 uint32_t
 aDisplayItemKey
+bool
+aRebuildDisplayItems
 )
 {
 nsIFrame
@@ -10093,6 +10099,7 @@ InvalidateFrameWithRect
 (
 aRect
 aDisplayItemKey
+aRebuildDisplayItems
 )
 ;
 GetParent
@@ -10108,6 +10115,7 @@ GetPosition
 (
 )
 aDisplayItemKey
+false
 )
 ;
 }
