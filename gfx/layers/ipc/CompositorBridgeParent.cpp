@@ -2505,7 +2505,6 @@ mWrBridge
 >
 FlushRendering
 (
-true
 )
 ;
 return
@@ -2566,9 +2565,8 @@ UseWebRender
 mWrBridge
 -
 >
-FlushRendering
+FlushRenderingAsync
 (
-false
 )
 ;
 return
@@ -5632,9 +5630,8 @@ mWrBridge
 mWrBridge
 -
 >
-FlushRendering
+FlushRenderingAsync
 (
-false
 )
 ;
 return
