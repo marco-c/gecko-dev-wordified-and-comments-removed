@@ -415,6 +415,13 @@ uint64_t
 aExternalImageId
 )
 ;
+void
+UnregisterExternalImageDuringShutdown
+(
+uint64_t
+aExternalImageId
+)
+;
 RenderTextureHost
 *
 GetRenderTexture
