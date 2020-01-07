@@ -511,7 +511,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+SameProcessSameThread
 nullptr
 nullptr
 )
@@ -5755,7 +5755,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+SameProcessSameThread
 aValue
 &
 callbacks
@@ -6451,7 +6451,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+SameProcessSameThread
 aValue
 &
 callbacks
@@ -6877,7 +6877,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+SameProcessSameThread
 aValue
 &
 callbacks
