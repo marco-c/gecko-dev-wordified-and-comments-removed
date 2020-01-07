@@ -29580,10 +29580,9 @@ return
 }
 progressPercent
 =
-CLAMP
+MIN
 (
 progressPercent
-0
 100
 )
 ;
