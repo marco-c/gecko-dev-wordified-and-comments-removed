@@ -6,6 +6,9 @@ bin
 bash
 set
 -
+e
+set
+-
 x
 hfplus_version
 =
