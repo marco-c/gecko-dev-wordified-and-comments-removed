@@ -1608,7 +1608,7 @@ status
 "
 )
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 aReflowInput
 .
