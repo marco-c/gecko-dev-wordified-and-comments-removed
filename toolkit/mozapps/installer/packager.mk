@@ -1064,8 +1064,6 @@ BUILDID
 addprefix
 MOZ_SOURCE_REPO
 =
-MOZ_SOURCE_REPO
-=
 (
 shell
 awk
