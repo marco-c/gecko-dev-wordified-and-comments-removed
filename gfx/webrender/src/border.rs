@@ -2229,7 +2229,7 @@ y1
 -
 y0
 )
-false
+true
 EdgeAaSegmentMask
 :
 :

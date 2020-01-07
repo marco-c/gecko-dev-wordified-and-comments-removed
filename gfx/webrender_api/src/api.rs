@@ -1,3 +1,7 @@
+extern
+crate
+serde_bytes
+;
 use
 app_units
 :
@@ -1533,6 +1537,17 @@ AddFont
 Raw
 (
 FontKey
+#
+[
+serde
+(
+with
+=
+"
+serde_bytes
+"
+)
+]
 Vec
 <
 u8
@@ -2924,8 +2939,6 @@ Self
 ExternalEvent
 {
 raw
-:
-raw
 }
 }
 pub
@@ -3186,8 +3199,6 @@ payload_sender
 clone
 (
 )
-namespace_id
-:
 namespace_id
 next_id
 :

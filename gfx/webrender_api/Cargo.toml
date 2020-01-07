@@ -13,7 +13,7 @@ version
 .
 57
 .
-0
+2
 "
 authors
 =
@@ -198,6 +198,13 @@ deserialize_in_place
 "
 ]
 }
+serde_bytes
+=
+"
+0
+.
+10
+"
 time
 =
 "

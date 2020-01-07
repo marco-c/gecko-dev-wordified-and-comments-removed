@@ -475,7 +475,7 @@ format
 !
 (
 "
-Usupported
+Unsupported
 image
 format
 {

@@ -705,7 +705,6 @@ capture
 "
 derive
 (
-Clone
 Serialize
 )
 )

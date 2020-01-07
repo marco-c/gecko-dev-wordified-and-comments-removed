@@ -1194,7 +1194,7 @@ component
 alpha
 -
 aware
-opererator
+operator
 "
 over
 "

@@ -59,7 +59,7 @@ MPL
 #
 define
 VECS_PER_SPECIFIC_BRUSH
-2
+0
 #
 define
 FORCE_NO_PERSPECTIVE
@@ -111,6 +111,8 @@ RectWithSize
 local_rect
 ivec3
 user_data
+mat4
+transform
 PictureTask
 pic_task
 )

@@ -434,9 +434,7 @@ float
 current_distance
 =
 -
-1
-.
-0
+aa_range
 ;
 /
 /

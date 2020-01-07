@@ -332,13 +332,9 @@ Ok
 PayloadSender
 {
 tx
-:
-tx
 }
 PayloadReceiver
 {
-rx
-:
 rx
 }
 )
@@ -388,13 +384,9 @@ Ok
 MsgSender
 {
 tx
-:
-tx
 }
 MsgReceiver
 {
-rx
-:
 rx
 }
 )

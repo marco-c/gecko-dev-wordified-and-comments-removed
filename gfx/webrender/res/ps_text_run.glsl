@@ -333,6 +333,8 @@ compute_snap_offset
 (
 clamped_local_pos
 scroll_node
+.
+transform
 snap_rect
 )
 ;

@@ -2872,8 +2872,8 @@ compute_snap_offset
 (
 vec2
 local_pos
-ClipScrollNode
-scroll_node
+mat4
+transform
 RectWithSize
 snap_rect
 )
@@ -3005,8 +3005,6 @@ space
 vec4
 world_snap_p0
 =
-scroll_node
-.
 transform
 *
 vec4
@@ -3025,8 +3023,6 @@ p0
 vec4
 world_snap_p1
 =
-scroll_node
-.
 transform
 *
 vec4
@@ -3275,6 +3271,8 @@ compute_snap_offset
 (
 clamped_local_pos
 scroll_node
+.
+transform
 snap_rect
 )
 ;

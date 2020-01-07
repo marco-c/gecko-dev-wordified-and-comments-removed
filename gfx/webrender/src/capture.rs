@@ -26,7 +26,6 @@ api
 {
 CaptureBits
 ExternalImageData
-ExternalImageId
 ImageDescriptor
 TexelRect
 }
@@ -718,13 +717,9 @@ data
 :
 String
 pub
-id
+external
 :
-ExternalImageId
-pub
-channel_index
-:
-u8
+ExternalImageData
 pub
 uv
 :
