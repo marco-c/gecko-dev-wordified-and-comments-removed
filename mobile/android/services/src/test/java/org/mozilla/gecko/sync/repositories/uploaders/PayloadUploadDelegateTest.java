@@ -676,6 +676,14 @@ newVersion
 }
 Override
 public
+void
+onBatchCommitted
+(
+)
+{
+}
+Override
+public
 RepositorySessionStoreDelegate
 deferredStoreDelegate
 (

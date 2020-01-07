@@ -63,6 +63,11 @@ Exception
 e
 )
 ;
+void
+onBatchCommitted
+(
+)
+;
 RepositorySessionStoreDelegate
 deferredStoreDelegate
 (
