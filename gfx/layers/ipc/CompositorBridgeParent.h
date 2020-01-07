@@ -1658,6 +1658,10 @@ SurfaceDescriptor
 &
 aSharedData
 const
+ReadLockDescriptor
+&
+aReadLock
+const
 LayersBackend
 &
 aLayersBackend

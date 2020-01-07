@@ -331,4 +331,13 @@ return
 newHandle
 ;
 }
+void
+CrossProcessSemaphore
+:
+:
+CloseHandle
+(
+)
+{
+}
 }

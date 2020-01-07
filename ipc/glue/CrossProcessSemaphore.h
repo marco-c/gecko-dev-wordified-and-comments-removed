@@ -193,6 +193,11 @@ ProcessId
 aTargetPid
 )
 ;
+void
+CloseHandle
+(
+)
+;
 private
 :
 friend

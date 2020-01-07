@@ -391,6 +391,11 @@ TextureFlags
 :
 :
 IMMEDIATE_UPLOAD
+|
+TextureFlags
+:
+:
+NON_BLOCKING_READ_LOCK
 )
 ;
 }

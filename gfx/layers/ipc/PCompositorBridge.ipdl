@@ -1960,6 +1960,8 @@ PTexture
 (
 SurfaceDescriptor
 aSharedData
+ReadLockDescriptor
+aReadLock
 LayersBackend
 aBackend
 TextureFlags

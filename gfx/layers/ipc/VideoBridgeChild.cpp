@@ -291,6 +291,9 @@ const
 SurfaceDescriptor
 &
 const
+ReadLockDescriptor
+&
+const
 LayersBackend
 &
 const
@@ -378,6 +381,10 @@ const
 SurfaceDescriptor
 &
 aSharedData
+const
+ReadLockDescriptor
+&
+aReadLock
 LayersBackend
 aLayersBackend
 TextureFlags
@@ -406,6 +413,7 @@ return
 SendPTextureConstructor
 (
 aSharedData
+aReadLock
 aLayersBackend
 aFlags
 aSerial
