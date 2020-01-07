@@ -980,7 +980,7 @@ push
 -
 to
 -
-staging
+nightly
 '
 }
 "
