@@ -702,9 +702,12 @@ val
 .
 f
 =
+*
 (
-double
+float
+*
 )
+&
 fprData
 [
 iCount
@@ -723,7 +726,7 @@ f
 *
 (
 (
-double
+float
 *
 )
 ap
