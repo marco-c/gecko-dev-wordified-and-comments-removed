@@ -5568,9 +5568,6 @@ static
 bool
 ShouldUseStylo
 (
-nsIURI
-*
-aDocumentURI
 nsIPrincipal
 *
 aPrincipal
@@ -5611,9 +5608,6 @@ static
 bool
 ShouldUseStylo
 (
-nsIURI
-*
-aDocumentURI
 nsIPrincipal
 *
 aPrincipal
