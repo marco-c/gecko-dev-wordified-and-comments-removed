@@ -28,6 +28,7 @@ size
 =
 count
 )
+;
 }
 add_task
 (

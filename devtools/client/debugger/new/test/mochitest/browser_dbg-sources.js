@@ -164,6 +164,7 @@ js
 "
 )
 ;
+await
 assertSourceCount
 (
 dbg
@@ -180,6 +181,7 @@ sourceArrow
 2
 )
 ;
+await
 assertSourceCount
 (
 dbg
@@ -196,6 +198,7 @@ sourceArrow
 3
 )
 ;
+await
 assertSourceCount
 (
 dbg

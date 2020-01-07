@@ -469,6 +469,7 @@ actions
 jumpToMappedSelectedLocation
 (
 )
+;
 await
 stepOver
 (
@@ -494,6 +495,7 @@ actions
 jumpToMappedSelectedLocation
 (
 )
+;
 await
 stepOut
 (
