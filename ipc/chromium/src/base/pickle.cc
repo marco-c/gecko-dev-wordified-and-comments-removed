@@ -2498,6 +2498,7 @@ length
 #
 ifdef
 MOZ_PICKLE_SENTINEL_CHECKING
+MOZ_NEVER_INLINE
 bool
 Pickle
 :
