@@ -14361,18 +14361,6 @@ pref
 "
 network
 .
-dir
-.
-format
-"
-2
-)
-;
-pref
-(
-"
-network
-.
 prefetch
 -
 next
@@ -37699,7 +37687,7 @@ tabhide
 .
 enabled
 "
-true
+false
 )
 ;
 pref
