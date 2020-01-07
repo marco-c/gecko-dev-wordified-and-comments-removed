@@ -573,7 +573,6 @@ inline
 bool
 IsForwarded
 (
-const
 T
 *
 t
@@ -602,7 +601,6 @@ T
 *
 Forwarded
 (
-const
 T
 *
 t

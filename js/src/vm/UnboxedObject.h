@@ -144,12 +144,6 @@ return
 type
 =
 =
-JSVAL_TYPE_STRING
-|
-|
-type
-=
-=
 JSVAL_TYPE_OBJECT
 ;
 }

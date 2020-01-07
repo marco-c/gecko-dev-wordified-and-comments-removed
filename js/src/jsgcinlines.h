@@ -707,7 +707,7 @@ traceKind
 )
 ;
 return
-reinterpret_cast
+static_cast
 <
 T
 *

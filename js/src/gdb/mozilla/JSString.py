@@ -79,12 +79,12 @@ ROPE_FLAGS
         
 self
 .
-NON_ATOM_BIT
+ATOM_BIT
 =
 dummy
 [
 '
-NON_ATOM_BIT
+ATOM_BIT
 '
 ]
         
