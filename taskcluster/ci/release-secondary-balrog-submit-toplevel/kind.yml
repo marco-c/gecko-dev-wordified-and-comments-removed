@@ -199,7 +199,7 @@ require
 -
 mirrors
 :
-true
+false
 platforms
 :
 [
