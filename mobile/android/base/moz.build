@@ -3676,13 +3676,6 @@ java
 '
 gfx
 /
-FullScreenState
-.
-java
-'
-'
-gfx
-/
 GeckoDisplay
 .
 java
@@ -3712,13 +3705,6 @@ java
 gfx
 /
 LayerSession
-.
-java
-'
-'
-gfx
-/
-LayerView
 .
 java
 '
