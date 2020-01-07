@@ -150,7 +150,7 @@ nsISupports
 *
 *
 *
-decodeImageBuffer
+decodeImageFromBuffer
 *
 Caller
 provides
@@ -217,7 +217,7 @@ stream
 *
 /
 imgIContainer
-decodeImageBuffer
+decodeImageFromBuffer
 (
 in
 string

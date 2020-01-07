@@ -1826,7 +1826,7 @@ data
 =
 imageTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 image
 image

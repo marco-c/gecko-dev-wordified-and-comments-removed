@@ -627,7 +627,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -889,7 +889,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -1183,7 +1183,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -1441,7 +1441,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -1973,7 +1973,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -3058,7 +3058,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -3296,7 +3296,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -3448,7 +3448,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer

@@ -3665,7 +3665,7 @@ GetImgTools
 )
 -
 >
-DecodeImageBuffer
+DecodeImageFromBuffer
 (
 payload
 .
