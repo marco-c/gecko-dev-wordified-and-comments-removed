@@ -131,10 +131,13 @@ mozilla
 dom
 :
 :
-DOMPreferences
+network
 :
 :
-NetworkInformationEnabled
+Connection
+:
+:
+IsEnabled
 "
 Throws
 ]

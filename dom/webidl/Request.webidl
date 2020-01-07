@@ -177,7 +177,7 @@ mozilla
 dom
 :
 :
-DOMPreferences
+Request
 :
 :
 RequestContextEnabled
@@ -352,16 +352,10 @@ signal
 Func
 =
 "
-mozilla
+FetchObserver
 :
 :
-dom
-:
-:
-DOMPreferences
-:
-:
-FetchObserverEnabled
+IsEnabled
 "
 ]
 ObserverCallback

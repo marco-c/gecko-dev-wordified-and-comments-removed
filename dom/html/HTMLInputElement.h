@@ -5016,6 +5016,12 @@ aDateTimeInputType
 ;
 static
 bool
+IsWebkitDirPickerEnabled
+(
+)
+;
+static
+bool
 IsWebkitFileSystemEnabled
 (
 )

@@ -160,10 +160,13 @@ mozilla
 dom
 :
 :
-DOMPreferences
+cache
 :
 :
-DOMCachesEnabled
+Cache
+:
+:
+PrefEnabled
 "
 ]
 interface
