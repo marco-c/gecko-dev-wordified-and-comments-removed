@@ -1452,6 +1452,10 @@ sNextID
 +
 +
 ;
+if
+(
+aImageContainer
+)
 {
 MutexAutoLock
 lock
