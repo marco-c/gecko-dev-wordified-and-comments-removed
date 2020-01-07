@@ -52,6 +52,11 @@ GuardIsObjectOrNull
 \
 _
 (
+GuardIsBoolean
+)
+\
+_
+(
 GuardIsString
 )
 \
