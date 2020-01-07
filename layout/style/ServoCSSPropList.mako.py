@@ -156,7 +156,7 @@ result
 append
 (
 "
-EnabledInUASheetsAndChrome
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS_AND_CHROME
 "
 )
     
@@ -173,7 +173,7 @@ result
 append
 (
 "
-EnabledInUASheets
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 )
     
@@ -189,7 +189,7 @@ result
 append
 (
 "
-Internal
+CSS_PROPERTY_INTERNAL
 "
 )
     
@@ -208,7 +208,7 @@ result
 append
 (
 "
-Inaccessible
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 )
     
@@ -227,7 +227,7 @@ result
 append
 (
 "
-GetCSNeedsLayoutFlush
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 )
     
@@ -246,7 +246,7 @@ result
 append
 (
 "
-CanAnimateOnCompositor
+CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
 "
 )
     
@@ -258,9 +258,6 @@ join
 (
 '
 "
-CSSPropFlags
-:
-:
 {
 }
 "

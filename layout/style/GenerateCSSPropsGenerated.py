@@ -187,10 +187,7 @@ properties
         
 if
 "
-CSSPropFlags
-:
-:
-Internal
+CSS_PROPERTY_INTERNAL
 "
 in
 p

@@ -492,10 +492,7 @@ data
 is_internal
 =
 "
-CSSPropFlags
-:
-:
-Internal
+CSS_PROPERTY_INTERNAL
 "
 in
 flags
@@ -610,10 +607,7 @@ else
 flags
 =
 "
-CSSPropFlags
-(
 0
-)
 "
             
 params

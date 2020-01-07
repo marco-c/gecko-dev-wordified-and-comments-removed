@@ -452,10 +452,7 @@ PropHasFlags
 TransitionProperty
 (
 )
-CSSPropFlags
-:
-:
-CanAnimateOnCompositor
+CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
 )
 "
 The

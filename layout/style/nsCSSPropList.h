@@ -8,6 +8,7 @@ CSS_PROP_SHORTHAND
 name_
 id_
 method_
+flags_
 pref_
 )
 #
@@ -43,6 +44,7 @@ CSS_PROP_
 name_
 id_
 method_
+flags_
 pref_
 parsevariant_
 kwtable_
@@ -52,6 +54,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 pref_
 parsevariant_
 kwtable_
@@ -65,6 +68,7 @@ CSS_PROP_
 name_
 id_
 method_
+flags_
 pref_
 parsevariant_
 kwtable_
@@ -78,6 +82,7 @@ align
 content
 align_content
 AlignContent
+0
 "
 "
 VARIANT_HK
@@ -90,6 +95,7 @@ align
 items
 align_items
 AlignItems
+0
 "
 "
 VARIANT_HK
@@ -102,6 +108,7 @@ align
 self
 align_self
 AlignSelf
+0
 "
 "
 VARIANT_HK
@@ -112,6 +119,7 @@ CSS_PROP_SHORTHAND
 all
 all
 All
+0
 "
 layout
 .
@@ -129,6 +137,7 @@ CSS_PROP_SHORTHAND
 animation
 animation
 Animation
+0
 "
 "
 )
@@ -139,6 +148,7 @@ animation
 delay
 animation_delay
 AnimationDelay
+0
 "
 "
 VARIANT_TIME
@@ -151,6 +161,7 @@ animation
 direction
 animation_direction
 AnimationDirection
+0
 "
 "
 VARIANT_KEYWORD
@@ -163,6 +174,7 @@ animation
 duration
 animation_duration
 AnimationDuration
+0
 "
 "
 VARIANT_TIME
@@ -179,6 +191,7 @@ fill
 mode
 animation_fill_mode
 AnimationFillMode
+0
 "
 "
 VARIANT_KEYWORD
@@ -193,6 +206,7 @@ iteration
 count
 animation_iteration_count
 AnimationIterationCount
+0
 "
 "
 VARIANT_KEYWORD
@@ -207,6 +221,7 @@ animation
 name
 animation_name
 AnimationName
+0
 "
 "
 VARIANT_NONE
@@ -225,6 +240,7 @@ play
 state
 animation_play_state
 AnimationPlayState
+0
 "
 "
 VARIANT_KEYWORD
@@ -239,6 +255,7 @@ timing
 function
 animation_timing_function
 AnimationTimingFunction
+0
 "
 "
 VARIANT_KEYWORD
@@ -257,6 +274,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 Appearance
 )
+0
 "
 "
 VARIANT_HK
@@ -269,6 +287,7 @@ backface
 visibility
 backface_visibility
 BackfaceVisibility
+0
 "
 "
 VARIANT_HK
@@ -279,6 +298,7 @@ CSS_PROP_SHORTHAND
 background
 background
 Background
+0
 "
 "
 )
@@ -289,6 +309,7 @@ background
 attachment
 background_attachment
 BackgroundAttachment
+0
 "
 "
 VARIANT_KEYWORD
@@ -303,6 +324,7 @@ blend
 mode
 background_blend_mode
 BackgroundBlendMode
+0
 "
 layout
 .
@@ -326,6 +348,7 @@ background
 clip
 background_clip
 BackgroundClip
+0
 "
 "
 VARIANT_KEYWORD
@@ -338,6 +361,7 @@ background
 color
 background_color
 BackgroundColor
+0
 "
 "
 VARIANT_HC
@@ -350,6 +374,7 @@ background
 image
 background_image
 BackgroundImage
+0
 "
 "
 VARIANT_IMAGE
@@ -362,6 +387,7 @@ background
 origin
 background_origin
 BackgroundOrigin
+0
 "
 "
 VARIANT_KEYWORD
@@ -374,6 +400,7 @@ background
 position
 background_position
 BackgroundPosition
+0
 "
 "
 )
@@ -386,6 +413,7 @@ position
 x
 background_position_x
 BackgroundPositionX
+0
 "
 "
 0
@@ -400,6 +428,7 @@ position
 y
 background_position_y
 BackgroundPositionY
+0
 "
 "
 0
@@ -412,6 +441,7 @@ background
 repeat
 background_repeat
 BackgroundRepeat
+0
 "
 "
 VARIANT_KEYWORD
@@ -424,6 +454,7 @@ background
 size
 background_size
 BackgroundSize
+0
 "
 "
 0
@@ -440,6 +471,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 Binding
 )
+0
 "
 "
 VARIANT_HUO
@@ -452,6 +484,7 @@ block
 size
 block_size
 BlockSize
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -464,6 +497,7 @@ CSS_PROP_SHORTHAND
 border
 border
 Border
+0
 "
 "
 )
@@ -476,6 +510,7 @@ block
 end
 border_block_end
 BorderBlockEnd
+0
 "
 "
 )
@@ -490,6 +525,7 @@ end
 color
 border_block_end_color
 BorderBlockEndColor
+0
 "
 "
 VARIANT_HC
@@ -506,6 +542,7 @@ end
 style
 border_block_end_style
 BorderBlockEndStyle
+0
 "
 "
 VARIANT_HK
@@ -522,6 +559,7 @@ end
 width
 border_block_end_width
 BorderBlockEndWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -538,6 +576,7 @@ block
 start
 border_block_start
 BorderBlockStart
+0
 "
 "
 )
@@ -552,6 +591,7 @@ start
 color
 border_block_start_color
 BorderBlockStartColor
+0
 "
 "
 VARIANT_HC
@@ -568,6 +608,7 @@ start
 style
 border_block_start_style
 BorderBlockStartStyle
+0
 "
 "
 VARIANT_HK
@@ -584,6 +625,7 @@ start
 width
 border_block_start_width
 BorderBlockStartWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -598,6 +640,7 @@ border
 bottom
 border_bottom
 BorderBottom
+0
 "
 "
 )
@@ -610,6 +653,7 @@ bottom
 color
 border_bottom_color
 BorderBottomColor
+0
 "
 "
 VARIANT_HC
@@ -626,6 +670,7 @@ left
 radius
 border_bottom_left_radius
 BorderBottomLeftRadius
+0
 "
 "
 0
@@ -642,6 +687,7 @@ right
 radius
 border_bottom_right_radius
 BorderBottomRightRadius
+0
 "
 "
 0
@@ -656,6 +702,7 @@ bottom
 style
 border_bottom_style
 BorderBottomStyle
+0
 "
 "
 VARIANT_HK
@@ -670,6 +717,7 @@ bottom
 width
 border_bottom_width
 BorderBottomWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -684,6 +732,7 @@ border
 collapse
 border_collapse
 BorderCollapse
+0
 "
 "
 VARIANT_HK
@@ -696,6 +745,7 @@ border
 color
 border_color
 BorderColor
+0
 "
 "
 )
@@ -706,6 +756,7 @@ border
 image
 border_image
 BorderImage
+0
 "
 "
 )
@@ -718,6 +769,7 @@ image
 outset
 border_image_outset
 BorderImageOutset
+0
 "
 "
 0
@@ -732,6 +784,7 @@ image
 repeat
 border_image_repeat
 BorderImageRepeat
+0
 "
 "
 0
@@ -746,6 +799,7 @@ image
 slice
 border_image_slice
 BorderImageSlice
+0
 "
 "
 0
@@ -760,6 +814,7 @@ image
 source
 border_image_source
 BorderImageSource
+0
 "
 "
 VARIANT_IMAGE
@@ -776,6 +831,7 @@ image
 width
 border_image_width
 BorderImageWidth
+0
 "
 "
 0
@@ -790,6 +846,7 @@ inline
 end
 border_inline_end
 BorderInlineEnd
+0
 "
 "
 )
@@ -804,6 +861,7 @@ end
 color
 border_inline_end_color
 BorderInlineEndColor
+0
 "
 "
 VARIANT_HC
@@ -820,6 +878,7 @@ end
 style
 border_inline_end_style
 BorderInlineEndStyle
+0
 "
 "
 VARIANT_HK
@@ -836,6 +895,7 @@ end
 width
 border_inline_end_width
 BorderInlineEndWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -852,6 +912,7 @@ inline
 start
 border_inline_start
 BorderInlineStart
+0
 "
 "
 )
@@ -866,6 +927,7 @@ start
 color
 border_inline_start_color
 BorderInlineStartColor
+0
 "
 "
 VARIANT_HC
@@ -882,6 +944,7 @@ start
 style
 border_inline_start_style
 BorderInlineStartStyle
+0
 "
 "
 VARIANT_HK
@@ -898,6 +961,7 @@ start
 width
 border_inline_start_width
 BorderInlineStartWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -912,6 +976,7 @@ border
 left
 border_left
 BorderLeft
+0
 "
 "
 )
@@ -924,6 +989,7 @@ left
 color
 border_left_color
 BorderLeftColor
+0
 "
 "
 VARIANT_HC
@@ -938,6 +1004,7 @@ left
 style
 border_left_style
 BorderLeftStyle
+0
 "
 "
 VARIANT_HK
@@ -952,6 +1019,7 @@ left
 width
 border_left_width
 BorderLeftWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -966,6 +1034,7 @@ border
 radius
 border_radius
 BorderRadius
+0
 "
 "
 )
@@ -976,6 +1045,7 @@ border
 right
 border_right
 BorderRight
+0
 "
 "
 )
@@ -988,6 +1058,7 @@ right
 color
 border_right_color
 BorderRightColor
+0
 "
 "
 VARIANT_HC
@@ -1002,6 +1073,7 @@ right
 style
 border_right_style
 BorderRightStyle
+0
 "
 "
 VARIANT_HK
@@ -1016,6 +1088,7 @@ right
 width
 border_right_width
 BorderRightWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -1030,6 +1103,7 @@ border
 spacing
 border_spacing
 BorderSpacing
+0
 "
 "
 0
@@ -1042,6 +1116,7 @@ border
 style
 border_style
 BorderStyle
+0
 "
 "
 )
@@ -1052,6 +1127,7 @@ border
 top
 border_top
 BorderTop
+0
 "
 "
 )
@@ -1064,6 +1140,7 @@ top
 color
 border_top_color
 BorderTopColor
+0
 "
 "
 VARIANT_HC
@@ -1080,6 +1157,7 @@ left
 radius
 border_top_left_radius
 BorderTopLeftRadius
+0
 "
 "
 0
@@ -1096,6 +1174,7 @@ right
 radius
 border_top_right_radius
 BorderTopRightRadius
+0
 "
 "
 0
@@ -1110,6 +1189,7 @@ top
 style
 border_top_style
 BorderTopStyle
+0
 "
 "
 VARIANT_HK
@@ -1124,6 +1204,7 @@ top
 width
 border_top_width
 BorderTopWidth
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HKL
@@ -1138,6 +1219,7 @@ border
 width
 border_width
 BorderWidth
+0
 "
 "
 )
@@ -1146,6 +1228,7 @@ CSS_PROP_
 bottom
 bottom
 Bottom
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -1166,6 +1249,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 BoxAlign
 )
+0
 "
 "
 VARIANT_HK
@@ -1180,6 +1264,7 @@ decoration
 break
 box_decoration_break
 BoxDecorationBreak
+0
 "
 layout
 .
@@ -1209,6 +1294,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 BoxDirection
 )
+0
 "
 "
 VARIANT_HK
@@ -1227,6 +1313,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 BoxFlex
 )
+0
 "
 "
 VARIANT_HN
@@ -1247,6 +1334,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 BoxOrdinalGroup
 )
+0
 "
 "
 VARIANT_HI
@@ -1265,6 +1353,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 BoxOrient
 )
+0
 "
 "
 VARIANT_HK
@@ -1283,6 +1372,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 BoxPack
 )
+0
 "
 "
 VARIANT_HK
@@ -1295,6 +1385,7 @@ box
 shadow
 box_shadow
 BoxShadow
+0
 "
 "
 VARIANT_COLOR
@@ -1315,6 +1406,7 @@ box
 sizing
 box_sizing
 BoxSizing
+0
 "
 "
 VARIANT_HK
@@ -1327,6 +1419,7 @@ caption
 side
 caption_side
 CaptionSide
+0
 "
 "
 VARIANT_HK
@@ -1339,6 +1432,7 @@ caret
 color
 caret_color
 CaretColor
+0
 "
 "
 VARIANT_AUTO
@@ -1351,6 +1445,7 @@ CSS_PROP_
 clear
 clear
 Clear
+0
 "
 "
 VARIANT_HK
@@ -1361,6 +1456,7 @@ CSS_PROP_
 clip
 clip
 Clip
+0
 "
 "
 VARIANT_AH
@@ -1373,6 +1469,7 @@ clip
 path
 clip_path
 ClipPath
+0
 "
 "
 VARIANT_HUO
@@ -1385,6 +1482,7 @@ clip
 rule
 clip_rule
 ClipRule
+0
 "
 "
 VARIANT_HK
@@ -1395,6 +1493,7 @@ CSS_PROP_
 color
 color
 Color
+0
 "
 "
 VARIANT_HC
@@ -1407,6 +1506,7 @@ color
 adjust
 color_adjust
 ColorAdjust
+0
 "
 layout
 .
@@ -1428,6 +1528,7 @@ color
 interpolation
 color_interpolation
 ColorInterpolation
+0
 "
 "
 VARIANT_HK
@@ -1442,6 +1543,7 @@ interpolation
 filters
 color_interpolation_filters
 ColorInterpolationFilters
+0
 "
 "
 VARIANT_HK
@@ -1454,6 +1556,7 @@ column
 count
 column_count
 ColumnCount
+0
 "
 "
 VARIANT_AHI
@@ -1466,6 +1569,7 @@ column
 fill
 column_fill
 ColumnFill
+0
 "
 "
 VARIANT_HK
@@ -1478,6 +1582,7 @@ column
 gap
 column_gap
 ColumnGap
+0
 "
 "
 VARIANT_HLP
@@ -1494,6 +1599,7 @@ column
 rule
 column_rule
 ColumnRule
+0
 "
 "
 )
@@ -1506,6 +1612,7 @@ rule
 color
 column_rule_color
 ColumnRuleColor
+0
 "
 "
 VARIANT_HC
@@ -1520,6 +1627,7 @@ rule
 style
 column_rule_style
 ColumnRuleStyle
+0
 "
 "
 VARIANT_HK
@@ -1534,6 +1642,7 @@ rule
 width
 column_rule_width
 ColumnRuleWidth
+0
 "
 "
 VARIANT_HKL
@@ -1548,6 +1657,7 @@ column
 span
 column_span
 ColumnSpan
+0
 "
 layout
 .
@@ -1569,6 +1679,7 @@ column
 width
 column_width
 ColumnWidth
+0
 "
 "
 VARIANT_AHL
@@ -1581,6 +1692,7 @@ CSS_PROP_SHORTHAND
 columns
 columns
 Columns
+0
 "
 "
 )
@@ -1589,6 +1701,7 @@ CSS_PROP_
 contain
 contain
 Contain
+0
 "
 layout
 .
@@ -1608,6 +1721,7 @@ CSS_PROP_
 content
 content
 Content
+0
 "
 "
 VARIANT_HMK
@@ -1637,6 +1751,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ContextProperties
 )
+CSS_PROPERTY_INTERNAL
 "
 "
 0
@@ -1657,6 +1772,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ControlCharacterVisibility
 )
+CSS_PROPERTY_INTERNAL
 "
 "
 VARIANT_HK
@@ -1671,6 +1787,7 @@ counter
 increment
 counter_increment
 CounterIncrement
+0
 "
 "
 VARIANT_INHERIT
@@ -1685,6 +1802,7 @@ counter
 reset
 counter_reset
 CounterReset
+0
 "
 "
 VARIANT_INHERIT
@@ -1697,6 +1815,7 @@ CSS_PROP_
 cursor
 cursor
 Cursor
+0
 "
 "
 0
@@ -1710,6 +1829,7 @@ CSS_PROP_
 direction
 direction
 Direction
+0
 "
 "
 VARIANT_HK
@@ -1722,6 +1842,7 @@ CSS_PROP_
 display
 display
 Display
+0
 "
 "
 VARIANT_HK
@@ -1734,6 +1855,7 @@ dominant
 baseline
 dominant_baseline
 DominantBaseline
+0
 "
 "
 VARIANT_HK
@@ -1746,6 +1868,7 @@ empty
 cells
 empty_cells
 EmptyCells
+0
 "
 "
 VARIANT_HK
@@ -1756,6 +1879,7 @@ CSS_PROP_
 fill
 fill
 Fill
+0
 "
 "
 0
@@ -1768,6 +1892,7 @@ fill
 opacity
 fill_opacity
 FillOpacity
+0
 "
 "
 VARIANT_HN
@@ -1782,6 +1907,7 @@ fill
 rule
 fill_rule
 FillRule
+0
 "
 "
 VARIANT_HK
@@ -1792,6 +1918,7 @@ CSS_PROP_
 filter
 filter
 Filter
+0
 "
 "
 0
@@ -1802,6 +1929,7 @@ CSS_PROP_SHORTHAND
 flex
 flex
 Flex
+0
 "
 "
 )
@@ -1812,6 +1940,7 @@ flex
 basis
 flex_basis
 FlexBasis
+0
 "
 "
 VARIANT_AHKLP
@@ -1826,6 +1955,7 @@ flex
 direction
 flex_direction
 FlexDirection
+0
 "
 "
 VARIANT_HK
@@ -1838,6 +1968,7 @@ flex
 flow
 flex_flow
 FlexFlow
+0
 "
 "
 )
@@ -1848,6 +1979,7 @@ flex
 grow
 flex_grow
 FlexGrow
+0
 "
 "
 VARIANT_HN
@@ -1860,6 +1992,7 @@ flex
 shrink
 flex_shrink
 FlexShrink
+0
 "
 "
 VARIANT_HN
@@ -1872,6 +2005,7 @@ flex
 wrap
 flex_wrap
 FlexWrap
+0
 "
 "
 VARIANT_HK
@@ -1886,6 +2020,7 @@ CSS_PROP_PUBLIC_OR_PRIVATE
 CssFloat
 Float
 )
+0
 "
 "
 VARIANT_HK
@@ -1904,6 +2039,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 FloatEdge
 )
+0
 "
 "
 VARIANT_HK
@@ -1916,6 +2052,7 @@ flood
 color
 flood_color
 FloodColor
+0
 "
 "
 VARIANT_HC
@@ -1928,6 +2065,7 @@ flood
 opacity
 flood_opacity
 FloodOpacity
+0
 "
 "
 VARIANT_HN
@@ -1938,6 +2076,7 @@ CSS_PROP_SHORTHAND
 font
 font
 Font
+0
 "
 "
 )
@@ -1948,6 +2087,7 @@ font
 family
 font_family
 FontFamily
+0
 "
 "
 0
@@ -1962,6 +2102,7 @@ feature
 settings
 font_feature_settings
 FontFeatureSettings
+0
 "
 "
 0
@@ -1974,6 +2115,7 @@ font
 kerning
 font_kerning
 FontKerning
+0
 "
 "
 VARIANT_HK
@@ -1988,6 +2130,7 @@ language
 override
 font_language_override
 FontLanguageOverride
+0
 "
 "
 VARIANT_NORMAL
@@ -2006,6 +2149,7 @@ optical
 sizing
 font_optical_sizing
 FontOpticalSizing
+0
 "
 layout
 .
@@ -2027,6 +2171,7 @@ font
 size
 font_size
 FontSize
+0
 "
 "
 VARIANT_HKLP
@@ -2045,6 +2190,7 @@ size
 adjust
 font_size_adjust
 FontSizeAdjust
+0
 "
 "
 VARIANT_HON
@@ -2072,6 +2218,9 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 FontSmoothingBackgroundColor
 )
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS_AND_CHROME
 "
 "
 VARIANT_HC
@@ -2086,6 +2235,7 @@ font
 stretch
 font_stretch
 FontStretch
+0
 "
 "
 VARIANT_HK
@@ -2102,6 +2252,7 @@ font
 style
 font_style
 FontStyle
+0
 "
 "
 VARIANT_HK
@@ -2116,6 +2267,7 @@ font
 synthesis
 font_synthesis
 FontSynthesis
+0
 "
 "
 0
@@ -2128,6 +2280,7 @@ font
 variant
 font_variant
 FontVariant
+0
 "
 "
 )
@@ -2140,6 +2293,7 @@ variant
 alternates
 font_variant_alternates
 FontVariantAlternates
+0
 "
 "
 0
@@ -2154,6 +2308,7 @@ variant
 caps
 font_variant_caps
 FontVariantCaps
+0
 "
 "
 VARIANT_HMK
@@ -2170,6 +2325,7 @@ east
 asian
 font_variant_east_asian
 FontVariantEastAsian
+0
 "
 "
 0
@@ -2184,6 +2340,7 @@ variant
 ligatures
 font_variant_ligatures
 FontVariantLigatures
+0
 "
 "
 0
@@ -2198,6 +2355,7 @@ variant
 numeric
 font_variant_numeric
 FontVariantNumeric
+0
 "
 "
 0
@@ -2212,6 +2370,7 @@ variant
 position
 font_variant_position
 FontVariantPosition
+0
 "
 "
 VARIANT_HMK
@@ -2226,6 +2385,7 @@ variation
 settings
 font_variation_settings
 FontVariationSettings
+0
 "
 layout
 .
@@ -2247,6 +2407,7 @@ font
 weight
 font_weight
 FontWeight
+0
 "
 "
 0
@@ -2269,6 +2430,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ForceBrokenImageIcon
 )
+0
 "
 "
 VARIANT_HI
@@ -2279,6 +2441,7 @@ CSS_PROP_SHORTHAND
 gap
 gap
 Gap
+0
 "
 "
 )
@@ -2287,6 +2450,7 @@ CSS_PROP_SHORTHAND
 grid
 grid
 Grid
+0
 "
 "
 )
@@ -2297,6 +2461,7 @@ grid
 area
 grid_area
 GridArea
+0
 "
 "
 )
@@ -2309,6 +2474,7 @@ auto
 columns
 grid_auto_columns
 GridAutoColumns
+0
 "
 "
 0
@@ -2323,6 +2489,7 @@ auto
 flow
 grid_auto_flow
 GridAutoFlow
+0
 "
 "
 0
@@ -2337,6 +2504,7 @@ auto
 rows
 grid_auto_rows
 GridAutoRows
+0
 "
 "
 0
@@ -2349,6 +2517,7 @@ grid
 column
 grid_column
 GridColumn
+0
 "
 "
 )
@@ -2361,6 +2530,7 @@ column
 end
 grid_column_end
 GridColumnEnd
+0
 "
 "
 0
@@ -2375,6 +2545,7 @@ column
 start
 grid_column_start
 GridColumnStart
+0
 "
 "
 0
@@ -2387,6 +2558,7 @@ grid
 row
 grid_row
 GridRow
+0
 "
 "
 )
@@ -2399,6 +2571,7 @@ row
 end
 grid_row_end
 GridRowEnd
+0
 "
 "
 0
@@ -2413,6 +2586,7 @@ row
 start
 grid_row_start
 GridRowStart
+0
 "
 "
 0
@@ -2425,6 +2599,7 @@ grid
 template
 grid_template
 GridTemplate
+0
 "
 "
 )
@@ -2437,6 +2612,7 @@ template
 areas
 grid_template_areas
 GridTemplateAreas
+0
 "
 "
 0
@@ -2451,6 +2627,7 @@ template
 columns
 grid_template_columns
 GridTemplateColumns
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
@@ -2465,6 +2642,7 @@ template
 rows
 grid_template_rows
 GridTemplateRows
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
@@ -2475,6 +2653,7 @@ CSS_PROP_
 height
 height
 Height
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHKLP
@@ -2487,6 +2666,7 @@ CSS_PROP_
 hyphens
 hyphens
 Hyphens
+0
 "
 "
 VARIANT_HK
@@ -2499,6 +2679,7 @@ image
 orientation
 image_orientation
 ImageOrientation
+0
 "
 layout
 .
@@ -2526,6 +2707,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ImageRegion
 )
+0
 "
 "
 0
@@ -2538,6 +2720,7 @@ image
 rendering
 image_rendering
 ImageRendering
+0
 "
 "
 VARIANT_HK
@@ -2550,6 +2733,7 @@ ime
 mode
 ime_mode
 ImeMode
+0
 "
 "
 VARIANT_HK
@@ -2562,6 +2746,7 @@ initial
 letter
 initial_letter
 InitialLetter
+0
 "
 layout
 .
@@ -2583,6 +2768,7 @@ inline
 size
 inline_size
 InlineSize
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHKLP
@@ -2595,6 +2781,7 @@ CSS_PROP_
 isolation
 isolation
 Isolation
+0
 "
 layout
 .
@@ -2614,6 +2801,7 @@ justify
 content
 justify_content
 JustifyContent
+0
 "
 "
 VARIANT_HK
@@ -2626,6 +2814,7 @@ justify
 items
 justify_items
 JustifyItems
+0
 "
 "
 VARIANT_HK
@@ -2638,6 +2827,7 @@ justify
 self
 justify_self
 JustifySelf
+0
 "
 "
 VARIANT_HK
@@ -2657,6 +2847,9 @@ x
 lang
 _x_lang
 Lang
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
@@ -2671,6 +2864,7 @@ CSS_PROP_
 left
 left
 Left
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2685,6 +2879,7 @@ letter
 spacing
 letter_spacing
 LetterSpacing
+0
 "
 "
 VARIANT_HL
@@ -2701,6 +2896,7 @@ lighting
 color
 lighting_color
 LightingColor
+0
 "
 "
 VARIANT_HC
@@ -2713,6 +2909,7 @@ line
 height
 line_height
 LineHeight
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLPN
@@ -2733,6 +2930,7 @@ list
 style
 list_style
 ListStyle
+0
 "
 "
 )
@@ -2745,6 +2943,7 @@ style
 image
 list_style_image
 ListStyleImage
+0
 "
 "
 VARIANT_HUO
@@ -2759,6 +2958,7 @@ style
 position
 list_style_position
 ListStylePosition
+0
 "
 "
 VARIANT_HK
@@ -2773,6 +2973,7 @@ style
 type
 list_style_type
 ListStyleType
+0
 "
 "
 0
@@ -2783,6 +2984,7 @@ CSS_PROP_SHORTHAND
 margin
 margin
 Margin
+0
 "
 "
 )
@@ -2795,6 +2997,7 @@ block
 end
 margin_block_end
 MarginBlockEnd
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2811,6 +3014,7 @@ block
 start
 margin_block_start
 MarginBlockStart
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2825,6 +3029,7 @@ margin
 bottom
 margin_bottom
 MarginBottom
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2841,6 +3046,7 @@ inline
 end
 margin_inline_end
 MarginInlineEnd
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2857,6 +3063,7 @@ inline
 start
 margin_inline_start
 MarginInlineStart
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2871,6 +3078,7 @@ margin
 left
 margin_left
 MarginLeft
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2885,6 +3093,7 @@ margin
 right
 margin_right
 MarginRight
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2899,6 +3108,7 @@ margin
 top
 margin_top
 MarginTop
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -2911,6 +3121,7 @@ CSS_PROP_SHORTHAND
 marker
 marker
 Marker
+0
 "
 "
 )
@@ -2921,6 +3132,7 @@ marker
 end
 marker_end
 MarkerEnd
+0
 "
 "
 VARIANT_HUO
@@ -2933,6 +3145,7 @@ marker
 mid
 marker_mid
 MarkerMid
+0
 "
 "
 VARIANT_HUO
@@ -2945,6 +3158,7 @@ marker
 start
 marker_start
 MarkerStart
+0
 "
 "
 VARIANT_HUO
@@ -2955,6 +3169,7 @@ CSS_PROP_SHORTHAND
 mask
 mask
 Mask
+0
 "
 "
 )
@@ -2965,6 +3180,7 @@ mask
 clip
 mask_clip
 MaskClip
+0
 "
 "
 VARIANT_KEYWORD
@@ -2977,6 +3193,7 @@ mask
 composite
 mask_composite
 MaskComposite
+0
 "
 "
 VARIANT_KEYWORD
@@ -2989,6 +3206,7 @@ mask
 image
 mask_image
 MaskImage
+0
 "
 "
 VARIANT_IMAGE
@@ -3001,6 +3219,7 @@ mask
 mode
 mask_mode
 MaskMode
+0
 "
 "
 VARIANT_KEYWORD
@@ -3013,6 +3232,7 @@ mask
 origin
 mask_origin
 MaskOrigin
+0
 "
 "
 VARIANT_KEYWORD
@@ -3025,6 +3245,7 @@ mask
 position
 mask_position
 MaskPosition
+0
 "
 "
 )
@@ -3037,6 +3258,7 @@ position
 x
 mask_position_x
 MaskPositionX
+0
 "
 "
 0
@@ -3051,6 +3273,7 @@ position
 y
 mask_position_y
 MaskPositionY
+0
 "
 "
 0
@@ -3063,6 +3286,7 @@ mask
 repeat
 mask_repeat
 MaskRepeat
+0
 "
 "
 VARIANT_KEYWORD
@@ -3075,6 +3299,7 @@ mask
 size
 mask_size
 MaskSize
+0
 "
 "
 0
@@ -3087,6 +3312,7 @@ mask
 type
 mask_type
 MaskType
+0
 "
 "
 VARIANT_HK
@@ -3108,6 +3334,9 @@ math
 display
 _moz_math_display
 MathDisplay
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 "
 VARIANT_HK
@@ -3123,6 +3352,9 @@ math
 variant
 _moz_math_variant
 MathVariant
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 VARIANT_HK
@@ -3141,6 +3373,7 @@ block
 size
 max_block_size
 MaxBlockSize
+0
 "
 "
 VARIANT_HLPO
@@ -3155,6 +3388,7 @@ max
 height
 max_height
 MaxHeight
+0
 "
 "
 VARIANT_HKLPO
@@ -3171,6 +3405,7 @@ inline
 size
 max_inline_size
 MaxInlineSize
+0
 "
 "
 VARIANT_HKLPO
@@ -3185,6 +3420,7 @@ max
 width
 max_width
 MaxWidth
+0
 "
 "
 VARIANT_HKLPO
@@ -3201,6 +3437,7 @@ block
 size
 min_block_size
 MinBlockSize
+0
 "
 "
 VARIANT_AHLP
@@ -3228,6 +3465,9 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 MinFontSizeRatio
 )
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 "
 VARIANT_INHERIT
@@ -3244,6 +3484,7 @@ min
 height
 min_height
 MinHeight
+0
 "
 "
 VARIANT_AHKLP
@@ -3260,6 +3501,7 @@ inline
 size
 min_inline_size
 MinInlineSize
+0
 "
 "
 VARIANT_AHKLP
@@ -3274,6 +3516,7 @@ min
 width
 min_width
 MinWidth
+0
 "
 "
 VARIANT_AHKLP
@@ -3290,6 +3533,7 @@ blend
 mode
 mix_blend_mode
 MixBlendMode
+0
 "
 layout
 .
@@ -3313,6 +3557,7 @@ object
 fit
 object_fit
 ObjectFit
+0
 "
 "
 VARIANT_HK
@@ -3325,6 +3570,7 @@ object
 position
 object_position
 ObjectPosition
+0
 "
 "
 VARIANT_CALC
@@ -3339,6 +3585,7 @@ block
 end
 offset_block_end
 OffsetBlockEnd
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -3355,6 +3602,7 @@ block
 start
 offset_block_start
 OffsetBlockStart
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -3371,6 +3619,7 @@ inline
 end
 offset_inline_end
 OffsetInlineEnd
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -3387,6 +3636,7 @@ inline
 start
 offset_inline_start
 OffsetInlineStart
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -3399,6 +3649,7 @@ CSS_PROP_
 opacity
 opacity
 Opacity
+CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
 "
 "
 VARIANT_HN
@@ -3409,6 +3660,7 @@ CSS_PROP_
 order
 order
 Order
+0
 "
 "
 VARIANT_HI
@@ -3425,6 +3677,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 Orient
 )
+0
 "
 "
 VARIANT_HK
@@ -3445,6 +3698,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OsxFontSmoothing
 )
+0
 "
 layout
 .
@@ -3466,6 +3720,7 @@ CSS_PROP_SHORTHAND
 outline
 outline
 Outline
+0
 "
 "
 )
@@ -3476,6 +3731,7 @@ outline
 color
 outline_color
 OutlineColor
+0
 "
 "
 VARIANT_HC
@@ -3488,6 +3744,7 @@ outline
 offset
 outline_offset
 OutlineOffset
+0
 "
 "
 VARIANT_HL
@@ -3508,6 +3765,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadius
 )
+0
 "
 "
 )
@@ -3526,6 +3784,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusBottomleft
 )
+0
 "
 "
 0
@@ -3546,6 +3805,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusBottomright
 )
+0
 "
 "
 0
@@ -3566,6 +3826,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusTopleft
 )
+0
 "
 "
 0
@@ -3586,6 +3847,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusTopright
 )
+0
 "
 "
 0
@@ -3598,6 +3860,7 @@ outline
 style
 outline_style
 OutlineStyle
+0
 "
 "
 VARIANT_HK
@@ -3610,6 +3873,7 @@ outline
 width
 outline_width
 OutlineWidth
+0
 "
 "
 VARIANT_HKL
@@ -3622,6 +3886,7 @@ CSS_PROP_SHORTHAND
 overflow
 overflow
 Overflow
+0
 "
 "
 )
@@ -3634,6 +3899,7 @@ clip
 box
 overflow_clip_box
 OverflowClipBox
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 layout
 .
@@ -3659,6 +3925,7 @@ box
 block
 overflow_clip_box_block
 OverflowClipBoxBlock
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 layout
 .
@@ -3686,6 +3953,7 @@ box
 inline
 overflow_clip_box_inline
 OverflowClipBoxInline
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 layout
 .
@@ -3709,6 +3977,7 @@ overflow
 wrap
 overflow_wrap
 OverflowWrap
+0
 "
 "
 VARIANT_HK
@@ -3721,6 +3990,7 @@ overflow
 x
 overflow_x
 OverflowX
+0
 "
 "
 VARIANT_HK
@@ -3733,6 +4003,7 @@ overflow
 y
 overflow_y
 OverflowY
+0
 "
 "
 VARIANT_HK
@@ -3745,6 +4016,7 @@ overscroll
 behavior
 overscroll_behavior
 OverscrollBehavior
+0
 "
 layout
 .
@@ -3766,6 +4038,7 @@ behavior
 x
 overscroll_behavior_x
 OverscrollBehaviorX
+0
 "
 layout
 .
@@ -3789,6 +4062,7 @@ behavior
 y
 overscroll_behavior_y
 OverscrollBehaviorY
+0
 "
 layout
 .
@@ -3808,6 +4082,7 @@ CSS_PROP_SHORTHAND
 padding
 padding
 Padding
+0
 "
 "
 )
@@ -3820,6 +4095,7 @@ block
 end
 padding_block_end
 PaddingBlockEnd
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3836,6 +4112,7 @@ block
 start
 padding_block_start
 PaddingBlockStart
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3850,6 +4127,7 @@ padding
 bottom
 padding_bottom
 PaddingBottom
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3866,6 +4144,7 @@ inline
 end
 padding_inline_end
 PaddingInlineEnd
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3882,6 +4161,7 @@ inline
 start
 padding_inline_start
 PaddingInlineStart
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3896,6 +4176,7 @@ padding
 left
 padding_left
 PaddingLeft
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3910,6 +4191,7 @@ padding
 right
 padding_right
 PaddingRight
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3924,6 +4206,7 @@ padding
 top
 padding_top
 PaddingTop
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_HLP
@@ -3940,6 +4223,7 @@ break
 after
 page_break_after
 PageBreakAfter
+0
 "
 "
 VARIANT_HK
@@ -3954,6 +4238,7 @@ break
 before
 page_break_before
 PageBreakBefore
+0
 "
 "
 VARIANT_HK
@@ -3968,6 +4253,7 @@ break
 inside
 page_break_inside
 PageBreakInside
+0
 "
 "
 VARIANT_HK
@@ -3980,6 +4266,7 @@ paint
 order
 paint_order
 PaintOrder
+0
 "
 "
 0
@@ -3990,6 +4277,7 @@ CSS_PROP_
 perspective
 perspective
 Perspective
+0
 "
 "
 VARIANT_NONE
@@ -4008,6 +4296,7 @@ perspective
 origin
 perspective_origin
 PerspectiveOrigin
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_CALC
@@ -4020,6 +4309,7 @@ place
 content
 place_content
 PlaceContent
+0
 "
 "
 )
@@ -4030,6 +4320,7 @@ place
 items
 place_items
 PlaceItems
+0
 "
 "
 )
@@ -4040,6 +4331,7 @@ place
 self
 place_self
 PlaceSelf
+0
 "
 "
 )
@@ -4050,6 +4342,7 @@ pointer
 events
 pointer_events
 PointerEvents
+0
 "
 "
 VARIANT_HK
@@ -4060,6 +4353,7 @@ CSS_PROP_
 position
 position
 Position
+0
 "
 "
 VARIANT_HK
@@ -4070,6 +4364,7 @@ CSS_PROP_
 quotes
 quotes
 Quotes
+0
 "
 "
 VARIANT_HOS
@@ -4080,6 +4375,7 @@ CSS_PROP_
 resize
 resize
 Resize
+0
 "
 "
 VARIANT_HK
@@ -4090,6 +4386,7 @@ CSS_PROP_
 right
 right
 Right
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -4102,6 +4399,7 @@ CSS_PROP_
 rotate
 rotate
 Rotate
+0
 "
 layout
 .
@@ -4123,6 +4421,7 @@ row
 gap
 row_gap
 RowGap
+0
 "
 "
 VARIANT_HLP
@@ -4139,6 +4438,7 @@ ruby
 align
 ruby_align
 RubyAlign
+0
 "
 "
 VARIANT_HK
@@ -4151,6 +4451,7 @@ ruby
 position
 ruby_position
 RubyPosition
+0
 "
 "
 VARIANT_HK
@@ -4161,6 +4462,7 @@ CSS_PROP_
 scale
 scale
 Scale
+0
 "
 layout
 .
@@ -4191,6 +4493,9 @@ script
 level
 _moz_script_level
 ScriptLevel
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 "
 VARIANT_AHI
@@ -4208,6 +4513,9 @@ min
 size
 _moz_script_min_size
 ScriptMinSize
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
@@ -4225,6 +4533,9 @@ size
 multiplier
 _moz_script_size_multiplier
 ScriptSizeMultiplier
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
@@ -4241,6 +4552,7 @@ scroll
 behavior
 scroll_behavior
 ScrollBehavior
+0
 "
 layout
 .
@@ -4266,6 +4578,7 @@ snap
 coordinate
 scroll_snap_coordinate
 ScrollSnapCoordinate
+0
 "
 layout
 .
@@ -4289,6 +4602,7 @@ snap
 destination
 scroll_snap_destination
 ScrollSnapDestination
+0
 "
 layout
 .
@@ -4314,6 +4628,7 @@ points
 x
 scroll_snap_points_x
 ScrollSnapPointsX
+0
 "
 layout
 .
@@ -4339,6 +4654,7 @@ points
 y
 scroll_snap_points_y
 ScrollSnapPointsY
+0
 "
 layout
 .
@@ -4362,6 +4678,7 @@ snap
 type
 scroll_snap_type
 ScrollSnapType
+0
 "
 layout
 .
@@ -4385,6 +4702,7 @@ type
 x
 scroll_snap_type_x
 ScrollSnapTypeX
+0
 "
 layout
 .
@@ -4410,6 +4728,7 @@ type
 y
 scroll_snap_type_y
 ScrollSnapTypeY
+0
 "
 layout
 .
@@ -4433,6 +4752,7 @@ image
 threshold
 shape_image_threshold
 ShapeImageThreshold
+0
 "
 layout
 .
@@ -4454,6 +4774,7 @@ shape
 margin
 shape_margin
 ShapeMargin
+0
 "
 layout
 .
@@ -4477,6 +4798,7 @@ shape
 outside
 shape_outside
 ShapeOutside
+0
 "
 layout
 .
@@ -4498,6 +4820,7 @@ shape
 rendering
 shape_rendering
 ShapeRendering
+0
 "
 "
 VARIANT_HK
@@ -4517,6 +4840,9 @@ x
 span
 _x_span
 Span
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
@@ -4539,6 +4865,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 StackSizing
 )
+0
 "
 "
 VARIANT_HK
@@ -4551,6 +4878,7 @@ stop
 color
 stop_color
 StopColor
+0
 "
 "
 VARIANT_HC
@@ -4563,6 +4891,7 @@ stop
 opacity
 stop_opacity
 StopOpacity
+0
 "
 "
 VARIANT_HN
@@ -4573,6 +4902,7 @@ CSS_PROP_
 stroke
 stroke
 Stroke
+0
 "
 "
 0
@@ -4585,6 +4915,7 @@ stroke
 dasharray
 stroke_dasharray
 StrokeDasharray
+0
 "
 "
 0
@@ -4597,6 +4928,7 @@ stroke
 dashoffset
 stroke_dashoffset
 StrokeDashoffset
+0
 "
 "
 VARIANT_HLPN
@@ -4611,6 +4943,7 @@ stroke
 linecap
 stroke_linecap
 StrokeLinecap
+0
 "
 "
 VARIANT_HK
@@ -4623,6 +4956,7 @@ stroke
 linejoin
 stroke_linejoin
 StrokeLinejoin
+0
 "
 "
 VARIANT_HK
@@ -4635,6 +4969,7 @@ stroke
 miterlimit
 stroke_miterlimit
 StrokeMiterlimit
+0
 "
 "
 VARIANT_HN
@@ -4647,6 +4982,7 @@ stroke
 opacity
 stroke_opacity
 StrokeOpacity
+0
 "
 "
 VARIANT_HN
@@ -4661,6 +4997,7 @@ stroke
 width
 stroke_width
 StrokeWidth
+0
 "
 "
 VARIANT_HLPN
@@ -4681,6 +5018,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 TabSize
 )
+0
 "
 "
 VARIANT_INHERIT
@@ -4695,6 +5033,7 @@ table
 layout
 table_layout
 TableLayout
+0
 "
 "
 VARIANT_HK
@@ -4707,6 +5046,7 @@ text
 align
 text_align
 TextAlign
+0
 "
 "
 VARIANT_HK
@@ -4721,6 +5061,7 @@ align
 last
 text_align_last
 TextAlignLast
+0
 "
 "
 VARIANT_HK
@@ -4733,6 +5074,7 @@ text
 anchor
 text_anchor
 TextAnchor
+0
 "
 "
 VARIANT_HK
@@ -4747,6 +5089,7 @@ combine
 upright
 text_combine_upright
 TextCombineUpright
+0
 "
 layout
 .
@@ -4770,6 +5113,7 @@ text
 decoration
 text_decoration
 TextDecoration
+0
 "
 "
 )
@@ -4782,6 +5126,7 @@ decoration
 color
 text_decoration_color
 TextDecorationColor
+0
 "
 "
 VARIANT_HC
@@ -4796,6 +5141,7 @@ decoration
 line
 text_decoration_line
 TextDecorationLine
+0
 "
 "
 0
@@ -4810,6 +5156,7 @@ decoration
 style
 text_decoration_style
 TextDecorationStyle
+0
 "
 "
 VARIANT_HK
@@ -4822,6 +5169,7 @@ text
 emphasis
 text_emphasis
 TextEmphasis
+0
 "
 "
 )
@@ -4834,6 +5182,7 @@ emphasis
 color
 text_emphasis_color
 TextEmphasisColor
+0
 "
 "
 VARIANT_HC
@@ -4848,6 +5197,7 @@ emphasis
 position
 text_emphasis_position
 TextEmphasisPosition
+0
 "
 "
 0
@@ -4862,6 +5212,7 @@ emphasis
 style
 text_emphasis_style
 TextEmphasisStyle
+0
 "
 "
 0
@@ -4879,6 +5230,7 @@ fill
 color
 _webkit_text_fill_color
 WebkitTextFillColor
+0
 "
 layout
 .
@@ -4898,6 +5250,7 @@ text
 indent
 text_indent
 TextIndent
+0
 "
 "
 VARIANT_HLP
@@ -4912,6 +5265,7 @@ text
 justify
 text_justify
 TextJustify
+0
 "
 layout
 .
@@ -4933,6 +5287,7 @@ text
 orientation
 text_orientation
 TextOrientation
+0
 "
 "
 VARIANT_HK
@@ -4945,6 +5300,7 @@ text
 overflow
 text_overflow
 TextOverflow
+0
 "
 "
 0
@@ -4957,6 +5313,7 @@ text
 rendering
 text_rendering
 TextRendering
+0
 "
 "
 VARIANT_HK
@@ -4969,6 +5326,7 @@ text
 shadow
 text_shadow
 TextShadow
+0
 "
 "
 VARIANT_COLOR
@@ -4997,6 +5355,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 TextSizeAdjust
 )
+0
 "
 "
 VARIANT_HK
@@ -5012,6 +5371,7 @@ text
 stroke
 _webkit_text_stroke
 WebkitTextStroke
+0
 "
 layout
 .
@@ -5034,6 +5394,7 @@ stroke
 color
 _webkit_text_stroke_color
 WebkitTextStrokeColor
+0
 "
 layout
 .
@@ -5058,6 +5419,7 @@ stroke
 width
 _webkit_text_stroke_width
 WebkitTextStrokeWidth
+0
 "
 layout
 .
@@ -5079,6 +5441,7 @@ text
 transform
 text_transform
 TextTransform
+0
 "
 "
 VARIANT_HK
@@ -5100,6 +5463,9 @@ text
 zoom
 _x_text_zoom
 TextZoom
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
 0
@@ -5114,6 +5480,7 @@ CSS_PROP_
 top
 top
 Top
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -5137,6 +5504,9 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 TopLayer
 )
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 "
 VARIANT_HK
@@ -5151,6 +5521,7 @@ touch
 action
 touch_action
 TouchAction
+0
 "
 layout
 .
@@ -5168,6 +5539,9 @@ CSS_PROP_
 transform
 transform
 Transform
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+|
+CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
 "
 "
 0
@@ -5180,6 +5554,7 @@ transform
 box
 transform_box
 TransformBox
+0
 "
 svg
 .
@@ -5199,6 +5574,7 @@ transform
 origin
 transform_origin
 TransformOrigin
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
@@ -5211,6 +5587,7 @@ transform
 style
 transform_style
 TransformStyle
+0
 "
 "
 VARIANT_HK
@@ -5221,6 +5598,7 @@ CSS_PROP_SHORTHAND
 transition
 transition
 Transition
+0
 "
 "
 )
@@ -5231,6 +5609,7 @@ transition
 delay
 transition_delay
 TransitionDelay
+0
 "
 "
 VARIANT_TIME
@@ -5243,6 +5622,7 @@ transition
 duration
 transition_duration
 TransitionDuration
+0
 "
 "
 VARIANT_TIME
@@ -5257,6 +5637,7 @@ transition
 property
 transition_property
 TransitionProperty
+0
 "
 "
 VARIANT_IDENTIFIER
@@ -5275,6 +5656,7 @@ timing
 function
 transition_timing_function
 TransitionTimingFunction
+0
 "
 "
 VARIANT_KEYWORD
@@ -5287,6 +5669,7 @@ CSS_PROP_
 translate
 translate
 Translate
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 layout
 .
@@ -5311,6 +5694,7 @@ unicode
 bidi
 unicode_bidi
 UnicodeBidi
+0
 "
 "
 VARIANT_HK
@@ -5331,6 +5715,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 UserFocus
 )
+0
 "
 "
 VARIANT_HK
@@ -5349,6 +5734,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 UserInput
 )
+0
 "
 "
 VARIANT_HK
@@ -5367,6 +5753,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 UserModify
 )
+0
 "
 "
 VARIANT_HK
@@ -5385,6 +5772,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 UserSelect
 )
+0
 "
 "
 VARIANT_HK
@@ -5397,6 +5785,7 @@ vector
 effect
 vector_effect
 VectorEffect
+0
 "
 "
 VARIANT_HK
@@ -5409,6 +5798,7 @@ vertical
 align
 vertical_align
 VerticalAlign
+0
 "
 "
 VARIANT_HKLP
@@ -5421,6 +5811,7 @@ CSS_PROP_
 visibility
 visibility
 Visibility
+0
 "
 "
 VARIANT_HK
@@ -5433,6 +5824,7 @@ white
 space
 white_space
 WhiteSpace
+0
 "
 "
 VARIANT_HK
@@ -5443,6 +5835,7 @@ CSS_PROP_
 width
 width
 Width
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHKLP
@@ -5457,6 +5850,7 @@ will
 change
 will_change
 WillChange
+0
 "
 "
 0
@@ -5475,6 +5869,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 WindowDragging
 )
+0
 "
 "
 VARIANT_HK
@@ -5496,6 +5891,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 WindowOpacity
 )
+CSS_PROPERTY_INTERNAL
 "
 "
 VARIANT_HN
@@ -5514,6 +5910,9 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 WindowShadow
 )
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_ENABLED_IN_UA_SHEETS_AND_CHROME
 "
 "
 VARIANT_HK
@@ -5532,6 +5931,9 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 WindowTransform
 )
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
@@ -5552,6 +5954,9 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 WindowTransformOrigin
 )
+CSS_PROPERTY_INTERNAL
+|
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 0
@@ -5566,6 +5971,7 @@ word
 break
 word_break
 WordBreak
+0
 "
 "
 VARIANT_HK
@@ -5578,6 +5984,7 @@ word
 spacing
 word_spacing
 WordSpacing
+0
 "
 "
 VARIANT_HLP
@@ -5594,6 +6001,7 @@ writing
 mode
 writing_mode
 WritingMode
+0
 "
 "
 VARIANT_HK
@@ -5606,6 +6014,7 @@ z
 index
 z_index
 ZIndex
+0
 "
 "
 VARIANT_AHI

@@ -88,10 +88,7 @@ propList
         
 if
 "
-CSSPropFlags
-:
-:
-Internal
+CSS_PROPERTY_INTERNAL
 "
 in
 flags
