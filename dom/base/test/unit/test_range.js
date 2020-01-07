@@ -10,13 +10,6 @@ NodeFilter
 )
 ;
 const
-C_i
-=
-Components
-.
-interfaces
-;
-const
 UNORDERED_TYPE
 =
 8
@@ -167,7 +160,7 @@ ok
 (
 aContextNode
 instanceof
-C_i
+Ci
 .
 nsIDOMDocumentFragment
 )
@@ -616,7 +609,7 @@ ok
 (
 aSourceNode
 instanceof
-C_i
+Ci
 .
 nsIDOMElement
 )
@@ -627,7 +620,7 @@ ok
 (
 aFragment
 instanceof
-C_i
+Ci
 .
 nsIDOMDocumentFragment
 )
@@ -790,7 +783,7 @@ ok
 (
 doc
 instanceof
-C_i
+Ci
 .
 nsIDOMDocument
 )
@@ -1678,7 +1671,7 @@ endContainer
 (
 startContainer
 instanceof
-C_i
+Ci
 .
 nsIDOMText
 )
@@ -1815,7 +1808,7 @@ newOffset
 =
 startContainer
 instanceof
-C_i
+Ci
 .
 nsIDOMText
 ?
@@ -2137,7 +2130,7 @@ ok
 (
 doc
 instanceof
-C_i
+Ci
 .
 nsIDOMDocument
 )
@@ -2211,7 +2204,7 @@ frag
 .
 firstChild
 instanceof
-C_i
+Ci
 .
 nsIDOMComment
 )

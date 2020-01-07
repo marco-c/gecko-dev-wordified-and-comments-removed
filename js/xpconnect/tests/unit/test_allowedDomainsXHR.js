@@ -1,11 +1,4 @@
-var
-cu
-=
-Components
-.
-utils
-;
-cu
+Cu
 .
 import
 (
@@ -101,7 +94,7 @@ root
 var
 sb
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -356,7 +349,7 @@ start
 4446
 )
 ;
-cu
+Cu
 .
 evalInSandbox
 (
@@ -377,7 +370,7 @@ sb
 var
 res
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -463,7 +456,7 @@ requestURL
 ;
 try
 {
-cu
+Cu
 .
 evalInSandbox
 (
@@ -484,7 +477,7 @@ sb
 var
 res
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -546,7 +539,7 @@ true
 )
 ;
 }
-cu
+Cu
 .
 evalInSandbox
 (
@@ -567,7 +560,7 @@ sb
 var
 res
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -681,7 +674,7 @@ finishIfDone
 )
 ;
 }
-cu
+Cu
 .
 evalInSandbox
 (
@@ -732,7 +725,7 @@ finish
 var
 async
 =
-cu
+Cu
 .
 evalInSandbox
 (

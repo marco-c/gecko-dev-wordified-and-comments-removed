@@ -4,16 +4,9 @@ run_test
 )
 {
 var
-cu
-=
-Components
-.
-utils
-;
-var
 sb
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -28,7 +21,7 @@ false
 var
 rv
 =
-cu
+Cu
 .
 evalInSandbox
 (

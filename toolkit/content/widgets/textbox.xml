@@ -4932,13 +4932,6 @@ _spellCheckInitialized
 =
 true
 ;
-const
-CI
-=
-Components
-.
-interfaces
-;
 if
 (
 ChromeUtils
@@ -4976,7 +4969,7 @@ textbox
 (
 textbox
 instanceof
-CI
+Ci
 .
 nsIDOMXULTextBoxElement
 )

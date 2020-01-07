@@ -1,14 +1,4 @@
 var
-Ci
-=
-Components
-.
-interfaces
-Cc
-=
-Components
-.
-classes
 CC
 =
 Components

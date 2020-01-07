@@ -270,16 +270,9 @@ Bug
 *
 /
 var
-cu
-=
-Components
-.
-utils
-;
-var
 sb
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -312,7 +305,7 @@ calls
 var
 xhr
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -384,7 +377,7 @@ e
 ;
 is
 (
-cu
+Cu
 .
 evalInSandbox
 (

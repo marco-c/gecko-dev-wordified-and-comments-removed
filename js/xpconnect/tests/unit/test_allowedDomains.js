@@ -4,16 +4,9 @@ run_test
 )
 {
 var
-cu
-=
-Components
-.
-utils
-;
-var
 sbMaster
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -57,7 +50,7 @@ com
 var
 sbSubset
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -90,7 +83,7 @@ com
 var
 sbA
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -110,7 +103,7 @@ com
 var
 sbB
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -130,7 +123,7 @@ com
 var
 sbC
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -151,7 +144,7 @@ sbMaster
 .
 objA
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -174,7 +167,7 @@ sbMaster
 .
 objB
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -197,7 +190,7 @@ sbMaster
 .
 objC
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -220,7 +213,7 @@ sbMaster
 .
 objOwn
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -243,7 +236,7 @@ sbMaster
 .
 objSubset
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -266,7 +259,7 @@ sbA
 .
 objMaster
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -289,7 +282,7 @@ sbSubset
 .
 objMaster
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -313,7 +306,7 @@ ret
 ;
 ret
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -335,7 +328,7 @@ ret
 ;
 ret
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -357,7 +350,7 @@ ret
 ;
 ret
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -388,7 +381,7 @@ try
 {
 ret
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -473,7 +466,7 @@ sbMaster
 .
 Components
 =
-cu
+Cu
 .
 getComponentsForScope
 (
