@@ -1701,14 +1701,9 @@ doc
 createTreeWalker
 (
 this
-1
-/
-*
 NodeFilter
 .
 SHOW_ELEMENT
-*
-/
 this
 .
 _filterRadioGroup
