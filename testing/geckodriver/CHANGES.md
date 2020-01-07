@@ -59,7 +59,6 @@ for
 debugging
 Marionette
 internals
-.
 -
 Introduced
 the
@@ -80,7 +79,6 @@ calculating
 the
 Pointer
 Origin
-.
 #
 #
 #
@@ -136,6 +134,17 @@ force
 killing
 the
 process
+#
+#
+#
+Fixed
+-
+Improved
+error
+messages
+for
+malformed
+capabilities
 0
 .
 19
