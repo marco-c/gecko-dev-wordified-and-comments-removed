@@ -1214,6 +1214,11 @@ AutoLockHelperThreadState
 )
 ;
 void
+waitForAllThreads
+(
+)
+;
+void
 waitForAllThreadsLocked
 (
 AutoLockHelperThreadState
@@ -1239,11 +1244,6 @@ const
 ;
 private
 :
-void
-waitForAllThreads
-(
-)
-;
 js
 :
 :
