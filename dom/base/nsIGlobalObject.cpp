@@ -641,8 +641,10 @@ const
 {
 AutoTArray
 <
+RefPtr
+<
 DOMEventTargetHelper
-*
+>
 64
 >
 targetList
