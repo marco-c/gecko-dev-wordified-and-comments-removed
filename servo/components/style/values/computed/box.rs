@@ -62,6 +62,7 @@ box_
 AnimationName
 Display
 OverflowClipBox
+Contain
 }
 ;
 pub
