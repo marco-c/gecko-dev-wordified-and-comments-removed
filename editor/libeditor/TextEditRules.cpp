@@ -6667,9 +6667,11 @@ rv
 textEditor
 -
 >
-SetAttribute
+SetAttributeWithTransaction
 (
+*
 brElement
+*
 nsGkAtoms
 :
 :
