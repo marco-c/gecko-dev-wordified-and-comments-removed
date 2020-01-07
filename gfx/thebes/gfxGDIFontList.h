@@ -1265,8 +1265,7 @@ nsAString
 aFamily
 nsTArray
 <
-gfxFontFamily
-*
+FamilyAndGeneric
 >
 *
 aOutput
