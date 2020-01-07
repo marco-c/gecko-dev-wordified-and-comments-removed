@@ -111,11 +111,13 @@ ErrorResult
 rv
 )
 {
-rv
-=
+nsGenericDOMDataNode
+:
+:
 GetWholeText
 (
 aWholeText
+rv
 )
 ;
 }
