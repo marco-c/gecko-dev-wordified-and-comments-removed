@@ -3027,13 +3027,6 @@ RemoveDataEntries
 (
 )
 {
-MOZ_ASSERT
-(
-XRE_IsContentProcess
-(
-)
-)
-;
 if
 (
 !
