@@ -699,12 +699,6 @@ UpdatePrincipal
 (
 )
 ;
-int64_t
-GetOffset
-(
-)
-const
-;
 nsresult
 ParseContentRangeHeader
 (
@@ -777,12 +771,6 @@ uint32_t
 mLoadID
 =
 0
-;
-int64_t
-mPendingSeekOffset
-=
--
-1
 ;
 bool
 mIsLiveStream

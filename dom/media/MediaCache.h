@@ -277,12 +277,6 @@ GetLength
 )
 ;
 int64_t
-GetOffset
-(
-)
-const
-;
-int64_t
 GetResourceID
 (
 )
