@@ -523,6 +523,9 @@ bool
 mForceAllowDataURI
 ;
 bool
+mOriginalFrameSrcLoad
+;
+bool
 mForceInheritPrincipalDropped
 ;
 uint64_t

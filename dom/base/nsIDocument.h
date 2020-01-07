@@ -9859,14 +9859,9 @@ eTriTrue
 Tri
 mAllowXULXBL
 ;
-#
-ifdef
-DEBUG
 bool
 mIsLinkUpdateRegistrationsForbidden
 ;
-#
-endif
 nsCOMPtr
 <
 nsIScriptGlobalObject
