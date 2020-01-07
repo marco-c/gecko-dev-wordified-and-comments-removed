@@ -25,6 +25,8 @@ server
 actors
 /
 inspector
+/
+inspector
 "
 )
 ;
