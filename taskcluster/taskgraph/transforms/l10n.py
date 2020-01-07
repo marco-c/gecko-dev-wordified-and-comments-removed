@@ -269,12 +269,9 @@ paths
 '
 )
 :
-_by_platform
-(
 [
 basestring
 ]
-)
         
 Required
 (
