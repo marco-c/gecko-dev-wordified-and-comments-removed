@@ -766,7 +766,7 @@ rpc
 :
 :
 {
-NodeScrollRootIdResponse
+NodeScrollIdResponse
 ResolvedStyleResponse
 TextIndexResponse
 }
@@ -1230,7 +1230,7 @@ webrender_api
 :
 :
 {
-ClipId
+ExternalScrollId
 DocumentId
 }
 ;
@@ -6642,7 +6642,7 @@ pipeline_id
 (
 )
 .
-root_scroll_node
+root_scroll_id
 (
 )
 behavior
@@ -6662,9 +6662,9 @@ f32
 y
 :
 f32
-scroll_root_id
+scroll_id
 :
-ClipId
+ExternalScrollId
 _behavior
 :
 ScrollBehavior
@@ -6690,9 +6690,7 @@ UpdateScrollStateFromScript
 (
 ScrollState
 {
-scroll_root_id
-:
-scroll_root_id
+scroll_id
 scroll_offset
 :
 Vector2D
@@ -8314,7 +8312,7 @@ reflow
 ReflowGoal
 :
 :
-NodeScrollRootIdQuery
+NodeScrollIdQuery
 (
 node
 .
@@ -8361,16 +8359,16 @@ f32
 )
 ;
 let
-NodeScrollRootIdResponse
+NodeScrollIdResponse
 (
-scroll_root_id
+scroll_id
 )
 =
 self
 .
 layout_rpc
 .
-node_scroll_root_id
+node_scroll_id
 (
 )
 ;
@@ -8402,7 +8400,7 @@ unwrap_or
 .
 0f32
 )
-scroll_root_id
+scroll_id
 behavior
 None
 )
@@ -11352,7 +11350,7 @@ tNodeScrollGeometryQuery
 ReflowGoal
 :
 :
-NodeScrollRootIdQuery
+NodeScrollIdQuery
 (
 _n
 )
@@ -11360,7 +11358,7 @@ _n
 >
 "
 \
-tNodeScrollRootIdQuery
+tNodeScrollIdQuery
 "
 ReflowGoal
 :

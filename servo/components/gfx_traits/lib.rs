@@ -274,14 +274,14 @@ BeforePseudoContent
 AfterPseudoContent
 }
 static
-NEXT_SPECIAL_STACKING_CONTEXT_ID
+NEXT_SPECIAL_SCROLL_ROOT_ID
 :
 AtomicUsize
 =
 ATOMIC_USIZE_INIT
 ;
 const
-SPECIAL_STACKING_CONTEXT_ID_MASK
+SPECIAL_SCROLL_ROOT_ID_MASK
 :
 usize
 =
@@ -297,7 +297,7 @@ usize
 {
 (
 (
-NEXT_SPECIAL_STACKING_CONTEXT_ID
+NEXT_SPECIAL_SCROLL_ROOT_ID
 .
 fetch_add
 (
@@ -315,7 +315,7 @@ SeqCst
 2
 )
 &
-SPECIAL_STACKING_CONTEXT_ID_MASK
+SPECIAL_SCROLL_ROOT_ID_MASK
 }
 pub
 fn
@@ -371,7 +371,7 @@ usize
 }
 pub
 fn
-node_id_from_clip_id
+node_id_from_scroll_id
 (
 id
 :
@@ -389,7 +389,7 @@ if
 id
 &
 !
-SPECIAL_STACKING_CONTEXT_ID_MASK
+SPECIAL_SCROLL_ROOT_ID_MASK
 )
 !
 =

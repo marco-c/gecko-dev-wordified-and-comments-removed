@@ -426,7 +426,7 @@ webrender_api
 :
 :
 {
-ClipId
+ExternalScrollId
 DevicePixel
 DocumentId
 ImageKey
@@ -2662,9 +2662,9 @@ struct
 ScrollState
 {
 pub
-scroll_root_id
+scroll_id
 :
-ClipId
+ExternalScrollId
 pub
 scroll_offset
 :

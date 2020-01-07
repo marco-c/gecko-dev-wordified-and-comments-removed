@@ -340,7 +340,7 @@ ContentBoxesQuery
 (
 TrustedNodeAddress
 )
-NodeScrollRootIdQuery
+NodeScrollIdQuery
 (
 TrustedNodeAddress
 )
@@ -469,7 +469,7 @@ _
 ReflowGoal
 :
 :
-NodeScrollRootIdQuery
+NodeScrollIdQuery
 (
 _
 )
@@ -570,7 +570,7 @@ _
 ReflowGoal
 :
 :
-NodeScrollRootIdQuery
+NodeScrollIdQuery
 (
 _
 )
