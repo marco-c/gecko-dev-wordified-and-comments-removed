@@ -168,10 +168,14 @@ print_postdata
 .
 sjs
 "
+{
+flags
+:
 0
-null
-null
+postData
+:
 postStream
+}
 )
 ;
 BrowserTestUtils
