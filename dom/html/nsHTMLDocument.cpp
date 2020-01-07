@@ -6548,12 +6548,15 @@ GetWrapperPreserveColor
 MOZ_ASSERT_IF
 (
 wrapper
-JS_GetCompartmentPrincipals
+JS
+:
+:
+GetRealmPrincipals
 (
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 wrapper
 )
