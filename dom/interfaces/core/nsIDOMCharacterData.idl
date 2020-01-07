@@ -175,12 +175,6 @@ nsIDOMCharacterData
 :
 nsIDOMNode
 {
-readonly
-attribute
-unsigned
-long
-length
-;
 void
 insertData
 (
