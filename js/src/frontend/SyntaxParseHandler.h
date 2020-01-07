@@ -45,6 +45,15 @@ ParseNode
 .
 h
 "
+#
+include
+"
+js
+/
+GCAnnotations
+.
+h
+"
 namespace
 js
 {
@@ -2281,6 +2290,7 @@ node
 {
 }
 }
+JS_HAZ_ROOTED
 ;
 }
 }
