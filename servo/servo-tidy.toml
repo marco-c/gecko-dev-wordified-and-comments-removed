@@ -17,6 +17,13 @@ licenses
 false
 check
 -
+alphabetical
+-
+order
+=
+true
+check
+-
 ordered
 -
 json
