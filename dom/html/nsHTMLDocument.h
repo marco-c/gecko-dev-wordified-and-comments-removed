@@ -1226,6 +1226,16 @@ Clear
 const
 {
 }
+void
+CaptureEvents
+(
+)
+;
+void
+ReleaseEvents
+(
+)
+;
 already_AddRefed
 <
 mozilla
