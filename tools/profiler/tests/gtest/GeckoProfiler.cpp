@@ -2080,7 +2080,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 (
 "
 "
-LAYOUT
+CSS
 okstr1
 .
 get
@@ -2093,7 +2093,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 "
 okstr2
 "
-LAYOUT
+CSS
 okstr2
 .
 get
@@ -2105,7 +2105,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_CSTR
 (
 "
 "
-LAYOUT
+CSS
 longstr
 .
 get
@@ -3269,7 +3269,7 @@ ProfilingStackFrame
 Category
 :
 :
-DOM
+STORAGE
 )
 ;
 AutoProfilerLabel

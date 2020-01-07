@@ -15605,7 +15605,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 "
-LAYOUT
+GRAPHICS
 )
 ;
 nsresult
@@ -15692,7 +15692,7 @@ nsLayoutUtils
 :
 GetFramesForArea
 "
-LAYOUT
+GRAPHICS
 )
 ;
 nsDisplayListBuilder

@@ -2721,7 +2721,7 @@ Connection
 :
 initialize
 "
-OTHER
+STORAGE
 )
 ;
 int
@@ -2825,7 +2825,7 @@ Connection
 :
 initialize
 "
-OTHER
+STORAGE
 )
 ;
 mDatabaseFile
@@ -3002,7 +3002,7 @@ Connection
 :
 initialize
 "
-OTHER
+STORAGE
 )
 ;
 nsCOMPtr
@@ -5975,7 +5975,7 @@ Connection
 :
 AsyncClone
 "
-OTHER
+STORAGE
 )
 ;
 NS_ENSURE_TRUE
@@ -7072,7 +7072,7 @@ Connection
 :
 Clone
 "
-OTHER
+STORAGE
 )
 ;
 if

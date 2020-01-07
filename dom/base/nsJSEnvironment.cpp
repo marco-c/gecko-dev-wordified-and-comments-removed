@@ -4994,7 +4994,7 @@ nsJSContext
 :
 GarbageCollectNow
 "
-GCCC
+GC
 JS
 :
 :
@@ -5200,7 +5200,7 @@ AUTO_PROFILER_LABEL
 "
 FinishAnyIncrementalGC
 "
-GCCC
+GC
 )
 ;
 if
@@ -6217,7 +6217,7 @@ nsJSContext
 :
 CycleCollectNow
 "
-GCCC
+CC
 )
 ;
 gCCStats
@@ -6290,7 +6290,7 @@ nsJSContext
 :
 RunCycleCollectorSlice
 "
-GCCC
+CC
 )
 ;
 gCCStats
@@ -6579,7 +6579,7 @@ nsJSContext
 :
 RunCycleCollectorWorkSlice
 "
-GCCC
+CC
 )
 ;
 gCCStats

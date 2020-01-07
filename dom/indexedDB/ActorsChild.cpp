@@ -3133,7 +3133,7 @@ IndexedDB
 :
 DispatchErrorEvent
 "
-DOM
+STORAGE
 )
 ;
 RefPtr
@@ -3518,7 +3518,7 @@ IndexedDB
 :
 DispatchSuccessEvent
 "
-DOM
+STORAGE
 )
 ;
 RefPtr

@@ -6913,7 +6913,7 @@ nsRefreshDriver
 :
 Tick
 "
-LAYOUT
+GRAPHICS
 )
 ;
 if

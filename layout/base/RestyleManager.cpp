@@ -5928,7 +5928,7 @@ RestyleManager
 :
 ProcessRestyledFrames
 "
-LAYOUT
+CSS
 )
 ;
 nsPresContext

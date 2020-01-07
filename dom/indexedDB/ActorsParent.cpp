@@ -3454,7 +3454,7 @@ AUTO_PROFILER_LABEL
 "
 MakeCompressedIndexDataValues
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -3926,7 +3926,7 @@ AUTO_PROFILER_LABEL
 "
 ReadCompressedIndexDataValuesFromBlob
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -4504,7 +4504,7 @@ AUTO_PROFILER_LABEL
 "
 CreateFileTables
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -4870,7 +4870,7 @@ AUTO_PROFILER_LABEL
 "
 CreateTables
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -5588,7 +5588,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom4To5
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -6107,7 +6107,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom5To6
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -8249,7 +8249,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom6To7
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -8580,7 +8580,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom7To8
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -8990,7 +8990,7 @@ CompressDataBlobsFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 uint32_t
@@ -9302,7 +9302,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom8To9_0
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -9546,7 +9546,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom9_0To10_0
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -9701,7 +9701,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom10_0To11_0
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -10603,7 +10603,7 @@ EncodeKeysFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 uint32_t
@@ -10886,7 +10886,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom11_0To12_0
 "
-DOM
+STORAGE
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -12257,7 +12257,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom12_0To13_0
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -16570,7 +16570,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom17_0To18_0
 "
-DOM
+STORAGE
 )
 ;
 return
@@ -16609,7 +16609,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom18_0To19_0
 "
-DOM
+STORAGE
 )
 ;
 rv
@@ -17002,7 +17002,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom19_0To20_0
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -17910,7 +17910,7 @@ UpgradeIndexDataValuesFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 uint32_t
@@ -18190,7 +18190,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom20_0To21_0
 "
-DOM
+STORAGE
 )
 ;
 RefPtr
@@ -18424,7 +18424,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom22_0To23_0
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -18698,7 +18698,7 @@ StripObsoleteOriginAttributesFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 #
@@ -18883,7 +18883,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom25_0To26_0
 "
-DOM
+STORAGE
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -20288,7 +20288,7 @@ AUTO_PROFILER_LABEL
 "
 CreateStorageConnection
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -22633,7 +22633,7 @@ AUTO_PROFILER_LABEL
 "
 GetStorageConnection
 "
-DOM
+STORAGE
 )
 ;
 bool
@@ -38913,7 +38913,7 @@ DatabaseConnection
 :
 GetCachedStatement
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -39093,7 +39093,7 @@ DatabaseConnection
 :
 BeginWriteTransaction
 "
-DOM
+STORAGE
 )
 ;
 CachedStatement
@@ -39417,7 +39417,7 @@ DatabaseConnection
 :
 CommitWriteTransaction
 "
-DOM
+STORAGE
 )
 ;
 CachedStatement
@@ -39517,7 +39517,7 @@ DatabaseConnection
 :
 RollbackWriteTransaction
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -39617,7 +39617,7 @@ DatabaseConnection
 :
 FinishWriteTransaction
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -39729,7 +39729,7 @@ DatabaseConnection
 :
 StartSavepoint
 "
-DOM
+STORAGE
 )
 ;
 CachedStatement
@@ -39849,7 +39849,7 @@ DatabaseConnection
 :
 ReleaseSavepoint
 "
-DOM
+STORAGE
 )
 ;
 CachedStatement
@@ -39958,7 +39958,7 @@ DatabaseConnection
 :
 RollbackSavepoint
 "
-DOM
+STORAGE
 )
 ;
 #
@@ -40065,7 +40065,7 @@ DatabaseConnection
 :
 CheckpointInternal
 "
-DOM
+STORAGE
 )
 ;
 nsAutoCString
@@ -40249,7 +40249,7 @@ DatabaseConnection
 :
 DoIdleProcessing
 "
-DOM
+STORAGE
 )
 ;
 DatabaseConnection
@@ -40566,7 +40566,7 @@ DatabaseConnection
 :
 ReclaimFreePagesWhileIdle
 "
-DOM
+STORAGE
 )
 ;
 nsIThread
@@ -40993,7 +40993,7 @@ DatabaseConnection
 :
 GetFreelistCount
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -41164,7 +41164,7 @@ DatabaseConnection
 :
 Close
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -42304,7 +42304,7 @@ UpdateRefcountFunction
 :
 WillCommit
 "
-DOM
+STORAGE
 )
 ;
 DatabaseUpdateFunction
@@ -42470,7 +42470,7 @@ UpdateRefcountFunction
 :
 DidCommit
 "
-DOM
+STORAGE
 )
 ;
 for
@@ -42593,7 +42593,7 @@ UpdateRefcountFunction
 :
 DidAbort
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -43276,7 +43276,7 @@ UpdateRefcountFunction
 :
 ProcessValue
 "
-DOM
+STORAGE
 )
 ;
 int32_t
@@ -43598,7 +43598,7 @@ UpdateRefcountFunction
 :
 CreateJournals
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -43766,7 +43766,7 @@ UpdateRefcountFunction
 :
 RemoveJournals
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -43924,7 +43924,7 @@ UpdateRefcountFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 uint32_t
@@ -44187,7 +44187,7 @@ DatabaseUpdateFunction
 :
 UpdateInternal
 "
-DOM
+STORAGE
 )
 ;
 DatabaseConnection
@@ -44891,7 +44891,7 @@ ConnectionPool
 :
 IdleTimerCallback
 "
-DOM
+STORAGE
 )
 ;
 auto
@@ -45276,7 +45276,7 @@ ConnectionPool
 :
 GetOrCreateConnection
 "
-DOM
+STORAGE
 )
 ;
 DatabaseInfo
@@ -45581,7 +45581,7 @@ ConnectionPool
 :
 Start
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -46015,7 +46015,7 @@ ConnectionPool
 :
 Dispatch
 "
-DOM
+STORAGE
 )
 ;
 TransactionInfo
@@ -46196,7 +46196,7 @@ ConnectionPool
 :
 Finish
 "
-DOM
+STORAGE
 )
 ;
 RefPtr
@@ -46286,7 +46286,7 @@ ConnectionPool
 :
 WaitForDatabasesToComplete
 "
-DOM
+STORAGE
 )
 ;
 bool
@@ -46430,7 +46430,7 @@ ConnectionPool
 :
 Shutdown
 "
-DOM
+STORAGE
 )
 ;
 mShutdownRequested
@@ -46572,7 +46572,7 @@ ConnectionPool
 :
 Cleanup
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -46709,7 +46709,7 @@ ConnectionPool
 :
 AdjustIdleTimer
 "
-DOM
+STORAGE
 )
 ;
 TimeStamp
@@ -47166,7 +47166,7 @@ ConnectionPool
 :
 CloseIdleDatabases
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -47266,7 +47266,7 @@ ConnectionPool
 :
 ShutdownIdleThreads
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -47351,7 +47351,7 @@ ConnectionPool
 :
 ScheduleTransaction
 "
-DOM
+STORAGE
 )
 ;
 DatabaseInfo
@@ -47991,7 +47991,7 @@ ConnectionPool
 :
 NoteFinishedTransaction
 "
-DOM
+STORAGE
 )
 ;
 TransactionInfo
@@ -48419,7 +48419,7 @@ ConnectionPool
 :
 ScheduleQueuedTransactions
 "
-DOM
+STORAGE
 )
 ;
 mIdleThreads
@@ -48572,7 +48572,7 @@ ConnectionPool
 :
 NoteIdleDatabase
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -48696,7 +48696,7 @@ ConnectionPool
 :
 NoteClosedDatabase
 "
-DOM
+STORAGE
 )
 ;
 aDatabaseInfo
@@ -49078,7 +49078,7 @@ ConnectionPool
 :
 MaybeFireCallback
 "
-DOM
+STORAGE
 )
 ;
 for
@@ -49468,7 +49468,7 @@ ConnectionPool
 :
 CloseDatabaseWhenIdleInternal
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -49791,7 +49791,7 @@ CloseConnectionRunnable
 :
 Run
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -50319,7 +50319,7 @@ FinishCallbackWrapper
 :
 Run
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -50560,7 +50560,7 @@ ThreadRunnable
 :
 Run
 "
-DOM
+STORAGE
 )
 ;
 DebugOnly
@@ -53944,7 +53944,7 @@ Database
 :
 EnsureConnection
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -77478,7 +77478,7 @@ UpgradeFileIdsFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 uint32_t
@@ -78234,7 +78234,7 @@ DatabaseOperationBase
 :
 GetStructuredCloneReadInfoFromBlob
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -78466,7 +78466,7 @@ DatabaseOperationBase
 :
 GetStructuredCloneReadInfoFromExternalBlob
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -79537,7 +79537,7 @@ DatabaseOperationBase
 :
 IndexDataValuesFromUpdateInfos
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -79739,7 +79739,7 @@ DatabaseOperationBase
 :
 InsertIndexTableRows
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -80285,7 +80285,7 @@ DatabaseOperationBase
 :
 DeleteIndexDataTableRows
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -80724,7 +80724,7 @@ DatabaseOperationBase
 :
 DeleteObjectStoreDataTableRowsWithIndexes
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -81391,7 +81391,7 @@ DatabaseOperationBase
 :
 UpdateIndexValues
 "
-DOM
+STORAGE
 )
 ;
 UniqueFreePtr
@@ -86251,7 +86251,7 @@ OpenDatabaseOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -92048,7 +92048,7 @@ VersionChangeOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 IDB_LOG_MARK
@@ -92493,7 +92493,7 @@ DeleteDatabaseOp
 :
 LoadPreviousVersion
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -92856,7 +92856,7 @@ DeleteDatabaseOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -93917,7 +93917,7 @@ VersionChangeOp
 :
 DeleteFile
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -94174,7 +94174,7 @@ VersionChangeOp
 :
 RunOnIOThread
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -95569,7 +95569,7 @@ TransactionDatabaseOperationBase
 :
 RunOnConnectionThread
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -97293,7 +97293,7 @@ CommitOp
 :
 Run
 "
-DOM
+STORAGE
 )
 ;
 IDB_LOG_MARK
@@ -97782,7 +97782,7 @@ CommitOp
 :
 TransactionFinishedBeforeUnblock
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -98452,7 +98452,7 @@ CreateFileOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -99024,7 +99024,7 @@ CreateObjectStoreOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -99528,7 +99528,7 @@ DeleteObjectStoreOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -100530,7 +100530,7 @@ RenameObjectStoreOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -100987,7 +100987,7 @@ CreateIndexOp
 :
 InsertDataFromObjectStore
 "
-DOM
+STORAGE
 )
 ;
 nsCOMPtr
@@ -101353,7 +101353,7 @@ CreateIndexOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -102096,7 +102096,7 @@ UpdateIndexDataValuesFunction
 :
 OnFunctionCall
 "
-DOM
+STORAGE
 )
 ;
 #
@@ -103179,7 +103179,7 @@ DeleteIndexOp
 :
 RemoveReferencesToIndex
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -103763,7 +103763,7 @@ DeleteIndexOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 DatabaseConnection
@@ -104977,7 +104977,7 @@ RenameIndexOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -107306,7 +107306,7 @@ ObjectStoreAddOrPutRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 if
@@ -109611,7 +109611,7 @@ ObjectStoreGetRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -110618,7 +110618,7 @@ ObjectStoreGetKeyRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -111206,7 +111206,7 @@ ObjectStoreDeleteRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 DatabaseConnection
@@ -111609,7 +111609,7 @@ ObjectStoreClearRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 DatabaseConnection
@@ -111883,7 +111883,7 @@ ObjectStoreCountRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -112738,7 +112738,7 @@ IndexGetRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -113702,7 +113702,7 @@ IndexGetKeyRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -114252,7 +114252,7 @@ IndexCountRequestOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -115659,7 +115659,7 @@ OpenOp
 :
 DoObjectStoreDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -116338,7 +116338,7 @@ OpenOp
 :
 DoObjectStoreKeyDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -117021,7 +117021,7 @@ OpenOp
 :
 DoIndexDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -118190,7 +118190,7 @@ OpenOp
 :
 DoIndexKeyDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 const
@@ -119321,7 +119321,7 @@ OpenOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 nsresult
@@ -119778,7 +119778,7 @@ ContinueOp
 :
 DoDatabaseWork
 "
-DOM
+STORAGE
 )
 ;
 bool
@@ -123098,7 +123098,7 @@ FileHelper
 :
 SyncCopy
 "
-DOM
+STORAGE
 )
 ;
 nsresult

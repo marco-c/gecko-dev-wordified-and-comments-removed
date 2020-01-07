@@ -8170,7 +8170,7 @@ TabParent
 :
 RecvSyncMessage
 "
-OTHER
+EVENTS
 aMessage
 )
 ;
@@ -8274,7 +8274,7 @@ TabParent
 :
 RecvRpcMessage
 "
-OTHER
+EVENTS
 aMessage
 )
 ;
@@ -8372,7 +8372,7 @@ TabParent
 :
 RecvAsyncMessage
 "
-OTHER
+EVENTS
 aMessage
 )
 ;

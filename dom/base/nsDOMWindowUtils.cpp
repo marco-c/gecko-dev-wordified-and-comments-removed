@@ -3345,7 +3345,7 @@ nsDOMWindowUtils
 :
 SendMouseEventToWindow
 "
-OTHER
+EVENTS
 )
 ;
 return
@@ -5421,7 +5421,7 @@ nsDOMWindowUtils
 :
 GarbageCollect
 "
-GCCC
+GC
 )
 ;
 nsJSContext

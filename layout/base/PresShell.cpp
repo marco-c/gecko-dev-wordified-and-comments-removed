@@ -18123,7 +18123,7 @@ PresShell
 :
 DoFlushPendingNotifications
 "
-LAYOUT
+GRAPHICS
 flushTypeNames
 [
 flushType
@@ -39042,7 +39042,7 @@ PresShell
 :
 DoReflow
 "
-LAYOUT
+GRAPHICS
 uri
 ?
 uri
