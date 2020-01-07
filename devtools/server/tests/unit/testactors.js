@@ -55,7 +55,7 @@ server
 /
 actors
 /
-script
+thread
 "
 )
 ;

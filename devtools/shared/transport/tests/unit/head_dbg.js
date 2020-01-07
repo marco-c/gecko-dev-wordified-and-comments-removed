@@ -491,7 +491,7 @@ server
 /
 actors
 /
-script
+thread
 "
 {
 prefix

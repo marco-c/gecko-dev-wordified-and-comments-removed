@@ -265,6 +265,13 @@ object
 js
 '
 '
+pause
+-
+scoped
+.
+js
+'
+'
 perf
 .
 js
@@ -316,11 +323,6 @@ root
 js
 '
 '
-script
-.
-js
-'
-'
 source
 .
 js
@@ -347,6 +349,11 @@ js
 '
 '
 tab
+.
+js
+'
+'
+thread
 .
 js
 '

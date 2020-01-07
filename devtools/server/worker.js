@@ -140,7 +140,7 @@ server
 /
 actors
 /
-script
+thread
 "
 )
 ;
