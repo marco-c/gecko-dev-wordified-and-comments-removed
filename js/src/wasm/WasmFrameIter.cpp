@@ -5674,6 +5674,12 @@ case
 SymbolicAddress
 :
 :
+CallImport_Ref
+:
+case
+SymbolicAddress
+:
+:
 CoerceInPlace_ToInt32
 :
 case
