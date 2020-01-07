@@ -10,13 +10,6 @@ args
 -
 enable
 -
-stdcxx
--
-compat
--
--
-enable
--
 simulator
 =
 arm64

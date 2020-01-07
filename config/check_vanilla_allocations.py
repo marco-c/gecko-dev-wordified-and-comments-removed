@@ -338,6 +338,19 @@ group
 )
         
 if
+'
+stdc
++
++
+compat
+'
+in
+filename
+:
+            
+continue
+        
+if
 "
 _memory_
 "
