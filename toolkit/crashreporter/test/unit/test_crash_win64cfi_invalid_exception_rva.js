@@ -41,12 +41,13 @@ context
 {
 symbol
 :
-"
-CRASH_X64CFI_NO_MANS_LAND
-"
+null
 trust
 :
-null
+"
+!
+cfi
+"
 }
 ]
 [
