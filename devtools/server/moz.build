@@ -109,6 +109,9 @@ performance
 '
 socket
 '
+'
+startup
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
@@ -154,11 +157,6 @@ ini
 ]
 DevToolsModules
 (
-'
-child
-.
-js
-'
 '
 content
 -

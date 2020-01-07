@@ -660,9 +660,9 @@ dump
 (
 Exception
 in
-app
-child
-process
+DevTools
+frame
+startup
 :
 {
 e

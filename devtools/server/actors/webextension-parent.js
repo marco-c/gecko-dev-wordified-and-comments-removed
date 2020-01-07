@@ -658,7 +658,7 @@ _form
 await
 DebuggerServer
 .
-connectToChild
+connectToFrame
 (
 this
 .
