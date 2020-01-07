@@ -1374,11 +1374,13 @@ aDragService
 )
 ;
 bool
-DispatchKeyDownEvent
+DispatchKeyDownOrKeyUpEvent
 (
 GdkEventKey
 *
 aEvent
+bool
+aProcessedByIME
 bool
 *
 aIsCancelled
