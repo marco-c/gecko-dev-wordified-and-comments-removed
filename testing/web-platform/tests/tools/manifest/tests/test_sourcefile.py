@@ -2943,6 +2943,9 @@ assert
 s
 .
 root
+is
+not
+None
     
 assert
 s
@@ -3180,6 +3183,9 @@ assert
 s
 .
 root
+is
+not
+None
     
 assert
 not
