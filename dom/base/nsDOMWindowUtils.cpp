@@ -2570,11 +2570,6 @@ rootFrame
 presShell
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )
@@ -15967,11 +15962,6 @@ nsIFrame
 rootFrame
 =
 presShell
--
->
-FrameManager
-(
-)
 -
 >
 GetRootFrame

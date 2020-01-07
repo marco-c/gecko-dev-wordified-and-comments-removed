@@ -10289,11 +10289,6 @@ PresShell
 )
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )

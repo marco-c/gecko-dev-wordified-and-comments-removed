@@ -103,11 +103,6 @@ rootFrame
 aShell
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )

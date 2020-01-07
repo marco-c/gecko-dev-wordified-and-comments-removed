@@ -3215,11 +3215,6 @@ PresShell
 )
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )
@@ -3307,11 +3302,6 @@ nsPoint
 thisDocToRootDocOffset
 =
 presShell
--
->
-FrameManager
-(
-)
 -
 >
 GetRootFrame

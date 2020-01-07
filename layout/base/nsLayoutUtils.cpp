@@ -32577,11 +32577,6 @@ PresShell
 )
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )
@@ -37156,12 +37151,7 @@ f
 f
 -
 >
-PresContext
-(
-)
--
->
-FrameManager
+PresShell
 (
 )
 -
