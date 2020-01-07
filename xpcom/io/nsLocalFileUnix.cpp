@@ -438,8 +438,6 @@ nsDirEnumeratorUnix
 final
 :
 public
-nsISimpleEnumerator
-public
 nsIDirectoryEnumerator
 {
 public
@@ -7505,9 +7503,9 @@ NS_IMETHODIMP
 nsLocalFile
 :
 :
-GetDirectoryEntries
+GetDirectoryEntriesImpl
 (
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 *
 *
 aEntries

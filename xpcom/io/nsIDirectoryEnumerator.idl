@@ -100,6 +100,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+idl
+"
 interface
 nsIFile
 ;
@@ -173,7 +180,7 @@ a81e
 interface
 nsIDirectoryEnumerator
 :
-nsISupports
+nsISimpleEnumerator
 {
 /
 *
