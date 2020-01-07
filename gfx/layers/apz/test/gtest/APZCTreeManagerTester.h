@@ -317,13 +317,6 @@ LayoutDeviceIntSize
 )
 )
 ;
-metadata
-.
-SetAllowVerticalScrollWithWheel
-(
-true
-)
-;
 return
 metadata
 ;

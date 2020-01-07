@@ -244,14 +244,13 @@ aDeltaType
 )
 )
 {
-mForceVerticalOverscroll
+mDirectionForcedToOverscroll
 =
-!
 mApzc
 .
 mScrollMetadata
 .
-AllowVerticalScrollWithWheel
+GetDisregardedDirection
 (
 )
 ;

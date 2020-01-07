@@ -671,15 +671,6 @@ aOutMultiplierY
 )
 ;
 static
-bool
-CanVerticallyScrollFrameWithWheel
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 CSSIntPoint
 sLastScreenPoint
 ;

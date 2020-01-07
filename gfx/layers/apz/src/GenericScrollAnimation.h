@@ -132,8 +132,11 @@ mAnimationPhysics
 nsPoint
 mFinalDestination
 ;
-bool
-mForceVerticalOverscroll
+Maybe
+<
+ScrollDirection
+>
+mDirectionForcedToOverscroll
 ;
 }
 ;
