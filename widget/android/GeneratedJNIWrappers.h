@@ -17442,7 +17442,7 @@ name
 ]
 =
 "
-nativeDisposeNative
+disposeNative
 "
 ;
 static
