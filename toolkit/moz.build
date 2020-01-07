@@ -288,11 +288,6 @@ system
 /
 windowsproxy
 '
-'
-system
-/
-windowsDHCPClient
-'
 ]
 elif
 CONFIG
