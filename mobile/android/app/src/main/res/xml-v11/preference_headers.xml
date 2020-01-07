@@ -650,6 +650,16 @@ string
 /
 pref_header_vendor
 "
+android
+:
+id
+=
+"
++
+id
+/
+pref_header_vendor
+"
 >
 <
 extra
