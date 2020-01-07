@@ -15,17 +15,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-'
-sendchange
 '
     
 ]
@@ -90,12 +80,6 @@ enable_signing
 '
 :
 False
-    
-'
-enable_unittest_sendchange
-'
-:
-True
     
 '
 perfherder_extra_options

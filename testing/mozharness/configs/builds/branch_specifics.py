@@ -1233,18 +1233,6 @@ try
 '
         
 '
-clone_by_revision
-'
-:
-True
-        
-'
-clone_with_purge
-'
-:
-True
-        
-'
 tinderbox_build_dir
 '
 :

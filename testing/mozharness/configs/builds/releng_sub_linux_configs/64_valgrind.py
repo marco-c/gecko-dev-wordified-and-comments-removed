@@ -15,12 +15,6 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
 '
         

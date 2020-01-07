@@ -149,23 +149,7 @@ clobber
 '
                 
 '
-checkout
--
-sources
-'
-                
-'
 build
-'
-                
-'
-upload
--
-files
-'
-                
-'
-sendchange
 '
                 
 '
@@ -178,22 +162,6 @@ test
 valgrind
 -
 test
-'
-                
-'
-package
--
-source
-'
-                
-'
-generate
--
-source
--
-signing
--
-manifest
 '
                 
 '

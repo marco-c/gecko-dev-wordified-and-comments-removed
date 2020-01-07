@@ -15,12 +15,6 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
 '
     
@@ -80,12 +74,6 @@ enable_count_ctors
 '
 :
 True
-    
-'
-enable_unittest_sendchange
-'
-:
-False
     
 '
 perfherder_extra_options

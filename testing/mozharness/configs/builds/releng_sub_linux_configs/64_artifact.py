@@ -15,17 +15,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-'
-sendchange
 '
     
 ]
@@ -214,12 +204,6 @@ shared
     
 '
 enable_count_ctors
-'
-:
-True
-    
-'
-enable_unittest_sendchange
 '
 :
 True

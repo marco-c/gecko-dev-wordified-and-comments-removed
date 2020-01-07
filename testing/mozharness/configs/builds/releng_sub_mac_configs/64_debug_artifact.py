@@ -15,17 +15,7 @@ clobber
 '
         
 '
-checkout
--
-sources
-'
-        
-'
 build
-'
-        
-'
-sendchange
 '
     
 ]
@@ -81,12 +71,6 @@ shared
     
 '
 debug_build
-'
-:
-True
-    
-'
-enable_unittest_sendchange
 '
 :
 True
