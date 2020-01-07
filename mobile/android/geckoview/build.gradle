@@ -1161,7 +1161,7 @@ mozconfig
 .
 substs
 .
-MOZ_CRASH_REPORTER
+MOZ_CRASHREPORTER
 ?
 '
 true
