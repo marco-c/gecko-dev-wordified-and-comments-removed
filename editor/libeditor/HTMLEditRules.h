@@ -1631,6 +1631,7 @@ RangeItem
 inRange
 )
 ;
+MOZ_MUST_USE
 nsresult
 BustUpInlinesAtBRs
 (
