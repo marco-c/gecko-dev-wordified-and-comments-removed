@@ -376,14 +376,6 @@ output_stream_params
 channels
 <
 1
-|
-|
-output_stream_params
--
->
-channels
->
-8
 )
 {
 return
