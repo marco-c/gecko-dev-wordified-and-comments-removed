@@ -843,12 +843,7 @@ isOriginalId
 (
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 )
 ;
 }

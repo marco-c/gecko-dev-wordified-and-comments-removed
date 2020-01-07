@@ -178,12 +178,7 @@ toEditorLine
 (
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 emptyLine
 )
 ;
@@ -266,12 +261,7 @@ toEditorLine
 (
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 emptyLine
 )
 ;

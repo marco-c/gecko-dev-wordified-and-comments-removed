@@ -231,12 +231,7 @@ breakpoints
 |
 selectedSource
 .
-get
-(
-"
 isBlackBoxed
-"
-)
 )
 {
 return

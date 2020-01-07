@@ -685,12 +685,7 @@ selectedSource
 !
 selectedSource
 .
-get
-(
-"
 text
-"
-)
 )
 {
 return

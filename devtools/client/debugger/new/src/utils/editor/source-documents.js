@@ -390,12 +390,7 @@ sourceId
 =
 source
 .
-get
-(
-"
 id
-"
-)
 ;
 const
 doc

@@ -76,6 +76,14 @@ getState
 )
 )
 ;
+await
+client
+.
+setSkipPausing
+(
+skipPausing
+)
+;
 dispatch
 (
 {
