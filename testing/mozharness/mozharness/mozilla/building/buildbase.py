@@ -2352,6 +2352,18 @@ variant_cfg_file
             
 )
         
+config_paths
+=
+options
+.
+config_paths
+or
+[
+'
+.
+'
+]
+        
 if
 branch_cfg_file
 :
@@ -2361,6 +2373,14 @@ branch_configs
 parse_config_file
 (
 branch_cfg_file
+                                               
+search_path
+=
+config_paths
++
+[
+DEFAULT_CONFIG_PATH
+]
 )
             
 if
@@ -2403,6 +2423,14 @@ build_pool_configs
 parse_config_file
 (
 pool_cfg_file
+                                                   
+search_path
+=
+config_paths
++
+[
+DEFAULT_CONFIG_PATH
+]
 )
             
 all_config_dicts
