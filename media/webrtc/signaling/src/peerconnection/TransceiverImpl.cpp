@@ -2774,8 +2774,9 @@ IsRemoved
 {
 aJsTransceiver
 .
-Remove
+SetShouldRemove
 (
+true
 aRv
 )
 ;
