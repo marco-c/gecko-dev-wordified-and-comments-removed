@@ -150,9 +150,7 @@ font
 -
 family
 :
-"
 bar
-"
 ;
 src
 :
@@ -196,6 +194,7 @@ font
 -
 face
 rule
+1
 "
 )
 ;
@@ -315,15 +314,7 @@ font
 -
 family
 :
-"
 bar
-"
-;
-font
--
-weight
-:
-bold
 ;
 src
 :
@@ -338,6 +329,12 @@ ttf
 "
 )
 ;
+font
+-
+weight
+:
+bold
+;
 }
 ;
 }
@@ -349,6 +346,7 @@ font
 -
 face
 rule
+2
 "
 )
 ;

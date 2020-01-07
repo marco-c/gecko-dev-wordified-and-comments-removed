@@ -739,11 +739,6 @@ nsCSSCounterStyleRule
 h
 "
 "
-nsCSSFontFaceRule
-.
-h
-"
-"
 nsContentUtils
 .
 h
@@ -1920,9 +1915,6 @@ nsCSSCounterStyleRule
 "
 "
 nsCSSFontDesc
-"
-"
-nsCSSFontFaceRule
 "
 "
 nsCSSKeyword
@@ -3448,6 +3440,9 @@ RawGeckoNode
 RawServoAnimationValue
 "
 "
+RawServoFontFaceRule
+"
+"
 RawGeckoServoAnimationValueList
 "
 "
@@ -3563,9 +3558,6 @@ nsCSSCounterStyleRule
 "
 "
 nsCSSFontDesc
-"
-"
-nsCSSFontFaceRule
 "
 "
 nsCSSKeyword

@@ -270,11 +270,6 @@ nsCSSFontDescList
 h
 '
 '
-nsCSSFontFaceRule
-.
-h
-'
-'
 nsCSSKeywordList
 .
 h
@@ -548,6 +543,11 @@ h
 '
 '
 ServoElementSnapshotTable
+.
+h
+'
+'
+ServoFontFaceRule
 .
 h
 '
@@ -985,11 +985,6 @@ nsCSSCounterStyleRule
 cpp
 '
 '
-nsCSSFontFaceRule
-.
-cpp
-'
-'
 nsCSSKeywords
 .
 cpp
@@ -1136,6 +1131,11 @@ cpp
 '
 '
 ServoElementSnapshot
+.
+cpp
+'
+'
+ServoFontFaceRule
 .
 cpp
 '

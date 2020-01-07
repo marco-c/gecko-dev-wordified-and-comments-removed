@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+ServoFontFaceRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 InspectorUtilsBinding
@@ -38,9 +47,6 @@ gfxFontEntry
 ;
 class
 gfxFontGroup
-;
-class
-nsCSSFontFaceRule
 ;
 namespace
 mozilla
@@ -176,7 +182,7 @@ nsAString
 aCSSFamilyName
 )
 ;
-nsCSSFontFaceRule
+ServoFontFaceRule
 *
 GetRule
 (
@@ -327,6 +333,12 @@ RefPtr
 gfxFontGroup
 >
 mFontGroup
+;
+RefPtr
+<
+ServoFontFaceRule
+>
+mRule
 ;
 uint8_t
 mMatchType
