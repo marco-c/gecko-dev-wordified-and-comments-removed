@@ -521,7 +521,7 @@ iface
 mInterfaceDescriptor
 -
 >
-num_methods
+mNumMethods
 >
 250
 &
