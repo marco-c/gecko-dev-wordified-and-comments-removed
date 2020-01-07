@@ -4676,6 +4676,12 @@ caches
 {
 }
         
+cache_version
+=
+'
+v1
+'
+        
 if
 run_task
 :
@@ -4686,10 +4692,16 @@ suffix
 -
 %
 s
+-
+%
+s
 '
 %
+(
+cache_version
 _run_task_suffix
 (
+)
 )
             
 if
@@ -4725,7 +4737,12 @@ else
 suffix
 =
 '
+-
+%
+s
 '
+%
+cache_version
         
 skip_untrusted
 =
