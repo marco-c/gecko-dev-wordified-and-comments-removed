@@ -142,7 +142,7 @@ apply
 interface
 SVGEllipseElement
 :
-SVGGraphicsElement
+SVGGeometryElement
 {
 [
 Constant

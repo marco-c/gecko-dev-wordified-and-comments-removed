@@ -142,7 +142,7 @@ apply
 interface
 SVGCircleElement
 :
-SVGGraphicsElement
+SVGGeometryElement
 {
 [
 Constant

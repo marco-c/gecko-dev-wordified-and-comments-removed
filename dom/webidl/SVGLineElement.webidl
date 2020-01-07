@@ -142,7 +142,7 @@ apply
 interface
 SVGLineElement
 :
-SVGGraphicsElement
+SVGGeometryElement
 {
 [
 Constant

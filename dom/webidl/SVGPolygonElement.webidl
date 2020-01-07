@@ -142,7 +142,7 @@ apply
 interface
 SVGPolygonElement
 :
-SVGGraphicsElement
+SVGGeometryElement
 {
 }
 ;

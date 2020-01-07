@@ -142,7 +142,7 @@ apply
 interface
 SVGPolylineElement
 :
-SVGGraphicsElement
+SVGGeometryElement
 {
 }
 ;
