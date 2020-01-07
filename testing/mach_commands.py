@@ -370,7 +370,7 @@ string
 '
 format_desc
 '
-tbpl
+mach
 '
 {
 '
