@@ -391,6 +391,7 @@ box_
 OverflowClipBox
 ScrollSnapType
 VerticalAlign
+WillChange
 }
 ;
 pub

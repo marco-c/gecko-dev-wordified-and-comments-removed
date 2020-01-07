@@ -223,11 +223,6 @@ quote
 if
 variant_attrs
 .
-function
-&
-&
-variant_attrs
-.
 iterable
 {
 assert_eq
