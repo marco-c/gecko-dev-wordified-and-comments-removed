@@ -363,6 +363,7 @@ aStartChild
 nsIContent
 *
 aEndChild
+InsertionKind
 )
 ;
 struct
@@ -430,6 +431,7 @@ aStartChild
 nsIContent
 *
 aEndChild
+InsertionKind
 )
 ;
 bool
