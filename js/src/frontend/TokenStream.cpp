@@ -7570,16 +7570,13 @@ FinishToken
 =
 [
 this
-#
-ifdef
-DEBUG
-&
-modifier
-#
-endif
-ttp
 ]
 (
+TokenKind
+*
+ttp
+Modifier
+modifier
 Token
 *
 tp
@@ -7682,6 +7679,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -7742,6 +7741,8 @@ true
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -7966,6 +7967,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8025,6 +8028,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8096,6 +8101,8 @@ c1kind
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8163,6 +8170,8 @@ false
 }
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8223,6 +8232,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8263,6 +8274,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8726,6 +8739,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8776,6 +8791,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -8945,6 +8962,8 @@ NoDecimal
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9031,6 +9050,8 @@ false
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9070,6 +9091,8 @@ TripleDot
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9095,6 +9118,8 @@ Dot
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9170,6 +9195,8 @@ Assign
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9225,6 +9252,8 @@ Add
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9281,6 +9310,8 @@ false
 }
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9381,6 +9412,8 @@ BitOr
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9416,6 +9449,8 @@ BitXor
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9471,6 +9506,8 @@ BitAnd
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9526,6 +9563,8 @@ Not
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9664,6 +9703,8 @@ Lt
 }
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9767,6 +9808,8 @@ Gt
 }
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -9834,6 +9877,8 @@ Mul
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -10451,6 +10496,8 @@ reflags
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -10482,6 +10529,8 @@ Div
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -10517,6 +10566,8 @@ Mod
 ;
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
@@ -10617,6 +10668,8 @@ Sub
 }
 FinishToken
 (
+ttp
+modifier
 tp
 )
 ;
