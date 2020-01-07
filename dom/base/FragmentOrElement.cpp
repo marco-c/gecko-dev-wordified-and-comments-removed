@@ -9090,7 +9090,7 @@ if
 tmp
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 &
