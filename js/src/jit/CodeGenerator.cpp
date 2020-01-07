@@ -69661,7 +69661,7 @@ done
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 initLength
@@ -70673,7 +70673,7 @@ done
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 scratch

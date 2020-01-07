@@ -9750,7 +9750,7 @@ str
 output
 )
 ;
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 Address

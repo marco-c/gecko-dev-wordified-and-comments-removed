@@ -11295,7 +11295,7 @@ false
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 Address
@@ -11532,7 +11532,7 @@ scratch1
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 scratch1
@@ -11744,7 +11744,7 @@ offsetOfInitializedLength
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 initLength
@@ -12143,7 +12143,7 @@ offsetOfInitializedLength
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 initLength
@@ -13179,7 +13179,7 @@ scratch1
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 scratch1

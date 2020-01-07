@@ -4648,7 +4648,7 @@ void
 MacroAssembler
 :
 :
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 Register
 index
@@ -4736,7 +4736,7 @@ void
 MacroAssembler
 :
 :
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 Register
 index

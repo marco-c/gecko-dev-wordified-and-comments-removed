@@ -5022,7 +5022,7 @@ scratch1
 ;
 masm
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 scratch1
