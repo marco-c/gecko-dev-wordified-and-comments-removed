@@ -90,6 +90,13 @@ h
 #
 include
 "
+nsCSSRenderingGradients
+.
+h
+"
+#
+include
+"
 nsISelectionController
 .
 h
@@ -219,6 +226,13 @@ h
 include
 "
 nsBoxFrame
+.
+h
+"
+#
+include
+"
+nsImageFrame
 .
 h
 "
