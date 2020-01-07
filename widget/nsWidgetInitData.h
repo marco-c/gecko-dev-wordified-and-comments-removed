@@ -9,13 +9,13 @@ nsWindowType
 {
 eWindowType_toplevel
 eWindowType_dialog
+eWindowType_sheet
 eWindowType_popup
 eWindowType_child
 eWindowType_invisible
 eWindowType_plugin
 eWindowType_plugin_ipc_chrome
 eWindowType_plugin_ipc_content
-eWindowType_sheet
 }
 ;
 enum
