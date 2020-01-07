@@ -457,11 +457,9 @@ newTab
 .
 linkedBrowser
 .
-_contentWindow
+currentURI
 .
-location
-.
-href
+spec
 ;
 is
 (
