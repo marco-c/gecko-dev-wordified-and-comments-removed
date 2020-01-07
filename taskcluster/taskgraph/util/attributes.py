@@ -59,6 +59,12 @@ release
 '
     
 '
+mozilla
+-
+esr60
+'
+    
+'
 comm
 -
 central
