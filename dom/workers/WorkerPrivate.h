@@ -1460,9 +1460,10 @@ EnsurePerformanceCounter
 (
 )
 ;
-const
+Maybe
+<
 ClientInfo
-&
+>
 GetClientInfo
 (
 )
