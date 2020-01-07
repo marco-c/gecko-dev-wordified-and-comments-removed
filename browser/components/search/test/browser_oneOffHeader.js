@@ -278,8 +278,11 @@ eventOccurred
 true
 )
 ;
-resolve
+SimpleTest
+.
+executeSoon
 (
+resolve
 )
 ;
 }
