@@ -1533,6 +1533,9 @@ GTK_RESPONSE_CANCEL
 1
 )
 ;
+#
+ifndef
+MOZ_PROXY_BYPASS_PROTECTION
 if
 (
 mAllowURLs
@@ -1548,6 +1551,8 @@ FALSE
 )
 ;
 }
+#
+endif
 if
 (
 action
