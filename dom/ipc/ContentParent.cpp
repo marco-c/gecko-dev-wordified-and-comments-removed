@@ -3037,9 +3037,9 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIMessageSender
+ChromeMessageSender
 >
 manager
 =
