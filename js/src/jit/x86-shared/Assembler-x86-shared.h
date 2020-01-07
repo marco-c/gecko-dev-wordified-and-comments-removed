@@ -1751,14 +1751,6 @@ CompactBufferReader
 reader
 )
 ;
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 bool
 oom
 (

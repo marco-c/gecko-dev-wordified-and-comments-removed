@@ -1024,14 +1024,6 @@ AssemblerMIPSShared
 )
 {
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 static
 uintptr_t
 GetPointer

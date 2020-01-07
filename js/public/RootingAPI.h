@@ -3916,10 +3916,6 @@ BINPARSER
 4
 #
 endif
-IONMASM
-=
--
-19
 WRAPVECTOR
 =
 -

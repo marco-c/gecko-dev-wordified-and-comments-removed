@@ -15293,11 +15293,6 @@ emitProfilingInstrumentation_
 false
 )
 {
-constructRoot
-(
-cx
-)
-;
 jitContext_
 .
 emplace
