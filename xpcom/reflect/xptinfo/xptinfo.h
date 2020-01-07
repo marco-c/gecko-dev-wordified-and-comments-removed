@@ -356,7 +356,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kInMask
 )
@@ -372,7 +372,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kOutMask
 )
@@ -388,7 +388,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kRetvalMask
 )
@@ -404,7 +404,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kSharedMask
 )
@@ -420,7 +420,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kDipperMask
 )
@@ -436,7 +436,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kOptionalMask
 )
@@ -450,7 +450,7 @@ GetType
 const
 {
 return
-type
+mType
 .
 mPrefix
 ;

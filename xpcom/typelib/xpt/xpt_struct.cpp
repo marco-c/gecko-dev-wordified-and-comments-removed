@@ -1672,7 +1672,7 @@ cursor
 pd
 -
 >
-flags
+mFlags
 )
 |
 |
@@ -1685,7 +1685,7 @@ cursor
 pd
 -
 >
-type
+mType
 id
 )
 )

@@ -429,10 +429,10 @@ struct
 XPTParamDescriptor
 {
 uint8_t
-flags
+mFlags
 ;
 XPTTypeDescriptor
-type
+mType
 ;
 }
 ;
