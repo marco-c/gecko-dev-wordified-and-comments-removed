@@ -41,8 +41,8 @@ types
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -93,7 +93,7 @@ button
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store

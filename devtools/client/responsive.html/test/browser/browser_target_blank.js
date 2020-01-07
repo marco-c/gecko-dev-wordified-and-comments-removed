@@ -61,8 +61,8 @@ g
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -78,7 +78,7 @@ toolWindow
 .
 store
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -95,7 +95,7 @@ length
 1
 )
 ;
-yield
+await
 waitForFrameLoad
 (
 ui
@@ -119,7 +119,6 @@ ui
 {
 }
 function
-*
 (
 )
 {
@@ -144,7 +143,7 @@ click
 let
 newTab
 =
-yield
+await
 newTabPromise
 ;
 ok
@@ -159,7 +158,7 @@ link
 "
 )
 ;
-yield
+await
 removeTab
 (
 newTab

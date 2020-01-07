@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -44,7 +44,7 @@ _blank
 let
 newWindow
 =
-yield
+await
 newWindowPromise
 ;
 newWindow
@@ -53,7 +53,7 @@ focus
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -74,7 +74,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 openRDM
 (
 tab
@@ -114,7 +114,7 @@ off
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -122,7 +122,7 @@ closeWindow
 newWindow
 )
 ;
-yield
+await
 offPromise
 ;
 }

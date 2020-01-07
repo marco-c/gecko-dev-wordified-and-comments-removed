@@ -505,8 +505,8 @@ resize
 }
 ]
 ;
+async
 function
-*
 resize
 (
 args
@@ -522,7 +522,7 @@ environment
 .
 chromeWindow
 ;
-yield
+await
 ResponsiveUIManager
 .
 handleGcliCommand

@@ -62,12 +62,12 @@ l10n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -102,8 +102,8 @@ json
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -137,7 +137,7 @@ selector
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store

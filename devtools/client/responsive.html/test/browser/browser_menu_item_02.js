@@ -63,15 +63,15 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 window1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -85,7 +85,7 @@ gBrowser
 =
 window1
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -96,8 +96,8 @@ url
 :
 TEST_URL
 }
+async
 function
-*
 (
 browser
 )
@@ -156,7 +156,7 @@ default
 "
 )
 ;
-yield
+await
 openRDM
 (
 tab
@@ -180,7 +180,7 @@ open
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -208,7 +208,7 @@ closed
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

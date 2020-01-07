@@ -39,15 +39,15 @@ com
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -58,7 +58,7 @@ let
 ui
 }
 =
-yield
+await
 openRDM
 (
 tab
@@ -80,7 +80,7 @@ let
 active
 }
 =
-yield
+await
 e10s
 .
 request
@@ -103,7 +103,7 @@ active
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -122,7 +122,7 @@ messageManager
 active
 }
 =
-yield
+await
 e10s
 .
 request
@@ -151,7 +151,7 @@ active
 ui
 }
 =
-yield
+await
 openRDM
 (
 tab
@@ -173,7 +173,7 @@ messageManager
 active
 }
 =
-yield
+await
 e10s
 .
 request
@@ -197,7 +197,7 @@ active
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -216,7 +216,7 @@ messageManager
 active
 }
 =
-yield
+await
 e10s
 .
 request
@@ -240,7 +240,7 @@ active
 "
 )
 ;
-yield
+await
 removeTab
 (
 tab

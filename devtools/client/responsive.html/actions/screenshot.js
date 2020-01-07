@@ -301,7 +301,6 @@ return
 spawn
 (
 function
-*
 (
 )
 {
@@ -428,14 +427,14 @@ takeScreenshot
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
 )
 {
-yield
+await
 dispatch
 (
 {
@@ -445,7 +444,7 @@ TAKE_SCREENSHOT_START
 }
 )
 ;
-yield
+await
 animationFrame
 (
 )
@@ -465,7 +464,7 @@ iframe
 let
 data
 =
-yield
+await
 createScreenshotFor
 (
 iframe
@@ -476,7 +475,7 @@ simulateCameraEffects
 iframe
 )
 ;
-yield
+await
 saveToFile
 (
 data

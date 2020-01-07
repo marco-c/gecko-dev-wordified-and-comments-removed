@@ -112,8 +112,8 @@ html
 addRDMTask
 (
 TEST_URI
+async
 function
-*
 (
 {
 ui
@@ -140,7 +140,7 @@ start
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -172,12 +172,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -201,7 +201,7 @@ styles
 "
 )
 ;
-yield
+await
 testShrink
 (
 view
@@ -224,7 +224,7 @@ styles
 "
 )
 ;
-yield
+await
 testGrow
 (
 view
@@ -246,13 +246,13 @@ console
 "
 )
 ;
-yield
+await
 testEscapeOpensSplitConsole
 (
 inspector
 )
 ;
-yield
+await
 closeToolbox
 (
 )
@@ -260,8 +260,8 @@ closeToolbox
 }
 )
 ;
+async
 function
-*
 testShrink
 (
 ruleView
@@ -318,7 +318,7 @@ refreshed
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -327,7 +327,7 @@ manager
 100
 )
 ;
-yield
+await
 onRefresh
 ;
 is
@@ -349,8 +349,8 @@ shrinking
 )
 ;
 }
+async
 function
-*
 testGrow
 (
 ruleView
@@ -390,7 +390,7 @@ refreshed
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -399,7 +399,7 @@ manager
 500
 )
 ;
-yield
+await
 onRefresh
 ;
 is
@@ -421,8 +421,8 @@ growing
 )
 ;
 }
+async
 function
-*
 testEscapeOpensSplitConsole
 (
 inspector
@@ -480,7 +480,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 onSplit
 ;
 ok

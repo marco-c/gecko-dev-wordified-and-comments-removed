@@ -23,8 +23,8 @@ utf
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -41,7 +41,7 @@ toolWindow
 .
 store
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -58,7 +58,7 @@ length
 1
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -67,7 +67,7 @@ manager
 300
 )
 ;
-yield
+await
 testViewportResize
 (
 ui
@@ -93,7 +93,7 @@ handle
 ]
 )
 ;
-yield
+await
 testViewportResize
 (
 ui
@@ -123,7 +123,7 @@ handle
 ]
 )
 ;
-yield
+await
 testViewportResize
 (
 ui

@@ -144,8 +144,8 @@ types
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -213,7 +213,7 @@ button
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -301,7 +301,7 @@ checked
 let
 remoteList
 =
-yield
+await
 getDevices
 (
 )
@@ -1039,8 +1039,8 @@ addedDevice
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -1074,7 +1074,7 @@ selector
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -1113,7 +1113,7 @@ ui
 let
 remoteList
 =
-yield
+await
 getDevices
 (
 )

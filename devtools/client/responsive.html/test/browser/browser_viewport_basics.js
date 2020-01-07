@@ -20,8 +20,8 @@ org
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -37,7 +37,7 @@ toolWindow
 .
 store
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -129,7 +129,7 @@ height
 "
 )
 ;
-yield
+await
 waitForFrameLoad
 (
 ui
@@ -139,14 +139,13 @@ TEST_URL
 let
 location
 =
-yield
+await
 spawnViewportTask
 (
 ui
 {
 }
 function
-*
 (
 )
 {
