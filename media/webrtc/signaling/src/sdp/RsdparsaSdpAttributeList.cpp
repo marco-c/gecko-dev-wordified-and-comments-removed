@@ -3732,16 +3732,6 @@ rtpmap
 .
 channels
 ;
-if
-(
-mIsVideo
-)
-{
-channels
-=
-0
-;
-}
 rtpmapList
 -
 >
