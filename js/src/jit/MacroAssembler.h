@@ -7424,7 +7424,7 @@ x86
 public
 :
 CodeOffset
-illegalInstruction
+wasmTrapInstruction
 (
 )
 PER_SHARED_ARCH

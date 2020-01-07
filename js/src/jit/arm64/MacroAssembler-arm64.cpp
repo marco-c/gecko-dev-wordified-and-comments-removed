@@ -4287,7 +4287,7 @@ CodeOffset
 MacroAssembler
 :
 :
-illegalInstruction
+wasmTrapInstruction
 (
 )
 {

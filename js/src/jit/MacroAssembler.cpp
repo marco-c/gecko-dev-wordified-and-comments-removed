@@ -15601,7 +15601,7 @@ wasm
 :
 TrapSite
 (
-illegalInstruction
+wasmTrapInstruction
 (
 )
 .
