@@ -3045,6 +3045,7 @@ action
 case
 ACTION_ADD
 :
+await
 addon
 .
 install
