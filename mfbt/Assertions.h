@@ -644,6 +644,7 @@ defined
 (
 _MSC_VER
 )
+MOZ_MAYBE_UNUSED
 static
 MOZ_COLD
 MOZ_NORETURN
