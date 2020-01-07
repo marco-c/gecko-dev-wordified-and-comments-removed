@@ -7538,6 +7538,13 @@ MutableHandleValue
 result
 )
 {
+AutoRealm
+ar
+(
+cx
+callee
+)
+;
 MOZ_ASSERT
 (
 callee
@@ -7645,6 +7652,13 @@ HandleValue
 rhs
 )
 {
+AutoRealm
+ar
+(
+cx
+callee
+)
+;
 MOZ_ASSERT
 (
 callee
