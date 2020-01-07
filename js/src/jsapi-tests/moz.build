@@ -840,6 +840,14 @@ EXPORT_JS_API
 ]
 =
 True
+DEFINES
+[
+'
+ENABLE_WASM_GLOBAL
+'
+]
+=
+True
 LOCAL_INCLUDES
 +
 =
