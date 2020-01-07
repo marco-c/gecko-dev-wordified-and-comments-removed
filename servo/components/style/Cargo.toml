@@ -722,6 +722,11 @@ version
 optional
 =
 true
+default
+-
+features
+=
+false
 }
 regex
 =
