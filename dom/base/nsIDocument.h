@@ -7899,7 +7899,7 @@ virtual
 void
 GetLastStyleSheetSet
 (
-nsString
+nsAString
 &
 aSheetSet
 )
