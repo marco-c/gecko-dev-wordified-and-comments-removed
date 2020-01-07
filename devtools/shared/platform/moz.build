@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 '
+cache
+-
+entry
+.
+js
+'
+'
 clipboard
 .
 js
