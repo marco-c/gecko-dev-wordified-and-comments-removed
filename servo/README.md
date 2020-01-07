@@ -1104,6 +1104,7 @@ glu
 pkg
 -
 config
+clang
 #
 #
 #
