@@ -786,6 +786,11 @@ libdbus
 1
 -
 dev
+\
+libharfbuzz
+-
+dev
+ccache
 If
 you
 using
@@ -968,6 +973,10 @@ devel
 ncurses
 -
 devel
+harfbuzz
+-
+devel
+ccache
 #
 #
 #
@@ -1061,6 +1070,10 @@ ncurses
 -
 devel
 python34
+harfbuzz
+-
+devel
+ccache
 #
 #
 #
@@ -1150,6 +1163,7 @@ build
 glu
 -
 devel
+ccache
 #
 #
 #
@@ -1181,6 +1195,7 @@ cmake
 bzip2
 libxmu
 glu
+\
 pkg
 -
 config
@@ -1189,6 +1204,8 @@ ttf
 fira
 -
 sans
+harfbuzz
+ccache
 #
 #
 #
@@ -1259,6 +1276,17 @@ base
 xorg
 -
 server
+\
+media
+-
+libs
+/
+harfbuzz
+dev
+-
+util
+/
+ccache
 #
 #
 #
