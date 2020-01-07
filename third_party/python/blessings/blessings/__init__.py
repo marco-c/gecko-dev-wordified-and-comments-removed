@@ -31,6 +31,11 @@ from
 fcntl
 import
 ioctl
+from
+six
+import
+text_type
+string_types
 try
 :
     
@@ -81,10 +86,6 @@ os
 import
 isatty
 environ
-from
-platform
-import
-python_version_tuple
 import
 struct
 import
@@ -100,75 +101,6 @@ __all__
 Terminal
 '
 ]
-if
-(
-'
-3
-'
-'
-0
-'
-'
-0
-'
-)
-<
-=
-python_version_tuple
-(
-)
-<
-(
-'
-3
-'
-'
-2
-'
-'
-2
-+
-'
-)
-:
-    
-raise
-ImportError
-(
-'
-Blessings
-needs
-Python
-3
-.
-2
-.
-3
-or
-greater
-for
-Python
-3
-'
-                      
-'
-support
-due
-to
-http
-:
-/
-/
-bugs
-.
-python
-.
-org
-/
-issue10570
-.
-'
-)
 class
 Terminal
 (
@@ -2768,7 +2700,7 @@ superscript
 class
 ParametrizingString
 (
-unicode
+text_type
 )
 :
     
@@ -2851,7 +2783,7 @@ capability
         
 new
 =
-unicode
+text_type
 .
 __new__
 (
@@ -2953,7 +2885,7 @@ args
 [
 0
 ]
-basestring
+string_types
 )
 :
                 
@@ -3009,7 +2941,7 @@ raise
 class
 FormattingString
 (
-unicode
+text_type
 )
 :
     
@@ -3049,7 +2981,7 @@ normal
         
 new
 =
-unicode
+text_type
 .
 __new__
 (
@@ -3148,7 +3080,7 @@ _normal
 class
 NullCallableString
 (
-unicode
+text_type
 )
 :
     
@@ -3198,7 +3130,7 @@ cls
         
 new
 =
-unicode
+text_type
 .
 __new__
 (

@@ -105,10 +105,6 @@ exists
 "
 "
 from
-__future__
-import
-with_statement
-from
 curses
 import
 tigetstr
@@ -117,10 +113,6 @@ from
 functools
 import
 partial
-from
-StringIO
-import
-StringIO
 import
 sys
 from
@@ -133,6 +125,10 @@ nose
 tools
 import
 eq_
+from
+six
+import
+StringIO
 from
 blessings
 import
@@ -1783,6 +1779,7 @@ hey
     
 except
 TypeError
+as
 e
 :
         
@@ -1814,6 +1811,7 @@ hey
     
 except
 TypeError
+as
 e
 :
         
@@ -1842,6 +1840,7 @@ None
     
 except
 TypeError
+as
 e
 :
         
@@ -1876,6 +1875,7 @@ b
     
 except
 TypeError
+as
 e
 :
         
