@@ -234,8 +234,6 @@ type
 =
 "
 menu
--
-button
 "
 label
 =
@@ -316,8 +314,6 @@ type
 =
 "
 menu
--
-button
 "
 label
 =
@@ -389,8 +385,6 @@ type
 =
 "
 menu
--
-button
 "
 label
 =
