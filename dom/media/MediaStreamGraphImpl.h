@@ -628,6 +628,13 @@ UpdateStreamOrder
 )
 ;
 GraphTime
+RoundUpToEndOfAudioBlock
+(
+GraphTime
+aTime
+)
+;
+GraphTime
 RoundUpToNextAudioBlock
 (
 GraphTime
