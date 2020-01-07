@@ -72,6 +72,10 @@ base
 :
 ProcessId
 aParentPid
+const
+char
+*
+aParentBuildID
 MessageLoop
 *
 aIOLoop
