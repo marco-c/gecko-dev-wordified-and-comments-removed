@@ -30,6 +30,14 @@ redo
 1
 .
 6
+aiohttp
+=
+=
+2
+.
+3
+.
+6
 awscli
 =
 =
@@ -38,3 +46,11 @@ awscli
 14
 .
 10
+scriptworker
+=
+=
+6
+.
+0
+.
+0
