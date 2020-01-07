@@ -37,9 +37,6 @@ record_in_processes
 bool
 keyed
 ;
-bool
-builtin
-;
 BaseScalarInfo
 (
 uint32_t
@@ -59,10 +56,6 @@ RecordedProcessType
 aRecordInProcess
 bool
 aKeyed
-bool
-aBuiltin
-=
-true
 )
 :
 kind
@@ -80,10 +73,6 @@ aRecordInProcess
 keyed
 (
 aKeyed
-)
-builtin
-(
-aBuiltin
 )
 {
 }
