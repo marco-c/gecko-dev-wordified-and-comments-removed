@@ -1975,7 +1975,9 @@ text
 ;
 }
 let
+{
 requestPostData
+}
 =
 await
 requestData

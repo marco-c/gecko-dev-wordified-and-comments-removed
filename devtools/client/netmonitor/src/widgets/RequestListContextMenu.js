@@ -1910,11 +1910,6 @@ params
 [
 ]
 ;
-if
-(
-formDataSections
-)
-{
 formDataSections
 .
 forEach
@@ -1953,7 +1948,6 @@ paramsArray
 }
 )
 ;
-}
 let
 string
 =
@@ -2038,6 +2032,8 @@ id
 requestPostData
 "
 )
+.
+requestPostData
 ;
 string
 =
@@ -2135,6 +2131,8 @@ id
 requestPostData
 "
 )
+.
+requestPostData
 ;
 let
 data
