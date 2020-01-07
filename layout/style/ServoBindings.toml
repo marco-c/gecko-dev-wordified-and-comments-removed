@@ -1957,12 +1957,6 @@ nsAtom
 nsDynamicAtom
 "
 "
-nsMainThreadPtrHandle
-"
-"
-nsMainThreadPtrHolder
-"
-"
 nsMargin
 "
 "

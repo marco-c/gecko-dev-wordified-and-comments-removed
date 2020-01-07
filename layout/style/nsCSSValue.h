@@ -480,10 +480,7 @@ URLValueData
 (
 already_AddRefed
 <
-PtrHolder
-<
 nsIURI
->
 >
 aURI
 const
@@ -501,10 +498,7 @@ URLValueData
 (
 already_AddRefed
 <
-PtrHolder
-<
 nsIURI
->
 >
 aURI
 ServoRawOffsetArc
@@ -645,7 +639,7 @@ const
 private
 :
 mutable
-PtrHandle
+nsCOMPtr
 <
 nsIURI
 >
