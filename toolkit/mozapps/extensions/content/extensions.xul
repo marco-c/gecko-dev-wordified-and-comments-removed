@@ -2697,6 +2697,11 @@ search
 placeholder2
 ;
 "
+maxlength
+=
+"
+100
+"
 /
 >
 <
