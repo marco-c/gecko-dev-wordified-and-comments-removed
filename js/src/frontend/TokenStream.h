@@ -3562,7 +3562,7 @@ static
 MOZ_ALWAYS_INLINE
 JSAtom
 *
-atomizeChars
+atomizeSourceChars
 (
 JSContext
 *
@@ -3856,7 +3856,7 @@ char16_t
 >
 :
 :
-atomizeChars
+atomizeSourceChars
 (
 JSContext
 *
@@ -4980,7 +4980,7 @@ using
 CharsBase
 :
 :
-atomizeChars
+atomizeSourceChars
 ;
 using
 GeneralCharsBase

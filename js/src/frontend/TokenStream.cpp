@@ -6817,7 +6817,7 @@ true
 }
 atom
 =
-atomizeChars
+atomizeSourceChars
 (
 anyCharsAccess
 (
