@@ -1934,6 +1934,10 @@ ServiceWorkerDescriptor
 &
 &
 aController
+const
+bool
+&
+aApplyConversion
 )
 :
 NeckoTargetChannelEvent
@@ -1958,6 +1962,10 @@ aRequestHeaders
 mUseResponseHead
 (
 aUseResponseHead
+)
+mApplyConversion
+(
+aApplyConversion
 )
 mIsFromCache
 (
@@ -2062,6 +2070,7 @@ mCacheKey
 mAltDataType
 mAltDataLen
 mController
+mApplyConversion
 )
 ;
 }
@@ -2078,6 +2087,9 @@ mRequestHeaders
 ;
 bool
 mUseResponseHead
+;
+bool
+mApplyConversion
 ;
 bool
 mIsFromCache
@@ -2207,6 +2219,10 @@ const
 OptionalIPCServiceWorkerDescriptor
 &
 aController
+const
+bool
+&
+aApplyConversion
 )
 {
 LOG
@@ -2329,6 +2345,7 @@ Move
 (
 controller
 )
+aApplyConversion
 )
 )
 ;
@@ -2463,6 +2480,10 @@ ServiceWorkerDescriptor
 >
 &
 aController
+const
+bool
+&
+aApplyConversion
 )
 {
 LOG
@@ -2622,6 +2643,11 @@ mLoadInfo
 >
 GetController
 (
+)
+;
+SetApplyConversion
+(
+aApplyConversion
 )
 ;
 if

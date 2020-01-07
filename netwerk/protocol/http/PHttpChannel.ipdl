@@ -765,6 +765,8 @@ int64_t
 altDataLength
 OptionalIPCServiceWorkerDescriptor
 controller
+bool
+applyConversion
 )
 ;
 /
