@@ -14,7 +14,7 @@ synthesizeProfile
 {
 const
 {
-CATEGORY_MASK
+CATEGORY_INDEX
 }
 =
 require
@@ -80,7 +80,7 @@ frames
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -97,7 +97,7 @@ root
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -125,7 +125,7 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 css
@@ -153,7 +153,7 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 js
@@ -192,7 +192,7 @@ frames
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -209,7 +209,7 @@ root
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -237,7 +237,7 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 css
@@ -265,12 +265,11 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 gc
 "
-1
 )
 location
 :
@@ -309,7 +308,7 @@ frames
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -326,7 +325,7 @@ root
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -354,7 +353,7 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 css
@@ -382,12 +381,11 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 gc
 "
-1
 )
 location
 :
@@ -428,7 +426,7 @@ frames
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -445,7 +443,7 @@ root
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
@@ -473,12 +471,11 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 gc
 "
-2
 )
 location
 :
@@ -502,7 +499,7 @@ baz
 {
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 network
