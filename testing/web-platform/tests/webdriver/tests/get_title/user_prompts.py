@@ -15,14 +15,6 @@ tests
 .
 support
 .
-fixtures
-import
-create_dialog
-from
-tests
-.
-support
-.
 inline
 import
 inline
@@ -106,6 +98,7 @@ def
 test_title_handle_prompt_dismiss
 (
 session
+create_dialog
 )
 :
     
@@ -142,9 +135,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -211,9 +201,6 @@ title
     
 create_dialog
 (
-session
-)
-(
 "
 confirm
 "
@@ -278,9 +265,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt
@@ -352,6 +336,7 @@ def
 test_title_handle_prompt_accept
 (
 session
+create_dialog
 )
 :
     
@@ -376,9 +361,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -457,9 +439,6 @@ title
     
 create_dialog
 (
-session
-)
-(
 "
 confirm
 "
@@ -524,9 +503,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt

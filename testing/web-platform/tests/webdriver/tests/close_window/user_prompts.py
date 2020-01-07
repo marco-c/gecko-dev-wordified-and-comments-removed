@@ -14,15 +14,6 @@ tests
 .
 support
 .
-fixtures
-import
-create_dialog
-create_window
-from
-tests
-.
-support
-.
 inline
 import
 inline
@@ -123,6 +114,8 @@ def
 test_handle_prompt_accept
 (
 session
+create_dialog
+create_window
 )
 :
     
@@ -137,9 +130,6 @@ session
 window_handle
 =
 create_window
-(
-session
-)
 (
 )
     
@@ -164,9 +154,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -222,9 +209,6 @@ window_handle
 =
 create_window
 (
-session
-)
-(
 )
     
 session
@@ -248,9 +232,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 confirm
@@ -306,9 +287,6 @@ window_handle
 =
 create_window
 (
-session
-)
-(
 )
     
 session
@@ -332,9 +310,6 @@ title
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt

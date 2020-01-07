@@ -15,14 +15,6 @@ tests
 .
 support
 .
-fixtures
-import
-create_dialog
-from
-tests
-.
-support
-.
 inline
 import
 inline
@@ -115,6 +107,7 @@ def
 test_handle_prompt_dismiss
 (
 session
+create_dialog
 )
 :
     
@@ -152,9 +145,6 @@ False
 )
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -203,9 +193,6 @@ dismiss
     
 create_dialog
 (
-session
-)
-(
 "
 confirm
 "
@@ -252,9 +239,6 @@ dismiss
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt
@@ -320,6 +304,7 @@ def
 test_handle_prompt_accept
 (
 session
+create_dialog
 )
 :
     
@@ -357,9 +342,6 @@ False
 )
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -408,9 +390,6 @@ dismiss
     
 create_dialog
 (
-session
-)
-(
 "
 confirm
 "
@@ -457,9 +436,6 @@ dismiss
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt
@@ -509,6 +485,7 @@ def
 test_handle_prompt_missing_value
 (
 session
+create_dialog
 )
 :
     
@@ -546,9 +523,6 @@ False
 )
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -599,9 +573,6 @@ dismiss
     
 create_dialog
 (
-session
-)
-(
 "
 confirm
 "
@@ -650,9 +621,6 @@ dismiss
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt
