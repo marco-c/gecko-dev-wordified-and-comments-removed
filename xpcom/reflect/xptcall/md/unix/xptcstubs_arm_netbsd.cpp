@@ -35,7 +35,8 @@ dispatchParams
 =
 nullptr
 ;
-nsIInterfaceInfo
+const
+nsXPTInterfaceInfo
 *
 iface_info
 =
@@ -595,11 +596,6 @@ uint16_t
 methodIndex
 info
 dispatchParams
-)
-;
-NS_RELEASE
-(
-iface_info
 )
 ;
 if

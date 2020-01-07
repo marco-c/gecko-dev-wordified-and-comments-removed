@@ -249,7 +249,8 @@ nsXPTCStubBase
 nsIXPTCProxy
 *
 aOuter
-xptiInterfaceEntry
+const
+nsXPTInterfaceInfo
 *
 aEntry
 )
@@ -268,7 +269,8 @@ nsIXPTCProxy
 *
 mOuter
 ;
-xptiInterfaceEntry
+const
+nsXPTInterfaceInfo
 *
 mEntry
 ;

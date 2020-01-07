@@ -136,7 +136,7 @@ match
 the
 declarations
 in
-xpt_struct
+xptinfo
 .
 h
 .
@@ -153,7 +153,7 @@ explode
 /
 /
 From
-xpt_struct
+xptinfo
 .
 h
 .

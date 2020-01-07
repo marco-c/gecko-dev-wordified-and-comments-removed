@@ -191,14 +191,14 @@ reflect
 /
 xptinfo
 /
-xptiInterfaceInfoManager
+xptinfo
 .
 cpp
 to
-#
 prevent
 generating
 interfaces
+#
 or
 loading
 xpt
@@ -207,7 +207,6 @@ that
 would
 cause
 the
-#
 stubs
 to
 run

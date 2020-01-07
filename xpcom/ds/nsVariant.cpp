@@ -36,7 +36,7 @@ h
 #
 include
 "
-xpt_struct
+xptinfo
 .
 h
 "
