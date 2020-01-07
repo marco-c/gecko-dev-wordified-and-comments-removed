@@ -723,6 +723,14 @@ subsuite
 )
 )
         
+python
+=
+3
+if
+three
+else
+2
+        
 tests
 =
 mp
@@ -735,6 +743,9 @@ filters
 disabled
 =
 False
+python
+=
+python
 *
 *
 mozinfo
