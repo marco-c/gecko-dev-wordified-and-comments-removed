@@ -93,6 +93,11 @@ Font
 js
 '
 '
+FontAxis
+.
+js
+'
+'
 FontEditor
 .
 js
