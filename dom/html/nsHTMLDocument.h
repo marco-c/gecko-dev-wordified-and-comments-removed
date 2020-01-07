@@ -964,6 +964,14 @@ rv
 )
 ;
 void
+GetDesignMode
+(
+nsAString
+&
+aDesignMode
+)
+;
+void
 SetDesignMode
 (
 const
