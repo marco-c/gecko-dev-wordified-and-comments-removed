@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-Counter
-;
-interface
 CSSPrimitiveValue
 :
 CSSValue
@@ -338,11 +335,15 @@ getStringValue
 [
 Throws
 ]
-Counter
+void
 getCounterValue
 (
 )
 ;
+/
+/
+always
+throws
 [
 Throws
 ]

@@ -416,15 +416,6 @@ raises
 DOMException
 )
 ;
-nsIDOMCounter
-getCounterValue
-(
-)
-raises
-(
-DOMException
-)
-;
 nsIDOMRect
 getRectValue
 (

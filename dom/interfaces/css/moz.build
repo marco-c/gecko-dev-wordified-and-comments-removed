@@ -113,11 +113,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMCounter
-.
-idl
-'
-'
 nsIDOMCSSPrimitiveValue
 .
 idl
