@@ -290,35 +290,6 @@ character
 -
 visibility
 "
-        
-"
--
-moz
--
-window
--
-opacity
-"
-        
-"
--
-moz
--
-window
--
-transform
-"
-        
-"
--
-moz
--
-window
--
-transform
--
-origin
-"
     
 ]
     
