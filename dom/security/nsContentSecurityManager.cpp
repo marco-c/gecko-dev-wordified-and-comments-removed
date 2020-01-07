@@ -936,6 +936,15 @@ nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
+|
+|
+type
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_SAVEAS_DOWNLOAD
 )
 {
 return
