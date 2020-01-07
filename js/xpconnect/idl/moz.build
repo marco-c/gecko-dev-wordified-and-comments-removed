@@ -115,11 +115,6 @@ xpccomponents
 idl
 '
 '
-xpcexception
-.
-idl
-'
-'
 xpcIJSGetFactory
 .
 idl
