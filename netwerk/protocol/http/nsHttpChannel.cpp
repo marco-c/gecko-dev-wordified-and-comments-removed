@@ -26387,6 +26387,12 @@ this
 nullptr
 )
 ;
+if
+(
+!
+mAsyncOpenTimeOverriden
+)
+{
 mAsyncOpenTime
 =
 TimeStamp
@@ -26396,6 +26402,7 @@ Now
 (
 )
 ;
+}
 mCustomAuthHeader
 =
 mRequestHead

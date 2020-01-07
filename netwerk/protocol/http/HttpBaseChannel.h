@@ -2982,6 +2982,9 @@ TimingStruct
 mTransactionTimings
 ;
 bool
+mAsyncOpenTimeOverriden
+;
+bool
 mForcePending
 ;
 bool

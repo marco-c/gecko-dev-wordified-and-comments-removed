@@ -10156,6 +10156,12 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+mAsyncOpenTimeOverriden
+)
+{
 mAsyncOpenTime
 =
 TimeStamp
@@ -10165,6 +10171,7 @@ Now
 (
 )
 ;
+}
 #
 ifdef
 MOZ_TASK_TRACER
