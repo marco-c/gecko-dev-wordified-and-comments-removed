@@ -215,9 +215,20 @@ if
 CONFIG
 [
 '
-_MSC_VER
+CC_TYPE
 '
 ]
+in
+(
+'
+msvc
+'
+'
+clang
+-
+cl
+'
+)
 :
         
 skia_opt_flags
@@ -833,9 +844,20 @@ elif
 CONFIG
 [
 '
-_MSC_VER
+CC_TYPE
 '
 ]
+in
+(
+'
+msvc
+'
+'
+clang
+-
+cl
+'
+)
 :
     
 #
