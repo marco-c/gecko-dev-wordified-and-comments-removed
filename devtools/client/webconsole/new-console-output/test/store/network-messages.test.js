@@ -147,8 +147,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 getState

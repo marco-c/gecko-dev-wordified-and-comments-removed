@@ -359,8 +359,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 const
@@ -1875,8 +1873,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 const
@@ -2120,8 +2116,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 expect
@@ -2509,8 +2503,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 store
@@ -2618,8 +2610,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 const
@@ -2715,8 +2705,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 expect

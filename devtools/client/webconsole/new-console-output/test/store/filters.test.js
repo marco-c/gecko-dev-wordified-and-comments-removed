@@ -1722,8 +1722,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 store
@@ -2194,8 +2192,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 store

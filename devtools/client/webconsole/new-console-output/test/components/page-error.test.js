@@ -637,8 +637,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 const
@@ -932,8 +930,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 store

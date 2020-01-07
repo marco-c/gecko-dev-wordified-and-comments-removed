@@ -2728,8 +2728,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 store
