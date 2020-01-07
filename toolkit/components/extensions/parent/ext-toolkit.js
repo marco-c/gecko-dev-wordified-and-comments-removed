@@ -61,7 +61,7 @@ global
 .
 EventEmitter
 =
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 ;

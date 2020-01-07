@@ -54,7 +54,7 @@ var
 normalizeTime
 }
 =
-ExtensionUtils
+ExtensionCommon
 ;
 let
 nsINavHistoryService

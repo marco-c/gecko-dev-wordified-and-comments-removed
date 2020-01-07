@@ -8,7 +8,7 @@ var
 withHandlingUserInput
 }
 =
-ExtensionUtils
+ExtensionCommon
 ;
 var
 gNextMenuItemID

@@ -295,13 +295,11 @@ const
 {
 DefaultMap
 DefaultWeakMap
-defineLazyGetter
 getInnerWindowID
 getWinUtils
 promiseDocumentIdle
 promiseDocumentLoaded
 promiseDocumentReady
-runSafeSyncWithoutClone
 }
 =
 ExtensionUtils
@@ -311,6 +309,8 @@ const
 BaseContext
 CanOfAPIs
 SchemaAPIManager
+defineLazyGetter
+runSafeSyncWithoutClone
 }
 =
 ExtensionCommon
@@ -332,7 +332,7 @@ this
 "
 console
 "
-ExtensionUtils
+ExtensionCommon
 .
 getConsole
 )

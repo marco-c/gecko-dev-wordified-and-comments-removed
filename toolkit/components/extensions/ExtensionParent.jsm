@@ -146,7 +146,7 @@ MessageChannel
 .
 jsm
 "
-OS
+MessageManagerProxy
 :
 "
 resource
@@ -157,7 +157,7 @@ gre
 /
 modules
 /
-osfile
+MessageManagerProxy
 .
 jsm
 "
@@ -173,6 +173,21 @@ gre
 modules
 /
 NativeMessaging
+.
+jsm
+"
+OS
+:
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+osfile
 .
 jsm
 "
@@ -284,6 +299,7 @@ BaseContext
 CanOfAPIs
 SchemaAPIManager
 SpreadArgs
+defineLazyGetter
 }
 =
 ExtensionCommon
@@ -293,8 +309,6 @@ var
 DefaultMap
 DefaultWeakMap
 ExtensionError
-MessageManagerProxy
-defineLazyGetter
 promiseDocumentLoaded
 promiseEvent
 promiseObserved

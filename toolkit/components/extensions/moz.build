@@ -194,6 +194,11 @@ MessageChannel
 jsm
 '
 '
+MessageManagerProxy
+.
+jsm
+'
+'
 NativeManifests
 .
 jsm

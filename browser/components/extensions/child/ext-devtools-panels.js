@@ -36,7 +36,7 @@ ExtensionUtils
 class
 ChildDevToolsPanel
 extends
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 {
@@ -565,7 +565,7 @@ null
 class
 ChildDevToolsInspectorSidebar
 extends
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 {

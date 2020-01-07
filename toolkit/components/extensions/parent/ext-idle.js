@@ -174,7 +174,7 @@ observer
 new
 class
 extends
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 {
