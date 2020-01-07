@@ -1490,6 +1490,14 @@ this
 show3PaneTooltip
 &
 &
+!
+this
+.
+target
+.
+chrome
+&
+&
 this
 .
 toolbox
