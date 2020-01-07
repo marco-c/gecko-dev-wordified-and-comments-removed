@@ -2887,6 +2887,14 @@ interfaces
 .
 xpt
 '
+        
+'
+firefox
+/
+*
+.
+tlb
+'
     
 }
     
