@@ -568,14 +568,6 @@ let
 options
 =
 {
-prefDomain
-:
-"
-privacy
-.
-cpd
-.
-"
 ignoreTimespan
 :
 !
