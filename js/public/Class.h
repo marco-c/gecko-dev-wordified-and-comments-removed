@@ -76,9 +76,6 @@ FunctionClassPtr
 namespace
 JS
 {
-class
-AutoIdVector
-;
 enum
 class
 IsArrayAnswer

@@ -102,13 +102,6 @@ class
 nsIDocShell
 ;
 namespace
-JS
-{
-class
-AutoValueVector
-;
-}
-namespace
 mozilla
 {
 template

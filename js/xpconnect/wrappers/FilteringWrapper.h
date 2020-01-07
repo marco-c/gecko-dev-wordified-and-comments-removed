@@ -39,13 +39,6 @@ Wrapper
 h
 "
 namespace
-JS
-{
-class
-AutoIdVector
-;
-}
-namespace
 xpc
 {
 template
