@@ -2329,7 +2329,7 @@ is_null
 (
 )
 {
-println
+warn
 !
 (
 "
@@ -2809,7 +2809,7 @@ e
 in
 errors
 {
-println
+warn
 !
 (
 "
@@ -4256,7 +4256,7 @@ gl
 VERSION
 )
 ;
-println
+info
 !
 (
 "
@@ -4536,7 +4536,7 @@ e
 =
 >
 {
-println
+warn
 !
 (
 "
@@ -6592,7 +6592,7 @@ e
 =
 >
 {
-println
+warn
 !
 (
 "
