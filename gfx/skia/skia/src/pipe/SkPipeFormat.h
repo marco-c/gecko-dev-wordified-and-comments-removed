@@ -58,6 +58,7 @@ kDrawPaint
 kDrawPoints
 kDrawRect
 kDrawPath
+kDrawShadowRec
 kDrawOval
 kDrawRRect
 kDrawImage
@@ -278,6 +279,18 @@ kDontClipToLayer_SaveLayerMask
 <
 <
 11
+kHasClipMask_SaveLayerMask
+=
+1
+<
+<
+12
+kHasClipMatrix_SaveLayerMask
+=
+1
+<
+<
+13
 }
 ;
 enum

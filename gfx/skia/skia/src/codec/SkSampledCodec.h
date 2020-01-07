@@ -31,6 +31,7 @@ SkSampledCodec
 (
 SkCodec
 *
+ExifOrientationBehavior
 )
 ;
 ~

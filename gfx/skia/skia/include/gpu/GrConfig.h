@@ -102,7 +102,7 @@ endif
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 typedef
 signed
@@ -271,7 +271,7 @@ GR_ALWAYSBREAK
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 #
 define

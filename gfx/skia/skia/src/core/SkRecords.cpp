@@ -38,6 +38,16 @@ updateBoundsCache
 (
 )
 ;
+(
+void
+)
+this
+-
+>
+getGenerationID
+(
+)
+;
 #
 if
 0

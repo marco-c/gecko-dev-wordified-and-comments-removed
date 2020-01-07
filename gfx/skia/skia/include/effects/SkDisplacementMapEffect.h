@@ -28,6 +28,9 @@ kR_ChannelSelectorType
 kG_ChannelSelectorType
 kB_ChannelSelectorType
 kA_ChannelSelectorType
+kLast_ChannelSelectorType
+=
+kA_ChannelSelectorType
 }
 ;
 ~

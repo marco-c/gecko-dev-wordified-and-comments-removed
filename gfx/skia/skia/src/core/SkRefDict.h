@@ -12,7 +12,6 @@ SkRefCnt
 h
 "
 class
-SK_API
 SkRefDict
 :
 SkNoncopyable

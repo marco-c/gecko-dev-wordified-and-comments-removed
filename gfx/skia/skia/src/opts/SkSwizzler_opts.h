@@ -7,7 +7,7 @@ SkSwizzler_opts_DEFINED
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "
@@ -1564,7 +1564,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_rgbA
 (
@@ -1590,7 +1590,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_bgrA
 (
@@ -1616,7 +1616,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_BGRA
 (
@@ -2101,7 +2101,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGB_to_RGB1
 (
@@ -2128,7 +2128,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGB_to_BGR1
 (
@@ -2155,7 +2155,7 @@ count
 )
 ;
 }
-static
+inline
 void
 gray_to_RGB1
 (
@@ -2703,7 +2703,7 @@ count
 )
 ;
 }
-static
+inline
 void
 grayA_to_RGBA
 (
@@ -2730,7 +2730,7 @@ count
 )
 ;
 }
-static
+inline
 void
 grayA_to_rgbA
 (
@@ -3014,7 +3014,7 @@ count
 )
 ;
 }
-static
+inline
 void
 inverted_CMYK_to_RGB1
 (
@@ -3041,7 +3041,7 @@ count
 )
 ;
 }
-static
+inline
 void
 inverted_CMYK_to_BGR1
 (
@@ -3533,7 +3533,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_rgbA
 (
@@ -3559,7 +3559,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_bgrA
 (
@@ -3585,7 +3585,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_BGRA
 (
@@ -3881,7 +3881,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGB_to_RGB1
 (
@@ -3908,7 +3908,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGB_to_BGR1
 (
@@ -3935,7 +3935,7 @@ count
 )
 ;
 }
-static
+inline
 void
 gray_to_RGB1
 (
@@ -4148,7 +4148,7 @@ count
 )
 ;
 }
-static
+inline
 void
 grayA_to_RGBA
 (
@@ -4289,7 +4289,7 @@ count
 )
 ;
 }
-static
+inline
 void
 grayA_to_rgbA
 (
@@ -4896,7 +4896,7 @@ count
 )
 ;
 }
-static
+inline
 void
 inverted_CMYK_to_RGB1
 (
@@ -4923,7 +4923,7 @@ count
 )
 ;
 }
-static
+inline
 void
 inverted_CMYK_to_BGR1
 (
@@ -4952,7 +4952,7 @@ count
 }
 #
 else
-static
+inline
 void
 RGBA_to_rgbA
 (
@@ -4975,7 +4975,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_bgrA
 (
@@ -4998,7 +4998,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGBA_to_BGRA
 (
@@ -5021,7 +5021,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGB_to_RGB1
 (
@@ -5045,7 +5045,7 @@ count
 )
 ;
 }
-static
+inline
 void
 RGB_to_BGR1
 (
@@ -5069,7 +5069,7 @@ count
 )
 ;
 }
-static
+inline
 void
 gray_to_RGB1
 (
@@ -5093,7 +5093,7 @@ count
 )
 ;
 }
-static
+inline
 void
 grayA_to_RGBA
 (
@@ -5117,7 +5117,7 @@ count
 )
 ;
 }
-static
+inline
 void
 grayA_to_rgbA
 (
@@ -5141,7 +5141,7 @@ count
 )
 ;
 }
-static
+inline
 void
 inverted_CMYK_to_RGB1
 (
@@ -5165,7 +5165,7 @@ count
 )
 ;
 }
-static
+inline
 void
 inverted_CMYK_to_BGR1
 (

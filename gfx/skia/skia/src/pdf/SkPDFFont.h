@@ -276,8 +276,10 @@ glyph
 ;
 }
 static
+sk_sp
+<
 SkPDFFont
-*
+>
 GetFontResource
 (
 SkPDFCanon

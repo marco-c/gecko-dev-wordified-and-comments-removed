@@ -56,7 +56,7 @@ const
 UniformInfoArray
 &
 uint32_t
-vertexUniformSize
+geometryUniformSize
 uint32_t
 fragmentUniformSize
 )
@@ -287,7 +287,7 @@ matrix
 const
 override
 {
-SkFAIL
+SK_ABORT
 (
 "
 Only
@@ -311,7 +311,7 @@ GrVkGpu
 gpu
 GrVkUniformBuffer
 *
-vertexBuffer
+geometryBuffer
 GrVkUniformBuffer
 *
 fragmentBuffer
@@ -373,7 +373,7 @@ uni
 const
 ;
 uint32_t
-fVertexUniformSize
+fGeometryUniformSize
 ;
 uint32_t
 fFragmentUniformSize
@@ -387,7 +387,7 @@ fUniforms
 ;
 mutable
 SkAutoMalloc
-fVertexUniformData
+fGeometryUniformData
 ;
 mutable
 SkAutoMalloc
@@ -395,7 +395,7 @@ fFragmentUniformData
 ;
 mutable
 bool
-fVertexUniformsDirty
+fGeometryUniformsDirty
 ;
 mutable
 bool

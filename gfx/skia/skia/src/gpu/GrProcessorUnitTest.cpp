@@ -15,7 +15,10 @@ h
 #
 if
 GR_TEST_UTILS
-sk_sp
+std
+:
+:
+unique_ptr
 <
 GrFragmentProcessor
 >
@@ -32,7 +35,10 @@ data
 #
 if
 SK_ALLOW_STATIC_GLOBAL_INITIALIZERS
-sk_sp
+std
+:
+:
+unique_ptr
 <
 GrFragmentProcessor
 >
@@ -42,10 +48,7 @@ do
 {
 fp
 =
-GrProcessorTestFactory
-<
-GrFragmentProcessor
->
+GrFragmentProcessorTestFactory
 :
 :
 Make
@@ -77,7 +80,7 @@ fp
 ;
 #
 else
-SkFAIL
+SK_ABORT
 (
 "
 Should

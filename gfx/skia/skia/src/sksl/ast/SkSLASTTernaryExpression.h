@@ -53,7 +53,7 @@ INHERITED
 test
 -
 >
-fPosition
+fOffset
 kTernary_Kind
 )
 fTest

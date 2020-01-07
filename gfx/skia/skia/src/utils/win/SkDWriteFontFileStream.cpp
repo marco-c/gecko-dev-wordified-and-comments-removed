@@ -9,7 +9,7 @@ h
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 #
 include
@@ -365,7 +365,7 @@ SkDWriteFontFileStream
 SkDWriteFontFileStream
 :
 :
-duplicate
+onDuplicate
 (
 )
 const
@@ -455,7 +455,7 @@ SkDWriteFontFileStream
 SkDWriteFontFileStream
 :
 :
-fork
+onFork
 (
 )
 const

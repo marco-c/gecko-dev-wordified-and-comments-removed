@@ -17,7 +17,17 @@ include
 .
 .
 /
-SkSLToken
+SkSLCompiler
+.
+h
+"
+#
+include
+"
+.
+.
+/
+SkSLLexer
 .
 h
 "
@@ -48,7 +58,7 @@ INHERITED
 (
 op
 .
-fPosition
+fOffset
 kPrefix_Kind
 )
 fOperator
@@ -77,7 +87,7 @@ const
 override
 {
 return
-Token
+Compiler
 :
 :
 OperatorName

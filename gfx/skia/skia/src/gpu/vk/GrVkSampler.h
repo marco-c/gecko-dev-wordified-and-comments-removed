@@ -21,7 +21,7 @@ GrVkDefines
 h
 "
 class
-GrSamplerParams
+GrSamplerState
 ;
 class
 GrVkGpu
@@ -44,10 +44,10 @@ GrVkGpu
 *
 gpu
 const
-GrSamplerParams
+GrSamplerState
 &
 uint32_t
-mipLevels
+maxMipLevel
 )
 ;
 VkSampler
@@ -65,10 +65,10 @@ uint16_t
 GenerateKey
 (
 const
-GrSamplerParams
+GrSamplerState
 &
 uint32_t
-mipLevels
+maxMipLevel
 )
 ;
 static

@@ -183,7 +183,7 @@ srcSizeInBytes
 )
 override
 {
-SkFAIL
+SK_ABORT
 (
 "
 Not

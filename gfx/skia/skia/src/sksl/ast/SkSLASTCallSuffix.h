@@ -27,8 +27,8 @@ ASTSuffix
 {
 ASTCallSuffix
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -47,7 +47,7 @@ arguments
 :
 INHERITED
 (
-position
+offset
 ASTSuffix
 :
 :

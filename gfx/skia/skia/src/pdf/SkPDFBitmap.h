@@ -15,9 +15,6 @@ class
 SkImage
 ;
 class
-SkPixelSerializer
-;
-class
 SkPDFObject
 ;
 sk_sp
@@ -30,8 +27,10 @@ sk_sp
 <
 SkImage
 >
-SkPixelSerializer
-*
+int
+encodingQuality
+=
+101
 )
 ;
 #

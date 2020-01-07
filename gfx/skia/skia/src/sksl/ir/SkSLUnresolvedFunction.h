@@ -36,9 +36,8 @@ funcs
 :
 INHERITED
 (
-Position
-(
-)
+-
+1
 kUnresolvedFunction_Kind
 funcs
 [
@@ -85,7 +84,6 @@ fName
 #
 endif
 }
-virtual
 String
 description
 (

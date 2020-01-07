@@ -31,6 +31,7 @@ struct
 SkRect
 ;
 class
+SK_API
 SkDrawable
 :
 public
@@ -51,7 +52,7 @@ const
 SkMatrix
 *
 =
-NULL
+nullptr
 )
 ;
 void

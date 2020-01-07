@@ -15,7 +15,7 @@ h
 #
 include
 "
-SkPoint
+SkPointPriv
 .
 h
 "
@@ -954,10 +954,13 @@ prevData
 >
 fAlpha
 ;
-currGrad
-.
-setLengthFast
+SkPointPriv
+:
+:
+SetLengthFast
 (
+&
+currGrad
 1
 .
 0f

@@ -55,8 +55,7 @@ ASTVarDeclaration
 {
 ASTVarDeclaration
 (
-const
-String
+StringFragment
 name
 std
 :
@@ -116,8 +115,9 @@ const
 {
 String
 result
-=
+(
 fName
+)
 ;
 for
 (
@@ -189,7 +189,7 @@ return
 result
 ;
 }
-String
+StringFragment
 fName
 ;
 std
@@ -251,7 +251,7 @@ INHERITED
 type
 -
 >
-fPosition
+fOffset
 kVar_Kind
 )
 fModifiers

@@ -58,15 +58,11 @@ fTotalBits
 size
 *
 =
-SkTMax
-(
-1
 this
 -
 >
 numSamples
 (
-)
 )
 ;
 return

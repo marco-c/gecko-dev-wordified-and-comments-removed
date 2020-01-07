@@ -1,0 +1,15 @@
+#
+ifndef
+GrMtlTypes_DEFINED
+#
+define
+GrMtlTypes_DEFINED
+#
+include
+"
+GrTypes
+.
+h
+"
+#
+endif

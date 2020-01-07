@@ -22,8 +22,8 @@ ASTStatement
 {
 ASTReturnStatement
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -36,7 +36,7 @@ expression
 :
 INHERITED
 (
-position
+offset
 kReturn_Kind
 )
 fExpression

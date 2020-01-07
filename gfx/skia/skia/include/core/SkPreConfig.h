@@ -44,7 +44,7 @@ SK_BUILD_FOR_IOS
 !
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 &
 &
@@ -86,7 +86,7 @@ __SYMBIAN32__
 )
 #
 define
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 #
 elif
 defined
@@ -212,7 +212,7 @@ SK_BUILD_FOR_ANDROID
 endif
 #
 ifdef
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 #
 if
 !

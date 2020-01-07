@@ -44,7 +44,7 @@ INHERITED
 decl
 -
 >
-fPosition
+fOffset
 kVarDeclaration_Kind
 )
 fDeclarations

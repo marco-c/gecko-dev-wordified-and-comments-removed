@@ -392,12 +392,6 @@ fCullRect
 =
 bounds
 ;
-info
-.
-fFlags
-=
-0
-;
 std
 :
 :

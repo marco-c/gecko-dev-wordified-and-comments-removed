@@ -8,13 +8,6 @@ h
 #
 include
 "
-SkPerspIter
-.
-h
-"
-#
-include
-"
 SkShader
 .
 h

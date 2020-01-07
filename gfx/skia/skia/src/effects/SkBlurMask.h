@@ -153,6 +153,7 @@ nullptr
 ;
 static
 SkScalar
+SK_API
 ConvertRadiusToSigma
 (
 SkScalar
@@ -161,6 +162,7 @@ radius
 ;
 static
 SkScalar
+SK_API
 ConvertSigmaToRadius
 (
 SkScalar
@@ -184,10 +186,14 @@ sharpWidth
 )
 ;
 static
-uint8_t
-*
+void
 ComputeBlurProfile
 (
+uint8_t
+*
+profile
+int
+size
 SkScalar
 sigma
 )

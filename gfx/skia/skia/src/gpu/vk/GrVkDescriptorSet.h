@@ -123,7 +123,7 @@ const
 override
 ;
 void
-abandonSubResources
+abandonGPUData
 (
 )
 const

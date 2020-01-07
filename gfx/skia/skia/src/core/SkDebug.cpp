@@ -9,7 +9,7 @@ h
 if
 defined
 (
-GOOGLE3
+SK_BUILD_FOR_GOOGLE3
 )
 void
 SkDebugfForDumpStackTrace

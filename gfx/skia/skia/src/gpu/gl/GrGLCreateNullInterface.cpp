@@ -2555,7 +2555,7 @@ break
 }
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -2687,7 +2687,7 @@ break
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -2942,7 +2942,7 @@ Renderer
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -3024,7 +3024,7 @@ nullptr
 }
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -3357,7 +3357,7 @@ break
 }
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -3403,7 +3403,7 @@ glTarget
 {
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -3831,6 +3831,9 @@ break
 case
 GR_GL_INFO_LOG_LENGTH
 :
+case
+GL_PROGRAM_BINARY_LENGTH
+:
 *
 params
 =
@@ -3840,7 +3843,7 @@ break
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected
@@ -3898,7 +3901,7 @@ break
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unexpected

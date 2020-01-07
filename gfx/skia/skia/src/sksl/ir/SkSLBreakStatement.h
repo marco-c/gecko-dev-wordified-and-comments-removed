@@ -29,13 +29,13 @@ Statement
 {
 BreakStatement
 (
-Position
-position
+int
+offset
 )
 :
 INHERITED
 (
-position
+offset
 kBreak_Kind
 )
 {

@@ -465,13 +465,7 @@ uint16_t
 *
 )
 text
-SkToInt
-(
 byteLength
->
->
-1
-)
 )
 ;
 break

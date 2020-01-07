@@ -899,10 +899,7 @@ Entry
 +
 sizeof
 (
-SkScalerContext
-:
-:
-Rec
+SkScalerContextRec
 )
 +
 sizeof

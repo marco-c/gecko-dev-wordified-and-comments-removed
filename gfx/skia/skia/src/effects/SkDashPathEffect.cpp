@@ -8,6 +8,13 @@ h
 #
 include
 "
+SkDashImpl
+.
+h
+"
+#
+include
+"
 SkDashPathPriv
 .
 h
@@ -33,10 +40,10 @@ SkStrokeRec
 .
 h
 "
-SkDashPathEffect
+SkDashImpl
 :
 :
-SkDashPathEffect
+SkDashImpl
 (
 const
 SkScalar
@@ -151,11 +158,11 @@ fPhase
 )
 ;
 }
-SkDashPathEffect
+SkDashImpl
 :
 :
 ~
-SkDashPathEffect
+SkDashImpl
 (
 )
 {
@@ -166,7 +173,7 @@ fIntervals
 ;
 }
 bool
-SkDashPathEffect
+SkDashImpl
 :
 :
 filterPath
@@ -775,7 +782,7 @@ true
 ;
 }
 bool
-SkDashPathEffect
+SkDashImpl
 :
 :
 asPoints
@@ -1891,7 +1898,7 @@ SkPathEffect
 :
 :
 DashType
-SkDashPathEffect
+SkDashImpl
 :
 :
 asADash
@@ -1960,7 +1967,7 @@ kDash_DashType
 ;
 }
 void
-SkDashPathEffect
+SkDashImpl
 :
 :
 flatten
@@ -1991,7 +1998,7 @@ sk_sp
 <
 SkFlattenable
 >
-SkDashPathEffect
+SkDashImpl
 :
 :
 CreateProc
@@ -2046,6 +2053,9 @@ count
 )
 {
 return
+SkDashPathEffect
+:
+:
 Make
 (
 intervals
@@ -2069,7 +2079,7 @@ nullptr
 ifndef
 SK_IGNORE_TO_STRING
 void
-SkDashPathEffect
+SkDashImpl
 :
 :
 toString
@@ -2225,7 +2235,7 @@ SkPathEffect
 >
 (
 new
-SkDashPathEffect
+SkDashImpl
 (
 intervals
 count

@@ -19,8 +19,8 @@ SkTypes
 .
 h
 "
-const
 static
+constexpr
 uint8_t
 n_bit_to_8_bit_lookup_table
 [

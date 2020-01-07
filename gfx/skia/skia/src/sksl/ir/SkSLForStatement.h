@@ -36,8 +36,8 @@ Statement
 {
 ForStatement
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -82,7 +82,7 @@ symbols
 :
 INHERITED
 (
-position
+offset
 kFor_Kind
 )
 fSymbols
@@ -236,7 +236,6 @@ SymbolTable
 >
 fSymbols
 ;
-const
 std
 :
 :
@@ -264,7 +263,6 @@ Expression
 >
 fNext
 ;
-const
 std
 :
 :

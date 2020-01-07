@@ -29,8 +29,8 @@ Statement
 {
 WhileStatement
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -51,7 +51,7 @@ statement
 :
 INHERITED
 (
-position
+offset
 kWhile_Kind
 )
 fTest
@@ -117,7 +117,6 @@ Expression
 >
 fTest
 ;
-const
 std
 :
 :

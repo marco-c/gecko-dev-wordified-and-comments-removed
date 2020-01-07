@@ -46,6 +46,7 @@ setjmp
 h
 >
 void
+SK_API
 skjpeg_error_exit
 (
 j_common_ptr
@@ -53,6 +54,7 @@ cinfo
 )
 ;
 struct
+SK_API
 skjpeg_destination_mgr
 :
 jpeg_destination_mgr

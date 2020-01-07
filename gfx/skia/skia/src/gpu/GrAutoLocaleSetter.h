@@ -194,9 +194,9 @@ fLocale
 =
 newlocale
 (
-LC_ALL
+LC_ALL_MASK
 name
-0
+nullptr
 )
 ;
 if
@@ -221,7 +221,7 @@ static_cast
 locale_t
 >
 (
-0
+nullptr
 )
 ;
 }

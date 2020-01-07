@@ -59,6 +59,7 @@ SkCopyPixelsMode
 )
 ;
 extern
+SK_API
 sk_sp
 <
 SkImage
@@ -81,18 +82,6 @@ const
 SkImage
 *
 rasterImage
-)
-;
-extern
-void
-SkTextureImageSetTexture
-(
-SkImage
-*
-image
-GrTexture
-*
-texture
 )
 ;
 bool

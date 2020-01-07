@@ -14,6 +14,13 @@ h
 #
 include
 "
+GrGpu
+.
+h
+"
+#
+include
+"
 GrPathRendering
 .
 h
@@ -73,8 +80,10 @@ GrGLPathRendering
 )
 override
 ;
+sk_sp
+<
 GrPath
-*
+>
 createPath
 (
 const
@@ -87,8 +96,10 @@ GrStyle
 override
 ;
 virtual
+sk_sp
+<
 GrPathRange
-*
+>
 createPathRange
 (
 GrPathRange

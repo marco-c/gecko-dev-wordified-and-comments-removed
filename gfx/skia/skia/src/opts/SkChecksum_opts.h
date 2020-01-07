@@ -35,12 +35,6 @@ h
 elif
 defined
 (
-SK_CPU_ARM64
-)
-&
-&
-defined
-(
 SK_ARM_HAS_CRC32
 )
 #
@@ -109,7 +103,7 @@ defined
 _M_X64
 )
 )
-static
+inline
 uint32_t
 hash_fn
 (
@@ -409,7 +403,7 @@ SK_CPU_SSE_LEVEL
 >
 =
 SK_CPU_SSE_LEVEL_SSE42
-static
+inline
 uint32_t
 hash_fn
 (
@@ -667,15 +661,9 @@ hash
 elif
 defined
 (
-SK_CPU_ARM64
-)
-&
-&
-defined
-(
 SK_ARM_HAS_CRC32
 )
-static
+inline
 uint32_t
 hash_fn
 (
@@ -958,7 +946,7 @@ hash
 }
 #
 else
-static
+inline
 uint32_t
 hash_fn
 (

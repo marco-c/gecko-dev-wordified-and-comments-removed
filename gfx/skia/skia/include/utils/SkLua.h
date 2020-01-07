@@ -97,7 +97,7 @@ termCode
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 SkLua
@@ -178,7 +178,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -194,7 +194,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -212,7 +212,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -227,7 +227,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -245,7 +245,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -263,7 +263,7 @@ key
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -281,7 +281,7 @@ key
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -294,7 +294,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -307,7 +307,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -320,7 +320,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -335,7 +335,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -350,7 +350,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -368,7 +368,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -383,7 +383,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -398,7 +398,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -413,7 +413,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -427,7 +427,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -442,7 +442,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 private

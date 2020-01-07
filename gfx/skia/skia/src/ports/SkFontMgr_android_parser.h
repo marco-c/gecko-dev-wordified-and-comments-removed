@@ -334,8 +334,12 @@ true
 >
 fFonts
 ;
+SkTArray
+<
 SkLanguage
-fLanguage
+true
+>
+fLanguages
 ;
 FontVariant
 fVariant

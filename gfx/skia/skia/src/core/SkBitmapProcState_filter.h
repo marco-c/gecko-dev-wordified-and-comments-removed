@@ -1,7 +1,7 @@
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "

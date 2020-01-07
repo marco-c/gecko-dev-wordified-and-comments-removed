@@ -1074,7 +1074,6 @@ result
 allocPixels
 (
 allocator
-nullptr
 )
 ;
 SkPixmap
@@ -1109,13 +1108,6 @@ false
 resultPtr
 =
 result
-;
-resultPtr
--
->
-lockPixels
-(
-)
 ;
 SkASSERT
 (

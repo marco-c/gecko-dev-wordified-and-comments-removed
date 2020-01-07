@@ -22,6 +22,9 @@ struct
 SkIPoint
 ;
 class
+SkImageFilter
+;
+class
 SkSpecialImage
 ;
 struct
@@ -112,6 +115,15 @@ fMatrix
 .
 getType
 (
+)
+;
+SkASSERT
+(
+fMatrix
+.
+isFinite
+(
+)
 )
 ;
 }
@@ -261,6 +273,10 @@ const
 SkIPoint
 &
 offset
+const
+SkImageFilter
+*
+filter
 )
 =
 0

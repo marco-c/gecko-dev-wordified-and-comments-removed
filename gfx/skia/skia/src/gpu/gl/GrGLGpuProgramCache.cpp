@@ -478,7 +478,7 @@ origin
 =
 pipeline
 .
-getRenderTarget
+proxy
 (
 )
 -

@@ -21,7 +21,7 @@ h
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "
@@ -610,6 +610,10 @@ getGammaTables
 const
 {
 return
+fIsLinear
+?
+nullptr
+:
 (
 const
 uint8_t

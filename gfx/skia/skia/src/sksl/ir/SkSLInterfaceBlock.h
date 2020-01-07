@@ -36,8 +36,8 @@ ProgramElement
 {
 InterfaceBlock
 (
-Position
-position
+int
+offset
 const
 Variable
 *
@@ -72,7 +72,7 @@ typeOwner
 :
 INHERITED
 (
-position
+offset
 kInterfaceBlock_Kind
 )
 fVariable
@@ -296,7 +296,6 @@ const
 String
 fInstanceName
 ;
-const
 std
 :
 :

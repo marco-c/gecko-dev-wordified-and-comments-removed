@@ -14,7 +14,7 @@ h
 #
 include
 "
-SkMatrix
+SkMatrixPriv
 .
 h
 "
@@ -43,10 +43,12 @@ matrix
 )
 fProc
 (
-matrix
-.
-getMapXYProc
+SkMatrixPriv
+:
+:
+GetMapXYProc
 (
+matrix
 )
 )
 fOffset
@@ -222,7 +224,7 @@ kX
 fMapCase
 ;
 const
-SkMatrix
+SkMatrixPriv
 :
 :
 MapXYProc

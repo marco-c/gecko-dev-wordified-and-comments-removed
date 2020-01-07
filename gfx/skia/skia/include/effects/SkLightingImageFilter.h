@@ -291,6 +291,17 @@ get
 )
 ;
 }
+inline
+sk_sp
+<
+const
+SkImageFilterLight
+>
+refLight
+(
+)
+const
+;
 SkScalar
 surfaceScale
 (

@@ -256,10 +256,7 @@ x
 )
 {
 return
-static_cast
-<
-float
->
+sk_double_to_float
 (
 x
 )

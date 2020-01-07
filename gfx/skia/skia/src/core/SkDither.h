@@ -7,7 +7,7 @@ SkDither_DEFINED
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "
@@ -1065,6 +1065,7 @@ x
 #
 else
 extern
+SK_API
 const
 uint16_t
 gDitherMatrix_4Bit_16
@@ -1073,6 +1074,7 @@ gDitherMatrix_4Bit_16
 ]
 ;
 extern
+SK_API
 const
 uint16_t
 gDitherMatrix_3Bit_16

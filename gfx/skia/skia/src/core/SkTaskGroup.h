@@ -97,6 +97,12 @@ int
 fn
 )
 ;
+bool
+done
+(
+)
+const
+;
 void
 wait
 (

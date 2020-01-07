@@ -76,11 +76,12 @@ SkRect
 rect
 )
 {
-fPoints
--
->
-setRectFan
+SkPointPriv
+:
+:
+SetRectTriStrip
 (
+fPoints
 rect
 .
 fLeft
@@ -93,6 +94,10 @@ fRight
 rect
 .
 fBottom
+sizeof
+(
+SkPoint
+)
 )
 ;
 }
@@ -130,7 +135,7 @@ matrix
 SkMatrixPriv
 :
 :
-SetMappedRectFan
+SetMappedRectTriStrip
 (
 matrix
 rect

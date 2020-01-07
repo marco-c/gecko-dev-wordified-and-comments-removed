@@ -570,9 +570,6 @@ SkImageGeneratorWIC
 :
 onRefEncodedData
 (
-GrContext
-*
-ctx
 )
 {
 return
@@ -601,13 +598,9 @@ void
 pixels
 size_t
 rowBytes
-SkPMColor
-ctable
-[
-]
-int
-*
-ctableCount
+const
+Options
+&
 )
 {
 if

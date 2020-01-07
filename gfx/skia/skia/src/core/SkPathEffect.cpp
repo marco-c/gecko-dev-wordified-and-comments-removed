@@ -97,7 +97,6 @@ kNone_DashType
 ;
 }
 class
-SK_API
 SkPairPathEffect
 :
 public
@@ -284,7 +283,6 @@ str
 #
 endif
 class
-SK_API
 SkComposePathEffect
 :
 public
@@ -603,7 +601,6 @@ appendf
 #
 endif
 class
-SK_API
 SkSumPathEffect
 :
 public

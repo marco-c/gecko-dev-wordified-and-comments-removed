@@ -76,7 +76,7 @@ fCount
 ;
 fArray
 =
-NULL
+nullptr
 ;
 if
 (
@@ -516,7 +516,7 @@ fArray
 ;
 fArray
 =
-NULL
+nullptr
 ;
 fReserve
 =
@@ -611,7 +611,7 @@ fArray
 +
 fCount
 :
-NULL
+nullptr
 ;
 }
 const
@@ -629,7 +629,7 @@ fArray
 +
 fCount
 :
-NULL
+nullptr
 ;
 }
 T
@@ -737,7 +737,7 @@ fArray
 ;
 fArray
 =
-NULL
+nullptr
 ;
 fReserve
 =
@@ -883,7 +883,7 @@ this
 append
 (
 1
-NULL
+nullptr
 )
 ;
 }
@@ -898,7 +898,7 @@ T
 *
 src
 =
-NULL
+nullptr
 )
 {
 int
@@ -916,13 +916,13 @@ SkASSERT
 src
 =
 =
-NULL
+nullptr
 |
 |
 fArray
 =
 =
-NULL
+nullptr
 |
 |
 src
@@ -1018,7 +1018,7 @@ insert
 (
 index
 1
-NULL
+nullptr
 )
 ;
 }
@@ -1035,7 +1035,7 @@ T
 *
 src
 =
-NULL
+nullptr
 )
 {
 SkASSERT
@@ -1908,7 +1908,7 @@ fReserve
 fArray
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -1921,7 +1921,7 @@ fReserve
 fArray
 !
 =
-NULL
+nullptr
 )
 )
 ;

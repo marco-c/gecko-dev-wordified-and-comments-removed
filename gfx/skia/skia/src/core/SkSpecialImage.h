@@ -43,12 +43,6 @@ class
 GrContext
 ;
 class
-GrSurfaceProxy
-;
-class
-GrTexture
-;
-class
 GrTextureProxy
 ;
 class

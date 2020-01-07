@@ -12,6 +12,7 @@ SkScalar
 h
 "
 class
+SK_API
 SkInterpolatorBase
 :
 SkNoncopyable
@@ -172,7 +173,7 @@ blend
 4
 ]
 =
-NULL
+nullptr
 )
 ;
 int16_t
@@ -226,6 +227,7 @@ endif
 }
 ;
 class
+SK_API
 SkInterpolator
 :
 public
@@ -273,7 +275,7 @@ blend
 4
 ]
 =
-NULL
+nullptr
 )
 ;
 Result
@@ -286,7 +288,7 @@ values
 [
 ]
 =
-NULL
+nullptr
 )
 const
 ;

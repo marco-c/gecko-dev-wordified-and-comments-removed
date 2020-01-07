@@ -14,6 +14,13 @@ h
 #
 include
 "
+SkRect
+.
+h
+"
+#
+include
+"
 SkScalar
 .
 h
@@ -25,6 +32,9 @@ SkBlurTypes
 .
 h
 "
+class
+SkRRect
+;
 class
 SK_API
 SkBlurMaskFilter

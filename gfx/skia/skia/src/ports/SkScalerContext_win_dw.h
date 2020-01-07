@@ -74,11 +74,11 @@ SkDescriptor
 *
 )
 ;
-virtual
 ~
 SkScalerContext_DW
 (
 )
+override
 ;
 protected
 :
@@ -242,12 +242,6 @@ fSkXform
 ;
 DWRITE_MATRIX
 fXform
-;
-DWRITE_MATRIX
-fGsA
-;
-SkMatrix
-fG_inv
 ;
 SkScalar
 fTextSizeRender

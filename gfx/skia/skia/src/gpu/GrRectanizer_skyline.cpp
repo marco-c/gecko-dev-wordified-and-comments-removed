@@ -79,6 +79,8 @@ width
 ;
 int
 bestX
+=
+0
 ;
 int
 bestY

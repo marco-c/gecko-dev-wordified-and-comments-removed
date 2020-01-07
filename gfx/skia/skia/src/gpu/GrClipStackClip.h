@@ -82,7 +82,6 @@ SkRect
 )
 const
 final
-override
 ;
 bool
 quickContains
@@ -93,7 +92,6 @@ SkRRect
 )
 const
 final
-override
 ;
 void
 getConservativeBounds
@@ -111,7 +109,6 @@ isIntersectionOfRects
 )
 const
 final
-override
 ;
 bool
 apply
@@ -133,7 +130,6 @@ bounds
 )
 const
 final
-override
 ;
 bool
 isRRect
@@ -179,6 +175,10 @@ PathNeedsSWRenderer
 GrContext
 *
 context
+const
+SkIRect
+&
+scissorRect
 bool
 hasUserStencilSettings
 const
@@ -202,6 +202,23 @@ prOut
 bool
 needsStencil
 )
+;
+bool
+applyClipMask
+(
+GrContext
+*
+GrRenderTargetContext
+*
+const
+GrReducedClip
+&
+bool
+hasUserStencilSettings
+GrAppliedClip
+*
+)
+const
 ;
 sk_sp
 <
@@ -228,6 +245,8 @@ GrContext
 const
 GrReducedClip
 &
+GrRenderTargetContext
+*
 )
 const
 ;

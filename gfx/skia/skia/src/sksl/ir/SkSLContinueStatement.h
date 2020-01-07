@@ -29,13 +29,13 @@ Statement
 {
 ContinueStatement
 (
-Position
-position
+int
+offset
 )
 :
 INHERITED
 (
-position
+offset
 kContinue_Kind
 )
 {

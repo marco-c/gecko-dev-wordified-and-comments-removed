@@ -5,6 +5,18 @@ GrBlend
 .
 h
 "
+#
+include
+"
+.
+.
+/
+private
+/
+GrColor
+.
+h
+"
 class
 MaskedColor
 {
@@ -600,7 +612,7 @@ value
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Illegal

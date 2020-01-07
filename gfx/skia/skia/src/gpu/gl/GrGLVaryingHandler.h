@@ -61,12 +61,8 @@ const
 char
 *
 name
-GrGLSLVertToFrag
+GrGLSLVarying
 *
-GrSLPrecision
-fsPrecision
-=
-kDefault_GrSLPrecision
 )
 ;
 private

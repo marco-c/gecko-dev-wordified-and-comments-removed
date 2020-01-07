@@ -504,6 +504,17 @@ SkPaint
 )
 override
 ;
+void
+onDrawDrawable
+(
+SkDrawable
+*
+const
+SkMatrix
+*
+)
+override
+;
 private
 :
 lua_State

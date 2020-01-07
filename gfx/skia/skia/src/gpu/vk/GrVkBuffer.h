@@ -151,6 +151,7 @@ Type
 kVertex_Type
 kIndex_Type
 kUniform_Type
+kTexel_Type
 kCopyRead_Type
 kCopyWrite_Type
 }
@@ -339,6 +340,10 @@ fMapPtr
 (
 nullptr
 )
+fMappedSize
+(
+0
+)
 {
 }
 void
@@ -497,6 +502,9 @@ fOffset
 void
 *
 fMapPtr
+;
+VkDeviceSize
+fMappedSize
 ;
 typedef
 SkNoncopyable

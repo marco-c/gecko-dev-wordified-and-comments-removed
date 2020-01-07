@@ -64,7 +64,7 @@ bytesToFill
 =
 info
 .
-getSafeSize
+computeByteSize
 (
 rowBytes
 )
@@ -269,9 +269,6 @@ rowBytes
 break
 ;
 }
-case
-kIndex_8_SkColorType
-:
 case
 kGray_8_SkColorType
 :

@@ -29,13 +29,13 @@ Statement
 {
 DiscardStatement
 (
-Position
-position
+int
+offset
 )
 :
 INHERITED
 (
-position
+offset
 kDiscard_Kind
 )
 {

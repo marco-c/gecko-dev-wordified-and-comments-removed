@@ -19,7 +19,6 @@ SkMatrix
 h
 "
 class
-SK_API
 SkMatrixImageFilter
 :
 public
@@ -104,6 +103,18 @@ Context
 SkIPoint
 *
 offset
+)
+const
+override
+;
+sk_sp
+<
+SkImageFilter
+>
+onMakeColorSpace
+(
+SkColorSpaceXformer
+*
 )
 const
 override

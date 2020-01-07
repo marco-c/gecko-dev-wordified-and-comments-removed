@@ -22,8 +22,8 @@ ASTStatement
 {
 ASTDoStatement
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -44,7 +44,7 @@ test
 :
 INHERITED
 (
-position
+offset
 kDo_Kind
 )
 fStatement

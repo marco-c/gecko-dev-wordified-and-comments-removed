@@ -30,7 +30,7 @@ GR_GL_FUNCTION_TYPE
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 #
 define

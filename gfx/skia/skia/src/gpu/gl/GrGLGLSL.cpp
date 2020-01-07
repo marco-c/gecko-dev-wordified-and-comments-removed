@@ -299,7 +299,7 @@ true
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unknown

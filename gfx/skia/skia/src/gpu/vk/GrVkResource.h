@@ -448,7 +448,7 @@ const
 ;
 virtual
 void
-abandonSubResources
+abandonGPUData
 (
 )
 const
@@ -509,7 +509,7 @@ const
 this
 -
 >
-abandonSubResources
+abandonGPUData
 (
 )
 ;

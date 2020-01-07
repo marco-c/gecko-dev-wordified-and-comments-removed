@@ -45,7 +45,7 @@ CropRect
 *
 cropRect
 =
-NULL
+nullptr
 )
 ;
 SK_TO_STRING_OVERRIDE

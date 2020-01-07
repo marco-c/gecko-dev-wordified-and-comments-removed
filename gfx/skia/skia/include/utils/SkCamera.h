@@ -375,7 +375,7 @@ SkPatch3D
 *
 dst
 =
-NULL
+nullptr
 )
 const
 ;
@@ -516,6 +516,7 @@ const
 }
 ;
 class
+SK_API
 Sk3DView
 :
 SkNoncopyable

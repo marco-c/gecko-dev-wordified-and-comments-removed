@@ -15,13 +15,6 @@ h
 #
 include
 "
-SkImageCacherator
-.
-h
-"
-#
-include
-"
 SkPixelRef
 .
 h

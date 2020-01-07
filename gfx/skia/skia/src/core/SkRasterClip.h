@@ -190,7 +190,7 @@ rect
 ;
 }
 void
-op
+opRect
 (
 const
 SkRect
@@ -211,7 +211,7 @@ isAA
 )
 ;
 void
-op
+opRRect
 (
 const
 SkRRect
@@ -232,7 +232,7 @@ isAA
 )
 ;
 void
-op
+opPath
 (
 const
 SkPath
@@ -253,7 +253,7 @@ isAA
 )
 ;
 void
-op
+opRegion
 (
 const
 SkRegion
@@ -265,7 +265,7 @@ Op
 )
 ;
 void
-op
+opIRect
 (
 const
 SkIRect

@@ -459,6 +459,16 @@ bool
 drawDirectToClip
 )
 ;
+static
+const
+GrUserStencilSettings
+*
+SetClipBitSettings
+(
+bool
+setToInside
+)
+;
 private
 :
 enum
