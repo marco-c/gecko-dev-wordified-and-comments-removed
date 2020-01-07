@@ -2909,8 +2909,6 @@ clang
 -
 6
 -
-pre
--
 linux64
 -
 gcc
@@ -3075,8 +3073,6 @@ linux64
 clang
 -
 6
--
-pre
 -
 linux64
 -
@@ -3262,8 +3258,6 @@ clang
 -
 6
 -
-pre
--
 linux64
 -
 gcc
@@ -3426,8 +3420,6 @@ linux64
 clang
 -
 6
--
-pre
 -
 linux64
 -
