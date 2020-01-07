@@ -24,13 +24,6 @@ src
 )
 {
 const
-nsIDOMNode
-=
-Ci
-.
-nsIDOMNode
-;
-const
 nsISAXXMLReader
 =
 Ci

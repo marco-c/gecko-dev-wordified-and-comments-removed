@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
