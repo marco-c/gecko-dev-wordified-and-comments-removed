@@ -105,15 +105,3 @@ Enterprise
 Policies
 "
 )
-EXTRA_JS_MODULES
-.
-policies
-+
-=
-[
-'
-BookmarksPolicies
-.
-jsm
-'
-]
