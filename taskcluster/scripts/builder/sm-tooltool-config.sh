@@ -275,10 +275,6 @@ SRCDIR
 mach
 artifact
 toolchain
-{
-TOOLTOOL_MANIFEST
-:
-+
 -
 v
 TOOLTOOL_AUTH_FLAGS
@@ -296,7 +292,6 @@ manifest
 SRCDIR
 /
 TOOLTOOL_MANIFEST
-}
 {
 TOOLTOOL_CACHE
 :
