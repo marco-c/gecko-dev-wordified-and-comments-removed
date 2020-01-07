@@ -2229,6 +2229,9 @@ incdirs
 parent
 .
 parser
+parent
+.
+webidlconfig
 )
             
 for
@@ -2434,6 +2437,7 @@ resolve
 self
 incdirs
 parser
+webidlconfig
 )
 :
         
@@ -2456,6 +2460,12 @@ self
 parser
 =
 parser
+        
+self
+.
+webidlconfig
+=
+webidlconfig
         
 for
 p
