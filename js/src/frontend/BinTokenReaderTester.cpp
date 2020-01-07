@@ -1488,6 +1488,10 @@ BinTokenReaderTester
 reader
 )
 :
+initialized_
+(
+false
+)
 reader_
 (
 reader

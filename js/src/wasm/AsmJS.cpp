@@ -1299,6 +1299,10 @@ CacheResult
 :
 Miss
 )
+toStringStart
+(
+0
+)
 srcStart
 (
 0
@@ -6900,6 +6904,11 @@ MOZ_PUSH_DISABLE_NONTRIVIAL_UNION_WARNINGS
 U
 (
 )
+:
+funcDefIndex_
+(
+0
+)
 {
 }
 MOZ_POP_DISABLE_NONTRIVIAL_UNION_WARNINGS
@@ -7340,6 +7349,9 @@ Kind
 1
 )
 )
+u
+{
+}
 {
 }
 explicit

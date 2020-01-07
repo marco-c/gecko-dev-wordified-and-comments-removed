@@ -9739,6 +9739,14 @@ size_t
 len
 )
 :
+stack_
+(
+nullptr
+)
+prev_
+(
+nullptr
+)
 source_
 (
 source

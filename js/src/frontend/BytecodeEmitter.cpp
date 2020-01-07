@@ -7778,6 +7778,9 @@ tryStart_
 (
 0
 )
+tryEnd_
+{
+}
 #
 ifdef
 DEBUG
@@ -10429,6 +10432,10 @@ current
 (
 &
 main
+)
+parser
+(
+nullptr
 )
 atomIndices
 (

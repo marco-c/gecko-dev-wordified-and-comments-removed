@@ -379,6 +379,13 @@ options_
 (
 options
 )
+variableDeclarationKind_
+(
+VariableDeclarationKind
+:
+:
+Var
+)
 {
 }
 ~

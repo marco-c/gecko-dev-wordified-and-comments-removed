@@ -220,6 +220,15 @@ end
 TokenPos
 (
 )
+:
+begin
+(
+0
+)
+end
+(
+0
+)
 {
 }
 TokenPos
