@@ -6,7 +6,6 @@ strict
 const
 {
 Cc
-Ci
 }
 =
 require
@@ -34,9 +33,6 @@ childprocessmessagemanager
 .
 getService
 (
-Ci
-.
-nsIMessageListenerManager
 )
 ;
 const

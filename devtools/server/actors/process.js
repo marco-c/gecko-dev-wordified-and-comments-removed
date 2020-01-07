@@ -6,7 +6,6 @@ strict
 var
 {
 Cc
-Ci
 }
 =
 require
@@ -45,9 +44,6 @@ parentprocessmessagemanager
 .
 getService
 (
-Ci
-.
-nsIMessageBroadcaster
 )
 ;
 }

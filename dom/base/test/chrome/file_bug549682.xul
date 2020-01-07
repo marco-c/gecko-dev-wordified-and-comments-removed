@@ -199,11 +199,6 @@ globalmessagemanager
 .
 getService
 (
-Components
-.
-interfaces
-.
-nsIMessageBroadcaster
 )
 ;
 var
@@ -224,11 +219,6 @@ parentprocessmessagemanager
 .
 getService
 (
-Components
-.
-interfaces
-.
-nsIMessageBroadcaster
 )
 ;
 var
@@ -249,11 +239,6 @@ childprocessmessagemanager
 .
 getService
 (
-Components
-.
-interfaces
-.
-nsISyncMessageSender
 )
 ;
 ChromeUtils

@@ -148,9 +148,6 @@ parentprocessmessagemanager
 .
 getService
 (
-Ci
-.
-nsIMessageListenerManager
 )
 ;
 globalMM
@@ -190,9 +187,6 @@ parentprocessmessagemanager
 .
 getService
 (
-Ci
-.
-nsIMessageListenerManager
 )
 ;
 globalMM

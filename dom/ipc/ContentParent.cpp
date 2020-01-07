@@ -2989,7 +2989,7 @@ ScriptableCPInfo
 :
 GetMessageManager
 (
-nsIMessageSender
+nsISupports
 *
 *
 aMessenger
@@ -10150,6 +10150,8 @@ endif
 InitInternal
 (
 aInitialPriority
+true
+true
 )
 ;
 ContentProcessManager
@@ -10641,6 +10643,10 @@ InitInternal
 (
 ProcessPriority
 aInitialPriority
+bool
+aSetupOffMainThreadCompositing
+bool
+aSendRegisteredChrome
 )
 {
 Telemetry
@@ -11481,6 +11487,11 @@ lnfCache
 fontList
 )
 ;
+if
+(
+aSendRegisteredChrome
+)
+{
 nsCOMPtr
 <
 nsIChromeRegistry
@@ -11519,6 +11530,7 @@ SendRegisteredChrome
 this
 )
 ;
+}
 if
 (
 gAppData
@@ -11626,6 +11638,11 @@ this
 aInitialPriority
 )
 ;
+if
+(
+aSetupOffMainThreadCompositing
+)
+{
 GPUProcessManager
 *
 gpm
@@ -11731,6 +11748,7 @@ AddListener
 this
 )
 ;
+}
 nsStyleSheetService
 *
 sheetService
