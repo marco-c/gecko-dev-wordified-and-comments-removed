@@ -191,12 +191,6 @@ android
 *
 *
 "
-"
-testing
-/
-*
-*
-"
 ]
 "
 rules
