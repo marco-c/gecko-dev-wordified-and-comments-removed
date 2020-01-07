@@ -143,14 +143,6 @@ skip
 if
 (
 Android
-|
-|
-(
-webrender
-&
-&
-winWidget
-)
 )
 HTTP
 load
@@ -162,11 +154,6 @@ html
 #
 bug
 908363
-;
-bug
-1322815
-for
-webrender
 HTTP
 load
 752340
