@@ -407,6 +407,9 @@ recvdRecords
 PRUint32
 earlyDataRemaining
 ;
+PRUint16
+recordSizeLimit
+;
 }
 ;
 typedef

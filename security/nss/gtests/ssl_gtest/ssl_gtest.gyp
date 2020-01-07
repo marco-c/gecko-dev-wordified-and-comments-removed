@@ -239,6 +239,11 @@ ssl_record_unittest
 cc
 '
 '
+ssl_recordsize_unittest
+.
+cc
+'
+'
 ssl_resumption_unittest
 .
 cc

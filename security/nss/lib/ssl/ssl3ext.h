@@ -173,6 +173,9 @@ selectedGroup
 SECItem
 applicationToken
 ;
+PRUint16
+recordSizeLimit
+;
 }
 ;
 typedef

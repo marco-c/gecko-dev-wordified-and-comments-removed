@@ -5184,10 +5184,10 @@ blocksize
 uint8_t
 block
 [
-4096
+16385
 ]
 ;
-ASSERT_LT
+ASSERT_LE
 (
 blocksize
 sizeof

@@ -878,6 +878,9 @@ ssl_padding_xtn
 ssl_extended_master_secret_xtn
 =
 23
+ssl_record_size_limit_xtn
+=
+28
 ssl_session_ticket_xtn
 =
 35
@@ -927,7 +930,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-20
+21
 typedef
 enum
 {
