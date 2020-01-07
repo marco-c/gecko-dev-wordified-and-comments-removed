@@ -89,27 +89,6 @@ debug_build
 True
     
 '
-tooltool_manifest_src
-'
-:
-"
-browser
-/
-config
-/
-tooltool
--
-manifests
-/
-linux64
-/
-\
-releng
-.
-manifest
-"
-    
-'
 platform_supports_post_upload_to_latest
 '
 :
