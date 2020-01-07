@@ -5178,6 +5178,16 @@ ATOK
 "
 )
 )
+|
+|
+mActiveTIPKeyboardDescription
+.
+EqualsLiteral
+(
+"
+ATOK
+"
+)
 ;
 }
 bool
