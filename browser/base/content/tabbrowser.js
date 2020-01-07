@@ -6179,8 +6179,6 @@ title
 )
 )
 {
-try
-{
 if
 (
 title
@@ -6226,7 +6224,9 @@ u2026
 }
 else
 {
-var
+try
+{
+let
 characterSet
 =
 browser
@@ -6246,12 +6246,12 @@ title
 )
 ;
 }
-}
 catch
 (
 ex
 )
 {
+}
 }
 }
 else
