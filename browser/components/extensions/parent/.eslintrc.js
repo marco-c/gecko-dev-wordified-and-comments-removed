@@ -129,6 +129,11 @@ replaceUrlInTab
 :
 true
 "
+searchInitialized
+"
+:
+true
+"
 sidebarActionFor
 "
 :
