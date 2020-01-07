@@ -13556,7 +13556,7 @@ normandy
 .
 run_interval_seconds
 "
-86400
+21600
 )
 ;
 pref
