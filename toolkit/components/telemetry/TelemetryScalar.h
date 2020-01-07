@@ -620,6 +620,16 @@ HandleValue
 aData
 )
 ;
+void
+DeserializationStarted
+(
+)
+;
+void
+ApplyPendingOperations
+(
+)
+;
 }
 #
 endif
