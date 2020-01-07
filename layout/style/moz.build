@@ -549,11 +549,6 @@ ServoImportRule
 h
 '
 '
-ServoPageRule
-.
-h
-'
-'
 ServoSpecifiedValues
 .
 h
@@ -1118,11 +1113,6 @@ cpp
 '
 '
 ServoImportRule
-.
-cpp
-'
-'
-ServoPageRule
 .
 cpp
 '
