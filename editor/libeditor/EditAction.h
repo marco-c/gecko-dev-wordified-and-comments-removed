@@ -13,13 +13,7 @@ EditSubAction
 :
 int32_t
 {
-ignore
-=
--
-1
 eNone
-=
-0
 eUndo
 eRedo
 eInsertNode
@@ -48,10 +42,12 @@ eInsertElement
 eInsertQuotation
 ePasteHTMLContent
 eInsertHTMLSource
+eReplaceHeadWithHTMLSource
 eSetPositionToAbsolute
 eSetPositionToStatic
 eDecreaseZIndex
 eIncreaseZIndex
+eCreateBogusNode
 }
 ;
 }
