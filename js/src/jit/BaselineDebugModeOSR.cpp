@@ -3631,8 +3631,9 @@ if
 !
 invalid
 .
-append
+emplaceBack
 (
+script
 script
 -
 >
@@ -3641,7 +3642,7 @@ ionScript
 )
 -
 >
-recompileInfo
+compilationId
 (
 )
 )
