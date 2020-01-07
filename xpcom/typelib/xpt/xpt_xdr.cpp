@@ -497,6 +497,7 @@ XPTCursor
 *
 >
 cursor
+const
 char
 *
 *

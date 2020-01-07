@@ -68,6 +68,7 @@ XPTInterfaceDirectoryEntry
 nsID
 iid
 ;
+const
 char
 *
 name
@@ -406,6 +407,7 @@ ui32
 struct
 XPTConstDescriptor
 {
+const
 char
 *
 name
@@ -433,6 +435,7 @@ type
 struct
 XPTMethodDescriptor
 {
+const
 char
 *
 name
