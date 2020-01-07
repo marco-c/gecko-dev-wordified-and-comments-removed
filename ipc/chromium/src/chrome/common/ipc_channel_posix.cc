@@ -1843,6 +1843,13 @@ num_wire_fds
 }
 else
 {
+if
+(
+num_wire_fds
+>
+0
+)
+{
 const
 size_t
 prev_size
@@ -1878,6 +1885,7 @@ int
 )
 )
 ;
+}
 fds
 =
 &
