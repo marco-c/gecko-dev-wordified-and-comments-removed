@@ -299,12 +299,9 @@ WasmGlobalObject
 typedef
 GCVector
 <
-HeapPtr
-<
 WasmGlobalObject
 *
->
-8
+0
 SystemAllocPolicy
 >
 WasmGlobalObjectVector
