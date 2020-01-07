@@ -720,9 +720,6 @@ else
 false
 #
 endif
-MOZ_STYLO
-:
-true
 }
 )
 ;
