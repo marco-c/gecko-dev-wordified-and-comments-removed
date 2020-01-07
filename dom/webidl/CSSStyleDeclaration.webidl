@@ -176,6 +176,17 @@ sort
 of
 [
 Throws
+Pref
+=
+"
+layout
+.
+css
+.
+getPropertyCSSValue
+.
+enabled
+"
 ]
 CSSValue
 ?
