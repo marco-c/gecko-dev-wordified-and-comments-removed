@@ -618,13 +618,10 @@ ptr
 JS
 :
 :
-GCPolicy
+SafelyInitialized
 <
 T
 >
-:
-:
-initial
 (
 )
 )
