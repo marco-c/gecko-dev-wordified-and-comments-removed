@@ -115,7 +115,7 @@ const
 GLenum
 mAttachmentPoint
 ;
-protected
+private
 :
 WebGLRefPtr
 <
@@ -150,6 +150,15 @@ fb
 GLenum
 attachmentPoint
 )
+;
+explicit
+WebGLFBAttachPoint
+(
+WebGLFBAttachPoint
+&
+)
+=
+default
 ;
 public
 :
