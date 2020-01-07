@@ -335,6 +335,11 @@ this
 if
 (
 hasListeners
+|
+|
+GetCustomElementData
+(
+)
 )
 {
 nsAutoString
