@@ -968,6 +968,7 @@ originTime
 (
 )
 +
+(
 animation
 .
 startTime
@@ -996,9 +997,18 @@ playbackRate
 (
 )
 )
+)
 ;
 hasFutureReadyTime
 =
+!
+readyTime
+.
+IsNull
+(
+)
+&
+&
 readyTime
 >
 aPreviousFrameTime
