@@ -551,7 +551,11 @@ BookmarkHTMLUtils
 importFromURL
 (
 defaultBookmarks
+{
+replace
+:
 true
+}
 )
                            
 .

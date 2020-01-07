@@ -46,7 +46,9 @@ BookmarkJSONUtils
 importFromFile
 (
 path
+{
 replace
+}
 )
 ;
 await

@@ -781,7 +781,16 @@ aSource
 nsINavBookmarksService
 :
 :
-SOURCE_IMPORT_REPLACE
+SOURCE_RESTORE
+|
+|
+aSource
+=
+=
+nsINavBookmarksService
+:
+:
+SOURCE_RESTORE_ON_STARTUP
 )
 {
 return

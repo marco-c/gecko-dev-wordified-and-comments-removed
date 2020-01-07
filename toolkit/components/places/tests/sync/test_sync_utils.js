@@ -14798,7 +14798,6 @@ BookmarkHTMLUtils
 importFromFile
 (
 path
-false
 )
 ;
 let
@@ -15291,7 +15290,6 @@ BookmarkJSONUtils
 importFromFile
 (
 path
-false
 )
 ;
 {
@@ -15822,7 +15820,11 @@ BookmarkJSONUtils
 importFromFile
 (
 path
+{
+replace
+:
 true
+}
 )
 ;
 {

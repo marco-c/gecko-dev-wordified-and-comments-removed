@@ -309,7 +309,6 @@ BookmarkJSONUtils
 importFromURL
 (
 uri
-false
 )
 ;
 let

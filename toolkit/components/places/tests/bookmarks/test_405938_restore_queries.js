@@ -1548,7 +1548,11 @@ BookmarkJSONUtils
 importFromFile
 (
 jsonFile
+{
+replace
+:
 true
+}
 )
 ;
 for

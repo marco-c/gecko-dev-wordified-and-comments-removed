@@ -510,7 +510,11 @@ BookmarkJSONUtils
 importFromFile
 (
 jsonFile
+{
+replace
+:
 true
+}
 )
 ;
 validateResults

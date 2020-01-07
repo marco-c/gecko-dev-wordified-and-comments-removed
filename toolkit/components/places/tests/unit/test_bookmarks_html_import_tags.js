@@ -273,7 +273,11 @@ BookmarkHTMLUtils
 importFromFile
 (
 HTMLFile
+{
+replace
+:
 true
+}
 )
 ;
 for
