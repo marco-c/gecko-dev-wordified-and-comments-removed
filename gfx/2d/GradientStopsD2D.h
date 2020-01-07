@@ -71,7 +71,6 @@ BackendType
 DIRECT2D
 ;
 }
-virtual
 bool
 IsValid
 (

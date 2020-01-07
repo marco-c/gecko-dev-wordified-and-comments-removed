@@ -1849,7 +1849,6 @@ EventRunnable
 )
 {
 }
-virtual
 bool
 PreDispatch
 (
@@ -1858,7 +1857,6 @@ WorkerPrivate
 )
 final
 ;
-virtual
 bool
 WorkerRun
 (

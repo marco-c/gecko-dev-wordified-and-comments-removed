@@ -146,7 +146,6 @@ aInterfaces
 {
 }
 NS_DECL_ISUPPORTS
-virtual
 Accessible
 *
 ToInternalAccessible

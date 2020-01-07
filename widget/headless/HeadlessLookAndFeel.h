@@ -60,7 +60,6 @@ aResult
 )
 override
 ;
-virtual
 void
 NativeInit
 (

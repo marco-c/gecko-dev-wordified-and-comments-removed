@@ -64,7 +64,6 @@ aWhichChild
 )
 override
 ;
-virtual
 bool
 InsertChildAt
 (
@@ -76,7 +75,6 @@ aChild
 )
 final
 ;
-virtual
 bool
 RemoveChild
 (
@@ -356,14 +354,12 @@ aDocument
 )
 {
 }
-virtual
 uint64_t
 NativeState
 (
 )
 final
 ;
-virtual
 uint64_t
 NativeInteractiveState
 (
@@ -371,7 +367,6 @@ NativeInteractiveState
 const
 final
 ;
-virtual
 uint64_t
 NativeLinkState
 (
@@ -379,7 +374,6 @@ NativeLinkState
 const
 final
 ;
-virtual
 bool
 NativelyUnavailable
 (
@@ -387,7 +381,6 @@ NativelyUnavailable
 const
 final
 ;
-virtual
 void
 ApplyARIAState
 (

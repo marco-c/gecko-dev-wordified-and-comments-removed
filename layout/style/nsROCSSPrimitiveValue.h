@@ -83,7 +83,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsROCSSPrimitiveValue
 )
-virtual
 void
 GetCssText
 (
@@ -99,7 +98,6 @@ aRv
 )
 final
 ;
-virtual
 void
 SetCssText
 (
@@ -116,7 +114,6 @@ aRv
 )
 final
 ;
-virtual
 uint16_t
 CssValueType
 (

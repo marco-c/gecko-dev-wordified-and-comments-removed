@@ -169,7 +169,6 @@ aSize
 )
 override
 ;
-virtual
 int32_t
 GetMaxTextureSize
 (

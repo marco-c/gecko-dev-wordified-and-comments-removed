@@ -122,7 +122,6 @@ return
 nullptr
 ;
 }
-virtual
 JSObject
 *
 WrapObject

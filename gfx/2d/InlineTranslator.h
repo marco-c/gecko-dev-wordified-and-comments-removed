@@ -343,7 +343,6 @@ return
 result
 ;
 }
-virtual
 UnscaledFont
 *
 LookupUnscaledFontByIndex

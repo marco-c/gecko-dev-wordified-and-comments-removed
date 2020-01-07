@@ -36,7 +36,6 @@ nsDeviceContextSpecAndroid
 public
 :
 NS_DECL_ISUPPORTS
-virtual
 already_AddRefed
 <
 PrintTarget

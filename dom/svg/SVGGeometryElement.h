@@ -259,7 +259,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 ClearAnyCachedPath
 (

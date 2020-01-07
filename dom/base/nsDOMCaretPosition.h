@@ -129,7 +129,6 @@ GetOffsetNode
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject

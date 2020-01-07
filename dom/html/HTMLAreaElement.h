@@ -659,7 +659,6 @@ aResult
 )
 ;
 }
-virtual
 void
 NodeInfoChanged
 (

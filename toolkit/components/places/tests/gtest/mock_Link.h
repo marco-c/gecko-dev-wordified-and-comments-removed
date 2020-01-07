@@ -116,7 +116,6 @@ return
 0
 ;
 }
-virtual
 void
 NodeInfoChanged
 (

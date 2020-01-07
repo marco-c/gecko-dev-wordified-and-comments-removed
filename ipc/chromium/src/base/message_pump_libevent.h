@@ -482,7 +482,6 @@ override
 }
 private
 :
-virtual
 void
 OnFileCanReadWithoutBlocking
 (

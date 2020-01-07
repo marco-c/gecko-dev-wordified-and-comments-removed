@@ -365,7 +365,6 @@ ErrorResult
 rv
 )
 ;
-virtual
 void
 NodeInfoChanged
 (

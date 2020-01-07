@@ -56,7 +56,6 @@ CSSValue
 aValue
 )
 ;
-virtual
 void
 GetCssText
 (
@@ -72,7 +71,6 @@ aRv
 )
 final
 ;
-virtual
 void
 SetCssText
 (
@@ -89,7 +87,6 @@ aRv
 )
 final
 ;
-virtual
 uint16_t
 CssValueType
 (

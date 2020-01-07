@@ -821,7 +821,6 @@ IterableIterator
 )
 {
 }
-virtual
 void
 UnlinkHelper
 (

@@ -61,7 +61,6 @@ GetParentObject
 =
 0
 ;
-virtual
 JSObject
 *
 WrapObject

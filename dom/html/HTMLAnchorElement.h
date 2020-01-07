@@ -997,7 +997,6 @@ nsAString
 aSource
 )
 ;
-virtual
 void
 NodeInfoChanged
 (

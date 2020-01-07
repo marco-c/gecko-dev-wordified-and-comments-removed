@@ -1359,7 +1359,6 @@ friend
 class
 FullscreenTransitionTask
 ;
-virtual
 nsresult
 SetFullscreenInternal
 (
@@ -1370,7 +1369,6 @@ aIsFullscreen
 )
 final
 ;
-virtual
 void
 FullscreenWillChange
 (
@@ -1379,7 +1377,6 @@ aIsFullscreen
 )
 final
 ;
-virtual
 void
 FinishFullscreenChange
 (

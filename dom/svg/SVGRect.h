@@ -85,7 +85,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 SVGRect
 )
-virtual
 float
 X
 (
@@ -97,7 +96,6 @@ return
 mX
 ;
 }
-virtual
 void
 SetX
 (
@@ -114,7 +112,6 @@ mX
 aX
 ;
 }
-virtual
 float
 Y
 (
@@ -126,7 +123,6 @@ return
 mY
 ;
 }
-virtual
 void
 SetY
 (
@@ -143,7 +139,6 @@ mY
 aY
 ;
 }
-virtual
 float
 Width
 (
@@ -155,7 +150,6 @@ return
 mWidth
 ;
 }
-virtual
 void
 SetWidth
 (
@@ -172,7 +166,6 @@ mWidth
 aWidth
 ;
 }
-virtual
 float
 Height
 (
@@ -184,7 +177,6 @@ return
 mHeight
 ;
 }
-virtual
 void
 SetHeight
 (

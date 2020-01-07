@@ -107,7 +107,6 @@ mAuthenticode
 aAuthenticode
 ;
 }
-virtual
 UniquePtr
 <
 wchar_t
@@ -253,7 +252,6 @@ DllServicesBase
 {
 public
 :
-virtual
 void
 DispatchDllLoadNotification
 (

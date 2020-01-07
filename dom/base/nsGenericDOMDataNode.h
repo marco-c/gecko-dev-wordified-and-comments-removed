@@ -589,7 +589,6 @@ TextIsOnlyWhitespace
 )
 override
 ;
-virtual
 bool
 ThreadSafeTextIsOnlyWhitespace
 (

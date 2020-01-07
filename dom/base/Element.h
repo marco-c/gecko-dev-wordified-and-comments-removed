@@ -4628,7 +4628,6 @@ nsAttrValue
 aValue
 )
 ;
-virtual
 JSObject
 *
 WrapObject

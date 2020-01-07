@@ -118,7 +118,6 @@ nullptr
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DrawTarget

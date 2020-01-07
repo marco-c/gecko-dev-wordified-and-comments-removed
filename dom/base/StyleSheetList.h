@@ -66,7 +66,6 @@ DocumentOrShadowRoot
 aScope
 )
 ;
-virtual
 JSObject
 *
 WrapObject

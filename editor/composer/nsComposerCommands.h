@@ -215,7 +215,6 @@ aTagName
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -231,7 +230,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 ToggleState
 (
@@ -301,7 +299,6 @@ aTagName
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -317,7 +314,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 ToggleState
 (
@@ -351,7 +347,6 @@ aTagName
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -367,7 +362,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 ToggleState
 (
@@ -459,7 +453,6 @@ nsParagraphStateCommand
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -475,7 +468,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -508,7 +500,6 @@ nsFontFaceStateCommand
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -524,7 +515,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -557,7 +547,6 @@ nsFontSizeStateCommand
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -573,7 +562,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -622,7 +610,6 @@ _retval
 )
 final
 ;
-virtual
 nsresult
 GetCurrentState
 (
@@ -638,7 +625,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -671,7 +657,6 @@ nsFontColorStateCommand
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -687,7 +672,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -720,7 +704,6 @@ nsAlignCommand
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -736,7 +719,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -769,7 +751,6 @@ nsBackgroundColorStateCommand
 ;
 protected
 :
-virtual
 nsresult
 GetCurrentState
 (
@@ -785,7 +766,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 SetState
 (
@@ -834,7 +814,6 @@ _retval
 )
 final
 ;
-virtual
 nsresult
 GetCurrentState
 (
@@ -850,7 +829,6 @@ aParams
 )
 final
 ;
-virtual
 nsresult
 ToggleState
 (

@@ -918,7 +918,6 @@ GetCORSMode
 const
 override
 ;
-virtual
 void
 NodeInfoChanged
 (

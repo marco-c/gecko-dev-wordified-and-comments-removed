@@ -47,7 +47,6 @@ aIsPrintPreview
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PrintTarget

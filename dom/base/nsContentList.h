@@ -545,7 +545,6 @@ aScriptObjectHolder
 )
 ;
 }
-virtual
 uint32_t
 Length
 (
@@ -961,7 +960,6 @@ return
 mRootNode
 ;
 }
-virtual
 uint32_t
 Length
 (

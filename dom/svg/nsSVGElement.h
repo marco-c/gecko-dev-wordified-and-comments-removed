@@ -1286,7 +1286,6 @@ ClearAnyCachedPath
 )
 {
 }
-virtual
 nsIDOMNode
 *
 AsDOMNode
@@ -1407,7 +1406,6 @@ aGivenProto
 )
 override
 ;
-virtual
 nsresult
 BeforeSetAttr
 (

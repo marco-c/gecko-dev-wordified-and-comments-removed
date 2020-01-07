@@ -402,7 +402,6 @@ ChildCount
 const
 override
 ;
-virtual
 XULTreeGridCellAccessible
 *
 GetCellAccessible

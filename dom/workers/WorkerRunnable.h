@@ -320,7 +320,6 @@ return
 true
 ;
 }
-virtual
 bool
 PreDispatch
 (
@@ -964,7 +963,6 @@ MainThreadStopSyncLoopRunnable
 }
 private
 :
-virtual
 bool
 PreDispatch
 (
@@ -1007,7 +1005,6 @@ aWorkerPrivate
 )
 override
 ;
-virtual
 bool
 DispatchInternal
 (
