@@ -111,6 +111,15 @@ include
 "
 mozilla
 /
+RecursiveMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -1507,7 +1516,7 @@ mTextureAllocatorForDXGISurface
 mozilla
 :
 :
-Mutex
+RecursiveMutex
 mCrashReporterMutex
 ;
 UniquePtr
