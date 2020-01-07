@@ -853,7 +853,7 @@ for
 (
 var
 test
-in
+of
 defaultConfig
 .
 subtests
@@ -866,6 +866,8 @@ subtest
 "
 +
 test
+.
+name
 )
 .
 checked
@@ -998,8 +1000,8 @@ length
 for
 (
 var
-d
-in
+test
+of
 defaultConfig
 .
 subtests
@@ -1011,7 +1013,9 @@ subtest
 -
 "
 +
-d
+test
+.
+name
 )
 .
 checked
@@ -1034,7 +1038,9 @@ t
 ]
 =
 =
-d
+test
+.
+name
 )
 {
 (
@@ -1043,7 +1049,9 @@ subtest
 -
 "
 +
-d
+test
+.
+name
 )
 .
 checked
