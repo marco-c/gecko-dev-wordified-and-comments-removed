@@ -369,6 +369,7 @@ Service
 .
 promiseInitialized
 ;
+await
 Weave
 .
 Service
