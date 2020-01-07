@@ -124,7 +124,7 @@ ParsingEnvironment
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
+ParsingEnvironment
 ;
 static
 bool

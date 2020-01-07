@@ -449,7 +449,7 @@ override
 ;
 struct
 MOZ_STACK_CLASS
-ServoCSSParsingEnvironment
+ParsingEnvironment
 {
 RefPtr
 <
@@ -473,7 +473,7 @@ Loader
 *
 mLoader
 ;
-ServoCSSParsingEnvironment
+ParsingEnvironment
 (
 mozilla
 :
@@ -508,7 +508,7 @@ aLoader
 )
 {
 }
-ServoCSSParsingEnvironment
+ParsingEnvironment
 (
 already_AddRefed
 <
@@ -595,8 +595,8 @@ DocToUpdate
 0
 ;
 virtual
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironment
+ParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *
@@ -609,8 +609,8 @@ const
 0
 ;
 static
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironmentForRule
+ParsingEnvironment
+GetParsingEnvironmentForRule
 (
 const
 mozilla

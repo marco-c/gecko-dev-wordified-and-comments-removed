@@ -2842,11 +2842,11 @@ DocToUpdate
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
+ParsingEnvironment
 nsComputedDOMStyle
 :
 :
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *
@@ -2861,7 +2861,7 @@ called
 nsComputedDOMStyle
 :
 :
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 "
 )
 ;
