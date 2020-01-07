@@ -136,11 +136,6 @@ nsIDOMMouseEvent
 idl
 '
 '
-nsIDOMMouseScrollEvent
-.
-idl
-'
-'
 nsIDOMNotifyPaintEvent
 .
 idl
