@@ -553,9 +553,7 @@ requestor
 .
 getInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMWindow
 )
