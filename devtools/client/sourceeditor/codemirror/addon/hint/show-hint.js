@@ -3052,6 +3052,10 @@ this
 selectedHint
 ]
 ;
+if
+(
+node
+)
 node
 .
 className
