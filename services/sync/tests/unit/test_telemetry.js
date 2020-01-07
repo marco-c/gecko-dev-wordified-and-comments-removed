@@ -350,7 +350,7 @@ SteamEngine
 service
 )
 {
-Engine
+SyncEngine
 .
 call
 (
@@ -369,7 +369,7 @@ prototype
 {
 __proto__
 :
-Engine
+SyncEngine
 .
 prototype
 _storeObj
@@ -408,7 +408,7 @@ BogusEngine
 service
 )
 {
-Engine
+SyncEngine
 .
 call
 (

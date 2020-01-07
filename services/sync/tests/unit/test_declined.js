@@ -158,7 +158,7 @@ prototype
 {
 __proto__
 :
-Engine
+SyncEngine
 .
 prototype
 name
