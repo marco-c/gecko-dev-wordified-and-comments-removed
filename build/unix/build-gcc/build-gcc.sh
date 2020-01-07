@@ -658,6 +658,13 @@ plugins
 disable
 -
 nls
+-
+-
+with
+-
+sysroot
+=
+/
 "
 fi
 mkdir
@@ -802,6 +809,13 @@ disable
 initfini
 -
 array
+-
+-
+with
+-
+sysroot
+=
+/
 make
 make_flags
 make
