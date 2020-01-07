@@ -15334,7 +15334,7 @@ true
 ;
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 Unused
 <
 <
