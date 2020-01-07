@@ -2201,6 +2201,16 @@ subCode
 ]
 )
 {
+content
+.
+document
+.
+docShell
+.
+cssErrorReportingEnabled
+=
+true
+;
 let
 style
 =
