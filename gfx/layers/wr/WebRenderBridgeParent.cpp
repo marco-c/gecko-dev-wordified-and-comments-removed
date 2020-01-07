@@ -2942,6 +2942,14 @@ animationTime
 frameInterval
 ;
 }
+apz
+-
+>
+SetSampleTime
+(
+animationTime
+)
+;
 wr
 :
 :
@@ -2962,7 +2970,6 @@ apz
 PushStateToWR
 (
 txn
-animationTime
 )
 ;
 }
