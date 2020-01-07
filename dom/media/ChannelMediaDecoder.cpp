@@ -1200,6 +1200,10 @@ aStatus
 NS_BASE_STREAM_CLOSED
 )
 {
+ComputePlaybackRate
+(
+)
+;
 UpdatePlaybackRate
 (
 )
@@ -1497,6 +1501,10 @@ DurationChanged
 (
 )
 ;
+ComputePlaybackRate
+(
+)
+;
 UpdatePlaybackRate
 (
 )
@@ -1542,6 +1550,10 @@ GetOwner
 -
 >
 DownloadProgressed
+(
+)
+;
+ComputePlaybackRate
 (
 )
 ;
@@ -1666,10 +1678,6 @@ NS_IsMainThread
 MOZ_ASSERT
 (
 mResource
-)
-;
-ComputePlaybackRate
-(
 )
 ;
 uint32_t
