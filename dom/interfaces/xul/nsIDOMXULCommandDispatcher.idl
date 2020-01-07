@@ -110,6 +110,9 @@ nsIControllers
 interface
 mozIDOMWindowProxy
 ;
+webidl
+Element
+;
 [
 scriptable
 uuid
@@ -131,7 +134,7 @@ nsIDOMXULCommandDispatcher
 nsISupports
 {
 attribute
-nsIDOMElement
+Element
 focusedElement
 ;
 attribute

@@ -2525,9 +2525,9 @@ bool
 aIsTrustedEvent
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 content
 (
@@ -2697,7 +2697,7 @@ fm
 {
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 elementToFocus
 ;
@@ -2781,10 +2781,7 @@ else
 {
 elementToFocus
 =
-do_QueryInterface
-(
 content
-)
 ;
 }
 if

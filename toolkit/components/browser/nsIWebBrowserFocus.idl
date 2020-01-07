@@ -92,8 +92,8 @@ MPL
 interface
 mozIDOMWindowProxy
 ;
-interface
-nsIDOMElement
+webidl
+Element
 ;
 #
 include
@@ -534,7 +534,7 @@ inactive
 *
 /
 attribute
-nsIDOMElement
+Element
 focusedElement
 ;
 }

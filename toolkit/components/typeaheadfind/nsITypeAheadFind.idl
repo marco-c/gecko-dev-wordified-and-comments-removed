@@ -256,6 +256,9 @@ mozIDOMWindow
 interface
 nsIDocShell
 ;
+webidl
+Element
+;
 /
 *
 *
@@ -906,7 +909,7 @@ a
 link
 readonly
 attribute
-nsIDOMElement
+Element
 foundEditable
 ;
 /

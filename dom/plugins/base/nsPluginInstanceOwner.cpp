@@ -6434,7 +6434,7 @@ fm
 {
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 elem
 =

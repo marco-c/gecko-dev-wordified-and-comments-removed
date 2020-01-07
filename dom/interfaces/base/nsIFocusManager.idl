@@ -104,8 +104,8 @@ mozIDOMWindowProxy
 interface
 nsIDocument
 ;
-interface
-nsIContent
+webidl
+Element
 ;
 [
 scriptable
@@ -731,7 +731,7 @@ void
 setFocus
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 unsigned
@@ -2038,7 +2038,7 @@ void
 focusPlugin
 (
 in
-nsIContent
+Element
 aPlugin
 )
 ;

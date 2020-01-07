@@ -122,6 +122,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 Selection
 ;
 }
@@ -356,7 +359,13 @@ mFoundLink
 ;
 nsCOMPtr
 <
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mFoundEditable
 ;

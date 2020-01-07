@@ -13872,7 +13872,7 @@ NS_FORM_BUTTON_BUTTON
 {
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 element
 =
