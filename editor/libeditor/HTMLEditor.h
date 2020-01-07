@@ -1467,6 +1467,14 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 ;
+nsresult
+DoInlineTableEditingAction
+(
+Element
+&
+aUIAnonymousElement
+)
+;
 protected
 :
 class
@@ -3580,6 +3588,11 @@ ShowInlineTableEditingUI
 Element
 *
 aCell
+)
+;
+nsresult
+HideInlineTableEditingUI
+(
 )
 ;
 void
