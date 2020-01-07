@@ -1094,7 +1094,7 @@ explicit
 atoms
 \
 /
-static
+dynamic
 \
 /
 atom
@@ -1109,7 +1109,7 @@ objects
 {
 present
 .
-staticAtomObjects
+dynamicAtomObjects
 =
 true
 ;
@@ -2135,9 +2135,9 @@ ok
 (
 present
 .
-staticAtomObjects
+dynamicAtomObjects
 "
-static
+dynamic
 /
 atom
 -

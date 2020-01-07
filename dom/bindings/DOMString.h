@@ -968,6 +968,11 @@ SetKnownLiveStringBuffer
 aAtom
 -
 >
+AsDynamic
+(
+)
+-
+>
 GetStringBuffer
 (
 )

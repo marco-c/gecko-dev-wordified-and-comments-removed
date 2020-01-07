@@ -2000,6 +2000,9 @@ nsFont
 nsAtom
 "
 "
+nsDynamicAtom
+"
+"
 nsMainThreadPtrHandle
 "
 "

@@ -40,9 +40,6 @@ size_t
 mTable
 ;
 size_t
-mStaticAtomObjects
-;
-size_t
 mDynamicAtomObjects
 ;
 size_t
@@ -53,10 +50,6 @@ AtomsSizes
 )
 :
 mTable
-(
-0
-)
-mStaticAtomObjects
 (
 0
 )
