@@ -7828,6 +7828,7 @@ offset
 0
 ;
 }
+MOZ_MUST_USE
 bool
 emitJumpOverCatchAndFinally
 (
@@ -7853,6 +7854,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 emitTry
 (
@@ -7933,6 +7935,7 @@ true
 }
 private
 :
+MOZ_MUST_USE
 bool
 emitTryEnd
 (
@@ -8052,6 +8055,7 @@ true
 }
 public
 :
+MOZ_MUST_USE
 bool
 emitCatch
 (
@@ -8147,6 +8151,7 @@ true
 }
 private
 :
+MOZ_MUST_USE
 bool
 emitCatchEnd
 (
@@ -8231,6 +8236,7 @@ true
 }
 public
 :
+MOZ_MUST_USE
 bool
 emitFinally
 (
@@ -8496,6 +8502,7 @@ true
 }
 private
 :
+MOZ_MUST_USE
 bool
 emitFinallyEnd
 (
@@ -8565,6 +8572,7 @@ true
 }
 public
 :
+MOZ_MUST_USE
 bool
 emitEnd
 (
