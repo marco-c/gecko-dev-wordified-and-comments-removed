@@ -49,26 +49,6 @@ build
 tools
 "
     
-"
-mozconfig
-"
-:
-"
-src
-/
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
-l10n
--
-mozconfig
-"
-    
 '
 vcs_share_base
 '

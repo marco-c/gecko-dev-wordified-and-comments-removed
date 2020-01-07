@@ -25,11 +25,7 @@ mozconfig
 "
 :
 "
-%
-(
-branch
-)
-s
+src
 /
 browser
 /
@@ -245,11 +241,7 @@ locales_file
 "
 :
 "
-%
-(
-branch
-)
-s
+src
 /
 browser
 /

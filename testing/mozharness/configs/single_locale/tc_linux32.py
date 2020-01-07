@@ -50,26 +50,6 @@ tools
 "
     
 "
-mozconfig
-"
-:
-"
-src
-/
-browser
-/
-config
-/
-mozconfigs
-/
-linux32
-/
-l10n
--
-mozconfig
-"
-    
-"
 bootstrap_env
 "
 :
