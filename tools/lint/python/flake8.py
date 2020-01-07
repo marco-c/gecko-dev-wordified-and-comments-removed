@@ -749,6 +749,9 @@ proc
 kill
 (
 )
+        
+return
+1
 def
 setup
 (
@@ -991,11 +994,15 @@ extend
 paths
 )
         
+if
 run_process
 (
 config
 cmd
 )
+:
+            
+break
     
 return
 results
