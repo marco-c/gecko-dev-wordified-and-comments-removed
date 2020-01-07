@@ -546,6 +546,16 @@ nsDSURIContentListener
 cpp
 '
 '
+nsPingListener
+.
+cpp
+'
+'
+nsRefreshTimer
+.
+cpp
+'
+'
 nsWebNavigationInfo
 .
 cpp
