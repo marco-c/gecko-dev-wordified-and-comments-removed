@@ -20,12 +20,6 @@ euclid
 TypedSize2D
 ;
 use
-media_queries
-:
-:
-CSSErrorReporterTest
-;
-use
 servo_arc
 :
 :
@@ -78,10 +72,7 @@ style
 parser
 :
 :
-{
 ParserContext
-ParserErrorContext
-}
 ;
 use
 style
@@ -201,9 +192,6 @@ expr
 origin
 :
 ident
-error_reporter
-:
-expr
 )
 =
 >
@@ -213,7 +201,6 @@ stylesheet
 (
 css
 origin
-error_reporter
 SharedRwLock
 :
 :
@@ -230,9 +217,6 @@ expr
 origin
 :
 ident
-error_reporter
-:
-expr
 shared_lock
 :
 expr
@@ -291,8 +275,7 @@ empty
 )
 shared_lock
 None
-&
-error_reporter
+None
 QuirksMode
 :
 :
@@ -362,7 +345,6 @@ stylesheet
 (
 css
 Author
-CSSErrorReporterTest
 )
 ;
 let
@@ -2515,11 +2497,6 @@ new
 )
 ;
 let
-error_reporter
-=
-CSSErrorReporterTest
-;
-let
 shared_lock
 =
 SharedRwLock
@@ -2560,7 +2537,6 @@ zoom
 }
 "
 UserAgent
-error_reporter
 shared_lock
 .
 clone
@@ -2588,7 +2564,6 @@ height
 }
 "
 User
-error_reporter
 shared_lock
 .
 clone
@@ -2610,7 +2585,6 @@ width
 }
 "
 Author
-error_reporter
 shared_lock
 .
 clone
@@ -2763,7 +2737,6 @@ important
 }
 "
 UserAgent
-error_reporter
 shared_lock
 .
 clone
@@ -2795,7 +2768,6 @@ important
 }
 "
 User
-error_reporter
 shared_lock
 .
 clone
@@ -2833,7 +2805,6 @@ important
 }
 "
 Author
-error_reporter
 shared_lock
 .
 clone
@@ -3029,18 +3000,8 @@ QuirksMode
 :
 :
 NoQuirks
+None
 )
-;
-let
-error_context
-=
-ParserErrorContext
-{
-error_reporter
-:
-&
-CSSErrorReporterTest
-}
 ;
 macro_rules
 !
@@ -3062,8 +3023,6 @@ parse
 (
 &
 context
-&
-error_context
 &
 mut
 Parser
