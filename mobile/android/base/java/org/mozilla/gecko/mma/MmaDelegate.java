@@ -148,7 +148,7 @@ activitystream
 .
 homepanel
 .
-ActivityStreamPanel
+ActivityStreamConfiguration
 ;
 import
 org
@@ -408,13 +408,13 @@ public
 static
 final
 String
-USER_ATT_TOP_SITES_POCKET
+USER_ATT_POCKET_TOP_SITES
 =
 "
+Pocket
+in
 Top
 Sites
-by
-Pocket
 "
 ;
 public
@@ -738,8 +738,8 @@ attributes
 .
 put
 (
-USER_ATT_TOP_SITES_POCKET
-ActivityStreamPanel
+USER_ATT_POCKET_TOP_SITES
+ActivityStreamConfiguration
 .
 isPocketRecommendingTopSites
 (
