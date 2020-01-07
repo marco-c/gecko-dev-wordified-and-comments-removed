@@ -4156,6 +4156,13 @@ resolved
 =
 false
 ;
+AutoRealm
+ar
+(
+cx
+obj
+)
+;
 if
 (
 !
