@@ -674,11 +674,13 @@ failures
 :
             
 print
+(
 "
 tests
 failed
 :
 "
+)
             
 for
 test
@@ -865,12 +867,14 @@ timeouts
 :
             
 print
+(
 "
 tests
 timed
 out
 :
 "
+)
             
 for
 test
@@ -1353,17 +1357,28 @@ out
 )
 :
         
-print
+out
+.
+write
+(
 "
 Command
 :
+%
+s
+\
+n
 "
+%
+(
 make_shell_cmd
 (
 self
 .
 cmd
 (
+)
+)
 )
 )
     
@@ -1475,29 +1490,11 @@ OPTIONS
 write_failure_output
 :
             
-out
-.
-write
-(
-'
-Command
-:
-%
-s
-\
-n
-'
-%
-(
-make_shell_cmd
-(
 self
 .
-cmd
+show_cmd
 (
-)
-)
-)
+out
 )
             
 self
