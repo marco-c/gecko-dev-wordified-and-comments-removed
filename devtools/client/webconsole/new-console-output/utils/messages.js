@@ -759,6 +759,11 @@ userProvidedStyles
 message
 .
 styles
+prefix
+:
+message
+.
+prefix
 }
 )
 ;
