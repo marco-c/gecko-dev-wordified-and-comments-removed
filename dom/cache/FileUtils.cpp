@@ -1537,6 +1537,16 @@ fileSize
 ;
 if
 (
+!
+quotaObject
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
+if
+(
 *
 aPaddingSizeOut
 =
