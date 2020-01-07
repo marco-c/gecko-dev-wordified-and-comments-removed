@@ -141,6 +141,9 @@ class
 ExtendableEvent
 ;
 class
+TimeEvent
+;
+class
 WantsPopupControlCheck
 ;
 #
@@ -400,6 +403,17 @@ virtual
 ExtendableEvent
 *
 AsExtendableEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+TimeEvent
+*
+AsTimeEvent
 (
 )
 {
