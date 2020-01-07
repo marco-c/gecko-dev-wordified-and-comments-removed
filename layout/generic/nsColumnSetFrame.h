@@ -280,7 +280,7 @@ aResult
 #
 endif
 nsRect
-CalculateBounds
+CalculateColumnRuleBounds
 (
 const
 nsPoint
@@ -495,7 +495,7 @@ aColData
 )
 ;
 void
-ForEachColumn
+ForEachColumnRule
 (
 const
 std

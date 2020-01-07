@@ -115,7 +115,7 @@ mFrame
 )
 -
 >
-CalculateBounds
+CalculateColumnRuleBounds
 (
 ToReferenceFrame
 (
@@ -625,7 +625,7 @@ void
 nsColumnSetFrame
 :
 :
-ForEachColumn
+ForEachColumnRule
 (
 const
 std
@@ -943,7 +943,7 @@ nsRect
 nsColumnSetFrame
 :
 :
-CalculateBounds
+CalculateColumnRuleBounds
 (
 const
 nsPoint
@@ -954,7 +954,7 @@ aOffset
 nsRect
 combined
 ;
-ForEachColumn
+ForEachColumnRule
 (
 [
 &
@@ -1223,7 +1223,7 @@ mozilla
 eSideBitsRight
 ;
 }
-ForEachColumn
+ForEachColumnRule
 (
 [
 &
