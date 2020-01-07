@@ -1167,6 +1167,10 @@ package
 toolchain
 -
 script
+*
+always
+-
+optimized
 Task
 Descriptions
 -
