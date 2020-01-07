@@ -808,6 +808,7 @@ aFlags
 }
 class
 nsGlobalWindowInner
+final
 :
 public
 mozilla

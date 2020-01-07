@@ -646,6 +646,7 @@ OuterWindowProxyClass
 ;
 class
 nsGlobalWindowOuter
+final
 :
 public
 mozilla
