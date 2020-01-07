@@ -1522,7 +1522,7 @@ payload
 =
 collection
 .
-cleartextPayloads
+payloads
 (
 )
 [
