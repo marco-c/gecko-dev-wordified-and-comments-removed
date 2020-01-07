@@ -3028,6 +3028,12 @@ identity
 )
 )
 ;
+tab
+.
+updatePageAction
+(
+)
+;
 notifyListeners
 (
 tab
