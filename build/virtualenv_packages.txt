@@ -211,6 +211,17 @@ third_party
 /
 python
 /
+requests
+-
+unixsocket
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 slugid
 mozilla
 .
