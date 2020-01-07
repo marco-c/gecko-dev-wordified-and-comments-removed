@@ -110,6 +110,12 @@ properties
 ComputedValues
 ;
 use
+selector_parser
+:
+:
+SnapshotMap
+;
+use
 servo_arc
 :
 :
@@ -1040,6 +1046,13 @@ Option
 <
 E
 >
+snapshots
+:
+Option
+<
+&
+SnapshotMap
+>
 )
 -
 >
@@ -1064,6 +1077,7 @@ same
 guard
 )
 document_element
+snapshots
 )
 }
 fn

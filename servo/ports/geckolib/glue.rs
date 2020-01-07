@@ -7858,6 +7858,7 @@ guard
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -7871,6 +7872,11 @@ RawServoStyleSetBorrowed
 doc_element
 :
 RawGeckoElementBorrowedOrNull
+snapshots
+:
+*
+const
+ServoElementSnapshotTable
 )
 {
 let
@@ -7927,6 +7933,11 @@ flush_stylesheets
 &
 guard
 doc_element
+snapshots
+.
+as_ref
+(
+)
 )
 ;
 if
@@ -7938,8 +7949,6 @@ doc_element
 is_some
 (
 )
-{
-unsafe
 {
 bindings
 :
@@ -7955,7 +7964,6 @@ unwrap
 0
 )
 ;
-}
 }
 }
 #

@@ -196,6 +196,7 @@ selector_parser
 :
 {
 SelectorImpl
+SnapshotMap
 PerPseudoElementMap
 PseudoElement
 }
@@ -2289,6 +2290,13 @@ Option
 <
 E
 >
+snapshots
+:
+Option
+<
+&
+SnapshotMap
+>
 )
 -
 >
@@ -2420,6 +2428,7 @@ stylesheets
 flush
 (
 document_element
+snapshots
 )
 ;
 let
