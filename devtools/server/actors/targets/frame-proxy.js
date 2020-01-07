@@ -43,7 +43,7 @@ jsm
 )
 ;
 function
-BrowserTabActor
+FrameTargetActorProxy
 (
 connection
 browser
@@ -84,7 +84,7 @@ options
 options
 ;
 }
-BrowserTabActor
+FrameTargetActorProxy
 .
 prototype
 =
@@ -129,7 +129,7 @@ destroyed
 while
 performing
 a
-BrowserTabActor
+FrameTargetActorProxy
 update
 "
 }
@@ -672,7 +672,7 @@ true
 ;
 exports
 .
-BrowserTabActor
+FrameTargetActorProxy
 =
-BrowserTabActor
+FrameTargetActorProxy
 ;

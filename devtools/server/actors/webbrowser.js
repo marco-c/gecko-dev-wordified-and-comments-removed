@@ -81,7 +81,7 @@ lazyRequireGetter
 (
 this
 "
-BrowserTabActor
+FrameTargetActorProxy
 "
 "
 devtools
@@ -90,9 +90,11 @@ server
 /
 actors
 /
-browser
+targets
+/
+frame
 -
-tab
+proxy
 "
 true
 )
@@ -876,7 +878,7 @@ browserActorOptions
 actor
 =
 new
-BrowserTabActor
+FrameTargetActorProxy
 (
 this
 .
@@ -1422,7 +1424,7 @@ new
 Error
 (
 "
-BrowserTabActor
+FrameTargetActorProxy
 not
 stored
 in
