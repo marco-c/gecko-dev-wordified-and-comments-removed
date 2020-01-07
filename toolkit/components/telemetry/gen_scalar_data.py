@@ -217,6 +217,8 @@ print
 }
 {
 }
+{
+}
 }
 }
 "
@@ -258,6 +260,17 @@ else
 "
 false
 "
+                  
+"
+|
+"
+.
+join
+(
+scalar
+.
+products_enum
+)
 )
           
 file
