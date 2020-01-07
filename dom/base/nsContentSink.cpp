@@ -2949,6 +2949,12 @@ SetIsVoid
 true
 )
 ;
+as
+.
+Truncate
+(
+)
+;
 seenParameters
 =
 false
