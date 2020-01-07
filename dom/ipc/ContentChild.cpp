@@ -145,6 +145,17 @@ mozilla
 /
 dom
 /
+ChildProcessMessageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ContentBridgeChild
 .
 h

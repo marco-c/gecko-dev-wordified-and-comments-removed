@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsStyleTransformMatrix
 .
 h

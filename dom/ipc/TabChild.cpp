@@ -15662,8 +15662,6 @@ new
 nsFrameMessageManager
 (
 mTabChild
-nullptr
-MM_CHILD
 )
 ;
 TelemetryScrollProbe

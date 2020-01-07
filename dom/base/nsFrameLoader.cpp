@@ -453,6 +453,17 @@ mozilla
 /
 dom
 /
+ChromeMessageSender
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h
@@ -13743,7 +13754,7 @@ globalmessagemanager
 mMessageManager
 =
 new
-nsFrameMessageManager
+ChromeMessageSender
 (
 nullptr
 static_cast
@@ -13758,7 +13769,6 @@ get
 (
 )
 )
-MM_CHROME
 )
 ;
 if

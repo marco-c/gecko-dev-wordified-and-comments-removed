@@ -624,14 +624,6 @@ new
 nsFrameMessageManager
 (
 this
-nullptr
-dom
-:
-:
-ipc
-:
-:
-MM_CHILD
 )
 ;
 return
