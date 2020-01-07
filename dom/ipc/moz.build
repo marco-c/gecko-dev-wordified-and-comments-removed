@@ -500,11 +500,6 @@ PCycleCollectWithLogs
 ipdl
 '
 '
-PDocumentRenderer
-.
-ipdl
-'
-'
 PFilePicker
 .
 ipdl

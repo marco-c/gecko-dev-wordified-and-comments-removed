@@ -51,6 +51,13 @@ h
 #
 include
 "
+MozFramebuffer
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
