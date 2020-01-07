@@ -3342,6 +3342,11 @@ bookmarks
 -
 buffered
 "
+_defaultSort
+:
+"
+oldest
+"
 async
 getLastSync
 (
