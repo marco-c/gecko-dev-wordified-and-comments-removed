@@ -1611,9 +1611,16 @@ ScriptProcessorNode
 "
 ScrollAreaEvent
 "
+{
+name
+:
 "
 SecurityPolicyViolationEvent
 "
+release
+:
+false
+}
 "
 Selection
 "
