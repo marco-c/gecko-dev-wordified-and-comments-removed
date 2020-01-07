@@ -108,6 +108,9 @@ namespace
 dom
 {
 class
+DragEvent
+;
+class
 Selection
 ;
 }
@@ -513,7 +516,10 @@ virtual
 nsresult
 InsertFromDrop
 (
-nsIDOMEvent
+dom
+:
+:
+DragEvent
 *
 aDropEvent
 )

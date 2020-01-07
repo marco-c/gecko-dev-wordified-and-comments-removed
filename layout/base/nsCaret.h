@@ -316,6 +316,16 @@ aVisibility
 void
 SetCaretPosition
 (
+nsINode
+*
+aNode
+int32_t
+aOffset
+)
+;
+void
+SetCaretPosition
+(
 nsIDOMNode
 *
 aNode
