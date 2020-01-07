@@ -1775,6 +1775,14 @@ gtk_widget_get_parent_window
 )
 STUB
 (
+gtk_widget_get_preferred_width
+)
+STUB
+(
+gtk_widget_get_preferred_height
+)
+STUB
+(
 gtk_widget_get_realized
 )
 STUB
@@ -1936,6 +1944,10 @@ gtk_widget_style_get
 STUB
 (
 gtk_widget_unparent
+)
+STUB
+(
+gtk_widget_unrealize
 )
 STUB
 (
