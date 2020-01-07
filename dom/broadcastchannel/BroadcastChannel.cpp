@@ -1113,7 +1113,7 @@ if
 StaticPrefs
 :
 :
-privacy_trackingprotection_storagerestriction_enabled
+privacy_restrict3rdpartystorage_enabled
 (
 )
 &
@@ -1179,7 +1179,7 @@ if
 StaticPrefs
 :
 :
-privacy_trackingprotection_storagerestriction_enabled
+privacy_restrict3rdpartystorage_enabled
 (
 )
 &

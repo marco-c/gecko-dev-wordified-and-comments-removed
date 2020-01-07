@@ -201,9 +201,7 @@ set
 "
 privacy
 .
-trackingprotection
-.
-storagerestriction
+restrict3rdpartystorage
 .
 enabled
 "
