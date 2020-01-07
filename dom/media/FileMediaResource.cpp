@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+AbstractThread
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
