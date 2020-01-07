@@ -121,6 +121,10 @@ skip
 -
 if
 '
+    
+'
+subsuite
+'
 ]
 )
 def
@@ -2175,6 +2179,10 @@ ChooseSubsuite
 wrapperPathStr
 )
         
+if
+subsuite
+:
+            
 errataLines
 .
 append
@@ -2182,9 +2190,30 @@ append
 '
 subsuite
 =
+{
+}
 '
-+
+.
+format
+(
 subsuite
+)
+)
+        
+else
+:
+            
+errataLines
+.
+append
+(
+'
+skip
+-
+if
+=
+1
+'
 )
         
 if
@@ -2197,7 +2226,6 @@ assert
 subsuite
             
 errataLines
-+
 =
 errataMap
 [
