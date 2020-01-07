@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIGenKeypairInfoDlg
 .
 h
@@ -2892,7 +2885,7 @@ nsKeygenFormProcessor
 :
 ExtractParams
 (
-nsIDOMHTMLElement
+Element
 *
 aElement
 nsAString
@@ -2906,18 +2899,7 @@ nsAString
 keyParamsValue
 )
 {
-nsCOMPtr
-<
-Element
->
-element
-=
-do_QueryInterface
-(
 aElement
-)
-;
-element
 -
 >
 GetAttribute
@@ -2950,7 +2932,7 @@ rsa
 )
 ;
 }
-element
+aElement
 -
 >
 GetAttribute
@@ -2973,7 +2955,7 @@ IsEmpty
 )
 )
 {
-element
+aElement
 -
 >
 GetAttribute
@@ -2988,7 +2970,7 @@ keyParamsValue
 )
 ;
 }
-element
+aElement
 -
 >
 GetAttribute
@@ -3009,7 +2991,7 @@ nsKeygenFormProcessor
 :
 ProcessValue
 (
-nsIDOMHTMLElement
+Element
 *
 aElement
 const
