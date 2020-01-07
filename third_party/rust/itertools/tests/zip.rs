@@ -79,7 +79,6 @@ iter
 batching
 (
 |
-mut
 it
 |
 *
