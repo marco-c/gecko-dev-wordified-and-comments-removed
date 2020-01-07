@@ -38,6 +38,9 @@ nsContainerFrame
 class
 nsPlaceholderFrame
 ;
+class
+nsWindowSizes
+;
 namespace
 mozilla
 {
@@ -422,6 +425,15 @@ nsIContent
 >
 aContent
 )
+;
+void
+AddSizeOfIncludingThis
+(
+nsWindowSizes
+&
+aSizes
+)
+const
 ;
 protected
 :

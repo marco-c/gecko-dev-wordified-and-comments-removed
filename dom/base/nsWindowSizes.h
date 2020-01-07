@@ -793,6 +793,12 @@ mLayoutComputedValuesVisited
 \
 macro
 (
+Style
+mLayoutComputedValuesStale
+)
+\
+macro
+(
 Other
 mPropertyTablesSize
 )
