@@ -205,13 +205,10 @@ nsINavHistoryQueryOptions
 SORT_BY_ANNOTATION_DESCENDING
 ]
 .
-indexOf
+includes
 (
 aSortingMode
 )
->
-=
-0
 )
 {
 is
