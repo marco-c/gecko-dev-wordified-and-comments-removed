@@ -6099,7 +6099,14 @@ const
 ;
 void
 *
-wasmTrapPC
+wasmTrapResumePC
+(
+)
+const
+;
+void
+*
+wasmTrapUnwoundPC
 (
 )
 const

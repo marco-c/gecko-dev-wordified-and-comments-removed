@@ -422,6 +422,11 @@ nullptr
 wasm
 (
 zone
+-
+>
+runtimeFromActiveCooperatingThread
+(
+)
 )
 nonSyntacticLexicalEnvironments_
 (

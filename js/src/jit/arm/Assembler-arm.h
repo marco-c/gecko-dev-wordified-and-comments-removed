@@ -665,6 +665,13 @@ r5
 static
 constexpr
 Register
+ABINonVolatileReg
+=
+r6
+;
+static
+constexpr
+Register
 ABINonArgReturnVolatileReg
 =
 lr
@@ -1399,6 +1406,13 @@ uint32_t
 WasmStackAlignment
 =
 SimdMemoryAlignment
+;
+static
+const
+uint32_t
+WasmTrapInstructionLength
+=
+4
 ;
 static
 constexpr
