@@ -128,7 +128,7 @@ NS_INLINE_DECL_REFCOUNTING
 VideoEngine
 )
 static
-RefPtr
+already_AddRefed
 <
 VideoEngine
 >

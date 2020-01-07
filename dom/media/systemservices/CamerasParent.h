@@ -658,7 +658,7 @@ event
 )
 ;
 static
-RefPtr
+StaticRefPtr
 <
 VideoEngine
 >
