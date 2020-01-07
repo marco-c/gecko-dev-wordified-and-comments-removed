@@ -151,7 +151,6 @@ def
 __init__
 (
 self
-srcdir
 objdir
 environment
 topsrcdir
@@ -164,12 +163,6 @@ self
 topsrcdir
 =
 topsrcdir
-        
-self
-.
-srcdir
-=
-srcdir
         
 self
 .
@@ -1185,20 +1178,6 @@ topobjdir
 relativedir
 )
         
-srcdir
-=
-mozpath
-.
-join
-(
-self
-.
-environment
-.
-topsrcdir
-relativedir
-)
-        
 if
 objdir
 not
@@ -1219,7 +1198,6 @@ objdir
                     
 BackendTupfile
 (
-srcdir
 objdir
 self
 .
@@ -3808,6 +3786,24 @@ outheaderdir
 _ipdlheaders
 '
         
+srcdir
+=
+mozpath
+.
+join
+(
+self
+.
+environment
+.
+topsrcdir
+'
+ipc
+/
+ipdl
+'
+)
+        
 cmd
 =
 [
@@ -3833,8 +3829,6 @@ ipdl
 py
 '
 %
-backend_file
-.
 srcdir
             
 '
@@ -3856,8 +3850,6 @@ messages
 ini
 '
 %
-backend_file
-.
 srcdir
             
 '
@@ -3877,8 +3869,6 @@ metadata
 ini
 '
 %
-backend_file
-.
 srcdir
             
 '
