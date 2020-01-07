@@ -1645,7 +1645,6 @@ Gecko_IsSignificantChild
 self
 .
 0
-true
 false
 )
 }
@@ -10932,7 +10931,6 @@ Gecko_IsSignificantChild
 child
 .
 0
-true
 true
 )
 }
