@@ -2152,6 +2152,13 @@ fileContent
 )
 ;
 }
+TelemetryScalar
+:
+:
+ApplyPendingOperations
+(
+)
+;
 MainThreadArmPersistenceTimer
 (
 )
@@ -2413,6 +2420,13 @@ gPersistenceThread
 thread
 .
 forget
+(
+)
+;
+TelemetryScalar
+:
+:
+DeserializationStarted
 (
 )
 ;
