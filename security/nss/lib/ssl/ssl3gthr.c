@@ -1667,6 +1667,7 @@ PORT_Assert
 (
 headerLen
 =
+=
 2
 )
 ;

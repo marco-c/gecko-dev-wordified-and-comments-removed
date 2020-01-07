@@ -2884,6 +2884,8 @@ type
 ;
 }
 }
+rv
+=
 sslBuffer_Append
 (
 buf
@@ -2895,6 +2897,18 @@ tail
 len
 )
 ;
+if
+(
+rv
+!
+=
+SECSuccess
+)
+{
+goto
+loser
+;
+}
 sslBuffer_Clear
 (
 &
