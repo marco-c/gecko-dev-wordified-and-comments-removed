@@ -556,6 +556,11 @@ LayerAnimationInfo
 h
 '
 '
+MediaFeatureChange
+.
+h
+'
+'
 PostTraversalTask
 .
 h
