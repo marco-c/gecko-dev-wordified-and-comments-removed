@@ -103,8 +103,7 @@ LazyLogModule
 sAndroidDecoderModuleLog
 ;
 const
-char
-*
+nsCString
 TranslateMimeType
 (
 const
