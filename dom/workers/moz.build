@@ -502,16 +502,6 @@ browser
 ini
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-test
-/
-gtest
-'
-]
 if
 CONFIG
 [
