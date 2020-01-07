@@ -203,6 +203,9 @@ class
 nsPresContext
 ;
 struct
+nsStyleDisplay
+;
+struct
 nsStyleVisibility
 ;
 namespace

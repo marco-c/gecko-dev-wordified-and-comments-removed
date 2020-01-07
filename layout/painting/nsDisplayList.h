@@ -183,6 +183,15 @@ include
 "
 mozilla
 /
+EffectCompositor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumeratedArray
 .
 h

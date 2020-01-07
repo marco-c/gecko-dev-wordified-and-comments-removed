@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+ServoComputedData
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoTypes
 .
 h

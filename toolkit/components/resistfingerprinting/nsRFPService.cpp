@@ -36,6 +36,17 @@ include
 "
 mozilla
 /
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -3623,6 +3634,9 @@ IsEmpty
 )
 )
 {
+dom
+:
+:
 Element
 *
 elm

@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+ComputedStyleInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Selection

@@ -509,6 +509,16 @@ ServoBindingTypes
 h
 '
 '
+ServoComputedData
+.
+h
+'
+'
+ServoComputedDataInlines
+.
+h
+'
+'
 ServoCounterStyleRule
 .
 h
