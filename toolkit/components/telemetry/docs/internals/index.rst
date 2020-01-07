@@ -29,5 +29,6 @@ maxdepth
 :
 titlesonly
 :
+geckoview
 preferences
 pingsender
