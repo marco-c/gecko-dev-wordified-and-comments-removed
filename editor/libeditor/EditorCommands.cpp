@@ -2911,7 +2911,7 @@ return
 textEditor
 -
 >
-SwitchTextDirection
+ToggleTextDirection
 (
 )
 ;
