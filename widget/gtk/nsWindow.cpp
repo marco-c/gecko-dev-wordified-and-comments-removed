@@ -29722,6 +29722,13 @@ CSD_SUPPORT_NONE
 ;
 }
 }
+else
+{
+sCSDSupportLevel
+=
+CSD_SUPPORT_NONE
+;
+}
 return
 sCSDSupportLevel
 ;
