@@ -333,7 +333,7 @@ throw
 (
 )
 :
-m_pFace
+m_face
 (
 &
 face
@@ -984,8 +984,9 @@ i
 ]
 =
 m_feats
-+
+[
 i
+]
 ;
 }
 free
@@ -1569,7 +1570,7 @@ maxVal
 |
 |
 !
-m_pFace
+m_face
 )
 return
 false
@@ -1588,7 +1589,7 @@ pDest
 m_pMap
 =
 &
-m_pFace
+m_face
 -
 >
 theSill
@@ -1608,7 +1609,7 @@ m_pMap
 !
 =
 &
-m_pFace
+m_face
 -
 >
 theSill
@@ -1695,8 +1696,11 @@ size
 )
 &
 &
+m_face
 &
-m_pFace
+&
+&
+m_face
 -
 >
 theSill

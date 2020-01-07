@@ -979,6 +979,9 @@ _mingap
 float
 _xbound
 ;
+bool
+_hit
+;
 #
 if
 !
@@ -1067,6 +1070,10 @@ _xbound
 0
 .
 0
+)
+_hit
+(
+false
 )
 {
 #

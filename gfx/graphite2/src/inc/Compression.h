@@ -76,6 +76,17 @@ const
 MINMATCH
 =
 4
+LASTLITERALS
+=
+5
+MINCODA
+=
+LASTLITERALS
++
+1
+MINSRCSIZE
+=
+13
 ;
 template
 <
