@@ -550,6 +550,7 @@ LayoutDeviceIntMargin
 &
 margins
 )
+override
 {
 return
 NS_OK
