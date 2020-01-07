@@ -18,7 +18,7 @@ action
 :
 pan
 -
-down
+up
 <
 /
 title
@@ -44,7 +44,7 @@ action
 :
 pan
 -
-down
+up
 on
 a
 swiped
@@ -60,7 +60,7 @@ the
 y
 -
 axis
-down
+up
 direction
 should
 be
@@ -102,6 +102,9 @@ css
 href
 =
 "
+.
+.
+/
 pointerevent_styles
 .
 css
@@ -146,6 +149,9 @@ script
 src
 =
 "
+.
+.
+/
 pointerevent_support
 .
 js
@@ -175,7 +181,7 @@ action
 :
 pan
 -
-down
+up
 ;
 }
 <
@@ -225,10 +231,10 @@ Try
 to
 scroll
 element
-UP
+DOWN
 (
 drag
-down
+up
 )
 then
 RIGHT
@@ -237,10 +243,10 @@ drag
 left
 )
 then
-DOWN
+UP
 (
 drag
-up
+down
 )
 .
 Tap
@@ -257,7 +263,7 @@ Expected
 only
 pans
 in
-down
+up
 direction
 .
 <
@@ -1023,7 +1029,7 @@ scrollListenerExecuted
 =
 true
 ;
-assert_greater_than_equal
+assert_less_than_equal
 (
 target0
 .
@@ -1045,7 +1051,7 @@ action
 :
 pan
 -
-down
+up
 "
 attribute
 works
@@ -1126,7 +1132,7 @@ test
 "
 )
 ;
-assert_greater_than
+assert_less_than
 (
 target0
 .
@@ -1138,7 +1144,7 @@ y
 offset
 should
 be
-greater
+less
 than
 200
 in
@@ -1180,7 +1186,7 @@ action
 :
 pan
 -
-down
+up
 <
 /
 h1

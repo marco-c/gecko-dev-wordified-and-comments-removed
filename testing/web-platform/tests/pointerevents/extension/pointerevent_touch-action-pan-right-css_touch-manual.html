@@ -18,7 +18,7 @@ action
 :
 pan
 -
-left
+right
 <
 /
 title
@@ -44,7 +44,7 @@ action
 :
 pan
 -
-left
+right
 on
 a
 swiped
@@ -60,7 +60,7 @@ the
 x
 -
 axis
-left
+right
 direction
 should
 be
@@ -102,6 +102,9 @@ css
 href
 =
 "
+.
+.
+/
 pointerevent_styles
 .
 css
@@ -146,6 +149,9 @@ script
 src
 =
 "
+.
+.
+/
 pointerevent_support
 .
 js
@@ -175,7 +181,7 @@ action
 :
 pan
 -
-left
+right
 ;
 }
 <
@@ -231,16 +237,16 @@ drag
 up
 )
 then
-RIGHT
-(
-drag
-left
-)
-then
 LEFT
 (
 drag
 right
+)
+then
+RIGHT
+(
+drag
+left
 )
 .
 Tap
@@ -257,7 +263,7 @@ Expected
 only
 pans
 in
-left
+right
 direction
 .
 <
@@ -1023,7 +1029,7 @@ scrollListenerExecuted
 =
 true
 ;
-assert_less_than_equal
+assert_greater_than_equal
 (
 target0
 .
@@ -1045,7 +1051,7 @@ action
 :
 pan
 -
-left
+right
 "
 attribute
 works
@@ -1104,7 +1110,7 @@ test
 "
 )
 ;
-assert_less_than
+assert_greater_than
 (
 target0
 .
@@ -1116,7 +1122,7 @@ x
 offset
 should
 be
-less
+greater
 than
 200
 in
@@ -1180,7 +1186,7 @@ action
 :
 pan
 -
-left
+right
 <
 /
 h1
