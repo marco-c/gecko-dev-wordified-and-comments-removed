@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+BackgroundHangMonitor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -2704,10 +2713,7 @@ PendingInputEventHangAnnotator
 final
 :
 public
-HangMonitor
-:
-:
-Annotator
+BackgroundHangAnnotator
 {
 public
 :
@@ -2715,10 +2721,7 @@ virtual
 void
 AnnotateHang
 (
-HangMonitor
-:
-:
-HangAnnotations
+BackgroundHangAnnotations
 &
 aAnnotations
 )
@@ -3471,7 +3474,7 @@ RegisterPendingInputEventHangAnnotator
 [
 ]
 {
-HangMonitor
+BackgroundHangMonitor
 :
 :
 RegisterAnnotator
@@ -14458,7 +14461,7 @@ true
 #
 ifdef
 NIGHTLY_BUILD
-HangMonitor
+BackgroundHangMonitor
 :
 :
 UnregisterAnnotator

@@ -381,11 +381,6 @@ CombinedStacks
 cpp
 '
 '
-HangReports
-.
-cpp
-'
-'
 ipc
 /
 TelemetryIPC

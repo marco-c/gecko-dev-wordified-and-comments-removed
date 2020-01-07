@@ -771,14 +771,6 @@ false
 ]
 [
 "
-hangmonitor
-.
-timeout
-"
-0
-]
-[
-"
 javascript
 .
 options
