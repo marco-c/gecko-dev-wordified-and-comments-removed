@@ -1284,6 +1284,15 @@ nsAString
 aMessage
 )
 ;
+bool
+IsEnabled
+(
+JSContext
+*
+aCx
+)
+const
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner
@@ -1369,6 +1378,9 @@ mDumpToStdout
 ;
 nsString
 mDumpPrefix
+;
+bool
+mChromeInstance
 ;
 enum
 {

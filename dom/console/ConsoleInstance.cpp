@@ -128,6 +128,13 @@ aOptions
 .
 mPrefix
 ;
+mConsole
+-
+>
+mChromeInstance
+=
+true
+;
 }
 ConsoleInstance
 :
