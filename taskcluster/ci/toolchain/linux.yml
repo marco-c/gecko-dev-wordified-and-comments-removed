@@ -1107,7 +1107,7 @@ in
 -
 tree
 :
-desktop
+toolchain
 -
 build
 }
