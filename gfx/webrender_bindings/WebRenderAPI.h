@@ -909,6 +909,11 @@ WakeSceneBuilder
 (
 )
 ;
+void
+FlushSceneBuilder
+(
+)
+;
 wr
 :
 :
