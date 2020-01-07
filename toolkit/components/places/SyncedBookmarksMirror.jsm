@@ -11394,7 +11394,7 @@ won
 t
 have
 "
-needsMerge
+hasRemoteValue
 "
 set
 .
@@ -11408,6 +11408,17 @@ guid
 OLD
 .
 newGuid
+syncStatus
+=
+{
+PlacesUtils
+.
+bookmarks
+.
+SYNC_STATUS
+.
+NORMAL
+}
 WHERE
 OLD
 .
