@@ -124,6 +124,13 @@ mPresContext
 aPresContext
 )
 {
+mEventDispatcher
+=
+new
+AnimationEventDispatcher
+(
+)
+;
 }
 nsPresContext
 *
@@ -228,7 +235,8 @@ aEvents
 )
 {
 mEventDispatcher
-.
+-
+>
 QueueEvents
 (
 Move
@@ -244,7 +252,8 @@ SortEvents
 )
 {
 mEventDispatcher
-.
+-
+>
 SortEvents
 (
 )
@@ -256,7 +265,8 @@ ClearEventQueue
 )
 {
 mEventDispatcher
-.
+-
+>
 ClearEventQueue
 (
 )
@@ -346,10 +356,13 @@ nsPresContext
 *
 mPresContext
 ;
+RefPtr
+<
 mozilla
 :
 :
 AnimationEventDispatcher
+>
 mEventDispatcher
 ;
 }

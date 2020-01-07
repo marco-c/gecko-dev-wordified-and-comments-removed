@@ -819,7 +819,8 @@ this
 )
 ;
 mEventDispatcher
-.
+-
+>
 DispatchEvents
 (
 mPresContext
