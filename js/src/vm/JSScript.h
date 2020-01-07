@@ -1175,7 +1175,17 @@ chars_
 ;
 private
 :
+mozilla
+:
+:
+Atomic
+<
 uint32_t
+mozilla
+:
+:
+ReleaseAcquire
+>
 refs
 ;
 struct
