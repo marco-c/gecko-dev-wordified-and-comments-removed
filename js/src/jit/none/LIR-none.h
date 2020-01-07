@@ -188,7 +188,12 @@ class
 LWasmUint32ToFloat32
 :
 public
-LInstruction
+LInstructionHelper
+<
+1
+1
+0
+>
 {
 public
 :
