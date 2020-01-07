@@ -774,13 +774,7 @@ getExternalType
 isTheme
 "
 "
-isUsableAddon
-"
-"
 isWebExtension
-"
-"
-mustSign
 "
 ]
 ;
@@ -5150,6 +5144,8 @@ addon
 appDisabled
 =
 !
+XPIDatabase
+.
 isUsableAddon
 (
 addon
@@ -8511,6 +8507,8 @@ types
 }
 if
 (
+XPIDatabase
+.
 mustSign
 (
 this
@@ -8757,6 +8755,8 @@ addon
 appDisabled
 =
 !
+XPIDatabase
+.
 isUsableAddon
 (
 this
@@ -17796,6 +17796,8 @@ location
 ;
 if
 (
+XPIDatabase
+.
 mustSign
 (
 addon
