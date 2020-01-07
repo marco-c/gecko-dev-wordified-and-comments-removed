@@ -6529,9 +6529,9 @@ if
 sendFocusEvent
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 oldFocusedContent
 =
@@ -7879,9 +7879,9 @@ begin
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 content
 =
