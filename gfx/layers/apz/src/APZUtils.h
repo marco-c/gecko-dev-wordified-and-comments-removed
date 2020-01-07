@@ -167,6 +167,7 @@ APZWheelAction
 uint8_t
 (
 Scroll
+PinchZoom
 )
 )
 const
