@@ -7859,6 +7859,10 @@ newRRSet
 =
 nullptr
 ;
+status
+=
+NS_ERROR_UNKNOWN_HOST
+;
 }
 if
 (
