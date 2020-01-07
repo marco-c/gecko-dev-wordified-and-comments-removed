@@ -108,6 +108,7 @@ waitForMessage
 hud
 loggedString
 )
+;
 BrowserReload
 (
 )

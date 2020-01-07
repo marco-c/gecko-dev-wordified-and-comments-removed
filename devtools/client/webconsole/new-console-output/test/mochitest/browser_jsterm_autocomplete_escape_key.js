@@ -134,7 +134,6 @@ autocompletePopup
 :
 popup
 completeNode
-inputNode
 }
 =
 jsterm

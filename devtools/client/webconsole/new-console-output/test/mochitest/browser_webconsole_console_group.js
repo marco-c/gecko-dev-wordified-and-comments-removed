@@ -23,6 +23,9 @@ client
 /
 webconsole
 /
+"
++
+"
 new
 -
 console
@@ -809,10 +812,10 @@ twisty
 const
 isOpen
 =
-node
+node2
 =
 >
-node
+node2
 .
 classList
 .
@@ -876,6 +879,7 @@ toString
 )
 ;
 }
+;
 await
 waitFor
 (
@@ -892,6 +896,7 @@ node
 =
 shouldBeOpen
 )
+;
 assertVisibleMessageIds
 (
 shouldBeOpen
@@ -924,6 +929,7 @@ node
 =
 shouldBeOpen
 )
+;
 assertVisibleMessageIds
 (
 shouldBeOpen
@@ -956,6 +962,7 @@ node
 =
 shouldBeOpen
 )
+;
 assertVisibleMessageIds
 (
 shouldBeOpen

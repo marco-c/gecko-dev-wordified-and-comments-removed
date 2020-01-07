@@ -23,6 +23,9 @@ client
 /
 webconsole
 /
+"
++
+"
 new
 -
 console
@@ -31,11 +34,11 @@ output
 /
 test
 /
+mochitest
+/
 "
 +
 "
-mochitest
-/
 test
 -
 insecure

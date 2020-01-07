@@ -36,6 +36,9 @@ test
 /
 mochitest
 /
+"
++
+"
 test
 -
 mixedcontent
@@ -65,6 +68,9 @@ Web
 /
 Security
 /
+"
++
+"
 Mixed_content
 "
 +
@@ -200,6 +206,9 @@ png
 u201d
 on
 a
+"
++
+"
 secure
 page
 "

@@ -36,6 +36,9 @@ test
 /
 mochitest
 /
+"
++
+"
 test
 -
 mixedcontent
@@ -149,9 +152,6 @@ click
 (
 )
 ;
-let
-tab
-=
 await
 onTabOpen
 ;

@@ -239,10 +239,10 @@ gBrowser
 selectedBrowser
 {
 }
-function
-*
 (
 )
+=
+>
 {
 let
 button

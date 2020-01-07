@@ -20,6 +20,7 @@ utf8
 console
 API
 calls
+;
 add_task
 (
 async

@@ -36,6 +36,9 @@ test
 /
 mochitest
 /
+"
++
+"
 test
 -
 mixedcontent
@@ -65,6 +68,9 @@ Web
 /
 Security
 /
+"
++
+"
 Mixed_content
 "
 +
@@ -324,6 +330,7 @@ tab
 )
 ;
 }
+;
 info
 (
 "
