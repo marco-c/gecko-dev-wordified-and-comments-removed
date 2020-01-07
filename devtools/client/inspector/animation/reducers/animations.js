@@ -188,6 +188,17 @@ detailVisibility
 }
 )
 {
+const
+selectedAnimation
+=
+detailVisibility
+?
+state
+.
+selectedAnimation
+:
+null
+;
 return
 Object
 .
@@ -198,6 +209,7 @@ assign
 state
 {
 detailVisibility
+selectedAnimation
 }
 )
 ;
