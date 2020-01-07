@@ -439,7 +439,6 @@ TextLength
 const
 override
 ;
-virtual
 nsresult
 SetText
 (
@@ -452,7 +451,6 @@ aLength
 bool
 aNotify
 )
-override
 ;
 nsresult
 SetText

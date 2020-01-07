@@ -411,9 +411,9 @@ getDocument
 document
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+nsTextNode
 >
 text
 =
@@ -455,6 +455,11 @@ txXPathNativeNode
 createXPathNode
 (
 text
+-
+>
+AsContent
+(
+)
 true
 )
 ;

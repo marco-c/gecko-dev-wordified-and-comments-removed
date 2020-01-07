@@ -67,12 +67,6 @@ Element
 :
 GetText
 ;
-using
-Element
-:
-:
-SetText
-;
 explicit
 HTMLAnchorElement
 (

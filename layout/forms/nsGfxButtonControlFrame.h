@@ -35,6 +35,9 @@ nsIAnonymousContentCreator
 h
 "
 class
+nsTextNode
+;
+class
 nsGfxButtonControlFrame
 final
 :
@@ -189,9 +192,9 @@ true
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIContent
+nsTextNode
 >
 mTextContent
 ;
