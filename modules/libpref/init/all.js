@@ -19326,7 +19326,9 @@ addons
 signer
 "
 "
-onecrl
+remote
+-
+settings
 .
 content
 -
@@ -19380,7 +19382,9 @@ plugins
 signer
 "
 "
-onecrl
+remote
+-
+settings
 .
 content
 -
@@ -19520,7 +19524,9 @@ gfx
 signer
 "
 "
-onecrl
+remote
+-
+settings
 .
 content
 -
