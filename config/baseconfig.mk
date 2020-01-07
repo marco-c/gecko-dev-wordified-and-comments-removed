@@ -64,10 +64,6 @@ libdir
 (
 MOZ_APP_NAME
 )
--
-(
-MOZ_APP_VERSION
-)
 ifeq
 (
 .
