@@ -47,6 +47,8 @@ util
 .
 schema
 import
+optionally_keyed_by
+resolve_keyed_by
 Schema
 from
 taskgraph
@@ -59,7 +61,7 @@ get_push_apk_scope
 get_push_apk_track
 \
     
-get_push_apk_dry_run_option
+get_push_apk_commit_option
 get_push_apk_rollout_percentage
 from
 taskgraph
@@ -201,7 +203,13 @@ type
 '
 )
 :
+optionally_keyed_by
+(
+'
+project
+'
 basestring
+)
     
 Required
 (
@@ -400,13 +408,11 @@ worker
 ]
 [
 '
-dry
--
-run
+commit
 '
 ]
 =
-get_push_apk_dry_run_option
+get_push_apk_commit_option
 (
 config
 )
@@ -454,6 +460,37 @@ get_push_apk_scope
 config
 )
 ]
+        
+resolve_keyed_by
+(
+            
+job
+'
+worker
+-
+type
+'
+item_name
+=
+job
+[
+'
+name
+'
+]
+            
+project
+=
+config
+.
+params
+[
+'
+project
+'
+]
+        
+)
         
 yield
 job
