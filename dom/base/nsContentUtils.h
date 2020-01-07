@@ -5169,15 +5169,6 @@ DOMDumpLog
 ;
 static
 bool
-IsContentInsertionPoint
-(
-nsIContent
-*
-aContent
-)
-;
-static
-bool
 HasDistributedChildren
 (
 nsIContent
