@@ -1165,12 +1165,6 @@ mShouldFallbackIfError
 bool
 mFromFallback
 ;
-Atomic
-<
-bool
->
-mProfilerRegistered
-;
 }
 ;
 class
