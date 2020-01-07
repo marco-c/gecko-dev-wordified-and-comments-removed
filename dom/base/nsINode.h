@@ -2707,12 +2707,6 @@ aRv
 )
 final
 ;
-using
-nsIDOMEventTarget
-:
-:
-AddSystemEventListener
-;
 virtual
 bool
 IsApzAware
