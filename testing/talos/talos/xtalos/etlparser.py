@@ -19,6 +19,8 @@ import
 sys
 import
 mozfile
+from
+.
 import
 xtalos
 EVENTNAME_INDEX

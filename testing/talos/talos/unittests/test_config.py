@@ -1003,6 +1003,10 @@ stylothreads
 '
 subtests
 '
+                
+'
+preferences
+'
 ]
     
 def
