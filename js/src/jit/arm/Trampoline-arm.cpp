@@ -1151,6 +1151,12 @@ framePtr
 )
 ;
 {
+ScratchRegisterScope
+asmScratch
+(
+masm
+)
+;
 masm
 .
 ma_sub
@@ -1161,8 +1167,11 @@ Imm32
 WINDOWS_BIG_FRAME_TOUCH_INCREMENT
 )
 scratch
+asmScratch
 )
 ;
+}
+{
 Label
 touchFrameLoop
 ;

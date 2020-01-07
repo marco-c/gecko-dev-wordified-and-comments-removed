@@ -8651,7 +8651,7 @@ cond_
 :
 4
 ;
-LoadType
+uint32_t
 loadType_
 :
 2
@@ -8960,7 +8960,13 @@ PoolHintData
 PoolBranch
 ;
 return
+static_cast
+<
+LoadType
+>
+(
 loadType_
+)
 ;
 }
 bool
@@ -14062,7 +14068,7 @@ size
 :
 15
 ;
-bool
+uint32_t
 isNatural
 :
 1
