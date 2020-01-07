@@ -33938,16 +33938,6 @@ hack
 enabled
 true
 )
-fails
--
-if
-(
-!
-stylo
-|
-|
-styloVsGecko
-)
 =
 =
 1446470
