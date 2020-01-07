@@ -133,7 +133,6 @@ shutdownManager
 ;
 startupManager
 (
-false
 )
 ;
 let

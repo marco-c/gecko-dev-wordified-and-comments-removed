@@ -366,7 +366,6 @@ MAKE_FILE_OLD_DIFFERENCE
 ;
 startupManager
 (
-false
 )
 ;
 }

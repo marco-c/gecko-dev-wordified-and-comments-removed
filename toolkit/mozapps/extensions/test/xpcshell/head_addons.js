@@ -3438,12 +3438,10 @@ size
 function
 startupManager
 (
-aAppChanged
 )
 {
 promiseStartupManager
 (
-aAppChanged
 )
 ;
 }
@@ -7889,7 +7887,6 @@ updateList
 ;
 startupManager
 (
-false
 )
 ;
 await
@@ -8009,7 +8006,6 @@ updateList
 ;
 startupManager
 (
-false
 )
 ;
 info

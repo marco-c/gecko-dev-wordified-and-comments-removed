@@ -4985,7 +4985,6 @@ version
 await
 promiseStartupManager
 (
-true
 )
 ;
 let
@@ -5198,7 +5197,6 @@ version
 await
 promiseStartupManager
 (
-true
 )
 ;
 let
@@ -5343,7 +5341,6 @@ changeXPIDBVersion
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -5497,7 +5494,6 @@ version
 await
 promiseStartupManager
 (
-true
 )
 ;
 let
@@ -6545,7 +6541,6 @@ now
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -6885,7 +6880,6 @@ now
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -7168,7 +7162,6 @@ now
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -7398,7 +7391,6 @@ true
 await
 promiseStartupManager
 (
-false
 )
 ;
 await
@@ -7444,7 +7436,6 @@ profileDir
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -7766,7 +7757,6 @@ now
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -8031,7 +8021,6 @@ now
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -8511,7 +8500,6 @@ true
 await
 promiseStartupManager
 (
-false
 )
 ;
 await
@@ -8557,7 +8545,6 @@ profileDir
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -9409,7 +9396,6 @@ true
 await
 promiseStartupManager
 (
-false
 )
 ;
 await
@@ -9455,7 +9441,6 @@ profileDir
 ;
 startupManager
 (
-false
 )
 ;
 let
@@ -9961,7 +9946,6 @@ true
 ;
 startupManager
 (
-false
 )
 ;
 await

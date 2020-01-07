@@ -948,7 +948,6 @@ true
 ;
 startupManager
 (
-false
 )
 ;
 reloadBlocklist

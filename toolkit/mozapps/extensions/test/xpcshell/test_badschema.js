@@ -1313,7 +1313,6 @@ changeXPIDBVersion
 await
 promiseStartupManager
 (
-false
 )
 ;
 info
@@ -1400,7 +1399,6 @@ test_after_second_restart
 await
 promiseStartupManager
 (
-false
 )
 ;
 info

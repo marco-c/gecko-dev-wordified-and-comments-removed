@@ -774,7 +774,6 @@ version
 ;
 startupManager
 (
-true
 )
 ;
 addon

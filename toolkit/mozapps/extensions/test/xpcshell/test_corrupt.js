@@ -1131,7 +1131,6 @@ PERMS_DIRECTORY
 await
 promiseStartupManager
 (
-false
 )
 ;
 await
@@ -1289,7 +1288,6 @@ test_after_second_restart
 await
 promiseStartupManager
 (
-false
 )
 ;
 info
