@@ -329,8 +329,6 @@ attribute
 EventHandler
 onaddtrack
 ;
-/
-/
 attribute
 EventHandler
 onremovetrack
