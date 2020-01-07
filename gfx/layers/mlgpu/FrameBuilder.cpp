@@ -68,6 +68,17 @@ mozilla
 /
 gfx
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 Polygon
 .
 h
@@ -582,6 +593,9 @@ layer
 {
 gfxDevCrash
 (
+gfx
+:
+:
 LogReason
 :
 :
@@ -689,6 +703,9 @@ viewContainer
 {
 gfxDevCrash
 (
+gfx
+:
+:
 LogReason
 :
 :
