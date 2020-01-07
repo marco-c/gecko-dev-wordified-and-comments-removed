@@ -31,19 +31,20 @@ head
 list
 >
 <
+/
+list
+>
+<
+list
+>
+y
+<
 string
 >
 AddRegExpCases
 <
 /
 string
->
-<
-/
-list
->
-<
-list
 >
 <
 string
@@ -94,6 +95,7 @@ list
 <
 list
 >
+vK
 <
 tuple
 >
@@ -510,6 +512,7 @@ tuple
 <
 list
 >
+>
 <
 tuple
 >
@@ -550,6 +553,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -709,6 +713,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -805,6 +810,7 @@ tuple
 <
 list
 >
+C
 <
 tuple
 >
@@ -845,6 +851,7 @@ tuple
 <
 list
 >
+Y
 <
 tuple
 >
@@ -1004,6 +1011,7 @@ head
 <
 list
 >
+Y
 <
 tuple
 >
@@ -1100,6 +1108,7 @@ tuple
 <
 list
 >
+>
 <
 tuple
 >
@@ -1140,6 +1149,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -1299,6 +1309,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -1435,6 +1446,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -1594,6 +1606,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -1690,6 +1703,7 @@ tuple
 <
 list
 >
+C
 <
 tuple
 >
@@ -1730,6 +1744,7 @@ tuple
 <
 list
 >
+Y
 <
 tuple
 >
@@ -1890,6 +1905,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -1986,6 +2002,7 @@ tuple
 <
 list
 >
+=
 <
 tuple
 >
@@ -2026,6 +2043,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -2184,6 +2202,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -2298,7 +2317,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2326,6 +2345,14 @@ head
 >
 <
 list
+>
+<
+string
+>
+AddRegExpCases
+<
+/
+string
 >
 <
 string
@@ -2486,6 +2513,7 @@ head
 <
 list
 >
+R
 <
 tuple
 >
@@ -2664,6 +2692,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2699,6 +2728,7 @@ list
 <
 list
 >
+%
 <
 tuple
 >
@@ -2824,6 +2854,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -2964,6 +2995,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2975,6 +3007,7 @@ tuple
 <
 list
 >
+|
 <
 tuple
 >
@@ -3027,6 +3060,7 @@ tuple
 <
 list
 >
+-
 <
 tuple
 >
@@ -3292,6 +3326,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -3354,6 +3389,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3380,6 +3416,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3724,6 +3761,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -4112,6 +4150,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -4500,6 +4539,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -4829,6 +4869,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -5312,6 +5353,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >

@@ -31,19 +31,20 @@ head
 list
 >
 <
+/
+list
+>
+<
+list
+>
+y
+<
 string
 >
 AddRegExpCases
 <
 /
 string
->
-<
-/
-list
->
-<
-list
 >
 <
 string
@@ -94,6 +95,7 @@ list
 <
 list
 >
+E
 <
 tuple
 >
@@ -668,6 +670,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -920,6 +923,7 @@ head
 <
 list
 >
+Y
 <
 tuple
 >
@@ -1172,6 +1176,7 @@ head
 <
 list
 >
+Y
 <
 tuple
 >
@@ -1424,6 +1429,7 @@ head
 <
 list
 >
+\
 <
 tuple
 >
@@ -1675,6 +1681,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -1926,6 +1933,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -2177,6 +2185,7 @@ head
 <
 list
 >
+Y
 <
 tuple
 >
@@ -2427,6 +2436,7 @@ head
 <
 list
 >
+X
 <
 tuple
 >
@@ -2541,7 +2551,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2569,6 +2579,14 @@ head
 >
 <
 list
+>
+<
+string
+>
+AddRegExpCases
+<
+/
+string
 >
 <
 string
@@ -2729,6 +2747,7 @@ head
 <
 list
 >
+R
 <
 tuple
 >
@@ -2907,6 +2926,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2942,6 +2962,7 @@ list
 <
 list
 >
+h
 <
 tuple
 >
@@ -3274,6 +3295,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -3662,6 +3684,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -4050,6 +4073,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -4379,6 +4403,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -4862,6 +4887,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >

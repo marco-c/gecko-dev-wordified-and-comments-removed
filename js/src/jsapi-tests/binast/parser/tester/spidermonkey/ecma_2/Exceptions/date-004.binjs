@@ -31,14 +31,6 @@ head
 list
 >
 <
-string
->
-MyDate
-<
-/
-string
->
-<
 /
 list
 >
@@ -49,6 +41,14 @@ list
 string
 >
 MYDATE
+<
+/
+string
+>
+<
+string
+>
+MyDate
 <
 /
 string
@@ -126,6 +126,7 @@ list
 <
 list
 >
+F
 <
 tuple
 >
@@ -999,6 +1000,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1034,6 +1036,7 @@ string
 <
 list
 >
+?
 <
 tuple
 >
@@ -1325,6 +1328,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1336,6 +1340,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >
@@ -1956,7 +1961,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1984,6 +1989,15 @@ head
 >
 <
 list
+>
+9
+<
+string
+>
+MyDate
+<
+/
+string
 >
 <
 string
@@ -2014,6 +2028,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2062,6 +2077,7 @@ head
 <
 list
 >
+U
 <
 tuple
 >
@@ -2096,6 +2112,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head

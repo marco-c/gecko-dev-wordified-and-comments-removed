@@ -1008,6 +1008,7 @@ tuple
 <
 list
 >
+E
 <
 tuple
 >
@@ -1060,6 +1061,7 @@ tuple
 <
 list
 >
+^
 <
 tuple
 >
@@ -1162,6 +1164,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1173,6 +1176,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >
@@ -1452,6 +1456,7 @@ tuple
 <
 list
 >
+u
 <
 tuple
 >

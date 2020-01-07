@@ -92,6 +92,23 @@ list
 <
 list
 >
+=
+<
+string
+>
+exception
+<
+/
+string
+>
+<
+string
+>
+result
+<
+/
+string
+>
 <
 /
 list
@@ -1009,6 +1026,7 @@ tuple
 <
 list
 >
+S
 <
 tuple
 >
@@ -1061,6 +1079,7 @@ tuple
 <
 list
 >
+l
 <
 tuple
 >
@@ -1168,6 +1187,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1179,6 +1199,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >
@@ -1458,6 +1479,7 @@ tuple
 <
 list
 >
+z
 <
 tuple
 >
