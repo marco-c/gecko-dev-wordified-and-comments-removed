@@ -839,7 +839,7 @@ CustomizableUI
 .
 jsm
 "
-DateTimePickerHelper
+DateTimePickerParent
 :
 "
 resource
@@ -850,7 +850,7 @@ gre
 /
 modules
 /
-DateTimePickerHelper
+DateTimePickerParent
 .
 jsm
 "
@@ -7477,7 +7477,7 @@ init
 (
 )
 ;
-DateTimePickerHelper
+DateTimePickerParent
 .
 init
 (
@@ -7767,7 +7767,7 @@ uninit
 (
 )
 ;
-DateTimePickerHelper
+DateTimePickerParent
 .
 uninit
 (

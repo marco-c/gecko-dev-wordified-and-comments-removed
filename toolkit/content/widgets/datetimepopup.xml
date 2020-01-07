@@ -404,7 +404,7 @@ mozIMozIntl
 /
 /
 Notify
-DateTimePickerHelper
+DateTimePickerParent
 .
 jsm
 that

@@ -25,7 +25,7 @@ dump
 -
 *
 -
-DateTimePickerHelper
+DateTimePickerParent
 :
 "
 +
@@ -44,7 +44,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-DateTimePickerHelper
+DateTimePickerParent
 "
 ]
 ;
@@ -87,7 +87,7 @@ jsm
 )
 ;
 var
-DateTimePickerHelper
+DateTimePickerParent
 =
 {
 picker

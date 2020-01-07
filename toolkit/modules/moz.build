@@ -586,7 +586,8 @@ with
 Files
 (
 '
-DateTimePickerHelper
+DateTimePicker
+*
 .
 jsm
 '
@@ -1447,7 +1448,12 @@ selector
 js
 '
 '
-DateTimePickerHelper
+DateTimePickerContent
+.
+jsm
+'
+'
+DateTimePickerParent
 .
 jsm
 '
