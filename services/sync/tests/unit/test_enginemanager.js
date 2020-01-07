@@ -711,6 +711,7 @@ name
 "
 )
 ;
+await
 manager
 .
 unregister
@@ -821,6 +822,7 @@ instanceof
 Engine
 )
 ;
+await
 manager
 .
 unregister
