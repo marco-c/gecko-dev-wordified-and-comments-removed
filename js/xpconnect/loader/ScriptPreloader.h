@@ -205,7 +205,6 @@ uint8_t
 Parent
 Web
 Extension
-Privileged
 }
 ;
 template
@@ -1301,15 +1300,6 @@ MaybeFinishOffThreadDecode
 void
 DoFinishOffThreadDecode
 (
-)
-;
-JSObject
-*
-CompilationScope
-(
-JSContext
-*
-cx
 )
 ;
 size_t
