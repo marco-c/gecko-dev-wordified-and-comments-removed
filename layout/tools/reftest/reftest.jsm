@@ -2558,6 +2558,13 @@ manifests
 :
 null
 ;
+delete
+manifests
+[
+"
+"
+]
+;
 var
 manifestURLs
 =
