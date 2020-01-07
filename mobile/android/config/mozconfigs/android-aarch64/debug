@@ -21,12 +21,6 @@ ac_add_options
 enable
 -
 debug
-ac_add_options
--
--
-enable
--
-marionette
 #
 Android
 ac_add_options
