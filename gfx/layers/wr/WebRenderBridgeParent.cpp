@@ -3404,6 +3404,14 @@ dlDesc
 dlData
 )
 ;
+mAsyncImageManager
+-
+>
+ApplyAsyncImages
+(
+txn
+)
+;
 mApi
 -
 >
