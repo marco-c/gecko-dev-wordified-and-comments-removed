@@ -1117,6 +1117,12 @@ eUseUserSpaceOfUseElement
 <
 <
 9
+eDoNotClipToBBoxOfContentInsideClipPath
+=
+1
+<
+<
+10
 }
 ;
 static

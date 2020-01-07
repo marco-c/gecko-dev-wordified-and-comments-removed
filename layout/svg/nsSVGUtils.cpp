@@ -5804,6 +5804,7 @@ GetBBoxForClipPathFrame
 (
 bbox
 matrix
+aFlags
 )
 .
 ToThebesRect
