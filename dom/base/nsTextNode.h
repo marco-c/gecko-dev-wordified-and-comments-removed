@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsIDOMText
+nsIDOMCharacterData
 .
 h
 "
@@ -53,7 +53,7 @@ dom
 :
 Text
 public
-nsIDOMText
+nsIDOMCharacterData
 {
 private
 :
@@ -159,12 +159,6 @@ nsGenericDOMDataNode
 :
 SetData
 ;
-NS_FORWARD_NSIDOMTEXT
-(
-nsGenericDOMDataNode
-:
-:
-)
 virtual
 bool
 IsNodeOfType

@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

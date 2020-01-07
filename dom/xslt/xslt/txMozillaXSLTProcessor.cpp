@@ -47,13 +47,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

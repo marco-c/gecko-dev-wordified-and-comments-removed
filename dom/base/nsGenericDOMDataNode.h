@@ -73,9 +73,6 @@ h
 class
 nsIDocument
 ;
-class
-nsIDOMText
-;
 namespace
 mozilla
 {

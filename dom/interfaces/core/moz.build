@@ -159,11 +159,6 @@ nsIDOMProcessingInstruction
 idl
 '
 '
-nsIDOMText
-.
-idl
-'
-'
 nsIDOMXMLDocument
 .
 idl

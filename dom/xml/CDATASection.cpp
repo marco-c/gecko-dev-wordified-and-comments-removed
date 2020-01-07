@@ -50,7 +50,6 @@ CDATASection
 nsGenericDOMDataNode
 nsIDOMNode
 nsIDOMCharacterData
-nsIDOMText
 )
 JSObject
 *

@@ -160,9 +160,6 @@ nsIDOMNodeList
 interface
 nsIDOMProcessingInstruction
 ;
-interface
-nsIDOMText
-;
 /
 /
 Needed

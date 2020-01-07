@@ -24,6 +24,13 @@ Text
 .
 h
 "
+#
+include
+"
+nsIDOMCharacterData
+.
+h
+"
 namespace
 mozilla
 {
@@ -37,7 +44,7 @@ final
 public
 Text
 public
-nsIDOMText
+nsIDOMCharacterData
 {
 private
 :
@@ -143,12 +150,6 @@ nsGenericDOMDataNode
 :
 SetData
 ;
-NS_FORWARD_NSIDOMTEXT
-(
-nsGenericDOMDataNode
-:
-:
-)
 virtual
 bool
 IsNodeOfType

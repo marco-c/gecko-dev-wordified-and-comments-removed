@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
