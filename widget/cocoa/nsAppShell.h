@@ -41,6 +41,7 @@ ResumeNative
 (
 void
 )
+override
 ;
 nsAppShell
 (
@@ -56,12 +57,14 @@ Run
 (
 void
 )
+override
 ;
 NS_IMETHOD
 Exit
 (
 void
 )
+override
 ;
 NS_IMETHOD
 OnProcessNextEvent
@@ -72,6 +75,7 @@ aThread
 bool
 aMayWait
 )
+override
 ;
 NS_IMETHOD
 AfterProcessNextEvent
@@ -82,6 +86,7 @@ aThread
 bool
 aEventWasProcessed
 )
+override
 ;
 void
 WillTerminate
@@ -101,6 +106,7 @@ void
 ScheduleNativeEventCallback
 (
 )
+override
 ;
 virtual
 bool
@@ -109,6 +115,7 @@ ProcessNextNativeEvent
 bool
 aMayWait
 )
+override
 ;
 static
 void

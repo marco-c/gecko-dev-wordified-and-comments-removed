@@ -54,6 +54,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeD2D1
+override
 )
 static
 already_AddRefed

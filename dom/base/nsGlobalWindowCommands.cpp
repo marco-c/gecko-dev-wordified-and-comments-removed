@@ -889,6 +889,7 @@ nsISupports
 *
 aCommandContext
 )
+override
 ;
 }
 ;
@@ -911,6 +912,7 @@ nsISupports
 *
 aCommandContext
 )
+override
 ;
 }
 ;
@@ -933,6 +935,7 @@ nsISupports
 *
 aCommandContext
 )
+override
 ;
 }
 ;
@@ -955,6 +958,7 @@ nsISupports
 *
 aCommandContext
 )
+override
 ;
 }
 ;
@@ -3367,10 +3371,12 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
+\
 bool
 *
 outCmdEnabled
 )
+override
 ;
 \
 virtual
@@ -3385,10 +3391,12 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
+\
 nsICommandParams
 *
 aParams
 )
+override
 ;
 \
 /

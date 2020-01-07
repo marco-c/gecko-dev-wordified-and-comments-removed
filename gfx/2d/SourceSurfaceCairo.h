@@ -31,6 +31,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SourceSurfaceCairo
+override
 )
 SourceSurfaceCairo
 (
@@ -64,6 +65,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -78,6 +80,7 @@ GetSize
 (
 )
 const
+override
 ;
 virtual
 SurfaceFormat
@@ -85,6 +88,7 @@ GetFormat
 (
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -94,6 +98,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+override
 ;
 cairo_surface_t
 *
@@ -142,6 +147,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceCairo
+override
 )
 explicit
 DataSourceSurfaceCairo
@@ -164,12 +170,14 @@ char
 GetData
 (
 )
+override
 ;
 virtual
 int32_t
 Stride
 (
 )
+override
 ;
 virtual
 SurfaceType
@@ -177,6 +185,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -191,6 +200,7 @@ GetSize
 (
 )
 const
+override
 ;
 virtual
 SurfaceFormat
@@ -198,6 +208,7 @@ GetFormat
 (
 )
 const
+override
 ;
 cairo_surface_t
 *

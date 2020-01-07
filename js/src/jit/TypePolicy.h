@@ -281,6 +281,7 @@ MInstruction
 *
 def
 )
+override
 ;
 }
 ;
@@ -1505,6 +1506,7 @@ MInstruction
 *
 ins
 )
+override
 {
 return
 staticAdjustInputs
@@ -1556,6 +1558,7 @@ MInstruction
 *
 ins
 )
+override
 {
 return
 staticAdjustInputs

@@ -589,6 +589,7 @@ GradientCacheData
 *
 aObject
 )
+override
 {
 RemoveObject
 (

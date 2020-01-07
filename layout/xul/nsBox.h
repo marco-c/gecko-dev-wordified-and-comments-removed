@@ -202,6 +202,7 @@ nsIFrame
 *
 aBox
 )
+override
 ;
 virtual
 nsresult

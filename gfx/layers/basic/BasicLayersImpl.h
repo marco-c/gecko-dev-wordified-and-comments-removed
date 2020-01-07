@@ -234,6 +234,7 @@ LayerIntRegion
 &
 aRegion
 )
+override
 {
 NS_ASSERTION
 (

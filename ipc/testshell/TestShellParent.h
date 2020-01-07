@@ -171,6 +171,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+override
 ;
 mozilla
 :
@@ -186,6 +187,7 @@ nsString
 &
 aResponse
 )
+override
 {
 if
 (

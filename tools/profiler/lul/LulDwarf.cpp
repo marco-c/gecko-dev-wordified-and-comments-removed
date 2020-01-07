@@ -1027,6 +1027,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_UNDEFINED_RULE
@@ -1044,6 +1045,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1067,6 +1069,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1092,6 +1095,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new
@@ -1134,6 +1138,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_SAME_VALUE_RULE
@@ -1151,6 +1156,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1174,6 +1180,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1199,6 +1206,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new
@@ -1254,6 +1262,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_OFFSET_RULE
@@ -1271,6 +1280,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1296,6 +1306,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1354,6 +1365,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new
@@ -1417,6 +1429,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_VAL_OFFSET_RULE
@@ -1434,6 +1447,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1459,6 +1473,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1517,6 +1532,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new
@@ -1533,6 +1549,7 @@ SetBaseRegister
 unsigned
 reg
 )
+override
 {
 base_register_
 =
@@ -1546,6 +1563,7 @@ long
 long
 offset
 )
+override
 {
 offset_
 =
@@ -1600,6 +1618,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_REGISTER_RULE
@@ -1617,6 +1636,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1641,6 +1661,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1690,6 +1711,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new
@@ -1747,6 +1769,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_EXPRESSION_RULE
@@ -1764,6 +1787,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1788,6 +1812,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1837,6 +1862,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new
@@ -1894,6 +1920,7 @@ getTag
 (
 )
 const
+override
 {
 return
 CFIR_VAL_EXPRESSION_RULE
@@ -1911,6 +1938,7 @@ int
 reg
 )
 const
+override
 {
 return
 handler
@@ -1935,6 +1963,7 @@ Rule
 rhs
 )
 const
+override
 {
 if
 (
@@ -1984,6 +2013,7 @@ Copy
 (
 )
 const
+override
 {
 return
 new

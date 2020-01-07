@@ -54,6 +54,7 @@ nsIChannel
 *
 channel
 )
+override
 ;
 }
 ;

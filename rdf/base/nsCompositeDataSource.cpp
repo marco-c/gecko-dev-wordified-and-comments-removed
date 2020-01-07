@@ -923,6 +923,7 @@ nsISimpleEnumerator
 *
 aResult
 )
+override
 ;
 virtual
 nsresult
@@ -938,6 +939,7 @@ bool
 *
 aResult
 )
+override
 ;
 CompositeArcsInOutEnumeratorImpl
 (
@@ -1126,6 +1128,7 @@ nsISimpleEnumerator
 *
 aResult
 )
+override
 ;
 virtual
 nsresult
@@ -1141,6 +1144,7 @@ bool
 *
 aResult
 )
+override
 ;
 CompositeAssertionEnumeratorImpl
 (

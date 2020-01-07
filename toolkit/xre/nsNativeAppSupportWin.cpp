@@ -792,6 +792,7 @@ bool
 *
 aResult
 )
+override
 ;
 NS_IMETHOD
 Stop
@@ -800,16 +801,19 @@ bool
 *
 aResult
 )
+override
 ;
 NS_IMETHOD
 Quit
 (
 )
+override
 ;
 NS_IMETHOD
 Enable
 (
 )
+override
 ;
 NS_IMETHOD
 StartDDE

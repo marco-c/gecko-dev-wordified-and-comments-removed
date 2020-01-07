@@ -70,6 +70,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawEventRecorderPrivate
+override
 )
 DrawEventRecorderPrivate
 (
@@ -87,6 +88,7 @@ void
 Finish
 (
 )
+override
 {
 ClearResources
 (

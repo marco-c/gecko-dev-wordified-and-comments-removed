@@ -890,6 +890,7 @@ nsAString
 aMediaText
 )
 final
+override
 ;
 void
 SetText
@@ -900,6 +901,7 @@ nsAString
 aMediaText
 )
 final
+override
 ;
 bool
 Matches
@@ -910,6 +912,7 @@ aPresContext
 )
 const
 final
+override
 {
 return
 Matches
@@ -940,6 +943,7 @@ IsServo
 )
 const
 final
+override
 {
 return
 false
@@ -984,6 +988,7 @@ Clone
 (
 )
 final
+override
 ;
 nsMediaQuery
 *
@@ -1017,6 +1022,7 @@ Length
 (
 )
 final
+override
 {
 return
 mArray
@@ -1039,6 +1045,7 @@ nsAString
 aReturn
 )
 final
+override
 ;
 protected
 :
@@ -1056,6 +1063,7 @@ nsAString
 aOldMedium
 )
 final
+override
 ;
 nsresult
 Append
@@ -1066,6 +1074,7 @@ nsAString
 aOldMedium
 )
 final
+override
 ;
 InfallibleTArray
 <

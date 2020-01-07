@@ -124,6 +124,7 @@ Message
 &
 msg
 )
+override
 {
 }
 virtual
@@ -133,6 +134,7 @@ OnChannelConnected
 int32_t
 peer_pid
 )
+override
 {
 }
 virtual
@@ -140,6 +142,7 @@ void
 OnChannelError
 (
 )
+override
 {
 }
 bool
@@ -235,6 +238,7 @@ Message
 &
 msg
 )
+override
 ;
 virtual
 void
@@ -243,12 +247,14 @@ OnChannelConnected
 int32_t
 peer_pid
 )
+override
 ;
 virtual
 void
 OnChannelError
 (
 )
+override
 ;
 virtual
 void
@@ -267,6 +273,7 @@ Message
 &
 queue
 )
+override
 ;
 private
 :

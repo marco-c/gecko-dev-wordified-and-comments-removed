@@ -569,6 +569,7 @@ ThreadSafeTextIsOnlyWhitespace
 )
 const
 final
+override
 ;
 virtual
 bool

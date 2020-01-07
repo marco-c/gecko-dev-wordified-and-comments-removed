@@ -238,6 +238,7 @@ uint32_t
 *
 charLen
 )
+override
 ;
 int32_t
 GetOrder
@@ -247,6 +248,7 @@ char
 *
 str
 )
+override
 {
 if
 (
@@ -341,6 +343,7 @@ uint32_t
 *
 charLen
 )
+override
 ;
 int32_t
 GetOrder
@@ -350,6 +353,7 @@ char
 *
 str
 )
+override
 {
 if
 (

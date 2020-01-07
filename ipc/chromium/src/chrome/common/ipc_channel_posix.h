@@ -278,6 +278,7 @@ OnFileCanReadWithoutBlocking
 int
 fd
 )
+override
 ;
 virtual
 void
@@ -286,6 +287,7 @@ OnFileCanWriteWithoutBlocking
 int
 fd
 )
+override
 ;
 #
 if

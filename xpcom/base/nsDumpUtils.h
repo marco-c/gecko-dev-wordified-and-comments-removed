@@ -372,6 +372,7 @@ int
 OpenFd
 (
 )
+override
 ;
 virtual
 void
@@ -380,6 +381,7 @@ OnFileCanReadWithoutBlocking
 int
 aFd
 )
+override
 ;
 private
 :
@@ -502,12 +504,14 @@ int
 OpenFd
 (
 )
+override
 ;
 virtual
 void
 StopWatching
 (
 )
+override
 ;
 virtual
 void
@@ -516,6 +520,7 @@ OnFileCanReadWithoutBlocking
 int
 aFd
 )
+override
 ;
 private
 :

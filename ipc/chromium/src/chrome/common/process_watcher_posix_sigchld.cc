@@ -158,6 +158,7 @@ OnSignal
 int
 sig
 )
+override
 {
 DCHECK
 (
@@ -434,6 +435,7 @@ OnSignal
 int
 sig
 )
+override
 {
 ChildReaper
 :
@@ -472,6 +474,7 @@ void
 WillDestroyCurrentMessageLoop
 (
 )
+override
 {
 DCHECK
 (

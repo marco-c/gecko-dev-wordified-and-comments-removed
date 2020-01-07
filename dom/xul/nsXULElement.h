@@ -1442,6 +1442,7 @@ GetBindingParent
 )
 const
 final
+override
 {
 return
 mBindingParent

@@ -104,6 +104,7 @@ IntPoint
 0
 )
 )
+override
 ;
 virtual
 void
@@ -112,12 +113,14 @@ BindTexture
 GLenum
 aTextureUnit
 )
+override
 ;
 virtual
 GLuint
 GetTextureID
 (
 )
+override
 {
 if
 (
@@ -150,6 +153,7 @@ IntSize
 &
 aSize
 )
+override
 ;
 bool
 BindTexImage

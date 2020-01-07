@@ -213,6 +213,7 @@ char
 *
 str
 )
+override
 {
 if
 (
@@ -295,6 +296,7 @@ char
 *
 str
 )
+override
 {
 if
 (
@@ -377,6 +379,7 @@ char
 *
 str
 )
+override
 {
 if
 (
@@ -476,6 +479,7 @@ char
 *
 str
 )
+override
 {
 if
 (
@@ -614,6 +618,7 @@ char
 *
 str
 )
+override
 {
 int32_t
 order
@@ -795,6 +800,7 @@ char
 *
 str
 )
+override
 {
 if
 (

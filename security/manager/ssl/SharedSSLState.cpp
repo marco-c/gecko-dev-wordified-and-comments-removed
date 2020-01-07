@@ -164,6 +164,7 @@ void
 RunOnTargetThread
 (
 )
+override
 {
 bool
 certOverrideSvcExists

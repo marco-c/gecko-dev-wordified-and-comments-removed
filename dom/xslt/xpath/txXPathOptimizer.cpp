@@ -91,6 +91,7 @@ txAExprResult
 &
 aResult
 )
+override
 {
 MOZ_CRASH
 (
@@ -117,6 +118,7 @@ bool
 &
 aAllowed
 )
+override
 {
 MOZ_CRASH
 (
@@ -137,6 +139,7 @@ void
 getPrivateContext
 (
 )
+override
 {
 MOZ_CRASH
 (
@@ -157,6 +160,7 @@ txResultRecycler
 recycler
 (
 )
+override
 {
 return
 mRecycler
@@ -172,6 +176,7 @@ aMsg
 nsresult
 aRes
 )
+override
 {
 }
 const
@@ -180,6 +185,7 @@ txXPathNode
 getContextNode
 (
 )
+override
 {
 MOZ_CRASH
 (
@@ -199,6 +205,7 @@ uint32_t
 size
 (
 )
+override
 {
 MOZ_CRASH
 (
@@ -218,6 +225,7 @@ uint32_t
 position
 (
 )
+override
 {
 MOZ_CRASH
 (

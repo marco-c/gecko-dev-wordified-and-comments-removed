@@ -265,6 +265,8 @@ void
 *
 aInstancePtr
 )
+\
+override
 ;
 \
 NS_IMETHOD_
@@ -275,6 +277,7 @@ AddRef
 (
 void
 )
+override
 ;
 \
 NS_IMETHOD_
@@ -285,6 +288,7 @@ Release
 (
 void
 )
+override
 ;
 \
 \

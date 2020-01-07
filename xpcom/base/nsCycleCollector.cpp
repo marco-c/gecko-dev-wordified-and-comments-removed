@@ -7836,6 +7836,7 @@ nsCycleCollectionParticipant
 *
 aParticipant
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7847,6 +7848,7 @@ JSObject
 *
 aRoot
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7861,6 +7863,7 @@ nsCycleCollectionParticipant
 *
 aParticipant
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7885,6 +7888,7 @@ JS
 GCCellPtr
 aVal
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7899,6 +7903,7 @@ char
 *
 aObjName
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7915,6 +7920,7 @@ aObjName
 uint64_t
 aCompartmentAddress
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7926,6 +7932,7 @@ nsISupports
 *
 aChild
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7941,6 +7948,7 @@ GCCellPtr
 &
 aThing
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7955,6 +7963,7 @@ nsCycleCollectionParticipant
 *
 aParticipant
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -7967,6 +7976,7 @@ char
 *
 aName
 )
+override
 ;
 private
 :
@@ -9670,6 +9680,7 @@ nsISupports
 *
 aChild
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -9684,6 +9695,7 @@ nsCycleCollectionParticipant
 *
 aHelper
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -9699,6 +9711,7 @@ GCCellPtr
 &
 aThing
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -9713,6 +9726,7 @@ char
 *
 aObjname
 )
+override
 {
 }
 NS_IMETHOD_
@@ -9730,6 +9744,7 @@ aObjname
 uint64_t
 aCompartmentAddress
 )
+override
 {
 }
 NS_IMETHOD_
@@ -9743,6 +9758,7 @@ char
 *
 aName
 )
+override
 {
 }
 bool

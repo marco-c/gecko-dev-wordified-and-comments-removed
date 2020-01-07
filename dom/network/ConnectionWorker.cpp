@@ -320,6 +320,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -410,6 +411,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 MOZ_ASSERT
 (

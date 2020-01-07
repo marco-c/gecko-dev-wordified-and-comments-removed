@@ -38,6 +38,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathBuilderD2D
+override
 )
 PathBuilderD2D
 (
@@ -261,6 +262,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathD2D
+override
 )
 PathD2D
 (

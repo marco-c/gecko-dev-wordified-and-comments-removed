@@ -1915,6 +1915,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathBuilder
+override
 )
 virtual
 already_AddRefed
@@ -3901,6 +3902,7 @@ IsCaptureDT
 (
 )
 const
+override
 {
 return
 true

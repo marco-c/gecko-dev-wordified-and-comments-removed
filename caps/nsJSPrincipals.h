@@ -94,6 +94,7 @@ JSStructuredCloneWriter
 aWriter
 )
 final
+override
 ;
 static
 nsJSPrincipals

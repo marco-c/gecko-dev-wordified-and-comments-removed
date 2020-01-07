@@ -54,6 +54,7 @@ aBuf
 uint32_t
 aLen
 )
+override
 ;
 const
 char
@@ -61,6 +62,7 @@ char
 GetCharSetName
 (
 )
+override
 {
 return
 mDetectedCharset
@@ -71,6 +73,7 @@ GetState
 (
 void
 )
+override
 {
 return
 mState
@@ -81,12 +84,14 @@ Reset
 (
 void
 )
+override
 ;
 float
 GetConfidence
 (
 void
 )
+override
 {
 return
 (

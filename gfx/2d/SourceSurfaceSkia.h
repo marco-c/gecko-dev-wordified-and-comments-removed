@@ -74,6 +74,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceSkia
+override
 )
 SourceSurfaceSkia
 (
@@ -90,6 +91,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -104,6 +106,7 @@ GetSize
 (
 )
 const
+override
 ;
 virtual
 SurfaceFormat
@@ -111,6 +114,7 @@ GetFormat
 (
 )
 const
+override
 ;
 void
 GiveSurface
@@ -187,6 +191,7 @@ uint8_t
 GetData
 (
 )
+override
 ;
 virtual
 bool
@@ -197,18 +202,21 @@ MappedSurface
 *
 aMappedSurface
 )
+override
 ;
 virtual
 void
 Unmap
 (
 )
+override
 ;
 virtual
 int32_t
 Stride
 (
 )
+override
 {
 return
 mStride

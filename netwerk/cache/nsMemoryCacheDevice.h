@@ -51,12 +51,14 @@ nsresult
 Init
 (
 )
+override
 ;
 virtual
 nsresult
 Shutdown
 (
 )
+override
 ;
 virtual
 const
@@ -66,6 +68,7 @@ GetDeviceID
 (
 void
 )
+override
 ;
 virtual
 nsresult
@@ -75,6 +78,7 @@ nsCacheEntry
 *
 entry
 )
+override
 ;
 virtual
 nsCacheEntry
@@ -88,6 +92,7 @@ bool
 *
 collision
 )
+override
 ;
 virtual
 void
@@ -97,6 +102,7 @@ nsCacheEntry
 *
 entry
 )
+override
 ;
 virtual
 nsresult
@@ -106,6 +112,7 @@ nsCacheEntry
 *
 entry
 )
+override
 ;
 virtual
 nsresult
@@ -123,6 +130,7 @@ nsIInputStream
 *
 result
 )
+override
 ;
 virtual
 nsresult
@@ -140,6 +148,7 @@ nsIOutputStream
 *
 result
 )
+override
 ;
 virtual
 nsresult
@@ -153,6 +162,7 @@ nsIFile
 *
 result
 )
+override
 ;
 virtual
 nsresult
@@ -164,6 +174,7 @@ entry
 int32_t
 deltaSize
 )
+override
 ;
 virtual
 nsresult
@@ -173,6 +184,7 @@ nsICacheVisitor
 *
 visitor
 )
+override
 ;
 virtual
 nsresult
@@ -183,6 +195,7 @@ char
 *
 clientID
 )
+override
 ;
 nsresult
 EvictPrivateEntries

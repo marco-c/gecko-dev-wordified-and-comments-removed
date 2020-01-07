@@ -506,6 +506,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
+override
 {
 nsCOMPtr
 <

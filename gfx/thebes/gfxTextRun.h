@@ -1433,6 +1433,7 @@ GetCharacterGlyphs
 )
 const
 final
+override
 {
 MOZ_ASSERT
 (
@@ -1455,6 +1456,7 @@ GetCharacterGlyphs
 (
 )
 final
+override
 {
 MOZ_ASSERT
 (

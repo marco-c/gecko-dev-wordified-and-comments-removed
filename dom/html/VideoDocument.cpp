@@ -108,6 +108,7 @@ aSink
 =
 nullptr
 )
+override
 ;
 virtual
 void
@@ -117,12 +118,14 @@ nsIScriptGlobalObject
 *
 aScriptGlobalObject
 )
+override
 ;
 virtual
 void
 Destroy
 (
 )
+override
 {
 if
 (

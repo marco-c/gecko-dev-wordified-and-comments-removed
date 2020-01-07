@@ -110,6 +110,7 @@ nsAString
 &
 _retval
 )
+override
 ;
 already_AddRefed
 <

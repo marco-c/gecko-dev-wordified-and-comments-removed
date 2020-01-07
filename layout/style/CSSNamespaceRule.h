@@ -60,6 +60,7 @@ IsCCLeaf
 )
 const
 final
+override
 {
 return
 Rule
@@ -76,6 +77,7 @@ GetType
 )
 const
 final
+override
 {
 return
 Rule
@@ -112,6 +114,7 @@ Type
 )
 const
 final
+override
 {
 return
 CSSRuleBinding
@@ -163,6 +166,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+override
 =
 0
 ;
@@ -184,6 +188,7 @@ JSObject
 aGivenProto
 )
 final
+override
 {
 return
 CSSNamespaceRuleBinding

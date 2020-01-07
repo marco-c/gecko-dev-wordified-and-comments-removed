@@ -72,6 +72,7 @@ aTransferable
 uint32_t
 anItem
 )
+override
 ;
 NS_IMETHOD
 GetNumDropItems
@@ -80,6 +81,7 @@ uint32_t
 *
 aNumItems
 )
+override
 ;
 NS_IMETHOD
 IsDataFlavorSupported
@@ -92,6 +94,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_IMETHOD
 EndDragSession
@@ -101,6 +104,7 @@ aDoneDrag
 uint32_t
 aKeyModifiers
 )
+override
 ;
 NS_IMETHOD
 UpdateDragImage
@@ -113,6 +117,7 @@ aImageX
 int32_t
 aImageY
 )
+override
 ;
 NS_IMETHOD
 SetIDataObject

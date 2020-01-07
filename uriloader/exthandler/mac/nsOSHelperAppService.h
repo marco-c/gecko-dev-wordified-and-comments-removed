@@ -61,6 +61,7 @@ nsAString
 &
 _retval
 )
+override
 ;
 NS_IMETHOD
 GetFromTypeAndExtension
@@ -78,6 +79,7 @@ nsIMIMEInfo
 *
 aMIMEInfo
 )
+override
 ;
 already_AddRefed
 <
@@ -97,6 +99,7 @@ bool
 *
 aFound
 )
+override
 ;
 NS_IMETHOD
 GetProtocolHandlerInfoFromOS
@@ -113,6 +116,7 @@ nsIHandlerInfo
 *
 _retval
 )
+override
 ;
 virtual
 MOZ_MUST_USE
@@ -128,6 +132,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 MOZ_MUST_USE
 nsresult
@@ -141,6 +146,7 @@ bool
 *
 aHandlerExists
 )
+override
 ;
 private
 :

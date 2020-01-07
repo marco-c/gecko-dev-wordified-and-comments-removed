@@ -6353,6 +6353,7 @@ uint64_t
 timestamp
 )
 final
+override
 {
 protobuf
 :

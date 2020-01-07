@@ -289,6 +289,7 @@ data
 size_t
 length
 )
+override
 {
 if
 (
@@ -421,6 +422,7 @@ Seek
 off_t
 position
 )
+override
 {
 if
 (
@@ -463,6 +465,7 @@ Tell
 (
 )
 const
+override
 {
 return
 mOff

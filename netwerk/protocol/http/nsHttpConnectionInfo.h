@@ -915,6 +915,7 @@ mTlsFlags
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 nsHttpConnectionInfo
+override
 )
 }
 ;

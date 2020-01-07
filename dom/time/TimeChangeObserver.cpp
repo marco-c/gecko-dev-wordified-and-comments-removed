@@ -157,6 +157,7 @@ int64_t
 &
 aClockDeltaMS
 )
+override
 ;
 void
 Notify
@@ -172,6 +173,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
+override
 ;
 nsresult
 AddWindowListenerImpl

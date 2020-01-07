@@ -262,6 +262,7 @@ OnChannelConnected
 int32_t
 peer_pid
 )
+override
 ;
 virtual
 void
@@ -275,12 +276,14 @@ Message
 &
 aMsg
 )
+override
 ;
 virtual
 void
 OnChannelError
 (
 )
+override
 ;
 virtual
 void
@@ -299,6 +302,7 @@ Message
 &
 queue
 )
+override
 ;
 virtual
 void
@@ -311,6 +315,7 @@ bool
 CanShutdown
 (
 )
+override
 {
 return
 true

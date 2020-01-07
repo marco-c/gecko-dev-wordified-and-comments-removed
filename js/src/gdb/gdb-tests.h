@@ -102,6 +102,7 @@ char
 &
 argv
 )
+override
 ;
 \
 const
@@ -110,6 +111,7 @@ char
 name
 (
 )
+override
 {
 return
 FRAGMENT_STRING_NAME

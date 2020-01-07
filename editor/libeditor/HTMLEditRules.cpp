@@ -649,6 +649,7 @@ nsINode
 aNode
 )
 const
+override
 {
 return
 HTMLEditUtils
@@ -691,6 +692,7 @@ nsINode
 aNode
 )
 const
+override
 {
 return
 aNode
@@ -741,6 +743,7 @@ nsINode
 aNode
 )
 const
+override
 {
 if
 (
@@ -29009,6 +29012,7 @@ nsINode
 aNode
 )
 const
+override
 {
 return
 !

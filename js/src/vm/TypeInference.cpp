@@ -6105,6 +6105,7 @@ cx
 RecompileInfo
 recompileInfo
 )
+override
 ;
 }
 ;
@@ -6156,6 +6157,7 @@ char
 kind
 (
 )
+override
 {
 return
 data
@@ -6180,6 +6182,7 @@ TypeSet
 Type
 type
 )
+override
 {
 if
 (
@@ -6217,6 +6220,7 @@ TypeSet
 *
 source
 )
+override
 {
 if
 (
@@ -6254,6 +6258,7 @@ ObjectGroup
 *
 group
 )
+override
 {
 if
 (
@@ -6300,6 +6305,7 @@ TypeConstraint
 *
 res
 )
+override
 {
 if
 (
@@ -6350,6 +6356,7 @@ JSCompartment
 maybeCompartment
 (
 )
+override
 {
 return
 data
@@ -7223,6 +7230,7 @@ char
 kind
 (
 )
+override
 {
 return
 "
@@ -7245,6 +7253,7 @@ TypeSet
 Type
 type
 )
+override
 {
 cx
 -
@@ -7274,6 +7283,7 @@ TypeConstraint
 *
 res
 )
+override
 {
 if
 (
@@ -7312,6 +7322,7 @@ JSCompartment
 maybeCompartment
 (
 )
+override
 {
 return
 script_
@@ -16471,6 +16482,7 @@ char
 kind
 (
 )
+override
 {
 return
 "
@@ -16488,6 +16500,7 @@ TypeSet
 *
 source
 )
+override
 {
 if
 (
@@ -16530,6 +16543,7 @@ TypeSet
 Type
 type
 )
+override
 {
 }
 bool
@@ -16543,6 +16557,7 @@ TypeConstraint
 *
 res
 )
+override
 {
 if
 (
@@ -16581,6 +16596,7 @@ JSCompartment
 maybeCompartment
 (
 )
+override
 {
 return
 group
@@ -16784,6 +16800,7 @@ char
 kind
 (
 )
+override
 {
 return
 "
@@ -16806,6 +16823,7 @@ TypeSet
 Type
 type
 )
+override
 {
 if
 (
@@ -16846,6 +16864,7 @@ TypeConstraint
 *
 res
 )
+override
 {
 if
 (
@@ -16884,6 +16903,7 @@ JSCompartment
 maybeCompartment
 (
 )
+override
 {
 return
 group

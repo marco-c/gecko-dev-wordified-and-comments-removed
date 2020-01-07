@@ -463,6 +463,7 @@ nsDiskCacheRecord
 *
 mapRecord
 )
+override
 ;
 private
 :
@@ -3920,6 +3921,7 @@ nsDiskCacheRecord
 *
 mapRecord
 )
+override
 {
 nsDiskCacheEntry
 *

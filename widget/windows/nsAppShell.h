@@ -116,6 +116,7 @@ bool
 eventWasProcessed
 )
 final
+override
 ;
 protected
 :
@@ -123,11 +124,13 @@ NS_IMETHOD
 Run
 (
 )
+override
 ;
 NS_IMETHOD
 Exit
 (
 )
+override
 ;
 #
 if

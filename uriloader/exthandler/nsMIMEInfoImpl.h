@@ -590,6 +590,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_IMETHOD
 GetDefaultDescription
@@ -598,6 +599,7 @@ nsAString
 &
 aDefaultDescription
 )
+override
 ;
 void
 SetDefaultApplication
@@ -627,6 +629,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 virtual
 nsresult
@@ -636,6 +639,7 @@ nsIURI
 *
 aURI
 )
+override
 =
 0
 ;

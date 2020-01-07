@@ -1290,6 +1290,7 @@ Runtime
 )
 const
 ;
+virtual
 mozilla
 :
 :
@@ -9415,6 +9416,7 @@ JSTracer
 *
 trc
 )
+override
 {
 if
 (
@@ -9444,6 +9446,7 @@ void
 MarkAfterJSFinalize
 (
 )
+override
 {
 if
 (
@@ -10398,6 +10401,7 @@ bool
 Parse
 (
 )
+override
 ;
 bool
 wantXrays
@@ -10523,6 +10527,7 @@ bool
 Parse
 (
 )
+override
 {
 return
 ParseId
@@ -10590,6 +10595,7 @@ bool
 Parse
 (
 )
+override
 {
 return
 ParseId
@@ -10744,6 +10750,7 @@ bool
 Parse
 (
 )
+override
 {
 return
 ParseBoolean
@@ -10811,6 +10818,7 @@ bool
 Parse
 (
 )
+override
 {
 return
 ParseBoolean

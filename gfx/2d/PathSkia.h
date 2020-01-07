@@ -44,6 +44,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathBuilderSkia
+override
 )
 PathBuilderSkia
 (
@@ -75,6 +76,7 @@ Point
 &
 aPoint
 )
+override
 ;
 virtual
 void
@@ -85,6 +87,7 @@ Point
 &
 aPoint
 )
+override
 ;
 virtual
 void
@@ -103,6 +106,7 @@ Point
 &
 aCP3
 )
+override
 ;
 virtual
 void
@@ -117,12 +121,14 @@ Point
 &
 aCP2
 )
+override
 ;
 virtual
 void
 Close
 (
 )
+override
 ;
 virtual
 void
@@ -143,6 +149,7 @@ aAntiClockwise
 =
 false
 )
+override
 ;
 virtual
 Point
@@ -150,6 +157,7 @@ CurrentPoint
 (
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -159,6 +167,7 @@ Path
 Finish
 (
 )
+override
 ;
 void
 AppendPath
@@ -175,6 +184,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType
@@ -211,6 +221,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathSkia
+override
 )
 PathSkia
 (
@@ -240,6 +251,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType
@@ -259,6 +271,7 @@ FillRule
 aFillRule
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -275,6 +288,7 @@ FillRule
 aFillRule
 )
 const
+override
 ;
 virtual
 bool
@@ -290,6 +304,7 @@ Matrix
 aTransform
 )
 const
+override
 ;
 virtual
 bool
@@ -309,6 +324,7 @@ Matrix
 aTransform
 )
 const
+override
 ;
 virtual
 Rect
@@ -324,6 +340,7 @@ Matrix
 )
 )
 const
+override
 ;
 virtual
 Rect
@@ -343,6 +360,7 @@ Matrix
 )
 )
 const
+override
 ;
 virtual
 void
@@ -353,6 +371,7 @@ PathSink
 aSink
 )
 const
+override
 ;
 virtual
 FillRule
@@ -360,6 +379,7 @@ GetFillRule
 (
 )
 const
+override
 {
 return
 mFillRule

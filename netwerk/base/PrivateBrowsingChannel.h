@@ -101,6 +101,7 @@ SetPrivate
 bool
 aPrivate
 )
+override
 {
 nsCOMPtr
 <
@@ -155,6 +156,7 @@ bool
 *
 aResult
 )
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -180,6 +182,7 @@ bool
 *
 aResult
 )
+override
 {
 NS_ENSURE_ARG_POINTER
 (

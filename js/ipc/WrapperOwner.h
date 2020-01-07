@@ -668,6 +668,7 @@ ObjectVariant
 *
 objVarp
 )
+override
 ;
 virtual
 JSObject
@@ -682,6 +683,7 @@ ObjectVariant
 &
 objVar
 )
+override
 ;
 JSObject
 *

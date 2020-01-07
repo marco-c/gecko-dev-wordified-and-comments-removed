@@ -45,6 +45,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FlattenedPath
+override
 )
 FlattenedPath
 (
@@ -69,6 +70,7 @@ Point
 &
 aPoint
 )
+override
 ;
 virtual
 void
@@ -79,6 +81,7 @@ Point
 &
 aPoint
 )
+override
 ;
 virtual
 void
@@ -97,6 +100,7 @@ Point
 &
 aCP3
 )
+override
 ;
 virtual
 void
@@ -111,12 +115,14 @@ Point
 &
 aCP2
 )
+override
 ;
 virtual
 void
 Close
 (
 )
+override
 ;
 virtual
 void
@@ -137,6 +143,7 @@ aAntiClockwise
 =
 false
 )
+override
 ;
 virtual
 Point
@@ -144,6 +151,7 @@ CurrentPoint
 (
 )
 const
+override
 {
 return
 mPathOps

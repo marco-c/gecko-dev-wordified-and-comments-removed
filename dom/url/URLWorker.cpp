@@ -278,6 +278,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 using
 namespace
@@ -530,6 +531,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -752,6 +754,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -891,6 +894,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -1069,6 +1073,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -1182,6 +1187,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -1551,6 +1557,7 @@ bool
 MainThreadRun
 (
 )
+override
 {
 AssertIsOnMainThread
 (

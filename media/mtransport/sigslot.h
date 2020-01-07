@@ -1557,6 +1557,7 @@ _signal_base_interface
 *
 sender
 )
+override
 {
 lock_block
 <
@@ -1582,6 +1583,7 @@ _signal_base_interface
 *
 sender
 )
+override
 {
 lock_block
 <
@@ -1615,6 +1617,7 @@ void
 disconnect_all
 (
 )
+override
 {
 lock_block
 <
@@ -2514,6 +2517,7 @@ has_slots_interface
 *
 newtarget
 )
+override
 {
 lock_block
 <
@@ -2938,6 +2942,7 @@ has_slots_interface
 *
 pslot
 )
+override
 {
 lock_block
 <
@@ -3194,6 +3199,7 @@ has_slots_interface
 *
 newtarget
 )
+override
 {
 lock_block
 <
@@ -3618,6 +3624,7 @@ has_slots_interface
 *
 pslot
 )
+override
 {
 lock_block
 <
@@ -3878,6 +3885,7 @@ has_slots_interface
 *
 newtarget
 )
+override
 {
 lock_block
 <
@@ -4302,6 +4310,7 @@ has_slots_interface
 *
 pslot
 )
+override
 {
 lock_block
 <
@@ -4566,6 +4575,7 @@ has_slots_interface
 *
 newtarget
 )
+override
 {
 lock_block
 <
@@ -4990,6 +5000,7 @@ has_slots_interface
 *
 pslot
 )
+override
 {
 lock_block
 <
@@ -8123,6 +8134,7 @@ mt_policy
 clone
 (
 )
+override
 {
 return
 new
@@ -8151,6 +8163,7 @@ has_slots_interface
 *
 pnewdest
 )
+override
 {
 return
 new
@@ -8177,6 +8190,7 @@ emit
 arg1_type
 a1
 )
+override
 {
 (
 m_pobject
@@ -8197,6 +8211,7 @@ getdest
 (
 )
 const
+override
 {
 return
 m_pobject
@@ -8305,6 +8320,7 @@ mt_policy
 clone
 (
 )
+override
 {
 return
 new
@@ -8335,6 +8351,7 @@ has_slots_interface
 *
 pnewdest
 )
+override
 {
 return
 new
@@ -8364,6 +8381,7 @@ a1
 arg2_type
 a2
 )
+override
 {
 (
 m_pobject
@@ -8385,6 +8403,7 @@ getdest
 (
 )
 const
+override
 {
 return
 m_pobject
@@ -8499,6 +8518,7 @@ mt_policy
 clone
 (
 )
+override
 {
 return
 new
@@ -8531,6 +8551,7 @@ has_slots_interface
 *
 pnewdest
 )
+override
 {
 return
 new
@@ -8563,6 +8584,7 @@ a2
 arg3_type
 a3
 )
+override
 {
 (
 m_pobject
@@ -8585,6 +8607,7 @@ getdest
 (
 )
 const
+override
 {
 return
 m_pobject
@@ -8705,6 +8728,7 @@ mt_policy
 clone
 (
 )
+override
 {
 return
 new
@@ -8739,6 +8763,7 @@ has_slots_interface
 *
 pnewdest
 )
+override
 {
 return
 new
@@ -8774,6 +8799,7 @@ a3
 arg4_type
 a4
 )
+override
 {
 (
 m_pobject
@@ -8797,6 +8823,7 @@ getdest
 (
 )
 const
+override
 {
 return
 m_pobject

@@ -649,6 +649,7 @@ IPCResult
 Recvprompt
 (
 )
+override
 ;
 virtual
 mozilla
@@ -665,6 +666,7 @@ bool
 &
 aIsVisible
 )
+override
 ;
 virtual
 mozilla
@@ -677,6 +679,7 @@ IPCResult
 RecvDestroy
 (
 )
+override
 ;
 virtual
 void
@@ -685,6 +688,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+override
 ;
 }
 ;

@@ -105,6 +105,7 @@ nsAString
 &
 aDefaultString
 )
+override
 ;
 NS_IMETHOD
 SetDefaultString
@@ -114,6 +115,7 @@ nsAString
 &
 aDefaultString
 )
+override
 ;
 NS_IMETHOD
 GetDefaultExtension
@@ -122,6 +124,7 @@ nsAString
 &
 aDefaultExtension
 )
+override
 ;
 NS_IMETHOD
 SetDefaultExtension
@@ -131,6 +134,7 @@ nsAString
 &
 aDefaultExtension
 )
+override
 ;
 protected
 :
@@ -178,6 +182,7 @@ aTitle
 int16_t
 aMode
 )
+override
 ;
 NS_DECL_ISUPPORTS
 STDMETHODIMP
@@ -198,6 +203,7 @@ int32_t
 *
 aFilterIndex
 )
+override
 ;
 NS_IMETHOD
 SetFilterIndex
@@ -205,6 +211,7 @@ SetFilterIndex
 int32_t
 aFilterIndex
 )
+override
 ;
 NS_IMETHOD
 GetFile
@@ -214,6 +221,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 NS_IMETHOD
 GetFileURL
@@ -223,6 +231,7 @@ nsIURI
 *
 aFileURL
 )
+override
 ;
 NS_IMETHOD
 GetFiles
@@ -232,6 +241,7 @@ nsISimpleEnumerator
 *
 aFiles
 )
+override
 ;
 NS_IMETHOD
 AppendFilter
@@ -245,6 +255,7 @@ nsAString
 &
 aFilter
 )
+override
 ;
 HRESULT
 STDMETHODCALLTYPE

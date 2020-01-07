@@ -222,6 +222,7 @@ HTMLMenuItemElement
 *
 aMenuItem
 )
+override
 {
 if
 (
@@ -285,6 +286,7 @@ HTMLMenuItemElement
 *
 aMenuItem
 )
+override
 {
 if
 (
@@ -358,6 +360,7 @@ HTMLMenuItemElement
 *
 aMenuItem
 )
+override
 {
 if
 (
@@ -418,6 +421,7 @@ HTMLMenuItemElement
 *
 aMenuItem
 )
+override
 {
 aMenuItem
 -
@@ -476,6 +480,7 @@ HTMLMenuItemElement
 *
 aMenuItem
 )
+override
 {
 if
 (

@@ -19931,6 +19931,7 @@ aLength
 nsBidiDirection
 aDirection
 )
+override
 {
 mFontgrp
 -
@@ -20009,6 +20010,7 @@ nscoord
 GetWidth
 (
 )
+override
 {
 gfxTextRun
 :
@@ -20476,6 +20478,7 @@ aXOffset
 nscoord
 aWidth
 )
+override
 {
 gfx
 :

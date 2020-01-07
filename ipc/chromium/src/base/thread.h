@@ -272,6 +272,7 @@ void
 ThreadMain
 (
 )
+override
 ;
 bool
 thread_was_started

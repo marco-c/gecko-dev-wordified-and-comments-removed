@@ -1276,6 +1276,7 @@ trans
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 PendingTransactionInfo
+override
 )
 void
 PrintDiagnostics

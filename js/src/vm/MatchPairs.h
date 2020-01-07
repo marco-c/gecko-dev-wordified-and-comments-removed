@@ -528,6 +528,7 @@ allocOrExpandArray
 size_t
 pairCount
 )
+override
 ;
 }
 ;
@@ -570,6 +571,7 @@ allocOrExpandArray
 size_t
 pairCount
 )
+override
 ;
 }
 ;

@@ -71,6 +71,7 @@ bool
 *
 aFound
 )
+override
 ;
 NS_IMETHOD
 GetProtocolHandlerInfoFromOS
@@ -87,6 +88,7 @@ nsIHandlerInfo
 *
 _retval
 )
+override
 ;
 nsresult
 OSProtocolHandlerExists
@@ -99,6 +101,7 @@ bool
 *
 aHandlerExists
 )
+override
 ;
 NS_IMETHOD
 GetApplicationDescription
@@ -111,6 +114,7 @@ nsAString
 &
 _retval
 )
+override
 ;
 virtual
 nsresult
@@ -125,6 +129,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 protected
 :

@@ -161,6 +161,7 @@ void
 *
 aPacket
 )
+override
 {
 OggPacketDeletePolicy
 (

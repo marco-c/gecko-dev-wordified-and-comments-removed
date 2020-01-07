@@ -154,6 +154,7 @@ CodeGeneratorX86Shared
 *
 codegen
 )
+override
 {
 codegen
 -
@@ -278,6 +279,7 @@ CodeGeneratorX86Shared
 *
 codegen
 )
+override
 {
 codegen
 -
@@ -972,6 +974,7 @@ LDouble
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -981,6 +984,7 @@ LFloat32
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -990,6 +994,7 @@ LMinMaxD
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -999,6 +1004,7 @@ LMinMaxF
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1008,6 +1014,7 @@ LAbsD
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1017,6 +1024,7 @@ LAbsF
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1026,6 +1034,7 @@ LClzI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1035,6 +1044,7 @@ LCtzI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1044,6 +1054,7 @@ LPopcntI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1053,6 +1064,7 @@ LPopcntI64
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1062,6 +1074,7 @@ LSqrtD
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1071,6 +1084,7 @@ LSqrtF
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1080,6 +1094,7 @@ LPowHalfD
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1089,6 +1104,7 @@ LAddI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1098,6 +1114,7 @@ LAddI64
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1107,6 +1124,7 @@ LSubI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1116,6 +1134,7 @@ LSubI64
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1125,6 +1144,7 @@ LMulI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1134,6 +1154,7 @@ LMulI64
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1143,6 +1164,7 @@ LDivI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1152,6 +1174,7 @@ LDivPowTwoI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1161,6 +1184,7 @@ LDivOrModConstantI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1170,6 +1194,7 @@ LModI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1179,6 +1204,7 @@ LModPowTwoI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1188,6 +1214,7 @@ LBitNotI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1197,6 +1224,7 @@ LBitOpI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1206,6 +1234,7 @@ LBitOpI64
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1215,6 +1244,7 @@ LShiftI
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1224,6 +1254,7 @@ LShiftI64
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1233,6 +1264,7 @@ LUrshD
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1242,6 +1274,7 @@ LTestIAndBranch
 *
 test
 )
+override
 ;
 virtual
 void
@@ -1251,6 +1284,7 @@ LTestDAndBranch
 *
 test
 )
+override
 ;
 virtual
 void
@@ -1260,6 +1294,7 @@ LTestFAndBranch
 *
 test
 )
+override
 ;
 virtual
 void
@@ -1269,6 +1304,7 @@ LCompare
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1278,6 +1314,7 @@ LCompareAndBranch
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1287,6 +1324,7 @@ LCompareD
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1296,6 +1334,7 @@ LCompareDAndBranch
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1305,6 +1344,7 @@ LCompareF
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1314,6 +1354,7 @@ LCompareFAndBranch
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1323,6 +1364,7 @@ LBitAndAndBranch
 *
 baab
 )
+override
 ;
 virtual
 void
@@ -1332,6 +1374,7 @@ LNotI
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1341,6 +1384,7 @@ LNotD
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1350,6 +1394,7 @@ LNotF
 *
 comp
 )
+override
 ;
 virtual
 void
@@ -1359,6 +1404,7 @@ LMathD
 *
 math
 )
+override
 ;
 virtual
 void
@@ -1368,6 +1414,7 @@ LMathF
 *
 math
 )
+override
 ;
 virtual
 void
@@ -1377,6 +1424,7 @@ LFloor
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1386,6 +1434,7 @@ LFloorF
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1395,6 +1444,7 @@ LCeil
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1404,6 +1454,7 @@ LCeilF
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1413,6 +1464,7 @@ LRound
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1422,6 +1474,7 @@ LRoundF
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1431,6 +1484,7 @@ LNearbyInt
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1440,6 +1494,7 @@ LNearbyIntF
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1449,6 +1504,7 @@ LGuardShape
 *
 guard
 )
+override
 ;
 virtual
 void
@@ -1458,6 +1514,7 @@ LGuardObjectGroup
 *
 guard
 )
+override
 ;
 virtual
 void
@@ -1467,6 +1524,7 @@ LGuardClass
 *
 guard
 )
+override
 ;
 virtual
 void
@@ -1476,6 +1534,7 @@ LEffectiveAddress
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1485,6 +1544,7 @@ LUDivOrMod
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1494,6 +1554,7 @@ LUDivOrModConstant
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1503,6 +1564,7 @@ LWasmStackArg
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1512,6 +1574,7 @@ LWasmStackArgI64
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1521,6 +1584,7 @@ LWasmSelect
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1530,6 +1594,7 @@ LWasmReinterpret
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1539,6 +1604,7 @@ LMemoryBarrier
 *
 ins
 )
+override
 ;
 virtual
 void
@@ -1548,6 +1614,7 @@ LWasmAddOffset
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1557,6 +1624,7 @@ LWasmTruncateToInt32
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1566,6 +1634,7 @@ LAtomicTypedArrayElementBinop
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1575,6 +1644,7 @@ LAtomicTypedArrayElementBinopForEffect
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1584,6 +1654,7 @@ LCompareExchangeTypedArrayElement
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1593,6 +1664,7 @@ LAtomicExchangeTypedArrayElement
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1602,6 +1674,7 @@ LCopySignD
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1611,6 +1684,7 @@ LCopySignF
 *
 lir
 )
+override
 ;
 virtual
 void
@@ -1620,6 +1694,7 @@ LRotateI64
 *
 lir
 )
+override
 ;
 void
 visitOutOfLineLoadTypedArrayOutOfBounds
@@ -1636,6 +1711,7 @@ LNegI
 *
 lir
 )
+override
 ;
 void
 visitNegD
@@ -1644,6 +1720,7 @@ LNegD
 *
 lir
 )
+override
 ;
 void
 visitNegF
@@ -1652,6 +1729,7 @@ LNegF
 *
 lir
 )
+override
 ;
 void
 visitOutOfLineWasmTruncateCheck
@@ -1660,6 +1738,7 @@ OutOfLineWasmTruncateCheck
 *
 ool
 )
+override
 ;
 void
 visitSimdValueInt32x4
@@ -1668,6 +1747,7 @@ LSimdValueInt32x4
 *
 lir
 )
+override
 ;
 void
 visitSimdValueFloat32x4
@@ -1676,6 +1756,7 @@ LSimdValueFloat32x4
 *
 lir
 )
+override
 ;
 void
 visitSimdSplatX16
@@ -1684,6 +1765,7 @@ LSimdSplatX16
 *
 lir
 )
+override
 ;
 void
 visitSimdSplatX8
@@ -1692,6 +1774,7 @@ LSimdSplatX8
 *
 lir
 )
+override
 ;
 void
 visitSimdSplatX4
@@ -1700,6 +1783,7 @@ LSimdSplatX4
 *
 lir
 )
+override
 ;
 void
 visitSimd128Int
@@ -1708,6 +1792,7 @@ LSimd128Int
 *
 ins
 )
+override
 ;
 void
 visitSimd128Float
@@ -1716,6 +1801,7 @@ LSimd128Float
 *
 ins
 )
+override
 ;
 void
 visitInt32x4ToFloat32x4
@@ -1724,6 +1810,7 @@ LInt32x4ToFloat32x4
 *
 ins
 )
+override
 ;
 void
 visitFloat32x4ToInt32x4
@@ -1732,6 +1819,7 @@ LFloat32x4ToInt32x4
 *
 ins
 )
+override
 ;
 void
 visitFloat32x4ToUint32x4
@@ -1740,6 +1828,7 @@ LFloat32x4ToUint32x4
 *
 ins
 )
+override
 ;
 void
 visitSimdReinterpretCast
@@ -1748,6 +1837,7 @@ LSimdReinterpretCast
 *
 lir
 )
+override
 ;
 void
 visitSimdExtractElementB
@@ -1756,6 +1846,7 @@ LSimdExtractElementB
 *
 lir
 )
+override
 ;
 void
 visitSimdExtractElementI
@@ -1764,6 +1855,7 @@ LSimdExtractElementI
 *
 lir
 )
+override
 ;
 void
 visitSimdExtractElementU2D
@@ -1772,6 +1864,7 @@ LSimdExtractElementU2D
 *
 lir
 )
+override
 ;
 void
 visitSimdExtractElementF
@@ -1780,6 +1873,7 @@ LSimdExtractElementF
 *
 lir
 )
+override
 ;
 void
 visitSimdInsertElementI
@@ -1788,6 +1882,7 @@ LSimdInsertElementI
 *
 lir
 )
+override
 ;
 void
 visitSimdInsertElementF
@@ -1796,6 +1891,7 @@ LSimdInsertElementF
 *
 lir
 )
+override
 ;
 void
 visitSimdSwizzleI
@@ -1804,6 +1900,7 @@ LSimdSwizzleI
 *
 lir
 )
+override
 ;
 void
 visitSimdSwizzleF
@@ -1812,6 +1909,7 @@ LSimdSwizzleF
 *
 lir
 )
+override
 ;
 void
 visitSimdShuffleX4
@@ -1820,6 +1918,7 @@ LSimdShuffleX4
 *
 lir
 )
+override
 ;
 void
 visitSimdShuffle
@@ -1828,6 +1927,7 @@ LSimdShuffle
 *
 lir
 )
+override
 ;
 void
 visitSimdUnaryArithIx16
@@ -1836,6 +1936,7 @@ LSimdUnaryArithIx16
 *
 lir
 )
+override
 ;
 void
 visitSimdUnaryArithIx8
@@ -1844,6 +1945,7 @@ LSimdUnaryArithIx8
 *
 lir
 )
+override
 ;
 void
 visitSimdUnaryArithIx4
@@ -1852,6 +1954,7 @@ LSimdUnaryArithIx4
 *
 lir
 )
+override
 ;
 void
 visitSimdUnaryArithFx4
@@ -1860,6 +1963,7 @@ LSimdUnaryArithFx4
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryCompIx16
@@ -1868,6 +1972,7 @@ LSimdBinaryCompIx16
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryCompIx8
@@ -1876,6 +1981,7 @@ LSimdBinaryCompIx8
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryCompIx4
@@ -1884,6 +1990,7 @@ LSimdBinaryCompIx4
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryCompFx4
@@ -1892,6 +1999,7 @@ LSimdBinaryCompFx4
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryArithIx16
@@ -1900,6 +2008,7 @@ LSimdBinaryArithIx16
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryArithIx8
@@ -1908,6 +2017,7 @@ LSimdBinaryArithIx8
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryArithIx4
@@ -1916,6 +2026,7 @@ LSimdBinaryArithIx4
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryArithFx4
@@ -1924,6 +2035,7 @@ LSimdBinaryArithFx4
 *
 lir
 )
+override
 ;
 void
 visitSimdBinarySaturating
@@ -1932,6 +2044,7 @@ LSimdBinarySaturating
 *
 lir
 )
+override
 ;
 void
 visitSimdBinaryBitwise
@@ -1940,6 +2053,7 @@ LSimdBinaryBitwise
 *
 lir
 )
+override
 ;
 void
 visitSimdShift
@@ -1948,6 +2062,7 @@ LSimdShift
 *
 lir
 )
+override
 ;
 void
 visitSimdSelect
@@ -1956,6 +2071,7 @@ LSimdSelect
 *
 ins
 )
+override
 ;
 void
 visitSimdAllTrue
@@ -1964,6 +2080,7 @@ LSimdAllTrue
 *
 ins
 )
+override
 ;
 void
 visitSimdAnyTrue
@@ -1972,6 +2089,7 @@ LSimdAnyTrue
 *
 ins
 )
+override
 ;
 template
 <
@@ -1997,6 +2115,7 @@ LSimdGeneralShuffleI
 *
 lir
 )
+override
 ;
 void
 visitSimdGeneralShuffleF
@@ -2005,6 +2124,7 @@ LSimdGeneralShuffleF
 *
 lir
 )
+override
 ;
 void
 visitOutOfLineBailout
@@ -2127,6 +2247,7 @@ CodeGeneratorX86Shared
 *
 codegen
 )
+override
 ;
 LSnapshot
 *

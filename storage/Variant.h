@@ -1300,6 +1300,7 @@ uint16_t
 *
 _type
 )
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -1325,6 +1326,7 @@ nsACString
 &
 _str
 )
+override
 {
 _str
 .
@@ -1344,6 +1346,7 @@ nsAString
 &
 _str
 )
+override
 {
 _str
 .
@@ -1432,6 +1435,7 @@ uint16_t
 *
 _type
 )
+override
 {
 *
 _type
@@ -1457,6 +1461,7 @@ int32_t
 *
 _integer
 )
+override
 {
 return
 variant_integer_traits
@@ -1480,6 +1485,7 @@ int64_t
 *
 _integer
 )
+override
 {
 return
 variant_integer_traits
@@ -1503,6 +1509,7 @@ double
 *
 _double
 )
+override
 {
 return
 variant_float_traits
@@ -1526,6 +1533,7 @@ nsACString
 &
 _str
 )
+override
 {
 return
 variant_text_traits
@@ -1549,6 +1557,7 @@ nsAString
 &
 _str
 )
+override
 {
 return
 variant_text_traits
@@ -1581,6 +1590,7 @@ void
 *
 _data
 )
+override
 {
 return
 variant_blob_traits

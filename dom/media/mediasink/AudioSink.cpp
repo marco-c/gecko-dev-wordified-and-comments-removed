@@ -1121,6 +1121,7 @@ Data
 (
 )
 const
+override
 {
 return
 mData
@@ -1131,6 +1132,7 @@ Frames
 (
 )
 const
+override
 {
 return
 mFrames
@@ -1141,6 +1143,7 @@ Channels
 (
 )
 const
+override
 {
 return
 mBuffer
@@ -1158,6 +1161,7 @@ Rate
 (
 )
 const
+override
 {
 return
 mBuffer
@@ -1176,6 +1180,7 @@ GetWritable
 (
 )
 const
+override
 {
 return
 mData

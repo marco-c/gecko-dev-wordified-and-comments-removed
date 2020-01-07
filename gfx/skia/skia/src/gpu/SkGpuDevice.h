@@ -750,6 +750,7 @@ SkPaint
 )
 const
 final
+override
 ;
 private
 :

@@ -170,6 +170,7 @@ short
 getResultType
 (
 )
+override
 ;
 \
 virtual
@@ -180,6 +181,7 @@ nsString
 &
 aString
 )
+override
 ;
 \
 virtual
@@ -189,6 +191,7 @@ nsString
 stringValuePointer
 (
 )
+override
 ;
 \
 virtual
@@ -196,6 +199,7 @@ bool
 booleanValue
 (
 )
+override
 ;
 \
 virtual
@@ -203,8 +207,8 @@ double
 numberValue
 (
 )
+override
 ;
-\
 class
 BooleanResult
 :

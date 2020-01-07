@@ -436,6 +436,7 @@ aCloneOwningNode
 )
 const
 final
+override
 ;
 nsresult
 AddRuleProcessor

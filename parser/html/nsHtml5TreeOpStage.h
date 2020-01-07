@@ -70,6 +70,7 @@ nsHtml5TreeOperation
 &
 aOpQueue
 )
+override
 ;
 void
 MoveOpsAndSpeculativeLoadsTo

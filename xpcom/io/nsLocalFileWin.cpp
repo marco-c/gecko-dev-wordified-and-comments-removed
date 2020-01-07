@@ -3126,6 +3126,7 @@ bool
 *
 aResult
 )
+override
 {
 nsresult
 rv
@@ -3289,6 +3290,7 @@ nsISupports
 *
 aResult
 )
+override
 {
 nsresult
 rv
@@ -3343,6 +3345,7 @@ nsIFile
 *
 aResult
 )
+override
 {
 *
 aResult
@@ -3402,6 +3405,7 @@ NS_IMETHOD
 Close
 (
 )
+override
 {
 if
 (

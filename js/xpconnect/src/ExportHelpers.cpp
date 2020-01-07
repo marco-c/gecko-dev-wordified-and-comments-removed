@@ -264,6 +264,7 @@ aTag
 uint32_t
 aData
 )
+override
 {
 if
 (
@@ -589,6 +590,7 @@ JSObject
 >
 aObj
 )
+override
 {
 {
 JS

@@ -354,6 +354,7 @@ CharacterDataChangeInfo
 aInfo
 )
 final
+override
 ;
 nsTextFrame
 *
@@ -374,6 +375,7 @@ GetNextContinuation
 )
 const
 final
+override
 {
 return
 mNextContinuation
@@ -387,6 +389,7 @@ nsIFrame
 aNextContinuation
 )
 final
+override
 {
 NS_ASSERTION
 (
@@ -549,6 +552,7 @@ nsIFrame
 aNextInFlow
 )
 final
+override
 {
 NS_ASSERTION
 (
@@ -688,6 +692,7 @@ LastInFlow
 )
 const
 final
+override
 ;
 nsTextFrame
 *
@@ -696,6 +701,7 @@ LastContinuation
 )
 const
 final
+override
 ;
 nsSplittableType
 GetSplittableType
@@ -703,6 +709,7 @@ GetSplittableType
 )
 const
 final
+override
 {
 return
 NS_FRAME_SPLITTABLE
@@ -716,6 +723,7 @@ aFlags
 )
 const
 final
+override
 {
 return
 nsFrame
@@ -1081,6 +1089,7 @@ aWritingMode
 )
 const
 final
+override
 ;
 bool
 HasSignificantTerminalNewline

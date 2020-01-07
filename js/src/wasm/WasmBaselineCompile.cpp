@@ -8915,6 +8915,7 @@ sync
 (
 )
 final
+override
 {
 size_t
 start
@@ -16470,6 +16471,7 @@ MacroAssembler
 *
 masm
 )
+override
 {
 bool
 isFloat
@@ -16874,6 +16876,7 @@ MacroAssembler
 *
 masm
 )
+override
 {
 #
 if

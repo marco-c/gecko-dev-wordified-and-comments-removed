@@ -183,16 +183,19 @@ cx
 bool
 match_only
 )
+override
 ;
 int
 stack_limit_slack
 (
 )
+override
 ;
 bool
 CanReadUnaligned
 (
 )
+override
 ;
 void
 AdvanceCurrentPosition
@@ -200,6 +203,7 @@ AdvanceCurrentPosition
 int
 by
 )
+override
 ;
 void
 AdvanceRegister
@@ -209,11 +213,13 @@ reg
 int
 by
 )
+override
 ;
 void
 Backtrack
 (
 )
+override
 ;
 void
 Bind
@@ -225,6 +231,7 @@ Label
 *
 label
 )
+override
 ;
 void
 CheckAtStart
@@ -236,6 +243,7 @@ Label
 *
 on_at_start
 )
+override
 ;
 void
 CheckCharacter
@@ -249,6 +257,7 @@ Label
 *
 on_equal
 )
+override
 ;
 void
 CheckCharacterAfterAnd
@@ -264,6 +273,7 @@ Label
 *
 on_equal
 )
+override
 ;
 void
 CheckCharacterGT
@@ -277,6 +287,7 @@ Label
 *
 on_greater
 )
+override
 ;
 void
 CheckCharacterLT
@@ -290,6 +301,7 @@ Label
 *
 on_less
 )
+override
 ;
 void
 CheckGreedyLoop
@@ -301,6 +313,7 @@ Label
 *
 on_tos_equals_current_position
 )
+override
 ;
 void
 CheckNotAtStart
@@ -312,6 +325,7 @@ Label
 *
 on_not_at_start
 )
+override
 ;
 void
 CheckNotBackReference
@@ -325,6 +339,7 @@ Label
 *
 on_no_match
 )
+override
 ;
 void
 CheckNotBackReferenceIgnoreCase
@@ -340,6 +355,7 @@ on_no_match
 bool
 unicode
 )
+override
 ;
 void
 CheckNotCharacter
@@ -353,6 +369,7 @@ Label
 *
 on_not_equal
 )
+override
 ;
 void
 CheckNotCharacterAfterAnd
@@ -368,6 +385,7 @@ Label
 *
 on_not_equal
 )
+override
 ;
 void
 CheckNotCharacterAfterMinusAnd
@@ -385,6 +403,7 @@ Label
 *
 on_not_equal
 )
+override
 ;
 void
 CheckCharacterInRange
@@ -400,6 +419,7 @@ Label
 *
 on_in_range
 )
+override
 ;
 void
 CheckCharacterNotInRange
@@ -415,6 +435,7 @@ Label
 *
 on_not_in_range
 )
+override
 ;
 void
 CheckBitInTable
@@ -431,6 +452,7 @@ Label
 *
 on_bit_set
 )
+override
 ;
 void
 CheckPosition
@@ -444,6 +466,7 @@ Label
 *
 on_outside_input
 )
+override
 ;
 void
 JumpOrBacktrack
@@ -455,6 +478,7 @@ Label
 *
 to
 )
+override
 ;
 bool
 CheckSpecialCharacterClass
@@ -468,11 +492,13 @@ Label
 *
 on_no_match
 )
+override
 ;
 void
 Fail
 (
 )
+override
 ;
 void
 IfRegisterGE
@@ -488,6 +514,7 @@ Label
 *
 if_ge
 )
+override
 ;
 void
 IfRegisterLT
@@ -503,6 +530,7 @@ Label
 *
 if_lt
 )
+override
 ;
 void
 IfRegisterEqPos
@@ -516,6 +544,7 @@ Label
 *
 if_eq
 )
+override
 ;
 void
 LoadCurrentCharacter
@@ -537,11 +566,13 @@ characters
 =
 1
 )
+override
 ;
 void
 PopCurrentPosition
 (
 )
+override
 ;
 void
 PopRegister
@@ -549,11 +580,13 @@ PopRegister
 int
 register_index
 )
+override
 ;
 void
 PushCurrentPosition
 (
 )
+override
 ;
 void
 PushRegister
@@ -563,6 +596,7 @@ register_index
 StackCheckFlag
 check_stack_limit
 )
+override
 ;
 void
 ReadCurrentPositionFromRegister
@@ -570,6 +604,7 @@ ReadCurrentPositionFromRegister
 int
 reg
 )
+override
 ;
 void
 ReadBacktrackStackPointerFromRegister
@@ -577,6 +612,7 @@ ReadBacktrackStackPointerFromRegister
 int
 reg
 )
+override
 ;
 void
 SetCurrentPositionFromEnd
@@ -584,6 +620,7 @@ SetCurrentPositionFromEnd
 int
 by
 )
+override
 ;
 void
 SetRegister
@@ -593,11 +630,13 @@ register_index
 int
 to
 )
+override
 ;
 bool
 Succeed
 (
 )
+override
 ;
 void
 WriteCurrentPositionToRegister
@@ -607,6 +646,7 @@ reg
 int
 cp_offset
 )
+override
 ;
 void
 ClearRegisters
@@ -616,6 +656,7 @@ reg_from
 int
 reg_to
 )
+override
 ;
 void
 WriteBacktrackStackPointerToRegister
@@ -623,6 +664,7 @@ WriteBacktrackStackPointerToRegister
 int
 reg
 )
+override
 ;
 void
 PushBacktrack
@@ -634,6 +676,7 @@ Label
 *
 label
 )
+override
 ;
 void
 BindBacktrack
@@ -645,6 +688,7 @@ Label
 *
 label
 )
+override
 ;
 static
 int

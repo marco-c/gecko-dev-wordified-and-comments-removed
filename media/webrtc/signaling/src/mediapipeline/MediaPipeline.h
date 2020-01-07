@@ -653,6 +653,7 @@ aData
 size_t
 aLen
 )
+override
 ;
 virtual
 nsresult
@@ -665,6 +666,7 @@ aData
 size_t
 aLen
 )
+override
 ;
 private
 :

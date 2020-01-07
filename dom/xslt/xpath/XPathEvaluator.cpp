@@ -247,6 +247,7 @@ int32_t
 &
 aID
 )
+override
 ;
 nsresult
 resolveFunctionCall
@@ -261,11 +262,13 @@ FunctionCall
 *
 aFunction
 )
+override
 ;
 bool
 caseInsensitiveNameTests
 (
 )
+override
 ;
 void
 SetErrorOffset
@@ -273,6 +276,7 @@ SetErrorOffset
 uint32_t
 aOffset
 )
+override
 ;
 private
 :

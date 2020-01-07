@@ -1031,6 +1031,7 @@ txAExprResult
 *
 aValue
 )
+override
 {
 NS_ASSERTION
 (
@@ -1699,6 +1700,7 @@ int32_t
 &
 aID
 )
+override
 {
 aID
 =
@@ -1734,6 +1736,7 @@ FunctionCall
 *
 aFunction
 )
+override
 {
 return
 NS_ERROR_XPATH_UNKNOWN_FUNCTION
@@ -1743,6 +1746,7 @@ bool
 caseInsensitiveNameTests
 (
 )
+override
 {
 return
 false
@@ -1754,6 +1758,7 @@ SetErrorOffset
 uint32_t
 aOffset
 )
+override
 {
 }
 nsresult
@@ -1769,6 +1774,7 @@ txAExprResult
 &
 aResult
 )
+override
 {
 aResult
 =
@@ -1789,6 +1795,7 @@ bool
 &
 aAllowed
 )
+override
 {
 aAllowed
 =
@@ -1803,6 +1810,7 @@ void
 getPrivateContext
 (
 )
+override
 {
 return
 nullptr
@@ -1813,6 +1821,7 @@ txResultRecycler
 recycler
 (
 )
+override
 {
 return
 mRecycler
@@ -1828,6 +1837,7 @@ aMsg
 nsresult
 aRes
 )
+override
 {
 }
 const
@@ -1836,6 +1846,7 @@ txXPathNode
 getContextNode
 (
 )
+override
 {
 return
 mContext
@@ -1845,6 +1856,7 @@ uint32_t
 size
 (
 )
+override
 {
 return
 1
@@ -1854,6 +1866,7 @@ uint32_t
 position
 (
 )
+override
 {
 return
 1

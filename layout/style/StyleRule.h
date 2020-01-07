@@ -1368,6 +1368,7 @@ nsAString
 aSelectorText
 )
 final
+override
 ;
 void
 SetSelectorText
@@ -1378,6 +1379,7 @@ nsAString
 aSelectorText
 )
 final
+override
 ;
 nsICSSDeclaration
 *

@@ -898,6 +898,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 }
 ;
@@ -960,6 +961,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 }
 ;

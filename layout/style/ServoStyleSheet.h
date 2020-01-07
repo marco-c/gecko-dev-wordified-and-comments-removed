@@ -391,6 +391,7 @@ aCloneOwningNode
 )
 const
 final
+override
 ;
 NS_IMETHOD
 StyleSheetLoaded
@@ -404,6 +405,7 @@ nsresult
 aStatus
 )
 final
+override
 ;
 ServoCSSRuleList
 *

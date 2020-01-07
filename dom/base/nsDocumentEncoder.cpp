@@ -5482,6 +5482,7 @@ aMimeType
 uint32_t
 aFlags
 )
+override
 ;
 NS_IMETHOD
 SetSelection
@@ -5490,6 +5491,7 @@ nsISelection
 *
 aSelection
 )
+override
 ;
 NS_IMETHOD
 EncodeToStringWithContext
@@ -5504,6 +5506,7 @@ nsAString
 &
 aEncodedString
 )
+override
 ;
 NS_IMETHOD
 EncodeToString
@@ -5512,6 +5515,7 @@ nsAString
 &
 aOutputString
 )
+override
 ;
 protected
 :
@@ -5649,6 +5653,7 @@ nsINode
 *
 aNode
 )
+override
 ;
 virtual
 int32_t
@@ -5663,6 +5668,7 @@ nsINode
 &
 aAncestorArray
 )
+override
 ;
 bool
 mIsTextWidget

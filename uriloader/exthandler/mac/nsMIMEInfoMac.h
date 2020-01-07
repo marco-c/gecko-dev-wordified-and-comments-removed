@@ -76,6 +76,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 protected
 :
@@ -88,6 +89,7 @@ nsIURI
 *
 aURI
 )
+override
 ;
 #
 ifdef
@@ -101,6 +103,7 @@ nsIFile
 *
 aFile
 )
+override
 {
 NS_NOTREACHED
 (
@@ -142,6 +145,7 @@ nsAString
 &
 aDefaultDescription
 )
+override
 ;
 }
 ;

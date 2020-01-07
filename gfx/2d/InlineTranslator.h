@@ -148,6 +148,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 DrawTarget
 *
@@ -177,6 +178,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 Path
 *
@@ -206,6 +208,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 SourceSurface
 *
@@ -235,6 +238,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 FilterNode
 *
@@ -264,6 +268,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 GradientStops
 *
@@ -293,6 +298,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 ScaledFont
 *
@@ -376,6 +382,7 @@ uint64_t
 aKey
 )
 final
+override
 {
 NativeFontResource
 *
@@ -407,6 +414,7 @@ DrawTarget
 aDT
 )
 final
+override
 {
 mDrawTargets
 .
@@ -427,6 +435,7 @@ Path
 aPath
 )
 final
+override
 {
 mPaths
 .
@@ -447,6 +456,7 @@ SourceSurface
 aSurface
 )
 final
+override
 {
 mSourceSurfaces
 .
@@ -467,6 +477,7 @@ FilterNode
 aFilter
 )
 final
+override
 {
 mFilterNodes
 .
@@ -487,6 +498,7 @@ GradientStops
 aStops
 )
 final
+override
 {
 mGradientStops
 .
@@ -507,6 +519,7 @@ ScaledFont
 aScaledFont
 )
 final
+override
 {
 mScaledFonts
 .
@@ -527,6 +540,7 @@ UnscaledFont
 aUnscaledFont
 )
 final
+override
 {
 mUnscaledFontTable
 .
@@ -554,6 +568,7 @@ NativeFontResource
 aScaledFontResouce
 )
 final
+override
 {
 mNativeFontResources
 .
@@ -571,6 +586,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mDrawTargets
 .
@@ -587,6 +603,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mPaths
 .
@@ -603,6 +620,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mSourceSurfaces
 .
@@ -619,6 +637,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mFilterNodes
 .
@@ -635,6 +654,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mGradientStops
 .
@@ -651,6 +671,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mScaledFonts
 .
@@ -667,6 +688,7 @@ ReferencePtr
 aRefPtr
 )
 final
+override
 {
 mUnscaledFonts
 .
@@ -698,6 +720,7 @@ SurfaceFormat
 aFormat
 )
 final
+override
 ;
 mozilla
 :
@@ -711,6 +734,7 @@ GetReferenceDrawTarget
 (
 )
 final
+override
 {
 return
 mBaseDT
@@ -722,6 +746,7 @@ GetFontContext
 (
 )
 final
+override
 {
 return
 mFontContext

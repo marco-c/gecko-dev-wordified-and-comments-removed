@@ -233,6 +233,7 @@ TestInfo
 &
 testInfo
 )
+override
 {
 mozilla
 :
@@ -274,6 +275,7 @@ TestInfo
 &
 testInfo
 )
+override
 {
 mozilla
 :
@@ -315,6 +317,7 @@ TestPartResult
 &
 testResult
 )
+override
 {
 if
 (

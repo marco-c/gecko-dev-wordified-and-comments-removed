@@ -1059,6 +1059,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 if
 (

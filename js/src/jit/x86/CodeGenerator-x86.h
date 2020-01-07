@@ -159,6 +159,7 @@ LBox
 *
 box
 )
+override
 ;
 void
 visitBoxFloatingPoint
@@ -167,6 +168,7 @@ LBoxFloatingPoint
 *
 box
 )
+override
 ;
 void
 visitUnbox
@@ -175,6 +177,7 @@ LUnbox
 *
 unbox
 )
+override
 ;
 void
 visitValue
@@ -183,6 +186,7 @@ LValue
 *
 value
 )
+override
 ;
 void
 visitCompareB
@@ -191,6 +195,7 @@ LCompareB
 *
 lir
 )
+override
 ;
 void
 visitCompareBAndBranch
@@ -199,6 +204,7 @@ LCompareBAndBranch
 *
 lir
 )
+override
 ;
 void
 visitCompareBitwise
@@ -207,6 +213,7 @@ LCompareBitwise
 *
 lir
 )
+override
 ;
 void
 visitCompareBitwiseAndBranch
@@ -215,6 +222,7 @@ LCompareBitwiseAndBranch
 *
 lir
 )
+override
 ;
 void
 visitWasmUint32ToDouble
@@ -223,6 +231,7 @@ LWasmUint32ToDouble
 *
 lir
 )
+override
 ;
 void
 visitWasmUint32ToFloat32
@@ -231,6 +240,7 @@ LWasmUint32ToFloat32
 *
 lir
 )
+override
 ;
 void
 visitTruncateDToInt32
@@ -239,6 +249,7 @@ LTruncateDToInt32
 *
 ins
 )
+override
 ;
 void
 visitTruncateFToInt32
@@ -247,6 +258,7 @@ LTruncateFToInt32
 *
 ins
 )
+override
 ;
 void
 visitLoadTypedArrayElementStatic
@@ -255,6 +267,7 @@ LLoadTypedArrayElementStatic
 *
 ins
 )
+override
 ;
 void
 visitStoreTypedArrayElementStatic
@@ -263,6 +276,7 @@ LStoreTypedArrayElementStatic
 *
 ins
 )
+override
 ;
 void
 visitWasmLoad
@@ -271,6 +285,7 @@ LWasmLoad
 *
 ins
 )
+override
 ;
 void
 visitWasmLoadI64
@@ -279,6 +294,7 @@ LWasmLoadI64
 *
 ins
 )
+override
 ;
 void
 visitWasmStore
@@ -287,6 +303,7 @@ LWasmStore
 *
 ins
 )
+override
 ;
 void
 visitWasmStoreI64
@@ -295,6 +312,7 @@ LWasmStoreI64
 *
 ins
 )
+override
 ;
 void
 visitAsmJSLoadHeap
@@ -303,6 +321,7 @@ LAsmJSLoadHeap
 *
 ins
 )
+override
 ;
 void
 visitAsmJSStoreHeap
@@ -311,6 +330,7 @@ LAsmJSStoreHeap
 *
 ins
 )
+override
 ;
 void
 visitWasmCompareExchangeHeap
@@ -319,6 +339,7 @@ LWasmCompareExchangeHeap
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicExchangeHeap
@@ -327,6 +348,7 @@ LWasmAtomicExchangeHeap
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicBinopHeap
@@ -335,6 +357,7 @@ LWasmAtomicBinopHeap
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicBinopHeapForEffect
@@ -343,6 +366,7 @@ LWasmAtomicBinopHeapForEffect
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicLoadI64
@@ -351,6 +375,7 @@ LWasmAtomicLoadI64
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicStoreI64
@@ -359,6 +384,7 @@ LWasmAtomicStoreI64
 *
 ins
 )
+override
 ;
 void
 visitWasmCompareExchangeI64
@@ -367,6 +393,7 @@ LWasmCompareExchangeI64
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicExchangeI64
@@ -375,6 +402,7 @@ LWasmAtomicExchangeI64
 *
 ins
 )
+override
 ;
 void
 visitWasmAtomicBinopI64
@@ -383,6 +411,7 @@ LWasmAtomicBinopI64
 *
 ins
 )
+override
 ;
 void
 visitOutOfLineTruncate
@@ -407,6 +436,7 @@ LCompareI64
 *
 lir
 )
+override
 ;
 void
 visitCompareI64AndBranch
@@ -415,6 +445,7 @@ LCompareI64AndBranch
 *
 lir
 )
+override
 ;
 void
 visitDivOrModI64
@@ -423,6 +454,7 @@ LDivOrModI64
 *
 lir
 )
+override
 ;
 void
 visitUDivOrModI64
@@ -431,6 +463,7 @@ LUDivOrModI64
 *
 lir
 )
+override
 ;
 void
 visitWasmSelectI64
@@ -439,6 +472,7 @@ LWasmSelectI64
 *
 lir
 )
+override
 ;
 void
 visitWasmReinterpretFromI64
@@ -447,6 +481,7 @@ LWasmReinterpretFromI64
 *
 lir
 )
+override
 ;
 void
 visitWasmReinterpretToI64
@@ -455,6 +490,7 @@ LWasmReinterpretToI64
 *
 lir
 )
+override
 ;
 void
 visitExtendInt32ToInt64
@@ -463,6 +499,7 @@ LExtendInt32ToInt64
 *
 lir
 )
+override
 ;
 void
 visitSignExtendInt64
@@ -471,6 +508,7 @@ LSignExtendInt64
 *
 ins
 )
+override
 ;
 void
 visitWrapInt64ToInt32
@@ -479,6 +517,7 @@ LWrapInt64ToInt32
 *
 lir
 )
+override
 ;
 void
 visitClzI64
@@ -487,6 +526,7 @@ LClzI64
 *
 lir
 )
+override
 ;
 void
 visitCtzI64
@@ -495,6 +535,7 @@ LCtzI64
 *
 lir
 )
+override
 ;
 void
 visitNotI64
@@ -503,6 +544,7 @@ LNotI64
 *
 lir
 )
+override
 ;
 void
 visitWasmTruncateToInt64
@@ -511,6 +553,7 @@ LWasmTruncateToInt64
 *
 lir
 )
+override
 ;
 void
 visitInt64ToFloatingPoint
@@ -519,6 +562,7 @@ LInt64ToFloatingPoint
 *
 lir
 )
+override
 ;
 void
 visitTestI64AndBranch
@@ -527,6 +571,7 @@ LTestI64AndBranch
 *
 lir
 )
+override
 ;
 }
 ;

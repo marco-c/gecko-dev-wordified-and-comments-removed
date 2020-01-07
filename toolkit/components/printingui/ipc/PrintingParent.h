@@ -94,6 +94,7 @@ bool
 &
 isForPrinting
 )
+override
 ;
 virtual
 mozilla
@@ -116,6 +117,7 @@ PrintData
 &
 aData
 )
+override
 ;
 virtual
 mozilla
@@ -143,6 +145,7 @@ nsresult
 *
 rv
 )
+override
 ;
 virtual
 PPrintProgressDialogParent
@@ -150,6 +153,7 @@ PPrintProgressDialogParent
 AllocPPrintProgressDialogParent
 (
 )
+override
 ;
 virtual
 bool
@@ -159,6 +163,7 @@ PPrintProgressDialogParent
 *
 aActor
 )
+override
 ;
 virtual
 PPrintSettingsDialogParent
@@ -166,6 +171,7 @@ PPrintSettingsDialogParent
 AllocPPrintSettingsDialogParent
 (
 )
+override
 ;
 virtual
 bool
@@ -175,6 +181,7 @@ PPrintSettingsDialogParent
 *
 aActor
 )
+override
 ;
 virtual
 PRemotePrintJobParent
@@ -182,6 +189,7 @@ PRemotePrintJobParent
 AllocPRemotePrintJobParent
 (
 )
+override
 ;
 virtual
 bool
@@ -191,6 +199,7 @@ PRemotePrintJobParent
 *
 aActor
 )
+override
 ;
 virtual
 void
@@ -199,6 +208,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
+override
 ;
 MOZ_IMPLICIT
 PrintingParent

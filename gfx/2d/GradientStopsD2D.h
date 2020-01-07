@@ -35,6 +35,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GradientStopsD2D
+override
 )
 GradientStopsD2D
 (

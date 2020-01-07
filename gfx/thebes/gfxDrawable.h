@@ -337,6 +337,7 @@ gfxMatrix
 (
 )
 )
+override
 ;
 virtual
 bool
@@ -381,6 +382,7 @@ aOpacity
 .
 0
 )
+override
 ;
 protected
 :
@@ -583,6 +585,7 @@ gfxMatrix
 (
 )
 )
+override
 ;
 protected
 :
@@ -703,6 +706,7 @@ gfxMatrix
 (
 )
 )
+override
 ;
 protected
 :

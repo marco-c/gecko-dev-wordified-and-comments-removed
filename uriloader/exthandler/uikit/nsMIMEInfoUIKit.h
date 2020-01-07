@@ -59,6 +59,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 protected
 :

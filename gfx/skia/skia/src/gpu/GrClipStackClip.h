@@ -82,6 +82,7 @@ SkRect
 )
 const
 final
+override
 ;
 bool
 quickContains
@@ -92,6 +93,7 @@ SkRRect
 )
 const
 final
+override
 ;
 void
 getConservativeBounds
@@ -109,6 +111,7 @@ isIntersectionOfRects
 )
 const
 final
+override
 ;
 bool
 apply
@@ -130,6 +133,7 @@ bounds
 )
 const
 final
+override
 ;
 bool
 isRRect

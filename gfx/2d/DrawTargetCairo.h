@@ -50,6 +50,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GradientStopsCairo
+override
 )
 GradientStopsCairo
 (
@@ -136,6 +137,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType

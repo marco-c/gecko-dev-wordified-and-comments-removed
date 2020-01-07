@@ -63,6 +63,7 @@ nsAString
 &
 aDest
 )
+override
 ;
 private
 :
@@ -108,6 +109,7 @@ nsAString
 &
 aDest
 )
+override
 ;
 private
 :
@@ -150,6 +152,7 @@ nsAString
 &
 aDest
 )
+override
 ;
 private
 :

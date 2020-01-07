@@ -219,6 +219,7 @@ message
 int
 length
 )
+override
 {
 MOZ_LOG
 (

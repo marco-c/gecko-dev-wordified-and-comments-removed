@@ -281,6 +281,7 @@ nr_transport_addr
 *
 addr
 )
+override
 {
 return
 0
@@ -302,6 +303,7 @@ nr_transport_addr
 *
 to
 )
+override
 {
 MOZ_CRASH
 (
@@ -329,6 +331,7 @@ nr_transport_addr
 *
 from
 )
+override
 {
 MOZ_CRASH
 (
@@ -346,6 +349,7 @@ nr_transport_addr
 *
 addrp
 )
+override
 {
 MOZ_CRASH
 (
@@ -360,6 +364,7 @@ void
 close
 (
 )
+override
 {
 }
 virtual
@@ -370,6 +375,7 @@ nr_transport_addr
 *
 addr
 )
+override
 {
 nr_transport_addr_copy
 (
@@ -389,6 +395,7 @@ listen
 int
 backlog
 )
+override
 {
 return
 0
@@ -406,6 +413,7 @@ nr_socket
 *
 sockp
 )
+override
 {
 return
 0
@@ -425,6 +433,7 @@ size_t
 *
 written
 )
+override
 {
 size_t
 to_write
@@ -502,6 +511,7 @@ size_t
 *
 len
 )
+override
 {
 if
 (
@@ -627,6 +637,7 @@ function
 int
 line
 )
+override
 {
 EXPECT_EQ
 (
@@ -653,6 +664,7 @@ cancel
 int
 how
 )
+override
 {
 cb_
 =
@@ -904,6 +916,7 @@ connect_addr_
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 DummySocket
+override
 )
 ;
 private

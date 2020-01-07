@@ -105,6 +105,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
+override
 {
 JS
 :

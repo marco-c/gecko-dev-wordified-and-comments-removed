@@ -1592,6 +1592,7 @@ int64_t
 aModificationTime
 )
 final
+override
 {
 nsresult
 rv
@@ -1819,6 +1820,7 @@ int64_t
 aModificationTime
 )
 final
+override
 {
 nsCOMPtr
 <
@@ -2014,6 +2016,7 @@ int64_t
 aModificationTime
 )
 final
+override
 {
 nsresult
 rv

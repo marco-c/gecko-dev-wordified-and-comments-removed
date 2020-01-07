@@ -185,6 +185,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
+override
 ;
 NS_IMETHOD
 SetLoadInfo
@@ -193,6 +194,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
+override
 ;
 NS_IMETHOD
 AsyncOpen2
@@ -201,6 +203,7 @@ nsIStreamListener
 *
 aListener
 )
+override
 ;
 NS_IMETHOD
 Open2
@@ -210,6 +213,7 @@ nsIInputStream
 *
 aStream
 )
+override
 ;
 nsSecCheckWrapChannel
 (

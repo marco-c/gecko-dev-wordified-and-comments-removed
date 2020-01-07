@@ -241,6 +241,7 @@ nsITimer
 aTimer
 )
 final
+override
 {
 SystemGroup
 :

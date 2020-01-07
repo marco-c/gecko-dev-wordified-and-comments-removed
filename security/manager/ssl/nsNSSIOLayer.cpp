@@ -4053,6 +4053,7 @@ void
 RunOnTargetThread
 (
 )
+override
 {
 nsHandleSSLError
 (
@@ -8740,6 +8741,7 @@ void
 RunOnTargetThread
 (
 )
+override
 ;
 private
 :

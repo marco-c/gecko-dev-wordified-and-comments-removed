@@ -81,6 +81,7 @@ nsAString
 aFamily
 )
 final
+override
 ;
 void
 SetFontFamily
@@ -97,6 +98,7 @@ ErrorResult
 aRv
 )
 final
+override
 ;
 void
 GetValueText
@@ -106,6 +108,7 @@ nsAString
 aValueText
 )
 final
+override
 ;
 void
 SetValueText
@@ -122,6 +125,7 @@ ErrorResult
 aRv
 )
 final
+override
 ;
 already_AddRefed
 <
@@ -135,6 +139,7 @@ Clone
 )
 const
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -147,6 +152,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 #
 ifdef
@@ -166,6 +172,7 @@ aIndent
 )
 const
 final
+override
 ;
 #
 endif

@@ -810,6 +810,7 @@ JSObject
 aGivenProto
 )
 final
+override
 ;
 void
 WillDirty

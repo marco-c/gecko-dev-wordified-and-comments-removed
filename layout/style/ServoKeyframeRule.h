@@ -84,6 +84,7 @@ IsCCLeaf
 )
 const
 final
+override
 ;
 #
 ifdef
@@ -103,6 +104,7 @@ aIndent
 )
 const
 final
+override
 ;
 #
 endif
@@ -121,6 +123,7 @@ Clone
 )
 const
 final
+override
 ;
 RawServoKeyframe
 *
@@ -142,6 +145,7 @@ aCssText
 )
 const
 final
+override
 ;
 void
 GetKeyText
@@ -151,6 +155,7 @@ nsAString
 aKeyText
 )
 final
+override
 ;
 void
 SetKeyText
@@ -161,6 +166,7 @@ nsAString
 aKeyText
 )
 final
+override
 ;
 nsICSSDeclaration
 *
@@ -168,6 +174,7 @@ Style
 (
 )
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -177,6 +184,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 private
 :

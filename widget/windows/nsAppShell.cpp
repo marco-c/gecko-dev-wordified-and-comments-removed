@@ -292,6 +292,7 @@ nsAString
 &
 aState
 )
+override
 {
 if
 (

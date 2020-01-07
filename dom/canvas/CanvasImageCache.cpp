@@ -709,6 +709,7 @@ ImageCacheEntryData
 *
 aObject
 )
+override
 {
 mTotal
 -

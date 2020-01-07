@@ -70,6 +70,7 @@ IsCCLeaf
 )
 const
 final
+override
 ;
 already_AddRefed
 <
@@ -83,6 +84,7 @@ Clone
 )
 const
 final
+override
 ;
 #
 ifdef
@@ -102,6 +104,7 @@ aIndent
 )
 const
 final
+override
 ;
 #
 endif
@@ -113,6 +116,7 @@ StyleSheet
 aSheet
 )
 final
+override
 ;
 void
 GetCssTextImpl
@@ -123,6 +127,7 @@ aCssText
 )
 const
 final
+override
 ;
 void
 GetName
@@ -133,6 +138,7 @@ aName
 )
 const
 final
+override
 ;
 void
 SetName
@@ -143,6 +149,7 @@ nsAString
 aName
 )
 final
+override
 ;
 dom
 :
@@ -153,6 +160,7 @@ CssRules
 (
 )
 final
+override
 ;
 void
 AppendRule
@@ -163,6 +171,7 @@ nsAString
 aRule
 )
 final
+override
 ;
 void
 DeleteRule
@@ -173,6 +182,7 @@ nsAString
 aKey
 )
 final
+override
 ;
 dom
 :
@@ -187,6 +197,7 @@ nsAString
 aKey
 )
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -199,6 +210,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 private
 :

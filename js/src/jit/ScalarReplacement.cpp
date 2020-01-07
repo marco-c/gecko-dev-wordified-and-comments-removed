@@ -1848,6 +1848,7 @@ MObjectState
 *
 ins
 )
+override
 ;
 void
 visitStoreFixedSlot
@@ -1856,6 +1857,7 @@ MStoreFixedSlot
 *
 ins
 )
+override
 ;
 void
 visitLoadFixedSlot
@@ -1864,6 +1866,7 @@ MLoadFixedSlot
 *
 ins
 )
+override
 ;
 void
 visitPostWriteBarrier
@@ -1872,6 +1875,7 @@ MPostWriteBarrier
 *
 ins
 )
+override
 ;
 void
 visitStoreSlot
@@ -1880,6 +1884,7 @@ MStoreSlot
 *
 ins
 )
+override
 ;
 void
 visitLoadSlot
@@ -1888,6 +1893,7 @@ MLoadSlot
 *
 ins
 )
+override
 ;
 void
 visitGuardShape
@@ -1896,6 +1902,7 @@ MGuardShape
 *
 ins
 )
+override
 ;
 void
 visitGuardObjectGroup
@@ -1904,6 +1911,7 @@ MGuardObjectGroup
 *
 ins
 )
+override
 ;
 void
 visitGuardUnboxedExpando
@@ -1912,6 +1920,7 @@ MGuardUnboxedExpando
 *
 ins
 )
+override
 ;
 void
 visitFunctionEnvironment
@@ -1920,6 +1929,7 @@ MFunctionEnvironment
 *
 ins
 )
+override
 ;
 void
 visitLambda
@@ -1928,6 +1938,7 @@ MLambda
 *
 ins
 )
+override
 ;
 void
 visitLambdaArrow
@@ -1936,6 +1947,7 @@ MLambdaArrow
 *
 ins
 )
+override
 ;
 void
 visitStoreUnboxedScalar
@@ -1944,6 +1956,7 @@ MStoreUnboxedScalar
 *
 ins
 )
+override
 ;
 void
 visitLoadUnboxedScalar
@@ -1952,6 +1965,7 @@ MLoadUnboxedScalar
 *
 ins
 )
+override
 ;
 void
 visitStoreUnboxedObjectOrNull
@@ -1960,6 +1974,7 @@ MStoreUnboxedObjectOrNull
 *
 ins
 )
+override
 ;
 void
 visitLoadUnboxedObjectOrNull
@@ -1968,6 +1983,7 @@ MLoadUnboxedObjectOrNull
 *
 ins
 )
+override
 ;
 void
 visitStoreUnboxedString
@@ -1976,6 +1992,7 @@ MStoreUnboxedString
 *
 ins
 )
+override
 ;
 void
 visitLoadUnboxedString
@@ -1984,6 +2001,7 @@ MLoadUnboxedString
 *
 ins
 )
+override
 ;
 private
 :
@@ -5849,6 +5867,7 @@ MArrayState
 *
 ins
 )
+override
 ;
 void
 visitStoreElement
@@ -5857,6 +5876,7 @@ MStoreElement
 *
 ins
 )
+override
 ;
 void
 visitLoadElement
@@ -5865,6 +5885,7 @@ MLoadElement
 *
 ins
 )
+override
 ;
 void
 visitSetInitializedLength
@@ -5873,6 +5894,7 @@ MSetInitializedLength
 *
 ins
 )
+override
 ;
 void
 visitInitializedLength
@@ -5881,6 +5903,7 @@ MInitializedLength
 *
 ins
 )
+override
 ;
 void
 visitArrayLength
@@ -5889,6 +5912,7 @@ MArrayLength
 *
 ins
 )
+override
 ;
 void
 visitMaybeCopyElementsForWrite
@@ -5897,6 +5921,7 @@ MMaybeCopyElementsForWrite
 *
 ins
 )
+override
 ;
 void
 visitConvertElementsToDoubles
@@ -5905,6 +5930,7 @@ MConvertElementsToDoubles
 *
 ins
 )
+override
 ;
 }
 ;

@@ -96,6 +96,7 @@ ostream
 aStream
 )
 const
+override
 {
 static_cast
 <
@@ -122,6 +123,7 @@ EventStream
 aStream
 )
 const
+override
 {
 static_cast
 <
@@ -148,6 +150,7 @@ MemStream
 aStream
 )
 const
+override
 {
 SizeCollector
 size
@@ -237,6 +240,7 @@ ReferencePtr
 GetDestinedDT
 (
 )
+override
 {
 return
 mDT
@@ -306,6 +310,7 @@ GetObjectRef
 (
 )
 const
+override
 ;
 ReferencePtr
 mDT
@@ -385,6 +390,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -412,6 +418,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -422,6 +429,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -436,6 +444,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -520,6 +529,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -547,6 +557,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -557,6 +568,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -571,6 +583,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -653,6 +666,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -680,6 +694,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -690,6 +705,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -703,6 +719,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -798,6 +815,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -825,6 +843,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -835,6 +854,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -940,6 +960,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -967,6 +988,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -977,6 +999,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1093,6 +1116,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1120,6 +1144,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1130,6 +1155,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1231,6 +1257,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1258,6 +1285,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1268,6 +1296,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1399,6 +1428,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1426,6 +1456,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1436,6 +1467,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1542,6 +1574,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1569,6 +1602,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1579,6 +1613,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1682,6 +1717,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1709,6 +1745,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1719,6 +1756,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1801,6 +1839,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1828,6 +1867,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1838,6 +1878,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -1925,6 +1966,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -1952,6 +1994,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -1962,6 +2005,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2039,6 +2083,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2066,6 +2111,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2076,6 +2122,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2149,6 +2196,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2176,6 +2224,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2186,6 +2235,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2252,6 +2302,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2279,6 +2330,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2289,6 +2341,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2392,6 +2445,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2419,6 +2473,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2429,6 +2484,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2510,6 +2566,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2537,6 +2594,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2547,6 +2605,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2617,6 +2676,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2644,6 +2704,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2654,6 +2715,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2757,6 +2819,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2784,6 +2847,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2794,6 +2858,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -2913,6 +2978,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -2940,6 +3006,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -2950,6 +3017,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3060,6 +3128,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3087,6 +3156,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3097,6 +3167,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3170,6 +3241,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3197,6 +3269,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3207,6 +3280,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3221,6 +3295,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -3300,6 +3375,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3327,6 +3403,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3337,6 +3414,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3351,6 +3429,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -3452,6 +3531,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3479,6 +3559,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3489,6 +3570,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3503,6 +3585,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -3585,6 +3668,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3612,6 +3696,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3622,6 +3707,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3636,6 +3722,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -3712,6 +3799,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3739,6 +3827,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3749,6 +3838,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3763,6 +3853,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -3832,6 +3923,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -3859,6 +3951,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -3869,6 +3962,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -3883,6 +3977,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -3976,6 +4071,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -4003,6 +4099,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -4013,6 +4110,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -4027,6 +4125,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -4106,6 +4205,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -4133,6 +4233,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -4143,6 +4244,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -4157,6 +4259,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -4229,6 +4332,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -4256,6 +4360,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -4266,6 +4371,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -4279,6 +4385,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -4366,6 +4473,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -4393,6 +4501,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -4403,6 +4512,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -4416,6 +4526,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -4568,6 +4679,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -4595,6 +4707,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -4605,6 +4718,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -4619,6 +4733,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 nullptr
@@ -4797,6 +4912,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -4824,6 +4940,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -4834,6 +4951,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -4848,6 +4966,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -5005,6 +5124,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -5032,6 +5152,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -5042,6 +5163,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -5056,6 +5178,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -5148,6 +5271,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -5175,6 +5299,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -5185,6 +5310,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -5199,6 +5325,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -5335,6 +5462,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -5362,6 +5490,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -5372,6 +5501,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -5386,6 +5516,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -5562,6 +5693,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -5589,6 +5721,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -5599,6 +5732,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -5613,6 +5747,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -5720,6 +5855,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -5747,6 +5883,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -5757,6 +5894,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -5771,6 +5909,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mRefPtr
@@ -5866,6 +6005,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -5893,6 +6033,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -5903,6 +6044,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -6106,6 +6248,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -6133,6 +6276,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -6143,6 +6287,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -6156,6 +6301,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mNode
@@ -6288,6 +6434,7 @@ Translator
 aTranslator
 )
 const
+override
 ;
 template
 <
@@ -6315,6 +6462,7 @@ stringstream
 aStringStream
 )
 const
+override
 ;
 virtual
 std
@@ -6325,6 +6473,7 @@ GetName
 (
 )
 const
+override
 {
 return
 "
@@ -6338,6 +6487,7 @@ GetObjectRef
 (
 )
 const
+override
 {
 return
 mNode

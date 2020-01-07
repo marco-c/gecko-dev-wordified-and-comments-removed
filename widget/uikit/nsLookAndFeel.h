@@ -36,6 +36,7 @@ NativeInit
 (
 )
 final
+override
 ;
 virtual
 void

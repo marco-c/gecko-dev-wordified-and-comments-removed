@@ -427,6 +427,7 @@ isValued
 (
 )
 const
+override
 {
 return
 true
@@ -634,6 +635,7 @@ isVariadic
 (
 )
 const
+override
 {
 return
 true

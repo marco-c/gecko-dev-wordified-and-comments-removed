@@ -114,6 +114,7 @@ NS_IMETHOD
 Test
 (
 )
+override
 {
 return
 NS_OK
@@ -268,6 +269,7 @@ LockFactory
 bool
 aLock
 )
+override
 {
 return
 NS_OK

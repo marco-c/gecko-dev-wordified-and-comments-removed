@@ -57,6 +57,7 @@ aBuf
 uint32_t
 aLen
 )
+override
 ;
 const
 char
@@ -64,12 +65,14 @@ char
 GetCharSetName
 (
 )
+override
 ;
 nsProbingState
 GetState
 (
 void
 )
+override
 {
 return
 mState
@@ -80,12 +83,14 @@ Reset
 (
 void
 )
+override
 ;
 float
 GetConfidence
 (
 void
 )
+override
 ;
 #
 ifdef

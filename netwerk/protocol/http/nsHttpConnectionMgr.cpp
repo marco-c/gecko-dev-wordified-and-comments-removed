@@ -925,6 +925,7 @@ false
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 BoolWrapper
+override
 )
 public
 :
@@ -2014,6 +2015,7 @@ false
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 SpeculativeConnectArgs
+override
 )
 public
 :
@@ -2463,6 +2465,7 @@ aListener
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 nsCompleteUpgradeData
+override
 )
 RefPtr
 <
@@ -16235,6 +16238,7 @@ aUint64
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 UINT64Wrapper
+override
 )
 uint64_t
 GetValue

@@ -237,6 +237,7 @@ nsISupports
 *
 retval
 )
+override
 ;
 }
 ;
@@ -273,6 +274,7 @@ nsISupports
 *
 retval
 )
+override
 ;
 }
 ;
@@ -309,6 +311,7 @@ nsWindowInfo
 FindNext
 (
 )
+override
 ;
 }
 ;
@@ -345,6 +348,7 @@ nsWindowInfo
 FindNext
 (
 )
+override
 ;
 }
 ;
@@ -381,6 +385,7 @@ nsWindowInfo
 FindNext
 (
 )
+override
 ;
 }
 ;
@@ -417,6 +422,7 @@ nsWindowInfo
 FindNext
 (
 )
+override
 ;
 }
 ;
@@ -453,6 +459,7 @@ nsWindowInfo
 FindNext
 (
 )
+override
 ;
 }
 ;
@@ -489,6 +496,7 @@ nsWindowInfo
 FindNext
 (
 )
+override
 ;
 }
 ;

@@ -122,6 +122,7 @@ EventPriority
 aPriority
 )
 final
+override
 {
 return
 mOwner
@@ -147,6 +148,7 @@ MutexAutoLock
 aProofOfLock
 )
 final
+override
 {
 mQueue
 =

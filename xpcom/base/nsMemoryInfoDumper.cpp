@@ -1666,6 +1666,7 @@ char
 *
 aStr
 )
+override
 {
 Unused
 <

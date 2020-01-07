@@ -45,6 +45,7 @@ nsresult
 Init
 (
 )
+override
 ;
 virtual
 nsresult
@@ -80,6 +81,7 @@ bool
 *
 aSucceeded
 )
+override
 ;
 void
 Shutdown

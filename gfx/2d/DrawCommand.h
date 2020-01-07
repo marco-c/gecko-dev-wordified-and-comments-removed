@@ -668,6 +668,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -694,6 +695,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -808,6 +810,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -835,6 +838,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -941,6 +945,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -966,6 +971,7 @@ Matrix
 *
 )
 const
+override
 {
 RefPtr
 <
@@ -1088,6 +1094,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -1110,6 +1117,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -1185,6 +1193,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -1210,6 +1219,7 @@ Matrix
 aTransform
 )
 const
+override
 {
 MOZ_ASSERT
 (
@@ -1359,6 +1369,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -1383,6 +1394,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -1407,6 +1419,7 @@ Matrix
 aTransform
 )
 const
+override
 {
 aDeviceRect
 =
@@ -1498,6 +1511,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -1523,6 +1537,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -1621,6 +1636,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -1647,6 +1663,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -1743,6 +1760,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -1767,6 +1785,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -1791,6 +1810,7 @@ Matrix
 aTransform
 )
 const
+override
 {
 aDeviceRect
 =
@@ -2057,6 +2077,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -2082,6 +2103,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -2107,6 +2129,7 @@ Matrix
 aTransform
 )
 const
+override
 {
 aDeviceRect
 =
@@ -2239,6 +2262,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 GlyphBuffer
 glyphs
@@ -2283,6 +2307,7 @@ Matrix
 *
 )
 const
+override
 {
 GlyphBuffer
 buf
@@ -2446,6 +2471,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 GlyphBuffer
 glyphs
@@ -2491,6 +2517,7 @@ Matrix
 *
 )
 const
+override
 {
 GlyphBuffer
 buf
@@ -2613,6 +2640,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -2637,6 +2665,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -2736,6 +2765,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -2761,6 +2791,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -2844,6 +2875,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -2866,6 +2898,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -2930,6 +2963,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -2952,6 +2986,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -3047,6 +3082,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3074,6 +3110,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -3149,6 +3186,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3170,6 +3208,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -3216,6 +3255,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3237,6 +3277,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -3296,6 +3337,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3319,6 +3361,7 @@ Matrix
 aMatrix
 )
 const
+override
 {
 if
 (
@@ -3404,6 +3447,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3427,6 +3471,7 @@ Matrix
 aMatrix
 )
 const
+override
 {
 aDT
 -
@@ -3480,6 +3525,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3501,6 +3547,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -
@@ -3556,6 +3603,7 @@ CaptureCommandList
 *
 aList
 )
+override
 {
 CLONE_INTO
 (
@@ -3578,6 +3626,7 @@ Matrix
 *
 )
 const
+override
 {
 aDT
 -

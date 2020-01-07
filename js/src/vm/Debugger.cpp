@@ -11722,6 +11722,7 @@ zones
 (
 )
 const
+override
 {
 return
 &
@@ -11736,6 +11737,7 @@ JSScript
 script
 )
 const
+override
 {
 return
 script
@@ -11767,6 +11769,7 @@ FrameIter
 iter
 )
 const
+override
 {
 return
 iter
@@ -11828,6 +11831,7 @@ singleZone
 (
 )
 const
+override
 {
 return
 frame_
@@ -11853,6 +11857,7 @@ singleScriptForZoneInvalidation
 (
 )
 const
+override
 {
 MOZ_CRASH
 (
@@ -11882,6 +11887,7 @@ JSScript
 script
 )
 const
+override
 {
 if
 (
@@ -11948,6 +11954,7 @@ FrameIter
 iter
 )
 const
+override
 {
 return
 iter
@@ -12011,6 +12018,7 @@ singleZone
 (
 )
 const
+override
 {
 return
 script_
@@ -12032,6 +12040,7 @@ singleScriptForZoneInvalidation
 (
 )
 const
+override
 {
 return
 script_
@@ -12045,6 +12054,7 @@ JSScript
 script
 )
 const
+override
 {
 return
 script
@@ -12069,6 +12079,7 @@ FrameIter
 iter
 )
 const
+override
 {
 return
 iter
