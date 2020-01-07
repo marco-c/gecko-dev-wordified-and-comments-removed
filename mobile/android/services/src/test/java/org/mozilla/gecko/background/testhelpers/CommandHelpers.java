@@ -73,6 +73,7 @@ Command
 displayURI
 "
 args
+null
 )
 ;
 }
@@ -114,6 +115,7 @@ Command
 displayURI
 "
 args
+null
 )
 ;
 }
@@ -155,6 +157,7 @@ Command
 displayURI
 "
 args
+null
 )
 ;
 }
@@ -219,6 +222,7 @@ Command
 displayURI
 "
 args
+null
 )
 ;
 }
