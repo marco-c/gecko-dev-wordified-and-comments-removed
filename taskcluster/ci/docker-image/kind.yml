@@ -216,6 +216,10 @@ packages
 -
 deb7
 -
+gdb
+-
+deb7
+-
 git
 -
 deb7
