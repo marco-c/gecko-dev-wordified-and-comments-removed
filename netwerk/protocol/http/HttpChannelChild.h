@@ -1691,6 +1691,8 @@ const
 nsHttpResponseHead
 *
 responseHead
+bool
+responseRedirected
 )
 ;
 void

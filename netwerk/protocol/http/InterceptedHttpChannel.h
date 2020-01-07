@@ -240,11 +240,13 @@ FollowSyntheticRedirect
 )
 ;
 nsresult
-RedirectForOpaqueResponse
+RedirectForResponseURL
 (
 nsIURI
 *
 aResponseURI
+bool
+aResponseRedirected
 )
 ;
 nsresult
