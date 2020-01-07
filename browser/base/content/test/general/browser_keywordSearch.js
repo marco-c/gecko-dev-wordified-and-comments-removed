@@ -131,13 +131,6 @@ let
 win
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMEventTarget
-)
 ;
 win
 .

@@ -522,13 +522,6 @@ let
 targetWin
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMEventTarget
-)
 ;
 SimpleTest
 .

@@ -284,7 +284,7 @@ docshell
 .
 chromeEventHandler
 has
-nsIDOMEventTarget
+EventTarget
 interface
 "
 )
@@ -463,10 +463,14 @@ processType
 hasCorrectInterface
 :
 chromeEventHandler
-instanceof
-Ci
+&
+&
+EventTarget
 .
-nsIDOMEventTarget
+isInstance
+(
+chromeEventHandler
+)
 }
 )
 ;

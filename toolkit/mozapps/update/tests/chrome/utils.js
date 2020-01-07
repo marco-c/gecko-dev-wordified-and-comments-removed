@@ -472,13 +472,6 @@ let
 win
 =
 aSubject
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMEventTarget
-)
 ;
 if
 (

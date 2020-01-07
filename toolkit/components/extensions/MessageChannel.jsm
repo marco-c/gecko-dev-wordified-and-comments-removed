@@ -928,11 +928,12 @@ broker
 ;
 if
 (
-target
-instanceof
-Ci
+EventTarget
 .
-nsIDOMEventTarget
+isInstance
+(
+target
+)
 )
 {
 let

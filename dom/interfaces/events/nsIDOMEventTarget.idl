@@ -332,8 +332,6 @@ interface
 nsIDOMEvent
 ;
 [
-scriptable
-builtinclass
 uuid
 (
 9a78ac3c
