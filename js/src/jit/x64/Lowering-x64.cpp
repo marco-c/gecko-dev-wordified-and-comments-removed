@@ -16,6 +16,15 @@ include
 "
 jit
 /
+Lowering
+.
+h
+"
+#
+include
+"
+jit
+/
 MIR
 .
 h
@@ -327,7 +336,7 @@ mir
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitBox
@@ -460,7 +469,7 @@ BOX
 }
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitUnbox
@@ -677,7 +686,7 @@ unbox
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitReturn
@@ -841,7 +850,7 @@ lirIndex
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitCompareExchangeTypedArrayElement
@@ -859,7 +868,7 @@ false
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitAtomicExchangeTypedArrayElement
@@ -877,7 +886,7 @@ false
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitAtomicTypedArrayElementBinop
@@ -895,7 +904,7 @@ false
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmUnsignedToDouble
@@ -957,7 +966,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmUnsignedToFloat32
@@ -1019,7 +1028,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmLoad
@@ -1125,7 +1134,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmStore
@@ -1380,7 +1389,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitAsmJSLoadHeap
@@ -1437,7 +1446,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitAsmJSStoreHeap
@@ -1656,7 +1665,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmCompareExchangeHeap
@@ -1756,7 +1765,7 @@ eax
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmAtomicExchangeHeap
@@ -1839,7 +1848,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmAtomicBinopHeap
@@ -2129,7 +2138,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitSubstr
@@ -2203,7 +2212,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitStoreTypedArrayElementStatic
@@ -2222,7 +2231,7 @@ NYI
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitRandom
@@ -2559,7 +2568,7 @@ rdx
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitWasmTruncateToInt64
@@ -2652,7 +2661,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitInt64ToFloatingPoint
@@ -2744,7 +2753,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitExtendInt32ToInt64
@@ -2779,7 +2788,7 @@ ins
 ;
 }
 void
-LIRGeneratorX64
+LIRGenerator
 :
 :
 visitSignExtendInt64

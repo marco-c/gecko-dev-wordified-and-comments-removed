@@ -29,6 +29,15 @@ include
 "
 jit
 /
+Lowering
+.
+h
+"
+#
+include
+"
+jit
+/
 MIR
 .
 h
@@ -160,7 +169,7 @@ tableswitch
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitPowHalf
@@ -1675,7 +1684,7 @@ edx
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitWasmSelect
@@ -1808,7 +1817,7 @@ TrueExprIndex
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitWasmNeg
@@ -3802,7 +3811,7 @@ ins
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdInsertElement
@@ -4008,7 +4017,7 @@ constant
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdExtractElement
@@ -4373,7 +4382,7 @@ element
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdBinaryArith
@@ -4773,7 +4782,7 @@ operation
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdBinarySaturating
@@ -4896,7 +4905,7 @@ rhs
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdSelect
@@ -5026,7 +5035,7 @@ ins
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdSplat
@@ -5167,7 +5176,7 @@ kind
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdValueX4
@@ -5387,7 +5396,7 @@ kind
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdSwizzle
@@ -5630,7 +5639,7 @@ lane
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdShuffle
@@ -5997,7 +6006,7 @@ endif
 }
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitSimdGeneralShuffle
@@ -6311,7 +6320,7 @@ ins
 ;
 }
 void
-LIRGeneratorX86Shared
+LIRGenerator
 :
 :
 visitCopySign

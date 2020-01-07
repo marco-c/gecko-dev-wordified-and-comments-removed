@@ -410,7 +410,7 @@ mod
 ;
 }
 void
-LIRGeneratorMIPS64
+LIRGenerator
 :
 :
 visitBox
@@ -543,7 +543,7 @@ BOX
 }
 }
 void
-LIRGeneratorMIPS64
+LIRGenerator
 :
 :
 visitUnbox
@@ -760,7 +760,7 @@ unbox
 ;
 }
 void
-LIRGeneratorMIPS64
+LIRGenerator
 :
 :
 visitReturn
@@ -997,7 +997,7 @@ ins
 ;
 }
 void
-LIRGeneratorMIPS64
+LIRGenerator
 :
 :
 visitRandom
@@ -1042,7 +1042,7 @@ ReturnDoubleReg
 ;
 }
 void
-LIRGeneratorMIPS64
+LIRGenerator
 :
 :
 visitWasmTruncateToInt64
@@ -1113,7 +1113,7 @@ ins
 ;
 }
 void
-LIRGeneratorMIPS64
+LIRGenerator
 :
 :
 visitInt64ToFloatingPoint
