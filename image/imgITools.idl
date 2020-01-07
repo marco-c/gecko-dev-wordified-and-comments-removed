@@ -114,9 +114,6 @@ interface
 imgICache
 ;
 interface
-nsIDOMDocument
-;
-interface
 imgIScriptedNotificationObserver
 ;
 interface
@@ -124,6 +121,9 @@ imgINotificationObserver
 ;
 interface
 imgIContainerCallback
+;
+webidl
+Document
 ;
 [
 scriptable
@@ -696,7 +696,7 @@ imgILoader
 getImgLoaderForDocument
 (
 in
-nsIDOMDocument
+Document
 doc
 )
 ;
@@ -766,7 +766,7 @@ imgICache
 getImgCacheForDocument
 (
 in
-nsIDOMDocument
+Document
 doc
 )
 ;

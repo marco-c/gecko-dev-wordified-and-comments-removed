@@ -105,13 +105,13 @@ interface
 nsIDocument
 ;
 interface
-nsIDOMDocument
-;
-interface
 nsIProperties
 ;
 interface
 nsIURI
+;
+webidl
+Document
 ;
 /
 *
@@ -264,7 +264,7 @@ uri
 optional
 ]
 in
-nsIDOMDocument
+Document
 doc
 )
 ;
@@ -409,7 +409,7 @@ uri
 optional
 ]
 in
-nsIDOMDocument
+Document
 doc
 )
 ;
