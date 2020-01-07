@@ -413,7 +413,7 @@ nsTArray
 GfxDriverInfo
 >
 *
-mDriverInfo
+sDriverInfo
 ;
 static
 nsTArray
@@ -427,15 +427,15 @@ dom
 GfxInfoFeatureStatus
 >
 *
-mFeatureStatus
+sFeatureStatus
 ;
 static
 bool
-mDriverInfoObserverInitialized
+sDriverInfoObserverInitialized
 ;
 static
 bool
-mShutdownOccurred
+sShutdownOccurred
 ;
 virtual
 nsString

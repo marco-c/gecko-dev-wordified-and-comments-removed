@@ -1293,7 +1293,7 @@ GetGfxDriverInfo
 {
 return
 *
-mDriverInfo
+sDriverInfo
 ;
 }
 nsresult
@@ -1364,7 +1364,7 @@ os
 ;
 if
 (
-mShutdownOccurred
+sShutdownOccurred
 )
 {
 return

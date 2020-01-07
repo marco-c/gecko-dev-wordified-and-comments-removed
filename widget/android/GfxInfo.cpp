@@ -1555,7 +1555,7 @@ GetGfxDriverInfo
 {
 if
 (
-mDriverInfo
+sDriverInfo
 -
 >
 IsEmpty
@@ -1605,7 +1605,7 @@ FEATURE_OK_FORCE_OPENGL
 }
 return
 *
-mDriverInfo
+sDriverInfo
 ;
 }
 nsresult
@@ -1673,7 +1673,7 @@ os
 ;
 if
 (
-mShutdownOccurred
+sShutdownOccurred
 )
 {
 return

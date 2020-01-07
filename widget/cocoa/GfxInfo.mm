@@ -1408,7 +1408,7 @@ GetGfxDriverInfo
 if
 (
 !
-mDriverInfo
+sDriverInfo
 -
 >
 Length
@@ -1535,7 +1535,7 @@ FEATURE_FAILURE_MAC_7300_NO_WEBGL
 }
 return
 *
-mDriverInfo
+sDriverInfo
 ;
 }
 nsresult
@@ -1612,7 +1612,7 @@ os
 ;
 if
 (
-mShutdownOccurred
+sShutdownOccured
 )
 {
 return

@@ -379,7 +379,7 @@ GetGfxDriverInfo
 {
 if
 (
-mDriverInfo
+sDriverInfo
 -
 >
 IsEmpty
@@ -426,7 +426,7 @@ allDriverVersions
 }
 return
 *
-mDriverInfo
+sDriverInfo
 ;
 }
 nsresult
@@ -489,7 +489,7 @@ Ios
 ;
 if
 (
-mShutdownOccurred
+sShutdownOccured
 )
 {
 return
