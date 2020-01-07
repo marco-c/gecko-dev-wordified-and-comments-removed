@@ -8171,12 +8171,8 @@ this
 .
 _autoScrollPopup
 .
-openPopup
+openPopupAtScreen
 (
-null
-"
-after_start
-"
 popupX
 popupY
 )
