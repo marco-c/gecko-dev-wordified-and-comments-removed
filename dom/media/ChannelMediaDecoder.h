@@ -440,6 +440,7 @@ BaseMediaResource
 aResource
 )
 ;
+static
 MediaStatistics
 GetStatistics
 (
@@ -447,6 +448,11 @@ const
 PlaybackRateInfo
 &
 aInfo
+BaseMediaResource
+*
+aRes
+int64_t
+aPlaybackPosition
 )
 ;
 bool
@@ -470,6 +476,11 @@ int64_t
 mPlaybackPosition
 =
 0
+;
+bool
+mCanPlayThrough
+=
+false
 ;
 }
 ;
