@@ -320,8 +320,8 @@ valueType_
 Op
 op_
 ;
-NumericOp
-numericOp_
+MiscOp
+miscOp_
 ;
 ThreadOp
 threadOp_
@@ -745,7 +745,7 @@ WasmToken
 (
 Kind
 kind
-NumericOp
+MiscOp
 op
 const
 char16_t
@@ -788,7 +788,7 @@ ExtraConversionOpcode
 ;
 u
 .
-numericOp_
+miscOp_
 =
 op
 ;
@@ -1192,8 +1192,8 @@ op_
 #
 ifdef
 ENABLE_WASM_SATURATING_TRUNC_OPS
-NumericOp
-numericOp
+MiscOp
+miscOp
 (
 )
 const
@@ -1209,7 +1209,7 @@ ExtraConversionOpcode
 return
 u
 .
-numericOp_
+miscOp_
 ;
 }
 #
@@ -8700,7 +8700,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I32TruncSSatF32
@@ -8729,7 +8729,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I32TruncSSatF64
@@ -8758,7 +8758,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I32TruncUSatF32
@@ -8787,7 +8787,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I32TruncUSatF64
@@ -11317,7 +11317,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I64TruncSSatF32
@@ -11346,7 +11346,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I64TruncSSatF64
@@ -11375,7 +11375,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I64TruncUSatF32
@@ -11404,7 +11404,7 @@ WasmToken
 :
 :
 ExtraConversionOpcode
-NumericOp
+MiscOp
 :
 :
 I64TruncUSatF64
@@ -16237,7 +16237,7 @@ ParseExtraConversionOperator
 WasmParseContext
 &
 c
-NumericOp
+MiscOp
 op
 bool
 inParens
@@ -19346,7 +19346,7 @@ ParseExtraConversionOperator
 c
 token
 .
-numericOp
+miscOp
 (
 )
 inParens
@@ -31273,10 +31273,10 @@ e
 .
 writeOp
 (
-CopyOrFillOp
+MiscOp
 :
 :
-Copy
+MemCopy
 )
 ;
 }
@@ -31330,10 +31330,10 @@ e
 .
 writeOp
 (
-CopyOrFillOp
+MiscOp
 :
 :
-Fill
+MemFill
 )
 ;
 }

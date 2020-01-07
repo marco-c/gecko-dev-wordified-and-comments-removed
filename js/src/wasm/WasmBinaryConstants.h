@@ -871,11 +871,8 @@ RefIsNull
 0xd1
 FirstPrefix
 =
-0xfb
-CopyOrFillPrefix
-=
-0xfb
-NumericPrefix
+0xfc
+MiscPrefix
 =
 0xfc
 ThreadPrefix
@@ -912,7 +909,7 @@ FirstPrefix
 }
 enum
 class
-NumericOp
+MiscOp
 {
 I32TruncSSatF32
 =
@@ -938,6 +935,12 @@ I64TruncSSatF64
 I64TruncUSatF64
 =
 0x07
+MemCopy
+=
+0x40
+MemFill
+=
+0x41
 Limit
 }
 ;

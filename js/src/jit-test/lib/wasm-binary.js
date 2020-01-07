@@ -458,7 +458,7 @@ LastInvalidOpcode
 0xfb
 ;
 const
-NumericPrefix
+MiscPrefix
 =
 0xfc
 ;
@@ -468,7 +468,7 @@ SimdPrefix
 0xfd
 ;
 const
-AtomicPrefix
+ThreadPrefix
 =
 0xfe
 ;
