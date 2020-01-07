@@ -2521,7 +2521,9 @@ name
 =
 self
 .
-get_pref
+prefs
+.
+get
 (
 name
 )
