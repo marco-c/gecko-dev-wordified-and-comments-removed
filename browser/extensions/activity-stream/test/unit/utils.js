@@ -68,6 +68,8 @@ locale
 :
 "
 en
+-
+US
 "
 messages
 }
