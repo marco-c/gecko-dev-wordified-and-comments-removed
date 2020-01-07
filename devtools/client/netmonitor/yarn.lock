@@ -27556,13 +27556,6 @@ immutable
 7
 .
 6
-immutable
-^
-3
-.
-8
-.
-1
 :
 version
 "
@@ -27570,7 +27563,7 @@ version
 .
 8
 .
-1
+2
 "
 resolved
 "
@@ -27594,11 +27587,11 @@ immutable
 .
 8
 .
-1
+2
 .
 tgz
 #
-200807f11ab0f72710ea485542de088075f68cd2
+c2439951455bb39913daf281376f1530e104adf3
 "
 indexes
 -
