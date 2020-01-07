@@ -1050,6 +1050,11 @@ nsPrintSettingsImpl
 cpp
 '
 '
+nsSoundProxy
+.
+cpp
+'
+'
 nsTransferable
 .
 cpp
