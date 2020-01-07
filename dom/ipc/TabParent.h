@@ -1269,7 +1269,7 @@ IPCResult
 RecvSetCursor
 (
 const
-uint32_t
+nsCursor
 &
 aValue
 const

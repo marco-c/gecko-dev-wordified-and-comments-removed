@@ -800,6 +800,15 @@ h
 "
 ;
 using
+nsCursor
+from
+"
+nsIWidget
+.
+h
+"
+;
+using
 struct
 LookAndFeelInt
 from
@@ -2550,7 +2559,7 @@ update
 async
 SetCursor
 (
-uint32_t
+nsCursor
 value
 bool
 force
