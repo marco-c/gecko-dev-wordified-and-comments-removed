@@ -99,6 +99,9 @@ namespace
 mozilla
 {
 namespace
+glue
+{
+namespace
 detail
 {
 class
@@ -106,11 +109,15 @@ DllServicesBase
 ;
 }
 }
+}
 MFBT_API
 void
 DllBlocklist_SetDllServices
 (
 mozilla
+:
+:
+glue
 :
 :
 detail
