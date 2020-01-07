@@ -6394,8 +6394,14 @@ updateNegotiationNeeded
 setIdentityProvider
 (
 provider
+{
 protocol
-username
+usernameHint
+peerIdentity
+}
+=
+{
+}
 )
 {
 this
@@ -6412,7 +6418,8 @@ setIdentityProvider
 (
 provider
 protocol
-username
+usernameHint
+peerIdentity
 )
 ;
 }
