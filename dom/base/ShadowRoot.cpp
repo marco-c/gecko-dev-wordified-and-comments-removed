@@ -1164,6 +1164,11 @@ ElementAt
 aSlot
 )
 ;
+InvalidateStyleAndLayoutOnSubtree
+(
+aSlot
+)
+;
 mSlotMap
 .
 Remove
@@ -1236,6 +1241,11 @@ wasFirstSlot
 return
 ;
 }
+InvalidateStyleAndLayoutOnSubtree
+(
+aSlot
+)
+;
 HTMLSlotElement
 *
 replacementSlot
