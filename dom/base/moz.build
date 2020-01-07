@@ -863,6 +863,11 @@ Comment
 h
 '
 '
+ContentFrameMessageManager
+.
+h
+'
+'
 CustomElementRegistry
 .
 h
@@ -1044,6 +1049,11 @@ h
 '
 '
 MessageListenerManager
+.
+h
+'
+'
+MessageManagerGlobal
 .
 h
 '
