@@ -411,15 +411,6 @@ str
 else
 :
                 
-samples
-=
-thread
-[
-'
-samples
-'
-]
-                
 for
 sample
 in

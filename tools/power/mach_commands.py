@@ -26,14 +26,7 @@ mozbuild
 .
 base
 import
-(
-    
 MachCommandBase
-    
-MachCommandConditions
-as
-conditions
-)
 def
 is_osx_10_10_or_greater
 (
@@ -269,6 +262,7 @@ true
 )
         
 except
+Exception
 :
             
 print
