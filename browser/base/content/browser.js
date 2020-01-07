@@ -23105,10 +23105,6 @@ false
 busyUI
 :
 false
-inContentWhitelist
-:
-[
-]
 QueryInterface
 (
 aIID
@@ -24849,11 +24845,6 @@ updateOpenSearchBadge
 (
 )
 ;
-}
-hideChromeForLocation
-(
-)
-{
 }
 onStatusChange
 (
