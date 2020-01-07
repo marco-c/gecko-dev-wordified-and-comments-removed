@@ -618,7 +618,7 @@ const
 void
 GetMozCursor
 (
-nsString
+nsAString
 &
 aCursor
 )
@@ -651,6 +651,15 @@ auto
 ;
 }
 }
+void
+SetMozCursor
+(
+const
+nsAString
+&
+aCursor
+)
+;
 already_AddRefed
 <
 DOMStringList
