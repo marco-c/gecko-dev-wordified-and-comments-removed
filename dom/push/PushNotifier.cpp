@@ -454,6 +454,12 @@ contentActors
 IsEmpty
 (
 )
+&
+&
+!
+ServiceWorkerParentInterceptEnabled
+(
+)
 )
 {
 for
@@ -540,6 +546,12 @@ NS_OK
 if
 (
 BrowserTabsRemoteAutostart
+(
+)
+&
+&
+!
+ServiceWorkerParentInterceptEnabled
 (
 )
 )
