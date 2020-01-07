@@ -2386,6 +2386,15 @@ return
 true
 ;
 }
+RefPtr
+<
+RefreshDriverVsyncObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 TickRefreshDriver
 (
 aVsyncTimestamp
