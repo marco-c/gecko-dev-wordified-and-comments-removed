@@ -7958,12 +7958,6 @@ HasFlag
 (
 NODE_MAY_BE_IN_BINDING_MNGR
 )
-&
-&
-!
-GetShadowRoot
-(
-)
 )
 {
 nsXBLBinding
@@ -8228,6 +8222,8 @@ false
 )
 ;
 }
+if
+(
 ShadowRoot
 *
 shadowRoot
@@ -8235,10 +8231,6 @@ shadowRoot
 GetShadowRoot
 (
 )
-;
-if
-(
-shadowRoot
 )
 {
 shadowRoot
@@ -9203,12 +9195,6 @@ if
 HasFlag
 (
 NODE_MAY_BE_IN_BINDING_MNGR
-)
-&
-&
-!
-GetShadowRoot
-(
 )
 )
 {
