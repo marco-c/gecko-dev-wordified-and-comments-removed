@@ -202,9 +202,6 @@ write_clip_tile_vertex
 local_rect
 layer
 area
-cmi
-.
-segment
 )
 ;
 vPos

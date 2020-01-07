@@ -6,7 +6,6 @@ api
 LayerVector2D
 LayerRect
 LayerToWorldTransform
-WorldToLayerTransform
 }
 ;
 use
@@ -475,7 +474,7 @@ z
 :
 i32
 pub
-flags
+segment_kind
 :
 i32
 pub
@@ -559,7 +558,7 @@ instance
 z
 instance
 .
-flags
+segment_kind
 instance
 .
 user_data0
@@ -598,6 +597,7 @@ derive
 Copy
 Debug
 Clone
+PartialEq
 )
 ]
 #
@@ -637,10 +637,6 @@ pub
 transform
 :
 LayerToWorldTransform
-pub
-inv_transform
-:
-WorldToLayerTransform
 pub
 local_clip_rect
 :
@@ -683,14 +679,6 @@ ClipScrollNodeData
 transform
 :
 LayerToWorldTransform
-:
-:
-identity
-(
-)
-inv_transform
-:
-WorldToLayerTransform
 :
 :
 identity

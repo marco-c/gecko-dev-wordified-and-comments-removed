@@ -100,7 +100,7 @@ vLocalPos
 ifdef
 WR_VERTEX_SHADER
 struct
-BrushPrimitive
+RoundedRectPrimitive
 {
 float
 clip_mode
@@ -122,8 +122,8 @@ radius_bl
 ;
 }
 ;
-BrushPrimitive
-fetch_brush_primitive
+RoundedRectPrimitive
+fetch_rounded_rect_primitive
 (
 int
 address
@@ -141,7 +141,7 @@ address
 )
 ;
 return
-BrushPrimitive
+RoundedRectPrimitive
 (
 data
 [
@@ -200,10 +200,10 @@ the
 specific
 primitive
 .
-BrushPrimitive
+RoundedRectPrimitive
 prim
 =
-fetch_brush_primitive
+fetch_rounded_rect_primitive
 (
 prim_address
 )

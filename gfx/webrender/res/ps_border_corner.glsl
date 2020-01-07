@@ -2485,6 +2485,7 @@ p
 vRadii0
 .
 xy
+aa_range
 )
 ;
 float
@@ -2496,6 +2497,7 @@ p
 vRadii0
 .
 zw
+aa_range
 )
 ;
 float
@@ -2507,6 +2509,7 @@ p
 vRadii1
 .
 xy
+aa_range
 )
 ;
 float
@@ -2518,6 +2521,7 @@ p
 vRadii1
 .
 zw
+aa_range
 )
 ;
 /

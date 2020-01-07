@@ -174,9 +174,7 @@ gleam
 lazy_static
 =
 "
-0
-.
-2
+1
 "
 log
 =
@@ -246,6 +244,13 @@ split
 0
 .
 6
+"
+smallvec
+=
+"
+0
+.
+5
 "
 ws
 =

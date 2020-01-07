@@ -318,6 +318,7 @@ xy
 vClipCenter_Radius
 .
 zw
+aa_range
 )
 ;
 d

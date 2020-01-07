@@ -1133,7 +1133,7 @@ let
 (
 .
 .
-minor
+y_scale
 )
 =
 font
@@ -1168,7 +1168,7 @@ to_f64_px
 (
 )
 *
-minor
+y_scale
 )
 as
 f32
@@ -1258,14 +1258,14 @@ transform
 .
 pre_scale
 (
-minor
+y_scale
 .
 recip
 (
 )
 as
 f32
-minor
+y_scale
 .
 recip
 (
