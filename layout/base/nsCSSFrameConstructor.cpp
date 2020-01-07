@@ -53532,6 +53532,10 @@ true
 }
 if
 (
+mIsPopup
+|
+|
+(
 !
 (
 mFCData
@@ -53554,6 +53558,7 @@ StyleDisplay
 (
 )
 nullptr
+)
 )
 )
 {
