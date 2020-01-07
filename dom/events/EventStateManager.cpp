@@ -8871,7 +8871,7 @@ aDataTransfer
 nsIContent
 *
 aDragTarget
-nsISelection
+Selection
 *
 aSelection
 const

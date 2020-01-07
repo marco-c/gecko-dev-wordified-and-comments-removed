@@ -107,11 +107,11 @@ domstubs
 .
 idl
 "
-interface
-nsISelection
-;
 webidl
 CharacterData
+;
+webidl
+Selection
 ;
 /
 *
@@ -738,7 +738,7 @@ void
 WillDeleteSelection
 (
 in
-nsISelection
+Selection
 aSelection
 )
 ;
@@ -767,7 +767,7 @@ void
 DidDeleteSelection
 (
 in
-nsISelection
+Selection
 aSelection
 )
 ;

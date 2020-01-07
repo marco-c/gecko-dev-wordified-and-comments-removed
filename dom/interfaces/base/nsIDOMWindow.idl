@@ -111,9 +111,6 @@ interface
 nsIPrompt
 ;
 interface
-nsISelection
-;
-interface
 nsIVariant
 ;
 /

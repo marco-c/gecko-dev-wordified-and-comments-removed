@@ -127,11 +127,11 @@ idl
 interface
 nsIDOMNode
 ;
-interface
-nsISelection
-;
 webidl
 DragEvent
+;
+webidl
+Selection
 ;
 %
 {
@@ -794,7 +794,7 @@ void
 invokeDragSessionWithSelection
 (
 in
-nsISelection
+Selection
 aSelection
 in
 AUTF8String

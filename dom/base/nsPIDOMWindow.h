@@ -129,6 +129,9 @@ class
 nsIPrincipal
 ;
 class
+nsISelection
+;
+class
 nsIScriptTimeoutHandler
 ;
 class

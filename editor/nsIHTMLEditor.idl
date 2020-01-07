@@ -113,14 +113,14 @@ nsIContent
 interface
 nsIArray
 ;
-interface
-nsISelection
-;
 webidl
 Element
 ;
 webidl
 Node
+;
+webidl
+Selection
 ;
 [
 scriptable
@@ -1386,7 +1386,7 @@ these
 be
 moved
 to
-nsISelection
+Selection
 ?
 *
 /
@@ -3113,7 +3113,7 @@ void
 checkSelectionStateForAnonymousButtons
 (
 in
-nsISelection
+Selection
 aSelection
 )
 ;
