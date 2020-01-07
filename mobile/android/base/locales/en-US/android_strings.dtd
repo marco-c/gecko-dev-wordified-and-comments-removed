@@ -5073,6 +5073,16 @@ Print
 <
 !
 ENTITY
+view_page_source
+"
+View
+Page
+Source
+"
+>
+<
+!
+ENTITY
 find_in_page
 "
 Find
