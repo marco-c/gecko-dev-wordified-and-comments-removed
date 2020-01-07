@@ -95,6 +95,9 @@ const
 nsAString
 &
 aValue
+nsSVGElement
+*
+aSVGElement
 )
 {
 SVGTransformList
@@ -126,6 +129,7 @@ return
 SetBaseValue
 (
 newBaseValue
+aSVGElement
 )
 ;
 }
@@ -139,6 +143,9 @@ const
 SVGTransformList
 &
 aValue
+nsSVGElement
+*
+aSVGElement
 )
 {
 SVGAnimatedTransformList
@@ -220,6 +227,15 @@ true
 ;
 mHadTransformBeforeLastBaseValChange
 =
+!
+aSVGElement
+-
+>
+GetPrimaryFrame
+(
+)
+|
+|
 hadTransform
 ;
 }
