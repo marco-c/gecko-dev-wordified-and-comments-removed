@@ -397,16 +397,6 @@ Simulator
 )
 ;
 static
-bool
-supportsAtomics
-(
-)
-{
-return
-true
-;
-}
-static
 Simulator
 *
 Current
