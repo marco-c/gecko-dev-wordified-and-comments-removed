@@ -244,7 +244,9 @@ let
 requirejs
 }
 =
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 wrappedJSObject
 ;
