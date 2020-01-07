@@ -346,7 +346,6 @@ aArgs
 viewPartialSourceInBrowser
 (
 aViewSourceInBrowser
-aTarget
 aGetBrowserFn
 )
 {
@@ -437,13 +436,6 @@ ViewSource
 :
 GetSelection
 "
-{
-}
-{
-target
-:
-aTarget
-}
 )
 ;
 }
