@@ -204,6 +204,8 @@ supported
 on
 Linux
 and
+macOS
+and
 this
 check
 needs
@@ -217,6 +219,7 @@ CubebUtils
 cpp
 .
 if
+(
 CONFIG
 [
 '
@@ -239,6 +242,19 @@ OS_TARGET
 =
 '
 Android
+'
+)
+or
+CONFIG
+[
+'
+OS_ARCH
+'
+]
+=
+=
+'
+Darwin
 '
 :
 gkrust_features
