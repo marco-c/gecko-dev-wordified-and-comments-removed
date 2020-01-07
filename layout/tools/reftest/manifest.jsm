@@ -3673,12 +3673,6 @@ compareRetainedDisplayLists
 ;
 sandbox
 .
-stylo
-=
-true
-;
-sandbox
-.
 skiaPdf
 =
 false
