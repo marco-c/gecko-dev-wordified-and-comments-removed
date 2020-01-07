@@ -636,9 +636,7 @@ maxSize
 "
 splitterSize
 :
-"
-1px
-"
+1
 startPanel
 :
 RequestList

@@ -173,7 +173,7 @@ splitterSize
 :
 PropTypes
 .
-string
+number
 vert
 :
 PropTypes
