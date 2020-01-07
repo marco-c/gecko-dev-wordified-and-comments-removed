@@ -2263,7 +2263,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 )
@@ -2979,7 +2979,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )

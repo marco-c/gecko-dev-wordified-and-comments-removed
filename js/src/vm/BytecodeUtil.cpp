@@ -5548,7 +5548,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 |

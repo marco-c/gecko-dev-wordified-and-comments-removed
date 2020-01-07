@@ -7227,7 +7227,7 @@ requestDepth
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )

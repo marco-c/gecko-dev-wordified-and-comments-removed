@@ -541,7 +541,7 @@ mayNeedBarrier
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 ;
@@ -795,7 +795,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapTracing
+RuntimeHeapIsTracing
 (
 )
 )
@@ -930,7 +930,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )

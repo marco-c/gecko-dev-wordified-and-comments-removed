@@ -896,7 +896,7 @@ MOZ_ASSERT_IF
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 isInList

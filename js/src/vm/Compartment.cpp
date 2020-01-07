@@ -1877,7 +1877,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
@@ -2044,7 +2044,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
