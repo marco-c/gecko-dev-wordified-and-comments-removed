@@ -229,7 +229,7 @@ if
 iface
 -
 >
-iid
+mIID
 .
 Equals
 (
@@ -247,7 +247,7 @@ Get
 iface
 -
 >
-name
+mName
 )
 ;
 else
@@ -262,7 +262,7 @@ Get
 iface
 -
 >
-iid
+mIID
 )
 ;
 }
@@ -330,6 +330,6 @@ return
 iface
 -
 >
-name
+mName
 ;
 }

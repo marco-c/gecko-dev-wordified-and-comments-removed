@@ -727,7 +727,7 @@ cursor
 ide
 -
 >
-iid
+mIID
 )
 )
 |
@@ -742,7 +742,7 @@ cursor
 ide
 -
 >
-name
+mName
 )
 )
 |
@@ -767,7 +767,7 @@ cursor
 ide
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 )
 )
 {
