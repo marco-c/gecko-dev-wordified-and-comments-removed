@@ -93,11 +93,6 @@ pip
 #
 Install
 mercurial
-#
-shellcheck
-disable
-=
-SC1091
 .
 /
 setup
@@ -105,11 +100,6 @@ setup
 common
 .
 sh
-#
-shellcheck
-disable
-=
-SC1091
 .
 /
 setup
@@ -188,7 +178,6 @@ python
 -
 zstandard
 .
-(
 cd
 /
 setup
@@ -244,7 +233,8 @@ gz
 }
 ]
 EOF
-)
+cd
+-
 /
 usr
 /

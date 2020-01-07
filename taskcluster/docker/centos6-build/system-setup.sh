@@ -11,11 +11,7 @@ set
 -
 ve
 test
-"
-(
 whoami
-)
-"
 =
 =
 '
@@ -1748,7 +1744,6 @@ usr
 make
 -
 j
-"
 (
 grep
 -
@@ -1760,7 +1755,6 @@ proc
 /
 cpuinfo
 )
-"
 install
 #
 Git
@@ -2623,6 +2617,4 @@ yum
 clean
 all
 rm
-"
 0
-"
