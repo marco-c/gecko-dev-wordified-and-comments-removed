@@ -11152,6 +11152,15 @@ IsBuildingLayerEventRegions
 {
 if
 (
+mBuildCompositorHitTestInfo
+)
+{
+return
+false
+;
+}
+if
+(
 IsPaintingToWindow
 (
 )
