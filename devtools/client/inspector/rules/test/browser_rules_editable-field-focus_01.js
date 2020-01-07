@@ -122,7 +122,7 @@ testEditableFieldFocus
 inspector
 view
 "
-VK_RETURN
+KEY_Enter
 "
 )
 ;
@@ -132,7 +132,7 @@ testEditableFieldFocus
 inspector
 view
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -504,10 +504,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 }

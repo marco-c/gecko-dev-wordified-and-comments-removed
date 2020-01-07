@@ -184,7 +184,7 @@ length
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 searchtext
 .
@@ -194,8 +194,6 @@ substr
 1
 1
 )
-{
-}
 )
 ;
 await
@@ -868,10 +866,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 is

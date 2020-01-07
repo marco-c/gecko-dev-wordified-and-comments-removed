@@ -267,10 +267,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 await
@@ -327,10 +325,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 EventUtils
@@ -348,10 +344,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 }
@@ -847,10 +841,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 await

@@ -1354,10 +1354,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_END
+KEY_End
 "
-{
-}
 )
 ;
 await
@@ -1503,10 +1501,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_HOME
+KEY_Home
 "
-{
-}
 )
 ;
 await
@@ -1807,10 +1803,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_END
+KEY_End
 "
-{
-}
 )
 ;
 await
@@ -1974,10 +1968,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_HOME
+KEY_Home
 "
-{
-}
 )
 ;
 await

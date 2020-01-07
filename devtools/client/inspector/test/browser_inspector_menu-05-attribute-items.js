@@ -115,7 +115,7 @@ click
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 '
 class
@@ -126,8 +126,6 @@ u
 hidden
 "
 '
-{
-}
 )
 ;
 let
@@ -147,10 +145,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 yield
@@ -464,7 +460,7 @@ click
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 data
@@ -475,8 +471,6 @@ edit
 edited
 '
 "
-{
-}
 )
 ;
 let
@@ -496,10 +490,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 yield
@@ -733,10 +725,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 return

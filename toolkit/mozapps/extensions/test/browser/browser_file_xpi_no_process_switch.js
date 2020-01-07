@@ -321,8 +321,6 @@ synthesizeKey
 "
 KEY_Enter
 "
-{
-}
 )
 ;
 await

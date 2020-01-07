@@ -642,7 +642,7 @@ inputField
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -668,7 +668,7 @@ inputField
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -694,10 +694,8 @@ inputField
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 gExpectedBlur
@@ -723,10 +721,8 @@ scale
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 is

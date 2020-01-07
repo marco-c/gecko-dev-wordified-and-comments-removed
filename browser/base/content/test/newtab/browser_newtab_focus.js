@@ -170,10 +170,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 if

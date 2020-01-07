@@ -1029,10 +1029,8 @@ clear
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 checkKeyEvents
@@ -1042,7 +1040,7 @@ true
 true
 true
 "
-VK_BACK_SPACE
+KEY_Backspace
 key
 events
 "

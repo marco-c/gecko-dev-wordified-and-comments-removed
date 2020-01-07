@@ -873,10 +873,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
-{
-}
 )
 ;
 is

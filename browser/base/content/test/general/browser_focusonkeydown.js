@@ -107,13 +107,11 @@ true
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 v
 "
-{
-}
 )
 ;
 is

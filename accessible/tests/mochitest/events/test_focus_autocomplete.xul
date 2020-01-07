@@ -1003,7 +1003,7 @@ removeChar_invoke
 synthesizeKey
 (
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 {
 shiftKey
@@ -1015,10 +1015,8 @@ true
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
-{
-}
 )
 ;
 }
@@ -1081,11 +1079,9 @@ select
 (
 )
 ;
-synthesizeKey
+sendString
 (
 aChar
-{
-}
 )
 ;
 }

@@ -530,13 +530,11 @@ cb
 )
 ;
 }
-synthesizeKey
+sendString
 (
 "
 X
 "
-{
-}
 )
 ;
 }

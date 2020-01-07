@@ -419,10 +419,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 }

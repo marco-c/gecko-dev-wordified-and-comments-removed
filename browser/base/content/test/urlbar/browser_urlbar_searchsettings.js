@@ -86,13 +86,11 @@ focus
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 a
 "
-{
-}
 )
 ;
 await

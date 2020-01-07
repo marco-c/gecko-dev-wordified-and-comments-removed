@@ -69,10 +69,6 @@ synthesizeKey
 (
 key
 mods
-|
-|
-{
-}
 )
 )
 ;
@@ -247,10 +243,8 @@ keys
 [
 [
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 ]
 ]
 }
@@ -315,7 +309,7 @@ keys
 [
 [
 "
-VK_RETURN
+KEY_Enter
 "
 AppConstants
 .
@@ -402,7 +396,7 @@ keys
 [
 [
 "
-VK_RETURN
+KEY_Enter
 "
 {
 shiftKey

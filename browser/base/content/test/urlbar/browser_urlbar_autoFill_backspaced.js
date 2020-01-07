@@ -64,8 +64,6 @@ EventUtils
 synthesizeKey
 (
 key
-{
-}
 )
 )
 ;
@@ -334,7 +332,7 @@ keys
 :
 [
 "
-VK_DELETE
+KEY_Delete
 "
 ]
 action
@@ -385,7 +383,7 @@ keys
 :
 [
 "
-VK_DELETE
+KEY_Delete
 "
 ]
 action
@@ -432,7 +430,7 @@ keys
 :
 [
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -483,7 +481,7 @@ keys
 :
 [
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -532,10 +530,10 @@ keys
 :
 [
 "
-VK_DELETE
+KEY_Delete
 "
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -588,10 +586,10 @@ keys
 :
 [
 "
-VK_DELETE
+KEY_Delete
 "
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -640,10 +638,10 @@ keys
 :
 [
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -696,10 +694,10 @@ keys
 :
 [
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -745,7 +743,7 @@ keys
 :
 [
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action
@@ -823,7 +821,7 @@ keys
 :
 [
 "
-VK_DELETE
+KEY_Delete
 "
 ]
 action
@@ -902,10 +900,10 @@ keys
 :
 [
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 ]
 action

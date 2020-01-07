@@ -3896,10 +3896,8 @@ promiseExpectRangeCount
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 await
@@ -4032,10 +4030,8 @@ reload
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 await

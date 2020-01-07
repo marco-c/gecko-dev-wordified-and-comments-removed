@@ -349,10 +349,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 yield

@@ -137,13 +137,11 @@ testBu
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 g
 "
-{
-}
 )
 ;
 await
@@ -231,10 +229,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 )
 ;
@@ -253,7 +249,7 @@ is
 not
 open
 after
-VK_RETURN
+KEY_Enter
 "
 )
 ;
@@ -271,7 +267,7 @@ inputNode
 is
 empty
 after
-VK_RETURN
+KEY_Enter
 "
 )
 ;

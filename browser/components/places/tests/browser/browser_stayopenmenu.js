@@ -176,8 +176,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 BrowserTestUtils
@@ -197,8 +195,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 BrowserTestUtils

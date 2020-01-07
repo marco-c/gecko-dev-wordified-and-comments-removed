@@ -2879,7 +2879,7 @@ typeWithTerminator
 (
 newValue
 "
-VK_RETURN
+KEY_Enter
 "
 validate
 )
@@ -3265,8 +3265,6 @@ EventUtils
 synthesizeKey
 (
 terminator
-{
-}
 )
 ;
 if

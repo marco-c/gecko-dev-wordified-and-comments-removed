@@ -2635,10 +2635,8 @@ pressTab
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 function
@@ -3145,7 +3143,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -3202,7 +3200,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -3325,7 +3323,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -3389,7 +3387,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -7336,7 +7334,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -7415,7 +7413,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -9502,7 +9500,7 @@ true
 synthesizeKey
 (
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 {
 }
@@ -9512,7 +9510,7 @@ gChildWindow
 synthesizeKey
 (
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 {
 }
@@ -9537,7 +9535,7 @@ link
 synthesizeKey
 (
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 {
 }
@@ -9646,10 +9644,8 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 gChildWindow
 getById
@@ -9711,10 +9707,8 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 window
 (
@@ -9760,7 +9754,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -10611,7 +10605,7 @@ else
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 }
@@ -10819,7 +10813,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 }
@@ -10872,7 +10866,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 }
@@ -10918,7 +10912,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -10991,7 +10985,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -11062,7 +11056,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey
@@ -11110,7 +11104,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 }
@@ -11157,7 +11151,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey
@@ -11207,7 +11201,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey
@@ -11282,7 +11276,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey
@@ -11357,7 +11351,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey
@@ -11408,7 +11402,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey
@@ -11461,7 +11455,7 @@ expectFocusShift
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 ctrlKey

@@ -1006,10 +1006,8 @@ search
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 }

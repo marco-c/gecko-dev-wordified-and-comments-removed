@@ -534,7 +534,7 @@ desc
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
 {
 shiftKey
@@ -577,10 +577,8 @@ desc
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
-{
-}
 )
 ;
 is

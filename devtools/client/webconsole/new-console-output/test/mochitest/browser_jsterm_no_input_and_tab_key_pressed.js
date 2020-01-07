@@ -76,10 +76,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 is
@@ -151,10 +149,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 is

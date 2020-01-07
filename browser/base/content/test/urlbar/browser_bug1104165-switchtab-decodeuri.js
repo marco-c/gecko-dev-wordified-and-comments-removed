@@ -114,10 +114,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 ok
@@ -214,10 +212,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 }

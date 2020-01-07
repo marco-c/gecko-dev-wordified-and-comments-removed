@@ -82,10 +82,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 await

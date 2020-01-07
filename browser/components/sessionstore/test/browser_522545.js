@@ -1318,7 +1318,7 @@ slice
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 inputText
 .
@@ -1327,8 +1327,6 @@ slice
 -
 1
 )
-{
-}
 )
 ;
 executeSoon

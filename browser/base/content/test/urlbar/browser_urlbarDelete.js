@@ -110,7 +110,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 {
 altKey
@@ -127,10 +127,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_HOME
+KEY_Home
 "
-{
-}
 )
 ;
 }
@@ -145,10 +143,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
-{
-}
 )
 ;
 }

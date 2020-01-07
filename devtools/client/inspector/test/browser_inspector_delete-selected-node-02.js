@@ -511,10 +511,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
-{
-}
 )
 ;
 yield
@@ -685,10 +683,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 info

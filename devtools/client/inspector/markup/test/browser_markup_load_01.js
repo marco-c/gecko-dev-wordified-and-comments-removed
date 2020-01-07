@@ -424,13 +424,11 @@ linkedBrowser
 yield
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 Q
 "
-{
-}
 )
 ;
 }

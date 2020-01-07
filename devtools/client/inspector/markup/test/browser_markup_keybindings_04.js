@@ -269,10 +269,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
-{
-}
 )
 ;
 return
@@ -332,7 +330,7 @@ synthesizeKey
 key
 :
 "
-VK_RETURN
+KEY_Enter
 "
 options
 :

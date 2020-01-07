@@ -375,10 +375,8 @@ selectMenuItem_invoke
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 }
@@ -441,10 +439,8 @@ openSubMenu_invoke
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 }
@@ -532,10 +528,8 @@ closeSubMenu_invoke
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 }
@@ -605,10 +599,8 @@ closeMenu_invoke
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 }

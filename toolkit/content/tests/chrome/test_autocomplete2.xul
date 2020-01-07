@@ -903,13 +903,11 @@ focus
 (
 )
 ;
-synthesizeKey
+sendString
 (
 "
 r
 "
-{
-}
 )
 ;
 }

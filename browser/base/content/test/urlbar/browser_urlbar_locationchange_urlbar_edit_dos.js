@@ -18,13 +18,11 @@ select
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 a
 "
-{
-}
 )
 ;
 is

@@ -644,10 +644,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 )
 ;
@@ -1949,10 +1947,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 }
@@ -1961,10 +1957,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 }
@@ -1999,7 +1993,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
 {
 altKey

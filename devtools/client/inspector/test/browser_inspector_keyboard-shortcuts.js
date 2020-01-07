@@ -92,7 +92,7 @@ TEST_DATA
 key
 :
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 selectedNode
 :
@@ -104,7 +104,7 @@ p
 key
 :
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 selectedNode
 :
@@ -116,7 +116,7 @@ body
 key
 :
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 selectedNode
 :
@@ -128,7 +128,7 @@ html
 key
 :
 "
-VK_RIGHT
+KEY_ArrowRight
 "
 selectedNode
 :
@@ -140,7 +140,7 @@ body
 key
 :
 "
-VK_RIGHT
+KEY_ArrowRight
 "
 selectedNode
 :
@@ -152,7 +152,7 @@ p
 key
 :
 "
-VK_RIGHT
+KEY_ArrowRight
 "
 selectedNode
 :
@@ -313,8 +313,6 @@ EventUtils
 synthesizeKey
 (
 key
-{
-}
 )
 ;
 yield

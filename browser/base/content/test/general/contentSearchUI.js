@@ -201,10 +201,6 @@ keyName
 arg
 .
 modifiers
-|
-|
-{
-}
 )
 ;
 let
@@ -829,10 +825,8 @@ content
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
-{
-}
 )
 ;
 content
@@ -840,10 +834,8 @@ content
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 ack

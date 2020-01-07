@@ -646,10 +646,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 )
 ;
@@ -680,10 +678,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F11
+KEY_F11
 "
-{
-}
 )
 )
 ;

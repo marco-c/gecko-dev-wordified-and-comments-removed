@@ -2513,10 +2513,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
-{
-}
 )
 "
 window1
@@ -2539,10 +2537,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
-{
-}
 )
 ;
 is
@@ -2580,10 +2576,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F6
+KEY_F6
 "
-{
-}
 )
 ;
 is

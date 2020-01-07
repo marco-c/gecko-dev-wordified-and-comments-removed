@@ -401,10 +401,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 }
@@ -415,10 +413,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
-{
-}
 )
 ;
 }

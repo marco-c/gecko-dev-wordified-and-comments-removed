@@ -1277,7 +1277,7 @@ aSucc
 synthesizeKey
 (
 "
-X
+x
 "
 {
 accelKey
@@ -1296,7 +1296,7 @@ aSucc
 synthesizeKey
 (
 "
-C
+c
 "
 {
 accelKey
@@ -1350,13 +1350,11 @@ aSucc
 )
 )
 ;
-synthesizeKey
+sendString
 (
 "
 Q
 "
-{
-}
 )
 ;
 }
@@ -1379,13 +1377,11 @@ aSucc
 )
 )
 ;
-synthesizeKey
+sendString
 (
 "
 Q
 "
-{
-}
 )
 ;
 }

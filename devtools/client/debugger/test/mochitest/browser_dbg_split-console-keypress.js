@@ -144,7 +144,7 @@ stepTests
 key
 :
 "
-VK_F11
+KEY_F11
 "
 keyRepeat
 :
@@ -157,7 +157,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 keyRepeat
 :
@@ -170,7 +170,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 keyRepeat
 :
@@ -183,7 +183,7 @@ caretLine
 key
 :
 "
-VK_F10
+KEY_F10
 "
 keyRepeat
 :
@@ -196,7 +196,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 keyRepeat
 :
@@ -209,7 +209,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 keyRepeat
 :
@@ -222,7 +222,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 modifier
 :
@@ -240,7 +240,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 modifier
 :
@@ -258,7 +258,7 @@ caretLine
 key
 :
 "
-VK_F11
+KEY_F11
 "
 modifier
 :
@@ -504,10 +504,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F8
+KEY_F8
 "
-{
-}
 )
 )
 ;

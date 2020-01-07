@@ -182,10 +182,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_PAGE_UP
+KEY_PageUp
 "
-{
-}
 )
 ;
 isnot
@@ -223,10 +221,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_PAGE_DOWN
+KEY_PageDown
 "
-{
-}
 )
 ;
 ok
@@ -254,10 +250,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_HOME
+KEY_Home
 "
-{
-}
 )
 ;
 is
@@ -284,10 +278,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_END
+KEY_End
 "
-{
-}
 )
 ;
 let
@@ -668,7 +660,7 @@ EventUtils
 synthesizeKey
 (
 "
-N
+n
 "
 {
 altKey

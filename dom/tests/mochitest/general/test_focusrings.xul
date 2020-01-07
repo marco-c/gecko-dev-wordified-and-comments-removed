@@ -986,10 +986,8 @@ focus
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 checkFocus

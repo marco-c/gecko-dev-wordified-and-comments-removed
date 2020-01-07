@@ -709,13 +709,11 @@ onCompletionValue
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 u
 "
-{
-}
 )
 ;
 return

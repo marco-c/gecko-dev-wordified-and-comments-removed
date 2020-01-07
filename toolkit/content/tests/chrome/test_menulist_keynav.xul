@@ -543,7 +543,7 @@ keyCheck
 (
 list
 "
-VK_DOWN
+KEY_ArrowDown
 "
 2
 1
@@ -557,7 +557,7 @@ keyCheck
 (
 list
 "
-VK_DOWN
+KEY_ArrowDown
 "
 3
 1
@@ -573,7 +573,7 @@ keyCheck
 (
 list
 "
-VK_UP
+KEY_ArrowUp
 "
 2
 1
@@ -589,7 +589,7 @@ keyCheck
 (
 list
 "
-VK_UP
+KEY_ArrowUp
 "
 1
 1
@@ -613,7 +613,7 @@ keyCheck
 (
 list
 "
-VK_UP
+KEY_ArrowUp
 "
 iswin
 ?
@@ -648,7 +648,7 @@ keyCheck
 (
 list
 "
-VK_DOWN
+KEY_ArrowDown
 "
 iswin
 ?
@@ -697,7 +697,7 @@ selection
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
 {
 altKey
@@ -728,7 +728,7 @@ selectedItem
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
 {
 altKey
@@ -809,13 +809,11 @@ gOpenPhase
 |
 iswin
 ;
-synthesizeKey
+sendString
 (
 "
 G
 "
-{
-}
 )
 ;
 is
@@ -1173,7 +1171,7 @@ focus
 synthesizeKeyExpectEvent
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 }
@@ -1191,7 +1189,7 @@ menulist
 synthesizeKeyExpectEvent
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 }
@@ -1494,10 +1492,8 @@ top
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 is
@@ -1725,10 +1721,8 @@ true
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 }
@@ -1796,7 +1790,7 @@ true
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
 {
 shiftKey
@@ -1945,10 +1939,8 @@ down
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 is
@@ -2008,10 +2000,8 @@ state
 synthesizeKey
 (
 "
-VK_PAGE_DOWN
+KEY_PageDown
 "
-{
-}
 )
 ;
 is
@@ -2097,10 +2087,8 @@ selectedItem
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
-{
-}
 )
 ;
 is
@@ -2155,10 +2143,8 @@ selectedItem
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 is
@@ -2197,7 +2183,7 @@ open
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
 {
 altKey

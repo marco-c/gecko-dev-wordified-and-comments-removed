@@ -906,8 +906,6 @@ currentTest
 ]
 .
 key
-{
-}
 )
 ;
 }
@@ -1087,9 +1085,9 @@ RTL
 and
 complete
 on
-VK_RIGHT
+KEY_ArrowRight
 or
-VK_LEFT
+KEY_ArrowLeft
 based
 on
 that
@@ -1143,10 +1141,8 @@ suggestion
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 is

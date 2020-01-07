@@ -6229,10 +6229,8 @@ closeCombobox_invoke
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 }
@@ -6474,10 +6472,8 @@ moveToPrevLineEnd_invoke
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
-{
-}
 )
 ;
 if
@@ -6487,7 +6483,7 @@ MAC
 synthesizeKey
 (
 "
-VK_RIGHT
+Key_ArrowRight
 "
 {
 metaKey
@@ -6500,10 +6496,8 @@ else
 synthesizeKey
 (
 "
-VK_END
+KEY_End
 "
-{
-}
 )
 ;
 }

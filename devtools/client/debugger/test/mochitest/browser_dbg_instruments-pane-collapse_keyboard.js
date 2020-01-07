@@ -109,7 +109,7 @@ expand
 "
 panel
 "
-VK_RETURN
+KEY_Enter
 "
 )
 ;
@@ -155,7 +155,6 @@ collapse
 "
 panel
 "
-VK_SPACE
 "
 )
 ;
@@ -198,7 +197,7 @@ togglePane
 button
 message
 pane
-keycode
+key
 )
 {
 let
@@ -227,9 +226,7 @@ EventUtils
 .
 synthesizeKey
 (
-keycode
-{
-}
+key
 )
 ;
 await
