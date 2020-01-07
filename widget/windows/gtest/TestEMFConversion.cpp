@@ -636,13 +636,6 @@ pdfiumPath
 )
 )
 ;
-const
-NS_ConvertUTF16toUTF8
-externalDll
-(
-pdfiumPath
-)
-;
 mPDFiumEngine
 =
 PDFiumEngineShim
@@ -650,7 +643,7 @@ PDFiumEngineShim
 :
 GetInstanceOrNull
 (
-externalDll
+pdfiumPath
 )
 ;
 MOZ_RELEASE_ASSERT
