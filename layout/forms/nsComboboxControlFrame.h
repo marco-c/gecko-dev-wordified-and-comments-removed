@@ -798,6 +798,12 @@ ReflowInput
 aReflowInput
 )
 ;
+bool
+HasDropDownButton
+(
+)
+const
+;
 enum
 DropDownPositionState
 {
