@@ -30,7 +30,7 @@ class
 Text
 :
 public
-nsGenericDOMDataNode
+CharacterData
 {
 public
 :
@@ -51,7 +51,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsGenericDOMDataNode
+CharacterData
 (
 aNodeInfo
 )
@@ -75,7 +75,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsGenericDOMDataNode
+CharacterData
 (
 aNodeInfo
 )

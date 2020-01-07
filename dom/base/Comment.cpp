@@ -62,7 +62,7 @@ Comment
 NS_IMPL_ISUPPORTS_INHERITED
 (
 Comment
-nsGenericDOMDataNode
+CharacterData
 nsIDOMNode
 nsIDOMCharacterData
 )
@@ -91,7 +91,7 @@ eDATA_NODE
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 *
 Comment
 :

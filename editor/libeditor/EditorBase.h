@@ -1571,7 +1571,10 @@ aLength
 nsresult
 DeleteText
 (
-nsGenericDOMDataNode
+dom
+:
+:
+CharacterData
 &
 aElement
 uint32_t

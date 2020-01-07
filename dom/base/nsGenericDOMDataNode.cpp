@@ -213,27 +213,19 @@ nsWrapperCacheInlines
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
-nsGenericDOMDataNode
+{
+CharacterData
 :
 :
-nsGenericDOMDataNode
+CharacterData
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -312,16 +304,13 @@ aNodeInfo
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 :
 :
-nsGenericDOMDataNode
+CharacterData
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -401,11 +390,11 @@ aNodeInfo
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 :
 :
 ~
-nsGenericDOMDataNode
+CharacterData
 (
 )
 {
@@ -442,15 +431,15 @@ mParent
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsGenericDOMDataNode
+CharacterData
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
-nsGenericDOMDataNode
+CharacterData
 )
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_BEGIN
 (
-nsGenericDOMDataNode
+CharacterData
 )
 return
 Element
@@ -465,7 +454,7 @@ aRemovingAllowed
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_BEGIN
 (
-nsGenericDOMDataNode
+CharacterData
 )
 return
 Element
@@ -479,7 +468,7 @@ tmp
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_THIS_BEGIN
 (
-nsGenericDOMDataNode
+CharacterData
 )
 return
 Element
@@ -493,7 +482,7 @@ tmp
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_THIS_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INTERNAL
 (
-nsGenericDOMDataNode
+CharacterData
 )
 if
 (
@@ -517,7 +506,7 @@ SprintfLiteral
 (
 name
 "
-nsGenericDOMDataNode
+CharacterData
 (
 len
 =
@@ -555,7 +544,7 @@ else
 {
 NS_IMPL_CYCLE_COLLECTION_DESCRIBE
 (
-nsGenericDOMDataNode
+CharacterData
 tmp
 -
 >
@@ -586,7 +575,7 @@ NS_SUCCESS_INTERRUPTED_TRAVERSE
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsGenericDOMDataNode
+CharacterData
 )
 nsIContent
 :
@@ -631,12 +620,12 @@ Unlink
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN
 (
-nsGenericDOMDataNode
+CharacterData
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRIES_CYCLE_COLLECTION
 (
-nsGenericDOMDataNode
+CharacterData
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -677,11 +666,11 @@ nsIContent
 NS_INTERFACE_MAP_END
 NS_IMPL_MAIN_THREAD_ONLY_CYCLE_COLLECTING_ADDREF
 (
-nsGenericDOMDataNode
+CharacterData
 )
 NS_IMPL_MAIN_THREAD_ONLY_CYCLE_COLLECTING_RELEASE_WITH_LAST_RELEASE
 (
-nsGenericDOMDataNode
+CharacterData
 nsNodeUtils
 :
 :
@@ -691,7 +680,7 @@ this
 )
 )
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetNodeValueInternal
@@ -729,7 +718,7 @@ failed
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetNodeValueInternal
@@ -768,7 +757,7 @@ true
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetData
@@ -852,7 +841,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetData
@@ -887,7 +876,7 @@ true
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetLength
@@ -911,7 +900,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SubstringData
@@ -945,7 +934,7 @@ StealNSResult
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SubstringData
@@ -1069,7 +1058,7 @@ aReturn
 }
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 AppendData
@@ -1104,7 +1093,7 @@ true
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 InsertData
@@ -1137,7 +1126,7 @@ true
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 DeleteData
@@ -1160,7 +1149,7 @@ true
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 ReplaceData
@@ -1195,7 +1184,7 @@ true
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetTextInternal
@@ -1806,7 +1795,7 @@ NS_OK
 ifdef
 DEBUG
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 ToCString
@@ -2166,7 +2155,7 @@ ch
 #
 endif
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 BindToTree
@@ -2769,7 +2758,7 @@ NS_OK
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 UnbindFromTree
@@ -2980,7 +2969,7 @@ already_AddRefed
 <
 nsINodeList
 >
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetChildren
@@ -2994,7 +2983,7 @@ nullptr
 ;
 }
 uint32_t
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetChildCount
@@ -3008,7 +2997,7 @@ return
 }
 nsIContent
 *
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetChildAt_Deprecated
@@ -3023,7 +3012,7 @@ nullptr
 ;
 }
 int32_t
-nsGenericDOMDataNode
+CharacterData
 :
 :
 ComputeIndexOf
@@ -3041,7 +3030,7 @@ return
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 InsertChildBefore
@@ -3061,7 +3050,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 InsertChildAt_Deprecated
@@ -3080,7 +3069,7 @@ NS_OK
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 RemoveChildAt_Deprecated
@@ -3093,7 +3082,7 @@ aNotify
 {
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 RemoveChildNode
@@ -3108,7 +3097,7 @@ aNotify
 }
 nsXBLBinding
 *
-nsGenericDOMDataNode
+CharacterData
 :
 :
 DoGetXBLBinding
@@ -3121,7 +3110,7 @@ nullptr
 ;
 }
 bool
-nsGenericDOMDataNode
+CharacterData
 :
 :
 IsNodeOfType
@@ -3142,7 +3131,7 @@ eDATA_NODE
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SaveSubtreeState
@@ -3154,7 +3143,7 @@ SaveSubtreeState
 ifdef
 DEBUG
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 List
@@ -3169,7 +3158,7 @@ const
 {
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 DumpContent
@@ -3188,7 +3177,7 @@ const
 #
 endif
 bool
-nsGenericDOMDataNode
+CharacterData
 :
 :
 IsLink
@@ -3212,7 +3201,7 @@ false
 const
 nsTextFragment
 *
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetText
@@ -3225,7 +3214,7 @@ mText
 ;
 }
 uint32_t
-nsGenericDOMDataNode
+CharacterData
 :
 :
 TextLength
@@ -3240,7 +3229,7 @@ TextDataLength
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetText
@@ -3271,7 +3260,7 @@ aNotify
 ;
 }
 nsresult
-nsGenericDOMDataNode
+CharacterData
 :
 :
 AppendText
@@ -3302,7 +3291,7 @@ aNotify
 ;
 }
 bool
-nsGenericDOMDataNode
+CharacterData
 :
 :
 TextIsOnlyWhitespace
@@ -3350,7 +3339,7 @@ true
 ;
 }
 bool
-nsGenericDOMDataNode
+CharacterData
 :
 :
 ThreadSafeTextIsOnlyWhitespace
@@ -3449,7 +3438,7 @@ true
 ;
 }
 bool
-nsGenericDOMDataNode
+CharacterData
 :
 :
 HasTextForTranslation
@@ -3638,7 +3627,7 @@ false
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 AppendTextTo
@@ -3657,7 +3646,7 @@ aResult
 ;
 }
 bool
-nsGenericDOMDataNode
+CharacterData
 :
 :
 AppendTextTo
@@ -3688,7 +3677,7 @@ already_AddRefed
 <
 nsAtom
 >
-nsGenericDOMDataNode
+CharacterData
 :
 :
 GetCurrentValueAtom
@@ -3711,7 +3700,7 @@ val
 ;
 }
 void
-nsGenericDOMDataNode
+CharacterData
 :
 :
 AddSizeOfExcludingThis
@@ -3749,4 +3738,6 @@ mState
 mMallocSizeOf
 )
 ;
+}
+}
 }

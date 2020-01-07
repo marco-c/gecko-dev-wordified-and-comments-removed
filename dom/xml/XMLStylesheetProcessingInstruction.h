@@ -232,7 +232,7 @@ rv
 )
 override
 {
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetData
@@ -266,6 +266,12 @@ ProcessingInstruction
 :
 :
 SetData
+;
+using
+ProcessingInstruction
+:
+:
+GetData
 ;
 protected
 :
@@ -315,7 +321,7 @@ aIsAlternate
 )
 final
 ;
-nsGenericDOMDataNode
+CharacterData
 *
 CloneDataNode
 (

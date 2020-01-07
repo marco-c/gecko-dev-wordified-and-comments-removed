@@ -674,7 +674,7 @@ InspectorUtils
 :
 IsIgnorableWhitespace
 (
-nsGenericDOMDataNode
+CharacterData
 &
 aDataNode
 )

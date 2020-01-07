@@ -37187,7 +37187,7 @@ nsCSSFrameConstructor
 :
 EnsureFrameForTextNodeIsCreatedAfterFlush
 (
-nsGenericDOMDataNode
+CharacterData
 *
 aContent
 )

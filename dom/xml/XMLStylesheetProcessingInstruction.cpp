@@ -256,7 +256,7 @@ ErrorResult
 aError
 )
 {
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetNodeValueInternal
@@ -657,7 +657,7 @@ css
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 *
 XMLStylesheetProcessingInstruction
 :
@@ -681,9 +681,6 @@ const
 nsAutoString
 data
 ;
-nsGenericDOMDataNode
-:
-:
 GetData
 (
 data

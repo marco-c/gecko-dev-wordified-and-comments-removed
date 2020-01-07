@@ -122,7 +122,7 @@ UPDATE_CONTENT_MODEL
 true
 )
 ;
-nsGenericDOMDataNode
+CharacterData
 *
 clone
 =

@@ -212,7 +212,7 @@ override
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 virtual
-nsGenericDOMDataNode
+CharacterData
 *
 CloneDataNode
 (
@@ -360,7 +360,7 @@ nsTextNode
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 nsTextNode
-nsGenericDOMDataNode
+CharacterData
 nsIDOMNode
 nsIDOMCharacterData
 )
@@ -422,7 +422,7 @@ eDATA_NODE
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 *
 nsTextNode
 :
@@ -575,7 +575,7 @@ aCompileEventHandlers
 nsresult
 rv
 =
-nsGenericDOMDataNode
+CharacterData
 :
 :
 BindToTree
@@ -618,7 +618,7 @@ ResetDirectionSetByTextNode
 this
 )
 ;
-nsGenericDOMDataNode
+CharacterData
 :
 :
 UnbindFromTree

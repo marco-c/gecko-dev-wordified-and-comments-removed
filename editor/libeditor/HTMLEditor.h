@@ -1185,7 +1185,10 @@ override
 nsresult
 DeleteText
 (
-nsGenericDOMDataNode
+dom
+:
+:
+CharacterData
 &
 aTextNode
 uint32_t

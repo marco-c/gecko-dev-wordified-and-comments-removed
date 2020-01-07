@@ -5050,7 +5050,10 @@ data
 =
 static_cast
 <
-nsGenericDOMDataNode
+dom
+:
+:
+CharacterData
 *
 >
 (

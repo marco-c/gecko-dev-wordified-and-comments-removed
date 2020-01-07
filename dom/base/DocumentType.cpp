@@ -247,7 +247,7 @@ nsAString
 aInternalSubset
 )
 :
-nsGenericDOMDataNode
+CharacterData
 (
 aNodeInfo
 )
@@ -296,7 +296,7 @@ DocumentType
 NS_IMPL_ISUPPORTS_INHERITED
 (
 DocumentType
-nsGenericDOMDataNode
+CharacterData
 nsIDOMNode
 )
 bool
@@ -398,7 +398,7 @@ aInternalSubset
 mInternalSubset
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 *
 DocumentType
 :

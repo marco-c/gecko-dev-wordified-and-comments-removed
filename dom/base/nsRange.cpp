@@ -14359,7 +14359,7 @@ EnsureFrameForTextNodeIsCreatedAfterFlush
 (
 static_cast
 <
-nsGenericDOMDataNode
+CharacterData
 *
 >
 (
@@ -16972,7 +16972,7 @@ textNode
 =
 static_cast
 <
-nsGenericDOMDataNode
+CharacterData
 *
 >
 (
