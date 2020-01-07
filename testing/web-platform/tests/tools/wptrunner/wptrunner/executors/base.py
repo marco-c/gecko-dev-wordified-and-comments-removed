@@ -608,6 +608,10 @@ supports_testdriver
 =
 False
     
+supports_jsshell
+=
+False
+    
 def
 __init__
 (

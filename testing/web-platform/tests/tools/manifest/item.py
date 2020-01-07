@@ -603,6 +603,9 @@ None
 testdriver
 =
 False
+jsshell
+=
+False
 manifest
 =
 None
@@ -635,6 +638,12 @@ self
 testdriver
 =
 testdriver
+        
+self
+.
+jsshell
+=
+jsshell
     
 def
 meta_key
@@ -714,6 +723,25 @@ self
 .
 testdriver
         
+if
+self
+.
+jsshell
+:
+            
+rv
+[
+-
+1
+]
+[
+"
+jsshell
+"
+]
+=
+True
+        
 return
 rv
     
@@ -782,6 +810,20 @@ get
 (
 "
 testdriver
+"
+)
+)
+                   
+jsshell
+=
+bool
+(
+extras
+.
+get
+(
+"
+jsshell
 "
 )
 )

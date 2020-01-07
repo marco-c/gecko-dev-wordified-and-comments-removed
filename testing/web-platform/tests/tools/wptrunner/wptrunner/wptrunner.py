@@ -1560,6 +1560,19 @@ SKIP
 "
 )
                             
+elif
+test
+.
+jsshell
+and
+not
+executor_cls
+.
+supports_jsshell
+:
+                                
+pass
+                            
 else
 :
                                 

@@ -1543,6 +1543,10 @@ http
 testdriver
 =
 False
+                 
+jsshell
+=
+False
 )
 :
         
@@ -1566,6 +1570,12 @@ self
 testdriver
 =
 testdriver
+        
+self
+.
+jsshell
+=
+jsshell
     
 classmethod
     
@@ -1636,6 +1646,22 @@ testdriver
 else
 False
         
+jsshell
+=
+manifest_item
+.
+jsshell
+if
+hasattr
+(
+manifest_item
+"
+jsshell
+"
+)
+else
+False
+        
 return
 cls
 (
@@ -1672,6 +1698,10 @@ protocol
 testdriver
 =
 testdriver
+                   
+jsshell
+=
+jsshell
 )
     
 property
