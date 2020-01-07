@@ -14,6 +14,10 @@ nsGridRowLeafFrame
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewListItemFrame

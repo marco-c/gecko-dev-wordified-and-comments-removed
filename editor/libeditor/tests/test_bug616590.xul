@@ -639,8 +639,6 @@ docShell
 =
 editorElement
 .
-boxObject
-.
 docShell
 ;
 progress

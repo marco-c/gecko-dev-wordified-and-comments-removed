@@ -247,11 +247,6 @@ BoxObject
 h
 '
 '
-ContainerBoxObject
-.
-h
-'
-'
 ListBoxObject
 .
 h
@@ -369,11 +364,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-ContainerBoxObject
-.
-cpp
-'
 '
 ListBoxObject
 .

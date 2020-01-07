@@ -2807,6 +2807,9 @@ false
 uint16_t
 inputSource
 =
+dom
+:
+:
 MouseEventBinding
 :
 :

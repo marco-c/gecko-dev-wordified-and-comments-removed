@@ -361,6 +361,9 @@ false
 ;
 RefPtr
 <
+dom
+:
+:
 EventTarget
 >
 topWindowEventTarget
