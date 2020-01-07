@@ -130,6 +130,8 @@ level
 b
 -
 linux
+-
+large
 worker
 :
 max
@@ -282,6 +284,8 @@ level
 b
 -
 linux
+-
+large
 worker
 :
 max
@@ -430,6 +434,8 @@ level
 b
 -
 linux
+-
+xlarge
 worker
 :
 max
@@ -588,6 +594,8 @@ level
 b
 -
 linux
+-
+xlarge
 worker
 :
 max
@@ -970,6 +978,8 @@ level
 b
 -
 linux
+-
+large
 worker
 :
 max
