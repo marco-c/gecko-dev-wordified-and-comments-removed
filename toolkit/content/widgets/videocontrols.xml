@@ -7917,6 +7917,11 @@ opacity
 options
 :
 {
+easing
+:
+"
+ease
+"
 duration
 :
 400
@@ -7942,6 +7947,11 @@ opacity
 options
 :
 {
+easing
+:
+"
+ease
+"
 duration
 :
 200
