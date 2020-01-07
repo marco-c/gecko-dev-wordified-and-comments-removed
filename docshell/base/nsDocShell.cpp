@@ -40776,6 +40776,12 @@ aLoadType
 =
 =
 LOAD_LINK
+|
+|
+aLoadType
+=
+=
+LOAD_NORMAL_REPLACE
 )
 ;
 MOZ_ASSERT
