@@ -537,6 +537,10 @@ time_label_day
 "
 :
 "
+{
+number
+}
+d
 "
 "
 settings_pane_button_label

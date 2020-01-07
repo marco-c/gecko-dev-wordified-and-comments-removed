@@ -512,6 +512,7 @@ settings_pane_done_button
 "
 :
 "
+Done
 "
 "
 settings_pane_topstories_options_sponsored
