@@ -135,11 +135,6 @@ Keyframe
 aKeyframes
 )
 ;
-template
-<
-typename
-StyleType
->
 static
 nsTArray
 <
@@ -160,9 +155,10 @@ dom
 Element
 *
 aElement
-StyleType
+const
+ComputedStyle
 *
-aStyleType
+aStyle
 dom
 :
 :
