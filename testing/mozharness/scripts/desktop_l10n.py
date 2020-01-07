@@ -713,16 +713,6 @@ BuildID
 "
                 
 "
-application_ini
-"
-:
-"
-application
-.
-ini
-"
-                
-"
 log_name
 "
 :

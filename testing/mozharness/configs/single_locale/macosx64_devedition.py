@@ -143,20 +143,6 @@ default
 "
     
 "
-application_ini
-"
-:
-"
-Contents
-/
-Resources
-/
-application
-.
-ini
-"
-    
-"
 local_mar_tool_dir
 "
 :
