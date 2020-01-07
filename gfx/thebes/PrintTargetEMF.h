@@ -184,6 +184,17 @@ Shmem
 aEMF
 )
 ;
+bool
+IsSyncPagePrinting
+(
+)
+const
+final
+{
+return
+false
+;
+}
 private
 :
 PrintTargetEMF
