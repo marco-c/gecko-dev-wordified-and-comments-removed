@@ -526,7 +526,7 @@ ensureErrorThrownWithInvalidTypeArgument
 const
 expectedError
 =
-"
+/
 Please
 provide
 valid
@@ -534,9 +534,12 @@ items
 and
 sortedItems
 arrays
+\
 .
-"
+/
 ;
+Assert
+.
 throws
 (
 (
@@ -549,6 +552,8 @@ findMostRelevantIndex
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
@@ -563,6 +568,8 @@ findMostRelevantIndex
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
@@ -578,6 +585,8 @@ null
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
@@ -595,6 +604,8 @@ string
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
