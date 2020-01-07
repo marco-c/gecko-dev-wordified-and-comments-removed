@@ -47,6 +47,7 @@ structs
 {
 Loader
 ServoStyleSheet
+SheetLoadData
 LoaderReusableStyleSheets
 }
 ;
@@ -148,6 +149,9 @@ mut
 ServoStyleSheet
 *
 mut
+SheetLoadData
+*
+mut
 LoaderReusableStyleSheets
 )
 ;
@@ -168,6 +172,11 @@ parent
 *
 mut
 ServoStyleSheet
+parent_load_data
+:
+*
+mut
+SheetLoadData
 reusable_sheets
 :
 *
@@ -182,6 +191,7 @@ StylesheetLoader
 (
 loader
 parent
+parent_load_data
 reusable_sheets
 )
 }
@@ -269,6 +279,9 @@ self
 self
 .
 2
+self
+.
+3
 base_url_data
 spec_bytes
 spec_len

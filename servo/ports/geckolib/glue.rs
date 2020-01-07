@@ -1075,6 +1075,7 @@ structs
 :
 {
 ServoStyleSheet
+SheetLoadData
 SheetParsingMode
 nsAtom
 nsCSSPropertyID
@@ -6954,6 +6955,11 @@ stylesheet
 *
 mut
 ServoStyleSheet
+load_data
+:
+*
+mut
+SheetLoadData
 data
 :
 *
@@ -7123,6 +7129,7 @@ new
 (
 loader
 stylesheet
+load_data
 reusable_sheets
 )
 )
@@ -9692,6 +9699,12 @@ new
 (
 loader
 gecko_stylesheet
+ptr
+:
+:
+null_mut
+(
+)
 ptr
 :
 :
