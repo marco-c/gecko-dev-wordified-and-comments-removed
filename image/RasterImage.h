@@ -852,8 +852,11 @@ mWantFullDecode
 TimeStamp
 mDrawStartTime
 ;
-bool
-CanDownscaleDuringDecode
+gfx
+:
+:
+IntSize
+GetDownscaleDecodeSize
 (
 const
 nsIntSize
