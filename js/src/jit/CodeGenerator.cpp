@@ -11608,7 +11608,7 @@ getAllocKind
 )
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -13421,7 +13421,7 @@ takeAny
 (
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -14191,7 +14191,7 @@ result
 =
 ReturnReg
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -51256,7 +51256,7 @@ JSContext
 cx
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx

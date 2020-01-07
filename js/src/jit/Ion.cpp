@@ -1306,7 +1306,7 @@ init
 return
 false
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 Label

@@ -2385,7 +2385,7 @@ CacheIRWriter
 &
 writer_
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 CacheRegisterAllocator

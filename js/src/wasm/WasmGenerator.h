@@ -547,7 +547,7 @@ masmAlloc_
 jit
 :
 :
-MacroAssembler
+WasmMacroAssembler
 masm_
 ;
 Uint32Vector

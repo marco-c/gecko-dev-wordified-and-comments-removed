@@ -1376,7 +1376,7 @@ test
 "
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -1864,7 +1864,7 @@ test
 "
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -3255,7 +3255,7 @@ test
 "
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -4817,7 +4817,7 @@ test
 "
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter

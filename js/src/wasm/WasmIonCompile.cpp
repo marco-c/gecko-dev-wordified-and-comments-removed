@@ -28496,15 +28496,9 @@ IsCompilingWasm
 )
 )
 ;
-MacroAssembler
+WasmMacroAssembler
 masm
 (
-MacroAssembler
-:
-:
-WasmToken
-(
-)
 alloc
 )
 ;

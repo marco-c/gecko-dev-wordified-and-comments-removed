@@ -4656,15 +4656,9 @@ tempAlloc
 lifo
 )
 ;
-MacroAssembler
+WasmMacroAssembler
 masm
 (
-MacroAssembler
-:
-:
-WasmToken
-(
-)
 tempAlloc
 )
 ;

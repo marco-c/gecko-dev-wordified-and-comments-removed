@@ -358,12 +358,6 @@ lifo_
 )
 masm_
 (
-MacroAssembler
-:
-:
-WasmToken
-(
-)
 masmAlloc_
 )
 oldTrapCodeOffsets_

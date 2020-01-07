@@ -3357,15 +3357,9 @@ jitContext
 alloc
 )
 ;
-MacroAssembler
+WasmMacroAssembler
 masm
 (
-MacroAssembler
-:
-:
-WasmToken
-(
-)
 alloc
 )
 ;

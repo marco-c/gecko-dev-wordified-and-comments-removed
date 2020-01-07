@@ -2730,7 +2730,7 @@ cx
 nullptr
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 #
@@ -14943,7 +14943,7 @@ cx
 nullptr
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 #

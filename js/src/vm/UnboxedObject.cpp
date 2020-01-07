@@ -404,7 +404,7 @@ cx
 nullptr
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 Register

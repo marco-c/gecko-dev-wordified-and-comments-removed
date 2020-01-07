@@ -3722,7 +3722,7 @@ JSContext
 cx
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx

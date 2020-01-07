@@ -819,7 +819,7 @@ private
 jit
 :
 :
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 RegExpShared
