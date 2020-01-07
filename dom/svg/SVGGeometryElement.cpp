@@ -533,11 +533,6 @@ builder
 if
 (
 cacheable
-&
-&
-NS_SVGPathCachingEnabled
-(
-)
 )
 {
 mCachedPath

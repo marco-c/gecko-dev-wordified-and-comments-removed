@@ -230,11 +230,6 @@ define
 SVG_HIT_TEST_CHECK_MRECT
 0x04
 bool
-NS_SVGPathCachingEnabled
-(
-)
-;
-bool
 NS_SVGDisplayListHitTestingEnabled
 (
 )
