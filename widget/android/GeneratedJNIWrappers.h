@@ -53301,7 +53301,7 @@ name
 ]
 =
 "
-close
+nativeClose
 "
 ;
 static
