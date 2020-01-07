@@ -9497,6 +9497,9 @@ mFillRule
 aFillRule
 ;
 }
+mozilla
+:
+:
 Position
 &
 GetPosition
@@ -9534,6 +9537,9 @@ mPosition
 ;
 }
 const
+mozilla
+:
+:
 Position
 &
 GetPosition
@@ -9799,6 +9805,9 @@ nsStyleCoord
 >
 mCoordinates
 ;
+mozilla
+:
+:
 Position
 mPosition
 ;
