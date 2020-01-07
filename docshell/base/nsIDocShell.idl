@@ -282,9 +282,6 @@ interface
 nsIContentViewer
 ;
 interface
-nsIDOMEventTarget
-;
-interface
 nsIDocShellLoadInfo
 ;
 interface
@@ -355,6 +352,9 @@ already_AddRefed
 nsITabChild
 >
 )
+;
+webidl
+EventTarget
 ;
 [
 scriptable
@@ -1974,7 +1974,7 @@ chrome
 *
 /
 attribute
-nsIDOMEventTarget
+EventTarget
 chromeEventHandler
 ;
 /

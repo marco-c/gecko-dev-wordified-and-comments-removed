@@ -66,8 +66,8 @@ idl
 interface
 nsIDOMWindow
 ;
-interface
-nsIDOMEventTarget
+webidl
+EventTarget
 ;
 [
 scriptable
@@ -153,7 +153,7 @@ void
 handleSlowScriptDebug
 (
 in
-nsIDOMEventTarget
+EventTarget
 aBrowser
 in
 nsISlowScriptDebuggerStartupCallback

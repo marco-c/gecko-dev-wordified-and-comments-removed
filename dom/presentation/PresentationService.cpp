@@ -445,7 +445,7 @@ nsAString
 aOrigin
 uint64_t
 aWindowId
-nsIDOMEventTarget
+EventTarget
 *
 aEventTarget
 nsIPrincipal
@@ -554,7 +554,7 @@ nsAString
 aOrigin
 uint64_t
 aWindowId
-nsIDOMEventTarget
+EventTarget
 *
 aEventTarget
 nsIPrincipal
@@ -690,15 +690,15 @@ PresentationDeviceRequest
 :
 GetChromeEventHandler
 (
-nsIDOMEventTarget
+EventTarget
 *
 *
 aChromeEventHandler
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 handler
 (
@@ -3088,7 +3088,7 @@ nsAString
 aDeviceId
 uint64_t
 aWindowId
-nsIDOMEventTarget
+EventTarget
 *
 aEventTarget
 nsIPrincipal

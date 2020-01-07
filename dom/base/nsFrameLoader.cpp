@@ -8833,9 +8833,9 @@ false
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 chromeEventHandler
 ;
@@ -8852,10 +8852,7 @@ typeChrome
 {
 chromeEventHandler
 =
-do_QueryInterface
-(
 mOwnerContent
-)
 ;
 NS_ASSERTION
 (

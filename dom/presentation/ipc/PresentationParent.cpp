@@ -1728,9 +1728,9 @@ sessionId
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 eventTarget
 ;
@@ -1771,14 +1771,11 @@ tp
 {
 eventTarget
 =
-do_QueryInterface
-(
 tp
 -
 >
 GetOwnerElement
 (
-)
 )
 ;
 }

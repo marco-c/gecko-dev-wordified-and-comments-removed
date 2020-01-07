@@ -67,9 +67,6 @@ interface
 nsIDOMBlob
 ;
 interface
-nsIDOMEventTarget
-;
-interface
 nsIInputStream
 ;
 interface
@@ -86,6 +83,9 @@ nsIPresentationTransportBuilderConstructor
 ;
 interface
 nsIPrincipal
+;
+webidl
+EventTarget
 ;
 %
 {
@@ -549,7 +549,7 @@ long
 long
 windowId
 in
-nsIDOMEventTarget
+EventTarget
 eventTarget
 in
 nsIPrincipal

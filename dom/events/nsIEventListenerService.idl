@@ -100,8 +100,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMEventTarget
+webidl
+EventTarget
 ;
 interface
 nsIArray
@@ -150,7 +150,7 @@ nsISupports
 {
 readonly
 attribute
-nsIDOMEventTarget
+EventTarget
 target
 ;
 [
@@ -411,7 +411,7 @@ void
 getListenerInfoFor
 (
 in
-nsIDOMEventTarget
+EventTarget
 aEventTarget
 [
 optional
@@ -502,7 +502,7 @@ void
 getEventTargetChainFor
 (
 in
-nsIDOMEventTarget
+EventTarget
 aEventTarget
 in
 boolean
@@ -523,7 +523,7 @@ aCount
 )
 ]
 out
-nsIDOMEventTarget
+EventTarget
 aOutArray
 )
 ;
@@ -551,7 +551,7 @@ boolean
 hasListenersFor
 (
 in
-nsIDOMEventTarget
+EventTarget
 aEventTarget
 in
 DOMString
@@ -582,7 +582,7 @@ void
 addSystemEventListener
 (
 in
-nsIDOMEventTarget
+EventTarget
 target
 in
 DOMString
@@ -619,7 +619,7 @@ void
 removeSystemEventListener
 (
 in
-nsIDOMEventTarget
+EventTarget
 target
 in
 DOMString
@@ -639,7 +639,7 @@ void
 addListenerForAllEvents
 (
 in
-nsIDOMEventTarget
+EventTarget
 target
 in
 jsval
@@ -671,7 +671,7 @@ void
 removeListenerForAllEvents
 (
 in
-nsIDOMEventTarget
+EventTarget
 target
 in
 jsval

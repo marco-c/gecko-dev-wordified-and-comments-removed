@@ -192,9 +192,6 @@ interface
 nsIDOMEvent
 ;
 interface
-nsIDOMEventTarget
-;
-interface
 nsIDOMEventListener
 ;
 /

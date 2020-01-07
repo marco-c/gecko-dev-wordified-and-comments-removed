@@ -98,9 +98,6 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMEventTarget
-;
 [
 ptr
 ]
@@ -239,6 +236,9 @@ namespace
 mozilla
 %
 }
+webidl
+EventTarget
+;
 /
 *
 *
@@ -1241,7 +1241,7 @@ void
 setTarget
 (
 in
-nsIDOMEventTarget
+EventTarget
 aTarget
 )
 ;
