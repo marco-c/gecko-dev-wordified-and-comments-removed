@@ -2890,6 +2890,8 @@ len
 SIMD_STRIDE_SIZE
 ;
 if
+offset
++
 SIMD_STRIDE_SIZE
 *
 2
