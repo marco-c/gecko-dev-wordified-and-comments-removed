@@ -3618,6 +3618,13 @@ defined
 (
 MOZ_TSAN
 )
+&
+&
+!
+defined
+(
+MOZ_ASAN
+)
 RESPATH
 /
 components

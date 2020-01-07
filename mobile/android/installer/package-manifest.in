@@ -2208,6 +2208,13 @@ defined
 (
 MOZ_TSAN
 )
+&
+&
+!
+defined
+(
+MOZ_ASAN
+)
 BINPATH
 /
 components
