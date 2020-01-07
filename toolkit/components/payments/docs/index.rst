@@ -304,7 +304,7 @@ wrapper
 XHTML
 document
 (
-paymentDialog
+paymentDialogWrapper
 .
 xhtml
 )

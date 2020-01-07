@@ -226,7 +226,7 @@ payments
 /
 content
 /
-paymentDialog
+paymentDialogWrapper
 .
 xhtml
 "

@@ -162,7 +162,7 @@ profileStorage
 )
 ;
 var
-PaymentDialog
+paymentDialogWrapper
 =
 {
 componentsLoaded
@@ -1233,7 +1233,7 @@ requestId
 "
 )
 ;
-PaymentDialog
+paymentDialogWrapper
 .
 init
 (
