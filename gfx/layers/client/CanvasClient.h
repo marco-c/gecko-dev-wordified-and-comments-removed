@@ -87,9 +87,6 @@ PersistentBufferProvider
 h
 "
 #
-undef
-None
-#
 include
 "
 mozilla
