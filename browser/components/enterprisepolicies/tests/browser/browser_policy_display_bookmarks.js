@@ -21,7 +21,7 @@ policies
 :
 {
 "
-display_bookmarks_toolbar
+DisplayBookmarksToolbar
 "
 :
 true

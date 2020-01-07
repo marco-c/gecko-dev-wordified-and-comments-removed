@@ -70,7 +70,7 @@ policies
 :
 {
 "
-dont_check_default_browser
+DontCheckDefaultBrowser
 "
 :
 true

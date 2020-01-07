@@ -261,7 +261,7 @@ true
 ]
 }
 "
-display_menu_bar
+DisplayMenuBar
 "
 :
 {
@@ -306,7 +306,7 @@ true
 ]
 }
 "
-display_bookmarks_toolbar
+DisplayBookmarksToolbar
 "
 :
 {
@@ -351,7 +351,7 @@ true
 ]
 }
 "
-block_set_desktop_background
+BlockSetDesktopBackground
 "
 :
 {
@@ -574,7 +574,7 @@ true
 ]
 }
 "
-dont_check_default_browser
+DontCheckDefaultBrowser
 "
 :
 {
@@ -620,7 +620,7 @@ true
 ]
 }
 "
-flash_plugin
+FlashPlugin
 "
 :
 {
@@ -659,7 +659,7 @@ properties
 :
 {
 "
-allow
+Allow
 "
 :
 {
@@ -685,7 +685,7 @@ origin
 }
 }
 "
-block
+Block
 "
 :
 {
@@ -713,7 +713,7 @@ origin
 }
 }
 "
-popups
+Popups
 "
 :
 {
@@ -751,7 +751,7 @@ properties
 :
 {
 "
-allow
+Allow
 "
 :
 {
@@ -777,7 +777,7 @@ origin
 }
 }
 "
-block
+Block
 "
 :
 {
@@ -854,7 +854,7 @@ boolean
 "
 }
 "
-install_addons
+InstallAddons
 "
 :
 {
@@ -895,7 +895,7 @@ properties
 :
 {
 "
-allow
+Allow
 "
 :
 {
@@ -921,7 +921,7 @@ origin
 }
 }
 "
-block
+Block
 "
 :
 {
@@ -949,7 +949,7 @@ origin
 }
 }
 "
-cookies
+Cookies
 "
 :
 {
@@ -989,7 +989,7 @@ properties
 :
 {
 "
-allow
+Allow
 "
 :
 {
@@ -1015,7 +1015,7 @@ origin
 }
 }
 "
-block
+Block
 "
 :
 {
