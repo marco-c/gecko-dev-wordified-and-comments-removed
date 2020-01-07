@@ -4958,7 +4958,7 @@ return
 dest
 -
 >
-WriteBytes
+AppendBytes
 (
 reinterpret_cast
 <
