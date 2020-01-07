@@ -2812,6 +2812,16 @@ label
 text
 )
 ;
+button
+.
+setAttribute
+(
+"
+tooltiptext
+"
+text
+)
+;
 const
 DEFAULT_EXTENSION_ICON
 =
