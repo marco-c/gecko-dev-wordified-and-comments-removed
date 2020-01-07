@@ -289,6 +289,13 @@ h
 #
 include
 "
+nsIGfxInfo
+.
+h
+"
+#
+include
+"
 nsThreadManager
 .
 h
