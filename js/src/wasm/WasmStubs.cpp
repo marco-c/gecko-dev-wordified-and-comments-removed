@@ -9411,6 +9411,12 @@ case
 Trap
 :
 :
+ImpreciseSimdConversion
+:
+case
+Trap
+:
+:
 StackOverflow
 :
 break
@@ -9438,12 +9444,6 @@ Trap
 :
 :
 IndirectCallBadSig
-:
-case
-Trap
-:
-:
-ImpreciseSimdConversion
 :
 case
 Trap
