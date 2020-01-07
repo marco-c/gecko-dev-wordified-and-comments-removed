@@ -19556,12 +19556,6 @@ ContentRemoved
 (
 mDocument
 aChild
--
->
-GetParent
-(
-)
-aChild
 )
 ;
 nsAutoCauseReflowNotifier
