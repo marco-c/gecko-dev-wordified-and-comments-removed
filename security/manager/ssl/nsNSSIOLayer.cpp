@@ -349,7 +349,7 @@ flags
 }
 static
 bool
-getTLSProviderFlagAltHandshake
+getTLSProviderFlagCompatMode
 (
 uint32_t
 flags
@@ -10710,7 +10710,7 @@ versionFlags
 }
 if
 (
-getTLSProviderFlagAltHandshake
+getTLSProviderFlagCompatMode
 (
 infoObject
 -
@@ -10737,7 +10737,8 @@ p
 nsSSLIOLayerSetOptions
 :
 Use
-AltHandshake
+Compatible
+Handshake
 \
 n
 "
@@ -10750,9 +10751,10 @@ if
 SECSuccess
 !
 =
-SSL_UseAltServerHelloType
+SSL_OptionSet
 (
 fd
+SSL_ENABLE_TLS13_COMPAT_MODE
 PR_TRUE
 )
 )
@@ -10772,8 +10774,9 @@ p
 ]
 nsSSLIOLayerSetOptions
 :
-Use
-AltHandshake
+Setting
+compat
+mode
 failed
 \
 n
