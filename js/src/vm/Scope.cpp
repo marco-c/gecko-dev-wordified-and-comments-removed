@@ -5656,21 +5656,6 @@ codeUint32
 data
 -
 >
-varStart
-)
-)
-;
-MOZ_TRY
-(
-xdr
--
->
-codeUint32
-(
-&
-data
--
->
 letStart
 )
 )
@@ -5707,15 +5692,6 @@ data
 length
 )
 {
-MOZ_ASSERT
-(
-!
-data
--
->
-varStart
-)
-;
 MOZ_ASSERT
 (
 !
@@ -8060,7 +8036,6 @@ init
 0
 0
 0
-0
 CanHaveEnvironmentSlots
 |
 flags
@@ -8090,7 +8065,6 @@ else
 {
 init
 (
-0
 0
 0
 0
@@ -8175,9 +8149,6 @@ data
 varStart
 data
 .
-varStart
-data
-.
 length
 data
 .
@@ -8223,7 +8194,6 @@ firstFrameSlot
 {
 init
 (
-0
 0
 0
 0
@@ -8277,9 +8247,6 @@ init
 0
 0
 0
-data
-.
-varStart
 data
 .
 letStart
@@ -8376,9 +8343,6 @@ init
 0
 data
 .
-varStart
-data
-.
 length
 data
 .
@@ -8415,9 +8379,6 @@ data
 {
 init
 (
-data
-.
-varStart
 data
 .
 varStart
@@ -8477,7 +8438,6 @@ init
 0
 0
 0
-0
 data
 .
 length
@@ -8518,7 +8478,6 @@ data
 {
 init
 (
-0
 0
 0
 0
