@@ -465,7 +465,9 @@ deletedURLTab
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -508,7 +510,9 @@ set
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -522,7 +526,9 @@ clickSelectsAll
 )
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -610,7 +616,9 @@ partialURLTab
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -668,7 +676,9 @@ set
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -682,7 +692,9 @@ clickSelectsAll
 )
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

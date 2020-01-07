@@ -1447,7 +1447,9 @@ Int
 "
 ;
 return
-gPrefService
+Services
+.
+prefs
 [
 "
 get
@@ -3898,7 +3900,9 @@ HSA__getMaxSnapshots
 )
 {
 return
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (

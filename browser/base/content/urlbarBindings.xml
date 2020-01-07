@@ -6445,7 +6445,9 @@ try
 {
 suffix
 =
-gPrefService
+Services
+.
+prefs
 .
 getCharPref
 (

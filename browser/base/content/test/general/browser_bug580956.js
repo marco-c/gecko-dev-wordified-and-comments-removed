@@ -44,7 +44,9 @@ waitForExplicitFinish
 (
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -58,7 +60,9 @@ max_tabs_undo
 0
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

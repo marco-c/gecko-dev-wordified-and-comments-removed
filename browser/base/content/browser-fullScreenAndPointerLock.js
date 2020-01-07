@@ -139,7 +139,9 @@ fullscreen
 let
 timeout
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -180,7 +182,9 @@ aOrigin
 let
 timeout
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -200,7 +204,9 @@ timeout
 let
 delay
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -2462,7 +2468,9 @@ _safeToCollapse
 if
 (
 !
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -2683,7 +2691,9 @@ setAttribute
 "
 checked
 "
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -2702,7 +2712,9 @@ setAutohide
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -2714,7 +2726,9 @@ fullscreen
 autohide
 "
 !
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -2901,7 +2915,9 @@ if
 aAnimate
 &
 &
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (

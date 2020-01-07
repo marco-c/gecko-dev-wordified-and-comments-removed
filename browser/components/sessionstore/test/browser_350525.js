@@ -392,7 +392,9 @@ window
 let
 max_tabs_undo
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -455,7 +457,9 @@ tab
 linkedBrowser
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -477,7 +481,9 @@ registerCleanupFunction
 )
 =
 >
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

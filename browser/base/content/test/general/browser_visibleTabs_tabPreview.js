@@ -6,7 +6,9 @@ test
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -186,7 +188,9 @@ tabTwo
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -199,7 +203,9 @@ previews
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

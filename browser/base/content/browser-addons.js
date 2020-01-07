@@ -1337,7 +1337,9 @@ null
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefIsLocked
 (
@@ -1406,7 +1408,9 @@ editPrefs
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (

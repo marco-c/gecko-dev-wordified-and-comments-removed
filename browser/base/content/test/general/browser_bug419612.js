@@ -139,7 +139,9 @@ tabs
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -204,7 +206,9 @@ tabs
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -217,7 +221,9 @@ updateBackgroundTabs
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

@@ -53,7 +53,9 @@ gBrowser
 .
 selectedTab
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -150,7 +152,9 @@ tab
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -163,7 +167,9 @@ closeWindowWithLastTab
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

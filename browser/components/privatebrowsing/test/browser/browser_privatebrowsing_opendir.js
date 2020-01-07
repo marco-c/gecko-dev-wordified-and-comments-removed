@@ -178,7 +178,9 @@ reset
 (
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -538,7 +540,9 @@ setupCleanSlate
 privateWindow
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setComplexValue
 (
@@ -589,7 +593,9 @@ setupCleanSlate
 privateWindow
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setComplexValue
 (

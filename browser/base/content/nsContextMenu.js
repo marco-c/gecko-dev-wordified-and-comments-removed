@@ -752,7 +752,9 @@ this
 .
 ellipsis
 =
-gPrefService
+Services
+.
+prefs
 .
 getComplexValue
 (
@@ -2808,7 +2810,9 @@ this
 inTabBrowser
 &
 &
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -7626,7 +7630,9 @@ true
 var
 timeToWait
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -8567,7 +8573,9 @@ try
 {
 locale
 =
-gPrefService
+Services
+.
+prefs
 .
 getComplexValue
 (
@@ -8644,7 +8652,9 @@ version
 var
 newWindowPref
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (

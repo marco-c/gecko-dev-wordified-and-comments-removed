@@ -458,7 +458,9 @@ then
 =
 >
 {
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -711,7 +713,9 @@ t
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

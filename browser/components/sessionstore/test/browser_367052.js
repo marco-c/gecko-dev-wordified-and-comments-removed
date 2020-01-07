@@ -13,7 +13,9 @@ function
 let
 max_tabs_undo
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -26,7 +28,9 @@ max_tabs_undo
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -48,7 +52,9 @@ registerCleanupFunction
 )
 =
 >
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

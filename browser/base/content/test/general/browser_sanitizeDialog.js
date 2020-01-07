@@ -5056,7 +5056,9 @@ aMsg
 {
 is
 (
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -5191,7 +5193,9 @@ aMsg
 {
 is
 (
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
