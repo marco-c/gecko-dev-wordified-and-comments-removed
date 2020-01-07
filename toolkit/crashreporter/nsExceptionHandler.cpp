@@ -2274,7 +2274,6 @@ size
 #
 ifndef
 XP_WIN
-static
 bool
 copy_file
 (
@@ -3863,7 +3862,6 @@ true
 }
 #
 endif
-static
 bool
 MinidumpCallback
 (
