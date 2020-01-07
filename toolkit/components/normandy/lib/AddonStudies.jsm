@@ -264,11 +264,6 @@ DB_OPTIONS
 version
 :
 1
-storage
-:
-"
-persistent
-"
 }
 ;
 const
