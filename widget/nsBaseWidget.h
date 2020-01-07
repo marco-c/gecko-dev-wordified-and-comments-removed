@@ -940,11 +940,13 @@ CompositorSession
 aSession
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
 CompositorVsyncDispatcher
-*
+>
 GetCompositorVsyncDispatcher
 (
 )
