@@ -11790,13 +11790,6 @@ sweepSavedStacks
 c
 -
 >
-sweepTemplateLiteralMap
-(
-)
-;
-c
--
->
 sweepVarNames
 (
 )
@@ -25819,13 +25812,6 @@ c
 -
 >
 sweepSavedStacks
-(
-)
-;
-c
--
->
-sweepTemplateLiteralMap
 (
 )
 ;
