@@ -514,13 +514,6 @@ type
 "
 boolean
 "
-"
-enum
-"
-:
-[
-false
-]
 }
 "
 DisableAppUpdate
@@ -805,13 +798,6 @@ type
 "
 boolean
 "
-"
-enum
-"
-:
-[
-true
-]
 }
 "
 DisableSysAddonUpdate
