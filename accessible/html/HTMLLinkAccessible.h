@@ -116,6 +116,7 @@ bool
 IsLink
 (
 )
+const
 override
 ;
 virtual

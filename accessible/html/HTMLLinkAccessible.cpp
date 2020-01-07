@@ -433,6 +433,7 @@ HTMLLinkAccessible
 IsLink
 (
 )
+const
 {
 return
 true

@@ -880,6 +880,7 @@ XULLinkAccessible
 IsLink
 (
 )
+const
 {
 return
 true

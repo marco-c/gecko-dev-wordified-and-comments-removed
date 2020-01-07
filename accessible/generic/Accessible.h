@@ -2110,6 +2110,7 @@ bool
 IsLink
 (
 )
+const
 ;
 virtual
 uint32_t

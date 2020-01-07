@@ -11845,6 +11845,7 @@ Accessible
 IsLink
 (
 )
+const
 {
 return
 mParent
