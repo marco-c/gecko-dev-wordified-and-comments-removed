@@ -1678,7 +1678,7 @@ let
 newCredentials
 =
 {
-deviceId
+device
 :
 null
 }

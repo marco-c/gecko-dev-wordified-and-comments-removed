@@ -1258,10 +1258,7 @@ oauthTokens
 profile
 "
 "
-deviceId
-"
-"
-deviceRegistrationVersion
+device
 "
 "
 profileCache
@@ -1330,10 +1327,7 @@ uid
 profile
 "
 "
-deviceId
-"
-"
-deviceRegistrationVersion
+device
 "
 "
 verified
