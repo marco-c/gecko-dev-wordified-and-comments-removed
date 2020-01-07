@@ -59,7 +59,7 @@ const
 ;
 virtual
 void
-lineNumAndColumnIndex
+lineAndColumnAt
 (
 size_t
 offset
@@ -75,9 +75,15 @@ const
 0
 ;
 virtual
-size_t
-offset
+void
+currentLineAndColumn
 (
+uint32_t
+*
+line
+uint32_t
+*
+column
 )
 const
 =
