@@ -917,7 +917,7 @@ GLAPIENTRY
 fGetUniformLocation
 )
 (
-GLint
+GLuint
 const
 GLchar
 *
