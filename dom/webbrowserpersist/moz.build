@@ -130,11 +130,6 @@ nsIWebBrowserPersist
 idl
 '
 '
-nsIWebBrowserPersistable
-.
-idl
-'
-'
 nsIWebBrowserPersistDocument
 .
 idl

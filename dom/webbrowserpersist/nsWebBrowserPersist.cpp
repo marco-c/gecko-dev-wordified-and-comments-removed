@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIWebBrowserPersistable
-.
-h
-"
-#
-include
-"
 nsWebBrowserPersist
 .
 h

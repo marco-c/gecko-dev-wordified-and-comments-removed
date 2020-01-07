@@ -132,13 +132,6 @@ nsIFrameLoaderOwner
 )
 .
 frameLoader
-.
-QueryInterface
-(
-Ci
-.
-nsIWebBrowserPersistable
-)
 ;
 persistable
 .
