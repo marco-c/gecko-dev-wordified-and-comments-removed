@@ -441,6 +441,8 @@ NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CertificateTransparencyMode
 ctMode
+DistrustedCAPolicy
+distrustedCAPolicy
 )
 :
 mOCSPDownloadConfig
@@ -492,6 +494,10 @@ netscapeStepUpPolicy
 mCTMode
 (
 ctMode
+)
+mDistrustedCAPolicy
+(
+distrustedCAPolicy
 )
 {
 LoadKnownCTLogs
@@ -2668,6 +2674,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+mDistrustedCAPolicy
 originAttributes
 builtChain
 nullptr
@@ -2911,6 +2918,7 @@ sha1ModeConfigurations
 i
 ]
 mNetscapeStepUpPolicy
+mDistrustedCAPolicy
 originAttributes
 builtChain
 pinningTelemetryInfo
@@ -3271,6 +3279,7 @@ sha1ModeConfigurations
 j
 ]
 mNetscapeStepUpPolicy
+mDistrustedCAPolicy
 originAttributes
 builtChain
 pinningTelemetryInfo
@@ -3504,6 +3513,7 @@ SHA1Mode
 :
 Allowed
 mNetscapeStepUpPolicy
+mDistrustedCAPolicy
 originAttributes
 builtChain
 nullptr
@@ -3568,6 +3578,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+mDistrustedCAPolicy
 originAttributes
 builtChain
 nullptr
@@ -3670,6 +3681,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+mDistrustedCAPolicy
 originAttributes
 builtChain
 nullptr

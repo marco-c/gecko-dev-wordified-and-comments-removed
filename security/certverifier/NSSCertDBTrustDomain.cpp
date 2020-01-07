@@ -321,6 +321,8 @@ SHA1Mode
 sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
+DistrustedCAPolicy
+distrustedCAPolicy
 const
 OriginAttributes
 &
@@ -388,6 +390,10 @@ sha1Mode
 mNetscapeStepUpPolicy
 (
 netscapeStepUpPolicy
+)
+mDistrustedCAPolicy
+(
+distrustedCAPolicy
 )
 mOriginAttributes
 (
@@ -3812,6 +3818,15 @@ get
 )
 RootSymantecDNs
 )
+&
+&
+mDistrustedCAPolicy
+=
+=
+DistrustedCAPolicy
+:
+:
+DistrustSymantecRoots
 )
 {
 rootCert
