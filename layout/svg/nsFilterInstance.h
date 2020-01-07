@@ -256,12 +256,6 @@ aDirtyArea
 imgDrawingParams
 &
 aImgParams
-float
-aOpacity
-=
-1
-.
-0f
 )
 ;
 static
@@ -386,12 +380,6 @@ aCtx
 imgDrawingParams
 &
 aImgParams
-float
-aOpacity
-=
-1
-.
-0f
 )
 ;
 const
