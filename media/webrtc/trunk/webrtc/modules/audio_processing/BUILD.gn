@@ -95,12 +95,6 @@ arm
 gni
 "
 )
-if
-(
-!
-build_with_mozilla
-)
-{
 import
 (
 "
@@ -115,7 +109,6 @@ proto_library
 gni
 "
 )
-}
 import
 (
 "

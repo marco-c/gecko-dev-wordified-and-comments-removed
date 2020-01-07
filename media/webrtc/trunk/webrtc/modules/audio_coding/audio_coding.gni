@@ -165,7 +165,6 @@ WEBRTC_CODEC_ISAC
 "
 ]
 }
-}
 audio_codec_defines
 +
 =
@@ -174,6 +173,7 @@ audio_codec_defines
 WEBRTC_CODEC_G722
 "
 ]
+}
 if
 (
 !
