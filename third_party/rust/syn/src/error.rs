@@ -1,4 +1,10 @@
 use
+buffer
+:
+:
+Cursor
+;
+use
 std
 :
 :
@@ -6,12 +12,6 @@ error
 :
 :
 Error
-;
-use
-buffer
-:
-:
-Cursor
 ;
 use
 std
@@ -51,6 +51,8 @@ pub
 fn
 parse_error
 <
+'
+a
 O
 >
 (
@@ -60,7 +62,7 @@ O
 PResult
 <
 '
-static
+a
 O
 >
 {

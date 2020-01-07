@@ -122,7 +122,7 @@ version
 .
 0
 .
-58
+66
 "
 authors
 =
@@ -181,6 +181,13 @@ src
 rs
 "
 "
+crates
+-
+io
+.
+md
+"
+"
 README
 .
 md
@@ -236,7 +243,9 @@ serde
 readme
 =
 "
-README
+crates
+-
+io
 .
 md
 "

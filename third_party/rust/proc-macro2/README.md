@@ -244,7 +244,7 @@ support
 on
 nightly
 is
-stabilize
+stabilized
 .
 #
 #
@@ -295,7 +295,7 @@ macro2
 "
 0
 .
-3
+4
 "
 followed
 by
@@ -451,7 +451,7 @@ version
 "
 0
 .
-3
+4
 "
 features
 =

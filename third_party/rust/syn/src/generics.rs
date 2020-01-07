@@ -2644,16 +2644,16 @@ super
 *
 ;
 use
-synom
-:
-:
-Synom
-;
-use
 punctuated
 :
 :
 Pair
+;
+use
+synom
+:
+:
+Synom
 ;
 impl
 Synom
@@ -4203,12 +4203,18 @@ attr
 FilterAttrs
 ;
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
 {
 ToTokens
-Tokens
+TokenStreamExt
 }
 ;
 impl
@@ -4225,7 +4231,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 if
@@ -4431,7 +4437,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 if
@@ -4783,7 +4789,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 if
@@ -5063,7 +5069,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 if
@@ -5126,7 +5132,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -5181,7 +5187,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -5255,7 +5261,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -5361,7 +5367,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 let
@@ -5372,7 +5378,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 |
 {
 self
@@ -5447,7 +5453,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 match
@@ -5495,7 +5501,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -5595,7 +5601,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 if
@@ -5643,7 +5649,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -5698,7 +5704,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -5759,7 +5765,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self

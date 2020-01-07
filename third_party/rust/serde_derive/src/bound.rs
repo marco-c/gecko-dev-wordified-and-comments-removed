@@ -755,6 +755,7 @@ len
 let
 id
 =
+&
 path
 .
 segments
@@ -771,7 +772,6 @@ all_type_params
 .
 contains
 (
-&
 id
 )
 {
@@ -782,6 +782,10 @@ relevant_type_params
 insert
 (
 id
+.
+clone
+(
+)
 )
 ;
 }
@@ -832,6 +836,10 @@ param
 param
 .
 ident
+.
+clone
+(
+)
 )
 .
 collect
@@ -1017,6 +1025,10 @@ param
 param
 .
 ident
+.
+clone
+(
+)
 )
 .
 filter
@@ -1390,6 +1402,10 @@ new
 lifetime
 :
 bound
+.
+clone
+(
+)
 colon_token
 :
 None
@@ -1470,6 +1486,10 @@ bounds
 push
 (
 bound
+.
+clone
+(
+)
 )
 ;
 }
@@ -1503,6 +1523,10 @@ TypeParamBound
 Lifetime
 (
 bound
+.
+clone
+(
+)
 )
 )
 ;
@@ -1604,6 +1628,10 @@ ident
 cont
 .
 ident
+.
+clone
+(
+)
 arguments
 :
 syn
@@ -1695,6 +1723,10 @@ param
 .
 ident
 .
+clone
+(
+)
+.
 into
 (
 )
@@ -1727,6 +1759,10 @@ Lifetime
 param
 .
 lifetime
+.
+clone
+(
+)
 )
 }
 syn

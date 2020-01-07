@@ -2,7 +2,7 @@ use
 super
 :
 :
-Tokens
+TokenStreamExt
 ;
 use
 std
@@ -19,10 +19,10 @@ proc_macro2
 :
 {
 Group
+Ident
 Literal
-Op
+Punct
 Span
-Term
 TokenStream
 TokenTree
 }
@@ -40,17 +40,17 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 ;
 fn
-into_tokens
+into_token_stream
 (
 self
 )
 -
 >
-Tokens
+TokenStream
 where
 Self
 :
@@ -60,7 +60,7 @@ let
 mut
 tokens
 =
-Tokens
+TokenStream
 :
 :
 new
@@ -106,7 +106,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 (
@@ -153,7 +153,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 (
@@ -194,7 +194,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 (
@@ -232,7 +232,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 if
@@ -270,7 +270,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -302,7 +302,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -353,7 +353,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -442,7 +442,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -475,7 +475,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 let
@@ -500,7 +500,7 @@ tokens
 .
 append
 (
-Term
+Ident
 :
 :
 new
@@ -531,7 +531,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -550,7 +550,7 @@ clone
 impl
 ToTokens
 for
-Term
+Ident
 {
 fn
 to_tokens
@@ -561,7 +561,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -580,7 +580,7 @@ clone
 impl
 ToTokens
 for
-Op
+Punct
 {
 fn
 to_tokens
@@ -591,7 +591,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -621,7 +621,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -651,7 +651,7 @@ dst
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 dst
@@ -681,7 +681,7 @@ dst
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 dst
@@ -699,5 +699,16 @@ into_iter
 )
 )
 ;
+}
+fn
+into_token_stream
+(
+self
+)
+-
+>
+TokenStream
+{
+self
 }
 }

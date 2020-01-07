@@ -2,13 +2,10 @@ use
 proc_macro2
 :
 :
+{
 Span
-;
-use
-quote
-:
-:
-Tokens
+TokenStream
+}
 ;
 use
 syn
@@ -41,7 +38,7 @@ Container
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 pretend_fields
@@ -78,11 +75,12 @@ Container
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 type_ident
 =
+&
 cont
 .
 ident
@@ -147,6 +145,7 @@ Struct
 let
 variant_ident
 =
+&
 variant
 .
 ident
@@ -309,7 +308,7 @@ Container
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 variants
@@ -354,6 +353,7 @@ quote
 let
 type_ident
 =
+&
 cont
 .
 ident
@@ -400,6 +400,7 @@ variant
 let
 variant_ident
 =
+&
 variant
 .
 ident
@@ -479,7 +480,7 @@ Struct
 >
 {
 let
-names
+members
 =
 variant
 .
@@ -494,9 +495,10 @@ map
 |
 field
 |
+&
 field
 .
-ident
+member
 )
 ;
 quote
@@ -506,7 +508,7 @@ quote
 #
 (
 #
-names
+members
 :
 #
 placeholders
@@ -630,10 +632,10 @@ Field
 )
 -
 >
-Tokens
+TokenStream
 {
 let
-names
+members
 =
 fields
 .
@@ -646,9 +648,10 @@ map
 |
 field
 |
+&
 field
 .
-ident
+member
 )
 ;
 let
@@ -702,7 +705,7 @@ quote
 #
 (
 #
-names
+members
 :
 ref
 #
