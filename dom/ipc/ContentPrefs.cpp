@@ -488,8 +488,6 @@ dom
 .
 webcomponents
 .
-shadowdom
-.
 enabled
 "
 "
@@ -1083,6 +1081,17 @@ css
 image
 -
 orientation
+.
+enabled
+"
+"
+layout
+.
+css
+.
+individual
+-
+transform
 .
 enabled
 "
