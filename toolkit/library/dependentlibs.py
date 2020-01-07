@@ -831,9 +831,18 @@ libpaths
 func
 )
     
+base_lib
+=
+mozpath
+.
+basename
+(
+lib
+)
+    
 deps
 [
-lib
+base_lib
 ]
 =
 mozpath
@@ -844,7 +853,7 @@ libpaths
 [
 0
 ]
-lib
+base_lib
 )
     
 output
