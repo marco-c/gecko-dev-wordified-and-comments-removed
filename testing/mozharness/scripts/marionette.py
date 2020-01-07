@@ -2791,7 +2791,6 @@ INFO
         
 tbpl_status
 log_level
-summary
 =
 marionette_parser
 .
