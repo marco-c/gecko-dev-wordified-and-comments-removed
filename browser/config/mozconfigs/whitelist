@@ -104,14 +104,6 @@ branding
 /
 nightly
 '
-'
-ac_add_options
--
--
-enable
--
-profiling
-'
 ]
 whitelist
 [

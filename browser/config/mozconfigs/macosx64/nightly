@@ -35,12 +35,6 @@ ac_add_options
 -
 enable
 -
-profiling
-ac_add_options
--
--
-enable
--
 instruments
 #
 Cross
