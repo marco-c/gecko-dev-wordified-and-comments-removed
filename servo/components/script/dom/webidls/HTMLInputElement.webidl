@@ -456,8 +456,6 @@ attribute
 NodeList
 labels
 ;
-/
-/
 void
 select
 (
@@ -489,8 +487,9 @@ DOMString
 ?
 selectionDirection
 ;
-/
-/
+[
+Throws
+]
 void
 setRangeText
 (
@@ -498,8 +497,9 @@ DOMString
 replacement
 )
 ;
-/
-/
+[
+Throws
+]
 void
 setRangeText
 (
@@ -511,8 +511,6 @@ start
 unsigned
 long
 end
-/
-/
 optional
 SelectionMode
 selectionMode
