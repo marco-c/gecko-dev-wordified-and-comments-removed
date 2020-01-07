@@ -248,13 +248,6 @@ local
 bin
 :
 /
-usr
-/
-lib64
-/
-ccache
-:
-/
 bin
 :
 \
