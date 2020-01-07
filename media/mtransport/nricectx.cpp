@@ -5045,6 +5045,17 @@ char
 >
 attrs_in
 ;
+attrs_in
+.
+reserve
+(
+attrs
+.
+size
+(
+)
+)
+;
 for
 (
 auto
