@@ -15857,6 +15857,12 @@ this
 &
 resultList
 stickyASR
+aBuilder
+-
+>
+CurrentActiveScrolledRoot
+(
+)
 )
 )
 ;
