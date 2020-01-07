@@ -834,5 +834,16 @@ GetLength
 }
 }
 ;
+void
+ToLowerCaseASCII
+(
+RefPtr
+<
+nsAtom
+>
+&
+aAtom
+)
+;
 #
 endif
