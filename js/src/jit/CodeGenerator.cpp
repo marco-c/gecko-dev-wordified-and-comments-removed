@@ -34247,9 +34247,9 @@ case
 LNode
 :
 :
-LOp_
-#
-#
+Opcode
+:
+:
 op
 :
 visit
@@ -34281,7 +34281,10 @@ case
 LNode
 :
 :
-LOp_Invalid
+Opcode
+:
+:
+Invalid
 :
 default
 :
