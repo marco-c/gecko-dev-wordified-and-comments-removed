@@ -196,13 +196,20 @@ Webkit
 )
 :
             
-props
-+
-=
-generateLine
-(
-prop
 extendedAttrs
+.
+append
+(
+'
+BindingAlias
+=
+"
+%
+s
+"
+'
+%
+prop
 )
         
 if
@@ -234,15 +241,6 @@ prop
 :
 ]
         
-props
-+
-=
-generateLine
-(
-prop
-extendedAttrs
-)
-        
 if
 prop
 !
@@ -255,7 +253,7 @@ extendedAttrs
 append
 (
 '
-BinaryName
+BindingAlias
 =
 "
 %
@@ -263,19 +261,15 @@ s
 "
 '
 %
-prop
+name
 )
-            
+        
 props
 +
 =
 generateLine
 (
-"
-_
-"
-+
-name
+prop
 extendedAttrs
 )
     
