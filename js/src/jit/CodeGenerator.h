@@ -270,9 +270,9 @@ void
 generateArgumentsChecks
 (
 bool
-bailout
+assert
 =
-true
+false
 )
 ;
 MOZ_MUST_USE
@@ -3354,6 +3354,9 @@ LAssertResultT
 ins
 )
 ;
+#
+ifdef
+DEBUG
 void
 emitAssertResultV
 (
@@ -3379,6 +3382,8 @@ TemporaryTypeSet
 typeset
 )
 ;
+#
+endif
 void
 visitInterruptCheck
 (

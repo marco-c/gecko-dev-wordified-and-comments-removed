@@ -10039,14 +10039,13 @@ Label
 miss
 )
 ;
-template
-<
-typename
-TypeSet
->
+#
+ifdef
+DEBUG
 void
 guardTypeSetMightBeIncomplete
 (
+const
 TypeSet
 *
 types
@@ -10059,6 +10058,8 @@ Label
 label
 )
 ;
+#
+endif
 void
 loadObjShape
 (
