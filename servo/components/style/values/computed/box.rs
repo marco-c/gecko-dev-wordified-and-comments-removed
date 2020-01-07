@@ -97,6 +97,7 @@ box_
 OverscrollBehavior
 ScrollSnapType
 TouchAction
+TransitionProperty
 WillChange
 }
 ;

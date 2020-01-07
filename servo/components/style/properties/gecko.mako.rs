@@ -384,15 +384,6 @@ use
 properties
 :
 :
-animated_properties
-:
-:
-TransitionProperty
-;
-use
-properties
-:
-:
 computed_value_flags
 :
 :
@@ -495,6 +486,7 @@ computed
 NonNegativeLength
 ToComputedValue
 Percentage
+TransitionProperty
 }
 ;
 use

@@ -218,16 +218,6 @@ app_units
 :
 Au
 ;
-pub
-use
-properties
-:
-:
-animated_properties
-:
-:
-TransitionProperty
-;
 #
 [
 cfg
@@ -407,6 +397,7 @@ AnimationIterationCount
 AnimationName
 Contain
 Display
+TransitionProperty
 }
 ;
 pub
