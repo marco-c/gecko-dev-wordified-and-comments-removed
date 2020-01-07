@@ -43105,6 +43105,16 @@ block_toplevel_data_uri_navigations
 true
 )
 ;
+pref
+(
+"
+security
+.
+block_ftp_subresources
+"
+true
+)
+;
 #
 if
 !
