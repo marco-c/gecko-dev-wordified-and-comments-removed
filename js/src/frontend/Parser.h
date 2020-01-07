@@ -1761,14 +1761,6 @@ clearAbortedSyntaxParse
 )
 {
 }
-enum
-class
-ExpressionClosure
-{
-Allowed
-Forbidden
-}
-;
 template
 <
 class
@@ -2905,8 +2897,6 @@ functionExpr
 (
 uint32_t
 toStringStart
-ExpressionClosure
-expressionClosureHandling
 InvokedPrediction
 invoked
 FunctionAsyncKind
@@ -3380,8 +3370,6 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
-ExpressionClosure
-expressionClosureHandling
 PossibleError
 *
 possibleError
@@ -3400,8 +3388,6 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
-ExpressionClosure
-expressionClosureHandling
 PossibleError
 *
 possibleError
@@ -3418,8 +3404,6 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
-ExpressionClosure
-expressionClosureHandling
 PossibleError
 *
 possibleError
@@ -3438,8 +3422,6 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
-ExpressionClosure
-expressionClosureHandling
 TokenKind
 tt
 bool
@@ -3464,8 +3446,6 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
-ExpressionClosure
-expressionClosureHandling
 TokenKind
 tt
 PossibleError

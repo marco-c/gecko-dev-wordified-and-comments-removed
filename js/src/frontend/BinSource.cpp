@@ -5049,7 +5049,7 @@ FunctionExpression
 :
 syntax
 =
-PrimaryExpression
+Expression
 ;
 break
 ;
