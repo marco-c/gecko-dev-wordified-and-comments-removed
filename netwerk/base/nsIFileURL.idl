@@ -179,8 +179,7 @@ nsIURL
 *
 *
 Get
-/
-Set
+the
 nsIFile
 corresponding
 to
@@ -190,8 +189,7 @@ URL
 *
 *
 -
-Getter
-returns
+Returns
 a
 reference
 to
@@ -229,6 +227,7 @@ beware
 !
 *
 /
+readonly
 attribute
 nsIFile
 file
