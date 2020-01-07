@@ -277,7 +277,7 @@ mEntries
 nullptr
 )
 ;
-int
+uint32_t
 readPos
 =
 pb
@@ -451,7 +451,7 @@ mEntries
 nullptr
 )
 ;
-int
+uint32_t
 readPos
 =
 pb

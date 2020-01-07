@@ -42,7 +42,7 @@ ProfileBuffer
 :
 ProfileBuffer
 (
-int
+uint32_t
 aEntrySize
 )
 :
@@ -210,7 +210,10 @@ aLS
 >
 mPos
 =
+Some
+(
 mWritePos
+)
 ;
 }
 AddEntry
