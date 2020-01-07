@@ -601,7 +601,7 @@ aHitTestUpdate
 override
 ;
 void
-ForceComposite
+ScheduleComposite
 (
 LayerTransactionParent
 *

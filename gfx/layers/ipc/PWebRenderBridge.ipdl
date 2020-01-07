@@ -700,7 +700,7 @@ already
 scheduled
 .
 async
-ForceComposite
+ScheduleComposite
 (
 )
 ;

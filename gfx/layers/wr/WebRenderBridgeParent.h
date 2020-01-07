@@ -760,7 +760,7 @@ ipc
 :
 :
 IPCResult
-RecvForceComposite
+RecvScheduleComposite
 (
 )
 override

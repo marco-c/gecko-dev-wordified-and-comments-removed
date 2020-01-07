@@ -610,7 +610,7 @@ ClearCachedResources
 )
 ;
 void
-Composite
+ScheduleComposite
 (
 )
 ;

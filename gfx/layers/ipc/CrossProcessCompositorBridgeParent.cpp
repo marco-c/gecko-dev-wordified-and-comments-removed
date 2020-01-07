@@ -2128,7 +2128,7 @@ void
 CrossProcessCompositorBridgeParent
 :
 :
-ForceComposite
+ScheduleComposite
 (
 LayerTransactionParent
 *
@@ -2183,7 +2183,7 @@ parent
 parent
 -
 >
-ForceComposite
+ScheduleComposite
 (
 aLayerTree
 )

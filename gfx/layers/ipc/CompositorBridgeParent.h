@@ -453,7 +453,7 @@ aLayerTree
 }
 virtual
 void
-ForceComposite
+ScheduleComposite
 (
 LayerTransactionParent
 *
@@ -1431,7 +1431,7 @@ aHitTestUpdate
 override
 ;
 void
-ForceComposite
+ScheduleComposite
 (
 LayerTransactionParent
 *

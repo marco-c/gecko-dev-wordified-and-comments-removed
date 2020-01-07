@@ -5198,7 +5198,7 @@ IPCResult
 WebRenderBridgeParent
 :
 :
-RecvForceComposite
+RecvScheduleComposite
 (
 )
 {
