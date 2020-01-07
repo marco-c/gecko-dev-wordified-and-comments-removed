@@ -498,10 +498,8 @@ cx
 )
 ;
 }
+static
 bool
-wasm
-:
-:
 ToWebAssemblyValue
 (
 JSContext
@@ -658,10 +656,8 @@ guard
 }
 }
 }
+static
 Value
-wasm
-:
-:
 ToJSValue
 (
 const
