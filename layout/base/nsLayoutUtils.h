@@ -5068,7 +5068,7 @@ aMaxRanges
 )
 ;
 static
-nsresult
+void
 GetFontFacesForText
 (
 nsIFrame
