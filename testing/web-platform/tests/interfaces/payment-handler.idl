@@ -122,11 +122,8 @@ ImageObject
 >
 icons
 ;
-sequence
-<
 DOMString
->
-enabledMethods
+method
 ;
 object
 capabilities
