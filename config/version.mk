@@ -163,9 +163,11 @@ srcdir
 )
 -
 DISPNAME
+"
 (
 MOZ_APP_DISPLAYNAME
 )
+"
 -
 APPVERSION
 (
