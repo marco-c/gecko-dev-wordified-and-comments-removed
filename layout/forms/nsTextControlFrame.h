@@ -1163,15 +1163,6 @@ aDirection
 eNone
 )
 ;
-nsresult
-GetRootNodeAndInitializeEditor
-(
-nsIDOMElement
-*
-*
-aRootElement
-)
-;
 void
 FinishedInitializer
 (
