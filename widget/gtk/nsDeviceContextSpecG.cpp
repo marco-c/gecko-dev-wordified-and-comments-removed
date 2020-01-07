@@ -682,7 +682,7 @@ format
 nsIPrintSettings
 :
 :
-kOutputFormatPS
+kOutputFormatPDF
 ;
 }
 else
