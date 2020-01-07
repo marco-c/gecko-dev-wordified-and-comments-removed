@@ -60,11 +60,7 @@ const
 SOURCE_PREFIX
 =
 "
-shield
--
-recipe
--
-client
+normandy
 "
 ;
 var

@@ -59,6 +59,7 @@ for
 debugging
 Marionette
 internals
+.
 -
 Introduced
 the
@@ -79,6 +80,7 @@ calculating
 the
 Pointer
 Origin
+.
 #
 #
 #
@@ -134,6 +136,21 @@ force
 killing
 the
 process
+-
+Changed
+preference
+used
+to
+disable
+shield
+studies
+to
+app
+.
+normandy
+.
+api_url
+.
 #
 #
 #
