@@ -1004,15 +1004,12 @@ a
 )
 =
 >
-try
-!
-(
 a
 .
 poll
 (
 )
-)
+?
 MaybeDone
 :
 :

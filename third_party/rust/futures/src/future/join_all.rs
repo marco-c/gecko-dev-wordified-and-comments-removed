@@ -385,8 +385,6 @@ let
 done_val
 =
 match
-&
-mut
 self
 .
 elems
@@ -394,8 +392,6 @@ elems
 idx
 ]
 {
-&
-mut
 ElemState
 :
 :
@@ -459,8 +455,6 @@ e
 )
 }
 }
-&
-mut
 ElemState
 :
 :

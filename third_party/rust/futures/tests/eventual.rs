@@ -30,7 +30,10 @@ use
 futures
 :
 :
-Future
+prelude
+:
+:
+*
 ;
 use
 futures

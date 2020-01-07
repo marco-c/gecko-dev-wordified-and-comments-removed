@@ -227,15 +227,12 @@ take
 )
 {
 if
-try
-!
-(
 fut
 .
 poll
 (
 )
-)
+?
 .
 is_not_ready
 (

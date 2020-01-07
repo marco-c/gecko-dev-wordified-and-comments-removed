@@ -329,11 +329,8 @@ a
 let
 future
 =
-try
-!
-(
 a
-)
+?
 .
 into_future
 (

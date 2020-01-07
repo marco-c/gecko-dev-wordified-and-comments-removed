@@ -300,15 +300,12 @@ panic
 }
 ;
 match
-try
-!
-(
 f
 (
 a_result
 data
 )
-)
+?
 {
 Ok
 (

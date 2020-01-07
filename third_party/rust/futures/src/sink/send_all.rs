@@ -323,7 +323,6 @@ completion
 "
 )
 ;
-return
 (
 sink
 fuse
@@ -332,7 +331,6 @@ into_inner
 (
 )
 )
-;
 }
 fn
 try_start_send
@@ -381,9 +379,6 @@ NotReady
 item
 )
 =
-try
-!
-(
 self
 .
 sink_mut
@@ -394,7 +389,7 @@ start_send
 (
 item
 )
-)
+?
 {
 self
 .
@@ -533,9 +528,6 @@ item
 loop
 {
 match
-try
-!
-(
 self
 .
 stream_mut
@@ -545,7 +537,7 @@ stream_mut
 poll
 (
 )
-)
+?
 {
 Async
 :

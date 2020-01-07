@@ -42,7 +42,10 @@ use
 futures
 :
 :
-Future
+prelude
+:
+:
+*
 ;
 use
 futures
@@ -119,7 +122,7 @@ move
 |
 |
 {
-assert
+assert_eq
 !
 (
 *
@@ -132,8 +135,6 @@ wait
 unwrap
 (
 )
-=
-=
 6
 )
 ;
@@ -165,7 +166,7 @@ unwrap
 (
 )
 ;
-assert
+assert_eq
 !
 (
 *
@@ -178,8 +179,6 @@ wait
 unwrap
 (
 )
-=
-=
 6
 )
 ;
@@ -397,8 +396,9 @@ spawn
 |
 |
 {
-drop
-(
+let
+_
+=
 f2
 .
 map
@@ -430,7 +430,6 @@ _
 .
 wait
 (
-)
 )
 ;
 }
@@ -651,7 +650,6 @@ peek
 )
 {
 let
-mut
 core
 =
 :
@@ -881,7 +879,6 @@ polled_then_ignored
 )
 {
 let
-mut
 core
 =
 :
@@ -1258,7 +1255,6 @@ futures
 Stream
 ;
 let
-mut
 core
 =
 :
@@ -1368,7 +1364,7 @@ clone
 ;
 tx0
 .
-send
+unbounded_send
 (
 Box
 :
@@ -1541,7 +1537,6 @@ task
 }
 ;
 let
-mut
 core
 =
 :
@@ -1651,7 +1646,7 @@ clone
 ;
 tx0
 .
-send
+unbounded_send
 (
 Box
 :
@@ -1670,11 +1665,11 @@ move
 task
 :
 :
-park
+current
 (
 )
 .
-unpark
+notify
 (
 )
 ;

@@ -23,11 +23,10 @@ use
 futures
 :
 :
-{
-Future
-Stream
-Sink
-}
+prelude
+:
+:
+*
 ;
 use
 futures

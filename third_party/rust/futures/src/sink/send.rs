@@ -323,9 +323,6 @@ NotReady
 item
 )
 =
-try
-!
-(
 self
 .
 sink_mut
@@ -336,7 +333,7 @@ start_send
 (
 item
 )
-)
+?
 {
 self
 .
@@ -355,6 +352,7 @@ Async
 :
 NotReady
 )
+;
 }
 }
 try_ready
@@ -371,7 +369,6 @@ poll_complete
 )
 )
 ;
-return
 Ok
 (
 Async

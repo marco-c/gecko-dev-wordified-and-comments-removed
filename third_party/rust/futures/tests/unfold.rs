@@ -9,7 +9,7 @@ use
 futures
 :
 :
-*
+stream
 ;
 use
 support
