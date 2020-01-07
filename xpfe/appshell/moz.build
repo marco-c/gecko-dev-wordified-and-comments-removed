@@ -232,6 +232,12 @@ dom
 /
 base
 '
+'
+/
+dom
+/
+xul
+'
 ]
 FINAL_LIBRARY
 =
