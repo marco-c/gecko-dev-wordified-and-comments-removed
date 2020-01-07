@@ -1056,7 +1056,12 @@ aOperation
 private
 :
 void
-RemoveCallback
+RemoveMixerCallback
+(
+)
+;
+void
+AddMixerCallback
 (
 )
 ;
@@ -1191,7 +1196,10 @@ StreamAndPromiseForOperation
 >
 mPromisesForOperation
 ;
+Atomic
+<
 bool
+>
 mAddedMixer
 ;
 std
