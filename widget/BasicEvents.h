@@ -109,6 +109,9 @@ ParamTraits
 namespace
 mozilla
 {
+class
+EventTargetChainItem
+;
 struct
 BaseEventFlags
 {
@@ -1188,6 +1191,10 @@ mSpecifiedEventType
 (
 nullptr
 )
+mPath
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1225,6 +1232,10 @@ WidgetEvent
 :
 WidgetEventTime
 (
+)
+mPath
+(
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1398,6 +1409,13 @@ dom
 EventTarget
 >
 mOriginalTarget
+;
+nsTArray
+<
+EventTargetChainItem
+>
+*
+mPath
 ;
 dom
 :

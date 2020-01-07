@@ -1582,9 +1582,11 @@ true
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 mTransaction
+false
+)
 ;
 return
 NS_OK

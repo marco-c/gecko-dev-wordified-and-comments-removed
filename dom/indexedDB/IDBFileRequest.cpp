@@ -479,9 +479,11 @@ true
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 mFileHandle
+false
+)
 ;
 return
 NS_OK

@@ -36527,8 +36527,8 @@ GetWindow
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 window
 ?
 window
@@ -36539,6 +36539,8 @@ GetTargetForEventTargetChain
 )
 :
 nullptr
+false
+)
 ;
 }
 return

@@ -2784,9 +2784,11 @@ true
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 mMutableFile
+false
+)
 ;
 return
 NS_OK

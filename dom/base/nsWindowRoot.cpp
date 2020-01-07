@@ -761,9 +761,11 @@ mWindow
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 mParent
+false
+)
 ;
 return
 NS_OK

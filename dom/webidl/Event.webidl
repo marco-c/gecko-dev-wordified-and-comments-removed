@@ -192,6 +192,14 @@ EventTarget
 ?
 currentTarget
 ;
+sequence
+<
+EventTarget
+>
+composedPath
+(
+)
+;
 const
 unsigned
 short

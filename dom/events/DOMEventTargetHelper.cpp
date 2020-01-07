@@ -1361,9 +1361,11 @@ true
 ;
 aVisitor
 .
-mParentTarget
-=
+SetParentTarget
+(
 nullptr
+false
+)
 ;
 return
 NS_OK
