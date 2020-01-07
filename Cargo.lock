@@ -850,7 +850,7 @@ version
 .
 2
 .
-3
+4
 "
 dependencies
 =
@@ -1329,7 +1329,7 @@ audioipc
 .
 2
 .
-3
+4
 "
 "
 cubeb
@@ -1593,7 +1593,7 @@ version
 .
 2
 .
-2
+3
 "
 dependencies
 =
@@ -1604,7 +1604,7 @@ audioipc
 .
 2
 .
-3
+4
 "
 "
 bytes
@@ -1637,11 +1637,13 @@ index
 "
 "
 cubeb
+-
+core
 0
 .
 5
 .
-2
+1
 (
 registry
 +
@@ -10362,7 +10364,7 @@ server
 .
 2
 .
-2
+3
 "
 "
 cose
