@@ -83728,6 +83728,12 @@ ContextMenu
 "
 CommandLine
 "
+"
+DeveloperToolbar
+"
+"
+SessionRestore
+"
 ]
 "
 releaseChannelCollection
