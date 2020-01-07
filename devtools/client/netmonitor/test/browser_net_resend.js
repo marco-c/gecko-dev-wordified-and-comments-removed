@@ -156,7 +156,6 @@ wait
 waitForNetworkEvents
 (
 monitor
-0
 2
 )
 ;
@@ -281,7 +280,6 @@ wait
 waitForNetworkEvents
 (
 monitor
-0
 1
 )
 ;

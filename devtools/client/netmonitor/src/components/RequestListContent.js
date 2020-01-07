@@ -999,6 +999,7 @@ render
 {
 const
 {
+connector
 columns
 displayedRequests
 firstRequestStartedMillis
@@ -1127,6 +1128,7 @@ status
 item
 .
 fromCache
+connector
 columns
 item
 index

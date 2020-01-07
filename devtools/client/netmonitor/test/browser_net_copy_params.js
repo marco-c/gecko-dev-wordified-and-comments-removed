@@ -82,8 +82,7 @@ wait
 waitForNetworkEvents
 (
 monitor
-1
-6
+7
 )
 ;
 yield
