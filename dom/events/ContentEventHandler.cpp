@@ -14838,9 +14838,9 @@ mSucceeded
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 sel
 ;
@@ -14865,15 +14865,6 @@ mRootContent
 mSelection
 =
 sel
-?
-sel
--
->
-AsSelection
-(
-)
-:
-nullptr
 ;
 if
 (

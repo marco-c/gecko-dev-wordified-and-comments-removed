@@ -21602,7 +21602,7 @@ RangePaintInfo
 >
 &
 aItems
-nsISelection
+Selection
 *
 aSelection
 nsIntRegion
@@ -22401,11 +22401,6 @@ aSelection
 frameSelection
 =
 aSelection
--
->
-AsSelection
-(
-)
 -
 >
 GetFrameSelection

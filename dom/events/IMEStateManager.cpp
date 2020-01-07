@@ -10189,7 +10189,7 @@ IMEStateManager
 :
 GetFocusSelectionAndRoot
 (
-nsISelection
+Selection
 *
 *
 aSelection

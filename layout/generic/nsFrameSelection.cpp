@@ -7155,7 +7155,7 @@ scrolledFrame
 )
 return
 ;
-nsISelection
+Selection
 *
 domSel
 =

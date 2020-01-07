@@ -70,6 +70,13 @@ TextCompositionArray
 class
 TextComposition
 ;
+namespace
+dom
+{
+class
+Selection
+;
+}
 class
 IMEStateManager
 {
@@ -288,7 +295,10 @@ static
 nsresult
 GetFocusSelectionAndRoot
 (
-nsISelection
+dom
+:
+:
+Selection
 *
 *
 aSel

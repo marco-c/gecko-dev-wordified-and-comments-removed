@@ -2599,7 +2599,10 @@ IMEContentObserver
 :
 GetSelectionAndRoot
 (
-nsISelection
+dom
+:
+:
+Selection
 *
 *
 aSelection

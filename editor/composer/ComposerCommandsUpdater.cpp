@@ -1320,9 +1320,12 @@ return
 true
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsISelection
+dom
+:
+:
+Selection
 >
 domSelection
 =
@@ -1348,11 +1351,6 @@ false
 }
 return
 domSelection
--
->
-AsSelection
-(
-)
 -
 >
 IsCollapsed

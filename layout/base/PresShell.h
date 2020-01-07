@@ -2103,7 +2103,10 @@ RangePaintInfo
 >
 &
 aItems
-nsISelection
+dom
+:
+:
+Selection
 *
 aSelection
 nsIntRegion
