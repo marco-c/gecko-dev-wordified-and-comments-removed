@@ -2946,6 +2946,14 @@ on
 projects
 :
 [
+'
+mozilla
+-
+central
+'
+'
+try
+'
 ]
 toolchains
 :
