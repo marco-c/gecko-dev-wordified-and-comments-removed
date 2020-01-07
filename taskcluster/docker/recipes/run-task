@@ -4090,12 +4090,6 @@ args
 .
 tools_checkout
 )
-prepare_checkout_dir
-(
-args
-.
-comm_checkout
-)
 if
 args
 .
