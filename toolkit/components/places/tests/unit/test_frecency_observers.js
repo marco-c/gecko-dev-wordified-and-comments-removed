@@ -268,7 +268,7 @@ add_task
 (
 async
 function
-test_nsNavHistory_DecayFrecency_and_nsNavHistory_FixInvalidFrecencies
+test_nsNavHistory_FixAndDecayFrecency
 (
 )
 {
@@ -301,9 +301,6 @@ Promise
 all
 (
 [
-onManyFrecenciesChanged
-(
-)
 onManyFrecenciesChanged
 (
 )
