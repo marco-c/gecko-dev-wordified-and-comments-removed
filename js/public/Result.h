@@ -13,9 +13,6 @@ Result
 .
 h
 "
-struct
-JSContext
-;
 #
 define
 JS_TRY_BOOL_TO_RESULT

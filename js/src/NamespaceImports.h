@@ -150,9 +150,6 @@ ObjectOpResult
 class
 PropertyResult
 ;
-class
-Symbol
-;
 enum
 class
 SymbolCode

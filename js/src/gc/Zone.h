@@ -76,9 +76,6 @@ Runtime
 .
 h
 "
-struct
-JSContext
-;
 namespace
 js
 {

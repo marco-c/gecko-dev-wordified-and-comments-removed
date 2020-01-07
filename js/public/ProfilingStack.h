@@ -48,9 +48,6 @@ Utility
 .
 h
 "
-struct
-JSRuntime
-;
 class
 JSTracer
 ;

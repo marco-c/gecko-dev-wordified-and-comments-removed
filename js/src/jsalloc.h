@@ -35,13 +35,6 @@ cx
 )
 ;
 namespace
-JS
-{
-struct
-Zone
-;
-}
-namespace
 js
 {
 enum

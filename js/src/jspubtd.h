@@ -107,14 +107,6 @@ AutoIdVector
 class
 CallArgs
 ;
-template
-<
-typename
-T
->
-class
-Rooted
-;
 class
 JS_FRIEND_API
 (
@@ -144,12 +136,6 @@ JS_PUBLIC_API
 (
 CompartmentOptions
 )
-;
-class
-Value
-;
-struct
-Zone
 ;
 }
 enum
@@ -194,9 +180,6 @@ JSProto_LIMIT
 struct
 JSClass
 ;
-struct
-JSCompartment
-;
 class
 JSErrorReport
 ;
@@ -214,9 +197,6 @@ JSPrincipals
 ;
 struct
 JSPropertySpec
-;
-struct
-JSRuntime
 ;
 struct
 JSSecurityCallbacks

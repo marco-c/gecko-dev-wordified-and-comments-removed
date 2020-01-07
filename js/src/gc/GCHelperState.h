@@ -7,6 +7,15 @@ gc_GCHelperState_h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 threading
 /
 ConditionVariable
@@ -22,9 +31,6 @@ ProtectedData
 .
 h
 "
-struct
-JSRuntime
-;
 namespace
 js
 {

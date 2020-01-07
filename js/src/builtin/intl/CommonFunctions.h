@@ -82,16 +82,6 @@ String
 h
 "
 namespace
-JS
-{
-class
-Value
-;
-}
-class
-JSObject
-;
-namespace
 js
 {
 namespace

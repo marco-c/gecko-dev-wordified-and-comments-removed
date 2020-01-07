@@ -45,9 +45,6 @@ Utility
 .
 h
 "
-struct
-JSContext
-;
 namespace
 js
 {

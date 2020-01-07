@@ -27,6 +27,12 @@ config
 .
 h
 "
+class
+JSAtom
+;
+struct
+JSCompartment
+;
 struct
 JSContext
 ;
@@ -35,6 +41,9 @@ JSFunction
 ;
 class
 JSObject
+;
+struct
+JSRuntime
 ;
 class
 JSScript
@@ -67,6 +76,12 @@ Value
 ;
 class
 Realm
+;
+struct
+Runtime
+;
+struct
+Zone
 ;
 template
 <

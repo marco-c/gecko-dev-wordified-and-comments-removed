@@ -123,6 +123,15 @@ h
 #
 include
 "
+js
+/
+TypeDecls
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject
@@ -156,9 +165,6 @@ WasmTypes
 .
 h
 "
-struct
-JSCompartment
-;
 namespace
 JS
 {

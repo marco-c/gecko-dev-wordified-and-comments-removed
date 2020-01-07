@@ -40,6 +40,15 @@ TraceKind
 .
 h
 "
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 namespace
 JS
 {
@@ -53,9 +62,6 @@ Zone
 enum
 class
 TraceKind
-;
-struct
-Zone
 ;
 }
 namespace

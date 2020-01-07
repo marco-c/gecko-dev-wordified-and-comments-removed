@@ -27,9 +27,6 @@ Stack
 .
 h
 "
-class
-JSAtom
-;
 namespace
 js
 {

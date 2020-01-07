@@ -92,9 +92,6 @@ ArrayObject
 .
 h
 "
-struct
-JSContext
-;
 namespace
 js
 {

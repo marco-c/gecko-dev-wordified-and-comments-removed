@@ -144,6 +144,15 @@ include
 "
 js
 /
+TypeDecls
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h
@@ -301,9 +310,6 @@ h
 >
 #
 endif
-struct
-JSRuntime
-;
 namespace
 JS
 {

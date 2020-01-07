@@ -56,15 +56,6 @@ Utility
 .
 h
 "
-struct
-JSContext
-;
-struct
-JSRuntime
-;
-class
-JSScript
-;
 namespace
 js
 {

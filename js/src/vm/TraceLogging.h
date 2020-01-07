@@ -92,9 +92,6 @@ TraceLoggingTypes
 .
 h
 "
-struct
-JSRuntime
-;
 namespace
 JS
 {

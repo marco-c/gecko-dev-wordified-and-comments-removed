@@ -173,9 +173,6 @@ Vector
 .
 h
 "
-class
-JSAtom
-;
 namespace
 JS
 {
