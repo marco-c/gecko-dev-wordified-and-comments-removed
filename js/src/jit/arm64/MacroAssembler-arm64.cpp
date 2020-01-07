@@ -395,7 +395,7 @@ dest
 )
 ;
 return
-allocEntry
+allocLiteralLoadEntry
 (
 numInst
 numPoolEntries
@@ -476,7 +476,7 @@ dest
 )
 ;
 return
-allocEntry
+allocLiteralLoadEntry
 (
 numInst
 numPoolEntries
