@@ -229,6 +229,11 @@ about
 :
 home
 "
+"
+about
+:
+welcome
+"
 ]
 .
 includes

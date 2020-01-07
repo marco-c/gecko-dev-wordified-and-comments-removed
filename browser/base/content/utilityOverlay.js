@@ -264,6 +264,16 @@ home
 aURL
 =
 =
+"
+about
+:
+welcome
+"
+|
+|
+aURL
+=
+=
 BROWSER_NEW_TAB_URL
 ;
 }

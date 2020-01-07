@@ -368,6 +368,12 @@ about
 :
 home
 "
+|
+"
+about
+:
+welcome
+"
 ]
 "
 parent_session_id
@@ -785,6 +791,11 @@ newtab
 about
 :
 home
+"
+"
+about
+:
+welcome
 "
 ]
 |
@@ -1226,6 +1237,12 @@ newtab
 about
 :
 home
+"
+|
+"
+about
+:
+welcome
 "
 ]
 "

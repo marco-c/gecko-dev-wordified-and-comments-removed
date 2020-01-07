@@ -78,10 +78,13 @@ in
 about
 :
 home
-and
 about
 :
 newtab
+and
+about
+:
+welcome
 #
 so
 make

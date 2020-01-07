@@ -164,6 +164,11 @@ about
 :
 newtab
 "
+"
+about
+:
+welcome
+"
 ]
 )
 ;

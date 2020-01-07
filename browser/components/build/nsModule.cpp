@@ -511,6 +511,14 @@ restartrequired
 &
 kNS_BROWSER_ABOUT_REDIRECTOR_CID
 }
+{
+NS_ABOUT_MODULE_CONTRACTID_PREFIX
+"
+welcome
+"
+&
+kNS_BROWSER_ABOUT_REDIRECTOR_CID
+}
 #
 if
 defined
