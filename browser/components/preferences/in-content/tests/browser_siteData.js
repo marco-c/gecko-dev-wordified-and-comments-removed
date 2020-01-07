@@ -786,7 +786,7 @@ prefStrBundle
 getFormattedString
 (
 "
-totalSiteDataSize1
+totalSiteDataSize2
 "
 DownloadUtils
 .
@@ -984,7 +984,7 @@ prefStrBundle
 getFormattedString
 (
 "
-totalSiteDataSize1
+totalSiteDataSize2
 "
 DownloadUtils
 .
