@@ -352,11 +352,6 @@ mouseEvent
 aMouseEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 AsMouseEvent
 (
 )

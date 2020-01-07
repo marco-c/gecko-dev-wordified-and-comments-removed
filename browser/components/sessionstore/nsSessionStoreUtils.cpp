@@ -127,11 +127,6 @@ HandleEvent
 (
 *
 aEvent
--
->
-InternalDOMEvent
-(
-)
 )
 ;
 }
@@ -150,7 +145,7 @@ DynamicFrameEventFilter
 bool
 TargetInNonDynamicDocShell
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -160,11 +155,6 @@ EventTarget
 target
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetTarget
