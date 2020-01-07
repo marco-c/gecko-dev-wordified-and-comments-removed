@@ -24040,7 +24040,7 @@ if
 (
 pointToInsertDiv
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -24054,7 +24054,7 @@ GetNextHTMLSibling
 (
 pointToInsertDiv
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -36053,7 +36053,7 @@ NS_WARN_IF
 (
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 =
@@ -36133,7 +36133,7 @@ SplitNodeDeep
 *
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 aStartOfDeepestRightNode
@@ -38065,7 +38065,7 @@ if
 (
 atStartOfSelection
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -38079,7 +38079,7 @@ GetPriorHTMLSibling
 (
 atStartOfSelection
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -38118,7 +38118,7 @@ if
 (
 atStartOfSelection
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -38132,7 +38132,7 @@ GetNextHTMLSibling
 (
 atStartOfSelection
 .
-GetChildAtOffset
+GetChild
 (
 )
 )

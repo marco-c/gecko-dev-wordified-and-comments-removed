@@ -6586,7 +6586,7 @@ MOZ_ASSERT
 (
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -6599,7 +6599,7 @@ SplitNodeDeep
 *
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 aPointToInsert
@@ -8262,7 +8262,7 @@ SplitNodeDeep
 *
 pointToInsertList
 .
-GetChildAtOffset
+GetChild
 (
 )
 atStartOfSelection
@@ -8983,7 +8983,7 @@ SplitNodeDeep
 *
 pointToInsertBlock
 .
-GetChildAtOffset
+GetChild
 (
 )
 atStartOfSelection
@@ -9402,7 +9402,7 @@ SplitNodeDeep
 *
 pointToInsertBlockquote
 .
-GetChildAtOffset
+GetChild
 (
 )
 atStartOfSelection
@@ -9810,7 +9810,7 @@ node
 =
 atAnchor
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;

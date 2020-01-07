@@ -1901,7 +1901,7 @@ Offset
 =
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 )

@@ -3594,7 +3594,7 @@ MOZ_ASSERT
 !
 pointAfterInsertedLineBreak
 .
-GetChildAtOffset
+GetChild
 (
 )
 "
@@ -3609,7 +3609,7 @@ pointAfterInsertedLineBreak
 .
 "
 "
-GetChildAtOffset
+GetChild
 (
 )
 should

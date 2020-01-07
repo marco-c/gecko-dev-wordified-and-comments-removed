@@ -933,7 +933,7 @@ aArgs
 }
 nsIContent
 *
-GetChildAtOffset
+GetChild
 (
 )
 const
@@ -986,7 +986,7 @@ mChild
 }
 nsIContent
 *
-GetNextSiblingOfChildAtOffset
+GetNextSiblingOfChild
 (
 )
 const
@@ -1095,7 +1095,7 @@ nullptr
 }
 nsIContent
 *
-GetPreviousSiblingOfChildAtOffset
+GetPreviousSiblingOfChild
 (
 )
 const
@@ -3390,7 +3390,7 @@ mChild
 =
 mPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;

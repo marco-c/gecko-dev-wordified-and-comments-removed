@@ -542,7 +542,7 @@ IsSet
 return
 mGivenSplitPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;
@@ -584,7 +584,7 @@ IsEndOfContainer
 ?
 mGivenSplitPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 :
@@ -621,7 +621,7 @@ IsEndOfContainer
 ?
 mGivenSplitPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 :
