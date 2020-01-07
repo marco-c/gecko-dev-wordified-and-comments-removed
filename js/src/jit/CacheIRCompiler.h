@@ -58,6 +58,11 @@ GuardIsNumber
 \
 _
 (
+GuardIsInt32
+)
+\
+_
+(
 GuardIsInt32Index
 )
 \
