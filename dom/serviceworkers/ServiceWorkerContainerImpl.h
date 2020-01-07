@@ -36,6 +36,12 @@ default
 ;
 public
 :
+ServiceWorkerContainerImpl
+(
+)
+=
+default
+;
 RefPtr
 <
 ServiceWorkerRegistrationPromise
@@ -81,7 +87,12 @@ ServiceWorkerRegistrationPromise
 >
 GetReady
 (
+const
+ClientInfo
+&
+aClientInfo
 )
+const
 override
 ;
 NS_INLINE_DECL_REFCOUNTING
