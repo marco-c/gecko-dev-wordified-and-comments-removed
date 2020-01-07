@@ -78,6 +78,14 @@ Tup
 ac_add_options
 -
 -
+disable
+-
+js
+-
+shell
+ac_add_options
+-
+-
 upload
 -
 tup
