@@ -2025,11 +2025,7 @@ walker
 init
 (
 element
-Ci
-.
-nsIDOMNodeFilter
-.
-SHOW_ELEMENT
+1
 )
 ;
 yield

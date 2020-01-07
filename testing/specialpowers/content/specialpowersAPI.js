@@ -10655,11 +10655,7 @@ init
 node
 .
 ownerDocument
-Ci
-.
-nsIDOMNodeFilter
-.
-SHOW_ALL
+0xFFFFFFFF
 )
 ;
 walker

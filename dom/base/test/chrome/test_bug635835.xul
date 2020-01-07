@@ -271,11 +271,7 @@ waitForExplicitFinish
 const
 SHOW_ALL
 =
-Components
-.
-interfaces
-.
-nsIDOMNodeFilter
+NodeFilter
 .
 SHOW_ALL
 ;

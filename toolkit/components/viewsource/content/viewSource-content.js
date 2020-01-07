@@ -2014,11 +2014,7 @@ document
 createTreeWalker
 (
 pre
-Ci
-.
-nsIDOMNodeFilter
-.
-SHOW_TEXT
+4
 null
 )
 ;

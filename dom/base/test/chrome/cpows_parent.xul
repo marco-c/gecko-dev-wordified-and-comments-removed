@@ -2082,11 +2082,7 @@ inIDeepTreeWalker
 const
 SHOW_ELEMENT
 =
-Components
-.
-interfaces
-.
-nsIDOMNodeFilter
+NodeFilter
 .
 SHOW_ELEMENT
 ;
