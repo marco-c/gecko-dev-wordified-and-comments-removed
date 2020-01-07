@@ -168,7 +168,7 @@ listener
 {
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 INCOMING_MESSAGE_NAME
 listener
@@ -182,7 +182,7 @@ listener
 {
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 INCOMING_MESSAGE_NAME
 listener
@@ -196,7 +196,7 @@ action
 {
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 OUTGOING_MESSAGE_NAME
 action
@@ -391,7 +391,7 @@ ping
 ;
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 AS_GENERAL_OUTGOING_MESSAGE_NAME
 payload

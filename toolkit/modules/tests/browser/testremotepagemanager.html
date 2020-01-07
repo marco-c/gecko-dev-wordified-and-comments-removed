@@ -22,12 +22,12 @@ javascript
 /
 *
 global
-addMessageListener
-sendAsyncMessage
-removeMessageListener
+RPMAddMessageListener
+RPMSendAsyncMessage
+RPMRemoveMessageListener
 *
 /
-addMessageListener
+RPMAddMessageListener
 (
 "
 Ping
@@ -37,7 +37,7 @@ function
 message
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 Pong
@@ -65,7 +65,7 @@ counter
 }
 )
 ;
-addMessageListener
+RPMAddMessageListener
 (
 "
 Ping2
@@ -75,7 +75,7 @@ function
 message
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 Pong2
@@ -93,7 +93,7 @@ neverCalled
 (
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 Pong3
@@ -101,7 +101,7 @@ Pong3
 )
 ;
 }
-addMessageListener
+RPMAddMessageListener
 (
 "
 Pong3
@@ -109,7 +109,7 @@ Pong3
 neverCalled
 )
 ;
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 Pong3
@@ -265,7 +265,7 @@ return
 response
 ;
 }
-addMessageListener
+RPMAddMessageListener
 (
 "
 SendData
@@ -275,7 +275,7 @@ function
 message
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 ReceivedData
@@ -291,7 +291,7 @@ data
 }
 )
 ;
-addMessageListener
+RPMAddMessageListener
 (
 "
 SendData2
@@ -301,7 +301,7 @@ function
 message
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 ReceivedData2
@@ -326,7 +326,7 @@ cookie
 nom
 "
 ;
-addMessageListener
+RPMAddMessageListener
 (
 "
 SetCookie
@@ -347,7 +347,7 @@ value
 }
 )
 ;
-addMessageListener
+RPMAddMessageListener
 (
 "
 GetCookie
@@ -357,7 +357,7 @@ function
 message
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 Cookie

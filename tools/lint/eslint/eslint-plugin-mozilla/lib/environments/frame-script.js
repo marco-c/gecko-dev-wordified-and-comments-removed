@@ -65,6 +65,15 @@ false
 RPMIsWindowPrivate
 :
 false
+RPMSendAsyncMessage
+:
+false
+RPMAddMessageListener
+:
+false
+RPMRemoveMessageListener
+:
+false
 }
 }
 ;
