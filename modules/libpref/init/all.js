@@ -225,7 +225,7 @@ disk
 .
 max_chunks_memory_usage
 "
-10240
+40960
 )
 ;
 pref
@@ -239,7 +239,7 @@ disk
 .
 max_priority_chunks_memory_usage
 "
-10240
+40960
 )
 ;
 pref

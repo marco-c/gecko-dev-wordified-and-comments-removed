@@ -331,7 +331,7 @@ uint32_t
 const
 kDefaultMaxDiskChunksMemoryUsage
 =
-10
+40
 *
 1024
 ;
@@ -348,7 +348,7 @@ uint32_t
 const
 kDefaultMaxDiskPriorityChunksMemoryUsage
 =
-10
+40
 *
 1024
 ;
