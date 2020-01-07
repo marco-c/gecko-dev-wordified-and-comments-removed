@@ -18078,6 +18078,15 @@ isForPainting
 AreRetainedDisplayListsEnabled
 (
 )
+&
+&
+!
+aFrame
+-
+>
+GetParent
+(
+)
 ;
 RetainedDisplayListBuilder
 *
