@@ -56,3 +56,13 @@ recommended
 true
 )
 ;
+pref
+(
+"
+marionette
+.
+contentListener
+"
+false
+)
+;
