@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsXULElement
 .
 h
@@ -5147,7 +5140,7 @@ aDeselectMenu
 NS_IMETHOD
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -12239,7 +12232,7 @@ nsXULPopupManager
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

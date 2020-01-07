@@ -14,6 +14,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGAnimationElement
 .
 h
@@ -118,7 +129,7 @@ EventListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -1331,7 +1342,7 @@ nsSMILTimeValueSpec
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

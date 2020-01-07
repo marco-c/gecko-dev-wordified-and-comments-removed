@@ -2401,7 +2401,10 @@ nsSplitterFrameInner
 :
 HandleEvent
 (
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aEvent
 )

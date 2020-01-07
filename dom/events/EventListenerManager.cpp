@@ -5387,6 +5387,11 @@ GetXPCOMCallback
 HandleEvent
 (
 aDOMEvent
+-
+>
+InternalDOMEvent
+(
+)
 )
 ;
 }

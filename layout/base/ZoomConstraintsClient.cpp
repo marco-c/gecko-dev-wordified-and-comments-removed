@@ -693,7 +693,10 @@ ZoomConstraintsClient
 :
 HandleEvent
 (
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 event
 )

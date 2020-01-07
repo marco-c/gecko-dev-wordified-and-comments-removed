@@ -1219,7 +1219,7 @@ nsXBLStreamListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

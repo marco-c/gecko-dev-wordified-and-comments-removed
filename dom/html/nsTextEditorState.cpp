@@ -259,6 +259,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h
@@ -381,7 +392,7 @@ ValueSetter
 mTextEditor
 -
 >
-SuppressDispatchingInputEvent
+SetSuppressDispatchingInputEvent
 (
 mOuterTransaction
 )
@@ -395,7 +406,7 @@ Init
 mTextEditor
 -
 >
-SuppressDispatchingInputEvent
+SetSuppressDispatchingInputEvent
 (
 true
 )
@@ -3671,7 +3682,7 @@ TextInputListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

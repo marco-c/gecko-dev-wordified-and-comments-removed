@@ -444,7 +444,7 @@ WebAuthnManagerBase
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

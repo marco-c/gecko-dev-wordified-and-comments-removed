@@ -44,6 +44,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FontFaceSetBinding
 .
 h
@@ -8511,7 +8522,7 @@ FontFaceSet
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

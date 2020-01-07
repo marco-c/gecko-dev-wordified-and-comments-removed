@@ -292,6 +292,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 EventHandlerBinding
 .
 h
@@ -1161,7 +1172,7 @@ ExecuteHandler
 EventTarget
 *
 aTarget
-nsIDOMEvent
+Event
 *
 aEvent
 )

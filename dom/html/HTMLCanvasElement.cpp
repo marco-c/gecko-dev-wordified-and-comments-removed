@@ -107,6 +107,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 File
 .
 h
@@ -1581,7 +1592,7 @@ HTMLCanvasElementObserver
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

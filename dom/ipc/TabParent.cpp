@@ -439,13 +439,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -14762,7 +14755,7 @@ TabParent
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

@@ -902,7 +902,7 @@ nsXULTooltipListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

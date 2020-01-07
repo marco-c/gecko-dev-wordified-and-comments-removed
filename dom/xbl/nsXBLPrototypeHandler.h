@@ -235,6 +235,9 @@ dom
 class
 Element
 ;
+class
+Event
+;
 }
 }
 class
@@ -496,7 +499,13 @@ dom
 EventTarget
 *
 aTarget
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aEvent
 )

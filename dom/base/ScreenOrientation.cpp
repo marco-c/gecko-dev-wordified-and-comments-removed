@@ -81,6 +81,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h
@@ -2553,7 +2564,7 @@ VisibleEventListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -2863,7 +2874,7 @@ FullScreenEventListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

@@ -2912,7 +2912,7 @@ VibrateWindowListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

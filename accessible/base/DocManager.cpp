@@ -1449,7 +1449,7 @@ DocManager
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

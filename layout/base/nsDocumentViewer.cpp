@@ -642,6 +642,17 @@ include
 "
 mozilla
 /
+dom
+/
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -13915,7 +13926,7 @@ nsDocViewerFocusListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

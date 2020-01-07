@@ -762,7 +762,7 @@ nsPrintPreviewListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

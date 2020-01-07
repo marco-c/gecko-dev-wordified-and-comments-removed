@@ -211,13 +211,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsWeakPtr
 .
 h
@@ -372,7 +365,7 @@ VisibilityChangeListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

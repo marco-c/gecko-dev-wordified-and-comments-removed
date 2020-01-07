@@ -7352,7 +7352,7 @@ nsPluginInstanceOwner
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -15933,7 +15933,7 @@ nsPluginDOMContextMenuListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

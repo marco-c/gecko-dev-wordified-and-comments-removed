@@ -78,15 +78,7 @@ aMenuBarContent
 )
 ;
 NS_DECL_ISUPPORTS
-NS_IMETHOD
-HandleEvent
-(
-nsIDOMEvent
-*
-aEvent
-)
-override
-;
+NS_DECL_NSIDOMEVENTLISTENER
 void
 OnDestroyMenuBarFrame
 (

@@ -3382,7 +3382,7 @@ nsFormFillController
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

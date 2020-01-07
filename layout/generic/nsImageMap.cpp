@@ -4700,7 +4700,7 @@ nsImageMap
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

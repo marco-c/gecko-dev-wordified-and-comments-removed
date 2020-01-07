@@ -435,7 +435,7 @@ nsXULPopupListener
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

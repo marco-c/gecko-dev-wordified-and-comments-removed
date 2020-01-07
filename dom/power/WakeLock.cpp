@@ -69,13 +69,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -858,7 +851,7 @@ WakeLock
 :
 HandleEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
