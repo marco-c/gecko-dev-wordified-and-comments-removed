@@ -186,11 +186,6 @@ nsIDOMSimpleGestureEvent
 idl
 '
 '
-nsIDOMTransitionEvent
-.
-idl
-'
-'
 nsIDOMUIEvent
 .
 idl
