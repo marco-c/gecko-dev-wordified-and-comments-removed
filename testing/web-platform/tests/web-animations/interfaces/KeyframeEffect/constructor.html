@@ -15,8 +15,6 @@ utf
 title
 >
 KeyframeEffect
-and
-KeyframeEffectReadOnly
 constructor
 <
 /
@@ -276,7 +274,7 @@ gEmptyKeyframeListTests
 assert_equals
 (
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 frames
@@ -306,7 +304,7 @@ frames
 }
 '
 A
-KeyframeEffectReadOnly
+KeyframeEffect
 can
 be
 constructed
@@ -350,7 +348,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 {
@@ -376,7 +374,9 @@ assert_equals
 (
 effect
 .
-timing
+getTiming
+(
+)
 .
 easing
 expected
@@ -405,7 +405,7 @@ the
 '
 +
 '
-KeyframeEffectReadOnly
+KeyframeEffect
 constructor
 in
 KeyframeEffectOptions
@@ -436,7 +436,7 @@ TypeError
 >
 {
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 null
@@ -476,7 +476,7 @@ the
 '
 +
 '
-KeyframeEffectReadOnly
+KeyframeEffect
 constructor
 in
 KeyframeEffectOptions
@@ -525,7 +525,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 getKeyframe
@@ -576,7 +576,7 @@ TypeError
 >
 {
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 getKeyframe
@@ -603,7 +603,7 @@ the
 '
 +
 '
-KeyframeEffectReadOnly
+KeyframeEffect
 constructor
 in
 property
@@ -663,7 +663,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 getKeyframes
@@ -714,7 +714,7 @@ TypeError
 >
 {
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 getKeyframes
@@ -741,7 +741,7 @@ the
 '
 +
 '
-KeyframeEffectReadOnly
+KeyframeEffect
 constructor
 in
 regular
@@ -767,7 +767,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 {
@@ -783,8 +783,6 @@ left
 ]
 }
 {
-composite
-:
 composite
 }
 )
@@ -831,7 +829,7 @@ TypeError
 >
 {
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 {
@@ -899,7 +897,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 subtest
@@ -921,7 +919,7 @@ output
 ;
 }
 A
-KeyframeEffectReadOnly
+KeyframeEffect
 can
 be
 constructed
@@ -943,7 +941,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 subtest
@@ -955,7 +953,7 @@ const
 secondEffect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 effect
@@ -981,7 +979,7 @@ getKeyframes
 ;
 }
 A
-KeyframeEffectReadOnly
+KeyframeEffect
 constructed
 with
 {
@@ -1017,7 +1015,7 @@ TypeError
 >
 {
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 subtest
@@ -1029,7 +1027,7 @@ input
 )
 ;
 }
-KeyframeEffectReadOnly
+KeyframeEffect
 constructor
 throws
 with
@@ -1051,7 +1049,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 {
@@ -1073,7 +1071,9 @@ timing
 =
 effect
 .
-timing
+getTiming
+(
+)
 ;
 assert_equals
 (
@@ -1214,13 +1214,10 @@ iterationComposite
 }
 '
 A
-KeyframeEffectReadOnly
+KeyframeEffect
 constructed
 without
 any
-'
-+
-'
 KeyframeEffectOptions
 object
 '
@@ -1244,7 +1241,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 {
@@ -1316,7 +1313,9 @@ timing
 =
 effect
 .
-timing
+getTiming
+(
+)
 ;
 assert_equals
 (
@@ -1416,7 +1415,7 @@ direction
 ;
 }
 A
-KeyframeEffectReadOnly
+KeyframeEffect
 constructed
 by
 {
@@ -1451,7 +1450,7 @@ TypeError
 >
 {
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 target
 {
@@ -1476,7 +1475,7 @@ input
 ;
 }
 Invalid
-KeyframeEffectReadOnly
+KeyframeEffect
 option
 by
 {
@@ -1497,7 +1496,7 @@ const
 effect
 =
 new
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 null
 {
@@ -1547,7 +1546,7 @@ target
 }
 '
 A
-KeyframeEffectReadOnly
+KeyframeEffect
 constructed
 with
 null
