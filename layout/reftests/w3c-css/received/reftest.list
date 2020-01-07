@@ -39734,6 +39734,7 @@ vlr
 ref
 .
 xht
+fails
 random
 -
 if
@@ -39864,6 +39865,7 @@ vrl
 ref
 .
 xht
+fails
 random
 -
 if
@@ -40396,6 +40398,7 @@ vrl
 ref
 .
 xht
+fails
 random
 -
 if
