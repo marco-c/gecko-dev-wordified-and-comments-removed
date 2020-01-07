@@ -1802,8 +1802,9 @@ ClearCachedStyles
 (
 )
 ;
-void
-AdjustSpecialBreaks
+MOZ_MUST_USE
+nsresult
+InsertBRElementToEmptyListItemsAndTableCellsInChangedRange
 (
 )
 ;
