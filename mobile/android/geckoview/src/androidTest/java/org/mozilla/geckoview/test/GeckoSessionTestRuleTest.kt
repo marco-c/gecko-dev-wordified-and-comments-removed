@@ -40,7 +40,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSession
 import
@@ -48,7 +48,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSessionSettings
 import
