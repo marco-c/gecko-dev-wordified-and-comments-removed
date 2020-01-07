@@ -1391,6 +1391,7 @@ aOffset
 0
 )
 ;
+MOZ_MUST_USE
 nsresult
 ExpandSelectionForDeletion
 (
