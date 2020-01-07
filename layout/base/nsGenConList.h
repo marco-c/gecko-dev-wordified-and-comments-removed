@@ -56,6 +56,14 @@ LinkedListElement
 nsGenConNode
 >
 {
+using
+StyleContentType
+=
+mozilla
+:
+:
+StyleContentType
+;
 nsIFrame
 *
 mPseudoFrame
