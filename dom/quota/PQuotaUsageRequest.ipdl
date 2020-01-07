@@ -81,6 +81,9 @@ persisted
 uint64_t
 usage
 ;
+uint64_t
+lastAccessed
+;
 }
 ;
 struct

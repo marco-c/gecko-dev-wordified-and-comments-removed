@@ -156,6 +156,13 @@ long
 long
 usage
 ;
+readonly
+attribute
+unsigned
+long
+long
+lastAccessed
+;
 }
 ;
 [
