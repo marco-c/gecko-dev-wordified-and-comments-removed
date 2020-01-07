@@ -618,6 +618,9 @@ getSortedRequests
 (
 state
 )
+forceExport
+:
+true
 }
 ;
 return
