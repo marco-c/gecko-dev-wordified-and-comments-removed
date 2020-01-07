@@ -653,6 +653,8 @@ TOOLBAR_SNAPSHOT_FAILED
 break
 ;
 }
+try
+{
 final
 int
 width
@@ -691,8 +693,6 @@ getByteCount
 4
 ]
 ;
-try
-{
 bm
 .
 getPixels
@@ -719,7 +719,7 @@ pixels
 catch
 (
 final
-Exception
+Throwable
 e
 )
 {
@@ -735,6 +735,15 @@ toolbar
 pixels
 "
 e
+)
+;
+mCompositor
+.
+sendToolbarAnimatorMessage
+(
+LayerSession
+.
+TOOLBAR_SNAPSHOT_FAILED
 )
 ;
 }
