@@ -50,6 +50,25 @@ jsm
 "
 )
 ;
+ChromeUtils
+.
+import
+(
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+CreditCard
+.
+jsm
+"
+)
+;
 const
 TEST_STORE_FILE_NAME
 =
@@ -91,7 +110,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -136,7 +155,7 @@ number
 "
 :
 "
-1111222233334444
+5103059495477870
 "
 "
 cc
@@ -169,7 +188,7 @@ number
 "
 :
 "
-9999888877776666
+3589993783099582
 "
 "
 cc
@@ -212,7 +231,7 @@ number
 "
 :
 "
-9999888877776666
+3589993783099582
 "
 }
 ;
@@ -270,7 +289,7 @@ number
 "
 :
 "
-1234123412341234
+344060747836806
 "
 "
 cc
@@ -332,7 +351,7 @@ number
 "
 :
 "
-1928374619283746
+5415425865751454
 "
 }
 ;
@@ -347,7 +366,7 @@ number
 "
 :
 "
-1234123412341234
+344060747836806
 "
 "
 cc
@@ -390,7 +409,7 @@ number
 "
 :
 "
-1234123412341234
+344060747836806
 "
 invalidField
 :
@@ -420,7 +439,7 @@ number
 "
 :
 "
-1111222233334444
+5103059495477870
 "
 "
 cc
@@ -464,10 +483,10 @@ number
 "
 :
 "
-1111
-2222
-3333
-4444
+5103
+0594
+9547
+7870
 "
 }
 ;
@@ -549,7 +568,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -590,7 +609,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -631,7 +650,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -673,7 +692,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 }
 creditCardToMerge
@@ -686,7 +705,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 billingAddressGUID
 :
@@ -704,7 +723,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 billingAddressGUID
 :
@@ -741,7 +760,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -772,7 +791,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -813,7 +832,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -858,7 +877,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 billingAddressGUID
 :
@@ -876,7 +895,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 }
 expectedCreditCard
@@ -894,7 +913,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 }
 noNeedToUpdate
@@ -932,7 +951,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 }
 creditCardToMerge
@@ -945,7 +964,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -986,7 +1005,7 @@ number
 "
 :
 "
-1234567812345678
+4929001587121045
 "
 "
 cc
@@ -2051,11 +2070,9 @@ cc
 number
 "
 ]
-profileStorage
+CreditCard
 .
-creditCards
-.
-_getMaskedCCNumber
+getLongMaskedNumber
 (
 TEST_CREDIT_CARD_WITH_EMPTY_COMPUTED_FIELD
 [
@@ -2639,11 +2656,9 @@ cc
 number
 "
 ]
-profileStorage
+CreditCard
 .
-creditCards
-.
-_getMaskedCCNumber
+getLongMaskedNumber
 (
 TEST_CREDIT_CARD_WITH_EMPTY_COMPUTED_FIELD
 [
@@ -2699,11 +2714,9 @@ cc
 number
 "
 ]
-profileStorage
+CreditCard
 .
-creditCards
-.
-_getMaskedCCNumber
+getLongMaskedNumber
 (
 TEST_CREDIT_CARD_WITH_EMPTY_COMPUTED_FIELD
 [
@@ -4395,7 +4408,7 @@ number
 ]
 =
 "
-000000000000
+358999378390
 "
 +
 last4Digits
