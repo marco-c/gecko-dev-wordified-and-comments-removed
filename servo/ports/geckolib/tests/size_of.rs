@@ -223,7 +223,7 @@ size_of_test
 (
 test_size_of_application_declaration_block
 ApplicableDeclarationBlock
-28
+32
 )
 ;
 size_of_test
