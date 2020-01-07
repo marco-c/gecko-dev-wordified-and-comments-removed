@@ -157,6 +157,11 @@ GuardTagNotEqual
 \
 _
 (
+LoadObject
+)
+\
+_
+(
 LoadProto
 )
 \
