@@ -3953,6 +3953,9 @@ bool
 mHasSuspendTaint
 ;
 bool
+mForcedHidden
+;
+bool
 mMediaTracksConstructed
 ;
 Visibility
