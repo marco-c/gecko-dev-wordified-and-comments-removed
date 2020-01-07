@@ -325,7 +325,7 @@ innerFunction
 /
 /
 6
-let
+var
 x
 =
 0
@@ -333,7 +333,7 @@ x
 /
 /
 7
-let
+var
 y
 =
 72

@@ -516,7 +516,7 @@ doStuff
 k
 )
 {
-let
+var
 arg
 =
 15
