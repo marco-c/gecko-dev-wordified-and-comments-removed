@@ -27,8 +27,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -130,7 +128,6 @@ once
 destroy
 "
 (
-event
 )
 =
 >
