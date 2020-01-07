@@ -35,6 +35,13 @@ nsIStringBundle
 h
 "
 #
+include
+"
+nsIThreadRetargetableStreamListener
+.
+h
+"
+#
 define
 NSMEDIADOCUMENT_PROPERTIES_URI
 "
@@ -261,6 +268,8 @@ MediaDocumentStreamListener
 :
 public
 nsIStreamListener
+public
+nsIThreadRetargetableStreamListener
 {
 protected
 :
@@ -288,9 +297,10 @@ nsIStreamListener
 aListener
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 void
 DropDocumentRef
 (
