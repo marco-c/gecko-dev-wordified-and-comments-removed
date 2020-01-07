@@ -813,6 +813,10 @@ aValue
 }
 break
 ;
+default
+:
+break
+;
 }
 return
 aValue
@@ -878,6 +882,10 @@ height
 1
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -1933,6 +1941,10 @@ CROP_PROP_RECT
 }
 break
 ;
+default
+:
+break
+;
 }
 return
 UINT32_MAX
@@ -1986,6 +1998,10 @@ return
 true
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -2231,6 +2247,10 @@ UNPREMULTIPLY
 :
 return
 CLSID_D2D1UnPremultiply
+;
+default
+:
+break
 ;
 }
 return
