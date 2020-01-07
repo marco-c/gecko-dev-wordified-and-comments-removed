@@ -113,7 +113,7 @@ synthesizeKey
 KEY_ArrowLeft
 "
 {
-altKey
+metaKey
 :
 true
 }
@@ -181,6 +181,11 @@ inputField
 value
 "
 ug1105244
+.
+example
+.
+com
+/
 "
 )
 ;
@@ -207,6 +212,11 @@ inputField
 value
 "
 g1105244
+.
+example
+.
+com
+/
 "
 )
 ;

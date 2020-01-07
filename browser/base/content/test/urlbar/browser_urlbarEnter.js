@@ -41,6 +41,7 @@ add_task
 (
 async
 function
+returnKeypress
 (
 )
 {
@@ -56,13 +57,10 @@ keypress
 let
 tab
 =
-gBrowser
-.
-selectedTab
-=
+await
 BrowserTestUtils
 .
-addTab
+openNewForegroundTab
 (
 gBrowser
 START_VALUE
@@ -145,6 +143,7 @@ add_task
 (
 async
 function
+altReturnKeypress
 (
 )
 {

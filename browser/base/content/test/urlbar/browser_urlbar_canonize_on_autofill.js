@@ -224,7 +224,6 @@ modified
 example
 .
 com
-/
 "
 waitForUrl
 :
