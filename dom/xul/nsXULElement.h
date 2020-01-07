@@ -490,6 +490,10 @@ mAttributes
 (
 nullptr
 )
+mIsAtom
+(
+nullptr
+)
 {
 }
 virtual
@@ -695,6 +699,12 @@ mHasStyleAttribute
 nsXULPrototypeAttribute
 *
 mAttributes
+;
+RefPtr
+<
+nsAtom
+>
+mIsAtom
 ;
 }
 ;

@@ -1714,6 +1714,15 @@ aBaseURI
 ;
 static
 bool
+IsNameWithDash
+(
+nsAtom
+*
+aName
+)
+;
+static
+bool
 IsCustomElementName
 (
 nsAtom
