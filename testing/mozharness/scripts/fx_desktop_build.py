@@ -171,6 +171,12 @@ l10n
 '
                 
 '
+package
+-
+source
+'
+                
+'
 update
 '
             
