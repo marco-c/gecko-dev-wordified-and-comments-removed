@@ -224,6 +224,15 @@ mozilla
 dom
 :
 :
+AnimationEffectReadOnly
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 AnimationPlayState
 ;
 using
