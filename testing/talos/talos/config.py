@@ -3277,6 +3277,24 @@ container
 '
                 
 '
+debug
+'
+:
+False
+                
+'
+debugger
+'
+:
+None
+                
+'
+debugger_args
+'
+:
+None
+                
+'
 develop
 '
 :
