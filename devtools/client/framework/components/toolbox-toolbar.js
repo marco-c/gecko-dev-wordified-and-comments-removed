@@ -303,6 +303,13 @@ toolbox
 PropTypes
 .
 object
+onTabsOrderUpdated
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }

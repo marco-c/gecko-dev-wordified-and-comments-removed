@@ -156,7 +156,9 @@ tab
 )
 ;
 const
+{
 ToolboxTabsOrderManager
+}
 =
 require
 (
@@ -235,6 +237,13 @@ L10N
 PropTypes
 .
 object
+onTabsOrderUpdated
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -294,6 +303,9 @@ _tabsOrderManager
 new
 ToolboxTabsOrderManager
 (
+props
+.
+onTabsOrderUpdated
 )
 ;
 }
