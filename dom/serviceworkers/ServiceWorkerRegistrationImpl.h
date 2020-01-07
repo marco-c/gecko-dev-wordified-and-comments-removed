@@ -299,6 +299,10 @@ ServiceWorkerRegistration
 :
 Inner
 {
+friend
+class
+WorkerListener
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING
@@ -436,6 +440,16 @@ InitListener
 void
 ReleaseListener
 (
+)
+;
+WorkerPrivate
+*
+GetWorkerPrivate
+(
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 RefPtr
