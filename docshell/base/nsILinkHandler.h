@@ -90,6 +90,8 @@ nsIInputStream
 *
 aHeadersDataStream
 bool
+aIsUserTriggered
+bool
 aIsTrusted
 nsIPrincipal
 *
@@ -146,6 +148,10 @@ nsIRequest
 aRequest
 =
 0
+bool
+aIsUserTriggered
+=
+false
 nsIPrincipal
 *
 aTriggeringPrincipal

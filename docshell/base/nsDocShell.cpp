@@ -52361,6 +52361,8 @@ aHeadersDataStream
 bool
 aNoOpenerImplied
 bool
+aIsUserTriggered
+bool
 aIsTrusted
 nsIPrincipal
 *
@@ -52424,6 +52426,7 @@ mHeadersDataStream
 mNoOpenerImplied
 nullptr
 nullptr
+mIsUserTriggered
 mTriggeringPrincipal
 )
 ;
@@ -52480,6 +52483,9 @@ bool
 mNoOpenerImplied
 ;
 bool
+mIsUserTriggered
+;
+bool
 mIsTrusted
 ;
 nsCOMPtr
@@ -52522,6 +52528,8 @@ nsIInputStream
 aHeadersDataStream
 bool
 aNoOpenerImplied
+bool
+aIsUserTriggered
 bool
 aIsTrusted
 nsIPrincipal
@@ -52586,6 +52594,10 @@ mNoOpenerImplied
 (
 aNoOpenerImplied
 )
+mIsUserTriggered
+(
+aIsUserTriggered
+)
 mIsTrusted
 (
 aIsTrusted
@@ -52624,6 +52636,8 @@ aPostDataStreamLength
 nsIInputStream
 *
 aHeadersDataStream
+bool
+aIsUserTriggered
 bool
 aIsTrusted
 nsIPrincipal
@@ -52798,6 +52812,7 @@ aPostDataStream
 aPostDataStreamLength
 aHeadersDataStream
 noOpenerImplied
+aIsUserTriggered
 aIsTrusted
 aTriggeringPrincipal
 )
@@ -52881,6 +52896,8 @@ nsIRequest
 *
 *
 aRequest
+bool
+aIsUserTriggered
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -53429,6 +53446,17 @@ LOAD_NORMAL_REPLACE
 :
 LOAD_LINK
 ;
+if
+(
+aIsUserTriggered
+)
+{
+flags
+|
+=
+INTERNAL_LOAD_FLAGS_IS_USER_TRIGGERED
+;
+}
 nsresult
 rv
 =
