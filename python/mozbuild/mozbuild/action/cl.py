@@ -305,6 +305,15 @@ target
 pp
 "
     
+showincludes
+=
+'
+-
+showIncludes
+'
+in
+cmdline
+    
 cmdline
 +
 =
@@ -398,10 +407,14 @@ add_dependencies
 dep
 ]
 )
-        
-else
-:
             
+if
+not
+showincludes
+:
+                
+return
+        
 sys
 .
 stdout
@@ -410,7 +423,7 @@ write
 (
 line
 )
-            
+        
 sys
 .
 stdout
