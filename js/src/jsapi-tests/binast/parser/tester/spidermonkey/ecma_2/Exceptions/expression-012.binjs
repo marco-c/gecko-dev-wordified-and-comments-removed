@@ -108,23 +108,6 @@ list
 <
 list
 >
-=
-<
-string
->
-exception
-<
-/
-string
->
-<
-string
->
-result
-<
-/
-string
->
 <
 /
 list
@@ -887,7 +870,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >
@@ -1257,7 +1239,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1438,7 +1419,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1450,7 +1430,6 @@ tuple
 <
 list
 >
-)
 <
 tuple
 >

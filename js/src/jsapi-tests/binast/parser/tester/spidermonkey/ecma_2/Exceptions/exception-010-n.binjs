@@ -37,7 +37,6 @@ list
 <
 list
 >
-V
 <
 string
 >
@@ -87,7 +86,6 @@ list
 <
 list
 >
-/
 <
 tuple
 >
@@ -689,7 +687,6 @@ tuple
 <
 list
 >
-g
 <
 tuple
 >
@@ -781,7 +778,6 @@ tuple
 <
 list
 >
-g
 <
 tuple
 >
@@ -1148,7 +1144,6 @@ tuple
 <
 list
 >
-a
 <
 tuple
 >

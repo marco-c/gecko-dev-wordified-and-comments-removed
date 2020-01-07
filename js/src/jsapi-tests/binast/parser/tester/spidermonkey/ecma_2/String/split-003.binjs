@@ -31,13 +31,6 @@ head
 list
 >
 <
-/
-list
->
-<
-list
->
-<
 string
 >
 AddLimitedSplitCases
@@ -52,6 +45,13 @@ AddSplitCases
 <
 /
 string
+>
+<
+/
+list
+>
+<
+list
 >
 <
 string
@@ -102,7 +102,6 @@ list
 <
 list
 >
-!
 <
 tuple
 >
@@ -529,7 +528,6 @@ tuple
 <
 list
 >
-T
 <
 tuple
 >
@@ -834,7 +832,6 @@ tuple
 <
 list
 >
-m
 <
 tuple
 >
@@ -1374,7 +1371,6 @@ head
 <
 list
 >
-Y
 <
 tuple
 >
@@ -2953,7 +2949,6 @@ tuple
 <
 list
 >
-T
 <
 tuple
 >
@@ -3458,7 +3453,6 @@ tuple
 <
 list
 >
-K
 <
 tuple
 >
@@ -3588,7 +3582,6 @@ head
 <
 list
 >
-X
 <
 tuple
 >
@@ -4205,7 +4198,6 @@ tuple
 <
 list
 >
-G
 <
 tuple
 >
@@ -4334,7 +4326,6 @@ head
 <
 list
 >
-T
 <
 tuple
 >
@@ -5402,7 +5393,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -5430,14 +5421,6 @@ head
 >
 <
 list
->
-<
-string
->
-AddSplitCases
-<
-/
-string
 >
 <
 string
@@ -5511,7 +5494,6 @@ list
 <
 list
 >
-:
 <
 string
 >
@@ -5583,7 +5565,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -5690,7 +5671,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -6127,7 +6107,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -6620,7 +6599,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -6701,7 +6679,6 @@ string
 <
 list
 >
-B
 <
 tuple
 >
@@ -6902,7 +6879,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -7078,7 +7054,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -7412,7 +7387,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -7424,7 +7398,6 @@ tuple
 <
 list
 >
-n
 <
 tuple
 >
@@ -7948,7 +7921,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -8051,7 +8023,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -8079,14 +8051,6 @@ head
 >
 <
 list
->
-<
-string
->
-AddLimitedSplitCases
-<
-/
-string
 >
 <
 string
@@ -8168,7 +8132,6 @@ list
 <
 list
 >
-;
 <
 string
 >
@@ -8370,7 +8333,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -8406,7 +8368,6 @@ list
 <
 list
 >
-%
 <
 tuple
 >
@@ -9067,7 +9028,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -9827,7 +9787,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -10335,7 +10294,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -10347,7 +10305,6 @@ tuple
 <
 list
 >
-"
 <
 tuple
 >
@@ -10400,7 +10357,6 @@ tuple
 <
 list
 >
-4
 <
 tuple
 >

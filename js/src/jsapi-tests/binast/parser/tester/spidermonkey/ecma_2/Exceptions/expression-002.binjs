@@ -31,6 +31,14 @@ head
 list
 >
 <
+string
+>
+Property
+<
+/
+string
+>
+<
 /
 list
 >
@@ -41,14 +49,6 @@ list
 string
 >
 PROPERTY
-<
-/
-string
->
-<
-string
->
-Property
 <
 /
 string
@@ -117,14 +117,6 @@ list
 list
 >
 <
-string
->
-p
-<
-/
-string
->
-<
 /
 list
 >
@@ -142,7 +134,6 @@ list
 <
 list
 >
-)
 <
 tuple
 >
@@ -1443,7 +1434,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1455,7 +1445,6 @@ tuple
 <
 list
 >
-T
 <
 tuple
 >
@@ -1675,7 +1664,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1687,7 +1675,6 @@ tuple
 <
 list
 >
-)
 <
 tuple
 >
@@ -2306,7 +2293,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2334,14 +2321,6 @@ head
 >
 <
 list
->
-<
-string
->
-Property
-<
-/
-string
 >
 <
 string
@@ -2396,7 +2375,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2445,7 +2423,6 @@ head
 <
 list
 >
-K
 <
 tuple
 >
@@ -2552,7 +2529,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2588,7 +2564,6 @@ list
 <
 list
 >
-"
 <
 tuple
 >
@@ -2791,7 +2766,6 @@ tuple
 <
 list
 >
-X
 <
 tuple
 >
@@ -2937,7 +2911,6 @@ tuple
 <
 list
 >
-X
 <
 tuple
 >
