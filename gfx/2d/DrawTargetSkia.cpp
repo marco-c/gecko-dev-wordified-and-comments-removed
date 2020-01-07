@@ -10436,6 +10436,13 @@ restore
 (
 )
 ;
+SetTransform
+(
+GetTransform
+(
+)
+)
+;
 }
 void
 DrawTargetSkia
@@ -11070,6 +11077,13 @@ restore
 )
 ;
 }
+SetTransform
+(
+GetTransform
+(
+)
+)
+;
 SetPermitSubpixelAA
 (
 layer
