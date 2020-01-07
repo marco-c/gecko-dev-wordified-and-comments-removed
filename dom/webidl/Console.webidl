@@ -144,6 +144,7 @@ Window
 Worker
 WorkerDebugger
 Worklet
+System
 )
 ClassString
 =

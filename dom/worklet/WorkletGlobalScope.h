@@ -177,8 +177,10 @@ GetWrapper
 )
 ;
 }
+already_AddRefed
+<
 Console
-*
+>
 GetConsole
 (
 ErrorResult
