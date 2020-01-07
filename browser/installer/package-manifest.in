@@ -1176,13 +1176,6 @@ components
 dom_storage
 .
 xpt
-RESPATH
-/
-components
-/
-dom_traversal
-.
-xpt
 #
 ifdef
 MOZ_WEBSPEECH

@@ -66,9 +66,6 @@ idl
 interface
 nsIDOMNode
 ;
-interface
-nsIDOMNodeFilter
-;
 /
 /
 Note
@@ -304,11 +301,6 @@ attribute
 unsigned
 long
 whatToShow
-;
-readonly
-attribute
-nsIDOMNodeFilter
-filter
 ;
 attribute
 nsIDOMNode

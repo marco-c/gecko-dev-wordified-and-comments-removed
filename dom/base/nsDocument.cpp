@@ -362,13 +362,6 @@ h
 #
 include
 "
-nsIDOMNodeFilter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
