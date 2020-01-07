@@ -1804,9 +1804,11 @@ runtimeFromAnyThread
 if
 (
 !
-RuntimeFromMainThreadIsHeapMajorCollecting
+JS
+:
+:
+CurrentThreadIsHeapCollecting
 (
-shadowZone
 )
 )
 JS
