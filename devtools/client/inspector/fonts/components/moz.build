@@ -98,6 +98,11 @@ FontList
 js
 '
 '
+FontPreview
+.
+js
+'
+'
 FontsApp
 .
 js

@@ -67,3 +67,15 @@ PropTypes
 string
 }
 ;
+exports
+.
+fontOptions
+=
+{
+previewText
+:
+PropTypes
+.
+string
+}
+;
