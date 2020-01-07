@@ -1760,9 +1760,6 @@ mPlayed
 Start
 (
 i
-IgnoreErrors
-(
-)
 )
 ;
 double
@@ -1774,9 +1771,6 @@ mPlayed
 End
 (
 i
-IgnoreErrors
-(
-)
 )
 ;
 total

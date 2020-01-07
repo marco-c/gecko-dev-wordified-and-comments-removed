@@ -11380,9 +11380,6 @@ aRanges
 Start
 (
 i
-IgnoreErrors
-(
-)
 )
 ;
 if
@@ -11410,9 +11407,6 @@ aRanges
 End
 (
 i
-IgnoreErrors
-(
-)
 )
 ;
 if
@@ -11824,9 +11818,6 @@ seekable
 End
 (
 range
-IgnoreErrors
-(
-)
 )
 ;
 double
@@ -11840,9 +11831,6 @@ Start
 range
 +
 1
-IgnoreErrors
-(
-)
 )
 ;
 double
@@ -11919,8 +11907,11 @@ aTime
 seekable
 -
 >
-GetEndTime
+End
 (
+length
+-
+1
 )
 ;
 }
@@ -11932,8 +11923,9 @@ aTime
 seekable
 -
 >
-GetStartTime
+Start
 (
+0
 )
 ;
 }
@@ -12205,9 +12197,6 @@ mPlayed
 Start
 (
 i
-IgnoreErrors
-(
-)
 )
 ;
 double
@@ -12219,9 +12208,6 @@ mPlayed
 End
 (
 i
-IgnoreErrors
-(
-)
 )
 ;
 ranges
@@ -18878,9 +18864,6 @@ t
 errorMargin
 )
 ;
-ErrorResult
-ignore
-;
 stalled
 =
 index
@@ -18899,7 +18882,6 @@ ranges
 End
 (
 index
-ignore
 )
 -
 t

@@ -227,9 +227,6 @@ i
 +
 )
 {
-ErrorResult
-rv
-;
 t
 +
 =
@@ -249,7 +246,6 @@ FromSeconds
 Start
 (
 i
-rv
 )
 )
 media
@@ -263,7 +259,6 @@ FromSeconds
 End
 (
 i
-rv
 )
 )
 )
@@ -317,12 +312,10 @@ return
 ;
 }
 return
-mRanges
-[
+Start
+(
 aIndex
-]
-.
-mStart
+)
 ;
 }
 double
@@ -360,12 +353,10 @@ return
 ;
 }
 return
-mRanges
-[
+End
+(
 aIndex
-]
-.
-mEnd
+)
 ;
 }
 void
