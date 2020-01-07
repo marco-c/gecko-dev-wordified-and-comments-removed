@@ -109,11 +109,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMCDATASection
-.
-idl
-'
-'
 nsIDOMCharacterData
 .
 idl

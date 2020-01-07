@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIDOMCDATASection
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -44,7 +37,7 @@ final
 public
 Text
 public
-nsIDOMCDATASection
+nsIDOMText
 {
 private
 :

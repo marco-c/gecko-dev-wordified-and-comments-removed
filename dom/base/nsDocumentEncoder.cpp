@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsIDOMCDATASection
-.
-h
-"
-#
-include
-"
 nsIDOMComment
 .
 h

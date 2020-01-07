@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDOMCDATASection
-.
-h
-"
-#
-include
-"
 DocumentType
 .
 h

@@ -322,7 +322,7 @@ DOMString
 data
 )
 ;
-nsIDOMCDATASection
+nsISupports
 createCDATASection
 (
 in

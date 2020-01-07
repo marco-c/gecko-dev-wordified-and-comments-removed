@@ -137,9 +137,6 @@ nsViewID
 /
 Core
 interface
-nsIDOMCDATASection
-;
-interface
 nsIDOMCharacterData
 ;
 interface
