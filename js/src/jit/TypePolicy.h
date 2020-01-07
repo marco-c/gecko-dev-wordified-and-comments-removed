@@ -612,7 +612,7 @@ unsigned
 Op
 >
 class
-IntPolicy
+UnboxedInt32Policy
 final
 :
 private
