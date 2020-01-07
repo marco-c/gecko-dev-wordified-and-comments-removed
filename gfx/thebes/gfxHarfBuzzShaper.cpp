@@ -534,6 +534,9 @@ disaster
 "
 )
 ;
+uint32_t
+length
+;
 const
 uint8_t
 *
@@ -547,7 +550,8 @@ uint8_t
 hb_blob_get_data
 (
 mCmapTable
-nullptr
+&
+length
 )
 ;
 switch
@@ -571,6 +575,9 @@ MapCharToGlyphFormat4
 (
 data
 +
+mSubtableOffset
+length
+-
 mSubtableOffset
 unicode
 )
@@ -748,6 +755,9 @@ disaster
 "
 )
 ;
+uint32_t
+length
+;
 const
 uint8_t
 *
@@ -761,7 +771,8 @@ uint8_t
 hb_blob_get_data
 (
 mCmapTable
-nullptr
+&
+length
 )
 ;
 if
@@ -834,6 +845,9 @@ MapCharToGlyphFormat4
 (
 data
 +
+mSubtableOffset
+length
+-
 mSubtableOffset
 compat
 )

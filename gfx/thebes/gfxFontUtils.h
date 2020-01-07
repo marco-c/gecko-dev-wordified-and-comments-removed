@@ -3685,6 +3685,8 @@ const
 uint8_t
 *
 aBuf
+uint32_t
+aLength
 char16_t
 aCh
 )
