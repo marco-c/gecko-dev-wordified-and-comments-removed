@@ -2960,13 +2960,9 @@ warn_unused
 =
 0
                  
-inline
-=
-0
 force_inline
 =
 0
-                 
 typeop
 =
 None
@@ -3098,12 +3094,6 @@ T
         
 self
 .
-inline
-=
-inline
-        
-self
-.
 typeop
 =
 typeop
@@ -3177,12 +3167,6 @@ warn_unused
 self
 .
 warn_unused
-            
-inline
-=
-self
-.
-inline
             
 force_inline
 =
@@ -3275,13 +3259,9 @@ warn_unused
 =
 0
                  
-inline
-=
-0
 force_inline
 =
 0
-                 
 T
 =
 None
@@ -3323,13 +3303,9 @@ warn_unused
 =
 warn_unused
                             
-inline
-=
-inline
 force_inline
 =
 force_inline
-                            
 T
 =
 T
@@ -3486,9 +3462,6 @@ NONE
 force_inline
 =
 0
-inline
-=
-0
 )
 :
         
@@ -3524,13 +3497,9 @@ None
 methodspec
 =
 methodspec
-                            
 force_inline
 =
 force_inline
-inline
-=
-inline
 )
     
 def
@@ -3559,12 +3528,6 @@ force_inline
 self
 .
 force_inline
-                              
-inline
-=
-self
-.
-inline
 )
 class
 DestructorDefn
