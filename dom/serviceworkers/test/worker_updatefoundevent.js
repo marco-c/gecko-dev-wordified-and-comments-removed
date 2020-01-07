@@ -28,7 +28,14 @@ clients
 length
 )
 {
-return
+reject
+(
+"
+No
+clients
+found
+"
+)
 ;
 }
 if
