@@ -83639,7 +83639,7 @@ branchTest32
 Assembler
 :
 :
-Zero
+NonZero
 temp1
 Imm32
 (
