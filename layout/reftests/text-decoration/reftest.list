@@ -1,4 +1,4 @@
-fails
+fuzzy
 -
 if
 (
@@ -6,6 +6,12 @@ webrender
 &
 &
 gtkWidget
+0
+-
+208
+0
+-
+12
 )
 =
 =
@@ -29,7 +35,7 @@ quirks
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -37,6 +43,12 @@ webrender
 &
 &
 gtkWidget
+0
+-
+208
+0
+-
+12
 )
 =
 =
