@@ -280,13 +280,6 @@ h
 #
 include
 "
-xptinfo
-.
-h
-"
-#
-include
-"
 nsTimerImpl
 .
 h

@@ -19,13 +19,6 @@ nsXPCOM
 h
 "
 #
-include
-"
-xptcall
-.
-h
-"
-#
 define
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 "
