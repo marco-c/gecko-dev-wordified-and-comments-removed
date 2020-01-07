@@ -2012,7 +2012,7 @@ LogCapability
 Chosen
 capability
 "
-mCapability
+aCapability
 sameDistance
 )
 ;
