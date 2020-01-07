@@ -59,7 +59,7 @@ MPL
 #
 define
 VECS_PER_SPECIFIC_BRUSH
-5
+1
 #
 include
 shared
