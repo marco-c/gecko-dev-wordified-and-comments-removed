@@ -367,6 +367,13 @@ components
 style_traits
 "
 }
+tinyfiledialogs
+=
+"
+3
+.
+0
+"
 webrender_api
 =
 {
