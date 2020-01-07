@@ -2357,14 +2357,6 @@ aCORSMode
 )
 override
 ;
-virtual
-nsISupports
-*
-GetCurrentContentSink
-(
-)
-override
-;
 void
 AsyncBlockOnload
 (
