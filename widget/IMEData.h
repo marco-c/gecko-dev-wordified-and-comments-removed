@@ -567,6 +567,10 @@ mMayBeIMEUnaware
 (
 false
 )
+mHasHandledUserInput
+(
+false
+)
 mInPrivateBrowsing
 (
 false
