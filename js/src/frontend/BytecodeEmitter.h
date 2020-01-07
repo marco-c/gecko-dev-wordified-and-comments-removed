@@ -3051,8 +3051,6 @@ ParseNode
 maybeFun
 HandleAtom
 name
-FunctionPrefixKind
-prefixKind
 )
 ;
 MOZ_MUST_USE
