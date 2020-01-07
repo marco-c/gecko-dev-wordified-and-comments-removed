@@ -519,7 +519,7 @@ nullptr
 const
 nsAttrValue
 *
-GetClasses
+DoGetClasses
 (
 )
 const
