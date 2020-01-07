@@ -3866,7 +3866,7 @@ if
 v
 <
 (
-ULONG_MAX
+FT_ULONG_MAX
 -
 9
 )
@@ -3892,7 +3892,7 @@ else
 {
 v
 =
-ULONG_MAX
+FT_ULONG_MAX
 ;
 break
 ;
@@ -3979,7 +3979,7 @@ if
 v
 <
 (
-LONG_MAX
+FT_LONG_MAX
 -
 9
 )
@@ -4005,7 +4005,7 @@ else
 {
 v
 =
-LONG_MAX
+FT_LONG_MAX
 ;
 break
 ;
@@ -4077,7 +4077,7 @@ if
 v
 <
 (
-USHRT_MAX
+FT_USHORT_MAX
 -
 9
 )
@@ -4109,7 +4109,7 @@ else
 {
 v
 =
-USHRT_MAX
+FT_USHORT_MAX
 ;
 break
 ;

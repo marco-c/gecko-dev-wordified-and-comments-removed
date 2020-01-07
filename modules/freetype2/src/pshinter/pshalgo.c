@@ -34,7 +34,7 @@ FT_COMPONENT
 #
 define
 FT_COMPONENT
-trace_pshalgo2
+trace_pshalgo
 #
 ifdef
 DEBUG_HINTER

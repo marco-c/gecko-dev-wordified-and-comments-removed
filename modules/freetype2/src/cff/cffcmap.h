@@ -6,11 +6,7 @@ define
 CFFCMAP_H_
 #
 include
-"
-cffobjs
-.
-h
-"
+FT_INTERNAL_CFF_OBJECTS_TYPES_H
 FT_BEGIN_HEADER
 typedef
 struct

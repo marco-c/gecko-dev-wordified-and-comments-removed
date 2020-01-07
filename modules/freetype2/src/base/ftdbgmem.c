@@ -3036,7 +3036,7 @@ result
 ;
 if
 (
-getenv
+ft_getenv
 (
 "
 FT2_DEBUG_MEMORY
@@ -3091,7 +3091,7 @@ ft_mem_debug_free
 ;
 p
 =
-getenv
+ft_getenv
 (
 "
 FT2_ALLOC_TOTAL_MAX
@@ -3138,7 +3138,7 @@ total_max
 }
 p
 =
-getenv
+ft_getenv
 (
 "
 FT2_ALLOC_COUNT_MAX
@@ -3185,7 +3185,7 @@ total_count
 }
 p
 =
-getenv
+ft_getenv
 (
 "
 FT2_KEEP_ALIVE

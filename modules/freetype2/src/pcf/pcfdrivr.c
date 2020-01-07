@@ -85,7 +85,7 @@ include
 FT_SERVICE_PROPERTIES_H
 #
 include
-FT_PCF_DRIVER_H
+FT_DRIVER_H
 #
 undef
 FT_COMPONENT

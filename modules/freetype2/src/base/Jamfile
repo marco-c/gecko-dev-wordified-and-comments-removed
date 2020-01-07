@@ -10,7 +10,7 @@ Jamfile
 Copyright
 2001
 -
-2017
+2018
 by
 #
 David
@@ -106,6 +106,7 @@ fthash
 ftobjs
 ftoutln
 ftpic
+ftpsprop
 ftrfork
 ftsnames
 ftstream

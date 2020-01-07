@@ -1,11 +1,7 @@
 FreeType
 2
 .
-8
-.
-1
-=
-=
+9
 =
 =
 =
@@ -20,7 +16,7 @@ FreeType
 =
 Homepage
 :
-http
+https
 :
 /
 /
@@ -154,7 +150,7 @@ sites
 .
 Go
 to
-http
+https
 :
 /
 /
@@ -184,9 +180,7 @@ doc
 -
 2
 .
-8
-.
-1
+9
 .
 tar
 .
@@ -197,14 +191,12 @@ doc
 -
 2
 .
-8
-.
-1
+9
 .
 tar
 .
 gz
-ftdoc281
+ftdoc29
 .
 zip
 To
@@ -214,7 +206,7 @@ documentation
 online
 go
 to
-http
+https
 :
 /
 /
@@ -305,7 +297,7 @@ are
 moderated
 ;
 see
-http
+https
 :
 /
 /
@@ -477,7 +469,7 @@ Team
 Copyright
 2006
 -
-2017
+2018
 by
 David
 Turner

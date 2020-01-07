@@ -11,7 +11,7 @@ rules
 Copyright
 1996
 -
-2017
+2018
 by
 #
 David
@@ -297,6 +297,14 @@ BASE_DIR
 )
 /
 ftpic
+.
+c
+\
+(
+BASE_DIR
+)
+/
+ftpsprop
 .
 c
 \

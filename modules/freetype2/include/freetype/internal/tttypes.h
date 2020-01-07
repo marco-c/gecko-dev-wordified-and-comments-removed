@@ -922,6 +922,10 @@ var
 ;
 #
 endif
+void
+*
+psaux
+;
 TT_GaspRec
 gasp
 ;
@@ -986,9 +990,6 @@ doblend
 ;
 GX_Blend
 blend
-;
-FT_Bool
-is_default_instance
 ;
 FT_UInt32
 variation_support

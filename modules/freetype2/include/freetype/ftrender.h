@@ -165,7 +165,7 @@ FT_Renderer
 renderer
 FT_GlyphSlot
 slot
-FT_UInt
+FT_Render_Mode
 mode
 const
 FT_Vector

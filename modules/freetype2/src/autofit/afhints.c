@@ -1170,6 +1170,7 @@ hints
 >
 num_points
 )
+{
 AF_DUMP
 (
 (
@@ -1192,6 +1193,7 @@ yfit
 )
 )
 ;
+}
 else
 AF_DUMP
 (
@@ -1707,6 +1709,7 @@ axis
 >
 num_segments
 )
+{
 AF_DUMP
 (
 (
@@ -1733,6 +1736,7 @@ n
 )
 )
 ;
+}
 else
 AF_DUMP
 (
@@ -2402,6 +2406,7 @@ axis
 >
 num_edges
 )
+{
 AF_DUMP
 (
 (
@@ -2423,6 +2428,7 @@ n
 )
 )
 ;
+}
 else
 AF_DUMP
 (

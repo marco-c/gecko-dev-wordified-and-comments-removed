@@ -10,7 +10,7 @@ Jamfile
 Copyright
 2001
 -
-2017
+2018
 by
 #
 David
@@ -104,15 +104,6 @@ cffload
 cffobjs
 cffparse
 cffpic
-cf2arrst
-cf2blues
-cf2error
-cf2font
-cf2ft
-cf2hints
-cf2intrp
-cf2read
-cf2stack
 ;
 }
 else

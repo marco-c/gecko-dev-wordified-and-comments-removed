@@ -81,6 +81,13 @@ c
 #
 include
 "
+ftpsprop
+.
+c
+"
+#
+include
+"
 ftrfork
 .
 c

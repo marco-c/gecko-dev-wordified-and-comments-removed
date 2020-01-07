@@ -3928,7 +3928,7 @@ glyph
 .
 bpr
 >
-INT_MAX
+FT_INT_MAX
 )
 FT_TRACE1
 (

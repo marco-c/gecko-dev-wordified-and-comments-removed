@@ -68,6 +68,10 @@ bitmap
 )
 FT_TRACE_DEF
 (
+psprops
+)
+FT_TRACE_DEF
+(
 cache
 )
 FT_TRACE_DEF
@@ -144,10 +148,6 @@ t1gload
 )
 FT_TRACE_DEF
 (
-t1hint
-)
-FT_TRACE_DEF
-(
 t1load
 )
 FT_TRACE_DEF
@@ -164,6 +164,10 @@ t1decode
 )
 FT_TRACE_DEF
 (
+cffdecode
+)
+FT_TRACE_DEF
+(
 psobjs
 )
 FT_TRACE_DEF
@@ -176,11 +180,7 @@ pshrec
 )
 FT_TRACE_DEF
 (
-pshalgo1
-)
-FT_TRACE_DEF
-(
-pshalgo2
+pshalgo
 )
 FT_TRACE_DEF
 (
@@ -217,10 +217,6 @@ cf2interp
 FT_TRACE_DEF
 (
 t42
-)
-FT_TRACE_DEF
-(
-cidafm
 )
 FT_TRACE_DEF
 (

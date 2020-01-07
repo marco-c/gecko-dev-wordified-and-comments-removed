@@ -1,10 +1,10 @@
 This
 directory
 contains
-freetype2
+FreeType
 v2
 .
-8
+9
 downloaded
 from
 https
@@ -32,7 +32,7 @@ changes
 applied
 to
 the
-freetype
+FreeType
 tree
 except
 that

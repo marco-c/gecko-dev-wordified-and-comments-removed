@@ -132,8 +132,9 @@ ap
 fmt
 )
 ;
-vprintf
+vfprintf
 (
+stderr
 fmt
 ap
 )

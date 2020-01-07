@@ -38,7 +38,7 @@ used
 with
 libFuzzer
 (
-http
+https
 :
 /
 /
@@ -123,7 +123,7 @@ libarchive
 '
 library
 (
-http
+https
 :
 /
 /
@@ -504,7 +504,7 @@ my_tests_inputs
 Copyright
 2015
 -
-2017
+2018
 by
 David
 Turner

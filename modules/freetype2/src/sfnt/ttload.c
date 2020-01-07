@@ -936,6 +936,8 @@ memory
 FT_UShort
 nn
 valid_entries
+=
+0
 ;
 static
 const

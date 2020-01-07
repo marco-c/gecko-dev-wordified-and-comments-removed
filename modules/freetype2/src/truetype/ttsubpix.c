@@ -25,7 +25,7 @@ include
 FT_OUTLINE_H
 #
 include
-FT_TRUETYPE_DRIVER_H
+FT_DRIVER_H
 #
 include
 "
@@ -3576,7 +3576,7 @@ j
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 detected_font_name
 rule_font_name
@@ -3590,7 +3590,7 @@ TRUE
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 rule_font_name
 "
@@ -3620,7 +3620,7 @@ i
 {
 if
 (
-strcmp
+ft_strcmp
 (
 FAMILY_CLASS_Rules
 [
@@ -3652,7 +3652,7 @@ j
 {
 if
 (
-strcmp
+ft_strcmp
 (
 FAMILY_CLASS_Rules
 [
@@ -3674,7 +3674,7 @@ continue
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 FAMILY_CLASS_Rules
 [
@@ -3721,7 +3721,7 @@ j
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 detected_font_style
 rule_font_style
@@ -3735,7 +3735,7 @@ TRUE
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 rule_font_style
 "
@@ -3765,7 +3765,7 @@ i
 {
 if
 (
-strcmp
+ft_strcmp
 (
 STYLE_CLASS_Rules
 [
@@ -3797,7 +3797,7 @@ j
 {
 if
 (
-strcmp
+ft_strcmp
 (
 STYLE_CLASS_Rules
 [
@@ -3819,7 +3819,7 @@ continue
 ;
 if
 (
-strcmp
+ft_strcmp
 (
 STYLE_CLASS_Rules
 [

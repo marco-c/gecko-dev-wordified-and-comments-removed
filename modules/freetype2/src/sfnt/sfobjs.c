@@ -3797,13 +3797,6 @@ instance_values
 =
 NULL
 ;
-face
--
->
-is_default_instance
-=
-1
-;
 instance_index
 =
 FT_ABS

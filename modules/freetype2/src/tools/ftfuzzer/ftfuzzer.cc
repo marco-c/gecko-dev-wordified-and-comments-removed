@@ -101,10 +101,7 @@ include
 FT_MODULE_H
 #
 include
-FT_CFF_DRIVER_H
-#
-include
-FT_TRUETYPE_DRIVER_H
+FT_DRIVER_H
 #
 include
 FT_MULTIPLE_MASTERS_H
@@ -141,7 +138,7 @@ unsigned
 int
 cff_hinting_engine
 =
-FT_CFF_HINTING_ADOBE
+FT_HINTING_ADOBE
 ;
 FT_Property_Set
 (

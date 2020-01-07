@@ -22,6 +22,9 @@ h
 include
 FT_BDF_H
 FT_BEGIN_HEADER
+#
+ifdef
+TT_CONFIG_OPTION_BDF
 FT_LOCAL
 (
 void
@@ -49,6 +52,8 @@ BDF_PropertyRec
 aprop
 )
 ;
+#
+endif
 FT_END_HEADER
 #
 endif

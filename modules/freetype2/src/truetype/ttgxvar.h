@@ -19,6 +19,9 @@ ttobjs
 h
 "
 FT_BEGIN_HEADER
+#
+ifdef
+TT_CONFIG_OPTION_GX_VAR_SUPPORT
 typedef
 struct
 GX_AVarCorrespondenceRec_
@@ -1171,6 +1174,18 @@ FT_LOCAL
 (
 FT_Error
 )
+TT_Set_Named_Instance
+(
+TT_Face
+face
+FT_UInt
+instance_index
+)
+;
+FT_LOCAL
+(
+FT_Error
+)
 tt_face_vary_cvt
 (
 TT_Face
@@ -1271,6 +1286,8 @@ TT_Face
 face
 )
 ;
+#
+endif
 FT_END_HEADER
 #
 endif

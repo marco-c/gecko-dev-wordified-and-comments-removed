@@ -2420,7 +2420,7 @@ are
 predefined
 (
 see
-http
+https
 :
 /
 /
@@ -2432,9 +2432,15 @@ com
 /
 fonts
 /
-Registry
+TrueType
+-
+Reference
+-
+Manual
 /
-index
+RM09
+/
+AppendixF
 .
 html
 )
@@ -4584,7 +4590,7 @@ Williams
 Copyright
 2004
 -
-2017
+2018
 by
 suzuki
 toshiya

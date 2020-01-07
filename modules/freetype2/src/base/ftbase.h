@@ -16,6 +16,9 @@ include
 FT_INTERNAL_OBJECTS_H
 FT_BEGIN_HEADER
 #
+ifdef
+FT_CONFIG_OPTION_MAC_FONTS
+#
 define
 FT_MAC_RFORK_MAX_LEN
 0x00FFFFFFUL
@@ -91,6 +94,8 @@ FT_UInt
 rule_index
 )
 ;
+#
+endif
 #
 endif
 FT_END_HEADER

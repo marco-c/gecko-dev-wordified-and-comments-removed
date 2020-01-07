@@ -231,7 +231,7 @@ char
 *
 ft2_debug
 =
-getenv
+ft_getenv
 (
 "
 FT2_DEBUG
