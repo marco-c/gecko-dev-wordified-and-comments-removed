@@ -3959,6 +3959,7 @@ return
 nullptr
 ;
 }
+static
 void
 GetScrollableOverflowForPerspective
 (
@@ -11165,6 +11166,7 @@ NS_STYLE_OVERFLOW_HIDDEN
 )
 ;
 }
+static
 void
 RemoveDisplayPortCallback
 (
@@ -28730,6 +28732,7 @@ return
 directions
 ;
 }
+static
 void
 CollectScrollSnapCoordinates
 (
@@ -29011,6 +29014,7 @@ aOutCoords
 }
 }
 }
+static
 layers
 :
 :

@@ -449,6 +449,7 @@ NS_IMPL_ISUPPORTS
 nsContentDLF
 nsIDocumentLoaderFactory
 )
+static
 bool
 MayUseXULXBL
 (

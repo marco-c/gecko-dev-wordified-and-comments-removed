@@ -8820,6 +8820,7 @@ cbwm
 )
 ;
 }
+static
 nscoord
 GetBlockMarginBorderPadding
 (

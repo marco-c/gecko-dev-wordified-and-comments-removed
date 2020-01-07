@@ -443,6 +443,7 @@ return
 NS_OK
 ;
 }
+static
 void
 FireImageDOMEvent
 (

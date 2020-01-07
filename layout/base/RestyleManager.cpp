@@ -3787,6 +3787,7 @@ return
 aFrame
 ;
 }
+static
 bool
 RecomputePosition
 (

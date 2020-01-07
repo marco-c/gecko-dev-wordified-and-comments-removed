@@ -1509,6 +1509,7 @@ flags
 TYPE_RENDERS_NO_IMAGES
 ;
 }
+static
 void
 InvalidateImages
 (

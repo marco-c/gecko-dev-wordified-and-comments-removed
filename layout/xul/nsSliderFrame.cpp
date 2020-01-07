@@ -4692,6 +4692,7 @@ mDragMetrics
 ;
 }
 ;
+static
 bool
 UsesSVGEffects
 (
@@ -4723,6 +4724,7 @@ aFrame
 )
 ;
 }
+static
 bool
 ScrollFrameWillBuildScrollInfoLayer
 (

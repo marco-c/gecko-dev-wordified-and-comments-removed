@@ -23127,6 +23127,7 @@ false
 )
 ;
 }
+static
 nsIFrame
 :
 :
@@ -33119,6 +33120,7 @@ MarkNeedsDisplayItemRebuild
 )
 ;
 }
+static
 void
 SchedulePaintInternal
 (

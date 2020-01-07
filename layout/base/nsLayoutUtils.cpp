@@ -4063,6 +4063,7 @@ nullptr
 ;
 }
 }
+static
 nsIFrame
 *
 GetScrollFrameFromContent
@@ -6222,6 +6223,7 @@ return
 true
 ;
 }
+static
 void
 TranslateFromScrollPortToScrollFrame
 (

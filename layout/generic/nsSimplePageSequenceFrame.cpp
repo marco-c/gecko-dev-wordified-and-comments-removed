@@ -1963,6 +1963,7 @@ return
 rv
 ;
 }
+static
 void
 GetPrintCanvasElementsInFrame
 (

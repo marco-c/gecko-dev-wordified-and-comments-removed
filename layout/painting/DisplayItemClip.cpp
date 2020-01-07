@@ -893,6 +893,7 @@ return
 r
 ;
 }
+static
 bool
 IsInsideEllipse
 (

@@ -3448,6 +3448,7 @@ itemIdxInContainer
 }
 }
 }
+static
 uint8_t
 SimplifyAlignOrJustifyContentForOneItem
 (
@@ -7786,6 +7787,7 @@ return
 mBaselineFromLastReflow
 ;
 }
+static
 uint32_t
 GetDisplayFlagsForFlexItem
 (

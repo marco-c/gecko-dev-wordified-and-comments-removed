@@ -415,6 +415,7 @@ IsRetained
 )
 ;
 }
+static
 already_AddRefed
 <
 LayerManager

@@ -888,6 +888,7 @@ undef
 CSS_PROP_ALIAS
 }
 ;
+static
 nsStaticCaseInsensitiveNameTable
 *
 CreateStaticTable

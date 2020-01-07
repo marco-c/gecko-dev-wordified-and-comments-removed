@@ -2514,6 +2514,7 @@ eCSSUnit_Calc
 )
 ;
 }
+static
 double
 CalcPositionSquareDistance
 (
@@ -3004,6 +3005,7 @@ Item
 )
 ;
 }
+static
 double
 CalcPositionCoordSquareDistance
 (
@@ -11517,6 +11519,7 @@ ToColor
 )
 ;
 }
+static
 void
 AppendToCSSValueList
 (
@@ -11610,6 +11613,7 @@ release
 ;
 }
 }
+static
 void
 AppendToCSSValuePairList
 (
@@ -19713,6 +19717,7 @@ return
 result
 ;
 }
+static
 already_AddRefed
 <
 css
@@ -19896,6 +19901,7 @@ forget
 )
 ;
 }
+static
 already_AddRefed
 <
 css

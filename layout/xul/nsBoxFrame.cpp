@@ -8567,6 +8567,7 @@ FirstChild
 ;
 }
 }
+static
 bool
 IsBoxOrdinalLEQ
 (

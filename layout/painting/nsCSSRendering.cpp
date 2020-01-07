@@ -3776,6 +3776,7 @@ return
 true
 ;
 }
+static
 nsCSSBorderRenderer
 ConstructBorderRenderer
 (
