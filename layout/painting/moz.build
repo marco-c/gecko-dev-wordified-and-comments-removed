@@ -127,11 +127,6 @@ DisplayItemClipChain
 h
 '
 '
-DisplayItemScrollClip
-.
-h
-'
-'
 DisplayListClipState
 .
 h
@@ -220,11 +215,6 @@ cpp
 '
 '
 DisplayItemClipChain
-.
-cpp
-'
-'
-DisplayItemScrollClip
 .
 cpp
 '
