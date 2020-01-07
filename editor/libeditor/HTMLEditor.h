@@ -657,7 +657,7 @@ aCell
 )
 ;
 nsresult
-SetCSSBackgroundColor
+SetCSSBackgroundColorWithTransaction
 (
 const
 nsAString
@@ -666,7 +666,7 @@ aColor
 )
 ;
 nsresult
-SetHTMLBackgroundColor
+SetHTMLBackgroundColorWithTransaction
 (
 const
 nsAString

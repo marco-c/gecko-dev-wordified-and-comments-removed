@@ -11970,7 +11970,7 @@ nsresult
 HTMLEditor
 :
 :
-SetHTMLBackgroundColor
+SetHTMLBackgroundColorWithTransaction
 (
 const
 nsAString
@@ -18375,7 +18375,7 @@ nsresult
 HTMLEditor
 :
 :
-SetCSSBackgroundColor
+SetCSSBackgroundColorWithTransaction
 (
 const
 nsAString
@@ -19119,14 +19119,14 @@ IsCSSEnabled
 )
 {
 return
-SetCSSBackgroundColor
+SetCSSBackgroundColorWithTransaction
 (
 aColor
 )
 ;
 }
 return
-SetHTMLBackgroundColor
+SetHTMLBackgroundColorWithTransaction
 (
 aColor
 )
