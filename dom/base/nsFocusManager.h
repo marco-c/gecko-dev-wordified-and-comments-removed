@@ -100,6 +100,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 TabParent
 ;
 }
@@ -416,7 +419,13 @@ aActive
 void
 SetFocusInner
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aNewContent
 int32_t
