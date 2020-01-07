@@ -406,17 +406,6 @@ const
 ;
 virtual
 const
-SdpSsrcGroupAttributeList
-&
-GetSsrcGroup
-(
-)
-const
-=
-0
-;
-virtual
-const
 std
 :
 :
