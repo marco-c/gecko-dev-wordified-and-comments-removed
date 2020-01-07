@@ -945,6 +945,7 @@ binary
 bash
 python
 wpt
+run
 product
 [
 tests
