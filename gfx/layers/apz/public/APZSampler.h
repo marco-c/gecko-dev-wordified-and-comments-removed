@@ -41,6 +41,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -315,6 +324,8 @@ StaticMutex
 sWindowIdLock
 ;
 static
+StaticAutoPtr
+<
 std
 :
 :
@@ -323,6 +334,7 @@ unordered_map
 uint64_t
 APZSampler
 *
+>
 >
 sWindowIdMap
 ;

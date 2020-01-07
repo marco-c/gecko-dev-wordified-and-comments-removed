@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes
@@ -493,6 +502,8 @@ StaticMutex
 sWindowIdLock
 ;
 static
+StaticAutoPtr
+<
 std
 :
 :
@@ -501,6 +512,7 @@ unordered_map
 uint64_t
 APZUpdater
 *
+>
 >
 sWindowIdMap
 ;
