@@ -696,6 +696,7 @@ bool
 aCancel
 )
 ;
+MOZ_MUST_USE
 nsresult
 HideLastPWInput
 (
