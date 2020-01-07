@@ -3550,9 +3550,6 @@ cx_
 linker
 .
 newCode
-<
-NoGC
->
 (
 cx_
 CodeKind
