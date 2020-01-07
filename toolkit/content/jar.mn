@@ -138,6 +138,13 @@ content
 /
 global
 /
+aboutRights
+.
+js
+content
+/
+global
+/
 aboutServiceWorkers
 .
 js

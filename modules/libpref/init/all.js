@@ -18429,7 +18429,6 @@ logo
 neterror
 newtab
 printpreview
-rights
 srcdoc
 studies
 "
