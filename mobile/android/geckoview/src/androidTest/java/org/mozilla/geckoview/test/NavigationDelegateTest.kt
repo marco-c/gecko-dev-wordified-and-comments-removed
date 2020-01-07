@@ -171,6 +171,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -2368,6 +2374,7 @@ height
 =
 128
 )
+Ignore
 Test
 fun
 onNewSession_calledForNewWindow
@@ -2463,6 +2470,7 @@ height
 =
 128
 )
+Ignore
 Test
 (
 expected

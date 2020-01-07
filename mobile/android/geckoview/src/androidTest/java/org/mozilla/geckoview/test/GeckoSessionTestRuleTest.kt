@@ -249,6 +249,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -6303,6 +6309,7 @@ waitForPageStop
 )
 }
 WithDevToolsAPI
+Ignore
 Test
 fun
 evaluateJS
@@ -6583,6 +6590,7 @@ empty
 )
 }
 WithDevToolsAPI
+Ignore
 Test
 fun
 evaluateJS_windowObject
@@ -6679,6 +6687,7 @@ HELLO_HTML_PATH
 )
 }
 WithDevToolsAPI
+Ignore
 Test
 fun
 evaluateJS_multipleSessions
@@ -6763,6 +6772,7 @@ nullValue
 )
 }
 WithDevToolsAPI
+Ignore
 Test
 fun
 evaluateJS_jsToString
@@ -7002,6 +7012,7 @@ evaluateJS
 )
 }
 WithDevToolsAPI
+Ignore
 Test
 (
 expected
@@ -7031,6 +7042,7 @@ Error
 )
 }
 WithDevToolsAPI
+Ignore
 Test
 (
 expected
