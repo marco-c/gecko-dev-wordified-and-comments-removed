@@ -279,6 +279,12 @@ using
 nsFrameMessageManager
 :
 :
+GetInitialProcessData
+;
+using
+nsFrameMessageManager
+:
+:
 LoadFrameScript
 ;
 void
