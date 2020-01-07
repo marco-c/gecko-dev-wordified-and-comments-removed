@@ -5898,6 +5898,8 @@ charCode
 {
 MOZ_ASSERT
 (
+:
+:
 CanUpperCaseSpecialCasing
 (
 charCode
@@ -6226,6 +6228,8 @@ c
 0x7f
 &
 &
+:
+:
 CanUpperCaseSpecialCasing
 (
 static_cast
@@ -6249,6 +6253,8 @@ destLength
 return
 i
 ;
+:
+:
 AppendUpperCaseSpecialCasing
 (
 c
@@ -6410,6 +6416,8 @@ c
 0x7f
 &
 &
+:
+:
 CanUpperCaseSpecialCasing
 (
 static_cast
@@ -6424,6 +6432,8 @@ c
 upperLength
 +
 =
+:
+:
 LengthUpperCaseSpecialCasing
 (
 static_cast
@@ -6889,6 +6899,8 @@ JSString
 MAX_LATIN1_CHAR
 |
 |
+:
+:
 CanUpperCaseSpecialCasing
 (
 c
@@ -7017,6 +7029,8 @@ c
 0x7f
 &
 &
+:
+:
 CanUpperCaseSpecialCasing
 (
 c
