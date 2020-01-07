@@ -106,7 +106,7 @@ IntRect
 {
 }
 void
-DetatchResources
+DetachResources
 (
 )
 {

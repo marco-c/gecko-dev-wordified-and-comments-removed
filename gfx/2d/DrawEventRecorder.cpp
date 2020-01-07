@@ -305,7 +305,7 @@ IsEmpty
 )
 )
 ;
-DetatchResources
+DetachResources
 (
 )
 ;
