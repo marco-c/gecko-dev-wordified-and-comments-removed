@@ -51,11 +51,9 @@ src
 /
 master
 /
-content
+services
 /
-browser
-/
-loader
+network
 /
 cross_origin_read_blocking_explainer
 .
