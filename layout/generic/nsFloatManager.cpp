@@ -9555,9 +9555,10 @@ IsVerticalLR
 )
 &
 &
+!
 aWM
 .
-IsSideways
+IsLineInverted
 (
 )
 )
