@@ -125,6 +125,11 @@ TestAudioTrackEncoder
 cpp
 '
 '
+TestBitWriter
+.
+cpp
+'
+'
 TestBlankVideoDataCreator
 .
 cpp

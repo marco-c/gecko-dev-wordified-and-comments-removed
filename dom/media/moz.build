@@ -590,6 +590,11 @@ BitReader
 h
 '
 '
+BitWriter
+.
+h
+'
+'
 BufferMediaResource
 .
 h
@@ -1153,6 +1158,11 @@ cpp
 '
 '
 BitReader
+.
+cpp
+'
+'
+BitWriter
 .
 cpp
 '

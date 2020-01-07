@@ -23,9 +23,6 @@ explicit
 BitReader
 (
 const
-mozilla
-:
-:
 MediaByteBuffer
 *
 aBuffer
@@ -34,9 +31,6 @@ aBuffer
 BitReader
 (
 const
-mozilla
-:
-:
 MediaByteBuffer
 *
 aBuffer
@@ -66,7 +60,7 @@ size_t
 aNum
 )
 ;
-uint32_t
+bool
 ReadBit
 (
 )
@@ -76,6 +70,9 @@ ReadBits
 (
 1
 )
+!
+=
+0
 ;
 }
 uint32_t
@@ -121,6 +118,16 @@ BitsLeft
 (
 )
 const
+;
+static
+uint32_t
+GetBitLength
+(
+const
+MediaByteBuffer
+*
+aNAL
+)
 ;
 private
 :
