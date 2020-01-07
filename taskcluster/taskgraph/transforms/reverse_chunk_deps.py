@@ -6,7 +6,7 @@ dependencies
 to
 not
 exceed
-MAX_DEPS
+MAX_DEPENDENCIES
 "
 "
 "
@@ -45,14 +45,15 @@ treeherder
 import
 split_symbol
 join_symbol
+from
+taskgraph
+import
+MAX_DEPENDENCIES
 transforms
 =
 TransformSequence
 (
 )
-MAX_DEPS
-=
-100
 def
 yield_job
 (
@@ -226,7 +227,7 @@ deps
 )
 =
 =
-MAX_DEPS
+MAX_DEPENDENCIES
 :
                 
 yield
