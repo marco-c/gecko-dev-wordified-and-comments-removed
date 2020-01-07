@@ -748,12 +748,6 @@ private
 ScrollingLayersHelper
 mScrollingHelper
 ;
-nsTArray
-<
-WebRenderParentCommand
->
-mParentCommands
-;
 std
 :
 :
