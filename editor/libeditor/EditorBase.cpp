@@ -20030,6 +20030,10 @@ OnFocus
 aElement
 )
 ;
+SyncRealTimeSpell
+(
+)
+;
 nsPresContext
 *
 context
