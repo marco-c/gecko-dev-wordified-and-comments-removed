@@ -623,7 +623,16 @@ panelview
 not
 (
 [
-visible
+current
+]
+)
+:
+not
+(
+[
+in
+-
+transition
 ]
 )
 {

@@ -286,7 +286,7 @@ characterEncodingView
 hasAttribute
 (
 "
-visible
+current
 "
 )
 "

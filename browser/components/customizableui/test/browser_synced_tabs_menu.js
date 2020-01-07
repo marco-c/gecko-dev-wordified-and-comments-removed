@@ -585,7 +585,7 @@ syncPanel
 getAttribute
 (
 "
-visible
+current
 "
 )
 "
@@ -1341,7 +1341,7 @@ syncPanel
 getAttribute
 (
 "
-visible
+current
 "
 )
 "
@@ -2397,7 +2397,7 @@ syncPanel
 getAttribute
 (
 "
-visible
+current
 "
 )
 "
