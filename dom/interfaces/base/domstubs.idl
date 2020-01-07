@@ -208,9 +208,6 @@ DOMException
 Style
 Sheets
 interface
-nsIDOMStyleSheetList
-;
-interface
 nsIDOMStyleSheet
 ;
 /
