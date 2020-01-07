@@ -3809,6 +3809,13 @@ S
 Z
 "
 )
+"
+postalCodePattern
+"
+:
+dataset
+.
+zip
 }
 ;
 }

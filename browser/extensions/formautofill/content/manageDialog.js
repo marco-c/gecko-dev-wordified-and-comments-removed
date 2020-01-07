@@ -1407,6 +1407,9 @@ open
 EDIT_ADDRESS_URL
 null
 address
+"
+novalidate
+"
 )
 ;
 }
