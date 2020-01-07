@@ -1059,6 +1059,7 @@ nsAString
 aAlignType
 )
 ;
+MOZ_MUST_USE
 nsresult
 AlignBlockContents
 (
