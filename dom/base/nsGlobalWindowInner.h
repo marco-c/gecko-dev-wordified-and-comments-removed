@@ -1469,6 +1469,11 @@ nsACString
 aScope
 )
 ;
+void
+NoteDOMContentLoaded
+(
+)
+;
 virtual
 nsresult
 FireDelayedDOMEvents

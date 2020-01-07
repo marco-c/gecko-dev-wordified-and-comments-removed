@@ -135,6 +135,11 @@ ClientControlledArgs
 aArgs
 )
 ;
+async
+NoteDOMContentLoaded
+(
+)
+;
 child
 :
 async

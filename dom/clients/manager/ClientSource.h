@@ -346,6 +346,11 @@ GetController
 )
 const
 ;
+void
+NoteDOMContentLoaded
+(
+)
+;
 RefPtr
 <
 ClientOpPromise
