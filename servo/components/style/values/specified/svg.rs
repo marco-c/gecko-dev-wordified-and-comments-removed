@@ -159,7 +159,7 @@ unsafe
 mozilla
 :
 :
-StylePrefs_sOpentypeSVGEnabled
+StaticPrefs_sVarCache_gfx_font_rendering_opentype_svg_enabled
 }
 }
 #

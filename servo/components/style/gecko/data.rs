@@ -965,7 +965,7 @@ unsafe
 structs
 :
 :
-StylePrefs_sVisitedLinksEnabled
+StaticPrefs_sVarCache_layout_css_visited_links_enabled
 }
 }
 pub

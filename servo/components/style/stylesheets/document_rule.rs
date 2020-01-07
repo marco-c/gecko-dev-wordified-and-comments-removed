@@ -1231,7 +1231,7 @@ unsafe
 structs
 :
 :
-StylePrefs_sMozDocumentEnabledInContent
+StaticPrefs_sVarCache_layout_css_moz_document_content_enabled
 }
 {
 return
@@ -1245,7 +1245,7 @@ unsafe
 structs
 :
 :
-StylePrefs_sMozDocumentURLPrefixHackEnabled
+StaticPrefs_sVarCache_layout_css_moz_document_url_prefix_hack_enabled
 }
 {
 return
