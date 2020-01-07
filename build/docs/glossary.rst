@@ -206,7 +206,7 @@ can
 process
 the
 actions
-effeciently
+efficiently
 .
 These
 files

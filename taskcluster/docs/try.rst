@@ -20,7 +20,7 @@ safely
 before
 review
 without
-officialy
+officially
 landing
 it
 .
@@ -54,7 +54,7 @@ try
 "
 is
 typically
-avilable
+available
 to
 a
 much

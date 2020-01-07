@@ -463,7 +463,7 @@ Checks
 that
 for
 every
-occurence
+occurrence
 of
 '
 addEventListener
@@ -475,7 +475,7 @@ on
 there
 is
 an
-occurence
+occurrence
 of
 '
 removeEventListener

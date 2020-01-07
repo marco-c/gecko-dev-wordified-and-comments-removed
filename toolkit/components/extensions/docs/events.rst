@@ -216,7 +216,7 @@ console
 log
 (
 Something
-happend
+happened
 :
 {
 param1

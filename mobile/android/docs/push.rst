@@ -1275,7 +1275,7 @@ as
 part
 of
 regular
-maintainence
+maintenance
 .
 The
 PushManager

@@ -1276,7 +1276,7 @@ results
 of
 those
 tests
-seperately
+separately
 .
 Therefore
 each
@@ -2590,7 +2590,7 @@ logging
 .
 It
 is
-avaliable
+available
 as
 structured_example
 .

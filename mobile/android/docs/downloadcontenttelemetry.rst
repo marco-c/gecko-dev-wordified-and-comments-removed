@@ -351,7 +351,7 @@ the
 error
 type
 that
-occured
+occurred
 when
 downloading
 the

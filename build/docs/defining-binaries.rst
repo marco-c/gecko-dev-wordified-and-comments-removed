@@ -1835,7 +1835,7 @@ or
 executable
 .
 When
-refering
+referring
 to
 a
 Library

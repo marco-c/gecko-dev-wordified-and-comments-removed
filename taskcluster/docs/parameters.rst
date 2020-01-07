@@ -162,7 +162,7 @@ are
 described
 here
 divided
-rougly
+roughly
 by
 topic
 .

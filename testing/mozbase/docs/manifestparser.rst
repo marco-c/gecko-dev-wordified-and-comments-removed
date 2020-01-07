@@ -1952,7 +1952,7 @@ include
 logic
 and
 the
-inheritence
+inheritance
 of
 metadata
 .
@@ -1999,7 +1999,7 @@ test
 specific
 .
 TestManifest
-faciliates
+facilitates
 skip
 -
 if

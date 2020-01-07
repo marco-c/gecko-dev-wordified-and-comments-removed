@@ -338,7 +338,7 @@ which
 could
 lead
 to
-loosing
+losing
 incoming
 external
 tabs

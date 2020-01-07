@@ -288,7 +288,7 @@ entire
 task
 graph
 so
-targetted
+targeted
 tasks
 are
 considered

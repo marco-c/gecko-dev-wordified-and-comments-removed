@@ -1215,7 +1215,7 @@ process
 but
 there
 are
-occassionally
+occasionally
 reasons
 to
 implement

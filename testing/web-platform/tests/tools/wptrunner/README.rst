@@ -1842,7 +1842,7 @@ For
 test
 expectations
 the
-avaliable
+available
 variables
 are
 those

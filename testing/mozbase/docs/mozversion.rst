@@ -409,7 +409,7 @@ is
 checked
 for
 the
-existance
+existence
 of
 an
 application
@@ -478,7 +478,7 @@ is
 checked
 for
 the
-existance
+existence
 of
 a
 sources

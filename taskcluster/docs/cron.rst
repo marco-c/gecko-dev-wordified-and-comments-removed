@@ -524,5 +524,5 @@ any
 scopes
 that
 it
-posesses
+possesses
 .

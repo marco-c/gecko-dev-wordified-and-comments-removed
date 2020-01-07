@@ -263,7 +263,7 @@ this
 key
 defined
 .
-Unkown
+Unknown
 processor
 architectures
 (

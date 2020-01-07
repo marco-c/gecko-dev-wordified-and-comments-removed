@@ -57,7 +57,7 @@ does
 not
 contain
 the
-enviroment
+environment
 block
 nor
 the

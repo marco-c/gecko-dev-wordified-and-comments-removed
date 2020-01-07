@@ -1387,7 +1387,7 @@ file
 has
 the
 minimum
-ammount
+amount
 of
 data
 needed

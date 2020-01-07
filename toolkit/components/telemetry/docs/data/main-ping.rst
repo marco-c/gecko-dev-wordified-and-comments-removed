@@ -4405,7 +4405,7 @@ aborted
 if
 an
 OOM
-occured
+occurred
 .
 "
 status

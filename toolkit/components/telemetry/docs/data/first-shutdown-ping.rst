@@ -48,7 +48,7 @@ sessions
 will
 impact
 existing
-engagment
+engagement
 metrics
 .
 The

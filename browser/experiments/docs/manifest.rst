@@ -2150,7 +2150,7 @@ on
 the
 server
 to
-inadvertantly
+inadvertently
 deactivate
 supposed
 -
