@@ -988,7 +988,7 @@ str
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 FixedLengthSet
 )
 {
@@ -1156,7 +1156,7 @@ map
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 VariableLengthSet
 )
 {
@@ -1376,7 +1376,7 @@ map
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 MixedPrefixSet
 )
 {
@@ -1615,7 +1615,7 @@ map
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 ResetPrefix
 )
 {
@@ -1910,7 +1910,7 @@ matchLength
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 TinyPrefixSet
 )
 {
@@ -1993,7 +1993,7 @@ map
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 EmptyPrefixSet
 )
 {
@@ -2136,7 +2136,7 @@ empty
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 MinMaxPrefixSet
 )
 {
@@ -2297,7 +2297,7 @@ rv
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 LoadSaveFixedLengthPrefixSet
 )
 {
@@ -2472,7 +2472,7 @@ false
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 LoadSaveVariableLengthPrefixSet
 )
 {
@@ -2647,7 +2647,7 @@ false
 }
 TEST
 (
-VariableLengthPrefixSet
+UrlClassifierVLPrefixSet
 LoadSavePrefixSet
 )
 {

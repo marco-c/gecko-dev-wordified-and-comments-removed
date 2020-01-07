@@ -16,7 +16,7 @@ h
 "
 TEST
 (
-SafebrowsingHash
+UrlClassifierHash
 ToFromUint32
 )
 {
@@ -99,7 +99,7 @@ buf
 }
 TEST
 (
-SafebrowsingHash
+UrlClassifierHash
 Compare
 )
 {

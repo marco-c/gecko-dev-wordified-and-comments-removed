@@ -18,7 +18,7 @@ h
 "
 TEST
 (
-SafeBrowsingProtobuf
+UrlClassifierProtobuf
 Empty
 )
 {

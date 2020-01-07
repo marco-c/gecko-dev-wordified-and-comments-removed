@@ -71,7 +71,7 @@ aData
 ;
 TEST
 (
-RiceDeltaDecoder
+UrlClassifierRiceDeltaDecoder
 SingleEncodedValue
 )
 {
@@ -99,7 +99,7 @@ td
 }
 TEST
 (
-RiceDeltaDecoder
+UrlClassifierRiceDeltaDecoder
 Empty
 )
 {

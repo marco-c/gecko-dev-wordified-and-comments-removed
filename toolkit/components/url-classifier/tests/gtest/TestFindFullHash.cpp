@@ -130,7 +130,7 @@ N
 }
 TEST
 (
-FindFullHash
+UrlClassifierFindFullHash
 Request
 )
 {
@@ -977,7 +977,7 @@ nsIUrlClassifierParseFindFullHashCallback
 }
 TEST
 (
-FindFullHash
+UrlClassifierFindFullHash
 ParseRequest
 )
 {

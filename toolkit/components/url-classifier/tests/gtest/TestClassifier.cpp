@@ -439,7 +439,7 @@ partialHash
 }
 TEST
 (
-Classifier
+UrlClassifier
 ReadNoiseEntriesV4
 )
 {
@@ -604,7 +604,7 @@ com
 }
 TEST
 (
-Classifier
+UrlClassifier
 ReadNoiseEntriesV2
 )
 {
