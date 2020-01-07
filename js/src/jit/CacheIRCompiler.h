@@ -178,6 +178,16 @@ LoadInt32ArrayLengthResult
 \
 _
 (
+Int32NegationResult
+)
+\
+_
+(
+Int32NotResult
+)
+\
+_
+(
 LoadArgumentsObjectLengthResult
 )
 \

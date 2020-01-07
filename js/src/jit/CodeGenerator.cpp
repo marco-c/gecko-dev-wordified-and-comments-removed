@@ -2414,6 +2414,12 @@ case
 CacheKind
 :
 :
+UnaryArith
+:
+case
+CacheKind
+:
+:
 Call
 :
 case
