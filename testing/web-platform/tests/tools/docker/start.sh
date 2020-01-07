@@ -389,6 +389,7 @@ qqy
 update
 &
 &
+sudo
 gdebi
 -
 n

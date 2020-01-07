@@ -44,7 +44,7 @@ pardir
 docker_image
 =
 "
-harjgam
+gsnedders
 /
 web
 -
@@ -54,7 +54,7 @@ tests
 :
 0
 .
-12
+13
 "
 task_template
 =
