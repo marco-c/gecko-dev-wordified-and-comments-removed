@@ -1695,15 +1695,6 @@ WrFilterOp
 (
 )
 true
-wr
-:
-:
-GlyphRasterSpace
-:
-:
-Screen
-(
-)
 )
 ;
 LayoutDeviceRect
