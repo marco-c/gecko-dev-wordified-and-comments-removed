@@ -1358,7 +1358,7 @@ cx
 size_t
 size
 size_t
-numDynamic
+nDynamicSlots
 const
 js
 :
@@ -1433,7 +1433,7 @@ nullptr
 ;
 if
 (
-numDynamic
+nDynamicSlots
 )
 {
 MOZ_ASSERT
@@ -1462,7 +1462,7 @@ cx
 zone
 (
 )
-numDynamic
+nDynamicSlots
 *
 sizeof
 (

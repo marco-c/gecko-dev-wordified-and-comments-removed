@@ -1028,9 +1028,7 @@ obj
 pobj
 -
 >
-group_
-.
-init
+initGroup
 (
 group
 )
