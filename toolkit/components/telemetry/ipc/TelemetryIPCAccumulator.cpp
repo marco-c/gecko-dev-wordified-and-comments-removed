@@ -858,6 +858,13 @@ Some
 (
 aValue
 )
+Telemetry
+:
+:
+ProcessID
+:
+:
+Count
 }
 )
 ;
@@ -972,6 +979,13 @@ Some
 (
 aValue
 )
+Telemetry
+:
+:
+ProcessID
+:
+:
+Count
 }
 )
 ;
