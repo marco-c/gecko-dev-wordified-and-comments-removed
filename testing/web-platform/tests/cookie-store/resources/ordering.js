@@ -16,7 +16,7 @@ cookieStore
 set
 (
 '
-__Host
+ordered
 -
 1
 '
@@ -33,7 +33,7 @@ cookieStore
 set
 (
 '
-__Host
+ordered
 -
 2
 '
@@ -50,7 +50,7 @@ cookieStore
 set
 (
 '
-__Host
+ordered
 -
 3
 '
@@ -94,7 +94,7 @@ cookieStore
 get
 (
 '
-__Host
+ordered
 -
 '
 +
@@ -187,7 +187,7 @@ cookieStore
 set
 (
 '
-__Host
+ordered
 -
 unordered1
 '
@@ -204,7 +204,7 @@ cookieStore
 set
 (
 '
-__Host
+ordered
 -
 unordered2
 '
@@ -221,7 +221,7 @@ cookieStore
 set
 (
 '
-__Host
+ordered
 -
 unordered3
 '
@@ -266,7 +266,7 @@ cookieStore
 get
 (
 '
-__Host
+ordered
 -
 unordered
 '
