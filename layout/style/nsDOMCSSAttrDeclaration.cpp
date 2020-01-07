@@ -818,7 +818,7 @@ return
 mElement
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDOMCSSAttributeDeclaration
 :
 :

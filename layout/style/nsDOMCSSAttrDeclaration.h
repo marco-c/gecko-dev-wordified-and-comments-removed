@@ -140,7 +140,7 @@ GetParentObject
 )
 override
 ;
-NS_IMETHOD
+nsresult
 SetPropertyValue
 (
 const
