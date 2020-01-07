@@ -3953,6 +3953,12 @@ EditorBase
 (
 )
 ;
+virtual
+nsresult
+SelectAllInternal
+(
+)
+;
 nsresult
 DetermineCurrentDirection
 (
