@@ -27,8 +27,8 @@ atomic
 :
 :
 {
-Ordering
 fence
+Ordering
 }
 ;
 pub

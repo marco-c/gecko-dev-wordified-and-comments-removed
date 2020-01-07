@@ -63,8 +63,8 @@ atomic
 :
 :
 {
-Ordering
 fence
+Ordering
 }
 ;
 #

@@ -20,9 +20,9 @@ atomic
 :
 :
 {
+fence
 AtomicUsize
 Ordering
-fence
 }
 ;
 #
@@ -44,9 +44,9 @@ stable
 :
 :
 {
+fence
 AtomicUsize
 Ordering
-fence
 }
 ;
 use

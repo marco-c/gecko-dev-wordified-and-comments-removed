@@ -21,8 +21,8 @@ atomic
 :
 {
 AtomicUsize
-ATOMIC_USIZE_INIT
 Ordering
+ATOMIC_USIZE_INIT
 }
 ;
 #
@@ -45,8 +45,8 @@ stable
 :
 {
 AtomicUsize
-ATOMIC_USIZE_INIT
 Ordering
+ATOMIC_USIZE_INIT
 }
 ;
 use
