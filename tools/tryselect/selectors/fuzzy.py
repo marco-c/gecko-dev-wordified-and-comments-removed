@@ -63,11 +63,9 @@ generate_tasks
 from
 .
 .
-push
-import
-check_working_directory
-push_to_try
 vcs
+import
+VCSHelper
 terminal
 =
 Terminal
@@ -1611,6 +1609,16 @@ FZF_NOT_FOUND
 return
 1
     
+vcs
+=
+VCSHelper
+.
+create
+(
+)
+    
+vcs
+.
 check_working_directory
 (
 push
@@ -1626,7 +1634,7 @@ root
 =
 vcs
 .
-path
+root
 )
     
 if
@@ -2044,6 +2052,8 @@ args
 )
     
 return
+vcs
+.
 push_to_try
 (
 '
@@ -2062,7 +2072,7 @@ templates
 push
 =
 push
-                       
+                           
 closed_tree
 =
 kwargs
