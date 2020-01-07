@@ -3684,6 +3684,9 @@ f
 srcdir
 )
 /
+(
+notdir
+)
 .
 manifest
 '
@@ -3699,6 +3702,9 @@ from
 srcdir
 )
 /
+(
+notdir
+)
 .
 manifest
 and
@@ -3719,6 +3725,9 @@ MANIFEST
 win_srcdir
 )
 /
+(
+notdir
+)
 .
 manifest
 '
@@ -3773,6 +3782,9 @@ f
 srcdir
 )
 /
+(
+notdir
+)
 .
 manifest
 '
@@ -3788,6 +3800,9 @@ from
 srcdir
 )
 /
+(
+notdir
+)
 .
 manifest
 '
@@ -3805,6 +3820,9 @@ MANIFEST
 win_srcdir
 )
 /
+(
+notdir
+)
 .
 manifest
 '
