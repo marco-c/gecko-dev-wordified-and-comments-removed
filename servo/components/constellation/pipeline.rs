@@ -556,7 +556,10 @@ bool
 pub
 webgl_chan
 :
+Option
+<
 WebGLPipeline
+>
 pub
 webvr_chan
 :
@@ -2121,7 +2124,10 @@ webrender_api
 DocumentId
 webgl_chan
 :
+Option
+<
 WebGLPipeline
+>
 webvr_chan
 :
 Option

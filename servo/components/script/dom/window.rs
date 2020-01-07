@@ -1733,7 +1733,10 @@ hard
 ]
 webgl_chan
 :
+Option
+<
 WebGLChan
+>
 #
 [
 ignore_malloc_size_of
@@ -2430,7 +2433,10 @@ self
 )
 -
 >
+Option
+<
 WebGLChan
+>
 {
 self
 .
@@ -10294,7 +10300,10 @@ navigation_start_precise
 u64
 webgl_chan
 :
+Option
+<
 WebGLChan
+>
 webvr_chan
 :
 Option
