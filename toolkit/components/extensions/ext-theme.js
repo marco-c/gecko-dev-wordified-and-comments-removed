@@ -664,6 +664,11 @@ break
 ;
 case
 "
+tab_loading
+"
+:
+case
+"
 tab_text
 "
 :
