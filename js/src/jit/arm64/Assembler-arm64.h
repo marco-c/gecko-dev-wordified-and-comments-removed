@@ -577,17 +577,6 @@ Registers
 x21
 }
 ;
-static
-constexpr
-Register
-HeapLenReg
-{
-Registers
-:
-:
-x22
-}
-;
 #
 define
 DEFINE_UNSIZED_REGISTERS
