@@ -229,15 +229,6 @@ env_logger
 init
 (
 )
-.
-expect
-(
-"
-Cannot
-start
-logger
-"
-)
 ;
 println
 !
