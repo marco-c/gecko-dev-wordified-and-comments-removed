@@ -5441,9 +5441,6 @@ operand_
 }
 }
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 class
 AstExtraConversionOperator
 final
@@ -5521,8 +5518,6 @@ operand_
 }
 }
 ;
-#
-endif
 class
 AstPop
 final
