@@ -229,7 +229,7 @@ mozilla
 dom
 :
 :
-Directory
+DOMPrefs
 :
 :
 WebkitBlinkDirectoryPickerEnabled
