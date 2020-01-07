@@ -6255,10 +6255,6 @@ rrset1
 -
 >
 mHostName
-.
-get
-(
-)
 )
 )
 ;
