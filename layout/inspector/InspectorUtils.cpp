@@ -3284,6 +3284,9 @@ case
 eCSSProperty_transform_origin
 :
 case
+eCSSProperty_translate
+:
+case
 eCSSProperty_perspective_origin
 :
 case
@@ -3374,6 +3377,9 @@ break
 case
 eCSSProperty_image_orientation
 :
+case
+eCSSProperty_rotate
+:
 supported
 |
 =
@@ -3408,6 +3414,9 @@ eCSSProperty_font_weight
 :
 case
 eCSSProperty_initial_letter
+:
+case
+eCSSProperty_scale
 :
 supported
 |
