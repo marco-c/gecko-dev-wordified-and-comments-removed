@@ -4959,6 +4959,11 @@ request
 new
 ServiceRequest
 (
+{
+mozAnon
+:
+true
+}
 )
 ;
 request
