@@ -687,15 +687,6 @@ aGUID
 )
 ;
 nsresult
-PreventSyncReparenting
-(
-const
-BookmarkData
-&
-aBookmark
-)
-;
-nsresult
 SetItemTitleInternal
 (
 BookmarkData
