@@ -231,6 +231,11 @@ serviceWorker
 }
 ;
 struct
+ClientFocusArgs
+{
+}
+;
+struct
 ClientNavigateArgs
 {
 IPCClientInfo
@@ -305,6 +310,8 @@ ClientOpConstructorArgs
 {
 ClientControlledArgs
 ;
+ClientFocusArgs
+;
 ClientNavigateArgs
 ;
 ClientMatchAllArgs
@@ -345,6 +352,8 @@ union
 ClientOpResult
 {
 nsresult
+;
+IPCClientState
 ;
 ClientInfoAndState
 ;
