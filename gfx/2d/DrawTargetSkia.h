@@ -155,12 +155,14 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
 mSize
 ;
 }
+;
 virtual
 bool
 LockBits

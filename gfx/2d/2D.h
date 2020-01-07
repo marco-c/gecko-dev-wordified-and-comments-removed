@@ -2752,6 +2752,7 @@ IntSize
 GetSize
 (
 )
+const
 =
 0
 ;

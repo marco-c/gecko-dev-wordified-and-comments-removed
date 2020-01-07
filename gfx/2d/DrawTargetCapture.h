@@ -176,6 +176,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
