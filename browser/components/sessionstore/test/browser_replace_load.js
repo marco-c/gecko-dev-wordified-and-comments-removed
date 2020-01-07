@@ -235,13 +235,6 @@ history
 webNavigation
 .
 sessionHistory
-.
-QueryInterface
-(
-Ci
-.
-nsISHistoryInternal
-)
 ;
 Assert
 .

@@ -389,6 +389,8 @@ nsIWebNavigation
 ;
 sessionHistory
 .
+legacySHistory
+.
 PurgeHistory
 (
 sessionHistory

@@ -1631,6 +1631,8 @@ sessionHistory
 ;
 history
 .
+legacySHistory
+.
 PurgeHistory
 (
 history

@@ -122,6 +122,8 @@ gBrowser
 .
 sessionHistory
 .
+legacySHistory
+.
 PurgeHistory
 (
 count

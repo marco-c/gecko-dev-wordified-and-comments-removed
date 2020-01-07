@@ -223,6 +223,8 @@ shistory
 webNavigation
 .
 sessionHistory
+.
+legacySHistory
 ;
 eval
 (
@@ -345,6 +347,8 @@ browser
 webNavigation
 .
 sessionHistory
+.
+legacySHistory
 ;
 let
 listener

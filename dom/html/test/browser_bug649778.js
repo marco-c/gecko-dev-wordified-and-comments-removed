@@ -285,6 +285,8 @@ sessionHistory
 return
 sh
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 sh

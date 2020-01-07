@@ -4985,6 +4985,8 @@ count
 {
 history
 .
+legacySHistory
+.
 PurgeHistory
 (
 history

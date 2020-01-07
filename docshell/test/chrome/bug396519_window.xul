@@ -426,6 +426,8 @@ shEntry
 =
 history
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 i
@@ -532,6 +534,8 @@ shentry1
 =
 history
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 i
@@ -549,6 +553,8 @@ let
 shentry2
 =
 history
+.
+legacySHistory
 .
 getEntryAtIndex
 (

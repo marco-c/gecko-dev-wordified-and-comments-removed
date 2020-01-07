@@ -1264,6 +1264,8 @@ nsIWebNavigation
 .
 sessionHistory
 .
+legacySHistory
+.
 addSHistoryListener
 (
 this
@@ -1326,6 +1328,8 @@ sessionHistory
 )
 {
 sessionHistory
+.
+legacySHistory
 .
 removeSHistoryListener
 (

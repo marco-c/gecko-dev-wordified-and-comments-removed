@@ -87,6 +87,8 @@ docshell
 .
 sessionHistory
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 0
@@ -181,6 +183,8 @@ shEntry
 docshell
 .
 sessionHistory
+.
+legacySHistory
 .
 getEntryAtIndex
 (
@@ -327,6 +331,8 @@ is
 (
 sh
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 0
@@ -458,6 +464,8 @@ is
 (
 sh
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 0
@@ -481,6 +489,8 @@ toString
 is
 (
 sh
+.
+legacySHistory
 .
 getEntryAtIndex
 (

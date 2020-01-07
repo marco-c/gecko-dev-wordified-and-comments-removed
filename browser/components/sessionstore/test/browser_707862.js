@@ -133,6 +133,8 @@ entry
 =
 sessionHistory
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 0
@@ -187,6 +189,8 @@ let
 newEntry
 =
 newSessionHistory
+.
+legacySHistory
 .
 getEntryAtIndex
 (

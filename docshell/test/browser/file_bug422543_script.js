@@ -236,6 +236,8 @@ this
 .
 shistory
 .
+legacySHistory
+.
 addSHistoryListener
 (
 listener
@@ -260,6 +262,8 @@ listeners
 this
 .
 shistory
+.
+legacySHistory
 .
 removeSHistoryListener
 (
@@ -363,6 +367,8 @@ internal
 this
 .
 shistory
+.
+legacySHistory
 .
 QueryInterface
 (

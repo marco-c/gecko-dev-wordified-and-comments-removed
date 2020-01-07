@@ -11785,6 +11785,8 @@ webNav
 =
 sh
 .
+legacySHistory
+.
 QueryInterface
 (
 Ci
@@ -13551,6 +13553,8 @@ hist
 browser
 .
 sessionHistory
+.
+legacySHistory
 ;
 for
 (
@@ -20919,6 +20923,8 @@ browser
 .
 sessionHistory
 .
+legacySHistory
+.
 addSHistoryListener
 (
 this
@@ -21715,6 +21721,8 @@ this
 browser
 .
 sessionHistory
+.
+legacySHistory
 .
 removeSHistoryListener
 (

@@ -564,6 +564,8 @@ webNavigation
 .
 sessionHistory
 .
+legacySHistory
+.
 addSHistoryListener
 (
 listener
@@ -725,6 +727,8 @@ history
 webNavigation
 .
 sessionHistory
+.
+legacySHistory
 ;
 this
 .
@@ -1283,6 +1287,8 @@ webNavigation
 .
 sessionHistory
 .
+legacySHistory
+.
 addSHistoryListener
 (
 this
@@ -1333,6 +1339,8 @@ this
 webNavigation
 .
 sessionHistory
+.
+legacySHistory
 ;
 if
 (

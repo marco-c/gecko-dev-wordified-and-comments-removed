@@ -446,13 +446,6 @@ webNavigation
 .
 sessionHistory
 .
-QueryInterface
-(
-Ci
-.
-nsIWebNavigation
-)
-.
 reload
 (
 Ci
