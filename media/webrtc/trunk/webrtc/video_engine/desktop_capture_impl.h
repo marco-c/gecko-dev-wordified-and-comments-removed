@@ -821,13 +821,6 @@ capability
 override
 ;
 virtual
-bool
-FocusOnSelectedSource
-(
-)
-override
-;
-virtual
 int32_t
 StopCapture
 (

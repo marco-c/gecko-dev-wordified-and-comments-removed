@@ -773,16 +773,6 @@ func
 )
 ;
 int
-FocusOnSelectedSource
-(
-CaptureEngine
-aCapEngine
-const
-int
-capture_id
-)
-;
-int
 StopCapture
 (
 CaptureEngine
