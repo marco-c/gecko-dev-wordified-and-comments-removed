@@ -2051,17 +2051,6 @@ split
 1
 )
             
-version
-=
-version
-.
-rstrip
-(
-"
-esr
-"
-)
-            
 tag
 =
 "
