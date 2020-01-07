@@ -112,6 +112,7 @@ uint32_t
 SameProcessSameThread
 SameProcessDifferentThread
 DifferentProcess
+DifferentProcessForIndexedDB
 }
 ;
 enum
