@@ -1687,6 +1687,11 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
 private
 :
+void
+UpdateProxies
+(
+)
+;
 virtual
 ~
 imgCacheValidator
@@ -1723,9 +1728,13 @@ imgRequest
 >
 mRequest
 ;
-nsCOMArray
+AutoTArray
 <
-imgIRequest
+RefPtr
+<
+imgRequestProxy
+>
+4
 >
 mProxies
 ;
