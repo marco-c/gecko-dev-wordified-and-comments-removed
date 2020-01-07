@@ -4802,16 +4802,6 @@ sAnimationsAPIElementAnimateEnabled
 }
 static
 bool
-AnimationsAPIPendingMemberEnabled
-(
-)
-{
-return
-sAnimationsAPIPendingMemberEnabled
-;
-}
-static
-bool
 GetBoxQuadsEnabled
 (
 )
@@ -7243,10 +7233,6 @@ sAnimationsAPICoreEnabled
 static
 bool
 sAnimationsAPIElementAnimateEnabled
-;
-static
-bool
-sAnimationsAPIPendingMemberEnabled
 ;
 static
 bool
