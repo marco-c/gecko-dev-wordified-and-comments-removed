@@ -767,9 +767,14 @@ false
 }
 if
 (
+!
 mBuffer
 )
 {
+return
+true
+;
+}
 NS_ASSERTION
 (
 aOther
@@ -867,7 +872,6 @@ mDuration
 return
 false
 ;
-}
 }
 }
 return
