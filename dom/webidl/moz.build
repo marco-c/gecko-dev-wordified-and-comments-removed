@@ -4200,6 +4200,11 @@ MessageEvent
 webidl
 '
 '
+MessageManager
+.
+webidl
+'
+'
 MessagePort
 .
 webidl
