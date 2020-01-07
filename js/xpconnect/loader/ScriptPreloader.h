@@ -1269,7 +1269,10 @@ static
 void
 OffThreadDecodeCallback
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 token
 void
@@ -1458,7 +1461,10 @@ CachedScript
 >
 mParsingScripts
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 mToken
 =

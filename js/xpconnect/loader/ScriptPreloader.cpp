@@ -3912,7 +3912,10 @@ ScriptPreloader
 :
 OffThreadDecodeCallback
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 token
 void

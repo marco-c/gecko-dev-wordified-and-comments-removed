@@ -69,7 +69,7 @@ nullptr
 )
 {
 }
-void
+OffThreadToken
 *
 waitUntilDone
 (
@@ -120,7 +120,7 @@ wait
 )
 ;
 }
-void
+OffThreadToken
 *
 result
 =
@@ -137,7 +137,10 @@ result
 void
 markDone
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 tokenArg
 )
@@ -163,7 +166,7 @@ static
 void
 OffThreadCallback
 (
-void
+OffThreadToken
 *
 token
 void
@@ -198,7 +201,7 @@ js
 Monitor
 monitor
 ;
-void
+OffThreadToken
 *
 token
 ;
@@ -488,7 +491,7 @@ true
 OffThreadTask
 task
 ;
-void
+OffThreadToken
 *
 token
 ;

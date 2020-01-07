@@ -12080,7 +12080,10 @@ nsIOffThreadScriptReceiver
 *
 mReceiver
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 mToken
 ;
@@ -12091,7 +12094,10 @@ NotifyOffThreadScriptCompletedRunnable
 nsIOffThreadScriptReceiver
 *
 aReceiver
-void
+JS
+:
+:
+OffThreadToken
 *
 aToken
 )
@@ -12342,7 +12348,10 @@ static
 void
 OffThreadScriptReceiverCallback
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 aToken
 void

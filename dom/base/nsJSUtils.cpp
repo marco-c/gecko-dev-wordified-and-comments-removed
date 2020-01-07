@@ -954,7 +954,10 @@ ExecutionContext
 :
 JoinAndExec
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 *
 aOffThreadToken
@@ -1577,7 +1580,10 @@ ExecutionContext
 :
 DecodeJoinAndExec
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 *
 aOffThreadToken

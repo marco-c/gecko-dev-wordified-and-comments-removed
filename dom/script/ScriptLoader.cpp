@@ -8391,7 +8391,10 @@ DocGroup
 >
 mDocGroup
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 mToken
 ;
@@ -8455,7 +8458,10 @@ NotifyOffThreadScriptLoadCompletedRunnable
 void
 SetToken
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 aToken
 )
@@ -8811,7 +8817,10 @@ static
 void
 OffThreadScriptLoaderCallback
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 aToken
 void

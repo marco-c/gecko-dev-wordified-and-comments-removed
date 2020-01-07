@@ -15335,7 +15335,7 @@ FinishOffThreadScript
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -15350,7 +15350,7 @@ CancelOffThreadScript
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -15393,7 +15393,7 @@ FinishOffThreadModule
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -15408,7 +15408,7 @@ CancelOffThreadModule
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -15487,7 +15487,7 @@ FinishOffThreadScriptDecoder
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -15502,7 +15502,7 @@ CancelOffThreadScriptDecoder
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -15547,7 +15547,7 @@ FinishMultiOffThreadScriptsDecoder
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 JS
@@ -15573,7 +15573,7 @@ CancelMultiOffThreadScriptsDecoder
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )
@@ -16382,7 +16382,7 @@ FinishOffThreadBinASTDecode
 JSContext
 *
 cx
-void
+OffThreadToken
 *
 token
 )

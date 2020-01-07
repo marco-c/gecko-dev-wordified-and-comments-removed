@@ -284,7 +284,10 @@ SetReady
 (
 )
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 *
 OffThreadTokenPtr
@@ -631,7 +634,10 @@ mWasCompiledOMT
 bool
 mIsTracking
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 mOffThreadToken
 ;
