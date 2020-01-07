@@ -2201,10 +2201,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsSharedArrayBuffer
+IntrinsicGuardToSharedArrayBuffer
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
