@@ -376,10 +376,8 @@ nsSubDocumentFrame
 aIFrame
 )
 ;
-already_AddRefed
-<
 nsIDocShell
->
+*
 GetDocShell
 (
 mozilla

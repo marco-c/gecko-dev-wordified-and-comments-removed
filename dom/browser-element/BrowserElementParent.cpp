@@ -1074,15 +1074,14 @@ nsCOMPtr
 nsIDocShell
 >
 docshell
-;
+=
 frameLoader
 -
 >
 GetDocShell
 (
-getter_AddRefs
+IgnoreErrors
 (
-docshell
 )
 )
 ;

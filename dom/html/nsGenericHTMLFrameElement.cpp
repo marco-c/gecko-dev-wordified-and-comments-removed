@@ -493,15 +493,14 @@ nsCOMPtr
 nsIDocShell
 >
 doc_shell
-;
+=
 mFrameLoader
 -
 >
 GetDocShell
 (
-getter_AddRefs
+IgnoreErrors
 (
-doc_shell
 )
 )
 ;
