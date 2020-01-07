@@ -253,14 +253,6 @@ mProperty
 aOther
 .
 mProperty
-|
-|
-mValue
-!
-=
-aOther
-.
-mValue
 )
 {
 return
