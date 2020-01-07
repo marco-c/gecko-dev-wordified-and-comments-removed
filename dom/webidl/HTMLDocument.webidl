@@ -134,15 +134,6 @@ Pure
 ]
 readonly
 attribute
-HTMLHeadElement
-?
-head
-;
-[
-Pure
-]
-readonly
-attribute
 HTMLCollection
 images
 ;

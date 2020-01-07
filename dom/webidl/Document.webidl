@@ -821,12 +821,9 @@ HTMLElement
 ?
 body
 ;
-/
-/
-(
-HTML
-only
-)
+[
+Pure
+]
 readonly
 attribute
 HTMLHeadElement
