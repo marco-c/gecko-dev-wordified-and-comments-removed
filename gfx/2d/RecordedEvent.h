@@ -845,6 +845,8 @@ mCapacity
 mCapacity
 =
 mLength
+*
+2
 ;
 }
 mData
@@ -857,8 +859,6 @@ realloc
 (
 mData
 mCapacity
-*
-2
 )
 ;
 }
