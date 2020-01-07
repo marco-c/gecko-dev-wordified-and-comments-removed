@@ -646,14 +646,14 @@ const
 wr
 :
 :
-LayerRect
+LayoutRect
 &
 aBounds
 const
 wr
 :
 :
-LayerRect
+LayoutRect
 &
 aClip
 bool

@@ -1469,7 +1469,7 @@ private
 wr
 :
 :
-LayerRect
+LayoutRect
 ClipRect
 (
 )
@@ -1526,7 +1526,7 @@ mSize
 wr
 :
 :
-LayerRect
+LayoutRect
 mBoundsRect
 ;
 nsTArray
