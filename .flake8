@@ -57,6 +57,7 @@ build
 /
 pymake
 /
+node_modules
 security
 /
 nss

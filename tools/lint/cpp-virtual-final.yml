@@ -49,6 +49,13 @@ final
 warnings
 :
 -
+'
+*
+*
+/
+node_modules
+'
+-
 gfx
 /
 angle
