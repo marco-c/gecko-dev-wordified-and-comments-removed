@@ -1006,10 +1006,6 @@ slots
 -
 >
 mBindingParent
-.
-get
-(
-)
 :
 nullptr
 ;
@@ -1654,10 +1650,8 @@ Unlink
 (
 )
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 mBindingParent
 ;
 nsCOMPtr

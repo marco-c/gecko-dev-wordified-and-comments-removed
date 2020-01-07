@@ -2927,10 +2927,8 @@ LoadSrc
 (
 )
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 mBindingParent
 ;
 nsresult
