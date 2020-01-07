@@ -106,6 +106,14 @@ post
 beetmover
 -
 dummy
+-
+release
+-
+beetmover
+-
+signed
+-
+langpacks
 job
 -
 defaults
