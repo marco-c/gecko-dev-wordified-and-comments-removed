@@ -616,6 +616,17 @@ clone
 )
 )
 ;
+global
+.
+track_worker
+(
+closing
+.
+clone
+(
+)
+)
+;
 let
 worker_ref
 =
