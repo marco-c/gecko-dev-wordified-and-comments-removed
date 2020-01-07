@@ -53,6 +53,7 @@ util
 taskcluster
 import
 get_taskcluster_artifact_prefix
+get_artifact_prefix
 import
 logging
 logger
@@ -71,6 +72,7 @@ TransformSequence
 def
 _generate_task_output_files
 (
+job
 filenames
 locale
 =
@@ -95,6 +97,13 @@ locale
 else
 '
 '
+    
+artifact_prefix
+=
+get_artifact_prefix
+(
+job
+)
     
 data
 =
@@ -148,9 +157,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -160,6 +168,7 @@ build
 .
 format
 (
+artifact_prefix
 locale_output_path
 filename
 )
@@ -203,9 +212,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -216,6 +224,7 @@ json
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
     
@@ -930,6 +939,7 @@ artifacts
 :
 _generate_task_output_files
 (
+dep_job
 builds
 .
 keys
