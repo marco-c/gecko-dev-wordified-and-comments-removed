@@ -2154,8 +2154,6 @@ tracking
 protection
 .
 svg
-#
-enabled
 "
 )
 ;
@@ -2211,10 +2209,10 @@ controlcenter
 tracking
 -
 protection
+-
+disabled
 .
 svg
-#
-disabled
 "
 )
 ;
