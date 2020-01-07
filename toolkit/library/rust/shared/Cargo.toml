@@ -717,6 +717,15 @@ oom_with_global_alloc
 =
 [
 ]
+moz_memory
+=
+[
+"
+mp4parse_capi
+/
+mp4parse_fallible
+"
+]
 [
 lib
 ]

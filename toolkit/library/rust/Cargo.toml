@@ -168,6 +168,17 @@ shared
 oom_with_global_alloc
 "
 ]
+moz_memory
+=
+[
+"
+gkrust
+-
+shared
+/
+moz_memory
+"
+]
 [
 dependencies
 ]
