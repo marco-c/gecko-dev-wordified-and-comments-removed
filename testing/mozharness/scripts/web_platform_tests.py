@@ -1772,7 +1772,11 @@ extend
 paths
 )
         
-else
+elif
+not
+self
+.
+verify_enabled
 :
             
 for
