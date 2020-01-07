@@ -747,6 +747,13 @@ CONFIG
 MOZ_DEBUG
 '
 ]
+and
+CONFIG
+[
+'
+ENABLE_TESTS
+'
+]
 :
 EXPORTS
 .
