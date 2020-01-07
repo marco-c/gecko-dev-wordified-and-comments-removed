@@ -22518,13 +22518,15 @@ if
 aNode
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 RefPtr
 <
 nsRange
