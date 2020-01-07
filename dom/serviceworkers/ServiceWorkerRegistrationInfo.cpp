@@ -2673,6 +2673,10 @@ SetUpdateViaCache
 aUpdateViaCache
 )
 ;
+UpdateRegistrationState
+(
+)
+;
 }
 int64_t
 ServiceWorkerRegistrationInfo

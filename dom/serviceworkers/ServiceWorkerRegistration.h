@@ -207,7 +207,6 @@ aDescriptor
 )
 const
 ;
-virtual
 void
 GetScope
 (
@@ -216,10 +215,7 @@ nsAString
 aScope
 )
 const
-=
-0
 ;
-virtual
 ServiceWorkerUpdateViaCache
 GetUpdateViaCache
 (
@@ -228,8 +224,6 @@ ErrorResult
 aRv
 )
 const
-=
-0
 ;
 virtual
 already_AddRefed
