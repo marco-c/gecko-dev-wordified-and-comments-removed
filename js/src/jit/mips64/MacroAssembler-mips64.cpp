@@ -9007,7 +9007,9 @@ done
 ScratchTagScope
 tag
 (
-this
+asMasm
+(
+)
 source
 )
 ;

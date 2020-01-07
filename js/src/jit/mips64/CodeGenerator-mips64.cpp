@@ -1091,7 +1091,7 @@ ValueOperand
 value
 ScratchTagScope
 &
-Tag
+tag
 )
 {
 masm
