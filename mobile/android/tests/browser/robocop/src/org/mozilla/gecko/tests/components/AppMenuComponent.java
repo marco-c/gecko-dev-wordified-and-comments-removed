@@ -364,6 +364,14 @@ string
 .
 save_as_pdf
 )
+VIEW_PAGE_SOURCE
+(
+R
+.
+string
+.
+view_page_source
+)
 ;
 private
 static
