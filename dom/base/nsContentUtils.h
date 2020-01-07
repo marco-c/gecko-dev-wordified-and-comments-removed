@@ -3672,8 +3672,6 @@ aTargetSpec
 bool
 aClick
 bool
-aIsUserTriggered
-bool
 aIsTrusted
 )
 ;
