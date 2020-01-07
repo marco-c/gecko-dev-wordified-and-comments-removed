@@ -1,4 +1,4 @@
-52375
+52388
 0
 /
 nm
@@ -17264,6 +17264,7 @@ JP
 JPEG
 /
 SM
+JSON
 JV
 Jabez
 /
@@ -40799,6 +40800,8 @@ amicability
 M
 amicable
 amicably
+amici
+amicus
 amid
 amide
 /
@@ -41037,6 +41040,7 @@ analytical
 /
 Y
 analyticalally
+analytics
 analyzable
 analyze
 /
@@ -55496,6 +55500,7 @@ SM
 college
 /
 SM
+collegial
 collegiality
 /
 M
@@ -63802,7 +63807,7 @@ discouraging
 Y
 discover
 /
-ASDG
+ASDGB
 discovered
 /
 U
@@ -67743,6 +67748,7 @@ DRSZG
 encoder
 /
 M
+encodings
 encomium
 /
 MS
@@ -69971,6 +69977,9 @@ explainable
 explained
 /
 U
+explainer
+/
+S
 explanation
 /
 MS
@@ -70121,9 +70130,13 @@ SM
 expulsion
 /
 MS
+expunction
 expunge
 /
 GDS
+expungement
+/
+S
 expurgate
 /
 DSGNX
@@ -103161,10 +103174,13 @@ parry
 GDSM
 parse
 /
-DRSG
+DSG
 parsec
 /
 MS
+parser
+/
+S
 parsimonious
 /
 Y
@@ -112508,6 +112524,9 @@ recurring
 recurse
 /
 XNV
+recusal
+/
+S
 recuse
 /
 DSG
@@ -114806,6 +114825,9 @@ MS
 roadkill
 /
 M
+roadmap
+/
+S
 roadrunner
 /
 SM
@@ -125275,6 +125297,9 @@ M
 strategist
 /
 SM
+strategize
+/
+GD
 strategy
 /
 SM
