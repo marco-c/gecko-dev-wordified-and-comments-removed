@@ -3025,11 +3025,11 @@ if
 (
 extension
 .
-tabManager
-.
-hasTabPermission
+hasPermission
 (
-tabData
+"
+tabs
+"
 )
 )
 {
