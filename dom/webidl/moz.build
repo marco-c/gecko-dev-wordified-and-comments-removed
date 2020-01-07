@@ -4355,6 +4355,11 @@ PerformanceResourceTiming
 webidl
 '
 '
+PerformanceServerTiming
+.
+webidl
+'
+'
 PerformanceTiming
 .
 webidl
