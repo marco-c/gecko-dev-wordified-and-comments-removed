@@ -13269,11 +13269,6 @@ Get
 (
 )
 ;
-if
-(
-ccjs
-)
-{
 ccjs
 -
 >
@@ -13281,7 +13276,6 @@ PerformDebuggerMicroTaskCheckpoint
 (
 )
 ;
-}
 if
 (
 debuggerRunnablesPending
@@ -17517,11 +17511,6 @@ Get
 (
 )
 ;
-if
-(
-context
-)
-{
 context
 -
 >
@@ -17529,7 +17518,6 @@ PerformDebuggerMicroTaskCheckpoint
 (
 )
 ;
-}
 if
 (
 debuggerRunnablesPending
@@ -17598,11 +17586,6 @@ Get
 (
 )
 ;
-if
-(
-ccjs
-)
-{
 ccjs
 -
 >
@@ -17610,7 +17593,6 @@ PerformDebuggerMicroTaskCheckpoint
 (
 )
 ;
-}
 if
 (
 JS
