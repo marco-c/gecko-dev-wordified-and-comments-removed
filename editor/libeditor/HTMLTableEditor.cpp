@@ -2625,7 +2625,7 @@ rv
 ;
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNext
 eStrip
@@ -3792,6 +3792,12 @@ rv
 rv
 )
 ;
+AutoPlaceholderBatch
+beginBatching
+(
+this
+)
+;
 if
 (
 !
@@ -3825,12 +3831,6 @@ colCount
 -
 startColIndex
 )
-)
-;
-AutoPlaceholderBatch
-beginBatching
-(
-this
 )
 ;
 AutoTopLevelEditSubActionNotifier

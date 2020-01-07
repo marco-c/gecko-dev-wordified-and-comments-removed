@@ -4602,7 +4602,7 @@ IsCollapsed
 nsresult
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eStrip
@@ -6371,7 +6371,7 @@ aElement
 {
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eNoStrip

@@ -664,7 +664,7 @@ IsCollapsed
 {
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eStrip
@@ -1130,7 +1130,7 @@ targetPoint
 ;
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eStrip
@@ -1227,7 +1227,7 @@ aDeleteSelection
 nsresult
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eStrip

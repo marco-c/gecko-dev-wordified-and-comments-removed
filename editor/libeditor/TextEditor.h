@@ -447,6 +447,15 @@ EditorBase
 :
 SetAttributeOrEquivalent
 ;
+nsresult
+DeleteSelectionAsSubAction
+(
+EDirection
+aDirection
+EStripWrappers
+aStripWrappers
+)
+;
 virtual
 nsresult
 DeleteSelectionWithTransaction
