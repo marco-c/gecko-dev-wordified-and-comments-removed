@@ -39,6 +39,7 @@ NTDDI_VERSION
 <
 NTDDI_WIN10_RS2
 )
+WINBASEAPI
 PVOID
 WINAPI
 MapViewOfFileNuma2
@@ -61,6 +62,7 @@ ULONG
 aPreferredNode
 )
 ;
+WINBASEAPI
 BOOL
 WINAPI
 UnmapViewOfFile2
