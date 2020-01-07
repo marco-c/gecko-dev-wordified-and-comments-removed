@@ -16,3 +16,11 @@ manifestparser
 1
 .
 1
+wptserve
+~
+=
+1
+.
+4
+.
+0

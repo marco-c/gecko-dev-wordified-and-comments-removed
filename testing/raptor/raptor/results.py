@@ -75,13 +75,6 @@ add
 "
 )
         
-LOG
-.
-info
-(
-new_result_json
-)
-        
 new_result
 =
 RaptorTestResult

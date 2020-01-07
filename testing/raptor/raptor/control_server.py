@@ -23,7 +23,11 @@ get_proxy_logger
 component
 =
 '
-control_server
+raptor
+-
+control
+-
+server
 '
 )
 here

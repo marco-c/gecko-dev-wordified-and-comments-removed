@@ -71,6 +71,8 @@ get_proxy_logger
 component
 =
 '
+raptor
+-
 mitmproxy
 '
 )
@@ -507,7 +509,7 @@ None
             
 self
 .
-bindir
+raptor_dir
 =
 self
 .
@@ -525,14 +527,35 @@ else
             
 self
 .
-bindir
+raptor_dir
 =
 os
 .
 path
 .
-normpath
+dirname
 (
+os
+.
+path
+.
+dirname
+(
+os
+.
+environ
+[
+'
+MOZ_UPLOAD_DIR
+'
+]
+)
+)
+        
+self
+.
+raptor_dir
+=
 os
 .
 path
@@ -541,41 +564,13 @@ join
 (
 self
 .
-config
-[
-'
-binary
-'
-]
-                                                        
-'
-.
-.
-'
-'
-.
-.
-'
-'
-.
-.
-'
-'
-.
-.
-'
-                                                        
-'
-.
-.
-'
-'
+raptor_dir
+"
 testing
-'
-'
+"
+"
 raptor
-'
-)
+"
 )
         
 self
@@ -584,16 +579,14 @@ recordings_path
 =
 self
 .
-bindir
+raptor_dir
         
 LOG
 .
 info
 (
 "
-bindir
-to
-be
+raptor_dir
 used
 for
 mitmproxy
@@ -608,7 +601,7 @@ s
 %
 self
 .
-bindir
+raptor_dir
 )
         
 self
@@ -689,7 +682,7 @@ cwd
 =
 self
 .
-bindir
+raptor_dir
 )
         
 proc
@@ -747,7 +740,7 @@ exists
 (
 self
 .
-bindir
+raptor_dir
 )
 :
             
@@ -757,7 +750,7 @@ makedirs
 (
 self
 .
-bindir
+raptor_dir
 )
         
 LOG
@@ -910,7 +903,7 @@ join
 (
 self
 .
-bindir
+raptor_dir
 '
 mitmdump
 '

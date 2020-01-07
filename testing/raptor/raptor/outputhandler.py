@@ -15,7 +15,11 @@ get_proxy_logger
 component
 =
 '
-raptor_process
+raptor
+-
+output
+-
+handler
 '
 )
 class
