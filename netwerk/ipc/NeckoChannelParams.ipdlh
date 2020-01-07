@@ -1068,6 +1068,15 @@ allowStaleCacheContent
 nsCString
 contentTypeHint
 ;
+uint32_t
+corsMode
+;
+uint32_t
+redirectMode
+;
+uint32_t
+fetchCacheMode
+;
 uint64_t
 channelId
 ;
