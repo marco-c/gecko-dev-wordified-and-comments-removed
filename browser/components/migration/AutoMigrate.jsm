@@ -3570,9 +3570,8 @@ url
 urlObj
 beginDate
 :
-PlacesUtils
-.
-toDate
+new
+Date
 (
 urlVisits
 .
@@ -3580,9 +3579,8 @@ first
 )
 endDate
 :
-PlacesUtils
-.
-toDate
+new
+Date
 (
 urlVisits
 .
