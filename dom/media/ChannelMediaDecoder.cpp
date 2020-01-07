@@ -1913,6 +1913,15 @@ IsShutdown
 )
 )
 ;
+GetOwner
+(
+)
+-
+>
+DownloadProgressed
+(
+)
+;
 using
 StatsPromise
 =
@@ -2073,7 +2082,7 @@ GetOwner
 )
 -
 >
-DownloadProgressed
+UpdateReadyState
 (
 )
 ;
