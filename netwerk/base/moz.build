@@ -700,11 +700,6 @@ nsIURIMutator
 idl
 '
 '
-nsIURIWithBlobImpl
-.
-idl
-'
-'
 nsIURIWithPrincipal
 .
 idl
