@@ -4575,7 +4575,7 @@ void
 zeroLocals
 (
 BaseRegAlloc
-&
+*
 ra
 )
 ;
@@ -6299,7 +6299,7 @@ BaseStackFrame
 zeroLocals
 (
 BaseRegAlloc
-&
+*
 ra
 )
 {
@@ -6479,7 +6479,8 @@ RegI32
 zero
 =
 ra
-.
+-
+>
 needI32
 (
 )
@@ -6538,7 +6539,8 @@ wordSize
 )
 ;
 ra
-.
+-
+>
 freeI32
 (
 zero
@@ -6551,7 +6553,8 @@ RegI32
 p
 =
 ra
-.
+-
+>
 needI32
 (
 )
@@ -6577,7 +6580,8 @@ RegI32
 lim
 =
 ra
-.
+-
+>
 needI32
 (
 )
@@ -6702,21 +6706,24 @@ i
 )
 ;
 ra
-.
+-
+>
 freeI32
 (
 p
 )
 ;
 ra
-.
+-
+>
 freeI32
 (
 lim
 )
 ;
 ra
-.
+-
+>
 freeI32
 (
 zero
@@ -8866,6 +8873,7 @@ back
 void
 loadConstI32
 (
+const
 Stk
 &
 src
@@ -8887,6 +8895,7 @@ dest
 void
 loadMemI32
 (
+const
 Stk
 &
 src
@@ -8910,6 +8919,7 @@ dest
 void
 loadLocalI32
 (
+const
 Stk
 &
 src
@@ -8940,6 +8950,7 @@ dest
 void
 loadRegisterI32
 (
+const
 Stk
 &
 src
@@ -8961,6 +8972,7 @@ dest
 void
 loadConstI64
 (
+const
 Stk
 &
 src
@@ -8982,6 +8994,7 @@ dest
 void
 loadMemI64
 (
+const
 Stk
 &
 src
@@ -9005,6 +9018,7 @@ dest
 void
 loadLocalI64
 (
+const
 Stk
 &
 src
@@ -9035,6 +9049,7 @@ dest
 void
 loadRegisterI64
 (
+const
 Stk
 &
 src
@@ -9056,6 +9071,7 @@ dest
 void
 loadConstF64
 (
+const
 Stk
 &
 src
@@ -9086,6 +9102,7 @@ dest
 void
 loadMemF64
 (
+const
 Stk
 &
 src
@@ -9109,6 +9126,7 @@ dest
 void
 loadLocalF64
 (
+const
 Stk
 &
 src
@@ -9139,6 +9157,7 @@ dest
 void
 loadRegisterF64
 (
+const
 Stk
 &
 src
@@ -9160,6 +9179,7 @@ dest
 void
 loadConstF32
 (
+const
 Stk
 &
 src
@@ -9190,6 +9210,7 @@ dest
 void
 loadMemF32
 (
+const
 Stk
 &
 src
@@ -9213,6 +9234,7 @@ dest
 void
 loadLocalF32
 (
+const
 Stk
 &
 src
@@ -9243,6 +9265,7 @@ dest
 void
 loadRegisterF32
 (
+const
 Stk
 &
 src
@@ -9264,6 +9287,7 @@ dest
 void
 loadI32
 (
+const
 Stk
 &
 src
@@ -9362,6 +9386,7 @@ stack
 void
 loadI64
 (
+const
 Stk
 &
 src
@@ -9467,6 +9492,7 @@ JS_PUNBOX64
 void
 loadI64Low
 (
+const
 Stk
 &
 src
@@ -9600,6 +9626,7 @@ stack
 void
 loadI64High
 (
+const
 Stk
 &
 src
@@ -9738,6 +9765,7 @@ endif
 void
 loadF64
 (
+const
 Stk
 &
 src
@@ -9836,6 +9864,7 @@ stack
 void
 loadF32
 (
+const
 Stk
 &
 src
@@ -10942,6 +10971,7 @@ slot
 void
 popI32
 (
+const
 Stk
 &
 v
@@ -11209,6 +11239,7 @@ specific
 void
 popI64
 (
+const
 Stk
 &
 v
@@ -11503,6 +11534,7 @@ specific
 void
 popF64
 (
+const
 Stk
 &
 v
@@ -11770,6 +11802,7 @@ specific
 void
 popF32
 (
+const
 Stk
 &
 v
@@ -14184,6 +14217,7 @@ fr
 .
 zeroLocals
 (
+&
 ra
 )
 ;
@@ -14961,15 +14995,16 @@ stackBytesConsumedSoFar
 void
 startCallArgs
 (
-FunctionCall
-&
-call
 size_t
 stackArgAreaSize
+FunctionCall
+*
+call
 )
 {
 call
-.
+-
+>
 stackArgAreaSize
 =
 stackArgAreaSize
@@ -14978,11 +15013,13 @@ size_t
 adjustment
 =
 call
-.
+-
+>
 stackArgAreaSize
 +
 call
-.
+-
+>
 frameAlignAdjustment
 ;
 fr
@@ -14998,13 +15035,14 @@ ABIArg
 reservePointerArgument
 (
 FunctionCall
-&
+*
 call
 )
 {
 return
 call
-.
+-
+>
 abi
 .
 next
@@ -15019,14 +15057,15 @@ Pointer
 void
 passArg
 (
-FunctionCall
-&
-call
 ValType
 type
+const
 Stk
 &
 arg
+FunctionCall
+*
+call
 )
 {
 switch
@@ -15045,7 +15084,8 @@ ABIArg
 argLoc
 =
 call
-.
+-
+>
 abi
 .
 next
@@ -15135,7 +15175,8 @@ ABIArg
 argLoc
 =
 call
-.
+-
+>
 abi
 .
 next
@@ -15293,7 +15334,8 @@ ABIArg
 argLoc
 =
 call
-.
+-
+>
 abi
 .
 next
@@ -15548,7 +15590,8 @@ ABIArg
 argLoc
 =
 call
-.
+-
+>
 abi
 .
 next
@@ -15796,6 +15839,7 @@ callIndirect
 (
 uint32_t
 sigIndex
+const
 Stk
 &
 indexVal
@@ -27242,7 +27286,7 @@ ValTypeVector
 &
 args
 FunctionCall
-&
+*
 baselineCall
 )
 ;
@@ -36278,7 +36322,7 @@ ValTypeVector
 &
 argTypes
 FunctionCall
-&
+*
 baselineCall
 )
 {
@@ -36290,11 +36334,11 @@ deadCode_
 ;
 startCallArgs
 (
-baselineCall
 stackArgAreaSize
 (
 argTypes
 )
+baselineCall
 )
 ;
 uint32_t
@@ -36323,7 +36367,6 @@ i
 )
 passArg
 (
-baselineCall
 argTypes
 [
 i
@@ -36336,6 +36379,7 @@ numArgs
 -
 i
 )
+baselineCall
 )
 ;
 masm
@@ -36623,6 +36667,7 @@ sig
 args
 (
 )
+&
 baselineCall
 )
 )
@@ -36817,6 +36862,7 @@ sig
 args
 (
 )
+&
 baselineCall
 )
 )
@@ -37108,6 +37154,7 @@ if
 emitCallArgs
 (
 signature
+&
 baselineCall
 )
 )
@@ -40750,16 +40797,18 @@ instanceArg
 =
 reservePointerArgument
 (
+&
 baselineCall
 )
 ;
 startCallArgs
 (
-baselineCall
 stackArgAreaSize
 (
 sig
 )
+&
+baselineCall
 )
 ;
 for
@@ -40836,7 +40885,6 @@ type
 }
 passArg
 (
-baselineCall
 t
 peek
 (
@@ -40844,6 +40892,8 @@ numArgs
 -
 i
 )
+&
+baselineCall
 )
 ;
 }
