@@ -129,9 +129,10 @@ editForm
 visible
 :
 false
-site
+index
 :
-null
+-
+1
 }
 }
 Prefs
@@ -467,11 +468,13 @@ editForm
 visible
 :
 true
-site
+index
 :
 action
 .
 data
+.
+index
 }
 }
 )
