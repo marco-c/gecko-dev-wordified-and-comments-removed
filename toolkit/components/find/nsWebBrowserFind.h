@@ -79,6 +79,9 @@ class
 nsIDocShell
 ;
 class
+nsIDocument
+;
+class
 nsRange
 ;
 namespace
@@ -209,7 +212,7 @@ aRange
 nsresult
 GetRootNode
 (
-nsIDOMDocument
+nsIDocument
 *
 aDomDoc
 nsIDOMNode
@@ -230,7 +233,7 @@ aStartPt
 nsRange
 *
 aEndPt
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 mozilla
@@ -258,7 +261,7 @@ aStartPoint
 nsRange
 *
 aEndPoint
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )

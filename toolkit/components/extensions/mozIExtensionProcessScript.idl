@@ -66,8 +66,8 @@ idl
 interface
 mozIDOMWindowProxy
 ;
-interface
-nsIDOMDocument
+webidl
+Document
 ;
 [
 scriptable
@@ -115,7 +115,7 @@ in
 nsISupports
 extension
 in
-nsIDOMDocument
+Document
 doc
 )
 ;
