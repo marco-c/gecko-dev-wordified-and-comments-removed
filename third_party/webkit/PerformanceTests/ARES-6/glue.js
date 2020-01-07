@@ -165,6 +165,16 @@ readyTrigger
 ;
 if
 (
+typeof
+location
+!
+=
+=
+'
+undefined
+'
+&
+&
 location
 .
 search
