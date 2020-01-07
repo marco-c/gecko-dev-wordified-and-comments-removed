@@ -2,7 +2,7 @@ use
 nonzero
 :
 :
-NonZero
+NonZeroU32
 ;
 use
 std
@@ -339,10 +339,7 @@ self
 )
 -
 >
-NonZero
-<
-u32
->
+NonZeroU32
 {
 self
 .
@@ -351,7 +348,7 @@ index
 =
 1
 ;
-NonZero
+NonZeroU32
 :
 :
 new
@@ -503,10 +500,7 @@ struct
 PipelineIndex
 (
 pub
-NonZero
-<
-u32
->
+NonZeroU32
 )
 ;
 malloc_size_of_is_0
@@ -706,7 +700,7 @@ index
 :
 PipelineIndex
 (
-NonZero
+NonZeroU32
 :
 :
 new_unchecked
@@ -894,10 +888,7 @@ struct
 BrowsingContextIndex
 (
 pub
-NonZero
-<
-u32
->
+NonZeroU32
 )
 ;
 malloc_size_of_is_0
@@ -1364,7 +1355,7 @@ unsafe
 {
 PipelineIndex
 (
-NonZero
+NonZeroU32
 :
 :
 new_unchecked
@@ -1429,7 +1420,7 @@ unsafe
 {
 BrowsingContextIndex
 (
-NonZero
+NonZeroU32
 :
 :
 new_unchecked

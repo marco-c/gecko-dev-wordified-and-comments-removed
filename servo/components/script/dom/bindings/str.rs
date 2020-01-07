@@ -842,7 +842,7 @@ self
 .
 0
 .
-splice
+replace_range
 (
 0
 .
