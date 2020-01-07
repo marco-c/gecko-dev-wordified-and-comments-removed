@@ -46,7 +46,7 @@ GECKO
 from
 taskgraph
 .
-generator
+config
 import
 load_graph_config
 from
