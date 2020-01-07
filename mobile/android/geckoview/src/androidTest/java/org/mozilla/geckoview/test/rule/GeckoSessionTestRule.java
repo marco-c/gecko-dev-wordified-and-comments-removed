@@ -5782,12 +5782,6 @@ getMostRecentTab
 (
 )
 ;
-tab
-.
-attach
-(
-)
-;
 mRDPTabs
 .
 put
@@ -8554,12 +8548,6 @@ mRDPChromeProcess
 notNullValue
 (
 )
-)
-;
-mRDPChromeProcess
-.
-attach
-(
 )
 ;
 }
