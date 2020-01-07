@@ -7297,6 +7297,14 @@ if
 (
 winWidget
 )
+fuzzy
+-
+if
+(
+Android
+10
+2
+)
 =
 =
 text
