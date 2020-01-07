@@ -33,7 +33,9 @@ class
 Loader
 ;
 class
+MOZ_STACK_CLASS
 ErrorReporter
+final
 {
 public
 :
@@ -93,9 +95,18 @@ nsIDocument
 &
 )
 ;
+static
 bool
 ShouldReportErrors
 (
+const
+StyleSheet
+*
+aSheet
+const
+Loader
+*
+aLoader
 )
 ;
 void
@@ -168,7 +179,7 @@ static
 bool
 sReportErrors
 ;
-nsAutoString
+nsString
 mError
 ;
 nsString
@@ -190,9 +201,6 @@ mLoader
 nsIURI
 *
 mURI
-;
-uint64_t
-mInnerWindowID
 ;
 uint32_t
 mErrorLineNumber
