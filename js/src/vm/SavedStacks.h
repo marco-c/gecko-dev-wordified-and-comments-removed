@@ -32,7 +32,9 @@ h
 #
 include
 "
-jswrapper
+js
+/
+HashTable
 .
 h
 "
@@ -41,7 +43,7 @@ include
 "
 js
 /
-HashTable
+Wrapper
 .
 h
 "

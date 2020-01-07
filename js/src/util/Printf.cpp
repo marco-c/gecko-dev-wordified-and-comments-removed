@@ -1,7 +1,9 @@
 #
 include
 "
-jsprf
+js
+/
+Printf
 .
 h
 "
@@ -17,7 +19,9 @@ h
 #
 include
 "
-jsalloc
+js
+/
+AllocPolicy
 .
 h
 "

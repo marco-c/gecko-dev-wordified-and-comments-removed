@@ -1,9 +1,9 @@
 #
 ifndef
-jswrapper_h
+js_Wrapper_h
 #
 define
-jswrapper_h
+js_Wrapper_h
 #
 include
 "

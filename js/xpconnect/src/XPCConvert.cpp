@@ -98,13 +98,6 @@ h
 #
 include
 "
-jsprf
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -1,9 +1,9 @@
 #
 ifndef
-jsalloc_h
+js_AllocPolicy_h
 #
 define
-jsalloc_h
+js_AllocPolicy_h
 #
 include
 "

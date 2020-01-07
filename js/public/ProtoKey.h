@@ -1,9 +1,9 @@
 #
 ifndef
-jsprototypes_h
+js_ProtoKey_h
 #
 define
-jsprototypes_h
+js_ProtoKey_h
 #
 define
 CLASP

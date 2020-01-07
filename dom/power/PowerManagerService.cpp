@@ -57,13 +57,6 @@ h
 #
 include
 "
-jsprf
-.
-h
-"
-#
-include
-"
 nsIDOMWakeLockListener
 .
 h

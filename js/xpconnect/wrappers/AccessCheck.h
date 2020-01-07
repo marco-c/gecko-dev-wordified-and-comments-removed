@@ -7,7 +7,9 @@ __AccessCheck_h__
 #
 include
 "
-jswrapper
+js
+/
+Id
 .
 h
 "
@@ -16,7 +18,7 @@ include
 "
 js
 /
-Id
+Wrapper
 .
 h
 "
