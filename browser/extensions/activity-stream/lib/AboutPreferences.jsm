@@ -90,7 +90,7 @@ const
 PREFERENCES_LOADED_EVENT
 =
 "
-sync
+home
 -
 pane
 -
