@@ -188,6 +188,11 @@ ia
 id
 it
 ja
+ja
+-
+JP
+-
+mac
 ka
 kab
 kk
@@ -252,6 +257,7 @@ CN
 zh
 -
 TW
+mix
 "
 .
 split

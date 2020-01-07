@@ -75,6 +75,17 @@ recommended
 "
 ]
 "
+globals
+"
+:
+{
+"
+RPMSendAsyncMessage
+"
+:
+true
+}
+"
 overrides
 "
 :

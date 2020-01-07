@@ -113,6 +113,15 @@ componentWillMount
 (
 )
 {
+const
+endpoint
+=
+ASRouterUtils
+.
+getEndpoint
+(
+)
+;
 ASRouterUtils
 .
 sendMessage
@@ -123,6 +132,11 @@ type
 "
 ADMIN_CONNECT_STATE
 "
+data
+:
+{
+endpoint
+}
 }
 )
 ;

@@ -154,7 +154,7 @@ globals
 set
 (
 "
-addMessageListener
+RPMAddMessageListener
 "
 sandbox
 .
@@ -168,7 +168,7 @@ globals
 set
 (
 "
-removeMessageListener
+RPMRemoveMessageListener
 "
 sandbox
 .
@@ -1303,7 +1303,7 @@ calledWith
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 INCOMING_MESSAGE_NAME
 )
 ;
@@ -1314,7 +1314,7 @@ listener
 =
 global
 .
-addMessageListener
+RPMAddMessageListener
 .
 firstCall
 .
@@ -1358,7 +1358,7 @@ calledWith
 (
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 INCOMING_MESSAGE_NAME
 listener
 )
@@ -1441,7 +1441,7 @@ calledWith
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 INCOMING_MESSAGE_NAME
 )
 ;
@@ -1452,7 +1452,7 @@ listener
 =
 global
 .
-addMessageListener
+RPMAddMessageListener
 .
 firstCall
 .
@@ -1513,7 +1513,7 @@ calledWith
 (
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 INCOMING_MESSAGE_NAME
 listener
 )
@@ -1599,7 +1599,7 @@ globals
 set
 (
 "
-addMessageListener
+RPMAddMessageListener
 "
 sandbox
 .
@@ -1613,7 +1613,7 @@ globals
 set
 (
 "
-removeMessageListener
+RPMRemoveMessageListener
 "
 sandbox
 .
@@ -2400,7 +2400,7 @@ calledWith
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 INCOMING_MESSAGE_NAME
 snippets
 .
@@ -2683,7 +2683,7 @@ calledWith
 (
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 INCOMING_MESSAGE_NAME
 snippets
 .

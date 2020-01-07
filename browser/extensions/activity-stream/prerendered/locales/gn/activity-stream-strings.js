@@ -1112,6 +1112,15 @@ firstrun_email_input_placeholder
 andutiveve
 "
 "
+firstrun_invalid_input
+"
+:
+"
+Valid
+email
+required
+"
+"
 firstrun_extra_legal_links
 "
 :
