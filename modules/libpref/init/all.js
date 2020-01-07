@@ -12313,7 +12313,7 @@ tls
 .
 enable_0rtt_data
 "
-true
+false
 )
 ;
 pref
