@@ -75,6 +75,11 @@ store
 DevToolsModules
 (
 '
+browser
+.
+js
+'
+'
 panel
 .
 js
