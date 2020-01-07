@@ -1744,11 +1744,11 @@ MOZ_ASSERT
 planes
 =
 =
-2
+3
 "
 Likely
 not
-NV12
+YUV420
 format
 and
 it
@@ -1993,7 +1993,7 @@ mPlanes
 .
 mSkip
 =
-1
+0
 ;
 buffer
 .
@@ -2013,7 +2013,7 @@ uint8_t
 CVPixelBufferGetBaseAddressOfPlane
 (
 aImage
-1
+2
 )
 )
 ;
@@ -2029,7 +2029,7 @@ mStride
 CVPixelBufferGetBytesPerRowOfPlane
 (
 aImage
-1
+2
 )
 ;
 buffer
@@ -2075,7 +2075,7 @@ mPlanes
 .
 mOffset
 =
-1
+0
 ;
 buffer
 .
@@ -2086,7 +2086,7 @@ mPlanes
 .
 mSkip
 =
-1
+0
 ;
 gfx
 :
@@ -2943,7 +2943,7 @@ mUseSoftwareImages
 SInt32
 PixelFormatTypeValue
 =
-kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
+kCVPixelFormatType_420YpCbCr8Planar
 ;
 AutoCFRelease
 <
