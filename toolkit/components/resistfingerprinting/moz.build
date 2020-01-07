@@ -110,13 +110,3 @@ nsRFPService
 h
 '
 ]
-EXTRA_JS_MODULES
-+
-=
-[
-'
-LanguagePrompt
-.
-jsm
-'
-]
