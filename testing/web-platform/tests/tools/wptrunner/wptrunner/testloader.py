@@ -2678,6 +2678,12 @@ False
 manifest_download
 =
 False
+types
+=
+None
+meta_filters
+=
+None
 )
 :
         
@@ -2702,6 +2708,21 @@ self
 manifest_download
 =
 manifest_download
+        
+self
+.
+types
+=
+types
+        
+self
+.
+meta_filters
+=
+meta_filters
+or
+[
+]
         
 self
 .
@@ -3092,6 +3113,16 @@ load
 (
 tests_path
 manifest_path
+types
+=
+self
+.
+types
+meta_filters
+=
+self
+.
+meta_filters
 )
         
 if
