@@ -3448,12 +3448,12 @@ aSelection
 nsresult
 CreateRange
 (
-nsIDOMNode
+nsINode
 *
 aStartContainer
 int32_t
 aStartOffset
-nsIDOMNode
+nsINode
 *
 aEndContainer
 int32_t
@@ -3467,7 +3467,7 @@ aRange
 nsresult
 AppendNodeToSelectionAsRange
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )

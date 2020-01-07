@@ -10218,9 +10218,9 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 cell
 ;

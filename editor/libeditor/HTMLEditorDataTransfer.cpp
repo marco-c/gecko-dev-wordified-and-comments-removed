@@ -1342,9 +1342,9 @@ cellSelectionMode
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 cell
 ;
