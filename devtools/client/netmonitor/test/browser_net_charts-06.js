@@ -321,7 +321,7 @@ one
 "
 )
 ;
-ok
+is
 (
 slices
 [

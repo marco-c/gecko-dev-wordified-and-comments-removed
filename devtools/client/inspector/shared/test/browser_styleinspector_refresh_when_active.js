@@ -180,7 +180,7 @@ computedview
 .
 computedView
 ;
-ok
+is
 (
 getComputedViewPropertyValue
 (
@@ -190,8 +190,12 @@ color
 "
 )
 "
-#
-F00
+rgb
+(
+255
+0
+0
+)
 "
 "
 The
@@ -228,7 +232,7 @@ two
 inspector
 )
 ;
-ok
+is
 (
 getComputedViewPropertyValue
 (
@@ -238,8 +242,12 @@ color
 "
 )
 "
-#
-00F
+rgb
+(
+0
+0
+255
+)
 "
 "
 The

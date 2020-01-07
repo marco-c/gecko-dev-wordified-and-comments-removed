@@ -1447,7 +1447,7 @@ inlineTextChild
 "
 )
 ;
-ok
+is
 (
 container
 .
@@ -1712,7 +1712,7 @@ inlineTextChild
 "
 )
 ;
-ok
+is
 (
 container
 .

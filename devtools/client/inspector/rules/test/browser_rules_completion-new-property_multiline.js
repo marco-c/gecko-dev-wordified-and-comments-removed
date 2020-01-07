@@ -662,7 +662,7 @@ view
 styleWindow
 )
 ;
-ok
+is
 (
 editor
 .
@@ -692,7 +692,7 @@ view
 styleWindow
 )
 ;
-ok
+is
 (
 editor
 .

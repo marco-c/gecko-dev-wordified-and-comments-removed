@@ -625,7 +625,7 @@ selection
 .
 nodeFront
 ;
-ok
+is
 (
 node
 .
@@ -643,7 +643,7 @@ b1
 "
 )
 ;
-ok
+is
 (
 node
 .
