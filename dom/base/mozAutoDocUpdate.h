@@ -36,8 +36,6 @@ mozAutoDocUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 bool
 aNotify
 )
@@ -50,10 +48,6 @@ aDocument
 :
 nullptr
 )
-mUpdateType
-(
-aUpdateType
-)
 {
 if
 (
@@ -65,7 +59,6 @@ mDocument
 >
 BeginUpdate
 (
-mUpdateType
 )
 ;
 }
@@ -95,7 +88,6 @@ mDocument
 >
 EndUpdate
 (
-mUpdateType
 )
 ;
 }
@@ -117,9 +109,6 @@ nsCOMPtr
 nsIDocument
 >
 mDocument
-;
-nsUpdateType
-mUpdateType
 ;
 }
 ;
@@ -152,7 +141,6 @@ define
 MOZ_AUTO_DOC_UPDATE
 (
 doc
-type
 notify
 )
 \
@@ -165,7 +153,6 @@ __LINE__
 \
 (
 doc
-type
 notify
 )
 class
@@ -202,7 +189,6 @@ mDocument
 >
 BeginUpdate
 (
-UPDATE_CONTENT_MODEL
 )
 ;
 }
@@ -222,7 +208,6 @@ mDocument
 >
 EndUpdate
 (
-UPDATE_CONTENT_MODEL
 )
 ;
 }

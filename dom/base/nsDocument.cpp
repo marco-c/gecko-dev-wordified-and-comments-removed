@@ -10443,7 +10443,6 @@ ChildCount
 MOZ_AUTO_DOC_UPDATE
 (
 this
-UPDATE_CONTENT_MODEL
 true
 )
 ;
@@ -22483,8 +22482,6 @@ nsIDocument
 :
 BeginUpdate
 (
-nsUpdateType
-aUpdateType
 )
 {
 if
@@ -22554,7 +22551,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 BeginUpdate
 (
 this
-aUpdateType
 )
 )
 ;
@@ -22565,8 +22561,6 @@ nsDocument
 :
 EndUpdate
 (
-nsUpdateType
-aUpdateType
 )
 {
 NS_DOCUMENT_NOTIFY_OBSERVERS
@@ -22574,7 +22568,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 EndUpdate
 (
 this
-aUpdateType
 )
 )
 ;
@@ -28240,7 +28233,6 @@ mozAutoDocUpdate
 updateBatch
 (
 this
-UPDATE_CONTENT_MODEL
 true
 )
 ;

@@ -10581,7 +10581,6 @@ mozAutoDocUpdate
 updateBatch
 (
 doc
-UPDATE_CONTENT_MODEL
 true
 )
 ;

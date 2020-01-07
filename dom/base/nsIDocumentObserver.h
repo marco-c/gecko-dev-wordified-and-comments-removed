@@ -62,14 +62,6 @@ NS_IDOCUMENT_OBSERVER_IID
 0x78
 }
 }
-typedef
-uint32_t
-nsUpdateType
-;
-#
-define
-UPDATE_CONTENT_MODEL
-0x00000001
 class
 nsIDocumentObserver
 :
@@ -89,8 +81,6 @@ BeginUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 =
 0
@@ -102,8 +92,6 @@ EndUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 =
 0
@@ -183,9 +171,6 @@ BeginUpdate
 nsIDocument
 *
 aDocument
-\
-nsUpdateType
-aUpdateType
 )
 override
 ;
@@ -200,8 +185,6 @@ EndUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 override
 ;
@@ -311,8 +294,6 @@ BeginUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 \
 {
@@ -329,8 +310,6 @@ EndUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 \
 {

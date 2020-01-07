@@ -9781,8 +9781,6 @@ BeginUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 {
 if
@@ -9831,8 +9829,6 @@ EndUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 {
 if

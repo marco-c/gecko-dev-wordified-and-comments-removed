@@ -5390,7 +5390,6 @@ mInNotification
 MOZ_AUTO_DOC_UPDATE
 (
 mDocument
-UPDATE_CONTENT_MODEL
 !
 mBeganUpdate
 )
@@ -6125,8 +6124,6 @@ BeginUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 {
 if
@@ -6169,8 +6166,6 @@ EndUpdate
 nsIDocument
 *
 aDocument
-nsUpdateType
-aUpdateType
 )
 {
 if

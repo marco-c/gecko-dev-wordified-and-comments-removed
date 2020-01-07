@@ -2124,7 +2124,6 @@ mSink
 -
 >
 mDocument
-UPDATE_CONTENT_MODEL
 true
 )
 ;
@@ -3722,7 +3721,6 @@ mInNotification
 MOZ_AUTO_DOC_UPDATE
 (
 mDocument
-UPDATE_CONTENT_MODEL
 !
 mBeganUpdate
 )

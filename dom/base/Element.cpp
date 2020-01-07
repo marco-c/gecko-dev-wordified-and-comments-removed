@@ -11057,7 +11057,6 @@ mozAutoDocUpdate
 updateBatch
 (
 document
-UPDATE_CONTENT_MODEL
 false
 )
 ;
@@ -11285,7 +11284,6 @@ mozAutoDocUpdate
 updateBatch
 (
 document
-UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
@@ -11525,7 +11523,6 @@ mozAutoDocUpdate
 updateBatch
 (
 document
-UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
@@ -12929,7 +12926,6 @@ mozAutoDocUpdate
 updateBatch
 (
 document
-UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
@@ -17942,7 +17938,6 @@ mozAutoDocUpdate
 updateBatch
 (
 doc
-UPDATE_CONTENT_MODEL
 true
 )
 ;
