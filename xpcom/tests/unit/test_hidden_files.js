@@ -1,17 +1,3 @@
-var
-Ci
-=
-Components
-.
-interfaces
-;
-var
-Cc
-=
-Components
-.
-classes
-;
 const
 NS_OS_TEMP_DIR
 =
