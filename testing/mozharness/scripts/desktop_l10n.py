@@ -1063,10 +1063,6 @@ all_actions
 [
                 
 "
-clobber
-"
-                
-"
 clone
 -
 locales
