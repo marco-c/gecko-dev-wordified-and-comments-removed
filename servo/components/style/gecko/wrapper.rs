@@ -10114,7 +10114,7 @@ self
 as
 *
 const
-_
+RawGeckoElement
 )
 .
 hash
