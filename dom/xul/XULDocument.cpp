@@ -2059,7 +2059,7 @@ get
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 XULDocument
 :
 :

@@ -73,15 +73,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IXULDOCUMENT_IID
 )
-NS_IMETHOD
-OnPrototypeLoadDone
-(
-bool
-aResumeWalk
-)
-=
-0
-;
 virtual
 bool
 OnDocumentParserError
