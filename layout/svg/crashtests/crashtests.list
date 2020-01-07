@@ -1237,3 +1237,17 @@ test
 1
 .
 xhtml
+load
+blob
+-
+merging
+-
+and
+-
+retained
+-
+display
+-
+list
+.
+html
