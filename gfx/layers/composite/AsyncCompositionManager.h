@@ -620,6 +620,7 @@ mPreviousFrameTimeStamp
 AnimationMetricsTracker
 mAnimationMetricsTracker
 ;
+MOZ_NON_OWNING_REF
 CompositorBridgeParent
 *
 mCompositorBridge
