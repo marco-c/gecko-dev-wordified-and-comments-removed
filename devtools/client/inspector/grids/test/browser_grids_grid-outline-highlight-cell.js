@@ -218,7 +218,7 @@ cell
 group
 rect
 "
-3
+2
 )
 ;
 let
@@ -273,7 +273,7 @@ gridCellA
 =
 elements
 [
-1
+0
 ]
 ;
 info
@@ -398,8 +398,8 @@ EventUtils
 synthesizeMouse
 (
 gridCellA
-10
-5
+1
+1
 {
 type
 :

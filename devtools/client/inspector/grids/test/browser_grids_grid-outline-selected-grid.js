@@ -291,7 +291,7 @@ cell
 group
 rect
 "
-4
+3
 )
 ;
 checkbox
@@ -330,7 +330,7 @@ is
 elements
 .
 length
-4
+3
 "
 Grid
 outline

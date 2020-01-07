@@ -40,6 +40,11 @@ color
 PropTypes
 .
 string
+direction
+:
+PropTypes
+.
+string
 gridFragments
 :
 PropTypes
@@ -55,6 +60,11 @@ nodeFront
 PropTypes
 .
 object
+writingMode
+:
+PropTypes
+.
+string
 }
 ;
 exports
