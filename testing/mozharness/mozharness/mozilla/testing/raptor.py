@@ -1736,6 +1736,27 @@ binary
 "
 )
             
+if
+binary_path
+.
+endswith
+(
+'
+.
+exe
+'
+)
+:
+                
+binary_path
+=
+binary_path
+[
+:
+-
+4
+]
+            
 kw_options
 [
 '

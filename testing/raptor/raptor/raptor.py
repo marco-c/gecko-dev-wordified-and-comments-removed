@@ -1403,9 +1403,6 @@ raptor_test_list
 get_raptor_test_list
 (
 args
-mozinfo
-.
-os
 )
     
 if
