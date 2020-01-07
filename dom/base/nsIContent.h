@@ -201,6 +201,13 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsIContent
 )
+NS_IMPL_FROMNODE_HELPER
+(
+nsIContent
+IsContent
+(
+)
+)
 virtual
 nsresult
 BindToTree
