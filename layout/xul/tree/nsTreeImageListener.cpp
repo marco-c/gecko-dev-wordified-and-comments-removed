@@ -33,6 +33,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsTreeColumns
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsTreeImageListener

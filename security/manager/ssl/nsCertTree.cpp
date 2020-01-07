@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsITreeColumns
-.
-h
-"
-#
-include
-"
 nsIX509CertDB
 .
 h
@@ -137,6 +130,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+nsTreeColumns
 .
 h
 "

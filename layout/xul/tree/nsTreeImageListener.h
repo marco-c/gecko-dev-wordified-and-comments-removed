@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsITreeColumns
-.
-h
-"
-#
-include
-"
 nsTreeBodyFrame
 .
 h
@@ -41,6 +34,9 @@ Attributes
 .
 h
 "
+class
+nsITreeColumn
+;
 class
 nsTreeImageListener
 final
