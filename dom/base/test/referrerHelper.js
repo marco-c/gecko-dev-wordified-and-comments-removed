@@ -440,6 +440,7 @@ finish
 function
 checkExpectedGlobalResults
 (
+testName
 )
 {
 var
@@ -576,6 +577,7 @@ policy
 }
 advance
 (
+testName
 )
 ;
 }
