@@ -11416,11 +11416,6 @@ MozReadWrite
 NonTSPseudoClass
 :
 :
-Unresolved
-|
-NonTSPseudoClass
-:
-:
 FocusWithin
 |
 NonTSPseudoClass

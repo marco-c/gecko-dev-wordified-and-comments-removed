@@ -18,15 +18,6 @@ bare
 [
 (
 "
-unresolved
-"
-Unresolved
-unresolved
-IN_UNRESOLVED_STATE
-_
-)
-(
-"
 -
 moz
 -
