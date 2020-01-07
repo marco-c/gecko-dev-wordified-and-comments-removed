@@ -67,10 +67,10 @@ interface
 nsIDOMElement
 ;
 interface
-nsIDOMDocumentFragment
-;
-interface
 nsIURI
+;
+webidl
+DocumentFragment
 ;
 /
 *
@@ -967,7 +967,7 @@ parsing
 algorithm
 *
 /
-nsIDOMDocumentFragment
+DocumentFragment
 parseFragment
 (
 in

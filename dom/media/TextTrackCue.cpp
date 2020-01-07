@@ -542,9 +542,9 @@ CreateDocumentFragment
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDOMDocumentFragment
+DocumentFragment
 >
 frag
 ;
@@ -580,13 +580,6 @@ return
 frag
 .
 forget
-(
-)
-.
-downcast
-<
-DocumentFragment
->
 (
 )
 ;

@@ -106,8 +106,8 @@ nsIURI
 interface
 nsIDOMElement
 ;
-interface
-nsIDOMDocumentFragment
+webidl
+DocumentFragment
 ;
 /
 *
@@ -402,7 +402,7 @@ markup
 .
 *
 /
-nsIDOMDocumentFragment
+DocumentFragment
 createDocumentFragment
 (
 in

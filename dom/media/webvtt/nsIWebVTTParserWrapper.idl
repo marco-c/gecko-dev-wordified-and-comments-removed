@@ -64,9 +64,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMDocumentFragment
-;
-interface
 nsIWebVTTListener
 ;
 interface
@@ -74,6 +71,9 @@ mozIDOMWindow
 ;
 interface
 nsIVariant
+;
+webidl
+DocumentFragment
 ;
 /
 *
@@ -409,7 +409,7 @@ fragment
 .
 *
 /
-nsIDOMDocumentFragment
+DocumentFragment
 convertCueToDOMTree
 (
 in
