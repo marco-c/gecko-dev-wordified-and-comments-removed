@@ -394,6 +394,9 @@ VALID_CREDIT_CARD_FIELDS
 =
 [
 "
+billingAddressGUID
+"
+"
 cc
 -
 name
@@ -7325,6 +7328,17 @@ creditCardToMerge
 [
 field
 ]
+&
+&
+typeof
+(
+existingField
+)
+!
+=
+"
+undefined
+"
 )
 {
 creditCardToMerge
