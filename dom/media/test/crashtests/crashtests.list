@@ -114,14 +114,6 @@ skip
 if
 (
 Android
-|
-|
-(
-webrender
-&
-&
-winWidget
-)
 )
 load
 789075
@@ -134,10 +126,6 @@ bug
 1374405
 for
 android
-bug
-1426199
-for
-webrender
 skip
 -
 if
