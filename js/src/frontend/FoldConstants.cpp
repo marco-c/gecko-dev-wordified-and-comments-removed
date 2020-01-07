@@ -4992,16 +4992,7 @@ ParseNodeKind
 Mod
 )
 return
-right
-=
-=
-0
-?
-GenericNaN
-(
-)
-:
-js_fmod
+NumberMod
 (
 left
 right
