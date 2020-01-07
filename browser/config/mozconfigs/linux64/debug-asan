@@ -71,6 +71,15 @@ PKG_CONFIG_LIBDIR
 /
 usr
 /
+local
+/
+lib64
+/
+pkgconfig
+:
+/
+usr
+/
 lib64
 /
 pkgconfig
