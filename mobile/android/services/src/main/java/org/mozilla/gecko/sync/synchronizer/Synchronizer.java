@@ -84,11 +84,11 @@ LOG_TAG
 SyncDelSDelegate
 "
 ;
-protected
+private
 String
 configSyncID
 ;
-protected
+private
 SynchronizerDelegate
 synchronizerDelegate
 ;

@@ -141,7 +141,7 @@ public
 class
 HistoryServerSyncStage
 extends
-ServerSyncStage
+NonBufferingServerSyncStage
 {
 protected
 static

@@ -58,11 +58,6 @@ onFetchCompleted
 (
 )
 ;
-void
-onBatchCompleted
-(
-)
-;
 RepositorySessionFetchRecordsDelegate
 deferredFetchDelegate
 (

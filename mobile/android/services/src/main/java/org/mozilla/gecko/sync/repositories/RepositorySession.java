@@ -504,13 +504,6 @@ command
 }
 public
 void
-storeFlush
-(
-)
-{
-}
-public
-void
 performCleanup
 (
 )

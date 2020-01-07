@@ -422,14 +422,6 @@ onFetchCompleted
 }
 Override
 public
-void
-onBatchCompleted
-(
-)
-{
-}
-Override
-public
 RepositorySessionFetchRecordsDelegate
 deferredFetchDelegate
 (
