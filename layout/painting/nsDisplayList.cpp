@@ -37483,10 +37483,10 @@ AppUnitsPerDevPixel
 (
 )
 ;
-nsCoordBox
+nsRectAbsolute
 outer
 ;
-nsCoordBox
+nsRectAbsolute
 inner
 ;
 stickyScrollContainer
@@ -37501,7 +37501,7 @@ outer
 inner
 )
 ;
-LayerBox
+LayerRectAbsolute
 stickyOuter
 (
 NSAppUnitsToFloatPixels
@@ -37558,7 +37558,7 @@ aContainerParameters
 mYScale
 )
 ;
-LayerBox
+LayerRectAbsolute
 stickyInner
 (
 NSAppUnitsToFloatPixels
@@ -37856,10 +37856,10 @@ hBounds
 nsPoint
 appliedOffset
 ;
-nsCoordBox
+nsRectAbsolute
 outer
 ;
-nsCoordBox
+nsRectAbsolute
 inner
 ;
 stickyScrollContainer

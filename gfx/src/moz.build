@@ -175,11 +175,6 @@ nsCoord
 h
 '
 '
-nsCoordBox
-.
-h
-'
-'
 nsDeviceContext
 .
 h
@@ -216,6 +211,11 @@ h
 '
 '
 nsRect
+.
+h
+'
+'
+nsRectAbsolute
 .
 h
 '
