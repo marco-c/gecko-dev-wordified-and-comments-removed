@@ -49,7 +49,7 @@ New_HyperText
 roles
 :
 :
-BLOCKQUOTE
+SECTION
 )
 MARKUPMAP
 (
