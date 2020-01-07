@@ -2689,11 +2689,6 @@ errorNumber
 .
 )
 ;
-bool
-warnOnceAboutExprClosure
-(
-)
-;
 MOZ_MUST_USE
 bool
 extraWarning
