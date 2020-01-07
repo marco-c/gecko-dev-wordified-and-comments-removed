@@ -653,6 +653,15 @@ ins
 override
 ;
 void
+visitImplicitThis
+(
+MImplicitThis
+*
+ins
+)
+override
+;
+void
 visitCall
 (
 MCall

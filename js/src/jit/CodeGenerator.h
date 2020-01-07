@@ -1718,6 +1718,15 @@ lir
 override
 ;
 void
+visitImplicitThis
+(
+LImplicitThis
+*
+lir
+)
+override
+;
+void
 visitArrayLength
 (
 LArrayLength
