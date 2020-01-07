@@ -23,7 +23,7 @@ utf
 title
 >
 Test
-inDOMUtils
+InspectorUtils
 :
 :
 isValidCSSColor
@@ -102,37 +102,6 @@ SpecialPowers
 .
 InspectorUtils
 ;
-let
-utils
-=
-SpecialPowers
-.
-Cc
-[
-"
-mozilla
-.
-org
-/
-inspector
-/
-dom
--
-utils
-;
-1
-"
-]
-.
-getService
-(
-SpecialPowers
-.
-Ci
-.
-inIDOMUtils
-)
-;
 /
 /
 Color
@@ -210,7 +179,7 @@ continue
 }
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -229,7 +198,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -280,7 +249,7 @@ i
 {
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -317,7 +286,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -354,7 +323,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -391,7 +360,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -434,7 +403,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -477,7 +446,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -521,7 +490,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -560,7 +529,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -599,7 +568,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -664,7 +633,7 @@ i
 {
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -707,7 +676,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -750,7 +719,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -793,7 +762,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -842,7 +811,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -891,7 +860,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -941,7 +910,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -992,7 +961,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1043,7 +1012,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1117,7 +1086,7 @@ i
 {
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1158,7 +1127,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1223,7 +1192,7 @@ i
 {
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1264,7 +1233,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1362,7 +1331,7 @@ hex
 }
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1393,7 +1362,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1426,7 +1395,7 @@ color
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1456,7 +1425,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1511,7 +1480,7 @@ toString
 ;
 ok
 (
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1547,7 +1516,7 @@ color
 ok
 (
 !
-utils
+InspectorUtils
 .
 isValidCSSColor
 (
@@ -1582,7 +1551,7 @@ body
 h1
 >
 Test
-inDOMUtils
+InspectorUtils
 :
 :
 isValidCSSColor

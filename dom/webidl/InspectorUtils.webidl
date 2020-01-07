@@ -305,6 +305,13 @@ DOMString
 colorString
 )
 ;
+boolean
+isValidCSSColor
+(
+DOMString
+colorString
+)
+;
 }
 ;
 dictionary

@@ -206,7 +206,7 @@ color
 function
 "
 :
-DOMUtils
+InspectorUtils
 .
 isValidCSSColor
 (
