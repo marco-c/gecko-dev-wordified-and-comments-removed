@@ -2019,6 +2019,11 @@ null
 }
 return
 {
+view
+:
+"
+computed
+"
 type
 value
 }

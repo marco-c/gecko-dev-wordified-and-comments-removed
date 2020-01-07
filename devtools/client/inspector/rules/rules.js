@@ -2248,6 +2248,11 @@ null
 }
 return
 {
+view
+:
+"
+rule
+"
 type
 value
 }
