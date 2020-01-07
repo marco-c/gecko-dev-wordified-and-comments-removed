@@ -2187,8 +2187,6 @@ foundMatchingFamily
 =
 true
 ;
-break
-;
 }
 }
 if
