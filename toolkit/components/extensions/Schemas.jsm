@@ -13434,7 +13434,7 @@ if
 (
 this
 .
-_rootScheam
+_rootSchema
 )
 {
 throw
@@ -13603,7 +13603,7 @@ if
 (
 this
 .
-_rootScheam
+_rootSchema
 )
 {
 throw
