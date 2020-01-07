@@ -10133,14 +10133,12 @@ Vec
 TransformOperation
 >
 {
-debug_assert
+debug_assert_eq
 !
 (
 value
 .
 mUnit
-=
-=
 structs
 :
 :
@@ -14779,7 +14777,7 @@ isn
 '
 t
 .
-debug_assert
+debug_assert_ne
 !
 (
 self
@@ -14791,8 +14789,6 @@ mZIndex
 unit
 (
 )
-!
-=
 nsStyleUnit
 :
 :
@@ -15026,14 +15022,12 @@ specified
 JustifyItems
 )
 {
-debug_assert
+debug_assert_ne
 !
 (
 v
 .
 0
-!
-=
 :
 :
 values
@@ -23680,7 +23674,7 @@ into_iter
 (
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 v
@@ -23688,8 +23682,6 @@ v
 len
 (
 )
-!
-=
 0
 )
 ;
@@ -23972,7 +23964,7 @@ into_iter
 (
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 v
@@ -23980,8 +23972,6 @@ v
 len
 (
 )
-!
-=
 0
 )
 ;
@@ -24462,7 +24452,7 @@ into_iter
 (
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 v
@@ -24470,8 +24460,6 @@ v
 len
 (
 )
-!
-=
 0
 )
 ;
@@ -28038,7 +28026,7 @@ into_iter
 (
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 v
@@ -28046,8 +28034,6 @@ v
 len
 (
 )
-!
-=
 0
 )
 ;
@@ -32612,12 +32598,10 @@ Auto
 }
 else
 {
-debug_assert
+debug_assert_eq
 !
 (
 ty
-=
-=
 DimensionType
 :
 :
@@ -32680,7 +32664,7 @@ mSize
 .
 mWidthType
 {
-debug_assert
+debug_assert_eq
 !
 (
 layer
@@ -32688,8 +32672,6 @@ layer
 mSize
 .
 mHeightType
-=
-=
 DimensionType
 :
 :
@@ -32719,7 +32701,7 @@ mSize
 .
 mWidthType
 {
-debug_assert
+debug_assert_eq
 !
 (
 layer
@@ -32727,8 +32709,6 @@ layer
 mSize
 .
 mHeightType
-=
-=
 DimensionType
 :
 :
@@ -35982,7 +35962,7 @@ u8
 =
 0
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -35992,8 +35972,6 @@ gecko
 mClip
 .
 x
-=
-=
 0
 )
 ;
@@ -36037,7 +36015,7 @@ u8
 =
 0
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -36047,8 +36025,6 @@ gecko
 mClip
 .
 y
-=
-=
 0
 )
 ;
@@ -36092,7 +36068,7 @@ u8
 =
 0
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -36102,8 +36078,6 @@ gecko
 mClip
 .
 height
-=
-=
 1
 <
 <
@@ -36161,7 +36135,7 @@ u8
 =
 0
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -36171,8 +36145,6 @@ gecko
 mClip
 .
 width
-=
-=
 1
 <
 <

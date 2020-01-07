@@ -2178,14 +2178,12 @@ declaration
 =
 >
 {
-debug_assert
+debug_assert_eq
 !
 (
 declaration
 .
 id
-=
-=
 LonghandId
 :
 :

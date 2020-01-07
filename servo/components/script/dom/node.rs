@@ -8459,14 +8459,12 @@ depth
 1
 ;
 }
-debug_assert
+debug_assert_eq
 !
 (
 self
 .
 depth
-=
-=
 0
 )
 ;

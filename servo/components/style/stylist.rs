@@ -3901,7 +3901,7 @@ DefaultOnly
 return
 ;
 }
-debug_assert
+debug_assert_eq
 !
 (
 thread_state
@@ -3910,8 +3910,6 @@ thread_state
 get
 (
 )
-=
-=
 ThreadState
 :
 :

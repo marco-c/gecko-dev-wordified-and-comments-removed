@@ -2068,12 +2068,10 @@ unwrap
 )
 ;
 }
-debug_assert
+debug_assert_eq
 !
 (
 written
-=
-=
 6
 )
 ;

@@ -25145,7 +25145,7 @@ borrow
 (
 )
 ;
-debug_assert
+debug_assert_eq
 !
 (
 rules
@@ -25153,8 +25153,6 @@ rules
 len
 (
 )
-=
-=
 0
 )
 ;

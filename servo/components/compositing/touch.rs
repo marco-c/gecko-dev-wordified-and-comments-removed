@@ -1004,7 +1004,7 @@ DevicePixel
 >
 )
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -1012,8 +1012,6 @@ self
 touch_count
 (
 )
-=
-=
 2
 )
 ;

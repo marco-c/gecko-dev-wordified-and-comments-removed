@@ -314,14 +314,12 @@ self
 .
 sides_are_logical
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
 .
 first
-=
-=
 TextOverflowSide
 :
 :

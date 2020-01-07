@@ -1767,7 +1767,7 @@ self
 >
 bool
 {
-debug_assert
+debug_assert_eq
 !
 (
 self
@@ -1777,8 +1777,6 @@ face_count
 get
 (
 )
-=
-=
 6
 )
 ;

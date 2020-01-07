@@ -4843,14 +4843,12 @@ Method
 Head
 )
 {
-debug_assert
+debug_assert_ne
 !
 (
 http_request
 .
 origin
-!
-=
 Origin
 :
 :
