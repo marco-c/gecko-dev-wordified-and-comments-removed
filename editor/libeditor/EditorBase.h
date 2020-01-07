@@ -1928,7 +1928,7 @@ StopPreservingSelection
 )
 ;
 void
-SplitNodeImpl
+DoSplitNode
 (
 const
 EditorDOMPoint

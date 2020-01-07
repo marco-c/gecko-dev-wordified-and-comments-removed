@@ -404,7 +404,7 @@ NS_ERROR_FAILURE
 mEditorBase
 -
 >
-SplitNodeImpl
+DoSplitNode
 (
 EditorDOMPoint
 (
