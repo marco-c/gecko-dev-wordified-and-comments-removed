@@ -27814,6 +27814,12 @@ mFrame
 PresContext
 (
 )
+mFrame
+-
+>
+Style
+(
+)
 gradientData
 mBorderImageRenderer
 -

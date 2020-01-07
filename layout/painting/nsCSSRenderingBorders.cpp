@@ -16811,6 +16811,12 @@ aForFrame
 PresContext
 (
 )
+aForFrame
+-
+>
+Style
+(
+)
 gradientData
 mImageSize
 )

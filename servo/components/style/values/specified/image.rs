@@ -211,7 +211,6 @@ specified
 Number
 NumberOrPercentage
 Percentage
-RGBAColor
 }
 ;
 use
@@ -296,7 +295,7 @@ LineDirection
 Length
 LengthOrPercentage
 Position
-RGBAColor
+Color
 Angle
 >
 ;
@@ -324,7 +323,7 @@ LineDirection
 Length
 LengthOrPercentage
 GradientPosition
-RGBAColor
+Color
 Angle
 >
 ;
@@ -630,7 +629,7 @@ generic
 :
 GradientItem
 <
-RGBAColor
+Color
 LengthOrPercentage
 >
 ;
@@ -643,7 +642,7 @@ generic
 :
 ColorStop
 <
-RGBAColor
+Color
 LengthOrPercentage
 >
 ;
@@ -6740,7 +6739,7 @@ ColorStop
 {
 color
 :
-RGBAColor
+Color
 :
 :
 parse

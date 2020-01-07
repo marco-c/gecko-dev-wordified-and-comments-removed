@@ -516,7 +516,10 @@ nsStyleGradientStop
 nsStyleCoord
 mLocation
 ;
-nscolor
+mozilla
+:
+:
+StyleComplexColor
 mColor
 ;
 bool
