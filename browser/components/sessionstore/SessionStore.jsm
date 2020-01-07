@@ -16589,15 +16589,6 @@ newFrameloader
 aOptions
 .
 newFrameloader
-|
-|
-!
-!
-browser
-.
-frameLoader
-.
-groupedSHistory
 ;
 let
 isRemotenessUpdate
