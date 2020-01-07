@@ -24998,6 +24998,14 @@ is_some
 {
 source
 .
+as_ref
+(
+)
+.
+unwrap
+(
+)
+.
 read
 (
 cascade_level

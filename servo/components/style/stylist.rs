@@ -5811,7 +5811,7 @@ once
 StyleSource
 :
 :
-Declarations
+from_declarations
 (
 declarations
 )
@@ -8596,7 +8596,7 @@ new
 StyleSource
 :
 :
-Style
+from_rule
 (
 locked
 .
@@ -10144,7 +10144,7 @@ source
 StyleSource
 :
 :
-Style
+from_rule
 (
 self
 .

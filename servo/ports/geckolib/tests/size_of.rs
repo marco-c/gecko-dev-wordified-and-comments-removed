@@ -223,7 +223,7 @@ size_of_test
 (
 test_size_of_application_declaration_block
 ApplicableDeclarationBlock
-24
+16
 )
 ;
 size_of_test
@@ -231,7 +231,7 @@ size_of_test
 (
 test_size_of_rule_node
 RuleNode
-80
+72
 )
 ;
 size_of_test
