@@ -274,7 +274,7 @@ if
 nsCocoaFeatures
 :
 :
-OnSierraOrLater
+OnSierraExactly
 (
 )
 )

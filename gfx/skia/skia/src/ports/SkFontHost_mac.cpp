@@ -3957,7 +3957,7 @@ extern
 C
 "
 bool
-Gecko_OnSierraOrLater
+Gecko_OnSierraExactly
 (
 )
 ;
@@ -3998,7 +3998,7 @@ ifdef
 MOZ_SKIA
 if
 (
-Gecko_OnSierraOrLater
+Gecko_OnSierraExactly
 (
 )
 )

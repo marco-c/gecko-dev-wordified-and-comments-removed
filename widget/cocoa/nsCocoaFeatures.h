@@ -66,6 +66,12 @@ OnHighSierraOrLater
 ;
 static
 bool
+OnSierraExactly
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
@@ -149,7 +155,7 @@ C
 "
 {
 bool
-Gecko_OnSierraOrLater
+Gecko_OnSierraExactly
 (
 )
 ;

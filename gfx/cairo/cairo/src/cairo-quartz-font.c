@@ -1451,14 +1451,14 @@ aSize
 {
 extern
 bool
-Gecko_OnSierraOrLater
+Gecko_OnSierraExactly
 (
 )
 ;
 if
 (
 !
-Gecko_OnSierraOrLater
+Gecko_OnSierraExactly
 (
 )
 )
