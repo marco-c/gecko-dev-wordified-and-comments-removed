@@ -4299,10 +4299,7 @@ GetRawScriptsSize
 (
 )
 ;
-ScopedJSFreePtr
-<
-char
->
+UniqueChars
 src
 (
 cx
@@ -4426,6 +4423,10 @@ Evaluate
 cx
 options
 src
+.
+get
+(
+)
 srcLen
 &
 rv

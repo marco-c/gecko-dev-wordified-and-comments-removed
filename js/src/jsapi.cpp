@@ -33586,10 +33586,7 @@ CHECK_REQUEST
 cx
 )
 ;
-ScopedJSFreePtr
-<
-char16_t
->
+UniqueTwoByteChars
 chars
 (
 InflateString

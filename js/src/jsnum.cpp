@@ -408,10 +408,7 @@ end
 -
 start
 ;
-ScopedJSFreePtr
-<
-char
->
+UniqueChars
 cstr
 (
 cx
@@ -511,6 +508,10 @@ cx
 >
 dtoaState
 cstr
+.
+get
+(
+)
 &
 estr
 )
