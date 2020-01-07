@@ -808,11 +808,6 @@ parentprocessmessagemanager
 .
 getService
 (
-Components
-.
-interfaces
-.
-nsIMessageBroadcaster
 )
 ;
 var
@@ -835,11 +830,6 @@ globalmessagemanager
 .
 getService
 (
-Components
-.
-interfaces
-.
-nsIMessageBroadcaster
 )
 ;
 var
@@ -862,11 +852,6 @@ childprocessmessagemanager
 .
 getService
 (
-Components
-.
-interfaces
-.
-nsISyncMessageSender
 )
 ;
 if
