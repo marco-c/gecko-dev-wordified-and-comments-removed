@@ -31545,7 +31545,6 @@ DESTROY
 SweepScriptData
 (
 rt
-lock
 )
 ;
 if

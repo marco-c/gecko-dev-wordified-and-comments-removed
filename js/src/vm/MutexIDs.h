@@ -223,6 +223,12 @@ SharedArrayGrow
 500
 )
 \
+_
+(
+RuntimeScriptData
+500
+)
+\
 \
 _
 (

@@ -3087,7 +3087,12 @@ dataLength
 }
 }
 ;
-typedef
+class
+AutoLockScriptData
+;
+using
+ScriptDataTable
+=
 HashSet
 <
 SharedScriptData
@@ -3095,7 +3100,6 @@ SharedScriptData
 ScriptBytecodeHasher
 SystemAllocPolicy
 >
-ScriptDataTable
 ;
 extern
 void
@@ -3104,9 +3108,6 @@ SweepScriptData
 JSRuntime
 *
 rt
-AutoLockForExclusiveAccess
-&
-lock
 )
 ;
 extern
@@ -3116,9 +3117,6 @@ FreeScriptData
 JSRuntime
 *
 rt
-AutoLockForExclusiveAccess
-&
-lock
 )
 ;
 }
