@@ -270,7 +270,7 @@ SystemPrincipal
 :
 EnsureCSP
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIContentSecurityPolicy
@@ -310,7 +310,7 @@ SystemPrincipal
 :
 EnsurePreloadCSP
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIContentSecurityPolicy

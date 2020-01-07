@@ -281,8 +281,8 @@ nsIURI
 interface
 nsIContentSecurityPolicy
 ;
-interface
-nsIDOMDocument
+webidl
+Document
 ;
 [
 ptr
@@ -1137,7 +1137,7 @@ nsIContentSecurityPolicy
 ensureCSP
 (
 in
-nsIDOMDocument
+Document
 aDocument
 )
 ;
@@ -1287,7 +1287,7 @@ nsIContentSecurityPolicy
 ensurePreloadCSP
 (
 in
-nsIDOMDocument
+Document
 aDocument
 )
 ;

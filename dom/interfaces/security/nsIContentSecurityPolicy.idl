@@ -77,13 +77,13 @@ interface
 nsIDocShell
 ;
 interface
-nsIDOMDocument
-;
-interface
 nsIEventTarget
 ;
 interface
 nsIPrincipal
+;
+webidl
+Document
 ;
 /
 *
@@ -1400,7 +1400,7 @@ void
 setRequestContext
 (
 in
-nsIDOMDocument
+Document
 aDocument
 in
 nsIPrincipal
