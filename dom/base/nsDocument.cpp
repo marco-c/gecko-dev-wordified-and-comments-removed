@@ -54534,7 +54534,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 NotifyLayerManagerRecreated

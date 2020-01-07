@@ -2584,13 +2584,10 @@ return
 mPageUnloadingEventTimeStamp
 ;
 }
-virtual
 void
 NotifyLayerManagerRecreated
 (
 )
-=
-0
 ;
 void
 ScheduleSVGForPresAttrEvaluation
