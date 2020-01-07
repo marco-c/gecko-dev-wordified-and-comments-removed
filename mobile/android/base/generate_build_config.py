@@ -139,8 +139,6 @@ defaultdict
 import
 os
 import
-sys
-import
 buildconfig
 from
 mozbuild

@@ -408,8 +408,6 @@ except
 subprocess
 .
 CalledProcessError
-as
-e
 :
             
 contains

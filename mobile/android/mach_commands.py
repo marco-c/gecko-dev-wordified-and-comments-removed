@@ -80,6 +80,7 @@ the
 top
 source
 directory
+    
 instead
 .
     
@@ -104,6 +105,10 @@ Simple_Firefox_for_Android_build
 #
 Developing_Firefox_for_Android_in_Android_Studio_or_IDEA_IntelliJ
 .
+#
+NOQA
+:
+E501
     
 "
 "
@@ -182,6 +187,7 @@ artifacts
 .
 format
 (
+                
 os
 .
 environ
@@ -418,6 +424,9 @@ help
 '
 config
 files
+'
+                     
+'
 like
 [
 /
@@ -558,6 +567,7 @@ bindings_args
 ]
 +
 args
+            
 verbose
 =
 True
@@ -635,6 +645,7 @@ GRADLE_ANDROID_GENERATE_GENERATED_JNI_WRAPPERS_TASKS
 ]
 +
 args
+            
 verbose
 =
 True
@@ -670,6 +681,7 @@ wrappers
 used
 when
 building
+                
 Firefox
 for
 Android
@@ -742,7 +754,7 @@ local
 unit
 tests
 .
-        
+                
 See
 https
 :
@@ -838,6 +850,7 @@ app
 /
 unittest
 '
+                                                
 '
 gradle
 /
@@ -876,6 +889,7 @@ geckoview
 /
 unittest
 '
+                                                
 '
 gradle
 /
@@ -1542,7 +1556,7 @@ Run
 Android
 lint
 .
-        
+                
 See
 https
 :
@@ -1700,6 +1714,7 @@ join
 self
 .
 topobjdir
+                
 '
 gradle
 /
@@ -1728,6 +1743,7 @@ format
 report
 )
 )
+                     
 '
 rt
 '
@@ -2062,7 +2078,7 @@ Run
 Android
 checkstyle
 .
-        
+                
 See
 https
 :
@@ -2187,6 +2203,7 @@ checkstyle
 xml
 '
 )
+                 
 '
 rt
 '
@@ -2584,7 +2601,7 @@ Run
 Android
 findbugs
 .
-        
+                
 See
 https
 :
@@ -2749,6 +2766,7 @@ path
 .
 join
 (
+                    
 self
 .
 topobjdir
@@ -2767,7 +2785,7 @@ reports
 /
 findbugs
 '
-                                      
+                    
 '
 findbugs
 -
@@ -2784,6 +2802,7 @@ format
 report
 )
 )
+                         
 '
 rt
 '
@@ -3059,6 +3078,7 @@ get
 type
 '
 )
+                                                                 
 error
 .
 find
@@ -3067,6 +3087,7 @@ find
 Class
 '
 )
+                                                                 
 .
 get
 (
@@ -3118,6 +3139,7 @@ FAIL
 format
 (
 report
+                                                                     
 error
 .
 get
@@ -3126,6 +3148,7 @@ get
 type
 '
 )
+                                                                     
 line
 )
 )
@@ -3368,6 +3391,7 @@ continue
 ]
 +
 args
+            
 verbose
 =
 True
@@ -4407,6 +4431,7 @@ self
 .
 run_process
 (
+            
 [
 self
 .
@@ -4431,7 +4456,7 @@ plain
 ]
 +
 args
-                                
+            
 append_env
 =
 {
@@ -4618,6 +4643,7 @@ metavar
 '
 VERSION
 '
+                     
 choices
 =
 [
@@ -4666,6 +4692,9 @@ run
 in
 emulator
 .
+'
+                     
+'
 One
 of
 "
