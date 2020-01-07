@@ -42,17 +42,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-CSSPrimitiveValueBinding
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -5621,7 +5610,7 @@ val
 SetString
 (
 str
-CSSPrimitiveValueBinding
+nsROCSSPrimitiveValue
 :
 :
 CSS_ATTR
@@ -5778,7 +5767,7 @@ val
 SetString
 (
 str
-CSSPrimitiveValueBinding
+nsROCSSPrimitiveValue
 :
 :
 CSS_COUNTER

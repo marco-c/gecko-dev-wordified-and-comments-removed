@@ -2617,16 +2617,6 @@ class
 !
 =
 "
-CSSValueList
-"
-&
-&
-obj
-.
-class
-!
-=
-"
 NamedNodeMap
 "
 &

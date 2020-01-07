@@ -85,17 +85,6 @@ mozilla
 /
 dom
 /
-CSSPrimitiveValueBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Selection
 .
 h
