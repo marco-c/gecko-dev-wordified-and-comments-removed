@@ -782,6 +782,7 @@ nsIContent
 aRightNode
 )
 ;
+MOZ_MUST_USE
 EditActionResult
 MoveBlock
 (
