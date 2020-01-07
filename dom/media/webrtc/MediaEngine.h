@@ -152,6 +152,16 @@ MediaEngineSource
 ;
 virtual
 void
+ReleaseResourcesForWindow
+(
+uint64_t
+aWindowId
+)
+=
+0
+;
+virtual
+void
 Shutdown
 (
 )
