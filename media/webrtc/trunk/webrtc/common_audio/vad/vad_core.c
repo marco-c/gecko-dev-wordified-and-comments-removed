@@ -650,13 +650,6 @@ weighted_average
 static
 inline
 int32_t
-OverflowingMulS16ByS32ToS32
-(
-int16_t
-a
-int32_t
-b
-)
 RTC_NO_SANITIZE
 (
 "
@@ -666,6 +659,13 @@ integer
 -
 overflow
 "
+)
+OverflowingMulS16ByS32ToS32
+(
+int16_t
+a
+int32_t
+b
 )
 {
 return
