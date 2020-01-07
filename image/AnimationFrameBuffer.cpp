@@ -533,7 +533,8 @@ mPending
 0
 ;
 }
-DrawableFrameRef
+imgFrame
+*
 AnimationFrameBuffer
 :
 :
@@ -568,9 +569,7 @@ frames
 )
 ;
 return
-DrawableFrameRef
-(
-)
+nullptr
 ;
 }
 if
@@ -586,9 +585,7 @@ Length
 )
 {
 return
-DrawableFrameRef
-(
-)
+nullptr
 ;
 }
 if
@@ -608,9 +605,7 @@ MayDiscard
 )
 ;
 return
-DrawableFrameRef
-(
-)
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -632,9 +627,8 @@ mFrames
 [
 aFrame
 ]
--
->
-DrawableRef
+.
+get
 (
 )
 ;

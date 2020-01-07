@@ -38,7 +38,8 @@ size_t
 aStartFrame
 )
 ;
-DrawableFrameRef
+imgFrame
+*
 Get
 (
 size_t
