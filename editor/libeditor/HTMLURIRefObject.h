@@ -82,7 +82,7 @@ class
 nsDOMAttributeMap
 ;
 class
-nsIDOMNode
+nsINode
 ;
 namespace
 mozilla
@@ -112,7 +112,7 @@ HTMLURIRefObject
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNode
 ;
@@ -135,7 +135,7 @@ nsIURIRefObject
 *
 *
 aResult
-nsIDOMNode
+nsINode
 *
 aNode
 )

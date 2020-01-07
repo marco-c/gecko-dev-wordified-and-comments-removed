@@ -103,8 +103,8 @@ idl
 interface
 nsIArray
 ;
-interface
-nsIDOMNode
+webidl
+Node
 ;
 [
 scriptable
@@ -230,7 +230,7 @@ was
 inserted
 *
 /
-nsIDOMNode
+Node
 insertAsQuotation
 (
 in
@@ -458,7 +458,7 @@ was
 inserted
 *
 /
-nsIDOMNode
+Node
 insertAsCitedQuotation
 (
 in

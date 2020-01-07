@@ -911,7 +911,7 @@ boolean
 nodeIsBlock
 (
 in
-nsIDOMNode
+Node
 node
 )
 ;
@@ -1164,7 +1164,7 @@ in
 Document
 aSourceDoc
 in
-nsIDOMNode
+Node
 aDestinationNode
 in
 long

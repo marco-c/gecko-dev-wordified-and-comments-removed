@@ -2751,7 +2751,7 @@ nsAString
 aQuotedText
 bool
 aAddCites
-nsIDOMNode
+nsINode
 *
 *
 aNodeInserted

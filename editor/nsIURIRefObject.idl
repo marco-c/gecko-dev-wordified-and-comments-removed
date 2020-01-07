@@ -107,8 +107,8 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMNode
+webidl
+Node
 ;
 /
 *
@@ -190,7 +190,7 @@ nsIURIRefObject
 nsISupports
 {
 attribute
-nsIDOMNode
+Node
 node
 ;
 /

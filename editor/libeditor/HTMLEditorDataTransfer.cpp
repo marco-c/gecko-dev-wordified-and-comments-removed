@@ -933,7 +933,7 @@ aFlavor
 nsIDocument
 *
 aSourceDoc
-nsIDOMNode
+nsINode
 *
 aDestNode
 int32_t
@@ -942,17 +942,6 @@ bool
 aDeleteSelection
 )
 {
-nsCOMPtr
-<
-nsINode
->
-destNode
-=
-do_QueryInterface
-(
-aDestNode
-)
-;
 return
 DoInsertHTMLWithContext
 (
@@ -961,7 +950,7 @@ aContextStr
 aInfoStr
 aFlavor
 aSourceDoc
-destNode
+aDestNode
 aDestOffset
 aDeleteSelection
 true
@@ -8042,7 +8031,7 @@ lineStart
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 dummyNode
 ;
@@ -8129,7 +8118,7 @@ const
 nsAString
 &
 aQuotedText
-nsIDOMNode
+nsINode
 *
 *
 aNodeInserted
@@ -8176,7 +8165,7 @@ nsAString
 aQuotedText
 bool
 aAddCites
-nsIDOMNode
+nsINode
 *
 *
 aNodeInserted
@@ -8478,10 +8467,7 @@ rv
 *
 aNodeInserted
 =
-GetAsDOMNode
-(
 newNode
-)
 ;
 NS_IF_ADDREF
 (
@@ -8583,7 +8569,7 @@ nsAString
 aCitation
 bool
 aInsertHTML
-nsIDOMNode
+nsINode
 *
 *
 aNodeInserted
@@ -8842,10 +8828,7 @@ rv
 *
 aNodeInserted
 =
-GetAsDOMNode
-(
 newNode
-)
 ;
 NS_IF_ADDREF
 (

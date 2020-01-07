@@ -100,9 +100,6 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMNode
-;
 webidl
 Element
 ;
