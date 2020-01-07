@@ -23,6 +23,12 @@ extends
 .
 /
 .
+.
+/
+.
+.
+/
+.
 eslintrc
 .
 mochitests

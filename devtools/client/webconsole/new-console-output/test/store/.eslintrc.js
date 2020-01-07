@@ -17,15 +17,9 @@ extends
 .
 /
 .
-.
-/
-.
-.
-/
-.
 eslintrc
 .
-mochitests
+mocha
 .
 js
 "
