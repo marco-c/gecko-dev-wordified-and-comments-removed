@@ -924,8 +924,14 @@ return
 this
 ;
 }
+typename
+AddLvalueReference
+<
 T
-&
+>
+:
+:
+Type
 operator
 *
 (
