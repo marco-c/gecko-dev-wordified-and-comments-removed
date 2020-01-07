@@ -1267,6 +1267,15 @@ if
 (
 !
 segment
+|
+|
+!
+segment
+-
+>
+isModule
+(
+)
 )
 return
 false
