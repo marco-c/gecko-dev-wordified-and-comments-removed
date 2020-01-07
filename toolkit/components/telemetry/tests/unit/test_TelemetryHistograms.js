@@ -470,7 +470,6 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
-false
 )
 .
 parent
@@ -711,7 +710,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-true
 false
 )
 .
@@ -1085,7 +1083,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
@@ -3032,7 +3029,6 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
-false
 )
 ;
 if
@@ -3086,7 +3082,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
@@ -3518,7 +3513,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
@@ -3979,7 +3973,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
@@ -4461,7 +4454,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
@@ -5530,7 +5522,6 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
-false
 )
 .
 parent
@@ -5587,7 +5578,6 @@ snapshotHistograms
 (
 RELEASE_CHANNEL_OPTIN
 false
-false
 )
 ;
 registered
@@ -5654,7 +5644,6 @@ Telemetry
 snapshotHistograms
 (
 RELEASE_CHANNEL_OPTOUT
-false
 false
 )
 ;
@@ -5725,7 +5714,6 @@ snapshotKeyedHistograms
 (
 RELEASE_CHANNEL_OPTIN
 false
-false
 )
 ;
 registered
@@ -5778,7 +5766,6 @@ Telemetry
 snapshotKeyedHistograms
 (
 RELEASE_CHANNEL_OPTOUT
-false
 false
 )
 ;
@@ -9044,7 +9031,6 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
-false
 )
 .
 parent
@@ -9275,7 +9261,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
