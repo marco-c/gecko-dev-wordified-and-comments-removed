@@ -511,7 +511,7 @@ if
 !
 analytics
 .
-getTelemetryPrefSync
+isTelemetryEnabled
 (
 )
 )

@@ -3838,6 +3838,15 @@ shot
 .
 js
 '
+'
+webextension
+/
+build
+/
+thumbnailGenerator
+.
+js
+'
 ]
 FINAL_TARGET_FILES
 .

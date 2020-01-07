@@ -343,6 +343,9 @@ isOwner
 info
 .
 isOwner
+backupCookieRequest
+:
+true
 }
 )
 ;
