@@ -2676,7 +2676,9 @@ QUOTED_WILDCARD
 topobjdir
 )
 /
-browser
+(
+MOZ_BUILD_APP
+)
 /
 installer
 /
@@ -2696,7 +2698,9 @@ QUOTED_WILDCARD
 topobjdir
 )
 /
-browser
+(
+MOZ_BUILD_APP
+)
 /
 installer
 /
@@ -2774,7 +2778,9 @@ QUOTED_WILDCARD
 topobjdir
 )
 /
-browser
+(
+MOZ_BUILD_APP
+)
 /
 installer
 /
@@ -2794,7 +2800,9 @@ QUOTED_WILDCARD
 topobjdir
 )
 /
-browser
+(
+MOZ_BUILD_APP
+)
 /
 installer
 /
