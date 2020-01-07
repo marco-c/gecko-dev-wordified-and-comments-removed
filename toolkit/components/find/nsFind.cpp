@@ -3584,6 +3584,15 @@ mLastBlockParent
 =
 nullptr
 ;
+mIterNode
+=
+nullptr
+;
+mIterOffset
+=
+-
+1
+;
 }
 #
 define
