@@ -25,13 +25,6 @@ content
 /
 global
 /
-XPCNativeWrapper
-.
-js
-content
-/
-global
-/
 minimal
 -
 xul

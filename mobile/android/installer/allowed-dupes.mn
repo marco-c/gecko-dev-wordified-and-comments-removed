@@ -535,17 +535,6 @@ commonjs
 index
 .
 js
-chrome
-/
-toolkit
-/
-content
-/
-global
-/
-XPCNativeWrapper
-.
-js
 update
 .
 locale
