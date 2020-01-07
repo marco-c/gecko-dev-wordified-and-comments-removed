@@ -259,6 +259,14 @@ type
 ;
 }
 ;
+template
+<
+typename
+T
+>
+struct
+MaxEnumValue
+;
 }
 #
 endif
