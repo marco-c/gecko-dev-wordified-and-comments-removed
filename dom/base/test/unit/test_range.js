@@ -118,8 +118,7 @@ DOMSerializer
 const
 parser
 =
-new
-DOMParser
+getParser
 (
 )
 ;
