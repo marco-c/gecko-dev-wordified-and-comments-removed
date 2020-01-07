@@ -120,7 +120,13 @@ Unknown
 property
 .
 *
+(
 appearance
+|
+user
+-
+select
+)
 /
 i
 isFromDevTools
