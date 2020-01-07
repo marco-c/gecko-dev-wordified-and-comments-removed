@@ -1484,15 +1484,13 @@ aForImage
 =
 0
 ;
-NS_IMETHOD
+void
 GetContentType
 (
 nsAString
 &
 aContentType
 )
-=
-0
 ;
 virtual
 void
