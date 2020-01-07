@@ -9387,13 +9387,6 @@ mHTMLEditor
 ;
 nsCOMPtr
 <
-nsIContent
->
-leftCite
-rightCite
-;
-nsCOMPtr
-<
 nsINode
 >
 selNode
@@ -9955,7 +9948,7 @@ false
 ;
 if
 (
-leftCite
+previousNodeOfSplitPoint
 )
 {
 rv
@@ -9965,7 +9958,7 @@ htmlEditor
 >
 IsEmptyNode
 (
-leftCite
+previousNodeOfSplitPoint
 &
 bEmptyCite
 true
@@ -9999,7 +9992,7 @@ htmlEditor
 >
 DeleteNode
 (
-leftCite
+previousNodeOfSplitPoint
 )
 ;
 if
