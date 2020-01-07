@@ -449,18 +449,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
-<
-nsIDOMEventTarget
->
-evtTarget
-=
-do_QueryInterface
-(
 ret
-)
-;
-evtTarget
 -
 >
 AddEventListener
@@ -1442,7 +1431,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -2238,7 +2227,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsIDOMEventTarget
+EventTarget
 *
 target
 =

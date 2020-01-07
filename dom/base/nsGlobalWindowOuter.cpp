@@ -26880,7 +26880,7 @@ false
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsGlobalWindowOuter
 :
 :
@@ -26895,10 +26895,13 @@ nsIDOMEventListener
 aListener
 bool
 aUseCapture
+const
+Nullable
+<
 bool
+>
+&
 aWantsUntrusted
-uint8_t
-aOptionalArgc
 )
 {
 FORWARD_TO_INNER_CREATE
@@ -26909,7 +26912,6 @@ aType
 aListener
 aUseCapture
 aWantsUntrusted
-aOptionalArgc
 )
 NS_ERROR_UNEXPECTED
 )

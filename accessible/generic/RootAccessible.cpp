@@ -797,7 +797,6 @@ e
 this
 true
 true
-2
 )
 ;
 NS_ENSURE_SUCCESS

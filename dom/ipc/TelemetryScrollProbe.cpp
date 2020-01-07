@@ -100,8 +100,6 @@ pagehide
 )
 probe
 true
-false
-0
 )
 ;
 }

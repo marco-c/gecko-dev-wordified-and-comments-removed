@@ -1077,18 +1077,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
-<
-nsIDOMEventTarget
->
-evtTarget
-=
-do_QueryInterface
-(
 ret
-)
-;
-evtTarget
 -
 >
 AddEventListener
@@ -1614,7 +1603,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsIDOMEventTarget
+EventTarget
 *
 piTarget
 =
