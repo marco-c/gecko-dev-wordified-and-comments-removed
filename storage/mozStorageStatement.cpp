@@ -2138,7 +2138,7 @@ Statement
 :
 ExecuteStep
 "
-OTHER
+STORAGE
 )
 ;
 if

@@ -21445,7 +21445,7 @@ ChildView
 :
 drawRect
 "
-OTHER
+GRAPHICS
 )
 ;
 /
@@ -21918,7 +21918,7 @@ ChildView
 :
 drawUsingOpenGL
 "
-OTHER
+GRAPHICS
 )
 ;
 if
