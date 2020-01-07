@@ -132,16 +132,6 @@ MediaContainerType
 aType
 )
 ;
-static
-bool
-CrossOriginRedirectsProhibited
-(
-const
-MediaContainerType
-&
-aType
-)
-;
 }
 ;
 }
