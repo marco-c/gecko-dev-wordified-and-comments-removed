@@ -612,7 +612,9 @@ visible
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -631,6 +633,7 @@ preview
 )
 .
 hidden
+100
 100
 )
 ;
@@ -1548,7 +1551,9 @@ hidden
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -1709,7 +1714,9 @@ hidden
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -2555,7 +2562,9 @@ hidden
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -3001,7 +3010,9 @@ visible
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -4317,7 +4328,9 @@ win
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
