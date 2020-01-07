@@ -484,7 +484,7 @@ sources
 =
 project
 .
-sources
+pipfile_sources
         
 verbose
 =
