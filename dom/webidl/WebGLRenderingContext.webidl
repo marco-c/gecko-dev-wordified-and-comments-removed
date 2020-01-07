@@ -4944,10 +4944,10 @@ mozilla
 dom
 :
 :
-OffscreenCanvas
+DOMPrefs
 :
 :
-PrefEnabled
+OffscreenCanvasEnabled
 "
 ]
 void
