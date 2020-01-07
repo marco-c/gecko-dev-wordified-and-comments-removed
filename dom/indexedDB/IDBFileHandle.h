@@ -682,8 +682,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 IDBFileHandle
 DOMEventTargetHelper
 )
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

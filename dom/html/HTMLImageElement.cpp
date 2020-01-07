@@ -1974,7 +1974,7 @@ IgnoreErrors
 }
 }
 }
-nsresult
+void
 HTMLImageElement
 :
 :
@@ -2026,7 +2026,6 @@ mMultipleActionsPrevented
 true
 ;
 }
-return
 nsGenericHTMLElement
 :
 :

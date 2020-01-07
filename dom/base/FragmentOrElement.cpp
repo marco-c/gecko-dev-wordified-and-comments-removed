@@ -4086,7 +4086,7 @@ forget
 )
 ;
 }
-nsresult
+void
 nsIContent
 :
 :
@@ -4597,7 +4597,6 @@ mCanHandle
 isAnonForEvents
 ;
 return
-NS_OK
 ;
 }
 }
@@ -5096,7 +5095,6 @@ aVisitor
 mTargetInKnownToBeHandledScope
 ;
 return
-NS_OK
 ;
 }
 aVisitor
@@ -5210,7 +5208,6 @@ aVisitor
 mTargetInKnownToBeHandledScope
 ;
 return
-NS_OK
 ;
 }
 else
@@ -5238,9 +5235,6 @@ mRelatedTargetRetargetedInCurrentScope
 false
 ;
 }
-return
-NS_OK
-;
 }
 bool
 nsIContent

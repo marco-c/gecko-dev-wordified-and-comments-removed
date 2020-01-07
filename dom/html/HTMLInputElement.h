@@ -765,8 +765,7 @@ GetAttributeMappingFunction
 const
 override
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

@@ -535,7 +535,7 @@ NS_FORWARD_SAFE_NSIMESSAGESENDER
 mMessageManager
 )
 NS_DECL_NSICONTENTFRAMEMESSAGEMANAGER
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor
@@ -549,9 +549,6 @@ aVisitor
 mForceContentDispatch
 =
 true
-;
-return
-NS_OK
 ;
 }
 virtual

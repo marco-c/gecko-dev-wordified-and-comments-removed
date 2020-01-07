@@ -673,7 +673,7 @@ return
 mListenerManager
 ;
 }
-nsresult
+void
 nsWindowRoot
 :
 :
@@ -716,9 +716,6 @@ SetParentTarget
 mParent
 false
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

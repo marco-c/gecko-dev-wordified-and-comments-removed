@@ -765,7 +765,7 @@ aGivenProto
 )
 ;
 }
-nsresult
+void
 SharedWorker
 :
 :
@@ -853,10 +853,8 @@ false
 )
 ;
 return
-NS_OK
 ;
 }
-return
 DOMEventTargetHelper
 :
 :

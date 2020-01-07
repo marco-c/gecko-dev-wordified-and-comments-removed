@@ -55,6 +55,9 @@ class
 EventChainPostVisitor
 ;
 class
+EventChainPreVisitor
+;
+class
 EventChainVisitor
 ;
 class
@@ -467,6 +470,17 @@ IsApzAware
 (
 )
 const
+;
+virtual
+void
+GetEventTargetParent
+(
+EventChainPreVisitor
+&
+aVisitor
+)
+=
+0
 ;
 virtual
 nsresult

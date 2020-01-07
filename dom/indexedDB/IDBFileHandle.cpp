@@ -2764,7 +2764,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 IDBFileHandle
 :
 :
@@ -2792,9 +2792,6 @@ SetParentTarget
 mMutableFile
 false
 )
-;
-return
-NS_OK
 ;
 }
 JSObject

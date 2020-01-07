@@ -103,8 +103,7 @@ LinkRemoved
 (
 )
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

@@ -411,8 +411,7 @@ float
 y
 )
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

@@ -1304,8 +1304,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsXULElement
 nsStyledElement
 )
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

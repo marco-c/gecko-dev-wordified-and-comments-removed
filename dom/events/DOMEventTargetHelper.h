@@ -339,6 +339,15 @@ aRv
 )
 override
 ;
+void
+GetEventTargetParent
+(
+EventChainPreVisitor
+&
+aVisitor
+)
+override
+;
 nsresult
 PostHandleEvent
 (

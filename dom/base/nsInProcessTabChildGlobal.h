@@ -403,8 +403,7 @@ aPrincipal
 )
 override
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

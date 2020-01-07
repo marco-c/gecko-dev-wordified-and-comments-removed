@@ -643,7 +643,7 @@ bool
 aIsComposedDocParticipant
 )
 ;
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

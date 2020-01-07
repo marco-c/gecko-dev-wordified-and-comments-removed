@@ -202,7 +202,7 @@ nullptr
 )
 ;
 }
-nsresult
+void
 HTMLFieldSetElement
 :
 :
@@ -233,10 +233,8 @@ mMessage
 )
 {
 return
-NS_OK
 ;
 }
-return
 nsGenericHTMLFormElement
 :
 :

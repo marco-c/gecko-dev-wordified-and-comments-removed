@@ -763,7 +763,7 @@ formFrame
 )
 ;
 }
-nsresult
+void
 HTMLButtonElement
 :
 :
@@ -794,7 +794,6 @@ mMessage
 )
 {
 return
-NS_OK
 ;
 }
 WidgetMouseEvent
@@ -884,7 +883,6 @@ this
 ;
 }
 }
-return
 nsGenericHTMLElement
 :
 :

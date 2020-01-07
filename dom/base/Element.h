@@ -5131,7 +5131,7 @@ aURI
 )
 const
 ;
-nsresult
+void
 GetEventTargetParentForLinks
 (
 EventChainPreVisitor

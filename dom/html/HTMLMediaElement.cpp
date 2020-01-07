@@ -15444,10 +15444,6 @@ GetInstance
 (
 graphDriverType
 window
-MediaStreamGraph
-:
-:
-REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 RefPtr
@@ -15592,10 +15588,6 @@ GetInstance
 (
 graphDriverType
 window
-MediaStreamGraph
-:
-:
-REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 RefPtr
@@ -17897,7 +17889,7 @@ Destroy
 ;
 }
 }
-nsresult
+void
 HTMLMediaElement
 :
 :
@@ -17930,7 +17922,6 @@ mFlags
 mIsTrusted
 )
 {
-return
 nsGenericHTMLElement
 :
 :
@@ -17938,6 +17929,8 @@ GetEventTargetParent
 (
 aVisitor
 )
+;
+return
 ;
 }
 HTMLInputElement
@@ -17996,7 +17989,6 @@ mCanHandle
 false
 ;
 return
-NS_OK
 ;
 case
 ePointerMove
@@ -18122,10 +18114,8 @@ mCanHandle
 false
 ;
 return
-NS_OK
 ;
 }
-return
 nsGenericHTMLElement
 :
 :
@@ -18133,10 +18123,11 @@ GetEventTargetParent
 (
 aVisitor
 )
+;
+return
 ;
 default
 :
-return
 nsGenericHTMLElement
 :
 :
@@ -18144,6 +18135,8 @@ GetEventTargetParent
 (
 aVisitor
 )
+;
+return
 ;
 }
 }
@@ -31943,10 +31936,6 @@ MediaStreamGraph
 :
 AUDIO_THREAD_DRIVER
 window
-MediaStreamGraph
-:
-:
-REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 if

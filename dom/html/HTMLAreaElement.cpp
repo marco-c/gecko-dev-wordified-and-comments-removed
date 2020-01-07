@@ -182,7 +182,7 @@ aValue
 ;
 }
 }
-nsresult
+void
 HTMLAreaElement
 :
 :
@@ -193,7 +193,6 @@ EventChainPreVisitor
 aVisitor
 )
 {
-return
 GetEventTargetParentForAnchors
 (
 aVisitor

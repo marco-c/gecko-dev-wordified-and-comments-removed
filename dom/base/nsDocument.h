@@ -999,8 +999,7 @@ DocumentOrShadowRoot
 :
 GetElementsByClassName
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

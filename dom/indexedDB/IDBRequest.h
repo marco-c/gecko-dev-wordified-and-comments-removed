@@ -286,8 +286,7 @@ NextSerialNumber
 (
 )
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

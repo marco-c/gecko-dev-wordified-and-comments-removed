@@ -456,7 +456,7 @@ IDBFileRequest
 DOMRequest
 mFileHandle
 )
-nsresult
+void
 IDBFileRequest
 :
 :
@@ -484,9 +484,6 @@ SetParentTarget
 mFileHandle
 false
 )
-;
-return
-NS_OK
 ;
 }
 JSObject

@@ -2593,7 +2593,7 @@ return
 rv
 ;
 }
-nsresult
+void
 HTMLCanvasElement
 :
 :
@@ -2647,9 +2647,10 @@ if
 !
 frame
 )
+{
 return
-NS_OK
 ;
+}
 nsPoint
 ptInRoot
 =
@@ -2732,7 +2733,6 @@ true
 ;
 }
 }
-return
 nsGenericHTMLElement
 :
 :

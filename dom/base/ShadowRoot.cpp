@@ -2113,7 +2113,7 @@ entry
 }
 }
 }
-nsresult
+void
 ShadowRoot
 :
 :
@@ -2236,7 +2236,6 @@ true
 )
 ;
 return
-NS_OK
 ;
 }
 }
@@ -2296,9 +2295,6 @@ mEventTargetAtParent
 shadowHost
 ;
 }
-return
-NS_OK
-;
 }
 ShadowRoot
 :

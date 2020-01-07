@@ -145,8 +145,7 @@ override
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

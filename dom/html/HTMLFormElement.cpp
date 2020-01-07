@@ -1870,7 +1870,7 @@ ForgetCurrentSubmission
 )
 ;
 }
-nsresult
+void
 HTMLFormElement
 :
 :
@@ -1937,7 +1937,6 @@ mCanHandle
 false
 ;
 return
-NS_OK
 ;
 }
 mGeneratingSubmit
@@ -1970,7 +1969,6 @@ mCanHandle
 false
 ;
 return
-NS_OK
 ;
 }
 mGeneratingReset
@@ -1979,7 +1977,6 @@ true
 ;
 }
 }
-return
 nsGenericHTMLElement
 :
 :

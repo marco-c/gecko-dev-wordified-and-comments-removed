@@ -130,7 +130,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLOptGroupElement
 )
-nsresult
+void
 HTMLOptGroupElement
 :
 :
@@ -155,7 +155,6 @@ IsDisabled
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -189,11 +188,9 @@ None
 )
 {
 return
-NS_OK
 ;
 }
 }
-return
 nsGenericHTMLElement
 :
 :

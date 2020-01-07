@@ -473,8 +473,7 @@ nsGkAtoms
 audio
 )
 )
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

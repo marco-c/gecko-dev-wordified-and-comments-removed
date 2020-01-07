@@ -879,7 +879,7 @@ true
 ;
 }
 }
-nsresult
+void
 HTMLMenuItemElement
 :
 :
@@ -999,7 +999,6 @@ mItemFlags
 mType
 ;
 }
-return
 nsGenericHTMLElement
 :
 :

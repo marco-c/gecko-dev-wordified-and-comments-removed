@@ -5166,7 +5166,7 @@ formFrame
 )
 ;
 }
-nsresult
+void
 HTMLSelectElement
 :
 :
@@ -5197,10 +5197,8 @@ mMessage
 )
 {
 return
-NS_OK
 ;
 }
-return
 nsGenericHTMLFormElementWithState
 :
 :
