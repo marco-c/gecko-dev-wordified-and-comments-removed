@@ -387,6 +387,9 @@ Policy
 >
 mPolicy
 ;
+nsCString
+mTempPath
+;
 typedef
 nsDataHashtable
 <
