@@ -990,6 +990,12 @@ behavior
 :
 inherit
 ;
+overscroll
+-
+behavior
+:
+inherit
+;
 }
 input
 :
