@@ -3145,6 +3145,7 @@ flags
 "
 CREATES_STACKING_CONTEXT
 FIXPOS_CB
+GETCS_NEEDS_LAYOUT_FLUSH
 "
 spec
 =
@@ -3373,6 +3374,7 @@ flags
 "
 CREATES_STACKING_CONTEXT
 FIXPOS_CB
+GETCS_NEEDS_LAYOUT_FLUSH
 "
 gecko_pref
 =
@@ -4259,6 +4261,11 @@ origin
 -
 property
 "
+flags
+=
+"
+GETCS_NEEDS_LAYOUT_FLUSH
+"
 animation_value_type
 =
 "
@@ -4523,6 +4530,11 @@ mTransformOrigin
 boxed
 =
 True
+flags
+=
+"
+GETCS_NEEDS_LAYOUT_FLUSH
+"
 spec
 =
 "

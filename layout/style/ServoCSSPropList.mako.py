@@ -212,6 +212,25 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 )
     
+if
+"
+GETCS_NEEDS_LAYOUT_FLUSH
+"
+in
+prop
+.
+flags
+:
+        
+result
+.
+append
+(
+"
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+"
+)
+    
 return
 "
 "

@@ -442,6 +442,7 @@ flags
 =
 "
 APPLIES_TO_FIRST_LETTER
+GETCS_NEEDS_LAYOUT_FLUSH
 "
 allow_quirks
 =
