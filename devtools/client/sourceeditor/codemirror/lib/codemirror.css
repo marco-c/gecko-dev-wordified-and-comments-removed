@@ -1682,9 +1682,11 @@ index
 :
 2
 ;
-overflow
+padding
 :
-auto
+0
+.
+1px
 ;
 }
 .
