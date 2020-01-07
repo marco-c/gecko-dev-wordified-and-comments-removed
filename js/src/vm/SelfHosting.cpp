@@ -18961,14 +18961,11 @@ wellKnownSymbols
 .
 get
 (
-size_t
-(
 sym
 -
 >
 code
 (
-)
 )
 )
 =

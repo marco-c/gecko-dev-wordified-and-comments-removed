@@ -940,16 +940,9 @@ AsyncFromSyncIteratorObject
 asyncIter
 -
 >
-setIterator
+init
 (
 iter
-)
-;
-asyncIter
--
->
-setNextMethod
-(
 nextMethod
 )
 ;
