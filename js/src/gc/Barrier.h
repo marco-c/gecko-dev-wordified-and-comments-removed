@@ -1339,6 +1339,10 @@ sizeof
 *
 this
 )
+MemCheckKind
+:
+:
+MakeNoAccess
 )
 ;
 }

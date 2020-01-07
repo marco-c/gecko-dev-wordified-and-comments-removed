@@ -2007,6 +2007,10 @@ JS_POISON
 t
 JS_SWEPT_TENURED_PATTERN
 thingSize
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 TraceTenuredFinalize
@@ -2041,6 +2045,10 @@ sizeof
 (
 data
 )
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 return
@@ -13739,6 +13747,10 @@ arena
 getThingsSpan
 (
 )
+MemCheckKind
+:
+:
+MakeNoAccess
 )
 ;
 #

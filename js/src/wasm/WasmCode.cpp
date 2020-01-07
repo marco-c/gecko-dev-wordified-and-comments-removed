@@ -254,6 +254,10 @@ ProtectionSetting
 :
 :
 Writable
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 if
@@ -280,6 +284,10 @@ ProtectionSetting
 :
 :
 Writable
+MemCheckKind
+:
+:
+MakeUndefined
 )
 ;
 }

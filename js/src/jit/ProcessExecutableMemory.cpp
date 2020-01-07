@@ -2073,6 +2073,8 @@ size_t
 bytes
 ProtectionSetting
 protection
+MemCheckKind
+checkKind
 )
 ;
 void
@@ -2100,6 +2102,8 @@ size_t
 bytes
 ProtectionSetting
 protection
+MemCheckKind
+checkKind
 )
 {
 MOZ_ASSERT
@@ -2372,6 +2376,13 @@ return
 nullptr
 ;
 }
+SetMemCheckKind
+(
+p
+bytes
+checkKind
+)
+;
 return
 p
 ;
@@ -2473,6 +2484,12 @@ bytes
 /
 ExecutableCodePageSize
 ;
+MOZ_MAKE_MEM_NOACCESS
+(
+addr
+bytes
+)
+;
 if
 (
 decommit
@@ -2558,6 +2575,8 @@ size_t
 bytes
 ProtectionSetting
 protection
+MemCheckKind
+checkKind
 )
 {
 return
@@ -2567,6 +2586,7 @@ allocate
 (
 bytes
 protection
+checkKind
 )
 ;
 }

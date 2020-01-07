@@ -58,6 +58,12 @@ AutoLockGC
 lock
 )
 {
+MOZ_MAKE_MEM_UNDEFINED
+(
+this
+ArenaSize
+)
+;
 MOZ_ASSERT
 (
 firstFreeSpan

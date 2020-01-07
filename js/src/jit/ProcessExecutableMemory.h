@@ -13,6 +13,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+jsutil
+.
+h
+"
 namespace
 js
 {
@@ -107,6 +114,8 @@ size_t
 bytes
 ProtectionSetting
 protection
+MemCheckKind
+checkKind
 )
 ;
 extern
