@@ -103,6 +103,7 @@ ProcessCount
 ;
 public
 :
+explicit
 ProcessCount
 (
 uint32_t
@@ -275,6 +276,11 @@ eLive
 )
 )
 {
+Unused
+<
+<
+cp
+;
 +
 +
 processCount
