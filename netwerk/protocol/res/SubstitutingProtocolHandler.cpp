@@ -1049,8 +1049,9 @@ Mutator
 )
 .
 Apply
-(
-NS_MutatorMethod
+<
+nsIStandardURLMutator
+>
 (
 &
 nsIStandardURLMutator
@@ -1067,7 +1068,6 @@ spec
 aCharset
 aBaseURI
 nullptr
-)
 )
 .
 Finalize

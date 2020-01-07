@@ -3942,8 +3942,9 @@ aSpec
 )
 .
 Apply
-(
-NS_MutatorMethod
+<
+nsIBlobURIMutator
+>
 (
 &
 nsIBlobURIMutator
@@ -3952,11 +3953,11 @@ nsIBlobURIMutator
 SetBlobImpl
 blob
 )
-)
 .
 Apply
-(
-NS_MutatorMethod
+<
+nsIPrincipalURIMutator
+>
 (
 &
 nsIPrincipalURIMutator
@@ -3964,7 +3965,6 @@ nsIPrincipalURIMutator
 :
 SetPrincipal
 principal
-)
 )
 .
 Finalize

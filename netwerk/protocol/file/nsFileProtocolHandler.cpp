@@ -729,8 +729,9 @@ url
 )
 .
 Apply
-(
-NS_MutatorMethod
+<
+nsIStandardURLMutator
+>
 (
 &
 nsIStandardURLMutator
@@ -747,7 +748,6 @@ buf
 charset
 baseURI
 nullptr
-)
 )
 .
 Finalize

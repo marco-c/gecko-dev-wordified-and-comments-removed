@@ -12316,8 +12316,9 @@ stdURL
 mutator
 .
 Apply
-(
-NS_MutatorMethod
+<
+nsIStandardURLMutator
+>
 (
 &
 nsIStandardURLMutator
@@ -12326,7 +12327,6 @@ nsIStandardURLMutator
 SetDefaultPort
 443
 nullptr
-)
 )
 ;
 }
