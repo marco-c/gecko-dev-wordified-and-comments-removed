@@ -167,7 +167,7 @@ deepEqual
 await
 buf
 .
-fetchInconsistencies
+fetchSyncStatusMismatches
 (
 )
 {
