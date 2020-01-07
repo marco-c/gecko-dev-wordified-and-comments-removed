@@ -91,15 +91,6 @@ false
 "
 dom
 .
-mozbrowser
-.
-enabled
-"
-:
-false
-"
-dom
-.
 mutation_observer
 .
 enabled

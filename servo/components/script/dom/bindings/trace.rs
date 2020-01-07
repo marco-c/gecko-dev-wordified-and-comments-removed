@@ -385,7 +385,6 @@ constellation_msg
 :
 {
 BrowsingContextId
-FrameType
 PipelineId
 TopLevelBrowsingContextId
 }
@@ -546,7 +545,6 @@ DocumentActivity
 ScriptToConstellationChan
 TimerEventId
 TimerSource
-TouchpadPressurePhase
 }
 ;
 use
@@ -2326,7 +2324,6 @@ unsafe_no_jsmanaged_fields
 !
 (
 BrowsingContextId
-FrameType
 PipelineId
 TopLevelBrowsingContextId
 )
@@ -2536,12 +2533,6 @@ unsafe_no_jsmanaged_fields
 !
 (
 StyleSharedRwLock
-)
-;
-unsafe_no_jsmanaged_fields
-!
-(
-TouchpadPressurePhase
 )
 ;
 unsafe_no_jsmanaged_fields

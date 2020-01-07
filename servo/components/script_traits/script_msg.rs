@@ -20,9 +20,6 @@ use
 LoadData
 ;
 use
-MozBrowserEvent
-;
-use
 WorkerGlobalScopeInit
 ;
 use
@@ -83,7 +80,6 @@ constellation_msg
 :
 {
 BrowsingContextId
-FrameType
 PipelineId
 TraversalDirection
 }
@@ -337,10 +333,7 @@ IpcSender
 <
 Option
 <
-(
 PipelineId
-FrameType
-)
 >
 >
 )
@@ -363,11 +356,6 @@ Vec
 <
 u8
 >
-)
-MozBrowserEvent
-(
-PipelineId
-MozBrowserEvent
 )
 TraverseHistory
 (

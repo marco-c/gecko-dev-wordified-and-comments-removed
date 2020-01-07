@@ -3431,7 +3431,7 @@ enable
 "
 dom
 .
-mozbrowser
+bluetooth
 .
 enabled
 "
