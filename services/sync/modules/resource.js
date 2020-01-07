@@ -394,6 +394,7 @@ return
 null
 ;
 }
+async
 _buildHeaders
 (
 method
@@ -442,6 +443,7 @@ authenticator
 const
 result
 =
+await
 this
 .
 authenticator
@@ -646,6 +648,7 @@ return
 headers
 ;
 }
+async
 _createRequest
 (
 method
@@ -656,6 +659,7 @@ signal
 const
 headers
 =
+await
 this
 .
 _buildHeaders
@@ -790,6 +794,7 @@ AbortController
 const
 request
 =
+await
 this
 .
 _createRequest
