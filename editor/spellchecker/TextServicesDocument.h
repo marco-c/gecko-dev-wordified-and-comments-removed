@@ -60,9 +60,6 @@ class
 nsIContentIterator
 ;
 class
-nsIDOMNode
-;
-class
 nsIEditor
 ;
 class
@@ -513,15 +510,6 @@ IsTextNode
 nsIContent
 *
 aContent
-)
-;
-static
-bool
-IsTextNode
-(
-nsIDOMNode
-*
-aNode
 )
 ;
 static

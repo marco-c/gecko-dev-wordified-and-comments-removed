@@ -396,10 +396,7 @@ mEditorBase
 >
 MarkNodeDirty
 (
-GetAsDOMNode
-(
 mNewNode
-)
 )
 ;
 ErrorResult

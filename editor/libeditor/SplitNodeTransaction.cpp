@@ -370,7 +370,7 @@ MarkNodeDirty
 (
 mStartOfRightNode
 .
-GetContainerAsDOMNode
+GetContainer
 (
 )
 )
