@@ -1269,12 +1269,6 @@ eDATA_NODE
 <
 <
 8
-eMEDIA
-=
-1
-<
-<
-9
 eANIMATION
 =
 1
