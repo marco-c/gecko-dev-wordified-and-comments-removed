@@ -596,7 +596,7 @@ if
 !
 this
 .
-isRegistered
+enabled
 )
 {
 return
