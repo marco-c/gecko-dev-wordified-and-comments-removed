@@ -387,6 +387,16 @@ format
 .
 js
 )
+content
+/
+prefs
+.
+js
+(
+prefs
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
