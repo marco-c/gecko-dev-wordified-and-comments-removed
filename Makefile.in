@@ -2107,6 +2107,8 @@ uploadsymbols
 :
 ifdef
 MOZ_CRASHREPORTER
+ifdef
+SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
 (
 PYTHON
 )
@@ -2139,6 +2141,7 @@ SYMBOL_FULL_ARCHIVE_BASENAME
 .
 zip
 '
+endif
 endif
 .
 PHONY
