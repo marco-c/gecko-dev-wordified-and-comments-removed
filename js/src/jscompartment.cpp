@@ -365,7 +365,6 @@ lastAnimationTime
 )
 regExps
 (
-zone
 )
 globalWriteBarriered
 (
@@ -4159,9 +4158,6 @@ regExps
 .
 sweep
 (
-runtimeFromAnyThread
-(
-)
 )
 ;
 }
@@ -4173,14 +4169,6 @@ sweepDebugEnvironments
 (
 )
 {
-JSRuntime
-*
-rt
-=
-runtimeFromAnyThread
-(
-)
-;
 if
 (
 debugEnvs
@@ -4190,7 +4178,6 @@ debugEnvs
 >
 sweep
 (
-rt
 )
 ;
 }

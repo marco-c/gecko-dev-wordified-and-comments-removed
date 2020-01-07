@@ -5668,9 +5668,6 @@ New
 alloc
 (
 )
-constraints
-(
-)
 obj
 begin
 end

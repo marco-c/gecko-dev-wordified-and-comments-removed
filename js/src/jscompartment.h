@@ -3924,9 +3924,6 @@ templateLiteralMap_
 ;
 public
 :
-unsigned
-gcIndex
-;
 JSObject
 *
 gcIncomingGrayPointers

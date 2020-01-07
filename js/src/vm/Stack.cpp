@@ -2577,7 +2577,6 @@ fp
 >
 initCallFrame
 (
-cx
 nullptr
 nullptr
 nullptr

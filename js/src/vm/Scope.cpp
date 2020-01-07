@@ -670,7 +670,6 @@ cx
 StackBaseShape
 stackBase
 (
-cx
 cls
 baseShapeFlags
 )

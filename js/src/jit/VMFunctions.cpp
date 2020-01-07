@@ -7494,16 +7494,12 @@ BaselineThrowInitializedThis
 JSContext
 *
 cx
-BaselineFrame
-*
-frame
 )
 {
 return
 ThrowInitializedThis
 (
 cx
-frame
 )
 ;
 }

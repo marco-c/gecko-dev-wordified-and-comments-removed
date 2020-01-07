@@ -2752,9 +2752,6 @@ trc
 void
 sweep
 (
-JSRuntime
-*
-rt
 )
 ;
 void

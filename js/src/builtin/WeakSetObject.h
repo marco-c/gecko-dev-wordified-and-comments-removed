@@ -92,9 +92,6 @@ isBuiltinAdd
 (
 HandleValue
 add
-JSContext
-*
-cx
 )
 ;
 }

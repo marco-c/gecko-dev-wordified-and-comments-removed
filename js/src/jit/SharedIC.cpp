@@ -6796,15 +6796,6 @@ engine
 (
 )
 ;
-HandleScript
-script
-=
-info
-.
-innerScript
-(
-)
-;
 DebugModeOSRVolatileStub
 <
 ICUnaryArith_Fallback
@@ -6902,8 +6893,6 @@ if
 NegOperation
 (
 cx
-script
-pc
 val
 res
 )
