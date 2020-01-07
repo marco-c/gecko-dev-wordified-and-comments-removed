@@ -92,7 +92,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-41
+42
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -602,6 +602,11 @@ MigrateV41Up
 )
 ;
 nsresult
+MigrateV42Up
+(
+)
+;
+nsresult
 UpdateBookmarkRootTitles
 (
 )
@@ -689,6 +694,9 @@ mClosed
 ;
 bool
 mShouldConvertIconPayloads
+;
+bool
+mShouldVacuumIcons
 ;
 already_AddRefed
 <

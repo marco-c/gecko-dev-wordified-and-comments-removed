@@ -1,7 +1,7 @@
 const
 CURRENT_SCHEMA_VERSION
 =
-41
+42
 ;
 const
 FIRST_UPGRADABLE_SCHEMA_VERSION
@@ -13,13 +13,6 @@ NS_APP_USER_PROFILE_50_DIR
 =
 "
 ProfD
-"
-;
-const
-NS_APP_PROFILE_DIR_STARTUP
-=
-"
-ProfDS
 "
 ;
 const
@@ -354,13 +347,8 @@ AppConstants
 .
 jsm
 "
-}
-)
-;
-Cu
-.
-import
-(
+PlacesUtils
+:
 "
 resource
 :
@@ -374,6 +362,7 @@ PlacesUtils
 .
 jsm
 "
+}
 )
 ;
 XPCOMUtils

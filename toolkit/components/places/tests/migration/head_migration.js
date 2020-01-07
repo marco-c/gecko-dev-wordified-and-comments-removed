@@ -98,6 +98,9 @@ async
 function
 (
 aFileName
+aDestFileName
+=
+DB_FILENAME
 )
 {
 let
@@ -163,7 +166,7 @@ Constants
 Path
 .
 profileDir
-DB_FILENAME
+aDestFileName
 )
 ;
 Assert
