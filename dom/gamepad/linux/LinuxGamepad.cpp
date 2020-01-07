@@ -161,7 +161,7 @@ numButtons
 char
 idstring
 [
-128
+256
 ]
 ;
 char
