@@ -137,6 +137,11 @@ UpdateRDFConverter
 jsm
 '
 '
+XPIDatabase
+.
+jsm
+'
+'
 XPIInstall
 .
 jsm
@@ -145,11 +150,6 @@ jsm
 XPIProvider
 .
 jsm
-'
-'
-XPIProviderUtils
-.
-js
 '
 ]
 TESTING_JS_MODULES
