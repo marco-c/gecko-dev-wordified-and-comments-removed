@@ -4748,17 +4748,6 @@ upright
 text_combine_upright
 TextCombineUpright
 "
-layout
-.
-css
-.
-text
--
-combine
--
-upright
-.
-enabled
 "
 0
 kTextCombineUprightKTable
