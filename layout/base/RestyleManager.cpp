@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsTransitionManager
+.
+h
+"
+#
+include
+"
 StickyScrollContainer
 .
 h
