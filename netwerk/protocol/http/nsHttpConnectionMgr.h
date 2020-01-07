@@ -264,6 +264,14 @@ time
 )
 ;
 void
+AbortAndCloseAllConnections
+(
+int32_t
+ARefBase
+*
+)
+;
+void
 ConditionallyStopPruneDeadConnectionsTimer
 (
 )
