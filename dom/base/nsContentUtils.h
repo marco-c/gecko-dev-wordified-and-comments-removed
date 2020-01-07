@@ -5865,6 +5865,16 @@ return
 sCookiesBehavior
 ;
 }
+static
+uint32_t
+CookiesLifetimePolicy
+(
+)
+{
+return
+sCookiesLifetimePolicy
+;
+}
 enum
 class
 StorageAccess
