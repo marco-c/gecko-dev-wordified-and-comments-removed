@@ -37385,8 +37385,6 @@ healthreport
 |
 license
 |
-newaddon
-|
 permissions
 |
 preferences
