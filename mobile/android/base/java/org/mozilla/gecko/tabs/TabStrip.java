@@ -685,6 +685,15 @@ isPrivate
 )
 )
 ;
+tabStripView
+.
+updateTab
+(
+tab
+)
+;
+break
+;
 case
 UNSELECTED
 :

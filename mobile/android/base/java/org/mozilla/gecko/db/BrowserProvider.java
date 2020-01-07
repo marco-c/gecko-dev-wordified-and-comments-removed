@@ -8129,6 +8129,12 @@ cursor
 ;
 }
 Override
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 public
 Cursor
 query

@@ -816,6 +816,12 @@ arguments
 )
 ;
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 private
 boolean
 performContentAction

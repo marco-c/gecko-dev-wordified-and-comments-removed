@@ -1420,9 +1420,7 @@ requestAudioFocus
 (
 )
 {
-getAudioFocusAgent
-(
-)
+AudioFocusAgent
 .
 notifyStartedPlaying
 (
@@ -1461,9 +1459,7 @@ isSatisfied
 (
 )
 {
-getAudioFocusAgent
-(
-)
+AudioFocusAgent
 .
 notifyStartedPlaying
 (
