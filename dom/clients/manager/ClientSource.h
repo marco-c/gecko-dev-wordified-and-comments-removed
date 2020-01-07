@@ -69,9 +69,6 @@ class
 nsIDocShell
 ;
 class
-nsIGlobalObject
-;
-class
 nsISerialEventTarget
 ;
 class
@@ -205,13 +202,6 @@ const
 nsIDocShell
 *
 GetDocShell
-(
-)
-const
-;
-nsIGlobalObject
-*
-GetGlobal
 (
 )
 const
