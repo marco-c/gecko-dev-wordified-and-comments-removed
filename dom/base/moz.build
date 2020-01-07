@@ -500,11 +500,6 @@ nsIDocumentObserver
 h
 '
 '
-nsIDOMClassInfo
-.
-h
-'
-'
 nsIGlobalObject
 .
 h

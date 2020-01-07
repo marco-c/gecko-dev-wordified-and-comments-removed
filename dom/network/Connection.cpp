@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMClassInfo
-.
-h
-"
-#
-include
-"
 Constants
 .
 h
