@@ -1,4 +1,6 @@
 import
+runpy
+import
 string
 def
 generate
@@ -34,28 +36,19 @@ read
 )
 )
     
-with
-open
-(
-dataFile
-"
-r
-"
-)
-as
-f
-:
-        
 data
 =
-eval
-(
-f
+runpy
 .
-read
+run_path
 (
+dataFile
 )
-)
+[
+"
+data
+"
+]
     
 longhand_count
 =
@@ -75,18 +68,17 @@ property_ids
 ]
     
 for
-name
-method
-id
-flags
-pref
-prototype
+prop
 in
 data
 :
         
 if
-prototype
+prop
+.
+type
+(
+)
 !
 =
 "
@@ -95,7 +87,11 @@ alias
 :
             
 if
-prototype
+prop
+.
+type
+(
+)
 =
 =
 "
@@ -140,6 +136,8 @@ eCSSProperty_
 .
 format
 (
+prop
+.
 id
 )
 )
@@ -164,10 +162,9 @@ eCSSPropertyAlias_
 .
 format
 (
-id
-[
-0
-]
+prop
+.
+alias_id
 )
 )
     

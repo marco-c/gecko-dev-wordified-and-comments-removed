@@ -53,6 +53,8 @@ json
 import
 os
 import
+runpy
+import
 sys
 import
 string
@@ -362,45 +364,34 @@ py
 '
 )
         
-with
-open
-(
-dataPath
-"
-r
-"
-)
-as
-f
-:
-            
 data
 =
-eval
-(
-f
+runpy
 .
-read
+run_path
 (
+dataPath
 )
-)
+[
+'
+data
+'
+]
         
 preferences
 =
 [
             
 (
+p
+.
 name
+p
+.
 pref
 )
-            
 for
-name
-prop
-id
-flags
-pref
-proptype
+p
 in
 data
             
@@ -413,8 +404,12 @@ Internal
 '
 not
 in
+p
+.
 flags
 and
+p
+.
 pref
 ]
         

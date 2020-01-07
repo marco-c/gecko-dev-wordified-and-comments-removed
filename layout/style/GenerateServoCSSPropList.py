@@ -9,6 +9,8 @@ mozpath
 import
 os
 import
+runpy
+import
 subprocess
 import
 string
@@ -196,28 +198,19 @@ data
 )
 :
     
-with
-open
-(
-data
-"
-r
-"
-)
-as
-f
-:
-        
 data
 =
-eval
-(
-f
+runpy
 .
-read
+run_path
 (
+data
 )
-)
+[
+"
+data
+"
+]
     
 output
 .
@@ -479,12 +472,7 @@ CSS_PROP_ALIAS
 }
     
 for
-name
-method
-id
-flags
-pref
-proptype
+prop
 in
 data
 :
@@ -498,6 +486,8 @@ CSSPropFlags
 Internal
 "
 in
+prop
+.
 flags
         
 pref
@@ -506,6 +496,8 @@ pref
 "
 '
 +
+prop
+.
 pref
 +
 '
@@ -513,7 +505,11 @@ pref
 '
         
 if
-proptype
+prop
+.
+type
+(
+)
 =
 =
 "
@@ -524,21 +520,29 @@ alias
 params
 =
 [
+prop
+.
 name
-id
-[
-0
-]
-id
-[
-1
-]
+prop
+.
+alias_id
+prop
+.
+prop_id
+prop
+.
 method
 pref
 ]
         
 else
 :
+            
+method
+=
+prop
+.
+method
             
 if
 method
@@ -590,6 +594,8 @@ method
 )
             
 if
+prop
+.
 flags
 :
                 
@@ -601,6 +607,8 @@ flags
 .
 join
 (
+prop
+.
 flags
 )
             
@@ -619,7 +627,11 @@ CSSPropFlags
 params
 =
 [
+prop
+.
 name
+prop
+.
 id
 method
 flags
@@ -631,6 +643,8 @@ is_component_of_all
 not
 is_internal
 and
+prop
+.
 name
 not
 in
@@ -699,7 +713,11 @@ format
 (
 MACRO_NAMES
 [
-proptype
+prop
+.
+type
+(
+)
 ]
 "
 "
