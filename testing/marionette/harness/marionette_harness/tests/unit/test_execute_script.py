@@ -1358,7 +1358,7 @@ os
 .
 path
 .
-basename
+relpath
 (
 __file__
 .
@@ -1374,7 +1374,6 @@ py
 "
 )
 )
-                      
 cm
 .
 exception
@@ -1397,21 +1396,6 @@ cm
 exception
 .
 message
-)
-        
-self
-.
-assertIn
-(
-"
-return
-b
-"
-cm
-.
-exception
-.
-stacktrace
 )
     
 def
