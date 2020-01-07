@@ -97,7 +97,7 @@ platformName
 =
 =
 "
-darwin
+mac
 "
 :
             
