@@ -308,10 +308,6 @@ data
 (
 nullptr
 )
-lastAnimationTime
-(
-0
-)
 regExps
 (
 )

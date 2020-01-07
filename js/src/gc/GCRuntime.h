@@ -3075,9 +3075,12 @@ lock
 bool
 shouldPreserveJITCode
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
-comp
+realm
 int64_t
 currentTime
 JS

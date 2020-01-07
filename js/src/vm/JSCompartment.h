@@ -3363,9 +3363,6 @@ empty
 }
 public
 :
-int64_t
-lastAnimationTime
-;
 js
 :
 :
@@ -4959,6 +4956,11 @@ DebugScriptMap
 debugScriptMap
 =
 nullptr
+;
+int64_t
+lastAnimationTime
+=
+0
 ;
 uint32_t
 warnedAboutStringGenericsMethods
