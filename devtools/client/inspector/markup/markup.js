@@ -4632,6 +4632,15 @@ type
 "
 nativeAnonymousChildList
 "
+|
+|
+type
+=
+=
+=
+"
+slotchange
+"
 )
 {
 container
