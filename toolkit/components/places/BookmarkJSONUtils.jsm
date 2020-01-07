@@ -1139,9 +1139,11 @@ _replace
 )
 {
 await
-PlacesBackups
+PlacesUtils
 .
-eraseEverythingIncludingUserRoots
+bookmarks
+.
+eraseEverything
 (
 {
 source

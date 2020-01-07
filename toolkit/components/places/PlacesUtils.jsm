@@ -2042,13 +2042,6 @@ place
 -
 action
 "
-EXCLUDE_FROM_BACKUP_ANNO
-:
-"
-places
-/
-excludeFromBackup
-"
 LMANNO_FEEDURI
 :
 "
