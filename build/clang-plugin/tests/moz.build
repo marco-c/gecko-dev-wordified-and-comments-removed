@@ -267,6 +267,11 @@ TestOverrideBaseCallAnnotation
 cpp
 '
 '
+TestParamTraitsEnum
+.
+cpp
+'
+'
 TestRefCountedCopyConstructor
 .
 cpp

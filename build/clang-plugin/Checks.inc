@@ -239,6 +239,15 @@ usage
 )
 CHECK
 (
+ParamTraitsEnumChecker
+"
+paramtraits
+-
+enum
+"
+)
+CHECK
+(
 RefCountedCopyConstructorChecker
 "
 refcounted

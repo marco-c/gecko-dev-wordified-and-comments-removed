@@ -229,6 +229,11 @@ OverrideBaseCallUsageChecker
 cpp
 '
 '
+ParamTraitsEnumChecker
+.
+cpp
+'
+'
 RefCountedCopyConstructorChecker
 .
 cpp
