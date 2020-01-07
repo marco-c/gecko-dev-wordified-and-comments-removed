@@ -624,7 +624,6 @@ aEventList
 debug
 (
 "
-rabbit
 register
 "
 +
@@ -662,7 +661,6 @@ unregisterListener
 debug
 (
 "
-rabbit
 unregister
 "
 )
@@ -720,7 +718,6 @@ _enableQueuing
 debug
 (
 "
-rabbit
 queue
 "
 +
@@ -794,7 +791,6 @@ aCallback
 debug
 (
 "
-rabbit
 dispatch
 "
 +
@@ -835,7 +831,6 @@ dispatchQueuedEvents
 debug
 (
 "
-rabbit
 dispatchQueued
 "
 )
