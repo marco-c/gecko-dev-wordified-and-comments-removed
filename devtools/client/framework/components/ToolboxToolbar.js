@@ -243,6 +243,13 @@ selectTool
 PropTypes
 .
 func
+toggleOptions
+:
+PropTypes
+.
+func
+.
+isRequired
 toggleSplitConsole
 :
 PropTypes
@@ -990,7 +997,7 @@ hostTypes
 currentHostType
 isSplitConsoleActive
 disableAutohide
-selectTool
+toggleOptions
 toggleSplitConsole
 toggleNoAutohide
 L10N
@@ -1329,11 +1336,8 @@ click
 )
 =
 >
-selectTool
+toggleOptions
 (
-"
-options
-"
 )
 }
 )
