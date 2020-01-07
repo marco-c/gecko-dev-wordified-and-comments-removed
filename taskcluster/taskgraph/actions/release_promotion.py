@@ -340,7 +340,11 @@ Promotion
 symbol
 =
 '
-Relpro
+{
+input
+.
+release_promotion_flavor
+}
 '
     
 description
