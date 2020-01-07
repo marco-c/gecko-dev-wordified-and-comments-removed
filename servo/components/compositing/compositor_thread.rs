@@ -122,7 +122,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 style_traits
@@ -668,7 +668,7 @@ KeyModifiers
 )
 SetCursor
 (
-Cursor
+CursorKind
 )
 NewFavicon
 (

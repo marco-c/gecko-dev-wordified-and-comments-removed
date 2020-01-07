@@ -554,7 +554,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 style_traits
@@ -10266,7 +10266,7 @@ mut
 self
 cursor
 :
-Cursor
+CursorKind
 )
 {
 self

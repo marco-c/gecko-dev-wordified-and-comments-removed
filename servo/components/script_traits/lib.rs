@@ -410,7 +410,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 webdriver_msg
@@ -2942,7 +2942,7 @@ CompositorEvent
 )
 SetCursor
 (
-Cursor
+CursorKind
 )
 }
 #

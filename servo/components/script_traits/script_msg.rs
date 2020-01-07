@@ -150,7 +150,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 style_traits
@@ -199,7 +199,7 @@ Epoch
 )
 SetCursor
 (
-Cursor
+CursorKind
 )
 ViewportConstrained
 (

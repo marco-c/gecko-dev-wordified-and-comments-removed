@@ -154,7 +154,7 @@ style_traits
 cursor
 :
 :
-Cursor
+CursorKind
 ;
 use
 text
@@ -3052,7 +3052,7 @@ pointing
 :
 Option
 <
-Cursor
+CursorKind
 >
 }
 #
