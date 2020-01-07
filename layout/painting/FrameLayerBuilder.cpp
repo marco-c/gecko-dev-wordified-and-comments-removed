@@ -26701,7 +26701,10 @@ GetNumRects
 {
 visible
 =
+Move
+(
 newVisible
+)
 ;
 }
 }
