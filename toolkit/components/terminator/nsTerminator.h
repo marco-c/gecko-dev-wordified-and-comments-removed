@@ -95,6 +95,11 @@ mCurrentStep
 ;
 }
 ;
+void
+XPCOMShutdownNotified
+(
+)
+;
 }
 #
 define
