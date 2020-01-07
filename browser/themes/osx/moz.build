@@ -103,11 +103,3 @@ jar
 mn
 '
 ]
-DEFINES
-[
-'
-CAN_DRAW_IN_TITLEBAR
-'
-]
-=
-1

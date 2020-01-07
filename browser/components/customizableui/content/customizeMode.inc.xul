@@ -357,9 +357,6 @@ customization
 footer
 "
 >
-#
-ifdef
-CAN_DRAW_IN_TITLEBAR
 <
 checkbox
 id
@@ -481,8 +478,6 @@ checked
 "
 /
 >
-#
-endif
 <
 button
 id

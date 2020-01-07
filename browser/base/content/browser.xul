@@ -732,9 +732,6 @@ titlePrivateBrowsingSuffix
 endif
 #
 ifdef
-CAN_DRAW_IN_TITLEBAR
-#
-ifdef
 XP_WIN
 chromemargin
 =
@@ -764,8 +761,6 @@ tabsintitlebar
 "
 true
 "
-#
-endif
 titlemenuseparator
 =
 "
@@ -5598,9 +5593,6 @@ true
 "
 /
 >
-#
-ifdef
-CAN_DRAW_IN_TITLEBAR
 <
 vbox
 id
@@ -5871,8 +5863,6 @@ hbox
 /
 vbox
 >
-#
-endif
 <
 toolbox
 id
@@ -6022,9 +6012,6 @@ inc
 toolbaritem
 >
 #
-ifdef
-CAN_DRAW_IN_TITLEBAR
-#
 ifndef
 XP_MACOSX
 <
@@ -6055,8 +6042,6 @@ true
 "
 /
 >
-#
-endif
 #
 endif
 <
@@ -6118,9 +6103,6 @@ collapsed
 true
 "
 >
-#
-ifdef
-CAN_DRAW_IN_TITLEBAR
 <
 hbox
 class
@@ -6144,8 +6126,6 @@ true
 "
 /
 >
-#
-endif
 <
 tabs
 id
@@ -6488,9 +6468,6 @@ menupopup
 /
 toolbarbutton
 >
-#
-ifdef
-CAN_DRAW_IN_TITLEBAR
 <
 hbox
 class
@@ -6519,8 +6496,6 @@ true
 "
 /
 >
-#
-endif
 <
 button
 class
@@ -6581,9 +6556,6 @@ ordinal
 "
 /
 >
-#
-ifdef
-CAN_DRAW_IN_TITLEBAR
 <
 hbox
 class
@@ -6643,8 +6615,6 @@ true
 "
 /
 >
-#
-endif
 #
 endif
 <

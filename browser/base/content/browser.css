@@ -1842,9 +1842,6 @@ none
 }
 %
 ifdef
-CAN_DRAW_IN_TITLEBAR
-%
-ifdef
 MENUBAR_CAN_AUTOHIDE
 #
 toolbar
@@ -2322,8 +2319,6 @@ none
 important
 ;
 }
-%
-endif
 %
 endif
 #

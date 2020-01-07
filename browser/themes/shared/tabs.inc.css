@@ -4786,9 +4786,6 @@ start
 }
 %
 ifdef
-CAN_DRAW_IN_TITLEBAR
-%
-ifdef
 MENUBAR_CAN_AUTOHIDE
 :
 root
@@ -4848,8 +4845,6 @@ tab
 :
 :
 after
-%
-endif
 %
 endif
 .
