@@ -3277,6 +3277,7 @@ Telemetry
 :
 :
 ChildEventData
+&
 e
 =
 aEvents
