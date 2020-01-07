@@ -643,7 +643,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_NORMAL
+LABEL
 |
 |
 aEntry
@@ -702,7 +702,7 @@ if
 (
 aEntry
 .
-isJs
+isJsFrame
 (
 )
 )
@@ -805,7 +805,7 @@ MOZ_ASSERT
 (
 aEntry
 .
-isCpp
+isLabelFrame
 (
 )
 )

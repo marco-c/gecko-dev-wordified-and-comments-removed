@@ -1086,7 +1086,7 @@ if
 !
 aEntry
 .
-isJs
+isJsFrame
 (
 )
 )

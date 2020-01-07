@@ -247,10 +247,10 @@ Kind
 :
 uint32_t
 {
-CPP_NORMAL
+LABEL
 =
 0
-CPP_MARKER_FOR_JS
+LABEL_MARKER_FOR_JS
 =
 1
 JS_NORMAL
@@ -373,7 +373,7 @@ Kind
 )
 ;
 bool
-isCpp
+isLabelFrame
 (
 )
 const
@@ -392,7 +392,7 @@ k
 Kind
 :
 :
-CPP_NORMAL
+LABEL
 |
 |
 k
@@ -401,11 +401,11 @@ k
 Kind
 :
 :
-CPP_MARKER_FOR_JS
+LABEL_MARKER_FOR_JS
 ;
 }
 bool
-isJs
+isJsFrame
 (
 )
 const
@@ -475,7 +475,7 @@ dynamicString_
 ;
 }
 void
-initCppFrame
+initLabelFrame
 (
 const
 char
@@ -532,7 +532,7 @@ aCategory
 ;
 MOZ_ASSERT
 (
-isCpp
+isLabelFrame
 (
 )
 )
@@ -597,7 +597,7 @@ JS
 ;
 MOZ_ASSERT
 (
-isJs
+isJsFrame
 (
 )
 )
@@ -677,7 +677,7 @@ const
 MOZ_ASSERT
 (
 !
-isJs
+isJsFrame
 (
 )
 )
@@ -705,7 +705,7 @@ const
 MOZ_ASSERT
 (
 !
-isJs
+isJsFrame
 (
 )
 )
@@ -729,7 +729,7 @@ const
 {
 MOZ_ASSERT
 (
-isJs
+isJsFrame
 (
 )
 )
@@ -858,7 +858,7 @@ PseudoStack
 )
 ;
 void
-pushCppFrame
+pushLabelFrame
 (
 const
 char
@@ -918,7 +918,7 @@ entries
 oldStackPointer
 ]
 .
-initCppFrame
+initLabelFrame
 (
 label
 dynamicString

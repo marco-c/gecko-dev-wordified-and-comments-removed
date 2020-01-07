@@ -996,7 +996,7 @@ entries
 i
 ]
 .
-isJs
+isJsFrame
 (
 )
 pseudoStack_
@@ -1125,7 +1125,7 @@ entries
 sp
 ]
 .
-isJs
+isJsFrame
 (
 )
 )
@@ -1223,7 +1223,7 @@ if
 (
 entry
 .
-isJs
+isJsFrame
 (
 )
 )
@@ -1298,7 +1298,7 @@ MOZ_ASSERT
 (
 entry
 .
-isJs
+isJsFrame
 (
 )
 )
@@ -1877,7 +1877,7 @@ trc
 {
 if
 (
-isJs
+isJsFrame
 (
 )
 )
@@ -2167,7 +2167,7 @@ const
 {
 MOZ_ASSERT
 (
-isJs
+isJsFrame
 (
 )
 )
@@ -2255,7 +2255,7 @@ const
 {
 MOZ_ASSERT
 (
-isJs
+isJsFrame
 (
 )
 )
@@ -2336,7 +2336,7 @@ pc
 {
 MOZ_ASSERT
 (
-isJs
+isJsFrame
 (
 )
 )

@@ -240,7 +240,7 @@ profiler_
 pseudoStack_
 -
 >
-pushCppFrame
+pushLabelFrame
 (
 "
 "
@@ -253,7 +253,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_MARKER_FOR_JS
+LABEL_MARKER_FOR_JS
 ProfileEntry
 :
 :
@@ -418,7 +418,7 @@ profiler_
 pseudoStack_
 -
 >
-pushCppFrame
+pushLabelFrame
 (
 label
 nullptr
@@ -430,7 +430,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_NORMAL
+LABEL
 category
 )
 ;
