@@ -745,14 +745,10 @@ selectedNode
 |
 PlacesUtils
 .
-getConcreteItemId
+nodeIsBookmark
 (
 selectedNode
 )
-!
-=
--
-1
 )
 ;
 }
