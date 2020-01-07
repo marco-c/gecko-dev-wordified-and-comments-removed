@@ -8031,6 +8031,10 @@ if
 (
 !
 contentParent
+|
+|
+!
+contentParent
 -
 >
 CanCommunicateWith
