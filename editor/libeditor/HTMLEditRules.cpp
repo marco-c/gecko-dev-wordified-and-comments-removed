@@ -266,13 +266,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

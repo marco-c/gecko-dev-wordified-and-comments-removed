@@ -84,9 +84,6 @@ class
 nsAtom
 ;
 class
-nsIDOMCharacterData
-;
-class
 nsIDOMDocument
 ;
 class
