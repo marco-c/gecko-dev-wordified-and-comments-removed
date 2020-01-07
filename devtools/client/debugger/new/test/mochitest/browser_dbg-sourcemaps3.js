@@ -75,7 +75,7 @@ index
 )
 ;
 return
-waitForElement
+waitForElementWithSelector
 (
 dbg
 selector

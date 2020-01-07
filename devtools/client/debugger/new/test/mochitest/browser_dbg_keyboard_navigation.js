@@ -39,7 +39,7 @@ simple2
 )
 ;
 await
-waitForElement
+waitForElementWithSelector
 (
 dbg
 "
