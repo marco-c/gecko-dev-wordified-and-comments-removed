@@ -403,11 +403,12 @@ Description
 "
 )
 ;
+await
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 await
 promiseRestartManager

@@ -1325,11 +1325,12 @@ getAddonByID
 id
 )
 ;
+await
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 }
 ;

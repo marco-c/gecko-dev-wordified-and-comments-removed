@@ -1183,9 +1183,8 @@ addon
 initialState
 )
 {
-Object
-.
-assign
+await
+setInitialState
 (
 addons
 .

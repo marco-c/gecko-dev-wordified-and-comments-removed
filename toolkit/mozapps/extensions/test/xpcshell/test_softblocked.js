@@ -466,11 +466,12 @@ org
 "
 )
 ;
+await
 s1
 .
-userDisabled
-=
-false
+enable
+(
+)
 ;
 Assert
 .

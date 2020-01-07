@@ -110,11 +110,12 @@ getAddonByID
 ID
 )
 ;
+await
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 await
 disabledPromise

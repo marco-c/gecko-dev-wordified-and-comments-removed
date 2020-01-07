@@ -972,11 +972,12 @@ active_version
 1
 )
 ;
+await
 a2
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 Assert
 .

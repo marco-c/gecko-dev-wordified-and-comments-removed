@@ -903,9 +903,9 @@ win
 }
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 }
 if

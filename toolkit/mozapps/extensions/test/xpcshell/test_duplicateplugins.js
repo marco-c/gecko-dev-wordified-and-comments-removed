@@ -798,11 +798,12 @@ p
 userDisabled
 )
 ;
+await
 p
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 Assert
 .
