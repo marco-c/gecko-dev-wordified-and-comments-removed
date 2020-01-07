@@ -212,6 +212,9 @@ Init
 nsPresContext
 *
 aPresContext
+nsBindingManager
+*
+aBindingManager
 )
 {
 FORWARD
@@ -219,6 +222,7 @@ FORWARD
 Init
 (
 aPresContext
+aBindingManager
 )
 )
 ;

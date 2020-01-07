@@ -18342,10 +18342,6 @@ shell
 new
 PresShell
 ;
-mPresShell
-=
-shell
-;
 shell
 -
 >
@@ -18356,6 +18352,10 @@ aContext
 aViewManager
 aStyleSet
 )
+;
+mPresShell
+=
+shell
 ;
 nsCOMPtr
 <

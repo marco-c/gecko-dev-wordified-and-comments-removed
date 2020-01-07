@@ -4514,6 +4514,12 @@ mStyleSet
 Init
 (
 aPresContext
+mDocument
+-
+>
+BindingManager
+(
+)
 )
 ;
 mPresContext
