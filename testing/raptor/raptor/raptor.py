@@ -1415,6 +1415,17 @@ LOG
 info
 (
 "
+raptor
+-
+start
+"
+)
+    
+LOG
+.
+info
+(
+"
 received
 command
 line
