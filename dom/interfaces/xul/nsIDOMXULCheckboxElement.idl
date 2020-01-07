@@ -129,9 +129,5 @@ attribute
 boolean
 checked
 ;
-attribute
-boolean
-autoCheck
-;
 }
 ;
