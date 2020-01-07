@@ -820,6 +820,17 @@ None
             
 if
 uploadDir
+and
+self
+.
+device
+.
+is_dir
+(
+self
+.
+remoteMozLog
+)
 :
                 
 self
