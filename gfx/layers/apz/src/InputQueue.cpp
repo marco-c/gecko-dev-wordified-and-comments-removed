@@ -3400,6 +3400,12 @@ guid
 =
 %
 s
+dragtarget
+=
+%
+"
+PRIu64
+"
 \
 n
 "
@@ -3422,6 +3428,9 @@ c_str
 :
 "
 "
+aDragMetrics
+.
+mViewId
 )
 ;
 bool
