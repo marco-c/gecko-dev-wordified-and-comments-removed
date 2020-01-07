@@ -2807,7 +2807,10 @@ CanGC
 >
 (
 cx
-BASELINE_CODE
+CodeKind
+:
+:
+Baseline
 )
 )
 ;
@@ -15146,7 +15149,10 @@ CanGC
 >
 (
 cx
-BASELINE_CODE
+CodeKind
+:
+:
+Baseline
 )
 ;
 }

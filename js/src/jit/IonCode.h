@@ -314,7 +314,10 @@ headerSize
 )
 kind_
 (
+uint8_t
+(
 kind
+)
 )
 invalidated_
 (

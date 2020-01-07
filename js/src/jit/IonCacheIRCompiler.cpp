@@ -3555,7 +3555,10 @@ NoGC
 >
 (
 cx_
-ION_CODE
+CodeKind
+:
+:
+Ion
 )
 )
 ;

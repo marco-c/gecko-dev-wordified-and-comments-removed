@@ -768,7 +768,10 @@ CanGC
 >
 (
 cx
-BASELINE_CODE
+CodeKind
+:
+:
+Baseline
 )
 ;
 if

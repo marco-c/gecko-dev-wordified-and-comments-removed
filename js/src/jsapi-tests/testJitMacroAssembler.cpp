@@ -243,7 +243,10 @@ CanGC
 >
 (
 cx
-OTHER_CODE
+CodeKind
+:
+:
+Other
 )
 ;
 if

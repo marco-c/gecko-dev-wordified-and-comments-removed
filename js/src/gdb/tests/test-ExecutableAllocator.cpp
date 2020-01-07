@@ -106,7 +106,10 @@ cx
 1024
 &
 pool
-BASELINE_CODE
+CodeKind
+:
+:
+Baseline
 )
 ;
 breakpoint
@@ -170,7 +173,10 @@ cx
 1024
 &
 init
-BASELINE_CODE
+CodeKind
+:
+:
+Baseline
 )
 ;
 do
@@ -185,7 +191,10 @@ cx
 1024
 &
 pool
-ION_CODE
+CodeKind
+:
+:
+Ion
 )
 ;
 }

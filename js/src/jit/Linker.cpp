@@ -58,7 +58,10 @@ hasPatchableBackedges
 kind
 =
 =
-ION_CODE
+CodeKind
+:
+:
+Ion
 )
 ;
 gc
