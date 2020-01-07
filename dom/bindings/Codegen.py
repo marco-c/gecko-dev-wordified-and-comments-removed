@@ -20754,21 +20754,11 @@ hasChromeOnly
 chromeProperties
 =
 "
-nsContentUtils
-:
-:
-ThreadsafeIsSystemCaller
-(
-aCx
-)
-?
 sChromeOnlyNativeProperties
 .
 Upcast
 (
 )
-:
-nullptr
 "
         
 else

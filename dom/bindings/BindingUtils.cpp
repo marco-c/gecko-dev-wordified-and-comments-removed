@@ -3791,6 +3791,8 @@ char
 *
 name
 bool
+isChrome
+bool
 defineOnGlobal
 )
 {
@@ -4062,6 +4064,9 @@ nullptr
 if
 (
 chromeOnlyProperties
+&
+&
+isChrome
 )
 {
 if
@@ -5084,6 +5089,17 @@ object
 "
 )
 ;
+bool
+isChrome
+=
+nsContentUtils
+:
+:
+ThreadsafeIsSystemCaller
+(
+aCx
+)
+;
 JS
 :
 :
@@ -5111,7 +5127,11 @@ global
 protoProto
 protoClass
 properties
+isChrome
+?
 chromeOnlyProperties
+:
+nullptr
 unscopableNames
 isGlobal
 )
@@ -5163,6 +5183,7 @@ proto
 properties
 chromeOnlyProperties
 name
+isChrome
 defineOnGlobal
 )
 ;
