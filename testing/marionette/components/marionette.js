@@ -307,16 +307,6 @@ true
 "
 browser
 .
-newtabpage
-.
-enabled
-"
-false
-]
-[
-"
-browser
-.
 offline
 "
 false
