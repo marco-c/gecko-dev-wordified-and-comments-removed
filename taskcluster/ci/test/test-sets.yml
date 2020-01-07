@@ -488,6 +488,8 @@ stylo
 reftest
 -
 stylo
+linux
+-
 qr
 -
 talos
@@ -579,6 +581,8 @@ h1
 talos
 -
 h2
+linux
+-
 qr
 -
 tests
@@ -615,6 +619,16 @@ webgl
 reftest
 -
 xpcshell
+windows
+-
+qr
+-
+tests
+:
+-
+mochitest
+-
+gpu
 jsdcov
 -
 code
