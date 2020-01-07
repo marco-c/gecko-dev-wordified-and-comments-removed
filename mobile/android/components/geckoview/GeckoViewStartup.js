@@ -244,12 +244,6 @@ startup
 "
 :
 {
-this
-.
-setResourceSubstitutions
-(
-)
-;
 Services
 .
 obs
@@ -343,7 +337,7 @@ Services
 appinfo
 .
 processType
-!
+=
 =
 Services
 .
@@ -351,6 +345,15 @@ appinfo
 .
 PROCESS_TYPE_DEFAULT
 )
+{
+this
+.
+setResourceSubstitutions
+(
+)
+;
+}
+else
 {
 GeckoViewUtils
 .
