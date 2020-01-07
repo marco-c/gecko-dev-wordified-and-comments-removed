@@ -701,12 +701,6 @@ openmax_dl
 *
 media
 /
-sphinxbase
-/
-.
-*
-media
-/
 webrtc
 /
 signaling

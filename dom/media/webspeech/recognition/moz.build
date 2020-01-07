@@ -240,12 +240,6 @@ dom
 /
 base
 '
-'
-/
-media
-/
-sphinxbase
-'
 ]
 include
 (
