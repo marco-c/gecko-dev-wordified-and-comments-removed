@@ -712,7 +712,10 @@ AsyncEventDispatcher
 (
 target
 eSelectionChange
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 asyncDispatcher
@@ -789,7 +792,10 @@ AsyncEventDispatcher
 (
 aDoc
 eSelectionChange
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 asyncDispatcher

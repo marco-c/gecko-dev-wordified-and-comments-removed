@@ -264,7 +264,10 @@ NS_LITERAL_STRING
 close
 "
 )
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 eventDispatcher

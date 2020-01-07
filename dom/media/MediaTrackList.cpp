@@ -700,7 +700,10 @@ NS_LITERAL_STRING
 change
 "
 )
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 asyncDispatcher

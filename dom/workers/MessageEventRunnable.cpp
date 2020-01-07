@@ -421,8 +421,14 @@ NS_LITERAL_STRING
 message
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 messageData
 EmptyString
 (

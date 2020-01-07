@@ -108,8 +108,14 @@ NS_LITERAL_STRING
 audioprocess
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 )
 ;
 mInputBuffer

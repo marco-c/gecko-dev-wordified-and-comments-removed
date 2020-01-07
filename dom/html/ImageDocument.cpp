@@ -768,8 +768,14 @@ NS_LITERAL_STRING
 ImageContentLoaded
 "
 )
-true
-true
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eYes
 )
 ;
 return

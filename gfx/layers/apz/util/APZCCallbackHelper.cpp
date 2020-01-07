@@ -4042,8 +4042,14 @@ DispatchTrustedEvent
 ownerDoc
 targetContent
 aEvent
-true
-true
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eYes
 )
 ;
 }

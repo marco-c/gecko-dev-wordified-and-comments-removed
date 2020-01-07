@@ -1349,8 +1349,14 @@ NS_LITERAL_STRING
 resizevideocontrols
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 )
 ;
 return

@@ -20490,8 +20490,14 @@ NS_LITERAL_STRING
 scrollend
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eNo
 )
 ;
 }

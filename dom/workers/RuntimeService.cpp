@@ -10904,7 +10904,10 @@ NS_LITERAL_STRING
 error
 "
 )
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 errorEvent

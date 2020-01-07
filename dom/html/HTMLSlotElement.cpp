@@ -1133,8 +1133,14 @@ NS_LITERAL_STRING
 slotchange
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eNo
 )
 ;
 }

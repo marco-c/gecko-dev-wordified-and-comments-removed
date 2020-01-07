@@ -228,7 +228,10 @@ NS_LITERAL_STRING
 toggle
 "
 )
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 mToggleEventDispatcher

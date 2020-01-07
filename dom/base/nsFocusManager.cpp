@@ -5674,8 +5674,14 @@ NS_LITERAL_STRING
 deactivate
 "
 )
-true
-true
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eYes
 nullptr
 )
 ;

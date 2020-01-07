@@ -60,8 +60,14 @@ NS_LITERAL_STRING
 error
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 )
 ;
 }

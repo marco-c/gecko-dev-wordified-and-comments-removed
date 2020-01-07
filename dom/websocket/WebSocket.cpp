@@ -7956,8 +7956,14 @@ InitMessageEvent
 (
 nullptr
 MESSAGE_EVENT_STRING
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 jsData
 mImpl
 -

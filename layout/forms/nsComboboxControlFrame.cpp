@@ -7131,8 +7131,14 @@ NS_LITERAL_STRING
 ValueChange
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+ChromeOnlyDispatch
+:
+:
+eNo
 )
 )
 ;
