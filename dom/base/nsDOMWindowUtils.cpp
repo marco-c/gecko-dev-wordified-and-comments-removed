@@ -1171,10 +1171,7 @@ aEvent
 :
 PrioritizableRunnable
 (
-std
-:
-:
-move
+Move
 (
 aEvent
 )
@@ -1219,10 +1216,7 @@ event
 new
 NativeInputRunnable
 (
-std
-:
-:
-move
+Move
 (
 aEvent
 )
@@ -5427,7 +5421,7 @@ nsDOMWindowUtils
 :
 GarbageCollect
 "
-GC
+GCCC
 )
 ;
 nsJSContext
