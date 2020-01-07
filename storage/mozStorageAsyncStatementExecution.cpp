@@ -909,6 +909,7 @@ rc
 SQLITE_BUSY
 )
 {
+{
 SQLiteMutexAutoUnlock
 unlockedScope
 (
@@ -923,6 +924,14 @@ void
 PR_Sleep
 (
 PR_INTERVAL_NO_WAIT
+)
+;
+}
+:
+:
+sqlite3_reset
+(
+aStatement
 )
 ;
 continue
