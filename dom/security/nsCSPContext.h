@@ -387,6 +387,10 @@ sScriptSampleMaxLength
 )
 ;
 }
+static
+bool
+sViolationEventsEnabled
+;
 nsString
 mReferrer
 ;

@@ -76,6 +76,15 @@ optional
 SecurityPolicyViolationEventInit
 eventInitDict
 )
+Pref
+=
+"
+security
+.
+csp
+.
+enable_violation_events
+"
 ]
 interface
 SecurityPolicyViolationEvent
