@@ -152,6 +152,8 @@ analyzer
 -
 security
 .
+insecureAPI
+.
 UncheckedReturn
 publish
 :
