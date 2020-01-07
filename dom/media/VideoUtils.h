@@ -543,15 +543,6 @@ uint32_t
 aFrames
 )
 ;
-uint32_t
-DecideAudioPlaybackChannels
-(
-const
-AudioInfo
-&
-info
-)
-;
 bool
 IsVideoContentType
 (
