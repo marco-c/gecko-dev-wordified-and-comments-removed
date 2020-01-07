@@ -1,4 +1,4 @@
-52622
+52631
 0
 /
 nm
@@ -16555,6 +16555,7 @@ I
 /
 M
 IA
+IANAL
 IBM
 /
 M
@@ -21581,6 +21582,7 @@ M
 MD
 /
 M
+MDF
 MDT
 ME
 MEGO
@@ -30635,6 +30637,7 @@ SSA
 SSE
 /
 M
+SSN
 SSS
 SST
 SSW
@@ -86602,6 +86605,7 @@ AXGNVDS
 iteration
 /
 AM
+iteratively
 iterator
 /
 S
@@ -89175,6 +89179,7 @@ MS
 lawyer
 /
 SM
+lawyerly
 lax
 /
 TRYP
@@ -99442,7 +99447,7 @@ northwestward
 S
 nose
 /
-MGDS
+MGDSJ
 nosebag
 /
 S
@@ -104740,6 +104745,7 @@ SDRZG
 performance
 /
 SM
+performant
 performative
 performed
 /
@@ -108366,6 +108372,7 @@ M
 precedent
 /
 SM
+precedential
 precept
 /
 SM
@@ -114362,6 +114369,9 @@ MS
 retain
 /
 SDRZG
+retainage
+/
+S
 retainer
 /
 M
@@ -130535,6 +130545,8 @@ thunk
 /
 S
 thus
+/
+Y
 thwack
 /
 ZGSMDR
@@ -137938,7 +137950,7 @@ weir
 MS
 weird
 /
-PTRY
+PTRYDG
 weirdie
 /
 MS
@@ -138697,6 +138709,9 @@ willowy
 willpower
 /
 M
+willy
+-
+nilly
 willy
 /
 S
