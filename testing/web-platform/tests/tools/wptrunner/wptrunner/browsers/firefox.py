@@ -9,6 +9,8 @@ subprocess
 import
 sys
 import
+tempfile
+import
 mozinfo
 import
 mozleak
@@ -21,12 +23,6 @@ mozprofile
 import
 FirefoxProfile
 Preferences
-from
-mozprofile
-.
-permissions
-import
-ServerLocations
 from
 mozrunner
 import
@@ -80,12 +76,6 @@ MarionetteRefTestExecutor
                                             
 MarionetteWdspecExecutor
 )
-from
-.
-.
-environment
-import
-hostnames
 here
 =
 os
@@ -525,6 +515,17 @@ kwargs
 chaos_mode_flags
 "
 ]
+            
+"
+config
+"
+:
+kwargs
+[
+"
+config
+"
+]
 }
 def
 executor_kwargs
@@ -709,7 +710,16 @@ localDomains
 .
 join
 (
-hostnames
+server_config
+[
+'
+domains
+'
+]
+.
+values
+(
+)
 )
         
 }
@@ -988,6 +998,9 @@ stylo_threads
 chaos_mode_flags
 =
 None
+config
+=
+None
 )
 :
         
@@ -1082,6 +1095,12 @@ self
 binary_args
 =
 binary_args
+        
+self
+.
+config
+=
+config
         
 if
 stackfix_dir
@@ -1294,29 +1313,6 @@ self
 chaos_mode_flags
 )
         
-locations
-=
-ServerLocations
-(
-filename
-=
-os
-.
-path
-.
-join
-(
-here
-"
-server
--
-locations
-.
-txt
-"
-)
-)
-        
 preferences
 =
 self
@@ -1331,10 +1327,6 @@ profile
 =
 FirefoxProfile
 (
-locations
-=
-locations
-                                      
 preferences
 =
 preferences
@@ -1378,7 +1370,18 @@ localDomains
 .
 join
 (
-hostnames
+self
+.
+config
+[
+'
+domains
+'
+]
+.
+values
+(
+)
 )
                                       
 "

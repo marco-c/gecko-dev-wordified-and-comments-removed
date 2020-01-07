@@ -331,16 +331,6 @@ ini
 "
 browsers
 /
-server
--
-locations
-.
-txt
-"
-                                  
-"
-browsers
-/
 sauce_setup
 /
 *

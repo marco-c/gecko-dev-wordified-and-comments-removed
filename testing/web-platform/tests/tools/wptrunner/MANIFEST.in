@@ -38,13 +38,3 @@ wptrunner
 config
 .
 json
-include
-wptrunner
-/
-browsers
-/
-server
--
-locations
-.
-txt
