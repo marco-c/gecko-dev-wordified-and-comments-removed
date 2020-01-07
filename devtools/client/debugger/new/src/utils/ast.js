@@ -211,7 +211,7 @@ null
 function
 findEmptyLines
 (
-selectedSource
+sourceText
 pausePoints
 )
 {
@@ -222,7 +222,7 @@ pausePoints
 |
 |
 !
-selectedSource
+sourceText
 )
 {
 return
@@ -280,9 +280,7 @@ line
 if
 (
 !
-selectedSource
-.
-text
+sourceText
 |
 |
 breakpointLines
@@ -301,9 +299,7 @@ return
 const
 lineCount
 =
-selectedSource
-.
-text
+sourceText
 .
 split
 (

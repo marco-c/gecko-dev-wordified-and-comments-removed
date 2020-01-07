@@ -65,9 +65,6 @@ DIRS
 +
 =
 [
-'
-test
-'
 ]
 DevToolsModules
 (

@@ -223,13 +223,6 @@ task
 js
 '
 '
-test
--
-head
-.
-js
-'
-'
 text
 .
 js

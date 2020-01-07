@@ -658,7 +658,8 @@ SET_PAUSE_POINTS
 {
 const
 {
-source
+sourceText
+sourceId
 pausePoints
 }
 =
@@ -674,7 +675,7 @@ _ast
 findEmptyLines
 )
 (
-source
+sourceText
 pausePoints
 )
 ;
@@ -687,9 +688,7 @@ setIn
 "
 pausePoints
 "
-source
-.
-id
+sourceId
 ]
 pausePoints
 )
@@ -700,9 +699,7 @@ setIn
 "
 emptyLines
 "
-source
-.
-id
+sourceId
 ]
 emptyLines
 )

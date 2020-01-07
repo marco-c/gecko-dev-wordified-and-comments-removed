@@ -30,6 +30,7 @@ breakOnNext
 )
 {
 return
+async
 (
 {
 dispatch
@@ -39,6 +40,7 @@ client
 =
 >
 {
+await
 client
 .
 breakOnNext
@@ -54,9 +56,6 @@ type
 "
 BREAK_ON_NEXT
 "
-value
-:
-true
 }
 )
 ;
