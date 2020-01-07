@@ -6155,6 +6155,18 @@ path
 let
 url
 =
+path
+[
+size
+]
+;
+if
+(
+url
+)
+{
+url
+=
 baseURI
 .
 resolve
@@ -6173,6 +6185,7 @@ url
 extension
 )
 ;
+}
 result
 [
 size
@@ -6488,6 +6501,9 @@ icons
 [
 bestSize
 ]
+|
+|
+DEFAULT
 }
 ;
 }
