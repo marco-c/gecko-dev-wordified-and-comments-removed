@@ -3664,6 +3664,14 @@ tabContainer
 .
 lastChild
 ;
+if
+(
+!
+lastTab
+.
+closing
+)
+{
 this
 .
 currentTest
@@ -3712,6 +3720,7 @@ allowFailure
 )
 )
 ;
+}
 gBrowser
 .
 removeTab

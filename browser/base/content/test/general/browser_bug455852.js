@@ -69,16 +69,6 @@ closeWindowWithLastTab
 false
 )
 ;
-let
-tabClosedPromise
-=
-BrowserTestUtils
-.
-tabRemoved
-(
-tab
-)
-;
 EventUtils
 .
 synthesizeKey
@@ -92,9 +82,6 @@ accelKey
 true
 }
 )
-;
-await
-tabClosedPromise
 ;
 is
 (
