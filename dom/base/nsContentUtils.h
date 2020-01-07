@@ -7030,10 +7030,6 @@ sIsCustomElementsEnabled
 ;
 static
 bool
-sDevToolsEnabled
-;
-static
-bool
 sSendPerformanceTimingNotifications
 ;
 static
