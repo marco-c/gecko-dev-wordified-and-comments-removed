@@ -13528,7 +13528,7 @@ nsresult
 EditorBase
 :
 :
-JoinNodesImpl
+DoJoinNodes
 (
 nsINode
 *

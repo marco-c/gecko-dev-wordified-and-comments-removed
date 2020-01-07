@@ -1943,7 +1943,7 @@ aError
 )
 ;
 nsresult
-JoinNodesImpl
+DoJoinNodes
 (
 nsINode
 *

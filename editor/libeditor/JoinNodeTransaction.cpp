@@ -349,7 +349,7 @@ return
 mEditorBase
 -
 >
-JoinNodesImpl
+DoJoinNodes
 (
 mRightNode
 mLeftNode
