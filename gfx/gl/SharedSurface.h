@@ -242,8 +242,7 @@ virtual
 SharedSurface
 (
 )
-{
-}
+;
 virtual
 layers
 :
