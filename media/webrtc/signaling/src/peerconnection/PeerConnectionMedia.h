@@ -502,6 +502,7 @@ aRid
 void
 UpdateSinkIdentity_m
 (
+const
 dom
 :
 :
