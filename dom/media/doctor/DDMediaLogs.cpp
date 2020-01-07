@@ -15,9 +15,7 @@ h
 #
 include
 "
-mozilla
-/
-JSONWriter
+nsIThreadManager
 .
 h
 "
@@ -26,7 +24,7 @@ include
 "
 mozilla
 /
-SharedThreadPool
+JSONWriter
 .
 h
 "
@@ -63,10 +61,10 @@ getter_AddRefs
 mThread
 )
 nullptr
-SharedThreadPool
+nsIThreadManager
 :
 :
-kStackSize
+kThreadPoolStackSize
 )
 ;
 if

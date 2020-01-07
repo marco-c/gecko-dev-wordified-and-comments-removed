@@ -79,6 +79,13 @@ nsIObserverService
 h
 "
 #
+include
+"
+nsIThreadManager
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -979,10 +986,10 @@ pool
 >
 SetThreadStackSize
 (
-SharedThreadPool
+nsIThreadManager
 :
 :
-kStackSize
+kThreadPoolStackSize
 )
 ;
 NS_ENSURE_SUCCESS
