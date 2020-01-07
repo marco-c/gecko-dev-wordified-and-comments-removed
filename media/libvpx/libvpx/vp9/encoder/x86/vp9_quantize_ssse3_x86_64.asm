@@ -1125,7 +1125,7 @@ mov
 [
 r2
 ]
-r6
+r6w
 RET
 ;
 skip
