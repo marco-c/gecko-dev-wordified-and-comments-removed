@@ -331,7 +331,6 @@ mozPrintCallback
 ;
 [
 Throws
-UnsafeInPrerendering
 Pref
 =
 "

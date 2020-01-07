@@ -143,8 +143,6 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
-bool
-aIsPrerendered
 UIStateChangeType
 aShowAccelerators
 UIStateChangeType
@@ -167,9 +165,6 @@ TabContext
 &
 aContext
 )
-;
-bool
-mIsPrerendered
 ;
 bool
 SetTabContextForJSPluginFrame
@@ -235,8 +230,6 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
-bool
-aIsPrerendered
 UIStateChangeType
 aShowAccelerators
 UIStateChangeType
@@ -262,7 +255,6 @@ TabContext
 SetTabContext
 (
 aIsMozBrowserElement
-aIsPrerendered
 aShowAccelerators
 aShowFocusRings
 aOriginAttributes

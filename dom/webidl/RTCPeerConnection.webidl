@@ -679,7 +679,6 @@ getConfiguration
 )
 ;
 [
-UnsafeInPrerendering
 Deprecated
 =
 "
@@ -695,7 +694,6 @@ getLocalStreams
 )
 ;
 [
-UnsafeInPrerendering
 Deprecated
 =
 "

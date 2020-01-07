@@ -1749,7 +1749,6 @@ Navigator
 [
 Throws
 ChromeOnly
-UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -1826,7 +1825,6 @@ Navigator
 :
 HasUserMediaSupport
 "
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void

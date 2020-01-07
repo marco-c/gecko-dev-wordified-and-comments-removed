@@ -169,7 +169,6 @@ Notification
 :
 PrefEnabled
 "
-UnsafeInPrerendering
 ]
 interface
 Notification

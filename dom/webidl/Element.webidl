@@ -737,7 +737,6 @@ w3c_pointer_events
 .
 enabled
 "
-UnsafeInPrerendering
 ]
 void
 setPointerCapture
@@ -1859,7 +1858,6 @@ Element
 {
 [
 Throws
-UnsafeInPrerendering
 Func
 =
 "
@@ -1877,7 +1875,6 @@ requestFullscreen
 ;
 [
 Throws
-UnsafeInPrerendering
 BinaryName
 =
 "
@@ -1921,7 +1918,6 @@ interface
 Element
 {
 [
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void

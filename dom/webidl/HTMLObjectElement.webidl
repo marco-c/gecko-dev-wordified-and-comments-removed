@@ -218,7 +218,6 @@ element
 [
 HTMLConstructor
 NeedResolve
-UnsafeInPrerendering
 ]
 interface
 HTMLObjectElement

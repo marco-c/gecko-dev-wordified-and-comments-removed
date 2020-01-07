@@ -158,7 +158,6 @@ onended
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 void
 start
@@ -172,7 +171,6 @@ when
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 void
 stop

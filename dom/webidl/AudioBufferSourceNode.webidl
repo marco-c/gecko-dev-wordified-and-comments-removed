@@ -228,7 +228,6 @@ loopEnd
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 void
 start

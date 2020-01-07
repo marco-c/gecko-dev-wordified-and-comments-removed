@@ -278,7 +278,6 @@ type
 /
 [
 Throws
-UnsafeInPrerendering
 ]
 boolean
 mozLockOrientation
@@ -289,7 +288,6 @@ orientation
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 boolean
 mozLockOrientation
@@ -319,9 +317,6 @@ orientation
 .
 *
 /
-[
-UnsafeInPrerendering
-]
 void
 mozUnlockOrientation
 (

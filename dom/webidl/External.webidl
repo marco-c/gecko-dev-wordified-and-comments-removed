@@ -108,9 +108,6 @@ sidebar
 interface
 External
 {
-[
-UnsafeInPrerendering
-]
 void
 AddSearchProvider
 (

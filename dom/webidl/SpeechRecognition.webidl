@@ -222,7 +222,6 @@ speech
 interaction
 [
 Throws
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void

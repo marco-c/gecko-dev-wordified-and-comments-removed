@@ -606,7 +606,6 @@ status
 [
 Throws
 CrossOriginCallable
-UnsafeInPrerendering
 ]
 void
 close
@@ -633,7 +632,6 @@ stop
 [
 Throws
 CrossOriginCallable
-UnsafeInPrerendering
 ]
 void
 focus
@@ -776,7 +774,6 @@ features
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 WindowProxy
 ?
@@ -863,7 +860,6 @@ user
 prompts
 [
 Throws
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 void
@@ -873,7 +869,6 @@ alert
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 void
@@ -885,7 +880,6 @@ message
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 boolean
@@ -901,7 +895,6 @@ message
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 DOMString
@@ -924,7 +917,6 @@ default
 ;
 [
 Throws
-UnsafeInPrerendering
 Func
 =
 "
@@ -1460,7 +1452,6 @@ y
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void
@@ -1474,7 +1465,6 @@ y
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void
@@ -1488,7 +1478,6 @@ y
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void
@@ -1502,7 +1491,6 @@ y
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void
@@ -2266,7 +2254,6 @@ window
 /
 [
 Throws
-UnsafeInPrerendering
 NeedsCallerType
 ]
 void
@@ -2402,7 +2389,6 @@ scrollMaxY
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 attribute
 boolean
@@ -2411,7 +2397,6 @@ fullScreen
 [
 Throws
 ChromeOnly
-UnsafeInPrerendering
 ]
 void
 back
@@ -2421,7 +2406,6 @@ back
 [
 Throws
 ChromeOnly
-UnsafeInPrerendering
 ]
 void
 forward
@@ -2431,7 +2415,6 @@ forward
 [
 Throws
 ChromeOnly
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 void
@@ -2539,7 +2522,6 @@ dialog
 /
 [
 Throws
-UnsafeInPrerendering
 ]
 boolean
 find
@@ -2731,7 +2713,6 @@ arguments
 [
 Throws
 ChromeOnly
-UnsafeInPrerendering
 ]
 WindowProxy
 ?
@@ -3177,7 +3158,6 @@ nsGlobalWindowInner
 :
 IsPrivilegedChromeWindow
 "
-UnsafeInPrerendering
 ]
 void
 maximize
@@ -3193,7 +3173,6 @@ nsGlobalWindowInner
 :
 IsPrivilegedChromeWindow
 "
-UnsafeInPrerendering
 ]
 void
 minimize
@@ -3209,7 +3188,6 @@ nsGlobalWindowInner
 :
 IsPrivilegedChromeWindow
 "
-UnsafeInPrerendering
 ]
 void
 restore

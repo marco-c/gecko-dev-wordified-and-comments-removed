@@ -278,7 +278,6 @@ hash
 ;
 [
 Throws
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 void
@@ -291,7 +290,6 @@ url
 [
 Throws
 CrossOriginCallable
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 void
@@ -319,7 +317,6 @@ bug
 .
 [
 Throws
-UnsafeInPrerendering
 NeedsSubjectPrincipal
 ]
 void

@@ -202,7 +202,6 @@ state
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 void
 go
@@ -216,7 +215,6 @@ delta
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 void
 back
@@ -225,7 +223,6 @@ back
 ;
 [
 Throws
-UnsafeInPrerendering
 ]
 void
 forward

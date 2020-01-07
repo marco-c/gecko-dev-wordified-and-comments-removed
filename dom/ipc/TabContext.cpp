@@ -106,10 +106,6 @@ TabContext
 (
 )
 :
-mIsPrerendered
-(
-false
-)
 mInitialized
 (
 false
@@ -359,8 +355,6 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
-bool
-aIsPrerendered
 UIStateChangeType
 aShowAccelerators
 UIStateChangeType
@@ -398,10 +392,6 @@ true
 mIsMozBrowserElement
 =
 aIsMozBrowserElement
-;
-mIsPrerendered
-=
-aIsPrerendered
 ;
 mOriginAttributes
 =
@@ -484,7 +474,6 @@ FrameIPCTabContext
 (
 mOriginAttributes
 mIsMozBrowserElement
-mIsPrerendered
 mPresentationURL
 mShowAccelerators
 mShowFocusRings
@@ -510,11 +499,6 @@ nullptr
 {
 bool
 isMozBrowserElement
-=
-false
-;
-bool
-isPrerendered
 =
 false
 ;
@@ -853,14 +837,6 @@ isMozBrowserElement
 (
 )
 ;
-isPrerendered
-=
-ipcContext
-.
-isPrerendered
-(
-)
-;
 presentationURL
 =
 ipcContext
@@ -969,7 +945,6 @@ mTabContext
 SetTabContext
 (
 isMozBrowserElement
-isPrerendered
 showAccelerators
 showFocusRings
 originAttributes

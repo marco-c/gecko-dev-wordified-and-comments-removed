@@ -201,9 +201,6 @@ secondary
 "
 }
 ;
-[
-UnsafeInPrerendering
-]
 interface
 ScreenOrientation
 :

@@ -962,11 +962,6 @@ FromParser
 h
 '
 '
-GroupedSHistory
-.
-h
-'
-'
 IdleDeadline
 .
 h
@@ -1028,11 +1023,6 @@ h
 '
 '
 NodeIterator
-.
-h
-'
-'
-PartialSHistory
 .
 h
 '
@@ -1325,11 +1315,6 @@ cpp
 '
 '
 FragmentOrElement
-.
-cpp
-'
-'
-GroupedSHistory
 .
 cpp
 '
@@ -1735,11 +1720,6 @@ cpp
 '
 '
 nsXMLNameSpaceMap
-.
-cpp
-'
-'
-PartialSHistory
 .
 cpp
 '
