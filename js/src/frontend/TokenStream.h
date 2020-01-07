@@ -5389,10 +5389,11 @@ getStringOrTemplateToken
 (
 char
 untilChar
-Token
+Modifier
+modifier
+TokenKind
 *
-*
-tp
+out
 )
 ;
 MOZ_MUST_USE
