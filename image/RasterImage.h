@@ -938,7 +938,7 @@ protected
 explicit
 RasterImage
 (
-ImageURL
+nsIURI
 *
 aURI
 =

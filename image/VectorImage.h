@@ -199,7 +199,7 @@ protected
 explicit
 VectorImage
 (
-ImageURL
+nsIURI
 *
 aURI
 =

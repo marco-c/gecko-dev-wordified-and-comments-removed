@@ -1568,7 +1568,7 @@ VectorImage
 :
 VectorImage
 (
-ImageURL
+nsIURI
 *
 aURI
 )
@@ -3562,19 +3562,6 @@ if
 haveContextPaint
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-imageURI
-=
-mURI
--
->
-ToIURI
-(
-)
-;
 blockContextPaint
 =
 !
@@ -3583,7 +3570,7 @@ SVGContextPaint
 :
 IsAllowedForImageFromURI
 (
-imageURI
+mURI
 )
 ;
 }
