@@ -17831,9 +17831,7 @@ aElement
 nodeType
 =
 =
-Ci
-.
-nsIDOMNode
+aElement
 .
 ELEMENT_NODE
 &
@@ -27327,9 +27325,7 @@ aElement
 nodeType
 =
 =
-Ci
-.
-nsIDOMNode
+aElement
 .
 ELEMENT_NODE
 &

@@ -66,8 +66,8 @@ idl
 interface
 nsIDOMWindow
 ;
-interface
-nsIDOMNode
+webidl
+Node
 ;
 /
 *
@@ -260,7 +260,7 @@ tab
 .
 *
 /
-nsIDOMNode
+Node
 undoCloseTab
 (
 in
@@ -307,7 +307,7 @@ ordered
 .
 *
 /
-nsIDOMNode
+Node
 forgetClosedTab
 (
 in
