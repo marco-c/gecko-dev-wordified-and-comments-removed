@@ -10385,6 +10385,13 @@ not
 options
 .
 runByManifest
+and
+'
+disabled
+'
+not
+in
+test
 :
                 
 self
