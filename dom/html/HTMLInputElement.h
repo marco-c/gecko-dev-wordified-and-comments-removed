@@ -3822,6 +3822,12 @@ IsValueEmpty
 )
 const
 ;
+bool
+ShouldShowPlaceholder
+(
+)
+const
+;
 void
 ClearFiles
 (
