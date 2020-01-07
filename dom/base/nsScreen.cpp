@@ -1,17 +1,6 @@
 #
 include
 "
-mozilla
-/
-dom
-/
-ScreenBinding
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

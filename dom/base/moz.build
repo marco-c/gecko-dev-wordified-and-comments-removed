@@ -1115,6 +1115,11 @@ SameProcessMessageQueue
 h
 '
 '
+ScreenLuminance
+.
+h
+'
+'
 ScreenOrientation
 .
 h
@@ -1843,6 +1848,11 @@ cpp
 '
 '
 SameProcessMessageQueue
+.
+cpp
+'
+'
+ScreenLuminance
 .
 cpp
 '
