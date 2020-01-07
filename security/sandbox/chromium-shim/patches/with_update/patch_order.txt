@@ -46,3 +46,6 @@ patch
 mingw_base_win_get_caller
 .
 patch
+mingw_duplicate_instatinations
+.
+patch

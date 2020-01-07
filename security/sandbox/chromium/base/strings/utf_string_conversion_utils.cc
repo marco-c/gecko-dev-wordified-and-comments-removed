@@ -491,6 +491,9 @@ string
 *
 )
 ;
+#
+ifndef
+__MINGW32__
 template
 void
 PrepareForUTF8Output
@@ -506,6 +509,8 @@ string
 *
 )
 ;
+#
+endif
 template
 <
 typename
@@ -596,6 +601,9 @@ wstring
 *
 )
 ;
+#
+ifndef
+__MINGW32__
 template
 void
 PrepareForUTF16Or32Output
@@ -608,4 +616,6 @@ string16
 *
 )
 ;
+#
+endif
 }
