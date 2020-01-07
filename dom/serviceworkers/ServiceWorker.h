@@ -235,6 +235,16 @@ ErrorResult
 aRv
 )
 ;
+bool
+MatchesDescriptor
+(
+const
+ServiceWorkerDescriptor
+&
+aDescriptor
+)
+const
+;
 private
 :
 ServiceWorker
