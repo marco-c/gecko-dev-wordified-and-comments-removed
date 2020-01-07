@@ -9794,6 +9794,12 @@ mobileArgs
 *
 kwargs
 )
+            
+self
+.
+shutdownNode
+(
+)
         
 else
 :
@@ -10364,6 +10370,12 @@ info
 :
 '
 )
+                
+self
+.
+shutdownNode
+(
+)
         
 return
 status
@@ -10924,12 +10936,6 @@ SIGINT
 signal
 .
 SIG_DFL
-)
-        
-self
-.
-shutdownNode
-(
 )
         
 for
