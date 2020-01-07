@@ -11,14 +11,6 @@ linux
 "
     
 "
-stage_product
-"
-:
-"
-firefox
-"
-    
-"
 app_name
 "
 :
@@ -44,20 +36,6 @@ l10n
 mozconfig
 -
 devedition
-"
-    
-"
-ssh_key_dir
-"
-:
-"
-/
-home
-/
-mock_mozilla
-/
-.
-ssh
 "
     
 "

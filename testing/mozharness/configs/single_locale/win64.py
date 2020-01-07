@@ -11,14 +11,6 @@ win64
 "
     
 "
-stage_product
-"
-:
-"
-firefox
-"
-    
-"
 app_name
 "
 :
@@ -42,17 +34,6 @@ mozconfig_variant
 l10n
 -
 mozconfig
-"
-    
-"
-ssh_key_dir
-"
-:
-"
-~
-/
-.
-ssh
 "
     
 "

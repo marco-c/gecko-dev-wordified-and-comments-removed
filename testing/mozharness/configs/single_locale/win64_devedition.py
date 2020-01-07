@@ -39,17 +39,6 @@ devedition
 "
     
 "
-ssh_key_dir
-"
-:
-"
-~
-/
-.
-ssh
-"
-    
-"
 objdir
 "
 :
