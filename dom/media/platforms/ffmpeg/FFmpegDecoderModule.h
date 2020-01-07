@@ -35,7 +35,9 @@ h
 #
 include
 "
-MediaPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -157,10 +159,10 @@ LowLatency
 &
 &
 !
-MediaPrefs
+StaticPrefs
 :
 :
-PDMFFmpegLowLatencyEnabled
+MediaFfmpegLowLatencyEnabled
 (
 )
 )

@@ -8,13 +8,6 @@ h
 #
 include
 "
-MediaPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -54,6 +47,15 @@ include
 mozilla
 /
 Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -476,7 +478,7 @@ maxSize
 =
 int64_t
 (
-MediaPrefs
+StaticPrefs
 :
 :
 MediaMemoryCacheMaxSize
@@ -804,7 +806,7 @@ min
 (
 size_t
 (
-MediaPrefs
+StaticPrefs
 :
 :
 MediaMemoryCachesCombinedLimitKb
@@ -815,7 +817,7 @@ MediaMemoryCachesCombinedLimitKb
 1024
 sysmem
 *
-MediaPrefs
+StaticPrefs
 :
 :
 MediaMemoryCachesCombinedLimitPcSysmem

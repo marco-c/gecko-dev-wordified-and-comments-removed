@@ -22,13 +22,6 @@ h
 #
 include
 "
-MediaPrefs
-.
-h
-"
-#
-include
-"
 PDMFactory
 .
 h
@@ -767,13 +760,6 @@ Initialize
 )
 ;
 gfxPrefs
-:
-:
-GetSingleton
-(
-)
-;
-MediaPrefs
 :
 :
 GetSingleton

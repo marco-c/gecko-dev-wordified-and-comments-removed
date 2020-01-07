@@ -245,13 +245,6 @@ h
 #
 include
 "
-MediaPrefs
-.
-h
-"
-#
-include
-"
 VRThread
 .
 h
@@ -3262,13 +3255,6 @@ gEverInitialized
 true
 ;
 gfxPrefs
-:
-:
-GetSingleton
-(
-)
-;
-MediaPrefs
 :
 :
 GetSingleton

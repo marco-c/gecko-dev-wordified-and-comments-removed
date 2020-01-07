@@ -23,13 +23,6 @@ h
 "
 #
 include
-"
-MediaPrefs
-.
-h
-"
-#
-include
 <
 string
 >
@@ -67,13 +60,6 @@ aExpectedTokens
 ]
 )
 {
-MediaPrefs
-:
-:
-GetSingleton
-(
-)
-;
 nsCString
 input
 (

@@ -63,7 +63,9 @@ h
 #
 include
 "
-MediaPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -231,10 +233,10 @@ aAudioQueue
 bool
 resampling
 =
-MediaPrefs
+StaticPrefs
 :
 :
-AudioSinkResampling
+MediaResamplingEnabled
 (
 )
 ;

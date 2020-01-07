@@ -97,13 +97,6 @@ StaticPtr
 h
 "
 #
-include
-"
-MediaPrefs
-.
-h
-"
-#
 define
 GMP_DIR_NAME
 NS_LITERAL_STRING
@@ -849,13 +842,6 @@ Setup
 (
 )
 {
-MediaPrefs
-:
-:
-GetSingleton
-(
-)
-;
 GeneratePlugin
 (
 )

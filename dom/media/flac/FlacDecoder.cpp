@@ -15,7 +15,9 @@ h
 #
 include
 "
-MediaPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -34,10 +36,10 @@ IsEnabled
 ifdef
 MOZ_FFVPX
 return
-MediaPrefs
+StaticPrefs
 :
 :
-FlacEnabled
+MediaFlacEnabled
 (
 )
 ;

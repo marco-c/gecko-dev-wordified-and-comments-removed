@@ -28,13 +28,6 @@ MediaCodec
 .
 h
 "
-#
-include
-"
-MediaPrefs
-.
-h
-"
 using
 namespace
 mozilla
