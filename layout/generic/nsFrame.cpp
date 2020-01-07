@@ -15854,6 +15854,7 @@ this
 &
 resultList
 fixedASR
+containerItemASR
 )
 )
 ;
