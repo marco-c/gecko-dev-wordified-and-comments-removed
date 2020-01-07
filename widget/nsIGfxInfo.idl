@@ -198,7 +198,17 @@ isHeadless
 readonly
 attribute
 boolean
+UsesTiling
+;
+readonly
+attribute
+boolean
 OffMainThreadPaintEnabled
+;
+readonly
+attribute
+long
+OffMainThreadPaintWorkerCount
 ;
 /
 /
