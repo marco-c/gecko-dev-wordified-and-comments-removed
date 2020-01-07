@@ -15734,9 +15734,6 @@ length
 {
 if
 (
-(
-UBool
-)
 args
 -
 >
@@ -15780,9 +15777,6 @@ else
 if
 (
 !
-(
-UBool
-)
 args
 -
 >

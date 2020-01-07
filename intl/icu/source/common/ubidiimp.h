@@ -1001,11 +1001,6 @@ UBiDi
 pParaBiDi
 ;
 const
-UBiDiProps
-*
-bdp
-;
-const
 UChar
 *
 text

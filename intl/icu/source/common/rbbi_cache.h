@@ -118,7 +118,6 @@ RuleBasedBreakIterator
 fBI
 ;
 UVector32
-*
 fBreaks
 ;
 int32_t

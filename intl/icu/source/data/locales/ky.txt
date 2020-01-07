@@ -955,9 +955,9 @@ Version
 .
 1
 .
-37
+39
 .
-5
+11
 "
 }
 calendar
@@ -4211,6 +4211,10 @@ historic_scripts
 ideographic_desc_characters
 {
 "
+ideographic
+desc
+.
+character
 "
 }
 japanese_kana

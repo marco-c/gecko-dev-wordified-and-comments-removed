@@ -93,14 +93,6 @@ ustr_imp
 h
 "
 U_NAMESPACE_USE
-#
-define
-GET_BIDI_PROPS
-(
-)
-ubidi_getSingleton
-(
-)
 struct
 BinaryProperty
 ;
@@ -201,9 +193,6 @@ UProperty
 return
 ubidi_isBidiControl
 (
-GET_BIDI_PROPS
-(
-)
 c
 )
 ;
@@ -223,9 +212,6 @@ UProperty
 return
 ubidi_isMirrored
 (
-GET_BIDI_PROPS
-(
-)
 c
 )
 ;
@@ -245,9 +231,6 @@ UProperty
 return
 ubidi_isJoinControl
 (
-GET_BIDI_PROPS
-(
-)
 c
 )
 ;
@@ -1665,9 +1648,6 @@ int32_t
 )
 ubidi_getPairedBracketType
 (
-GET_BIDI_PROPS
-(
-)
 c
 )
 ;
@@ -1686,9 +1666,6 @@ which
 return
 ubidi_getMaxValue
 (
-GET_BIDI_PROPS
-(
-)
 which
 )
 ;
@@ -1771,9 +1748,6 @@ UProperty
 return
 ubidi_getJoiningGroup
 (
-GET_BIDI_PROPS
-(
-)
 c
 )
 ;
@@ -1793,9 +1767,6 @@ UProperty
 return
 ubidi_getJoiningType
 (
-GET_BIDI_PROPS
-(
-)
 c
 )
 ;

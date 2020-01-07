@@ -1101,9 +1101,9 @@ Version
 .
 1
 .
-37
+39
 .
-1
+20
 "
 }
 calendar
@@ -8817,6 +8817,13 @@ narrow
 intvector
 {
 0
+1
+}
+typographicNames
+:
+intvector
+{
+1
 1
 }
 }

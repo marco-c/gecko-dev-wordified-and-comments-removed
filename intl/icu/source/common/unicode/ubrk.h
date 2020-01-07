@@ -230,10 +230,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 UBreakIterator
 *
 U_EXPORT2
@@ -256,8 +253,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 U_STABLE
 UBreakIterator
 *
@@ -515,10 +510,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ubrk_getBinaryRules
@@ -536,8 +528,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

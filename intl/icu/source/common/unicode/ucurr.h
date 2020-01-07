@@ -75,6 +75,12 @@ UCurrNameStyle
 {
 UCURR_SYMBOL_NAME
 UCURR_LONG_NAME
+#
+ifndef
+U_HIDE_DRAFT_API
+UCURR_NARROW_SYMBOL_NAME
+#
+endif
 }
 UCurrNameStyle
 ;

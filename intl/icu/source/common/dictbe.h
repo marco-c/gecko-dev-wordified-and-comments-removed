@@ -63,19 +63,10 @@ private
 UnicodeSet
 fSet
 ;
-uint32_t
-fTypes
-;
-DictionaryBreakEngine
-(
-)
-;
 public
 :
 DictionaryBreakEngine
 (
-uint32_t
-breakTypes
 )
 ;
 virtual
@@ -90,8 +81,6 @@ handles
 (
 UChar32
 c
-int32_t
-breakType
 )
 const
 ;
@@ -106,8 +95,6 @@ int32_t
 startPos
 int32_t
 endPos
-int32_t
-breakType
 UVector32
 &
 foundBreaks

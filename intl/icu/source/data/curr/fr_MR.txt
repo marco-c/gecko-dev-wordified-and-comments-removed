@@ -37,7 +37,7 @@ fr_MR
 {
 Currencies
 {
-MRO
+MRU
 {
 "
 UM
@@ -55,9 +55,9 @@ Version
 .
 1
 .
-31
+39
 .
-33
+11
 "
 }
 }

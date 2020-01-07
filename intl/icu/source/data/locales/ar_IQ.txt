@@ -35,6 +35,15 @@ html
 License
 ar_IQ
 {
+NumberElements
+{
+default
+{
+"
+arab
+"
+}
+}
 Version
 {
 "
@@ -42,9 +51,9 @@ Version
 .
 1
 .
-36
+38
 .
-32
+80
 "
 }
 calendar

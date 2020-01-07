@@ -1083,9 +1083,6 @@ UPROPS_SRC_BIDI
 :
 ubidi_addPropertyStarts
 (
-ubidi_getSingleton
-(
-)
 &
 sa
 &
@@ -1189,6 +1186,8 @@ i
 fSet
 ;
 }
+namespace
+{
 void
 U_CALLCONV
 createUni32Set
@@ -1415,6 +1414,7 @@ _dbgct
 (
 me
 )
+}
 UnicodeSet
 :
 :
@@ -1679,6 +1679,7 @@ symbols
 rebuiltPat
 USET_IGNORE_SPACE
 NULL
+0
 status
 )
 ;
@@ -1764,6 +1765,8 @@ pos
 )
 ;
 }
+namespace
+{
 class
 UnicodeSetPointer
 {
@@ -1836,6 +1839,13 @@ p
 }
 }
 ;
+constexpr
+int32_t
+MAX_DEPTH
+=
+100
+;
+}
 void
 UnicodeSet
 :
@@ -1867,6 +1877,8 @@ caseClosure
 int32_t
 attribute
 )
+int32_t
+depth
 UErrorCode
 &
 ec
@@ -1881,6 +1893,20 @@ ec
 )
 return
 ;
+if
+(
+depth
+>
+MAX_DEPTH
+)
+{
+ec
+=
+U_ILLEGAL_ARGUMENT_ERROR
+;
+return
+;
+}
 int32_t
 opts
 =
@@ -2467,6 +2493,9 @@ symbols
 patLocal
 options
 caseClosure
+depth
++
+1
 ec
 )
 ;
@@ -3419,6 +3448,8 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 }
+namespace
+{
 static
 UBool
 numericValueFilter
@@ -3632,6 +3663,7 @@ UScriptCode
 context
 )
 ;
+}
 }
 void
 UnicodeSet
@@ -3850,6 +3882,8 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 }
+namespace
+{
 static
 UBool
 mungeCharName
@@ -3983,6 +4017,7 @@ j
 return
 TRUE
 ;
+}
 }
 #
 define

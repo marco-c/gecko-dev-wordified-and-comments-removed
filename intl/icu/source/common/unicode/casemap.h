@@ -32,9 +32,6 @@ uobject
 h
 "
 U_NAMESPACE_BEGIN
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 BreakIterator
 ;
@@ -175,6 +172,9 @@ UErrorCode
 errorCode
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 static
 void
 utf8ToLower
@@ -272,6 +272,8 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
 static
 int32_t
 utf8ToLower
@@ -426,8 +428,6 @@ delete
 ;
 }
 ;
-#
-endif
 U_NAMESPACE_END
 #
 endif

@@ -98,15 +98,6 @@ UErrorCode
 pErrorCode
 )
 ;
-U_CFUNC
-UBool
-uprv_haveProperties
-(
-UErrorCode
-*
-pErrorCode
-)
-;
 #
 ifdef
 __cplusplus

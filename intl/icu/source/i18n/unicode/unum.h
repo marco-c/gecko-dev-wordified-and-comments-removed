@@ -388,10 +388,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 unum_formatDoubleForFields
@@ -415,8 +412,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 U_STABLE
 int32_t
 U_EXPORT2

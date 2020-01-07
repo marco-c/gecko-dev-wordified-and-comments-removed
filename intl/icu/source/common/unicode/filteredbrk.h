@@ -64,7 +64,6 @@ status
 ifndef
 U_HIDE_DEPRECATED_API
 static
-inline
 FilteredBreakIteratorBuilder
 *
 createInstance
@@ -73,14 +72,7 @@ UErrorCode
 &
 status
 )
-{
-return
-createEmptyInstance
-(
-status
-)
 ;
-}
 #
 endif
 #
@@ -128,9 +120,6 @@ status
 =
 0
 ;
-#
-ifndef
-U_HIDE_DEPRECATED_API
 virtual
 BreakIterator
 *
@@ -146,8 +135,6 @@ status
 =
 0
 ;
-#
-endif
 #
 ifndef
 U_HIDE_DRAFT_API

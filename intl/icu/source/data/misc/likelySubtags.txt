@@ -9493,7 +9493,7 @@ ar_Arab_QA
 und_QO
 {
 "
-en_Latn_IO
+en_Latn_DG
 "
 }
 und_RE

@@ -26,7 +26,7 @@ Autoconf
 69
 for
 ICU
-60
+61
 .
 1
 .
@@ -4944,7 +4944,7 @@ Unicode
 PACKAGE_VERSION
 =
 '
-60
+61
 .
 1
 '
@@ -4952,7 +4952,7 @@ PACKAGE_STRING
 =
 '
 ICU
-60
+61
 .
 1
 '
@@ -11144,7 +11144,7 @@ configure
 '
 configures
 ICU
-60
+61
 .
 1
 to
@@ -11782,7 +11782,7 @@ echo
 Configuration
 of
 ICU
-60
+61
 .
 1
 :
@@ -13005,7 +13005,7 @@ cat
 _ACEOF
 ICU
 configure
-60
+61
 .
 1
 generated
@@ -18363,7 +18363,7 @@ created
 by
 ICU
 as_me
-60
+61
 .
 1
 which
@@ -60918,7 +60918,7 @@ extended
 by
 ICU
 as_me
-60
+61
 .
 1
 which
@@ -61255,7 +61255,7 @@ ICU
 config
 .
 status
-60
+61
 .
 1
 configured

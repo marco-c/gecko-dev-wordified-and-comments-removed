@@ -606,8 +606,6 @@ const
 char
 *
 type
-int32_t
-kind
 UErrorCode
 &
 status

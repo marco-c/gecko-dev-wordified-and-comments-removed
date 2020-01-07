@@ -1526,9 +1526,9 @@ Version
 .
 1
 .
-37
+39
 .
-58
+20
 "
 }
 calendar
@@ -8471,7 +8471,6 @@ math_symbols
 middle_eastern_scripts
 {
 "
--
 "
 }
 miscellaneous
@@ -8758,6 +8757,13 @@ intvector
 1
 }
 script
+:
+intvector
+{
+1
+1
+}
+typographicNames
 :
 intvector
 {

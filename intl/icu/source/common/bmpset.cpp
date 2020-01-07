@@ -454,6 +454,9 @@ bits
 ~
 (
 (
+(
+unsigned
+)
 1
 <
 <
@@ -474,6 +477,9 @@ bits
 &
 =
 (
+(
+unsigned
+)
 1
 <
 <

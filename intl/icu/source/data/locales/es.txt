@@ -1110,9 +1110,9 @@ Version
 .
 1
 .
-37
+39
 .
-22
+20
 "
 }
 calendar
@@ -4072,7 +4072,7 @@ w
 '
 de
 '
-Y
+y
 "
 }
 other
@@ -4085,7 +4085,7 @@ w
 '
 de
 '
-Y
+y
 "
 }
 }
@@ -7935,6 +7935,13 @@ standalone
 except
 -
 narrow
+:
+intvector
+{
+1
+1
+}
+typographicNames
 :
 intvector
 {

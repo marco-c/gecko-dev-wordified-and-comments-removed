@@ -1542,9 +1542,9 @@ Version
 .
 1
 .
-37
+39
 .
-12
+20
 "
 }
 calendar
@@ -6304,6 +6304,13 @@ intvector
 1
 }
 relative
+:
+intvector
+{
+1
+1
+}
+typographicNames
 :
 intvector
 {

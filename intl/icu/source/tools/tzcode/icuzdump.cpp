@@ -122,6 +122,10 @@ using
 namespace
 std
 ;
+using
+namespace
+icu
+;
 class
 DumpFormatter
 {

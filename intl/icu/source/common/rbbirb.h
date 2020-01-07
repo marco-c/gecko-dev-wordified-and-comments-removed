@@ -355,6 +355,11 @@ RBBIRuleBuilder
 (
 )
 ;
+void
+optimizeTables
+(
+)
+;
 char
 *
 fDebugEnv
@@ -371,6 +376,9 @@ const
 UnicodeString
 &
 fRules
+;
+UnicodeString
+fStrippedRules
 ;
 RBBIRuleScanner
 *

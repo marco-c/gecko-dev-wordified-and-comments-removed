@@ -328,7 +328,7 @@ uvernum
 h
 U_ICUDATA_NAME
 =
-icudt60
+icudt61
 #
 #
 #
@@ -435,7 +435,7 @@ version
 .
 U_ICUDATA_NAME
 =
-icudt60
+icudt61
 !
 ENDIF
 U_ICUDATA_ENDIAN_SUFFIX
@@ -588,7 +588,7 @@ out
 the
 prefix
 "
-icudt21_
+icudt61_
 "
 for
 use

@@ -315,9 +315,9 @@ repos
 /
 icu
 /
-icu
-/
 trunk
+/
+icu4c
 /
 readme
 .
@@ -329,8 +329,10 @@ Windows
 :
 build
 as
+'
 x86
 Release
+'
 otherwise
 you
 will

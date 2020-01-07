@@ -35,6 +35,15 @@ html
 License
 ar_SS
 {
+NumberElements
+{
+default
+{
+"
+arab
+"
+}
+}
 Version
 {
 "
@@ -42,9 +51,9 @@ Version
 .
 1
 .
-31
+38
 .
-33
+80
 "
 }
 }

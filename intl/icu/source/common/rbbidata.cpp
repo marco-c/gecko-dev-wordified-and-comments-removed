@@ -1264,9 +1264,6 @@ n
 }
 #
 endif
-#
-ifdef
-RBBI_DEBUG
 void
 RBBIDataWrapper
 :
@@ -1275,6 +1272,9 @@ printData
 (
 )
 {
+#
+ifdef
+RBBI_DEBUG
 RBBIDebugPrintf
 (
 "
@@ -1483,9 +1483,9 @@ n
 "
 )
 ;
-}
 #
 endif
+}
 U_NAMESPACE_END
 U_NAMESPACE_USE
 U_CAPI

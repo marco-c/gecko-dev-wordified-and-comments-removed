@@ -33,11 +33,7 @@ html
 License
 COLLATION_CLDR_VERSION
 =
-32
-.
-0
-.
-1
+33
 #
 A
 list

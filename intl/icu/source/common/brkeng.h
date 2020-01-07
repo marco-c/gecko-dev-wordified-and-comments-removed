@@ -77,8 +77,6 @@ handles
 (
 UChar32
 c
-int32_t
-breakType
 )
 const
 =
@@ -95,8 +93,6 @@ int32_t
 startPos
 int32_t
 endPos
-int32_t
-breakType
 UVector32
 &
 foundBreaks
@@ -133,8 +129,6 @@ getEngineFor
 (
 UChar32
 c
-int32_t
-breakType
 )
 =
 0
@@ -152,9 +146,6 @@ private
 UnicodeSet
 *
 fHandled
-[
-4
-]
 ;
 public
 :
@@ -177,8 +168,6 @@ handles
 (
 UChar32
 c
-int32_t
-breakType
 )
 const
 ;
@@ -193,8 +182,6 @@ int32_t
 startPos
 int32_t
 endPos
-int32_t
-breakType
 UVector32
 &
 foundBreaks
@@ -207,8 +194,6 @@ handleCharacter
 (
 UChar32
 c
-int32_t
-breakType
 )
 ;
 }
@@ -248,8 +233,6 @@ getEngineFor
 (
 UChar32
 c
-int32_t
-breakType
 )
 ;
 protected
@@ -262,8 +245,6 @@ loadEngineFor
 (
 UChar32
 c
-int32_t
-breakType
 )
 ;
 virtual
@@ -273,8 +254,6 @@ loadDictionaryMatcherFor
 (
 UScriptCode
 script
-int32_t
-breakType
 )
 ;
 }

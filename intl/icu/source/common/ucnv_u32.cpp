@@ -183,7 +183,9 @@ args
 converter
 -
 >
-toUnicodeStatus
+toULength
+>
+0
 &
 &
 myTarget
@@ -633,7 +635,9 @@ args
 converter
 -
 >
-toUnicodeStatus
+toULength
+>
+0
 &
 &
 myTarget
@@ -2559,7 +2563,9 @@ args
 converter
 -
 >
-toUnicodeStatus
+toULength
+>
+0
 &
 &
 myTarget
@@ -3012,7 +3018,9 @@ args
 converter
 -
 >
-toUnicodeStatus
+toULength
+>
+0
 &
 &
 myTarget

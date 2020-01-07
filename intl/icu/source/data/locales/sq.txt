@@ -1185,9 +1185,9 @@ Version
 .
 1
 .
-37
+39
 .
-1
+11
 "
 }
 calendar
@@ -4457,7 +4457,7 @@ shifra
 dingbats
 {
 "
-dingbats
+dingbat
 (
 shnd
 rrues

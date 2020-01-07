@@ -1230,9 +1230,9 @@ Version
 .
 1
 .
-37
+39
 .
-67
+20
 "
 }
 calendar
@@ -6818,7 +6818,7 @@ characterLabel
 activities
 {
 "
-toiminnot
+toiminta
 "
 }
 african_scripts
@@ -7468,6 +7468,13 @@ relative
 intvector
 {
 0
+1
+}
+typographicNames
+:
+intvector
+{
+1
 1
 }
 }

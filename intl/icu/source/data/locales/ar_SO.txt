@@ -61,6 +61,12 @@ u200E
 }
 NumberElements
 {
+default
+{
+"
+arab
+"
+}
 latn
 {
 symbols
@@ -80,9 +86,9 @@ Version
 .
 1
 .
-37
+38
 .
-1
+80
 "
 }
 }

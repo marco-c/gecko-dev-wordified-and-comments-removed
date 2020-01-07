@@ -229,11 +229,6 @@ UDataMemory
 *
 sprepData
 ;
-const
-UBiDiProps
-*
-bdp
-;
 int32_t
 refCount
 ;

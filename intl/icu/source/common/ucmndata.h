@@ -72,7 +72,7 @@ count
 UDataOffsetTOCEntry
 entry
 [
-2
+1
 ]
 ;
 }

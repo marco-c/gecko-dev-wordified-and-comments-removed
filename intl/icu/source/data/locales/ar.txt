@@ -326,6 +326,12 @@ default
 arab
 "
 }
+default_latn
+{
+"
+latn
+"
+}
 latn
 {
 miscPatterns
@@ -1985,9 +1991,9 @@ Version
 .
 1
 .
-36
+39
 .
-86
+20
 "
 }
 calendar

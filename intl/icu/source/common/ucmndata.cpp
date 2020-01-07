@@ -238,7 +238,7 @@ reserved
 PointerTOCEntry
 entry
 [
-2
+1
 ]
 ;
 }

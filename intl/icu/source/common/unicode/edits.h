@@ -23,9 +23,6 @@ uobject
 h
 "
 U_NAMESPACE_BEGIN
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 U_COMMON_API
 Edits
@@ -242,6 +239,9 @@ numChanges
 0
 ;
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 int32_t
 numberOfChanges
 (
@@ -252,6 +252,8 @@ return
 numChanges
 ;
 }
+#
+endif
 struct
 U_COMMON_API
 Iterator
@@ -379,6 +381,9 @@ errorCode
 0
 ;
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 UBool
 findDestinationIndex
 (
@@ -421,6 +426,8 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
 UBool
 hasChange
 (
@@ -650,6 +657,9 @@ FALSE
 )
 ;
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 Edits
 &
 mergeAndAppend
@@ -667,6 +677,8 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
 private
 :
 void
@@ -782,8 +794,6 @@ STACK_CAPACITY
 ;
 }
 ;
-#
-endif
 U_NAMESPACE_END
 #
 endif

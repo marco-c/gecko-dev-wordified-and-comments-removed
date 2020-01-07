@@ -688,7 +688,7 @@ SSP
 "
 "
 }
-STD
+STN
 {
 "
 Db
@@ -801,9 +801,9 @@ Version
 .
 1
 .
-37
+39
 .
-1
+27
 "
 }
 currencySpacing
