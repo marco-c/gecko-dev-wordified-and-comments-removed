@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -29,14 +29,14 @@ html
 "
 )
 ;
-yield
+await
 playerHasCompleteStateAtAllTimes
 (
 walker
 animations
 )
 ;
-yield
+await
 client
 .
 close
@@ -52,8 +52,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 playerHasCompleteStateAtAllTimes
 (
 walker
@@ -63,7 +63,7 @@ animations
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -84,7 +84,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -92,7 +92,7 @@ getAnimationPlayersForNode
 node
 )
 ;
-yield
+await
 player
 .
 ready
@@ -127,7 +127,7 @@ i
 +
 )
 {
-yield
+await
 player
 .
 refreshState

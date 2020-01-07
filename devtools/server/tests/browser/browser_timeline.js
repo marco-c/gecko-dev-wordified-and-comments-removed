@@ -23,12 +23,12 @@ timeline
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -67,7 +67,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -96,7 +96,7 @@ created
 let
 isActive
 =
-yield
+await
 front
 .
 isRecording
@@ -160,7 +160,7 @@ recording
 "
 )
 ;
-yield
+await
 front
 .
 start
@@ -174,7 +174,7 @@ true
 ;
 isActive
 =
-yield
+await
 front
 .
 isRecording
@@ -257,7 +257,7 @@ padding
 let
 markers
 =
-yield
+await
 onMarkers
 ;
 ok
@@ -381,7 +381,7 @@ red
 ;
 markers
 =
-yield
+await
 onMarkers
 ;
 ok
@@ -398,7 +398,7 @@ returned
 "
 )
 ;
-yield
+await
 front
 .
 stop
@@ -407,7 +407,7 @@ stop
 ;
 isActive
 =
-yield
+await
 front
 .
 isRecording
@@ -428,7 +428,7 @@ stop
 "
 )
 ;
-yield
+await
 client
 .
 close

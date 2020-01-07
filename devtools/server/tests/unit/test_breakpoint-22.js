@@ -119,16 +119,12 @@ test
 const
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
-yield
+await
 getSources
 (
 gThreadClient
@@ -137,7 +133,7 @@ gThreadClient
 let
 packet
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 evalCode
@@ -178,7 +174,7 @@ let
 res
 ]
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -206,7 +202,7 @@ line0
 7
 }
 ;
-yield
+await
 source
 .
 setBreakpoint
@@ -265,7 +261,7 @@ message
 }
 )
 ;
-yield
+await
 resume
 (
 gThreadClient
@@ -277,7 +273,6 @@ gClient
 )
 ;
 }
-)
 ;
 function
 evalCode

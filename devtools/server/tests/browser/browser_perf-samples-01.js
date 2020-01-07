@@ -28,12 +28,12 @@ performance
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -56,7 +56,7 @@ false
 }
 )
 ;
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -88,7 +88,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -103,7 +103,7 @@ client
 form
 )
 ;
-yield
+await
 front
 .
 connect
@@ -113,7 +113,7 @@ connect
 let
 firstRecording
 =
-yield
+await
 front
 .
 startRecording
@@ -144,7 +144,7 @@ busyWait
 WAIT_TIME
 )
 ;
-yield
+await
 front
 .
 stopRecording
@@ -176,7 +176,7 @@ correct
 let
 secondRecording
 =
-yield
+await
 front
 .
 startRecording
@@ -207,7 +207,7 @@ busyWait
 WAIT_TIME
 )
 ;
-yield
+await
 front
 .
 stopRecording
@@ -377,14 +377,14 @@ overflow
 "
 )
 ;
-yield
+await
 front
 .
 destroy
 (
 )
 ;
-yield
+await
 client
 .
 close

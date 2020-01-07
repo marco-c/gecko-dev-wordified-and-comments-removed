@@ -240,8 +240,8 @@ eventFront2
 ;
 addAsyncTest
 (
+async
 function
-*
 setup
 (
 )
@@ -273,7 +273,7 @@ inspectorContent
 .
 href
 ;
-yield
+await
 new
 Promise
 (
@@ -316,7 +316,7 @@ resolve
 ;
 walker
 =
-yield
+await
 inspector
 .
 getWalker
@@ -347,8 +347,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 setupEventTest
 (
 )
@@ -379,7 +379,7 @@ b
 ;
 eventFront1
 =
-yield
+await
 walker
 .
 querySelector
@@ -395,7 +395,7 @@ a
 ;
 eventFront2
 =
-yield
+await
 walker
 .
 querySelector
@@ -418,8 +418,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testChangeEventListenerOnSingleNode
 (
 )
@@ -454,7 +454,7 @@ eventListener1
 let
 mutations
 =
-yield
+await
 waitForMutations
 (
 )
@@ -566,7 +566,7 @@ eventListener1
 ;
 mutations
 =
-yield
+await
 waitForMutations
 (
 )
@@ -712,7 +712,7 @@ eventListener2
 ;
 mutations
 =
-yield
+await
 waitForMutations
 (
 )
@@ -810,8 +810,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testChangeEventsOnSeveralNodes
 (
 )
@@ -855,7 +855,7 @@ eventListener2
 let
 mutations
 =
-yield
+await
 waitForMutations
 (
 )
@@ -1060,7 +1060,7 @@ eventListener2
 ;
 mutations
 =
-yield
+await
 waitForMutations
 (
 )
@@ -1243,8 +1243,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testRemoveMissingEvent
 (
 )
@@ -1311,7 +1311,7 @@ somevalue
 let
 mutations
 =
-yield
+await
 waitForMutations
 (
 )

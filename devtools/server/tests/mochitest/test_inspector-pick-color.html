@@ -179,8 +179,8 @@ null
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -208,7 +208,7 @@ inspectorContent
 .
 href
 ;
-yield
+await
 new
 Promise
 (
@@ -260,8 +260,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -278,7 +278,7 @@ page
 "
 )
 ;
-yield
+await
 inspector
 .
 pickColorFromPage
@@ -330,7 +330,7 @@ click
 let
 color
 =
-yield
+await
 onColorPicked
 ;
 is
@@ -364,8 +364,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -382,7 +382,7 @@ page
 "
 )
 ;
-yield
+await
 inspector
 .
 pickColorFromPage
@@ -458,7 +458,7 @@ dispatchEvent
 keyboardEvent
 )
 ;
-yield
+await
 onPickCanceled
 ;
 ok
@@ -486,8 +486,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -504,7 +504,7 @@ page
 "
 )
 ;
-yield
+await
 inspector
 .
 pickColorFromPage
@@ -522,7 +522,7 @@ picking
 "
 )
 ;
-yield
+await
 inspector
 .
 cancelPickColorFromPage

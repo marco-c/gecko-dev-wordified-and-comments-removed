@@ -269,12 +269,8 @@ runNextTest
 ;
 addTest
 (
-Task
-.
 async
-(
 function
-*
 testDuplicateNode
 (
 )
@@ -294,7 +290,7 @@ duplicate
 let
 matches
 =
-yield
+await
 gWalker
 .
 querySelectorAll
@@ -327,7 +323,7 @@ duplicate
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -338,7 +334,7 @@ rootNode
 className
 )
 ;
-yield
+await
 gWalker
 .
 duplicateNode
@@ -348,7 +344,7 @@ nodeFront
 ;
 matches
 =
-yield
+await
 gWalker
 .
 querySelectorAll
@@ -381,7 +377,6 @@ runNextTest
 )
 ;
 }
-)
 )
 ;
 addTest

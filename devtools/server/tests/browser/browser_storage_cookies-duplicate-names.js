@@ -186,12 +186,12 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -229,7 +229,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -247,7 +247,7 @@ form
 let
 data
 =
-yield
+await
 front
 .
 listStores
@@ -268,7 +268,7 @@ present
 "
 )
 ;
-yield
+await
 testCookies
 (
 data
@@ -276,7 +276,7 @@ data
 cookies
 )
 ;
-yield
+await
 clearStorage
 (
 )
@@ -285,7 +285,7 @@ forceCollections
 (
 )
 ;
-yield
+await
 client
 .
 close
@@ -358,12 +358,8 @@ cookiesActor
 var
 testCookiesObjects
 =
-Task
-.
 async
-(
 function
-*
 (
 index
 hosts
@@ -649,7 +645,7 @@ host
 ;
 matchItems
 (
-yield
+await
 cookiesActor
 .
 getStoreObjects
@@ -678,7 +674,7 @@ length
 return
 ;
 }
-yield
+await
 testCookiesObjects
 (
 +
@@ -689,5 +685,4 @@ cookiesActor
 )
 ;
 }
-)
 ;

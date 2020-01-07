@@ -23,12 +23,12 @@ timeline
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -64,7 +64,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -89,7 +89,7 @@ recording
 "
 )
 ;
-yield
+await
 front
 .
 start
@@ -117,7 +117,7 @@ i
 +
 )
 {
-yield
+await
 wait
 (
 300
@@ -126,7 +126,7 @@ wait
 let
 markers
 =
-yield
+await
 once
 (
 front
@@ -164,14 +164,14 @@ recording
 "
 )
 ;
-yield
+await
 front
 .
 stop
 (
 )
 ;
-yield
+await
 client
 .
 close

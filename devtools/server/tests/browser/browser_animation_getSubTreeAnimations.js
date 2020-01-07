@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -44,7 +44,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 "
@@ -109,7 +109,7 @@ node
 let
 rootBody
 =
-yield
+await
 walker
 .
 querySelector
@@ -125,7 +125,7 @@ body
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -170,7 +170,7 @@ node
 let
 iframe
 =
-yield
+await
 walker
 .
 querySelector
@@ -189,7 +189,7 @@ let
 nodes
 }
 =
-yield
+await
 walker
 .
 children
@@ -200,7 +200,7 @@ iframe
 let
 frameBody
 =
-yield
+await
 walker
 .
 querySelector
@@ -216,7 +216,7 @@ body
 ;
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -241,7 +241,7 @@ retrieved
 "
 )
 ;
-yield
+await
 client
 .
 close

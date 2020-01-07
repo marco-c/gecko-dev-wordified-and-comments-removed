@@ -62,8 +62,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -117,7 +117,7 @@ timerPrecision
 let
 client
 =
-yield
+await
 startTestDebuggerServer
 (
 "
@@ -132,7 +132,7 @@ test
 let
 chromeActors
 =
-yield
+await
 getChromeActors
 (
 client
@@ -162,14 +162,14 @@ Promise
 "
 )
 ;
-yield
+await
 attachTab
 (
 client
 chromeActors
 )
 ;
-yield
+await
 testPromiseCreationTimestamp
 (
 client
@@ -197,7 +197,7 @@ v
 let
 response
 =
-yield
+await
 listTabs
 (
 client
@@ -232,7 +232,7 @@ tab
 "
 )
 ;
-yield
+await
 testPromiseCreationTimestamp
 (
 client
@@ -270,7 +270,7 @@ v
 }
 )
 ;
-yield
+await
 close
 (
 client
@@ -279,8 +279,8 @@ client
 }
 )
 ;
+async
 function
-*
 testPromiseCreationTimestamp
 (
 client
@@ -310,14 +310,14 @@ random
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-yield
+await
 front
 .
 listPromises
@@ -424,7 +424,7 @@ now
 let
 grip
 =
-yield
+await
 onNewPromise
 ;
 ok
@@ -503,7 +503,7 @@ end
 )
 )
 ;
-yield
+await
 front
 .
 detach

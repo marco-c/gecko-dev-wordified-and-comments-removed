@@ -550,8 +550,8 @@ run_test
 =
 Test
 (
+async
 function
-*
 (
 )
 {
@@ -605,7 +605,7 @@ Async
 conn
 )
 ;
-yield
+await
 client
 .
 connect
@@ -623,7 +623,7 @@ conn
 let
 retval
 =
-yield
+await
 rootFront
 .
 getDefault
@@ -654,7 +654,7 @@ ChildFront
 ;
 retval
 =
-yield
+await
 rootFront
 .
 getDetail1
@@ -685,7 +685,7 @@ ChildFront
 ;
 retval
 =
-yield
+await
 rootFront
 .
 getDetail2
@@ -721,7 +721,7 @@ string
 ;
 try
 {
-yield
+await
 rootFront
 .
 getUnknownDetail
@@ -742,7 +742,7 @@ ex
 )
 {
 }
-yield
+await
 client
 .
 close

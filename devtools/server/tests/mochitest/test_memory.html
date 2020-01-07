@@ -157,12 +157,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -172,7 +169,7 @@ memory
 client
 }
 =
-yield
+await
 startServerAndGetSelectedTabMemory
 (
 )
@@ -180,7 +177,7 @@ startServerAndGetSelectedTabMemory
 let
 measurement
 =
-yield
+await
 memory
 .
 measure
@@ -316,6 +313,8 @@ client
 )
 ;
 }
+)
+(
 )
 ;
 }

@@ -58,12 +58,12 @@ TimeStamp
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -95,7 +95,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -110,7 +110,7 @@ client
 form
 )
 ;
-yield
+await
 front
 .
 connect
@@ -120,7 +120,7 @@ connect
 let
 rec
 =
-yield
+await
 front
 .
 startRecording
@@ -157,7 +157,7 @@ myLabel
 let
 markers
 =
-yield
+await
 waitForMarkerType
 (
 front
@@ -173,7 +173,7 @@ length
 2
 )
 ;
-yield
+await
 front
 .
 stopRecording
@@ -347,7 +347,7 @@ pmmClearFrameScripts
 (
 )
 ;
-yield
+await
 client
 .
 close

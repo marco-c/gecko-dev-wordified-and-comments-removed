@@ -8,8 +8,8 @@ run_test
 =
 Test
 (
+async
 function
-*
 (
 )
 {
@@ -38,7 +38,7 @@ connection
 )
 )
 ;
-yield
+await
 client
 .
 connect
@@ -48,7 +48,7 @@ connect
 const
 response
 =
-yield
+await
 client
 .
 request
@@ -95,7 +95,7 @@ object
 "
 )
 ;
-yield
+await
 client
 .
 close

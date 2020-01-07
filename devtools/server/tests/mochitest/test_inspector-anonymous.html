@@ -391,8 +391,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testXBLAnonymousInHTMLDocument
 (
 )
@@ -436,7 +436,7 @@ rawToolbarbutton
 let
 toolbarbutton
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -452,7 +452,7 @@ toolbarbutton
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -507,8 +507,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testNativeAnonymous
 (
 )
@@ -529,7 +529,7 @@ walker
 let
 select
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -545,7 +545,7 @@ select
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -598,8 +598,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testNativeAnonymousStartingNode
 (
 )
@@ -697,7 +697,7 @@ fetched
 let
 node
 =
-yield
+await
 serverWalker
 .
 attachElement
@@ -767,8 +767,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testPseudoElements
 (
 )
@@ -817,7 +817,7 @@ div
 let
 pseudo
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -834,7 +834,7 @@ pseudo
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -1058,8 +1058,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testEmptyWithPseudo
 (
 )
@@ -1098,7 +1098,7 @@ element
 let
 pseudo
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1117,7 +1117,7 @@ empty
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -1247,8 +1247,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testShadowAnonymous
 (
 )
@@ -1293,7 +1293,7 @@ content
 let
 shadow
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1310,7 +1310,7 @@ shadow
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -1514,7 +1514,7 @@ anonymous
 let
 shadowSubChildren
 =
-yield
+await
 gWalker
 .
 children

@@ -165,8 +165,8 @@ listener
 )
 ;
 }
+async
 function
-*
 findAddonInRootList
 (
 client
@@ -176,7 +176,7 @@ addonId
 const
 result
 =
-yield
+await
 client
 .
 listAddons
@@ -287,8 +287,8 @@ allowMissing
 }
 add_task
 (
+async
 function
-*
 testReloadExitedAddon
 (
 )
@@ -296,7 +296,7 @@ testReloadExitedAddon
 const
 client
 =
-yield
+await
 new
 Promise
 (
@@ -337,7 +337,7 @@ const
 installedAddon
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -374,7 +374,7 @@ const
 installedAddon2
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -395,7 +395,7 @@ promiseWebExtensionStartup
 let
 addonActor
 =
-yield
+await
 findAddonInRootList
 (
 client
@@ -404,7 +404,7 @@ installedAddon
 id
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -437,13 +437,13 @@ uninstall
 (
 )
 ;
-yield
+await
 onUninstalled
 ;
 const
 newAddonActor
 =
-yield
+await
 findAddonInRootList
 (
 client
@@ -537,7 +537,7 @@ const
 upgradedAddon
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -555,13 +555,13 @@ promiseWebExtensionStartup
 ]
 )
 ;
-yield
+await
 onAddonListChanged
 ;
 const
 upgradedAddonActor
 =
-yield
+await
 findAddonInRootList
 (
 client
@@ -603,7 +603,7 @@ Upgrade
 "
 )
 ;
-yield
+await
 close
 (
 client

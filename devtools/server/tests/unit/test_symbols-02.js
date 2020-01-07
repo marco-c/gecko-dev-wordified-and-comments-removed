@@ -100,8 +100,8 @@ do_test_pending
 )
 ;
 }
+async
 function
-*
 testSymbols
 (
 client
@@ -187,7 +187,7 @@ URL
 const
 packet
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 evalCode

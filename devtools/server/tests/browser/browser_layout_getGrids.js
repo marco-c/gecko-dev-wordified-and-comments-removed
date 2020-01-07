@@ -350,8 +350,8 @@ explicit
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -362,7 +362,7 @@ walker
 layout
 }
 =
-yield
+await
 initLayoutFrontForUrl
 (
 MAIN_DOMAIN
@@ -377,7 +377,7 @@ html
 let
 grids
 =
-yield
+await
 layout
 .
 getGrids
@@ -491,7 +491,7 @@ try
 let
 nodeFront
 =
-yield
+await
 walker
 .
 getNodeFromActor
@@ -545,7 +545,7 @@ front
 )
 ;
 }
-yield
+await
 client
 .
 close

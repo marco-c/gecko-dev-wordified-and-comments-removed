@@ -39,12 +39,9 @@ run_test
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -106,7 +103,7 @@ connectPipe
 )
 )
 ;
-yield
+await
 connect
 (
 client
@@ -117,7 +114,7 @@ let
 tabs
 }
 =
-yield
+await
 listTabs
 (
 client
@@ -139,7 +136,7 @@ let
 tabClient
 ]
 =
-yield
+await
 attachTab
 (
 client
@@ -151,13 +148,13 @@ let
 threadClient
 ]
 =
-yield
+await
 attachThread
 (
 tabClient
 )
 ;
-yield
+await
 resume
 (
 threadClient
@@ -183,7 +180,7 @@ let
 source
 }
 =
-yield
+await
 promise
 ;
 let
@@ -213,7 +210,7 @@ let
 packet
 ]
 =
-yield
+await
 setBreakpoint
 (
 sourceClient
@@ -253,7 +250,7 @@ f
 global
 )
 ;
-yield
+await
 close
 (
 client
@@ -264,6 +261,8 @@ do_test_finished
 )
 ;
 }
+)
+(
 )
 ;
 }

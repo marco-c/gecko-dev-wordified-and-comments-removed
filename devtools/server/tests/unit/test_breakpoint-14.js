@@ -175,12 +175,8 @@ source
 setBreakpoint
 (
 location
-Task
-.
 async
-(
 function
-*
 (
 response
 bpClient
@@ -587,7 +583,7 @@ stepOver
 let
 packet
 =
-yield
+await
 waiter
 ;
 callback
@@ -610,7 +606,7 @@ stepOver
 (
 )
 ;
-yield
+await
 waiter
 ;
 bpClient
@@ -643,7 +639,6 @@ gCallback
 )
 ;
 }
-)
 )
 ;
 }

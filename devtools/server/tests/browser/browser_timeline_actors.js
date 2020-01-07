@@ -23,12 +23,12 @@ timeline
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -67,7 +67,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -92,7 +92,7 @@ recording
 "
 )
 ;
-yield
+await
 front
 .
 start
@@ -287,7 +287,7 @@ updatedTicks
 ok
 (
 (
-yield
+await
 waitUntil
 (
 (
@@ -312,7 +312,7 @@ emitted
 ok
 (
 (
-yield
+await
 waitUntil
 (
 (
@@ -345,14 +345,14 @@ recording
 "
 )
 ;
-yield
+await
 front
 .
 stop
 (
 )
 ;
-yield
+await
 client
 .
 close

@@ -299,8 +299,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testRearrange
 (
 )
@@ -308,7 +308,7 @@ testRearrange
 let
 longlist
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -325,7 +325,7 @@ longlist
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -371,7 +371,7 @@ of
 the
 list
 .
-yield
+await
 gWalker
 .
 insertBefore
@@ -412,7 +412,7 @@ list
 ;
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -470,7 +470,7 @@ nodes
 13
 ]
 ;
-yield
+await
 gWalker
 .
 insertBefore
@@ -524,7 +524,7 @@ node
 ;
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -584,8 +584,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testInsertInvalidInput
 (
 )
@@ -593,7 +593,7 @@ testInsertInvalidInput
 let
 longlist
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -610,7 +610,7 @@ longlist
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -697,7 +697,7 @@ true
 }
 )
 ;
-yield
+await
 gWalker
 .
 insertBefore
@@ -723,7 +723,7 @@ hasMutated
 =
 false
 ;
-yield
+await
 gWalker
 .
 insertBefore
@@ -754,7 +754,7 @@ hasMutated
 =
 false
 ;
-yield
+await
 gWalker
 .
 insertBefore
@@ -781,7 +781,7 @@ hasMutated
 =
 false
 ;
-yield
+await
 gWalker
 .
 insertBefore

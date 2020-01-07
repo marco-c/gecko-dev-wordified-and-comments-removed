@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ walker
 accessibility
 }
 =
-yield
+await
 initAccessibilityFrontForUrl
 (
 MAIN_DOMAIN
@@ -32,7 +32,7 @@ html
 let
 a11yWalker
 =
-yield
+await
 accessibility
 .
 getWalker
@@ -43,7 +43,7 @@ walker
 let
 buttonNode
 =
-yield
+await
 walker
 .
 querySelector
@@ -60,7 +60,7 @@ button
 let
 accessibleFront
 =
-yield
+await
 a11yWalker
 .
 getAccessibleFor
@@ -120,7 +120,7 @@ Actions
 let
 actions
 =
-yield
+await
 accessibleFront
 .
 getActions
@@ -175,7 +175,7 @@ parent
 let
 index
 =
-yield
+await
 accessibleFront
 .
 getIndexInParent
@@ -207,7 +207,7 @@ State
 let
 state
 =
-yield
+await
 accessibleFront
 .
 getState
@@ -256,7 +256,7 @@ Attributes
 let
 attributes
 =
-yield
+await
 accessibleFront
 .
 getAttributes
@@ -360,7 +360,7 @@ Children
 let
 children
 =
-yield
+await
 accessibleFront
 .
 children
@@ -417,7 +417,7 @@ Node
 let
 node
 =
-yield
+await
 accessibleFront
 .
 getDOMNode
@@ -446,7 +446,7 @@ waitForA11yShutdown
 (
 )
 ;
-yield
+await
 client
 .
 close
@@ -457,7 +457,7 @@ forceCollections
 (
 )
 ;
-yield
+await
 a11yShutdown
 ;
 gBrowser

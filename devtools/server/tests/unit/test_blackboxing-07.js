@@ -135,16 +135,12 @@ js
 const
 testBlackBox
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 evalCode
@@ -156,7 +152,7 @@ const
 sources
 }
 =
-yield
+await
 getSources
 (
 gThreadClient
@@ -236,7 +232,6 @@ gClient
 )
 ;
 }
-)
 ;
 function
 evalCode

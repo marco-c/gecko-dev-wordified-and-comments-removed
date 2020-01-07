@@ -183,8 +183,8 @@ null
 let
 cleanup
 =
+async
 function
-*
 (
 )
 {
@@ -193,7 +193,7 @@ if
 client
 )
 {
-yield
+await
 client
 .
 close

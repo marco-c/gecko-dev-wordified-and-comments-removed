@@ -89,12 +89,8 @@ testSteppingAndReturns
 const
 testSteppingAndReturns
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -104,7 +100,7 @@ attachResponse
 threadClient
 ]
 =
-yield
+await
 attachTestTabAndResume
 (
 gClient
@@ -149,7 +145,7 @@ statement
 const
 dbgStmt1
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 evaluateTestCode
@@ -192,7 +188,7 @@ return
 const
 step1
 =
-yield
+await
 stepOver
 (
 gClient
@@ -221,7 +217,7 @@ line
 const
 step2
 =
-yield
+await
 stepOver
 (
 gClient
@@ -273,7 +269,7 @@ statement
 const
 dbgStmt2
 =
-yield
+await
 resumeAndWaitForPause
 (
 gClient
@@ -316,7 +312,7 @@ return
 const
 step3
 =
-yield
+await
 stepOver
 (
 gClient
@@ -345,7 +341,7 @@ line
 const
 step4
 =
-yield
+await
 stepOver
 (
 gClient
@@ -378,7 +374,7 @@ line
 const
 step5
 =
-yield
+await
 stepOver
 (
 gClient
@@ -433,7 +429,6 @@ gCallback
 )
 ;
 }
-)
 ;
 function
 evaluateTestCode

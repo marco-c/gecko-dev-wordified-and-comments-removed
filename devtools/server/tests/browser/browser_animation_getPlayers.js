@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -29,21 +29,21 @@ html
 "
 )
 ;
-yield
+await
 theRightNumberOfPlayersIsReturned
 (
 walker
 animations
 )
 ;
-yield
+await
 playersCanBePausedAndResumed
 (
 walker
 animations
 )
 ;
-yield
+await
 client
 .
 close
@@ -59,8 +59,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 theRightNumberOfPlayersIsReturned
 (
 walker
@@ -70,7 +70,7 @@ animations
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -89,7 +89,7 @@ animated
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -117,7 +117,7 @@ node
 ;
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -135,7 +135,7 @@ animation
 ;
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -160,7 +160,7 @@ returned
 ;
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -178,7 +178,7 @@ animations
 ;
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -203,7 +203,7 @@ returned
 ;
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -219,7 +219,7 @@ transition
 ;
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -247,8 +247,8 @@ node
 )
 ;
 }
+async
 function
-*
 playersCanBePausedAndResumed
 (
 walker
@@ -258,7 +258,7 @@ animations
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -279,7 +279,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -287,7 +287,7 @@ getAnimationPlayersForNode
 node
 )
 ;
-yield
+await
 player
 .
 ready
@@ -342,7 +342,7 @@ running
 "
 )
 ;
-yield
+await
 player
 .
 pause
@@ -352,7 +352,7 @@ pause
 let
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -376,7 +376,7 @@ paused
 "
 )
 ;
-yield
+await
 player
 .
 play
@@ -385,7 +385,7 @@ play
 ;
 state
 =
-yield
+await
 player
 .
 getCurrentState

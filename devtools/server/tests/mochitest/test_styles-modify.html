@@ -191,8 +191,8 @@ null
 ;
 addAsyncTest
 (
+async
 function
-*
 setup
 (
 )
@@ -214,7 +214,7 @@ href
 let
 inspector
 ;
-yield
+await
 new
 Promise
 (
@@ -275,7 +275,7 @@ resolve
 ;
 gWalker
 =
-yield
+await
 inspector
 .
 getWalker
@@ -284,7 +284,7 @@ getWalker
 ;
 gStyles
 =
-yield
+await
 inspector
 .
 getPageStyle
@@ -300,8 +300,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 modifyProperties
 (
 )
@@ -328,7 +328,7 @@ style
 let
 node
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -351,7 +351,7 @@ style
 let
 applied
 =
-yield
+await
 gStyles
 .
 getApplied
@@ -406,7 +406,7 @@ property
 .
 .
 .
-yield
+await
 setProperty
 (
 elementStyle
@@ -425,7 +425,7 @@ Create
 a
 new
 property
-yield
+await
 setProperty
 (
 elementStyle
@@ -452,7 +452,7 @@ change
 it
 immediately
 .
-yield
+await
 setProperty
 (
 elementStyle
@@ -467,7 +467,7 @@ black
 "
 )
 ;
-yield
+await
 setProperty
 (
 elementStyle
@@ -540,7 +540,7 @@ Remove
 all
 the
 properties
-yield
+await
 removeProperty
 (
 elementStyle
@@ -550,7 +550,7 @@ color
 "
 )
 ;
-yield
+await
 removeProperty
 (
 elementStyle
@@ -562,7 +562,7 @@ color
 "
 )
 ;
-yield
+await
 removeProperty
 (
 elementStyle
@@ -615,8 +615,8 @@ runNextTest
 }
 )
 ;
+async
 function
-*
 setProperty
 (
 rule
@@ -644,7 +644,7 @@ name
 value
 )
 ;
-yield
+await
 changes
 .
 apply
@@ -652,8 +652,8 @@ apply
 )
 ;
 }
+async
 function
-*
 removeProperty
 (
 rule
@@ -679,7 +679,7 @@ index
 name
 )
 ;
-yield
+await
 changes
 .
 apply

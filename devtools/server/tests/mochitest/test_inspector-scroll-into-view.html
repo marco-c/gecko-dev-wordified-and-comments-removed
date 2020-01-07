@@ -278,12 +278,8 @@ runNextTest
 ;
 addTest
 (
-Task
-.
 async
-(
 function
-*
 testScrollIntoView
 (
 )
@@ -317,7 +313,7 @@ getBoundingClientRect
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -384,7 +380,7 @@ viewport
 "
 )
 ;
-yield
+await
 nodeFront
 .
 scrollIntoView
@@ -474,7 +470,6 @@ runNextTest
 )
 ;
 }
-)
 )
 ;
 addTest

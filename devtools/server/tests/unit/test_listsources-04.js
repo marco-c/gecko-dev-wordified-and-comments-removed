@@ -48,12 +48,9 @@ server
 cb
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -88,7 +85,7 @@ connectPipe
 )
 )
 ;
-yield
+await
 client
 .
 connect
@@ -100,7 +97,7 @@ const
 threadClient
 ]
 =
-yield
+await
 attachTestTabAndResume
 (
 client
@@ -111,7 +108,7 @@ sources
 "
 )
 ;
-yield
+await
 threadClient
 .
 reconfigure
@@ -132,12 +129,8 @@ threadClient
 .
 getSources
 (
-Task
-.
 async
-(
 function
-*
 (
 res
 )
@@ -159,7 +152,7 @@ exist
 "
 )
 ;
-yield
+await
 threadClient
 .
 reconfigure
@@ -213,9 +206,10 @@ cb
 ;
 }
 )
-)
 ;
 }
+)
+(
 )
 ;
 }

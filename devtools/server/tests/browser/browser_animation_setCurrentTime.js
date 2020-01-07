@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -29,21 +29,21 @@ html
 "
 )
 ;
-yield
+await
 testSetCurrentTime
 (
 walker
 animations
 )
 ;
-yield
+await
 testSetCurrentTimes
 (
 walker
 animations
 )
 ;
-yield
+await
 client
 .
 close
@@ -59,8 +59,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 testSetCurrentTime
 (
 walker
@@ -80,7 +80,7 @@ node
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -114,7 +114,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -150,7 +150,7 @@ called
 "
 )
 ;
-yield
+await
 player
 .
 setCurrentTime
@@ -181,7 +181,7 @@ works
 "
 )
 ;
-yield
+await
 player
 .
 pause
@@ -191,7 +191,7 @@ pause
 let
 pausedState
 =
-yield
+await
 player
 .
 getCurrentState
@@ -212,7 +212,7 @@ currentTime
 "
 )
 ;
-yield
+await
 player
 .
 setCurrentTime
@@ -227,7 +227,7 @@ currentTime
 let
 updatedState1
 =
-yield
+await
 player
 .
 getCurrentState
@@ -274,7 +274,7 @@ currentTime
 "
 )
 ;
-yield
+await
 player
 .
 setCurrentTime
@@ -289,7 +289,7 @@ currentTime
 let
 updatedState2
 =
-yield
+await
 player
 .
 getCurrentState
@@ -324,8 +324,8 @@ to
 )
 ;
 }
+async
 function
-*
 testSetCurrentTimes
 (
 walker
@@ -364,7 +364,7 @@ players
 let
 nodeMulti
 =
-yield
+await
 walker
 .
 querySelector
@@ -384,7 +384,7 @@ let
 players
 =
 (
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -425,7 +425,7 @@ once
 "
 )
 ;
-yield
+await
 animations
 .
 setCurrentTimes
@@ -471,7 +471,7 @@ i
 let
 state
 =
-yield
+await
 players
 [
 i

@@ -28,12 +28,12 @@ performance
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -65,7 +65,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -80,7 +80,7 @@ client
 form
 )
 ;
-yield
+await
 front
 .
 connect
@@ -90,7 +90,7 @@ connect
 let
 rec
 =
-yield
+await
 front
 .
 startRecording
@@ -102,7 +102,7 @@ busyWait
 WAIT_TIME
 )
 ;
-yield
+await
 front
 .
 stopRecording
@@ -238,14 +238,14 @@ nodes
 "
 )
 ;
-yield
+await
 front
 .
 destroy
 (
 )
 ;
-yield
+await
 client
 .
 close

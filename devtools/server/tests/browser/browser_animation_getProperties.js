@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,7 +28,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 URL
@@ -51,7 +51,7 @@ front
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -72,7 +72,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -98,7 +98,7 @@ method
 let
 properties
 =
-yield
+await
 player
 .
 getProperties
@@ -166,7 +166,7 @@ retrieved
 "
 )
 ;
-yield
+await
 client
 .
 close

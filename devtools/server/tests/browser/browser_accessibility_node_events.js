@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ walker
 accessibility
 }
 =
-yield
+await
 initAccessibilityFrontForUrl
 (
 MAIN_DOMAIN
@@ -32,7 +32,7 @@ html
 let
 a11yWalker
 =
-yield
+await
 accessibility
 .
 getWalker
@@ -43,7 +43,7 @@ walker
 let
 a11yDoc
 =
-yield
+await
 a11yWalker
 .
 getDocument
@@ -53,7 +53,7 @@ getDocument
 let
 buttonNode
 =
-yield
+await
 walker
 .
 querySelector
@@ -70,7 +70,7 @@ button
 let
 accessibleFront
 =
-yield
+await
 a11yWalker
 .
 getAccessibleFor
@@ -81,7 +81,7 @@ buttonNode
 let
 sliderNode
 =
-yield
+await
 walker
 .
 querySelector
@@ -98,7 +98,7 @@ slider
 let
 accessibleSliderFront
 =
-yield
+await
 a11yWalker
 .
 getAccessibleFor
@@ -164,7 +164,7 @@ event
 "
 )
 ;
-yield
+await
 emitA11yEvent
 (
 accessibleFront
@@ -249,7 +249,7 @@ event
 "
 )
 ;
-yield
+await
 emitA11yEvent
 (
 accessibleFront
@@ -320,7 +320,7 @@ event
 let
 states
 =
-yield
+await
 accessibleFront
 .
 getState
@@ -373,7 +373,7 @@ correct
 "
 )
 ;
-yield
+await
 emitA11yEvent
 (
 accessibleFront
@@ -434,7 +434,7 @@ true
 ;
 states
 =
-yield
+await
 accessibleFront
 .
 getState
@@ -466,7 +466,7 @@ event
 let
 attrs
 =
-yield
+await
 accessibleFront
 .
 getAttributes
@@ -487,7 +487,7 @@ present
 "
 )
 ;
-yield
+await
 emitA11yEvent
 (
 accessibleFront
@@ -554,7 +554,7 @@ polite
 ;
 attrs
 =
-yield
+await
 accessibleFront
 .
 getAttributes
@@ -597,7 +597,7 @@ value
 }
 )
 ;
-yield
+await
 emitA11yEvent
 (
 accessibleSliderFront
@@ -683,7 +683,7 @@ child
 "
 )
 ;
-yield
+await
 emitA11yEvent
 (
 accessibleSliderFront
@@ -783,7 +783,7 @@ waitForA11yShutdown
 (
 )
 ;
-yield
+await
 client
 .
 close
@@ -794,7 +794,7 @@ forceCollections
 (
 )
 ;
-yield
+await
 a11yShutdown
 ;
 gBrowser

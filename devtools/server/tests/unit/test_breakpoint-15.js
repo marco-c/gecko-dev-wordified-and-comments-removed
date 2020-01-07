@@ -110,19 +110,15 @@ js
 const
 testSameBreakpoint
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
 let
 packet
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 evalCode
@@ -159,7 +155,7 @@ let
 firstBpClient
 ]
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -171,7 +167,7 @@ let
 secondBpClient
 ]
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -218,7 +214,7 @@ column
 firstBpClient
 ]
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -229,7 +225,7 @@ columnLocation
 secondBpClient
 ]
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -263,7 +259,6 @@ gClient
 )
 ;
 }
-)
 ;
 function
 evalCode

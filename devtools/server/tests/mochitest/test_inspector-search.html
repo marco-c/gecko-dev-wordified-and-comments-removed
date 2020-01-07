@@ -271,8 +271,8 @@ html
 .
 addAsyncTest
 (
+async
 function
-*
 setup
 (
 )
@@ -316,7 +316,7 @@ line
 new
 -
 cap
-yield
+await
 new
 Promise
 (
@@ -360,7 +360,7 @@ resolve
 let
 walkerFront
 =
-yield
+await
 inspector
 .
 getWalker
@@ -432,7 +432,6 @@ runNextTest
 addAsyncTest
 (
 function
-*
 testIndexExists
 (
 )
@@ -534,7 +533,6 @@ runNextTest
 addAsyncTest
 (
 function
-*
 testSearchExists
 (
 )
@@ -692,7 +690,6 @@ runNextTest
 addAsyncTest
 (
 function
-*
 testEmptySearch
 (
 )
@@ -823,7 +820,6 @@ runNextTest
 addAsyncTest
 (
 function
-*
 testBasicSearchData
 (
 )
@@ -1392,7 +1388,6 @@ runNextTest
 addAsyncTest
 (
 function
-*
 testPseudoElements
 (
 )
@@ -1722,8 +1717,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testSearchMutationChangeResults
 (
 )
@@ -1833,7 +1828,7 @@ results
 "
 )
 ;
-yield
+await
 mutateDocumentAndWaitForMutation
 (
 (
@@ -1900,7 +1895,7 @@ line
 new
 -
 cap
-yield
+await
 new
 Promise
 (
@@ -2031,7 +2026,7 @@ line
 new
 -
 cap
-yield
+await
 new
 Promise
 (

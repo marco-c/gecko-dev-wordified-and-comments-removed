@@ -157,12 +157,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -172,12 +169,12 @@ memory
 client
 }
 =
-yield
+await
 startServerAndGetSelectedTabMemory
 (
 )
 ;
-yield
+await
 memory
 .
 attach
@@ -274,7 +271,7 @@ allocations
 onAlloc
 )
 ;
-yield
+await
 memory
 .
 startRecordingAllocations
@@ -286,7 +283,7 @@ drainAllocationsTimeout
 }
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -317,7 +314,7 @@ drain
 "
 )
 ;
-yield
+await
 memory
 .
 stopRecordingAllocations
@@ -362,7 +359,7 @@ drainTimer
 =
 1000000
 ;
-yield
+await
 memory
 .
 startRecordingAllocations
@@ -378,7 +375,7 @@ startAllocating
 (
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -426,7 +423,7 @@ timer
 "
 )
 ;
-yield
+await
 memory
 .
 stopRecordingAllocations
@@ -443,7 +440,7 @@ allocations
 onAlloc
 )
 ;
-yield
+await
 memory
 .
 detach
@@ -456,6 +453,8 @@ client
 )
 ;
 }
+)
+(
 )
 ;
 }

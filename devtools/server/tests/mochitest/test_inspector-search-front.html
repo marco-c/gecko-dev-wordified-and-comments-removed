@@ -246,8 +246,8 @@ search
 html
 addAsyncTest
 (
+async
 function
-*
 setup
 (
 )
@@ -291,7 +291,7 @@ line
 new
 -
 cap
-yield
+await
 new
 Promise
 (
@@ -330,7 +330,7 @@ resolve
 ;
 walkerFront
 =
-yield
+await
 inspector
 .
 getWalker
@@ -361,8 +361,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testWalkerFrontDefaults
 (
 )
@@ -382,7 +382,7 @@ WalkerFront
 let
 nodes
 =
-yield
+await
 walkerFront
 .
 querySelectorAll
@@ -398,7 +398,7 @@ h2
 let
 fronts
 =
-yield
+await
 nodes
 .
 items
@@ -408,7 +408,7 @@ items
 let
 frontResult
 =
-yield
+await
 walkerFront
 .
 search
@@ -437,7 +437,7 @@ for
 let
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -478,7 +478,7 @@ work
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -533,7 +533,7 @@ state
 on
 the
 front
-yield
+await
 walkerFront
 .
 search
@@ -551,8 +551,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testMultipleSearches
 (
 )
@@ -576,7 +576,7 @@ false
 let
 nodes
 =
-yield
+await
 walkerFront
 .
 querySelectorAll
@@ -592,7 +592,7 @@ h2
 let
 fronts
 =
-yield
+await
 nodes
 .
 items
@@ -602,7 +602,7 @@ items
 let
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -650,7 +650,7 @@ false
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -698,7 +698,7 @@ false
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -746,7 +746,7 @@ false
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -804,7 +804,7 @@ state
 on
 the
 front
-yield
+await
 walkerFront
 .
 search
@@ -822,8 +822,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testMultipleSearchesReverse
 (
 )
@@ -847,7 +847,7 @@ true
 let
 nodes
 =
-yield
+await
 walkerFront
 .
 querySelectorAll
@@ -863,7 +863,7 @@ h2
 let
 fronts
 =
-yield
+await
 nodes
 .
 items
@@ -873,7 +873,7 @@ items
 let
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -926,7 +926,7 @@ true
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -979,7 +979,7 @@ true
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -1032,7 +1032,7 @@ true
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -1085,7 +1085,7 @@ true
 ;
 results
 =
-yield
+await
 walkerFront
 .
 search
@@ -1148,7 +1148,7 @@ state
 on
 the
 front
-yield
+await
 walkerFront
 .
 search

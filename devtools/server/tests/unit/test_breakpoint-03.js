@@ -126,12 +126,8 @@ test_skip_breakpoint
 var
 test_no_skip_breakpoint
 =
-Task
-.
 async
-(
 function
-*
 (
 source
 location
@@ -143,7 +139,7 @@ response
 bpClient
 ]
 =
-yield
+await
 source
 .
 setBreakpoint
@@ -189,7 +185,7 @@ line0
 3
 )
 ;
-yield
+await
 bpClient
 .
 remove
@@ -197,7 +193,6 @@ remove
 )
 ;
 }
-)
 ;
 var
 test_skip_breakpoint
@@ -213,12 +208,8 @@ addOneTimeListener
 "
 paused
 "
-Task
-.
 async
-(
 function
-*
 (
 event
 packet
@@ -253,7 +244,7 @@ where
 source
 )
 ;
-yield
+await
 test_no_skip_breakpoint
 (
 source
@@ -266,7 +257,7 @@ response
 bpClient
 ]
 =
-yield
+await
 source
 .
 setBreakpoint
@@ -473,7 +464,6 @@ resume
 )
 ;
 }
-)
 )
 ;
 Cu
