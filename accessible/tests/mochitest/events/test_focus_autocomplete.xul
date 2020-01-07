@@ -1877,11 +1877,6 @@ controller
 input
 .
 popup
-.
-QueryInterface
-(
-nsIDOMNode
-)
 ;
 }
 if

@@ -58,7 +58,7 @@ Ci
 .
 nsIClassInfo
 "
-nsIDOMNode
+nsIObserver
 "
 ]
 )
@@ -100,7 +100,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMNode
+nsIObserver
 )
 ;
 }
@@ -115,7 +115,7 @@ do_throw
 Should
 QI
 to
-nsIDOMNode
+nsIObserver
 "
 )
 ;
@@ -128,7 +128,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMDocument
+nsIObserverService
 )
 ;
 do_throw

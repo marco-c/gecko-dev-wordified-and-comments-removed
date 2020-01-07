@@ -931,15 +931,6 @@ var
 formLikeRoot
 =
 subject
-.
-QueryInterface
-(
-SpecialPowers
-.
-Ci
-.
-nsIDOMNode
-)
 ;
 if
 (
