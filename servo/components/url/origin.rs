@@ -2,12 +2,6 @@ use
 servo_rand
 ;
 use
-servo_rand
-:
-:
-Rng
-;
-use
 std
 :
 :
@@ -223,11 +217,7 @@ OpaqueOrigin
 servo_rand
 :
 :
-thread_rng
-(
-)
-.
-gen
+random_uuid
 (
 )
 )

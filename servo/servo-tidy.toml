@@ -156,6 +156,9 @@ uuid
 "
 ws
 "
+"
+rand
+"
 ]
 num
 =
@@ -198,6 +201,9 @@ xid
 "
 "
 log
+"
+"
+rand
 "
 ]
 #
