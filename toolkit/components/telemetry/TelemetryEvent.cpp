@@ -4620,7 +4620,7 @@ IsValidIdentifierString
 aCategory
 30
 true
-false
+true
 )
 )
 {
@@ -5116,7 +5116,7 @@ IsValidIdentifierString
 method
 kMaxMethodNameByteLength
 false
-false
+true
 )
 )
 {
@@ -5230,7 +5230,7 @@ IsValidIdentifierString
 key
 kMaxExtraKeyNameByteLength
 false
-false
+true
 )
 )
 {
