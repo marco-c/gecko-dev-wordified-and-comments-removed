@@ -4943,7 +4943,7 @@ relatedTargetAsNode
 {
 aVisitor
 .
-IgnoreCurrentTarget
+IgnoreCurrentTargetBecauseOfShadowDOMRetargeting
 (
 )
 ;
@@ -5056,7 +5056,7 @@ retargetedRelatedTarget
 {
 aVisitor
 .
-IgnoreCurrentTarget
+IgnoreCurrentTargetBecauseOfShadowDOMRetargeting
 (
 )
 ;

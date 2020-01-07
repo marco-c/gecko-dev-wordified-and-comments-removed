@@ -5131,6 +5131,13 @@ parentEtci
 }
 else
 {
+bool
+ignoreBecauseOfShadowDOM
+=
+preVisitor
+.
+mIgnoreBecauseOfShadowDOM
+;
 nsCOMPtr
 <
 nsINode
@@ -5186,6 +5193,12 @@ GetFirstCanHandleEventTarget
 chain
 )
 ;
+if
+(
+!
+ignoreBecauseOfShadowDOM
+)
+{
 item
 -
 >
@@ -5194,6 +5207,7 @@ SetNewTarget
 parentTarget
 )
 ;
+}
 topEtci
 =
 parentEtci
