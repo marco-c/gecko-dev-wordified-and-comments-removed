@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsIInterfaceRequestor
+nsIIDBPermissionsRequest
 .
 h
 "
@@ -76,7 +76,7 @@ PermissionRequestBase
 public
 nsIObserver
 public
-nsIInterfaceRequestor
+nsIIDBPermissionsRequest
 {
 nsCOMPtr
 <
@@ -185,7 +185,7 @@ aIntPermission
 )
 ;
 NS_DECL_NSIOBSERVER
-NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSIIDBPERMISSIONSREQUEST
 }
 ;
 }
