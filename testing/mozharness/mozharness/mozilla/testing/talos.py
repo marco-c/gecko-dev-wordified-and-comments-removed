@@ -1593,6 +1593,27 @@ get
 gecko_profile
 '
 )
+or
+\
+            
+"
+-
+-
+geckoProfile
+"
+in
+self
+.
+config
+.
+get
+(
+"
+talos_extra_options
+"
+[
+]
+)
         
 self
 .
