@@ -12752,7 +12752,9 @@ maxWidth
 "
 )
 {
-NS_ASSERT
+console
+.
+assert
 (
 false
 "
