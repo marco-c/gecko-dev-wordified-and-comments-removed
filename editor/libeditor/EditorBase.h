@@ -244,9 +244,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMEventListener
-;
-class
 nsIDOMEventTarget
 ;
 class
@@ -314,6 +311,9 @@ DeleteTextTransaction
 ;
 class
 EditAggregateTransaction
+;
+class
+EditorEventListener
 ;
 class
 EditTransactionBase
@@ -3997,9 +3997,9 @@ EventTarget
 >
 mEventTarget
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventListener
+EditorEventListener
 >
 mEventListener
 ;
