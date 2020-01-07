@@ -459,8 +459,6 @@ cellObj
 =
 {
 role
-:
-role
 }
 ;
 rowObj

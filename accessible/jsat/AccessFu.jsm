@@ -1673,8 +1673,6 @@ aMessageManager
 ;
 }
 onEvent
-:
-function
 (
 event
 data
@@ -2264,8 +2262,6 @@ _processedMessageManagers
 [
 ]
 adjustContentBounds
-:
-function
 (
 aJsonBounds
 aBrowser
@@ -4844,8 +4840,6 @@ AccessFu
 Activate
 "
 {
-offset
-:
 offset
 activateIfKey
 :

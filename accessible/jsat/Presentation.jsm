@@ -523,8 +523,6 @@ viewport
 change
 "
 bounds
-:
-bounds
 padding
 :
 this
@@ -638,8 +636,6 @@ vc
 -
 change
 "
-bounds
-:
 bounds
 padding
 :
@@ -1169,8 +1165,6 @@ States
 CHECKED
 )
 brailleOutput
-:
-brailleOutput
 }
 )
 ;
@@ -1262,8 +1256,6 @@ eventType
 this
 .
 ANDROID_VIEW_CLICKED
-text
-:
 text
 checked
 :
@@ -1559,8 +1551,6 @@ itemCount
 aText
 .
 length
-brailleOutput
-:
 brailleOutput
 }
 )

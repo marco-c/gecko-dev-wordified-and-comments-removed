@@ -271,8 +271,6 @@ constructor
 :
 ResultsHeap
 getAutoCompleteResultFor
-:
-function
 (
 aSearchString
 )
@@ -392,8 +390,6 @@ constructor
 :
 AutoCompleteSearch
 startSearch
-:
-function
 (
 aSearchString
 aSearchParam
@@ -423,15 +419,11 @@ result
 ;
 }
 stopSearch
-:
-function
 (
 )
 {
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -473,8 +465,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 createInstance
-:
-function
 (
 outer
 iid
@@ -576,8 +566,6 @@ length
 ;
 }
 getValueAt
-:
-function
 (
 aIndex
 )
@@ -592,8 +580,6 @@ aIndex
 ;
 }
 getLabelAt
-:
-function
 (
 aIndex
 )
@@ -608,8 +594,6 @@ aIndex
 ;
 }
 getCommentAt
-:
-function
 (
 aIndex
 )
@@ -624,8 +608,6 @@ aIndex
 ;
 }
 getStyleAt
-:
-function
 (
 aIndex
 )
@@ -635,8 +617,6 @@ null
 ;
 }
 getImageAt
-:
-function
 (
 aIndex
 )
@@ -647,8 +627,6 @@ return
 ;
 }
 getFinalCompleteValueAt
-:
-function
 (
 aIndex
 )
@@ -663,8 +641,6 @@ aIndex
 ;
 }
 removeValueAt
-:
-function
 (
 aRowIndex
 aRemoveFromDb
@@ -672,8 +648,6 @@ aRemoveFromDb
 {
 }
 QueryInterface
-:
-function
 (
 iid
 )

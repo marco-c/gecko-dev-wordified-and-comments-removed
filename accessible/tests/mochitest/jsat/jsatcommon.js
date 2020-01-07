@@ -888,8 +888,6 @@ actionNum
 -
 1
 start
-:
-function
 (
 aFinishedCallback
 )
@@ -1067,8 +1065,6 @@ pump
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -1202,8 +1198,6 @@ finishedCallback
 }
 }
 setupMessageManager
-:
-function
 (
 aMessageManager
 aCallback
@@ -1447,8 +1441,6 @@ false
 ;
 }
 pump
-:
-function
 (
 )
 {
@@ -1604,8 +1596,6 @@ finish
 }
 }
 receiveMessage
-:
-function
 (
 aMessage
 )

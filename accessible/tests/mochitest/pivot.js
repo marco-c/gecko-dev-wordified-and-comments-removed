@@ -90,8 +90,6 @@ HeadersTraversalRule
 =
 {
 getMatchRoles
-:
-function
 (
 aRules
 )
@@ -116,8 +114,6 @@ preFilter
 :
 PREFILTER_INVISIBLE
 match
-:
-function
 (
 aAccessible
 )
@@ -143,8 +139,6 @@ ObjectTraversalRule
 =
 {
 getMatchRoles
-:
-function
 (
 aRules
 )
@@ -168,8 +162,6 @@ PREFILTER_ARIA_HIDDEN
 |
 PREFILTER_TRANSPARENT
 match
-:
-function
 (
 aAccessible
 )

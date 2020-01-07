@@ -33,15 +33,6 @@ return
 off
 "
 "
-object
--
-shorthand
-"
-:
-"
-off
-"
-"
 no
 -
 unexpected
