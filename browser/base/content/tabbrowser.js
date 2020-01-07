@@ -22398,10 +22398,6 @@ false
 ;
 if
 (
-!
-gBrowser
-|
-|
 gBrowser
 .
 tabs
