@@ -229,9 +229,9 @@ dependencies
 lazy_static
 =
 "
-1
-.
 0
+.
+2
 "
 .
 .
