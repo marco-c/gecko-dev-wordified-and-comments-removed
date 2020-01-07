@@ -263,6 +263,9 @@ gtest
 media_libopus
 '
 '
+mozglue
+'
+'
 speex
 '
 '

@@ -409,6 +409,10 @@ target_cpu
 !
 =
 v8_target_cpu
+&
+&
+!
+build_with_mozilla
 )
 {
 #
