@@ -244,9 +244,9 @@ http
 :
 /
 /
-localhost
-:
-4444
+example
+.
+com
 /
 2
 ?

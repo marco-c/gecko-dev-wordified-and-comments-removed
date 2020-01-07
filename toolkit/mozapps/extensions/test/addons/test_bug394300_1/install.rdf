@@ -187,9 +187,9 @@ http
 :
 /
 /
-localhost
-:
-4444
+example
+.
+com
 /
 test_bug394300
 .
