@@ -595,6 +595,11 @@ _
 IntrinsicIsStringIterator
 )
 \
+_
+(
+IntrinsicGuardToStringIterator
+)
+\
 \
 _
 (

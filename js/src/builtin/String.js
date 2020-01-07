@@ -2267,6 +2267,9 @@ StringIteratorNext
 (
 )
 {
+var
+obj
+;
 if
 (
 !
@@ -2276,11 +2279,18 @@ this
 )
 |
 |
-!
-IsStringIterator
+(
+obj
+=
+GuardToStringIterator
 (
 this
 )
+)
+=
+=
+=
+null
 )
 {
 return
@@ -2299,7 +2309,7 @@ S
 =
 UnsafeGetStringFromReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_TARGET
 )
 ;
@@ -2308,7 +2318,7 @@ index
 =
 UnsafeGetInt32FromReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_NEXT_INDEX
 )
 ;
@@ -2437,7 +2447,7 @@ charCount
 }
 UnsafeSetReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_NEXT_INDEX
 index
 +
