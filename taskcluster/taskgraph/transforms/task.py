@@ -2335,11 +2335,22 @@ treescript
 Required
 (
 '
-tag
+tags
 '
 )
 :
-bool
+[
+Any
+(
+'
+buildN
+'
+'
+release
+'
+None
+)
+]
         
 Required
 (
@@ -7019,10 +7030,15 @@ if
 worker
 [
 '
-tag
+tags
 '
 ]
 :
+        
+tag_names
+=
+[
+]
         
 product
 =
@@ -7067,10 +7083,25 @@ build_number
 '
 ]
         
-tag_names
-=
+if
+'
+buildN
+'
+in
+worker
 [
+'
+tags
+'
+]
+:
             
+tag_names
+.
+extend
+(
+[
+                
 "
 {
 }
@@ -7089,6 +7120,28 @@ version
 buildnum
 )
             
+]
+)
+        
+if
+'
+release
+'
+in
+worker
+[
+'
+tags
+'
+]
+:
+            
+tag_names
+.
+extend
+(
+[
+              
 "
 {
 }
@@ -7103,8 +7156,9 @@ format
 product
 version
 )
-        
+            
 ]
+)
         
 tag_info
 =
