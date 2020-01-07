@@ -316,7 +316,6 @@ mScrollableFrame
 >
 ComputeScrollMetadata
 (
-nullptr
 aOwner
 .
 GetManager
