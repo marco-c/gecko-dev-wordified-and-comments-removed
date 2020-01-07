@@ -96,14 +96,3 @@ test
 ]
 )
 ;
-test
-(
-new
-Int32Array
-(
-[
-123
-]
-)
-)
-;
