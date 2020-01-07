@@ -473,6 +473,7 @@ event
 DoubleClickTracker
 .
 resetClick
+true
 )
 ;
 const
