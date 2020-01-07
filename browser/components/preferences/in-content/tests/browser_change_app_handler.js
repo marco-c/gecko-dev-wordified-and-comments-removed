@@ -699,9 +699,11 @@ dialogList
 querySelector
 (
 '
-listitem
-[
+richlistitem
+>
 label
+[
+value
 =
 "
 '
@@ -715,6 +717,8 @@ name
 ]
 '
 )
+.
+parentNode
 ;
 dialogList
 .
