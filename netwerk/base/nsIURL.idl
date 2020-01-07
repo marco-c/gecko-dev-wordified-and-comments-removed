@@ -587,6 +587,7 @@ escaped
 .
 *
 /
+readonly
 attribute
 AUTF8String
 directory
@@ -694,6 +695,7 @@ escaped
 .
 *
 /
+readonly
 attribute
 AUTF8String
 fileName
@@ -810,6 +812,7 @@ escaped
 .
 *
 /
+readonly
 attribute
 AUTF8String
 fileBaseName
@@ -854,6 +857,7 @@ escaped
 .
 *
 /
+readonly
 attribute
 AUTF8String
 fileExtension
