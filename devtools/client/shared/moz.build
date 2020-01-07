@@ -218,11 +218,6 @@ DOMHelpers
 jsm
 '
 '
-doorhanger
-.
-js
-'
-'
 enum
 .
 js
