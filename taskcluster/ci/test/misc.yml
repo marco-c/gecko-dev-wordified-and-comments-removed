@@ -27,6 +27,11 @@ true
 e10s
 :
 false
+target
+:
+geckoview_example
+.
+apk
 mozharness
 :
 script
