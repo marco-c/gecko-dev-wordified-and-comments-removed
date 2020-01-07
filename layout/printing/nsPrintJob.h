@@ -799,7 +799,7 @@ aPrintSettings
 nsIWebProgressListener
 *
 aWebProgressListener
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )
@@ -815,7 +815,7 @@ aPrintSettings
 nsIWebProgressListener
 *
 aWebProgressListener
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )

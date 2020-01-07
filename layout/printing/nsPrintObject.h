@@ -103,7 +103,7 @@ Init
 nsIDocShell
 *
 aDocShell
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 bool

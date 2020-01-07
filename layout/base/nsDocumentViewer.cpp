@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h

@@ -8,9 +8,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMNode
 ;
 class
@@ -55,7 +52,7 @@ aElement
 )
 ;
 static
-nsIDOMDocument
+nsIDocument
 *
 GetSubDocumentFor
 (
