@@ -60,6 +60,15 @@ struct
 Cell
 ;
 const
+uint32_t
+Relocated
+=
+uintptr_t
+(
+0xbad0bad1
+)
+;
+const
 size_t
 ArenaShift
 =
