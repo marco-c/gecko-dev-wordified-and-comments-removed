@@ -131,7 +131,7 @@ class
 SessionTextInput
 {
 interface
-Delegate
+InputConnectionClient
 {
 View
 getView
@@ -415,7 +415,7 @@ mShowSoftInputOnFocus
 true
 ;
 private
-Delegate
+InputConnectionClient
 mInputConnection
 ;
 SessionTextInput

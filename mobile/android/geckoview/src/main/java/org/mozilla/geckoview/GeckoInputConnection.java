@@ -287,7 +287,7 @@ BaseInputConnection
 implements
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 SessionTextInput
 .
 EditableListener
@@ -462,7 +462,7 @@ public
 static
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 create
 (
 final
@@ -480,7 +480,7 @@ editable
 {
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 ic
 =
 new
@@ -512,13 +512,13 @@ private
 static
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 wrapForDebug
 (
 final
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 ic
 )
 {
@@ -918,7 +918,7 @@ return
 (
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 )
 Proxy
 .
@@ -944,7 +944,7 @@ InputConnection
 class
 SessionTextInput
 .
-Delegate
+InputConnectionClient
 .
 class
 SessionTextInput
