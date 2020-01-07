@@ -59,7 +59,7 @@ MPL
 #
 define
 VECS_PER_SPECIFIC_BRUSH
-2
+3
 #
 include
 shared
@@ -90,12 +90,16 @@ int
 prim_address
 RectWithSize
 local_rect
+RectWithSize
+segment_rect
 ivec3
 user_data
 mat4
 transform
 PictureTask
 pic_task
+int
+brush_flags
 vec4
 unused
 )
