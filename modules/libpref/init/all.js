@@ -1015,6 +1015,11 @@ mail
 google
 .
 com
+hangouts
+.
+google
+.
+com
 "
 )
 ;
