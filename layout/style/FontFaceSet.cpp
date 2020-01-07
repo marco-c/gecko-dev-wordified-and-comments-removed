@@ -4790,6 +4790,17 @@ SheetType
 aSheetType
 )
 {
+FontFaceSet
+*
+set
+=
+aFontFace
+-
+>
+GetPrimaryFontFaceSet
+(
+)
+;
 nsCSSValue
 val
 ;
@@ -5573,6 +5584,9 @@ face
 >
 mReferrerPolicy
 =
+set
+-
+>
 mDocument
 -
 >
@@ -6020,6 +6034,9 @@ gfxUserFontEntry
 >
 entry
 =
+set
+-
+>
 mUserFontSet
 -
 >

@@ -450,6 +450,7 @@ aIsRebuild
 false
 )
 ;
+static
 already_AddRefed
 <
 gfxUserFontEntry
@@ -851,6 +852,7 @@ mLoadEventShouldFire
 ;
 }
 ;
+static
 already_AddRefed
 <
 gfxUserFontEntry

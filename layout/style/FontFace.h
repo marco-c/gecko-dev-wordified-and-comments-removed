@@ -360,6 +360,17 @@ FontFaceSet
 aFontFaceSet
 )
 ;
+FontFaceSet
+*
+GetPrimaryFontFaceSet
+(
+)
+const
+{
+return
+mFontFaceSet
+;
+}
 bool
 GetFamilyName
 (
