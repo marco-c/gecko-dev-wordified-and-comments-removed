@@ -3347,7 +3347,7 @@ mHaveAnimations
 gfxVars
 :
 :
-UseWebRender
+GetUseWebRenderOrDefault
 (
 )
 )

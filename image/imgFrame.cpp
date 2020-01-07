@@ -409,6 +409,14 @@ if
 aIsAnimated
 &
 &
+gfxVars
+:
+:
+GetUseWebRenderOrDefault
+(
+)
+&
+&
 gfxPrefs
 :
 :
