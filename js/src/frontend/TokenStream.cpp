@@ -2344,7 +2344,7 @@ AnyCharsAccess
 >
 :
 :
-getChar
+getCodePoint
 (
 int32_t
 *
@@ -3052,7 +3052,7 @@ c
 if
 (
 !
-getChar
+getCodePoint
 (
 &
 c
