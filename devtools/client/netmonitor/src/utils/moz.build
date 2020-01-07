@@ -72,13 +72,6 @@ firefox
 DevToolsModules
 (
 '
-create
--
-store
-.
-js
-'
-'
 filter
 -
 autocomplete
@@ -147,6 +140,13 @@ js
 '
 '
 prefs
+.
+js
+'
+'
+redux
+-
+connect
 .
 js
 '
