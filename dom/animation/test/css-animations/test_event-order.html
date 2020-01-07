@@ -222,8 +222,9 @@ time
 ]
 *
 /
-function
+const
 checkEvents
+=
 (
 actualEvents
 .
@@ -231,6 +232,8 @@ actualEvents
 .
 expectedEvents
 )
+=
+>
 {
 assert_equals
 (
@@ -379,13 +382,17 @@ match
 )
 ;
 }
-function
+;
+const
 setupAnimation
+=
 (
 t
 animationStyle
 receiveEvents
 )
+=
+>
 {
 const
 div
@@ -505,6 +512,7 @@ div
 ]
 ;
 }
+;
 promise_test
 (
 t
