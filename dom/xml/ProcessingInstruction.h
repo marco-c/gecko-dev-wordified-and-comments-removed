@@ -175,6 +175,13 @@ NodeName
 )
 ;
 }
+NS_IMPL_FROMCONTENT_HELPER
+(
+ProcessingInstruction
+IsProcessingInstruction
+(
+)
+)
 protected
 :
 virtual
