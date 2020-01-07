@@ -337,15 +337,6 @@ IsWebAnimationsEnabled
 interface
 AnimationEffect
 {
-[
-Cached
-Constant
-]
-readonly
-attribute
-AnimationEffectTimingReadOnly
-timing
-;
 EffectTiming
 getTiming
 (

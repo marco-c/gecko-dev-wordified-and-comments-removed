@@ -2615,16 +2615,6 @@ AnimationEffect
 webidl
 '
 '
-AnimationEffectTiming
-.
-webidl
-'
-'
-AnimationEffectTimingReadOnly
-.
-webidl
-'
-'
 AnimationEvent
 .
 webidl
