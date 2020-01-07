@@ -536,6 +536,24 @@ old_type
 [
 rel_path
 ]
+                
+if
+old_type
+=
+=
+"
+reftest
+"
+and
+new_type
+!
+=
+old_type
+:
+                    
+reftest_changes
+=
+True
             
 else
 :
