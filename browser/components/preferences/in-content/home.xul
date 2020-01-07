@@ -301,7 +301,7 @@ description2
 /
 >
 <
-groupbox
+vbox
 >
 <
 hbox
@@ -1033,7 +1033,7 @@ hbox
 >
 <
 /
-groupbox
+vbox
 >
 <
 /
