@@ -129,7 +129,7 @@ store
 -
 objects
 -
-updated
+edit
 "
 )
 ;
