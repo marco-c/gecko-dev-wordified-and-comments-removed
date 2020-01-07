@@ -1480,7 +1480,6 @@ const
 nsStaticAtom
 *
 const
-*
 mTag
 ;
 const
