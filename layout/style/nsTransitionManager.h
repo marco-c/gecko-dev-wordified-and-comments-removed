@@ -79,9 +79,6 @@ CSSPseudoElementType
 :
 uint8_t
 ;
-class
-GeckoComputedStyle
-;
 struct
 Keyframe
 ;

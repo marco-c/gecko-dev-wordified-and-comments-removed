@@ -228,9 +228,6 @@ EffectSet
 class
 ComputedStyle
 ;
-class
-GeckoComputedStyle
-;
 namespace
 dom
 {

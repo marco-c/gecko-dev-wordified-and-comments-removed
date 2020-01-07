@@ -118,9 +118,6 @@ class
 Promise
 ;
 }
-class
-GeckoComputedStyle
-;
 enum
 class
 CSSPseudoElementType
