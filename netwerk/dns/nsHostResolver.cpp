@@ -1045,9 +1045,6 @@ mBlacklistedCount
 delete
 addr_info
 ;
-delete
-addr
-;
 }
 bool
 nsHostRecord
@@ -1667,6 +1664,10 @@ n
 mallocSizeOf
 (
 addr
+.
+get
+(
+)
 )
 ;
 n
@@ -3924,8 +3925,10 @@ rec
 >
 addr
 =
-new
+MakeUnique
+<
 NetAddr
+>
 (
 )
 ;
@@ -3940,6 +3943,10 @@ rec
 -
 >
 addr
+.
+get
+(
+)
 )
 ;
 Telemetry

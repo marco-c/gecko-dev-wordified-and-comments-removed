@@ -808,6 +808,10 @@ mHostRecord
 -
 >
 addr
+.
+get
+(
+)
 sizeof
 (
 NetAddr
@@ -1094,6 +1098,10 @@ mHostRecord
 -
 >
 addr
+.
+get
+(
+)
 sizeof
 (
 NetAddr
