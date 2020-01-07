@@ -748,6 +748,13 @@ AutoLock
 &
 )
 ;
+void
+CloseInternal
+(
+AutoLock
+&
+)
+;
 RefPtr
 <
 MediaCache
