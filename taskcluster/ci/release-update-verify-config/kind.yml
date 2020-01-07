@@ -519,8 +519,6 @@ birch
 :
 by
 -
-build
--
 platform
 :
 linux
@@ -595,8 +593,6 @@ release
 :
 by
 -
-build
--
 platform
 :
 linux
@@ -647,8 +643,6 @@ mozilla
 esr52
 :
 by
--
-build
 -
 platform
 :
