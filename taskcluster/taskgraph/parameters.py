@@ -406,6 +406,12 @@ release_type
 '
     
 '
+release_product
+'
+:
+None
+    
+'
 target_tasks_method
 '
 :

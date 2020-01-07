@@ -1051,7 +1051,7 @@ tasks
 -
 method
 :
-promote_devedition
+promote_desktop
 promote_fennec
 :
 product
@@ -1075,7 +1075,7 @@ tasks
 -
 method
 :
-promote_firefox
+promote_desktop
 promote_firefox_partners
 :
 product
@@ -1133,7 +1133,7 @@ tasks
 -
 method
 :
-promote_firefox
+promote_desktop
 promote_firefox_rc
 :
 product
@@ -1150,7 +1150,7 @@ tasks
 -
 method
 :
-promote_firefox
+promote_desktop
 push_devedition
 :
 product
@@ -1162,7 +1162,7 @@ tasks
 -
 method
 :
-push_devedition
+push_desktop
 push_firefox
 :
 product
@@ -1174,7 +1174,7 @@ tasks
 -
 method
 :
-push_firefox
+push_desktop
 ship_devedition
 :
 product
@@ -1186,7 +1186,7 @@ tasks
 -
 method
 :
-ship_devedition
+ship_desktop
 ship_fennec
 :
 product
@@ -1227,7 +1227,7 @@ tasks
 -
 method
 :
-ship_firefox
+ship_desktop
 ship_firefox_rc
 :
 product
@@ -1244,7 +1244,7 @@ tasks
 -
 method
 :
-ship_firefox
+ship_desktop
 scriptworker
 :
 #

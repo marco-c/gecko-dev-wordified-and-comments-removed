@@ -642,11 +642,7 @@ promote_fennec
 '
     
 '
-promote_firefox
-'
-    
-'
-promote_devedition
+promote_desktop
 '
 ]
 )
@@ -665,19 +661,11 @@ ship_fennec
 '
     
 '
-push_firefox
+push_desktop
 '
     
 '
-ship_firefox
-'
-    
-'
-push_devedition
-'
-    
-'
-ship_devedition
+ship_desktop
 '
 ]
 )

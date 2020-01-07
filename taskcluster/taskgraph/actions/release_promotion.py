@@ -1926,6 +1926,15 @@ release_enable_emefree
 parameters
 [
 '
+release_product
+'
+]
+=
+product
+    
+parameters
+[
+'
 optimize_target_tasks
 '
 ]
