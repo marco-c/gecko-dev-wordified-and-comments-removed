@@ -105,6 +105,11 @@ TestADAM7InterpolatingFilter
 cpp
 '
 '
+TestAnimationFrameBuffer
+.
+cpp
+'
+'
 TestContainers
 .
 cpp
