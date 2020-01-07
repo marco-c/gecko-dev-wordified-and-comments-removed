@@ -3876,7 +3876,7 @@ nsFrameLoader
 :
 ShowRemoteFrame
 "
-GRAPHICS
+OTHER
 )
 ;
 NS_ASSERTION
@@ -9726,10 +9726,7 @@ mDocShell
 >
 SetAncestorPrincipals
 (
-std
-:
-:
-move
+Move
 (
 ancestorPrincipals
 )
@@ -9774,10 +9771,7 @@ mDocShell
 >
 SetAncestorOuterWindowIDs
 (
-std
-:
-:
-move
+Move
 (
 ancestorOuterWindowIDs
 )
@@ -13016,6 +13010,7 @@ mMessageManager
 new
 ChromeMessageSender
 (
+nullptr
 parentManager
 )
 ;
@@ -14859,7 +14854,7 @@ return
 NS_OK
 ;
 }
-ProcessMessageManager
+ChromeMessageSender
 *
 nsFrameLoader
 :

@@ -21445,7 +21445,7 @@ ChildView
 :
 drawRect
 "
-GRAPHICS
+OTHER
 )
 ;
 /
@@ -21918,7 +21918,7 @@ ChildView
 :
 drawUsingOpenGL
 "
-GRAPHICS
+OTHER
 )
 ;
 if
@@ -23175,10 +23175,7 @@ releaserRunnable
 new
 WidgetsReleaserRunnable
 (
-std
-:
-:
-move
+Move
 (
 widgetArray
 )
