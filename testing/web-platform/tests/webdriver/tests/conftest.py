@@ -10,15 +10,25 @@ import
 (
     
 add_browser_capabilites
+    
+add_event_listeners
+    
 configuration
+    
 create_dialog
+    
 create_frame
     
 create_window
+    
 http
+    
 new_session
+    
 server_config
+    
 session
+    
 url
 )
 pytest
@@ -28,6 +38,14 @@ fixture
 )
 (
 add_browser_capabilites
+)
+pytest
+.
+fixture
+(
+)
+(
+add_event_listeners
 )
 pytest
 .
