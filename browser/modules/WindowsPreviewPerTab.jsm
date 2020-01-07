@@ -3319,6 +3319,11 @@ onEndUpdateBatch
 )
 {
 }
+onVisits
+(
+)
+{
+}
 onTitleChanged
 (
 )

@@ -255,6 +255,11 @@ onEndUpdateBatch
 )
 {
 }
+onVisits
+(
+)
+{
+}
 onTitleChanged
 (
 )

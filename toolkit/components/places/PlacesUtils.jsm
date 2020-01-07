@@ -2078,9 +2078,6 @@ moz
 action
 :
 "
-observers
-:
-PlacesObservers
 virtualAllBookmarksGuid
 :
 "

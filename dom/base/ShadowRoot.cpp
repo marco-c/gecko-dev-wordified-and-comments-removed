@@ -25,6 +25,17 @@ mozilla
 /
 dom
 /
+ShadowRootBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentFragment
 .
 h
