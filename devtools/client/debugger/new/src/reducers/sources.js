@@ -820,7 +820,7 @@ state
 }
 case
 "
-SELECT_SOURCE
+SET_SELECTED_LOCATION
 "
 :
 location
@@ -886,7 +886,7 @@ location
 ;
 case
 "
-CLEAR_SELECTED_SOURCE
+CLEAR_SELECTED_LOCATION
 "
 :
 location
@@ -932,7 +932,7 @@ location
 ;
 case
 "
-SELECT_SOURCE_URL
+SET_PENDING_SELECTED_LOCATION
 "
 :
 location
@@ -1957,13 +1957,13 @@ function
 getGeneratedSource
 (
 state
-source
+sourceRecord
 )
 {
 if
 (
 !
-source
+sourceRecord
 |
 |
 !
@@ -1974,7 +1974,7 @@ _devtoolsSourceMap
 isOriginalId
 )
 (
-source
+sourceRecord
 .
 id
 )
@@ -1995,7 +1995,7 @@ _devtoolsSourceMap
 originalToGeneratedId
 )
 (
-source
+sourceRecord
 .
 id
 )

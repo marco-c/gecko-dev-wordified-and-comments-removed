@@ -1131,7 +1131,7 @@ action
 command
 previousLocation
 :
-buildPreviousLocation
+getPauseLocation
 (
 state
 action
@@ -1258,7 +1258,7 @@ state
 ;
 }
 function
-buildPreviousLocation
+getPauseLocation
 (
 state
 action
@@ -1296,17 +1296,9 @@ frames
 &
 &
 frames
-.
-length
->
-0
-?
-frames
 [
 0
 ]
-:
-null
 ;
 if
 (

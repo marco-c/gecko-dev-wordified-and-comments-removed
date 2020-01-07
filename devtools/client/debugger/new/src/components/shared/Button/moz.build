@@ -69,7 +69,7 @@ DIRS
 DevToolsModules
 (
 '
-Close
+CloseButton
 .
 js
 '
@@ -79,7 +79,12 @@ CommandBarButton
 js
 '
 '
-PaneToggle
+index
+.
+js
+'
+'
+PaneToggleButton
 .
 js
 '

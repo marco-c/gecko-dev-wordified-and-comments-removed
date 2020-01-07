@@ -390,6 +390,11 @@ if
 relatedTarget
 &
 &
+relatedTarget
+.
+classList
+&
+&
 (
 relatedTarget
 .
