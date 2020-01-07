@@ -119,6 +119,10 @@ styleDocument
 querySelectorAll
 (
 "
+#
+computed
+-
+container
 .
 computed
 -
@@ -268,6 +272,10 @@ styleDocument
 querySelectorAll
 (
 "
+#
+computed
+-
+container
 .
 computed
 -
@@ -586,6 +594,10 @@ contentDoc
 querySelector
 (
 "
+#
+computed
+-
+container
 .
 computed
 -
@@ -680,6 +692,10 @@ contentDocument
 querySelectorAll
 (
 "
+#
+computed
+-
+container
 .
 computed
 -

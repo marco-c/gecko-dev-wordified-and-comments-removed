@@ -141,9 +141,6 @@ sidebarTools
 =
 [
 "
-ruleview
-"
-"
 computedview
 "
 "
@@ -270,7 +267,7 @@ DEVTOOLS_RULEVIEW_OPENED_COUNT
 "
 "
 [
-3
+1
 0
 0
 ]
@@ -287,7 +284,7 @@ DEVTOOLS_COMPUTEDVIEW_OPENED_COUNT
 "
 "
 [
-2
+3
 0
 0
 ]
@@ -327,19 +324,6 @@ DEVTOOLS_FONTINSPECTOR_OPENED_COUNT
 ]
 "
 array
-"
-)
-;
-checkTelemetry
-(
-"
-DEVTOOLS_RULEVIEW_TIME_ACTIVE_SECONDS
-"
-"
-"
-null
-"
-hasentries
 "
 )
 ;
