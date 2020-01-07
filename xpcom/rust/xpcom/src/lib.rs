@@ -75,6 +75,16 @@ refptr
 :
 *
 ;
+mod
+statics
+;
+pub
+use
+statics
+:
+:
+*
+;
 pub
 mod
 interfaces
