@@ -389,6 +389,17 @@ error
 operator
 )
 {
+let
+truncateLength
+=
+error
+.
+truncate
+?
+kTruncateLength
+:
+Infinity
+;
 message
 +
 =
@@ -406,6 +417,7 @@ prefix
 truncate
 (
 actual
+truncateLength
 )
 +
 "
@@ -421,6 +433,7 @@ operator
 truncate
 (
 expected
+truncateLength
 )
 ;
 }
@@ -479,6 +492,9 @@ this
 options
 .
 message
+options
+.
+truncate
 )
 ;
 let
@@ -610,6 +626,9 @@ actual
 expected
 message
 operator
+truncate
+=
+true
 )
 {
 let
@@ -625,6 +644,7 @@ message
 actual
 expected
 operator
+truncate
 }
 )
 ;
@@ -787,6 +807,7 @@ message
 "
 deepEqual
 "
+false
 )
 ;
 }
@@ -820,6 +841,7 @@ message
 "
 notDeepEqual
 "
+false
 )
 ;
 }
