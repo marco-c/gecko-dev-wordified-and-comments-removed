@@ -861,7 +861,6 @@ next
 enumerators
 )
 return
-&
 next
 -
 >

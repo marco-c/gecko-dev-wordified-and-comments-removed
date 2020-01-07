@@ -182,14 +182,13 @@ NativeIterator
 )
 ;
 JSObject
-&
+*
 objectBeingIterated
 (
 )
 const
 {
 return
-*
 objectBeingIterated_
 ;
 }
