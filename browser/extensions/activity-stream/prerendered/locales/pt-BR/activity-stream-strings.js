@@ -250,12 +250,12 @@ tem
 certeza
 que
 deseja
-deletar
+excluir
 todas
 as
-ocorr
+inst
 ncias
-dessa
+desta
 p
 gina
 do
@@ -351,8 +351,7 @@ section_info_send_feedback
 :
 "
 Enviar
-opini
-o
+feedback
 "
 "
 section_info_privacy_notice

@@ -463,9 +463,6 @@ settings_pane_topstories_options_sponsored
 "
 :
 "
-Show
-Sponsored
-Stories
 "
 "
 edit_topsites_button_text
