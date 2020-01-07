@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 GuardObjects
 .
 h
@@ -168,6 +177,7 @@ template
 typename
 ExitFunction
 >
+MOZ_MUST_USE
 ScopeExit
 <
 ExitFunction
