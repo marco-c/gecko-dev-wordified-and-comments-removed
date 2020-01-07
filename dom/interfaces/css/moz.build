@@ -123,11 +123,6 @@ nsIDOMCSSPrimitiveValue
 idl
 '
 '
-nsIDOMCSSRuleList
-.
-idl
-'
-'
 nsIDOMCSSStyleDeclaration
 .
 idl
