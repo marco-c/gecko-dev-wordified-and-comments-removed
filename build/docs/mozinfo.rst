@@ -306,13 +306,6 @@ mobile
 /
 android
 .
-For
-B2G
-it
-'
-s
-b2g
-.
 crashreporter
 Whether
 the
@@ -466,7 +459,6 @@ are
 linux
 win
 mac
-b2g
 and
 android
 .
