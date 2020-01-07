@@ -103,13 +103,6 @@ DevToolsModules
 '
 accessibility
 -
-panel
-.
-js
-'
-'
-accessibility
--
 startup
 .
 js
@@ -128,6 +121,11 @@ css
 '
 '
 constants
+.
+js
+'
+'
+panel
 .
 js
 '

@@ -84,8 +84,6 @@ content
 DevToolsModules
 (
 '
-dom
--
 panel
 .
 js

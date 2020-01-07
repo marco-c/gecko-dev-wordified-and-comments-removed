@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+panel
+.
+js
+'
+'
 scratchpad
 -
 commands
@@ -100,13 +105,6 @@ scratchpad
 manager
 .
 jsm
-'
-'
-scratchpad
--
-panel
-.
-js
 '
 )
 BROWSER_CHROME_MANIFESTS

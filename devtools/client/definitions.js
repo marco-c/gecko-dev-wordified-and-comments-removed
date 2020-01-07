@@ -199,8 +199,6 @@ client
 /
 styleeditor
 /
-styleeditor
--
 panel
 "
 )
@@ -427,8 +425,6 @@ client
 /
 scratchpad
 /
-scratchpad
--
 panel
 "
 )
@@ -457,8 +453,6 @@ client
 /
 dom
 /
-dom
--
 panel
 "
 )
@@ -487,8 +481,6 @@ client
 /
 accessibility
 /
-accessibility
--
 panel
 "
 )
