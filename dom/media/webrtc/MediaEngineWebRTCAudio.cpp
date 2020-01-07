@@ -3113,7 +3113,12 @@ aStream
 AddAudioTrack
 (
 aID
-mSampleFrequency
+aStream
+-
+>
+GraphRate
+(
+)
 0
 segment
 SourceMediaStream
@@ -3207,11 +3212,6 @@ Get
 true
 )
 ;
-if
-(
-mAudioOutputObserver
-)
-{
 mAudioOutputObserver
 -
 >
@@ -3219,7 +3219,6 @@ Clear
 (
 )
 ;
-}
 mAudioInput
 -
 >
@@ -3449,7 +3448,10 @@ aChannels
 {
 if
 (
-mAudioOutputObserver
+!
+PassThrough
+(
+)
 )
 {
 mAudioOutputObserver
@@ -3603,7 +3605,7 @@ Size
 0
 )
 {
-UniquePtr
+nsAutoPtr
 <
 FarEndAudioChunk
 >
