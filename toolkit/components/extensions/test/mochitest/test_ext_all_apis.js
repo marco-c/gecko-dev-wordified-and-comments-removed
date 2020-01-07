@@ -401,6 +401,16 @@ runtime
 setUninstallURL
 "
 "
+theme
+.
+getCurrent
+"
+"
+theme
+.
+onUpdated
+"
+"
 types
 .
 LevelOfControl
