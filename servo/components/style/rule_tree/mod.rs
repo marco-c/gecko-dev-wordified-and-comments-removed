@@ -2360,8 +2360,8 @@ CascadeLevel
 UANormal
 =
 0
-PresHints
 UserNormal
+PresHints
 AuthorNormal
 StyleAttributeNormal
 SMILOverride
