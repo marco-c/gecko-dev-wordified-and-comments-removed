@@ -816,7 +816,7 @@ bool
 PDFViaEMFPrintHelper
 :
 :
-DrawPageToFile
+SavePageToFile
 (
 const
 wchar_t
