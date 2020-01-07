@@ -5942,13 +5942,10 @@ tables
 return
 false
 ;
-auto
-globalSegment
+UniqueTlsData
+tlsData
 =
-GlobalSegment
-:
-:
-create
+CreateTlsData
 (
 metadata
 (
@@ -5960,7 +5957,7 @@ globalDataLength
 if
 (
 !
-globalSegment
+tlsData
 )
 {
 ReportOutOfMemory
@@ -6190,7 +6187,7 @@ debug
 )
 Move
 (
-globalSegment
+tlsData
 )
 memory
 Move
