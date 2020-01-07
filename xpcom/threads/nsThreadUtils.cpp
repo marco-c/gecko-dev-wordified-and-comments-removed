@@ -156,6 +156,17 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+RELEASE_OR_BETA
+NS_IMPL_ISUPPORTS
+(
+Runnable
+nsIRunnable
+nsINamed
+)
+#
+else
 NS_IMPL_NAMED_ADDREF
 (
 Runnable
@@ -172,6 +183,8 @@ Runnable
 nsIRunnable
 nsINamed
 )
+#
+endif
 NS_IMETHODIMP
 Runnable
 :
