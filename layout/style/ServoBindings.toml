@@ -1951,9 +1951,6 @@ nsCSSValuePairList
 nsCSSValuePairList_heap
 "
 "
-nsCSSValueTokenStream
-"
-"
 nsCSSValueTriplet_heap
 "
 "
