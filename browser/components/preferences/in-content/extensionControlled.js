@@ -348,9 +348,7 @@ settingName
 {
 case
 "
-proxy
-.
-settings
+proxyConfig
 "
 :
 return
@@ -368,10 +366,6 @@ getString
 (
 "
 brandShortName
-"
-)
-]
-;
 default
 :
 return
