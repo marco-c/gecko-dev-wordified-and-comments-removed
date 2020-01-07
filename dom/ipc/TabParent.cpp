@@ -53,6 +53,17 @@ mozilla
 /
 dom
 /
+ChromeMessageSender
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ContentBridgeParent
 .
 h
