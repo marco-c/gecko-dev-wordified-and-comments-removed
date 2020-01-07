@@ -65,15 +65,6 @@ acc
 )
 ;
 let
-contentDPR
-=
-await
-getContentDPR
-(
-browser
-)
-;
-let
 [
 x
 y
@@ -84,7 +75,6 @@ height
 getBounds
 (
 acc
-contentDPR
 )
 ;
 let
@@ -136,11 +126,9 @@ of
 prettyAccName
 )
 ;
-ok
+is
 (
 height
->
-=
 expectedHeight
 "
 Wrong
