@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -112,7 +121,7 @@ const
 nsAString
 &
 aPostscriptName
-int32_t
+FontWeight
 aWeight
 bool
 aIsStandardFace
@@ -134,7 +143,7 @@ nsAString
 aPostscriptName
 CGFontRef
 aFontRef
-uint16_t
+FontWeight
 aWeight
 uint16_t
 aStretch
@@ -470,7 +479,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -487,7 +496,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch

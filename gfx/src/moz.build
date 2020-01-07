@@ -276,6 +276,11 @@ ArrayView
 .
 h
 '
+'
+FontPropertyTypes
+.
+h
+'
 ]
 EXPORTS
 .

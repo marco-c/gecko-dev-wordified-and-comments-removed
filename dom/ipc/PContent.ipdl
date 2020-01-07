@@ -975,7 +975,7 @@ faceName
 nsCString
 filepath
 ;
-uint16_t
+float
 weight
 ;
 int16_t

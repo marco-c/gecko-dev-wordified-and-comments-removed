@@ -573,6 +573,10 @@ aStyle
 -
 >
 weight
+.
+ToIntRounded
+(
+)
 DWriteFontStretchFromStretch
 (
 aStyle

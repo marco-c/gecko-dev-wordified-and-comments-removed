@@ -2574,7 +2574,7 @@ GetFontEntry
 )
 )
 ;
-uint16_t
+FontWeight
 weight
 ;
 if
@@ -2599,7 +2599,10 @@ IsLocalUserFont
 {
 weight
 =
+FontWeight
+(
 0
+)
 ;
 }
 else
@@ -2608,9 +2611,15 @@ weight
 =
 mNeedsBold
 ?
+FontWeight
+(
 700
+)
 :
+FontWeight
+(
 200
+)
 ;
 }
 }
@@ -2620,7 +2629,10 @@ weight
 =
 mNeedsBold
 ?
+FontWeight
+(
 700
+)
 :
 fe
 -

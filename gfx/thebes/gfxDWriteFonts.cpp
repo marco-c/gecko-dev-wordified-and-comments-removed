@@ -40,6 +40,15 @@ hb
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FontPropertyTypes
+.
+h
+"
 using
 namespace
 mozilla
@@ -471,7 +480,10 @@ style
 .
 weight
 =
+FontWeight
+(
 700
+)
 ;
 bool
 needsBold
@@ -590,7 +602,10 @@ Weight
 )
 =
 =
+FontWeight
+(
 900
+)
 &
 &
 !

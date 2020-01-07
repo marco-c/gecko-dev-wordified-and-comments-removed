@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h
@@ -309,7 +318,6 @@ DoRebuildUserFontSet
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfxUserFontEntry
@@ -323,7 +331,7 @@ gfxFontFaceSrc
 >
 &
 aFontFaceSrcList
-uint32_t
+FontWeight
 aWeight
 int32_t
 aStretch
@@ -1032,7 +1040,7 @@ SharedFontList
 >
 &
 aFamilyList
-uint32_t
+FontWeight
 &
 aWeight
 int32_t

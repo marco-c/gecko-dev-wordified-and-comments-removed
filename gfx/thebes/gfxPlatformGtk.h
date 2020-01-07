@@ -239,7 +239,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch
@@ -257,7 +257,7 @@ const
 nsAString
 &
 aFontName
-uint16_t
+FontWeight
 aWeight
 int16_t
 aStretch

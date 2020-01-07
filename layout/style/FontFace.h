@@ -18,6 +18,15 @@ h
 #
 include
 "
+mozilla
+/
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h
@@ -151,7 +160,7 @@ gfxFontFaceSrc
 >
 &
 aFontFaceSrcList
-uint32_t
+FontWeight
 aWeight
 int32_t
 aStretch
