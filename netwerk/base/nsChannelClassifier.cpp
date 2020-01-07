@@ -4823,6 +4823,14 @@ ShouldEnableTrackingAnnotation
 )
 )
 ;
+mChannelClassifier
+-
+>
+NotifyTrackingProtectionDisabled
+(
+channel
+)
+;
 SetIsTrackingResourceHelper
 (
 channel
