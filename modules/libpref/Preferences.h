@@ -159,7 +159,7 @@ enum
 class
 PrefValueKind
 :
-bool
+uint8_t
 {
 Default
 User
