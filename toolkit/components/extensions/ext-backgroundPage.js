@@ -201,7 +201,7 @@ this
 .
 browser
 .
-loadURIWithFlags
+loadURI
 (
 this
 .

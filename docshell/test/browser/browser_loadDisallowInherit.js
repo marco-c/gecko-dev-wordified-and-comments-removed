@@ -115,7 +115,7 @@ func
 ;
 browser
 .
-loadURIWithFlags
+loadURI
 (
 url
 {
