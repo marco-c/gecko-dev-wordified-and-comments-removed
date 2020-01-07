@@ -122,9 +122,6 @@ value
 "
 )
 ;
-return
-true
-;
 }
 )
 ;

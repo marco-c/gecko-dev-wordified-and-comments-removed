@@ -1,0 +1,16 @@
+var
+x
+=
+"
+"
+.
+search
+(
+)
+;
+reportCompare
+(
+0
+0
+)
+;

@@ -97,10 +97,12 @@ pr
 )
 )
 ;
-testArraysAreSame
+assert
+.
+compareArray
 (
-referenceSelected
 actual
+referenceSelected
 )
 ;
 reportCompare

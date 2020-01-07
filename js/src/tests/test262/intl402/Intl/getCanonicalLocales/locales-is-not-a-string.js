@@ -36,6 +36,16 @@ assertArray
 (
 gCL
 (
+undefined
+)
+[
+]
+)
+;
+assertArray
+(
+gCL
+(
 false
 )
 [

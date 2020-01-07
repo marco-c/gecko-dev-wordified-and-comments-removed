@@ -79,6 +79,9 @@ null
 null
 ]
 [
+undefined
+]
+[
 true
 ]
 [

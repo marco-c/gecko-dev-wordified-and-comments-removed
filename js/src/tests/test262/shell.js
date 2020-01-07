@@ -485,7 +485,7 @@ err
 code
 )
 {
-let
+var
 wrappedCode
 =
 '
@@ -502,7 +502,7 @@ code
 }
 '
 ;
-let
+var
 ieval
 =
 eval
