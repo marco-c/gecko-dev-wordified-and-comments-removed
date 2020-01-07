@@ -1,0 +1,17 @@
+"
+"
+"
+Get
+Byteorder
+of
+host
+architecture
+"
+"
+"
+import
+sys
+print
+sys
+.
+byteorder

@@ -38,7 +38,7 @@ Run
 '
 expand
 '
-supressing
+suppressing
 noisy
 output
 .
