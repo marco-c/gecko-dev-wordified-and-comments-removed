@@ -8,9 +8,13 @@ set
 -
 xe
 test
+"
 PARENT_TASK_ARTIFACTS_URL_PREFIX
+"
 test
+"
 BALROG_API_ROOT
+"
 #
 BALROG_BLOB_SUFFIX
 is
@@ -33,7 +37,9 @@ with
 -
 "
 test
+"
 BALROG_BLOB_SUFFIX
+"
 ARTIFACTS_DIR
 =
 "
@@ -128,4 +134,6 @@ BALROG_API_ROOT
 -
 verbose
 \
+"
 EXTRA_BALROG_SUBMITTER_PARAMS
+"
