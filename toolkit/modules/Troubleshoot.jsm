@@ -1526,6 +1526,16 @@ winUtils
 isStyledByServo
 ;
 }
+data
+.
+policiesStatus
+=
+Services
+.
+policies
+.
+status
+;
 const
 keyGoogle
 =

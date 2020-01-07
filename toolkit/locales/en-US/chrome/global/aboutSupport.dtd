@@ -802,6 +802,17 @@ Processes
 ENTITY
 aboutSupport
 .
+enterprisePolicies
+"
+Enterprise
+Policies
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 appBasicsKeyGoogle
 "
 Google

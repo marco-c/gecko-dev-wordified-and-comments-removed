@@ -750,6 +750,15 @@ type
 boolean
 "
 }
+policiesStatus
+:
+{
+type
+:
+"
+number
+"
+}
 keyGoogleFound
 :
 {
