@@ -2179,6 +2179,17 @@ return
 if
 (
 aDeferOtherFamilyNamesLoading
+&
+&
+Preferences
+:
+:
+GetUint
+(
+FONT_LOADER_DELAY_PREF
+)
+>
+0
 )
 {
 if
