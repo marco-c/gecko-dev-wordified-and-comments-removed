@@ -1327,15 +1327,6 @@ client
 /
 webconsole
 /
-hudservice
-.
-js
-devtools
-/
-client
-/
-webconsole
-/
 webconsole
 -
 connection
