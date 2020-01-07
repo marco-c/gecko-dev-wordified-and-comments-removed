@@ -3613,13 +3613,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mLoginReputationService
--
->
-Init
-(
-)
-;
 }
 mLoginReputationService
 -
