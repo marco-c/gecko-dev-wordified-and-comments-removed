@@ -172,11 +172,6 @@ GlobalState
 jsm
 '
 '
-PrivacyFilter
-.
-jsm
-'
-'
 RecentlyClosedTabsAndWindowsMenuUtils
 .
 jsm

@@ -1773,6 +1773,13 @@ sessionstore
 '
 sessionstore
 /
+PrivacyFilter
+.
+jsm
+'
+'
+sessionstore
+/
 PrivacyLevel
 .
 jsm
