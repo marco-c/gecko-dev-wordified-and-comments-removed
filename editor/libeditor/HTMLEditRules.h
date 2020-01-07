@@ -1207,12 +1207,13 @@ nsIContent
 aBRNode
 )
 ;
+MOZ_MUST_USE
 nsresult
 ReturnInListItem
 (
 Element
 &
-aHeader
+aListItem
 nsINode
 &
 aNode
