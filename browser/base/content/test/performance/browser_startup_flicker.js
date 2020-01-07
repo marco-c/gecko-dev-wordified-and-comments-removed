@@ -226,12 +226,14 @@ condition
 r
 =
 >
+inRange
+(
 r
 .
 h
-=
-=
+3
 5
+)
 &
 &
 inRange
@@ -239,7 +241,7 @@ inRange
 r
 .
 w
-8
+7
 9
 )
 &
