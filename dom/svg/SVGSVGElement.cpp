@@ -302,7 +302,7 @@ GetParentObject
 return
 static_cast
 <
-nsIDOMElement
+nsIDOMNode
 *
 >
 (
@@ -573,7 +573,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 SVGSVGElement
 SVGSVGElementBase
 nsIDOMNode
-nsIDOMElement
 )
 SVGView
 :

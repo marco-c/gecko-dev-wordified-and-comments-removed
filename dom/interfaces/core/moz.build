@@ -114,11 +114,6 @@ nsIDOMDocument
 idl
 '
 '
-nsIDOMElement
-.
-idl
-'
-'
 nsIDOMNode
 .
 idl

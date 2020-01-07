@@ -1137,7 +1137,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 nsSVGElement
 nsSVGElementBase
 nsIDOMNode
-nsIDOMElement
 )
 nsresult
 nsSVGElement
@@ -10693,7 +10692,7 @@ do_QueryInterface
 (
 static_cast
 <
-nsIDOMElement
+nsIDOMNode
 *
 >
 (

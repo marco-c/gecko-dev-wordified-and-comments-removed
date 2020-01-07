@@ -140,9 +140,6 @@ interface
 nsIDOMDocument
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIDOMNode
 ;
 /

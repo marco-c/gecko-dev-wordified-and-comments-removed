@@ -802,12 +802,6 @@ aSources
 )
 override
 ;
-NS_FORWARD_NSIDOMELEMENT
-(
-nsSVGFELightingElementBase
-:
-:
-)
 NS_IMETHOD_
 (
 bool

@@ -7,7 +7,7 @@ nsXBLChildrenElement_h___
 #
 include
 "
-nsIDOMElement
+nsIDOMNode
 .
 h
 "

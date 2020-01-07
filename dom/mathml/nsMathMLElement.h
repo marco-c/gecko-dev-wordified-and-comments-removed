@@ -34,7 +34,7 @@ h
 #
 include
 "
-nsIDOMElement
+nsIDOMNode
 .
 h
 "
@@ -80,7 +80,7 @@ final
 public
 nsMathMLElementBase
 public
-nsIDOMElement
+nsIDOMNode
 public
 mozilla
 :

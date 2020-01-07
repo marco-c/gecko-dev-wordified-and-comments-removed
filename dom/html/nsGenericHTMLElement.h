@@ -32,7 +32,7 @@ h
 #
 include
 "
-nsIDOMElement
+nsIDOMNode
 .
 h
 "
@@ -180,7 +180,7 @@ nsGenericHTMLElement
 public
 nsGenericHTMLElementBase
 public
-nsIDOMElement
+nsIDOMNode
 {
 public
 :
