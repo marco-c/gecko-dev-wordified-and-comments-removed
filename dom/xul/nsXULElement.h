@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsFrameLoader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -184,6 +177,9 @@ h
 "
 class
 nsIDocument
+;
+class
+nsFrameLoader
 ;
 class
 nsXULPrototypeDocument

@@ -227,9 +227,9 @@ mm
 =
 mChromeMessageManager
 ;
-nsCOMPtr
+RefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 fl
 =
@@ -312,9 +312,9 @@ HandleMessage
 )
 override
 {
-nsCOMPtr
+RefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 fl
 =
@@ -1652,7 +1652,7 @@ tmp
 }
 already_AddRefed
 <
-nsIFrameLoader
+nsFrameLoader
 >
 nsInProcessTabChildGlobal
 :
@@ -1672,9 +1672,9 @@ do_QueryInterface
 mOwner
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 fl
 =

@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-MozFrameLoader
-;
-interface
 nsIEventTarget
 ;
 interface
@@ -231,7 +228,7 @@ Principal
 ?
 principal
 ;
-MozFrameLoader
+FrameLoader
 targetFrameLoader
 ;
 }

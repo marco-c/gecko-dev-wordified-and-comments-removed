@@ -230,9 +230,6 @@ class
 nsFrameLoader
 ;
 class
-nsIFrameLoader
-;
-class
 nsIContent
 ;
 class
@@ -2227,16 +2224,6 @@ TabParent
 GetFrom
 (
 nsFrameLoader
-*
-aFrameLoader
-)
-;
-static
-TabParent
-*
-GetFrom
-(
-nsIFrameLoader
 *
 aFrameLoader
 )

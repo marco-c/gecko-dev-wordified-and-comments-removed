@@ -563,7 +563,7 @@ GetWrapper
 }
 already_AddRefed
 <
-nsIFrameLoader
+nsFrameLoader
 >
 GetFrameLoader
 (

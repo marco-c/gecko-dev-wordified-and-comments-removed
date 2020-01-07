@@ -215,7 +215,7 @@ CpowHolder
 h
 "
 class
-nsIFrameLoader
+nsFrameLoader
 ;
 namespace
 mozilla
@@ -1158,7 +1158,7 @@ ReceiveMessage
 nsISupports
 *
 aTarget
-nsIFrameLoader
+nsFrameLoader
 *
 aTargetFrameLoader
 const
@@ -1646,7 +1646,7 @@ ReceiveMessage
 nsISupports
 *
 aTarget
-nsIFrameLoader
+nsFrameLoader
 *
 aTargetFrameLoader
 bool
@@ -2027,7 +2027,7 @@ ReceiveMessage
 nsISupports
 *
 aTarget
-nsIFrameLoader
+nsFrameLoader
 *
 aTargetFrameLoader
 nsFrameMessageManager
