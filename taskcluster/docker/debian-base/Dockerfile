@@ -488,6 +488,10 @@ python3
 .
 5
 \
+python3
+-
+minimal
+\
 xz
 -
 utils
