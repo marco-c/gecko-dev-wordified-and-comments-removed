@@ -283,7 +283,7 @@ MOZ_ASSERT
 target
 -
 >
-isAtomsCompartment
+isAtomsRealm
 (
 )
 )
@@ -341,7 +341,7 @@ MOZ_ASSERT
 target
 -
 >
-isAtomsCompartment
+isAtomsRealm
 (
 )
 )
@@ -398,18 +398,12 @@ lock
 AutoRealm
 (
 cx
-JS
-:
-:
-GetRealmForCompartment
-(
 cx
 -
 >
-atomsCompartment
+atomsRealm
 (
 lock
-)
 )
 lock
 )

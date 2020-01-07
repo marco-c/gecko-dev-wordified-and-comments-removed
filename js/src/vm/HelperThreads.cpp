@@ -1909,10 +1909,16 @@ HelperThreadState
 threads
 |
 |
+JS
+:
+:
+GetRealmForCompartment
+(
 comp
+)
 -
 >
-isAtomsCompartment
+isAtomsRealm
 (
 )
 )

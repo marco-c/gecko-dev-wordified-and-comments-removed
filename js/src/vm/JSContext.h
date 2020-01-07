@@ -1234,9 +1234,12 @@ lock
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Realm
 *
-atomsCompartment
+atomsRealm
 (
 js
 :
@@ -1250,7 +1253,7 @@ return
 runtime_
 -
 >
-atomsCompartment
+atomsRealm
 (
 lock
 )

@@ -112,7 +112,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 =
@@ -120,7 +120,7 @@ compartment
 cx
 -
 >
-atomsCompartment
+atomsRealm
 (
 lock
 )
