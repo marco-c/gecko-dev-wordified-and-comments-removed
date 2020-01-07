@@ -2063,6 +2063,12 @@ BeginClearCachedResources
 (
 )
 ;
+mWebRenderCommandBuilder
+.
+ClearCachedResources
+(
+)
+;
 DiscardImages
 (
 )
