@@ -34,11 +34,6 @@ iconloadingprincipal
 "
 skipbackgroundnotify
 "
-"
-activemedia
--
-blocked
-"
 ]
 )
 ;

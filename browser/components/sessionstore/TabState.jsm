@@ -339,14 +339,6 @@ muteReason
 }
 tabData
 .
-mediaBlocked
-=
-browser
-.
-mediaBlocked
-;
-tabData
-.
 attributes
 =
 TabAttributes
