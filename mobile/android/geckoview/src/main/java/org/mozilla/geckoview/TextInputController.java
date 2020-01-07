@@ -474,7 +474,6 @@ private
 Delegate
 mInputConnection
 ;
-public
 TextInputController
 (
 final
