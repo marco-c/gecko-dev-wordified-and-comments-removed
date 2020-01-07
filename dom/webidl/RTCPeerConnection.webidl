@@ -481,11 +481,8 @@ setIdentityProvider
 DOMString
 provider
 optional
-DOMString
-protocol
-optional
-DOMString
-username
+RTCIdentityProviderOptions
+options
 )
 ;
 [
