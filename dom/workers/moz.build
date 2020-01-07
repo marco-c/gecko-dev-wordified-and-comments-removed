@@ -119,6 +119,11 @@ dom
 =
 [
 '
+SharedWorker
+.
+h
+'
+'
 WorkerLocation
 .
 h
@@ -203,11 +208,6 @@ bindings
 +
 =
 [
-'
-SharedWorker
-.
-h
-'
 '
 WorkerHolder
 .

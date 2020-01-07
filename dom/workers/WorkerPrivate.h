@@ -124,6 +124,9 @@ class
 PerformanceStorage
 ;
 class
+SharedWorker
+;
+class
 WorkerDebuggerGlobalScope
 ;
 class
@@ -138,9 +141,6 @@ WorkerOptions
 }
 }
 BEGIN_WORKERS_NAMESPACE
-class
-SharedWorker
-;
 class
 WorkerControlRunnable
 ;
