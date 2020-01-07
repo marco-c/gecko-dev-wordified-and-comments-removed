@@ -712,12 +712,11 @@ wr
 :
 BuiltDisplayListDescriptor
 dl_descriptor
-wr
-:
-:
-Vec_u8
-&
+uint8_t
+*
 dl_data
+size_t
+dl_size
 ResourceUpdateQueue
 &
 aResources

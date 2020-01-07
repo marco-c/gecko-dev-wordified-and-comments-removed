@@ -209,11 +209,6 @@ WebRenderAPI
 .
 cpp
 '
-'
-WebRenderTypes
-.
-cpp
-'
 ]
 if
 CONFIG
