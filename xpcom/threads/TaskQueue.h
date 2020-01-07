@@ -208,11 +208,6 @@ IsEmpty
 (
 )
 ;
-uint32_t
-ImpreciseLengthForHeuristics
-(
-)
-;
 bool
 IsCurrentThreadIn
 (
