@@ -444,6 +444,7 @@ char
 *
 name
 ;
+const
 XPTParamDescriptor
 *
 params
