@@ -188,7 +188,7 @@ retry
 get_automationrelevance
 attempts
 =
-2
+10
 sleeptime
 =
 10
