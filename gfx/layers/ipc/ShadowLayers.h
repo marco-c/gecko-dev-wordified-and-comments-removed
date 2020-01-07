@@ -562,6 +562,13 @@ mozilla
 :
 TimeStamp
 &
+aRefreshStart
+const
+mozilla
+:
+:
+TimeStamp
+&
 aTransactionStart
 bool
 *

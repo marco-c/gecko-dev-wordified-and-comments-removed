@@ -165,6 +165,8 @@ CompositorAnimationStorage
 aAnimStorage
 LayersId
 aId
+TimeDuration
+aVsyncRate
 )
 ;
 protected
@@ -321,6 +323,10 @@ aId
 const
 TimeStamp
 &
+aRefreshStartTime
+const
+TimeStamp
+&
 aTxnStartTime
 const
 TimeStamp
@@ -331,6 +337,10 @@ aFwdTime
 mPendingTransaction
 =
 aId
+;
+mRefreshStartTime
+=
+aRefreshStartTime
 ;
 mTxnStartTime
 =
@@ -997,8 +1007,14 @@ mChildEpoch
 uint64_t
 mParentEpoch
 ;
+TimeDuration
+mVsyncRate
+;
 TransactionId
 mPendingTransaction
+;
+TimeStamp
+mRefreshStartTime
 ;
 TimeStamp
 mTxnStartTime
