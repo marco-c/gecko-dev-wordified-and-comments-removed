@@ -1,0 +1,9 @@
+loaded
+.
+push
+(
+"
+fast
+"
+)
+;
