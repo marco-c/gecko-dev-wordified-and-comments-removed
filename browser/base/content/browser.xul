@@ -1603,6 +1603,11 @@ id
 "
 PopupAutoComplete
 "
+role
+=
+"
+group
+"
 noautofocus
 =
 "
@@ -1658,6 +1663,11 @@ id
 "
 PopupSearchAutoComplete
 "
+role
+=
+"
+group
+"
 noautofocus
 =
 "
@@ -1694,6 +1704,11 @@ id
 =
 "
 PopupAutoCompleteRichResult
+"
+role
+=
+"
+group
 "
 noautofocus
 =
