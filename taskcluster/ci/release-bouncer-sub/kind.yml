@@ -247,11 +247,9 @@ browser
 /
 locales
 /
-l10n
+shipped
 -
-changesets
-.
-json
+locales
 jobs
 :
 devedition

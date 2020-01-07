@@ -646,10 +646,15 @@ project
         
 all_locales
 =
-list
-(
 sorted
 (
+[
+            
+locale
+            
+for
+locale
+in
 parse_locales_file
 (
 job
@@ -665,7 +670,24 @@ file
 keys
 (
 )
+            
+if
+locale
+not
+in
+(
+'
+linux
+'
+'
+win32
+'
+'
+osx
+'
 )
+        
+]
 )
         
 job
@@ -1161,6 +1183,29 @@ previous_version
 )
         
 )
+        
+if
+'
+Installer
+.
+exe
+'
+in
+file_name
+and
+ftp_platform
+=
+=
+'
+win64
+'
+:
+            
+ftp_platform
+=
+'
+win32
+'
         
 path_template
 =
