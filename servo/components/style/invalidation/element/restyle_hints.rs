@@ -542,6 +542,7 @@ Self
 restyle_subtree
 (
 )
+;
 }
 if
 self
@@ -561,6 +562,7 @@ Self
 recascade_subtree
 (
 )
+;
 }
 Self
 :

@@ -350,10 +350,12 @@ Descendant
 )
 =
 >
+{
 DependencyInvalidationKind
 :
 :
 Descendants
+}
 Some
 (
 Combinator
@@ -371,10 +373,12 @@ NextSibling
 )
 =
 >
+{
 DependencyInvalidationKind
 :
 :
 Siblings
+}
 Some
 (
 Combinator
@@ -734,7 +738,6 @@ ref
 v
 )
 |
-{
 accum
 +
 v
@@ -742,7 +745,6 @@ v
 len
 (
 )
-}
 )
 +
 self
@@ -764,7 +766,6 @@ ref
 v
 )
 |
-{
 accum
 +
 v
@@ -772,7 +773,6 @@ v
 len
 (
 )
-}
 )
 }
 pub
@@ -1437,12 +1437,10 @@ dir
 )
 =
 >
-{
 dir_selector_to_state
 (
 dir
 )
-}
 _
 =
 >

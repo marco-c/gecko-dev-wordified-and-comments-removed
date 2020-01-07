@@ -34,12 +34,14 @@ Err
 (
 )
 )
+;
 }
 else
 {
 ident
 }
 }
+;
 }
 #
 [
@@ -204,6 +206,7 @@ clone
 }
 }
 }
+;
 }
 macro_rules
 !
@@ -318,12 +321,6 @@ Clone
 ComputeSquaredDistance
 Copy
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

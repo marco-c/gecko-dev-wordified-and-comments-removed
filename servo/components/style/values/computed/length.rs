@@ -72,10 +72,10 @@ super
 :
 :
 {
-Number
-ToComputedValue
 Context
+Number
 Percentage
+ToComputedValue
 }
 ;
 use
@@ -83,11 +83,11 @@ values
 :
 :
 {
+specified
 Auto
 CSSFloat
 Either
 Normal
-specified
 }
 ;
 use
@@ -258,6 +258,7 @@ length
 )
 =
 >
+{
 length
 .
 to_computed_value
@@ -268,6 +269,7 @@ FontBaseSize
 :
 CurrentStyle
 )
+}
 specified
 :
 :
@@ -280,6 +282,7 @@ length
 )
 =
 >
+{
 length
 .
 to_computed_value
@@ -290,6 +293,7 @@ viewport_size_for_viewport_unit_resolution
 (
 )
 )
+}
 specified
 :
 :
@@ -302,6 +306,7 @@ length
 )
 =
 >
+{
 length
 .
 to_computed_value
@@ -324,6 +329,7 @@ size
 (
 )
 )
+}
 }
 }
 #
@@ -991,7 +997,6 @@ this
 )
 =
 >
-{
 CalcLengthOrPercentage
 :
 :
@@ -1000,7 +1005,6 @@ new
 this
 None
 )
-}
 LengthOrPercentage
 :
 :
@@ -1010,9 +1014,7 @@ this
 )
 =
 >
-{
 this
-}
 }
 }
 }
@@ -1085,7 +1087,6 @@ this
 )
 =
 >
-{
 Some
 (
 CalcLengthOrPercentage
@@ -1097,7 +1098,6 @@ this
 None
 )
 )
-}
 LengthOrPercentageOrAuto
 :
 :
@@ -1107,21 +1107,17 @@ this
 )
 =
 >
-{
 Some
 (
 this
 )
-}
 LengthOrPercentageOrAuto
 :
 :
 Auto
 =
 >
-{
 None
-}
 }
 }
 }
@@ -1194,7 +1190,6 @@ this
 )
 =
 >
-{
 Some
 (
 CalcLengthOrPercentage
@@ -1206,7 +1201,6 @@ this
 None
 )
 )
-}
 LengthOrPercentageOrNone
 :
 :
@@ -1216,21 +1210,17 @@ this
 )
 =
 >
-{
 Some
 (
 this
 )
-}
 LengthOrPercentageOrNone
 :
 :
 None
 =
 >
-{
 None
-}
 }
 }
 }
@@ -2035,12 +2025,6 @@ ComputeSquaredDistance
 Copy
 MallocSizeOf
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToAnimatedZero
 ToCss
 )
@@ -2891,7 +2875,6 @@ calc
 )
 =
 >
-{
 specified
 :
 :
@@ -2914,7 +2897,6 @@ calc
 )
 )
 )
-}
 }
 }
 }
@@ -3442,12 +3424,10 @@ LengthOrPercentageOrAuto
 Auto
 =
 >
-{
 LengthOrPercentageOrAuto
 :
 :
 Auto
-}
 specified
 :
 :
@@ -3523,7 +3503,6 @@ value
 )
 =
 >
-{
 specified
 :
 :
@@ -3541,7 +3520,6 @@ from_computed_value
 value
 )
 )
-}
 LengthOrPercentageOrAuto
 :
 :
@@ -3572,7 +3550,6 @@ calc
 )
 =
 >
-{
 specified
 :
 :
@@ -3596,7 +3573,6 @@ calc
 )
 )
 )
-}
 }
 }
 }
@@ -3881,6 +3857,7 @@ percent
 )
 =
 >
+{
 Some
 (
 containing_length
@@ -3892,6 +3869,7 @@ percent
 0
 )
 )
+}
 LengthOrPercentageOrNone
 :
 :
@@ -4037,12 +4015,10 @@ LengthOrPercentageOrNone
 None
 =
 >
-{
 LengthOrPercentageOrNone
 :
 :
 None
-}
 }
 }
 #
@@ -4087,7 +4063,6 @@ value
 )
 =
 >
-{
 specified
 :
 :
@@ -4105,7 +4080,6 @@ from_computed_value
 value
 )
 )
-}
 LengthOrPercentageOrNone
 :
 :
@@ -4136,7 +4110,6 @@ calc
 )
 =
 >
-{
 specified
 :
 :
@@ -4160,7 +4133,6 @@ calc
 )
 )
 )
-}
 }
 }
 }
@@ -4444,12 +4416,6 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
-)
-]
-#
-[
-derive
-(
 ToAnimatedValue
 ToAnimatedZero
 )
@@ -5426,12 +5392,6 @@ ComputeSquaredDistance
 Copy
 Debug
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToAnimatedZero
 ToCss
 )
@@ -5701,7 +5661,6 @@ ext
 )
 =
 >
-{
 specified
 :
 :
@@ -5712,7 +5671,6 @@ ExtremumLength
 (
 ext
 )
-}
 }
 }
 }
@@ -5986,6 +5944,7 @@ lopon
 )
 =
 >
+{
 specified
 :
 :
@@ -6006,6 +5965,7 @@ from_computed_value
 lopon
 )
 )
+}
 MaxLength
 :
 :

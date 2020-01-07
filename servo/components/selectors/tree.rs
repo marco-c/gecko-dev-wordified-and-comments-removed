@@ -4,8 +4,8 @@ attr
 :
 {
 AttrSelectorOperation
-NamespaceConstraint
 CaseSensitivity
+NamespaceConstraint
 }
 ;
 use

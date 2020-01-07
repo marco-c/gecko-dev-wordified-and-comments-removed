@@ -9,8 +9,8 @@ byteorder
 :
 :
 {
-ReadBytesExt
 BigEndian
+ReadBytesExt
 }
 ;
 use
@@ -733,6 +733,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 let
 mut
@@ -782,12 +783,6 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero
@@ -927,12 +922,6 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

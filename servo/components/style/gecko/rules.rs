@@ -37,9 +37,9 @@ font_face
 :
 :
 {
-Source
 FontDisplay
 FontWeight
+Source
 }
 ;
 use
@@ -116,8 +116,8 @@ font
 :
 :
 {
-SpecifiedFontVariationSettings
 SpecifiedFontFeatureSettings
+SpecifiedFontVariationSettings
 }
 ;
 impl
@@ -593,6 +593,7 @@ lang
 )
 =
 >
+{
 nscssvalue
 .
 set_string
@@ -601,6 +602,7 @@ set_string
 *
 lang
 )
+}
 font_language_override
 :
 :
@@ -897,6 +899,7 @@ enough
 "
 )
 }
+;
 }
 for
 src

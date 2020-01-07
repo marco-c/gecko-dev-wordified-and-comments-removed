@@ -78,8 +78,8 @@ shared_lock
 :
 {
 Locked
-StylesheetGuards
 SharedRwLockReadGuard
+StylesheetGuards
 }
 ;
 use
@@ -466,6 +466,7 @@ None
 )
 =
 >
+{
 panic
 !
 (
@@ -481,6 +482,7 @@ StyleSource
 objects
 "
 )
+}
 _
 =
 >
@@ -2643,7 +2645,9 @@ CascadeLevel
 Transitions
 =
 >
+{
 true
+}
 _
 =
 >
@@ -5913,6 +5917,7 @@ declaration_importance_iter
 else
 {
 continue
+;
 }
 ;
 let
@@ -5950,6 +5955,7 @@ node_importance
 {
 return
 None
+;
 }
 match
 declaration
@@ -5967,7 +5973,6 @@ id
 )
 =
 >
-{
 Some
 (
 (
@@ -5975,7 +5980,6 @@ id
 declaration
 )
 )
-}
 _
 =
 >
@@ -6154,10 +6158,12 @@ Color
 transparent
 (
 )
+;
 }
 }
 return
 true
+;
 }
 }
 }
@@ -6168,6 +6174,7 @@ if
 have_explicit_ua_inherit
 {
 break
+;
 }
 if
 let
@@ -7050,6 +7057,7 @@ if
 should_drop
 {
 return
+;
 }
 debug_assert_eq
 !

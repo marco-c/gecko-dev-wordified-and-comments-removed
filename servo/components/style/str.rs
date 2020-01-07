@@ -491,7 +491,6 @@ map
 |
 d
 |
-{
 d
 as
 i64
@@ -501,7 +500,6 @@ i64
 '
 as
 i64
-}
 )
 .
 fold
@@ -530,14 +528,12 @@ and_then
 |
 accumulator
 |
-{
 accumulator
 .
 checked_mul
 (
 10
 )
-}
 )
 .
 and_then
@@ -545,14 +541,12 @@ and_then
 |
 accumulator
 |
-{
 accumulator
 .
 checked_add
 (
 d
 )
-}
 )
 ;
 (

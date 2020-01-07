@@ -609,6 +609,7 @@ Some
 *
 values
 )
+;
 }
 }
 None

@@ -79,8 +79,8 @@ matching
 :
 {
 matches_selector
-MatchingContext
 ElementSelectorFlags
+MatchingContext
 }
 ;
 use
@@ -91,8 +91,8 @@ parser
 :
 :
 {
-Component
 Combinator
+Component
 SelectorIter
 }
 ;
@@ -644,6 +644,7 @@ is_empty
 )
 {
 return
+;
 }
 let
 quirks_mode
@@ -982,7 +983,6 @@ id
 )
 =
 >
-{
 self
 .
 id_hash
@@ -1005,7 +1005,6 @@ SmallVec
 :
 new
 )
-}
 Bucket
 :
 :
@@ -1015,7 +1014,6 @@ class
 )
 =
 >
-{
 self
 .
 class_hash
@@ -1038,7 +1036,6 @@ SmallVec
 :
 new
 )
-}
 Bucket
 :
 :
@@ -1117,13 +1114,11 @@ Bucket
 Universal
 =
 >
-{
 &
 mut
 self
 .
 other
-}
 }
 ;
 vector
@@ -1670,7 +1665,6 @@ selector
 )
 =
 >
-{
 Bucket
 :
 :
@@ -1688,7 +1682,6 @@ lower_name
 selector
 .
 lower_name
-}
 }
 Component
 :
@@ -1869,6 +1862,7 @@ break
 }
 return
 current_bucket
+;
 }
 #
 [

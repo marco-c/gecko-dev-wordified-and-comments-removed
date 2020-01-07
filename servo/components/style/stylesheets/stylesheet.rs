@@ -1,7 +1,7 @@
 use
 {
-Prefix
 Namespace
+Prefix
 }
 ;
 use
@@ -16,8 +16,8 @@ cssparser
 :
 {
 Parser
-RuleListParser
 ParserInput
+RuleListParser
 }
 ;
 use
@@ -25,8 +25,8 @@ error_reporting
 :
 :
 {
-ParseErrorReporter
 ContextualParseError
+ParseErrorReporter
 }
 ;
 use
@@ -78,8 +78,8 @@ media_queries
 :
 :
 {
-MediaList
 Device
+MediaList
 }
 ;
 use
@@ -184,6 +184,16 @@ rules_iterator
 {
 EffectiveRules
 EffectiveRulesIterator
+}
+;
+use
+stylesheets
+:
+:
+rules_iterator
+:
+:
+{
 NestedRuleIterationCondition
 RulesIterator
 }

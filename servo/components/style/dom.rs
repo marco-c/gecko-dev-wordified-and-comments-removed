@@ -17,8 +17,8 @@ missing_docs
 use
 {
 Atom
-Namespace
 LocalName
+Namespace
 WeakAtom
 }
 ;
@@ -379,6 +379,7 @@ Some
 (
 n
 )
+;
 }
 }
 }
@@ -2173,6 +2174,7 @@ AnimationRules
 None
 None
 )
+;
 }
 AnimationRules
 (
@@ -2910,6 +2912,7 @@ hint
 has_animation_hint
 (
 )
+;
 }
 fn
 xbl_binding_anonymous_content

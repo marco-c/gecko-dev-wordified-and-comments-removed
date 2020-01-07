@@ -337,11 +337,13 @@ E
 >
 >
 |
+{
 create_thread_local_context
 (
 traversal
 slot
 )
+}
 )
 ;
 recursion_ok

@@ -1047,7 +1047,7 @@ ident
 )
 =
 >
-(
+{
 unsafe
 impl
 RefCounted
@@ -1115,7 +1115,7 @@ _
 )
 }
 }
-)
+}
 ;
 }
 macro_rules
@@ -1135,7 +1135,7 @@ ident
 )
 =
 >
-(
+{
 impl_refcount
 !
 (
@@ -1151,7 +1151,7 @@ for
 t
 {
 }
-)
+}
 ;
 }
 impl_threadsafe_refcount

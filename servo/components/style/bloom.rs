@@ -11,8 +11,8 @@ atomic_refcell
 :
 :
 {
-AtomicRefMut
 AtomicRefCell
+AtomicRefMut
 }
 ;
 use
@@ -286,7 +286,6 @@ each_class
 |
 class
 |
-{
 f
 (
 class
@@ -295,7 +294,6 @@ get_hash
 (
 )
 )
-}
 )
 ;
 }

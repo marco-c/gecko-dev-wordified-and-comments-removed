@@ -337,12 +337,6 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToComputedValue
 ToCss
 )
@@ -1060,7 +1054,9 @@ compat_mode
 )
 =
 >
+{
 true
+}
 GradientKind
 :
 :
@@ -1142,9 +1138,7 @@ FarthestCorner
 )
 =
 >
-{
 true
-}
 _
 =
 >
@@ -1541,14 +1535,12 @@ length
 )
 =
 >
-{
 length
 .
 to_css
 (
 dest
 )
-}
 }
 }
 }

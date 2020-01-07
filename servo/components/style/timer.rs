@@ -174,6 +174,7 @@ TimerMode
 Current
 =
 >
+{
 panic
 !
 (
@@ -198,6 +199,7 @@ bug
 .
 "
 )
+}
 }
 }
 }

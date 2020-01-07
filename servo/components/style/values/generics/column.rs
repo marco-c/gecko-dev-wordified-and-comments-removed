@@ -8,12 +8,6 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

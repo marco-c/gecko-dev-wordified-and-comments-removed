@@ -488,6 +488,7 @@ s
 origin
 )
 )
+;
 }
 }
 self
@@ -935,6 +936,7 @@ SheetRebuildKind
 Full
 )
 )
+;
 }
 let
 rebuild_kind
@@ -1175,7 +1177,6 @@ position
 |
 entry
 |
-{
 entry
 .
 sheet
@@ -1183,7 +1184,6 @@ sheet
 =
 *
 sheet
-}
 )
 ;
 if
@@ -1375,7 +1375,6 @@ position
 |
 entry
 |
-{
 entry
 .
 sheet
@@ -1383,7 +1382,6 @@ sheet
 =
 *
 before_sheet
-}
 )
 .
 expect

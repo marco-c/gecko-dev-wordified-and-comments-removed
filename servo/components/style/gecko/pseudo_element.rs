@@ -185,6 +185,7 @@ PseudoElementCascadeType
 :
 :
 Eager
+;
 }
 if
 self
@@ -198,6 +199,7 @@ PseudoElementCascadeType
 :
 :
 Precomputed
+;
 }
 PseudoElementCascadeType
 :

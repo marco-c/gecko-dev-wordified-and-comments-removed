@@ -26,8 +26,8 @@ specified
 :
 {
 AlignContent
-JustifyContent
 AlignItems
+JustifyContent
 SelfAlignment
 }
 ;

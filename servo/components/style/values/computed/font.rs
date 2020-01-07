@@ -21,9 +21,9 @@ cssparser
 :
 :
 {
+serialize_identifier
 CssStringWriter
 Parser
-serialize_identifier
 }
 ;
 #
@@ -178,10 +178,10 @@ computed
 :
 {
 Context
-NonNegativeLength
-ToComputedValue
 Integer
+NonNegativeLength
 Number
+ToComputedValue
 }
 ;
 use
@@ -195,8 +195,8 @@ font
 :
 :
 {
-FontSettings
 FeatureTagValue
+FontSettings
 }
 ;
 use
@@ -266,10 +266,10 @@ font
 :
 :
 {
-XTextZoom
-XLang
-MozScriptSizeMultiplier
 FontSynthesis
+MozScriptSizeMultiplier
+XLang
+XTextZoom
 }
 ;
 #
@@ -321,12 +321,6 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedZero
 ToCss
@@ -1564,7 +1558,6 @@ monospace
 )
 =
 >
-{
 return
 SingleFontFamily
 :
@@ -1573,7 +1566,6 @@ Generic
 (
 input
 )
-}
 _
 =
 >
@@ -1829,6 +1821,7 @@ Quoted
 }
 )
 )
+;
 }
 let
 first_ident
@@ -2825,6 +2818,7 @@ FontFamilyType
 eFamily_moz_fixed
 =
 >
+{
 SingleFontFamily
 :
 :
@@ -2843,6 +2837,7 @@ fixed
 "
 )
 )
+}
 FontFamilyType
 :
 :
@@ -4528,6 +4523,7 @@ write_str
 normal
 "
 )
+;
 }
 let
 mut
@@ -4755,7 +4751,6 @@ value
 )
 =
 >
-{
 value
 .
 to_computed_value
@@ -4763,7 +4758,6 @@ to_computed_value
 cx
 base_size
 )
-}
 NoCalcLength
 :
 :
@@ -4790,14 +4784,12 @@ ref
 l
 =
 >
-{
 l
 .
 to_computed_value
 (
 cx
 )
-}
 }
 }
 fn

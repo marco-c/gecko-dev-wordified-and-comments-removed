@@ -371,6 +371,7 @@ if_what
 ;
 }
 }
+;
 }
 let
 is_root

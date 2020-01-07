@@ -279,6 +279,7 @@ Orientation
 :
 :
 Angle0
+;
 }
 if
 rounded_angle
@@ -294,6 +295,7 @@ Orientation
 :
 :
 Angle90
+;
 }
 if
 rounded_angle
@@ -309,6 +311,7 @@ Orientation
 :
 :
 Angle180
+;
 }
 if
 rounded_angle
@@ -324,6 +327,7 @@ Orientation
 :
 :
 Angle270
+;
 }
 Orientation
 :
@@ -470,7 +474,6 @@ ImageOrientation
 FromImage
 =
 >
-{
 ImageOrientation
 {
 angle
@@ -479,7 +482,6 @@ None
 flipped
 :
 false
-}
 }
 computed
 :

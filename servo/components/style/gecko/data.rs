@@ -34,6 +34,7 @@ structs
 :
 :
 {
+self
 RawGeckoPresContextOwned
 ServoStyleSetSizes
 ServoStyleSheet
@@ -47,10 +48,9 @@ structs
 :
 :
 {
-StyleSheetInfo
 ServoStyleSheetInner
+StyleSheetInfo
 nsIDocument
-self
 }
 ;
 use
@@ -121,8 +121,8 @@ shared_lock
 :
 {
 Locked
-StylesheetGuards
 SharedRwLockReadGuard
+StylesheetGuards
 }
 ;
 use

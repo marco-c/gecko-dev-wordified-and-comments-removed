@@ -12,8 +12,8 @@ parser
 :
 :
 {
-ParserContext
 Parse
+ParserContext
 }
 ;
 use
@@ -835,7 +835,6 @@ value
 .
 =
 >
-{
 match
 allow_unitless_zero
 {
@@ -865,7 +864,6 @@ Err
 (
 )
 )
-}
 }
 Token
 :

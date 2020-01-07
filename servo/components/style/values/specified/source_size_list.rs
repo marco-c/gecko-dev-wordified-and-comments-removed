@@ -266,7 +266,6 @@ find
 |
 source_size
 |
-{
 source_size
 .
 condition
@@ -276,7 +275,6 @@ matches
 device
 quirks_mode
 )
-}
 )
 ;
 computed
@@ -302,7 +300,6 @@ source_size
 )
 =
 >
-{
 source_size
 .
 value
@@ -311,11 +308,9 @@ to_computed_value
 (
 context
 )
-}
 None
 =
 >
-{
 match
 self
 .
@@ -337,7 +332,6 @@ context
 None
 =
 >
-{
 Length
 :
 :
@@ -363,8 +357,6 @@ to_computed_value
 (
 context
 )
-}
-}
 }
 }
 }

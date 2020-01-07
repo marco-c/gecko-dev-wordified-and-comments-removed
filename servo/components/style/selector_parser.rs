@@ -54,8 +54,8 @@ stylesheets
 :
 :
 {
-Origin
 Namespaces
+Origin
 UrlExtraData
 }
 ;

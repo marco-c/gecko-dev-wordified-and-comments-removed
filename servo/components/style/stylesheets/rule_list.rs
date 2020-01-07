@@ -184,7 +184,6 @@ map
 |
 x
 |
-{
 x
 .
 deep_clone_with_lock
@@ -193,7 +192,6 @@ lock
 guard
 params
 )
-}
 )
 .
 collect
@@ -338,7 +336,6 @@ all
 |
 r
 |
-{
 match
 *
 r
@@ -367,7 +364,6 @@ _
 =
 >
 false
-}
 }
 )
 }

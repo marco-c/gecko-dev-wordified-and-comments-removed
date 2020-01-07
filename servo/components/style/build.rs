@@ -93,8 +93,8 @@ process
 :
 :
 {
-Command
 exit
+Command
 }
 ;
 use

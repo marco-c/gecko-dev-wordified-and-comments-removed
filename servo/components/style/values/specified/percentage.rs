@@ -55,8 +55,8 @@ values
 :
 :
 {
-CSSFloat
 serialize_percentage
+CSSFloat
 }
 ;
 use
@@ -506,7 +506,6 @@ parse_nested_block
 |
 i
 |
-{
 CalcNode
 :
 :
@@ -515,7 +514,6 @@ parse_percentage
 context
 i
 )
-}
 )
 ?
 ;

@@ -25,8 +25,6 @@ servo
 ]
 pub
 use
-:
-:
 servo
 :
 :
@@ -34,8 +32,8 @@ url
 :
 :
 {
-SpecifiedUrl
 SpecifiedImageUrl
+SpecifiedUrl
 }
 ;
 #
@@ -51,8 +49,6 @@ gecko
 ]
 pub
 use
-:
-:
 gecko
 :
 :
@@ -60,8 +56,8 @@ url
 :
 :
 {
-SpecifiedUrl
 SpecifiedImageUrl
+SpecifiedUrl
 }
 ;
 pub

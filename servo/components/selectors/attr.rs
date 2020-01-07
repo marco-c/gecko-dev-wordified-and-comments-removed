@@ -136,7 +136,6 @@ url
 )
 =
 >
-{
 NamespaceConstraint
 :
 :
@@ -144,7 +143,6 @@ Specific
 (
 url
 )
-}
 }
 }
 }
@@ -284,7 +282,6 @@ expected_value
 }
 =
 >
-{
 operator
 .
 eval_str
@@ -297,7 +294,6 @@ as_ref
 )
 case_sensitivity
 )
-}
 }
 }
 }
@@ -481,7 +477,6 @@ AttrSelectorOperator
 Equal
 =
 >
-{
 case
 .
 eq
@@ -489,14 +484,12 @@ eq
 e
 s
 )
-}
 AttrSelectorOperator
 :
 :
 Prefix
 =
 >
-{
 e
 .
 len
@@ -528,7 +521,6 @@ len
 ]
 s
 )
-}
 AttrSelectorOperator
 :
 :
@@ -597,7 +589,6 @@ AttrSelectorOperator
 Includes
 =
 >
-{
 element_attr_value
 .
 split
@@ -622,7 +613,6 @@ as_bytes
 s
 )
 )
-}
 AttrSelectorOperator
 :
 :
@@ -966,6 +956,7 @@ n_first_byte
 {
 return
 false
+;
 }
 let
 after_this_byte
@@ -1008,14 +999,12 @@ haystack_slice
 )
 =
 >
-{
 haystack_slice
 .
 eq_ignore_ascii_case
 (
 n_rest
 )
-}
 }
 }
 )

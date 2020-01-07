@@ -615,12 +615,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-)
-]
-#
-[
-derive
-(
 MallocSizeOf
 PartialEq
 ToAnimatedValue
@@ -736,12 +730,6 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
-)
-]
-#
-[
-derive
-(
 PartialEq
 ToAnimatedValue
 ToAnimatedZero

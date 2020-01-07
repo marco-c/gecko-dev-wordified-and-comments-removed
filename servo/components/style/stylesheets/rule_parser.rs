@@ -30,10 +30,10 @@ cssparser
 :
 :
 {
-CowRcStr
-SourceLocation
 BasicParseError
 BasicParseErrorKind
+CowRcStr
+SourceLocation
 }
 ;
 use
@@ -117,8 +117,8 @@ style_traits
 :
 :
 {
-StyleParseErrorKind
 ParseError
+StyleParseErrorKind
 }
 ;
 use
@@ -127,8 +127,8 @@ stylesheets
 :
 {
 CssRule
-CssRules
 CssRuleType
+CssRules
 Origin
 StylesheetLoader
 }

@@ -12,8 +12,8 @@ values
 :
 :
 {
-convert_rgba_to_nscolor
 convert_nscolor_to_rgba
+convert_rgba_to_nscolor
 }
 ;
 use

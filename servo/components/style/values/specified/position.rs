@@ -1607,7 +1607,6 @@ PositionComponent
 Center
 =
 >
-{
 ComputedLengthOrPercentage
 :
 :
@@ -1620,7 +1619,6 @@ Percentage
 5
 )
 )
-}
 PositionComponent
 :
 :
@@ -1703,7 +1701,6 @@ length
 )
 =
 >
-{
 ComputedLengthOrPercentage
 :
 :
@@ -1727,7 +1724,6 @@ hundred
 )
 )
 )
-}
 ComputedLengthOrPercentage
 :
 :
@@ -1843,14 +1839,12 @@ length
 )
 =
 >
-{
 length
 .
 to_computed_value
 (
 context
 )
-}
 }
 }
 fn
@@ -2395,6 +2389,7 @@ y_lop
 )
 )
 )
+;
 }
 let
 _

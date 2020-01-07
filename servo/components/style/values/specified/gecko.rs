@@ -225,7 +225,6 @@ parse_nested_block
 |
 i
 |
-{
 LengthOrPercentage
 :
 :
@@ -234,7 +233,6 @@ parse_non_negative
 context
 i
 )
-}
 )
 ?
 ;
@@ -405,7 +403,6 @@ unit_value
 }
 =
 >
-{
 Ok
 (
 PixelOrPercentage
@@ -422,7 +419,6 @@ unit_value
 )
 )
 )
-}
 _
 =
 >
@@ -441,7 +437,6 @@ map_err
 (
 )
 |
-{
 location
 .
 new_custom_error
@@ -451,7 +446,6 @@ StyleParseErrorKind
 :
 UnspecifiedError
 )
-}
 )
 }
 }

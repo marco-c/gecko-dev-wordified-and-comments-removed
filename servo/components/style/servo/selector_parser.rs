@@ -9,10 +9,10 @@ missing_docs
 use
 {
 Atom
-Prefix
-Namespace
-LocalName
 CaseSensitivityExt
+LocalName
+Namespace
+Prefix
 }
 ;
 use
@@ -29,13 +29,13 @@ cssparser
 :
 :
 {
+serialize_identifier
+CowRcStr
 Parser
 as
 CssParser
-ToCss
-serialize_identifier
-CowRcStr
 SourceLocation
+ToCss
 }
 ;
 use
@@ -135,8 +135,8 @@ attr
 :
 {
 AttrSelectorOperation
-NamespaceConstraint
 CaseSensitivity
+NamespaceConstraint
 }
 ;
 use
@@ -147,8 +147,8 @@ parser
 :
 :
 {
-Visit
 SelectorParseErrorKind
+Visit
 }
 ;
 use
@@ -955,10 +955,12 @@ PseudoElement
 Selection
 =
 >
+{
 PseudoElementCascadeType
 :
 :
 Eager
+}
 PseudoElement
 :
 :
@@ -1454,6 +1456,7 @@ write_str
 )
 "
 )
+;
 }
 ServoCaseSensitiveTypeAttr
 (
@@ -1500,6 +1503,7 @@ write_str
 )
 "
 )
+;
 }
 _
 =
@@ -3733,6 +3737,7 @@ false
 |
 v
 |
+{
 v
 .
 as_tokens
@@ -3756,6 +3761,7 @@ atom
 name
 )
 )
+}
 )
 }
 fn
@@ -3946,7 +3952,6 @@ ns
 )
 =
 >
-{
 self
 .
 get_attr
@@ -3968,7 +3973,6 @@ eval_selector
 operation
 )
 )
-}
 NamespaceConstraint
 :
 :

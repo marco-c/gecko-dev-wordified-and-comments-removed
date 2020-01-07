@@ -890,6 +890,7 @@ self
 .
 results
 )
+;
 }
 true
 }
@@ -1641,7 +1642,6 @@ lower_name
 )
 =
 >
-{
 collect_all_elements
 :
 :
@@ -1694,18 +1694,15 @@ borrow
 }
 }
 )
-}
 _
 =
 >
-{
 return
 Err
 (
 (
 )
 )
-}
 }
 Ok
 (

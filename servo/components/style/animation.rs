@@ -584,6 +584,7 @@ progress
 )
 =
 >
+{
 new_started_at
 =
 timer
@@ -599,6 +600,7 @@ duration
 *
 progress
 )
+}
 (
 &
 mut
@@ -632,6 +634,7 @@ Running
 )
 =
 >
+{
 *
 progress
 =
@@ -646,6 +649,7 @@ old_started_at
 )
 /
 old_duration
+}
 _
 =
 >
@@ -1198,7 +1202,6 @@ shorthand_id
 )
 =
 >
-{
 shorthand_id
 .
 longhands
@@ -1228,7 +1231,6 @@ new_style
 collect
 (
 )
-}
 TransitionProperty
 :
 :
@@ -1801,7 +1803,6 @@ any
 |
 animation
 |
-{
 animation
 .
 has_the_same_end_value_as
@@ -1809,10 +1810,10 @@ has_the_same_end_value_as
 &
 property_animation
 )
-}
 )
 {
 continue
+;
 }
 let
 box_style
@@ -2178,6 +2179,7 @@ atom
 else
 {
 continue
+;
 }
 ;
 debug
@@ -2216,6 +2218,7 @@ total_duration
 .
 {
 continue
+;
 }
 if
 let
@@ -2377,10 +2380,12 @@ AnimationDirection
 Alternate
 =
 >
+{
 AnimationDirection
 :
 :
 Normal
+}
 AnimationDirection
 :
 :
@@ -2392,10 +2397,12 @@ AnimationDirection
 AlternateReverse
 =
 >
+{
 AnimationDirection
 :
 :
 Reverse
+}
 }
 ;
 let
@@ -3108,7 +3115,6 @@ position
 |
 step
 |
-{
 total_progress
 as
 f32
@@ -3119,7 +3125,6 @@ step
 start_percentage
 .
 0
-}
 )
 ;
 last_keyframe_position
@@ -3131,7 +3136,6 @@ and_then
 |
 pos
 |
-{
 if
 pos
 !
@@ -3148,7 +3152,6 @@ pos
 else
 {
 None
-}
 }
 )
 .
@@ -3184,7 +3187,6 @@ position
 |
 step
 |
-{
 total_progress
 as
 f32
@@ -3198,7 +3200,6 @@ step
 start_percentage
 .
 0
-}
 )
 .
 map

@@ -15,11 +15,11 @@ cssparser
 :
 :
 {
+parse_important
 AtRuleParser
 DeclarationListParser
 DeclarationParser
 Parser
-parse_important
 }
 ;
 use
@@ -180,8 +180,8 @@ stylesheets
 :
 :
 {
-StylesheetInDocument
 Origin
+StylesheetInDocument
 }
 ;
 use
@@ -204,8 +204,8 @@ specified
 :
 :
 {
-NoCalcLength
 LengthOrPercentageOrAuto
+NoCalcLength
 ViewportPercentageLength
 }
 ;
@@ -866,6 +866,7 @@ value
 )
 )
 }
+;
 }
 Some
 (
@@ -939,7 +940,6 @@ Vh
 _
 =
 >
-{
 match
 value
 .
@@ -1013,7 +1013,6 @@ from_px
 .
 )
 )
-}
 }
 }
 )
@@ -1190,7 +1189,6 @@ Number
 _
 =
 >
-{
 match
 value
 .
@@ -1258,7 +1256,6 @@ Number
 .
 1
 )
-}
 }
 }
 )
@@ -1360,7 +1357,6 @@ Zoom
 _
 =
 >
-{
 match
 value
 .
@@ -1404,7 +1400,6 @@ UserZoom
 :
 :
 Fixed
-}
 }
 }
 )
@@ -2038,6 +2033,7 @@ important
 )
 }
 }
+;
 }
 match_ignore_ascii_case
 !
@@ -2705,6 +2701,7 @@ false
 ;
 }
 }
+;
 }
 let
 mut
@@ -2776,6 +2773,7 @@ next
 (
 )
 }
+;
 }
 while
 let
@@ -2860,6 +2858,7 @@ value
 ;
 }
 }
+;
 }
 match
 name
@@ -3083,6 +3082,7 @@ scalable
 )
 =
 >
+{
 push
 !
 (
@@ -3094,6 +3094,7 @@ UserZoom
 from_meta
 )
 )
+}
 _
 =
 >
@@ -3396,7 +3397,6 @@ c
 )
 =
 >
-{
 match
 skip_whitespace
 (
@@ -3425,7 +3425,6 @@ _
 >
 return
 None
-}
 }
 Some
 (
@@ -4213,6 +4212,7 @@ is_empty
 {
 return
 None
+;
 }
 let
 mut
@@ -4493,6 +4493,7 @@ b
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -4517,6 +4518,7 @@ opta
 optb
 )
 }
+;
 }
 macro_rules
 !
@@ -4541,6 +4543,7 @@ opta
 optb
 )
 }
+;
 }
 if
 min_zoom
@@ -4804,6 +4807,7 @@ value
 )
 =
 >
+{
 Some
 (
 Au
@@ -4820,6 +4824,7 @@ context
 )
 )
 )
+}
 LengthOrPercentageOrAuto
 :
 :
@@ -4829,6 +4834,7 @@ value
 )
 =
 >
+{
 Some
 (
 initial_viewport
@@ -4842,6 +4848,7 @@ value
 0
 )
 )
+}
 LengthOrPercentageOrAuto
 :
 :
@@ -4859,7 +4866,6 @@ calc
 )
 =
 >
-{
 calc
 .
 to_computed_value
@@ -4877,7 +4883,6 @@ initial_viewport
 dimension
 )
 )
-}
 }
 ViewportLength
 :
@@ -4956,6 +4961,7 @@ else
 None
 }
 }
+;
 }
 let
 max_width
@@ -5103,6 +5109,7 @@ None
 }
 ;
 }
+;
 }
 let
 width

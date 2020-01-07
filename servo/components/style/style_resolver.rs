@@ -19,8 +19,8 @@ data
 :
 :
 {
-ElementStyles
 EagerPseudoStyles
+ElementStyles
 }
 ;
 use

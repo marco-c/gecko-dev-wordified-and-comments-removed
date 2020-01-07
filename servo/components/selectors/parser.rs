@@ -3,9 +3,9 @@ attr
 :
 :
 {
+AttrSelectorOperator
 AttrSelectorWithNamespace
 ParsedAttrSelectorOperation
-AttrSelectorOperator
 }
 ;
 use
@@ -13,9 +13,9 @@ attr
 :
 :
 {
+NamespaceConstraint
 ParsedCaseSensitivity
 SELECTOR_WHITESPACE
-NamespaceConstraint
 }
 ;
 use
@@ -44,10 +44,10 @@ cssparser
 :
 :
 {
-ParseError
-ParseErrorKind
 BasicParseError
 BasicParseErrorKind
+ParseError
+ParseErrorKind
 }
 ;
 use
@@ -55,9 +55,9 @@ cssparser
 :
 :
 {
-SourceLocation
 CowRcStr
 Delimiter
+SourceLocation
 }
 ;
 use
@@ -65,14 +65,21 @@ cssparser
 :
 :
 {
-Token
+CssStringWriter
 Parser
 as
 CssParser
-parse_nth
 ToCss
+Token
+}
+;
+use
+cssparser
+:
+:
+{
+parse_nth
 serialize_identifier
-CssStringWriter
 }
 ;
 use
@@ -120,8 +127,8 @@ fmt
 :
 {
 self
-Display
 Debug
+Display
 Write
 }
 ;
@@ -146,8 +153,8 @@ visitor
 :
 :
 {
-Visit
 SelectorVisitor
+Visit
 }
 ;
 pub
@@ -1527,6 +1534,7 @@ SelectorParseErrorKind
 NonCompoundSelector
 )
 )
+;
 }
 Ok
 (
@@ -1606,13 +1614,11 @@ parse_comma_separated
 |
 input
 |
-{
 parse_inner_compound_selector
 (
 parser
 input
 )
-}
 )
 .
 map
@@ -2603,6 +2609,7 @@ has_pseudo_element
 {
 return
 None
+;
 }
 for
 component
@@ -2632,6 +2639,7 @@ Some
 (
 pseudo
 )
+;
 }
 }
 debug_assert
@@ -2673,6 +2681,7 @@ all
 |
 c
 |
+{
 matches
 !
 (
@@ -2708,6 +2717,7 @@ PseudoElement
 .
 )
 )
+}
 )
 }
 #
@@ -2858,7 +2868,6 @@ ref
 other
 =
 >
-{
 panic
 !
 (
@@ -2884,7 +2893,6 @@ other
 self
 index
 )
-}
 }
 }
 #
@@ -2971,7 +2979,6 @@ ref
 other
 =
 >
-{
 panic
 !
 (
@@ -2997,7 +3004,6 @@ other
 self
 index
 )
-}
 }
 }
 #
@@ -3666,6 +3672,7 @@ true
 |
 x
 |
+{
 matches
 !
 (
@@ -3680,6 +3687,7 @@ Combinator
 :
 Descendant
 )
+}
 )
 {
 break
@@ -5047,6 +5055,7 @@ if
 can_elide_namespace
 {
 continue
+;
 }
 }
 simple
@@ -5453,14 +5462,12 @@ c
 )
 =
 >
-{
 c
 .
 to_css
 (
 dest
 )
-}
 Slotted
 (
 ref
@@ -5506,14 +5513,12 @@ p
 )
 =
 >
-{
 p
 .
 to_css
 (
 dest
 )
-}
 ID
 (
 ref
@@ -6302,7 +6307,6 @@ NamespaceConstraint
 Any
 =
 >
-{
 dest
 .
 write_str
@@ -6313,7 +6317,6 @@ write_str
 "
 )
 ?
-}
 }
 display_to_css_identifier
 (
@@ -6773,6 +6776,7 @@ Combinator
 Child
 ;
 break
+;
 }
 Ok
 (
@@ -6798,6 +6802,7 @@ Combinator
 NextSibling
 ;
 break
+;
 }
 Ok
 (
@@ -6823,6 +6828,7 @@ Combinator
 LaterSibling
 ;
 break
+;
 }
 Ok
 (
@@ -6850,12 +6856,14 @@ Combinator
 Descendant
 ;
 break
+;
 }
 else
 {
 break
 '
 outer_loop
+;
 }
 }
 }
@@ -6964,6 +6972,14 @@ has_pseudo_element
 (
 )
 {
+let
+e
+=
+SelectorParseErrorKind
+:
+:
+PseudoElementInComplexSelector
+;
 return
 Err
 (
@@ -6971,12 +6987,10 @@ input
 .
 new_custom_error
 (
-SelectorParseErrorKind
-:
-:
-PseudoElementInComplexSelector
+e
 )
 )
+;
 }
 Ok
 (
@@ -7184,6 +7198,7 @@ url
 default_url
 =
 >
+{
 Component
 :
 :
@@ -7191,6 +7206,7 @@ DefaultNamespace
 (
 url
 )
+}
 _
 =
 >
@@ -7211,7 +7227,6 @@ QNamePrefix
 ExplicitNoNamespace
 =
 >
-{
 sink
 .
 push
@@ -7221,7 +7236,6 @@ Component
 :
 ExplicitNoNamespace
 )
-}
 QNamePrefix
 :
 :
@@ -7280,7 +7294,6 @@ name
 )
 =
 >
-{
 sink
 .
 push
@@ -7321,11 +7334,9 @@ into
 }
 )
 )
-}
 None
 =
 >
-{
 sink
 .
 push
@@ -7335,7 +7346,6 @@ Component
 :
 ExplicitUniversalType
 )
-}
 }
 Ok
 (
@@ -7632,7 +7642,6 @@ if
 in_attr_selector
 =
 >
-{
 Ok
 (
 OptionalQName
@@ -7644,7 +7653,6 @@ namespace
 None
 )
 )
-}
 Ok
 (
 &
@@ -7688,12 +7696,9 @@ in_attr_selector
 =
 >
 {
-Err
-(
-location
-.
-new_custom_error
-(
+let
+e
+=
 SelectorParseErrorKind
 :
 :
@@ -7705,6 +7710,14 @@ clone
 (
 )
 )
+;
+Err
+(
+location
+.
+new_custom_error
+(
+e
 )
 )
 }
@@ -7714,7 +7727,6 @@ t
 )
 =
 >
-{
 Err
 (
 location
@@ -7734,7 +7746,6 @@ clone
 )
 )
 )
-}
 Err
 (
 e
@@ -8084,7 +8095,6 @@ Delim
 )
 =
 >
-{
 explicit_namespace
 (
 input
@@ -8093,7 +8103,6 @@ QNamePrefix
 :
 ExplicitNoNamespace
 )
-}
 Ok
 (
 t
@@ -8302,9 +8311,7 @@ QNamePrefix
 ExplicitNoNamespace
 =
 >
-{
 None
-}
 QNamePrefix
 :
 :
@@ -8336,7 +8343,6 @@ QNamePrefix
 ExplicitAnyNamespace
 =
 >
-{
 Some
 (
 NamespaceConstraint
@@ -8344,7 +8350,6 @@ NamespaceConstraint
 :
 Any
 )
-}
 QNamePrefix
 :
 :
@@ -8470,6 +8475,7 @@ false
 )
 )
 )
+;
 }
 else
 {
@@ -8489,6 +8495,7 @@ local_name_lower
 local_name_lower
 }
 )
+;
 }
 }
 Ok
@@ -8586,6 +8593,7 @@ t
 )
 =
 >
+{
 return
 Err
 (
@@ -8606,6 +8614,7 @@ clone
 )
 )
 )
+}
 }
 ;
 let
@@ -8647,7 +8656,6 @@ location
 )
 =
 >
-{
 return
 Err
 (
@@ -8664,7 +8672,6 @@ t
 )
 )
 )
-}
 Err
 (
 e
@@ -8706,7 +8713,6 @@ AttrSelectorOperator
 Includes
 =
 >
-{
 value
 .
 is_empty
@@ -8720,7 +8726,6 @@ contains
 (
 SELECTOR_WHITESPACE
 )
-}
 AttrSelectorOperator
 :
 :
@@ -9196,7 +9201,6 @@ EndOfInput
 )
 =
 >
-{
 return
 Err
 (
@@ -9210,7 +9214,6 @@ SelectorParseErrorKind
 EmptyNegation
 )
 )
-}
 Err
 (
 e
@@ -9305,6 +9308,14 @@ _
 =
 >
 {
+let
+e
+=
+SelectorParseErrorKind
+:
+:
+NonSimpleSelectorInNegation
+;
 return
 Err
 (
@@ -9312,10 +9323,7 @@ input
 .
 new_custom_error
 (
-SelectorParseErrorKind
-:
-:
-NonSimpleSelectorInNegation
+e
 )
 )
 ;
@@ -9619,13 +9627,10 @@ t
 )
 =
 >
-return
-Err
-(
-location
-.
-new_custom_error
-(
+{
+let
+e
+=
 SelectorParseErrorKind
 :
 :
@@ -9637,8 +9642,19 @@ clone
 (
 )
 )
+;
+return
+Err
+(
+location
+.
+new_custom_error
+(
+e
 )
 )
+;
+}
 }
 let
 location
@@ -9679,6 +9695,7 @@ clone
 t
 =
 >
+{
 return
 Err
 (
@@ -9699,6 +9716,7 @@ clone
 )
 )
 )
+}
 }
 ;
 let
@@ -9819,6 +9837,7 @@ empty
 false
 ;
 break
+;
 }
 SimpleSelectorParseResult
 :
@@ -10493,12 +10512,10 @@ ref
 t
 =
 >
-Err
-(
-location
-.
-new_custom_error
-(
+{
+let
+e
+=
 SelectorParseErrorKind
 :
 :
@@ -10510,8 +10527,17 @@ clone
 (
 )
 )
+;
+Err
+(
+location
+.
+new_custom_error
+(
+e
 )
 )
+}
 }
 }
 Ok
@@ -10659,13 +10685,10 @@ true
 t
 =
 >
-return
-Err
-(
-input
-.
-new_custom_error
-(
+{
+let
+e
+=
 SelectorParseErrorKind
 :
 :
@@ -10673,8 +10696,19 @@ PseudoElementExpectedIdent
 (
 t
 )
+;
+return
+Err
+(
+input
+.
+new_custom_error
+(
+e
 )
 )
+;
+}
 }
 ;
 let
@@ -10721,11 +10755,9 @@ slotted
 "
 )
 {
-SimpleSelectorParseResult
-:
-:
-SlottedPseudo
-(
+let
+selector
+=
 input
 .
 parse_nested_block
@@ -10742,15 +10774,20 @@ input
 }
 )
 ?
+;
+SimpleSelectorParseResult
+:
+:
+SlottedPseudo
+(
+selector
 )
 }
 else
 {
-SimpleSelectorParseResult
-:
-:
-PseudoElement
-(
+let
+selector
+=
 input
 .
 parse_nested_block
@@ -10771,6 +10808,13 @@ input
 }
 )
 ?
+;
+SimpleSelectorParseResult
+:
+:
+PseudoElement
+(
+selector
 )
 }
 }
@@ -11146,12 +11190,12 @@ cssparser
 :
 :
 {
+serialize_identifier
 Parser
 as
 CssParser
-ToCss
-serialize_identifier
 ParserInput
+ToCss
 }
 ;
 use
@@ -11976,14 +12020,10 @@ lang
 "
 =
 >
-return
-Ok
-(
-PseudoClass
-:
-:
-Lang
-(
+{
+let
+lang
+=
 parser
 .
 expect_ident_or_string
@@ -11998,8 +12038,20 @@ as_ref
 to_owned
 (
 )
+;
+return
+Ok
+(
+PseudoClass
+:
+:
+Lang
+(
+lang
 )
 )
+;
+}
 _
 =
 >
@@ -12645,7 +12697,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -12653,7 +12705,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -12685,7 +12737,7 @@ ee
 )
 }
 )
-)
+]
 specificity
 (
 0
@@ -12693,7 +12745,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -12717,7 +12769,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -12725,7 +12777,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -12761,7 +12813,7 @@ e
 )
 }
 )
-)
+]
 specificity
 (
 0
@@ -12769,7 +12821,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -12800,7 +12852,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -12808,7 +12860,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -12840,7 +12892,7 @@ e
 )
 }
 )
-)
+]
 specificity
 (
 0
@@ -12848,7 +12900,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -12895,7 +12947,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -12903,7 +12955,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -12939,7 +12991,7 @@ e
 )
 }
 )
-)
+]
 specificity
 (
 0
@@ -12947,7 +12999,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -12970,7 +13022,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -12978,12 +13030,12 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -12991,7 +13043,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13015,7 +13067,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13023,7 +13075,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13032,7 +13084,7 @@ Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -13040,7 +13092,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13071,7 +13123,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13079,12 +13131,12 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -13092,7 +13144,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13139,7 +13191,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13147,7 +13199,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13156,7 +13208,7 @@ Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -13164,7 +13216,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13195,7 +13247,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13203,7 +13255,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13240,7 +13292,7 @@ to_owned
 )
 )
 )
-)
+]
 specificity
 (
 0
@@ -13248,7 +13300,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13272,7 +13324,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13280,7 +13332,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13296,7 +13348,7 @@ bar
 "
 )
 )
-)
+]
 specificity
 (
 1
@@ -13304,7 +13356,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13331,7 +13383,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13339,7 +13391,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13401,7 +13453,7 @@ bar
 "
 )
 )
-)
+]
 specificity
 (
 1
@@ -13409,7 +13461,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -13436,7 +13488,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13444,7 +13496,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13516,7 +13568,7 @@ bar
 "
 )
 )
-)
+]
 specificity
 (
 1
@@ -13524,7 +13576,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -13562,7 +13614,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13570,7 +13622,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13599,7 +13651,7 @@ foo
 "
 )
 }
-)
+]
 specificity
 (
 0
@@ -13607,7 +13659,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13679,7 +13731,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13687,7 +13739,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13740,7 +13792,7 @@ circle
 )
 }
 )
-)
+]
 specificity
 (
 0
@@ -13748,7 +13800,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -13775,7 +13827,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13783,7 +13835,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13809,7 +13861,7 @@ Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -13817,7 +13869,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13857,7 +13909,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13865,7 +13917,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13905,7 +13957,7 @@ foo
 "
 )
 }
-)
+]
 specificity
 (
 0
@@ -13913,7 +13965,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -13938,7 +13990,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -13946,7 +13998,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -13989,7 +14041,7 @@ e
 )
 }
 )
-)
+]
 specificity
 (
 0
@@ -13997,7 +14049,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -14022,7 +14074,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14030,7 +14082,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14046,7 +14098,7 @@ Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -14054,7 +14106,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -14081,7 +14133,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14089,7 +14141,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14098,7 +14150,7 @@ Component
 :
 :
 ExplicitUniversalType
-)
+]
 specificity
 (
 0
@@ -14106,7 +14158,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -14136,7 +14188,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14144,7 +14196,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14185,7 +14237,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -14193,7 +14245,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -14222,7 +14274,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14230,7 +14282,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14271,7 +14323,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -14279,7 +14331,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -14308,7 +14360,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14316,7 +14368,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14384,7 +14436,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -14392,7 +14444,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -14424,7 +14476,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14432,7 +14484,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14487,7 +14539,7 @@ ParsedCaseSensitivity
 :
 CaseSensitive
 }
-)
+]
 specificity
 (
 0
@@ -14495,7 +14547,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -14520,7 +14572,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14528,7 +14580,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14539,7 +14591,7 @@ PseudoElement
 :
 Before
 )
-)
+]
 specificity
 (
 0
@@ -14549,7 +14601,7 @@ specificity
 |
 HAS_PSEUDO_BIT
 )
-)
+]
 )
 )
 )
@@ -14576,7 +14628,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14584,7 +14636,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14605,7 +14657,7 @@ PseudoClass
 :
 Hover
 )
-)
+]
 specificity
 (
 0
@@ -14615,7 +14667,7 @@ specificity
 |
 HAS_PSEUDO_BIT
 )
-)
+]
 )
 )
 )
@@ -14644,7 +14696,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14652,7 +14704,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14683,7 +14735,7 @@ PseudoClass
 :
 Hover
 )
-)
+]
 specificity
 (
 0
@@ -14693,7 +14745,7 @@ specificity
 |
 HAS_PSEUDO_BIT
 )
-)
+]
 )
 )
 )
@@ -14835,7 +14887,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14843,7 +14895,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14905,7 +14957,7 @@ PseudoElement
 :
 After
 )
-)
+]
 specificity
 (
 0
@@ -14915,7 +14967,7 @@ specificity
 |
 HAS_PSEUDO_BIT
 )
-)
+]
 )
 )
 )
@@ -14942,7 +14994,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -14950,7 +15002,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -14991,7 +15043,7 @@ ok
 "
 )
 )
-)
+]
 (
 1
 <
@@ -15013,7 +15065,7 @@ ok
 0
 )
 )
-)
+]
 )
 )
 )
@@ -15134,7 +15186,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -15142,7 +15194,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15150,7 +15202,7 @@ Negation
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15166,13 +15218,13 @@ provel
 "
 )
 )
-)
+]
 .
 into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 1
@@ -15180,7 +15232,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -15211,7 +15263,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -15219,7 +15271,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15286,7 +15338,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -15294,7 +15346,7 @@ specificity
 1
 )
 )
-)
+]
 )
 )
 )
@@ -15323,7 +15375,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -15331,7 +15383,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15350,7 +15402,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -15358,7 +15410,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -15388,7 +15440,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -15396,7 +15448,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15419,7 +15471,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -15427,7 +15479,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -15468,7 +15520,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -15476,7 +15528,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15495,7 +15547,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -15503,7 +15555,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )
@@ -15534,7 +15586,7 @@ from_vec
 (
 vec
 !
-(
+[
 Selector
 :
 :
@@ -15542,7 +15594,7 @@ from_vec
 (
 vec
 !
-(
+[
 Component
 :
 :
@@ -15582,7 +15634,7 @@ into_boxed_slice
 (
 )
 )
-)
+]
 specificity
 (
 0
@@ -15590,7 +15642,7 @@ specificity
 0
 )
 )
-)
+]
 )
 )
 )

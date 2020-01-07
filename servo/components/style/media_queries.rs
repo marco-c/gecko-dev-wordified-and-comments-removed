@@ -21,8 +21,8 @@ cssparser
 :
 :
 {
-Token
 ParserInput
+Token
 }
 ;
 use
@@ -76,9 +76,9 @@ style_traits
 :
 {
 CssWriter
-ToCss
 ParseError
 StyleParseErrorKind
+ToCss
 }
 ;
 use
@@ -984,7 +984,6 @@ ident
 )
 =
 >
-{
 MediaQueryType
 :
 :
@@ -1021,7 +1020,6 @@ clone
 }
 )
 ?
-}
 Err
 (
 _
@@ -1049,6 +1047,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 expressions
 .
@@ -1106,6 +1105,7 @@ media_type
 expressions
 }
 )
+;
 }
 expressions
 .
@@ -1167,6 +1167,7 @@ MediaList
 empty
 (
 )
+;
 }
 let
 mut

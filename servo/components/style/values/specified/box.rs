@@ -884,10 +884,12 @@ if
 _is_root_element
 =
 >
+{
 Display
 :
 :
 Block
+}
 Display
 :
 :
@@ -914,8 +916,10 @@ Display
 Table
 =
 >
+{
 *
 self
+}
 #
 [
 cfg
@@ -1451,6 +1455,7 @@ GenericAnimationIterationCount
 :
 Infinite
 )
+;
 }
 let
 number
@@ -1784,12 +1789,6 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToComputedValue
 ToCss
 )
@@ -1836,12 +1835,6 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToComputedValue
 ToCss
 )
@@ -1888,12 +1881,6 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
-)
-]
-#
-[
-derive
-(
 ToComputedValue
 ToCss
 )
@@ -2374,7 +2361,6 @@ TOUCH_ACTION_PAN_X
 )
 =
 >
-{
 dest
 .
 write_str
@@ -2385,7 +2371,6 @@ pan
 x
 "
 )
-}
 _
 if
 self
@@ -2399,7 +2384,6 @@ TOUCH_ACTION_PAN_Y
 )
 =
 >
-{
 dest
 .
 write_str
@@ -2410,7 +2394,6 @@ pan
 y
 "
 )
-}
 _
 =
 >
@@ -2939,6 +2922,7 @@ write_str
 none
 "
 )
+;
 }
 if
 self
@@ -2960,6 +2944,7 @@ write_str
 strict
 "
 )
+;
 }
 let
 mut
@@ -3019,6 +3004,7 @@ str
 ;
 }
 }
+;
 }
 maybe_write_value
 !
@@ -3263,6 +3249,7 @@ flag
 _
 =
 >
+{
 return
 Err
 (
@@ -3279,6 +3266,7 @@ name
 )
 )
 )
+}
 }
 ;
 result

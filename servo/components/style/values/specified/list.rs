@@ -428,6 +428,7 @@ CounterStyle
 style
 )
 )
+;
 }
 Ok
 (
@@ -725,6 +726,7 @@ into_boxed_slice
 )
 )
 )
+;
 }
 let
 mut
@@ -772,7 +774,6 @@ value
 )
 =
 >
-{
 value
 .
 as_ref
@@ -786,7 +787,6 @@ to_owned
 into_boxed_str
 (
 )
-}
 Ok
 (
 t

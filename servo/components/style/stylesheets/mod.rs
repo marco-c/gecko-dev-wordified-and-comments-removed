@@ -117,6 +117,13 @@ shared_lock
 DeepCloneParams
 DeepCloneWithLock
 Locked
+}
+;
+use
+shared_lock
+:
+:
+{
 SharedRwLock
 SharedRwLockReadGuard
 ToCssWithGuard
@@ -293,6 +300,17 @@ rules_iterator
 {
 AllRules
 EffectiveRules
+}
+;
+pub
+use
+self
+:
+:
+rules_iterator
+:
+:
+{
 NestedRuleIterationCondition
 RulesIterator
 }
@@ -306,9 +324,9 @@ stylesheet
 :
 :
 {
+DocumentStyleSheet
 Namespaces
 Stylesheet
-DocumentStyleSheet
 }
 ;
 pub
@@ -694,6 +712,7 @@ lock
 )
 =
 >
+{
 lock
 .
 unconditional_shallow_size_of
@@ -713,6 +732,7 @@ size_of
 guard
 ops
 )
+}
 CssRule
 :
 :
@@ -723,6 +743,7 @@ lock
 )
 =
 >
+{
 lock
 .
 unconditional_shallow_size_of
@@ -742,6 +763,7 @@ size_of
 guard
 ops
 )
+}
 CssRule
 :
 :
@@ -802,6 +824,7 @@ lock
 )
 =
 >
+{
 lock
 .
 unconditional_shallow_size_of
@@ -821,6 +844,7 @@ size_of
 guard
 ops
 )
+}
 CssRule
 :
 :
@@ -831,6 +855,7 @@ lock
 )
 =
 >
+{
 lock
 .
 unconditional_shallow_size_of
@@ -850,6 +875,7 @@ size_of
 guard
 ops
 )
+}
 CssRule
 :
 :
@@ -860,6 +886,7 @@ lock
 )
 =
 >
+{
 lock
 .
 unconditional_shallow_size_of
@@ -879,6 +906,7 @@ size_of
 guard
 ops
 )
+}
 }
 }
 }

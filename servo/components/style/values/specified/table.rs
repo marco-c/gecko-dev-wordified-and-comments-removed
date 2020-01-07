@@ -18,8 +18,8 @@ style_traits
 :
 :
 {
-StyleParseErrorKind
 ParseError
+StyleParseErrorKind
 }
 ;
 #

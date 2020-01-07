@@ -11,10 +11,10 @@ cssparser
 :
 :
 {
-Token
-SourceLocation
-ParseErrorKind
 BasicParseErrorKind
+ParseErrorKind
+SourceLocation
+Token
 }
 ;
 use
@@ -515,6 +515,7 @@ unit_value
 }
 =
 >
+{
 write
 !
 (
@@ -529,6 +530,7 @@ unit_value
 100
 .
 )
+}
 Token
 :
 :
@@ -1111,7 +1113,6 @@ err
 )
 =
 >
-{
 write
 !
 (
@@ -1124,7 +1125,6 @@ f
 "
 err
 )
-}
 }
 }
 match
@@ -1514,7 +1514,6 @@ system
 )
 =
 >
-{
 write
 !
 (
@@ -1539,7 +1538,6 @@ symbols
 "
 system
 )
-}
 ContextualParseError
 :
 :
@@ -1550,7 +1548,6 @@ system
 )
 =
 >
-{
 write
 !
 (
@@ -1577,14 +1574,12 @@ symbols
 "
 system
 )
-}
 ContextualParseError
 :
 :
 InvalidCounterStyleWithoutAdditiveSymbols
 =
 >
-{
 write
 !
 (
@@ -1609,14 +1604,12 @@ symbols
 '
 "
 )
-}
 ContextualParseError
 :
 :
 InvalidCounterStyleExtendsWithSymbols
 =
 >
-{
 write
 !
 (
@@ -1639,14 +1632,12 @@ symbols
 '
 "
 )
-}
 ContextualParseError
 :
 :
 InvalidCounterStyleExtendsWithAdditiveSymbols
 =
 >
-{
 write
 !
 (
@@ -1671,7 +1662,6 @@ symbols
 '
 "
 )
-}
 ContextualParseError
 :
 :
@@ -1717,13 +1707,11 @@ err
 )
 =
 >
-{
 parse_error_to_str
 (
 err
 f
 )
-}
 }
 }
 }

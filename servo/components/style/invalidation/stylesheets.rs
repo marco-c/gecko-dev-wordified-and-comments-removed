@@ -406,6 +406,7 @@ local_name
 *
 *
 lower_name
+;
 }
 }
 false
@@ -1404,6 +1405,7 @@ self_invalid
 |
 |
 any_children_invalid
+;
 }
 fn
 scan_component

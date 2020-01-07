@@ -12,8 +12,8 @@ parser
 :
 :
 {
-ParserContext
 Parse
+ParserContext
 }
 ;
 use
@@ -430,6 +430,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 Ok
 (

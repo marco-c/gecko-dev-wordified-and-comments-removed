@@ -3,10 +3,10 @@ cssparser
 :
 :
 {
+AngleOrNumber
+NumberOrPercentage
 Parser
 Token
-NumberOrPercentage
-AngleOrNumber
 }
 ;
 use
@@ -55,8 +55,8 @@ values
 :
 :
 {
-CSSInteger
 CSSFloat
+CSSInteger
 }
 ;
 use
@@ -869,6 +869,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 (
 &
@@ -926,6 +927,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 (
 &
@@ -1040,7 +1042,6 @@ parse_nested_block
 |
 i
 |
-{
 CalcNode
 :
 :
@@ -1050,7 +1051,6 @@ context
 i
 expected_unit
 )
-}
 )
 }
 fn
@@ -1300,6 +1300,7 @@ start
 )
 ;
 break
+;
 }
 }
 }
@@ -1520,6 +1521,7 @@ start
 )
 ;
 break
+;
 }
 }
 }
@@ -1626,7 +1628,6 @@ b
 )
 =
 >
-{
 a
 .
 to_percentage
@@ -1640,7 +1641,6 @@ to_percentage
 (
 )
 ?
-}
 CalcNode
 :
 :
@@ -1653,7 +1653,6 @@ b
 )
 =
 >
-{
 a
 .
 to_percentage
@@ -1667,7 +1666,6 @@ to_percentage
 (
 )
 ?
-}
 CalcNode
 :
 :
@@ -1680,7 +1678,6 @@ b
 )
 =
 >
-{
 match
 a
 .
@@ -1742,7 +1739,6 @@ lhs
 rhs
 }
 }
-}
 CalcNode
 :
 :
@@ -1789,6 +1785,7 @@ Err
 (
 )
 )
+;
 }
 lhs
 /
@@ -1922,7 +1919,6 @@ l
 )
 =
 >
-{
 match
 *
 l
@@ -1978,7 +1974,6 @@ rel
 )
 =
 >
-{
 match
 rel
 {
@@ -2111,7 +2106,6 @@ factor
 ;
 }
 }
-}
 NoCalcLength
 :
 :
@@ -2121,7 +2115,6 @@ rel
 )
 =
 >
-{
 match
 rel
 {
@@ -2250,7 +2243,6 @@ factor
 )
 }
 }
-}
 NoCalcLength
 :
 :
@@ -2265,7 +2257,6 @@ unreachable
 !
 (
 )
-}
 }
 CalcNode
 :
@@ -2348,7 +2339,6 @@ b
 )
 =
 >
-{
 match
 b
 .
@@ -2404,7 +2394,6 @@ lhs
 )
 ?
 ;
-}
 }
 }
 CalcNode
@@ -2648,7 +2637,6 @@ b
 )
 =
 >
-{
 match
 b
 .
@@ -2730,7 +2718,6 @@ seconds
 )
 }
 }
-}
 CalcNode
 :
 :
@@ -2777,6 +2764,7 @@ Err
 (
 )
 )
+;
 }
 Time
 :
@@ -2988,7 +2976,6 @@ b
 )
 =
 >
-{
 match
 a
 .
@@ -3070,7 +3057,6 @@ radians
 )
 }
 }
-}
 CalcNode
 :
 :
@@ -3117,6 +3103,7 @@ Err
 (
 )
 )
+;
 }
 Angle
 :
@@ -3221,7 +3208,6 @@ b
 )
 =
 >
-{
 a
 .
 to_number
@@ -3235,7 +3221,6 @@ to_number
 (
 )
 ?
-}
 CalcNode
 :
 :
@@ -3248,7 +3233,6 @@ b
 )
 =
 >
-{
 a
 .
 to_number
@@ -3262,7 +3246,6 @@ to_number
 (
 )
 ?
-}
 CalcNode
 :
 :
@@ -3275,7 +3258,6 @@ b
 )
 =
 >
-{
 a
 .
 to_number
@@ -3289,7 +3271,6 @@ to_number
 (
 )
 ?
-}
 CalcNode
 :
 :
@@ -3336,6 +3317,7 @@ Err
 (
 )
 )
+;
 }
 lhs
 /
@@ -3995,6 +3977,7 @@ Number
 value
 }
 )
+;
 }
 match
 node
@@ -4128,6 +4111,7 @@ Angle
 degrees
 }
 )
+;
 }
 match
 node

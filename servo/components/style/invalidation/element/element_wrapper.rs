@@ -24,12 +24,19 @@ selector_parser
 :
 :
 {
+AttrValue
 NonTSPseudoClass
 PseudoElement
 SelectorImpl
+}
+;
+use
+selector_parser
+:
+:
+{
 Snapshot
 SnapshotMap
-AttrValue
 }
 ;
 use
@@ -698,7 +705,6 @@ any
 |
 s
 |
-{
 matches_complex_selector
 (
 s
@@ -710,7 +716,6 @@ self
 context
 _setter
 )
-}
 )
 }
 )
@@ -1035,6 +1040,7 @@ _
 {
 }
 )
+;
 }
 match
 self
@@ -1070,7 +1076,6 @@ flag
 None
 =
 >
-{
 self
 .
 element
@@ -1088,7 +1093,6 @@ _
 {
 }
 )
-}
 }
 }
 fn
@@ -1644,7 +1648,6 @@ has_attrs
 )
 =
 >
-{
 snapshot
 .
 id_attr
@@ -1666,7 +1669,6 @@ atom
 id
 )
 )
-}
 _
 =
 >
@@ -1717,7 +1719,6 @@ has_attrs
 )
 =
 >
-{
 snapshot
 .
 has_class
@@ -1725,7 +1726,6 @@ has_class
 name
 case_sensitivity
 )
-}
 _
 =
 >

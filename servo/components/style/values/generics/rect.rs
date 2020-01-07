@@ -44,12 +44,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-)
-]
-#
-[
-derive
-(
 MallocSizeOf
 PartialEq
 ToComputedValue

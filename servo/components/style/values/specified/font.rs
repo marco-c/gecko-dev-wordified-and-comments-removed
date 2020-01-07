@@ -140,9 +140,9 @@ font
 :
 :
 {
-SingleFontFamily
-FontFamilyList
 FamilyName
+FontFamilyList
+SingleFontFamily
 }
 ;
 use
@@ -156,9 +156,9 @@ font
 :
 :
 {
+FeatureTagValue
 FontSettings
 FontTag
-FeatureTagValue
 }
 ;
 use
@@ -205,9 +205,9 @@ length
 :
 :
 {
+FontBaseSize
 AU_PER_PT
 AU_PER_PX
-FontBaseSize
 }
 ;
 const
@@ -513,7 +513,6 @@ value
 }
 =
 >
-{
 computed
 :
 :
@@ -532,7 +531,6 @@ FontWeight
 :
 Weight
 )
-}
 _
 =
 >
@@ -646,7 +644,6 @@ FontWeight
 Bolder
 =
 >
-{
 context
 .
 builder
@@ -662,14 +659,12 @@ clone_font_weight
 bolder
 (
 )
-}
 FontWeight
 :
 :
 Lighter
 =
 >
-{
 context
 .
 builder
@@ -685,7 +680,6 @@ clone_font_weight
 lighter
 (
 )
-}
 #
 [
 cfg
@@ -706,7 +700,6 @@ _
 )
 =
 >
-{
 context
 .
 cached_system_font
@@ -724,7 +717,6 @@ font_weight
 clone
 (
 )
-}
 #
 [
 cfg
@@ -995,7 +987,6 @@ map
 |
 v
 |
-{
 FontFamily
 :
 :
@@ -1013,7 +1004,6 @@ into_boxed_slice
 )
 )
 )
-}
 )
 }
 #
@@ -1418,6 +1408,7 @@ _
 )
 =
 >
+{
 Err
 (
 input
@@ -1430,6 +1421,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 Err
 (
 e
@@ -1605,6 +1597,7 @@ n
 )
 =
 >
+{
 computed
 :
 :
@@ -1620,6 +1613,7 @@ to_computed_value
 context
 )
 )
+}
 FontSizeAdjust
 :
 :
@@ -1721,6 +1715,7 @@ v
 )
 =
 >
+{
 FontSizeAdjust
 :
 :
@@ -1734,6 +1729,7 @@ from_computed_value
 v
 )
 )
+}
 }
 }
 }
@@ -2979,7 +2975,6 @@ value
 )
 =
 >
-{
 value
 .
 to_computed_value
@@ -2995,7 +2990,6 @@ context
 into
 (
 )
-}
 FontSize
 :
 :
@@ -3694,6 +3688,7 @@ Length
 lop
 )
 )
+;
 }
 if
 let
@@ -3727,6 +3722,7 @@ into
 )
 )
 )
+;
 }
 try_match_ident_ignore_ascii_case
 !
@@ -4340,7 +4336,6 @@ fold
 acc
 alternate
 |
-{
 match
 *
 alternate
@@ -4378,11 +4373,9 @@ _
 )
 =
 >
-{
 acc
 +
 1
-}
 VariantAlternates
 :
 :
@@ -4402,7 +4395,6 @@ slice
 )
 =
 >
-{
 acc
 +
 slice
@@ -4410,12 +4402,10 @@ slice
 len
 (
 )
-}
 _
 =
 >
 acc
-}
 }
 )
 }
@@ -4909,7 +4899,6 @@ name
 )
 =
 >
-{
 input
 .
 parse_nested_block
@@ -5362,7 +5351,6 @@ UnspecifiedError
 }
 }
 )
-}
 _
 =
 >
@@ -5746,6 +5734,7 @@ write_str
 normal
 "
 )
+;
 }
 let
 mut
@@ -5805,6 +5794,7 @@ str
 ;
 }
 }
+;
 }
 write_value
 !
@@ -6459,6 +6449,7 @@ Value
 result
 )
 )
+;
 }
 while
 let
@@ -7186,6 +7177,7 @@ write_str
 normal
 "
 )
+;
 }
 if
 self
@@ -7207,6 +7199,7 @@ write_str
 none
 "
 )
+;
 }
 let
 mut
@@ -7266,6 +7259,7 @@ str
 ;
 }
 }
+;
 }
 write_value
 !
@@ -7946,6 +7940,7 @@ Value
 result
 )
 )
+;
 }
 if
 input
@@ -7983,6 +7978,7 @@ VariantLigatures
 NONE
 )
 )
+;
 }
 while
 let
@@ -8574,6 +8570,7 @@ write_str
 normal
 "
 )
+;
 }
 let
 mut
@@ -8633,6 +8630,7 @@ str
 ;
 }
 }
+;
 }
 write_value
 !
@@ -9276,6 +9274,7 @@ Value
 result
 )
 )
+;
 }
 while
 let
@@ -10574,6 +10573,7 @@ FontLanguageOverride
 (
 0
 )
+;
 }
 let
 mut
@@ -10715,6 +10715,7 @@ FontLanguageOverride
 :
 :
 Normal
+;
 }
 let
 mut
@@ -10863,6 +10864,7 @@ FontLanguageOverride
 :
 Normal
 )
+;
 }
 let
 string
@@ -11287,6 +11289,7 @@ Ok
 (
 integer
 )
+;
 }
 try_match_ident_ignore_ascii_case
 !
@@ -11993,6 +11996,7 @@ Relative
 i
 )
 )
+;
 }
 input
 .
