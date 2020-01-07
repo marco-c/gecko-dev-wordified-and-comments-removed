@@ -76,6 +76,7 @@ AccGroupInfo
 *
 CreateGroupInfo
 (
+const
 Accessible
 *
 aAccessible
@@ -339,6 +340,7 @@ protected
 :
 AccGroupInfo
 (
+const
 Accessible
 *
 aItem
@@ -514,6 +516,7 @@ Accessible
 *
 mParent
 ;
+const
 Accessible
 *
 mItem
