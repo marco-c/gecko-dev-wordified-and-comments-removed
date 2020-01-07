@@ -32,6 +32,13 @@ pth
 :
 python
 /
+mozrelease
+mozilla
+.
+pth
+:
+python
+/
 mozterm
 mozilla
 .

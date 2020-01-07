@@ -443,6 +443,15 @@ python
 ini
 '
 '
+mozrelease
+/
+test
+/
+python
+.
+ini
+'
+'
 mozterm
 /
 test
