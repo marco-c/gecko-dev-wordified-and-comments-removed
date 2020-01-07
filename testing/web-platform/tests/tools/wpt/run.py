@@ -2509,8 +2509,28 @@ venv
 )
 :
         
-raise
-NotImplementedError
+if
+self
+.
+prompt_install
+(
+self
+.
+name
+)
+:
+            
+return
+self
+.
+browser
+.
+install
+(
+venv
+.
+path
+)
     
 def
 setup_kwargs
