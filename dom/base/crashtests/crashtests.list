@@ -1458,3 +1458,16 @@ e10s
 loads
 Bug
 1419902
+pref
+(
+dom
+.
+webcomponents
+.
+enabled
+true
+)
+load
+1428053
+.
+html

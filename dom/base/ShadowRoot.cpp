@@ -2464,7 +2464,7 @@ ContentInserted
 (
 aDocument
 aContainer
-aFirstNewContent
+content
 )
 ;
 }
