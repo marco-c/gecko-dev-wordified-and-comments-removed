@@ -1575,6 +1575,11 @@ Preferences
 jsm
 '
 '
+PrintingContent
+.
+jsm
+'
+'
 PrivateBrowsingUtils
 .
 jsm
