@@ -2595,7 +2595,7 @@ CompileError
 /
 too
 many
-signatures
+types
 /
 )
 ;
@@ -2627,7 +2627,7 @@ body
 CompileError
 /
 expected
-function
+type
 form
 /
 )

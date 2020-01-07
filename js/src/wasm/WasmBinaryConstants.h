@@ -121,6 +121,9 @@ AnyRef
 Func
 =
 0x60
+Struct
+=
+0x50
 BlockVoid
 =
 0x40
@@ -1422,6 +1425,13 @@ static
 const
 unsigned
 MaxParams
+=
+1000
+;
+static
+const
+unsigned
+MaxStructFields
 =
 1000
 ;
