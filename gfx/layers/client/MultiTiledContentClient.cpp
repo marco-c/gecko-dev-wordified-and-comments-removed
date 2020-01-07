@@ -1592,11 +1592,11 @@ oldIndex
 {
 const
 TileCoordIntPoint
-tilePosition
+tileCoord
 =
 oldTiles
 .
-TilePosition
+TileCoord
 (
 oldIndex
 )
@@ -1609,7 +1609,7 @@ newTiles
 .
 TileIndex
 (
-tilePosition
+tileCoord
 )
 ;
 if
@@ -1618,7 +1618,7 @@ newTiles
 .
 HasTile
 (
-tilePosition
+tileCoord
 )
 )
 {
@@ -1702,11 +1702,11 @@ i
 {
 const
 TileCoordIntPoint
-tilePosition
+tileCoord
 =
 newTiles
 .
-TilePosition
+TileCoord
 (
 i
 )
@@ -1716,7 +1716,7 @@ tileOffset
 =
 GetTileOffset
 (
-tilePosition
+tileCoord
 )
 ;
 nsIntRegion
@@ -1764,7 +1764,7 @@ ValidateTile
 tile
 GetTileOffset
 (
-tilePosition
+tileCoord
 )
 tileDrawRegion
 aFlags
@@ -2168,11 +2168,11 @@ IsLocked
 {
 const
 TileCoordIntPoint
-tilePosition
+tileCoord
 =
 newTiles
 .
-TilePosition
+TileCoord
 (
 i
 )
@@ -2182,7 +2182,7 @@ tileOffset
 =
 GetTileOffset
 (
-tilePosition
+tileCoord
 )
 ;
 IntRect

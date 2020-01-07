@@ -296,11 +296,11 @@ o
 .
 mTextureSourceOnWhite
 ;
-mTilePosition
+mTileCoord
 =
 o
 .
-mTilePosition
+mTileCoord
 ;
 }
 TileHost
@@ -352,11 +352,11 @@ o
 .
 mTextureSourceOnWhite
 ;
-mTilePosition
+mTileCoord
 =
 o
 .
-mTilePosition
+mTileCoord
 ;
 return
 *
@@ -504,7 +504,7 @@ CompositableTextureSourceRef
 mTextureSourceOnWhite
 ;
 TileCoordIntPoint
-mTilePosition
+mTileCoord
 ;
 TimeStamp
 mFadeStart
