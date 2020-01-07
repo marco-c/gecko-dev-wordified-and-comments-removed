@@ -2574,6 +2574,7 @@ kCaptionSideKTable
 ]
 ;
 static
+const
 KTableEntry
 kClearKTable
 [
@@ -2740,6 +2741,7 @@ kFlexWrapKTable
 ]
 ;
 static
+const
 KTableEntry
 kFloatKTable
 [
