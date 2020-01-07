@@ -29386,7 +29386,7 @@ extensionname
 ;
 ASSERT_EQ
 (
-4U
+6U
 offerExtmap
 [
 3
@@ -29410,7 +29410,7 @@ extensionname
 ;
 ASSERT_EQ
 (
-5U
+7U
 offerExtmap
 [
 4
@@ -29512,7 +29512,7 @@ audio
 -
 level
 "
-offerExtmap
+answerExtmap
 [
 0
 ]
@@ -29523,7 +29523,7 @@ extensionname
 ASSERT_EQ
 (
 1U
-offerExtmap
+answerExtmap
 [
 0
 ]
@@ -29558,8 +29558,8 @@ extensionname
 ;
 ASSERT_EQ
 (
-2U
-offerExtmap
+3U
+answerExtmap
 [
 1
 ]
@@ -29582,7 +29582,7 @@ extensionname
 ;
 ASSERT_EQ
 (
-5U
+7U
 answerExtmap
 [
 2
@@ -29887,7 +29887,7 @@ extensionname
 ;
 ASSERT_EQ
 (
-4U
+6U
 offerExtmap
 [
 3
@@ -29911,7 +29911,7 @@ extensionname
 ;
 ASSERT_EQ
 (
-5U
+7U
 offerExtmap
 [
 4
@@ -29935,7 +29935,7 @@ extensionname
 ;
 ASSERT_EQ
 (
-6U
+8U
 offerExtmap
 [
 5
