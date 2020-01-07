@@ -356,6 +356,14 @@ psutil
 /
 build
 /
+third_party
+/
+python
+/
+psutil
+/
+tmp
+/
 #
 Ignore
 chrome
