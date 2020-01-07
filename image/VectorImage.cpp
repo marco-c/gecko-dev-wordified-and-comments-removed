@@ -4700,6 +4700,7 @@ flags
 aParams
 .
 opacity
+false
 )
 ;
 #
