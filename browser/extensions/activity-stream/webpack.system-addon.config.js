@@ -55,6 +55,11 @@ module
 exports
 =
 {
+mode
+:
+"
+none
+"
 entry
 :
 absolute

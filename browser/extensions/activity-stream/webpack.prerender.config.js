@@ -89,6 +89,11 @@ assign
 }
 webpackConfig
 {
+mode
+:
+"
+none
+"
 target
 :
 "

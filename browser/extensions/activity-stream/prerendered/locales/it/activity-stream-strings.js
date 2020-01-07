@@ -1013,9 +1013,11 @@ firstrun_invalid_input
 "
 :
 "
-Valid
+Inserire
+un
+indirizzo
 email
-required
+valido
 "
 "
 firstrun_extra_legal_links

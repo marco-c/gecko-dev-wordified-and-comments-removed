@@ -182,10 +182,11 @@ menu_action_delete
 "
 X
 a
-t
+kh
+i
 l
 ch
-x
+s
 "
 "
 menu_action_pin

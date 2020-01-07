@@ -288,6 +288,11 @@ preprocessors
 webpack
 :
 {
+mode
+:
+"
+none
+"
 devtool
 :
 "

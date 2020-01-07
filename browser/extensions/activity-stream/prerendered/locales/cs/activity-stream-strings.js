@@ -689,7 +689,10 @@ topsites_form_title_label
 "
 :
 "
-Nadpis
+N
+zev
+str
+nky
 "
 "
 topsites_form_title_placeholder

@@ -1021,9 +1021,11 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Geldig
+e
+-
+mailadres
+vereist
 "
 "
 firstrun_extra_legal_links

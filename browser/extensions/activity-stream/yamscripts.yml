@@ -167,13 +167,6 @@ addon
 config
 .
 js
--
--
-display
--
-optimization
--
-bailout
 css
 :
 node
