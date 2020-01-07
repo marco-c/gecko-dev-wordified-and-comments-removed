@@ -338,6 +338,11 @@ AudioWorkletNode
 h
 '
 '
+AudioWorkletProcessor
+.
+h
+'
+'
 BiquadFilterNode
 .
 h
@@ -514,6 +519,11 @@ cpp
 '
 '
 AudioWorkletNode
+.
+cpp
+'
+'
+AudioWorkletProcessor
 .
 cpp
 '
