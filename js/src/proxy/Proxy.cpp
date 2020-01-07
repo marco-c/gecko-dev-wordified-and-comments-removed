@@ -4360,11 +4360,9 @@ obj
 )
 ;
 }
+static
 JSObject
 *
-js
-:
-:
 proxy_WeakmapKeyDelegate
 (
 JSObject
