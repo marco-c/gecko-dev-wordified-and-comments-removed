@@ -105,6 +105,12 @@ mozilla
 :
 image
 ;
+using
+mozilla
+:
+:
+Move
+;
 class
 ProxyBehaviour
 {
@@ -1146,6 +1152,9 @@ aLoadingDocument
 {
 RefPtr
 <
+mozilla
+:
+:
 dom
 :
 :
