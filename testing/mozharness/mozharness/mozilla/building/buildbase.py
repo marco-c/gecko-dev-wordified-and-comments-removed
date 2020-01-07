@@ -3250,6 +3250,27 @@ py
 '
         
 '
+android
+-
+geckoview
+-
+docs
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_geckoview_docs
+.
+py
+'
+        
+'
 valgrind
 '
 :
