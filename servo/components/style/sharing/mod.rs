@@ -1515,7 +1515,6 @@ entries
 :
 LRUCache
 <
-Candidate
 [
 Entry
 <
