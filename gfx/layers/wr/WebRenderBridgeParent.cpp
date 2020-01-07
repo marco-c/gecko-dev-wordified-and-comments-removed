@@ -2913,11 +2913,11 @@ wr
 LayoutSize
 &
 aContentSize
-ipc
+const
+wr
 :
 :
-ByteBuf
-&
+ByteBuffer
 &
 dl
 const
@@ -3180,7 +3180,7 @@ dl
 mData
 dl
 .
-mLen
+mLength
 resources
 )
 ;

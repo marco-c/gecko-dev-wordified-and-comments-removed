@@ -549,7 +549,7 @@ uint64_t
 transactionId
 LayoutSize
 aContentSize
-ByteBuf
+ByteBuffer
 aDL
 BuiltDisplayListDescriptor
 aDLDesc
