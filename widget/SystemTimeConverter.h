@@ -27,6 +27,14 @@ TypeTraits
 .
 h
 "
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 namespace
 mozilla
 {
