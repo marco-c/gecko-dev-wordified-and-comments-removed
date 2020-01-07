@@ -92,7 +92,6 @@ nametype
 eTypeNotInitialized
 eTypeProperty
 eTypeClassConstructor
-eTypeClassProto
 }
 mType
 ;
@@ -100,9 +99,6 @@ union
 {
 int32_t
 mDOMClassInfoID
-;
-nsIID
-mIID
 ;
 nsCID
 mCID
