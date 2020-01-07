@@ -222,6 +222,12 @@ extensions
 '
     
 '
+testing
+/
+marionette
+'
+    
+'
 toolkit
 /
 components
