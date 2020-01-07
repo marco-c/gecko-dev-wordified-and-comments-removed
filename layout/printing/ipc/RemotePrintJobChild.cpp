@@ -258,6 +258,12 @@ WaitForRemotePrint
 (
 )
 ;
+if
+(
+!
+mDestroyed
+)
+{
 Unused
 <
 <
@@ -265,6 +271,7 @@ SendProcessPage
 (
 )
 ;
+}
 }
 mozilla
 :
@@ -411,6 +418,12 @@ nsresult
 aStatus
 )
 {
+if
+(
+!
+mDestroyed
+)
+{
 Unused
 <
 <
@@ -420,6 +433,7 @@ aStateFlags
 aStatus
 )
 ;
+}
 return
 NS_OK
 ;
@@ -446,6 +460,12 @@ int32_t
 aMaxTotalProgress
 )
 {
+if
+(
+!
+mDestroyed
+)
+{
 Unused
 <
 <
@@ -457,6 +477,7 @@ aCurTotalProgress
 aMaxTotalProgress
 )
 ;
+}
 return
 NS_OK
 ;
@@ -504,6 +525,12 @@ char16_t
 aMessage
 )
 {
+if
+(
+!
+mDestroyed
+)
+{
 Unused
 <
 <
@@ -512,6 +539,7 @@ SendStatusChange
 aStatus
 )
 ;
+}
 return
 NS_OK
 ;
@@ -562,6 +590,10 @@ nullptr
 mPrintEngine
 =
 nullptr
+;
+mDestroyed
+=
+true
 ;
 }
 }
