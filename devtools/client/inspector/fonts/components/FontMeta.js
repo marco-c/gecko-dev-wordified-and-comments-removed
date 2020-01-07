@@ -455,7 +455,7 @@ render
 {
 const
 {
-name
+CSSFamilyName
 URI
 }
 =
@@ -474,7 +474,7 @@ this
 .
 renderFontName
 (
-name
+CSSFamilyName
 )
 this
 .
