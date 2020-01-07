@@ -65,13 +65,6 @@ h
 #
 include
 "
-nsIDOMSVGLength
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

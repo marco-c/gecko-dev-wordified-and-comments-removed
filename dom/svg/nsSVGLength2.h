@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMSVGLength
-.
-h
-"
-#
-include
-"
 nsISMILAttr
 .
 h

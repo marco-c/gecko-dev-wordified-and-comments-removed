@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIDOMSVGLength
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h

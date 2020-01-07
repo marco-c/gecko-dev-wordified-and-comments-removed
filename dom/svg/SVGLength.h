@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMSVGLength
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h
