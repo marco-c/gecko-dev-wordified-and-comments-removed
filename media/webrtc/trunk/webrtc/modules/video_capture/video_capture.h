@@ -607,6 +607,17 @@ StopCaptureIfAllClientsClose
 0
 ;
 virtual
+bool
+FocusOnSelectedSource
+(
+)
+{
+return
+false
+;
+}
+;
+virtual
 int32_t
 StopCapture
 (
