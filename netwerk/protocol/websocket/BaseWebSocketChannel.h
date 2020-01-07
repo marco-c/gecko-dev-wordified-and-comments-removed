@@ -273,7 +273,7 @@ override
 NS_IMETHOD
 InitLoadInfo
 (
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal

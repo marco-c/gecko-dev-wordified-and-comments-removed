@@ -113,13 +113,13 @@ interface
 nsIFile
 ;
 interface
-nsIDOMNode
-;
-interface
 nsIPrincipal
 ;
 interface
 nsILoadInfo
+;
+webidl
+Node
 ;
 %
 {
@@ -699,7 +699,7 @@ in
 nsIURI
 aURI
 in
-nsIDOMNode
+Node
 aLoadingNode
 in
 nsIPrincipal
@@ -729,7 +729,7 @@ in
 nsIURI
 aURI
 in
-nsIDOMNode
+Node
 aLoadingNode
 in
 nsIPrincipal
@@ -813,7 +813,7 @@ in
 nsIURI
 aBaseURI
 in
-nsIDOMNode
+Node
 aLoadingNode
 in
 nsIPrincipal
@@ -1472,7 +1472,7 @@ unsigned
 long
 aProxyFlags
 in
-nsIDOMNode
+Node
 aLoadingNode
 in
 nsIPrincipal

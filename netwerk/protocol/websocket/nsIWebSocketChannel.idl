@@ -130,13 +130,13 @@ interface
 nsILoadInfo
 ;
 interface
-nsIDOMNode
-;
-interface
 nsIPrincipal
 ;
 interface
 nsITransportProvider
+;
+webidl
+Node
 ;
 #
 include
@@ -577,7 +577,7 @@ void
 initLoadInfo
 (
 in
-nsIDOMNode
+Node
 aLoadingNode
 in
 nsIPrincipal

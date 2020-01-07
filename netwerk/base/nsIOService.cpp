@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h
@@ -3045,7 +3038,7 @@ NewChannelFromURI2
 nsIURI
 *
 aURI
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal
@@ -3088,7 +3081,7 @@ NewChannelFromURIWithClientAndController
 nsIURI
 *
 aURI
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal
@@ -3181,7 +3174,7 @@ nsIURI
 aProxyURI
 uint32_t
 aProxyFlags
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal
@@ -3237,18 +3230,6 @@ nsIContentPolicy
 TYPE_DOCUMENT
 )
 {
-nsCOMPtr
-<
-nsINode
->
-loadingNode
-(
-do_QueryInterface
-(
-aLoadingNode
-)
-)
-;
 loadInfo
 =
 new
@@ -3256,7 +3237,7 @@ LoadInfo
 (
 aLoadingPrincipal
 aTriggeringPrincipal
-loadingNode
+aLoadingNode
 aSecurityFlags
 aContentPolicyType
 aLoadingClientInfo
@@ -3794,7 +3775,7 @@ nsIURI
 aProxyURI
 uint32_t
 aProxyFlags
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal
@@ -3857,7 +3838,7 @@ aCharset
 nsIURI
 *
 aBaseURI
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal
