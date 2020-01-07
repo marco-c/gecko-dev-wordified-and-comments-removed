@@ -5797,11 +5797,6 @@ tabbrowser
 -
 tabs
 "
-tabbrowser
-=
-"
-content
-"
 flex
 =
 "
