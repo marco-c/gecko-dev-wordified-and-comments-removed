@@ -178,6 +178,12 @@ audioLevel
 aAudioLevel
 ;
 }
+double
+ToLinearAudioLevel
+(
+)
+const
+;
 int64_t
 jitterAdjustedTimestamp
 =
