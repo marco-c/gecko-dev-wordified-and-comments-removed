@@ -73,6 +73,7 @@ maxdepth
 :
 2
 fluent_tutorial
+fluent_migrations
 Other
 resources
 :
