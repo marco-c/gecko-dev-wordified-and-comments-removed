@@ -143,6 +143,13 @@ PropTypes
 func
 .
 isRequired
+selectAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 setSelectedNode
 :
 PropTypes
@@ -179,6 +186,7 @@ getAnimatedPropertyMap
 getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
+selectAnimation
 setSelectedNode
 simulateAnimation
 timeScale
@@ -218,6 +226,7 @@ getAnimatedPropertyMap
 getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
+selectAnimation
 setSelectedNode
 simulateAnimation
 timeScale
