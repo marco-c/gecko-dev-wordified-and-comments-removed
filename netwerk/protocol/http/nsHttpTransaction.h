@@ -920,7 +920,7 @@ header
 )
 ;
 bool
-ShouldStopReading
+ShouldThrottle
 (
 )
 ;
@@ -1160,6 +1160,16 @@ mHttpResponseCode
 ;
 uint32_t
 mCurrentHttpResponseHeaderSize
+;
+int32_t
+const
+THROTTLE_NO_LIMIT
+=
+-
+1
+;
+int32_t
+mThrottlingReadAllowance
 ;
 Atomic
 <
