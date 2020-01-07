@@ -162,8 +162,7 @@ DeleteSession
 Ok
 (
 "
-{
-}
+null
 "
 .
 to_string
@@ -232,8 +231,7 @@ Void
 Ok
 (
 "
-{
-}
+null
 "
 .
 to_string
