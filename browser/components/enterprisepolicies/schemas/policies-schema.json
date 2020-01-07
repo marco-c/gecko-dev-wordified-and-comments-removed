@@ -2230,6 +2230,11 @@ first_available
 0
 "
 "
+enterprise_only
+"
+:
+true
+"
 type
 "
 :
