@@ -6101,12 +6101,6 @@ getIntent
 )
 )
 ;
-checkFirstrun
-(
-this
-intent
-)
-;
 if
 (
 !
@@ -6118,6 +6112,12 @@ intent
 )
 )
 {
+checkFirstrun
+(
+this
+intent
+)
+;
 DawnHelper
 .
 conditionallyNotifyDawn
