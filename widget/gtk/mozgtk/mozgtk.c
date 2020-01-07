@@ -1087,10 +1087,6 @@ gtk_im_context_simple_new
 )
 STUB
 (
-gtk_im_multicontext_get_context_id
-)
-STUB
-(
 gtk_im_multicontext_get_type
 )
 STUB
