@@ -266,9 +266,6 @@ IN_SCOPE_LINES
 "
 REMOVE_BREAKPOINT
 "
-"
-ADD_BREAKPOINT
-"
 ]
 ;
 function

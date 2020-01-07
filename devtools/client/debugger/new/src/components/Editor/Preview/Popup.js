@@ -868,7 +868,6 @@ value
 renderReact
 (
 react
-roots
 )
 {
 const
@@ -1318,16 +1317,9 @@ props
 ;
 if
 (
-!
 value
-)
-{
-return
-null
-;
-}
-if
-(
+&
+&
 value
 .
 class
@@ -1349,6 +1341,9 @@ renderFunctionPreview
 }
 if
 (
+value
+&
+&
 value
 .
 type

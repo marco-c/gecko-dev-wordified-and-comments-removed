@@ -122,6 +122,11 @@ SearchInput
 js
 '
 '
+SourceIcon
+.
+js
+'
+'
 Svg
 .
 js

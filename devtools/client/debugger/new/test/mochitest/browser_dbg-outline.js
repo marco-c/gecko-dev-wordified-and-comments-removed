@@ -156,7 +156,7 @@ firstFunction
 findElementWithSelector
 (
 dbg
-'
+"
 .
 outline
 -
@@ -165,7 +165,7 @@ list__element
 function
 -
 signature
-'
+"
 )
 ;
 is
@@ -238,7 +238,7 @@ firstAlphaFunction
 findElementWithSelector
 (
 dbg
-'
+"
 .
 outline
 -
@@ -247,7 +247,7 @@ list__element
 function
 -
 signature
-'
+"
 )
 ;
 is

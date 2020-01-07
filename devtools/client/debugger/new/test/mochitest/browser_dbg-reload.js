@@ -111,6 +111,7 @@ sjs_code_reload
 sjs
 "
 )
+;
 const
 source
 =

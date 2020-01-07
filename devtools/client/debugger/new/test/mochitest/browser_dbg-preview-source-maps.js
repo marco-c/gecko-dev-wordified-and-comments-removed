@@ -33,6 +33,7 @@ not
 exist
 "
 )
+;
 }
 function
 assertPreviewTooltip
@@ -343,6 +344,7 @@ the
 original
 location
 )
+;
 await
 assertPreviews
 (
@@ -376,6 +378,7 @@ the
 generated
 location
 )
+;
 await
 dbg
 .
@@ -462,6 +465,7 @@ assertNoTooltip
 (
 dbg
 )
+;
 }
 )
 ;
