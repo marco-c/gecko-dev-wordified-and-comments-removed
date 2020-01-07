@@ -131,6 +131,9 @@ mState
 ;
 UniquePtr
 <
+workers
+:
+:
 WorkerHolder
 >
 mWorkerHolder

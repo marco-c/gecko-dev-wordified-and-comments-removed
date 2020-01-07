@@ -299,6 +299,11 @@ WorkerDebuggerManager
 cpp
 '
 '
+WorkerError
+.
+cpp
+'
+'
 WorkerHolder
 .
 cpp
