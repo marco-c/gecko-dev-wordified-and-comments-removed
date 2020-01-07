@@ -442,7 +442,10 @@ KeySystem
 const
 override
 ;
+DataMutex
+<
 CDMCaps
+>
 &
 Capabilites
 (
