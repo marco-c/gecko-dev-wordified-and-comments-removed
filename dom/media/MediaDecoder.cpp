@@ -2465,17 +2465,21 @@ MediaDecoder
 :
 OnPlaybackEvent
 (
-MediaEventType
+MediaPlaybackEvent
+&
+&
 aEvent
 )
 {
 switch
 (
 aEvent
+.
+mType
 )
 {
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 PlaybackEnded
@@ -2487,7 +2491,7 @@ PlaybackEnded
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 SeekStarted
@@ -2499,7 +2503,7 @@ SeekingStarted
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 Loop
@@ -2537,7 +2541,7 @@ seeked
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 Invalidate
@@ -2549,7 +2553,7 @@ Invalidate
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 EnterVideoSuspend
@@ -2572,7 +2576,7 @@ mozentervideosuspend
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 ExitVideoSuspend
@@ -2595,7 +2599,7 @@ mozexitvideosuspend
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 StartVideoSuspendTimer
@@ -2618,7 +2622,7 @@ mozstartvideosuspendtimer
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 CancelVideoSuspendTimer
@@ -2641,7 +2645,7 @@ mozcancelvideosuspendtimer
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 VideoOnlySeekBegin
@@ -2664,7 +2668,7 @@ mozvideoonlyseekbegin
 break
 ;
 case
-MediaEventType
+MediaPlaybackEvent
 :
 :
 VideoOnlySeekCompleted

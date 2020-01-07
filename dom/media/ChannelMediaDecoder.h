@@ -188,7 +188,9 @@ protected
 void
 OnPlaybackEvent
 (
-MediaEventType
+MediaPlaybackEvent
+&
+&
 aEvent
 )
 override
