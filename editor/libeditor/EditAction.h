@@ -25,8 +25,8 @@ eRedo
 eInsertNode
 eCreateNode
 eDeleteNode
-splitNode
-joinNode
+eSplitNode
+eJoinNodes
 deleteText
 =
 1003

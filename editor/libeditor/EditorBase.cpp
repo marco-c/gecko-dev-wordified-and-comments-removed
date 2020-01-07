@@ -5964,7 +5964,7 @@ this
 EditSubAction
 :
 :
-splitNode
+eSplitNode
 nsIEditor
 :
 :
@@ -6288,7 +6288,7 @@ this
 EditSubAction
 :
 :
-joinNode
+eJoinNodes
 nsIEditor
 :
 :
