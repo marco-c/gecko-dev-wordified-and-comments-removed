@@ -423,6 +423,13 @@ clear
 await
 sidebarClosed
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 ok
 (
 !
