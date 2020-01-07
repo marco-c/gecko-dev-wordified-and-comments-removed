@@ -322,7 +322,7 @@ height
 '
 )
 ;
-assert_style_value_equals
+assert_style_value_array_equals
 (
 findInStyleMap
 (
@@ -331,12 +331,14 @@ styleMap
 width
 '
 )
+[
 CSS
 .
 px
 (
 10
 )
+]
 )
 ;
 }
@@ -464,7 +466,7 @@ B
 '
 )
 ;
-assert_style_value_equals
+assert_style_value_array_equals
 (
 findInStyleMap
 (
@@ -475,6 +477,7 @@ styleMap
 A
 '
 )
+[
 new
 CSSUnparsedValue
 (
@@ -484,9 +487,10 @@ A
 '
 ]
 )
+]
 )
 ;
-assert_style_value_equals
+assert_style_value_array_equals
 (
 findInStyleMap
 (
@@ -497,6 +501,7 @@ styleMap
 B
 '
 )
+[
 new
 CSSUnparsedValue
 (
@@ -506,9 +511,10 @@ B
 '
 ]
 )
+]
 )
 ;
-assert_style_value_equals
+assert_style_value_array_equals
 (
 findInStyleMap
 (
@@ -519,6 +525,7 @@ styleMap
 C
 '
 )
+[
 new
 CSSUnparsedValue
 (
@@ -528,6 +535,7 @@ C
 '
 ]
 )
+]
 )
 ;
 }
