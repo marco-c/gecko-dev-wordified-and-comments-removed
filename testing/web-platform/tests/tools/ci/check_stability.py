@@ -1983,7 +1983,7 @@ verify_log_full
 "
 ]
 =
-True
+False
         
 if
 wpt_kwargs
