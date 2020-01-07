@@ -1768,7 +1768,6 @@ aType
 )
 mChunks
 (
-DEFAULT_SEGMENT_CAPACITY
 )
 {
 }
@@ -1789,13 +1788,6 @@ aSegment
 )
 mChunks
 (
-aSegment
-.
-mChunks
-.
-Capacity
-(
-)
 )
 #
 ifdef
@@ -2692,9 +2684,10 @@ chunks
 )
 ;
 }
-nsTArray
+AutoTArray
 <
 Chunk
+DEFAULT_SEGMENT_CAPACITY
 >
 mChunks
 ;
