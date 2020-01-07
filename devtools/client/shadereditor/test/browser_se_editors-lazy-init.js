@@ -18,13 +18,11 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 ShadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -34,7 +32,7 @@ target
 await
 once
 (
-gFront
+front
 "
 program
 -

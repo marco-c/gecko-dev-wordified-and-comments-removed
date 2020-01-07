@@ -18,15 +18,13 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
 ShadersListView
 ShadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 loadFrameScripts
 (
@@ -46,7 +44,7 @@ firstProgram
 await
 once
 (
-gFront
+front
 "
 program
 -
@@ -75,7 +73,7 @@ thirdProgram
 await
 getPrograms
 (
-gFront
+front
 2
 )
 ;
@@ -126,8 +124,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 PROGRAMS_ADDED
@@ -137,8 +133,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -284,8 +278,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 PROGRAMS_ADDED
@@ -295,8 +287,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN

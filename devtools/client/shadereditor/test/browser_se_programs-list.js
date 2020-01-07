@@ -18,7 +18,7 @@ MULTIPLE_CONTEXTS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
 L10N
 ShadersListView
@@ -26,8 +26,6 @@ ShadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 is
 (
@@ -103,7 +101,7 @@ all
 [
 getPrograms
 (
-gFront
+front
 2
 (
 actors
@@ -148,8 +146,6 @@ checkSecondProgram
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -355,8 +351,6 @@ compiled
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -396,8 +390,6 @@ shown
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN

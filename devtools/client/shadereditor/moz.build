@@ -68,6 +68,11 @@ panel
 .
 js
 '
+'
+shadereditor
+.
+js
+'
 )
 BROWSER_CHROME_MANIFESTS
 +
