@@ -67,9 +67,9 @@ aOtherPid
 typedef
 MozPromise
 <
-nsCString
+Shmem
 ResponseRejectReason
-false
+true
 >
 SingleProcessProfilePromise
 ;
