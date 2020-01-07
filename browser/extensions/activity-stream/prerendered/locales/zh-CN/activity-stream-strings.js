@@ -656,6 +656,7 @@ search_for_something_with
 {
 search_term
 }
+:
 "
 "
 search_settings
@@ -812,7 +813,7 @@ pocket_feedback_header
 "
 :
 "
-2500
+Web
 "
 }
 ;

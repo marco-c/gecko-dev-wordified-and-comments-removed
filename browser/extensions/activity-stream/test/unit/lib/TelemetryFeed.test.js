@@ -1546,6 +1546,11 @@ topsites_icon_stats
 :
 {
 "
+custom_screenshot
+"
+:
+0
+"
 screenshot_with_icon
 "
 :

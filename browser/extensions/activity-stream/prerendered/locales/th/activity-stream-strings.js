@@ -443,8 +443,6 @@ topsites_form_image_url_label
 "
 :
 "
-Custom
-Image
 URL
 "
 "
