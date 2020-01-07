@@ -5199,6 +5199,9 @@ mTargetInKnownToBeHandledScope
 ;
 if
 (
+targetInKnownToBeHandledScope
+&
+&
 nsContentUtils
 :
 :
