@@ -288,6 +288,13 @@ RecvDisconnect
 override
 ;
 virtual
+IPCResult
+RecvDestroy
+(
+)
+override
+;
+virtual
 void
 DeallocPStreamFilterParent
 (
@@ -593,6 +600,11 @@ mReceivedStop
 ;
 bool
 mSentStop
+;
+bool
+mDisconnected
+=
+false
 ;
 nsCOMPtr
 <

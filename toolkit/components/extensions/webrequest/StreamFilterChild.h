@@ -255,6 +255,17 @@ override
 ;
 virtual
 IPCResult
+RecvError
+(
+const
+nsCString
+&
+aError
+)
+override
+;
+virtual
+IPCResult
 RecvClosed
 (
 )
