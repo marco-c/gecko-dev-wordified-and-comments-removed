@@ -338,12 +338,6 @@ txmgr
 '
 '
 /
-editor
-/
-txtsvc
-'
-'
-/
 extensions
 /
 cookie

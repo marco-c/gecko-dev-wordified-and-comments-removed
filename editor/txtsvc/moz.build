@@ -124,8 +124,15 @@ nsITextServicesDocument
 .
 h
 '
+]
+EXPORTS
+.
+mozilla
++
+=
+[
 '
-nsTextServicesCID
+TextServicesDocument
 .
 h
 '
@@ -140,7 +147,7 @@ nsFilteredContentIterator
 cpp
 '
 '
-nsTextServicesDocument
+TextServicesDocument
 .
 cpp
 '
