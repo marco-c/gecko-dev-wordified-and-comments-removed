@@ -168,7 +168,7 @@ NodeName
 )
 ;
 }
-NS_IMPL_FROMCONTENT_HELPER
+NS_IMPL_FROMNODE_HELPER
 (
 ProcessingInstruction
 IsProcessingInstruction

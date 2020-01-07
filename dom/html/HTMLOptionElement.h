@@ -97,7 +97,7 @@ ErrorResult
 aError
 )
 ;
-NS_IMPL_FROMCONTENT_HTML_WITH_TAG
+NS_IMPL_FROMNODE_HTML_WITH_TAG
 (
 HTMLOptionElement
 option
