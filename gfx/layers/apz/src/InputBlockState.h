@@ -140,6 +140,8 @@ NO_BLOCK_ID
 enum
 class
 TargetConfirmationState
+:
+uint8_t
 {
 eUnconfirmed
 eTimedOut
