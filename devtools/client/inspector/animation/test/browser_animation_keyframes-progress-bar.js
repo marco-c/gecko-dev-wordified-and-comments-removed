@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+5
+)
+;
 const
 POSITION_TESTCASES
 =
@@ -350,13 +355,6 @@ multi
 effect
 timings
 "
-)
-;
-await
-clickOnPauseResumeButton
-(
-animationInspector
-panel
 )
 ;
 for

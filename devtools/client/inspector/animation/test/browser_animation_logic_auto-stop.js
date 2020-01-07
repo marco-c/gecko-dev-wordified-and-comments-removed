@@ -16,7 +16,7 @@ addTab
 URL_ROOT
 +
 "
-doc_multi_timings
+doc_simple_animation
 .
 html
 "
@@ -52,9 +52,7 @@ selectNodeAndWaitForAnimations
 (
 "
 .
-easing
--
-step
+long
 "
 inspector
 )
@@ -130,13 +128,9 @@ selectNodeAndWaitForAnimations
 (
 "
 .
-enddelay
+compositor
 -
-with
--
-iterations
--
-infinity
+all
 "
 inspector
 )
