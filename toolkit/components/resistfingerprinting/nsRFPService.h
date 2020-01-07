@@ -678,6 +678,14 @@ All
 ;
 static
 double
+ReduceTimePrecisionAsUSecsWrapper
+(
+double
+aTime
+)
+;
+static
+double
 ReduceTimePrecisionImpl
 (
 double
