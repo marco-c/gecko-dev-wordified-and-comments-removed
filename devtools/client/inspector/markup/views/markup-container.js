@@ -2160,6 +2160,16 @@ tagName
 null
 ;
 }
+isSlotted
+:
+function
+(
+)
+{
+return
+false
+;
+}
 _wrapMoveFocus
 :
 function

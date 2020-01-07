@@ -200,6 +200,16 @@ function
 )
 {
 }
+isSlotted
+:
+function
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 module
