@@ -1713,11 +1713,6 @@ cur
 =
 iter
 .
-cur
-(
-)
--
->
 maybeSkipAutomaticInstructions
 (
 )
