@@ -60,7 +60,7 @@ doc
 )
 )
 class
-TestMouseAction
+BaseLegacyMouseAction
 (
 MarionetteTestCase
 )
@@ -73,11 +73,14 @@ self
 )
 :
         
-MarionetteTestCase
+super
+(
+BaseLegacyMouseAction
+self
+)
 .
 setUp
 (
-self
 )
         
 if
@@ -127,6 +130,12 @@ self
 .
 marionette
 )
+class
+TestLegacyMouseAction
+(
+BaseLegacyMouseAction
+)
+:
     
 def
 test_click_action
@@ -815,6 +824,40 @@ get_url
 =
 data_uri
 )
+class
+TestChromeLegacyMouseAction
+(
+BaseLegacyMouseAction
+)
+:
+    
+def
+setUp
+(
+self
+)
+:
+        
+super
+(
+TestChromeLegacyMouseAction
+self
+)
+.
+setUp
+(
+)
+        
+self
+.
+marionette
+.
+set_context
+(
+"
+chrome
+"
+)
     
 def
 test_chrome_double_click
@@ -822,19 +865,6 @@ test_chrome_double_click
 self
 )
 :
-        
-self
-.
-marionette
-.
-navigate
-(
-"
-about
-:
-blank
-"
-)
         
 test_word
 =
@@ -850,11 +880,24 @@ marionette
 using_context
 (
 "
-chrome
+content
 "
 )
 :
             
+self
+.
+marionette
+.
+navigate
+(
+"
+about
+:
+blank
+"
+)
+        
 urlbar
 =
 self
@@ -870,7 +913,7 @@ ID
 urlbar
 "
 )
-            
+        
 self
 .
 assertEqual
@@ -886,14 +929,14 @@ value
 "
 )
 )
-            
+        
 urlbar
 .
 send_keys
 (
 test_word
 )
-            
+        
 self
 .
 assertEqual
@@ -908,7 +951,7 @@ value
 )
 test_word
 )
-            
+        
 (
 self
 .
@@ -922,7 +965,7 @@ urlbar
 perform
 (
 )
-                        
+                    
 .
 key_down
 (
@@ -930,7 +973,7 @@ self
 .
 mod_key
 )
-                        
+                    
 .
 key_down
 (
@@ -943,7 +986,7 @@ perform
 (
 )
 )
-            
+        
 self
 .
 assertEqual
@@ -966,17 +1009,6 @@ test_chrome_context_click_action
 self
 )
 :
-        
-self
-.
-marionette
-.
-set_context
-(
-"
-chrome
-"
-)
         
 def
 context_menu_state
