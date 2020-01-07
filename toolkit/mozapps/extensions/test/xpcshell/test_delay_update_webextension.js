@@ -63,7 +63,7 @@ false
 }
 PromiseTestUtils
 .
-expectUncaughtRejection
+whitelistRejectionsGlobally
 (
 /
 Message
