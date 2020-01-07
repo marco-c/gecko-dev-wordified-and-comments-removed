@@ -1005,17 +1005,6 @@ nullptr
 ;
 }
 nsresult
-SplitText
-(
-uint32_t
-aOffset
-nsIDOMText
-*
-*
-aReturn
-)
-;
-nsresult
 GetWholeText
 (
 nsAString
