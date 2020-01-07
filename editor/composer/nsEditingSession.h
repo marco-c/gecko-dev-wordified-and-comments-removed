@@ -114,9 +114,6 @@ NS_EDITINGSESSION_CID
 }
 }
 class
-nsComposerCommandsUpdater
-;
-class
 nsIChannel
 ;
 class
@@ -134,6 +131,9 @@ nsIWebProgress
 namespace
 mozilla
 {
+class
+ComposerCommandsUpdater
+;
 class
 HTMLEditor
 ;
@@ -346,7 +346,10 @@ mImageAnimationMode
 ;
 RefPtr
 <
-nsComposerCommandsUpdater
+mozilla
+:
+:
+ComposerCommandsUpdater
 >
 mStateMaintainer
 ;
