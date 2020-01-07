@@ -1123,14 +1123,13 @@ webidl
 in
 '
 '
-!
 /
 layout
 /
 style
 /
-ServoCSSPropList
+PythonCSSProps
 .
-py
+h
 '
 ]
