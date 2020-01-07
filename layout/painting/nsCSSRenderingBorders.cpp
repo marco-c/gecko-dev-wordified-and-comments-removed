@@ -15323,6 +15323,7 @@ aStyleBorder
 .
 mBorderImageSource
 aPresContext
+0
 )
 ;
 nsCSSBorderImageRenderer
