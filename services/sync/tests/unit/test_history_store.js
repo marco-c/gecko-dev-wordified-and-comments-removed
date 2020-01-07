@@ -1336,12 +1336,12 @@ TIMESTAMP3
 await
 db
 .
-execute
+executeCached
 (
 "
 DELETE
 FROM
-moz_updatehostsinsert_temp
+moz_updateoriginsinsert_temp
 "
 )
 ;

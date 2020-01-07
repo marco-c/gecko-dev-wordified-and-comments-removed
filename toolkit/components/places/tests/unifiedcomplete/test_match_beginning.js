@@ -18,8 +18,6 @@ browser
 urlbar
 .
 autoFill
-.
-searchEngines
 "
 false
 )

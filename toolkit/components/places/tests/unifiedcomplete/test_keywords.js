@@ -46,9 +46,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -98,6 +95,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 mozilla
 .
 org
@@ -161,9 +162,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -276,9 +274,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -333,6 +328,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 mozilla
 .
 org
@@ -397,9 +396,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
@@ -454,6 +450,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 mozilla
 .
 org
@@ -517,9 +517,6 @@ test
 /
 "
 )
-transition
-:
-TRANSITION_TYPED
 }
 )
 ;
