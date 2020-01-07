@@ -3863,7 +3863,7 @@ mozilla
 /
 gecko
 /
-GeckoView
+GeckoSession
 ;
 Landroid
 /
@@ -4013,7 +4013,7 @@ mozilla
 /
 gecko
 /
-GeckoView
+GeckoSession
 ;
 )
 V
