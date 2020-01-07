@@ -1,5 +1,8 @@
 use
+{
 WindowWrapper
+NotifierEvent
+}
 ;
 use
 image
@@ -401,8 +404,7 @@ rx
 :
 Receiver
 <
-(
-)
+NotifierEvent
 >
 )
 {
