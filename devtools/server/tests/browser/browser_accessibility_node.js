@@ -128,10 +128,6 @@ description
 Accessibility
 Test
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 modifiers

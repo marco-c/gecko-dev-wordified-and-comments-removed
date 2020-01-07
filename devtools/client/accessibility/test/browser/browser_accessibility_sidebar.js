@@ -95,10 +95,6 @@ description
 :
 "
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 "

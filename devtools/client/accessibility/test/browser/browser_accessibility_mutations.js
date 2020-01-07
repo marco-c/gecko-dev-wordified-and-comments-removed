@@ -215,10 +215,6 @@ description
 :
 "
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 "
