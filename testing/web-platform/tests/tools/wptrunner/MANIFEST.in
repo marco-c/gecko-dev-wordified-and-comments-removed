@@ -32,9 +32,3 @@ executors
 *
 .
 js
-include
-wptrunner
-/
-config
-.
-json

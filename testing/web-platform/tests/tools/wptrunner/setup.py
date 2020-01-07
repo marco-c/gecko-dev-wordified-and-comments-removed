@@ -315,12 +315,6 @@ html
 "
                                   
 "
-config
-.
-json
-"
-                                  
-"
 wptrunner
 .
 default
