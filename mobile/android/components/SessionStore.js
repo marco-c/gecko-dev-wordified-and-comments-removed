@@ -2304,8 +2304,9 @@ _pendingWrite
 {
 this
 .
-saveState
+_saveState
 (
+true
 )
 ;
 }
