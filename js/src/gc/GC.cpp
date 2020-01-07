@@ -38841,7 +38841,7 @@ clearTables
 (
 )
 ;
-source
+sourceRealm
 -
 >
 unsetIsDebuggee
@@ -38850,14 +38850,14 @@ unsetIsDebuggee
 ;
 if
 (
-source
+sourceRealm
 -
 >
 needsDelazificationForDebugger
 (
 )
 )
-target
+targetRealm
 -
 >
 scheduleDelazificationForDebugger

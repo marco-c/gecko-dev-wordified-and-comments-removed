@@ -4435,7 +4435,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -

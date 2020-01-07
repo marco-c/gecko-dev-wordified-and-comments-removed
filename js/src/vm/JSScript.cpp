@@ -22584,7 +22584,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -24788,7 +24788,7 @@ nullptr
 cx
 -
 >
-compartment
+realm
 (
 )
 -
