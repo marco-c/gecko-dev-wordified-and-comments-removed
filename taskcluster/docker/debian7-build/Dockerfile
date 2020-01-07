@@ -280,12 +280,6 @@ dev
 :
 ARCH
 \
-libxss
--
-dev
-:
-ARCH
-\
 libxt
 -
 dev
