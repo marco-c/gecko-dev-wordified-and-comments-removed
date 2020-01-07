@@ -1,6 +1,6 @@
 CACHE
 MANIFEST
-http
+https
 :
 /
 /
@@ -21,7 +21,7 @@ UNKNOWN
 -
 SECTION
 :
-http
+https
 :
 /
 /
@@ -67,7 +67,7 @@ silently
 ignored
 CACHE
 :
-http
+https
 :
 /
 /

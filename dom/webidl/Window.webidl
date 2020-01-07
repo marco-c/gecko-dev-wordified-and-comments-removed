@@ -848,6 +848,14 @@ offline
 .
 enable
 "
+Func
+=
+"
+nsGlobalWindowInner
+:
+:
+OfflineCacheAllowedForContext
+"
 ]
 readonly
 attribute

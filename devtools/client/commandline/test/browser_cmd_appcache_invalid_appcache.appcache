@@ -143,7 +143,7 @@ settings
 index
 .
 css
-http
+https
 :
 /
 /
@@ -160,7 +160,7 @@ section1
 blockedbyfallback
 .
 html
-http
+https
 :
 /
 /
@@ -207,7 +207,7 @@ js
 browser_cmd_appcache_invalid_page3
 .
 html
-http
+https
 :
 /
 /
@@ -218,7 +218,7 @@ com
 logo
 .
 png
-http
+https
 :
 /
 /
@@ -229,7 +229,7 @@ com
 check
 .
 png
-http
+https
 :
 /
 /
