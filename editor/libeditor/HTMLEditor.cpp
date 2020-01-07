@@ -18370,7 +18370,7 @@ subActionInfo
 EditSubAction
 :
 :
-setTextProperty
+eSetTextProperty
 )
 ;
 nsresult

@@ -1421,7 +1421,7 @@ case
 EditSubAction
 :
 :
-setTextProperty
+eSetTextProperty
 :
 return
 WillSetTextProperty
@@ -1434,7 +1434,7 @@ case
 EditSubAction
 :
 :
-removeTextProperty
+eRemoveTextProperty
 :
 return
 WillRemoveTextProperty

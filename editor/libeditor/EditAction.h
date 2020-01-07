@@ -31,8 +31,8 @@ eDeleteText
 eInsertText
 eInsertTextComingFromIME
 eDeleteSelectedContent
-setTextProperty
-removeTextProperty
+eSetTextProperty
+eRemoveTextProperty
 outputText
 setText
 insertBreak

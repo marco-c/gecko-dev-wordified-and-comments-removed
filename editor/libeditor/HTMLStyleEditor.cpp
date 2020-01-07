@@ -488,7 +488,7 @@ subActionInfo
 EditSubAction
 :
 :
-setTextProperty
+eSetTextProperty
 )
 ;
 nsresult
@@ -5868,7 +5868,7 @@ this
 EditSubAction
 :
 :
-removeTextProperty
+eRemoveTextProperty
 nsIEditor
 :
 :
@@ -5898,7 +5898,7 @@ subActionInfo
 EditSubAction
 :
 :
-removeTextProperty
+eRemoveTextProperty
 )
 ;
 RefPtr
@@ -6632,7 +6632,7 @@ this
 EditSubAction
 :
 :
-setTextProperty
+eSetTextProperty
 nsIEditor
 :
 :
