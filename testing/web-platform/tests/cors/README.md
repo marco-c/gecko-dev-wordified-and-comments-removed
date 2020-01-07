@@ -48,4 +48,4 @@ in
 fetch
 *
 /
-xhr
+XMLHttpRequest

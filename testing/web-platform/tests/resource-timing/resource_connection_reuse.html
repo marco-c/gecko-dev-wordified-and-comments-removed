@@ -172,18 +172,18 @@ true
 }
 )
 ;
-let
+var
 iframe
 ;
-let
+var
 d
 ;
-let
+var
 body
 ;
 /
 /
-Explicitly
+explicitly
 test
 the
 namespace
@@ -191,12 +191,11 @@ before
 we
 start
 testing
-.
 test_namespace
 (
-'
+"
 getEntriesByType
-'
+"
 )
 ;
 function
@@ -266,7 +265,7 @@ done
 return
 ;
 }
-const
+var
 context
 =
 new
@@ -279,7 +278,7 @@ contentWindow
 performance
 )
 ;
-const
+var
 entries
 =
 context
@@ -293,7 +292,7 @@ resource
 ;
 /
 /
-When
+when
 a
 persistent
 connection
@@ -309,7 +308,6 @@ included
 as
 PerformanceResourceTiming
 objects
-.
 test_equals
 (
 entries
@@ -337,7 +335,7 @@ length
 {
 /
 /
-When
+when
 a
 persistent
 connection
@@ -360,8 +358,7 @@ same
 value
 as
 fetchStart
-.
-const
+var
 entry
 =
 entries
@@ -377,7 +374,7 @@ fetchStart
 entry
 .
 connectStart
-'
+"
 connectStart
 and
 fetchStart
@@ -385,7 +382,7 @@ should
 be
 the
 same
-'
+"
 )
 ;
 test_equals
@@ -396,7 +393,7 @@ fetchStart
 entry
 .
 connectEnd
-'
+"
 connectEnd
 and
 fetchStart
@@ -404,7 +401,7 @@ should
 be
 the
 same
-'
+"
 )
 ;
 }

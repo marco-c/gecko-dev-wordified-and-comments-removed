@@ -361,7 +361,7 @@ GET
 "
 "
 /
-xhr
+XMLHttpRequest
 /
 resources
 /

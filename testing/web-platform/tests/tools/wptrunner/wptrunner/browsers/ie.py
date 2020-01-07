@@ -202,12 +202,12 @@ webdriver
 import
 DesiredCapabilities
     
-options
+ieOptions
 =
 {
 }
     
-options
+ieOptions
 [
 "
 requireWindowFocus
@@ -230,7 +230,7 @@ ieOptions
 "
 ]
 =
-options
+ieOptions
     
 executor_kwargs
 =
@@ -348,7 +348,7 @@ self
 .
 server
 =
-InternetExplorerDriverServer
+InterentExplorerDriverServer
 (
 self
 .

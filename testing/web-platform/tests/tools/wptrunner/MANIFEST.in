@@ -8,6 +8,14 @@ requirements
 txt
 include
 wptrunner
+/
+browsers
+/
+b2g_setup
+/
+*
+include
+wptrunner
 .
 default
 .

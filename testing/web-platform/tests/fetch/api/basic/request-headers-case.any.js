@@ -10,7 +10,7 @@ fetch
 (
 "
 /
-xhr
+XMLHttpRequest
 /
 resources
 /
@@ -122,7 +122,7 @@ fetch
 (
 "
 /
-xhr
+XMLHttpRequest
 /
 resources
 /

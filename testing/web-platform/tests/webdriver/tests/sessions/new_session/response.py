@@ -494,13 +494,13 @@ new_session
 capabilities
 "
 :
+add_browser_capabilites
+(
 {
 "
 alwaysMatch
 "
 :
-add_browser_capabilites
-(
 {
 "
 pageLoadStrategy
@@ -510,8 +510,8 @@ pageLoadStrategy
 eager
 "
 }
-)
 }
+)
 }
 )
     

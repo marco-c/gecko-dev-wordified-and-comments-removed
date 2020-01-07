@@ -5557,8 +5557,6 @@ typedef
 (
 CanvasRenderingContext2D
 or
-ImageBitmapRenderingContext
-or
 WebGLRenderingContext
 )
 RenderingContext

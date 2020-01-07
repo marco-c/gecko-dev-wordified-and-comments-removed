@@ -454,7 +454,7 @@ sauce
 :
 safari
 :
-11
+10
 .
 0
 PLATFORM
@@ -646,9 +646,6 @@ wpt_integration
 TOXENV
 =
 py27
-py27
--
-flake8
 SCRIPT
 =
 tools
@@ -805,7 +802,7 @@ sauce
 :
 safari
 :
-11
+10
 .
 0
 PLATFORM

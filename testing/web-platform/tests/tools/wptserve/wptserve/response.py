@@ -27,12 +27,6 @@ from
 logger
 import
 get_logger
-from
-six
-import
-string_types
-binary_type
-text_type
 missing
 =
 object
@@ -2885,14 +2879,18 @@ f
         
 if
 (
-isinstance
+type
 (
 self
 .
 _response
 .
 content
-string_types
+)
+in
+(
+str
+unicode
 )
 and
             
@@ -3297,7 +3295,7 @@ if
 isinstance
 (
 data
-binary_type
+str
 )
 :
             
@@ -3308,7 +3306,7 @@ elif
 isinstance
 (
 data
-text_type
+unicode
 )
 :
             

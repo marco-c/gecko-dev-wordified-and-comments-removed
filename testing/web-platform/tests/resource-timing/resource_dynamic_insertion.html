@@ -168,7 +168,7 @@ script
 >
 /
 /
-Explicitly
+explicitly
 test
 the
 namespace
@@ -176,7 +176,6 @@ before
 we
 start
 testing
-.
 test_namespace
 (
 "
@@ -184,7 +183,7 @@ getEntriesByType
 "
 )
 ;
-let
+var
 iframe
 ;
 function
@@ -203,7 +202,7 @@ frameContext
 '
 )
 ;
-const
+var
 d
 =
 iframe
@@ -212,7 +211,7 @@ contentWindow
 .
 document
 ;
-const
+var
 body
 =
 d
@@ -241,7 +240,7 @@ appendChild
 body
 )
 ;
-const
+var
 style
 =
 d
@@ -278,7 +277,7 @@ appendChild
 style
 )
 ;
-const
+var
 image
 =
 d
@@ -307,7 +306,7 @@ appendChild
 image
 )
 ;
-const
+var
 subframe
 =
 d
@@ -362,7 +361,7 @@ done
 return
 ;
 }
-const
+var
 context
 =
 new
@@ -375,7 +374,7 @@ contentWindow
 performance
 )
 ;
-const
+var
 entries
 =
 context
@@ -387,7 +386,7 @@ resource
 '
 )
 ;
-const
+var
 index
 =
 window
@@ -403,7 +402,7 @@ lastIndexOf
 '
 )
 ;
-const
+var
 pathname
 =
 window
@@ -422,7 +421,7 @@ index
 /
 '
 ;
-let
+var
 expected_entries
 =
 {

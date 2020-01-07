@@ -467,13 +467,13 @@ _external
 self
 context
 base
-system_id
-public_id
+systemId
+publicId
 )
 :
         
 if
-public_id
+publicId
 in
 {
                 
