@@ -1,6 +1,0 @@
-void
-objc_fun
-(
-)
-{
-}

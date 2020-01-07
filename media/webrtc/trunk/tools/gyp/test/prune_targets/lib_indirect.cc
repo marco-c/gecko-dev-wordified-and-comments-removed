@@ -1,6 +1,0 @@
-void
-libfunc_indirect
-(
-)
-{
-}
