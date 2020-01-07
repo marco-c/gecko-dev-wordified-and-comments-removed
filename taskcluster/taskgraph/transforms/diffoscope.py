@@ -53,6 +53,7 @@ util
 .
 taskcluster
 import
+get_artifact_path
 get_artifact_url
 from
 voluptuous
@@ -585,17 +586,9 @@ url
 get_artifact_url
 (
 task_id
-'
-public
-/
-build
-/
-{
-}
-'
-.
-format
+get_artifact_path
 (
+task
 artifact
 )
 )
