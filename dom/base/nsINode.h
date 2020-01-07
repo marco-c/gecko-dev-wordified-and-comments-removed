@@ -2738,14 +2738,15 @@ nsSlots
 (
 )
 ;
+virtual
 void
 Traverse
 (
 nsCycleCollectionTraversalCallback
 &
-cb
 )
 ;
+virtual
 void
 Unlink
 (
