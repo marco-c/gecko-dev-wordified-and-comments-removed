@@ -126,7 +126,7 @@ true
 ;
 Assert
 .
-ok
+equal
 (
 toolbar
 .

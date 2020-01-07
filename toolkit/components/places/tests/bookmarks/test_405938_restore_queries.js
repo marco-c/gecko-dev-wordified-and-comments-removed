@@ -564,7 +564,7 @@ root
 ;
 Assert
 .
-ok
+equal
 (
 toolbar
 .

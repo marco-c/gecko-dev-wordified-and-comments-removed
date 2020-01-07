@@ -1492,7 +1492,7 @@ items
 {
 Assert
 .
-ok
+equal
 (
 observer
 .
