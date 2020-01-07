@@ -64,6 +64,15 @@ h
 #
 include
 "
+gc
+/
+FreeOp
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayObject

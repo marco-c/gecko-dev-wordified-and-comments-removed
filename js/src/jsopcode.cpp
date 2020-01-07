@@ -175,6 +175,15 @@ include
 "
 gc
 /
+FreeOp
+.
+h
+"
+#
+include
+"
+gc
+/
 GCInternals
 .
 h

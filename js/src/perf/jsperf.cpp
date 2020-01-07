@@ -21,6 +21,15 @@ jsobj
 .
 h
 "
+#
+include
+"
+gc
+/
+FreeOp
+.
+h
+"
 using
 namespace
 js
