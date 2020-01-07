@@ -4562,7 +4562,7 @@ unit
 uint32_t
 weight
 =
-NS_STYLE_FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 ;
 int32_t
 stretch
@@ -4633,7 +4633,7 @@ weight
 {
 weight
 =
-NS_STYLE_FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 ;
 }
 }
@@ -4648,7 +4648,7 @@ eCSSUnit_Normal
 {
 weight
 =
-NS_STYLE_FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 ;
 }
 else

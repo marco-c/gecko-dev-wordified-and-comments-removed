@@ -6608,11 +6608,11 @@ kFontWeightKTable
 {
 {
 eCSSKeyword_normal
-NS_STYLE_FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 }
 {
 eCSSKeyword_bold
-NS_STYLE_FONT_WEIGHT_BOLD
+NS_FONT_WEIGHT_BOLD
 }
 {
 eCSSKeyword_bolder
