@@ -456,7 +456,7 @@ ArrayBufferViewOrArrayBuffer
 :
 ArrayBufferView
 (
-mut
+ref
 a
 )
 =
@@ -471,7 +471,7 @@ ArrayBufferViewOrArrayBuffer
 :
 ArrayBuffer
 (
-mut
+ref
 a
 )
 =
