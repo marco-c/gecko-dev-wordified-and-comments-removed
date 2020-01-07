@@ -196,6 +196,9 @@ class
 ServiceWorkerRegistration
 ;
 class
+ServiceWorkerRegistrationDescriptor
+;
+class
 Timeout
 ;
 class
@@ -492,9 +495,15 @@ ServiceWorkerRegistration
 GetServiceWorkerRegistration
 (
 const
-nsAString
+mozilla
+:
+:
+dom
+:
+:
+ServiceWorkerRegistrationDescriptor
 &
-aScope
+aDescriptor
 )
 ;
 void

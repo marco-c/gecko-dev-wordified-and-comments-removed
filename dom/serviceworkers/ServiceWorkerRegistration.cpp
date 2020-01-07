@@ -5146,9 +5146,9 @@ nsPIDOMWindowInner
 *
 aWindow
 const
-nsAString
+ServiceWorkerRegistrationDescriptor
 &
-aScope
+aDescriptor
 )
 {
 MOZ_ASSERT
@@ -5163,6 +5163,16 @@ NS_IsMainThread
 )
 )
 ;
+NS_ConvertUTF8toUTF16
+scope
+(
+aDescriptor
+.
+Scope
+(
+)
+)
+;
 RefPtr
 <
 ServiceWorkerRegistration
@@ -5173,7 +5183,7 @@ new
 ServiceWorkerRegistrationMainThread
 (
 aWindow
-aScope
+scope
 )
 ;
 return
