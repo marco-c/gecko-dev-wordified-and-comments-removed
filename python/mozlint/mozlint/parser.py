@@ -647,7 +647,7 @@ config
 =
 yaml
 .
-load
+safe_load
 (
 fh
 )
