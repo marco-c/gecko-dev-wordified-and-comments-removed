@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_SymbolObject_h
+builtin_Symbol_h
 #
 define
-builtin_SymbolObject_h
+builtin_Symbol_h
 #
 include
 "
@@ -18,7 +18,7 @@ include
 "
 vm
 /
-Symbol
+SymbolType
 .
 h
 "

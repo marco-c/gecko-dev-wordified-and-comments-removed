@@ -82,9 +82,9 @@ h
 #
 include
 "
-vm
+util
 /
-JSScript
+StringBuffer
 .
 h
 "
@@ -93,7 +93,7 @@ include
 "
 vm
 /
-StringBuffer
+JSScript
 .
 h
 "

@@ -58,9 +58,9 @@ h
 #
 include
 "
-vm
+util
 /
-JSCompartment
+StringBuffer
 .
 h
 "
@@ -69,7 +69,7 @@ include
 "
 vm
 /
-StringBuffer
+JSCompartment
 .
 h
 "

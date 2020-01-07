@@ -55,9 +55,9 @@ h
 #
 include
 "
-vm
+util
 /
-Debugger
+StringBuffer
 .
 h
 "
@@ -66,7 +66,7 @@ include
 "
 vm
 /
-StringBuffer
+Debugger
 .
 h
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 #
 define
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 #
 define
 FOR_EACH_NON_BMP_LOWERCASE

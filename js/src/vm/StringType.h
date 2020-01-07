@@ -1,9 +1,9 @@
 #
 ifndef
-vm_String_h
+vm_StringType_h
 #
 define
-vm_String_h
+vm_StringType_h
 #
 include
 "
@@ -48,7 +48,9 @@ h
 #
 include
 "
-jsstr
+builtin
+/
+String
 .
 h
 "

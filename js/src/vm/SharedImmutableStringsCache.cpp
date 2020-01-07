@@ -12,7 +12,9 @@ h
 #
 include
 "
-jsstr
+builtin
+/
+String
 .
 h
 "
