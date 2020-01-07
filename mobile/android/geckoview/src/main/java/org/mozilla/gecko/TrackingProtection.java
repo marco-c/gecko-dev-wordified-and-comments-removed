@@ -81,7 +81,7 @@ String
 AD
 =
 "
-base
+ads
 -
 track
 -
@@ -95,7 +95,7 @@ String
 ANALYTIC
 =
 "
-base
+analytics
 -
 track
 -
@@ -109,7 +109,7 @@ String
 SOCIAL
 =
 "
-base
+social
 -
 track
 -
