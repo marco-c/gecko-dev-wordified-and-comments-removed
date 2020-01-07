@@ -380,14 +380,23 @@ context_attrs
         
 for
 k
-v
 in
+sorted
+(
 context_attrs
 .
-iteritems
+keys
 (
 )
+)
 :
+            
+v
+=
+context_attrs
+[
+k
+]
             
 if
 isinstance
@@ -506,6 +515,8 @@ indent
 .
 join
 (
+sorted
+(
 self
 .
 mb_serialize
@@ -516,6 +527,7 @@ for
 v
 in
 value
+)
 )
 )
             
@@ -680,14 +692,23 @@ n
             
 for
 k
-v
 in
+sorted
+(
 value
 .
-iteritems
+keys
 (
 )
+)
 :
+                
+v
+=
+value
+[
+k
+]
                 
 subst_vals
 =
@@ -850,16 +871,21 @@ join
 mk_condition
 (
 k
-v
+values
+[
+k
+]
 )
 for
 k
-v
 in
+sorted
+(
 values
 .
-items
+keys
 (
+)
 )
 )
 )
@@ -3048,7 +3074,10 @@ cond
 for
 cond
 in
+sorted
+(
 conditions
+)
 :
                     
 common_attrs
