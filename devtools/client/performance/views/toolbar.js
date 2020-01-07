@@ -740,7 +740,6 @@ _onPrefChanged
 :
 function
 (
-_
 prefName
 )
 {

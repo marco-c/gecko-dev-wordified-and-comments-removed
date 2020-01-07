@@ -174,7 +174,6 @@ zoomIn
 =
 function
 (
-name
 event
 )
 {
@@ -200,7 +199,6 @@ zoomOut
 =
 function
 (
-name
 event
 )
 {
@@ -226,7 +224,6 @@ zoomReset
 =
 function
 (
-name
 event
 )
 {

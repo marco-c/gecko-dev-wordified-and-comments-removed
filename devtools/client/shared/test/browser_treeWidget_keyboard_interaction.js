@@ -574,7 +574,6 @@ let
 pass
 =
 (
-e
 d
 a
 )
@@ -585,7 +584,6 @@ event
 resolve
 (
 [
-e
 d
 a
 ]
@@ -762,7 +760,6 @@ win
 ;
 let
 [
-name
 data
 attachment
 ]
@@ -774,27 +771,7 @@ promise
 ;
 is
 (
-name
-"
-select
-"
-"
-Select
-event
-was
-fired
-after
-pressing
-down
-"
-)
-;
-is
-(
 data
-[
-0
-]
 "
 level1
 "
@@ -904,7 +881,6 @@ win
 )
 ;
 [
-name
 data
 attachment
 ]
@@ -1008,7 +984,6 @@ win
 )
 ;
 [
-name
 data
 attachment
 ]
@@ -1128,7 +1103,6 @@ win
 )
 ;
 [
-name
 data
 attachment
 ]
@@ -1388,7 +1362,6 @@ win
 )
 ;
 [
-name
 data
 ]
 =
@@ -1527,7 +1500,6 @@ win
 )
 ;
 [
-name
 data
 attachment
 ]

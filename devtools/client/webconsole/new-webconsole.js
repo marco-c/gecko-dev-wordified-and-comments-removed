@@ -1125,10 +1125,7 @@ find
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {
@@ -1291,10 +1288,7 @@ on
 "
 Esc
 "
-(
-name
 event
-)
 =
 >
 {

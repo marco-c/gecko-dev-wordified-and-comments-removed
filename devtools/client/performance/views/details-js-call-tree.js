@@ -348,7 +348,6 @@ _onFocus
 :
 function
 (
-_
 treeItem
 )
 {

@@ -13,8 +13,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -515,7 +513,6 @@ _onPrefChange
 :
 function
 (
-_
 prefName
 )
 {

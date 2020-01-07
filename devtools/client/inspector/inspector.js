@@ -2145,10 +2145,7 @@ shortcuts
 on
 (
 key
-(
-name
 event
-)
 =
 >
 {

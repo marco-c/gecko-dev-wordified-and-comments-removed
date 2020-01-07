@@ -747,7 +747,6 @@ ready
 }
 _onSpectrumColorChange
 (
-event
 rgba
 cssColor
 )

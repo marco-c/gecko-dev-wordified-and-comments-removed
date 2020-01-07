@@ -6646,10 +6646,7 @@ shortcuts
 on
 (
 key
-(
-_
 event
-)
 =
 >
 this

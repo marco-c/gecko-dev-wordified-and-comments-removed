@@ -268,7 +268,6 @@ ready
 }
 _onUpdate
 (
-event
 filters
 )
 {

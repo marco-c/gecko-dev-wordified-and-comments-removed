@@ -803,10 +803,7 @@ shortcuts
 on
 (
 key
-(
-name
 event
-)
 =
 >
 {
@@ -2219,7 +2216,6 @@ editItem
 :
 function
 (
-eventType
 data
 )
 {
@@ -5022,7 +5018,6 @@ onHostSelect
 :
 function
 (
-event
 item
 )
 {
@@ -6493,14 +6488,12 @@ onRefreshTable
 :
 function
 (
-event
 )
 {
 this
 .
 onHostSelect
 (
-event
 this
 .
 tree

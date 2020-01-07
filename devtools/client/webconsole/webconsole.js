@@ -2566,10 +2566,7 @@ find
 key
 "
 )
-(
-name
 event
-)
 =
 >
 {

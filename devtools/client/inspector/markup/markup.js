@@ -3103,10 +3103,7 @@ shortcuts
 on
 (
 key
-(
-_
 event
-)
 =
 >
 this
@@ -3171,9 +3168,16 @@ shortcuts
 on
 (
 key
+event
+=
+>
 this
 .
 _onShortcut
+(
+key
+event
+)
 )
 ;
 }

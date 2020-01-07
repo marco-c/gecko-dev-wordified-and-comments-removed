@@ -1303,7 +1303,6 @@ on
 click
 "
 (
-_
 {
 label
 }

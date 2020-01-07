@@ -217,7 +217,6 @@ let
 handler
 =
 (
-_
 e
 )
 =
