@@ -90,9 +90,7 @@ session
 session_id
 element_id
 =
-"
-foo
-"
+element_id
 )
 )
 def
