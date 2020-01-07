@@ -399,6 +399,10 @@ static
 bool
 IsVP9DecodeFast
 (
+bool
+aDefault
+=
+false
 )
 ;
 static
