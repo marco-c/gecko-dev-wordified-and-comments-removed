@@ -3,7 +3,7 @@ marionette_driver
 =
 2
 .
-5
+6
 .
 0
 mozprofile
