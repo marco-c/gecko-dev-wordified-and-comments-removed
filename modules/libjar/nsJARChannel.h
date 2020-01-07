@@ -140,6 +140,9 @@ class
 nsJARInputThunk
 ;
 class
+nsJARProtocolHandler
+;
+class
 nsInputStreamPump
 ;
 class
@@ -282,6 +285,12 @@ mSpec
 ;
 bool
 mOpened
+;
+RefPtr
+<
+nsJARProtocolHandler
+>
+mJarHandler
 ;
 nsCOMPtr
 <

@@ -547,6 +547,14 @@ XPC_LOG_FINISH
 delete
 gPrimaryContext
 ;
+MOZ_ASSERT
+(
+gSelf
+=
+=
+this
+)
+;
 gSelf
 =
 nullptr

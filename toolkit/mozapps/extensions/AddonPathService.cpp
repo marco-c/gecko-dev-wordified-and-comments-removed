@@ -235,6 +235,14 @@ AddonPathService
 (
 )
 {
+MOZ_ASSERT
+(
+sInstance
+=
+=
+this
+)
+;
 sInstance
 =
 nullptr
