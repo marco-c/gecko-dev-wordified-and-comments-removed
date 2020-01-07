@@ -5739,7 +5739,15 @@ nsDependentString
 (
 data
 .
-GetString
+GetAttr
+(
+)
+-
+>
+mName
+-
+>
+GetUTF16String
 (
 )
 )
