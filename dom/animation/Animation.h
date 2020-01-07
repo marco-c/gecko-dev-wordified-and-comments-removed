@@ -1191,14 +1191,6 @@ aLimitBehavior
 )
 ;
 void
-PauseNoUpdate
-(
-ErrorResult
-&
-aRv
-)
-;
-void
 ResumeAt
 (
 const
