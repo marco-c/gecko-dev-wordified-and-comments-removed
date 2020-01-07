@@ -402,10 +402,12 @@ attachTab
 tab
 .
 actor
+)
+.
+then
+(
 function
 (
-_response
-_tabClient
 )
 {
 try

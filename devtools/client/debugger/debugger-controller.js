@@ -2678,9 +2678,15 @@ attachWorker
 workerForm
 .
 actor
+)
+.
+then
 (
+(
+[
 response
 workerClient
+]
 )
 =
 >
