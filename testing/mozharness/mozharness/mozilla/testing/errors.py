@@ -1039,6 +1039,10 @@ left
 on
 device
 |
+ADBError
+|
+ADBTimeoutError
+|
 DMError
 |
 Connection
