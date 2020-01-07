@@ -36,6 +36,26 @@ not
 "
 "
     
+response
+.
+headers
+.
+append
+(
+"
+Access
+-
+Control
+-
+Allow
+-
+Origin
+"
+"
+*
+"
+)
+    
 if
 "
 device
