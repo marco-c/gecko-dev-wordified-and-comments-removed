@@ -1816,7 +1816,9 @@ PrincipalInfo
 aPrincipalInfo
 OpenMode
 aOpenMode
+const
 WriteParams
+&
 aWriteParams
 )
 :
@@ -4872,7 +4874,9 @@ nsIPrincipal
 aPrincipal
 OpenMode
 aOpenMode
+const
 WriteParams
+&
 aWriteParams
 ReadParams
 aReadParams
