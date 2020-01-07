@@ -1047,6 +1047,7 @@ DidAbsolutePosition
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AlignInnerBlocks
 (
