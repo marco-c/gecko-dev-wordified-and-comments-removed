@@ -767,10 +767,13 @@ None
         
 include_formatters
 =
+list
+(
 log_formatters
 .
 keys
 (
+)
 )
     
 if

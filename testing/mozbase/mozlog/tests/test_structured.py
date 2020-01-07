@@ -23,8 +23,6 @@ optparse
 import
 os
 import
-StringIO
-import
 sys
 import
 unittest
@@ -38,6 +36,10 @@ etree
 ElementTree
 as
 ET
+from
+six
+import
+StringIO
 import
 mozunit
 import
@@ -4682,15 +4684,6 @@ logger
 suite_end
 (
 )
-            
-self
-.
-logger
-.
-remove_handler
-(
-_handler
-)
     
 def
 test_arguments
@@ -5689,8 +5682,6 @@ self
 .
 output_file
 =
-StringIO
-.
 StringIO
 (
 )
@@ -9885,8 +9876,6 @@ obj
 )
         
 return
-StringIO
-.
 StringIO
 (
 data_str

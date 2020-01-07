@@ -2,16 +2,20 @@ from
 __future__
 import
 absolute_import
+from
+six
+.
+moves
 import
-SocketServer
-import
-socket
+socketserver
 import
 json
+import
+socket
 class
 LogMessageServer
 (
-SocketServer
+socketserver
 .
 TCPServer
 )
@@ -32,7 +36,7 @@ timeout
 )
 :
         
-SocketServer
+socketserver
 .
 TCPServer
 .
@@ -63,7 +67,7 @@ timeout
 class
 LogMessageHandler
 (
-SocketServer
+socketserver
 .
 BaseRequestHandler
 )
