@@ -51978,6 +51978,14 @@ aStyleDisplay
 )
 |
 |
+aStyleDisplay
+-
+>
+IsContainPaint
+(
+)
+|
+|
 ChildrenHavePerspective
 (
 aStyleDisplay
