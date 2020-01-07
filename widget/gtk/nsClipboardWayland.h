@@ -186,10 +186,15 @@ aWaylandAction
 )
 ;
 void
-SetSourceDragActions
+SetAvailableDragActions
 (
 uint32_t
 aWaylandActions
+)
+;
+GdkDragAction
+GetAvailableDragActions
+(
 )
 ;
 virtual
@@ -218,6 +223,9 @@ mWaylandDataOffer
 ;
 uint32_t
 mSelectedDragAction
+;
+uint32_t
+mAvailableDragAction
 ;
 }
 ;
