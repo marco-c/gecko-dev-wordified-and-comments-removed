@@ -1932,6 +1932,10 @@ mPreloadListTimeOffset
 (
 0
 )
+mProcessPKPHeadersFromNonBuiltInRoots
+(
+false
+)
 mDafsa
 (
 kDafsa

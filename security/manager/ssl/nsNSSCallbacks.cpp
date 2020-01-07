@@ -2359,6 +2359,14 @@ nsHTTPListener
 (
 )
 :
+mHttpRequestSucceeded
+(
+false
+)
+mHttpResponseCode
+(
+0
+)
 mResultData
 (
 nullptr

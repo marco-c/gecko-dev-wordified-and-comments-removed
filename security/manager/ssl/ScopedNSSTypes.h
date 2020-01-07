@@ -284,6 +284,10 @@ public
 Digest
 (
 )
+:
+mItemBuf
+(
+)
 {
 mItem
 .

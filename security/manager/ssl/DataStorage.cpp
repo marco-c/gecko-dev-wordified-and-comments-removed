@@ -386,6 +386,10 @@ DataStorage
 mMutex
 "
 )
+mTimerDelay
+(
+sDataStorageDefaultTimerDelay
+)
 mPendingWrite
 (
 false

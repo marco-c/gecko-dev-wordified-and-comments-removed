@@ -224,6 +224,9 @@ key
 (
 nullptr
 )
+mCritInit
+(
+)
 {
 for
 (
@@ -635,6 +638,14 @@ nsCertTree
 mTreeArray
 (
 nullptr
+)
+mNumOrgs
+(
+0
+)
+mNumRows
+(
+0
 )
 mCompareCache
 (
