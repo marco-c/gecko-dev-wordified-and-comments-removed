@@ -135,7 +135,7 @@ strict
 "
 ;
 const
-inspector
+WalkerActor
 =
 require
 (
@@ -148,7 +148,9 @@ actors
 /
 inspector
 /
-inspector
+walker
+-
+actor
 "
 )
 ;
@@ -177,7 +179,7 @@ testSummaryLength
 =
 10
 ;
-inspector
+WalkerActor
 .
 setValueSummaryLength
 (
@@ -192,11 +194,11 @@ function
 (
 )
 {
-inspector
+WalkerActor
 .
 setValueSummaryLength
 (
-inspector
+WalkerActor
 .
 DEFAULT_VALUE_SUMMARY_LENGTH
 )

@@ -245,11 +245,6 @@ highlighters
 js
 '
 '
-inspector
-.
-js
-'
-'
 layout
 .
 js
