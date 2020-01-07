@@ -336,17 +336,9 @@ equal
 addon
 .
 signedState
-mozinfo
-.
-addon_signing
-?
 AddonManager
 .
 SIGNEDSTATE_UNKNOWN
-:
-AddonManager
-.
-SIGNEDSTATE_NOT_REQUIRED
 )
 ;
 Assert

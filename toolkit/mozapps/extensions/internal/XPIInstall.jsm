@@ -4961,11 +4961,6 @@ return
 false
 ;
 return
-AddonSettings
-.
-ADDON_SIGNING
-&
-&
 XPIDatabase
 .
 SIGNED_TYPES
