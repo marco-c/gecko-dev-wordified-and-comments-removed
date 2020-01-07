@@ -2033,6 +2033,18 @@ task
 )
 :
         
+if
+not
+filter_beta_release_tasks
+(
+task
+parameters
+)
+:
+            
+return
+False
+        
 platform
 =
 task
@@ -2062,8 +2074,7 @@ False
 return
 True
     
-tasks
-=
+return
 [
 l
 for
@@ -2072,27 +2083,6 @@ t
 in
 full_task_graph
 .
-tasks
-.
-iteritems
-(
-)
-if
-             
-filter_beta_release_tasks
-(
-t
-parameters
-)
-]
-    
-return
-[
-l
-for
-l
-t
-in
 tasks
 .
 iteritems
