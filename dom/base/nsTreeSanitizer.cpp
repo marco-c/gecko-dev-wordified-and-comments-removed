@@ -194,6 +194,7 @@ mozilla
 :
 dom
 ;
+const
 nsStaticAtom
 *
 const
@@ -629,6 +630,7 @@ wbr
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -1056,6 +1058,7 @@ wrap
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -1127,6 +1130,7 @@ vspace
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -1162,6 +1166,7 @@ background
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -1465,6 +1470,7 @@ view
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -2192,6 +2198,7 @@ zoomAndPan
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -2207,6 +2214,7 @@ href
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -2998,6 +3006,7 @@ xor_
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -3465,6 +3474,7 @@ xref_
 nullptr
 }
 ;
+const
 nsStaticAtom
 *
 const
@@ -3846,7 +3856,7 @@ return
 sElementsHTML
 -
 >
-GetEntry
+Contains
 (
 aLocal
 )
@@ -3877,7 +3887,7 @@ return
 sElementsSVG
 -
 >
-GetEntry
+Contains
 (
 aLocal
 )
@@ -3896,7 +3906,7 @@ return
 sElementsMathML
 -
 >
-GetEntry
+Contains
 (
 aLocal
 )
@@ -3912,6 +3922,7 @@ nsTreeSanitizer
 :
 IsURL
 (
+const
 nsStaticAtom
 *
 const
@@ -3922,6 +3933,7 @@ nsAtom
 aLocalName
 )
 {
+const
 nsStaticAtom
 *
 atom
@@ -4724,6 +4736,7 @@ aElement
 AtomsTable
 *
 aAllowed
+const
 nsStaticAtom
 *
 const
@@ -5027,7 +5040,7 @@ sAttributesHTML
 sPresAttributesHTML
 -
 >
-GetEntry
+Contains
 (
 attrLocal
 )
@@ -5041,7 +5054,7 @@ if
 aAllowed
 -
 >
-GetEntry
+Contains
 (
 attrLocal
 )
