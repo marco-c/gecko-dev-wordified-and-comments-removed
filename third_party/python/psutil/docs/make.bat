@@ -868,7 +868,7 @@ BUILDDIR
 \
 qthelp
 \
-pyftpdlib
+psutil
 .
 qhcp
 echo
@@ -892,7 +892,7 @@ BUILDDIR
 \
 qthelp
 \
-pyftpdlib
+psutil
 .
 ghc
 goto
