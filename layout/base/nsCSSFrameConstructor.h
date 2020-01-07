@@ -1592,11 +1592,6 @@ FrameConstructionDataByTag
 aDataPtr
 uint32_t
 aDataLength
-bool
-*
-aTagFound
-=
-nullptr
 )
 ;
 class
