@@ -2597,7 +2597,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
 config
               
 ssl_config
@@ -2627,7 +2627,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
                                   
 config
 ssl_config
@@ -2663,7 +2663,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
                       
 config
 ssl_config
@@ -2686,7 +2686,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
 config
                                     
 ssl_config
@@ -2873,7 +2873,7 @@ check_subdomains
 (
 host
 paths
-bind_hostname
+bind_address
 ssl_config
 aliases
 )
@@ -2910,7 +2910,7 @@ build_routes
 (
 aliases
 )
-bind_hostname
+bind_address
                   
 None
 ssl_config
@@ -3305,7 +3305,7 @@ host
 ports
 paths
 routes
-bind_hostname
+bind_address
 config
 ssl_config
                   
@@ -3414,7 +3414,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
                               
 config
 ssl_config
@@ -3445,7 +3445,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
 config
 ssl_config
                       
@@ -3485,9 +3485,9 @@ rewrites
 =
 rewrites
                                  
-bind_hostname
+bind_address
 =
-bind_hostname
+bind_address
                                  
 config
 =
@@ -3523,7 +3523,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
 config
 ssl_config
                        
@@ -3563,9 +3563,9 @@ rewrites
 =
 rewrites
                                  
-bind_hostname
+bind_address
 =
-bind_hostname
+bind_address
                                  
 config
 =
@@ -3629,7 +3629,7 @@ port
 doc_root
 handlers_root
 log_level
-bind_hostname
+bind_address
                  
 ssl_config
 )
@@ -3775,7 +3775,7 @@ tls_module
         
 if
 (
-bind_hostname
+bind_address
 )
 :
             
@@ -4047,7 +4047,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
 config
 ssl_config
                     
@@ -4080,7 +4080,7 @@ ws_doc_root
 debug
 "
                            
-bind_hostname
+bind_address
                            
 ssl_config
 =
@@ -4093,7 +4093,7 @@ host
 port
 paths
 routes
-bind_hostname
+bind_address
 config
 ssl_config
                      
@@ -4126,7 +4126,7 @@ ws_doc_root
 debug
 "
                            
-bind_hostname
+bind_address
                            
 ssl_config
 )
@@ -4339,28 +4339,51 @@ domains
 =
 host
     
-ports_
-=
-{
-}
-    
-for
-scheme
-ports_used
+if
+"
+bind_hostname
+"
 in
-ports
-.
-iteritems
-(
-)
+config
 :
         
-ports_
-[
-scheme
-]
+logger
+.
+warning
+(
+"
+bind_hostname
+in
+config
+is
+deprecated
+;
+use
+bind_address
+instead
+"
+)
+        
+bind_address
 =
-ports_used
+config
+[
+"
+bind_hostname
+"
+]
+    
+else
+:
+        
+bind_address
+=
+config
+[
+"
+bind_address
+"
+]
     
 config_
 =
@@ -4396,6 +4419,15 @@ ports
 ]
 =
 ports_
+    
+config_
+[
+"
+bind_address
+"
+]
+=
+bind_address
     
 return
 config_
@@ -4536,12 +4568,12 @@ get_paths
 config
 )
     
-bind_hostname
+bind_address
 =
 config
 [
 "
-bind_hostname
+bind_address
 "
 ]
     
@@ -4561,7 +4593,7 @@ host
 ports
 paths
 routes
-bind_hostname
+bind_address
 config
                             
 ssl_config
@@ -5446,12 +5478,12 @@ host
 "
 ]
         
-bind_hostname
+bind_address
 =
 config
 [
 "
-bind_hostname
+bind_address
 "
 ]
         
@@ -5483,7 +5515,7 @@ check_subdomains
 (
 host
 paths
-bind_hostname
+bind_address
 ssl_config
 config
 [
@@ -5498,7 +5530,7 @@ stash_address
 None
         
 if
-bind_hostname
+bind_address
 :
             
 stash_address

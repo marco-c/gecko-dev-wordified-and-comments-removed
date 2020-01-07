@@ -346,7 +346,7 @@ host_ip
 "
             
 "
-bind_hostname
+bind_address
 "
 :
 False

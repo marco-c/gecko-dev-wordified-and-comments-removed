@@ -936,7 +936,7 @@ host
         
 if
 "
-bind_hostname
+bind_address
 "
 in
 self
@@ -947,7 +947,7 @@ options
 local_config
 [
 "
-bind_hostname
+bind_address
 "
 ]
 =
@@ -956,7 +956,7 @@ self
 options
 [
 "
-bind_hostname
+bind_address
 "
 ]
         

@@ -79,7 +79,7 @@ log_level
 debug
 "
 "
-bind_hostname
+bind_address
 "
 :
 true
