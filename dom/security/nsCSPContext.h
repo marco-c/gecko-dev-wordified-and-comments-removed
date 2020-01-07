@@ -483,6 +483,12 @@ nsIPrincipal
 *
 mLoadingPrincipal
 ;
+nsCOMPtr
+<
+nsICSPEventListener
+>
+mEventListener
+;
 nsTArray
 <
 ConsoleMsgQueueElem

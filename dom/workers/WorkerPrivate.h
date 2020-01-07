@@ -176,6 +176,9 @@ class
 WorkerControlRunnable
 ;
 class
+WorkerCSPEventListener
+;
+class
 WorkerDebugger
 ;
 class
@@ -1472,6 +1475,11 @@ aString
 ;
 bool
 EnsureClientSource
+(
+)
+;
+bool
+EnsureCSPEventListener
 (
 )
 ;
@@ -3605,6 +3613,12 @@ RefPtr
 PerformanceStorage
 >
 mPerformanceStorage
+;
+RefPtr
+<
+WorkerCSPEventListener
+>
+mCSPEventListener
 ;
 nsTArray
 <

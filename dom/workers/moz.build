@@ -294,6 +294,11 @@ Worker
 cpp
 '
 '
+WorkerCSPEventListener
+.
+cpp
+'
+'
 WorkerDebugger
 .
 cpp
