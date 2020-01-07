@@ -510,7 +510,7 @@ nsresult
 HTMLFieldSetElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -584,7 +584,7 @@ rv
 nsGenericHTMLFormElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aChild
 aIndex

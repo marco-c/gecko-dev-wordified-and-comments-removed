@@ -75,7 +75,7 @@ eSVG
 }
 virtual
 nsresult
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *

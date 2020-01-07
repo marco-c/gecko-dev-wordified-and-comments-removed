@@ -11412,7 +11412,7 @@ insPos
 {
 aError
 =
-InsertChildAt
+InsertChildAt_Deprecated
 (
 fragChildren
 -
@@ -11592,7 +11592,7 @@ insPos
 }
 aError
 =
-InsertChildAt
+InsertChildAt_Deprecated
 (
 newContent
 insPos

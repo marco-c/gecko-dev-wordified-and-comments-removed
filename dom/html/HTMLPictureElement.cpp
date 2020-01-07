@@ -473,7 +473,7 @@ nsresult
 HTMLPictureElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -490,7 +490,7 @@ rv
 nsGenericHTMLElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 aIndex

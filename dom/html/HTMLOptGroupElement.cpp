@@ -285,7 +285,7 @@ nsresult
 HTMLOptGroupElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -314,7 +314,7 @@ rv
 nsGenericHTMLElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 aIndex

@@ -150,7 +150,7 @@ nsresult
 SVGDocument
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -189,7 +189,7 @@ return
 XMLDocument
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 aIndex

@@ -63,7 +63,7 @@ optgroup
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *

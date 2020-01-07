@@ -1163,7 +1163,7 @@ nsresult
 Attr
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *

@@ -2028,7 +2028,7 @@ isShadowRoot
 }
 virtual
 nsresult
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -2052,7 +2052,7 @@ aNotify
 )
 {
 return
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 GetChildCount
