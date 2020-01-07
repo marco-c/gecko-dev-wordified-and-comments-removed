@@ -308,8 +308,7 @@ ArrayBufferObjectMaybeShared
 *
 >
 arrayBuffer
-JSObject
-*
+HandleObject
 proto
 )
 ;
