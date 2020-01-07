@@ -267,13 +267,6 @@ ResumeMessageDiversion
 )
 override
 ;
-MOZ_MUST_USE
-nsresult
-CancelDiversion
-(
-)
-override
-;
 void
 StartDiversion
 (

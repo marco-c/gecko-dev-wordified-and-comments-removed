@@ -134,9 +134,6 @@ override
 void
 CloseAndRelease
 (
-JSContext
-*
-aCx
 nsresult
 aStatus
 )
