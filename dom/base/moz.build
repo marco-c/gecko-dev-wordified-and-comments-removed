@@ -217,11 +217,6 @@ nsISelectionListener
 idl
 '
 '
-nsISelectionPrivate
-.
-idl
-'
-'
 nsISlowScriptDebug
 .
 idl

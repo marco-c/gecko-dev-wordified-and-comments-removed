@@ -382,13 +382,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

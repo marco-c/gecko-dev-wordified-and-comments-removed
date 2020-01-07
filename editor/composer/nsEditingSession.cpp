@@ -233,13 +233,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

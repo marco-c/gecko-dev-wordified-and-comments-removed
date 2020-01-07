@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

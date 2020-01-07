@@ -157,13 +157,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

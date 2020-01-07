@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsITransferable
 .
 h

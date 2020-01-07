@@ -529,8 +529,7 @@ chrome
 -
 only
 methods
-from
-nsISelectionPrivate
+.
 interface
 nsISelectionListener
 ;

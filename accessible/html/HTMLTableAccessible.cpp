@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h
