@@ -294,6 +294,14 @@ clobber
 '
                          
 '
+read
+-
+buildbot
+-
+config
+'
+                         
+'
 setup
 -
 avds
@@ -7120,6 +7128,9 @@ parser
 evaluate_parser
 (
 0
+                                                                         
+previous_summary
+=
 summary
 )
                 
