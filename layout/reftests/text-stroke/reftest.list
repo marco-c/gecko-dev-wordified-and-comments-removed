@@ -117,12 +117,7 @@ webrender
 gtkWidget
 |
 |
-(
 winWidget
-&
-&
-release_or_beta
-)
 )
 )
 =
@@ -184,9 +179,6 @@ winWidget
 &
 !
 webrender
-&
-&
-release_or_beta
 )
 )
 )
@@ -249,9 +241,6 @@ winWidget
 &
 !
 webrender
-&
-&
-release_or_beta
 )
 )
 )
