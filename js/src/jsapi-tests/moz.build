@@ -371,11 +371,6 @@ testIntString
 cpp
 '
 '
-testIntTypesABI
-.
-cpp
-'
-'
 testIsInsideNursery
 .
 cpp
