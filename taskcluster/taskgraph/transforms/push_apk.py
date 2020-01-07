@@ -60,6 +60,14 @@ scriptworker
 import
 get_push_apk_scope
 from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_prefix
+from
 voluptuous
 import
 Optional
@@ -597,12 +605,15 @@ artifacts
 =
 generate_upstream_artifacts
 (
+            
+job
 job
 [
 '
 dependencies
 '
 ]
+        
 )
         
 if
@@ -907,9 +918,17 @@ dependencies
 def
 generate_upstream_artifacts
 (
+job
 dependencies
 )
 :
+    
+artifact_prefix
+=
+get_artifact_prefix
+(
+job
+)
     
 apks
 =
@@ -954,14 +973,18 @@ paths
 :
 [
 '
-public
-/
-build
+{
+}
 /
 target
 .
 apk
 '
+.
+format
+(
+artifact_prefix
+)
 ]
     
 }
