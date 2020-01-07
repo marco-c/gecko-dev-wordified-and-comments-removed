@@ -240,6 +240,17 @@ tools
 /
 "
 ]
+    
+"
+wptrunner_infrastructure
+"
+:
+[
+"
+tools
+/
+"
+]
 }
 class
 Ruleset

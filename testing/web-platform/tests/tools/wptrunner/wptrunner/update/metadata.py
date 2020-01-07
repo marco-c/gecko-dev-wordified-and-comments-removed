@@ -58,6 +58,10 @@ state
 property_order
 =
 property_order
++
+state
+.
+extra_properties
         
 state
 .
