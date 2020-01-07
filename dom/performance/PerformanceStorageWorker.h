@@ -17,12 +17,12 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerHolder
 ;
+namespace
+workers
+{
 class
 WorkerPrivate
 ;
@@ -131,9 +131,6 @@ mState
 ;
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

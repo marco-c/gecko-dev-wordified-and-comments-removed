@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-WorkerPrivate
+WorkerHolder
 .
 h
 "
@@ -31,11 +31,7 @@ mozilla
 /
 dom
 /
-workers
-/
-bindings
-/
-WorkerHolder
+WorkerPrivate
 .
 h
 "
@@ -76,9 +72,6 @@ IPCStreamSource
 :
 public
 dom
-:
-:
-workers
 :
 :
 WorkerHolder
@@ -247,10 +240,7 @@ Notify
 dom
 :
 :
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

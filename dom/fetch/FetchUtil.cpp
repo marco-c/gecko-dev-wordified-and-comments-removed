@@ -1207,9 +1207,6 @@ self
 HoldWorker
 (
 aWorker
-workers
-:
-:
 Closing
 )
 )
@@ -1295,10 +1292,7 @@ Run
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

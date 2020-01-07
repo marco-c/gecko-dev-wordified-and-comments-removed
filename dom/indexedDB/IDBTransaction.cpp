@@ -208,9 +208,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 WorkerHolder
 {
 WorkerPrivate
@@ -237,9 +234,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerHolder
@@ -320,7 +314,7 @@ virtual
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -4536,7 +4530,7 @@ WorkerHolder
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

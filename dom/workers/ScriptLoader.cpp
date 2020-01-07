@@ -3098,7 +3098,7 @@ NS_OK
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {
@@ -5968,7 +5968,7 @@ virtual
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override

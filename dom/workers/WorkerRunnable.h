@@ -930,10 +930,7 @@ public
 void
 Dispatch
 (
-workers
-:
-:
-Status
+WorkerStatus
 aFailStatus
 ErrorResult
 &
@@ -1032,9 +1029,6 @@ mWorkerPrivate
 ;
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

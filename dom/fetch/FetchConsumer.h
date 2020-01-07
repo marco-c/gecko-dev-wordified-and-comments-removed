@@ -59,14 +59,14 @@ dom
 class
 Promise
 ;
+class
+WorkerHolder
+;
 namespace
 workers
 {
 class
 WorkerPrivate
-;
-class
-WorkerHolder
 ;
 }
 template
@@ -286,9 +286,6 @@ mBodyMimeType
 ;
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

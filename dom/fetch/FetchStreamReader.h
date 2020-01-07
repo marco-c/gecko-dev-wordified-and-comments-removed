@@ -46,13 +46,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerHolder
 ;
-}
 class
 FetchStreamReader
 final
@@ -225,9 +221,6 @@ mPipeOut
 ;
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

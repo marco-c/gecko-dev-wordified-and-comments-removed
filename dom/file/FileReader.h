@@ -125,9 +125,6 @@ nsITimerCallback
 public
 nsINamed
 public
-workers
-:
-:
 WorkerHolder
 {
 friend
@@ -399,10 +396,7 @@ aRv
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 )
 override
 ;

@@ -922,9 +922,6 @@ MessagePortWorkerHolder
 final
 :
 public
-workers
-:
-:
 WorkerHolder
 {
 MessagePort
@@ -940,9 +937,6 @@ MessagePort
 *
 aPort
 )
-:
-workers
-:
 :
 WorkerHolder
 (
@@ -970,10 +964,7 @@ virtual
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

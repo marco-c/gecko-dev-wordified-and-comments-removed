@@ -34,7 +34,7 @@ Create
 WorkerPrivate
 *
 aWorkerPrivate
-Status
+WorkerStatus
 aShutdownStatus
 Behavior
 aBehavior
@@ -234,7 +234,7 @@ WorkerHolderToken
 :
 WorkerHolderToken
 (
-Status
+WorkerStatus
 aShutdownStatus
 Behavior
 aBehavior
@@ -286,7 +286,7 @@ WorkerHolderToken
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

@@ -3689,7 +3689,7 @@ Imports
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -4738,7 +4738,7 @@ ServiceWorkerRegistrationWorkerThread
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

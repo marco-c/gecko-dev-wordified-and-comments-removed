@@ -370,7 +370,7 @@ aStorage
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override

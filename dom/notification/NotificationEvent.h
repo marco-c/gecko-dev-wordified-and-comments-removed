@@ -50,7 +50,12 @@ WorkerCommon
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
 ServiceWorker
 ;
@@ -318,6 +323,7 @@ mNotification
 ;
 }
 ;
-END_WORKERS_NAMESPACE
+}
+}
 #
 endif

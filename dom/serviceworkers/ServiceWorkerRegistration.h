@@ -64,10 +64,6 @@ mozilla
 /
 dom
 /
-workers
-/
-bindings
-/
 WorkerHolder
 .
 h

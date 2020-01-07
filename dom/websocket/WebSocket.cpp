@@ -8909,7 +8909,7 @@ aWebSocketImpl
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -8918,9 +8918,6 @@ MOZ_ASSERT
 (
 aStatus
 >
-workers
-:
-:
 Running
 )
 ;

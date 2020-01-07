@@ -689,7 +689,7 @@ AssertIsOnWorkerThread
 void
 Dispatch
 (
-Status
+WorkerStatus
 aFailStatus
 ErrorResult
 &
@@ -7328,7 +7328,7 @@ XMLHttpRequestWorker
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

@@ -815,9 +815,6 @@ BroadcastChannelWorkerHolder
 final
 :
 public
-workers
-:
-:
 WorkerHolder
 {
 BroadcastChannel
@@ -833,9 +830,6 @@ BroadcastChannel
 *
 aChannel
 )
-:
-workers
-:
 :
 WorkerHolder
 (
@@ -858,10 +852,7 @@ virtual
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

@@ -1152,7 +1152,7 @@ Rejected
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -2597,7 +2597,7 @@ true
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -4244,7 +4244,7 @@ NS_OK
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override

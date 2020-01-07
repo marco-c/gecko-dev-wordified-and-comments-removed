@@ -331,7 +331,7 @@ IPCBlobInputStreamWorkerHolder
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -356,9 +356,6 @@ ReleaseWorkerHolderRunnable
 (
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 &
@@ -414,9 +411,6 @@ private
 :
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

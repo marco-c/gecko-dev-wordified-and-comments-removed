@@ -1922,7 +1922,7 @@ final
 public
 WorkerControlRunnable
 {
-Status
+WorkerStatus
 mStatus
 ;
 public
@@ -1932,7 +1932,7 @@ NotifyRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-Status
+WorkerStatus
 aStatus
 )
 :
@@ -3560,7 +3560,7 @@ virtual
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -7408,7 +7408,7 @@ Derived
 :
 NotifyPrivate
 (
-Status
+WorkerStatus
 aStatus
 )
 {
@@ -12793,7 +12793,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-Status
+WorkerStatus
 parentStatus
 ;
 {
@@ -14133,7 +14133,7 @@ for
 ;
 )
 {
-Status
+WorkerStatus
 currentStatus
 previousStatus
 ;
@@ -16756,7 +16756,7 @@ AssertIsOnWorkerThread
 ifdef
 DEBUG
 {
-Status
+WorkerStatus
 currentStatus
 ;
 {
@@ -16907,7 +16907,7 @@ AddHolder
 WorkerHolder
 *
 aHolder
-Status
+WorkerStatus
 aFailStatus
 )
 {
@@ -17104,7 +17104,7 @@ NotifyHolders
 JSContext
 *
 aCx
-Status
+WorkerStatus
 aStatus
 )
 {
@@ -17465,7 +17465,7 @@ WorkerPrivate
 :
 CreateNewSyncLoop
 (
-Status
+WorkerStatus
 aFailStatus
 )
 {
@@ -18941,7 +18941,7 @@ NotifyInternal
 JSContext
 *
 aCx
-Status
+WorkerStatus
 aStatus
 )
 {
@@ -18972,7 +18972,7 @@ EventTarget
 >
 eventTarget
 ;
-Status
+WorkerStatus
 previousStatus
 ;
 {
@@ -19508,7 +19508,7 @@ mNextTimeoutId
 +
 +
 ;
-Status
+WorkerStatus
 currentStatus
 ;
 {

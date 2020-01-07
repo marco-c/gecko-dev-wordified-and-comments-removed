@@ -65,9 +65,6 @@ final
 public
 XMLHttpRequest
 public
-workers
-:
-:
 WorkerHolder
 {
 public
@@ -247,10 +244,7 @@ Unpin
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

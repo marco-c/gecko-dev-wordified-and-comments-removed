@@ -12,7 +12,6 @@ mozilla
 :
 dom
 ;
-BEGIN_WORKERS_NAMESPACE
 NotificationEvent
 :
 :
@@ -53,4 +52,3 @@ NotificationEvent
 ExtendableEvent
 mNotification
 )
-END_WORKERS_NAMESPACE

@@ -93,7 +93,7 @@ mozilla
 dom
 :
 :
-workers
+WorkerStatus
 :
 :
 Closing
