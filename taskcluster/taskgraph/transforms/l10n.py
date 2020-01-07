@@ -1630,11 +1630,13 @@ build_platform
 '
 ]
 .
-rstrip
+replace
 (
 "
 -
 nightly
+"
+"
 "
 )
         
