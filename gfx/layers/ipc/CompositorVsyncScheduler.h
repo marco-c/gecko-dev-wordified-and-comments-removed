@@ -175,6 +175,11 @@ IntRect
 aRect
 )
 ;
+bool
+FlushPendingComposite
+(
+)
+;
 const
 TimeStamp
 &
