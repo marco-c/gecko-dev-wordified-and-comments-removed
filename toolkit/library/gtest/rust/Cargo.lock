@@ -7644,7 +7644,7 @@ servo_arc
 .
 1
 .
-0
+1
 "
 "
 smallvec
@@ -9687,7 +9687,7 @@ servo_arc
 .
 1
 .
-0
+1
 "
 "
 smallbitvec
@@ -14891,7 +14891,7 @@ servo_arc
 .
 1
 .
-0
+1
 "
 "
 smallvec
@@ -15369,7 +15369,7 @@ version
 .
 1
 .
-0
+1
 "
 dependencies
 =
@@ -16569,7 +16569,7 @@ servo_arc
 .
 1
 .
-0
+1
 "
 "
 smallbitvec
@@ -17160,7 +17160,7 @@ servo_arc
 .
 1
 .
-0
+1
 "
 ]
 [
