@@ -441,6 +441,16 @@ directories
 "
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_XPI_SIGNATURES_REQUIRED
+false
+)
+;
 createAppInfo
 (
 "

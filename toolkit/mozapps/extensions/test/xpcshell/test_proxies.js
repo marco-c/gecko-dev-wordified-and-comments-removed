@@ -377,6 +377,16 @@ XPCShell
 "
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_XPI_SIGNATURES_REQUIRED
+false
+)
+;
 add_task
 (
 run_proxy_tests
