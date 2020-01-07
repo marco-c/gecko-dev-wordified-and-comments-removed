@@ -52,9 +52,7 @@ bookkeeping
 profileCreationTime
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -73,9 +71,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -103,9 +99,7 @@ kEnabledPref
 true
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

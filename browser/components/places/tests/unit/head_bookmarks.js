@@ -26,7 +26,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -45,7 +45,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -142,7 +142,7 @@ function
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -184,7 +184,7 @@ PlacesOrganizer
 OrganizerQuery
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

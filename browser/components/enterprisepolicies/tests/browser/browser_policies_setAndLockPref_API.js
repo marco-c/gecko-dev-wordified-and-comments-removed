@@ -25,7 +25,7 @@ Policies
 setAndLockPref
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

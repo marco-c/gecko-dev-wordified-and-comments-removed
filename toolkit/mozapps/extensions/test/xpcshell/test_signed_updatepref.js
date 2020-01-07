@@ -34,9 +34,7 @@ mozilla
 org
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -291,9 +289,7 @@ signatures
 let
 XPIscope
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

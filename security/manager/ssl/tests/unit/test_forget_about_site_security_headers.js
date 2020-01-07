@@ -8,7 +8,7 @@ var
 ForgetAboutSite
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

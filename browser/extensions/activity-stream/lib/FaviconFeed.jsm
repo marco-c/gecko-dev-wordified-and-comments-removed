@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -52,7 +52,7 @@ actionTypes
 at
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -80,7 +80,7 @@ const
 PersistentCache
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,7 +108,7 @@ const
 getDomain
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -131,9 +131,9 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -154,9 +154,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

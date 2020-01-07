@@ -35,7 +35,7 @@ SharedAll
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

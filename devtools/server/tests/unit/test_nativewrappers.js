@@ -3,9 +3,7 @@ run_test
 (
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

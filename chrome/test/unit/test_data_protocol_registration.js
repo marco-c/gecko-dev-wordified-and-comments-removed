@@ -52,9 +52,7 @@ nsIUUIDGenerator
 let
 newAppInfo
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

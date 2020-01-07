@@ -42,9 +42,7 @@ MSG_INSTALL_ADDON
 WebInstallerInstallAddonFromWebpage
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -63,9 +61,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -28,7 +28,7 @@ InputWidgetHelper
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (

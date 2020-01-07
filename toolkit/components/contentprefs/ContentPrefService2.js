@@ -16,7 +16,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -35,7 +35,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -54,7 +54,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -73,7 +73,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -147,7 +147,7 @@ PROCESS_TYPE_CONTENT
 )
 {
 return
-Cu
+ChromeUtils
 .
 import
 (

@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -130,9 +128,7 @@ false
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -206,9 +202,7 @@ false
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

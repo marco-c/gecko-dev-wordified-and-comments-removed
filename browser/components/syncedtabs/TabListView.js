@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -45,7 +45,7 @@ let
 getChromeWindow
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -70,7 +70,7 @@ js
 let
 log
 =
-Cu
+ChromeUtils
 .
 import
 (

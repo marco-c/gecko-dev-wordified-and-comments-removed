@@ -80,9 +80,7 @@ HttpServer
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

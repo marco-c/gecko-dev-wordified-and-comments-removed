@@ -29,9 +29,9 @@ nsIAboutNewTabService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

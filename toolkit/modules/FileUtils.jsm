@@ -8,9 +8,7 @@ FileUtils
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -8,7 +8,7 @@ const
 ZipUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

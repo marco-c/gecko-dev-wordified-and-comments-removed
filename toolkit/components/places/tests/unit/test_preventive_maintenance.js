@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -10327,11 +10325,7 @@ let
 isVisited
 =
 await
-PlacesUtils
-.
-history
-.
-hasVisits
+promiseIsURIVisited
 (
 this
 .
@@ -10348,11 +10342,7 @@ isVisited
 isVisited
 =
 await
-PlacesUtils
-.
-history
-.
-hasVisits
+promiseIsURIVisited
 (
 this
 .

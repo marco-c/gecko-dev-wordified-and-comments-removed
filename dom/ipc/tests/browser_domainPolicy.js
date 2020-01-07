@@ -50,9 +50,9 @@ test_domainPolicy
 (
 )
 {
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -184,7 +184,7 @@ function
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -605,7 +605,7 @@ aUtils
 =
 >
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -917,7 +917,7 @@ aUtils
 =
 >
 {
-Cu
+ChromeUtils
 .
 import
 (

@@ -8,7 +8,7 @@ const
 LegacyExtensionContext
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -40,7 +40,7 @@ const
 Management
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

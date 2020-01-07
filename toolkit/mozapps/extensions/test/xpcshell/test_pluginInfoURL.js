@@ -5,9 +5,7 @@ Components
 .
 interfaces
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

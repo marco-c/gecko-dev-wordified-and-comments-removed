@@ -3,7 +3,7 @@ const
 TabStateFlusher
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

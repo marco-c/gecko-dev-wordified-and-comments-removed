@@ -1060,7 +1060,7 @@ let
 AutoCompletePopup
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2117,7 +2117,7 @@ let
 AppConstants
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2764,7 +2764,7 @@ let
 AutoCompletePopup
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

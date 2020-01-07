@@ -26,7 +26,7 @@ Components
 .
 results
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -45,7 +45,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -83,7 +83,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -791,9 +791,9 @@ AppConstants
 MOZ_CRASHREPORTER
 )
 {
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -1559,7 +1559,7 @@ scope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1608,7 +1608,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1657,7 +1657,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1706,7 +1706,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1890,7 +1890,7 @@ available
 let
 AeroPeek
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2233,7 +2233,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -7640,7 +7640,7 @@ Color
 .
 .
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -7940,7 +7940,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -8563,7 +8563,7 @@ SetClickAndHoldHandlers
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -9685,7 +9685,7 @@ initializeAllDataLinks
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

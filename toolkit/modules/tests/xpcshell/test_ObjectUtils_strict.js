@@ -8,9 +8,7 @@ var
 ObjectUtils
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -36,9 +34,7 @@ var
 PromiseTestUtils
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

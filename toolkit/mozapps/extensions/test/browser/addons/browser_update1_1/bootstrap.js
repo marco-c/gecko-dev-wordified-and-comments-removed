@@ -13,9 +13,7 @@ data
 reason
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

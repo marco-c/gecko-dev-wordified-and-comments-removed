@@ -55,7 +55,7 @@ translation
 detectLanguage
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -446,7 +446,7 @@ this
 translationEngine
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (

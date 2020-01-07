@@ -6,7 +6,7 @@ strict
 var
 HiddenFrame
 =
-Cu
+ChromeUtils
 .
 import
 (

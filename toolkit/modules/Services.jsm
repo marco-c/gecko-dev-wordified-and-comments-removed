@@ -29,9 +29,7 @@ Components
 .
 results
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -50,9 +48,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -283,9 +279,7 @@ ns
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

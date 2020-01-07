@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -31,7 +31,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -55,7 +55,7 @@ const
 UnknownError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

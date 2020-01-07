@@ -44,7 +44,7 @@ XPIInternal
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -63,7 +63,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -82,7 +82,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1888,7 +1888,7 @@ _
 /
 i
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -12686,7 +12686,7 @@ e
 let
 TelemetrySession
 =
-Cu
+ChromeUtils
 .
 import
 (

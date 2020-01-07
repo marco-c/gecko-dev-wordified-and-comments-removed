@@ -8,7 +8,7 @@ const
 PlacesTestUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

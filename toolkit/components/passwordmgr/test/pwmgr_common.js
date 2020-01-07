@@ -2146,7 +2146,7 @@ is
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -2165,7 +2165,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -2184,7 +2184,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -2203,7 +2203,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -2699,7 +2699,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -2718,7 +2718,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

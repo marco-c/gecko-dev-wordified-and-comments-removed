@@ -3,9 +3,7 @@ const
 DOMLocalization
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

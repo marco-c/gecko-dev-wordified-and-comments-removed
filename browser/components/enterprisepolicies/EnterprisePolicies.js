@@ -26,7 +26,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -45,7 +45,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -199,7 +199,7 @@ let
 ConsoleAPI
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -539,7 +539,7 @@ let
 schema
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -911,7 +911,7 @@ let
 PromiseUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -31,7 +31,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -98,7 +98,7 @@ UnexpectedAlertOpenError
 UnsupportedOperationError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -124,7 +124,7 @@ const
 pprint
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -163,7 +163,7 @@ const
 browser
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

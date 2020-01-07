@@ -17,9 +17,7 @@ aParams
 aReason
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -71,9 +69,7 @@ aParams
 resourceURI
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

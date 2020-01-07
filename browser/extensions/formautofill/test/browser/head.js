@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1022,9 +1022,7 @@ selector
 }
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -1189,9 +1187,7 @@ function
 (
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

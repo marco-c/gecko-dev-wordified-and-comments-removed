@@ -7,7 +7,7 @@ do_get_profile
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -26,7 +26,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -45,7 +45,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -74,7 +74,7 @@ KeyRingEncryptionRemoteTransformer
 keyToId
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -95,7 +95,7 @@ jsm
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -118,7 +118,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -137,7 +137,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

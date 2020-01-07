@@ -52,9 +52,7 @@ import_module
 jsm
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -13,7 +13,7 @@ Cc
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (

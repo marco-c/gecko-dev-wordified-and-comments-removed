@@ -29,7 +29,7 @@ URL
 ]
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

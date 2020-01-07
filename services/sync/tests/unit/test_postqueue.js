@@ -3,7 +3,7 @@ let
 PostQueue
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

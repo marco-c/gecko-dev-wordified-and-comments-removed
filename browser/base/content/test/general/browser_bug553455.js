@@ -115,7 +115,7 @@ addon
 progress
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

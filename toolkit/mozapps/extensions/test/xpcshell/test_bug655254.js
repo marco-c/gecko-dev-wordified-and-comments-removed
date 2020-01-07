@@ -57,9 +57,7 @@ XPCShell
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

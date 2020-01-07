@@ -8,7 +8,7 @@ const
 MockRegistrar
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -34,7 +34,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

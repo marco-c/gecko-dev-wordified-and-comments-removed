@@ -26,7 +26,7 @@ const
 AppConstants
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -52,7 +52,7 @@ const
 ctypes
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -78,7 +78,7 @@ const
 FileUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -104,7 +104,7 @@ const
 HttpServer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -130,7 +130,7 @@ const
 MockRegistrar
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -156,7 +156,7 @@ const
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -182,7 +182,7 @@ const
 Promise
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -208,7 +208,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -234,7 +234,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
