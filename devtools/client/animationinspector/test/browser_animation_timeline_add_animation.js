@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -28,7 +28,7 @@ panel
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -40,7 +40,7 @@ panel
 .
 animationsTimelineComponent
 ;
-yield
+await
 startNewAnimation
 (
 controller
@@ -143,7 +143,7 @@ getBoundingClientRect
 (
 )
 ;
-yield
+await
 startNewAnimation
 (
 controller
@@ -413,8 +413,8 @@ shorter
 }
 )
 ;
+async
 function
-*
 startNewAnimation
 (
 controller
@@ -460,7 +460,7 @@ waitForAnimationTimelineRendering
 panel
 )
 ;
-yield
+await
 executeInContent
 (
 "
@@ -487,13 +487,13 @@ animation
 }
 )
 ;
-yield
+await
 onPlayerAdded
 ;
-yield
+await
 onRendered
 ;
-yield
+await
 waitForAllAnimationTargets
 (
 panel

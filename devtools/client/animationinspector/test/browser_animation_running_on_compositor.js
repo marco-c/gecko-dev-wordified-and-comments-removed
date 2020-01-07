@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -33,7 +33,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -64,7 +64,7 @@ compositor
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -167,7 +167,7 @@ compositor
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -308,7 +308,7 @@ compositor
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "

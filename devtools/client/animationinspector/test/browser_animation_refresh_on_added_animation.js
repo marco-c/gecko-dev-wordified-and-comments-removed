@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -33,7 +33,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -49,7 +49,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -85,7 +85,7 @@ waitForAnimationTimelineRendering
 panel
 )
 ;
-yield
+await
 changeElementAndWait
 (
 {
@@ -111,10 +111,10 @@ panel
 inspector
 )
 ;
-yield
+await
 onRendered
 ;
-yield
+await
 waitForAllAnimationTargets
 (
 panel
@@ -139,7 +139,7 @@ node
 "
 )
 ;
-yield
+await
 changeElementAndWait
 (
 {
@@ -176,8 +176,8 @@ panel
 }
 )
 ;
+async
 function
-*
 changeElementAndWait
 (
 options
@@ -211,7 +211,7 @@ updated
 "
 )
 ;
-yield
+await
 executeInContent
 (
 "
@@ -224,7 +224,7 @@ setAttribute
 options
 )
 ;
-yield
+await
 promise
 .
 all

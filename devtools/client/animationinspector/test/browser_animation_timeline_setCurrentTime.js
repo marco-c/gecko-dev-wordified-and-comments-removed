@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -33,12 +33,12 @@ panel
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
 ;
-yield
+await
 clickTimelinePlayPauseButton
 (
 panel
@@ -58,7 +58,7 @@ time
 -
 5000
 ;
-yield
+await
 controller
 .
 setCurrentTimeAll
@@ -85,7 +85,7 @@ i
 +
 )
 {
-yield
+await
 timeBlockComponents
 [
 i
@@ -100,7 +100,7 @@ refreshState
 const
 state
 =
-yield
+await
 timeBlockComponents
 [
 i
@@ -164,7 +164,7 @@ time
 =
 10000
 ;
-yield
+await
 controller
 .
 setCurrentTimeAll
@@ -191,7 +191,7 @@ i
 +
 )
 {
-yield
+await
 timeBlockComponents
 [
 i
@@ -206,7 +206,7 @@ refreshState
 const
 state
 =
-yield
+await
 timeBlockComponents
 [
 i
@@ -302,7 +302,7 @@ time
 =
 60000
 ;
-yield
+await
 controller
 .
 setCurrentTimeAll
@@ -329,7 +329,7 @@ i
 +
 )
 {
-yield
+await
 timeBlockComponents
 [
 i
@@ -344,7 +344,7 @@ refreshState
 const
 state
 =
-yield
+await
 timeBlockComponents
 [
 i
@@ -444,7 +444,7 @@ time
 =
 150000
 ;
-yield
+await
 controller
 .
 setCurrentTimeAll
@@ -471,7 +471,7 @@ i
 +
 )
 {
-yield
+await
 timeBlockComponents
 [
 i
@@ -486,7 +486,7 @@ refreshState
 const
 state
 =
-yield
+await
 timeBlockComponents
 [
 i

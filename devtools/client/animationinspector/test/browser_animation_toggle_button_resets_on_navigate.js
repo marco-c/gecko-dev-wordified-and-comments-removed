@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -33,7 +33,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -51,7 +51,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -103,7 +103,7 @@ pause
 "
 )
 ;
-yield
+await
 panel
 .
 toggleAll
@@ -146,7 +146,7 @@ page
 "
 )
 ;
-yield
+await
 reloadTab
 (
 inspector

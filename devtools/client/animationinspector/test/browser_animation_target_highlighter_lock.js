@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -32,7 +32,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -71,7 +71,7 @@ targets
 .
 previewer
 ;
-yield
+await
 lockHighlighterOn
 (
 domNodePreview1
@@ -126,7 +126,7 @@ targets
 .
 previewer
 ;
-yield
+await
 lockHighlighterOn
 (
 domNodePreview2
@@ -193,7 +193,7 @@ unhighlight
 "
 )
 ;
-yield
+await
 unlockHighlighterOn
 (
 domNodePreview2
@@ -230,8 +230,8 @@ unselected
 }
 )
 ;
+async
 function
-*
 lockHighlighterOn
 (
 domNodePreview
@@ -258,12 +258,12 @@ clickOnHighlighterIcon
 domNodePreview
 )
 ;
-yield
+await
 onLocked
 ;
 }
+async
 function
-*
 unlockHighlighterOn
 (
 domNodePreview
@@ -290,7 +290,7 @@ clickOnHighlighterIcon
 domNodePreview
 )
 ;
-yield
+await
 onUnlocked
 ;
 }

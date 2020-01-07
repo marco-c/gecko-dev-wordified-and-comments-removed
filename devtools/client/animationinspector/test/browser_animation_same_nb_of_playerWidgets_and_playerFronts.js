@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -34,7 +34,7 @@ panel
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -58,7 +58,7 @@ again
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -27,12 +27,12 @@ const
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -50,7 +50,7 @@ target2
 "
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -68,7 +68,7 @@ target3
 "
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -86,7 +86,7 @@ target4
 "
 )
 ;
-yield
+await
 setStyle
 (
 null
@@ -157,7 +157,7 @@ panel
 "
 )
 ;
-yield
+await
 clickOnAnimation
 (
 panel

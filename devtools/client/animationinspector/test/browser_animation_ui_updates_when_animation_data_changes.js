@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -34,7 +34,7 @@ controller
 inspector
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -49,7 +49,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -69,7 +69,7 @@ animationPlayers
 0
 ]
 ;
-yield
+await
 setStyle
 (
 animation
@@ -88,7 +88,7 @@ animated
 "
 )
 ;
-yield
+await
 setStyle
 (
 animation
@@ -105,7 +105,7 @@ animated
 "
 )
 ;
-yield
+await
 setStyle
 (
 animation

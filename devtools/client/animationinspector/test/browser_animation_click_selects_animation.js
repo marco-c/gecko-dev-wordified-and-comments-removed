@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -27,7 +27,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -94,7 +94,7 @@ class
 let
 animation0
 =
-yield
+await
 clickOnAnimation
 (
 panel
@@ -162,7 +162,7 @@ too
 let
 animation1
 =
-yield
+await
 clickOnAnimation
 (
 panel
@@ -247,7 +247,7 @@ unselects
 "
 )
 ;
-yield
+await
 clickOnAnimation
 (
 panel

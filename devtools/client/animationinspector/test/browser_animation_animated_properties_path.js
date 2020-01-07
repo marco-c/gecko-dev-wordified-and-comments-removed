@@ -1820,12 +1820,12 @@ y
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -1842,7 +1842,7 @@ const
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -1900,7 +1900,7 @@ i
 ]
 )
 ;
-yield
+await
 clickOnAnimation
 (
 panel

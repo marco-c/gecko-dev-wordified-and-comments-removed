@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -39,7 +39,7 @@ panel
 controller
 }
 =
-yield
+await
 openAnimationInspector
 (
 )

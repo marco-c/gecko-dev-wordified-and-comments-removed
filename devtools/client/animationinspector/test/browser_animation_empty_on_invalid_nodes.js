@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -34,7 +34,7 @@ panel
 window
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -66,7 +66,7 @@ empty
 let
 stillNode
 =
-yield
+await
 getNodeFront
 (
 "
@@ -76,7 +76,7 @@ still
 inspector
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 stillNode
@@ -192,7 +192,7 @@ empty
 let
 commentNode
 =
-yield
+await
 inspector
 .
 walker
@@ -202,7 +202,7 @@ previousSibling
 stillNode
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 commentNode

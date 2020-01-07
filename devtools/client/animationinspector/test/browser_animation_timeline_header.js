@@ -34,12 +34,12 @@ TIME_GRADUATION_MIN_SPACING
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -51,7 +51,7 @@ html
 "
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -71,7 +71,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )

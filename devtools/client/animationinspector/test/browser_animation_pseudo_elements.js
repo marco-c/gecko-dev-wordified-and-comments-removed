@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -28,7 +28,7 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -224,7 +224,7 @@ nodeFronts
 let
 bodyContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -294,7 +294,7 @@ inspector
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 beforeNode
@@ -369,7 +369,7 @@ inspector
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 afterNode

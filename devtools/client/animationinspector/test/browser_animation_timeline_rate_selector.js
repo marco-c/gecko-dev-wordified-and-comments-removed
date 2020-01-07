@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -35,7 +35,7 @@ inspector
 toolbox
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -83,7 +83,7 @@ to
 "
 )
 ;
-yield
+await
 changeTimelinePlaybackRate
 (
 panel
@@ -115,7 +115,7 @@ only
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -125,7 +125,7 @@ animated
 inspector
 )
 ;
-yield
+await
 changeTimelinePlaybackRate
 (
 panel
@@ -159,7 +159,7 @@ animations
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -199,7 +199,7 @@ animations
 "
 )
 ;
-yield
+await
 changeTimelinePlaybackRate
 (
 panel

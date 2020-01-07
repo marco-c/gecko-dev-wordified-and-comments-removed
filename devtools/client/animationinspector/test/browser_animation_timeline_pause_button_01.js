@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -32,7 +32,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -99,7 +99,7 @@ animations
 "
 )
 ;
-yield
+await
 clickTimelinePlayPauseButton
 (
 panel
@@ -131,7 +131,7 @@ state
 "
 )
 ;
-yield
+await
 assertScrubberMoving
 (
 panel
@@ -154,7 +154,7 @@ animations
 "
 )
 ;
-yield
+await
 clickTimelinePlayPauseButton
 (
 panel
@@ -188,7 +188,7 @@ again
 "
 )
 ;
-yield
+await
 assertScrubberMoving
 (
 panel

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -27,7 +27,7 @@ let
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
@@ -87,7 +87,7 @@ are
 visible
 )
 ;
-yield
+await
 clickOnAnimation
 (
 panel

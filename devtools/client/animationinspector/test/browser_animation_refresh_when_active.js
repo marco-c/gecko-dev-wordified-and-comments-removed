@@ -10,12 +10,12 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -33,12 +33,12 @@ inspector
 panel
 }
 =
-yield
+await
 openAnimationInspector
 (
 )
 ;
-yield
+await
 testRefresh
 (
 inspector
@@ -48,8 +48,8 @@ panel
 }
 )
 ;
+async
 function
-*
 testRefresh
 (
 inspector
@@ -67,7 +67,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeAndWaitForAnimations
 (
 "
@@ -112,7 +112,7 @@ now
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -171,7 +171,7 @@ animationinspector
 "
 )
 ;
-yield
+await
 panel
 .
 once
@@ -181,7 +181,7 @@ panel
 UI_UPDATED_EVENT
 )
 ;
-yield
+await
 onRendered
 ;
 assertAnimationsDisplayed
@@ -237,7 +237,7 @@ again
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -290,7 +290,7 @@ animationinspector
 "
 )
 ;
-yield
+await
 panel
 .
 once
