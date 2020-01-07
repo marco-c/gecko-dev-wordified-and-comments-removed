@@ -230,6 +230,15 @@ classic
 /
 global
 /
+printPreview
+.
+css
+skin
+/
+classic
+/
+global
+/
 radio
 .
 css
