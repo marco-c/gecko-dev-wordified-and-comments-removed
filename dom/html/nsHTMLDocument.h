@@ -661,6 +661,14 @@ aGivenProto
 override
 ;
 void
+GetDomain
+(
+nsAString
+&
+aDomain
+)
+;
+void
 SetDomain
 (
 const

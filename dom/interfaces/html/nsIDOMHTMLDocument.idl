@@ -161,10 +161,6 @@ nsIDOMDocument
 {
 attribute
 DOMString
-domain
-;
-attribute
-DOMString
 cookie
 ;
 readonly
