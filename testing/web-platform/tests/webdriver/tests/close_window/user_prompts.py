@@ -141,6 +141,12 @@ accept
 }
 )
     
+original_handle
+=
+session
+.
+window_handle
+    
 session
 .
 window_handle
@@ -209,6 +215,12 @@ status
 =
 200
     
+session
+.
+window_handle
+=
+original_handle
+    
 assert_dialog_handled
 (
 session
@@ -216,6 +228,37 @@ session
 dismiss
 #
 1
+"
+)
+    
+session
+.
+window_handle
+=
+create_window
+(
+session
+)
+(
+)
+    
+session
+.
+url
+=
+inline
+(
+"
+<
+title
+>
+WD
+doc
+title
+<
+/
+title
+>
 "
 )
     
@@ -256,6 +299,12 @@ status
 =
 200
     
+session
+.
+window_handle
+=
+original_handle
+    
 assert_dialog_handled
 (
 session
@@ -263,6 +312,37 @@ session
 dismiss
 #
 2
+"
+)
+    
+session
+.
+window_handle
+=
+create_window
+(
+session
+)
+(
+)
+    
+session
+.
+url
+=
+inline
+(
+"
+<
+title
+>
+WD
+doc
+title
+<
+/
+title
+>
 "
 )
     
@@ -302,6 +382,12 @@ status
 =
 =
 200
+    
+session
+.
+window_handle
+=
+original_handle
     
 assert_dialog_handled
 (
