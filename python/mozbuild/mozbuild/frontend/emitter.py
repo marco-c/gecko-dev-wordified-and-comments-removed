@@ -9567,6 +9567,11 @@ flags
 localized
 =
 localized
+force
+=
+flags
+.
+force
 )
     
 def

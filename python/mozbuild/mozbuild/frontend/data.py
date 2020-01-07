@@ -6288,6 +6288,10 @@ required_for_compile
 '
 localized
 '
+        
+'
+force
+'
     
 )
     
@@ -6300,11 +6304,15 @@ script
 method
 outputs
 inputs
+                 
 flags
 =
 (
 )
 localized
+=
+False
+force
 =
 False
 )
@@ -6363,6 +6371,12 @@ self
 localized
 =
 localized
+        
+self
+.
+force
+=
+force
         
 suffixes
 =
