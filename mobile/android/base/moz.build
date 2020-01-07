@@ -4766,13 +4766,6 @@ DataReportingNotification
 java
 '
 '
-dawn
-/
-DawnHelper
-.
-java
-'
-'
 db
 /
 AbstractPerProfileDatabaseProvider
