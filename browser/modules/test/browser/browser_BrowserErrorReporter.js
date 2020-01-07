@@ -495,6 +495,12 @@ BrowserErrorReporter
 fetch
 :
 fetchStub
+sampleRates
+:
+new
+Map
+(
+)
 now
 :
 BrowserErrorReporter
