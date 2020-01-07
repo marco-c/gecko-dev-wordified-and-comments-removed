@@ -3752,7 +3752,10 @@ JS
 extern
 JS_PUBLIC_API
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
 )
 EnterRealm

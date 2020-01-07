@@ -1657,7 +1657,7 @@ void
 UnboxedLayout
 :
 :
-detachFromCompartment
+detachFromRealm
 (
 )
 {

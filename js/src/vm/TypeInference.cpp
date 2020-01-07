@@ -23085,7 +23085,7 @@ group
 layout
 -
 >
-detachFromCompartment
+detachFromRealm
 (
 )
 ;

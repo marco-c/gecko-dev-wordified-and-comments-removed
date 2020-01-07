@@ -2463,11 +2463,11 @@ isAtomsRealm
 )
 )
 ;
-JSCompartment
+Realm
 *
-compartment
+realm
 =
-NewCompartment
+NewRealm
 (
 cx
 principals
@@ -2477,7 +2477,7 @@ options
 if
 (
 !
-compartment
+realm
 )
 return
 nullptr
@@ -2497,7 +2497,7 @@ AutoRealmUnchecked
 ar
 (
 cx
-compartment
+realm
 )
 ;
 global

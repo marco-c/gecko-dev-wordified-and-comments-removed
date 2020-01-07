@@ -3228,7 +3228,7 @@ callback
 }
 JS_PUBLIC_API
 (
-JSCompartment
+Realm
 *
 )
 JS
@@ -3273,13 +3273,7 @@ target
 )
 ;
 return
-JS
-:
-:
-GetCompartmentForRealm
-(
 oldRealm
-)
 ;
 }
 JS_PUBLIC_API
@@ -3946,7 +3940,7 @@ cx
 origobj
 -
 >
-compartment
+realm
 (
 )
 )
@@ -4096,7 +4090,7 @@ cx
 origobj
 -
 >
-compartment
+realm
 (
 )
 )

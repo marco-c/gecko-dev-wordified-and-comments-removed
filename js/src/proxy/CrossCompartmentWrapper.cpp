@@ -3153,6 +3153,17 @@ ObjectValue
 origTarget
 )
 ;
+Realm
+*
+wrealm
+=
+wobj
+-
+>
+realm
+(
+)
+;
 JSCompartment
 *
 wcompartment
@@ -3249,7 +3260,7 @@ AutoRealmUnchecked
 ar
 (
 cx
-wcompartment
+wrealm
 )
 ;
 if
