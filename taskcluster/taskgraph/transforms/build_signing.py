@@ -293,6 +293,12 @@ nightly
 keep_locale_template
 =
 False
+            
+kind
+=
+config
+.
+kind
         
 )
         
