@@ -234,7 +234,7 @@ workers
 \
 -
 -
-Tab
+Target
 -
 scoped
 actors
@@ -271,7 +271,7 @@ actors
 are
 registered
 with
-tab
+target
 :
 true
 in
@@ -991,7 +991,7 @@ allows
 to
 fetch
 the
-tab
+target
 -
 scoped
 actors
@@ -1107,7 +1107,7 @@ stop
 the
 ThreadActor
 .
-Tab
+Target
 -
 scoped
 actors
@@ -1127,13 +1127,13 @@ the
 actorID
 for
 each
-tab
+target
 -
 scoped
 actor
 .
 The
-tab
+target
 -
 scoped
 actors
@@ -1373,7 +1373,7 @@ details
 .
 #
 #
-Tab
+Target
 -
 scoped
 actors
@@ -1451,7 +1451,7 @@ etc
 To
 improve
 performance
-tab
+target
 -
 scoped
 actors
@@ -1491,7 +1491,7 @@ request
 for
 a
 given
-tab
+target
 -
 scoped
 actor
