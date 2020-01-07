@@ -562,7 +562,7 @@ key
 =
 =
 "
-num_slices
+slices
 "
 |
 |
@@ -714,16 +714,6 @@ data
 log
 )
 {
-data
-.
-num_slices
-=
-data
-.
-slices_list
-.
-length
-;
 data
 .
 slices_list
