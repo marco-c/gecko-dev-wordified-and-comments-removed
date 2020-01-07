@@ -8429,6 +8429,7 @@ skia
 pdf
 '
 skia
+target
 milestone
 )
 def
@@ -8436,6 +8437,7 @@ skia_pdf
 (
 value
 skia
+target
 milestone
 )
 :
@@ -8459,6 +8461,15 @@ if
 milestone
 .
 is_nightly
+and
+target
+.
+os
+!
+=
+'
+WINNT
+'
 :
 return
 True
