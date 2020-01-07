@@ -2365,11 +2365,9 @@ uri
 ;
 rv
 =
-aChannel
--
->
-GetURI
+NS_GetFinalChannelURI
 (
+aChannel
 getter_AddRefs
 (
 uri
