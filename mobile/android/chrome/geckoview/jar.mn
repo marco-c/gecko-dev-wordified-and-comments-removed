@@ -98,3 +98,8 @@ content
 GeckoViewScrollContent
 .
 js
+content
+/
+GeckoViewSelectionActionContent
+.
+js
