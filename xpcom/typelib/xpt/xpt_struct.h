@@ -559,9 +559,6 @@ XPTParamDescriptor
 *
 params
 ;
-XPTParamDescriptor
-result
-;
 uint8_t
 flags
 ;

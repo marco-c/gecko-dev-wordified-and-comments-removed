@@ -756,17 +756,6 @@ idx
 ]
 ;
 }
-const
-nsXPTParamInfo
-GetResult
-(
-)
-const
-{
-return
-result
-;
-}
 private
 :
 nsXPTMethodInfo
