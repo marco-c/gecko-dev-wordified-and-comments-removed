@@ -813,6 +813,13 @@ this
 .
 rawAccessible
 .
+accessKey
+|
+|
+this
+.
+rawAccessible
+.
 keyboardShortcut
 ;
 }
@@ -2858,7 +2865,7 @@ shortcut
 -
 change
 "
-rawAccessible
+accessible
 .
 keyboardShortcut
 )
