@@ -3272,7 +3272,7 @@ inline
 end
 margin_inline_end
 MarginInlineEnd
-0
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -3290,7 +3290,7 @@ inline
 start
 margin_inline_start
 MarginInlineStart
-0
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
 VARIANT_AHLP
@@ -3627,7 +3627,7 @@ block
 size
 max_block_size
 MaxBlockSize
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+0
 "
 "
 VARIANT_HLPO
@@ -3661,7 +3661,7 @@ inline
 size
 max_inline_size
 MaxInlineSize
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+0
 "
 "
 VARIANT_HKLPO
@@ -3695,7 +3695,7 @@ block
 size
 min_block_size
 MinBlockSize
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+0
 "
 "
 VARIANT_AHLP
@@ -3762,7 +3762,7 @@ inline
 size
 min_inline_size
 MinInlineSize
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+0
 "
 "
 VARIANT_AHKLP
@@ -4712,8 +4712,6 @@ rotate
 rotate
 Rotate
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 layout
 .
@@ -4763,8 +4761,6 @@ scale
 scale
 Scale
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 layout
 .
