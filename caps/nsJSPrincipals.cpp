@@ -143,7 +143,7 @@ NS_IsMainThread
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 int32_t
 (
@@ -201,7 +201,7 @@ NS_IsMainThread
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !

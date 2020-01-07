@@ -1313,7 +1313,7 @@ uint32_t
 aValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCodebase
 "

@@ -1401,7 +1401,7 @@ GetMozContainer
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 container
 "
@@ -2506,7 +2506,7 @@ sLastFocusedContext
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aWindow
 "
@@ -3000,7 +3000,7 @@ bool
 aKeyboardEventWasDispatched
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEvent
 "

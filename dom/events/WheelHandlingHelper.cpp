@@ -1299,7 +1299,7 @@ OnFailToScrollTarget
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 sTargetFrame
 "

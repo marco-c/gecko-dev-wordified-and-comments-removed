@@ -4647,7 +4647,7 @@ HyphenationState
 aWordState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRange
 .

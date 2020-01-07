@@ -767,7 +767,7 @@ aEnvVarName
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrefName
 "

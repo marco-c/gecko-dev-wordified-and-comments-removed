@@ -2812,7 +2812,7 @@ uint32_t
 aWriteCount
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCount
 >

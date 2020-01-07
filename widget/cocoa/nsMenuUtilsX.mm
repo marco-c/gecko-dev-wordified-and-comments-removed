@@ -228,7 +228,7 @@ nsIContent
 aTargetContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTargetContent
 "

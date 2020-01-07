@@ -4573,7 +4573,7 @@ IsAlive
 )
 return
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mInRedisplayText

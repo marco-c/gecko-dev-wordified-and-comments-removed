@@ -354,7 +354,7 @@ imgRequestProxy
 aImageRequest
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aImageRequest
 "

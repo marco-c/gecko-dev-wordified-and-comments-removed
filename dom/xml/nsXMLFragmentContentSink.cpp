@@ -1119,7 +1119,7 @@ bool
 _retval
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aError
 &

@@ -2431,7 +2431,7 @@ int32_t
 aFrameIndexInLine
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -3692,7 +3692,7 @@ int32_t
 aStartLine
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStartLine
 <
@@ -3906,7 +3906,7 @@ bool
 aPosIsAfterLastFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrameFound
 &
@@ -4572,7 +4572,7 @@ nsFloatCacheFreeList
 aList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aList
 .
@@ -4838,7 +4838,7 @@ nsFloatCacheList
 aList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aList
 .
@@ -4983,7 +4983,7 @@ nsIFrame
 aFloat
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFloat
 -

@@ -2973,7 +2973,7 @@ nsHTMLStyleSheet
 aSheet
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mImpl
 &
@@ -3777,7 +3777,7 @@ bool
 aAllocateChildren
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mImpl
@@ -4390,7 +4390,7 @@ uint32_t
 aChildCount
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aChild
@@ -4408,7 +4408,7 @@ sibling
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aChild

@@ -26216,7 +26216,7 @@ mScrollCornerBox
 mResizerBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mScrollCornerBox
@@ -26662,7 +26662,7 @@ if
 mVScrollbarBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mVScrollbarBox
 -
@@ -26780,7 +26780,7 @@ if
 mHScrollbarBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mHScrollbarBox
 -

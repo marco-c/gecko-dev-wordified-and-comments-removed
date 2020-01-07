@@ -5834,7 +5834,7 @@ DoTick
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsFrozen
@@ -5851,7 +5851,7 @@ frozen
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mPresContext
 "
@@ -5865,7 +5865,7 @@ disconnection
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 nsContentUtils
@@ -6960,7 +6960,7 @@ TimeStamp
 aNowTime
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 nsContentUtils

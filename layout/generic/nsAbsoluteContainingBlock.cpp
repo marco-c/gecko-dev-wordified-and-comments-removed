@@ -191,7 +191,7 @@ nsFrameList
 aChildList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mChildListID
 =

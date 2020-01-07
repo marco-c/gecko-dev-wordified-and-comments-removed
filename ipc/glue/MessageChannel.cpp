@@ -2983,7 +2983,7 @@ Side
 aSide
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mLink
@@ -3078,7 +3078,7 @@ Side
 aSide
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTargetChan
 "
@@ -3089,7 +3089,7 @@ channel
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ChannelClosed
 =
@@ -3245,7 +3245,7 @@ Side
 aSide
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ChannelClosed
 =
@@ -3258,7 +3258,7 @@ closed
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ChannelOpening
 =

@@ -3538,7 +3538,7 @@ GetXULClientRect
 clientRect
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 (

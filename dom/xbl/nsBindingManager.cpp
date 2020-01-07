@@ -901,7 +901,7 @@ DestructorHandling
 aDestructorHandling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldDocument
 !
@@ -1270,7 +1270,7 @@ nsIPrincipal
 aOriginPrincipal
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURL
 "
@@ -1962,7 +1962,7 @@ nsXBLDocumentInfo
 aDocumentInfo
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocumentInfo
 "
@@ -2088,7 +2088,7 @@ nsIStreamListener
 aListener
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aListener
 "

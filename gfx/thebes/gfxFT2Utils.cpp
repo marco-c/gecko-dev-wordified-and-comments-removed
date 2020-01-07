@@ -150,7 +150,7 @@ uint32_t
 aVariantSelector
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aVariantSelector
 "

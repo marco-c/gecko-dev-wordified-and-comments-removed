@@ -76,7 +76,7 @@ int16_t
 aShouldLoad
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aShouldLoad
 "
@@ -314,7 +314,7 @@ int16_t
 aShouldProcess
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aShouldProcess
 "

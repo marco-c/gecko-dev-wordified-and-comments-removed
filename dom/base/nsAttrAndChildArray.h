@@ -727,7 +727,7 @@ aSlot
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSlot
 <

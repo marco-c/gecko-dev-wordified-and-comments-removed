@@ -1590,7 +1590,7 @@ return
 nullptr
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 -
@@ -15595,7 +15595,7 @@ nsIDOMNode
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "

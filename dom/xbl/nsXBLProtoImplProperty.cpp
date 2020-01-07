@@ -354,7 +354,7 @@ nsAString
 aText
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsCompiled
@@ -400,7 +400,7 @@ nsAString
 aText
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsCompiled
@@ -444,7 +444,7 @@ uint32_t
 aLineNumber
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsCompiled
@@ -488,7 +488,7 @@ uint32_t
 aLineNumber
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsCompiled
@@ -555,7 +555,7 @@ JSObject
 aTargetClassObject
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mIsCompiled
 "
@@ -840,7 +840,7 @@ AssertInCompilationScope
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsCompiled
@@ -856,7 +856,7 @@ property
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aClassObject
 "

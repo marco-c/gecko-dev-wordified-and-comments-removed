@@ -1297,7 +1297,7 @@ nsAssignmentType
 aAssignment
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStreamResult
 "
@@ -1433,7 +1433,7 @@ nsACString
 aStringToRead
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStreamResult
 "
@@ -1504,7 +1504,7 @@ nsCString
 aStringToRead
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStreamResult
 "

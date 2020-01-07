@@ -114,7 +114,7 @@ uint32_t
 aIsTypeSupported
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIsTypeSupported
 "
@@ -312,7 +312,7 @@ uint32_t
 aIsSupported
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIsSupported
 "

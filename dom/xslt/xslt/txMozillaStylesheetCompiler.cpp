@@ -582,7 +582,7 @@ uint32_t
 aLineNumber
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttsCount
 %
@@ -869,7 +869,7 @@ bool
 _retval
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aError
 &

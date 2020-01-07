@@ -82,7 +82,7 @@ char
 aCharset
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOutStream
 "

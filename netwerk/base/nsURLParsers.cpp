@@ -1683,7 +1683,7 @@ int32_t
 pathLen
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 specLen
 >
@@ -2999,7 +2999,7 @@ int32_t
 pathLen
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 specLen
 >
@@ -3164,7 +3164,7 @@ int32_t
 pathLen
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 specLen
 >

@@ -2787,7 +2787,7 @@ void
 aSink
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSink
 "
@@ -3700,7 +3700,7 @@ bool
 aFirstParty
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadInfo
 |
@@ -3719,7 +3719,7 @@ flags
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 aLoadFlags
@@ -13113,7 +13113,7 @@ bool
 aConsiderOpener
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTargetItem
 "
@@ -22138,7 +22138,7 @@ nsISupports
 aPageDescriptor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPageDescriptor
 "
@@ -25995,7 +25995,7 @@ nsITimer
 aTimer
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTimer
 "
@@ -38654,7 +38654,7 @@ aURI
 )
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aWindowTarget
 .
@@ -44556,7 +44556,7 @@ bool
 aCloneSHChildren
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -44566,7 +44566,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aChannel
@@ -46890,7 +46890,7 @@ nsISHEntry
 aNewEntry
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -46900,7 +46900,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aChannel
@@ -51637,7 +51637,7 @@ nsIURI
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "

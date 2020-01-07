@@ -3268,7 +3268,7 @@ HandleAsyncAbort
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume

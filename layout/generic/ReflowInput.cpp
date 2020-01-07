@@ -274,7 +274,7 @@ mReflowDepth
 0
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRenderingContext
 "
@@ -832,7 +832,7 @@ context
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mFlags
@@ -1378,7 +1378,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aComputedWidth
 >
@@ -1471,7 +1471,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aComputedHeight
 >
@@ -6797,7 +6797,7 @@ GetWritingMode
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCBSize
 .
@@ -12782,7 +12782,7 @@ nsFontMetrics
 aFontMetrics
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -13191,7 +13191,7 @@ float
 aFontSizeInflation
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aComputedStyle
 "

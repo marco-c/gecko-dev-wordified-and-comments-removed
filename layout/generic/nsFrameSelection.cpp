@@ -8481,7 +8481,7 @@ return
 nullptr
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRange
 -
@@ -8498,7 +8498,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRange
 -
@@ -10052,7 +10052,7 @@ GetFirstSelectedContent
 range
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 range
@@ -10340,7 +10340,7 @@ GetFirstSelectedContent
 range
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 range

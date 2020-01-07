@@ -17,7 +17,7 @@ diff_type
 aAdjustment
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAdjustment
 =

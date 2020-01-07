@@ -609,7 +609,7 @@ nsIWidget
 aWidget
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -1320,7 +1320,7 @@ this
 return
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mWindow
 "
@@ -1918,7 +1918,7 @@ nsView
 aSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -2063,7 +2063,7 @@ nsView
 child
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -2938,7 +2938,7 @@ nsIWidget
 aWidget
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -3075,7 +3075,7 @@ DetachFromTopLevelWidget
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mWidgetIsTopLevel
 "
@@ -3086,7 +3086,7 @@ currently
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mWindow
 "
@@ -5255,7 +5255,7 @@ bool
 aUseAttachedEvents
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !

@@ -1399,7 +1399,7 @@ nsReflowStatus
 aReflowStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "

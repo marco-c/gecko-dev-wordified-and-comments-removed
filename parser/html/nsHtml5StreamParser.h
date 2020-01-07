@@ -337,7 +337,7 @@ int32_t
 aSource
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStreamState
 =

@@ -93,7 +93,7 @@ uint32_t
 aTextLen2
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -105,7 +105,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -712,7 +712,7 @@ aOffset
 WordRange
 range
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -724,7 +724,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !
@@ -737,7 +737,7 @@ len
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOffset
 <

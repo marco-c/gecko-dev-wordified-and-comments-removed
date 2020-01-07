@@ -124,7 +124,7 @@ JSObject
 Obj
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Obj
 "
@@ -234,7 +234,7 @@ nsXPCWrappedJS
 wrapper
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 wrapper
 "
@@ -307,7 +307,7 @@ nsXPCWrappedJS
 wrapper
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 wrapper
 "
@@ -479,7 +479,7 @@ nsISupports
 Obj
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Obj
 "
@@ -526,7 +526,7 @@ XPCWrappedNative
 wrapper
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 wrapper
 "
@@ -632,7 +632,7 @@ XPCWrappedNative
 wrapper
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 wrapper
 "
@@ -870,7 +870,7 @@ nsXPCWrappedJSClass
 clazz
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 clazz
 "
@@ -961,7 +961,7 @@ nsXPCWrappedJSClass
 clazz
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 clazz
 "
@@ -1124,7 +1124,7 @@ XPCNativeInterface
 iface
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 iface
 "
@@ -1214,7 +1214,7 @@ XPCNativeInterface
 iface
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 iface
 "
@@ -1411,7 +1411,7 @@ XPCNativeSet
 set
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 info
 "
@@ -1492,7 +1492,7 @@ nsIClassInfo
 info
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 info
 "
@@ -1634,7 +1634,7 @@ XPCWrappedNativeProto
 proto
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 info
 "
@@ -1712,7 +1712,7 @@ nsIClassInfo
 info
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 info
 "
@@ -2175,7 +2175,7 @@ XPCWrappedNativeProto
 proto
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 proto
 "
@@ -2250,7 +2250,7 @@ XPCWrappedNativeProto
 proto
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 proto
 "
@@ -2428,7 +2428,7 @@ JSObject
 key
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 key
 "
@@ -2480,7 +2480,7 @@ JSObject
 value
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 key
 "
@@ -2565,7 +2565,7 @@ JSObject
 key
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 key
 "

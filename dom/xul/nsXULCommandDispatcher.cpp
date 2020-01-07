@@ -935,7 +935,7 @@ nsAString
 aTargets
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 !
@@ -1272,7 +1272,7 @@ Element
 aElement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 !

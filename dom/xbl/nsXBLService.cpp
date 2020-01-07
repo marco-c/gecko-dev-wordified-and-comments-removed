@@ -2118,7 +2118,7 @@ bool
 aResolveStyle
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOriginPrincipal
 "
@@ -3925,7 +3925,7 @@ nsXBLDocumentInfo
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBindingURI
 "
@@ -3937,7 +3937,7 @@ URI
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aOriginPrincipal

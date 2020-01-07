@@ -1676,7 +1676,7 @@ nsFTPDirListingConv
 aFTPDirListingConv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFTPDirListingConv
 !

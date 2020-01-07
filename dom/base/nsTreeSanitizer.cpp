@@ -5840,7 +5840,7 @@ DocumentFragment
 aFragment
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aFragment
@@ -5883,7 +5883,7 @@ aDocument
 #
 ifdef
 DEBUG
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aDocument
@@ -5922,7 +5922,7 @@ GetRootElement
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 root
 -
@@ -6808,7 +6808,7 @@ InitializeStatics
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 sElementsHTML

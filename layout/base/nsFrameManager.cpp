@@ -341,7 +341,7 @@ nsFrameList
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aPrevFrame
@@ -764,7 +764,7 @@ nsILayoutHistoryState
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -1071,7 +1071,7 @@ nsILayoutHistoryState
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !

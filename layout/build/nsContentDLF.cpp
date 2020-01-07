@@ -380,7 +380,7 @@ nsIDocumentLoaderFactory
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 "

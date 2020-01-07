@@ -145,7 +145,7 @@ uint32_t
 aInitialDelay
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCallback
 !

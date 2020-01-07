@@ -4612,10 +4612,12 @@ aNewParent
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewParent
 "
+null
+widget
 "
 )
 ;

@@ -9051,7 +9051,7 @@ uint32_t
 aDelay
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -9180,7 +9180,7 @@ nsPoint
 aPoint
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

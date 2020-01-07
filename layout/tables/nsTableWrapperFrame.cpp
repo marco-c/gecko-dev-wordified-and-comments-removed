@@ -699,7 +699,7 @@ nsIFrame
 aOldFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 kCaptionList
 =

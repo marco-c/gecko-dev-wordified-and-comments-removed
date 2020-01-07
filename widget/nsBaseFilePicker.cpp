@@ -649,7 +649,7 @@ int16_t
 aMode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "

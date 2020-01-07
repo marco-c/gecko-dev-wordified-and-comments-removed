@@ -333,7 +333,7 @@ void
 aClosure
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -466,7 +466,7 @@ nsINode
 aRoot
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -576,7 +576,7 @@ int32_t
 aEndOffset
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEndNode
 "

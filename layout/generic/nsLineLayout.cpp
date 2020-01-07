@@ -2602,7 +2602,7 @@ PerFrameData
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mBaseLineLayout
 "
@@ -6436,7 +6436,7 @@ bool
 aOptionalBreakAfterFits
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 pfd
 &

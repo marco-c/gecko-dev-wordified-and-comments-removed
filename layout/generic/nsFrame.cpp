@@ -3006,7 +3006,7 @@ GetFrameId
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mContent
@@ -9144,7 +9144,7 @@ aIndex
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIndex
 >
@@ -9174,7 +9174,7 @@ ComputedStyle
 aComputedStyle
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIndex
 >
@@ -30173,7 +30173,7 @@ ComputeSizeFlags
 aFlags
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRenderingContext
 "
@@ -30222,7 +30222,7 @@ calculation
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContainingBlockISize
 >
@@ -31578,7 +31578,7 @@ nsIFrame
 aOther
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOther
 "
@@ -31811,7 +31811,7 @@ aAPD
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOther
 "
@@ -32397,7 +32397,7 @@ aView
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -32576,7 +32576,7 @@ uint32_t
 aFlags
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOutAncestor
 "
@@ -37933,7 +37933,7 @@ CachedIsEmpty
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 (
@@ -38260,7 +38260,7 @@ nsPoint
 outPoint
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 outPoint
 !
@@ -38442,7 +38442,7 @@ nsIFrame
 outChildFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 outChildFrame
 &
@@ -46338,7 +46338,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -46715,7 +46715,7 @@ nsAtom
 aChildPseudo
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aProspectiveParent
 "
@@ -60202,7 +60202,7 @@ nsMargin
 aPadding
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -60214,7 +60214,7 @@ required
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "
@@ -60449,7 +60449,7 @@ void
 aValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -60461,7 +60461,7 @@ required
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "
@@ -60741,7 +60741,7 @@ nsMargin
 aPadding
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -60753,7 +60753,7 @@ required
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "
@@ -60907,7 +60907,7 @@ void
 aValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -60919,7 +60919,7 @@ required
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "
@@ -61073,7 +61073,7 @@ ReflowInput
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -61085,7 +61085,7 @@ required
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "
@@ -61151,7 +61151,7 @@ void
 aValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -61163,7 +61163,7 @@ required
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "

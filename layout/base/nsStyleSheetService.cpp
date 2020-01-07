@@ -1178,7 +1178,7 @@ NS_ENSURE_ARG_POINTER
 sheetURI
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 _retval
 "
@@ -1310,7 +1310,7 @@ nsIPreloadedStyleSheet
 aSheet
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 "

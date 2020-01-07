@@ -559,7 +559,7 @@ nsIFrame
 aPopup
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 aPopup

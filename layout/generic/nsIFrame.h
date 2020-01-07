@@ -12074,7 +12074,7 @@ nsIFrame
 aRight
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLeft
 &
@@ -12298,7 +12298,7 @@ nsIFrame
 aSource
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSource
 "

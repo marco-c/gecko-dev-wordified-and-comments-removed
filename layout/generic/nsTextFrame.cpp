@@ -2171,14 +2171,16 @@ nsFrameState
 aWhichTextRunState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
+null
+frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aStartContinuation
@@ -16886,7 +16888,7 @@ aAllowSplitLigature
 true
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPos
 -
@@ -17631,7 +17633,7 @@ aIgnoreTabs
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsInBounds
 (
@@ -18663,7 +18665,7 @@ aBreakBefore
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsInBounds
 (
@@ -18679,7 +18681,7 @@ bounds
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mLength
 !
@@ -19201,7 +19203,7 @@ bool
 aPostReflow
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mLength
 !
@@ -22129,7 +22131,7 @@ continuation
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 -
@@ -33968,7 +33970,7 @@ int32_t
 aOffset
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOffset
 >
@@ -34037,7 +34039,7 @@ GetOriginalLength
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOffset
 >
@@ -45904,7 +45906,7 @@ nsTextFrame
 aFirstToNotRemove
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 !

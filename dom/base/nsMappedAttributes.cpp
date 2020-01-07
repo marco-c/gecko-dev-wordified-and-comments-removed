@@ -637,7 +637,7 @@ bool
 aValueWasSet
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttrName
 "
@@ -847,7 +847,7 @@ aAttrName
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttrName
 "

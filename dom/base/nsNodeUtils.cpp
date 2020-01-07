@@ -1177,7 +1177,7 @@ nsIContent
 aChild
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContainer
 -
@@ -1247,7 +1247,7 @@ nsIContent
 aPreviousSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContainer
 -
@@ -2063,7 +2063,7 @@ ErrorResult
 aError
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 !
@@ -2089,13 +2089,11 @@ we
 shouldn
 '
 t
-"
-"
 rewrap
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aParent

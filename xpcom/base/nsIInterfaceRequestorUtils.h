@@ -31,7 +31,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSource
 "
@@ -40,7 +40,7 @@ parameter
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "

@@ -6602,7 +6602,7 @@ aPresContext
 )
 return
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !

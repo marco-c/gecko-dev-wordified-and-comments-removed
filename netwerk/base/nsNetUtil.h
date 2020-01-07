@@ -1991,7 +1991,7 @@ void
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 channel
 "

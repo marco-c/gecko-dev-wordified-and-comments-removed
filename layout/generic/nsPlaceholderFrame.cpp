@@ -810,7 +810,7 @@ aProviderFrame
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetParent
 (

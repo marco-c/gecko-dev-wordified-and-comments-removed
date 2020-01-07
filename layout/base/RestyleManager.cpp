@@ -4550,7 +4550,7 @@ nsChangeHint
 aChange
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 gInApplyRenderingChangeToTree
 "
@@ -5000,7 +5000,7 @@ nsChangeHint
 aChange
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 gInApplyRenderingChangeToTree
 "

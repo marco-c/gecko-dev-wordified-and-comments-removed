@@ -1164,7 +1164,7 @@ aKey
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mXMLMatchAtom
 "

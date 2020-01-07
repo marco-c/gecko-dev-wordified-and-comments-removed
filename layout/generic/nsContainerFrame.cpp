@@ -2229,7 +2229,7 @@ nsIFrame
 aNewParentFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChildFrame
 "
@@ -2240,7 +2240,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldParentFrame
 "
@@ -2252,7 +2252,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewParentFrame
 "
@@ -2264,7 +2264,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldParentFrame
 !
@@ -2425,7 +2425,7 @@ nsIFrame
 aNewParentFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChildFrameList
 .
@@ -2440,7 +2440,7 @@ list
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldParentFrame
 "
@@ -2452,7 +2452,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewParentFrame
 "
@@ -2464,7 +2464,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldParentFrame
 !
@@ -3462,7 +3462,7 @@ GetPrevInFlow
 )
 return
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aType
 =
@@ -4362,7 +4362,7 @@ nsOverflowContinuationTracker
 aTracker
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aReflowInput
 .
@@ -4625,7 +4625,7 @@ nsOverflowContinuationTracker
 aTracker
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aReflowInput
 .
@@ -5410,7 +5410,7 @@ ChildFrameMerger
 aMergeFunc
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPresContext
 "
@@ -6547,7 +6547,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsBlockFrame
@@ -6566,7 +6566,7 @@ instead
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrames
 .
@@ -6704,7 +6704,7 @@ GetPrevInFlow
 ;
 #
 endif
-NS_PRECONDITION
+MOZ_ASSERT
 (
 prevInFlow
 "
@@ -6879,7 +6879,7 @@ nsFrameList
 aOverflowFrames
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOverflowFrames
 .
@@ -6980,7 +6980,7 @@ FrameListPropertyDescriptor
 aProperty
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aProperty
 &
@@ -6992,7 +6992,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 aProperty
@@ -7069,7 +7069,7 @@ nsIFrame
 aPrevSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFromChild
 "
@@ -7078,7 +7078,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrevSibling
 "
@@ -7088,7 +7088,7 @@ child
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrevSibling
 -
@@ -7131,7 +7131,7 @@ nsIFrame
 aPrevSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFromChild
 "
@@ -7140,7 +7140,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrevSibling
 "
@@ -7150,7 +7150,7 @@ child
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrevSibling
 -
@@ -8759,7 +8759,7 @@ bool
 aForCounting
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOrdinal
 "
@@ -9404,7 +9404,7 @@ mWalkOOFFrames
 aWalkOOFFrames
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -9427,7 +9427,7 @@ SetupOverflowContList
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mParent
 "
@@ -9437,7 +9437,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mOverflowContList
@@ -9680,7 +9680,7 @@ StepForward
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOverflowContList
 "
@@ -9810,7 +9810,7 @@ nsReflowStatus
 aReflowStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOverflowCont
 "
@@ -9820,7 +9820,7 @@ pointer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mSkipOverflowContainerChildren
@@ -9857,7 +9857,7 @@ type
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOverflowCont
 -
@@ -10465,7 +10465,7 @@ nsIFrame
 aChild
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "
@@ -10474,7 +10474,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 -

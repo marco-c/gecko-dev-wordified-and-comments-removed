@@ -4151,7 +4151,7 @@ nsIFilePickerShownCallback
 aFpCallback
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDoc
 "
@@ -4161,7 +4161,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFilePicker
 "
@@ -4171,7 +4171,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFpCallback
 "
@@ -4192,7 +4192,7 @@ GetDocumentURI
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 docURI
 "
@@ -4309,7 +4309,7 @@ nsIFile
 aDir
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDoc
 "
@@ -4342,7 +4342,7 @@ GetDocumentURI
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 docURI
 "
@@ -12367,7 +12367,7 @@ uint32_t
 aFlags
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetValueMode
 (

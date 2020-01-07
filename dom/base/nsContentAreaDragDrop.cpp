@@ -2091,7 +2091,7 @@ nsACString
 aPrincipalURISpec
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCanDrag
 &

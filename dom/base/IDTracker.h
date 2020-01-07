@@ -259,7 +259,7 @@ mTarget
 aTarget
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTarget
 "

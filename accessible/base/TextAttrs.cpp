@@ -125,7 +125,7 @@ uint32_t
 aEndOffset
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mHyperTextAcc
 &

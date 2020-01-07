@@ -108,7 +108,7 @@ nsHtml5String
 aUrl
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -145,7 +145,7 @@ nsHtml5String
 aCSP
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -204,7 +204,7 @@ nsHtml5String
 aReferrerPolicy
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -271,7 +271,7 @@ nsHtml5String
 aSizes
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -356,7 +356,7 @@ InitOpenPicture
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -384,7 +384,7 @@ InitEndPicture
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -420,7 +420,7 @@ nsHtml5String
 aMedia
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -494,7 +494,7 @@ bool
 aNoModule
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -596,7 +596,7 @@ nsHtml5String
 aIntegrity
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -661,7 +661,7 @@ nsHtml5String
 aUrl
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -705,7 +705,7 @@ int32_t
 aCharsetSource
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -756,7 +756,7 @@ nsHtml5DocumentMode
 aMode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -798,7 +798,7 @@ nsHtml5String
 aCrossOrigin
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =

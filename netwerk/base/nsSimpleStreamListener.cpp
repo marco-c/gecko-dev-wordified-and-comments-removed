@@ -153,7 +153,7 @@ nsIRequestObserver
 aObserver
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSink
 "

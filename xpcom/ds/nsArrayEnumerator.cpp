@@ -127,7 +127,7 @@ bool
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 !
@@ -216,7 +216,7 @@ nsISupports
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 !
@@ -478,7 +478,7 @@ bool
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 !
@@ -525,7 +525,7 @@ nsISupports
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 !

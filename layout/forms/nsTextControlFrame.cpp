@@ -5566,7 +5566,7 @@ IsSingleLineTextControl
 return
 NS_OK
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRootNode
 "
@@ -5580,7 +5580,7 @@ n
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mEditorHasBeenInitialized

@@ -928,7 +928,7 @@ nsIDocument
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 result
 !
@@ -6728,7 +6728,7 @@ void
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 "
@@ -8568,7 +8568,7 @@ nsINode
 aBeforeThis
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aProtoPI
 "
@@ -8577,7 +8577,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -11180,7 +11180,7 @@ DoneWalking
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mPendingSheets
 =
@@ -11196,7 +11196,7 @@ loaded
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mStillWalking
@@ -12065,7 +12065,7 @@ nsIURI
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -13109,7 +13109,7 @@ nsXULPrototypeScript
 aScript
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aScript
 !
@@ -13298,7 +13298,7 @@ bool
 aIsRoot
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrototype
 !

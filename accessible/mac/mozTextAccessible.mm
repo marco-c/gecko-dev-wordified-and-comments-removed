@@ -159,7 +159,7 @@ NSRange
 aRange
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRange
 "
@@ -2924,7 +2924,7 @@ NSRange
 )
 range
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 range
 "

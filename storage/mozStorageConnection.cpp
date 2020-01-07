@@ -2322,7 +2322,7 @@ Release
 void
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !

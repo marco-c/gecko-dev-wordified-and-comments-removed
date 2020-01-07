@@ -452,7 +452,7 @@ FindInStringBehavior
 aBehavior
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aToken
@@ -1121,7 +1121,7 @@ nsACString
 aSourceString
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aToken
@@ -1234,7 +1234,7 @@ nsACString
 aSourceString
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aToken

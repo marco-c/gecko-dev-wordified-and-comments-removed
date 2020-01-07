@@ -1727,7 +1727,7 @@ aDidInstall
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBoundNode
 "
@@ -1744,8 +1744,6 @@ or
 bad
 things
 will
-"
-"
 happen
 "
 )

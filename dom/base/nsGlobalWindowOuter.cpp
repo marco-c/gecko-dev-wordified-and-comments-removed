@@ -6831,7 +6831,7 @@ GetWrapper
 )
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aWindow
 "
@@ -7738,7 +7738,7 @@ bool
 aForceReuseInnerWindow
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDocumentPrincipal
 =
@@ -16400,7 +16400,7 @@ bool
 aLookForCallerOnJSStack
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDocShell
 "
@@ -28461,7 +28461,7 @@ argc
 ;
 #
 endif
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aExtraArgument
@@ -28489,7 +28489,7 @@ ways
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aCalledNoScript

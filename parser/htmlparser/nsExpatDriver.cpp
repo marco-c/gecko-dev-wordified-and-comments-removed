@@ -3860,7 +3860,7 @@ Expat
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 BlockedOrInterrupted
@@ -3880,7 +3880,7 @@ resuming
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 XML_GetCurrentByteIndex
 (

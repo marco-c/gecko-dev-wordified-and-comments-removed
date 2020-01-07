@@ -14121,7 +14121,7 @@ uint32_t
 aFillCount
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFillCount
 <
@@ -14206,7 +14206,7 @@ uint32_t
 aFillCount
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFillCount
 <

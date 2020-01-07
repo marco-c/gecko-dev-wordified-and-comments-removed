@@ -6725,7 +6725,7 @@ nsISupports
 aCtxt
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 request
 "
@@ -9788,7 +9788,7 @@ mCanceled
 return
 NS_OK
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewFileLocation
 "
@@ -10538,7 +10538,7 @@ nsIMIMEInfo
 _retval
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aMIMEType

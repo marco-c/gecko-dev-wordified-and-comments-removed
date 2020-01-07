@@ -4440,7 +4440,7 @@ nsAString
 aClasses
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRootNode
 "

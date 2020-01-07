@@ -414,7 +414,7 @@ X11None
 #
 endif
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 cairo_surface_status
 (

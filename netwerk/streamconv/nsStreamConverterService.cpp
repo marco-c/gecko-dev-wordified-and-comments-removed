@@ -2306,7 +2306,7 @@ nsStreamConverterService
 aStreamConv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStreamConv
 !

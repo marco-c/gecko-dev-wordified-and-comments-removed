@@ -124,7 +124,7 @@ nsIPresShell
 aPresShell
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 this
 !
@@ -224,7 +224,7 @@ PostFrameDestroyData
 aPostDestroyData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestructRoot
 "
@@ -271,7 +271,7 @@ nsIFrame
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mFirstChild
@@ -307,7 +307,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -319,7 +319,7 @@ ptr
 #
 ifdef
 DEBUG_FRAME_LIST
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ContainsFrame
 (
@@ -473,7 +473,7 @@ return
 result
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NotEmpty
 (
@@ -490,7 +490,7 @@ list
 #
 ifdef
 DEBUG_FRAME_LIST
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ContainsFrame
 (
@@ -589,7 +589,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -631,7 +631,7 @@ nsFrameList
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrameList
 .
@@ -862,7 +862,7 @@ FrameLinkEnumerator
 aLink
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 &
 aLink
@@ -879,7 +879,7 @@ list
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aLink
@@ -914,7 +914,7 @@ PrevFrame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLink
 .
@@ -941,7 +941,7 @@ NextFrame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aLink
@@ -969,7 +969,7 @@ NextFrame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLink
 .
@@ -1065,7 +1065,7 @@ FrameLinkEnumerator
 aLink
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 &
 aLink
@@ -1082,7 +1082,7 @@ list
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aLink
@@ -1117,7 +1117,7 @@ PrevFrame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLink
 .
@@ -1144,7 +1144,7 @@ NextFrame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aLink
@@ -1172,7 +1172,7 @@ NextFrame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLink
 .
@@ -1301,7 +1301,7 @@ aIndex
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIndex
 >
@@ -1426,7 +1426,7 @@ aFrame
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

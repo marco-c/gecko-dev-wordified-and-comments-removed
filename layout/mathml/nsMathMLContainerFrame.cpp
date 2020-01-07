@@ -650,7 +650,7 @@ eMathMLFrameType
 aMathMLFrameType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

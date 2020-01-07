@@ -2848,7 +2848,7 @@ bool
 aIsFluid
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewFrame
 "
@@ -2858,7 +2858,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -8389,7 +8389,7 @@ int32_t
 aEnd
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewFrame
 "
@@ -8399,7 +8399,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

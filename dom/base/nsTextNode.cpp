@@ -1012,7 +1012,7 @@ nsIContent
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNodeInfoManager
 "
@@ -1021,7 +1021,7 @@ nodeInfoManager
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttrName
 "
@@ -1033,7 +1033,7 @@ name
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNameSpaceID
 !
@@ -1119,7 +1119,7 @@ bool
 aCompileEventHandlers
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 &

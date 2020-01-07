@@ -53,7 +53,7 @@ aSrc
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDest
 .
@@ -70,7 +70,7 @@ types
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSrc
 .
@@ -122,7 +122,7 @@ aRight
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLeft
 .
@@ -139,7 +139,7 @@ types
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLeft
 .

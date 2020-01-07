@@ -178,7 +178,7 @@ nsAString
 aValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPropID
 !

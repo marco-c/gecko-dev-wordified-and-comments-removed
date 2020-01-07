@@ -575,7 +575,7 @@ nsresult
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPropertyName
 &
@@ -703,7 +703,7 @@ bool
 aTransfer
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPropertyName
 &
@@ -919,7 +919,7 @@ nsAtom
 aPropertyName
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPropertyName
 &

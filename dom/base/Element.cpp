@@ -7148,7 +7148,7 @@ bool
 aCompileEventHandlers
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 |
@@ -7165,7 +7165,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 NODE_FROM
@@ -7194,7 +7194,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aParent
@@ -7220,7 +7220,7 @@ aParent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetUncomposedDoc
@@ -7238,7 +7238,7 @@ first
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetParent
@@ -7264,7 +7264,7 @@ first
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetBindingParent
@@ -7313,7 +7313,7 @@ first
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBindingParent
 !
@@ -7331,7 +7331,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsRootOfNativeAnonymousSubtree
@@ -7361,7 +7361,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBindingParent
 |
@@ -8528,7 +8528,7 @@ bool
 aNullParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDeep
 |
@@ -10069,7 +10069,7 @@ nsEventStatus
 aStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTarget
 "
@@ -10079,7 +10079,7 @@ target
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEvent
 "
@@ -10090,7 +10090,7 @@ event
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStatus
 "
@@ -10190,7 +10190,7 @@ nsEventStatus
 aStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTarget
 "
@@ -10200,7 +10200,7 @@ target
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSourceEvent
 "
@@ -10211,7 +10211,7 @@ event
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStatus
 "
@@ -10540,7 +10540,7 @@ return
 NS_OK
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEventName
 "

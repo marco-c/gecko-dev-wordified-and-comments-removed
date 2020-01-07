@@ -1574,7 +1574,7 @@ this
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "

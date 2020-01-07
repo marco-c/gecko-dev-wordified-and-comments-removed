@@ -266,7 +266,7 @@ nsFramesetSpec
 aSpecs
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNumValues
 "
@@ -282,7 +282,7 @@ here
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSpecs
 "
@@ -445,7 +445,7 @@ nsFramesetSpec
 aSpecs
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNumValues
 "
@@ -461,7 +461,7 @@ here
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSpecs
 "

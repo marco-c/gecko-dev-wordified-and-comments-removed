@@ -201,7 +201,7 @@ nsAString
 aText
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsCompiled
@@ -267,7 +267,7 @@ nsAString
 aText
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsCompiled
@@ -357,7 +357,7 @@ uint32_t
 aLineNumber
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsCompiled
@@ -431,7 +431,7 @@ JSObject
 aTargetClassObject
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsCompiled
 (
@@ -641,7 +641,7 @@ AssertInCompilationScope
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsCompiled
@@ -659,7 +659,7 @@ method
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aClassObject
 "
@@ -1230,7 +1230,7 @@ IsElement
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsCompiled
 (

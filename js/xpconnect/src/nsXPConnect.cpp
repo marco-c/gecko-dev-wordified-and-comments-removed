@@ -3134,7 +3134,7 @@ nsIVariant
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 "
@@ -4228,7 +4228,7 @@ MutableHandleValue
 _retval
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ctx
 "
@@ -4237,7 +4237,7 @@ param
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 scopeArg
 "
@@ -4246,7 +4246,7 @@ param
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 value
 "
@@ -4329,7 +4329,7 @@ nsIVariant
 _retval
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ctx
 "
@@ -4338,7 +4338,7 @@ param
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 _retval
 "

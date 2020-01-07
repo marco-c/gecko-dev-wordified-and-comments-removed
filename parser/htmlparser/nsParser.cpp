@@ -898,7 +898,7 @@ nsIContentSink
 aSink
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSink
 "
@@ -2040,7 +2040,7 @@ nsDTDMode
 aMode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURL
 "
@@ -3531,7 +3531,7 @@ nsISupports
 aContext
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 eNone
 =
@@ -4593,7 +4593,7 @@ uint32_t
 aLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 eOnStart
@@ -4629,7 +4629,7 @@ OnDataAvailable
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NS_InputStreamIsBuffered
 (

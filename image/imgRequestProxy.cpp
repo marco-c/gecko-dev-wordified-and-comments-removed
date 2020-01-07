@@ -519,7 +519,7 @@ imgRequestProxy
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mListener
@@ -626,7 +626,7 @@ imgINotificationObserver
 aObserver
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetOwner
@@ -733,7 +733,7 @@ imgRequest
 aNewOwner
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetOwner
 (
@@ -2910,7 +2910,7 @@ imgRequestProxy
 aClone
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aClone
 "
@@ -4011,7 +4011,7 @@ mListenerIsStrongRef
 aLastPart
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mListener
 "

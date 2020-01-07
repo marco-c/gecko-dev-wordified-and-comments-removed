@@ -1749,7 +1749,7 @@ SavedState
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "
@@ -1827,7 +1827,7 @@ SavedState
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 "

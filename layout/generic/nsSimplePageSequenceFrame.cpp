@@ -619,7 +619,7 @@ MarkInReflow
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPresContext
 -

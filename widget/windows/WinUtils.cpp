@@ -3372,7 +3372,7 @@ DWORD
 aBufferLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aKeyName
 "
@@ -5686,7 +5686,7 @@ Run
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 NS_IsMainThread

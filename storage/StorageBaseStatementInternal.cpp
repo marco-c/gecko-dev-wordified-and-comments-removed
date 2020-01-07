@@ -193,7 +193,7 @@ mAsyncStatement
 aStatement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aConnection
 "

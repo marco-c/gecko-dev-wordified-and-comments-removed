@@ -319,7 +319,7 @@ Element
 aElement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 !
@@ -339,7 +339,7 @@ aDocument
 return
 NS_ERROR_NULL_POINTER
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 !

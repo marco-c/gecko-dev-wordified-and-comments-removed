@@ -1319,7 +1319,7 @@ aInstancePtr
 \
 {
 \
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aInstancePtr
 "

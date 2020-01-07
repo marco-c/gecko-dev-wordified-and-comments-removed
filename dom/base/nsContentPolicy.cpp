@@ -394,7 +394,7 @@ requestingLocation
 )
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 decision
 "
@@ -1032,7 +1032,7 @@ int16_t
 decision
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 contentLocation
 "

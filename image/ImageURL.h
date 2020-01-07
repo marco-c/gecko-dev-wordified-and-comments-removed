@@ -272,7 +272,7 @@ bool
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 scheme
 "
@@ -282,7 +282,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 result
 "

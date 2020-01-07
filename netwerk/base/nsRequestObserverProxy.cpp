@@ -110,7 +110,7 @@ mRequest
 request
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRequest
 "
@@ -153,7 +153,7 @@ mProxy
 proxy
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mProxy
 "
@@ -367,7 +367,7 @@ mProxy
 proxy
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mProxy
 "

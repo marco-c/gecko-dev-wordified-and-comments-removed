@@ -2958,7 +2958,7 @@ GetStringValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -3062,7 +3062,7 @@ aRealTag
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -3264,7 +3264,7 @@ aIndex
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIndex
 >
@@ -3279,7 +3279,7 @@ negative
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetAtomCount
 (
@@ -5946,7 +5946,7 @@ if
 aDefaultValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTable
 <
@@ -6150,7 +6150,7 @@ int32_t
 aMax
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aMin
 <

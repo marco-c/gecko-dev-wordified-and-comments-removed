@@ -104,7 +104,7 @@ mVisitsAvailable
 false
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mURI
 "
@@ -177,7 +177,7 @@ mVisitsAvailable
 true
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mURI
 "

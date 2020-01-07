@@ -330,7 +330,7 @@ nsIDocument
 aExecutorDoc
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCurrentDoc
 "
@@ -342,7 +342,7 @@ doc
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aExecutorDoc
 "
@@ -587,7 +587,7 @@ nsHtml5DocumentBuilder
 aBuilder
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTextNode
 "

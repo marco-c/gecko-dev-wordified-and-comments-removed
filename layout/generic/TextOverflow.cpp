@@ -350,7 +350,7 @@ LayoutFrameType
 aFrameType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 nsLayoutUtils
@@ -376,7 +376,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrameType
 !
@@ -476,7 +476,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nsLayoutUtils
 :

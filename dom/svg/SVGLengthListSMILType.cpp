@@ -126,7 +126,7 @@ aValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aValue
 .
@@ -192,7 +192,7 @@ aSrc
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDest
 .
@@ -209,7 +209,7 @@ types
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDest
 .
@@ -288,7 +288,7 @@ aRight
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLeft
 .
@@ -305,7 +305,7 @@ types
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLeft
 .
@@ -373,7 +373,7 @@ aCount
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDest
 .
@@ -388,7 +388,7 @@ type
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aValueToAdd
 .
@@ -868,7 +868,7 @@ aDistance
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrom
 .
@@ -883,7 +883,7 @@ type
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTo
 .
@@ -1314,7 +1314,7 @@ aResult
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStartVal
 .
@@ -1333,7 +1333,7 @@ types
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStartVal
 .
@@ -1349,7 +1349,7 @@ interpolation
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 .

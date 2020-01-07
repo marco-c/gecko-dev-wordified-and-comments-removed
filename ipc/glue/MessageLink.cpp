@@ -237,7 +237,7 @@ AssertWorkerThread
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTransport
 "
@@ -284,7 +284,7 @@ aSide
 }
 else
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSide
 =

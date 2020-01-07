@@ -402,7 +402,7 @@ CharacterData
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsInUncomposedDoc
@@ -1158,7 +1158,7 @@ Details
 aDetails
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 |
@@ -2100,7 +2100,7 @@ bool
 aCompileEventHandlers
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 |
@@ -2117,7 +2117,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NODE_FROM
 (
@@ -2144,7 +2144,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aParent
@@ -2170,7 +2170,7 @@ aParent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetUncomposedDoc
@@ -2194,7 +2194,7 @@ first
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetParent
@@ -2220,7 +2220,7 @@ first
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetBindingParent
@@ -2269,7 +2269,7 @@ first
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBindingParent
 !
@@ -2287,7 +2287,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsRootOfNativeAnonymousSubtree

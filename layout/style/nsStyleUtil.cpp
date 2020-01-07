@@ -371,7 +371,7 @@ char16_t
 quoteChar
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 quoteChar
 =
@@ -1918,7 +1918,7 @@ normal
 return
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 unit
 =
@@ -2109,7 +2109,7 @@ normal
 return
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 unit
 =
@@ -2822,7 +2822,7 @@ nsAString
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aValue
 .
@@ -3049,7 +3049,7 @@ nsAString
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aValue
 .

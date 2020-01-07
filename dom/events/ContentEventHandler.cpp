@@ -2034,7 +2034,7 @@ WidgetQueryContentEvent
 aEvent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "
@@ -12545,7 +12545,7 @@ aEvent
 mWidget
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEvent
 -

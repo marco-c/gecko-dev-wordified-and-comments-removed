@@ -10827,7 +10827,7 @@ NS_ENSURE_ARG_POINTER
 unknownOther
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 result
 "
@@ -11321,7 +11321,7 @@ bool
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 result
 "
@@ -15393,7 +15393,7 @@ EnsureFile
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mSupportsFileURL
 "
@@ -15494,7 +15494,7 @@ nsIFile
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mSupportsFileURL
 "
@@ -16098,7 +16098,7 @@ nsIObjectInputStream
 stream
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDisplayHost
 .
@@ -17494,7 +17494,7 @@ URIParams
 aParams
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDisplayHost
 .
@@ -17512,7 +17512,7 @@ host
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mFile
