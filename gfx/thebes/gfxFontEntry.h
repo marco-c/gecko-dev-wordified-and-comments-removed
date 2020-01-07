@@ -1442,6 +1442,12 @@ gfxFontFeature
 >
 mFeatureSettings
 ;
+nsTArray
+<
+gfxFontVariation
+>
+mVariationSettings
+;
 mozilla
 :
 :

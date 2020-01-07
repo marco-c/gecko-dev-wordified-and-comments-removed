@@ -161,6 +161,13 @@ gfxFontFeature
 >
 &
 aFeatureSettings
+const
+nsTArray
+<
+gfxFontVariation
+>
+&
+aVariationSettings
 uint32_t
 aLanguageOverride
 gfxCharacterMap
@@ -178,6 +185,7 @@ aWeight
 aStretch
 aStyle
 aFeatureSettings
+aVariationSettings
 aLanguageOverride
 aUnicodeRanges
 aFontDisplay
