@@ -2367,7 +2367,7 @@ aForceStyleReparent
 aRestyleManager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 aFrame
 )
@@ -44333,7 +44333,7 @@ aFrameItems
 restyleManager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 f
 )

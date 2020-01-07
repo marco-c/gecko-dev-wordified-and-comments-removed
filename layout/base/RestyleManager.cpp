@@ -12206,7 +12206,7 @@ PrincipalChildList
 )
 )
 {
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 kid
 )
@@ -14053,11 +14053,11 @@ true
 ;
 }
 }
-nsresult
+void
 RestyleManager
 :
 :
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 nsIFrame
 *
@@ -14121,7 +14121,7 @@ frame
 }
 #
 endif
-DoReparentComputedStyle
+DoReparentComputedStyleForFirstLine
 (
 aFrame
 *
@@ -14130,15 +14130,12 @@ StyleSet
 )
 )
 ;
-return
-NS_OK
-;
 }
 void
 RestyleManager
 :
 :
-DoReparentComputedStyle
+DoReparentComputedStyleForFirstLine
 (
 nsIFrame
 *
@@ -14212,7 +14209,7 @@ GetNextContinuation
 )
 )
 {
-DoReparentComputedStyle
+DoReparentComputedStyleForFirstLine
 (
 outOfFlow
 aStyleSet
@@ -14264,7 +14261,7 @@ if
 isChild
 )
 {
-DoReparentComputedStyle
+DoReparentComputedStyleForFirstLine
 (
 providerFrame
 aStyleSet
@@ -14764,7 +14761,7 @@ child
 aProviderChild
 )
 {
-DoReparentComputedStyle
+DoReparentComputedStyleForFirstLine
 (
 child
 aStyleSet

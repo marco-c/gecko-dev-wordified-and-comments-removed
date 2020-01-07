@@ -1301,7 +1301,7 @@ parentage
 restyleManager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 e
 .
@@ -1950,7 +1950,7 @@ doReparentSC
 restyleManager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 f
 )
@@ -2433,7 +2433,7 @@ inFirstLine
 restyleManager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 child
 )
@@ -2652,7 +2652,7 @@ inFirstLine
 restyleManager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 nextInFlow
 )
@@ -4713,7 +4713,7 @@ RestyleManager
 )
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 frame
 )
