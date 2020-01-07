@@ -314,6 +314,7 @@ specified_value_info
 :
 {
 CssType
+KeywordsCollectFn
 SpecifiedValueInfo
 }
 ;
