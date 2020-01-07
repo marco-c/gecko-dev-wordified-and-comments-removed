@@ -1186,6 +1186,8 @@ borrow
 )
 .
 selection_direction
+(
+)
 }
 fn
 set_range
