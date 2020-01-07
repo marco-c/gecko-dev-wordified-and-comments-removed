@@ -104,6 +104,9 @@ interface
 nsIFile
 ;
 interface
+nsIURI
+;
+interface
 mozIPersonalDictionary
 ;
 [
@@ -484,7 +487,7 @@ language
 code
 and
 file
-path
+URI
 .
 *
 /
@@ -495,8 +498,8 @@ in
 AString
 lang
 in
-nsIFile
-dir
+nsIURI
+file
 )
 ;
 /
@@ -546,8 +549,8 @@ in
 AString
 lang
 in
-nsIFile
-dir
+nsIURI
+file
 )
 ;
 }

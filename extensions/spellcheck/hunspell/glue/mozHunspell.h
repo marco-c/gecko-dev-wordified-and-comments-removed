@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Encoding
@@ -234,7 +241,7 @@ mDecoder
 nsInterfaceHashtable
 <
 nsStringHashKey
-nsIFile
+nsIURI
 >
 mDictionaries
 ;
@@ -256,7 +263,7 @@ mDynamicDirectories
 nsInterfaceHashtable
 <
 nsStringHashKey
-nsIFile
+nsIURI
 >
 mDynamicDictionaries
 ;
