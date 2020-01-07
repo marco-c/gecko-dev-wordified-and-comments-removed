@@ -32,13 +32,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h

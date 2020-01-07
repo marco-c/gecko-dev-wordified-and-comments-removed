@@ -2318,7 +2318,7 @@ aInputSourceArg
 input
 source
 see
-nsIDOMMouseEvent
+MouseEvent
 for
 values
 *

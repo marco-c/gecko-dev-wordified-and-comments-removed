@@ -3292,14 +3292,7 @@ false
 return
 ModifiersMatchMask
 (
-static_cast
-<
-nsIDOMMouseEvent
-*
->
-(
 aMouseEvent
-)
 IgnoreModifierState
 (
 )

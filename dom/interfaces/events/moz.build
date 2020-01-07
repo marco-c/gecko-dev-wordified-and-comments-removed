@@ -131,11 +131,6 @@ nsIDOMEventTarget
 idl
 '
 '
-nsIDOMMouseEvent
-.
-idl
-'
-'
 nsIDOMNotifyPaintEvent
 .
 idl

@@ -552,13 +552,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

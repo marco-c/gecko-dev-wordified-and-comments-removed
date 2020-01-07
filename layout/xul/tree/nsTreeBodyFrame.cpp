@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsIDOMMouseEvent
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

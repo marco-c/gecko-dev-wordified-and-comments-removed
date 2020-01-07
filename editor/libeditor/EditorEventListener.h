@@ -67,9 +67,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMMouseEvent
-;
-class
 nsIPresShell
 ;
 class
@@ -245,7 +242,10 @@ virtual
 nsresult
 MouseClick
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )
@@ -375,7 +375,10 @@ aKeyboardEvent
 nsresult
 HandleMiddleClickPaste
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )
