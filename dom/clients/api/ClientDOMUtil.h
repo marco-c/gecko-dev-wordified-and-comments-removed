@@ -113,7 +113,7 @@ GetCurrentThreadWorkerPrivate
 WorkerStatus
 :
 :
-Terminating
+Closing
 )
 ;
 }
