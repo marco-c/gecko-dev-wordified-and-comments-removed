@@ -86,13 +86,6 @@ layers
 {
 static
 const
-uint32_t
-MAX_TAP_TIME
-=
-300
-;
-static
-const
 float
 PINCH_START_THRESHOLD
 =
@@ -2645,7 +2638,12 @@ task
 forget
 (
 )
-MAX_TAP_TIME
+gfxPrefs
+:
+:
+APZMaxTapTime
+(
+)
 )
 ;
 }
