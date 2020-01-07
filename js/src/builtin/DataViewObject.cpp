@@ -79,9 +79,6 @@ Conversions
 h
 "
 #
-ifdef
-XP_WIN
-#
 include
 "
 util
@@ -90,8 +87,6 @@ Windows
 .
 h
 "
-#
-endif
 #
 include
 "

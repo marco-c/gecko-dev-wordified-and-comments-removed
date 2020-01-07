@@ -63,9 +63,6 @@ LifoAlloc
 h
 "
 #
-ifdef
-XP_WIN32
-#
 include
 "
 util
@@ -74,8 +71,6 @@ Windows
 .
 h
 "
-#
-endif
 #
 include
 "
