@@ -107,7 +107,7 @@ MOZ_ASSERT
 pseudoStack_
 -
 >
-entries
+frames
 [
 sp
 -
@@ -125,7 +125,7 @@ script
 pseudoStack_
 -
 >
-entries
+frames
 [
 sp
 -
@@ -338,7 +338,7 @@ const
 char
 *
 label
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category

@@ -83,7 +83,7 @@ namespace
 js
 {
 class
-ProfileEntry
+ProfilingStackFrame
 {
 mozilla
 :
@@ -169,19 +169,19 @@ aPc
 ;
 public
 :
-ProfileEntry
+ProfilingStackFrame
 (
 )
 =
 default
 ;
-ProfileEntry
+ProfilingStackFrame
 &
 operator
 =
 (
 const
-ProfileEntry
+ProfilingStackFrame
 &
 other
 )
@@ -580,7 +580,7 @@ SP_MARKER
 |
 uint32_t
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -935,7 +935,7 @@ line
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -951,7 +951,7 @@ if
 (
 MOZ_LIKELY
 (
-entryCapacity
+capacity
 >
 oldStackPointer
 )
@@ -964,7 +964,7 @@ ensureCapacitySlow
 )
 )
 )
-entries
+frames
 [
 oldStackPointer
 ]
@@ -1002,7 +1002,7 @@ if
 (
 MOZ_LIKELY
 (
-entryCapacity
+capacity
 >
 oldStackPointer
 )
@@ -1015,7 +1015,7 @@ ensureCapacitySlow
 )
 )
 )
-entries
+frames
 [
 oldStackPointer
 ]
@@ -1060,7 +1060,7 @@ if
 (
 MOZ_LIKELY
 (
-entryCapacity
+capacity
 >
 oldStackPointer
 )
@@ -1073,7 +1073,7 @@ ensureCapacitySlow
 )
 )
 )
-entries
+frames
 [
 oldStackPointer
 ]
@@ -1146,7 +1146,7 @@ stackCapacity
 const
 {
 return
-entryCapacity
+capacity
 ;
 }
 private
@@ -1199,7 +1199,7 @@ PseudoStack
 delete
 ;
 uint32_t
-entryCapacity
+capacity
 =
 0
 ;
@@ -1213,10 +1213,10 @@ Atomic
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 *
 >
-entries
+frames
 {
 nullptr
 }
@@ -1292,7 +1292,7 @@ pseudoStack_
 stackPointer
 ;
 }
-ProfileEntry
+ProfilingStackFrame
 *
 stack
 (
@@ -1302,7 +1302,7 @@ return
 pseudoStack_
 -
 >
-entries
+frames
 ;
 }
 PseudoStack

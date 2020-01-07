@@ -1318,15 +1318,15 @@ aLabel
 ;
 virtual
 void
-CollectPseudoEntry
+CollectProfilingStackFrame
 (
 const
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 &
-aEntry
+aFrame
 )
 =
 0
@@ -1426,7 +1426,7 @@ __LINE__
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -1456,7 +1456,7 @@ __LINE__
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -1525,7 +1525,7 @@ __LINE__
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -1597,7 +1597,7 @@ __LINE__
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -1631,7 +1631,7 @@ __LINE__
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -2117,7 +2117,7 @@ aLine
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -2159,7 +2159,7 @@ aLine
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -2219,7 +2219,7 @@ aLine
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category

@@ -662,7 +662,7 @@ __LINE__
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category

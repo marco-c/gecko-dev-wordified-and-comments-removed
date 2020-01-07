@@ -362,13 +362,13 @@ const
 char
 *
 label
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
 category
 =
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
