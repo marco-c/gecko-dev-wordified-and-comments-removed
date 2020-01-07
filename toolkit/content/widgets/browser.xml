@@ -135,11 +135,6 @@ xul
 :
 browser
 "
-role
-=
-"
-outerdoc
-"
 >
 <
 content
