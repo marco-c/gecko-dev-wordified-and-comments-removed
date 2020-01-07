@@ -1006,6 +1006,11 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 define
 LIFO_CHUNK_PROTECT
 1
+#
+endif
+#
+ifdef
+LIFO_CHUNK_PROTECT
 const
 uintptr_t
 protect_
