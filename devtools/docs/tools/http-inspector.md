@@ -142,6 +142,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 directory
 .
@@ -225,6 +227,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 components
@@ -290,6 +294,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 net
 /
@@ -365,6 +371,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 components
@@ -434,6 +442,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 components
@@ -465,6 +475,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 net
 /
@@ -633,6 +645,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 utils
@@ -653,6 +667,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 net
 /
@@ -676,6 +692,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 net
 /
@@ -760,6 +778,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 components
@@ -832,6 +852,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 main
@@ -897,6 +919,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 net
 /
@@ -1033,6 +1057,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 data
@@ -1061,6 +1087,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 net
 /

@@ -1159,6 +1159,8 @@ client
 /
 webconsole
 /
+old
+/
 net
 /
 *
@@ -1188,6 +1190,8 @@ client
 /
 webconsole
 /
+old
+/
 test
 /
 *
@@ -1197,6 +1201,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 webconsole
 .
