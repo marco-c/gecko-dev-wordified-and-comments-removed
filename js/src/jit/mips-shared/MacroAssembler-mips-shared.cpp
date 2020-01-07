@@ -18,6 +18,15 @@ h
 #
 include
 "
+mozilla
+/
+EndianUtils
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
