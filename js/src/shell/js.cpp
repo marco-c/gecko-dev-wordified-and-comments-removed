@@ -1499,6 +1499,13 @@ get
 )
 )
 {
+job
+-
+>
+cancel
+(
+)
+;
 JS_ReportErrorASCII
 (
 cx
