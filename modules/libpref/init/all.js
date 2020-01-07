@@ -1025,6 +1025,11 @@ keep
 google
 .
 com
+inbox
+.
+google
+.
+com
 *
 .
 etherpad
