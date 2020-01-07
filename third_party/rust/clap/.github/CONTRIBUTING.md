@@ -290,7 +290,11 @@ github
 .
 com
 /
-Manishearth
+rust
+-
+lang
+-
+nursery
 /
 rust
 -

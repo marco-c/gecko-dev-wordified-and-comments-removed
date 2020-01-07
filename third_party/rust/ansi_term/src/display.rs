@@ -165,10 +165,6 @@ style
 self
 .
 style
-.
-clone
-(
-)
 string
 :
 self

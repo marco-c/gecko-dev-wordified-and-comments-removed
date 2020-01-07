@@ -1,13 +1,6 @@
 mod
 settings
 ;
-#
-[
-macro_use
-]
-mod
-macros
-;
 pub
 mod
 parser

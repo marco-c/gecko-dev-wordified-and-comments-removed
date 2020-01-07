@@ -357,6 +357,14 @@ CONTAINS_LAST
 <
 39
 ;
+const
+ARGS_OVERRIDE_SELF
+=
+1
+<
+<
+40
+;
 }
 }
 #
@@ -522,6 +530,13 @@ Flags
 :
 :
 ARGS_NEGATE_SCS
+AllArgsOverrideSelf
+=
+>
+Flags
+:
+:
+ARGS_OVERRIDE_SELF
 AllowExternalSubcommands
 =
 >
@@ -831,6 +846,7 @@ doc
 )
 ]
 AllowInvalidUtf8
+AllArgsOverrideSelf
 AllowLeadingHyphen
 AllowNegativeNumbers
 AllowMissingPositional
