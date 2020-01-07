@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIXPConnect
 .
 h

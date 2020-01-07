@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsGlobalWindow
 .
 h

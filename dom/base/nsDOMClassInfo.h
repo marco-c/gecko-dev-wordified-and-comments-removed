@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIXPCScriptable
 .
 h
