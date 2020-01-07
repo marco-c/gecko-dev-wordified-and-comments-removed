@@ -819,7 +819,9 @@ f
 "
 >
 >
+"
 filev2
+"
 if
 [
 !
@@ -848,7 +850,9 @@ f
 "
 >
 >
+"
 filev3
+"
 fi
 else
 notice
@@ -872,7 +876,9 @@ f
 "
 >
 >
+"
 filev2
+"
 if
 [
 !
@@ -894,7 +900,9 @@ f
 "
 >
 >
+"
 filev3
+"
 fi
 fi
 }
@@ -1235,7 +1243,9 @@ f
 "
 >
 >
+"
 filev2
+"
 echo
 "
 patch
@@ -1261,7 +1271,9 @@ f
 "
 >
 >
+"
 filev3
+"
 else
 notice
 "
@@ -1297,7 +1309,9 @@ f
 "
 >
 >
+"
 filev2
+"
 echo
 "
 patch
@@ -1316,7 +1330,9 @@ f
 "
 >
 >
+"
 filev3
+"
 fi
 }
 append_remove_instructions
@@ -1593,7 +1609,9 @@ f
 "
 >
 >
+"
 filev2
+"
 echo
 "
 rmdir
@@ -1605,7 +1623,9 @@ f
 "
 >
 >
+"
 filev3
+"
 elif
 [
 (
@@ -1673,7 +1693,9 @@ f
 "
 >
 >
+"
 filev2
+"
 echo
 "
 rmrfdir
@@ -1685,7 +1707,9 @@ f
 "
 >
 >
+"
 filev3
+"
 else
 notice
 "
@@ -1707,7 +1731,9 @@ f
 "
 >
 >
+"
 filev2
+"
 echo
 "
 remove
@@ -1719,7 +1745,9 @@ f
 "
 >
 >
+"
 filev3
+"
 fi
 fi
 fi

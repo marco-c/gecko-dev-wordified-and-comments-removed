@@ -1829,9 +1829,11 @@ printconfigsetting
 .
 py
 \
+'
 (
 STAGEDIST
 )
+'
 /
 application
 .
@@ -1855,9 +1857,11 @@ printconfigsetting
 .
 py
 \
+'
 (
 STAGEDIST
 )
+'
 /
 application
 .
