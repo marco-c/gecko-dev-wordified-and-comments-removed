@@ -166,7 +166,7 @@ bitmap
 )
 ;
 void
-updateZoneBitmap
+refineZoneBitmapForCollectedZone
 (
 Zone
 *
@@ -178,7 +178,7 @@ bitmap
 )
 ;
 void
-updateChunkMarkBits
+markAtomsUsedByUncollectedZones
 (
 JSRuntime
 *

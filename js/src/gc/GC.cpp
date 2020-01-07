@@ -25904,7 +25904,7 @@ gc
 .
 atomMarking
 .
-updateZoneBitmap
+refineZoneBitmapForCollectedZone
 (
 zone
 marked
@@ -25921,7 +25921,7 @@ gc
 .
 atomMarking
 .
-updateChunkMarkBits
+markAtomsUsedByUncollectedZones
 (
 runtime
 )

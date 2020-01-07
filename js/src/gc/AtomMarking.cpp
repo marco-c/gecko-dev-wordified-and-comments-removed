@@ -352,7 +352,7 @@ void
 AtomMarkingRuntime
 :
 :
-updateZoneBitmap
+refineZoneBitmapForCollectedZone
 (
 Zone
 *
@@ -363,6 +363,16 @@ DenseBitmap
 bitmap
 )
 {
+MOZ_ASSERT
+(
+zone
+-
+>
+isCollectingFromAnyThread
+(
+)
+)
+;
 if
 (
 zone
@@ -394,7 +404,7 @@ Bitmap
 >
 static
 void
-AddBitmapToChunkMarkBits
+BitwiseOrIntoChunkMarkBits
 (
 JSRuntime
 *
@@ -515,7 +525,7 @@ void
 AtomMarkingRuntime
 :
 :
-updateChunkMarkBits
+markAtomsUsedByUncollectedZones
 (
 JSRuntime
 *
@@ -599,7 +609,7 @@ markedUnion
 )
 ;
 }
-AddBitmapToChunkMarkBits
+BitwiseOrIntoChunkMarkBits
 (
 runtime
 markedUnion
@@ -641,7 +651,7 @@ isCollectingFromAnyThread
 (
 )
 )
-AddBitmapToChunkMarkBits
+BitwiseOrIntoChunkMarkBits
 (
 runtime
 zone
