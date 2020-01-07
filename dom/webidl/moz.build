@@ -5631,11 +5631,6 @@ WEBIDL_FILES
 =
 [
 '
-DataChannel
-.
-webidl
-'
-'
 PeerConnectionImpl
 .
 webidl
@@ -5662,6 +5657,11 @@ webidl
 '
 '
 RTCConfiguration
+.
+webidl
+'
+'
+RTCDataChannel
 .
 webidl
 '
