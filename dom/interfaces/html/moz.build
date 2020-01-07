@@ -124,11 +124,6 @@ nsIDOMMozBrowserFrame
 idl
 '
 '
-nsIDOMTimeRanges
-.
-idl
-'
-'
 nsIMozBrowserFrame
 .
 idl

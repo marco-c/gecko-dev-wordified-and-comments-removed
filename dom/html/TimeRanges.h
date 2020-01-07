@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMTimeRanges
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -73,7 +66,7 @@ TimeRanges
 final
 :
 public
-nsIDOMTimeRanges
+nsISupports
 public
 nsWrapperCache
 {
@@ -84,7 +77,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 TimeRanges
 )
-NS_DECL_NSIDOMTIMERANGES
 TimeRanges
 (
 )
