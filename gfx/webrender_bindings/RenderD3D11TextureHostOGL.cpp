@@ -1097,7 +1097,7 @@ mStream
 egl
 -
 >
-fStreamConsumerReleaseKHR
+fDestroyStreamKHR
 (
 egl
 -
@@ -2257,7 +2257,7 @@ i
 egl
 -
 >
-fStreamConsumerReleaseKHR
+fDestroyStreamKHR
 (
 egl
 -
