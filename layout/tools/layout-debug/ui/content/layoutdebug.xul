@@ -429,6 +429,11 @@ main
 -
 menubar
 "
+grippyhidden
+=
+"
+true
+"
 >
 <
 menu
@@ -1353,6 +1358,11 @@ menubar
 >
 <
 toolbar
+grippyhidden
+=
+"
+true
+"
 >
 <
 toolbarbutton
