@@ -3196,6 +3196,16 @@ prototype
 .
 toSyncBookmark
 ;
+this
+.
+cleartextToString
+=
+constructor
+.
+prototype
+.
+cleartextToString
+;
 }
 add_task
 (
