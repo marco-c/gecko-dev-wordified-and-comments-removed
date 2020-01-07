@@ -691,6 +691,11 @@ integer
 '
     
 assert
+callable
+(
+schema
+)
+or
 is_json
 (
 schema
@@ -2159,9 +2164,30 @@ context
 schema
 '
 :
+(
+                    
 action
 .
 schema
+(
+graph_config
+=
+graph_config
+)
+if
+callable
+(
+action
+.
+schema
+)
+                    
+else
+action
+.
+schema
+                
+)
                 
 '
 task
