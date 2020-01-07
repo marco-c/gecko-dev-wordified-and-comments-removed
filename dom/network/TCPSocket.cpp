@@ -2807,6 +2807,9 @@ mMultiplexStream
 )
 )
 ;
+nsresult
+rv
+=
 stream
 -
 >
@@ -2814,6 +2817,12 @@ Available
 (
 &
 available
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+0
 )
 ;
 return
