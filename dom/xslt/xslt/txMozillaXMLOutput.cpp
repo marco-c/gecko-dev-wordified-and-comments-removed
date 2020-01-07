@@ -4349,7 +4349,7 @@ nsIScriptElement
 *
 aElement
 bool
-aIsInline
+aIsInlineClassicScript
 nsIURI
 *
 aURI
