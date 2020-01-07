@@ -589,6 +589,11 @@ column
 -
 span
 "
+extra_prefixes
+=
+"
+moz
+"
 )
 }
 {
