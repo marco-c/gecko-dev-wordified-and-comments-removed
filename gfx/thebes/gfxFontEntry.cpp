@@ -4685,6 +4685,15 @@ HasVariationFontSupport
 |
 |
 !
+StaticPrefs
+:
+:
+layout_css_font_variations_enabled
+(
+)
+|
+|
+!
 HasVariations
 (
 )
