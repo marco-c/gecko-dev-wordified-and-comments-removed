@@ -111,7 +111,7 @@ GeckoBackgroundThread
 .
 class
 .
-notify
+notifyAll
 (
 )
 ;
