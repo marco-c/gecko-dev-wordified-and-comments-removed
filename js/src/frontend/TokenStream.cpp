@@ -7617,12 +7617,6 @@ true
 }
 do
 {
-int
-c
-;
-FirstCharKind
-c1kind
-;
 if
 (
 MOZ_UNLIKELY
@@ -7671,6 +7665,7 @@ return
 true
 ;
 }
+int
 c
 =
 sourceUnits
@@ -7980,6 +7975,7 @@ return
 false
 ;
 }
+FirstCharKind
 c1kind
 =
 FirstCharKind
