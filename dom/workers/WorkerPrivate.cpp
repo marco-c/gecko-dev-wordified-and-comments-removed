@@ -7626,9 +7626,10 @@ MOZ_DIAGNOSTIC_ASSERT
 aLoadGroupOut
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+NS_ENSURE_TRUE
 (
 mLoadingPrincipal
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 nsIScriptSecurityManager
