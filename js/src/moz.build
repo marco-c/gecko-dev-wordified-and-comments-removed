@@ -5932,6 +5932,15 @@ builtin
 /
 intl
 /
+PluralRules
+.
+js
+'
+'
+builtin
+/
+intl
+/
 RelativeTimeFormat
 .
 js
