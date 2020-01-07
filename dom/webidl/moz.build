@@ -2650,6 +2650,11 @@ AbortSignal
 webidl
 '
 '
+AboutCapabilities
+.
+webidl
+'
+'
 AbstractWorker
 .
 webidl
