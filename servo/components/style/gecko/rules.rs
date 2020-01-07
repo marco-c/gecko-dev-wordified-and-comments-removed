@@ -139,8 +139,6 @@ specified
 font
 :
 :
-FontStyle
-as
 SpecifiedFontStyle
 ;
 impl
