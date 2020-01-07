@@ -118,6 +118,10 @@ metadata
 .
 yml
 -
+jsshell
+.
+yml
+-
 mocha
 .
 yml

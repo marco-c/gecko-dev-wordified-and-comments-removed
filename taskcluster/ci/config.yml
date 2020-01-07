@@ -28,6 +28,17 @@ Cram
 tests
 '
 '
+js
+-
+bench
+'
+:
+'
+JavaScript
+shell
+benchmarks
+'
+'
 mocha
 '
 :
