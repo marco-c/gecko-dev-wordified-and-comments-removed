@@ -96,16 +96,6 @@ eTypeClassProto
 }
 mType
 ;
-bool
-mChromeOnly
-:
-1
-;
-bool
-mAllowXBL
-:
-1
-;
 union
 {
 int32_t
@@ -211,10 +201,6 @@ char
 aClassName
 int32_t
 aDOMClassInfoID
-bool
-aPrivileged
-bool
-aXBLAllowed
 const
 char16_t
 *
