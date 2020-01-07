@@ -2098,6 +2098,17 @@ bool
 aCanTriggerSwipe
 )
 ;
+nsEventStatus
+DispatchAPZInputEvent
+(
+mozilla
+:
+:
+InputData
+&
+aEvent
+)
+;
 void
 SwipeFinished
 (
