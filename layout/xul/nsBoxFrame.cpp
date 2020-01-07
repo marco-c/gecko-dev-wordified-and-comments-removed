@@ -5823,6 +5823,7 @@ aBuilder
 >
 AddWindowExcludeGlassRegion
 (
+this
 nsRect
 (
 aBuilder

@@ -10234,6 +10234,11 @@ RemoveModifiedFramesAndRects
 mRetainedWindowNoDraggingRegion
 )
 ;
+RemoveModifiedFramesAndRects
+(
+mWindowExcludeGlassRegion
+)
+;
 }
 void
 nsDisplayListBuilder
@@ -10250,6 +10255,12 @@ Clear
 )
 ;
 mRetainedWindowNoDraggingRegion
+.
+Clear
+(
+)
+;
+mWindowExcludeGlassRegion
 .
 Clear
 (
