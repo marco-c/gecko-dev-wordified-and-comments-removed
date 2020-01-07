@@ -260,8 +260,7 @@ test
 logging_enabled
 "
 ]
-callback
-interface
+namespace
 APZHitResultFlags
 {
 /
