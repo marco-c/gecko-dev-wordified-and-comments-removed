@@ -290,6 +290,15 @@ return
 false
 ;
 #
+if
+!
+MOZ_LITTLE_ENDIAN
+return
+false
+;
+#
+endif
+#
 ifdef
 ENABLE_WASM_THREAD_OPS
 if
