@@ -8487,13 +8487,6 @@ return
 mShapeImage
 ;
 }
-imgIRequest
-*
-GetShapeImageData
-(
-)
-const
-;
 void
 SetShapeImage
 (
