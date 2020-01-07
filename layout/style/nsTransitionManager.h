@@ -715,7 +715,9 @@ aPlaybackRate
 void
 MaybeQueueCancelEvent
 (
+const
 StickyTimeDuration
+&
 aActiveTime
 )
 override
@@ -773,7 +775,9 @@ override
 void
 QueueEvents
 (
+const
 StickyTimeDuration
+&
 activeTime
 =
 StickyTimeDuration
@@ -963,7 +967,9 @@ EventMessage
 aMessage
 nsCSSPropertyID
 aProperty
+const
 StickyTimeDuration
+&
 aElapsedTime
 const
 TimeStamp

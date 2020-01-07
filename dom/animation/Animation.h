@@ -1031,7 +1031,9 @@ virtual
 void
 MaybeQueueCancelEvent
 (
+const
 StickyTimeDuration
+&
 aActiveTime
 )
 {
