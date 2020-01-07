@@ -1169,6 +1169,13 @@ components
 dom_storage
 .
 xpt
+RESPATH
+/
+components
+/
+dom_webauthn
+.
+xpt
 #
 ifdef
 MOZ_WEBSPEECH

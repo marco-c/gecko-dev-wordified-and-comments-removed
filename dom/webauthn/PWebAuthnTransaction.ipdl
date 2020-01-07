@@ -250,6 +250,9 @@ WebAuthnExtensionResultAppId
 struct
 WebAuthnMakeCredentialInfo
 {
+nsString
+Origin
+;
 uint8_t
 [
 ]
@@ -276,6 +279,9 @@ Extensions
 WebAuthnAuthenticatorSelection
 AuthenticatorSelection
 ;
+bool
+RequestDirectAttestation
+;
 }
 ;
 struct
@@ -286,11 +292,17 @@ uint8_t
 ]
 RegBuffer
 ;
+bool
+DirectAttestationPermitted
+;
 }
 ;
 struct
 WebAuthnGetAssertionInfo
 {
+nsString
+Origin
+;
 uint8_t
 [
 ]

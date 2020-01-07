@@ -3411,6 +3411,11 @@ AppendSECItem
 signatureItem
 )
 ;
+bool
+directAttestationPermitted
+=
+false
+;
 WebAuthnMakeCredentialResult
 result
 (
@@ -3423,6 +3428,7 @@ uint8_t
 registrationBuf
 )
 )
+directAttestationPermitted
 )
 ;
 return

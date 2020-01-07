@@ -883,10 +883,16 @@ __func__
 return
 ;
 }
+bool
+directAttestationPermitted
+=
+false
+;
 WebAuthnMakeCredentialResult
 result
 (
 registration
+directAttestationPermitted
 )
 ;
 mRegisterPromise
