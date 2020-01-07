@@ -547,9 +547,7 @@ taskcluster
 /
 docker
 /
-desktop
--
-build
+recipes
 /
 dot
 -
@@ -561,9 +559,7 @@ taskcluster
 /
 docker
 /
-desktop
--
-build
+recipes
 /
 dot
 -
