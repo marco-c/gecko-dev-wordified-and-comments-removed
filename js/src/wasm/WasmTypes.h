@@ -6122,6 +6122,9 @@ tlsData
 js_free
 (
 tlsData
+-
+>
+allocatedBase
 )
 ;
 }
