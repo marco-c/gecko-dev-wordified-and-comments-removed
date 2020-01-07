@@ -172,6 +172,8 @@ on
 Mac
 OS
 :
+import
+tempfile
 from
 selenium
 import
