@@ -13548,7 +13548,7 @@ i
 4
 &
 &
-ISALPHA
+ISALNUM
 (
 s
 [

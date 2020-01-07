@@ -16,7 +16,7 @@ HarfBuzz
 .
 7
 .
-2
+3
 ]
 [
 https
@@ -3143,6 +3143,10 @@ FREETYPE_LIBS
 AC_CHECK_FUNCS
 (
 FT_Get_Var_Blend_Coordinates
+)
+AC_CHECK_FUNCS
+(
+FT_Set_Var_Blend_Coordinates
 )
 LIBS
 =

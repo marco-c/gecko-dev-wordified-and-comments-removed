@@ -43,7 +43,7 @@ Version
 .
 7
 .
-2
+3
 Requires
 :
 harfbuzz

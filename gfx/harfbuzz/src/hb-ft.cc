@@ -2983,6 +2983,9 @@ nullptr
 )
 ;
 }
+#
+ifdef
+HAVE_FT_SET_VAR_BLEND_COORDINATES
 unsigned
 int
 num_coords
@@ -3069,6 +3072,8 @@ ft_coords
 ;
 }
 }
+#
+endif
 ft_face
 -
 >
