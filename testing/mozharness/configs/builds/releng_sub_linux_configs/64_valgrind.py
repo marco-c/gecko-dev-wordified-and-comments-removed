@@ -213,13 +213,6 @@ git
 /
 bin
 :
-/
-tools
-/
-python27
-/
-bin
-:
 \
 /
 home
