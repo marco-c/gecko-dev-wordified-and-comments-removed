@@ -618,6 +618,7 @@ false
 ;
 #
 endif
+typename
 paramType
 :
 :
