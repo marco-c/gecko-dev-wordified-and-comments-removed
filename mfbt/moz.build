@@ -576,6 +576,11 @@ WeakPtr
 h
 '
 '
+WrappingOperations
+.
+h
+'
+'
 XorShift128PlusRNG
 .
 h
