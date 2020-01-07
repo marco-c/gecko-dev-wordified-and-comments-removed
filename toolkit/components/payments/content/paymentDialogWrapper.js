@@ -1872,6 +1872,15 @@ respondPayment
 showResponse
 )
 ;
+this
+.
+sendMessageToContent
+(
+"
+responseSent
+"
+)
+;
 }
 async
 onChangeShippingAddress
