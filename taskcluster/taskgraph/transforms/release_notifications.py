@@ -440,7 +440,7 @@ email_dest
 .
 on
 -
-any
+success
 '
 ]
             
@@ -626,7 +626,7 @@ email
 ]
 [
 '
-message
+content
 '
 ]
 =
