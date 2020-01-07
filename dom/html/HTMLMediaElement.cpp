@@ -30951,6 +30951,11 @@ __func__
 )
 )
 ;
+if
+(
+mMediaKeys
+)
+{
 mMediaKeys
 -
 >
@@ -30958,6 +30963,7 @@ Unbind
 (
 )
 ;
+}
 mMediaKeys
 =
 nullptr
