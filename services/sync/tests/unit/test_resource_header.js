@@ -366,6 +366,8 @@ Result
 "
 +
 result
+.
+data
 )
 ;
 Assert
@@ -373,6 +375,8 @@ Assert
 equal
 (
 result
+.
+data
 BODY
 )
 ;

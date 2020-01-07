@@ -4051,7 +4051,7 @@ let
 error
 =
 new
-String
+Error
 (
 "
 New

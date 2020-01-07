@@ -3470,12 +3470,9 @@ existRemotely
 new
 Set
 (
-JSON
-.
-parse
-(
 itemsResponse
-)
+.
+obj
 )
 ;
 for

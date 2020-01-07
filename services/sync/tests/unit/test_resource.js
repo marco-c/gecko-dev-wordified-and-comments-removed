@@ -1371,6 +1371,8 @@ path
 exists
 "
 result
+.
+data
 )
 ;
 pacFetched
@@ -1902,6 +1904,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 This
 path
@@ -1955,13 +1959,25 @@ debug
 function
 (
 msg
+extra
 )
 {
 debugMessages
 .
 push
 (
+{
 msg
+}
+:
+{
+JSON
+.
+stringify
+(
+extra
+)
+}
 )
 ;
 dbg
@@ -2031,16 +2047,11 @@ starts
 :
 \
 "
-\
-"
 This
 path
 exists
 \
 "
-\
-"
-.
 "
 )
 ;
@@ -2208,6 +2219,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 This
 path
@@ -2339,6 +2352,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 This
 path
@@ -2433,6 +2448,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 File
 not
@@ -2568,6 +2585,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 Valid
 data
@@ -2643,6 +2662,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 Valid
 data
@@ -2723,6 +2744,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 Valid
 data
@@ -2798,6 +2821,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 Valid
 data
@@ -2868,6 +2893,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 This
 resource
@@ -2940,6 +2967,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
@@ -3102,6 +3131,8 @@ Assert
 equal
 (
 content
+.
+data
 "
 {
 }
@@ -3169,6 +3200,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
@@ -3250,6 +3283,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
@@ -3366,6 +3401,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
@@ -3528,6 +3565,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
@@ -3658,6 +3697,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
@@ -3752,6 +3793,8 @@ Assert
 equal
 (
 content
+.
+data
 JSON
 .
 stringify
