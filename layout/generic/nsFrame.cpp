@@ -26023,6 +26023,8 @@ NS_FRAME_OUT_OF_FLOW
 ;
 bool
 usingFlexBasisForISize
+=
+false
 ;
 if
 (
