@@ -722,13 +722,7 @@ nsIVariant
 >
 data
 ;
-DataTransfer
-:
-:
-Cast
-(
 aDataTransfer
-)
 -
 >
 GetDataAtNoSecurityCheck
