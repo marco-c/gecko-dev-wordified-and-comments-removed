@@ -1163,6 +1163,17 @@ MOZ_CRASH
 )
 ;
 }
+void
+assertNoGCThings
+(
+)
+const
+{
+MOZ_CRASH
+(
+)
+;
+}
 static
 void
 TraceJumpRelocations
