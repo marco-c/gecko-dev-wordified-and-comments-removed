@@ -117,6 +117,10 @@ mLastModified
 (
 0
 )
+mLastValidated
+(
+0
+)
 mExpirationTime
 (
 nsICache
@@ -149,6 +153,12 @@ mData
 (
 nullptr
 )
+mRequestQ
+{
+}
+mDescriptorQ
+{
+}
 {
 MOZ_COUNT_CTOR
 (

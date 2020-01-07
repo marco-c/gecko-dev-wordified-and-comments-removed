@@ -523,6 +523,10 @@ mPreviousUsed
 (
 false
 )
+mAggregatedHeaderSize
+(
+0
+)
 mWaitingForSettingsAck
 (
 false

@@ -75,8 +75,6 @@ NS_DECL_NSIDIRINDEXLISTENER
 nsIndexedToHTML
 (
 )
-=
-default
 ;
 nsresult
 Init

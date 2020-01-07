@@ -194,7 +194,15 @@ mSegmentWriter
 (
 aWriter
 )
+mFilterReadCode
+(
+NS_ERROR_NOT_INITIALIZED
+)
 mForce
+(
+false
+)
+mReadSegmentBlocked
 (
 false
 )

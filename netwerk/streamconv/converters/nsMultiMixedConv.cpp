@@ -151,6 +151,14 @@ mStatus
 (
 NS_OK
 )
+mLoadFlags
+(
+0
+)
+mContentDisposition
+(
+0
+)
 mContentLength
 (
 UINT64_MAX
@@ -3047,6 +3055,10 @@ mCurrentPartID
 mInOnDataAvailable
 (
 false
+)
+mResponseHeader
+(
+HEADER_UNKNOWN
 )
 mTokenizer
 (

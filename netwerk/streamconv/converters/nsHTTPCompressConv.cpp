@@ -191,6 +191,13 @@ mStreamInitialized
 (
 false
 )
+mDummyStreamInitialised
+(
+false
+)
+d_stream
+{
+}
 mLen
 (
 0

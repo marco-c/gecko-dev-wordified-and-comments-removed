@@ -289,6 +289,14 @@ mIsPending
 (
 false
 )
+mCloseSource
+{
+false
+}
+mCloseSink
+{
+false
+}
 mShouldSniffBuffering
 (
 false

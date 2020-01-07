@@ -943,6 +943,10 @@ nsIURI
 uri
 )
 :
+mUploadLength
+(
+0
+)
 mFileURI
 (
 uri

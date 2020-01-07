@@ -337,6 +337,10 @@ mHostResolver
 (
 aResolver
 )
+mType
+(
+TRRTYPE_A
+)
 mBodySize
 (
 0

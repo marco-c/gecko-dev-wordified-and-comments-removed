@@ -54,8 +54,6 @@ NS_DECL_NSIDIRINDEXPARSER
 nsDirIndexParser
 (
 )
-=
-default
 ;
 nsresult
 Init

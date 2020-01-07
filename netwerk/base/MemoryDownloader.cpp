@@ -47,6 +47,10 @@ mObserver
 (
 aObserver
 )
+mStatus
+(
+NS_ERROR_NOT_INITIALIZED
+)
 {
 }
 NS_IMETHODIMP

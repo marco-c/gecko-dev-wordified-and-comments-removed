@@ -1214,6 +1214,10 @@ mTailDelayMax
 (
 6000
 )
+mTailTotalMax
+(
+0
+)
 mRedirectionLimit
 (
 10
