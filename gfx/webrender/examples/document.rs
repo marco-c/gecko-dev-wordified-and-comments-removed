@@ -495,6 +495,7 @@ doc
 .
 content_rect
 )
+None
 ScrollPolicy
 :
 :

@@ -382,7 +382,6 @@ height
 .
 intersection
 (
-&
 item_rect
 )
 ;
@@ -955,7 +954,6 @@ prim_rect
 .
 intersection
 (
-&
 item_rect
 )
 {

@@ -59,7 +59,6 @@ MPL
 #
 include
 shared
-prim_shared
 clip_shared
 varying
 vec3
@@ -691,15 +690,9 @@ zw
 float
 in_shadow_rect
 =
-point_inside_rect
+init_transform_rough_fs
 (
 local_pos
-vLocalBounds
-.
-xy
-vLocalBounds
-.
-zw
 )
 ;
 float

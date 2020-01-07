@@ -1520,7 +1520,6 @@ fold
 1
 |
 count
-ref
 pic
 |
 count
@@ -1973,7 +1972,6 @@ new
 self
 .
 hit_testing_runs
-&
 clip_scroll_tree
 &
 self

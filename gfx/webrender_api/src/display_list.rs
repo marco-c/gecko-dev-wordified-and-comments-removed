@@ -6426,6 +6426,12 @@ info
 :
 &
 LayoutPrimitiveInfo
+clip_node_id
+:
+Option
+<
+ClipId
+>
 scroll_policy
 :
 ScrollPolicy
@@ -6509,6 +6515,7 @@ transform_style
 perspective
 mix_blend_mode
 reference_frame_id
+clip_node_id
 }
 }
 )

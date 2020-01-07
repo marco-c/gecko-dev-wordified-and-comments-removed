@@ -59,7 +59,6 @@ MPL
 #
 include
 shared
-prim_shared
 clip_shared
 varying
 vec3

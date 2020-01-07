@@ -2080,9 +2080,7 @@ clear
 (
 )
 ;
-return
 old_vec
-;
 }
 #
 [
@@ -2852,9 +2850,9 @@ Src
 Self
 {
 match
+*
 self
 {
-&
 FastTransform
 :
 :
@@ -2865,7 +2863,6 @@ offset
 )
 =
 >
-return
 FastTransform
 :
 :
@@ -2877,7 +2874,6 @@ offset
 *
 other_offset
 )
-&
 FastTransform
 :
 :
@@ -3410,7 +3406,6 @@ inverse
 .
 transform_rect
 (
-&
 rect
 )
 )

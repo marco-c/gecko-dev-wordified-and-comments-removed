@@ -560,7 +560,8 @@ TODO
 gw
 )
 :
-vLocalBounds
+transform
+bounds
 may
 be
 referenced
@@ -618,8 +619,8 @@ shaders
 #
 ifdef
 WR_FEATURE_ALPHA_PASS
-vLocalBounds
-=
+init_transform_vs
+(
 vec4
 (
 vec2
@@ -634,6 +635,7 @@ vec2
 1000000
 .
 0
+)
 )
 )
 ;

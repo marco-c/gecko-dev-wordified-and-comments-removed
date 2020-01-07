@@ -17,12 +17,6 @@ api
 ImageFormat
 ;
 use
-clip_scroll_tree
-:
-:
-ClipScrollNodeIndex
-;
-use
 device
 :
 :
@@ -618,13 +612,6 @@ pipeline_info
 :
 PipelineInfo
 pub
-layers_bouncing_back
-:
-FastHashSet
-<
-ClipScrollNodeIndex
->
-pub
 frame
 :
 tiling
@@ -642,12 +629,6 @@ new
 pipeline_info
 :
 PipelineInfo
-layers_bouncing_back
-:
-FastHashSet
-<
-ClipScrollNodeIndex
->
 frame
 :
 tiling
@@ -662,7 +643,6 @@ Self
 RenderedDocument
 {
 pipeline_info
-layers_bouncing_back
 frame
 }
 }

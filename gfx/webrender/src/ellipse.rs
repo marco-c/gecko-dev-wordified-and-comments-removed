@@ -898,7 +898,6 @@ y
 si
 )
 ;
-return
 (
 r
 -
@@ -922,7 +921,6 @@ y
 signum
 (
 )
-;
 }
 }
 fn

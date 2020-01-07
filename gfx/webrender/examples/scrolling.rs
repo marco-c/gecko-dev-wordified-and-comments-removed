@@ -129,6 +129,7 @@ push_stacking_context
 (
 &
 info
+None
 ScrollPolicy
 :
 :
@@ -189,6 +190,7 @@ by
 0
 )
 )
+None
 ScrollPolicy
 :
 :
@@ -1019,10 +1021,6 @@ offset
 self
 .
 cursor_position
-ScrollEventPhase
-:
-:
-Start
 )
 ;
 }
@@ -1156,10 +1154,6 @@ dy
 self
 .
 cursor_position
-ScrollEventPhase
-:
-:
-Start
 )
 ;
 }

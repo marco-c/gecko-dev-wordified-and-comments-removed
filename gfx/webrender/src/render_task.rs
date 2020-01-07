@@ -2640,9 +2640,6 @@ add
 blur_task_v
 )
 ;
-let
-blur_task_h
-=
 RenderTask
 {
 children
@@ -2690,8 +2687,6 @@ saved_index
 :
 None
 }
-;
-blur_task_h
 }
 pub
 fn
@@ -4821,7 +4816,6 @@ texture_cache
 request
 (
 &
-mut
 cache_entry
 .
 handle

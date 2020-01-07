@@ -59,7 +59,6 @@ MPL
 #
 include
 shared
-prim_shared
 clip_shared
 ellipse
 varying
@@ -123,7 +122,9 @@ fetch_from_resource_cache_2_direct
 address
 )
 ;
-return
+ClipRect
+rect
+=
 ClipRect
 (
 RectWithSize
@@ -146,6 +147,9 @@ data
 1
 ]
 )
+;
+return
+rect
 ;
 }
 struct
@@ -224,7 +228,9 @@ fetch_from_resource_cache_2_direct
 address
 )
 ;
-return
+ClipCorner
+corner
+=
 ClipCorner
 (
 RectWithSize
@@ -247,6 +253,9 @@ data
 1
 ]
 )
+;
+return
+corner
 ;
 }
 struct
