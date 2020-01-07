@@ -1435,6 +1435,11 @@ MessageListenerManager
 cpp
 '
 '
+MessageManagerGlobal
+.
+cpp
+'
+'
 MessageSender
 .
 cpp

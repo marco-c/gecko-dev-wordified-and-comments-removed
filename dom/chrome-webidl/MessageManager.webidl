@@ -1147,9 +1147,6 @@ stdout
 .
 *
 /
-[
-Throws
-]
 void
 dump
 (
