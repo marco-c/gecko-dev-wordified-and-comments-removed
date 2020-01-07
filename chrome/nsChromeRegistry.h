@@ -241,8 +241,11 @@ static
 nsresult
 Canonify
 (
-nsIURL
-*
+nsCOMPtr
+<
+nsIURI
+>
+&
 aChromeURL
 )
 ;
@@ -356,7 +359,7 @@ static
 nsresult
 GetProviderAndPath
 (
-nsIURL
+nsIURI
 *
 aChromeURL
 nsACString
