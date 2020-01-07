@@ -712,6 +712,15 @@ title
 )
 ;
 [
+Pref
+=
+"
+dom
+.
+registerContentHandler
+.
+enabled
+"
 Throws
 ]
 void
