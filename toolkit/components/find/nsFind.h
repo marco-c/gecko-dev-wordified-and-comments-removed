@@ -157,6 +157,7 @@ nsRange
 *
 aEndPoint
 )
+const
 ;
 char16_t
 PeekNextChar
@@ -173,6 +174,7 @@ nsRange
 *
 aEndPoint
 )
+const
 ;
 nsresult
 InitIterator
@@ -190,6 +192,7 @@ aEndNode
 int32_t
 aEndOffset
 )
+const
 ;
 }
 ;
