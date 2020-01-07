@@ -398,6 +398,10 @@ pub
 visible
 :
 bool
+pub
+load_data
+:
+LoadData
 }
 pub
 struct
@@ -748,6 +752,10 @@ load_data
 state
 .
 load_data
+.
+clone
+(
+)
 window_size
 :
 window_size
@@ -1133,6 +1141,10 @@ load_data
 state
 .
 load_data
+.
+clone
+(
+)
 script_port
 :
 script_port
@@ -1282,6 +1294,9 @@ unwrap_or
 (
 true
 )
+state
+.
+load_data
 )
 )
 }
@@ -1328,6 +1343,9 @@ ServoUrl
 visible
 :
 bool
+load_data
+:
+LoadData
 )
 -
 >
@@ -1377,6 +1395,9 @@ visible
 is_private
 :
 is_private
+load_data
+:
+load_data
 }
 ;
 pipeline
