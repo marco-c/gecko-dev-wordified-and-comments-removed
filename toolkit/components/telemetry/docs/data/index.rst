@@ -58,9 +58,6 @@ environment
 main
 -
 ping
-optout
--
-ping
 deletion
 -
 ping

@@ -198,7 +198,7 @@ main
 activation
 "
 "
-optout
+deletion
 "
 "
 saved
