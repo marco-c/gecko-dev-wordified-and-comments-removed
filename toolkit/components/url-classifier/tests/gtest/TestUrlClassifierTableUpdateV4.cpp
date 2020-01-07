@@ -1250,8 +1250,14 @@ RunTestInNewThread
 >
 void
 {
+RefPtr
+<
 LookupCacheV4
+>
 cache
+=
+new
+LookupCacheV4
 (
 nsCString
 (
@@ -1267,7 +1273,8 @@ nsresult
 rv
 =
 cache
-.
+-
+>
 Init
 (
 )
@@ -1281,7 +1288,8 @@ NS_OK
 rv
 =
 cache
-.
+-
+>
 Open
 (
 )
@@ -3194,7 +3202,7 @@ CreateRandomSortedPrefixArray
 array
 )
 ;
-UniquePtr
+RefPtr
 <
 LookupCacheV4
 >

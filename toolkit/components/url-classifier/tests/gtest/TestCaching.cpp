@@ -359,7 +359,7 @@ com
 )
 }
 ;
-UniquePtr
+RefPtr
 <
 T
 >
@@ -376,10 +376,6 @@ array
 SetupCacheEntry
 (
 cache
-.
-get
-(
-)
 _Fragment
 (
 "
@@ -396,10 +392,6 @@ com
 SetupCacheEntry
 (
 cache
-.
-get
-(
-)
 _Fragment
 (
 "
@@ -945,7 +937,7 @@ BOTH_CACHE_EXPIRED_URL
 )
 }
 ;
-UniquePtr
+RefPtr
 <
 T
 >
@@ -962,10 +954,6 @@ array
 SetupCacheEntry
 (
 cache
-.
-get
-(
-)
 CACHED_URL
 false
 false
@@ -974,10 +962,6 @@ false
 SetupCacheEntry
 (
 cache
-.
-get
-(
-)
 NEG_CACHE_EXPIRED_URL
 true
 false
@@ -986,10 +970,6 @@ false
 SetupCacheEntry
 (
 cache
-.
-get
-(
-)
 POS_CACHE_EXPIRED_URL
 false
 true
@@ -998,10 +978,6 @@ true
 SetupCacheEntry
 (
 cache
-.
-get
-(
-)
 BOTH_CACHE_EXPIRED_URL
 true
 true
@@ -1188,7 +1164,7 @@ NEG_CACHE_EXPIRED_URL
 )
 }
 ;
-UniquePtr
+RefPtr
 <
 LookupCacheV2
 >
@@ -1299,7 +1275,7 @@ NEG_CACHE_EXPIRED_URL
 )
 }
 ;
-UniquePtr
+RefPtr
 <
 LookupCacheV4
 >

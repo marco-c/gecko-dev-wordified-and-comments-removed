@@ -87,7 +87,7 @@ RunTestInNewThread
 >
 void
 {
-UniquePtr
+RefPtr
 <
 LookupCache
 >

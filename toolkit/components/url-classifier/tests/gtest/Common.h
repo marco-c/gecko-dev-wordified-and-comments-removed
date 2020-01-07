@@ -178,7 +178,7 @@ template
 typename
 T
 >
-UniquePtr
+RefPtr
 <
 T
 >

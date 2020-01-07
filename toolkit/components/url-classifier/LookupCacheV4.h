@@ -53,12 +53,6 @@ aStoreFile
 )
 {
 }
-~
-LookupCacheV4
-(
-)
-{
-}
 virtual
 nsresult
 Init
@@ -217,6 +211,12 @@ override
 ;
 private
 :
+~
+LookupCacheV4
+(
+)
+{
+}
 virtual
 int
 Ver
