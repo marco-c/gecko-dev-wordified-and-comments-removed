@@ -526,6 +526,14 @@ itemId
 ;
 data
 .
+itemGuid
+=
+aNode
+.
+bookmarkGuid
+;
+data
+.
 livemark
 =
 aIsLivemark
@@ -573,12 +581,6 @@ guid
 )
 )
 {
-data
-.
-itemGuid
-=
-guid
-;
 if
 (
 aNode
