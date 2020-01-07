@@ -32127,6 +32127,7 @@ aOutAncestor
 uint32_t
 aFlags
 )
+const
 {
 MOZ_ASSERT
 (
@@ -32504,6 +32505,7 @@ Matrix4x4
 (
 )
 ;
+const
 nsIFrame
 *
 current

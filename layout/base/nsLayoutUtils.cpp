@@ -12466,6 +12466,7 @@ FrameHasDisplayPort
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aScrolledFrame
@@ -12546,6 +12547,7 @@ nsLayoutUtils
 :
 GetTransformToAncestor
 (
+const
 nsIFrame
 *
 aFrame
@@ -14348,6 +14350,7 @@ static
 Rect
 TransformGfxRectToAncestor
 (
+const
 nsIFrame
 *
 aFrame
@@ -14563,6 +14566,7 @@ SVGTextFrame
 *
 GetContainingSVGTextFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -14765,6 +14769,7 @@ nsLayoutUtils
 :
 TransformFrameRectToAncestor
 (
+const
 nsIFrame
 *
 aFrame
@@ -36129,6 +36134,7 @@ static
 bool
 IsPopupFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -36164,12 +36170,14 @@ LayoutFrameType
 ListControl
 )
 {
+const
 nsListControlFrame
 *
 lcf
 =
 static_cast
 <
+const
 nsListControlFrame
 *
 >
@@ -36202,6 +36210,7 @@ nsLayoutUtils
 :
 IsPopup
 (
+const
 nsIFrame
 *
 aFrame

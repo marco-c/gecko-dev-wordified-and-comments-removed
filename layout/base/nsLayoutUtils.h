@@ -891,6 +891,7 @@ FrameHasDisplayPort
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aScrolledFrame
@@ -1894,6 +1895,7 @@ static
 nsRect
 TransformFrameRectToAncestor
 (
+const
 nsIFrame
 *
 aFrame
@@ -1937,6 +1939,7 @@ static
 Matrix4x4Flagged
 GetTransformToAncestor
 (
+const
 nsIFrame
 *
 aFrame
@@ -4475,6 +4478,7 @@ static
 bool
 IsPopup
 (
+const
 nsIFrame
 *
 aFrame
