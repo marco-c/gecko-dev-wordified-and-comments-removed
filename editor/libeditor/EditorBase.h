@@ -2037,6 +2037,11 @@ aAncestorLimit
 ;
 public
 :
+nsresult
+PostCreate
+(
+)
+;
 virtual
 nsresult
 StartOperation
