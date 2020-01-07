@@ -842,15 +842,6 @@ mappedSource
 )
 {
 const
-bundleSource
-=
-mappedSource
-.
-toJS
-(
-)
-;
-const
 filename
 =
 (
@@ -860,7 +851,7 @@ _source
 getFilename
 )
 (
-bundleSource
+mappedSource
 )
 ;
 const

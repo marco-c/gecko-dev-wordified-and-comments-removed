@@ -1112,15 +1112,6 @@ this
 props
 ;
 const
-src
-=
-source
-.
-toJS
-(
-)
-;
-const
 filename
 =
 (
@@ -1130,7 +1121,7 @@ _source
 getFilename
 )
 (
-src
+source
 )
 ;
 const
@@ -1316,7 +1307,7 @@ _source
 getFileURL
 )
 (
-src
+source
 )
 }
 _react2

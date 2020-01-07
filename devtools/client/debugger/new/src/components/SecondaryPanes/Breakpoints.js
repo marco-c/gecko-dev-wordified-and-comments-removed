@@ -1129,7 +1129,7 @@ L10N
 getStr
 (
 "
-pauseOnExceptionsItem
+pauseOnExceptionsItem2
 "
 )
 shouldPauseOnExceptions
