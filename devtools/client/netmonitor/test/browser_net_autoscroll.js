@@ -189,6 +189,13 @@ scroll
 "
 )
 ;
+yield
+waitForNetworkEvents
+(
+monitor
+8
+)
+;
 requestsContainer
 .
 scrollTop
