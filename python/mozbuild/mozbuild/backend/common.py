@@ -1439,12 +1439,40 @@ expected_build_output_files
 )
 )
         
+unified_source_mapping
+=
+list
+(
+group_unified_files
+(
+webidls
+.
+all_regular_cpp_basenames
+(
+)
+                                                          
+unified_prefix
+=
+'
+UnifiedBindings
+'
+                                                          
+unified_suffix
+=
+'
+cpp
+'
+                                                          
+files_per_unified_file
+=
+32
+)
+)
+        
 self
 .
 _write_unified_files
 (
-webidls
-.
 unified_source_mapping
 bindings_dir
                                   
@@ -1458,8 +1486,6 @@ self
 _handle_webidl_build
 (
 bindings_dir
-webidls
-.
 unified_source_mapping
                                   
 webidls
