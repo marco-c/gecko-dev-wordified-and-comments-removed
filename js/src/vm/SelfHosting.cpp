@@ -16452,7 +16452,7 @@ creationOptions
 (
 )
 .
-setNewZoneInSystemZoneGroup
+setNewZone
 (
 )
 ;

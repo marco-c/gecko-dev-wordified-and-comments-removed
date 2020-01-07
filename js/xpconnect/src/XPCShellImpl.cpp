@@ -6896,7 +6896,7 @@ creationOptions
 (
 )
 .
-setNewZoneInSystemZoneGroup
+setNewZone
 (
 )
 ;

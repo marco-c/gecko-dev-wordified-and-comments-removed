@@ -258,9 +258,6 @@ class
 HeapSlot
 ;
 class
-ZoneGroup
-;
-class
 JSONPrinter
 ;
 void

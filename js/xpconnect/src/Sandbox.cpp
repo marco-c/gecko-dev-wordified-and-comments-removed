@@ -5386,7 +5386,7 @@ freshZone
 )
 creationOptions
 .
-setNewZoneInSystemZoneGroup
+setNewZone
 (
 )
 ;
