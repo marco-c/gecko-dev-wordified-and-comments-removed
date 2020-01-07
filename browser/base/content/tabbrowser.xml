@@ -43851,7 +43851,7 @@ window
 addEventListener
 (
 "
-load
+DOMContentLoaded
 "
 this
 )
@@ -48218,7 +48218,7 @@ type
 {
 case
 "
-load
+DOMContentLoaded
 "
 :
 this

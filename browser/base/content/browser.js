@@ -9962,6 +9962,12 @@ uninit
 )
 ;
 }
+TabsInTitlebar
+.
+uninit
+(
+)
+;
 if
 (
 !
@@ -10058,12 +10064,6 @@ uninit
 )
 ;
 BookmarkingUI
-.
-uninit
-(
-)
-;
-TabsInTitlebar
 .
 uninit
 (
