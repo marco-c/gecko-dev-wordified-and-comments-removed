@@ -802,7 +802,7 @@ nsresult
 TextEditor
 :
 :
-InsertFromDrop
+OnDrop
 (
 DragEvent
 *
