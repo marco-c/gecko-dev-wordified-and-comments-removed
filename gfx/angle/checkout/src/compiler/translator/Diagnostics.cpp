@@ -96,6 +96,9 @@ writeInfo
 Severity
 severity
 const
+angle
+:
+:
 pp
 :
 :
@@ -231,6 +234,9 @@ TDiagnostics
 error
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -263,6 +269,9 @@ TDiagnostics
 warning
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -308,6 +317,9 @@ char
 token
 )
 {
+angle
+:
+:
 pp
 :
 :
@@ -358,6 +370,9 @@ char
 token
 )
 {
+angle
+:
+:
 pp
 :
 :
@@ -397,6 +412,9 @@ print
 ID
 id
 const
+angle
+:
+:
 pp
 :
 :

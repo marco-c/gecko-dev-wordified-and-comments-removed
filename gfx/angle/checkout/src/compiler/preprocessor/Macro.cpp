@@ -30,6 +30,9 @@ Token
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Macro
@@ -218,5 +221,6 @@ name
 =
 macro
 ;
+}
 }
 }

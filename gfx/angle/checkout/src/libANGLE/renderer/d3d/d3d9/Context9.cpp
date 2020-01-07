@@ -535,7 +535,10 @@ Context9
 :
 createQuery
 (
-GLenum
+gl
+:
+:
+QueryType
 type
 )
 {

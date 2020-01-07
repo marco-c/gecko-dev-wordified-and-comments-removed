@@ -9,7 +9,7 @@ include
 "
 libANGLE
 /
-PackedGLEnums
+PackedEnums
 .
 h
 "
@@ -339,7 +339,7 @@ ValidateBeginQuery
 Context
 *
 context
-GLenum
+QueryType
 target
 GLuint
 id
@@ -351,7 +351,7 @@ ValidateEndQuery
 Context
 *
 context
-GLenum
+QueryType
 target
 )
 ;
@@ -361,7 +361,7 @@ ValidateGetQueryiv
 Context
 *
 context
-GLenum
+QueryType
 target
 GLenum
 pname

@@ -189,7 +189,7 @@ checkedCount
 ;
 default
 :
-NOTREACHED
+UNREACHABLE
 (
 )
 ;
@@ -1168,6 +1168,7 @@ index
 >
 onBindingChanged
 (
+context
 false
 BufferBinding
 :
@@ -1281,6 +1282,7 @@ index
 >
 onBindingChanged
 (
+context
 false
 BufferBinding
 :
@@ -1317,6 +1319,7 @@ buffer
 >
 onBindingChanged
 (
+context
 true
 BufferBinding
 :
@@ -1483,6 +1486,10 @@ TransformFeedback
 :
 onBindingChanged
 (
+const
+Context
+*
+context
 bool
 bound
 )
@@ -1512,6 +1519,7 @@ buffer
 >
 onBindingChanged
 (
+context
 bound
 BufferBinding
 :

@@ -205,6 +205,9 @@ TDirectiveHandler
 handleError
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -242,6 +245,9 @@ TDirectiveHandler
 handlePragma
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -551,6 +557,9 @@ mDiagnostics
 .
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -606,6 +615,9 @@ TDirectiveHandler
 handleExtension
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -898,6 +910,9 @@ TDirectiveHandler
 handleVersion
 (
 const
+angle
+:
+:
 pp
 :
 :

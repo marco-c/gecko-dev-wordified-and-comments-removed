@@ -542,6 +542,14 @@ Context
 context
 )
 {
+mImplementation
+-
+>
+destroy
+(
+context
+)
+;
 mBoundCompiler
 .
 set
@@ -999,6 +1007,7 @@ mImplementation
 >
 getDebugInfo
 (
+context
 )
 ;
 if
@@ -1250,6 +1259,7 @@ mImplementation
 >
 getDebugInfo
 (
+context
 )
 ;
 GetSourceImpl
@@ -1421,6 +1431,7 @@ mImplementation
 >
 prepareSourceAndReturnOptions
 (
+context
 &
 sourceStream
 &
@@ -2158,6 +2169,7 @@ mImplementation
 >
 postTranslateCompile
 (
+context
 mBoundCompiler
 .
 get

@@ -8492,6 +8492,9 @@ if
 scissor
 )
 {
+if
+(
+!
 gl
 :
 :
@@ -8503,7 +8506,17 @@ scissor
 &
 clipRect
 )
+)
+{
+return
+gl
+:
+:
+NoError
+(
+)
 ;
+}
 }
 convertFunction
 (

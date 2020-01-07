@@ -15,6 +15,9 @@ include
 sstream
 >
 namespace
+angle
+{
+namespace
 pp
 {
 inline
@@ -286,6 +289,7 @@ isfinite
 value
 )
 ;
+}
 }
 }
 #

@@ -276,7 +276,10 @@ QueryImpl
 *
 createQuery
 (
-GLenum
+gl
+:
+:
+QueryType
 type
 )
 =

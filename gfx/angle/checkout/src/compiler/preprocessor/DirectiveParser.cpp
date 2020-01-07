@@ -100,6 +100,9 @@ Tokenizer
 h
 "
 namespace
+angle
+{
+namespace
 {
 enum
 DirectiveType
@@ -4874,5 +4877,6 @@ token
 return
 expression
 ;
+}
 }
 }

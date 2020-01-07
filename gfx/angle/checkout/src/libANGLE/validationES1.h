@@ -219,7 +219,7 @@ ValidateDisableClientState
 Context
 *
 context
-GLenum
+ClientVertexArrayType
 array
 )
 ;
@@ -229,7 +229,7 @@ ValidateEnableClientState
 Context
 *
 context
-GLenum
+ClientVertexArrayType
 array
 )
 ;

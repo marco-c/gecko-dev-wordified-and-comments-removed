@@ -37,6 +37,9 @@ Macro
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -330,6 +333,7 @@ ScopedMacroReenabler
 ;
 }
 ;
+}
 }
 #
 endif

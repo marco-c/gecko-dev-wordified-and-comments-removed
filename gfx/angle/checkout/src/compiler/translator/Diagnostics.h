@@ -48,6 +48,9 @@ class
 TDiagnostics
 :
 public
+angle
+:
+:
 pp
 :
 :
@@ -96,6 +99,9 @@ void
 error
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -116,6 +122,9 @@ void
 warning
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -188,6 +197,9 @@ writeInfo
 Severity
 severity
 const
+angle
+:
+:
 pp
 :
 :
@@ -210,6 +222,9 @@ print
 ID
 id
 const
+angle
+:
+:
 pp
 :
 :

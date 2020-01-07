@@ -15,6 +15,9 @@ include
 vector
 >
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -174,6 +177,7 @@ mReadLoc
 ;
 }
 ;
+}
 }
 #
 endif

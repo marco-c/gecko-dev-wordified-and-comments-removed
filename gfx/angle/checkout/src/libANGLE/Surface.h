@@ -54,6 +54,15 @@ include
 "
 libANGLE
 /
+PackedEnums
+.
+h
+"
+#
+include
+"
+libANGLE
+/
 RefCountObject
 .
 h
@@ -392,7 +401,7 @@ getSwapBehavior
 )
 const
 ;
-EGLenum
+TextureFormat
 getTextureFormat
 (
 )
@@ -816,7 +825,7 @@ mDirectComposition
 bool
 mRobustResourceInitialization
 ;
-EGLenum
+TextureFormat
 mTextureFormat
 ;
 EGLenum

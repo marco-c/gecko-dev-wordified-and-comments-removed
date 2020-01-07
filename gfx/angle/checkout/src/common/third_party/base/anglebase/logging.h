@@ -51,8 +51,13 @@ define
 NOTREACHED
 (
 )
+(
+{
 UNREACHABLE
 (
+)
+;
+}
 )
 #
 endif

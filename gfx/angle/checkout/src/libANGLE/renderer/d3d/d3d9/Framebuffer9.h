@@ -156,6 +156,13 @@ gl
 Error
 getSamplePosition
 (
+const
+gl
+:
+:
+Context
+*
+context
 size_t
 index
 GLfloat

@@ -240,6 +240,13 @@ RENDERER_D3D11
 RENDERER_D3D9
 }
 ;
+constexpr
+unsigned
+int
+kPollingD3DDeviceLostCheckFrequency
+=
+10
+;
 class
 BufferFactoryD3D
 :

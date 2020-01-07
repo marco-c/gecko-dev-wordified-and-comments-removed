@@ -156,6 +156,9 @@ TParseContext
 )
 ;
 const
+angle
+:
+:
 pp
 :
 :
@@ -170,6 +173,9 @@ return
 mPreprocessor
 ;
 }
+angle
+:
+:
 pp
 :
 :
@@ -2981,6 +2987,9 @@ mDiagnostics
 TDirectiveHandler
 mDirectiveHandler
 ;
+angle
+:
+:
 pp
 :
 :

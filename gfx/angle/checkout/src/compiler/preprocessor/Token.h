@@ -26,6 +26,9 @@ SourceLocation
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -314,6 +317,7 @@ Token
 token
 )
 ;
+}
 }
 #
 endif

@@ -1126,7 +1126,10 @@ Context11
 :
 createQuery
 (
-GLenum
+gl
+:
+:
+QueryType
 type
 )
 {

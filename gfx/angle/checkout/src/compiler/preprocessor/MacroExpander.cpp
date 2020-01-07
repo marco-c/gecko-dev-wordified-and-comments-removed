@@ -46,6 +46,9 @@ Token
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 namespace
@@ -2247,5 +2250,6 @@ index
 -
 index
 ;
+}
 }
 }

@@ -27,7 +27,7 @@ include
 "
 libANGLE
 /
-PackedGLEnums
+PackedEnums
 .
 h
 "
@@ -40,7 +40,7 @@ Context
 class
 Framebuffer
 ;
-struct
+class
 ImageIndex
 ;
 struct

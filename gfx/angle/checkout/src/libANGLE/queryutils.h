@@ -25,7 +25,7 @@ include
 "
 libANGLE
 /
-PackedGLEnums
+PackedEnums
 .
 h
 "
@@ -708,6 +708,13 @@ pname
 GLint
 *
 params
+)
+;
+ClientVertexArrayType
+ParamToVertexArrayType
+(
+GLenum
+param
 )
 ;
 }

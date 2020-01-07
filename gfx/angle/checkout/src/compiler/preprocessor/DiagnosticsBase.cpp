@@ -19,6 +19,9 @@ debug
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Diagnostics
@@ -696,6 +699,7 @@ return
 "
 "
 ;
+}
 }
 }
 }

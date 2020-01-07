@@ -10,6 +10,9 @@ DirectiveHandlerBase
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 DirectiveHandler
@@ -20,5 +23,6 @@ DirectiveHandler
 (
 )
 {
+}
 }
 }

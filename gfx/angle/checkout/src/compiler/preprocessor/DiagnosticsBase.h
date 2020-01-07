@@ -10,6 +10,9 @@ include
 string
 >
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -140,6 +143,7 @@ text
 ;
 }
 ;
+}
 }
 #
 endif

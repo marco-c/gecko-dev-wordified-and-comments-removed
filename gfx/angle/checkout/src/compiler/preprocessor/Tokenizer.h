@@ -36,6 +36,9 @@ Lexer
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -159,6 +162,7 @@ mMaxTokenSize
 ;
 }
 ;
+}
 }
 #
 endif

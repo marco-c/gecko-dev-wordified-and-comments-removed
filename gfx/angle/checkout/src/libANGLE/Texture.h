@@ -1700,9 +1700,13 @@ BitSet
 DIRTY_BIT_COUNT
 >
 ;
-void
+Error
 syncState
 (
+const
+Context
+*
+context
 )
 ;
 bool

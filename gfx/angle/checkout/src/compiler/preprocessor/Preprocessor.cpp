@@ -85,6 +85,9 @@ Tokenizer
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -439,5 +442,6 @@ setMaxTokenSize
 maxTokenSize
 )
 ;
+}
 }
 }

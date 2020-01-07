@@ -2,7 +2,7 @@
 define
 ANGLE_COMMIT_HASH
 "
-595ccab4acc3
+fc96a1a98357
 "
 #
 define
@@ -16,12 +16,12 @@ ANGLE_COMMIT_DATE
 -
 06
 -
-01
-17
+29
+19
 :
-26
+06
 :
-22
+56
 -
 0700
 "

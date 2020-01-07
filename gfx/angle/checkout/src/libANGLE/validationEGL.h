@@ -207,9 +207,11 @@ ValidateMakeCurrent
 Display
 *
 display
-EGLSurface
+Surface
+*
 draw
-EGLSurface
+Surface
+*
 read
 gl
 :

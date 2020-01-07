@@ -14,6 +14,9 @@ angleutils
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -48,6 +51,7 @@ token
 ;
 }
 ;
+}
 }
 #
 endif

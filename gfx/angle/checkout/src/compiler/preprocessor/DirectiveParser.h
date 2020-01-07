@@ -38,6 +38,9 @@ SourceLocation
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -321,6 +324,7 @@ mMaxMacroExpansionDepth
 ;
 }
 ;
+}
 }
 #
 endif

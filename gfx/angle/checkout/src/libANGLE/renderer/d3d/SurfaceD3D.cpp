@@ -761,6 +761,12 @@ SurfaceD3D
 :
 bindTexImage
 (
+const
+gl
+:
+:
+Context
+*
 gl
 :
 :
@@ -787,6 +793,12 @@ SurfaceD3D
 :
 releaseTexImage
 (
+const
+gl
+:
+:
+Context
+*
 EGLint
 )
 {

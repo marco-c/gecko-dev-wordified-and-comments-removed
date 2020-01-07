@@ -44,7 +44,7 @@ gl
 class
 Context
 ;
-struct
+class
 ImageIndex
 ;
 struct

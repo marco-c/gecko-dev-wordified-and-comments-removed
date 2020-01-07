@@ -339,6 +339,9 @@ string
 YYSTYPE
 ;
 typedef
+angle
+:
+:
 pp
 :
 :
@@ -414,6 +417,9 @@ do
 \
 {
 \
+angle
+:
+:
 pp
 :
 :
@@ -428,6 +434,9 @@ yyextra
 input
 ;
 \
+angle
+:
+:
 pp
 :
 :
@@ -603,6 +612,9 @@ extra
 type
 =
 "
+angle
+:
+:
 pp
 :
 :
@@ -868,6 +880,9 @@ number
 "
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -937,6 +952,9 @@ yyextra
 >
 lineStart
 ?
+angle
+:
+:
 pp
 :
 :
@@ -944,6 +962,9 @@ Token
 :
 :
 PP_HASH
+:
+angle
+:
 :
 pp
 :
@@ -968,6 +989,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1017,6 +1041,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1064,6 +1091,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1157,6 +1187,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1181,6 +1214,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1205,6 +1241,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1229,6 +1268,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1253,6 +1295,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1277,6 +1322,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1301,6 +1349,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1325,6 +1376,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1349,6 +1403,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1373,6 +1430,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1397,6 +1457,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1421,6 +1484,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1445,6 +1511,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1469,6 +1538,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1493,6 +1565,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1517,6 +1592,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1541,6 +1619,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1566,6 +1647,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1591,6 +1675,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1615,6 +1702,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1639,6 +1729,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1663,6 +1756,9 @@ yyleng
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1737,6 +1833,9 @@ number
 "
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1784,6 +1883,9 @@ yytext
 )
 ;
 return
+angle
+:
+:
 pp
 :
 :
@@ -1822,6 +1924,9 @@ EOF
 token
 manually
 .
+angle
+:
+:
 pp
 :
 :
@@ -1835,6 +1940,9 @@ yyextra
 >
 input
 ;
+angle
+:
+:
 pp
 :
 :
@@ -1997,6 +2105,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -2004,6 +2115,9 @@ Diagnostics
 :
 :
 PP_TOKENIZER_ERROR
+angle
+:
+:
 pp
 :
 :
@@ -2039,6 +2153,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -2046,6 +2163,9 @@ Diagnostics
 :
 :
 PP_EOF_IN_COMMENT
+angle
+:
+:
 pp
 :
 :
@@ -2071,6 +2191,9 @@ yyterminate
 }
 %
 %
+namespace
+angle
+{
 namespace
 pp
 {
@@ -2484,3 +2607,8 @@ nullptr
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

@@ -344,6 +344,9 @@ namespace
 struct
 Context
 {
+angle
+:
+:
 pp
 :
 :
@@ -351,6 +354,9 @@ Diagnostics
 *
 diagnostics
 ;
+angle
+:
+:
 pp
 :
 :
@@ -358,6 +364,9 @@ Lexer
 *
 lexer
 ;
+angle
+:
+:
 pp
 :
 :
@@ -372,6 +381,9 @@ result
 bool
 parsePresetToken
 ;
+angle
+:
+:
 pp
 :
 :
@@ -1088,6 +1100,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -1241,6 +1256,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -1442,6 +1460,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -1621,6 +1642,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -1913,6 +1937,9 @@ Context
 context
 )
 {
+angle
+:
+:
 pp
 :
 :
@@ -1967,6 +1994,9 @@ type
 )
 {
 case
+angle
+:
+:
 pp
 :
 :
@@ -2029,6 +2059,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -2076,6 +2109,9 @@ break
 ;
 }
 case
+angle
+:
+:
 pp
 :
 :
@@ -2103,6 +2139,9 @@ TOK_IDENTIFIER
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2118,6 +2157,9 @@ TOK_OP_OR
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2133,6 +2175,9 @@ TOK_OP_AND
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2148,6 +2193,9 @@ TOK_OP_NE
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2163,6 +2211,9 @@ TOK_OP_EQ
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2178,6 +2229,9 @@ TOK_OP_GE
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2193,6 +2247,9 @@ TOK_OP_LE
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2208,6 +2265,9 @@ TOK_OP_RIGHT
 break
 ;
 case
+angle
+:
+:
 pp
 :
 :
@@ -2330,6 +2390,9 @@ diagnostics
 >
 report
 (
+angle
+:
+:
 pp
 :
 :
@@ -2348,6 +2411,9 @@ reason
 )
 ;
 }
+namespace
+angle
+{
 namespace
 pp
 {
@@ -2531,3 +2597,8 @@ ret
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

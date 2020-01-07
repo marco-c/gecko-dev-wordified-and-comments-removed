@@ -168,8 +168,11 @@ baseLevel
 D3DQUERYTYPE
 ConvertQueryType
 (
-GLenum
-queryType
+gl
+:
+:
+QueryType
+type
 )
 ;
 D3DMULTISAMPLE_TYPE

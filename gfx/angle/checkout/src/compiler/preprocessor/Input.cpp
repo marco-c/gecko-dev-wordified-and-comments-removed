@@ -29,6 +29,9 @@ debug
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Input
@@ -604,5 +607,6 @@ cIndex
 return
 nRead
 ;
+}
 }
 }

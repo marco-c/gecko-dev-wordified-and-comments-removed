@@ -1353,10 +1353,6 @@ mSymbolTable
 isVaryingInvariant
 (
 variable
-.
-name
-(
-)
 )
 ;
 varyings
@@ -3235,7 +3231,7 @@ isVaryingInvariant
 (
 variable
 .
-getName
+variable
 (
 )
 )
