@@ -352,6 +352,14 @@ mMessageManager
 )
 NS_DECL_NSICONTENTFRAMEMESSAGEMANAGER
 NS_DECL_NSIINPROCESSCONTENTFRAMEMESSAGEMANAGER
+void
+CacheFrameLoader
+(
+nsFrameLoader
+*
+aFrameLoader
+)
+;
 virtual
 bool
 DoSendBlockingMessage
