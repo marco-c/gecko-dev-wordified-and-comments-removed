@@ -1,0 +1,7 @@
+set
+LIB
+=
+WIN64_LIB
+WIN64_LINK
+%
+*
