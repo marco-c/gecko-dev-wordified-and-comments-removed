@@ -97,17 +97,3 @@ geoSpecificDefaults
 true
 )
 ;
-pref
-(
-"
-general
-.
-useragent
-.
-locale
-"
-"
-AB_CD
-"
-)
-;
