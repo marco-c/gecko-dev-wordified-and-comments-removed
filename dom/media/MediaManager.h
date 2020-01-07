@@ -1324,15 +1324,6 @@ PledgeChar
 >
 mOutstandingCharPledges
 ;
-media
-:
-:
-CoatCheck
-<
-PledgeVoid
->
-mOutstandingVoidPledges
-;
 nsTArray
 <
 nsString
