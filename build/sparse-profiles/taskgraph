@@ -48,6 +48,15 @@ path
 :
 browser
 /
+locales
+/
+shipped
+-
+locales
+path
+:
+browser
+/
 config
 /
 version_display
