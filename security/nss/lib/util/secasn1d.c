@@ -607,7 +607,7 @@ buf
 "
 [
 %
-d
+lu
 ]
 "
 k
@@ -3630,7 +3630,7 @@ printf
 Found
 Length
 %
-d
+lu
 %
 s
 \
@@ -10445,8 +10445,6 @@ printf
 s
 :
 tmpl
-%
-08x
 kind
 %
 s
@@ -10468,10 +10466,6 @@ STATE
 "
 State
 "
-state
--
->
-theTemplate
 kindBuf
 )
 ;
@@ -10526,7 +10520,7 @@ printf
 expect
 0x
 %
-02x
+02lx
 "
 state
 -
@@ -10549,7 +10543,7 @@ s
 %
 s
 %
-d
+lu
 \
 n
 "
@@ -10696,10 +10690,10 @@ byte
 %
 02x
 %
-08x
+p
 [
 %
-d
+lu
 ]
 \
 n
@@ -11599,6 +11593,10 @@ rv
 ;
 if
 (
+!
+cx
+|
+|
 cx
 -
 >

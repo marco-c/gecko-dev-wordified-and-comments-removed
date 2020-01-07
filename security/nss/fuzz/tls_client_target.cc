@@ -462,7 +462,6 @@ size_t
 len
 )
 {
-static
 std
 :
 :
@@ -505,10 +504,6 @@ ClientConfig
 data
 len
 )
-)
-;
-SSL_ClearSessionCache
-(
 )
 ;
 assert
@@ -629,6 +624,10 @@ DoHandshake
 (
 ssl_fd
 false
+)
+;
+SSL_ClearSessionCache
+(
 )
 ;
 return

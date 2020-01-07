@@ -82,6 +82,10 @@ der_quickder_unittest
 .
 cc
 \
+p12_import_unittest
+.
+cc
+\
 (
 NULL
 )

@@ -306,6 +306,14 @@ std
 :
 :
 string
+kRsa8192
+;
+static
+const
+std
+:
+:
+string
 kServerRsa
 ;
 static

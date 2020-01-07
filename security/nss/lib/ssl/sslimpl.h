@@ -479,6 +479,14 @@ DTLS_RETRANSMIT_FINISHED_MS
 define
 SSL_NAMED_GROUP_COUNT
 31
+#
+define
+SSL_MAX_DH_KEY_BITS
+8192
+#
+define
+SSL_MAX_RSA_KEY_BITS
+8192
 typedef
 enum
 {
@@ -2127,7 +2135,9 @@ SSLWrappedSymWrappingKeyStr
 PRUint8
 wrappedSymmetricWrappingkey
 [
-512
+SSL_MAX_RSA_KEY_BITS
+/
+8
 ]
 ;
 CK_MECHANISM_TYPE
