@@ -648,7 +648,6 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
-false
 )
 .
 content
@@ -667,7 +666,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-false
 false
 )
 .
