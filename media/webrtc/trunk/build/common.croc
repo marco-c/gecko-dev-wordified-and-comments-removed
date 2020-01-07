@@ -392,6 +392,8 @@ Debug
 |
 Release
 |
+sconsbuild
+|
 out
 |
 xcodebuild
@@ -569,7 +571,6 @@ files_instrumented_percent
 =
 %
 g
-percent
 '
 }
 {
@@ -709,7 +710,6 @@ percent_covered
 =
 %
 g
-percent
 '
 }
 {
@@ -739,7 +739,6 @@ percent_covered_source
 =
 %
 g
-percent
 '
 '
 group
@@ -776,7 +775,6 @@ percent_covered_test
 =
 %
 g
-percent
 '
 '
 group

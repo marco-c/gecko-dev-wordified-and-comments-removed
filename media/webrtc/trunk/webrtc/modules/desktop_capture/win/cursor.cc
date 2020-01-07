@@ -237,6 +237,15 @@ a
 #
 endif
 const
+int
+kBytesPerPixel
+=
+DesktopFrame
+:
+:
+kBytesPerPixel
+;
+const
 uint32_t
 kPixelRgbaBlack
 =
@@ -442,9 +451,6 @@ uint32_t
 )
 =
 =
-DesktopFrame
-:
-:
 kBytesPerPixel
 "
 size
@@ -894,9 +900,6 @@ bmi
 .
 bV5BitCount
 =
-DesktopFrame
-:
-:
 kBytesPerPixel
 *
 8
