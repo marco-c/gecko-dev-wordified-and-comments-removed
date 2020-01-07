@@ -132,6 +132,8 @@ virtual
 void
 EnumerateDevices
 (
+uint64_t
+aWindowId
 dom
 :
 :

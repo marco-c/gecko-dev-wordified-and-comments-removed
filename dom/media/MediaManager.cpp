@@ -6080,6 +6080,8 @@ GetSources
 MediaEngine
 *
 engine
+uint64_t
+aWindowId
 MediaSourceEnum
 aSrcType
 nsTArray
@@ -6123,6 +6125,7 @@ engine
 >
 EnumerateDevices
 (
+aWindowId
 aSrcType
 &
 sources
@@ -7921,6 +7924,7 @@ fakeCams
 fakeBackend
 :
 realBackend
+aWindowId
 aVideoType
 videos
 videoLoopDev
@@ -7970,6 +7974,7 @@ fakeMics
 fakeBackend
 :
 realBackend
+aWindowId
 aAudioType
 audios
 audioLoopDev
