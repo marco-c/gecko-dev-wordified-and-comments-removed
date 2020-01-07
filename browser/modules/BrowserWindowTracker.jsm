@@ -1027,7 +1027,12 @@ for
 let
 window
 of
+[
+.
+.
+.
 _trackedWindows
+]
 )
 yield
 window
