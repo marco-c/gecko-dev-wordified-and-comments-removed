@@ -310,16 +310,8 @@ capabilities
 "
 ]
 =
-dict
-(
-DesiredCapabilities
-.
-EDGE
-.
-items
-(
-)
-)
+{
+}
     
 return
 executor_kwargs
