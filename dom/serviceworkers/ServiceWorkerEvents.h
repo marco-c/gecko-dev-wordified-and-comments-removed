@@ -560,12 +560,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 FetchEvent
 ExtendableEvent
 )
-NS_FORWARD_NSIDOMEVENT
-(
-Event
-:
-:
-)
 virtual
 JSObject
 *
@@ -726,6 +720,12 @@ Promise
 Default
 (
 )
+;
+using
+Event
+:
+:
+PreventDefault
 ;
 void
 PreventDefault
@@ -951,7 +951,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 PushEvent
 ExtendableEvent
 )
-NS_FORWARD_TO_EVENT
 virtual
 JSObject
 *

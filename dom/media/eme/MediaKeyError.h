@@ -64,7 +64,6 @@ Event
 {
 public
 :
-NS_FORWARD_TO_EVENT
 MediaKeyError
 (
 EventTarget

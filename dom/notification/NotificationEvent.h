@@ -91,7 +91,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 NotificationEvent
 ExtendableEvent
 )
-NS_FORWARD_TO_EVENT
 virtual
 JSObject
 *
