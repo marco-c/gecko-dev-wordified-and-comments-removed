@@ -22,9 +22,6 @@ SeekFrom
 }
 ;
 use
-cbor
-:
-:
 {
 CborError
 CborType

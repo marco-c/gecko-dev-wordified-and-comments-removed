@@ -573,7 +573,7 @@ signed_app_signatures
 .
 policy
 "
-0
+2
 )
 ;
 #

@@ -15,10 +15,7 @@ NSSError
 use
 SignatureAlgorithm
 ;
-#
-[
-test
-]
+pub
 fn
 test_nss_sign_verify
 (
@@ -108,10 +105,7 @@ is_ok
 )
 ;
 }
-#
-[
-test
-]
+pub
 fn
 test_nss_sign_verify_different_payload
 (
@@ -227,10 +221,7 @@ SignatureVerificationFailed
 )
 ;
 }
-#
-[
-test
-]
+pub
 fn
 test_nss_sign_verify_wrong_cert
 (

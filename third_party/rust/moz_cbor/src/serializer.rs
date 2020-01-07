@@ -8,9 +8,6 @@ collections
 BTreeMap
 ;
 use
-cbor
-:
-:
 CborType
 ;
 fn

@@ -38,6 +38,9 @@ raw
 c_char
 ;
 use
+cose
+:
+:
 SignatureAlgorithm
 ;
 type

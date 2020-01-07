@@ -59,15 +59,7 @@ protected_signature_header_serialized
 CborType
 :
 :
-Bytes
-(
-Vec
-:
-:
-new
-(
-)
-)
+Null
 CborType
 :
 :

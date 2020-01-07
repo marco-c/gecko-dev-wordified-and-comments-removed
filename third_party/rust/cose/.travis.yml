@@ -1,6 +1,9 @@
 sudo
 :
 true
+dist
+:
+trusty
 language
 :
 rust
@@ -29,6 +32,7 @@ essential
 libnss3
 -
 dev
+#
 install
 :
 #
@@ -53,11 +57,15 @@ always
 succeed
 "
 .
+#
 -
 (
 cargo
 install
 rustfmt
+-
+-
+force
 |
 |
 true
@@ -163,8 +171,10 @@ libnss3_3
 1ubuntu3_amd64
 .
 deb
+#
 -
 |
+#
 cargo
 fmt
 -
@@ -190,3 +200,11 @@ FEATURES
 &
 cargo
 test
+&
+&
+cargo
+run
+-
+-
+example
+sign_verify

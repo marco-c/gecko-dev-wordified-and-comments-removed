@@ -1,7 +1,4 @@
 use
-cbor
-:
-:
 CborType
 ;
 use
