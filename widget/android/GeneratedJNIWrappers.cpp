@@ -11476,7 +11476,7 @@ a2
 }
 const
 char
-NativePanZoomController
+PanZoomController
 :
 :
 name
@@ -11492,12 +11492,12 @@ gecko
 /
 gfx
 /
-NativePanZoomController
+PanZoomController
 "
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 DisposeNative_t
@@ -11509,7 +11509,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 DisposeNative_t
@@ -11521,7 +11521,7 @@ signature
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMotionEvent_t
@@ -11533,7 +11533,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMotionEvent_t
@@ -11545,7 +11545,7 @@ signature
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMouseEvent_t
@@ -11557,7 +11557,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMouseEvent_t
@@ -11569,7 +11569,7 @@ signature
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 HandleScrollEvent_t
@@ -11581,7 +11581,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 HandleScrollEvent_t
@@ -11593,7 +11593,7 @@ signature
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SetIsLongpressEnabled_t
@@ -11605,7 +11605,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SetIsLongpressEnabled_t
@@ -11617,7 +11617,7 @@ signature
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SetAttached_t
@@ -11629,7 +11629,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SetAttached_t
@@ -11640,7 +11640,7 @@ signature
 ]
 ;
 auto
-NativePanZoomController
+PanZoomController
 :
 :
 SetAttached
@@ -11668,7 +11668,7 @@ SetAttached_t
 :
 Call
 (
-NativePanZoomController
+PanZoomController
 :
 :
 mCtx
@@ -11679,7 +11679,7 @@ a0
 }
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SynthesizeNativeMouseEvent_t
@@ -11691,7 +11691,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SynthesizeNativeMouseEvent_t
@@ -11702,7 +11702,7 @@ signature
 ]
 ;
 auto
-NativePanZoomController
+PanZoomController
 :
 :
 SynthesizeNativeMouseEvent
@@ -11734,7 +11734,7 @@ SynthesizeNativeMouseEvent_t
 :
 Call
 (
-NativePanZoomController
+PanZoomController
 :
 :
 mCtx
@@ -11747,7 +11747,7 @@ a2
 }
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SynthesizeNativeTouchPoint_t
@@ -11759,7 +11759,7 @@ name
 ;
 constexpr
 char
-NativePanZoomController
+PanZoomController
 :
 :
 SynthesizeNativeTouchPoint_t
@@ -11770,7 +11770,7 @@ signature
 ]
 ;
 auto
-NativePanZoomController
+PanZoomController
 :
 :
 SynthesizeNativeTouchPoint
@@ -11808,7 +11808,7 @@ SynthesizeNativeTouchPoint_t
 :
 Call
 (
-NativePanZoomController
+PanZoomController
 :
 :
 mCtx

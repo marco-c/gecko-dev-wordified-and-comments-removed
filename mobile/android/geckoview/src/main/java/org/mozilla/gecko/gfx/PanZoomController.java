@@ -92,7 +92,7 @@ ArrayList
 public
 final
 class
-NativePanZoomController
+PanZoomController
 extends
 JNIObject
 {
@@ -870,7 +870,7 @@ getButtonState
 )
 ;
 }
-NativePanZoomController
+PanZoomController
 (
 final
 LayerSession

@@ -43,20 +43,6 @@ ThreadUtils
 import
 android
 .
-content
-.
-Context
-;
-import
-android
-.
-graphics
-.
-Color
-;
-import
-android
-.
 graphics
 .
 Matrix
@@ -329,7 +315,7 @@ native
 void
 attachNPZC
 (
-NativePanZoomController
+PanZoomController
 npzc
 )
 ;
@@ -800,7 +786,7 @@ this
 )
 ;
 private
-NativePanZoomController
+PanZoomController
 mNPZC
 ;
 private
@@ -893,7 +879,7 @@ mDisplay
 ;
 }
 public
-NativePanZoomController
+PanZoomController
 getPanZoomController
 (
 )
@@ -915,7 +901,7 @@ null
 mNPZC
 =
 new
-NativePanZoomController
+PanZoomController
 (
 this
 )
