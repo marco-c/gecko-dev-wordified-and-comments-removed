@@ -3354,6 +3354,9 @@ write
 '
 PYTHON
 =
+PYTHONDONTWRITEBYTECODE
+=
+1
 (
 MOZ_OBJ_ROOT
 )
@@ -3363,8 +3366,6 @@ _virtualenv
 bin
 /
 python
--
-B
 \
 n
 '
