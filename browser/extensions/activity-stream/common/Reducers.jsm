@@ -64,12 +64,12 @@ jsm
 const
 TOP_SITES_DEFAULT_ROWS
 =
-2
+1
 ;
 const
 TOP_SITES_MAX_SITES_PER_ROW
 =
-6
+8
 ;
 const
 dedupe
