@@ -137,11 +137,6 @@ RDFManifestConverter
 jsm
 '
 '
-SpellCheckDictionaryBootstrap
-.
-js
-'
-'
 XPIDatabase
 .
 jsm

@@ -95,11 +95,6 @@ mozHunspell
 cpp
 '
 '
-mozHunspellDirProvider
-.
-cpp
-'
-'
 mozHunspellFileMgr
 .
 cpp
