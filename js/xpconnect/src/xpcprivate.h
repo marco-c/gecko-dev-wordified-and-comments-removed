@@ -7049,7 +7049,7 @@ wrapper
 uint16_t
 methodIndex
 const
-XPTMethodDescriptor
+nsXPTMethodInfo
 *
 info
 nsXPTCMiniVariant
@@ -7264,7 +7264,7 @@ JSContext
 *
 cx
 const
-XPTMethodDescriptor
+nsXPTMethodInfo
 *
 method
 const
@@ -7291,7 +7291,7 @@ JSContext
 *
 cx
 const
-XPTMethodDescriptor
+nsXPTMethodInfo
 *
 method
 const
@@ -7424,7 +7424,7 @@ CallMethod
 uint16_t
 methodIndex
 const
-XPTMethodDescriptor
+nsXPTMethodInfo
 *
 info
 nsXPTCMiniVariant
@@ -7896,7 +7896,7 @@ bool
 IsMethodReflectable
 (
 const
-XPTMethodDescriptor
+nsXPTMethodInfo
 &
 info
 )

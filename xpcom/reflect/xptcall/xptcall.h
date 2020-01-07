@@ -628,7 +628,7 @@ CallMethod
 uint16_t
 aMethodIndex
 const
-XPTMethodDescriptor
+nsXPTMethodInfo
 *
 aInfo
 nsXPTCMiniVariant
