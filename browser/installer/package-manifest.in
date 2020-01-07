@@ -1897,13 +1897,6 @@ RESPATH
 /
 components
 /
-windowds
-.
-xpt
-RESPATH
-/
-components
-/
 windowwatcher
 .
 xpt

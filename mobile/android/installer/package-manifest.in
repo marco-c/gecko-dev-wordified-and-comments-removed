@@ -1436,13 +1436,6 @@ BINPATH
 /
 components
 /
-windowds
-.
-xpt
-BINPATH
-/
-components
-/
 windowwatcher
 .
 xpt
