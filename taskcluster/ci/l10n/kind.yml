@@ -637,6 +637,10 @@ entries
 options
 :
 -
+revision
+=
+GECKO_HEAD_REV
+-
 total
 -
 chunks
