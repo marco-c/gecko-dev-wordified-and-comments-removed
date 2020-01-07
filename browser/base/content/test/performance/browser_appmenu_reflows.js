@@ -180,7 +180,7 @@ PanelMultiView
 jsm
 "
 ]
-times
+maxCount
 :
 6
 }
@@ -221,7 +221,7 @@ PanelMultiView
 jsm
 "
 ]
-times
+maxCount
 :
 4
 }

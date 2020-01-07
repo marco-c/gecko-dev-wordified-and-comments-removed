@@ -94,7 +94,7 @@ tabbrowser
 xml
 "
 ]
-times
+maxCount
 :
 2
 }
@@ -198,7 +198,7 @@ tabbrowser
 xml
 "
 ]
-times
+maxCount
 :
 Services
 .

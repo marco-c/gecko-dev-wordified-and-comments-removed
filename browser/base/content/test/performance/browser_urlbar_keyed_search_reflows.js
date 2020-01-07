@@ -169,9 +169,6 @@ autocomplete
 xml
 "
 ]
-times
-:
-1
 }
 {
 stack
@@ -210,7 +207,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 5
 }
@@ -256,10 +253,7 @@ autocomplete
 xml
 "
 ]
-minTimes
-:
-39
-times
+maxCount
 :
 51
 }
@@ -364,7 +358,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 60
 }
@@ -465,7 +459,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 6
 }
