@@ -144,6 +144,12 @@ TabState
 collect
 (
 tab
+ss
+.
+getInternalObjectState
+(
+tab
+)
 )
 ;
 is
