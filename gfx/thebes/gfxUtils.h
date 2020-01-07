@@ -821,6 +821,12 @@ status
 ;
 static
 void
+RemoveShaderCacheFromDiskIfNecessary
+(
+)
+;
+static
+void
 CopyAsDataURI
 (
 SourceSurface

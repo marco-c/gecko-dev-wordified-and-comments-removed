@@ -170,8 +170,15 @@ WebRenderProgramCache
 {
 public
 :
+explicit
 WebRenderProgramCache
 (
+wr
+:
+:
+WrThreadPool
+*
+aThreadPool
 )
 ;
 ~
@@ -548,6 +555,11 @@ layers
 SynchronousTask
 *
 aTask
+)
+;
+void
+ProgramCacheTask
+(
 )
 ;
 ~
