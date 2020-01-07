@@ -26,13 +26,6 @@ URLMatchingFunction
 .
 h
 "
-#
-include
-"
-nsIDOMCSSMozDocumentRule
-.
-h
-"
 namespace
 mozilla
 {
@@ -48,7 +41,7 @@ css
 :
 ConditionRule
 public
-nsIDOMCSSMozDocumentRule
+nsIDOMCSSConditionRule
 {
 protected
 :
@@ -130,7 +123,6 @@ override
 =
 0
 ;
-NS_DECL_NSIDOMCSSMOZDOCUMENTRULE
 uint16_t
 Type
 (

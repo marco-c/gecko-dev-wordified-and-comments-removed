@@ -163,11 +163,6 @@ nsIDOMCSSMediaRule
 idl
 '
 '
-nsIDOMCSSMozDocumentRule
-.
-idl
-'
-'
 nsIDOMCSSPageRule
 .
 idl

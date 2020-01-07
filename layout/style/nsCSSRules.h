@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsIDOMCSSMozDocumentRule
-.
-h
-"
-#
-include
-"
 nsIDOMCSSSupportsRule
 .
 h
