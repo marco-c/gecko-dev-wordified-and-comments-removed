@@ -83,7 +83,7 @@ h
 #
 include
 "
-nsIFrameLoader
+nsIFrameLoaderOwner
 .
 h
 "

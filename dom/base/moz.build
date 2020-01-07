@@ -182,7 +182,7 @@ nsIDroppedLinkHandler
 idl
 '
 '
-nsIFrameLoader
+nsIFrameLoaderOwner
 .
 idl
 '
