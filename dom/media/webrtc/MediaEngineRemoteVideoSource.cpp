@@ -931,6 +931,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+!
+mImageContainer
+)
+{
 mImageContainer
 =
 layers
@@ -950,6 +956,7 @@ ImageContainer
 ASYNCHRONOUS
 )
 ;
+}
 {
 MonitorAutoLock
 lock
