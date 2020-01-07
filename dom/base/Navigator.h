@@ -872,6 +872,12 @@ Credentials
 (
 )
 ;
+static
+bool
+Webdriver
+(
+)
+;
 void
 GetLanguages
 (
