@@ -439,6 +439,12 @@ mCompositorDisplay
 endif
 protected
 :
+bool
+CheckVariationFontSupport
+(
+)
+override
+;
 int8_t
 mMaxGenericSubstitutions
 ;

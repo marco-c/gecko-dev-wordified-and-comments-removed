@@ -233,6 +233,16 @@ return
 true
 ;
 }
+bool
+CheckVariationFontSupport
+(
+)
+override
+{
+return
+true
+;
+}
 private
 :
 gfxImageFormat

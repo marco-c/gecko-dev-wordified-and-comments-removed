@@ -2154,6 +2154,14 @@ CanUseHardwareVideoDecoding
 (
 )
 ;
+virtual
+bool
+CheckVariationFontSupport
+(
+)
+=
+0
+;
 int8_t
 mAllowDownloadableFonts
 ;
