@@ -4056,6 +4056,15 @@ Value
 vp
 )
 ;
+extern
+void
+ThrowTypeErrorBehavior
+(
+JSContext
+*
+cx
+)
+;
 class
 FunctionExtended
 :
