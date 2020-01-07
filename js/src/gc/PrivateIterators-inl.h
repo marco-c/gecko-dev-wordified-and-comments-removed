@@ -16,7 +16,11 @@ h
 #
 include
 "
-jsgcinlines
+gc
+/
+GC
+-
+inl
 .
 h
 "

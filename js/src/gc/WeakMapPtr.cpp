@@ -10,7 +10,9 @@ h
 #
 include
 "
-jsweakmap
+gc
+/
+WeakMap
 .
 h
 "

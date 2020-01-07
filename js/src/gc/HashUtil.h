@@ -1,9 +1,9 @@
 #
 ifndef
-jshashutil_h
+gc_HashUtil_h
 #
 define
-jshashutil_h
+gc_HashUtil_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsweakmap_h
+gc_WeakMap_h
 #
 define
-jsweakmap_h
+gc_WeakMap_h
 #
 include
 "

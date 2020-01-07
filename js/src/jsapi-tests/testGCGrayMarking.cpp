@@ -1,7 +1,9 @@
 #
 include
 "
-jsweakmap
+gc
+/
+Heap
 .
 h
 "
@@ -10,7 +12,7 @@ include
 "
 gc
 /
-Heap
+WeakMap
 .
 h
 "

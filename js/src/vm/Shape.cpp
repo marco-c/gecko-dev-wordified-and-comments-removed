@@ -39,7 +39,9 @@ h
 #
 include
 "
-jshashutil
+gc
+/
+FreeOp
 .
 h
 "
@@ -48,7 +50,7 @@ include
 "
 gc
 /
-FreeOp
+HashUtil
 .
 h
 "

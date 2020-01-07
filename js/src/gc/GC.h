@@ -1,9 +1,9 @@
 #
 ifndef
-jsgc_h
+gc_GC_h
 #
 define
-jsgc_h
+gc_GC_h
 #
 include
 "

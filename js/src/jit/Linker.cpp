@@ -10,7 +10,9 @@ h
 #
 include
 "
-jsgc
+gc
+/
+GC
 .
 h
 "
