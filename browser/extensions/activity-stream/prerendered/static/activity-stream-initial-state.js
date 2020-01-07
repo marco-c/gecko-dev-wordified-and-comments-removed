@@ -108,11 +108,6 @@ highlights
 :
 true
 "
-enableWideLayout
-"
-:
-true
-"
 sectionOrder
 "
 :

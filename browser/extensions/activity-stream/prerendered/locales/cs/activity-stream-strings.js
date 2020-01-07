@@ -1287,7 +1287,9 @@ section_menu_action_privacy_notice
 Z
 sady
 ochrany
-soukrom
+osobn
+ch
+daj
 "
 }
 ;

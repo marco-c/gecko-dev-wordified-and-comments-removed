@@ -139,6 +139,9 @@ dsb
 el
 en
 -
+CA
+en
+-
 GB
 eo
 es

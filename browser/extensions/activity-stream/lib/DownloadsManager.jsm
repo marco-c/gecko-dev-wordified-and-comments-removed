@@ -435,6 +435,11 @@ downloadedItem
 source
 .
 referrer
+date_added
+:
+downloadedItem
+.
+endTime
 }
 ;
 }
