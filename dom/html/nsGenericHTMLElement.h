@@ -2944,11 +2944,6 @@ CSSIntRect
 aRect
 )
 ;
-bool
-IsCurrentBodyElement
-(
-)
-;
 static
 void
 SyncEditorsOnSubtree
