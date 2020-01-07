@@ -2044,6 +2044,9 @@ spellCheckSelection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -3246,6 +3249,9 @@ selection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 selection
@@ -4539,6 +4545,9 @@ aSpellCheckSelection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 auto

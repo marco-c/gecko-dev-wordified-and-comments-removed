@@ -1565,6 +1565,9 @@ selection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 selection
@@ -3130,9 +3133,9 @@ FlushType
 Frames
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 sel
 =
@@ -3287,6 +3290,9 @@ sel
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 SetSelectionAndScroll
@@ -3346,7 +3352,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsISelection
+Selection
 >
 nsWebBrowserFind
 :
@@ -3566,9 +3572,9 @@ NS_ENSURE_ARG
 aWindow
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 selection
 =
@@ -3587,6 +3593,9 @@ selection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

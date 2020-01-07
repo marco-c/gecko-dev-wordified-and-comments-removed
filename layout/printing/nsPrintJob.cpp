@@ -9240,6 +9240,9 @@ selectionPS
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

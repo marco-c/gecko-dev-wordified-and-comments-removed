@@ -11176,6 +11176,9 @@ domSelection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 if

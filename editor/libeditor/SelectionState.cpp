@@ -352,6 +352,9 @@ aSel
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 size_t

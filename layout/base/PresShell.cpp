@@ -13919,6 +13919,9 @@ sel
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 sel
