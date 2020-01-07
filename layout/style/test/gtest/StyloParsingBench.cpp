@@ -223,6 +223,9 @@ ServoParsingBench
 ;
 #
 endif
+#
+ifdef
+MOZ_OLD_STYLE
 static
 void
 GeckoParsingBench
@@ -319,6 +322,8 @@ Gecko_nsCSSParser_ParseSheet_Bench
 GeckoParsingBench
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_STYLO
