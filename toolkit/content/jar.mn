@@ -49,6 +49,13 @@ content
 /
 global
 /
+components
+.
+css
+content
+/
+global
+/
 textbox
 .
 css
