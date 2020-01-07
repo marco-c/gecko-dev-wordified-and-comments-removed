@@ -709,11 +709,6 @@ toolbar_vertical_separator
 :
 case
 "
-button_background
-"
-:
-case
-"
 button_background_hover
 "
 :
