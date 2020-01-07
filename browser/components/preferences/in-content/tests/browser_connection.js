@@ -295,9 +295,11 @@ networkProxyNone
 let
 networkProxyNonePref
 =
-doc
+win
 .
-getElementById
+Preferences
+.
+get
 (
 "
 network
@@ -311,9 +313,11 @@ no_proxies_on
 let
 networkProxyTypePref
 =
-doc
+win
 .
-getElementById
+Preferences
+.
+get
 (
 "
 network

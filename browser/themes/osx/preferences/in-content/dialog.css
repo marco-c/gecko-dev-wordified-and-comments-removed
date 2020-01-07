@@ -18,6 +18,7 @@ dialog
 inc
 .
 css
+.
 prefwindow
 .
 windowDialog
@@ -43,15 +44,5 @@ size
 1
 .
 18em
-;
-}
-.
-prefWindow
--
-dlgbuttons
-{
-margin
-:
-0
 ;
 }

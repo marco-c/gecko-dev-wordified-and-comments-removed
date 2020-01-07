@@ -5,8 +5,8 @@ if
 endif
 dialog
 window
+.
 prefpane
-prefwindow
 .
 windowDialog
 {
@@ -156,6 +156,7 @@ bottom
 5px
 ;
 }
+.
 prefpane
 .
 groupbox
