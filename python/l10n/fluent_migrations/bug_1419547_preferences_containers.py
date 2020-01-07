@@ -699,9 +699,22 @@ style
 '
 )
                         
-COPY
+CONCAT
 (
                             
+FTL
+.
+TextElement
+(
+'
+width
+:
+'
+)
+                            
+COPY
+(
+                                
 '
 browser
 /
@@ -715,12 +728,14 @@ containers
 .
 dtd
 '
-                            
+                                
 '
 window
 .
 width
 '
+                            
+)
                         
 )
                     
