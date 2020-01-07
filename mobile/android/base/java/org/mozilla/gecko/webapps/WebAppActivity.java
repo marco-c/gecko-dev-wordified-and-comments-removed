@@ -1917,8 +1917,8 @@ final
 String
 urlStr
 final
-TargetWindow
-where
+int
+target
 )
 {
 final
@@ -1972,12 +1972,10 @@ uri
 )
 &
 &
-where
+target
 !
 =
-TargetWindow
-.
-NEW
+TARGET_WINDOW_NEW
 )
 {
 return
