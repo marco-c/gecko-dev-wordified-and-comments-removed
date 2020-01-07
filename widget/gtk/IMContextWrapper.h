@@ -1264,6 +1264,9 @@ mMaybeInDeadKeySequence
 bool
 mIsIMInAsyncKeyHandlingMode
 ;
+bool
+mIsKeySnooped
+;
 static
 IMContextWrapper
 *
@@ -1574,6 +1577,8 @@ aContext
 bool
 MaybeDispatchKeyEventAsProcessedByIME
 (
+EventMessage
+aFollowingEvent
 )
 ;
 bool
