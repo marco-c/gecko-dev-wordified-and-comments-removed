@@ -14719,6 +14719,16 @@ JSJitFrameIter
 jitIter
 (
 cx
+-
+>
+activation
+(
+)
+-
+>
+asJit
+(
+)
 )
 ;
 +

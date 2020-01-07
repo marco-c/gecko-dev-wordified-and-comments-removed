@@ -1777,6 +1777,16 @@ JSJitFrameIter
 frame
 (
 cx
+-
+>
+activation
+(
+)
+-
+>
+asJit
+(
+)
 )
 ;
 MOZ_ASSERT

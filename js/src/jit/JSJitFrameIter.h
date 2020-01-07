@@ -157,14 +157,6 @@ JitActivation
 activation
 )
 ;
-explicit
-JSJitFrameIter
-(
-JSContext
-*
-cx
-)
-;
 void
 exchangeReturnAddressIfMatch
 (
