@@ -561,6 +561,11 @@ ShowViewer
 (
 )
 ;
+void
+ClearDisplayItems
+(
+)
+;
 nsIFrame
 *
 ObtainIntrinsicSizeFrame
