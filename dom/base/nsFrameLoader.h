@@ -413,6 +413,8 @@ LoadContext
 void
 LoadFrame
 (
+bool
+aOriginalSrc
 mozilla
 :
 :
@@ -427,6 +429,8 @@ LoadURI
 nsIURI
 *
 aURI
+bool
+aOriginalSrc
 mozilla
 :
 :
@@ -444,6 +448,8 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
+bool
+aOriginalSrc
 )
 ;
 void
@@ -1554,6 +1560,11 @@ mHideCalled
 ;
 bool
 mNetworkCreated
+:
+1
+;
+bool
+mLoadingOriginalSrc
 :
 1
 ;

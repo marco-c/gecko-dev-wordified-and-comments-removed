@@ -139,6 +139,10 @@ aNodeInfo
 nsBrowserElement
 (
 )
+mSrcLoadHappened
+(
+false
+)
 mNetworkCreated
 (
 aFromParser
@@ -472,6 +476,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mSrcTriggeringPrincipal
+;
+bool
+mSrcLoadHappened
 ;
 bool
 mNetworkCreated

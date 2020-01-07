@@ -253,6 +253,11 @@ Throws
 void
 loadFrame
 (
+optional
+boolean
+originalSrc
+=
+false
 )
 ;
 /
@@ -293,6 +298,11 @@ loadURI
 (
 URI
 aURI
+optional
+boolean
+originalSrc
+=
+false
 )
 ;
 /

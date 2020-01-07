@@ -189,6 +189,12 @@ IsTopLevel
 )
 const
 ;
+bool
+ShouldMatchActiveTabPermission
+(
+)
+const
+;
 uint64_t
 FrameID
 (
@@ -662,6 +668,9 @@ RefPtr
 WebExtensionPolicy
 >
 mExtension
+;
+bool
+mHasActiveTabPermission
 ;
 RefPtr
 <

@@ -890,6 +890,10 @@ mNetworkCreated
 (
 aNetworkCreated
 )
+mLoadingOriginalSrc
+(
+false
+)
 mRemoteBrowserShown
 (
 false
@@ -1059,6 +1063,8 @@ nsFrameLoader
 :
 LoadFrame
 (
+bool
+aOriginalSrc
 ErrorResult
 &
 aRv
@@ -1069,6 +1075,7 @@ rv
 =
 LoadFrame
 (
+aOriginalSrc
 )
 ;
 if
@@ -1094,6 +1101,8 @@ nsFrameLoader
 :
 LoadFrame
 (
+bool
+aOriginalSrc
 )
 {
 NS_ENSURE_TRUE
@@ -1359,6 +1368,7 @@ LoadURI
 (
 uri
 principal
+aOriginalSrc
 )
 ;
 }
@@ -1436,6 +1446,8 @@ LoadURI
 nsIURI
 *
 aURI
+bool
+aOriginalSrc
 ErrorResult
 &
 aRv
@@ -1447,6 +1459,7 @@ rv
 LoadURI
 (
 aURI
+aOriginalSrc
 )
 ;
 if
@@ -1475,6 +1488,8 @@ LoadURI
 nsIURI
 *
 aURI
+bool
+aOriginalSrc
 )
 {
 return
@@ -1482,6 +1497,7 @@ LoadURI
 (
 aURI
 nullptr
+aOriginalSrc
 )
 ;
 }
@@ -1497,6 +1513,8 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
+bool
+aOriginalSrc
 )
 {
 if
@@ -1515,6 +1533,10 @@ mDestroyCalled
 &
 mOwnerContent
 )
+;
+mLoadingOriginalSrc
+=
+aOriginalSrc
 ;
 nsCOMPtr
 <
@@ -4114,6 +4136,18 @@ NS_ENSURE_TRUE
 loadInfo
 NS_ERROR_FAILURE
 )
+;
+loadInfo
+-
+>
+SetOriginalFrameSrc
+(
+mLoadingOriginalSrc
+)
+;
+mLoadingOriginalSrc
+=
+false
 ;
 if
 (

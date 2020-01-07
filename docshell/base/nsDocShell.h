@@ -1687,6 +1687,8 @@ bool
 aLoadFromExternal
 bool
 aForceAllowDataURI
+bool
+aOriginalFrameSrc
 nsIURI
 *
 aReferrer

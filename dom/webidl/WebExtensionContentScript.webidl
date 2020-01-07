@@ -927,6 +927,11 @@ frameID
 =
 null
 ;
+boolean
+hasActiveTabPermission
+=
+false
+;
 required
 MatchPatternSet
 matches

@@ -245,6 +245,11 @@ runAt
 options
 .
 run_at
+hasActiveTabPermission
+:
+options
+.
+hasActiveTabPermission
 matches
 :
 new

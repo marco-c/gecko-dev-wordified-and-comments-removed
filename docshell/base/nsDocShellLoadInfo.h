@@ -101,6 +101,9 @@ bool
 mForceAllowDataURI
 ;
 bool
+mOriginalFrameSrc
+;
+bool
 mSendReferrer
 ;
 nsDocShellInfoReferrerPolicy

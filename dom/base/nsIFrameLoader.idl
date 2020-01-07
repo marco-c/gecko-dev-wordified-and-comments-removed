@@ -278,6 +278,9 @@ loader
 void
 loadFrame
 (
+in
+boolean
+originalSrc
 )
 ;
 /
@@ -316,6 +319,9 @@ loadURI
 in
 nsIURI
 aURI
+in
+boolean
+originalSrc
 )
 ;
 /
