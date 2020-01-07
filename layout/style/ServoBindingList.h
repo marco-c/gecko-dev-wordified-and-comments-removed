@@ -557,6 +557,13 @@ RawServoAuthorStyles
 )
 SERVO_BINDING_FUNC
 (
+Servo_AuthorStyles_Drop
+void
+RawServoAuthorStylesOwned
+self
+)
+SERVO_BINDING_FUNC
+(
 Servo_AuthorStyles_AppendStyleSheet
 void
 RawServoAuthorStylesBorrowedMut
