@@ -88,9 +88,6 @@ Keyframe
 struct
 StyleTransition
 ;
-class
-ComputedStyle
-;
 }
 namespace
 mozilla
