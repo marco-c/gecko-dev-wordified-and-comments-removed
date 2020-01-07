@@ -617,12 +617,6 @@ TimerPrecisionType
 aType
 )
 ;
-static
-double
-TimerResolution
-(
-)
-;
 enum
 TimeScale
 {
