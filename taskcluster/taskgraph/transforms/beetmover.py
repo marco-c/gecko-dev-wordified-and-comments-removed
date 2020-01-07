@@ -87,6 +87,12 @@ _DESKTOP_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
 =
 [
     
+'
+buildhub
+.
+json
+'
+    
 "
 target
 .
@@ -278,6 +284,16 @@ mar
 _MOBILE_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
 =
 [
+    
+"
+en
+-
+US
+/
+buildhub
+.
+json
+"
     
 "
 en
@@ -498,6 +514,12 @@ zip
 _MOBILE_UPSTREAM_ARTIFACTS_UNSIGNED_MULTI
 =
 [
+    
+"
+buildhub
+.
+json
+"
     
 "
 target
