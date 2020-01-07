@@ -1495,11 +1495,6 @@ UpdateCompositorWndSizeIfNecessary
 (
 )
 {
-MOZ_ASSERT
-(
-mCompositorWnd
-)
-;
 if
 (
 !
