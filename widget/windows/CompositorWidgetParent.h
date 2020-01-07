@@ -95,7 +95,7 @@ IPCResult
 RecvUpdateTransparency
 (
 const
-int32_t
+nsTransparencyMode
 &
 aMode
 )
