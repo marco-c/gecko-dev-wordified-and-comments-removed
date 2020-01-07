@@ -907,17 +907,6 @@ mozilla
 /
 layers
 /
-APZCTreeManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 InputAPZContext
 .
 h

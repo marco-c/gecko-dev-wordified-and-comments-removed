@@ -12,10 +12,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
 APZCTreeManager
 .
 h

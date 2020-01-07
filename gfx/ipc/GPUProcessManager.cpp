@@ -82,17 +82,6 @@ mozilla
 /
 layers
 /
-APZCTreeManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 APZCTreeManagerChild
 .
 h

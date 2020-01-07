@@ -764,7 +764,7 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+IAPZCTreeManager
 .
 h
 "

@@ -29,17 +29,6 @@ mozilla
 /
 layers
 /
-APZCTreeManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 AsyncPanZoomAnimation
 .
 h
@@ -213,6 +202,9 @@ layers
 class
 AsyncDragMetrics
 ;
+class
+APZCTreeManager
+;
 struct
 ScrollableLayerGuid
 ;
@@ -240,6 +232,9 @@ GenericFlingAnimation
 class
 InputBlockState
 ;
+struct
+FlingHandoffState
+;
 class
 TouchBlockState
 ;
@@ -248,6 +243,9 @@ PanGestureBlockState
 ;
 class
 OverscrollHandoffChain
+;
+struct
+OverscrollHandoffState
 ;
 class
 StateChangeNotificationBlocker

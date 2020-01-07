@@ -8,6 +8,13 @@ h
 #
 include
 "
+APZCTreeManager
+.
+h
+"
+#
+include
+"
 AsyncPanZoomController
 .
 h
@@ -51,7 +58,7 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+IAPZCTreeManager
 .
 h
 "
