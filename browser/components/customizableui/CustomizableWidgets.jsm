@@ -6023,6 +6023,9 @@ cache
 "
 downloads
 "
+"
+offlineApps
+"
 ]
 ;
 let

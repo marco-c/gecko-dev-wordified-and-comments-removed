@@ -138,7 +138,7 @@ MaybeStopTimer
 nsDataHashtable
 <
 nsCStringHashKey
-TimeStamp
+PRTime
 >
 mActivities
 ;
