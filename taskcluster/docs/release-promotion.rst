@@ -169,6 +169,7 @@ significantly
 _release
 promotion
 phases
+:
 Release
 Promotion
 Phases
@@ -392,6 +393,3 @@ balrog
 partials
 pushapk
 signing
-partner
--
-repacks

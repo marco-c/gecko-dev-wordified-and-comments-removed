@@ -6,9 +6,6 @@ Signing
 =
 =
 =
-.
-.
-_overview
 Overview
 -
 -
@@ -98,12 +95,6 @@ signature
 as
 artifacts
 .
-.
-.
-_how
-the
-task
-works
 How
 the
 Task
@@ -735,6 +726,7 @@ signing
 .
 _signing
 formats
+:
 Signing
 formats
 -
@@ -975,7 +967,7 @@ files
 (
 using
 the
-_should_sign_windows
+should_sign_windows
 _
 function
 )
@@ -1666,7 +1658,7 @@ types
 depsigning
 .
 .
-__should_sign_windows
+_should_sign_windows
 :
 https
 :

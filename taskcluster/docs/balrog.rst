@@ -29,9 +29,6 @@ Promotion
 =
 =
 =
-.
-.
-_overview
 Overview
 -
 -
@@ -604,6 +601,8 @@ tasks
 -
 -
 -
+-
+-
 You
 may
 have
@@ -689,7 +688,8 @@ en
 /
 latest
 /
-S
+.
+.
 _balrogscript
 workers
 :

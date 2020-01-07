@@ -26,9 +26,6 @@ Generation
 =
 =
 =
-.
-.
-_overview
 Overview
 -
 -
@@ -112,12 +109,6 @@ available
 near
 you
 .
-.
-.
-_how
-the
-task
-works
 How
 the
 Task
@@ -640,11 +631,6 @@ by
 Release
 Management
 .
-.
-.
-_data
-and
-metrics
 Data
 About
 Partials
@@ -791,10 +777,6 @@ make
 one
 partial
 update
-.
-.
-_nightly
-partials
 Nightly
 Partials
 -
