@@ -1297,6 +1297,7 @@ return
 mFinished
 ;
 }
+virtual
 void
 FinishOnGraphThread
 (
@@ -1740,7 +1741,7 @@ bool
 aEnabled
 )
 ;
-bool
+void
 ExtractPendingInput
 (
 StreamTime
@@ -1854,6 +1855,13 @@ aID
 ;
 void
 AdvanceKnownTracksTime
+(
+StreamTime
+aKnownTime
+)
+;
+void
+AdvanceKnownTracksTimeWithLockHeld
 (
 StreamTime
 aKnownTime
