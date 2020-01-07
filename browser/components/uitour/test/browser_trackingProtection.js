@@ -273,6 +273,8 @@ waitForConditionPromise
 >
 {
 return
+BrowserTestUtils
+.
 is_visible
 (
 TOOLTIP_PANEL
@@ -720,6 +722,8 @@ waitForConditionPromise
 >
 {
 return
+BrowserTestUtils
+.
 is_visible
 (
 TOOLTIP_PANEL

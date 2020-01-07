@@ -262,6 +262,8 @@ element
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 element
@@ -329,6 +331,8 @@ expectWarning
 {
 ok
 (
+BrowserTestUtils
+.
 is_visible
 (
 document
@@ -646,6 +650,8 @@ element
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 element
@@ -705,6 +711,8 @@ element
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 element
@@ -1150,6 +1158,8 @@ insecure
 element
 =
 >
+BrowserTestUtils
+.
 is_hidden
 (
 element
@@ -1208,6 +1218,8 @@ promiseViewShown
 ;
 ok
 (
+BrowserTestUtils
+.
 is_visible
 (
 document
@@ -1505,6 +1517,8 @@ insecure
 element
 =
 >
+BrowserTestUtils
+.
 is_hidden
 (
 element

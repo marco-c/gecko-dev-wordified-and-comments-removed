@@ -523,6 +523,8 @@ hideMenuPromise
 ok
 (
 !
+BrowserTestUtils
+.
 is_visible
 (
 popup

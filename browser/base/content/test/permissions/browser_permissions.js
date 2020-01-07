@@ -170,6 +170,8 @@ openIdentityPopup
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 emptyLabel
@@ -210,6 +212,8 @@ openIdentityPopup
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 emptyLabel
@@ -369,6 +373,8 @@ openIdentityPopup
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 emptyLabel
@@ -697,6 +703,8 @@ openIdentityPopup
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 emptyLabel
@@ -914,6 +922,8 @@ openIdentityPopup
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 emptyHint
@@ -928,6 +938,8 @@ visible
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 reloadHint
@@ -982,6 +994,8 @@ openIdentityPopup
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 emptyHint
@@ -996,6 +1010,8 @@ hidden
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 reloadHint
@@ -1052,6 +1068,8 @@ click
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 emptyHint
@@ -1067,6 +1085,8 @@ hidden
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 reloadHint
@@ -1090,6 +1110,8 @@ click
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 emptyHint
@@ -1105,6 +1127,8 @@ hidden
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 reloadHint
@@ -1151,6 +1175,8 @@ openIdentityPopup
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 emptyHint
@@ -1167,6 +1193,8 @@ reloading
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 reloadHint

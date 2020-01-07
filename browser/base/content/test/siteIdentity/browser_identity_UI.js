@@ -623,6 +623,8 @@ async
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 gIdentityHandler
@@ -914,6 +916,8 @@ null
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 gIdentityHandler

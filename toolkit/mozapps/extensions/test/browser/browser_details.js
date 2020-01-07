@@ -3098,6 +3098,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get
@@ -3865,6 +3867,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get
@@ -4592,6 +4596,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get
