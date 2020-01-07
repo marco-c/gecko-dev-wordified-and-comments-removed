@@ -301,9 +301,6 @@ intermittentShown
 "
 win
 "
-"
-linux
-"
 ]
 }
 {
