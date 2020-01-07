@@ -175,14 +175,14 @@ endif
 #
 define
 AUDIOIPC_POOL_SIZE_DEFAULT
-1
+2
 #
 define
 AUDIOIPC_STACK_SIZE_DEFAULT
 (
 64
 *
-1024
+4096
 )
 #
 define
