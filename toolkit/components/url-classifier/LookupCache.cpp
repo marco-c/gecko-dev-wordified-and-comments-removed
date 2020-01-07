@@ -2995,10 +2995,6 @@ rv
 rv
 )
 ;
-mPrimed
-=
-true
-;
 return
 NS_OK
 ;
