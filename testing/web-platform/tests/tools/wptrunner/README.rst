@@ -172,6 +172,7 @@ to
 test
 against
 :
+b2g
 chrome
 firefox
 or

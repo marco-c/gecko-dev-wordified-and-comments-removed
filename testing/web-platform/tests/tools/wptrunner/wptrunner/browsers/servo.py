@@ -278,25 +278,6 @@ pause_after_test
 "
 ]
     
-if
-test_type
-=
-=
-"
-wdspec
-"
-:
-        
-rv
-[
-"
-capabilities
-"
-]
-=
-{
-}
-    
 return
 rv
 def
@@ -350,7 +331,7 @@ bind_hostname
 "
 :
 "
-false
+true
 "
             
 "

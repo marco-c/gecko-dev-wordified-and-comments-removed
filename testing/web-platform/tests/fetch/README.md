@@ -32,4 +32,4 @@ in
 cors
 *
 /
-xhr
+XMLHttpRequest

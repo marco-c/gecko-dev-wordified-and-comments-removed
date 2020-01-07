@@ -117,7 +117,7 @@ id
 return
 super
 (
-Encoder
+ProtocolEncoder
 self
 )
 .

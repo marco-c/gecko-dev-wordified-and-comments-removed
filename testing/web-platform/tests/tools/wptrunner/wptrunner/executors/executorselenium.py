@@ -254,7 +254,6 @@ capabilities
 )
         
 except
-Exception
 :
             
 self
@@ -349,7 +348,6 @@ after_connect
 )
             
 except
-Exception
 :
                 
 print
@@ -445,7 +443,6 @@ quit
 )
         
 except
-Exception
 :
             
 pass
@@ -619,6 +616,7 @@ execute_async_script
 "
 "
 )
+;
             
 except
 exceptions
@@ -1447,7 +1445,6 @@ b4f8
 ]
         
 except
-Exception
 :
             
 after

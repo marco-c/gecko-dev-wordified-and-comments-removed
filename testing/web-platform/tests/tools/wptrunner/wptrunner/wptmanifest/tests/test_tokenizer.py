@@ -1623,7 +1623,7 @@ b
 "
 "
 "
-            
+        
 [
 (
 token_types
@@ -1633,7 +1633,7 @@ string
 key
 "
 )
-             
+         
 (
 token_types
 .
@@ -1642,7 +1642,7 @@ separator
 :
 "
 )
-             
+         
 (
 token_types
 .
@@ -1651,7 +1651,7 @@ list_start
 [
 "
 )
-             
+         
 (
 token_types
 .
@@ -1660,7 +1660,7 @@ string
 a
 "
 )
-             
+         
 (
 token_types
 .
@@ -1669,7 +1669,7 @@ string
 b
 "
 )
-             
+         
 (
 token_types
 .
@@ -2153,6 +2153,7 @@ self
 .
 compare
 (
+            
 "
 "
 "
@@ -2552,7 +2553,6 @@ self
 .
 tokenize
 (
-                
 "
 "
 "
@@ -2590,7 +2590,6 @@ self
 .
 tokenize
 (
-                
 "
 "
 "
@@ -2628,7 +2627,6 @@ self
 .
 tokenize
 (
-                
 "
 "
 "

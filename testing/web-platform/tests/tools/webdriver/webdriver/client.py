@@ -7,10 +7,6 @@ protocol
 import
 transport
 from
-six
-import
-string_types
-from
 mozlog
 import
 get_default_logger
@@ -2110,7 +2106,10 @@ if
 isinstance
 (
 name
-string_types
+(
+str
+unicode
+)
 )
 :
             
