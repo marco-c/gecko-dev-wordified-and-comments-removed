@@ -1,13 +1,6 @@
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayUtils
@@ -70,6 +63,13 @@ h
 include
 "
 nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
+nsPresContext
 .
 h
 "

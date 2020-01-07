@@ -1,14 +1,14 @@
 #
 include
 "
-nsInlineFrame
+gfxContext
 .
 h
 "
 #
 include
 "
-gfxContext
+nsInlineFrame
 .
 h
 "

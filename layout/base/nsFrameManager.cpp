@@ -1,13 +1,6 @@
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -127,6 +120,13 @@ h
 include
 "
 ChildIterator
+.
+h
+"
+#
+include
+"
+nsFrameManager
 .
 h
 "
