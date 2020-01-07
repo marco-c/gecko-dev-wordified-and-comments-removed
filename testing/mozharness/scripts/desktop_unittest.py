@@ -3955,7 +3955,7 @@ suites
 =
 self
 .
-query_verify_category_suites
+query_per_test_category_suites
 (
 category
 all_suites
@@ -6293,7 +6293,7 @@ query_abs_res_dir
 (
 )
         
-max_verify_time
+max_per_test_time
 =
 timedelta
 (
@@ -6302,11 +6302,11 @@ minutes
 60
 )
         
-max_verify_tests
+max_per_test_tests
 =
 10
         
-verified_tests
+executed_tests
 =
 0
         
@@ -6420,16 +6420,11 @@ options
 if
 self
 .
-config
+verify_enabled
+or
+self
 .
-get
-(
-'
-verify
-'
-)
-is
-True
+per_test_coverage
 :
                         
 tests_list
@@ -6885,12 +6880,28 @@ get_timeout_for_category
 suite_category
 )
                 
+if
+self
+.
+per_test_coverage
+:
+                    
+gcov_dir
+jsvm_dir
+=
+self
+.
+set_coverage_env
+(
+env
+)
+                
 for
-verify_args
+per_test_args
 in
 self
 .
-query_verify_args
+query_args
 (
 suite
 )
@@ -6909,7 +6920,7 @@ self
 start_time
 )
 >
-max_verify_time
+max_per_test_time
 :
                         
 self
@@ -6919,7 +6930,9 @@ info
 "
 TinderboxPrint
 :
-Verification
+Running
+tests
+took
 too
 long
 :
@@ -6930,7 +6943,7 @@ tests
                                   
 "
 were
-verified
+executed
 .
 <
 br
@@ -6943,10 +6956,10 @@ return
 False
                     
 if
-verified_tests
+executed_tests
 >
 =
-max_verify_tests
+max_per_test_tests
 :
                         
 self
@@ -6968,7 +6981,7 @@ tests
                                   
 "
 were
-verified
+executed
 .
 <
 br
@@ -6980,9 +6993,9 @@ br
 return
 False
                     
-verified_tests
+executed_tests
 =
-verified_tests
+executed_tests
 +
 1
                     
@@ -6999,7 +7012,23 @@ final_cmd
 .
 extend
 (
-verify_args
+per_test_args
+)
+                    
+if
+self
+.
+per_test_coverage
+:
+                        
+gcov_dir
+jsvm_dir
+=
+self
+.
+set_coverage_env
+(
+env
 )
                     
 return_code
@@ -7029,6 +7058,37 @@ parser
 env
 =
 env
+)
+                    
+if
+self
+.
+per_test_coverage
+:
+                        
+grcov_file
+jsvm_file
+=
+self
+.
+parse_coverage_artifacts
+(
+gcov_dir
+jsvm_dir
+)
+                        
+shutil
+.
+rmtree
+(
+gcov_dir
+)
+                        
+shutil
+.
+rmtree
+(
+jsvm_dir
 )
                     
 success_codes
@@ -7091,7 +7151,7 @@ log_level
 if
 len
 (
-verify_args
+per_test_args
 )
 >
 0
@@ -7099,9 +7159,9 @@ verify_args
                         
 self
 .
-log_verify_status
+log_per_test_status
 (
-verify_args
+per_test_args
 [
 -
 1

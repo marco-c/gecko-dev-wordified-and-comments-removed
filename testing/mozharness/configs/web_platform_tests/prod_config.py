@@ -267,7 +267,7 @@ geckodriver
 "
     
 "
-verify_category
+per_test_category
 "
 :
 "

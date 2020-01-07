@@ -449,7 +449,7 @@ download_minidump_stackwalk
 True
     
 "
-verify_category
+per_test_category
 "
 :
 "

@@ -78,6 +78,20 @@ wpt
 '
     
 '
+test
+-
+coverage
+'
+    
+'
+test
+-
+coverage
+-
+wpt
+'
+    
+'
 jsreftest
 '
 ]
