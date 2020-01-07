@@ -469,6 +469,12 @@ found
 "
 )
 ;
+executeSoon
+(
+(
+)
+=
+>
 resolve
 (
 aEvent
@@ -480,6 +486,7 @@ dialog
 _frame
 .
 contentWindow
+)
 )
 ;
 }
