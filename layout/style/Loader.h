@@ -1104,9 +1104,9 @@ aTriggeringPrincipal
 nsIURI
 *
 aTargetURI
-nsISupports
+nsINode
 *
-aContext
+aRequestingNode
 bool
 aIsPreload
 )
