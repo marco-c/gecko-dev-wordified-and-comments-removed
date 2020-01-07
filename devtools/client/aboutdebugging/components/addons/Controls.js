@@ -764,7 +764,7 @@ Strings
 GetStringFromName
 (
 "
-loadTemporaryAddon
+loadTemporaryAddon2
 "
 )
 )
