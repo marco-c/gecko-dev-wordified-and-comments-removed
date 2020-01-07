@@ -187,7 +187,10 @@ disk
 .
 *
 /
-void
+[
+implicit_jscontext
+]
+Promise
 dumpCounters
 (
 )
@@ -212,7 +215,10 @@ executed
 .
 *
 /
-void
+[
+implicit_jscontext
+]
+Promise
 resetCounters
 (
 )
