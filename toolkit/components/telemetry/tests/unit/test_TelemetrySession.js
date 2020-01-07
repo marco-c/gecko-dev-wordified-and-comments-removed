@@ -11769,9 +11769,6 @@ EXTENDED_PAYLOAD_FIELDS
 =
 [
 "
-chromeHangs
-"
-"
 log
 "
 "
