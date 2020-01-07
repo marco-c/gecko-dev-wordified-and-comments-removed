@@ -456,8 +456,13 @@ var
 currentOptions
 =
 options
+?
+options
 (
 )
+:
+"
+"
 ;
 if
 (
