@@ -2900,9 +2900,6 @@ bool
 isRepeatTransaction
 ;
 TimeStamp
-refreshStart
-;
-TimeStamp
 transactionStart
 ;
 TimeStamp

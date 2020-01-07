@@ -311,13 +311,6 @@ mozilla
 :
 TimeStamp
 &
-aRefreshStartTime
-const
-mozilla
-:
-:
-TimeStamp
-&
 aTxnStartTime
 )
 ;
@@ -336,13 +329,6 @@ uint32_t
 aPaintSequenceNumber
 TransactionId
 aTransactionId
-const
-mozilla
-:
-:
-TimeStamp
-&
-aRefreshStartTime
 const
 mozilla
 :
