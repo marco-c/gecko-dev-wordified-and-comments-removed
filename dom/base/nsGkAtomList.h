@@ -1320,13 +1320,6 @@ mozbrowser
 )
 GK_ATOM
 (
-bulletinboard
-"
-bulletinboard
-"
-)
-GK_ATOM
-(
 button
 "
 button
