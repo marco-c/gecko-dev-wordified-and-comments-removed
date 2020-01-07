@@ -139,9 +139,6 @@ common_data
 float
 blur_radius
 ;
-float
-scale_factor
-;
 vec4
 color
 ;
@@ -175,11 +172,6 @@ task_data
 data1
 .
 x
-task_data
-.
-data1
-.
-y
 task_data
 .
 data2

@@ -107,7 +107,6 @@ picture
 :
 {
 ContentOrigin
-PictureSurface
 }
 ;
 use
@@ -1129,13 +1128,7 @@ surface
 =
 Some
 (
-PictureSurface
-:
-:
-RenderTask
-(
 render_task_id
-)
 )
 ;
 Some

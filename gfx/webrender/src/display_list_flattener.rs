@@ -3289,7 +3289,6 @@ self
 .
 add_box_shadow
 (
-pipeline_id
 clip_and_scroll
 &
 prim_info
@@ -5419,15 +5418,6 @@ TextShadow
 .
 .
 }
-|
-PictureKind
-:
-:
-BoxShadow
-{
-.
-.
-}
 =
 >
 {
@@ -5438,8 +5428,6 @@ panic
 bug
 :
 text
-/
-box
 pictures
 invalid
 here

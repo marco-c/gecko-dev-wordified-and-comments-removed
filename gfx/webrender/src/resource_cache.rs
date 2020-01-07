@@ -1768,11 +1768,6 @@ RenderTaskTree
 >
 (
 RenderTaskId
-[
-f32
-;
-3
-]
 bool
 )
 {
