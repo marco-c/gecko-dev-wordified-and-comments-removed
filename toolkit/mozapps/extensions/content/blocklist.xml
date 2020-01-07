@@ -510,14 +510,6 @@ name
 _checkbox
 "
 >
-/
-*
-eslint
--
-disable
-indent
-*
-/
 document
 .
 getAnonymousElementByAttribute
