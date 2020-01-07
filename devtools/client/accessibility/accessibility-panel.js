@@ -836,7 +836,7 @@ this
 .
 _telemetry
 .
-logKeyedScalar
+keyedScalarAdd
 (
 "
 devtools

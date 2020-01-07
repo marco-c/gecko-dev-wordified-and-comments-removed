@@ -1799,9 +1799,13 @@ this
 .
 _telemetry
 .
-logKeyed
+getKeyedHistogramById
 (
 telemetryKey
+)
+.
+add
+(
 toolId
 delay
 )

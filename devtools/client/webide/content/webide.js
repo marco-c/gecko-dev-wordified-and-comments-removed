@@ -3246,9 +3246,13 @@ this
 .
 _telemetry
 .
-log
+getHistogramById
 (
 histogramId
+)
+.
+add
+(
 state
 )
 ;

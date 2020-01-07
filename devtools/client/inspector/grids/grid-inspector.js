@@ -1231,9 +1231,13 @@ this
 .
 telemetry
 .
-log
+getHistogramById
 (
 CSS_GRID_COUNT_HISTOGRAM_ID
+)
+.
+add
+(
 gridFronts
 .
 length
