@@ -1536,7 +1536,7 @@ mAllowToOverrideSystemScrollSpeed
 (
 false
 )
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 (
 false
 )
@@ -1648,7 +1648,7 @@ mAllowToOverrideSystemScrollSpeed
 (
 true
 )
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 (
 false
 )
@@ -1892,7 +1892,7 @@ bool
 mAllowToOverrideSystemScrollSpeed
 ;
 bool
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 ;
 void
 AssignWheelEventData
@@ -2007,11 +2007,11 @@ aEvent
 .
 mAllowToOverrideSystemScrollSpeed
 ;
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 =
 aEvent
 .
-mDeltaValuesAdjustedForDefaultHandler
+mDeltaValuesHorizontalizedForDefaultHandler
 ;
 }
 double
