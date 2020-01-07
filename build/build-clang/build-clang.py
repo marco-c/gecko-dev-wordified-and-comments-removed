@@ -3731,6 +3731,12 @@ extra_cxxflags2
 -
 fPIC
 "
+'
+-
+Qunused
+-
+arguments
+'
 "
 -
 static
