@@ -5749,11 +5749,13 @@ networkUpdates
 )
 .
 length
+>
+0
 )
 .
 toBe
 (
-1
+true
 )
 ;
 dispatch
