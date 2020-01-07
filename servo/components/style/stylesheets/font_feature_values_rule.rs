@@ -2653,6 +2653,9 @@ self
 prelude
 :
 BlockType
+_location
+:
+SourceLocation
 input
 :
 &
