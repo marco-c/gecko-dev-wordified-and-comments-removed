@@ -4155,6 +4155,16 @@ isArrow
 )
 ;
 }
+void
+noteExpressionClosure
+(
+Node
+*
+funcNode
+)
+const
+{
+}
 ParseNode
 *
 newObjectMethodOrPropertyDefinition

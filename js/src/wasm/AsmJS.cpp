@@ -43721,6 +43721,7 @@ functionFormalParametersAndBody
 (
 InAllowed
 YieldIsName
+&
 fn
 Statement
 )

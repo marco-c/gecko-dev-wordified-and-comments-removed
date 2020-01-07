@@ -2797,6 +2797,7 @@ bool
 trySyntaxParseInnerFunction
 (
 Node
+*
 funcNode
 HandleFunction
 fun
@@ -2848,7 +2849,8 @@ canHaveDirectives
 false
 )
 ;
-bool
+MOZ_MUST_USE
+Node
 innerFunctionForFunctionBox
 (
 Node
@@ -2878,6 +2880,7 @@ inHandling
 YieldHandling
 yieldHandling
 Node
+*
 pn
 FunctionSyntaxKind
 kind
@@ -4105,7 +4108,8 @@ YieldHandling
 yieldHandling
 )
 ;
-bool
+MOZ_MUST_USE
+Node
 innerFunction
 (
 Node
@@ -4550,6 +4554,7 @@ bool
 trySyntaxParseInnerFunction
 (
 Node
+*
 funcNode
 HandleFunction
 fun
@@ -5036,6 +5041,7 @@ bool
 trySyntaxParseInnerFunction
 (
 Node
+*
 funcNode
 HandleFunction
 fun
