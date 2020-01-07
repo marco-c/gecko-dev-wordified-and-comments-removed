@@ -53,9 +53,6 @@ expect
 =
 '
 SyntaxError
-:
-illegal
-character
 '
 ;
 try
@@ -83,9 +80,10 @@ ex
 actual
 =
 ex
-+
-'
-'
+.
+constructor
+.
+name
 ;
 }
 reportCompare
