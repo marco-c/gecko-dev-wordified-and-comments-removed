@@ -120,7 +120,7 @@ getSharingProviders
 (
 in
 AString
-urlToShare
+pageUrl
 )
 ;
 /
@@ -141,10 +141,13 @@ shareUrl
 (
 in
 AString
-shareTitle
+serviceName
 in
 AString
-urlToShare
+pageUrl
+in
+AString
+pageTitle
 )
 ;
 }
