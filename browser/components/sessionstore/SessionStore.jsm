@@ -1935,9 +1935,6 @@ generateQI
 [
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsIObserver
 Ci
 .

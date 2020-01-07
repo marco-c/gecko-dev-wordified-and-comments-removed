@@ -6909,9 +6909,6 @@ generateQI
 Ci
 .
 nsIObserver
-Ci
-.
-nsIDOMEventListener
 ]
 )
 async

@@ -553,9 +553,6 @@ generateQI
 Ci
 .
 nsITaskbarPreviewController
-Ci
-.
-nsIDOMEventListener
 ]
 )
 destroy

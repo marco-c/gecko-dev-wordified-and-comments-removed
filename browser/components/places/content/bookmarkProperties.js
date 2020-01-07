@@ -1681,16 +1681,6 @@ equals
 (
 Ci
 .
-nsIDOMEventListener
-)
-|
-|
-aIID
-.
-equals
-(
-Ci
-.
 nsISupports
 )
 )

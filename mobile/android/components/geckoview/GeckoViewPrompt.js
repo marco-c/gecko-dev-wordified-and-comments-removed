@@ -156,9 +156,6 @@ generateQI
 [
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsIPromptFactory
 Ci
 .

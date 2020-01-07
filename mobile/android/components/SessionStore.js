@@ -523,9 +523,6 @@ Ci
 nsISessionStore
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsIObserver
 Ci
 .

@@ -2373,9 +2373,6 @@ generateQI
 [
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsINavBookmarkObserver
 ]
 )
