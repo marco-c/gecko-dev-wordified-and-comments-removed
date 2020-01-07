@@ -1063,6 +1063,13 @@ UseWebRender
 )
 )
 {
+services
+:
+:
+GetGfxInfo
+(
+)
+;
 Factory
 :
 :
