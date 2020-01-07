@@ -5232,7 +5232,6 @@ GetDocShell
 )
 const
 ;
-virtual
 void
 SetXMLDeclaration
 (
@@ -5248,10 +5247,7 @@ const
 int32_t
 aStandalone
 )
-=
-0
 ;
-virtual
 void
 GetXMLDeclaration
 (
@@ -5265,8 +5261,6 @@ nsAString
 &
 Standalone
 )
-=
-0
 ;
 bool
 IsHTMLDocument
@@ -11052,6 +11046,9 @@ mIsScopedStyleEnabled
 ;
 uint8_t
 mPendingFullscreenRequests
+;
+uint8_t
+mXMLDeclarationBits
 ;
 nsCompatibility
 mCompatMode

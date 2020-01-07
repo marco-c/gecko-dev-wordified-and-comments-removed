@@ -7242,6 +7242,10 @@ mPendingFullscreenRequests
 (
 0
 )
+mXMLDeclarationBits
+(
+0
+)
 mCompatMode
 (
 eCompatibility_FullStandards
@@ -7471,10 +7475,6 @@ false
 mReportedUseCounters
 (
 false
-)
-mXMLDeclarationBits
-(
-0
 )
 mOnloadBlockCount
 (
@@ -34579,7 +34579,7 @@ aType
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SetXMLDeclaration
@@ -34678,7 +34678,7 @@ XML_DECLARATION_BITS_STANDALONE_EXISTS
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 GetXMLDeclaration
