@@ -1,7 +1,4 @@
 use
-Atom
-;
-use
 app_units
 :
 :
@@ -269,6 +266,9 @@ E
 :
 TElement
 {
+use
+Atom
+;
 lazy_static
 !
 {
