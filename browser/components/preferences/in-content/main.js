@@ -2878,7 +2878,6 @@ true
 ;
 if
 (
-!
 Services
 .
 prefs
@@ -2912,11 +2911,8 @@ root
 .
 hidden
 =
-true
+false
 ;
-return
-;
-}
 fxAccounts
 .
 getSignedInUser
@@ -2956,6 +2952,7 @@ Cu
 reportError
 )
 ;
+}
 }
 let
 version

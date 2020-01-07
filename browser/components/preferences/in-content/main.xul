@@ -343,6 +343,11 @@ class
 "
 indent
 "
+hidden
+=
+"
+true
+"
 >
 <
 label
