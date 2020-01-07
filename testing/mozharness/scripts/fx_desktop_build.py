@@ -153,6 +153,14 @@ build
 '
                 
 '
+static
+-
+analysis
+-
+autotest
+'
+                
+'
 check
 -
 test
