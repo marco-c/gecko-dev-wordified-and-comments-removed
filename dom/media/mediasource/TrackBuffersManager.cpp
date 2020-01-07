@@ -1503,11 +1503,11 @@ mInitData
 =
 nullptr
 ;
-CompleteResetParserState
-(
-)
+mCurrentInputBuffer
+=
+nullptr
 ;
-CreateDemuxerforMIMEType
+CompleteResetParserState
 (
 )
 ;
