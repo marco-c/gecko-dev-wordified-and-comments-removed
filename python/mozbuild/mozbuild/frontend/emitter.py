@@ -67,8 +67,6 @@ BaseRustProgram
     
 BaseSources
     
-BrandingFiles
-    
 ChromeManifestEntry
     
 ComputedFlags
@@ -7657,13 +7655,6 @@ var
 cls
 in
 (
-            
-(
-'
-BRANDING_FILES
-'
-BrandingFiles
-)
             
 (
 '

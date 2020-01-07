@@ -558,17 +558,6 @@ list
 -
 json
 )
-(
-DIST
-)
-/
-branding
-:
-(
-NSINSTALL
-)
--
-D
 DEFINES
 +
 =
