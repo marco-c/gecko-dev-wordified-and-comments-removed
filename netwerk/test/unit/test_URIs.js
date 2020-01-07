@@ -3765,9 +3765,6 @@ username
 password
 "
 "
-hostPort
-"
-"
 host
 "
 "
