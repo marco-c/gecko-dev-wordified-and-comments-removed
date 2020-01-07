@@ -34,12 +34,6 @@ gtk
 .
 h
 >
-#
-define
-GTK_DEFAULT_MIME_TEXT
-"
-UTF8_STRING
-"
 class
 nsRetrievalContext
 {
