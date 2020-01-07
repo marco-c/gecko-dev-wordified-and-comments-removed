@@ -131,11 +131,6 @@ hudservice
 js
 '
 '
-jsterm
-.
-js
-'
-'
 main
 .
 js

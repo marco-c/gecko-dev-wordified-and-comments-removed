@@ -115,6 +115,11 @@ output
 js
 '
 '
+jsterm
+.
+js
+'
+'
 webconsole
 .
 js
