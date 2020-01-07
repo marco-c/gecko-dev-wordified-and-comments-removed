@@ -1492,6 +1492,7 @@ DocAccessible
 TakeFocus
 (
 )
+const
 {
 nsFocusManager
 *

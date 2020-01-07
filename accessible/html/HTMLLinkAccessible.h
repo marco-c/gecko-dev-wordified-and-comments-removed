@@ -131,6 +131,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+const
 override
 ;
 protected

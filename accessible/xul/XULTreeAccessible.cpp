@@ -3236,6 +3236,7 @@ XULTreeItemAccessibleBase
 TakeFocus
 (
 )
+const
 {
 nsCOMPtr
 <

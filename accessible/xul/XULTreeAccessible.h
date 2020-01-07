@@ -519,6 +519,7 @@ void
 TakeFocus
 (
 )
+const
 override
 ;
 virtual

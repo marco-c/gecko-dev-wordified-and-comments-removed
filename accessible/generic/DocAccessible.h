@@ -335,6 +335,7 @@ void
 TakeFocus
 (
 )
+const
 override
 ;
 #

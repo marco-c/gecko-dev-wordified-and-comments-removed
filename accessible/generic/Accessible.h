@@ -1294,6 +1294,7 @@ void
 TakeFocus
 (
 )
+const
 ;
 void
 ScrollTo
@@ -2205,6 +2206,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+const
 ;
 void
 ToTextPoint
