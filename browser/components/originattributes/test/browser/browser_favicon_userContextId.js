@@ -992,7 +992,6 @@ value
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1002,7 +1001,6 @@ tabInfoA
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1101,7 +1099,6 @@ promise
 await
 promiseWaitOnFaviconLoaded
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1109,6 +1106,13 @@ removeTab
 tabInfo
 .
 tab
+)
+;
+await
+new
+Promise
+(
+executeSoon
 )
 ;
 observer
@@ -1156,7 +1160,6 @@ request
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1363,7 +1366,6 @@ request
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1371,6 +1373,13 @@ removeTab
 tabInfo
 .
 tab
+)
+;
+await
+new
+Promise
+(
+executeSoon
 )
 ;
 promiseWaitOnFaviconLoaded
@@ -1499,7 +1508,6 @@ request
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

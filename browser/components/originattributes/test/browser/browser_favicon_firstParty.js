@@ -1284,7 +1284,6 @@ promiseObserveFavicon
 await
 promiseFaviconLoaded
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1292,6 +1291,13 @@ removeTab
 tabInfo
 .
 tab
+)
+;
+await
+new
+Promise
+(
+executeSoon
 )
 ;
 promiseObserveFavicon
