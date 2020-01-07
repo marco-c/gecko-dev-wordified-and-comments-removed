@@ -179,11 +179,6 @@ nsStringIterator
 h
 '
 '
-nsSubstring
-.
-h
-'
-'
 nsTDependentString
 .
 h
