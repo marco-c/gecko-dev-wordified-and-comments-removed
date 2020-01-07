@@ -8,11 +8,6 @@ h
 #
 include
 <
-iostream
->
-#
-include
-<
 vector
 >
 #

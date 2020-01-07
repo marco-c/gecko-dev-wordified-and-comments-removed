@@ -7,11 +7,6 @@ WEBRTCGMPVIDEOCODEC_H_
 #
 include
 <
-iostream
->
-#
-include
-<
 queue
 >
 #

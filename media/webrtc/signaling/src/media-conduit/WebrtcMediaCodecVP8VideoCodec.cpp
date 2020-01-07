@@ -6,11 +6,6 @@ cstdio
 #
 include
 <
-iostream
->
-#
-include
-<
 queue
 >
 #
