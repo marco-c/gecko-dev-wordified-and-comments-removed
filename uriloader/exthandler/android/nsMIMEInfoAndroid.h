@@ -85,6 +85,7 @@ info
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMIMEINFO
 NS_DECL_NSIHANDLERINFO
+explicit
 nsMIMEInfoAndroid
 (
 const
@@ -164,6 +165,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIHANDLERAPP
+explicit
 SystemChooser
 (
 nsMIMEInfoAndroid
