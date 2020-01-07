@@ -11,6 +11,11 @@ BOUND_EXCLUDING_TIME
 001
 ;
 const
+DEFAULT_GRAPH_HEIGHT
+=
+100
+;
+const
 DEFAULT_MIN_PROGRESS_THRESHOLD
 =
 0
@@ -56,6 +61,8 @@ getPreferredProgressThreshold
 state
 keyframes
 )
+*
+DEFAULT_GRAPH_HEIGHT
 ;
 this
 .
@@ -141,6 +148,8 @@ time
 y
 :
 value
+*
+DEFAULT_GRAPH_HEIGHT
 }
 ;
 }
@@ -643,6 +652,14 @@ return
 pathString
 ;
 }
+module
+.
+exports
+.
+DEFAULT_GRAPH_HEIGHT
+=
+DEFAULT_GRAPH_HEIGHT
+;
 exports
 .
 SummaryGraphHelper

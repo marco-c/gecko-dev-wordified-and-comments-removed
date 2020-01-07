@@ -61,6 +61,11 @@ ComputedTimingPath
 js
 '
 '
+EffectTimingPath
+.
+js
+'
+'
 SummaryGraph
 .
 js
