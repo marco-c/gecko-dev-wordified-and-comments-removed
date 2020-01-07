@@ -10051,6 +10051,17 @@ mCenterAfterLoad
 &
 !
 positionSet
+&
+&
+mWindow
+-
+>
+SizeMode
+(
+)
+=
+=
+nsSizeMode_Normal
 )
 {
 Center
