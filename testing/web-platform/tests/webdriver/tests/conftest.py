@@ -21,6 +21,8 @@ create_frame
     
 create_window
     
+current_session
+    
 http
     
 new_session
@@ -83,6 +85,19 @@ fixture
 )
 (
 create_window
+)
+pytest
+.
+fixture
+(
+scope
+=
+"
+function
+"
+)
+(
+current_session
 )
 pytest
 .

@@ -1241,6 +1241,14 @@ _current_session
 return
 _current_session
 def
+current_session
+(
+)
+:
+    
+return
+_current_session
+def
 new_session
 (
 configuration
