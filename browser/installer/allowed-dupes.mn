@@ -1924,9 +1924,11 @@ content
 editCreditCard
 .
 xhtml
+browser
+/
 chrome
 /
-toolkit
+browser
 /
 res
 /
@@ -1953,9 +1955,11 @@ content
 autofillEditForms
 .
 js
+browser
+/
 chrome
 /
-toolkit
+browser
 /
 res
 /
