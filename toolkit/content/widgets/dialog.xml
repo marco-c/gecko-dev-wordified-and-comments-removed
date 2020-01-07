@@ -3276,10 +3276,8 @@ event
 ;
 if
 (
+!
 returned
-=
-=
-false
 )
 noCancel
 =

@@ -2390,10 +2390,8 @@ event
 ;
 if
 (
+!
 rv
-=
-=
-false
 )
 cancel
 =
@@ -4177,10 +4175,8 @@ event
 ;
 if
 (
+!
 rv
-=
-=
-false
 )
 cancel
 =

@@ -541,12 +541,10 @@ record
 )
 =
 >
+!
 record
 .
 deleted
-!
-=
-true
 )
 .
 sort

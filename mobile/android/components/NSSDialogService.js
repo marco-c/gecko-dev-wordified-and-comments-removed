@@ -1798,9 +1798,6 @@ if
 response
 .
 rememberBox
-=
-=
-true
 )
 {
 let

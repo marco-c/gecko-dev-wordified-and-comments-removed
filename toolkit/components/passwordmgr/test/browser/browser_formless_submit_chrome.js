@@ -574,12 +574,10 @@ waitForCondition
 >
 {
 return
+!
 forwardButton
 .
 disabled
-=
-=
-false
 ;
 }
 )
@@ -692,12 +690,10 @@ waitForCondition
 >
 {
 return
+!
 reloadButton
 .
 disabled
-=
-=
-false
 ;
 }
 )

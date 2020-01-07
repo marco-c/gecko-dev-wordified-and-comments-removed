@@ -6246,9 +6246,6 @@ msg
 json
 .
 focus
-=
-=
-true
 )
 {
 curContainer
@@ -6619,9 +6616,6 @@ msg
 json
 .
 focus
-=
-=
-true
 )
 {
 curContainer

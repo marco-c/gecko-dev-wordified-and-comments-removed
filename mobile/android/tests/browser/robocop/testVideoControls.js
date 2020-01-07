@@ -510,6 +510,7 @@ playButton
 ;
 ok
 (
+!
 playButton
 .
 hasAttribute
@@ -518,9 +519,6 @@ hasAttribute
 paused
 "
 )
-=
-=
-false
 "
 Play
 button

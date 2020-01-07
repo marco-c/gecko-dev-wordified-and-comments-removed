@@ -3392,9 +3392,6 @@ mCurrentBrowser
 if
 (
 aCallGlobalListeners
-!
-=
-false
 &
 &
 aBrowser
@@ -3417,9 +3414,6 @@ aArguments
 if
 (
 aCallTabsListeners
-!
-=
-false
 )
 {
 aArguments

@@ -3696,9 +3696,6 @@ if
 permission
 .
 remove
-=
-=
-true
 )
 perm
 =
@@ -3815,9 +3812,6 @@ if
 permission
 .
 remove
-=
-=
-true
 )
 todo
 .

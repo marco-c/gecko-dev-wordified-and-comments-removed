@@ -300,9 +300,6 @@ aError
 if
 (
 errorCodeSeen
-!
-=
-false
 )
 do_throw
 (
@@ -386,15 +383,10 @@ caller
 if
 (
 errorCodeExpected
-=
-=
-true
 &
 &
+!
 errorCodeSeen
-=
-=
-false
 )
 do_throw
 (

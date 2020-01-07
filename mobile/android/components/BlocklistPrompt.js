@@ -182,12 +182,10 @@ restart
 ;
 if
 (
+!
 cancelQuit
 .
 data
-=
-=
-false
 )
 {
 let

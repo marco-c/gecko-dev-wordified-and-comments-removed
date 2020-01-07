@@ -240,9 +240,6 @@ param
 if
 (
 param
-=
-=
-true
 )
 {
 manager
@@ -523,9 +520,6 @@ param
 if
 (
 param
-=
-=
-true
 )
 {
 manager
@@ -554,9 +548,6 @@ param
 if
 (
 param
-=
-=
-true
 )
 {
 setAndLockPref

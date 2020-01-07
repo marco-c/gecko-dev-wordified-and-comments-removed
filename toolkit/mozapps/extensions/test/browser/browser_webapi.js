@@ -663,6 +663,7 @@ webextPermissionPrompts
 ;
 if
 (
+!
 Services
 .
 prefs
@@ -672,9 +673,6 @@ getBoolPref
 PERM
 false
 )
-=
-=
-false
 )
 {
 await

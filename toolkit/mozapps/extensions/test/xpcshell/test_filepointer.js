@@ -482,6 +482,7 @@ run_test
 {
 if
 (
+!
 Services
 .
 prefs
@@ -494,9 +495,6 @@ extensions
 alwaysUnpack
 "
 )
-=
-=
-false
 )
 return
 ;
