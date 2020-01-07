@@ -606,6 +606,15 @@ had_invalidations
 :
 bool
 }
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+)
+]
 pub
 enum
 SheetRebuildKind
