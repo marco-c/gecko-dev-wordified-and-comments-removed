@@ -1800,12 +1800,6 @@ case
 ParseNodeKind
 :
 :
-Nop
-:
-case
-ParseNodeKind
-:
-:
 EmptyStatement
 :
 case

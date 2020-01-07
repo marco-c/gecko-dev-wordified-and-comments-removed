@@ -11465,12 +11465,6 @@ case
 ParseNodeKind
 :
 :
-Nop
-:
-case
-ParseNodeKind
-:
-:
 EmptyStatement
 :
 return

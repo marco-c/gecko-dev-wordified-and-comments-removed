@@ -358,12 +358,6 @@ case
 ParseNodeKind
 :
 :
-Nop
-:
-case
-ParseNodeKind
-:
-:
 EmptyStatement
 :
 case
@@ -8075,12 +8069,6 @@ getKind
 )
 )
 {
-case
-ParseNodeKind
-:
-:
-Nop
-:
 case
 ParseNodeKind
 :
