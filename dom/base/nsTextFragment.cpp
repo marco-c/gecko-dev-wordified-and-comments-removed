@@ -1878,6 +1878,16 @@ aForce2b
 {
 if
 (
+!
+aLength
+)
+{
+return
+true
+;
+}
+if
+(
 mState
 .
 mLength
