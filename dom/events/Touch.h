@@ -192,7 +192,7 @@ aEvent
 )
 ;
 void
-SetTarget
+SetTouchTarget
 (
 EventTarget
 *
@@ -345,6 +345,12 @@ CallerType
 aCallerType
 )
 const
+;
+nsCOMPtr
+<
+EventTarget
+>
+mOriginalTarget
 ;
 nsCOMPtr
 <

@@ -933,7 +933,7 @@ LayoutDeviceIntPoint
 t
 -
 >
-SetTarget
+SetTouchTarget
 (
 aContent
 )
