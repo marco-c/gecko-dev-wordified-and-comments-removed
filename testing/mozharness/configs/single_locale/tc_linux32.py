@@ -30,6 +30,26 @@ locales
 "
     
 "
+tools_repo
+"
+:
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+build
+/
+tools
+"
+    
+"
 bootstrap_env
 "
 :

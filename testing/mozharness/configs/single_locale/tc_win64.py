@@ -29,6 +29,26 @@ all
 locales
 "
     
+"
+tools_repo
+"
+:
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+build
+/
+tools
+"
+    
 '
 vcs_share_base
 '

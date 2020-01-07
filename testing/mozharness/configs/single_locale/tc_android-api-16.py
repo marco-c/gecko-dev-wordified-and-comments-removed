@@ -3,6 +3,18 @@ config
 {
     
 "
+stage_platform
+"
+:
+"
+android
+-
+api
+-
+16
+"
+    
+"
 locales_file
 "
 :
@@ -18,6 +30,26 @@ l10n
 changesets
 .
 json
+"
+    
+"
+tools_repo
+"
+:
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+build
+/
+tools
 "
     
 "

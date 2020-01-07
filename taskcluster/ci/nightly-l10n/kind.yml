@@ -1607,6 +1607,13 @@ setup
 repack
 '
 '
+submit
+-
+to
+-
+balrog
+'
+'
 summary
 '
 ]
@@ -1644,6 +1651,13 @@ repack
 upload
 -
 repacks
+'
+'
+submit
+-
+to
+-
+balrog
 '
 '
 summary
