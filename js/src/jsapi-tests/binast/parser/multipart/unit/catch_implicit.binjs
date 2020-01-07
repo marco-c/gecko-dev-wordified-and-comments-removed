@@ -4,14 +4,14 @@ GRAMMAR
 ]
 identity
 ;
-~
 Block
 CatchClause
+AssertedParameterScope
 "
 TryCatchStatement
+Script
 "
 BindingIdentifier
-Script
 [
 STRINGS
 ]
@@ -23,3 +23,4 @@ TREE
 ]
 identity
 ;
+&
