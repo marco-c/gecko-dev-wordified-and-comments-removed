@@ -5170,7 +5170,7 @@ key_wrCaptureCmd
 #
 ifdef
 XP_MACOSX
-keycode
+key
 =
 "
 3
