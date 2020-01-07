@@ -406,7 +406,7 @@ nr_crypto_nss_random_bytes
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {
@@ -461,12 +461,12 @@ nr_crypto_nss_hmac
 UCHAR
 *
 key
-int
+size_t
 keyl
 UCHAR
 *
 buf
-int
+size_t
 bufl
 UCHAR
 *
@@ -704,7 +704,7 @@ nr_crypto_nss_md5
 UCHAR
 *
 buf
-int
+size_t
 bufl
 UCHAR
 *
@@ -3476,7 +3476,7 @@ NrIceStats
 stats
 )
 {
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -3492,7 +3492,7 @@ stats
 stun_retransmits
 )
 ;
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -3508,7 +3508,7 @@ stats
 turn_401s
 )
 ;
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -3524,7 +3524,7 @@ stats
 turn_403s
 )
 ;
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (

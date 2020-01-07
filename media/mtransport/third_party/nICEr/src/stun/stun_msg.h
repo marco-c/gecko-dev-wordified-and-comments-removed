@@ -207,7 +207,7 @@ data
 NR_STUN_MAX_MESSAGE_SIZE
 ]
 ;
-int
+size_t
 length
 ;
 }
@@ -355,7 +355,7 @@ nr_stun_encoded_attribute
 *
 encoding
 ;
-int
+size_t
 encoding_length
 ;
 char
@@ -419,7 +419,7 @@ buffer
 NR_STUN_MAX_MESSAGE_SIZE
 ]
 ;
-int
+size_t
 length
 ;
 nr_stun_message_header
@@ -456,7 +456,7 @@ msg
 UCHAR
 *
 buffer
-int
+size_t
 length
 )
 ;

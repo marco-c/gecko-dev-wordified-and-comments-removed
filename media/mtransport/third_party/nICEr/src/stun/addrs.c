@@ -1633,6 +1633,9 @@ estimated_speed
 ;
 #
 endif
+(
+void
+)
 strlcpy
 (
 addrs

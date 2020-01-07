@@ -318,7 +318,7 @@ void
 *
 timer_handle
 ;
-int
+UINT2
 request_ct
 ;
 UINT2

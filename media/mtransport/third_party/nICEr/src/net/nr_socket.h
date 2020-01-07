@@ -70,6 +70,9 @@ defined
 WIN32
 )
 #
+undef
+restrict
+#
 define
 restrict
 __restrict

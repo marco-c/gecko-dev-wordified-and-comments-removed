@@ -75,7 +75,7 @@ nr_stun_different_transaction
 UCHAR
 *
 msg
-int
+size_t
 len
 nr_stun_message
 *
@@ -98,6 +98,16 @@ char
 alphanum
 int
 size
+)
+;
+void
+nr_accumulate_count
+(
+UINT2
+*
+orig_count
+UINT2
+add_count
 )
 ;
 #

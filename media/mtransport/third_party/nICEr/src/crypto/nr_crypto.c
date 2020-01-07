@@ -49,7 +49,7 @@ nr_ice_crypto_dummy_random_bytes
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {
@@ -81,12 +81,12 @@ nr_ice_crypto_dummy_hmac_sha1
 UCHAR
 *
 key
-int
+size_t
 key_l
 UCHAR
 *
 buf
-int
+size_t
 buf_l
 UCHAR
 digest
@@ -123,7 +123,7 @@ nr_ice_crypto_dummy_md5
 UCHAR
 *
 buf
-int
+size_t
 buf_l
 UCHAR
 digest

@@ -77,7 +77,7 @@ UCHAR
 *
 d
 ;
-int
+size_t
 l
 ;
 {
@@ -192,7 +192,7 @@ Data
 *
 d
 ;
-int
+size_t
 l
 ;
 {
@@ -253,7 +253,7 @@ Data
 *
 dp
 ;
-int
+size_t
 l
 ;
 {
@@ -364,7 +364,7 @@ UCHAR
 *
 d
 ;
-int
+size_t
 l
 ;
 {

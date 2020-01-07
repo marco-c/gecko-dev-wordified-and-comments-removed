@@ -1374,6 +1374,9 @@ defines
 WIN32
 '
 '
+_WINSOCK_DEPRECATED_NO_WARNINGS
+'
+'
 USE_ICE
 '
 '

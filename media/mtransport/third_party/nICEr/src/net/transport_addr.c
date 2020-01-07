@@ -2682,7 +2682,7 @@ s_addr
 ;
 for
 (
-int
+size_t
 i
 =
 0

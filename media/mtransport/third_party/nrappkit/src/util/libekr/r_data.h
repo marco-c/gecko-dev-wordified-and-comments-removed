@@ -12,7 +12,7 @@ UCHAR
 *
 data
 ;
-int
+size_t
 len
 ;
 }
@@ -29,7 +29,7 @@ const
 UCHAR
 *
 d
-int
+size_t
 l
 )
 ;
@@ -40,7 +40,7 @@ Data
 *
 *
 dp
-int
+size_t
 l
 )
 ;
@@ -54,7 +54,7 @@ const
 UCHAR
 *
 d
-int
+size_t
 l
 )
 ;
@@ -64,7 +64,7 @@ r_data_alloc_mem
 Data
 *
 d
-int
+size_t
 l
 )
 ;

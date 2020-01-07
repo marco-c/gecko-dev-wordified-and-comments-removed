@@ -173,7 +173,7 @@ msg
 UCHAR
 *
 buffer
-int
+size_t
 length
 )
 {
@@ -714,6 +714,9 @@ number
 =
 number
 ;
+(
+void
+)
 strlcpy
 (
 attr
@@ -841,6 +844,9 @@ NR_STUN_MESSAGE_ADD_ATTRIBUTE
 (
 NR_STUN_ATTR_NONCE
 {
+(
+void
+)
 strlcpy
 (
 attr
@@ -877,6 +883,9 @@ NR_STUN_MESSAGE_ADD_ATTRIBUTE
 (
 NR_STUN_ATTR_REALM
 {
+(
+void
+)
 strlcpy
 (
 attr
@@ -913,6 +922,9 @@ NR_STUN_MESSAGE_ADD_ATTRIBUTE
 (
 NR_STUN_ATTR_SERVER
 {
+(
+void
+)
 strlcpy
 (
 attr
@@ -986,6 +998,9 @@ NR_STUN_MESSAGE_ADD_ATTRIBUTE
 (
 NR_STUN_ATTR_USERNAME
 {
+(
+void
+)
 strlcpy
 (
 attr

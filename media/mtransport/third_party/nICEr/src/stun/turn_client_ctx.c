@@ -1262,7 +1262,7 @@ error_code
 438
 )
 {
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -1328,7 +1328,7 @@ error_code
 401
 )
 {
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -3120,7 +3120,7 @@ last_error_code
 403
 )
 {
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (

@@ -1833,7 +1833,7 @@ relayed
 turn
 )
 {
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -1860,7 +1860,7 @@ turn
 cnt_401s
 )
 ;
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -1887,7 +1887,7 @@ turn
 cnt_403s
 )
 ;
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -1941,7 +1941,7 @@ while
 stun_ctx
 )
 {
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -2274,6 +2274,9 @@ next
 ;
 if
 (
+(
+int
+)
 cand
 -
 >

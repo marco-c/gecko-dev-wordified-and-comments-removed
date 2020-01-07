@@ -839,16 +839,6 @@ char
 pwd
 )
 ;
-void
-nr_ice_accumulate_count
-(
-UINT2
-*
-orig_count
-UINT2
-new_count
-)
-;
 #
 define
 NR_ICE_MAX_ATTRIBUTE_SIZE
