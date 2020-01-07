@@ -6010,6 +6010,17 @@ NativeObject
 old
 )
 ;
+inline
+js
+:
+:
+GlobalObject
+&
+global
+(
+)
+const
+;
 static
 size_t
 offsetOfElements
