@@ -175,6 +175,17 @@ testing
 enabled
 "
 )
+PREF
+(
+PerformanceLoggingEnabled
+"
+dom
+.
+performance
+.
+enable_user_timing_logging
+"
+)
 #
 undef
 PREF

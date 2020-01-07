@@ -64,6 +64,12 @@ DOMCachesTestingEnabled
 (
 )
 ;
+static
+bool
+PerformanceLoggingEnabled
+(
+)
+;
 }
 ;
 }
