@@ -1073,6 +1073,16 @@ nsAString
 aAlignType
 )
 ;
+MOZ_MUST_USE
+nsresult
+AlignContentsAtSelection
+(
+const
+nsAString
+&
+aAlignType
+)
+;
 nsresult
 AppendInnerFormatNodes
 (
