@@ -157,12 +157,8 @@ this
 .
 render
 =
-Task
-.
 async
-(
 function
-*
 (
 .
 .
@@ -173,7 +169,7 @@ args
 let
 maybeRetval
 =
-yield
+await
 originalRenderFn
 .
 apply
@@ -190,7 +186,6 @@ return
 maybeRetval
 ;
 }
-)
 ;
 }
 destroy
@@ -311,7 +306,6 @@ _onRecordingStoppedOrSelected
 :
 function
 (
-_
 state
 recording
 )
@@ -416,7 +410,6 @@ _onOverviewRangeChange
 :
 function
 (
-_
 interval
 )
 {
@@ -560,7 +553,6 @@ _onPrefChanged
 :
 function
 (
-_
 prefName
 prefValue
 )

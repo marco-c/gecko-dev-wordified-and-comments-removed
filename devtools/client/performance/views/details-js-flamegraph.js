@@ -45,14 +45,8 @@ idle
 blocks
 "
 ]
-initialize
-:
-Task
-.
 async
-(
-function
-*
+initialize
 (
 )
 {
@@ -114,7 +108,7 @@ getTheme
 )
 )
 ;
-yield
+await
 this
 .
 graph
@@ -176,15 +170,8 @@ _onRangeChangeInGraph
 )
 ;
 }
-)
-destroy
-:
-Task
-.
 async
-(
-function
-*
+destroy
 (
 )
 {
@@ -223,7 +210,7 @@ this
 _onRangeChangeInGraph
 )
 ;
-yield
+await
 this
 .
 graph
@@ -233,7 +220,6 @@ destroy
 )
 ;
 }
-)
 render
 :
 function
@@ -504,7 +490,6 @@ _onThemeChanged
 :
 function
 (
-_
 theme
 )
 {

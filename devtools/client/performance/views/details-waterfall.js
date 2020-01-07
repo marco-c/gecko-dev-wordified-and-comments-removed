@@ -662,7 +662,6 @@ _onViewSource
 :
 function
 (
-_
 data
 )
 {
@@ -683,7 +682,6 @@ _onShowAllocations
 :
 function
 (
-_
 data
 )
 {
