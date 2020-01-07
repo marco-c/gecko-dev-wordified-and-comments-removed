@@ -624,12 +624,10 @@ int32_t
 aMaxLength
 )
 ;
+MOZ_MUST_USE
 nsresult
 WillLoadHTML
 (
-bool
-*
-aCancel
 )
 ;
 nsresult
