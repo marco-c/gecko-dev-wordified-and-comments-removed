@@ -1873,6 +1873,8 @@ this
 "
 xpcom
 -
+will
+-
 shutdown
 "
 )
@@ -2031,6 +2033,8 @@ this
 "
 xpcom
 -
+will
+-
 shutdown
 "
 )
@@ -2054,6 +2058,8 @@ case
 "
 xpcom
 -
+will
+-
 shutdown
 "
 :
@@ -2066,6 +2072,8 @@ removeObserver
 this
 "
 xpcom
+-
+will
 -
 shutdown
 "
