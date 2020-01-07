@@ -882,7 +882,9 @@ filev2
 if
 [
 !
+"
 filev3
+"
 =
 "
 "
@@ -1083,7 +1085,9 @@ f
 "
 >
 >
+"
 filev3
+"
 }
 make_patch_instruction
 (
