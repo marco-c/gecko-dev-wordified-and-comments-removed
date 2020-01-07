@@ -282,6 +282,17 @@ js
 "
 )
 ;
+await
+waitForSelectedSource
+(
+dbg
+"
+long
+.
+js
+"
+)
+;
 ok
 (
 getSelectedSource

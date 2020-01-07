@@ -288,7 +288,9 @@ toggle
 button
 should
 be
+'
 expand
+'
 "
 )
 ;
@@ -364,6 +366,17 @@ frames
 should
 be
 shown
+"
+)
+;
+await
+waitForSelectedSource
+(
+dbg
+"
+frames
+.
+js
 "
 )
 ;
