@@ -39869,7 +39869,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SuppressEventHandling
@@ -41065,14 +41065,7 @@ EventHandlingSuppressed
 0
 )
 {
-static_cast
-<
-nsDocument
-*
->
-(
 aDocument
-)
 -
 >
 DecreaseEventSuppression
@@ -41092,13 +41085,7 @@ RemoveExecuteBlocker
 )
 ;
 }
-nsTArray
-<
-nsCOMPtr
-<
-nsIDocument
->
->
+auto
 *
 docs
 =
@@ -41139,7 +41126,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 UnsuppressEventHandlingAndFireEvents
