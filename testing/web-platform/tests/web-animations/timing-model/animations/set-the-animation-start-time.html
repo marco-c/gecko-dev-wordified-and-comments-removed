@@ -655,7 +655,7 @@ currentTime
 -
 2000
 ;
-assert_times_equal
+assert_time_equals_literal
 (
 animation
 .
@@ -670,10 +670,10 @@ calculated
 from
 the
 start
-time
 '
 +
 '
+time
 not
 the
 hold
@@ -799,7 +799,7 @@ running
 '
 )
 ;
-assert_times_equal
+assert_time_equals_literal
 (
 animation
 .
@@ -816,6 +816,7 @@ running
 animation
 '
 )
+;
 /
 /
 Clear
@@ -827,7 +828,7 @@ startTime
 =
 null
 ;
-assert_times_equal
+assert_time_equals_literal
 (
 animation
 .
@@ -843,6 +844,9 @@ start
 time
 is
 made
+'
++
+'
 unresolved
 '
 )
