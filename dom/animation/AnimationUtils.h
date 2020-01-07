@@ -235,6 +235,16 @@ aCx
 )
 ;
 static
+nsIDocument
+*
+GetDocumentFromGlobal
+(
+JSObject
+*
+aGlobalObject
+)
+;
+static
 bool
 IsOffscreenThrottlingEnabled
 (
