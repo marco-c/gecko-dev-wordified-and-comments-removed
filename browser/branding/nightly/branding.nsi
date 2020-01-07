@@ -171,7 +171,7 @@ org
 define
 URLStubDownload32
 "
-http
+https
 :
 /
 /
@@ -204,7 +204,7 @@ latest
 define
 URLStubDownload64
 "
-http
+https
 :
 /
 /
