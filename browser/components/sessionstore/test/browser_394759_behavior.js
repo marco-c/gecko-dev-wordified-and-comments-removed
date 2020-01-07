@@ -74,7 +74,9 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
 url
+}
 )
 ;
 openDialog

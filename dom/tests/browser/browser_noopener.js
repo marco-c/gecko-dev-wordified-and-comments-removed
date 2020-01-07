@@ -454,7 +454,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 TARGET_URL
+}
 )
 ;
 }

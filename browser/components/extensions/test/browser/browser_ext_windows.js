@@ -891,7 +891,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 START_URL
+}
 )
 ;
 extension

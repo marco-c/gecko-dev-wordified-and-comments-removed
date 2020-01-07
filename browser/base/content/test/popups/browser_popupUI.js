@@ -34,11 +34,15 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 "
 about
 :
 blank
 "
+}
 )
 ;
 BrowserTestUtils

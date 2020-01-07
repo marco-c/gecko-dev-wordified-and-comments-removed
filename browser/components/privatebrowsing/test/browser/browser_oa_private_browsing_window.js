@@ -82,7 +82,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 DUMMY_PAGE
+}
 )
 ;
 BrowserTestUtils

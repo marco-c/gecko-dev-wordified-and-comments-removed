@@ -143,7 +143,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 TEST_HTTP
+}
 )
 ;
 await
@@ -265,7 +269,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 TEST_HTTP
+}
 )
 ;
 await

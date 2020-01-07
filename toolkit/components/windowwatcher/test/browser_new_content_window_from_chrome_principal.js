@@ -43,6 +43,9 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 "
 http
 :
@@ -53,6 +56,7 @@ example
 com
 /
 "
+}
 )
 ;
 await
