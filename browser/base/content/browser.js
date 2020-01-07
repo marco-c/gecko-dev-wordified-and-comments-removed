@@ -31743,10 +31743,6 @@ ex
 if
 (
 scheme
-.
-toLowerCase
-(
-)
 !
 =
 "

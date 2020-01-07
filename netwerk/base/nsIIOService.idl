@@ -1230,6 +1230,7 @@ parse
 return
 URL
 scheme
+lowercase
 *
 *
 throws
