@@ -733,7 +733,7 @@ Encoding
 aEncoding
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 fragments
@@ -991,7 +991,7 @@ nsISupports
 aCatalogData
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 fragments
@@ -1080,7 +1080,7 @@ int32_t
 aStandalone
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 fragments
@@ -1251,7 +1251,7 @@ nsAString
 aReferrerPolicy
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn
@@ -1511,7 +1511,7 @@ IgnoreFirstContainer
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 XML

@@ -1022,7 +1022,7 @@ nextItem
 ;
 }
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Item

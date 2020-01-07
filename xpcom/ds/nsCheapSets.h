@@ -130,7 +130,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 bogus
@@ -219,7 +219,7 @@ aVal
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 bogus
@@ -374,7 +374,7 @@ n
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 bogus
@@ -575,7 +575,7 @@ return
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 bogus
@@ -661,7 +661,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 bogus

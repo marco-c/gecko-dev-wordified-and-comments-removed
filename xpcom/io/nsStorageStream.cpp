@@ -1925,7 +1925,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -2000,7 +2000,7 @@ SetEOF
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsStorageInputStream
@@ -2296,7 +2296,7 @@ FileDescriptorArray
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We
@@ -2307,6 +2307,8 @@ to
 deserialize
 a
 storage
+"
+"
 input
 stream
 .

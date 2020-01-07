@@ -761,7 +761,7 @@ Suspend
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsAsyncStreamCopier
@@ -783,7 +783,7 @@ Resume
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsAsyncStreamCopier

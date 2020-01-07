@@ -10016,7 +10016,7 @@ aTargetURI
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 NS_RelaxStrictFileOriginPolicy

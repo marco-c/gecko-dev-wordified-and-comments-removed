@@ -1024,7 +1024,7 @@ AudioBlock
 aOutput
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 ProduceBlockBeforeInput
@@ -1032,8 +1032,6 @@ called
 on
 wrong
 engine
-\
-n
 "
 )
 ;

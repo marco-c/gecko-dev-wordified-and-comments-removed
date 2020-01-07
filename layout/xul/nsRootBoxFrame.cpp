@@ -878,7 +878,7 @@ aPopupSet
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Popup

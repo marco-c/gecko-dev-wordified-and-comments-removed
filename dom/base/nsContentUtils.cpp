@@ -22798,7 +22798,7 @@ nsContentUtils
 sFragmentParsingActive
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Re
@@ -23029,7 +23029,7 @@ nsContentUtils
 sFragmentParsingActive
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Re
@@ -23152,7 +23152,7 @@ nsContentUtils
 sFragmentParsingActive
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Re

@@ -1061,7 +1061,7 @@ uint32_t
 _retval
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WriteFrom

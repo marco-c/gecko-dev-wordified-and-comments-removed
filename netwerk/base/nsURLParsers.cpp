@@ -1638,7 +1638,7 @@ int32_t
 port
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn

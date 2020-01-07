@@ -142,7 +142,7 @@ return
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We
@@ -1299,7 +1299,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We

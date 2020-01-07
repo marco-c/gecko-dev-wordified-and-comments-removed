@@ -118,7 +118,7 @@ if
 mCurrentItem
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nextToken

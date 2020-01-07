@@ -2494,7 +2494,7 @@ uint32_t
 aResult
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsGIOInputStream

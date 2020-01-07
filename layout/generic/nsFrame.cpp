@@ -8216,7 +8216,7 @@ i
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 ComputeBorderRadii
@@ -30570,7 +30570,7 @@ CharacterDataChangeInfo
 &
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -43137,7 +43137,7 @@ GetPosition
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -43169,7 +43169,7 @@ nsIFrame
 aChild
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -43183,10 +43183,10 @@ that
 doesn
 '
 t
+"
+"
 inherit
 from
-"
-"
 nsContainerFrame
 "
 )
@@ -46731,7 +46731,7 @@ if
 placeholder
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 no
@@ -47309,7 +47309,7 @@ NS_STYLE_VERTICAL_ALIGN_BASELINE
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected

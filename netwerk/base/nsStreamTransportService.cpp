@@ -349,7 +349,7 @@ nsIOutputStream
 result
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsInputStreamTransport

@@ -5276,7 +5276,7 @@ int64_t
 aOffset
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsPipeInputStream
@@ -5351,7 +5351,7 @@ SetEOF
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsPipeInputStream
@@ -5855,7 +5855,7 @@ limit1
 limit2
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 can

@@ -595,7 +595,7 @@ ContinueInterruptedParsing
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Don
@@ -2226,7 +2226,7 @@ BuildModel
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Don
@@ -2250,7 +2250,7 @@ CancelParsingEvents
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Don
@@ -2274,7 +2274,7 @@ Reset
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Don

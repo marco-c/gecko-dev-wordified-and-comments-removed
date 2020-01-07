@@ -796,7 +796,7 @@ gfxFontStyle
 aFontStyle
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -5289,7 +5289,7 @@ DisconnectSVG
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected

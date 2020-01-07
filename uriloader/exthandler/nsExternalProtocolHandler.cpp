@@ -1220,7 +1220,7 @@ int64_t
 aContentLength
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 SetContentLength
@@ -1392,7 +1392,7 @@ Suspend
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Suspend
@@ -1411,7 +1411,7 @@ Resume
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Resume

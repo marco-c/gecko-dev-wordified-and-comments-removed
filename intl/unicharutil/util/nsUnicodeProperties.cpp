@@ -139,7 +139,7 @@ kCharProp2CharBits
 ]
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Getting
@@ -148,6 +148,8 @@ for
 codepoint
 outside
 Unicode
+"
+"
 range
 "
 )

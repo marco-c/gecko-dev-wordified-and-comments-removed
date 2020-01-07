@@ -279,7 +279,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 leaking
@@ -550,7 +550,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 leaking

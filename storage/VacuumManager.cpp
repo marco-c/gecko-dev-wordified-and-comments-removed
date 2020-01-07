@@ -1184,7 +1184,7 @@ mozIStorageResultSet
 aResultSet
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Got

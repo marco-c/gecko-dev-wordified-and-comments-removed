@@ -78,7 +78,7 @@ aFactor
 0
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 A
@@ -413,7 +413,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 not
@@ -578,7 +578,7 @@ GetUnit
 eStyleUnit_Coord
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -928,7 +928,7 @@ Length
 1
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Exactly
@@ -1659,7 +1659,7 @@ height
 0
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 we
@@ -1673,6 +1673,8 @@ negative
 radius
 in
 the
+"
+"
 style
 "
 )

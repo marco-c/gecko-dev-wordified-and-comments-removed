@@ -7949,7 +7949,7 @@ OwnerDoc
 )
 -
 >
-HasBeenUserGestureActivated
+HasBeenUserActivated
 (
 )
 :
@@ -10225,7 +10225,7 @@ child
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Execution
@@ -28486,7 +28486,7 @@ AsElement
 ;
 }
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Execution

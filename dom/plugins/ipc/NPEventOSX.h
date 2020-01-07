@@ -457,7 +457,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Attempted
@@ -465,6 +465,8 @@ to
 serialize
 unknown
 event
+"
+"
 type
 .
 "
@@ -1145,7 +1147,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Attempted
@@ -1154,6 +1156,8 @@ de
 -
 serialize
 unknown
+"
+"
 event
 type
 .

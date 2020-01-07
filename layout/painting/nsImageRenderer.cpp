@@ -2056,7 +2056,7 @@ IsReady
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Ensure
@@ -2067,6 +2067,8 @@ has
 returned
 true
 before
+"
+"
 calling
 me
 "
@@ -2853,7 +2855,7 @@ IsReady
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Ensure
@@ -2864,6 +2866,8 @@ has
 returned
 true
 before
+"
+"
 calling
 me
 "
@@ -3605,7 +3609,7 @@ IsReady
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Ensure
@@ -3616,6 +3620,8 @@ has
 returned
 true
 before
+"
+"
 calling
 me
 "
@@ -3785,7 +3791,7 @@ IsReady
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Ensure
@@ -3796,6 +3802,8 @@ has
 returned
 true
 before
+"
+"
 calling
 me
 "
@@ -4101,7 +4109,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unrecognized
@@ -4307,7 +4315,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unrecognized
@@ -4439,7 +4447,7 @@ IsReady
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Ensure
@@ -4450,6 +4458,8 @@ has
 returned
 true
 before
+"
+"
 calling
 me
 "
@@ -4877,7 +4887,7 @@ IsReady
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Ensure
@@ -4888,6 +4898,8 @@ has
 returned
 true
 before
+"
+"
 calling
 me
 "

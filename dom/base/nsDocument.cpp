@@ -36325,7 +36325,7 @@ mAsyncOnloadBlockCount
 0
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 More
@@ -36337,6 +36337,8 @@ than
 BlockOnload
 (
 )
+"
+"
 calls
 ;
 dropping

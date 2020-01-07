@@ -1201,7 +1201,7 @@ nsILoadGroup
 aLoadGroup
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Reset
@@ -1226,7 +1226,7 @@ nsIPrincipal
 aPrincipal
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 ResetToURI
@@ -10435,7 +10435,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -10443,7 +10443,6 @@ nsXULPrototypeNode
 :
 :
 Type
-value
 "
 )
 ;
@@ -15720,7 +15719,7 @@ uint32_t
 aCount
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 CachedChromeStream

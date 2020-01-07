@@ -1672,7 +1672,7 @@ NPVariant
 aResult
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn

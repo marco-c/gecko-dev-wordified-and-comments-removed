@@ -5553,7 +5553,7 @@ m2
 )
 ;
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Cocoa

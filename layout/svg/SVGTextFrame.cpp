@@ -1440,7 +1440,7 @@ mDescent
 0
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -4606,7 +4606,7 @@ Current
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 incorrect
@@ -4614,10 +4614,10 @@ tracking
 of
 correspondence
 between
+"
+"
 text
 frames
-"
-"
 and
 text
 nodes
@@ -17139,7 +17139,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected

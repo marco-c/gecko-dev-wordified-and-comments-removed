@@ -1718,7 +1718,7 @@ if
 rowFrame
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 yikes

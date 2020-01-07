@@ -3878,7 +3878,7 @@ charset
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -4158,7 +4158,7 @@ charset
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -4448,7 +4448,7 @@ charset
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should

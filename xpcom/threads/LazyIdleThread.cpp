@@ -1963,7 +1963,7 @@ bool
 aHasPendingEvents
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn
@@ -2010,7 +2010,7 @@ bool
 aEventWasProcessed
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn

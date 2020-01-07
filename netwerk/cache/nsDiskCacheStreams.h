@@ -175,7 +175,7 @@ mOutputStreamIsOpen
 false
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 oops

@@ -3598,7 +3598,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -5735,7 +5735,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -9185,7 +9185,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -16936,7 +16936,7 @@ if
 hasMore
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying
@@ -17198,7 +17198,7 @@ if
 hasMore
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying
@@ -17210,6 +17210,8 @@ node
 for
 an
 invalid
+"
+"
 bookmark
 identifier
 "
@@ -17479,7 +17481,7 @@ if
 hasMore
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying

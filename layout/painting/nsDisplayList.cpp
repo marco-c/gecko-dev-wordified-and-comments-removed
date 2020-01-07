@@ -48271,7 +48271,7 @@ Length
 1
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Exactly
@@ -48281,6 +48281,8 @@ shadow
 should
 have
 been
+"
+"
 parsed
 .
 "

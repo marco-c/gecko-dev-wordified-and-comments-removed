@@ -315,7 +315,7 @@ aExpr
 \
 {
 \
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 setting
@@ -370,7 +370,7 @@ aPattern
 \
 {
 \
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 setting

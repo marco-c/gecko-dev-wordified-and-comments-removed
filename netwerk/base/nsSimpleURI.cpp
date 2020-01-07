@@ -278,7 +278,7 @@ nsIObjectInputStream
 aStream
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Use

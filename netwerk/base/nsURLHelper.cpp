@@ -3547,7 +3547,7 @@ while
 true
 )
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 How
@@ -3683,7 +3683,7 @@ while
 true
 )
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 How

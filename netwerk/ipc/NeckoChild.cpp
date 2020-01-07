@@ -449,7 +449,7 @@ HttpChannelCreationArgs
 aOpenArgs
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPHttpChannelChild
@@ -458,6 +458,8 @@ not
 be
 called
 on
+"
+"
 child
 "
 )
@@ -526,7 +528,7 @@ AllocPStunAddrsRequestChild
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPStunAddrsRequestChild
@@ -534,6 +536,8 @@ should
 not
 be
 called
+"
+"
 on
 child
 "
@@ -603,7 +607,7 @@ PHttpChannelChild
 channel
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPAltDataOutputStreamChild
@@ -749,7 +753,7 @@ AllocPCookieServiceChild
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPCookieServiceChild
@@ -824,7 +828,7 @@ AllocPWyciwygChannelChild
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPWyciwygChannelChild
@@ -911,7 +915,7 @@ uint32_t
 aSerial
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPWebSocketChild
@@ -1309,7 +1313,7 @@ bool
 aUseArrayBuffers
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPTCPServerSocket
@@ -1376,7 +1380,7 @@ nsCString
 aFilter
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPUDPSocket
@@ -1447,7 +1451,7 @@ uint32_t
 aFlags
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPDNSRequestChild

@@ -643,7 +643,7 @@ WillParse
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -971,7 +971,7 @@ WillInterrupt
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Don
@@ -999,7 +999,7 @@ WillResume
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Don

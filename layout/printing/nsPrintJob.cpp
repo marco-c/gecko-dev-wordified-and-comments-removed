@@ -5860,7 +5860,7 @@ NS_FAILED
 rv
 )
 )
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Init
@@ -8872,7 +8872,7 @@ int32_t
 aMaxTotalProgress
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification
@@ -8910,7 +8910,7 @@ uint32_t
 aFlags
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification
@@ -8949,7 +8949,7 @@ char16_t
 aMessage
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification
@@ -8984,7 +8984,7 @@ uint32_t
 aState
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification

@@ -4958,7 +4958,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 CompositorBridgeParent

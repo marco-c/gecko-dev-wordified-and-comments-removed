@@ -80,7 +80,7 @@ aPreventCachingOfSandwich
 )
 const
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn
@@ -92,9 +92,9 @@ nsISMILAttr
 :
 ValueFromString
 for
+"
+"
 parsing
-"
-"
 animateMotion
 '
 s

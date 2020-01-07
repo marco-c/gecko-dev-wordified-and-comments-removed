@@ -240,7 +240,7 @@ if
 mFilterElement
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 filter
@@ -564,7 +564,7 @@ if
 url
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 an

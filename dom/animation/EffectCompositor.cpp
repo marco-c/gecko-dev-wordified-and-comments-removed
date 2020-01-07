@@ -2219,7 +2219,7 @@ aElement
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -2232,10 +2232,10 @@ element
 to
 restyle
 for
+"
+"
 a
 pseudo
-"
-"
 other
 that
 :

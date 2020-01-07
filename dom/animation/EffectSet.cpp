@@ -616,7 +616,7 @@ animationEffectsForAfterProperty
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -627,10 +627,10 @@ get
 animation
 effects
 for
+"
+"
 a
 pseudo
-"
-"
 other
 that
 :

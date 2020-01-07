@@ -6076,7 +6076,7 @@ if
 frame
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -7278,7 +7278,7 @@ caretFrame
 parentFrame
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 DOM

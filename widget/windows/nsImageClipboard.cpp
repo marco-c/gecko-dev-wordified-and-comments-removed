@@ -543,7 +543,7 @@ break
 endif
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected

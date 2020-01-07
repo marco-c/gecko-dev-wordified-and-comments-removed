@@ -1572,7 +1572,7 @@ aOutputStream
 )
 override
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Use

@@ -1161,7 +1161,7 @@ aResult
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -1399,7 +1399,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unrecognized
@@ -1661,7 +1661,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -2664,7 +2664,7 @@ alternate
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 keyword

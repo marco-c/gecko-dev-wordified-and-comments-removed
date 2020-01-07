@@ -1317,7 +1317,7 @@ mSVGAngle
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
@@ -2433,7 +2433,7 @@ case
 eColor
 :
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 color
@@ -3190,7 +3190,7 @@ table
 +
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 couldn
@@ -3709,7 +3709,7 @@ mSVGAngle
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
@@ -4138,7 +4138,7 @@ return
 false
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
@@ -5608,7 +5608,7 @@ break
 default
 :
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown

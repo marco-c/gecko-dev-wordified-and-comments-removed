@@ -995,7 +995,7 @@ nsIWebBrowser
 aWebBrowser
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1003,6 +1003,8 @@ WebBrowserChrome2Stub
 :
 GetWebBrowser
 is
+"
+"
 not
 supported
 "
@@ -1023,7 +1025,7 @@ nsIWebBrowser
 aWebBrowser
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1031,6 +1033,8 @@ WebBrowserChrome2Stub
 :
 SetWebBrowser
 is
+"
+"
 not
 supported
 "
@@ -1070,7 +1074,7 @@ uint32_t
 aChromeFlags
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1078,6 +1082,8 @@ WebBrowserChrome2Stub
 :
 SetChromeFlags
 is
+"
+"
 not
 supported
 "
@@ -1095,7 +1101,7 @@ DestroyBrowserWindow
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1103,6 +1109,8 @@ WebBrowserChrome2Stub
 :
 DestroyBrowserWindow
 is
+"
+"
 not
 supported
 "
@@ -1124,7 +1132,7 @@ int32_t
 aCY
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1132,6 +1140,8 @@ WebBrowserChrome2Stub
 :
 SizeBrowserTo
 is
+"
+"
 not
 supported
 "
@@ -1149,7 +1159,7 @@ ShowAsModal
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1196,7 +1206,7 @@ nsresult
 aStatus
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WebBrowserChrome2Stub
@@ -1204,6 +1214,8 @@ WebBrowserChrome2Stub
 :
 ExitModalEventLoop
 is
+"
+"
 not
 supported
 "

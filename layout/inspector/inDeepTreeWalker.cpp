@@ -1436,7 +1436,7 @@ NS_OK
 lastChildCallsToMake
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 how

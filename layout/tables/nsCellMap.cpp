@@ -1597,7 +1597,7 @@ GetNextSibling
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Bogus
@@ -1685,7 +1685,7 @@ GetNextSibling
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Bogus
@@ -13762,7 +13762,7 @@ return
 cellFrame
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Can

@@ -1223,7 +1223,7 @@ false
 ;
 #
 endif
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 oops
@@ -1260,7 +1260,7 @@ true
 ;
 #
 endif
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 oops

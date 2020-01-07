@@ -11429,7 +11429,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginModuleParent
@@ -11476,7 +11476,7 @@ return
 ;
 #
 endif
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginModuleParent
@@ -11578,7 +11578,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent
@@ -11656,7 +11656,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent
@@ -11731,7 +11731,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent
@@ -11806,7 +11806,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent
@@ -11881,7 +11881,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent
@@ -11951,7 +11951,7 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent

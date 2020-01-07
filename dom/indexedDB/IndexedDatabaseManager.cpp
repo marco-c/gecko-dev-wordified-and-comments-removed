@@ -4599,7 +4599,7 @@ false
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -4614,7 +4614,7 @@ return
 NS_OK
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown

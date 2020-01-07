@@ -264,7 +264,7 @@ ePathSourceType_ByAttr
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -276,6 +276,8 @@ for
 path
 -
 describing
+"
+"
 attrs
 "
 )

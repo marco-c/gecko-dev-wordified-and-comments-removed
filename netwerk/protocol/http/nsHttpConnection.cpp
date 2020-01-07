@@ -7850,7 +7850,7 @@ return
 rv
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 no
@@ -7970,7 +7970,7 @@ this
 nullptr
 )
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 no

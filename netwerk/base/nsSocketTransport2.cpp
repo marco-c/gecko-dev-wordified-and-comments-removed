@@ -5120,7 +5120,7 @@ rv
 fd
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 NewSocket
@@ -5128,6 +5128,8 @@ succeeded
 but
 failed
 to
+"
+"
 create
 a
 PRFileDesc

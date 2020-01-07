@@ -4139,7 +4139,7 @@ return
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 This
@@ -4149,6 +4149,8 @@ not
 be
 drawn
 using
+"
+"
 nsDisplayNotation
 "
 )

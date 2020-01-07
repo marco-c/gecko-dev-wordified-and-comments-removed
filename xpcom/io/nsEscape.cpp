@@ -1673,7 +1673,7 @@ if
 aPart
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 null
@@ -2885,7 +2885,7 @@ if
 aStr
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 null

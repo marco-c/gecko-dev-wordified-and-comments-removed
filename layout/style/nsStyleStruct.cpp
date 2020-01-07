@@ -1838,7 +1838,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -4427,7 +4427,7 @@ return
 eCSSKeyword_inset
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -10399,7 +10399,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -11105,7 +11105,7 @@ STATUS_FRAME_COMPLETE
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -11218,7 +11218,7 @@ STATUS_LOAD_COMPLETE
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -13608,7 +13608,7 @@ eLengthPercentage
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 missed

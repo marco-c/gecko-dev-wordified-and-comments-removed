@@ -239,7 +239,7 @@ nsACString
 aReason
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsresult

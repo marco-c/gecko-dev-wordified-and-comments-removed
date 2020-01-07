@@ -476,7 +476,7 @@ CacheIndexEntry
 aOther
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 CacheIndexEntry

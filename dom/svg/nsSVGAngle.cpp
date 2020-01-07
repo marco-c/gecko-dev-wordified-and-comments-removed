@@ -239,7 +239,7 @@ unit
 return
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -534,7 +534,7 @@ return
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -1487,7 +1487,7 @@ aSVGElement
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying

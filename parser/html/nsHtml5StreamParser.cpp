@@ -6685,7 +6685,7 @@ return
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 It
@@ -7086,12 +7086,14 @@ IsEmpty
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 ContinueAfterScripts
 called
 without
+"
+"
 speculations
 .
 "

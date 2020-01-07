@@ -1339,7 +1339,7 @@ UpdateProxyWindowStyle
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Style
@@ -1351,6 +1351,8 @@ non
 -
 style
 changed
+"
+"
 message
 "
 )

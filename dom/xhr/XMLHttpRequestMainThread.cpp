@@ -13980,13 +13980,15 @@ XMLHttpRequestBinding
 DONE
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 XMLHttpRequestMainThread
 :
 :
 HandleTimeoutCallback
+"
+"
 with
 completed
 request

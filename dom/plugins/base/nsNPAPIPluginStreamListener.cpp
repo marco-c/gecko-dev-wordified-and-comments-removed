@@ -1710,7 +1710,7 @@ amountRead
 0
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 input
@@ -1726,9 +1726,9 @@ it
 '
 s
 almost
+"
+"
 impossible
-"
-"
 to
 get
 here

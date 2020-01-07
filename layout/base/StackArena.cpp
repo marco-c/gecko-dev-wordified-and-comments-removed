@@ -307,7 +307,7 @@ mStackTop
 mMarkLength
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -556,7 +556,7 @@ mStackTop
 mMarkLength
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 out

@@ -7932,7 +7932,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -13937,7 +13937,7 @@ IsEmpty
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 no
@@ -14719,7 +14719,7 @@ false
 ;
 }
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 no
@@ -30425,7 +30425,7 @@ if
 mListener
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 mListener
@@ -31055,7 +31055,7 @@ mConcurrentCacheAccess
 ;
 }
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
