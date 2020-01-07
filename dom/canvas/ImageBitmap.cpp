@@ -3732,7 +3732,13 @@ mSurface
 )
 ;
 return
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 already_AddRefed

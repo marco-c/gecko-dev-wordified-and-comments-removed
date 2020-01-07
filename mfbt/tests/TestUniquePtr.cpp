@@ -373,7 +373,13 @@ A
 )
 ;
 return
+std
+:
+:
+move
+(
 a
+)
 ;
 }
 static
@@ -1995,7 +2001,13 @@ ptr
 aI
 ;
 return
+std
+:
+:
+move
+(
 ptr
+)
 ;
 }
 static

@@ -13897,6 +13897,11 @@ computeInvalidRect
 {
 props
 =
+std
+:
+:
+move
+(
 LayerProperties
 :
 :
@@ -13907,6 +13912,7 @@ layerManager
 >
 GetRoot
 (
+)
 )
 )
 ;

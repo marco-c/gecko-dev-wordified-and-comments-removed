@@ -179,7 +179,13 @@ get
 )
 ;
 return
+std
+:
+:
+move
+(
 entry
+)
 ;
 }
 already_AddRefed
