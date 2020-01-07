@@ -3576,7 +3576,11 @@ true
 }
 )
 ;
-setTimeout
+Services
+.
+tm
+.
+dispatchToMainThread
 (
 (
 )
@@ -3586,12 +3590,9 @@ Weave
 .
 Service
 .
-errorHandler
-.
-syncAndReportErrors
+sync
 (
 )
-0
 )
 ;
 }
