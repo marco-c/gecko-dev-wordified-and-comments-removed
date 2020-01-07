@@ -308,6 +308,10 @@ json
 dumps
 (
 server_config
+.
+as_dict
+(
+)
 )
     
 harness
