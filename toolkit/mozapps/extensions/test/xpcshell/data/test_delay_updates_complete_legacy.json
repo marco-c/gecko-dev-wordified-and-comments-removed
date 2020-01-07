@@ -64,11 +64,9 @@ http
 :
 /
 /
-localhost
-:
-%
-PORT
-%
+example
+.
+com
 /
 addons
 /

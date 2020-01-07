@@ -164,7 +164,7 @@ ID
 let
 chromeReg
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -183,7 +183,7 @@ registry
 .
 getService
 (
-AM_Ci
+Ci
 .
 nsIChromeRegistry
 )

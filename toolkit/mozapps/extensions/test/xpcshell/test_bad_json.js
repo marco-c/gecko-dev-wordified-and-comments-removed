@@ -74,6 +74,7 @@ extensions
 "
 )
 ;
+async
 function
 run_test
 (
@@ -126,6 +127,7 @@ shutdownManager
 (
 )
 ;
+await
 saveJSON
 (
 {
@@ -140,6 +142,8 @@ find
 "
 }
 gExtensionsJSON
+.
+path
 )
 ;
 startupManager
@@ -163,6 +167,7 @@ after_db_rebuild
 )
 ;
 }
+async
 function
 after_db_rebuild
 (
@@ -190,9 +195,12 @@ shutdownManager
 let
 data
 =
+await
 loadJSON
 (
 gExtensionsJSON
+.
+path
 )
 ;
 Assert

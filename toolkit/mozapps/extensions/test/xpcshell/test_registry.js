@@ -203,7 +203,7 @@ if
 nsIWindowsRegKey
 "
 in
-AM_Ci
+Ci
 )
 )
 return
@@ -249,7 +249,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -283,7 +283,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -455,7 +455,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -487,7 +487,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -583,7 +583,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -617,7 +617,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -719,7 +719,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -751,7 +751,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -787,7 +787,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -825,7 +825,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .
@@ -857,7 +857,7 @@ registry
 .
 setValue
 (
-AM_Ci
+Ci
 .
 nsIWindowsRegKey
 .

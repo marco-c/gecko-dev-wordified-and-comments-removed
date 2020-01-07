@@ -305,7 +305,7 @@ makeUUID
 let
 uuidGen
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -322,7 +322,7 @@ generator
 .
 getService
 (
-AM_Ci
+Ci
 .
 nsIUUIDGenerator
 )
@@ -642,7 +642,7 @@ ok
 (
 uri
 instanceof
-AM_Ci
+Ci
 .
 nsIFileURL
 )
