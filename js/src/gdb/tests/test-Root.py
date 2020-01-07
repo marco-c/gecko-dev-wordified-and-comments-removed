@@ -126,9 +126,7 @@ NativeObject
 )
 array
 .
-get
-(
-)
+ptr
 )
 -
 >
