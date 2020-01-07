@@ -551,6 +551,11 @@ mPerformanceService
 )
 ;
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 mPerformanceService
 -
 >
@@ -558,6 +563,7 @@ TimeOrigin
 (
 CreationTimeStamp
 (
+)
 )
 )
 ;
