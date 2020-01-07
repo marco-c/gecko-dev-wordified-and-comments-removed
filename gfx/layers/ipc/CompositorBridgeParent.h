@@ -317,6 +317,9 @@ class
 APZCTreeManagerParent
 ;
 class
+APZSampler
+;
+class
 AsyncCompositionManager
 ;
 class
@@ -2125,6 +2128,14 @@ GetAPZCTreeManager
 (
 )
 ;
+RefPtr
+<
+APZSampler
+>
+GetAPZSampler
+(
+)
+;
 CompositorOptions
 GetOptions
 (
@@ -2676,6 +2687,12 @@ RefPtr
 APZCTreeManager
 >
 mApzcTreeManager
+;
+RefPtr
+<
+APZSampler
+>
+mApzSampler
 ;
 RefPtr
 <
