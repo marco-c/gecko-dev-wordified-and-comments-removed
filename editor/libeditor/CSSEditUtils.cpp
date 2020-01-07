@@ -266,13 +266,6 @@ h
 #
 include
 "
-nsSubstringTuple
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

@@ -378,13 +378,6 @@ h
 #
 include
 "
-nsSubstringTuple
-.
-h
-"
-#
-include
-"
 nsTextNode
 .
 h

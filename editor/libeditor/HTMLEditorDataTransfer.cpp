@@ -470,13 +470,6 @@ h
 #
 include
 "
-nsSubstringTuple
-.
-h
-"
-#
-include
-"
 nsTreeSanitizer
 .
 h
