@@ -1524,15 +1524,8 @@ SECSuccess
 void
 client_main
 (
-unsigned
-short
-port
 int
 connections
-const
-char
-*
-hostName
 )
 {
 int
@@ -2677,9 +2670,7 @@ progName
 }
 client_main
 (
-port
 connections
-hostName
 )
 ;
 cleanup

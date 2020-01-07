@@ -840,12 +840,12 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 )
 :
 TlsHandshakeFilter
 (
-agent
+a
 {
 kTlsHandshakeServerKeyExchange
 }

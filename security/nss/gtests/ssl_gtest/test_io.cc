@@ -531,7 +531,7 @@ return
 ;
 }
 auto
-peer
+dst
 =
 peer_
 .
@@ -542,7 +542,7 @@ lock
 if
 (
 !
-peer
+dst
 )
 {
 PR_SetError
@@ -644,7 +644,7 @@ packet
 filtered
 )
 ;
-peer
+dst
 -
 >
 PacketReceived
@@ -691,7 +691,7 @@ Packet
 packet
 )
 ;
-peer
+dst
 -
 >
 PacketReceived

@@ -8216,7 +8216,7 @@ data
 ;
 unsigned
 char
-c
+ch
 =
 *
 (
@@ -8235,7 +8235,7 @@ x
 %
 02x
 "
-c
+ch
 )
 ;
 }
@@ -17468,7 +17468,7 @@ level
 SECU_PPFunc
 inner
 SignatureOptionType
-withSignature
+signatureOption
 )
 {
 PLArenaPool
@@ -17589,6 +17589,9 @@ level
 ;
 if
 (
+signatureOption
+=
+=
 withSignature
 )
 {

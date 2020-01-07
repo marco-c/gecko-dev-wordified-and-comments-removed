@@ -2515,9 +2515,6 @@ i
 +
 )
 {
-SECStatus
-rv
-;
 printf
 (
 "

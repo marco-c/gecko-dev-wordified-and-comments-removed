@@ -231,10 +231,6 @@ static
 void
 Usage
 (
-const
-char
-*
-progName
 )
 {
 printf
@@ -539,7 +535,6 @@ default
 :
 Usage
 (
-progName
 )
 ;
 break
@@ -629,7 +624,6 @@ PL_OPT_BAD
 )
 Usage
 (
-progName
 )
 ;
 if
@@ -995,9 +989,6 @@ slot
 PK11_GetInternalKeySlot
 (
 )
-;
-SECStatus
-rv
 ;
 int
 passwordSuccess

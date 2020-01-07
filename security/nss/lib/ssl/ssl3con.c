@@ -13393,9 +13393,6 @@ SECFailure
 }
 else
 {
-SECStatus
-rv
-;
 rv
 =
 dtls_QueueMessage
@@ -54045,8 +54042,6 @@ i
 +
 )
 {
-unsigned
-int
 t
 =
 paddingLength

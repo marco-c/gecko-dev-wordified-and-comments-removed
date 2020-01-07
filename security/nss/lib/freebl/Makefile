@@ -3779,7 +3779,7 @@ else
 EXTRA_SRCS
 +
 =
-poly1305
+Hacl_Poly1305_32
 .
 c
 endif
@@ -3801,7 +3801,7 @@ else
 EXTRA_SRCS
 +
 =
-poly1305
+Hacl_Poly1305_32
 .
 c
 endif
