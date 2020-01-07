@@ -26760,6 +26760,9 @@ ElevateUAC
 {
 EndIf
 }
+!
+ifdef
+MOZ_OPTIONAL_EXTENSIONS
 ReadINIStr
 R8
 R7
@@ -26794,6 +26797,8 @@ InstallOptionalExtensions
 {
 EndIf
 }
+!
+endif
 !
 ifndef
 NO_STARTMENU_DIR
