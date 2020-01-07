@@ -503,7 +503,6 @@ mEditableChild
 )
 ;
 }
-public
 void
 onWindowChanged
 (
