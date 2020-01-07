@@ -37,6 +37,11 @@ ui
 }
 )
 {
+reloadOnTouchChange
+(
+true
+)
+;
 await
 injectEventUtilsInContentTask
 (
@@ -86,6 +91,11 @@ ui
 testTouchButton
 (
 ui
+)
+;
+reloadOnTouchChange
+(
+false
 )
 ;
 }

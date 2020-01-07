@@ -143,6 +143,11 @@ manager
 }
 )
 {
+reloadOnTouchChange
+(
+true
+)
+;
 await
 waitStartup
 (
@@ -187,6 +192,11 @@ await
 testDisableTouchSimulation
 (
 ui
+)
+;
+reloadOnTouchChange
+(
+false
 )
 ;
 }
