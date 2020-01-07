@@ -8671,6 +8671,14 @@ aBrowser
 }
 )
 ;
+aWindow
+.
+gURLBar
+.
+focus
+(
+)
+;
 }
 _hideAnnotationsForPanel
 (
