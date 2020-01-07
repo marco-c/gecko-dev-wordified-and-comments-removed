@@ -804,14 +804,14 @@ js
 endif
 #
 endif
-RESPATH
+BINPATH
 /
 components
 /
 ClearDataService
 .
 manifest
-RESPATH
+BINPATH
 /
 components
 /
