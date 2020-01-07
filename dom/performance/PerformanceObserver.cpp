@@ -384,9 +384,6 @@ WorkerPrivate
 *
 workerPrivate
 =
-workers
-:
-:
 GetWorkerPrivateFromContext
 (
 cx

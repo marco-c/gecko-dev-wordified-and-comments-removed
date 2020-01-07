@@ -1060,9 +1060,6 @@ GetScriptContext
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1176,9 +1173,6 @@ GetBaseURI
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1204,9 +1198,6 @@ GetResolvedScriptURI
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1232,9 +1223,6 @@ IsServiceWorker
 )
 )
 ;
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1361,9 +1349,6 @@ ChannelInfo
 aChannelInfo
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1527,9 +1512,6 @@ GetPrincipal
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1547,9 +1529,6 @@ GetLoadingPrincipal
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1581,9 +1560,6 @@ GetLoadGroup
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1679,9 +1655,6 @@ ForgetWorkerChannel
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1709,9 +1682,6 @@ GetWindow
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1729,9 +1699,6 @@ GetCSP
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -2732,9 +2699,6 @@ IsDebuggerRegistered
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -2750,9 +2714,6 @@ bool
 aDebuggerRegistered
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -2830,9 +2791,6 @@ Debugger
 )
 const
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -2854,9 +2812,6 @@ WorkerDebugger
 aDebugger
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )

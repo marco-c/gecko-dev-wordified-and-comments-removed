@@ -1383,9 +1383,6 @@ mIsMainThreadEvent
 )
 {
 return
-workers
-:
-:
 IsCurrentThreadRunningChromeWorker
 (
 )
@@ -4655,9 +4652,6 @@ WorkerPrivate
 *
 workerPrivate
 =
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )

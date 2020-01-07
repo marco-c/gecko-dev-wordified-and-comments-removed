@@ -499,16 +499,6 @@ namespace
 mozilla
 :
 :
-dom
-:
-:
-workers
-;
-using
-namespace
-mozilla
-:
-:
 ipc
 ;
 class

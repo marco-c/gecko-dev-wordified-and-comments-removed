@@ -4484,7 +4484,7 @@ Value
 if
 (
 !
-IsDebuggerSandbox
+IsWorkerDebuggerSandbox
 (
 sandbox
 )
@@ -5038,9 +5038,6 @@ workers
 )
 ;
 }
-namespace
-workers
-{
 bool
 IsWorkerGlobal
 (
@@ -5058,7 +5055,7 @@ object
 ;
 }
 bool
-IsDebuggerGlobal
+IsWorkerDebuggerGlobal
 (
 JSObject
 *
@@ -5074,7 +5071,7 @@ object
 ;
 }
 bool
-IsDebuggerSandbox
+IsWorkerDebuggerSandbox
 (
 JSObject
 *
@@ -5099,7 +5096,6 @@ GlobalType
 :
 WorkerDebuggerSandbox
 ;
-}
 }
 }
 }

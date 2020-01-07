@@ -7718,9 +7718,6 @@ workerPrivate
 dom
 :
 :
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )

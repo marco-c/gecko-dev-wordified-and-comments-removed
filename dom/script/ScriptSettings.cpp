@@ -2233,9 +2233,6 @@ WorkerPrivate
 *
 worker
 =
-workers
-:
-:
 GetWorkerPrivateFromContext
 (
 aCx
@@ -2423,9 +2420,6 @@ else
 {
 errorGlobal
 =
-workers
-:
-:
 GetCurrentThreadWorkerGlobal
 (
 )
@@ -2701,9 +2695,6 @@ WorkerPrivate
 *
 worker
 =
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )

@@ -456,10 +456,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 #
 define
 HTML_TAG

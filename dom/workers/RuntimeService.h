@@ -499,9 +499,6 @@ JSSettings
 aSettings
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -524,9 +521,6 @@ ContextOptions
 aContextOptions
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -592,9 +586,6 @@ uint32_t
 aValue
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -630,9 +621,6 @@ uint32_t
 aFrequency
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )

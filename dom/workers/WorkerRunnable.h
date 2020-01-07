@@ -331,9 +331,6 @@ aWorkerPrivate
 override
 final
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -433,9 +430,6 @@ aWorkerPrivate
 aSyncLoopTarget
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -464,9 +458,6 @@ aSyncLoopTarget
 )
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -491,9 +482,6 @@ aWorkerPrivate
 )
 override
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -607,9 +595,6 @@ aWorkerPrivate
 WorkerThreadUnchangedBusyCount
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -632,9 +617,6 @@ aWorkerPrivate
 )
 override
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -655,9 +637,6 @@ aDispatchResult
 )
 override
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -705,9 +684,6 @@ aWorkerPrivate
 )
 override
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -728,9 +704,6 @@ aDispatchResult
 )
 override
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1028,9 +1001,6 @@ aWorkerPrivate
 override
 final
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )

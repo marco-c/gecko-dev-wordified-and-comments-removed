@@ -1167,9 +1167,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 :
 :

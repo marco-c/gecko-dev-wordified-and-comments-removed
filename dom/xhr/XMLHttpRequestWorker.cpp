@@ -542,9 +542,6 @@ Reset
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -570,9 +567,6 @@ GetEventTarget
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1179,9 +1173,6 @@ Run
 )
 override
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1452,9 +1443,6 @@ mReceivedLoadStart
 false
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1477,9 +1465,6 @@ RegisterAndDispatch
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -1538,9 +1523,6 @@ LoadStartDetectionRunnable
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -2899,9 +2881,6 @@ Init
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -3100,9 +3079,6 @@ bool
 aSendUnpin
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -3299,9 +3275,6 @@ bool
 aAdd
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -3497,9 +3470,6 @@ nsIDOMEvent
 aEvent
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -3907,9 +3877,6 @@ Run
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -4062,9 +4029,6 @@ nsIDOMEvent
 aEvent
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -4135,9 +4099,6 @@ WorkerPrivate
 *
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -5376,9 +5337,6 @@ MainThreadRun
 (
 )
 {
-workers
-:
-:
 AssertIsOnMainThread
 (
 )
@@ -6339,9 +6297,6 @@ WorkerPrivate
 *
 workerPrivate
 =
-workers
-:
-:
 GetWorkerPrivateFromContext
 (
 cx

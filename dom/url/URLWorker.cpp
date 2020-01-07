@@ -82,16 +82,6 @@ nsStandardURL
 namespace
 dom
 {
-using
-namespace
-workers
-;
-using
-workers
-:
-:
-AssertIsOnMainThread
-;
 class
 URLWorker
 :

@@ -223,16 +223,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-workers
-;
 namespace
 mozilla
 {

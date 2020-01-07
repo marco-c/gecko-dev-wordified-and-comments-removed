@@ -563,10 +563,6 @@ dom
 {
 using
 namespace
-workers
-;
-using
-namespace
 workerinternals
 ;
 MOZ_DEFINE_MALLOC_SIZE_OF

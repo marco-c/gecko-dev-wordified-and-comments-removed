@@ -339,10 +339,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 static
 LazyLogModule
 gEventSourceLog

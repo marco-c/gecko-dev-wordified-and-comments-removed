@@ -122,13 +122,6 @@ dom
 class
 OffscreenCanvas
 ;
-namespace
-workers
-{
-class
-WorkerStructuredCloneClosure
-;
-}
 class
 ArrayBufferViewOrArrayBuffer
 ;

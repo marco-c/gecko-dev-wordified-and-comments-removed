@@ -575,9 +575,6 @@ MOZ_ASSERT
 aWorkerPrivate
 =
 =
-workers
-:
-:
 GetWorkerPrivateFromContext
 (
 aCx
