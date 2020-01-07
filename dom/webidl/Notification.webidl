@@ -325,10 +325,10 @@ mozilla
 dom
 :
 :
-Notification
+DOMPreferences
 :
 :
-RequireInteractionEnabled
+NotificationRIEnabled
 "
 ]
 readonly
