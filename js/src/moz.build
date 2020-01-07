@@ -2208,11 +2208,6 @@ jsbool
 cpp
 '
 '
-jscntxt
-.
-cpp
-'
-'
 jsdate
 .
 cpp
@@ -2507,6 +2502,13 @@ cpp
 vm
 /
 JSCompartment
+.
+cpp
+'
+'
+vm
+/
+JSContext
 .
 cpp
 '

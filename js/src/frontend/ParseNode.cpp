@@ -21,7 +21,11 @@ h
 #
 include
 "
-jscntxtinlines
+vm
+/
+JSContext
+-
+inl
 .
 h
 "
