@@ -118,11 +118,6 @@ nsIDOMCounter
 idl
 '
 '
-nsIDOMCSSFontFeatureValuesRule
-.
-idl
-'
-'
 nsIDOMCSSImportRule
 .
 idl
