@@ -440,12 +440,14 @@ condition
 r
 =
 >
+inRange
+(
 r
 .
 h
-=
-=
 13
+14
+)
 &
 &
 inRange
