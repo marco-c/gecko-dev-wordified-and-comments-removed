@@ -3149,6 +3149,35 @@ talos_extra_options
 '
 ]
         
+if
+self
+.
+config
+.
+get
+(
+'
+code_coverage
+'
+False
+)
+:
+            
+options
+.
+extend
+(
+[
+'
+-
+-
+code
+-
+coverage
+'
+]
+)
+        
 return
 options
     
