@@ -9,9 +9,9 @@ requestCompleteLog
 (
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -33,9 +33,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -413,7 +413,7 @@ tabTracker
 }
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

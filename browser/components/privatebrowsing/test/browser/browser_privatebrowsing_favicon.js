@@ -131,7 +131,7 @@ getSystemPrincipal
 let
 makeURI
 =
-ChromeUtils
+Cu
 .
 import
 (

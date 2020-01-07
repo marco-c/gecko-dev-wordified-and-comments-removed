@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -32,7 +32,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

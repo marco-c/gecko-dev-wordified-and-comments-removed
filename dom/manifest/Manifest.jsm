@@ -24,7 +24,7 @@ Components
 .
 classes
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -48,7 +48,7 @@ const
 ManifestObtainer
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -74,7 +74,7 @@ const
 ManifestIcons
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -95,9 +95,9 @@ jsm
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -118,9 +118,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

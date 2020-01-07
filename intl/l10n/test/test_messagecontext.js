@@ -8,7 +8,9 @@ const
 MessageContext
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

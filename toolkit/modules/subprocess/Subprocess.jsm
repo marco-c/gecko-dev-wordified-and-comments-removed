@@ -41,7 +41,7 @@ TextEncoder
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -60,7 +60,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -79,7 +79,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -112,9 +112,9 @@ win
 "
 )
 {
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -140,9 +140,9 @@ jsm
 }
 else
 {
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

@@ -7,7 +7,7 @@ Cu
 .
 getGlobalForObject
 (
-ChromeUtils
+Cu
 .
 import
 (
@@ -29,7 +29,7 @@ jsm
 )
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

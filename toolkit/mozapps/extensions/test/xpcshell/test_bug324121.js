@@ -12,7 +12,9 @@ checkUpdateSecurity
 false
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

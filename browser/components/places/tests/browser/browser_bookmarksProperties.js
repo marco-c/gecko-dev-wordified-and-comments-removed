@@ -137,7 +137,7 @@ bookmarkProperties2
 xul
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -41,7 +41,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -60,7 +60,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -225,7 +225,7 @@ getService
 wrappedJSObject
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -244,7 +244,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

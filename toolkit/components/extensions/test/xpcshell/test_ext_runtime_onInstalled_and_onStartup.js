@@ -21,7 +21,7 @@ const
 Management
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -48,7 +48,7 @@ Management
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -67,7 +67,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

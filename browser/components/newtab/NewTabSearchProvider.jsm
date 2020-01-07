@@ -38,7 +38,7 @@ engine
 modified
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,7 +57,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -76,9 +76,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -115,7 +115,7 @@ const
 EventEmitter
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

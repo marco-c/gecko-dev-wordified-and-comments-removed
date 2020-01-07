@@ -52,7 +52,9 @@ const
 Management
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -78,7 +80,9 @@ const
 EmbeddedExtensionManager
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

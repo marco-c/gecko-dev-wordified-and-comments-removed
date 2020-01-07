@@ -24,7 +24,7 @@ G_GDEBUG
 =
 false
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -43,7 +43,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

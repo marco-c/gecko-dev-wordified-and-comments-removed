@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -29,7 +29,7 @@ ExtensionError
 =
 ExtensionUtils
 ;
-ChromeUtils
+Cu
 .
 import
 (

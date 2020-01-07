@@ -5,7 +5,9 @@ run_test
 {
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

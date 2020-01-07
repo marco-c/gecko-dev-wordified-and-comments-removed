@@ -117,7 +117,9 @@ interfaces
 .
 nsIWindowWatcher
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -32,7 +32,7 @@ SharedAll
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -54,7 +54,7 @@ jsm
 SharedAll
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -73,7 +73,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

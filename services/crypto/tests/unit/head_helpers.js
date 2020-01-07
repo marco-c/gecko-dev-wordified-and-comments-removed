@@ -26,7 +26,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -126,7 +126,7 @@ OS
 Linux
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -285,7 +285,7 @@ addResourceAlias
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

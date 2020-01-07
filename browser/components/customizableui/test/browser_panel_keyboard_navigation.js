@@ -8,7 +8,7 @@ const
 PanelMultiView
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

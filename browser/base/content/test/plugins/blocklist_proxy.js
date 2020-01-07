@@ -74,7 +74,7 @@ Ci
 nsIFactory
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

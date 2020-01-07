@@ -684,7 +684,9 @@ temp
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -1270,7 +1272,9 @@ tmp
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

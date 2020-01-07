@@ -12,7 +12,7 @@ notifications
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

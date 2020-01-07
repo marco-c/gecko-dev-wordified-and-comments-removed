@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -36,7 +36,7 @@ const
 ContentWebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,7 +57,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

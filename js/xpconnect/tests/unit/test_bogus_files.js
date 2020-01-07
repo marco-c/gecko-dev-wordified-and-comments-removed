@@ -13,7 +13,9 @@ false
 ;
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -168,7 +170,9 @@ equal
 (
 typeof
 (
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -197,7 +201,9 @@ equal
 (
 typeof
 (
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

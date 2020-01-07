@@ -3503,7 +3503,7 @@ root
 manifest
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

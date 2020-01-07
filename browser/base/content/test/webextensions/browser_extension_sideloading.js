@@ -3,7 +3,7 @@ const
 AddonManagerPrivate
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -29,7 +29,7 @@ const
 AddonTestUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

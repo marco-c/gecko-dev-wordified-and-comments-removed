@@ -1260,7 +1260,9 @@ true
 "
 >
 (
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

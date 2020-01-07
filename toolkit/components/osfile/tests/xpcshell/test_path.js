@@ -3,7 +3,9 @@ use
 strict
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -53,7 +55,9 @@ ImportUnix
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -75,7 +79,9 @@ jsm
 ImportWin
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3381,7 +3387,9 @@ Scope
 ;
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

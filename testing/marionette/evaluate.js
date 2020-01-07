@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -59,7 +59,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -78,7 +78,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -97,7 +97,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -122,7 +122,7 @@ element
 WebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ JavaScriptError
 ScriptTimeoutError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

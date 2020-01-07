@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -26,7 +26,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -45,7 +45,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

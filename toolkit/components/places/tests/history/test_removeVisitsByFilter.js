@@ -14,7 +14,7 @@ URL
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

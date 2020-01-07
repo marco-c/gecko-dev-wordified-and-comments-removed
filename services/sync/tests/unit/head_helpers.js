@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -17,7 +17,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -36,7 +36,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -55,7 +55,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -74,7 +74,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -93,7 +93,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -112,7 +112,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -131,7 +131,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -150,7 +150,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -203,7 +203,7 @@ promiseInitialized
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -268,7 +268,7 @@ ns
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -288,7 +288,7 @@ jsm
 ns
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -460,7 +460,7 @@ ns
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -1421,7 +1421,7 @@ ns
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2149,7 +2149,7 @@ ns
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2740,7 +2740,7 @@ let
 RotaryEngine
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

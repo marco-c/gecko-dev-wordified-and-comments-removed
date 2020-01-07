@@ -18,7 +18,7 @@ about
 welcomeback
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

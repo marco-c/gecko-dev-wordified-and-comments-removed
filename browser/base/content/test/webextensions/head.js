@@ -30,7 +30,7 @@ com
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -66,7 +66,9 @@ const
 Management
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

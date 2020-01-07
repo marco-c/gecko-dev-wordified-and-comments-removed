@@ -12,7 +12,7 @@ const
 Context
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

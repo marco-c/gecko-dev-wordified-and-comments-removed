@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -110,7 +110,9 @@ var
 FormHistory
 =
 (
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -138,7 +140,9 @@ var
 Downloads
 =
 (
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

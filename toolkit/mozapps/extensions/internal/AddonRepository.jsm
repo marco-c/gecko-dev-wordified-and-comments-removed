@@ -31,7 +31,9 @@ Components
 .
 results
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -437,7 +439,7 @@ mozilla
 org
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

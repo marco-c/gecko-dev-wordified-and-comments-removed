@@ -62,7 +62,7 @@ state
 let
 bsPass
 =
-ChromeUtils
+Cu
 .
 import
 (

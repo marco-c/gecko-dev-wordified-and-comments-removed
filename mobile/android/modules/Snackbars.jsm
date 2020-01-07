@@ -28,7 +28,7 @@ Snackbars
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -47,9 +47,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

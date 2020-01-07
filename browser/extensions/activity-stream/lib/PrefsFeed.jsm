@@ -22,7 +22,7 @@ actionTypes
 at
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ const
 Prefs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -78,7 +78,7 @@ const
 PrerenderData
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -101,7 +101,7 @@ jsm
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

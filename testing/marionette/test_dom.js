@@ -13,7 +13,7 @@ ContentEventObserverService
 WebElementEventTarget
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

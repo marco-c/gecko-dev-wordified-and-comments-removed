@@ -110,7 +110,7 @@ processes
 ;
 }
 }
-ChromeUtils
+Cu
 .
 import
 (
@@ -577,7 +577,7 @@ xpinstallConfirm
 xul
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -596,7 +596,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -615,7 +615,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -723,7 +723,9 @@ certUtils
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -871,7 +873,7 @@ jsm
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -3678,7 +3680,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3919,7 +3923,9 @@ entry
 ;
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -4109,7 +4115,7 @@ let
 RemotePages
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -6350,7 +6356,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -6668,7 +6676,9 @@ false
 url
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -15738,7 +15748,7 @@ init
 (
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -46,7 +46,7 @@ WIDEVINE_ID
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -65,7 +65,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -19,7 +19,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -536,7 +536,7 @@ n
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

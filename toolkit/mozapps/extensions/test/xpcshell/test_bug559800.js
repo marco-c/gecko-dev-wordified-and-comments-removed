@@ -16,7 +16,9 @@ extensions
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

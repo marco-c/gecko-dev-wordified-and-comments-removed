@@ -257,7 +257,9 @@ done
 )
 ;
 }
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

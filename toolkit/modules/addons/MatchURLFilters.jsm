@@ -17,7 +17,7 @@ Components
 .
 interfaces
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -36,9 +36,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

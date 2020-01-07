@@ -18,7 +18,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -131,7 +131,7 @@ addBootstrappedManifestLocation
 extensionDir
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

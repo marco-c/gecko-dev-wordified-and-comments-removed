@@ -8,7 +8,7 @@ const
 XPCOMUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ const
 SessionWorker
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -62,7 +62,7 @@ Paths
 var
 SessionFile
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -369,7 +369,7 @@ do_get_profile
 ;
 SessionFile
 =
-ChromeUtils
+Cu
 .
 import
 (

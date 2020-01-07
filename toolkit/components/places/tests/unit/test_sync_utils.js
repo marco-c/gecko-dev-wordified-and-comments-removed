@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -36,7 +36,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -20494,7 +20494,7 @@ try
 {
 PlacesUIUtils
 =
-ChromeUtils
+Cu
 .
 import
 (

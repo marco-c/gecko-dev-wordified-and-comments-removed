@@ -31,7 +31,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -141,7 +141,7 @@ let
 Weave
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

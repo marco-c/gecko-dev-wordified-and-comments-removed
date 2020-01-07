@@ -27,7 +27,9 @@ qux
 =
 {
 }
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

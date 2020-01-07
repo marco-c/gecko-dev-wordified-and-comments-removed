@@ -355,7 +355,9 @@ nsIPluginTag
 STATE_ENABLED
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -465,7 +465,7 @@ utils
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

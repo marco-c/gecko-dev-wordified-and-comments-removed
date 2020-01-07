@@ -8,7 +8,9 @@ OfflineAppCacheHelper
 "
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

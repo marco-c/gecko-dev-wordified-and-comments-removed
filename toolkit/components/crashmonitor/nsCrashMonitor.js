@@ -1,4 +1,6 @@
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -17,7 +19,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -42,7 +46,9 @@ Scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

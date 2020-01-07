@@ -26,7 +26,7 @@ let
 EventEmitter
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

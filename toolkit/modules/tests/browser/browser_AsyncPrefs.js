@@ -183,7 +183,7 @@ let
 AsyncPrefs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

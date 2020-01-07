@@ -11,7 +11,9 @@ tests
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

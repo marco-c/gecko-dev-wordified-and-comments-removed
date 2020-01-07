@@ -11,11 +11,14 @@ Cc
 interfaces
 :
 Ci
+utils
+:
+Cu
 }
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +37,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -36,7 +36,7 @@ DOMRequestIpcHelper
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -55,7 +55,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

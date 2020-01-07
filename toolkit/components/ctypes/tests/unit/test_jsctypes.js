@@ -1,6 +1,8 @@
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

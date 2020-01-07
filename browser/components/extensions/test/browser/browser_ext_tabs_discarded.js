@@ -8,7 +8,7 @@ const
 Utils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

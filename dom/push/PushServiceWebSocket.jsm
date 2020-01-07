@@ -31,7 +31,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -88,7 +88,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -107,7 +107,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -131,7 +131,7 @@ const
 PushDB
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -155,7 +155,7 @@ const
 PushRecord
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -179,7 +179,7 @@ const
 PushCrypto
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -363,7 +363,7 @@ let
 ConsoleAPI
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

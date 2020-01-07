@@ -16,7 +16,7 @@ Cm
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -256,7 +256,7 @@ let
 PresentationDevicePrompt
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

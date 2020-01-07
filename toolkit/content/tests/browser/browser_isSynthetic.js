@@ -137,7 +137,7 @@ function
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

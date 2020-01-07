@@ -23,7 +23,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -42,7 +42,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -61,7 +61,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -87,7 +87,7 @@ try
 {
 Experiments
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1076,7 +1076,7 @@ data
 .
 updateChannel
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -4093,7 +4093,7 @@ done
 let
 CrashReports
 =
-ChromeUtils
+Cu
 .
 import
 (

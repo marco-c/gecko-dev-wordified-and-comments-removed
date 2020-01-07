@@ -3180,7 +3180,9 @@ ns
 ;
 _Task
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3416,7 +3418,9 @@ prototype
 {
 _Services
 :
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3440,7 +3444,9 @@ jsm
 Services
 _EventDispatcher
 :
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

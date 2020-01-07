@@ -3,7 +3,9 @@ const
 Localization
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -87,7 +89,9 @@ L10nRegistry
 FileSource
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

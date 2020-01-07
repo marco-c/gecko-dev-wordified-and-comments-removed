@@ -1,4 +1,6 @@
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -17,7 +19,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -491,7 +495,7 @@ expected
 let
 ui
 =
-ChromeUtils
+Cu
 .
 import
 (

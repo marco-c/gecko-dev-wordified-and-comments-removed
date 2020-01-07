@@ -1,6 +1,6 @@
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -21,7 +21,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

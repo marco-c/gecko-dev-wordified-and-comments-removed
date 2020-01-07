@@ -26,7 +26,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -52,7 +52,7 @@ Weave
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -139,7 +139,7 @@ ns
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -238,7 +238,7 @@ let
 WeaveCrypto
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -22,7 +22,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -44,7 +44,7 @@ jsm
 let
 eseBackStage
 =
-ChromeUtils
+Cu
 .
 import
 (

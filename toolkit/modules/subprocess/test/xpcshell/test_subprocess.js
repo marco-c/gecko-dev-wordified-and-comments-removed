@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -22,7 +22,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2745,7 +2745,7 @@ libc
 win32
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -4365,7 +4365,7 @@ const
 libc
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -4705,7 +4705,7 @@ let
 SubprocessImpl
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

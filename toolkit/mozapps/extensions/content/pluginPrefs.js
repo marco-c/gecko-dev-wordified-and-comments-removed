@@ -17,7 +17,7 @@ const
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -12,7 +12,7 @@ do_get_cwd
 (
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

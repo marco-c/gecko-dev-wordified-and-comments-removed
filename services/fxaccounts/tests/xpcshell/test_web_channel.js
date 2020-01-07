@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -22,7 +22,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -47,7 +47,7 @@ FxAccountsWebChannel
 FxAccountsWebChannelHelpers
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

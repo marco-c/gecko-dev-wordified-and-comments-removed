@@ -48,7 +48,7 @@ FormAutofillNameUtils
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (

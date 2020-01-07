@@ -1418,7 +1418,7 @@ checkExplicitVersions
 outerSB
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

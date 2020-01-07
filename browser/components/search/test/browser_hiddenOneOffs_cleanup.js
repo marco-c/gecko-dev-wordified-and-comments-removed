@@ -551,7 +551,7 @@ u2661
 let
 Preferences
 =
-ChromeUtils
+Cu
 .
 import
 (

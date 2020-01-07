@@ -37,7 +37,7 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -56,7 +56,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -75,7 +75,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -94,7 +94,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -113,7 +113,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -132,7 +132,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -151,7 +151,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -176,7 +176,7 @@ element
 WebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -210,7 +210,7 @@ TimeoutError
 UnknownError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -231,7 +231,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -250,7 +250,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -274,7 +274,7 @@ const
 ContentEventObserverService
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -300,7 +300,7 @@ const
 truncate
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -321,7 +321,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -340,7 +340,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -359,7 +359,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -378,7 +378,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -397,7 +397,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

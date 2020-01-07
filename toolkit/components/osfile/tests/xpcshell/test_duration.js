@@ -3,7 +3,9 @@ var
 OS
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -29,7 +31,9 @@ var
 Services
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

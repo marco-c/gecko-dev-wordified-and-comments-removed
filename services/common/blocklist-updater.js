@@ -29,7 +29,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -48,7 +48,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -78,9 +78,9 @@ fetch
 ]
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -210,7 +210,7 @@ function
 const
 BlocklistClients
 =
-ChromeUtils
+Cu
 .
 import
 (

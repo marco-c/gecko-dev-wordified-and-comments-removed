@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -22,7 +22,7 @@ let
 telemetryHelper
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

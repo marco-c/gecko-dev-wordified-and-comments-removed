@@ -8,7 +8,9 @@ var
 require
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -16,9 +16,9 @@ Cu
 =
 Components
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -236,7 +236,7 @@ getSystemPrincipal
 let
 makeURI
 =
-ChromeUtils
+Cu
 .
 import
 (

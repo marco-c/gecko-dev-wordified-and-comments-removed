@@ -209,7 +209,7 @@ scope
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2525,7 +2525,9 @@ tmp
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

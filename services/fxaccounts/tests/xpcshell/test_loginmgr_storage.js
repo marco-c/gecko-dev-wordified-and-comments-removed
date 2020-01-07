@@ -45,7 +45,7 @@ Trace
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -83,7 +83,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -102,7 +102,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -121,7 +121,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -140,7 +140,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -164,7 +164,7 @@ var
 LoginManagerStorage
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
