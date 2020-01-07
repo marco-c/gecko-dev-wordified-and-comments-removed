@@ -68,11 +68,6 @@ run
 "
 )
     
-if
-not
-mach_interface
-:
-        
 add_arg
 (
 '
@@ -90,7 +85,7 @@ dest
 '
 app
 '
-                
+            
 help
 =
 "
@@ -107,7 +102,7 @@ default
 firefox
 )
 "
-                
+            
 choices
 =
 [
@@ -119,7 +114,7 @@ chrome
 '
 ]
 )
-        
+    
 add_arg
 (
 '
@@ -131,15 +126,12 @@ b
 -
 binary
 '
-required
-=
-True
 dest
 =
 '
 binary
 '
-                
+            
 help
 =
 "
@@ -154,6 +146,11 @@ are
 testing
 "
 )
+    
+if
+not
+mach_interface
+:
         
 add_arg
 (
@@ -169,7 +166,8 @@ branch_name
 "
 default
 =
-None
+'
+'
                 
 help
 =
@@ -308,6 +306,28 @@ ctx
 vars
 (
 args
+)
+    
+if
+args
+.
+binary
+is
+None
+:
+        
+parser
+.
+error
+(
+"
+-
+-
+binary
+is
+required
+!
+"
 )
     
 if

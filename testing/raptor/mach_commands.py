@@ -298,6 +298,11 @@ populate
 webroot
 '
 '
+install
+-
+chrome
+'
+'
 create
 -
 virtualenv
@@ -441,7 +446,7 @@ default_actions
 default_actions
             
 '
-raptor_extra_options
+raptor_cmd_line_args
 '
 :
 self
