@@ -1237,14 +1237,14 @@ nsIContent
 aLinkingContent
 )
 ;
-nsresult
+void
 InsertChildSheet
 (
 StyleSheet
-*
+&
 aSheet
 StyleSheet
-*
+&
 aParentSheet
 )
 ;
