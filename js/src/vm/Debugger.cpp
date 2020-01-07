@@ -23201,6 +23201,13 @@ data
 JSScript
 *
 script
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 )
 {
 ScriptQuery
@@ -23222,6 +23229,7 @@ self
 consider
 (
 script
+nogc
 )
 ;
 }
@@ -23231,6 +23239,13 @@ consider
 JSScript
 *
 script
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 )
 {
 if

@@ -514,6 +514,12 @@ prep
 cx
 )
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 if
 (
 compartment
@@ -582,6 +588,7 @@ runtime
 )
 data
 script
+nogc
 )
 ;
 }
@@ -655,6 +662,7 @@ runtime
 )
 data
 script
+nogc
 )
 ;
 }
