@@ -3018,12 +3018,6 @@ FamilyName
 FamilyName
 {
 name
-:
-name
-.
-clone
-(
-)
 syntax
 :
 FamilyNameSyntax
