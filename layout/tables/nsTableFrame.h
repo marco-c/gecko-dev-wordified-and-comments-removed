@@ -428,8 +428,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+ImgDrawResult
+ImgDrawResult
 ;
 typedef
 mozilla

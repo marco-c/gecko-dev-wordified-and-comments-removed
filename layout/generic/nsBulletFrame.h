@@ -102,8 +102,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+ImgDrawResult
+ImgDrawResult
 ;
 public
 :
@@ -367,7 +367,7 @@ nsPoint
 aPt
 )
 ;
-DrawResult
+ImgDrawResult
 PaintBullet
 (
 gfxContext

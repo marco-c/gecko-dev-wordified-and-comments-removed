@@ -854,7 +854,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 *
 aDrawResult
 )
@@ -865,7 +865,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 DrawBorderImage
 (
 nsPresContext

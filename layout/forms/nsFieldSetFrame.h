@@ -16,7 +16,7 @@ h
 #
 include
 "
-DrawResult
+ImgDrawResult
 .
 h
 "
@@ -41,8 +41,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+ImgDrawResult
+ImgDrawResult
 ;
 public
 :
@@ -176,7 +176,7 @@ aLists
 )
 override
 ;
-DrawResult
+ImgDrawResult
 PaintBorder
 (
 nsDisplayListBuilder

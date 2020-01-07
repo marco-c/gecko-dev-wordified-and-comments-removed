@@ -255,7 +255,7 @@ override
 ;
 NS_IMETHOD_
 (
-DrawResult
+ImgDrawResult
 )
 Draw
 (
@@ -366,7 +366,7 @@ private
 :
 Pair
 <
-DrawResult
+ImgDrawResult
 RefPtr
 <
 SourceSurface
@@ -398,7 +398,7 @@ ShouldClip
 (
 )
 ;
-DrawResult
+ImgDrawResult
 DrawSingleTile
 (
 gfxContext

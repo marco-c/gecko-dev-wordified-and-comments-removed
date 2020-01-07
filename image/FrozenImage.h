@@ -218,7 +218,7 @@ override
 ;
 NS_IMETHOD_
 (
-DrawResult
+ImgDrawResult
 )
 Draw
 (

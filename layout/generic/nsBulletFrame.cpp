@@ -1021,7 +1021,7 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 ;
-DrawResult
+ImgDrawResult
 Paint
 (
 gfxContext
@@ -1459,7 +1459,7 @@ aDisplayListBuilder
 ;
 }
 }
-DrawResult
+ImgDrawResult
 BulletRenderer
 :
 :
@@ -1719,7 +1719,7 @@ aDisableSubpixelAA
 ;
 }
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -3647,7 +3647,7 @@ imgIContainer
 FLAG_SYNC_DECODE
 ;
 }
-DrawResult
+ImgDrawResult
 result
 =
 static_cast
@@ -4771,7 +4771,7 @@ Nothing
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsBulletFrame
 :
 :
@@ -4811,7 +4811,7 @@ br
 )
 {
 return
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS

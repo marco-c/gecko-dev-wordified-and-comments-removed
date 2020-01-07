@@ -1684,7 +1684,7 @@ color
 }
 }
 }
-DrawResult
+ImgDrawResult
 nsTableCellFrame
 :
 :
@@ -1969,7 +1969,7 @@ gfxContext
 aCtx
 )
 {
-DrawResult
+ImgDrawResult
 result
 =
 static_cast
@@ -5328,7 +5328,7 @@ wm
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsBCTableCellFrame
 :
 :
