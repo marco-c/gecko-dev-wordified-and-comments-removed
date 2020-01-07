@@ -76,6 +76,11 @@ panel
 .
 js
 '
+'
+utils
+.
+js
+'
 )
 MOCHITEST_CHROME_MANIFESTS
 +
