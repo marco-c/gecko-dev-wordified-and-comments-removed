@@ -158,6 +158,15 @@ AllocLargeChunk
 length
 )
 ;
+if
+(
+range
+.
+length
+(
+)
+)
+{
 uint8_t
 *
 dstPtr
@@ -190,6 +199,7 @@ get
 length
 )
 ;
+}
 return
 range
 ;
