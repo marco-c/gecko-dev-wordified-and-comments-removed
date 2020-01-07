@@ -284,17 +284,6 @@ LOCAL_INCLUDES
 .
 .
 /
-.
-.
-/
-editor
-/
-txmgr
-'
-'
-.
-.
-/
 base
 '
 '

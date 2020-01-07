@@ -434,12 +434,6 @@ base
 '
 '
 /
-editor
-/
-txmgr
-'
-'
-/
 extensions
 /
 spellcheck
