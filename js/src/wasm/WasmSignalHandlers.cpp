@@ -9524,6 +9524,17 @@ true
 if
 defined
 (
+JS_CODEGEN_NONE
+)
+return
+false
+;
+#
+endif
+#
+if
+defined
+(
 ANDROID
 )
 &
