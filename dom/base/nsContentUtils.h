@@ -5821,6 +5821,9 @@ eSessionScoped
 eAllow
 =
 3
+eNumValues
+=
+4
 }
 ;
 static
