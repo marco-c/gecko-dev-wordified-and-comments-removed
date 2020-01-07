@@ -753,13 +753,9 @@ return
 mCompatMode
 ;
 }
-nsresult
-SetPreferredSheet
+void
+DocumentStyleSheetSetChanged
 (
-const
-nsAString
-&
-aTitle
 )
 ;
 Result
@@ -1464,9 +1460,6 @@ mDatasToNotifyOn
 ;
 nsCompatibility
 mCompatMode
-;
-nsString
-mPreferredSheet
 ;
 bool
 mEnabled
