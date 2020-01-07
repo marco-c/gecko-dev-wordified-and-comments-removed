@@ -540,6 +540,13 @@ tab
 .
 ownerGlobal
 tab
+{
+trigger
+:
+"
+test
+"
+}
 )
 ;
 info

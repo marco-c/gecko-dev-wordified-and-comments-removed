@@ -1408,6 +1408,13 @@ window
 gBrowser
 .
 selectedTab
+{
+trigger
+:
+"
+shortcut
+"
+}
 )
 ;
 break
