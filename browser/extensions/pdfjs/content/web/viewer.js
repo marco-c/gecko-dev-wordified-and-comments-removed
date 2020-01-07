@@ -4859,7 +4859,7 @@ onOpenWithURL
 (
 url
 length
-originalURL
+originalUrl
 )
 {
 let
@@ -4888,7 +4888,7 @@ length
 }
 if
 (
-originalURL
+originalUrl
 !
 =
 =
@@ -4898,10 +4898,8 @@ undefined
 file
 =
 {
-file
-:
 url
-originalURL
+originalUrl
 }
 ;
 }
@@ -4982,6 +4980,9 @@ total
 setTitleUsingUrl
 (
 url
+=
+'
+'
 )
 {
 this
