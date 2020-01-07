@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_workers_h__
+mozilla_dom_workers_WorkerCommon_h
 #
 define
-mozilla_dom_workers_workers_h__
+mozilla_dom_workers_WorkerCommon_h
 #
 include
 "

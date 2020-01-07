@@ -7,7 +7,7 @@ mozilla_dom_workers_workerprivate_h__
 #
 include
 "
-Workers
+WorkerCommon
 .
 h
 "

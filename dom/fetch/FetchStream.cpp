@@ -40,14 +40,14 @@ h
 #
 include
 "
-WorkerPrivate
+WorkerCommon
 .
 h
 "
 #
 include
 "
-Workers
+WorkerPrivate
 .
 h
 "

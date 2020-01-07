@@ -7,7 +7,7 @@ mozilla_dom_workers_queue_h__
 #
 include
 "
-Workers
+WorkerCommon
 .
 h
 "

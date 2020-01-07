@@ -7,7 +7,7 @@ mozilla_dom_filereadersync_h__
 #
 include
 "
-Workers
+WorkerCommon
 .
 h
 "

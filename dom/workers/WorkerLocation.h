@@ -7,7 +7,7 @@ mozilla_dom_location_h__
 #
 include
 "
-Workers
+WorkerCommon
 .
 h
 "

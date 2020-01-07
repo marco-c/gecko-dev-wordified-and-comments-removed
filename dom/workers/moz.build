@@ -165,12 +165,12 @@ RuntimeService
 h
 '
 '
-WorkerDebuggerManager
+WorkerCommon
 .
 h
 '
 '
-Workers
+WorkerDebuggerManager
 .
 h
 '
