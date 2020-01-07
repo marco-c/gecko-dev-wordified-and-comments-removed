@@ -304,7 +304,7 @@ devel
 endif
 setup
 :
-dos_setup
+std_setup
 endif
 #
 test

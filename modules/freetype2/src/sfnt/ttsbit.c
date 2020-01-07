@@ -5968,7 +5968,7 @@ glyph_end
 return
 FT_THROW
 (
-Invalid_Argument
+Missing_Bitmap
 )
 ;
 if

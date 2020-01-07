@@ -62,6 +62,7 @@ first
 "
 #
 endif
+FT_BEGIN_HEADER
 #
 define
 FT_GASP_NO_TABLE
@@ -95,5 +96,6 @@ FT_UInt
 ppem
 )
 ;
+FT_END_HEADER
 #
 endif

@@ -871,7 +871,7 @@ delta
 =
 new_pitch
 -
-pitch
+len
 ;
 FT_MEM_ZERO
 (
@@ -910,7 +910,7 @@ pitch
 out
 +
 =
-pitch
+len
 ;
 FT_MEM_ZERO
 (
@@ -981,7 +981,7 @@ delta
 =
 new_pitch
 -
-pitch
+len
 ;
 while
 (
@@ -1005,7 +1005,7 @@ pitch
 out
 +
 =
-pitch
+len
 ;
 FT_MEM_ZERO
 (

@@ -739,7 +739,7 @@ test
 NT
 setup
 :
-dos_setup
+std_setup
 endif
 endif
 #

@@ -1,8 +1,6 @@
 import
 fileinput
 re
-sys
-os
 string
 class
 SourceBlockFormat
@@ -1194,6 +1192,7 @@ content
 :
             
 print
+(
 "
 {
 {
@@ -1204,6 +1203,7 @@ start
 -
 -
 "
+)
             
 for
 l
@@ -1214,9 +1214,12 @@ content
 :
                 
 print
+(
 l
+)
             
 print
+(
 "
 -
 -
@@ -1227,6 +1230,7 @@ end
 }
 }
 "
+)
             
 return
         
@@ -1264,7 +1268,9 @@ lines
 :
             
 print
+(
 line
+)
 class
 SourceProcessor
 :

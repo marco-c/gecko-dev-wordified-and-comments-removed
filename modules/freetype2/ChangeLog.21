@@ -52901,9 +52901,7 @@ updates
 to
 correctly
 support
-sub
--
-pixel
+subpixel
 rendering
 .
 *

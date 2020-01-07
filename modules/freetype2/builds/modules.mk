@@ -221,8 +221,8 @@ FTMODULE_H_INIT
 (
 REMOVE_MODULE
 )
--
-echo
+(
+info
 Generating
 modules
 list
@@ -233,6 +233,7 @@ FTMODULE_H
 .
 .
 .
+)
 (
 OPEN_MODULE
 )
@@ -309,9 +310,11 @@ EOF
 (
 CLOSE_MODULE
 )
-echo
+(
+info
 done
 .
+)
 endef
 #
 (

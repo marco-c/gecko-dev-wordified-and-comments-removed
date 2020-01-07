@@ -39,6 +39,13 @@ c
 #
 include
 "
+ftfntfmt
+.
+c
+"
+#
+include
+"
 ftgloadr
 .
 c
@@ -47,6 +54,13 @@ c
 include
 "
 fthash
+.
+c
+"
+#
+include
+"
+ftlcdfil
 .
 c
 "

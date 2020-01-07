@@ -250,6 +250,11 @@ if
 pitch
 >
 0
+&
+&
+height
+>
+0
 )
 origin
 +
@@ -1032,6 +1037,11 @@ weights
 if
 (
 pitch
+>
+0
+&
+&
+height
 >
 0
 )

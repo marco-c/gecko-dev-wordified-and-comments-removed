@@ -2426,9 +2426,6 @@ obj
 fttype1
 .
 obj
-ftfntfmt
-.
-obj
 ftpfr
 .
 obj
@@ -2443,9 +2440,6 @@ ftbbox
 obj
 \
 ftbitmap
-.
-obj
-ftlcdfil
 .
 obj
 ftgasp

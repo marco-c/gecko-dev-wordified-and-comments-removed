@@ -147,10 +147,6 @@ ftcid
 .
 c
 source
-ftfntfmt
-.
-c
-source
 ftfstype
 .
 c
@@ -168,10 +164,6 @@ ftgxval
 c
 source
 ftinit
-.
-c
-source
-ftlcdfil
 .
 c
 source

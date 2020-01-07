@@ -1021,6 +1021,13 @@ shell
 (
 CAT
 )
+\
+(
+subst
+/
+(
+SEP
+)
 (
 TOP_DIR
 )
@@ -1032,6 +1039,7 @@ freetype
 freetype
 .
 h
+)
 )
 )
 work

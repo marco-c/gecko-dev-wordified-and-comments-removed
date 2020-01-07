@@ -28,7 +28,6 @@ net
 .
 Note
 however
-.
 that
 you
 will
@@ -36,9 +35,9 @@ need
 at
 least
 version
-1
+2
 .
-19
+0
 and
 pass
 the

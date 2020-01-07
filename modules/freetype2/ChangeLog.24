@@ -5257,9 +5257,7 @@ com
 truetype
 ]
 Improve
-sub
--
-pixel
+subpixel
 code
 .
 This
