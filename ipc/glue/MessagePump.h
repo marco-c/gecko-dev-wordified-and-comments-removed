@@ -497,6 +497,7 @@ MessagePump
 {
 public
 :
+explicit
 MessagePumpForAndroidUI
 (
 nsIEventTarget
