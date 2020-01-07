@@ -510,7 +510,7 @@ CloseHandle
 handle
 )
 )
-CHECK
+DCHECK
 (
 false
 )
