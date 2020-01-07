@@ -988,8 +988,8 @@ ref
 outer
 ]
 (
-ErrorResult
-&
+const
+CopyableErrorResult
 &
 aRv
 )
@@ -999,7 +999,10 @@ outer
 >
 MaybeReject
 (
+CopyableErrorResult
+(
 aRv
+)
 )
 ;
 }

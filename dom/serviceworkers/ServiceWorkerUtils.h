@@ -50,8 +50,8 @@ typedef
 MozPromise
 <
 ServiceWorkerRegistrationDescriptor
-ErrorResult
-true
+CopyableErrorResult
+false
 >
 ServiceWorkerRegistrationPromise
 ;
@@ -62,8 +62,8 @@ nsTArray
 <
 ServiceWorkerRegistrationDescriptor
 >
-ErrorResult
-true
+CopyableErrorResult
+false
 >
 ServiceWorkerRegistrationListPromise
 ;
