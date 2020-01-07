@@ -196,6 +196,14 @@ Comment
 implements
 LegacyQueryInterface
 ;
+ContentFrameMessageManager
+implements
+LegacyQueryInterface
+;
+ContentProcessMessageManager
+implements
+LegacyQueryInterface
+;
 Crypto
 implements
 LegacyQueryInterface
