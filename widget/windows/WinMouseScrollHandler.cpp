@@ -1371,6 +1371,7 @@ SetupKeyModifiersSequence
 &
 keySequence
 aModifierFlags
+aNativeMessage
 )
 ;
 for
@@ -1657,6 +1658,13 @@ IsZooming
 )
 )
 {
+result
+.
+Unset
+(
+MODIFIER_ALTGRAPH
+)
+;
 result
 .
 Set
