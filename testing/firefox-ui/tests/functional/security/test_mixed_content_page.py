@@ -78,19 +78,11 @@ https
 :
 /
 /
-mozqa
+mixed
+.
+badssl
 .
 com
-/
-data
-/
-firefox
-/
-security
-/
-mixedcontent
-.
-html
 '
     
 def

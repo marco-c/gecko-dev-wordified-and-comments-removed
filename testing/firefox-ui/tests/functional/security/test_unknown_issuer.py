@@ -47,13 +47,14 @@ https
 :
 /
 /
-ssl
+untrusted
 -
-unknownissuer
+root
 .
-mozqa
+badssl
 .
 com
+/
 '
     
 def

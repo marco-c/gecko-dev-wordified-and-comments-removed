@@ -53,11 +53,11 @@ https
 :
 /
 /
-ssl
+self
 -
-selfsigned
+signed
 .
-mozqa
+badssl
 .
 com
 '
