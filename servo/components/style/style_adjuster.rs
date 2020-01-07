@@ -3181,7 +3181,7 @@ align
 AlignFlags
 :
 :
-AUTO
+LEGACY
 {
 return
 ;

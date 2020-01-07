@@ -53458,7 +53458,7 @@ initial_values
 :
 [
 "
-auto
+legacy
 "
 "
 normal
@@ -53538,6 +53538,9 @@ invalid_values
 :
 [
 "
+auto
+"
+"
 space
 -
 between
@@ -53547,9 +53550,6 @@ abc
 "
 "
 30px
-"
-"
-legacy
 "
 "
 legacy
@@ -53920,7 +53920,7 @@ end
 "
 "
 end
-auto
+legacy
 "
 "
 end

@@ -87,7 +87,7 @@ JustifyItems
 {
 pub
 fn
-auto
+legacy
 (
 )
 -
@@ -104,7 +104,7 @@ specified
 JustifyItems
 :
 :
-auto
+legacy
 (
 )
 computed
@@ -178,7 +178,7 @@ align
 AlignFlags
 :
 :
-AUTO
+LEGACY
 {
 *
 self
