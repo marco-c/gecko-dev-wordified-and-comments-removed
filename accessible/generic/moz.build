@@ -164,6 +164,11 @@ RootAccessible
 cpp
 '
 '
+TableAccessible
+.
+cpp
+'
+'
 TableCellAccessible
 .
 cpp

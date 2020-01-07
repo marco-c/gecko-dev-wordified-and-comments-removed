@@ -414,11 +414,7 @@ bool
 IsProbablyLayoutTable
 (
 )
-{
-return
-false
 ;
-}
 virtual
 Accessible
 *
