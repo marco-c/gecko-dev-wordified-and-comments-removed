@@ -72,9 +72,9 @@ callback
 (
 window
 .
-XRPresentationFrame
+XRFrame
 '
-XRPresentationFrame
+XRFrame
 '
 )
 ;

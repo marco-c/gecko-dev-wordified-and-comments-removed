@@ -205,7 +205,7 @@ void
 (
 DOMHighResTimeStamp
 time
-XRPresentationFrame
+XRFrame
 frame
 )
 ;
@@ -216,7 +216,7 @@ Exposed
 Window
 ]
 interface
-XRPresentationFrame
+XRFrame
 {
 readonly
 attribute
