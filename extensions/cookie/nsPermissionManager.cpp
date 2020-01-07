@@ -560,6 +560,9 @@ image
 manifest
 "
 "
+speculative
+"
+"
 cookie
 "
 }

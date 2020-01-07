@@ -165,6 +165,9 @@ imageset
 web_manifest
 "
 "
+speculative
+"
+"
 other
 "
 }

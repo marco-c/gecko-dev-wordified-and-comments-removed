@@ -224,6 +224,12 @@ manifest
 "
 "
 "
+"
+saveas_download
+"
+"
+speculative
+"
 }
 ;
 #
