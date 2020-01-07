@@ -1139,11 +1139,6 @@ aAncestorOuterWindowIDs
 ;
 }
 bool
-CanSetOriginAttributes
-(
-)
-;
-bool
 ServiceWorkerAllowedToControlWindow
 (
 nsIURI
