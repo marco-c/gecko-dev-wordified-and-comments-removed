@@ -1347,16 +1347,6 @@ mir
 )
 ;
 void
-emitWasmCallBase
-(
-MWasmCall
-*
-mir
-bool
-needsBoundsCheck
-)
-;
-void
 emitPreBarrier
 (
 Register

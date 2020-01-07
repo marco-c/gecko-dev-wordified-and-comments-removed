@@ -1197,6 +1197,16 @@ Register
 front
 )
 ;
+void
+emitWasmCallBase
+(
+MWasmCall
+*
+mir
+bool
+needsBoundsCheck
+)
+;
 IonScriptCounts
 *
 maybeCreateScriptCounts
