@@ -7548,6 +7548,9 @@ details
 mMessage
 )
 ;
+nsAutoCString
+stack
+;
 JS
 :
 :
@@ -7564,6 +7567,17 @@ nullptr
 false
 false
 false
+)
+;
+stack
+.
+Append
+(
+buf
+.
+get
+(
+)
 )
 ;
 CopyUTF8toUTF16
