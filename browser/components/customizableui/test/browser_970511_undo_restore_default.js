@@ -295,7 +295,16 @@ is
 LightweightThemeManager
 .
 currentTheme
-null
+.
+id
+"
+default
+-
+theme
+mozilla
+.
+org
+"
 "
 Theme
 reset
