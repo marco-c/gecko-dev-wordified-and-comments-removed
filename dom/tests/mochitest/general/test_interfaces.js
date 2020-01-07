@@ -6121,7 +6121,7 @@ VRDisplay
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6134,7 +6134,7 @@ VRDisplayCapabilities
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6147,7 +6147,7 @@ VRDisplayEvent
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6160,7 +6160,7 @@ VREyeParameters
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6173,7 +6173,7 @@ VRFieldOfView
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6186,7 +6186,7 @@ VRFrameData
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6199,7 +6199,7 @@ VRPose
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6212,7 +6212,7 @@ VRStageParameters
 insecureContext
 :
 true
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -6859,7 +6859,7 @@ isRelease
 (
 entry
 .
-releaseNonWindowsAndMac
+releaseNonWindows
 =
 =
 =
@@ -6870,10 +6870,6 @@ isRelease
 &
 !
 isWindows
-&
-&
-!
-isMac
 )
 )
 |
