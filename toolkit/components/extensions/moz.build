@@ -166,6 +166,11 @@ ExtensionStorage
 jsm
 '
 '
+ExtensionStorageIDB
+.
+jsm
+'
+'
 ExtensionStorageSync
 .
 jsm
