@@ -30,3 +30,9 @@ b
 reftest
 .
 list
+include
+x
+/
+reftest
+.
+list
