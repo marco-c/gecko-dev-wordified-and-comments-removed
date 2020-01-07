@@ -437,7 +437,9 @@ rv
 rv
 )
 ;
+const
 nsString
+&
 data
 =
 item
@@ -522,7 +524,9 @@ IPCDataTransferData
 TShmem
 )
 {
+const
 nsCString
+&
 flavor
 =
 item
