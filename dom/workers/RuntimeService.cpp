@@ -517,6 +517,13 @@ h
 #
 include
 "
+WorkerLoadInfo
+.
+h
+"
+#
+include
+"
 WorkerPrivate
 .
 h

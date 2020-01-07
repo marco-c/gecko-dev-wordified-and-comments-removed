@@ -60,6 +60,9 @@ BEGIN_WORKERS_NAMESPACE
 class
 SharedWorker
 ;
+struct
+WorkerLoadInfo
+;
 class
 WorkerThread
 ;

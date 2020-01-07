@@ -14,6 +14,13 @@ h
 #
 include
 "
+WorkerLoadInfo
+.
+h
+"
+#
+include
+"
 js
 /
 CharacterEncoding
