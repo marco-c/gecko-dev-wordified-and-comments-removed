@@ -647,20 +647,11 @@ cache
 .
 mod_JS_Value
         
-data
-=
-value
-[
-'
-data
-'
-]
-        
 self
 .
-data
+value
 =
-data
+value
         
 self
 .
@@ -672,10 +663,10 @@ jtc
 .
 boxer
 (
-data
+value
 [
 '
-asBits
+asBits_
 '
 ]
 self
@@ -941,10 +932,10 @@ s
 %
 self
 .
-data
+value
 [
 '
-asDouble
+asDouble_
 '
 ]
         
