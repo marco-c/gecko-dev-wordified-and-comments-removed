@@ -396,6 +396,7 @@ const
 {
 isPaused
 isLoading
+openLink
 }
 =
 this
@@ -481,6 +482,9 @@ false
 dimTopLevelWindow
 :
 true
+openLink
+:
+openLink
 createObjectClient
 :
 grip
