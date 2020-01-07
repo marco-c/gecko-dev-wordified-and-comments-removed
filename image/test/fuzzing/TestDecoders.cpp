@@ -114,7 +114,7 @@ h
 #
 include
 "
-FuzzingInterfaceStream
+FuzzingInterface
 .
 h
 "

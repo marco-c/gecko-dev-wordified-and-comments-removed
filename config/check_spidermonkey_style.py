@@ -163,18 +163,6 @@ h
 '
     
 '
-FuzzerDefs
-.
-h
-'
-    
-'
-FuzzingInterface
-.
-h
-'
-    
-'
 mozmemory
 .
 h

@@ -1,7 +1,7 @@
 #
 include
 "
-FuzzerRegistry
+LibFuzzerRegistry
 .
 h
 "
@@ -9,7 +9,7 @@ namespace
 mozilla
 {
 class
-FuzzerRunner
+LibFuzzerRunner
 {
 public
 :
@@ -26,9 +26,6 @@ char
 argv
 )
 ;
-#
-ifdef
-LIBFUZZER
 void
 setParams
 (
@@ -41,13 +38,11 @@ private
 LibFuzzerDriver
 mFuzzerDriver
 ;
-#
-endif
 }
 ;
 extern
-FuzzerRunner
+LibFuzzerRunner
 *
-fuzzerRunner
+libFuzzerRunner
 ;
 }
