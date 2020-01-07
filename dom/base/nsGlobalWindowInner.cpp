@@ -26607,7 +26607,11 @@ if
 sw
 -
 >
-MatchesDescriptor
+Descriptor
+(
+)
+.
+Matches
 (
 aDescriptor
 )
