@@ -185,6 +185,9 @@ Promise
 class
 PostMessageEvent
 ;
+class
+ImageBitmapShutdownObserver
+;
 struct
 ImageBitmapCloneData
 final
@@ -566,6 +569,11 @@ GetAllocatedSize
 )
 const
 ;
+void
+OnShutdown
+(
+)
+;
 protected
 :
 ImageBitmap
@@ -838,6 +846,12 @@ mPictureRect
 const
 gfxAlphaType
 mAlphaType
+;
+RefPtr
+<
+ImageBitmapShutdownObserver
+>
+mShutdownObserver
 ;
 bool
 mIsCroppingAreaOutSideOfSourceImage
