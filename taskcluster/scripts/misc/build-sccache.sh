@@ -19,13 +19,11 @@ v
 6
 +
 a
-fix
-to
-update
-jobserver
+few
+fixes
 SCCACHE_REVISION
 =
-13fa450eee47cc53fff4129aaf3c6c30fd2b621e
+9f4c18b4a6300e3a9250a09811cc985311c20217
 #
 This
 script
