@@ -60,3 +60,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+toolkit
+.
+telemetry
+.
+isGeckoViewMode
+"
+true
+)
+;
