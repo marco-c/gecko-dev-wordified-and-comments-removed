@@ -1340,12 +1340,13 @@ nsAtom
 aItemType
 )
 ;
+MOZ_MUST_USE
 nsresult
 CreateStyleForInsertText
 (
 nsIDocument
 &
-aDoc
+aDocument
 )
 ;
 enum
