@@ -190,12 +190,6 @@ other
 .
 mIsTemporary
 ;
-mFingerprintAlgOID
-=
-other
-.
-mFingerprintAlgOID
-;
 mFingerprint
 =
 other
@@ -236,9 +230,6 @@ mIsTemporary
 ;
 nsCString
 mFingerprint
-;
-nsCString
-mFingerprintAlgOID
 ;
 OverrideBits
 mOverrideBits
@@ -569,12 +560,6 @@ nsCertOverrideEntry
 >
 mSettingsTable
 ;
-SECOidTag
-mOidTagForStoringNewHashes
-;
-nsCString
-mDottedOidForStoringNewHashes
-;
 void
 CountPermanentOverrideTelemetry
 (
@@ -631,10 +616,6 @@ aCert
 const
 bool
 aIsTemporary
-const
-nsACString
-&
-algo_oid
 const
 nsACString
 &

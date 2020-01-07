@@ -82,16 +82,6 @@ return
 true
 ;
 }
-getValidityOverride
-(
-)
-{
-throw
-Cr
-.
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
 clearValidityOverride
 (
 )
