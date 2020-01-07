@@ -476,6 +476,11 @@ SHA1
 h
 '
 '
+SharedLibrary
+.
+h
+'
+'
 SmallPointerArray
 .
 h
