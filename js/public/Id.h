@@ -86,6 +86,7 @@ JSID_TYPE_VOID
 }
 static
 constexpr
+MOZ_ALWAYS_INLINE
 jsid
 fromRawBits
 (
