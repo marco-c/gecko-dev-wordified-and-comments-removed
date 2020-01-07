@@ -155,7 +155,7 @@ Events
 /
 [
 scriptable
-function
+builtinclass
 uuid
 (
 df31c120
