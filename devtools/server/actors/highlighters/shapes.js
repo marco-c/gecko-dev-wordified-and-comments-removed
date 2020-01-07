@@ -2354,7 +2354,9 @@ this
 .
 _handleMarkerHover
 (
-null
+this
+.
+hoveredPoint
 )
 ;
 }
