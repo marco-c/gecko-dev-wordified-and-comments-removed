@@ -937,10 +937,10 @@ lock
 active
 )
 ;
-UniqueTier2GeneratorTask
+auto
 task
-(
-js_new
+=
+MakeUnique
 <
 Tier2GeneratorTaskImpl
 >
@@ -948,7 +948,6 @@ Tier2GeneratorTaskImpl
 *
 this
 args
-)
 )
 ;
 if
