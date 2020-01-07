@@ -341,11 +341,6 @@ ANNOS_TO_TRACK
 =
 >
 [
-PlacesSyncUtils
-.
-bookmarks
-.
-DESCRIPTION_ANNO
 PlacesUtils
 .
 LMANNO_FEEDURI
