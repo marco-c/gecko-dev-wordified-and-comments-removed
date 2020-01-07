@@ -677,14 +677,6 @@ generateInvalidateEpilogue
 (
 )
 ;
-void
-setReturnDoubleRegs
-(
-LiveRegisterSet
-*
-regs
-)
-;
 template
 <
 typename
