@@ -210,6 +210,9 @@ nsIChannel
 >
 mChannel
 ;
+nsCString
+mFingerprint
+;
 }
 ;
 #
