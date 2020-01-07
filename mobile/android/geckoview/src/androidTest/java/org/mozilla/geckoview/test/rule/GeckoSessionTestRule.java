@@ -3908,6 +3908,15 @@ purgecaches
 "
 }
 )
+.
+extras
+(
+InstrumentationRegistry
+.
+getArguments
+(
+)
+)
 ;
 sRuntime
 =
