@@ -16980,6 +16980,9 @@ ExternalHelperAppParent
 uri
 aContentLength
 aWasFileChannel
+aContentDisposition
+aContentDispositionHint
+aContentDispositionFilename
 )
 ;
 parent
@@ -16996,9 +16999,6 @@ Init
 (
 this
 aMimeContentType
-aContentDisposition
-aContentDispositionHint
-aContentDispositionFilename
 aForceSave
 aReferrer
 aBrowser

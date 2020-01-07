@@ -646,6 +646,10 @@ nsIRequest
 aRequest
 )
 :
+mStatusCode
+(
+NS_ERROR_NOT_INITIALIZED
+)
 mRequest
 (
 aRequest

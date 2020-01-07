@@ -175,6 +175,13 @@ mHandlerInfo
 (
 aHandlerInfo
 )
+mPrefAction
+(
+nsIHandlerInfo
+:
+:
+alwaysAsk
+)
 mPossibleApps
 (
 do_CreateInstance

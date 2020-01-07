@@ -768,9 +768,6 @@ nsIHelperAppLauncherDialog
 >
 mDialog
 ;
-bool
-mKeepRequestAlive
-;
 nsCOMPtr
 <
 nsIRequest
