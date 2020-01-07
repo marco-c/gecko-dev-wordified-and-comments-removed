@@ -294,6 +294,8 @@ RectWithSize
 reference_rect
 vec4
 snap_positions
+vec2
+snap_bias
 )
 {
 /
@@ -317,9 +319,9 @@ floor
 (
 snap_positions
 +
-0
+snap_bias
 .
-5
+xyxy
 )
 -
 snap_positions
@@ -420,6 +422,8 @@ mat4
 transform
 RectWithSize
 snap_rect
+vec2
+snap_bias
 )
 {
 vec4
@@ -441,6 +445,7 @@ transform
 snap_rect
 snap_rect
 snap_positions
+snap_bias
 )
 ;
 return

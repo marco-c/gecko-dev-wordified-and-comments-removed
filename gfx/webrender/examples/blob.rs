@@ -106,7 +106,7 @@ DisplayListBuilder
 DocumentId
 PipelineId
 RenderApi
-ResourceUpdates
+Transaction
 }
 ;
 type
@@ -1266,11 +1266,11 @@ builder
 &
 mut
 DisplayListBuilder
-resources
+txn
 :
 &
 mut
-ResourceUpdates
+Transaction
 _framebuffer_size
 :
 api
@@ -1294,7 +1294,7 @@ generate_image_key
 (
 )
 ;
-resources
+txn
 .
 add_image
 (
@@ -1359,7 +1359,7 @@ generate_image_key
 (
 )
 ;
-resources
+txn
 .
 add_image
 (

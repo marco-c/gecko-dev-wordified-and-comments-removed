@@ -9,7 +9,6 @@ DevicePixel
 FontRenderMode
 FontKey
 FontTemplate
-GlyphKey
 NativeFontHandle
 }
 ;
@@ -146,6 +145,7 @@ glyph_rasterizer
 FontInstance
 GlyphRasterizer
 GlyphFormat
+GlyphKey
 FontContexts
 }
 ;
@@ -1118,6 +1118,8 @@ SubpixelOffset
 glyph_key
 .
 subpixel_offset
+.
+0
 as
 u8
 )
@@ -1515,6 +1517,8 @@ SubpixelOffset
 glyph_key
 .
 subpixel_offset
+.
+0
 as
 u8
 )
@@ -1527,6 +1531,8 @@ f64
 glyph_key
 .
 subpixel_offset
+.
+0
 .
 into
 (

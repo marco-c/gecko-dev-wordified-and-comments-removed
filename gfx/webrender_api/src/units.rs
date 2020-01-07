@@ -482,6 +482,17 @@ WorldPixel
 ;
 pub
 type
+LayoutToDeviceScale
+=
+TypedScale
+<
+f32
+LayoutPixel
+DevicePixel
+>
+;
+pub
+type
 LayoutTransform
 =
 TypedTransform3D

@@ -451,11 +451,11 @@ builder
 &
 mut
 DisplayListBuilder
-resources
+txn
 :
 &
 mut
-ResourceUpdates
+Transaction
 _framebuffer_size
 :
 DeviceUintSize
@@ -587,7 +587,7 @@ generate_image
 128
 )
 ;
-resources
+txn
 .
 add_image
 (
@@ -631,7 +631,7 @@ generate_image
 128
 )
 ;
-resources
+txn
 .
 add_image
 (
@@ -1038,9 +1038,9 @@ key
 {
 let
 mut
-updates
+txn
 =
-ResourceUpdates
+Transaction
 :
 :
 new
@@ -1107,7 +1107,7 @@ generate_image
 size
 )
 ;
-updates
+txn
 .
 add_image
 (
@@ -1178,7 +1178,7 @@ take
 (
 )
 {
-updates
+txn
 .
 delete_image
 (
@@ -1220,7 +1220,7 @@ generate_image
 size
 )
 ;
-updates
+txn
 .
 update_image
 (
@@ -1281,7 +1281,7 @@ take
 (
 )
 {
-updates
+txn
 .
 delete_image
 (
@@ -1327,7 +1327,7 @@ ExternalImageType
 Buffer
 }
 ;
-updates
+txn
 .
 add_image
 (
@@ -1391,7 +1391,7 @@ take
 (
 )
 {
-updates
+txn
 .
 delete_image
 (
@@ -1422,7 +1422,7 @@ generate_image
 size
 )
 ;
-updates
+txn
 .
 add_image
 (
@@ -1477,7 +1477,9 @@ api
 .
 update_resources
 (
-updates
+txn
+.
+resource_updates
 )
 ;
 return

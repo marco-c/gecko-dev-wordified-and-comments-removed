@@ -381,11 +381,11 @@ base_builder
 &
 mut
 DisplayListBuilder
-_
+_txn
 :
 &
 mut
-ResourceUpdates
+Transaction
 framebuffer_size
 :
 DeviceUintSize

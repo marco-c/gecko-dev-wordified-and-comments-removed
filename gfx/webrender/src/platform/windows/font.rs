@@ -15,8 +15,6 @@ api
 {
 ColorU
 GlyphDimensions
-GlyphKey
-SubpixelDirection
 }
 ;
 use
@@ -35,6 +33,7 @@ glyph_rasterizer
 {
 FontInstance
 FontTransform
+GlyphKey
 }
 ;
 use
@@ -2284,12 +2283,9 @@ new
 ;
 font
 .
-subpx_dir
-=
-SubpixelDirection
-:
-:
-None
+disable_subpixel_position
+(
+)
 ;
 }
 FontRenderMode

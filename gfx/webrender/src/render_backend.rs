@@ -3870,7 +3870,7 @@ ApiMsg
 GetGlyphDimensions
 (
 instance_key
-glyph_keys
+glyph_indices
 tx
 )
 =
@@ -3885,7 +3885,7 @@ Vec
 :
 with_capacity
 (
-glyph_keys
+glyph_indices
 .
 len
 (
@@ -3909,10 +3909,10 @@ instance_key
 )
 {
 for
-glyph_key
+glyph_index
 in
 &
-glyph_keys
+glyph_indices
 {
 let
 glyph_dim
@@ -3925,7 +3925,8 @@ get_glyph_dimensions
 (
 &
 font
-glyph_key
+*
+glyph_index
 )
 ;
 glyph_dimensions
