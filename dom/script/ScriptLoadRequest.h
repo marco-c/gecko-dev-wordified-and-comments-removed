@@ -97,16 +97,6 @@ eClassic
 eModule
 }
 ;
-enum
-class
-ValidJSVersion
-:
-bool
-{
-eInvalid
-eValid
-}
-;
 class
 ScriptLoadRequest
 :
@@ -162,8 +152,6 @@ aURI
 nsIScriptElement
 *
 aElement
-ValidJSVersion
-aValidJSVersion
 mozilla
 :
 :
@@ -669,9 +657,6 @@ mScriptBytecode
 ;
 uint32_t
 mBytecodeOffset
-;
-ValidJSVersion
-mValidJSVersion
 ;
 const
 nsCOMPtr
