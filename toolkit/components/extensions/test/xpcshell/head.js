@@ -526,6 +526,15 @@ Ci
 nsIConsoleMessage
 )
 ;
+void
+(
+msg
+instanceof
+Ci
+.
+nsIScriptError
+)
+;
 messages
 .
 push

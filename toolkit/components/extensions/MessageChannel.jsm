@@ -2399,6 +2399,9 @@ stack
 "
 result
 "
+"
+mozWebExtLocation
+"
 ]
 )
 {
