@@ -548,6 +548,16 @@ apt_packages
 =
 (
 '
+qemu
+-
+kvm
+'
+)
+apt_packages
++
+=
+(
+'
 rlwrap
 '
 )
