@@ -451,6 +451,7 @@ this
 .
 open
 (
+subject
 )
 )
 ;
@@ -567,6 +568,7 @@ onObserverAdded
 async
 open
 (
+targetWindow
 )
 {
 await
@@ -625,6 +627,9 @@ return
 let
 win
 =
+targetWindow
+|
+|
 this
 .
 topWindow
@@ -663,6 +668,15 @@ this
 .
 popupnotificationId
 )
+;
+let
+urlBarWasFocused
+=
+win
+.
+gURLBar
+.
+focused
 ;
 if
 (
@@ -764,6 +778,7 @@ this
 beforeDisableAddon
 (
 this
+win
 )
 ;
 addon
@@ -773,6 +788,11 @@ userDisabled
 true
 ;
 }
+if
+(
+urlBarWasFocused
+)
+{
 win
 .
 gURLBar
@@ -781,6 +801,7 @@ focus
 (
 )
 ;
+}
 }
 ;
 panel

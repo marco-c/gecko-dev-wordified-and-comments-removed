@@ -124,6 +124,11 @@ pageActionFor
 :
 true
 "
+replaceUrlInTab
+"
+:
+true
+"
 sidebarActionFor
 "
 :
@@ -135,6 +140,11 @@ tabGetSender
 true
 "
 tabTracker
+"
+:
+true
+"
+waitForTabLoaded
 "
 :
 true
