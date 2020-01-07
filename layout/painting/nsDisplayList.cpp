@@ -16036,7 +16036,7 @@ aManager
 GetBackendType
 (
 )
-=
+!
 =
 layers
 :
@@ -16044,7 +16044,7 @@ layers
 LayersBackend
 :
 :
-LAYERS_BASIC
+LAYERS_WR
 )
 {
 return
