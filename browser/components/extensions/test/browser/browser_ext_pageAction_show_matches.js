@@ -389,6 +389,11 @@ expected
 msg
 )
 {
+await
+promiseAnimationFrame
+(
+)
+;
 let
 widgetId
 =

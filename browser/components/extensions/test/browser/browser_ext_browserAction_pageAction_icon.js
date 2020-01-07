@@ -2240,6 +2240,11 @@ ready
 "
 )
 ;
+await
+promiseAnimationFrame
+(
+)
+;
 const
 DEFAULT_ICON
 =
