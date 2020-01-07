@@ -2977,6 +2977,11 @@ child
 |
 |
 child
+-
+>
+GetNextSibling
+(
+)
 !
 =
 range
