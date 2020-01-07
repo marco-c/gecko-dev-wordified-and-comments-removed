@@ -10468,26 +10468,23 @@ asc
 )
 )
                 
+cot
+.
+raise_for_status
+(
+)
+                
 digest
 =
 algorithm
 =
 None
                 
-if
-cot
-.
-status_code
-=
-=
-200
-:
-                    
 data
 =
 {
 }
-                    
+                
 for
 l
 in
@@ -10499,7 +10496,7 @@ splitlines
 (
 )
 :
-                        
+                    
 if
 l
 .
@@ -10510,10 +10507,10 @@ startswith
 '
 )
 :
-                            
+                        
 try
 :
-                                
+                            
 data
 =
 json
@@ -10522,13 +10519,13 @@ loads
 (
 l
 )
-                                
-break
                             
+break
+                        
 except
 Exception
 :
-                                
+                            
 pass
                 
 for
