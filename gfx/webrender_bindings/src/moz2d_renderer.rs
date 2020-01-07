@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-improper_ctypes
-)
-]
 use
 webrender
 :
@@ -2761,11 +2753,6 @@ bindings
 :
 WrFontKey
 ;
-extern
-"
-C
-"
-{
 #
 [
 allow
@@ -2773,6 +2760,11 @@ allow
 improper_ctypes
 )
 ]
+extern
+"
+C
+"
+{
 fn
 AddFontData
 (
