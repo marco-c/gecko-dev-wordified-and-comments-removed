@@ -22153,9 +22153,6 @@ AbortTransaction
 (
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 if
 (
 gfxUtils
@@ -22250,8 +22247,6 @@ stream
 )
 ;
 }
-#
-endif
 nsIntPoint
 offset
 =
