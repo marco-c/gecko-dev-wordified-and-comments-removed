@@ -2029,6 +2029,8 @@ nsIAppStartup
 eForceQuit
 )
 ;
+return
+;
 }
 env
 .
