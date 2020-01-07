@@ -110,6 +110,11 @@ tests
 .
 cpp
 '
+'
+testStructuredCloneReader
+.
+cpp
+'
 ]
 if
 CONFIG
