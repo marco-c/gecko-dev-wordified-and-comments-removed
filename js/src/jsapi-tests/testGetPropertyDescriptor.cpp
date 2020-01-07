@@ -359,10 +359,12 @@ RootedObject
 objectProto
 (
 cx
-JS_GetObjectPrototype
+JS
+:
+:
+GetRealmObjectPrototype
 (
 cx
-obj
 )
 )
 ;
