@@ -1836,11 +1836,6 @@ ImmHint
 (
 code
 )
-|
-Rt
-(
-xzr
-)
 )
 ;
 }
@@ -1865,11 +1860,6 @@ HINT
 ImmHint
 (
 code
-)
-|
-Rt
-(
-xzr
 )
 )
 ;

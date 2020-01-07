@@ -8323,9 +8323,9 @@ kUnreachableOpcode
 ;
 #
 else
-blr
+Emit
 (
-xzr
+0xd4a00000
 )
 ;
 #
