@@ -692,6 +692,14 @@ RTCPeerConnection
 (
 )
 ;
+const
+pc2
+=
+new
+RTCPeerConnection
+(
+)
+;
 return
 generateOffer
 (
@@ -714,7 +722,7 @@ t
 '
 InvalidModificationError
 '
-pc
+pc2
 .
 setLocalDescription
 (
