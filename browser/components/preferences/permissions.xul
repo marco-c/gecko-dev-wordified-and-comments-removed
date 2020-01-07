@@ -679,7 +679,7 @@ onselect
 "
 gPermissionManager
 .
-onPermissionSelected
+onPermissionSelect
 (
 )
 ;
@@ -849,7 +849,7 @@ oncommand
 "
 gPermissionManager
 .
-onPermissionDeleted
+onPermissionDelete
 (
 )
 ;
@@ -886,7 +886,7 @@ oncommand
 "
 gPermissionManager
 .
-onAllPermissionsDeleted
+onAllPermissionsDelete
 (
 )
 ;
