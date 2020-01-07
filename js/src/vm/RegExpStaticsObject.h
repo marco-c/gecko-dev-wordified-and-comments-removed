@@ -7,7 +7,9 @@ vm_RegExpStaticsObject_h
 #
 include
 "
-jsobj
+vm
+/
+JSObject
 .
 h
 "

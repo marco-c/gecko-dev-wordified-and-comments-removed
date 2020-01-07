@@ -14,7 +14,9 @@ h
 #
 include
 "
-jsobj
+vm
+/
+ArgumentsObject
 .
 h
 "
@@ -23,7 +25,7 @@ include
 "
 vm
 /
-ArgumentsObject
+JSObject
 .
 h
 "

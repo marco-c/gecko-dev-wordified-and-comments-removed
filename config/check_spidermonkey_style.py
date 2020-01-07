@@ -917,15 +917,17 @@ inl
 .
 h
 :
-27
-:
 28
+:
+29
 :
 error
 :
     
 "
-jsobj
+vm
+/
+JSObject
 .
 h
 "
@@ -934,7 +936,7 @@ be
 included
 after
 "
-jsfun
+jsscript
 .
 h
 "

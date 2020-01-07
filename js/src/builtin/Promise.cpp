@@ -101,7 +101,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+Debugger
+-
+inl
 .
 h
 "
@@ -110,7 +114,7 @@ include
 "
 vm
 /
-Debugger
+JSObject
 -
 inl
 .

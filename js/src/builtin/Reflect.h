@@ -7,7 +7,9 @@ builtin_Reflect_h
 #
 include
 "
-jsobj
+vm
+/
+JSObject
 .
 h
 "

@@ -55,7 +55,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+EnvironmentObject
+-
+inl
 .
 h
 "
@@ -64,7 +68,7 @@ include
 "
 vm
 /
-EnvironmentObject
+JSObject
 -
 inl
 .
