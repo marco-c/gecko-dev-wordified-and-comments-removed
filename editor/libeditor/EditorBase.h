@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsISelectionListener
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -789,6 +796,8 @@ EditorBase
 public
 nsIEditor
 public
+nsISelectionListener
+public
 nsSupportsWeakReference
 {
 public
@@ -994,6 +1003,7 @@ aNotification
 )
 ;
 NS_DECL_NSIEDITOR
+NS_DECL_NSISELECTIONLISTENER
 void
 SetTextInputListener
 (

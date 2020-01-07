@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsISelectionListener
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -97,8 +90,6 @@ ComposerCommandsUpdater
 final
 :
 public
-nsISelectionListener
-public
 nsIDocumentStateListener
 public
 nsITransactionListener
@@ -119,7 +110,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 ComposerCommandsUpdater
 nsIDocumentStateListener
 )
-NS_DECL_NSISELECTIONLISTENER
 NS_DECL_NSIDOCUMENTSTATELISTENER
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
@@ -132,6 +122,16 @@ nsPIDOMWindowOuter
 aDOMWindow
 )
 ;
+void
+OnSelectionChange
+(
+)
+{
+PrimeUpdateTimer
+(
+)
+;
+}
 protected
 :
 virtual
