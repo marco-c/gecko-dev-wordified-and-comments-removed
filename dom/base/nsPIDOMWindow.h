@@ -187,6 +187,9 @@ class
 Performance
 ;
 class
+Selection
+;
+class
 ServiceWorker
 ;
 class
@@ -2832,7 +2835,13 @@ aControllers
 virtual
 already_AddRefed
 <
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 >
 GetSelection
 (

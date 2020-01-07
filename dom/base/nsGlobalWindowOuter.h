@@ -2681,7 +2681,13 @@ GetSelectionOuter
 ;
 already_AddRefed
 <
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 >
 GetSelection
 (

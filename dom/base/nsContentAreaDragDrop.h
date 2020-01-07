@@ -29,9 +29,6 @@ class
 nsPIDOMWindowOuter
 ;
 class
-nsISelection
-;
-class
 nsITransferable
 ;
 class
@@ -48,6 +45,9 @@ dom
 {
 class
 DataTransfer
+;
+class
+Selection
 ;
 }
 }
@@ -83,7 +83,13 @@ aDataTransfer
 bool
 *
 aCanDrag
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 *
 aSelection

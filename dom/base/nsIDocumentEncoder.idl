@@ -107,13 +107,13 @@ interface
 nsIDOMRange
 ;
 interface
-nsISelection
-;
-interface
 nsIDOMNode
 ;
 interface
 nsIOutputStream
+;
+webidl
+Selection
 ;
 %
 {
@@ -1906,7 +1906,7 @@ void
 setSelection
 (
 in
-nsISelection
+Selection
 aSelection
 )
 ;
