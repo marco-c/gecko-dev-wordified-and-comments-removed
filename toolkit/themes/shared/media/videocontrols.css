@@ -461,6 +461,14 @@ width
 ;
 }
 .
+fadeout
+{
+opacity
+:
+0
+;
+}
+.
 controlsContainer
 [
 hidden
