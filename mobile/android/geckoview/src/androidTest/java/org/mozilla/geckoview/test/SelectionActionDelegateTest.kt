@@ -1118,7 +1118,7 @@ mainSession
 .
 loadTestPath
 (
-SELECTION_ACTION_PATH
+INPUTS_PATH
 )
 mainSession
 .
