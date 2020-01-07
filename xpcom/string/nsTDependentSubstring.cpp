@@ -1,3 +1,10 @@
+#
+include
+"
+nsTDependentSubstring
+.
+h
+"
 template
 <
 typename

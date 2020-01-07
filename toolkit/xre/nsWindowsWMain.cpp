@@ -16,6 +16,15 @@ endif
 #
 include
 "
+mozilla
+/
+Char16
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h

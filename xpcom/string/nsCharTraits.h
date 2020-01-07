@@ -19,13 +19,6 @@ string
 h
 >
 #
-include
-"
-nscore
-.
-h
-"
-#
 ifdef
 NS_NO_XPCOM
 #
