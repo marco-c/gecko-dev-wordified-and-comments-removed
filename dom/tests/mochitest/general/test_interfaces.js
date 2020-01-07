@@ -1561,7 +1561,7 @@ insecureContext
 true
 disabled
 :
-isEarlyBetaOrEarlier
+true
 }
 {
 name
@@ -1594,7 +1594,7 @@ insecureContext
 true
 disabled
 :
-isEarlyBetaOrEarlier
+true
 }
 {
 name
@@ -5990,7 +5990,7 @@ insecureContext
 true
 disabled
 :
-isEarlyBetaOrEarlier
+true
 }
 {
 name
