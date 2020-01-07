@@ -196,11 +196,6 @@ AnimationComparator
 h
 '
 '
-AnimationEventDispatcher
-.
-h
-'
-'
 AnimationPerformanceWarning
 .
 h
@@ -297,11 +292,6 @@ cpp
 '
 '
 AnimationEffectTimingReadOnly
-.
-cpp
-'
-'
-AnimationEventDispatcher
 .
 cpp
 '
