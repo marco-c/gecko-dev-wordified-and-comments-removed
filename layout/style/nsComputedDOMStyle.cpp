@@ -1591,7 +1591,7 @@ mozilla
 MakeScopeExit
 (
 [
-this
+&
 ]
 {
 ClearCurrentStyleSources
