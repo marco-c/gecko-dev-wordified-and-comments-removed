@@ -18,7 +18,16 @@ plugin
 :
 mozilla
 /
-chrome
+browser
+-
+test
+"
+"
+plugin
+:
+mozilla
+/
+mochitest
 -
 test
 "
