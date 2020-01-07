@@ -569,6 +569,7 @@ mScrollingHelper
 .
 BeginList
 (
+aSc
 )
 ;
 bool
@@ -1247,6 +1248,7 @@ mScrollingHelper
 .
 EndList
 (
+aSc
 )
 ;
 }
