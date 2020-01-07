@@ -112,7 +112,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
@@ -410,7 +409,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
@@ -680,7 +678,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
@@ -870,7 +867,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
@@ -1032,7 +1028,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
@@ -1151,7 +1146,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
@@ -1318,7 +1312,6 @@ vr
 .
 enabled
 "
-SecureContext
 HeaderFile
 =
 "
