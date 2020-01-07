@@ -80,6 +80,13 @@ GcmAndroidManifest_permissions
 xml
 .
 in
+#
+include
+SamsungAppStoreManifest_permissions
+.
+xml
+.
+in
 <
 uses
 -
