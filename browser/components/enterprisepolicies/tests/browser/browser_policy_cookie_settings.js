@@ -881,7 +881,7 @@ AcceptThirdParty
 "
 :
 "
-never
+none
 "
 }
 }
@@ -946,7 +946,7 @@ AcceptThirdParty
 "
 :
 "
-never
+none
 "
 }
 }
@@ -1011,7 +1011,7 @@ AcceptThirdParty
 "
 :
 "
-never
+none
 "
 "
 Locked
@@ -1260,7 +1260,7 @@ AcceptThirdParty
 "
 :
 "
-never
+none
 "
 "
 ExpireAtSessionEnd
