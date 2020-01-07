@@ -3053,7 +3053,7 @@ FamilyNameSyntax
 Quoted
 }
 )
-x
+_
 =
 >
 panic
@@ -3064,13 +3064,7 @@ Found
 unexpected
 font
 FontFamilyType
-:
-{
-:
-?
-}
 "
-x
 )
 }
 }
