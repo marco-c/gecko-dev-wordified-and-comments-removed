@@ -2065,6 +2065,10 @@ GridAutoFlow
 "
                 
 "
+ImageOrientation
+"
+                
+"
 InitialLetter
 "
                 

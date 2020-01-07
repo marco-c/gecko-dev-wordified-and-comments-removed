@@ -1168,6 +1168,9 @@ nsAtom_AtomKind
 nsStyleImageLayers_LayerType
 "
 "
+nsStyleImageOrientation_Angles
+"
+"
 nsTimingFunction_Type
 "
 "
@@ -1259,12 +1262,6 @@ mozilla
 :
 :
 StyleFloat
-"
-"
-mozilla
-:
-:
-StyleImageOrientation
 "
 "
 mozilla
