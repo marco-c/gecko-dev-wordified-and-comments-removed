@@ -286,7 +286,7 @@ paste
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 History
@@ -441,7 +441,7 @@ item
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks
@@ -582,7 +582,7 @@ PlacesOrganizer
 {
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 Tags
@@ -676,7 +676,7 @@ ContentTree
 {
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 History

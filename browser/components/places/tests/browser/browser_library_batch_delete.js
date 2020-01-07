@@ -183,7 +183,7 @@ PlacesOrganizer
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks
@@ -471,7 +471,7 @@ ContentTree
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 History
@@ -480,7 +480,7 @@ History
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks
