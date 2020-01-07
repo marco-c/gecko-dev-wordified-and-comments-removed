@@ -80,7 +80,7 @@ propTypes
 {
 return
 {
-property
+name
 :
 PropTypes
 .
@@ -111,7 +111,7 @@ render
 {
 const
 {
-property
+name
 state
 }
 =
@@ -183,7 +183,7 @@ span
 (
 {
 }
-property
+name
 )
 )
 ;
