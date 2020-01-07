@@ -122,14 +122,6 @@ mozilla
 mar
 import
 MarMixin
-from
-mozharness
-.
-base
-.
-python
-import
-VirtualenvMixin
 try
 :
     
@@ -229,7 +221,6 @@ VCSMixin
 BaseScript
 MarMixin
                           
-VirtualenvMixin
 TransferMixin
 )
 :
@@ -778,33 +769,6 @@ hashType
 "
 sha512
 "
-                
-'
-virtualenv_modules
-'
-:
-[
-                    
-'
-requests
-=
-=
-2
-.
-8
-.
-1
-'
-                
-]
-                
-'
-virtualenv_path
-'
-:
-'
-venv
-'
             
 }
         
