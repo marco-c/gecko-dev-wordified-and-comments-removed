@@ -3196,8 +3196,6 @@ GLuint
 index
 )
 ;
-/
-/
 sequence
 <
 WebGLShader
@@ -3206,7 +3204,6 @@ WebGLShader
 getAttachedShaders
 (
 WebGLProgram
-?
 program
 )
 ;
