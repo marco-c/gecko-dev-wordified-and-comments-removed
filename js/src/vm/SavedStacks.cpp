@@ -345,6 +345,14 @@ iter
 isWasm
 (
 )
+&
+&
+!
+iter
+.
+wasmDebugEnabled
+(
+)
 )
 return
 Nothing
