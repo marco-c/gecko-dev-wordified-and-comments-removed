@@ -1398,8 +1398,11 @@ init
 (
 )
 ;
-class
+this
+.
 ExtensionData
+=
+class
 {
 constructor
 (
@@ -5165,6 +5168,7 @@ result
 ;
 }
 }
+;
 const
 PROXIED_EVENTS
 =
@@ -5492,8 +5496,11 @@ null
 ;
 }
 }
-class
+this
+.
 Extension
+=
+class
 extends
 ExtensionData
 {
@@ -9003,8 +9010,12 @@ _optionalOrigins
 ;
 }
 }
-class
+;
+this
+.
 Langpack
+=
+class
 extends
 ExtensionData
 {
@@ -9586,3 +9597,4 @@ null
 ;
 }
 }
+;

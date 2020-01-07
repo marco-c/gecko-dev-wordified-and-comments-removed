@@ -445,16 +445,6 @@ xpcshell
 ini
 '
 ]
-SPHINX_TREES
-[
-'
-webextensions
-'
-]
-=
-'
-docs
-'
 include
 (
 '
