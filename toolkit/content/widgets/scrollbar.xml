@@ -185,9 +185,6 @@ inherits
 curpos
 maxpos
 disabled
-sborient
-=
-orient
 "
 /
 >
@@ -217,9 +214,6 @@ inherits
 curpos
 maxpos
 disabled
-sborient
-=
-orient
 "
 /
 >
@@ -243,9 +237,6 @@ maxpos
 pageincrement
 increment
 orient
-sborient
-=
-orient
 "
 >
 <
@@ -264,9 +255,6 @@ xbl
 inherits
 =
 "
-orient
-sborient
-=
 orient
 collapsed
 =
@@ -316,9 +304,6 @@ inherits
 curpos
 maxpos
 disabled
-sborient
-=
-orient
 "
 /
 >
@@ -348,9 +333,6 @@ inherits
 curpos
 maxpos
 disabled
-sborient
-=
-orient
 "
 /
 >
