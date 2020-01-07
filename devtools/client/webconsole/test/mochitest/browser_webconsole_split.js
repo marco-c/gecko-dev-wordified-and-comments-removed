@@ -132,6 +132,7 @@ HostType
 BOTTOM
 )
 ;
+await
 checkToolboxUI
 (
 )
@@ -157,6 +158,7 @@ HostType
 SIDE
 )
 ;
+await
 checkToolboxUI
 (
 )
@@ -195,6 +197,7 @@ HostType
 WINDOW
 )
 ;
+await
 checkToolboxUI
 (
 )
@@ -712,11 +715,14 @@ true
 ;
 EventUtils
 .
-synthesizeKey
+sendKey
 (
 "
-KEY_Escape
+ESCAPE
 "
+toolbox
+.
+win
 )
 ;
 }
