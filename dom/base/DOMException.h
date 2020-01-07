@@ -242,7 +242,7 @@ const
 void
 GetName
 (
-nsString
+nsAString
 &
 retval
 )
