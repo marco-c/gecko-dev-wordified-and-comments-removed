@@ -10,6 +10,7 @@ rule_tree
 :
 {
 CascadeLevel
+ShadowCascadeOrder
 StyleSource
 }
 ;
@@ -320,6 +321,10 @@ pub
 specificity
 :
 u32
+pub
+shadow_cascade_order
+:
+ShadowCascadeOrder
 }
 impl
 ApplicableDeclarationBlock
@@ -373,6 +378,9 @@ level
 specificity
 :
 0
+shadow_cascade_order
+:
+0
 }
 }
 #
@@ -395,6 +403,9 @@ CascadeLevel
 specificity
 :
 u32
+shadow_cascade_order
+:
+u32
 )
 -
 >
@@ -402,8 +413,6 @@ Self
 {
 ApplicableDeclarationBlock
 {
-source
-:
 source
 order_and_level
 :
@@ -416,8 +425,7 @@ order
 level
 )
 specificity
-:
-specificity
+shadow_cascade_order
 }
 }
 #
@@ -472,7 +480,7 @@ inline
 ]
 pub
 fn
-order_and_level
+for_rule_tree
 (
 self
 )
@@ -481,6 +489,7 @@ self
 (
 StyleSource
 CascadeLevel
+ShadowCascadeOrder
 )
 {
 let
@@ -497,6 +506,9 @@ self
 .
 source
 level
+self
+.
+shadow_cascade_order
 )
 }
 }
