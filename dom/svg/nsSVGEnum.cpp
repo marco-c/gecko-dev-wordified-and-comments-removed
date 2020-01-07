@@ -233,17 +233,8 @@ mapping
 +
 ;
 }
-NS_WARNING
-(
-"
-unknown
-enumeration
-key
-"
-)
-;
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 nsAtom
@@ -424,7 +415,7 @@ mapping
 ;
 }
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 void

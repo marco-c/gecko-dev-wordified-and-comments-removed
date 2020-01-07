@@ -368,7 +368,7 @@ MarkerImprovementsPrefEnabled
 )
 {
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 if
@@ -451,7 +451,7 @@ NS_OK
 ;
 }
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 already_AddRefed
