@@ -3688,6 +3688,14 @@ origURL
 "
 self
 "
+&
+&
+origURL
+!
+=
+=
+"
+"
 )
 {
 let
