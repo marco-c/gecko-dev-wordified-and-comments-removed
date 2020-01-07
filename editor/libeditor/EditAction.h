@@ -30,7 +30,7 @@ eJoinNodes
 eDeleteText
 eInsertText
 eInsertTextComingFromIME
-deleteSelection
+eDeleteSelectedContent
 setTextProperty
 removeTextProperty
 outputText

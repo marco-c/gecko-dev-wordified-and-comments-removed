@@ -452,7 +452,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 ;
 if
 (
