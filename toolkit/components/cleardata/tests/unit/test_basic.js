@@ -63,13 +63,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_IMAGE_CACHE
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_COOKIES
+CLEAR_ALL
 value
 =
 >
