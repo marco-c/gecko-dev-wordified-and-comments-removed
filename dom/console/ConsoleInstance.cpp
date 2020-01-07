@@ -271,6 +271,9 @@ ConsoleInstance
 :
 ConsoleInstance
 (
+JSContext
+*
+aCx
 const
 ConsoleInstanceOptions
 &
@@ -282,6 +285,7 @@ mConsole
 new
 Console
 (
+aCx
 nullptr
 )
 )
@@ -328,16 +332,6 @@ mDump
 Value
 (
 )
-;
-}
-else
-{
-mConsole
--
->
-mDumpToStdout
-=
-true
 ;
 }
 mConsole

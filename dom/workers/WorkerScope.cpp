@@ -794,6 +794,12 @@ Console
 :
 Create
 (
+mWorkerPrivate
+-
+>
+GetJSContext
+(
+)
 nullptr
 aRv
 )
@@ -4871,6 +4877,12 @@ Console
 :
 Create
 (
+mWorkerPrivate
+-
+>
+GetJSContext
+(
+)
 nullptr
 aRv
 )

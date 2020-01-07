@@ -30961,6 +30961,9 @@ nsGlobalWindowInner
 :
 GetConsole
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv
@@ -30979,6 +30982,7 @@ Console
 :
 Create
 (
+aCx
 this
 aRv
 )

@@ -192,6 +192,9 @@ WorkletGlobalScope
 :
 GetConsole
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv
@@ -210,6 +213,7 @@ Console
 :
 Create
 (
+aCx
 mWindow
 aRv
 )
