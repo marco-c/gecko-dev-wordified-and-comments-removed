@@ -306,11 +306,6 @@ t
 >
 {
 const
-scroll_position
-=
-5000
-;
-const
 blob_contents
 =
 '
@@ -494,7 +489,9 @@ frame
 ;
 frame
 .
-onload
+contentWindow
+.
+onscroll
 =
 t
 .
