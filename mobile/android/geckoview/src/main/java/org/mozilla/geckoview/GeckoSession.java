@@ -5076,7 +5076,7 @@ void
 saveState
 (
 final
-Response
+GeckoResponse
 <
 SessionState
 >
