@@ -175,6 +175,16 @@ MenuBoxObject
 :
 false
 "
+PlacesObservers
+"
+:
+false
+"
+PlacesWeakCallbackWrapper
+"
+:
+false
+"
 SharedArrayBuffer
 "
 :
