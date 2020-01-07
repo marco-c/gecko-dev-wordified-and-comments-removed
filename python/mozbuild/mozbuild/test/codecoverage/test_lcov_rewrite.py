@@ -42,6 +42,63 @@ dirname
 (
 __file__
 )
+BUILDCONFIG
+=
+{
+    
+'
+topobjdir
+'
+:
+buildconfig
+.
+topobjdir
+    
+'
+MOZ_APP_NAME
+'
+:
+buildconfig
+.
+substs
+.
+get
+(
+'
+MOZ_APP_NAME
+'
+)
+    
+'
+OMNIJAR_NAME
+'
+:
+buildconfig
+.
+substs
+.
+get
+(
+'
+OMNIJAR_NAME
+'
+)
+    
+'
+MOZ_MACBUNDLE_NAME
+'
+:
+buildconfig
+.
+substs
+.
+get
+(
+'
+MOZ_MACBUNDLE_NAME
+'
+)
+}
 basic_file
 =
 "
@@ -804,6 +861,7 @@ empty_chrome_info
 }
 {
 }
+BUILDCONFIG
         
 ]
         
@@ -835,6 +893,7 @@ lcov_rewriter
 .
 LcovFileRewriter
 (
+chrome_map_file
 '
 '
 '
@@ -1761,6 +1820,8 @@ False
 ]
             
 }
+            
+BUILDCONFIG
         
 ]
         
@@ -2024,6 +2085,9 @@ lcov_rewriter
 .
 UrlFinder
 (
+self
+.
+_chrome_map_file
 '
 '
 '
