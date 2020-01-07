@@ -209,7 +209,6 @@ toString
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -217,7 +216,6 @@ removeTab
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -504,7 +502,6 @@ toString
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

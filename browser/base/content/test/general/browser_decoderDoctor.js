@@ -362,7 +362,6 @@ tabChecker
 openedTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

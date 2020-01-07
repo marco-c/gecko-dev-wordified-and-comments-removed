@@ -671,7 +671,6 @@ notification
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -835,7 +834,6 @@ activated
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -977,7 +975,6 @@ activated
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1248,7 +1245,6 @@ activated
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1334,7 +1330,6 @@ notification
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

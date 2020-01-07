@@ -764,7 +764,6 @@ contentPrincipal
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

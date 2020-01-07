@@ -116,7 +116,6 @@ ALLOW_ACTION
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -300,7 +300,6 @@ gBrowser
 tabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

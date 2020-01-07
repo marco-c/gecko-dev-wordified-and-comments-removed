@@ -67,7 +67,6 @@ updateApp
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -112,7 +111,6 @@ permissionsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

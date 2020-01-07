@@ -644,7 +644,6 @@ userContextId
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -770,7 +769,6 @@ userContextId
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

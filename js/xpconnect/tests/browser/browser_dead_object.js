@@ -193,7 +193,6 @@ dead
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

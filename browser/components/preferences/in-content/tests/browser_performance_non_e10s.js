@@ -613,7 +613,6 @@ enabled
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -754,7 +753,6 @@ enabled
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -929,7 +927,6 @@ enabled
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

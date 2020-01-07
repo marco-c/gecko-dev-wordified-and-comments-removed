@@ -78,7 +78,6 @@ decayRate
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -226,7 +226,6 @@ hidePopup
 await
 promiseContextMenuHidden
 ;
-await
 BrowserTestUtils
 .
 removeTab

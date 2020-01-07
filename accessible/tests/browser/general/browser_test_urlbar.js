@@ -199,7 +199,6 @@ role
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

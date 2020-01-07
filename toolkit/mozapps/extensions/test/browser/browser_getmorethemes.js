@@ -253,7 +253,6 @@ match
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

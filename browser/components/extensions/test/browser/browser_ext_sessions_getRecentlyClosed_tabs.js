@@ -486,7 +486,6 @@ startup
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

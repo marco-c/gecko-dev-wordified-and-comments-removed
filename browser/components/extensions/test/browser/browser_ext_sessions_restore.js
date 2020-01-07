@@ -952,7 +952,6 @@ tab
 linkedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1032,7 +1031,6 @@ tab
 id
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1142,7 +1140,6 @@ tab
 id
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

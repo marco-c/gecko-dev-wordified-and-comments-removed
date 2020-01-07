@@ -240,7 +240,6 @@ testPortalTabSelectedAndButtonNotVisible
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -315,7 +314,6 @@ selected
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -346,7 +344,6 @@ clickButtonAndExpectNewPortalTab
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

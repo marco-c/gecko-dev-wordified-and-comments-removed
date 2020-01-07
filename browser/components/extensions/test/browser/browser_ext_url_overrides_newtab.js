@@ -547,7 +547,6 @@ hidePopup
 await
 popupHidden
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -904,7 +903,6 @@ doorhanger
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -976,7 +974,6 @@ doorhanger
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1369,7 +1366,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1422,7 +1418,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1538,7 +1533,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1962,7 +1956,6 @@ waitForTick
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2077,7 +2070,6 @@ userDisabled
 =
 false
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2861,7 +2853,6 @@ waitForTick
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2914,7 +2905,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3227,7 +3217,6 @@ loaded
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

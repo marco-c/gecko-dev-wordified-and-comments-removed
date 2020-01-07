@@ -70,7 +70,6 @@ html
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -345,7 +344,6 @@ load
 await
 panelHiddenPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab

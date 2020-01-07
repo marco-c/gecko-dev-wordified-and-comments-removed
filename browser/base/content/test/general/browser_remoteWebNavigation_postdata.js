@@ -321,7 +321,6 @@ postdata
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

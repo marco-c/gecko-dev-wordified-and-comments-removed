@@ -171,7 +171,6 @@ loadTab
 await
 loadPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -561,7 +560,6 @@ url
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -567,7 +567,6 @@ file
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab

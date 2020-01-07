@@ -634,7 +634,6 @@ API
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -926,7 +925,6 @@ API
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1259,7 +1257,6 @@ popPrefEnv
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1670,7 +1667,6 @@ iframe
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2191,7 +2187,6 @@ event
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -2469,7 +2464,6 @@ value
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

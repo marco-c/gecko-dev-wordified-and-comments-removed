@@ -443,7 +443,6 @@ dismissed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

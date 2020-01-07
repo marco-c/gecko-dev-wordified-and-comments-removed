@@ -992,7 +992,6 @@ busy
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

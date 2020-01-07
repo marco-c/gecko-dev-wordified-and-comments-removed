@@ -319,7 +319,6 @@ deferredRightFrameVisit
 .
 promise
 ;
-await
 BrowserTestUtils
 .
 removeTab

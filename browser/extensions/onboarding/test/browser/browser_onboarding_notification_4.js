@@ -135,7 +135,6 @@ notifcations
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -397,7 +396,6 @@ notifcations
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

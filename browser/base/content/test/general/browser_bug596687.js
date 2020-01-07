@@ -67,7 +67,6 @@ TabClose
 onTabClose
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

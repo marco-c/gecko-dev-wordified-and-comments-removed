@@ -1142,7 +1142,6 @@ closeTabContextMenu
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1259,7 +1258,6 @@ closeExtensionContextMenu
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1555,7 +1553,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2279,7 +2276,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -713,7 +713,6 @@ hidePopup
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

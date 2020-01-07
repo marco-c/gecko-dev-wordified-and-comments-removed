@@ -829,7 +829,6 @@ browser_style
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

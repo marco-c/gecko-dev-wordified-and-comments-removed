@@ -1107,7 +1107,6 @@ value
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1320,7 +1319,6 @@ aTestPage
 await
 promiseObserveFavicon
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1504,7 +1502,6 @@ allTabsBtn
 await
 allTabsPopupHiddenPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1614,7 +1611,6 @@ allTabsBtn
 await
 allTabsPopupHiddenPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2050,7 +2046,6 @@ party
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2060,7 +2055,6 @@ tabInfoA
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2070,7 +2064,6 @@ tabInfoB
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

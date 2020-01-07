@@ -1791,7 +1791,6 @@ set
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -3927,7 +3926,6 @@ installDialog
 await
 closePromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -7046,7 +7044,6 @@ install
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

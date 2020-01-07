@@ -186,7 +186,6 @@ STATE_OFFSCREEN
 STATE_INVISIBLE
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

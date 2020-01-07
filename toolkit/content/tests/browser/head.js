@@ -1123,7 +1123,6 @@ await
 pickerClosePromise
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab

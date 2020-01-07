@@ -516,7 +516,6 @@ removeChild
 container
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -874,7 +873,6 @@ hidePopup
 await
 popupHidden
 ;
-await
 BrowserTestUtils
 .
 removeTab

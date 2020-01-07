@@ -116,7 +116,6 @@ TabSwitchDone
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

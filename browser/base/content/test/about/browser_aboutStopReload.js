@@ -171,7 +171,6 @@ true
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -307,7 +306,6 @@ mozilla
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -444,7 +442,6 @@ mozilla
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -582,7 +579,6 @@ waitForNoAnimation
 stopReloadContainer
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -729,7 +725,6 @@ com
 await
 animatePromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -892,7 +887,6 @@ waitForNoAnimation
 stopReloadContainer
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

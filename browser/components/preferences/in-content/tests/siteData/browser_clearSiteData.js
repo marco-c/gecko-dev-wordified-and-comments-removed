@@ -65,7 +65,6 @@ gBrowser
 TEST_OFFLINE_URL
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -104,7 +103,6 @@ null
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -907,7 +905,6 @@ state
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

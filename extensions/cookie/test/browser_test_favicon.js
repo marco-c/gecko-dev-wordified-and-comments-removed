@@ -122,7 +122,6 @@ function
 (
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

@@ -199,7 +199,6 @@ endCustomizing
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

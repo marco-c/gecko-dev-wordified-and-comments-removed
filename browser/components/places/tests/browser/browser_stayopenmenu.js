@@ -87,7 +87,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -696,7 +695,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -794,7 +792,6 @@ menu
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1059,7 +1056,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1267,7 +1263,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1315,7 +1310,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1566,7 +1560,6 @@ false
 await
 promiseEvent
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1704,7 +1697,6 @@ false
 await
 promiseEvent
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1819,7 +1811,6 @@ false
 await
 promiseEvent
 ;
-await
 BrowserTestUtils
 .
 removeTab

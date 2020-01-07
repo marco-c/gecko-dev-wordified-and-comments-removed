@@ -779,7 +779,6 @@ scopedPopPrefs
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

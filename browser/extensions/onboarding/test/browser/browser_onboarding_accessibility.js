@@ -219,7 +219,6 @@ semantics
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -456,7 +455,6 @@ presentation
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -647,7 +645,6 @@ false
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

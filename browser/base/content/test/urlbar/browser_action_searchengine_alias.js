@@ -148,7 +148,6 @@ engine
 ;
 try
 {
-await
 BrowserTestUtils
 .
 removeTab

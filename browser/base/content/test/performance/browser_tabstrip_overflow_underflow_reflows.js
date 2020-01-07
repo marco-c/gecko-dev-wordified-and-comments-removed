@@ -287,7 +287,6 @@ TabSwitchDone
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -410,7 +409,6 @@ scrolledtostart
 window
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -506,7 +504,6 @@ TabSwitchDone
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

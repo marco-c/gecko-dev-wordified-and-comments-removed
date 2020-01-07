@@ -924,7 +924,6 @@ SidebarUI
 isOpen
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1013,7 +1012,6 @@ resolve
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

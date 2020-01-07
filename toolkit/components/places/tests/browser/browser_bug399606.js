@@ -402,7 +402,6 @@ removeObserver
 historyObserver
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

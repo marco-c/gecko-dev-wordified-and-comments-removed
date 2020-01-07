@@ -567,7 +567,6 @@ checkUncontrolled
 containerBrowser2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -575,7 +574,6 @@ removeTab
 containerTab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -659,7 +657,6 @@ checkControlled
 containerBrowser2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -717,7 +714,6 @@ checkControlled
 containerBrowser2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -775,7 +771,6 @@ checkUncontrolled
 containerBrowser2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -783,7 +778,6 @@ removeTab
 containerTab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

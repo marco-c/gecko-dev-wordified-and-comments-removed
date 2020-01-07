@@ -515,7 +515,6 @@ cleanup
 (
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

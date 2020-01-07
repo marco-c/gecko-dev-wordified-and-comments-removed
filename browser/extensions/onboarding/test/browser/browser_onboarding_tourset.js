@@ -136,7 +136,6 @@ id
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -371,7 +370,6 @@ id
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -606,7 +604,6 @@ id
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

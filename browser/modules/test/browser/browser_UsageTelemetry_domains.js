@@ -433,7 +433,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -940,7 +939,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -365,7 +365,6 @@ timeout
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

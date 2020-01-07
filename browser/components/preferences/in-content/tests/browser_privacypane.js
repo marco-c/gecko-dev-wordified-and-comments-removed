@@ -94,7 +94,6 @@ true
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -241,7 +240,6 @@ pref
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

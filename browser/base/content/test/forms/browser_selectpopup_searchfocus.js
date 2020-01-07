@@ -326,7 +326,6 @@ escape
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

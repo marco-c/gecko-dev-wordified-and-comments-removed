@@ -169,7 +169,6 @@ swap
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

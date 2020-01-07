@@ -346,7 +346,6 @@ tab
 await
 tabPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -495,7 +494,6 @@ com
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

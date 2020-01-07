@@ -1092,7 +1092,6 @@ container
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1102,7 +1101,6 @@ defaultContainer
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

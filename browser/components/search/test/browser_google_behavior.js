@@ -924,7 +924,6 @@ alias
 =
 undefined
 ;
-await
 BrowserTestUtils
 .
 removeTab

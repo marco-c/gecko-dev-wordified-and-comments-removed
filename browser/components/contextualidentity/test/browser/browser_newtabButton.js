@@ -284,7 +284,6 @@ i
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -695,7 +694,6 @@ UCI
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab

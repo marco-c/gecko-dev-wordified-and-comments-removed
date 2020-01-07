@@ -755,7 +755,6 @@ value
 userContextId
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1319,7 +1318,6 @@ html
 userContextId
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1430,7 +1428,6 @@ html
 userContextId
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1725,7 +1722,6 @@ done
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1946,7 +1942,6 @@ expected
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

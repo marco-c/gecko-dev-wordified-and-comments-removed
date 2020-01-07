@@ -1301,7 +1301,6 @@ msg
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -1311,7 +1310,6 @@ tabInfoA
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -172,7 +172,6 @@ page
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -236,7 +235,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -307,7 +305,6 @@ page
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

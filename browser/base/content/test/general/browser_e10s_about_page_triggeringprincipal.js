@@ -601,7 +601,6 @@ loadingPrincipal
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -930,7 +929,6 @@ loadingPrincipal
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

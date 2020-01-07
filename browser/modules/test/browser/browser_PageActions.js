@@ -49,7 +49,6 @@ async
 =
 >
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -7995,7 +7994,6 @@ values
 0
 ]
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -8593,7 +8591,6 @@ values
 0
 ]
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -462,7 +462,6 @@ button
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -768,7 +767,6 @@ keyboard
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -954,7 +952,6 @@ mouse
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1136,7 +1133,6 @@ unloaded
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1318,7 +1314,6 @@ innerWidth
 =
 originalWidth
 ;
-await
 BrowserTestUtils
 .
 removeTab

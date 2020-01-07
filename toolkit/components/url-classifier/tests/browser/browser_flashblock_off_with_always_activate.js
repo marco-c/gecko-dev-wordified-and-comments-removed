@@ -203,7 +203,6 @@ classifierTester
 ALWAYS_ACTIVATE_PREF_VALUE
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

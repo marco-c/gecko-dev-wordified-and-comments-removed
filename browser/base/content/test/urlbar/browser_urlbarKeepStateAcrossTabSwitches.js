@@ -164,7 +164,6 @@ switch
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -391,7 +390,6 @@ browser
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

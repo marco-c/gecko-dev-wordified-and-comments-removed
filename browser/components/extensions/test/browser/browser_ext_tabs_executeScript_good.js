@@ -1521,7 +1521,6 @@ awaitPopupHidden
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -224,7 +224,6 @@ spec
 await
 promiseTitleChanged
 ;
-await
 BrowserTestUtils
 .
 removeTab

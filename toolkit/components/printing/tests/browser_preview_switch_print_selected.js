@@ -546,7 +546,6 @@ exitPrintPreview
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

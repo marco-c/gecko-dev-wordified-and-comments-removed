@@ -2663,7 +2663,6 @@ doCommand
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

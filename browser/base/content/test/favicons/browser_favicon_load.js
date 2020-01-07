@@ -745,7 +745,6 @@ promise
 await
 promiseWaitOnFaviconLoaded
 ;
-await
 BrowserTestUtils
 .
 removeTab

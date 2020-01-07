@@ -964,7 +964,6 @@ correct
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -1350,7 +1349,6 @@ panelNode
 id
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2034,7 +2032,6 @@ chrome
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2316,7 +2313,6 @@ okay
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2680,7 +2676,6 @@ item
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3171,7 +3166,6 @@ correct
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

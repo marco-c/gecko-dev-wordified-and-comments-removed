@@ -112,7 +112,6 @@ switchDone
 EXPECTED_REFLOWS
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

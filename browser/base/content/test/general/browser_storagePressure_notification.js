@@ -581,7 +581,6 @@ preferences
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -589,7 +588,6 @@ removeTab
 aboutPrefTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

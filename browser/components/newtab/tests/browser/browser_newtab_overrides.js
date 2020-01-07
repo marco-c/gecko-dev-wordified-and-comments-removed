@@ -458,7 +458,6 @@ URL
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -634,7 +633,6 @@ URL
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -395,7 +395,6 @@ preferences
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

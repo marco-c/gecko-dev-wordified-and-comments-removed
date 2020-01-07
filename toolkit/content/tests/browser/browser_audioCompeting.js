@@ -587,7 +587,6 @@ tabs
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -595,7 +594,6 @@ removeTab
 tab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -603,7 +601,6 @@ removeTab
 tab2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -705,7 +702,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

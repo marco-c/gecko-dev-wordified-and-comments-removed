@@ -314,7 +314,6 @@ private
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

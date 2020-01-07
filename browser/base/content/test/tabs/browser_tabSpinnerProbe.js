@@ -285,7 +285,6 @@ snapshot
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

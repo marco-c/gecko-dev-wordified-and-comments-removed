@@ -185,7 +185,6 @@ closing
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -431,7 +430,6 @@ survey
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -439,7 +437,6 @@ removeTab
 surveyTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

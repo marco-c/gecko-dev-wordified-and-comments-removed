@@ -276,7 +276,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -421,7 +420,6 @@ favicon
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

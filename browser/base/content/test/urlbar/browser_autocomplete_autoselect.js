@@ -229,7 +229,6 @@ clearUserPref
 ONEOFF_URLBAR_PREF
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

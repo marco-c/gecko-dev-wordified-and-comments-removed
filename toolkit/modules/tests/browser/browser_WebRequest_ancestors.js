@@ -207,7 +207,6 @@ deferred
 .
 promise
 ;
-await
 BrowserTestUtils
 .
 removeTab

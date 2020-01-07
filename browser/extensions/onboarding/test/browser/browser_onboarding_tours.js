@@ -491,7 +491,6 @@ linkedBrowser
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -758,7 +757,6 @@ linkedBrowser
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -936,7 +934,6 @@ tab
 linkedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

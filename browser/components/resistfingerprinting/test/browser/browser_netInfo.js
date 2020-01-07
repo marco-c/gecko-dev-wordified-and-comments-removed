@@ -108,7 +108,6 @@ correctly
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -274,7 +273,6 @@ runTests
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

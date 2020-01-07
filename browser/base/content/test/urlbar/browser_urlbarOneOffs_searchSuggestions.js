@@ -305,7 +305,6 @@ clear
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -466,7 +465,6 @@ clear
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -670,7 +668,6 @@ updated
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -235,7 +235,6 @@ value
 userContextId
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

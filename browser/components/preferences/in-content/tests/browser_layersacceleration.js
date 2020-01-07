@@ -163,7 +163,6 @@ checkbox
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

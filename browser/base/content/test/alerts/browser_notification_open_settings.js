@@ -211,7 +211,6 @@ opened
 await
 syncPaneLoadedPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -428,7 +427,6 @@ syncPaneLoadedPromise
 await
 closePromise
 ;
-await
 BrowserTestUtils
 .
 removeTab

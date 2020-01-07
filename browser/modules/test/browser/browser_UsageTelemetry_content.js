@@ -675,7 +675,6 @@ hidePopup
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -685,7 +684,6 @@ gBrowser
 selectedTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -999,7 +997,6 @@ MozSearch
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

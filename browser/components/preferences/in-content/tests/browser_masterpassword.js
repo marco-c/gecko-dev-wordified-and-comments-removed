@@ -398,7 +398,6 @@ unchecked
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

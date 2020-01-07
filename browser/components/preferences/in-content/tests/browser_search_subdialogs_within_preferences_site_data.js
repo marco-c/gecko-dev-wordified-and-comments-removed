@@ -69,7 +69,6 @@ historyGroup
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -119,7 +118,6 @@ historyGroup
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -168,7 +166,6 @@ historyGroup
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -214,7 +211,6 @@ siteDataGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

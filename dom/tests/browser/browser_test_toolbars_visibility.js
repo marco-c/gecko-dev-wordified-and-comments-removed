@@ -534,7 +534,6 @@ testDefaultToolbars
 toolbars
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

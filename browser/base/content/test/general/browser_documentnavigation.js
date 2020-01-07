@@ -940,7 +940,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1588,7 +1587,6 @@ urlbar
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1858,7 +1856,6 @@ urlbar
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

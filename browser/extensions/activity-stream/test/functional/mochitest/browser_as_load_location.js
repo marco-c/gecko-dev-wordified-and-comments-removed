@@ -61,7 +61,6 @@ found
 message
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

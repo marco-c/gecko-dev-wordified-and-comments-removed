@@ -1569,7 +1569,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1987,7 +1986,6 @@ Alt
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -311,7 +311,6 @@ notification
 await
 panelHidden
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -319,7 +318,6 @@ removeTab
 tabB
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -843,7 +843,6 @@ popup
 REMEMBER_BUTTON
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1046,7 +1045,6 @@ popup
 CHANGE_BUTTON
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

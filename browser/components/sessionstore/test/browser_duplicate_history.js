@@ -181,7 +181,6 @@ shared
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

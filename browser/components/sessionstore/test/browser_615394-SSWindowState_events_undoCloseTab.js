@@ -341,7 +341,6 @@ SSWindowStateReady
 onSSWindowStateReady
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

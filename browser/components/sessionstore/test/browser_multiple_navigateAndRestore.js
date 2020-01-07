@@ -286,7 +286,6 @@ currentURI
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

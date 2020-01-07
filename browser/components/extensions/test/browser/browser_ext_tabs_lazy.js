@@ -337,7 +337,6 @@ lazy
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

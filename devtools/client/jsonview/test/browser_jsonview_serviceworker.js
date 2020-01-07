@@ -464,7 +464,6 @@ unregister
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

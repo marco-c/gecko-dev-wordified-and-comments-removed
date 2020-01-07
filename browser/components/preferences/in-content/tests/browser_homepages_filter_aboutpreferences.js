@@ -202,7 +202,6 @@ homepage
 oldHomepagePref
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -212,7 +211,6 @@ gBrowser
 selectedTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

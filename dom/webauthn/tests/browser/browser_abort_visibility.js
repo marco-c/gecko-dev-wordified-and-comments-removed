@@ -646,7 +646,6 @@ aborted
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -654,7 +653,6 @@ removeTab
 tab_create
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -800,7 +798,6 @@ closeWindow
 win
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -917,7 +914,6 @@ window
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1034,7 +1030,6 @@ window
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -373,7 +373,6 @@ url
 title
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -452,7 +451,6 @@ title
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

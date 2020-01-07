@@ -480,7 +480,6 @@ hidePopup
 await
 hiddenPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab

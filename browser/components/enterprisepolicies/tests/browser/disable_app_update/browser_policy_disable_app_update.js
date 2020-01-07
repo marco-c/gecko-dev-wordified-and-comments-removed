@@ -194,7 +194,6 @@ policy
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -1052,7 +1052,6 @@ infoURL
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

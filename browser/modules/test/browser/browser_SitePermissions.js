@@ -633,7 +633,6 @@ shortcuts
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

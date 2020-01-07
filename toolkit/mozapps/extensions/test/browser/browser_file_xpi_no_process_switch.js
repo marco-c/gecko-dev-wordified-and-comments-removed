@@ -542,7 +542,6 @@ newTab
 await
 newTabInstallNotification
 ;
-await
 BrowserTestUtils
 .
 removeTab

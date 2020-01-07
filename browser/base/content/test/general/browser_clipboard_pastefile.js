@@ -474,7 +474,6 @@ removeChild
 textbox
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

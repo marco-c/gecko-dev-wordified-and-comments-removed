@@ -728,7 +728,6 @@ closed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

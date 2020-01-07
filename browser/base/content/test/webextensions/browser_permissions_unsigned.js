@@ -304,7 +304,6 @@ installed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -330,7 +330,6 @@ promiseTabRestored
 originalTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

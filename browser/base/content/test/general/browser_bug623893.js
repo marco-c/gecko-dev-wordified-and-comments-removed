@@ -101,7 +101,6 @@ index
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -132,7 +131,6 @@ forward
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -142,7 +140,6 @@ gBrowser
 selectedTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

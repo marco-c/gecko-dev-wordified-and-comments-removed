@@ -220,7 +220,6 @@ generalPane
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -339,7 +339,6 @@ localizedImportItem
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab

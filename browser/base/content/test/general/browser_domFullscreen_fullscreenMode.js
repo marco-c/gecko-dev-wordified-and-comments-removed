@@ -1255,7 +1255,6 @@ FS_CHANGE_SIZE
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab

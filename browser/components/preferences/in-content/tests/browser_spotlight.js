@@ -135,7 +135,6 @@ spotlighted
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -293,7 +292,6 @@ spotlighted
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -483,7 +481,6 @@ spotlighted
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

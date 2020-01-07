@@ -1573,7 +1573,6 @@ await
 hideEvent
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab

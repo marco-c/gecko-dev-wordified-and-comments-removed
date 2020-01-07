@@ -622,7 +622,6 @@ popupHiddenPromise
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab

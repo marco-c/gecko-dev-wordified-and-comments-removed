@@ -363,7 +363,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

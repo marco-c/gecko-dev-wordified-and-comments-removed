@@ -562,7 +562,6 @@ aborted
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -570,7 +569,6 @@ removeTab
 tab_create
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -902,7 +902,6 @@ notificationBox
 await
 telemetrySentPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1268,7 +1267,6 @@ notificationBox
 await
 telemetrySentPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab

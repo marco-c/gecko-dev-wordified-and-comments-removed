@@ -558,7 +558,6 @@ expectedMaxTabs
 =
 4
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -605,7 +604,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -777,7 +775,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -848,7 +845,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -1617,7 +1613,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

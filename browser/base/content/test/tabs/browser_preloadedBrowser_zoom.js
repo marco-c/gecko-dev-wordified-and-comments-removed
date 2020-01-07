@@ -168,7 +168,6 @@ linkedBrowser
 .
 fullZoom
 ;
-await
 BrowserTestUtils
 .
 removeTab

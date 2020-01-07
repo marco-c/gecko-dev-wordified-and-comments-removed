@@ -1485,7 +1485,6 @@ url
 await
 promise
 ;
-await
 BrowserTestUtils
 .
 removeTab

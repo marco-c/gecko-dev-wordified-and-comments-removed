@@ -702,7 +702,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1104,7 +1103,6 @@ expected
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

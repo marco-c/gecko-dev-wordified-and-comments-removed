@@ -145,7 +145,6 @@ contentSize
 .
 height
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -429,7 +428,6 @@ res
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1330,7 +1328,6 @@ testOuter
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab

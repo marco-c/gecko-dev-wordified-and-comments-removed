@@ -495,7 +495,6 @@ events
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -511,7 +510,6 @@ closeWindow
 privWin
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

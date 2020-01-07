@@ -586,7 +586,6 @@ testFinished
 .
 promise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -594,7 +593,6 @@ removeTab
 tab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

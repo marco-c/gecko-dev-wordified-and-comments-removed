@@ -53,7 +53,6 @@ tab
 await
 promiseTabOpened
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -201,7 +200,6 @@ tab
 await
 promiseTabOpened
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -392,7 +390,6 @@ spotlighted
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

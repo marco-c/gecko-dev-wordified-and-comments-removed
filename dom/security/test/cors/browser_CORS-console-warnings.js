@@ -110,8 +110,8 @@ messages_seen
 }
 }
 }
+async
 function
-*
 do_cleanup
 (
 )
@@ -136,7 +136,7 @@ on_new_message
 )
 ;
 }
-yield
+await
 unsetCookiePref
 (
 )
@@ -205,8 +205,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -220,7 +220,7 @@ registerCleanupFunction
 do_cleanup
 )
 ;
-yield
+await
 setCookiePref
 (
 )
@@ -257,7 +257,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -273,7 +273,7 @@ blank
 let
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -349,7 +349,7 @@ gBrowser
 test_uri
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForLocationChange
@@ -380,7 +380,6 @@ messages
 "
 )
 ;
-yield
 BrowserTestUtils
 .
 removeTab

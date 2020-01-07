@@ -250,7 +250,6 @@ closePageAction
 extension
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -475,7 +474,6 @@ closeBrowserAction
 extension
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

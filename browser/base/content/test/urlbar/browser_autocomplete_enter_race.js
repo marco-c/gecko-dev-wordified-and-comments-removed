@@ -77,7 +77,6 @@ remove
 bm
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

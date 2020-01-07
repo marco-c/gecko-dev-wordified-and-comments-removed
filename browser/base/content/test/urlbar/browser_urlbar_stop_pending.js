@@ -270,7 +270,6 @@ obs
 =
 null
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -623,7 +622,6 @@ stop
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -631,7 +629,6 @@ removeTab
 newTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1102,7 +1099,6 @@ stop
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1110,7 +1106,6 @@ removeTab
 newTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
