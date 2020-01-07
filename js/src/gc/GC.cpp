@@ -21967,6 +21967,14 @@ waitBackgroundSweepEnd
 (
 )
 ;
+HelperThreadState
+(
+)
+.
+waitForAllThreads
+(
+)
+;
 {
 AutoLockGC
 lock
