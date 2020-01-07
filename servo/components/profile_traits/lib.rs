@@ -8,6 +8,10 @@ unsafe_code
 ]
 extern
 crate
+bincode
+;
+extern
+crate
 ipc_channel
 ;
 #
@@ -44,6 +48,10 @@ unsafe_code
 pub
 mod
 energy
+;
+pub
+mod
+ipc
 ;
 pub
 mod

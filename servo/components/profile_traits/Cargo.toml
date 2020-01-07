@@ -72,6 +72,11 @@ monitor
 [
 dependencies
 ]
+bincode
+=
+"
+1
+"
 energy
 -
 monitor
