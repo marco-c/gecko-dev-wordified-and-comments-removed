@@ -837,6 +837,12 @@ focus
 (
 )
 ;
+gSync
+.
+init
+(
+)
+;
 }
 QueryInterface
 :
