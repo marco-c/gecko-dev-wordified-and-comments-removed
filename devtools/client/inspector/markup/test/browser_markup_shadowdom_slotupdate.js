@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-loadHelperScript
-(
-"
-helper_shadowdom
-.
-js
-"
-)
-;
 const
 TEST_URL
 =
@@ -258,7 +249,7 @@ slot2
 2
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 tree
 "
@@ -380,7 +371,7 @@ slot2
 2
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 mutatedTree
 "

@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-loadHelperScript
-(
-"
-helper_shadowdom
-.
-js
-"
-)
-;
 const
 TEST_URL
 =
@@ -228,7 +219,7 @@ div
 div
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 tree
 "
@@ -341,7 +332,7 @@ div
 div
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 treeAfterDelete
 "
@@ -465,7 +456,7 @@ div
 div
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 treeAfterAttrChange
 "

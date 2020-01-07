@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-loadHelperScript
-(
-"
-helper_shadowdom
-.
-js
-"
-)
-;
 requestLongerTimeout
 (
 2
@@ -1137,7 +1128,7 @@ open
 )
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 tree
 "
@@ -1201,7 +1192,7 @@ closed
 )
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 tree
 "

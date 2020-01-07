@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-loadHelperScript
-(
-"
-helper_shadowdom
-.
-js
-"
-)
-;
 const
 TEST_URL
 =
@@ -420,7 +411,7 @@ before
 before
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 beforeTree
 "
@@ -627,7 +618,7 @@ before
 before
 ;
 await
-checkTreeFromRootSelector
+assertMarkupViewAsTree
 (
 afterTree
 "

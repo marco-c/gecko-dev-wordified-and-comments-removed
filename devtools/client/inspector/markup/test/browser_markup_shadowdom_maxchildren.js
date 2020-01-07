@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-loadHelperScript
-(
-"
-helper_shadowdom
-.
-js
-"
-)
-;
 const
 TEST_URL
 =
@@ -319,7 +310,7 @@ children
 "
 )
 ;
-checkText
+assertContainerHasText
 (
 childContainers
 [
@@ -349,7 +340,7 @@ i
 +
 )
 {
-checkText
+assertContainerHasText
 (
 childContainers
 [
@@ -360,7 +351,7 @@ div
 "
 )
 ;
-checkText
+assertContainerHasText
 (
 childContainers
 [
@@ -473,7 +464,7 @@ child
 "
 )
 ;
-checkText
+assertContainerHasText
 (
 childContainers
 [
@@ -484,7 +475,7 @@ div
 "
 )
 ;
-checkText
+assertContainerHasText
 (
 childContainers
 [
@@ -560,7 +551,7 @@ child
 "
 )
 ;
-checkText
+assertContainerHasText
 (
 shadowChildContainers
 [
@@ -642,7 +633,7 @@ of
 slotChildContainers
 )
 {
-checkText
+assertContainerHasText
 (
 slotChildContainer
 "
@@ -783,7 +774,7 @@ element
 "
 )
 ;
-checkText
+assertContainerHasText
 (
 slotChildContainers
 [
