@@ -8565,10 +8565,6 @@ get_preferred_sample_rate
 =
 NULL
 .
-get_preferred_channel_layout
-=
-NULL
-.
 enumerate_devices
 =
 NULL
