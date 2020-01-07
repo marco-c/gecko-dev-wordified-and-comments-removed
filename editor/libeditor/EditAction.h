@@ -41,7 +41,7 @@ eIndent
 eOutdent
 eSetOrClearAlignment
 eCreateOrRemoveBlock
-removeList
+eRemoveList
 makeDefListItem
 insertElement
 insertQuotation

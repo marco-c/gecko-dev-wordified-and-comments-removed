@@ -8638,7 +8638,7 @@ this
 EditSubAction
 :
 :
-removeList
+eRemoveList
 nsIEditor
 :
 :
@@ -8667,7 +8667,7 @@ subActionInfo
 EditSubAction
 :
 :
-removeList
+eRemoveList
 )
 ;
 if
