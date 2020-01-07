@@ -189,13 +189,6 @@ build_number
 1
     
 '
-desktop_release_type
-'
-:
-'
-'
-    
-'
 do_not_optimize
 '
 :
@@ -374,6 +367,13 @@ release_history
 :
 {
 }
+    
+'
+release_type
+'
+:
+'
+'
     
 '
 target_tasks_method

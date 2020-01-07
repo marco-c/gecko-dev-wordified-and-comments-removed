@@ -1002,7 +1002,7 @@ None
 parameters
 [
 '
-desktop_release_type
+release_type
 '
 ]
 =

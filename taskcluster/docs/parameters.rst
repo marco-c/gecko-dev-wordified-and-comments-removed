@@ -976,11 +976,10 @@ version
 bump
 tasks
 .
-desktop_release_type
+release_type
 The
 type
 of
-desktop
 release
 being
 promoted

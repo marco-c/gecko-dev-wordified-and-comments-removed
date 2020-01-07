@@ -2395,7 +2395,7 @@ parameters
 get
 (
 '
-desktop_release_type
+release_type
 '
 )
 !
@@ -2702,7 +2702,7 @@ parameters
 get
 (
 '
-desktop_release_type
+release_type
 '
 )
 =
