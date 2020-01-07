@@ -340,6 +340,13 @@ up
 }
 scrollcorner
 {
+-
+moz
+-
+appearance
+:
+scrollcorner
+;
 width
 :
 16px

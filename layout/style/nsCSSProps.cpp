@@ -1708,6 +1708,10 @@ eCSSKeyword_scrollbarthumb_vertical
 NS_THEME_SCROLLBARTHUMB_VERTICAL
 }
 {
+eCSSKeyword_scrollcorner
+NS_THEME_SCROLLCORNER
+}
+{
 eCSSKeyword_textfield
 NS_THEME_TEXTFIELD
 }
