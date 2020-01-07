@@ -1031,7 +1031,7 @@ ToInteger
 (
 &
 errorCode
-kRadix10
+10
 )
 ;
 if
@@ -1050,7 +1050,7 @@ ToInteger
 (
 &
 errorCode
-kRadix16
+16
 )
 ;
 }
