@@ -751,6 +751,13 @@ import
 setup_logging
         
 from
+mozlog
+.
+handlers
+import
+StreamHandler
+        
+from
 moztest
 .
 resolve
@@ -857,12 +864,23 @@ default_level
 }
 )
         
+for
+handler
+in
 log
 .
 handlers
-[
-0
-]
+:
+            
+if
+isinstance
+(
+handler
+StreamHandler
+)
+:
+                
+handler
 .
 formatter
 .
