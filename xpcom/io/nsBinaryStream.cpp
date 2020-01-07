@@ -750,7 +750,7 @@ float
 aFloat
 )
 {
-NS_ASSERTION
+static_assert
 (
 sizeof
 (
@@ -799,7 +799,7 @@ double
 aDouble
 )
 {
-NS_ASSERTION
+static_assert
 (
 sizeof
 (
@@ -2551,7 +2551,7 @@ float
 aFloat
 )
 {
-NS_ASSERTION
+static_assert
 (
 sizeof
 (
@@ -2599,7 +2599,7 @@ double
 aDouble
 )
 {
-NS_ASSERTION
+static_assert
 (
 sizeof
 (
@@ -2831,7 +2831,7 @@ bytes
 "
 )
 ;
-NS_PRECONDITION
+static_assert
 (
 sizeof
 (
