@@ -1442,6 +1442,10 @@ UCASE_EXC_DELTA
 )
 )
 {
+pe
+=
+pe0
+;
 int32_t
 delta
 ;
@@ -6105,7 +6109,7 @@ GET_SLOT_VALUE
 (
 excWord
 UCASE_EXC_DELTA
-pe
+pe2
 delta
 )
 ;
@@ -6463,7 +6467,7 @@ GET_SLOT_VALUE
 (
 excWord
 UCASE_EXC_DELTA
-pe
+pe2
 delta
 )
 ;
@@ -7160,7 +7164,7 @@ GET_SLOT_VALUE
 (
 excWord
 UCASE_EXC_DELTA
-pe
+pe2
 delta
 )
 ;
