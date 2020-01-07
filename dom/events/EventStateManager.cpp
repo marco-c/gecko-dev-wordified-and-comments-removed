@@ -18300,8 +18300,10 @@ GetParentDocument
 {
 if
 (
+nsCOMPtr
+<
 nsIContent
-*
+>
 docContent
 =
 parentDoc
@@ -18327,8 +18329,10 @@ GetShell
 )
 )
 {
+RefPtr
+<
 EventStateManager
-*
+>
 parentESM
 =
 parentShell
