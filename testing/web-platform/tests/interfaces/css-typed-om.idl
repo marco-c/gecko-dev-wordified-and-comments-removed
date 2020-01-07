@@ -196,15 +196,6 @@ DOMString
 values
 )
 ;
-void
-update
-(
-DOMString
-property
-UpdateFunction
-updateFunction
-)
-;
 }
 ;
 [
