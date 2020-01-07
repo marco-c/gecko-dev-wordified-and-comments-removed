@@ -274,7 +274,7 @@ InsecureCertificateError
 InvalidArgumentError
 InvalidCookieDomainError
 InvalidSelectorError
-NoAlertOpenError
+NoSuchAlertError
 NoSuchFrameError
 NoSuchWindowError
 SessionNotCreatedError
@@ -11520,7 +11520,7 @@ ui
 {
 throw
 new
-NoAlertOpenError
+NoSuchAlertError
 (
 "
 No

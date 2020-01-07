@@ -70,7 +70,7 @@ JavaScriptError
 MoveTargetOutOfBoundsError
 "
 "
-NoAlertOpenError
+NoSuchAlertError
 "
 "
 NoSuchElementError
@@ -1389,7 +1389,7 @@ bounds
 }
 }
 class
-NoAlertOpenError
+NoSuchAlertError
 extends
 WebDriverError
 {
@@ -1830,10 +1830,10 @@ MoveTargetOutOfBoundsError
 [
 "
 no
+such
 alert
-open
 "
-NoAlertOpenError
+NoSuchAlertError
 ]
 [
 "

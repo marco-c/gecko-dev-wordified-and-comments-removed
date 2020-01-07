@@ -165,7 +165,7 @@ js
 autoclass
 :
 :
-NoAlertOpenError
+NoSuchAlertError
 .
 .
 js
