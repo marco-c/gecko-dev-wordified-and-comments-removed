@@ -575,10 +575,6 @@ BlobImpl
 *
 *
 aBlob
-bool
-aAlsoIfRevoked
-=
-false
 )
 ;
 extern
