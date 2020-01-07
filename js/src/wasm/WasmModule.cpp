@@ -2621,8 +2621,6 @@ UniqueChars
 filename
 unsigned
 line
-unsigned
-column
 )
 {
 PRFileInfo
@@ -2770,12 +2768,6 @@ scriptedCaller
 line
 =
 line
-;
-scriptedCaller
-.
-column
-=
-column
 ;
 MutableCompileArgs
 args

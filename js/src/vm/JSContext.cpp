@@ -1266,6 +1266,9 @@ filename
 (
 )
 ;
+uint32_t
+column
+;
 report
 -
 >
@@ -1276,9 +1279,6 @@ iter
 computeLine
 (
 &
-report
--
->
 column
 )
 ;
@@ -1286,8 +1286,11 @@ report
 -
 >
 column
-+
-+
+=
+FixupColumnForDisplay
+(
+column
+)
 ;
 report
 -

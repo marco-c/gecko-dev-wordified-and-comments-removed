@@ -980,6 +980,13 @@ HandleObject
 stack
 )
 ;
+uint32_t
+FixupColumnForDisplay
+(
+uint32_t
+column
+)
+;
 }
 #
 endif

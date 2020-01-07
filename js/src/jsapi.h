@@ -22413,8 +22413,6 @@ UniqueChars
 filename
 unsigned
 line
-unsigned
-column
 )
 ;
 class

@@ -1413,6 +1413,8 @@ get
 bool
 getFuncName
 (
+NameContext
+ctx
 const
 Bytes
 *
@@ -12998,10 +13000,6 @@ filename
 scriptedCaller
 .
 line
-=
-scriptedCaller
-.
-column
 =
 0
 ;

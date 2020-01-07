@@ -174,6 +174,12 @@ elemSegments
 DataSegmentVector
 dataSegments
 ;
+Maybe
+<
+NameInBytecode
+>
+moduleName
+;
 NameInBytecodeVector
 funcNames
 ;
