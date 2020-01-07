@@ -24983,6 +24983,14 @@ call
 ignoresReturnValue
 (
 )
+&
+&
+target
+-
+>
+hasJitInfo
+(
+)
 )
 {
 const
@@ -24999,9 +25007,6 @@ jitInfo
 ;
 if
 (
-jitInfo
-&
-&
 jitInfo
 -
 >
@@ -25295,7 +25300,7 @@ MOZ_ASSERT
 target
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 )

@@ -4949,7 +4949,7 @@ isNative
 f
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 |

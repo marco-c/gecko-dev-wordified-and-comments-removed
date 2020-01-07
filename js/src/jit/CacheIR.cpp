@@ -1583,7 +1583,7 @@ if
 (
 getter
 .
-jitInfo
+hasJitInfo
 (
 )
 &
@@ -4106,7 +4106,7 @@ if
 callee
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 |
@@ -16204,7 +16204,7 @@ if
 (
 setter
 .
-jitInfo
+hasJitInfo
 (
 )
 &

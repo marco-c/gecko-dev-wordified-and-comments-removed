@@ -11041,7 +11041,7 @@ MOZ_ASSERT
 fun
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 )
@@ -11176,9 +11176,18 @@ native
 fun
 -
 >
+hasJitInfo
+(
+)
+?
+fun
+-
+>
 jitInfo
 (
 )
+:
+nullptr
 )
 ;
 return

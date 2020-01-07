@@ -29474,7 +29474,7 @@ isNative
 func
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 )
@@ -39418,7 +39418,7 @@ isNative
 func
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 )
