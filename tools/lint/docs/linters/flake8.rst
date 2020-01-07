@@ -190,7 +190,7 @@ default
 configuration
 can
 be
-overriden
+overridden
 for
 a
 given

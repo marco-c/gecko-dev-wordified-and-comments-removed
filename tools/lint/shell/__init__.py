@@ -183,6 +183,10 @@ to
 load
 shellcheck
 output
+(
+{
+}
+)
 :
 {
 }
@@ -191,6 +195,7 @@ output
 format
 (
 e
+line
 )
 )
             
