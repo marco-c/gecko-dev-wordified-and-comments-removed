@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h

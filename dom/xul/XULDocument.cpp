@@ -1193,7 +1193,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 XULDocument
 XMLDocument
 nsIXULDocument
-nsIDOMXULDocument
 nsIStreamLoaderObserver
 nsICSSLoaderObserver
 nsIOffThreadScriptReceiver
