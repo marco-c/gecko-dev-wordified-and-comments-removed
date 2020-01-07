@@ -1805,6 +1805,7 @@ resolve
 function
 checkForStyleModification
 (
+name
 mutations
 )
 {

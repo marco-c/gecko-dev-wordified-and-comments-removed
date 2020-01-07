@@ -3486,6 +3486,7 @@ _hideHoveredHighlighter
 async
 onMarkupMutation
 (
+evt
 mutations
 )
 {
