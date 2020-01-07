@@ -6,5 +6,13 @@ window
 .
 polyglot
 =
-123
+"
+html
+-
+js
+-
+polyglot
+.
+js
+"
 ;
