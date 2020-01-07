@@ -713,6 +713,10 @@ encoder
 tables
 "
 ]
+oom_with_global_alloc
+=
+[
+]
 [
 lib
 ]

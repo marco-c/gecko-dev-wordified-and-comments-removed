@@ -157,6 +157,17 @@ encoder
 tables
 "
 ]
+oom_with_global_alloc
+=
+[
+"
+gkrust
+-
+shared
+/
+oom_with_global_alloc
+"
+]
 [
 dependencies
 ]
