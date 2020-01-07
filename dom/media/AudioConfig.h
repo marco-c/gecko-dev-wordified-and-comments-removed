@@ -282,7 +282,10 @@ const
 ChannelLayout
 &
 aOther
+nsTArray
+<
 uint8_t
+>
 *
 aMap
 =
