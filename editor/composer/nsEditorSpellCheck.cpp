@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsITextServicesDocument
-.
-h
-"
-#
-include
-"
 nsITextServicesFilter
 .
 h

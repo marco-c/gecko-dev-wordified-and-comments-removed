@@ -114,16 +114,6 @@ nsISpellChecker
 .
 h
 '
-'
-nsITextService
-.
-h
-'
-'
-nsITextServicesDocument
-.
-h
-'
 ]
 EXPORTS
 .
