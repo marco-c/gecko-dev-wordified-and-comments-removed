@@ -879,16 +879,7 @@ cx
 return
 nullptr
 ;
-UniquePtr
-<
-char
-[
-]
-JS
-:
-:
-FreePolicy
->
+UniqueChars
 utf8
 =
 StringToNewUTF8CharsZ
