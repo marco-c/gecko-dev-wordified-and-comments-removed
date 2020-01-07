@@ -3038,7 +3038,7 @@ MachCommandBase
 :
     
 def
-_ensure_sztd
+_ensure_zstd
 (
 self
 )
@@ -3265,7 +3265,7 @@ tag
         
 self
 .
-_ensure_sztd
+_ensure_zstd
 (
 )
         
