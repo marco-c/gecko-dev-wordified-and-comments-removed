@@ -4662,7 +4662,7 @@ getusermedia
 .
 agc
 "
-1
+3
 )
 ;
 #
@@ -15260,7 +15260,7 @@ auth
 -
 allow
 "
-true
+false
 )
 ;
 pref
