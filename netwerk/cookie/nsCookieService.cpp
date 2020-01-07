@@ -606,7 +606,7 @@ const
 uint32_t
 kMaxCookiesPerHost
 =
-150
+180
 ;
 static
 const
