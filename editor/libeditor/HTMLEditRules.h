@@ -1784,6 +1784,7 @@ Element
 aListElement
 )
 ;
+MOZ_MUST_USE
 nsresult
 CacheInlineStyles
 (
