@@ -462,6 +462,12 @@ layout
 =
 CUBEB_LAYOUT_MONO
 ;
+params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 std
 :
 :

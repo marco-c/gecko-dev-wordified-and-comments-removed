@@ -348,6 +348,12 @@ layout
 =
 CUBEB_LAYOUT_STEREO
 ;
+output_params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 r
 =
 cubeb_get_min_latency

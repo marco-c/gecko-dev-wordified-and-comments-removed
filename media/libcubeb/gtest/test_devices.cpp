@@ -1090,6 +1090,16 @@ layout
 =
 CUBEB_LAYOUT_MONO
 ;
+input_params
+.
+prefs
+=
+output_params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 r
 =
 cubeb_stream_init
