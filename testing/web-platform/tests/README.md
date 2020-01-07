@@ -461,7 +461,7 @@ you
 will
 need
 to
-preceed
+precede
 the
 prior
 command
@@ -632,7 +632,7 @@ You
 will
 need
 to
-preceed
+precede
 the
 prior
 command
@@ -920,7 +920,7 @@ You
 will
 need
 to
-preceed
+precede
 the
 prior
 command
@@ -1391,7 +1391,7 @@ commit
 39d07eb01fab607ab1ffd092051cded1bdd64d78
 submodules
 were
-requried
+required
 for
 basic
 functionality
@@ -1447,6 +1447,9 @@ checkout
 :
 [
 ]
+.
+.
+.
 followed
 by
 a
@@ -1598,6 +1601,9 @@ path
 '
 tools
 '
+.
+.
+.
 then
 remove
 the
@@ -1806,7 +1812,9 @@ Certificates
 =
 By
 default
-pregenerated
+pre
+-
+generated
 certificates
 for
 the
