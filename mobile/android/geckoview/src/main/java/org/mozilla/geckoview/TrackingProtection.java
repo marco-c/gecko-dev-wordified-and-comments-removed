@@ -3,7 +3,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 ;
 import
 android
@@ -18,6 +18,15 @@ org
 mozilla
 .
 gecko
+.
+PrefsHelper
+;
+import
+org
+.
+mozilla
+.
+geckoview
 .
 GeckoSession
 .

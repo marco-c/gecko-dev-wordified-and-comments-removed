@@ -242,6 +242,15 @@ webapps
 WebAppManifest
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+GeckoView
+;
+import
 android
 .
 accounts

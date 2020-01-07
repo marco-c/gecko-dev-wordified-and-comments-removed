@@ -104,6 +104,15 @@ ThreadUtils
 AssertBehavior
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+TextInputController
+;
+import
 android
 .
 graphics
@@ -238,6 +247,7 @@ view
 .
 KeyEvent
 ;
+public
 final
 class
 GeckoEditable
@@ -2842,6 +2852,7 @@ true
 ;
 }
 }
+public
 GeckoEditable
 (
 )
@@ -2921,6 +2932,7 @@ getUiHandler
 )
 ;
 }
+public
 void
 setDefaultEditableChild
 (
@@ -2958,6 +2970,7 @@ mDefaultChild
 child
 ;
 }
+public
 void
 setListener
 (

@@ -39,6 +39,15 @@ util
 ThreadUtils
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+TextInputController
+;
+import
 android
 .
 graphics
@@ -73,6 +82,7 @@ view
 .
 KeyEvent
 ;
+public
 final
 class
 GeckoEditableChild
@@ -308,6 +318,7 @@ calledFrom
 gecko
 "
 )
+public
 GeckoEditableChild
 (
 final

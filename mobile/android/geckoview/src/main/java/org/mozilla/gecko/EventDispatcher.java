@@ -358,6 +358,7 @@ getNativeQueue
 )
 ;
 }
+public
 EventDispatcher
 (
 final
