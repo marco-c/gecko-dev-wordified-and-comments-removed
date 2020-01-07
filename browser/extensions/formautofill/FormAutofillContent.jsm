@@ -599,9 +599,7 @@ filledRecordGUID
 =
 activeSection
 .
-getFilledRecordGUID
-(
-)
+filledRecordGUID
 ;
 let
 searchPermitted
