@@ -106,9 +106,6 @@ shipping
 "
 }
 }
-selectedPayerAddress
-:
-null
 selectedPaymentCard
 :
 null

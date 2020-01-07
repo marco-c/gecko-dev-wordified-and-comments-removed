@@ -7,14 +7,3 @@ size
 1em
 ;
 }
-fieldset
->
-label
-{
-white
--
-space
-:
-nowrap
-;
-}
