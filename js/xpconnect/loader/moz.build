@@ -169,6 +169,11 @@ mozilla
 =
 [
 '
+AutoMemMap
+.
+h
+'
+'
 ScriptPreloader
 .
 h

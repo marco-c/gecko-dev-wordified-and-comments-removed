@@ -138,6 +138,11 @@ IdType
 h
 '
 '
+SharedStringMap
+.
+h
+'
+'
 StructuredCloneData
 .
 h
@@ -375,6 +380,11 @@ cpp
 '
 '
 ProcessPriorityManager
+.
+cpp
+'
+'
+SharedStringMap
 .
 cpp
 '
