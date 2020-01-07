@@ -233,7 +233,7 @@ aPresShell
 nsPresContext
 *
 aPresContext
-nsIDOMRange
+nsRange
 *
 aRange
 bool
@@ -373,9 +373,9 @@ nsIDOMRange
 >
 mStartFindRange
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMRange
+nsRange
 >
 mSearchRange
 ;
