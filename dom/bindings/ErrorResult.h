@@ -57,6 +57,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -1840,6 +1849,7 @@ JustSuppressCleanupPolicy
 }
 ;
 class
+MOZ_TEMPORARY_CLASS
 IgnoreErrors
 {
 public
