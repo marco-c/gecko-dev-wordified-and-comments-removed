@@ -3327,6 +3327,9 @@ auth
 case
 ssl_auth_rsa_sign
 :
+case
+ssl_auth_rsa_pss
+:
 EXPECT_EQ
 (
 ssl_auth_rsa_decrypt

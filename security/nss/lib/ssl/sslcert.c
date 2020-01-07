@@ -1938,14 +1938,6 @@ authTypes
 <
 ssl_auth_rsa_sign
 ;
-authTypes
-|
-=
-1
-<
-<
-ssl_auth_rsa_pss
-;
 }
 if
 (
