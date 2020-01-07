@@ -978,7 +978,7 @@ Shmem
 :
 Shmem
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -1226,7 +1226,7 @@ Shmem
 :
 RevokeRights
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 )
 {
 AssertInvariants
@@ -1317,7 +1317,7 @@ Shmem
 :
 Alloc
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 size_t
 aNBytes
 SharedMemoryType
@@ -1508,7 +1508,7 @@ Shmem
 :
 OpenExisting
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 const
 IPC
 :
@@ -1691,7 +1691,7 @@ Shmem
 :
 Dealloc
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -1802,7 +1802,7 @@ Shmem
 :
 Alloc
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 size_t
 aNBytes
 SharedMemoryType
@@ -1871,7 +1871,7 @@ Shmem
 :
 OpenExisting
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 const
 IPC
 :
@@ -1952,7 +1952,7 @@ Shmem
 :
 Dealloc
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -1976,7 +1976,7 @@ Shmem
 :
 ShareTo
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 base
 :
 :
@@ -2049,7 +2049,7 @@ Shmem
 :
 UnshareFrom
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 int32_t
 routingId
 )
@@ -2106,7 +2106,7 @@ RevokeRights
 Shmem
 :
 :
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 (
 )
 )
@@ -2118,7 +2118,7 @@ forget
 Shmem
 :
 :
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 (
 )
 )
@@ -2202,7 +2202,7 @@ Shmem
 Shmem
 :
 :
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 (
 )
 rawmem

@@ -145,7 +145,7 @@ SharedMemoryType
 SharedMemoryType
 ;
 struct
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 {
 }
 ;
@@ -214,7 +214,7 @@ DEBUG
 )
 Shmem
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -263,7 +263,7 @@ mSegment
 else
 Shmem
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 SharedMemory
 *
 aSegment
@@ -280,7 +280,7 @@ Shmem
 {
 forget
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 (
 )
 )
@@ -441,7 +441,7 @@ T
 id_t
 Id
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 )
 const
 {
@@ -453,7 +453,7 @@ SharedMemory
 *
 Segment
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 )
 const
 {
@@ -467,7 +467,7 @@ DEBUG
 void
 RevokeRights
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 )
 {
 }
@@ -476,7 +476,7 @@ else
 void
 RevokeRights
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 )
 ;
 #
@@ -484,7 +484,7 @@ endif
 void
 forget
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 )
 {
 mSegment
@@ -514,7 +514,7 @@ SharedMemory
 >
 Alloc
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 size_t
 aNBytes
 SharedMemoryType
@@ -534,7 +534,7 @@ Message
 *
 ShareTo
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 base
 :
 :
@@ -551,7 +551,7 @@ Message
 *
 UnshareFrom
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 int32_t
 routingId
 )
@@ -563,7 +563,7 @@ SharedMemory
 >
 OpenExisting
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 const
 IPC
 :
@@ -584,7 +584,7 @@ static
 void
 Dealloc
 (
-IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
+PrivateIPDLCaller
 SharedMemory
 *
 aSegment
