@@ -589,6 +589,17 @@ GetShippingType
 )
 const
 ;
+inline
+void
+ShippingWasRequested
+(
+)
+{
+mRequestShipping
+=
+true
+;
+}
 IMPL_EVENT_HANDLER
 (
 shippingaddresschange
@@ -679,6 +690,9 @@ mShippingType
 ;
 bool
 mUpdating
+;
+bool
+mRequestShipping
 ;
 nsresult
 mUpdateError
