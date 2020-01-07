@@ -14566,6 +14566,16 @@ tabbrowser
 hideTab
 (
 tab
+tabData
+.
+extData
+&
+&
+tabData
+.
+extData
+.
+hiddenBy
 )
 ;
 }
