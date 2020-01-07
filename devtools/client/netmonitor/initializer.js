@@ -73,8 +73,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -633,7 +631,6 @@ options
 }
 onRequestAdded
 (
-event
 requestId
 )
 {

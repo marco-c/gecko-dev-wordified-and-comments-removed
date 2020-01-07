@@ -1287,7 +1287,6 @@ markers
 function
 handleTimelineEvent
 (
-_
 marker
 )
 {
@@ -1413,7 +1412,6 @@ Map
 function
 onRequest
 (
-_
 id
 )
 {
@@ -1466,7 +1464,6 @@ false
 function
 onTimings
 (
-_
 id
 )
 {
@@ -1752,10 +1749,7 @@ panelWin
 on
 (
 type
-(
-event
 actor
-)
 =
 >
 {
@@ -1774,7 +1768,7 @@ updatingTypes
 .
 indexOf
 (
-event
+type
 )
 ]
 ;
@@ -1815,10 +1809,7 @@ panelWin
 on
 (
 type
-(
-event
 actor
-)
 =
 >
 {
@@ -1831,7 +1822,7 @@ actor
 -
 "
 +
-event
+type
 ;
 finishedQueue
 [
@@ -2463,7 +2454,6 @@ payloadReady
 function
 onNetworkEvent
 (
-event
 actor
 )
 {
@@ -2490,7 +2480,9 @@ networkEvent
 ;
 maybeResolve
 (
-event
+EVENTS
+.
+NETWORK_EVENT
 actor
 networkInfo
 )
@@ -2499,7 +2491,6 @@ networkInfo
 function
 onPayloadReady
 (
-event
 actor
 )
 {
@@ -2526,7 +2517,9 @@ payloadReady
 ;
 maybeResolve
 (
-event
+EVENTS
+.
+PAYLOAD_READY
 actor
 networkInfo
 )
