@@ -10906,15 +10906,9 @@ eTEXT
 {
 pointToInsert
 .
-Set
+SetToEndOf
 (
 child
-child
--
->
-Length
-(
-)
 )
 ;
 }
