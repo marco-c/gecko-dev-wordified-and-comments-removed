@@ -285,11 +285,6 @@ stlfile
 in
 [
 '
-jsdate
-.
-*
-'
-'
 jsnum
 .
 *
@@ -1156,6 +1151,13 @@ cpp
 builtin
 /
 DataViewObject
+.
+cpp
+'
+'
+builtin
+/
+Date
 .
 cpp
 '
@@ -2156,11 +2158,6 @@ cpp
 '
 '
 jsapi
-.
-cpp
-'
-'
-jsdate
 .
 cpp
 '
