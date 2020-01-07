@@ -173,7 +173,7 @@ uniq
 =
 ss
 .
-getCustomTabValue
+getTabValue
 (
 aEvent
 .
@@ -194,7 +194,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 aEvent
 .
@@ -270,7 +270,7 @@ aEvent
 {
 ss
 .
-setCustomTabValue
+setTabValue
 (
 aEvent
 .
@@ -337,7 +337,7 @@ actualUniq
 =
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab
 "
@@ -419,7 +419,7 @@ r
 ;
 ss
 .
-setCustomTabValue
+setTabValue
 (
 tab
 "
@@ -435,7 +435,7 @@ try
 {
 ss
 .
-deleteCustomTabValue
+deleteTabValue
 (
 tab
 "
@@ -456,7 +456,7 @@ false
 no
 error
 calling
-deleteCustomTabValue
+deleteTabValue
 -
 "
 +
@@ -515,7 +515,7 @@ uniq
 =
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab
 "
@@ -534,7 +534,7 @@ is
 (
 ss
 .
-getCustomTabValue
+getTabValue
 (
 tab
 "

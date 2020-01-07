@@ -15450,7 +15450,7 @@ event
 ;
 SessionStore
 .
-deleteCustomTabValue
+deleteTabValue
 (
 aTab
 "
@@ -15569,7 +15569,7 @@ aSource
 {
 SessionStore
 .
-setCustomTabValue
+setTabValue
 (
 aTab
 "

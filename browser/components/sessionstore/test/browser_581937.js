@@ -75,7 +75,7 @@ random
 ;
 ss
 .
-setCustomTabValue
+setTabValue
 (
 tab
 "

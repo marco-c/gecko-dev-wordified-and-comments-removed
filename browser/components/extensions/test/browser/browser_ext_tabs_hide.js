@@ -922,7 +922,7 @@ id
 =
 SessionStore
 .
-getCustomTabValue
+getTabValue
 (
 tabs
 [
@@ -1066,7 +1066,7 @@ id
 =
 SessionStore
 .
-getCustomTabValue
+getTabValue
 (
 tabs
 [
