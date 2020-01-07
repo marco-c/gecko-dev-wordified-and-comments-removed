@@ -39,16 +39,6 @@ config
 {
     
 "
-buildbot_json_path
-"
-:
-"
-buildprops
-.
-json
-"
-    
-"
 virtualenv_modules
 "
 :
@@ -2067,12 +2057,6 @@ s
 /
 minidumps
 "
-    
-"
-buildbot_max_log_size
-"
-:
-52428800
     
 "
 default_blob_upload_servers

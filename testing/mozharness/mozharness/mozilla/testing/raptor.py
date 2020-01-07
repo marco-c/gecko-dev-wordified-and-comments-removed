@@ -584,14 +584,6 @@ clobber
 '
                                           
 '
-read
--
-buildbot
--
-config
-'
-                                          
-'
 download
 -
 and
