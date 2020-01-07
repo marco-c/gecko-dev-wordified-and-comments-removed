@@ -369,10 +369,6 @@ apiRedirectTo
 OptionalCorsPreflightArgs
 corsPreflightArgs
 bool
-forceHSTSPriming
-bool
-mixedContentWouldBlock
-bool
 chooseAppcache
 )
 ;

@@ -4052,8 +4052,6 @@ URIParams
 aURI
 bool
 aActive
-bool
-aHasHSTSPriming
 OriginAttributes
 aOriginAttributes
 )

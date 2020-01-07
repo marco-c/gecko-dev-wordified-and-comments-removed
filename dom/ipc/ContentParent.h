@@ -3247,10 +3247,6 @@ bool
 &
 aActive
 const
-bool
-&
-aHSTSPriming
-const
 OriginAttributes
 &
 aOriginAttributes

@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsIHstsPrimingCallback
-.
-h
-"
-#
-include
-"
 nsIRaceCacheWithNetwork
 .
 h
@@ -324,8 +317,6 @@ nsICorsPreflightCallback
 public
 nsIChannelWithDivertableParentListener
 public
-nsIHstsPrimingCallback
-public
 nsIRaceCacheWithNetwork
 public
 nsIRequestTailUnblockCallback
@@ -348,7 +339,6 @@ NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
-NS_DECL_NSIHSTSPRIMINGCALLBACK
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_DECL_NSIDNSLISTENER
 NS_DECL_NSICHANNELWITHDIVERTABLEPARENTLISTENER
@@ -893,12 +883,6 @@ noAppCache
 MOZ_MUST_USE
 nsresult
 ContinueConnect
-(
-)
-;
-MOZ_MUST_USE
-nsresult
-TryHSTSPriming
 (
 )
 ;

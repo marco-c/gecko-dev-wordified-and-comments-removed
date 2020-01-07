@@ -116,11 +116,6 @@ nsIBackgroundChannelRegistrar
 idl
 '
 '
-nsIHstsPrimingCallback
-.
-idl
-'
-'
 nsIHttpActivityObserver
 .
 idl
@@ -349,11 +344,6 @@ cpp
 '
 '
 ConnectionDiagnostics
-.
-cpp
-'
-'
-HSTSPrimerListener
 .
 cpp
 '

@@ -173,12 +173,6 @@ nsISiteSecurityService
 :
 :
 SOURCE_ORGANIC_REQUEST
-SourceHSTSPriming
-=
-nsISiteSecurityService
-:
-:
-SOURCE_HSTS_PRIMING
 }
 ;
 class
