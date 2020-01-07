@@ -5807,6 +5807,12 @@ sdparta_0
 ]
 )
 ;
+await
+negotiationNeeded
+(
+pc1
+)
+;
 trickle
 (
 pc2
@@ -5819,12 +5825,6 @@ pc2
 setLocalDescription
 (
 answer
-)
-;
-await
-negotiationNeeded
-(
-pc1
 )
 ;
 await
