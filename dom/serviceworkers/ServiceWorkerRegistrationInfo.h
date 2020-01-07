@@ -365,6 +365,17 @@ aID
 )
 const
 ;
+ServiceWorkerInfo
+*
+GetByDescriptor
+(
+const
+ServiceWorkerDescriptor
+&
+aDescriptor
+)
+const
+;
 void
 SetEvaluating
 (

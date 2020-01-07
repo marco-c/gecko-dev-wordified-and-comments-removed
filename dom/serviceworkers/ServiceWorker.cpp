@@ -258,13 +258,9 @@ info
 reg
 -
 >
-GetByID
+GetByDescriptor
 (
 aDescriptor
-.
-Id
-(
-)
 )
 ;
 if

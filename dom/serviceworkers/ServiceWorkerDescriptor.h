@@ -215,6 +215,16 @@ ServiceWorkerState
 aState
 )
 ;
+bool
+Matches
+(
+const
+ServiceWorkerDescriptor
+&
+aDescriptor
+)
+const
+;
 const
 IPCServiceWorkerDescriptor
 &
