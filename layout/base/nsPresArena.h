@@ -314,9 +314,6 @@ aWindowSizes
 )
 const
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 void
 Check
 (
@@ -329,8 +326,6 @@ Check
 )
 ;
 }
-#
-endif
 private
 :
 void
