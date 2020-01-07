@@ -2216,15 +2216,6 @@ float
 >
 mPacketizerInput
 ;
-ScopedCustomReleasePtr
-<
-webrtc
-:
-:
-VoEExternalMedia
->
-mVoERenderListener
-;
 Monitor
 mMonitor
 ;
