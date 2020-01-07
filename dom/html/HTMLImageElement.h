@@ -1250,8 +1250,6 @@ SelectedSourceMatchesLast
 nsIURI
 *
 aSelectedSource
-double
-aSelectedDensity
 )
 ;
 nsresult
