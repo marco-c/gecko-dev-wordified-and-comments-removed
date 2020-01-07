@@ -633,7 +633,9 @@ temporarilyInstalled
 true
 shouldHaveExperiments
 :
-true
+AppConstants
+.
+MOZ_ALLOW_LEGACY_EXTENSIONS
 }
 {
 isPrivileged
