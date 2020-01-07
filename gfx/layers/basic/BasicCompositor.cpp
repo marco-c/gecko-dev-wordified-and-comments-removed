@@ -2853,6 +2853,9 @@ DataSourceSurface
 READ
 )
 ;
+bool
+success
+=
 ssse3_scale_data
 (
 (
@@ -2952,7 +2955,7 @@ dstData
 )
 ;
 return
-true
+success
 ;
 }
 else

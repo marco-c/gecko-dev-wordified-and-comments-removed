@@ -5,6 +5,13 @@ MOZILLA_GFX_2D_SSSE3_SCALER_H_
 define
 MOZILLA_GFX_2D_SSSE3_SCALER_H_
 #
+include
+<
+stdbool
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
@@ -14,7 +21,7 @@ C
 {
 #
 endif
-void
+bool
 ssse3_scale_data
 (
 uint32_t
