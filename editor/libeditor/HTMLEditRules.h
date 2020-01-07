@@ -2036,6 +2036,7 @@ SIZE_STYLE_TABLE
 ]
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetInlineStyles
 (
