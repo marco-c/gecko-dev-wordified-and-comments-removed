@@ -8696,6 +8696,11 @@ pc
 )
 )
 ;
+MOZ_ASSERT
+(
+prop
+)
+;
 return
 (
 hasDelete
@@ -10571,10 +10576,7 @@ script
 >
 getAtom
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 }
