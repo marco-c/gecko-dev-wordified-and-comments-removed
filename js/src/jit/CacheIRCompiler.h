@@ -133,6 +133,11 @@ GuardIndexIsNonNegative
 \
 _
 (
+GuardTagNotEqual
+)
+\
+_
+(
 LoadProto
 )
 \
