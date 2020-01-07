@@ -2247,7 +2247,7 @@ COUNT
 MOZ_GTEST_BENCH
 (
 TestStandardURL
-Perf
+DISABLED_Perf
 [
 ]
 {
@@ -2506,7 +2506,7 @@ out
 MOZ_GTEST_BENCH
 (
 TestStandardURL
-NormalizePerf
+DISABLED_NormalizePerf
 [
 ]
 {
@@ -2659,7 +2659,7 @@ XP_MACOSX
 MOZ_GTEST_BENCH
 (
 TestStandardURL
-NormalizePerfFails
+DISABLED_NormalizePerfFails
 [
 ]
 {
