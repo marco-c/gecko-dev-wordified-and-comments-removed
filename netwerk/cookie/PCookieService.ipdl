@@ -443,6 +443,10 @@ URIParams
 host
 bool
 isForeign
+bool
+isSafeTopLevelNav
+bool
+isTopLevelForeign
 OriginAttributes
 attrs
 )
@@ -686,6 +690,10 @@ URIParams
 host
 bool
 isForeign
+bool
+isSafeTopLevelNav
+bool
+isTopLevelForeign
 OriginAttributes
 attrs
 )
