@@ -75,7 +75,7 @@ specified
 url
 :
 :
-SpecifiedUrl
+SpecifiedImageUrl
 ;
 #
 [
@@ -178,7 +178,7 @@ CursorImage
 pub
 url
 :
-SpecifiedUrl
+SpecifiedImageUrl
 pub
 hotspot
 :

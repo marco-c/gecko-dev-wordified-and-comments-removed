@@ -101,13 +101,7 @@ use
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 #
 [
@@ -411,7 +405,7 @@ UrlMatchingFunction
 {
 Url
 (
-SpecifiedUrl
+CssUrl
 )
 #
 [
@@ -777,7 +771,7 @@ try
 |
 input
 |
-SpecifiedUrl
+CssUrl
 :
 :
 parse

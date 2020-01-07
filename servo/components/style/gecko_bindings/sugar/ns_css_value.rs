@@ -1202,7 +1202,9 @@ Gecko_CSSValue_SetURL
 self
 url
 .
-for_ffi
+url_value
+.
+get
 (
 )
 )

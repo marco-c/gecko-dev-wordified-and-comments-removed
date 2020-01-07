@@ -129,13 +129,7 @@ style
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 pub
 struct
@@ -208,7 +202,7 @@ request_stylesheet
 self
 url
 :
-SpecifiedUrl
+CssUrl
 source_location
 :
 SourceLocation

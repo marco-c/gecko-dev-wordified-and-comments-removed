@@ -151,7 +151,7 @@ specified
 url
 :
 :
-SpecifiedUrl
+SpecifiedImageUrl
 ;
 pub
 type
@@ -695,6 +695,6 @@ gecko
 ]
 Url
 (
-SpecifiedUrl
+SpecifiedImageUrl
 )
 }

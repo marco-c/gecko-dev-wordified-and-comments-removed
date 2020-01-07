@@ -151,7 +151,7 @@ specified
 url
 :
 :
-SpecifiedUrl
+SpecifiedImageUrl
 ;
 pub
 use
@@ -510,7 +510,6 @@ if
 let
 Ok
 (
-mut
 url
 )
 =
@@ -521,7 +520,7 @@ try
 |
 i
 |
-SpecifiedUrl
+SpecifiedImageUrl
 :
 :
 parse
@@ -531,12 +530,6 @@ i
 )
 )
 {
-url
-.
-build_image_value
-(
-)
-;
 content
 .
 push

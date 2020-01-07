@@ -496,14 +496,6 @@ animation_value_type
 "
 discrete
 "
-boxed
-=
-product
-=
-=
-"
-gecko
-"
 spec
 =
 "

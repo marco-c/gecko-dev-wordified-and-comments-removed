@@ -62,13 +62,7 @@ use
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 #
 [
@@ -403,7 +397,7 @@ ImportRule
 pub
 url
 :
-SpecifiedUrl
+CssUrl
 pub
 stylesheet
 :
