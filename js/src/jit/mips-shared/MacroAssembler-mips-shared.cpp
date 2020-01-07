@@ -13046,8 +13046,8 @@ mem
 oldval
 newval
 valueTemp
+offsetTemp
 maskTemp
-temp
 output
 .
 gpr
