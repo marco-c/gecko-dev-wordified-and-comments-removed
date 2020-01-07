@@ -6051,6 +6051,11 @@ syncInvalidate
 =
 true
 ;
+SetCursor
+(
+eCursor_standard
+)
+;
 switch
 (
 mSizeMode

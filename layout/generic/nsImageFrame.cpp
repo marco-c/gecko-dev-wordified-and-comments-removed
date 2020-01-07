@@ -7299,17 +7299,6 @@ nsDisplayItem
 ForceActiveLayers
 (
 )
-&
-&
-!
-ShouldUseAdvancedLayer
-(
-aManager
-gfxPrefs
-:
-:
-LayersAllowImageLayers
-)
 )
 {
 bool
