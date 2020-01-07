@@ -4984,6 +4984,9 @@ Mac
 Win
 :
 0x00000401
+hasAltGrOnWin
+:
+false
 }
 ;
 const
@@ -5003,6 +5006,9 @@ Mac
 Win
 :
 null
+hasAltGrOnWin
+:
+false
 }
 ;
 const
@@ -5021,6 +5027,9 @@ null
 Win
 :
 0x00000416
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5040,6 +5049,9 @@ Mac
 Win
 :
 null
+hasAltGrOnWin
+:
+false
 }
 ;
 const
@@ -5057,6 +5069,9 @@ Mac
 Win
 :
 0x00000409
+hasAltGrOnWin
+:
+false
 }
 ;
 const
@@ -5074,6 +5089,9 @@ Mac
 Win
 :
 0x0000040C
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5091,6 +5109,9 @@ Mac
 Win
 :
 0x00000408
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5108,6 +5129,9 @@ Mac
 Win
 :
 0x00000407
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5125,6 +5149,9 @@ Mac
 Win
 :
 0x0000040D
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5142,6 +5169,9 @@ null
 Win
 :
 0x00000411
+hasAltGrOnWin
+:
+false
 }
 ;
 const
@@ -5159,6 +5189,9 @@ null
 Win
 :
 0x00000453
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5176,6 +5209,9 @@ Mac
 Win
 :
 0x00010427
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5193,6 +5229,9 @@ Mac
 Win
 :
 0x00000414
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5212,6 +5251,9 @@ null
 Win
 :
 0x00020419
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5229,6 +5271,9 @@ Mac
 Win
 :
 0x0000040A
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5246,6 +5291,9 @@ Mac
 Win
 :
 0x0000041D
+hasAltGrOnWin
+:
+true
 }
 ;
 const
@@ -5263,6 +5311,9 @@ Mac
 Win
 :
 0x0002041E
+hasAltGrOnWin
+:
+false
 }
 ;
 function
