@@ -551,6 +551,12 @@ ctx
 }
 }
 else
+if
+(
+resolvedLength
+<
+resourcesLength
+)
 {
 yield
 *
