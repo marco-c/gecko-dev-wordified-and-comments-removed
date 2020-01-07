@@ -2528,7 +2528,7 @@ AnyCharsAccess
 >
 :
 :
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 {
@@ -2864,7 +2864,7 @@ i
 int32_t
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -4789,7 +4789,7 @@ codePoint
 int32_t
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -4823,7 +4823,7 @@ length
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -4988,7 +4988,7 @@ codePoint
 int32_t
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -5013,7 +5013,7 @@ leadingZeros
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -5070,7 +5070,7 @@ c
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -6195,7 +6195,7 @@ surrogate
 int32_t
 maybeTrail
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -6322,7 +6322,7 @@ for
 int32_t
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -6486,7 +6486,7 @@ true
 {
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -7116,7 +7116,7 @@ do
 {
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -7208,7 +7208,7 @@ c
 )
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -7297,7 +7297,7 @@ do
 {
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -7331,7 +7331,7 @@ E
 {
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -7354,7 +7354,7 @@ c
 )
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -7385,7 +7385,7 @@ do
 {
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8160,7 +8160,7 @@ numStart
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8188,7 +8188,7 @@ radix
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8236,7 +8236,7 @@ c
 )
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8266,7 +8266,7 @@ radix
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8333,7 +8333,7 @@ c
 )
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8363,7 +8363,7 @@ radix
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8428,7 +8428,7 @@ c
 )
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8521,7 +8521,7 @@ ttp
 }
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8755,7 +8755,7 @@ case
 :
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -9456,7 +9456,7 @@ matchChar
 {
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -9851,7 +9851,7 @@ flag
 ;
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -10344,7 +10344,7 @@ while
 (
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 )
@@ -10559,7 +10559,7 @@ u
 int32_t
 c2
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -10604,7 +10604,7 @@ do
 int32_t
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;

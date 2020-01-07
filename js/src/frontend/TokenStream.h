@@ -3842,7 +3842,7 @@ badToken
 )
 ;
 int32_t
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -4005,7 +4005,7 @@ using
 GeneralCharsBase
 :
 :
-getCharIgnoreEOL
+getCodeUnit
 ;
 using
 GeneralCharsBase
@@ -4226,7 +4226,7 @@ using
 GeneralCharsBase
 :
 :
-getCharIgnoreEOL
+getCodeUnit
 ;
 using
 CharsBase
@@ -5971,7 +5971,7 @@ c
 =
 #
 endif
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -6048,7 +6048,7 @@ int32_t
 >
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
