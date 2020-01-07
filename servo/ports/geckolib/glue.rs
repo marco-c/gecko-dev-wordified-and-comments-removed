@@ -21253,6 +21253,11 @@ remove_property
 (
 &
 property_id
+|
+_
+|
+{
+}
 )
 }
 )
