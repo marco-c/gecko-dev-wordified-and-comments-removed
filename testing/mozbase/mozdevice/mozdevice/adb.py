@@ -289,6 +289,58 @@ used
     
 pass
 class
+ADBProcessError
+(
+ADBError
+)
+:
+    
+"
+"
+"
+ADBProcessError
+is
+raised
+when
+an
+associated
+ADBProcess
+is
+    
+available
+and
+relevant
+.
+    
+"
+"
+"
+    
+def
+__init__
+(
+self
+adb_process
+)
+:
+        
+ADBError
+.
+__init__
+(
+self
+str
+(
+adb_process
+)
+)
+        
+self
+.
+adb_process
+=
+adb_process
+class
 ADBListDevicesError
 (
 ADBError
@@ -1759,13 +1811,8 @@ exitcode
 :
                 
 raise
-ADBError
+ADBProcessError
 (
-"
-%
-s
-"
-%
 adb_process
 )
             
@@ -8197,13 +8244,8 @@ exitcode
 :
                 
 raise
-ADBError
+ADBProcessError
 (
-"
-%
-s
-"
-%
 adb_process
 )
             
@@ -14144,13 +14186,8 @@ exitcode
 :
                 
 raise
-ADBError
+ADBProcessError
 (
-"
-%
-s
-"
-%
 adb_process
 )
             

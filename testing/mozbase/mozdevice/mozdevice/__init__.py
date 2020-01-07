@@ -7,6 +7,7 @@ from
 adb
 import
 ADBError
+ADBProcessError
 ADBRootError
 ADBTimeoutError
 from
@@ -50,11 +51,15 @@ __all__
 ADBError
 '
 '
+ADBProcessError
+'
+'
 ADBRootError
 '
 '
 ADBTimeoutError
 '
+           
 '
 ADBProcess
 '
@@ -64,7 +69,6 @@ ADBCommand
 '
 ADBHost
 '
-           
 '
 ADBDevice
 '
@@ -74,13 +78,13 @@ ADBAndroid
 '
 ADBB2G
 '
+           
 '
 DeviceManager
 '
 '
 DMError
 '
-           
 '
 DeviceManagerADB
 '
