@@ -126,7 +126,7 @@ DISPLAY_MODE_FULLSCREEN
 =
 3
 ;
-private
+public
 static
 class
 Key
@@ -134,17 +134,14 @@ Key
 T
 >
 {
-public
 final
 String
 name
 ;
-public
 final
 boolean
 initOnly
 ;
-public
 final
 Collection
 <
@@ -152,7 +149,6 @@ T
 >
 values
 ;
-public
 Key
 (
 final
@@ -168,7 +164,6 @@ null
 )
 ;
 }
-public
 Key
 (
 final
