@@ -80,6 +80,12 @@ if
 (
 Android
 )
+fails
+-
+if
+(
+winWidget
+)
 =
 =
 menulist
