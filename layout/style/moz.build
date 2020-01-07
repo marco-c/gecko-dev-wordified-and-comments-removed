@@ -604,11 +604,6 @@ ServoStyleSetInlines
 h
 '
 '
-ServoStyleSheet
-.
-h
-'
-'
 ServoSupportsRule
 .
 h
@@ -1173,11 +1168,6 @@ cpp
 '
 '
 ServoStyleSet
-.
-cpp
-'
-'
-ServoStyleSheet
 .
 cpp
 '
