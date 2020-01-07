@@ -7712,7 +7712,6 @@ output
 DEFINED_ON
 (
 arm
-mips_shared
 )
 ;
 void
@@ -7737,8 +7736,6 @@ output
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7763,7 +7760,6 @@ ptrScratch
 DEFINED_ON
 (
 arm
-mips_shared
 )
 ;
 void
@@ -7788,8 +7784,6 @@ ptrScratch
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7816,8 +7810,6 @@ tmp
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7848,8 +7840,6 @@ tmp3
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7876,8 +7866,6 @@ tmp
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7898,14 +7886,10 @@ Register
 ptr
 Register
 ptrScratch
-Register
-tmp
 )
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7932,8 +7916,6 @@ tmp
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -7960,8 +7942,6 @@ tmp
 DEFINED_ON
 (
 arm
-mips32
-mips64
 )
 ;
 void
@@ -8011,7 +7991,6 @@ DEFINED_ON
 arm
 arm64
 x86_shared
-mips_shared
 )
 ;
 void
@@ -8061,7 +8040,6 @@ DEFINED_ON
 arm
 arm64
 x86_shared
-mips_shared
 )
 ;
 void
@@ -8085,7 +8063,6 @@ DEFINED_ON
 arm64
 x86
 x64
-mips64
 )
 ;
 void
@@ -8109,7 +8086,6 @@ DEFINED_ON
 arm64
 x86
 x64
-mips64
 )
 ;
 void
@@ -8133,7 +8109,6 @@ DEFINED_ON
 arm
 arm64
 x86_shared
-mips_shared
 )
 ;
 void
@@ -8157,7 +8132,6 @@ DEFINED_ON
 arm64
 x86
 x64
-mips64
 )
 ;
 void
@@ -8181,7 +8155,6 @@ DEFINED_ON
 arm64
 x86
 x64
-mips64
 )
 ;
 void
@@ -8205,7 +8178,6 @@ DEFINED_ON
 arm
 arm64
 x86_shared
-mips_shared
 )
 ;
 void
