@@ -1532,6 +1532,7 @@ AuxVector
 auvx
 )
 ;
+explicit
 operator
 bool
 (
@@ -1656,6 +1657,7 @@ friend
 class
 DebuggerHelper
 ;
+explicit
 iterator
 (
 const

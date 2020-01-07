@@ -529,6 +529,7 @@ Mappable1stPagePtr
 {
 public
 :
+explicit
 Mappable1stPagePtr
 (
 Mappable

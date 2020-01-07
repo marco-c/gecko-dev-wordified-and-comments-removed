@@ -220,6 +220,7 @@ MAPPABLE_FILE
 ;
 protected
 :
+explicit
 MappableFile
 (
 int

@@ -238,6 +238,7 @@ le_to_cpu
 )
 {
 }
+explicit
 le_to_cpu
 (
 const
@@ -1085,6 +1086,7 @@ length
 )
 {
 }
+explicit
 GenericMappedPtr
 (
 const
@@ -1263,6 +1265,7 @@ length
 )
 {
 }
+MOZ_IMPLICIT
 MappedPtr
 (
 const
@@ -1346,6 +1349,7 @@ nullptr
 )
 {
 }
+explicit
 UnsizedArray
 (
 const
@@ -1435,6 +1439,7 @@ return
 contents
 ;
 }
+explicit
 operator
 bool
 (
@@ -1696,6 +1701,7 @@ return
 length
 ;
 }
+explicit
 operator
 bool
 (
@@ -1810,6 +1816,7 @@ Array
 T
 >
 ;
+explicit
 iterator
 (
 const
@@ -2001,6 +2008,7 @@ Array
 T
 >
 ;
+explicit
 reverse_iterator
 (
 const
@@ -2140,6 +2148,7 @@ AutoLock
 {
 public
 :
+explicit
 AutoLock
 (
 pthread_mutex_t

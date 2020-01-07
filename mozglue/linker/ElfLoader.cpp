@@ -4357,6 +4357,7 @@ template
 typename
 T
 >
+explicit
 EnsureWritable
 (
 T
