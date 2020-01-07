@@ -203,7 +203,7 @@ PlacesOrganizer
 ;
 PO
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 Tags

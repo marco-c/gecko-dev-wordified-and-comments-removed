@@ -143,7 +143,7 @@ library
 ;
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 Tags

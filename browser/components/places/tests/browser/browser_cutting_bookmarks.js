@@ -256,7 +256,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -338,7 +338,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 aLeftPaneQuery
 )
