@@ -5128,7 +5128,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLInputElement
 nsGenericHTMLFormElementWithState
-nsIDOMHTMLInputElement
 nsITextControlElement
 imgINotificationObserver
 nsIImageLoadingContent

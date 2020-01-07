@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsITextControlElement
 .
 h
@@ -430,8 +423,6 @@ nsGenericHTMLFormElementWithState
 public
 nsImageLoadingContent
 public
-nsIDOMHTMLInputElement
-public
 nsITextControlElement
 public
 nsIDOMNSEditableElement
@@ -594,7 +585,6 @@ aEvent
 )
 override
 ;
-NS_DECL_NSIDOMHTMLINPUTELEMENT
 NS_IMETHOD
 GetEditor
 (
