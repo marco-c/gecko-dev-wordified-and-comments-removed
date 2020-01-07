@@ -734,11 +734,6 @@ SizeOfState
 h
 "
 "
-nsCSSCounterStyleRule
-.
-h
-"
-"
 nsContentUtils
 .
 h
@@ -1911,9 +1906,6 @@ nsChangeHint
 nsCSSCounterDesc
 "
 "
-nsCSSCounterStyleRule
-"
-"
 nsCSSFontDesc
 "
 "
@@ -2750,13 +2742,6 @@ of
 field
 into
 superclass
-"
-nsCSSCounterStyleRule_Getter
-"
-#
-thiscall
-function
-pointer
 ]
 mapped
 -
@@ -3552,9 +3537,6 @@ gfxFontFeatureValueSet
 "
 "
 nsCSSCounterDesc
-"
-"
-nsCSSCounterStyleRule
 "
 "
 nsCSSFontDesc

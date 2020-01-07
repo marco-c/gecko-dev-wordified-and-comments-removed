@@ -260,11 +260,6 @@ nsCSSCounterDescList
 h
 '
 '
-nsCSSCounterStyleRule
-.
-h
-'
-'
 nsCSSFontDescList
 .
 h
@@ -513,6 +508,11 @@ h
 '
 '
 ServoBindingTypes
+.
+h
+'
+'
+ServoCounterStyleRule
 .
 h
 '
@@ -980,11 +980,6 @@ nsComputedDOMStyle
 cpp
 '
 '
-nsCSSCounterStyleRule
-.
-cpp
-'
-'
 nsCSSKeywords
 .
 cpp
@@ -1106,6 +1101,11 @@ cpp
 '
 '
 ServoBindings
+.
+cpp
+'
+'
+ServoCounterStyleRule
 .
 cpp
 '

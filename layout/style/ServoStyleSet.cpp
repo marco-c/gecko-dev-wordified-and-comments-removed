@@ -5882,7 +5882,8 @@ return
 true
 ;
 }
-nsCSSCounterStyleRule
+const
+RawServoCounterStyleRule
 *
 ServoStyleSet
 :

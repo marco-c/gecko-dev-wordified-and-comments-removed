@@ -83,3 +83,8 @@ SERVO_ARC_TYPE
 FontFaceRule
 RawServoFontFaceRule
 )
+SERVO_ARC_TYPE
+(
+CounterStyleRule
+RawServoCounterStyleRule
+)

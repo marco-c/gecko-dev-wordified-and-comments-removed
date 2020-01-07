@@ -187,9 +187,6 @@ class
 gfxFontFeatureValueSet
 ;
 class
-nsCSSCounterStyleRule
-;
-class
 nsIContent
 ;
 class
@@ -978,7 +975,8 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
-nsCSSCounterStyleRule
+const
+RawServoCounterStyleRule
 *
 CounterStyleRuleForName
 (
