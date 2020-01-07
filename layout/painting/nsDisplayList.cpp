@@ -33590,6 +33590,9 @@ sc
 aSc
 aBuilder
 filters
+LayoutDeviceRect
+(
+)
 nullptr
 animationsId
 ?
@@ -33795,6 +33798,9 @@ sc
 aSc
 aBuilder
 filters
+LayoutDeviceRect
+(
+)
 nullptr
 0
 nullptr
@@ -34874,6 +34880,9 @@ wr
 :
 WrFilterOp
 >
+(
+)
+LayoutDeviceRect
 (
 )
 nullptr
@@ -41985,6 +41994,9 @@ sc
 aSc
 aBuilder
 filters
+LayoutDeviceRect
+(
+)
 &
 newTransformMatrix
 animationsId
@@ -44762,6 +44774,9 @@ sc
 aSc
 aBuilder
 filters
+LayoutDeviceRect
+(
+)
 nullptr
 0
 nullptr
@@ -48553,6 +48568,9 @@ sc
 aSc
 aBuilder
 wrFilters
+LayoutDeviceRect
+(
+)
 nullptr
 0
 opacity
