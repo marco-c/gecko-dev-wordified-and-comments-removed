@@ -819,7 +819,6 @@ update
 function
 onUpdate
 (
-e
 what
 )
 {

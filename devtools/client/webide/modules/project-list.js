@@ -74,8 +74,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -303,7 +301,6 @@ appManagerUpdate
 :
 function
 (
-event
 what
 details
 )
@@ -367,7 +364,6 @@ onWebIDEUpdate
 :
 function
 (
-event
 what
 details
 )

@@ -146,7 +146,6 @@ true
 function
 onAppManagerUpdate
 (
-event
 what
 details
 )
