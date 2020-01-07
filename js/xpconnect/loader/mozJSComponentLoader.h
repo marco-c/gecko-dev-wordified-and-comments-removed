@@ -357,7 +357,10 @@ mozJSComponentLoader
 ;
 friend
 class
-XPCJSRuntime
+mozilla
+:
+:
+ScriptPreloader
 ;
 JSObject
 *
