@@ -98,15 +98,3 @@ enabled
 false
 )
 ;
-pref
-(
-"
-dom
-.
-push
-.
-enabled
-"
-false
-)
-;
