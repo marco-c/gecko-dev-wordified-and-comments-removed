@@ -168,10 +168,13 @@ nsDialogParamBlock
 #
 ifdef
 NS_PRINTING
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 nsPrintingPromptService
-Init
+nsPrintingPromptService
+:
+:
+GetSingleton
 )
 #
 ifdef
