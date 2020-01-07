@@ -1927,9 +1927,7 @@ mLoadTriggeredFromExternal
 )
 mServiceWorkerTaintingSynthesized
 (
-rhs
-.
-mServiceWorkerTaintingSynthesized
+false
 )
 {
 }
