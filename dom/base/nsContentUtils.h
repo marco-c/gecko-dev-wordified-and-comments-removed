@@ -5794,6 +5794,14 @@ nsIChannel
 aChannel
 )
 ;
+static
+bool
+IsNonSubresourceInternalPolicyType
+(
+nsContentPolicyType
+aType
+)
+;
 enum
 class
 StorageAccess
