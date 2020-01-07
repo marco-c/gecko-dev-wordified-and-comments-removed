@@ -1095,6 +1095,7 @@ GetNextID
 )
 aPrincipal
 aScope
+aScriptSpec
 ServiceWorkerState
 :
 :

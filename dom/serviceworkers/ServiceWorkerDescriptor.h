@@ -52,6 +52,10 @@ const
 nsACString
 &
 aScope
+const
+nsACString
+&
+aScriptURL
 ServiceWorkerState
 aState
 )
@@ -74,6 +78,10 @@ const
 nsACString
 &
 aScope
+const
+nsACString
+&
+aScriptURL
 ServiceWorkerState
 aState
 )
@@ -166,6 +174,14 @@ const
 nsCString
 &
 Scope
+(
+)
+const
+;
+const
+nsCString
+&
+ScriptURL
 (
 )
 const

@@ -135,6 +135,9 @@ principalInfo
 nsCString
 scope
 ;
+nsCString
+scriptURL
+;
 ServiceWorkerState
 state
 ;
