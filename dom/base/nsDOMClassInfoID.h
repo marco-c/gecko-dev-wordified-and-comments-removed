@@ -14,8 +14,6 @@ h
 enum
 nsDOMClassInfoID
 {
-eDOMClassInfo_DOMPrototype_id
-eDOMClassInfo_DOMConstructor_id
 eDOMClassInfoIDCount
 }
 ;
