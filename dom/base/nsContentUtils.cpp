@@ -29437,15 +29437,6 @@ aAlt
 aShift
 aMeta
 aSourceEvent
-?
-aSourceEvent
--
->
-InternalDOMEvent
-(
-)
-:
-nullptr
 aInputSource
 IgnoreErrors
 (

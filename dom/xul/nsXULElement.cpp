@@ -6430,11 +6430,6 @@ aVisitor
 mDOMEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 AsXULCommandEvent
 (
 )

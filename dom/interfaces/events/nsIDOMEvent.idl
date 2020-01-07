@@ -456,13 +456,5 @@ META_MASK
 =
 0x00000008
 ;
-[
-notxpcom
-]
-DOMEventPtr
-InternalDOMEvent
-(
-)
-;
 }
 ;

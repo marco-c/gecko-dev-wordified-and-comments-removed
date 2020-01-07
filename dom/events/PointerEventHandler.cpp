@@ -3015,11 +3015,6 @@ DispatchEvent
 (
 *
 event
--
->
-InternalDOMEvent
-(
-)
 )
 ;
 return
