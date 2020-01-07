@@ -204,6 +204,8 @@ monitor
 .
 panelWin
 .
+api
+.
 once
 (
 evt
@@ -977,6 +979,8 @@ SIMPLE_SJS
 monitor
 .
 panelWin
+.
+api
 .
 once
 (
