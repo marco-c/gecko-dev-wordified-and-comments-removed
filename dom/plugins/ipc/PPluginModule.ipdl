@@ -109,6 +109,10 @@ include
 protocol
 PProfiler
 ;
+include
+protocol
+PFunctionBroker
+;
 using
 NPError
 from
@@ -590,6 +594,16 @@ InitPluginModuleChild
 Endpoint
 <
 PPluginModuleChild
+>
+endpoint
+)
+;
+async
+InitPluginFunctionBroker
+(
+Endpoint
+<
+PFunctionBrokerChild
 >
 endpoint
 )
