@@ -649,12 +649,10 @@ sIgnoreTypeVals
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 autocomplete_richlistbox
-&
 nsGkAtoms
 :
 :

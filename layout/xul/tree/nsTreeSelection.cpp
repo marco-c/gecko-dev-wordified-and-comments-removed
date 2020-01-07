@@ -1312,17 +1312,14 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 single
-&
 nsGkAtoms
 :
 :
 cell
-&
 nsGkAtoms
 :
 :

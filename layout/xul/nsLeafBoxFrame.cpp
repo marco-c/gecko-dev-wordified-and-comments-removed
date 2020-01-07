@@ -260,12 +260,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 never
-&
 nsGkAtoms
 :
 :

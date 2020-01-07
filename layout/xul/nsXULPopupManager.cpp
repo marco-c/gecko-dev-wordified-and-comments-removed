@@ -6335,12 +6335,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 none
-&
 nsGkAtoms
 :
 :
