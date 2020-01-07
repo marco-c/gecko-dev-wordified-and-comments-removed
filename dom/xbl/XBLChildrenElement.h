@@ -144,6 +144,10 @@ nsIContent
 aChild
 )
 {
+MaybeRemoveDefaultContent
+(
+)
+;
 mInsertedChildren
 .
 AppendElement
@@ -159,10 +163,6 @@ SetXBLInsertionPoint
 this
 )
 ;
-MaybeRemoveDefaultContent
-(
-)
-;
 }
 void
 InsertInsertedChildAt
@@ -174,6 +174,10 @@ uint32_t
 aIndex
 )
 {
+MaybeRemoveDefaultContent
+(
+)
+;
 mInsertedChildren
 .
 InsertElementAt
@@ -188,10 +192,6 @@ aChild
 SetXBLInsertionPoint
 (
 this
-)
-;
-MaybeRemoveDefaultContent
-(
 )
 ;
 }
