@@ -84,6 +84,16 @@ pypy
 "
 )
 )
+ignore_dirs
+=
+[
+"
+serve
+"
+"
+wptserve
+"
+]
 collect_ignore
 =
 [
@@ -100,7 +110,13 @@ version_info
 3
 :
     
-serve
+for
+d
+in
+ignore_dirs
+:
+        
+path
 =
 os
 .
@@ -116,11 +132,9 @@ dirname
 (
 __file__
 )
-"
-serve
-"
+d
 )
-    
+        
 collect_ignore
 .
 extend
@@ -135,7 +149,7 @@ join
 root
 f
 )
-                           
+                               
 for
 root
 _
@@ -145,9 +159,9 @@ os
 .
 walk
 (
-serve
+path
 )
-                           
+                               
 for
 f
 in
