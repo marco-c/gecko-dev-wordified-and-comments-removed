@@ -122,6 +122,11 @@ ForgetAboutSite
 .
 jsm
 '
+'
+ServiceWorkerCleanUp
+.
+jsm
+'
 ]
 with
 Files
