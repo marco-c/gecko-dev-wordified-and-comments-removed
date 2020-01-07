@@ -779,35 +779,11 @@ json
         
 expected_hosts
 =
-(
 set
 (
 config
-[
-"
-domains
-"
-]
 .
-itervalues
-(
-)
-)
-^
-                          
-set
-(
-config
-[
-"
-not_domains
-"
-]
-.
-itervalues
-(
-)
-)
+all_domains_set
 )
         
 missing_hosts

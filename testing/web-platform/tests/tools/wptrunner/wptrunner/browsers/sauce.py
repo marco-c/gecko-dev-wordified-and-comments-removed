@@ -1049,15 +1049,8 @@ join
 self
 .
 env_config
-[
-'
-domains
-'
-]
 .
-values
-(
-)
+domains_set
 )
         
 ]
