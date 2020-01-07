@@ -484,14 +484,6 @@ media
 libyuv
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_PERMISSIONS
-'
-]
-:
 DIRS
 +
 =
