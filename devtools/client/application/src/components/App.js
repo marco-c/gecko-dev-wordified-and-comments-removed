@@ -70,7 +70,7 @@ redux
 ;
 const
 {
-div
+main
 }
 =
 require
@@ -221,7 +221,7 @@ length
 ;
 return
 (
-div
+main
 (
 {
 className
@@ -231,6 +231,9 @@ application
 isEmpty
 ?
 "
+application
+-
+-
 empty
 "
 :
