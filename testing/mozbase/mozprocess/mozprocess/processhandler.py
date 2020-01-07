@@ -881,6 +881,9 @@ if
 isWin
 :
                 
+try
+:
+                    
 if
 not
 self
@@ -895,7 +898,7 @@ self
 .
 _job
 :
-                    
+                        
 self
 .
 debug
@@ -905,7 +908,7 @@ calling
 TerminateJobObject
 "
 )
-                    
+                        
 winprocess
 .
 TerminateJobObject
@@ -918,25 +921,12 @@ winprocess
 ERROR_CONTROL_C_EXIT
 )
                     
-self
-.
-returncode
-=
-winprocess
-.
-GetExitCodeProcess
-(
-self
-.
-_handle
-)
-                
 elif
 self
 .
 _handle
 :
-                    
+                        
 self
 .
 debug
@@ -946,9 +936,6 @@ calling
 TerminateProcess
 "
 )
-                    
-try
-:
                         
 winprocess
 .
@@ -961,17 +948,23 @@ winprocess
 .
 ERROR_CONTROL_C_EXIT
 )
-                    
+                
 except
-Exception
+WindowsError
 :
-                        
+                    
+self
+.
+_cleanup
+(
+)
+                    
 traceback
 .
 print_exc
 (
 )
-                        
+                    
 raise
 OSError
 (
@@ -981,24 +974,6 @@ not
 terminate
 process
 "
-)
-                    
-finally
-:
-                        
-winprocess
-.
-GetExitCodeProcess
-(
-self
-.
-_handle
-)
-                        
-self
-.
-_cleanup
-(
 )
             
 else
