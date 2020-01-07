@@ -3377,7 +3377,7 @@ mDeviceManagerToken
 0
 ;
 bool
-mConfiuredForSize
+mConfiguredForSize
 =
 false
 ;
@@ -5777,7 +5777,7 @@ aHeight
 {
 if
 (
-mConfiuredForSize
+mConfiguredForSize
 &
 &
 aWidth
@@ -6141,7 +6141,7 @@ hr
 hr
 )
 ;
-mConfiuredForSize
+mConfiguredForSize
 =
 true
 ;
