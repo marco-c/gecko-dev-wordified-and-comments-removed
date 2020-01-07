@@ -675,7 +675,7 @@ channels
 uint32_t
 i
 =
-1
+0
 ;
 while
 (
@@ -725,6 +725,10 @@ aMap
 >
 =
 1
+;
+i
++
++
 ;
 }
 return
