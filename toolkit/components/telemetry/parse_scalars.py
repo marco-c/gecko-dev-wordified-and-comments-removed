@@ -1532,6 +1532,10 @@ validate_expiration_version
 (
 expires
 )
+and
+self
+.
+_strict_type_checks
 :
             
 raise

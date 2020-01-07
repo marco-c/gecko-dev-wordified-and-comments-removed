@@ -2183,6 +2183,8 @@ expiration
 default
 "
 and
+\
+           
 not
 utils
 .
@@ -2190,8 +2192,14 @@ validate_expiration_version
 (
 expiration
 )
+and
+\
+           
+self
+.
+_strict_type_checks
 :
-            
+             
 ParserError
 (
 (
@@ -2210,7 +2218,7 @@ invalid
 }
 .
 '
-                        
+                          
 '
 \
 nSee
@@ -2225,7 +2233,7 @@ in
 version
 '
 )
-                        
+                         
 .
 format
 (
