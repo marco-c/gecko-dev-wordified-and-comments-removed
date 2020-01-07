@@ -82,8 +82,6 @@ fatal
 =
 false
 ;
-/
-/
 boolean
 ignoreBOM
 =
@@ -94,8 +92,6 @@ false
 dictionary
 TextDecodeOptions
 {
-/
-/
 boolean
 stream
 =
@@ -139,8 +135,6 @@ attribute
 boolean
 fatal
 ;
-/
-/
 readonly
 attribute
 boolean
