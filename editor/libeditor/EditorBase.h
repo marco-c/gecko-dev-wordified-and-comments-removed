@@ -1993,6 +1993,14 @@ PostCreate
 )
 ;
 virtual
+void
+PreDestroy
+(
+bool
+aDestroyingFrames
+)
+;
+virtual
 nsresult
 StartOperation
 (

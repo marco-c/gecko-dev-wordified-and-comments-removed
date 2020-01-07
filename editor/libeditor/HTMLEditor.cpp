@@ -1417,7 +1417,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 HTMLEditor
 :
 :
@@ -1433,7 +1433,6 @@ mDidPreDestroy
 )
 {
 return
-NS_OK
 ;
 }
 nsCOMPtr
@@ -1483,8 +1482,7 @@ HideAnonymousEditingUIs
 (
 )
 ;
-return
-TextEditor
+EditorBase
 :
 :
 PreDestroy
