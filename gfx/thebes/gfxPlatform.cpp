@@ -10425,12 +10425,14 @@ R5G6B5_UINT16
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
 gfxImageFormat
 for
+"
+"
 gfxContentType
 :
 :
@@ -10489,7 +10491,7 @@ B8G8R8A8
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
@@ -10563,7 +10565,7 @@ A8R8G8B8_UINT32
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
