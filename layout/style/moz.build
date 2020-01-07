@@ -539,11 +539,6 @@ ServoFontFeatureValuesRule
 h
 '
 '
-ServoImportRule
-.
-h
-'
-'
 ServoSpecifiedValues
 .
 h
@@ -1093,11 +1088,6 @@ cpp
 '
 '
 ServoFontFeatureValuesRule
-.
-cpp
-'
-'
-ServoImportRule
 .
 cpp
 '

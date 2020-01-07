@@ -65,6 +65,17 @@ mozilla
 /
 dom
 /
+Animation
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 AnimationEffectBinding
 .
 h

@@ -30,6 +30,9 @@ nsDOMCSSRect
 final
 :
 public
+mozilla
+:
+:
 RefCounted
 <
 nsDOMCSSRect
