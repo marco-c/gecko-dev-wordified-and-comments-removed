@@ -92,12 +92,6 @@ files
 :
 [
 "
-accessible
-/
-*
-*
-"
-"
 browser
 /
 extensions
