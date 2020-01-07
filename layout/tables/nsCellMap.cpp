@@ -4514,6 +4514,8 @@ nsCellMap
 &
 aCellMap
 uint32_t
+aRowGroupStart
+uint32_t
 aRowIndex
 uint32_t
 aColIndex
@@ -4571,6 +4573,8 @@ aCellMap
 GetDataAt
 (
 aRowIndex
+-
+aRowGroupStart
 aColIndex
 )
 ;
@@ -4683,6 +4687,8 @@ aCellMap
 GetDataAt
 (
 aRowIndex
+-
+aRowGroupStart
 aColIndex
 )
 ;

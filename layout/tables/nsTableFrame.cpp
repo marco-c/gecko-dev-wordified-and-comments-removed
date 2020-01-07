@@ -31369,6 +31369,9 @@ eLogicalSideBEnd
 iter
 .
 mCellMap
+iter
+.
+mRowGroupStart
 info
 .
 GetCellEndRowIndex
