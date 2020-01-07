@@ -9169,6 +9169,9 @@ stackDepth
 =
 thenDepth_
 ;
+#
+ifdef
+DEBUG
 state_
 =
 State
@@ -9176,6 +9179,8 @@ State
 :
 Else
 ;
+#
+endif
 return
 true
 ;
