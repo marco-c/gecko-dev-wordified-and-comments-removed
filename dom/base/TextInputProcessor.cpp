@@ -110,6 +110,15 @@ nsPresContext
 h
 "
 using
+mozilla
+:
+:
+dom
+:
+:
+KeyboardEvent
+;
+using
 namespace
 mozilla
 :

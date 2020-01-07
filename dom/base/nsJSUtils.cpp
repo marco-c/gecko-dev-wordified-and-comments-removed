@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIScriptElement
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
