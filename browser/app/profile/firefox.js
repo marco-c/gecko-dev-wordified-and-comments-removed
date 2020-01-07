@@ -2653,10 +2653,15 @@ true
 ;
 #
 if
-!
 defined
 (
-XP_MACOSX
+XP_WIN
+)
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
 )
 &
 &
