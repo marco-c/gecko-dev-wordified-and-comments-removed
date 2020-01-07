@@ -35,6 +35,9 @@ h
 namespace
 js
 {
+struct
+Class
+;
 typedef
 double
 (
@@ -429,6 +432,11 @@ mallocSizeOf
 )
 ;
 }
+;
+extern
+const
+Class
+MathClass
 ;
 extern
 JSObject

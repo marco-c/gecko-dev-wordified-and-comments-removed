@@ -34,13 +34,6 @@ h
 #
 include
 "
-jsmath
-.
-h
-"
-#
-include
-"
 js
 /
 HashTable
