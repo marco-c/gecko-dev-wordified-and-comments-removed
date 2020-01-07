@@ -195,7 +195,7 @@ if
 cur
 -
 >
-IsDefined
+HasImage
 (
 )
 )
