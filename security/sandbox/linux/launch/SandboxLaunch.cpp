@@ -909,6 +909,10 @@ level
 4
 )
 {
+canChroot
+=
+true
+;
 static
 const
 bool
