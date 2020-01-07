@@ -174,6 +174,8 @@ ReduceTimePrecisionImpl
 clock
 clockUnits
 precision
+-
+1
 TimerPrecisionType
 :
 :
@@ -191,6 +193,8 @@ ReduceTimePrecisionImpl
 reduced1
 clockUnits
 precision
+-
+1
 TimerPrecisionType
 :
 :
@@ -576,6 +580,8 @@ TimeScale
 :
 MilliSeconds
 20
+-
+1
 TimerPrecisionType
 :
 :
@@ -608,6 +614,8 @@ TimeScale
 :
 MilliSeconds
 20
+-
+1
 TimerPrecisionType
 :
 :
@@ -640,6 +648,8 @@ TimeScale
 :
 MilliSeconds
 20
+-
+1
 TimerPrecisionType
 :
 :
@@ -672,6 +682,8 @@ TimeScale
 :
 MilliSeconds
 20
+-
+1
 TimerPrecisionType
 :
 :
@@ -704,6 +716,8 @@ TimeScale
 :
 MilliSeconds
 20
+-
+1
 TimerPrecisionType
 :
 :
@@ -736,6 +750,8 @@ TimeScale
 :
 MilliSeconds
 20
+-
+1
 TimerPrecisionType
 :
 :
@@ -791,6 +807,8 @@ TimeScale
 :
 MicroSeconds
 5
+-
+1
 TimerPrecisionType
 :
 :
@@ -823,6 +841,8 @@ TimeScale
 :
 MicroSeconds
 5
+-
+1
 TimerPrecisionType
 :
 :
@@ -853,6 +873,8 @@ TimeScale
 :
 MicroSeconds
 5
+-
+1
 TimerPrecisionType
 :
 :
@@ -885,6 +907,8 @@ TimeScale
 :
 MicroSeconds
 5
+-
+1
 TimerPrecisionType
 :
 :
@@ -1393,6 +1417,8 @@ RandomMidpoint
 (
 0
 500
+-
+1
 &
 throwAway
 hardcodedSecret
@@ -1417,6 +1443,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1445,6 +1473,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1473,6 +1503,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1501,6 +1533,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1529,6 +1563,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1557,6 +1593,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1585,6 +1623,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1613,6 +1653,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1641,6 +1683,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1669,6 +1713,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1697,6 +1743,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1725,6 +1773,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1753,6 +1803,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1781,6 +1833,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1809,6 +1863,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1837,6 +1893,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1865,6 +1923,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1893,6 +1953,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1921,6 +1983,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1949,6 +2013,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -1977,6 +2043,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -2005,6 +2073,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :
@@ -2033,6 +2103,8 @@ TimeScale
 :
 MicroSeconds
 500
+-
+1
 TimerPrecisionType
 :
 :

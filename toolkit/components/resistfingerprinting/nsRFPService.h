@@ -637,6 +637,8 @@ ReduceTimePrecisionAsUSecs
 (
 double
 aTime
+int64_t
+aContextMixin
 TimerPrecisionType
 aType
 =
@@ -652,6 +654,8 @@ ReduceTimePrecisionAsMSecs
 (
 double
 aTime
+int64_t
+aContextMixin
 TimerPrecisionType
 aType
 =
@@ -667,6 +671,8 @@ ReduceTimePrecisionAsSecs
 (
 double
 aTime
+int64_t
+aContextMixin
 TimerPrecisionType
 aType
 =
@@ -694,6 +700,8 @@ TimeScale
 aTimeScale
 double
 aResolutionUSec
+int64_t
+aContextMixin
 TimerPrecisionType
 aType
 )
@@ -708,6 +716,8 @@ aClampedTimeUSec
 long
 long
 aResolutionUSec
+int64_t
+aContextMixin
 long
 long
 *
