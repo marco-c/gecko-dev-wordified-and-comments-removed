@@ -301,6 +301,15 @@ newTabURL
 "
 ;
 const
+NEW_TAB_STRING_ID
+=
+"
+extensionControlled
+.
+newTabURL2
+"
+;
+const
 PREF_FEED_SELECTED_APP
 =
 "
@@ -2096,6 +2105,7 @@ handleControllingExtension
 (
 URL_OVERRIDES_TYPE
 NEW_TAB_KEY
+NEW_TAB_STRING_ID
 )
 ;
 let
@@ -2113,6 +2123,7 @@ handleControllingExtension
 (
 URL_OVERRIDES_TYPE
 NEW_TAB_KEY
+NEW_TAB_STRING_ID
 )
 ;
 }
@@ -4583,6 +4594,11 @@ handleControllingExtension
 (
 PREF_SETTING_TYPE
 HOMEPAGE_OVERRIDE_KEY
+"
+extensionControlled
+.
+homepage_override2
+"
 )
 .
 then
@@ -5946,7 +5962,11 @@ controllingExtension
 ?
 getControllingExtensionFragment
 (
-PROXY_KEY
+"
+extensionControlled
+.
+proxyConfig
+"
 controllingExtension
 this
 .

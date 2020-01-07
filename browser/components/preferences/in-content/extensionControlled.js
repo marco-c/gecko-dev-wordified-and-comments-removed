@@ -525,6 +525,7 @@ handleControllingExtension
 (
 type
 settingName
+stringId
 )
 {
 let
@@ -555,6 +556,7 @@ showControllingExtension
 (
 settingName
 addon
+stringId
 )
 ;
 }
@@ -617,7 +619,7 @@ addon
 function
 getControllingExtensionFragment
 (
-settingName
+stringId
 addon
 .
 .
@@ -639,11 +641,7 @@ bundlePreferences
 .
 getString
 (
-extensionControlled
-.
-{
-settingName
-}
+stringId
 )
 ;
 let
@@ -761,6 +759,13 @@ showControllingExtension
 (
 settingName
 addon
+stringId
+=
+extensionControlled
+.
+{
+settingName
+}
 )
 {
 let
@@ -824,7 +829,7 @@ fragment
 =
 getControllingExtensionFragment
 (
-settingName
+stringId
 addon
 .
 .
