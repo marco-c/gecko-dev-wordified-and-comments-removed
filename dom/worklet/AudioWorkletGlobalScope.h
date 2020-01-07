@@ -33,12 +33,8 @@ WorkletGlobalScope
 {
 public
 :
-explicit
 AudioWorkletGlobalScope
 (
-nsPIDOMWindowInner
-*
-aWindow
 )
 ;
 bool
@@ -80,6 +76,8 @@ private
 AudioWorkletGlobalScope
 (
 )
+=
+default
 ;
 }
 ;
