@@ -204,11 +204,7 @@ uri
 String
 where
 :
-GeckoSession
-.
-NavigationDelegate
-.
-TargetWindow
+Int
 )
 :
 Boolean

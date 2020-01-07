@@ -208,8 +208,8 @@ GeckoSession
 session
 String
 uri
-TargetWindow
-where
+int
+target
 )
 {
 return
