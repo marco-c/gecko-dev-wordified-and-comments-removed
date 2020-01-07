@@ -302,7 +302,7 @@ onDisable
 (
 )
 {
-let
+const
 {
 accessibility
 dispatch
@@ -372,7 +372,7 @@ render
 (
 )
 {
-let
+const
 {
 canBeDisabled
 }
@@ -381,7 +381,7 @@ this
 .
 props
 ;
-let
+const
 {
 disabling
 }
@@ -390,7 +390,7 @@ this
 .
 state
 ;
-let
+const
 disableButtonStr
 =
 disabling

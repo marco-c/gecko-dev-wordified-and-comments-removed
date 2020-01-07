@@ -24,7 +24,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -52,7 +52,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 document
 store
@@ -63,7 +63,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -83,7 +83,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -158,7 +158,7 @@ url
 await
 wait
 ;
-let
+const
 requestItem
 =
 document
@@ -181,7 +181,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -326,7 +326,7 @@ tab
 await
 wait
 ;
-let
+const
 text
 =
 document

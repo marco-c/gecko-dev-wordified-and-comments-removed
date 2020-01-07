@@ -66,7 +66,7 @@ panel
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -78,7 +78,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -95,7 +95,7 @@ window
 "
 )
 ;
-let
+const
 scratchpadPanel
 =
 toolbox
@@ -107,7 +107,7 @@ scratchpad
 "
 )
 ;
-let
+const
 {
 scratchpad
 }
@@ -141,7 +141,7 @@ panel
 "
 )
 ;
-let
+const
 webconsolePanel
 =
 await
@@ -154,7 +154,7 @@ webconsole
 "
 )
 ;
-let
+const
 {
 hud
 }
@@ -230,7 +230,7 @@ run
 (
 )
 ;
-let
+const
 message
 =
 await
@@ -281,7 +281,7 @@ Scratchpad
 "
 )
 ;
-let
+const
 anchor
 =
 message
@@ -306,7 +306,7 @@ filename
 "
 )
 ;
-let
+const
 onScratchpadSelected
 =
 toolbox

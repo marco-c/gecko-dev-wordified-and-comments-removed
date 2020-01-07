@@ -101,7 +101,7 @@ DebuggerSocket
 =
 >
 {
-let
+const
 {
 DebuggerSocket
 }
@@ -168,7 +168,7 @@ generateUUID
 =
 >
 {
-let
+const
 {
 generateUUID
 }
@@ -273,7 +273,7 @@ catch
 e
 )
 {
-let
+const
 errorStr
 =
 "
@@ -505,7 +505,7 @@ destroy
 {
 for
 (
-let
+const
 factory
 of
 activeTabActors
@@ -525,7 +525,7 @@ null
 ;
 for
 (
-let
+const
 factory
 of
 activeGlobalActors
@@ -693,7 +693,7 @@ return
 }
 for
 (
-let
+const
 connID
 of
 Object
@@ -720,7 +720,7 @@ close
 }
 for
 (
-let
+const
 id
 of
 Object
@@ -966,7 +966,7 @@ if
 options
 )
 {
-let
+const
 {
 prefix
 constructor
@@ -1111,7 +1111,7 @@ tab
 )
 ;
 }
-let
+const
 name
 =
 prefix
@@ -1120,7 +1120,7 @@ prefix
 Actor
 "
 ;
-let
+const
 mod
 =
 {
@@ -1190,14 +1190,14 @@ name
 }
 else
 {
-let
+const
 moduleAPI
 =
 ModuleAPI
 (
 )
 ;
-let
+const
 mod
 =
 require
@@ -1246,7 +1246,7 @@ unregisterModule
 id
 )
 {
-let
+const
 mod
 =
 gRegisteredModules
@@ -2342,7 +2342,7 @@ resolve
 )
 ;
 }
-let
+const
 promises
 =
 [
@@ -2350,7 +2350,7 @@ promises
 ;
 for
 (
-let
+const
 connID
 of
 Object
@@ -2519,7 +2519,7 @@ false
 }
 for
 (
-let
+const
 listener
 of
 this
@@ -2549,7 +2549,7 @@ _checkInit
 (
 )
 ;
-let
+const
 serverTransport
 =
 new
@@ -2557,7 +2557,7 @@ LocalDebuggerTransport
 (
 )
 ;
-let
+const
 clientTransport
 =
 new
@@ -2572,7 +2572,7 @@ other
 =
 clientTransport
 ;
-let
+const
 connection
 =
 this
@@ -2605,7 +2605,7 @@ _checkInit
 (
 )
 ;
-let
+const
 transport
 =
 isWorker
@@ -2650,7 +2650,7 @@ resolve
 =
 >
 {
-let
+const
 prefix
 =
 connection
@@ -2913,7 +2913,7 @@ mm
 ;
 }
 }
-let
+const
 onMessageManagerClose
 =
 DevToolsUtils
@@ -3041,7 +3041,7 @@ js
 "
 )
 ;
-let
+const
 listener
 =
 {
@@ -3106,7 +3106,7 @@ then
 =
 >
 {
-let
+const
 method
 =
 {
@@ -3266,7 +3266,7 @@ options
 )
 )
 ;
-let
+const
 listener
 =
 {
@@ -3341,7 +3341,7 @@ removeListener
 listener
 )
 ;
-let
+const
 transport
 =
 new
@@ -3558,7 +3558,7 @@ _childMessageManagers
 .
 size
 ;
-let
+const
 id
 =
 waitForEval
@@ -3588,7 +3588,7 @@ if
 waitForEval
 )
 {
-let
+const
 evalListener
 =
 msg
@@ -3776,7 +3776,7 @@ js
 false
 )
 ;
-let
+const
 trackMessageManager
 =
 (
@@ -3842,7 +3842,7 @@ mm
 ;
 }
 ;
-let
+const
 untrackMessageManager
 =
 (
@@ -3912,7 +3912,7 @@ let
 actor
 childTransport
 ;
-let
+const
 prefix
 =
 connection
@@ -3924,7 +3924,7 @@ child
 "
 )
 ;
-let
+const
 connPrefix
 =
 prefix
@@ -3933,13 +3933,13 @@ prefix
 /
 "
 ;
-let
+const
 parentModules
 =
 [
 ]
 ;
-let
+const
 onSetupInParent
 =
 function
@@ -3963,7 +3963,7 @@ return
 false
 ;
 }
-let
+const
 {
 module
 setupParent
@@ -4046,7 +4046,7 @@ catch
 e
 )
 {
-let
+const
 errorMessage
 =
 "
@@ -4120,7 +4120,7 @@ false
 }
 }
 ;
-let
+const
 onActorCreated
 =
 DevToolsUtils
@@ -4238,7 +4238,7 @@ bind
 this
 )
 ;
-let
+const
 onBrowserSwap
 =
 (
@@ -4317,7 +4317,7 @@ mm
 }
 }
 ;
-let
+const
 destroy
 =
 DevToolsUtils
@@ -4506,7 +4506,7 @@ trackMessageManager
 (
 )
 ;
-let
+const
 onMessageManagerClose
 =
 function
@@ -4631,7 +4631,7 @@ _nextConnID
 "
 ;
 }
-let
+const
 conn
 =
 new
@@ -4877,7 +4877,7 @@ actor
 {
 for
 (
-let
+const
 name
 in
 DebuggerServer
@@ -4885,7 +4885,7 @@ DebuggerServer
 tabActorFactories
 )
 {
-let
+const
 handler
 =
 DebuggerServer
@@ -4941,7 +4941,7 @@ name
 ;
 for
 (
-let
+const
 connID
 of
 Object
@@ -5076,7 +5076,7 @@ actor
 {
 for
 (
-let
+const
 name
 in
 DebuggerServer
@@ -5084,7 +5084,7 @@ DebuggerServer
 globalActorFactories
 )
 {
-let
+const
 handler
 =
 DebuggerServer
@@ -5140,7 +5140,7 @@ name
 ;
 for
 (
-let
+const
 connID
 of
 Object
@@ -5218,7 +5218,7 @@ actorID
 {
 for
 (
-let
+const
 connID
 of
 Object
@@ -5231,7 +5231,7 @@ _connections
 )
 )
 {
-let
+const
 actor
 =
 this
@@ -5626,7 +5626,7 @@ null
 return
 ;
 }
-let
+const
 index
 =
 this
@@ -5646,7 +5646,7 @@ index
 1
 )
 {
-let
+const
 pool
 =
 this
@@ -5731,7 +5731,7 @@ getActor
 actorID
 )
 {
-let
+const
 pool
 =
 this
@@ -5860,7 +5860,7 @@ catch
 error
 )
 {
-let
+const
 prefix
 =
 "
@@ -5948,7 +5948,7 @@ actorID
 {
 for
 (
-let
+const
 pool
 of
 this
@@ -5982,7 +5982,7 @@ prefix
 error
 )
 {
-let
+const
 errorString
 =
 prefix
@@ -6031,7 +6031,7 @@ type
 responseOrPromise
 )
 {
-let
+const
 pendingResponse
 =
 this
@@ -6051,7 +6051,7 @@ resolve
 null
 )
 ;
-let
+const
 responsePromise
 =
 pendingResponse
@@ -6168,7 +6168,7 @@ failed
 )
 ;
 }
-let
+const
 prefix
 =
 "
@@ -6217,7 +6217,7 @@ id
 options
 )
 {
-let
+const
 addonList
 =
 this
@@ -6259,7 +6259,7 @@ addonActors
 {
 for
 (
-let
+const
 actor
 of
 addonActors
@@ -6429,7 +6429,7 @@ substring
 separator
 )
 ;
-let
+const
 forwardTo
 =
 this
@@ -6477,7 +6477,7 @@ lastIndexOf
 ;
 }
 }
-let
+const
 actor
 =
 this
@@ -6588,7 +6588,7 @@ catch
 error
 )
 {
-let
+const
 prefix
 =
 "
@@ -6694,7 +6694,7 @@ onBulkPacket
 packet
 )
 {
-let
+const
 {
 actor
 :
@@ -6704,7 +6704,7 @@ type
 =
 packet
 ;
-let
+const
 actor
 =
 this
@@ -6764,7 +6764,7 @@ catch
 error
 )
 {
-let
+const
 prefix
 =
 "
@@ -6808,7 +6808,7 @@ error
 }
 else
 {
-let
+const
 message
 =
 "
@@ -7045,7 +7045,7 @@ _actors
 }
 for
 (
-let
+const
 pool
 of
 this
@@ -7207,7 +7207,7 @@ return
 false
 ;
 }
-let
+const
 {
 sendSyncMessage
 }

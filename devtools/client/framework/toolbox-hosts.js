@@ -215,7 +215,7 @@ hostTab
 ownerGlobal
 )
 ;
-let
+const
 gBrowser
 =
 this
@@ -228,7 +228,7 @@ defaultView
 .
 gBrowser
 ;
-let
+const
 ownerDocument
 =
 gBrowser
@@ -409,7 +409,7 @@ blank
 "
 )
 ;
-let
+const
 frame
 =
 await
@@ -420,7 +420,7 @@ resolve
 =
 >
 {
-let
+const
 domHelper
 =
 new
@@ -433,7 +433,7 @@ frame
 contentWindow
 )
 ;
-let
+const
 frameLoad
 =
 (
@@ -652,7 +652,7 @@ hostTab
 ownerGlobal
 )
 ;
-let
+const
 gBrowser
 =
 this
@@ -665,7 +665,7 @@ defaultView
 .
 gBrowser
 ;
-let
+const
 ownerDocument
 =
 gBrowser
@@ -832,7 +832,7 @@ blank
 "
 )
 ;
-let
+const
 frame
 =
 await
@@ -843,7 +843,7 @@ resolve
 =
 >
 {
-let
+const
 domHelper
 =
 new
@@ -856,7 +856,7 @@ frame
 contentWindow
 )
 ;
-let
+const
 frameLoad
 =
 (
@@ -1058,14 +1058,14 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 flags
 =
 "
@@ -1077,7 +1077,7 @@ dialog
 no
 "
 ;
-let
+const
 win
 =
 Services
@@ -1097,7 +1097,7 @@ flags
 null
 )
 ;
-let
+const
 frameLoad
 =
 (
@@ -1448,7 +1448,7 @@ msg
 data
 )
 {
-let
+const
 topWindow
 =
 this
@@ -1468,7 +1468,7 @@ topWindow
 return
 ;
 }
-let
+const
 json
 =
 {
@@ -1617,7 +1617,7 @@ focusTab
 tab
 )
 {
-let
+const
 browserWindow
 =
 tab

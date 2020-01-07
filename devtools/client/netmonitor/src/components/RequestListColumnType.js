@@ -143,7 +143,7 @@ render
 (
 )
 {
-let
+const
 {
 mimeType
 }

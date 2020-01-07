@@ -58,7 +58,7 @@ test_get_actor
 (
 )
 {
-let
+const
 bpStore
 =
 new
@@ -66,7 +66,7 @@ BreakpointActorMap
 (
 )
 ;
-let
+const
 location
 =
 {
@@ -84,7 +84,7 @@ originalLine
 3
 }
 ;
-let
+const
 columnLocation
 =
 {
@@ -292,7 +292,7 @@ test_set_actor
 (
 )
 {
-let
+const
 bpStore
 =
 new
@@ -413,7 +413,7 @@ test_delete_actor
 (
 )
 {
-let
+const
 bpStore
 =
 new
@@ -544,7 +544,7 @@ test_find_actors
 (
 )
 {
-let
+const
 bps
 =
 [
@@ -683,7 +683,7 @@ originalColumn
 }
 ]
 ;
-let
+const
 bpStore
 =
 new
@@ -693,7 +693,7 @@ BreakpointActorMap
 ;
 for
 (
-let
+const
 bp
 of
 bps
@@ -719,7 +719,7 @@ bps
 ;
 for
 (
-let
+const
 bp
 of
 bpStore
@@ -789,7 +789,7 @@ actor1
 ;
 for
 (
-let
+const
 bp
 of
 bpStore
@@ -885,7 +885,7 @@ true
 ;
 for
 (
-let
+const
 bp
 of
 bpStore
@@ -1004,7 +1004,7 @@ test_duplicate_actors
 (
 )
 {
-let
+const
 bpStore
 =
 new

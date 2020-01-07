@@ -108,7 +108,7 @@ generateCssProperties
 ;
 for
 (
-let
+const
 key
 in
 properties

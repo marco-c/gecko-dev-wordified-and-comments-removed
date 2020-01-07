@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -17,7 +17,7 @@ initBackend
 SIMPLE_NODES_URL
 )
 ;
-let
+const
 [
 _
 nodes
@@ -57,7 +57,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 allParams
 =
 await
@@ -80,7 +80,7 @@ getParams
 )
 )
 ;
-let
+const
 types
 =
 [
@@ -131,7 +131,7 @@ StereoPannerNode
 "
 ]
 ;
-let
+const
 defaults
 =
 await

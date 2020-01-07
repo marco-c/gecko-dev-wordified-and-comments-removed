@@ -86,7 +86,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -139,7 +139,7 @@ name
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -148,14 +148,14 @@ view
 1
 )
 ;
-let
+const
 rule
 =
 ruleEditor
 .
 rule
 ;
-let
+const
 propEditor
 =
 rule

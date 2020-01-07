@@ -78,12 +78,12 @@ TOOLTIP_WIDTH
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -98,13 +98,13 @@ height
 200
 )
 ;
-let
+const
 [
 win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -129,7 +129,7 @@ below
 "
 )
 ;
-let
+const
 originalWidth
 =
 win
@@ -138,7 +138,7 @@ top
 .
 outerWidth
 ;
-let
+const
 originalHeight
 =
 win
@@ -159,7 +159,7 @@ resizeBy
 200
 )
 ;
-let
+const
 originalTop
 =
 win
@@ -168,7 +168,7 @@ top
 .
 screenTop
 ;
-let
+const
 originalLeft
 =
 win
@@ -239,7 +239,7 @@ tooltip
 "
 )
 ;
-let
+const
 tooltip
 =
 new
@@ -253,7 +253,7 @@ true
 }
 )
 ;
-let
+const
 div
 =
 doc
@@ -301,7 +301,7 @@ TOOLTIP_HEIGHT
 }
 )
 ;
-let
+const
 box1
 =
 doc
@@ -325,7 +325,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -348,7 +348,7 @@ top
 TOOLTIP_HEIGHT
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -366,7 +366,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -389,7 +389,7 @@ bottom
 TOOLTIP_HEIGHT
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -444,7 +444,7 @@ is
 position
 )
 ;
-let
+const
 rect
 =
 tooltip

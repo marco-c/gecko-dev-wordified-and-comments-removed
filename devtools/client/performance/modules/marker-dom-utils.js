@@ -81,7 +81,7 @@ doc
 marker
 )
 {
-let
+const
 fields
 =
 MarkerBlueprintUtils
@@ -123,7 +123,7 @@ doc
 marker
 )
 {
-let
+const
 blueprint
 =
 MarkerBlueprintUtils
@@ -133,7 +133,7 @@ getBlueprintFor
 marker
 )
 ;
-let
+const
 hbox
 =
 doc
@@ -157,7 +157,7 @@ center
 "
 )
 ;
-let
+const
 bullet
 =
 doc
@@ -188,7 +188,7 @@ blueprint
 colorName
 }
 ;
-let
+const
 title
 =
 MarkerBlueprintUtils
@@ -198,7 +198,7 @@ getMarkerLabel
 marker
 )
 ;
-let
+const
 label
 =
 doc
@@ -258,7 +258,7 @@ doc
 marker
 )
 {
-let
+const
 label
 =
 L10N
@@ -274,7 +274,7 @@ duration
 "
 )
 ;
-let
+const
 start
 =
 L10N
@@ -291,7 +291,7 @@ marker
 start
 )
 ;
-let
+const
 end
 =
 L10N
@@ -308,7 +308,7 @@ marker
 end
 )
 ;
-let
+const
 duration
 =
 L10N
@@ -329,7 +329,7 @@ marker
 start
 )
 ;
-let
+const
 el
 =
 this
@@ -384,7 +384,7 @@ field
 value
 )
 {
-let
+const
 hbox
 =
 doc
@@ -408,7 +408,7 @@ details
 labelcontainer
 "
 ;
-let
+const
 nameLabel
 =
 doc
@@ -452,7 +452,7 @@ appendChild
 nameLabel
 )
 ;
-let
+const
 valueLabel
 =
 doc
@@ -512,7 +512,7 @@ frames
 }
 )
 {
-let
+const
 container
 =
 doc
@@ -546,7 +546,7 @@ type
 type
 )
 ;
-let
+const
 nameLabel
 =
 doc
@@ -606,7 +606,7 @@ wasAsyncParent
 =
 false
 ;
-let
+const
 seen
 =
 new
@@ -641,7 +641,7 @@ add
 frameIndex
 )
 ;
-let
+const
 frame
 =
 frames
@@ -649,21 +649,21 @@ frames
 frameIndex
 ]
 ;
-let
+const
 url
 =
 frame
 .
 source
 ;
-let
+const
 displayName
 =
 frame
 .
 functionDisplayName
 ;
-let
+const
 line
 =
 frame
@@ -675,7 +675,7 @@ if
 wasAsyncParent
 )
 {
-let
+const
 asyncStr
 =
 L10N
@@ -694,7 +694,7 @@ frame
 asyncCause
 )
 ;
-let
+const
 asyncBox
 =
 doc
@@ -706,7 +706,7 @@ hbox
 "
 )
 ;
-let
+const
 asyncLabel
 =
 doc
@@ -757,7 +757,7 @@ wasAsyncParent
 false
 ;
 }
-let
+const
 hbox
 =
 doc
@@ -774,7 +774,7 @@ if
 displayName
 )
 {
-let
+const
 functionLabel
 =
 doc
@@ -819,7 +819,7 @@ if
 url
 )
 {
-let
+const
 linkNode
 =
 doc
@@ -870,7 +870,7 @@ title
 url
 )
 ;
-let
+const
 urlLabel
 =
 doc
@@ -912,7 +912,7 @@ appendChild
 urlLabel
 )
 ;
-let
+const
 lineLabel
 =
 doc
@@ -1003,7 +1003,7 @@ displayName
 url
 )
 {
-let
+const
 unknownLabel
 =
 doc
@@ -1092,7 +1092,7 @@ marker
 options
 )
 {
-let
+const
 elements
 =
 [
@@ -1111,7 +1111,7 @@ marker
 )
 )
 {
-let
+const
 hbox
 =
 doc
@@ -1135,7 +1135,7 @@ details
 customcontainer
 "
 ;
-let
+const
 label
 =
 doc
@@ -1254,7 +1254,7 @@ GarbageCollection
 "
 )
 {
-let
+const
 showTriggers
 =
 PREFS

@@ -112,7 +112,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -122,7 +122,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 store
 }
@@ -138,7 +138,7 @@ TEST_URI2
 "
 )
 ;
-let
+const
 onGridListUpdate
 =
 waitUntilState

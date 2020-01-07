@@ -25,7 +25,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -50,7 +50,7 @@ image
 "
 )
 ;
-let
+const
 button
 =
 inspector

@@ -72,7 +72,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -85,7 +85,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -94,7 +94,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 PerformanceFront
@@ -110,7 +110,7 @@ connect
 (
 )
 ;
-let
+const
 firstRecording
 =
 await
@@ -120,7 +120,7 @@ startRecording
 (
 )
 ;
-let
+const
 firstRecordingStartTime
 =
 firstRecording
@@ -173,7 +173,7 @@ correct
 "
 )
 ;
-let
+const
 secondRecording
 =
 await
@@ -183,7 +183,7 @@ startRecording
 (
 )
 ;
-let
+const
 secondRecordingStartTime
 =
 secondRecording
@@ -215,7 +215,7 @@ stopRecording
 secondRecording
 )
 ;
-let
+const
 secondRecordingProfile
 =
 secondRecording
@@ -224,7 +224,7 @@ getProfile
 (
 )
 ;
-let
+const
 secondRecordingSamples
 =
 secondRecordingProfile

@@ -174,7 +174,7 @@ url
 )
 ;
 }
-let
+const
 regexp
 =
 /
@@ -213,13 +213,13 @@ s
 /
 gim
 ;
-let
+const
 syntaxTrees
 =
 [
 ]
 ;
-let
+const
 scriptMatches
 =
 [
@@ -284,7 +284,7 @@ length
 {
 try
 {
-let
+const
 nodes
 =
 Reflect
@@ -294,7 +294,7 @@ parse
 source
 )
 ;
-let
+const
 length
 =
 source
@@ -351,7 +351,7 @@ else
 {
 for
 (
-let
+const
 script
 of
 scriptMatches
@@ -359,7 +359,7 @@ scriptMatches
 {
 try
 {
-let
+const
 nodes
 =
 Reflect
@@ -369,7 +369,7 @@ parse
 script
 )
 ;
-let
+const
 offset
 =
 source
@@ -379,7 +379,7 @@ indexOf
 script
 )
 ;
-let
+const
 length
 =
 script
@@ -434,7 +434,7 @@ e
 }
 }
 }
-let
+const
 pool
 =
 new
@@ -624,7 +624,7 @@ getScriptInfo
 atOffset
 )
 {
-let
+const
 info
 =
 {
@@ -644,7 +644,7 @@ index
 ;
 for
 (
-let
+const
 {
 offset
 length
@@ -715,13 +715,13 @@ syntaxTreeIndex
 params
 )
 {
-let
+const
 results
 =
 [
 ]
 ;
-let
+const
 requestId
 =
 [
@@ -757,7 +757,7 @@ requestId
 )
 ;
 }
-let
+const
 requestedTree
 =
 this
@@ -767,7 +767,7 @@ _trees
 syntaxTreeIndex
 ]
 ;
-let
+const
 targettedTrees
 =
 requestedTree
@@ -782,7 +782,7 @@ _trees
 ;
 for
 (
-let
+const
 syntaxTree
 of
 targettedTrees
@@ -790,7 +790,7 @@ targettedTrees
 {
 try
 {
-let
+const
 parseResults
 =
 syntaxTree
@@ -1044,7 +1044,7 @@ getNamedFunctionDefinitions
 substring
 )
 {
-let
+const
 lowerCaseToken
 =
 substring
@@ -1053,7 +1053,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 store
 =
 [
@@ -1094,7 +1094,7 @@ onFunctionDeclaration
 node
 )
 {
-let
+const
 functionName
 =
 node
@@ -1137,7 +1137,7 @@ onFunctionExpression
 node
 )
 {
-let
+const
 functionName
 =
 node
@@ -1153,7 +1153,7 @@ name
 "
 "
 ;
-let
+const
 functionLocation
 =
 ParserHelpers
@@ -1163,7 +1163,7 @@ getNodeLocation
 node
 )
 ;
-let
+const
 inferredInfo
 =
 ParserHelpers
@@ -1173,21 +1173,21 @@ inferFunctionExpressionInfo
 node
 )
 ;
-let
+const
 inferredName
 =
 inferredInfo
 .
 name
 ;
-let
+const
 inferredChain
 =
 inferredInfo
 .
 chain
 ;
-let
+const
 inferredLocation
 =
 inferredInfo
@@ -1262,7 +1262,7 @@ onArrowFunctionExpression
 node
 )
 {
-let
+const
 inferredInfo
 =
 ParserHelpers
@@ -1272,21 +1272,21 @@ inferFunctionExpressionInfo
 node
 )
 ;
-let
+const
 inferredName
 =
 inferredInfo
 .
 name
 ;
-let
+const
 inferredChain
 =
 inferredInfo
 .
 chain
 ;
-let
+const
 inferredLocation
 =
 inferredInfo
@@ -1393,7 +1393,7 @@ node
 loc
 ;
 }
-let
+const
 {
 loc
 :
@@ -1407,7 +1407,7 @@ node
 .
 _parent
 ;
-let
+const
 {
 loc
 :
@@ -1440,7 +1440,7 @@ FunctionExpression
 "
 )
 {
-let
+const
 loc
 =
 Cu
@@ -1496,7 +1496,7 @@ MemberExpression
 "
 )
 {
-let
+const
 loc
 =
 Cu
@@ -1552,7 +1552,7 @@ LabeledStatement
 "
 )
 {
-let
+const
 loc
 =
 Cu
@@ -1616,7 +1616,7 @@ BreakStatement
 "
 )
 {
-let
+const
 loc
 =
 Cu
@@ -1674,7 +1674,7 @@ VariableDeclarator
 "
 )
 {
-let
+const
 loc
 =
 Cu
@@ -1732,7 +1732,7 @@ node
 line
 )
 {
-let
+const
 {
 start
 :
@@ -1773,7 +1773,7 @@ line
 column
 )
 {
-let
+const
 {
 start
 :
@@ -1828,7 +1828,7 @@ inferFunctionExpressionInfo
 node
 )
 {
-let
+const
 parent
 =
 node
@@ -1884,7 +1884,7 @@ AssignmentExpression
 "
 )
 {
-let
+const
 propertyChain
 =
 this
@@ -1896,7 +1896,7 @@ parent
 left
 )
 ;
-let
+const
 propertyLeaf
 =
 propertyChain
@@ -1938,7 +1938,7 @@ ObjectExpression
 "
 )
 {
-let
+const
 propertyKey
 =
 this
@@ -1948,7 +1948,7 @@ _getObjectExpressionPropertyKeyForValue
 node
 )
 ;
-let
+const
 propertyChain
 =
 this
@@ -1958,7 +1958,7 @@ _getObjectExpressionPropertyChain
 parent
 )
 ;
-let
+const
 propertyLeaf
 =
 propertyKey
@@ -2004,7 +2004,7 @@ _getObjectExpressionPropertyKeyForValue
 node
 )
 {
-let
+const
 parent
 =
 node
@@ -2029,7 +2029,7 @@ null
 }
 for
 (
-let
+const
 property
 of
 parent
@@ -2089,7 +2089,7 @@ _parent
 aStore
 )
 ;
-let
+const
 propertyKey
 =
 this
@@ -2288,7 +2288,7 @@ node
 )
 )
 {
-let
+const
 propertyChain
 =
 this
@@ -2300,7 +2300,7 @@ node
 _parent
 )
 ;
-let
+const
 propertyLeaf
 =
 node
@@ -2448,7 +2448,7 @@ tree
 predicate
 )
 {
-let
+const
 store
 =
 [
@@ -2516,7 +2516,7 @@ node
 }
 for
 (
-let
+const
 statement
 of
 node
@@ -2734,7 +2734,7 @@ node
 }
 for
 (
-let
+const
 statement
 of
 node
@@ -3412,7 +3412,7 @@ callbacks
 ;
 for
 (
-let
+const
 _case
 of
 node
@@ -4372,7 +4372,7 @@ node
 }
 for
 (
-let
+const
 {
 id
 init
@@ -4643,7 +4643,7 @@ callbacks
 ;
 for
 (
-let
+const
 param
 of
 node
@@ -4666,7 +4666,7 @@ callbacks
 }
 for
 (
-let
+const
 _default
 of
 node
@@ -4800,7 +4800,7 @@ node
 }
 for
 (
-let
+const
 declaration
 of
 node
@@ -5123,7 +5123,7 @@ node
 }
 for
 (
-let
+const
 element
 of
 node
@@ -5298,7 +5298,7 @@ node
 }
 for
 (
-let
+const
 {
 key
 value
@@ -5506,7 +5506,7 @@ callbacks
 }
 for
 (
-let
+const
 param
 of
 node
@@ -5529,7 +5529,7 @@ callbacks
 }
 for
 (
-let
+const
 _default
 of
 node
@@ -5663,7 +5663,7 @@ node
 }
 for
 (
-let
+const
 param
 of
 node
@@ -5686,7 +5686,7 @@ callbacks
 }
 for
 (
-let
+const
 _default
 of
 node
@@ -5820,7 +5820,7 @@ node
 }
 for
 (
-let
+const
 expression
 of
 node
@@ -6490,7 +6490,7 @@ callbacks
 ;
 for
 (
-let
+const
 argument
 of
 node
@@ -6600,7 +6600,7 @@ callbacks
 ;
 for
 (
-let
+const
 argument
 of
 node
@@ -6923,7 +6923,7 @@ callbacks
 ;
 for
 (
-let
+const
 block
 of
 node
@@ -7051,7 +7051,7 @@ callbacks
 ;
 for
 (
-let
+const
 block
 of
 node
@@ -7309,7 +7309,7 @@ node
 }
 for
 (
-let
+const
 {
 id
 init
@@ -7499,7 +7499,7 @@ node
 }
 for
 (
-let
+const
 {
 key
 value
@@ -7602,7 +7602,7 @@ node
 }
 for
 (
-let
+const
 element
 of
 node
@@ -7720,7 +7720,7 @@ callbacks
 }
 for
 (
-let
+const
 consequent
 of
 node
@@ -8156,7 +8156,7 @@ node
 }
 for
 (
-let
+const
 element
 of
 node

@@ -120,7 +120,7 @@ idGenerator
 defaultIdGenerator
 ;
 }
-let
+const
 messages
 =
 packets
@@ -373,7 +373,7 @@ sliceResponse
 =
 >
 {
-let
+const
 {
 ownProperties
 }
@@ -438,7 +438,7 @@ idGenerator
 defaultIdGenerator
 ;
 }
-let
+const
 message
 =
 prepareMessage

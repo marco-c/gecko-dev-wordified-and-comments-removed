@@ -108,7 +108,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 {
 panel
 }
@@ -126,7 +126,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 DetailsView
@@ -150,7 +150,7 @@ stopRecording
 panel
 )
 ;
-let
+const
 calltreeRendered
 =
 once
@@ -161,7 +161,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-let
+const
 flamegraphRendered
 =
 once

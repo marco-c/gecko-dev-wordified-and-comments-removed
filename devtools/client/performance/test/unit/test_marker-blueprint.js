@@ -9,7 +9,7 @@ function
 (
 )
 {
-let
+const
 {
 TIMELINE_BLUEPRINT
 }
@@ -68,7 +68,7 @@ entry
 ;
 for
 (
-let
+const
 value
 of
 Object

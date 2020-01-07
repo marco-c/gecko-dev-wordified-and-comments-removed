@@ -96,7 +96,7 @@ o2
 {
 }
 ;
-let
+const
 loader
 =
 new
@@ -139,7 +139,7 @@ asyncUtils
 asyncUtils
 )
 ;
-let
+const
 exposeLoader
 =
 loader

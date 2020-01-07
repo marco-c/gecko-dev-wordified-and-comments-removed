@@ -363,7 +363,7 @@ return
 null
 ;
 }
-let
+const
 front
 =
 await
@@ -374,7 +374,7 @@ gripToNodeFront
 grip
 )
 ;
-let
+const
 onInspectorUpdated
 =
 this
@@ -390,7 +390,7 @@ updated
 "
 )
 ;
-let
+const
 onNodeFrontSet
 =
 this

@@ -66,7 +66,7 @@ editor
 "
 )
 ;
-let
+const
 originalPref
 =
 Services

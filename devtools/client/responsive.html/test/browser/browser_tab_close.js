@@ -24,7 +24,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -33,7 +33,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 ui
 }
@@ -44,7 +44,7 @@ openRDM
 tab
 )
 ;
-let
+const
 clientClosed
 =
 waitForClientClose
@@ -96,7 +96,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -105,7 +105,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 ui
 }
@@ -116,7 +116,7 @@ openRDM
 tab
 )
 ;
-let
+const
 clientClosed
 =
 waitForClientClose

@@ -448,7 +448,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -459,7 +459,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 node
 =
 await
@@ -471,7 +471,7 @@ div
 inspector
 )
 ;
-let
+const
 children
 =
 await
@@ -486,7 +486,7 @@ children
 node
 )
 ;
-let
+const
 beforeElement
 =
 children
@@ -537,7 +537,7 @@ correct
 "
 )
 ;
-let
+const
 doc
 =
 boxmodel
@@ -562,7 +562,7 @@ i
 +
 )
 {
-let
+const
 elt
 =
 doc

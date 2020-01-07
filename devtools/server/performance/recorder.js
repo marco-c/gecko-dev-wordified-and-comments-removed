@@ -701,7 +701,7 @@ currentTime
 }
 )
 {
-let
+const
 recordings
 =
 this
@@ -786,14 +786,14 @@ data
 return
 ;
 }
-let
+const
 {
 profileLabel
 }
 =
 data
 ;
-let
+const
 pending
 =
 this
@@ -1084,7 +1084,7 @@ break
 ;
 }
 }
-let
+const
 activeRecordings
 =
 this
@@ -1137,7 +1137,7 @@ success
 =
 true
 ;
-let
+const
 reasons
 =
 [
@@ -1195,7 +1195,7 @@ function
 (
 )
 {
-let
+const
 data
 =
 await
@@ -1218,7 +1218,7 @@ return
 data
 ;
 }
-let
+const
 startData
 =
 await
@@ -1335,7 +1335,7 @@ attach
 )
 ;
 }
-let
+const
 recordingOptions
 =
 Object
@@ -1368,7 +1368,7 @@ recordingOptions
 )
 ;
 }
-let
+const
 [
 profilerStartData
 timelineStartData
@@ -1387,7 +1387,7 @@ memoryStart
 ]
 )
 ;
-let
+const
 data
 =
 Object
@@ -1397,7 +1397,7 @@ create
 null
 )
 ;
-let
+const
 startTimes
 =
 [
@@ -1468,7 +1468,7 @@ getSystemInfo
 (
 )
 ;
-let
+const
 model
 =
 new
@@ -1558,14 +1558,14 @@ model
 1
 )
 ;
-let
+const
 startTime
 =
 model
 .
 _startTime
 ;
-let
+const
 profilerData
 =
 this
@@ -1618,7 +1618,7 @@ stop
 )
 ;
 }
-let
+const
 recordingData
 =
 {

@@ -60,18 +60,18 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -80,7 +80,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 container
 =
 doc
@@ -97,7 +97,7 @@ container
 "
 )
 ;
-let
+const
 w
 =
 new
@@ -167,7 +167,7 @@ added
 "
 )
 ;
-let
+const
 categories
 =
 container
@@ -315,7 +315,7 @@ presetLabel
 =
 >
 {
-let
+const
 preset
 =
 container

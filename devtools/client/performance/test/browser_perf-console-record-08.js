@@ -215,7 +215,7 @@ requestLongerTimeout
 4
 )
 ;
-let
+const
 {
 target
 console
@@ -234,7 +234,7 @@ window
 }
 )
 ;
-let
+const
 {
 panel
 }
@@ -251,7 +251,7 @@ tab
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -1134,7 +1134,7 @@ controller
 expectedBitFlags
 )
 {
-let
+const
 recordings
 =
 controller
@@ -1143,7 +1143,7 @@ getRecordings
 (
 )
 ;
-let
+const
 current
 =
 controller

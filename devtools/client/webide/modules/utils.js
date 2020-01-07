@@ -73,7 +73,7 @@ doesFileExist
 location
 )
 {
-let
+const
 file
 =
 new
@@ -128,7 +128,7 @@ location
 )
 ;
 }
-let
+const
 fp
 =
 Cc
@@ -321,7 +321,7 @@ window
 location
 )
 {
-let
+const
 ret
 =
 {

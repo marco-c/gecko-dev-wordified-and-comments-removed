@@ -295,7 +295,7 @@ grip
 )
 ;
 }
-let
+const
 actor
 =
 new

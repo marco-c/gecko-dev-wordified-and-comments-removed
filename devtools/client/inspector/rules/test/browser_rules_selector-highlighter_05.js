@@ -75,7 +75,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -86,7 +86,7 @@ openRuleView
 (
 )
 ;
-let
+const
 HighlighterFront
 =
 {

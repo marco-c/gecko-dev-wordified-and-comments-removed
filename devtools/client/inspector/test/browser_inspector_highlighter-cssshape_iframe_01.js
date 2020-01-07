@@ -28,7 +28,7 @@ function
 (
 )
 {
-let
+const
 env
 =
 await
@@ -37,7 +37,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 helper
 =
 await
@@ -49,7 +49,7 @@ HIGHLIGHTER_TYPE
 env
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -57,7 +57,7 @@ inspector
 =
 env
 ;
-let
+const
 view
 =
 selectRuleView
@@ -65,14 +65,14 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 highlighters
 =
 view
 .
 highlighters
 ;
-let
+const
 config
 =
 {
@@ -138,7 +138,7 @@ selector
 }
 )
 ;
-let
+const
 highlightedNode
 =
 await
@@ -168,7 +168,7 @@ property
 true
 )
 ;
-let
+const
 {
 mouse
 }

@@ -169,7 +169,7 @@ promises
 [
 ]
 ;
-let
+const
 log
 =
 buildHarLog
@@ -179,7 +179,7 @@ appInfo
 ;
 for
 (
-let
+const
 file
 of
 this
@@ -231,7 +231,7 @@ function
 file
 )
 {
-let
+const
 page
 =
 {
@@ -279,7 +279,7 @@ log
 file
 )
 {
-let
+const
 id
 =
 this
@@ -345,7 +345,7 @@ log
 file
 )
 {
-let
+const
 page
 =
 this
@@ -356,7 +356,7 @@ log
 file
 )
 ;
-let
+const
 entry
 =
 {
@@ -486,7 +486,7 @@ type
 =
 >
 {
-let
+const
 time
 =
 entry
@@ -603,7 +603,7 @@ page
 file
 )
 {
-let
+const
 timings
 =
 {
@@ -617,7 +617,7 @@ onLoad
 1
 }
 ;
-let
+const
 getTimingMarker
 =
 this
@@ -742,7 +742,7 @@ requestCookies
 )
 ;
 }
-let
+const
 request
 =
 {
@@ -955,7 +955,7 @@ value
 =
 >
 {
-let
+const
 multipartHeaders
 =
 CurlUtils
@@ -967,7 +967,7 @@ value
 ;
 for
 (
-let
+const
 header
 of
 multipartHeaders
@@ -1027,7 +1027,7 @@ function
 entries
 )
 {
-let
+const
 result
 =
 [
@@ -1199,7 +1199,7 @@ requestHeaders
 )
 ;
 }
-let
+const
 postData
 =
 {
@@ -1292,7 +1292,7 @@ form
 urlencoded
 "
 ;
-let
+const
 formDataSections
 =
 await
@@ -1318,7 +1318,7 @@ section
 =
 >
 {
-let
+const
 paramsArray
 =
 parseQueryString
@@ -1441,7 +1441,7 @@ responseCookies
 )
 ;
 }
-let
+const
 response
 =
 {
@@ -1528,7 +1528,7 @@ buildContent
 file
 )
 ;
-let
+const
 headers
 =
 responseHeaders
@@ -1539,7 +1539,7 @@ headers
 :
 null
 ;
-let
+const
 headersSize
 =
 responseHeaders
@@ -1624,7 +1624,7 @@ function
 file
 )
 {
-let
+const
 content
 =
 {
@@ -1708,7 +1708,7 @@ content
 encoding
 ;
 }
-let
+const
 includeBodies
 =
 this
@@ -1717,7 +1717,7 @@ _options
 .
 includeResponseBodies
 ;
-let
+const
 contentDiscarded
 =
 responseContent
@@ -1761,7 +1761,7 @@ if
 responseContent
 )
 {
-let
+const
 text
 =
 responseContent
@@ -1804,7 +1804,7 @@ function
 file
 )
 {
-let
+const
 cache
 =
 {
@@ -1863,7 +1863,7 @@ function
 cacheEntry
 )
 {
-let
+const
 cache
 =
 {
@@ -1996,7 +1996,7 @@ function
 string
 )
 {
-let
+const
 promise
 =
 this
@@ -2061,7 +2061,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 result
 =
 arr
@@ -2149,7 +2149,7 @@ return
 s
 ;
 }
-let
+const
 result
 =
 date
@@ -2248,7 +2248,7 @@ getTimezoneOffset
 (
 )
 ;
-let
+const
 positive
 =
 offset
@@ -2264,7 +2264,7 @@ abs
 offset
 )
 ;
-let
+const
 offsetHours
 =
 Math
@@ -2276,7 +2276,7 @@ offset
 60
 )
 ;
-let
+const
 offsetMinutes
 =
 Math
@@ -2288,7 +2288,7 @@ offset
 60
 )
 ;
-let
+const
 prettyOffset
 =
 (

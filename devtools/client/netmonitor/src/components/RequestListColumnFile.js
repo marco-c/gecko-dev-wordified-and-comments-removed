@@ -150,7 +150,7 @@ render
 (
 )
 {
-let
+const
 {
 item
 :

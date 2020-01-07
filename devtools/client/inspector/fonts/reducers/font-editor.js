@@ -101,7 +101,7 @@ properties
 }
 }
 ;
-let
+const
 reducers
 =
 {
@@ -116,7 +116,7 @@ values
 }
 )
 {
-let
+const
 newState
 =
 {
@@ -223,7 +223,7 @@ value
 }
 )
 {
-let
+const
 newState
 =
 {
@@ -317,7 +317,7 @@ properties
 }
 )
 {
-let
+const
 axes
 =
 parseFontVariationAxes
@@ -334,7 +334,7 @@ settings
 ]
 )
 ;
-let
+const
 weight
 =
 properties
@@ -382,7 +382,7 @@ wght
 weight
 ;
 }
-let
+const
 stretch
 =
 properties
@@ -394,7 +394,7 @@ stretch
 "
 ]
 ;
-let
+const
 match
 =
 stretch
@@ -476,7 +476,7 @@ value
 }
 )
 {
-let
+const
 newState
 =
 {
@@ -513,7 +513,7 @@ INITIAL_STATE
 action
 )
 {
-let
+const
 reducer
 =
 reducers

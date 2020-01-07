@@ -252,7 +252,7 @@ name
 =
 >
 {
-let
+const
 supports
 =
 [
@@ -260,7 +260,7 @@ supports
 ;
 for
 (
-let
+const
 type
 in
 CSS_TYPES
@@ -344,7 +344,7 @@ COLOR
 )
 ;
 }
-let
+const
 subproperties
 =
 InspectorUtils

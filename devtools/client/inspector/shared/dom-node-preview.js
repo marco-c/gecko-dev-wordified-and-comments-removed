@@ -207,7 +207,7 @@ function
 containerEl
 )
 {
-let
+const
 document
 =
 containerEl
@@ -1256,7 +1256,7 @@ stopPropagation
 (
 )
 ;
-let
+const
 classList
 =
 this
@@ -1265,7 +1265,7 @@ highlightNodeEl
 .
 classList
 ;
-let
+const
 isHighlighted
 =
 classList
@@ -1421,7 +1421,7 @@ return
 }
 for
 (
-let
+const
 {
 target
 }
@@ -1467,7 +1467,7 @@ nodeFront
 =
 nodeFront
 ;
-let
+const
 {
 displayName
 attributes
@@ -1564,7 +1564,7 @@ inline
 "
 ;
 }
-let
+const
 idIndex
 =
 attributes
@@ -1654,7 +1654,7 @@ none
 "
 ;
 }
-let
+const
 classIndex
 =
 attributes
@@ -1803,7 +1803,7 @@ this
 highlighter
 )
 {
-let
+const
 util
 =
 animationTargetNode

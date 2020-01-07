@@ -1622,7 +1622,7 @@ resolve
 =
 >
 {
-let
+const
 component
 =
 ReactDOM

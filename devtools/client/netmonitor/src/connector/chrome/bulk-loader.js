@@ -8,7 +8,7 @@ bulkLoader
 =
 undefined
 ;
-let
+const
 PriorityLevels
 =
 {
@@ -85,12 +85,12 @@ dequeue
 (
 )
 {
-let
+const
 self
 =
 this
 ;
-let
+const
 recursive
 =
 (
@@ -113,7 +113,7 @@ busy
 =
 true
 ;
-let
+const
 next
 =
 this

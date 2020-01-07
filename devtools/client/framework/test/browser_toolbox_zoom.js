@@ -117,7 +117,7 @@ blank
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -129,7 +129,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -233,7 +233,7 @@ key
 times
 )
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -261,7 +261,7 @@ zoom
 type
 )
 ;
-let
+const
 savedZoom
 =
 parseFloat
@@ -346,7 +346,7 @@ getCurrentZoom
 toolbox
 )
 {
-let
+const
 windowUtils
 =
 toolbox

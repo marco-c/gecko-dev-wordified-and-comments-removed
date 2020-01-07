@@ -106,7 +106,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -159,7 +159,7 @@ inspector
 ruleView
 )
 {
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -170,7 +170,7 @@ ruleView
 .
 rule
 ;
-let
+const
 prop
 =
 idRule
@@ -303,7 +303,7 @@ value
 "
 )
 ;
-let
+const
 onNameDone
 =
 ruleView
@@ -317,7 +317,7 @@ changed
 "
 )
 ;
-let
+const
 onFocus
 =
 once
@@ -457,7 +457,7 @@ it
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -472,7 +472,7 @@ blur
 ;
 for
 (
-let
+const
 ch
 of
 "
@@ -481,7 +481,7 @@ red
 "
 )
 {
-let
+const
 onPreviewDone
 =
 ruleView
@@ -542,7 +542,7 @@ appropriate
 await
 onBlur
 ;
-let
+const
 newValue
 =
 await
@@ -614,7 +614,7 @@ red
 "
 )
 ;
-let
+const
 props
 =
 ruleView
@@ -692,7 +692,7 @@ inspector
 ruleView
 )
 {
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -703,7 +703,7 @@ ruleView
 .
 rule
 ;
-let
+const
 prop
 =
 idRule
@@ -865,7 +865,7 @@ testid
 inspector
 )
 ;
-let
+const
 props
 =
 ruleView

@@ -27,7 +27,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -47,14 +47,14 @@ div
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 inline
 =
 STYLE_INSPECTOR_L10N

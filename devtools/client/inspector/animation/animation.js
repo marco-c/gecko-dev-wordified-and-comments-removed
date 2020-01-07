@@ -1151,7 +1151,7 @@ cssText
 ;
 for
 (
-let
+const
 propertyName
 in
 styles

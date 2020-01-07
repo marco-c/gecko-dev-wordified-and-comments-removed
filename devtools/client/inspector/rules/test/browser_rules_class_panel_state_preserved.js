@@ -41,7 +41,7 @@ div
 "
 )
 ;
-let
+const
 {
 inspector
 view

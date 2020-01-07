@@ -29,7 +29,7 @@ get
 (
 )
 {
-let
+const
 {
 require
 }
@@ -130,7 +130,7 @@ gDevToolsBrowser
 }
 )
 ;
-let
+const
 gDevToolsMethods
 =
 [
@@ -266,7 +266,7 @@ args
 }
 )
 ;
-let
+const
 gDevToolsBrowserMethods
 =
 [

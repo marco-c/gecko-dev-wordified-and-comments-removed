@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -68,7 +68,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -80,7 +80,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -100,7 +100,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -272,7 +272,7 @@ REQUEST_DATA
 length
 )
 ;
-let
+const
 requests
 =
 getSortedRequests
@@ -310,7 +310,7 @@ stackTrace
 )
 )
 ;
-let
+const
 requestItems
 =
 document
@@ -329,7 +329,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestItems
@@ -341,7 +341,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -390,13 +390,13 @@ index
 ;
 for
 (
-let
+const
 request
 of
 REQUEST_DATA
 )
 {
-let
+const
 item
 =
 getSortedRequests
@@ -447,14 +447,14 @@ request
 details
 )
 ;
-let
+const
 {
 stacktrace
 }
 =
 item
 ;
-let
+const
 stackLen
 =
 stacktrace

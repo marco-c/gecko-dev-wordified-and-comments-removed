@@ -248,7 +248,7 @@ sourceInline
 )
 ;
 }
-let
+const
 dataUrl
 =
 sheet
@@ -353,7 +353,7 @@ url
 pathname
 )
 {
-let
+const
 index
 =
 url
@@ -456,7 +456,7 @@ LINE_SEPARATOR
 null
 )
 {
-let
+const
 os
 =
 Services
@@ -492,7 +492,7 @@ n
 )
 ;
 }
-let
+const
 trimmed
 =
 text
@@ -549,7 +549,7 @@ trim
 )
 ;
 }
-let
+const
 originalText
 =
 text
@@ -562,7 +562,7 @@ trim
 (
 )
 ;
-let
+const
 lineCount
 =
 text
@@ -609,7 +609,7 @@ indentLevel
 =
 0
 ;
-let
+const
 tokens
 =
 CSSLexer
@@ -630,7 +630,7 @@ pushbackToken
 =
 undefined
 ;
-let
+const
 readUntilSignificantToken
 =
 (
@@ -643,7 +643,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 tokens
@@ -677,7 +677,7 @@ return
 token
 ;
 }
-let
+const
 nextToken
 =
 tokens
@@ -745,7 +745,7 @@ isCloseBrace
 let
 lastWasWS
 ;
-let
+const
 readUntilNewlineNeeded
 =
 (
@@ -1027,7 +1027,7 @@ LINE_SEPARATOR
 }
 }
 }
-let
+const
 tabPrefs
 =
 getTabPrefs
@@ -1389,7 +1389,7 @@ classList
 {
 for
 (
-let
+const
 cl
 of
 element
@@ -1413,7 +1413,7 @@ label
 ;
 }
 ;
-let
+const
 paths
 =
 [
@@ -1857,7 +1857,7 @@ getCSSStyleRules
 node
 )
 {
-let
+const
 {
 bindingElement
 pseudo

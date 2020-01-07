@@ -122,17 +122,17 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -145,7 +145,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -179,13 +179,13 @@ UI_FLATTEN_RECURSION_PREF
 true
 )
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -202,7 +202,7 @@ EVENTS
 UI_MEMORY_FLAMEGRAPH_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -214,10 +214,10 @@ flamegraph
 "
 )
 ;
-yield
+await
 rendered
 ;
-let
+const
 allocations1
 =
 PerformanceController
@@ -230,7 +230,7 @@ getAllocations
 (
 )
 ;
-let
+const
 thread1
 =
 RecordingUtils
@@ -240,7 +240,7 @@ getProfileThreadFromAllocations
 allocations1
 )
 ;
-let
+const
 rendering1
 =
 FlameGraphUtils
@@ -317,7 +317,7 @@ UI_FLATTEN_RECURSION_PREF
 false
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -337,7 +337,7 @@ recursion
 "
 )
 ;
-let
+const
 allocations2
 =
 PerformanceController
@@ -350,7 +350,7 @@ getAllocations
 (
 )
 ;
-let
+const
 thread2
 =
 RecordingUtils
@@ -360,7 +360,7 @@ getProfileThreadFromAllocations
 allocations2
 )
 ;
-let
+const
 rendering2
 =
 FlameGraphUtils
@@ -461,7 +461,7 @@ UI_FLATTEN_RECURSION_PREF
 true
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -482,7 +482,7 @@ recursion
 "
 )
 ;
-let
+const
 allocations3
 =
 PerformanceController
@@ -495,7 +495,7 @@ getAllocations
 (
 )
 ;
-let
+const
 thread3
 =
 RecordingUtils
@@ -505,7 +505,7 @@ getProfileThreadFromAllocations
 allocations3
 )
 ;
-let
+const
 rendering3
 =
 FlameGraphUtils
@@ -586,7 +586,7 @@ used
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

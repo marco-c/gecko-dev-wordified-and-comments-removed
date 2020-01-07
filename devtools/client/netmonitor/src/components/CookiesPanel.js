@@ -240,7 +240,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 connector
 request
@@ -272,7 +272,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 connector
 request
@@ -459,7 +459,7 @@ COOKIES_EMPTY_TEXT
 )
 ;
 }
-let
+const
 object
 =
 {

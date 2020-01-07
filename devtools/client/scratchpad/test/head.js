@@ -190,7 +190,7 @@ aOptions
 }
 )
 {
-let
+const
 win
 =
 aOptions
@@ -216,7 +216,7 @@ win
 return
 ;
 }
-let
+const
 onLoad
 =
 function
@@ -346,7 +346,7 @@ addTab
 gBrowser
 )
 ;
-let
+const
 {
 selectedBrowser
 }
@@ -432,7 +432,7 @@ function
 }
 )
 {
-let
+const
 file
 =
 FileUtils
@@ -465,7 +465,7 @@ parseInt
 )
 )
 ;
-let
+const
 fout
 =
 Cc
@@ -523,7 +523,7 @@ fout
 DEFER_OPEN
 )
 ;
-let
+const
 converter
 =
 Cc
@@ -556,7 +556,7 @@ UTF
 8
 "
 ;
-let
+const
 fileContentStream
 =
 converter
@@ -594,7 +594,7 @@ aScratchpad
 aTests
 )
 {
-let
+const
 deferred
 =
 defer
@@ -614,7 +614,7 @@ aTests
 length
 )
 {
-let
+const
 test
 =
 aTests
@@ -729,7 +729,7 @@ aTests
 {
 for
 (
-let
+const
 {
 prepare
 method
@@ -744,7 +744,7 @@ prepare
 (
 )
 ;
-let
+const
 res
 =
 await

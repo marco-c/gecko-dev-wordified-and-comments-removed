@@ -159,7 +159,7 @@ render
 (
 )
 {
-let
+const
 {
 fonts
 fontOptions

@@ -165,7 +165,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -180,7 +180,7 @@ PAGE_1
 ;
 for
 (
-let
+const
 {
 url
 nodeToSelect
@@ -225,7 +225,7 @@ navigateToAndWaitForNewRoot
 url
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -290,7 +290,7 @@ navigation
 "
 )
 ;
-let
+const
 current
 =
 await
@@ -322,7 +322,7 @@ page
 "
 )
 ;
-let
+const
 markuploaded
 =
 inspector
@@ -334,7 +334,7 @@ markuploaded
 "
 )
 ;
-let
+const
 onNewRoot
 =
 inspector
@@ -348,7 +348,7 @@ root
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -362,7 +362,7 @@ updated
 "
 )
 ;
-let
+const
 activeTab
 =
 toolbox

@@ -177,7 +177,7 @@ function
 (
 )
 {
-let
+const
 form
 =
 content
@@ -470,7 +470,7 @@ net
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -497,7 +497,7 @@ i
 +
 )
 {
-let
+const
 test
 =
 TESTS
@@ -535,7 +535,7 @@ test
 hud
 )
 {
-let
+const
 {
 file
 category
@@ -561,7 +561,7 @@ browserTabsRemoteAutostart
 return
 ;
 }
-let
+const
 onMessageLogged
 =
 waitForMessage
@@ -570,7 +570,7 @@ hud
 matchString
 )
 ;
-let
+const
 onMessageObserved
 =
 new

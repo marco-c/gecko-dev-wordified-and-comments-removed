@@ -312,7 +312,7 @@ shortcut
 "
 )
 ;
-let
+const
 splitConsoleReady
 =
 toolbox
@@ -431,7 +431,7 @@ getCurrentUIState
 (
 )
 {
-let
+const
 deck
 =
 toolbox
@@ -448,14 +448,14 @@ deck
 "
 )
 ;
-let
+const
 webconsolePanel
 =
 toolbox
 .
 webconsolePanel
 ;
-let
+const
 splitter
 =
 toolbox
@@ -474,7 +474,7 @@ splitter
 "
 )
 ;
-let
+const
 containerHeight
 =
 deck
@@ -487,7 +487,7 @@ getBoundingClientRect
 .
 height
 ;
-let
+const
 deckHeight
 =
 deck
@@ -498,7 +498,7 @@ getBoundingClientRect
 .
 height
 ;
-let
+const
 webconsoleHeight
 =
 webconsolePanel
@@ -509,7 +509,7 @@ getBoundingClientRect
 .
 height
 ;
-let
+const
 splitterVisibility
 =
 !
@@ -522,7 +522,7 @@ hidden
 "
 )
 ;
-let
+const
 openedConsolePanel
 =
 toolbox
@@ -535,7 +535,7 @@ currentToolId
 webconsole
 "
 ;
-let
+const
 menuLabel
 =
 await
@@ -1562,7 +1562,7 @@ openPanel
 toolId
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -1631,7 +1631,7 @@ is
 hostType
 )
 ;
-let
+const
 pref
 =
 Services

@@ -84,7 +84,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -113,7 +113,7 @@ div
 inspector
 )
 ;
-let
+const
 container
 =
 await
@@ -154,7 +154,7 @@ event
 "
 )
 ;
-let
+const
 nodeMutated
 =
 inspector
@@ -166,7 +166,7 @@ markupmutation
 "
 )
 ;
-let
+const
 attr
 =
 container
@@ -208,7 +208,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 input
 =
 inplaceEditor

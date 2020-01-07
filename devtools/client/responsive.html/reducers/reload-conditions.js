@@ -53,7 +53,7 @@ loadableState
 INITIALIZED
 }
 ;
-let
+const
 reducers
 =
 {
@@ -127,7 +127,7 @@ INITIAL_RELOAD_CONDITIONS
 action
 )
 {
-let
+const
 reducer
 =
 reducers

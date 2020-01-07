@@ -452,7 +452,7 @@ _window
 .
 devicePixelRatio
 ;
-let
+const
 container
 =
 this
@@ -490,7 +490,7 @@ widget
 container
 "
 ;
-let
+const
 canvas
 =
 this
@@ -528,7 +528,7 @@ widget
 canvas
 "
 ;
-let
+const
 bounds
 =
 parent
@@ -842,7 +842,7 @@ this
 _onMouseOut
 )
 ;
-let
+const
 ownerWindow
 =
 this
@@ -1052,7 +1052,7 @@ this
 _onMouseOut
 )
 ;
-let
+const
 ownerWindow
 =
 this
@@ -1248,7 +1248,7 @@ function
 (
 )
 {
-let
+const
 error
 =
 "
@@ -1803,7 +1803,7 @@ coordinates
 )
 ;
 }
-let
+const
 {
 mapStart
 mapEnd
@@ -1811,7 +1811,7 @@ mapEnd
 =
 mapping
 ;
-let
+const
 startTime
 =
 (
@@ -1836,7 +1836,7 @@ _data
 ]
 )
 ;
-let
+const
 endTime
 =
 (
@@ -2022,7 +2022,7 @@ null
 }
 ;
 }
-let
+const
 {
 mapStart
 mapEnd
@@ -2030,7 +2030,7 @@ mapEnd
 =
 mapping
 ;
-let
+const
 startTime
 =
 (
@@ -2055,7 +2055,7 @@ _data
 ]
 )
 ;
-let
+const
 endTime
 =
 (
@@ -2086,7 +2086,7 @@ length
 ]
 )
 ;
-let
+const
 selection
 =
 this
@@ -2490,7 +2490,7 @@ return
 true
 ;
 }
-let
+const
 current
 =
 this
@@ -2537,7 +2537,7 @@ return
 true
 ;
 }
-let
+const
 current
 =
 this
@@ -2573,7 +2573,7 @@ function
 (
 )
 {
-let
+const
 selection
 =
 this
@@ -2625,7 +2625,7 @@ return
 null
 ;
 }
-let
+const
 {
 x
 }
@@ -2694,7 +2694,7 @@ options
 }
 )
 {
-let
+const
 bounds
 =
 this
@@ -2705,7 +2705,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 newWidth
 =
 this
@@ -2717,7 +2717,7 @@ bounds
 .
 width
 ;
-let
+const
 newHeight
 =
 this
@@ -2792,7 +2792,7 @@ hasSelection
 )
 )
 {
-let
+const
 ratio
 =
 this
@@ -3033,7 +3033,7 @@ this
 _height
 )
 {
-let
+const
 cachedRenderTarget
 =
 this
@@ -3050,7 +3050,7 @@ if
 cachedRenderTarget
 )
 {
-let
+const
 {
 canvas
 ctx
@@ -3084,7 +3084,7 @@ return
 cachedRenderTarget
 ;
 }
-let
+const
 canvas
 =
 this
@@ -3099,7 +3099,7 @@ canvas
 "
 )
 ;
-let
+const
 ctx
 =
 canvas
@@ -3123,7 +3123,7 @@ height
 =
 height
 ;
-let
+const
 renderTarget
 =
 {
@@ -3197,7 +3197,7 @@ _shouldRedraw
 return
 ;
 }
-let
+const
 ctx
 =
 this
@@ -3407,7 +3407,7 @@ _isHoveringRegion
 return
 ;
 }
-let
+const
 ctx
 =
 this
@@ -3475,7 +3475,7 @@ function
 (
 )
 {
-let
+const
 {
 start
 end
@@ -3487,7 +3487,7 @@ getSelection
 (
 )
 ;
-let
+const
 input
 =
 this
@@ -3501,7 +3501,7 @@ input
 "
 )
 ;
-let
+const
 ctx
 =
 this
@@ -3516,7 +3516,7 @@ this
 .
 selectionLineColor
 ;
-let
+const
 pattern
 =
 AbstractCanvasGraph
@@ -3548,7 +3548,7 @@ fillStyle
 =
 pattern
 ;
-let
+const
 rectStart
 =
 Math
@@ -3567,7 +3567,7 @@ start
 )
 )
 ;
-let
+const
 rectEnd
 =
 Math
@@ -3737,7 +3737,7 @@ regions
 destination
 )
 {
-let
+const
 ctx
 =
 destination
@@ -3749,7 +3749,7 @@ getContext
 "
 )
 ;
-let
+const
 pattern
 =
 AbstractCanvasGraph
@@ -3793,13 +3793,13 @@ lineWidth
 =
 GRAPH_REGION_LINE_WIDTH
 ;
-let
+const
 y
 =
 -
 GRAPH_REGION_LINE_WIDTH
 ;
-let
+const
 height
 =
 this
@@ -3810,7 +3810,7 @@ GRAPH_REGION_LINE_WIDTH
 ;
 for
 (
-let
+const
 {
 start
 end
@@ -3819,12 +3819,12 @@ of
 regions
 )
 {
-let
+const
 x
 =
 start
 ;
-let
+const
 width
 =
 end
@@ -3881,7 +3881,7 @@ return
 false
 ;
 }
-let
+const
 {
 x
 }
@@ -3890,7 +3890,7 @@ this
 .
 _cursor
 ;
-let
+const
 {
 start
 }
@@ -3899,7 +3899,7 @@ this
 .
 _selection
 ;
-let
+const
 threshold
 =
 GRAPH_SELECTION_BOUNDARY_HOVER_THRESHOLD
@@ -3949,7 +3949,7 @@ return
 false
 ;
 }
-let
+const
 {
 x
 }
@@ -3958,7 +3958,7 @@ this
 .
 _cursor
 ;
-let
+const
 {
 end
 }
@@ -3967,7 +3967,7 @@ this
 .
 _selection
 ;
-let
+const
 threshold
 =
 GRAPH_SELECTION_BOUNDARY_HOVER_THRESHOLD
@@ -4017,7 +4017,7 @@ return
 false
 ;
 }
-let
+const
 {
 x
 }
@@ -4026,7 +4026,7 @@ this
 .
 _cursor
 ;
-let
+const
 {
 start
 end
@@ -4174,7 +4174,7 @@ this
 _maybeDirtyBoundingBox
 )
 {
-let
+const
 topDocument
 =
 this
@@ -4183,7 +4183,7 @@ _topWindow
 .
 document
 ;
-let
+const
 boxQuad
 =
 this
@@ -4215,14 +4215,14 @@ _maybeDirtyBoundingBox
 false
 ;
 }
-let
+const
 bb
 =
 this
 .
 _boundingBox
 ;
-let
+const
 x
 =
 (
@@ -4243,7 +4243,7 @@ p1
 .
 x
 ;
-let
+const
 y
 =
 (
@@ -4264,7 +4264,7 @@ p1
 .
 y
 ;
-let
+const
 maxX
 =
 bb
@@ -4279,7 +4279,7 @@ p1
 .
 x
 ;
-let
+const
 maxY
 =
 bb
@@ -4336,7 +4336,7 @@ this
 .
 _pixelRatio
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -4370,14 +4370,14 @@ function
 e
 )
 {
-let
+const
 resizer
 =
 this
 .
 _selectionResizer
 ;
-let
+const
 dragger
 =
 this
@@ -4447,7 +4447,7 @@ _onMouseUp
 return
 ;
 }
-let
+const
 {
 mouseX
 mouseY
@@ -4728,7 +4728,7 @@ return
 ;
 }
 }
-let
+const
 region
 =
 this
@@ -4798,7 +4798,7 @@ _isMouseActive
 =
 true
 ;
-let
+const
 {
 mouseX
 }
@@ -5094,7 +5094,7 @@ getSelectionWidth
 1
 )
 {
-let
+const
 region
 =
 this
@@ -5327,7 +5327,7 @@ hasSelection
 return
 ;
 }
-let
+const
 {
 mouseX
 }
@@ -5339,12 +5339,12 @@ _getRelativeEventCoordinates
 e
 )
 ;
-let
+const
 focusX
 =
 mouseX
 ;
-let
+const
 selection
 =
 this
@@ -5365,7 +5365,7 @@ _isHoveringSelectionContentsOrBoundaries
 )
 )
 {
-let
+const
 distStart
 =
 selection
@@ -5374,7 +5374,7 @@ start
 -
 focusX
 ;
-let
+const
 distEnd
 =
 selection
@@ -5495,12 +5495,12 @@ end
 vector
 ;
 }
-let
+const
 minStart
 =
 GRAPH_MAX_SELECTION_LEFT_PADDING
 ;
-let
+const
 maxEnd
 =
 this
@@ -5573,7 +5573,7 @@ end
 maxEnd
 ;
 }
-let
+const
 thickness
 =
 Math
@@ -5596,7 +5596,7 @@ thickness
 GRAPH_WHEEL_MIN_SELECTION_WIDTH
 )
 {
-let
+const
 midPoint
 =
 (
@@ -5754,7 +5754,7 @@ parent
 callback
 )
 {
-let
+const
 iframe
 =
 parent
@@ -5860,7 +5860,7 @@ function
 data
 )
 {
-let
+const
 {
 ownerDocument
 backgroundColor
@@ -5869,7 +5869,7 @@ stripesColor
 =
 data
 ;
-let
+const
 id
 =
 [
@@ -5902,7 +5902,7 @@ id
 )
 ;
 }
-let
+const
 canvas
 =
 ownerDocument
@@ -5915,7 +5915,7 @@ canvas
 "
 )
 ;
-let
+const
 ctx
 =
 canvas
@@ -5927,7 +5927,7 @@ getContext
 "
 )
 ;
-let
+const
 width
 =
 canvas
@@ -5936,7 +5936,7 @@ width
 =
 GRAPH_STRIPE_PATTERN_WIDTH
 ;
-let
+const
 height
 =
 canvas
@@ -5961,7 +5961,7 @@ width
 height
 )
 ;
-let
+const
 pixelRatio
 =
 ownerDocument
@@ -5970,14 +5970,14 @@ defaultView
 .
 devicePixelRatio
 ;
-let
+const
 scaledLineWidth
 =
 GRAPH_STRIPE_PATTERN_LINE_WIDTH
 *
 pixelRatio
 ;
-let
+const
 scaledLineSpacing
 =
 GRAPH_STRIPE_PATTERN_LINE_SPACING
@@ -6054,7 +6054,7 @@ stroke
 (
 )
 ;
-let
+const
 pattern
 =
 ctx
@@ -6133,7 +6133,7 @@ ready
 (
 )
 ;
-let
+const
 window
 =
 graph1
@@ -6158,7 +6158,7 @@ graph2
 _animationId
 )
 ;
-let
+const
 loop
 =
 (
@@ -6349,7 +6349,7 @@ task
 data
 )
 {
-let
+const
 worker
 =
 this
@@ -6385,7 +6385,7 @@ ostart
 ostop
 )
 {
-let
+const
 ratio
 =
 istop

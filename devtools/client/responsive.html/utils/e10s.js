@@ -154,7 +154,7 @@ message
 data
 )
 {
-let
+const
 done
 =
 once

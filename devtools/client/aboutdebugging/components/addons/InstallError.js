@@ -145,7 +145,7 @@ return
 null
 ;
 }
-let
+const
 text
 =
 Strings

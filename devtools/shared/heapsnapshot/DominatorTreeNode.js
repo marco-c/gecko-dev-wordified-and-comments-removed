@@ -901,7 +901,7 @@ targets
 ;
 for
 (
-let
+const
 node
 of
 treeNodes
@@ -944,7 +944,7 @@ maxNumPaths
 ;
 for
 (
-let
+const
 [
 target
 paths

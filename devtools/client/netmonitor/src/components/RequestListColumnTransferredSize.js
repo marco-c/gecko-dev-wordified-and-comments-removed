@@ -234,7 +234,7 @@ render
 (
 )
 {
-let
+const
 {
 fromCache
 fromServiceWorker

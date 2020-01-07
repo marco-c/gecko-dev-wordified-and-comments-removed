@@ -770,7 +770,7 @@ true
 ;
 for
 (
-let
+const
 test
 of
 TESTS_SPACE_INDENT
@@ -783,7 +783,7 @@ test
 name
 )
 ;
-let
+const
 input
 =
 test
@@ -805,7 +805,7 @@ prettifyCSS
 LINE_SEPARATOR
 )
 ;
-let
+const
 output
 =
 prettifyCSS
@@ -813,7 +813,7 @@ prettifyCSS
 input
 )
 ;
-let
+const
 expected
 =
 test
@@ -853,7 +853,7 @@ false
 ;
 for
 (
-let
+const
 test
 of
 TESTS_TAB_INDENT
@@ -866,7 +866,7 @@ test
 name
 )
 ;
-let
+const
 input
 =
 test
@@ -888,7 +888,7 @@ prettifyCSS
 LINE_SEPARATOR
 )
 ;
-let
+const
 output
 =
 prettifyCSS
@@ -896,7 +896,7 @@ prettifyCSS
 input
 )
 ;
-let
+const
 expected
 =
 test

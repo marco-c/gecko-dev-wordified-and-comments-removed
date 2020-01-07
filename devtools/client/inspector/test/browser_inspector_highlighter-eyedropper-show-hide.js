@@ -27,7 +27,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -110,7 +110,7 @@ default
 "
 )
 ;
-let
+const
 hidden
 =
 await
@@ -194,7 +194,7 @@ shown
 "
 )
 ;
-let
+const
 style
 =
 await

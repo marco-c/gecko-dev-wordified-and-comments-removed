@@ -75,7 +75,7 @@ frame
 "
 )
 ;
-let
+const
 FrameActor
 =
 ActorClassWithSpec
@@ -194,7 +194,7 @@ return
 }
 ;
 }
-let
+const
 envActor
 =
 this
@@ -227,14 +227,14 @@ function
 (
 )
 {
-let
+const
 threadActor
 =
 this
 .
 threadActor
 ;
-let
+const
 form
 =
 {
@@ -370,7 +370,7 @@ frame
 script
 )
 {
-let
+const
 generatedLocation
 =
 this

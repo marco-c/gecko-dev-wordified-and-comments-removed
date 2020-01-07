@@ -98,7 +98,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -109,7 +109,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 markupContainer
 =
 await
@@ -122,7 +122,7 @@ events
 inspector
 )
 ;
-let
+const
 evHolder
 =
 markupContainer
@@ -141,7 +141,7 @@ badge
 "
 )
 ;
-let
+const
 tooltip
 =
 inspector
@@ -197,14 +197,14 @@ visible
 "
 )
 ;
-let
+const
 container
 =
 tooltip
 .
 panel
 ;
-let
+const
 containerRect
 =
 container
@@ -213,7 +213,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 headers
 =
 container
@@ -230,7 +230,7 @@ header
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -270,7 +270,7 @@ bottom
 "
 )
 ;
-let
+const
 newScrollTop
 =
 container
@@ -349,7 +349,7 @@ data
 headerToClick
 )
 ;
-let
+const
 header
 =
 headers
@@ -359,7 +359,7 @@ data
 headerToClick
 ]
 ;
-let
+const
 ready
 =
 tooltip
@@ -412,7 +412,7 @@ data
 alignTop
 )
 {
-let
+const
 headerRect
 =
 header
@@ -461,7 +461,7 @@ data
 alignBottom
 )
 {
-let
+const
 editorRect
 =
 header

@@ -336,7 +336,7 @@ this
 )
 )
 ;
-let
+const
 files
 =
 event
@@ -354,7 +354,7 @@ files
 return
 ;
 }
-let
+const
 {
 actions
 openSplitConsole
@@ -371,7 +371,7 @@ files
 length
 )
 {
-let
+const
 file
 =
 files
@@ -480,7 +480,7 @@ resolve
 =
 >
 {
-let
+const
 fileReader
 =
 new

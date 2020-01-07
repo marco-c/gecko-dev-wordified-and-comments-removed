@@ -144,7 +144,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 view
@@ -171,7 +171,7 @@ alive
 "
 )
 ;
-let
+const
 viewDoc
 =
 view
@@ -231,7 +231,7 @@ inspector
 viewDoc
 )
 {
-let
+const
 lis
 =
 getUsedFontsEls
@@ -270,7 +270,7 @@ i
 +
 )
 {
-let
+const
 li
 =
 lis
@@ -278,7 +278,7 @@ lis
 i
 ]
 ;
-let
+const
 font
 =
 FONTS
@@ -349,7 +349,7 @@ correct
 )
 ;
 }
-let
+const
 regSrc
 =
 lis
@@ -369,7 +369,7 @@ preview
 .
 src
 ;
-let
+const
 boldSrc
 =
 lis
@@ -405,7 +405,7 @@ regular
 "
 )
 ;
-let
+const
 localFontName
 =
 getName
@@ -473,7 +473,7 @@ inspector
 viewDoc
 )
 {
-let
+const
 updated
 =
 inspector
@@ -499,7 +499,7 @@ inspector
 await
 updated
 ;
-let
+const
 lis
 =
 getUsedFontsEls

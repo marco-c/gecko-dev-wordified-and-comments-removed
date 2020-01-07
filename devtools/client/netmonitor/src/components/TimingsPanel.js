@@ -204,7 +204,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 connector
 request
@@ -233,7 +233,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 connector
 request
@@ -303,7 +303,7 @@ idx
 =
 >
 {
-let
+const
 offset
 =
 offsets

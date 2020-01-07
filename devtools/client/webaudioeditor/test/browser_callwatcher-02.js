@@ -16,7 +16,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -28,14 +28,14 @@ initWebAudioEditor
 BUG_1112378_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -48,7 +48,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 rendered
 =
 waitForGraphRendered

@@ -41,7 +41,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -105,7 +105,7 @@ item
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -113,7 +113,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 showDOMPropertiesNode
 =
 allMenuItems
@@ -154,7 +154,7 @@ item
 "
 )
 ;
-let
+const
 consoleOpened
 =
 toolbox
@@ -194,7 +194,7 @@ click
 await
 consoleOpened
 ;
-let
+const
 webconsoleUI
 =
 toolbox
@@ -210,7 +210,7 @@ hud
 .
 ui
 ;
-let
+const
 messagesAdded
 =
 webconsoleUI
@@ -243,7 +243,7 @@ evaluated
 "
 )
 ;
-let
+const
 state
 =
 webconsoleUI
@@ -346,7 +346,7 @@ node
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -354,7 +354,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems
@@ -411,7 +411,7 @@ update
 "
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -460,7 +460,7 @@ markup
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -526,7 +526,7 @@ delete
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -534,7 +534,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 deleteNode
 =
 allMenuItems
@@ -574,7 +574,7 @@ item
 "
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -659,14 +659,14 @@ elements
 "
 )
 ;
-let
+const
 {
 walker
 }
 =
 inspector
 ;
-let
+const
 divBefore
 =
 await
@@ -683,7 +683,7 @@ nestedHiddenElement
 "
 )
 ;
-let
+const
 {
 nodes
 }
@@ -711,7 +711,7 @@ highlight
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -719,7 +719,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 deleteNode
 =
 allMenuItems
@@ -776,7 +776,7 @@ disabled
 "
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -816,7 +816,7 @@ click
 await
 updated
 ;
-let
+const
 divAfter
 =
 await
@@ -833,7 +833,7 @@ nestedHiddenElement
 "
 )
 ;
-let
+const
 nodesAfter
 =
 (
@@ -900,7 +900,7 @@ html
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -908,7 +908,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 deleteNode
 =
 allMenuItems

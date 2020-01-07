@@ -51,7 +51,7 @@ function
 har
 )
 {
-let
+const
 json
 =
 JSON
@@ -84,7 +84,7 @@ clearRequests
 (
 )
 ;
-let
+const
 pages
 =
 new
@@ -129,7 +129,7 @@ entry
 =
 >
 {
-let
+const
 requestId
 =
 String
@@ -139,7 +139,7 @@ String
 guid
 )
 ;
-let
+const
 startedMillis
 =
 Date
@@ -324,7 +324,7 @@ type
 =
 >
 {
-let
+const
 time
 =
 entry
@@ -446,7 +446,7 @@ false
 false
 )
 ;
-let
+const
 pageTimings
 =
 pages

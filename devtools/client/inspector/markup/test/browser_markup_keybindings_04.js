@@ -39,7 +39,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -234,7 +234,7 @@ selectPreviousNodeWithArrowUp
 inspector
 )
 {
-let
+const
 onNodeHighlighted
 =
 inspector
@@ -250,7 +250,7 @@ highlight
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector

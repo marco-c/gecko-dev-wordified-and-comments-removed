@@ -136,7 +136,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -145,7 +145,7 @@ connectPipe
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -154,7 +154,7 @@ DebuggerClient
 transport
 )
 ;
-let
+const
 dbgState
 =
 {
@@ -420,7 +420,7 @@ form
 actor
 )
 ;
-let
+const
 consoleActor
 =
 response
@@ -504,7 +504,7 @@ response
 return
 ;
 }
-let
+const
 tab
 =
 response
@@ -516,7 +516,7 @@ response
 selected
 ]
 ;
-let
+const
 [
 tabClient
 ]
@@ -538,7 +538,7 @@ if
 attachToWorker
 )
 {
-let
+const
 workerName
 =
 "
@@ -561,7 +561,7 @@ getTime
 (
 )
 ;
-let
+const
 worker
 =
 new
@@ -582,7 +582,7 @@ waitForMessage
 worker
 )
 ;
-let
+const
 {
 workers
 }
@@ -594,7 +594,7 @@ listWorkers
 (
 )
 ;
-let
+const
 workerActor
 =
 workers
@@ -648,7 +648,7 @@ n
 return
 ;
 }
-let
+const
 [
 workerResponse
 workerClient
@@ -947,7 +947,7 @@ expected
 {
 for
 (
-let
+const
 name
 of
 Object
@@ -958,7 +958,7 @@ expected
 )
 )
 {
-let
+const
 expectedValue
 =
 expected
@@ -966,7 +966,7 @@ expected
 name
 ]
 ;
-let
+const
 value
 =
 object
@@ -1230,7 +1230,7 @@ array
 expected
 )
 {
-let
+const
 foundHeaders
 =
 {
@@ -1238,7 +1238,7 @@ foundHeaders
 ;
 for
 (
-let
+const
 elem
 of
 array
@@ -1301,7 +1301,7 @@ name
 }
 for
 (
-let
+const
 header
 in
 expected
@@ -1339,7 +1339,7 @@ text
 expected
 )
 {
-let
+const
 headers
 =
 text
@@ -1360,7 +1360,7 @@ r
 /
 )
 ;
-let
+const
 arr
 =
 [
@@ -1368,13 +1368,13 @@ arr
 ;
 for
 (
-let
+const
 header
 of
 headers
 )
 {
-let
+const
 index
 =
 header
@@ -1478,7 +1478,7 @@ index
 =
 i
 ;
-let
+const
 fn
 =
 tests
@@ -1571,7 +1571,7 @@ url
 scope
 )
 {
-let
+const
 opts
 =
 {
@@ -1627,7 +1627,7 @@ resolve
 =
 >
 {
-let
+const
 sw
 =
 swr

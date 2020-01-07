@@ -1524,7 +1524,7 @@ true
 ;
 try
 {
-let
+const
 packet
 =
 this
@@ -1786,7 +1786,7 @@ k
 {
 try
 {
-let
+const
 packet
 =
 this
@@ -1812,7 +1812,7 @@ why
 =
 reason
 ;
-let
+const
 generatedLocation
 =
 this
@@ -2048,7 +2048,7 @@ getFrameLocation
 frame
 )
 ;
-let
+const
 {
 originalSourceActor
 }
@@ -2067,7 +2067,7 @@ generatedLocation
 )
 )
 ;
-let
+const
 url
 =
 originalSourceActor
@@ -2685,7 +2685,7 @@ function
 request
 )
 {
-let
+const
 steppingType
 =
 request
@@ -2782,7 +2782,7 @@ originalLocation
 steppingType
 )
 ;
-let
+const
 stepFrame
 =
 this
@@ -2916,7 +2916,7 @@ function
 request
 )
 {
-let
+const
 events
 =
 request
@@ -3231,7 +3231,7 @@ request
 )
 ;
 }
-let
+const
 packet
 =
 this
@@ -3479,7 +3479,7 @@ type
 {
 for
 (
-let
+const
 listener
 of
 this
@@ -3534,7 +3534,7 @@ function
 eventTarget
 )
 {
-let
+const
 targets
 =
 Services
@@ -3547,7 +3547,7 @@ eventTarget
 true
 )
 ;
-let
+const
 listeners
 =
 [
@@ -3555,13 +3555,13 @@ listeners
 ;
 for
 (
-let
+const
 target
 of
 targets
 )
 {
-let
+const
 handlers
 =
 Services
@@ -3575,7 +3575,7 @@ target
 ;
 for
 (
-let
+const
 handler
 of
 handlers
@@ -3602,7 +3602,7 @@ type
 continue
 ;
 }
-let
+const
 l
 =
 Object
@@ -3620,7 +3620,7 @@ handler
 .
 type
 ;
-let
+const
 listener
 =
 handler
@@ -3761,7 +3761,7 @@ function
 script
 )
 {
-let
+const
 offsets
 =
 script
@@ -3799,7 +3799,7 @@ line
 ]
 )
 {
-let
+const
 actor
 =
 new
@@ -3817,7 +3817,7 @@ addActor
 actor
 )
 ;
-let
+const
 scripts
 =
 this
@@ -3838,7 +3838,7 @@ line
 }
 )
 ;
-let
+const
 entryPoints
 =
 findEntryPointsForLine
@@ -3953,7 +3953,7 @@ code
 }
 ;
 }
-let
+const
 frame
 =
 this
@@ -4019,14 +4019,14 @@ frame
 }
 ;
 }
-let
+const
 youngest
 =
 this
 .
 youngestFrame
 ;
-let
+const
 resumedPacket
 =
 this
@@ -4044,7 +4044,7 @@ send
 resumedPacket
 )
 ;
-let
+const
 completion
 =
 frame
@@ -4056,7 +4056,7 @@ request
 expression
 )
 ;
-let
+const
 packet
 =
 this
@@ -4135,7 +4135,7 @@ paused
 }
 ;
 }
-let
+const
 start
 =
 request
@@ -4148,7 +4148,7 @@ start
 :
 0
 ;
-let
+const
 count
 =
 request
@@ -4190,7 +4190,7 @@ i
 +
 ;
 }
-let
+const
 promises
 =
 [
@@ -4226,7 +4226,7 @@ frame
 older
 )
 {
-let
+const
 form
 =
 this
@@ -4246,7 +4246,7 @@ depth
 =
 i
 ;
-let
+const
 framePromise
 =
 this
@@ -4303,7 +4303,7 @@ return
 null
 ;
 }
-let
+const
 sourceForm
 =
 originalLocation
@@ -4428,7 +4428,7 @@ res
 ;
 for
 (
-let
+const
 actorID
 of
 request
@@ -4436,7 +4436,7 @@ request
 actors
 )
 {
-let
+const
 actor
 =
 this
@@ -4549,7 +4549,7 @@ i
 +
 )
 {
-let
+const
 s
 =
 scripts
@@ -4673,7 +4673,7 @@ function
 {
 for
 (
-let
+const
 bpActor
 of
 this
@@ -4808,7 +4808,7 @@ onNext
 "
 )
 {
-let
+const
 onEnterFrame
 =
 (
@@ -4855,7 +4855,7 @@ willInterrupt
 }
 ;
 }
-let
+const
 packet
 =
 this
@@ -5013,7 +5013,7 @@ nodes
 )
 )
 ;
-let
+const
 listeners
 =
 [
@@ -5021,13 +5021,13 @@ listeners
 ;
 for
 (
-let
+const
 node
 of
 nodes
 )
 {
-let
+const
 handlers
 =
 Services
@@ -5041,13 +5041,13 @@ node
 ;
 for
 (
-let
+const
 handler
 of
 handlers
 )
 {
-let
+const
 listenerForm
 =
 Object
@@ -5057,7 +5057,7 @@ create
 null
 )
 ;
-let
+const
 listener
 =
 handler
@@ -5079,7 +5079,7 @@ type
 continue
 ;
 }
-let
+const
 selector
 =
 node
@@ -5095,7 +5095,7 @@ node
 window
 "
 ;
-let
+const
 nodeDO
 =
 this
@@ -5161,7 +5161,7 @@ handler
 .
 inSystemEventGroup
 ;
-let
+const
 handlerName
 =
 "
@@ -5526,7 +5526,7 @@ true
 ;
 for
 (
-let
+const
 [
 bp
 ]
@@ -5646,7 +5646,7 @@ this
 _pauseActor
 )
 ;
-let
+const
 poppedFrames
 =
 this
@@ -5655,7 +5655,7 @@ _updateFrames
 (
 )
 ;
-let
+const
 packet
 =
 {
@@ -5773,13 +5773,13 @@ function
 (
 )
 {
-let
+const
 popped
 =
 [
 ]
 ;
-let
+const
 framePool
 =
 new
@@ -5790,7 +5790,7 @@ this
 conn
 )
 ;
-let
+const
 frameList
 =
 [
@@ -5798,7 +5798,7 @@ frameList
 ;
 for
 (
-let
+const
 frameActor
 of
 this
@@ -5907,7 +5907,7 @@ frame
 actor
 ;
 }
-let
+const
 actor
 =
 new
@@ -5976,7 +5976,7 @@ environment
 actor
 ;
 }
-let
+const
 actor
 =
 new
@@ -6010,7 +6010,7 @@ function
 completion
 )
 {
-let
+const
 protoValue
 =
 {
@@ -6196,7 +6196,7 @@ grip
 )
 ;
 }
-let
+const
 actor
 =
 new
@@ -6482,7 +6482,7 @@ specified
 }
 for
 (
-let
+const
 actorID
 of
 request
@@ -6490,7 +6490,7 @@ request
 actors
 )
 {
-let
+const
 actor
 =
 this
@@ -6851,7 +6851,7 @@ undefined
 }
 try
 {
-let
+const
 packet
 =
 this
@@ -7102,7 +7102,7 @@ return
 false
 ;
 }
-let
+const
 sourceActor
 =
 this
@@ -7114,7 +7114,7 @@ createNonSourceMappedActor
 source
 )
 ;
-let
+const
 bpActors
 =
 [
@@ -7139,13 +7139,13 @@ _options
 useSourceMaps
 )
 {
-let
+const
 promises
 =
 [
 ]
 ;
-let
+const
 sourceActorsCreated
 =
 this
@@ -7296,7 +7296,7 @@ else
 {
 for
 (
-let
+const
 actor
 of
 bpActors
@@ -7365,7 +7365,7 @@ function
 request
 )
 {
-let
+const
 result
 =
 {
@@ -7373,7 +7373,7 @@ result
 ;
 for
 (
-let
+const
 actorID
 of
 request
@@ -7381,7 +7381,7 @@ request
 actors
 )
 {
-let
+const
 actor
 =
 this
@@ -7414,7 +7414,7 @@ noSuchActor
 }
 ;
 }
-let
+const
 handler
 =
 actor
@@ -7809,7 +7809,7 @@ reportError
 "
 )
 ;
-let
+const
 msg
 =
 prefix
@@ -7855,7 +7855,7 @@ entryPoints
 ;
 for
 (
-let
+const
 script
 of
 scripts
@@ -7939,7 +7939,7 @@ wrappedGlobal
 {
 try
 {
-let
+const
 global
 =
 wrappedGlobal

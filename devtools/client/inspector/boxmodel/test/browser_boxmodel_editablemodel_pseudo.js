@@ -92,7 +92,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -320,7 +320,7 @@ expectedValue
 doc
 )
 {
-let
+const
 span
 =
 doc
@@ -367,7 +367,7 @@ doc
 defaultView
 )
 ;
-let
+const
 editor
 =
 doc
@@ -414,7 +414,7 @@ editor
 "
 )
 ;
-let
+const
 onBlur
 =
 once

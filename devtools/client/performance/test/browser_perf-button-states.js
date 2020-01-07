@@ -81,7 +81,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -99,7 +99,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -110,7 +110,7 @@ panel
 .
 panelWin
 ;
-let
+const
 recordButton
 =
 (
@@ -130,7 +130,7 @@ false
 false
 )
 ;
-let
+const
 uiStartClick
 =
 once
@@ -141,7 +141,7 @@ EVENTS
 UI_START_RECORDING
 )
 ;
-let
+const
 recordingStarted
 =
 once
@@ -163,7 +163,7 @@ started
 }
 )
 ;
-let
+const
 backendStartReady
 =
 once
@@ -174,7 +174,7 @@ EVENTS
 BACKEND_READY_AFTER_RECORDING_START
 )
 ;
-let
+const
 uiStateRecording
 =
 once
@@ -223,7 +223,7 @@ backendStartReady
 await
 uiStateRecording
 ;
-let
+const
 uiStopClick
 =
 once
@@ -234,7 +234,7 @@ EVENTS
 UI_STOP_RECORDING
 )
 ;
-let
+const
 recordingStopped
 =
 once
@@ -256,7 +256,7 @@ stopped
 }
 )
 ;
-let
+const
 backendStopReady
 =
 once
@@ -267,7 +267,7 @@ EVENTS
 BACKEND_READY_AFTER_RECORDING_STOP
 )
 ;
-let
+const
 uiStateRecorded
 =
 once
@@ -325,7 +325,7 @@ locked
 {
 for
 (
-let
+const
 button
 of
 (

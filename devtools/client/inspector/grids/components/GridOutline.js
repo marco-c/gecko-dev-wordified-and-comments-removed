@@ -421,7 +421,7 @@ grids
 }
 )
 {
-let
+const
 selectedGrid
 =
 grids
@@ -436,7 +436,7 @@ grid
 highlighted
 )
 ;
-let
+const
 {
 width
 height
@@ -958,7 +958,7 @@ renderGrid
 grid
 )
 {
-let
+const
 gridFragmentIndex
 =
 0
@@ -1158,13 +1158,13 @@ y
 height
 ;
 }
-let
+const
 cellGroupStyle
 =
 {
 }
 ;
-let
+const
 writingModeMatrix
 =
 getWritingModeMatrix
@@ -1184,7 +1184,7 @@ getCSSMatrixTransform
 writingModeMatrix
 )
 ;
-let
+const
 cellGroup
 =
 dom
@@ -1354,7 +1354,7 @@ renderGridOutline
 grid
 )
 {
-let
+const
 {
 color
 }

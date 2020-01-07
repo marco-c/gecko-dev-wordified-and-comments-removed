@@ -268,7 +268,7 @@ createBundle
 KEY_SHORTCUTS_STRINGS
 )
 ;
-let
+const
 url
 =
 new
@@ -295,7 +295,7 @@ http
 )
 )
 ;
-let
+const
 reason
 =
 url
@@ -309,7 +309,7 @@ reason
 "
 )
 ;
-let
+const
 keyid
 =
 url
@@ -323,7 +323,7 @@ keyid
 "
 )
 ;
-let
+const
 tabid
 =
 parseInt
@@ -1132,7 +1132,7 @@ createFeatureEl
 feature
 )
 {
-let
+const
 li
 =
 document
@@ -1155,7 +1155,7 @@ feature
 "
 )
 ;
-let
+const
 learnMore
 =
 aboutDevtoolsBundle
@@ -1415,7 +1415,7 @@ hidden
 )
 ;
 }
-let
+const
 id
 =
 MESSAGES
@@ -1428,7 +1428,7 @@ if
 id
 )
 {
-let
+const
 message
 =
 document
@@ -1492,7 +1492,7 @@ DEVTOOLS_ENABLED_PREF
 updatePage
 )
 ;
-let
+const
 featuresContainer
 =
 document
@@ -1509,7 +1509,7 @@ list
 ;
 for
 (
-let
+const
 feature
 of
 features
@@ -1526,7 +1526,7 @@ feature
 )
 ;
 }
-let
+const
 externalLinks
 =
 [
@@ -1547,13 +1547,13 @@ external
 ;
 for
 (
-let
+const
 link
 of
 externalLinks
 )
 {
-let
+const
 linkUrl
 =
 new
@@ -1716,7 +1716,7 @@ visible
 return
 ;
 }
-let
+const
 browserWindow
 =
 Services
@@ -1732,14 +1732,14 @@ browser
 "
 )
 ;
-let
+const
 {
 gBrowser
 }
 =
 browserWindow
 ;
-let
+const
 originalBrowser
 =
 gBrowser
@@ -1749,7 +1749,7 @@ getBrowserForOuterWindowID
 tabid
 )
 ;
-let
+const
 originalTab
 =
 gBrowser

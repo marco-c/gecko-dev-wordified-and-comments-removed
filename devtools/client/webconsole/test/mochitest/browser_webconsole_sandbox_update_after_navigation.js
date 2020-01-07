@@ -80,7 +80,7 @@ persistlog
 false
 )
 ;
-let
+const
 hud
 =
 await
@@ -279,7 +279,7 @@ errors
 "
 )
 ;
-let
+const
 cleared
 =
 hud

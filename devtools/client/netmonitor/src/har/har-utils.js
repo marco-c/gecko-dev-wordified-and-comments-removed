@@ -147,7 +147,7 @@ formatDate
 date
 )
 {
-let
+const
 year
 =
 String
@@ -169,7 +169,7 @@ padStart
 "
 )
 ;
-let
+const
 month
 =
 String
@@ -191,7 +191,7 @@ padStart
 "
 )
 ;
-let
+const
 day
 =
 String
@@ -211,7 +211,7 @@ padStart
 "
 )
 ;
-let
+const
 hour
 =
 String
@@ -231,7 +231,7 @@ padStart
 "
 )
 ;
-let
+const
 minutes
 =
 String
@@ -251,7 +251,7 @@ padStart
 "
 )
 ;
-let
+const
 seconds
 =
 String
@@ -309,7 +309,7 @@ jsonp
 compress
 )
 {
-let
+const
 extension
 =
 jsonp
@@ -324,7 +324,7 @@ harp
 har
 "
 ;
-let
+const
 now
 =
 new
@@ -420,7 +420,7 @@ jsonString
 compress
 )
 {
-let
+const
 openFlags
 =
 OPEN_FLAGS
@@ -437,7 +437,7 @@ TRUNCATE
 ;
 try
 {
-let
+const
 foStream
 =
 Cc
@@ -466,7 +466,7 @@ Ci
 nsIFileOutputStream
 )
 ;
-let
+const
 permFlags
 =
 parseInt
@@ -487,7 +487,7 @@ permFlags
 0
 )
 ;
-let
+const
 convertor
 =
 Cc
@@ -528,7 +528,7 @@ UTF
 "
 )
 ;
-let
+const
 chunkLength
 =
 1024
@@ -554,7 +554,7 @@ i
 +
 )
 {
-let
+const
 data
 =
 jsonString
@@ -620,14 +620,14 @@ return
 true
 ;
 }
-let
+const
 originalFilePath
 =
 file
 .
 path
 ;
-let
+const
 originalFileName
 =
 file
@@ -661,7 +661,7 @@ temphar
 "
 )
 ;
-let
+const
 zipFile
 =
 Cc
@@ -737,7 +737,7 @@ zip
 )
 ;
 }
-let
+const
 zip
 =
 new

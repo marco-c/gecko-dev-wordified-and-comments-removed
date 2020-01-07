@@ -56,7 +56,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -67,7 +67,7 @@ openRuleView
 (
 )
 ;
-let
+const
 HighlighterFront
 =
 {
@@ -165,7 +165,7 @@ p
 inspector
 )
 ;
-let
+const
 icon
 =
 await

@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -33,7 +33,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 testData
 =
 [
@@ -216,7 +216,7 @@ false
 ;
 for
 (
-let
+const
 currTest
 of
 testData
@@ -263,7 +263,7 @@ selector
 inspector
 )
 ;
-let
+const
 position
 =
 await
@@ -306,7 +306,7 @@ matches
 "
 )
 ;
-let
+const
 tag
 =
 await
@@ -354,7 +354,7 @@ test
 id
 )
 {
-let
+const
 id
 =
 await
@@ -400,7 +400,7 @@ matches
 )
 ;
 }
-let
+const
 classes
 =
 await
@@ -441,7 +441,7 @@ match
 "
 )
 ;
-let
+const
 arrowed
 =
 !
@@ -498,7 +498,7 @@ test
 dims
 )
 {
-let
+const
 dims
 =
 await

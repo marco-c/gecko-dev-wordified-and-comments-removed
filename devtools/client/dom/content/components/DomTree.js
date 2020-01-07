@@ -277,7 +277,7 @@ render
 (
 )
 {
-let
+const
 {
 dispatch
 grips
@@ -289,7 +289,7 @@ this
 .
 props
 ;
-let
+const
 columns
 =
 [
@@ -304,7 +304,7 @@ value
 }
 ]
 ;
-let
+const
 renderValue
 =
 props

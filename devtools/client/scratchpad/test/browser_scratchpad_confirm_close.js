@@ -378,7 +378,7 @@ mockSaveFile
 aScratchpad
 )
 {
-let
+const
 SaveFileStub
 =
 function
@@ -557,7 +557,7 @@ win
 .
 BUTTON_POSITION_CANCEL
 ;
-let
+const
 EventStub
 =
 {
@@ -696,7 +696,7 @@ gFile
 path
 )
 ;
-let
+const
 text
 =
 "
@@ -915,7 +915,7 @@ createTempFile
 name
 )
 {
-let
+const
 file
 =
 FileUtils
@@ -963,7 +963,7 @@ content
 callback
 )
 {
-let
+const
 fout
 =
 Cc
@@ -1015,7 +1015,7 @@ fout
 DEFER_OPEN
 )
 ;
-let
+const
 converter
 =
 Cc
@@ -1048,7 +1048,7 @@ UTF
 8
 "
 ;
-let
+const
 fileContentStream
 =
 converter
@@ -1075,7 +1075,7 @@ file
 callback
 )
 {
-let
+const
 channel
 =
 NetUtil
@@ -1134,7 +1134,7 @@ successfully
 "
 )
 ;
-let
+const
 content
 =
 NetUtil

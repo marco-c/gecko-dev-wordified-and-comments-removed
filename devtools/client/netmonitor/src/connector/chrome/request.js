@@ -9,7 +9,7 @@ mappingCallFrames
 callFrames
 )
 {
-let
+const
 stacktrace
 =
 [
@@ -25,7 +25,7 @@ frame
 =
 >
 {
-let
+const
 {
 functionName
 scriptId
@@ -36,7 +36,7 @@ columnNumber
 =
 frame
 ;
-let
+const
 stack
 =
 {
@@ -69,7 +69,7 @@ Cause
 initiator
 )
 {
-let
+const
 {
 url
 type
@@ -78,7 +78,7 @@ stack
 =
 initiator
 ;
-let
+const
 {
 callFrames
 }
@@ -105,7 +105,7 @@ return
 undefined
 ;
 }
-let
+const
 cause
 =
 {
@@ -134,7 +134,7 @@ id
 headers
 )
 {
-let
+const
 header
 =
 [
@@ -219,7 +219,7 @@ postData
 header
 )
 {
-let
+const
 {
 headers
 headersSize
@@ -302,7 +302,7 @@ id
 requestData
 )
 {
-let
+const
 {
 request
 initiator
@@ -311,7 +311,7 @@ timestamp
 =
 requestData
 ;
-let
+const
 {
 url
 method
@@ -319,7 +319,7 @@ method
 =
 request
 ;
-let
+const
 cause
 =
 !

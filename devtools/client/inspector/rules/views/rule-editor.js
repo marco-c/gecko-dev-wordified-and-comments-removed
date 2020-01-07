@@ -633,7 +633,7 @@ type
 ELEMENT_STYLE
 )
 {
-let
+const
 sourceLine
 =
 this
@@ -642,7 +642,7 @@ rule
 .
 ruleLine
 ;
-let
+const
 sourceColumn
 =
 this
@@ -710,7 +710,7 @@ isSelectorEditable
 (
 )
 {
-let
+const
 trait
 =
 this
@@ -905,7 +905,7 @@ this
 _onSourceClick
 )
 ;
-let
+const
 sourceLabel
 =
 this
@@ -951,7 +951,7 @@ updateSourceLink
 (
 )
 ;
-let
+const
 code
 =
 createChild
@@ -973,7 +973,7 @@ code
 }
 )
 ;
-let
+const
 header
 =
 createChild
@@ -1165,7 +1165,7 @@ inspector
 selectionCssSelector
 ;
 }
-let
+const
 isHighlighted
 =
 this
@@ -1187,7 +1187,7 @@ selectorHighlighterShown
 =
 selector
 ;
-let
+const
 selectorHighlighter
 =
 createChild
@@ -1451,7 +1451,7 @@ click
 =
 >
 {
-let
+const
 selection
 =
 this
@@ -1659,7 +1659,7 @@ _currentLocation
 return
 ;
 }
-let
+const
 target
 =
 this
@@ -1698,7 +1698,7 @@ toolbox
 =
 >
 {
-let
+const
 {
 url
 line
@@ -1905,7 +1905,7 @@ rule
 mediaText
 ;
 }
-let
+const
 sourceLabel
 =
 this
@@ -1958,7 +1958,7 @@ rule
 isSystem
 )
 {
-let
+const
 sourceLabel
 =
 this
@@ -1979,7 +1979,7 @@ label
 "
 )
 ;
-let
+const
 title
 =
 this
@@ -1988,7 +1988,7 @@ rule
 .
 title
 ;
-let
+const
 sourceHref
 =
 (
@@ -2018,7 +2018,7 @@ href
 :
 title
 ;
-let
+const
 uaLabel
 =
 STYLE_INSPECTOR_L10N
@@ -2157,7 +2157,7 @@ type
 ELEMENT_STYLE
 )
 {
-let
+const
 sourceLine
 =
 this
@@ -2166,7 +2166,7 @@ rule
 .
 ruleLine
 ;
-let
+const
 sourceColumn
 =
 this
@@ -2412,7 +2412,7 @@ textContent
 )
 ;
 }
-let
+const
 containerClass
 =
 (
@@ -2447,7 +2447,7 @@ selector
 unmatched
 "
 ;
-let
+const
 selectorContainer
 =
 createChild
@@ -2465,7 +2465,7 @@ containerClass
 }
 )
 ;
-let
+const
 parsedSelector
 =
 parsePseudoClassesAndAttributes
@@ -2475,7 +2475,7 @@ selector
 ;
 for
 (
-let
+const
 selectorText
 of
 parsedSelector
@@ -2610,7 +2610,7 @@ selectorClass
 }
 for
 (
-let
+const
 prop
 of
 this
@@ -2634,7 +2634,7 @@ prop
 invisible
 )
 {
-let
+const
 editor
 =
 new
@@ -2669,7 +2669,7 @@ enabled
 siblingProp
 )
 {
-let
+const
 prop
 =
 this
@@ -2685,7 +2685,7 @@ enabled
 siblingProp
 )
 ;
-let
+const
 index
 =
 this
@@ -2699,7 +2699,7 @@ indexOf
 prop
 )
 ;
-let
+const
 editor
 =
 new
@@ -2762,13 +2762,13 @@ siblingProp
 ;
 for
 (
-let
+const
 p
 of
 properties
 )
 {
-let
+const
 isCommented
 =
 Boolean
@@ -2778,7 +2778,7 @@ p
 commentOffsets
 )
 ;
-let
+const
 enabled
 =
 !
@@ -3188,28 +3188,28 @@ selectorText
 return
 ;
 }
-let
+const
 ruleView
 =
 this
 .
 ruleView
 ;
-let
+const
 elementStyle
 =
 ruleView
 .
 _elementStyle
 ;
-let
+const
 element
 =
 elementStyle
 .
 element
 ;
-let
+const
 supportsUnmatchedRules
 =
 this
@@ -3228,7 +3228,7 @@ true
 ;
 try
 {
-let
+const
 response
 =
 await
@@ -3273,7 +3273,7 @@ refreshPanel
 return
 ;
 }
-let
+const
 applied
 =
 await
@@ -3311,7 +3311,7 @@ isEditing
 =
 false
 ;
-let
+const
 {
 ruleProps
 isMatching
@@ -3348,7 +3348,7 @@ isUnmatched
 !
 isMatching
 ;
-let
+const
 newRule
 =
 new
@@ -3358,7 +3358,7 @@ elementStyle
 ruleProps
 )
 ;
-let
+const
 editor
 =
 new
@@ -3368,7 +3368,7 @@ ruleView
 newRule
 )
 ;
-let
+const
 rules
 =
 elementStyle
@@ -3397,7 +3397,7 @@ ruleProps
 rule
 )
 ;
-let
+const
 oldIndex
 =
 rules

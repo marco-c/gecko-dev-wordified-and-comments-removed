@@ -4,7 +4,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -16,7 +16,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 window
 EVENTS
@@ -152,7 +152,7 @@ snapshot
 "
 )
 ;
-let
+const
 secondSnapshotTarget
 =
 SnapshotsListView
@@ -241,7 +241,7 @@ snapshot
 "
 )
 ;
-let
+const
 firstDrawCallContents
 =
 (
@@ -263,7 +263,7 @@ getItemAtIndex
 target
 )
 ;
-let
+const
 screenshotDisplayed
 =
 once
@@ -347,7 +347,7 @@ snapshot
 "
 )
 ;
-let
+const
 firstSnapshotTarget
 =
 SnapshotsListView
@@ -444,7 +444,7 @@ recordAndWaitForFirstSnapshot
 (
 )
 {
-let
+const
 recordingFinished
 =
 once
@@ -455,7 +455,7 @@ EVENTS
 SNAPSHOT_RECORDING_FINISHED
 )
 ;
-let
+const
 snapshotSelected
 =
 waitForSnapshotSelection
@@ -485,7 +485,7 @@ recordAndWaitForAnotherSnapshot
 (
 )
 {
-let
+const
 recordingFinished
 =
 once
@@ -511,7 +511,7 @@ waitForSnapshotSelection
 (
 )
 {
-let
+const
 callListPopulated
 =
 once
@@ -522,7 +522,7 @@ EVENTS
 CALL_LIST_POPULATED
 )
 ;
-let
+const
 thumbnailsDisplayed
 =
 once
@@ -533,7 +533,7 @@ EVENTS
 THUMBNAILS_DISPLAYED
 )
 ;
-let
+const
 screenshotDisplayed
 =
 once

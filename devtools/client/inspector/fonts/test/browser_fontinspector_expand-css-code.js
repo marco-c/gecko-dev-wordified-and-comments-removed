@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 view
 }
@@ -32,7 +32,7 @@ openFontInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 viewDoc
 =
 view

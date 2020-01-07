@@ -256,7 +256,7 @@ get
 (
 )
 {
-let
+const
 stack
 =
 getStack
@@ -434,7 +434,7 @@ binding
 )
 ;
 }
-let
+const
 webNavigation
 =
 new
@@ -464,7 +464,7 @@ _remoteWebNavigationImpl
 =
 webNavigation
 ;
-let
+const
 tab
 =
 gBrowser
@@ -474,7 +474,7 @@ getTabForBrowser
 outer
 )
 ;
-let
+const
 filteredProgressListener
 =
 gBrowser
@@ -507,7 +507,7 @@ tab
 ;
 for
 (
-let
+const
 property
 of
 SWAPPED_BROWSER_STATE
@@ -526,7 +526,7 @@ property
 }
 for
 (
-let
+const
 property
 of
 PROPERTIES_FROM_BROWSER_WINDOW
@@ -595,7 +595,7 @@ mozbrowseropenwindow
 return
 ;
 }
-let
+const
 {
 detail
 }
@@ -608,7 +608,7 @@ preventDefault
 (
 )
 ;
-let
+const
 uri
 =
 Services
@@ -650,7 +650,7 @@ stop
 (
 )
 {
-let
+const
 tab
 =
 gBrowser
@@ -660,7 +660,7 @@ getTabForBrowser
 outer
 )
 ;
-let
+const
 filteredProgressListener
 =
 gBrowser
@@ -674,7 +674,7 @@ tab
 ;
 for
 (
-let
+const
 property
 of
 SWAPPED_BROWSER_STATE
@@ -738,7 +738,7 @@ remoteType
 ;
 for
 (
-let
+const
 property
 of
 PROPERTIES_FROM_BROWSER_WINDOW
@@ -1222,7 +1222,7 @@ outerChildMM
 (
 )
 {
-let
+const
 docShell
 =
 this
@@ -1302,7 +1302,7 @@ init
 {
 for
 (
-let
+const
 method
 of
 this
@@ -1355,7 +1355,7 @@ args
 }
 for
 (
-let
+const
 name
 of
 this
@@ -1479,7 +1479,7 @@ messageManager
 ;
 for
 (
-let
+const
 name
 of
 this
@@ -1500,7 +1500,7 @@ this
 }
 for
 (
-let
+const
 method
 of
 this

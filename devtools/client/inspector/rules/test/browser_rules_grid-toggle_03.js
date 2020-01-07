@@ -152,7 +152,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -163,7 +163,7 @@ openRuleView
 (
 )
 ;
-let
+const
 highlighters
 =
 view
@@ -490,7 +490,7 @@ grid2
 inspector
 )
 ;
-let
+const
 firstGridHighterShown
 =
 highlighters

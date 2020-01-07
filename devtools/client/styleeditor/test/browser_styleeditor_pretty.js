@@ -222,12 +222,12 @@ expandtab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 oldExpandTabPref
 =
 SpecialPowers
@@ -245,12 +245,12 @@ EXPAND_TAB
 false
 )
 ;
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -286,7 +286,7 @@ sheet
 let
 editor
 =
-yield
+await
 ui
 .
 editors
@@ -298,7 +298,7 @@ getSourceEditor
 (
 )
 ;
-let
+const
 prettifiedSourceRE
 =
 new
@@ -345,7 +345,7 @@ sheet
 "
 )
 ;
-yield
+await
 ui
 .
 selectStyleSheet
@@ -369,7 +369,7 @@ editors
 1
 ]
 ;
-let
+const
 originalSourceRE
 =
 new

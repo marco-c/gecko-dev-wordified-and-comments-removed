@@ -76,7 +76,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -99,7 +99,7 @@ utf
 CONTENT
 )
 ;
-let
+const
 testActor
 =
 await
@@ -108,7 +108,7 @@ getTestActorWithoutToolbox
 tab
 )
 ;
-let
+const
 inspector
 =
 await
@@ -180,7 +180,7 @@ content
 "
 )
 ;
-let
+const
 headers
 =
 [
@@ -307,7 +307,7 @@ correct
 "
 )
 ;
-let
+const
 rules
 =
 styleDocument
@@ -341,13 +341,13 @@ view
 ;
 for
 (
-let
+const
 rule
 of
 rules
 )
 {
-let
+const
 selector
 =
 rule
@@ -388,7 +388,7 @@ correct
 "
 )
 ;
-let
+const
 propertyNames
 =
 [
@@ -427,7 +427,7 @@ expected
 "
 )
 ;
-let
+const
 propertyValues
 =
 [

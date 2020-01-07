@@ -831,7 +831,7 @@ imageSummary
 href
 )
 {
-let
+const
 mainWindow
 =
 context
@@ -1017,7 +1017,7 @@ screenshot_server
 "
 )
 ;
-let
+const
 capture
 =
 context
@@ -1143,7 +1143,7 @@ document
 effect
 )
 {
-let
+const
 window
 =
 document
@@ -2627,7 +2627,7 @@ transfer
 ;
 for
 (
-let
+const
 name
 in
 transfer
@@ -2748,7 +2748,7 @@ nsIAuthPrompt2
 )
 )
 {
-let
+const
 ww
 =
 Cc
@@ -2889,7 +2889,7 @@ context
 reply
 )
 {
-let
+const
 document
 =
 context
@@ -2898,7 +2898,7 @@ environment
 .
 chromeDocument
 ;
-let
+const
 window
 =
 context
@@ -2935,7 +2935,7 @@ png
 "
 ;
 }
-let
+const
 downloadsDir
 =
 yield
@@ -2945,7 +2945,7 @@ getPreferredDownloadsDirectory
 (
 )
 ;
-let
+const
 downloadsDirExists
 =
 yield
@@ -2980,7 +2980,7 @@ filename
 )
 ;
 }
-let
+const
 sourceURI
 =
 Services
@@ -2994,7 +2994,7 @@ reply
 data
 )
 ;
-let
+const
 targetFile
 =
 new
@@ -3007,7 +3007,7 @@ reply
 filename
 )
 ;
-let
+const
 targetFileURI
 =
 Services
@@ -3045,7 +3045,7 @@ nsIWBP
 .
 PERSIST_FLAGS_AUTODETECT_APPLY_CONVERSION
 ;
-let
+const
 isPrivate
 =
 PrivateBrowsingUtils
@@ -3057,7 +3057,7 @@ document
 defaultView
 )
 ;
-let
+const
 persist
 =
 Cc
@@ -3090,7 +3090,7 @@ persistFlags
 =
 flags
 ;
-let
+const
 tr
 =
 Cc
@@ -3128,7 +3128,7 @@ persist
 isPrivate
 )
 ;
-let
+const
 listener
 =
 new

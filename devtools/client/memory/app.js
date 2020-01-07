@@ -610,7 +610,7 @@ onKeyDown
 e
 )
 {
-let
+const
 {
 snapshots
 dispatch
@@ -646,7 +646,7 @@ indexOf
 selectedSnapshot
 )
 ;
-let
+const
 isOSX
 =
 appinfo
@@ -658,7 +658,7 @@ OS
 Darwin
 "
 ;
-let
+const
 isAccelKey
 =
 (
@@ -697,7 +697,7 @@ ArrowUp
 "
 )
 {
-let
+const
 previousIndex
 =
 Math
@@ -710,7 +710,7 @@ selectedIndex
 1
 )
 ;
-let
+const
 previousSnapshotId
 =
 snapshots
@@ -746,7 +746,7 @@ ArrowDown
 "
 )
 {
-let
+const
 nextIndex
 =
 Math
@@ -763,7 +763,7 @@ selectedIndex
 1
 )
 ;
-let
+const
 nextSnapshotId
 =
 snapshots
@@ -980,7 +980,7 @@ render
 (
 )
 {
-let
+const
 {
 dispatch
 snapshots

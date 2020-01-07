@@ -295,7 +295,7 @@ getList
 (
 )
 {
-let
+const
 dbgs
 =
 new
@@ -303,7 +303,7 @@ Set
 (
 )
 ;
-let
+const
 e
 =
 wdm
@@ -321,7 +321,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 dbg
 =
 e
@@ -359,7 +359,7 @@ dbg
 }
 for
 (
-let
+const
 [
 dbg
 ]
@@ -393,7 +393,7 @@ dbg
 }
 for
 (
-let
+const
 dbg
 of
 dbgs
@@ -431,7 +431,7 @@ dbg
 ;
 }
 }
-let
+const
 actors
 =
 [
@@ -439,7 +439,7 @@ actors
 ;
 for
 (
-let
+const
 [
 actor
 ]
@@ -796,7 +796,7 @@ getList
 (
 )
 {
-let
+const
 registrations
 =
 new
@@ -804,7 +804,7 @@ Set
 (
 )
 ;
-let
+const
 array
 =
 swm
@@ -849,7 +849,7 @@ nsIServiceWorkerRegistrationInfo
 }
 for
 (
-let
+const
 [
 registration
 ]
@@ -883,7 +883,7 @@ registration
 }
 for
 (
-let
+const
 registration
 of
 registrations
@@ -955,7 +955,7 @@ _mustNotify
 true
 ;
 }
-let
+const
 actors
 =
 [
@@ -963,7 +963,7 @@ actors
 ;
 for
 (
-let
+const
 [
 actor
 ]

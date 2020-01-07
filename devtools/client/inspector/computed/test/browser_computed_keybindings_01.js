@@ -75,7 +75,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -96,7 +96,7 @@ matches
 inspector
 )
 ;
-let
+const
 propView
 =
 getFirstVisiblePropertyView
@@ -104,14 +104,14 @@ getFirstVisiblePropertyView
 view
 )
 ;
-let
+const
 rulesTable
 =
 propView
 .
 matchedSelectorsContainer
 ;
-let
+const
 matchedExpander
 =
 propView
@@ -133,7 +133,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 onMatchedExpanderFocus
 =
 once
@@ -280,7 +280,7 @@ collapsed
 "
 )
 ;
-let
+const
 onExpand
 =
 inspector
@@ -298,7 +298,7 @@ expanded
 "
 )
 ;
-let
+const
 onCollapse
 =
 inspector
@@ -417,7 +417,7 @@ F1
 "
 )
 ;
-let
+const
 propView
 =
 getFirstVisiblePropertyView

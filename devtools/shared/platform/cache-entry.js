@@ -66,7 +66,7 @@ request
 {
 try
 {
-let
+const
 cacheService
 =
 Services
@@ -143,7 +143,7 @@ function
 descriptor
 )
 {
-let
+const
 descriptorObj
 =
 {
@@ -289,7 +289,7 @@ this
 cacheSession
 )
 {
-let
+const
 uri
 =
 NetworkHelper
@@ -351,7 +351,7 @@ if
 descriptor
 )
 {
-let
+const
 descriptorObj
 =
 this

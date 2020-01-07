@@ -128,7 +128,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -146,7 +146,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 DetailsView
@@ -408,7 +408,7 @@ currentView
 {
 for
 (
-let
+const
 viewName
 in
 DetailsView
@@ -416,7 +416,7 @@ DetailsView
 components
 )
 {
-let
+const
 button
 =
 (

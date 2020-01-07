@@ -1,22 +1,22 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 MULTIPLE_CONTEXTS_URL
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -33,7 +33,7 @@ reload
 target
 )
 ;
-yield
+await
 promise
 .
 all
@@ -60,7 +60,7 @@ linked
 ]
 )
 ;
-yield
+await
 once
 (
 panel
@@ -71,10 +71,10 @@ EVENTS
 SOURCES_SHOWN
 )
 ;
-let
+const
 vsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -84,10 +84,10 @@ vs
 "
 )
 ;
-let
+const
 fsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -280,7 +280,7 @@ ch
 }
 )
 ;
-yield
+await
 once
 (
 panel
@@ -317,7 +317,7 @@ ch
 }
 )
 ;
-yield
+await
 once
 (
 panel
@@ -342,7 +342,7 @@ changed
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -375,7 +375,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -408,7 +408,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -441,7 +441,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -474,7 +474,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -507,7 +507,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -540,7 +540,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -573,7 +573,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -643,7 +643,7 @@ items
 target
 )
 ;
-yield
+await
 once
 (
 panel
@@ -828,7 +828,7 @@ items
 target
 )
 ;
-yield
+await
 once
 (
 panel
@@ -993,7 +993,7 @@ text
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

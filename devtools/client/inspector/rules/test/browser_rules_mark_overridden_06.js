@@ -85,7 +85,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -124,14 +124,14 @@ inspector
 view
 )
 {
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 rule
 =
 elementStyle
@@ -146,7 +146,7 @@ checkProperties
 rule
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -171,7 +171,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -209,7 +209,7 @@ class
 ]
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once

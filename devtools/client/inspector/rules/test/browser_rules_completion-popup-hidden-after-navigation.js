@@ -54,7 +54,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -111,7 +111,7 @@ field
 "
 )
 ;
-let
+const
 propertyName
 =
 view
@@ -131,7 +131,7 @@ propertyname
 0
 ]
 ;
-let
+const
 editor
 =
 await
@@ -150,7 +150,7 @@ VK_DOWN
 "
 )
 ;
-let
+const
 onSuggest
 =
 once
@@ -163,7 +163,7 @@ keypress
 "
 )
 ;
-let
+const
 onPopupOpened
 =
 once

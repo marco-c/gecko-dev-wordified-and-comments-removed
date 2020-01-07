@@ -76,7 +76,7 @@ createBundle
 ABOUTDEVTOOLS_STRINGS
 )
 ;
-let
+const
 emailInput
 =
 document
@@ -88,7 +88,7 @@ email
 "
 )
 ;
-let
+const
 newsletterErrors
 =
 document
@@ -102,7 +102,7 @@ errors
 "
 )
 ;
-let
+const
 newsletterForm
 =
 document
@@ -116,7 +116,7 @@ form
 "
 )
 ;
-let
+const
 newsletterPrivacySection
 =
 document
@@ -130,7 +130,7 @@ privacy
 "
 )
 ;
-let
+const
 newsletterThanks
 =
 document
@@ -186,7 +186,7 @@ unknown
 ]
 ;
 }
-let
+const
 fragment
 =
 document
@@ -197,13 +197,13 @@ createDocumentFragment
 ;
 for
 (
-let
+const
 error
 of
 errors
 )
 {
-let
+const
 item
 =
 document
@@ -294,7 +294,7 @@ onEmailInputFocus
 (
 )
 {
-let
+const
 container
 =
 document
@@ -335,7 +335,7 @@ appendChild
 container
 )
 ;
-let
+const
 clone
 =
 newsletterPrivacySection
@@ -362,7 +362,7 @@ height
 auto
 "
 ;
-let
+const
 height
 =
 clone
@@ -429,7 +429,7 @@ clearErrorPanel
 (
 )
 ;
-let
+const
 xhr
 =
 new
@@ -467,7 +467,7 @@ status
 300
 )
 {
-let
+const
 {
 response
 }
@@ -522,7 +522,7 @@ errors
 }
 else
 {
-let
+const
 {
 status
 statusText
@@ -532,7 +532,7 @@ r
 .
 target
 ;
-let
+const
 statusInfo
 =
 {
@@ -543,7 +543,7 @@ status
 statusText
 }
 ;
-let
+const
 error
 =
 aboutDevtoolsBundle
@@ -597,7 +597,7 @@ ontimeout
 =
 >
 {
-let
+const
 error
 =
 aboutDevtoolsBundle
@@ -622,7 +622,7 @@ error
 ;
 }
 ;
-let
+const
 url
 =
 newsletterForm
@@ -697,7 +697,7 @@ responseType
 json
 "
 ;
-let
+const
 formData
 =
 new
@@ -720,7 +720,7 @@ location
 href
 )
 ;
-let
+const
 params
 =
 new

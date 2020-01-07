@@ -402,7 +402,7 @@ test_stable_global_actor_instances
 (
 )
 {
-let
+const
 connID
 =
 Object
@@ -417,7 +417,7 @@ _connections
 0
 ]
 ;
-let
+const
 postInitGlobalActor
 =
 getActorInstance
@@ -428,7 +428,7 @@ gActors
 postInitGlobalActor
 )
 ;
-let
+const
 preInitGlobalActor
 =
 getActorInstance

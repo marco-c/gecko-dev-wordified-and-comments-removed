@@ -583,7 +583,7 @@ _currentURI
 ;
 for
 (
-let
+const
 property
 of
 state
@@ -668,7 +668,7 @@ STOP_ALL
 ;
 for
 (
-let
+const
 flag
 of
 FLAGS

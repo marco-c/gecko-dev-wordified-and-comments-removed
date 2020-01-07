@@ -242,7 +242,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -255,7 +255,7 @@ openRuleView
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -282,7 +282,7 @@ view
 data
 )
 {
-let
+const
 {
 node
 value
@@ -366,7 +366,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -443,7 +443,7 @@ commitKey
 modifiers
 )
 ;
-let
+const
 activeElement
 =
 view
@@ -565,7 +565,7 @@ view
 )
 ;
 }
-let
+const
 rule
 =
 idRuleEditor

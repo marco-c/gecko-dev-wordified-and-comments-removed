@@ -198,7 +198,7 @@ target
 }
 )
 {
-let
+const
 {
 devices
 viewportId
@@ -233,7 +233,7 @@ return
 }
 for
 (
-let
+const
 type
 of
 devices
@@ -243,7 +243,7 @@ types
 {
 for
 (
-let
+const
 device
 of
 devices
@@ -291,7 +291,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 selectedDevice
@@ -301,7 +301,7 @@ this
 .
 props
 ;
-let
+const
 options
 =
 [
@@ -309,7 +309,7 @@ options
 ;
 for
 (
-let
+const
 type
 of
 devices
@@ -319,7 +319,7 @@ types
 {
 for
 (
-let
+const
 device
 of
 devices
@@ -397,7 +397,7 @@ selected
 "
 ;
 }
-let
+const
 state
 =
 devices

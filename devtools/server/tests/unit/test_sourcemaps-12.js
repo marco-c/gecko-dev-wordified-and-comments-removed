@@ -445,7 +445,7 @@ resumeLimit
 "
 )
 ;
-let
+const
 {
 frame
 :

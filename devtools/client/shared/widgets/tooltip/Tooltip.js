@@ -258,7 +258,7 @@ _toggle
 ;
 for
 (
-let
+const
 eventName
 of
 POPUP_EVENTS
@@ -334,7 +334,7 @@ eventName
 )
 ;
 }
-let
+const
 win
 =
 this
@@ -443,7 +443,7 @@ this
 ;
 for
 (
-let
+const
 {
 emitter
 event
@@ -457,7 +457,7 @@ closeOnEvents
 {
 for
 (
-let
+const
 add
 of
 [
@@ -693,7 +693,7 @@ hide
 ;
 for
 (
-let
+const
 eventName
 of
 POPUP_EVENTS
@@ -721,7 +721,7 @@ eventName
 )
 ;
 }
-let
+const
 win
 =
 this
@@ -749,7 +749,7 @@ _onKeyDown
 ;
 for
 (
-let
+const
 {
 emitter
 event
@@ -763,7 +763,7 @@ closeOnEvents
 {
 for
 (
-let
+const
 remove
 of
 [
@@ -1013,7 +1013,7 @@ text
 colors
 "
 ;
-let
+const
 vbox
 =
 this
@@ -1059,13 +1059,13 @@ flex
 ;
 for
 (
-let
+const
 text
 of
 messages
 )
 {
-let
+const
 description
 =
 this
@@ -1123,7 +1123,7 @@ description
 }
 for
 (
-let
+const
 {
 label
 className
@@ -1133,7 +1133,7 @@ of
 extraButtons
 )
 {
-let
+const
 button
 =
 this
@@ -1197,14 +1197,14 @@ height
 url
 )
 {
-let
+const
 def
 =
 defer
 (
 )
 ;
-let
+const
 iframe
 =
 this
@@ -1350,7 +1350,7 @@ _createPanel
 (
 )
 {
-let
+const
 panel
 =
 this

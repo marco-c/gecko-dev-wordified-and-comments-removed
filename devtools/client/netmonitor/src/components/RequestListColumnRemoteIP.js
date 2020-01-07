@@ -143,7 +143,7 @@ render
 (
 )
 {
-let
+const
 {
 remoteAddress
 remotePort
@@ -155,7 +155,7 @@ props
 .
 item
 ;
-let
+const
 remoteIP
 =
 remoteAddress

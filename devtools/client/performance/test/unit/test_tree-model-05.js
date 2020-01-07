@@ -188,7 +188,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -212,7 +212,7 @@ model
 "
 )
 ;
-let
+const
 root
 =
 new
@@ -255,7 +255,7 @@ frame
 "
 )
 ;
-let
+const
 C
 =
 getFrameNodePath
@@ -462,7 +462,7 @@ C
 "
 )
 ;
-let
+const
 F
 =
 getFrameNodePath

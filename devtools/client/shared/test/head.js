@@ -180,7 +180,7 @@ waitForValue
 options
 )
 {
-let
+const
 start
 =
 Date
@@ -189,7 +189,7 @@ now
 (
 )
 ;
-let
+const
 timeout
 =
 options
@@ -242,7 +242,7 @@ options
 name
 )
 ;
-let
+const
 expected
 =
 "
@@ -307,7 +307,7 @@ options
 lastValue
 )
 ;
-let
+const
 successful
 =
 "
@@ -398,7 +398,7 @@ resolve
 =
 >
 {
-let
+const
 func
 =
 function
@@ -445,7 +445,7 @@ name
 )
 ;
 }
-let
+const
 createHost
 =
 async
@@ -467,7 +467,7 @@ html
 "
 )
 {
-let
+const
 host
 =
 new
@@ -481,7 +481,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 iframe
 =
 await
@@ -499,7 +499,7 @@ resolve
 =
 >
 {
-let
+const
 domHelper
 =
 new
@@ -582,7 +582,7 @@ i
 )
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -680,7 +680,7 @@ frames
 }
 )
 ;
-let
+const
 uniqueStacks
 =
 new
@@ -778,7 +778,7 @@ showFilterPopupPresets
 widget
 )
 {
-let
+const
 onRender
 =
 widget
@@ -800,7 +800,7 @@ return
 onRender
 ;
 }
-let
+const
 showFilterPopupPresetsAndCreatePreset
 =
 async
@@ -839,7 +839,7 @@ value
 await
 onRender
 ;
-let
+const
 footer
 =
 widget

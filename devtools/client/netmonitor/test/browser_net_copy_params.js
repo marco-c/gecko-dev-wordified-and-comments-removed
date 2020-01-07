@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -44,7 +44,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -422,7 +422,7 @@ index
 ]
 )
 ;
-let
+const
 copyUrlParamsNode
 =
 monitor
@@ -685,7 +685,7 @@ index
 ]
 )
 ;
-let
+const
 copyPostDataNode
 =
 monitor
@@ -771,7 +771,7 @@ waitUntil
 =
 >
 {
-let
+const
 {
 requests
 }
@@ -784,7 +784,7 @@ getState
 .
 requests
 ;
-let
+const
 actIDs
 =
 [
@@ -798,7 +798,7 @@ keys
 )
 ]
 ;
-let
+const
 {
 formDataSections
 requestPostData

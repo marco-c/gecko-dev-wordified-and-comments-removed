@@ -121,7 +121,7 @@ event
 packet2
 )
 {
-let
+const
 poppedFrames
 =
 packet2

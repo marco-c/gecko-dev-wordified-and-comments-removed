@@ -140,7 +140,7 @@ this
 .
 props
 ;
-let
+const
 columns
 =
 [
@@ -155,7 +155,7 @@ value
 }
 ]
 ;
-let
+const
 renderValue
 =
 props

@@ -41,7 +41,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -305,7 +305,7 @@ content
 "
 )
 ;
-let
+const
 onMutated
 =
 inspector
@@ -317,7 +317,7 @@ markupmutation
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -327,7 +327,7 @@ selector
 inspector
 )
 ;
-let
+const
 isOldValueInline
 =
 oldValue
@@ -369,7 +369,7 @@ expected
 "
 )
 ;
-let
+const
 field
 =
 container
@@ -450,7 +450,7 @@ changed
 "
 )
 ;
-let
+const
 isNewValueInline
 =
 newValue
@@ -533,7 +533,7 @@ selection
 "
 )
 ;
-let
+const
 bodyContainer
 =
 await

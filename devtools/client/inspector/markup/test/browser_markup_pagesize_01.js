@@ -172,7 +172,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -197,7 +197,7 @@ data
 ;
 for
 (
-let
+const
 step
 of
 TEST_DATA
@@ -327,7 +327,7 @@ expected
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -347,7 +347,7 @@ found
 ;
 for
 (
-let
+const
 child
 of
 container
@@ -424,7 +424,7 @@ forceReload
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -450,7 +450,7 @@ clickShowMoreNodes
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -462,7 +462,7 @@ body
 inspector
 )
 ;
-let
+const
 button
 =
 container
@@ -476,7 +476,7 @@ button
 "
 )
 ;
-let
+const
 win
 =
 button

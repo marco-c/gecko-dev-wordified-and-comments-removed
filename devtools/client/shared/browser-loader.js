@@ -730,7 +730,7 @@ uri
 )
 ;
 }
-let
+const
 isBrowserDir
 =
 BROWSER_BASED_DIRS

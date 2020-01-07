@@ -184,7 +184,7 @@ waitFor
 =
 >
 {
-let
+const
 node
 =
 findMessage
@@ -205,7 +205,7 @@ return
 false
 ;
 }
-let
+const
 frameLinkNode
 =
 node
@@ -224,7 +224,7 @@ link
 "
 )
 ;
-let
+const
 url
 =
 frameLinkNode

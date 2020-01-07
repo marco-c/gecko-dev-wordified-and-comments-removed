@@ -96,7 +96,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -107,7 +107,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 walker
 }
@@ -116,7 +116,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 selector
 attribute
@@ -138,7 +138,7 @@ node
 selector
 )
 ;
-let
+const
 {
 editor
 }
@@ -160,7 +160,7 @@ attribute
 attribute
 )
 ;
-let
+const
 attr
 =
 editor
@@ -198,7 +198,7 @@ delete
 "
 )
 ;
-let
+const
 mutated
 =
 inspector

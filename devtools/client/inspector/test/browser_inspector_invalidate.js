@@ -63,7 +63,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -75,7 +75,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 divFront
 =
 await

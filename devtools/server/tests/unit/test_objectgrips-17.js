@@ -126,7 +126,7 @@ false
 ]
 )
 {
-let
+const
 fullTitle
 =
 gDebuggeeHasXrays
@@ -310,7 +310,7 @@ test
 return
 ;
 }
-let
+const
 debuggeePrincipal
 =
 Cu
@@ -320,7 +320,7 @@ getObjectPrincipal
 gDebuggee
 )
 ;
-let
+const
 sameOrigin
 =
 debuggeePrincipal
@@ -342,7 +342,7 @@ systemPrincipal
 ;
 for
 (
-let
+const
 globalHasXrays
 of
 [
@@ -436,7 +436,7 @@ event
 packet
 )
 {
-let
+const
 [
 proxyGrip
 inheritsProxyGrip
@@ -454,7 +454,7 @@ check_proxy_grip
 proxyGrip
 )
 ;
-let
+const
 proxyClient
 =
 gThreadClient
@@ -464,7 +464,7 @@ pauseGrip
 proxyGrip
 )
 ;
-let
+const
 proxyResponse
 =
 await
@@ -492,7 +492,7 @@ true
 false
 )
 ;
-let
+const
 inheritsProxyClient
 =
 gThreadClient
@@ -502,7 +502,7 @@ pauseGrip
 inheritsProxyGrip
 )
 ;
-let
+const
 inheritsProxyResponse
 =
 await
@@ -530,7 +530,7 @@ false
 false
 )
 ;
-let
+const
 inheritsProxy2Client
 =
 gThreadClient
@@ -540,7 +540,7 @@ pauseGrip
 inheritsProxy2Grip
 )
 ;
-let
+const
 inheritsProxy2Response
 =
 await
@@ -680,7 +680,7 @@ value
 ;
 )
 ;
-let
+const
 data
 =
 Cu
@@ -850,7 +850,7 @@ properties
 "
 )
 ;
-let
+const
 target
 =
 preview
@@ -887,7 +887,7 @@ ProxyTarget
 "
 )
 ;
-let
+const
 handler
 =
 preview
@@ -1217,7 +1217,7 @@ isProxy
 createdInDebuggee
 )
 {
-let
+const
 ownPropertiesLength
 =
 Reflect

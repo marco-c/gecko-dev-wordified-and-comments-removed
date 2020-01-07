@@ -57,7 +57,7 @@ environment
 "
 )
 ;
-let
+const
 EnvironmentActor
 =
 ActorClassWithSpec
@@ -106,7 +106,7 @@ function
 (
 )
 {
-let
+const
 form
 =
 {
@@ -393,7 +393,7 @@ function
 (
 )
 {
-let
+const
 bindings
 =
 {
@@ -459,19 +459,19 @@ parameterNames
 }
 for
 (
-let
+const
 name
 of
 parameterNames
 )
 {
-let
+const
 arg
 =
 {
 }
 ;
-let
+const
 value
 =
 this
@@ -483,7 +483,7 @@ getVariable
 name
 )
 ;
-let
+const
 desc
 =
 {
@@ -509,7 +509,7 @@ enumerable
 true
 }
 ;
-let
+const
 descForm
 =
 {
@@ -620,7 +620,7 @@ arg
 }
 for
 (
-let
+const
 name
 of
 this
@@ -661,7 +661,7 @@ name
 continue
 ;
 }
-let
+const
 value
 =
 this
@@ -673,7 +673,7 @@ getVariable
 name
 )
 ;
-let
+const
 desc
 =
 {
@@ -711,7 +711,7 @@ enumerable
 true
 }
 ;
-let
+const
 descForm
 =
 {

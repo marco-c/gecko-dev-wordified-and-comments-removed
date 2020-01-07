@@ -61,7 +61,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -87,7 +87,7 @@ testPressingEscapeRevertsChanges
 view
 )
 {
-let
+const
 {
 swatch
 propEditor
@@ -185,7 +185,7 @@ updated
 "
 )
 ;
-let
+const
 spectrum
 =
 cPicker
@@ -204,7 +204,7 @@ tooltip
 "
 )
 ;
-let
+const
 onHidden
 =
 cPicker
@@ -218,7 +218,7 @@ hidden
 "
 )
 ;
-let
+const
 onModifications
 =
 view

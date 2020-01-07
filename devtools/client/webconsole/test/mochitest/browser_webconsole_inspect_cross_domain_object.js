@@ -60,7 +60,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 hud
 =
 await
@@ -102,7 +102,7 @@ frame
 "
 )
 ;
-let
+const
 onMessage
 =
 waitForMessage
@@ -123,7 +123,7 @@ selectedBrowser
 TEST_URI
 )
 ;
-let
+const
 {
 node
 }
@@ -192,7 +192,7 @@ expandObjectInspector
 oi1
 )
 ;
-let
+const
 oi1Nodes
 =
 oi1
@@ -285,7 +285,7 @@ expandObjectInspector
 oi2
 )
 ;
-let
+const
 oi2Nodes
 =
 oi2
@@ -452,7 +452,7 @@ expandObjectInspector
 oi
 )
 {
-let
+const
 onMutation
 =
 waitForNodeMutation

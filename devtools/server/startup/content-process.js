@@ -51,7 +51,7 @@ appinfo
 PROCESS_TYPE_CONTENT
 )
 {
-let
+const
 {
 init
 }

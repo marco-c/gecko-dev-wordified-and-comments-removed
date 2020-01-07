@@ -134,7 +134,7 @@ client
 )
 ;
 }
-let
+const
 front
 =
 new

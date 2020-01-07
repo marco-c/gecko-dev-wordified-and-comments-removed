@@ -9,7 +9,7 @@ function
 (
 )
 {
-let
+const
 {
 TIMELINE_BLUEPRINT
 }
@@ -29,7 +29,7 @@ markers
 "
 )
 ;
-let
+const
 {
 PREFS
 }
@@ -49,7 +49,7 @@ global
 "
 )
 ;
-let
+const
 {
 MarkerBlueprintUtils
 }

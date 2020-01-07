@@ -315,7 +315,7 @@ this
 _scanPromise
 ;
 }
-let
+const
 promises
 =
 [
@@ -323,7 +323,7 @@ promises
 ;
 for
 (
-let
+const
 scanner
 of
 this
@@ -401,7 +401,7 @@ function
 {
 for
 (
-let
+const
 scanner
 of
 this
@@ -411,7 +411,7 @@ _scanners
 {
 for
 (
-let
+const
 runtime
 of
 scanner
@@ -480,7 +480,7 @@ this
 ;
 for
 (
-let
+const
 scanner
 of
 this
@@ -547,7 +547,7 @@ return
 }
 for
 (
-let
+const
 scanner
 of
 this
@@ -873,7 +873,7 @@ _runtimes
 ;
 for
 (
-let
+const
 device
 of
 discovery
@@ -1081,7 +1081,7 @@ listRuntimes
 (
 )
 {
-let
+const
 runtimes
 =
 [
@@ -1202,7 +1202,7 @@ function
 connection
 )
 {
-let
+const
 service
 =
 discovery
@@ -1321,7 +1321,7 @@ wifi
 auth
 "
 ;
-let
+const
 {
 authResult
 }
@@ -1356,7 +1356,7 @@ authResult
 let
 promptWindow
 ;
-let
+const
 windowListener
 =
 {
@@ -1365,7 +1365,7 @@ onOpenWindow
 xulWindow
 )
 {
-let
+const
 win
 =
 xulWindow
@@ -1469,7 +1469,7 @@ MIN_HEIGHT
 =
 600
 ;
-let
+const
 win
 =
 Services
@@ -1485,7 +1485,7 @@ webide
 "
 )
 ;
-let
+const
 width
 =
 win
@@ -1496,7 +1496,7 @@ outerWidth
 .
 8
 ;
-let
+const
 height
 =
 Math
@@ -1703,7 +1703,7 @@ function
 connection
 )
 {
-let
+const
 win
 =
 Services
@@ -1743,7 +1743,7 @@ found
 )
 ;
 }
-let
+const
 ret
 =
 {
@@ -1762,7 +1762,7 @@ connection
 port
 }
 ;
-let
+const
 title
 =
 Strings
@@ -1774,7 +1774,7 @@ remote_runtime_promptTitle
 "
 )
 ;
-let
+const
 message
 =
 Strings
@@ -1786,7 +1786,7 @@ remote_runtime_promptMessage
 "
 )
 ;
-let
+const
 ok
 =
 Services
@@ -1804,7 +1804,7 @@ null
 }
 )
 ;
-let
+const
 [
 host
 port

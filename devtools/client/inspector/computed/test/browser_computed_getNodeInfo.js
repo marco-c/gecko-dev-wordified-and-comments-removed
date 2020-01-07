@@ -405,7 +405,7 @@ function
 view
 )
 {
-let
+const
 {
 valueSpan
 }
@@ -567,7 +567,7 @@ function
 view
 )
 {
-let
+const
 el
 =
 await
@@ -642,7 +642,7 @@ function
 view
 )
 {
-let
+const
 el
 =
 await
@@ -716,7 +716,7 @@ function
 view
 )
 {
-let
+const
 el
 =
 await
@@ -785,7 +785,7 @@ function
 view
 )
 {
-let
+const
 el
 =
 await
@@ -875,7 +875,7 @@ function
 view
 )
 {
-let
+const
 el
 =
 await
@@ -952,7 +952,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -975,7 +975,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 desc
 getHoveredNode
@@ -990,7 +990,7 @@ info
 desc
 )
 ;
-let
+const
 nodeInfo
 =
 view

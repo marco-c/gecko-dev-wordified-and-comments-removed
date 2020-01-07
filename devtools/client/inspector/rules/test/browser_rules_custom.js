@@ -27,7 +27,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -80,7 +80,7 @@ testidSimple
 inspector
 )
 ;
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -91,7 +91,7 @@ view
 .
 rule
 ;
-let
+const
 idRuleProp
 =
 idRule
@@ -144,7 +144,7 @@ overridden
 "
 )
 ;
-let
+const
 classRule
 =
 getRuleViewRuleEditor
@@ -155,7 +155,7 @@ view
 .
 rule
 ;
-let
+const
 classRuleProp
 =
 classRule
@@ -206,7 +206,7 @@ overridden
 "
 )
 ;
-let
+const
 elementProp
 =
 await
@@ -317,7 +317,7 @@ testidImportant
 inspector
 )
 ;
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -328,7 +328,7 @@ view
 .
 rule
 ;
-let
+const
 idRuleProp
 =
 idRule
@@ -355,7 +355,7 @@ overridden
 "
 )
 ;
-let
+const
 classRule
 =
 getRuleViewRuleEditor
@@ -366,7 +366,7 @@ view
 .
 rule
 ;
-let
+const
 classRuleProp
 =
 classRule
@@ -412,7 +412,7 @@ testidDisable
 inspector
 )
 ;
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -423,7 +423,7 @@ view
 .
 rule
 ;
-let
+const
 idRuleProp
 =
 idRule
@@ -440,7 +440,7 @@ view
 idRuleProp
 )
 ;
-let
+const
 classRule
 =
 getRuleViewRuleEditor
@@ -451,7 +451,7 @@ view
 .
 rule
 ;
-let
+const
 classRuleProp
 =
 classRule

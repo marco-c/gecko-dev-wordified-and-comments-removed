@@ -257,7 +257,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -270,7 +270,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA

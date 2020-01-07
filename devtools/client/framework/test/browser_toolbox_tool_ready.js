@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 toolIds
 =
 gDevTools
@@ -74,7 +74,7 @@ index
 +
 )
 {
-let
+const
 toolId
 =
 toolIds
@@ -137,7 +137,7 @@ be
 toolId
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -191,7 +191,7 @@ toggleAllTools
 true
 )
 ;
-let
+const
 tab
 =
 await
@@ -204,7 +204,7 @@ blank
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory

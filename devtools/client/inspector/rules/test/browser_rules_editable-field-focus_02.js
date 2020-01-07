@@ -95,7 +95,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -156,7 +156,7 @@ view
 2
 )
 ;
-let
+const
 editor
 =
 await
@@ -229,7 +229,7 @@ span
 ;
 for
 (
-let
+const
 textProp
 of
 ruleEditor
@@ -248,7 +248,7 @@ reverse
 )
 )
 {
-let
+const
 propEditor
 =
 textProp
@@ -399,7 +399,7 @@ commitKey
 options
 )
 {
-let
+const
 onRuleViewChanged
 =
 view
@@ -436,7 +436,7 @@ commitKey
 options
 )
 {
-let
+const
 onFocus
 =
 once
@@ -473,7 +473,7 @@ element
 message
 )
 {
-let
+const
 editor
 =
 inplaceEditor

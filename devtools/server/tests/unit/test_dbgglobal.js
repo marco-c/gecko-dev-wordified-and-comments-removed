@@ -171,7 +171,7 @@ closeAllListeners
 (
 )
 ;
-let
+const
 client1
 =
 DebuggerServer
@@ -218,7 +218,7 @@ tests
 "
 )
 ;
-let
+const
 client2
 =
 DebuggerServer

@@ -135,7 +135,7 @@ packet
 {
 try
 {
-let
+const
 fakeLongStringGrip
 =
 {
@@ -158,7 +158,7 @@ initial
 "
 }
 ;
-let
+const
 longStringClient
 =
 gThreadClient

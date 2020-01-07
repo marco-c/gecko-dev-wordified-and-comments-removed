@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 EventUtils
 =
 {
@@ -186,7 +186,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 }
@@ -195,7 +195,7 @@ msg
 .
 data
 ;
-let
+const
 nodeList
 =
 content
@@ -238,7 +238,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 }
@@ -247,7 +247,7 @@ msg
 .
 data
 ;
-let
+const
 element
 =
 content
@@ -259,7 +259,7 @@ querySelector
 selector
 )
 ;
-let
+const
 text
 =
 element
@@ -299,7 +299,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 }
@@ -308,7 +308,7 @@ msg
 .
 data
 ;
-let
+const
 element
 =
 content
@@ -320,7 +320,7 @@ querySelector
 selector
 )
 ;
-let
+const
 text
 =
 element
@@ -360,7 +360,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 attr
@@ -370,7 +370,7 @@ msg
 .
 data
 ;
-let
+const
 element
 =
 content
@@ -382,7 +382,7 @@ querySelector
 selector
 )
 ;
-let
+const
 text
 =
 element
@@ -425,7 +425,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 }
@@ -434,7 +434,7 @@ msg
 .
 data
 ;
-let
+const
 element
 =
 content
@@ -482,7 +482,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 str
@@ -497,7 +497,7 @@ if
 selector
 )
 {
-let
+const
 element
 =
 content
@@ -554,7 +554,7 @@ function
 msg
 )
 {
-let
+const
 firstRow
 =
 content
@@ -597,7 +597,7 @@ name
 return
 ;
 }
-let
+const
 observer
 =
 new
@@ -628,7 +628,7 @@ i
 +
 )
 {
-let
+const
 mutation
 =
 mutations

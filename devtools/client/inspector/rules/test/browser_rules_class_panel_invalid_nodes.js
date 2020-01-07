@@ -79,7 +79,7 @@ panel
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -106,7 +106,7 @@ node
 "
 )
 ;
-let
+const
 {
 nodes
 }
@@ -150,7 +150,7 @@ node
 "
 )
 ;
-let
+const
 styleNode
 =
 await
@@ -162,7 +162,7 @@ style
 inspector
 )
 ;
-let
+const
 commentNode
 =
 await
@@ -197,7 +197,7 @@ node
 "
 )
 ;
-let
+const
 textNode
 =
 await
@@ -236,7 +236,7 @@ element
 "
 )
 ;
-let
+const
 divNode
 =
 await
@@ -248,7 +248,7 @@ div
 inspector
 )
 ;
-let
+const
 pseudoElement
 =
 (

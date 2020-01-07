@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -32,7 +32,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -55,7 +55,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -67,7 +67,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -87,7 +87,7 @@ index
 "
 )
 ;
-let
+const
 {
 EVENTS
 }
@@ -107,7 +107,7 @@ constants
 "
 )
 ;
-let
+const
 {
 getSelectedRequest
 getSortedRequests
@@ -130,7 +130,7 @@ index
 "
 )
 ;
-let
+const
 Editor
 =
 require
@@ -158,7 +158,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -448,7 +448,7 @@ testHeadersTab
 (
 )
 {
-let
+const
 tabEl
 =
 document
@@ -467,7 +467,7 @@ tab
 0
 ]
 ;
-let
+const
 tabpanel
 =
 document
@@ -853,7 +853,7 @@ tabpanel
 "
 )
 ;
-let
+const
 responseScope
 =
 tabpanel
@@ -873,7 +873,7 @@ scope
 0
 ]
 ;
-let
+const
 requestScope
 =
 tabpanel
@@ -1851,7 +1851,7 @@ testCookiesTab
 (
 )
 {
-let
+const
 onEvent
 =
 monitor
@@ -1898,7 +1898,7 @@ tab
 await
 onEvent
 ;
-let
+const
 tabEl
 =
 document
@@ -1917,7 +1917,7 @@ tab
 1
 ]
 ;
-let
+const
 tabpanel
 =
 document
@@ -2065,7 +2065,7 @@ tab
 ]
 )
 ;
-let
+const
 tabEl
 =
 document
@@ -2084,7 +2084,7 @@ tab
 2
 ]
 ;
-let
+const
 tabpanel
 =
 document
@@ -2316,7 +2316,7 @@ testResponseTab
 (
 )
 {
-let
+const
 onEvent
 =
 monitor
@@ -2363,7 +2363,7 @@ tab
 await
 onEvent
 ;
-let
+const
 tabEl
 =
 document
@@ -2382,7 +2382,7 @@ tab
 3
 ]
 ;
-let
+const
 tabpanel
 =
 document
@@ -2582,7 +2582,7 @@ hidden
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -2686,7 +2686,7 @@ tab
 ]
 )
 ;
-let
+const
 tabEl
 =
 document
@@ -2705,7 +2705,7 @@ tab
 4
 ]
 ;
-let
+const
 tabpanel
 =
 document

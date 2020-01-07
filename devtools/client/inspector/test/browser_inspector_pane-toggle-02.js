@@ -209,7 +209,7 @@ state
 .
 width
 ;
-let
+const
 sidebarSplitBoxWidth
 =
 inspector

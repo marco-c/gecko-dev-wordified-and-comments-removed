@@ -32,7 +32,7 @@ manager
 }
 )
 {
-let
+const
 store
 =
 ui

@@ -399,7 +399,7 @@ state
 action
 )
 {
-let
+const
 {
 column
 }

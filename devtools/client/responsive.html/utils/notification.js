@@ -77,7 +77,7 @@ if
 command
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -87,7 +87,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -110,7 +110,7 @@ notificationBox
 ;
 }
 }
-let
+const
 value
 =
 "

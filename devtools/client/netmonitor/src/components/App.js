@@ -239,7 +239,7 @@ render
 (
 )
 {
-let
+const
 {
 actions
 connector

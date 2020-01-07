@@ -37,13 +37,13 @@ checkPending
 action
 )
 {
-let
+const
 readyRequests
 =
 [
 ]
 ;
-let
+const
 stillPending
 =
 [
@@ -51,7 +51,7 @@ stillPending
 ;
 for
 (
-let
+const
 request
 of
 pending
@@ -92,7 +92,7 @@ stillPending
 ;
 for
 (
-let
+const
 request
 of
 readyRequests
@@ -139,7 +139,7 @@ return
 null
 ;
 }
-let
+const
 result
 =
 next

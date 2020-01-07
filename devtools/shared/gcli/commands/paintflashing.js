@@ -873,7 +873,7 @@ args
 context
 )
 {
-let
+const
 {
 window
 }

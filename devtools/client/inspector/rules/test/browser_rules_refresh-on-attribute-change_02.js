@@ -1082,7 +1082,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -1106,7 +1106,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 desc
 setup
@@ -1131,7 +1131,7 @@ testActor
 }
 )
 ;
-let
+const
 rule
 =
 view
@@ -1239,7 +1239,7 @@ style
 }
 )
 ;
-let
+const
 onRefreshed
 =
 inspector

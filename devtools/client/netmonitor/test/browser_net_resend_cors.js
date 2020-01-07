@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -44,7 +44,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -64,7 +64,7 @@ index
 "
 )
 ;
-let
+const
 {
 getRequestById
 getSortedRequests
@@ -99,7 +99,7 @@ false
 )
 )
 ;
-let
+const
 requestUrl
 =
 "
@@ -127,7 +127,7 @@ POST
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -271,7 +271,7 @@ URL
 }
 )
 ;
-let
+const
 onRequests
 =
 waitForNetworkEvents
@@ -349,7 +349,7 @@ responseHeaders
 }
 )
 ;
-let
+const
 {
 size
 }

@@ -21,7 +21,7 @@ initNetMonitor
 SIMPLE_URL
 )
 ;
-let
+const
 Actions
 =
 monitor
@@ -61,7 +61,7 @@ requestLongerTimeout
 3
 )
 ;
-let
+const
 getDoc
 =
 (
@@ -74,7 +74,7 @@ panelWin
 .
 document
 ;
-let
+const
 getPrefs
 =
 (
@@ -104,7 +104,7 @@ prefs
 .
 Prefs
 ;
-let
+const
 getStore
 =
 (
@@ -117,7 +117,7 @@ panelWin
 .
 store
 ;
-let
+const
 getState
 =
 (
@@ -132,7 +132,7 @@ getState
 (
 )
 ;
-let
+const
 prefsToCheck
 =
 {
@@ -456,13 +456,13 @@ values
 ;
 for
 (
-let
+const
 name
 in
 prefsToCheck
 )
 {
-let
+const
 currentValue
 =
 getPrefs
@@ -506,7 +506,7 @@ elements
 ;
 for
 (
-let
+const
 name
 in
 prefsToCheck
@@ -546,7 +546,7 @@ networkDetailsWidth
 continue
 ;
 }
-let
+const
 currentValue
 =
 getPrefs
@@ -556,7 +556,7 @@ getPrefs
 name
 ]
 ;
-let
+const
 firstValue
 =
 prefsToCheck
@@ -566,7 +566,7 @@ name
 .
 firstValue
 ;
-let
+const
 validateValue
 =
 prefsToCheck
@@ -661,7 +661,7 @@ values
 ;
 for
 (
-let
+const
 name
 in
 prefsToCheck
@@ -701,7 +701,7 @@ networkDetailsWidth
 continue
 ;
 }
-let
+const
 currentValue
 =
 getPrefs
@@ -711,7 +711,7 @@ getPrefs
 name
 ]
 ;
-let
+const
 firstValue
 =
 prefsToCheck
@@ -721,7 +721,7 @@ name
 .
 firstValue
 ;
-let
+const
 newValue
 =
 prefsToCheck
@@ -731,7 +731,7 @@ name
 .
 newValue
 ;
-let
+const
 validateValue
 =
 prefsToCheck
@@ -741,7 +741,7 @@ name
 .
 validateValue
 ;
-let
+const
 modFrontend
 =
 prefsToCheck
@@ -899,7 +899,7 @@ elements
 ;
 for
 (
-let
+const
 name
 in
 prefsToCheck
@@ -939,7 +939,7 @@ networkDetailsWidth
 continue
 ;
 }
-let
+const
 currentValue
 =
 getPrefs
@@ -949,7 +949,7 @@ getPrefs
 name
 ]
 ;
-let
+const
 firstValue
 =
 prefsToCheck
@@ -959,7 +959,7 @@ name
 .
 firstValue
 ;
-let
+const
 newValue
 =
 prefsToCheck
@@ -969,7 +969,7 @@ name
 .
 newValue
 ;
-let
+const
 validateValue
 =
 prefsToCheck
@@ -1102,7 +1102,7 @@ values
 ;
 for
 (
-let
+const
 name
 in
 prefsToCheck
@@ -1142,7 +1142,7 @@ networkDetailsWidth
 continue
 ;
 }
-let
+const
 currentValue
 =
 getPrefs
@@ -1152,7 +1152,7 @@ getPrefs
 name
 ]
 ;
-let
+const
 firstValue
 =
 prefsToCheck
@@ -1162,7 +1162,7 @@ name
 .
 firstValue
 ;
-let
+const
 newValue
 =
 prefsToCheck
@@ -1172,7 +1172,7 @@ name
 .
 newValue
 ;
-let
+const
 validateValue
 =
 prefsToCheck
@@ -1182,7 +1182,7 @@ name
 .
 validateValue
 ;
-let
+const
 modFrontend
 =
 prefsToCheck
@@ -1322,7 +1322,7 @@ restartNetMonitorAndSetupEnv
 (
 )
 {
-let
+const
 newMonitor
 =
 await
@@ -1337,7 +1337,7 @@ newMonitor
 .
 monitor
 ;
-let
+const
 networkEvent
 =
 waitForNetworkEvents
@@ -1359,7 +1359,7 @@ reload
 await
 networkEvent
 ;
-let
+const
 wait
 =
 waitForDOM

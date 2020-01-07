@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -37,7 +37,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 btn
 =
 panel

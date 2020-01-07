@@ -102,7 +102,7 @@ count
 0
 )
 ;
-let
+const
 {
 jsterm
 }
@@ -501,7 +501,7 @@ updateEditUIVisibility
 (
 )
 ;
-let
+const
 oldVal
 =
 jsterm
@@ -517,7 +517,7 @@ cmd_paste
 "
 )
 ;
-let
+const
 notificationbox
 =
 jsterm
@@ -535,7 +535,7 @@ notificationbox
 "
 )
 ;
-let
+const
 notification
 =
 notificationbox
@@ -603,7 +603,7 @@ pasting
 "
 )
 ;
-let
+const
 evt
 =
 document

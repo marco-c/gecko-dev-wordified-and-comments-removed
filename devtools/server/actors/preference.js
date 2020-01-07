@@ -163,7 +163,7 @@ function
 (
 )
 {
-let
+const
 prefs
 =
 {

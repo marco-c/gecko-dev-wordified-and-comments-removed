@@ -109,7 +109,7 @@ rule
 property
 )
 {
-let
+const
 index
 =
 this
@@ -141,7 +141,7 @@ index
 value
 ;
 }
-let
+const
 dummyStyle
 =
 this
@@ -174,7 +174,7 @@ function
 property
 )
 {
-let
+const
 div
 =
 this
@@ -248,7 +248,7 @@ _element
 ;
 for
 (
-let
+const
 rule
 of
 this
@@ -256,7 +256,7 @@ this
 _rules
 )
 {
-let
+const
 value
 =
 this
@@ -314,7 +314,7 @@ _rules
 ]
 )
 {
-let
+const
 elementStyleRule
 =
 this
@@ -367,13 +367,13 @@ properties
 {
 for
 (
-let
+const
 property
 of
 properties
 )
 {
-let
+const
 modifications
 =
 this
@@ -523,7 +523,7 @@ revert
 {
 for
 (
-let
+const
 [
 property
 value
@@ -534,7 +534,7 @@ this
 _modifications
 )
 {
-let
+const
 modifications
 =
 this

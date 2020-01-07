@@ -136,7 +136,7 @@ function
 (
 )
 {
-let
+const
 packet
 =
 await
@@ -146,7 +146,7 @@ evalCode
 gClient
 )
 ;
-let
+const
 source
 =
 gThreadClient
@@ -190,7 +190,7 @@ getSources
 gThreadClient
 )
 ;
-let
+const
 sourceClient
 =
 gThreadClient
@@ -355,7 +355,7 @@ frames
 {
 for
 (
-let
+const
 f
 of
 frames
@@ -660,7 +660,7 @@ debuggerStatement
 "
 )
 ;
-let
+const
 {
 frames
 }

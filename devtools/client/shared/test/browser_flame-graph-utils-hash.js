@@ -30,7 +30,7 @@ function
 (
 )
 {
-let
+const
 hash1
 =
 FlameGraphUtils
@@ -42,7 +42,7 @@ abc
 "
 )
 ;
-let
+const
 hash2
 =
 FlameGraphUtils
@@ -54,7 +54,7 @@ acb
 "
 )
 ;
-let
+const
 hash3
 =
 FlameGraphUtils
@@ -79,7 +79,7 @@ a
 )
 )
 ;
-let
+const
 hash4
 =
 FlameGraphUtils

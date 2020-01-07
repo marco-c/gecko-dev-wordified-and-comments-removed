@@ -1153,7 +1153,7 @@ getLayoutChangesObserver
 tabActor
 )
 {
-let
+const
 observerData
 =
 observedWindows
@@ -1180,7 +1180,7 @@ observerData
 observer
 ;
 }
-let
+const
 obs
 =
 new
@@ -1226,7 +1226,7 @@ releaseLayoutChangesObserver
 tabActor
 )
 {
-let
+const
 observerData
 =
 observedWindows
@@ -1307,13 +1307,13 @@ windows
 {
 for
 (
-let
+const
 window
 of
 windows
 )
 {
-let
+const
 docshell
 =
 window
@@ -1355,7 +1355,7 @@ windows
 {
 for
 (
-let
+const
 window
 of
 windows
@@ -1363,7 +1363,7 @@ windows
 {
 try
 {
-let
+const
 docshell
 =
 window

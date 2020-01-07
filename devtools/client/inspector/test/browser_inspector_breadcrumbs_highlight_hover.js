@@ -24,7 +24,7 @@ inspector
 "
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -84,7 +84,7 @@ span
 inspector
 )
 ;
-let
+const
 bcButtons
 =
 inspector
@@ -188,7 +188,7 @@ node
 "
 )
 ;
-let
+const
 onNodeUnhighlighted
 =
 toolbox

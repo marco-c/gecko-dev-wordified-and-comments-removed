@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -426,7 +426,7 @@ COOKIE_PARTIAL_RESULT
 ]
 )
 ;
-let
+const
 waitSlow
 =
 waitForNetworkEvents
@@ -565,7 +565,7 @@ method
 payload
 )
 {
-let
+const
 waitRequest
 =
 waitForNetworkEvents
@@ -628,7 +628,7 @@ testClipboardContent
 expectedResult
 )
 {
-let
+const
 {
 document
 }
@@ -704,7 +704,7 @@ item
 ]
 )
 ;
-let
+const
 copyUrlParamsNode
 =
 monitor
@@ -796,7 +796,7 @@ return
 false
 ;
 }
-let
+const
 matchRe
 =
 /
@@ -840,7 +840,7 @@ z1
 /
 g
 ;
-let
+const
 actual
 =
 result

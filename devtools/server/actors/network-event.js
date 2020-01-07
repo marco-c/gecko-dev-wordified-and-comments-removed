@@ -317,7 +317,7 @@ channel
 )
 ;
 }
-let
+const
 actor
 =
 this
@@ -442,7 +442,7 @@ length
 ;
 for
 (
-let
+const
 prop
 of
 [
@@ -890,7 +890,7 @@ postData
 text
 )
 ;
-let
+const
 dataSize
 =
 postData
@@ -1391,7 +1391,7 @@ headers
 {
 for
 (
-let
+const
 header
 of
 headers

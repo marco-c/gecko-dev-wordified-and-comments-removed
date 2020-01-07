@@ -1153,7 +1153,7 @@ onSearchBoxFocus
 (
 )
 {
-let
+const
 {
 connector
 filteredRequests
@@ -1258,7 +1258,7 @@ recording
 toggleRecording
 )
 {
-let
+const
 toggleRecordingButtonClass
 =
 [
@@ -1325,7 +1325,7 @@ renderFilterButtons
 requestFilterTypes
 )
 {
-let
+const
 buttons
 =
 Object
@@ -1346,7 +1346,7 @@ checked
 =
 >
 {
-let
+const
 classList
 =
 [
@@ -1588,7 +1588,7 @@ renderThrottlingSelector
 (
 )
 {
-let
+const
 {
 networkThrottling
 onChangeNetworkThrottling
@@ -1684,7 +1684,7 @@ this
 .
 props
 ;
-let
+const
 menuItems
 =
 [
@@ -1982,7 +1982,7 @@ render
 (
 )
 {
-let
+const
 {
 toggleRecording
 clearRequests

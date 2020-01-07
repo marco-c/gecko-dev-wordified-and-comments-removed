@@ -82,7 +82,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -167,7 +167,7 @@ element
 "
 )
 ;
-let
+const
 twisty
 =
 styleDocument
@@ -191,7 +191,7 @@ found
 "
 )
 ;
-let
+const
 onExpand
 =
 inspector
@@ -229,7 +229,7 @@ click
 await
 onExpand
 ;
-let
+const
 div
 =
 styleDocument
@@ -303,7 +303,7 @@ element
 "
 )
 ;
-let
+const
 twisty
 =
 styleDocument
@@ -327,7 +327,7 @@ found
 "
 )
 ;
-let
+const
 onCollapse
 =
 inspector
@@ -365,7 +365,7 @@ click
 await
 onCollapse
 ;
-let
+const
 div
 =
 styleDocument
@@ -444,7 +444,7 @@ container
 "
 )
 ;
-let
+const
 container
 =
 styleDocument
@@ -480,7 +480,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 onExpand
 =
 inspector
@@ -526,7 +526,7 @@ styleWindow
 await
 onExpand
 ;
-let
+const
 div
 =
 styleDocument
@@ -602,7 +602,7 @@ container
 "
 )
 ;
-let
+const
 container
 =
 styleDocument
@@ -632,7 +632,7 @@ found
 "
 )
 ;
-let
+const
 onCollapse
 =
 inspector
@@ -678,7 +678,7 @@ styleWindow
 await
 onCollapse
 ;
-let
+const
 div
 =
 styleDocument

@@ -121,7 +121,7 @@ toggleBrowserConsole
 (
 )
 ;
-let
+const
 opened
 =
 waitForBrowserConsole

@@ -310,7 +310,7 @@ then
 =
 >
 {
-let
+const
 filter
 =
 {
@@ -344,7 +344,7 @@ tabId
 }
 else
 {
-let
+const
 windowUtils
 =
 gTab1
@@ -704,7 +704,7 @@ closeSecondTab
 (
 )
 {
-let
+const
 container
 =
 gBrowser
@@ -804,7 +804,7 @@ cleanup
 (
 )
 {
-let
+const
 container
 =
 gBrowser

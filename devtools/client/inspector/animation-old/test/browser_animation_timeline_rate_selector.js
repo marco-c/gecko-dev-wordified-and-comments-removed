@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 controller
@@ -45,7 +45,7 @@ disableHighlighter
 toolbox
 )
 ;
-let
+const
 select
 =
 panel

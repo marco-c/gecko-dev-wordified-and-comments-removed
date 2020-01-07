@@ -482,7 +482,7 @@ args
 context
 )
 {
-let
+const
 browserWindow
 =
 context

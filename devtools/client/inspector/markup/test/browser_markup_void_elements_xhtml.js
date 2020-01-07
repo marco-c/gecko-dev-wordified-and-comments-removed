@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -32,7 +32,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 win
 }
@@ -56,7 +56,7 @@ displayed
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -151,7 +151,7 @@ document
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -195,7 +195,7 @@ class
 "
 )
 ;
-let
+const
 closeElement
 =
 container
@@ -212,7 +212,7 @@ close
 "
 )
 ;
-let
+const
 computedStyle
 =
 win

@@ -28,7 +28,7 @@ INITIAL_GRIDS
 [
 ]
 ;
-let
+const
 reducers
 =
 {
@@ -43,7 +43,7 @@ color
 }
 )
 {
-let
+const
 newGrids
 =
 grids
@@ -109,7 +109,7 @@ g
 =
 >
 {
-let
+const
 isUpdatedNode
 =
 g
@@ -170,7 +170,7 @@ INITIAL_GRIDS
 action
 )
 {
-let
+const
 reducer
 =
 reducers

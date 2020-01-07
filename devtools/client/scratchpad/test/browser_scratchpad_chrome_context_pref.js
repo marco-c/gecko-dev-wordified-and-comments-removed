@@ -90,7 +90,7 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
@@ -110,7 +110,7 @@ window
 "
 )
 ;
-let
+const
 environmentMenu
 =
 gScratchpadWindow
@@ -158,7 +158,7 @@ visible
 "
 )
 ;
-let
+const
 errorConsoleCommand
 =
 gScratchpadWindow
@@ -208,7 +208,7 @@ enabled
 "
 )
 ;
-let
+const
 chromeContextCommand
 =
 gScratchpadWindow

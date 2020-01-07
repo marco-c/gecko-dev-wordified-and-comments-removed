@@ -215,7 +215,7 @@ updatedAddon
 =
 >
 {
-let
+const
 addons
 =
 GetAvailableAddons
@@ -359,7 +359,7 @@ function
 (
 )
 {
-let
+const
 addon
 =
 await
@@ -411,7 +411,7 @@ function
 (
 )
 {
-let
+const
 addon
 =
 await
@@ -474,7 +474,7 @@ enable
 }
 else
 {
-let
+const
 install
 =
 await
@@ -516,7 +516,7 @@ function
 (
 )
 {
-let
+const
 addon
 =
 await
@@ -749,7 +749,7 @@ decorate
 this
 )
 ;
-let
+const
 fixedOS
 =
 OS

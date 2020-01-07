@@ -67,7 +67,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -96,7 +96,7 @@ inspector
 ruleView
 )
 {
-let
+const
 relative1
 =
 "
@@ -104,7 +104,7 @@ relative1
 relative1
 "
 ;
-let
+const
 relative2
 =
 "
@@ -112,7 +112,7 @@ relative2
 relative2
 "
 ;
-let
+const
 absolute
 =
 "
@@ -120,7 +120,7 @@ absolute
 absolute
 "
 ;
-let
+const
 inline
 =
 "
@@ -128,7 +128,7 @@ inline
 inline
 "
 ;
-let
+const
 base64
 =
 "
@@ -136,7 +136,7 @@ base64
 base64
 "
 ;
-let
+const
 noimage
 =
 "
@@ -144,7 +144,7 @@ noimage
 noimage
 "
 ;
-let
+const
 inlineresolved
 =
 "
@@ -268,7 +268,7 @@ absolute
 inspector
 )
 ;
-let
+const
 absoluteLink
 =
 ruleView
@@ -322,7 +322,7 @@ inline
 inspector
 )
 ;
-let
+const
 inlineLink
 =
 ruleView
@@ -376,7 +376,7 @@ base64
 inspector
 )
 ;
-let
+const
 base64Link
 =
 ruleView
@@ -430,7 +430,7 @@ inlineresolved
 inspector
 )
 ;
-let
+const
 inlineResolvedLink
 =
 ruleView
@@ -485,7 +485,7 @@ noimage
 inspector
 )
 ;
-let
+const
 noimageLink
 =
 ruleView

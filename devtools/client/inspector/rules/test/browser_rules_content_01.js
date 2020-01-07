@@ -118,7 +118,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -297,7 +297,7 @@ text
 "
 )
 ;
-let
+const
 selector
 =
 getRuleViewRuleEditor

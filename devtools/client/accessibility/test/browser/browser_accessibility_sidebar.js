@@ -240,14 +240,14 @@ browser
 =
 >
 {
-let
+const
 doc
 =
 content
 .
 document
 ;
-let
+const
 button
 =
 doc

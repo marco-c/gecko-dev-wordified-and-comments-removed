@@ -226,7 +226,7 @@ link
 return
 ;
 }
-let
+const
 selection
 =
 this
@@ -256,7 +256,7 @@ isSlotted
 )
 )
 {
-let
+const
 reason
 =
 "

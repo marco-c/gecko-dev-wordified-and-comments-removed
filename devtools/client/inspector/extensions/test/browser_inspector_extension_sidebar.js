@@ -288,7 +288,7 @@ props
 "
 )
 ;
-let
+const
 inspectorStoreState
 =
 inspector
@@ -351,7 +351,7 @@ testSidebarSetObject
 (
 )
 {
-let
+const
 object
 =
 {
@@ -371,7 +371,7 @@ anotherValue
 }
 }
 ;
-let
+const
 sidebar
 =
 inspector
@@ -388,7 +388,7 @@ setObject
 object
 )
 ;
-let
+const
 inspectorStoreState
 =
 inspector
@@ -638,7 +638,7 @@ rootTitle
 "
 )
 ;
-let
+const
 expression
 =
 var
@@ -678,7 +678,7 @@ obj
 obj
 ;
 ;
-let
+const
 evalResult
 =
 await
@@ -857,7 +857,7 @@ getTabPanel
 SIDEBAR_ID
 )
 ;
-let
+const
 expression
 =
 "
@@ -872,7 +872,7 @@ body
 )
 "
 ;
-let
+const
 evalResult
 =
 await
@@ -974,7 +974,7 @@ it
 "
 )
 ;
-let
+const
 onNodeHighlight
 =
 toolbox
@@ -993,7 +993,7 @@ moveMouseOnObjectInspectorDOMNode
 sidebarPanelContent
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -1031,7 +1031,7 @@ node
 "
 )
 ;
-let
+const
 onNodeUnhighlight
 =
 toolbox
@@ -1177,7 +1177,7 @@ it
 "
 )
 ;
-let
+const
 onNodeHighlight
 =
 toolbox
@@ -1191,7 +1191,7 @@ highlight
 "
 )
 ;
-let
+const
 onNodeUnhighlight
 =
 toolbox
@@ -1325,7 +1325,7 @@ removed
 "
 )
 ;
-let
+const
 inspectorStoreState
 =
 inspector

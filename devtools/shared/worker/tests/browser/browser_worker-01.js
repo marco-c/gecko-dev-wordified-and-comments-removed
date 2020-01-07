@@ -37,7 +37,7 @@ function
 (
 )
 {
-let
+const
 timestamps
 =
 [
@@ -161,7 +161,7 @@ context
 workerFactory
 )
 {
-let
+const
 {
 DevToolsWorker
 workerify
@@ -171,7 +171,7 @@ workerFactory
 (
 )
 ;
-let
+const
 worker
 =
 new
@@ -180,7 +180,7 @@ DevToolsWorker
 WORKER_URL
 )
 ;
-let
+const
 results
 =
 await
@@ -226,7 +226,7 @@ context
 }
 )
 ;
-let
+const
 fn
 =
 workerify

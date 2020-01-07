@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -29,7 +29,7 @@ html
 "
 )
 ;
-let
+const
 a11yWalker
 =
 await
@@ -57,7 +57,7 @@ enable
 (
 )
 ;
-let
+const
 rootNode
 =
 await
@@ -67,7 +67,7 @@ getRootNode
 (
 )
 ;
-let
+const
 a11yDoc
 =
 await
@@ -92,7 +92,7 @@ created
 "
 )
 ;
-let
+const
 children
 =
 await
@@ -141,7 +141,7 @@ child
 "
 )
 ;
-let
+const
 buttonNode
 =
 await
@@ -158,7 +158,7 @@ button
 "
 )
 ;
-let
+const
 accessibleFront
 =
 await
@@ -187,7 +187,7 @@ pushbutton
 }
 )
 ;
-let
+const
 ancestry
 =
 await
@@ -290,7 +290,7 @@ children
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -434,7 +434,7 @@ null
 =
 >
 {
-let
+const
 input
 =
 content
@@ -958,7 +958,7 @@ recreated
 "
 )
 ;
-let
+const
 reloaded
 =
 BrowserTestUtils
@@ -968,7 +968,7 @@ browserLoaded
 browser
 )
 ;
-let
+const
 documentReady
 =
 a11yWalker

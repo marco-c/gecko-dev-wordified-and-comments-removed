@@ -222,7 +222,7 @@ closeToolbox
 (
 )
 ;
-let
+const
 options
 =
 {
@@ -240,7 +240,7 @@ addonForm
 isWebExtension
 }
 ;
-let
+const
 target
 =
 await
@@ -251,7 +251,7 @@ forRemoteTab
 options
 )
 ;
-let
+const
 hostType
 =
 Toolbox
@@ -303,7 +303,7 @@ function
 addonID
 )
 {
-let
+const
 addon
 =
 await

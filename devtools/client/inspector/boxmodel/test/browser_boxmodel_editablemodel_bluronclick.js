@@ -77,7 +77,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -134,7 +134,7 @@ it
 "
 )
 ;
-let
+const
 span
 =
 boxmodel
@@ -191,7 +191,7 @@ document
 defaultView
 )
 ;
-let
+const
 editor
 =
 boxmodel
@@ -235,7 +235,7 @@ input
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -246,7 +246,7 @@ blur
 "
 )
 ;
-let
+const
 rect
 =
 editor
@@ -333,7 +333,7 @@ it
 "
 )
 ;
-let
+const
 span
 =
 boxmodel
@@ -408,7 +408,7 @@ document
 defaultView
 )
 ;
-let
+const
 editor
 =
 boxmodel
@@ -438,7 +438,7 @@ editor
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -449,7 +449,7 @@ blur
 "
 )
 ;
-let
+const
 container
 =
 boxmodel
@@ -466,7 +466,7 @@ container
 "
 )
 ;
-let
+const
 bounds
 =
 container

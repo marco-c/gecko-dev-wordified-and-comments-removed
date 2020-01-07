@@ -348,7 +348,7 @@ _initialized
 =
 true
 ;
-let
+const
 port
 =
 Services
@@ -756,7 +756,7 @@ l10nProperty
 l10nArgs
 )
 {
-let
+const
 win
 =
 Services
@@ -1049,7 +1049,7 @@ return
 true
 ;
 }
-let
+const
 app
 =
 this
@@ -1203,7 +1203,7 @@ tab
 return
 ;
 }
-let
+const
 tab
 =
 this
@@ -1218,7 +1218,7 @@ tabStore
 .
 selectedTab
 ;
-let
+const
 uri
 =
 NetUtil
@@ -1569,7 +1569,7 @@ getTargetForTab
 )
 ;
 }
-let
+const
 app
 =
 this
@@ -1799,7 +1799,7 @@ function
 project
 )
 {
-let
+const
 manifest
 =
 this
@@ -1845,7 +1845,7 @@ selectedProject
 project
 )
 {
-let
+const
 prev
 =
 this
@@ -1885,7 +1885,7 @@ project
 type
 )
 {
-let
+const
 type
 =
 project
@@ -2171,7 +2171,7 @@ removeSelectedProject
 (
 )
 {
-let
+const
 location
 =
 this
@@ -2342,7 +2342,7 @@ resolve
 )
 ;
 }
-let
+const
 deferred
 =
 new
@@ -2374,7 +2374,7 @@ selectedRuntime
 =
 runtime
 ;
-let
+const
 onConnectedOrDisconnected
 =
 (
@@ -2510,7 +2510,7 @@ reject
 }
 )
 ;
-let
+const
 logResult
 =
 result
@@ -2673,7 +2673,7 @@ connected
 return
 ;
 }
-let
+const
 runtime
 =
 this
@@ -2750,7 +2750,7 @@ telemetry
 return
 ;
 }
-let
+const
 d
 =
 await
@@ -3097,7 +3097,7 @@ app
 )
 ;
 }
-let
+const
 app
 =
 this
@@ -3162,7 +3162,7 @@ app
 )
 ;
 }
-let
+const
 app
 =
 this
@@ -3218,7 +3218,7 @@ function
 (
 )
 {
-let
+const
 project
 =
 this
@@ -3361,7 +3361,7 @@ function
 (
 )
 {
-let
+const
 self
 =
 AppManager
@@ -3450,7 +3450,7 @@ packaged
 "
 )
 {
-let
+const
 packageDir
 =
 project
@@ -3513,7 +3513,7 @@ hosted
 "
 )
 {
-let
+const
 manifestURLObject
 =
 Services
@@ -3527,7 +3527,7 @@ project
 location
 )
 ;
-let
+const
 origin
 =
 Services
@@ -3541,14 +3541,14 @@ manifestURLObject
 prePath
 )
 ;
-let
+const
 appId
 =
 origin
 .
 host
 ;
-let
+const
 metadata
 =
 {
@@ -3606,7 +3606,7 @@ addon
 return
 ;
 }
-let
+const
 {
 app
 }
@@ -3621,7 +3621,7 @@ app
 running
 )
 {
-let
+const
 deferred
 =
 new
@@ -3718,7 +3718,7 @@ function
 (
 )
 {
-let
+const
 app
 =
 this
@@ -3766,14 +3766,14 @@ function
 (
 )
 {
-let
+const
 packageDir
 =
 project
 .
 location
 ;
-let
+const
 validation
 =
 new
@@ -3805,7 +3805,7 @@ validation
 manifest
 )
 {
-let
+const
 manifest
 =
 validation
@@ -3822,7 +3822,7 @@ manifest
 icons
 )
 {
-let
+const
 size
 =
 Object
@@ -3894,7 +3894,7 @@ hosted
 "
 )
 {
-let
+const
 manifestURL
 =
 Services
@@ -3908,7 +3908,7 @@ project
 location
 )
 ;
-let
+const
 origin
 =
 Services
@@ -3953,7 +3953,7 @@ packaged
 "
 )
 {
-let
+const
 projectFolder
 =
 FileUtils
@@ -3963,7 +3963,7 @@ File
 packageDir
 )
 ;
-let
+const
 folderURI
 =
 Services
@@ -4324,7 +4324,7 @@ function
 (
 )
 {
-let
+const
 runtimes
 =
 RuntimeScanners
@@ -4341,7 +4341,7 @@ _clearRuntimeList
 ;
 for
 (
-let
+const
 runtime
 of
 runtimes
@@ -4477,14 +4477,14 @@ manifest
 }
 ;
 }
-let
+const
 folder
 =
 project
 .
 location
 ;
-let
+const
 manifestPath
 =
 OS
@@ -4501,7 +4501,7 @@ webapp
 "
 )
 ;
-let
+const
 text
 =
 JSON
@@ -4515,7 +4515,7 @@ null
 2
 )
 ;
-let
+const
 encoder
 =
 new
@@ -4523,7 +4523,7 @@ TextEncoder
 (
 )
 ;
-let
+const
 array
 =
 encoder

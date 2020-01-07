@@ -472,7 +472,7 @@ unregisterDefaults
 {
 for
 (
-let
+const
 definition
 of
 this
@@ -494,7 +494,7 @@ id
 }
 for
 (
-let
+const
 definition
 of
 this
@@ -520,7 +520,7 @@ registerTool
 toolDefinition
 )
 {
-let
+const
 toolId
 =
 toolDefinition
@@ -645,7 +645,7 @@ tool
 }
 else
 {
-let
+const
 {
 Deprecated
 }
@@ -751,7 +751,7 @@ d1
 d2
 )
 {
-let
+const
 o1
 =
 (
@@ -772,7 +772,7 @@ ordinal
 :
 MAX_ORDINAL
 ;
-let
+const
 o2
 =
 (
@@ -818,7 +818,7 @@ getAdditionalTools
 (
 )
 {
-let
+const
 tools
 =
 [
@@ -826,7 +826,7 @@ tools
 ;
 for
 (
-let
+const
 [
 value
 ]
@@ -887,7 +887,7 @@ getToolDefinition
 toolId
 )
 {
-let
+const
 tool
 =
 this
@@ -922,7 +922,7 @@ return
 tool
 ;
 }
-let
+const
 enabled
 =
 Services
@@ -949,7 +949,7 @@ getToolDefinitionMap
 (
 )
 {
-let
+const
 tools
 =
 new
@@ -959,7 +959,7 @@ Map
 ;
 for
 (
-let
+const
 [
 id
 definition
@@ -998,7 +998,7 @@ getToolDefinitionArray
 (
 )
 {
-let
+const
 definitions
 =
 [
@@ -1006,7 +1006,7 @@ definitions
 ;
 for
 (
-let
+const
 [
 id
 definition
@@ -1081,7 +1081,7 @@ registerTheme
 themeDefinition
 )
 {
-let
+const
 themeId
 =
 themeDefinition
@@ -1204,14 +1204,14 @@ theme
 id
 ;
 }
-let
+const
 currTheme
 =
 getTheme
 (
 )
 ;
-let
+const
 isCoreTheme
 =
 DefaultThemes
@@ -1287,7 +1287,7 @@ getThemeDefinition
 themeId
 )
 {
-let
+const
 theme
 =
 this
@@ -1317,7 +1317,7 @@ getThemeDefinitionMap
 (
 )
 {
-let
+const
 themes
 =
 new
@@ -1327,7 +1327,7 @@ Map
 ;
 for
 (
-let
+const
 [
 id
 definition
@@ -1366,7 +1366,7 @@ getThemeDefinitionArray
 (
 )
 {
-let
+const
 definitions
 =
 [
@@ -1374,7 +1374,7 @@ definitions
 ;
 for
 (
-let
+const
 [
 id
 definition
@@ -1636,7 +1636,7 @@ raise
 }
 else
 {
-let
+const
 promise
 =
 this
@@ -1657,7 +1657,7 @@ return
 promise
 ;
 }
-let
+const
 toolboxPromise
 =
 this
@@ -1717,7 +1717,7 @@ _firstShowToolbox
 false
 ;
 }
-let
+const
 width
 =
 Math
@@ -1769,7 +1769,7 @@ toolId
 startTime
 )
 {
-let
+const
 delay
 =
 Cu
@@ -1780,7 +1780,7 @@ now
 -
 startTime
 ;
-let
+const
 telemetryKey
 =
 this
@@ -2044,7 +2044,7 @@ hostType
 hostOptions
 )
 {
-let
+const
 manager
 =
 new
@@ -2055,7 +2055,7 @@ hostType
 hostOptions
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -2305,7 +2305,7 @@ function
 (
 )
 {
-let
+const
 {
 HUDService
 }
@@ -2344,7 +2344,7 @@ querySelectors
 nodeFront
 )
 {
-let
+const
 selector
 =
 nodeSelectors
@@ -2383,7 +2383,7 @@ length
 0
 )
 {
-let
+const
 {
 nodes
 }
@@ -2411,7 +2411,7 @@ nodeFront
 )
 ;
 }
-let
+const
 nodeFront
 =
 await
@@ -2436,7 +2436,7 @@ nodeSelectors
 startTime
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -2446,7 +2446,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -2463,7 +2463,7 @@ null
 startTime
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -2482,7 +2482,7 @@ toolbox
 selectedFrameDepth
 )
 ;
-let
+const
 onNewNode
 =
 inspector
@@ -2500,7 +2500,7 @@ front
 "
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -2558,7 +2558,7 @@ nodeSelectors
 startTime
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -2568,7 +2568,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -2585,7 +2585,7 @@ null
 startTime
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -2599,7 +2599,7 @@ walker
 nodeSelectors
 )
 ;
-let
+const
 a11yPanel
 =
 toolbox
@@ -2608,7 +2608,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 onSelected
 =
 a11yPanel
@@ -2659,7 +2659,7 @@ shuttingDown
 {
 for
 (
-let
+const
 [
 toolbox
 ]
@@ -2679,7 +2679,7 @@ destroy
 }
 for
 (
-let
+const
 [
 key
 ]

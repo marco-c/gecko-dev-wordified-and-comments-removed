@@ -56,7 +56,7 @@ state
 {
 for
 (
-let
+const
 [
 tool
 ]
@@ -117,7 +117,7 @@ getChromeActors
 callback
 )
 {
-let
+const
 {
 DebuggerServer
 }
@@ -133,7 +133,7 @@ main
 "
 )
 ;
-let
+const
 {
 DebuggerClient
 }
@@ -171,7 +171,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 client
 =
 new
@@ -246,7 +246,7 @@ aSources
 aURL
 )
 {
-let
+const
 item
 =
 aSources
@@ -282,7 +282,7 @@ openScratchpadWindow
 (
 )
 {
-let
+const
 {
 promise
 :
@@ -294,7 +294,7 @@ defer
 (
 )
 ;
-let
+const
 win
 =
 ScratchpadManager
@@ -368,7 +368,7 @@ content
 "
 )
 ;
-let
+const
 mm
 =
 gBrowser
@@ -377,7 +377,7 @@ selectedBrowser
 .
 messageManager
 ;
-let
+const
 def
 =
 defer
@@ -453,7 +453,7 @@ content
 "
 )
 ;
-let
+const
 mm
 =
 gBrowser
@@ -497,7 +497,7 @@ synthesizeKeyElement
 el
 )
 {
-let
+const
 key
 =
 el
@@ -519,7 +519,7 @@ keycode
 "
 )
 ;
-let
+const
 mod
 =
 {
@@ -617,7 +617,7 @@ is
 hostType
 )
 ;
-let
+const
 pref
 =
 Services
@@ -701,7 +701,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 command
 =
 let
@@ -780,7 +780,7 @@ resolve
 =
 >
 {
-let
+const
 target
 =
 toolbox
@@ -886,7 +886,7 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -1020,7 +1020,7 @@ openChevronMenu
 toolbox
 )
 {
-let
+const
 chevronMenuButton
 =
 toolbox
@@ -1051,7 +1051,7 @@ toolbox
 win
 )
 ;
-let
+const
 menuPopup
 =
 toolbox

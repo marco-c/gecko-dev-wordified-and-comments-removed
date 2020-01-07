@@ -32,7 +32,7 @@ use
 "
 )
 ;
-let
+const
 temp
 =
 {
@@ -57,7 +57,7 @@ jsm
 temp
 )
 ;
-let
+const
 webrtcUI
 =
 temp
@@ -165,7 +165,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -177,14 +177,14 @@ initWebAudioEditor
 MEDIA_NODES_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -193,14 +193,14 @@ PropertiesView
 =
 panelWin
 ;
-let
+const
 gVars
 =
 PropertiesView
 .
 _propsView
 ;
-let
+const
 mediaPermissionPref
 =
 Services
@@ -227,7 +227,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 events
 =
 Promise
@@ -259,7 +259,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 ]
@@ -267,7 +267,7 @@ actors
 await
 events
 ;
-let
+const
 nodeIds
 =
 actors
@@ -282,7 +282,7 @@ actor
 actorID
 )
 ;
-let
+const
 types
 =
 [
@@ -300,7 +300,7 @@ MediaStreamAudioDestinationNode
 "
 ]
 ;
-let
+const
 defaults
 =
 await

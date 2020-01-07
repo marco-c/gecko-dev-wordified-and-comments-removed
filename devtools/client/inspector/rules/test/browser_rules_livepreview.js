@@ -155,7 +155,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -178,7 +178,7 @@ inspector
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -208,7 +208,7 @@ ruleView
 selector
 )
 {
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -219,7 +219,7 @@ ruleView
 .
 rule
 ;
-let
+const
 propEditor
 =
 rule
@@ -244,7 +244,7 @@ editor
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -291,7 +291,7 @@ data
 value
 )
 ;
-let
+const
 onPreviewDone
 =
 ruleView
@@ -328,7 +328,7 @@ flush
 await
 onPreviewDone
 ;
-let
+const
 onValueDone
 =
 ruleView

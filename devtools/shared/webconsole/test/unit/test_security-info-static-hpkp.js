@@ -182,7 +182,7 @@ enforcement_level
 1
 )
 ;
-let
+const
 result
 =
 NetworkHelper

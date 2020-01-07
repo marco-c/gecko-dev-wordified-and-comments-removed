@@ -612,7 +612,7 @@ connect
 (
 )
 ;
-let
+const
 rootFront
 =
 RootFront

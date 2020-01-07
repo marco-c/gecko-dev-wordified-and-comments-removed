@@ -81,7 +81,7 @@ i
 =
 >
 {
-let
+const
 index
 =
 sortedItems

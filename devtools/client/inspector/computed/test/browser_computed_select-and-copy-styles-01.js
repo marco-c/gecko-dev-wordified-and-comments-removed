@@ -304,7 +304,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -346,7 +346,7 @@ testCopySome
 view
 )
 {
-let
+const
 expectedPattern
 =
 "
@@ -447,7 +447,7 @@ testCopyAll
 view
 )
 {
-let
+const
 expectedPattern
 =
 "

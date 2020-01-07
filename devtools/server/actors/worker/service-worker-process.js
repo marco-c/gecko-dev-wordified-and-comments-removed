@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 swm
 =
 Cc
@@ -39,14 +39,14 @@ message
 =
 >
 {
-let
+const
 {
 data
 }
 =
 message
 ;
-let
+const
 array
 =
 swm
@@ -73,7 +73,7 @@ i
 +
 )
 {
-let
+const
 registration
 =
 array

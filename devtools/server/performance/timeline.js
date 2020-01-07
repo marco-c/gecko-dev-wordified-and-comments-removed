@@ -236,7 +236,7 @@ docShells
 let
 originalDocShell
 ;
-let
+const
 docShells
 =
 [
@@ -281,7 +281,7 @@ return
 docShells
 ;
 }
-let
+const
 docShellsEnum
 =
 originalDocShell
@@ -309,7 +309,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 docShell
 =
 docShellsEnum
@@ -343,7 +343,7 @@ function
 (
 )
 {
-let
+const
 docShells
 =
 this
@@ -367,7 +367,7 @@ length
 return
 ;
 }
-let
+const
 endTime
 =
 docShells
@@ -379,7 +379,7 @@ now
 (
 )
 ;
-let
+const
 markers
 =
 [
@@ -399,7 +399,7 @@ _withDocLoadingEvents
 {
 for
 (
-let
+const
 docShell
 of
 docShells
@@ -407,7 +407,7 @@ docShells
 {
 for
 (
-let
+const
 marker
 of
 docShell
@@ -629,7 +629,7 @@ this
 _withMarkers
 )
 {
-let
+const
 frames
 =
 this
@@ -705,7 +705,7 @@ withDocLoadingEvents
 }
 )
 {
-let
+const
 docShells
 =
 this
@@ -725,7 +725,7 @@ return
 1
 ;
 }
-let
+const
 startTime
 =
 this
@@ -820,7 +820,7 @@ _withDocLoadingEvents
 {
 for
 (
-let
+const
 docShell
 of
 docShells
@@ -967,7 +967,7 @@ stop
 (
 )
 {
-let
+const
 docShells
 =
 this
@@ -987,7 +987,7 @@ return
 1
 ;
 }
-let
+const
 endTime
 =
 this
@@ -1029,7 +1029,7 @@ _withDocLoadingEvents
 {
 for
 (
-let
+const
 docShell
 of
 docShells
@@ -1214,7 +1214,7 @@ this
 _isRecording
 )
 {
-let
+const
 docShell
 =
 window
@@ -1260,7 +1260,7 @@ nonincrementalReason
 }
 )
 {
-let
+const
 docShells
 =
 this
@@ -1284,7 +1284,7 @@ length
 return
 ;
 }
-let
+const
 endTime
 =
 docShells

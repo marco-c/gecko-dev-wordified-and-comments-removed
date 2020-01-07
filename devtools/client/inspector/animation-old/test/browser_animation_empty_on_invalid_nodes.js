@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -39,7 +39,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 {
 document
 }
@@ -63,7 +63,7 @@ empty
 "
 )
 ;
-let
+const
 stillNode
 =
 await
@@ -189,7 +189,7 @@ empty
 "
 )
 ;
-let
+const
 commentNode
 =
 await

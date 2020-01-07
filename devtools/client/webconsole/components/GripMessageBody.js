@@ -241,7 +241,7 @@ createElement
 )
 ;
 }
-let
+const
 objectInspectorProps
 =
 {
@@ -478,7 +478,7 @@ userProvidedStyle
 createElement
 )
 {
-let
+const
 dummy
 =
 createElement

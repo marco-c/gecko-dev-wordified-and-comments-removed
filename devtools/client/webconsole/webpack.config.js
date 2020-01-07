@@ -76,7 +76,7 @@ dev
 "
 )
 ;
-let
+const
 webpackConfig
 =
 {
@@ -1130,7 +1130,7 @@ g
 "
 )
 ;
-let
+const
 config
 =
 toolboxConfig

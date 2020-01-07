@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 tab
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -46,14 +46,14 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 requestData
 }
 =
 connector
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -75,7 +75,7 @@ index
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -96,7 +96,7 @@ SIMPLE_URL
 await
 wait
 ;
-let
+const
 item
 =
 getSortedRequests
@@ -153,7 +153,7 @@ responseHeaders
 )
 ;
 }
-let
+const
 requestsContainer
 =
 document
@@ -183,7 +183,7 @@ expected
 "
 )
 ;
-let
+const
 headers
 =
 document
@@ -215,7 +215,7 @@ columns
 ;
 for
 (
-let
+const
 column
 in
 columns
@@ -292,7 +292,7 @@ columns
 ;
 for
 (
-let
+const
 column
 in
 columns
@@ -523,7 +523,7 @@ waitForTick
 (
 )
 ;
-let
+const
 menuItem
 =
 parent
@@ -619,7 +619,7 @@ be
 correct
 )
 ;
-let
+const
 onHeaderRemoved
 =
 waitForDOM
@@ -797,7 +797,7 @@ document
 parent
 )
 {
-let
+const
 menuItem
 =
 parent
@@ -891,7 +891,7 @@ be
 correct
 )
 ;
-let
+const
 onHeaderAdded
 =
 waitForDOM

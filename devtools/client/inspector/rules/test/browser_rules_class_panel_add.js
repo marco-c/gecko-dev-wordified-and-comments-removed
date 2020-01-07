@@ -216,7 +216,7 @@ utf
 "
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -293,7 +293,7 @@ onMutation
 ;
 for
 (
-let
+const
 {
 textEntered
 expectNoMutation
@@ -338,7 +338,7 @@ textEntered
 ;
 for
 (
-let
+const
 key
 of
 textEntered
@@ -380,7 +380,7 @@ empty
 "
 )
 ;
-let
+const
 onEmpty
 =
 waitForFieldToBeEmpty
@@ -440,7 +440,7 @@ node
 "
 )
 ;
-let
+const
 className
 =
 await
@@ -456,7 +456,7 @@ class
 "
 )
 ;
-let
+const
 expectedClassName
 =
 expectedClasses

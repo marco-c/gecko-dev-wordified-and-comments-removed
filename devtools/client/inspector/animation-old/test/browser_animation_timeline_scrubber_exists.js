@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -37,14 +37,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 scrubberEl
 =
 timeline

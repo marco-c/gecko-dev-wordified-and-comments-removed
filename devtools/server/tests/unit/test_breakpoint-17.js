@@ -240,7 +240,7 @@ let
 first
 second
 ;
-let
+const
 source
 =
 gThreadClient

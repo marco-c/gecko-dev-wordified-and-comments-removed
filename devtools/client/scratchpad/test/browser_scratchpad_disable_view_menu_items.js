@@ -101,7 +101,7 @@ win
 sp
 )
 {
-let
+const
 doc
 =
 win
@@ -165,7 +165,7 @@ doCommand
 )
 ;
 }
-let
+const
 cmd
 =
 doc
@@ -282,7 +282,7 @@ win
 sp
 )
 {
-let
+const
 doc
 =
 win
@@ -331,7 +331,7 @@ doCommand
 )
 ;
 }
-let
+const
 cmd
 =
 doc

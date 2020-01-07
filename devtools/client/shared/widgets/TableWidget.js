@@ -321,7 +321,7 @@ _parent
 =
 node
 ;
-let
+const
 {
 initialColumns
 emptyText
@@ -820,7 +820,7 @@ id
 {
 for
 (
-let
+const
 column
 of
 this
@@ -938,7 +938,7 @@ index
 {
 for
 (
-let
+const
 column
 of
 this
@@ -984,14 +984,14 @@ visibleSelectedIndex
 (
 )
 {
-let
+const
 column
 =
 this
 .
 firstVisibleColumn
 ;
-let
+const
 cells
 =
 column
@@ -1052,7 +1052,7 @@ firstVisibleColumn
 {
 for
 (
-let
+const
 column
 of
 this
@@ -1099,7 +1099,7 @@ editableColumns
 (
 )
 {
-let
+const
 filter
 =
 columns
@@ -1136,7 +1136,7 @@ return
 false
 ;
 }
-let
+const
 cell
 =
 col
@@ -1155,7 +1155,7 @@ cell
 ;
 for
 (
-let
+const
 selector
 of
 this
@@ -1191,7 +1191,7 @@ columns
 ;
 }
 ;
-let
+const
 columns
 =
 this
@@ -1224,7 +1224,7 @@ function
 data
 )
 {
-let
+const
 changedField
 =
 data
@@ -1233,7 +1233,7 @@ change
 .
 field
 ;
-let
+const
 colName
 =
 changedField
@@ -1242,7 +1242,7 @@ parentNode
 .
 id
 ;
-let
+const
 column
 =
 this
@@ -1254,7 +1254,7 @@ get
 colName
 )
 ;
-let
+const
 uniqueId
 =
 column
@@ -1263,7 +1263,7 @@ table
 .
 uniqueId
 ;
-let
+const
 itemIndex
 =
 column
@@ -1275,7 +1275,7 @@ indexOf
 changedField
 )
 ;
-let
+const
 items
 =
 {
@@ -1283,7 +1283,7 @@ items
 ;
 for
 (
-let
+const
 [
 name
 col
@@ -1309,7 +1309,7 @@ itemIndex
 value
 ;
 }
-let
+const
 change
 =
 {
@@ -1393,14 +1393,14 @@ function
 event
 )
 {
-let
+const
 textbox
 =
 event
 .
 target
 ;
-let
+const
 editor
 =
 this
@@ -1423,7 +1423,7 @@ INPUT_ID
 return
 ;
 }
-let
+const
 column
 =
 textbox
@@ -1457,7 +1457,7 @@ cells
 let
 columnObj
 ;
-let
+const
 cols
 =
 this
@@ -1471,7 +1471,7 @@ this
 .
 visibleSelectedIndex
 ;
-let
+const
 colIndex
 =
 cols
@@ -1554,7 +1554,7 @@ length
 1
 )
 {
-let
+const
 id
 =
 cols
@@ -1575,7 +1575,7 @@ get
 id
 )
 ;
-let
+const
 maxRowIndex
 =
 columnObj
@@ -1612,7 +1612,7 @@ colIndex
 1
 ;
 }
-let
+const
 newcol
 =
 cols
@@ -1633,7 +1633,7 @@ newcol
 id
 )
 ;
-let
+const
 dataId
 =
 editor
@@ -1728,7 +1728,7 @@ out
 )
 ;
 }
-let
+const
 cell
 =
 this
@@ -1760,21 +1760,21 @@ cell
 =
 null
 ;
-let
+const
 cols
 =
 this
 .
 editableColumns
 ;
-let
+const
 rowIndex
 =
 this
 .
 visibleSelectedIndex
 ;
-let
+const
 colIndex
 =
 cols
@@ -1784,7 +1784,7 @@ indexOf
 column
 )
 ;
-let
+const
 maxCol
 =
 cols
@@ -1793,7 +1793,7 @@ length
 -
 1
 ;
-let
+const
 maxRow
 =
 this
@@ -1861,7 +1861,7 @@ length
 1
 ]
 ;
-let
+const
 cells
 =
 this
@@ -1886,7 +1886,7 @@ rowIndex
 1
 ]
 ;
-let
+const
 rowId
 =
 cell
@@ -1922,7 +1922,7 @@ colIndex
 1
 ]
 ;
-let
+const
 cells
 =
 this
@@ -1985,7 +1985,7 @@ cols
 0
 ]
 ;
-let
+const
 cells
 =
 this
@@ -2010,7 +2010,7 @@ rowIndex
 1
 ]
 ;
-let
+const
 rowId
 =
 cell
@@ -2046,7 +2046,7 @@ colIndex
 1
 ]
 ;
-let
+const
 cells
 =
 this
@@ -2100,7 +2100,7 @@ isEditing
 return
 ;
 }
-let
+const
 removedKey
 =
 row
@@ -2110,7 +2110,7 @@ this
 uniqueId
 ]
 ;
-let
+const
 column
 =
 this
@@ -2149,7 +2149,7 @@ function
 (
 )
 {
-let
+const
 editor
 =
 this
@@ -2480,7 +2480,7 @@ target
 }
 )
 {
-let
+const
 nodeName
 =
 target
@@ -2523,7 +2523,7 @@ function
 editableColumns
 )
 {
-let
+const
 selectors
 =
 [
@@ -2550,7 +2550,7 @@ editableColumns
 }
 for
 (
-let
+const
 id
 of
 editableColumns
@@ -2579,7 +2579,7 @@ cell
 }
 for
 (
-let
+const
 [
 name
 column
@@ -3064,7 +3064,7 @@ remove
 }
 for
 (
-let
+const
 column
 of
 this
@@ -3091,7 +3091,7 @@ id
 continue
 ;
 }
-let
+const
 menuitem
 =
 this
@@ -3206,7 +3206,7 @@ menuitem
 )
 ;
 }
-let
+const
 checked
 =
 this
@@ -3261,7 +3261,7 @@ function
 event
 )
 {
-let
+const
 item
 =
 event
@@ -3282,7 +3282,7 @@ checked
 "
 )
 ;
-let
+const
 id
 =
 item
@@ -3323,7 +3323,7 @@ checked
 "
 )
 ;
-let
+const
 disabled
 =
 this
@@ -3420,7 +3420,7 @@ privateColumns
 {
 for
 (
-let
+const
 column
 of
 this
@@ -3516,7 +3516,7 @@ firstColumn
 }
 for
 (
-let
+const
 id
 in
 columns
@@ -3719,7 +3719,7 @@ function
 {
 for
 (
-let
+const
 column
 of
 this
@@ -3747,7 +3747,7 @@ function
 {
 for
 (
-let
+const
 column
 of
 this
@@ -3882,7 +3882,7 @@ uniqueId
 ]
 ;
 }
-let
+const
 index
 =
 this
@@ -3903,7 +3903,7 @@ item
 ;
 for
 (
-let
+const
 [
 key
 column
@@ -4043,7 +4043,7 @@ item
 return
 ;
 }
-let
+const
 removed
 =
 this
@@ -4071,7 +4071,7 @@ return
 }
 for
 (
-let
+const
 column
 of
 this
@@ -4149,7 +4149,7 @@ function
 item
 )
 {
-let
+const
 oldItem
 =
 this
@@ -4197,7 +4197,7 @@ false
 ;
 for
 (
-let
+const
 column
 of
 this
@@ -4293,7 +4293,7 @@ clear
 ;
 for
 (
-let
+const
 column
 of
 this
@@ -4388,7 +4388,7 @@ size
 return
 ;
 }
-let
+const
 sortedItems
 =
 this
@@ -4418,7 +4418,7 @@ values
 ;
 for
 (
-let
+const
 [
 id
 col
@@ -4519,7 +4519,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 itemsToHide
 =
 [
@@ -4537,7 +4537,7 @@ keys
 ;
 for
 (
-let
+const
 [
 id
 val
@@ -4550,13 +4550,13 @@ items
 {
 for
 (
-let
+const
 prop
 in
 val
 )
 {
-let
+const
 column
 =
 this
@@ -4586,7 +4586,7 @@ hidden
 continue
 ;
 }
-let
+const
 propValue
 =
 val
@@ -4676,7 +4676,7 @@ function
 (
 )
 {
-let
+const
 scrollHeight
 =
 this
@@ -5436,7 +5436,7 @@ visibleCellNodes
 (
 )
 {
-let
+const
 editor
 =
 this
@@ -5445,7 +5445,7 @@ table
 .
 _editableFieldsEngine
 ;
-let
+const
 nodes
 =
 this
@@ -5586,7 +5586,7 @@ return
 }
 for
 (
-let
+const
 cell
 of
 this
@@ -5603,7 +5603,7 @@ false
 }
 for
 (
-let
+const
 id
 of
 itemsToHide
@@ -5673,7 +5673,7 @@ table
 scrollIntoViewOnUpdate
 )
 {
-let
+const
 cell
 =
 this
@@ -5943,7 +5943,7 @@ selected
 )
 ;
 }
-let
+const
 cell
 =
 this
@@ -6128,7 +6128,7 @@ function
 item
 )
 {
-let
+const
 value
 =
 item
@@ -6496,7 +6496,7 @@ _updateItems
 (
 )
 ;
-let
+const
 index
 =
 this
@@ -6588,7 +6588,7 @@ _updateItems
 (
 )
 ;
-let
+const
 index
 =
 this
@@ -6767,7 +6767,7 @@ b
 =
 >
 {
-let
+const
 val1
 =
 (
@@ -6797,7 +6797,7 @@ this
 id
 ]
 ;
-let
+const
 val2
 =
 (
@@ -6859,7 +6859,7 @@ b
 =
 >
 {
-let
+const
 val1
 =
 (
@@ -6889,7 +6889,7 @@ this
 id
 ]
 ;
-let
+const
 val2
 =
 (
@@ -7096,7 +7096,7 @@ i
 ;
 for
 (
-let
+const
 cell
 of
 this
@@ -7117,7 +7117,7 @@ i
 +
 ;
 }
-let
+const
 even
 =
 !
@@ -7148,7 +7148,7 @@ function
 event
 )
 {
-let
+const
 target
 =
 event
@@ -7217,7 +7217,7 @@ function
 event
 )
 {
-let
+const
 target
 =
 event
@@ -7266,7 +7266,7 @@ button
 0
 )
 {
-let
+const
 closest
 =
 target
@@ -7291,7 +7291,7 @@ closest
 return
 ;
 }
-let
+const
 dataid
 =
 closest
@@ -7329,7 +7329,7 @@ item
 nextCell
 )
 {
-let
+const
 document
 =
 column
@@ -7651,7 +7651,7 @@ Node
 )
 )
 {
-let
+const
 span
 =
 this
@@ -7815,7 +7815,7 @@ parentNode
 .
 offsetWidth
 ;
-let
+const
 onAnimEnd
 =
 (
@@ -8143,7 +8143,7 @@ this
 _textbox
 )
 {
-let
+const
 doc
 =
 this
@@ -8502,14 +8502,14 @@ isEditing
 return
 ;
 }
-let
+const
 oldValue
 =
 this
 .
 currentValue
 ;
-let
+const
 newValue
 =
 this
@@ -8518,7 +8518,7 @@ textbox
 .
 value
 ;
-let
+const
 changed
 =
 oldValue
@@ -8567,7 +8567,7 @@ value
 =
 newValue
 ;
-let
+const
 data
 =
 {
@@ -8671,7 +8671,7 @@ source
 destination
 )
 {
-let
+const
 style
 =
 source
@@ -8685,7 +8685,7 @@ getComputedStyle
 source
 )
 ;
-let
+const
 props
 =
 [
@@ -8735,7 +8735,7 @@ marginInlineEnd
 ;
 for
 (
-let
+const
 prop
 of
 props

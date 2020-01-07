@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 iframe
 =
 document
@@ -90,7 +90,7 @@ debug
 "
 )
 ;
-let
+const
 toolboxIframe
 =
 document
@@ -117,7 +117,7 @@ target
 =
 iframe
 ;
-let
+const
 onToolboxReady
 =
 gDevTools
@@ -174,13 +174,13 @@ ready
 "
 )
 ;
-let
+const
 toolbox
 =
 await
 onToolboxReady
 ;
-let
+const
 onToolboxDestroyed
 =
 gDevTools
@@ -194,7 +194,7 @@ destroyed
 "
 )
 ;
-let
+const
 onTabActorDetached
 =
 once

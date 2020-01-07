@@ -264,7 +264,7 @@ function
 animations
 )
 {
-let
+const
 animationsRates
 =
 this
@@ -306,7 +306,7 @@ function
 animations
 )
 {
-let
+const
 allRates
 =
 this
@@ -316,7 +316,7 @@ getAnimationsRates
 animations
 )
 ;
-let
+const
 hasOneRate
 =
 allRates
@@ -379,7 +379,7 @@ textContent
 }
 for
 (
-let
+const
 rate
 of
 this
@@ -390,7 +390,7 @@ animations
 )
 )
 {
-let
+const
 option
 =
 createNode
@@ -465,7 +465,7 @@ function
 (
 )
 {
-let
+const
 rate
 =
 parseFloat
@@ -502,7 +502,7 @@ rate
 }
 }
 ;
-let
+const
 sortedUnique
 =
 arr

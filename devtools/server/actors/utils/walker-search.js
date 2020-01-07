@@ -152,7 +152,7 @@ node
 value
 )
 {
-let
+const
 entry
 =
 this
@@ -216,7 +216,7 @@ currentlyIndexing
 =
 true
 ;
-let
+const
 documentWalker
 =
 this
@@ -239,7 +239,7 @@ nextNode
 )
 )
 {
-let
+const
 node
 =
 documentWalker
@@ -257,7 +257,7 @@ nodeType
 1
 )
 {
-let
+const
 localName
 =
 node
@@ -371,7 +371,7 @@ localName
 }
 for
 (
-let
+const
 {
 name
 value
@@ -540,7 +540,7 @@ node
 )
 ;
 }
-let
+const
 matches
 =
 results
@@ -557,7 +557,7 @@ false
 ;
 for
 (
-let
+const
 match
 of
 matches
@@ -610,7 +610,7 @@ results
 {
 for
 (
-let
+const
 [
 matched
 res
@@ -695,7 +695,7 @@ options
 results
 )
 {
-let
+const
 isSelector
 =
 query
@@ -741,7 +741,7 @@ isSelector
 return
 ;
 }
-let
+const
 nodes
 =
 this
@@ -755,7 +755,7 @@ query
 ;
 for
 (
-let
+const
 node
 of
 nodes
@@ -829,7 +829,7 @@ query
 "
 ;
 }
-let
+const
 results
 =
 new
@@ -855,7 +855,7 @@ options
 results
 )
 ;
-let
+const
 resultList
 =
 [
@@ -863,7 +863,7 @@ resultList
 ;
 for
 (
-let
+const
 [
 node
 matches
@@ -874,7 +874,7 @@ results
 {
 for
 (
-let
+const
 {
 type
 }
@@ -900,7 +900,7 @@ break
 ;
 }
 }
-let
+const
 documents
 =
 this
@@ -948,7 +948,7 @@ node
 ownerDocument
 )
 {
-let
+const
 indA
 =
 documents
@@ -962,7 +962,7 @@ node
 ownerDocument
 )
 ;
-let
+const
 indB
 =
 documents

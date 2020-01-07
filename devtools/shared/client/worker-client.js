@@ -293,7 +293,7 @@ this
 thread
 )
 {
-let
+const
 response
 =
 [

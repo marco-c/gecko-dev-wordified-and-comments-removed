@@ -131,7 +131,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -229,7 +229,7 @@ property
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -238,7 +238,7 @@ view
 1
 )
 ;
-let
+const
 marginPropEditor
 =
 idRuleEditor
@@ -503,7 +503,7 @@ units
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -512,7 +512,7 @@ view
 1
 )
 ;
-let
+const
 paddingPropEditor
 =
 idRuleEditor
@@ -748,7 +748,7 @@ colors
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -757,7 +757,7 @@ view
 1
 )
 ;
-let
+const
 hexColorPropEditor
 =
 idRuleEditor
@@ -933,7 +933,7 @@ colors
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -942,7 +942,7 @@ view
 1
 )
 ;
-let
+const
 hexColorPropEditor
 =
 idRuleEditor
@@ -1117,7 +1117,7 @@ colors
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -1126,7 +1126,7 @@ view
 1
 )
 ;
-let
+const
 rgbColorPropEditor
 =
 idRuleEditor
@@ -1364,7 +1364,7 @@ values
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -1373,7 +1373,7 @@ view
 1
 )
 ;
-let
+const
 paddingPropEditor
 =
 idRuleEditor
@@ -1694,7 +1694,7 @@ cases
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -1703,7 +1703,7 @@ view
 1
 )
 ;
-let
+const
 marginPropEditor
 =
 idRuleEditor
@@ -2209,7 +2209,7 @@ from
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -2218,7 +2218,7 @@ view
 1
 )
 ;
-let
+const
 backgroundPropEditor
 =
 idRuleEditor
@@ -2533,7 +2533,7 @@ selection
 }
 )
 ;
-let
+const
 transitionPropEditor
 =
 idRuleEditor
@@ -2610,7 +2610,7 @@ selection
 }
 )
 ;
-let
+const
 zIndexPropEditor
 =
 idRuleEditor
@@ -2674,7 +2674,7 @@ property
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -2683,7 +2683,7 @@ view
 1
 )
 ;
-let
+const
 opacityPropEditor
 =
 idRuleEditor
@@ -2958,7 +2958,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 editor
 =
 await
@@ -2972,7 +2972,7 @@ valueSpan
 ;
 for
 (
-let
+const
 test
 in
 tests
@@ -2991,7 +2991,7 @@ propertyEditor
 )
 ;
 }
-let
+const
 onRuleViewChanged
 =
 view
@@ -3050,7 +3050,7 @@ options
 .
 start
 ;
-let
+const
 input
 =
 editor
@@ -3117,7 +3117,7 @@ options
 start
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -3131,7 +3131,7 @@ changed
 "
 )
 ;
-let
+const
 onKeyUp
 =
 once

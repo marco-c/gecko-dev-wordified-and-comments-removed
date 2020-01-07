@@ -70,14 +70,14 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
 .
 Scratchpad
 ;
-let
+const
 contentMenu
 =
 gScratchpadWindow
@@ -95,7 +95,7 @@ content
 "
 )
 ;
-let
+const
 chromeMenu
 =
 gScratchpadWindow
@@ -113,7 +113,7 @@ browser
 "
 )
 ;
-let
+const
 notificationBox
 =
 sp
@@ -159,7 +159,7 @@ notificationBox
 "
 )
 ;
-let
+const
 tests
 =
 [
@@ -275,7 +275,7 @@ aloha
 "
 )
 ;
-let
+const
 pageResult
 =
 await
@@ -441,7 +441,7 @@ context
 "
 )
 ;
-let
+const
 [
 from
 to

@@ -283,7 +283,7 @@ componentDidMount
 (
 )
 {
-let
+const
 swatchEl
 =
 findDOMNode
@@ -303,7 +303,7 @@ swatch
 "
 )
 ;
-let
+const
 tooltip
 =
 this
@@ -383,7 +383,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 swatchEl
 =
 findDOMNode
@@ -403,7 +403,7 @@ swatch
 "
 )
 ;
-let
+const
 tooltip
 =
 this
@@ -426,7 +426,7 @@ setGridColor
 (
 )
 {
-let
+const
 color
 =
 findDOMNode
@@ -470,7 +470,7 @@ onGridCheckboxClick
 e
 )
 {
-let
+const
 originalTarget
 =
 e
@@ -521,7 +521,7 @@ preventDefault
 return
 ;
 }
-let
+const
 {
 grid
 onToggleGridHighlighter
@@ -544,7 +544,7 @@ onGridInspectIconClick
 nodeFront
 )
 {
-let
+const
 {
 setSelectedNode
 }
@@ -591,7 +591,7 @@ render
 (
 )
 {
-let
+const
 {
 grid
 onHideBoxModelHighlighter
@@ -602,7 +602,7 @@ this
 .
 props
 ;
-let
+const
 {
 nodeFront
 }

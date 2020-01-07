@@ -492,7 +492,7 @@ getAppLocalesAsBCP47
 (
 )
 ;
-let
+const
 generator
 =
 L10nRegistry
@@ -511,7 +511,7 @@ ftl
 ]
 )
 ;
-let
+const
 contexts
 =
 [
@@ -520,7 +520,7 @@ contexts
 for
 await
 (
-let
+const
 message
 of
 generator
@@ -543,7 +543,7 @@ updateWorkers
 (
 )
 {
-let
+const
 {
 service
 }

@@ -123,7 +123,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -161,7 +161,7 @@ expandAll
 (
 )
 ;
-let
+const
 container1
 =
 await
@@ -174,7 +174,7 @@ d1
 inspector
 )
 ;
-let
+const
 evHolder1
 =
 container1
@@ -193,7 +193,7 @@ badge
 "
 )
 ;
-let
+const
 container2
 =
 await
@@ -206,7 +206,7 @@ d2
 inspector
 )
 ;
-let
+const
 evHolder2
 =
 container2
@@ -225,7 +225,7 @@ badge
 "
 )
 ;
-let
+const
 tooltip
 =
 inspector
@@ -307,7 +307,7 @@ element
 "
 )
 ;
-let
+const
 onHidden
 =
 tooltip
@@ -387,7 +387,7 @@ tab
 "
 )
 ;
-let
+const
 onHighlighterHidden
 =
 toolbox
@@ -401,7 +401,7 @@ unhighlight
 "
 )
 ;
-let
+const
 onTabComputedViewSelected
 =
 inspector
@@ -417,7 +417,7 @@ selected
 "
 )
 ;
-let
+const
 computedViewTab
 =
 inspector

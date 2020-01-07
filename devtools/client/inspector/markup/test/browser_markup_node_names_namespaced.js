@@ -192,7 +192,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -203,7 +203,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 svgNodeFront
 =
 await
@@ -231,7 +231,7 @@ waitForMultipleChildrenUpdates
 inspector
 )
 ;
-let
+const
 clipPathContainer
 =
 await
@@ -281,7 +281,7 @@ displayed
 "
 )
 ;
-let
+const
 circlePathContainer
 =
 await

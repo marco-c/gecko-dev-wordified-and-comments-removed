@@ -608,7 +608,7 @@ return
 null
 ;
 }
-let
+const
 normalizedOptions
 =
 normalizePerformanceFeatures
@@ -621,7 +621,7 @@ traits
 features
 )
 ;
-let
+const
 recording
 =
 await
@@ -843,7 +843,7 @@ eventName
 )
 )
 {
-let
+const
 recording
 =
 data
@@ -851,7 +851,7 @@ data
 0
 ]
 ;
-let
+const
 extraData
 =
 data

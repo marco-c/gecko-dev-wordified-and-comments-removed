@@ -486,7 +486,7 @@ view
 "
 )
 ;
-let
+const
 property
 =
 getBackgroundImageProperty
@@ -495,7 +495,7 @@ view
 selector
 )
 ;
-let
+const
 imageLink
 =
 property
@@ -540,7 +540,7 @@ URL
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openStyleContextMenuAndGetAllItems
@@ -549,7 +549,7 @@ view
 imageLink
 )
 ;
-let
+const
 menuitemCopyUrl
 =
 allMenuItems
@@ -579,7 +579,7 @@ copyUrl
 )
 )
 ;
-let
+const
 menuitemCopyImageDataUrl
 =
 allMenuItems
@@ -758,7 +758,7 @@ view
 selector
 )
 {
-let
+const
 isRuleView
 =
 view

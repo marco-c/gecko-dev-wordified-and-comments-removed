@@ -51,7 +51,7 @@ height
 500
 )
 ;
-let
+const
 {
 tab
 view
@@ -70,7 +70,7 @@ view
 .
 document
 ;
-let
+const
 fontEls
 =
 getUsedFontsEls
@@ -78,7 +78,7 @@ getUsedFontsEls
 viewDoc
 )
 ;
-let
+const
 expectedSelectionChangeEvents
 =
 [
@@ -124,7 +124,7 @@ the
 list
 )
 ;
-let
+const
 nameEl
 =
 fontEls
@@ -192,7 +192,7 @@ on
 mouseover
 )
 ;
-let
+const
 otherEl
 =
 fontEls
@@ -280,7 +280,7 @@ function
 n
 )
 {
-let
+const
 win
 =
 content

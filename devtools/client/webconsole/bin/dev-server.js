@@ -57,7 +57,7 @@ setConfig
 envConfig
 )
 ;
-let
+const
 webpackConfig
 =
 require

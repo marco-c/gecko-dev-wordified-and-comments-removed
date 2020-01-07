@@ -84,7 +84,7 @@ enabled
 false
 )
 ;
-let
+const
 {
 inspector
 toolbox
@@ -151,7 +151,7 @@ runTests
 inspector
 )
 {
-let
+const
 markupContainer
 =
 await
@@ -164,7 +164,7 @@ events
 inspector
 )
 ;
-let
+const
 evHolder
 =
 markupContainer
@@ -183,7 +183,7 @@ badge
 "
 )
 ;
-let
+const
 tooltip
 =
 inspector
@@ -218,7 +218,7 @@ updated
 "
 )
 ;
-let
+const
 onTooltipShown
 =
 tooltip
@@ -279,7 +279,7 @@ updated
 "
 )
 ;
-let
+const
 onTooltipHidden
 =
 tooltip
@@ -306,7 +306,7 @@ tooltip
 "
 )
 ;
-let
+const
 h1
 =
 await
@@ -318,7 +318,7 @@ h1
 inspector
 )
 ;
-let
+const
 tag
 =
 h1

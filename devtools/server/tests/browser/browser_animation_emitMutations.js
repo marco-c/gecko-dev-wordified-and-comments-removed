@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -41,7 +41,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -73,7 +73,7 @@ node
 "
 )
 ;
-let
+const
 players
 =
 await
@@ -223,7 +223,7 @@ additions
 "
 )
 ;
-let
+const
 names
 =
 changes
@@ -300,7 +300,7 @@ later
 "
 )
 ;
-let
+const
 p1
 =
 changes
@@ -310,7 +310,7 @@ changes
 .
 player
 ;
-let
+const
 p2
 =
 changes

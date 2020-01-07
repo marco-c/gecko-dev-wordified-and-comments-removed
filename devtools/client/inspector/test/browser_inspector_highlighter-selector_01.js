@@ -219,7 +219,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -231,14 +231,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -251,7 +251,7 @@ SelectorHighlighter
 "
 )
 ;
-let
+const
 contextNode
 =
 await
@@ -265,7 +265,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 selector
 containerCount
@@ -309,7 +309,7 @@ selector
 }
 )
 ;
-let
+const
 nb
 =
 await

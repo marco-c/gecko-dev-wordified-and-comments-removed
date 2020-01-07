@@ -64,7 +64,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -77,7 +77,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 body
 =
 await
@@ -279,7 +279,7 @@ inspector
 isShift
 )
 {
-let
+const
 onSelectionChanged
 =
 inspector
@@ -327,7 +327,7 @@ selector
 inspector
 )
 {
-let
+const
 el
 =
 await
@@ -363,7 +363,7 @@ toolbox
 isOn
 )
 {
-let
+const
 pickerButton
 =
 toolbox

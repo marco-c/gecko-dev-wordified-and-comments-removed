@@ -34,7 +34,7 @@ function
 (
 )
 {
-let
+const
 ctx
 =
 {
@@ -62,7 +62,7 @@ text
 =
 >
 {
-let
+const
 width
 =
 text
@@ -83,7 +83,7 @@ width
 }
 }
 ;
-let
+const
 node
 =
 {
@@ -113,12 +113,12 @@ totalCount
 100
 }
 ;
-let
+const
 ratio
 =
 0
 ;
-let
+const
 borderWidth
 =
 (
@@ -127,7 +127,7 @@ borderWidth
 >
 1
 ;
-let
+const
 dragZoom
 =
 {
@@ -148,7 +148,7 @@ fillTextValues
 [
 ]
 ;
-let
+const
 padding
 =
 [

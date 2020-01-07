@@ -1410,7 +1410,7 @@ event
 packet
 )
 {
-let
+const
 [
 grip
 ]
@@ -1421,7 +1421,7 @@ frame
 .
 arguments
 ;
-let
+const
 objClient
 =
 threadClient
@@ -1628,7 +1628,7 @@ properties
 "
 )
 ;
-let
+const
 sliceResponse
 =
 await
@@ -1671,14 +1671,14 @@ property
 "
 )
 ;
-let
+const
 {
 ownProperties
 }
 =
 sliceResponse
 ;
-let
+const
 names
 =
 Object

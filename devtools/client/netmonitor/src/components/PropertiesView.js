@@ -561,7 +561,7 @@ object
 whiteList
 )
 {
-let
+const
 {
 name
 value
@@ -569,7 +569,7 @@ value
 =
 object
 ;
-let
+const
 filterText
 =
 this
@@ -596,7 +596,7 @@ return
 true
 ;
 }
-let
+const
 jsonString
 =
 JSON

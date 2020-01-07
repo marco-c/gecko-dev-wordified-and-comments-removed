@@ -49,7 +49,7 @@ function
 milliseconds
 )
 {
-let
+const
 d
 =
 new
@@ -78,7 +78,7 @@ getMinutes
 (
 )
 ;
-let
+const
 seconds
 =
 d
@@ -95,7 +95,7 @@ getMilliseconds
 (
 )
 ;
-let
+const
 parameters
 =
 [

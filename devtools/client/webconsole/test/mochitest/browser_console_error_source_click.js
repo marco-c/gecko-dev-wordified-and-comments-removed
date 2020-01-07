@@ -57,7 +57,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 hud
 =
 await
@@ -119,7 +119,7 @@ selectedBrowser
 =
 >
 {
-let
+const
 button
 =
 content
@@ -167,7 +167,7 @@ hud
 message
 )
 {
-let
+const
 msg
 =
 await
@@ -197,7 +197,7 @@ message
 "
 )
 ;
-let
+const
 locationNode
 =
 msg
@@ -230,7 +230,7 @@ found
 "
 )
 ;
-let
+const
 onTabOpen
 =
 BrowserTestUtils
@@ -248,7 +248,7 @@ click
 (
 )
 ;
-let
+const
 newTab
 =
 await

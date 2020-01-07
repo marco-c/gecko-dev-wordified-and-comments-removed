@@ -106,7 +106,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 {
 panel
 }

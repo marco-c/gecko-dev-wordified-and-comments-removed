@@ -54,7 +54,7 @@ enableApplicationPanel
 (
 )
 ;
-let
+const
 {
 panel
 target
@@ -66,7 +66,7 @@ openNewTabAndApplicationPanel
 TAB_URL
 )
 ;
-let
+const
 doc
 =
 panel
@@ -110,7 +110,7 @@ length
 1
 )
 ;
-let
+const
 workerContainer
 =
 getWorkerContainers
@@ -121,7 +121,7 @@ doc
 0
 ]
 ;
-let
+const
 scopeEl
 =
 workerContainer
@@ -196,7 +196,7 @@ scope
 "
 )
 ;
-let
+const
 urlEl
 =
 workerContainer

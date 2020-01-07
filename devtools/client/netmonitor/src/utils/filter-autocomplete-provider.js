@@ -463,7 +463,7 @@ values
 ;
 for
 (
-let
+const
 request
 of
 requests
@@ -522,7 +522,7 @@ typedFlagValue
 value
 )
 {
-let
+const
 lowerTyped
 =
 typedFlagValue
@@ -531,7 +531,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 lowerValue
 =
 value
@@ -634,7 +634,7 @@ return
 ]
 ;
 }
-let
+const
 negativeAutocompleteList
 =
 FILTER_FLAGS
@@ -652,7 +652,7 @@ item
 }
 )
 ;
-let
+const
 baseList
 =
 [
@@ -679,7 +679,7 @@ item
 :
 )
 ;
-let
+const
 tokens
 =
 filter
@@ -694,7 +694,7 @@ s
 g
 )
 ;
-let
+const
 lastToken
 =
 tokens
@@ -706,7 +706,7 @@ length
 1
 ]
 ;
-let
+const
 previousTokens
 =
 tokens
@@ -735,7 +735,7 @@ return
 let
 autocompleteList
 ;
-let
+const
 availableValues
 =
 getLastTokenFlagValues

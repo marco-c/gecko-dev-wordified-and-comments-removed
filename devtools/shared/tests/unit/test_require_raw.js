@@ -8,7 +8,7 @@ run_test
 (
 )
 {
-let
+const
 loader
 =
 new
@@ -16,14 +16,14 @@ DevToolsLoader
 (
 )
 ;
-let
+const
 require
 =
 loader
 .
 require
 ;
-let
+const
 variableFileContents
 =
 require
@@ -57,7 +57,7 @@ worked
 "
 )
 ;
-let
+const
 propertiesFileContents
 =
 require
@@ -93,7 +93,7 @@ worked
 "
 )
 ;
-let
+const
 chromePropertiesFileContents
 =
 require

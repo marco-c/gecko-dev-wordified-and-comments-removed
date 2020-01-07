@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -71,7 +71,7 @@ var
 inspector
 )
 ;
-let
+const
 container
 =
 await
@@ -86,7 +86,7 @@ var
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -101,7 +101,7 @@ tagLine
 }
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems
@@ -146,7 +146,7 @@ ready
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -160,14 +160,14 @@ webconsole
 .
 hud
 ;
-let
+const
 jsterm
 =
 hud
 .
 jsterm
 ;
-let
+const
 jstermInput
 =
 jsterm

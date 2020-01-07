@@ -100,7 +100,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -157,7 +157,7 @@ grid
 inspector
 )
 ;
-let
+const
 gridContainer
 =
 await
@@ -170,7 +170,7 @@ grid
 inspector
 )
 ;
-let
+const
 gridDisplayNode
 =
 gridContainer
@@ -262,7 +262,7 @@ flex
 inspector
 )
 ;
-let
+const
 flexContainer
 =
 await
@@ -275,7 +275,7 @@ flex
 inspector
 )
 ;
-let
+const
 flexDisplayNode
 =
 flexContainer
@@ -366,7 +366,7 @@ block
 inspector
 )
 ;
-let
+const
 blockContainer
 =
 await
@@ -379,7 +379,7 @@ block
 inspector
 )
 ;
-let
+const
 blockDisplayNode
 =
 blockContainer
@@ -466,7 +466,7 @@ span
 inspector
 )
 ;
-let
+const
 spanContainer
 =
 await
@@ -478,7 +478,7 @@ span
 inspector
 )
 ;
-let
+const
 spanDisplayNode
 =
 spanContainer

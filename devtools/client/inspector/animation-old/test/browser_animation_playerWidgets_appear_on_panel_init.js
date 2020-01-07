@@ -40,7 +40,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }

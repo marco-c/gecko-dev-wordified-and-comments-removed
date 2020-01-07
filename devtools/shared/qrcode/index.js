@@ -171,14 +171,14 @@ message
 quality
 )
 {
-let
+const
 msgLength
 =
 message
 .
 length
 ;
-let
+const
 qualityLevel
 =
 QRErrorCorrectLevel
@@ -203,7 +203,7 @@ version
 +
 )
 {
-let
+const
 rsBlocks
 =
 QRRSBlock
@@ -303,7 +303,7 @@ message
 quality
 )
 ;
-let
+const
 encoder
 =
 new
@@ -358,7 +358,7 @@ reject
 )
 ;
 }
-let
+const
 deferred
 =
 defer

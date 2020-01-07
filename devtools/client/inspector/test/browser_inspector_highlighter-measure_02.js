@@ -128,7 +128,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -145,7 +145,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 {
 show
 finalize
@@ -330,7 +330,7 @@ true
 ;
 for
 (
-let
+const
 side
 of
 SIDES
@@ -503,7 +503,7 @@ true
 ;
 for
 (
-let
+const
 side
 of
 SIDES
@@ -663,7 +663,7 @@ true
 ;
 for
 (
-let
+const
 side
 of
 SIDES
@@ -714,7 +714,7 @@ getElementTextContent
 }
 )
 {
-let
+const
 text
 =
 await
@@ -727,7 +727,7 @@ size
 "
 )
 ;
-let
+const
 [
 width
 height

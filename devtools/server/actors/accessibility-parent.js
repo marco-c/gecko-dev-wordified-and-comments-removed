@@ -220,7 +220,7 @@ this
 messageManager
 )
 {
-let
+const
 oldMM
 =
 this
@@ -270,7 +270,7 @@ onAccessibilityMessage
 msg
 )
 {
-let
+const
 {
 action
 }
@@ -351,7 +351,7 @@ changed
 "
 )
 {
-let
+const
 {
 PlatformAPI
 }
@@ -490,7 +490,7 @@ this
 enabled
 )
 {
-let
+const
 a11yService
 =
 Cc
@@ -513,7 +513,7 @@ Ci
 nsIAccessibilityService
 )
 ;
-let
+const
 {
 PlatformAPI
 }

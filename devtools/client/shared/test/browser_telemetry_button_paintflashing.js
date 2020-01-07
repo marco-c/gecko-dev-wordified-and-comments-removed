@@ -72,7 +72,7 @@ enabled
 true
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -84,7 +84,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -158,7 +158,7 @@ paintflashing
 "
 )
 ;
-let
+const
 button
 =
 toolbox
@@ -250,7 +250,7 @@ TOOL_DELAY
 }
 )
 ;
-let
+const
 {
 CommandState
 }
@@ -270,7 +270,7 @@ state
 "
 )
 ;
-let
+const
 clicked
 =
 new

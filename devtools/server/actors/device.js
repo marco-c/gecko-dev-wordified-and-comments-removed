@@ -151,7 +151,7 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -175,7 +175,7 @@ blob
 =
 >
 {
-let
+const
 reader
 =
 new
@@ -183,7 +183,7 @@ FileReader
 (
 )
 ;
-let
+const
 conn
 =
 this
@@ -201,7 +201,7 @@ function
 (
 )
 {
-let
+const
 str
 =
 new
@@ -268,7 +268,7 @@ function
 (
 )
 {
-let
+const
 window
 =
 Services
@@ -282,14 +282,14 @@ DebuggerServer
 chromeWindowType
 )
 ;
-let
+const
 {
 devicePixelRatio
 }
 =
 window
 ;
-let
+const
 canvas
 =
 window
@@ -318,14 +318,14 @@ canvas
 "
 )
 ;
-let
+const
 width
 =
 window
 .
 innerWidth
 ;
-let
+const
 height
 =
 window
@@ -366,7 +366,7 @@ devicePixelRatio
 )
 )
 ;
-let
+const
 context
 =
 canvas
@@ -378,7 +378,7 @@ getContext
 "
 )
 ;
-let
+const
 flags
 =
 context
@@ -421,7 +421,7 @@ rgb
 flags
 )
 ;
-let
+const
 dataURL
 =
 canvas

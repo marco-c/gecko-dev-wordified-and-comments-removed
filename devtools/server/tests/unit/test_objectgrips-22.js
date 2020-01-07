@@ -44,7 +44,7 @@ initTestDebuggerServer
 server
 )
 ;
-let
+const
 title
 =
 "
@@ -78,7 +78,7 @@ toString
 )
 )
 ;
-let
+const
 client
 =
 new
@@ -151,7 +151,7 @@ event
 packet
 )
 {
-let
+const
 [
 grip
 ]
@@ -162,7 +162,7 @@ frame
 .
 arguments
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -172,7 +172,7 @@ pauseGrip
 grip
 )
 ;
-let
+const
 {
 iterator
 }
@@ -184,7 +184,7 @@ enumSymbols
 (
 )
 ;
-let
+const
 {
 ownSymbols
 }
@@ -216,7 +216,7 @@ property
 "
 )
 ;
-let
+const
 {
 name
 descriptor

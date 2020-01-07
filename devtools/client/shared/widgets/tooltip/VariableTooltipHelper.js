@@ -30,7 +30,7 @@ doc
 text
 )
 {
-let
+const
 div
 =
 doc

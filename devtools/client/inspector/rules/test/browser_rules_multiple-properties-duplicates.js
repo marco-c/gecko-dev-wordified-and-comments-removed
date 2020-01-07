@@ -48,7 +48,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -68,7 +68,7 @@ div
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -77,7 +77,7 @@ view
 0
 )
 ;
-let
+const
 onMutation
 =
 inspector
@@ -89,7 +89,7 @@ markupmutation
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view

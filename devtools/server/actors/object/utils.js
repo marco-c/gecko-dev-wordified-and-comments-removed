@@ -135,7 +135,7 @@ objects
 )
 ;
 }
-let
+const
 state
 =
 {
@@ -656,7 +656,7 @@ length
 )
 ;
 }
-let
+const
 typedProto
 =
 Object
@@ -668,7 +668,7 @@ Uint8Array
 prototype
 )
 ;
-let
+const
 getter
 =
 Object
@@ -702,7 +702,7 @@ isArrayIndex
 str
 )
 {
-let
+const
 num
 =
 str

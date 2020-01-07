@@ -1180,7 +1180,7 @@ props
 {
 for
 (
-let
+const
 [
 name
 val
@@ -1253,7 +1253,7 @@ sig
 )
 )
 {
-let
+const
 props
 =
 PENDING_EVENT_PROPERTIES
@@ -1415,7 +1415,7 @@ pendingObject
 {
 for
 (
-let
+const
 [
 key
 val

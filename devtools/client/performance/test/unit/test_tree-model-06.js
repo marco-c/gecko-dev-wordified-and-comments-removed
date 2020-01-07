@@ -10,7 +10,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -34,7 +34,7 @@ model
 "
 )
 ;
-let
+const
 root
 =
 getFrameNodePath
@@ -59,7 +59,7 @@ root
 "
 )
 ;
-let
+const
 A
 =
 getFrameNodePath
@@ -70,7 +70,7 @@ A
 "
 )
 ;
-let
+const
 B
 =
 getFrameNodePath
@@ -81,7 +81,7 @@ B
 "
 )
 ;
-let
+const
 C
 =
 getFrameNodePath
@@ -92,7 +92,7 @@ C
 "
 )
 ;
-let
+const
 Aopts
 =
 A
@@ -101,7 +101,7 @@ getOptimizations
 (
 )
 ;
-let
+const
 Bopts
 =
 B
@@ -110,7 +110,7 @@ getOptimizations
 (
 )
 ;
-let
+const
 Copts
 =
 C
@@ -163,7 +163,7 @@ frame
 "
 )
 ;
-let
+const
 optSitesObserved
 =
 new
@@ -173,7 +173,7 @@ Set
 ;
 for
 (
-let
+const
 opt
 of
 Bopts
@@ -932,7 +932,7 @@ schema
 .
 optimizations
 ;
-let
+const
 l
 =
 gThread

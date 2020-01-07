@@ -133,7 +133,7 @@ converter
 =
 >
 {
-let
+const
 conv
 =
 Cc
@@ -369,7 +369,7 @@ null
 )
 ;
 }
-let
+const
 message
 =
 JSON
@@ -379,7 +379,7 @@ stringify
 object
 )
 ;
-let
+const
 rawMessage
 =
 converter
@@ -449,14 +449,14 @@ socket
 message
 )
 {
-let
+const
 messageData
 =
 message
 .
 data
 ;
-let
+const
 object
 =
 JSON
@@ -476,7 +476,7 @@ fromAddr
 .
 address
 ;
-let
+const
 port
 =
 message
@@ -963,7 +963,7 @@ function
 (
 )
 {
-let
+const
 devices
 =
 new
@@ -973,7 +973,7 @@ Set
 ;
 for
 (
-let
+const
 service
 in
 this
@@ -983,7 +983,7 @@ remoteServices
 {
 for
 (
-let
+const
 device
 in
 this
@@ -1019,7 +1019,7 @@ function
 service
 )
 {
-let
+const
 devicesWithService
 =
 this
@@ -1050,7 +1050,7 @@ service
 device
 )
 {
-let
+const
 devicesWithService
 =
 this
@@ -1457,7 +1457,7 @@ function
 port
 )
 {
-let
+const
 status
 =
 {
@@ -1525,14 +1525,14 @@ UPDATE
 "
 )
 ;
-let
+const
 remoteDevice
 =
 update
 .
 device
 ;
-let
+const
 remoteHost
 =
 update
@@ -1552,7 +1552,7 @@ remoteDevice
 ;
 for
 (
-let
+const
 service
 in
 this
@@ -1560,7 +1560,7 @@ this
 remoteServices
 )
 {
-let
+const
 devicesWithService
 =
 this
@@ -1570,7 +1570,7 @@ remoteServices
 service
 ]
 ;
-let
+const
 hadServiceForDevice
 =
 !
@@ -1580,7 +1580,7 @@ devicesWithService
 remoteDevice
 ]
 ;
-let
+const
 haveServiceForDevice
 =
 service
@@ -1638,7 +1638,7 @@ remoteDevice
 }
 for
 (
-let
+const
 service
 in
 update
@@ -1646,7 +1646,7 @@ update
 services
 )
 {
-let
+const
 newDevice
 =
 !
@@ -1669,7 +1669,7 @@ service
 remoteDevice
 ]
 ;
-let
+const
 devicesWithService
 =
 this
@@ -1683,7 +1683,7 @@ service
 {
 }
 ;
-let
+const
 oldDeviceInfo
 =
 devicesWithService
@@ -1691,7 +1691,7 @@ devicesWithService
 remoteDevice
 ]
 ;
-let
+const
 newDeviceInfo
 =
 Cu
@@ -1840,7 +1840,7 @@ DEVICES
 ;
 for
 (
-let
+const
 service
 in
 this
@@ -1848,7 +1848,7 @@ this
 remoteServices
 )
 {
-let
+const
 devicesWithService
 =
 this
@@ -1860,7 +1860,7 @@ service
 ;
 for
 (
-let
+const
 remoteDevice
 in
 devicesWithService

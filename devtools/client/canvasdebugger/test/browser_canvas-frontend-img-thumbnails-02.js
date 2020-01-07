@@ -4,7 +4,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -16,7 +16,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 window
 all
@@ -35,7 +35,7 @@ reload
 target
 )
 ;
-let
+const
 recordingFinished
 =
 once
@@ -46,7 +46,7 @@ EVENTS
 SNAPSHOT_RECORDING_FINISHED
 )
 ;
-let
+const
 callListPopulated
 =
 once
@@ -57,7 +57,7 @@ EVENTS
 CALL_LIST_POPULATED
 )
 ;
-let
+const
 thumbnailsDisplayed
 =
 once
@@ -68,7 +68,7 @@ EVENTS
 THUMBNAILS_DISPLAYED
 )
 ;
-let
+const
 screenshotDisplayed
 =
 once

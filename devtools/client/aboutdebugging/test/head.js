@@ -131,7 +131,7 @@ url
 page
 ;
 }
-let
+const
 tab
 =
 await
@@ -145,21 +145,21 @@ win
 }
 )
 ;
-let
+const
 browser
 =
 tab
 .
 linkedBrowser
 ;
-let
+const
 document
 =
 browser
 .
 contentDocument
 ;
-let
+const
 window
 =
 browser
@@ -228,7 +228,7 @@ getSupportsFile
 path
 )
 {
-let
+const
 cr
 =
 Cc
@@ -255,7 +255,7 @@ Ci
 nsIChromeRegistry
 )
 ;
-let
+const
 uri
 =
 Services
@@ -269,7 +269,7 @@ CHROME_URL_ROOT
 path
 )
 ;
-let
+const
 fileurl
 =
 cr
@@ -517,7 +517,7 @@ name
 document
 )
 {
-let
+const
 nameElements
 =
 [
@@ -541,7 +541,7 @@ name
 )
 ]
 ;
-let
+const
 nameElement
 =
 nameElements
@@ -705,7 +705,7 @@ isWebExtension
 }
 )
 {
-let
+const
 MockFilePicker
 =
 SpecialPowers
@@ -719,7 +719,7 @@ init
 window
 )
 ;
-let
+const
 file
 =
 getSupportsFile
@@ -936,7 +936,7 @@ done
 =
 >
 {
-let
+const
 addon
 =
 await
@@ -947,7 +947,7 @@ getAddonByID
 id
 )
 ;
-let
+const
 listener
 =
 {
@@ -1046,7 +1046,7 @@ getAddonList
 document
 )
 ;
-let
+const
 addonElements
 =
 addonListContainer
@@ -1120,7 +1120,7 @@ name
 document
 )
 {
-let
+const
 nameElements
 =
 [
@@ -1144,7 +1144,7 @@ name
 )
 ]
 ;
-let
+const
 nameElement
 =
 nameElements
@@ -1323,7 +1323,7 @@ function
 (
 )
 {
-let
+const
 {
 sw
 }
@@ -1362,14 +1362,14 @@ container
 "
 )
 ;
-let
+const
 registrationCount
 =
 registrations
 .
 length
 ;
-let
+const
 isRemoved
 =
 waitUntil
@@ -1423,7 +1423,7 @@ function
 (
 )
 {
-let
+const
 {
 sw
 }
@@ -1432,7 +1432,7 @@ content
 .
 wrappedJSObject
 ;
-let
+const
 registration
 =
 await
@@ -1535,7 +1535,7 @@ resolve
 =
 >
 {
-let
+const
 options
 =
 {
@@ -1608,7 +1608,7 @@ resolve
 }
 )
 ;
-let
+const
 {
 tab
 document
@@ -1641,7 +1641,7 @@ true
 }
 )
 ;
-let
+const
 names
 =
 getInstalledAddonNames
@@ -1649,7 +1649,7 @@ getInstalledAddonNames
 document
 )
 ;
-let
+const
 nameEl
 =
 names
@@ -1684,7 +1684,7 @@ list
 "
 )
 ;
-let
+const
 targetElement
 =
 nameEl
@@ -1693,7 +1693,7 @@ parentNode
 .
 parentNode
 ;
-let
+const
 debugBtn
 =
 targetElement
@@ -1735,7 +1735,7 @@ swUrl
 document
 )
 {
-let
+const
 serviceWorkersElement
 =
 getServiceWorkerList
@@ -1743,7 +1743,7 @@ getServiceWorkerList
 document
 )
 ;
-let
+const
 names
 =
 serviceWorkersElement
@@ -1758,7 +1758,7 @@ name
 "
 )
 ;
-let
+const
 name
 =
 [
@@ -1785,7 +1785,7 @@ swUrl
 0
 ]
 ;
-let
+const
 targetElement
 =
 name
@@ -1794,7 +1794,7 @@ parentNode
 .
 parentNode
 ;
-let
+const
 targetStatus
 =
 targetElement
@@ -1839,7 +1839,7 @@ enableServiceWorkerDebugging
 (
 )
 {
-let
+const
 options
 =
 {
@@ -1925,7 +1925,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 {
@@ -1985,7 +1985,7 @@ reject
 =
 >
 {
-let
+const
 install
 =
 await

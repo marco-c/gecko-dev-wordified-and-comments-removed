@@ -276,7 +276,7 @@ filter
 }
 )
 {
-let
+const
 list
 =
 autocompleteProvider
@@ -284,7 +284,7 @@ autocompleteProvider
 filter
 )
 ;
-let
+const
 selectedIndex
 =
 list
@@ -352,7 +352,7 @@ increment
 1
 )
 {
-let
+const
 {
 list
 selectedIndex
@@ -497,7 +497,7 @@ render
 (
 )
 {
-let
+const
 {
 list
 }
@@ -558,7 +558,7 @@ i
 =
 >
 {
-let
+const
 isSelected
 =
 this
@@ -570,7 +570,7 @@ selectedIndex
 =
 i
 ;
-let
+const
 itemClassList
 =
 [

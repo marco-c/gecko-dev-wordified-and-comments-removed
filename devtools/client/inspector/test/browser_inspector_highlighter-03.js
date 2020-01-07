@@ -194,7 +194,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -220,7 +220,7 @@ show
 "
 )
 ;
-let
+const
 body
 =
 await
@@ -349,7 +349,7 @@ scrollBy
 "
 )
 ;
-let
+const
 iframeBodySelector
 =
 [

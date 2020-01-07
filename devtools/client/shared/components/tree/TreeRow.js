@@ -344,7 +344,7 @@ member
 hidden
 )
 {
-let
+const
 row
 =
 findDOMNode
@@ -370,7 +370,7 @@ shouldComponentUpdate
 nextProps
 )
 {
-let
+const
 props
 =
 [
@@ -396,7 +396,7 @@ hasChildren
 ;
 for
 (
-let
+const
 p
 in
 props
@@ -452,7 +452,7 @@ member
 selected
 )
 {
-let
+const
 row
 =
 findDOMNode
@@ -482,7 +482,7 @@ getRowClass
 object
 )
 {
-let
+const
 decorator
 =
 this
@@ -555,7 +555,7 @@ render
 (
 )
 {
-let
+const
 member
 =
 this
@@ -564,7 +564,7 @@ props
 .
 member
 ;
-let
+const
 decorator
 =
 this
@@ -573,7 +573,7 @@ props
 .
 decorator
 ;
-let
+const
 props
 =
 {
@@ -632,7 +632,7 @@ props
 onMouseOut
 }
 ;
-let
+const
 classNames
 =
 this
@@ -789,7 +789,7 @@ join
 "
 )
 ;
-let
+const
 cells
 =
 [
@@ -856,7 +856,7 @@ col
 =
 >
 {
-let
+const
 cellProps
 =
 Object
@@ -924,7 +924,7 @@ id
 )
 ;
 }
-let
+const
 render
 =
 (
@@ -972,7 +972,7 @@ cells
 ;
 }
 }
-let
+const
 RenderCell
 =
 props
@@ -987,7 +987,7 @@ props
 ;
 }
 ;
-let
+const
 RenderLabelCell
 =
 props

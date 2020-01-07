@@ -473,14 +473,14 @@ aTarget
 aGrip
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 from
 =
 aGrip
@@ -489,7 +489,7 @@ initial
 .
 length
 ;
-let
+const
 to
 =
 Math
@@ -591,7 +591,7 @@ aGrip
 )
 ;
 }
-let
+const
 items
 =
 Math
@@ -605,14 +605,14 @@ count
 4
 )
 ;
-let
+const
 iterator
 =
 aGrip
 .
 propertyIterator
 ;
-let
+const
 promises
 =
 [
@@ -634,7 +634,7 @@ i
 +
 )
 {
-let
+const
 start
 =
 aGrip
@@ -645,7 +645,7 @@ i
 *
 items
 ;
-let
+const
 count
 =
 i
@@ -663,7 +663,7 @@ i
 *
 items
 ;
-let
+const
 sliceGrip
 =
 {
@@ -685,7 +685,7 @@ count
 count
 }
 ;
-let
+const
 deferred
 =
 defer
@@ -712,7 +712,7 @@ names
 =
 >
 {
-let
+const
 label
 =
 "
@@ -735,7 +735,7 @@ names
 ]
 "
 ;
-let
+const
 item
 =
 aTarget
@@ -822,7 +822,7 @@ aGrip
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -905,14 +905,14 @@ aGrip
 aQuery
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 objectClient
 =
 this
@@ -922,7 +922,7 @@ _getObjectClient
 aGrip
 )
 ;
-let
+const
 isArray
 =
 aGrip
@@ -947,7 +947,7 @@ if
 isArray
 )
 {
-let
+const
 options
 =
 {
@@ -972,7 +972,7 @@ iterator
 =
 >
 {
-let
+const
 sliceGrip
 =
 {
@@ -1011,7 +1011,7 @@ then
 =
 >
 {
-let
+const
 options
 =
 {
@@ -1039,7 +1039,7 @@ iterator
 =
 >
 {
-let
+const
 sliceGrip
 =
 {
@@ -1108,7 +1108,7 @@ iterator
 =
 >
 {
-let
+const
 sliceGrip
 =
 {
@@ -1178,7 +1178,7 @@ null
 "
 )
 {
-let
+const
 proto
 =
 aTarget
@@ -1288,7 +1288,7 @@ aGrip
 proxyHandler
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -1461,7 +1461,7 @@ class
 )
 )
 {
-let
+const
 entriesList
 =
 aTarget
@@ -1541,14 +1541,14 @@ then
 =
 >
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 objectClient
 =
 this
@@ -1615,14 +1615,14 @@ aGrip
 aOptions
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 objectClient
 =
 this
@@ -1640,7 +1640,7 @@ aResponse
 =
 >
 {
-let
+const
 ownProperties
 =
 aResponse
@@ -1651,7 +1651,7 @@ ownProperties
 {
 }
 ;
-let
+const
 prototype
 =
 aResponse
@@ -1661,7 +1661,7 @@ prototype
 |
 null
 ;
-let
+const
 safeGetterValues
 =
 aResponse
@@ -1672,7 +1672,7 @@ safeGetterValues
 {
 }
 ;
-let
+const
 sortable
 =
 VariablesView
@@ -1686,7 +1686,7 @@ class
 ;
 for
 (
-let
+const
 name
 of
 Object
@@ -1704,7 +1704,7 @@ in
 ownProperties
 )
 {
-let
+const
 {
 getterValue
 getterPrototypeLevel
@@ -1873,7 +1873,7 @@ aTarget
 aScope
 )
 {
-let
+const
 objectScopes
 =
 [
@@ -1884,7 +1884,7 @@ environment
 =
 aScope
 ;
-let
+const
 funcScope
 =
 aTarget
@@ -1919,7 +1919,7 @@ showArrow
 ;
 do
 {
-let
+const
 label
 =
 StackFrameUtils
@@ -1929,7 +1929,7 @@ getScopeLabel
 environment
 )
 ;
-let
+const
 closure
 =
 funcScope
@@ -1984,7 +1984,7 @@ bindings
 }
 else
 {
-let
+const
 deferred
 =
 defer
@@ -2104,7 +2104,7 @@ arg
 =
 >
 {
-let
+const
 name
 =
 Object
@@ -2117,7 +2117,7 @@ arg
 0
 ]
 ;
-let
+const
 descriptor
 =
 arg
@@ -2179,14 +2179,14 @@ target
 grip
 )
 {
-let
+const
 objGrip
 =
 grip
 .
 obj
 ;
-let
+const
 objectClient
 =
 this
@@ -2248,7 +2248,7 @@ resolve
 }
 else
 {
-let
+const
 sliceGrip
 =
 {
@@ -2323,7 +2323,7 @@ this
 .
 _overrideValueEvalMacro
 ;
-let
+const
 getter
 =
 aTarget
@@ -2349,7 +2349,7 @@ this
 _getterOrSetterEvalMacro
 ;
 }
-let
+const
 setter
 =
 aTarget
@@ -2469,7 +2469,7 @@ onexpand
 }
 for
 (
-let
+const
 grip
 of
 [
@@ -2559,7 +2559,7 @@ variable
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -2908,7 +2908,7 @@ break
 ;
 default
 :
-let
+const
 error
 =
 "
@@ -3054,7 +3054,7 @@ aFilter
 {
 for
 (
-let
+const
 actor
 of
 this
@@ -3110,7 +3110,7 @@ empty
 (
 )
 ;
-let
+const
 scope
 =
 this
@@ -3136,7 +3136,7 @@ locked
 =
 true
 ;
-let
+const
 variable
 =
 scope
@@ -3320,7 +3320,7 @@ call
 "
 )
 {
-let
+const
 c
 =
 aFrame
@@ -3480,7 +3480,7 @@ case
 function
 "
 :
-let
+const
 f
 =
 aEnv

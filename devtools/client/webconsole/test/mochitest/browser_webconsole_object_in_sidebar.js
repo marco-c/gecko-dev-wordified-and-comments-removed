@@ -65,7 +65,7 @@ sidebarToggle
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -74,7 +74,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 message
 =
 findMessage
@@ -85,7 +85,7 @@ Object
 "
 )
 ;
-let
+const
 object
 =
 message
@@ -112,7 +112,7 @@ object
 true
 )
 ;
-let
+const
 sidebarContents
 =
 hud
@@ -131,7 +131,7 @@ contents
 "
 )
 ;
-let
+const
 objectInspectors
 =
 [
@@ -167,7 +167,7 @@ inspectors
 "
 )
 ;
-let
+const
 [
 objectInspector
 ]
@@ -242,7 +242,7 @@ tree
 "
 )
 ;
-let
+const
 propertiesNodes
 =
 [
@@ -320,7 +320,7 @@ node
 expectMutation
 )
 {
-let
+const
 wrapper
 =
 hud
@@ -341,7 +341,7 @@ wrapper
 "
 )
 ;
-let
+const
 onSidebarShown
 =
 waitForNodeMutation
@@ -354,7 +354,7 @@ true
 }
 )
 ;
-let
+const
 contextMenu
 =
 await
@@ -364,7 +364,7 @@ hud
 node
 )
 ;
-let
+const
 openInSidebar
 =
 contextMenu

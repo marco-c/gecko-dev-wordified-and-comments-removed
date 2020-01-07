@@ -23,7 +23,7 @@ cacheable
 (
 )
 ;
-let
+const
 lines
 =
 content
@@ -41,7 +41,7 @@ ignoring
 =
 false
 ;
-let
+const
 newLines
 =
 [
@@ -49,7 +49,7 @@ newLines
 ;
 for
 (
-let
+const
 line
 of
 lines

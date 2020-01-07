@@ -35,7 +35,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -47,7 +47,7 @@ initNetMonitor
 SIMPLE_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -58,7 +58,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -141,7 +141,7 @@ panel
 "
 )
 ;
-let
+const
 xhrRequestItem
 =
 document
@@ -209,7 +209,7 @@ panel
 "
 )
 ;
-let
+const
 stackTab
 =
 document
@@ -264,7 +264,7 @@ waitUntil
 =
 >
 {
-let
+const
 frames
 =
 document
@@ -323,7 +323,7 @@ xhr_original
 }
 )
 ;
-let
+const
 frames
 =
 document

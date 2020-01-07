@@ -82,7 +82,7 @@ false
 ;
 for
 (
-let
+const
 tab
 of
 tabs

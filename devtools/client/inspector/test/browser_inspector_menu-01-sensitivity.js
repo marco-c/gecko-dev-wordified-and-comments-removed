@@ -1356,7 +1356,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -1369,13 +1369,13 @@ TEST_URL
 ;
 for
 (
-let
+const
 test
 of
 TEST_CASES
 )
 {
-let
+const
 {
 desc
 disabled
@@ -1403,7 +1403,7 @@ test
 clipboardDataType
 )
 ;
-let
+const
 front
 =
 await
@@ -1447,7 +1447,7 @@ container
 "
 )
 ;
-let
+const
 nodeFrontContainer
 =
 getContainerForNodeFront
@@ -1456,7 +1456,7 @@ front
 inspector
 )
 ;
-let
+const
 contextMenuTrigger
 =
 attributeTrigger
@@ -1484,7 +1484,7 @@ nodeFrontContainer
 .
 tagLine
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -1499,13 +1499,13 @@ contextMenuTrigger
 ;
 for
 (
-let
+const
 id
 of
 ALL_MENU_ITEMS
 )
 {
-let
+const
 menuItem
 =
 allMenuItems
@@ -1524,7 +1524,7 @@ id
 id
 )
 ;
-let
+const
 shouldBeDisabled
 =
 disabled
@@ -1534,7 +1534,7 @@ includes
 id
 )
 ;
-let
+const
 shouldBeDisabledText
 =
 shouldBeDisabled
@@ -1619,7 +1619,7 @@ node
 "
 )
 ;
-let
+const
 {
 nodes
 }
@@ -1744,7 +1744,7 @@ copyImageToClipboard
 data
 )
 {
-let
+const
 imageTools
 =
 Cc
@@ -1769,7 +1769,7 @@ Ci
 imgITools
 )
 ;
-let
+const
 image
 =
 atob
@@ -1777,7 +1777,7 @@ atob
 data
 )
 ;
-let
+const
 imgPtr
 =
 Cc
@@ -1823,7 +1823,7 @@ png
 "
 )
 ;
-let
+const
 xferable
 =
 Cc

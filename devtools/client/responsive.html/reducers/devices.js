@@ -63,7 +63,7 @@ loadableState
 INITIALIZED
 }
 ;
-let
+const
 reducers
 =
 {
@@ -157,7 +157,7 @@ displayed
 }
 )
 {
-let
+const
 newDevices
 =
 devices
@@ -305,7 +305,7 @@ deviceType
 }
 )
 {
-let
+const
 index
 =
 devices
@@ -329,7 +329,7 @@ return
 devices
 ;
 }
-let
+const
 list
 =
 [
@@ -410,7 +410,7 @@ INITIAL_DEVICES
 action
 )
 {
-let
+const
 reducer
 =
 reducers

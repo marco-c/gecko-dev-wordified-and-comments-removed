@@ -719,7 +719,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -732,7 +732,7 @@ openRuleView
 ;
 for
 (
-let
+const
 {
 node
 pseudoClass
@@ -754,7 +754,7 @@ if
 pseudoClass
 )
 {
-let
+const
 onRefresh
 =
 inspector
@@ -781,7 +781,7 @@ await
 onRefresh
 ;
 }
-let
+const
 selectorContainer
 =
 getRuleViewRuleEditor
@@ -925,7 +925,7 @@ else
 {
 for
 (
-let
+const
 selector
 of
 selectorContainer

@@ -292,7 +292,7 @@ fxsnapshot
 )
 ;
 }
-let
+const
 date
 =
 new
@@ -1781,7 +1781,7 @@ count
 =
 0
 ;
-let
+const
 report
 =
 census
@@ -1890,7 +1890,7 @@ nsIFilePicker
 )
 ;
 }
-let
+const
 fp
 =
 Cc
@@ -1924,7 +1924,7 @@ fpMode
 ;
 for
 (
-let
+const
 filter
 of
 (

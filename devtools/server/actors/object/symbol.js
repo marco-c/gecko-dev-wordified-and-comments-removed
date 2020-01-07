@@ -122,7 +122,7 @@ function
 (
 )
 {
-let
+const
 form
 =
 {
@@ -138,7 +138,7 @@ this
 actorID
 }
 ;
-let
+const
 name
 =
 getSymbolName
@@ -330,7 +330,7 @@ form
 )
 ;
 }
-let
+const
 actor
 =
 new

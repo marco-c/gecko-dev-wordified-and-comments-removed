@@ -61,7 +61,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+const
 win
 =
 Services
@@ -219,12 +219,8 @@ finish
 var
 startTests
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -232,7 +228,7 @@ populateTable
 (
 )
 ;
-yield
+await
 testMouseInteraction
 (
 )
@@ -242,7 +238,6 @@ endTests
 )
 ;
 }
-)
 ;
 function
 populateTable
@@ -588,12 +583,8 @@ defaultView
 var
 testMouseInteraction
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -638,7 +629,7 @@ EVENTS
 ROW_SELECTED
 )
 ;
-let
+const
 firstColumnFirstRowCell
 =
 table
@@ -700,7 +691,7 @@ firstColumnFirstRowCell
 let
 id
 =
-yield
+await
 event
 ;
 ok
@@ -767,7 +758,7 @@ EVENTS
 ROW_SELECTED
 )
 ;
-let
+const
 firstColumnSecondRowCell
 =
 table
@@ -818,7 +809,7 @@ firstColumnSecondRowCell
 ;
 id
 =
-yield
+await
 event
 ;
 ok
@@ -940,7 +931,7 @@ EVENTS
 ROW_SELECTED
 )
 ;
-let
+const
 firstColumnThirdRowCell
 =
 table
@@ -956,7 +947,7 @@ children
 3
 ]
 ;
-let
+const
 firstColumnThirdRowCellInnerNode
 =
 firstColumnThirdRowCell
@@ -1003,7 +994,7 @@ firstColumnThirdRowCellInnerNode
 ;
 id
 =
-yield
+await
 event
 ;
 ok
@@ -1179,7 +1170,7 @@ node
 ;
 id
 =
-yield
+await
 event
 ;
 is
@@ -1312,7 +1303,7 @@ node
 2
 )
 ;
-yield
+await
 onPopupShown
 ;
 is
@@ -1477,10 +1468,10 @@ node
 ;
 id
 =
-yield
+await
 event
 ;
-yield
+await
 onPopupHidden
 ;
 is
@@ -1573,7 +1564,7 @@ node
 2
 )
 ;
-yield
+await
 onPopupShown
 ;
 is
@@ -1696,10 +1687,10 @@ node
 ;
 id
 =
-yield
+await
 event
 ;
-yield
+await
 onPopupHidden
 ;
 is
@@ -1792,7 +1783,7 @@ node
 2
 )
 ;
-yield
+await
 onPopupShown
 ;
 is
@@ -2010,10 +2001,10 @@ node
 ;
 id
 =
-yield
+await
 event
 ;
-yield
+await
 onPopupHidden
 ;
 is
@@ -2105,7 +2096,7 @@ node
 2
 )
 ;
-yield
+await
 onPopupShown
 ;
 onPopupHidden
@@ -2203,10 +2194,10 @@ node
 ;
 id
 =
-yield
+await
 event
 ;
-yield
+await
 onPopupHidden
 ;
 is
@@ -2271,5 +2262,4 @@ col1
 )
 ;
 }
-)
 ;

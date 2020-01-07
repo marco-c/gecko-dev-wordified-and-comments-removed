@@ -621,7 +621,7 @@ usePlatformPathSeparator
 false
 )
 {
-let
+const
 file
 =
 do_get_file
@@ -1351,7 +1351,7 @@ keys
 ;
 for
 (
-let
+const
 key
 of
 actual
@@ -1505,7 +1505,7 @@ expected
 ;
 for
 (
-let
+const
 item
 of
 actual
@@ -1599,7 +1599,7 @@ expected
 ;
 for
 (
-let
+const
 key
 of
 Object
@@ -2463,7 +2463,7 @@ unique
 ;
 for
 (
-let
+const
 node
 of
 nodes
@@ -2489,7 +2489,7 @@ expected
 }
 for
 (
-let
+const
 expectedEdge
 of
 expectedEdges
@@ -2502,7 +2502,7 @@ count
 ;
 for
 (
-let
+const
 edge
 of
 edges

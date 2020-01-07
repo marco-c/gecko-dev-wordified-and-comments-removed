@@ -75,7 +75,7 @@ clipboard
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -87,7 +87,7 @@ inspector
 "
 )
 ;
-let
+const
 textboxContextMenu
 =
 toolbox
@@ -98,7 +98,7 @@ emptyClipboard
 (
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -110,7 +110,7 @@ inspector
 "
 )
 ;
-let
+const
 onFocus
 =
 once
@@ -150,7 +150,7 @@ toolbox
 "
 )
 ;
-let
+const
 cmdUndo
 =
 textboxContextMenu
@@ -166,7 +166,7 @@ cmd_undo
 "
 )
 ;
-let
+const
 cmdDelete
 =
 textboxContextMenu
@@ -182,7 +182,7 @@ cmd_delete
 "
 )
 ;
-let
+const
 cmdSelectAll
 =
 textboxContextMenu
@@ -198,7 +198,7 @@ cmd_selectAll
 "
 )
 ;
-let
+const
 cmdCut
 =
 textboxContextMenu
@@ -214,7 +214,7 @@ cmd_cut
 "
 )
 ;
-let
+const
 cmdCopy
 =
 textboxContextMenu
@@ -230,7 +230,7 @@ cmd_copy
 "
 )
 ;
-let
+const
 cmdPaste
 =
 textboxContextMenu
@@ -255,7 +255,7 @@ menu
 "
 )
 ;
-let
+const
 onContextMenuPopup
 =
 once
@@ -531,7 +531,7 @@ open
 }
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -709,7 +709,7 @@ open
 "
 )
 ;
-let
+const
 eventBubbledUp
 =
 new
@@ -837,7 +837,7 @@ open
 "
 )
 ;
-let
+const
 onContextMenu
 =
 once
@@ -901,7 +901,7 @@ menu
 "
 )
 ;
-let
+const
 onContextMenuHidden
 =
 once

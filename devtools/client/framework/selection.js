@@ -133,7 +133,7 @@ null
 ;
 for
 (
-let
+const
 m
 of
 mutations
@@ -375,7 +375,7 @@ reason
 =
 reason
 ;
-let
+const
 parentNode
 =
 nodeFront
@@ -580,7 +580,7 @@ function
 (
 )
 {
-let
+const
 xhtmlNs
 =
 "

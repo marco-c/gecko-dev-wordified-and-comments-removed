@@ -49,7 +49,7 @@ decorate
 this
 )
 ;
-let
+const
 cache
 =
 new
@@ -59,13 +59,13 @@ Map
 ;
 for
 (
-let
+const
 accessorName
 in
 prefsBlueprint
 )
 {
-let
+const
 [
 prefType
 prefName
@@ -87,7 +87,7 @@ prefName
 )
 ;
 }
-let
+const
 observer
 =
 makeObserver
@@ -136,7 +136,7 @@ prefsRoot
 prefName
 )
 {
-let
+const
 cachedPref
 =
 cache
@@ -159,7 +159,7 @@ return
 cachedPref
 ;
 }
-let
+const
 value
 =
 Services
@@ -448,13 +448,13 @@ prefsBlueprint
 {
 for
 (
-let
+const
 accessorName
 in
 prefsBlueprint
 )
 {
-let
+const
 [
 prefName
 ]
@@ -555,7 +555,7 @@ topic
 prefName
 )
 {
-let
+const
 accessorName
 =
 accessorNameForPref

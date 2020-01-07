@@ -78,7 +78,7 @@ FRAME_BUTTON_PREF
 false
 )
 ;
-let
+const
 tab
 =
 await
@@ -87,7 +87,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -110,7 +110,7 @@ panel
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -124,14 +124,14 @@ options
 "
 )
 ;
-let
+const
 doc
 =
 toolbox
 .
 doc
 ;
-let
+const
 optionsPanel
 =
 toolbox
@@ -170,7 +170,7 @@ rendered
 "
 )
 ;
-let
+const
 optionsDoc
 =
 optionsPanel
@@ -179,7 +179,7 @@ panelWin
 .
 document
 ;
-let
+const
 framesButtonCheckbox
 =
 optionsDoc

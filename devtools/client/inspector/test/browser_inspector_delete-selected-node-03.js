@@ -27,7 +27,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -38,7 +38,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 iframe
 =
 await
@@ -50,7 +50,7 @@ iframe
 inspector
 )
 ;
-let
+const
 node
 =
 await
@@ -103,7 +103,7 @@ front
 "
 )
 ;
-let
+const
 body
 =
 await

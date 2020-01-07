@@ -479,7 +479,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -488,7 +488,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -505,7 +505,7 @@ makeRemote
 (
 )
 ;
-let
+const
 front
 =
 new
@@ -557,7 +557,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -566,7 +566,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -599,7 +599,7 @@ enabled
 true
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -613,7 +613,7 @@ webaudioeditor
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -699,7 +699,7 @@ count
 spread
 )
 {
-let
+const
 actors
 =
 [
@@ -742,7 +742,7 @@ onEvent
 args
 )
 {
-let
+const
 actor
 =
 args
@@ -949,7 +949,7 @@ edgeCount
 paramEdgeCount
 )
 {
-let
+const
 eventName
 =
 front
@@ -998,7 +998,7 @@ edges
 pEdges
 )
 {
-let
+const
 paramEdgesDone
 =
 paramEdgeCount
@@ -1099,7 +1099,7 @@ View
 "
 )
 ;
-let
+const
 scope
 =
 view
@@ -1109,7 +1109,7 @@ getScopeAtIndex
 index
 )
 ;
-let
+const
 variables
 =
 Object
@@ -1168,7 +1168,7 @@ variable
 =
 >
 {
-let
+const
 aVar
 =
 scope
@@ -1343,7 +1343,7 @@ prop
 value
 )
 {
-let
+const
 scope
 =
 view
@@ -1353,7 +1353,7 @@ getScopeAtIndex
 index
 )
 ;
-let
+const
 aVar
 =
 scope
@@ -1509,7 +1509,7 @@ prop
 ;
 for
 (
-let
+const
 c
 of
 (
@@ -1636,7 +1636,7 @@ win
 node
 )
 {
-let
+const
 selector
 =
 "
@@ -1722,7 +1722,7 @@ command
 button
 )
 {
-let
+const
 ev
 =
 button
@@ -1795,7 +1795,7 @@ waitForToggle
 false
 )
 {
-let
+const
 promises
 =
 [
@@ -1849,7 +1849,7 @@ UI_INSPECTOR_TOGGLED
 )
 ;
 }
-let
+const
 element
 =
 el
@@ -2087,14 +2087,14 @@ time
 expected
 )
 {
-let
+const
 EPSILON
 =
 0
 .
 01
 ;
-let
+const
 value
 =
 getValueAt
@@ -2276,7 +2276,7 @@ nodeDefaultValues
 nodeName
 )
 {
-let
+const
 fn
 =
 NODE_CONSTRUCTORS
@@ -2301,7 +2301,7 @@ return
 }
 ;
 }
-let
+const
 init
 =
 nodeName
@@ -2323,7 +2323,7 @@ fn
 (
 )
 ;
-let
+const
 definition
 =
 JSON
@@ -2338,7 +2338,7 @@ nodeName
 properties
 )
 ;
-let
+const
 evalNode
 =
 evalInDebuggee

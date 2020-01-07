@@ -110,7 +110,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -121,7 +121,7 @@ openComputedView
 (
 )
 ;
-let
+const
 propertyViews
 =
 view
@@ -139,7 +139,7 @@ node
 "
 )
 ;
-let
+const
 matchesNode
 =
 await
@@ -235,7 +235,7 @@ node
 "
 )
 ;
-let
+const
 commentNode
 =
 await
@@ -409,7 +409,7 @@ displayed
 "
 )
 ;
-let
+const
 searchField
 =
 view

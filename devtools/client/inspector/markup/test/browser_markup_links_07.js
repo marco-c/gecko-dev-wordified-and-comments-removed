@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -468,7 +468,7 @@ linkEl
 metactrl
 )
 {
-let
+const
 evt
 =
 linkEl
@@ -571,7 +571,7 @@ isMetaClick
 expectedTabURI
 )
 {
-let
+const
 onTabOpened
 =
 once
@@ -590,7 +590,7 @@ linkEl
 isMetaClick
 )
 ;
-let
+const
 {
 target
 }
@@ -658,7 +658,7 @@ isMetaClick
 inspector
 )
 {
-let
+const
 onSelection
 =
 inspector
@@ -728,7 +728,7 @@ isMetaClick
 inspector
 )
 {
-let
+const
 onFailed
 =
 inspector

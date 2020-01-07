@@ -257,7 +257,7 @@ lineAndColumnIndex
 -
 1
 ;
-let
+const
 lastCharCode
 =
 location
@@ -533,7 +533,7 @@ lineAndColumnIndex
 0
 )
 {
-let
+const
 resource
 =
 location
@@ -631,7 +631,7 @@ parsedUrl
 .
 host
 ;
-let
+const
 evalIndex
 =
 fileName
@@ -666,12 +666,12 @@ length
 )
 )
 {
-let
+const
 evalLine
 =
 line
 ;
-let
+const
 [
 _fileName
 _line
@@ -863,14 +863,14 @@ category
 return
 ;
 }
-let
+const
 location
 =
 frame
 .
 location
 ;
-let
+const
 lastCharCode
 =
 location
@@ -1288,7 +1288,7 @@ schema
 .
 category
 ;
-let
+const
 frame
 =
 frameTable
@@ -1298,7 +1298,7 @@ data
 index
 ]
 ;
-let
+const
 category
 =
 frame
@@ -1737,7 +1737,7 @@ return
 data
 ;
 }
-let
+const
 totalSamples
 =
 options
@@ -1746,7 +1746,7 @@ root
 .
 samples
 ;
-let
+const
 totalDuration
 =
 options
@@ -1842,7 +1842,7 @@ data
 ALLOCATION_DATA_CALCULATED
 )
 {
-let
+const
 totalBytes
 =
 options
@@ -1984,7 +1984,7 @@ tree
 )
 ;
 }
-let
+const
 calls
 =
 threadNode

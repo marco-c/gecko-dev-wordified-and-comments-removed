@@ -107,7 +107,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -117,7 +117,7 @@ openRuleView
 (
 )
 ;
-let
+const
 propertiesToTest
 =
 [
@@ -136,7 +136,7 @@ border
 ;
 for
 (
-let
+const
 property
 of
 propertiesToTest
@@ -156,7 +156,7 @@ click
 "
 )
 ;
-let
+const
 value
 =
 getRuleViewProperty
@@ -170,7 +170,7 @@ property
 .
 valueSpan
 ;
-let
+const
 swatch
 =
 value
@@ -204,7 +204,7 @@ view
 swatch
 )
 {
-let
+const
 cPicker
 =
 view
@@ -234,7 +234,7 @@ property
 "
 )
 ;
-let
+const
 cPickerPanel
 =
 cPicker
@@ -258,7 +258,7 @@ exists
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker

@@ -152,7 +152,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 document
@@ -162,7 +162,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 modal
 =
 document
@@ -179,7 +179,7 @@ wrapper
 "
 )
 ;
-let
+const
 select
 =
 document
@@ -196,7 +196,7 @@ selector
 "
 )
 ;
-let
+const
 submitButton
 =
 document
@@ -266,7 +266,7 @@ modal
 "
 )
 ;
-let
+const
 checkedCbs
 =
 [
@@ -298,7 +298,7 @@ cb
 checked
 )
 ;
-let
+const
 remoteList
 =
 await
@@ -306,7 +306,7 @@ getDevices
 (
 )
 ;
-let
+const
 featuredCount
 =
 remoteList
@@ -391,7 +391,7 @@ devices
 ;
 for
 (
-let
+const
 cb
 of
 checkedCbs
@@ -451,7 +451,7 @@ list
 "
 )
 ;
-let
+const
 uncheckedCb
 =
 [
@@ -487,7 +487,7 @@ checked
 0
 ]
 ;
-let
+const
 value
 =
 uncheckedCb
@@ -765,7 +765,7 @@ one
 "
 )
 ;
-let
+const
 checkedCb
 =
 [
@@ -808,7 +808,7 @@ value
 0
 ]
 ;
-let
+const
 checkedVal
 =
 checkedCb
@@ -1047,7 +1047,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 document
@@ -1057,7 +1057,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 select
 =
 document
@@ -1110,7 +1110,7 @@ openDeviceModal
 ui
 )
 ;
-let
+const
 remoteList
 =
 await
@@ -1118,7 +1118,7 @@ getDevices
 (
 )
 ;
-let
+const
 featuredCount
 =
 remoteList
@@ -1184,7 +1184,7 @@ featured
 0
 )
 ;
-let
+const
 preferredDevices
 =
 _loadPreferredDevices
@@ -1207,7 +1207,7 @@ selector
 "
 )
 ;
-let
+const
 options
 =
 [

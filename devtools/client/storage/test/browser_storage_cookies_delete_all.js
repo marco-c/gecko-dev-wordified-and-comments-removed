@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 performDelete
 (
 store
@@ -12,7 +12,7 @@ rowName
 action
 )
 {
-let
+const
 contextMenu
 =
 gPanelWindow
@@ -30,7 +30,7 @@ popup
 "
 )
 ;
-let
+const
 menuDeleteAllItem
 =
 contextMenu
@@ -51,7 +51,7 @@ all
 "
 )
 ;
-let
+const
 menuDeleteAllSessionCookiesItem
 =
 contextMenu
@@ -76,7 +76,7 @@ cookies
 "
 )
 ;
-let
+const
 menuDeleteAllFromItem
 =
 contextMenu
@@ -99,7 +99,7 @@ from
 "
 )
 ;
-let
+const
 storeName
 =
 store
@@ -111,13 +111,13 @@ join
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 store
 )
 ;
-let
+const
 eventWait
 =
 gUI
@@ -129,11 +129,11 @@ store
 -
 objects
 -
-updated
+edit
 "
 )
 ;
-let
+const
 cells
 =
 getRowCells
@@ -142,7 +142,7 @@ rowName
 true
 )
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -213,7 +213,7 @@ click
 (
 )
 ;
-let
+const
 hostName
 =
 cells
@@ -255,18 +255,18 @@ break
 }
 )
 ;
-yield
+await
 eventWait
 ;
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -290,7 +290,7 @@ delete
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -573,7 +573,7 @@ browser
 "
 )
 ;
-yield
+await
 performDelete
 (
 [
@@ -611,7 +611,7 @@ domain
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -858,7 +858,7 @@ org
 "
 )
 ;
-yield
+await
 performDelete
 (
 [
@@ -896,7 +896,7 @@ cookies
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -1055,7 +1055,7 @@ org
 "
 )
 ;
-yield
+await
 performDelete
 (
 [
@@ -1091,7 +1091,7 @@ all
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -1138,7 +1138,7 @@ org
 ]
 )
 ;
-yield
+await
 finishTests
 (
 )

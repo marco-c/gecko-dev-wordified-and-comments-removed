@@ -299,7 +299,7 @@ _onNewStyleSheet
 )
 ;
 }
-let
+const
 loadingPromise
 =
 this
@@ -324,7 +324,7 @@ sources
 {
 for
 (
-let
+const
 source
 of
 sources
@@ -540,14 +540,14 @@ _urls
 return
 ;
 }
-let
+const
 {
 source
 }
 =
 sourceEvent
 ;
-let
+const
 {
 generatedUrl
 url
@@ -559,7 +559,7 @@ sourceMapURL
 =
 source
 ;
-let
+const
 seenUrl
 =
 generatedUrl
@@ -617,7 +617,7 @@ _urls
 return
 ;
 }
-let
+const
 {
 href
 nodeHref
@@ -629,7 +629,7 @@ id
 =
 sheet
 ;
-let
+const
 url
 =
 href
@@ -686,7 +686,7 @@ _urls
 return
 ;
 }
-let
+const
 urlKey
 =
 this
@@ -724,7 +724,7 @@ sourceMapURL
 ;
 for
 (
-let
+const
 [
 subscriptionEntry
 ]
@@ -753,7 +753,7 @@ null
 ;
 for
 (
-let
+const
 callback
 of
 subscriptionEntry
@@ -856,7 +856,7 @@ sourceUrl
 url
 }
 ;
-let
+const
 resolvedLocation
 =
 await
@@ -979,7 +979,7 @@ column
 )
 ;
 }
-let
+const
 resolvedLocation
 =
 await
@@ -1039,7 +1039,7 @@ _subscriptions
 return
 ;
 }
-let
+const
 key
 =
 JSON
@@ -1149,7 +1149,7 @@ _subscriptions
 return
 ;
 }
-let
+const
 key
 =
 JSON
@@ -1163,7 +1163,7 @@ column
 ]
 )
 ;
-let
+const
 subscriptionEntry
 =
 this
@@ -1180,7 +1180,7 @@ if
 subscriptionEntry
 )
 {
-let
+const
 index
 =
 subscriptionEntry
@@ -1275,7 +1275,7 @@ SOURCE_MAP_PREF
 ;
 for
 (
-let
+const
 [
 subscriptionEntry
 ]
@@ -1287,7 +1287,7 @@ _subscriptions
 {
 for
 (
-let
+const
 callback
 of
 subscriptionEntry

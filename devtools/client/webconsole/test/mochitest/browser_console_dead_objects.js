@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -30,7 +30,7 @@ opened
 "
 )
 ;
-let
+const
 jsterm
 =
 hud
@@ -108,7 +108,7 @@ hello
 "
 )
 ;
-let
+const
 msg
 =
 await
@@ -132,7 +132,7 @@ object
 )
 )
 ;
-let
+const
 anchor
 =
 msg

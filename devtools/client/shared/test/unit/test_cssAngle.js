@@ -222,13 +222,13 @@ run_test
 {
 for
 (
-let
+const
 test
 of
 CLASSIFY_TESTS
 )
 {
-let
+const
 result
 =
 angleUtils

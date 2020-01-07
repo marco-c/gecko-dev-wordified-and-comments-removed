@@ -414,7 +414,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -425,14 +425,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 searchBox
 =
 inspector
 .
 searchBox
 ;
-let
+const
 popup
 =
 inspector
@@ -451,7 +451,7 @@ panelWin
 ;
 for
 (
-let
+const
 {
 key
 suggestions
@@ -479,7 +479,7 @@ suggestions
 )
 )
 ;
-let
+const
 command
 =
 once
@@ -546,7 +546,7 @@ value
 "
 )
 ;
-let
+const
 actualSuggestions
 =
 popup

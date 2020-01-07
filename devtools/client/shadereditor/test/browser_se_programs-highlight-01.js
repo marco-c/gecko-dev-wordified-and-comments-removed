@@ -1,22 +1,22 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 MULTIPLE_CONTEXTS_URL
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -70,7 +70,7 @@ reload
 target
 )
 ;
-let
+const
 [
 [
 firstProgramActor
@@ -78,7 +78,7 @@ secondProgramActor
 ]
 ]
 =
-yield
+await
 promise
 .
 all
@@ -101,10 +101,10 @@ SOURCES_SHOWN
 ]
 )
 ;
-let
+const
 vsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -114,10 +114,10 @@ vs
 "
 )
 ;
-let
+const
 fsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -224,7 +224,7 @@ onward
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -257,7 +257,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -290,7 +290,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -323,7 +323,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -371,7 +371,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -404,7 +404,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -437,7 +437,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -470,7 +470,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -547,7 +547,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -580,7 +580,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -613,7 +613,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -646,7 +646,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -708,7 +708,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -741,7 +741,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -774,7 +774,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -807,7 +807,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -869,7 +869,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -902,7 +902,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -935,7 +935,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -968,7 +968,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -1035,7 +1035,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -1068,7 +1068,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -1101,7 +1101,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -1134,7 +1134,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -1186,7 +1186,7 @@ checkbox
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

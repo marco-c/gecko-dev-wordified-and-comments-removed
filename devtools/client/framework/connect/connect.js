@@ -167,7 +167,7 @@ function
 (
 )
 {
-let
+const
 host
 =
 Services
@@ -187,7 +187,7 @@ host
 "
 )
 ;
-let
+const
 port
 =
 Services
@@ -245,7 +245,7 @@ value
 port
 ;
 }
-let
+const
 form
 =
 document
@@ -336,7 +336,7 @@ connecting
 "
 )
 ;
-let
+const
 host
 =
 document
@@ -350,7 +350,7 @@ host
 .
 value
 ;
-let
+const
 port
 =
 document
@@ -409,7 +409,7 @@ e
 )
 {
 }
-let
+const
 transport
 =
 await
@@ -431,7 +431,7 @@ DebuggerClient
 transport
 )
 ;
-let
+const
 delay
 =
 Services
@@ -459,7 +459,7 @@ handleConnectionTimeout
 delay
 )
 ;
-let
+const
 response
 =
 await
@@ -505,7 +505,7 @@ addons
 ;
 try
 {
-let
+const
 response
 =
 await
@@ -569,7 +569,7 @@ length
 {
 for
 (
-let
+const
 addon
 of
 addons
@@ -611,7 +611,7 @@ remove
 )
 ;
 }
-let
+const
 response
 =
 await
@@ -632,7 +632,7 @@ tabActors
 "
 )
 ;
-let
+const
 globals
 =
 Cu
@@ -692,7 +692,7 @@ selected
 )
 ;
 }
-let
+const
 gParent
 =
 document
@@ -720,7 +720,7 @@ traits
 allowChromeProcess
 )
 {
-let
+const
 a
 =
 document
@@ -839,7 +839,7 @@ a
 )
 ;
 }
-let
+const
 selectedLink
 =
 parent
@@ -897,7 +897,7 @@ mode
 "
 )
 ;
-let
+const
 firstLink
 =
 parent
@@ -936,7 +936,7 @@ addon
 parent
 )
 {
-let
+const
 a
 =
 document
@@ -1016,7 +1016,7 @@ parent
 selected
 )
 {
-let
+const
 a
 =
 document
@@ -1220,7 +1220,7 @@ webconsole
 isTabActor
 )
 {
-let
+const
 options
 =
 {
@@ -1253,7 +1253,7 @@ target
 =
 >
 {
-let
+const
 hostType
 =
 Toolbox

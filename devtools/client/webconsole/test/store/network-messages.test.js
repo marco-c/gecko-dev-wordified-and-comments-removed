@@ -143,7 +143,7 @@ store
 .
 dispatch
 ;
-let
+const
 packet
 =
 clonePacket
@@ -159,7 +159,7 @@ request
 )
 )
 ;
-let
+const
 updatePacket
 =
 clonePacket
@@ -247,7 +247,7 @@ headers
 =
 >
 {
-let
+const
 headers
 =
 {
@@ -274,7 +274,7 @@ headers
 )
 )
 ;
-let
+const
 networkUpdates
 =
 getAllNetworkMessagesUpdateById
@@ -315,7 +315,7 @@ info
 =
 >
 {
-let
+const
 securityInfo
 =
 {
@@ -343,7 +343,7 @@ securityInfo
 )
 )
 ;
-let
+const
 networkUpdates
 =
 getAllNetworkMessagesUpdateById
@@ -400,7 +400,7 @@ data
 =
 >
 {
-let
+const
 requestPostData
 =
 {
@@ -431,7 +431,7 @@ requestPostData
 )
 )
 ;
-let
+const
 networkUpdates
 =
 getAllNetworkMessagesUpdateById

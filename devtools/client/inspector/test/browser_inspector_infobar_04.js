@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -33,7 +33,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 testData
 =
 {
@@ -140,7 +140,7 @@ selector
 inspector
 )
 ;
-let
+const
 id
 =
 await
@@ -175,7 +175,7 @@ selected
 .
 )
 ;
-let
+const
 dims
 =
 await

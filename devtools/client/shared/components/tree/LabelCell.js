@@ -110,7 +110,7 @@ render
 (
 )
 {
-let
+const
 id
 =
 this
@@ -119,7 +119,7 @@ props
 .
 id
 ;
-let
+const
 member
 =
 this
@@ -128,7 +128,7 @@ props
 .
 member
 ;
-let
+const
 level
 =
 member
@@ -138,7 +138,7 @@ level
 |
 0
 ;
-let
+const
 rowStyle
 =
 {
@@ -157,7 +157,7 @@ px
 "
 }
 ;
-let
+const
 iconClassList
 =
 [

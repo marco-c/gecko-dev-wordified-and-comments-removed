@@ -26,7 +26,7 @@ run_test
 (
 )
 {
-let
+const
 window
 =
 {
@@ -382,7 +382,7 @@ move
 ;
 for
 (
-let
+const
 {
 desc
 animation
@@ -400,7 +400,7 @@ desc
 ;
 for
 (
-let
+const
 key
 in
 props
@@ -417,7 +417,7 @@ key
 ]
 ;
 }
-let
+const
 actor
 =
 AnimationPlayerActor

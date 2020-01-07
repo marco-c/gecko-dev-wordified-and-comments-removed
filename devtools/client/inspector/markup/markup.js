@@ -1357,7 +1357,7 @@ target
 parentNode
 ;
 }
-let
+const
 container
 =
 target
@@ -1422,7 +1422,7 @@ _selectedContainer
 return
 ;
 }
-let
+const
 {
 relatedTarget
 }
@@ -1472,7 +1472,7 @@ function
 event
 )
 {
-let
+const
 docEl
 =
 this
@@ -1500,7 +1500,7 @@ _autoScrollAnimationFrame
 )
 ;
 }
-let
+const
 fromBottom
 =
 docEl
@@ -1517,7 +1517,7 @@ win
 .
 scrollY
 ;
-let
+const
 fromTop
 =
 event
@@ -1530,7 +1530,7 @@ win
 .
 scrollY
 ;
-let
+const
 edgeDistance
 =
 Math
@@ -1545,7 +1545,7 @@ clientHeight
 DRAG_DROP_AUTOSCROLL_EDGE_RATIO
 )
 ;
-let
+const
 heightToSpeedRatio
 =
 Math
@@ -1574,7 +1574,7 @@ fromBottom
 edgeDistance
 )
 {
-let
+const
 speed
 =
 map
@@ -1620,7 +1620,7 @@ fromTop
 edgeDistance
 )
 {
-let
+const
 speed
 =
 map
@@ -1666,7 +1666,7 @@ function
 update
 )
 {
-let
+const
 loop
 =
 (
@@ -1890,7 +1890,7 @@ return
 }
 for
 (
-let
+const
 [
 container
 ]
@@ -1961,7 +1961,7 @@ function
 nodeFront
 )
 {
-let
+const
 container
 =
 this
@@ -2242,7 +2242,7 @@ _clearBriefBoxModelTimer
 (
 )
 ;
-let
+const
 onShown
 =
 this
@@ -2342,7 +2342,7 @@ node
 slotted
 )
 {
-let
+const
 key
 =
 this
@@ -2373,7 +2373,7 @@ container
 slotted
 )
 {
-let
+const
 key
 =
 this
@@ -2404,7 +2404,7 @@ node
 slotted
 )
 {
-let
+const
 key
 =
 this
@@ -2498,7 +2498,7 @@ return
 false
 ;
 }
-let
+const
 selection
 =
 this
@@ -2538,7 +2538,7 @@ function
 (
 )
 {
-let
+const
 updateChildren
 =
 (
@@ -2560,7 +2560,7 @@ update
 ;
 for
 (
-let
+const
 child
 of
 node
@@ -2583,7 +2583,7 @@ documentElement
 ;
 for
 (
-let
+const
 node
 of
 this
@@ -2700,7 +2700,7 @@ function
 (
 )
 {
-let
+const
 reason
 =
 this
@@ -2711,7 +2711,7 @@ selection
 .
 reason
 ;
-let
+const
 unwantedReasons
 =
 [
@@ -2731,7 +2731,7 @@ test
 "
 ]
 ;
-let
+const
 isHighlight
 =
 this
@@ -2766,7 +2766,7 @@ function
 (
 )
 {
-let
+const
 selection
 =
 this
@@ -2837,7 +2837,7 @@ unmarkSelectedNode
 return
 ;
 }
-let
+const
 done
 =
 this
@@ -2878,7 +2878,7 @@ nodeFront
 )
 ;
 }
-let
+const
 slotted
 =
 selection
@@ -2927,7 +2927,7 @@ destroyed
 )
 ;
 }
-let
+const
 container
 =
 this
@@ -2988,7 +2988,7 @@ function
 (
 )
 {
-let
+const
 {
 reason
 nodeFront
@@ -3000,7 +3000,7 @@ inspector
 .
 selection
 ;
-let
+const
 reasonsToNavigate
 =
 [
@@ -3110,7 +3110,7 @@ function
 start
 )
 {
-let
+const
 walker
 =
 this
@@ -3208,7 +3208,7 @@ target
 return
 ;
 }
-let
+const
 selection
 =
 this
@@ -3254,7 +3254,7 @@ function
 (
 )
 {
-let
+const
 shortcuts
 =
 new
@@ -3312,7 +3312,7 @@ name
 =
 >
 {
-let
+const
 key
 =
 INSPECTOR_L10N
@@ -3444,7 +3444,7 @@ key
 "
 :
 {
-let
+const
 node
 =
 this
@@ -3519,7 +3519,7 @@ key
 "
 :
 {
-let
+const
 selection
 =
 this
@@ -3577,7 +3577,7 @@ Home
 "
 :
 {
-let
+const
 rootContainer
 =
 this
@@ -3634,7 +3634,7 @@ node
 }
 else
 {
-let
+const
 parent
 =
 this
@@ -3701,7 +3701,7 @@ _selectedContainer
 }
 else
 {
-let
+const
 next
 =
 this
@@ -3739,7 +3739,7 @@ Up
 "
 :
 {
-let
+const
 previousNode
 =
 this
@@ -3776,7 +3776,7 @@ Down
 "
 :
 {
-let
+const
 nextNode
 =
 this
@@ -3813,7 +3813,7 @@ PageUp
 "
 :
 {
-let
+const
 walker
 =
 this
@@ -3845,7 +3845,7 @@ i
 +
 )
 {
-let
+const
 previousNode
 =
 walker
@@ -3886,7 +3886,7 @@ PageDown
 "
 :
 {
-let
+const
 walker
 =
 this
@@ -3918,7 +3918,7 @@ i
 +
 )
 {
-let
+const
 nextNode
 =
 walker
@@ -4067,7 +4067,7 @@ function
 element
 )
 {
-let
+const
 name
 =
 element
@@ -4104,7 +4104,7 @@ function
 moveBackward
 )
 {
-let
+const
 focusedAttribute
 =
 this
@@ -4134,7 +4134,7 @@ if
 focusedAttribute
 )
 {
-let
+const
 container
 =
 focusedAttribute
@@ -4202,7 +4202,7 @@ node
 return
 ;
 }
-let
+const
 container
 =
 this
@@ -4228,7 +4228,7 @@ then
 =
 >
 {
-let
+const
 parent
 =
 node
@@ -4274,7 +4274,7 @@ siblings
 .
 nextSibling
 ;
-let
+const
 prevSibling
 =
 siblings
@@ -4307,7 +4307,7 @@ prevSibling
 parent
 ;
 }
-let
+const
 isNextSiblingText
 =
 nextSibling
@@ -4324,7 +4324,7 @@ TEXT_NODE
 :
 false
 ;
-let
+const
 isPrevSiblingText
 =
 prevSibling
@@ -4394,7 +4394,7 @@ focusNode
 =
 >
 {
-let
+const
 isValidSibling
 =
 nextSibling
@@ -4553,7 +4553,7 @@ slotted
 let
 container
 ;
-let
+const
 {
 nodeType
 isPseudoElement
@@ -4756,7 +4756,7 @@ mutations
 {
 for
 (
-let
+const
 mutation
 of
 mutations
@@ -4811,7 +4811,7 @@ continue
 ;
 }
 }
-let
+const
 container
 =
 this
@@ -5046,13 +5046,13 @@ nodes
 {
 for
 (
-let
+const
 node
 of
 nodes
 )
 {
-let
+const
 container
 =
 this
@@ -5083,7 +5083,7 @@ function
 mutations
 )
 {
-let
+const
 addedOrEditedContainers
 =
 new
@@ -5091,7 +5091,7 @@ Set
 (
 )
 ;
-let
+const
 removedContainers
 =
 new
@@ -5101,7 +5101,7 @@ Set
 ;
 for
 (
-let
+const
 {
 type
 target
@@ -5113,7 +5113,7 @@ of
 mutations
 )
 {
-let
+const
 container
 =
 this
@@ -5209,7 +5209,7 @@ node
 =
 >
 {
-let
+const
 addedContainer
 =
 this
@@ -5247,7 +5247,7 @@ container
 }
 for
 (
-let
+const
 container
 of
 removedContainers
@@ -5262,7 +5262,7 @@ flashMutation
 }
 for
 (
-let
+const
 container
 of
 addedOrEditedContainers
@@ -5386,7 +5386,7 @@ then
 =
 >
 {
-let
+const
 container
 =
 this
@@ -5517,7 +5517,7 @@ function
 node
 )
 {
-let
+const
 container
 =
 this
@@ -5567,7 +5567,7 @@ children
 .
 firstChild
 ;
-let
+const
 promises
 =
 [
@@ -5655,7 +5655,7 @@ function
 node
 )
 {
-let
+const
 container
 =
 this
@@ -5687,7 +5687,7 @@ setExpanded
 false
 )
 ;
-let
+const
 children
 =
 container
@@ -5879,7 +5879,7 @@ cancelReselectOnRemoved
 (
 )
 ;
-let
+const
 isHTMLTag
 =
 removedNode
@@ -5896,7 +5896,7 @@ toLowerCase
 html
 "
 ;
-let
+const
 oldContainer
 =
 this
@@ -5906,7 +5906,7 @@ getContainer
 removedNode
 )
 ;
-let
+const
 parentContainer
 =
 this
@@ -5920,7 +5920,7 @@ parentNode
 )
 )
 ;
-let
+const
 childIndex
 =
 parentContainer
@@ -5934,7 +5934,7 @@ indexOf
 oldContainer
 )
 ;
-let
+const
 onMutations
 =
 this
@@ -5952,13 +5952,13 @@ false
 ;
 for
 (
-let
+const
 mutation
 of
 mutations
 )
 {
-let
+const
 containsRemovedNode
 =
 mutation
@@ -6073,7 +6073,7 @@ isHTMLTag
 )
 )
 {
-let
+const
 childContainers
 =
 parentContainer
@@ -6093,7 +6093,7 @@ childIndex
 ]
 )
 {
-let
+const
 childContainer
 =
 childContainers
@@ -6204,7 +6204,7 @@ node
 newValue
 )
 {
-let
+const
 container
 =
 this
@@ -6275,7 +6275,7 @@ newValue
 oldValue
 )
 {
-let
+const
 container
 =
 this
@@ -6369,7 +6369,7 @@ position
 value
 )
 {
-let
+const
 container
 =
 this
@@ -6498,7 +6498,7 @@ oldValue
 =
 >
 {
-let
+const
 container
 =
 this
@@ -6525,7 +6525,7 @@ this
 htmlEditor
 )
 {
-let
+const
 HTMLEditor
 =
 require
@@ -6762,7 +6762,7 @@ nodeselected
 "
 )
 {
-let
+const
 container
 =
 this
@@ -6808,7 +6808,7 @@ return
 false
 ;
 }
-let
+const
 {
 node
 }
@@ -6872,7 +6872,7 @@ _selectedContainer
 )
 )
 {
-let
+const
 isSlotted
 =
 container
@@ -6913,7 +6913,7 @@ while
 node
 )
 {
-let
+const
 container
 =
 this
@@ -6923,7 +6923,7 @@ getContainer
 node
 )
 ;
-let
+const
 parent
 =
 node
@@ -6942,7 +6942,7 @@ elt
 parentNode
 )
 {
-let
+const
 parentContainer
 =
 this
@@ -7108,7 +7108,7 @@ container
 )
 ;
 }
-let
+const
 expand
 =
 options
@@ -7118,7 +7118,7 @@ options
 .
 expand
 ;
-let
+const
 flash
 =
 options
@@ -7405,7 +7405,7 @@ container
 )
 ;
 }
-let
+const
 centered
 =
 this
@@ -7421,7 +7421,7 @@ childrenDirty
 =
 false
 ;
-let
+const
 isShadowHost
 =
 container
@@ -7430,7 +7430,7 @@ node
 .
 isShadowHost
 ;
-let
+const
 updatePromise
 =
 this
@@ -7501,7 +7501,7 @@ expand
 )
 ;
 }
-let
+const
 fragment
 =
 this
@@ -7514,7 +7514,7 @@ createDocumentFragment
 ;
 for
 (
-let
+const
 child
 of
 children
@@ -7522,7 +7522,7 @@ children
 nodes
 )
 {
-let
+const
 slotted
 =
 !
@@ -7533,7 +7533,7 @@ child
 .
 isDirectShadowHostChild
 ;
-let
+const
 childContainer
 =
 this
@@ -7583,7 +7583,7 @@ children
 hasFirst
 )
 {
-let
+const
 topItem
 =
 this
@@ -7612,7 +7612,7 @@ children
 hasLast
 )
 {
-let
+const
 bottomItem
 =
 this
@@ -7673,7 +7673,7 @@ function
 container
 )
 {
-let
+const
 elt
 =
 this
@@ -7707,7 +7707,7 @@ comment
 "
 )
 ;
-let
+const
 label
 =
 this
@@ -7745,7 +7745,7 @@ appendChild
 label
 )
 ;
-let
+const
 button
 =
 this
@@ -7771,7 +7771,7 @@ href
 "
 )
 ;
-let
+const
 showAllString
 =
 PluralForm
@@ -8258,7 +8258,7 @@ null
 ;
 for
 (
-let
+const
 [
 container
 ]
@@ -8427,7 +8427,7 @@ el
 return
 ;
 }
-let
+const
 target
 =
 this
@@ -8502,7 +8502,7 @@ el
 return
 ;
 }
-let
+const
 target
 =
 this
@@ -8543,7 +8543,7 @@ dropTargetNodes
 (
 )
 {
-let
+const
 target
 =
 this
@@ -8723,7 +8723,7 @@ newMin
 newMax
 )
 {
-let
+const
 ratio
 =
 oldMax

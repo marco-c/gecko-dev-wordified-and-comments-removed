@@ -1899,7 +1899,7 @@ render
 (
 )
 {
-let
+const
 {
 snapshot
 diffing

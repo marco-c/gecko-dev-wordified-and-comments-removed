@@ -202,7 +202,7 @@ refresh
 true
 )
 ;
-let
+const
 config
 =
 {
@@ -341,7 +341,7 @@ function
 (
 )
 {
-let
+const
 element
 =
 this
@@ -636,7 +636,7 @@ _detach
 (
 )
 ;
-let
+const
 newValue
 =
 this
@@ -647,7 +647,7 @@ getText
 (
 )
 ;
-let
+const
 valueHasChanged
 =
 this
@@ -658,7 +658,7 @@ _originalValue
 =
 newValue
 ;
-let
+const
 preventCommit
 =
 shouldCommit

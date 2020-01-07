@@ -54,7 +54,7 @@ subject
 data
 )
 {
-let
+const
 parser
 =
 new
@@ -77,7 +77,7 @@ data
 length
 )
 ;
-let
+const
 dis
 =
 new
@@ -93,7 +93,7 @@ addOffsets
 =
 true
 ;
-let
+const
 done
 =
 dis
@@ -228,7 +228,7 @@ codeOfA
 =
 65
 ;
-let
+const
 buffer
 =
 [
@@ -253,7 +253,7 @@ function
 number
 )
 {
-let
+const
 offset
 =
 lineToWasmOffset
@@ -314,7 +314,7 @@ i
 -
 )
 {
-let
+const
 nibble
 =
 n
@@ -405,7 +405,7 @@ subject
 number
 )
 {
-let
+const
 wasmState
 =
 wasmStates
@@ -472,7 +472,7 @@ subject
 offset
 )
 {
-let
+const
 wasmState
 =
 wasmStates

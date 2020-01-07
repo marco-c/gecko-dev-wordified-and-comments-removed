@@ -153,7 +153,7 @@ walker
 }
 )
 {
-let
+const
 node
 =
 await
@@ -261,7 +261,7 @@ walker
 }
 )
 {
-let
+const
 node
 =
 await
@@ -380,7 +380,7 @@ walker
 }
 )
 {
-let
+const
 node
 =
 await
@@ -495,7 +495,7 @@ walker
 }
 )
 {
-let
+const
 parent
 =
 await
@@ -512,7 +512,7 @@ i2
 "
 )
 ;
-let
+const
 child
 =
 await
@@ -612,7 +612,7 @@ walker
 }
 )
 {
-let
+const
 parent
 =
 await
@@ -628,7 +628,7 @@ body
 "
 )
 ;
-let
+const
 child
 =
 await
@@ -733,7 +733,7 @@ walker
 }
 )
 {
-let
+const
 node
 =
 await
@@ -1072,7 +1072,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -1083,7 +1083,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 breadcrumbs
 =
 inspector
@@ -1099,7 +1099,7 @@ breadcrumbs
 "
 )
 ;
-let
+const
 container
 =
 breadcrumbs
@@ -1116,7 +1116,7 @@ inner
 "
 )
 ;
-let
+const
 win
 =
 container
@@ -1127,7 +1127,7 @@ defaultView
 ;
 for
 (
-let
+const
 {
 desc
 setup
@@ -1175,7 +1175,7 @@ completed
 "
 )
 ;
-let
+const
 onContentMutation
 =
 inspector
@@ -1219,7 +1219,7 @@ hasBreadcrumbsMutated
 =
 false
 ;
-let
+const
 observer
 =
 new
@@ -1233,7 +1233,7 @@ mutations
 {
 for
 (
-let
+const
 {
 type
 attributeName
@@ -1242,7 +1242,7 @@ of
 mutations
 )
 {
-let
+const
 isChildList
 =
 type
@@ -1253,7 +1253,7 @@ type
 childList
 "
 ;
-let
+const
 isAttributes
 =
 type

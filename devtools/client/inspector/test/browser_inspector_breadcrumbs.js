@@ -245,7 +245,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -256,7 +256,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 breadcrumbs
 =
 inspector
@@ -272,7 +272,7 @@ breadcrumbs
 "
 )
 ;
-let
+const
 container
 =
 breadcrumbs
@@ -291,7 +291,7 @@ inner
 ;
 for
 (
-let
+const
 node
 of
 NODES
@@ -323,7 +323,7 @@ update
 "
 )
 ;
-let
+const
 breadcrumbsUpdated
 =
 inspector
@@ -363,7 +363,7 @@ node
 selector
 )
 ;
-let
+const
 buttonsLabelIds
 =
 node
@@ -423,7 +423,7 @@ i
 +
 )
 {
-let
+const
 expectedId
 =
 "
@@ -437,7 +437,7 @@ i
 2
 ]
 ;
-let
+const
 button
 =
 container
@@ -447,7 +447,7 @@ childNodes
 i
 ]
 ;
-let
+const
 labelId
 =
 button
@@ -493,7 +493,7 @@ matches
 )
 ;
 }
-let
+const
 checkedButton
 =
 container
@@ -508,7 +508,7 @@ checked
 "
 )
 ;
-let
+const
 labelId
 =
 checkedButton
@@ -527,7 +527,7 @@ id
 "
 )
 ;
-let
+const
 id
 =
 inspector
@@ -563,7 +563,7 @@ matches
 "
 )
 ;
-let
+const
 labelTag
 =
 checkedButton
@@ -672,7 +672,7 @@ elements
 "
 )
 ;
-let
+const
 pseudoParent
 =
 await
@@ -687,7 +687,7 @@ container
 inspector
 )
 ;
-let
+const
 children
 =
 await
@@ -717,7 +717,7 @@ walker
 "
 )
 ;
-let
+const
 beforeElement
 =
 children
@@ -777,7 +777,7 @@ breadcrumb
 "
 )
 ;
-let
+const
 afterElement
 =
 children
@@ -855,19 +855,19 @@ elements
 "
 )
 ;
-let
+const
 breadcrumbs
 =
 inspector
 .
 breadcrumbs
 ;
-let
+const
 checkedButtonIndex
 =
 2
 ;
-let
+const
 button
 =
 container
@@ -937,7 +937,7 @@ set
 "
 )
 ;
-let
+const
 comment
 =
 [

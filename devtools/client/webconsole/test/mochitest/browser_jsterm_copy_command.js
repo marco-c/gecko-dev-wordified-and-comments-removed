@@ -203,7 +203,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -223,7 +223,7 @@ random
 (
 )
 ;
-let
+const
 string
 =
 "
@@ -233,7 +233,7 @@ Text
 +
 random
 ;
-let
+const
 obj
 =
 {

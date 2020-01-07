@@ -132,7 +132,7 @@ this
 connection
 )
 ;
-let
+const
 docShell
 =
 window

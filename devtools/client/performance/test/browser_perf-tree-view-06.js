@@ -102,19 +102,19 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 profile
 =
 synthesizeProfile
 (
 )
 ;
-let
+const
 threadNode
 =
 new
@@ -149,7 +149,7 @@ calls
 .
 calls
 ;
-let
+const
 treeRoot
 =
 new
@@ -162,7 +162,7 @@ threadNode
 }
 )
 ;
-let
+const
 container
 =
 document
@@ -181,7 +181,7 @@ attachTo
 container
 )
 ;
-let
+const
 A
 =
 treeRoot
@@ -190,7 +190,7 @@ getChild
 (
 )
 ;
-let
+const
 B
 =
 A
@@ -199,7 +199,7 @@ getChild
 (
 )
 ;
-let
+const
 D
 =
 B
@@ -213,7 +213,7 @@ linkEvent
 =
 null
 ;
-let
+const
 handler
 =
 (
@@ -257,7 +257,7 @@ url
 )
 )
 ;
-yield
+await
 idleWait
 (
 100
@@ -299,7 +299,7 @@ url
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (

@@ -97,8 +97,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -155,7 +155,7 @@ CENSUS
 )
 )
 ;
-yield
+await
 dispatch
 (
 takeSnapshotAndCensus
@@ -253,7 +253,7 @@ name
 ;
 for
 (
-let
+const
 el
 of
 nameElems

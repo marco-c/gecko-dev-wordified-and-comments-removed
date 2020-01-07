@@ -399,7 +399,7 @@ initDebugger
 (
 )
 {
-let
+const
 global
 =
 new
@@ -590,7 +590,7 @@ store
 expected
 )
 {
-let
+const
 predicate
 =
 (
@@ -598,7 +598,7 @@ predicate
 =
 >
 {
-let
+const
 snapshots
 =
 store
@@ -738,7 +738,7 @@ children
 {
 for
 (
-let
+const
 child
 of
 node
@@ -777,7 +777,7 @@ getCensus
 expected
 )
 {
-let
+const
 predicate
 =
 (
@@ -785,7 +785,7 @@ predicate
 =
 >
 {
-let
+const
 snapshots
 =
 store
@@ -851,7 +851,7 @@ i
 =
 >
 {
-let
+const
 census
 =
 getCensus
@@ -933,7 +933,7 @@ createTempFile
 (
 )
 {
-let
+const
 file
 =
 FileUtils
@@ -966,14 +966,14 @@ FileUtils
 PERMS_FILE
 )
 ;
-let
+const
 destPath
 =
 file
 .
 path
 ;
-let
+const
 stat
 =
 await

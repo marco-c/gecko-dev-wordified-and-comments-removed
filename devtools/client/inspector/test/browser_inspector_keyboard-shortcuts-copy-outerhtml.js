@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -32,7 +32,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 root
 =
 inspector
@@ -53,7 +53,7 @@ node
 "
 )
 ;
-let
+const
 comment
 =
 getElementByType
@@ -99,7 +99,7 @@ node
 "
 )
 ;
-let
+const
 doctype
 =
 getElementByType
@@ -187,7 +187,7 @@ node
 inspector
 )
 {
-let
+const
 updated
 =
 inspector
@@ -288,7 +288,7 @@ type
 {
 for
 (
-let
+const
 [
 node
 ]

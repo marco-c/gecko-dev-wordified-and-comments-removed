@@ -190,7 +190,7 @@ enableWebComponents
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -280,7 +280,7 @@ function
 (
 )
 {
-let
+const
 shadowRoot
 =
 content
@@ -298,7 +298,7 @@ component
 .
 shadowRoot
 ;
-let
+const
 slotContainer
 =
 shadowRoot
@@ -324,7 +324,7 @@ remove
 await
 mutated
 ;
-let
+const
 treeAfterDelete
 =
 test
@@ -376,7 +376,7 @@ function
 (
 )
 {
-let
+const
 shadowRoot
 =
 content
@@ -394,7 +394,7 @@ component
 .
 shadowRoot
 ;
-let
+const
 shadowDiv
 =
 shadowRoot
@@ -448,7 +448,7 @@ view
 "
 )
 ;
-let
+const
 treeAfterAttrChange
 =
 test

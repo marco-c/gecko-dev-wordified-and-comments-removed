@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -56,7 +56,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -67,7 +67,7 @@ getCurrentPanel
 .
 hud
 ;
-let
+const
 {
 ui
 }
@@ -96,7 +96,7 @@ exists
 "
 )
 ;
-let
+const
 receievedMessages
 =
 waitForMessages

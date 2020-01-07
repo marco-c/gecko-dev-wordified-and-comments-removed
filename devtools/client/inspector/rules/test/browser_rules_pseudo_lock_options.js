@@ -94,7 +94,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -548,7 +548,7 @@ applied
 "
 )
 ;
-let
+const
 onRefresh
 =
 inspector

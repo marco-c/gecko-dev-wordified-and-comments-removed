@@ -123,7 +123,7 @@ getOrCreate
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -180,7 +180,7 @@ remove
 (
 )
 {
-let
+const
 deferred
 =
 defer

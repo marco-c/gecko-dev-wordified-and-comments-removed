@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -61,7 +61,7 @@ clearOutput
 (
 )
 ;
-let
+const
 messages
 =
 [
@@ -88,7 +88,7 @@ undefined
 "
 ]
 ;
-let
+const
 onMessages
 =
 waitForMessages

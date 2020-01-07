@@ -90,7 +90,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -119,7 +119,7 @@ inspector
 view
 )
 {
-let
+const
 node
 =
 "
@@ -242,7 +242,7 @@ element
 "
 )
 ;
-let
+const
 pseudo
 =
 await
@@ -255,7 +255,7 @@ pseudo
 inspector
 )
 ;
-let
+const
 children
 =
 await
@@ -268,7 +268,7 @@ children
 pseudo
 )
 ;
-let
+const
 before
 =
 children

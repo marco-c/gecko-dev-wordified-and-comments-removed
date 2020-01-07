@@ -52,7 +52,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -64,7 +64,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_DEEP_STACK_URL
 )
 ;
-let
+const
 {
 window
 all
@@ -83,7 +83,7 @@ reload
 target
 )
 ;
-let
+const
 recordingFinished
 =
 once
@@ -94,7 +94,7 @@ EVENTS
 SNAPSHOT_RECORDING_FINISHED
 )
 ;
-let
+const
 callListPopulated
 =
 once
@@ -122,7 +122,7 @@ callListPopulated
 ]
 )
 ;
-let
+const
 callItem
 =
 CallsListView
@@ -132,7 +132,7 @@ getItemAtIndex
 2
 )
 ;
-let
+const
 locationLink
 =
 (
@@ -182,7 +182,7 @@ call
 "
 )
 ;
-let
+const
 callStackDisplayed
 =
 once
@@ -734,7 +734,7 @@ location
 "
 )
 ;
-let
+const
 jumpedToSource
 =
 once
@@ -778,7 +778,7 @@ target
 await
 jumpedToSource
 ;
-let
+const
 toolbox
 =
 await
@@ -789,7 +789,7 @@ getToolbox
 target
 )
 ;
-let
+const
 {
 panelWin
 :

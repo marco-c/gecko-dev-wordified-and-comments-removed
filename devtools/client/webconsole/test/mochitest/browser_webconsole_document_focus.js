@@ -33,7 +33,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -42,7 +42,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 inputNode
 =
 hud

@@ -107,7 +107,7 @@ value
 '
 ;
 }
-let
+const
 source
 =
 "
@@ -137,7 +137,7 @@ inspect
 (
 )
 ;
-let
+const
 sidebar
 =
 sp
@@ -165,7 +165,7 @@ outer
 :
 for
 (
-let
+const
 scope
 of
 sidebar
@@ -175,7 +175,7 @@ variablesView
 {
 for
 (
-let
+const
 [
 obj
 ]
@@ -185,7 +185,7 @@ scope
 {
 for
 (
-let
+const
 [
 prop
 ]
@@ -237,7 +237,7 @@ of
 value
 )
 ;
-let
+const
 tabbox
 =
 sidebar

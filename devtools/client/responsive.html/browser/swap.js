@@ -88,7 +88,7 @@ innerBrowser
 let
 tunnel
 ;
-let
+const
 dispatchDevToolsBrowserSwap
 =
 (
@@ -98,14 +98,14 @@ to
 =
 >
 {
-let
+const
 CustomEvent
 =
 browserWindow
 .
 CustomEvent
 ;
-let
+const
 event
 =
 new
@@ -135,7 +135,7 @@ event
 ;
 }
 ;
-let
+const
 addTabSilently
 =
 (
@@ -184,7 +184,7 @@ options
 ;
 }
 ;
-let
+const
 swapBrowsersAndCloseOtherSilently
 =
 (
@@ -232,7 +232,7 @@ otherTab
 ;
 }
 ;
-let
+const
 swapBrowserDocShells
 =
 (
@@ -275,7 +275,7 @@ swapping
 )
 ;
 }
-let
+const
 contentTabId
 =
 ourTab
@@ -378,7 +378,7 @@ start
 (
 )
 {
-let
+const
 {
 newFrameloader
 }
@@ -475,7 +475,7 @@ tab
 "
 )
 ;
-let
+const
 containerTab
 =
 addTabSilently
@@ -502,7 +502,7 @@ hideTab
 containerTab
 )
 ;
-let
+const
 containerBrowser
 =
 containerTab
@@ -553,7 +553,7 @@ LOAD_FLAGS_BYPASS_HISTORY
 }
 )
 ;
-let
+const
 stateFlags
 =
 gBrowser
@@ -777,7 +777,7 @@ tab
 )
 )
 {
-let
+const
 findBar
 =
 gBrowser
@@ -868,7 +868,7 @@ tunnel
 =
 null
 ;
-let
+const
 contentTab
 =
 addTabSilently
@@ -892,7 +892,7 @@ hideTab
 contentTab
 )
 ;
-let
+const
 contentBrowser
 =
 contentTab
@@ -921,7 +921,7 @@ innerBrowser
 =
 null
 ;
-let
+const
 stateFlags
 =
 gBrowser
@@ -989,7 +989,7 @@ tab
 )
 )
 {
-let
+const
 findBar
 =
 gBrowser
@@ -1084,13 +1084,13 @@ tab
 {
 for
 (
-let
+const
 property
 of
 NAVIGATION_PROPERTIES
 )
 {
-let
+const
 value
 =
 tab
@@ -1136,7 +1136,7 @@ tab
 {
 for
 (
-let
+const
 property
 of
 NAVIGATION_PROPERTIES

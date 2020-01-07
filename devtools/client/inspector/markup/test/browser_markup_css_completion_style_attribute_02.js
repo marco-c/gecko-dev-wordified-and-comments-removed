@@ -1106,7 +1106,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }

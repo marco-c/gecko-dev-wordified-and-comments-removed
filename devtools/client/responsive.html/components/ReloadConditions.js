@@ -130,7 +130,7 @@ render
 (
 )
 {
-let
+const
 {
 reloadConditions
 onChangeReloadCondition

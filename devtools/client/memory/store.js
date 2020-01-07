@@ -75,7 +75,7 @@ function
 (
 )
 {
-let
+const
 shouldLog
 =
 false
@@ -96,7 +96,7 @@ history
 ]
 ;
 }
-let
+const
 store
 =
 createStore

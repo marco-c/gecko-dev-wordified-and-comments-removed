@@ -22,7 +22,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -82,7 +82,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -116,7 +116,7 @@ value
 div
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -156,7 +156,7 @@ selector
 "
 )
 ;
-let
+const
 onBlur
 =
 once

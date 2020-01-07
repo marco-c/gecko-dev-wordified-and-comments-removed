@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -38,7 +38,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 selectors
 =
 [
@@ -78,7 +78,7 @@ i
 +
 )
 {
-let
+const
 selector
 =
 selectors
@@ -99,7 +99,7 @@ waitForAnimationSelecting
 panel
 )
 ;
-let
+const
 timelineEl
 =
 panel
@@ -108,7 +108,7 @@ animationsTimelineComponent
 .
 rootWrapperEl
 ;
-let
+const
 animationEl
 =
 timelineEl
@@ -157,7 +157,7 @@ checkEndDelayAndName
 animationEl
 )
 {
-let
+const
 endDelay
 =
 animationEl
@@ -172,7 +172,7 @@ delay
 "
 )
 ;
-let
+const
 name
 =
 animationEl
@@ -185,7 +185,7 @@ name
 "
 )
 ;
-let
+const
 targetNode
 =
 animationEl
@@ -198,7 +198,7 @@ target
 "
 )
 ;
-let
+const
 endDelayLeft
 =
 Math
@@ -214,7 +214,7 @@ getBoundingClientRect
 x
 )
 ;
-let
+const
 sidebarWidth
 =
 Math
@@ -250,7 +250,7 @@ sidebar
 "
 )
 ;
-let
+const
 endDelayRight
 =
 Math
@@ -266,7 +266,7 @@ getBoundingClientRect
 right
 )
 ;
-let
+const
 nameLeft
 =
 Math

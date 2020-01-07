@@ -708,7 +708,7 @@ bind
 this
 )
 ;
-let
+const
 doc
 =
 this
@@ -1551,7 +1551,7 @@ selectorHighlighter
 }
 try
 {
-let
+const
 utils
 =
 this
@@ -1562,7 +1562,7 @@ toolbox
 .
 highlighterUtils
 ;
-let
+const
 h
 =
 await
@@ -1634,7 +1634,7 @@ highlighted
 "
 )
 ;
-let
+const
 highlighter
 =
 await
@@ -1698,7 +1698,7 @@ lastSelectorIcon
 =
 selectorIcon
 ;
-let
+const
 node
 =
 this
@@ -1788,14 +1788,14 @@ let
 type
 value
 ;
-let
+const
 classes
 =
 node
 .
 classList
 ;
-let
+const
 prop
 =
 getParentTextProperty
@@ -2485,7 +2485,7 @@ type
 =
 VIEW_NODE_LOCATION_TYPE
 ;
-let
+const
 rule
 =
 this
@@ -2697,7 +2697,7 @@ text
 "
 "
 ;
-let
+const
 nodeName
 =
 target
@@ -2726,7 +2726,7 @@ textarea
 "
 )
 {
-let
+const
 start
 =
 Math
@@ -2741,7 +2741,7 @@ target
 selectionEnd
 )
 ;
-let
+const
 end
 =
 Math
@@ -2756,7 +2756,7 @@ target
 selectionEnd
 )
 ;
-let
+const
 count
 =
 end
@@ -2847,28 +2847,28 @@ function
 (
 )
 {
-let
+const
 elementStyle
 =
 this
 .
 _elementStyle
 ;
-let
+const
 element
 =
 elementStyle
 .
 element
 ;
-let
+const
 rules
 =
 elementStyle
 .
 rules
 ;
-let
+const
 pseudoClasses
 =
 element
@@ -2891,7 +2891,7 @@ options
 =
 >
 {
-let
+const
 newRule
 =
 new
@@ -2908,7 +2908,7 @@ push
 newRule
 )
 ;
-let
+const
 editor
 =
 new
@@ -2950,7 +2950,7 @@ else
 {
 for
 (
-let
+const
 rule
 of
 rules
@@ -2969,7 +2969,7 @@ type
 ELEMENT_STYLE
 )
 {
-let
+const
 referenceElement
 =
 rule
@@ -3021,21 +3021,21 @@ function
 (
 )
 {
-let
+const
 elementStyle
 =
 this
 .
 _elementStyle
 ;
-let
+const
 element
 =
 elementStyle
 .
 element
 ;
-let
+const
 pseudoClasses
 =
 element
@@ -3061,7 +3061,7 @@ _onAddNewRuleNonAuthored
 return
 ;
 }
-let
+const
 eventPromise
 =
 this
@@ -3075,7 +3075,7 @@ refreshed
 "
 )
 ;
-let
+const
 newRulePromise
 =
 this
@@ -3106,7 +3106,7 @@ values
 =
 >
 {
-let
+const
 options
 =
 values
@@ -3116,7 +3116,7 @@ values
 ;
 for
 (
-let
+const
 rule
 of
 this
@@ -3169,7 +3169,7 @@ function
 (
 )
 {
-let
+const
 shouldBeDisabled
 =
 !
@@ -3303,7 +3303,7 @@ function
 pref
 )
 {
-let
+const
 refreshOnPrefs
 =
 [
@@ -3390,7 +3390,7 @@ _filterChangedTimeout
 )
 ;
 }
-let
+const
 filterTimeout
 =
 (
@@ -3702,7 +3702,7 @@ searchValue
 )
 )
 {
-let
+const
 searchValue
 =
 FILTER_STRICT_RE
@@ -4300,7 +4300,7 @@ allowRefresh
 false
 )
 {
-let
+const
 refresh
 =
 (
@@ -4426,7 +4426,7 @@ undefined
 )
 ;
 }
-let
+const
 dummyElementPromise
 =
 promise
@@ -4444,7 +4444,7 @@ document
 =
 >
 {
-let
+const
 namespaceURI
 =
 this
@@ -4484,7 +4484,7 @@ catch
 promiseWarn
 )
 ;
-let
+const
 elementStyle
 =
 new
@@ -4681,7 +4681,7 @@ undefined
 )
 ;
 }
-let
+const
 promises
 =
 [
@@ -4689,7 +4689,7 @@ promises
 ;
 for
 (
-let
+const
 rule
 of
 this
@@ -4847,7 +4847,7 @@ return
 }
 for
 (
-let
+const
 pseudoClassLock
 of
 this
@@ -4927,7 +4927,7 @@ function
 (
 )
 {
-let
+const
 elementStyle
 =
 this
@@ -4976,7 +4976,7 @@ _clearRules
 (
 )
 ;
-let
+const
 onEditorsReady
 =
 this
@@ -5313,7 +5313,7 @@ isPseudo
 false
 )
 {
-let
+const
 header
 =
 this
@@ -5345,7 +5345,7 @@ textContent
 =
 label
 ;
-let
+const
 twisty
 =
 this
@@ -5404,7 +5404,7 @@ appendChild
 header
 )
 ;
-let
+const
 container
 =
 this
@@ -5619,7 +5619,7 @@ function
 isPseudo
 )
 {
-let
+const
 baseClassName
 =
 "
@@ -5699,7 +5699,7 @@ resolve
 )
 ;
 }
-let
+const
 editorReadyPromises
 =
 [
@@ -5707,7 +5707,7 @@ editorReadyPromises
 ;
 for
 (
-let
+const
 rule
 of
 this
@@ -5833,7 +5833,7 @@ seenNormalElement
 =
 true
 ;
-let
+const
 div
 =
 this
@@ -5876,7 +5876,7 @@ div
 )
 ;
 }
-let
+const
 inheritedSource
 =
 rule
@@ -5895,7 +5895,7 @@ inheritedSource
 lastInheritedSource
 )
 {
-let
+const
 div
 =
 this
@@ -5970,7 +5970,7 @@ true
 )
 ;
 }
-let
+const
 keyframes
 =
 rule
@@ -6122,7 +6122,7 @@ function
 rule
 )
 {
-let
+const
 isRuleSelectorHighlighted
 =
 this
@@ -6132,7 +6132,7 @@ _highlightRuleSelector
 rule
 )
 ;
-let
+const
 isStyleSheetHighlighted
 =
 this
@@ -6152,7 +6152,7 @@ isStyleSheetHighlighted
 ;
 for
 (
-let
+const
 textProp
 of
 rule
@@ -6319,7 +6319,7 @@ rules
 return
 ;
 }
-let
+const
 index
 =
 rules
@@ -6392,7 +6392,7 @@ editorId
 {
 for
 (
-let
+const
 [
 id
 rules
@@ -6543,13 +6543,13 @@ selectorNodes
 }
 for
 (
-let
+const
 selectorNode
 of
 selectorNodes
 )
 {
-let
+const
 selector
 =
 selectorNode
@@ -6632,7 +6632,7 @@ function
 rule
 )
 {
-let
+const
 styleSheetSource
 =
 rule
@@ -6643,7 +6643,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 isStyleSheetHighlighted
 =
 this
@@ -6705,7 +6705,7 @@ function
 editor
 )
 {
-let
+const
 isPropertyHighlighted
 =
 this
@@ -6715,7 +6715,7 @@ _highlightRuleProperty
 editor
 )
 ;
-let
+const
 isComputedHighlighted
 =
 this
@@ -6836,7 +6836,7 @@ function
 editor
 )
 {
-let
+const
 propertyName
 =
 editor
@@ -6849,7 +6849,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 propertyValue
 =
 editor
@@ -6895,7 +6895,7 @@ _populateComputed
 ;
 for
 (
-let
+const
 computed
 of
 editor
@@ -6912,7 +6912,7 @@ computed
 element
 )
 {
-let
+const
 computedName
 =
 computed
@@ -6923,7 +6923,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 computedValue
 =
 computed
@@ -6966,7 +6966,7 @@ propertyName
 propertyValue
 )
 {
-let
+const
 {
 searchPropertyName
 searchPropertyValue
@@ -6985,7 +6985,7 @@ matches
 =
 false
 ;
-let
+const
 hasNameAndValue
 =
 searchPropertyMatch
@@ -6996,7 +6996,7 @@ searchPropertyName
 &
 searchPropertyValue
 ;
-let
+const
 isMatch
 =
 (
@@ -7109,7 +7109,7 @@ element
 {
 for
 (
-let
+const
 el
 of
 element
@@ -7141,7 +7141,7 @@ highlight
 }
 for
 (
-let
+const
 computed
 of
 element
@@ -7362,7 +7362,7 @@ function
 event
 )
 {
-let
+const
 target
 =
 event
@@ -7709,7 +7709,7 @@ getParentTextProperty
 node
 )
 {
-let
+const
 parent
 =
 getParentTextPropertyHolder
@@ -7727,7 +7727,7 @@ return
 null
 ;
 }
-let
+const
 propValue
 =
 parent
@@ -7945,7 +7945,7 @@ getShapePoint
 node
 )
 {
-let
+const
 classList
 =
 node
@@ -7961,7 +7961,7 @@ dataset
 .
 point
 ;
-let
+const
 insetClasses
 =
 [
@@ -8394,7 +8394,7 @@ view
 return
 ;
 }
-let
+const
 isInactive
 =
 !
@@ -8477,7 +8477,7 @@ if
 selectElement
 )
 {
-let
+const
 done
 =
 this

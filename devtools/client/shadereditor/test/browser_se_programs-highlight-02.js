@@ -1,23 +1,23 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 debuggee
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 BLENDED_GEOMETRY_CANVAS_URL
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -34,7 +34,7 @@ reload
 target
 )
 ;
-let
+const
 [
 [
 firstProgramActor
@@ -42,7 +42,7 @@ secondProgramActor
 ]
 ]
 =
-yield
+await
 promise
 .
 all
@@ -65,7 +65,7 @@ SOURCES_SHOWN
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -94,7 +94,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -151,7 +151,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -180,7 +180,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -253,7 +253,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -282,7 +282,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -340,7 +340,7 @@ panel
 }
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -369,7 +369,7 @@ a
 true
 )
 ;
-yield
+await
 ensurePixelIs
 (
 gFront
@@ -412,7 +412,7 @@ unhighlighted
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

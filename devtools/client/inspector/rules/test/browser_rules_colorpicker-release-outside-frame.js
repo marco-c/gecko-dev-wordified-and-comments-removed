@@ -54,7 +54,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -64,7 +64,7 @@ openRuleView
 (
 )
 ;
-let
+const
 cSwatch
 =
 getRuleViewProperty
@@ -90,7 +90,7 @@ colorswatch
 "
 )
 ;
-let
+const
 picker
 =
 await
@@ -100,14 +100,14 @@ cSwatch
 view
 )
 ;
-let
+const
 spectrum
 =
 picker
 .
 spectrum
 ;
-let
+const
 change
 =
 spectrum
@@ -132,7 +132,7 @@ picker
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -172,7 +172,7 @@ defaultView
 await
 onRuleViewChanged
 ;
-let
+const
 value
 =
 await
@@ -278,7 +278,7 @@ swatch
 view
 )
 {
-let
+const
 cPicker
 =
 view
@@ -308,7 +308,7 @@ property
 "
 )
 ;
-let
+const
 cPickerPanel
 =
 cPicker
@@ -332,7 +332,7 @@ exists
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker

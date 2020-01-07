@@ -167,7 +167,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 property
 onShowBoxModelEditor
@@ -208,7 +208,7 @@ render
 (
 )
 {
-let
+const
 {
 box
 direction
@@ -222,7 +222,7 @@ this
 .
 props
 ;
-let
+const
 rotate
 =
 direction

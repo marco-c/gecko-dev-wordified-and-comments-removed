@@ -356,7 +356,7 @@ query
 reverse
 )
 {
-let
+const
 lastSearched
 =
 this
@@ -429,7 +429,7 @@ cleared
 return
 ;
 }
-let
+const
 res
 =
 await
@@ -835,7 +835,7 @@ bind
 this
 )
 ;
-let
+const
 options
 =
 {
@@ -1025,7 +1025,7 @@ return
 null
 ;
 }
-let
+const
 query
 =
 this
@@ -1689,7 +1689,7 @@ function
 event
 )
 {
-let
+const
 popup
 =
 this
@@ -1975,7 +1975,7 @@ function
 event
 )
 {
-let
+const
 selectedItem
 =
 this
@@ -2052,7 +2052,7 @@ total
 =
 0
 ;
-let
+const
 query
 =
 this
@@ -2061,7 +2061,7 @@ searchBox
 .
 value
 ;
-let
+const
 items
 =
 [
@@ -2143,7 +2143,7 @@ s
 )
 )
 {
-let
+const
 lastPart
 =
 query
@@ -2241,7 +2241,7 @@ s
 )
 )
 {
-let
+const
 lastPart
 =
 query
@@ -2334,7 +2334,7 @@ Z
 )
 )
 {
-let
+const
 attrPart
 =
 query
@@ -2361,7 +2361,7 @@ attrPart
 value
 ;
 }
-let
+const
 item
 =
 {
@@ -2476,7 +2476,7 @@ total
 0
 )
 {
-let
+const
 onPopupOpened
 =
 this
@@ -2557,7 +2557,7 @@ function
 (
 )
 {
-let
+const
 onPopupClosed
 =
 this
@@ -2600,7 +2600,7 @@ searchBox
 .
 value
 ;
-let
+const
 state
 =
 this
@@ -2850,7 +2850,7 @@ query
 "
 ;
 }
-let
+const
 suggestionsPromise
 =
 this

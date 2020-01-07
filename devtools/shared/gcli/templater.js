@@ -13,7 +13,7 @@ data
 options
 )
 {
-let
+const
 state
 =
 {
@@ -339,7 +339,7 @@ pushedNode
 =
 true
 ;
-let
+const
 attrs
 =
 Array
@@ -511,7 +511,7 @@ state
 value
 )
 ;
-let
+const
 func
 =
 property
@@ -540,7 +540,7 @@ removeAttribute
 name
 )
 ;
-let
+const
 capture
 =
 node
@@ -832,7 +832,7 @@ pop
 }
 }
 }
-let
+const
 childNodes
 =
 Array
@@ -946,7 +946,7 @@ function
 path
 )
 {
-let
+const
 insert
 =
 envEval
@@ -1007,7 +1007,7 @@ if
 ;
 try
 {
-let
+const
 originalValue
 =
 node
@@ -1019,7 +1019,7 @@ if
 "
 )
 ;
-let
+const
 value
 =
 stripBraces
@@ -1035,7 +1035,7 @@ true
 ;
 try
 {
-let
+const
 reply
 =
 envEval
@@ -1139,7 +1139,7 @@ foreach
 ;
 try
 {
-let
+const
 originalValue
 =
 node
@@ -1189,7 +1189,7 @@ value
 }
 else
 {
-let
+const
 nameArr
 =
 value
@@ -1239,7 +1239,7 @@ foreach
 ;
 try
 {
-let
+const
 evaled
 =
 envEval
@@ -1250,7 +1250,7 @@ data
 originalValue
 )
 ;
-let
+const
 cState
 =
 cloneState
@@ -1376,7 +1376,7 @@ else
 {
 for
 (
-let
+const
 member
 in
 set
@@ -1430,7 +1430,7 @@ frame
 ;
 try
 {
-let
+const
 cState
 =
 cloneState
@@ -1448,7 +1448,7 @@ reply
 node
 )
 {
-let
+const
 newData
 =
 Object
@@ -1661,7 +1661,7 @@ uF002
 "
 )
 ;
-let
+const
 parts
 =
 value
@@ -1755,7 +1755,7 @@ data
 )
 ;
 }
-let
+const
 cState
 =
 cloneState
@@ -1773,7 +1773,7 @@ reply
 siblingNode
 )
 {
-let
+const
 doc
 =
 siblingNode
@@ -1859,7 +1859,7 @@ reply
 length
 )
 {
-let
+const
 list
 =
 Array
@@ -1883,7 +1883,7 @@ function
 child
 )
 {
-let
+const
 imported
 =
 maybeImportNode
@@ -2003,7 +2003,7 @@ function
 "
 )
 {
-let
+const
 tempNode
 =
 siblingNode
@@ -2180,7 +2180,7 @@ split
 )
 ;
 }
-let
+const
 value
 =
 data
@@ -2447,7 +2447,7 @@ script
 "
 ;
 }
-let
+const
 keys
 =
 allKeys
@@ -2455,7 +2455,7 @@ allKeys
 data
 )
 ;
-let
+const
 func
 =
 Function
@@ -2475,7 +2475,7 @@ script
 )
 )
 ;
-let
+const
 values
 =
 keys
@@ -2556,7 +2556,7 @@ allKeys
 data
 )
 {
-let
+const
 keys
 =
 [
@@ -2564,7 +2564,7 @@ keys
 ;
 for
 (
-let
+const
 key
 in
 data

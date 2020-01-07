@@ -153,7 +153,7 @@ GENERATED_LINE
 }
 )
 ;
-let
+const
 newLoc
 =
 await

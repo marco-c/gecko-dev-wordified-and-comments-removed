@@ -22,7 +22,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -32,7 +32,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timelineEl
 =
 panel
@@ -41,7 +41,7 @@ animationsTimelineComponent
 .
 rootWrapperEl
 ;
-let
+const
 timeBlocks
 =
 timelineEl
@@ -90,7 +90,7 @@ it
 "
 )
 ;
-let
+const
 el
 =
 timeBlocks
@@ -98,7 +98,7 @@ timeBlocks
 0
 ]
 ;
-let
+const
 delay
 =
 parseInt
@@ -209,7 +209,7 @@ shorter
 "
 )
 ;
-let
+const
 el2
 =
 timeBlocks
@@ -217,7 +217,7 @@ timeBlocks
 1
 ]
 ;
-let
+const
 delay2
 =
 parseInt
@@ -309,7 +309,7 @@ group
 }
 )
 ;
-let
+const
 durationDelta
 =
 (
@@ -335,7 +335,7 @@ correct
 "
 )
 ;
-let
+const
 delayDelta
 =
 (

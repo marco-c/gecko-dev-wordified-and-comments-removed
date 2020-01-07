@@ -363,7 +363,7 @@ dropSelection
 "
 )
 ;
-let
+const
 iframe
 =
 win
@@ -377,7 +377,7 @@ iframe
 "
 )
 ;
-let
+const
 gutter
 =
 iframe

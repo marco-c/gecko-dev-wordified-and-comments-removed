@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 client
 =
 await
@@ -59,7 +59,7 @@ dependentpromises
 "
 )
 ;
-let
+const
 chromeActors
 =
 await
@@ -109,7 +109,7 @@ chromeActors
 =
 >
 {
-let
+const
 p
 =
 new
@@ -131,7 +131,7 @@ name
 p
 "
 ;
-let
+const
 q
 =
 p
@@ -148,7 +148,7 @@ name
 q
 "
 ;
-let
+const
 r
 =
 p
@@ -177,7 +177,7 @@ p
 }
 )
 ;
-let
+const
 response
 =
 await
@@ -186,7 +186,7 @@ listTabs
 client
 )
 ;
-let
+const
 targetTab
 =
 findTab
@@ -248,7 +248,7 @@ dependentpromises
 "
 )
 ;
-let
+const
 p
 =
 new
@@ -272,7 +272,7 @@ name
 p
 "
 ;
-let
+const
 q
 =
 p
@@ -289,7 +289,7 @@ name
 q
 "
 ;
-let
+const
 r
 =
 p
@@ -336,7 +336,7 @@ form
 makePromises
 )
 {
-let
+const
 front
 =
 PromisesFront
@@ -359,7 +359,7 @@ listPromises
 (
 )
 ;
-let
+const
 onNewPromise
 =
 new
@@ -385,7 +385,7 @@ promises
 {
 for
 (
-let
+const
 p
 of
 promises
@@ -432,14 +432,14 @@ p
 }
 )
 ;
-let
+const
 promise
 =
 makePromises
 (
 )
 ;
-let
+const
 grip
 =
 await
@@ -457,7 +457,7 @@ p
 "
 )
 ;
-let
+const
 objectClient
 =
 new
@@ -494,7 +494,7 @@ response
 =
 >
 {
-let
+const
 dependentNames
 =
 response
@@ -517,7 +517,7 @@ name
 value
 )
 ;
-let
+const
 expectedDependentNames
 =
 [
@@ -588,7 +588,7 @@ name
 }
 for
 (
-let
+const
 p
 of
 response

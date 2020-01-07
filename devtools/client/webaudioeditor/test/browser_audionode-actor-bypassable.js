@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -17,7 +17,7 @@ initBackend
 SIMPLE_NODES_URL
 )
 ;
-let
+const
 [
 _
 nodes
@@ -52,7 +52,7 @@ node
 ]
 )
 ;
-let
+const
 actualBypassability
 =
 nodes
@@ -67,7 +67,7 @@ node
 bypassable
 )
 ;
-let
+const
 expectedBypassability
 =
 [

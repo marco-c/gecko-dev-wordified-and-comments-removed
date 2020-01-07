@@ -99,17 +99,17 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -122,7 +122,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 OverviewView
@@ -151,7 +151,7 @@ updatedFlameGraph
 =
 0
 ;
-let
+const
 updateWaterfall
 =
 (
@@ -162,7 +162,7 @@ updatedWaterfall
 +
 +
 ;
-let
+const
 updateCallTree
 =
 (
@@ -173,7 +173,7 @@ updatedCallTree
 +
 +
 ;
-let
+const
 updateFlameGraph
 =
 (
@@ -214,13 +214,13 @@ UI_JS_FLAMEGRAPH_RENDERED
 updateFlameGraph
 )
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -254,7 +254,7 @@ endTime
 }
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -286,7 +286,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -298,7 +298,7 @@ calltree
 "
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -328,7 +328,7 @@ EVENTS
 UI_JS_FLAMEGRAPH_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -340,7 +340,7 @@ flamegraph
 "
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -378,7 +378,7 @@ EVENTS
 UI_OVERVIEW_RANGE_SELECTED
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -410,7 +410,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -422,7 +422,7 @@ calltree
 "
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -452,7 +452,7 @@ EVENTS
 UI_WATERFALL_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -462,7 +462,7 @@ waterfall
 "
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -550,7 +550,7 @@ UI_JS_FLAMEGRAPH_RENDERED
 updateFlameGraph
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

@@ -310,7 +310,7 @@ prototype
 .
 _cssProperties
 ;
-let
+const
 properties
 =
 getCssProperties
@@ -343,7 +343,7 @@ isEditing
 {
 for
 (
-let
+const
 [
 tooltip
 ]
@@ -449,7 +449,7 @@ return
 tooltip
 ;
 }
-let
+const
 {
 doc
 }
@@ -692,7 +692,7 @@ return
 }
 for
 (
-let
+const
 [
 tooltip
 ]
@@ -780,7 +780,7 @@ VIEW_NODE_FONT_TYPE
 )
 )
 {
-let
+const
 value
 =
 prop
@@ -850,7 +850,7 @@ _onPreviewTooltipTargetHover
 target
 )
 {
-let
+const
 nodeInfo
 =
 this
@@ -872,7 +872,7 @@ return
 false
 ;
 }
-let
+const
 type
 =
 this
@@ -894,7 +894,7 @@ false
 }
 for
 (
-let
+const
 [
 tooltip
 ]
@@ -927,7 +927,7 @@ hide
 ;
 }
 }
-let
+const
 inspector
 =
 this
@@ -999,7 +999,7 @@ type
 TOOLTIP_FONTFAMILY_TYPE
 )
 {
-let
+const
 font
 =
 nodeInfo
@@ -1008,7 +1008,7 @@ value
 .
 value
 ;
-let
+const
 nodeFront
 =
 inspector
@@ -1071,7 +1071,7 @@ startsWith
 )
 )
 {
-let
+const
 variable
 =
 nodeInfo
@@ -1102,7 +1102,7 @@ _setImagePreviewTooltip
 imageUrl
 )
 {
-let
+const
 doc
 =
 this
@@ -1113,7 +1113,7 @@ inspector
 .
 panelDoc
 ;
-let
+const
 maxDim
 =
 Services
@@ -1142,7 +1142,7 @@ data
 )
 )
 {
-let
+const
 size
 =
 await
@@ -1167,7 +1167,7 @@ naturalHeight
 }
 else
 {
-let
+const
 inspectorFront
 =
 this
@@ -1178,7 +1178,7 @@ inspector
 .
 inspector
 ;
-let
+const
 {
 data
 size
@@ -1319,7 +1319,7 @@ trim
 (
 )
 ;
-let
+const
 fillStyle
 =
 getColor
@@ -1331,7 +1331,7 @@ color
 "
 )
 ;
-let
+const
 {
 data
 size
@@ -1348,7 +1348,7 @@ font
 fillStyle
 )
 ;
-let
+const
 imageUrl
 =
 await
@@ -1358,7 +1358,7 @@ string
 (
 )
 ;
-let
+const
 doc
 =
 this
@@ -1369,7 +1369,7 @@ inspector
 .
 panelDoc
 ;
-let
+const
 {
 naturalWidth
 naturalHeight
@@ -1415,7 +1415,7 @@ _setVariablePreviewTooltip
 text
 )
 {
-let
+const
 doc
 =
 this
@@ -1450,7 +1450,7 @@ function
 {
 for
 (
-let
+const
 [
 tooltip
 ]

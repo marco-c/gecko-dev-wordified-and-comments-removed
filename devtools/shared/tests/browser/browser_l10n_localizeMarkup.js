@@ -44,7 +44,7 @@ valid
 "
 )
 ;
-let
+const
 STARTUP_L10N
 =
 new
@@ -63,7 +63,7 @@ properties
 "
 )
 ;
-let
+const
 TOOLBOX_L10N
 =
 new
@@ -82,7 +82,7 @@ properties
 "
 )
 ;
-let
+const
 str1
 =
 STARTUP_L10N
@@ -96,7 +96,7 @@ label
 "
 )
 ;
-let
+const
 str2
 =
 STARTUP_L10N
@@ -110,7 +110,7 @@ accesskey
 "
 )
 ;
-let
+const
 str3
 =
 TOOLBOX_L10N
@@ -157,7 +157,7 @@ markup
 "
 )
 ;
-let
+const
 div
 =
 document
@@ -193,7 +193,7 @@ properties
 "
 )
 ;
-let
+const
 div0
 =
 document
@@ -242,7 +242,7 @@ appendChild
 div0
 )
 ;
-let
+const
 div1
 =
 document
@@ -302,7 +302,7 @@ disappear
 "
 )
 ;
-let
+const
 div2
 =
 document
@@ -357,7 +357,7 @@ appendChild
 div2
 )
 ;
-let
+const
 div3
 =
 document
@@ -412,7 +412,7 @@ appendChild
 div3
 )
 ;
-let
+const
 div4
 =
 document
@@ -473,7 +473,7 @@ content
 "
 )
 ;
-let
+const
 toolboxDiv
 =
 document
@@ -516,7 +516,7 @@ appendChild
 toolboxDiv
 )
 ;
-let
+const
 div5
 =
 document

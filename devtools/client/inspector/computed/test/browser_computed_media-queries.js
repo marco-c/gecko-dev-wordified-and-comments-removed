@@ -47,7 +47,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -82,7 +82,7 @@ checkPropertyView
 view
 )
 {
-let
+const
 propertyView
 =
 new
@@ -126,7 +126,7 @@ then
 =
 >
 {
-let
+const
 numMatchedSelectors
 =
 propertyView

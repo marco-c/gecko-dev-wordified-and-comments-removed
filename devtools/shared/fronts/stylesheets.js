@@ -564,7 +564,7 @@ function
 (
 )
 {
-let
+const
 prefIndent
 =
 getIndentationFromPrefs
@@ -576,7 +576,7 @@ if
 prefIndent
 )
 {
-let
+const
 {
 indentUnit
 indentWithTabs
@@ -613,7 +613,7 @@ function
 (
 )
 {
-let
+const
 longStr
 =
 await
@@ -623,7 +623,7 @@ getText
 (
 )
 ;
-let
+const
 source
 =
 await
@@ -633,7 +633,7 @@ string
 (
 )
 ;
-let
+const
 {
 indentUnit
 indentWithTabs

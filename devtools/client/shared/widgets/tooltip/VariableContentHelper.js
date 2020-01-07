@@ -93,14 +93,14 @@ toolbox
 null
 )
 {
-let
+const
 doc
 =
 tooltip
 .
 doc
 ;
-let
+const
 vbox
 =
 doc
@@ -140,7 +140,7 @@ flex
 "
 )
 ;
-let
+const
 innerbox
 =
 doc
@@ -189,7 +189,7 @@ innerbox
 ;
 for
 (
-let
+const
 {
 label
 className
@@ -199,7 +199,7 @@ of
 extraButtons
 )
 {
-let
+const
 button
 =
 doc
@@ -245,7 +245,7 @@ button
 )
 ;
 }
-let
+const
 widget
 =
 new
@@ -280,7 +280,7 @@ commitHierarchy
 ;
 for
 (
-let
+const
 e
 in
 relayEvents

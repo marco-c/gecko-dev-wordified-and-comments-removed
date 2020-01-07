@@ -70,7 +70,7 @@ function
 (
 )
 {
-let
+const
 {
 AppConstants
 }
@@ -291,7 +291,7 @@ offset
 count
 )
 {
-let
+const
 buffer
 =
 new
@@ -347,7 +347,7 @@ text
 html
 "
 ;
-let
+const
 headers
 =
 getHttpHeaders
@@ -455,7 +455,7 @@ request
 context
 )
 ;
-let
+const
 win
 =
 NetworkHelper
@@ -502,7 +502,7 @@ keepThemeUpdated
 win
 )
 ;
-let
+const
 buffer
 =
 new
@@ -522,7 +522,7 @@ document
 .
 buffer
 ;
-let
+const
 stream
 =
 new
@@ -614,7 +614,7 @@ flush
 false
 )
 {
-let
+const
 data
 =
 this
@@ -666,7 +666,7 @@ nsIHttpChannel
 {
 try
 {
-let
+const
 header
 =
 request
@@ -725,7 +725,7 @@ err
 }
 else
 {
-let
+const
 uri
 =
 request
@@ -829,7 +829,7 @@ getHttpHeaders
 request
 )
 {
-let
+const
 headers
 =
 {
@@ -930,7 +930,7 @@ win
 headers
 )
 {
-let
+const
 json
 =
 new
@@ -940,7 +940,7 @@ Text
 (
 )
 ;
-let
+const
 JSONView
 =
 Cu
@@ -1077,7 +1077,7 @@ children
 ]
 )
 {
-let
+const
 el
 =
 doc
@@ -1089,7 +1089,7 @@ type
 ;
 for
 (
-let
+const
 [
 attr
 value
@@ -1129,7 +1129,7 @@ el
 let
 os
 ;
-let
+const
 platform
 =
 Services
@@ -1186,7 +1186,7 @@ linux
 "
 ;
 }
-let
+const
 baseURI
 =
 "
@@ -1431,7 +1431,7 @@ observer
 {
 for
 (
-let
+const
 {
 target
 addedNodes
@@ -1462,7 +1462,7 @@ content
 {
 for
 (
-let
+const
 node
 of
 addedNodes
@@ -1532,14 +1532,14 @@ keepThemeUpdated
 win
 )
 {
-let
+const
 listener
 =
 function
 (
 )
 {
-let
+const
 theme
 =
 Services
@@ -1631,7 +1631,7 @@ onContentMessage
 e
 )
 {
-let
+const
 win
 =
 this
@@ -1649,7 +1649,7 @@ target
 return
 ;
 }
-let
+const
 value
 =
 e

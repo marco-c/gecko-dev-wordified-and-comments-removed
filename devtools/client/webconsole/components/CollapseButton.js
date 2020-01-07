@@ -74,7 +74,7 @@ messageToggleDetails
 =
 props
 ;
-let
+const
 classes
 =
 [

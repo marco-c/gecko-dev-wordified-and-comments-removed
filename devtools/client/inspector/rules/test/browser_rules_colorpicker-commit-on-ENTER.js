@@ -73,7 +73,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -83,7 +83,7 @@ openRuleView
 (
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -127,7 +127,7 @@ swatch
 ruleView
 )
 {
-let
+const
 cPicker
 =
 ruleView
@@ -141,7 +141,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker
@@ -277,7 +277,7 @@ updated
 "
 )
 ;
-let
+const
 onModified
 =
 ruleView
@@ -291,14 +291,14 @@ changed
 "
 )
 ;
-let
+const
 spectrum
 =
 cPicker
 .
 spectrum
 ;
-let
+const
 onHidden
 =
 cPicker

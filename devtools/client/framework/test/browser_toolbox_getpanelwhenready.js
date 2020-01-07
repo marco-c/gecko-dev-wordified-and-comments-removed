@@ -28,7 +28,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -37,7 +37,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -57,7 +57,7 @@ showToolbox
 target
 )
 ;
-let
+const
 debuggerPanelPromise
 =
 toolbox
@@ -79,7 +79,7 @@ jsdebugger
 "
 )
 ;
-let
+const
 debuggerPanel
 =
 await
@@ -111,7 +111,7 @@ panel
 "
 )
 ;
-let
+const
 debuggerPanel2
 =
 await

@@ -9,7 +9,7 @@ function
 (
 )
 {
-let
+const
 {
 CATEGORIES
 CATEGORY_MAPPINGS
@@ -30,7 +30,7 @@ categories
 "
 )
 ;
-let
+const
 {
 L10N
 }
@@ -50,7 +50,7 @@ global
 "
 )
 ;
-let
+const
 count
 =
 CATEGORIES

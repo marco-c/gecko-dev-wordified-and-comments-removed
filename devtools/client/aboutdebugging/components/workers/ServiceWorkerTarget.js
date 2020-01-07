@@ -401,7 +401,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 client
 }
@@ -439,7 +439,7 @@ oldProps
 oldState
 )
 {
-let
+const
 wasActive
 =
 oldProps
@@ -473,7 +473,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 {
 client
 }
@@ -516,7 +516,7 @@ isRunning
 return
 ;
 }
-let
+const
 {
 client
 target
@@ -562,7 +562,7 @@ isRunning
 return
 ;
 }
-let
+const
 {
 client
 target
@@ -615,7 +615,7 @@ isRunning
 return
 ;
 }
-let
+const
 {
 client
 target
@@ -648,7 +648,7 @@ unregister
 (
 )
 {
-let
+const
 {
 client
 target
@@ -683,7 +683,7 @@ type
 data
 )
 {
-let
+const
 {
 target
 }
@@ -732,7 +732,7 @@ registrationActor
 return
 ;
 }
-let
+const
 {
 client
 target
@@ -863,7 +863,7 @@ renderButtons
 (
 )
 {
-let
+const
 pushButton
 =
 dom
@@ -901,7 +901,7 @@ push
 )
 )
 ;
-let
+const
 debugButton
 =
 dom
@@ -939,7 +939,7 @@ debug
 )
 )
 ;
-let
+const
 startButton
 =
 dom
@@ -1062,7 +1062,7 @@ render
 (
 )
 {
-let
+const
 {
 target
 }
@@ -1071,7 +1071,7 @@ this
 .
 props
 ;
-let
+const
 {
 pushSubscription
 }
@@ -1080,7 +1080,7 @@ this
 .
 state
 ;
-let
+const
 status
 =
 this
@@ -1089,7 +1089,7 @@ getServiceWorkerStatus
 (
 )
 ;
-let
+const
 fetch
 =
 target

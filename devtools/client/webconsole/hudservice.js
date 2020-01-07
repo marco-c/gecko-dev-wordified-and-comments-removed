@@ -359,7 +359,7 @@ iframeWindow
 chromeWindow
 )
 {
-let
+const
 hud
 =
 new
@@ -397,7 +397,7 @@ iframeWindow
 chromeWindow
 )
 {
-let
+const
 hud
 =
 new
@@ -443,7 +443,7 @@ contentWindow
 {
 for
 (
-let
+const
 [
 hud
 ]
@@ -453,7 +453,7 @@ this
 consoles
 )
 {
-let
+const
 target
 =
 hud
@@ -508,7 +508,7 @@ getOpenWebConsole
 (
 )
 {
-let
+const
 tab
 =
 this
@@ -540,7 +540,7 @@ return
 null
 ;
 }
-let
+const
 target
 =
 TargetFactory
@@ -550,7 +550,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -560,7 +560,7 @@ getToolbox
 target
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -598,7 +598,7 @@ this
 _browserConsoleID
 )
 {
-let
+const
 hud
 =
 this
@@ -663,7 +663,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 client
 =
 new
@@ -683,7 +683,7 @@ connect
 (
 )
 ;
-let
+const
 response
 =
 await
@@ -717,7 +717,7 @@ openWindow
 t
 )
 {
-let
+const
 win
 =
 Services
@@ -797,7 +797,7 @@ webConsole
 browserConsoleUsesHTML
 )
 {
-let
+const
 iframe
 =
 win
@@ -864,7 +864,7 @@ async
 =
 >
 {
-let
+const
 connection
 =
 await
@@ -872,7 +872,7 @@ connect
 (
 )
 ;
-let
+const
 target
 =
 await
@@ -883,7 +883,7 @@ forRemoteTab
 connection
 )
 ;
-let
+const
 {
 iframeWindow
 chromeWindow
@@ -895,7 +895,7 @@ openWindow
 target
 )
 ;
-let
+const
 browserConsole
 =
 await
@@ -916,7 +916,7 @@ browserConsole
 (
 )
 ;
-let
+const
 browserConsole
 =
 await
@@ -938,7 +938,7 @@ openBrowserConsoleOrFocus
 (
 )
 {
-let
+const
 hud
 =
 this
@@ -1042,7 +1042,7 @@ chromeWindow
 .
 top
 ;
-let
+const
 element
 =
 this
@@ -1284,7 +1284,7 @@ link
 e
 )
 {
-let
+const
 isOSX
 =
 Services
@@ -1395,7 +1395,7 @@ sourceURL
 sourceLine
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -1439,7 +1439,7 @@ sourceURL
 sourceLine
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -1523,7 +1523,7 @@ getDebuggerFrames
 (
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -1545,7 +1545,7 @@ return
 null
 ;
 }
-let
+const
 panel
 =
 toolbox
@@ -1581,7 +1581,7 @@ getMappedExpression
 expression
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -1603,7 +1603,7 @@ return
 expression
 ;
 }
-let
+const
 panel
 =
 toolbox
@@ -1638,7 +1638,7 @@ getInspectorSelection
 (
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -1660,7 +1660,7 @@ return
 null
 ;
 }
-let
+const
 panel
 =
 toolbox
@@ -1746,14 +1746,14 @@ this
 mainPopupSet
 )
 {
-let
+const
 popupset
 =
 this
 .
 mainPopupSet
 ;
-let
+const
 panels
 =
 popupset
@@ -1778,7 +1778,7 @@ hudId
 ;
 for
 (
-let
+const
 panel
 of
 panels
@@ -1838,7 +1838,7 @@ ex
 {
 }
 }
-let
+const
 id
 =
 Utils
@@ -1959,7 +1959,7 @@ _filterPrefsPrefix
 =
 BC_FILTER_PREFS_PREFIX
 ;
-let
+const
 window
 =
 this

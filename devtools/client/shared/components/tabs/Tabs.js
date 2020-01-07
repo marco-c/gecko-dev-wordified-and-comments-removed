@@ -334,7 +334,7 @@ componentDidMount
 (
 )
 {
-let
+const
 node
 =
 findDOMNode
@@ -388,7 +388,7 @@ onUnderflow
 )
 ;
 }
-let
+const
 index
 =
 this
@@ -430,7 +430,7 @@ tabActive
 =
 nextProps
 ;
-let
+const
 panels
 =
 children
@@ -483,7 +483,7 @@ panel
 =
 >
 {
-let
+const
 createdEntry
 =
 this
@@ -517,7 +517,7 @@ id
 }
 )
 ;
-let
+const
 isCreated
 =
 !
@@ -529,7 +529,7 @@ createdEntry
 .
 isCreated
 ;
-let
+const
 tabId
 =
 panel
@@ -626,7 +626,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 node
 =
 findDOMNode
@@ -790,7 +790,7 @@ state
 .
 tabActive
 ;
-let
+const
 tabCount
 =
 this
@@ -901,7 +901,7 @@ setActive
 index
 )
 {
-let
+const
 onAfterChange
 =
 this
@@ -910,7 +910,7 @@ props
 .
 onAfterChange
 ;
-let
+const
 onBeforeChange
 =
 this
@@ -924,7 +924,7 @@ if
 onBeforeChange
 )
 {
-let
+const
 cancel
 =
 onBeforeChange
@@ -941,7 +941,7 @@ return
 ;
 }
 }
-let
+const
 created
 =
 [
@@ -977,7 +977,7 @@ true
 }
 )
 ;
-let
+const
 newState
 =
 Object
@@ -1007,7 +1007,7 @@ newState
 =
 >
 {
-let
+const
 node
 =
 findDOMNode
@@ -1015,7 +1015,7 @@ findDOMNode
 this
 )
 ;
-let
+const
 selectedTab
 =
 node
@@ -1119,7 +1119,7 @@ children
 ]
 ;
 }
-let
+const
 tabs
 =
 this
@@ -1170,7 +1170,7 @@ index
 =
 >
 {
-let
+const
 {
 id
 className
@@ -1185,7 +1185,7 @@ tab
 .
 props
 ;
-let
+const
 ref
 =
 "
@@ -1197,7 +1197,7 @@ menu
 +
 index
 ;
-let
+const
 isTabSelected
 =
 this
@@ -1210,7 +1210,7 @@ tabActive
 =
 index
 ;
-let
+const
 className
 =
 [
@@ -1386,7 +1386,7 @@ null
 }
 )
 ;
-let
+const
 allTabsMenu
 =
 this
@@ -1423,7 +1423,7 @@ onAllTabsMenuClick
 :
 null
 ;
-let
+const
 sidebarToggle
 =
 this
@@ -1537,7 +1537,7 @@ children
 ]
 ;
 }
-let
+const
 selectedIndex
 =
 this
@@ -1546,7 +1546,7 @@ state
 .
 tabActive
 ;
-let
+const
 panels
 =
 children
@@ -1593,7 +1593,7 @@ index
 =
 >
 {
-let
+const
 selected
 =
 selectedIndex
@@ -1615,7 +1615,7 @@ return
 null
 ;
 }
-let
+const
 id
 =
 tab
@@ -1624,7 +1624,7 @@ props
 .
 id
 ;
-let
+const
 isCreated
 =
 this
@@ -1648,7 +1648,7 @@ index
 .
 isCreated
 ;
-let
+const
 style
 =
 {
@@ -1705,7 +1705,7 @@ tab
 )
 ;
 }
-let
+const
 panel
 =
 tab

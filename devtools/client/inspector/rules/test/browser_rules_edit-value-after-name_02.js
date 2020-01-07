@@ -109,7 +109,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -147,7 +147,7 @@ testid
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -156,7 +156,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -170,7 +170,7 @@ textProps
 .
 editor
 ;
-let
+const
 swatchSpan
 =
 propEditor
@@ -210,7 +210,7 @@ propEditor
 nameSpan
 )
 ;
-let
+const
 editor
 =
 inplaceEditor
@@ -259,7 +259,7 @@ background
 image
 "
 ;
-let
+const
 onPropertyValueUpdate
 =
 view
@@ -275,7 +275,7 @@ updated
 "
 )
 ;
-let
+const
 onSwatchUnitChange
 =
 swatchSpan
@@ -289,7 +289,7 @@ change
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view

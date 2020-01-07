@@ -151,7 +151,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -160,7 +160,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 [
 msgWithText
 msgWithObj
@@ -201,7 +201,7 @@ appeared
 "
 )
 ;
-let
+const
 [
 groupMsgObj
 ]
@@ -228,7 +228,7 @@ body
 )
 )
 ;
-let
+const
 [
 collapsedGroupMsgObj
 ]
@@ -255,7 +255,7 @@ body
 )
 )
 ;
-let
+const
 [
 numberMsgObj
 ]
@@ -280,7 +280,7 @@ body
 )
 )
 ;
-let
+const
 [
 trueMsgObj
 ]
@@ -305,7 +305,7 @@ body
 )
 )
 ;
-let
+const
 [
 falseMsgObj
 ]
@@ -330,7 +330,7 @@ body
 )
 )
 ;
-let
+const
 [
 undefinedMsgObj
 ]
@@ -355,7 +355,7 @@ body
 )
 )
 ;
-let
+const
 [
 nullMsgObj
 ]
@@ -395,7 +395,7 @@ appeared
 "
 )
 ;
-let
+const
 text
 =
 msgWithText
@@ -410,7 +410,7 @@ string
 "
 )
 ;
-let
+const
 objInMsgWithObj
 =
 msgWithObj
@@ -425,7 +425,7 @@ object
 "
 )
 ;
-let
+const
 textInMsgWithObj
 =
 msgWithObj
@@ -440,7 +440,7 @@ string
 "
 )
 ;
-let
+const
 topObjInMsg
 =
 msgNested
@@ -455,7 +455,7 @@ array
 "
 )
 ;
-let
+const
 nestedObjInMsg
 =
 msgNested
@@ -470,7 +470,7 @@ object
 "
 )
 ;
-let
+const
 consoleMessages
 =
 await
@@ -851,7 +851,7 @@ hud
 element
 )
 ;
-let
+const
 copyObjectMenuItem
 =
 menuPopup
@@ -887,7 +887,7 @@ data
 =
 >
 {
-let
+const
 prettifiedMessage
 =
 prettyPrintMessage
@@ -979,7 +979,7 @@ hud
 element
 )
 {
-let
+const
 menuPopup
 =
 await
@@ -989,7 +989,7 @@ hud
 element
 )
 ;
-let
+const
 copyObjectMenuItem
 =
 menuPopup

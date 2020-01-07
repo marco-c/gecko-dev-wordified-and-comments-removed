@@ -329,7 +329,7 @@ act
 }
 }
 ;
-let
+const
 quote
 =
 uneval
@@ -819,7 +819,7 @@ act
 }
 for
 (
-let
+const
 key
 in
 exp
@@ -993,7 +993,7 @@ act
 )
 ;
 }
-let
+const
 length
 =
 exp

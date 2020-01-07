@@ -159,7 +159,7 @@ registerNewActor
 (
 )
 {
-let
+const
 options
 =
 {

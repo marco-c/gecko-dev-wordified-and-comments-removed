@@ -4,7 +4,7 @@ ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 front

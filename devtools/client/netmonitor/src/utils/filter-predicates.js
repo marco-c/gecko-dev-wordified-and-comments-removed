@@ -440,7 +440,7 @@ isOther
 item
 )
 {
-let
+const
 tests
 =
 [

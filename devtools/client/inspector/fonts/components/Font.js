@@ -282,7 +282,7 @@ return
 null
 ;
 }
-let
+const
 leading
 =
 ruleText
@@ -302,7 +302,7 @@ indexOf
 1
 )
 ;
-let
+const
 body
 =
 ruleText
@@ -329,7 +329,7 @@ lastIndexOf
 )
 )
 ;
-let
+const
 trailing
 =
 ruleText
@@ -346,7 +346,7 @@ lastIndexOf
 )
 )
 ;
-let
+const
 {
 isFontFaceRuleExpanded
 }
@@ -412,7 +412,7 @@ renderFontCSSCodeTwisty
 (
 )
 {
-let
+const
 {
 isFontFaceRuleExpanded
 }
@@ -421,7 +421,7 @@ this
 .
 state
 ;
-let
+const
 attributes
 =
 {
@@ -466,7 +466,7 @@ render
 (
 )
 {
-let
+const
 {
 font
 fontOptions
@@ -478,14 +478,14 @@ this
 .
 props
 ;
-let
+const
 {
 previewText
 }
 =
 fontOptions
 ;
-let
+const
 {
 previewUrl
 rule

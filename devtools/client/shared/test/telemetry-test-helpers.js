@@ -144,7 +144,7 @@ telemetry
 ;
 for
 (
-let
+const
 optInOut
 of
 [
@@ -177,7 +177,7 @@ snapshot
 ;
 for
 (
-let
+const
 getHistogram
 of
 [
@@ -192,7 +192,7 @@ getKeyedHistogramById
 {
 for
 (
-let
+const
 key
 of
 histKeys
@@ -402,7 +402,7 @@ case
 hasentries
 "
 :
-let
+const
 hasEntry
 =
 actual
@@ -699,13 +699,13 @@ n
 ;
 for
 (
-let
+const
 histId
 of
 histIds
 )
 {
-let
+const
 snapshot
 =
 allHistograms
@@ -750,7 +750,7 @@ snapshot
 ;
 for
 (
-let
+const
 key
 of
 keys
@@ -879,7 +879,7 @@ snapshot
 ;
 for
 (
-let
+const
 key
 of
 keys
@@ -980,7 +980,7 @@ total
 ;
 for
 (
-let
+const
 val
 of
 actual

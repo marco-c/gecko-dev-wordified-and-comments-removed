@@ -15,7 +15,7 @@ requestLongerTimeout
 4
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -28,7 +28,7 @@ INFINITE_GET_URL
 true
 )
 ;
-let
+const
 {
 document
 windowRequire
@@ -39,7 +39,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -76,7 +76,7 @@ waitForRequestListToAppear
 (
 )
 ;
-let
+const
 requestsContainer
 =
 document
@@ -106,7 +106,7 @@ expected
 "
 )
 ;
-let
+const
 headers
 =
 document

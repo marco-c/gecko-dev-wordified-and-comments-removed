@@ -88,7 +88,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -136,7 +136,7 @@ inspector
 view
 )
 {
-let
+const
 elementStyle
 =
 view
@@ -160,7 +160,7 @@ rules
 "
 )
 ;
-let
+const
 elementRule
 =
 elementStyle
@@ -189,7 +189,7 @@ inherited
 "
 )
 ;
-let
+const
 inheritRule
 =
 elementStyle
@@ -257,7 +257,7 @@ style
 "
 )
 ;
-let
+const
 inheritProp
 =
 inheritRule

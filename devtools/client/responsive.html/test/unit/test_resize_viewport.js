@@ -33,7 +33,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 Store
@@ -65,7 +65,7 @@ resizeViewport
 )
 )
 ;
-let
+const
 viewport
 =
 getState

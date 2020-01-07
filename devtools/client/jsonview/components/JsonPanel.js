@@ -385,7 +385,7 @@ return
 true
 ;
 }
-let
+const
 json
 =
 object
@@ -427,7 +427,7 @@ renderValue
 props
 )
 {
-let
+const
 member
 =
 props
@@ -482,7 +482,7 @@ str
 {
 try
 {
-let
+const
 u
 =
 new
@@ -543,7 +543,7 @@ renderTree
 (
 )
 {
-let
+const
 columns
 =
 [
@@ -609,7 +609,7 @@ render
 let
 content
 ;
-let
+const
 data
 =
 this

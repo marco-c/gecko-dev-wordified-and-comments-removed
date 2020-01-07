@@ -24,7 +24,7 @@ msg
 ;
 }
 }
-let
+const
 COUNT
 =
 {
@@ -46,14 +46,14 @@ run_test
 (
 )
 {
-let
+const
 path
 =
 saveNewHeapSnapshot
 (
 )
 ;
-let
+const
 snapshot
 =
 ChromeUtils
@@ -63,7 +63,7 @@ readHeapSnapshot
 path
 )
 ;
-let
+const
 dominatorTree
 =
 snapshot
@@ -72,14 +72,14 @@ computeDominatorTree
 (
 )
 ;
-let
+const
 root
 =
 dominatorTree
 .
 root
 ;
-let
+const
 stack
 =
 [
@@ -95,7 +95,7 @@ length
 0
 )
 {
-let
+const
 top
 =
 stack
@@ -104,7 +104,7 @@ pop
 (
 )
 ;
-let
+const
 children
 =
 dominatorTree
@@ -114,7 +114,7 @@ getImmediatelyDominated
 top
 )
 ;
-let
+const
 topRetainedSize
 =
 dominatorTree
@@ -124,7 +124,7 @@ getRetainedSize
 top
 )
 ;
-let
+const
 topShallowSize
 =
 snapshot

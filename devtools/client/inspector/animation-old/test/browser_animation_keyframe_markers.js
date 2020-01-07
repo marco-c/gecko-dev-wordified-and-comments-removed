@@ -61,7 +61,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -71,7 +71,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
@@ -106,7 +106,7 @@ keyframes
 "
 )
 ;
-let
+const
 data
 =
 await
@@ -122,7 +122,7 @@ animations
 ;
 for
 (
-let
+const
 propertyName
 in
 data
@@ -141,7 +141,7 @@ for
 propertyName
 )
 ;
-let
+const
 widthMarkerSelector
 =
 "
@@ -160,7 +160,7 @@ propertyName
 ]
 "
 ;
-let
+const
 markers
 =
 timeline
@@ -197,7 +197,7 @@ for
 propertyName
 )
 ;
-let
+const
 offsets
 =
 [
@@ -222,7 +222,7 @@ offset
 )
 )
 ;
-let
+const
 values
 =
 [
@@ -342,7 +342,7 @@ getExpectedKeyframesData
 animation
 )
 {
-let
+const
 properties
 =
 await
@@ -352,7 +352,7 @@ getProperties
 (
 )
 ;
-let
+const
 data
 =
 {
@@ -360,7 +360,7 @@ data
 ;
 for
 (
-let
+const
 expectedProperty
 of
 EXPECTED_PROPERTIES
@@ -376,7 +376,7 @@ expectedProperty
 ;
 for
 (
-let
+const
 {
 name
 values
@@ -399,7 +399,7 @@ continue
 }
 for
 (
-let
+const
 {
 offset
 value

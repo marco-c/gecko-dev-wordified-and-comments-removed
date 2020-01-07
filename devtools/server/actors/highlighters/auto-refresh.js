@@ -179,13 +179,13 @@ newQuads
 {
 for
 (
-let
+const
 region
 of
 BOX_MODEL_REGIONS
 )
 {
-let
+const
 {
 length
 }
@@ -231,13 +231,13 @@ i
 {
 for
 (
-let
+const
 prop
 of
 QUADS_PROPS
 )
 {
-let
+const
 oldPoint
 =
 oldQuads
@@ -251,7 +251,7 @@ i
 prop
 ]
 ;
-let
+const
 newPoint
 =
 newQuads
@@ -404,7 +404,7 @@ options
 }
 )
 {
-let
+const
 isSameNode
 =
 node
@@ -415,7 +415,7 @@ this
 .
 currentNode
 ;
-let
+const
 isSameOptions
 =
 this
@@ -478,7 +478,7 @@ _startRefreshLoop
 (
 )
 ;
-let
+const
 shown
 =
 this
@@ -605,7 +605,7 @@ return
 false
 ;
 }
-let
+const
 keys
 =
 Object
@@ -641,7 +641,7 @@ false
 }
 for
 (
-let
+const
 key
 of
 keys
@@ -688,7 +688,7 @@ currentQuads
 ;
 for
 (
-let
+const
 region
 of
 BOX_MODEL_REGIONS
@@ -720,7 +720,7 @@ function
 (
 )
 {
-let
+const
 oldQuads
 =
 this
@@ -749,7 +749,7 @@ function
 (
 )
 {
-let
+const
 {
 pageXOffset
 pageYOffset
@@ -759,7 +759,7 @@ this
 .
 win
 ;
-let
+const
 hasChanged
 =
 this
@@ -806,7 +806,7 @@ function
 (
 )
 {
-let
+const
 {
 width
 height
@@ -819,7 +819,7 @@ this
 win
 )
 ;
-let
+const
 haveChanged
 =
 (
@@ -1012,7 +1012,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 this

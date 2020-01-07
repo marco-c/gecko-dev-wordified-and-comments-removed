@@ -140,7 +140,7 @@ evalCode
 gClient
 )
 ;
-let
+const
 source
 =
 gThreadClient
@@ -156,7 +156,7 @@ where
 source
 )
 ;
-let
+const
 location
 =
 {
@@ -169,7 +169,7 @@ line0
 8
 }
 ;
-let
+const
 [
 res
 bpClient

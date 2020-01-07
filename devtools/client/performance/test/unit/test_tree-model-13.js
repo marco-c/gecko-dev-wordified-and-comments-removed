@@ -9,7 +9,7 @@ function
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -33,7 +33,7 @@ model
 "
 )
 ;
-let
+const
 root
 =
 new

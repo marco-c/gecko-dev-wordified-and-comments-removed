@@ -55,7 +55,7 @@ window
 "
 )
 ;
-let
+const
 tab1
 =
 await
@@ -69,7 +69,7 @@ win1
 }
 )
 ;
-let
+const
 tab2
 =
 await
@@ -153,7 +153,7 @@ window
 "
 )
 ;
-let
+const
 tab3
 =
 await
@@ -167,7 +167,7 @@ win2
 }
 )
 ;
-let
+const
 tab4
 =
 await
@@ -193,7 +193,7 @@ tab
 "
 )
 ;
-let
+const
 tabs
 =
 [
@@ -205,13 +205,13 @@ tab4
 ;
 for
 (
-let
+const
 tab
 of
 tabs
 )
 {
-let
+const
 hud
 =
 await
@@ -220,7 +220,7 @@ openConsole
 tab
 )
 ;
-let
+const
 browser
 =
 hud
@@ -231,7 +231,7 @@ tab
 .
 linkedBrowser
 ;
-let
+const
 message
 =
 "
@@ -247,7 +247,7 @@ indexOf
 tab
 )
 ;
-let
+const
 onMessage
 =
 waitForMessage
@@ -284,7 +284,7 @@ await
 onMessage
 ;
 }
-let
+const
 onConsolesDestroyed
 =
 waitForNEvents

@@ -88,7 +88,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -99,7 +99,7 @@ openRuleView
 (
 )
 ;
-let
+const
 HighlighterFront
 =
 {
@@ -181,7 +181,7 @@ function
 }
 }
 ;
-let
+const
 hs
 =
 view
@@ -335,7 +335,7 @@ times
 "
 )
 ;
-let
+const
 nb
 =
 HighlighterFront

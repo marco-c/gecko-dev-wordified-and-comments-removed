@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -77,7 +77,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -109,7 +109,7 @@ node
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -188,7 +188,7 @@ pause
 (
 )
 ;
-let
+const
 pausedState
 =
 await
@@ -224,7 +224,7 @@ currentTime
 5000
 )
 ;
-let
+const
 updatedState1
 =
 await
@@ -286,7 +286,7 @@ currentTime
 2000
 )
 ;
-let
+const
 updatedState2
 =
 await
@@ -361,7 +361,7 @@ players
 "
 )
 ;
-let
+const
 nodeMulti
 =
 await
@@ -380,7 +380,7 @@ animations
 "
 )
 ;
-let
+const
 players
 =
 (
@@ -468,7 +468,7 @@ i
 +
 )
 {
-let
+const
 state
 =
 await

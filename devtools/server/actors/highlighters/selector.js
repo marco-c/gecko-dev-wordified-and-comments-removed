@@ -151,7 +151,7 @@ i
 ;
 for
 (
-let
+const
 matchingNode
 of
 nodes
@@ -168,7 +168,7 @@ MAX_HIGHLIGHTED_ELEMENTS
 break
 ;
 }
-let
+const
 highlighter
 =
 new
@@ -239,7 +239,7 @@ function
 {
 for
 (
-let
+const
 highlighter
 of
 this

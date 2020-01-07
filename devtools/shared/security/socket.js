@@ -456,7 +456,7 @@ _validateSettings
 settings
 )
 ;
-let
+const
 {
 host
 port
@@ -467,7 +467,7 @@ cert
 =
 settings
 ;
-let
+const
 transport
 =
 await
@@ -507,7 +507,7 @@ _validateSettings
 settings
 )
 {
-let
+const
 {
 encryption
 webSocket
@@ -556,7 +556,7 @@ function
 settings
 )
 {
-let
+const
 {
 host
 port
@@ -571,7 +571,7 @@ if
 webSocket
 )
 {
-let
+const
 socket
 =
 await
@@ -585,7 +585,7 @@ reject
 =
 >
 {
-let
+const
 s
 =
 new
@@ -741,14 +741,14 @@ function
 settings
 )
 {
-let
+const
 {
 authenticator
 }
 =
 settings
 ;
-let
+const
 {
 s
 input
@@ -767,7 +767,7 @@ certError
 ;
 try
 {
-let
+const
 results
 =
 await
@@ -988,7 +988,7 @@ getOrCreate
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -1032,7 +1032,7 @@ if
 encryption
 )
 {
-let
+const
 sslSocketControl
 =
 transport
@@ -1187,7 +1187,7 @@ _isInputAlive
 input
 )
 {
-let
+const
 deferred
 =
 defer
@@ -1231,7 +1231,7 @@ e
 {
 try
 {
-let
+const
 errorClass
 =
 nssErrorsService
@@ -1318,7 +1318,7 @@ host
 port
 )
 {
-let
+const
 cert
 =
 s
@@ -1336,7 +1336,7 @@ SSLStatus
 .
 serverCert
 ;
-let
+const
 overrideBits
 =
 Ci
@@ -1560,7 +1560,7 @@ nsIServerSocket
 LoopbackOnly
 ;
 }
-let
+const
 self
 =
 this
@@ -1572,7 +1572,7 @@ function
 (
 )
 {
-let
+const
 backlog
 =
 4
@@ -1594,7 +1594,7 @@ self
 isPortBased
 )
 {
-let
+const
 port
 =
 Number
@@ -1618,7 +1618,7 @@ backlog
 }
 else
 {
-let
+const
 file
 =
 nsFile
@@ -1784,7 +1784,7 @@ port
 return
 ;
 }
-let
+const
 advertisement
 =
 {
@@ -1933,7 +1933,7 @@ setSessionTickets
 false
 )
 ;
-let
+const
 requestCert
 =
 Ci
@@ -2379,7 +2379,7 @@ client
 (
 )
 {
-let
+const
 client
 =
 {
@@ -2420,7 +2420,7 @@ server
 (
 )
 {
-let
+const
 server
 =
 {
@@ -2483,7 +2483,7 @@ this
 address
 )
 ;
-let
+const
 self
 =
 this
@@ -2558,7 +2558,7 @@ _createTransport
 (
 )
 {
-let
+const
 input
 =
 this
@@ -2572,7 +2572,7 @@ openInputStream
 0
 )
 ;
-let
+const
 output
 =
 this
@@ -2595,7 +2595,7 @@ _listener
 webSocket
 )
 {
-let
+const
 socket
 =
 await
@@ -2691,7 +2691,7 @@ securityInfo
 return
 ;
 }
-let
+const
 connectionInfo
 =
 this
@@ -2941,7 +2941,7 @@ _authenticate
 (
 )
 {
-let
+const
 result
 =
 await
@@ -3084,7 +3084,7 @@ result
 ;
 for
 (
-let
+const
 name
 in
 Cr

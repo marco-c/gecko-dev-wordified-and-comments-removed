@@ -27,7 +27,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -48,7 +48,7 @@ target
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view

@@ -674,7 +674,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }

@@ -35,7 +35,7 @@ function
 (
 )
 {
-let
+const
 wcHud
 =
 await
@@ -54,7 +54,7 @@ opened
 "
 )
 ;
-let
+const
 bcHud
 =
 await
@@ -74,7 +74,7 @@ opened
 "
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -86,7 +86,7 @@ wcHud
 target
 )
 ;
-let
+const
 oldPanels
 =
 toolbox
@@ -149,7 +149,7 @@ getToolPanels
 }
 )
 ;
-let
+const
 msg
 =
 await
@@ -197,7 +197,7 @@ iterable
 "
 )
 ;
-let
+const
 locationNode
 =
 msg
@@ -230,7 +230,7 @@ found
 "
 )
 ;
-let
+const
 url
 =
 locationNode
@@ -315,7 +315,7 @@ source
 "
 )
 ;
-let
+const
 onTabOpen
 =
 BrowserTestUtils
@@ -333,7 +333,7 @@ click
 (
 )
 ;
-let
+const
 newTab
 =
 await

@@ -152,7 +152,7 @@ authResult
 )
 ;
 }
-let
+const
 title
 =
 L10N
@@ -164,7 +164,7 @@ clientSendOOBTitle
 "
 )
 ;
-let
+const
 header
 =
 L10N
@@ -176,7 +176,7 @@ clientSendOOBHeader
 "
 )
 ;
-let
+const
 hashMsg
 =
 L10N
@@ -191,7 +191,7 @@ oob
 sha256
 )
 ;
-let
+const
 token
 =
 oob
@@ -216,7 +216,7 @@ oob
 .
 k
 ;
-let
+const
 tokenMsg
 =
 L10N
@@ -229,7 +229,7 @@ clientSendOOBToken
 token
 )
 ;
-let
+const
 msg
 =
 {
@@ -248,14 +248,14 @@ n
 tokenMsg
 }
 ;
-let
+const
 prompt
 =
 Services
 .
 prompt
 ;
-let
+const
 flags
 =
 prompt
@@ -269,7 +269,7 @@ BUTTON_TITLE_CANCEL
 let
 promptWindow
 ;
-let
+const
 windowListener
 =
 {
@@ -278,7 +278,7 @@ onOpenWindow
 xulWindow
 )
 {
-let
+const
 win
 =
 xulWindow
@@ -448,7 +448,7 @@ server
 =
 >
 {
-let
+const
 title
 =
 L10N
@@ -460,7 +460,7 @@ remoteIncomingPromptTitle
 "
 )
 ;
-let
+const
 header
 =
 L10N
@@ -472,7 +472,7 @@ remoteIncomingPromptHeader
 "
 )
 ;
-let
+const
 clientEndpoint
 =
 {
@@ -487,7 +487,7 @@ client
 port
 }
 ;
-let
+const
 clientMsg
 =
 L10N
@@ -500,7 +500,7 @@ remoteIncomingPromptClientEndpoint
 clientEndpoint
 )
 ;
-let
+const
 serverEndpoint
 =
 {
@@ -515,7 +515,7 @@ server
 port
 }
 ;
-let
+const
 serverMsg
 =
 L10N
@@ -528,7 +528,7 @@ remoteIncomingPromptServerEndpoint
 serverEndpoint
 )
 ;
-let
+const
 footer
 =
 L10N
@@ -540,7 +540,7 @@ remoteIncomingPromptFooter
 "
 )
 ;
-let
+const
 msg
 =
 {
@@ -566,7 +566,7 @@ n
 footer
 }
 ;
-let
+const
 disableButton
 =
 L10N
@@ -578,14 +578,14 @@ remoteIncomingPromptDisable
 "
 )
 ;
-let
+const
 prompt
 =
 Services
 .
 prompt
 ;
-let
+const
 flags
 =
 prompt
@@ -616,7 +616,7 @@ prompt
 .
 BUTTON_POS_1_DEFAULT
 ;
-let
+const
 result
 =
 prompt
@@ -684,7 +684,7 @@ defaultReceiveOOB
 =
 >
 {
-let
+const
 title
 =
 L10N
@@ -696,7 +696,7 @@ serverReceiveOOBTitle
 "
 )
 ;
-let
+const
 msg
 =
 L10N
@@ -717,14 +717,14 @@ value
 null
 }
 ;
-let
+const
 prompt
 =
 Services
 .
 prompt
 ;
-let
+const
 result
 =
 prompt
@@ -805,7 +805,7 @@ toUpperCase
 (
 )
 ;
-let
+const
 k
 =
 input

@@ -26,7 +26,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -50,7 +50,7 @@ node
 "
 )
 ;
-let
+const
 parentFront
 =
 await
@@ -90,7 +90,7 @@ view
 "
 )
 ;
-let
+const
 parentContainer
 =
 await
@@ -487,7 +487,7 @@ child
 "
 )
 ;
-let
+const
 siblingFront
 =
 await
@@ -629,7 +629,7 @@ with
 next
 )
 ;
-let
+const
 container
 =
 await
@@ -639,7 +639,7 @@ next
 inspector
 )
 ;
-let
+const
 height
 =
 container
@@ -652,7 +652,7 @@ getBoundingClientRect
 .
 height
 ;
-let
+const
 onMutated
 =
 inspector
@@ -664,7 +664,7 @@ markupmutation
 "
 )
 ;
-let
+const
 uiUpdate
 =
 inspector
@@ -694,7 +694,7 @@ height
 2
 )
 ;
-let
+const
 mutations
 =
 await
@@ -728,7 +728,7 @@ walker
 }
 )
 {
-let
+const
 {
 nodes
 }

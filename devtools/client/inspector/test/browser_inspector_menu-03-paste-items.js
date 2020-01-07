@@ -152,7 +152,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -237,7 +237,7 @@ outerHTML
 }
 )
 ;
-let
+const
 outerHTMLSelector
 =
 "
@@ -248,7 +248,7 @@ area
 h1
 "
 ;
-let
+const
 nodeFront
 =
 await
@@ -265,7 +265,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -284,7 +284,7 @@ tagLine
 }
 )
 ;
-let
+const
 onNodeReselected
 =
 inspector
@@ -339,7 +339,7 @@ update
 await
 onNodeReselected
 ;
-let
+const
 outerHTML
 =
 await
@@ -464,7 +464,7 @@ innerHTML
 }
 )
 ;
-let
+const
 innerHTMLSelector
 =
 "
@@ -476,7 +476,7 @@ area
 inner
 "
 ;
-let
+const
 getInnerHTML
 =
 (
@@ -493,7 +493,7 @@ innerHTML
 "
 )
 ;
-let
+const
 origInnerHTML
 =
 await
@@ -501,7 +501,7 @@ getInnerHTML
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -518,7 +518,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -537,7 +537,7 @@ tagLine
 }
 )
 ;
-let
+const
 onMutation
 =
 inspector
@@ -679,7 +679,7 @@ testPasteAdjacentHTMLMenu
 (
 )
 {
-let
+const
 refSelector
 =
 "
@@ -693,7 +693,7 @@ adjacent
 ref
 "
 ;
-let
+const
 adjacentNodeSelector
 =
 "
@@ -705,7 +705,7 @@ area
 adjacent
 "
 ;
-let
+const
 nodeFront
 =
 await
@@ -722,7 +722,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 markupTagLine
 =
 getContainerForNodeFront
@@ -735,7 +735,7 @@ tagLine
 ;
 for
 (
-let
+const
 {
 clipboardData
 menuId
@@ -744,7 +744,7 @@ of
 PASTE_ADJACENT_HTML_DATA
 )
 {
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -790,7 +790,7 @@ clipboardData
 }
 )
 ;
-let
+const
 onMutation
 =
 inspector

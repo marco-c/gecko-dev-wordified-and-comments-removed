@@ -1606,7 +1606,7 @@ hosts
 cookiesActor
 )
 {
-let
+const
 host
 =
 Object
@@ -1619,7 +1619,7 @@ hosts
 index
 ]
 ;
-let
+const
 matchItems
 =
 data
@@ -1633,7 +1633,7 @@ cookiesLength
 ;
 for
 (
-let
+const
 secureCookie
 of
 storeMap
@@ -1689,7 +1689,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -1704,7 +1704,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 storeMap
@@ -1995,7 +1995,7 @@ hosts
 localStorageActor
 )
 {
-let
+const
 host
 =
 Object
@@ -2008,7 +2008,7 @@ hosts
 index
 ]
 ;
-let
+const
 matchItems
 =
 data
@@ -2047,7 +2047,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -2062,7 +2062,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 storeMap
@@ -2274,7 +2274,7 @@ hosts
 sessionStorageActor
 )
 {
-let
+const
 host
 =
 Object
@@ -2287,7 +2287,7 @@ hosts
 index
 ]
 ;
-let
+const
 matchItems
 =
 data
@@ -2326,7 +2326,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -2341,7 +2341,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 storeMap
@@ -2536,7 +2536,7 @@ db
 ;
 for
 (
-let
+const
 host
 in
 indexedDBActor
@@ -2546,7 +2546,7 @@ hosts
 {
 for
 (
-let
+const
 item
 of
 indexedDBActor
@@ -2557,7 +2557,7 @@ host
 ]
 )
 {
-let
+const
 parsedItem
 =
 JSON
@@ -2574,7 +2574,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 IDBValues
@@ -2679,7 +2679,7 @@ hosts
 indexedDBActor
 )
 {
-let
+const
 host
 =
 Object
@@ -2692,7 +2692,7 @@ hosts
 index
 ]
 ;
-let
+const
 matchItems
 =
 data
@@ -2730,7 +2730,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -2745,7 +2745,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 IDBValues
@@ -2946,7 +2946,7 @@ hosts
 indexedDBActor
 )
 {
-let
+const
 host
 =
 Object
@@ -2959,7 +2959,7 @@ hosts
 ix
 ]
 ;
-let
+const
 matchItems
 =
 (
@@ -3003,7 +3003,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -3018,7 +3018,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 IDBValues
@@ -3134,7 +3134,7 @@ match
 ;
 for
 (
-let
+const
 index
 of
 item
@@ -3149,7 +3149,7 @@ false
 ;
 for
 (
-let
+const
 toMatchIndex
 of
 toMatch
@@ -3308,7 +3308,7 @@ host
 ;
 for
 (
-let
+const
 name
 of
 hosts
@@ -3317,7 +3317,7 @@ host
 ]
 )
 {
-let
+const
 objName
 =
 JSON
@@ -3402,7 +3402,7 @@ hosts
 indexedDBActor
 )
 {
-let
+const
 host
 =
 Object
@@ -3415,7 +3415,7 @@ hosts
 index
 ]
 ;
-let
+const
 matchItems
 =
 (
@@ -3459,7 +3459,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -3474,7 +3474,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 IDBValues
@@ -3524,7 +3524,7 @@ response
 "
 )
 ;
-let
+const
 value
 =
 JSON
@@ -3571,7 +3571,7 @@ matches
 ;
 for
 (
-let
+const
 key
 in
 value
@@ -3657,7 +3657,7 @@ host
 ;
 for
 (
-let
+const
 name
 of
 hosts
@@ -3666,7 +3666,7 @@ host
 ]
 )
 {
-let
+const
 parsed
 =
 JSON
@@ -3763,7 +3763,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -3776,7 +3776,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -3785,7 +3785,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 StorageFront
@@ -3794,7 +3794,7 @@ client
 form
 )
 ;
-let
+const
 data
 =
 await

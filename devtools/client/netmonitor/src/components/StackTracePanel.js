@@ -159,7 +159,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 request
 connector
@@ -188,7 +188,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 request
 connector
@@ -214,7 +214,7 @@ render
 (
 )
 {
-let
+const
 {
 connector
 openLink
@@ -226,7 +226,7 @@ this
 .
 props
 ;
-let
+const
 {
 stacktrace
 =

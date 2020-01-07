@@ -9,7 +9,7 @@ function
 (
 )
 {
-let
+const
 FrameUtils
 =
 require
@@ -31,7 +31,7 @@ utils
 "
 )
 ;
-let
+const
 isContent
 =
 (

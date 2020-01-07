@@ -161,7 +161,7 @@ event
 packet
 )
 {
-let
+const
 obj1
 =
 packet
@@ -182,7 +182,7 @@ obj1
 sealed
 )
 ;
-let
+const
 obj1Client
 =
 gThreadClient
@@ -201,7 +201,7 @@ obj1Client
 isSealed
 )
 ;
-let
+const
 obj2
 =
 packet
@@ -223,7 +223,7 @@ obj2
 sealed
 )
 ;
-let
+const
 obj2Client
 =
 gThreadClient
@@ -280,7 +280,7 @@ function
 (
 )
 {
-let
+const
 obj1
 =
 {

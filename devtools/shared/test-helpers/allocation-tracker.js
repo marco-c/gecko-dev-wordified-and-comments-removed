@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 {
 Cu
 }
@@ -15,7 +15,7 @@ chrome
 "
 )
 ;
-let
+const
 global
 =
 require
@@ -47,7 +47,7 @@ addDebuggerToGlobal
 global
 )
 ;
-let
+const
 {
 Debugger
 }
@@ -174,7 +174,7 @@ first
 }
 )
 {
-let
+const
 allocations
 =
 dbg
@@ -185,7 +185,7 @@ drainAllocationsLog
 (
 )
 ;
-let
+const
 sources
 =
 {
@@ -193,13 +193,13 @@ sources
 ;
 for
 (
-let
+const
 alloc
 of
 allocations
 )
 {
-let
+const
 {
 frame
 }
@@ -334,7 +334,7 @@ line
 ;
 }
 }
-let
+const
 allocationList
 =
 Object
@@ -391,7 +391,7 @@ item
 =
 >
 {
-let
+const
 lines
 =
 [
@@ -569,7 +569,7 @@ countAllocations
 (
 )
 {
-let
+const
 allocations
 =
 dbg

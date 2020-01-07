@@ -21,7 +21,7 @@ win
 =
 >
 {
-let
+const
 cmFrame
 =
 win
@@ -35,7 +35,7 @@ iframe
 "
 )
 ;
-let
+const
 cmStyle
 =
 cmFrame
@@ -570,7 +570,7 @@ gone
 "
 )
 ;
-let
+const
 size
 =
 ed

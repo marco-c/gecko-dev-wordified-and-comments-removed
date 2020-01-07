@@ -228,7 +228,7 @@ form
 (
 )
 {
-let
+const
 policy
 =
 ExtensionParent
@@ -367,7 +367,7 @@ this
 _childFormPromise
 ;
 }
-let
+const
 proxy
 =
 new

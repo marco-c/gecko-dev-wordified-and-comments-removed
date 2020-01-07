@@ -33,7 +33,7 @@ tab
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -81,7 +81,7 @@ selectedTab
 )
 )
 ;
-let
+const
 aboutDevtoolsTab
 =
 gBrowser
@@ -142,7 +142,7 @@ selectedTab
 )
 )
 ;
-let
+const
 aboutDevtoolsTabs
 =
 [

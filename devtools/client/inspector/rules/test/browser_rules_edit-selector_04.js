@@ -69,7 +69,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -166,7 +166,7 @@ icon
 "
 )
 ;
-let
+const
 icon
 =
 await
@@ -176,7 +176,7 @@ view
 name
 )
 ;
-let
+const
 onToggled
 =
 view
@@ -204,7 +204,7 @@ view
 styleWindow
 )
 ;
-let
+const
 isVisible
 =
 await
@@ -259,7 +259,7 @@ fields
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -284,7 +284,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -326,7 +326,7 @@ update
 "
 )
 ;
-let
+const
 onToggled
 =
 view
@@ -372,7 +372,7 @@ KEY_Enter
 "
 )
 ;
-let
+const
 isVisible
 =
 await

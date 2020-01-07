@@ -145,7 +145,7 @@ render
 (
 )
 {
-let
+const
 protocol
 =
 getFormattedProtocol

@@ -416,7 +416,7 @@ interval
 }
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -437,7 +437,7 @@ isRecording
 return
 ;
 }
-let
+const
 startTime
 =
 interval
@@ -447,7 +447,7 @@ startTime
 |
 0
 ;
-let
+const
 endTime
 =
 interval
@@ -461,7 +461,7 @@ getDuration
 (
 )
 ;
-let
+const
 markers
 =
 recording
@@ -470,7 +470,7 @@ getMarkers
 (
 )
 ;
-let
+const
 rootMarkerNode
 =
 this
@@ -509,7 +509,7 @@ event
 marker
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -518,7 +518,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 frames
 =
 recording
@@ -527,7 +527,7 @@ getFrames
 (
 )
 ;
-let
+const
 allocations
 =
 recording
@@ -697,7 +697,7 @@ startTime
 =
 0
 ;
-let
+const
 recording
 =
 PerformanceController
@@ -706,7 +706,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 markers
 =
 recording
@@ -727,7 +727,7 @@ null
 ;
 for
 (
-let
+const
 marker
 of
 markers
@@ -850,7 +850,7 @@ function
 markers
 )
 {
-let
+const
 cached
 =
 this
@@ -871,7 +871,7 @@ return
 cached
 ;
 }
-let
+const
 rootMarkerNode
 =
 WaterfallUtils
@@ -961,7 +961,7 @@ _recalculateBounds
 (
 )
 ;
-let
+const
 doc
 =
 this
@@ -970,7 +970,7 @@ treeContainer
 .
 ownerDocument
 ;
-let
+const
 startTime
 =
 interval
@@ -979,7 +979,7 @@ startTime
 |
 0
 ;
-let
+const
 endTime
 =
 interval
@@ -988,7 +988,7 @@ endTime
 |
 0
 ;
-let
+const
 dataScale
 =
 this
@@ -1016,7 +1016,7 @@ this
 waterfallWidth
 )
 ;
-let
+const
 treeView
 =
 Waterfall

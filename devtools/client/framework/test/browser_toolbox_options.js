@@ -107,7 +107,7 @@ registerNewTool
 (
 )
 ;
-let
+const
 tab
 =
 await
@@ -116,7 +116,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -190,7 +190,7 @@ registerNewTool
 (
 )
 {
-let
+const
 toolDefinition
 =
 {
@@ -374,7 +374,7 @@ registerNewPerToolboxTool
 (
 )
 {
-let
+const
 toolDefinition
 =
 {
@@ -595,7 +595,7 @@ selected
 "
 )
 ;
-let
+const
 onceSelected
 =
 toolbox
@@ -785,7 +785,7 @@ testOptions
 (
 )
 {
-let
+const
 tool
 =
 toolbox
@@ -803,7 +803,7 @@ tool
 .
 panelWin
 ;
-let
+const
 prefNodes
 =
 tool
@@ -829,7 +829,7 @@ pref
 ;
 for
 (
-let
+const
 node
 of
 tool
@@ -848,7 +848,7 @@ pref
 )
 )
 {
-let
+const
 pref
 =
 node
@@ -872,13 +872,13 @@ pref
 }
 for
 (
-let
+const
 node
 of
 prefNodes
 )
 {
-let
+const
 prefValue
 =
 GetPref
@@ -911,7 +911,7 @@ prefValue
 )
 ;
 }
-let
+const
 prefSelects
 =
 tool
@@ -932,7 +932,7 @@ pref
 ;
 for
 (
-let
+const
 node
 of
 prefSelects
@@ -953,7 +953,7 @@ testSelect
 select
 )
 {
-let
+const
 pref
 =
 select
@@ -967,7 +967,7 @@ pref
 "
 )
 ;
-let
+const
 options
 =
 Array
@@ -1017,7 +1017,7 @@ selected
 ;
 for
 (
-let
+const
 option
 of
 options
@@ -1042,7 +1042,7 @@ selectedIndex
 continue
 ;
 }
-let
+const
 observer
 =
 new
@@ -1054,7 +1054,7 @@ devtools
 "
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -1119,7 +1119,7 @@ indexOf
 option
 )
 ;
-let
+const
 changeEvent
 =
 new
@@ -1169,14 +1169,14 @@ node
 prefValue
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 observer
 =
 new
@@ -1188,7 +1188,7 @@ devtools
 "
 )
 ;
-let
+const
 pref
 =
 node
@@ -1324,7 +1324,7 @@ Set
 (
 )
 ;
-let
+const
 toggleableWebExtensions
 =
 toolbox
@@ -1363,7 +1363,7 @@ assertExpectedDisabledExtensions
 {
 for
 (
-let
+const
 ext
 of
 toggleableWebExtensions
@@ -1552,7 +1552,7 @@ getWebExtensionNodes
 (
 )
 {
-let
+const
 toolNodes
 =
 panelWin
@@ -1689,7 +1689,7 @@ registered
 ;
 for
 (
-let
+const
 ext
 of
 toggleableWebExtensions
@@ -1722,7 +1722,7 @@ enabled
 }
 for
 (
-let
+const
 ext
 of
 toggleableWebExtensions
@@ -1740,7 +1740,7 @@ pref
 }
 for
 (
-let
+const
 node
 of
 webExtensionNodes
@@ -1811,7 +1811,7 @@ assertAllExtensionsDisabled
 ;
 for
 (
-let
+const
 node
 of
 webExtensionNodes
@@ -1882,7 +1882,7 @@ assertAllExtensionsEnabled
 ;
 for
 (
-let
+const
 ext
 of
 toggleableWebExtensions
@@ -2101,7 +2101,7 @@ testToggleTools
 (
 )
 {
-let
+const
 toolNodes
 =
 panelWin
@@ -2159,7 +2159,7 @@ unsupported
 "
 )
 ;
-let
+const
 toolNodeIds
 =
 [
@@ -2179,7 +2179,7 @@ node
 id
 )
 ;
-let
+const
 enabledToolIds
 =
 [
@@ -2209,7 +2209,7 @@ node
 id
 )
 ;
-let
+const
 toggleableTools
 =
 gDevTools
@@ -2252,13 +2252,13 @@ getAdditionalTools
 ;
 for
 (
-let
+const
 node
 of
 toolNodes
 )
 {
-let
+const
 id
 =
 node
@@ -2304,13 +2304,13 @@ id
 }
 for
 (
-let
+const
 tool
 of
 toggleableTools
 )
 {
-let
+const
 pref
 =
 tool
@@ -2327,7 +2327,7 @@ pref
 }
 for
 (
-let
+const
 id
 of
 toolNodeIds
@@ -2345,7 +2345,7 @@ id
 }
 for
 (
-let
+const
 id
 of
 toolNodeIds
@@ -2363,7 +2363,7 @@ id
 }
 for
 (
-let
+const
 id
 of
 enabledToolIds
@@ -2381,7 +2381,7 @@ id
 }
 for
 (
-let
+const
 id
 of
 enabledToolIds
@@ -2397,7 +2397,7 @@ id
 )
 ;
 }
-let
+const
 firstToolId
 =
 toolNodeIds
@@ -2405,7 +2405,7 @@ toolNodeIds
 0
 ]
 ;
-let
+const
 middleToolId
 =
 toolNodeIds
@@ -2421,7 +2421,7 @@ length
 0
 ]
 ;
-let
+const
 lastToolId
 =
 toolNodeIds
@@ -2495,14 +2495,14 @@ toggleTool
 node
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 toolId
 =
 node
@@ -2693,7 +2693,7 @@ back
 "
 )
 ;
-let
+const
 button
 =
 await
@@ -2750,7 +2750,7 @@ GetPref
 name
 )
 {
-let
+const
 type
 =
 Services
@@ -2862,7 +2862,7 @@ if
 button
 )
 {
-let
+const
 menuPopup
 =
 await
@@ -2904,7 +2904,7 @@ popup
 "
 )
 ;
-let
+const
 onPopupHidden
 =
 once
@@ -2961,7 +2961,7 @@ removeCurrentTab
 ;
 for
 (
-let
+const
 pref
 of
 modifiedPrefs

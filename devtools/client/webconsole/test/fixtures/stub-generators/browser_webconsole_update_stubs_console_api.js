@@ -31,7 +31,7 @@ function
 (
 )
 {
-let
+const
 fileContent
 =
 await
@@ -39,7 +39,7 @@ generateConsoleApiStubs
 (
 )
 ;
-let
+const
 filePath
 =
 OS

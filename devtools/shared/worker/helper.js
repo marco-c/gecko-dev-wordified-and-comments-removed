@@ -137,7 +137,7 @@ function
 e
 )
 {
-let
+const
 {
 id
 task
@@ -148,7 +148,7 @@ e
 .
 data
 ;
-let
+const
 taskFn
 =
 self

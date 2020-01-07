@@ -31,7 +31,7 @@ Abc
 "
 }
 ;
-let
+const
 reducers
 =
 {
@@ -73,7 +73,7 @@ INITIAL_FONT_OPTIONS
 action
 )
 {
-let
+const
 reducer
 =
 reducers

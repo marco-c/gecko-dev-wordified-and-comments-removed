@@ -190,7 +190,7 @@ this
 .
 props
 ;
-let
+const
 {
 viewMode
 =

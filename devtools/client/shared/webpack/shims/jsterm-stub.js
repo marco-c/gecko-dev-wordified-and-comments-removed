@@ -305,7 +305,7 @@ executeString
 return
 ;
 }
-let
+const
 message
 =
 new
@@ -334,7 +334,7 @@ selectedNodeActor
 =
 null
 ;
-let
+const
 inspectorSelection
 =
 this
@@ -366,7 +366,7 @@ nodeFront
 actorID
 ;
 }
-let
+const
 onResult
 =
 (
@@ -426,7 +426,7 @@ resolve
 ;
 }
 ;
-let
+const
 options
 =
 {
@@ -512,7 +512,7 @@ frame
 )
 ;
 }
-let
+const
 evalOptions
 =
 {
@@ -536,7 +536,7 @@ options
 selectedObjectActor
 }
 ;
-let
+const
 onResponse
 =
 response
@@ -587,7 +587,7 @@ getFrameActor
 frame
 )
 {
-let
+const
 state
 =
 this

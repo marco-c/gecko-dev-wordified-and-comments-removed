@@ -26,7 +26,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -236,7 +236,7 @@ parentNode
 inspector
 )
 {
-let
+const
 btn
 =
 inspector
@@ -257,7 +257,7 @@ button
 "
 )
 ;
-let
+const
 parentContainer
 =
 inspector
@@ -318,7 +318,7 @@ container
 "
 )
 ;
-let
+const
 onMutation
 =
 inspector
@@ -330,7 +330,7 @@ markupmutation
 "
 )
 ;
-let
+const
 onNewContainer
 =
 inspector
@@ -417,7 +417,7 @@ only
 "
 )
 ;
-let
+const
 newNode
 =
 mutations
@@ -468,7 +468,7 @@ parent
 "
 )
 ;
-let
+const
 newNodeContainer
 =
 inspector
@@ -519,7 +519,7 @@ node
 inspector
 )
 {
-let
+const
 container
 =
 inspector

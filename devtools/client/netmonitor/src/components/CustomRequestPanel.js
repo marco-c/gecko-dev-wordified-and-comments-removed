@@ -339,7 +339,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 request
 connector
@@ -374,7 +374,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 request
 connector
@@ -409,7 +409,7 @@ namereg
 divider
 )
 {
-let
+const
 regex
 =
 new
@@ -435,7 +435,7 @@ s
 )
 )
 ;
-let
+const
 pairs
 =
 [
@@ -443,7 +443,7 @@ pairs
 ;
 for
 (
-let
+const
 line
 of
 text
@@ -457,7 +457,7 @@ n
 )
 )
 {
-let
+const
 matches
 =
 regex
@@ -472,7 +472,7 @@ if
 matches
 )
 {
-let
+const
 [
 name
 value
@@ -542,7 +542,7 @@ val
 "
 "
 ;
-let
+const
 headersArray
 =
 this
@@ -679,7 +679,7 @@ val
 "
 "
 ;
-let
+const
 queryArray
 =
 customQueryValue
@@ -702,7 +702,7 @@ customQueryValue
 [
 ]
 ;
-let
+const
 queryString
 =
 queryArray
@@ -733,7 +733,7 @@ join
 "
 )
 ;
-let
+const
 url
 =
 queryString
@@ -866,7 +866,7 @@ render
 (
 )
 {
-let
+const
 {
 removeSelectedCustomRequest
 request
@@ -881,7 +881,7 @@ this
 .
 props
 ;
-let
+const
 {
 method
 customQueryValue
@@ -921,7 +921,7 @@ headers
 )
 ;
 }
-let
+const
 queryArray
 =
 url
@@ -985,7 +985,7 @@ n
 "
 ;
 }
-let
+const
 postData
 =
 requestPostData

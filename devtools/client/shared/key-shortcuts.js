@@ -448,7 +448,7 @@ window
 str
 )
 {
-let
+const
 modifiers
 =
 str
@@ -469,7 +469,7 @@ pop
 (
 )
 ;
-let
+const
 shortcut
 =
 {
@@ -495,7 +495,7 @@ undefined
 ;
 for
 (
-let
+const
 mod
 of
 modifiers
@@ -805,7 +805,7 @@ function
 shortcut
 )
 {
-let
+const
 list
 =
 [
@@ -1024,7 +1024,7 @@ event
 shiftKey
 )
 {
-let
+const
 isAlphabetical
 =
 event
@@ -1049,7 +1049,7 @@ Z
 /
 )
 ;
-let
+const
 cmdShortcut
 =
 shortcut
@@ -1124,7 +1124,7 @@ shortcut
 key
 ;
 }
-let
+const
 key
 =
 event
@@ -1194,7 +1194,7 @@ event
 {
 for
 (
-let
+const
 [
 key
 shortcut
@@ -1283,7 +1283,7 @@ key
 )
 )
 {
-let
+const
 shortcut
 =
 KeyShortcuts

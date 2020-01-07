@@ -8,7 +8,7 @@ run_test
 (
 )
 {
-let
+const
 dbg
 =
 new
@@ -16,7 +16,7 @@ Debugger
 (
 )
 ;
-let
+const
 census0
 =
 saveHeapSnapshotAndTakeCensus
@@ -42,7 +42,7 @@ newGlobalWithDefs
 (
 )
 {
-let
+const
 g
 =
 newGlobal
@@ -100,7 +100,7 @@ return
 g
 ;
 }
-let
+const
 g
 =
 newGlobalWithDefs
@@ -209,7 +209,7 @@ times
 "
 )
 ;
-let
+const
 census1
 =
 dbg

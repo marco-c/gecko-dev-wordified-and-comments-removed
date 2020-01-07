@@ -1028,7 +1028,7 @@ _getPageStyle
 (
 )
 ;
-let
+const
 defaultSelection
 =
 await
@@ -1499,7 +1499,7 @@ if
 defaultSelection
 )
 {
-let
+const
 onAllPanelsUpdated
 =
 this
@@ -1713,7 +1713,7 @@ this
 _defaultNode
 ;
 }
-let
+const
 walker
 =
 this
@@ -1725,14 +1725,14 @@ rootNode
 =
 null
 ;
-let
+const
 pendingSelection
 =
 this
 .
 _pendingSelection
 ;
-let
+const
 hasNavigated
 =
 (
@@ -2093,7 +2093,7 @@ true
 }
 )
 ;
-let
+const
 shortcuts
 =
 new
@@ -2110,7 +2110,7 @@ defaultView
 }
 )
 ;
-let
+const
 key
 =
 INSPECTOR_L10N
@@ -2324,14 +2324,14 @@ _notificationBox
 return
 ;
 }
-let
+const
 notificationBox
 =
 this
 .
 notificationBox
 ;
-let
+const
 notification
 =
 this
@@ -2376,7 +2376,7 @@ threadClient
 paused
 )
 {
-let
+const
 message
 =
 INSPECTOR_L10N
@@ -2677,7 +2677,7 @@ return
 true
 ;
 }
-let
+const
 {
 clientWidth
 }
@@ -2731,7 +2731,7 @@ function
 (
 )
 {
-let
+const
 {
 width
 height
@@ -2744,7 +2744,7 @@ getSidebarSize
 (
 )
 ;
-let
+const
 splitter
 =
 this
@@ -3186,7 +3186,7 @@ function
 (
 )
 {
-let
+const
 state
 =
 this
@@ -3343,7 +3343,7 @@ function
 (
 )
 {
-let
+const
 {
 width
 height
@@ -4016,7 +4016,7 @@ setupSidebar
 (
 )
 {
-let
+const
 sidebar
 =
 this
@@ -4032,7 +4032,7 @@ sidebar
 "
 )
 ;
-let
+const
 options
 =
 {
@@ -4095,7 +4095,7 @@ inspector
 options
 )
 ;
-let
+const
 ruleSideBar
 =
 this
@@ -4197,14 +4197,14 @@ defaultTab
 }
 )
 ;
-let
+const
 layoutId
 =
 "
 layoutview
 "
 ;
-let
+const
 layoutTitle
 =
 INSPECTOR_L10N
@@ -4492,14 +4492,14 @@ animationinspector
 )
 ;
 }
-let
+const
 fontId
 =
 "
 fontinspector
 "
 ;
-let
+const
 fontTitle
 =
 INSPECTOR_L10N
@@ -4925,7 +4925,7 @@ supportsEyeDropper
 {
 try
 {
-let
+const
 hasSupportsHighlighters
 =
 await
@@ -4965,7 +4965,7 @@ supportsHighlighters
 }
 else
 {
-let
+const
 {
 nodeFront
 }
@@ -5064,7 +5064,7 @@ this
 addNode
 )
 ;
-let
+const
 canShowEyeDropper
 =
 await
@@ -5179,7 +5179,7 @@ onEyeDropperButtonClicked
 }
 else
 {
-let
+const
 eyeDropperButton
 =
 this
@@ -5326,7 +5326,7 @@ _destroyMarkup
 (
 )
 ;
-let
+const
 onNodeSelected
 =
 defaultNode
@@ -5431,7 +5431,7 @@ markup
 return
 ;
 }
-let
+const
 onExpand
 =
 this
@@ -5527,7 +5527,7 @@ inspector
 "
 )
 {
-let
+const
 delay
 =
 this
@@ -5544,14 +5544,14 @@ this
 .
 _newRootStart
 ;
-let
+const
 telemetryKey
 =
 "
 DEVTOOLS_INSPECTOR_NEW_ROOT_TO_RELOAD_DELAY_MS
 "
 ;
-let
+const
 histogram
 =
 this
@@ -5662,14 +5662,14 @@ function
 (
 )
 {
-let
+const
 selection
 =
 this
 .
 selection
 ;
-let
+const
 invalidTagNames
 =
 [
@@ -5777,7 +5777,7 @@ destroy
 return
 ;
 }
-let
+const
 selection
 =
 this
@@ -5786,7 +5786,7 @@ selection
 .
 nodeFront
 ;
-let
+const
 btn
 =
 this
@@ -5877,7 +5877,7 @@ _handleRejectionIfNotDestroyed
 )
 ;
 }
-let
+const
 selfUpdate
 =
 this
@@ -5966,7 +5966,7 @@ this
 _updateProgress
 )
 {
-let
+const
 self
 =
 this
@@ -6079,14 +6079,14 @@ name
 }
 ;
 }
-let
+const
 progress
 =
 this
 .
 _updateProgress
 ;
-let
+const
 done
 =
 function
@@ -6159,7 +6159,7 @@ parentNode
 )
 )
 ;
-let
+const
 nodeFront
 =
 parentNode
@@ -6354,7 +6354,7 @@ _updateDebuggerPausedWarning
 ;
 for
 (
-let
+const
 [
 panel
 ]
@@ -6487,7 +6487,7 @@ _search
 null
 ;
 }
-let
+const
 cssPropertiesDestroyer
 =
 this
@@ -6500,7 +6500,7 @@ destroy
 (
 )
 ;
-let
+const
 sidebarDestroyer
 =
 this
@@ -6511,7 +6511,7 @@ destroy
 (
 )
 ;
-let
+const
 ruleViewSideBarDestroyer
 =
 this
@@ -6528,7 +6528,7 @@ destroy
 :
 null
 ;
-let
+const
 markupDestroyer
 =
 this
@@ -6693,7 +6693,7 @@ function
 (
 )
 {
-let
+const
 content
 =
 clipboardHelper
@@ -6865,7 +6865,7 @@ return
 null
 ;
 }
-let
+const
 markupContainer
 =
 this
@@ -6903,7 +6903,7 @@ getInfoAtNode
 target
 )
 ;
-let
+const
 isSelectionElement
 =
 this
@@ -6924,7 +6924,7 @@ isPseudoElementNode
 (
 )
 ;
-let
+const
 isEditableElement
 =
 isSelectionElement
@@ -6939,7 +6939,7 @@ isAnonymousNode
 (
 )
 ;
-let
+const
 isDuplicatableElement
 =
 isSelectionElement
@@ -6964,7 +6964,7 @@ isRoot
 (
 )
 ;
-let
+const
 isScreenshotable
 =
 isSelectionElement
@@ -6978,7 +6978,7 @@ nodeFront
 .
 isTreeDisplayed
 ;
-let
+const
 menu
 =
 new
@@ -7290,7 +7290,7 @@ separator
 ;
 for
 (
-let
+const
 name
 of
 [
@@ -7306,7 +7306,7 @@ focus
 ]
 )
 {
-let
+const
 menuitem
 =
 new
@@ -7356,7 +7356,7 @@ if
 isSelectionElement
 )
 {
-let
+const
 checked
 =
 this
@@ -7497,7 +7497,7 @@ separator
 )
 )
 ;
-let
+const
 isNodeWithChildren
 =
 this
@@ -7842,7 +7842,7 @@ buildA11YMenuItem
 menu
 )
 ;
-let
+const
 nodeLinkMenuItems
 =
 this
@@ -7901,7 +7901,7 @@ separator
 }
 for
 (
-let
+const
 menuitem
 of
 nodeLinkMenuItems
@@ -8141,7 +8141,7 @@ markupContainer
 isSelectionElement
 )
 {
-let
+const
 copySubmenu
 =
 new
@@ -8532,7 +8532,7 @@ function
 isEditableElement
 )
 {
-let
+const
 isPasteable
 =
 isEditableElement
@@ -8544,7 +8544,7 @@ _getClipboardContentForPaste
 (
 )
 ;
-let
+const
 disableAdjacentPaste
 =
 !
@@ -8577,7 +8577,7 @@ isHeadNode
 (
 )
 ;
-let
+const
 disableFirstLastPaste
 =
 !
@@ -8603,7 +8603,7 @@ isRoot
 )
 )
 ;
-let
+const
 pasteSubmenu
 =
 new
@@ -8990,7 +8990,7 @@ function
 isEditableElement
 )
 {
-let
+const
 attributesSubmenu
 =
 new
@@ -8998,14 +8998,14 @@ Menu
 (
 )
 ;
-let
+const
 nodeInfo
 =
 this
 .
 nodeMenuTriggerInfo
 ;
-let
+const
 isAttributeClicked
 =
 isEditableElement
@@ -9312,7 +9312,7 @@ function
 (
 )
 {
-let
+const
 linkFollow
 =
 new
@@ -9347,7 +9347,7 @@ onFollowLink
 }
 )
 ;
-let
+const
 linkCopy
 =
 new
@@ -9382,7 +9382,7 @@ onCopyLink
 }
 )
 ;
-let
+const
 popupNode
 =
 this
@@ -9415,7 +9415,7 @@ linkCopy
 ]
 ;
 }
-let
+const
 type
 =
 popupNode
@@ -9654,7 +9654,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -10313,7 +10313,7 @@ canAddHTMLChild
 return
 ;
 }
-let
+const
 html
 =
 "
@@ -10326,7 +10326,7 @@ div
 >
 "
 ;
-let
+const
 onMutations
 =
 this
@@ -10391,7 +10391,7 @@ isElementNode
 )
 )
 {
-let
+const
 node
 =
 this
@@ -10427,7 +10427,7 @@ true
 )
 ;
 }
-let
+const
 hierarchical
 =
 pseudo
@@ -10493,7 +10493,7 @@ then
 =
 >
 {
-let
+const
 panel
 =
 this
@@ -10507,7 +10507,7 @@ webconsole
 "
 )
 ;
-let
+const
 jsterm
 =
 panel
@@ -10543,7 +10543,7 @@ showAccessibilityProperties
 (
 )
 {
-let
+const
 a11yPanel
 =
 await
@@ -10558,7 +10558,7 @@ accessibility
 "
 )
 ;
-let
+const
 onSelected
 =
 a11yPanel
@@ -10619,7 +10619,7 @@ then
 =
 >
 {
-let
+const
 panel
 =
 this
@@ -10633,7 +10633,7 @@ webconsole
 "
 )
 ;
-let
+const
 jsterm
 =
 panel
@@ -10642,7 +10642,7 @@ hud
 .
 jsterm
 ;
-let
+const
 evalString
 =
 {
@@ -10694,7 +10694,7 @@ i
 ;
 }
 ;
-let
+const
 options
 =
 {
@@ -10803,7 +10803,7 @@ function
 (
 )
 {
-let
+const
 content
 =
 this
@@ -10833,7 +10833,7 @@ paste
 )
 ;
 }
-let
+const
 node
 =
 this
@@ -10879,7 +10879,7 @@ function
 (
 )
 {
-let
+const
 content
 =
 this
@@ -10909,7 +10909,7 @@ paste
 )
 ;
 }
-let
+const
 node
 =
 this
@@ -10956,7 +10956,7 @@ function
 position
 )
 {
-let
+const
 content
 =
 this
@@ -10986,7 +10986,7 @@ paste
 )
 ;
 }
-let
+const
 node
 =
 this
@@ -11069,7 +11069,7 @@ isNode
 return
 ;
 }
-let
+const
 node
 =
 this
@@ -11177,7 +11177,7 @@ function
 (
 )
 {
-let
+const
 container
 =
 this
@@ -11653,7 +11653,7 @@ function
 (
 )
 {
-let
+const
 selection
 =
 this
@@ -11787,7 +11787,7 @@ function
 (
 )
 {
-let
+const
 container
 =
 this
@@ -11834,7 +11834,7 @@ function
 (
 )
 {
-let
+const
 container
 =
 this
@@ -11868,7 +11868,7 @@ function
 (
 )
 {
-let
+const
 container
 =
 this
@@ -11942,7 +11942,7 @@ function
 (
 )
 {
-let
+const
 type
 =
 this
@@ -11953,7 +11953,7 @@ dataset
 .
 type
 ;
-let
+const
 link
 =
 this
@@ -12054,7 +12054,7 @@ uri
 "
 )
 {
-let
+const
 browserWin
 =
 this
@@ -12248,7 +12248,7 @@ function
 (
 )
 {
-let
+const
 link
 =
 this
@@ -12335,7 +12335,7 @@ nodeFront
 options
 )
 {
-let
+const
 toolbox
 =
 this
@@ -12439,7 +12439,7 @@ return
 false
 ;
 }
-let
+const
 isAttached
 =
 await

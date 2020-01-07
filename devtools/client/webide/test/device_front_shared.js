@@ -63,7 +63,7 @@ id
 {
 for
 (
-let
+const
 field
 of
 fields
@@ -79,7 +79,7 @@ id
 id
 )
 {
-let
+const
 button
 =
 doc
@@ -305,7 +305,7 @@ click
 (
 )
 ;
-let
+const
 newField
 =
 doc
@@ -441,7 +441,7 @@ value
 test
 "
 ;
-let
+const
 newAddField
 =
 doc
@@ -458,7 +458,7 @@ field
 "
 )
 ;
-let
+const
 enter
 =
 doc
@@ -828,7 +828,7 @@ correct
 "
 )
 ;
-let
+const
 resetBtn
 =
 doc
@@ -870,7 +870,7 @@ catch
 err
 )
 {
-let
+const
 fieldRow
 =
 doc
@@ -923,7 +923,7 @@ function
 id
 )
 {
-let
+const
 existing
 =
 doc
@@ -1027,7 +1027,7 @@ function
 id
 )
 {
-let
+const
 custom
 =
 doc
@@ -1230,7 +1230,7 @@ line
 "
 )
 ;
-let
+const
 mouseClick
 =
 new
@@ -1413,7 +1413,7 @@ deck
 keyword
 )
 {
-let
+const
 searchField
 =
 doc
@@ -1446,7 +1446,7 @@ click
 (
 )
 ;
-let
+const
 fieldsTotal
 =
 doc

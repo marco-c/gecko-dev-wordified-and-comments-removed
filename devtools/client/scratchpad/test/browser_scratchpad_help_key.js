@@ -69,7 +69,7 @@ runTest
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
@@ -106,7 +106,7 @@ focus
 "
 )
 ;
-let
+const
 keyid
 =
 gScratchpadWindow
@@ -120,7 +120,7 @@ key_openHelp
 "
 )
 ;
-let
+const
 modifiers
 =
 keyid

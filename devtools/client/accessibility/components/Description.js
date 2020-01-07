@@ -380,7 +380,7 @@ onEnable
 (
 )
 {
-let
+const
 {
 accessibility
 dispatch
@@ -482,7 +482,7 @@ render
 (
 )
 {
-let
+const
 {
 canBeEnabled
 }
@@ -491,7 +491,7 @@ this
 .
 props
 ;
-let
+const
 {
 enabling
 }
@@ -500,7 +500,7 @@ this
 .
 state
 ;
-let
+const
 enableButtonStr
 =
 enabling

@@ -58,7 +58,7 @@ length
 return
 ;
 }
-let
+const
 menu
 =
 new
@@ -97,7 +97,7 @@ separator
 }
 ;
 }
-let
+const
 menuItem
 =
 new
@@ -106,7 +106,7 @@ MenuItem
 item
 )
 ;
-let
+const
 subItems
 =
 item
@@ -118,7 +118,7 @@ if
 subItems
 )
 {
-let
+const
 subMenu
 =
 new

@@ -51,7 +51,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -64,7 +64,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -73,7 +73,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 TimelineFront

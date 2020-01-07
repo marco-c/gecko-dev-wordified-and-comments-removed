@@ -46,7 +46,7 @@ function
 (
 )
 {
-let
+const
 browser
 =
 await
@@ -65,7 +65,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -78,7 +78,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -87,7 +87,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 TimelineFront
@@ -96,7 +96,7 @@ client
 form
 )
 ;
-let
+const
 rec
 =
 await

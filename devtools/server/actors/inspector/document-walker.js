@@ -289,7 +289,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -353,7 +353,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -417,7 +417,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -573,7 +573,7 @@ node
 skipTo
 )
 {
-let
+const
 startingNode
 =
 node

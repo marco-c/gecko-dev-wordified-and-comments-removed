@@ -743,7 +743,7 @@ devtools
 }
 )
 ;
-let
+const
 {
 modules
 globals
@@ -777,7 +777,7 @@ modules
 promise
 ;
 }
-let
+const
 loader
 =
 this
@@ -788,13 +788,13 @@ loader
 ;
 for
 (
-let
+const
 id
 in
 modules
 )
 {
-let
+const
 uri
 =
 resolveURI

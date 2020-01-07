@@ -170,17 +170,17 @@ LINE_TO_SELECT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 DOCUMENT_WITH_LONG_SHEET
@@ -202,7 +202,7 @@ present
 "
 )
 ;
-let
+const
 simpleEditor
 =
 ui
@@ -212,7 +212,7 @@ editors
 0
 ]
 ;
-let
+const
 longEditor
 =
 ui
@@ -246,7 +246,7 @@ longEditor
 ui
 )
 ;
-yield
+await
 ui
 .
 selectStyleSheet
@@ -257,7 +257,7 @@ styleSheet
 LINE_TO_SELECT
 )
 ;
-yield
+await
 selectEventPromise
 ;
 info
@@ -276,7 +276,7 @@ load
 "
 )
 ;
-let
+const
 {
 from
 to
@@ -343,7 +343,7 @@ little
 "
 )
 ;
-let
+const
 initialScrollTop
 =
 longEditor
@@ -385,7 +385,7 @@ css
 "
 )
 ;
-yield
+await
 ui
 .
 selectStyleSheet
@@ -415,10 +415,10 @@ longEditor
 ui
 )
 ;
-let
+const
 summary
 =
-yield
+await
 ui
 .
 getEditorSummary
@@ -449,10 +449,10 @@ selected
 "
 )
 ;
-yield
+await
 selectEventPromise
 ;
-let
+const
 scrollTop
 =
 longEditor
@@ -490,12 +490,8 @@ again
 var
 waitForEditorToBeSelected
 =
-Task
-.
 async
-(
 function
-*
 (
 editor
 ui
@@ -519,7 +515,7 @@ selected
 let
 selected
 =
-yield
+await
 ui
 .
 once
@@ -557,7 +553,7 @@ friendlyName
 ;
 selected
 =
-yield
+await
 ui
 .
 once
@@ -586,5 +582,4 @@ friendlyName
 )
 ;
 }
-)
 ;

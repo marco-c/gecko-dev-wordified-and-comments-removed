@@ -330,7 +330,7 @@ totalTime
 undefined
 )
 {
-let
+const
 statusCodeDocURL
 =
 getHTTPStatusCodeURL
@@ -580,7 +580,7 @@ requestUrl
 statusBody
 ]
 ;
-let
+const
 connector
 =
 {

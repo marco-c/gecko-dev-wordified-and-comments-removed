@@ -336,7 +336,7 @@ function
 id
 )
 {
-let
+const
 front
 =
 this
@@ -505,7 +505,7 @@ options
 }
 )
 {
-let
+const
 actorID
 =
 node
@@ -823,7 +823,7 @@ nodeList
 let
 searchType
 ;
-let
+const
 searchData
 =
 this
@@ -838,7 +838,7 @@ searchData
 {
 }
 ;
-let
+const
 selectorOnly
 =
 !
@@ -877,7 +877,7 @@ searchType
 search
 "
 ;
-let
+const
 result
 =
 await
@@ -1007,7 +1007,7 @@ length
 1
 ;
 }
-let
+const
 node
 =
 await
@@ -1106,7 +1106,7 @@ node
 }
 for
 (
-let
+const
 child
 of
 node
@@ -1165,7 +1165,7 @@ mutations
 =
 >
 {
-let
+const
 emitMutations
 =
 [
@@ -1173,7 +1173,7 @@ emitMutations
 ;
 for
 (
-let
+const
 change
 of
 mutations
@@ -1324,7 +1324,7 @@ trace
 continue
 ;
 }
-let
+const
 emittedMutation
 =
 Object
@@ -1363,13 +1363,13 @@ nativeAnonymousChildList
 "
 )
 {
-let
+const
 addedFronts
 =
 [
 ]
 ;
-let
+const
 removedFronts
 =
 [
@@ -1377,7 +1377,7 @@ removedFronts
 ;
 for
 (
-let
+const
 removed
 of
 change
@@ -1385,7 +1385,7 @@ change
 removed
 )
 {
-let
+const
 removedFront
 =
 this
@@ -1453,7 +1453,7 @@ removedFront
 }
 for
 (
-let
+const
 added
 of
 change
@@ -1461,7 +1461,7 @@ change
 added
 )
 {
-let
+const
 addedFront
 =
 this
@@ -1579,7 +1579,7 @@ frameLoad
 {
 for
 (
-let
+const
 child
 of
 targetFront
@@ -1715,7 +1715,7 @@ unretained
 {
 for
 (
-let
+const
 released
 of
 change
@@ -1723,7 +1723,7 @@ change
 nodes
 )
 {
-let
+const
 releasedFront
 =
 this
@@ -1853,7 +1853,7 @@ cleanup
 {
 for
 (
-let
+const
 node
 of
 this
@@ -1967,7 +1967,7 @@ function
 node
 )
 {
-let
+const
 previousSibling
 =
 await
@@ -1978,7 +1978,7 @@ previousSibling
 node
 )
 ;
-let
+const
 nextSibling
 =
 await

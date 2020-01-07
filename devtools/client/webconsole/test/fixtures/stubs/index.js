@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 maps
 =
 [

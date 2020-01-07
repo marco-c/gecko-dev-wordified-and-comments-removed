@@ -40,7 +40,7 @@ true
 }
 ]
 ;
-let
+const
 {
 tab
 monitor
@@ -52,7 +52,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -63,7 +63,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -83,7 +83,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -138,7 +138,7 @@ HSTS_SJS
 await
 wait
 ;
-let
+const
 requests
 =
 getSortedRequests
@@ -205,7 +205,7 @@ i
 =
 >
 {
-let
+const
 item
 =
 getSortedRequests
@@ -239,14 +239,14 @@ expected
 status
 )
 ;
-let
+const
 {
 stacktrace
 }
 =
 item
 ;
-let
+const
 stackLen
 =
 stacktrace

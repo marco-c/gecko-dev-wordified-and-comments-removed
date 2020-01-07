@@ -299,7 +299,7 @@ prevAccessible
 }
 )
 {
-let
+const
 {
 accessible
 object
@@ -361,7 +361,7 @@ flashRow
 (
 )
 {
-let
+const
 row
 =
 findDOMNode
@@ -579,7 +579,7 @@ accessible
 }
 )
 {
-let
+const
 oldAccessible
 =
 this
@@ -672,7 +672,7 @@ this
 onAccessibleInspected
 )
 ;
-let
+const
 {
 accessible
 }
@@ -710,7 +710,7 @@ onAccessibleInspected
 (
 )
 {
-let
+const
 {
 props
 }
@@ -740,7 +740,7 @@ update
 (
 )
 {
-let
+const
 {
 dispatch
 accessible
@@ -1073,7 +1073,7 @@ item
 .
 contents
 ;
-let
+const
 valueProps
 =
 {
@@ -1162,7 +1162,7 @@ DOMNode
 )
 ;
 }
-let
+const
 classList
 =
 [
@@ -1571,7 +1571,7 @@ items
 {
 for
 (
-let
+const
 item
 of
 items
@@ -1592,7 +1592,7 @@ return
 item
 ;
 }
-let
+const
 found
 =
 findFocused
@@ -1644,7 +1644,7 @@ nodeFront
 =
 >
 {
-let
+const
 {
 attributes
 actorID
@@ -1655,7 +1655,7 @@ nodeType
 =
 nodeFront
 ;
-let
+const
 attributesMap
 =
 {
@@ -1663,7 +1663,7 @@ attributesMap
 ;
 for
 (
-let
+const
 {
 name
 value
@@ -1741,7 +1741,7 @@ children
 [
 ]
 ;
-let
+const
 path
 =
 {
@@ -1906,7 +1906,7 @@ details
 =
 >
 {
-let
+const
 {
 accessible
 DOMNode
@@ -1929,7 +1929,7 @@ return
 }
 ;
 }
-let
+const
 items
 =
 makeItemsForDetails
@@ -1976,7 +1976,7 @@ props
 "
 )
 ;
-let
+const
 parents
 =
 makeParentMap

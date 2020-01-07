@@ -88,7 +88,7 @@ persisted
 "
 )
 ;
-let
+const
 hud
 =
 await
@@ -228,7 +228,7 @@ persisted
 "
 )
 ;
-let
+const
 hud
 =
 await

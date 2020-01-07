@@ -90,7 +90,7 @@ clearOutput
 ;
 for
 (
-let
+const
 command
 of
 COMMANDS
@@ -331,7 +331,7 @@ empty
 "
 )
 ;
-let
+const
 idxLast
 =
 COMMANDS

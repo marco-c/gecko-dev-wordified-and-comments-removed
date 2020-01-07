@@ -113,7 +113,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -142,7 +142,7 @@ inspector
 TEST_URL_2
 )
 ;
-let
+const
 documentURI
 =
 await
@@ -178,7 +178,7 @@ correct
 "
 )
 ;
-let
+const
 hasPage
 =
 await
@@ -215,7 +215,7 @@ node
 "
 )
 ;
-let
+const
 hasNetErrorNode
 =
 await
@@ -245,7 +245,7 @@ node
 "
 )
 ;
-let
+const
 bundle
 =
 Services

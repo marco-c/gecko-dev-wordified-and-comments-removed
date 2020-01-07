@@ -72,7 +72,7 @@ visibilityHandlerConnect
 (
 )
 {
-let
+const
 args
 =
 [

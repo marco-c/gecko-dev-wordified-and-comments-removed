@@ -183,7 +183,7 @@ openNewTabAndApplicationPanel
 url
 )
 {
-let
+const
 tab
 =
 await
@@ -192,7 +192,7 @@ addTab
 url
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -209,7 +209,7 @@ makeRemote
 (
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -223,7 +223,7 @@ application
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -321,7 +321,7 @@ workers
 ;
 for
 (
-let
+const
 worker
 of
 workers

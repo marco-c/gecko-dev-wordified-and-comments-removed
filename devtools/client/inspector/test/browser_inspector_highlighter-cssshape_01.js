@@ -97,7 +97,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -109,14 +109,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -160,7 +160,7 @@ testActor
 highlighterFront
 )
 {
-let
+const
 hidden
 =
 {
@@ -168,7 +168,7 @@ hidden
 ;
 for
 (
-let
+const
 shape
 of
 SHAPE_IDS
@@ -222,7 +222,7 @@ default
 "
 )
 ;
-let
+const
 polygonHidden
 =
 await
@@ -241,7 +241,7 @@ hidden
 highlighterFront
 )
 ;
-let
+const
 ellipseHidden
 =
 await
@@ -288,7 +288,7 @@ highlighterFront
 {
 for
 (
-let
+const
 {
 shapeName
 highlighter
@@ -312,7 +312,7 @@ shapeName
 node
 )
 ;
-let
+const
 node
 =
 await
@@ -340,7 +340,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 hidden
 =
 await
@@ -383,7 +383,7 @@ hide
 (
 )
 ;
-let
+const
 hidden
 =
 await

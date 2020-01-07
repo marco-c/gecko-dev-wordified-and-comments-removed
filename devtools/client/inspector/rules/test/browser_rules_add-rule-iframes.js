@@ -115,7 +115,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -159,7 +159,7 @@ red
 "
 )
 ;
-let
+const
 innerFrameDiv1
 =
 await
@@ -206,7 +206,7 @@ blue
 "
 )
 ;
-let
+const
 innerFrameDiv2
 =
 await
@@ -266,7 +266,7 @@ name
 value
 )
 {
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -292,7 +292,7 @@ value
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -320,7 +320,7 @@ true
 await
 onRuleViewChanged
 ;
-let
+const
 textProps
 =
 idRuleEditor
@@ -329,7 +329,7 @@ rule
 .
 textProps
 ;
-let
+const
 lastProperty
 =
 textProps

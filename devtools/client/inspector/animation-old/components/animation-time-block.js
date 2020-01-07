@@ -998,7 +998,7 @@ function
 state
 )
 {
-let
+const
 getTime
 =
 time
@@ -1236,7 +1236,7 @@ iterationStart
 0
 )
 {
-let
+const
 iterationStartTime
 =
 state
@@ -1698,7 +1698,7 @@ MIN_KEYFRAMES_EASING_OPACITY
 ;
 for
 (
-let
+const
 keyframes
 of
 keyframesList

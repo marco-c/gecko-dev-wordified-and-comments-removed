@@ -91,7 +91,7 @@ count
 }
 )
 {
-let
+const
 slice
 =
 new
@@ -278,7 +278,7 @@ grip
 )
 ;
 }
-let
+const
 actor
 =
 new

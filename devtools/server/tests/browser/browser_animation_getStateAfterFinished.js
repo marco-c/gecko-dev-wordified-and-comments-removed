@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -40,7 +40,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await

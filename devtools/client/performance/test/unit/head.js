@@ -93,7 +93,7 @@ foundNode
 ;
 for
 (
-let
+const
 key
 of
 path
@@ -175,7 +175,7 @@ root
 }
 )
 ;
-let
+const
 uniqueStacks
 =
 new

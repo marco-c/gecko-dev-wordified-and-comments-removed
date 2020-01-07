@@ -972,7 +972,7 @@ db
 }
 ;
 }
-let
+const
 missingSupports
 =
 !
@@ -984,7 +984,7 @@ color
 .
 supports
 ;
-let
+const
 missingValues
 =
 !
@@ -996,7 +996,7 @@ color
 .
 values
 ;
-let
+const
 missingSubproperties
 =
 !
@@ -1008,7 +1008,7 @@ background
 .
 subproperties
 ;
-let
+const
 missingIsInherited
 =
 !
@@ -1020,7 +1020,7 @@ font
 .
 isInherited
 ;
-let
+const
 missingSomething
 =
 missingSupports
@@ -1041,7 +1041,7 @@ missingSomething
 {
 for
 (
-let
+const
 name
 in
 db
@@ -1231,7 +1231,7 @@ cssColors
 ;
 for
 (
-let
+const
 name
 in
 db

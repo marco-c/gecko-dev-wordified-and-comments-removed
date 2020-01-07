@@ -180,7 +180,7 @@ render
 (
 )
 {
-let
+const
 {
 item
 :
@@ -233,7 +233,7 @@ wantThrobber
 !
 statusText
 ;
-let
+const
 title
 =
 getSnapshotTitle
@@ -405,7 +405,7 @@ if
 selectedForDiffing
 )
 {
-let
+const
 census
 =
 getSavedCensus
@@ -418,7 +418,7 @@ if
 census
 )
 {
-let
+const
 {
 bytes
 }
@@ -428,7 +428,7 @@ getSnapshotTotals
 census
 )
 ;
-let
+const
 formatBytes
 =
 L10N
@@ -510,7 +510,7 @@ statusText
 )
 ;
 }
-let
+const
 saveLink
 =
 !
@@ -556,7 +556,7 @@ save
 )
 )
 ;
-let
+const
 deleteButton
 =
 !

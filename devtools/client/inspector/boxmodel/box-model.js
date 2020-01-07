@@ -596,7 +596,7 @@ reason
 )
 ;
 }
-let
+const
 lastRequest
 =
 (
@@ -650,7 +650,7 @@ return
 null
 ;
 }
-let
+const
 node
 =
 this
@@ -681,7 +681,7 @@ true
 }
 )
 ;
-let
+const
 styleEntries
 =
 await
@@ -717,7 +717,7 @@ e
 rule
 )
 ;
-let
+const
 isPositionEditable
 =
 await
@@ -771,7 +771,7 @@ if
 actorCanGetOffSetParent
 )
 {
-let
+const
 offsetParent
 =
 await
@@ -901,7 +901,7 @@ inspector
 return
 ;
 }
-let
+const
 toolbox
 =
 this
@@ -923,7 +923,7 @@ onHideGeometryEditor
 (
 )
 {
-let
+const
 {
 markup
 selection
@@ -1015,7 +1015,7 @@ onMarkupViewLeave
 (
 )
 {
-let
+const
 state
 =
 this
@@ -1026,7 +1026,7 @@ getState
 (
 )
 ;
-let
+const
 enabled
 =
 state
@@ -1044,7 +1044,7 @@ enabled
 return
 ;
 }
-let
+const
 nodeFront
 =
 this
@@ -1145,7 +1145,7 @@ event
 property
 )
 {
-let
+const
 session
 =
 new
@@ -1170,7 +1170,7 @@ elementRules
 }
 )
 ;
-let
+const
 initialValue
 =
 session
@@ -1180,7 +1180,7 @@ getProperty
 property
 )
 ;
-let
+const
 editor
 =
 new
@@ -1255,7 +1255,7 @@ px
 "
 ;
 }
-let
+const
 properties
 =
 [
@@ -1286,7 +1286,7 @@ border
 "
 )
 {
-let
+const
 bprop
 =
 property
@@ -1305,7 +1305,7 @@ length
 style
 "
 ;
-let
+const
 style
 =
 session
@@ -1510,7 +1510,7 @@ inspector
 return
 ;
 }
-let
+const
 toolbox
 =
 this
@@ -1519,7 +1519,7 @@ inspector
 .
 toolbox
 ;
-let
+const
 nodeFront
 =
 this
@@ -1606,7 +1606,7 @@ onToggleGeometryEditor
 (
 )
 {
-let
+const
 {
 markup
 selection
@@ -1617,7 +1617,7 @@ this
 .
 inspector
 ;
-let
+const
 nodeFront
 =
 this
@@ -1628,7 +1628,7 @@ selection
 .
 nodeFront
 ;
-let
+const
 state
 =
 this
@@ -1639,7 +1639,7 @@ getState
 (
 )
 ;
-let
+const
 enabled
 =
 !

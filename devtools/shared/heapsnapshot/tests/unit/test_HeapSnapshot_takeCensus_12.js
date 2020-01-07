@@ -170,7 +170,7 @@ keys
 ;
 for
 (
-let
+const
 k
 of
 Object
@@ -203,7 +203,7 @@ names
 }
 for
 (
-let
+const
 key
 of
 Object
@@ -243,7 +243,7 @@ equal
 ;
 for
 (
-let
+const
 id
 of
 byClassName

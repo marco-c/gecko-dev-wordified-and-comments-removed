@@ -201,7 +201,7 @@ args
 context
 )
 {
-let
+const
 target
 =
 context
@@ -210,7 +210,7 @@ environment
 .
 target
 ;
-let
+const
 toolboxOpened
 =
 gDevTools
@@ -233,7 +233,7 @@ function
 toolbox
 )
 {
-let
+const
 styleEditor
 =
 toolbox

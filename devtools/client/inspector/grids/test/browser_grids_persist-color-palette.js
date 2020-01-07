@@ -97,7 +97,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -109,7 +109,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -118,14 +118,14 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 store
 }
 =
 inspector
 ;
-let
+const
 cPicker
 =
 gridInspector
@@ -134,7 +134,7 @@ getSwatchColorPickerTooltip
 (
 )
 ;
-let
+const
 swatch
 =
 doc
@@ -192,7 +192,7 @@ swatch
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker

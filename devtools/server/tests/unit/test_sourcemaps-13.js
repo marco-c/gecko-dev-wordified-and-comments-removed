@@ -160,7 +160,7 @@ setup_code
 (
 )
 {
-let
+const
 node
 =
 new
@@ -342,7 +342,7 @@ setup_new_code
 (
 )
 {
-let
+const
 node
 =
 new
@@ -496,7 +496,7 @@ length
 1
 )
 ;
-let
+const
 s
 =
 sources

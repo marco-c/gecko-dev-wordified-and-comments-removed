@@ -108,7 +108,7 @@ event
 packet
 )
 {
-let
+const
 env
 =
 packet
@@ -125,7 +125,7 @@ env
 undefined
 )
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -215,7 +215,7 @@ value
 actor
 )
 ;
-let
+const
 parentEnv
 =
 env
@@ -232,7 +232,7 @@ parentEnv
 undefined
 )
 ;
-let
+const
 parentClient
 =
 gThreadClient

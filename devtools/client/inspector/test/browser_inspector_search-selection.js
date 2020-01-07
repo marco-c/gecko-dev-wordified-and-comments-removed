@@ -43,7 +43,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -84,7 +84,7 @@ search
 "
 )
 ;
-let
+const
 processingDone
 =
 once
@@ -387,7 +387,7 @@ p1
 }
 )
 ;
-let
+const
 sendKeyAndCheck
 =
 async
@@ -405,7 +405,7 @@ info
 description
 )
 ;
-let
+const
 onSelect
 =
 inspector
@@ -433,7 +433,7 @@ panelWin
 await
 onSelect
 ;
-let
+const
 selectedNode
 =
 inspector
@@ -462,7 +462,7 @@ searchBox
 value
 )
 ;
-let
+const
 targetNode
 =
 await

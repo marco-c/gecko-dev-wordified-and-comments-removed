@@ -105,7 +105,7 @@ sw
 .
 Scratchpad
 ;
-let
+const
 foo
 =
 "
@@ -125,7 +125,7 @@ log
 ;
 }
 ;
-let
+const
 bar
 =
 "

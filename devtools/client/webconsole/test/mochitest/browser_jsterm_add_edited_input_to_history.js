@@ -33,7 +33,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -58,14 +58,14 @@ testEditedInputHistory
 hud
 )
 {
-let
+const
 jsterm
 =
 hud
 .
 jsterm
 ;
-let
+const
 inputNode
 =
 jsterm

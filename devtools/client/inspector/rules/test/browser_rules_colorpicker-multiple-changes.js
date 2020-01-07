@@ -107,7 +107,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -168,7 +168,7 @@ property
 "
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -204,7 +204,7 @@ picker
 "
 )
 ;
-let
+const
 picker
 =
 ruleView
@@ -218,7 +218,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 picker
@@ -250,7 +250,7 @@ times
 "
 )
 ;
-let
+const
 colors
 =
 [
@@ -318,7 +318,7 @@ rgb
 ;
 for
 (
-let
+const
 {
 rgba
 computed
@@ -420,7 +420,7 @@ property
 "
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -456,7 +456,7 @@ picker
 "
 )
 ;
-let
+const
 picker
 =
 ruleView
@@ -470,7 +470,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 picker
@@ -502,7 +502,7 @@ times
 "
 )
 ;
-let
+const
 colors
 =
 [
@@ -570,7 +570,7 @@ rgb
 ;
 for
 (
-let
+const
 {
 rgba
 computed

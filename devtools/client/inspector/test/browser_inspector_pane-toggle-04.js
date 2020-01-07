@@ -188,7 +188,7 @@ inspector
 "
 )
 ;
-let
+const
 sidebarSplitBoxWidth
 =
 inspector
@@ -278,7 +278,7 @@ inspector
 "
 )
 ;
-let
+const
 sidebarWidth
 =
 inspector

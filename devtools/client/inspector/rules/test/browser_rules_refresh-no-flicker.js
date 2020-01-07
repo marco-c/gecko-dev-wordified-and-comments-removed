@@ -83,7 +83,7 @@ node
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -94,7 +94,7 @@ openRuleView
 (
 )
 ;
-let
+const
 testdiv
 =
 await
@@ -114,7 +114,7 @@ testdiv
 inspector
 )
 ;
-let
+const
 htmlBefore
 =
 view
@@ -162,7 +162,7 @@ node
 "
 )
 ;
-let
+const
 p
 =
 view

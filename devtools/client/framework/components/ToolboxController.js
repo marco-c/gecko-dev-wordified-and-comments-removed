@@ -630,7 +630,7 @@ highlightTool
 highlightedTool
 )
 {
-let
+const
 {
 highlightedTools
 }
@@ -661,7 +661,7 @@ unhighlightTool
 id
 )
 {
-let
+const
 {
 highlightedTools
 }

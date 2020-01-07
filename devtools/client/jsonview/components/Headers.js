@@ -132,7 +132,7 @@ render
 (
 )
 {
-let
+const
 data
 =
 this
@@ -329,7 +329,7 @@ render
 (
 )
 {
-let
+const
 headers
 =
 this
@@ -365,7 +365,7 @@ name
 }
 )
 ;
-let
+const
 rows
 =
 [
@@ -446,7 +446,7 @@ rows
 ;
 }
 }
-let
+const
 HeaderListFactory
 =
 createFactory

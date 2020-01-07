@@ -164,7 +164,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -191,7 +191,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 document
 store
@@ -202,7 +202,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -222,7 +222,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSelectedRequest
@@ -258,7 +258,7 @@ false
 )
 )
 ;
-let
+const
 requests
 =
 Cu
@@ -270,7 +270,7 @@ REQUESTS_WITH_MEDIA
 }
 )
 ;
-let
+const
 newres
 =
 "

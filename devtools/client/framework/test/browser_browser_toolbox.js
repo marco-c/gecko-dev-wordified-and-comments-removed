@@ -50,7 +50,7 @@ done
 =
 >
 {
-let
+const
 options
 =
 {
@@ -135,7 +135,7 @@ done
 }
 )
 ;
-let
+const
 onCustomMessage
 =
 new
@@ -203,7 +203,7 @@ works
 }
 )
 ;
-let
+const
 env
 =
 Cc
@@ -228,7 +228,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 testScript
 =
 function
@@ -250,7 +250,7 @@ console
 =
 >
 {
-let
+const
 hasCloseButton
 =
 !
@@ -268,7 +268,7 @@ close
 "
 )
 ;
-let
+const
 {
 jsterm
 }
@@ -277,7 +277,7 @@ console
 .
 hud
 ;
-let
+const
 js
 =
 "
@@ -367,7 +367,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 {
 BrowserToolboxProcess
 }
@@ -484,7 +484,7 @@ state
 "
 )
 ;
-let
+const
 hasCloseButton
 =
 await

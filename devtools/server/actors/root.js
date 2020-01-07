@@ -546,7 +546,7 @@ function
 (
 )
 {
-let
+const
 reply
 =
 {
@@ -622,7 +622,7 @@ function
 request
 )
 {
-let
+const
 tabList
 =
 this
@@ -672,7 +672,7 @@ this
 .
 _onTabListChanged
 ;
-let
+const
 newActorPool
 =
 new
@@ -683,7 +683,7 @@ this
 conn
 )
 ;
-let
+const
 tabActorList
 =
 [
@@ -692,7 +692,7 @@ tabActorList
 let
 selected
 ;
-let
+const
 options
 =
 request
@@ -703,7 +703,7 @@ options
 {
 }
 ;
-let
+const
 tabActors
 =
 await
@@ -716,7 +716,7 @@ options
 ;
 for
 (
-let
+const
 tabActor
 of
 tabActors
@@ -769,7 +769,7 @@ tabActor
 )
 ;
 }
-let
+const
 reply
 =
 this
@@ -856,7 +856,7 @@ function
 options
 )
 {
-let
+const
 tabList
 =
 this
@@ -1054,7 +1054,7 @@ windows
 }
 ;
 }
-let
+const
 window
 =
 Services
@@ -1129,7 +1129,7 @@ _windowActorPool
 )
 ;
 }
-let
+const
 actor
 =
 new
@@ -1218,7 +1218,7 @@ function
 (
 )
 {
-let
+const
 addonList
 =
 this
@@ -1283,7 +1283,7 @@ addonActors
 =
 >
 {
-let
+const
 addonActorPool
 =
 new
@@ -1296,7 +1296,7 @@ conn
 ;
 for
 (
-let
+const
 addonActor
 of
 addonActors
@@ -1421,7 +1421,7 @@ function
 (
 )
 {
-let
+const
 workerList
 =
 this
@@ -1483,7 +1483,7 @@ actors
 =
 >
 {
-let
+const
 pool
 =
 new
@@ -1496,7 +1496,7 @@ conn
 ;
 for
 (
-let
+const
 actor
 of
 actors
@@ -1613,7 +1613,7 @@ function
 (
 )
 {
-let
+const
 registrationList
 =
 this
@@ -1677,7 +1677,7 @@ actors
 =
 >
 {
-let
+const
 pool
 =
 new
@@ -1690,7 +1690,7 @@ conn
 ;
 for
 (
-let
+const
 actor
 of
 actors
@@ -1807,7 +1807,7 @@ function
 (
 )
 {
-let
+const
 {
 processList
 }
@@ -2061,7 +2061,7 @@ this
 _chromeActor
 )
 {
-let
+const
 {
 ChromeActor
 }
@@ -2117,14 +2117,14 @@ form
 }
 ;
 }
-let
+const
 {
 id
 }
 =
 request
 ;
-let
+const
 mm
 =
 Services
@@ -2193,7 +2193,7 @@ form
 }
 ;
 }
-let
+const
 onDestroy
 =
 (

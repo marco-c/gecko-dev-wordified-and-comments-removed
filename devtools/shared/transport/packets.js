@@ -313,7 +313,7 @@ header
 transport
 )
 {
-let
+const
 match
 =
 this
@@ -345,7 +345,7 @@ packet
 "
 )
 ;
-let
+const
 packet
 =
 new
@@ -432,7 +432,7 @@ _object
 =
 object
 ;
-let
+const
 data
 =
 JSON
@@ -542,7 +542,7 @@ catch
 e
 )
 {
-let
+const
 msg
 =
 "
@@ -659,7 +659,7 @@ available
 )
 ;
 }
-let
+const
 bytesToRead
 =
 Math
@@ -760,7 +760,7 @@ this
 _data
 ;
 }
-let
+const
 written
 =
 stream
@@ -898,7 +898,7 @@ header
 transport
 )
 {
-let
+const
 match
 =
 this
@@ -930,7 +930,7 @@ packet
 "
 )
 ;
-let
+const
 packet
 =
 new
@@ -1044,7 +1044,7 @@ pauseIncoming
 (
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -1094,7 +1094,7 @@ this
 length
 )
 ;
-let
+const
 copying
 =
 StreamUtils
@@ -1297,7 +1297,7 @@ header
 "
 )
 ;
-let
+const
 written
 =
 stream
@@ -1348,7 +1348,7 @@ pauseOutgoing
 (
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -1383,7 +1383,7 @@ this
 length
 )
 ;
-let
+const
 copying
 =
 StreamUtils
@@ -1739,7 +1739,7 @@ function
 stream
 )
 {
-let
+const
 written
 =
 stream

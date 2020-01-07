@@ -68,7 +68,7 @@ frontend
 false
 )
 ;
-let
+const
 hud
 =
 await
@@ -77,7 +77,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 {
 toolbox
 panel
@@ -90,7 +90,7 @@ openDebugger
 (
 )
 ;
-let
+const
 sources
 =
 debuggerPanel
@@ -130,7 +130,7 @@ resumed
 "
 )
 ;
-let
+const
 {
 FETCHED_SCOPES
 }
@@ -141,7 +141,7 @@ panelWin
 .
 EVENTS
 ;
-let
+const
 fetchedScopes
 =
 debuggerPanel
@@ -167,7 +167,7 @@ function
 (
 )
 {
-let
+const
 button
 =
 content
@@ -213,7 +213,7 @@ webconsole
 "
 )
 ;
-let
+const
 onMessage
 =
 waitForMessage
@@ -272,7 +272,7 @@ debuggerPanel
 state
 )
 {
-let
+const
 thread
 =
 debuggerPanel

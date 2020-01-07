@@ -32,7 +32,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }

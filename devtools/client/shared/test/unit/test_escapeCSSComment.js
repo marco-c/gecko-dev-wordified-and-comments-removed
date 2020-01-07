@@ -188,7 +188,7 @@ i
 ;
 for
 (
-let
+const
 test
 of
 TEST_DATA
@@ -208,7 +208,7 @@ Test
 i
 )
 ;
-let
+const
 escaped
 =
 escapeCSSComment
@@ -226,7 +226,7 @@ test
 expected
 )
 ;
-let
+const
 unescaped
 =
 _unescapeCSSComment

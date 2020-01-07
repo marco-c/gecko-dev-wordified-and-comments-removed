@@ -29,7 +29,7 @@ netmonitor
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -42,7 +42,7 @@ blank
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -52,7 +52,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -66,7 +66,7 @@ netmonitor
 "
 )
 ;
-let
+const
 monitor
 =
 toolbox
@@ -78,7 +78,7 @@ netmonitor
 "
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -88,7 +88,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -108,7 +108,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -167,7 +167,7 @@ Editor
 "
 )
 ;
-let
+const
 styleeditor
 =
 await
@@ -180,7 +180,7 @@ styleeditor
 "
 )
 ;
-let
+const
 ui
 =
 styleeditor
@@ -272,19 +272,19 @@ contents
 "
 )
 ;
-let
+const
 shortRequests
 =
 [
 ]
 ;
-let
+const
 longRequests
 =
 [
 ]
 ;
-let
+const
 hugeRequests
 =
 [
@@ -292,7 +292,7 @@ hugeRequests
 ;
 for
 (
-let
+const
 item
 of
 getSortedRequests

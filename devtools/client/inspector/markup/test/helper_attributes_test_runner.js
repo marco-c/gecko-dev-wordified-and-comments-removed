@@ -58,7 +58,7 @@ inspector
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -169,7 +169,7 @@ test
 validate
 )
 {
-let
+const
 container
 =
 await
@@ -305,7 +305,7 @@ expandAll
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -424,7 +424,7 @@ test
 value
 )
 ;
-let
+const
 container
 =
 await
@@ -473,7 +473,7 @@ event
 "
 )
 ;
-let
+const
 nodeMutated
 =
 inspector
@@ -485,7 +485,7 @@ markupmutation
 "
 )
 ;
-let
+const
 attr
 =
 container

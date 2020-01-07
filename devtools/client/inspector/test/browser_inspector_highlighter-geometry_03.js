@@ -58,7 +58,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -81,7 +81,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 finalize
 }
@@ -175,13 +175,13 @@ selector
 ;
 for
 (
-let
+const
 name
 of
 expectedProperties
 )
 {
-let
+const
 hidden
 =
 (
@@ -239,7 +239,7 @@ selector
 }
 for
 (
-let
+const
 name
 of
 PROPS
@@ -258,7 +258,7 @@ name
 continue
 ;
 }
-let
+const
 hidden
 =
 (

@@ -54,7 +54,7 @@ test_prototype_attributes
 (
 )
 {
-let
+const
 descriptor
 =
 Object
@@ -118,7 +118,7 @@ test_instance_attributes
 (
 )
 {
-let
+const
 instance
 =
 new
@@ -159,7 +159,7 @@ foo
 )
 )
 ;
-let
+const
 descriptor
 =
 Object
@@ -219,7 +219,7 @@ test_multiple_instances
 (
 )
 {
-let
+const
 instance1
 =
 new
@@ -227,7 +227,7 @@ Class
 (
 )
 ;
-let
+const
 instance2
 =
 new
@@ -235,14 +235,14 @@ Class
 (
 )
 ;
-let
+const
 foo1
 =
 instance1
 .
 foo
 ;
-let
+const
 foo2
 =
 instance2
@@ -327,7 +327,7 @@ this
 }
 )
 ;
-let
+const
 instance
 =
 new

@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -38,7 +38,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
@@ -400,7 +400,7 @@ animationEl
 expected
 )
 {
-let
+const
 el
 =
 animationEl
@@ -413,7 +413,7 @@ name
 "
 )
 ;
-let
+const
 tooltip
 =
 el

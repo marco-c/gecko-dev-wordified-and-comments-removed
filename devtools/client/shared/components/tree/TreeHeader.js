@@ -168,7 +168,7 @@ getHeaderClass
 colId
 )
 {
-let
+const
 decorator
 =
 this
@@ -241,13 +241,13 @@ render
 (
 )
 {
-let
+const
 cells
 =
 [
 ]
 ;
-let
+const
 visible
 =
 this
@@ -268,7 +268,7 @@ col
 =
 >
 {
-let
+const
 cellStyle
 =
 {

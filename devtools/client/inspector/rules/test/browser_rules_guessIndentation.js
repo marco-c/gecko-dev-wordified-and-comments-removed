@@ -102,7 +102,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -164,7 +164,7 @@ editor
 "
 )
 ;
-let
+const
 {
 UI
 }
@@ -179,7 +179,7 @@ styleeditor
 "
 )
 ;
-let
+const
 styleEditor
 =
 await
@@ -194,7 +194,7 @@ getSourceEditor
 (
 )
 ;
-let
+const
 text
 =
 styleEditor

@@ -260,7 +260,7 @@ tab
 =
 >
 {
-let
+const
 browser
 =
 tab
@@ -310,7 +310,7 @@ reloadTab
 inspector
 )
 {
-let
+const
 onNewRoot
 =
 inspector
@@ -372,7 +372,7 @@ test
 "
 )
 {
-let
+const
 {
 AnimationsController
 AnimationsPanel
@@ -387,7 +387,7 @@ getWindowForTab
 TAB_NAME
 )
 ;
-let
+const
 onUiUpdated
 =
 AnimationsPanel
@@ -495,7 +495,7 @@ function
 inspector
 )
 {
-let
+const
 win
 =
 inspector
@@ -507,7 +507,7 @@ getWindowForTab
 TAB_NAME
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -521,7 +521,7 @@ updated
 "
 )
 ;
-let
+const
 tabReady
 =
 win
@@ -576,7 +576,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -609,7 +609,7 @@ waitForAnimationInspectorReady
 inspector
 )
 ;
-let
+const
 win
 =
 inspector
@@ -621,7 +621,7 @@ getWindowForTab
 TAB_NAME
 )
 ;
-let
+const
 {
 AnimationsController
 AnimationsPanel
@@ -726,7 +726,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -769,7 +769,7 @@ content
 "
 )
 ;
-let
+const
 mm
 =
 gBrowser
@@ -851,7 +851,7 @@ content
 "
 )
 ;
-let
+const
 mm
 =
 gBrowser
@@ -901,7 +901,7 @@ animationIndex
 0
 )
 {
-let
+const
 playState
 =
 await
@@ -950,7 +950,7 @@ function
 panel
 )
 {
-let
+const
 targets
 =
 getAnimationTargetNodes
@@ -1014,7 +1014,7 @@ panel
 isMoving
 )
 {
-let
+const
 timeline
 =
 panel
@@ -1026,7 +1026,7 @@ if
 isMoving
 )
 {
-let
+const
 {
 time
 :
@@ -1047,7 +1047,7 @@ changed
 "
 )
 ;
-let
+const
 {
 time
 :
@@ -1148,7 +1148,7 @@ clickTimelinePlayPauseButton
 panel
 )
 {
-let
+const
 onUiUpdated
 =
 panel
@@ -1160,7 +1160,7 @@ panel
 UI_UPDATED_EVENT
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering
@@ -1168,14 +1168,14 @@ waitForAnimationTimelineRendering
 panel
 )
 ;
-let
+const
 btn
 =
 panel
 .
 playTimelineButtonEl
 ;
-let
+const
 win
 =
 btn
@@ -1219,7 +1219,7 @@ clickTimelineRewindButton
 panel
 )
 {
-let
+const
 onUiUpdated
 =
 panel
@@ -1231,7 +1231,7 @@ panel
 UI_UPDATED_EVENT
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering
@@ -1239,14 +1239,14 @@ waitForAnimationTimelineRendering
 panel
 )
 ;
-let
+const
 btn
 =
 panel
 .
 rewindTimelineButtonEl
 ;
-let
+const
 win
 =
 btn
@@ -1291,7 +1291,7 @@ panel
 rate
 )
 {
-let
+const
 onUiUpdated
 =
 panel
@@ -1303,7 +1303,7 @@ panel
 UI_UPDATED_EVENT
 )
 ;
-let
+const
 select
 =
 panel
@@ -1312,7 +1312,7 @@ rateSelectorEl
 .
 firstChild
 ;
-let
+const
 win
 =
 select
@@ -1321,7 +1321,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 option
 =
 [
@@ -1744,14 +1744,14 @@ index
 shouldAlreadySelected
 )
 {
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 onSelectionChanged
 =
 timeline
@@ -1792,7 +1792,7 @@ timeline
 "
 )
 ;
-let
+const
 timeBlock
 =
 timeline
@@ -1819,7 +1819,7 @@ scrollIntoView
 false
 )
 ;
-let
+const
 timeBlockBounds
 =
 timeBlock
@@ -1837,7 +1837,7 @@ width
 /
 2
 ;
-let
+const
 y
 =
 timeBlockBounds
@@ -1899,14 +1899,14 @@ panel
 propertyName
 )
 {
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 detailsComponent
 =
 timeline
@@ -1941,7 +1941,7 @@ propertyName
 keyframeIndex
 )
 {
-let
+const
 keyframeComponent
 =
 getKeyframeComponent

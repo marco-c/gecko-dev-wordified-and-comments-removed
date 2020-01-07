@@ -180,7 +180,7 @@ client
 =
 null
 ;
-let
+const
 cleanup
 =
 async
@@ -249,7 +249,7 @@ connect
 (
 )
 ;
-let
+const
 {
 tabs
 }
@@ -261,7 +261,7 @@ listTabs
 (
 )
 ;
-let
+const
 attachedTab
 =
 tabs

@@ -370,7 +370,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -473,7 +473,7 @@ property
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -662,7 +662,7 @@ suggest
 null
 ;
 }
-let
+const
 popupEvent
 =
 open
@@ -679,7 +679,7 @@ popup
 closed
 "
 ;
-let
+const
 onPopupEvent
 =
 editor

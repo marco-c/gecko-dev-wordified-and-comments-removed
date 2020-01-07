@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 showTooltip
 (
 tooltip
@@ -19,7 +19,7 @@ y
 }
 )
 {
-let
+const
 onShown
 =
 tooltip
@@ -43,7 +43,7 @@ y
 }
 )
 ;
-yield
+await
 onShown
 ;
 return
@@ -53,14 +53,14 @@ tooltip
 )
 ;
 }
+async
 function
-*
 hideTooltip
 (
 tooltip
 )
 {
-let
+const
 onPopupHidden
 =
 tooltip
@@ -78,7 +78,7 @@ hide
 (
 )
 ;
-yield
+await
 onPopupHidden
 ;
 return
@@ -94,7 +94,7 @@ waitForReflow
 tooltip
 )
 {
-let
+const
 {
 doc
 }
@@ -161,7 +161,7 @@ dimensions
 "
 )
 ;
-let
+const
 tooltipRect
 =
 tooltip
@@ -172,7 +172,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 anchorRect
 =
 anchor

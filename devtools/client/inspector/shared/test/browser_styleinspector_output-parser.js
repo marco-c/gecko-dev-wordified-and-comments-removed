@@ -935,7 +935,7 @@ fragment
 10
 )
 ;
-let
+const
 allSwatches
 =
 fragment
@@ -1086,7 +1086,7 @@ fragment
 4
 )
 ;
-let
+const
 colorSwatches
 =
 fragment
@@ -2081,7 +2081,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 {
@@ -2108,7 +2108,7 @@ initCssProperties
 toolbox
 )
 ;
-let
+const
 cssProperties
 =
 getCssProperties
@@ -2116,7 +2116,7 @@ getCssProperties
 toolbox
 )
 ;
-let
+const
 parser
 =
 new
@@ -2144,7 +2144,7 @@ i
 +
 )
 {
-let
+const
 data
 =
 TEST_DATA

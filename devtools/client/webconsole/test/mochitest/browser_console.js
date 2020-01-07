@@ -169,7 +169,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 opened
 =
 waitForBrowserConsole
@@ -344,7 +344,7 @@ hud
 iframeWindow
 )
 ;
-let
+const
 sandbox
 =
 new
@@ -370,7 +370,7 @@ URLSearchParams
 }
 )
 ;
-let
+const
 error
 =
 Cu
@@ -478,7 +478,7 @@ eval
 ;
 )
 ;
-let
+const
 xhr
 =
 new
@@ -528,7 +528,7 @@ send
 (
 )
 ;
-let
+const
 xhrErr
 =
 new
@@ -745,7 +745,7 @@ testCPOWInspection
 hud
 )
 {
-let
+const
 cpowEval
 =
 await
@@ -779,7 +779,7 @@ result
 actor
 )
 ;
-let
+const
 objectClient
 =
 new
@@ -805,7 +805,7 @@ actor
 }
 )
 ;
-let
+const
 prototypeAndProperties
 =
 await
@@ -836,7 +836,7 @@ response
 "
 )
 ;
-let
+const
 cpow
 =
 prototypeAndProperties
@@ -847,7 +847,7 @@ _contentWindow
 .
 value
 ;
-let
+const
 e10sCheck
 =
 await
@@ -923,7 +923,7 @@ class
 "
 )
 ;
-let
+const
 objClient
 =
 new
@@ -1291,7 +1291,7 @@ was
 logged
 )
 ;
-let
+const
 message
 =
 await

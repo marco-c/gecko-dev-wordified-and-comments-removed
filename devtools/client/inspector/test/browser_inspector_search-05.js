@@ -150,7 +150,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -599,7 +599,7 @@ iframe
 }
 )
 ;
-let
+const
 checkCorrectButton
 =
 async
@@ -609,14 +609,14 @@ inspector
 frameSelector
 )
 {
-let
+const
 {
 walker
 }
 =
 inspector
 ;
-let
+const
 node
 =
 inspector
@@ -666,7 +666,7 @@ button
 "
 )
 ;
-let
+const
 selectedNodeDoc
 =
 await
@@ -698,7 +698,7 @@ item
 0
 )
 ;
-let
+const
 iframeDoc
 =
 (

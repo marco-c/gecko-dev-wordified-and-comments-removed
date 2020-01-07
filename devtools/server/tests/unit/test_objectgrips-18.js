@@ -153,7 +153,7 @@ event
 packet
 )
 {
-let
+const
 [
 grip
 ]
@@ -164,7 +164,7 @@ frame
 .
 arguments
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -589,7 +589,7 @@ response
 "
 )
 ;
-let
+const
 allResponse
 =
 await
@@ -1070,7 +1070,7 @@ response
 "
 )
 ;
-let
+const
 allResponse
 =
 await

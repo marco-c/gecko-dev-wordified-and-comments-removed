@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -94,7 +94,7 @@ hover
 "
 )
 ;
-let
+const
 highlightingEl
 =
 targetNodeComponent
@@ -120,7 +120,7 @@ widget
 "
 )
 ;
-let
+const
 onHighlight
 =
 toolbox
@@ -155,7 +155,7 @@ ownerDocument
 defaultView
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -352,7 +352,7 @@ change
 "
 )
 ;
-let
+const
 onSelection
 =
 inspector
@@ -370,7 +370,7 @@ front
 "
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering
@@ -378,7 +378,7 @@ waitForAnimationTimelineRendering
 panel
 )
 ;
-let
+const
 nodeEl
 =
 targetNodeComponent

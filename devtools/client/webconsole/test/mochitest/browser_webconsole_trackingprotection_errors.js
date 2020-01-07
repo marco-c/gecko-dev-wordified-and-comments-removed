@@ -139,7 +139,7 @@ enabled
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -148,7 +148,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 message
 =
 await
@@ -239,7 +239,7 @@ link
 "
 )
 ;
-let
+const
 linkSimulation
 =
 await

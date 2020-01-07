@@ -29,7 +29,7 @@ utils
 "
 )
 ;
-let
+const
 output
 =
 getProfileThreadFromAllocations

@@ -52,7 +52,7 @@ testTraceMessages
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -61,7 +61,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 message
 =
 await
@@ -80,7 +80,7 @@ foo1
 )
 )
 ;
-let
+const
 stackInfo
 =
 getStackInfo
@@ -205,7 +205,7 @@ getStackInfo
 message
 )
 {
-let
+const
 lineNode
 =
 message
@@ -222,7 +222,7 @@ line
 "
 )
 ;
-let
+const
 lc
 =
 getLineAndColumn
@@ -230,7 +230,7 @@ getLineAndColumn
 lineNode
 )
 ;
-let
+const
 result
 =
 {
@@ -297,7 +297,7 @@ stack
 ]
 }
 ;
-let
+const
 stack
 =
 message
@@ -317,7 +317,7 @@ if
 stack
 )
 {
-let
+const
 filenameNodes
 =
 stack
@@ -334,7 +334,7 @@ filename
 "
 )
 ;
-let
+const
 lineNodes
 =
 stack
@@ -351,7 +351,7 @@ line
 "
 )
 ;
-let
+const
 funcNodes
 =
 stack
@@ -390,7 +390,7 @@ i
 +
 )
 {
-let
+const
 filename
 =
 filenameNodes
@@ -400,7 +400,7 @@ i
 .
 textContent
 ;
-let
+const
 functionName
 =
 funcNodes
@@ -410,7 +410,7 @@ i
 .
 textContent
 ;
-let
+const
 {
 line
 column
@@ -599,7 +599,7 @@ i
 +
 )
 {
-let
+const
 actual
 =
 stackInfo
@@ -609,7 +609,7 @@ stack
 i
 ]
 ;
-let
+const
 stackExpected
 =
 expected

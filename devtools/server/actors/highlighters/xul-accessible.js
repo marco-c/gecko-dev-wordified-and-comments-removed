@@ -153,7 +153,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -278,7 +278,7 @@ options
 }
 )
 {
-let
+const
 isSameNode
 =
 node
@@ -289,7 +289,7 @@ this
 .
 currentNode
 ;
-let
+const
 hasBounds
 =
 options
@@ -403,7 +403,7 @@ _highlightTimer
 null
 ;
 }
-let
+const
 shown
 =
 this
@@ -412,7 +412,7 @@ _update
 (
 )
 ;
-let
+const
 {
 duration
 }
@@ -465,7 +465,7 @@ _hideAccessibleBounds
 (
 )
 ;
-let
+const
 bounds
 =
 this
@@ -508,7 +508,7 @@ this
 bounds
 ;
 }
-let
+const
 {
 left
 top

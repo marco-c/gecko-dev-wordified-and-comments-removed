@@ -225,7 +225,7 @@ listWorkers
 )
 )
 ;
-let
+const
 {
 processes
 }
@@ -239,7 +239,7 @@ listProcesses
 ;
 for
 (
-let
+const
 process
 of
 processes
@@ -255,7 +255,7 @@ parent
 continue
 ;
 }
-let
+const
 {
 form
 }
@@ -272,14 +272,14 @@ process
 id
 )
 ;
-let
+const
 processActor
 =
 form
 .
 actor
 ;
-let
+const
 response
 =
 await
@@ -320,7 +320,7 @@ e
 )
 {
 }
-let
+const
 result
 =
 {
@@ -402,7 +402,7 @@ form
 =
 >
 {
-let
+const
 worker
 =
 {
@@ -437,7 +437,7 @@ nsIWorkerDebugger
 .
 TYPE_SERVICE
 :
-let
+const
 registration
 =
 result
@@ -575,7 +575,7 @@ function
 filter
 )
 {
-let
+const
 packet
 =
 {
@@ -655,7 +655,7 @@ in
 filter
 )
 {
-let
+const
 browser
 =
 filter
@@ -705,7 +705,7 @@ outerWindowID
 }
 else
 {
-let
+const
 windowUtils
 =
 browser
@@ -790,7 +790,7 @@ outerWindowID
 )
 ;
 }
-let
+const
 packet
 =
 {

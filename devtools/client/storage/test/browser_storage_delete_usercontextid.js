@@ -996,7 +996,7 @@ testTree
 tests
 )
 {
-let
+const
 doc
 =
 gPanelWindow
@@ -1005,7 +1005,7 @@ document
 ;
 for
 (
-let
+const
 [
 item
 ]
@@ -1067,7 +1067,7 @@ testTables
 tests
 )
 {
-let
+const
 doc
 =
 gPanelWindow
@@ -1084,7 +1084,7 @@ expandAll
 ;
 for
 (
-let
+const
 id
 of
 tests
@@ -1141,7 +1141,7 @@ present
 }
 for
 (
-let
+const
 [
 treeItem
 items
@@ -1206,7 +1206,7 @@ correct
 ;
 for
 (
-let
+const
 id
 of
 items
@@ -1264,7 +1264,7 @@ function
 (
 )
 {
-let
+const
 tabDefault
 =
 await
@@ -1300,7 +1300,7 @@ userContextId
 }
 )
 ;
-let
+const
 contextMenu
 =
 gPanelWindow
@@ -1318,7 +1318,7 @@ popup
 "
 )
 ;
-let
+const
 menuDeleteItem
 =
 contextMenu
@@ -1339,7 +1339,7 @@ delete
 ;
 for
 (
-let
+const
 [
 treeItem
 rowName
@@ -1349,7 +1349,7 @@ of
 TEST_CASES
 )
 {
-let
+const
 treeItemName
 =
 treeItem
@@ -1377,7 +1377,7 @@ selectTreeItem
 treeItem
 )
 ;
-let
+const
 row
 =
 getRowCells
@@ -1412,7 +1412,7 @@ treeItemName
 }
 )
 ;
-let
+const
 eventWait
 =
 gUI
@@ -1464,7 +1464,7 @@ click
 (
 )
 ;
-let
+const
 truncatedRowName
 =
 String

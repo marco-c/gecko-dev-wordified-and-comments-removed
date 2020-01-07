@@ -126,7 +126,7 @@ toExponential
 ;
 for
 (
-let
+const
 [
 errorMessageName
 expression
@@ -140,7 +140,7 @@ ErrorDocStatements
 )
 )
 {
-let
+const
 title
 =
 ErrorDocs

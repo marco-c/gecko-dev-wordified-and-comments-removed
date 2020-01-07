@@ -139,14 +139,14 @@ ui
 }
 )
 {
-let
+const
 {
 toolWindow
 }
 =
 ui
 ;
-let
+const
 {
 store
 document
@@ -199,7 +199,7 @@ loadableState
 LOADED
 )
 ;
-let
+const
 deviceSelector
 =
 document
@@ -216,7 +216,7 @@ selector
 "
 )
 ;
-let
+const
 submitButton
 =
 document
@@ -352,7 +352,7 @@ modal
 "
 )
 ;
-let
+const
 deviceCbs
 =
 [
@@ -399,7 +399,7 @@ modal
 ;
 for
 (
-let
+const
 cb
 of
 deviceCbs
@@ -548,7 +548,7 @@ device
 "
 )
 ;
-let
+const
 deviceRemoveButtons
 =
 [
@@ -588,7 +588,7 @@ modal
 "
 )
 ;
-let
+const
 removed
 =
 waitUntilState
@@ -747,14 +747,14 @@ ui
 }
 )
 {
-let
+const
 {
 toolWindow
 }
 =
 ui
 ;
-let
+const
 {
 store
 document
@@ -793,7 +793,7 @@ loadableState
 LOADED
 )
 ;
-let
+const
 deviceSelector
 =
 document
@@ -824,7 +824,7 @@ selector
 "
 )
 ;
-let
+const
 deviceOption1
 =
 [
@@ -878,7 +878,7 @@ selector
 "
 )
 ;
-let
+const
 deviceOption2
 =
 [
@@ -937,7 +937,7 @@ modal
 "
 )
 ;
-let
+const
 deviceCbs
 =
 [
@@ -981,7 +981,7 @@ modal
 "
 )
 ;
-let
+const
 deviceCb1
 =
 deviceCbs
@@ -1035,7 +1035,7 @@ modal
 "
 )
 ;
-let
+const
 deviceCb2
 =
 deviceCbs

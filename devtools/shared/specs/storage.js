@@ -26,7 +26,7 @@ types
 =
 protocol
 ;
-let
+const
 childSpecs
 =
 {
@@ -38,7 +38,7 @@ createStorageSpec
 options
 )
 {
-let
+const
 methods
 =
 {

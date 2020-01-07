@@ -60,19 +60,19 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 host
 win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -81,7 +81,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 container
 =
 doc
@@ -98,7 +98,7 @@ container
 "
 )
 ;
-let
+const
 w
 =
 new
@@ -149,7 +149,7 @@ sine
 ]
 )
 ;
-let
+const
 rect
 =
 w
@@ -177,7 +177,7 @@ padding
 0
 ]
 ;
-yield
+await
 adjustingBezierUpdatesPreset
 (
 w
@@ -186,7 +186,7 @@ doc
 rect
 )
 ;
-yield
+await
 selectingPresetUpdatesBezier
 (
 w
@@ -211,7 +211,6 @@ destroy
 )
 ;
 function
-*
 adjustingBezierUpdatesPreset
 (
 widget
@@ -394,8 +393,8 @@ preset
 )
 ;
 }
+async
 function
-*
 selectingPresetUpdatesBezier
 (
 widget
@@ -430,7 +429,7 @@ event
 "
 )
 ;
-let
+const
 onNewCoordinates
 =
 widget
@@ -446,7 +445,7 @@ coordinates
 "
 )
 ;
-let
+const
 onUpdated
 =
 widget
@@ -467,7 +466,7 @@ preset
 "
 )
 ;
-let
+const
 preset
 =
 doc
@@ -497,7 +496,7 @@ preset
 }
 )
 ;
-yield
+await
 onNewCoordinates
 ;
 ok
@@ -516,10 +515,10 @@ event
 "
 )
 ;
-let
+const
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok

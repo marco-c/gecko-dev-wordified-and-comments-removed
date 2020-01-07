@@ -91,12 +91,12 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -104,7 +104,7 @@ resolve
 =
 >
 {
-let
+const
 options
 =
 {
@@ -177,13 +177,13 @@ resolve
 }
 )
 ;
-let
+const
 {
 tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -191,13 +191,13 @@ addons
 "
 )
 ;
-yield
+await
 waitForInitialAddonList
 (
 document
 )
 ;
-yield
+await
 installAddon
 (
 {
@@ -219,7 +219,7 @@ ADDON_NAME
 }
 )
 ;
-let
+const
 names
 =
 getInstalledAddonNames
@@ -227,7 +227,7 @@ getInstalledAddonNames
 document
 )
 ;
-let
+const
 name
 =
 names
@@ -262,7 +262,7 @@ list
 "
 )
 ;
-let
+const
 targetElement
 =
 name
@@ -271,7 +271,7 @@ parentNode
 .
 parentNode
 ;
-let
+const
 debugBtn
 =
 targetElement
@@ -297,7 +297,7 @@ button
 "
 )
 ;
-let
+const
 onCustomMessage
 =
 new
@@ -351,7 +351,7 @@ works
 }
 )
 ;
-let
+const
 env
 =
 Cc
@@ -376,7 +376,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 testScript
 =
 function
@@ -398,7 +398,7 @@ console
 =
 >
 {
-let
+const
 {
 jsterm
 }
@@ -472,7 +472,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 onToolboxClose
 =
 BrowserToolboxProcess
@@ -490,7 +490,7 @@ click
 (
 )
 ;
-yield
+await
 onCustomMessage
 ;
 ok
@@ -510,7 +510,7 @@ function
 "
 )
 ;
-yield
+await
 onToolboxClose
 ;
 ok
@@ -523,7 +523,7 @@ closed
 "
 )
 ;
-yield
+await
 uninstallAddon
 (
 {
@@ -537,7 +537,7 @@ ADDON_NAME
 }
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

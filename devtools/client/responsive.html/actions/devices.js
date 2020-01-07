@@ -86,7 +86,7 @@ loadPreferredDevices
 (
 )
 {
-let
+const
 preferredDevices
 =
 {
@@ -344,7 +344,7 @@ dispatch
 getState
 )
 {
-let
+const
 {
 viewports
 }
@@ -355,7 +355,7 @@ getState
 ;
 for
 (
-let
+const
 viewport
 of
 viewports
@@ -450,7 +450,7 @@ LOAD_DEVICE_LIST_START
 }
 )
 ;
-let
+const
 preferredDevices
 =
 loadPreferredDevices
@@ -505,7 +505,7 @@ return
 }
 for
 (
-let
+const
 type
 of
 devices
@@ -527,7 +527,7 @@ type
 ;
 for
 (
-let
+const
 device
 of
 devices
@@ -551,7 +551,7 @@ fxos
 continue
 ;
 }
-let
+const
 newDevice
 =
 Object

@@ -26,7 +26,7 @@ run_test
 (
 )
 {
-let
+const
 [
 get
 numForms
@@ -49,7 +49,7 @@ numForms
 )
 )
 ;
-let
+const
 words
 =
 "
@@ -73,7 +73,7 @@ everything
 else
 "
 ;
-let
+const
 test
 =
 function

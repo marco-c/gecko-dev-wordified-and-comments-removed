@@ -37,7 +37,7 @@ showInfiniteLines
 false
 }
 ;
-let
+const
 reducers
 =
 {
@@ -133,7 +133,7 @@ INITIAL_HIGHLIGHTER_SETTINGS
 action
 )
 {
-let
+const
 reducer
 =
 reducers

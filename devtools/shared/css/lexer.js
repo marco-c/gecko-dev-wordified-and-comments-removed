@@ -1426,7 +1426,7 @@ slice
 )
 ;
 }
-let
+const
 extra
 =
 [
@@ -1440,7 +1440,7 @@ eofChars
 extra
 )
 ;
-let
+const
 asString
 =
 String
@@ -1465,7 +1465,7 @@ function
 (
 )
 {
-let
+const
 token
 =
 {
@@ -1486,7 +1486,7 @@ return
 null
 ;
 }
-let
+const
 resultToken
 =
 {
@@ -1516,7 +1516,7 @@ this
 .
 mOffset
 ;
-let
+const
 constructText
 =
 (
@@ -1896,7 +1896,7 @@ for
 ;
 )
 {
-let
+const
 ch
 =
 this
@@ -2351,14 +2351,14 @@ aClass
 aText
 )
 {
-let
+const
 start
 =
 this
 .
 mOffset
 ;
-let
+const
 inString
 =
 aClass
@@ -2416,7 +2416,7 @@ this
 mOffset
 )
 {
-let
+const
 substr
 =
 this
@@ -2466,7 +2466,7 @@ mCount
 break
 ;
 }
-let
+const
 ch
 =
 this
@@ -2609,7 +2609,7 @@ mType
 =
 eCSSToken_Function
 ;
-let
+const
 asString
 =
 String
@@ -2670,7 +2670,7 @@ Advance
 (
 )
 ;
-let
+const
 ch
 =
 this
@@ -2737,7 +2737,7 @@ Advance
 (
 )
 ;
-let
+const
 ch
 =
 this
@@ -2760,7 +2760,7 @@ ch
 REVERSE_SOLIDUS
 )
 {
-let
+const
 type
 =
 StartsIdent
@@ -2827,7 +2827,7 @@ Peek
 (
 )
 ;
-let
+const
 sign
 =
 c
@@ -3056,7 +3056,7 @@ c
 LATIN_CAPITAL_LETTER_E
 )
 {
-let
+const
 expSignChar
 =
 this
@@ -3066,7 +3066,7 @@ Peek
 1
 )
 ;
-let
+const
 nextChar
 =
 this
@@ -3297,7 +3297,7 @@ mIntegerValid
 true
 ;
 }
-let
+const
 ident
 =
 aToken
@@ -3401,7 +3401,7 @@ function
 aToken
 )
 {
-let
+const
 aStop
 =
 this
@@ -3444,7 +3444,7 @@ aToken
 mIdent
 )
 ;
-let
+const
 ch
 =
 this
@@ -3548,7 +3548,7 @@ function
 aResult
 )
 {
-let
+const
 intro1
 =
 this
@@ -3557,7 +3557,7 @@ Peek
 (
 )
 ;
-let
+const
 intro2
 =
 this
@@ -3935,7 +3935,7 @@ aEOFCharacters
 ;
 for
 (
-let
+const
 p
 of
 kImpliedEOFCharacters
@@ -4324,7 +4324,7 @@ ch
 LATIN_CAPITAL_LETTER_U
 )
 {
-let
+const
 c2
 =
 this
@@ -4334,7 +4334,7 @@ Peek
 1
 )
 ;
-let
+const
 c3
 =
 this
@@ -4454,7 +4454,7 @@ ch
 PLUS_SIGN
 )
 {
-let
+const
 c2
 =
 this
@@ -4509,7 +4509,7 @@ ch
 HYPHEN_MINUS
 )
 {
-let
+const
 c2
 =
 this
@@ -4519,7 +4519,7 @@ Peek
 1
 )
 ;
-let
+const
 c3
 =
 this
@@ -4765,7 +4765,7 @@ aToken
 )
 ;
 }
-let
+const
 opType
 =
 MatchOperatorType

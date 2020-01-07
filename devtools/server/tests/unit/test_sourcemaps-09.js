@@ -255,7 +255,7 @@ debuggerStatement
 "
 )
 ;
-let
+const
 location
 =
 {
@@ -322,7 +322,7 @@ testHitBreakpoint
 }
 )
 ;
-let
+const
 code
 =
 '

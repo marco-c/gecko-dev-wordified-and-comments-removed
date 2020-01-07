@@ -81,7 +81,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -113,7 +113,7 @@ editor
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -122,7 +122,7 @@ view
 0
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -190,7 +190,7 @@ color
 "
 )
 ;
-let
+const
 onValueFocus
 =
 once
@@ -220,7 +220,7 @@ changed
 "
 )
 ;
-let
+const
 onMutation
 =
 inspector

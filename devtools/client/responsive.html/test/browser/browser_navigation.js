@@ -68,7 +68,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -77,7 +77,7 @@ addTab
 DUMMY_1_URL
 )
 ;
-let
+const
 browser
 =
 tab
@@ -523,7 +523,7 @@ page
 "
 )
 ;
-let
+const
 receivedStatusChanges
 =
 new
@@ -538,12 +538,12 @@ statusChangesSeen
 =
 0
 ;
-let
+const
 statusChangesExpected
 =
 2
 ;
-let
+const
 progressListener
 =
 {

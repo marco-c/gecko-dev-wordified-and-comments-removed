@@ -165,7 +165,7 @@ fileName
 1
 )
 ;
-let
+const
 {
 prefix
 constructor

@@ -42,7 +42,7 @@ div
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -117,7 +117,7 @@ rule
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -126,7 +126,7 @@ view
 1
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -160,7 +160,7 @@ true
 await
 onRuleViewChanged
 ;
-let
+const
 textProps
 =
 ruleEditor
@@ -169,7 +169,7 @@ rule
 .
 textProps
 ;
-let
+const
 prop
 =
 textProps

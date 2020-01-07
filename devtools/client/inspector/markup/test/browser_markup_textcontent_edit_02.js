@@ -29,7 +29,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -111,7 +111,7 @@ node6
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -121,7 +121,7 @@ SELECTOR
 inspector
 )
 ;
-let
+const
 field
 =
 container
@@ -153,7 +153,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 editor
 =
 inplaceEditor
@@ -735,7 +735,7 @@ event
 "
 )
 ;
-let
+const
 onMutated
 =
 inspector

@@ -77,7 +77,7 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
@@ -113,7 +113,7 @@ function
 (
 )
 {
-let
+const
 sidebar
 =
 sp
@@ -141,7 +141,7 @@ outer
 :
 for
 (
-let
+const
 scope
 of
 sidebar
@@ -151,7 +151,7 @@ variablesView
 {
 for
 (
-let
+const
 [
 obj
 ]
@@ -161,7 +161,7 @@ scope
 {
 for
 (
-let
+const
 [
 prop
 ]
@@ -212,7 +212,7 @@ property
 "
 )
 ;
-let
+const
 tabbox
 =
 sidebar

@@ -63,14 +63,14 @@ createDescriptorFromURL
 url
 )
 {
-let
+const
 params
 =
 url
 .
 searchParams
 ;
-let
+const
 host
 =
 params
@@ -82,7 +82,7 @@ host
 "
 )
 ;
-let
+const
 port
 =
 params
@@ -152,7 +152,7 @@ function
 (
 )
 {
-let
+const
 href
 =
 window
@@ -161,7 +161,7 @@ location
 .
 href
 ;
-let
+const
 url
 =
 new
@@ -186,7 +186,7 @@ http
 )
 )
 ;
-let
+const
 connect
 =
 createDescriptorFromURL
@@ -194,7 +194,7 @@ createDescriptorFromURL
 url
 )
 ;
-let
+const
 client
 =
 await

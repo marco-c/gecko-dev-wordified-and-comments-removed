@@ -354,7 +354,7 @@ UPDATE_GENERAL
 =
 UPDATE_GENERAL
 ;
-let
+const
 modifiedStyleSheets
 =
 new
@@ -604,7 +604,7 @@ this
 actorID
 ;
 }
-let
+const
 form
 =
 {
@@ -688,7 +688,7 @@ sheet
 consoleActor
 )
 {
-let
+const
 cssText
 =
 modifiedStyleSheets
@@ -724,7 +724,7 @@ sheet
 href
 )
 {
-let
+const
 content
 =
 sheet
@@ -785,7 +785,7 @@ return
 null
 ;
 }
-let
+const
 request
 =
 consoleActor
@@ -805,7 +805,7 @@ return
 null
 ;
 }
-let
+const
 content
 =
 request
@@ -863,7 +863,7 @@ mimeType
 }
 ;
 }
-let
+const
 longStringActor
 =
 consoleActor
@@ -929,7 +929,7 @@ ownerNode
 getAttribute
 )
 {
-let
+const
 linkCharset
 =
 sheet
@@ -999,7 +999,7 @@ sheet
 consoleActor
 )
 {
-let
+const
 href
 =
 sheet
@@ -1024,7 +1024,7 @@ return
 result
 ;
 }
-let
+const
 options
 =
 {
@@ -1046,7 +1046,7 @@ sheet
 )
 }
 ;
-let
+const
 excludedProtocolsRe
 =
 /
@@ -1661,14 +1661,14 @@ this
 _cssRules
 ;
 }
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 onSheetLoaded
 =
 (
@@ -1822,7 +1822,7 @@ href
 ;
 }
 }
-let
+const
 form
 =
 {
@@ -2110,7 +2110,7 @@ return
 null
 ;
 }
-let
+const
 form
 =
 this
@@ -2169,7 +2169,7 @@ rules
 =
 >
 {
-let
+const
 mediaRules
 =
 [
@@ -2193,7 +2193,7 @@ i
 +
 )
 {
-let
+const
 rule
 =
 rules
@@ -2216,7 +2216,7 @@ MEDIA_RULE
 continue
 ;
 }
-let
+const
 actor
 =
 new
@@ -2674,7 +2674,7 @@ function
 {
 for
 (
-let
+const
 win
 of
 this
@@ -2815,7 +2815,7 @@ actors
 ;
 for
 (
-let
+const
 win
 of
 this
@@ -2825,7 +2825,7 @@ parentActor
 windows
 )
 {
-let
+const
 sheets
 =
 await
@@ -2895,7 +2895,7 @@ function
 evt
 )
 {
-let
+const
 sheet
 =
 evt
@@ -2946,7 +2946,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 win
@@ -2959,7 +2959,7 @@ styleSheetChangeEventsEnabled
 =
 true
 ;
-let
+const
 isChrome
 =
 Services
@@ -2973,7 +2973,7 @@ doc
 nodePrincipal
 )
 ;
-let
+const
 styleSheets
 =
 isChrome
@@ -3013,7 +3013,7 @@ i
 +
 )
 {
-let
+const
 sheet
 =
 styleSheets
@@ -3035,7 +3035,7 @@ sheet
 continue
 ;
 }
-let
+const
 actor
 =
 this
@@ -3054,7 +3054,7 @@ push
 actor
 )
 ;
-let
+const
 imports
 =
 await
@@ -3105,7 +3105,7 @@ function
 (
 )
 {
-let
+const
 rules
 =
 await
@@ -3139,7 +3139,7 @@ i
 +
 )
 {
-let
+const
 rule
 =
 rules
@@ -3159,7 +3159,7 @@ CSSRule
 IMPORT_RULE
 )
 {
-let
+const
 sheet
 =
 rule
@@ -3192,7 +3192,7 @@ sheet
 continue
 ;
 }
-let
+const
 actor
 =
 this
@@ -3213,7 +3213,7 @@ push
 actor
 )
 ;
-let
+const
 children
 =
 await
@@ -3271,7 +3271,7 @@ _haveAncestorWithSameURL
 sheet
 )
 {
-let
+const
 sheetHref
 =
 sheet
@@ -3325,7 +3325,7 @@ _nextStyleSheetIsNew
 =
 true
 ;
-let
+const
 parent
 =
 this
@@ -3334,7 +3334,7 @@ document
 .
 documentElement
 ;
-let
+const
 style
 =
 this
@@ -3404,7 +3404,7 @@ appendChild
 style
 )
 ;
-let
+const
 actor
 =
 this

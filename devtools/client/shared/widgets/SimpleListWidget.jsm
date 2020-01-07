@@ -217,7 +217,7 @@ item
 "
 )
 ;
-let
+const
 list
 =
 this
@@ -297,14 +297,14 @@ function
 (
 )
 {
-let
+const
 list
 =
 this
 .
 _list
 ;
-let
+const
 parent
 =
 this
@@ -365,7 +365,7 @@ selectedItem
 aChild
 )
 {
-let
+const
 childNodes
 =
 this
@@ -389,7 +389,7 @@ null
 }
 for
 (
-let
+const
 node
 of
 childNodes
@@ -541,7 +541,7 @@ aElement
 return
 ;
 }
-let
+const
 boxObject
 =
 this
@@ -671,7 +671,7 @@ _headerTextValue
 return
 ;
 }
-let
+const
 label
 =
 this
@@ -755,7 +755,7 @@ _emptyTextValue
 return
 ;
 }
-let
+const
 label
 =
 this

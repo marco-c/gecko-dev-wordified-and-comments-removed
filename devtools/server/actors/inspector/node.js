@@ -649,7 +649,7 @@ this
 actorID
 ;
 }
-let
+const
 parentNode
 =
 this
@@ -661,7 +661,7 @@ parentNode
 this
 )
 ;
-let
+const
 inlineTextChild
 =
 this
@@ -673,7 +673,7 @@ inlineTextChild
 this
 )
 ;
-let
+const
 form
 =
 {
@@ -913,14 +913,14 @@ doc
 callback
 )
 {
-let
+const
 node
 =
 this
 .
 rawNode
 ;
-let
+const
 observer
 =
 new
@@ -1044,7 +1044,7 @@ isShadowRoot
 (
 )
 {
-let
+const
 isFragment
 =
 this
@@ -1077,7 +1077,7 @@ isShadowHost
 (
 )
 {
-let
+const
 shadowRoot
 =
 this
@@ -1122,7 +1122,7 @@ return
 false
 ;
 }
-let
+const
 parentNode
 =
 this
@@ -1163,7 +1163,7 @@ return
 0
 ;
 }
-let
+const
 rawNode
 =
 this
@@ -1179,7 +1179,7 @@ childNodes
 .
 length
 ;
-let
+const
 hasAnonChildren
 =
 rawNode
@@ -1202,14 +1202,14 @@ getAnonymousNodes
 rawNode
 )
 ;
-let
+const
 hasContentDocument
 =
 rawNode
 .
 contentDocument
 ;
-let
+const
 hasSVGDocument
 =
 rawNode
@@ -1357,7 +1357,7 @@ return
 null
 ;
 }
-let
+const
 style
 =
 this
@@ -1403,7 +1403,7 @@ isDisplayed
 (
 )
 {
-let
+const
 type
 =
 this
@@ -1435,7 +1435,7 @@ _hasEventListeners
 (
 )
 {
-let
+const
 parsers
 =
 this
@@ -1444,7 +1444,7 @@ _eventParsers
 ;
 for
 (
-let
+const
 [
 {
 hasListeners
@@ -1578,7 +1578,7 @@ undefined
 ;
 for
 (
-let
+const
 pseudo
 of
 PSEUDO_CLASSES
@@ -1625,14 +1625,14 @@ function
 node
 )
 {
-let
+const
 parsers
 =
 this
 .
 _eventParsers
 ;
-let
+const
 dbg
 =
 this
@@ -1647,7 +1647,7 @@ makeDebugger
 (
 )
 ;
-let
+const
 listenerArray
 =
 [
@@ -1655,7 +1655,7 @@ listenerArray
 ;
 for
 (
-let
+const
 [
 {
 getListeners
@@ -1668,7 +1668,7 @@ parsers
 {
 try
 {
-let
+const
 listeners
 =
 getListeners
@@ -1687,7 +1687,7 @@ continue
 }
 for
 (
-let
+const
 listener
 of
 listeners
@@ -1764,14 +1764,14 @@ dbg
 listener
 )
 {
-let
+const
 {
 handler
 }
 =
 listener
 ;
-let
+const
 global
 =
 Cu
@@ -1781,7 +1781,7 @@ getGlobalForObject
 handler
 )
 ;
-let
+const
 globalDO
 =
 dbg
@@ -1801,7 +1801,7 @@ makeDebuggeeValue
 handler
 )
 ;
-let
+const
 {
 normalizeListener
 }
@@ -1822,7 +1822,7 @@ listener
 )
 ;
 }
-let
+const
 {
 capturing
 }
@@ -1843,7 +1843,7 @@ toString
 (
 )
 ;
-let
+const
 hide
 =
 listener
@@ -1864,7 +1864,7 @@ native
 =
 false
 ;
-let
+const
 override
 =
 listener
@@ -1875,7 +1875,7 @@ override
 {
 }
 ;
-let
+const
 tags
 =
 listener
@@ -1886,7 +1886,7 @@ tags
 "
 "
 ;
-let
+const
 type
 =
 listener
@@ -1995,7 +1995,7 @@ listenerDO
 boundTargetFunction
 ;
 }
-let
+const
 {
 isArrowFunction
 name
@@ -2010,7 +2010,7 @@ if
 script
 )
 {
-let
+const
 scriptSource
 =
 script
@@ -2153,7 +2153,7 @@ length
 0
 )
 {
-let
+const
 prefix
 =
 "
@@ -2167,7 +2167,7 @@ name
 )
 "
 ;
-let
+const
 paramString
 =
 parameterNames
@@ -2263,7 +2263,7 @@ line
 )
 ;
 }
-let
+const
 eventObj
 =
 {
@@ -2599,7 +2599,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -2625,7 +2625,7 @@ html
 "
 )
 {
-let
+const
 winListeners
 =
 this
@@ -2641,7 +2641,7 @@ ownerGlobal
 [
 ]
 ;
-let
+const
 docElementListeners
 =
 this
@@ -2655,7 +2655,7 @@ node
 [
 ]
 ;
-let
+const
 docListeners
 =
 this
@@ -2728,7 +2728,7 @@ function
 modifications
 )
 {
-let
+const
 rawNode
 =
 this
@@ -2737,7 +2737,7 @@ rawNode
 ;
 for
 (
-let
+const
 change
 of
 modifications
@@ -2839,7 +2839,7 @@ black
 "
 )
 {
-let
+const
 doc
 =
 this
@@ -2848,7 +2848,7 @@ rawNode
 .
 ownerDocument
 ;
-let
+const
 options
 =
 {
@@ -2863,7 +2863,7 @@ fillStyle
 fillStyle
 }
 ;
-let
+const
 {
 dataURL
 size
@@ -2911,7 +2911,7 @@ while
 current
 )
 {
-let
+const
 computedStyle
 =
 CssLogic
@@ -2921,7 +2921,7 @@ getComputedStyle
 current
 )
 ;
-let
+const
 currentStyle
 =
 computedStyle
@@ -2945,7 +2945,7 @@ currentStyle
 )
 )
 {
-let
+const
 currentCssColor
 =
 new
@@ -3160,7 +3160,7 @@ nodeList
 length
 )
 {
-let
+const
 items
 =
 Array

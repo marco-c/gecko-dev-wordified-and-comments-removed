@@ -38,7 +38,7 @@ url
 requestPostData
 )
 {
-let
+const
 win
 =
 Services
@@ -99,7 +99,7 @@ data
 }
 )
 {
-let
+const
 form
 =
 document
@@ -140,13 +140,13 @@ data
 {
 for
 (
-let
+const
 key
 in
 data
 )
 {
-let
+const
 input
 =
 document

@@ -483,7 +483,7 @@ addTab
 DOCUMENT_URL
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -561,7 +561,7 @@ style
 "
 )
 ;
-let
+const
 onTab
 =
 waitForTab
@@ -590,13 +590,13 @@ view
 0
 )
 ;
-let
+const
 tab
 =
 await
 onTab
 ;
-let
+const
 tabURI
 =
 tab
@@ -676,7 +676,7 @@ styleeditor
 "
 )
 ;
-let
+const
 onSwitch
 =
 waitForStyleEditor
@@ -700,7 +700,7 @@ view
 4
 )
 ;
-let
+const
 editor
 =
 await
@@ -765,7 +765,7 @@ selected
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -774,7 +774,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 onSelected
 =
 panel
@@ -838,7 +838,7 @@ view
 3
 )
 ;
-let
+const
 editor
 =
 await
@@ -903,7 +903,7 @@ selected
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -912,7 +912,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 onSelected
 =
 panel
@@ -976,7 +976,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -1046,7 +1046,7 @@ stylesheet
 "
 )
 ;
-let
+const
 href
 =
 editor
@@ -1062,7 +1062,7 @@ styleSheet
 .
 nodeHref
 ;
-let
+const
 expectedHref
 =
 await
@@ -1282,7 +1282,7 @@ link
 "
 )
 ;
-let
+const
 onStyleEditorSelected
 =
 toolbox
@@ -1556,7 +1556,7 @@ view
 index
 )
 {
-let
+const
 link
 =
 getRuleViewLinkByIndex
@@ -1565,7 +1565,7 @@ view
 index
 )
 ;
-let
+const
 unselectable
 =
 link
@@ -1596,7 +1596,7 @@ view
 index
 )
 {
-let
+const
 link
 =
 getRuleViewLinkByIndex

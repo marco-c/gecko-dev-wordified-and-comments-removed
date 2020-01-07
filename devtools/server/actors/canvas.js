@@ -277,7 +277,7 @@ function
 functionCall
 )
 {
-let
+const
 global
 =
 functionCall
@@ -286,21 +286,21 @@ details
 .
 global
 ;
-let
+const
 canvas
 =
 this
 .
 _contentCanvas
 ;
-let
+const
 calls
 =
 this
 .
 _functionCalls
 ;
-let
+const
 index
 =
 calls
@@ -310,7 +310,7 @@ indexOf
 functionCall
 )
 ;
-let
+const
 replayData
 =
 ContextUtils
@@ -336,7 +336,7 @@ index
 }
 )
 ;
-let
+const
 {
 replayContext
 replayContextScaling
@@ -346,7 +346,7 @@ doCleanup
 =
 replayData
 ;
-let
+const
 [
 left
 top
@@ -779,7 +779,7 @@ resumeRecording
 (
 )
 ;
-let
+const
 deferred
 =
 this
@@ -862,7 +862,7 @@ function
 functionCall
 )
 {
-let
+const
 {
 window
 name
@@ -1024,7 +1024,7 @@ function
 (
 )
 {
-let
+const
 functionCalls
 =
 this
@@ -1049,28 +1049,28 @@ _animationContainsDrawCall
 =
 false
 ;
-let
+const
 index
 =
 this
 .
 _lastDrawCallIndex
 ;
-let
+const
 width
 =
 this
 .
 _lastContentCanvasWidth
 ;
-let
+const
 height
 =
 this
 .
 _lastContentCanvasHeight
 ;
-let
+const
 flipped
 =
 !
@@ -1079,7 +1079,7 @@ this
 .
 _lastThumbnailFlipped
 ;
-let
+const
 pixels
 =
 ContextUtils
@@ -1093,7 +1093,7 @@ getPixelStorage
 "
 ]
 ;
-let
+const
 primitiveResult
 =
 this
@@ -1104,7 +1104,7 @@ getCounts
 (
 )
 ;
-let
+const
 animationFrameEndScreenshot
 =
 {
@@ -1138,7 +1138,7 @@ height
 )
 }
 ;
-let
+const
 frameSnapshot
 =
 new
@@ -1215,7 +1215,7 @@ function
 functionCall
 )
 {
-let
+const
 functionCalls
 =
 this
@@ -1226,7 +1226,7 @@ pauseRecording
 (
 )
 ;
-let
+const
 caller
 =
 functionCall
@@ -1235,7 +1235,7 @@ details
 .
 caller
 ;
-let
+const
 global
 =
 functionCall
@@ -1244,7 +1244,7 @@ details
 .
 global
 ;
-let
+const
 contentCanvas
 =
 this
@@ -1255,7 +1255,7 @@ caller
 .
 canvas
 ;
-let
+const
 index
 =
 this
@@ -1269,7 +1269,7 @@ indexOf
 functionCall
 )
 ;
-let
+const
 w
 =
 this
@@ -1280,7 +1280,7 @@ contentCanvas
 .
 width
 ;
-let
+const
 h
 =
 this
@@ -1291,7 +1291,7 @@ contentCanvas
 .
 height
 ;
-let
+const
 dimensions
 =
 CanvasFront
@@ -1317,7 +1317,7 @@ WebGLRenderingContext
 "
 )
 {
-let
+const
 framebufferBinding
 =
 caller
@@ -1493,7 +1493,7 @@ dstHeight
 srcHeight
 )
 {
-let
+const
 contentPixels
 =
 ContextUtils
@@ -1504,7 +1504,7 @@ srcWidth
 srcHeight
 )
 ;
-let
+const
 {
 "
 8bit
@@ -1579,7 +1579,7 @@ dstHeight
 srcHeight
 )
 {
-let
+const
 {
 data
 }
@@ -1594,7 +1594,7 @@ srcWidth
 srcHeight
 )
 ;
-let
+const
 {
 "
 32bit
@@ -1634,14 +1634,14 @@ srcHeight
 dstHeight
 )
 {
-let
+const
 screenshotRatio
 =
 dstHeight
 /
 srcHeight
 ;
-let
+const
 dstWidth
 =
 (
@@ -1652,7 +1652,7 @@ screenshotRatio
 |
 0
 ;
-let
+const
 dstPixels
 =
 new
@@ -1700,7 +1700,7 @@ dstY
 +
 )
 {
-let
+const
 srcX
 =
 (
@@ -1711,7 +1711,7 @@ screenshotRatio
 |
 0
 ;
-let
+const
 srcY
 =
 (
@@ -1722,7 +1722,7 @@ screenshotRatio
 |
 0
 ;
-let
+const
 cPos
 =
 srcX
@@ -1731,7 +1731,7 @@ srcWidth
 *
 srcY
 ;
-let
+const
 dPos
 =
 dstX
@@ -1740,7 +1740,7 @@ dstWidth
 *
 dstY
 ;
-let
+const
 color
 =
 dstPixels
@@ -1855,7 +1855,7 @@ WebGLRenderingContext
 "
 )
 {
-let
+const
 scaling
 =
 Math
@@ -1894,7 +1894,7 @@ scaling
 |
 0
 ;
-let
+const
 gl
 =
 replayContext
@@ -1906,7 +1906,7 @@ getWebGLContext
 canvas
 )
 ;
-let
+const
 {
 newFramebuffer
 oldFramebuffer
@@ -1925,7 +1925,7 @@ customFramebuffer
 =
 newFramebuffer
 ;
-let
+const
 {
 newViewport
 oldViewport
@@ -1985,14 +1985,14 @@ CanvasRenderingContext2D
 "
 )
 {
-let
+const
 contentDocument
 =
 canvas
 .
 ownerDocument
 ;
-let
+const
 replayCanvas
 =
 contentDocument
@@ -2058,7 +2058,7 @@ i
 +
 )
 {
-let
+const
 {
 type
 name
@@ -2114,7 +2114,7 @@ viewport
 "
 )
 {
-let
+const
 framebufferBinding
 =
 replayContext
@@ -2239,7 +2239,7 @@ h
 0
 )
 {
-let
+const
 storage
 =
 this
@@ -2294,7 +2294,7 @@ function
 buffer
 )
 {
-let
+const
 array8bit
 =
 new
@@ -2303,7 +2303,7 @@ Uint8Array
 buffer
 )
 ;
-let
+const
 array32bit
 =
 new
@@ -2344,7 +2344,7 @@ width
 height
 )
 {
-let
+const
 oldFramebuffer
 =
 gl
@@ -2356,7 +2356,7 @@ gl
 FRAMEBUFFER_BINDING
 )
 ;
-let
+const
 oldRenderbufferBinding
 =
 gl
@@ -2368,7 +2368,7 @@ gl
 RENDERBUFFER_BINDING
 )
 ;
-let
+const
 oldTextureBinding
 =
 gl
@@ -2380,7 +2380,7 @@ gl
 TEXTURE_BINDING_2D
 )
 ;
-let
+const
 newFramebuffer
 =
 gl
@@ -2399,7 +2399,7 @@ FRAMEBUFFER
 newFramebuffer
 )
 ;
-let
+const
 colorBuffer
 =
 gl
@@ -2501,7 +2501,7 @@ UNSIGNED_BYTE
 null
 )
 ;
-let
+const
 depthBuffer
 =
 gl
@@ -2603,7 +2603,7 @@ width
 height
 )
 {
-let
+const
 oldViewport
 =
 XPCNativeWrapper
@@ -2620,7 +2620,7 @@ VIEWPORT
 )
 )
 ;
-let
+const
 newViewport
 =
 [
@@ -2656,7 +2656,7 @@ functionArguments
 contentWindow
 )
 {
-let
+const
 {
 Object
 Array

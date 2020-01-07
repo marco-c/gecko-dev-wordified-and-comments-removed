@@ -75,7 +75,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -131,7 +131,7 @@ fields
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -156,7 +156,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -207,7 +207,7 @@ value
 =
 name
 ;
-let
+const
 onRuleViewChanged
 =
 once

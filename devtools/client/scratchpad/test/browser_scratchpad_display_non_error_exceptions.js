@@ -185,7 +185,7 @@ body
 )
 "
 ;
-let
+const
 tests
 =
 [

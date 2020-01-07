@@ -125,7 +125,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -145,7 +145,7 @@ div
 inspector
 )
 ;
-let
+const
 swatches
 =
 [
@@ -275,7 +275,7 @@ bezierswatch
 ;
 for
 (
-let
+const
 swatch
 of
 swatches
@@ -328,7 +328,7 @@ exists
 "
 )
 ;
-let
+const
 bezier
 =
 view
@@ -358,7 +358,7 @@ property
 "
 )
 ;
-let
+const
 bezierPanel
 =
 bezier
@@ -384,7 +384,7 @@ exists
 "
 )
 ;
-let
+const
 onBezierWidgetReady
 =
 bezier

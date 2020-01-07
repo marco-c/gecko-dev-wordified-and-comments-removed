@@ -75,7 +75,7 @@ inspector
 "
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -89,7 +89,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 selector
 of
 TEST_DATA
@@ -126,7 +126,7 @@ node
 "
 )
 ;
-let
+const
 data
 =
 await
@@ -162,7 +162,7 @@ correct
 ;
 for
 (
-let
+const
 region
 of
 [
@@ -181,7 +181,7 @@ content
 ]
 )
 {
-let
+const
 {
 points
 }
@@ -247,7 +247,7 @@ boxes
 "
 )
 ;
-let
+const
 expectedContentRect
 =
 {
@@ -299,7 +299,7 @@ Infinity
 ;
 for
 (
-let
+const
 {
 p1
 p2
@@ -473,7 +473,7 @@ y
 )
 ;
 }
-let
+const
 contentRect
 =
 await
@@ -485,7 +485,7 @@ getGuidesRectangle
 ;
 for
 (
-let
+const
 point
 of
 [

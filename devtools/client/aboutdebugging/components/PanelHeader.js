@@ -101,7 +101,7 @@ render
 (
 )
 {
-let
+const
 {
 name
 id

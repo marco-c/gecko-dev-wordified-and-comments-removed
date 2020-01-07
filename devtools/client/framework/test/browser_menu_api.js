@@ -78,7 +78,7 @@ toolbox
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -87,7 +87,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -97,7 +97,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -136,7 +136,7 @@ testMenuItems
 (
 )
 {
-let
+const
 menu
 =
 new
@@ -144,7 +144,7 @@ Menu
 (
 )
 ;
-let
+const
 menuItem1
 =
 new
@@ -152,7 +152,7 @@ MenuItem
 (
 )
 ;
-let
+const
 menuItem2
 =
 new
@@ -239,7 +239,7 @@ clickFired
 =
 false
 ;
-let
+const
 menu
 =
 new
@@ -273,7 +273,7 @@ separator
 )
 )
 ;
-let
+const
 MENU_ITEMS
 =
 [
@@ -379,7 +379,7 @@ true
 ;
 for
 (
-let
+const
 item
 of
 MENU_ITEMS
@@ -447,7 +447,7 @@ DOM
 "
 )
 ;
-let
+const
 menuSeparators
 =
 toolbox
@@ -482,7 +482,7 @@ menu
 "
 )
 ;
-let
+const
 menuItems
 =
 toolbox
@@ -764,7 +764,7 @@ open
 "
 )
 ;
-let
+const
 closed
 =
 once
@@ -841,7 +841,7 @@ clickFired
 =
 false
 ;
-let
+const
 menu
 =
 new
@@ -858,7 +858,7 @@ popup
 }
 )
 ;
-let
+const
 submenu
 =
 new
@@ -1042,7 +1042,7 @@ children
 "
 )
 ;
-let
+const
 menus
 =
 toolbox
@@ -1184,7 +1184,7 @@ id
 "
 )
 ;
-let
+const
 subMenuItems
 =
 menus
@@ -1248,7 +1248,7 @@ open
 "
 )
 ;
-let
+const
 closed
 =
 once
@@ -1310,7 +1310,7 @@ KEY_ArrowRight
 await
 shown
 ;
-let
+const
 hidden
 =
 once

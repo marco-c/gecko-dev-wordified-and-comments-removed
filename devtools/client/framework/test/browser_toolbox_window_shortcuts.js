@@ -90,7 +90,7 @@ toolIDs
 ;
 for
 (
-let
+const
 [
 id
 definition
@@ -101,7 +101,7 @@ gDevTools
 _tools
 )
 {
-let
+const
 shortcut
 =
 Startup
@@ -147,7 +147,7 @@ push
 shortcut
 )
 ;
-let
+const
 pref
 =
 definition
@@ -159,7 +159,7 @@ if
 pref
 )
 {
-let
+const
 prefValue
 =
 Services
@@ -198,7 +198,7 @@ true
 }
 }
 }
-let
+const
 target
 =
 TargetFactory
@@ -303,7 +303,7 @@ select
 selectCB
 )
 ;
-let
+const
 shortcut
 =
 toolShortcuts
@@ -311,21 +311,21 @@ toolShortcuts
 aIndex
 ]
 ;
-let
+const
 key
 =
 shortcut
 .
 shortcut
 ;
-let
+const
 toolModifiers
 =
 shortcut
 .
 modifiers
 ;
-let
+const
 modifiers
 =
 {
@@ -484,7 +484,7 @@ removeCurrentTab
 ;
 for
 (
-let
+const
 pref
 of
 modifiedPrefs

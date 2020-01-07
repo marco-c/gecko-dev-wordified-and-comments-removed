@@ -34,7 +34,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -45,7 +45,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 toolbarbutton
 =
 await
@@ -57,7 +57,7 @@ toolbarbutton
 inspector
 )
 ;
-let
+const
 children
 =
 await
@@ -123,7 +123,7 @@ inspector
 ;
 for
 (
-let
+const
 node
 of
 children

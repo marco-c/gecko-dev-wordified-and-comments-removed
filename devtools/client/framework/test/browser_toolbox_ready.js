@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -30,7 +30,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 target
 =
 TargetFactory

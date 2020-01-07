@@ -638,7 +638,7 @@ onKeyDown
 )
 ;
 }
-let
+const
 {
 autocomplete
 }
@@ -826,7 +826,7 @@ this
 .
 props
 ;
-let
+const
 {
 value
 }
@@ -835,7 +835,7 @@ this
 .
 state
 ;
-let
+const
 divClassList
 =
 [
@@ -853,7 +853,7 @@ btn
 "
 ]
 ;
-let
+const
 inputClassList
 =
 [
@@ -882,7 +882,7 @@ plaininput
 )
 ;
 }
-let
+const
 showAutocomplete
 =
 autocompleteProvider

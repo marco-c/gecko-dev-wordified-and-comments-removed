@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -103,7 +103,7 @@ d1
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -211,7 +211,7 @@ d3
 "
 )
 ;
-let
+const
 keys
 =
 [
@@ -403,7 +403,7 @@ keys
 }
 for
 (
-let
+const
 key
 of
 keys
@@ -426,7 +426,7 @@ box
 "
 )
 ;
-let
+const
 eventHandled
 =
 once
@@ -540,7 +540,7 @@ testActor
 expression
 )
 {
-let
+const
 onMutation
 =
 inspector

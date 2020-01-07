@@ -197,7 +197,7 @@ waitStartup
 ui
 )
 {
-let
+const
 {
 store
 }
@@ -253,7 +253,7 @@ Defaults
 "
 )
 ;
-let
+const
 dppx
 =
 await
@@ -335,7 +335,7 @@ testDevice
 height
 )
 ;
-let
+const
 dppx
 =
 await
@@ -404,7 +404,7 @@ viewport
 "
 )
 ;
-let
+const
 deviceRemoved
 =
 once
@@ -460,7 +460,7 @@ ui
 await
 deviceRemoved
 ;
-let
+const
 dppx
 =
 await
@@ -531,7 +531,7 @@ ui
 VIEWPORT_DPPX
 )
 ;
-let
+const
 dppx
 =
 await
@@ -596,7 +596,7 @@ Select
 "
 )
 ;
-let
+const
 select
 =
 ui
@@ -696,7 +696,7 @@ function
 args
 )
 {
-let
+const
 initial
 =
 content
@@ -735,7 +735,7 @@ resolve
 =
 >
 {
-let
+const
 mql
 =
 content

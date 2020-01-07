@@ -618,7 +618,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -631,7 +631,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 {
 selector
 attributes
@@ -659,7 +659,7 @@ selector
 inspector
 )
 ;
-let
+const
 {
 editor
 }
@@ -673,7 +673,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 attributeName
 links
@@ -692,7 +692,7 @@ attribute
 attributeName
 )
 ;
-let
+const
 linkEls
 =
 editor

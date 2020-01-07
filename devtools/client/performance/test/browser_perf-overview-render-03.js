@@ -121,17 +121,17 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -144,7 +144,7 @@ window
 }
 )
 ;
-let
+const
 {
 PerformanceController
 OverviewView
@@ -164,7 +164,7 @@ UI_ENABLE_MEMORY_PREF
 true
 )
 ;
-let
+const
 doChecks
 =
 (
@@ -172,7 +172,7 @@ doChecks
 =
 >
 {
-let
+const
 markers
 =
 OverviewView
@@ -186,7 +186,7 @@ timeline
 "
 )
 ;
-let
+const
 framerate
 =
 OverviewView
@@ -200,7 +200,7 @@ framerate
 "
 )
 ;
-let
+const
 memory
 =
 OverviewView
@@ -505,7 +505,7 @@ same
 ;
 }
 ;
-yield
+await
 startRecording
 (
 panel
@@ -515,7 +515,7 @@ doChecks
 (
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -535,7 +535,7 @@ getMarkers
 length
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -555,7 +555,7 @@ getMemory
 length
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -579,7 +579,7 @@ doChecks
 (
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -589,7 +589,7 @@ doChecks
 (
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

@@ -198,7 +198,7 @@ page
 "
 )
 ;
-let
+const
 {
 inspector
 tab
@@ -215,7 +215,7 @@ blank
 "
 )
 ;
-let
+const
 pageLoaded
 =
 BrowserTestUtils
@@ -275,7 +275,7 @@ node
 "
 )
 ;
-let
+const
 divFront
 =
 await

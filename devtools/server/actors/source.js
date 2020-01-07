@@ -245,7 +245,7 @@ isEvalSource
 source
 )
 {
-let
+const
 introType
 =
 source
@@ -584,7 +584,7 @@ null
 ;
 }
 }
-let
+const
 SourceActor
 =
 ActorClassWithSpec
@@ -1005,7 +1005,7 @@ function
 (
 )
 {
-let
+const
 source
 =
 this
@@ -1248,7 +1248,7 @@ e
 return
 ;
 }
-let
+const
 localURI
 =
 resolveURIToLocalPath
@@ -1265,7 +1265,7 @@ localURI
 return
 ;
 }
-let
+const
 id
 =
 mapURIToAddonID
@@ -1316,7 +1316,7 @@ Ci
 nsIFileURL
 )
 {
-let
+const
 target
 =
 localURI
@@ -1560,7 +1560,7 @@ s
 =
 >
 {
-let
+const
 hasSourceContent
 =
 map
@@ -1706,7 +1706,7 @@ function
 (
 )
 {
-let
+const
 toResolvedContent
 =
 t
@@ -1725,7 +1725,7 @@ _contentType
 }
 )
 ;
-let
+const
 isWasm
 =
 this
@@ -1745,7 +1745,7 @@ introductionType
 wasm
 "
 ;
-let
+const
 genSource
 =
 this
@@ -1782,7 +1782,7 @@ map
 {
 try
 {
-let
+const
 sourceContent
 =
 map
@@ -1837,7 +1837,7 @@ dbg
 allowWasmBinarySource
 )
 {
-let
+const
 wasm
 =
 this
@@ -1846,7 +1846,7 @@ source
 .
 binary
 ;
-let
+const
 buffer
 =
 wasm
@@ -1960,7 +1960,7 @@ text
 )
 ;
 }
-let
+const
 loadFromCache
 =
 this
@@ -1972,7 +1972,7 @@ this
 .
 isCacheEnabled
 ;
-let
+const
 win
 =
 this
@@ -2000,7 +2000,7 @@ Ci
 nsIDOMWindow
 )
 {
-let
+const
 webNav
 =
 win
@@ -2019,7 +2019,7 @@ Ci
 nsIWebNavigation
 )
 ;
-let
+const
 channel
 =
 webNav
@@ -2058,7 +2058,7 @@ cacheKey
 ;
 }
 }
-let
+const
 sourceFetched
 =
 fetch
@@ -2187,7 +2187,7 @@ sm
 =
 >
 {
-let
+const
 lines
 =
 new
@@ -2195,7 +2195,7 @@ Set
 (
 )
 ;
-let
+const
 offsets
 =
 this
@@ -2210,13 +2210,13 @@ false
 ;
 for
 (
-let
+const
 offset
 of
 offsets
 )
 {
-let
+const
 {
 line
 source
@@ -2272,7 +2272,7 @@ lines
 )
 ;
 }
-let
+const
 lines
 =
 this
@@ -2300,7 +2300,7 @@ source
 onlyLine
 )
 {
-let
+const
 offsets
 =
 new
@@ -2310,7 +2310,7 @@ Set
 ;
 for
 (
-let
+const
 s
 of
 this
@@ -2327,7 +2327,7 @@ source
 {
 for
 (
-let
+const
 offset
 of
 s
@@ -2704,7 +2704,7 @@ m
 =
 >
 {
-let
+const
 mapping
 =
 {
@@ -2792,7 +2792,7 @@ url
 code
 )
 ;
-let
+const
 consumer
 =
 SourceMapConsumer
@@ -2827,7 +2827,7 @@ sm
 }
 )
 {
-let
+const
 source
 =
 this
@@ -2839,7 +2839,7 @@ this
 .
 source
 ;
-let
+const
 sources
 =
 this
@@ -2911,7 +2911,7 @@ prevMap
 )
 ;
 }
-let
+const
 actorSources
 =
 this
@@ -2948,7 +2948,7 @@ function
 (
 )
 {
-let
+const
 source
 =
 this
@@ -2960,7 +2960,7 @@ this
 .
 source
 ;
-let
+const
 sources
 =
 this
@@ -3158,7 +3158,7 @@ paused
 "
 )
 {
-let
+const
 errorObject
 =
 {
@@ -3185,7 +3185,7 @@ throw
 errorObject
 ;
 }
-let
+const
 location
 =
 new
@@ -3214,7 +3214,7 @@ actor
 =
 >
 {
-let
+const
 response
 =
 {
@@ -3230,7 +3230,7 @@ actor
 isPending
 }
 ;
-let
+const
 actualLocation
 =
 actor
@@ -3747,7 +3747,7 @@ false
 ;
 for
 (
-let
+const
 generatedLocation
 of
 generatedLocations
@@ -3782,7 +3782,7 @@ actor
 generatedLocation
 )
 {
-let
+const
 {
 generatedSourceActor
 generatedLine
@@ -3860,7 +3860,7 @@ script
 )
 )
 ;
-let
+const
 entryPoints
 =
 [
@@ -3877,13 +3877,13 @@ undefined
 {
 for
 (
-let
+const
 script
 of
 scripts
 )
 {
-let
+const
 offsets
 =
 script
@@ -3955,7 +3955,7 @@ generatedLine
 ;
 for
 (
-let
+const
 [
 script
 columnToOffsetMap
@@ -3966,7 +3966,7 @@ columnToOffsetMaps
 {
 for
 (
-let
+const
 {
 columnNumber
 :
@@ -4021,7 +4021,7 @@ length
 {
 for
 (
-let
+const
 [
 script
 columnToOffsetMap

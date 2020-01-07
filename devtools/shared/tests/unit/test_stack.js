@@ -8,7 +8,7 @@ run_test
 (
 )
 {
-let
+const
 loader
 =
 new
@@ -16,7 +16,7 @@ DevToolsLoader
 (
 )
 ;
-let
+const
 require
 =
 loader
@@ -43,7 +43,7 @@ stack
 "
 )
 ;
-let
+const
 cache
 =
 new
@@ -57,7 +57,7 @@ initFrames
 (
 )
 ;
-let
+const
 baseFrame
 =
 {

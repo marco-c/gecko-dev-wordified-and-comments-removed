@@ -231,7 +231,7 @@ OK
 "
 )
 ;
-let
+const
 bos
 =
 new

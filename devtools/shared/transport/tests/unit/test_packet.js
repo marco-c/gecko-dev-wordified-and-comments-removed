@@ -42,7 +42,7 @@ test_packet_done
 (
 )
 {
-let
+const
 json
 =
 new
@@ -60,7 +60,7 @@ json
 done
 )
 ;
-let
+const
 bulk
 =
 new

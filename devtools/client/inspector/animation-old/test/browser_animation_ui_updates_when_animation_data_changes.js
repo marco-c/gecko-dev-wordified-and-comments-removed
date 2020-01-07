@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 controller
@@ -59,7 +59,7 @@ animated
 inspector
 )
 ;
-let
+const
 animation
 =
 controller
@@ -122,7 +122,7 @@ animated
 "
 )
 ;
-let
+const
 animationsEl
 =
 panel
@@ -131,7 +131,7 @@ animationsTimelineComponent
 .
 animationsEl
 ;
-let
+const
 timeBlockEl
 =
 animationsEl
@@ -146,14 +146,14 @@ block
 "
 )
 ;
-let
+const
 expectedTotalDuration
 =
 1695
 *
 1000
 ;
-let
+const
 delayWidth
 =
 parseFloat

@@ -44,7 +44,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -57,7 +57,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -66,7 +66,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 PerformanceFront
@@ -82,7 +82,7 @@ connect
 (
 )
 ;
-let
+const
 rec
 =
 await
@@ -228,7 +228,7 @@ recording
 "
 )
 ;
-let
+const
 stopping
 =
 once
@@ -241,7 +241,7 @@ stopping
 "
 )
 ;
-let
+const
 stopped
 =
 once
@@ -434,7 +434,7 @@ Client
 "
 )
 ;
-let
+const
 file
 =
 FileUtils
@@ -479,7 +479,7 @@ exportRecording
 file
 )
 ;
-let
+const
 importedModel
 =
 await
@@ -590,7 +590,7 @@ recording
 type
 )
 {
-let
+const
 data
 =
 recording
@@ -606,7 +606,7 @@ SystemInfo
 ;
 for
 (
-let
+const
 field
 of
 [

@@ -106,7 +106,7 @@ reject
 =
 >
 {
-let
+const
 request
 =
 indexedDB
@@ -167,7 +167,7 @@ function
 event
 )
 {
-let
+const
 db
 =
 event
@@ -202,7 +202,7 @@ function
 (
 )
 {
-let
+const
 db
 =
 IDB
@@ -213,7 +213,7 @@ request
 .
 result
 ;
-let
+const
 objectStore
 =
 db
@@ -232,13 +232,13 @@ projects
 "
 )
 ;
-let
+const
 projects
 =
 [
 ]
 ;
-let
+const
 toRemove
 =
 [
@@ -257,7 +257,7 @@ function
 event
 )
 {
-let
+const
 cursor
 =
 event
@@ -282,7 +282,7 @@ location
 {
 try
 {
-let
+const
 file
 =
 FileUtils
@@ -368,7 +368,7 @@ continue
 }
 else
 {
-let
+const
 removePromises
 =
 [
@@ -376,7 +376,7 @@ removePromises
 ;
 for
 (
-let
+const
 location
 of
 toRemove
@@ -468,7 +468,7 @@ object
 }
 else
 {
-let
+const
 transaction
 =
 IDB
@@ -487,7 +487,7 @@ readwrite
 "
 )
 ;
-let
+const
 objectStore
 =
 transaction
@@ -499,7 +499,7 @@ projects
 "
 )
 ;
-let
+const
 request
 =
 objectStore
@@ -588,7 +588,7 @@ reject
 =
 >
 {
-let
+const
 transaction
 =
 IDB
@@ -607,7 +607,7 @@ readwrite
 "
 )
 ;
-let
+const
 objectStore
 =
 transaction
@@ -619,7 +619,7 @@ projects
 "
 )
 ;
-let
+const
 request
 =
 objectStore
@@ -707,7 +707,7 @@ reject
 =
 >
 {
-let
+const
 request
 =
 IDB
@@ -856,7 +856,7 @@ function
 folder
 )
 {
-let
+const
 file
 =
 FileUtils
@@ -893,7 +893,7 @@ exist
 )
 ;
 }
-let
+const
 existingProject
 =
 this
@@ -922,7 +922,7 @@ added
 )
 ;
 }
-let
+const
 project
 =
 {
@@ -992,7 +992,7 @@ function
 manifestURL
 )
 {
-let
+const
 existingProject
 =
 this
@@ -1019,7 +1019,7 @@ added
 )
 ;
 }
-let
+const
 project
 =
 {

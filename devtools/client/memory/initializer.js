@@ -130,7 +130,7 @@ function
 (
 )
 {
-let
+const
 {
 gFront
 gToolbox
@@ -264,14 +264,14 @@ onStateChange
 (
 )
 {
-let
+const
 {
 gToolbox
 }
 =
 window
 ;
-let
+const
 isRecording
 =
 store

@@ -290,7 +290,7 @@ Scratchpad
 "
 )
 ;
-let
+const
 oldContent
 =
 gFileContent
@@ -316,7 +316,7 @@ setText
 gFileContent
 )
 ;
-let
+const
 oldConfirm
 =
 gScratchpadWindow
@@ -386,7 +386,7 @@ gFileContent
 =
 oldContent
 ;
-let
+const
 channel
 =
 NetUtil
@@ -474,7 +474,7 @@ successfully
 "
 )
 ;
-let
+const
 updatedContent
 =
 NetUtil

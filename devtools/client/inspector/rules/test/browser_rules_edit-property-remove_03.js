@@ -81,7 +81,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -115,7 +115,7 @@ rule
 "
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -165,7 +165,7 @@ editor
 valueSpan
 )
 ;
-let
+const
 onValueDone
 =
 view
@@ -289,7 +289,7 @@ value
 "
 )
 ;
-let
+const
 onValueFocused
 =
 view
@@ -396,7 +396,7 @@ name
 "
 )
 ;
-let
+const
 onNameFocused
 =
 view
@@ -448,7 +448,7 @@ selector
 "
 )
 ;
-let
+const
 onNameDeleted
 =
 view

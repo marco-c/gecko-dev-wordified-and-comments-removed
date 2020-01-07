@@ -63,7 +63,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -83,7 +83,7 @@ popup
 =
 jsterm
 ;
-let
+const
 onPopUpOpen
 =
 popup
@@ -129,7 +129,7 @@ sendString
 await
 onPopUpOpen
 ;
-let
+const
 popupItems
 =
 popup

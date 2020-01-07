@@ -103,7 +103,7 @@ function
 target
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -134,7 +134,7 @@ target
 changeHandler
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -153,7 +153,7 @@ toolbox
 return
 ;
 }
-let
+const
 callback
 =
 changeHandler
@@ -215,7 +215,7 @@ args
 context
 )
 {
-let
+const
 target
 =
 context
@@ -224,7 +224,7 @@ environment
 .
 target
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -340,7 +340,7 @@ args
 context
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -366,7 +366,7 @@ return
 null
 ;
 }
-let
+const
 panel
 =
 toolbox
@@ -390,7 +390,7 @@ return
 null
 ;
 }
-let
+const
 onceMessagesCleared
 =
 panel

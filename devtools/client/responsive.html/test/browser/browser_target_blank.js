@@ -69,7 +69,7 @@ ui
 }
 )
 {
-let
+const
 store
 =
 ui
@@ -102,7 +102,7 @@ ui
 TEST_URL
 )
 ;
-let
+const
 newTabPromise
 =
 BrowserTestUtils
@@ -140,7 +140,7 @@ click
 }
 )
 ;
-let
+const
 newTab
 =
 await

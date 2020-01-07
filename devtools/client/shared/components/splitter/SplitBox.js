@@ -349,7 +349,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 endPanelControl
 splitterSize
@@ -625,7 +625,7 @@ splitBox
 .
 ownerDocument
 ;
-let
+const
 defaultCursor
 =
 doc
@@ -892,7 +892,7 @@ this
 .
 props
 ;
-let
+const
 style
 =
 Object
@@ -1098,7 +1098,7 @@ null
 }
 ;
 }
-let
+const
 splitterStyle
 =
 {

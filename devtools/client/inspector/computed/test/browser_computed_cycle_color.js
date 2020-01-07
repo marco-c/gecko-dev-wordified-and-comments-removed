@@ -80,7 +80,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -169,7 +169,7 @@ container
 view
 )
 {
-let
+const
 valueNode
 =
 container
@@ -184,7 +184,7 @@ color
 "
 )
 ;
-let
+const
 win
 =
 view
@@ -215,7 +215,7 @@ value
 "
 )
 ;
-let
+const
 tests
 =
 [
@@ -310,7 +310,7 @@ again
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -341,7 +341,7 @@ expectedValue
 comment
 )
 {
-let
+const
 swatch
 =
 container
@@ -356,7 +356,7 @@ colorswatch
 "
 )
 ;
-let
+const
 valueNode
 =
 container
@@ -377,7 +377,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 onUnitChange
 =
 swatch

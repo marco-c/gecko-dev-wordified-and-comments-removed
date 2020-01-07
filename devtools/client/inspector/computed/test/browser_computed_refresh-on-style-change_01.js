@@ -64,7 +64,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -135,7 +135,7 @@ update
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -211,7 +211,7 @@ size
 "
 )
 ;
-let
+const
 color
 =
 getComputedViewPropertyValue

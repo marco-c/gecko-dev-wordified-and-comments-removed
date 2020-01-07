@@ -75,7 +75,7 @@ function
 (
 )
 {
-let
+const
 threadNode
 =
 new
@@ -100,7 +100,7 @@ true
 }
 )
 ;
-let
+const
 treeRoot
 =
 new
@@ -116,7 +116,7 @@ true
 }
 )
 ;
-let
+const
 container
 =
 document

@@ -40,7 +40,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -66,7 +66,7 @@ one
 inspector
 )
 ;
-let
+const
 willNavigate
 =
 inspector
@@ -193,7 +193,7 @@ assertMarkupViewIsLoaded
 (
 )
 {
-let
+const
 markupViewBox
 =
 inspector
@@ -233,7 +233,7 @@ assertMarkupViewIsEmpty
 (
 )
 {
-let
+const
 markupViewBox
 =
 inspector

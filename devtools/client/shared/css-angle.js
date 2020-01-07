@@ -169,7 +169,7 @@ valid
 (
 )
 {
-let
+const
 token
 =
 getCSSLexer
@@ -247,7 +247,7 @@ deg
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -269,7 +269,7 @@ return
 invalidOrSpecialValue
 ;
 }
-let
+const
 angleUnit
 =
 classifyAngle
@@ -427,7 +427,7 @@ rad
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -449,7 +449,7 @@ return
 invalidOrSpecialValue
 ;
 }
-let
+const
 unit
 =
 classifyAngle
@@ -623,7 +623,7 @@ grad
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -645,7 +645,7 @@ return
 invalidOrSpecialValue
 ;
 }
-let
+const
 unit
 =
 classifyAngle
@@ -807,7 +807,7 @@ turn
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -829,7 +829,7 @@ return
 invalidOrSpecialValue
 ;
 }
-let
+const
 unit
 =
 classifyAngle
@@ -1059,7 +1059,7 @@ authored
 =
 angle
 ;
-let
+const
 reg
 =
 new
@@ -1089,7 +1089,7 @@ i
 "
 )
 ;
-let
+const
 unitStartIdx
 =
 angle
@@ -1147,7 +1147,7 @@ this
 ANGLEUNIT
 )
 ;
-let
+const
 putOnEnd
 =
 formats
@@ -1174,7 +1174,7 @@ concat
 putOnEnd
 )
 ;
-let
+const
 currentDisplayedValue
 =
 this
@@ -1187,7 +1187,7 @@ formats
 ;
 for
 (
-let
+const
 format
 of
 formats

@@ -222,7 +222,7 @@ tab
 return
 ;
 }
-let
+const
 {
 clientType
 }
@@ -311,7 +311,7 @@ actions
 getState
 )
 {
-let
+const
 ChromeConnector
 =
 require
@@ -354,7 +354,7 @@ actions
 getState
 )
 {
-let
+const
 FirefoxConnector
 =
 require

@@ -74,7 +74,7 @@ works
 "
 )
 ;
-let
+const
 actor
 =
 new
@@ -85,7 +85,7 @@ NodeListActor
 nodelist
 )
 ;
-let
+const
 form
 =
 actor

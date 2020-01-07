@@ -11,7 +11,7 @@ async
 =
 >
 {
-let
+const
 {
 tab
 monitor
@@ -34,7 +34,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -45,7 +45,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -100,7 +100,7 @@ false
 }
 )
 ;
-let
+const
 requestsDone
 =
 waitForAllRequestsFinished
@@ -108,7 +108,7 @@ waitForAllRequestsFinished
 monitor
 )
 ;
-let
+const
 markersDone
 =
 waitForTimelineMarkers
@@ -135,7 +135,7 @@ markersDone
 ]
 )
 ;
-let
+const
 statusBar
 =
 document
@@ -152,7 +152,7 @@ bottom
 "
 )
 ;
-let
+const
 requestCount
 =
 statusBar
@@ -173,7 +173,7 @@ count
 "
 )
 ;
-let
+const
 size
 =
 statusBar
@@ -194,7 +194,7 @@ transfer
 "
 )
 ;
-let
+const
 onContentLoad
 =
 statusBar
@@ -211,7 +211,7 @@ loaded
 "
 )
 ;
-let
+const
 onLoad
 =
 statusBar

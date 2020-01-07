@@ -27,7 +27,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -78,7 +78,7 @@ pacman
 "
 )
 ;
-let
+const
 rules
 =
 await
@@ -160,7 +160,7 @@ boxy
 "
 )
 ;
-let
+const
 rules
 =
 await
@@ -336,14 +336,14 @@ selector
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 rules
 =
 {

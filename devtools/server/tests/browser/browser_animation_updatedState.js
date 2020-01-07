@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -78,7 +78,7 @@ animation
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -111,7 +111,7 @@ node
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -188,7 +188,7 @@ finish
 "
 )
 ;
-let
+const
 onFinished
 =
 waitForAnimationPlayState

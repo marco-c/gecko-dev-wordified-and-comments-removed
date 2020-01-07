@@ -68,7 +68,7 @@ getState
 )
 )
 ;
-let
+const
 defaultSelectedId
 =
 visibleRequestItems

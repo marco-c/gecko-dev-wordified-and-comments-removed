@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -77,7 +77,7 @@ node
 "
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering
@@ -185,7 +185,7 @@ panel
 inspector
 )
 {
-let
+const
 onPanelUpdated
 =
 panel
@@ -197,7 +197,7 @@ panel
 UI_UPDATED_EVENT
 )
 ;
-let
+const
 onInspectorUpdated
 =
 inspector

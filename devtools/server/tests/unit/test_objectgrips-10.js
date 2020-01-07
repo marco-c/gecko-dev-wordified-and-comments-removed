@@ -108,7 +108,7 @@ event
 packet
 )
 {
-let
+const
 person
 =
 packet
@@ -137,7 +137,7 @@ Object
 "
 )
 ;
-let
+const
 personClient
 =
 gThreadClient
@@ -211,7 +211,7 @@ Function
 "
 )
 ;
-let
+const
 getNameClient
 =
 gThreadClient
@@ -227,7 +227,7 @@ getName
 value
 )
 ;
-let
+const
 getAgeClient
 =
 gThreadClient
@@ -243,7 +243,7 @@ getAge
 value
 )
 ;
-let
+const
 getFooClient
 =
 gThreadClient

@@ -200,7 +200,7 @@ type
 ]
 ;
 }
-let
+const
 exists
 =
 list
@@ -278,7 +278,7 @@ loadLocalDevices
 (
 )
 ;
-let
+const
 list
 =
 localDevices
@@ -296,7 +296,7 @@ return
 false
 ;
 }
-let
+const
 index
 =
 list
@@ -381,7 +381,7 @@ getDevices
 (
 )
 {
-let
+const
 devices
 =
 await
@@ -397,7 +397,7 @@ loadLocalDevices
 ;
 for
 (
-let
+const
 type
 in
 localDevices

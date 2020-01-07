@@ -21,8 +21,8 @@ l10n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -69,7 +69,7 @@ string
 }
 "
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -78,7 +78,7 @@ TEST_JSON_URL
 let
 count
 =
-yield
+await
 getElementCount
 (
 "
@@ -104,7 +104,7 @@ rows
 "
 )
 ;
-yield
+await
 clickJsonNode
 (
 "
@@ -119,7 +119,7 @@ treeLabel
 ;
 count
 =
-yield
+await
 getElementCount
 (
 "
@@ -145,10 +145,10 @@ row
 "
 )
 ;
-let
+const
 label
 =
-yield
+await
 getElementText
 (
 "

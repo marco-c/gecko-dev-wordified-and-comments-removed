@@ -29,7 +29,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -52,7 +52,7 @@ test
 "
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -63,7 +63,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -83,7 +83,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -105,7 +105,7 @@ index
 "
 )
 ;
-let
+const
 {
 getLongString
 requestData
@@ -125,7 +125,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -164,7 +164,7 @@ url
 await
 wait
 ;
-let
+const
 requests
 =
 {
@@ -432,7 +432,7 @@ testIsUrlEncodedRequest
 data
 )
 {
-let
+const
 isUrlEncoded
 =
 CurlUtils
@@ -464,7 +464,7 @@ testIsMultipartRequest
 data
 )
 {
-let
+const
 isMultipart
 =
 CurlUtils
@@ -499,14 +499,14 @@ testFindHeader
 data
 )
 {
-let
+const
 headers
 =
 data
 .
 headers
 ;
-let
+const
 hostName
 =
 CurlUtils
@@ -519,7 +519,7 @@ Host
 "
 )
 ;
-let
+const
 requestedWithLowerCased
 =
 CurlUtils
@@ -536,7 +536,7 @@ with
 "
 )
 ;
-let
+const
 doesNotExist
 =
 CurlUtils
@@ -623,14 +623,14 @@ testMultiPartHeaders
 data
 )
 {
-let
+const
 headers
 =
 data
 .
 headers
 ;
-let
+const
 contentType
 =
 CurlUtils
@@ -684,7 +684,7 @@ testWritePostDataTextParams
 data
 )
 {
-let
+const
 params
 =
 CurlUtils
@@ -732,7 +732,7 @@ testWriteEmptyPostDataTextParams
 data
 )
 {
-let
+const
 params
 =
 CurlUtils
@@ -767,7 +767,7 @@ testDataArgumentOnGeneratedCommand
 data
 )
 {
-let
+const
 curlCommand
 =
 Curl
@@ -809,7 +809,7 @@ testGetMultipartBoundary
 data
 )
 {
-let
+const
 boundary
 =
 CurlUtils
@@ -857,7 +857,7 @@ testRemoveBinaryDataFromMultipartText
 data
 )
 {
-let
+const
 generatedBoundary
 =
 CurlUtils
@@ -867,14 +867,14 @@ getMultipartBoundary
 data
 )
 ;
-let
+const
 text
 =
 data
 .
 postDataText
 ;
-let
+const
 binaryRemoved
 =
 CurlUtils
@@ -885,7 +885,7 @@ text
 generatedBoundary
 )
 ;
-let
+const
 boundary
 =
 "
@@ -1304,7 +1304,7 @@ testGetHeadersFromMultipartText
 data
 )
 {
-let
+const
 headers
 =
 CurlUtils
@@ -1388,7 +1388,7 @@ testEscapeStringPosix
 (
 )
 {
-let
+const
 surroundedWithQuotes
 =
 "
@@ -1425,7 +1425,7 @@ quotes
 "
 )
 ;
-let
+const
 singleQuotes
 =
 "
@@ -1477,7 +1477,7 @@ escaped
 "
 )
 ;
-let
+const
 newLines
 =
 "
@@ -1530,7 +1530,7 @@ escaped
 "
 )
 ;
-let
+const
 controlChars
 =
 "
@@ -1578,7 +1578,7 @@ escaped
 "
 )
 ;
-let
+const
 extendedAsciiChars
 =
 "
@@ -1656,7 +1656,7 @@ testEscapeStringWin
 (
 )
 {
-let
+const
 surroundedWithDoubleQuotes
 =
 "
@@ -1693,7 +1693,7 @@ quotes
 "
 )
 ;
-let
+const
 doubleQuotes
 =
 "
@@ -1751,7 +1751,7 @@ escaped
 "
 )
 ;
-let
+const
 percentSigns
 =
 "
@@ -1789,7 +1789,7 @@ escaped
 "
 )
 ;
-let
+const
 backslashes
 =
 "
@@ -1834,7 +1834,7 @@ escaped
 "
 )
 ;
-let
+const
 newLines
 =
 "
@@ -1897,7 +1897,7 @@ getLongString
 requestData
 )
 {
-let
+const
 {
 id
 url
@@ -1907,7 +1907,7 @@ httpVersion
 =
 selected
 ;
-let
+const
 data
 =
 {
@@ -1923,7 +1923,7 @@ postDataText
 null
 }
 ;
-let
+const
 requestHeaders
 =
 await
@@ -1937,7 +1937,7 @@ requestHeaders
 ;
 for
 (
-let
+const
 {
 name
 value
@@ -1948,7 +1948,7 @@ requestHeaders
 headers
 )
 {
-let
+const
 text
 =
 await
@@ -1974,7 +1974,7 @@ text
 )
 ;
 }
-let
+const
 requestPostData
 =
 await
@@ -1991,7 +1991,7 @@ if
 requestPostData
 )
 {
-let
+const
 postData
 =
 requestPostData

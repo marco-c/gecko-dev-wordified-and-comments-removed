@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -32,7 +32,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -55,7 +55,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -66,7 +66,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire

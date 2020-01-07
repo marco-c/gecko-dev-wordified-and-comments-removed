@@ -22,12 +22,12 @@ started
 "
 )
 ;
-let
+const
 numRows
 =
 1e3
 ;
-let
+const
 json
 =
 JSON
@@ -55,7 +55,7 @@ i
 )
 )
 ;
-let
+const
 tab
 =
 await
@@ -113,7 +113,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -206,7 +206,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -289,7 +289,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -376,7 +376,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -433,12 +433,12 @@ started
 "
 )
 ;
-let
+const
 numRows
 =
 4
 ;
-let
+const
 tab
 =
 await
@@ -599,7 +599,7 @@ started
 "
 )
 ;
-let
+const
 json
 =
 JSON
@@ -678,7 +678,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -695,7 +695,7 @@ panelContent
 "
 )
 ;
-let
+const
 row
 =
 content
@@ -782,7 +782,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -799,7 +799,7 @@ panelContent
 "
 )
 ;
-let
+const
 row
 =
 content
@@ -899,7 +899,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -937,7 +937,7 @@ bottom
 "
 )
 ;
-let
+const
 row
 =
 content
@@ -974,7 +974,7 @@ assertRowSelected
 2
 )
 ;
-let
+const
 scroll
 =
 await
@@ -990,7 +990,7 @@ function
 (
 )
 {
-let
+const
 scroller
 =
 content
@@ -1007,7 +1007,7 @@ panelContent
 "
 )
 ;
-let
+const
 row
 =
 content
@@ -1057,7 +1057,7 @@ row
 "
 )
 ;
-let
+const
 scrollPos
 =
 scroller
@@ -1165,7 +1165,7 @@ function
 scrollPos
 )
 {
-let
+const
 scroller
 =
 content
@@ -1209,7 +1209,7 @@ assertRowSelected
 rowNum
 )
 {
-let
+const
 idx
 =
 await

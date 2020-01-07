@@ -189,7 +189,7 @@ url
 }
 )
 ;
-let
+const
 tab
 =
 gBrowser
@@ -286,7 +286,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -299,7 +299,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -308,7 +308,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 inspector
 =
 InspectorFront
@@ -317,7 +317,7 @@ client
 form
 )
 ;
-let
+const
 walker
 =
 await
@@ -327,7 +327,7 @@ getWalker
 (
 )
 ;
-let
+const
 animations
 =
 AnimationsFront
@@ -380,7 +380,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -393,7 +393,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -402,7 +402,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 inspector
 =
 InspectorFront
@@ -411,7 +411,7 @@ client
 form
 )
 ;
-let
+const
 walker
 =
 await
@@ -421,7 +421,7 @@ getWalker
 (
 )
 ;
-let
+const
 layout
 =
 await
@@ -493,7 +493,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -506,7 +506,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -515,7 +515,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 inspector
 =
 InspectorFront
@@ -524,7 +524,7 @@ client
 form
 )
 ;
-let
+const
 walker
 =
 await
@@ -534,7 +534,7 @@ getWalker
 (
 )
 ;
-let
+const
 accessibility
 =
 AccessibilityFront
@@ -638,7 +638,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -814,7 +814,7 @@ resolve
 {
 for
 (
-let
+const
 [
 add
 remove
@@ -1030,7 +1030,7 @@ busyWait
 time
 )
 {
-let
+const
 start
 =
 Date
@@ -1183,7 +1183,7 @@ filteredMarkers
 [
 ]
 ;
-let
+const
 {
 promise
 resolve
@@ -1238,7 +1238,7 @@ markers
 return
 ;
 }
-let
+const
 markers
 =
 unpackFun
@@ -1385,7 +1385,7 @@ handler
 task
 )
 {
-let
+const
 promise
 =
 emitter
@@ -1444,7 +1444,7 @@ front
 }
 for
 (
-let
+const
 key
 in
 expected
@@ -1529,7 +1529,7 @@ resolve
 =
 >
 {
-let
+const
 observe
 =
 (

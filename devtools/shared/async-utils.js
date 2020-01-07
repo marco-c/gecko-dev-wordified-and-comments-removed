@@ -25,7 +25,7 @@ resolve
 reject
 )
 {
-let
+const
 onEvent
 =
 function

@@ -182,7 +182,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -193,7 +193,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 {
 searchBox
 searchClearButton
@@ -224,7 +224,7 @@ shown
 "
 )
 ;
-let
+const
 command
 =
 once

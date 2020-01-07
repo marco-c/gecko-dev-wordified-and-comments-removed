@@ -233,7 +233,7 @@ this
 actorID
 ;
 }
-let
+const
 form
 =
 {
@@ -381,7 +381,7 @@ this
 actorID
 ;
 }
-let
+const
 gridFragments
 =
 this
@@ -401,7 +401,7 @@ getStringifiableFragments
 gridFragments
 )
 ;
-let
+const
 {
 direction
 writingMode
@@ -416,7 +416,7 @@ this
 containerEl
 )
 ;
-let
+const
 form
 =
 {
@@ -572,7 +572,7 @@ node
 rawNode
 ;
 }
-let
+const
 treeWalker
 =
 this
@@ -918,7 +918,7 @@ node
 documentElement
 ;
 }
-let
+const
 gridElements
 =
 node
@@ -945,7 +945,7 @@ n
 )
 )
 ;
-let
+const
 frames
 =
 node
@@ -960,7 +960,7 @@ frame
 ;
 for
 (
-let
+const
 frame
 of
 frames

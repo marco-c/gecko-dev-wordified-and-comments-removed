@@ -85,7 +85,7 @@ popupShown
 (
 )
 {
-let
+const
 notification
 =
 win
@@ -138,7 +138,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -147,14 +147,14 @@ addTab
 DUMMY_URL
 )
 ;
-let
+const
 browser
 =
 tab
 .
 linkedBrowser
 ;
-let
+const
 win
 =
 browser
@@ -200,7 +200,7 @@ browser
 DUMMY_URL
 )
 ;
-let
+const
 {
 ui
 }
@@ -211,7 +211,7 @@ openRDM
 tab
 )
 ;
-let
+const
 newBrowser
 =
 ui

@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 ui
 }
@@ -94,7 +94,7 @@ hidden
 "
 )
 ;
-let
+const
 url
 =
 "
@@ -140,7 +140,7 @@ sheet
 "
 )
 ;
-let
+const
 originalOpenWebLinkIn
 =
 ui
@@ -149,7 +149,7 @@ _window
 .
 openWebLinkIn
 ;
-let
+const
 tabOpenedDefer
 =
 new

@@ -53,7 +53,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -111,7 +111,7 @@ shown
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openStyleContextMenuAndGetAllItems
@@ -122,7 +122,7 @@ view
 element
 )
 ;
-let
+const
 menuitemAddRule
 =
 allMenuItems
@@ -182,7 +182,7 @@ event
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -212,7 +212,7 @@ testNewRule
 view
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -221,7 +221,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 ruleEditor

@@ -164,7 +164,7 @@ h1
 }
 )
 ;
-let
+const
 msg
 =
 await
@@ -185,7 +185,7 @@ h1
 )
 )
 ;
-let
+const
 node
 =
 msg
@@ -216,7 +216,7 @@ expected
 "
 )
 ;
-let
+const
 openInInspectorIcon
 =
 node
@@ -271,7 +271,7 @@ selected
 "
 )
 ;
-let
+const
 onInspectorSelected
 =
 toolbox
@@ -285,7 +285,7 @@ selected
 "
 )
 ;
-let
+const
 onInspectorUpdated
 =
 inspector
@@ -299,7 +299,7 @@ updated
 "
 )
 ;
-let
+const
 onNewNode
 =
 toolbox
@@ -329,7 +329,7 @@ onInspectorSelected
 await
 onInspectorUpdated
 ;
-let
+const
 nodeFront
 =
 await

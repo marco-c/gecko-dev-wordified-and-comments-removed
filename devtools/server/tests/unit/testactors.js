@@ -150,7 +150,7 @@ name
 {
 for
 (
-let
+const
 g
 of
 gTestGlobals
@@ -207,13 +207,13 @@ connection
 ;
 for
 (
-let
+const
 global
 of
 gTestGlobals
 )
 {
-let
+const
 actor
 =
 new
@@ -319,7 +319,7 @@ createRootActor
 connection
 )
 {
-let
+const
 root
 =
 new
@@ -553,7 +553,7 @@ function
 (
 )
 {
-let
+const
 response
 =
 {
@@ -571,7 +571,7 @@ _global
 __name
 }
 ;
-let
+const
 actorPool
 =
 new
@@ -644,7 +644,7 @@ _attached
 =
 true
 ;
-let
+const
 response
 =
 {

@@ -140,7 +140,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -152,7 +152,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 testData
 =
 [
@@ -188,7 +188,7 @@ circle
 ;
 for
 (
-let
+const
 currTest
 of
 testData
@@ -235,7 +235,7 @@ selector
 inspector
 )
 ;
-let
+const
 tag
 =
 await

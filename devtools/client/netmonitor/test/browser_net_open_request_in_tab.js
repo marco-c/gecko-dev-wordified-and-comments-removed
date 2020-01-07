@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -44,7 +44,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 contextMenuDoc
 =
 monitor
@@ -55,7 +55,7 @@ parent
 .
 document
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -170,7 +170,7 @@ openLastRequestInTab
 (
 )
 {
-let
+const
 wait
 =
 waitForDOM
@@ -188,7 +188,7 @@ newtab
 "
 )
 ;
-let
+const
 requestItems
 =
 document
@@ -205,7 +205,7 @@ item
 "
 )
 ;
-let
+const
 lastRequest
 =
 requestItems
@@ -248,7 +248,7 @@ lastRequest
 await
 wait
 ;
-let
+const
 onTabOpen
 =
 once
@@ -304,7 +304,7 @@ opened
 "
 )
 ;
-let
+const
 awaitedTab
 =
 gBrowser
@@ -342,7 +342,7 @@ performRequest
 method
 )
 {
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -405,7 +405,7 @@ function
 met
 )
 {
-let
+const
 {
 body
 }
@@ -416,7 +416,7 @@ wrappedJSObject
 .
 document
 ;
-let
+const
 responseRE
 =
 RegExp

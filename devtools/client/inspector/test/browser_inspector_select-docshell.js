@@ -120,7 +120,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 toolbox
@@ -166,7 +166,7 @@ assertMarkupViewIsLoaded
 inspector
 )
 ;
-let
+const
 btn
 =
 toolbox
@@ -204,7 +204,7 @@ children
 "
 )
 ;
-let
+const
 menu
 =
 await
@@ -228,7 +228,7 @@ open
 "
 )
 ;
-let
+const
 frames
 =
 menu
@@ -320,7 +320,7 @@ list
 "
 )
 ;
-let
+const
 willNavigate
 =
 toolbox
@@ -368,7 +368,7 @@ inspector
 }
 )
 ;
-let
+const
 newRoot
 =
 inspector
@@ -532,7 +532,7 @@ assertMarkupViewIsLoaded
 inspector
 )
 {
-let
+const
 markupViewBox
 =
 inspector
@@ -573,7 +573,7 @@ assertMarkupViewIsEmpty
 inspector
 )
 {
-let
+const
 markupViewBox
 =
 inspector

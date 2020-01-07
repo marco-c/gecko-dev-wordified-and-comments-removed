@@ -130,7 +130,7 @@ allocationSamplingProbability
 ;
 for
 (
-let
+const
 [
 func
 n
@@ -364,7 +364,7 @@ stack
 "
 )
 ;
-let
+const
 stacks
 =
 {

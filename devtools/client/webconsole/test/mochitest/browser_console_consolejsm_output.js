@@ -11,7 +11,7 @@ testCategoryLogs
 (
 )
 {
-let
+const
 consoleStorage
 =
 Cc
@@ -29,7 +29,7 @@ storage
 "
 ]
 ;
-let
+const
 storage
 =
 consoleStorage
@@ -47,7 +47,7 @@ clearEvents
 (
 )
 ;
-let
+const
 {
 console
 }
@@ -86,7 +86,7 @@ cached
 "
 )
 ;
-let
+const
 hud
 =
 await
@@ -139,7 +139,7 @@ foobarTimer
 "
 )
 ;
-let
+const
 foobar
 =
 {
@@ -352,7 +352,7 @@ testFilter
 (
 )
 {
-let
+const
 consoleStorage
 =
 Cc
@@ -370,7 +370,7 @@ storage
 "
 ]
 ;
-let
+const
 storage
 =
 consoleStorage
@@ -388,7 +388,7 @@ clearEvents
 (
 )
 ;
-let
+const
 {
 ConsoleAPI
 }
@@ -414,7 +414,7 @@ jsm
 }
 )
 ;
-let
+const
 console2
 =
 new
@@ -422,7 +422,7 @@ ConsoleAPI
 (
 )
 ;
-let
+const
 hud
 =
 await
@@ -446,7 +446,7 @@ false
 }
 )
 ;
-let
+const
 shouldBeVisible
 =
 "
@@ -455,7 +455,7 @@ be
 visible
 "
 ;
-let
+const
 shouldBeHidden
 =
 "
@@ -525,7 +525,7 @@ testProfile
 (
 )
 {
-let
+const
 consoleStorage
 =
 Cc
@@ -543,7 +543,7 @@ storage
 "
 ]
 ;
-let
+const
 storage
 =
 consoleStorage
@@ -555,7 +555,7 @@ Ci
 nsIConsoleAPIStorage
 )
 ;
-let
+const
 {
 console
 }
@@ -587,7 +587,7 @@ clearEvents
 (
 )
 ;
-let
+const
 profilerEvents
 =
 [
@@ -729,7 +729,7 @@ profiler
 "
 )
 ;
-let
+const
 consoleEvents
 =
 storage
@@ -874,7 +874,7 @@ was
 logged
 )
 ;
-let
+const
 message
 =
 await

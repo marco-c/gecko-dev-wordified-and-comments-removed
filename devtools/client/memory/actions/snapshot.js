@@ -145,8 +145,8 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -155,7 +155,7 @@ getState
 const
 id
 =
-yield
+await
 dispatch
 (
 takeSnapshot
@@ -176,7 +176,7 @@ null
 return
 ;
 }
-yield
+await
 dispatch
 (
 readSnapshot
@@ -208,7 +208,7 @@ READ
 return
 ;
 }
-yield
+await
 dispatch
 (
 computeSnapshotData
@@ -236,8 +236,8 @@ id
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -279,7 +279,7 @@ view
 state
 )
 ;
-yield
+await
 dispatch
 (
 censusTaker
@@ -318,7 +318,7 @@ id
 dominatorTree
 )
 {
-yield
+await
 dispatch
 (
 computeAndFetchDominatorTree
@@ -344,8 +344,8 @@ id
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -388,7 +388,7 @@ id
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh
@@ -416,8 +416,8 @@ front
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -496,7 +496,7 @@ try
 {
 path
 =
-yield
+await
 front
 .
 saveHeapSnapshot
@@ -580,8 +580,8 @@ id
 }
 task
 :
+async
 function
-*
 (
 heapWorker
 id
@@ -653,7 +653,7 @@ id
 ;
 try
 {
-yield
+await
 heapWorker
 .
 readHeapSnapshot
@@ -665,7 +665,7 @@ path
 ;
 creationTime
 =
-yield
+await
 heapWorker
 .
 getCreationTime
@@ -749,7 +749,7 @@ canTakeCensus
 }
 )
 {
-let
+const
 thisTakeCensusTaskId
 =
 +
@@ -786,8 +786,8 @@ id
 }
 task
 :
+async
 function
-*
 (
 heapWorker
 id
@@ -952,7 +952,7 @@ display
 }
 )
 ;
-let
+const
 opts
 =
 display
@@ -988,7 +988,7 @@ report
 parentMap
 }
 =
-yield
+await
 heapWorker
 .
 takeCensus
@@ -1354,8 +1354,8 @@ reportLeafIndex
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -1437,7 +1437,7 @@ snapshot
 )
 )
 {
-yield
+await
 dispatch
 (
 computeAndFetchDominatorTree
@@ -1598,7 +1598,7 @@ try
 nodes
 }
 =
-yield
+await
 heapWorker
 .
 getCensusIndividuals
@@ -1732,8 +1732,8 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -1847,7 +1847,7 @@ state
 return
 ;
 }
-yield
+await
 dispatch
 (
 fetchIndividuals
@@ -1879,14 +1879,14 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
 )
 {
-let
+const
 snapshot
 =
 getState
@@ -1953,7 +1953,7 @@ snapshot
 census
 )
 {
-yield
+await
 dispatch
 (
 takeCensus
@@ -1980,14 +1980,14 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
 )
 {
-let
+const
 snapshot
 =
 getState
@@ -2054,7 +2054,7 @@ snapshot
 treeMap
 )
 {
-yield
+await
 dispatch
 (
 takeTreeMap
@@ -2095,8 +2095,8 @@ id
 }
 task
 :
+async
 function
-*
 (
 heapWorker
 id
@@ -2161,7 +2161,7 @@ try
 {
 dominatorTreeId
 =
-yield
+await
 heapWorker
 .
 computeDominatorTree
@@ -2258,8 +2258,8 @@ id
 }
 task
 :
+async
 function
-*
 (
 heapWorker
 id
@@ -2358,7 +2358,7 @@ try
 {
 root
 =
-yield
+await
 heapWorker
 .
 getDominatorTree
@@ -2506,8 +2506,8 @@ key
 }
 task
 :
+async
 function
-*
 (
 heapWorker
 id
@@ -2640,7 +2640,7 @@ try
 {
 response
 =
-yield
+await
 heapWorker
 .
 getImmediatelyDominated
@@ -2804,8 +2804,8 @@ id
 }
 task
 :
+async
 function
-*
 (
 heapWorker
 id
@@ -2817,7 +2817,7 @@ getState
 const
 dominatorTreeId
 =
-yield
+await
 dispatch
 (
 computeDominatorTree
@@ -2847,7 +2847,7 @@ null
 const
 root
 =
-yield
+await
 dispatch
 (
 fetchDominatorTree
@@ -2888,14 +2888,14 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
 )
 {
-let
+const
 snapshot
 =
 getState
@@ -2995,7 +2995,7 @@ snapshot
 dominatorTree
 )
 {
-yield
+await
 dispatch
 (
 fetchDominatorTree
@@ -3010,7 +3010,7 @@ id
 }
 else
 {
-yield
+await
 dispatch
 (
 computeAndFetchDominatorTree
@@ -3062,14 +3062,14 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
 )
 {
-let
+const
 snapshots
 =
 getState
@@ -3084,7 +3084,7 @@ s
 =
 >
 {
-let
+const
 snapshotReady
 =
 s
@@ -3108,7 +3108,7 @@ states
 .
 ERROR
 ;
-let
+const
 censusReady
 =
 (
@@ -3159,7 +3159,7 @@ censusReady
 }
 )
 ;
-let
+const
 ids
 =
 snapshots
@@ -3224,7 +3224,7 @@ popView
 )
 ;
 }
-yield
+await
 Promise
 .
 all
@@ -3312,8 +3312,8 @@ snapshot
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -3339,7 +3339,7 @@ id
 ;
 try
 {
-yield
+await
 heapWorker
 .
 deleteHeapSnapshot

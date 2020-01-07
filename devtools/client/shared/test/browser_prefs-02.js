@@ -26,7 +26,7 @@ test
 (
 )
 {
-let
+const
 originalJson
 =
 Services
@@ -48,7 +48,7 @@ markers
 "
 )
 ;
-let
+const
 originalFloat
 =
 Services
@@ -70,7 +70,7 @@ probability
 "
 )
 ;
-let
+const
 Prefs
 =
 new

@@ -107,12 +107,12 @@ TreeWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -122,13 +122,13 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -137,7 +137,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 tree
 =
 new
@@ -739,7 +739,7 @@ matches
 "
 )
 ;
-let
+const
 node
 =
 doc
@@ -1397,7 +1397,7 @@ level1
 ]
 )
 ;
-let
+const
 node
 =
 doc
@@ -1464,7 +1464,7 @@ level2
 ]
 )
 ;
-let
+const
 node2
 =
 doc
@@ -1620,7 +1620,7 @@ level1
 "
 ]
 ;
-let
+const
 node3
 =
 doc
@@ -2187,7 +2187,7 @@ removing
 "
 )
 ;
-let
+const
 level2item
 =
 doc

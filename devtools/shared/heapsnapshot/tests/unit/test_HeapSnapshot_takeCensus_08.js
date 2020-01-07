@@ -8,14 +8,14 @@ run_test
 (
 )
 {
-let
+const
 g
 =
 newGlobal
 (
 )
 ;
-let
+const
 dbg
 =
 new
@@ -318,7 +318,7 @@ countIncreasedByAtLeast
 n
 )
 {
-let
+const
 oldBaseline
 =
 baseline

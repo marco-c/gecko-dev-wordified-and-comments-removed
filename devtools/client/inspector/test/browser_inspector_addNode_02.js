@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -101,7 +101,7 @@ element
 "
 )
 ;
-let
+const
 body
 =
 await
@@ -322,14 +322,14 @@ inspector
 desc
 )
 {
-let
+const
 doc
 =
 inspector
 .
 panelDoc
 ;
-let
+const
 btn
 =
 doc
@@ -348,7 +348,7 @@ button
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -356,7 +356,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems

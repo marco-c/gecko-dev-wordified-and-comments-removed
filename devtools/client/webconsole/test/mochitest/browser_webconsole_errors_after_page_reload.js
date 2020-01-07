@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -63,7 +63,7 @@ window
 "
 )
 ;
-let
+const
 onNavigate
 =
 hud
@@ -129,7 +129,7 @@ expectUncaughtException
 )
 ;
 }
-let
+const
 onMessage
 =
 waitForMessage

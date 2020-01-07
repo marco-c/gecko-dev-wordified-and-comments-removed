@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -34,7 +34,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -45,7 +45,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 contextMenuDoc
 =
 monitor
@@ -56,7 +56,7 @@ parent
 .
 document
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -180,7 +180,7 @@ item
 await
 wait
 ;
-let
+const
 onStyleEditorReady
 =
 toolbox

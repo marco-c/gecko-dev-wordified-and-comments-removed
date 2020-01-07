@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -32,7 +32,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 monitor
 }
@@ -54,7 +54,7 @@ test
 "
 )
 ;
-let
+const
 {
 windowRequire
 }
@@ -63,7 +63,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 Prefs
 }
@@ -217,14 +217,14 @@ correctly
 "
 )
 ;
-let
+const
 previousValue
 =
 Prefs
 .
 networkDetailsWidth
 ;
-let
+const
 bogusValue
 =
 ~

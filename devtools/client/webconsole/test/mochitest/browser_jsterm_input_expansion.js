@@ -32,7 +32,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -41,7 +41,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 input
 =
 hud
@@ -66,7 +66,7 @@ focus
 (
 )
 ;
-let
+const
 ordinaryHeight
 =
 input
@@ -85,7 +85,7 @@ nworld
 n
 "
 ;
-let
+const
 length
 =
 input

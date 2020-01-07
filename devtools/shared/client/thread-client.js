@@ -1307,7 +1307,7 @@ return
 false
 ;
 }
-let
+const
 numFrames
 =
 this
@@ -1345,7 +1345,7 @@ response
 return
 ;
 }
-let
+const
 threadGrips
 =
 DevToolsUtils
@@ -1359,7 +1359,7 @@ _threadGrips
 ;
 for
 (
-let
+const
 i
 in
 response
@@ -1367,7 +1367,7 @@ response
 frames
 )
 {
-let
+const
 frame
 =
 response
@@ -1389,7 +1389,7 @@ source
 {
 for
 (
-let
+const
 grip
 of
 threadGrips
@@ -1523,7 +1523,7 @@ actor
 ]
 ;
 }
-let
+const
 client
 =
 new
@@ -1582,7 +1582,7 @@ actor
 ]
 ;
 }
-let
+const
 client
 =
 new
@@ -1680,7 +1680,7 @@ actor
 ]
 ;
 }
-let
+const
 client
 =
 new
@@ -1736,7 +1736,7 @@ gripCacheName
 {
 for
 (
-let
+const
 id
 in
 this

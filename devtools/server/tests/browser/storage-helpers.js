@@ -10,7 +10,7 @@ openTabAndSetupStorage
 url
 )
 {
-let
+const
 content
 =
 await
@@ -39,7 +39,7 @@ getAllWindows
 baseWindow
 )
 {
-let
+const
 windows
 =
 new
@@ -47,7 +47,7 @@ Set
 (
 )
 ;
-let
+const
 _getAllWindows
 =
 function
@@ -102,7 +102,7 @@ return
 windows
 ;
 }
-let
+const
 windows
 =
 getAllWindows
@@ -112,7 +112,7 @@ content
 ;
 for
 (
-let
+const
 win
 of
 windows
@@ -164,7 +164,7 @@ getAllWindows
 baseWindow
 )
 {
-let
+const
 windows
 =
 new
@@ -172,7 +172,7 @@ Set
 (
 )
 ;
-let
+const
 _getAllWindows
 =
 function
@@ -227,7 +227,7 @@ return
 windows
 ;
 }
-let
+const
 windows
 =
 getAllWindows
@@ -237,7 +237,7 @@ content
 ;
 for
 (
-let
+const
 win
 of
 windows

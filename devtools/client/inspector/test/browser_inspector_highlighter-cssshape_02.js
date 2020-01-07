@@ -28,7 +28,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -40,14 +40,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -121,7 +121,7 @@ points
 "
 )
 ;
-let
+const
 polygonNode
 =
 await
@@ -149,7 +149,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 points
 =
 await
@@ -168,7 +168,7 @@ points
 highlighterFront
 )
 ;
-let
+const
 realPoints
 =
 "
@@ -244,7 +244,7 @@ attributes
 "
 )
 ;
-let
+const
 circleNode
 =
 await
@@ -272,7 +272,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 rx
 =
 await
@@ -291,7 +291,7 @@ rx
 highlighterFront
 )
 ;
-let
+const
 ry
 =
 await
@@ -310,7 +310,7 @@ ry
 highlighterFront
 )
 ;
-let
+const
 cx
 =
 await
@@ -329,7 +329,7 @@ cx
 highlighterFront
 )
 ;
-let
+const
 cy
 =
 await
@@ -422,7 +422,7 @@ attributes
 "
 )
 ;
-let
+const
 ellipseNode
 =
 await
@@ -450,7 +450,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 rx
 =
 await
@@ -469,7 +469,7 @@ rx
 highlighterFront
 )
 ;
-let
+const
 ry
 =
 await
@@ -488,7 +488,7 @@ ry
 highlighterFront
 )
 ;
-let
+const
 cx
 =
 await
@@ -507,7 +507,7 @@ cx
 highlighterFront
 )
 ;
-let
+const
 cy
 =
 await
@@ -600,7 +600,7 @@ attributes
 "
 )
 ;
-let
+const
 insetNode
 =
 await
@@ -628,7 +628,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 x
 =
 await
@@ -647,7 +647,7 @@ x
 highlighterFront
 )
 ;
-let
+const
 y
 =
 await
@@ -666,7 +666,7 @@ y
 highlighterFront
 )
 ;
-let
+const
 width
 =
 await
@@ -685,7 +685,7 @@ width
 highlighterFront
 )
 ;
-let
+const
 height
 =
 await

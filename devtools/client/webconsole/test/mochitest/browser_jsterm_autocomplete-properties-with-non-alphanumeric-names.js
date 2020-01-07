@@ -30,7 +30,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -211,7 +211,7 @@ resolve
 )
 )
 ;
-let
+const
 popup
 =
 jsterm

@@ -509,7 +509,7 @@ node
 "
 )
 ;
-let
+const
 firstNode
 =
 doc

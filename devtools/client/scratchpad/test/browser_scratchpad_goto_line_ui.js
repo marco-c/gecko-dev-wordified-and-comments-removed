@@ -75,14 +75,14 @@ aWindow
 aScratchpad
 )
 {
-let
+const
 editor
 =
 aScratchpad
 .
 editor
 ;
-let
+const
 text
 =
 "
@@ -119,7 +119,7 @@ ch
 }
 )
 ;
-let
+const
 oldPrompt
 =
 editor

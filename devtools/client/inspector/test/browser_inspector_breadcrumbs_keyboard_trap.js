@@ -145,7 +145,7 @@ function
 (
 )
 {
-let
+const
 {
 toolbox
 inspector
@@ -157,14 +157,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 doc
 =
 inspector
 .
 panelDoc
 ;
-let
+const
 {
 breadcrumbs
 }
@@ -196,7 +196,7 @@ it
 "
 )
 ;
-let
+const
 container
 =
 doc
@@ -210,7 +210,7 @@ breadcrumbs
 "
 )
 ;
-let
+const
 button
 =
 container
@@ -225,7 +225,7 @@ checked
 "
 )
 ;
-let
+const
 onHighlight
 =
 toolbox
@@ -290,7 +290,7 @@ correctly
 ;
 for
 (
-let
+const
 {
 desc
 focused

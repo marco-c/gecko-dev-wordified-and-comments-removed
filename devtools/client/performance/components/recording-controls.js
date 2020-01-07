@@ -146,7 +146,7 @@ render
 (
 )
 {
-let
+const
 {
 onClearButtonClick
 onRecordButtonClick
@@ -159,7 +159,7 @@ this
 .
 props
 ;
-let
+const
 recordButtonClassList
 =
 [

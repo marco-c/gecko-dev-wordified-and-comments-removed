@@ -50,7 +50,7 @@ function
 (
 )
 {
-let
+const
 browser
 =
 await
@@ -151,7 +151,7 @@ content
 .
 document
 ;
-let
+const
 nodeBuilder
 =
 (
@@ -159,7 +159,7 @@ nodeBuilder
 =
 >
 {
-let
+const
 root
 =
 doc
@@ -171,7 +171,7 @@ div
 "
 )
 ;
-let
+const
 child
 =
 doc
@@ -258,7 +258,7 @@ helper
 "
 )
 ;
-let
+const
 env
 =
 new
@@ -275,7 +275,7 @@ doc
 defaultView
 )
 ;
-let
+const
 helper
 =
 new
@@ -297,7 +297,7 @@ helper
 "
 )
 ;
-let
+const
 el
 =
 helper
@@ -387,7 +387,7 @@ mouseDownHandled
 =
 0
 ;
-let
+const
 onMouseDown
 =
 (
@@ -433,7 +433,7 @@ mousedown
 onMouseDown
 )
 ;
-let
+const
 once
 =
 function
@@ -469,7 +469,7 @@ true
 ;
 }
 ;
-let
+const
 synthesizeMouseDown
 =
 function
@@ -568,7 +568,7 @@ page
 "
 )
 ;
-let
+const
 loaded
 =
 once

@@ -461,7 +461,7 @@ function
 (
 )
 {
-let
+const
 timeout
 =
 Services
@@ -690,7 +690,7 @@ type
 packet
 )
 ;
-let
+const
 {
 actor
 startedDateTime
@@ -703,7 +703,7 @@ packet
 .
 eventActor
 ;
-let
+const
 startTime
 =
 Date
@@ -837,14 +837,14 @@ type
 packet
 )
 {
-let
+const
 actor
 =
 packet
 .
 from
 ;
-let
+const
 file
 =
 this
@@ -882,7 +882,7 @@ updateType
 packet
 )
 ;
-let
+const
 includeResponseBodies
 =
 Services
@@ -1207,7 +1207,7 @@ resolve
 )
 ;
 }
-let
+const
 file
 =
 this
@@ -1299,7 +1299,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1334,7 +1334,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1382,7 +1382,7 @@ onRequestPostData
 response
 )
 ;
-let
+const
 file
 =
 this
@@ -1400,7 +1400,7 @@ requestPostData
 =
 response
 ;
-let
+const
 text
 =
 response
@@ -1453,7 +1453,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1488,7 +1488,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1523,7 +1523,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1541,7 +1541,7 @@ responseContent
 =
 response
 ;
-let
+const
 text
 =
 response
@@ -1594,7 +1594,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1630,7 +1630,7 @@ headers
 {
 for
 (
-let
+const
 header
 of
 headers
@@ -1708,7 +1708,7 @@ function
 stringGrip
 )
 {
-let
+const
 promise
 =
 this
@@ -1741,7 +1741,7 @@ waitForAll
 promises
 )
 {
-let
+const
 clone
 =
 promises

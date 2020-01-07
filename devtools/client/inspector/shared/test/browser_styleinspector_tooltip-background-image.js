@@ -560,7 +560,7 @@ view
 "
 )
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -632,7 +632,7 @@ view
 "
 )
 ;
-let
+const
 {
 valueSpan
 }
@@ -650,7 +650,7 @@ image
 "
 )
 ;
-let
+const
 uriSpan
 =
 valueSpan
@@ -665,7 +665,7 @@ link
 "
 )
 ;
-let
+const
 previewTooltip
 =
 await
@@ -675,7 +675,7 @@ view
 uriSpan
 )
 ;
-let
+const
 images
 =
 previewTooltip
@@ -747,7 +747,7 @@ testDivRuleView
 view
 )
 {
-let
+const
 {
 valueSpan
 }
@@ -766,7 +766,7 @@ background
 "
 )
 ;
-let
+const
 uriSpan
 =
 valueSpan
@@ -781,7 +781,7 @@ link
 "
 )
 ;
-let
+const
 previewTooltip
 =
 await
@@ -791,7 +791,7 @@ view
 uriSpan
 )
 ;
-let
+const
 images
 =
 previewTooltip
@@ -882,7 +882,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -904,7 +904,7 @@ tooltip
 "
 )
 ;
-let
+const
 {
 valueSpan
 }
@@ -923,7 +923,7 @@ background
 "
 )
 ;
-let
+const
 uriSpan
 =
 valueSpan
@@ -938,7 +938,7 @@ link
 "
 )
 ;
-let
+const
 previewTooltip
 =
 await
@@ -988,7 +988,7 @@ turnToEditMode
 ruleView
 )
 {
-let
+const
 brace
 =
 ruleView
@@ -1020,7 +1020,7 @@ testComputedView
 view
 )
 {
-let
+const
 {
 valueSpan
 }
@@ -1035,7 +1035,7 @@ image
 "
 )
 ;
-let
+const
 uriSpan
 =
 valueSpan
@@ -1056,7 +1056,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 previewTooltip
 =
 await
@@ -1066,7 +1066,7 @@ view
 uriSpan
 )
 ;
-let
+const
 images
 =
 previewTooltip

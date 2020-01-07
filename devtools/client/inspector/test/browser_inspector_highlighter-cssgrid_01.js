@@ -171,7 +171,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -200,14 +200,14 @@ TEST_URL
 )
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -265,7 +265,7 @@ default
 "
 )
 ;
-let
+const
 hidden
 =
 await
@@ -324,7 +324,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await

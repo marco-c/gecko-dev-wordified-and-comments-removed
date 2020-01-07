@@ -58,12 +58,12 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 store
 =
 applyMiddleware
@@ -89,7 +89,7 @@ generator
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -149,7 +149,7 @@ sync
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -207,8 +207,8 @@ data
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -236,7 +236,7 @@ action
 let
 moreData
 =
-yield
+await
 new
 Promise
 (
@@ -251,7 +251,7 @@ data
 ;
 moreData
 =
-yield
+await
 new
 Promise
 (

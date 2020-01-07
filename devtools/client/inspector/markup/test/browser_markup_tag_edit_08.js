@@ -53,7 +53,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -228,7 +228,7 @@ LONG_ATTRIBUTE
 testActor
 )
 ;
-let
+const
 {
 editor
 }
@@ -243,7 +243,7 @@ node24
 inspector
 )
 ;
-let
+const
 attr
 =
 editor
@@ -285,7 +285,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 input
 =
 inplaceEditor
@@ -352,7 +352,7 @@ markupmutation
 "
 )
 ;
-let
+const
 visibleAttrText
 =
 editor
@@ -500,7 +500,7 @@ org
 testActor
 )
 ;
-let
+const
 onMutated
 =
 inspector
@@ -512,7 +512,7 @@ markupmutation
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -527,7 +527,7 @@ node26
 inspector
 )
 ;
-let
+const
 attr
 =
 editor
@@ -567,7 +567,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 input
 =
 inplaceEditor
@@ -789,7 +789,7 @@ single
 testActor
 )
 ;
-let
+const
 onMutated
 =
 inspector
@@ -801,7 +801,7 @@ markupmutation
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -816,7 +816,7 @@ node27
 inspector
 )
 ;
-let
+const
 attr
 =
 editor
@@ -856,7 +856,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 input
 =
 inplaceEditor

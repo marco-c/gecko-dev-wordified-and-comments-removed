@@ -106,7 +106,7 @@ throws
 )
 ;
 }
-let
+const
 worker
 =
 new

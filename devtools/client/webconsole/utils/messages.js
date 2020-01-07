@@ -249,7 +249,7 @@ transformConsoleAPICallPacket
 packet
 )
 {
-let
+const
 {
 message
 }
@@ -331,7 +331,7 @@ MESSAGE_TYPE
 .
 LOG
 ;
-let
+const
 {
 counter
 }
@@ -388,7 +388,7 @@ null
 }
 else
 {
-let
+const
 label
 =
 counter
@@ -533,7 +533,7 @@ if
 timer
 )
 {
-let
+const
 duration
 =
 Math
@@ -902,7 +902,7 @@ transformNavigationMessagePacket
 packet
 )
 {
-let
+const
 {
 message
 }
@@ -966,7 +966,7 @@ transformLogMessagePacket
 packet
 )
 {
-let
+const
 {
 message
 timeStamp
@@ -1013,7 +1013,7 @@ transformPageErrorPacket
 packet
 )
 {
-let
+const
 {
 pageError
 }
@@ -1088,7 +1088,7 @@ columnNumber
 :
 null
 ;
-let
+const
 matchesCSS
 =
 /
@@ -1111,7 +1111,7 @@ pageError
 category
 )
 ;
-let
+const
 messageSource
 =
 matchesCSS
@@ -1185,7 +1185,7 @@ transformNetworkEventPacket
 packet
 )
 {
-let
+const
 {
 networkEvent
 }

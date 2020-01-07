@@ -95,7 +95,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -195,7 +195,7 @@ fields
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -220,7 +220,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -283,7 +283,7 @@ update
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -392,7 +392,7 @@ element
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -491,7 +491,7 @@ property
 "
 )
 ;
-let
+const
 textProp
 =
 await

@@ -113,7 +113,7 @@ test_simple_source_map
 (
 )
 {
-let
+const
 expectedSources
 =
 new
@@ -215,7 +215,7 @@ error
 ;
 for
 (
-let
+const
 s
 of
 response

@@ -366,7 +366,7 @@ getChildDocShells
 parentDocShell
 )
 {
-let
+const
 docShellsEnum
 =
 parentDocShell
@@ -385,7 +385,7 @@ nsIDocShell
 ENUMERATE_FORWARDS
 )
 ;
-let
+const
 docShells
 =
 [
@@ -400,7 +400,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 docShell
 =
 docShellsEnum
@@ -684,7 +684,7 @@ return
 null
 ;
 }
-let
+const
 form
 =
 this
@@ -1219,7 +1219,7 @@ actorID
 "
 )
 ;
-let
+const
 response
 =
 {
@@ -1446,7 +1446,7 @@ return
 true
 ;
 }
-let
+const
 global
 =
 unwrapDebuggerObjectGlobal
@@ -1750,7 +1750,7 @@ switchToFrame
 request
 )
 {
-let
+const
 windowId
 =
 request
@@ -1850,7 +1850,7 @@ listFrames
 request
 )
 {
-let
+const
 windows
 =
 this
@@ -1948,7 +1948,7 @@ actors
 =
 >
 {
-let
+const
 pool
 =
 new
@@ -1961,7 +1961,7 @@ conn
 ;
 for
 (
-let
+const
 actor
 of
 actors
@@ -2052,7 +2052,7 @@ logInPage
 request
 )
 {
-let
+const
 {
 text
 category
@@ -2061,7 +2061,7 @@ flags
 =
 request
 ;
-let
+const
 scriptErrorClass
 =
 Cc
@@ -2077,7 +2077,7 @@ scripterror
 "
 ]
 ;
-let
+const
 scriptError
 =
 scriptErrorClass
@@ -2289,7 +2289,7 @@ _unwatchDocShell
 docShell
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -2327,7 +2327,7 @@ this
 _originalWindow
 )
 {
-let
+const
 rootDocShells
 =
 this
@@ -2368,7 +2368,7 @@ length
 0
 )
 {
-let
+const
 newRoot
 =
 rootDocShells
@@ -2456,7 +2456,7 @@ _docShellToWindow
 docShell
 )
 {
-let
+const
 webProgress
 =
 docShell
@@ -2475,14 +2475,14 @@ Ci
 nsIWebProgress
 )
 ;
-let
+const
 window
 =
 webProgress
 .
 DOMWindow
 ;
-let
+const
 id
 =
 window
@@ -2594,7 +2594,7 @@ _notifyDocShellsUpdate
 docshells
 )
 {
-let
+const
 windows
 =
 this
@@ -2671,7 +2671,7 @@ Ci
 nsIWebProgress
 )
 ;
-let
+const
 id
 =
 webProgress
@@ -2990,7 +2990,7 @@ _popContext
 ;
 for
 (
-let
+const
 sheetActor
 of
 this
@@ -3276,7 +3276,7 @@ reload
 request
 )
 {
-let
+const
 force
 =
 request
@@ -3416,7 +3416,7 @@ reconfigure
 request
 )
 {
-let
+const
 options
 =
 request
@@ -3459,7 +3459,7 @@ request
 {
 for
 (
-let
+const
 docShell
 of
 this
@@ -3494,7 +3494,7 @@ e
 continue
 ;
 }
-let
+const
 sheets
 =
 InspectorUtils
@@ -3509,7 +3509,7 @@ true
 ;
 for
 (
-let
+const
 sheet
 of
 sheets
@@ -3677,7 +3677,7 @@ serviceWorkersTestingEnabled
 )
 ;
 }
-let
+const
 hasExplicitReloadFlag
 =
 "
@@ -3745,7 +3745,7 @@ _setCacheDisabled
 disabled
 )
 {
-let
+const
 enable
 =
 Ci
@@ -3754,7 +3754,7 @@ nsIRequest
 .
 LOAD_NORMAL
 ;
-let
+const
 disable
 =
 Ci
@@ -3882,7 +3882,7 @@ _setServiceWorkersTestingEnabled
 enabled
 )
 {
-let
+const
 windowUtils
 =
 this
@@ -3926,7 +3926,7 @@ return
 null
 ;
 }
-let
+const
 disable
 =
 Ci
@@ -3969,7 +3969,7 @@ return
 null
 ;
 }
-let
+const
 windowUtils
 =
 this
@@ -4011,7 +4011,7 @@ window
 return
 ;
 }
-let
+const
 windowUtils
 =
 this
@@ -4062,7 +4062,7 @@ window
 return
 ;
 }
-let
+const
 windowUtils
 =
 this
@@ -4193,7 +4193,7 @@ _setWindow
 window
 )
 {
-let
+const
 docShell
 =
 window
@@ -4287,7 +4287,7 @@ isFrameSwitching
 false
 )
 {
-let
+const
 isTopLevel
 =
 window
@@ -4343,7 +4343,7 @@ window
 }
 )
 ;
-let
+const
 threadActor
 =
 this
@@ -4577,7 +4577,7 @@ isTopLevel
 return
 ;
 }
-let
+const
 threadActor
 =
 this
@@ -4692,7 +4692,7 @@ isFrameSwitching
 false
 )
 {
-let
+const
 isTopLevel
 =
 window
@@ -4728,7 +4728,7 @@ isTopLevel
 return
 ;
 }
-let
+const
 threadActor
 =
 this
@@ -4817,7 +4817,7 @@ false
 ;
 try
 {
-let
+const
 console
 =
 window
@@ -4875,7 +4875,7 @@ styleSheet
 )
 ;
 }
-let
+const
 actor
 =
 new
@@ -5225,7 +5225,7 @@ watch
 docShell
 )
 {
-let
+const
 docShellWindow
 =
 docShell
@@ -5253,7 +5253,7 @@ add
 docShellWindow
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -5290,7 +5290,7 @@ nsIWebProgress
 NOTIFY_STATE_DOCUMENT
 )
 ;
-let
+const
 handler
 =
 getDocShellChromeEventHandler
@@ -5339,7 +5339,7 @@ true
 ;
 for
 (
-let
+const
 win
 of
 this
@@ -5379,7 +5379,7 @@ unwatch
 docShell
 )
 {
-let
+const
 docShellWindow
 =
 docShell
@@ -5414,7 +5414,7 @@ docShellWindow
 return
 ;
 }
-let
+const
 webProgress
 =
 docShell
@@ -5449,7 +5449,7 @@ e
 )
 {
 }
-let
+const
 handler
 =
 getDocShellChromeEventHandler
@@ -5498,7 +5498,7 @@ true
 ;
 for
 (
-let
+const
 win
 of
 this
@@ -5595,7 +5595,7 @@ inFrameSwap
 return
 ;
 }
-let
+const
 window
 =
 evt
@@ -5604,7 +5604,7 @@ target
 .
 defaultView
 ;
-let
+const
 innerID
 =
 getWindowID
@@ -5700,7 +5700,7 @@ persisted
 return
 ;
 }
-let
+const
 window
 =
 evt
@@ -5766,7 +5766,7 @@ attached
 return
 ;
 }
-let
+const
 innerID
 =
 subject
@@ -5780,7 +5780,7 @@ nsISupportsPRUint64
 .
 data
 ;
-let
+const
 window
 =
 this
@@ -5853,7 +5853,7 @@ attached
 return
 ;
 }
-let
+const
 isStart
 =
 flag
@@ -5864,7 +5864,7 @@ nsIWebProgressListener
 .
 STATE_START
 ;
-let
+const
 isStop
 =
 flag
@@ -5875,7 +5875,7 @@ nsIWebProgressListener
 .
 STATE_STOP
 ;
-let
+const
 isDocument
 =
 flag
@@ -5886,7 +5886,7 @@ nsIWebProgressListener
 .
 STATE_IS_DOCUMENT
 ;
-let
+const
 isWindow
 =
 flag
@@ -5926,7 +5926,7 @@ progress
 )
 ;
 }
-let
+const
 window
 =
 progress
@@ -5941,7 +5941,7 @@ isDocument
 isStart
 )
 {
-let
+const
 newURI
 =
 request
@@ -6000,7 +6000,7 @@ Cr
 NS_BINDING_ABORTED
 )
 {
-let
+const
 handler
 =
 getDocShellChromeEventHandler
@@ -6008,7 +6008,7 @@ getDocShellChromeEventHandler
 progress
 )
 ;
-let
+const
 onLoad
 =
 evt

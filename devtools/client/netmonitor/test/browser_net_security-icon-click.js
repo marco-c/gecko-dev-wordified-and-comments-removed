@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -22,7 +22,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -33,7 +33,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -259,7 +259,7 @@ performRequestAndWait
 url
 )
 {
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -310,7 +310,7 @@ clickAndTestSecurityIcon
 (
 )
 {
-let
+const
 icon
 =
 document

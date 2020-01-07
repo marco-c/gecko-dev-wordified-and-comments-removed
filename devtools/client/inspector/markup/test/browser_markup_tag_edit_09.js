@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -110,7 +110,7 @@ mutations
 "
 )
 ;
-let
+const
 onMutated
 =
 inspector
@@ -133,7 +133,7 @@ editor
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -147,7 +147,7 @@ svg
 inspector
 )
 ;
-let
+const
 attr
 =
 editor
@@ -203,7 +203,7 @@ event
 "
 )
 ;
-let
+const
 input
 =
 inplaceEditor
@@ -324,7 +324,7 @@ mutations
 "
 )
 ;
-let
+const
 onMutated
 =
 inspector
@@ -347,7 +347,7 @@ editor
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -361,7 +361,7 @@ svg
 inspector
 )
 ;
-let
+const
 attr
 =
 editor
@@ -417,7 +417,7 @@ event
 "
 )
 ;
-let
+const
 input
 =
 inplaceEditor

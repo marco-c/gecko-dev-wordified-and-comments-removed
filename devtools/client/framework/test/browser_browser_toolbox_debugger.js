@@ -128,7 +128,7 @@ done
 =
 >
 {
-let
+const
 options
 =
 {
@@ -213,7 +213,7 @@ done
 }
 )
 ;
-let
+const
 s
 =
 Cu
@@ -231,7 +231,7 @@ org
 "
 )
 ;
-let
+const
 id
 =
 new
@@ -243,7 +243,7 @@ getTime
 (
 )
 ;
-let
+const
 testUrl
 =
 http
@@ -312,7 +312,7 @@ testUrl
 0
 )
 ;
-let
+const
 interval
 =
 setInterval
@@ -323,7 +323,7 @@ plop
 1000
 )
 ;
-let
+const
 env
 =
 Cc
@@ -348,7 +348,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 testHead
 =
 (
@@ -817,7 +817,7 @@ g
 "
 )
 ;
-let
+const
 {
 content
 :
@@ -836,7 +836,7 @@ debuggerHead
 +
 debuggerHelpers
 ;
-let
+const
 testScript
 =
 (
@@ -849,7 +849,7 @@ testScriptURL
 .
 content
 ;
-let
+const
 source
 =
 "
@@ -969,7 +969,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 {
 BrowserToolboxProcess
 }

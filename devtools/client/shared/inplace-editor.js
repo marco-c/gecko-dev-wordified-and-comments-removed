@@ -376,7 +376,7 @@ options
 callback
 )
 {
-let
+const
 trigger
 =
 options
@@ -388,7 +388,7 @@ trigger
 click
 "
 ;
-let
+const
 element
 =
 options
@@ -420,7 +420,7 @@ a
 "
 )
 {
-let
+const
 win
 =
 this
@@ -429,7 +429,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 selection
 =
 win
@@ -543,7 +543,7 @@ a
 "
 )
 {
-let
+const
 cleanup
 =
 function
@@ -702,7 +702,7 @@ options
 .
 element
 ;
-let
+const
 doc
 =
 this
@@ -1128,13 +1128,13 @@ advanceChars
 }
 else
 {
-let
+const
 advanceCharcodes
 =
 {
 }
 ;
-let
+const
 advanceChars
 =
 options
@@ -1428,7 +1428,7 @@ currentInputValue
 (
 )
 {
-let
+const
 val
 =
 this
@@ -1850,7 +1850,7 @@ this
 _measurement
 )
 ;
-let
+const
 style
 =
 this
@@ -2010,7 +2010,7 @@ input
 .
 value
 ;
-let
+const
 unbreakableSpace
 =
 "
@@ -2132,7 +2132,7 @@ width
 )
 ;
 }
-let
+const
 height
 =
 this
@@ -2191,7 +2191,7 @@ textContent
 x
 "
 ;
-let
+const
 width
 =
 this
@@ -2200,7 +2200,7 @@ _measurement
 .
 clientWidth
 ;
-let
+const
 height
 =
 this
@@ -2223,7 +2223,7 @@ function
 increment
 )
 {
-let
+const
 value
 =
 this
@@ -2232,7 +2232,7 @@ input
 .
 value
 ;
-let
+const
 selectionStart
 =
 this
@@ -2241,7 +2241,7 @@ input
 .
 selectionStart
 ;
-let
+const
 selectionEnd
 =
 this
@@ -2250,7 +2250,7 @@ input
 .
 selectionEnd
 ;
-let
+const
 newValue
 =
 this
@@ -2334,7 +2334,7 @@ selStart
 selEnd
 )
 {
-let
+const
 range
 =
 this
@@ -2345,7 +2345,7 @@ value
 selStart
 )
 ;
-let
+const
 type
 =
 (
@@ -2361,7 +2361,7 @@ type
 "
 "
 ;
-let
+const
 rawValue
 =
 range
@@ -2381,7 +2381,7 @@ end
 "
 "
 ;
-let
+const
 preRawValue
 =
 range
@@ -2399,7 +2399,7 @@ start
 "
 "
 ;
-let
+const
 postRawValue
 =
 range
@@ -2464,7 +2464,7 @@ postRawValue
 )
 ;
 }
-let
+const
 newValue
 =
 this
@@ -2512,7 +2512,7 @@ hex
 "
 )
 {
-let
+const
 exprOffset
 =
 selStart
@@ -2521,7 +2521,7 @@ range
 .
 start
 ;
-let
+const
 exprOffsetEnd
 =
 selEnd
@@ -2530,7 +2530,7 @@ range
 .
 start
 ;
-let
+const
 newValue
 =
 this
@@ -2589,7 +2589,7 @@ info
 {
 }
 ;
-let
+const
 part
 =
 value
@@ -2793,7 +2793,7 @@ return
 "
 ;
 }
-let
+const
 el
 =
 this
@@ -2807,7 +2807,7 @@ div
 "
 )
 ;
-let
+const
 units
 =
 [
@@ -2824,13 +2824,13 @@ s
 ;
 for
 (
-let
+const
 unit
 of
 units
 )
 {
-let
+const
 value
 =
 beforeValue
@@ -3346,7 +3346,7 @@ offsetEnd
 }
 else
 {
-let
+const
 pattern
 =
 "
@@ -3375,7 +3375,7 @@ info
 *
 "
 ;
-let
+const
 before
 =
 new
@@ -3403,7 +3403,7 @@ offset
 .
 length
 ;
-let
+const
 after
 =
 new
@@ -3531,7 +3531,7 @@ end
 end
 ;
 }
-let
+const
 first
 =
 value
@@ -3553,7 +3553,7 @@ start
 end
 )
 ;
-let
+const
 last
 =
 value
@@ -3619,7 +3619,7 @@ increment
 info
 )
 {
-let
+const
 num
 =
 parseFloat
@@ -3639,7 +3639,7 @@ return
 null
 ;
 }
-let
+const
 number
 =
 /
@@ -4150,7 +4150,7 @@ increment
 )
 ;
 }
-let
+const
 isUpper
 =
 (
@@ -4193,7 +4193,7 @@ pos
 2
 )
 ;
-let
+const
 value
 =
 parseInt
@@ -4321,7 +4321,7 @@ reverse
 noSelect
 )
 {
-let
+const
 {
 label
 preLabel
@@ -4380,7 +4380,7 @@ popup
 .
 selectedIndex
 ;
-let
+const
 input
 =
 this
@@ -4444,7 +4444,7 @@ length
 )
 ;
 }
-let
+const
 post
 =
 input
@@ -4463,7 +4463,7 @@ value
 length
 )
 ;
-let
+const
 item
 =
 this
@@ -4472,7 +4472,7 @@ popup
 .
 selectedItem
 ;
-let
+const
 toComplete
 =
 item
@@ -4594,7 +4594,7 @@ this
 done
 )
 {
-let
+const
 val
 =
 this
@@ -4888,7 +4888,7 @@ _selectedIndex
 )
 ;
 }
-let
+const
 input
 =
 this
@@ -4963,7 +4963,7 @@ length
 )
 ;
 }
-let
+const
 post
 =
 input
@@ -4982,7 +4982,7 @@ value
 length
 )
 ;
-let
+const
 item
 =
 this
@@ -5001,7 +5001,7 @@ popup
 .
 selectedIndex
 ;
-let
+const
 toComplete
 =
 item
@@ -5053,7 +5053,7 @@ _updateSize
 (
 )
 ;
-let
+const
 onPopupHidden
 =
 (
@@ -5144,14 +5144,14 @@ prevent
 =
 false
 ;
-let
+const
 key
 =
 event
 .
 keyCode
 ;
-let
+const
 input
 =
 this
@@ -5166,7 +5166,7 @@ event
 .
 key
 ;
-let
+const
 multilineNavigation
 =
 !
@@ -5194,7 +5194,7 @@ RIGHT
 "
 )
 ;
-let
+const
 isPlainText
 =
 this
@@ -5206,7 +5206,7 @@ CONTENT_TYPES
 .
 PLAIN_TEXT
 ;
-let
+const
 isPopupOpen
 =
 this
@@ -5770,7 +5770,7 @@ focusedElement
 input
 )
 {
-let
+const
 next
 =
 moveFocus
@@ -5804,7 +5804,7 @@ next
 _editable
 )
 {
-let
+const
 e
 =
 this
@@ -6103,7 +6103,7 @@ increment
 =
 0
 ;
-let
+const
 key
 =
 event
@@ -6346,7 +6346,7 @@ input
 return
 ;
 }
-let
+const
 preTimeoutQuery
 =
 this
@@ -6414,7 +6414,7 @@ input
 return
 ;
 }
-let
+const
 input
 =
 this
@@ -6439,7 +6439,7 @@ length
 return
 ;
 }
-let
+const
 query
 =
 input
@@ -6493,7 +6493,7 @@ value
 length
 )
 {
-let
+const
 nextChar
 =
 input
@@ -6592,7 +6592,7 @@ CONTENT_TYPES
 CSS_VALUE
 )
 {
-let
+const
 match
 =
 /
@@ -6635,7 +6635,7 @@ startCheckQuery
 "
 ;
 }
-let
+const
 varMatch
 =
 /
@@ -6779,7 +6779,7 @@ query
 )
 )
 {
-let
+const
 styleValue
 =
 query
@@ -6852,7 +6852,7 @@ autocomplete
 return
 ;
 }
-let
+const
 match
 =
 query
@@ -6914,7 +6914,7 @@ match
 "
 )
 {
-let
+const
 propertyName
 =
 query
@@ -6983,7 +6983,7 @@ propertyName
 )
 ]
 ;
-let
+const
 matchLastQuery
 =
 /
@@ -7132,13 +7132,13 @@ popup
 return
 ;
 }
-let
+const
 finalList
 =
 [
 ]
 ;
-let
+const
 length
 =
 list
@@ -7341,7 +7341,7 @@ if
 startCheckQuery
 )
 {
-let
+const
 cssValues
 =
 finalList
@@ -7375,7 +7375,7 @@ index
 ]
 )
 {
-let
+const
 item
 =
 finalList
@@ -7447,7 +7447,7 @@ length
 1
 )
 {
-let
+const
 indent
 =
 this
@@ -7483,7 +7483,7 @@ offset
 :
 0
 ;
-let
+const
 selectedIndex
 =
 autoInsert
@@ -7554,7 +7554,7 @@ function
 (
 )
 {
-let
+const
 parts
 =
 this
@@ -7573,7 +7573,7 @@ input
 selectionStart
 )
 ;
-let
+const
 nextChar
 =
 parts
@@ -7678,7 +7678,7 @@ function
 str
 )
 {
-let
+const
 start
 =
 this
@@ -7747,7 +7747,7 @@ function
 (
 )
 {
-let
+const
 inputRect
 =
 this
@@ -7799,7 +7799,7 @@ function
 propertyName
 )
 {
-let
+const
 gridLineList
 =
 [
@@ -7943,7 +7943,7 @@ from
 to
 )
 {
-let
+const
 win
 =
 from
@@ -7952,7 +7952,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 style
 =
 win
@@ -8010,7 +8010,7 @@ from
 to
 )
 {
-let
+const
 win
 =
 from
@@ -8019,7 +8019,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 style
 =
 win
@@ -8045,7 +8045,7 @@ style
 .
 lineHeight
 ;
-let
+const
 boxSizing
 =
 style
@@ -8088,7 +8088,7 @@ from
 to
 )
 {
-let
+const
 properties
 =
 [
@@ -8130,7 +8130,7 @@ borderLeftWidth
 "
 ]
 ;
-let
+const
 win
 =
 from
@@ -8139,7 +8139,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 style
 =
 win
@@ -8151,7 +8151,7 @@ from
 ;
 for
 (
-let
+const
 property
 of
 properties

@@ -172,7 +172,7 @@ uri
 {
 try
 {
-let
+const
 policy
 =
 WebExtensionPolicy

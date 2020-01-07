@@ -484,7 +484,7 @@ componentDidUpdate
 (
 )
 {
-let
+const
 {
 selectedRequestVisible
 openNetworkDetails
@@ -529,7 +529,7 @@ this
 onLayoutChange
 )
 ;
-let
+const
 {
 clientWidth
 clientHeight
@@ -649,7 +649,7 @@ width
 height
 )
 {
-let
+const
 {
 isVerticalSpliter
 }
@@ -682,7 +682,7 @@ render
 (
 )
 {
-let
+const
 {
 actions
 connector
@@ -697,7 +697,7 @@ this
 .
 props
 ;
-let
+const
 initialWidth
 =
 Services
@@ -721,7 +721,7 @@ width
 "
 )
 ;
-let
+const
 initialHeight
 =
 Services

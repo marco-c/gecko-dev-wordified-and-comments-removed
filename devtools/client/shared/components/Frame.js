@@ -429,7 +429,7 @@ line
 column
 )
 {
-let
+const
 newState
 =
 {
@@ -512,7 +512,7 @@ let
 frame
 isSourceMapped
 ;
-let
+const
 {
 onClick
 showFunctionName
@@ -575,7 +575,7 @@ props
 frame
 ;
 }
-let
+const
 source
 =
 frame
@@ -604,7 +604,7 @@ pop
 "
 "
 ;
-let
+const
 line
 =
 frame
@@ -624,7 +624,7 @@ line
 :
 null
 ;
-let
+const
 column
 =
 frame
@@ -754,7 +754,7 @@ column
 ;
 }
 }
-let
+const
 attributes
 =
 {
@@ -1012,7 +1012,7 @@ lineInfo
 )
 ;
 }
-let
+const
 sourceInnerEl
 =
 dom

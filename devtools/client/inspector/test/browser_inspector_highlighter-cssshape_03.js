@@ -39,7 +39,7 @@ function
 (
 )
 {
-let
+const
 inspector
 =
 await
@@ -48,7 +48,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 helper
 =
 await
@@ -60,7 +60,7 @@ HIGHLIGHTER_TYPE
 inspector
 )
 ;
-let
+const
 {
 testActor
 }
@@ -124,7 +124,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 quads
 =
 await
@@ -138,7 +138,7 @@ polygon
 "
 )
 ;
-let
+const
 {
 top
 left
@@ -155,7 +155,7 @@ border
 .
 bounds
 ;
-let
+const
 expectedStyle
 =
 top
@@ -189,7 +189,7 @@ px
 ;
 for
 (
-let
+const
 zoom
 of
 TEST_LEVELS
@@ -218,7 +218,7 @@ helper
 actorID
 )
 ;
-let
+const
 style
 =
 await
@@ -307,7 +307,7 @@ ellipse
 "
 )
 ;
-let
+const
 {
 top
 :
@@ -440,7 +440,7 @@ box
 "
 )
 ;
-let
+const
 {
 top
 :
@@ -559,7 +559,7 @@ cssClipPath
 }
 )
 ;
-let
+const
 quads
 =
 await
@@ -573,7 +573,7 @@ rect
 "
 )
 ;
-let
+const
 {
 top
 left
@@ -590,14 +590,14 @@ border
 .
 bounds
 ;
-let
+const
 {
 highlightedNode
 }
 =
 helper
 ;
-let
+const
 computedStyle
 =
 await
@@ -607,7 +607,7 @@ getComputedStyle
 (
 )
 ;
-let
+const
 strokeWidth
 =
 computedStyle
@@ -621,7 +621,7 @@ width
 .
 value
 ;
-let
+const
 delta
 =
 parseFloat
@@ -631,7 +631,7 @@ strokeWidth
 /
 2
 ;
-let
+const
 expectedStyle
 =
 top
@@ -676,7 +676,7 @@ delta
 px
 ;
 ;
-let
+const
 style
 =
 await

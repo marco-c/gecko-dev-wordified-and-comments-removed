@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -170,7 +170,7 @@ too
 ;
 for
 (
-let
+const
 node
 of
 [
@@ -240,7 +240,7 @@ selector
 inspector
 )
 {
-let
+const
 onNewNodeFront
 =
 inspector

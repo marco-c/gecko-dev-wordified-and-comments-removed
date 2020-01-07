@@ -34,7 +34,7 @@ test_with_error
 (
 )
 {
-let
+const
 s
 =
 DevToolsUtils
@@ -130,7 +130,7 @@ test_with_tricky_error
 (
 )
 {
-let
+const
 e
 =
 new
@@ -156,7 +156,7 @@ null
 )
 }
 ;
-let
+const
 s
 =
 DevToolsUtils
@@ -186,7 +186,7 @@ test_with_string
 (
 )
 {
-let
+const
 s
 =
 DevToolsUtils
@@ -224,7 +224,7 @@ test_with_thrower
 (
 )
 {
-let
+const
 s
 =
 DevToolsUtils
@@ -269,7 +269,7 @@ test_with_psychotic
 (
 )
 {
-let
+const
 s
 =
 DevToolsUtils

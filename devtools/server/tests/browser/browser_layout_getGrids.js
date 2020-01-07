@@ -355,7 +355,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -374,7 +374,7 @@ html
 "
 )
 ;
-let
+const
 grids
 =
 await
@@ -387,7 +387,7 @@ walker
 rootNode
 )
 ;
-let
+const
 grid
 =
 grids
@@ -395,7 +395,7 @@ grids
 0
 ]
 ;
-let
+const
 {
 gridFragments
 }
@@ -488,7 +488,7 @@ front
 ;
 try
 {
-let
+const
 nodeFront
 =
 await

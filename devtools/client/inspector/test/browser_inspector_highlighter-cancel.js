@@ -23,7 +23,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox

@@ -441,7 +441,7 @@ test
 (
 )
 {
-let
+const
 generator
 =
 isWebGLSupported
@@ -531,7 +531,7 @@ aNotificationName
 "
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -688,7 +688,7 @@ function
 (
 )
 {
-let
+const
 pixel
 =
 await
@@ -829,7 +829,7 @@ if
 content
 )
 {
-let
+const
 mm
 =
 gBrowser
@@ -991,7 +991,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -1000,7 +1000,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -1017,7 +1017,7 @@ makeRemote
 (
 )
 ;
-let
+const
 front
 =
 new
@@ -1068,7 +1068,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -1077,7 +1077,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -1110,7 +1110,7 @@ enabled
 true
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -1124,7 +1124,7 @@ shadereditor
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -1196,13 +1196,13 @@ count
 onAdd
 )
 {
-let
+const
 actors
 =
 [
 ]
 ;
-let
+const
 deferred
 =
 defer

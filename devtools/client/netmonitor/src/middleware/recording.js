@@ -71,7 +71,7 @@ type
 TOGGLE_RECORDING
 )
 {
-let
+const
 recording
 =
 getRecordingState

@@ -290,7 +290,7 @@ require
 =
 require
 ;
-let
+const
 bootstrap
 =
 {
@@ -343,7 +343,7 @@ responsive
 "
 )
 ;
-let
+const
 store
 =
 this
@@ -354,7 +354,7 @@ Store
 (
 )
 ;
-let
+const
 provider
 =
 createElement
@@ -584,14 +584,14 @@ onDevicePixelRatioChange
 (
 )
 {
-let
+const
 dpr
 =
 window
 .
 devicePixelRatio
 ;
-let
+const
 mql
 =
 window
@@ -715,7 +715,7 @@ getViewportSize
 =
 >
 {
-let
+const
 {
 width
 height
@@ -794,7 +794,7 @@ getViewportBrowser
 =
 >
 {
-let
+const
 browser
 =
 document

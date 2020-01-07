@@ -226,14 +226,14 @@ init
 (
 )
 ;
-let
+const
 trace
 =
 connectPipeTracing
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -306,7 +306,7 @@ e
 =
 >
 {
-let
+const
 error
 =
 e

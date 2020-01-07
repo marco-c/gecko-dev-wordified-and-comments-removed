@@ -192,7 +192,7 @@ registerAllActors
 (
 )
 ;
-let
+const
 win
 =
 await
@@ -200,7 +200,7 @@ openWebIDE
 (
 )
 ;
-let
+const
 detailsIframe
 =
 win
@@ -225,7 +225,7 @@ connectToLocalRuntime
 win
 )
 ;
-let
+const
 details
 =
 win
@@ -258,7 +258,7 @@ enabled
 "
 )
 ;
-let
+const
 deck
 =
 win
@@ -337,7 +337,7 @@ sure
 we
 get
 something
-let
+const
 doc
 =
 detailsIframe
@@ -346,7 +346,7 @@ contentWindow
 .
 document
 ;
-let
+const
 trs
 =
 doc
@@ -365,13 +365,13 @@ false
 ;
 for
 (
-let
+const
 tr
 of
 trs
 )
 {
-let
+const
 [
 name
 val

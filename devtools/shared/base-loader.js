@@ -442,7 +442,7 @@ parseStack
 stack
 )
 {
-let
+const
 lines
 =
 String
@@ -474,7 +474,7 @@ if
 line
 )
 {
-let
+const
 atIndex
 =
 line
@@ -485,7 +485,7 @@ indexOf
 "
 )
 ;
-let
+const
 columnIndex
 =
 line
@@ -497,7 +497,7 @@ lastIndexOf
 "
 )
 ;
-let
+const
 lineIndex
 =
 line
@@ -512,7 +512,7 @@ columnIndex
 1
 )
 ;
-let
+const
 fileName
 =
 parseURI
@@ -528,7 +528,7 @@ lineIndex
 )
 )
 ;
-let
+const
 lineNumber
 =
 parseInt
@@ -545,7 +545,7 @@ columnIndex
 10
 )
 ;
-let
+const
 columnNumber
 =
 parseInt
@@ -561,7 +561,7 @@ columnIndex
 10
 )
 ;
-let
+const
 name
 =
 line
@@ -677,7 +677,7 @@ readURI
 uri
 )
 {
-let
+const
 nsURI
 =
 NetUtil
@@ -709,7 +709,7 @@ nsURI
 )
 ;
 }
-let
+const
 stream
 =
 NetUtil
@@ -740,7 +740,7 @@ open2
 (
 )
 ;
-let
+const
 count
 =
 stream
@@ -749,7 +749,7 @@ available
 (
 )
 ;
-let
+const
 data
 =
 NetUtil
@@ -789,7 +789,7 @@ base
 paths
 )
 {
-let
+const
 match
 =
 /
@@ -936,7 +936,7 @@ invisibleToDebugger
 false
 }
 ;
-let
+const
 sandbox
 =
 Cu
@@ -963,7 +963,7 @@ loader
 module
 )
 {
-let
+const
 {
 sandboxes
 globals
@@ -971,7 +971,7 @@ globals
 =
 loader
 ;
-let
+const
 require
 =
 Require
@@ -980,7 +980,7 @@ loader
 module
 )
 ;
-let
+const
 descriptors
 =
 {
@@ -1123,7 +1123,7 @@ console
 }
 ;
 }
-let
+const
 define
 =
 Object
@@ -1225,7 +1225,7 @@ uri
 =
 sandbox
 ;
-let
+const
 originalExports
 =
 module
@@ -1266,7 +1266,7 @@ lineNumber
 =
 error
 ;
-let
+const
 stack
 =
 error
@@ -1280,7 +1280,7 @@ Error
 .
 stack
 ;
-let
+const
 frames
 =
 parseStack
@@ -1301,7 +1301,7 @@ String
 error
 )
 ;
-let
+const
 file
 =
 sourceURI
@@ -1328,7 +1328,7 @@ error
 )
 )
 {
-let
+const
 caller
 =
 frames
@@ -1418,7 +1418,7 @@ name
 )
 ;
 }
-let
+const
 prototype
 =
 typeof
@@ -1609,7 +1609,7 @@ return
 id
 ;
 }
-let
+const
 baseDir
 =
 dirname
@@ -1690,7 +1690,7 @@ compileMapping
 paths
 )
 {
-let
+const
 mapping
 =
 Object
@@ -1774,7 +1774,7 @@ PATTERN
 "
 )
 ;
-let
+const
 patterns
 =
 [
@@ -1882,7 +1882,7 @@ path
 ;
 }
 }
-let
+const
 pattern
 =
 new
@@ -1975,7 +1975,7 @@ args
 let
 module
 ;
-let
+const
 getModule
 =
 (
@@ -2037,7 +2037,7 @@ props
 }
 for
 (
-let
+const
 [
 fromName
 toName
@@ -2104,7 +2104,7 @@ loader
 requirer
 )
 {
-let
+const
 {
 modules
 mapping
@@ -2596,7 +2596,7 @@ function
 id
 )
 {
-let
+const
 {
 uri
 }
@@ -2703,7 +2703,7 @@ loader
 reason
 )
 {
-let
+const
 subject
 =
 {
@@ -2759,7 +2759,7 @@ globals
 }
 ;
 }
-let
+const
 destructor
 =
 Object
@@ -2769,7 +2769,7 @@ create
 null
 )
 ;
-let
+const
 mapping
 =
 compileMapping
@@ -2831,7 +2831,7 @@ modules
 ;
 for
 (
-let
+const
 id
 of
 Object
@@ -2842,7 +2842,7 @@ builtinModuleExports
 )
 )
 {
-let
+const
 uri
 =
 resolveURI
@@ -2851,7 +2851,7 @@ id
 mapping
 )
 ;
-let
+const
 module
 =
 Module
@@ -2896,7 +2896,7 @@ uri
 module
 ;
 }
-let
+const
 sharedGlobalSandbox
 =
 Sandbox
@@ -2940,7 +2940,7 @@ sandboxPrototype
 {
 for
 (
-let
+const
 name
 of
 getOwnIdentifiers
@@ -2966,7 +2966,7 @@ name
 ;
 }
 }
-let
+const
 returnObj
 =
 {

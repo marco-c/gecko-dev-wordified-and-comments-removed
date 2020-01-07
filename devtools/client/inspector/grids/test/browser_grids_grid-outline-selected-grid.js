@@ -113,7 +113,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -124,7 +124,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -133,7 +133,7 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 highlighters
 store
@@ -141,7 +141,7 @@ store
 =
 inspector
 ;
-let
+const
 gridList
 =
 doc
@@ -155,7 +155,7 @@ list
 "
 )
 ;
-let
+const
 checkbox
 =
 gridList
@@ -231,7 +231,7 @@ panel
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -247,7 +247,7 @@ shown
 "
 )
 ;
-let
+const
 onCheckboxChange
 =
 waitUntilState
@@ -276,7 +276,7 @@ grids
 highlighted
 )
 ;
-let
+const
 onGridOutlineRendered
 =
 waitForDOM
@@ -306,7 +306,7 @@ onHighlighterShown
 await
 onCheckboxChange
 ;
-let
+const
 elements
 =
 await

@@ -124,7 +124,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -142,7 +142,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 OverviewView

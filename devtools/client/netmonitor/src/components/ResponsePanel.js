@@ -353,7 +353,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 request
 connector
@@ -382,7 +382,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 request
 connector
@@ -503,7 +503,7 @@ mimeType
 json
 )
 {
-let
+const
 jsonpRegex
 =
 /
@@ -547,7 +547,7 @@ s
 *
 /
 ;
-let
+const
 [
 jsonpCallback
 jsonp
@@ -564,7 +564,7 @@ jsonpRegex
 [
 ]
 ;
-let
+const
 result
 =
 {
@@ -656,7 +656,7 @@ render
 (
 )
 {
-let
+const
 {
 openLink
 request
@@ -666,7 +666,7 @@ this
 .
 props
 ;
-let
+const
 {
 responseContent
 url
@@ -722,7 +722,7 @@ image
 )
 )
 {
-let
+const
 {
 width
 height
@@ -945,7 +945,7 @@ text
 )
 ;
 }
-let
+const
 {
 json
 jsonpCallback
@@ -964,7 +964,7 @@ text
 {
 }
 ;
-let
+const
 object
 =
 {
@@ -1074,7 +1074,7 @@ replace
 }
 }
 ;
-let
+const
 classList
 =
 [

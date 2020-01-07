@@ -4,7 +4,7 @@ ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -16,7 +16,7 @@ initShaderEditor
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -59,7 +59,7 @@ SOURCES_SHOWN
 ]
 )
 ;
-let
+const
 vsEditor
 =
 await
@@ -72,7 +72,7 @@ vs
 "
 )
 ;
-let
+const
 fsEditor
 =
 await
@@ -654,7 +654,7 @@ empty
 "
 )
 ;
-let
+const
 line
 =
 7
@@ -764,7 +764,7 @@ line
 "
 )
 ;
-let
+const
 parsed
 =
 ShadersEditorsView
@@ -1005,7 +1005,7 @@ empty
 "
 )
 ;
-let
+const
 line
 =
 8
@@ -1115,7 +1115,7 @@ line
 "
 )
 ;
-let
+const
 parsed
 =
 ShadersEditorsView
@@ -1321,7 +1321,7 @@ empty
 "
 )
 ;
-let
+const
 line
 =
 5
@@ -1431,7 +1431,7 @@ line
 "
 )
 ;
-let
+const
 parsed
 =
 ShadersEditorsView

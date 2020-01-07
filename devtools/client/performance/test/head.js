@@ -300,7 +300,7 @@ prefs
 "
 )
 ;
-let
+const
 stopObservingPrefs
 =
 PrefUtils

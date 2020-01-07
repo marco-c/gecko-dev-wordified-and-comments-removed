@@ -45,7 +45,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -59,7 +59,7 @@ window
 "
 )
 ;
-let
+const
 view
 =
 selectRuleView
@@ -76,7 +76,7 @@ body
 inspector
 )
 ;
-let
+const
 anchor
 =
 view
@@ -107,7 +107,7 @@ node
 "
 )
 ;
-let
+const
 onTabOpened
 =
 waitForTab
@@ -136,7 +136,7 @@ tab
 "
 )
 ;
-let
+const
 tab
 =
 await

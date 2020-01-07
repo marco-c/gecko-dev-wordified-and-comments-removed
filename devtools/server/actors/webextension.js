@@ -361,7 +361,7 @@ this
 }
 )
 ;
-let
+const
 extensionWindow
 =
 this
@@ -414,7 +414,7 @@ this
 _chromeGlobal
 )
 {
-let
+const
 chromeGlobal
 =
 this
@@ -616,7 +616,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -637,7 +637,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -688,7 +688,7 @@ _unwatchDocShell
 docShell
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -818,7 +818,7 @@ this
 id
 )
 {
-let
+const
 extensionWindow
 =
 this
@@ -924,7 +924,7 @@ this
 docShell
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -943,14 +943,14 @@ Ci
 nsIWebProgress
 )
 ;
-let
+const
 window
 =
 webProgress
 .
 DOMWindow
 ;
-let
+const
 addonID
 =
 window
@@ -961,7 +961,7 @@ nodePrincipal
 .
 addonId
 ;
-let
+const
 sameTypeRootAddonID
 =
 docShell
@@ -1098,7 +1098,7 @@ function
 window
 )
 {
-let
+const
 docShell
 =
 window
@@ -1117,7 +1117,7 @@ Ci
 nsIDocShell
 )
 ;
-let
+const
 rootWin
 =
 docShell
@@ -1164,7 +1164,7 @@ source
 element
 )
 {
-let
+const
 domEl
 =
 unwrapDebuggerObjectGlobal
@@ -1197,7 +1197,7 @@ ownerGlobal
 )
 ;
 }
-let
+const
 url
 =
 source
@@ -1300,7 +1300,7 @@ false
 }
 try
 {
-let
+const
 addonID
 =
 this
@@ -1446,7 +1446,7 @@ ownerGlobal
 }
 try
 {
-let
+const
 metadata
 =
 Cu

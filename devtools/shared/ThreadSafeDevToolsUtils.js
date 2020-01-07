@@ -51,7 +51,7 @@ args
 {
 for
 (
-let
+const
 attrs
 of
 args
@@ -59,13 +59,13 @@ args
 {
 for
 (
-let
+const
 key
 in
 attrs
 )
 {
-let
+const
 desc
 =
 Object
@@ -326,7 +326,7 @@ error
 stack
 )
 {
-let
+const
 stack
 =
 error
@@ -579,7 +579,7 @@ obj
 ;
 for
 (
-let
+const
 [
 k
 v
@@ -701,7 +701,7 @@ return
 false
 ;
 }
-let
+const
 proto
 =
 Object
@@ -721,7 +721,7 @@ return
 false
 ;
 }
-let
+const
 ctor
 =
 proto
@@ -775,7 +775,7 @@ return
 false
 ;
 }
-let
+const
 proto
 =
 Object
@@ -795,7 +795,7 @@ return
 false
 ;
 }
-let
+const
 ctor
 =
 proto
@@ -1024,7 +1024,7 @@ values
 .
 length
 ;
-let
+const
 resolutionValues
 =
 new
@@ -1111,12 +1111,12 @@ i
 +
 )
 {
-let
+const
 index
 =
 i
 ;
-let
+const
 value
 =
 values
@@ -1124,7 +1124,7 @@ values
 i
 ]
 ;
-let
+const
 resolver
 =
 result
@@ -1144,7 +1144,7 @@ checkForCompletion
 ;
 }
 ;
-let
+const
 rejecter
 =
 error

@@ -308,7 +308,7 @@ isInXULDocument
 el
 )
 {
-let
+const
 doc
 =
 nodeDocument
@@ -517,7 +517,7 @@ return
 false
 ;
 }
-let
+const
 quads
 =
 node
@@ -561,7 +561,7 @@ image
 timeout
 )
 {
-let
+const
 {
 HTMLImageElement
 }
@@ -610,7 +610,7 @@ resolve
 )
 ;
 }
-let
+const
 onLoad
 =
 AsyncUtils
@@ -623,7 +623,7 @@ load
 "
 )
 ;
-let
+const
 onError
 =
 AsyncUtils
@@ -759,7 +759,7 @@ node
 maxDim
 )
 {
-let
+const
 {
 HTMLCanvasElement
 HTMLImageElement
@@ -769,14 +769,14 @@ node
 .
 ownerGlobal
 ;
-let
+const
 isImg
 =
 node
 instanceof
 HTMLImageElement
 ;
-let
+const
 isCanvas
 =
 node
@@ -833,7 +833,7 @@ resizeRatio
 =
 1
 ;
-let
+const
 imgWidth
 =
 node
@@ -845,7 +845,7 @@ node
 .
 width
 ;
-let
+const
 imgHeight
 =
 node
@@ -857,7 +857,7 @@ node
 .
 height
 ;
-let
+const
 imgMax
 =
 Math
@@ -922,7 +922,7 @@ src
 }
 else
 {
-let
+const
 canvas
 =
 node
@@ -953,7 +953,7 @@ imgHeight
 *
 resizeRatio
 ;
-let
+const
 ctx
 =
 canvas

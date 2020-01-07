@@ -389,7 +389,7 @@ test_client_request_promise
 (
 )
 {
-let
+const
 request
 =
 gClient
@@ -458,7 +458,7 @@ test_client_request_promise_error
 (
 )
 {
-let
+const
 request
 =
 gClient
@@ -560,7 +560,7 @@ test_client_request_event_emitter
 (
 )
 {
-let
+const
 request
 =
 gClient
@@ -634,7 +634,7 @@ test_close_client_while_sending_requests
 (
 )
 {
-let
+const
 activeRequest
 =
 gClient
@@ -653,7 +653,7 @@ hello
 }
 )
 ;
-let
+const
 pendingRequest
 =
 gClient
@@ -672,7 +672,7 @@ hello
 }
 )
 ;
-let
+const
 expectReply
 =
 defer
@@ -942,7 +942,7 @@ test_client_request_after_close
 (
 )
 {
-let
+const
 request
 =
 gClient

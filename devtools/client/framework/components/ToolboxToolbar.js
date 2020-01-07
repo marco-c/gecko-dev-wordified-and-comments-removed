@@ -304,7 +304,7 @@ render
 (
 )
 {
-let
+const
 classnames
 =
 [
@@ -315,7 +315,7 @@ tabbar
 "
 ]
 ;
-let
+const
 startButtons
 =
 renderToolboxButtonsStart
@@ -325,7 +325,7 @@ this
 props
 )
 ;
-let
+const
 endButtons
 =
 renderToolboxButtonsEnd
@@ -722,7 +722,7 @@ event
 }
 )
 ;
-let
+const
 children
 =
 renderedButtons

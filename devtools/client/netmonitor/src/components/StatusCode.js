@@ -176,7 +176,7 @@ render
 (
 )
 {
-let
+const
 {
 item
 }
@@ -185,7 +185,7 @@ this
 .
 props
 ;
-let
+const
 {
 fromCache
 fromServiceWorker
@@ -319,7 +319,7 @@ getStatusTooltip
 item
 )
 {
-let
+const
 {
 fromCache
 fromServiceWorker

@@ -173,7 +173,7 @@ then
 =
 >
 {
-let
+const
 {
 constructor
 type

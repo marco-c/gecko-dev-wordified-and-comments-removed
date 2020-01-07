@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -32,7 +32,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -55,7 +55,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -66,7 +66,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -86,7 +86,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -129,7 +129,7 @@ tab
 1
 )
 ;
-let
+const
 requestItem
 =
 document
@@ -146,7 +146,7 @@ item
 "
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -309,7 +309,7 @@ tab
 await
 wait
 ;
-let
+const
 tabpanel
 =
 document
@@ -489,7 +489,7 @@ attribute
 "
 )
 ;
-let
+const
 jsonView
 =
 tabpanel

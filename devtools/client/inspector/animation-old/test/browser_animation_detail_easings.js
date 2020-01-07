@@ -293,7 +293,7 @@ continue
 }
 for
 (
-let
+const
 testProperty
 in
 testcase

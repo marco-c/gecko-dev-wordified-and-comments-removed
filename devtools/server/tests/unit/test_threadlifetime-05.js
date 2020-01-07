@@ -100,13 +100,13 @@ frameArgs
 onResponse
 )
 {
-let
+const
 grips
 =
 [
 ]
 ;
-let
+const
 handler
 =
 function
@@ -223,7 +223,7 @@ event
 packet
 )
 {
-let
+const
 frameArgs
 =
 [
@@ -335,7 +335,7 @@ frameArgs
 threadGrips
 )
 {
-let
+const
 release
 =
 [

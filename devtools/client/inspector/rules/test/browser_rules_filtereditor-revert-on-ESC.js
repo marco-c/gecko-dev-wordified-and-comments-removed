@@ -27,7 +27,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 view
 }
@@ -53,7 +53,7 @@ testPressingEscapeRevertsChanges
 view
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -62,7 +62,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -76,7 +76,7 @@ textProps
 .
 editor
 ;
-let
+const
 swatch
 =
 propEditor
@@ -231,7 +231,7 @@ tooltip
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -277,7 +277,7 @@ tooltip
 "
 )
 ;
-let
+const
 filterTooltip
 =
 view
@@ -291,7 +291,7 @@ filterEditor
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -337,7 +337,7 @@ tooltip
 "
 )
 ;
-let
+const
 filterTooltip
 =
 view
@@ -351,7 +351,7 @@ filterEditor
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view

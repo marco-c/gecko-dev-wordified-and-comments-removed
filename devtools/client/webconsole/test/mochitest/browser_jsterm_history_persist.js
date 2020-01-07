@@ -99,7 +99,7 @@ inputHistoryCount
 INPUT_HISTORY_COUNT
 )
 ;
-let
+const
 hud1
 =
 await
@@ -226,7 +226,7 @@ history
 "
 )
 ;
-let
+const
 hud2
 =
 await
@@ -394,7 +394,7 @@ perusal
 "
 )
 ;
-let
+const
 hud3
 =
 await
@@ -751,7 +751,7 @@ command
 "
 )
 ;
-let
+const
 hud4
 =
 await
@@ -894,7 +894,7 @@ works
 "
 )
 ;
-let
+const
 hud5
 =
 await
@@ -904,7 +904,7 @@ TEST_URI
 false
 )
 ;
-let
+const
 state5
 =
 hud5
@@ -984,7 +984,7 @@ populateInputHistory
 hud
 )
 {
-let
+const
 jsterm
 =
 hud
@@ -1029,7 +1029,7 @@ testNavigatingHistoryInUI
 hud
 )
 {
-let
+const
 jsterm
 =
 hud

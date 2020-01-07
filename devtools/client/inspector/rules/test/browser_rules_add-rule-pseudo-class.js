@@ -121,7 +121,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -144,7 +144,7 @@ inspector
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -179,7 +179,7 @@ view
 pseudoClasses
 )
 ;
-let
+const
 expected
 =
 EXPECTED_SELECTOR
@@ -233,7 +233,7 @@ return
 }
 for
 (
-let
+const
 pseudoClass
 of
 pseudoClasses

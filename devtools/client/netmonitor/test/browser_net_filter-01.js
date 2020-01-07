@@ -907,7 +907,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -918,7 +918,7 @@ initNetMonitor
 FILTERING_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -929,7 +929,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -949,7 +949,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSelectedRequest
@@ -1015,7 +1015,7 @@ test
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -2878,7 +2878,7 @@ testContents
 visibility
 )
 {
-let
+const
 requestItems
 =
 document
@@ -2897,7 +2897,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestItems
@@ -2909,7 +2909,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -2951,7 +2951,7 @@ title
 )
 ;
 }
-let
+const
 items
 =
 getSortedRequests
@@ -3084,7 +3084,7 @@ i
 +
 )
 {
-let
+const
 itemId
 =
 items
@@ -3096,7 +3096,7 @@ i
 .
 id
 ;
-let
+const
 shouldBeVisible
 =
 !
@@ -3106,7 +3106,7 @@ visibility
 i
 ]
 ;
-let
+const
 isThere
 =
 visibleItems
@@ -3148,7 +3148,7 @@ if
 shouldBeVisible
 )
 {
-let
+const
 {
 method
 url

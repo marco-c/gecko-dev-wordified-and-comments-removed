@@ -387,7 +387,7 @@ status
 =
 >
 {
-let
+const
 isStop
 =
 flags
@@ -398,7 +398,7 @@ nsIWebProgressListener
 .
 STATE_STOP
 ;
-let
+const
 isWindow
 =
 flags
@@ -742,7 +742,7 @@ function
 document
 )
 {
-let
+const
 MutationObserver
 =
 document
@@ -751,7 +751,7 @@ defaultView
 .
 MutationObserver
 ;
-let
+const
 observer
 =
 new
@@ -835,7 +835,7 @@ function
 document
 )
 {
-let
+const
 url
 =
 getURL
@@ -854,7 +854,7 @@ url
 ;
 for
 (
-let
+const
 rule
 of
 getAllSelectorRules
@@ -863,7 +863,7 @@ document
 )
 )
 {
-let
+const
 ruleId
 =
 ruleToId
@@ -967,7 +967,7 @@ qsaCount
 =
 0
 ;
-let
+const
 url
 =
 getURL
@@ -977,7 +977,7 @@ document
 ;
 for
 (
-let
+const
 [
 ruleData
 ]
@@ -1067,7 +1067,7 @@ continue
 }
 try
 {
-let
+const
 match
 =
 document
@@ -1150,7 +1150,7 @@ reports
 }
 ;
 }
-let
+const
 reports
 =
 [
@@ -1158,7 +1158,7 @@ reports
 ;
 for
 (
-let
+const
 [
 ruleId
 ruleData
@@ -1169,7 +1169,7 @@ this
 _knownRules
 )
 {
-let
+const
 {
 url
 :
@@ -1200,7 +1200,7 @@ isUsed
 continue
 ;
 }
-let
+const
 ruleReport
 =
 {
@@ -1260,7 +1260,7 @@ function
 stylesheetActor
 )
 {
-let
+const
 url
 =
 sheetToUrl
@@ -1422,7 +1422,7 @@ cssText
 ;
 }
 ;
-let
+const
 summary
 =
 {
@@ -1437,7 +1437,7 @@ preload
 0
 }
 ;
-let
+const
 unusedMap
 =
 new
@@ -1447,7 +1447,7 @@ Map
 ;
 for
 (
-let
+const
 [
 ruleId
 ruleData
@@ -1458,7 +1458,7 @@ this
 _knownRules
 )
 {
-let
+const
 rule
 =
 deconstructRuleId
@@ -1510,7 +1510,7 @@ ruleData
 isUsed
 )
 {
-let
+const
 ruleReport
 =
 ruleToRuleReport
@@ -1537,7 +1537,7 @@ unused
 ;
 }
 }
-let
+const
 unused
 =
 [
@@ -1545,7 +1545,7 @@ unused
 ;
 for
 (
-let
+const
 [
 url
 rules
@@ -1585,7 +1585,7 @@ rules
 )
 ;
 }
-let
+const
 preload
 =
 [
@@ -1593,7 +1593,7 @@ preload
 ;
 for
 (
-let
+const
 url
 of
 this
@@ -1601,7 +1601,7 @@ this
 _visitedPages
 )
 {
-let
+const
 page
 =
 {
@@ -1632,7 +1632,7 @@ rules
 ;
 for
 (
-let
+const
 [
 ruleId
 ruleData
@@ -1655,7 +1655,7 @@ url
 )
 )
 {
-let
+const
 rule
 =
 deconstructRuleId
@@ -1663,7 +1663,7 @@ deconstructRuleId
 ruleId
 )
 ;
-let
+const
 ruleReport
 =
 ruleToRuleReport
@@ -1767,7 +1767,7 @@ document
 {
 for
 (
-let
+const
 rule
 of
 getAllRules
@@ -1812,7 +1812,7 @@ getAllRules
 document
 )
 {
-let
+const
 sheets
 =
 getAllSheets
@@ -1911,7 +1911,7 @@ i
 +
 )
 {
-let
+const
 subSheets
 =
 getImportedSheets
@@ -1971,7 +1971,7 @@ i
 +
 )
 {
-let
+const
 rule
 =
 stylesheet
@@ -2011,7 +2011,7 @@ rule
 styleSheet
 )
 ;
-let
+const
 subSheets
 =
 getImportedSheets
@@ -2045,7 +2045,7 @@ ruleToId
 rule
 )
 {
-let
+const
 line
 =
 InspectorUtils
@@ -2055,7 +2055,7 @@ getRelativeRuleLine
 rule
 )
 ;
-let
+const
 column
 =
 InspectorUtils
@@ -2098,7 +2098,7 @@ function
 ruleId
 )
 {
-let
+const
 split
 =
 ruleId
@@ -2119,7 +2119,7 @@ length
 3
 )
 {
-let
+const
 replace
 =
 split
@@ -2159,7 +2159,7 @@ replace
 )
 ;
 }
-let
+const
 [
 url
 line
@@ -2203,7 +2203,7 @@ function
 document
 )
 {
-let
+const
 url
 =
 new
@@ -2532,7 +2532,7 @@ replacement
 =
 selector
 ;
-let
+const
 replaceSelector
 =
 pseudo
@@ -2697,7 +2697,7 @@ stylesheet
 ownerNode
 )
 {
-let
+const
 document
 =
 stylesheet
@@ -2706,7 +2706,7 @@ ownerNode
 .
 ownerDocument
 ;
-let
+const
 sheets
 =
 [
@@ -2723,7 +2723,7 @@ style
 )
 ]
 ;
-let
+const
 index
 =
 sheets

@@ -25,8 +25,8 @@ devices
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -55,7 +55,7 @@ json
 let
 devices
 =
-yield
+await
 getDevices
 (
 )
@@ -77,7 +77,7 @@ type
 "
 )
 ;
-let
+const
 type1
 =
 devices
@@ -108,7 +108,7 @@ type
 "
 )
 ;
-let
+const
 string
 =
 getDeviceString
@@ -144,7 +144,7 @@ type
 "
 )
 ;
-let
+const
 device1
 =
 {
@@ -196,7 +196,7 @@ type1
 ;
 devices
 =
-yield
+await
 getDevices
 (
 )
@@ -253,14 +253,14 @@ device
 "
 )
 ;
-let
+const
 type2
 =
 "
 appliances
 "
 ;
-let
+const
 device2
 =
 {
@@ -313,7 +313,7 @@ type2
 ;
 devices
 =
-yield
+await
 getDevices
 (
 )

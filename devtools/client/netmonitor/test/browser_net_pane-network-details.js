@@ -203,7 +203,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -214,7 +214,7 @@ initNetMonitor
 FILTERING_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -225,7 +225,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -245,7 +245,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSelectedRequest
 getSortedRequests
@@ -310,7 +310,7 @@ test
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -694,7 +694,7 @@ toggleNetworkDetails
 )
 )
 ;
-let
+const
 toggleButton
 =
 document

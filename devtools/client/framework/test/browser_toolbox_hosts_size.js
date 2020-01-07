@@ -78,7 +78,7 @@ width
 10000
 )
 ;
-let
+const
 tab
 =
 await
@@ -87,7 +87,7 @@ addTab
 URL
 )
 ;
-let
+const
 nbox
 =
 gBrowser
@@ -96,7 +96,7 @@ getNotificationBox
 (
 )
 ;
-let
+const
 {
 clientHeight
 :
@@ -108,7 +108,7 @@ nboxWidth
 =
 nbox
 ;
-let
+const
 toolbox
 =
 await
@@ -323,7 +323,7 @@ width
 100
 )
 ;
-let
+const
 tab
 =
 await
@@ -332,7 +332,7 @@ addTab
 URL
 )
 ;
-let
+const
 nbox
 =
 gBrowser
@@ -341,7 +341,7 @@ getNotificationBox
 (
 )
 ;
-let
+const
 {
 clientHeight
 :
@@ -353,7 +353,7 @@ nboxWidth
 =
 nbox
 ;
-let
+const
 toolbox
 =
 await

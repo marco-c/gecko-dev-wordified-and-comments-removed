@@ -60,19 +60,19 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 host
 win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -102,7 +102,7 @@ margin
 "
 )
 ;
-let
+const
 container
 =
 doc
@@ -119,7 +119,7 @@ container
 "
 )
 ;
-let
+const
 w
 =
 new
@@ -131,7 +131,7 @@ PREDEFINED
 linear
 )
 ;
-let
+const
 rect
 =
 w
@@ -183,7 +183,7 @@ rect
 .
 graphTop
 ;
-yield
+await
 pointsCanBeDragged
 (
 w
@@ -192,7 +192,7 @@ doc
 rect
 )
 ;
-yield
+await
 curveCanBeClicked
 (
 w
@@ -201,7 +201,7 @@ doc
 rect
 )
 ;
-yield
+await
 pointsCanBeMovedWithKeyboard
 (
 w
@@ -225,8 +225,8 @@ destroy
 }
 )
 ;
+async
 function
-*
 pointsCanBeDragged
 (
 widget
@@ -330,7 +330,7 @@ onmouseup
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok
@@ -476,7 +476,7 @@ onmouseup
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -520,8 +520,8 @@ correct
 )
 ;
 }
+async
 function
-*
 curveCanBeClicked
 (
 widget
@@ -631,7 +631,7 @@ y
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok
@@ -803,7 +803,7 @@ y
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -891,8 +891,8 @@ unchanged
 )
 ;
 }
+async
 function
-*
 pointsCanBeMovedWithKeyboard
 (
 widget
@@ -914,12 +914,12 @@ events
 "
 )
 ;
-let
+const
 singleStep
 =
 3
 ;
-let
+const
 shiftStep
 =
 30
@@ -1003,7 +1003,7 @@ p1
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1125,7 +1125,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1247,7 +1247,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1368,7 +1368,7 @@ p1
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1488,7 +1488,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1608,7 +1608,7 @@ true
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is
@@ -1740,7 +1740,7 @@ p2
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 is

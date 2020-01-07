@@ -4425,7 +4425,7 @@ instruction
 defaultIndentation
 )
 {
-let
+const
 rewriter
 =
 new
@@ -4593,13 +4593,13 @@ run_test
 {
 for
 (
-let
+const
 test
 of
 TEST_DATA
 )
 {
-let
+const
 {
 changed
 text

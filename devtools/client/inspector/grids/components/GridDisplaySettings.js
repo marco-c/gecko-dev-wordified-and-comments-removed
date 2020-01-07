@@ -205,7 +205,7 @@ onShowGridAreasCheckboxClick
 (
 )
 {
-let
+const
 {
 highlighterSettings
 onToggleShowGridAreas
@@ -228,7 +228,7 @@ onShowGridLineNumbersCheckboxClick
 (
 )
 {
-let
+const
 {
 highlighterSettings
 onToggleShowGridLineNumbers
@@ -251,7 +251,7 @@ onShowInfiniteLinesCheckboxClick
 (
 )
 {
-let
+const
 {
 highlighterSettings
 onToggleShowInfiniteLines
@@ -274,7 +274,7 @@ render
 (
 )
 {
-let
+const
 {
 highlighterSettings
 }

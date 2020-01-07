@@ -153,7 +153,7 @@ test
 }
 else
 {
-let
+const
 updated
 =
 inspector
@@ -187,7 +187,7 @@ await
 updated
 ;
 }
-let
+const
 menuUpdated
 =
 inspector
@@ -203,7 +203,7 @@ updated
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -225,7 +225,7 @@ allMenuItems
 disabled
 )
 {
-let
+const
 showA11YPropertiesNode
 =
 allMenuItems
@@ -335,7 +335,7 @@ open
 "
 )
 ;
-let
+const
 panelSelected
 =
 toolbox
@@ -349,7 +349,7 @@ selected
 "
 )
 ;
-let
+const
 objectSelected
 =
 panel
@@ -376,13 +376,13 @@ click
 await
 panelSelected
 ;
-let
+const
 selected
 =
 await
 objectSelected
 ;
-let
+const
 expectedNode
 =
 isText
@@ -401,7 +401,7 @@ selection
 .
 nodeFront
 ;
-let
+const
 expectedSelected
 =
 await
@@ -557,7 +557,7 @@ inspector
 "
 )
 ;
-let
+const
 span2
 =
 await
@@ -582,7 +582,7 @@ expandNode
 span2
 )
 ;
-let
+const
 {
 nodes
 }

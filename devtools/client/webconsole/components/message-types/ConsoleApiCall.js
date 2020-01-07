@@ -308,7 +308,7 @@ assert
 "
 )
 {
-let
+const
 reps
 =
 formatReps

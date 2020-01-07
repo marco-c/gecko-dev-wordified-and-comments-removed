@@ -121,7 +121,7 @@ expected
 "
 )
 ;
-let
+const
 onMessagesCleared
 =
 hud

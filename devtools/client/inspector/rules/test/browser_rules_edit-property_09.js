@@ -75,7 +75,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -113,7 +113,7 @@ ruleEditor
 view
 )
 {
-let
+const
 propEditor
 =
 ruleEditor
@@ -127,14 +127,14 @@ textProps
 .
 editor
 ;
-let
+const
 valueContainer
 =
 propEditor
 .
 valueContainer
 ;
-let
+const
 valueRect
 =
 valueContainer
@@ -170,7 +170,7 @@ inspector
 view
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -179,7 +179,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -256,7 +256,7 @@ editor
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -331,7 +331,7 @@ area
 "
 )
 ;
-let
+const
 onFocus
 =
 once

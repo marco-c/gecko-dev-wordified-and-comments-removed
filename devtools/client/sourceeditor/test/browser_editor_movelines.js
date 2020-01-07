@@ -21,7 +21,7 @@ win
 =
 >
 {
-let
+const
 simpleProg
 =
 "

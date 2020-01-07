@@ -234,7 +234,7 @@ allAppShellDOMWindows
 windowType
 )
 {
-let
+const
 e
 =
 Services
@@ -298,7 +298,7 @@ sendShutdownEvent
 {
 for
 (
-let
+const
 win
 of
 allAppShellDOMWindows
@@ -309,7 +309,7 @@ chromeWindowType
 )
 )
 {
-let
+const
 evt
 =
 win
@@ -502,7 +502,7 @@ function
 {
 for
 (
-let
+const
 win
 of
 allAppShellDOMWindows
@@ -515,7 +515,7 @@ chromeWindowType
 {
 for
 (
-let
+const
 browser
 of
 this
@@ -557,7 +557,7 @@ return
 ]
 ;
 }
-let
+const
 {
 gBrowser
 }
@@ -588,7 +588,7 @@ browser
 =
 >
 {
-let
+const
 tab
 =
 gBrowser
@@ -620,7 +620,7 @@ function
 browserActorOptions
 )
 {
-let
+const
 topXULWindow
 =
 Services
@@ -654,7 +654,7 @@ topXULWindow
 )
 ;
 }
-let
+const
 initialMapSize
 =
 this
@@ -669,7 +669,7 @@ _foundCount
 =
 0
 ;
-let
+const
 actorPromises
 =
 [
@@ -677,7 +677,7 @@ actorPromises
 ;
 for
 (
-let
+const
 browser
 of
 this
@@ -687,7 +687,7 @@ _getBrowsers
 )
 )
 {
-let
+const
 selected
 =
 browser
@@ -936,7 +936,7 @@ number
 "
 )
 {
-let
+const
 window
 =
 Services
@@ -994,7 +994,7 @@ if
 window
 )
 {
-let
+const
 iframe
 =
 window
@@ -1032,7 +1032,7 @@ iframe
 }
 for
 (
-let
+const
 browser
 of
 this
@@ -1108,7 +1108,7 @@ number
 {
 for
 (
-let
+const
 browser
 of
 this
@@ -1187,7 +1187,7 @@ tabId
 )
 ;
 }
-let
+const
 topXULWindow
 =
 Services
@@ -1206,7 +1206,7 @@ if
 topXULWindow
 )
 {
-let
+const
 selectedBrowser
 =
 this
@@ -1636,7 +1636,7 @@ guard
 ]
 )
 {
-let
+const
 op
 =
 shouldListen
@@ -1651,7 +1651,7 @@ removeEventListener
 ;
 for
 (
-let
+const
 win
 of
 allAppShellDOMWindows
@@ -1664,7 +1664,7 @@ chromeWindowType
 {
 for
 (
-let
+const
 name
 of
 eventNames
@@ -1719,7 +1719,7 @@ guard
 ]
 )
 {
-let
+const
 op
 =
 shouldListen
@@ -1734,7 +1734,7 @@ removeMessageListener
 ;
 for
 (
-let
+const
 win
 of
 allAppShellDOMWindows
@@ -1747,7 +1747,7 @@ chromeWindowType
 {
 for
 (
-let
+const
 name
 of
 messageNames
@@ -1791,7 +1791,7 @@ function
 message
 )
 {
-let
+const
 browser
 =
 message
@@ -1811,7 +1811,7 @@ DOMTitleChanged
 "
 :
 {
-let
+const
 actor
 =
 this
@@ -1863,7 +1863,7 @@ function
 event
 )
 {
-let
+const
 browser
 =
 event
@@ -1911,7 +1911,7 @@ TabClose
 "
 :
 {
-let
+const
 actor
 =
 this
@@ -1946,7 +1946,7 @@ TabRemotenessChange
 "
 :
 {
-let
+const
 actor
 =
 this
@@ -2004,7 +2004,7 @@ isRemoteBrowser
 break
 ;
 }
-let
+const
 actor
 =
 this
@@ -2089,7 +2089,7 @@ this
 _listeningToMediator
 )
 {
-let
+const
 op
 =
 shouldListen
@@ -2136,7 +2136,7 @@ function
 window
 )
 {
-let
+const
 handleLoad
 =
 DevToolsUtils
@@ -2375,7 +2375,7 @@ makeInfallible
 {
 for
 (
-let
+const
 [
 browser
 actor
@@ -2487,7 +2487,7 @@ connect
 (
 )
 {
-let
+const
 onDestroy
 =
 (
@@ -2537,7 +2537,7 @@ exit
 ;
 }
 ;
-let
+const
 connect
 =
 DebuggerServer
@@ -2553,7 +2553,7 @@ _browser
 onDestroy
 )
 ;
-let
+const
 form
 =
 await
@@ -2660,7 +2660,7 @@ getFaviconData
 {
 try
 {
-let
+const
 {
 data
 }
@@ -2721,7 +2721,7 @@ connect
 )
 ;
 }
-let
+const
 form
 =
 await
@@ -2732,7 +2732,7 @@ resolve
 =
 >
 {
-let
+const
 onFormUpdate
 =
 msg
@@ -2863,7 +2863,7 @@ _browser
 __SS_restore
 )
 {
-let
+const
 sessionStore
 =
 this
@@ -2872,7 +2872,7 @@ _browser
 .
 __SS_data
 ;
-let
+const
 entry
 =
 sessionStore
@@ -2899,7 +2899,7 @@ this
 _tabbrowser
 )
 {
-let
+const
 tab
 =
 this
@@ -2949,7 +2949,7 @@ _browser
 __SS_restore
 )
 {
-let
+const
 sessionStore
 =
 this
@@ -2958,7 +2958,7 @@ _browser
 .
 __SS_data
 ;
-let
+const
 entry
 =
 sessionStore
@@ -2986,7 +2986,7 @@ form
 (
 )
 {
-let
+const
 form
 =
 Object
@@ -3108,7 +3108,7 @@ function
 (
 )
 {
-let
+const
 addons
 =
 await
@@ -3120,7 +3120,7 @@ getAllAddons
 ;
 for
 (
-let
+const
 addon
 of
 addons

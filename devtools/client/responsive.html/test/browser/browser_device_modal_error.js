@@ -110,7 +110,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 document
@@ -120,7 +120,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 select
 =
 document
@@ -168,7 +168,7 @@ loadableState
 ERROR
 )
 ;
-let
+const
 placeholder
 =
 select

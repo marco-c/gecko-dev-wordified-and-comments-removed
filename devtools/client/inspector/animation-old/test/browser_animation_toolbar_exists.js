@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 window
@@ -38,14 +38,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 doc
 =
 window
 .
 document
 ;
-let
+const
 toolbar
 =
 doc
@@ -96,7 +96,7 @@ animations
 "
 )
 ;
-let
+const
 timelineToolbar
 =
 doc

@@ -116,7 +116,7 @@ GetPref
 name
 )
 {
-let
+const
 type
 =
 Services
@@ -205,7 +205,7 @@ name
 value
 )
 {
-let
+const
 type
 =
 Services
@@ -905,7 +905,7 @@ disabled
 "
 )
 {
-let
+const
 cacheDisabled
 =
 GetPref
@@ -913,7 +913,7 @@ GetPref
 prefName
 )
 ;
-let
+const
 cbx
 =
 this
@@ -1010,7 +1010,7 @@ function
 theme
 )
 {
-let
+const
 themeBox
 =
 this
@@ -1028,7 +1028,7 @@ box
 "
 )
 ;
-let
+const
 themeInput
 =
 themeBox
@@ -1073,7 +1073,7 @@ toolbox
 .
 isOpen
 ;
-let
+const
 enabledToolbarButtonsBox
 =
 this
@@ -1093,7 +1093,7 @@ box
 "
 )
 ;
-let
+const
 toolbarButtons
 =
 this
@@ -1128,7 +1128,7 @@ yet
 return
 ;
 }
-let
+const
 onCheckboxClick
 =
 (
@@ -1137,7 +1137,7 @@ checkbox
 =
 >
 {
-let
+const
 commandButton
 =
 toolbarButtons
@@ -1185,14 +1185,14 @@ updateToolboxButtonsVisibility
 ;
 }
 ;
-let
+const
 createCommandCheckbox
 =
 button
 =
 >
 {
-let
+const
 checkboxLabel
 =
 this
@@ -1206,7 +1206,7 @@ label
 "
 )
 ;
-let
+const
 checkboxSpanLabel
 =
 this
@@ -1228,7 +1228,7 @@ button
 .
 description
 ;
-let
+const
 checkboxInput
 =
 this
@@ -1329,7 +1329,7 @@ checkboxLabel
 ;
 for
 (
-let
+const
 button
 of
 toolbarButtons
@@ -1371,7 +1371,7 @@ function
 (
 )
 {
-let
+const
 defaultToolsBox
 =
 this
@@ -1389,7 +1389,7 @@ box
 "
 )
 ;
-let
+const
 additionalToolsBox
 =
 this
@@ -1407,7 +1407,7 @@ box
 "
 )
 ;
-let
+const
 toolsNotSupportedLabel
 =
 this
@@ -1432,7 +1432,7 @@ atleastOneToolNotSupported
 =
 false
 ;
-let
+const
 onCheckboxClick
 =
 function
@@ -1509,7 +1509,7 @@ checked
 }
 }
 ;
-let
+const
 createToolCheckbox
 =
 (
@@ -1518,7 +1518,7 @@ tool
 =
 >
 {
-let
+const
 checkboxLabel
 =
 this
@@ -1532,7 +1532,7 @@ label
 "
 )
 ;
-let
+const
 checkboxInput
 =
 this
@@ -1586,7 +1586,7 @@ tooltip
 "
 )
 ;
-let
+const
 checkboxSpanLabel
 =
 this
@@ -1735,7 +1735,7 @@ checkboxLabel
 ;
 for
 (
-let
+const
 label
 of
 defaultToolsBox
@@ -1755,7 +1755,7 @@ remove
 )
 ;
 }
-let
+const
 toggleableTools
 =
 gDevTools
@@ -1786,7 +1786,7 @@ hiddenInOptions
 ;
 for
 (
-let
+const
 tool
 of
 toggleableTools
@@ -1805,7 +1805,7 @@ tool
 }
 for
 (
-let
+const
 label
 of
 additionalToolsBox
@@ -1832,7 +1832,7 @@ false
 ;
 for
 (
-let
+const
 tool
 of
 gDevTools
@@ -1859,7 +1859,7 @@ tool
 }
 for
 (
-let
+const
 {
 uuid
 name
@@ -1991,7 +1991,7 @@ function
 (
 )
 {
-let
+const
 themeBox
 =
 this
@@ -2009,7 +2009,7 @@ box
 "
 )
 ;
-let
+const
 themeLabels
 =
 themeBox
@@ -2023,7 +2023,7 @@ label
 ;
 for
 (
-let
+const
 label
 of
 themeLabels
@@ -2036,14 +2036,14 @@ remove
 )
 ;
 }
-let
+const
 createThemeOption
 =
 theme
 =
 >
 {
-let
+const
 inputLabel
 =
 this
@@ -2057,7 +2057,7 @@ label
 "
 )
 ;
-let
+const
 inputRadio
 =
 this
@@ -2145,7 +2145,7 @@ value
 }
 )
 ;
-let
+const
 inputSpanLabel
 =
 this
@@ -2186,7 +2186,7 @@ inputLabel
 ;
 }
 ;
-let
+const
 themes
 =
 gDevTools
@@ -2197,7 +2197,7 @@ getThemeDefinitionArray
 ;
 for
 (
-let
+const
 theme
 of
 themes
@@ -2227,7 +2227,7 @@ function
 (
 )
 {
-let
+const
 isNightly
 =
 AppConstants
@@ -2243,7 +2243,7 @@ isNightly
 return
 ;
 }
-let
+const
 prefDefinitions
 =
 [
@@ -2342,7 +2342,7 @@ options
 }
 ]
 ;
-let
+const
 createPreferenceOption
 =
 (
@@ -2355,7 +2355,7 @@ id
 =
 >
 {
-let
+const
 inputLabel
 =
 this
@@ -2369,7 +2369,7 @@ label
 "
 )
 ;
-let
+const
 checkbox
 =
 this
@@ -2450,7 +2450,7 @@ checked
 }
 )
 ;
-let
+const
 inputSpanLabel
 =
 this
@@ -2491,13 +2491,13 @@ inputLabel
 ;
 for
 (
-let
+const
 prefDefinition
 of
 prefDefinitions
 )
 {
-let
+const
 parent
 =
 this
@@ -2537,7 +2537,7 @@ populatePreferences
 (
 )
 {
-let
+const
 prefCheckboxes
 =
 this
@@ -2563,7 +2563,7 @@ pref
 ;
 for
 (
-let
+const
 prefCheckbox
 of
 prefCheckboxes
@@ -2609,7 +2609,7 @@ function
 e
 )
 {
-let
+const
 checkbox
 =
 e
@@ -2637,7 +2637,7 @@ checked
 )
 ;
 }
-let
+const
 prefRadiogroups
 =
 this
@@ -2669,13 +2669,13 @@ box
 ;
 for
 (
-let
+const
 radioGroup
 of
 prefRadiogroups
 )
 {
-let
+const
 selectedValue
 =
 GetPref
@@ -2694,7 +2694,7 @@ pref
 ;
 for
 (
-let
+const
 radioInput
 of
 radioGroup
@@ -2774,7 +2774,7 @@ value
 ;
 }
 }
-let
+const
 prefSelects
 =
 this
@@ -2795,13 +2795,13 @@ pref
 ;
 for
 (
-let
+const
 prefSelect
 of
 prefSelects
 )
 {
-let
+const
 pref
 =
 GetPref
@@ -2818,7 +2818,7 @@ pref
 )
 )
 ;
-let
+const
 options
 =
 [
@@ -2839,7 +2839,7 @@ function
 option
 )
 {
-let
+const
 value
 =
 option
@@ -2887,7 +2887,7 @@ function
 e
 )
 {
-let
+const
 select
 =
 e
@@ -2931,7 +2931,7 @@ target
 activeTab
 )
 {
-let
+const
 [
 response
 ]
@@ -3012,7 +3012,7 @@ function
 (
 )
 {
-let
+const
 currentTheme
 =
 GetPref
@@ -3024,7 +3024,7 @@ theme
 "
 )
 ;
-let
+const
 themeBox
 =
 this
@@ -3042,7 +3042,7 @@ box
 "
 )
 ;
-let
+const
 themeRadioInput
 =
 themeBox
@@ -3072,7 +3072,7 @@ true
 }
 else
 {
-let
+const
 lightThemeInputRadio
 =
 themeBox
@@ -3119,7 +3119,7 @@ service
 enabled
 "
 ;
-let
+const
 enabled
 =
 GetPref
@@ -3127,7 +3127,7 @@ GetPref
 prefName
 )
 ;
-let
+const
 box
 =
 this
@@ -3163,7 +3163,7 @@ function
 event
 )
 {
-let
+const
 checked
 =
 event
@@ -3172,7 +3172,7 @@ target
 .
 checked
 ;
-let
+const
 options
 =
 {
@@ -3215,7 +3215,7 @@ this
 destroyPromise
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -3273,7 +3273,7 @@ traits
 noTabReconfigureOnClose
 )
 {
-let
+const
 options
 =
 {

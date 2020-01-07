@@ -128,7 +128,7 @@ Ci
 nsISupportsString
 )
 ;
-let
+const
 hud
 =
 HUDService
@@ -185,7 +185,7 @@ created
 "
 )
 ;
-let
+const
 hud
 =
 HUDService

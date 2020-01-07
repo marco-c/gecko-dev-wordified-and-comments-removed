@@ -257,7 +257,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -359,7 +359,7 @@ field
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -368,7 +368,7 @@ view
 0
 )
 ;
-let
+const
 editor
 =
 await
@@ -560,7 +560,7 @@ suggest
 )
 ;
 }
-let
+const
 popupEvent
 =
 open
@@ -577,7 +577,7 @@ popup
 closed
 "
 ;
-let
+const
 onPopupEvent
 =
 editor

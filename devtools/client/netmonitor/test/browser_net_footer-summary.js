@@ -40,7 +40,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -63,7 +63,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -74,7 +74,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -94,7 +94,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequestsSummary
 }
@@ -116,7 +116,7 @@ index
 "
 )
 ;
-let
+const
 {
 L10N
 }
@@ -138,7 +138,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 PluralForm
 }
@@ -200,7 +200,7 @@ i
 }
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -256,7 +256,7 @@ testStatus
 (
 )
 ;
-let
+const
 buttons
 =
 [
@@ -285,13 +285,13 @@ media
 ;
 for
 (
-let
+const
 button
 of
 buttons
 )
 {
-let
+const
 buttonEl
 =
 document
@@ -343,7 +343,7 @@ testStatus
 (
 )
 {
-let
+const
 state
 =
 store
@@ -352,7 +352,7 @@ getState
 (
 )
 ;
-let
+const
 totalRequestsCount
 =
 state
@@ -363,7 +363,7 @@ requests
 .
 size
 ;
-let
+const
 requestsSummary
 =
 getDisplayedRequestsSummary
@@ -388,7 +388,7 @@ totalRequestsCount
 .
 )
 ;
-let
+const
 valueCount
 =
 document
@@ -423,7 +423,7 @@ count
 valueCount
 )
 ;
-let
+const
 expectedCount
 =
 PluralForm
@@ -505,7 +505,7 @@ label
 return
 ;
 }
-let
+const
 valueTransfer
 =
 document
@@ -540,7 +540,7 @@ transfer
 valueTransfer
 )
 ;
-let
+const
 expectedTransfer
 =
 L10N
@@ -568,7 +568,7 @@ transferredSize
 )
 )
 ;
-let
+const
 valueFinish
 =
 document
@@ -603,7 +603,7 @@ finish
 valueFinish
 )
 ;
-let
+const
 expectedFinish
 =
 L10N

@@ -154,7 +154,7 @@ enabled
 }
 )
 ;
-let
+const
 tab
 =
 await
@@ -163,7 +163,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 testActor
 =
 await
@@ -258,7 +258,7 @@ iframe
 "
 )
 ;
-let
+const
 selector
 =
 [
@@ -290,14 +290,14 @@ state
 "
 )
 ;
-let
+const
 inspector
 =
 getActiveInspector
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -333,7 +333,7 @@ changeToolboxToInnerFrame
 (
 )
 {
-let
+const
 {
 toolbox
 }
@@ -342,7 +342,7 @@ getActiveInspector
 (
 )
 ;
-let
+const
 frameButton
 =
 toolbox
@@ -360,7 +360,7 @@ frames
 "
 )
 ;
-let
+const
 menu
 =
 await
@@ -384,7 +384,7 @@ open
 "
 )
 ;
-let
+const
 frames
 =
 menu
@@ -407,7 +407,7 @@ switcher
 "
 )
 ;
-let
+const
 innerFrameButton
 =
 frames
@@ -441,7 +441,7 @@ frame
 "
 )
 ;
-let
+const
 newRoot
 =
 toolbox

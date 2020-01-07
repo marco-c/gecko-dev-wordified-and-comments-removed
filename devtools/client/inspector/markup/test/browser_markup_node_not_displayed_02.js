@@ -619,7 +619,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -633,7 +633,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -694,7 +694,7 @@ node
 "
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -704,7 +704,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -765,7 +765,7 @@ event
 "
 )
 ;
-let
+const
 onDisplayChanged
 =
 new
@@ -809,7 +809,7 @@ changeStyle
 testActor
 )
 ;
-let
+const
 nodes
 =
 await
@@ -857,7 +857,7 @@ false
 ;
 for
 (
-let
+const
 node
 of
 nodes

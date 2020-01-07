@@ -92,7 +92,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -103,7 +103,7 @@ openRuleView
 (
 )
 ;
-let
+const
 highlighters
 =
 view
@@ -133,7 +133,7 @@ shape
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -152,7 +152,7 @@ path
 .
 valueSpan
 ;
-let
+const
 shapesToggle
 =
 container
@@ -285,7 +285,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -414,7 +414,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterHidden
 =
 highlighters

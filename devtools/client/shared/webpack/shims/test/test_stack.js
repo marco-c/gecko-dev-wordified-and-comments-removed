@@ -136,7 +136,7 @@ worked
 "
 )
 ;
-let
+const
 stack
 =
 getStack
@@ -164,7 +164,7 @@ serializable
 "
 )
 ;
-let
+const
 desc
 =
 f1

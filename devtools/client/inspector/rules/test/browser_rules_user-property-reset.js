@@ -81,7 +81,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -270,7 +270,7 @@ element
 "
 )
 ;
-let
+const
 valueSpan
 =
 getStyleRule
@@ -304,7 +304,7 @@ mode
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -378,7 +378,7 @@ mutation
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -392,7 +392,7 @@ blur
 true
 )
 ;
-let
+const
 onStyleChanged
 =
 waitForStyleModification
@@ -440,7 +440,7 @@ edited
 "
 )
 ;
-let
+const
 onNewFieldBlur
 =
 once
@@ -480,7 +480,7 @@ markup
 }
 )
 {
-let
+const
 front
 =
 await
@@ -498,7 +498,7 @@ rootNode
 id
 )
 ;
-let
+const
 container
 =
 markup
@@ -515,7 +515,7 @@ attrIndex
 ;
 for
 (
-let
+const
 attrName
 of
 container
@@ -584,7 +584,7 @@ ruleView
 inspector
 )
 {
-let
+const
 valueSpan
 =
 getStyleRule
@@ -625,7 +625,7 @@ expected
 "
 )
 ;
-let
+const
 attr
 =
 await

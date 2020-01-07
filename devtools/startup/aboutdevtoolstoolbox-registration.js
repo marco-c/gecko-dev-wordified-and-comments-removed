@@ -163,7 +163,7 @@ uri
 loadInfo
 )
 {
-let
+const
 chan
 =
 Services

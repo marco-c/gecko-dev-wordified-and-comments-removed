@@ -30,7 +30,7 @@ isCapturing
 false
 }
 ;
-let
+const
 reducers
 =
 {
@@ -96,7 +96,7 @@ INITIAL_SCREENSHOT
 action
 )
 {
-let
+const
 reducer
 =
 reducers

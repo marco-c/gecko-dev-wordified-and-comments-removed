@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -17,14 +17,14 @@ initWebAudioEditor
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -32,7 +32,7 @@ EVENTS
 =
 panelWin
 ;
-let
+const
 events
 =
 Promise
@@ -65,7 +65,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 ]
@@ -73,7 +73,7 @@ actors
 await
 events
 ;
-let
+const
 [
 dest
 osc

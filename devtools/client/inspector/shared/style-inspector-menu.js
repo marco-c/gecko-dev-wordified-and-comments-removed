@@ -468,7 +468,7 @@ focus
 (
 )
 ;
-let
+const
 menu
 =
 new
@@ -476,7 +476,7 @@ Menu
 (
 )
 ;
-let
+const
 menuitemCopy
 =
 new
@@ -538,7 +538,7 @@ _hasTextSelected
 }
 )
 ;
-let
+const
 menuitemCopyLocation
 =
 new
@@ -579,7 +579,7 @@ false
 }
 )
 ;
-let
+const
 menuitemCopyRule
 =
 new
@@ -622,7 +622,7 @@ isRuleView
 }
 )
 ;
-let
+const
 copyColorAccessKey
 =
 "
@@ -635,7 +635,7 @@ copyColor
 accessKey
 "
 ;
-let
+const
 menuitemCopyColor
 =
 new
@@ -688,7 +688,7 @@ _isColorPopup
 }
 )
 ;
-let
+const
 copyUrlAccessKey
 =
 "
@@ -701,7 +701,7 @@ copyUrl
 accessKey
 "
 ;
-let
+const
 menuitemCopyUrl
 =
 new
@@ -754,7 +754,7 @@ _isImageUrl
 }
 )
 ;
-let
+const
 copyImageAccessKey
 =
 "
@@ -767,7 +767,7 @@ copyImageDataUrl
 accessKey
 "
 ;
-let
+const
 menuitemCopyImageDataUrl
 =
 new
@@ -820,7 +820,7 @@ _isImageUrl
 }
 )
 ;
-let
+const
 copyPropDeclarationLabel
 =
 "
@@ -831,7 +831,7 @@ contextmenu
 copyPropertyDeclaration
 "
 ;
-let
+const
 menuitemCopyPropertyDeclaration
 =
 new
@@ -866,7 +866,7 @@ false
 }
 )
 ;
-let
+const
 menuitemCopyPropertyName
 =
 new
@@ -907,7 +907,7 @@ false
 }
 )
 ;
-let
+const
 menuitemCopyPropertyValue
 =
 new
@@ -948,7 +948,7 @@ false
 }
 )
 ;
-let
+const
 menuitemCopySelector
 =
 new
@@ -1165,7 +1165,7 @@ separator
 )
 )
 ;
-let
+const
 selectAllAccessKey
 =
 "
@@ -1178,7 +1178,7 @@ selectAll
 accessKey
 "
 ;
-let
+const
 menuitemSelectAll
 =
 new
@@ -1248,7 +1248,7 @@ separator
 )
 )
 ;
-let
+const
 addRuleAccessKey
 =
 "
@@ -1261,7 +1261,7 @@ addNewRule
 accessKey
 "
 ;
-let
+const
 menuitemAddRule
 =
 new
@@ -1336,7 +1336,7 @@ append
 menuitemAddRule
 )
 ;
-let
+const
 sourcesAccessKey
 =
 "
@@ -1349,7 +1349,7 @@ toggleOrigSources
 accessKey
 "
 ;
-let
+const
 menuitemSources
 =
 new
@@ -1443,7 +1443,7 @@ function
 let
 hasTextSelected
 ;
-let
+const
 selection
 =
 this
@@ -1454,7 +1454,7 @@ getSelection
 (
 )
 ;
-let
+const
 node
 =
 this
@@ -1485,7 +1485,7 @@ textarea
 "
 )
 {
-let
+const
 {
 selectionStart
 selectionEnd
@@ -1541,7 +1541,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -1593,7 +1593,7 @@ return
 false
 ;
 }
-let
+const
 isColorNode
 =
 el
@@ -1658,7 +1658,7 @@ function
 (
 )
 {
-let
+const
 nodeInfo
 =
 this
@@ -1692,7 +1692,7 @@ function
 (
 )
 {
-let
+const
 nodeInfo
 =
 this
@@ -1731,7 +1731,7 @@ container
 =
 null
 ;
-let
+const
 node
 =
 this
@@ -1745,7 +1745,7 @@ if
 node
 )
 {
-let
+const
 isTextNode
 =
 node
@@ -1778,7 +1778,7 @@ function
 (
 )
 {
-let
+const
 selection
 =
 this
@@ -1889,7 +1889,7 @@ message
 ;
 try
 {
-let
+const
 inspectorFront
 =
 this
@@ -1898,7 +1898,7 @@ inspector
 .
 inspector
 ;
-let
+const
 imageUrl
 =
 this
@@ -1909,7 +1909,7 @@ value
 .
 url
 ;
-let
+const
 data
 =
 await
@@ -2020,7 +2020,7 @@ _clickedNodeInfo
 return
 ;
 }
-let
+const
 textProp
 =
 this
@@ -2111,7 +2111,7 @@ function
 (
 )
 {
-let
+const
 ruleEditor
 =
 this
@@ -2126,7 +2126,7 @@ offsetParent
 .
 _ruleEditor
 ;
-let
+const
 rule
 =
 ruleEditor
@@ -2180,7 +2180,7 @@ function
 (
 )
 {
-let
+const
 isEnabled
 =
 Services

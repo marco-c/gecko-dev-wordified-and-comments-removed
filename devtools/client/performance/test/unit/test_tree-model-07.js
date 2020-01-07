@@ -30,7 +30,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -54,7 +54,7 @@ model
 "
 )
 ;
-let
+const
 url
 =
 (
@@ -72,7 +72,7 @@ content
 n
 }
 ;
-let
+const
 root
 =
 getFrameNodePath

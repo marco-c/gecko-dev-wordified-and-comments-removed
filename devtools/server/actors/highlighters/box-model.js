@@ -252,7 +252,7 @@ this
 onWillNavigate
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -276,7 +276,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -285,7 +285,7 @@ win
 .
 document
 ;
-let
+const
 highlighterContainer
 =
 doc
@@ -322,7 +322,7 @@ box
 model
 "
 ;
-let
+const
 rootWrapper
 =
 createNode
@@ -367,7 +367,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -433,7 +433,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 regions
 =
 createSVGNode
@@ -478,7 +478,7 @@ ID_CLASS_PREFIX
 ;
 for
 (
-let
+const
 region
 of
 BOX_MODEL_REGIONS
@@ -530,7 +530,7 @@ ID_CLASS_PREFIX
 }
 for
 (
-let
+const
 side
 of
 BOX_MODEL_SIDES
@@ -597,7 +597,7 @@ ID_CLASS_PREFIX
 )
 ;
 }
-let
+const
 infobarContainer
 =
 createNode
@@ -653,7 +653,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 infobar
 =
 createNode
@@ -684,7 +684,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 texthbox
 =
 createNode
@@ -965,7 +965,7 @@ this
 onWillNavigate
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -1088,7 +1088,7 @@ content
 "
 ;
 }
-let
+const
 shown
 =
 this
@@ -1130,7 +1130,7 @@ currentNode
 )
 )
 {
-let
+const
 win
 =
 this
@@ -1483,7 +1483,7 @@ _getOuterQuad
 region
 )
 {
-let
+const
 quads
 =
 this
@@ -1505,7 +1505,7 @@ return
 null
 ;
 }
-let
+const
 quad
 =
 {
@@ -1587,7 +1587,7 @@ y
 ;
 for
 (
-let
+const
 q
 of
 quads
@@ -1926,7 +1926,7 @@ _updateBoxModel
 (
 )
 {
-let
+const
 options
 =
 this
@@ -1984,7 +1984,7 @@ i
 +
 )
 {
-let
+const
 boxType
 =
 BOX_MODEL_REGIONS
@@ -1992,7 +1992,7 @@ BOX_MODEL_REGIONS
 i
 ]
 ;
-let
+const
 nextBoxType
 =
 BOX_MODEL_REGIONS
@@ -2002,7 +2002,7 @@ i
 1
 ]
 ;
-let
+const
 box
 =
 this
@@ -2057,7 +2057,7 @@ style
 )
 ;
 }
-let
+const
 path
 =
 [
@@ -2086,7 +2086,7 @@ j
 +
 )
 {
-let
+const
 boxQuad
 =
 this
@@ -2099,7 +2099,7 @@ boxType
 j
 ]
 ;
-let
+const
 nextBoxQuad
 =
 this
@@ -2250,7 +2250,7 @@ _hideGuides
 ;
 }
 }
-let
+const
 rootId
 =
 this
@@ -2283,7 +2283,7 @@ boxQuad
 nextBoxQuad
 )
 {
-let
+const
 {
 p1
 p2
@@ -2384,7 +2384,7 @@ y
 }
 else
 {
-let
+const
 {
 p1
 :
@@ -2633,7 +2633,7 @@ _getOuterBounds
 {
 for
 (
-let
+const
 region
 of
 [
@@ -2652,7 +2652,7 @@ content
 ]
 )
 {
-let
+const
 quad
 =
 this
@@ -2671,7 +2671,7 @@ quad
 break
 ;
 }
-let
+const
 {
 bottom
 height
@@ -2747,7 +2747,7 @@ _showGuides
 region
 )
 {
-let
+const
 {
 p1
 p2
@@ -2762,7 +2762,7 @@ _getOuterQuad
 region
 )
 ;
-let
+const
 allX
 =
 [
@@ -2793,7 +2793,7 @@ a
 b
 )
 ;
-let
+const
 allY
 =
 [
@@ -2824,13 +2824,13 @@ a
 b
 )
 ;
-let
+const
 toShowX
 =
 [
 ]
 ;
-let
+const
 toShowY
 =
 [
@@ -2838,7 +2838,7 @@ toShowY
 ;
 for
 (
-let
+const
 arr
 of
 [
@@ -2865,7 +2865,7 @@ i
 +
 )
 {
-let
+const
 val
 =
 arr
@@ -3013,7 +3013,7 @@ _hideGuides
 {
 for
 (
-let
+const
 side
 of
 BOX_MODEL_SIDES
@@ -3052,7 +3052,7 @@ point
 1
 )
 {
-let
+const
 guide
 =
 this
@@ -3245,7 +3245,7 @@ currentNode
 return
 ;
 }
-let
+const
 {
 bindingElement
 :
@@ -3260,7 +3260,7 @@ this
 currentNode
 )
 ;
-let
+const
 displayName
 =
 getNodeDisplayName
@@ -3268,7 +3268,7 @@ getNodeDisplayName
 node
 )
 ;
-let
+const
 id
 =
 node
@@ -3286,7 +3286,7 @@ id
 "
 "
 ;
-let
+const
 classList
 =
 (
@@ -3355,7 +3355,7 @@ pseudos
 pseudo
 ;
 }
-let
+const
 zoom
 =
 getCurrentZoom
@@ -3365,7 +3365,7 @@ this
 win
 )
 ;
-let
+const
 {
 width
 height
@@ -3382,7 +3382,7 @@ border
 .
 bounds
 ;
-let
+const
 dim
 =
 parseFloat
@@ -3550,7 +3550,7 @@ _moveInfobar
 (
 )
 {
-let
+const
 bounds
 =
 this
@@ -3559,7 +3559,7 @@ _getOuterBounds
 (
 )
 ;
-let
+const
 container
 =
 this

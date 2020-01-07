@@ -73,7 +73,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -252,7 +252,7 @@ iframe
 "
 )
 ;
-let
+const
 iframe
 =
 await
@@ -264,7 +264,7 @@ iframe
 inspector
 )
 ;
-let
+const
 {
 nodes
 }
@@ -279,7 +279,7 @@ children
 iframe
 )
 ;
-let
+const
 documentFront
 =
 nodes

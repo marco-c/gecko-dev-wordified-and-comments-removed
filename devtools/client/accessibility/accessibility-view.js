@@ -463,7 +463,7 @@ node
 ;
 for
 (
-let
+const
 child
 of
 children

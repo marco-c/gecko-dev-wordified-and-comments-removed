@@ -177,7 +177,7 @@ waitForTick
 (
 )
 {
-let
+const
 deferred
 =
 defer

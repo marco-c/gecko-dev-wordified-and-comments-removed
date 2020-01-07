@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 controller
@@ -38,14 +38,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 players
 =
 controller
 .
 animationPlayers
 ;
-let
+const
 btn
 =
 panel

@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -37,7 +37,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 label
 =
 panel
@@ -159,14 +159,14 @@ panel
 isChanging
 )
 {
-let
+const
 label
 =
 panel
 .
 timelineCurrentTimeEl
 ;
-let
+const
 time1
 =
 label
@@ -187,7 +187,7 @@ r
 )
 )
 ;
-let
+const
 time2
 =
 label

@@ -50,7 +50,7 @@ run_test
 (
 )
 {
-let
+const
 imgData
 =
 QR

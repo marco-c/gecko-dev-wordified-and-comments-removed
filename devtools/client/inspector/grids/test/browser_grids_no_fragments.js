@@ -144,7 +144,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -155,7 +155,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -164,14 +164,14 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 store
 }
 =
 inspector
 ;
-let
+const
 gridList
 =
 doc
@@ -220,7 +220,7 @@ checkbox
 "
 )
 ;
-let
+const
 checkbox1
 =
 gridList
@@ -237,7 +237,7 @@ input
 "
 )
 ;
-let
+const
 onCheckbox1Change
 =
 waitUntilState
@@ -288,7 +288,7 @@ checkbox
 "
 )
 ;
-let
+const
 checkbox2
 =
 gridList
@@ -305,7 +305,7 @@ input
 "
 )
 ;
-let
+const
 onCheckbox2Change
 =
 waitUntilState

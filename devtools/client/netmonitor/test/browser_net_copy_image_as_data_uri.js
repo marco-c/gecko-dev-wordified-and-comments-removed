@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 }

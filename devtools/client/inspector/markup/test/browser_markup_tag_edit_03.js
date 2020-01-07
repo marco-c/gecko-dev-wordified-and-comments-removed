@@ -55,7 +55,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -277,7 +277,7 @@ view
 "
 )
 ;
-let
+const
 mutated
 =
 inspector
@@ -289,7 +289,7 @@ markupmutation
 "
 )
 ;
-let
+const
 tagEditor
 =
 container

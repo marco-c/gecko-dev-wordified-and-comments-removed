@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -33,7 +33,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 panelFront
 =
 await
@@ -79,7 +79,7 @@ attribute
 "
 )
 ;
-let
+const
 onMutation
 =
 inspector

@@ -174,7 +174,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+const
 {
 OS
 }
@@ -206,7 +206,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 await
@@ -214,7 +214,7 @@ openWebIDE
 (
 )
 ;
-let
+const
 winProject
 =
 getProjectWindow
@@ -222,7 +222,7 @@ getProjectWindow
 win
 )
 ;
-let
+const
 AppManager
 =
 win
@@ -234,7 +234,7 @@ isProjectMarkedAsValid
 (
 )
 {
-let
+const
 details
 =
 win
@@ -262,7 +262,7 @@ error
 )
 ;
 }
-let
+const
 packagedAppLocation
 =
 getTestFilePath
@@ -272,7 +272,7 @@ app
 "
 )
 ;
-let
+const
 onValidated
 =
 waitForUpdate
@@ -285,7 +285,7 @@ validated
 "
 )
 ;
-let
+const
 onDetails
 =
 waitForUpdate
@@ -312,7 +312,7 @@ onValidated
 await
 onDetails
 ;
-let
+const
 project
 =
 win
@@ -375,7 +375,7 @@ valid
 Change
 the
 name
-let
+const
 originalName
 =
 project
@@ -411,7 +411,7 @@ project
 /
 Read
 file
-let
+const
 manifestPath
 =
 OS
@@ -453,7 +453,7 @@ decode
 data
 )
 ;
-let
+const
 json
 =
 JSON
@@ -492,7 +492,7 @@ json
 .
 name
 ;
-let
+const
 Encoder
 =
 new

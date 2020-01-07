@@ -84,7 +84,7 @@ enableApplicationPanel
 (
 )
 ;
-let
+const
 {
 panel
 target
@@ -96,7 +96,7 @@ openNewTabAndApplicationPanel
 SIMPLE_URL
 )
 ;
-let
+const
 doc
 =
 panel

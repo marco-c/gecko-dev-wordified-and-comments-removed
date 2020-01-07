@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 controller
 inspector

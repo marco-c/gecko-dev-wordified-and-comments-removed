@@ -41,7 +41,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -50,7 +50,7 @@ addTab
 PAGE_URL
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -65,7 +65,7 @@ bottom
 "
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -74,7 +74,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 root
 =
 await
@@ -86,7 +86,7 @@ getRootNode
 (
 )
 ;
-let
+const
 body
 =
 await
@@ -102,7 +102,7 @@ body
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -135,7 +135,7 @@ default
 "
 )
 ;
-let
+const
 onSelectionChanged
 =
 toolbox
@@ -209,7 +209,7 @@ selected
 "
 )
 ;
-let
+const
 onClearSelectionChanged
 =
 toolbox

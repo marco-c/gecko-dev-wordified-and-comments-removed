@@ -248,7 +248,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 client
 }
@@ -280,7 +280,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 {
 client
 }
@@ -346,7 +346,7 @@ tab
 ;
 for
 (
-let
+const
 tab
 of
 tabs
@@ -359,7 +359,7 @@ tab
 favicon
 )
 {
-let
+const
 base64Favicon
 =
 btoa
@@ -432,7 +432,7 @@ render
 (
 )
 {
-let
+const
 {
 client
 connect
@@ -443,7 +443,7 @@ this
 .
 props
 ;
-let
+const
 {
 tabs
 }

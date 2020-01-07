@@ -127,7 +127,7 @@ js
 ;
 for
 (
-let
+const
 key
 of
 Object
@@ -221,7 +221,7 @@ flags
 testing
 )
 {
-let
+const
 stack
 =
 getStack
@@ -285,7 +285,7 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -317,7 +317,7 @@ function
 delay
 )
 {
-let
+const
 deferred
 =
 defer
@@ -361,14 +361,14 @@ i
 =
 0
 ;
-let
+const
 len
 =
 array
 .
 length
 ;
-let
+const
 outstanding
 =
 [
@@ -553,7 +553,7 @@ object
 key
 )
 {
-let
+const
 root
 =
 object
@@ -757,7 +757,7 @@ function
 obj
 )
 {
-let
+const
 unwrapped
 =
 exports
@@ -922,7 +922,7 @@ return
 true
 ;
 }
-let
+const
 principal
 =
 Cu
@@ -963,7 +963,7 @@ return
 false
 ;
 }
-let
+const
 proto
 =
 Object
@@ -1304,7 +1304,7 @@ function
 (
 )
 {
-let
+const
 temp
 =
 {
@@ -1468,7 +1468,7 @@ cacheKey
 }
 )
 {
-let
+const
 url
 =
 urlIn
@@ -1599,14 +1599,14 @@ nsIDocumentLoader
 loadGroup
 ;
 }
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 onResponse
 =
 (
@@ -1655,7 +1655,7 @@ return
 }
 try
 {
-let
+const
 available
 =
 stream
@@ -1890,7 +1890,7 @@ UTF
 "
 ;
 }
-let
+const
 unicodeSource
 =
 NetworkHelper
@@ -1923,7 +1923,7 @@ catch
 ex
 )
 {
-let
+const
 uri
 =
 request
@@ -1959,7 +1959,7 @@ Ci
 nsIFileURL
 )
 ;
-let
+const
 result
 =
 OS
@@ -1981,7 +1981,7 @@ bytes
 =
 >
 {
-let
+const
 decoder
 =
 new
@@ -1989,7 +1989,7 @@ TextDecoder
 (
 )
 ;
-let
+const
 content
 =
 decoder
@@ -2077,7 +2077,7 @@ principal
 }
 )
 {
-let
+const
 securityFlags
 =
 Ci
@@ -2127,7 +2127,7 @@ url
 )
 ;
 }
-let
+const
 channelOptions
 =
 {
@@ -2595,7 +2595,7 @@ property
 )
 ;
 }
-let
+const
 value
 =
 descriptor
@@ -2645,7 +2645,7 @@ object
 )
 ;
 }
-let
+const
 result
 =
 value

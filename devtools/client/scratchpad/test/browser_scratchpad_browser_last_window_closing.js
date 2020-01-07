@@ -95,7 +95,7 @@ Scratchpad
 }
 )
 {
-let
+const
 browser
 =
 Services
@@ -115,7 +115,7 @@ getNext
 (
 )
 ;
-let
+const
 oldPrompt
 =
 Services
@@ -254,7 +254,7 @@ Ci
 nsISupportsPRBool
 )
 ;
-let
+const
 message
 =
 this

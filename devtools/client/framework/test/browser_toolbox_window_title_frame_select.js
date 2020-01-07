@@ -111,7 +111,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -211,7 +211,7 @@ waitForTick
 (
 )
 ;
-let
+const
 btn
 =
 toolbox
@@ -260,7 +260,7 @@ present
 "
 )
 ;
-let
+const
 menu
 =
 await
@@ -306,7 +306,7 @@ set
 "
 )
 ;
-let
+const
 frames
 =
 menu
@@ -330,7 +330,7 @@ list
 "
 )
 ;
-let
+const
 topFrameBtn
 =
 frames
@@ -351,7 +351,7 @@ URL
 0
 ]
 ;
-let
+const
 iframeBtn
 =
 frames
@@ -399,7 +399,7 @@ list
 "
 )
 ;
-let
+const
 willNavigate
 =
 toolbox
@@ -422,7 +422,7 @@ waitForTitleChange
 toolbox
 )
 ;
-let
+const
 newRoot
 =
 toolbox
@@ -665,7 +665,7 @@ focus
 (
 )
 ;
-let
+const
 shortcut
 =
 L10N

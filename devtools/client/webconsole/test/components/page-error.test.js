@@ -889,7 +889,7 @@ click
 "
 )
 ;
-let
+const
 call
 =
 serviceContainer
@@ -1464,7 +1464,7 @@ defined
 "
 )
 ;
-let
+const
 wrapper
 =
 render
@@ -1602,7 +1602,7 @@ column
 }
 )
 ;
-let
+const
 wrapper
 =
 render
@@ -1915,7 +1915,7 @@ column
 }
 )
 ;
-let
+const
 wrapper
 =
 render
@@ -2249,7 +2249,7 @@ a
 "
 )
 ;
-let
+const
 wrapper
 =
 render

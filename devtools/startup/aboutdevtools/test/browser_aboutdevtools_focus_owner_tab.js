@@ -33,7 +33,7 @@ tab
 "
 )
 ;
-let
+const
 tab1
 =
 await
@@ -55,7 +55,7 @@ tab1
 "
 )
 ;
-let
+const
 tab2
 =
 await
@@ -168,7 +168,7 @@ expected
 "
 )
 ;
-let
+const
 aboutDevtoolsTab
 =
 gBrowser
@@ -316,7 +316,7 @@ tab
 "
 )
 ;
-let
+const
 tab1
 =
 await
@@ -338,7 +338,7 @@ tab1
 "
 )
 ;
-let
+const
 tab2
 =
 await
@@ -451,7 +451,7 @@ expected
 "
 )
 ;
-let
+const
 aboutDevtoolsTab
 =
 gBrowser
@@ -500,7 +500,7 @@ selectedTab
 =
 tab2
 ;
-let
+const
 aboutDevtoolsDocument
 =
 aboutDevtoolsTab

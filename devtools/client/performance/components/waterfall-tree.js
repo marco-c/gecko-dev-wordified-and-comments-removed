@@ -99,7 +99,7 @@ start
 end
 )
 {
-let
+const
 mStart
 =
 e
@@ -108,7 +108,7 @@ start
 |
 0
 ;
-let
+const
 mEnd
 =
 e
@@ -409,7 +409,7 @@ _getRoots
 node
 )
 {
-let
+const
 roots
 =
 this
@@ -455,7 +455,7 @@ submarkers
 {
 for
 (
-let
+const
 submarker
 of
 marker
@@ -476,7 +476,7 @@ return
 marker
 ;
 }
-let
+const
 parent
 =
 findParent
@@ -499,7 +499,7 @@ return
 null
 ;
 }
-let
+const
 rootMarker
 =
 this
@@ -508,7 +508,7 @@ props
 .
 marker
 ;
-let
+const
 parent
 =
 findParent
@@ -533,7 +533,7 @@ _getChildren
 node
 )
 {
-let
+const
 submarkers
 =
 node
@@ -601,7 +601,7 @@ state
 =
 >
 {
-let
+const
 expanded
 =
 new
@@ -641,7 +641,7 @@ state
 =
 >
 {
-let
+const
 expanded
 =
 new
@@ -709,7 +709,7 @@ _filter
 node
 )
 {
-let
+const
 {
 startTime
 endTime
@@ -737,7 +737,7 @@ arrow
 expanded
 )
 {
-let
+const
 {
 startTime
 dataScale

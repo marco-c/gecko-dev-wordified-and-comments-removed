@@ -201,14 +201,14 @@ build
 (
 )
 {
-let
+const
 node
 =
 this
 .
 _currentNode
 ;
-let
+const
 props
 =
 await
@@ -218,7 +218,7 @@ getParams
 (
 )
 ;
-let
+const
 params
 =
 props
@@ -277,14 +277,14 @@ render
 (
 )
 {
-let
+const
 node
 =
 this
 .
 _currentNode
 ;
-let
+const
 paramName
 =
 this
@@ -325,7 +325,7 @@ null
 return
 ;
 }
-let
+const
 {
 values
 events
@@ -408,7 +408,7 @@ i
 =
 >
 {
-let
+const
 button
 =
 document
@@ -533,7 +533,7 @@ function
 state
 )
 {
-let
+const
 contentView
 =
 (
@@ -545,7 +545,7 @@ content
 "
 )
 ;
-let
+const
 emptyView
 =
 (
@@ -557,7 +557,7 @@ empty
 "
 )
 ;
-let
+const
 graphView
 =
 (
@@ -571,7 +571,7 @@ container
 "
 )
 ;
-let
+const
 noEventsView
 =
 (
@@ -674,7 +674,7 @@ selected
 )
 )
 ;
-let
+const
 paramName
 =
 e

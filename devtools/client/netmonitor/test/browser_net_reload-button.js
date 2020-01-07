@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -32,7 +32,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 }
@@ -41,7 +41,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 wait
 =
 waitForNetworkEvents

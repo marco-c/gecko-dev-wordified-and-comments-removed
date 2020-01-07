@@ -130,7 +130,7 @@ value
 =
 >
 {
-let
+const
 label
 =
 labelForOption
@@ -164,7 +164,7 @@ value
 =
 >
 {
-let
+const
 label
 =
 labelForOption
@@ -353,7 +353,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 displayPixelRatio
@@ -365,7 +365,7 @@ this
 .
 props
 ;
-let
+const
 hiddenOptions
 =
 [
@@ -373,7 +373,7 @@ hiddenOptions
 ;
 for
 (
-let
+const
 type
 of
 devices
@@ -383,7 +383,7 @@ types
 {
 for
 (
-let
+const
 device
 of
 devices
@@ -452,14 +452,14 @@ displayPixelRatio
 )
 ;
 }
-let
+const
 state
 =
 devices
 .
 listState
 ;
-let
+const
 isDisabled
 =
 (

@@ -137,7 +137,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -175,14 +175,14 @@ inspector
 view
 )
 {
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 RESULTS
 =
 [
@@ -318,7 +318,7 @@ length
 i
 )
 {
-let
+const
 idRule
 =
 elementStyle
@@ -330,7 +330,7 @@ i
 ;
 for
 (
-let
+const
 propIndex
 in
 RESULTS
@@ -339,7 +339,7 @@ i
 ]
 )
 {
-let
+const
 expected
 =
 RESULTS
@@ -350,7 +350,7 @@ i
 propIndex
 ]
 ;
-let
+const
 prop
 =
 idRule

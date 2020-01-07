@@ -156,7 +156,7 @@ reset
 ;
 for
 (
-let
+const
 {
 desc
 animations
@@ -178,7 +178,7 @@ desc
 ;
 for
 (
-let
+const
 state
 of
 animations
@@ -191,7 +191,7 @@ addAnimation
 state
 )
 ;
-let
+const
 {
 endDelayX
 }

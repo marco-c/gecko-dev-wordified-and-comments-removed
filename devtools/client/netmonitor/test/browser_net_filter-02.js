@@ -641,7 +641,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -668,7 +668,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 document
 store
@@ -679,7 +679,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -699,7 +699,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSelectedRequest
@@ -1252,7 +1252,7 @@ testContents
 visibility
 )
 {
-let
+const
 requestItems
 =
 document
@@ -1271,7 +1271,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestItems
@@ -1283,7 +1283,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -1509,7 +1509,7 @@ i
 +
 )
 {
-let
+const
 itemId
 =
 items
@@ -1521,7 +1521,7 @@ i
 .
 id
 ;
-let
+const
 shouldBeVisible
 =
 !
@@ -1531,7 +1531,7 @@ visibility
 i
 ]
 ;
-let
+const
 isThere
 =
 visibleItems
@@ -1587,7 +1587,7 @@ i
 +
 )
 {
-let
+const
 {
 method
 url

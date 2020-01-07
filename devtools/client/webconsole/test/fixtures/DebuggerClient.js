@@ -26,7 +26,7 @@ config
 }
 )
 {
-let
+const
 {
 before
 after
@@ -67,7 +67,7 @@ maxPosition
 ;
 for
 (
-let
+const
 k
 of
 Object
@@ -90,7 +90,7 @@ DebuggerClient
 Argument
 )
 {
-let
+const
 {
 position
 }
@@ -173,7 +173,7 @@ if
 after
 )
 {
-let
+const
 {
 from
 }
@@ -206,7 +206,7 @@ from
 ;
 }
 }
-let
+const
 thisCallback
 =
 args

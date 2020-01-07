@@ -9,13 +9,13 @@ leakHunt
 root
 )
 {
-let
+const
 path
 =
 [
 ]
 ;
-let
+const
 seen
 =
 [
@@ -23,7 +23,7 @@ seen
 ;
 try
 {
-let
+const
 output
 =
 leakHunt
@@ -86,7 +86,7 @@ path
 seen
 )
 {
-let
+const
 prefix
 =
 new
@@ -103,7 +103,7 @@ join
 "
 )
 ;
-let
+const
 reply
 =
 [
@@ -169,13 +169,13 @@ index
 ;
 for
 (
-let
+const
 data
 of
 root
 )
 {
-let
+const
 prop
 =
 "
@@ -209,7 +209,7 @@ ex
 }
 for
 (
-let
+const
 prop
 in
 root
@@ -385,7 +385,7 @@ direct
 log
 )
 {
-let
+const
 newPath
 =
 path
@@ -401,7 +401,7 @@ push
 prop
 )
 ;
-let
+const
 prefix
 =
 new
@@ -483,7 +483,7 @@ string
 "
 )
 {
-let
+const
 extra
 =
 data
@@ -603,7 +603,7 @@ push
 data
 )
 ;
-let
+const
 lines
 =
 leakHunt

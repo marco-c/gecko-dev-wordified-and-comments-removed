@@ -381,7 +381,7 @@ function
 {
 for
 (
-let
+const
 url
 of
 CHROME_URLS
@@ -410,7 +410,7 @@ scheme
 }
 for
 (
-let
+const
 url
 of
 CONTENT_URLS
@@ -447,7 +447,7 @@ function
 {
 for
 (
-let
+const
 url
 of
 CHROME_URLS
@@ -474,7 +474,7 @@ scheme
 }
 for
 (
-let
+const
 url
 of
 CONTENT_URLS
@@ -572,7 +572,7 @@ function
 (
 )
 {
-let
+const
 dataURI
 =
 "
@@ -618,7 +618,7 @@ scheme
 ;
 for
 (
-let
+const
 url
 of
 CHROME_URLS
@@ -647,7 +647,7 @@ scheme
 }
 for
 (
-let
+const
 url
 of
 CONTENT_URLS
@@ -836,7 +836,7 @@ function
 (
 )
 {
-let
+const
 longMalformedURL
 =
 example
@@ -990,7 +990,7 @@ html
 "
 )
 ;
-let
+const
 longDataURI
 =
 data
@@ -1021,7 +1021,7 @@ join
 )
 }
 ;
-let
+const
 longDataURIShort
 =
 sourceUtils
@@ -1085,7 +1085,7 @@ data
 "
 )
 ;
-let
+const
 testUrl
 =
 "
@@ -1543,7 +1543,7 @@ long
 host
 )
 {
-let
+const
 results
 =
 sourceUtils

@@ -149,7 +149,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 console
@@ -168,7 +168,7 @@ window
 }
 )
 ;
-let
+const
 {
 panel
 }
@@ -185,7 +185,7 @@ tab
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController

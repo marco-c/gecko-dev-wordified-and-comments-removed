@@ -300,7 +300,7 @@ Infinity
 ;
 for
 (
-let
+const
 individual
 of
 response
@@ -446,7 +446,7 @@ children
 {
 for
 (
-let
+const
 child
 of
 censusNode

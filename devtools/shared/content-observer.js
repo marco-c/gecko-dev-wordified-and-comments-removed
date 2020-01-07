@@ -234,7 +234,7 @@ topic
 data
 )
 {
-let
+const
 id
 =
 subject

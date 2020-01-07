@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -339,7 +339,7 @@ hovered
 "
 )
 ;
-let
+const
 onHighlighterReady
 =
 toolbox
@@ -353,7 +353,7 @@ ready
 "
 )
 ;
-let
+const
 onPickerNodeHovered
 =
 inspector
@@ -413,7 +413,7 @@ highlighted
 "
 )
 ;
-let
+const
 onHighlighterReady
 =
 toolbox
@@ -427,7 +427,7 @@ ready
 "
 )
 ;
-let
+const
 onPickerNodeHovered
 =
 inspector

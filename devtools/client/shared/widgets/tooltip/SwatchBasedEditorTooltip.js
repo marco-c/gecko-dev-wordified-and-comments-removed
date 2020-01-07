@@ -341,7 +341,7 @@ show
 (
 )
 {
-let
+const
 tooltipAnchor
 =
 this
@@ -369,7 +369,7 @@ if
 tooltipAnchor
 )
 {
-let
+const
 onShown
 =
 this
@@ -654,7 +654,7 @@ _onSwatchClick
 event
 )
 {
-let
+const
 swatch
 =
 this
@@ -731,7 +731,7 @@ this
 activeSwatch
 )
 {
-let
+const
 swatch
 =
 this
@@ -773,7 +773,7 @@ _reverted
 =
 true
 ;
-let
+const
 swatch
 =
 this
@@ -825,7 +825,7 @@ this
 activeSwatch
 )
 {
-let
+const
 swatch
 =
 this

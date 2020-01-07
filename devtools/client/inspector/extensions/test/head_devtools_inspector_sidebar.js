@@ -51,7 +51,7 @@ actors
 ;
 for
 (
-let
+const
 sidebarId
 of
 Object
@@ -145,7 +145,7 @@ released
 ;
 for
 (
-let
+const
 actor
 of
 actors
@@ -258,7 +258,7 @@ waitForObjectInspector
 panel
 )
 ;
-let
+const
 objectInspectors
 =
 [
@@ -294,7 +294,7 @@ inspectors
 "
 )
 ;
-let
+const
 [
 objectInspector
 ]
@@ -330,7 +330,7 @@ nodesLength
 }
 )
 ;
-let
+const
 oiNodes
 =
 objectInspector
@@ -362,7 +362,7 @@ tree
 "
 )
 ;
-let
+const
 propertiesNodes
 =
 [
@@ -671,7 +671,7 @@ expectedOpenInspectors
 =
 expectedContent
 ;
-let
+const
 nodes
 =
 panelDoc
@@ -686,7 +686,7 @@ node
 "
 )
 ;
-let
+const
 nodeOpenInspectors
 =
 panelDoc
@@ -754,7 +754,7 @@ nodeIndex
 0
 )
 {
-let
+const
 nodes
 =
 panelDoc
@@ -769,7 +769,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 nodes
@@ -841,7 +841,7 @@ nodeIndex
 0
 )
 {
-let
+const
 nodes
 =
 panelDoc
@@ -860,7 +860,7 @@ inspector
 "
 )
 ;
-let
+const
 node
 =
 nodes

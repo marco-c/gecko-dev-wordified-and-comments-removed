@@ -705,7 +705,7 @@ function
 recording
 )
 {
-let
+const
 fp
 =
 Cc

@@ -127,7 +127,7 @@ toolbox
 .
 sourceMapURLService
 ;
-let
+const
 sourceSeen
 =
 waitForSourceLoad
@@ -145,7 +145,7 @@ JS_URL
 await
 sourceSeen
 ;
-let
+const
 loc1
 =
 {
@@ -157,7 +157,7 @@ line
 6
 }
 ;
-let
+const
 newLoc1
 =
 await
@@ -180,7 +180,7 @@ loc1
 newLoc1
 )
 ;
-let
+const
 loc2
 =
 {
@@ -195,7 +195,7 @@ column
 3
 }
 ;
-let
+const
 newLoc2
 =
 await

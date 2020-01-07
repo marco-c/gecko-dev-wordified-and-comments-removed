@@ -161,7 +161,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -193,7 +193,7 @@ function
 response
 )
 {
-let
+const
 obj1
 =
 response
@@ -208,7 +208,7 @@ args
 actor
 ]
 ;
-let
+const
 obj2
 =
 response

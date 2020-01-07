@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -24,7 +24,7 @@ html
 "
 )
 ;
-let
+const
 contextMenu
 =
 gPanelWindow
@@ -42,7 +42,7 @@ popup
 "
 )
 ;
-let
+const
 menuDeleteItem
 =
 contextMenu
@@ -61,7 +61,7 @@ delete
 "
 )
 ;
-let
+const
 cacheToDelete
 =
 [
@@ -94,7 +94,7 @@ delete
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 cacheToDelete
@@ -130,7 +130,7 @@ delete
 "
 )
 ;
-let
+const
 eventWait
 =
 gUI
@@ -146,7 +146,7 @@ updated
 "
 )
 ;
-let
+const
 selector
 =
 [
@@ -173,7 +173,7 @@ widget
 -
 item
 ;
-let
+const
 target
 =
 gPanelWindow
@@ -200,7 +200,7 @@ present
 "
 )
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -226,7 +226,7 @@ click
 (
 )
 ;
-let
+const
 cacheName
 =
 cacheToDelete
@@ -265,7 +265,7 @@ cacheName
 }
 )
 ;
-yield
+await
 eventWait
 ;
 info
@@ -278,7 +278,7 @@ delete
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 cacheToDelete
@@ -308,7 +308,7 @@ tree
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

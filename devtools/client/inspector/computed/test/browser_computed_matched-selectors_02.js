@@ -43,7 +43,7 @@ div
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -74,7 +74,7 @@ view
 "
 )
 ;
-let
+const
 propertyView
 =
 getPropertyView
@@ -132,7 +132,7 @@ refreshMatchedSelectors
 (
 )
 ;
-let
+const
 span
 =
 propertyView
@@ -162,7 +162,7 @@ row
 "
 )
 ;
-let
+const
 selector
 =
 propertyView

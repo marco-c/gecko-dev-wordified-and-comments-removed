@@ -73,7 +73,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 {
 window
 }
@@ -82,14 +82,14 @@ this
 .
 env
 ;
-let
+const
 prefix
 =
 this
 .
 ID_CLASS_PREFIX
 ;
-let
+const
 container
 =
 createNode
@@ -112,7 +112,7 @@ container
 }
 )
 ;
-let
+const
 wrapper
 =
 createNode
@@ -158,7 +158,7 @@ prefix
 }
 )
 ;
-let
+const
 toolbar
 =
 createNode
@@ -295,7 +295,7 @@ return
 false
 ;
 }
-let
+const
 root
 =
 this
@@ -348,7 +348,7 @@ true
 )
 ;
 }
-let
+const
 toolbar
 =
 this

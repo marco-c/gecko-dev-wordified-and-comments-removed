@@ -585,7 +585,7 @@ pasteKeyUpHandler
 (
 )
 {
-let
+const
 value
 =
 inputField

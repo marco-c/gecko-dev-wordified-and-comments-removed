@@ -162,7 +162,7 @@ enableWebComponents
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -173,7 +173,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 markup
 }
@@ -197,7 +197,7 @@ host
 "
 )
 ;
-let
+const
 hostFront
 =
 await
@@ -211,7 +211,7 @@ component
 inspector
 )
 ;
-let
+const
 hostContainer
 =
 markup
@@ -238,7 +238,7 @@ root
 "
 )
 ;
-let
+const
 shadowRootContainer
 =
 hostContainer
@@ -266,7 +266,7 @@ slot
 "
 )
 ;
-let
+const
 slotContainer
 =
 shadowRootContainer
@@ -285,7 +285,7 @@ inspector
 slotContainer
 )
 ;
-let
+const
 slotChildContainers
 =
 slotContainer
@@ -423,7 +423,7 @@ inspector
 node
 )
 {
-let
+const
 slottedContainer
 =
 inspector
@@ -530,7 +530,7 @@ inspector
 slottedContainer
 )
 ;
-let
+const
 selectedFront
 =
 inspector
@@ -608,7 +608,7 @@ inspector
 container
 )
 {
-let
+const
 onSelection
 =
 inspector
@@ -626,7 +626,7 @@ front
 "
 )
 ;
-let
+const
 revealLink
 =
 container
@@ -643,7 +643,7 @@ link
 "
 )
 ;
-let
+const
 tagline
 =
 revealLink
@@ -658,7 +658,7 @@ line
 "
 )
 ;
-let
+const
 win
 =
 inspector

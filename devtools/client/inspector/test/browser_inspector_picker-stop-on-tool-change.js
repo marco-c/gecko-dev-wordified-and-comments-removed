@@ -38,7 +38,7 @@ function
 (
 )
 {
-let
+const
 {
 toolbox
 }
@@ -49,7 +49,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 pickerStopped
 =
 toolbox

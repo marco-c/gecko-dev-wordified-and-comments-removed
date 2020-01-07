@@ -50,7 +50,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 toolbox
@@ -61,7 +61,7 @@ openRuleView
 (
 )
 ;
-let
+const
 pickerStopped
 =
 toolbox
@@ -96,7 +96,7 @@ view
 "
 )
 ;
-let
+const
 property
 =
 getRuleViewProperty
@@ -110,7 +110,7 @@ background
 "
 )
 ;
-let
+const
 swatch
 =
 property

@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 toolbox
 inspector
@@ -130,7 +130,7 @@ open
 "
 )
 ;
-let
+const
 onStyleEditorReady
 =
 toolbox
@@ -283,7 +283,7 @@ open
 "
 )
 ;
-let
+const
 onDebuggerReady
 =
 toolbox

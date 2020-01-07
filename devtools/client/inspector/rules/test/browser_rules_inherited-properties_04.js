@@ -75,7 +75,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -122,7 +122,7 @@ inspector
 view
 )
 {
-let
+const
 gutters
 =
 view

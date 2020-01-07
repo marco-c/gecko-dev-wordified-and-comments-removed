@@ -267,7 +267,7 @@ response
 sources
 )
 ;
-let
+const
 source
 =
 response
@@ -307,7 +307,7 @@ ok
 source
 )
 ;
-let
+const
 sourceClient
 =
 gThreadClient
@@ -372,7 +372,7 @@ wasm
 )
 )
 ;
-let
+const
 sourceContent
 =
 response
@@ -457,7 +457,7 @@ function
 (
 )
 {
-let
+const
 m
 =
 new
@@ -531,7 +531,7 @@ Uint8Array
 )
 )
 ;
-let
+const
 i
 =
 new

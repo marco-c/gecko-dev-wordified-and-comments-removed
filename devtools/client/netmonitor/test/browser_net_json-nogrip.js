@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -40,7 +40,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -51,7 +51,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -91,7 +91,7 @@ tab
 1
 )
 ;
-let
+const
 onResponsePanelReady
 =
 waitForDOM
@@ -147,7 +147,7 @@ tab
 await
 onResponsePanelReady
 ;
-let
+const
 tabpanel
 =
 document
@@ -162,7 +162,7 @@ panel
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -186,7 +186,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel

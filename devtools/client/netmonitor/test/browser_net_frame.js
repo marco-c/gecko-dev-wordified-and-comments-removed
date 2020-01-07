@@ -698,7 +698,7 @@ true
 }
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -710,7 +710,7 @@ initNetMonitor
 SIMPLE_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -722,7 +722,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -742,7 +742,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -819,7 +819,7 @@ recorded
 "
 )
 ;
-let
+const
 requests
 =
 getSortedRequests
@@ -883,7 +883,7 @@ i
 +
 )
 {
-let
+const
 requestItem
 =
 getSortedRequests
@@ -900,14 +900,14 @@ get
 i
 )
 ;
-let
+const
 itemUrl
 =
 requestItem
 .
 url
 ;
-let
+const
 itemCauseUri
 =
 requestItem
@@ -955,7 +955,7 @@ currentTop
 ]
 ;
 }
-let
+const
 {
 method
 url
@@ -994,14 +994,14 @@ causeUri
 }
 )
 ;
-let
+const
 {
 stacktrace
 }
 =
 requestItem
 ;
-let
+const
 stackLen
 =
 stacktrace

@@ -209,7 +209,7 @@ object
 name
 ]
 ;
-let
+const
 value
 =
 lambda
@@ -338,7 +338,7 @@ function
 (
 )
 {
-let
+const
 temp
 =
 {
@@ -446,7 +446,7 @@ obj
 property
 ]
 ;
-let
+const
 value
 =
 destructure
@@ -535,7 +535,7 @@ Debugger
 =
 >
 {
-let
+const
 sandbox
 =
 Cu
@@ -620,7 +620,7 @@ Timer
 =
 >
 {
-let
+const
 {
 setTimeout
 clearTimeout
@@ -757,7 +757,7 @@ URL
 XMLHttpRequest
 }
 ;
-let
+const
 globals
 =
 {

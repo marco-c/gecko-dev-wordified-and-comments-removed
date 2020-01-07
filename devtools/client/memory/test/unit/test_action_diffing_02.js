@@ -84,12 +84,12 @@ view
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -97,7 +97,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -105,14 +105,14 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -180,7 +180,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -255,7 +255,7 @@ toggling
 ;
 for
 (
-let
+const
 s
 of
 getState
@@ -291,7 +291,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

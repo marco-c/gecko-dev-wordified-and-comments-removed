@@ -86,7 +86,7 @@ deleteNodeAfterWhitespace
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -140,7 +140,7 @@ deleteCurrentSelection
 inspector
 )
 ;
-let
+const
 parentNodeFront
 =
 await
@@ -154,7 +154,7 @@ parentNode
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -360,7 +360,7 @@ back
 "
 )
 ;
-let
+const
 nextSibling
 =
 await
@@ -377,7 +377,7 @@ whitespace
 inspector
 )
 ;
-let
+const
 afterWhitespace
 =
 await
@@ -469,7 +469,7 @@ key
 "
 )
 ;
-let
+const
 mutated
 =
 inspector

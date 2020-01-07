@@ -108,7 +108,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet

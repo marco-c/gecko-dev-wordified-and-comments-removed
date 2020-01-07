@@ -83,7 +83,7 @@ testActor
 }
 )
 {
-let
+const
 text
 =
 await
@@ -117,7 +117,7 @@ content
 "
 )
 ;
-let
+const
 num
 =
 await
@@ -370,7 +370,7 @@ selected
 "
 )
 ;
-let
+const
 html
 =
 await
@@ -584,7 +584,7 @@ testActor
 }
 )
 {
-let
+const
 beforeSiblingFront
 =
 await
@@ -613,7 +613,7 @@ selected
 "
 )
 ;
-let
+const
 text
 =
 await
@@ -649,7 +649,7 @@ content
 "
 )
 ;
-let
+const
 beforeText
 =
 await
@@ -685,7 +685,7 @@ inserted
 "
 )
 ;
-let
+const
 afterText
 =
 await
@@ -812,7 +812,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor

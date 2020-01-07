@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -29,7 +29,7 @@ showAllColumns
 true
 )
 ;
-let
+const
 id
 =
 getCookieId
@@ -51,7 +51,7 @@ browser
 "
 )
 ;
-yield
+await
 startCellEdit
 (
 id
@@ -123,7 +123,7 @@ cell
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

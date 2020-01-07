@@ -180,7 +180,7 @@ warning
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -224,7 +224,7 @@ applied
 "
 )
 ;
-let
+const
 found
 =
 await
@@ -235,7 +235,7 @@ waitFor
 =
 >
 {
-let
+const
 frameLinkNode
 =
 node
@@ -254,7 +254,7 @@ link
 "
 )
 ;
-let
+const
 url
 =
 frameLinkNode

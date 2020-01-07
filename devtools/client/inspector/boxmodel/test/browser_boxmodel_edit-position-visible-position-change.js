@@ -72,7 +72,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -128,7 +128,7 @@ initially
 "
 )
 ;
-let
+const
 positionLeftTextbox
 =
 boxmodel
@@ -183,7 +183,7 @@ submit
 "
 )
 ;
-let
+const
 onUpdate
 =
 waitForUpdate

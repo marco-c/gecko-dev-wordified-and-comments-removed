@@ -64,7 +64,7 @@ getHighlighterUtils
 )
 ;
 }
-let
+const
 exported
 =
 {
@@ -103,7 +103,7 @@ null
 ;
 }
 ;
-let
+const
 isRemoteHighlightable
 =
 exported
@@ -130,7 +130,7 @@ isInspectorInitialized
 =
 false
 ;
-let
+const
 requireInspector
 =
 generator
@@ -206,7 +206,7 @@ doFocus
 ;
 }
 ;
-let
+const
 startPicker
 =
 exported
@@ -369,7 +369,7 @@ started
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -394,7 +394,7 @@ node
 }
 )
 ;
-let
+const
 stopPicker
 =
 exported
@@ -546,7 +546,7 @@ stopped
 }
 )
 ;
-let
+const
 cancelPicker
 =
 exported
@@ -679,7 +679,7 @@ focus
 )
 ;
 }
-let
+const
 highlightNodeFront
 =
 exported
@@ -774,7 +774,7 @@ options
 }
 )
 {
-let
+const
 nodeFront
 =
 await
@@ -820,7 +820,7 @@ NodeFront
 }
 )
 ;
-let
+const
 gripToNodeFront
 =
 exported
@@ -935,7 +935,7 @@ function
 typeName
 )
 {
-let
+const
 highlighter
 =
 await

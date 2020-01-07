@@ -101,7 +101,7 @@ function
 (
 )
 {
-let
+const
 profile
 =
 synthesizeProfile
@@ -144,7 +144,7 @@ MANGLED_FN
 (
 )
 ;
-let
+const
 threadNode
 =
 new
@@ -179,7 +179,7 @@ calls
 .
 calls
 ;
-let
+const
 treeRoot
 =
 new
@@ -192,7 +192,7 @@ threadNode
 }
 )
 ;
-let
+const
 container
 =
 document
@@ -217,7 +217,7 @@ attachTo
 container
 )
 ;
-let
+const
 =
 node
 =
@@ -229,7 +229,7 @@ querySelectorAll
 node
 )
 ;
-let
+const
 fun
 =
 (
@@ -265,7 +265,7 @@ function
 node
 )
 ;
-let
+const
 fun
 =
 (
@@ -301,7 +301,7 @@ function
 node
 )
 ;
-let
+const
 dur
 =
 i
@@ -329,7 +329,7 @@ duration
 i
 ]
 ;
-let
+const
 per
 =
 i
@@ -357,7 +357,7 @@ percentage
 i
 ]
 ;
-let
+const
 sam
 =
 i
@@ -1195,7 +1195,7 @@ name
 "
 )
 ;
-let
+const
 A
 =
 treeRoot

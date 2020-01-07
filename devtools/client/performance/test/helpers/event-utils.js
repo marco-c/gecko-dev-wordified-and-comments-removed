@@ -85,7 +85,7 @@ options
 }
 )
 {
-let
+const
 msg
 =
 Waiting
@@ -195,7 +195,7 @@ eventName
 )
 ;
 }
-let
+const
 API
 =
 KNOWN_EE_APIS
@@ -251,7 +251,7 @@ listener
 return
 ;
 }
-let
+const
 [
 add
 remove
@@ -285,7 +285,7 @@ options
 {
 for
 (
-let
+const
 [
 index
 expectedValue

@@ -233,7 +233,7 @@ function
 (
 )
 {
-let
+const
 sidebar
 =
 this
@@ -355,7 +355,7 @@ selected
 index
 )
 {
-let
+const
 panel
 =
 this
@@ -403,7 +403,7 @@ selected
 index
 )
 {
-let
+const
 panel
 =
 this
@@ -513,7 +513,7 @@ selected
 index
 )
 {
-let
+const
 panel
 =
 this
@@ -561,7 +561,7 @@ selected
 index
 )
 {
-let
+const
 panel
 =
 this
@@ -629,7 +629,7 @@ content
 props
 )
 {
-let
+const
 iframe
 =
 content
@@ -660,7 +660,7 @@ src
 return
 ;
 }
-let
+const
 onIFrameLoaded
 =
 (
@@ -680,14 +680,14 @@ onIFrameLoaded
 true
 )
 ;
-let
+const
 doc
 =
 event
 .
 target
 ;
-let
+const
 win
 =
 doc
@@ -762,7 +762,7 @@ content
 props
 )
 {
-let
+const
 iframe
 =
 content
@@ -794,7 +794,7 @@ src
 return
 ;
 }
-let
+const
 win
 =
 iframe
@@ -847,7 +847,7 @@ removeTab
 tabId
 )
 ;
-let
+const
 win
 =
 this
@@ -989,7 +989,7 @@ _destroyed
 return
 ;
 }
-let
+const
 previousTool
 =
 this
@@ -1212,7 +1212,7 @@ function
 id
 )
 {
-let
+const
 panel
 =
 this
@@ -1284,7 +1284,7 @@ destroy
 "
 )
 ;
-let
+const
 tabpanels
 =
 [
@@ -1310,13 +1310,13 @@ box
 ;
 for
 (
-let
+const
 panel
 of
 tabpanels
 )
 {
-let
+const
 iframe
 =
 panel
@@ -1337,7 +1337,7 @@ iframe
 continue
 ;
 }
-let
+const
 win
 =
 iframe

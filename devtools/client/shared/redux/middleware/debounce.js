@@ -24,7 +24,7 @@ next
 =
 >
 {
-let
+const
 debounced
 =
 debounce
@@ -152,7 +152,7 @@ let
 timeout
 maxTimeout
 ;
-let
+const
 doFunction
 =
 (
@@ -196,7 +196,7 @@ resolve
 =
 >
 {
-let
+const
 onTimeout
 =
 (

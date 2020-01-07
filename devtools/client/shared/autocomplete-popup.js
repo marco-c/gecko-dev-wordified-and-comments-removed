@@ -534,7 +534,7 @@ function
 e
 )
 {
-let
+const
 item
 =
 e
@@ -734,7 +734,7 @@ number
 "
 )
 {
-let
+const
 isAboveInput
 =
 this
@@ -1175,7 +1175,7 @@ _maxLabelLength
 ch
 "
 ;
-let
+const
 selectedItem
 =
 this
@@ -1210,7 +1210,7 @@ function
 element
 )
 {
-let
+const
 quads
 =
 element
@@ -1244,7 +1244,7 @@ quads
 return
 ;
 }
-let
+const
 {
 top
 height
@@ -1257,7 +1257,7 @@ quads
 .
 bounds
 ;
-let
+const
 containerHeight
 =
 this
@@ -1371,7 +1371,7 @@ selectedIndex
 index
 )
 {
-let
+const
 previousSelected
 =
 this
@@ -1407,7 +1407,7 @@ selected
 )
 ;
 }
-let
+const
 item
 =
 this
@@ -1427,7 +1427,7 @@ isOpen
 item
 )
 {
-let
+const
 element
 =
 this
@@ -1529,7 +1529,7 @@ selectedItem
 item
 )
 {
-let
+const
 index
 =
 this
@@ -1582,7 +1582,7 @@ _activeElement
 return
 ;
 }
-let
+const
 anchorDoc
 =
 this
@@ -1720,7 +1720,7 @@ function
 item
 )
 {
-let
+const
 listItem
 =
 this
@@ -1800,7 +1800,7 @@ direction
 )
 ;
 }
-let
+const
 label
 =
 this
@@ -1840,7 +1840,7 @@ item
 preLabel
 )
 {
-let
+const
 preDesc
 =
 this
@@ -1912,7 +1912,7 @@ item
 postLabel
 )
 {
-let
+const
 postDesc
 =
 this
@@ -1957,7 +1957,7 @@ postLabel
 )
 )
 {
-let
+const
 colorSwatch
 =
 this
@@ -2038,7 +2038,7 @@ count
 1
 )
 {
-let
+const
 countDesc
 =
 this
@@ -2143,7 +2143,7 @@ item
 return
 ;
 }
-let
+const
 itemIndex
 =
 this
@@ -2155,7 +2155,7 @@ indexOf
 item
 )
 ;
-let
+const
 selectedIndex
 =
 this
@@ -2172,7 +2172,7 @@ itemIndex
 1
 )
 ;
-let
+const
 elementToRemove
 =
 this
@@ -2250,7 +2250,7 @@ items
 length
 )
 {
-let
+const
 listHeight
 =
 this
@@ -2261,7 +2261,7 @@ panel
 .
 clientHeight
 ;
-let
+const
 element
 =
 this
@@ -2278,7 +2278,7 @@ items
 ]
 )
 ;
-let
+const
 elementHeight
 =
 element
@@ -2398,7 +2398,7 @@ function
 (
 )
 {
-let
+const
 nextPageIndex
 =
 this
@@ -2439,7 +2439,7 @@ function
 (
 )
 {
-let
+const
 prevPageIndex
 =
 this
@@ -2585,7 +2585,7 @@ function
 color
 )
 {
-let
+const
 colorObj
 =
 new

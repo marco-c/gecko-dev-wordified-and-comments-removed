@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -45,7 +45,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -65,7 +65,7 @@ index
 "
 )
 ;
-let
+const
 pauseButton
 =
 document
@@ -321,7 +321,7 @@ tab
 monitor
 )
 {
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -371,7 +371,7 @@ tab
 monitor
 )
 {
-let
+const
 wait
 =
 connector

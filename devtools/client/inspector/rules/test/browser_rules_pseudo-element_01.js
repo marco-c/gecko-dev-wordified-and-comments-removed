@@ -45,7 +45,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -109,7 +109,7 @@ inspector
 view
 )
 {
-let
+const
 id
 =
 "
@@ -117,7 +117,7 @@ id
 topleft
 "
 ;
-let
+const
 rules
 =
 await
@@ -148,7 +148,7 @@ beforeRulesNb
 }
 )
 ;
-let
+const
 gutters
 =
 assertGutters
@@ -172,7 +172,7 @@ elements
 "
 )
 ;
-let
+const
 expander
 =
 gutters
@@ -329,7 +329,7 @@ dblclicking
 "
 )
 ;
-let
+const
 elementRuleView
 =
 getRuleViewRuleEditor
@@ -338,7 +338,7 @@ view
 3
 )
 ;
-let
+const
 elementFirstLineRule
 =
 rules
@@ -348,7 +348,7 @@ firstLineRules
 0
 ]
 ;
-let
+const
 elementFirstLineRuleView
 =
 [
@@ -474,7 +474,7 @@ changed
 "
 )
 ;
-let
+const
 secondProp
 =
 elementFirstLineRuleView
@@ -962,7 +962,7 @@ afterRulesNb
 }
 )
 ;
-let
+const
 gutters
 =
 assertGutters
@@ -970,7 +970,7 @@ assertGutters
 view
 )
 ;
-let
+const
 expander
 =
 gutters
@@ -1146,7 +1146,7 @@ inspector
 view
 )
 {
-let
+const
 rules
 =
 await
@@ -1186,7 +1186,7 @@ assertGutters
 view
 )
 ;
-let
+const
 elementFirstLineRule
 =
 rules
@@ -1220,7 +1220,7 @@ correct
 "
 )
 ;
-let
+const
 elementFirstLetterRule
 =
 rules
@@ -1261,7 +1261,7 @@ correct
 "
 )
 ;
-let
+const
 elementSelectionRule
 =
 rules
@@ -1318,7 +1318,7 @@ inspector
 view
 )
 ;
-let
+const
 gutters
 =
 getGutters
@@ -1393,7 +1393,7 @@ selector
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view
@@ -1414,7 +1414,7 @@ view
 ruleNbs
 )
 {
-let
+const
 elementStyle
 =
 await
@@ -1425,7 +1425,7 @@ inspector
 view
 )
 ;
-let
+const
 rules
 =
 {
@@ -1742,7 +1742,7 @@ assertGutters
 view
 )
 {
-let
+const
 gutters
 =
 getGutters

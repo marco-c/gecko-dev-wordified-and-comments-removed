@@ -578,7 +578,7 @@ test
 (
 )
 {
-let
+const
 generator
 =
 isTestingSupported
@@ -669,7 +669,7 @@ return
 true
 ;
 }
-let
+const
 supported
 =
 isWebGLSupported
@@ -871,7 +871,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -880,7 +880,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -897,7 +897,7 @@ makeRemote
 (
 )
 ;
-let
+const
 front
 =
 new
@@ -952,7 +952,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -961,7 +961,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -978,7 +978,7 @@ makeRemote
 (
 )
 ;
-let
+const
 front
 =
 new
@@ -1029,7 +1029,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -1038,7 +1038,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -1071,7 +1071,7 @@ enabled
 true
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -1085,7 +1085,7 @@ canvasdebugger
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -1126,7 +1126,7 @@ debugger
 "
 )
 ;
-let
+const
 {
 tab
 }
@@ -1164,7 +1164,7 @@ aSources
 aURL
 )
 {
-let
+const
 item
 =
 aSources

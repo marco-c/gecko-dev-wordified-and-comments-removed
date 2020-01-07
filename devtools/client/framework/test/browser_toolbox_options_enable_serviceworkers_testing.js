@@ -111,7 +111,7 @@ tab
 =
 >
 {
-let
+const
 target
 =
 TargetFactory
@@ -121,7 +121,7 @@ forTab
 tab
 )
 ;
-let
+const
 linkedBrowser
 =
 tab
@@ -293,7 +293,7 @@ toggleServiceWorkersTestingCheckbox
 (
 )
 {
-let
+const
 panel
 =
 toolbox
@@ -302,7 +302,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 cbx
 =
 panel
@@ -376,7 +376,7 @@ reload
 (
 )
 {
-let
+const
 promise
 =
 BrowserTestUtils

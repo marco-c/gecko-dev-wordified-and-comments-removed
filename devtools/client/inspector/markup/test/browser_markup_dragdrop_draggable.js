@@ -107,7 +107,7 @@ function
 inspector
 )
 {
-let
+const
 parentFront
 =
 await
@@ -120,7 +120,7 @@ before
 inspector
 )
 ;
-let
+const
 {
 nodes
 }
@@ -159,7 +159,7 @@ function
 inspector
 )
 {
-let
+const
 parentFront
 =
 await
@@ -172,7 +172,7 @@ test
 inspector
 )
 ;
-let
+const
 {
 nodes
 }
@@ -211,7 +211,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -233,7 +233,7 @@ expandAll
 ;
 for
 (
-let
+const
 {
 node
 draggable
@@ -293,7 +293,7 @@ toString
 )
 ;
 }
-let
+const
 status
 =
 draggable

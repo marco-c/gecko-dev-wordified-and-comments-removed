@@ -379,7 +379,7 @@ map
 "
 )
 ;
-let
+const
 entriesNode
 =
 nodes

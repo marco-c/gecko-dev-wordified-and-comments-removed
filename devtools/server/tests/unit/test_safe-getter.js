@@ -27,7 +27,7 @@ addDebuggerToGlobal
 this
 )
 ;
-let
+const
 g
 =
 testGlobal
@@ -37,7 +37,7 @@ test
 "
 )
 ;
-let
+const
 dbg
 =
 new
@@ -45,7 +45,7 @@ Debugger
 (
 )
 ;
-let
+const
 gw
 =
 dbg
@@ -183,7 +183,7 @@ foo
 )
 )
 ;
-let
+const
 obj
 =
 gw

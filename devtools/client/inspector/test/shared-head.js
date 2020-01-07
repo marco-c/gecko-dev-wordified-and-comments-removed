@@ -43,7 +43,7 @@ inspector
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -58,7 +58,7 @@ inspector
 hostType
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -114,7 +114,7 @@ target
 client
 )
 ;
-let
+const
 testActor
 =
 await
@@ -141,7 +141,7 @@ function
 id
 )
 {
-let
+const
 {
 toolbox
 inspector
@@ -167,7 +167,7 @@ sidebar
 "
 )
 ;
-let
+const
 onSidebarSelect
 =
 inspector
@@ -192,7 +192,7 @@ layoutview
 "
 )
 {
-let
+const
 onBoxModelViewReady
 =
 inspector
@@ -208,7 +208,7 @@ updated
 "
 )
 ;
-let
+const
 onGridPanelReady
 =
 inspector
@@ -280,7 +280,7 @@ data
 =
 >
 {
-let
+const
 view
 =
 data
@@ -353,7 +353,7 @@ data
 =
 >
 {
-let
+const
 view
 =
 data
@@ -518,7 +518,7 @@ selectRuleView
 inspector
 )
 {
-let
+const
 view
 =
 inspector
@@ -559,7 +559,7 @@ computedview
 "
 )
 ;
-let
+const
 view
 =
 inspector
@@ -676,7 +676,7 @@ selector
 "
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -686,7 +686,7 @@ selector
 inspector
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -742,7 +742,7 @@ function
 (
 )
 {
-let
+const
 existingCall
 =
 calls
@@ -855,7 +855,7 @@ content
 "
 )
 ;
-let
+const
 mm
 =
 gBrowser
@@ -937,7 +937,7 @@ content
 "
 )
 ;
-let
+const
 mm
 =
 gBrowser
@@ -1049,7 +1049,7 @@ options
 }
 )
 {
-let
+const
 onFocus
 =
 once
@@ -1111,7 +1111,7 @@ now
 "
 )
 ;
-let
+const
 onEdit
 =
 inplaceEditor
@@ -1148,7 +1148,7 @@ pos
 ;
 for
 (
-let
+const
 r
 of
 view
@@ -1166,7 +1166,7 @@ rule
 )
 )
 {
-let
+const
 selector
 =
 r
@@ -1240,7 +1240,7 @@ propertyName
 let
 prop
 ;
-let
+const
 rule
 =
 getRuleViewRule
@@ -1256,7 +1256,7 @@ rule
 {
 for
 (
-let
+const
 p
 of
 rule
@@ -1272,7 +1272,7 @@ property
 )
 )
 {
-let
+const
 nameSpan
 =
 p
@@ -1287,7 +1287,7 @@ propertyname
 "
 )
 ;
-let
+const
 valueSpan
 =
 p
@@ -1361,7 +1361,7 @@ view
 selectorText
 )
 {
-let
+const
 rule
 =
 getRuleViewRule
@@ -1403,7 +1403,7 @@ index
 0
 )
 {
-let
+const
 rule
 =
 getRuleViewRule
@@ -1413,7 +1413,7 @@ selectorText
 index
 )
 ;
-let
+const
 editor
 =
 rule
@@ -1464,7 +1464,7 @@ view
 index
 )
 {
-let
+const
 links
 =
 view
@@ -1497,7 +1497,7 @@ view
 index
 )
 {
-let
+const
 link
 =
 getRuleViewLinkByIndex
@@ -1562,7 +1562,7 @@ scrollIntoView
 false
 )
 ;
-let
+const
 editor
 =
 await
@@ -1623,7 +1623,7 @@ editor
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -1667,7 +1667,7 @@ focus
 "
 )
 ;
-let
+const
 onFocus
 =
 once
@@ -1733,7 +1733,7 @@ searchValue
 "
 )
 ;
-let
+const
 searchField
 =
 view
@@ -1748,7 +1748,7 @@ focus
 ;
 for
 (
-let
+const
 key
 of
 searchValue

@@ -149,7 +149,7 @@ event
 packet
 )
 {
-let
+const
 source
 =
 gThreadClient
@@ -331,7 +331,7 @@ error
 error
 )
 ;
-let
+const
 sourceClient
 =
 gThreadClient

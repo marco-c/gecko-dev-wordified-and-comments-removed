@@ -179,7 +179,7 @@ return
 app
 ;
 }
-let
+const
 href
 =
 window
@@ -202,7 +202,7 @@ http
 "
 )
 ;
-let
+const
 url
 =
 new
@@ -268,7 +268,7 @@ function
 {
 try
 {
-let
+const
 target
 =
 await
@@ -291,7 +291,7 @@ NetworkActivity
 ]
 )
 ;
-let
+const
 toolbox
 =
 {
@@ -320,7 +320,7 @@ tab
 }
 }
 ;
-let
+const
 api
 =
 new
@@ -336,7 +336,7 @@ connect
 toolbox
 )
 ;
-let
+const
 app
 =
 window

@@ -72,7 +72,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -81,7 +81,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 {
 jsterm
 }
@@ -128,7 +128,7 @@ console
 ;
 for
 (
-let
+const
 value
 of
 TEST_VALUES
@@ -163,14 +163,14 @@ performTests
 jsterm
 )
 {
-let
+const
 {
 inputNode
 }
 =
 jsterm
 ;
-let
+const
 values
 =
 TEST_VALUES

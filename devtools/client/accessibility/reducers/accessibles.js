@@ -96,7 +96,7 @@ cache
 accessible
 )
 {
-let
+const
 cached
 =
 cache
@@ -119,7 +119,7 @@ return
 }
 for
 (
-let
+const
 child
 of
 cached
@@ -151,7 +151,7 @@ cache
 accessible
 )
 {
-let
+const
 cached
 =
 cache
@@ -195,7 +195,7 @@ accessible
 children
 )
 {
-let
+const
 {
 actorID
 }
@@ -212,7 +212,7 @@ actorID
 )
 )
 {
-let
+const
 cached
 =
 cache
@@ -224,7 +224,7 @@ actorID
 ;
 for
 (
-let
+const
 child
 of
 cached
@@ -297,7 +297,7 @@ cache
 action
 )
 {
-let
+const
 {
 accessible
 response
@@ -350,7 +350,7 @@ cache
 action
 )
 {
-let
+const
 {
 accessible
 :
@@ -385,7 +385,7 @@ return
 cache
 ;
 }
-let
+const
 newCache
 =
 new

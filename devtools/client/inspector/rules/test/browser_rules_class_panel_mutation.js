@@ -37,7 +37,7 @@ c2
 "
 )
 ;
-let
+const
 {
 inspector
 view

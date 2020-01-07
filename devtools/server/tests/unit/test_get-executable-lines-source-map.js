@@ -160,7 +160,7 @@ ok
 error
 )
 ;
-let
+const
 source
 =
 gThreadClient
@@ -212,7 +212,7 @@ gClient
 }
 )
 ;
-let
+const
 code
 =
 readFile

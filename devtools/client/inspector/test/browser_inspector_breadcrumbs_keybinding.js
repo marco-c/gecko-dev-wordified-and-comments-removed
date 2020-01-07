@@ -189,7 +189,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -235,7 +235,7 @@ it
 "
 )
 ;
-let
+const
 container
 =
 inspector
@@ -251,7 +251,7 @@ breadcrumbs
 "
 )
 ;
-let
+const
 button
 =
 container
@@ -282,7 +282,7 @@ id2
 ;
 for
 (
-let
+const
 {
 desc
 key
@@ -348,7 +348,7 @@ key
 await
 onUpdated
 ;
-let
+const
 newNodeFront
 =
 await

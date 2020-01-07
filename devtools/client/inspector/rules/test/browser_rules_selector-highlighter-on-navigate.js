@@ -90,7 +90,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -101,7 +101,7 @@ openRuleView
 (
 )
 ;
-let
+const
 highlighters
 =
 view
@@ -119,7 +119,7 @@ icon
 "
 )
 ;
-let
+const
 icon
 =
 await
@@ -133,7 +133,7 @@ td
 "
 )
 ;
-let
+const
 onToggled
 =
 view
@@ -161,7 +161,7 @@ view
 styleWindow
 )
 ;
-let
+const
 isVisible
 =
 await

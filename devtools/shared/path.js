@@ -42,7 +42,7 @@ null
 }
 for
 (
-let
+const
 path
 of
 paths

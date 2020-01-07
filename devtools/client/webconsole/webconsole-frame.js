@@ -387,7 +387,7 @@ init
 (
 )
 ;
-let
+const
 id
 =
 WebConsoleUtils
@@ -499,7 +499,7 @@ jsterm
 null
 ;
 }
-let
+const
 toolbox
 =
 gDevTools
@@ -573,7 +573,7 @@ consoleOutput
 =
 null
 ;
-let
+const
 onDestroy
 =
 (
@@ -692,21 +692,21 @@ null
 )
 ;
 }
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 newValue
 =
 !
 !
 value
 ;
-let
+const
 toSet
 =
 {
@@ -911,7 +911,7 @@ container
 "
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -925,7 +925,7 @@ owner
 target
 )
 ;
-let
+const
 Wrapper
 =
 this
@@ -1038,7 +1038,7 @@ function
 (
 )
 {
-let
+const
 shortcuts
 =
 new
@@ -1364,7 +1364,7 @@ function
 (
 )
 {
-let
+const
 newValue
 =
 Services
@@ -1575,7 +1575,7 @@ invalidate
 "
 )
 ;
-let
+const
 env
 =
 Cc

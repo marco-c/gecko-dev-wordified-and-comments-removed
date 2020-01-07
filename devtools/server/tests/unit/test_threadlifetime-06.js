@@ -108,7 +108,7 @@ event
 packet
 )
 {
-let
+const
 actors
 =
 [
@@ -119,7 +119,7 @@ last
 ;
 for
 (
-let
+const
 grip
 of
 packet

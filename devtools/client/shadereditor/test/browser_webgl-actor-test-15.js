@@ -4,7 +4,7 @@ ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 front
@@ -36,7 +36,7 @@ reload
 target
 )
 ;
-let
+const
 firstProgram
 =
 await
@@ -84,7 +84,7 @@ target
 MULTIPLE_CONTEXTS_URL
 )
 ;
-let
+const
 [
 secondProgram
 thirdProgram
@@ -354,7 +354,7 @@ function
 (
 )
 {
-let
+const
 programs
 =
 await
@@ -422,7 +422,7 @@ function
 (
 )
 {
-let
+const
 programs
 =
 await

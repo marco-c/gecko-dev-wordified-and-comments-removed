@@ -225,7 +225,7 @@ checkText
 (
 )
 ;
-let
+const
 appReady
 =
 waitForContentMessage
@@ -387,7 +387,7 @@ data
 =
 text
 ;
-let
+const
 dataReceived
 =
 waitForContentMessage
@@ -461,7 +461,7 @@ resolve
 =
 >
 {
-let
+const
 xhr
 =
 new

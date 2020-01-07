@@ -805,7 +805,7 @@ testTree
 (
 )
 {
-let
+const
 doc
 =
 gPanelWindow
@@ -814,7 +814,7 @@ document
 ;
 for
 (
-let
+const
 [
 item
 ]
@@ -875,7 +875,7 @@ testTables
 (
 )
 {
-let
+const
 doc
 =
 gPanelWindow
@@ -892,7 +892,7 @@ expandAll
 ;
 for
 (
-let
+const
 id
 of
 testCases
@@ -949,7 +949,7 @@ present
 }
 for
 (
-let
+const
 [
 treeItem
 items
@@ -1014,7 +1014,7 @@ correct
 ;
 for
 (
-let
+const
 id
 of
 items

@@ -106,7 +106,7 @@ render
 (
 )
 {
-let
+const
 {
 items
 onClick

@@ -66,17 +66,17 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -85,7 +85,7 @@ bottom
 TEST_URI
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -111,7 +111,7 @@ height
 =
 50
 ;
-let
+const
 tooltipContent
 =
 doc
@@ -132,7 +132,7 @@ textContent
 tooltip
 "
 ;
-let
+const
 tooltip
 =
 new
@@ -157,7 +157,7 @@ height
 }
 )
 ;
-let
+const
 container
 =
 doc
@@ -199,8 +199,8 @@ appear
 "
 )
 ;
+async
 function
-*
 showAndCheck
 (
 boxId
@@ -217,7 +217,7 @@ boxId
 }
 )
 ;
-let
+const
 box
 =
 doc
@@ -227,7 +227,7 @@ getElementById
 boxId
 )
 ;
-let
+const
 shown
 =
 tooltip
@@ -256,7 +256,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 shown
 ;
 checkTooltipGeometry
@@ -271,7 +271,7 @@ height
 )
 ;
 }
-yield
+await
 showAndCheck
 (
 "
@@ -282,7 +282,7 @@ bottom
 "
 )
 ;
-yield
+await
 showAndCheck
 (
 "
@@ -293,7 +293,7 @@ bottom
 "
 )
 ;
-yield
+await
 showAndCheck
 (
 "
@@ -304,7 +304,7 @@ top
 "
 )
 ;
-yield
+await
 showAndCheck
 (
 "
@@ -326,7 +326,7 @@ container
 "
 )
 ;
-let
+const
 hidden
 =
 tooltip
@@ -355,7 +355,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 hidden
 ;
 info

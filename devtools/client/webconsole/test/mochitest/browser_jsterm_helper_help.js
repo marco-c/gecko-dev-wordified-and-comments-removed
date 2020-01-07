@@ -78,7 +78,7 @@ openedLinks
 =
 0
 ;
-let
+const
 oldOpenLink
 =
 hud
@@ -148,7 +148,7 @@ execute
 "
 )
 ;
-let
+const
 messages
 =
 Array

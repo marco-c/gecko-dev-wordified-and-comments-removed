@@ -57,7 +57,7 @@ makeRemote
 )
 ;
 }
-let
+const
 api
 =
 await
@@ -69,7 +69,7 @@ getNetMonitorAPI
 (
 )
 ;
-let
+const
 app
 =
 this

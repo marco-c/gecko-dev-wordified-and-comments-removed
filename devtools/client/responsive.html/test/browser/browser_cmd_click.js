@@ -64,7 +64,7 @@ ui
 }
 )
 {
-let
+const
 store
 =
 ui
@@ -97,7 +97,7 @@ ui
 TEST_URL
 )
 ;
-let
+const
 newTabPromise
 =
 BrowserTestUtils
@@ -130,7 +130,7 @@ getViewportBrowser
 )
 )
 ;
-let
+const
 newTab
 =
 await

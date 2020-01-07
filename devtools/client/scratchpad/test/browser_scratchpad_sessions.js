@@ -214,7 +214,7 @@ domwindowopened
 "
 )
 {
-let
+const
 win
 =
 subject
@@ -264,7 +264,7 @@ removeObserver
 this
 )
 ;
-let
+const
 state
 =
 win

@@ -600,7 +600,7 @@ error_appProjectsLoadFailed
 }
 )
 ;
-let
+const
 autoinstallADBHelper
 =
 Services
@@ -623,7 +623,7 @@ if
 autoinstallADBHelper
 )
 {
-let
+const
 addons
 =
 GetAvailableAddons
@@ -1118,7 +1118,7 @@ function
 url
 )
 {
-let
+const
 mainWindow
 =
 Services
@@ -1171,7 +1171,7 @@ function
 (
 )
 {
-let
+const
 project
 =
 AppManager
@@ -1239,7 +1239,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 document
@@ -1297,7 +1297,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 document
@@ -1449,7 +1449,7 @@ promise
 operationDescription
 )
 {
-let
+const
 busy
 =
 this
@@ -1460,7 +1460,7 @@ promise
 operationDescription
 )
 ;
-let
+const
 win
 =
 document
@@ -1472,7 +1472,7 @@ window
 "
 )
 ;
-let
+const
 progress
 =
 document
@@ -1655,7 +1655,7 @@ cancelBusyTimeout
 (
 )
 ;
-let
+const
 operationCanceled
 =
 e
@@ -1764,7 +1764,7 @@ error
 text
 )
 ;
-let
+const
 buttons
 =
 [
@@ -1805,7 +1805,7 @@ showTroubleShooting
 }
 ]
 ;
-let
+const
 nbox
 =
 document
@@ -1849,7 +1849,7 @@ function
 (
 )
 {
-let
+const
 nbox
 =
 document
@@ -1898,7 +1898,7 @@ function
 (
 )
 {
-let
+const
 playCmd
 =
 document
@@ -1911,7 +1911,7 @@ cmd_play
 "
 )
 ;
-let
+const
 stopCmd
 =
 document
@@ -1924,7 +1924,7 @@ cmd_stop
 "
 )
 ;
-let
+const
 debugCmd
 =
 document
@@ -1937,7 +1937,7 @@ cmd_toggleToolbox
 "
 )
 ;
-let
+const
 playButton
 =
 document
@@ -1954,7 +1954,7 @@ play
 "
 )
 ;
-let
+const
 projectPanelCmd
 =
 document
@@ -2092,7 +2092,7 @@ true
 }
 else
 {
-let
+const
 isProjectRunning
 =
 AppManager
@@ -2321,7 +2321,7 @@ true
 ;
 }
 }
-let
+const
 screenshotCmd
 =
 document
@@ -2334,7 +2334,7 @@ cmd_takeScreenshot
 "
 )
 ;
-let
+const
 detailsCmd
 =
 document
@@ -2347,7 +2347,7 @@ cmd_showRuntimeDetails
 "
 )
 ;
-let
+const
 disconnectCmd
 =
 document
@@ -2360,7 +2360,7 @@ cmd_disconnectRuntime
 "
 )
 ;
-let
+const
 devicePrefsCmd
 =
 document
@@ -2373,7 +2373,7 @@ cmd_showDevicePrefs
 "
 )
 ;
-let
+const
 settingsCmd
 =
 document
@@ -2509,7 +2509,7 @@ true
 )
 ;
 }
-let
+const
 runtimePanelButton
 =
 document
@@ -2595,7 +2595,7 @@ function
 (
 )
 {
-let
+const
 removeCmdNode
 =
 document
@@ -2805,7 +2805,7 @@ other
 {
 for
 (
-let
+const
 runtime
 of
 AppManager
@@ -2851,7 +2851,7 @@ function
 runtime
 )
 {
-let
+const
 name
 =
 runtime
@@ -2932,7 +2932,7 @@ function
 (
 )
 {
-let
+const
 labelNode
 =
 document
@@ -2984,7 +2984,7 @@ runtimeButton_label
 }
 else
 {
-let
+const
 name
 =
 AppManager
@@ -3145,7 +3145,7 @@ function
 {
 for
 (
-let
+const
 action
 of
 this
@@ -3183,7 +3183,7 @@ action
 state
 )
 {
-let
+const
 histogramId
 =
 "
@@ -3221,7 +3221,7 @@ function
 (
 )
 {
-let
+const
 project
 =
 AppManager
@@ -3258,7 +3258,7 @@ autoStartProject
 (
 )
 {
-let
+const
 project
 =
 AppManager
@@ -3355,7 +3355,7 @@ autoOpenToolbox
 (
 )
 {
-let
+const
 project
 =
 AppManager
@@ -3423,7 +3423,7 @@ importAndSelectApp
 source
 )
 {
-let
+const
 isPackaged
 =
 !
@@ -3524,7 +3524,7 @@ function
 (
 )
 {
-let
+const
 shouldRestore
 =
 Services
@@ -3572,7 +3572,7 @@ type
 "
 "
 ;
-let
+const
 selected
 =
 AppManager
@@ -3731,7 +3731,7 @@ selectedProject
 return
 ;
 }
-let
+const
 shouldRestore
 =
 Services
@@ -3758,7 +3758,7 @@ shouldRestore
 return
 ;
 }
-let
+const
 pref
 =
 Services
@@ -3785,7 +3785,7 @@ pref
 return
 ;
 }
-let
+const
 m
 =
 pref
@@ -3816,7 +3816,7 @@ m
 return
 ;
 }
-let
+const
 [
 type
 project
@@ -3834,7 +3834,7 @@ local
 "
 )
 {
-let
+const
 lastProject
 =
 AppProjects
@@ -3924,7 +3924,7 @@ runtimeApp
 "
 )
 {
-let
+const
 app
 =
 AppManager
@@ -3979,7 +3979,7 @@ function
 (
 )
 {
-let
+const
 iframes
 =
 document
@@ -3996,7 +3996,7 @@ iframe
 ;
 for
 (
-let
+const
 iframe
 of
 iframes
@@ -4036,7 +4036,7 @@ function
 id
 )
 {
-let
+const
 deck
 =
 document
@@ -4083,7 +4083,7 @@ resetFocus
 (
 )
 ;
-let
+const
 panel
 =
 deck
@@ -4101,7 +4101,7 @@ panel
 id
 )
 ;
-let
+const
 lazysrc
 =
 panel
@@ -4157,7 +4157,7 @@ resetFocus
 (
 )
 ;
-let
+const
 deck
 =
 document
@@ -4189,7 +4189,7 @@ AppManager
 connected
 )
 {
-let
+const
 {
 client
 }
@@ -4198,7 +4198,7 @@ AppManager
 .
 connection
 ;
-let
+const
 report
 =
 await
@@ -4330,7 +4330,7 @@ iframe
 height
 )
 ;
-let
+const
 splitter
 =
 document
@@ -4401,7 +4401,7 @@ this
 toolboxPromise
 )
 {
-let
+const
 toolboxPromise
 =
 this
@@ -4457,7 +4457,7 @@ this
 toolboxPromise
 ;
 }
-let
+const
 iframe
 =
 document
@@ -4490,7 +4490,7 @@ getTime
 (
 )
 ;
-let
+const
 height
 =
 Services
@@ -4516,7 +4516,7 @@ height
 =
 height
 ;
-let
+const
 promise
 =
 this
@@ -4604,7 +4604,7 @@ target
 iframe
 )
 {
-let
+const
 splitter
 =
 document
@@ -4647,7 +4647,7 @@ splitter
 nextSibling
 )
 ;
-let
+const
 host
 =
 Toolbox
@@ -4656,7 +4656,7 @@ HostType
 .
 CUSTOM
 ;
-let
+const
 options
 =
 {
@@ -4780,7 +4780,7 @@ function
 (
 )
 {
-let
+const
 disconnecting
 =
 (
@@ -4828,7 +4828,7 @@ function
 (
 )
 {
-let
+const
 url
 =
 AppManager

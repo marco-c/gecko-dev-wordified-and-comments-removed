@@ -280,7 +280,7 @@ slot
 text
 inner
 ;
-let
+const
 {
 inspector
 }
@@ -436,7 +436,7 @@ fallback
 -
 content
 ;
-let
+const
 {
 inspector
 }
@@ -787,7 +787,7 @@ shadow
 root
 div
 ;
-let
+const
 {
 inspector
 }
@@ -1058,7 +1058,7 @@ dom
 :
 after
 ;
-let
+const
 {
 inspector
 }
@@ -1193,7 +1193,7 @@ shadow
 -
 root
 ;
-let
+const
 {
 inspector
 }

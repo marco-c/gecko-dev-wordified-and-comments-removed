@@ -33,7 +33,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -45,7 +45,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -56,7 +56,7 @@ getCurrentPanel
 .
 hud
 ;
-let
+const
 jsterm
 =
 hud
@@ -122,7 +122,7 @@ outputNode
 )
 )
 ;
-let
+const
 objectInspectors
 =
 [
@@ -213,7 +213,7 @@ node
 )
 ;
 }
-let
+const
 propertiesNodes
 =
 [

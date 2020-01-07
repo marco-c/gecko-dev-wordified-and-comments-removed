@@ -50,7 +50,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 Store

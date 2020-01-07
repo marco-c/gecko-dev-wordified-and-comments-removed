@@ -64,7 +64,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -189,7 +189,7 @@ panel
 "
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering

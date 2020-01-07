@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -33,7 +33,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 {
 walker
 }
@@ -54,7 +54,7 @@ container
 "
 )
 ;
-let
+const
 div
 =
 await
@@ -73,7 +73,7 @@ container
 "
 )
 ;
-let
+const
 {
 nodes
 }
@@ -194,7 +194,7 @@ checkTextNodeInfoBar
 testActor
 )
 {
-let
+const
 tag
 =
 await
@@ -230,7 +230,7 @@ text
 "
 )
 ;
-let
+const
 dims
 =
 await

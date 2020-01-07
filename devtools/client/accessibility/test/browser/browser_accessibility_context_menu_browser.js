@@ -47,7 +47,7 @@ testNoShowAccessibilityPropertiesContextMenu
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -59,7 +59,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 linkedBrowser
 :
@@ -68,7 +68,7 @@ browser
 =
 tab
 ;
-let
+const
 contextMenu
 =
 document
@@ -80,7 +80,7 @@ contentAreaContextMenu
 "
 )
 ;
-let
+const
 awaitPopupShown
 =
 BrowserTestUtils
@@ -123,7 +123,7 @@ browser
 await
 awaitPopupShown
 ;
-let
+const
 inspectA11YPropsItem
 =
 contextMenu
@@ -194,7 +194,7 @@ browser
 }
 )
 {
-let
+const
 headerSelector
 =
 "
@@ -202,7 +202,7 @@ headerSelector
 h1
 "
 ;
-let
+const
 contextMenu
 =
 document
@@ -214,7 +214,7 @@ contentAreaContextMenu
 "
 )
 ;
-let
+const
 awaitPopupShown
 =
 BrowserTestUtils
@@ -254,7 +254,7 @@ browser
 await
 awaitPopupShown
 ;
-let
+const
 inspectA11YPropsItem
 =
 contextMenu
@@ -305,7 +305,7 @@ hidePopup
 (
 )
 ;
-let
+const
 selected
 =
 await
@@ -324,7 +324,7 @@ selected
 "
 )
 ;
-let
+const
 expectedSelectedNode
 =
 await
@@ -341,7 +341,7 @@ inspector
 )
 )
 ;
-let
+const
 expectedSelected
 =
 await

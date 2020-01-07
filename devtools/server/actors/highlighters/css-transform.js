@@ -118,7 +118,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -143,7 +143,7 @@ container
 }
 )
 ;
-let
+const
 rootWrapper
 =
 createNode
@@ -181,7 +181,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -257,7 +257,7 @@ MARKER_COUNTER
 +
 +
 ;
-let
+const
 marker
 =
 createSVGNode
@@ -390,7 +390,7 @@ fill
 }
 )
 ;
-let
+const
 shapesGroup
 =
 createSVGNode
@@ -492,7 +492,7 @@ ID_CLASS_PREFIX
 ;
 for
 (
-let
+const
 nb
 of
 [
@@ -661,7 +661,7 @@ _isTransformed
 node
 )
 {
-let
+const
 style
 =
 getComputedStyle
@@ -703,7 +703,7 @@ quad
 id
 )
 {
-let
+const
 points
 =
 [
@@ -711,7 +711,7 @@ points
 ;
 for
 (
-let
+const
 point
 of
 [
@@ -782,7 +782,7 @@ p2
 id
 )
 {
-let
+const
 line
 =
 this
@@ -840,7 +840,7 @@ p2
 y
 )
 ;
-let
+const
 dist
 =
 Math
@@ -932,7 +932,7 @@ setIgnoreLayoutChanges
 true
 )
 ;
-let
+const
 quads
 =
 this
@@ -985,14 +985,14 @@ return
 false
 ;
 }
-let
+const
 [
 quad
 ]
 =
 quads
 ;
-let
+const
 untransformedQuad
 =
 getNodeBounds
@@ -1027,7 +1027,7 @@ untransformed
 ;
 for
 (
-let
+const
 nb
 of
 [

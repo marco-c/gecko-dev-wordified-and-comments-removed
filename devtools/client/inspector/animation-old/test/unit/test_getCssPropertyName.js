@@ -108,7 +108,7 @@ run_test
 {
 for
 (
-let
+const
 {
 jsName
 cssName

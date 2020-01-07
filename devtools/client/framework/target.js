@@ -210,7 +210,7 @@ targetPromise
 null
 )
 {
-let
+const
 target
 =
 new
@@ -519,7 +519,7 @@ tabs
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -1446,7 +1446,7 @@ traits
 webExtensionAddonConnect
 )
 {
-let
+const
 {
 form
 }
@@ -1503,7 +1503,7 @@ _setupRemoteListeners
 (
 )
 ;
-let
+const
 attachTab
 =
 (
@@ -1577,7 +1577,7 @@ attachConsole
 ;
 }
 ;
-let
+const
 onConsoleAttached
 =
 (
@@ -1662,7 +1662,7 @@ null
 ;
 }
 ;
-let
+const
 attachConsole
 =
 (
@@ -2007,7 +2007,7 @@ packet
 =
 >
 {
-let
+const
 event
 =
 Object
@@ -2474,14 +2474,14 @@ isResponsiveDesignMode
 return
 ;
 }
-let
+const
 tab
 =
 this
 .
 _tab
 ;
-let
+const
 onToolboxDestroyed
 =
 target
@@ -2511,7 +2511,7 @@ destroyed
 target
 )
 ;
-let
+const
 newTarget
 =
 TargetFactory
@@ -2595,7 +2595,7 @@ _teardownListeners
 )
 ;
 }
-let
+const
 cleanupAndResolve
 =
 (
@@ -2812,7 +2812,7 @@ function
 (
 )
 {
-let
+const
 id
 =
 this
@@ -2873,7 +2873,7 @@ errorFlag
 =
 0
 ;
-let
+const
 packet
 =
 {
@@ -2936,7 +2936,7 @@ warningFlag
 =
 1
 ;
-let
+const
 packet
 =
 {

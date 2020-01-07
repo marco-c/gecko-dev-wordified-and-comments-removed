@@ -169,7 +169,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -202,7 +202,7 @@ strong
 inspector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -245,7 +245,7 @@ button
 "
 )
 ;
-let
+const
 bc
 =
 inspector
@@ -269,7 +269,7 @@ focus
 ;
 for
 (
-let
+const
 {
 key
 selectedNode
@@ -294,7 +294,7 @@ select
 selectedNode
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -318,7 +318,7 @@ key
 await
 updated
 ;
-let
+const
 selectedNodeFront
 =
 await

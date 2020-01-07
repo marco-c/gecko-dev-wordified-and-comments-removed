@@ -146,7 +146,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -164,7 +164,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 OverviewView
@@ -190,7 +190,7 @@ startRecording
 panel
 )
 ;
-let
+const
 framerate
 =
 OverviewView
@@ -204,7 +204,7 @@ framerate
 "
 )
 ;
-let
+const
 markers
 =
 OverviewView
@@ -218,7 +218,7 @@ timeline
 "
 )
 ;
-let
+const
 memory
 =
 OverviewView

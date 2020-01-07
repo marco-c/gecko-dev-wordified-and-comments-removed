@@ -159,12 +159,12 @@ then
 =
 >
 {
-let
+const
 errorLine
 =
 3
 ;
-let
+const
 editorDoc
 =
 sp
@@ -183,7 +183,7 @@ jumpToLine
 (
 )
 ;
-let
+const
 lineInput
 =
 editorDoc
@@ -195,7 +195,7 @@ input
 "
 )
 ;
-let
+const
 inputLine
 =
 lineInput
@@ -232,7 +232,7 @@ editorDoc
 defaultView
 )
 ;
-let
+const
 cursor
 =
 sp
@@ -329,7 +329,7 @@ col
 "
 )
 ;
-let
+const
 {
 line
 ch

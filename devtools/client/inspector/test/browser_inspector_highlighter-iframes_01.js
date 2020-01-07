@@ -130,7 +130,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -142,7 +142,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 outerFrameDiv
 =
 [
@@ -154,7 +154,7 @@ div
 "
 ]
 ;
-let
+const
 innerFrameDiv
 =
 [
@@ -294,7 +294,7 @@ directly
 "
 )
 ;
-let
+const
 innerFrameFront
 =
 await
@@ -309,7 +309,7 @@ iframe
 inspector
 )
 ;
-let
+const
 innerFrameDivFront
 =
 await

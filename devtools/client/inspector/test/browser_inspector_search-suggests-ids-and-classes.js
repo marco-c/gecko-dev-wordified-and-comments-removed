@@ -432,7 +432,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -460,7 +460,7 @@ TEST_URL
 )
 )
 ;
-let
+const
 searchBox
 =
 inspector
@@ -478,7 +478,7 @@ searchbox
 "
 )
 ;
-let
+const
 popup
 =
 inspector
@@ -497,7 +497,7 @@ panelWin
 ;
 for
 (
-let
+const
 [
 key
 expectedSuggestions
@@ -529,7 +529,7 @@ expectedSuggestions
 )
 )
 ;
-let
+const
 onCommand
 =
 once
@@ -576,7 +576,7 @@ searchSuggestions
 .
 _lastQuery
 ;
-let
+const
 actualSuggestions
 =
 popup

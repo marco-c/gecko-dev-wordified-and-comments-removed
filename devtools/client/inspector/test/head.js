@@ -204,7 +204,7 @@ inspector
 url
 )
 {
-let
+const
 markuploaded
 =
 inspector
@@ -216,7 +216,7 @@ markuploaded
 "
 )
 ;
-let
+const
 onNewRoot
 =
 inspector
@@ -230,7 +230,7 @@ root
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -255,7 +255,7 @@ to
 url
 )
 ;
-let
+const
 activeTab
 =
 inspector
@@ -454,7 +454,7 @@ focus
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -464,7 +464,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -512,7 +512,7 @@ selection
 "
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -549,7 +549,7 @@ url
 hostType
 )
 {
-let
+const
 tab
 =
 await
@@ -558,7 +558,7 @@ addTab
 url
 )
 ;
-let
+const
 {
 inspector
 toolbox
@@ -586,7 +586,7 @@ getActiveInspector
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -638,7 +638,7 @@ node
 selector
 )
 ;
-let
+const
 contentAreaContextMenu
 =
 document
@@ -651,7 +651,7 @@ contentAreaContextMenu
 "
 )
 ;
-let
+const
 contextOpened
 =
 once
@@ -718,7 +718,7 @@ menu
 "
 )
 ;
-let
+const
 contextClosed
 =
 once
@@ -756,7 +756,7 @@ frameSelector
 inspector
 )
 {
-let
+const
 iframe
 =
 await
@@ -766,7 +766,7 @@ frameSelector
 inspector
 )
 ;
-let
+const
 {
 nodes
 }
@@ -816,7 +816,7 @@ box
 "
 )
 ;
-let
+const
 searchBox
 =
 panelWin
@@ -832,7 +832,7 @@ searchbox
 "
 )
 ;
-let
+const
 focused
 =
 once
@@ -926,7 +926,7 @@ node
 selector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -936,7 +936,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1021,7 +1021,7 @@ node
 selector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -1031,7 +1031,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1040,7 +1040,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 highlit
 =
 inspector
@@ -1110,7 +1110,7 @@ node
 selector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -1120,7 +1120,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1129,7 +1129,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -1212,7 +1212,7 @@ area
 "
 )
 ;
-let
+const
 btn
 =
 inspector
@@ -1273,7 +1273,7 @@ fireCopyEvent
 element
 )
 {
-let
+const
 evt
 =
 element
@@ -1312,7 +1312,7 @@ undoChange
 inspector
 )
 {
-let
+const
 canUndo
 =
 inspector
@@ -1357,7 +1357,7 @@ reject
 )
 ;
 }
-let
+const
 mutated
 =
 inspector
@@ -1389,7 +1389,7 @@ redoChange
 inspector
 )
 {
-let
+const
 canRedo
 =
 inspector
@@ -1434,7 +1434,7 @@ reject
 )
 ;
 }
-let
+const
 mutated
 =
 inspector
@@ -1504,7 +1504,7 @@ node
 "
 )
 ;
-let
+const
 {
 nodes
 }
@@ -1621,14 +1621,14 @@ testActor
 }
 )
 {
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -1892,7 +1892,7 @@ function
 (
 )
 {
-let
+const
 value
 =
 await
@@ -1946,7 +1946,7 @@ function
 (
 )
 {
-let
+const
 value
 =
 await
@@ -2266,7 +2266,7 @@ then
 =
 >
 {
-let
+const
 panel
 =
 toolbox
@@ -2292,14 +2292,14 @@ front
 "
 )
 ;
-let
+const
 gotEditor
 =
 editor
 =
 >
 {
-let
+const
 currentHref
 =
 editor
@@ -2516,7 +2516,7 @@ TabOpen
 "
 )
 ;
-let
+const
 tab
 =
 gBrowser
@@ -2557,7 +2557,7 @@ win
 {
 for
 (
-let
+const
 key
 of
 input
@@ -2615,7 +2615,7 @@ tooltip
 target
 )
 {
-let
+const
 mouseEvent
 =
 new
@@ -2702,7 +2702,7 @@ view
 target
 )
 {
-let
+const
 mouseEvent
 =
 new
@@ -2731,7 +2731,7 @@ dispatchEvent
 mouseEvent
 )
 ;
-let
+const
 name
 =
 "
@@ -2761,7 +2761,7 @@ been
 instantiated
 )
 ;
-let
+const
 tooltip
 =
 view
@@ -2836,7 +2836,7 @@ tooltip
 target
 )
 {
-let
+const
 mouseEvent
 =
 new
@@ -2957,7 +2957,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 await
@@ -2990,7 +2990,7 @@ if
 container
 )
 {
-let
+const
 textContainer
 =
 container
@@ -3088,14 +3088,14 @@ shapeswatch
 "
 )
 ;
-let
+const
 metaKey
 =
 options
 .
 transformMode
 ;
-let
+const
 ctrlKey
 =
 options
@@ -3107,7 +3107,7 @@ if
 show
 )
 {
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -3148,7 +3148,7 @@ onHighlighterShown
 }
 else
 {
-let
+const
 onHighlighterHidden
 =
 highlighters
@@ -3223,7 +3223,7 @@ inspector
 container
 )
 {
-let
+const
 onChildren
 =
 waitForChildrenUpdated
@@ -3231,7 +3231,7 @@ waitForChildrenUpdated
 inspector
 )
 ;
-let
+const
 onUpdated
 =
 inspector

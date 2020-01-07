@@ -136,7 +136,7 @@ newSource
 onNewSource
 )
 ;
-let
+const
 node
 =
 new
@@ -251,7 +251,7 @@ event
 packet
 )
 {
-let
+const
 sourceClient
 =
 gThreadClient

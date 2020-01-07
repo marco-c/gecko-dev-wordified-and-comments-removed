@@ -90,7 +90,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -111,7 +111,7 @@ testid
 inspector
 )
 ;
-let
+const
 elementRuleEditor
 =
 getRuleViewRuleEditor
@@ -120,7 +120,7 @@ view
 0
 )
 ;
-let
+const
 editor
 =
 await
@@ -159,7 +159,7 @@ editor
 "
 )
 ;
-let
+const
 onBlur
 =
 once

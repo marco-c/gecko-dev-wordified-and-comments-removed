@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 utils
 =
 require
@@ -19,7 +19,7 @@ utils
 "
 )
 ;
-let
+const
 {
 snapshotState
 :
@@ -40,7 +40,7 @@ constants
 "
 )
 ;
-let
+const
 {
 Preferences
 }
@@ -69,7 +69,7 @@ function
 (
 )
 {
-let
+const
 s1
 =
 utils
@@ -89,7 +89,7 @@ CENSUS
 }
 )
 ;
-let
+const
 s2
 =
 utils
@@ -156,7 +156,7 @@ ids
 "
 )
 ;
-let
+const
 custom
 =
 {

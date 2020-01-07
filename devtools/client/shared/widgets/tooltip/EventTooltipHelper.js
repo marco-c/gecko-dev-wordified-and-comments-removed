@@ -102,7 +102,7 @@ eventListenerInfos
 toolbox
 )
 {
-let
+const
 eventTooltip
 =
 new
@@ -221,7 +221,7 @@ function
 (
 )
 {
-let
+const
 config
 =
 {
@@ -258,7 +258,7 @@ view
 "
 }
 ;
-let
+const
 doc
 =
 this
@@ -336,7 +336,7 @@ Capturing
 ;
 for
 (
-let
+const
 listener
 of
 this
@@ -344,7 +344,7 @@ this
 _eventListenerInfos
 )
 {
-let
+const
 phase
 =
 listener
@@ -355,7 +355,7 @@ Capturing
 :
 Bubbling
 ;
-let
+const
 level
 =
 listener
@@ -370,7 +370,7 @@ DOM0
 DOM2
 "
 ;
-let
+const
 content
 =
 doc
@@ -383,7 +383,7 @@ div
 "
 )
 ;
-let
+const
 header
 =
 doc
@@ -428,7 +428,7 @@ hide
 type
 )
 {
-let
+const
 eventTypeLabel
 =
 doc
@@ -483,7 +483,7 @@ eventTypeLabel
 )
 ;
 }
-let
+const
 filename
 =
 doc
@@ -576,7 +576,7 @@ if
 location
 )
 {
-let
+const
 callback
 =
 (
@@ -617,7 +617,7 @@ location
 .
 line
 ;
-let
+const
 newURI
 =
 newUrl
@@ -644,7 +644,7 @@ title
 newURI
 )
 ;
-let
+const
 eventEditor
 =
 this
@@ -754,7 +754,7 @@ hide
 debugger
 )
 {
-let
+const
 debuggerIcon
 =
 doc
@@ -807,7 +807,7 @@ svg
 "
 )
 ;
-let
+const
 openInDebugger
 =
 L10N
@@ -839,7 +839,7 @@ debuggerIcon
 )
 ;
 }
-let
+const
 attributesContainer
 =
 doc
@@ -883,7 +883,7 @@ hide
 capturing
 )
 {
-let
+const
 attributesBox
 =
 doc
@@ -917,7 +917,7 @@ appendChild
 attributesBox
 )
 ;
-let
+const
 capturing
 =
 doc
@@ -975,7 +975,7 @@ tags
 {
 for
 (
-let
+const
 tag
 of
 listener
@@ -989,7 +989,7 @@ split
 )
 )
 {
-let
+const
 attributesBox
 =
 doc
@@ -1023,7 +1023,7 @@ appendChild
 attributesBox
 )
 ;
-let
+const
 tagBox
 =
 doc
@@ -1083,7 +1083,7 @@ hide
 dom0
 )
 {
-let
+const
 attributesBox
 =
 doc
@@ -1117,7 +1117,7 @@ appendChild
 attributesBox
 )
 ;
-let
+const
 dom0
 =
 doc
@@ -1156,7 +1156,7 @@ dom0
 )
 ;
 }
-let
+const
 editor
 =
 new
@@ -1329,7 +1329,7 @@ stopPropagation
 return
 ;
 }
-let
+const
 doc
 =
 this
@@ -1338,14 +1338,14 @@ _tooltip
 .
 doc
 ;
-let
+const
 header
 =
 event
 .
 currentTarget
 ;
-let
+const
 content
 =
 header
@@ -1389,7 +1389,7 @@ open
 }
 else
 {
-let
+const
 contentNodes
 =
 doc
@@ -1410,7 +1410,7 @@ box
 ;
 for
 (
-let
+const
 node
 of
 contentNodes
@@ -1447,7 +1447,7 @@ open
 "
 )
 ;
-let
+const
 eventEditor
 =
 this
@@ -1469,7 +1469,7 @@ appended
 return
 ;
 }
-let
+const
 {
 editor
 handler
@@ -1477,7 +1477,7 @@ handler
 =
 eventEditor
 ;
-let
+const
 iframe
 =
 doc
@@ -1532,7 +1532,7 @@ then
 =
 >
 {
-let
+const
 tidied
 =
 beautify
@@ -1562,7 +1562,7 @@ appended
 =
 true
 ;
-let
+const
 container
 =
 header
@@ -1647,21 +1647,21 @@ function
 event
 )
 {
-let
+const
 header
 =
 event
 .
 currentTarget
 ;
-let
+const
 content
 =
 header
 .
 nextElementSibling
 ;
-let
+const
 {
 uri
 }
@@ -1675,7 +1675,7 @@ get
 content
 )
 ;
-let
+const
 location
 =
 this
@@ -1690,7 +1690,7 @@ if
 location
 )
 {
-let
+const
 toolbox
 =
 this
@@ -1754,7 +1754,7 @@ g
 "
 )
 ;
-let
+const
 matches
 =
 uri
@@ -1843,7 +1843,7 @@ this
 destroy
 )
 ;
-let
+const
 boxes
 =
 this
@@ -1866,13 +1866,13 @@ box
 ;
 for
 (
-let
+const
 box
 of
 boxes
 )
 {
-let
+const
 {
 editor
 }
@@ -1908,7 +1908,7 @@ eventTooltip
 null
 ;
 }
-let
+const
 headerNodes
 =
 this
@@ -1927,7 +1927,7 @@ header
 ;
 for
 (
-let
+const
 node
 of
 headerNodes
@@ -1946,7 +1946,7 @@ _headerClicked
 )
 ;
 }
-let
+const
 sourceNodes
 =
 this
@@ -1969,7 +1969,7 @@ icon
 ;
 for
 (
-let
+const
 node
 of
 sourceNodes
@@ -1999,7 +1999,7 @@ sourceMapURLService
 ;
 for
 (
-let
+const
 subscription
 of
 this

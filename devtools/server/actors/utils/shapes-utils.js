@@ -51,7 +51,7 @@ clickWidthY
 =
 >
 {
-let
+const
 inner
 =
 (
@@ -94,7 +94,7 @@ clickWidthY
 *
 2
 ;
-let
+const
 outer
 =
 (
@@ -165,7 +165,7 @@ y3
 =
 >
 {
-let
+const
 num
 =
 Math
@@ -197,7 +197,7 @@ y2
 x1
 )
 ;
-let
+const
 denom
 =
 getDistance
@@ -229,7 +229,7 @@ cy
 =
 >
 {
-let
+const
 ab
 =
 [
@@ -241,7 +241,7 @@ by
 ay
 ]
 ;
-let
+const
 ac
 =
 [
@@ -253,7 +253,7 @@ cy
 ay
 ]
 ;
-let
+const
 scalar
 =
 dotProduct

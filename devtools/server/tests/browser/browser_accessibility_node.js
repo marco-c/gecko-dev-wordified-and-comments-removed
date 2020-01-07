@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -29,7 +29,7 @@ html
 "
 )
 ;
-let
+const
 a11yWalker
 =
 await
@@ -46,7 +46,7 @@ enable
 (
 )
 ;
-let
+const
 buttonNode
 =
 await
@@ -63,7 +63,7 @@ button
 "
 )
 ;
-let
+const
 accessibleFront
 =
 await
@@ -228,7 +228,7 @@ Children
 "
 )
 ;
-let
+const
 children
 =
 await

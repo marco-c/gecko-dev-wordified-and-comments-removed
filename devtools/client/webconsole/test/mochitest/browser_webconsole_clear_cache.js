@@ -111,7 +111,7 @@ button
 "
 )
 ;
-let
+const
 onOutputCleared
 =
 waitFor

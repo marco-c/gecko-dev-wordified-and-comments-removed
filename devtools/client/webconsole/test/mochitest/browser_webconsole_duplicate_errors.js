@@ -61,7 +61,7 @@ expectUncaughtException
 )
 ;
 }
-let
+const
 hud
 =
 await

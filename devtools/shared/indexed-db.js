@@ -73,7 +73,7 @@ name
 version
 )
 {
-let
+const
 options
 =
 {

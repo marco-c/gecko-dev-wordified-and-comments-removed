@@ -160,7 +160,7 @@ test
 fixtures
 "
 ;
-let
+const
 cachedPackets
 =
 {
@@ -195,7 +195,7 @@ key
 ]
 ;
 }
-let
+const
 safeKey
 =
 key
@@ -267,7 +267,7 @@ safeKey
 )
 )
 {
-let
+const
 existingPacket
 =
 stubPackets
@@ -473,7 +473,7 @@ return
 argument
 ;
 }
-let
+const
 newArgument
 =
 Object
@@ -485,7 +485,7 @@ assign
 argument
 )
 ;
-let
+const
 existingArgument
 =
 existingPacket
@@ -900,13 +900,13 @@ res
 packet
 )
 {
-let
+const
 override
 =
 {
 }
 ;
-let
+const
 keys
 =
 [
@@ -1287,7 +1287,7 @@ key
 packet
 )
 {
-let
+const
 stringifiedPacket
 =
 JSON
@@ -1327,7 +1327,7 @@ key
 packet
 )
 {
-let
+const
 prepared
 =
 prepareMessage
@@ -1350,7 +1350,7 @@ getNextId
 }
 )
 ;
-let
+const
 stringifiedMessage
 =
 JSON
@@ -1392,7 +1392,7 @@ key
 packet
 )
 {
-let
+const
 cleanedPacket
 =
 getCleanedPacket
@@ -1401,7 +1401,7 @@ key
 packet
 )
 ;
-let
+const
 networkInfo
 =
 cleanedPacket
@@ -1414,7 +1414,7 @@ networkInfo
 :
 cleanedPacket
 ;
-let
+const
 prepared
 =
 prepareMessage
@@ -1433,7 +1433,7 @@ getNextId
 }
 )
 ;
-let
+const
 stringifiedMessage
 =
 JSON
@@ -1677,7 +1677,7 @@ LOG
 false
 )
 ;
-let
+const
 stubs
 =
 {
@@ -1691,7 +1691,7 @@ packets
 ]
 }
 ;
-let
+const
 toolbox
 =
 await
@@ -1714,7 +1714,7 @@ getCurrentPanel
 .
 hud
 ;
-let
+const
 {
 ui
 }
@@ -1745,7 +1745,7 @@ exists
 ;
 for
 (
-let
+const
 [
 key
 {
@@ -1757,7 +1757,7 @@ of
 consoleApi
 )
 {
-let
+const
 received
 =
 new
@@ -1772,7 +1772,7 @@ i
 =
 0
 ;
-let
+const
 listener
 =
 async
@@ -1888,7 +1888,7 @@ subCode
 ]
 )
 {
-let
+const
 script
 =
 content
@@ -2019,7 +2019,7 @@ message
 html
 "
 ;
-let
+const
 stubs
 =
 {
@@ -2033,7 +2033,7 @@ packets
 ]
 }
 ;
-let
+const
 toolbox
 =
 await
@@ -2047,7 +2047,7 @@ webconsole
 ;
 for
 (
-let
+const
 [
 key
 code
@@ -2056,7 +2056,7 @@ of
 cssMessage
 )
 {
-let
+const
 received
 =
 new
@@ -2125,7 +2125,7 @@ t
 )
 )
 ;
-let
+const
 message
 =
 prepareMessage
@@ -2212,7 +2212,7 @@ cssErrorReportingEnabled
 =
 true
 ;
-let
+const
 style
 =
 content
@@ -2290,7 +2290,7 @@ stub
 generation
 "
 ;
-let
+const
 stubs
 =
 {
@@ -2304,7 +2304,7 @@ packets
 ]
 }
 ;
-let
+const
 toolbox
 =
 await
@@ -2318,7 +2318,7 @@ webconsole
 ;
 for
 (
-let
+const
 [
 key
 code
@@ -2438,7 +2438,7 @@ event
 html
 "
 ;
-let
+const
 stubs
 =
 {
@@ -2452,7 +2452,7 @@ packets
 ]
 }
 ;
-let
+const
 toolbox
 =
 await
@@ -2464,7 +2464,7 @@ webconsole
 "
 )
 ;
-let
+const
 {
 ui
 }
@@ -2479,7 +2479,7 @@ hud
 ;
 for
 (
-let
+const
 [
 key
 {
@@ -2491,7 +2491,7 @@ of
 networkEvent
 )
 {
-let
+const
 onNetwork
 =
 new
@@ -2593,7 +2593,7 @@ resolve
 }
 )
 ;
-let
+const
 onNetworkUpdate
 =
 new
@@ -2629,7 +2629,7 @@ onNetworkUpdated
 res
 )
 {
-let
+const
 updateKey
 =
 {
@@ -2773,7 +2773,7 @@ subCode
 ]
 )
 {
-let
+const
 script
 =
 content
@@ -2899,7 +2899,7 @@ api
 html
 "
 ;
-let
+const
 stubs
 =
 {
@@ -2913,7 +2913,7 @@ packets
 ]
 }
 ;
-let
+const
 toolbox
 =
 await
@@ -2927,7 +2927,7 @@ webconsole
 ;
 for
 (
-let
+const
 [
 key
 code
@@ -2936,7 +2936,7 @@ of
 pageError
 )
 {
-let
+const
 received
 =
 new
@@ -3049,7 +3049,7 @@ subCode
 ]
 )
 {
-let
+const
 script
 =
 content

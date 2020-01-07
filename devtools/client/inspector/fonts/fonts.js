@@ -674,7 +674,7 @@ inspector
 return
 ;
 }
-let
+const
 fontsApp
 =
 FontsApp
@@ -703,7 +703,7 @@ onPropertyChange
 }
 )
 ;
-let
+const
 provider
 =
 createElement
@@ -1009,7 +1009,7 @@ getFontProperties
 (
 )
 {
-let
+const
 properties
 =
 {
@@ -1017,7 +1017,7 @@ properties
 ;
 for
 (
-let
+const
 prop
 of
 FONT_PROPERTIES
@@ -1062,7 +1062,7 @@ return
 ]
 ;
 }
-let
+const
 fonts
 =
 await
@@ -1971,7 +1971,7 @@ if
 show
 )
 {
-let
+const
 node
 =
 isForCurrentElement
@@ -2312,7 +2312,7 @@ trim
 ;
 for
 (
-let
+const
 font
 of
 fonts
@@ -2492,7 +2492,7 @@ otherFonts
 return
 ;
 }
-let
+const
 {
 fontOptions
 }
@@ -2505,14 +2505,14 @@ getState
 (
 )
 ;
-let
+const
 {
 previewText
 }
 =
 fontOptions
 ;
-let
+const
 options
 =
 {
@@ -2548,7 +2548,7 @@ includeVariations
 true
 ;
 }
-let
+const
 node
 =
 this
@@ -2621,7 +2621,7 @@ return
 }
 for
 (
-let
+const
 font
 of
 [

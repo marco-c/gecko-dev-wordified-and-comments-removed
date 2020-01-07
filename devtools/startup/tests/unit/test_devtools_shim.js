@@ -62,7 +62,7 @@ createMockDevTools
 (
 )
 {
-let
+const
 methods
 =
 [
@@ -83,7 +83,7 @@ restoreDevToolsSession
 "
 ]
 ;
-let
+const
 mock
 =
 {
@@ -95,7 +95,7 @@ callLog
 ;
 for
 (
-let
+const
 method
 of
 methods
@@ -214,7 +214,7 @@ i
 +
 )
 {
-let
+const
 expectedArg
 =
 lastArgs
@@ -363,7 +363,7 @@ cb2
 )
 {
 }
-let
+const
 mock
 =
 createMockDevTools
@@ -455,7 +455,7 @@ cb1
 )
 {
 }
-let
+const
 mock
 =
 createMockDevTools
@@ -532,7 +532,7 @@ cb2
 )
 {
 }
-let
+const
 mock
 =
 createMockDevTools
@@ -612,7 +612,7 @@ initialized
 "
 )
 ;
-let
+const
 mock
 =
 createMockDevTools
@@ -679,14 +679,14 @@ test_restore_session_apis
 (
 )
 {
-let
+const
 initDevToolsBackup
 =
 DevToolsShim
 .
 initDevTools
 ;
-let
+const
 devtoolsEnabledValue
 =
 Services
@@ -702,13 +702,13 @@ enabled
 "
 )
 ;
-let
+const
 sessionWithoutDevTools
 =
 {
 }
 ;
-let
+const
 sessionWithDevTools
 =
 {
@@ -927,7 +927,7 @@ initialized
 "
 )
 ;
-let
+const
 mock
 =
 createMockDevTools

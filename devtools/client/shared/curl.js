@@ -24,7 +24,7 @@ function
 data
 )
 {
-let
+const
 utils
 =
 CurlUtils
@@ -38,7 +38,7 @@ curl
 "
 ]
 ;
-let
+const
 ignoredHeaders
 =
 new
@@ -46,7 +46,7 @@ Set
 (
 )
 ;
-let
+const
 escapeString
 =
 Services
@@ -85,7 +85,7 @@ postDataText
 =
 null
 ;
-let
+const
 multipartRequest
 =
 utils
@@ -95,7 +95,7 @@ isMultipartRequest
 data
 )
 ;
-let
+const
 postData
 =
 [
@@ -200,7 +200,7 @@ binary
 "
 )
 ;
-let
+const
 boundary
 =
 utils
@@ -210,7 +210,7 @@ getMultipartBoundary
 data
 )
 ;
-let
+const
 text
 =
 utils
@@ -333,7 +333,7 @@ if
 multipartRequest
 )
 {
-let
+const
 multipartHeaders
 =
 utils
@@ -371,7 +371,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 headers
@@ -553,7 +553,7 @@ return
 true
 ;
 }
-let
+const
 contentType
 =
 this
@@ -654,7 +654,7 @@ return
 true
 ;
 }
-let
+const
 contentType
 =
 this
@@ -714,7 +714,7 @@ return
 "
 ;
 }
-let
+const
 lines
 =
 postDataText
@@ -768,7 +768,7 @@ toLowerCase
 ;
 for
 (
-let
+const
 header
 of
 headers
@@ -806,7 +806,7 @@ function
 data
 )
 {
-let
+const
 boundaryRe
 =
 /
@@ -825,7 +825,7 @@ w
 /
 i
 ;
-let
+const
 contentType
 =
 this
@@ -864,7 +864,7 @@ boundaryRe
 ]
 ;
 }
-let
+const
 boundaryString
 =
 data
@@ -915,7 +915,7 @@ boundary
 +
 boundary
 ;
-let
+const
 parts
 =
 multipartText
@@ -927,7 +927,7 @@ boundary
 ;
 for
 (
-let
+const
 part
 of
 parts
@@ -1003,7 +1003,7 @@ filename
 )
 )
 {
-let
+const
 headers
 =
 part
@@ -1095,7 +1095,7 @@ function
 multipartText
 )
 {
-let
+const
 headers
 =
 [
@@ -1123,7 +1123,7 @@ return
 headers
 ;
 }
-let
+const
 index
 =
 multipartText
@@ -1155,7 +1155,7 @@ return
 headers
 ;
 }
-let
+const
 headersText
 =
 multipartText
@@ -1166,7 +1166,7 @@ substring
 index
 )
 ;
-let
+const
 headerLines
 =
 headersText
@@ -1188,7 +1188,7 @@ null
 ;
 for
 (
-let
+const
 line
 of
 headerLines
@@ -1233,7 +1233,7 @@ trim
 continue
 ;
 }
-let
+const
 indexOfColon
 =
 line
@@ -1257,7 +1257,7 @@ indexOfColon
 continue
 ;
 }
-let
+const
 header
 =
 [

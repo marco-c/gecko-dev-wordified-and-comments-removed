@@ -214,7 +214,7 @@ target
 }
 )
 {
-let
+const
 {
 onChangeNetworkThrottling
 }
@@ -254,7 +254,7 @@ return
 }
 for
 (
-let
+const
 profile
 of
 throttlingProfiles
@@ -290,7 +290,7 @@ render
 (
 )
 {
-let
+const
 {
 className
 networkThrottling
@@ -351,7 +351,7 @@ noThrottling
 )
 ;
 }
-let
+const
 listContent
 =
 [

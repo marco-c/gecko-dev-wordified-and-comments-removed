@@ -184,7 +184,7 @@ log
 }
 )
 ;
-let
+const
 hud
 =
 await
@@ -193,7 +193,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -205,7 +205,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -254,7 +254,7 @@ text
 "
 )
 ;
-let
+const
 messageNode
 =
 await
@@ -271,7 +271,7 @@ text
 )
 )
 ;
-let
+const
 frameLinksNode
 =
 messageNode
@@ -314,7 +314,7 @@ stacktrace
 ;
 for
 (
-let
+const
 frameLinkNode
 of
 frameLinksNode
@@ -370,7 +370,7 @@ location
 "
 )
 ;
-let
+const
 onSourceInDebuggerOpened
 =
 once
@@ -418,7 +418,7 @@ source
 await
 onSourceInDebuggerOpened
 ;
-let
+const
 url
 =
 frameLinkNode
@@ -432,7 +432,7 @@ url
 "
 )
 ;
-let
+const
 dbg
 =
 toolbox

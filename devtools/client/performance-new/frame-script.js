@@ -219,7 +219,7 @@ function
 (
 )
 {
-let
+const
 result
 =
 fun
@@ -310,7 +310,7 @@ obj
 contentGlobal
 )
 {
-let
+const
 result
 =
 Cu
@@ -322,7 +322,7 @@ contentGlobal
 ;
 for
 (
-let
+const
 field
 in
 obj

@@ -302,7 +302,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -336,7 +336,7 @@ list
 "
 )
 ;
-let
+const
 firstStyle
 =
 view
@@ -445,7 +445,7 @@ expanded
 "
 )
 ;
-let
+const
 secondStyleSelectors
 =
 view
@@ -557,7 +557,7 @@ too
 "
 )
 ;
-let
+const
 firstStyleSelectors
 =
 view

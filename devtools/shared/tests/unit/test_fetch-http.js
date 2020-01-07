@@ -188,7 +188,7 @@ json
 false
 )
 ;
-let
+const
 body
 =
 "
@@ -425,7 +425,7 @@ bypassed
 "
 )
 ;
-let
+const
 opts
 =
 {

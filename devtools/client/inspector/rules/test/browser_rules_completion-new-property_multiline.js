@@ -171,7 +171,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -212,7 +212,7 @@ field
 "
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -223,7 +223,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 rule
@@ -233,7 +233,7 @@ textProps
 0
 ]
 ;
-let
+const
 rect
 =
 prop
@@ -246,7 +246,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 firstQuad
 =
 prop
@@ -262,7 +262,7 @@ getBoxQuads
 0
 ]
 ;
-let
+const
 x
 =
 firstQuad
@@ -283,7 +283,7 @@ width
 /
 2
 ;
-let
+const
 y
 =
 firstQuad
@@ -306,7 +306,7 @@ value
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -527,7 +527,7 @@ field
 ;
 for
 (
-let
+const
 key
 of
 "
@@ -806,7 +806,7 @@ changed
 "
 )
 ;
-let
+const
 onSuggest
 =
 editor
@@ -820,7 +820,7 @@ suggest
 "
 )
 ;
-let
+const
 node
 =
 editor
@@ -937,7 +937,7 @@ editor
 win
 )
 {
-let
+const
 onSuggest
 =
 editor

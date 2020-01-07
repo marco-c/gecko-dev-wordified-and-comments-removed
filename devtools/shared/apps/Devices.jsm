@@ -94,7 +94,7 @@ addonInstalled
 {
 for
 (
-let
+const
 name
 in
 this

@@ -383,7 +383,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -394,7 +394,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 searchBox
 }
@@ -426,7 +426,7 @@ index
 ;
 for
 (
-let
+const
 [
 key
 id
@@ -461,7 +461,7 @@ id
 "
 )
 ;
-let
+const
 done
 =
 inspector
@@ -593,7 +593,7 @@ searchBox
 value
 )
 ;
-let
+const
 nodeFront
 =
 await

@@ -575,7 +575,7 @@ render
 (
 )
 {
-let
+const
 {
 client
 connect
@@ -585,7 +585,7 @@ this
 .
 props
 ;
-let
+const
 {
 selectedPanelId
 }
@@ -594,14 +594,14 @@ this
 .
 state
 ;
-let
+const
 selectPanel
 =
 this
 .
 selectPanel
 ;
-let
+const
 selectedPanel
 =
 panels

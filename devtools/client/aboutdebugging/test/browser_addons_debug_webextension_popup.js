@@ -295,7 +295,7 @@ popupPageFunctionCalled
 }
 )
 ;
-let
+const
 {
 tab
 document
@@ -309,7 +309,7 @@ ADDON_NAME
 ADDON_MANIFEST_PATH
 )
 ;
-let
+const
 env
 =
 Cc
@@ -334,7 +334,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 testScript
 =
 function
@@ -493,7 +493,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 data
@@ -569,7 +569,7 @@ listener
 }
 )
 ;
-let
+const
 waitForFrameListUpdate
 =
 toolbox
@@ -626,7 +626,7 @@ button
 n
 )
 ;
-let
+const
 btn
 =
 toolbox
@@ -644,7 +644,7 @@ frames
 "
 )
 ;
-let
+const
 frameMenu
 =
 await
@@ -680,7 +680,7 @@ open
 "
 )
 ;
-let
+const
 frames
 =
 frameMenu
@@ -718,7 +718,7 @@ length
 )
 ;
 }
-let
+const
 popupFrameBtn
 =
 frames
@@ -775,7 +775,7 @@ frames
 )
 ;
 }
-let
+const
 waitForNavigated
 =
 toolbox
@@ -915,7 +915,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 onToolboxClose
 =
 BrowserToolboxProcess
@@ -936,7 +936,7 @@ click
 await
 onReadyForOpenPopup
 ;
-let
+const
 browserActionId
 =
 makeWidgetId
@@ -951,7 +951,7 @@ browser
 action
 "
 ;
-let
+const
 browserActionEl
 =
 window
@@ -995,7 +995,7 @@ button
 "
 )
 ;
-let
+const
 args
 =
 await

@@ -197,7 +197,7 @@ render
 (
 )
 {
-let
+const
 {
 getSwatchColorPickerTooltip
 grids

@@ -139,7 +139,7 @@ n
 )
 ;
 }
-let
+const
 c
 =
 mod
@@ -338,7 +338,7 @@ function
 (
 )
 {
-let
+const
 C
 =
 this
@@ -347,7 +347,7 @@ _getConstructor
 (
 )
 ;
-let
+const
 instance
 =
 new
@@ -420,7 +420,7 @@ pool
 {
 for
 (
-let
+const
 name
 in
 factories
@@ -503,7 +503,7 @@ object
 {
 for
 (
-let
+const
 name
 in
 this
@@ -511,7 +511,7 @@ this
 _extraActors
 )
 {
-let
+const
 actor
 =
 this
@@ -567,7 +567,7 @@ APDestroy
 {
 for
 (
-let
+const
 id
 in
 this
@@ -841,7 +841,7 @@ callback
 {
 for
 (
-let
+const
 name
 in
 this
@@ -981,14 +981,14 @@ originalUrl
 (
 )
 {
-let
+const
 actor
 =
 this
 .
 originalSourceActor
 ;
-let
+const
 source
 =
 actor

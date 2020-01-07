@@ -107,12 +107,12 @@ TreeWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -122,13 +122,13 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -137,7 +137,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 tree
 =
 new
@@ -166,7 +166,7 @@ tree
 doc
 )
 ;
-yield
+await
 testMouseInteraction
 (
 tree
@@ -452,7 +452,7 @@ url
 ]
 )
 ;
-let
+const
 node
 =
 doc
@@ -518,7 +518,7 @@ click
 node
 )
 {
-let
+const
 win
 =
 node
@@ -545,8 +545,8 @@ win
 )
 ;
 }
+async
 function
-*
 testMouseInteraction
 (
 tree
@@ -567,7 +567,7 @@ tree
 let
 event
 ;
-let
+const
 pass
 =
 (
@@ -611,7 +611,7 @@ select
 pass
 )
 ;
-let
+const
 node
 =
 tree
@@ -680,7 +680,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -780,7 +780,7 @@ expands
 "
 )
 ;
-let
+const
 node2
 =
 tree
@@ -871,7 +871,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -1034,7 +1034,7 @@ click
 node2
 )
 ;
-yield
+await
 event
 .
 promise

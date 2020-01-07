@@ -35,7 +35,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -47,7 +47,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -126,7 +126,7 @@ length
 }
 )
 ;
-let
+const
 node
 =
 await
@@ -674,7 +674,7 @@ tree
 "
 )
 ;
-let
+const
 onObjectOiMutation
 =
 waitForNodeMutation
@@ -743,7 +743,7 @@ it
 "
 )
 ;
-let
+const
 objectOiNodes
 =
 objectOi

@@ -106,7 +106,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -117,7 +117,7 @@ openRuleView
 (
 )
 ;
-let
+const
 highlighters
 =
 view
@@ -134,7 +134,7 @@ grid
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -151,7 +151,7 @@ display
 .
 valueSpan
 ;
-let
+const
 gridToggle
 =
 container
@@ -284,7 +284,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -413,7 +413,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterHidden
 =
 highlighters

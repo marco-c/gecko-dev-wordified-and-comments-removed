@@ -116,7 +116,7 @@ run_test
 {
 for
 (
-let
+const
 {
 id
 expected

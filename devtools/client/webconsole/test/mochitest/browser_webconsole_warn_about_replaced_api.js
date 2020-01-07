@@ -125,7 +125,7 @@ loadDocument
 TEST_URI_REPLACED
 )
 ;
-let
+const
 toolbox
 =
 await

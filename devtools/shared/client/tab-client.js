@@ -271,7 +271,7 @@ thread
 )
 ;
 }
-let
+const
 packet
 =
 {

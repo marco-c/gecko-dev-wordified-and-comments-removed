@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 view
 }
@@ -32,14 +32,14 @@ openFontInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 viewDoc
 =
 view
 .
 document
 ;
-let
+const
 previews
 =
 viewDoc
@@ -58,7 +58,7 @@ preview
 "
 )
 ;
-let
+const
 initialPreviews
 =
 [
@@ -185,7 +185,7 @@ originalURIs
 assertIdentical
 )
 {
-let
+const
 previews
 =
 viewDoc
@@ -204,7 +204,7 @@ preview
 "
 )
 ;
-let
+const
 newURIs
 =
 [

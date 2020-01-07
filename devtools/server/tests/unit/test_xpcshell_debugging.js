@@ -8,7 +8,7 @@ run_test
 (
 )
 {
-let
+const
 testFile
 =
 do_get_file
@@ -25,7 +25,7 @@ testResumed
 =
 false
 ;
-let
+const
 DebuggerServer
 =
 _setupDebuggerServer
@@ -47,7 +47,7 @@ true
 }
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -56,7 +56,7 @@ connectPipe
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -90,7 +90,7 @@ response
 =
 >
 {
-let
+const
 actor
 =
 response

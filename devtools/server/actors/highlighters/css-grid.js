@@ -581,7 +581,7 @@ this
 onWillNavigate
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -634,7 +634,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -659,7 +659,7 @@ container
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -754,7 +754,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -813,7 +813,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 regions
 =
 createSVGNode
@@ -929,7 +929,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 areaInfobarContainer
 =
 createNode
@@ -989,7 +989,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 areaInfobar
 =
 createNode
@@ -1020,7 +1020,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 areaTextbox
 =
 createNode
@@ -1149,7 +1149,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 cellInfobarContainer
 =
 createNode
@@ -1209,7 +1209,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 cellInfobar
 =
 createNode
@@ -1240,7 +1240,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 cellTextbox
 =
 createNode
@@ -1369,7 +1369,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 lineInfobarContainer
 =
 createNode
@@ -1429,7 +1429,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 lineInfobar
 =
 createNode
@@ -1460,7 +1460,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 lineTextbox
 =
 createNode
@@ -1608,7 +1608,7 @@ clearGridAreas
 (
 )
 {
-let
+const
 areas
 =
 this
@@ -1636,7 +1636,7 @@ clearGridCell
 (
 )
 {
-let
+const
 cells
 =
 this
@@ -1664,7 +1664,7 @@ destroy
 (
 )
 {
-let
+const
 {
 highlighterEnv
 }
@@ -1685,7 +1685,7 @@ this
 onWillNavigate
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -1902,7 +1902,7 @@ dimension
 )
 ;
 }
-let
+const
 canvas
 =
 createNode
@@ -1919,7 +1919,7 @@ canvas
 }
 )
 ;
-let
+const
 width
 =
 canvas
@@ -1930,7 +1930,7 @@ GRID_GAP_PATTERN_WIDTH
 *
 devicePixelRatio
 ;
-let
+const
 height
 =
 canvas
@@ -1941,7 +1941,7 @@ GRID_GAP_PATTERN_HEIGHT
 *
 devicePixelRatio
 ;
-let
+const
 ctx
 =
 canvas
@@ -2053,7 +2053,7 @@ restore
 (
 )
 ;
-let
+const
 pattern
 =
 ctx
@@ -2188,7 +2188,7 @@ _hasMoved
 (
 )
 {
-let
+const
 hasMoved
 =
 AutoRefreshHighlighter
@@ -2202,7 +2202,7 @@ call
 this
 )
 ;
-let
+const
 oldGridData
 =
 stringifyGridFragments
@@ -2224,7 +2224,7 @@ getGridFragments
 (
 )
 ;
-let
+const
 newGridData
 =
 stringifyGridFragments
@@ -2475,7 +2475,7 @@ _scrollUpdate
 (
 )
 {
-let
+const
 hasUpdated
 =
 updateCanvasPosition
@@ -2943,7 +2943,7 @@ renderGridArea
 areaName
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -2952,7 +2952,7 @@ this
 .
 win
 ;
-let
+const
 displayPixelRatio
 =
 getDisplayPixelRatio
@@ -2962,7 +2962,7 @@ this
 win
 )
 ;
-let
+const
 paths
 =
 [
@@ -2988,7 +2988,7 @@ i
 +
 )
 {
-let
+const
 fragment
 =
 this
@@ -3000,7 +3000,7 @@ i
 ;
 for
 (
-let
+const
 area
 of
 fragment
@@ -3024,7 +3024,7 @@ name
 continue
 ;
 }
-let
+const
 rowStart
 =
 fragment
@@ -3040,7 +3040,7 @@ rowStart
 1
 ]
 ;
-let
+const
 rowEnd
 =
 fragment
@@ -3056,7 +3056,7 @@ rowEnd
 1
 ]
 ;
-let
+const
 columnStart
 =
 fragment
@@ -3072,7 +3072,7 @@ columnStart
 1
 ]
 ;
-let
+const
 columnEnd
 =
 fragment
@@ -3088,7 +3088,7 @@ columnEnd
 1
 ]
 ;
-let
+const
 x1
 =
 columnStart
@@ -3099,7 +3099,7 @@ columnStart
 .
 breadth
 ;
-let
+const
 y1
 =
 rowStart
@@ -3110,21 +3110,21 @@ rowStart
 .
 breadth
 ;
-let
+const
 x2
 =
 columnEnd
 .
 start
 ;
-let
+const
 y2
 =
 rowEnd
 .
 start
 ;
-let
+const
 points
 =
 getPointsFromDiagonal
@@ -3138,7 +3138,7 @@ this
 currentMatrix
 )
 ;
-let
+const
 svgPoints
 =
 points
@@ -3178,7 +3178,7 @@ devicePixelRatio
 )
 )
 ;
-let
+const
 bounds
 =
 getBoundsFromPoints
@@ -3253,7 +3253,7 @@ bounds
 }
 }
 }
-let
+const
 areas
 =
 this
@@ -3288,7 +3288,7 @@ fragment
 area
 )
 {
-let
+const
 {
 rowStart
 rowEnd
@@ -3298,7 +3298,7 @@ columnEnd
 =
 area
 ;
-let
+const
 {
 devicePixelRatio
 }
@@ -3307,7 +3307,7 @@ this
 .
 win
 ;
-let
+const
 displayPixelRatio
 =
 getDisplayPixelRatio
@@ -3317,7 +3317,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -3335,7 +3335,7 @@ GRID_AREA_NAME_FONT_SIZE
 *
 displayPixelRatio
 ;
-let
+const
 canvasX
 =
 Math
@@ -3351,7 +3351,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -3465,7 +3465,7 @@ columnNumber
 +
 )
 {
-let
+const
 row
 =
 fragment
@@ -3479,7 +3479,7 @@ rowNumber
 1
 ]
 ;
-let
+const
 column
 =
 fragment
@@ -3548,7 +3548,7 @@ px
 GRID_FONT_FAMILY
 ;
 }
-let
+const
 textWidth
 =
 this
@@ -3564,7 +3564,7 @@ name
 .
 width
 ;
-let
+const
 textHeight
 =
 this
@@ -3580,14 +3580,14 @@ m
 .
 width
 ;
-let
+const
 padding
 =
 3
 *
 displayPixelRatio
 ;
-let
+const
 boxWidth
 =
 textWidth
@@ -3596,7 +3596,7 @@ textWidth
 *
 padding
 ;
-let
+const
 boxHeight
 =
 textHeight
@@ -3647,7 +3647,7 @@ y
 ]
 )
 ;
-let
+const
 rectXPos
 =
 x
@@ -3656,7 +3656,7 @@ boxWidth
 /
 2
 ;
-let
+const
 rectYPos
 =
 y
@@ -3695,7 +3695,7 @@ fillStyle
 white
 "
 ;
-let
+const
 radius
 =
 2
@@ -3754,7 +3754,7 @@ renderGridAreaOverlay
 (
 )
 {
-let
+const
 padding
 =
 1
@@ -3779,7 +3779,7 @@ i
 +
 )
 {
-let
+const
 fragment
 =
 this
@@ -3791,7 +3791,7 @@ i
 ;
 for
 (
-let
+const
 area
 of
 fragment
@@ -3799,7 +3799,7 @@ fragment
 areas
 )
 {
-let
+const
 {
 rowStart
 rowEnd
@@ -3992,7 +3992,7 @@ rowNumber
 columnNumber
 )
 {
-let
+const
 fragment
 =
 this
@@ -4011,7 +4011,7 @@ fragment
 return
 ;
 }
-let
+const
 row
 =
 fragment
@@ -4025,7 +4025,7 @@ rowNumber
 1
 ]
 ;
-let
+const
 column
 =
 fragment
@@ -4052,21 +4052,21 @@ column
 return
 ;
 }
-let
+const
 x1
 =
 column
 .
 start
 ;
-let
+const
 y1
 =
 row
 .
 start
 ;
-let
+const
 x2
 =
 column
@@ -4077,7 +4077,7 @@ column
 .
 breadth
 ;
-let
+const
 y2
 =
 row
@@ -4088,7 +4088,7 @@ row
 .
 breadth
 ;
-let
+const
 {
 devicePixelRatio
 }
@@ -4097,7 +4097,7 @@ this
 .
 win
 ;
-let
+const
 displayPixelRatio
 =
 getDisplayPixelRatio
@@ -4107,7 +4107,7 @@ this
 win
 )
 ;
-let
+const
 points
 =
 getPointsFromDiagonal
@@ -4121,7 +4121,7 @@ this
 currentMatrix
 )
 ;
-let
+const
 svgPoints
 =
 points
@@ -4161,7 +4161,7 @@ devicePixelRatio
 )
 )
 ;
-let
+const
 bounds
 =
 getBoundsFromPoints
@@ -4204,7 +4204,7 @@ displayPixelRatio
 )
 )
 ;
-let
+const
 cells
 =
 this
@@ -4254,7 +4254,7 @@ breadth
 dimensionType
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -4263,7 +4263,7 @@ this
 .
 win
 ;
-let
+const
 displayPixelRatio
 =
 getDisplayPixelRatio
@@ -4273,7 +4273,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -4284,7 +4284,7 @@ displayPixelRatio
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -4300,7 +4300,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -4492,7 +4492,7 @@ currentMatrix
 )
 ;
 }
-let
+const
 p1
 =
 apply
@@ -4506,7 +4506,7 @@ currentMatrix
 ]
 )
 ;
-let
+const
 p2
 =
 apply
@@ -4520,7 +4520,7 @@ currentMatrix
 ]
 )
 ;
-let
+const
 angleRad
 =
 Math
@@ -4580,7 +4580,7 @@ lineNumber
 dimensionType
 )
 {
-let
+const
 fragment
 =
 this
@@ -4683,7 +4683,7 @@ linePos
 return
 ;
 }
-let
+const
 currentZoom
 =
 getCurrentZoom
@@ -4693,7 +4693,7 @@ this
 win
 )
 ;
-let
+const
 {
 bounds
 }
@@ -4731,7 +4731,7 @@ lines
 0
 ]
 ;
-let
+const
 x
 =
 dimensionType
@@ -4764,7 +4764,7 @@ left
 currentZoom
 )
 ;
-let
+const
 y
 =
 dimensionType
@@ -4830,7 +4830,7 @@ dimensionType
 isStackedLine
 )
 {
-let
+const
 displayPixelRatio
 =
 getDisplayPixelRatio
@@ -4840,7 +4840,7 @@ this
 win
 )
 ;
-let
+const
 {
 devicePixelRatio
 }
@@ -4849,7 +4849,7 @@ this
 .
 win
 ;
-let
+const
 offset
 =
 (
@@ -4860,14 +4860,14 @@ displayPixelRatio
 %
 1
 ;
-let
+const
 fontSize
 =
 GRID_FONT_SIZE
 *
 devicePixelRatio
 ;
-let
+const
 canvasX
 =
 Math
@@ -4883,7 +4883,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -4974,7 +4974,7 @@ px
 +
 GRID_FONT_FAMILY
 ;
-let
+const
 textHeight
 =
 this
@@ -4990,7 +4990,7 @@ m
 .
 width
 ;
-let
+const
 textWidth
 =
 Math
@@ -5010,14 +5010,14 @@ lineNumber
 width
 )
 ;
-let
+const
 padding
 =
 3
 *
 devicePixelRatio
 ;
-let
+const
 offsetFromEdge
 =
 2
@@ -5230,28 +5230,28 @@ fillStyle
 white
 "
 ;
-let
+const
 radius
 =
 2
 *
 displayPixelRatio
 ;
-let
+const
 margin
 =
 2
 *
 displayPixelRatio
 ;
-let
+const
 arrowSize
 =
 8
 *
 displayPixelRatio
 ;
-let
+const
 minBoxSize
 =
 arrowSize
@@ -5349,7 +5349,7 @@ right
 ;
 }
 }
-let
+const
 {
 direction
 writingMode
@@ -5528,7 +5528,7 @@ direction
 )
 ;
 }
-let
+const
 minOffsetFromEdge
 =
 OFFSET_FROM_EDGE
@@ -5835,7 +5835,7 @@ dimensionType
 lineType
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -5844,7 +5844,7 @@ this
 .
 win
 ;
-let
+const
 lineWidth
 =
 getDisplayPixelRatio
@@ -5854,7 +5854,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -5865,7 +5865,7 @@ lineWidth
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -5881,7 +5881,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -5960,7 +5960,7 @@ offset
 canvasY
 )
 ;
-let
+const
 lineOptions
 =
 {
@@ -6154,7 +6154,7 @@ i
 +
 )
 {
-let
+const
 line
 =
 lines
@@ -6162,7 +6162,7 @@ lines
 i
 ]
 ;
-let
+const
 linePos
 =
 line
@@ -6421,14 +6421,14 @@ i
 ;
 )
 {
-let
+const
 linePos
 =
 line
 .
 start
 ;
-let
+const
 negativeLineNumber
 =
 line
@@ -6526,7 +6526,7 @@ setIgnoreLayoutChanges
 true
 )
 ;
-let
+const
 root
 =
 this
@@ -6538,7 +6538,7 @@ root
 "
 )
 ;
-let
+const
 cells
 =
 this
@@ -6550,7 +6550,7 @@ cells
 "
 )
 ;
-let
+const
 areas
 =
 this
@@ -6666,7 +6666,7 @@ clearGridCell
 (
 )
 ;
-let
+const
 {
 currentMatrix
 hasNodeTransformations
@@ -6871,7 +6871,7 @@ area
 bounds
 )
 {
-let
+const
 {
 width
 height
@@ -6879,7 +6879,7 @@ height
 =
 bounds
 ;
-let
+const
 dim
 =
 parseFloat
@@ -6945,7 +6945,7 @@ setTextContent
 dim
 )
 ;
-let
+const
 container
 =
 this
@@ -6988,7 +6988,7 @@ columnNumber
 bounds
 )
 {
-let
+const
 {
 width
 height
@@ -6996,7 +6996,7 @@ height
 =
 bounds
 ;
-let
+const
 dim
 =
 parseFloat
@@ -7024,7 +7024,7 @@ toPrecision
 )
 )
 ;
-let
+const
 position
 =
 LAYOUT_L10N
@@ -7076,7 +7076,7 @@ setTextContent
 dim
 )
 ;
-let
+const
 container
 =
 this
@@ -7156,7 +7156,7 @@ setTextContent
 gridLineNames
 )
 ;
-let
+const
 container
 =
 this

@@ -48,7 +48,7 @@ pref
 false
 )
 ;
-let
+const
 prefObserver
 =
 (
@@ -80,7 +80,7 @@ pref
 prefObserver
 )
 ;
-let
+const
 unloadObserver
 =
 function

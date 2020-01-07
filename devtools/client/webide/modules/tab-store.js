@@ -620,7 +620,7 @@ error
 return
 ;
 }
-let
+const
 tabsChanged
 =
 JSON
@@ -773,7 +773,7 @@ _selectedTab
 return
 ;
 }
-let
+const
 alive
 =
 this
@@ -850,7 +850,7 @@ this
 _selectedTabTargetPromise
 ;
 }
-let
+const
 store
 =
 this

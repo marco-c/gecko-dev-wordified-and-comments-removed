@@ -44,14 +44,14 @@ instanceof
 Property
 )
 {
-let
+const
 value
 =
 object
 .
 value
 ;
-let
+const
 names
 =
 [

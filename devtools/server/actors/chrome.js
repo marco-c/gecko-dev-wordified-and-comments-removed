@@ -255,7 +255,7 @@ e
 {
 }
 }
-let
+const
 docShell
 =
 window
@@ -325,7 +325,7 @@ docShells
 [
 ]
 ;
-let
+const
 e
 =
 Services
@@ -345,7 +345,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -354,7 +354,7 @@ getNext
 (
 )
 ;
-let
+const
 docShell
 =
 window
@@ -554,7 +554,7 @@ destroy
 "
 )
 ;
-let
+const
 e
 =
 Services
@@ -574,7 +574,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -583,7 +583,7 @@ getNext
 (
 )
 ;
-let
+const
 docShell
 =
 window
@@ -689,7 +689,7 @@ destroy
 "
 )
 ;
-let
+const
 e
 =
 Services
@@ -709,7 +709,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -718,7 +718,7 @@ getNext
 (
 )
 ;
-let
+const
 docShell
 =
 window
@@ -791,7 +791,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -812,7 +812,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -821,7 +821,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win
@@ -865,7 +865,7 @@ function
 nestData
 )
 {
-let
+const
 e
 =
 Services
@@ -886,7 +886,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -895,7 +895,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win

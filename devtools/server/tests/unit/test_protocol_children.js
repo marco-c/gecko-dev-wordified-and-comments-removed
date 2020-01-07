@@ -572,7 +572,7 @@ function
 inputArray
 )
 {
-let
+const
 f
 =
 function
@@ -582,7 +582,7 @@ function
 {
 for
 (
-let
+const
 i
 of
 inputArray
@@ -1232,7 +1232,7 @@ id
 ]
 ;
 }
-let
+const
 child
 =
 new
@@ -1288,7 +1288,7 @@ function
 ids
 )
 {
-let
+const
 f
 =
 function
@@ -1298,7 +1298,7 @@ function
 {
 for
 (
-let
+const
 c
 of
 ids
@@ -1670,14 +1670,14 @@ init
 (
 )
 ;
-let
+const
 trace
 =
 connectPipeTracing
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -1747,7 +1747,7 @@ tests
 "
 )
 ;
-let
+const
 rootFront
 =
 RootFront
@@ -1760,7 +1760,7 @@ childFront
 =
 null
 ;
-let
+const
 expectRootChildren
 =
 size
@@ -2775,7 +2775,7 @@ size
 2
 )
 ;
-let
+const
 checkActors
 =
 rootActor
@@ -2870,7 +2870,7 @@ _temporaryHolder
 ;
 for
 (
-let
+const
 checkActor
 of
 checkActors
@@ -3077,7 +3077,7 @@ instanceof
 ChildFront
 )
 ;
-let
+const
 set
 =
 new
@@ -3408,7 +3408,7 @@ event
 }
 )
 ;
-let
+const
 fail
 =
 function
@@ -4006,7 +4006,7 @@ then
 =
 >
 {
-let
+const
 f
 =
 function
@@ -4016,7 +4016,7 @@ function
 {
 for
 (
-let
+const
 i
 of
 [
@@ -4065,7 +4065,7 @@ length
 5
 )
 ;
-let
+const
 expected
 =
 [
@@ -4141,7 +4141,7 @@ ids
 =
 >
 {
-let
+const
 f
 =
 function
@@ -4151,7 +4151,7 @@ function
 {
 for
 (
-let
+const
 id
 of
 ids

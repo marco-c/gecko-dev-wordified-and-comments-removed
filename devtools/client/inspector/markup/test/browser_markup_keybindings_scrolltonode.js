@@ -121,7 +121,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -573,7 +573,7 @@ expected
 testActor
 )
 {
-let
+const
 isInViewport
 =
 await

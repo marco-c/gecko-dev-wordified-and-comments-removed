@@ -28,7 +28,7 @@ INITIAL_SIDEBAR
 {
 }
 ;
-let
+const
 reducers
 =
 {
@@ -155,7 +155,7 @@ INITIAL_SIDEBAR
 action
 )
 {
-let
+const
 reducer
 =
 reducers

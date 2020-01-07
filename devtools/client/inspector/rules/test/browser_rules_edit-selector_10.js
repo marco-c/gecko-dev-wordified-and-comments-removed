@@ -96,7 +96,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -142,7 +142,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -166,7 +166,7 @@ testid
 span
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -191,7 +191,7 @@ KEY_Enter
 await
 onRuleViewChanged
 ;
-let
+const
 onBlur
 =
 once

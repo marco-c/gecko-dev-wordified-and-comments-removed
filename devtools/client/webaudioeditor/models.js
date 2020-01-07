@@ -73,7 +73,7 @@ destination
 param
 )
 {
-let
+const
 edge
 =
 findWhere
@@ -295,7 +295,7 @@ graph
 {
 for
 (
-let
+const
 edge
 of
 this
@@ -303,7 +303,7 @@ this
 connections
 )
 {
-let
+const
 options
 =
 {
@@ -431,7 +431,7 @@ add
 obj
 )
 {
-let
+const
 node
 =
 new
@@ -559,7 +559,7 @@ getInfo
 (
 )
 {
-let
+const
 info
 =
 {
@@ -586,7 +586,7 @@ node
 =
 >
 {
-let
+const
 paramEdgeCount
 =
 node

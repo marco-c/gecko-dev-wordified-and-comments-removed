@@ -724,7 +724,7 @@ this
 onDocEvent
 )
 ;
-let
+const
 {
 startedListeners
 }
@@ -743,7 +743,7 @@ DocumentEvents
 ]
 )
 ;
-let
+const
 supportsDocEvents
 =
 startedListeners
@@ -1021,7 +1021,7 @@ this
 getState
 )
 {
-let
+const
 state
 =
 this
@@ -1075,7 +1075,7 @@ onReloaded
 return
 ;
 }
-let
+const
 listener
 =
 (
@@ -1164,7 +1164,7 @@ onReloaded
 (
 )
 {
-let
+const
 panel
 =
 this
@@ -1200,7 +1200,7 @@ displayCachedEvents
 {
 for
 (
-let
+const
 networkInfo
 of
 this
@@ -1223,7 +1223,7 @@ networkInfo
 ;
 for
 (
-let
+const
 updateType
 of
 networkInfo
@@ -1255,7 +1255,7 @@ onDocLoadingMarker
 marker
 )
 {
-let
+const
 event
 =
 {
@@ -1393,7 +1393,7 @@ triggerActivity
 type
 )
 {
-let
+const
 standBy
 =
 (
@@ -1411,7 +1411,7 @@ NONE
 ;
 }
 ;
-let
+const
 waitForNavigation
 =
 (
@@ -1474,7 +1474,7 @@ resolve
 ;
 }
 ;
-let
+const
 reconfigureTab
 =
 (
@@ -1510,7 +1510,7 @@ resolve
 ;
 }
 ;
-let
+const
 reconfigureTabAndWaitForNavigation
 =
 (
@@ -1525,7 +1525,7 @@ performReload
 =
 true
 ;
-let
+const
 navigationFinished
 =
 waitForNavigation
@@ -1876,7 +1876,7 @@ return
 1
 ;
 }
-let
+const
 state
 =
 this

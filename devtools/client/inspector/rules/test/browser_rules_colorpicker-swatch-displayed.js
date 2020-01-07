@@ -323,7 +323,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -335,7 +335,7 @@ openRuleView
 ;
 for
 (
-let
+const
 {
 selector
 propertyName
@@ -366,7 +366,7 @@ selector
 selector
 )
 ;
-let
+const
 prop
 =
 getRuleViewProperty
@@ -378,7 +378,7 @@ propertyName
 .
 valueSpan
 ;
-let
+const
 swatches
 =
 prop

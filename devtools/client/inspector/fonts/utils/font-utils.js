@@ -112,7 +112,7 @@ axes
 {
 }
 ;
-let
+const
 keywords
 =
 [

@@ -140,7 +140,7 @@ dataURL
 =
 >
 {
-let
+const
 deferred
 =
 defer
@@ -160,7 +160,7 @@ Cu
 reportError
 )
 ;
-let
+const
 req
 =
 new
@@ -316,7 +316,7 @@ client
 )
 ;
 }
-let
+const
 front
 =
 new

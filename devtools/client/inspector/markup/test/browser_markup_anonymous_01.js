@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -32,7 +32,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 pseudo
 =
 await
@@ -45,7 +45,7 @@ pseudo
 inspector
 )
 ;
-let
+const
 children
 =
 await
@@ -87,7 +87,7 @@ element
 "
 )
 ;
-let
+const
 before
 =
 children
@@ -115,7 +115,7 @@ element
 "
 )
 ;
-let
+const
 span
 =
 children
@@ -145,7 +145,7 @@ element
 "
 )
 ;
-let
+const
 after
 =
 children
@@ -162,7 +162,7 @@ after
 inspector
 )
 ;
-let
+const
 native
 =
 await
@@ -175,7 +175,7 @@ native
 inspector
 )
 ;
-let
+const
 nativeChildren
 =
 await
@@ -214,7 +214,7 @@ element
 "
 )
 ;
-let
+const
 video
 =
 nativeChildren
@@ -240,7 +240,7 @@ anonymous
 "
 )
 ;
-let
+const
 videoChildren
 =
 await

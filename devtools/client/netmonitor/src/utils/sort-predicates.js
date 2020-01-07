@@ -423,7 +423,7 @@ first
 second
 )
 {
-let
+const
 {
 eventTimings
 :
@@ -439,7 +439,7 @@ timings
 =
 first
 ;
-let
+const
 {
 eventTimings
 :

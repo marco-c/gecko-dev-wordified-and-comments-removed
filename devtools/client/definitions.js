@@ -910,7 +910,7 @@ Darwin
 "
 )
 {
-let
+const
 cmdShiftC
 =
 "
@@ -929,7 +929,7 @@ commandkey
 "
 )
 ;
-let
+const
 cmdOptC
 =
 "
@@ -4014,7 +4014,7 @@ event
 toolbox
 )
 {
-let
+const
 tab
 =
 toolbox
@@ -4023,7 +4023,7 @@ target
 .
 tab
 ;
-let
+const
 browserWindow
 =
 tab

@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -62,7 +62,7 @@ events
 "
 )
 ;
-let
+const
 receivedEvents
 =
 [
@@ -154,7 +154,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await

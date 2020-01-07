@@ -170,7 +170,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 }
@@ -344,7 +344,7 @@ ui
 true
 )
 ;
-let
+const
 deviceRemoved
 =
 once
@@ -553,7 +553,7 @@ openRDM
 tab
 )
 ;
-let
+const
 {
 store
 }
@@ -717,7 +717,7 @@ w
 h
 )
 {
-let
+const
 viewport
 =
 ui
@@ -809,7 +809,7 @@ ui
 expected
 )
 {
-let
+const
 dppx
 =
 await

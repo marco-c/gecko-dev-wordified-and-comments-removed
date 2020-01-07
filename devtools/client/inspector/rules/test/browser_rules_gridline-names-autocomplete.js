@@ -490,7 +490,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -610,7 +610,7 @@ field
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -619,7 +619,7 @@ view
 0
 )
 ;
-let
+const
 editor
 =
 await
@@ -628,7 +628,7 @@ focusNewRuleViewProperty
 ruleEditor
 )
 ;
-let
+const
 gridLineNamesUpdated
 =
 inspector
@@ -661,7 +661,7 @@ completion
 ;
 for
 (
-let
+const
 data
 of
 testData
@@ -729,7 +729,7 @@ cell3
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -740,7 +740,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 ruleEditor
@@ -762,7 +762,7 @@ value
 "
 )
 ;
-let
+const
 gridLineNamesUpdated
 =
 inspector
@@ -812,7 +812,7 @@ completion
 ;
 for
 (
-let
+const
 data
 of
 testData
@@ -955,7 +955,7 @@ suggest
 null
 ;
 }
-let
+const
 popupEvent
 =
 open
@@ -972,7 +972,7 @@ popup
 closed
 "
 ;
-let
+const
 onPopupEvent
 =
 editor

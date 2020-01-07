@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -17,14 +17,14 @@ initWebAudioEditor
 DESTROY_NODES_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 gAudioNodes
@@ -32,7 +32,7 @@ gAudioNodes
 =
 panelWin
 ;
-let
+const
 started
 =
 once
@@ -45,7 +45,7 @@ context
 "
 )
 ;
-let
+const
 events
 =
 Promise
@@ -75,7 +75,7 @@ reload
 target
 )
 ;
-let
+const
 [
 created
 ]
@@ -83,7 +83,7 @@ created
 await
 events
 ;
-let
+const
 actorIDs
 =
 created
@@ -111,7 +111,7 @@ actorIDs
 ]
 )
 ;
-let
+const
 destroyed
 =
 getN
@@ -227,7 +227,7 @@ graph
 "
 )
 ;
-let
+const
 {
 nodes
 edges

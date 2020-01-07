@@ -52,7 +52,7 @@ linesOf
 string
 )
 {
-let
+const
 reLine
 =
 /
@@ -210,7 +210,7 @@ createAsyncFunction
 task
 )
 {
-let
+const
 asyncFunction
 =
 function
@@ -490,7 +490,7 @@ _isStarGenerator
 {
 try
 {
-let
+const
 result
 =
 sendResolved
@@ -563,7 +563,7 @@ else
 {
 try
 {
-let
+const
 yielded
 =
 sendResolved
@@ -811,7 +811,7 @@ string
 "
 )
 {
-let
+const
 bottomStack
 =
 this
@@ -1016,7 +1016,7 @@ callerStack
 {
 for
 (
-let
+const
 [
 line
 index
@@ -1130,7 +1130,7 @@ return
 topStack
 ;
 }
-let
+const
 lines
 =
 [
@@ -1138,7 +1138,7 @@ lines
 ;
 for
 (
-let
+const
 [
 line
 ]
@@ -1198,7 +1198,7 @@ else
 {
 for
 (
-let
+const
 [
 line
 ]

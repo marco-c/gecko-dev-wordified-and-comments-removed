@@ -29,7 +29,7 @@ function
 (
 )
 {
-let
+const
 browser
 =
 await
@@ -116,14 +116,14 @@ markup
 "
 )
 ;
-let
+const
 doc
 =
 content
 .
 document
 ;
-let
+const
 nodeBuilder
 =
 (
@@ -131,7 +131,7 @@ nodeBuilder
 =
 >
 {
-let
+const
 root
 =
 doc
@@ -143,7 +143,7 @@ div
 "
 )
 ;
-let
+const
 parent
 =
 doc
@@ -197,7 +197,7 @@ appendChild
 parent
 )
 ;
-let
+const
 child
 =
 doc
@@ -265,7 +265,7 @@ helper
 "
 )
 ;
-let
+const
 env
 =
 new
@@ -282,7 +282,7 @@ doc
 defaultView
 )
 ;
-let
+const
 helper
 =
 new
@@ -304,7 +304,7 @@ elements
 "
 )
 ;
-let
+const
 parentEl
 =
 helper
@@ -318,7 +318,7 @@ element
 "
 )
 ;
-let
+const
 childEl
 =
 helper
@@ -786,7 +786,7 @@ documentElement
 .
 offsetWidth
 ;
-let
+const
 EventUtils
 =
 {

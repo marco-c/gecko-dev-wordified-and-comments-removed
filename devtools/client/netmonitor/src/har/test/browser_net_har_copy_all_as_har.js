@@ -23,7 +23,7 @@ tcp_fastopen_enable
 false
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -153,7 +153,7 @@ request
 "
 )
 ;
-let
+const
 page
 =
 har
@@ -508,7 +508,7 @@ tab
 monitor
 )
 {
-let
+const
 {
 connector
 store
@@ -519,7 +519,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -539,7 +539,7 @@ index
 "
 )
 ;
-let
+const
 {
 HarMenuUtils
 }
@@ -565,7 +565,7 @@ utils
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -599,7 +599,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -635,7 +635,7 @@ getState
 connector
 )
 ;
-let
+const
 jsonString
 =
 SpecialPowers

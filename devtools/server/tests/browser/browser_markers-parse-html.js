@@ -52,7 +52,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -65,7 +65,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -74,7 +74,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 PerformanceFront
@@ -90,7 +90,7 @@ connect
 (
 )
 ;
-let
+const
 rec
 =
 await
@@ -105,7 +105,7 @@ true
 }
 )
 ;
-let
+const
 markers
 =
 await

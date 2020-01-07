@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -22,7 +22,7 @@ initNetMonitor
 CONTENT_TYPE_WITHOUT_CACHE_URL
 )
 ;
-let
+const
 {
 document
 }
@@ -53,7 +53,7 @@ update
 "
 )
 ;
-let
+const
 wait
 =
 waitForDOM

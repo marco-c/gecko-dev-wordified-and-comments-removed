@@ -27,7 +27,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -48,7 +48,7 @@ testid
 inspector
 )
 ;
-let
+const
 bodyRuleEditor
 =
 getRuleViewRuleEditor
@@ -57,7 +57,7 @@ view
 3
 )
 ;
-let
+const
 value
 =
 getRuleViewLinkTextByIndex
@@ -89,7 +89,7 @@ is
 "
 )
 ;
-let
+const
 onLocationChanged
 =
 once
@@ -124,7 +124,7 @@ size
 await
 onLocationChanged
 ;
-let
+const
 newBodyTitle
 =
 getRuleViewLinkTextByIndex

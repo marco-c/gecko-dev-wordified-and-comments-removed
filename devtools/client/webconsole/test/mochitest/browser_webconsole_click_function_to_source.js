@@ -99,7 +99,7 @@ openDebugger
 (
 )
 ;
-let
+const
 panelWin
 =
 panel
@@ -225,7 +225,7 @@ button
 "
 )
 ;
-let
+const
 onEditorLocationSet
 =
 panelWin

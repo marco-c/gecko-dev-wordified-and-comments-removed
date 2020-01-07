@@ -70,12 +70,12 @@ EXPECTED_DTU_ASSERT_FAILURE_COUNT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -83,7 +83,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -91,14 +91,14 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -129,7 +129,7 @@ front
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -138,7 +138,7 @@ store
 =
 >
 {
-let
+const
 snapshots
 =
 store
@@ -223,7 +223,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -320,7 +320,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -363,7 +363,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -380,7 +380,7 @@ SAVING
 ]
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store

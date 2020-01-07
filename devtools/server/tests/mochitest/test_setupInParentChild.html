@@ -125,7 +125,7 @@ use
 strict
 "
 ;
-let
+const
 {
 require
 }
@@ -151,7 +151,7 @@ jsm
 }
 )
 ;
-let
+const
 {
 DebuggerClient
 }
@@ -171,7 +171,7 @@ client
 "
 )
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -187,7 +187,7 @@ main
 "
 )
 ;
-let
+const
 Services
 =
 require
@@ -270,7 +270,7 @@ with
 a
 message
 manager
-let
+const
 iframe
 =
 document
@@ -332,7 +332,7 @@ connection
 to
 an
 iframe
-let
+const
 transport
 =
 DebuggerServer
@@ -341,14 +341,14 @@ connectPipe
 (
 )
 ;
-let
+const
 conn
 =
 transport
 .
 _serverConnection
 ;
-let
+const
 client
 =
 new
@@ -365,7 +365,7 @@ a
 response
 from
 setupInChild
-let
+const
 onChild
 =
 msg
@@ -386,7 +386,7 @@ setupChild
 onChild
 )
 ;
-let
+const
 args
 =
 msg
@@ -526,7 +526,7 @@ in
 child
 .
 js
-let
+const
 onParent
 =
 (

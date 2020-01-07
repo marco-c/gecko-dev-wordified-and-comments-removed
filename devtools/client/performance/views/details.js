@@ -217,7 +217,7 @@ this
 ;
 for
 (
-let
+const
 button
 of
 (
@@ -299,7 +299,7 @@ destroy
 {
 for
 (
-let
+const
 button
 of
 (
@@ -332,7 +332,7 @@ _onViewToggle
 }
 for
 (
-let
+const
 component
 of
 Object
@@ -404,7 +404,7 @@ setAvailableViews
 (
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -413,7 +413,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 isCompleted
 =
 recording
@@ -432,7 +432,7 @@ false
 ;
 for
 (
-let
+const
 [
 name
 {
@@ -450,7 +450,7 @@ components
 )
 )
 {
-let
+const
 isSupported
 =
 this
@@ -543,7 +543,7 @@ function
 viewName
 )
 {
-let
+const
 {
 features
 prefs
@@ -556,7 +556,7 @@ components
 viewName
 ]
 ;
-let
+const
 recording
 =
 PerformanceController
@@ -583,7 +583,7 @@ return
 false
 ;
 }
-let
+const
 prefSupported
 =
 (
@@ -630,7 +630,7 @@ selectView
 viewName
 )
 {
-let
+const
 component
 =
 this
@@ -666,7 +666,7 @@ component
 ;
 for
 (
-let
+const
 button
 of
 (
@@ -804,7 +804,7 @@ return
 false
 ;
 }
-let
+const
 selectedPanel
 =
 this
@@ -813,7 +813,7 @@ el
 .
 selectedPanel
 ;
-let
+const
 selectedId
 =
 selectedPanel
@@ -822,7 +822,7 @@ id
 ;
 for
 (
-let
+const
 {
 id
 view
@@ -892,7 +892,7 @@ initialize
 (
 )
 ;
-let
+const
 recording
 =
 PerformanceController

@@ -659,7 +659,7 @@ node
 0
 )
 ;
-let
+const
 nodes
 =
 hud
@@ -782,7 +782,7 @@ visibleMessageIdsAfterCollapse
 }
 )
 {
-let
+const
 toggleArrow
 =
 node
@@ -823,7 +823,7 @@ expanded
 =
 >
 {
-let
+const
 visibleMessageIds
 =
 store

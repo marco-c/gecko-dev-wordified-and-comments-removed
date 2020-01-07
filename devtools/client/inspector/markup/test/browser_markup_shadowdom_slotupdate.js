@@ -201,7 +201,7 @@ enableWebComponents
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -280,7 +280,7 @@ event
 "
 )
 ;
-let
+const
 mutated
 =
 inspector

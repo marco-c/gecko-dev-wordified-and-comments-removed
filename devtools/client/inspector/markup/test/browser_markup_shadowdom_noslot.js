@@ -326,7 +326,7 @@ enableWebComponents
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -337,7 +337,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 beforeTree
 =
 class
@@ -452,7 +452,7 @@ appears
 "
 )
 ;
-let
+const
 mutated
 =
 waitForNMutations
@@ -464,7 +464,7 @@ childList
 2
 )
 ;
-let
+const
 pseudoMutated
 =
 waitForMutation
@@ -488,7 +488,7 @@ function
 (
 )
 {
-let
+const
 root
 =
 content
@@ -503,7 +503,7 @@ root
 "
 )
 ;
-let
+const
 hasBeforeEl
 =
 content
@@ -541,7 +541,7 @@ mutated
 await
 pseudoMutated
 ;
-let
+const
 afterTree
 =
 class

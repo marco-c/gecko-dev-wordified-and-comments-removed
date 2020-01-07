@@ -103,7 +103,7 @@ name
 ;
 for
 (
-let
+const
 prop
 in
 subject
@@ -345,7 +345,7 @@ object
 "
 )
 {
-let
+const
 unvisited
 =
 new

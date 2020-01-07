@@ -16,7 +16,7 @@ response
 =
 >
 {
-let
+const
 options
 =
 {

@@ -124,7 +124,7 @@ displayed
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -135,7 +135,7 @@ openRuleView
 (
 )
 ;
-let
+const
 {
 highlighters
 }
@@ -152,7 +152,7 @@ flex
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -169,7 +169,7 @@ display
 .
 valueSpan
 ;
-let
+const
 flexboxToggle
 =
 container
@@ -201,7 +201,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -347,7 +347,7 @@ hidden
 "
 )
 ;
-let
+const
 otherUri
 =
 "

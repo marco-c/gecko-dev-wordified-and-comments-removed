@@ -90,7 +90,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -111,7 +111,7 @@ testid
 inspector
 )
 ;
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -122,7 +122,7 @@ view
 .
 rule
 ;
-let
+const
 idProp
 =
 idRule
@@ -223,7 +223,7 @@ class
 "
 )
 ;
-let
+const
 classRule
 =
 getRuleViewRuleEditor
@@ -234,7 +234,7 @@ view
 .
 rule
 ;
-let
+const
 classProp
 =
 classRule
@@ -331,7 +331,7 @@ class
 "
 )
 ;
-let
+const
 elementProp
 =
 await

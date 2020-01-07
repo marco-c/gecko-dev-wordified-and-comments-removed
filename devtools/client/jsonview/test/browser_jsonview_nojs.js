@@ -22,7 +22,7 @@ started
 "
 )
 ;
-let
+const
 oldPref
 =
 SpecialPowers
@@ -88,7 +88,7 @@ contents
 "
 )
 ;
-let
+const
 {
 text
 }

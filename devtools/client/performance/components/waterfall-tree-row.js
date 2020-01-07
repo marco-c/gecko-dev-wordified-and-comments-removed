@@ -100,7 +100,7 @@ sidebarWidth
 =
 props
 ;
-let
+const
 bullet
 =
 dom
@@ -151,7 +151,7 @@ name
 }
 )
 ;
-let
+const
 label
 =
 MarkerBlueprintUtils
@@ -161,7 +161,7 @@ getMarkerLabel
 marker
 )
 ;
-let
+const
 name
 =
 dom
@@ -287,7 +287,7 @@ dataScale
 WATERFALL_MARKER_TIMEBAR_WIDTH_MIN
 )
 ;
-let
+const
 bar
 =
 dom
@@ -410,7 +410,7 @@ getBlueprintFor
 marker
 )
 ;
-let
+const
 attrs
 =
 {
@@ -445,14 +445,14 @@ marker
 isOffMainThread
 }
 ;
-let
+const
 submarkers
 =
 marker
 .
 submarkers
 ;
-let
+const
 hasDescendants
 =
 submarkers

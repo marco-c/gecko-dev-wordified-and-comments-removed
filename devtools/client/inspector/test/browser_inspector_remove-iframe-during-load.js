@@ -27,7 +27,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -100,7 +100,7 @@ iframe
 "
 )
 ;
-let
+const
 onMarkupLoaded
 =
 inspector
@@ -124,7 +124,7 @@ function
 (
 )
 {
-let
+const
 iframe
 =
 document

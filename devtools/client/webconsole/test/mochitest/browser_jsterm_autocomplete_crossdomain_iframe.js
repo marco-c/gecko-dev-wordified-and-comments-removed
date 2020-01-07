@@ -102,7 +102,7 @@ accessible
 "
 )
 ;
-let
+const
 autocompleteUpdated
 =
 hud

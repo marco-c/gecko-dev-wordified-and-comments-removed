@@ -160,7 +160,7 @@ return
 ]
 ;
 }
-let
+const
 wins
 =
 [
@@ -175,7 +175,7 @@ function
 state
 )
 {
-let
+const
 win
 =
 this
@@ -220,7 +220,7 @@ clone
 src
 )
 {
-let
+const
 dest
 =
 {
@@ -228,7 +228,7 @@ dest
 ;
 for
 (
-let
+const
 key
 in
 src
@@ -260,7 +260,7 @@ return
 dest
 ;
 }
-let
+const
 enumerator
 =
 Services
@@ -285,7 +285,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 enumerator
@@ -338,7 +338,7 @@ SPM_openScratchpad
 aState
 )
 {
-let
+const
 params
 =
 Cc
@@ -415,7 +415,7 @@ aState
 )
 ;
 }
-let
+const
 win
 =
 Services

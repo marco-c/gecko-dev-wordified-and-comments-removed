@@ -10,7 +10,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -34,7 +34,7 @@ model
 "
 )
 ;
-let
+const
 thread
 =
 new
@@ -51,7 +51,7 @@ endTime
 }
 )
 ;
-let
+const
 root
 =
 getFrameNodePath

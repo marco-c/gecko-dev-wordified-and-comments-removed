@@ -750,7 +750,7 @@ createUI
 (
 )
 ;
-let
+const
 styleSheets
 =
 await
@@ -806,7 +806,7 @@ initializeHighlighter
 (
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -833,7 +833,7 @@ toolbox
 .
 walker
 ;
-let
+const
 hUtils
 =
 toolbox
@@ -894,7 +894,7 @@ function
 (
 )
 {
-let
+const
 viewRoot
 =
 this
@@ -1211,7 +1211,7 @@ this
 _openLinkNewTab
 )
 ;
-let
+const
 nav
 =
 this
@@ -1390,7 +1390,7 @@ false
 ;
 for
 (
-let
+const
 sheet
 of
 styleSheets
@@ -1485,7 +1485,7 @@ selectedEditor
 sourceEditor
 )
 {
-let
+const
 href
 =
 this
@@ -1496,7 +1496,7 @@ styleSheet
 .
 href
 ;
-let
+const
 {
 line
 ch
@@ -1531,7 +1531,7 @@ ch
 }
 for
 (
-let
+const
 editor
 of
 this
@@ -1546,7 +1546,7 @@ editor
 savedFile
 )
 {
-let
+const
 identifier
 =
 this
@@ -1652,7 +1652,7 @@ styleSheet
 )
 )
 {
-let
+const
 promise
 =
 (
@@ -1674,7 +1674,7 @@ styleSheet
 isNew
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -1686,7 +1686,7 @@ this
 _target
 )
 ;
-let
+const
 sourceMapService
 =
 toolbox
@@ -1703,7 +1703,7 @@ return
 editor
 ;
 }
-let
+const
 {
 href
 nodeHref
@@ -1715,7 +1715,7 @@ sourceMapURL
 =
 styleSheet
 ;
-let
+const
 url
 =
 href
@@ -1723,7 +1723,7 @@ href
 |
 nodeHref
 ;
-let
+const
 sources
 =
 await
@@ -1748,7 +1748,7 @@ sources
 length
 )
 {
-let
+const
 parentEditorName
 =
 editor
@@ -1768,13 +1768,13 @@ null
 ;
 for
 (
-let
+const
 source
 of
 sources
 )
 {
-let
+const
 generatedId
 =
 sourceMapService
@@ -1785,7 +1785,7 @@ id
 source
 )
 ;
-let
+const
 original
 =
 new
@@ -1868,7 +1868,7 @@ file
 =
 null
 ;
-let
+const
 identifier
 =
 this
@@ -1878,7 +1878,7 @@ getStyleSheetIdentifier
 styleSheet
 )
 ;
-let
+const
 savedFile
 =
 this
@@ -1898,7 +1898,7 @@ file
 savedFile
 ;
 }
-let
+const
 editor
 =
 new
@@ -2053,7 +2053,7 @@ file
 parentWindow
 )
 {
-let
+const
 onFileSelected
 =
 (
@@ -2146,7 +2146,7 @@ warning
 return
 ;
 }
-let
+const
 source
 =
 NetUtil
@@ -2280,7 +2280,7 @@ function
 (
 )
 {
-let
+const
 isEnabled
 =
 Services
@@ -2310,7 +2310,7 @@ function
 (
 )
 {
-let
+const
 isEnabled
 =
 Services
@@ -2458,7 +2458,7 @@ summary
 }
 else
 {
-let
+const
 self
 =
 this
@@ -2546,7 +2546,7 @@ function
 {
 for
 (
-let
+const
 editor
 of
 this
@@ -2632,7 +2632,7 @@ data
 =
 >
 {
-let
+const
 createdEditor
 =
 data
@@ -2853,7 +2853,7 @@ focus
 }
 )
 ;
-let
+const
 sidebar
 =
 details
@@ -2885,7 +2885,7 @@ PREF_SIDEBAR_WIDTH
 )
 )
 ;
-let
+const
 splitter
 =
 details
@@ -2914,7 +2914,7 @@ mousemove
 =
 >
 {
-let
+const
 sidebarWidth
 =
 sidebar
@@ -2936,7 +2936,7 @@ PREF_SIDEBAR_WIDTH
 sidebarWidth
 )
 ;
-let
+const
 sidebars
 =
 [
@@ -2960,7 +2960,7 @@ sidebar
 ;
 for
 (
-let
+const
 mediaSidebar
 of
 sidebars
@@ -3067,7 +3067,7 @@ data
 =
 >
 {
-let
+const
 showEditor
 =
 data
@@ -3094,7 +3094,7 @@ showEditor
 sourceEditor
 )
 {
-let
+const
 inputElement
 =
 details
@@ -3141,7 +3141,7 @@ selected
 showEditor
 )
 ;
-let
+const
 usage
 =
 await
@@ -3165,14 +3165,14 @@ null
 return
 ;
 }
-let
+const
 sheet
 =
 showEditor
 .
 styleSheet
 ;
-let
+const
 {
 reports
 }
@@ -3200,7 +3200,7 @@ length
 0
 )
 {
-let
+const
 editorText
 =
 showEditor
@@ -3211,7 +3211,7 @@ getText
 (
 )
 ;
-let
+const
 lineCount
 =
 editorText
@@ -3226,7 +3226,7 @@ n
 .
 length
 ;
-let
+const
 ruleCount
 =
 showEditor
@@ -3306,7 +3306,7 @@ function
 (
 )
 {
-let
+const
 toSelect
 =
 this
@@ -3315,7 +3315,7 @@ _styleSheetToSelect
 ;
 for
 (
-let
+const
 editor
 of
 this
@@ -3378,7 +3378,7 @@ function
 editor
 )
 {
-let
+const
 toSelect
 =
 this
@@ -3395,7 +3395,7 @@ return
 false
 ;
 }
-let
+const
 isHref
 =
 toSelect
@@ -3470,7 +3470,7 @@ col
 |
 0
 ;
-let
+const
 editorPromise
 =
 editor
@@ -3511,7 +3511,7 @@ null
 }
 )
 ;
-let
+const
 summaryPromise
 =
 this
@@ -3559,7 +3559,7 @@ function
 editor
 )
 {
-let
+const
 self
 =
 this
@@ -3647,7 +3647,7 @@ function
 editor
 )
 {
-let
+const
 self
 =
 this
@@ -3883,7 +3883,7 @@ ruleCount
 "
 ;
 }
-let
+const
 flags
 =
 [
@@ -3962,7 +3962,7 @@ join
 )
 )
 ;
-let
+const
 label
 =
 summary
@@ -4145,7 +4145,7 @@ function
 (
 )
 {
-let
+const
 details
 =
 await
@@ -4156,7 +4156,7 @@ getEditorDetails
 editor
 )
 ;
-let
+const
 list
 =
 details
@@ -4189,14 +4189,14 @@ remove
 )
 ;
 }
-let
+const
 rules
 =
 editor
 .
 mediaRules
 ;
-let
+const
 showSidebar
 =
 Services
@@ -4208,7 +4208,7 @@ getBoolPref
 PREF_MEDIA_SIDEBAR
 )
 ;
-let
+const
 sidebar
 =
 details
@@ -4230,13 +4230,13 @@ false
 ;
 for
 (
-let
+const
 rule
 of
 rules
 )
 {
-let
+const
 {
 line
 column
@@ -4276,7 +4276,7 @@ styleSheet
 isOriginalSource
 )
 {
-let
+const
 styleSheet
 =
 editor
@@ -4319,7 +4319,7 @@ inSource
 =
 true
 ;
-let
+const
 div
 =
 this
@@ -4363,7 +4363,7 @@ location
 )
 )
 ;
-let
+const
 cond
 =
 this
@@ -4451,7 +4451,7 @@ appendChild
 cond
 )
 ;
-let
+const
 link
 =
 this
@@ -4628,7 +4628,7 @@ minMaxPattern
 lastIndex
 )
 {
-let
+const
 matchEnd
 =
 match
@@ -4642,7 +4642,7 @@ match
 .
 length
 ;
-let
+const
 node
 =
 this
@@ -4669,7 +4669,7 @@ appendChild
 node
 )
 ;
-let
+const
 link
 =
 this
@@ -4757,7 +4757,7 @@ lastParsed
 matchEnd
 ;
 }
-let
+const
 node
 =
 this
@@ -4792,7 +4792,7 @@ function
 e
 )
 {
-let
+const
 conditionText
 =
 e
@@ -4801,7 +4801,7 @@ target
 .
 textContent
 ;
-let
+const
 isWidthCond
 =
 conditionText
@@ -4820,7 +4820,7 @@ width
 -
 1
 ;
-let
+const
 mediaVal
 =
 parseInt
@@ -4838,7 +4838,7 @@ conditionText
 10
 )
 ;
-let
+const
 options
 =
 isWidthCond
@@ -4884,7 +4884,7 @@ options
 }
 )
 {
-let
+const
 tab
 =
 this
@@ -4893,7 +4893,7 @@ _target
 .
 tab
 ;
-let
+const
 win
 =
 this
@@ -4942,7 +4942,7 @@ function
 location
 )
 {
-let
+const
 source
 =
 location
@@ -5018,7 +5018,7 @@ _suppressAdd
 =
 false
 ;
-let
+const
 sidebar
 =
 this
@@ -5035,7 +5035,7 @@ controller
 "
 )
 ;
-let
+const
 sidebarWidth
 =
 sidebar

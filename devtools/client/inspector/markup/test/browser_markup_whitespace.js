@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -33,7 +33,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 markup
 }
@@ -140,7 +140,7 @@ shown
 "
 )
 ;
-let
+const
 bodyContainer
 =
 markup

@@ -233,7 +233,7 @@ step
 =
 1
 ;
-let
+const
 delta
 =
 parseInt

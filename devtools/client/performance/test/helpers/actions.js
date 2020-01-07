@@ -85,7 +85,7 @@ options
 }
 )
 {
-let
+const
 controller
 =
 panel
@@ -130,7 +130,7 @@ options
 }
 )
 {
-let
+const
 controller
 =
 panel
@@ -194,7 +194,7 @@ console
 recording
 /
 ;
-let
+const
 EVENTS
 =
 panel
@@ -203,7 +203,7 @@ panelWin
 .
 EVENTS
 ;
-let
+const
 controller
 =
 panel
@@ -212,7 +212,7 @@ panelWin
 .
 PerformanceController
 ;
-let
+const
 view
 =
 panel
@@ -221,7 +221,7 @@ panelWin
 .
 PerformanceView
 ;
-let
+const
 overview
 =
 panel
@@ -374,7 +374,7 @@ expectedViewState
 recorded
 "
 ;
-let
+const
 EVENTS
 =
 panel
@@ -383,7 +383,7 @@ panelWin
 .
 EVENTS
 ;
-let
+const
 controller
 =
 panel
@@ -392,7 +392,7 @@ panelWin
 .
 PerformanceController
 ;
-let
+const
 view
 =
 panel
@@ -401,7 +401,7 @@ panelWin
 .
 PerformanceView
 ;
-let
+const
 overview
 =
 panel
@@ -410,7 +410,7 @@ panelWin
 .
 OverviewView
 ;
-let
+const
 subview
 =
 panel
@@ -564,14 +564,14 @@ panel
 =
 >
 {
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 EVENTS
 }
@@ -686,7 +686,7 @@ minMarkers
 =
 >
 {
-let
+const
 {
 EVENTS
 OverviewView

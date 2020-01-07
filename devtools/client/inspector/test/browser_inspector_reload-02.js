@@ -264,7 +264,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -276,7 +276,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 markupLoaded
 =
 inspector
@@ -328,7 +328,7 @@ reload
 await
 markupLoaded
 ;
-let
+const
 svgFront
 =
 await
@@ -405,7 +405,7 @@ reload
 "
 )
 ;
-let
+const
 rectFront
 =
 await

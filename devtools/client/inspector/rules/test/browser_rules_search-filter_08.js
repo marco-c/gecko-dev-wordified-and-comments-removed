@@ -87,7 +87,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -140,7 +140,7 @@ value
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -149,14 +149,14 @@ view
 1
 )
 ;
-let
+const
 rule
 =
 ruleEditor
 .
 rule
 ;
-let
+const
 propEditor
 =
 rule
@@ -304,7 +304,7 @@ to
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view

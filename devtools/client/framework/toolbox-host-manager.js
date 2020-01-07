@@ -268,7 +268,7 @@ this
 true
 )
 ;
-let
+const
 toolbox
 =
 new
@@ -295,7 +295,7 @@ this
 frameId
 )
 ;
-let
+const
 location
 =
 this
@@ -541,7 +541,7 @@ postMessage
 data
 )
 {
-let
+const
 window
 =
 this
@@ -621,7 +621,7 @@ hostType
 )
 ;
 }
-let
+const
 newHost
 =
 new
@@ -715,7 +715,7 @@ BOTTOM
 }
 }
 }
-let
+const
 iframe
 =
 this
@@ -724,7 +724,7 @@ host
 .
 frame
 ;
-let
+const
 newHost
 =
 this
@@ -734,7 +734,7 @@ createHost
 hostType
 )
 ;
-let
+const
 newIframe
 =
 await

@@ -37,7 +37,7 @@ class2
 "
 )
 ;
-let
+const
 {
 view
 testActor

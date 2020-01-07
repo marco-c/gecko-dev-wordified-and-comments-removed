@@ -49,7 +49,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -261,7 +261,7 @@ default
 "
 )
 ;
-let
+const
 tabPanelNode
 =
 inspector

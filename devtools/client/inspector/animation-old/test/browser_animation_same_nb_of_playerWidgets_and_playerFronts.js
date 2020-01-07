@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -39,7 +39,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel

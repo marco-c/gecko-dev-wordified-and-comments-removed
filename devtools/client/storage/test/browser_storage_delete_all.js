@@ -24,7 +24,7 @@ html
 "
 )
 ;
-let
+const
 contextMenu
 =
 gPanelWindow
@@ -42,7 +42,7 @@ popup
 "
 )
 ;
-let
+const
 menuDeleteAllItem
 =
 contextMenu
@@ -459,7 +459,7 @@ url
 ;
 for
 (
-let
+const
 [
 store
 rowName
@@ -469,7 +469,7 @@ of
 deleteHosts
 )
 {
-let
+const
 storeName
 =
 store
@@ -487,7 +487,7 @@ selectTreeItem
 store
 )
 ;
-let
+const
 eventWait
 =
 gUI
@@ -503,7 +503,7 @@ cleared
 "
 )
 ;
-let
+const
 cell
 =
 getRowCells

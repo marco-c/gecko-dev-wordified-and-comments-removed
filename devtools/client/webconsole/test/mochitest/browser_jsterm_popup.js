@@ -59,7 +59,7 @@ input
 =
 jsterm
 ;
-let
+const
 items
 =
 [
@@ -136,7 +136,7 @@ activedescendant
 "
 )
 ;
-let
+const
 onPopupOpen
 =
 popup
@@ -792,7 +792,7 @@ popup
 input
 )
 {
-let
+const
 activeElement
 =
 input
@@ -801,7 +801,7 @@ ownerDocument
 .
 activeElement
 ;
-let
+const
 descendantId
 =
 activeElement
@@ -815,7 +815,7 @@ activedescendant
 "
 )
 ;
-let
+const
 popupItem
 =
 popup
@@ -833,7 +833,7 @@ querySelector
 descendantId
 )
 ;
-let
+const
 cloneItem
 =
 input

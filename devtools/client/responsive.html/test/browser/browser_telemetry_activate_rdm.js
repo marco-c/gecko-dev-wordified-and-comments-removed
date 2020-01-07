@@ -296,7 +296,7 @@ openCloseRDM
 tab
 )
 {
-let
+const
 {
 ui
 }
@@ -307,7 +307,7 @@ openRDM
 tab
 )
 ;
-let
+const
 clientClosed
 =
 waitForClientClose
@@ -417,7 +417,7 @@ deactivate
 ;
 for
 (
-let
+const
 i
 in
 events

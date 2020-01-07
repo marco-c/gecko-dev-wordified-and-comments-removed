@@ -93,14 +93,14 @@ flushContainerTabState
 tab
 )
 {
-let
+const
 browser
 =
 tab
 .
 linkedBrowser
 ;
-let
+const
 outerBrowser
 =
 {
@@ -160,7 +160,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -169,7 +169,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 browser
 =
 tab
@@ -309,7 +309,7 @@ flushContainerTabState
 tab
 )
 ;
-let
+const
 tabState
 =
 JSON

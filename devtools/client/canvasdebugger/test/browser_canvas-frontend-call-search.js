@@ -4,7 +4,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -16,7 +16,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 window
 EVENTS
@@ -28,7 +28,7 @@ panel
 .
 panelWin
 ;
-let
+const
 searchbox
 =
 (
@@ -46,7 +46,7 @@ reload
 target
 )
 ;
-let
+const
 firstRecordingFinished
 =
 once
@@ -381,7 +381,7 @@ value
 "
 )
 ;
-let
+const
 secondRecordingFinished
 =
 once

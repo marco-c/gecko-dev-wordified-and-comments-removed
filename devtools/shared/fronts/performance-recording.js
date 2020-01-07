@@ -408,7 +408,7 @@ function
 file
 )
 {
-let
+const
 recordingData
 =
 this
@@ -435,7 +435,7 @@ eventName
 data
 )
 {
-let
+const
 config
 =
 this
@@ -466,7 +466,7 @@ withMarkers
 break
 ;
 }
-let
+const
 {
 markers
 }
@@ -513,7 +513,7 @@ withMarkers
 break
 ;
 }
-let
+const
 {
 frames
 }
@@ -550,7 +550,7 @@ withMemory
 break
 ;
 }
-let
+const
 {
 delta
 measurement
@@ -604,7 +604,7 @@ withTicks
 break
 ;
 }
-let
+const
 {
 timestamps
 }
@@ -637,7 +637,7 @@ withAllocations
 break
 ;
 }
-let
+const
 {
 allocations
 :

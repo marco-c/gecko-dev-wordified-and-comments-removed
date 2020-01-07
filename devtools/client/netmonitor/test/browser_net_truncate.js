@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 limit
 =
 Services
@@ -28,7 +28,7 @@ responseBodyLimit
 "
 )
 ;
-let
+const
 URL
 =
 EXAMPLE_URL
@@ -48,7 +48,7 @@ limit
 +
 limit
 ;
-let
+const
 {
 monitor
 tab
@@ -71,7 +71,7 @@ test
 "
 )
 ;
-let
+const
 {
 L10N
 }
@@ -93,7 +93,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 document
 }
@@ -102,7 +102,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -144,7 +144,7 @@ item
 )
 )
 ;
-let
+const
 item
 =
 document
@@ -188,7 +188,7 @@ type
 title
 )
 ;
-let
+const
 type
 =
 item
@@ -207,7 +207,7 @@ type
 .
 textContent
 ;
-let
+const
 fullMimeType
 =
 item
@@ -226,7 +226,7 @@ type
 .
 title
 ;
-let
+const
 transferred
 =
 item
@@ -245,7 +245,7 @@ transferred
 .
 textContent
 ;
-let
+const
 size
 =
 item

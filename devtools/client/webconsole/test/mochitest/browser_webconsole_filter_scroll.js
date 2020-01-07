@@ -85,7 +85,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 {
 ui
 }
@@ -566,7 +566,7 @@ return
 true
 ;
 }
-let
+const
 lastNodeHeight
 =
 container

@@ -75,7 +75,7 @@ toolbox
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -84,7 +84,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -94,7 +94,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 await

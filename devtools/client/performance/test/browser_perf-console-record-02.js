@@ -172,7 +172,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 console
@@ -211,7 +211,7 @@ rust2
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -228,7 +228,7 @@ tab
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -258,7 +258,7 @@ length
 2
 )
 ;
-let
+const
 recordings
 =
 PerformanceController

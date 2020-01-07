@@ -12,7 +12,7 @@ function
 xulElement
 )
 {
-let
+const
 htmlElement
 =
 document

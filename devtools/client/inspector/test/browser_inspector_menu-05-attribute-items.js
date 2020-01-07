@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -91,7 +91,7 @@ occur
 "
 )
 ;
-let
+const
 addAttribute
 =
 getMenuItem
@@ -128,7 +128,7 @@ hidden
 '
 )
 ;
-let
+const
 onMutation
 =
 inspector
@@ -152,7 +152,7 @@ KEY_Enter
 await
 onMutation
 ;
-let
+const
 hasAttribute
 =
 testActor
@@ -206,7 +206,7 @@ resolve
 "
 )
 ;
-let
+const
 copyAttributeValue
 =
 getMenuItem
@@ -307,7 +307,7 @@ values
 "
 )
 ;
-let
+const
 copyAttributeValue
 =
 getMenuItem
@@ -323,7 +323,7 @@ attribute
 "
 )
 ;
-let
+const
 longAttribute
 =
 "
@@ -400,7 +400,7 @@ item
 "
 )
 ;
-let
+const
 editAttribute
 =
 getMenuItem
@@ -473,7 +473,7 @@ edited
 "
 )
 ;
-let
+const
 onMutation
 =
 inspector
@@ -497,7 +497,7 @@ KEY_Enter
 await
 onMutation
 ;
-let
+const
 isAttributeChanged
 =
 await
@@ -551,7 +551,7 @@ item
 "
 )
 ;
-let
+const
 removeAttribute
 =
 getMenuItem
@@ -603,7 +603,7 @@ remove
 "
 }
 ;
-let
+const
 onMutation
 =
 inspector
@@ -624,7 +624,7 @@ click
 await
 onMutation
 ;
-let
+const
 hasAttribute
 =
 await
@@ -662,7 +662,7 @@ getMenuItem
 id
 )
 {
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -684,7 +684,7 @@ tagLine
 }
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems

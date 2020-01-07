@@ -73,7 +73,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -112,7 +112,7 @@ view
 "
 )
 ;
-let
+const
 h
 =
 await
@@ -164,7 +164,7 @@ created
 "
 )
 ;
-let
+const
 h2
 =
 await
@@ -196,7 +196,7 @@ view
 "
 )
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -212,7 +212,7 @@ refreshed
 "
 )
 ;
-let
+const
 cView
 =
 selectComputedView
@@ -249,7 +249,7 @@ view
 "
 )
 ;
-let
+const
 h3
 =
 await

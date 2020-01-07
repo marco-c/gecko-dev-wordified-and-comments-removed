@@ -49,7 +49,7 @@ panel
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -61,7 +61,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -91,7 +91,7 @@ test
 "
 )
 ;
-let
+const
 onInspectorSelected
 =
 toolbox

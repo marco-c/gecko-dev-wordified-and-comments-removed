@@ -28,7 +28,7 @@ ui
 }
 )
 {
-let
+const
 store
 =
 ui
@@ -54,7 +54,7 @@ length
 1
 )
 ;
-let
+const
 viewport
 =
 ui
@@ -136,7 +136,7 @@ ui
 TEST_URL
 )
 ;
-let
+const
 location
 =
 await

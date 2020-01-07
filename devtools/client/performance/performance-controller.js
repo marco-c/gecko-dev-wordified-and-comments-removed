@@ -1657,7 +1657,7 @@ canCurrentlyRecord
 (
 )
 {
-let
+const
 hasActor
 =
 await
@@ -1680,7 +1680,7 @@ return
 true
 ;
 }
-let
+const
 actorCanCheck
 =
 await
@@ -1724,7 +1724,7 @@ startRecording
 (
 )
 {
-let
+const
 options
 =
 {
@@ -1833,7 +1833,7 @@ frequency
 )
 }
 ;
-let
+const
 recordingStarted
 =
 await
@@ -1887,7 +1887,7 @@ stopRecording
 (
 )
 {
-let
+const
 recording
 =
 this
@@ -1969,7 +1969,7 @@ i
 -
 )
 {
-let
+const
 model
 =
 this
@@ -2126,7 +2126,7 @@ importRecording
 file
 )
 {
-let
+const
 recording
 =
 await
@@ -2232,7 +2232,7 @@ i
 -
 )
 {
-let
+const
 model
 =
 this
@@ -2315,7 +2315,7 @@ function
 (
 )
 {
-let
+const
 newValue
 =
 Services
@@ -2507,7 +2507,7 @@ return
 true
 ;
 }
-let
+const
 recording
 =
 this
@@ -2526,7 +2526,7 @@ return
 false
 ;
 }
-let
+const
 config
 =
 recording
@@ -2568,7 +2568,7 @@ recordings
 {
 for
 (
-let
+const
 recording
 of
 recordings
@@ -2613,7 +2613,7 @@ true
 }
 ;
 }
-let
+const
 enabled
 =
 this
@@ -2633,7 +2633,7 @@ recording
 expectedState
 )
 {
-let
+const
 deferred
 =
 defer
@@ -2702,7 +2702,7 @@ function
 (
 )
 {
-let
+const
 {
 enabled
 }

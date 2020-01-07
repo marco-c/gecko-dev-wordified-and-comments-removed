@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 env
 =
 await
@@ -53,7 +53,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 helper
 =
 await
@@ -65,7 +65,7 @@ HIGHLIGHTER_TYPE
 env
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -73,7 +73,7 @@ inspector
 =
 env
 ;
-let
+const
 view
 =
 selectRuleView
@@ -81,14 +81,14 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 highlighters
 =
 view
 .
 highlighters
 ;
-let
+const
 config
 =
 {
@@ -218,7 +218,7 @@ path
 ;
 for
 (
-let
+const
 selector
 of
 SHAPE_SELECTORS
@@ -238,14 +238,14 @@ config
 }
 )
 ;
-let
+const
 {
 mouse
 }
 =
 helper
 ;
-let
+const
 {
 nw
 width
@@ -283,7 +283,7 @@ nw
 0
 )
 {
-let
+const
 [
 x
 y
@@ -291,7 +291,7 @@ y
 =
 center
 ;
-let
+const
 dx
 =
 Math
@@ -306,7 +306,7 @@ nw
 ]
 )
 ;
-let
+const
 dy
 =
 Math
@@ -383,14 +383,14 @@ nw
 dy
 ;
 }
-let
+const
 dx
 =
 width
 /
 10
 ;
-let
+const
 dy
 =
 height
@@ -488,7 +488,7 @@ reflow
 await
 onShapeChangeApplied
 ;
-let
+const
 wBB
 =
 await
@@ -677,7 +677,7 @@ reflow
 await
 onShapeChangeApplied
 ;
-let
+const
 eBB
 =
 await
@@ -880,7 +880,7 @@ reflow
 await
 onShapeChangeApplied
 ;
-let
+const
 sBB
 =
 await
@@ -1083,7 +1083,7 @@ reflow
 await
 onShapeChangeApplied
 ;
-let
+const
 nBB
 =
 await
@@ -1218,7 +1218,7 @@ highlighters
 =
 config
 ;
-let
+const
 quads
 =
 await
@@ -1229,7 +1229,7 @@ getAllAdjustedQuads
 selector
 )
 ;
-let
+const
 {
 width
 height
@@ -1244,7 +1244,7 @@ content
 .
 bounds
 ;
-let
+const
 highlightedNode
 =
 await
@@ -1254,7 +1254,7 @@ selector
 inspector
 )
 ;
-let
+const
 computedStyle
 =
 await
@@ -1267,7 +1267,7 @@ getComputed
 highlightedNode
 )
 ;
-let
+const
 paddingTop
 =
 parseFloat
@@ -1284,7 +1284,7 @@ top
 value
 )
 ;
-let
+const
 paddingLeft
 =
 parseFloat
@@ -1301,7 +1301,7 @@ left
 value
 )
 ;
-let
+const
 path
 =
 await
@@ -1327,7 +1327,7 @@ HIGHLIGHTER_TYPE
 ]
 )
 ;
-let
+const
 coords
 =
 path
@@ -1387,7 +1387,7 @@ n
 }
 )
 ;
-let
+const
 nw
 =
 [
@@ -1401,7 +1401,7 @@ coords
 ]
 ]
 ;
-let
+const
 ne
 =
 [
@@ -1415,7 +1415,7 @@ coords
 ]
 ]
 ;
-let
+const
 se
 =
 [
@@ -1429,7 +1429,7 @@ coords
 ]
 ]
 ;
-let
+const
 sw
 =
 [
@@ -1443,7 +1443,7 @@ coords
 ]
 ]
 ;
-let
+const
 center
 =
 [
@@ -1475,7 +1475,7 @@ se
 2
 ]
 ;
-let
+const
 shapeWidth
 =
 Math
@@ -1513,7 +1513,7 @@ nw
 2
 )
 ;
-let
+const
 shapeHeight
 =
 Math

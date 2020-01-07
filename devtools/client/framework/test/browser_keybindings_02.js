@@ -119,7 +119,7 @@ toolbox
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -128,7 +128,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -138,7 +138,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -152,7 +152,7 @@ webconsole
 "
 )
 ;
-let
+const
 {
 SIDE
 BOTTOM
@@ -164,7 +164,7 @@ HostType
 ;
 for
 (
-let
+const
 type
 of
 [
@@ -267,7 +267,7 @@ toolbox
 key
 )
 {
-let
+const
 shortcut
 =
 L10N
@@ -309,7 +309,7 @@ key
 key
 )
 ;
-let
+const
 currentZoom
 =
 getZoomValue

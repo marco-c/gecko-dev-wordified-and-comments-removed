@@ -122,7 +122,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 toolbox
@@ -166,7 +166,7 @@ successful
 "
 )
 ;
-let
+const
 hasOuterNode
 =
 await
@@ -196,7 +196,7 @@ element
 "
 )
 ;
-let
+const
 hasTestNode
 =
 await
@@ -248,7 +248,7 @@ inner
 inspector
 )
 ;
-let
+const
 isHighlightCorrect
 =
 await
@@ -321,7 +321,7 @@ toolbox
 inspector
 )
 {
-let
+const
 btn
 =
 toolbox
@@ -339,7 +339,7 @@ frames
 "
 )
 ;
-let
+const
 menu
 =
 await
@@ -377,7 +377,7 @@ list
 "
 )
 ;
-let
+const
 newRoot
 =
 inspector

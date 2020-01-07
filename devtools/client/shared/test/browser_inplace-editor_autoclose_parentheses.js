@@ -284,7 +284,7 @@ autoclose
 "
 )
 ;
-let
+const
 [
 host
 win
@@ -296,7 +296,7 @@ createHost
 (
 )
 ;
-let
+const
 xulDocument
 =
 win
@@ -305,7 +305,7 @@ top
 .
 document
 ;
-let
+const
 popup
 =
 new
@@ -391,7 +391,7 @@ removeCurrentTab
 }
 )
 ;
-let
+const
 runPropertyAutocompletionTest
 =
 async
@@ -426,7 +426,7 @@ _getCSSValuesForPropertyName
 ;
 for
 (
-let
+const
 data
 of
 testData

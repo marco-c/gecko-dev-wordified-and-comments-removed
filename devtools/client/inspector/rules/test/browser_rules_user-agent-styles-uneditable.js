@@ -120,7 +120,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -193,7 +193,7 @@ a
 inspector
 )
 ;
-let
+const
 uaRules
 =
 view
@@ -217,7 +217,7 @@ isEditable
 ;
 for
 (
-let
+const
 rule
 of
 uaRules
@@ -246,7 +246,7 @@ attribute
 "
 )
 ;
-let
+const
 firstProp
 =
 rule
@@ -321,7 +321,7 @@ editable
 "
 )
 ;
-let
+const
 colorswatch
 =
 rule

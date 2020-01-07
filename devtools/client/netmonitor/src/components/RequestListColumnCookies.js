@@ -127,7 +127,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 item
 connector
@@ -156,7 +156,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 item
 connector
@@ -278,7 +278,7 @@ cookies
 |
 requestCookies
 ;
-let
+const
 requestCookiesLength
 =
 requestCookies

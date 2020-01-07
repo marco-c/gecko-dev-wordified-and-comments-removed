@@ -643,7 +643,7 @@ function
 (
 )
 {
-let
+const
 timerPrecision
 =
 Preferences
@@ -690,7 +690,7 @@ timerPrecision
 }
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -733,7 +733,7 @@ on
 "
 )
 ;
-let
+const
 rootNodeFront
 =
 await
@@ -783,7 +783,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 mutate
 flashedNode
@@ -819,7 +819,7 @@ event
 "
 )
 ;
-let
+const
 onMutation
 =
 inspector
@@ -837,7 +837,7 @@ mutate
 testActor
 )
 ;
-let
+const
 mutations
 =
 await
@@ -955,7 +955,7 @@ nodeFront
 inspector
 )
 {
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1043,7 +1043,7 @@ attribute
 inspector
 )
 {
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1084,7 +1084,7 @@ editor
 "
 )
 ;
-let
+const
 attributeElement
 =
 container

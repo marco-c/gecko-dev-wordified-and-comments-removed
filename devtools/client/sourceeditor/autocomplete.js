@@ -125,7 +125,7 @@ options
 }
 )
 {
-let
+const
 {
 cm
 ed
@@ -147,7 +147,7 @@ ed
 return
 ;
 }
-let
+const
 win
 =
 ed
@@ -158,7 +158,7 @@ contentWindow
 .
 wrappedJSObject
 ;
-let
+const
 {
 CodeMirror
 document
@@ -171,7 +171,7 @@ completer
 =
 null
 ;
-let
+const
 autocompleteKey
 =
 "
@@ -209,7 +209,7 @@ modes
 js
 )
 {
-let
+const
 defs
 =
 [
@@ -280,7 +280,7 @@ function
 data
 )
 {
-let
+const
 tip
 =
 document
@@ -304,7 +304,7 @@ Tern
 information
 "
 ;
-let
+const
 tipType
 =
 document
@@ -316,7 +316,7 @@ strong
 "
 )
 ;
-let
+const
 tipText
 =
 document
@@ -399,7 +399,7 @@ createTextNode
 )
 )
 ;
-let
+const
 docLink
 =
 document
@@ -479,13 +479,13 @@ tip
 }
 )
 ;
-let
+const
 keyMap
 =
 {
 }
 ;
-let
+const
 updateArgHintsCallback
 =
 cm
@@ -688,7 +688,7 @@ addKeyMap
 keyMap
 )
 ;
-let
+const
 destroyTern
 =
 function
@@ -808,7 +808,7 @@ insertSelectedPopupItem
 (
 )
 {
-let
+const
 autocompleteState
 =
 autocompleteMap
@@ -940,7 +940,7 @@ insertSelectedPopupItem
 }
 )
 ;
-let
+const
 cycle
 =
 reverse
@@ -1024,7 +1024,7 @@ Enter
 =
 >
 {
-let
+const
 wasHandled
 =
 insertSelectedPopupItem
@@ -1043,7 +1043,7 @@ Pass
 }
 }
 ;
-let
+const
 autoCompleteCallback
 =
 autoComplete
@@ -1054,7 +1054,7 @@ null
 ctx
 )
 ;
-let
+const
 keypressCallback
 =
 onEditorKeypress
@@ -1207,7 +1207,7 @@ destroyAutoCompletion
 ctx
 )
 {
-let
+const
 {
 ed
 }
@@ -1228,7 +1228,7 @@ ed
 return
 ;
 }
-let
+const
 {
 destroy
 }
@@ -1254,7 +1254,7 @@ cm
 }
 )
 {
-let
+const
 autocompleteOpts
 =
 autocompleteMap
@@ -1264,7 +1264,7 @@ get
 ed
 )
 ;
-let
+const
 {
 completer
 popup
@@ -1297,7 +1297,7 @@ false
 return
 ;
 }
-let
+const
 cur
 =
 ed
@@ -1399,7 +1399,7 @@ hidePopup
 return
 ;
 }
-let
+const
 cursorElement
 =
 cm
@@ -1418,7 +1418,7 @@ cursor
 "
 )
 ;
-let
+const
 left
 =
 suggestions
@@ -1515,7 +1515,7 @@ ed
 popupItem
 )
 {
-let
+const
 {
 preLabel
 text
@@ -1523,7 +1523,7 @@ text
 =
 popupItem
 ;
-let
+const
 cur
 =
 ed
@@ -1532,7 +1532,7 @@ getCursor
 (
 )
 ;
-let
+const
 textBeforeCursor
 =
 ed
@@ -1552,7 +1552,7 @@ cur
 ch
 )
 ;
-let
+const
 backwardsTextBeforeCursor
 =
 textBeforeCursor
@@ -1573,7 +1573,7 @@ join
 "
 )
 ;
-let
+const
 backwardsPreLabel
 =
 preLabel
@@ -1654,7 +1654,7 @@ ed
 reverse
 )
 {
-let
+const
 autocompleteOpts
 =
 autocompleteMap
@@ -1664,14 +1664,14 @@ get
 ed
 )
 ;
-let
+const
 {
 popup
 }
 =
 autocompleteOpts
 ;
-let
+const
 cur
 =
 ed
@@ -1801,7 +1801,7 @@ firstItem
 }
 else
 {
-let
+const
 fromCur
 =
 {
@@ -1883,7 +1883,7 @@ cm
 event
 )
 {
-let
+const
 autocompleteOpts
 =
 autocompleteMap
@@ -2185,7 +2185,7 @@ ed
 )
 )
 {
-let
+const
 completer
 =
 autocompleteMap

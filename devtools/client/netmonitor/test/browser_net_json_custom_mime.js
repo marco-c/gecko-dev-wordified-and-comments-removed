@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -44,7 +44,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -64,7 +64,7 @@ index
 "
 )
 ;
-let
+const
 {
 L10N
 }
@@ -86,7 +86,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -129,7 +129,7 @@ tab
 1
 )
 ;
-let
+const
 requestItem
 =
 document
@@ -146,7 +146,7 @@ item
 "
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -350,7 +350,7 @@ testResponseTab
 (
 )
 {
-let
+const
 tabpanel
 =
 document
@@ -401,7 +401,7 @@ visibility
 "
 )
 ;
-let
+const
 jsonView
 =
 tabpanel
@@ -617,7 +617,7 @@ tabpanel
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -641,7 +641,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel

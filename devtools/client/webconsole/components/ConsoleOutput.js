@@ -701,7 +701,7 @@ numberMessagesFitViewport
 ;
 }
 }
-let
+const
 messageNodes
 =
 visibleMessages
@@ -829,7 +829,7 @@ outputNode
 scrollNode
 )
 {
-let
+const
 lastNodeHeight
 =
 outputNode

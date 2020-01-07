@@ -390,7 +390,7 @@ this
 _zoomBinding
 )
 {
-let
+const
 {
 translate
 scale
@@ -595,7 +595,7 @@ node
 enabled
 )
 {
-let
+const
 el
 =
 this
@@ -640,7 +640,7 @@ clearGraph
 (
 )
 ;
-let
+const
 graph
 =
 new
@@ -650,7 +650,7 @@ Digraph
 (
 )
 ;
-let
+const
 renderer
 =
 new
@@ -667,7 +667,7 @@ populateGraph
 graph
 )
 ;
-let
+const
 oldDrawNodes
 =
 renderer
@@ -686,7 +686,7 @@ graph
 root
 )
 {
-let
+const
 svgNodes
 =
 oldDrawNodes
@@ -704,7 +704,7 @@ function
 n
 )
 {
-let
+const
 node
 =
 graph
@@ -714,7 +714,7 @@ node
 n
 )
 ;
-let
+const
 classString
 =
 "
@@ -787,7 +787,7 @@ svgNodes
 }
 )
 ;
-let
+const
 oldDrawEdgePaths
 =
 renderer
@@ -796,7 +796,7 @@ drawEdgePaths
 (
 )
 ;
-let
+const
 defaultClasses
 =
 "
@@ -814,7 +814,7 @@ graph
 root
 )
 {
-let
+const
 svgEdges
 =
 oldDrawEdgePaths
@@ -832,7 +832,7 @@ function
 e
 )
 {
-let
+const
 edge
 =
 graph
@@ -842,7 +842,7 @@ edge
 e
 )
 ;
-let
+const
 edgeClass
 =
 defaultClasses
@@ -946,7 +946,7 @@ root
 =
 >
 {
-let
+const
 theme
 =
 Services
@@ -962,7 +962,7 @@ theme
 "
 )
 ;
-let
+const
 markerColor
 =
 MARKER_STYLING
@@ -1131,7 +1131,7 @@ z
 )
 ;
 }
-let
+const
 currentNode
 =
 InspectorView
@@ -1198,7 +1198,7 @@ paramEdges
 }
 )
 ;
-let
+const
 layout
 =
 dagreD3
@@ -1413,7 +1413,7 @@ function
 theme
 )
 {
-let
+const
 markerColor
 =
 MARKER_STYLING
@@ -1421,7 +1421,7 @@ MARKER_STYLING
 theme
 ]
 ;
-let
+const
 marker
 =
 (
@@ -1460,7 +1460,7 @@ function
 e
 )
 {
-let
+const
 node
 =
 findGraphNodeParent
@@ -1479,7 +1479,7 @@ node
 return
 ;
 }
-let
+const
 id
 =
 node

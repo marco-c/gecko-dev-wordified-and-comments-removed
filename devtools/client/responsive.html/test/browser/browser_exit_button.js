@@ -60,7 +60,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 ui
 manager
@@ -78,7 +78,7 @@ waitBootstrap
 ui
 )
 ;
-let
+const
 waitTabIsDetached
 =
 Promise
@@ -105,7 +105,7 @@ SwapDocShells
 ]
 )
 ;
-let
+const
 newWindow
 =
 gBrowser
@@ -184,7 +184,7 @@ waitBootstrap
 ui
 )
 {
-let
+const
 {
 toolWindow
 tab
@@ -192,14 +192,14 @@ tab
 =
 ui
 ;
-let
+const
 {
 store
 }
 =
 toolWindow
 ;
-let
+const
 url
 =
 String
@@ -254,7 +254,7 @@ waitBootstrap
 ui
 )
 ;
-let
+const
 exitButton
 =
 ui

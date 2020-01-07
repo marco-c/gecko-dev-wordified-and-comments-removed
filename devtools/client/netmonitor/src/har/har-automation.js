@@ -134,7 +134,7 @@ toolbox
 =
 toolbox
 ;
-let
+const
 target
 =
 toolbox
@@ -413,7 +413,7 @@ function
 (
 )
 {
-let
+const
 autoExport
 =
 Services
@@ -443,7 +443,7 @@ resolve
 )
 ;
 }
-let
+const
 data
 =
 {
@@ -534,7 +534,7 @@ function
 data
 )
 {
-let
+const
 items
 =
 this
@@ -545,7 +545,7 @@ getItems
 (
 )
 ;
-let
+const
 form
 =
 this
@@ -556,7 +556,7 @@ target
 .
 form
 ;
-let
+const
 title
 =
 form
@@ -568,7 +568,7 @@ form
 .
 url
 ;
-let
+const
 options
 =
 {
@@ -704,7 +704,7 @@ options
 defaultFileName
 )
 {
-let
+const
 file
 =
 getDefaultTargetFile
@@ -943,7 +943,7 @@ getDefaultTargetFile
 options
 )
 {
-let
+const
 path
 =
 options
@@ -968,7 +968,7 @@ defaultLogDir
 "
 )
 ;
-let
+const
 folder
 =
 HarUtils
@@ -978,7 +978,7 @@ getLocalDirectory
 path
 )
 ;
-let
+const
 fileName
 =
 HarUtils

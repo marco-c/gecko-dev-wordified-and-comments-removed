@@ -254,14 +254,14 @@ init
 (
 )
 ;
-let
+const
 trace
 =
 connectPipeTracing
 (
 )
 ;
-let
+const
 client
 =
 new

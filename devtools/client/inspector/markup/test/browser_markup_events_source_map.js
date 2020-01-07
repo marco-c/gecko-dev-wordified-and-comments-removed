@@ -112,7 +112,7 @@ function
 (
 )
 {
-let
+const
 {
 toolbox
 inspector
@@ -147,7 +147,7 @@ expandAll
 ;
 for
 (
-let
+const
 test
 of
 TEST_DATA

@@ -78,12 +78,12 @@ TOOLTIP_WIDTH
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -98,7 +98,7 @@ height
 400
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -108,12 +108,12 @@ blank
 "
 )
 ;
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -131,7 +131,7 @@ tooltip
 "
 )
 ;
-let
+const
 tooltip
 =
 new
@@ -145,7 +145,7 @@ false
 }
 )
 ;
-let
+const
 div
 =
 doc
@@ -184,7 +184,7 @@ TOOLTIP_HEIGHT
 }
 )
 ;
-let
+const
 box1
 =
 doc
@@ -196,7 +196,7 @@ box1
 "
 )
 ;
-let
+const
 box2
 =
 doc
@@ -208,7 +208,7 @@ box2
 "
 )
 ;
-let
+const
 box3
 =
 doc
@@ -220,7 +220,7 @@ box3
 "
 )
 ;
-let
+const
 box4
 =
 doc
@@ -252,7 +252,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -279,7 +279,7 @@ box1
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -301,7 +301,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -334,7 +334,7 @@ box1
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -354,7 +354,7 @@ box2
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -380,7 +380,7 @@ box2
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -402,7 +402,7 @@ box2
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -435,7 +435,7 @@ box2
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -455,7 +455,7 @@ box3
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -481,7 +481,7 @@ box3
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -503,7 +503,7 @@ box3
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -536,7 +536,7 @@ box3
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -554,7 +554,7 @@ box4
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -580,7 +580,7 @@ box4
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip
@@ -602,7 +602,7 @@ box4
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -635,7 +635,7 @@ box4
 expectedTooltipGeometry
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip

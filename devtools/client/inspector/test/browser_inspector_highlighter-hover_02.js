@@ -37,7 +37,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -149,7 +149,7 @@ event
 "
 )
 ;
-let
+const
 onHidden
 =
 testActor

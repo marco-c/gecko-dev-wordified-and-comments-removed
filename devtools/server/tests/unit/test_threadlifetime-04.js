@@ -108,7 +108,7 @@ event
 packet
 )
 {
-let
+const
 pauseGrip
 =
 packet
@@ -151,7 +151,7 @@ error
 undefined
 )
 ;
-let
+const
 threadGrip1
 =
 response

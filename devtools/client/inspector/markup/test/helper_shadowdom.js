@@ -12,7 +12,7 @@ selector
 inspector
 )
 {
-let
+const
 {
 markup
 }
@@ -36,7 +36,7 @@ selector
 .
 )
 ;
-let
+const
 rootFront
 =
 await
@@ -46,7 +46,7 @@ selector
 inspector
 )
 ;
-let
+const
 rootContainer
 =
 markup
@@ -56,7 +56,7 @@ getContainer
 rootFront
 )
 ;
-let
+const
 parsedTree
 =
 parseTree
@@ -64,7 +64,7 @@ parseTree
 tree
 )
 ;
-let
+const
 treeRoot
 =
 parsedTree
@@ -92,7 +92,7 @@ container
 inspector
 )
 {
-let
+const
 {
 node
 children
@@ -126,7 +126,7 @@ node
 node
 )
 ;
-let
+const
 slotted
 =
 node
@@ -219,7 +219,7 @@ container
 )
 ;
 }
-let
+const
 containers
 =
 container
@@ -294,7 +294,7 @@ parseTree
 inputString
 )
 {
-let
+const
 tree
 =
 {
@@ -343,13 +343,13 @@ tree
 ;
 for
 (
-let
+const
 line
 of
 lines
 )
 {
-let
+const
 nodeString
 =
 line
@@ -358,7 +358,7 @@ trim
 (
 )
 ;
-let
+const
 level
 =
 line
@@ -424,7 +424,7 @@ parent
 ;
 }
 }
-let
+const
 node
 =
 {
@@ -534,7 +534,7 @@ container
 expectedText
 )
 {
-let
+const
 textContent
 =
 container
@@ -627,7 +627,7 @@ onMutation
 mutations
 )
 {
-let
+const
 validMutations
 =
 mutations

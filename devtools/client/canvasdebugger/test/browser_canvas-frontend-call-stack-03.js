@@ -4,7 +4,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -16,7 +16,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_DEEP_STACK_URL
 )
 ;
-let
+const
 {
 window
 all
@@ -35,7 +35,7 @@ reload
 target
 )
 ;
-let
+const
 recordingFinished
 =
 once
@@ -46,7 +46,7 @@ EVENTS
 SNAPSHOT_RECORDING_FINISHED
 )
 ;
-let
+const
 callListPopulated
 =
 once
@@ -74,7 +74,7 @@ callListPopulated
 ]
 )
 ;
-let
+const
 callItem
 =
 CallsListView
@@ -84,7 +84,7 @@ getItemAtIndex
 2
 )
 ;
-let
+const
 view
 =
 (
@@ -101,7 +101,7 @@ callItem
 target
 )
 ;
-let
+const
 contents
 =
 (
@@ -217,7 +217,7 @@ call
 "
 )
 ;
-let
+const
 callStackDisplayed
 =
 once

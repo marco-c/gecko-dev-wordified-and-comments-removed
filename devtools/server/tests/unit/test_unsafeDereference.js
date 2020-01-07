@@ -35,7 +35,7 @@ function
 name
 )
 {
-let
+const
 desc
 =
 this
@@ -101,7 +101,7 @@ run_test
 (
 )
 {
-let
+const
 contentBox
 =
 Cu
@@ -121,7 +121,7 @@ com
 "
 )
 ;
-let
+const
 chromeBox
 =
 Cu
@@ -131,7 +131,7 @@ Sandbox
 this
 )
 ;
-let
+const
 mainObj
 =
 {
@@ -192,7 +192,7 @@ mainObj
 =
 mainObj
 ;
-let
+const
 contentObj
 =
 chromeBox
@@ -203,7 +203,7 @@ contentBox
 .
 contentObj
 ;
-let
+const
 chromeObj
 =
 contentBox
@@ -507,7 +507,7 @@ contentBox
 undefined
 )
 ;
-let
+const
 dbg
 =
 new
@@ -515,7 +515,7 @@ Debugger
 (
 )
 ;
-let
+const
 contentBoxDO
 =
 dbg
@@ -525,7 +525,7 @@ addDebuggee
 contentBox
 )
 ;
-let
+const
 chromeBoxDO
 =
 dbg
@@ -535,7 +535,7 @@ addDebuggee
 chromeBox
 )
 ;
-let
+const
 mainFromContentDO
 =
 contentBoxDO
@@ -587,7 +587,7 @@ unsafeDereference
 mainObj
 )
 ;
-let
+const
 contentFromContentDO
 =
 contentBoxDO
@@ -641,7 +641,7 @@ unsafeDereference
 contentObj
 )
 ;
-let
+const
 chromeFromContentDO
 =
 contentBoxDO
@@ -693,7 +693,7 @@ unsafeDereference
 chromeObj
 )
 ;
-let
+const
 mainFromChromeDO
 =
 chromeBoxDO
@@ -747,7 +747,7 @@ unsafeDereference
 mainObj
 )
 ;
-let
+const
 contentFromChromeDO
 =
 chromeBoxDO
@@ -801,7 +801,7 @@ unsafeDereference
 contentObj
 )
 ;
-let
+const
 chromeFromChromeDO
 =
 chromeBoxDO

@@ -46,7 +46,7 @@ entryPoints
 {
 for
 (
-let
+const
 {
 script
 offsets
@@ -64,7 +64,7 @@ script
 ;
 for
 (
-let
+const
 offset
 of
 offsets
@@ -87,7 +87,7 @@ setBreakpointAtEntryPoints
 =
 setBreakpointAtEntryPoints
 ;
-let
+const
 BreakpointActor
 =
 ActorClassWithSpec
@@ -198,7 +198,7 @@ function
 {
 for
 (
-let
+const
 script
 of
 this
@@ -230,7 +230,7 @@ function
 frame
 )
 {
-let
+const
 completion
 =
 frame
@@ -380,7 +380,7 @@ function
 frame
 )
 {
-let
+const
 generatedLocation
 =
 this
@@ -394,7 +394,7 @@ getFrameLocation
 frame
 )
 ;
-let
+const
 {
 originalSourceActor
 originalLine
@@ -419,7 +419,7 @@ generatedLocation
 )
 )
 ;
-let
+const
 url
 =
 originalSourceActor
@@ -497,7 +497,7 @@ return
 undefined
 ;
 }
-let
+const
 reason
 =
 {
@@ -558,7 +558,7 @@ actorID
 }
 else
 {
-let
+const
 {
 result
 message

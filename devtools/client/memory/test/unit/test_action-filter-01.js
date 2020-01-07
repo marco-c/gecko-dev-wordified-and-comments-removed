@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 {
 setFilterString
 }
@@ -30,7 +30,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 Store

@@ -67,7 +67,7 @@ factories
 "
 )
 ;
-let
+const
 MenuItem
 =
 {
@@ -199,7 +199,7 @@ target
 }
 )
 {
-let
+const
 {
 onChange
 }
@@ -219,7 +219,7 @@ false
 }
 )
 ;
-let
+const
 id
 =
 target
@@ -239,7 +239,7 @@ onToggleOpen
 (
 )
 {
-let
+const
 {
 isOpen
 }
@@ -265,7 +265,7 @@ render
 (
 )
 {
-let
+const
 {
 id
 :
@@ -281,7 +281,7 @@ this
 .
 props
 ;
-let
+const
 {
 isOpen
 }
@@ -290,7 +290,7 @@ this
 .
 state
 ;
-let
+const
 {
 onItemChange
 onToggleOpen
@@ -298,7 +298,7 @@ onToggleOpen
 =
 this
 ;
-let
+const
 menuItems
 =
 items
@@ -315,7 +315,7 @@ checked
 =
 >
 {
-let
+const
 inputID
 =
 devtools
@@ -407,7 +407,7 @@ opened
 "
 ;
 }
-let
+const
 menu
 =
 dom

@@ -93,7 +93,7 @@ inspector
 reason
 )
 {
-let
+const
 onUpdated
 =
 inspector
@@ -129,7 +129,7 @@ function
 url
 )
 {
-let
+const
 tab
 =
 await
@@ -138,7 +138,7 @@ addTab
 url
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -194,14 +194,14 @@ text
 '
 )
 ;
-let
+const
 doc
 =
 view
 .
 document
 ;
-let
+const
 previewImg
 =
 doc
@@ -239,7 +239,7 @@ mode
 "
 )
 ;
-let
+const
 onClick
 =
 once
@@ -259,7 +259,7 @@ click
 await
 onClick
 ;
-let
+const
 input
 =
 previewImg
@@ -308,7 +308,7 @@ value
 length
 )
 {
-let
+const
 update
 =
 view
@@ -360,7 +360,7 @@ field
 "
 )
 ;
-let
+const
 update
 =
 waitForNEvents
@@ -456,7 +456,7 @@ section
 "
 )
 ;
-let
+const
 accordion
 =
 viewDoc
@@ -473,7 +473,7 @@ accordion
 "
 )
 ;
-let
+const
 isExpanded
 =
 (
@@ -502,7 +502,7 @@ isExpanded
 return
 ;
 }
-let
+const
 onExpanded
 =
 BrowserTestUtils

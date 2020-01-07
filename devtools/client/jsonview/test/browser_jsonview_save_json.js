@@ -21,7 +21,7 @@ button
 prettyprint
 "
 ;
-let
+const
 {
 MockFilePicker
 }
@@ -163,7 +163,7 @@ opened
 "
 )
 ;
-let
+const
 fileName
 =
 fp
@@ -207,7 +207,7 @@ extension
 "
 )
 ;
-let
+const
 destFile
 =
 destDir
@@ -305,7 +305,7 @@ reject
 =
 >
 {
-let
+const
 channel
 =
 NetUtil
@@ -393,7 +393,7 @@ createTemporarySaveDirectory
 (
 )
 {
-let
+const
 saveDir
 =
 Services
@@ -473,7 +473,7 @@ return
 saveDir
 ;
 }
-let
+const
 destDir
 =
 createTemporarySaveDirectory
@@ -698,7 +698,7 @@ opened
 "
 )
 ;
-let
+const
 savePageCommand
 =
 document
@@ -1025,7 +1025,7 @@ default
 "
 )
 ;
-let
+const
 promise
 =
 awaitFileSave
@@ -1125,7 +1125,7 @@ extension
 "
 )
 ;
-let
+const
 promise
 =
 awaitFileSave

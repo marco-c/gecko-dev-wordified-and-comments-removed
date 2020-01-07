@@ -60,17 +60,17 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -106,7 +106,7 @@ container
 "
 )
 ;
-let
+const
 widget
 =
 new
@@ -119,7 +119,7 @@ none
 cssIsValid
 )
 ;
-yield
+await
 widget
 .
 once
@@ -151,7 +151,7 @@ contrast
 )
 "
 ;
-yield
+await
 showFilterPopupPresetsAndCreatePreset
 (
 widget
@@ -159,7 +159,7 @@ NAME
 VALUE
 )
 ;
-let
+const
 removeButton
 =
 widget
@@ -178,7 +178,7 @@ button
 "
 )
 ;
-let
+const
 onRender
 =
 widget
@@ -201,7 +201,7 @@ removeButton
 }
 )
 ;
-yield
+await
 onRender
 ;
 is
@@ -229,10 +229,10 @@ preset
 "
 )
 ;
-let
+const
 list
 =
-yield
+await
 widget
 .
 getPresets

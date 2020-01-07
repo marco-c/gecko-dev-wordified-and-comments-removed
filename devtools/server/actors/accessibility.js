@@ -447,7 +447,7 @@ false
 ;
 try
 {
-let
+const
 extraState
 =
 {
@@ -499,7 +499,7 @@ isStale
 accessible
 )
 {
-let
+const
 extraState
 =
 {
@@ -582,7 +582,7 @@ get
 (
 )
 {
-let
+const
 defunct
 =
 isDefunct
@@ -909,7 +909,7 @@ children
 (
 )
 {
-let
+const
 children
 =
 [
@@ -1008,7 +1008,7 @@ actions
 (
 )
 {
-let
+const
 actions
 =
 [
@@ -1081,13 +1081,13 @@ return
 ]
 ;
 }
-let
+const
 state
 =
 {
 }
 ;
-let
+const
 extState
 =
 {
@@ -1151,13 +1151,13 @@ return
 }
 ;
 }
-let
+const
 attributes
 =
 {
 }
 ;
-let
+const
 attrsEnum
 =
 this
@@ -1179,7 +1179,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 {
 key
 value
@@ -1816,7 +1816,7 @@ rawAccessible
 return
 ;
 }
-let
+const
 actor
 =
 this
@@ -1960,7 +1960,7 @@ getDocument
 ]
 )
 ;
-let
+const
 children
 =
 await
@@ -2034,7 +2034,7 @@ rootWin
 )
 )
 {
-let
+const
 doc
 =
 this
@@ -2060,7 +2060,7 @@ doc
 )
 ;
 }
-let
+const
 doc
 =
 this
@@ -2217,7 +2217,7 @@ getDocument
 (
 )
 ;
-let
+const
 ancestry
 =
 [
@@ -2320,7 +2320,7 @@ observe
 subject
 )
 {
-let
+const
 event
 =
 subject
@@ -2330,14 +2330,14 @@ QueryInterface
 nsIAccessibleEvent
 )
 ;
-let
+const
 rawAccessible
 =
 event
 .
 accessible
 ;
-let
+const
 accessible
 =
 this
@@ -2362,7 +2362,7 @@ nsIAccessibleDocument
 accessible
 )
 {
-let
+const
 rootDocAcc
 =
 this
@@ -2425,7 +2425,7 @@ eventType
 case
 EVENT_STATE_CHANGE
 :
-let
+const
 {
 state
 isEnabled
@@ -2438,7 +2438,7 @@ QueryInterface
 nsIAccessibleStateChangeEvent
 )
 ;
-let
+const
 isBusy
 =
 state
@@ -2875,7 +2875,7 @@ options
 }
 )
 {
-let
+const
 bounds
 =
 accessible
@@ -3161,7 +3161,7 @@ event
 return
 ;
 }
-let
+const
 accessible
 =
 await
@@ -3192,7 +3192,7 @@ _currentAccessible
 accessible
 )
 {
-let
+const
 {
 bounds
 }
@@ -3535,7 +3535,7 @@ getDocument
 (
 )
 ;
-let
+const
 accessible
 =
 this
@@ -3605,7 +3605,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 this
@@ -3712,7 +3712,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 this
@@ -4170,7 +4170,7 @@ return
 true
 ;
 }
-let
+const
 {
 PlatformAPI
 }
@@ -4243,7 +4243,7 @@ onMessage
 msg
 )
 {
-let
+const
 {
 topic
 data
@@ -4429,7 +4429,7 @@ canBeEnabled
 return
 ;
 }
-let
+const
 initPromise
 =
 this
@@ -4508,7 +4508,7 @@ disabling
 =
 true
 ;
-let
+const
 shutdownPromise
 =
 this
@@ -4693,7 +4693,7 @@ changed
 "
 )
 {
-let
+const
 {
 PlatformAPI
 }

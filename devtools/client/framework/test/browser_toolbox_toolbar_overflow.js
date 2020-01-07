@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 {
 Toolbox
 }
@@ -28,7 +28,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -56,7 +56,7 @@ dock
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -73,7 +73,7 @@ HostType
 BOTTOM
 )
 ;
-let
+const
 hostWindow
 =
 toolbox
@@ -82,14 +82,14 @@ win
 .
 parent
 ;
-let
+const
 originalWidth
 =
 hostWindow
 .
 outerWidth
 ;
-let
+const
 originalHeight
 =
 hostWindow
@@ -357,7 +357,7 @@ checked
 "
 )
 ;
-let
+const
 menuPopup
 =
 await
@@ -366,7 +366,7 @@ openChevronMenu
 toolbox
 )
 ;
-let
+const
 inspectorButton
 =
 toolbox
@@ -406,7 +406,7 @@ button
 "
 )
 ;
-let
+const
 consoleButton
 =
 toolbox
@@ -446,7 +446,7 @@ button
 "
 )
 ;
-let
+const
 storageButton
 =
 toolbox
@@ -500,7 +500,7 @@ popup
 "
 )
 ;
-let
+const
 onSelected
 =
 toolbox
@@ -537,7 +537,7 @@ popup
 "
 )
 ;
-let
+const
 onPopupHidden
 =
 once

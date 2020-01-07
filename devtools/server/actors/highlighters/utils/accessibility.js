@@ -33,7 +33,7 @@ h
 }
 )
 {
-let
+const
 {
 mozInnerScreenX
 mozInnerScreenY
@@ -43,7 +43,7 @@ scrollY
 =
 win
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -117,14 +117,14 @@ bottom
 =
 zoom
 ;
-let
+const
 width
 =
 right
 -
 left
 ;
-let
+const
 height
 =
 bottom

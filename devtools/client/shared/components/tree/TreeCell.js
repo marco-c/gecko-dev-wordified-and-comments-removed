@@ -240,7 +240,7 @@ object
 id
 )
 {
-let
+const
 decorator
 =
 this
@@ -369,7 +369,7 @@ this
 .
 props
 ;
-let
+const
 type
 =
 member
@@ -380,7 +380,7 @@ type
 "
 "
 ;
-let
+const
 classNames
 =
 this
@@ -450,7 +450,7 @@ id
 renderValue
 ;
 }
-let
+const
 props
 =
 Object
@@ -595,7 +595,7 @@ cellElement
 ;
 }
 }
-let
+const
 defaultRenderValue
 =
 props

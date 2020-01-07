@@ -490,7 +490,7 @@ JS_ASCII_FILENAME
 }
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -613,7 +613,7 @@ JS_UNICODE_FILENAME
 }
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -1064,7 +1064,7 @@ content
 ;
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -1134,7 +1134,7 @@ content
 ;
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -1270,7 +1270,7 @@ getVisibleLogs
 hud
 )
 {
-let
+const
 outputNode
 =
 hud

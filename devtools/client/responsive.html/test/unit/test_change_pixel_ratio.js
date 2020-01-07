@@ -40,7 +40,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 Store
@@ -71,7 +71,7 @@ NEW_PIXEL_RATIO
 )
 )
 ;
-let
+const
 viewport
 =
 getState

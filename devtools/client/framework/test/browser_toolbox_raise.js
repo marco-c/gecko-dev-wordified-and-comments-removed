@@ -64,7 +64,7 @@ addTab
 gBrowser
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -214,7 +214,7 @@ onFocus
 true
 )
 ;
-let
+const
 onToolboxFocus
 =
 (
@@ -304,7 +304,7 @@ onFocus
 true
 )
 ;
-let
+const
 onToolboxFocusAgain
 =
 (

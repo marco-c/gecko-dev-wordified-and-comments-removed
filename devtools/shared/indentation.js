@@ -56,7 +56,7 @@ getTabPrefs
 (
 )
 {
-let
+const
 indentWithTabs
 =
 !
@@ -69,7 +69,7 @@ getBoolPref
 EXPAND_TAB
 )
 ;
-let
+const
 indentUnit
 =
 Services
@@ -93,7 +93,7 @@ getIndentationFromPrefs
 (
 )
 {
-let
+const
 shouldDetect
 =
 Services
@@ -151,7 +151,7 @@ getIntPref
 TAB_SIZE
 )
 ;
-let
+const
 shouldDetect
 =
 Services
@@ -168,7 +168,7 @@ if
 shouldDetect
 )
 {
-let
+const
 indent
 =
 detectIndentation
@@ -217,7 +217,7 @@ getIndentationFromString
 string
 )
 {
-let
+const
 iteratorFn
 =
 function
@@ -227,7 +227,7 @@ end
 callback
 )
 {
-let
+const
 split
 =
 string
@@ -279,7 +279,7 @@ detectIndentation
 textIteratorFn
 )
 {
-let
+const
 spaces
 =
 {
@@ -386,7 +386,7 @@ total
 +
 ;
 }
-let
+const
 indent
 =
 Math
@@ -490,7 +490,7 @@ width
 10
 )
 ;
-let
+const
 tally
 =
 spaces

@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -100,7 +100,7 @@ state
 {
 for
 (
-let
+const
 selector
 of
 [
@@ -119,7 +119,7 @@ long
 ]
 )
 {
-let
+const
 playState
 =
 await

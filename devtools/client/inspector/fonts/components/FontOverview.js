@@ -229,7 +229,7 @@ renderElementFonts
 (
 )
 {
-let
+const
 {
 fontData
 fontOptions
@@ -241,7 +241,7 @@ this
 .
 props
 ;
-let
+const
 {
 fonts
 }
@@ -295,7 +295,7 @@ renderOtherFonts
 (
 )
 {
-let
+const
 {
 fontData
 fontOptions
@@ -306,7 +306,7 @@ this
 .
 props
 ;
-let
+const
 {
 otherFonts
 }

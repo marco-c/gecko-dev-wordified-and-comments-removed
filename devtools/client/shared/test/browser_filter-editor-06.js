@@ -100,17 +100,17 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -146,7 +146,7 @@ container
 "
 )
 ;
-let
+const
 widget
 =
 new
@@ -307,7 +307,7 @@ units
 ;
 for
 (
-let
+const
 [
 index
 filter
@@ -380,7 +380,7 @@ filter
 placeholder
 )
 {
-let
+const
 i
 =
 index

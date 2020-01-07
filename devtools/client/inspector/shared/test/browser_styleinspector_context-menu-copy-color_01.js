@@ -83,7 +83,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 }
@@ -141,7 +141,7 @@ select
 viewId
 )
 ;
-let
+const
 view
 =
 inspector
@@ -211,7 +211,7 @@ detected
 "
 )
 ;
-let
+const
 root
 =
 rootElement
@@ -219,7 +219,7 @@ rootElement
 view
 )
 ;
-let
+const
 colorNode
 =
 root
@@ -248,7 +248,7 @@ found
 ;
 for
 (
-let
+const
 node
 of
 iterateNodes
@@ -282,7 +282,7 @@ testIsColorPopupOnAllNodes
 view
 )
 {
-let
+const
 root
 =
 rootElement
@@ -292,7 +292,7 @@ view
 ;
 for
 (
-let
+const
 node
 of
 iterateNodes
@@ -343,7 +343,7 @@ _colorToCopy
 "
 "
 ;
-let
+const
 result
 =
 view
@@ -354,7 +354,7 @@ _isColorPopup
 (
 )
 ;
-let
+const
 correct
 =
 isColorValueNode
@@ -437,7 +437,7 @@ parentElement
 :
 node
 ;
-let
+const
 isColorNode
 =
 el
@@ -532,7 +532,7 @@ baseNode
 ;
 for
 (
-let
+const
 child
 of
 baseNode

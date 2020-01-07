@@ -504,7 +504,7 @@ node
 name
 )
 ;
-let
+const
 learnMoreNode
 =
 node

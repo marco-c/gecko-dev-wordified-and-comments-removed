@@ -431,14 +431,14 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
 .
 _doc
 ;
-let
+const
 screenshotCmd
 =
 doc
@@ -453,7 +453,7 @@ screenshot
 "
 )
 ;
-let
+const
 detailsCmd
 =
 doc
@@ -468,7 +468,7 @@ details
 "
 )
 ;
-let
+const
 disconnectCmd
 =
 doc
@@ -483,7 +483,7 @@ disconnect
 "
 )
 ;
-let
+const
 devicePrefsCmd
 =
 doc
@@ -498,7 +498,7 @@ preferences
 "
 )
 ;
-let
+const
 settingsCmd
 =
 doc
@@ -643,14 +643,14 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
 .
 _doc
 ;
-let
+const
 wifiHeaderNode
 =
 doc
@@ -699,7 +699,7 @@ true
 )
 ;
 }
-let
+const
 usbListNode
 =
 doc
@@ -716,7 +716,7 @@ usb
 "
 )
 ;
-let
+const
 wifiListNode
 =
 doc
@@ -733,7 +733,7 @@ wifi
 "
 )
 ;
-let
+const
 otherListNode
 =
 doc
@@ -750,7 +750,7 @@ other
 "
 )
 ;
-let
+const
 noHelperNode
 =
 doc
@@ -767,7 +767,7 @@ noadbhelper
 "
 )
 ;
-let
+const
 noUSBNode
 =
 doc
@@ -816,7 +816,7 @@ hidden
 )
 ;
 }
-let
+const
 runtimeList
 =
 AppManager
@@ -877,7 +877,7 @@ true
 }
 for
 (
-let
+const
 [
 type
 parent
@@ -925,7 +925,7 @@ remove
 }
 for
 (
-let
+const
 runtime
 of
 runtimeList
@@ -934,12 +934,12 @@ type
 ]
 )
 {
-let
+const
 r
 =
 runtime
 ;
-let
+const
 panelItemNode
 =
 doc
@@ -963,7 +963,7 @@ item
 complex
 "
 ;
-let
+const
 connectButton
 =
 doc
@@ -1048,7 +1048,7 @@ r
 configure
 )
 {
-let
+const
 configButton
 =
 doc

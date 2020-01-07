@@ -243,7 +243,7 @@ function
 (
 )
 {
-let
+const
 {
 canvas
 ctx
@@ -262,14 +262,14 @@ background
 "
 )
 ;
-let
+const
 width
 =
 this
 .
 _width
 ;
-let
+const
 height
 =
 this
@@ -344,7 +344,7 @@ source
 )
 ;
 }
-let
+const
 {
 canvas
 ctx
@@ -363,21 +363,21 @@ data
 "
 )
 ;
-let
+const
 width
 =
 this
 .
 _width
 ;
-let
+const
 height
 =
 this
 .
 _height
 ;
-let
+const
 totalSections
 =
 this
@@ -386,7 +386,7 @@ format
 .
 length
 ;
-let
+const
 totalTicks
 =
 this
@@ -395,7 +395,7 @@ _data
 .
 length
 ;
-let
+const
 firstTick
 =
 totalTicks
@@ -411,7 +411,7 @@ delta
 :
 0
 ;
-let
+const
 lastTick
 =
 totalTicks
@@ -429,7 +429,7 @@ delta
 :
 0
 ;
-let
+const
 duration
 =
 this
@@ -439,7 +439,7 @@ dataDuration
 |
 lastTick
 ;
-let
+const
 dataScaleX
 =
 this
@@ -456,7 +456,7 @@ this
 dataOffsetX
 )
 ;
-let
+const
 dataScaleY
 =
 this
@@ -469,7 +469,7 @@ this
 .
 dampenValuesFactor
 ;
-let
+const
 prevHeights
 =
 Array
@@ -575,7 +575,7 @@ tick
 +
 )
 {
-let
+const
 {
 delta
 values
@@ -588,7 +588,7 @@ _data
 tick
 ]
 ;
-let
+const
 currX
 =
 (
@@ -601,7 +601,7 @@ dataOffsetX
 *
 dataScaleX
 ;
-let
+const
 currY
 =
 values
@@ -611,7 +611,7 @@ section
 *
 dataScaleY
 ;
-let
+const
 prevY
 =
 prevHeights
@@ -746,7 +746,7 @@ beginPath
 (
 )
 ;
-let
+const
 maximumY
 =
 height
@@ -783,7 +783,7 @@ beginPath
 (
 )
 ;
-let
+const
 averageY
 =
 height

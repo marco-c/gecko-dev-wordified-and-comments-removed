@@ -383,7 +383,7 @@ none
 }
 for
 (
-let
+const
 functionName
 of
 [
@@ -436,7 +436,7 @@ this
 )
 ;
 }
-let
+const
 hUtils
 =
 gToolbox
@@ -1453,7 +1453,7 @@ timelineData
 =
 data
 ;
-let
+const
 {
 isMoving
 isUserDrag
@@ -1477,7 +1477,7 @@ paused
 isMoving
 )
 ;
-let
+const
 l10nPlayProperty
 =
 isMoving
@@ -1571,7 +1571,7 @@ function
 (
 )
 {
-let
+const
 {
 time
 }
@@ -1599,7 +1599,7 @@ refreshAnimationsStateAndUI
 {
 for
 (
-let
+const
 player
 of
 AnimationsController

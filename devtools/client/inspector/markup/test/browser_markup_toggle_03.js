@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -46,7 +46,7 @@ element
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -74,7 +74,7 @@ children
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -143,13 +143,13 @@ inspector
 ;
 for
 (
-let
+const
 nodeFront
 of
 nodeFronts
 )
 {
-let
+const
 nodeContainer
 =
 getContainerForNodeFront
@@ -263,13 +263,13 @@ inspector
 ;
 for
 (
-let
+const
 nodeFront
 of
 nodeFronts
 )
 {
-let
+const
 nodeContainer
 =
 getContainerForNodeFront
@@ -311,7 +311,7 @@ getNodeFronts
 inspector
 )
 {
-let
+const
 nodeList
 =
 await

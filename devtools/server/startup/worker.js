@@ -16,7 +16,7 @@ method
 params
 )
 {
-let
+const
 id
 =
 nextId
@@ -48,7 +48,7 @@ id
 )
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -288,7 +288,7 @@ function
 event
 )
 {
-let
+const
 packet
 =
 JSON
@@ -312,7 +312,7 @@ case
 connect
 "
 :
-let
+const
 connection
 =
 DebuggerServer
@@ -340,7 +340,7 @@ rpcs
 ]
 }
 ;
-let
+const
 pool
 =
 new
@@ -361,7 +361,7 @@ sources
 =
 null
 ;
-let
+const
 parent
 =
 {
@@ -438,7 +438,7 @@ window
 global
 }
 ;
-let
+const
 threadActor
 =
 new
@@ -461,7 +461,7 @@ threadActor
 =
 threadActor
 ;
-let
+const
 consoleActor
 =
 new
@@ -536,7 +536,7 @@ case
 rpc
 "
 :
-let
+const
 deferred
 =
 rpcDeferreds

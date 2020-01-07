@@ -34,7 +34,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -196,7 +196,7 @@ toggleSeveral
 "
 )
 ;
-let
+const
 players
 =
 await
@@ -535,7 +535,7 @@ animations
 ;
 for
 (
-let
+const
 selector
 of
 selectors
@@ -554,7 +554,7 @@ node
 selector
 )
 ;
-let
+const
 [
 player
 ]
@@ -593,7 +593,7 @@ animations
 selector
 )
 {
-let
+const
 node
 =
 await
@@ -625,7 +625,7 @@ selector
 expectedState
 )
 {
-let
+const
 state
 =
 await

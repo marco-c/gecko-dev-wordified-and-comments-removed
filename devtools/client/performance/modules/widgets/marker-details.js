@@ -254,7 +254,7 @@ function
 options
 )
 {
-let
+const
 {
 marker
 frames
@@ -268,7 +268,7 @@ empty
 (
 )
 ;
-let
+const
 elements
 =
 [
@@ -358,7 +358,7 @@ marker
 stack
 )
 {
-let
+const
 type
 =
 marker
@@ -404,7 +404,7 @@ marker
 endStack
 )
 {
-let
+const
 type
 =
 "
@@ -460,7 +460,7 @@ function
 e
 )
 {
-let
+const
 data
 =
 findActionFromEvent

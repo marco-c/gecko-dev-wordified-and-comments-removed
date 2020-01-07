@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -43,7 +43,7 @@ front
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -62,7 +62,7 @@ animation
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -90,7 +90,7 @@ method
 "
 )
 ;
-let
+const
 frames
 =
 await

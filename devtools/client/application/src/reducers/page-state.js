@@ -69,7 +69,7 @@ case
 UPDATE_DOMAIN
 :
 {
-let
+const
 {
 url
 }

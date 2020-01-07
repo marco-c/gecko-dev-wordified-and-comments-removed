@@ -187,7 +187,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -198,14 +198,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 searchBox
 }
 =
 inspector
 ;
-let
+const
 doc
 =
 inspector
@@ -248,7 +248,7 @@ searchbox
 ;
 for
 (
-let
+const
 {
 desc
 focused
@@ -265,7 +265,7 @@ desc
 ;
 for
 (
-let
+const
 {
 key
 options
@@ -274,7 +274,7 @@ of
 keys
 )
 {
-let
+const
 done
 =
 !

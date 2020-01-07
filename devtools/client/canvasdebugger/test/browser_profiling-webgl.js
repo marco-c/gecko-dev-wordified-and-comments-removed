@@ -4,7 +4,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 currentTime
 =
 window
@@ -291,7 +291,7 @@ function
 "
 )
 ;
-let
+const
 result
 =
 await

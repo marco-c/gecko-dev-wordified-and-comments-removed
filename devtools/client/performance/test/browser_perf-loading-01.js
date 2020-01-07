@@ -129,7 +129,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -147,7 +147,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 L10N
@@ -197,7 +197,7 @@ recording
 "
 )
 ;
-let
+const
 recordingStopping
 =
 once
@@ -219,7 +219,7 @@ stopping
 }
 )
 ;
-let
+const
 recordingStopped
 =
 once
@@ -241,7 +241,7 @@ stopped
 }
 )
 ;
-let
+const
 everythingStopped
 =
 stopRecording

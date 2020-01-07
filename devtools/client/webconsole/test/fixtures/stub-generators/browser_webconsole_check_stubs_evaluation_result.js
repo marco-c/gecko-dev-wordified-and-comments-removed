@@ -31,7 +31,7 @@ function
 (
 )
 {
-let
+const
 generatedStubs
 =
 await
@@ -39,7 +39,7 @@ generateEvaluationResultStubs
 (
 )
 ;
-let
+const
 repoStubFilePath
 =
 getTestFilePath
@@ -56,7 +56,7 @@ js
 "
 )
 ;
-let
+const
 repoStubFileContent
 =
 await

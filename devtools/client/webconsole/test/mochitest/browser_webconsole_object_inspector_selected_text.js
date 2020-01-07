@@ -35,7 +35,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -47,7 +47,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox

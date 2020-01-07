@@ -366,7 +366,7 @@ previousOffset
 ;
 for
 (
-let
+const
 keyframe
 of
 keyframes

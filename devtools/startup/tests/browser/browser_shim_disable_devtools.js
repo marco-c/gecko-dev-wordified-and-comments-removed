@@ -128,7 +128,7 @@ resolve
 =
 >
 {
-let
+const
 options
 =
 {
@@ -201,7 +201,7 @@ disabled
 "
 )
 ;
-let
+const
 win
 =
 OpenBrowserWindow
@@ -242,7 +242,7 @@ window
 "
 )
 ;
-let
+const
 tab
 =
 win
@@ -345,7 +345,7 @@ opened
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -354,7 +354,7 @@ selectedTab
 .
 linkedBrowser
 ;
-let
+const
 location
 =
 browser
@@ -403,7 +403,7 @@ page
 "
 )
 ;
-let
+const
 contextMenu
 =
 win
@@ -417,7 +417,7 @@ contentAreaContextMenu
 "
 )
 ;
-let
+const
 popupShownPromise
 =
 BrowserTestUtils
@@ -455,7 +455,7 @@ win
 await
 popupShownPromise
 ;
-let
+const
 inspectElementItem
 =
 contextMenu
@@ -497,7 +497,7 @@ menu
 "
 )
 ;
-let
+const
 onContextMenuHidden
 =
 BrowserTestUtils
@@ -519,7 +519,7 @@ hidePopup
 await
 onContextMenuHidden
 ;
-let
+const
 toolsMenu
 =
 win
@@ -552,7 +552,7 @@ hidden
 "
 )
 ;
-let
+const
 hamburgerMenu
 =
 win
@@ -608,7 +608,7 @@ window
 "
 )
 ;
-let
+const
 winClosed
 =
 BrowserTestUtils

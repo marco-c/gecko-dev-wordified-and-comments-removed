@@ -97,7 +97,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -109,7 +109,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -118,14 +118,14 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 store
 }
 =
 inspector
 ;
-let
+const
 gridList
 =
 doc
@@ -140,7 +140,7 @@ list
 "
 )
 ;
-let
+const
 elementRep
 =
 gridList
@@ -200,7 +200,7 @@ widget
 "
 )
 ;
-let
+const
 onHighlight
 =
 toolbox
@@ -233,7 +233,7 @@ doc
 defaultView
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -324,7 +324,7 @@ id
 "
 )
 ;
-let
+const
 onSelection
 =
 inspector

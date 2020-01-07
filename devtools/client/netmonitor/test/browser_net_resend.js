@@ -53,7 +53,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -76,7 +76,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -88,7 +88,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -108,7 +108,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSelectedRequest
 getSortedRequests
@@ -151,7 +151,7 @@ tab
 2
 )
 ;
-let
+const
 origItemId
 =
 getSortedRequests
@@ -510,14 +510,14 @@ item
 orig
 )
 {
-let
+const
 url
 =
 item
 .
 url
 ;
-let
+const
 expectedUrl
 =
 orig
@@ -636,7 +636,7 @@ url
 "
 )
 ;
-let
+const
 query
 =
 document
@@ -681,7 +681,7 @@ string
 "
 )
 ;
-let
+const
 headers
 =
 document
@@ -709,7 +709,7 @@ n
 ;
 for
 (
-let
+const
 {
 name
 value
@@ -746,7 +746,7 @@ request
 )
 ;
 }
-let
+const
 postData
 =
 document
@@ -800,7 +800,7 @@ focus
 (
 )
 ;
-let
+const
 query
 =
 document
@@ -816,7 +816,7 @@ value
 "
 )
 ;
-let
+const
 queryFocus
 =
 once
@@ -874,7 +874,7 @@ type
 ADD_QUERY
 )
 ;
-let
+const
 headers
 =
 document
@@ -890,7 +890,7 @@ value
 "
 )
 ;
-let
+const
 headersFocus
 =
 once
@@ -955,7 +955,7 @@ type
 ADD_UA_HEADER
 )
 ;
-let
+const
 postData
 =
 document
@@ -971,7 +971,7 @@ value
 "
 )
 ;
-let
+const
 postFocus
 =
 once
@@ -1079,7 +1079,7 @@ request
 "
 )
 ;
-let
+const
 {
 headers
 }
@@ -1088,7 +1088,7 @@ data
 .
 requestHeaders
 ;
-let
+const
 hasHeader
 =
 headers
@@ -1127,7 +1127,7 @@ request
 "
 )
 ;
-let
+const
 hasUAHeader
 =
 headers
@@ -1205,7 +1205,7 @@ string
 {
 for
 (
-let
+const
 ch
 of
 string

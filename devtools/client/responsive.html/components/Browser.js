@@ -237,7 +237,7 @@ resolve
 =
 >
 {
-let
+const
 handler
 =
 frameLoader
@@ -421,7 +421,7 @@ onContentResize
 msg
 )
 {
-let
+const
 {
 onContentResize
 }
@@ -430,7 +430,7 @@ this
 .
 props
 ;
-let
+const
 {
 width
 height
@@ -454,7 +454,7 @@ startFrameScript
 (
 )
 {
-let
+const
 {
 browser
 onContentResize
@@ -462,7 +462,7 @@ onContentResize
 =
 this
 ;
-let
+const
 mm
 =
 browser
@@ -482,7 +482,7 @@ OnContentResize
 onContentResize
 )
 ;
-let
+const
 ready
 =
 e10s
@@ -506,7 +506,7 @@ true
 await
 ready
 ;
-let
+const
 browserWindow
 =
 getToplevelWindow
@@ -514,7 +514,7 @@ getToplevelWindow
 window
 )
 ;
-let
+const
 requiresFloatingScrollbars
 =
 !
@@ -561,7 +561,7 @@ stopFrameScript
 (
 )
 {
-let
+const
 {
 browser
 onContentResize
@@ -569,7 +569,7 @@ onContentResize
 =
 this
 ;
-let
+const
 mm
 =
 browser

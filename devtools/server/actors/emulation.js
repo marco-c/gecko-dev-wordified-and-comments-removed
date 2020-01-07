@@ -69,7 +69,7 @@ simulator
 "
 )
 ;
-let
+const
 EmulationActor
 =
 protocol
@@ -203,7 +203,7 @@ return
 null
 ;
 }
-let
+const
 form
 =
 this
@@ -344,7 +344,7 @@ latency
 }
 )
 {
-let
+const
 throttleData
 =
 {
@@ -382,7 +382,7 @@ _setNetworkThrottling
 throttleData
 )
 {
-let
+const
 current
 =
 this
@@ -471,7 +471,7 @@ _previousNetworkThrottling
 current
 ;
 }
-let
+const
 consoleActor
 =
 this
@@ -530,7 +530,7 @@ getNetworkThrottling
 (
 )
 {
-let
+const
 throttleData
 =
 this
@@ -549,7 +549,7 @@ return
 null
 ;
 }
-let
+const
 {
 downloadBPSMax
 uploadBPSMax
@@ -576,7 +576,7 @@ _getNetworkThrottling
 (
 )
 {
-let
+const
 consoleActor
 =
 this
@@ -593,7 +593,7 @@ return
 null
 ;
 }
-let
+const
 prefs
 =
 consoleActor

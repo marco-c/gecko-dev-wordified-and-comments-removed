@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -47,7 +47,7 @@ element
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -77,7 +77,7 @@ children
 "
 )
 ;
-let
+const
 onChildren
 =
 waitForChildrenUpdated
@@ -85,7 +85,7 @@ waitForChildrenUpdated
 inspector
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -169,7 +169,7 @@ i
 +
 )
 {
-let
+const
 liContainer
 =
 await
@@ -304,7 +304,7 @@ i
 +
 )
 {
-let
+const
 liContainer
 =
 await

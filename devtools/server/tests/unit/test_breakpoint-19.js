@@ -188,7 +188,7 @@ function
 (
 )
 {
-let
+const
 source
 =
 await
@@ -198,7 +198,7 @@ gThreadClient
 URL
 )
 ;
-let
+const
 [
 response
 ]
@@ -222,7 +222,7 @@ response
 error
 )
 ;
-let
+const
 actor
 =
 response
@@ -247,7 +247,7 @@ resume
 gThreadClient
 )
 ;
-let
+const
 packet
 =
 await

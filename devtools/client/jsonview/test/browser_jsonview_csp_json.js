@@ -31,7 +31,7 @@ started
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -40,7 +40,7 @@ addJsonViewTab
 TEST_JSON_URL
 )
 ;
-let
+const
 count
 =
 await
@@ -91,7 +91,7 @@ function
 (
 )
 {
-let
+const
 responseHeaders
 =
 content
@@ -106,7 +106,7 @@ netHeadersGroup
 "
 )
 ;
-let
+const
 names
 =
 responseHeaders
@@ -126,7 +126,7 @@ false
 ;
 for
 (
-let
+const
 name
 of
 names
@@ -170,7 +170,7 @@ found
 =
 true
 ;
-let
+const
 value
 =
 name
@@ -179,7 +179,7 @@ nextElementSibling
 .
 textContent
 ;
-let
+const
 expected
 =
 "

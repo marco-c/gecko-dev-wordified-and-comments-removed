@@ -72,7 +72,7 @@ listeningSockets
 0
 )
 ;
-let
+const
 AuthenticatorType
 =
 DebuggerServer
@@ -86,7 +86,7 @@ PROMPT
 "
 )
 ;
-let
+const
 authenticator
 =
 new
@@ -114,7 +114,7 @@ ALLOW
 ;
 }
 ;
-let
+const
 listener
 =
 DebuggerServer
@@ -240,14 +240,14 @@ toTimeString
 )
 )
 ;
-let
+const
 unicodeString
 =
 "
 (
 "
 ;
-let
+const
 transport
 =
 await
@@ -273,7 +273,7 @@ gPort
 }
 )
 ;
-let
+const
 settings
 =
 transport
@@ -308,7 +308,7 @@ port
 gPort
 )
 ;
-let
+const
 closedDeferred
 =
 defer
@@ -597,7 +597,7 @@ test_pipe_conn
 (
 )
 {
-let
+const
 transport
 =
 DebuggerServer

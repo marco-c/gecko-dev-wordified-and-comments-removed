@@ -104,7 +104,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -117,7 +117,7 @@ blank
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -134,7 +134,7 @@ registerTool
 testToolDefinition
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -148,7 +148,7 @@ testToolDefinition
 id
 )
 ;
-let
+const
 toolPanel
 =
 toolbox
@@ -160,7 +160,7 @@ testToolDefinition
 id
 )
 ;
-let
+const
 tabbox
 =
 toolPanel
@@ -184,7 +184,7 @@ widget
 "
 )
 ;
-let
+const
 sidebar
 =
 new

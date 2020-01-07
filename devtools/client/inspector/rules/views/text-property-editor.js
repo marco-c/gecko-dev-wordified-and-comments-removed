@@ -911,7 +911,7 @@ this
 .
 prop
 ;
-let
+const
 outputParser
 =
 this
@@ -920,7 +920,7 @@ ruleView
 .
 _outputParser
 ;
-let
+const
 frag
 =
 outputParser
@@ -939,7 +939,7 @@ prop
 value
 )
 ;
-let
+const
 parsedValue
 =
 frag
@@ -1349,7 +1349,7 @@ event
 =
 >
 {
-let
+const
 clickedEl
 =
 event
@@ -1376,7 +1376,7 @@ _hasPendingClick
 =
 true
 ;
-let
+const
 matchedSelector
 =
 ACTIONABLE_ELEMENTS_SELECTORS
@@ -1401,7 +1401,7 @@ if
 matchedSelector
 )
 {
-let
+const
 similarElements
 =
 [
@@ -1485,7 +1485,7 @@ event
 =
 >
 {
-let
+const
 target
 =
 event
@@ -1517,7 +1517,7 @@ preventDefault
 (
 )
 ;
-let
+const
 browserWin
 =
 this
@@ -1666,7 +1666,7 @@ function
 (
 )
 {
-let
+const
 gridLineNames
 =
 {
@@ -1680,7 +1680,7 @@ rows
 ]
 }
 ;
-let
+const
 layoutInspector
 =
 await
@@ -1696,7 +1696,7 @@ getLayoutInspector
 (
 )
 ;
-let
+const
 gridFront
 =
 await
@@ -1720,7 +1720,7 @@ if
 gridFront
 )
 {
-let
+const
 gridFragments
 =
 gridFront
@@ -1729,7 +1729,7 @@ gridFragments
 ;
 for
 (
-let
+const
 gridFragment
 of
 gridFragments
@@ -1737,7 +1737,7 @@ gridFragments
 {
 for
 (
-let
+const
 rowLine
 of
 gridFragment
@@ -1765,7 +1765,7 @@ names
 }
 for
 (
-let
+const
 colLine
 of
 gridFragment
@@ -1821,7 +1821,7 @@ sheetHref
 (
 )
 {
-let
+const
 domRule
 =
 this
@@ -1874,7 +1874,7 @@ updatePropertyState
 (
 )
 ;
-let
+const
 name
 =
 this
@@ -1891,7 +1891,7 @@ textContent
 =
 name
 ;
-let
+const
 store
 =
 this
@@ -1947,7 +1947,7 @@ prop
 priority
 ;
 }
-let
+const
 propDirty
 =
 store
@@ -1997,7 +1997,7 @@ dirty
 )
 ;
 }
-let
+const
 outputParser
 =
 this
@@ -2006,7 +2006,7 @@ ruleView
 .
 _outputParser
 ;
-let
+const
 parserOptions
 =
 {
@@ -2151,7 +2151,7 @@ varName
 )
 }
 ;
-let
+const
 frag
 =
 outputParser
@@ -2199,7 +2199,7 @@ this
 valueSpan
 )
 ;
-let
+const
 fontFamilySpans
 =
 this
@@ -2282,7 +2282,7 @@ null
 ;
 for
 (
-let
+const
 span
 of
 fontFamilySpans
@@ -2441,7 +2441,7 @@ isEditable
 {
 for
 (
-let
+const
 span
 of
 this
@@ -2503,7 +2503,7 @@ this
 _onSwatchCommit
 )
 ;
-let
+const
 title
 =
 l10n
@@ -2569,7 +2569,7 @@ isEditable
 {
 for
 (
-let
+const
 span
 of
 this
@@ -2617,7 +2617,7 @@ _onSwatchRevert
 }
 )
 ;
-let
+const
 title
 =
 l10n
@@ -2643,7 +2643,7 @@ title
 ;
 }
 }
-let
+const
 span
 =
 this
@@ -2721,7 +2721,7 @@ outputParser
 parserOptions
 )
 ;
-let
+const
 title
 =
 l10n
@@ -2775,7 +2775,7 @@ isEditable
 {
 for
 (
-let
+const
 angleSpan
 of
 this
@@ -2797,7 +2797,7 @@ this
 _onSwatchCommit
 )
 ;
-let
+const
 title
 =
 l10n
@@ -2823,7 +2823,7 @@ title
 ;
 }
 }
-let
+const
 flexToggle
 =
 this
@@ -2900,7 +2900,7 @@ active
 ;
 }
 }
-let
+const
 gridToggle
 =
 this
@@ -2977,7 +2977,7 @@ active
 ;
 }
 }
-let
+const
 shapeToggle
 =
 this
@@ -2999,7 +2999,7 @@ if
 shapeToggle
 )
 {
-let
+const
 mode
 =
 "
@@ -3087,7 +3087,7 @@ _clickedElementOptions
 null
 )
 {
-let
+const
 {
 selector
 index
@@ -3369,7 +3369,7 @@ rule
 .
 isUnmatched
 ;
-let
+const
 showExpander
 =
 this
@@ -3501,7 +3501,7 @@ innerHTML
 "
 "
 ;
-let
+const
 showExpander
 =
 this
@@ -3606,7 +3606,7 @@ true
 ;
 for
 (
-let
+const
 computed
 of
 this
@@ -3714,7 +3714,7 @@ true
 ;
 for
 (
-let
+const
 computed
 of
 this
@@ -3776,7 +3776,7 @@ computed
 className
 )
 {
-let
+const
 li
 =
 createChild
@@ -3848,7 +3848,7 @@ li
 "
 )
 ;
-let
+const
 outputParser
 =
 this
@@ -3857,7 +3857,7 @@ ruleView
 .
 _outputParser
 ;
-let
+const
 frag
 =
 outputParser
@@ -3957,7 +3957,7 @@ function
 event
 )
 {
-let
+const
 checked
 =
 this
@@ -4309,7 +4309,7 @@ commit
 direction
 )
 {
-let
+const
 isNameUnchanged
 =
 (
@@ -4421,7 +4421,7 @@ direction
 return
 ;
 }
-let
+const
 properties
 =
 parseDeclarations
@@ -4559,7 +4559,7 @@ length
 {
 for
 (
-let
+const
 span
 of
 this
@@ -4617,7 +4617,7 @@ length
 {
 for
 (
-let
+const
 span
 of
 this
@@ -4700,7 +4700,7 @@ commit
 direction
 )
 {
-let
+const
 parsedProperties
 =
 this
@@ -4710,7 +4710,7 @@ _getValueAndExtraProperties
 value
 )
 ;
-let
+const
 val
 =
 parseSingleValue
@@ -4725,7 +4725,7 @@ parsedProperties
 firstValue
 )
 ;
-let
+const
 isValueUnchanged
 =
 (
@@ -5092,7 +5092,7 @@ propertiesToAdd
 [
 ]
 ;
-let
+const
 properties
 =
 parseDeclarations
@@ -5245,7 +5245,7 @@ isEditing
 return
 ;
 }
-let
+const
 val
 =
 parseSingleValue

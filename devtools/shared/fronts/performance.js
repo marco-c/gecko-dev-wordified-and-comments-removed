@@ -182,7 +182,7 @@ function
 (
 )
 {
-let
+const
 systemClient
 =
 await
@@ -190,7 +190,7 @@ getSystemInfo
 (
 )
 ;
-let
+const
 {
 traits
 }
@@ -289,7 +289,7 @@ void
 0
 ;
 }
-let
+const
 {
 position
 :
@@ -304,7 +304,7 @@ this
 .
 _currentBufferStatus
 ;
-let
+const
 {
 position
 :
@@ -320,7 +320,7 @@ getStartingBufferStatus
 (
 )
 ;
-let
+const
 normalizedCurrent
 =
 (
@@ -335,7 +335,7 @@ origGeneration
 +
 currentPosition
 ;
-let
+const
 percent
 =
 (
@@ -394,7 +394,7 @@ recordingData
 =
 >
 {
-let
+const
 model
 =
 new
@@ -551,7 +551,7 @@ recordings
 {
 for
 (
-let
+const
 recording
 of
 recordings

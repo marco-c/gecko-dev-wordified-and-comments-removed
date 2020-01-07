@@ -215,13 +215,13 @@ event
 columns
 )
 {
-let
+const
 menu
 =
 [
 ]
 ;
-let
+const
 subMenu
 =
 {
@@ -235,7 +235,7 @@ responseHeaders
 ]
 }
 ;
-let
+const
 visibleColumns
 =
 Object
@@ -258,7 +258,7 @@ shown
 shown
 )
 ;
-let
+const
 onlyOneColumn
 =
 visibleColumns
@@ -271,13 +271,13 @@ length
 ;
 for
 (
-let
+const
 column
 in
 columns
 )
 {
-let
+const
 shown
 =
 columns
@@ -285,7 +285,7 @@ columns
 column
 ]
 ;
-let
+const
 label
 =
 nonLocalizedHeaders
@@ -322,7 +322,7 @@ column
 }
 )
 ;
-let
+const
 entry
 =
 {

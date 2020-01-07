@@ -38,7 +38,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -61,7 +61,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 show
 hide
@@ -91,7 +91,7 @@ html
 "
 )
 ;
-let
+const
 hidden
 =
 await

@@ -32,7 +32,7 @@ testCtrlA
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -41,7 +41,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 jsterm
 =
 hud
@@ -60,7 +60,7 @@ Words
 "
 )
 ;
-let
+const
 inputNode
 =
 jsterm
@@ -81,7 +81,7 @@ true
 }
 )
 ;
-let
+const
 inputLength
 =
 inputNode

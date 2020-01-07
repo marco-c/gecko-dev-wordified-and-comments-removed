@@ -88,7 +88,7 @@ toolbox
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -100,14 +100,14 @@ webconsole
 "
 )
 ;
-let
+const
 doc
 =
 toolbox
 .
 doc
 ;
-let
+const
 toolbar
 =
 doc
@@ -122,7 +122,7 @@ tabbar
 "
 )
 ;
-let
+const
 toolbarControls
 =
 [
@@ -439,7 +439,7 @@ KEY_ArrowLeft
 ;
 }
 }
-let
+const
 expectedFocusedControl
 =
 toolbarControls
@@ -566,7 +566,7 @@ toolbox
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -578,14 +578,14 @@ inspector
 "
 )
 ;
-let
+const
 doc
 =
 toolbox
 .
 doc
 ;
-let
+const
 toolbar
 =
 doc
@@ -600,7 +600,7 @@ tabs
 "
 )
 ;
-let
+const
 tabButtons
 =
 toolbar
@@ -616,7 +616,7 @@ button
 "
 )
 ;
-let
+const
 win
 =
 tabButtons

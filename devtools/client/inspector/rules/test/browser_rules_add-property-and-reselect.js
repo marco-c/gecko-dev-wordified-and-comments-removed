@@ -27,7 +27,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -112,7 +112,7 @@ setPropertyOnAllRules
 view
 )
 {
-let
+const
 onRefreshed
 =
 view
@@ -128,7 +128,7 @@ refreshed
 ;
 for
 (
-let
+const
 rule
 of
 view
@@ -170,7 +170,7 @@ view
 {
 for
 (
-let
+const
 rule
 of
 view
@@ -180,7 +180,7 @@ _elementStyle
 rules
 )
 {
-let
+const
 lastRule
 =
 rule

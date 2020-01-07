@@ -206,7 +206,7 @@ function
 payload
 )
 {
-let
+const
 AuthenticatorType
 =
 DebuggerServer
@@ -220,7 +220,7 @@ PROMPT
 "
 )
 ;
-let
+const
 authenticator
 =
 new
@@ -248,7 +248,7 @@ ALLOW
 ;
 }
 ;
-let
+const
 listener
 =
 DebuggerServer
@@ -276,7 +276,7 @@ open
 (
 )
 ;
-let
+const
 transport
 =
 await
@@ -304,7 +304,7 @@ port
 }
 )
 ;
-let
+const
 closedDeferred
 =
 defer

@@ -70,7 +70,7 @@ local
 "
 }
 ;
-let
+const
 {
 tab
 monitor
@@ -82,7 +82,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -93,7 +93,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -132,7 +132,7 @@ performRequests
 ;
 for
 (
-let
+const
 subitemNode
 of
 Array
@@ -164,7 +164,7 @@ domain
 )
 )
 {
-let
+const
 domain
 =
 subitemNode
@@ -213,7 +213,7 @@ expected
 "
 )
 ;
-let
+const
 classes
 =
 subitemNode
@@ -234,7 +234,7 @@ icon
 .
 classList
 ;
-let
+const
 expectedClass
 =
 EXPECTED_SECURITY_STATES

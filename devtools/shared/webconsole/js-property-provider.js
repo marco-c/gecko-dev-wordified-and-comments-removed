@@ -166,7 +166,7 @@ findCompletionBeginning
 str
 )
 {
-let
+const
 bodyStack
 =
 [
@@ -327,7 +327,7 @@ c
 )
 )
 {
-let
+const
 last
 =
 bodyStack
@@ -563,7 +563,7 @@ substring
 cursor
 )
 ;
-let
+const
 beginning
 =
 findCompletionBeginning
@@ -596,7 +596,7 @@ return
 null
 ;
 }
-let
+const
 completionPart
 =
 inputValue
@@ -608,7 +608,7 @@ beginning
 startPos
 )
 ;
-let
+const
 lastDot
 =
 completionPart
@@ -648,7 +648,7 @@ lastDot
 0
 )
 {
-let
+const
 parser
 =
 new
@@ -662,7 +662,7 @@ logExceptions
 =
 false
 ;
-let
+const
 syntaxTree
 =
 parser
@@ -678,7 +678,7 @@ lastDot
 )
 )
 ;
-let
+const
 lastTree
 =
 syntaxTree
@@ -687,7 +687,7 @@ getLastSyntaxTree
 (
 )
 ;
-let
+const
 lastBody
 =
 lastTree
@@ -715,14 +715,14 @@ if
 lastBody
 )
 {
-let
+const
 expression
 =
 lastBody
 .
 expression
 ;
-let
+const
 matchProp
 =
 completionPart
@@ -797,7 +797,7 @@ matchProp
 }
 }
 }
-let
+const
 properties
 =
 completionPart
@@ -809,7 +809,7 @@ split
 "
 )
 ;
-let
+const
 matchProp
 =
 properties
@@ -827,7 +827,7 @@ obj
 =
 dbgObject
 ;
-let
+const
 env
 =
 anEnvironment
@@ -858,7 +858,7 @@ matchProp
 )
 ;
 }
-let
+const
 firstProp
 =
 properties
@@ -959,7 +959,7 @@ i
 +
 )
 {
-let
+const
 prop
 =
 properties
@@ -1061,7 +1061,7 @@ env
 prop
 )
 {
-let
+const
 propWithoutIndices
 =
 prop
@@ -1122,7 +1122,7 @@ null
 let
 result
 ;
-let
+const
 arrayIndicesRegex
 =
 /
@@ -1157,7 +1157,7 @@ prop
 null
 )
 {
-let
+const
 indexWithBrackets
 =
 result
@@ -1165,7 +1165,7 @@ result
 0
 ]
 ;
-let
+const
 indexAsText
 =
 indexWithBrackets
@@ -1180,7 +1180,7 @@ length
 2
 )
 ;
-let
+const
 index
 =
 parseInt
@@ -1371,7 +1371,7 @@ getProperties
 }
 )
 {
-let
+const
 matches
 =
 new
@@ -1384,7 +1384,7 @@ numProps
 =
 0
 ;
-let
+const
 iter
 =
 chainIterator
@@ -1399,7 +1399,7 @@ of
 iter
 )
 {
-let
+const
 props
 =
 getProperties
@@ -1460,7 +1460,7 @@ i
 +
 )
 {
-let
+const
 prop
 =
 props
@@ -1562,7 +1562,7 @@ getProperty
 }
 )
 {
-let
+const
 iter
 =
 chainIterator
@@ -1577,7 +1577,7 @@ of
 iter
 )
 {
-let
+const
 prop
 =
 getProperty
@@ -1815,7 +1815,7 @@ function
 obj
 )
 {
-let
+const
 names
 =
 obj

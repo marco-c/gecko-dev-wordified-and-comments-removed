@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -37,7 +37,7 @@ uniqueKey
 false
 )
 ;
-let
+const
 id
 =
 getCookieId
@@ -58,7 +58,7 @@ browser
 "
 )
 ;
-yield
+await
 startCellEdit
 (
 id
@@ -67,7 +67,7 @@ name
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -78,7 +78,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -92,7 +92,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -103,7 +103,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -123,7 +123,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -134,7 +134,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -145,7 +145,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 typeWithTerminator
 (
 "
@@ -156,7 +156,7 @@ KEY_Tab
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

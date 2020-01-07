@@ -631,7 +631,7 @@ null
 ;
 for
 (
-let
+const
 sheet
 of
 this
@@ -864,7 +864,7 @@ item
 )
 ;
 }
-let
+const
 actor
 =
 StyleRuleActor
@@ -930,7 +930,7 @@ function
 sheet
 )
 {
-let
+const
 tabActor
 =
 this
@@ -939,7 +939,7 @@ inspector
 .
 tabActor
 ;
-let
+const
 actor
 =
 tabActor
@@ -961,7 +961,7 @@ node
 options
 )
 {
-let
+const
 ret
 =
 Object
@@ -999,7 +999,7 @@ node
 rawNode
 )
 ;
-let
+const
 computed
 =
 this
@@ -1093,7 +1093,7 @@ options
 onlyMatched
 )
 {
-let
+const
 matched
 =
 this
@@ -1112,7 +1112,7 @@ ret
 ;
 for
 (
-let
+const
 key
 in
 ret
@@ -1170,7 +1170,7 @@ function
 options
 )
 {
-let
+const
 windows
 =
 this
@@ -1189,7 +1189,7 @@ fontsList
 ;
 for
 (
-let
+const
 win
 of
 windows
@@ -1231,7 +1231,7 @@ node
 options
 )
 {
-let
+const
 actualNode
 =
 node
@@ -1241,14 +1241,14 @@ rawNode
 |
 node
 ;
-let
+const
 contentDocument
 =
 actualNode
 .
 ownerDocument
 ;
-let
+const
 rng
 =
 contentDocument
@@ -1264,7 +1264,7 @@ selectNodeContents
 actualNode
 )
 ;
-let
+const
 fonts
 =
 InspectorUtils
@@ -1274,7 +1274,7 @@ getUsedFontFaces
 rng
 )
 ;
-let
+const
 fontsArray
 =
 [
@@ -1298,7 +1298,7 @@ i
 +
 )
 {
-let
+const
 font
 =
 fonts
@@ -1306,7 +1306,7 @@ fonts
 i
 ]
 ;
-let
+const
 fontFace
 =
 {
@@ -1354,7 +1354,7 @@ font
 rule
 )
 {
-let
+const
 styleActor
 =
 StyleRuleActor
@@ -1497,7 +1497,7 @@ options
 includePreviews
 )
 {
-let
+const
 opts
 =
 {
@@ -1526,7 +1526,7 @@ options
 previewFillStyle
 }
 ;
-let
+const
 {
 dataURL
 size
@@ -1772,7 +1772,7 @@ node
 rawNode
 )
 ;
-let
+const
 rules
 =
 new
@@ -1780,7 +1780,7 @@ Set
 (
 )
 ;
-let
+const
 sheets
 =
 new
@@ -1788,13 +1788,13 @@ Set
 (
 )
 ;
-let
+const
 matched
 =
 [
 ]
 ;
-let
+const
 propInfo
 =
 this
@@ -1808,7 +1808,7 @@ property
 ;
 for
 (
-let
+const
 selectorInfo
 of
 propInfo
@@ -1816,7 +1816,7 @@ propInfo
 matchedSelectors
 )
 {
-let
+const
 cssRule
 =
 selectorInfo
@@ -1825,7 +1825,7 @@ selector
 .
 cssRule
 ;
-let
+const
 domRule
 =
 cssRule
@@ -1837,7 +1837,7 @@ cssRule
 .
 domRule
 ;
-let
+const
 rule
 =
 this
@@ -1955,7 +1955,7 @@ selectorInfo
 elementStyle
 )
 {
-let
+const
 source
 =
 selectorInfo
@@ -2066,7 +2066,7 @@ options
 )
 )
 ;
-let
+const
 result
 =
 this
@@ -2080,7 +2080,7 @@ options
 ;
 for
 (
-let
+const
 rule
 of
 result
@@ -2164,7 +2164,7 @@ return
 false
 ;
 }
-let
+const
 props
 =
 getDefinedGeometryProperties
@@ -2224,7 +2224,7 @@ inherited
 options
 )
 {
-let
+const
 {
 bindingElement
 pseudo
@@ -2239,7 +2239,7 @@ node
 rawNode
 )
 ;
-let
+const
 rules
 =
 [
@@ -2261,7 +2261,7 @@ return
 rules
 ;
 }
-let
+const
 elementStyle
 =
 this
@@ -2271,7 +2271,7 @@ _styleRef
 bindingElement
 )
 ;
-let
+const
 showElementStyles
 =
 !
@@ -2281,7 +2281,7 @@ inherited
 !
 pseudo
 ;
-let
+const
 showInheritedStyles
 =
 inherited
@@ -2296,7 +2296,7 @@ bindingElement
 style
 )
 ;
-let
+const
 rule
 =
 {
@@ -2391,7 +2391,7 @@ skipPseudo
 {
 for
 (
-let
+const
 readPseudo
 of
 PSEUDO_ELEMENTS
@@ -2439,7 +2439,7 @@ inherited
 options
 )
 {
-let
+const
 domRules
 =
 InspectorUtils
@@ -2461,7 +2461,7 @@ return
 ]
 ;
 }
-let
+const
 rules
 =
 [
@@ -2488,7 +2488,7 @@ i
 -
 )
 {
-let
+const
 domRule
 =
 domRules
@@ -2496,7 +2496,7 @@ domRules
 i
 ]
 ;
-let
+const
 isSystem
 =
 !
@@ -2534,7 +2534,7 @@ if
 inherited
 )
 {
-let
+const
 hasInherited
 =
 [
@@ -2569,7 +2569,7 @@ continue
 ;
 }
 }
-let
+const
 ruleActor
 =
 this
@@ -2790,7 +2790,7 @@ matchedSelectors
 {
 for
 (
-let
+const
 entry
 of
 entries
@@ -2812,7 +2812,7 @@ ELEMENT_STYLE
 continue
 ;
 }
-let
+const
 domRule
 =
 entry
@@ -2821,7 +2821,7 @@ rule
 .
 rawRule
 ;
-let
+const
 selectors
 =
 CssLogic
@@ -2831,7 +2831,7 @@ getSelectors
 domRule
 )
 ;
-let
+const
 element
 =
 entry
@@ -2848,7 +2848,7 @@ node
 .
 rawNode
 ;
-let
+const
 {
 bindingElement
 pseudo
@@ -2915,7 +2915,7 @@ i
 }
 }
 }
-let
+const
 computedStyle
 =
 this
@@ -2965,7 +2965,7 @@ animationNames
 {
 for
 (
-let
+const
 keyframesRule
 of
 this
@@ -2992,7 +2992,7 @@ name
 {
 for
 (
-let
+const
 rule
 of
 keyframesRule
@@ -3029,7 +3029,7 @@ keyframesRule
 }
 }
 }
-let
+const
 rules
 =
 new
@@ -3037,7 +3037,7 @@ Set
 (
 )
 ;
-let
+const
 sheets
 =
 new
@@ -3104,7 +3104,7 @@ sheetSet
 {
 for
 (
-let
+const
 rule
 of
 ruleSet
@@ -3119,7 +3119,7 @@ rawRule
 parentRule
 )
 {
-let
+const
 parent
 =
 this
@@ -3162,7 +3162,7 @@ rawRule
 parentStyleSheet
 )
 {
-let
+const
 parent
 =
 this
@@ -3199,7 +3199,7 @@ parent
 }
 for
 (
-let
+const
 sheet
 of
 sheetSet
@@ -3214,7 +3214,7 @@ rawSheet
 parentStyleSheet
 )
 {
-let
+const
 parent
 =
 this
@@ -3269,13 +3269,13 @@ node
 rawNode
 )
 ;
-let
+const
 layout
 =
 {
 }
 ;
-let
+const
 clientRect
 =
 node
@@ -3318,7 +3318,7 @@ toPrecision
 )
 )
 ;
-let
+const
 style
 =
 CssLogic
@@ -3332,7 +3332,7 @@ rawNode
 ;
 for
 (
-let
+const
 prop
 of
 [
@@ -3479,7 +3479,7 @@ cssLogic
 }
 for
 (
-let
+const
 i
 in
 this
@@ -3487,7 +3487,7 @@ this
 map
 )
 {
-let
+const
 property
 =
 this
@@ -3530,7 +3530,7 @@ function
 cssLogic
 )
 {
-let
+const
 margins
 =
 {
@@ -3538,7 +3538,7 @@ margins
 ;
 for
 (
-let
+const
 prop
 of
 [
@@ -3557,7 +3557,7 @@ right
 ]
 )
 {
-let
+const
 info
 =
 cssLogic
@@ -3572,7 +3572,7 @@ margin
 prop
 )
 ;
-let
+const
 selectors
 =
 info
@@ -3700,7 +3700,7 @@ document
 )
 )
 {
-let
+const
 style
 =
 document
@@ -3766,7 +3766,7 @@ node
 rule
 )
 {
-let
+const
 ruleActor
 =
 this
@@ -3807,7 +3807,7 @@ editAuthored
 false
 )
 {
-let
+const
 style
 =
 this
@@ -3821,28 +3821,28 @@ rawNode
 ownerDocument
 )
 ;
-let
+const
 sheet
 =
 style
 .
 sheet
 ;
-let
+const
 cssRules
 =
 sheet
 .
 cssRules
 ;
-let
+const
 rawNode
 =
 node
 .
 rawNode
 ;
-let
+const
 classes
 =
 [
@@ -3952,7 +3952,7 @@ join
 )
 ;
 }
-let
+const
 index
 =
 sheet
@@ -3975,7 +3975,7 @@ if
 editAuthored
 )
 {
-let
+const
 sheetActor
 =
 this
@@ -4576,7 +4576,7 @@ this
 actorID
 ;
 }
-let
+const
 form
 =
 {
@@ -4796,7 +4796,7 @@ break
 case
 ELEMENT_STYLE
 :
-let
+const
 doc
 =
 this
@@ -4962,7 +4962,7 @@ form
 cssText
 )
 {
-let
+const
 declarations
 =
 parseNamedDeclarations
@@ -4979,7 +4979,7 @@ cssText
 true
 )
 ;
-let
+const
 CSS
 =
 this
@@ -5089,7 +5089,7 @@ this
 .
 rawRule
 ;
-let
+const
 result
 =
 [
@@ -5225,7 +5225,7 @@ null
 ;
 for
 (
-let
+const
 i
 of
 this
@@ -5320,7 +5320,7 @@ this
 _ruleIndex
 )
 {
-let
+const
 oldRule
 =
 this
@@ -5353,7 +5353,7 @@ rawRule
 this
 )
 ;
-let
+const
 line
 =
 InspectorUtils
@@ -5365,7 +5365,7 @@ this
 rawRule
 )
 ;
-let
+const
 column
 =
 InspectorUtils
@@ -5493,7 +5493,7 @@ authoredText
 )
 ;
 }
-let
+const
 parentStyleSheet
 =
 this
@@ -5522,14 +5522,14 @@ longStr
 =
 >
 {
-let
+const
 cssText
 =
 longStr
 .
 str
 ;
-let
+const
 {
 text
 }
@@ -5613,7 +5613,7 @@ newText
 }
 else
 {
-let
+const
 parentStyleSheet
 =
 this
@@ -5641,7 +5641,7 @@ getText
 (
 )
 ;
-let
+const
 {
 offset
 text
@@ -5763,7 +5763,7 @@ parentStyleSheet
 )
 ;
 }
-let
+const
 tempElement
 =
 document
@@ -5778,7 +5778,7 @@ div
 ;
 for
 (
-let
+const
 mod
 of
 modifications
@@ -5885,14 +5885,14 @@ value
 editAuthored
 )
 {
-let
+const
 rule
 =
 this
 .
 rawRule
 ;
-let
+const
 parentStyleSheet
 =
 this
@@ -5904,7 +5904,7 @@ if
 editAuthored
 )
 {
-let
+const
 document
 =
 this
@@ -5935,7 +5935,7 @@ return
 null
 ;
 }
-let
+const
 sheetActor
 =
 this
@@ -5961,7 +5961,7 @@ getText
 (
 )
 ;
-let
+const
 [
 startOffset
 endOffset
@@ -6010,21 +6010,21 @@ UPDATE_PRESERVING_RULES
 }
 else
 {
-let
+const
 cssRules
 =
 parentStyleSheet
 .
 cssRules
 ;
-let
+const
 cssText
 =
 rule
 .
 cssText
 ;
-let
+const
 selectorText
 =
 rule
@@ -6065,7 +6065,7 @@ i
 {
 try
 {
-let
+const
 ruleText
 =
 cssText
@@ -6148,7 +6148,7 @@ return
 false
 ;
 }
-let
+const
 document
 =
 this
@@ -6160,7 +6160,7 @@ this
 _parentSheet
 )
 ;
-let
+const
 [
 selector
 ]
@@ -6316,7 +6316,7 @@ if
 newCssRule
 )
 {
-let
+const
 style
 =
 this
@@ -6378,7 +6378,7 @@ if
 newCssRule
 )
 {
-let
+const
 ruleEntry
 =
 this
@@ -6487,7 +6487,7 @@ options
 {
 }
 ;
-let
+const
 previewText
 =
 options
@@ -6497,7 +6497,7 @@ previewText
 |
 FONT_PREVIEW_TEXT
 ;
-let
+const
 previewFontSize
 =
 options
@@ -6507,7 +6507,7 @@ previewFontSize
 |
 FONT_PREVIEW_FONT_SIZE
 ;
-let
+const
 fillStyle
 =
 options
@@ -6517,7 +6517,7 @@ fillStyle
 |
 FONT_PREVIEW_FILLSTYLE
 ;
-let
+const
 fontStyle
 =
 options
@@ -6528,7 +6528,7 @@ fontStyle
 "
 "
 ;
-let
+const
 canvas
 =
 doc
@@ -6541,7 +6541,7 @@ canvas
 "
 )
 ;
-let
+const
 ctx
 =
 canvas
@@ -6553,7 +6553,7 @@ getContext
 "
 )
 ;
-let
+const
 fontValue
 =
 fontStyle
@@ -6585,7 +6585,7 @@ fillStyle
 =
 fillStyle
 ;
-let
+const
 textWidth
 =
 Math
@@ -6666,7 +6666,7 @@ previewFontSize
 )
 )
 ;
-let
+const
 dataURL
 =
 canvas
@@ -6744,7 +6744,7 @@ missing
 )
 ;
 }
-let
+const
 {
 offset
 :
@@ -6759,7 +6759,7 @@ line
 column
 )
 ;
-let
+const
 lexer
 =
 InspectorUtils
@@ -6774,7 +6774,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -6848,7 +6848,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -7054,7 +7054,7 @@ missing
 )
 ;
 }
-let
+const
 {
 offset
 :
@@ -7069,7 +7069,7 @@ line
 column
 )
 ;
-let
+const
 lexer
 =
 InspectorUtils
@@ -7087,7 +7087,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -7215,7 +7215,7 @@ line
 1
 )
 {
-let
+const
 rx
 =
 new

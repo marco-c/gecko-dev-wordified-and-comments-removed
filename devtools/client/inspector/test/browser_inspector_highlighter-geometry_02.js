@@ -463,7 +463,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -486,7 +486,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 finalize
 }
@@ -533,7 +533,7 @@ labels
 ;
 for
 (
-let
+const
 {
 selector
 expectedLabels
@@ -560,7 +560,7 @@ selector
 ;
 for
 (
-let
+const
 {
 side
 visible
@@ -570,7 +570,7 @@ of
 expectedLabels
 )
 {
-let
+const
 id
 =
 "
@@ -580,7 +580,7 @@ label
 +
 side
 ;
-let
+const
 hidden
 =
 await
@@ -611,7 +611,7 @@ visible
 "
 )
 ;
-let
+const
 value
 =
 await

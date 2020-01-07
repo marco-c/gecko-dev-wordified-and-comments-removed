@@ -299,7 +299,7 @@ apply
 (
 )
 {
-let
+const
 ret
 =
 this
@@ -580,7 +580,7 @@ form
 parent
 )
 {
-let
+const
 parentNodeFront
 =
 ctx
@@ -706,7 +706,7 @@ i
 +
 )
 {
-let
+const
 attr
 =
 this
@@ -957,7 +957,7 @@ displayName
 (
 )
 {
-let
+const
 {
 displayName
 nodeName
@@ -1321,7 +1321,7 @@ function
 name
 )
 {
-let
+const
 attr
 =
 this
@@ -1369,7 +1369,7 @@ hidden
 (
 )
 {
-let
+const
 cls
 =
 this
@@ -1553,7 +1553,7 @@ _getNodeValue
 )
 ;
 }
-let
+const
 str
 =
 this
@@ -1632,7 +1632,7 @@ _attrMap
 ;
 for
 (
-let
+const
 attr
 of
 this
@@ -1828,7 +1828,7 @@ function
 (
 )
 {
-let
+const
 ret
 =
 [
@@ -1939,7 +1939,7 @@ main
 "
 )
 ;
-let
+const
 actor
 =
 DebuggerServer

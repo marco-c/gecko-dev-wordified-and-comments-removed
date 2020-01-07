@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -17,7 +17,7 @@ initBackend
 CONNECT_PARAM_URL
 )
 ;
-let
+const
 [
 [
 destNode

@@ -59,7 +59,7 @@ debounceRate
 60
 )
 {
-let
+const
 window
 =
 parentEl
@@ -68,7 +68,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 canvases
 =
 new
@@ -78,7 +78,7 @@ parentEl
 debounceRate
 )
 ;
-let
+const
 dragZoom
 =
 new

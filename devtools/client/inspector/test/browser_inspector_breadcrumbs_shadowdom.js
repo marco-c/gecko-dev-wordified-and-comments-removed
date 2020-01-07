@@ -163,7 +163,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 }
@@ -174,14 +174,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 markup
 }
 =
 inspector
 ;
-let
+const
 breadcrumbs
 =
 inspector
@@ -214,7 +214,7 @@ host
 "
 )
 ;
-let
+const
 hostFront
 =
 await
@@ -228,7 +228,7 @@ component
 inspector
 )
 ;
-let
+const
 hostContainer
 =
 markup
@@ -255,7 +255,7 @@ root
 "
 )
 ;
-let
+const
 shadowRootContainer
 =
 hostContainer
@@ -274,7 +274,7 @@ inspector
 shadowRootContainer
 )
 ;
-let
+const
 slotContainer
 =
 shadowRootContainer
@@ -302,7 +302,7 @@ update
 "
 )
 ;
-let
+const
 slotNodeFront
 =
 slotContainer
@@ -376,7 +376,7 @@ inspector
 slotContainer
 )
 ;
-let
+const
 slotChildContainers
 =
 slotContainer
@@ -415,7 +415,7 @@ update
 "
 )
 ;
-let
+const
 slottedNodeFront
 =
 slotChildContainers
@@ -594,7 +594,7 @@ widget
 "
 )
 ;
-let
+const
 container
 =
 breadcrumbs

@@ -26,7 +26,7 @@ censusDisplays
 .
 coarseType
 ;
-let
+const
 handlers
 =
 Object
@@ -68,7 +68,7 @@ DEFAULT_CENSUS_DISPLAY
 action
 )
 {
-let
+const
 handle
 =
 handlers

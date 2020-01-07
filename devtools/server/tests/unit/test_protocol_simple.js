@@ -685,7 +685,7 @@ throws
 =
 >
 {
-let
+const
 badActor
 =
 protocol
@@ -866,14 +866,14 @@ type
 "
 )
 ;
-let
+const
 trace
 =
 connectPipeTracing
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -1964,7 +1964,7 @@ hello
 "
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -2103,7 +2103,7 @@ then
 =
 >
 {
-let
+const
 deferred
 =
 defer

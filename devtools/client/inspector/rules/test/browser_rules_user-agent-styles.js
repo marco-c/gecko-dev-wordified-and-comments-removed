@@ -218,7 +218,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -359,7 +359,7 @@ to
 val
 )
 ;
-let
+const
 prefObserver
 =
 new
@@ -371,7 +371,7 @@ devtools
 "
 )
 ;
-let
+const
 oncePrefChanged
 =
 new
@@ -455,7 +455,7 @@ uaRules
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -735,7 +735,7 @@ uaRules
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -885,7 +885,7 @@ filter
 }
 )
 ;
-let
+const
 entryMap
 =
 new
@@ -895,7 +895,7 @@ Map
 ;
 for
 (
-let
+const
 entry
 of
 entries
@@ -925,7 +925,7 @@ values
 )
 ]
 ;
-let
+const
 elementStyle
 =
 view
@@ -1011,7 +1011,7 @@ i
 =
 >
 {
-let
+const
 elementStyleRule
 =
 elementStyle

@@ -47,7 +47,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -72,7 +72,7 @@ element
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -165,7 +165,7 @@ id
 true
 )
 ;
-let
+const
 attributes
 =
 (
@@ -199,7 +199,7 @@ mode
 ;
 for
 (
-let
+const
 attribute
 of
 attributes
@@ -230,7 +230,7 @@ mode
 "
 )
 ;
-let
+const
 reverseAttributes
 =
 attributes
@@ -247,7 +247,7 @@ shift
 ;
 for
 (
-let
+const
 attribute
 of
 reverseAttributes

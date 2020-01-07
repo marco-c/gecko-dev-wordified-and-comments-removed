@@ -132,7 +132,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -141,7 +141,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 messages
 =
 await
@@ -175,7 +175,7 @@ appeared
 "
 )
 ;
-let
+const
 [
 msgWithText
 msgWithObj
@@ -443,7 +443,7 @@ objects
 "
 )
 ;
-let
+const
 onMessageInvisible
 =
 waitForMessage
@@ -467,7 +467,7 @@ null
 =
 >
 {
-let
+const
 obj
 =
 Cu
@@ -510,7 +510,7 @@ obj
 }
 )
 ;
-let
+const
 msgInvisible
 =
 (
@@ -552,7 +552,7 @@ varIdx
 equalTo
 )
 {
-let
+const
 element
 =
 msg
@@ -568,7 +568,7 @@ objectBox
 type
 )
 ;
-let
+const
 menuPopup
 =
 await
@@ -578,7 +578,7 @@ hud
 element
 )
 ;
-let
+const
 storeMenuItem
 =
 menuPopup
@@ -655,7 +655,7 @@ variable
 "
 )
 ;
-let
+const
 onceInputSet
 =
 hud
@@ -739,7 +739,7 @@ set
 "
 )
 ;
-let
+const
 equal
 =
 await

@@ -1477,12 +1477,12 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -1508,7 +1508,7 @@ expandAll
 ;
 for
 (
-let
+const
 item
 of
 testCases
@@ -1538,7 +1538,7 @@ item
 )
 )
 {
-yield
+await
 selectTreeItem
 (
 item
@@ -1559,7 +1559,7 @@ item
 ]
 )
 {
-yield
+await
 selectTableItem
 (
 item
@@ -1569,7 +1569,7 @@ item
 )
 ;
 }
-yield
+await
 findVariableViewProperties
 (
 item
@@ -1583,7 +1583,7 @@ item
 )
 ;
 }
-yield
+await
 finishTests
 (
 )

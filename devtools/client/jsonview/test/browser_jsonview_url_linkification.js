@@ -38,7 +38,7 @@ started
 "
 )
 ;
-let
+const
 url
 =
 "
@@ -52,7 +52,7 @@ com
 /
 "
 ;
-let
+const
 tab
 =
 await
@@ -147,7 +147,7 @@ started
 "
 )
 ;
-let
+const
 url
 =
 "
@@ -170,7 +170,7 @@ repeat
 100
 )
 ;
-let
+const
 tab
 =
 await
@@ -279,7 +279,7 @@ false
 }
 )
 {
-let
+const
 onTabLoaded
 =
 BrowserTestUtils
@@ -316,7 +316,7 @@ shouldClickLabel
 =
 args
 ;
-let
+const
 {
 document
 }
@@ -351,7 +351,7 @@ click
 )
 ;
 }
-let
+const
 link
 =
 document
@@ -394,7 +394,7 @@ click
 }
 )
 ;
-let
+const
 newTab
 =
 await

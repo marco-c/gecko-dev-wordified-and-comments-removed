@@ -77,7 +77,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -115,7 +115,7 @@ inspector
 view
 )
 {
-let
+const
 rule
 =
 getRuleViewRuleEditor

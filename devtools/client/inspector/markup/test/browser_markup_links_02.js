@@ -21,7 +21,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -189,7 +189,7 @@ node
 "
 )
 ;
-let
+const
 nodeMutated
 =
 inspector
@@ -201,7 +201,7 @@ markupmutation
 "
 )
 ;
-let
+const
 attr
 =
 editor

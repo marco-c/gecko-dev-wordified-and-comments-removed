@@ -128,7 +128,7 @@ view
 "
 )
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -202,7 +202,7 @@ view
 "
 )
 ;
-let
+const
 tooltip
 =
 ruleView
@@ -216,7 +216,7 @@ previewTooltip
 "
 )
 ;
-let
+const
 panel
 =
 tooltip
@@ -243,7 +243,7 @@ exists
 "
 )
 ;
-let
+const
 {
 valueSpan
 }
@@ -544,7 +544,7 @@ view
 "
 )
 ;
-let
+const
 tooltip
 =
 computedView
@@ -558,14 +558,14 @@ previewTooltip
 "
 )
 ;
-let
+const
 panel
 =
 tooltip
 .
 panel
 ;
-let
+const
 {
 valueSpan
 }
@@ -587,7 +587,7 @@ scrollIntoView
 true
 )
 ;
-let
+const
 previewTooltip
 =
 await
@@ -597,7 +597,7 @@ computedView
 valueSpan
 )
 ;
-let
+const
 images
 =
 panel
@@ -657,7 +657,7 @@ expected
 "
 )
 ;
-let
+const
 dataURL
 =
 await
@@ -748,7 +748,7 @@ selectors
 "
 )
 ;
-let
+const
 propertyView
 =
 getPropertyView
@@ -774,7 +774,7 @@ refreshMatchedSelectors
 (
 )
 ;
-let
+const
 valueSpan
 =
 propertyView
@@ -797,7 +797,7 @@ value
 "
 )
 ;
-let
+const
 tooltip
 =
 computedView
@@ -811,7 +811,7 @@ previewTooltip
 "
 )
 ;
-let
+const
 panel
 =
 tooltip
@@ -825,7 +825,7 @@ scrollIntoView
 true
 )
 ;
-let
+const
 previewTooltip
 =
 await
@@ -835,7 +835,7 @@ computedView
 valueSpan
 )
 ;
-let
+const
 images
 =
 panel
@@ -895,7 +895,7 @@ expected
 "
 )
 ;
-let
+const
 dataURL
 =
 await

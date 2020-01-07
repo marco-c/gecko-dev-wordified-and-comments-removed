@@ -109,7 +109,7 @@ DevToolsUtils
 "
 )
 ;
-let
+const
 EXPECTED_DTU_ASSERT_FAILURE_COUNT
 =
 0

@@ -744,7 +744,7 @@ test
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -783,7 +783,7 @@ runTests
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -814,7 +814,7 @@ target
 form
 )
 ;
-let
+const
 walker
 =
 await
@@ -889,7 +889,7 @@ length
 return
 ;
 }
-let
+const
 [
 lineCh
 expectedSuggestions
@@ -900,7 +900,7 @@ tests
 index
 ]
 ;
-let
+const
 [
 line
 ch
@@ -932,7 +932,7 @@ len
 ]
 )
 {
-let
+const
 progress
 =
 content
@@ -946,7 +946,7 @@ progress
 "
 )
 ;
-let
+const
 progressDiv
 =
 content
@@ -990,7 +990,7 @@ len
 }
 )
 ;
-let
+const
 actualSuggestions
 =
 await
@@ -1090,7 +1090,7 @@ function
 (
 )
 {
-let
+const
 progress
 =
 content

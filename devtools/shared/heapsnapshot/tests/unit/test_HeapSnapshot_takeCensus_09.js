@@ -8,14 +8,14 @@ run_test
 (
 )
 {
-let
+const
 g
 =
 newGlobal
 (
 )
 ;
-let
+const
 dbg
 =
 new
@@ -102,7 +102,7 @@ allocationSamplingProbability
 ;
 for
 (
-let
+const
 [
 func
 n
@@ -168,7 +168,7 @@ false
 ;
 }
 }
-let
+const
 census
 =
 saveHeapSnapshotAndTakeCensus
@@ -227,7 +227,7 @@ stack
 }
 )
 ;
-let
+const
 map
 =
 census
@@ -271,7 +271,7 @@ stack
 "
 )
 ;
-let
+const
 stacks
 =
 {

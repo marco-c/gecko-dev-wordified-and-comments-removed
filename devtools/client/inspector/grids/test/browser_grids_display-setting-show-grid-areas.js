@@ -108,7 +108,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -119,7 +119,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -128,7 +128,7 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 store
 }
@@ -145,7 +145,7 @@ grid
 inspector
 )
 ;
-let
+const
 checkbox
 =
 doc

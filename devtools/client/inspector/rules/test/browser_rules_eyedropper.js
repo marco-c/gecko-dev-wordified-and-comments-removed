@@ -184,7 +184,7 @@ node
 "
 )
 ;
-let
+const
 url
 =
 "
@@ -212,7 +212,7 @@ addTab
 url
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -322,7 +322,7 @@ view
 "
 )
 ;
-let
+const
 property
 =
 getRuleViewProperty
@@ -339,7 +339,7 @@ color
 "
 )
 ;
-let
+const
 swatch
 =
 property
@@ -393,7 +393,7 @@ view
 swatch
 )
 ;
-let
+const
 tooltip
 =
 view
@@ -492,7 +492,7 @@ inspector
 testActor
 )
 ;
-let
+const
 onHidden
 =
 tooltip
@@ -553,7 +553,7 @@ escape
 "
 )
 ;
-let
+const
 onCanceled
 =
 new
@@ -603,7 +603,7 @@ options
 await
 onCanceled
 ;
-let
+const
 color
 =
 swatch
@@ -653,7 +653,7 @@ y
 "
 )
 ;
-let
+const
 onPicked
 =
 new
@@ -680,7 +680,7 @@ resolve
 }
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -787,7 +787,7 @@ onPicked
 await
 onRuleViewChanged
 ;
-let
+const
 color
 =
 swatch

@@ -31,7 +31,7 @@ getResolvedURI
 gTestPath
 )
 ;
-let
+const
 dir
 =
 getChromeDir
@@ -66,14 +66,14 @@ openTabAndSetupStorage
 uriString
 )
 ;
-let
+const
 browser
 =
 gBrowser
 .
 selectedBrowser
 ;
-let
+const
 actualPath
 =
 await

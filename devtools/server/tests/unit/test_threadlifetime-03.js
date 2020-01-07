@@ -108,13 +108,13 @@ event
 packet
 )
 {
-let
+const
 grips
 =
 [
 ]
 ;
-let
+const
 handler
 =
 function
@@ -277,7 +277,7 @@ test_release_many
 grips
 )
 {
-let
+const
 release
 =
 [

@@ -10,7 +10,7 @@ createTestContent
 style
 )
 {
-let
+const
 html
 =
 <
@@ -73,7 +73,7 @@ html
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -105,7 +105,7 @@ function
 (
 )
 {
-let
+const
 gradientText1
 =
 "
@@ -116,7 +116,7 @@ blue
 ;
 "
 ;
-let
+const
 gradientText2
 =
 "
@@ -127,7 +127,7 @@ teal
 ;
 "
 ;
-let
+const
 view
 =
 await
@@ -183,14 +183,14 @@ gradientText2
 "
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 rule
 =
 elementStyle
@@ -216,7 +216,7 @@ i
 i
 )
 {
-let
+const
 prop
 =
 rule
@@ -292,7 +292,7 @@ i
 i
 )
 {
-let
+const
 prop
 =
 rule

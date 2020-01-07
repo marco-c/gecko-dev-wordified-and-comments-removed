@@ -41,7 +41,7 @@ function
 {
 for
 (
-let
+const
 test
 of
 [

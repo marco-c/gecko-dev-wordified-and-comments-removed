@@ -244,7 +244,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -301,7 +301,7 @@ correct
 "
 )
 ;
-let
+const
 viewdoc
 =
 boxmodel
@@ -310,7 +310,7 @@ document
 ;
 for
 (
-let
+const
 {
 selector
 offsetParentValue
@@ -326,7 +326,7 @@ selector
 inspector
 )
 ;
-let
+const
 elt
 =
 viewdoc
@@ -382,7 +382,7 @@ model
 "
 )
 ;
-let
+const
 viewdoc
 =
 boxmodel
@@ -391,7 +391,7 @@ document
 ;
 for
 (
-let
+const
 {
 selector
 update
@@ -400,7 +400,7 @@ of
 updates
 )
 {
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -426,7 +426,7 @@ onUpdated
 }
 for
 (
-let
+const
 {
 selector
 offsetParentValue
@@ -442,7 +442,7 @@ selector
 inspector
 )
 ;
-let
+const
 elt
 =
 viewdoc

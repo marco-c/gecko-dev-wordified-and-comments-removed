@@ -29,7 +29,7 @@ about
 blank
 "
 ;
-let
+const
 reducers
 =
 {
@@ -61,7 +61,7 @@ INITIAL_LOCATION
 action
 )
 {
-let
+const
 reducer
 =
 reducers

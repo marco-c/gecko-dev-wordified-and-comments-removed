@@ -184,7 +184,7 @@ run_test
 (
 )
 {
-let
+const
 map1
 =
 new
@@ -193,7 +193,7 @@ SourceMapConsumer
 testMap1
 )
 ;
-let
+const
 remap1
 =
 new
@@ -274,7 +274,7 @@ js
 "
 )
 ;
-let
+const
 expectedEntries
 =
 testMap1Entries
@@ -293,7 +293,7 @@ function
 entry
 )
 {
-let
+const
 expected
 =
 expectedEntries
@@ -351,7 +351,7 @@ null
 }
 )
 ;
-let
+const
 pos1
 =
 remap1
@@ -401,7 +401,7 @@ js
 "
 )
 ;
-let
+const
 pos2
 =
 remap1
@@ -460,7 +460,7 @@ computeColumnSpans
 (
 )
 ;
-let
+const
 pos3
 =
 remap1
@@ -530,7 +530,7 @@ lastColumn
 Infinity
 )
 ;
-let
+const
 map2
 =
 new
@@ -539,7 +539,7 @@ SourceMapConsumer
 testMap2
 )
 ;
-let
+const
 remap2
 =
 new

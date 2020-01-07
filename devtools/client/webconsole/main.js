@@ -46,7 +46,7 @@ owner
 serviceContainer
 )
 {
-let
+const
 WebConsoleOutputWrapper
 =
 BrowserLoader

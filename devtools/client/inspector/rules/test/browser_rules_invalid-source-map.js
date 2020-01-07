@@ -65,7 +65,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -85,7 +85,7 @@ div
 inspector
 )
 ;
-let
+const
 ruleEl
 =
 getRuleViewRule
@@ -114,7 +114,7 @@ view
 "
 )
 ;
-let
+const
 prop
 =
 getRuleViewProperty
@@ -144,7 +144,7 @@ rule
 "
 )
 ;
-let
+const
 value
 =
 getRuleViewPropertyValue
@@ -220,7 +220,7 @@ is
 text
 )
 ;
-let
+const
 label
 =
 getRuleViewLinkByIndex

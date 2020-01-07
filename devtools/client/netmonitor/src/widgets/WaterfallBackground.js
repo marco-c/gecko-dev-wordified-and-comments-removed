@@ -238,7 +238,7 @@ null
 return
 ;
 }
-let
+const
 canvasWidth
 =
 this
@@ -255,7 +255,7 @@ REQUESTS_WATERFALL
 .
 LABEL_WIDTH
 ;
-let
+const
 canvasHeight
 =
 this
@@ -266,7 +266,7 @@ height
 =
 1
 ;
-let
+const
 imageData
 =
 this
@@ -279,14 +279,14 @@ canvasWidth
 canvasHeight
 )
 ;
-let
+const
 pixelArray
 =
 imageData
 .
 data
 ;
-let
+const
 buf
 =
 new
@@ -297,7 +297,7 @@ pixelArray
 length
 )
 ;
-let
+const
 view8bit
 =
 new
@@ -306,7 +306,7 @@ Uint8ClampedArray
 buf
 )
 ;
-let
+const
 view32bit
 =
 new
@@ -405,7 +405,7 @@ offset
 color
 )
 {
-let
+const
 position
 =
 (
@@ -422,7 +422,7 @@ offset
 |
 0
 ;
-let
+const
 [
 rc
 gc
@@ -480,7 +480,7 @@ i
 +
 )
 {
-let
+const
 increment
 =
 scaledStep
@@ -550,7 +550,7 @@ timestamp
 return
 ;
 }
-let
+const
 delta
 =
 Math
@@ -577,7 +577,7 @@ color
 )
 ;
 }
-let
+const
 {
 DOMCONTENTLOADED_TICKS_COLOR
 LOAD_TICKS_COLOR
@@ -660,7 +660,7 @@ colorName
 theme
 )
 {
-let
+const
 colorStr
 =
 getColor
@@ -669,7 +669,7 @@ colorName
 theme
 )
 ;
-let
+const
 color
 =
 new
@@ -680,7 +680,7 @@ CssColor
 colorStr
 )
 ;
-let
+const
 {
 r
 g

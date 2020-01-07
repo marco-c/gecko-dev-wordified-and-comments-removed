@@ -116,7 +116,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 toolbox
 inspector

@@ -48,7 +48,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor

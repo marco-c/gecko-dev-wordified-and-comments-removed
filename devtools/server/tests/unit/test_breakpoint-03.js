@@ -133,7 +133,7 @@ source
 location
 )
 {
-let
+const
 [
 response
 bpClient
@@ -215,7 +215,7 @@ event
 packet
 )
 {
-let
+const
 location
 =
 {
@@ -228,7 +228,7 @@ line0
 3
 }
 ;
-let
+const
 source
 =
 gThreadClient

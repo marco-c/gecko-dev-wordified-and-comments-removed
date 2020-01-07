@@ -50,7 +50,7 @@ iframeWindow
 toolbox
 )
 {
-let
+const
 {
 Scratchpad
 }
@@ -89,7 +89,7 @@ hideMenu
 (
 )
 ;
-let
+const
 deferred
 =
 defer

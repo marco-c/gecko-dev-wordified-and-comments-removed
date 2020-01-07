@@ -124,7 +124,7 @@ render
 (
 )
 {
-let
+const
 {
 method
 }

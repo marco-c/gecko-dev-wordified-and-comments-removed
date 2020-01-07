@@ -36,7 +36,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -47,14 +47,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 panelDoc
 }
 =
 inspector
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -62,7 +62,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems
@@ -100,7 +100,7 @@ menu
 "
 )
 ;
-let
+const
 toolbarButton
 =
 panelDoc

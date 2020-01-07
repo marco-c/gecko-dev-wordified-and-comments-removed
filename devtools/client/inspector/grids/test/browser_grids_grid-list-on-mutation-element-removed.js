@@ -97,7 +97,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -109,7 +109,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -118,7 +118,7 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 highlighters
 store
@@ -136,7 +136,7 @@ grid
 inspector
 )
 ;
-let
+const
 gridList
 =
 doc
@@ -150,7 +150,7 @@ list
 "
 )
 ;
-let
+const
 checkbox
 =
 gridList
@@ -257,7 +257,7 @@ panel
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -381,7 +381,7 @@ page
 "
 )
 ;
-let
+const
 onHighlighterHidden
 =
 highlighters
@@ -472,7 +472,7 @@ shown
 "
 )
 ;
-let
+const
 noGridList
 =
 doc

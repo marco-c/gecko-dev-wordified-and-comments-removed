@@ -61,7 +61,7 @@ duration
 }
 )
 {
-let
+const
 plottedData
 =
 plotTimestamps
@@ -70,7 +70,7 @@ timestamps
 interval
 )
 ;
-let
+const
 plottedMinMaxSum
 =
 getMinMaxAvg
@@ -97,7 +97,7 @@ timestamps
 duration
 )
 {
-let
+const
 totalFrames
 =
 timestamps
@@ -118,7 +118,7 @@ Number
 .
 MAX_SAFE_INTEGER
 ;
-let
+const
 avgValue
 =
 totalFrames
@@ -131,7 +131,7 @@ duration
 ;
 for
 (
-let
+const
 {
 value
 }
@@ -180,13 +180,13 @@ clamp
 60
 )
 {
-let
+const
 timeline
 =
 [
 ]
 ;
-let
+const
 totalTicks
 =
 timestamps
@@ -263,7 +263,7 @@ i
 +
 )
 {
-let
+const
 currTime
 =
 +
@@ -276,7 +276,7 @@ frameCount
 +
 +
 ;
-let
+const
 elapsedTime
 =
 currTime
@@ -293,7 +293,7 @@ interval
 continue
 ;
 }
-let
+const
 rate
 =
 Math

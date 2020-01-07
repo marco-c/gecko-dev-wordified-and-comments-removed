@@ -198,7 +198,7 @@ createPanelInNewWindow
 options
 )
 {
-let
+const
 win
 =
 await
@@ -225,7 +225,7 @@ win
 window
 )
 {
-let
+const
 {
 panel
 }
@@ -267,7 +267,7 @@ testNormalWindow
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -282,7 +282,7 @@ false
 }
 )
 ;
-let
+const
 {
 PerformanceView
 }
@@ -326,7 +326,7 @@ testPrivateWindow
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -344,7 +344,7 @@ true
 }
 )
 ;
-let
+const
 {
 PerformanceView
 }
@@ -389,7 +389,7 @@ testRecordingFailingInWindow
 index
 )
 {
-let
+const
 {
 panel
 }
@@ -399,7 +399,7 @@ gPanelWinTuples
 index
 ]
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -409,7 +409,7 @@ panel
 .
 panelWin
 ;
-let
+const
 onRecordingStarted
 =
 (
@@ -447,7 +447,7 @@ RECORDING_STATE_CHANGE
 onRecordingStarted
 )
 ;
-let
+const
 whenFailed
 =
 once
@@ -496,7 +496,7 @@ testRecordingSucceedingInWindow
 index
 )
 {
-let
+const
 {
 panel
 }
@@ -506,7 +506,7 @@ gPanelWinTuples
 index
 ]
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -516,7 +516,7 @@ panel
 .
 panelWin
 ;
-let
+const
 onRecordingFailed
 =
 (
@@ -595,7 +595,7 @@ index
 options
 )
 {
-let
+const
 {
 panel
 win

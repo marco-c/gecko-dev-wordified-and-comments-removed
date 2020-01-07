@@ -26,7 +26,7 @@ resolve
 =
 >
 {
-let
+const
 onMessage
 =
 event
@@ -138,7 +138,7 @@ win
 type
 )
 {
-let
+const
 done
 =
 wait

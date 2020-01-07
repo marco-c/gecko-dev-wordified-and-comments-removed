@@ -209,7 +209,7 @@ function
 {
 for
 (
-let
+const
 cleanup
 of
 gAttachCleanups
@@ -248,7 +248,7 @@ client
 =
 null
 ;
-let
+const
 cleanup
 =
 (
@@ -366,7 +366,7 @@ response
 {
 for
 (
-let
+const
 tab
 of
 response
@@ -467,7 +467,7 @@ target
 event
 )
 {
-let
+const
 deferred
 =
 defer
@@ -566,7 +566,7 @@ walker
 node
 )
 {
-let
+const
 actor
 =
 walker
@@ -588,13 +588,13 @@ return
 undefined
 ;
 }
-let
+const
 children
 =
 [
 ]
 ;
-let
+const
 docwalker
 =
 new
@@ -618,7 +618,7 @@ while
 child
 )
 {
-let
+const
 item
 =
 serverOwnershipSubtree
@@ -671,7 +671,7 @@ serverOwnershipTree
 walker
 )
 {
-let
+const
 serverWalker
 =
 DebuggerServer
@@ -856,7 +856,7 @@ size
 ;
 for
 (
-let
+const
 child
 of
 tree
@@ -883,7 +883,7 @@ assertOwnershipTrees
 walker
 )
 {
-let
+const
 serverTree
 =
 serverOwnershipTree
@@ -891,7 +891,7 @@ serverOwnershipTree
 walker
 )
 ;
-let
+const
 clientTree
 =
 clientOwnershipTree
@@ -954,7 +954,7 @@ defer
 (
 )
 ;
-let
+const
 front
 =
 client
@@ -1061,7 +1061,7 @@ defer
 (
 )
 ;
-let
+const
 front
 =
 client
@@ -1208,7 +1208,7 @@ message
 test
 )
 {
-let
+const
 size
 =
 mutations
@@ -1467,7 +1467,7 @@ mutations
 ]
 )
 {
-let
+const
 deferred
 =
 defer
@@ -1476,7 +1476,7 @@ defer
 ;
 for
 (
-let
+const
 change
 of
 mutations
@@ -1624,7 +1624,7 @@ finish
 return
 ;
 }
-let
+const
 fn
 =
 _tests

@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -32,7 +32,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 monitor
 tab
@@ -55,7 +55,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 windowRequire
@@ -65,7 +65,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 Chart
 }
@@ -85,7 +85,7 @@ Chart
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -106,7 +106,7 @@ SIMPLE_URL
 await
 wait
 ;
-let
+const
 chart
 =
 Chart
@@ -266,14 +266,14 @@ accessible
 "
 )
 ;
-let
+const
 node
 =
 chart
 .
 node
 ;
-let
+const
 rows
 =
 node
@@ -290,7 +290,7 @@ row
 "
 )
 ;
-let
+const
 sums
 =
 node

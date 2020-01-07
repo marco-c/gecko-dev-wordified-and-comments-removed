@@ -969,7 +969,7 @@ webconsole
 "
 )
 ;
-let
+const
 onChromeWindowOpened
 =
 (
@@ -1237,7 +1237,7 @@ false
 ;
 try
 {
-let
+const
 console
 =
 window
@@ -1604,7 +1604,7 @@ environment
 actor
 ;
 }
-let
+const
 actor
 =
 new
@@ -1674,7 +1674,7 @@ value
 {
 try
 {
-let
+const
 global
 =
 Cu
@@ -1684,7 +1684,7 @@ getGlobalForObject
 value
 )
 ;
-let
+const
 dbgGlobal
 =
 this
@@ -1712,7 +1712,7 @@ ex
 {
 }
 }
-let
+const
 dbgGlobal
 =
 this
@@ -1743,7 +1743,7 @@ object
 pool
 )
 {
-let
+const
 actor
 =
 new
@@ -1864,7 +1864,7 @@ string
 pool
 )
 {
-let
+const
 actor
 =
 new
@@ -2008,13 +2008,13 @@ function
 request
 )
 {
-let
+const
 startedListeners
 =
 [
 ]
 ;
-let
+const
 window
 =
 !
@@ -2035,7 +2035,7 @@ messageManager
 =
 null
 ;
-let
+const
 processBoundary
 =
 Services
@@ -2083,7 +2083,7 @@ length
 0
 )
 {
-let
+const
 listener
 =
 request
@@ -2569,13 +2569,13 @@ function
 request
 )
 {
-let
+const
 stoppedListeners
 =
 [
 ]
 ;
-let
+const
 toDetach
 =
 request
@@ -2610,7 +2610,7 @@ length
 0
 )
 {
-let
+const
 listener
 =
 toDetach
@@ -2956,7 +2956,7 @@ function
 request
 )
 {
-let
+const
 types
 =
 request
@@ -2989,7 +2989,7 @@ missing
 }
 ;
 }
-let
+const
 messages
 =
 [
@@ -3004,7 +3004,7 @@ length
 0
 )
 {
-let
+const
 type
 =
 types
@@ -3035,7 +3035,7 @@ consoleAPIListener
 break
 ;
 }
-let
+const
 winStartTime
 =
 this
@@ -3061,7 +3061,7 @@ navigationStart
 :
 0
 ;
-let
+const
 cache
 =
 this
@@ -3111,7 +3111,7 @@ timeStamp
 return
 ;
 }
-let
+const
 message
 =
 this
@@ -3157,7 +3157,7 @@ consoleServiceListener
 break
 ;
 }
-let
+const
 cache
 =
 this
@@ -3277,7 +3277,7 @@ function
 request
 )
 {
-let
+const
 resultID
 =
 Date
@@ -3304,7 +3304,7 @@ resultID
 }
 )
 ;
-let
+const
 response
 =
 this
@@ -3343,14 +3343,14 @@ function
 request
 )
 {
-let
+const
 input
 =
 request
 .
 text
 ;
-let
+const
 timestamp
 =
 Date
@@ -3359,7 +3359,7 @@ now
 (
 )
 ;
-let
+const
 evalOptions
 =
 {
@@ -3390,7 +3390,7 @@ request
 selectedObjectActor
 }
 ;
-let
+const
 evalInfo
 =
 this
@@ -3401,14 +3401,14 @@ input
 evalOptions
 )
 ;
-let
+const
 evalResult
 =
 evalInfo
 .
 result
 ;
-let
+const
 helperResult
 =
 evalInfo
@@ -3477,7 +3477,7 @@ in
 evalResult
 )
 {
-let
+const
 error
 =
 evalResult
@@ -3588,14 +3588,14 @@ ex
 }
 try
 {
-let
+const
 line
 =
 error
 .
 errorLineNumber
 ;
-let
+const
 column
 =
 error
@@ -3648,7 +3648,7 @@ ex
 }
 try
 {
-let
+const
 notes
 =
 error
@@ -3672,7 +3672,7 @@ errorNotes
 ;
 for
 (
-let
+const
 note
 of
 notes
@@ -3804,7 +3804,7 @@ function
 request
 )
 {
-let
+const
 frameActorId
 =
 request
@@ -3831,7 +3831,7 @@ if
 frameActorId
 )
 {
-let
+const
 frameActor
 =
 this
@@ -3845,7 +3845,7 @@ frameActorId
 ;
 try
 {
-let
+const
 frame
 =
 frameActor
@@ -3918,7 +3918,7 @@ evalWindow
 )
 ;
 }
-let
+const
 result
 =
 JSPropertyProvider
@@ -3970,7 +3970,7 @@ matches
 [
 ]
 ;
-let
+const
 reqText
 =
 request
@@ -3985,7 +3985,7 @@ request
 cursor
 )
 ;
-let
+const
 lastNonAlphaIsDot
 =
 /
@@ -4023,7 +4023,7 @@ this
 _webConsoleCommandsCache
 )
 {
-let
+const
 helpers
 =
 {
@@ -4111,7 +4111,7 @@ function
 (
 )
 {
-let
+const
 windowId
 =
 !
@@ -4132,7 +4132,7 @@ window
 :
 null
 ;
-let
+const
 ConsoleAPIStorage
 =
 Cc
@@ -4223,7 +4223,7 @@ function
 request
 )
 {
-let
+const
 prefs
 =
 Object
@@ -4235,7 +4235,7 @@ null
 ;
 for
 (
-let
+const
 key
 of
 request
@@ -4273,7 +4273,7 @@ request
 {
 for
 (
-let
+const
 key
 in
 request
@@ -4421,7 +4421,7 @@ function
 debuggerGlobal
 )
 {
-let
+const
 helpers
 =
 {
@@ -4481,7 +4481,7 @@ addWebConsoleCommands
 helpers
 )
 ;
-let
+const
 evalWindow
 =
 this
@@ -4536,7 +4536,7 @@ true
 }
 for
 (
-let
+const
 name
 in
 helpers
@@ -4544,7 +4544,7 @@ helpers
 sandbox
 )
 {
-let
+const
 desc
 =
 Object
@@ -4636,7 +4636,7 @@ options
 }
 )
 {
-let
+const
 trimmedString
 =
 string
@@ -4800,7 +4800,7 @@ frameActor
 ;
 }
 }
-let
+const
 dbg
 =
 frame
@@ -4844,7 +4844,7 @@ options
 selectedObjectActor
 )
 {
-let
+const
 objActor
 =
 this
@@ -4866,7 +4866,7 @@ if
 objActor
 )
 {
-let
+const
 jsVal
 =
 objActor
@@ -4899,7 +4899,7 @@ options
 bindObjectActor
 )
 {
-let
+const
 global
 =
 Cu
@@ -4911,7 +4911,7 @@ jsVal
 ;
 try
 {
-let
+const
 _dbgWindow
 =
 dbg
@@ -4943,7 +4943,7 @@ jsVal
 }
 }
 }
-let
+const
 helpers
 =
 this
@@ -4953,7 +4953,7 @@ _getWebConsoleCommands
 dbgWindow
 )
 ;
-let
+const
 bindings
 =
 helpers
@@ -4979,7 +4979,7 @@ options
 selectedNodeActor
 )
 {
-let
+const
 actor
 =
 this
@@ -5021,7 +5021,7 @@ if
 frame
 )
 {
-let
+const
 env
 =
 frame
@@ -5263,7 +5263,7 @@ body
 }
 for
 (
-let
+const
 line
 of
 ast
@@ -5299,7 +5299,7 @@ const
 continue
 ;
 }
-let
+const
 identifiers
 =
 [
@@ -5307,7 +5307,7 @@ identifiers
 ;
 for
 (
-let
+const
 decl
 of
 line
@@ -5349,7 +5349,7 @@ ArrayPattern
 :
 for
 (
-let
+const
 e
 of
 decl
@@ -5416,7 +5416,7 @@ ObjectPattern
 :
 for
 (
-let
+const
 prop
 of
 decl
@@ -5514,7 +5514,7 @@ break
 }
 for
 (
-let
+const
 name
 of
 identifiers
@@ -5531,7 +5531,7 @@ name
 }
 }
 }
-let
+const
 helperResult
 =
 helpers
@@ -5816,7 +5816,7 @@ notesArray
 =
 null
 ;
-let
+const
 notes
 =
 pageError
@@ -5859,7 +5859,7 @@ i
 +
 )
 {
-let
+const
 note
 =
 notes
@@ -6050,7 +6050,7 @@ function
 message
 )
 {
-let
+const
 packet
 =
 {
@@ -6091,7 +6091,7 @@ function
 event
 )
 {
-let
+const
 actor
 =
 this
@@ -6124,7 +6124,7 @@ url
 actor
 )
 ;
-let
+const
 packet
 =
 {
@@ -6239,7 +6239,7 @@ sendHTTPRequest
 message
 )
 {
-let
+const
 {
 url
 method
@@ -6251,7 +6251,7 @@ message
 .
 request
 ;
-let
+const
 doc
 =
 this
@@ -6260,7 +6260,7 @@ window
 .
 document
 ;
-let
+const
 channel
 =
 NetUtil
@@ -6344,7 +6344,7 @@ method
 ;
 for
 (
-let
+const
 {
 name
 value
@@ -6377,7 +6377,7 @@ Ci
 nsIUploadChannel2
 )
 ;
-let
+const
 bodyStream
 =
 Cc
@@ -6442,7 +6442,7 @@ channel
 }
 )
 ;
-let
+const
 actor
 =
 this
@@ -6490,7 +6490,7 @@ function
 fileURI
 )
 {
-let
+const
 packet
 =
 {
@@ -6526,7 +6526,7 @@ function
 reflowInfo
 )
 {
-let
+const
 packet
 =
 {
@@ -6592,7 +6592,7 @@ useObjectGlobal
 true
 )
 {
-let
+const
 result
 =
 WebConsoleUtils
@@ -6659,7 +6659,7 @@ obj
 =
 >
 {
-let
+const
 dbgObj
 =
 this
@@ -6885,7 +6885,7 @@ function
 (
 )
 {
-let
+const
 listeners
 =
 [

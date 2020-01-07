@@ -22,7 +22,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -32,14 +32,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timelineComponent
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 timeBlockComponents
 =
 getAnimationTimeBlocks
@@ -47,7 +47,7 @@ getAnimationTimeBlocks
 panel
 )
 ;
-let
+const
 detailsComponent
 =
 timelineComponent
@@ -107,7 +107,7 @@ i
 }
 )
 ;
-let
+const
 {
 containerEl
 animation
@@ -134,7 +134,7 @@ containerEl
 state
 )
 ;
-let
+const
 keyframeComponent
 =
 detailsComponent
@@ -144,7 +144,7 @@ keyframeComponents
 0
 ]
 ;
-let
+const
 frameEl
 =
 keyframeComponent
@@ -196,7 +196,7 @@ tooltip
 "
 )
 ;
-let
+const
 title
 =
 el
@@ -216,7 +216,7 @@ title
 "
 )
 ;
-let
+const
 iterationStartTime
 =
 iterationStart
@@ -225,7 +225,7 @@ duration
 /
 1000
 ;
-let
+const
 iterationStartTimeString
 =
 iterationStartTime
@@ -255,7 +255,7 @@ replace
 "
 )
 ;
-let
+const
 iterationStartString
 =
 iterationStart
@@ -276,7 +276,7 @@ replace
 "
 )
 ;
-let
+const
 regex
 =
 new
@@ -608,7 +608,7 @@ correctly
 "
 )
 ;
-let
+const
 start
 =
 getKeyframeOffset

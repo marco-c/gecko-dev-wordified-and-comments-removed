@@ -186,7 +186,7 @@ bind
 this
 )
 ;
-let
+const
 width
 =
 Services
@@ -368,7 +368,7 @@ _allTabsBtn
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -377,7 +377,7 @@ _tabbox
 .
 tabs
 ;
-let
+const
 allTabsContainer
 =
 this
@@ -557,7 +557,7 @@ this
 _allTabsBtn
 )
 ;
-let
+const
 menuPopup
 =
 this
@@ -607,7 +607,7 @@ _onTabBoxUnderflow
 ;
 for
 (
-let
+const
 [
 id
 tab
@@ -618,7 +618,7 @@ this
 _tabs
 )
 {
-let
+const
 item
 =
 this
@@ -674,7 +674,7 @@ _allTabsBtn
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -802,7 +802,7 @@ _allTabsBtn
 return
 ;
 }
-let
+const
 item
 =
 this
@@ -817,7 +817,7 @@ menuitem
 "
 )
 ;
-let
+const
 idPrefix
 =
 "
@@ -898,7 +898,7 @@ autocheck
 false
 )
 ;
-let
+const
 menu
 =
 this
@@ -919,7 +919,7 @@ options
 insertBefore
 )
 {
-let
+const
 referenceItem
 =
 menu
@@ -1001,7 +1001,7 @@ options
 }
 )
 {
-let
+const
 iframe
 =
 this
@@ -1057,7 +1057,7 @@ tooltip
 aHTMLTooltip
 "
 ;
-let
+const
 tab
 =
 this
@@ -1116,7 +1116,7 @@ options
 insertBefore
 )
 {
-let
+const
 referenceTab
 =
 this
@@ -1155,7 +1155,7 @@ tab
 )
 ;
 }
-let
+const
 allTabsItem
 =
 this
@@ -1167,7 +1167,7 @@ tab
 options
 )
 ;
-let
+const
 onIFrameLoaded
 =
 (
@@ -1176,14 +1176,14 @@ event
 =
 >
 {
-let
+const
 doc
 =
 event
 .
 target
 ;
-let
+const
 win
 =
 doc
@@ -1276,7 +1276,7 @@ onIFrameLoaded
 true
 )
 ;
-let
+const
 tabpanel
 =
 this
@@ -1319,7 +1319,7 @@ options
 insertBefore
 )
 {
-let
+const
 referenceTabpanel
 =
 this
@@ -1460,7 +1460,7 @@ function
 (
 )
 {
-let
+const
 knownTabs
 =
 [
@@ -1478,7 +1478,7 @@ values
 ;
 for
 (
-let
+const
 tab
 of
 this
@@ -1597,7 +1597,7 @@ tabId
 tabPanelId
 )
 {
-let
+const
 tab
 =
 this
@@ -1616,7 +1616,7 @@ tab
 return
 ;
 }
-let
+const
 win
 =
 this
@@ -1654,7 +1654,7 @@ remove
 (
 )
 ;
-let
+const
 panel
 =
 this
@@ -1709,7 +1709,7 @@ isVisible
 id
 )
 {
-let
+const
 tab
 =
 this
@@ -1775,7 +1775,7 @@ function
 id
 )
 {
-let
+const
 tab
 =
 this
@@ -1845,7 +1845,7 @@ null
 ;
 for
 (
-let
+const
 [
 id
 tab
@@ -1984,7 +1984,7 @@ getCurrentTabID
 return
 ;
 }
-let
+const
 previousTool
 =
 this
@@ -2091,7 +2091,7 @@ _destroyed
 return
 ;
 }
-let
+const
 tab
 =
 this
@@ -2109,7 +2109,7 @@ allTabsMenuItem
 {
 for
 (
-let
+const
 otherItem
 of
 this
@@ -2358,7 +2358,7 @@ return
 null
 ;
 }
-let
+const
 panel
 =
 this
@@ -2494,7 +2494,7 @@ hasChildNodes
 )
 )
 {
-let
+const
 panel
 =
 this
@@ -2505,7 +2505,7 @@ tabpanels
 .
 firstChild
 ;
-let
+const
 win
 =
 panel

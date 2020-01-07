@@ -4,7 +4,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -16,7 +16,7 @@ initCanvasDebuggerFrontend
 RAF_BEGIN_URL
 )
 ;
-let
+const
 {
 window
 EVENTS
@@ -38,7 +38,7 @@ reload
 target
 )
 ;
-let
+const
 recordingFinished
 =
 once

@@ -282,7 +282,7 @@ onEnableAddonDebuggingChange
 event
 )
 {
-let
+const
 enabled
 =
 event
@@ -341,7 +341,7 @@ null
 }
 )
 ;
-let
+const
 fp
 =
 Cc
@@ -573,7 +573,7 @@ render
 (
 )
 {
-let
+const
 {
 debugDisabled
 }

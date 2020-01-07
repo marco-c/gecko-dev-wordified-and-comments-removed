@@ -331,7 +331,7 @@ running
 return
 ;
 }
-let
+const
 {
 client
 worker
@@ -392,7 +392,7 @@ started
 return
 ;
 }
-let
+const
 {
 client
 worker
@@ -425,7 +425,7 @@ unregister
 (
 )
 {
-let
+const
 {
 client
 worker
@@ -537,7 +537,7 @@ formatScope
 scope
 )
 {
-let
+const
 [
 remainder
 ]
@@ -568,7 +568,7 @@ formatSource
 source
 )
 {
-let
+const
 parts
 =
 source
@@ -598,7 +598,7 @@ render
 (
 )
 {
-let
+const
 {
 worker
 }
@@ -607,7 +607,7 @@ this
 .
 props
 ;
-let
+const
 status
 =
 this

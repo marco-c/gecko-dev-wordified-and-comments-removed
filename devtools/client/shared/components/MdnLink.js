@@ -167,7 +167,7 @@ preventDefault
 (
 )
 ;
-let
+const
 win
 =
 Services
@@ -181,7 +181,7 @@ gDevTools
 chromeWindowType
 )
 ;
-let
+const
 {
 button
 ctrlKey
@@ -190,7 +190,7 @@ metaKey
 =
 e
 ;
-let
+const
 isOSX
 =
 Services

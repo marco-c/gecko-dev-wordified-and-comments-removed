@@ -147,7 +147,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -208,7 +208,7 @@ i1
 inspector
 )
 ;
-let
+const
 markuploaded
 =
 inspector
@@ -220,7 +220,7 @@ markuploaded
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -350,7 +350,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -410,7 +410,7 @@ h1
 inspector
 )
 ;
-let
+const
 markuploaded
 =
 inspector
@@ -422,7 +422,7 @@ markuploaded
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector

@@ -32,7 +32,7 @@ enableApplicationPanel
 (
 )
 ;
-let
+const
 {
 panel
 tab
@@ -44,7 +44,7 @@ openNewTabAndApplicationPanel
 TAB_URL
 )
 ;
-let
+const
 doc
 =
 panel
@@ -53,7 +53,7 @@ panelWin
 .
 document
 ;
-let
+const
 isWorkerListEmpty
 =
 !
@@ -156,7 +156,7 @@ length
 0
 )
 ;
-let
+const
 workerContainer
 =
 getWorkerContainers
@@ -206,7 +206,7 @@ button
 )
 )
 ;
-let
+const
 scopeEl
 =
 workerContainer
@@ -223,7 +223,7 @@ scope
 "
 )
 ;
-let
+const
 expectedScope
 =
 "
@@ -270,7 +270,7 @@ scope
 "
 )
 ;
-let
+const
 updatedEl
 =
 workerContainer
@@ -342,7 +342,7 @@ function
 (
 )
 {
-let
+const
 registration
 =
 await

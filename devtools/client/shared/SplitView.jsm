@@ -442,7 +442,7 @@ stopPropagation
 (
 )
 ;
-let
+const
 el
 =
 this
@@ -539,7 +539,7 @@ this
 _activeSummary
 )
 {
-let
+const
 binding
 =
 bindings
@@ -614,7 +614,7 @@ aSummary
 return
 ;
 }
-let
+const
 binding
 =
 bindings
@@ -685,7 +685,7 @@ activeDetails
 (
 )
 {
-let
+const
 summary
 =
 this
@@ -753,7 +753,7 @@ aDetails
 aOptions
 )
 {
-let
+const
 binding
 =
 aOptions
@@ -1022,7 +1022,7 @@ activeSummary
 null
 ;
 }
-let
+const
 binding
 =
 bindings
@@ -1108,7 +1108,7 @@ aSummary
 aClassName
 )
 {
-let
+const
 binding
 =
 bindings

@@ -302,7 +302,7 @@ run_test
 {
 for
 (
-let
+const
 {
 value
 splitChar
@@ -323,7 +323,7 @@ string
 value
 )
 ;
-let
+const
 tokens
 =
 splitBy

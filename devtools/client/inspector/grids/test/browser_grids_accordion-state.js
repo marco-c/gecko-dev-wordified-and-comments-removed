@@ -110,7 +110,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -122,7 +122,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -168,7 +168,7 @@ testAccordionStateAfterClickingHeader
 doc
 )
 {
-let
+const
 header
 =
 doc
@@ -185,7 +185,7 @@ _header
 "
 )
 ;
-let
+const
 gContent
 =
 doc
@@ -369,7 +369,7 @@ sidebars
 "
 )
 ;
-let
+const
 gContent
 =
 doc
@@ -553,7 +553,7 @@ view
 "
 )
 ;
-let
+const
 {
 gridInspector
 }
@@ -563,7 +563,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -572,7 +572,7 @@ doc
 =
 gridInspector
 ;
-let
+const
 gContent
 =
 doc

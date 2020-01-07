@@ -80,7 +80,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -101,7 +101,7 @@ testid
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -127,7 +127,7 @@ red
 "
 )
 ;
-let
+const
 firstProp
 =
 rule
@@ -137,7 +137,7 @@ textProps
 0
 ]
 ;
-let
+const
 secondProp
 =
 rule

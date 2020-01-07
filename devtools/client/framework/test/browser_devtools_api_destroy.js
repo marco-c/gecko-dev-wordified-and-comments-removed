@@ -24,7 +24,7 @@ runTests
 aTab
 )
 {
-let
+const
 toolDefinition
 =
 {
@@ -69,7 +69,7 @@ iframeWindow
 toolbox
 )
 {
-let
+const
 deferred
 =
 defer
@@ -127,13 +127,13 @@ registerTool
 toolDefinition
 )
 ;
-let
+const
 collectedEvents
 =
 [
 ]
 ;
-let
+const
 target
 =
 TargetFactory
@@ -160,7 +160,7 @@ function
 toolbox
 )
 {
-let
+const
 panel
 =
 toolbox

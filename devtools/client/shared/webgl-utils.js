@@ -69,7 +69,7 @@ false
 ;
 try
 {
-let
+const
 gfxInfo
 =
 Cc
@@ -94,14 +94,14 @@ Ci
 nsIGfxInfo
 )
 ;
-let
+const
 angle
 =
 gfxInfo
 .
 FEATURE_WEBGL_ANGLE
 ;
-let
+const
 opengl
 =
 gfxInfo
@@ -225,7 +225,7 @@ isWebGLSupported
 doc
 )
 {
-let
+const
 supported
 =
 !

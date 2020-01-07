@@ -117,7 +117,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 {
 document
 }
@@ -219,7 +219,7 @@ function
 (
 )
 {
-let
+const
 {
 MutationObserver
 }
@@ -292,7 +292,7 @@ this
 _onOptionChange
 )
 ;
-let
+const
 observerConfig
 =
 {
@@ -310,7 +310,7 @@ checked
 ;
 for
 (
-let
+const
 el
 of
 this
@@ -325,7 +325,7 @@ menupopup
 )
 )
 {
-let
+const
 prefName
 =
 el
@@ -516,7 +516,7 @@ function
 prefName
 )
 {
-let
+const
 el
 =
 this
@@ -539,7 +539,7 @@ this
 menupopup
 )
 ;
-let
+const
 value
 =
 this
@@ -612,7 +612,7 @@ function
 mutations
 )
 {
-let
+const
 {
 target
 }
@@ -622,7 +622,7 @@ mutations
 0
 ]
 ;
-let
+const
 prefName
 =
 target
@@ -636,7 +636,7 @@ pref
 "
 )
 ;
-let
+const
 value
 =
 target
@@ -766,7 +766,7 @@ function
 prefName
 )
 {
-let
+const
 fullName
 =
 this
@@ -792,7 +792,7 @@ prefName
 value
 )
 {
-let
+const
 fullName
 =
 this

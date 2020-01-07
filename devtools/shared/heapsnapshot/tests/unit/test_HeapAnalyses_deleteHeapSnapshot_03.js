@@ -81,7 +81,7 @@ createSnapshotAndDominatorTree
 client
 )
 {
-let
+const
 snapshotFilePath
 =
 saveNewHeapSnapshot
@@ -96,7 +96,7 @@ readHeapSnapshot
 snapshotFilePath
 )
 ;
-let
+const
 dominatorTreeId
 =
 await
@@ -129,7 +129,7 @@ HeapAnalysesClient
 (
 )
 ;
-let
+const
 savedSnapshots
 =
 [

@@ -166,7 +166,7 @@ node
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -270,7 +270,7 @@ initially
 "
 )
 ;
-let
+const
 onRefresh
 =
 inspector
@@ -328,7 +328,7 @@ ui
 manager
 )
 {
-let
+const
 onRefresh
 =
 inspector
@@ -384,7 +384,7 @@ computedView
 {
 for
 (
-let
+const
 prop
 of
 computedView

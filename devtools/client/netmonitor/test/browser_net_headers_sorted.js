@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -43,7 +43,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -75,7 +75,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -123,7 +123,7 @@ verifyHeaders
 monitor
 )
 {
-let
+const
 {
 document
 store
@@ -150,7 +150,7 @@ sorted
 "
 )
 ;
-let
+const
 wait
 =
 waitForDOM
@@ -210,7 +210,7 @@ responseHeaders
 ]
 )
 ;
-let
+const
 expectedResponseHeaders
 =
 [
@@ -271,7 +271,7 @@ cookie
 "
 ]
 ;
-let
+const
 expectedRequestHeaders
 =
 [
@@ -319,7 +319,7 @@ Agent
 "
 ]
 ;
-let
+const
 labelCells
 =
 document
@@ -332,19 +332,19 @@ treeLabelCell
 "
 )
 ;
-let
+const
 actualResponseHeaders
 =
 [
 ]
 ;
-let
+const
 actualRequestHeaders
 =
 [
 ]
 ;
-let
+const
 responseHeadersLength
 =
 expectedResponseHeaders
@@ -463,7 +463,7 @@ verifyRawHeaders
 monitor
 )
 {
-let
+const
 {
 document
 }
@@ -492,19 +492,19 @@ sorted
 "
 )
 ;
-let
+const
 actualResponseHeaders
 =
 [
 ]
 ;
-let
+const
 actualRequestHeaders
 =
 [
 ]
 ;
-let
+const
 expectedResponseHeaders
 =
 [
@@ -565,7 +565,7 @@ length
 "
 ]
 ;
-let
+const
 expectedRequestHeaders
 =
 [
@@ -613,7 +613,7 @@ Control
 "
 ]
 ;
-let
+const
 rawHeadersBtn
 =
 document
@@ -681,7 +681,7 @@ textarea
 }
 )
 ;
-let
+const
 requestHeadersText
 =
 document
@@ -702,7 +702,7 @@ textarea
 .
 textContent
 ;
-let
+const
 responseHeadersText
 =
 document
@@ -723,7 +723,7 @@ textarea
 .
 textContent
 ;
-let
+const
 rawRequestHeadersArray
 =
 requestHeadersText
@@ -754,7 +754,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 rawRequestHeadersArray
@@ -780,7 +780,7 @@ split
 )
 ;
 }
-let
+const
 rawResponseHeadersArray
 =
 responseHeadersText
@@ -811,7 +811,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 rawResponseHeadersArray

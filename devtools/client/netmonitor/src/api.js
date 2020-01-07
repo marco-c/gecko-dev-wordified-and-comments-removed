@@ -343,7 +343,7 @@ getHar
 (
 )
 {
-let
+const
 {
 HarExporter
 }
@@ -367,7 +367,7 @@ exporter
 "
 )
 ;
-let
+const
 state
 =
 this
@@ -378,7 +378,7 @@ getState
 (
 )
 ;
-let
+const
 options
 =
 {
@@ -423,7 +423,7 @@ size
 return
 ;
 }
-let
+const
 {
 HarExporter
 }
@@ -447,7 +447,7 @@ exporter
 "
 )
 ;
-let
+const
 connector
 =
 await
@@ -457,7 +457,7 @@ getHarExportConnector
 (
 )
 ;
-let
+const
 request
 =
 getDisplayedRequestById
@@ -496,7 +496,7 @@ requestId
 return
 ;
 }
-let
+const
 options
 =
 {
@@ -511,7 +511,7 @@ request
 ]
 }
 ;
-let
+const
 har
 =
 await
@@ -522,7 +522,7 @@ getHar
 options
 )
 ;
-let
+const
 harEntry
 =
 har

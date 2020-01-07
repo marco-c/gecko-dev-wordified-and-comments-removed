@@ -5,7 +5,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -17,14 +17,14 @@ initWebAudioEditor
 COMPLEX_CONTEXT_URL
 )
 ;
-let
+const
 panelWin
 =
 panel
 .
 panelWin
 ;
-let
+const
 {
 gFront
 InspectorView
@@ -32,7 +32,7 @@ InspectorView
 =
 panelWin
 ;
-let
+const
 started
 =
 once
@@ -45,7 +45,7 @@ context
 "
 )
 ;
-let
+const
 events
 =
 Promise
@@ -79,7 +79,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 _
@@ -88,7 +88,7 @@ _
 await
 events
 ;
-let
+const
 nodeIds
 =
 actors

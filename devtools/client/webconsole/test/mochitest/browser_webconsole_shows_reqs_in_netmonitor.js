@@ -249,7 +249,7 @@ testNetmonitor
 toolbox
 )
 {
-let
+const
 monitor
 =
 toolbox
@@ -258,7 +258,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -268,7 +268,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -337,7 +337,7 @@ panel
 "
 )
 ;
-let
+const
 item
 =
 getSortedRequests

@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -32,7 +32,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 }
@@ -41,7 +41,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 headers
 =
 document
@@ -62,7 +62,7 @@ button
 ;
 for
 (
-let
+const
 header
 of
 headers

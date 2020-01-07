@@ -196,7 +196,7 @@ function
 (
 )
 {
-let
+const
 projectNameNode
 =
 document
@@ -307,7 +307,7 @@ gTemplateList
 =
 list
 ;
-let
+const
 templatelistNode
 =
 document
@@ -329,13 +329,13 @@ innerHTML
 ;
 for
 (
-let
+const
 template
 of
 list
 )
 {
-let
+const
 richlistitemNode
 =
 document
@@ -347,7 +347,7 @@ richlistitem
 "
 )
 ;
-let
+const
 imageNode
 =
 document
@@ -371,7 +371,7 @@ template
 icon
 )
 ;
-let
+const
 labelNode
 =
 document
@@ -395,7 +395,7 @@ template
 name
 )
 ;
-let
+const
 descriptionNode
 =
 document
@@ -415,7 +415,7 @@ template
 .
 description
 ;
-let
+const
 vboxNode
 =
 document
@@ -481,7 +481,7 @@ selectedIndex
 =
 0
 ;
-let
+const
 testOptions
 =
 window
@@ -586,7 +586,7 @@ canValidate
 (
 )
 {
-let
+const
 projectNameNode
 =
 document
@@ -601,7 +601,7 @@ name
 "
 )
 ;
-let
+const
 dialogNode
 =
 document
@@ -655,7 +655,7 @@ doOK
 (
 )
 {
-let
+const
 projectName
 =
 document
@@ -714,7 +714,7 @@ return
 false
 ;
 }
-let
+const
 templatelistNode
 =
 document
@@ -751,7 +751,7 @@ return
 false
 ;
 }
-let
+const
 promise
 =
 new
@@ -764,7 +764,7 @@ reject
 =
 >
 {
-let
+const
 testOptions
 =
 window
@@ -791,7 +791,7 @@ folder
 }
 else
 {
-let
+const
 fp
 =
 Cc
@@ -889,7 +889,7 @@ file
 }
 )
 ;
-let
+const
 bail
 =
 (
@@ -921,7 +921,7 @@ folder
 =
 >
 {
-let
+const
 subfolder
 =
 projectName
@@ -951,7 +951,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 win
 =
 Services
@@ -1016,7 +1016,7 @@ close
 return
 ;
 }
-let
+const
 template
 =
 gTemplateList
@@ -1026,14 +1026,14 @@ templatelistNode
 selectedIndex
 ]
 ;
-let
+const
 source
 =
 template
 .
 file
 ;
-let
+const
 target
 =
 folder

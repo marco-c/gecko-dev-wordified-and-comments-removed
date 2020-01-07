@@ -57,7 +57,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -78,21 +78,21 @@ h1
 inspector
 )
 ;
-let
+const
 win
 =
 view
 .
 styleWindow
 ;
-let
+const
 searchField
 =
 view
 .
 searchField
 ;
-let
+const
 searchContextMenu
 =
 toolbox
@@ -117,7 +117,7 @@ view
 "
 )
 ;
-let
+const
 cmdUndo
 =
 searchContextMenu
@@ -133,7 +133,7 @@ cmd_undo
 "
 )
 ;
-let
+const
 cmdDelete
 =
 searchContextMenu
@@ -149,7 +149,7 @@ cmd_delete
 "
 )
 ;
-let
+const
 cmdSelectAll
 =
 searchContextMenu
@@ -165,7 +165,7 @@ cmd_selectAll
 "
 )
 ;
-let
+const
 cmdCut
 =
 searchContextMenu
@@ -181,7 +181,7 @@ cmd_cut
 "
 )
 ;
-let
+const
 cmdCopy
 =
 searchContextMenu
@@ -197,7 +197,7 @@ cmd_copy
 "
 )
 ;
-let
+const
 cmdPaste
 =
 searchContextMenu
@@ -226,7 +226,7 @@ emptyClipboard
 (
 )
 ;
-let
+const
 onFocus
 =
 once
@@ -246,7 +246,7 @@ focus
 await
 onFocus
 ;
-let
+const
 onContextMenuPopup
 =
 once
@@ -406,7 +406,7 @@ menu
 "
 )
 ;
-let
+const
 onContextMenuHidden
 =
 once

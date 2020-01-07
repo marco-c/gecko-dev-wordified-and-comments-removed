@@ -174,7 +174,7 @@ render
 (
 )
 {
-let
+const
 {
 census
 onExpand
@@ -196,7 +196,7 @@ census
 .
 report
 ;
-let
+const
 parentMap
 =
 census

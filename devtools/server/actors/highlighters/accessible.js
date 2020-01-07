@@ -184,7 +184,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -216,7 +216,7 @@ presentation
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -261,7 +261,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -504,7 +504,7 @@ _highlightTimer
 null
 ;
 }
-let
+const
 {
 duration
 }
@@ -513,7 +513,7 @@ this
 .
 options
 ;
-let
+const
 shown
 =
 this
@@ -713,7 +713,7 @@ _updateAccessibleBounds
 (
 )
 {
-let
+const
 bounds
 =
 this
@@ -736,7 +736,7 @@ return
 false
 ;
 }
-let
+const
 boundsEl
 =
 this
@@ -748,7 +748,7 @@ bounds
 "
 )
 ;
-let
+const
 {
 left
 right
@@ -758,7 +758,7 @@ bottom
 =
 bounds
 ;
-let
+const
 path
 =
 M
@@ -800,7 +800,7 @@ d
 path
 )
 ;
-let
+const
 rootId
 =
 this

@@ -124,7 +124,7 @@ dispatch
 =
 props
 ;
-let
+const
 classList
 =
 [

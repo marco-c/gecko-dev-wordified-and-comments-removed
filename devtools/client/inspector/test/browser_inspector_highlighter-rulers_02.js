@@ -73,7 +73,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -85,14 +85,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -105,7 +105,7 @@ RulersHighlighter
 "
 )
 ;
-let
+const
 body
 =
 await

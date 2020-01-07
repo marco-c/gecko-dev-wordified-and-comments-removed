@@ -60,7 +60,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 gBrowser
@@ -113,14 +113,14 @@ url
 }
 )
 {
-let
+const
 {
 chromeEventHandler
 }
 =
 docShell
 ;
-let
+const
 onDOMContentLoaded
 =
 ContentTaskUtils
@@ -146,7 +146,7 @@ onDOMContentLoaded
 }
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -172,7 +172,7 @@ error
 "
 )
 ;
-let
+const
 documentURI
 =
 await

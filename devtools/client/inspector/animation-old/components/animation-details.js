@@ -188,7 +188,7 @@ function
 {
 for
 (
-let
+const
 component
 of
 this
@@ -265,7 +265,7 @@ isRunningOnCompositor
 ;
 for
 (
-let
+const
 propState
 of
 animation
@@ -666,7 +666,7 @@ container
 ;
 for
 (
-let
+const
 label
 of
 [
@@ -821,7 +821,7 @@ unchangedPropertyNames
 ;
 for
 (
-let
+const
 propertyName
 in
 this
@@ -876,13 +876,13 @@ unchangedPropertyNames
 ;
 for
 (
-let
+const
 propertyName
 of
 propertyNames
 )
 {
-let
+const
 line
 =
 createNode
@@ -927,7 +927,7 @@ unchanged
 )
 ;
 }
-let
+const
 {
 warning
 className
@@ -990,7 +990,7 @@ className
 }
 )
 ;
-let
+const
 framesWrapperEl
 =
 createNode
@@ -1015,7 +1015,7 @@ container
 }
 )
 ;
-let
+const
 framesEl
 =
 createNode
@@ -1038,7 +1038,7 @@ frames
 }
 )
 ;
-let
+const
 keyframesComponent
 =
 new

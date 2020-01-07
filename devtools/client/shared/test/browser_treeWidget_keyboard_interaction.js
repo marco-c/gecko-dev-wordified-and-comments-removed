@@ -122,7 +122,7 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 win
@@ -138,7 +138,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 tree
 =
 new
@@ -454,7 +454,7 @@ url
 ]
 )
 ;
-let
+const
 node
 =
 doc
@@ -520,7 +520,7 @@ click
 node
 )
 {
-let
+const
 win
 =
 node
@@ -570,7 +570,7 @@ tree
 let
 event
 ;
-let
+const
 pass
 =
 (
@@ -620,7 +620,7 @@ defer
 (
 )
 ;
-let
+const
 clicked
 =
 once

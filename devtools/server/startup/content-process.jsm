@@ -31,7 +31,7 @@ return
 gLoader
 ;
 }
-let
+const
 {
 DevToolsLoader
 }
@@ -70,7 +70,7 @@ invisibleToDebugger
 =
 true
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -177,14 +177,14 @@ init
 msg
 )
 {
-let
+const
 mm
 =
 msg
 .
 target
 ;
-let
+const
 prefix
 =
 msg
@@ -202,7 +202,7 @@ blockThreadedExecution
 =
 >
 {
-let
+const
 loader
 =
 setupServer
@@ -210,7 +210,7 @@ setupServer
 mm
 )
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -228,7 +228,7 @@ main
 "
 )
 ;
-let
+const
 conn
 =
 DebuggerServer
@@ -245,7 +245,7 @@ parentMessageManager
 =
 mm
 ;
-let
+const
 {
 ChildProcessActor
 }
@@ -267,7 +267,7 @@ process
 "
 )
 ;
-let
+const
 {
 ActorPool
 }
@@ -285,7 +285,7 @@ main
 "
 )
 ;
-let
+const
 actor
 =
 new
@@ -294,7 +294,7 @@ ChildProcessActor
 conn
 )
 ;
-let
+const
 actorPool
 =
 new
@@ -317,7 +317,7 @@ addActorPool
 actorPool
 )
 ;
-let
+const
 response
 =
 {

@@ -30,7 +30,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -54,7 +54,7 @@ model
 "
 )
 ;
-let
+const
 {
 createTierGraphDataFromFrameNode
 }
@@ -76,7 +76,7 @@ jit
 "
 )
 ;
-let
+const
 startTime
 =
 (
@@ -89,7 +89,7 @@ TIME_PER_SAMPLE
 -
 TIME_OFFSET
 ;
-let
+const
 endTime
 =
 (
@@ -100,12 +100,12 @@ TIME_PER_SAMPLE
 -
 TIME_OFFSET
 ;
-let
+const
 invertTree
 =
 true
 ;
-let
+const
 root
 =
 new
@@ -206,7 +206,7 @@ scope
 "
 )
 ;
-let
+const
 frame
 =
 getFrameNodePath
@@ -235,7 +235,7 @@ startTime
 RESOLUTION
 )
 ;
-let
+const
 TIME_PER_WINDOW
 =
 SAMPLE_COUNT
@@ -246,7 +246,7 @@ RESOLUTION
 *
 TIME_PER_SAMPLE
 ;
-let
+const
 filteredData
 =
 [
@@ -1019,7 +1019,7 @@ i
 frames
 )
 {
-let
+const
 sample
 =
 {
@@ -1109,7 +1109,7 @@ function
 (
 )
 {
-let
+const
 samples
 =
 [
@@ -1128,7 +1128,7 @@ SAMPLE_COUNT
 ;
 )
 {
-let
+const
 pattern
 =
 TIER_PATTERNS
@@ -1444,7 +1444,7 @@ schema
 .
 implementation
 ;
-let
+const
 l
 =
 gThread

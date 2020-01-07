@@ -381,7 +381,7 @@ tab
 }
 )
 ;
-let
+const
 isOSX
 =
 Services
@@ -395,7 +395,7 @@ OS
 Darwin
 "
 ;
-let
+const
 ctrlOrCmdKeyMouseEvent
 =
 new

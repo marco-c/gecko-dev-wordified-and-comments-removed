@@ -27,7 +27,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 inspector
@@ -38,7 +38,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 btn
 =
 panel
@@ -213,7 +213,7 @@ resolve
 =
 >
 {
-let
+const
 observer
 =
 new
@@ -231,7 +231,7 @@ mutations
 {
 for
 (
-let
+const
 mutation
 of
 mutations

@@ -366,7 +366,7 @@ collection
 attrs
 )
 {
-let
+const
 keys
 =
 Object
@@ -378,7 +378,7 @@ attrs
 ;
 for
 (
-let
+const
 model
 of
 collection

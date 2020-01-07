@@ -165,14 +165,14 @@ ui
 }
 )
 {
-let
+const
 {
 toolWindow
 }
 =
 ui
 ;
-let
+const
 {
 store
 document
@@ -211,7 +211,7 @@ loadableState
 LOADED
 )
 ;
-let
+const
 deviceSelector
 =
 document
@@ -228,7 +228,7 @@ selector
 "
 )
 ;
-let
+const
 submitButton
 =
 document
@@ -266,7 +266,7 @@ viewport
 "
 )
 ;
-let
+const
 adderShow
 =
 document
@@ -354,7 +354,7 @@ modal
 "
 )
 ;
-let
+const
 deviceCb
 =
 [
@@ -439,7 +439,7 @@ selector
 "
 )
 ;
-let
+const
 selectorOption
 =
 [
@@ -494,14 +494,14 @@ ui
 }
 )
 {
-let
+const
 {
 toolWindow
 }
 =
 ui
 ;
-let
+const
 {
 store
 document
@@ -540,7 +540,7 @@ loadableState
 LOADED
 )
 ;
-let
+const
 deviceSelector
 =
 document
@@ -557,7 +557,7 @@ selector
 "
 )
 ;
-let
+const
 submitButton
 =
 document
@@ -619,7 +619,7 @@ device
 "
 )
 ;
-let
+const
 adderShow
 =
 document
@@ -677,7 +677,7 @@ device
 "
 )
 ;
-let
+const
 deviceRemoveButton
 =
 document
@@ -694,7 +694,7 @@ button
 "
 )
 ;
-let
+const
 removed
 =
 Promise
@@ -800,7 +800,7 @@ device
 "
 )
 ;
-let
+const
 selectorOption
 =
 [
@@ -879,14 +879,14 @@ ui
 }
 )
 {
-let
+const
 {
 toolWindow
 }
 =
 ui
 ;
-let
+const
 {
 store
 document
@@ -925,7 +925,7 @@ loadableState
 LOADED
 )
 ;
-let
+const
 deviceSelector
 =
 document
@@ -942,7 +942,7 @@ selector
 "
 )
 ;
-let
+const
 submitButton
 =
 document
@@ -974,7 +974,7 @@ form
 "
 )
 ;
-let
+const
 adderShow
 =
 document
@@ -1037,7 +1037,7 @@ modal
 "
 )
 ;
-let
+const
 deviceCb
 =
 [
@@ -1125,7 +1125,7 @@ selector
 "
 )
 ;
-let
+const
 selectorOption
 =
 [
@@ -1181,14 +1181,14 @@ ui
 }
 )
 {
-let
+const
 {
 toolWindow
 }
 =
 ui
 ;
-let
+const
 {
 store
 document
@@ -1227,7 +1227,7 @@ loadableState
 LOADED
 )
 ;
-let
+const
 deviceSelector
 =
 document
@@ -1258,7 +1258,7 @@ selector
 "
 )
 ;
-let
+const
 selectorOption
 =
 [
@@ -1310,7 +1310,7 @@ ui
 expected
 )
 {
-let
+const
 {
 document
 }
@@ -1319,7 +1319,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 nameInput
 =
 document
@@ -1337,7 +1337,7 @@ input
 "
 )
 ;
-let
+const
 [
 widthInput
 heightInput
@@ -1358,7 +1358,7 @@ input
 "
 )
 ;
-let
+const
 pixelRatioInput
 =
 document
@@ -1378,7 +1378,7 @@ input
 "
 )
 ;
-let
+const
 userAgentInput
 =
 document
@@ -1398,7 +1398,7 @@ input
 "
 )
 ;
-let
+const
 touchInput
 =
 document

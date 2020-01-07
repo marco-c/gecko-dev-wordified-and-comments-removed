@@ -34,7 +34,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -68,7 +68,7 @@ value
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -80,7 +80,7 @@ div
 inspector
 )
 ;
-let
+const
 onCancelReselect
 =
 inspector
@@ -94,7 +94,7 @@ canceledreselectonremoved
 "
 )
 ;
-let
+const
 tagEditor
 =
 container
@@ -168,7 +168,7 @@ time
 "
 )
 ;
-let
+const
 onReselect
 =
 inspector
@@ -209,7 +209,7 @@ event
 "
 )
 ;
-let
+const
 spanFront
 =
 await

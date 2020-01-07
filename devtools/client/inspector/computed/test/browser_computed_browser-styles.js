@@ -80,7 +80,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -167,14 +167,14 @@ styles
 "
 )
 ;
-let
+const
 doc
 =
 view
 .
 styleDocument
 ;
-let
+const
 checkbox
 =
 doc
@@ -187,7 +187,7 @@ includebrowserstyles
 "
 )
 ;
-let
+const
 onRefreshed
 =
 inspector
@@ -286,7 +286,7 @@ for
 name
 )
 ;
-let
+const
 propertyViews
 =
 view
@@ -295,7 +295,7 @@ propertyViews
 ;
 for
 (
-let
+const
 propView
 of
 propertyViews

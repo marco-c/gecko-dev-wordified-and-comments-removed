@@ -215,7 +215,7 @@ if
 isRunning
 )
 {
-let
+const
 gnb
 =
 chromeWindow
@@ -252,7 +252,7 @@ notification
 null
 )
 {
-let
+const
 notifyStop
 =
 reason
@@ -278,7 +278,7 @@ stop
 }
 }
 ;
-let
+const
 msg
 =
 l10n

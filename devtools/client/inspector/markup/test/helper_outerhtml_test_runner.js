@@ -40,7 +40,7 @@ function
 {
 for
 (
-let
+const
 step
 of
 tests
@@ -100,7 +100,7 @@ selector
 inspector
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -127,7 +127,7 @@ outerHTML
 "
 )
 ;
-let
+const
 onReselected
 =
 inspector
@@ -164,7 +164,7 @@ oldHTML
 await
 onReselected
 ;
-let
+const
 selectedNodeFront
 =
 inspector
@@ -173,7 +173,7 @@ selection
 .
 nodeFront
 ;
-let
+const
 pageNodeFront
 =
 await
@@ -233,7 +233,7 @@ selected
 "
 )
 ;
-let
+const
 {
 outerHTML
 }
@@ -267,7 +267,7 @@ updated
 await
 onUpdated
 ;
-let
+const
 closeTagLine
 =
 inspector

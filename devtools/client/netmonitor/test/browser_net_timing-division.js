@@ -35,7 +35,7 @@ waterfall
 '
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -58,7 +58,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -69,7 +69,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -101,7 +101,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -142,7 +142,7 @@ null
 await
 wait
 ;
-let
+const
 milDivs
 =
 document
@@ -170,7 +170,7 @@ millisecond
 "
 )
 ;
-let
+const
 secDivs
 =
 document
@@ -198,7 +198,7 @@ second
 "
 )
 ;
-let
+const
 minDivs
 =
 document

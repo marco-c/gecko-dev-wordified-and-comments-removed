@@ -147,7 +147,7 @@ DevToolsUtils
 "
 )
 ;
-let
+const
 promise
 =
 require
@@ -157,7 +157,7 @@ promise
 "
 )
 ;
-let
+const
 defer
 =
 require
@@ -423,7 +423,7 @@ function
 subject
 )
 {
-let
+const
 message
 =
 subject
@@ -575,7 +575,7 @@ tracker
 "
 )
 ;
-let
+const
 tracker
 =
 allocationTracker
@@ -658,7 +658,7 @@ browser
 .
 messageManager
 ;
-let
+const
 frameURL
 =
 "
@@ -962,14 +962,14 @@ URL
 url
 )
 ;
-let
+const
 {
 background
 }
 =
 options
 ;
-let
+const
 {
 gBrowser
 }
@@ -984,14 +984,14 @@ window
 :
 window
 ;
-let
+const
 {
 userContextId
 }
 =
 options
 ;
-let
+const
 tab
 =
 BrowserTestUtils
@@ -1067,7 +1067,7 @@ tab
 "
 )
 ;
-let
+const
 {
 gBrowser
 }
@@ -1078,7 +1078,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 onClose
 =
 once
@@ -1198,7 +1198,7 @@ node
 "
 )
 ;
-let
+const
 modifiersAttr
 =
 key
@@ -1277,7 +1277,7 @@ key
 "
 )
 ;
-let
+const
 modifiers
 =
 {
@@ -1379,7 +1379,7 @@ key
 target
 )
 {
-let
+const
 window
 =
 Services
@@ -1388,7 +1388,7 @@ appShell
 .
 hiddenDOMWindow
 ;
-let
+const
 shortcut
 =
 KeyShortcuts
@@ -1399,7 +1399,7 @@ window
 key
 )
 ;
-let
+const
 keyEvent
 =
 {
@@ -1519,7 +1519,7 @@ resolve
 {
 for
 (
-let
+const
 [
 add
 remove
@@ -1681,7 +1681,7 @@ resolve
 =
 >
 {
-let
+const
 observer
 =
 new
@@ -1703,7 +1703,7 @@ mutation
 =
 >
 {
-let
+const
 elements
 =
 mutation
@@ -1792,7 +1792,7 @@ loadHelperScript
 filePath
 )
 {
-let
+const
 testDir
 =
 gTestPath
@@ -1909,7 +1909,7 @@ toolbox
 let
 toolbox
 ;
-let
+const
 target
 =
 TargetFactory
@@ -2028,7 +2028,7 @@ toolId
 hostType
 )
 {
-let
+const
 tab
 =
 await
@@ -2060,7 +2060,7 @@ gBrowser
 selectedTab
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -2254,14 +2254,14 @@ resolve
 =
 >
 {
-let
+const
 id
 =
 MM_INC_ID
 +
 +
 ;
-let
+const
 mm
 =
 browser
@@ -2512,7 +2512,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 eventDetails
 =
 {
@@ -2589,7 +2589,7 @@ resolve
 =
 >
 {
-let
+const
 options
 =
 {
@@ -2624,7 +2624,7 @@ obj
 path
 )
 {
-let
+const
 segments
 =
 path
@@ -2663,7 +2663,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -2690,7 +2690,7 @@ emptyClipboard
 (
 )
 {
-let
+const
 clipboard
 =
 Services
@@ -2832,7 +2832,7 @@ js
 }
 )
 ;
-let
+const
 server
 =
 new
@@ -2910,7 +2910,7 @@ this
 return
 ;
 }
-let
+const
 EventUtils
 =
 this

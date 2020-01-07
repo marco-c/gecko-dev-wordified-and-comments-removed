@@ -164,7 +164,7 @@ getReasonsForWeakness
 ;
 for
 (
-let
+const
 {
 description
 input

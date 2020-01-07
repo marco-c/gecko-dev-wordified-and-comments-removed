@@ -252,7 +252,7 @@ true
 ;
 for
 (
-let
+const
 rule
 of
 this
@@ -305,7 +305,7 @@ function
 (
 )
 {
-let
+const
 populated
 =
 this
@@ -380,7 +380,7 @@ undefined
 )
 ;
 }
-let
+const
 existingRules
 =
 this
@@ -396,7 +396,7 @@ rules
 ;
 for
 (
-let
+const
 entry
 of
 entries
@@ -425,7 +425,7 @@ _sortRulesForPseudoElement
 ;
 for
 (
-let
+const
 r
 of
 existingRules
@@ -533,7 +533,7 @@ async
 {
 try
 {
-let
+const
 fonts
 =
 await
@@ -698,7 +698,7 @@ if
 existingRules
 )
 {
-let
+const
 ruleIndex
 =
 existingRules
@@ -820,7 +820,7 @@ markOverridden
 ;
 for
 (
-let
+const
 pseudo
 of
 this
@@ -849,7 +849,7 @@ pseudo
 "
 )
 {
-let
+const
 textProps
 =
 [
@@ -857,7 +857,7 @@ textProps
 ;
 for
 (
-let
+const
 rule
 of
 this
@@ -906,7 +906,7 @@ keyframes
 {
 for
 (
-let
+const
 textProp
 of
 rule
@@ -949,7 +949,7 @@ computedProps
 ;
 for
 (
-let
+const
 textProp
 of
 textProps
@@ -967,7 +967,7 @@ computed
 )
 ;
 }
-let
+const
 taken
 =
 {
@@ -975,13 +975,13 @@ taken
 ;
 for
 (
-let
+const
 computedProp
 of
 computedProps
 )
 {
-let
+const
 earlier
 =
 taken
@@ -1167,7 +1167,7 @@ value
 }
 for
 (
-let
+const
 textProp
 of
 textProps
@@ -1211,7 +1211,7 @@ false
 ;
 for
 (
-let
+const
 computedProp
 of
 prop
@@ -1323,7 +1323,7 @@ name
 value
 )
 {
-let
+const
 key
 =
 this
@@ -1333,7 +1333,7 @@ getKey
 style
 )
 ;
-let
+const
 entry
 =
 this
@@ -1376,7 +1376,7 @@ name
 userValue
 )
 {
-let
+const
 key
 =
 this
@@ -1387,7 +1387,7 @@ style
 name
 )
 ;
-let
+const
 entry
 =
 this
@@ -1415,7 +1415,7 @@ userValue
 }
 else
 {
-let
+const
 props
 =
 {
@@ -1448,7 +1448,7 @@ style
 name
 )
 {
-let
+const
 key
 =
 this
@@ -1459,7 +1459,7 @@ style
 name
 )
 ;
-let
+const
 entry
 =
 this

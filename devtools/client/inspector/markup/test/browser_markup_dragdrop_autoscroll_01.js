@@ -36,7 +36,7 @@ height
 10000
 )
 ;
-let
+const
 {
 inspector
 }
@@ -47,14 +47,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 markup
 =
 inspector
 .
 markup
 ;
-let
+const
 viewHeight
 =
 markup
@@ -136,7 +136,7 @@ scrollY
 }
 )
 ;
-let
+const
 bottomScrollPos
 =
 await
@@ -209,7 +209,7 @@ scrollY
 }
 )
 ;
-let
+const
 topScrollPos
 =
 await

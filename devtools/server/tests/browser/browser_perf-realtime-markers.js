@@ -44,7 +44,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -57,7 +57,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -66,7 +66,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 PerformanceFront
@@ -92,7 +92,7 @@ lastTickDelta
 =
 0
 ;
-let
+const
 counters
 =
 {
@@ -110,7 +110,7 @@ ticks
 ]
 }
 ;
-let
+const
 deferreds
 =
 {
@@ -143,7 +143,7 @@ data
 handler
 )
 ;
-let
+const
 rec
 =
 await
@@ -413,7 +413,7 @@ length
 return
 ;
 }
-let
+const
 {
 delta
 measurement
@@ -509,7 +509,7 @@ length
 return
 ;
 }
-let
+const
 {
 delta
 timestamps

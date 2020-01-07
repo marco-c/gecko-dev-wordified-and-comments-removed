@@ -95,7 +95,7 @@ function
 (
 )
 {
-let
+const
 threadNode
 =
 new
@@ -133,7 +133,7 @@ calls
 .
 calls
 ;
-let
+const
 treeRoot
 =
 new
@@ -149,7 +149,7 @@ autoExpandDepth
 }
 )
 ;
-let
+const
 container
 =
 document
@@ -168,7 +168,7 @@ attachTo
 container
 )
 ;
-let
+const
 A
 =
 treeRoot
@@ -178,7 +178,7 @@ getChild
 0
 )
 ;
-let
+const
 JS
 =
 treeRoot
@@ -188,7 +188,7 @@ getChild
 1
 )
 ;
-let
+const
 GC
 =
 A
@@ -198,7 +198,7 @@ getChild
 1
 )
 ;
-let
+const
 JS2
 =
 A

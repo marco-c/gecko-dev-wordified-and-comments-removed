@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 document

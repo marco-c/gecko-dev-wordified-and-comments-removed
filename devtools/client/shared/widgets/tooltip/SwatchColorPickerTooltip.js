@@ -203,7 +203,7 @@ setColorPickerContent
 color
 )
 {
-let
+const
 {
 doc
 }
@@ -212,7 +212,7 @@ this
 .
 tooltip
 ;
-let
+const
 container
 =
 doc
@@ -238,7 +238,7 @@ tooltip
 let
 widget
 ;
-let
+const
 node
 =
 doc
@@ -300,7 +300,7 @@ this
 .
 inspector
 ;
-let
+const
 eyedropper
 =
 doc
@@ -382,7 +382,7 @@ show
 (
 )
 {
-let
+const
 name
 =
 this
@@ -404,7 +404,7 @@ isContrastCompatible
 undefined
 )
 {
-let
+const
 target
 =
 this
@@ -486,7 +486,7 @@ currentSwatchColor
 .
 textContent
 ;
-let
+const
 color
 =
 this
@@ -547,7 +547,7 @@ updateUI
 )
 ;
 }
-let
+const
 eyeButton
 =
 this
@@ -566,7 +566,7 @@ button
 "
 )
 ;
-let
+const
 canShowEyeDropper
 =
 await
@@ -760,7 +760,7 @@ _openEyeDropper
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -939,7 +939,7 @@ this
 cssColor4
 )
 ;
-let
+const
 rgba
 =
 color
@@ -970,7 +970,7 @@ _toDefaultType
 color
 )
 {
-let
+const
 colorObj
 =
 new

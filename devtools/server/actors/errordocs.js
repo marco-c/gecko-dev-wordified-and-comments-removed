@@ -712,7 +712,7 @@ return
 undefined
 ;
 }
-let
+const
 doc
 =
 ErrorDocs
@@ -735,7 +735,7 @@ doc
 params
 ;
 }
-let
+const
 categoryURL
 =
 ErrorCategories

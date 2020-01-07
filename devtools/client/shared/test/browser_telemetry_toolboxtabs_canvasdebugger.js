@@ -54,7 +54,7 @@ canvasdebugger
 "
 )
 ;
-let
+const
 originalPref
 =
 Services

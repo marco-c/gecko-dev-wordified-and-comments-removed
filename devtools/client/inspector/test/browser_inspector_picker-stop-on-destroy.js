@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -56,7 +56,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 pickerStopped
 =
 toolbox

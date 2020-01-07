@@ -118,7 +118,7 @@ url
 "
 )
 ;
-let
+const
 tabAdded
 =
 BrowserTestUtils
@@ -129,7 +129,7 @@ gBrowser
 url
 )
 ;
-let
+const
 tabLoaded
 =
 addTab
@@ -137,7 +137,7 @@ addTab
 url
 )
 ;
-let
+const
 tab
 =
 await
@@ -151,7 +151,7 @@ tabLoaded
 ]
 )
 ;
-let
+const
 browser
 =
 tab
@@ -162,7 +162,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 rootDir
 =
 getRootDirectory
@@ -170,7 +170,7 @@ getRootDirectory
 gTestPath
 )
 ;
-let
+const
 error
 =
 tabLoaded
@@ -202,7 +202,7 @@ reject
 =
 >
 {
-let
+const
 {
 requirejs
 }
@@ -253,7 +253,7 @@ err
 )
 )
 ;
-let
+const
 data
 =
 {
@@ -281,7 +281,7 @@ function
 data
 )
 {
-let
+const
 {
 JSONView
 }
@@ -312,7 +312,7 @@ load
 )
 ;
 }
-let
+const
 frameScriptUrl
 =
 data
@@ -341,7 +341,7 @@ UTF
 "
 )
 ;
-let
+const
 docReadyStates
 =
 [
@@ -356,7 +356,7 @@ complete
 "
 ]
 ;
-let
+const
 docReadyIndex
 =
 docReadyStates
@@ -368,7 +368,7 @@ data
 docReadyState
 )
 ;
-let
+const
 appReadyStates
 =
 [
@@ -381,7 +381,7 @@ uninitialized
 docReadyStates
 ]
 ;
-let
+const
 appReadyIndex
 =
 appReadyStates
@@ -421,7 +421,7 @@ parameter
 )
 ;
 }
-let
+const
 {
 document
 }
@@ -585,7 +585,7 @@ selector
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -626,14 +626,14 @@ name
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser
 .
 selectedBrowser
 ;
-let
+const
 selector
 =
 "
@@ -691,7 +691,7 @@ selector
 "
 )
 ;
-let
+const
 data
 =
 {
@@ -751,7 +751,7 @@ selector
 "
 )
 ;
-let
+const
 data
 =
 {
@@ -819,7 +819,7 @@ selector
 "
 )
 ;
-let
+const
 data
 =
 {
@@ -873,7 +873,7 @@ selector
 "
 )
 ;
-let
+const
 data
 =
 {
@@ -919,7 +919,7 @@ str
 "
 )
 ;
-let
+const
 data
 =
 {

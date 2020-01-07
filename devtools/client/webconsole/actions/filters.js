@@ -159,7 +159,7 @@ getState
 ;
 for
 (
-let
+const
 filter
 in
 filterState

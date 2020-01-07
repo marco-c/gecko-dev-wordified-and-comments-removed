@@ -223,7 +223,7 @@ true
 }
 )
 ;
-let
+const
 sandboxPrototype
 =
 {
@@ -232,13 +232,13 @@ tabs
 (
 )
 {
-let
+const
 tabs
 =
 [
 ]
 ;
-let
+const
 windowEnumerator
 =
 Services
@@ -258,7 +258,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 windowEnumerator
@@ -274,7 +274,7 @@ Ci
 nsIDOMWindow
 )
 ;
-let
+const
 tabChildGlobal
 =
 window
@@ -323,7 +323,7 @@ tabs
 }
 }
 ;
-let
+const
 systemPrincipal
 =
 Cc
@@ -346,7 +346,7 @@ Ci
 nsIPrincipal
 )
 ;
-let
+const
 sandbox
 =
 Cu
@@ -652,7 +652,7 @@ actors
 =
 >
 {
-let
+const
 pool
 =
 new
@@ -665,7 +665,7 @@ conn
 ;
 for
 (
-let
+const
 actor
 of
 actors

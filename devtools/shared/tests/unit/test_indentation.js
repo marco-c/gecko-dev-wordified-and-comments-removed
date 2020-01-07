@@ -511,13 +511,13 @@ true
 ;
 for
 (
-let
+const
 test
 of
 TESTS
 )
 {
-let
+const
 iterFn
 =
 function
@@ -566,7 +566,7 @@ desc
 }
 for
 (
-let
+const
 test
 of
 TESTS

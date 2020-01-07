@@ -23,7 +23,7 @@ init
 (
 )
 {
-let
+const
 s
 =
 document

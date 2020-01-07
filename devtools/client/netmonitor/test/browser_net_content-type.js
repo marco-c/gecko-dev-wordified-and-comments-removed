@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -44,7 +44,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -64,7 +64,7 @@ index
 "
 )
 ;
-let
+const
 {
 L10N
 }
@@ -86,7 +86,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -131,7 +131,7 @@ CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
 ;
 for
 (
-let
+const
 requestItem
 of
 document
@@ -149,7 +149,7 @@ item
 )
 )
 {
-let
+const
 requestsListStatus
 =
 requestItem
@@ -879,7 +879,7 @@ testResponseTab
 type
 )
 {
-let
+const
 tabpanel
 =
 document
@@ -932,7 +932,7 @@ display
 "
 )
 ;
-let
+const
 jsonView
 =
 tabpanel
@@ -1089,7 +1089,7 @@ textarea
 "
 )
 ;
-let
+const
 text
 =
 document
@@ -1160,7 +1160,7 @@ textarea
 "
 )
 ;
-let
+const
 text
 =
 document
@@ -1228,7 +1228,7 @@ textarea
 "
 )
 ;
-let
+const
 text
 =
 document
@@ -1399,7 +1399,7 @@ title
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -1423,7 +1423,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel
@@ -1511,7 +1511,7 @@ textarea
 "
 )
 ;
-let
+const
 text
 =
 document
@@ -1576,7 +1576,7 @@ image
 "
 )
 ;
-let
+const
 [
 name
 dimensions
@@ -1697,7 +1697,7 @@ textarea
 "
 )
 ;
-let
+const
 text
 =
 document
@@ -1761,7 +1761,7 @@ selectIndexAndWaitForJSONView
 index
 )
 {
-let
+const
 onResponseContent
 =
 monitor
@@ -1777,7 +1777,7 @@ EVENTS
 RECEIVED_RESPONSE_CONTENT
 )
 ;
-let
+const
 tabpanel
 =
 document
@@ -1792,7 +1792,7 @@ panel
 "
 )
 ;
-let
+const
 waitDOM
 =
 waitForDOM
@@ -1835,7 +1835,7 @@ selectIndexAndWaitForImageView
 index
 )
 {
-let
+const
 onResponseContent
 =
 monitor
@@ -1851,7 +1851,7 @@ EVENTS
 RECEIVED_RESPONSE_CONTENT
 )
 ;
-let
+const
 tabpanel
 =
 document
@@ -1866,7 +1866,7 @@ panel
 "
 )
 ;
-let
+const
 waitDOM
 =
 waitForDOM
@@ -1892,7 +1892,7 @@ index
 )
 )
 ;
-let
+const
 [
 imageNode
 ]

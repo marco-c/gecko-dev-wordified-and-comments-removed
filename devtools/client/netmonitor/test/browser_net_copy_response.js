@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -50,7 +50,7 @@ JSON
 }
 '
 ;
-let
+const
 {
 document
 }

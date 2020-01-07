@@ -84,20 +84,20 @@ postData
 getLongString
 )
 {
-let
+const
 formDataSections
 =
 [
 ]
 ;
-let
+const
 requestHeaders
 =
 headers
 .
 headers
 ;
-let
+const
 payloadHeaders
 =
 uploadHeaders
@@ -109,7 +109,7 @@ headers
 [
 ]
 ;
-let
+const
 allHeaders
 =
 [
@@ -123,7 +123,7 @@ payloadHeaders
 requestHeaders
 ]
 ;
-let
+const
 contentTypeHeader
 =
 allHeaders
@@ -153,7 +153,7 @@ type
 }
 )
 ;
-let
+const
 contentTypeLongString
 =
 contentTypeHeader
@@ -165,7 +165,7 @@ value
 "
 "
 ;
-let
+const
 contentType
 =
 await
@@ -192,7 +192,7 @@ urlencoded
 )
 )
 {
-let
+const
 postDataLongString
 =
 postData
@@ -201,7 +201,7 @@ postData
 .
 text
 ;
-let
+const
 text
 =
 await
@@ -212,7 +212,7 @@ postDataLongString
 ;
 for
 (
-let
+const
 section
 of
 text
@@ -279,7 +279,7 @@ getLongString
 {
 for
 (
-let
+const
 {
 value
 }
@@ -529,7 +529,7 @@ return
 "
 ;
 }
-let
+const
 abbrevType
 =
 (
@@ -751,7 +751,7 @@ getUrlDetails
 url
 )
 {
-let
+const
 baseNameWithQuery
 =
 getUrlBaseNameWithQuery
@@ -767,7 +767,7 @@ getUrlHost
 url
 )
 ;
-let
+const
 hostname
 =
 getUrlHostName
@@ -775,7 +775,7 @@ getUrlHostName
 url
 )
 ;
-let
+const
 unicodeUrl
 =
 getUnicodeUrl
@@ -783,7 +783,7 @@ getUnicodeUrl
 url
 )
 ;
-let
+const
 scheme
 =
 getUrlScheme
@@ -819,7 +819,7 @@ unicodeHostname
 )
 ;
 }
-let
+const
 isLocal
 =
 hostname
@@ -947,7 +947,7 @@ e
 =
 >
 {
-let
+const
 param
 =
 e
@@ -1043,7 +1043,7 @@ e
 =
 >
 {
-let
+const
 param
 =
 e
@@ -1158,7 +1158,7 @@ includes
 )
 )
 {
-let
+const
 numberOfZeroSections
 =
 8
@@ -1368,7 +1368,7 @@ firstRequestStartedMillis
 0
 )
 {
-let
+const
 {
 startedMillis
 totalTime
@@ -1393,7 +1393,7 @@ firstRequestStartedMillis
 0
 )
 {
-let
+const
 {
 startedMillis
 totalTime
@@ -1429,7 +1429,7 @@ getFormattedProtocol
 item
 )
 {
-let
+const
 {
 httpVersion
 =
@@ -1447,7 +1447,7 @@ headers
 =
 item
 ;
-let
+const
 protocol
 =
 [
@@ -1532,7 +1532,7 @@ item
 header
 )
 {
-let
+const
 {
 responseHeaders
 }
@@ -1567,7 +1567,7 @@ toLowerCase
 ;
 for
 (
-let
+const
 responseHeader
 of
 responseHeaders
@@ -1607,7 +1607,7 @@ updateFormDataSections
 props
 )
 {
-let
+const
 {
 connector
 request
@@ -1728,7 +1728,7 @@ request
 }
 )
 {
-let
+const
 result
 =
 {
@@ -1736,7 +1736,7 @@ result
 ;
 for
 (
-let
+const
 [
 key
 value

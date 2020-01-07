@@ -10,7 +10,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -33,7 +33,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -44,7 +44,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -252,7 +252,7 @@ bar
 }
 ]
 ;
-let
+const
 labelCells
 =
 document
@@ -265,7 +265,7 @@ treeLabelCell
 "
 )
 ;
-let
+const
 valueCells
 =
 document

@@ -27,7 +27,7 @@ addDebuggerToGlobal
 this
 )
 ;
-let
+const
 xpcInspector
 =
 Cc
@@ -50,7 +50,7 @@ Ci
 nsIJSInspector
 )
 ;
-let
+const
 g
 =
 testGlobal
@@ -60,7 +60,7 @@ test1
 "
 )
 ;
-let
+const
 dbg
 =
 new

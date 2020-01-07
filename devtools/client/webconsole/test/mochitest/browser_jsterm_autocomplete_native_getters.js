@@ -32,7 +32,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -67,7 +67,7 @@ open
 "
 )
 ;
-let
+const
 onPopupOpen
 =
 popup
@@ -204,7 +204,7 @@ suggestions
 "
 )
 ;
-let
+const
 onPopupClose
 =
 popup
@@ -244,7 +244,7 @@ open
 "
 )
 ;
-let
+const
 onAutoCompleteUpdated
 =
 jsterm
@@ -258,7 +258,7 @@ updated
 "
 )
 ;
-let
+const
 inputStr
 =
 "

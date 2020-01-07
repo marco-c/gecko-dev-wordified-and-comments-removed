@@ -117,7 +117,7 @@ platform
 macosx
 "
 ;
-let
+const
 allKeys
 =
 [
@@ -165,7 +165,7 @@ key
 return
 ;
 }
-let
+const
 modifiers
 =
 key
@@ -297,7 +297,7 @@ setupKeyBindingsTest
 {
 for
 (
-let
+const
 win
 of
 gDevToolsBrowser
@@ -398,7 +398,7 @@ Mac
 "
 )
 ;
-let
+const
 inspectorKeys
 =
 allKeys
@@ -494,7 +494,7 @@ toolbox
 "
 )
 ;
-let
+const
 onToolboxReady
 =
 gDevTools
@@ -517,7 +517,7 @@ synthesizeKey
 (
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -548,7 +548,7 @@ command
 "
 )
 ;
-let
+const
 webconsole
 =
 allKeys
@@ -603,7 +603,7 @@ command
 "
 )
 ;
-let
+const
 jsdebugger
 =
 allKeys
@@ -658,7 +658,7 @@ command
 "
 )
 ;
-let
+const
 netmonitor
 =
 allKeys

@@ -47,7 +47,7 @@ do_test_pending
 (
 )
 ;
-let
+const
 global
 =
 createTestGlobal
@@ -119,7 +119,7 @@ addTestGlobal
 global
 )
 ;
-let
+const
 client
 =
 new
@@ -138,7 +138,7 @@ connect
 client
 )
 ;
-let
+const
 {
 tabs
 }
@@ -149,7 +149,7 @@ listTabs
 client
 )
 ;
-let
+const
 tab
 =
 findTab
@@ -160,7 +160,7 @@ test
 "
 )
 ;
-let
+const
 [
 tabClient
 ]
@@ -172,7 +172,7 @@ client
 tab
 )
 ;
-let
+const
 [
 threadClient
 ]
@@ -189,7 +189,7 @@ resume
 threadClient
 )
 ;
-let
+const
 {
 sources
 }
@@ -200,7 +200,7 @@ getSources
 threadClient
 )
 ;
-let
+const
 source
 =
 findSource
@@ -209,7 +209,7 @@ sources
 SOURCE_URL
 )
 ;
-let
+const
 sourceClient
 =
 threadClient
@@ -219,7 +219,7 @@ source
 source
 )
 ;
-let
+const
 location
 =
 {
@@ -314,7 +314,7 @@ paused
 "
 )
 ;
-let
+const
 why
 =
 packet
@@ -360,14 +360,14 @@ breakpointClient
 actor
 )
 ;
-let
+const
 frame
 =
 packet
 .
 frame
 ;
-let
+const
 where
 =
 frame
@@ -398,7 +398,7 @@ line
 8
 )
 ;
-let
+const
 variables
 =
 frame

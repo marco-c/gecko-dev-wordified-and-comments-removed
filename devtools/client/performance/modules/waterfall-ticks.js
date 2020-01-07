@@ -69,7 +69,7 @@ dataScale
 waterfallWidth
 )
 {
-let
+const
 canvas
 =
 doc
@@ -82,7 +82,7 @@ canvas
 "
 )
 ;
-let
+const
 ctx
 =
 canvas
@@ -94,7 +94,7 @@ getContext
 "
 )
 ;
-let
+const
 canvasWidth
 =
 canvas
@@ -103,7 +103,7 @@ width
 =
 waterfallWidth
 ;
-let
+const
 canvasHeight
 =
 canvas
@@ -112,7 +112,7 @@ height
 =
 1
 ;
-let
+const
 imageData
 =
 ctx
@@ -123,14 +123,14 @@ canvasWidth
 canvasHeight
 )
 ;
-let
+const
 pixelArray
 =
 imageData
 .
 data
 ;
-let
+const
 buf
 =
 new
@@ -141,7 +141,7 @@ pixelArray
 length
 )
 ;
-let
+const
 view8bit
 =
 new
@@ -150,7 +150,7 @@ Uint8ClampedArray
 buf
 )
 ;
-let
+const
 view32bit
 =
 new
@@ -159,7 +159,7 @@ Uint32Array
 buf
 )
 ;
-let
+const
 [
 r
 g
@@ -173,7 +173,7 @@ alphaComponent
 =
 WATERFALL_BACKGROUND_TICKS_OPACITY_MIN
 ;
-let
+const
 tickInterval
 =
 findOptimalTickInterval
@@ -208,7 +208,7 @@ i
 +
 )
 {
-let
+const
 increment
 =
 tickInterval
@@ -238,7 +238,7 @@ x
 increment
 )
 {
-let
+const
 position
 =
 x
@@ -327,7 +327,7 @@ timingStep
 =
 ticksMultiple
 ;
-let
+const
 maxIters
 =
 FIND_OPTIMAL_TICK_INTERVAL_MAX_ITERS
@@ -353,7 +353,7 @@ while
 true
 )
 {
-let
+const
 scaledStep
 =
 dataScale

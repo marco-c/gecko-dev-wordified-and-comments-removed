@@ -64,7 +64,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -103,7 +103,7 @@ icon
 "
 )
 ;
-let
+const
 icon
 =
 await
@@ -117,7 +117,7 @@ td
 "
 )
 ;
-let
+const
 onToggled
 =
 view
@@ -145,7 +145,7 @@ view
 styleWindow
 )
 ;
-let
+const
 isVisible
 =
 await

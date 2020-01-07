@@ -270,7 +270,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -281,7 +281,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 container
 =
 inspector
@@ -299,7 +299,7 @@ breadcrumbs
 ;
 for
 (
-let
+const
 node
 of
 NODES
@@ -331,7 +331,7 @@ update
 "
 )
 ;
-let
+const
 breadcrumbsUpdated
 =
 inspector
@@ -371,7 +371,7 @@ node
 selector
 )
 ;
-let
+const
 checkedButton
 =
 container
@@ -386,7 +386,7 @@ checked
 "
 )
 ;
-let
+const
 labelTag
 =
 checkedButton

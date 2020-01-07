@@ -931,7 +931,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -952,7 +952,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -961,7 +961,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win
@@ -1001,7 +1001,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -1022,7 +1022,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -1031,7 +1031,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win
@@ -1082,7 +1082,7 @@ givenGlobal
 ;
 try
 {
-let
+const
 metadata
 =
 Cu

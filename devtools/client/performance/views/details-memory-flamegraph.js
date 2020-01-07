@@ -223,7 +223,7 @@ interval
 }
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -232,7 +232,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 duration
 =
 recording
@@ -241,7 +241,7 @@ getDuration
 (
 )
 ;
-let
+const
 allocations
 =
 recording
@@ -250,7 +250,7 @@ getAllocations
 (
 )
 ;
-let
+const
 thread
 =
 RecordingUtils
@@ -260,7 +260,7 @@ getProfileThreadFromAllocations
 allocations
 )
 ;
-let
+const
 data
 =
 FlameGraphUtils
@@ -383,7 +383,7 @@ function
 (
 )
 {
-let
+const
 interval
 =
 this
@@ -420,7 +420,7 @@ function
 (
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -429,7 +429,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 allocations
 =
 recording
@@ -438,7 +438,7 @@ getAllocations
 (
 )
 ;
-let
+const
 thread
 =
 RecordingUtils
