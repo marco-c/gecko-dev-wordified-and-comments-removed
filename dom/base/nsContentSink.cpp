@@ -226,13 +226,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 mozAutoDocUpdate
 .
 h

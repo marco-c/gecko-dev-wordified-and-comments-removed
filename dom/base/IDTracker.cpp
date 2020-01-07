@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

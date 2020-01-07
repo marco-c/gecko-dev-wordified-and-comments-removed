@@ -6680,10 +6680,7 @@ mutation
 .
 mRelatedNode
 =
-do_QueryInterface
-(
 this
-)
 ;
 mozAutoSubtreeModified
 subtree

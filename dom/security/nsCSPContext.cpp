@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

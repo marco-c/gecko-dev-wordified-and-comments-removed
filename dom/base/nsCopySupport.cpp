@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIHTMLDocument
 .
 h

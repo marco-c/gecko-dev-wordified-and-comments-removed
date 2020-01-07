@@ -42,9 +42,6 @@ h
 class
 nsINode
 ;
-class
-nsIDOMNode
-;
 namespace
 mozilla
 {

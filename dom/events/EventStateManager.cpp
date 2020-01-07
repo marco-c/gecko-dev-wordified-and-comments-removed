@@ -8652,11 +8652,6 @@ aDataTransfer
 GetTransferables
 (
 dragTarget
--
->
-AsDOMNode
-(
-)
 )
 ;
 if

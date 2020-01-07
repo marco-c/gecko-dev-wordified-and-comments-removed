@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsDOMString
 .
 h

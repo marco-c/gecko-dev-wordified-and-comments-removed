@@ -476,11 +476,6 @@ txXPathNativeNode
 createXPathNode
 (
 text
--
->
-AsContent
-(
-)
 true
 )
 ;

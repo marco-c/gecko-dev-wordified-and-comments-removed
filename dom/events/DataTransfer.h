@@ -105,9 +105,6 @@ File
 h
 "
 class
-nsIDOMNode
-;
-class
 nsINode
 ;
 class
@@ -957,7 +954,7 @@ nsIArray
 >
 GetTransferables
 (
-nsIDOMNode
+nsINode
 *
 aDragTarget
 )

@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

@@ -3809,11 +3809,6 @@ nsContentUtils
 GetAncestorsAndOffsets
 (
 endContainer
--
->
-AsDOMNode
-(
-)
 endOffset
 &
 mEndNodes

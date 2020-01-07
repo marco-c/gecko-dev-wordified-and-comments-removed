@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -145,7 +145,7 @@ result
 }
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mRelatedNode
 ;
