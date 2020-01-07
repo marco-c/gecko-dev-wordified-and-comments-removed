@@ -48,13 +48,13 @@ typedef
 struct
 FarEndAudioChunk_
 {
-uint16_t
+size_t
 mSamples
 ;
 bool
 mOverrun
 ;
-int16_t
+AudioDataValue
 mData
 [
 1
