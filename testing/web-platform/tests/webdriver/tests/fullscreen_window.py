@@ -379,29 +379,11 @@ accept1
 "
 )
     
-expected_title
-=
-read_global
-(
-session
-"
-document
-.
-title
-"
-)
-    
 response
 =
 fullscreen
 (
 session
-)
-    
-assert_success
-(
-response
-expected_title
 )
     
 assert_dialog_handled
@@ -467,12 +449,6 @@ fullscreen
 session
 )
     
-assert_success
-(
-response
-expected_title
-)
-    
 assert_dialog_handled
 (
 session
@@ -492,18 +468,6 @@ accept2
 "
 )
 True
-    
-expected_title
-=
-read_global
-(
-session
-"
-document
-.
-title
-"
-)
     
 create_dialog
 (
@@ -532,12 +496,6 @@ response
 fullscreen
 (
 session
-)
-    
-assert_success
-(
-response
-expected_title
 )
     
 assert_dialog_handled
@@ -871,6 +829,34 @@ dismiss3
 =
 None
 def
+is_fullscreen
+(
+session
+)
+:
+    
+return
+session
+.
+execute_script
+(
+"
+return
+!
+!
+(
+window
+.
+fullScreen
+|
+|
+document
+.
+webkitIsFullScreen
+)
+"
+)
+def
 test_fullscreen
 (
 session
@@ -923,16 +909,9 @@ response
 )
     
 assert
-session
-.
-execute_script
+is_fullscreen
 (
-"
-return
-window
-.
-fullScreen
-"
+session
 )
 is
 True
@@ -1228,16 +1207,9 @@ session
 :
     
 assert
-session
-.
-execute_script
+is_fullscreen
 (
-"
-return
-window
-.
-fullScreen
-"
+session
 )
 is
 False
@@ -1255,16 +1227,9 @@ first_response
 )
     
 assert
-session
-.
-execute_script
+is_fullscreen
 (
-"
-return
-window
-.
-fullScreen
-"
+session
 )
 is
 True
@@ -1282,16 +1247,9 @@ second_response
 )
     
 assert
-session
-.
-execute_script
+is_fullscreen
 (
-"
-return
-window
-.
-fullScreen
-"
+session
 )
 is
 True
