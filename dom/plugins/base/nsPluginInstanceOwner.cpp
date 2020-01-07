@@ -1124,6 +1124,10 @@ mPluginWindow
 (
 nullptr
 )
+mLastEventloopNestingLevel
+(
+0
+)
 {
 nsCOMPtr
 <
