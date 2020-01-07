@@ -40,6 +40,13 @@ Xutil
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 typedef
 struct
 __GLXcontextRec
