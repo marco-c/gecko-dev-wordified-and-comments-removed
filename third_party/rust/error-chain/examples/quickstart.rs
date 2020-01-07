@@ -47,8 +47,6 @@ run
 )
 {
 use
-:
-:
 std
 :
 :
@@ -261,7 +259,7 @@ stderr
 "
 e
 .
-display
+display_chain
 (
 )
 )

@@ -95,7 +95,7 @@ crate
 ChainedError
 :
 :
-display
+display_chain
 (
 e
 )
