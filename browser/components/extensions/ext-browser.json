@@ -422,6 +422,15 @@ devtools_parent
 "
 ]
 "
+events
+"
+:
+[
+"
+uninstall
+"
+]
+"
 manifest
 "
 :
