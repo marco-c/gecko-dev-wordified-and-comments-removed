@@ -2074,7 +2074,7 @@ MOZ_UI_LOCALE
 )
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
