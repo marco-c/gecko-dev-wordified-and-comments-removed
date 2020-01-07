@@ -472,7 +472,7 @@ mClosed
 )
 {
 return
-NS_BASE_STREAM_CLOSED
+NS_OK
 ;
 }
 mClosed
