@@ -480,7 +480,7 @@ bincode
 ErrorKind
 :
 :
-IoError
+Io
 (
 e
 )
@@ -885,7 +885,7 @@ bincode
 ErrorKind
 :
 :
-IoError
+Io
 (
 e
 )
