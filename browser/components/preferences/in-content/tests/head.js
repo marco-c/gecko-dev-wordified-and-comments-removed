@@ -1264,10 +1264,10 @@ is
 removeBtn
 .
 disabled
-false
+true
 "
 Should
-enable
+disable
 the
 removeSelected
 button
