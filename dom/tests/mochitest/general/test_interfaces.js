@@ -1615,9 +1615,9 @@ DeviceLightEvent
 insecureContext
 :
 true
-release
+disabled
 :
-true
+isEarlyBetaOrEarlier
 }
 {
 name
@@ -1648,9 +1648,9 @@ DeviceProximityEvent
 insecureContext
 :
 true
-release
+disabled
 :
-true
+isEarlyBetaOrEarlier
 }
 {
 name
@@ -6104,9 +6104,9 @@ UserProximityEvent
 insecureContext
 :
 true
-release
+disabled
 :
-true
+isEarlyBetaOrEarlier
 }
 {
 name
