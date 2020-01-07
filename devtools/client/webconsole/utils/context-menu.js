@@ -122,7 +122,7 @@ messages
 function
 createContextMenu
 (
-jsterm
+hud
 parentNode
 {
 actor
@@ -602,6 +602,8 @@ selectedObjectActor
 actor
 }
 ;
+hud
+.
 jsterm
 .
 requestEvaluation
@@ -618,12 +620,16 @@ res
 =
 >
 {
+hud
+.
 jsterm
 .
 focus
 (
 )
 ;
+hud
+.
 jsterm
 .
 setInputValue
@@ -813,6 +819,8 @@ if
 actor
 )
 {
+hud
+.
 jsterm
 .
 copyObject

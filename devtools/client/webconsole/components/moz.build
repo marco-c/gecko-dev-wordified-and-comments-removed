@@ -109,6 +109,11 @@ GripMessageBody
 js
 '
 '
+JSTerm
+.
+js
+'
+'
 Message
 .
 js
