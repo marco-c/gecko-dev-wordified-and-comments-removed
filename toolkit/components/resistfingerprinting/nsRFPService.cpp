@@ -227,7 +227,7 @@ microseconds
 #
 define
 RFP_TIMER_VALUE_DEFAULT
-2000
+20
 #
 define
 RFP_SPOOFED_FRAMES_PER_SEC_PREF
