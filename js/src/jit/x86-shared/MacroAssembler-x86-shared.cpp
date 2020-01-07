@@ -2754,7 +2754,7 @@ Label
 inputIsNaN
 ;
 Label
-fail
+intOverflow
 ;
 wasm
 :
@@ -2795,7 +2795,7 @@ masm
 bind
 (
 &
-fail
+intOverflow
 )
 ;
 masm
@@ -3011,7 +3011,7 @@ ScratchDoubleReg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 loadConstantDouble
@@ -3034,7 +3034,7 @@ ScratchDoubleReg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 jump
@@ -3111,7 +3111,7 @@ ScratchFloat32Reg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 jump
@@ -3187,7 +3187,7 @@ ScratchDoubleReg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 loadConstantDouble
@@ -3210,7 +3210,7 @@ ScratchDoubleReg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 jump
@@ -3244,7 +3244,7 @@ ScratchDoubleReg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 jump
@@ -3320,7 +3320,7 @@ ScratchFloat32Reg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 loadConstantFloat32
@@ -3343,7 +3343,7 @@ ScratchFloat32Reg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 jump
@@ -3377,7 +3377,7 @@ ScratchFloat32Reg
 &
 traps
 .
-fail
+intOverflow
 )
 ;
 jump
