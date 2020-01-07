@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_WindowsDllServices_h
+mozilla_glue_WindowsDllServices_h
 #
 define
-mozilla_WindowsDllServices_h
+mozilla_glue_WindowsDllServices_h
 #
 include
 "
@@ -60,6 +60,9 @@ h
 >
 namespace
 mozilla
+{
+namespace
+glue
 {
 namespace
 detail
@@ -293,6 +296,7 @@ aDllName
 ;
 #
 endif
+}
 }
 #
 endif
