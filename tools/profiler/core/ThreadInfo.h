@@ -149,6 +149,7 @@ new
 ProfilerMarker
 (
 aMarkerName
+mThreadId
 Move
 (
 aPayload

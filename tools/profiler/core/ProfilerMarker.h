@@ -53,6 +53,8 @@ const
 char
 *
 aMarkerName
+int
+aThreadId
 mozilla
 :
 :
@@ -95,6 +97,10 @@ mGenID
 {
 0
 }
+mThreadId
+{
+aThreadId
+}
 {
 }
 void
@@ -134,6 +140,16 @@ const
 {
 return
 mTime
+;
+}
+int
+GetThreadId
+(
+)
+const
+{
+return
+mThreadId
 ;
 }
 void
@@ -254,6 +270,9 @@ mTime
 ;
 uint32_t
 mGenID
+;
+int
+mThreadId
 ;
 }
 ;
