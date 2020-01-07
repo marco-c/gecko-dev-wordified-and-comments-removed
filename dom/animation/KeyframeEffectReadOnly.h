@@ -1305,11 +1305,6 @@ nsChangeHint_UpdateTransformLayer
 )
 ;
 }
-bool
-mIsComposingStyle
-=
-false
-;
 }
 ;
 }
