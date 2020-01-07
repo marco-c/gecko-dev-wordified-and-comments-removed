@@ -142,6 +142,10 @@ aLength
 uint8_t
 *
 aResult
+bool
+aShuttingDown
+=
+false
 )
 ;
 void
@@ -150,6 +154,10 @@ ContinueConsumeBlobBody
 BlobImpl
 *
 aBlobImpl
+bool
+aShuttingDown
+=
+false
 )
 ;
 void
