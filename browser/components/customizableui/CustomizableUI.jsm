@@ -4882,6 +4882,8 @@ forcePanel
 |
 |
 "
+menu
+-
 panel
 "
 =
@@ -16873,6 +16875,8 @@ AREA_FIXED_OVERFLOW_PANEL
 place
 =
 "
+menu
+-
 panel
 "
 ;

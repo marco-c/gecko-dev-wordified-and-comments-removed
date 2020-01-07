@@ -1909,6 +1909,8 @@ palette
 place
 =
 "
+menu
+-
 panel
 "
 ]
@@ -1941,6 +1943,8 @@ palette
 place
 =
 "
+menu
+-
 panel
 "
 ]
@@ -2945,7 +2949,11 @@ toolbarpaletteitem
 [
 place
 =
+"
+menu
+-
 panel
+"
 ]
 >
 .
@@ -7907,7 +7915,11 @@ toolbarpaletteitem
 [
 place
 =
+"
+menu
+-
 panel
+"
 ]
 >
 .
@@ -8571,7 +8583,11 @@ toolbarpaletteitem
 [
 place
 =
+"
+menu
+-
 panel
+"
 ]
 >
 .
