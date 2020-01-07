@@ -1653,6 +1653,7 @@ installed
 "
 )
 ;
+await
 addon
 .
 uninstall
