@@ -2403,6 +2403,8 @@ UnsignedType
 MaxValue
 )
 ;
+MOZ_NO_SANITIZE_UNSIGNED_OVERFLOW
+MOZ_NO_SANITIZE_SIGNED_OVERFLOW
 static
 constexpr
 SignedType
