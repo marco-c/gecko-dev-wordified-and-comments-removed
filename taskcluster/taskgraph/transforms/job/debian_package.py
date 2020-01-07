@@ -236,6 +236,15 @@ get
 aptitude
 '
 )
+    
+Required
+(
+'
+workdir
+'
+)
+:
+basestring
 }
 )
 run_job_using

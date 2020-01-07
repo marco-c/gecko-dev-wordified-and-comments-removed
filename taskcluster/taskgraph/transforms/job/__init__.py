@@ -502,6 +502,15 @@ using
 :
 basestring
         
+Optional
+(
+'
+workdir
+'
+)
+:
+basestring
+        
 Extra
 :
 object
@@ -917,6 +926,26 @@ os
 ]
 =
 os
+        
+job
+[
+'
+run
+'
+]
+.
+setdefault
+(
+'
+workdir
+'
+'
+/
+builds
+/
+worker
+'
+)
         
 taskdesc
 =

@@ -110,6 +110,15 @@ variant
 )
 :
 basestring
+    
+Required
+(
+'
+workdir
+'
+)
+:
+basestring
 }
 )
 run_job_using
@@ -288,13 +297,19 @@ point
 '
 :
 "
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 "
+.
+format
+(
+*
+*
+run
+)
         
 '
 skip
@@ -509,10 +524,9 @@ command
 [
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 bin
 /
@@ -520,6 +534,13 @@ run
 -
 task
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -
@@ -529,10 +550,9 @@ vcs
 checkout
 '
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -540,6 +560,13 @@ build
 /
 src
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -
@@ -560,10 +587,9 @@ c
         
 '
 cd
-/
-builds
-/
-worker
+{
+workdir
+}
 &
 &
 workspace
@@ -578,11 +604,26 @@ scripts
 /
 builder
 /
-%
-s
-'
-%
+{
 script
+}
+'
+.
+format
+(
+            
+workdir
+=
+run
+[
+'
+workdir
+'
+]
+script
+=
+script
+)
     
 ]
 run_job_using

@@ -208,6 +208,15 @@ alias
 )
 :
 basestring
+    
+Required
+(
+'
+workdir
+'
+)
+:
+basestring
 }
 )
 def
@@ -779,10 +788,9 @@ command
 [
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 bin
 /
@@ -790,6 +798,13 @@ run
 -
 task
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -
@@ -798,10 +813,9 @@ vcs
 -
 checkout
 =
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -809,6 +823,13 @@ build
 /
 src
 '
+.
+format
+(
+*
+*
+run
+)
     
 ]
 +
@@ -832,10 +853,8 @@ c
         
 '
 cd
-/
-builds
-/
-worker
+{
+}
 &
 &
 '
@@ -864,6 +883,12 @@ misc
 format
 (
             
+run
+[
+'
+workdir
+'
+]
 wrapper
 run
 [

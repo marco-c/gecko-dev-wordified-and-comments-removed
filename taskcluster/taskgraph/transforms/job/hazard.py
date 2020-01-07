@@ -113,6 +113,15 @@ bool
 basestring
 ]
 )
+    
+Required
+(
+'
+workdir
+'
+)
+:
+basestring
 }
 )
 run_job_using
@@ -278,15 +287,21 @@ GECKO_DIR
 ]
 =
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 checkouts
 /
 gecko
 '
+.
+format
+(
+*
+*
+run
+)
     
 worker
 [
@@ -298,10 +313,9 @@ command
 [
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 bin
 /
@@ -309,6 +323,13 @@ run
 -
 task
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -
@@ -318,15 +339,21 @@ vcs
 checkout
 '
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 checkouts
 /
 gecko
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -

@@ -334,6 +334,15 @@ checkout
 )
 :
 bool
+    
+Required
+(
+'
+workdir
+'
+)
+:
+basestring
 }
 )
 mozharness_defaults
@@ -1097,10 +1106,9 @@ command
 [
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 bin
 /
@@ -1108,6 +1116,13 @@ run
 -
 task
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -
@@ -1117,10 +1132,9 @@ vcs
 checkout
 '
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -1128,6 +1142,13 @@ build
 /
 src
 '
+.
+format
+(
+*
+*
+run
+)
         
 '
 -
@@ -1137,10 +1158,9 @@ tools
 checkout
 '
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -1148,6 +1168,13 @@ build
 /
 tools
 '
+.
+format
+(
+*
+*
+run
+)
     
 ]
     
@@ -1173,10 +1200,9 @@ comm
 -
 checkout
 =
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -1186,6 +1212,13 @@ src
 /
 comm
 '
+.
+format
+(
+*
+*
+run
+)
 )
     
 command
@@ -1199,10 +1232,9 @@ command
 '
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -1211,12 +1243,24 @@ build
 src
 /
 {
+script
 }
 '
 .
 format
 (
             
+workdir
+=
+run
+[
+'
+workdir
+'
+]
+            
+script
+=
 run
 .
 get
