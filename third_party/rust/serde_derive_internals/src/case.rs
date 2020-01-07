@@ -2,6 +2,7 @@
 [
 allow
 (
+deprecated
 unused_imports
 )
 ]
@@ -36,7 +37,6 @@ RenameRule
 [
 derive
 (
-Debug
 PartialEq
 )
 ]
