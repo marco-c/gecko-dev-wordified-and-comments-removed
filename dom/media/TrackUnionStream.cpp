@@ -414,10 +414,6 @@ uint32_t
 aFlags
 )
 {
-TRACE
-(
-)
-;
 if
 (
 IsFinishedOnGraphThread
