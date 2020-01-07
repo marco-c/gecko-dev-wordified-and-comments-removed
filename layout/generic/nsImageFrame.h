@@ -794,6 +794,17 @@ NS_FRAME_GENERATED_CONTENT
 )
 ;
 }
+nsImageFrame
+*
+CreateContinuingFrame
+(
+nsIPresShell
+*
+ComputedStyle
+*
+)
+const
+;
 private
 :
 friend
