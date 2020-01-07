@@ -361,13 +361,12 @@ nsIContent
 aContent
 )
 ;
-NS_IMETHOD
+nsresult
 OnPrototypeLoadDone
 (
 bool
 aResumeWalk
 )
-override
 ;
 bool
 OnDocumentParserError
