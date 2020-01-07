@@ -5388,7 +5388,11 @@ mSelection
 >
 RemoveRange
 (
+*
 this
+IgnoreErrors
+(
+)
 )
 ;
 }
