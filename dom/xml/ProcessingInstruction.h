@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsIDOMCharacterData
+nsIDOMNode
 .
 h
 "
@@ -50,7 +50,7 @@ ProcessingInstruction
 public
 CharacterData
 public
-nsIDOMCharacterData
+nsIDOMNode
 {
 public
 :
@@ -76,12 +76,6 @@ aData
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_FORWARD_NSIDOMCHARACTERDATA
-(
-CharacterData
-:
-:
-)
 virtual
 bool
 IsNodeOfType

@@ -94,13 +94,6 @@ nsIDOMDocument
 h
 "
 #
-include
-"
-nsIDOMCharacterData
-.
-h
-"
-#
 ifdef
 MOZ_OLD_STYLE
 #

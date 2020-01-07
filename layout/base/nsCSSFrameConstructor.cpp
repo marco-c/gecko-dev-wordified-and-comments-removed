@@ -317,13 +317,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsPlaceholderFrame
 .
 h

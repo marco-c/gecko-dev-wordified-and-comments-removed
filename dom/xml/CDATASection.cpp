@@ -49,7 +49,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 CDATASection
 CharacterData
 nsIDOMNode
-nsIDOMCharacterData
 )
 JSObject
 *

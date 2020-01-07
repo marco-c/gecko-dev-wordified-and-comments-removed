@@ -315,7 +315,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 ProcessingInstruction
 CharacterData
 nsIDOMNode
-nsIDOMCharacterData
 )
 JSObject
 *

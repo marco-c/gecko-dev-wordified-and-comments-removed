@@ -64,7 +64,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 Comment
 CharacterData
 nsIDOMNode
-nsIDOMCharacterData
 )
 bool
 Comment
