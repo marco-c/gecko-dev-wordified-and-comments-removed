@@ -325,14 +325,6 @@ spawns
 *
 /
 void
-forceInitialBrowserRemote
-(
-in
-AString
-aRemoteType
-)
-;
-void
 forceInitialBrowserNonRemote
 (
 in
