@@ -107,12 +107,12 @@ TreeWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -129,7 +129,7 @@ win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -167,7 +167,7 @@ tree
 doc
 )
 ;
-yield
+await
 testKeyboardInteraction
 (
 tree
@@ -547,8 +547,8 @@ win
 )
 ;
 }
+async
 function
-*
 testKeyboardInteraction
 (
 tree
@@ -637,7 +637,7 @@ click
 node
 )
 ;
-yield
+await
 event
 .
 promise
@@ -746,7 +746,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -886,7 +886,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -988,7 +988,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -1106,7 +1106,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -1256,7 +1256,7 @@ LEFT
 win
 )
 ;
-yield
+await
 event
 .
 promise
@@ -1360,7 +1360,7 @@ name
 data
 ]
 =
-yield
+await
 event
 .
 promise
@@ -1498,7 +1498,7 @@ data
 attachment
 ]
 =
-yield
+await
 event
 .
 promise
@@ -1648,7 +1648,7 @@ LEFT
 win
 )
 ;
-yield
+await
 event
 .
 promise
@@ -1768,7 +1768,7 @@ RIGHT
 win
 )
 ;
-yield
+await
 event
 .
 promise
@@ -1885,7 +1885,7 @@ DOWN
 win
 )
 ;
-yield
+await
 event
 .
 promise
