@@ -3658,9 +3658,10 @@ callee
 ;
 masm
 .
-branchIfFunctionHasNoScript
+branchIfFunctionHasNoJitEntry
 (
 callee
+false
 failure
 -
 >
@@ -9201,9 +9202,10 @@ scratch1
 ;
 masm
 .
-branchIfFunctionHasNoScript
+branchIfFunctionHasNoJitEntry
 (
 scratch1
+false
 failure
 -
 >

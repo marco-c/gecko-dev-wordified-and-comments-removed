@@ -8845,13 +8845,6 @@ pc
 )
 return
 ;
-if
-(
-!
-fp
-)
-return
-;
 startInterrupt
 (
 activation

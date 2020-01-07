@@ -3223,6 +3223,14 @@ scopes
 ;
 private
 :
+uint8_t
+*
+jitCodeRaw_
+;
+uint8_t
+*
+jitCodeSkipArgCheck_
+;
 js
 :
 :
@@ -3281,14 +3289,6 @@ js
 LazyScript
 *
 lazyScript
-;
-uint8_t
-*
-jitCodeRaw_
-;
-uint8_t
-*
-jitCodeSkipArgCheck_
 ;
 uint32_t
 dataSize_
@@ -5493,6 +5493,7 @@ ion
 ;
 }
 static
+constexpr
 size_t
 offsetOfJitCodeRaw
 (
@@ -5507,6 +5508,7 @@ jitCodeRaw_
 ;
 }
 static
+constexpr
 size_t
 offsetOfJitCodeSkipArgCheck
 (

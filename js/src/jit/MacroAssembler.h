@@ -579,7 +579,9 @@ IMM32_16ADJ
 (
 X
 )
+(
 X
+)
 <
 <
 16
@@ -591,7 +593,9 @@ IMM32_16ADJ
 (
 X
 )
+(
 X
+)
 #
 endif
 namespace
@@ -5528,10 +5532,12 @@ label
 ;
 inline
 void
-branchIfFunctionHasNoScript
+branchIfFunctionHasNoJitEntry
 (
 Register
 fun
+bool
+isConstructing
 Label
 *
 label

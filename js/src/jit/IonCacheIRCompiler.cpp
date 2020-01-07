@@ -6615,7 +6615,7 @@ MOZ_ASSERT
 target
 -
 >
-hasScript
+hasJitEntry
 (
 )
 )
@@ -12306,7 +12306,7 @@ MOZ_ASSERT
 target
 -
 >
-hasScript
+hasJitEntry
 (
 )
 )

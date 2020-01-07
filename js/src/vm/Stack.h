@@ -5849,7 +5849,7 @@ encodedWasmExitReason_
 )
 ;
 }
-void
+bool
 startWasmInterrupt
 (
 const

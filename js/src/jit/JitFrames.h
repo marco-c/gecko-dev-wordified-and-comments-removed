@@ -1643,6 +1643,9 @@ IonOOLNative
 IonOOLProxy
 =
 0x6
+WasmJitEntry
+=
+0x7
 InterpreterStub
 =
 0xFC

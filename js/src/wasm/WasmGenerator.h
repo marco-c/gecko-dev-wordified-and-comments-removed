@@ -703,15 +703,6 @@ ShareableBytes
 bytecode
 )
 ;
-UniqueJumpTable
-createJumpTable
-(
-const
-CodeSegment
-&
-codeSegment
-)
-;
 bool
 isAsmJS
 (

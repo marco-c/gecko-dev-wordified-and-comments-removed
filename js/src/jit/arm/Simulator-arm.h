@@ -1118,7 +1118,7 @@ handleWasmInterrupt
 (
 )
 ;
-void
+bool
 startWasmInterrupt
 (
 JitActivation

@@ -3100,7 +3100,7 @@ if
 target
 -
 >
-isNative
+isNativeWithCppEntry
 (
 )
 )

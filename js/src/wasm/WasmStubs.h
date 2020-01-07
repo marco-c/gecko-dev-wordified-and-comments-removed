@@ -82,6 +82,16 @@ CompiledCode
 code
 )
 ;
+extern
+bool
+CanBeJitOptimized
+(
+const
+Sig
+&
+sig
+)
+;
 }
 }
 #

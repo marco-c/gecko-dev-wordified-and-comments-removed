@@ -987,13 +987,6 @@ cs
 )
 return
 ;
-if
-(
-!
-fp
-)
-return
-;
 JS
 :
 :
@@ -1041,6 +1034,9 @@ xreg
 31
 )
 ;
+if
+(
+!
 cx_
 -
 >
@@ -1056,6 +1052,8 @@ startWasmInterrupt
 (
 state
 )
+)
+return
 ;
 set_pc
 (
