@@ -355,9 +355,7 @@ itoa
 lazy_static
 =
 "
-0
-.
-2
+1
 "
 log
 =
@@ -693,9 +691,7 @@ dependencies
 lazy_static
 =
 "
-0
-.
-2
+1
 "
 log
 =

@@ -74,9 +74,7 @@ getopts
 lazy_static
 =
 "
-0
-.
-2
+1
 "
 log
 =

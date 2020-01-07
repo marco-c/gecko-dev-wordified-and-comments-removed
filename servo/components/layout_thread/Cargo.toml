@@ -169,9 +169,7 @@ layout_traits
 lazy_static
 =
 "
-0
-.
-2
+1
 "
 libc
 =
