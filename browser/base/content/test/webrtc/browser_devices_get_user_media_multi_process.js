@@ -638,7 +638,9 @@ tab
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -1409,7 +1411,9 @@ tab
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
