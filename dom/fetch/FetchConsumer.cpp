@@ -331,9 +331,6 @@ aFetchBodyConsumer
 WorkerPrivate
 *
 aWorkerPrivate
-uint8_t
-*
-aResult
 )
 :
 MainThreadWorkerControlRunnable
@@ -350,11 +347,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-free
-(
-aResult
 )
 ;
 }
@@ -467,7 +459,6 @@ mWorkerRef
 Private
 (
 )
-nullptr
 )
 ;
 if
@@ -885,7 +876,6 @@ mWorkerRef
 Private
 (
 )
-nonconstResult
 )
 ;
 if
@@ -907,7 +897,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-NS_SUCCESS_ADOPTED_DATA
+NS_OK
 ;
 }
 virtual
