@@ -76,6 +76,11 @@ mMutator
 )
 )
 ;
+NS_ENSURE_SUCCESS_VOID
+(
+mStatus
+)
+;
 }
 NS_MutateURI
 :
