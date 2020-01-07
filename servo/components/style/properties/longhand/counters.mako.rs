@@ -2705,7 +2705,10 @@ input
 specified
 :
 :
-parse_integer
+Integer
+:
+:
+parse
 (
 context
 input
