@@ -794,10 +794,9 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
-Return
-type
+proxyData
 must
 be
 a
@@ -819,10 +818,9 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
-Return
-type
+proxyData
 must
 be
 a
@@ -846,7 +844,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Unrecognized
 proxy
@@ -872,7 +870,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 host
@@ -912,7 +910,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 arguments
@@ -952,7 +950,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 host
@@ -985,7 +983,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 host
@@ -1019,7 +1017,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 host
@@ -1059,7 +1057,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 host
@@ -1106,7 +1104,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 argument
@@ -1158,7 +1156,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 proxy
@@ -1209,10 +1207,9 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
-Return
-type
+proxyData
 must
 be
 a
@@ -1299,7 +1296,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Invalid
 proxy
@@ -1389,7 +1386,7 @@ expected
 error
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Proxy
 server
