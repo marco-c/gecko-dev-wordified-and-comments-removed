@@ -113,9 +113,14 @@ eRegularPushButton
 eDefaultPushButton
 eRegularBevelButton
 eDefaultBevelButton
+eRoundedBezelPushButton
+eSquareBezelPushButton
 eArrowButton
+eHelpButton
 eTreeTwistyPointingRight
 eTreeTwistyPointingDown
+eDisclosureButtonClosed
+eDisclosureButtonOpen
 }
 ;
 struct
