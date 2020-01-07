@@ -634,17 +634,6 @@ baseURIObject
 [
 ChromeOnly
 ]
-sequence
-<
-MutationObserver
->
-getBoundMutationObservers
-(
-)
-;
-[
-ChromeOnly
-]
 DOMString
 generateXPath
 (
