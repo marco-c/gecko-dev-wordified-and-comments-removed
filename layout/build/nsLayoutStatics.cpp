@@ -216,13 +216,6 @@ endif
 #
 include
 "
-ContentPrincipal
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h
@@ -1505,13 +1498,6 @@ InitializeStatics
 )
 ;
 TouchManager
-:
-:
-InitializeStatics
-(
-)
-;
-ContentPrincipal
 :
 :
 InitializeStatics

@@ -209,12 +209,6 @@ aStr
 override
 ;
 static
-void
-InitializeStatics
-(
-)
-;
-static
 nsresult
 GenerateOriginNoSuffixFromURI
 (
