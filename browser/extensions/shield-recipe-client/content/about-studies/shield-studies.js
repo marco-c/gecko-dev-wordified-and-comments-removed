@@ -477,6 +477,9 @@ sendPageEvent
 "
 RemoveStudy
 "
+{
+recipeId
+:
 this
 .
 props
@@ -484,6 +487,16 @@ props
 study
 .
 recipeId
+reason
+:
+"
+individual
+-
+opt
+-
+out
+"
+}
 )
 ;
 }

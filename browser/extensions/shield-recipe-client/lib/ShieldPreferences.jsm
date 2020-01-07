@@ -426,6 +426,7 @@ prefName
 case
 FHR_UPLOAD_ENABLED_PREF
 :
+{
 prefValue
 =
 Services
@@ -449,9 +450,11 @@ prefValue
 ;
 break
 ;
+}
 case
 OPT_OUT_STUDIES_ENABLED_PREF
 :
+{
 prefValue
 =
 Services
@@ -497,6 +500,13 @@ stop
 study
 .
 recipeId
+"
+general
+-
+opt
+-
+out
+"
 )
 ;
 }
@@ -504,6 +514,7 @@ recipeId
 }
 break
 ;
+}
 }
 }
 injectOptOutStudyCheckbox
