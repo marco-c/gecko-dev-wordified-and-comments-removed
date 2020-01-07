@@ -202,7 +202,6 @@ mozharness
 actions
 :
 [
-clobber
 build
 ]
 config
@@ -347,7 +346,6 @@ mozharness
 actions
 :
 [
-clobber
 get
 -
 secrets
