@@ -190,6 +190,9 @@ Clear
 if
 (
 !
+this
+-
+>
 mVMPolicy
 .
 ShouldUnhookUponDestruction
@@ -248,6 +251,9 @@ auto
 &
 tramps
 =
+this
+-
+>
 mVMPolicy
 .
 Items
@@ -364,6 +370,9 @@ MMPolicyT
 >
 origBytes
 (
+this
+-
+>
 mVMPolicy
 interceptedFn
 .
@@ -572,6 +581,9 @@ Commit
 )
 ;
 }
+this
+-
+>
 mVMPolicy
 .
 Clear
@@ -608,6 +620,9 @@ aNumHooks
 {
 aNumHooks
 =
+this
+-
+>
 mVMPolicy
 .
 GetAllocGranularity
@@ -617,6 +632,9 @@ GetAllocGranularity
 kHookSize
 ;
 }
+this
+-
+>
 mVMPolicy
 .
 Reserve
@@ -634,6 +652,9 @@ const
 return
 !
 !
+this
+-
+>
 mVMPolicy
 ;
 }
@@ -656,6 +677,9 @@ MMPolicyT
 >
 target
 (
+this
+-
+>
 ResolveRedirectedAddress
 (
 aTargetFn
