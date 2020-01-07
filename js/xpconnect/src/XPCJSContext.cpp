@@ -124,13 +124,6 @@ h
 #
 include
 "
-amIAddonManager
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
