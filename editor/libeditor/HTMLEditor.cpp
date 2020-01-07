@@ -10974,16 +10974,6 @@ n
 }
 }
 }
-if
-(
-!
-bNodeFound
-)
-{
-return
-NS_SUCCESS_EDITOR_ELEMENT_NOT_FOUND
-;
-}
 *
 aReturn
 =
