@@ -86,7 +86,6 @@ values
 Auto
 CSSFloat
 Either
-None_
 Normal
 specified
 }
@@ -4613,16 +4612,6 @@ CSSPixelLength
 ;
 pub
 type
-LengthOrNone
-=
-Either
-<
-Length
-None_
->
-;
-pub
-type
 LengthOrAuto
 =
 Either
@@ -5079,8 +5068,8 @@ NonNegativeLengthOrNumber
 =
 Either
 <
-NonNegativeLength
 NonNegativeNumber
+NonNegativeLength
 >
 ;
 #
