@@ -1355,6 +1355,12 @@ windows
 qr
 -
 tests
+-
+windows
+-
+qr
+-
+talos
 #
 #
 #
