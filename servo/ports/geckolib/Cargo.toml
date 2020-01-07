@@ -101,6 +101,15 @@ cssparser
 .
 0
 "
+cstr
+=
+"
+0
+.
+1
+.
+2
+"
 env_logger
 =
 {

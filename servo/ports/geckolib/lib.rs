@@ -2,6 +2,14 @@ extern
 crate
 cssparser
 ;
+#
+[
+macro_use
+]
+extern
+crate
+cstr
+;
 extern
 crate
 env_logger
