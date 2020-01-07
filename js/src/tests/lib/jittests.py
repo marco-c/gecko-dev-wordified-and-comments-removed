@@ -3665,7 +3665,7 @@ res
 .
 test
 .
-path
+relpath_tests
 ]
 )
 )
