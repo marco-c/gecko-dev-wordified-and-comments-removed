@@ -13415,9 +13415,8 @@ const
 HIRect
 &
 inBoxRect
-nsIFrame
-*
-aFrame
+bool
+aIsInsideActiveWindow
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -13435,10 +13434,7 @@ tpdi
 .
 state
 =
-FrameIsInActiveWindow
-(
-aFrame
-)
+aIsInsideActiveWindow
 ?
 kThemeStateActive
 :
@@ -20208,7 +20204,10 @@ DrawTabPanel
 (
 cgContext
 macRect
+FrameIsInActiveWindow
+(
 aFrame
+)
 )
 ;
 break

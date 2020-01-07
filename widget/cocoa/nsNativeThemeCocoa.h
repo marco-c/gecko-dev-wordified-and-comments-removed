@@ -1308,9 +1308,8 @@ const
 HIRect
 &
 inBoxRect
-nsIFrame
-*
-aFrame
+bool
+aIsInsideActiveWindow
 )
 ;
 void
