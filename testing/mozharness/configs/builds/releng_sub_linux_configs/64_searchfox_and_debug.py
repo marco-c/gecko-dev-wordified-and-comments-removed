@@ -275,14 +275,6 @@ sbin
 :
 /
 sbin
-:
-\
-/
-home
-/
-cltbld
-/
-bin
 '
     
 }
