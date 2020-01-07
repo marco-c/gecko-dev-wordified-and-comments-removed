@@ -65,19 +65,7 @@ debug_build
 True
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 enable_signing
-'
-:
-False
-    
-'
-enable_talos_sendchange
 '
 :
 False

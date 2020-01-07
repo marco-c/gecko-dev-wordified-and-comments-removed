@@ -690,12 +690,6 @@ enable_count_ctors
 True
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 enable_unittest_sendchange
 '
 :

@@ -71,12 +71,6 @@ devel
 '
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 env
 '
 :

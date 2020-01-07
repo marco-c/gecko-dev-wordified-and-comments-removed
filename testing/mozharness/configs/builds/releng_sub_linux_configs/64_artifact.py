@@ -262,12 +262,6 @@ enable_unittest_sendchange
 True
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 perfherder_extra_options
 '
 :

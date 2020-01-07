@@ -258,12 +258,6 @@ enable_count_ctors
 False
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 enable_unittest_sendchange
 '
 :

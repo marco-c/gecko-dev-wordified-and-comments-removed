@@ -71,12 +71,6 @@ enable_signing
 False
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 env
 '
 :
