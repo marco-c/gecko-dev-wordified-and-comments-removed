@@ -645,6 +645,7 @@ TilePaintFlags
 None
 &
 backBufferOnWhite
+nullptr
 )
 ;
 mTile
