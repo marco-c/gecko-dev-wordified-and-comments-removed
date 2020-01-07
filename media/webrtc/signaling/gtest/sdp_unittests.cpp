@@ -24858,8 +24858,6 @@ NewSdpTest
 CheckGroups
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
 ParseSdp
 (
 kBasicAudioVideoOffer
