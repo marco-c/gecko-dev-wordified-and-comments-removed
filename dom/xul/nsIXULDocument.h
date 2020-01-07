@@ -75,14 +75,6 @@ NS_IXULDOCUMENT_IID
 )
 virtual
 void
-ResetDocumentDirection
-(
-)
-=
-0
-;
-virtual
-void
 ResetDocumentLWTheme
 (
 )
