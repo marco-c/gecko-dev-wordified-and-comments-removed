@@ -498,7 +498,7 @@ is
 (
 win
 .
-outerHeight
+innerHeight
 300
 "
 The
@@ -516,7 +516,7 @@ is
 (
 win
 .
-outerWidth
+innerWidth
 300
 "
 The
