@@ -458,6 +458,8 @@ counters
 :
 :
 {
+Content
+ContentItem
 CounterIncrement
 CounterReset
 }
