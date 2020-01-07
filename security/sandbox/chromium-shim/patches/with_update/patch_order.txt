@@ -70,3 +70,6 @@ patch
 mingw_noexports_casts
 .
 patch
+mingw_offsetof
+.
+patch
