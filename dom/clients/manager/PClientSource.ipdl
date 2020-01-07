@@ -101,6 +101,11 @@ PClientSourceOp
 ;
 parent
 :
+sync
+WorkerSyncPing
+(
+)
+;
 async
 Teardown
 (

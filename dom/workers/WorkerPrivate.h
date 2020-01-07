@@ -4098,6 +4098,15 @@ GetClientInfo
 const
 ;
 void
+Control
+(
+const
+ServiceWorkerDescriptor
+&
+aServiceWorker
+)
+;
+void
 ExecutionReady
 (
 )

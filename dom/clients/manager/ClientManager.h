@@ -87,6 +87,10 @@ friend
 class
 ClientManagerChild
 ;
+friend
+class
+ClientSource
+;
 ClientManager
 (
 )
