@@ -2698,10 +2698,7 @@ i
 ;
 i
 <
-sizeof
-(
-sTextMimeTypes
-)
+TEXT_MIME_TYPES_NUM
 ;
 i
 +
