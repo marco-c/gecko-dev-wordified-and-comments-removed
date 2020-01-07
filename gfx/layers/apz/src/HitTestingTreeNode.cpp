@@ -248,8 +248,9 @@ HitTestingTreeNode
 HitTestingTreeNode
 (
 )
-{
-}
+=
+default
+;
 void
 HitTestingTreeNode
 :

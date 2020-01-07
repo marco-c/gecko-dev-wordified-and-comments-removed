@@ -78,8 +78,9 @@ InputQueue
 InputQueue
 (
 )
-{
-}
+=
+default
+;
 InputQueue
 :
 :

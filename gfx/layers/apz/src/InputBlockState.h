@@ -179,8 +179,9 @@ virtual
 InputBlockState
 (
 )
-{
-}
+=
+default
+;
 virtual
 CancelableBlockState
 *

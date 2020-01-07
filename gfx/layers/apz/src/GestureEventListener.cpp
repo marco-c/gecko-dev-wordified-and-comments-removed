@@ -358,8 +358,9 @@ GestureEventListener
 GestureEventListener
 (
 )
-{
-}
+=
+default
+;
 nsEventStatus
 GestureEventListener
 :

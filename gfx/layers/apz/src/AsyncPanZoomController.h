@@ -267,8 +267,9 @@ virtual
 PlatformSpecificStateBase
 (
 )
-{
-}
+=
+default
+;
 virtual
 AndroidSpecificState
 *

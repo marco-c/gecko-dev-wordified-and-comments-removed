@@ -39,8 +39,9 @@ OverscrollHandoffChain
 OverscrollHandoffChain
 (
 )
-{
-}
+=
+default
+;
 void
 OverscrollHandoffChain
 :

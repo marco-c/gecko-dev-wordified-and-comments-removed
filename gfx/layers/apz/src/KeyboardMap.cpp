@@ -30,8 +30,9 @@ KeyboardShortcut
 KeyboardShortcut
 (
 )
-{
-}
+=
+default
+;
 KeyboardShortcut
 :
 :
@@ -457,8 +458,9 @@ KeyboardMap
 KeyboardMap
 (
 )
-{
-}
+=
+default
+;
 Maybe
 <
 KeyboardShortcut
