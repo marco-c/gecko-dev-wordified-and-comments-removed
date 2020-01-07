@@ -133,6 +133,9 @@ common
 "
 crypto
 "
+"
+settings
+"
 ]
 ;
 for

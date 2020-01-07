@@ -993,6 +993,13 @@ components
 servicesComponents
 .
 manifest
+BINPATH
+/
+components
+/
+servicesSettings
+.
+manifest
 #
 ifndef
 MOZ_GECKOVIEW_JAR
