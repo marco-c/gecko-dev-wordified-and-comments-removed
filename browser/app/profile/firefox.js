@@ -11312,7 +11312,7 @@ identity
 .
 fxaccounts
 .
-messages
+commands
 .
 enabled
 "

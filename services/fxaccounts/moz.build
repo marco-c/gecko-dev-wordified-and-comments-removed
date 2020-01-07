@@ -189,6 +189,11 @@ FxAccountsClient
 jsm
 '
 '
+FxAccountsCommands
+.
+js
+'
+'
 FxAccountsCommon
 .
 js
@@ -197,11 +202,6 @@ js
 FxAccountsConfig
 .
 jsm
-'
-'
-FxAccountsMessages
-.
-js
 '
 '
 FxAccountsOAuthGrantClient

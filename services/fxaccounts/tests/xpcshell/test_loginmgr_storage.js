@@ -306,6 +306,11 @@ signOut
 {
 }
 }
+updateDeviceRegistration
+(
+)
+{
+}
 _getDeviceName
 (
 )
