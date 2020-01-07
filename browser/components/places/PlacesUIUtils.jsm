@@ -3787,7 +3787,6 @@ length
 ;
 transactions
 =
-await
 getTransactionsForTransferItems
 (
 items
@@ -4745,7 +4744,6 @@ return
 null
 ;
 }
-async
 function
 getTransactionsForTransferItems
 (
@@ -4975,7 +4973,6 @@ insertionParentGuid
 )
 ;
 }
-async
 function
 getTransactionsForCopy
 (
