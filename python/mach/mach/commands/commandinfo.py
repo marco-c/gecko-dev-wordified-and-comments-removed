@@ -128,9 +128,12 @@ n
 .
 join
 (
+sorted
+(
 self
 .
 command_keys
+)
 )
 )
     
