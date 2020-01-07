@@ -353,6 +353,11 @@ shape
 (
 pixelRatio
 )
+userContextId
+:
+PropTypes
+.
+number
 }
 ;
 exports

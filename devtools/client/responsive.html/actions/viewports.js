@@ -46,6 +46,9 @@ exports
 {
 addViewport
 (
+userContextId
+=
+0
 )
 {
 return
@@ -53,6 +56,7 @@ return
 type
 :
 ADD_VIEWPORT
+userContextId
 }
 ;
 }

@@ -66,6 +66,9 @@ value
 :
 0
 }
+userContextId
+:
+0
 }
 ;
 const
@@ -77,6 +80,9 @@ ADD_VIEWPORT
 ]
 (
 viewports
+{
+userContextId
+}
 )
 {
 if
@@ -107,6 +113,9 @@ assign
 {
 }
 INITIAL_VIEWPORT
+{
+userContextId
+}
 )
 ]
 ;

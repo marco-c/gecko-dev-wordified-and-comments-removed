@@ -759,6 +759,11 @@ Browser
 (
 {
 swapAfterMount
+userContextId
+:
+viewport
+.
+userContextId
 onBrowserMounted
 onContentResize
 }
