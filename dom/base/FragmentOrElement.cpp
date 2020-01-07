@@ -7005,7 +7005,7 @@ MOZ_ASSERT
 aNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 =
@@ -7085,7 +7085,7 @@ currentDoc
 aNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
@@ -7880,7 +7880,7 @@ currentDoc
 aNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
@@ -8487,7 +8487,7 @@ c
 aNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
