@@ -13170,6 +13170,7 @@ id
 let
 update
 =
+await
 AUC
 .
 getNewestCompatibleUpdate

@@ -537,6 +537,7 @@ length
 let
 update
 =
+await
 AddonUpdateChecker
 .
 getNewestCompatibleUpdate

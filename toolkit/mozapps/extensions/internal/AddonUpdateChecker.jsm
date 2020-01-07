@@ -2433,6 +2433,7 @@ return
 null
 ;
 }
+async
 getNewestCompatibleUpdate
 (
 aUpdates
@@ -2494,6 +2495,7 @@ continue
 let
 state
 =
+await
 Services
 .
 blocklist

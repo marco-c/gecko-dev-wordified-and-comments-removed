@@ -1569,6 +1569,7 @@ break
 ;
 }
 }
+async
 getAddonBlocklistState
 (
 addon
@@ -1576,16 +1577,10 @@ appVersion
 toolkitVersion
 )
 {
-if
-(
-!
+await
 this
 .
-isLoaded
-)
-this
-.
-_loadBlocklist
+loadBlocklistAsync
 (
 )
 ;
