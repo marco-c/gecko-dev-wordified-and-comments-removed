@@ -351,11 +351,6 @@ js
 >
 <
 script
-language
-=
-"
-Javascript
-"
 type
 =
 "
@@ -363,7 +358,9 @@ text
 /
 javascript
 "
-src
+xlink
+:
+href
 =
 "
 chrome
