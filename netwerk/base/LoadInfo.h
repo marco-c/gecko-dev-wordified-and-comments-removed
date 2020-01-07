@@ -364,8 +364,6 @@ aVerifySignedContent
 bool
 aEnforceSRI
 bool
-aAllowDocumentToBeAgnosticToCSP
-bool
 aForceAllowDataURI
 bool
 aForceInheritPrincipalDropped
@@ -641,9 +639,6 @@ mVerifySignedContent
 ;
 bool
 mEnforceSRI
-;
-bool
-mAllowDocumentToBeAgnosticToCSP
 ;
 bool
 mForceAllowDataURI

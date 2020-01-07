@@ -406,14 +406,6 @@ resetPrincipalToInheritToNullPrincipal
 (
 )
 ;
-request
-.
-loadInfo
-.
-allowDocumentToBeAgnosticToCSP
-=
-true
-;
 this
 .
 listener
