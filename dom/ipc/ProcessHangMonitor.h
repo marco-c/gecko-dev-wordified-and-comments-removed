@@ -162,6 +162,12 @@ uint64_t
 aLayerObserverEpoch
 )
 ;
+static
+void
+MaybeStartForcePaint
+(
+)
+;
 enum
 SlowScriptAction
 {
