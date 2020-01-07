@@ -746,6 +746,9 @@ tabId
 )
 ;
 }
+hideToggleButton
+:
+true
 }
 )
 )

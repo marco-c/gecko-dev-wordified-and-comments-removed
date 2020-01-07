@@ -399,6 +399,7 @@ cloneSelectedRequest
 {
 }
 connector
+hideToggleButton
 openLink
 request
 selectTab
@@ -440,6 +441,10 @@ showAllTabsMenu
 :
 true
 sidebarToggleButton
+:
+hideToggleButton
+?
+null
 :
 {
 collapsed
@@ -727,6 +732,11 @@ sourceMapService
 PropTypes
 .
 object
+hideToggleButton
+:
+PropTypes
+.
+boolean
 }
 ;
 module
