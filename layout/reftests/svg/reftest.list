@@ -947,11 +947,6 @@ ref
 .
 svg
 skip
--
-if
-(
-Android
-)
 pref
 (
 layout
@@ -966,12 +961,6 @@ mode
 .
 enabled
 true
-)
-fails
--
-if
-(
-webrender
 )
 =
 =
@@ -991,6 +980,9 @@ stacking
 ref
 .
 html
+#
+bug
+1458353
 fuzzy
 (
 11
