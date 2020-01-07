@@ -227,7 +227,7 @@ microseconds
 #
 define
 RFP_TIMER_VALUE_DEFAULT
-2000
+20
 #
 define
 RFP_SPOOFED_FRAMES_PER_SEC_PREF
@@ -480,27 +480,8 @@ nsRFPService
 :
 IsTimerPrecisionReductionEnabled
 (
-TimerPrecisionType
-aType
 )
 {
-if
-(
-aType
-=
-=
-TimerPrecisionType
-:
-:
-RFPOnly
-)
-{
-return
-IsResistFingerprintingEnabled
-(
-)
-;
-}
 return
 (
 sPrivacyTimerPrecisionReduction
@@ -528,8 +509,6 @@ ReduceTimePrecisionAsMSecs
 (
 double
 aTime
-TimerPrecisionType
-aType
 )
 {
 if
@@ -537,7 +516,6 @@ if
 !
 IsTimerPrecisionReductionEnabled
 (
-aType
 )
 )
 {
@@ -647,8 +625,6 @@ ReduceTimePrecisionAsUSecs
 (
 double
 aTime
-TimerPrecisionType
-aType
 )
 {
 if
@@ -656,7 +632,6 @@ if
 !
 IsTimerPrecisionReductionEnabled
 (
-aType
 )
 )
 {
@@ -791,8 +766,6 @@ ReduceTimePrecisionAsSecs
 (
 double
 aTime
-TimerPrecisionType
-aType
 )
 {
 if
@@ -800,7 +773,6 @@ if
 !
 IsTimerPrecisionReductionEnabled
 (
-aType
 )
 )
 {
