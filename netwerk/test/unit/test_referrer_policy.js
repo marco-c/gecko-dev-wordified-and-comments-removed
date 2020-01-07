@@ -87,7 +87,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 "
 test
 .
@@ -108,7 +108,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 "
 3
 )

@@ -434,7 +434,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 "
 0
 )
@@ -462,7 +462,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 "
 1
 )
@@ -502,7 +502,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 "
 2
 )
@@ -600,7 +600,7 @@ http
 .
 referer
 .
-userControlPolicy
+defaultPolicy
 "
 3
 )
