@@ -24,6 +24,14 @@ layersGPUAccelerated
 151
 111
 )
+fuzzy
+-
+if
+(
+webrender
+65
+3
+)
 =
 =
 size

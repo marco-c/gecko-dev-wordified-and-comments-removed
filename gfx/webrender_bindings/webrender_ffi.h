@@ -303,6 +303,12 @@ FLIP_Y
 <
 <
 6
+SUBPIXEL_POSITION
+=
+1
+<
+<
+7
 FORCE_GDI
 =
 1
@@ -333,6 +339,12 @@ VERTICAL_LAYOUT
 <
 <
 18
+LCD_VERTICAL
+=
+1
+<
+<
+19
 }
 ;
 }
