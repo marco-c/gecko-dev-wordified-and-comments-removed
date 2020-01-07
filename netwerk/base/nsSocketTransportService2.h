@@ -698,6 +698,9 @@ mKeepaliveProbeCount
 bool
 mKeepaliveEnabledPref
 ;
+TimeDuration
+mPollableEventTimeout
+;
 Atomic
 <
 bool
@@ -845,6 +848,11 @@ EndPolling
 ;
 #
 endif
+void
+TryRepairPollableEvent
+(
+)
+;
 }
 ;
 extern

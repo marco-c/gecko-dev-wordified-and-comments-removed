@@ -7347,7 +7347,7 @@ scene
 -
 build
 "
-true
+2
 )
 ;
 pref
@@ -12411,6 +12411,18 @@ sts
 max_time_for_pr_close_during_shutdown
 "
 5000
+)
+;
+pref
+(
+"
+network
+.
+sts
+.
+pollable_event_timeout
+"
+6
 )
 ;
 pref
