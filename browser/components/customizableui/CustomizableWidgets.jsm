@@ -5359,6 +5359,9 @@ cache
 "
 downloads
 "
+"
+offlineApps
+"
 ]
 ;
 let
