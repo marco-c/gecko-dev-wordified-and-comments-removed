@@ -87,7 +87,7 @@ close
 )
 ;
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -131,7 +131,11 @@ await
 promiseOrigBrowserFocused
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS
+}
 win
 )
 ;

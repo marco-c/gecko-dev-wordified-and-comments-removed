@@ -483,7 +483,7 @@ STARTING_HEIGHT
 )
 ;
 await
-withReflowObserver
+withPerfObserver
 (
 async
 function
@@ -507,7 +507,11 @@ STARTING_HEIGHT
 )
 ;
 }
+{
+expectedReflows
+:
 EXPECTED_REFLOWS
+}
 win
 )
 ;
