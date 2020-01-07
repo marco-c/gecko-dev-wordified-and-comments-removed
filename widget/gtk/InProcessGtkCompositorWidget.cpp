@@ -26,7 +26,7 @@ h
 #
 include
 "
-InProcessX11CompositorWidget
+InProcessGtkCompositorWidget
 .
 h
 "
@@ -108,11 +108,11 @@ else
 {
 return
 new
-InProcessX11CompositorWidget
+InProcessGtkCompositorWidget
 (
 aInitData
 .
-get_X11CompositorWidgetInitData
+get_GtkCompositorWidgetInitData
 (
 )
 aOptions
@@ -128,13 +128,13 @@ aWidget
 ;
 }
 }
-InProcessX11CompositorWidget
+InProcessGtkCompositorWidget
 :
 :
-InProcessX11CompositorWidget
+InProcessGtkCompositorWidget
 (
 const
-X11CompositorWidgetInitData
+GtkCompositorWidgetInitData
 &
 aInitData
 const
@@ -149,7 +149,7 @@ nsWindow
 aWindow
 )
 :
-X11CompositorWidget
+GtkCompositorWidget
 (
 aInitData
 aOptions
@@ -158,7 +158,7 @@ aWindow
 {
 }
 void
-InProcessX11CompositorWidget
+InProcessGtkCompositorWidget
 :
 :
 ObserveVsync

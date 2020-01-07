@@ -7,7 +7,7 @@ widget_gtk_CompositorWidgetChild_h
 #
 include
 "
-X11CompositorWidget
+GtkCompositorWidget
 .
 h
 "

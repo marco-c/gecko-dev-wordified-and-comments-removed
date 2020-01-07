@@ -7,7 +7,7 @@ widget_gtk_CompositorWidgetParent_h
 #
 include
 "
-X11CompositorWidget
+GtkCompositorWidget
 .
 h
 "
@@ -35,7 +35,7 @@ final
 public
 PCompositorWidgetParent
 public
-X11CompositorWidget
+GtkCompositorWidget
 {
 public
 :

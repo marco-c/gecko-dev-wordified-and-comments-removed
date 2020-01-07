@@ -136,7 +136,7 @@ namespace
 widget
 {
 struct
-X11CompositorWidgetInitData
+GtkCompositorWidgetInitData
 {
 uintptr_t
 XWindow
@@ -152,7 +152,7 @@ InitialClientSize
 union
 CompositorWidgetInitData
 {
-X11CompositorWidgetInitData
+GtkCompositorWidgetInitData
 ;
 HeadlessCompositorWidgetInitData
 ;
