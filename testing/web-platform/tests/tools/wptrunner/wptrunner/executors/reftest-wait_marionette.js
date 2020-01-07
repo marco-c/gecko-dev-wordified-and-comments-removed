@@ -1,3 +1,15 @@
+var
+callback
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
 function
 test
 (
@@ -27,7 +39,7 @@ disconnect
 (
 )
 ;
-marionetteScriptFinished
+callback
 (
 )
 ;
