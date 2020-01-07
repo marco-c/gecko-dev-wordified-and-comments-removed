@@ -376,7 +376,9 @@ attributes
 :
 build_platform
 :
-linux64
+firefox
+-
+release
 build_type
 :
 opt
@@ -440,7 +442,9 @@ treeherder
 :
 platform
 :
-linux64
+firefox
+-
+release
 /
 opt
 fennec
@@ -454,9 +458,9 @@ attributes
 :
 build_platform
 :
-android
+fennec
 -
-nightly
+release
 build_type
 :
 opt
@@ -520,7 +524,9 @@ treeherder
 :
 platform
 :
-Android
+fennec
+-
+release
 /
 opt
 devedition
@@ -534,9 +540,9 @@ attributes
 :
 build_platform
 :
-linux64
--
 devedition
+-
+release
 build_type
 :
 opt
@@ -596,8 +602,8 @@ treeherder
 :
 platform
 :
-linux64
--
 devedition
+-
+release
 /
 opt
