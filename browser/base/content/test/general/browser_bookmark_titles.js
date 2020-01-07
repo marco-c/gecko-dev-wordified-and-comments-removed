@@ -534,9 +534,6 @@ PlacesCommandHook
 .
 bookmarkPage
 (
-gBrowser
-.
-selectedBrowser
 url
 overridden_title
 )
@@ -718,9 +715,6 @@ PlacesCommandHook
 .
 bookmarkPage
 (
-gBrowser
-.
-selectedBrowser
 )
 ;
 await
