@@ -572,10 +572,10 @@ fun
 )
 {
 return
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 fun
 )
