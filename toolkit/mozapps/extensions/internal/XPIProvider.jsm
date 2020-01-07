@@ -6051,6 +6051,15 @@ version
 }
 )
 ;
+this
+.
+_beforeCallBootstrapMethod
+(
+aMethod
+params
+aReason
+)
+;
 try
 {
 result
@@ -6197,6 +6206,11 @@ file
 ;
 }
 }
+}
+_beforeCallBootstrapMethod
+(
+)
+{
 }
 loadBootstrapScope
 (
