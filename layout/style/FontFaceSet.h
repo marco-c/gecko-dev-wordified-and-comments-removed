@@ -1024,6 +1024,12 @@ HasLoadingFontFaces
 (
 )
 ;
+bool
+ReadyPromiseIsPending
+(
+)
+const
+;
 void
 UpdateHasLoadingFontFaces
 (
