@@ -163,9 +163,6 @@ nsIDOMDocument
 interface
 nsIDOMNode
 ;
-interface
-nsIDOMDataTransfer
-;
 [
 scriptable
 builtinclass
@@ -478,6 +475,17 @@ the
 current
 drag
 .
+Should
+become
+a
+*
+DataTransfer
+once
+bug
+1444991
+is
+fixed
+.
 *
 /
 [
@@ -487,7 +495,7 @@ DataTransferXPCOM
 )
 ]
 attribute
-nsIDOMDataTransfer
+nsISupports
 dataTransfer
 ;
 [
