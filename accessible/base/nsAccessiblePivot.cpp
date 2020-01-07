@@ -1275,6 +1275,12 @@ while
 true
 )
 {
+NS_ENSURE_TRUE
+(
+tempPosition
+NS_ERROR_UNEXPECTED
+)
+;
 Accessible
 *
 curPosition
@@ -1828,6 +1834,12 @@ while
 true
 )
 {
+NS_ENSURE_TRUE
+(
+tempPosition
+NS_ERROR_UNEXPECTED
+)
+;
 Accessible
 *
 curPosition
