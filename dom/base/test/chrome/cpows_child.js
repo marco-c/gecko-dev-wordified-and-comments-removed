@@ -1027,9 +1027,8 @@ obj
 ok
 (
 /
-shared
-JSM
-global
+Privileged
+Junk
 /
 .
 test

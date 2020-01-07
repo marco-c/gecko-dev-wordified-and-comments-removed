@@ -2470,9 +2470,8 @@ getUnprivilegedObject
 ok
 (
 /
-shared
-JSM
-global
+Privileged
+Junk
 /
 .
 test
