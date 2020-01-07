@@ -2135,6 +2135,7 @@ u
 "
 ;
 static
+const
 char16_t
 HEX
 [
