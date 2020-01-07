@@ -100,8 +100,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMNode
+webidl
+Element
 ;
 /
 *
@@ -306,7 +306,7 @@ void
 sort
 (
 in
-nsIDOMNode
+Element
 aNode
 in
 AString

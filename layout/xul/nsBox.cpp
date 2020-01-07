@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

@@ -402,13 +402,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h
@@ -10585,7 +10578,7 @@ PresShell
 :
 CheckVisibility
 (
-nsIDOMNode
+nsINode
 *
 node
 int16_t

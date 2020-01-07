@@ -132,10 +132,10 @@ interface
 nsIContent
 ;
 interface
-nsIDOMNode
-;
-interface
 nsISelectionDisplay
+;
+webidl
+Node
 ;
 webidl
 Selection
@@ -2112,7 +2112,7 @@ boolean
 checkVisibility
 (
 in
-nsIDOMNode
+Node
 node
 in
 short

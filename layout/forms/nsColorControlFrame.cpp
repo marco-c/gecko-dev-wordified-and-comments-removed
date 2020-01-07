@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h
