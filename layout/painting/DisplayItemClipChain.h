@@ -191,7 +191,6 @@ DisplayItemClipChain
 >
 mParent
 ;
-mutable
 uint32_t
 mRefCount
 =
