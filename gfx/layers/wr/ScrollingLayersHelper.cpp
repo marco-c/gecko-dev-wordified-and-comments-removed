@@ -1706,6 +1706,7 @@ mScrollableFrame
 >
 ComputeScrollMetadata
 (
+nullptr
 mManager
 aItem
 -
