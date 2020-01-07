@@ -471,6 +471,10 @@ aOther
 -
 >
 mRate
+aOther
+-
+>
+mChannelMap
 )
 ;
 return
