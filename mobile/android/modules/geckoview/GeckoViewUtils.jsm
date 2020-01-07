@@ -310,6 +310,17 @@ topic
 )
 ;
 }
+if
+(
+!
+this
+.
+IS_PARENT_PROCESS
+)
+{
+return
+;
+}
 let
 addMMListener
 =
