@@ -15995,6 +15995,10 @@ In3DContextAndBackfaceIsHidden
 (
 )
 )
+mPaintRectValid
+(
+false
+)
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -47055,7 +47059,7 @@ params
 *
 aMaskContext
 mFrame
-GetPaintRect
+GetBuildingRect
 (
 )
 borderArea
