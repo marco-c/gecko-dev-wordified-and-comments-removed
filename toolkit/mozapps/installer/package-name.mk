@@ -499,6 +499,15 @@ PKG_BASENAME
 mozsearch
 -
 index
+MOZSEARCH_RUST_ANALYSIS_BASENAME
+=
+(
+PKG_BASENAME
+)
+.
+mozsearch
+-
+rust
 #
 Mozharness
 naming
