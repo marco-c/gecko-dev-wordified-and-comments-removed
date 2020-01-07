@@ -1114,9 +1114,9 @@ APZEventRegionsTester
 HitRegionImmediateResponse
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )
@@ -1684,9 +1684,9 @@ APZEventRegionsTester
 Obscuration
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )

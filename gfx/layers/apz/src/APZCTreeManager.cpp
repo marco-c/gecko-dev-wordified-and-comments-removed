@@ -10777,14 +10777,6 @@ gfxVars
 UseWebRender
 (
 )
-&
-&
-gfxPrefs
-:
-:
-WebRenderHitTest
-(
-)
 )
 {
 target
