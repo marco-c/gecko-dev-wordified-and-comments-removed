@@ -820,7 +820,10 @@ Classifier
 >
 mClassifier
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 ProtocolParser
 >
