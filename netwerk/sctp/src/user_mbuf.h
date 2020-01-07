@@ -110,7 +110,7 @@ how
 )
 ;
 void
-mbuf_initialize
+mbuf_init
 (
 void
 *
@@ -1031,6 +1031,17 @@ specific
 /
 #
 define
+M_SKIP_FIREWALL
+0x4000
+/
+*
+skip
+firewall
+processing
+*
+/
+#
+define
 M_FREELIST
 0x8000
 /
@@ -1065,6 +1076,8 @@ M_PROTO3
 M_PROTO4
 |
 M_PROTO5
+|
+M_SKIP_FIREWALL
 |
 \
 M_BCAST

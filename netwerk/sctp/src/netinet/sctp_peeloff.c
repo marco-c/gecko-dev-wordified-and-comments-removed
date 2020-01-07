@@ -1629,11 +1629,6 @@ SCTP_LOC_1
 )
 ;
 }
-SOCK_LOCK
-(
-newso
-)
-;
 SCTP_CLEAR_SO_NBIO
 (
 newso
@@ -1646,11 +1641,6 @@ so_state
 |
 =
 SS_ISCONNECTED
-;
-SOCK_UNLOCK
-(
-newso
-)
 ;
 #
 if
