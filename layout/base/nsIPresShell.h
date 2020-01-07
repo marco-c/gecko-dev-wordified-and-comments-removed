@@ -2367,14 +2367,6 @@ aIndent
 =
 0
 ;
-virtual
-void
-VerifyStyleTree
-(
-)
-=
-0
-;
 #
 endif
 #
