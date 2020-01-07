@@ -6,12 +6,12 @@ sparse
 -
 profiles
 /
-mozharness
+mach
 [
 include
 ]
 path
 :
-build
+testing
 /
-mozrelease
+mozharness

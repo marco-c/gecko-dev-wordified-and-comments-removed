@@ -111,9 +111,9 @@ dependencies
 -
 release
 -
-uptake
+bouncer
 -
-monitoring
+check
 job
 -
 defaults
