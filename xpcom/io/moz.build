@@ -462,6 +462,11 @@ InputStreamLengthHelper
 h
 '
 '
+InputStreamLengthWrapper
+.
+h
+'
+'
 NonBlockingAsyncInputStream
 .
 h
@@ -508,6 +513,11 @@ cpp
 '
 '
 InputStreamLengthHelper
+.
+cpp
+'
+'
+InputStreamLengthWrapper
 .
 cpp
 '
