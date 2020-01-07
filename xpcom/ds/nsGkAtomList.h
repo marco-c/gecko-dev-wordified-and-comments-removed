@@ -3693,13 +3693,6 @@ grid
 )
 GK_ATOM
 (
-grippy
-"
-grippy
-"
-)
-GK_ATOM
-(
 group
 "
 group
