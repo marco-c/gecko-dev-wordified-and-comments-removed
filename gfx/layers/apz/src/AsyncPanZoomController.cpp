@@ -5778,6 +5778,17 @@ mLocalFocusPoint
 }
 else
 {
+StateChangeNotificationBlocker
+blocker
+(
+this
+)
+;
+SetState
+(
+NOTHING
+)
+;
 if
 (
 mZoomConstraints
