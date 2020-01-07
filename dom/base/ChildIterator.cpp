@@ -663,6 +663,15 @@ return
 false
 ;
 }
+if
+(
+mParentAsSlot
+)
+{
+return
+true
+;
+}
 for
 (
 nsIContent
