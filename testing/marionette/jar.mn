@@ -387,16 +387,6 @@ format
 .
 js
 )
-content
-/
-wm
-.
-js
-(
-wm
-.
-js
-)
 #
 ifdef
 ENABLE_TESTS
