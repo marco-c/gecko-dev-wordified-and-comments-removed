@@ -97,26 +97,6 @@ nightly_build
 True
     
 "
-tools_repo
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-build
-/
-tools
-"
-    
-"
 tooltool_config
 "
 :

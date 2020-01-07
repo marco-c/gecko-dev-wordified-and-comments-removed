@@ -33,26 +33,6 @@ json
 "
     
 "
-tools_repo
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-build
-/
-tools
-"
-    
-"
 mozconfig
 "
 :
