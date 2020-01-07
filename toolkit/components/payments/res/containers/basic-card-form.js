@@ -362,7 +362,6 @@ let
 page
 savedAddresses
 savedBasicCards
-selectedShippingAddress
 }
 =
 state
@@ -446,19 +445,6 @@ guid
 )
 ;
 }
-}
-else
-if
-(
-selectedShippingAddress
-)
-{
-record
-.
-billingAddressGUID
-=
-selectedShippingAddress
-;
 }
 this
 .
