@@ -4365,6 +4365,10 @@ self
 media_features_change_changed_style
 (
 guards
+&
+self
+.
+device
 )
 }
 pub
@@ -4377,6 +4381,10 @@ guards
 :
 &
 StylesheetGuards
+device
+:
+&
+Device
 )
 -
 >
@@ -4470,9 +4478,6 @@ media_feature_affected_matches
 (
 stylesheet
 guard
-&
-self
-.
 device
 self
 .
