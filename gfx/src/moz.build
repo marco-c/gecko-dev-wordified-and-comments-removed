@@ -175,6 +175,11 @@ nsCoord
 h
 '
 '
+nsCoordBox
+.
+h
+'
+'
 nsDeviceContext
 .
 h
