@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsCSSPseudoClasses
-.
-h
-"
-#
-include
-"
 nsCSSPseudoElements
 .
 h
@@ -887,13 +880,6 @@ StartUp
 )
 ;
 nsCSSAnonBoxes
-:
-:
-RegisterStaticAtoms
-(
-)
-;
-nsCSSPseudoClasses
 :
 :
 RegisterStaticAtoms

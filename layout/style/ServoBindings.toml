@@ -1436,12 +1436,6 @@ CSSPseudoElementType
 mozilla
 :
 :
-CSSPseudoClassType
-"
-"
-mozilla
-:
-:
 LookAndFeel_ColorID
 "
 "
@@ -1682,12 +1676,6 @@ mozilla
 :
 :
 ServoTraversalStatistics
-"
-"
-mozilla
-:
-:
-CSSPseudoClassType
 "
 "
 mozilla
