@@ -58,10 +58,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsIconProtocolHandler
 )
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsMozIconURI
-)
 typedef
 nsMozIconURI
 :
@@ -76,11 +72,6 @@ nsMozIconURIMutator
 NS_DEFINE_NAMED_CID
 (
 NS_ICONPROTOCOL_CID
-)
-;
-NS_DEFINE_NAMED_CID
-(
-NS_MOZICONURI_CID
 )
 ;
 NS_DEFINE_NAMED_CID
@@ -108,13 +99,6 @@ kNS_ICONPROTOCOL_CID
 false
 nullptr
 nsIconProtocolHandlerConstructor
-}
-{
-&
-kNS_MOZICONURI_CID
-false
-nullptr
-nsMozIconURIConstructor
 }
 {
 &
