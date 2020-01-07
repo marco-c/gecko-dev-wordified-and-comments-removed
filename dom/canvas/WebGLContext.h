@@ -9592,6 +9592,9 @@ mNeedsFakeNoDepth
 bool
 mNeedsFakeNoStencil
 ;
+bool
+mNeedsFakeNoStencil_UserFBs
+;
 mutable
 uint8_t
 mDriverColorMask
