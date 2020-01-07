@@ -755,6 +755,22 @@ platform
 '
 darwin
 '
+or
+os
+.
+environ
+.
+get
+(
+'
+MOZ_AUTOMATION
+'
+)
+!
+=
+'
+1
+'
 :
     
 print
