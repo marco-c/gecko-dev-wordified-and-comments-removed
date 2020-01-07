@@ -33,6 +33,13 @@ h
 #
 include
 "
+WorkerDebugger
+.
+h
+"
+#
+include
+"
 WorkerPrivate
 .
 h

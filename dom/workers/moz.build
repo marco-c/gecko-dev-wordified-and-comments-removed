@@ -170,6 +170,11 @@ WorkerCommon
 h
 '
 '
+WorkerDebugger
+.
+h
+'
+'
 WorkerDebuggerManager
 .
 h
@@ -280,6 +285,11 @@ cpp
 '
 '
 SharedWorker
+.
+cpp
+'
+'
+WorkerDebugger
 .
 cpp
 '

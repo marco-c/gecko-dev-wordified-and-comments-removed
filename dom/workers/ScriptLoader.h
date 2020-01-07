@@ -48,6 +48,9 @@ ErrorResult
 ;
 }
 BEGIN_WORKERS_NAMESPACE
+struct
+WorkerLoadInfo
+;
 enum
 WorkerScriptType
 {

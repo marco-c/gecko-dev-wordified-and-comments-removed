@@ -14,6 +14,13 @@ h
 #
 include
 "
+WorkerHolder
+.
+h
+"
+#
+include
+"
 nsICancelableRunnable
 .
 h
