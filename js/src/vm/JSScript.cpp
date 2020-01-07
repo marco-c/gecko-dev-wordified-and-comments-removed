@@ -15283,11 +15283,12 @@ map
 }
 UniqueChars
 name
-=
-DuplicateString
+(
+js_strdup
 (
 filename
 (
+)
 )
 )
 ;
