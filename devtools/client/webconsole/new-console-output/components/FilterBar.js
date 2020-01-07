@@ -1608,6 +1608,11 @@ className
 devtools
 -
 button
+webconsole
+-
+sidebar
+-
+button
 "
 title
 :
