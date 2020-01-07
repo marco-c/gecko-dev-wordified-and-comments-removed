@@ -3292,7 +3292,7 @@ nullptr
 "
 )
 ;
-ErrorResult
+IgnoredErrorResult
 error
 ;
 aSelection
