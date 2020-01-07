@@ -81,6 +81,8 @@ function
 (
 )
 {
+try
+{
 return
 Cc
 [
@@ -105,6 +107,16 @@ nsISupports
 )
 .
 wrappedJSObject
+;
+}
+catch
+(
+ex
+)
+{
+}
+return
+null
 ;
 }
 )
@@ -526,6 +538,10 @@ searchString
 {
 if
 (
+!
+weaveXPCService
+|
+|
 !
 weaveXPCService
 .
