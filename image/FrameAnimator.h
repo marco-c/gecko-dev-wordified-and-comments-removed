@@ -609,6 +609,14 @@ FrameAnimator
 )
 ;
 }
+void
+ResetAnimation
+(
+AnimationState
+&
+aState
+)
+;
 RefreshResult
 RequestRefresh
 (
