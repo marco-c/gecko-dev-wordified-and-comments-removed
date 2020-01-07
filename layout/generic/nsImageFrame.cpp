@@ -5834,8 +5834,14 @@ side
 StyleComplexColor
 :
 :
-Black
+FromColor
 (
+NS_RGB
+(
+0
+0
+0
+)
 )
 ;
 mBorder

@@ -208,7 +208,6 @@ mFill
 .
 GetColor
 (
-aFromComputedStyle
 )
 )
 ;
@@ -254,7 +253,6 @@ mStroke
 .
 GetColor
 (
-aFromComputedStyle
 )
 )
 ;

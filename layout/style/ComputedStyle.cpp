@@ -1391,7 +1391,6 @@ aPaintServer
 .
 GetColor
 (
-aStyle
 )
 :
 NS_RGBA

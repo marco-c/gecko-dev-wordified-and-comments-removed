@@ -97,7 +97,7 @@ specified
 color
 :
 :
-Color
+RGBAColor
 ;
 use
 values
@@ -120,7 +120,7 @@ generic
 :
 SVGPaint
 <
-Color
+RGBAColor
 SpecifiedUrl
 >
 ;
@@ -133,7 +133,7 @@ generic
 :
 SVGPaintKind
 <
-Color
+RGBAColor
 SpecifiedUrl
 >
 ;
