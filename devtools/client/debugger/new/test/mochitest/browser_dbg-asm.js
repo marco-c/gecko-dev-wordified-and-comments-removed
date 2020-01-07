@@ -75,7 +75,7 @@ clickElement
 (
 dbg
 "
-sourceArrow
+sourceDirectoryLabel
 "
 2
 )

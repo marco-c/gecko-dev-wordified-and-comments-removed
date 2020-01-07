@@ -294,7 +294,6 @@ here
 )
 ;
 }
-;
 Promise
 .
 resolve

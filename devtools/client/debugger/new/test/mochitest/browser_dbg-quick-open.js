@@ -462,12 +462,6 @@ x
 "
 )
 ;
-await
-waitForTime
-(
-1000
-)
-;
 is
 (
 resultCount
@@ -571,7 +565,7 @@ result
 .
 textContent
 "
-13
+x13
 "
 )
 )

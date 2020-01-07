@@ -206,7 +206,7 @@ expression
 }
 async
 function
-assertPopup
+assertPreviewPopup
 (
 dbg
 {
@@ -445,7 +445,7 @@ await
 popupPreviewed
 ;
 await
-assertPopup
+assertPreviewPopup
 (
 dbg
 {
@@ -468,7 +468,7 @@ obj
 )
 ;
 await
-assertPopup
+assertPreviewPopup
 (
 dbg
 {

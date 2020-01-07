@@ -23,7 +23,9 @@ p2
 const
 arrow
 =
+(
 p3
+)
 =
 >
 {

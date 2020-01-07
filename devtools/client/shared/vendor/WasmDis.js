@@ -2943,8 +2943,6 @@ code
 operator
 .
 code
-|
-0
 ;
 this
 .

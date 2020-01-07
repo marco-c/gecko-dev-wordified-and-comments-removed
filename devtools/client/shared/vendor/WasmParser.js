@@ -11789,8 +11789,6 @@ _pos
 +
 +
 ]
-|
-0
 ;
 var
 blockType

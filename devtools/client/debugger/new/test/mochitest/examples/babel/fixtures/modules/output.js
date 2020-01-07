@@ -316,7 +316,6 @@ thirdModuleScoped
 )
 {
 }
-;
 module
 .
 exports
