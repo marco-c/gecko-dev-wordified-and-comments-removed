@@ -571,7 +571,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 true
 ]

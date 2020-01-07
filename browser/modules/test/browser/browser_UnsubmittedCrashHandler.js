@@ -1654,7 +1654,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 ;
 Assert
@@ -1867,7 +1867,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 true
 ]

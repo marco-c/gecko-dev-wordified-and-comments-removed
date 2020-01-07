@@ -1383,7 +1383,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 name
 =
@@ -1394,7 +1394,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 type
 =
@@ -6778,7 +6778,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 label
 =

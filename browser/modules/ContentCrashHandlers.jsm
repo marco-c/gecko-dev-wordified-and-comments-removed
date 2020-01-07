@@ -3505,7 +3505,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 )
 ;
@@ -3529,7 +3529,7 @@ crashReports
 .
 unsubmittedCheck
 .
-autoSubmit
+autoSubmit2
 "
 val
 )
