@@ -317,11 +317,6 @@ LoadObjectTruthyResult
 \
 _
 (
-CompareStringResult
-)
-\
-_
-(
 CompareObjectResult
 )
 \
