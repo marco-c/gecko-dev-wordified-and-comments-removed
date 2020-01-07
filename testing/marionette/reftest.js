@@ -849,6 +849,12 @@ STATUS
 ERROR
 message
 :
+String
+(
+e
+)
+stack
+:
 e
 .
 stack
