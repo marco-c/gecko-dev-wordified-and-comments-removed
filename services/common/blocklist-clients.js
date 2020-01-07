@@ -72,7 +72,7 @@ resource
 /
 services
 -
-common
+settings
 /
 remote
 -
@@ -97,7 +97,7 @@ resource
 /
 services
 -
-common
+settings
 /
 remote
 -
