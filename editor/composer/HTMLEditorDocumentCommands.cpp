@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+HTMLEditorCommands
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEditor
 .
 h
@@ -27,13 +36,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-nsComposerCommands
 .
 h
 "
@@ -142,10 +144,6 @@ nscore
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsISupports
 ;
@@ -173,8 +171,11 @@ STATE_DATA
 "
 state_data
 "
+namespace
+mozilla
+{
 NS_IMETHODIMP
-nsSetDocumentOptionsCommand
+SetDocumentOptionsCommand
 :
 :
 IsCommandEnabled
@@ -253,7 +254,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentOptionsCommand
+SetDocumentOptionsCommand
 :
 :
 DoCommand
@@ -272,7 +273,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentOptionsCommand
+SetDocumentOptionsCommand
 :
 :
 DoCommandParams
@@ -363,6 +364,7 @@ NS_ERROR_FAILURE
 int32_t
 animationMode
 ;
+nsresult
 rv
 =
 aParams
@@ -461,7 +463,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentOptionsCommand
+SetDocumentOptionsCommand
 :
 :
 GetCommandStateParams
@@ -716,7 +718,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentStateCommand
+SetDocumentStateCommand
 :
 :
 IsCommandEnabled
@@ -748,7 +750,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentStateCommand
+SetDocumentStateCommand
 :
 :
 DoCommand
@@ -767,7 +769,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentStateCommand
+SetDocumentStateCommand
 :
 :
 DoCommandParams
@@ -1448,7 +1450,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSetDocumentStateCommand
+SetDocumentStateCommand
 :
 :
 GetCommandStateParams
@@ -2041,7 +2043,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsDocumentStateCommand
+DocumentStateCommand
 :
 :
 IsCommandEnabled
@@ -2073,7 +2075,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocumentStateCommand
+DocumentStateCommand
 :
 :
 DoCommand
@@ -2092,7 +2094,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsDocumentStateCommand
+DocumentStateCommand
 :
 :
 DoCommandParams
@@ -2114,7 +2116,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsDocumentStateCommand
+DocumentStateCommand
 :
 :
 GetCommandStateParams
@@ -2347,4 +2349,5 @@ uri
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
+}
 }
