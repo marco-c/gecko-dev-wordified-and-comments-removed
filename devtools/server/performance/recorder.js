@@ -47,16 +47,6 @@ lazyRequireGetter
 (
 this
 "
-promise
-"
-)
-;
-loader
-.
-lazyRequireGetter
-(
-this
-"
 EventEmitter
 "
 "
@@ -1462,7 +1452,7 @@ memoryStartData
 ]
 =
 yield
-promise
+Promise
 .
 all
 (

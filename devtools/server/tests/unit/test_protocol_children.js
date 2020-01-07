@@ -879,7 +879,7 @@ c
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1593,7 +1593,7 @@ _temporaryHolder
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

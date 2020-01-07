@@ -17,16 +17,6 @@ chrome
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 protocol
 =
 require
@@ -3220,7 +3210,7 @@ allAnimationsPaused
 true
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -3283,7 +3273,7 @@ allAnimationsPaused
 false
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -3329,7 +3319,7 @@ shouldPause
 )
 {
 return
-promise
+Promise
 .
 all
 (
@@ -3371,7 +3361,7 @@ shouldPause
 )
 {
 return
-promise
+Promise
 .
 all
 (
@@ -3394,7 +3384,7 @@ pause
 (
 )
 :
-promise
+Promise
 .
 resolve
 (

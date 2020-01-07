@@ -875,7 +875,7 @@ sequence
 )
 )
 ;
-promise
+Promise
 .
 all
 (

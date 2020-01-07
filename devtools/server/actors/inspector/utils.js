@@ -17,16 +17,6 @@ chrome
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 Task
 }
@@ -612,7 +602,7 @@ HTMLImageElement
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -634,7 +624,7 @@ complete
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -675,7 +665,7 @@ then
 >
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -739,7 +729,7 @@ then
 >
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -768,7 +758,7 @@ load
 ;
 }
 return
-promise
+Promise
 .
 race
 (

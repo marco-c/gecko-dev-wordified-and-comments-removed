@@ -118,16 +118,6 @@ dumpn
 DevToolsUtils
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 DevToolsWorker
 }
@@ -162,15 +152,6 @@ specs
 script
 "
 )
-;
-const
-{
-resolve
-reject
-all
-}
-=
-promise
 ;
 loader
 .
@@ -1938,6 +1919,8 @@ originalLocation
 originalColumn
 }
 ;
+Promise
+.
 resolve
 (
 onPacket
@@ -2639,6 +2622,8 @@ steppingType
 )
 {
 return
+Promise
+.
 reject
 (
 {
@@ -3119,6 +3104,8 @@ youngestFrame
 ;
 resumeLimitHandled
 =
+Promise
+.
 resolve
 (
 true
@@ -4317,6 +4304,8 @@ framePromise
 ;
 }
 return
+Promise
+.
 all
 (
 promises
@@ -4537,6 +4526,8 @@ s
 }
 }
 return
+Promise
+.
 all
 (
 [
@@ -7207,7 +7198,7 @@ this
 .
 unsafeSynchronize
 (
-promise
+Promise
 .
 all
 (

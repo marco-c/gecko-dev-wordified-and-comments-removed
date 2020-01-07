@@ -468,7 +468,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
