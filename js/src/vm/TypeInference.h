@@ -1667,7 +1667,7 @@ alloc
 const
 ;
 bool
-clone
+cloneIntoUninitialized
 (
 LifoAlloc
 *
