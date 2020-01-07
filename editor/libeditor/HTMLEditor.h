@@ -1177,7 +1177,7 @@ aNode
 override
 ;
 nsresult
-DeleteText
+DeleteTextWithTransaction
 (
 dom
 :

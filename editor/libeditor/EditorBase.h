@@ -1605,14 +1605,14 @@ aLength
 )
 ;
 nsresult
-DeleteText
+DeleteTextWithTransaction
 (
 dom
 :
 :
 CharacterData
 &
-aElement
+aCharacterData
 uint32_t
 aOffset
 uint32_t

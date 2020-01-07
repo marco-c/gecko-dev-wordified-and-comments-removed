@@ -12480,7 +12480,7 @@ nsresult
 EditorBase
 :
 :
-DeleteText
+DeleteTextWithTransaction
 (
 CharacterData
 &
