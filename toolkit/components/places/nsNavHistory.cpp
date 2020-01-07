@@ -6268,12 +6268,6 @@ nsINavHistoryQueryOptions
 :
 RESULTS_AS_VISIT
 :
-case
-nsINavHistoryQueryOptions
-:
-:
-RESULTS_AS_FULL_VISIT
-:
 rv
 =
 SelectAsVisit
@@ -18596,12 +18590,6 @@ nsNavHistoryQueryOptions
 :
 :
 RESULTS_AS_VISIT
-:
-case
-nsNavHistoryQueryOptions
-:
-:
-RESULTS_AS_FULL_VISIT
 :
 statement
 =
