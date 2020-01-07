@@ -127,32 +127,6 @@ python2
 .
 exe
 '
-        
-'
-tooltool
-.
-py
-'
-:
-[
-sys
-.
-executable
-"
-c
-:
-\
-\
-mozilla
--
-build
-\
-\
-tooltool
-.
-py
-"
-]
    
 }
    

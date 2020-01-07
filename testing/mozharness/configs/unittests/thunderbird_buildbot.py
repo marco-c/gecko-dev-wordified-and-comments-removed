@@ -51,20 +51,5 @@ bin
 /
 python
 "
-        
-"
-tooltool
-.
-py
-"
-:
-"
-/
-tools
-/
-tooltool
-.
-py
-"
     
 }

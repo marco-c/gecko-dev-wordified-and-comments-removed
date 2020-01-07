@@ -224,30 +224,6 @@ getcwd
 (
 )
 ]
-        
-'
-tooltool
-.
-py
-'
-:
-[
-sys
-.
-executable
-'
-C
-:
-/
-mozilla
--
-build
-/
-tooltool
-.
-py
-'
-]
     
 }
     

@@ -194,30 +194,6 @@ tools
 /
 adb
 '
-        
-'
-tooltool
-.
-py
-'
-:
-[
-'
-python
-'
-'
-/
-builds
-/
-worker
-/
-scripts
-/
-tooltool
-.
-py
-'
-]
     
 }
     

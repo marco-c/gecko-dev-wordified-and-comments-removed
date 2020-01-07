@@ -259,28 +259,6 @@ hg
 /
 hg
 '
-        
-'
-tooltool
-.
-py
-'
-:
-[
-PYTHON
-'
-C
-:
-/
-mozilla
--
-build
-/
-tooltool
-.
-py
-'
-]
     
 }
     

@@ -95,23 +95,6 @@ exes
 {
     
 '
-tooltool
-.
-py
-'
-:
-[
-"
-/
-builds
-/
-tooltool
-.
-py
-"
-]
-    
-'
 python
 '
 :
@@ -172,12 +155,6 @@ buildprops
 .
 json
 "
-    
-"
-download_tooltool
-"
-:
-True
     
 "
 installer_path

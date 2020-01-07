@@ -94,21 +94,6 @@ py
 ]
         
 '
-tooltool
-.
-py
-'
-:
-"
-/
-builds
-/
-tooltool
-.
-py
-"
-        
-'
 python2
 .
 7

@@ -259,36 +259,6 @@ Mercurial
 hg
 '
 )
-        
-'
-tooltool
-.
-py
-'
-:
-[
-PYTHON
-os
-.
-path
-.
-join
-(
-os
-.
-environ
-[
-'
-MOZILLABUILD
-'
-]
-'
-tooltool
-.
-py
-'
-)
-]
     
 }
     

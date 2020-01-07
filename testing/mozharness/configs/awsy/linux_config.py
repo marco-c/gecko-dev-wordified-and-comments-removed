@@ -168,12 +168,6 @@ binary_path
 BINARY_PATH
     
 "
-download_tooltool
-"
-:
-True
-    
-"
 installer_path
 "
 :

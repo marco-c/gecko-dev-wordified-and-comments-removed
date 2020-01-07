@@ -94,21 +94,6 @@ py
 ]
         
 '
-tooltool
-.
-py
-'
-:
-"
-/
-builds
-/
-tooltool
-.
-py
-"
-        
-'
 python2
 .
 7
@@ -257,25 +242,6 @@ builds
 relengapi
 .
 tok
-'
-)
-        
-(
-'
-/
-tools
-/
-tooltool
-.
-py
-'
-'
-/
-builds
-/
-tooltool
-.
-py
 '
 )
     

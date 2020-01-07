@@ -245,12 +245,6 @@ postflight_run_cmd_suites
 ]
     
 "
-download_tooltool
-"
-:
-True
-    
-"
 tooltool_cache
 "
 :

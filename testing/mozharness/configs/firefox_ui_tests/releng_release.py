@@ -125,10 +125,4 @@ download_symbols
 '
 ondemand
 '
-    
-'
-download_tooltool
-'
-:
-True
 }

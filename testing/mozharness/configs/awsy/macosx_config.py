@@ -94,12 +94,6 @@ awsy
 "
     
 "
-download_tooltool
-"
-:
-True
-    
-"
 installer_path
 "
 :
