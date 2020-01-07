@@ -126,6 +126,11 @@ quirks
 =
 QUIRK_FLASH_HOOK_SSL
 ;
+quirks
+|
+=
+QUIRK_FLASH_HOOK_CREATEMUTEXW
+;
 #
 endif
 #
