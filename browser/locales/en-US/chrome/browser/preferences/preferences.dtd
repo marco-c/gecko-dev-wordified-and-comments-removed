@@ -62,6 +62,16 @@ MPL
 <
 !
 ENTITY
+paneSearch
+.
+title
+"
+Search
+"
+>
+<
+!
+ENTITY
 paneContainers
 .
 title
