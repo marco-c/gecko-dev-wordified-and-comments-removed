@@ -17,6 +17,12 @@ final
 public
 :
 static
+void
+Initialize
+(
+)
+;
+static
 bool
 DumpEnabled
 (

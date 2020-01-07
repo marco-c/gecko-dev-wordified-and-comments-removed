@@ -30,6 +30,14 @@ nsContentUtils
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+undef
+GetLocaleInfo
+#
+endif
 namespace
 mozilla
 {
