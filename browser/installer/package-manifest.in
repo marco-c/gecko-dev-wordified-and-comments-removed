@@ -1061,13 +1061,6 @@ RESPATH
 /
 components
 /
-dom_canvas
-.
-xpt
-RESPATH
-/
-components
-/
 dom_core
 .
 xpt

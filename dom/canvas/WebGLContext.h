@@ -250,13 +250,6 @@ h
 #
 include
 "
-nsIDOMWebGLRenderingContext
-.
-h
-"
-#
-include
-"
 nsICanvasRenderingContextInternal
 .
 h
@@ -1108,8 +1101,6 @@ class
 WebGLContext
 :
 public
-nsIDOMWebGLRenderingContext
-public
 nsICanvasRenderingContextInternal
 public
 nsSupportsWeakReference
@@ -1278,7 +1269,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 WebGLContext
-nsIDOMWebGLRenderingContext
+nsICanvasRenderingContextInternal
 )
 virtual
 JSObject
@@ -1302,7 +1293,6 @@ override
 =
 0
 ;
-NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT
 virtual
 void
 OnVisibilityChange
@@ -10035,7 +10025,7 @@ webgl
 return
 static_cast
 <
-nsIDOMWebGLRenderingContext
+nsICanvasRenderingContextInternal
 *
 >
 (

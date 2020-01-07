@@ -10869,10 +10869,6 @@ WebGLContext
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMWebGLRenderingContext
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsICanvasRenderingContextInternal
 )
 NS_INTERFACE_MAP_ENTRY
@@ -10882,7 +10878,7 @@ nsISupportsWeakReference
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMWebGLRenderingContext
+nsICanvasRenderingContextInternal
 )
 NS_INTERFACE_MAP_END
 }

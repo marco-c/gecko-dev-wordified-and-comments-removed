@@ -614,13 +614,6 @@ BINPATH
 /
 components
 /
-dom_canvas
-.
-xpt
-BINPATH
-/
-components
-/
 dom_core
 .
 xpt
