@@ -135,6 +135,9 @@ include
 NeckoChannelParams
 ;
 include
+IPCServiceWorkerDescriptor
+;
+include
 "
 mozilla
 /
@@ -760,6 +763,8 @@ nsCString
 altDataType
 int64_t
 altDataLength
+OptionalIPCServiceWorkerDescriptor
+controller
 )
 ;
 /
