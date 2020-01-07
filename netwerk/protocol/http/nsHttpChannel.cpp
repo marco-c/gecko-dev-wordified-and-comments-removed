@@ -2243,6 +2243,10 @@ rv
 rv
 )
 ;
+mUpgradableToSecure
+=
+false
+;
 if
 (
 isHttp
@@ -2251,8 +2255,14 @@ isHttp
 bool
 shouldUpgrade
 =
-false
+mUpgradeToSecure
 ;
+if
+(
+!
+shouldUpgrade
+)
+{
 rv
 =
 NS_ShouldSecureUpgrade
@@ -2272,6 +2282,7 @@ rv
 rv
 )
 ;
+}
 if
 (
 shouldUpgrade

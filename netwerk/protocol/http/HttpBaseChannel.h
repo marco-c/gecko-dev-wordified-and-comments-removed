@@ -1085,6 +1085,12 @@ newURI
 override
 ;
 NS_IMETHOD
+UpgradeToSecure
+(
+)
+override
+;
+NS_IMETHOD
 GetRequestContextID
 (
 uint64_t
@@ -2622,6 +2628,11 @@ uint8_t
 mRedirectionLimit
 ;
 uint32_t
+mUpgradeToSecure
+:
+1
+;
+uint32_t
 mApplyConversion
 :
 1
@@ -2862,6 +2873,11 @@ mOnStartRequestCalled
 ;
 bool
 mOnStopRequestCalled
+;
+uint32_t
+mUpgradableToSecure
+:
+1
 ;
 bool
 mAfterOnStartRequestBegun
