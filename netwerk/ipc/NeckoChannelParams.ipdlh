@@ -443,6 +443,9 @@ bool
 enforceSRI
 ;
 bool
+allowDocumentToBeAgnosticToCSP
+;
+bool
 forceAllowDataURI
 ;
 bool
