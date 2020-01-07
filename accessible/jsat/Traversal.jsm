@@ -976,6 +976,10 @@ INVISIBLE
 |
 Prefilters
 .
+ARIA_HIDDEN
+|
+Prefilters
+.
 TRANSPARENT
 ;
 var
@@ -1004,6 +1008,10 @@ DEFUNCT
 Prefilters
 .
 INVISIBLE
+|
+Prefilters
+.
+ARIA_HIDDEN
 |
 Prefilters
 .
