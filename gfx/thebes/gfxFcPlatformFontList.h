@@ -346,6 +346,8 @@ const
 uint8_t
 *
 aData
+uint32_t
+aLength
 FT_Face
 aFace
 )
@@ -525,6 +527,9 @@ const
 uint8_t
 *
 mFontData
+;
+uint32_t
+mLength
 ;
 class
 UnscaledFontCache
