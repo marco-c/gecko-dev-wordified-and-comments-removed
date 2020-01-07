@@ -1,10 +1,4 @@
 var
-sequence
-=
-[
-]
-;
-var
 thenable
 =
 {
