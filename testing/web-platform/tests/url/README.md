@@ -267,7 +267,7 @@ about
 :
 blank
 against
-base
+input
 must
 give
 failure
