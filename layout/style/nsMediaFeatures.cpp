@@ -1462,7 +1462,7 @@ SetEnumValue
 StyleDisplayMode
 :
 :
-Standalone
+Fullscreen
 )
 ;
 return
