@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsIDOMSimpleGestureEvent
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

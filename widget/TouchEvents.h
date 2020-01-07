@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDOMSimpleGestureEvent
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

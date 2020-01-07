@@ -181,11 +181,6 @@ nsIDOMScrollAreaEvent
 idl
 '
 '
-nsIDOMSimpleGestureEvent
-.
-idl
-'
-'
 nsIDOMUIEvent
 .
 idl
