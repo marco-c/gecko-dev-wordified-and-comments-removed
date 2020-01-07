@@ -153,3 +153,11 @@ verbose
 -
 jobs
 4
+branches
+:
+only
+:
+-
+master
+-
+auto

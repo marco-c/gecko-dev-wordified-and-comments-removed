@@ -135,7 +135,6 @@ idx
 0
 locs
 :
-&
 self
 }
 }
@@ -489,17 +488,11 @@ usize
 ;
 fn
 find_iter
-<
-'
-t
->
 (
 self
 text
 :
 &
-'
-t
 Self
 :
 :
@@ -509,8 +502,6 @@ Text
 >
 Matches
 <
-'
-t
 Self
 >
 {
@@ -532,17 +523,11 @@ None
 }
 fn
 captures_iter
-<
-'
-t
->
 (
 self
 text
 :
 &
-'
-t
 Self
 :
 :
@@ -552,8 +537,6 @@ Text
 >
 CaptureMatches
 <
-'
-t
 Self
 >
 {
@@ -809,7 +792,6 @@ re
 .
 next_after_empty
 (
-&
 self
 .
 text
@@ -1121,7 +1103,6 @@ re
 .
 next_after_empty
 (
-&
 self
 .
 0

@@ -900,10 +900,6 @@ cap_end
 ]
 )
 .
-ok
-(
-)
-.
 expect
 (
 "

@@ -667,10 +667,6 @@ replacement
 )
 in
 substs
-.
-into_iter
-(
-)
 {
 seq
 =
