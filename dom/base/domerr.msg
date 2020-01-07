@@ -1371,17 +1371,6 @@ method
 )
 DOM_MSG_DEF
 (
-NS_ERROR_DOM_BAD_DOCUMENT_DOMAIN
-"
-Illegal
-document
-.
-domain
-value
-"
-)
-DOM_MSG_DEF
-(
 NS_ERROR_DOM_PROP_ACCESS_DENIED
 "
 Access
