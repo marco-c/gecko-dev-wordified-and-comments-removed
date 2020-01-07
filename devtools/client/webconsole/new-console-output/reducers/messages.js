@@ -1581,7 +1581,7 @@ state
 function
 getNewCurrentGroup
 (
-currentGoup
+currentGroup
 groupsById
 )
 {
@@ -1592,7 +1592,7 @@ null
 ;
 if
 (
-currentGoup
+currentGroup
 )
 {
 let
@@ -1602,7 +1602,7 @@ groupsById
 .
 get
 (
-currentGoup
+currentGroup
 )
 ;
 if
