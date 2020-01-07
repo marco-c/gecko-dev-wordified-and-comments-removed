@@ -50,6 +50,9 @@ cls
 #
 #
 _
+{
+name
+}
 ;
 #
 include
