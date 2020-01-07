@@ -1807,6 +1807,7 @@ AdjustSpecialBreaks
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AdjustWhitespace
 (
