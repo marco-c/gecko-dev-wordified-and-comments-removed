@@ -5192,6 +5192,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 }
 nsresult
 GetNextRandomAccessPoint
@@ -5467,6 +5472,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 DecoderDoctorLogger
 :
@@ -11555,6 +11565,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 }
 bool
 MediaFormatReader
@@ -17170,6 +17185,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 }
 void

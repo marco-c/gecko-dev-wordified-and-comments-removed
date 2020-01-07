@@ -3351,6 +3351,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 return
 ;
 }
@@ -3481,6 +3486,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 return
 ;
@@ -3662,6 +3672,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 return
 ;
 }
@@ -3755,6 +3770,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 return
 ;
