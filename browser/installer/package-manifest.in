@@ -2546,8 +2546,6 @@ browser
 PREF_DIR
 /
 webide
--
-prefs
 .
 js
 ;
