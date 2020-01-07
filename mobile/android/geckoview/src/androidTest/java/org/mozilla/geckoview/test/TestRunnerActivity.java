@@ -202,7 +202,7 @@ canGoForward
 Override
 public
 boolean
-onLoadUri
+onLoadRequest
 (
 GeckoSession
 session

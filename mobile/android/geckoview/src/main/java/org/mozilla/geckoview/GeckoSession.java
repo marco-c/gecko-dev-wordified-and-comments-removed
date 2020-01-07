@@ -936,7 +936,7 @@ result
 =
 delegate
 .
-onLoadUri
+onLoadRequest
 (
 GeckoSession
 .
@@ -6705,7 +6705,7 @@ TARGET_WINDOW_NEW
 2
 ;
 boolean
-onLoadUri
+onLoadRequest
 (
 GeckoSession
 session

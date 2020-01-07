@@ -1908,7 +1908,7 @@ fullScreen
 Override
 public
 boolean
-onLoadUri
+onLoadRequest
 (
 final
 GeckoSession
