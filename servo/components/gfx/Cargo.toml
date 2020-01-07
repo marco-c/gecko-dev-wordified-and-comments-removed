@@ -52,6 +52,12 @@ lib
 .
 rs
 "
+test
+=
+false
+doctest
+=
+false
 [
 features
 ]

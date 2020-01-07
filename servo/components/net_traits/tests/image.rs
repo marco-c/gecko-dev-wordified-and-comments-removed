@@ -1,3 +1,7 @@
+extern
+crate
+net_traits
+;
 use
 net_traits
 :

@@ -1,11 +1,3 @@
-#
-!
-[
-cfg
-(
-test
-)
-]
 extern
 crate
 servo_remutex

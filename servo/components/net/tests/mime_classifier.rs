@@ -152,6 +152,8 @@ PathBuf
 from
 (
 "
+tests
+/
 parsable_mime
 /
 video
@@ -442,6 +444,8 @@ PathBuf
 from
 (
 "
+tests
+/
 parsable_mime
 /
 "

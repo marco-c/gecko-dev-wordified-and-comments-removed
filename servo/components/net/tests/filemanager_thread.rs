@@ -113,6 +113,8 @@ String
 Some
 (
 "
+tests
+/
 test
 .
 jpeg
@@ -155,6 +157,8 @@ vec
 !
 [
 "
+tests
+/
 test
 .
 jpeg
@@ -196,6 +200,8 @@ File
 open
 (
 "
+tests
+/
 test
 .
 jpeg
@@ -235,11 +241,11 @@ expect
 (
 "
 Read
-tests
-/
-unit
+components
 /
 net
+/
+tests
 /
 test
 .
