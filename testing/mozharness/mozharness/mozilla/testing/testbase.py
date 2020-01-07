@@ -2604,7 +2604,8 @@ from
 common
 .
 tests
-archive
+zip
+file
 "
                                   
 .

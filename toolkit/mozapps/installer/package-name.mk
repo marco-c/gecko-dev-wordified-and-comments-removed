@@ -522,9 +522,7 @@ common
 .
 tests
 .
-tar
-.
-gz
+zip
 CPP_TEST_PACKAGE
 =
 (
@@ -535,9 +533,7 @@ cppunittest
 .
 tests
 .
-tar
-.
-gz
+zip
 XPC_TEST_PACKAGE
 =
 (
@@ -548,9 +544,7 @@ xpcshell
 .
 tests
 .
-tar
-.
-gz
+zip
 MOCHITEST_PACKAGE
 =
 (
@@ -561,9 +555,7 @@ mochitest
 .
 tests
 .
-tar
-.
-gz
+zip
 REFTEST_PACKAGE
 =
 (
@@ -574,9 +566,7 @@ reftest
 .
 tests
 .
-tar
-.
-gz
+zip
 WP_TEST_PACKAGE
 =
 (
@@ -602,9 +592,7 @@ talos
 .
 tests
 .
-tar
-.
-gz
+zip
 AWSY_PACKAGE
 =
 (
@@ -615,9 +603,7 @@ awsy
 .
 tests
 .
-tar
-.
-gz
+zip
 GTEST_PACKAGE
 =
 (
@@ -628,9 +614,7 @@ gtest
 .
 tests
 .
-tar
-.
-gz
+zip
 ifneq
 (
 (

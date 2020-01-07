@@ -1090,9 +1090,7 @@ common
 .
 tests
 .
-tar
-.
-gz
+zip
 archive
 for
 your
@@ -1138,9 +1136,7 @@ from
 the
 tests
 .
-tar
-.
-gz
+zip
 package
 and
 libnss3

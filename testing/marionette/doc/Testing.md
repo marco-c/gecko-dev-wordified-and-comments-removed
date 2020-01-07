@@ -1536,9 +1536,7 @@ common
 .
 tests
 .
-tar
-.
-gz
+zip
 artifact
 attached
 to
