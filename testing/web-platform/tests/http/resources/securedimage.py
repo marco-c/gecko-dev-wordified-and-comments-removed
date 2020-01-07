@@ -75,9 +75,6 @@ Authenticate
 Basic
 "
 )
-        
-return
-response
     
 else
 :
@@ -121,9 +118,6 @@ password
 +
 auth
 )
-            
-return
-response
     
 response
 .
