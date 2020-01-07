@@ -1385,12 +1385,6 @@ mChannels
 0
 &
 &
-mChannels
-<
-=
-MAX_AUDIO_CHANNELS
-&
-&
 mRate
 >
 0
