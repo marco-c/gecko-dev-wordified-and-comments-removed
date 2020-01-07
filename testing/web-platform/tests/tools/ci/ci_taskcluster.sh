@@ -122,6 +122,15 @@ internal
 install
 -
 fonts
+-
+-
+no
+-
+fail
+-
+on
+-
+unexpected
 elif
 [
 1
@@ -143,7 +152,6 @@ chrome
 log
 -
 tbpl
-=
 =
 .
 .
@@ -225,4 +233,13 @@ unexpected
 install
 -
 fonts
+-
+-
+no
+-
+fail
+-
+on
+-
+unexpected
 fi
