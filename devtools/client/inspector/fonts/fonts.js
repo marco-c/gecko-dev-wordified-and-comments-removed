@@ -734,7 +734,6 @@ update
 }
 onThemeChanged
 (
-event
 frame
 )
 {

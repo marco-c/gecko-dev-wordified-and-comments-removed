@@ -1178,7 +1178,6 @@ _onToolboxPickerHover
 :
 function
 (
-event
 nodeFront
 )
 {
