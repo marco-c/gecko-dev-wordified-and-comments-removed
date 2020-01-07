@@ -2789,7 +2789,6 @@ if
 aDocument
 )
 {
-return
 aDocument
 -
 >
