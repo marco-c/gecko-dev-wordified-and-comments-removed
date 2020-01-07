@@ -6003,7 +6003,7 @@ return
 1
 ;
 return
-1
+cpuCount
 ;
 }
 size_t
