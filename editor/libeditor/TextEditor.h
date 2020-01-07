@@ -611,11 +611,10 @@ Element
 >
 CreateBR
 (
-nsINode
-*
-aNode
-int32_t
-aOffset
+const
+EditorRawDOMPoint
+&
+aPointToInsert
 EDirection
 aSelect
 =
