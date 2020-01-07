@@ -221,11 +221,6 @@ amWebAPI
 .
 js
 '
-'
-nsBlocklistService
-.
-js
-'
 ]
 EXTRA_PP_COMPONENTS
 +
@@ -243,6 +238,11 @@ EXTRA_JS_MODULES
 [
 '
 AddonManager
+.
+jsm
+'
+'
+Blocklist
 .
 jsm
 '

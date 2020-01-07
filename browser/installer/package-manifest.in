@@ -1336,13 +1336,6 @@ components
 amWebAPI
 .
 js
-RESPATH
-/
-components
-/
-nsBlocklistService
-.
-js
 #
 ifdef
 MOZ_UPDATER

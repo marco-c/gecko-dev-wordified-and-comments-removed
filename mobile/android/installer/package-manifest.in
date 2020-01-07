@@ -685,13 +685,6 @@ components
 addonManager
 .
 js
-BINPATH
-/
-components
-/
-nsBlocklistService
-.
-js
 #
 ifndef
 MOZ_GECKOVIEW_JAR

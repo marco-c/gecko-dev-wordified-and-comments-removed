@@ -481,9 +481,7 @@ let
 state
 =
 await
-Services
-.
-blocklist
+Blocklist
 .
 getAddonBlocklistState
 (
