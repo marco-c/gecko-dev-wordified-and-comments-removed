@@ -18566,10 +18566,10 @@ nsIDocShell
 >
 treeItem
 =
-aComputedStyle
+aElement
 -
 >
-PresContext
+OwnerDoc
 (
 )
 -
