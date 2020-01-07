@@ -186,6 +186,15 @@ true
 cancelled
 :
 false
+principal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 ;
 add_task
