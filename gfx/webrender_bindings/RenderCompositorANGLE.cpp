@@ -468,13 +468,13 @@ desc
 .
 BufferCount
 =
-2
+1
 ;
 desc
 .
 SwapEffect
 =
-DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL
+DXGI_SWAP_EFFECT_SEQUENTIAL
 ;
 desc
 .
