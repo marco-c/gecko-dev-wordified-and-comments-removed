@@ -708,6 +708,10 @@ mStyleRuleMap
 =
 nullptr
 ;
+mPresContext
+=
+nullptr
+;
 }
 void
 ServoStyleSet
