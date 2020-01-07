@@ -1348,6 +1348,8 @@ qr
 tests
 :
 -
+crashtest
+-
 reftest
 linux32
 -
