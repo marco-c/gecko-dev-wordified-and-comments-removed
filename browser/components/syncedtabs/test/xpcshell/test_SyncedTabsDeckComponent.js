@@ -1211,7 +1211,7 @@ component
 .
 PANELS
 .
-UNVERIFIED
+NOT_AUTHED_INFO
 )
 ;
 account
