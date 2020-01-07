@@ -1018,12 +1018,9 @@ attribute
 HTMLCollection
 plugins
 ;
-/
-/
-(
-HTML
-only
-)
+[
+SameObject
+]
 readonly
 attribute
 HTMLCollection

@@ -8390,6 +8390,12 @@ Embeds
 }
 nsIHTMLCollection
 *
+Links
+(
+)
+;
+nsIHTMLCollection
+*
 Forms
 (
 )
@@ -10596,6 +10602,12 @@ RefPtr
 nsContentList
 >
 mEmbeds
+;
+RefPtr
+<
+nsContentList
+>
+mLinks
 ;
 RefPtr
 <

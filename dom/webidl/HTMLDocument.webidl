@@ -129,14 +129,6 @@ DOMString
 name
 )
 ;
-[
-Pure
-]
-readonly
-attribute
-HTMLCollection
-links
-;
 /
 /
 dynamic
