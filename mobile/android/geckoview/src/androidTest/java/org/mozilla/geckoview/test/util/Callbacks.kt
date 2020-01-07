@@ -194,7 +194,7 @@ Boolean
 }
 override
 fun
-onLoadRequest
+onLoadUri
 (
 session
 :
@@ -204,7 +204,11 @@ uri
 String
 where
 :
-Int
+GeckoSession
+.
+NavigationDelegate
+.
+TargetWindow
 )
 :
 Boolean
