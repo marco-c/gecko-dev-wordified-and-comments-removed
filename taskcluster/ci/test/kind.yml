@@ -181,6 +181,10 @@ mochitest
 .
 yml
 -
+raptor
+.
+yml
+-
 reftest
 .
 yml

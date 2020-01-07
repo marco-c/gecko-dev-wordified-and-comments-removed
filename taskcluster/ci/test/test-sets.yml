@@ -1470,6 +1470,16 @@ reftest
 reftest
 -
 fonts
+macosx64
+-
+raptor
+:
+-
+raptor
+-
+firefox
+-
+tp6
 linux32
 -
 tests
