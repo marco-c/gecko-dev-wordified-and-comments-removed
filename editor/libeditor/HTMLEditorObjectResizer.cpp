@@ -2005,7 +2005,7 @@ true
 nsAutoString
 locationStr
 ;
-aHandle
+mActivatedHandle
 -
 >
 GetAttribute

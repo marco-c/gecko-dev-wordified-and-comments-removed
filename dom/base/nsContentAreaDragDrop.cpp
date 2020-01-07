@@ -2199,7 +2199,7 @@ mUrlString
 }
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 imageElement
 (

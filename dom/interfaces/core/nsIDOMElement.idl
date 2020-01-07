@@ -208,13 +208,5 @@ nsIDOMElement
 :
 nsIDOMNode
 {
-DOMString
-getAttribute
-(
-in
-DOMString
-name
-)
-;
 }
 ;
