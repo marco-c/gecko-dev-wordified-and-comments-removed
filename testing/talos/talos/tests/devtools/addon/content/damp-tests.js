@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-window
+module
 .
-DAMP_TESTS
+exports
 =
 [
 {
