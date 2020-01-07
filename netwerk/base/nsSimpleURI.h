@@ -130,6 +130,10 @@ nsIIPCSerializableURI
 {
 protected
 :
+nsSimpleURI
+(
+)
+;
 virtual
 ~
 nsSimpleURI
@@ -154,10 +158,6 @@ From
 nsIURI
 *
 aURI
-)
-;
-nsSimpleURI
-(
 )
 ;
 bool
