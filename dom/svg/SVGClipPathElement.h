@@ -169,6 +169,12 @@ ClipPathUnits
 (
 )
 ;
+bool
+IsUnitsObjectBoundingBox
+(
+)
+const
+;
 protected
 :
 enum
