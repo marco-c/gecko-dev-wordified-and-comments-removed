@@ -10,6 +10,19 @@ mozconfig
 .
 linux
 "
+if
+[
+-
+f
+/
+etc
+/
+redhat
+-
+release
+]
+;
+then
 export
 PKG_CONFIG_LIBDIR
 =
@@ -35,6 +48,7 @@ usr
 share
 /
 pkgconfig
+fi
 export
 MOZ_LINUX_32_SSE2_STARTUP_ERROR
 =

@@ -70,6 +70,19 @@ address
 sanitizer
 -
 reporter
+if
+[
+-
+f
+/
+etc
+/
+redhat
+-
+release
+]
+;
+then
 export
 PKG_CONFIG_LIBDIR
 =
@@ -95,6 +108,7 @@ usr
 share
 /
 pkgconfig
+fi
 #
 Need
 this

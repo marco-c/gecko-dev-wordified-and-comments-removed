@@ -68,6 +68,19 @@ enable
 fuzzing
 unset
 MOZ_STDCXX_COMPAT
+if
+[
+-
+f
+/
+etc
+/
+redhat
+-
+release
+]
+;
+then
 export
 PKG_CONFIG_LIBDIR
 =
@@ -93,6 +106,7 @@ usr
 share
 /
 pkgconfig
+fi
 #
 Package
 js

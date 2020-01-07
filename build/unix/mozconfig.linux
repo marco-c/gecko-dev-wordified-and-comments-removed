@@ -211,6 +211,19 @@ mozconfig
 .
 stdcxx
 "
+if
+[
+-
+f
+/
+etc
+/
+redhat
+-
+release
+]
+;
+then
 #
 PKG_CONFIG_LIBDIR
 is
@@ -245,3 +258,4 @@ usr
 share
 /
 pkgconfig
+fi
