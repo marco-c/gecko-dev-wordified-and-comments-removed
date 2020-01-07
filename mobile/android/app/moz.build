@@ -433,6 +433,13 @@ JS_PREFERENCE_PP_FILES
 =
 [
 '
+geckoview
+-
+prefs
+.
+js
+'
+'
 mobile
 .
 js
