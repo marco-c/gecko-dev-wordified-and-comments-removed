@@ -15,6 +15,13 @@ taskcluster
 /
 docker
 /
+-
+tools
+/
+update
+-
+packaging
+/
 exclude
 :
 [
