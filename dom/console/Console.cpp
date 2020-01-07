@@ -8739,15 +8739,7 @@ eventObj
 "
 stacktrace
 "
-JS_DATA_TO_FUNC_PTR
-(
-JSNative
 funObj
-.
-get
-(
-)
-)
 nullptr
 JSPROP_ENUMERATE
 |
