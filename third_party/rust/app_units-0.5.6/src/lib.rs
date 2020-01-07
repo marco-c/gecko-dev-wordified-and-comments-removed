@@ -1,6 +1,14 @@
 extern
 crate
+heapsize
+;
+extern
+crate
 num_traits
+;
+extern
+crate
+rustc_serialize
 ;
 extern
 crate
