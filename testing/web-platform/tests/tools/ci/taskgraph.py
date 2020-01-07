@@ -65,15 +65,11 @@ provisionerId
 "
 :
 "
-{
-{
-taskcluster
-.
-docker
-.
-provisionerId
-}
-}
+aws
+-
+provisioner
+-
+v1
 "
     
 "
@@ -81,15 +77,11 @@ workerType
 "
 :
 "
-{
-{
-taskcluster
-.
+wpt
+-
 docker
-.
-workerType
-}
-}
+-
+worker
 "
     
 "
