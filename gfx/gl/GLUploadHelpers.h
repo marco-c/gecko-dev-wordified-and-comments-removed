@@ -65,6 +65,13 @@ unsigned
 char
 *
 aData
+const
+gfx
+:
+:
+IntSize
+&
+aDataSize
 int32_t
 aStride
 gfx

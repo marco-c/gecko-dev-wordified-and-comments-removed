@@ -852,6 +852,7 @@ size
 ;
 }
 }
+return
 mTexImage
 -
 >
@@ -861,9 +862,6 @@ aSurface
 aDestRegion
 aSrcOffset
 )
-;
-return
-true
 ;
 }
 void
