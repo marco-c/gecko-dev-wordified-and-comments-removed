@@ -119,11 +119,6 @@ nsITreeColumns
 idl
 '
 '
-nsITreeContentView
-.
-idl
-'
-'
 nsITreeSelection
 .
 idl

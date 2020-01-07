@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsITreeContentView
-.
-h
-"
-#
-include
-"
 nsITreeSelection
 .
 h
@@ -115,8 +108,6 @@ final
 :
 public
 nsITreeView
-public
-nsITreeContentView
 public
 nsStubDocumentObserver
 public
@@ -651,7 +642,6 @@ aItem
 )
 ;
 NS_DECL_NSITREEVIEW
-NS_DECL_NSITREECONTENTVIEW
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
