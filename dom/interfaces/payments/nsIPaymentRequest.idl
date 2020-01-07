@@ -485,6 +485,11 @@ attribute
 nsIPaymentOptions
 paymentOptions
 ;
+readonly
+attribute
+AString
+shippingOption
+;
 [
 noscript
 ]
@@ -502,6 +507,9 @@ updatePaymentDetails
 in
 nsIPaymentDetails
 aDetails
+in
+AString
+aShippingOption
 )
 ;
 }

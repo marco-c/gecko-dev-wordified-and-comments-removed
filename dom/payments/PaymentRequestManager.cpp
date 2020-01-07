@@ -2124,6 +2124,7 @@ aTopLevelPrincipal
 methodData
 details
 options
+shippingOption
 )
 ;
 rv
@@ -2585,6 +2586,7 @@ action
 (
 requestId
 details
+shippingOption
 )
 ;
 return

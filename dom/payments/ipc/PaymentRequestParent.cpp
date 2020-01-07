@@ -411,6 +411,11 @@ topLevelPrincipal
 methodData
 details
 options
+request
+.
+shippingOption
+(
+)
 )
 ;
 if
@@ -770,6 +775,11 @@ requestId
 )
 callback
 details
+request
+.
+shippingOption
+(
+)
 )
 ;
 action

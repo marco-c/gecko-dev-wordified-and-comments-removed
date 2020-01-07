@@ -297,6 +297,9 @@ details
 IPCPaymentOptions
 options
 ;
+nsString
+shippingOption
+;
 }
 ;
 struct
@@ -342,6 +345,9 @@ requestId
 ;
 IPCPaymentDetails
 details
+;
+nsString
+shippingOption
 ;
 }
 ;

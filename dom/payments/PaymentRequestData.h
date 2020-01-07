@@ -558,6 +558,10 @@ aPaymentDetails
 nsIPaymentOptions
 *
 aPaymentOptions
+const
+nsAString
+&
+aShippingOption
 )
 ;
 private
@@ -601,6 +605,9 @@ nsCOMPtr
 nsIPaymentOptions
 >
 mPaymentOptions
+;
+nsString
+mShippingOption
 ;
 }
 ;
