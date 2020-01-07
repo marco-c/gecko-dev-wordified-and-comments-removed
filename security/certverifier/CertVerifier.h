@@ -221,6 +221,9 @@ Permit
 DistrustSymantecRoots
 =
 1
+DistrustSymantecRootsRegardlessOfDate
+=
+2
 }
 ;
 enum
