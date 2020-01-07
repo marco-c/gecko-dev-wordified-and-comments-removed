@@ -279,8 +279,6 @@ gcc
 -
 linux64
 -
-gcc
--
 sixgill
 -
 linux64
@@ -392,8 +390,6 @@ gcc
 6
 -
 linux64
--
-gcc
 -
 sixgill
 -
