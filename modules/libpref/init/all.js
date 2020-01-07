@@ -18846,7 +18846,6 @@ content_privileged_about_uris_without_csp
 "
 "
 blank
-blocked
 home
 newtab
 printpreview
