@@ -115,6 +115,15 @@ aURL
 )
 ;
 static
+bool
+IsPotentiallyTrustworthyOnion
+(
+nsIURI
+*
+aURL
+)
+;
+static
 nsresult
 ShouldLoad
 (
