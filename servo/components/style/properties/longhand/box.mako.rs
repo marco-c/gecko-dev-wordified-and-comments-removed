@@ -4603,6 +4603,7 @@ gecko
 flags
 =
 "
+CREATES_STACKING_CONTEXT
 FIXPOS_CB
 "
 gecko_pref
