@@ -254300,14 +254300,14 @@ C
 "
 fn
 (
-aPresContext
+aDocument
 :
 *
 mut
 root
 :
 :
-nsPresContext
+nsIDocument
 aFeature
 :
 *
