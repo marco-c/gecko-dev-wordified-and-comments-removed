@@ -2,6 +2,8 @@ from
 __future__
 import
 absolute_import
+import
+sys
 from
 mozboot
 .
@@ -93,6 +95,25 @@ pkgconf
 '
             
 '
+py
+%
+s
+%
+s
+-
+sqlite3
+'
+%
+sys
+.
+version_info
+[
+0
+:
+2
+]
+            
+'
 rust
 '
             
@@ -147,6 +168,29 @@ yasm
 '
         
 ]
+        
+if
+not
+self
+.
+which
+(
+'
+as
+'
+)
+:
+            
+self
+.
+packages
+.
+append
+(
+'
+binutils
+'
+)
         
 if
 not
