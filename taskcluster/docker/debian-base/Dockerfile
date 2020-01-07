@@ -478,9 +478,13 @@ install
 \
 git
 \
+less
+\
 make
 \
 mercurial
+\
+patch
 \
 python
 \
@@ -499,6 +503,10 @@ zstandard
 python3
 -
 zstandard
+\
+vim
+-
+tiny
 \
 xz
 -
