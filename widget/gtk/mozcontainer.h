@@ -157,7 +157,10 @@ wl_egl_window
 eglwindow
 ;
 gboolean
-committed
+parent_surface_committed
+;
+gulong
+parent_surface_committed_handler
 ;
 #
 endif
