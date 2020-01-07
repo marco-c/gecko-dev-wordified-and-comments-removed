@@ -1495,7 +1495,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsComputedDOMStyle
 )
-NS_IMETHODIMP
+nsresult
 nsComputedDOMStyle
 :
 :
