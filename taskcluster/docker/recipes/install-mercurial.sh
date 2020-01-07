@@ -843,6 +843,8 @@ CERT_PATH
 [
 extensions
 ]
+share
+=
 sparse
 =
 robustcheckout
