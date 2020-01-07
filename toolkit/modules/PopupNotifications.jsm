@@ -778,13 +778,7 @@ options
 if
 (
 !
-(
 tabbrowser
-instanceof
-Ci
-.
-nsIDOMXULElement
-)
 )
 throw
 "

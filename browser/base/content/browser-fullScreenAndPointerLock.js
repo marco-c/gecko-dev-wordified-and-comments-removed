@@ -1821,6 +1821,8 @@ target
 =
 =
 gBrowser
+.
+container
 )
 {
 browser
