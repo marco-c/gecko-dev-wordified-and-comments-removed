@@ -3318,6 +3318,12 @@ ParseNodeKind
 :
 String
 :
+case
+ParseNodeKind
+:
+:
+ObjectPropertyName
+:
 pn_atom
 -
 >
