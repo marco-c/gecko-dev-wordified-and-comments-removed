@@ -369,12 +369,16 @@ annotations
 EXPIRE_WITH_HISTORY
 )
 ;
+await
 PlacesUtils
 .
 history
 .
-removePagesFromHost
+removeByFilter
 (
+{
+host
+:
 "
 www
 .
@@ -382,7 +386,7 @@ test
 .
 com
 "
-false
+}
 )
 ;
 for
