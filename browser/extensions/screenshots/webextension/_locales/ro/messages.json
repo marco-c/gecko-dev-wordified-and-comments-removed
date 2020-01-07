@@ -198,7 +198,6 @@ ti
 n
 modul
 numai
-de
 desc
 rcare
 .
@@ -217,10 +216,11 @@ message
 Firefox
 Screenshots
 se
-mut
+schimb
 automat
 n
 modul
+numai
 desc
 rcare
 n
@@ -417,7 +417,7 @@ message
 "
 :
 "
-Captura
+Captur
 copiat
 "
 }

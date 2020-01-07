@@ -1,18 +1,5 @@
 {
 "
-addonDescription
-"
-:
-{
-"
-message
-"
-:
-"
-.
-"
-}
-"
 addonAuthorsList
 "
 :
@@ -142,6 +129,8 @@ message
 "
 :
 "
+-
+-
 .
 "
 }
@@ -155,9 +144,9 @@ message
 "
 :
 "
-Firefox
-Screenshots
-:
+-
+-
+.
 "
 }
 "
@@ -170,6 +159,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -182,7 +172,8 @@ message
 "
 :
 "
-3
+-
+.
 "
 }
 "
@@ -195,6 +186,7 @@ message
 "
 :
 "
+.
 "
 }
 "
@@ -249,8 +241,6 @@ message
 "
 .
 META_KEY
--
-V
 .
 "
 "
@@ -309,8 +299,6 @@ message
 "
 .
 META_KEY
--
-V
 .
 "
 "
@@ -390,7 +378,7 @@ message
 "
 :
 "
-.
+!
 .
 .
 "
@@ -420,7 +408,6 @@ message
 "
 .
 Firefox
-Screenshots
 .
 "
 }
@@ -435,7 +422,6 @@ message
 :
 "
 Firefox
-Screenshots
 .
 .
 "
@@ -477,7 +463,6 @@ message
 :
 "
 Firefox
-Screenshots
 !
 "
 }
@@ -531,7 +516,6 @@ message
 "
 !
 Firefox
-Screenshots
 .
 "
 }
@@ -724,7 +708,6 @@ message
 :
 "
 Firefox
-Screenshots
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
 .
