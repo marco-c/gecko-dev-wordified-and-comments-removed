@@ -15880,7 +15880,7 @@ AnimationsAPICoreEnabled
 }
 DocumentTimeline
 *
-nsDocument
+nsIDocument
 :
 :
 Timeline
@@ -15911,7 +15911,7 @@ mDocumentTimeline
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 GetAnimations
