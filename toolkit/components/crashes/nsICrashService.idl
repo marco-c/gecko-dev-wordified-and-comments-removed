@@ -133,9 +133,6 @@ UUID
 *
 *
 return
-{
-Promise
-}
 A
 promise
 that
@@ -148,7 +145,7 @@ been
 stored
 *
 /
-nsISupports
+Promise
 addCrash
 (
 in

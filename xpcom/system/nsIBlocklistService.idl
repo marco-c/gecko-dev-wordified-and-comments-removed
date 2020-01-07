@@ -381,7 +381,7 @@ constant
 .
 *
 /
-nsISupports
+Promise
 getPluginBlocklistState
 (
 in

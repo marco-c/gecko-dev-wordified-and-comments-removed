@@ -167,7 +167,7 @@ frame
 .
 *
 /
-nsISupports
+Promise
 sendRequest
 (
 in

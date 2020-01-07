@@ -1056,7 +1056,7 @@ aSinceTime
 JSContext
 *
 aCx
-nsISupports
+Promise
 *
 *
 aPromise
@@ -1391,7 +1391,7 @@ aSinceTime
 JSContext
 *
 aCx
-nsISupports
+Promise
 *
 *
 aPromise
@@ -1682,7 +1682,7 @@ aSinceTime
 JSContext
 *
 aCx
-nsISupports
+Promise
 *
 *
 aPromise

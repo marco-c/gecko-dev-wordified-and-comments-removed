@@ -399,7 +399,7 @@ aSinceTime
 [
 implicit_jscontext
 ]
-nsISupports
+Promise
 getProfileDataAsync
 (
 [
@@ -413,7 +413,7 @@ aSinceTime
 [
 implicit_jscontext
 ]
-nsISupports
+Promise
 getProfileDataAsArrayBuffer
 (
 [
@@ -445,7 +445,7 @@ written
 [
 implicit_jscontext
 ]
-nsISupports
+Promise
 dumpProfileToFileAsync
 (
 in
