@@ -587,9 +587,6 @@ join
 (
 '
 "
-CSSPropFlags
-:
-:
 {
 }
 "

@@ -76,9 +76,6 @@ propList
         
 if
 "
-CSSPropFlags
-:
-:
 Internal
 "
 in
