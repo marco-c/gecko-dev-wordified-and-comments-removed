@@ -309,6 +309,7 @@ type
 ;
 public
 :
+explicit
 MoveEmitterARM64
 (
 MacroAssembler

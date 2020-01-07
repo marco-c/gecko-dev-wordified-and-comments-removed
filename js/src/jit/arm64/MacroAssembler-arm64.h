@@ -98,6 +98,7 @@ ImmShiftedTag
 public
 ImmWord
 {
+explicit
 ImmShiftedTag
 (
 JSValueShiftedTag
@@ -113,6 +114,7 @@ shtag
 )
 {
 }
+explicit
 ImmShiftedTag
 (
 JSValueType
@@ -142,6 +144,7 @@ ImmTag
 public
 Imm32
 {
+explicit
 ImmTag
 (
 JSValueTag
