@@ -123,11 +123,6 @@ nsIDOMCSSKeyframeRule
 idl
 '
 '
-nsIDOMCSSKeyframesRule
-.
-idl
-'
-'
 nsIDOMCSSPageRule
 .
 idl
