@@ -323,3 +323,14 @@ System
 General
 "
 )
+SPHINX_TREES
+[
+'
+/
+intl
+'
+]
+=
+'
+docs
+'
