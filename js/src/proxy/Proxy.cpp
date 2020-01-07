@@ -4133,11 +4133,12 @@ ProxyObject
 TraceEdge
 (
 trc
-&
 proxy
 -
 >
-shape_
+shapePtr
+(
+)
 "
 ProxyObject_shape
 "

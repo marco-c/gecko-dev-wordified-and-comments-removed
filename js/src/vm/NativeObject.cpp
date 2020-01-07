@@ -977,7 +977,9 @@ listp
 =
 =
 &
-shape_
+shapeRef
+(
+)
 )
 ;
 }
@@ -1899,9 +1901,10 @@ getClass
 0
 )
 ;
-shape_
-=
+setShape
+(
 shape
+)
 ;
 }
 void
@@ -2010,9 +2013,10 @@ slots_
 nullptr
 ;
 }
-shape_
-=
+setShape
+(
 shape
+)
 ;
 }
 void
@@ -2067,9 +2071,7 @@ inDictionary
 )
 )
 ;
-shape_
-.
-init
+initShape
 (
 shape
 )

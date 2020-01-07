@@ -7531,10 +7531,11 @@ OutlineTypedObject
 TraceEdge
 (
 trc
-&
 typedObj
 .
-shape_
+shapePtr
+(
+)
 "
 OutlineTypedObject_shape
 "
@@ -10433,10 +10434,11 @@ InlineTypedObject
 TraceEdge
 (
 trc
-&
 typedObj
 .
-shape_
+shapePtr
+(
+)
 "
 InlineTypedObject_shape
 "
