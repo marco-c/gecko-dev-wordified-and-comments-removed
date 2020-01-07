@@ -6625,6 +6625,12 @@ OutlineOpaqueTypedObject
 class_
 )
 ;
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 RootedObjectGroup
 group
 (
@@ -10944,7 +10950,6 @@ DEFINE_TYPEDOBJ_CLASS
 Name
 Trace
 Moved
-flag
 )
 \
 static
@@ -11074,7 +11079,8 @@ Class
 :
 NON_NATIVE
 |
-flag
+\
+JSCLASS_DELAY_METADATA_BUILDER
 \
 &
 Name
@@ -11105,7 +11111,6 @@ OutlineTypedObject
 :
 obj_trace
 nullptr
-0
 )
 ;
 DEFINE_TYPEDOBJ_CLASS
@@ -11116,7 +11121,6 @@ OutlineTypedObject
 :
 obj_trace
 nullptr
-0
 )
 ;
 DEFINE_TYPEDOBJ_CLASS
@@ -11130,7 +11134,6 @@ InlineTypedObject
 :
 :
 obj_moved
-JSCLASS_DELAY_METADATA_BUILDER
 )
 ;
 DEFINE_TYPEDOBJ_CLASS
@@ -11144,7 +11147,6 @@ InlineTypedObject
 :
 :
 obj_moved
-JSCLASS_DELAY_METADATA_BUILDER
 )
 ;
 static
@@ -11984,7 +11986,7 @@ js
 emptyObjectElements
 )
 ;
-if
+MOZ_ASSERT
 (
 clasp
 -
@@ -11993,6 +11995,7 @@ shouldDelayMetadataBuilder
 (
 )
 )
+;
 cx
 -
 >
@@ -12002,15 +12005,6 @@ compartment
 -
 >
 setObjectPendingMetadata
-(
-cx
-tobj
-)
-;
-else
-tobj
-=
-SetNewObjectMetadata
 (
 cx
 tobj
