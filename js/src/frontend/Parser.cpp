@@ -4704,6 +4704,14 @@ setSourceMapInfo
 {
 if
 (
+!
+ss
+)
+return
+true
+;
+if
+(
 anyChars
 .
 hasDisplayURL
