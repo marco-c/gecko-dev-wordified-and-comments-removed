@@ -1452,7 +1452,7 @@ rv
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsFrameLoader
 :
 :

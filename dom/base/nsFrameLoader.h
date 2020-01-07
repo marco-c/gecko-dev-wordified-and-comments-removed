@@ -457,6 +457,16 @@ LoadURI
 nsIURI
 *
 aURI
+bool
+aOriginalSrc
+)
+;
+nsresult
+LoadURI
+(
+nsIURI
+*
+aURI
 nsIPrincipal
 *
 aTriggeringPrincipal

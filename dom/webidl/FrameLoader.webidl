@@ -240,6 +240,17 @@ load
 .
 *
 /
+/
+/
+XXXbz
+Should
+this
+even
+be
+exposed
+to
+JS
+?
 [
 Throws
 ]
