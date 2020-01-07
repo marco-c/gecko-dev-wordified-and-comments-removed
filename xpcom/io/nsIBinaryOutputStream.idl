@@ -458,6 +458,9 @@ aLength
 in
 string
 aString
+[
+optional
+]
 in
 uint32_t
 aLength
@@ -491,6 +494,9 @@ aLength
 in
 uint8_t
 aBytes
+[
+optional
+]
 in
 uint32_t
 aLength
