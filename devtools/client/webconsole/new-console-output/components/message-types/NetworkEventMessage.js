@@ -592,8 +592,8 @@ const
 messageBody
 =
 [
-method
 xhr
+method
 requestUrl
 statusBody
 ]
