@@ -608,6 +608,7 @@ int
 count
 ;
 }
+JS_HAZ_NON_GC_POINTER
 ;
 struct
 TenureCountCache
