@@ -207,6 +207,11 @@ EventStates
 h
 '
 '
+IMEContentObserver
+.
+h
+'
+'
 IMEStateManager
 .
 h

@@ -318,6 +318,9 @@ class
 HTMLEditor
 ;
 class
+IMEContentObserver
+;
+class
 InsertNodeTransaction
 ;
 class
@@ -997,6 +1000,14 @@ SetTextInputListener
 TextInputListener
 *
 aTextInputListener
+)
+;
+void
+SetIMEContentObserver
+(
+IMEContentObserver
+*
+aIMEContentObserver
 )
 ;
 public
@@ -3738,6 +3749,12 @@ RefPtr
 TextInputListener
 >
 mTextInputListener
+;
+RefPtr
+<
+IMEContentObserver
+>
+mIMEContentObserver
 ;
 typedef
 AutoTArray
