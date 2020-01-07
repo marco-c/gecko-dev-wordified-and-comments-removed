@@ -1635,13 +1635,6 @@ extensions
 -
 enable
 -
-pulseaudio
-'
-'
--
--
-enable
--
 raw
 '
 '
