@@ -741,6 +741,9 @@ mPendingResettingIMContext
 bool
 mRetrieveSurroundingSignalReceived
 ;
+bool
+mMaybeInDeadKeySequence
+;
 static
 IMContextWrapper
 *
