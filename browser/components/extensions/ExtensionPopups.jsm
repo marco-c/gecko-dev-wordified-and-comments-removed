@@ -804,6 +804,8 @@ removeProperty
 "
 -
 -
+lwt
+-
 arrowpanel
 -
 background
@@ -818,6 +820,8 @@ removeProperty
 (
 "
 -
+-
+lwt
 -
 arrowpanel
 -
@@ -2108,6 +2112,8 @@ setProperty
 "
 -
 -
+lwt
+-
 arrowpanel
 -
 background
@@ -2136,6 +2142,8 @@ setProperty
 (
 "
 -
+-
+lwt
 -
 arrowpanel
 -
