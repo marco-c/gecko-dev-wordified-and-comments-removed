@@ -116,7 +116,7 @@ IntlIsDateTimeFormat
 \
 _
 (
-IntlIsNumberFormat
+IntlGuardToNumberFormat
 )
 \
 _
