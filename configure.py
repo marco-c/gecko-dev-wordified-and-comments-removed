@@ -785,21 +785,6 @@ JS_STANDALONE
 )
 :
         
-os
-.
-environ
-[
-b
-'
-WRITE_MOZINFO
-'
-]
-=
-b
-'
-1
-'
-        
 from
 mozbuild
 .

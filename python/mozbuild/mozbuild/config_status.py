@@ -60,6 +60,12 @@ mozinfo
 import
 write_mozinfo
 from
+mozbuild
+.
+util
+import
+FileAvoidWrite
+from
 itertools
 import
 chain
@@ -815,17 +821,8 @@ mozconfig
 mozconfig
 )
     
-if
-'
-WRITE_MOZINFO
-'
-in
-os
-.
-environ
-:
-        
-write_mozinfo
+with
+FileAvoidWrite
 (
 os
 .
@@ -840,6 +837,14 @@ mozinfo
 json
 '
 )
+)
+as
+f
+:
+        
+write_mozinfo
+(
+f
 env
 os
 .
