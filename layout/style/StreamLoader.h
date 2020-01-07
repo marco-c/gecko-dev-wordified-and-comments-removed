@@ -7,6 +7,13 @@ mozilla_css_StreamLoader_h
 #
 include
 "
+nsIStreamListener
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

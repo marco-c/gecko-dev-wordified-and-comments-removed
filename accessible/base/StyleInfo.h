@@ -28,6 +28,13 @@ namespace
 mozilla
 {
 namespace
+dom
+{
+class
+Element
+;
+}
+namespace
 a11y
 {
 class
