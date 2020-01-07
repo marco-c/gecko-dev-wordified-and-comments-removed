@@ -198,6 +198,11 @@ patches
 :
 [
 "
+r332092
+.
+patch
+"
+"
 loosen
 -
 msvc
