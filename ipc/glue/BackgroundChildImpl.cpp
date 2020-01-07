@@ -2825,7 +2825,7 @@ dom
 TabChild
 :
 :
-HasActiveTabs
+HasVisibleTabs
 (
 )
 )
@@ -2841,7 +2841,7 @@ dom
 TabChild
 :
 :
-GetActiveTabs
+GetVisibleTabs
 (
 )
 .
