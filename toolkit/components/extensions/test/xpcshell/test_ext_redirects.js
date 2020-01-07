@@ -37,6 +37,17 @@ XMLHttpRequest
 ]
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Message
+manager
+disconnected
+/
+)
+;
 const
 server
 =
