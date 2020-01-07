@@ -95,12 +95,12 @@ macWidth2
 ENTITY
 proxyTitle
 .
-label2
+label
 "
 Configure
-Proxy
-Access
+Proxies
 to
+Access
 the
 Internet
 "
