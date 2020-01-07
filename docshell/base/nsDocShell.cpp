@@ -14054,11 +14054,7 @@ if
 aPrincipal
 &
 &
-(
 mSandboxFlags
-&
-SANDBOXED_ORIGIN
-)
 )
 {
 return
@@ -14212,6 +14208,9 @@ controller
 isNothing
 (
 )
+|
+|
+mSandboxFlags
 )
 {
 return
