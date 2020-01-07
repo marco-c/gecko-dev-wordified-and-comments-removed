@@ -40,6 +40,12 @@ private
 String
 defaultServerUrl
 ;
+private
+SwitchBoard
+.
+ConfigStatusListener
+listener
+;
 public
 AsyncConfigLoader
 (
@@ -47,6 +53,10 @@ Context
 c
 String
 defaultServerUrl
+SwitchBoard
+.
+ConfigStatusListener
+listener
 )
 {
 this
@@ -60,6 +70,12 @@ this
 defaultServerUrl
 =
 defaultServerUrl
+;
+this
+.
+listener
+=
+listener
 ;
 }
 Override
@@ -80,6 +96,7 @@ loadConfig
 (
 context
 defaultServerUrl
+listener
 )
 ;
 return

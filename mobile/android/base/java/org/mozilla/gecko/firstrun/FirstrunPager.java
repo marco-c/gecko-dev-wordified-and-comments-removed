@@ -317,6 +317,9 @@ appContext
 FragmentManager
 fm
 final
+boolean
+useLocalValues
+final
 FirstrunAnimationContainer
 .
 OnFinishListener
@@ -338,7 +341,7 @@ Restrictions
 .
 isRestrictedProfile
 (
-context
+appContext
 )
 )
 {
@@ -348,6 +351,7 @@ FirstrunPagerConfig
 .
 getRestricted
 (
+appContext
 )
 ;
 }
@@ -358,7 +362,7 @@ FirefoxAccounts
 .
 firefoxAccountsExist
 (
-context
+appContext
 )
 )
 {
@@ -369,6 +373,7 @@ FirstrunPagerConfig
 forFxAUser
 (
 appContext
+useLocalValues
 )
 ;
 }
@@ -381,6 +386,7 @@ FirstrunPagerConfig
 getDefault
 (
 appContext
+useLocalValues
 )
 ;
 }
@@ -775,15 +781,10 @@ mDecor
 .
 onAddPagerView
 (
-context
-.
-getString
-(
 panel
 .
-getTitleRes
+getTitle
 (
-)
 )
 )
 ;
@@ -915,10 +916,6 @@ i
 )
 {
 return
-context
-.
-getString
-(
 panels
 .
 get
@@ -926,9 +923,8 @@ get
 i
 )
 .
-getTitleRes
+getTitle
 (
-)
 )
 .
 toUpperCase
