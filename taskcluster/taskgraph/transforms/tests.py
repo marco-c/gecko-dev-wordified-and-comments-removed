@@ -7957,6 +7957,11 @@ project
 '
 try
 '
+and
+suite
+not
+in
+INCLUSIVE_COMPONENTS
 :
             
 jobdesc
