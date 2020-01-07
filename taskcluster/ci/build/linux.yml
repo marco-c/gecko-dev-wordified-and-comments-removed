@@ -3159,13 +3159,13 @@ name
 :
 linux64
 -
+ccov
+-
 fuzzing
 -
 asan
 -
 opt
--
-cov
 treeherder
 :
 platform
@@ -3284,7 +3284,7 @@ cfg
 :
 fuzzing
 -
-cov
+ccov
 tooltool
 -
 downloads

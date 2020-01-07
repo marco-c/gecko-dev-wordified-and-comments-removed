@@ -2725,7 +2725,7 @@ py
 '
 fuzzing
 -
-cov
+ccov
 '
 :
 '
@@ -2736,7 +2736,7 @@ releng_sub_
 s_configs
 /
 %
-s_fuzzing_cov
+s_fuzzing_ccov
 .
 py
 '

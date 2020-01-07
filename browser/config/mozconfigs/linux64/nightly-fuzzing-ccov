@@ -180,7 +180,7 @@ MOZ_PKG_SPECIAL
 =
 asan
 -
-cov
+ccov
 .
 "
 topsrcdir
