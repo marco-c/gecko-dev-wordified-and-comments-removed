@@ -440,6 +440,7 @@ color
 {
 Color
 ColorPropertyValue
+ComplexColorRatios
 RGBAColor
 }
 ;

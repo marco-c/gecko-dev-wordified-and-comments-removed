@@ -18607,7 +18607,9 @@ if
 (
 complexColor
 .
-mIsAuto
+IsAuto
+(
+)
 )
 {
 return
@@ -18686,7 +18688,9 @@ if
 (
 complexColor
 .
-mIsAuto
+IsAuto
+(
+)
 )
 {
 color
@@ -19162,7 +19166,9 @@ StyleUserInterface
 >
 mScrollbarFaceColor
 .
-mIsAuto
+IsAuto
+(
+)
 |
 |
 !
@@ -19176,7 +19182,9 @@ StyleUserInterface
 >
 mScrollbarTrackColor
 .
-mIsAuto
+IsAuto
+(
+)
 )
 ;
 gfxRect
