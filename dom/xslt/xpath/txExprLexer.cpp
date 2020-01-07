@@ -281,11 +281,8 @@ aPattern
 )
 {
 iterator
-start
 end
 ;
-start
-=
 aPattern
 .
 BeginReading
@@ -405,6 +402,7 @@ mPosition
 )
 )
 {
+iterator
 start
 =
 mPosition
@@ -661,6 +659,7 @@ mPosition
 )
 )
 {
+iterator
 start
 =
 mPosition
@@ -766,6 +765,8 @@ S_QUOTE
 case
 D_QUOTE
 :
+{
+iterator
 start
 =
 mPosition
@@ -823,6 +824,7 @@ LITERAL
 +
 mPosition
 ;
+}
 break
 ;
 case
@@ -863,6 +865,7 @@ mPosition
 )
 )
 {
+iterator
 start
 =
 mPosition
