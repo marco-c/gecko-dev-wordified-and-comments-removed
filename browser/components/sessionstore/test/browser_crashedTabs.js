@@ -1919,9 +1919,7 @@ browser
 let
 promise
 =
-BrowserTestUtils
-.
-waitForEvent
+promiseEvent
 (
 gBrowser
 .
