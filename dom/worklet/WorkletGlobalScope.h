@@ -67,9 +67,6 @@ WORKLET_IID
 0xac
 }
 }
-class
-nsIPrincipal
-;
 namespace
 mozilla
 {
@@ -140,9 +137,6 @@ WrapGlobalObject
 JSContext
 *
 aCx
-nsIPrincipal
-*
-aPrincipal
 JS
 :
 :
