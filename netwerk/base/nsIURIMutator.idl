@@ -210,6 +210,7 @@ implements
 nsIURI
 protected
 :
+MOZ_MUST_USE
 nsresult
 InitFromURI
 (
@@ -269,6 +270,7 @@ return
 NS_OK
 ;
 }
+MOZ_MUST_USE
 nsresult
 InitFromInputStream
 (
@@ -319,6 +321,7 @@ return
 NS_OK
 ;
 }
+MOZ_MUST_USE
 nsresult
 InitFromIPCParams
 (
@@ -374,6 +377,7 @@ return
 NS_OK
 ;
 }
+MOZ_MUST_USE
 nsresult
 InitFromSpec
 (
@@ -469,7 +473,9 @@ duplication
 define
 NS_DEFINE_NSIMUTATOR_COMMON
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 Deserialize
 (
 const
@@ -486,15 +492,20 @@ aParams
 override
 \
 {
+\
 return
 InitFromIPCParams
 (
 aParams
 )
 ;
+\
 }
 \
+\
+MOZ_MUST_USE
 NS_IMETHOD
+\
 Read
 (
 nsIObjectInputStream
@@ -504,15 +515,20 @@ aStream
 override
 \
 {
+\
 return
 InitFromInputStream
 (
 aStream
 )
 ;
+\
 }
 \
+\
+MOZ_MUST_USE
 NS_IMETHOD
+\
 Finalize
 (
 nsIURI
@@ -523,6 +539,7 @@ aURI
 override
 \
 {
+\
 mURI
 .
 forget
@@ -533,9 +550,13 @@ aURI
 return
 NS_OK
 ;
+\
 }
 \
+\
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetSpec
 (
 const
@@ -550,6 +571,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -562,13 +584,16 @@ aMutator
 this
 )
 ;
+\
 return
 InitFromSpec
 (
 aSpec
 )
 ;
+\
 }
+\
 %
 }
 [
@@ -674,6 +699,9 @@ URI
 .
 *
 /
+[
+must_use
+]
 nsIURIMutator
 setSpec
 (
@@ -778,6 +806,9 @@ nsIURISetters
 :
 nsIURISetSpec
 {
+[
+must_use
+]
 nsIURIMutator
 setScheme
 (
@@ -786,6 +817,9 @@ AUTF8String
 aScheme
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setUserPass
 (
@@ -794,6 +828,9 @@ AUTF8String
 aUserPass
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setUsername
 (
@@ -802,6 +839,9 @@ AUTF8String
 aUsername
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setPassword
 (
@@ -810,6 +850,9 @@ AUTF8String
 aPassword
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setHostPort
 (
@@ -818,6 +861,9 @@ AUTF8String
 aHostPort
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setHostAndPort
 (
@@ -826,6 +872,9 @@ AUTF8String
 aHostAndPort
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setHost
 (
@@ -834,6 +883,9 @@ AUTF8String
 aHost
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setPort
 (
@@ -842,6 +894,9 @@ long
 aPort
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setPathQueryRef
 (
@@ -850,6 +905,9 @@ AUTF8String
 aPathQueryRef
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setRef
 (
@@ -858,6 +916,9 @@ AUTF8String
 aRef
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setFilePath
 (
@@ -866,6 +927,9 @@ AUTF8String
 aFilePath
 )
 ;
+[
+must_use
+]
 nsIURIMutator
 setQuery
 (
@@ -875,6 +939,7 @@ aQuery
 )
 ;
 [
+must_use
 noscript
 ]
 nsIURIMutator
@@ -918,7 +983,9 @@ NS_FORWARD_SAFE_NSIURISETTERS_RET
 _to
 )
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetScheme
 (
 const
@@ -933,6 +1000,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -945,6 +1013,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -959,9 +1028,12 @@ SetScheme
 aScheme
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetUserPass
 (
 const
@@ -976,6 +1048,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -988,6 +1061,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1002,9 +1076,12 @@ SetUserPass
 aUserPass
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetUsername
 (
 const
@@ -1019,6 +1096,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1031,6 +1109,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1045,9 +1124,12 @@ SetUsername
 aUsername
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetPassword
 (
 const
@@ -1062,6 +1144,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1074,6 +1157,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1088,9 +1172,12 @@ SetPassword
 aPassword
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetHostPort
 (
 const
@@ -1105,6 +1192,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1117,6 +1205,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1131,9 +1220,12 @@ SetHostPort
 aHostPort
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetHostAndPort
 (
 const
@@ -1148,6 +1240,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1160,6 +1253,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1174,9 +1268,12 @@ SetHostAndPort
 aHostAndPort
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetHost
 (
 const
@@ -1191,6 +1288,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1203,6 +1301,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1217,9 +1316,12 @@ SetHost
 aHost
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetPort
 (
 int32_t
@@ -1232,6 +1334,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1244,6 +1347,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1258,9 +1362,12 @@ SetPort
 aPort
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetPathQueryRef
 (
 const
@@ -1275,6 +1382,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1287,6 +1395,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1301,9 +1410,12 @@ SetPathQueryRef
 aPathQueryRef
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetRef
 (
 const
@@ -1318,6 +1430,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1330,6 +1443,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1344,9 +1458,12 @@ SetRef
 aRef
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetFilePath
 (
 const
@@ -1361,6 +1478,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1373,6 +1491,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1387,9 +1506,12 @@ SetFilePath
 aFilePath
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetQuery
 (
 const
@@ -1404,6 +1526,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1416,6 +1539,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1430,9 +1554,12 @@ SetQuery
 aQuery
 )
 ;
+\
 }
 \
+MOZ_MUST_USE
 NS_IMETHOD
+\
 SetQueryWithEncoding
 (
 const
@@ -1454,6 +1581,7 @@ aMutator
 override
 \
 {
+\
 if
 (
 aMutator
@@ -1466,6 +1594,7 @@ aMutator
 this
 )
 ;
+\
 return
 !
 _to
@@ -1481,7 +1610,9 @@ query
 encoding
 )
 ;
+\
 }
+\
 %
 }
 [
@@ -1539,6 +1670,9 @@ nsISerializable
 .
 *
 /
+[
+must_use
+]
 void
 read
 (
@@ -1568,6 +1702,7 @@ nsIIPCSerializableURI
 [
 noscript
 notxpcom
+must_use
 ]
 nsresult
 deserialize
@@ -1595,6 +1730,9 @@ URI
 .
 *
 /
+[
+must_use
+]
 nsIURI
 finalize
 (
@@ -2117,6 +2255,7 @@ template
 class
 C
 >
+MOZ_MUST_USE
 nsresult
 Finalize
 (
@@ -2201,6 +2340,7 @@ avoid
 query
 interface
 .
+MOZ_MUST_USE
 nsresult
 Finalize
 (
@@ -2259,6 +2399,7 @@ template
 class
 C
 >
+MOZ_MUST_USE
 nsresult
 Finalize
 (
@@ -2342,6 +2483,7 @@ return
 NS_OK
 ;
 }
+MOZ_MUST_USE
 nsresult
 Finalize
 (
