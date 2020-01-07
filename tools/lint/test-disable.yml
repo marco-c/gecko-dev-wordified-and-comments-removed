@@ -90,8 +90,6 @@ web
 -
 platform
 -
-third_party
--
 xpcom
 /
 tests
