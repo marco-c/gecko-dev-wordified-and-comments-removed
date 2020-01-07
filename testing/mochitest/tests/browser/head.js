@@ -21,7 +21,6 @@ return
 true
 ;
 }
-;
 ok
 (
 true

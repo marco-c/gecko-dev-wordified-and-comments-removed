@@ -75,6 +75,7 @@ browser_getTestFile
 js
 "
 )
+;
 }
 "
 getTestFilePath

@@ -203,8 +203,6 @@ result
 "
 {
 id
-:
-id
 condition
 :
 !
@@ -345,6 +343,7 @@ source
 (
 )
 ;
+;
 let
 runnable
 =
@@ -394,8 +393,6 @@ complete
 "
 {
 id
-:
-id
 result
 :
 val
@@ -419,8 +416,6 @@ task
 complete
 "
 {
-id
-:
 id
 error
 :
@@ -451,8 +446,6 @@ task
 complete
 "
 {
-id
-:
 id
 error
 :

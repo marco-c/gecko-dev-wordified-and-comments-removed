@@ -193,8 +193,6 @@ spawn
 "
 {
 id
-:
-id
 runnable
 :
 task
@@ -202,8 +200,6 @@ task
 toString
 (
 )
-arg
-:
 arg
 }
 )

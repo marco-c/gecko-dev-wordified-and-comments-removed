@@ -24,9 +24,9 @@ document
 .
 getElementById
 (
-'
+"
 out
-'
+"
 )
 .
 textContent
@@ -78,6 +78,7 @@ event
 clientY
 ;
 '
+;
 const
 url
 =

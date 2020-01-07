@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 function
 isDOMLoaded
@@ -61,7 +61,7 @@ BrowserTestUtils
 addTab
 (
 gBrowser
-'
+"
 http
 :
 /
@@ -69,7 +69,7 @@ http
 example
 .
 com
-'
+"
 )
 ;
 let
@@ -197,7 +197,7 @@ b
 let
 expected
 =
-'
+"
 Expected
 all
 promised
@@ -206,7 +206,7 @@ to
 have
 loaded
 .
-'
+"
 ;
 for
 (

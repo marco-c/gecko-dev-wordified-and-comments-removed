@@ -132,9 +132,9 @@ appinfo
 OS
 =
 =
-'
+"
 Android
-'
+"
 )
 {
 window
@@ -205,8 +205,6 @@ promiseResolver
 :
 null
 init
-:
-function
 (
 )
 {
@@ -244,8 +242,6 @@ disconnect
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -283,8 +279,6 @@ disconnect
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -364,8 +358,6 @@ promiseResolver
 }
 }
 wait
-:
-function
 (
 )
 {
@@ -1661,6 +1653,7 @@ binding
 :
 null
 }
+;
 }
 function
 immediateSelector
@@ -6998,8 +6991,6 @@ allowFailure
 return
 ;
 }
-else
-{
 currentTest
 .
 addResult
@@ -7057,7 +7048,6 @@ allowFailure
 )
 )
 ;
-}
 }
 PromiseTestUtils
 .
@@ -7540,8 +7530,6 @@ gTimeoutSeconds
 }
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -8250,8 +8238,6 @@ dispatchToMainThread
 (
 {
 run
-:
-function
 (
 )
 {
@@ -8667,6 +8653,7 @@ activateBuffering
 ;
 }
 )
+;
 }
 ;
 if
@@ -8909,8 +8896,6 @@ sandbox
 ;
 }
 add_task
-:
-function
 (
 aFunction
 )
