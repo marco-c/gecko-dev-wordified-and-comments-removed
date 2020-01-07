@@ -62,12 +62,11 @@ MPL
 <
 !
 ENTITY
-window1
+window2
 .
 title
 "
-Settings
--
+Manage
 Cookies
 and
 Site

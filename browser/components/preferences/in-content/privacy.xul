@@ -2233,7 +2233,7 @@ label
 =
 "
 &
-siteDataSettings
+siteDataSettings1
 .
 label
 ;
@@ -2242,7 +2242,7 @@ accesskey
 =
 "
 &
-siteDataSettings
+siteDataSettings1
 .
 accesskey
 ;
@@ -2251,7 +2251,7 @@ searchkeywords
 =
 "
 &
-window1
+window2
 .
 title
 ;
