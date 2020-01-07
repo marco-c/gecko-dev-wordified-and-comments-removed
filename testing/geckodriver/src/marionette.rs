@@ -4450,7 +4450,7 @@ process
 if
 runner
 .
-stop
+kill
 (
 )
 .
