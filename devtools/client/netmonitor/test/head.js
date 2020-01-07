@@ -5122,8 +5122,8 @@ aligned
 ;
 }
 }
+async
 function
-*
 hideColumn
 (
 monitor
@@ -5226,7 +5226,7 @@ click
 (
 )
 ;
-yield
+await
 onHeaderRemoved
 ;
 ok
@@ -5257,8 +5257,8 @@ hidden
 )
 ;
 }
+async
 function
-*
 showColumn
 (
 monitor
@@ -5361,7 +5361,7 @@ click
 (
 )
 ;
-yield
+await
 onHeaderAdded
 ;
 ok

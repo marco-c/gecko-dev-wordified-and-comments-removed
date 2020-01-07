@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -15,7 +15,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -72,6 +72,7 @@ Prefs
 .
 visibleColumns
 ;
+await
 hideColumn
 (
 monitor
@@ -80,6 +81,7 @@ status
 "
 )
 ;
+await
 hideColumn
 (
 monitor
