@@ -766,9 +766,9 @@ function
 {
 doc
 =
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 ;
 runTests
 (

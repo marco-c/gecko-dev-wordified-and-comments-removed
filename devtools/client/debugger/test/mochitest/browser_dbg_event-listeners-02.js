@@ -544,9 +544,9 @@ window
 "
 |
 |
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 .
 querySelectorAll
 (

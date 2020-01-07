@@ -343,9 +343,9 @@ ID
 '
 )
 "
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 .
 getElementById
 (

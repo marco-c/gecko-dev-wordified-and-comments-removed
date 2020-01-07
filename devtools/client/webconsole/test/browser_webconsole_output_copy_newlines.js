@@ -94,9 +94,7 @@ disabled
 "
 )
 ;
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 console
 .
@@ -110,9 +108,7 @@ bug916997a
 "
 )
 ;
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 console
 .

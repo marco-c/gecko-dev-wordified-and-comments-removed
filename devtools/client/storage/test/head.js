@@ -342,7 +342,7 @@ tab
 .
 linkedBrowser
 .
-contentWindowAsCPOW
+contentWindow
 ;
 gWindow
 =

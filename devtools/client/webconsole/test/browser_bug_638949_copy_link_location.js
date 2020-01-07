@@ -158,9 +158,7 @@ clearOutput
 (
 )
 ;
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 console
 .
@@ -289,7 +287,9 @@ clearOutput
 (
 )
 ;
-gBrowser
+content
+.
+location
 .
 reload
 (

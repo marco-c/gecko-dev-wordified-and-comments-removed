@@ -198,11 +198,10 @@ in
 "
 )
 ;
-BrowserTestUtils
-.
-addContentEventListener
-(
 gTestBrowser
+.
+addEventListener
+(
 "
 PluginBindingAttached
 "
@@ -216,7 +215,6 @@ gNumPluginBindingsAttached
 ;
 }
 true
-null
 true
 )
 ;

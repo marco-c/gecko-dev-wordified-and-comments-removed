@@ -231,7 +231,7 @@ tab
 .
 linkedBrowser
 .
-contentWindowAsCPOW
+contentWindow
 ;
 let
 message
