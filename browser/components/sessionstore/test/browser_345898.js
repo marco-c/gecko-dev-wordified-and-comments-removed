@@ -76,7 +76,7 @@ getTabState
 }
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 /
 "
 Invalid
@@ -107,7 +107,7 @@ setTabState
 "
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 /
 "
 Invalid
@@ -146,7 +146,7 @@ entries
 )
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 /
 "
 Invalid
@@ -175,7 +175,7 @@ duplicateTab
 }
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 /
 "
 Invalid

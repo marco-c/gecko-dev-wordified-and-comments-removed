@@ -131,11 +131,6 @@ nsISessionStartup
 idl
 '
 '
-nsISessionStore
-.
-idl
-'
-'
 nsISessionStoreUtils
 .
 idl
@@ -156,12 +151,7 @@ nsSessionStartup
 js
 '
 '
-nsSessionStore
-.
-js
-'
-'
-nsSessionStore
+nsSessionStartup
 .
 manifest
 '

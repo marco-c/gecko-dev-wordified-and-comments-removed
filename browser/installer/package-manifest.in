@@ -1449,7 +1449,7 @@ browser
 /
 components
 /
-nsSessionStore
+nsSessionStartup
 .
 manifest
 RESPATH
@@ -1459,15 +1459,6 @@ browser
 components
 /
 nsSessionStartup
-.
-js
-RESPATH
-/
-browser
-/
-components
-/
-nsSessionStore
 .
 js
 RESPATH
