@@ -174,11 +174,6 @@ attribute
 boolean
 collapsed
 ;
-readonly
-attribute
-nsIDOMNode
-commonAncestorContainer
-;
 void
 setStart
 (

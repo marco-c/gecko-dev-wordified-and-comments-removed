@@ -258,7 +258,7 @@ aPresShell
 nsPresContext
 *
 aPresContext
-nsIDOMRange
+nsRange
 *
 aRange
 )
