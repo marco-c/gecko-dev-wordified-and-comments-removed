@@ -1,6 +1,14 @@
 AllowCompilerWarnings
 (
 )
+if
+CONFIG
+[
+'
+INTEL_ARCHITECTURE
+'
+]
+:
 CXXFLAGS
 +
 =
