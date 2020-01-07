@@ -547,9 +547,9 @@ file
 Out
 -
 File
-%
-SystemRoot
-%
+env
+:
+systemroot
 \
 System32
 \
