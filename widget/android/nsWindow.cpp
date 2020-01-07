@@ -5585,15 +5585,15 @@ Object
 :
 :
 Param
-aView
+aSession
 )
 {
 const
 auto
 &
-layerView
+session
 =
-LayerView
+LayerSession
 :
 :
 Ref
@@ -5601,7 +5601,7 @@ Ref
 :
 From
 (
-aView
+aSession
 )
 ;
 LayerSession
@@ -5613,7 +5613,7 @@ Compositor
 LocalRef
 compositor
 =
-layerView
+session
 -
 >
 GetCompositor
@@ -5687,7 +5687,7 @@ Object
 :
 :
 Param
-aView
+aSession
 )
 {
 LayerViewSupport
@@ -5697,7 +5697,7 @@ lvs
 =
 GetLayerViewSupport
 (
-aView
+aSession
 )
 ;
 if
@@ -5735,7 +5735,7 @@ Object
 :
 :
 Param
-aView
+aSession
 jni
 :
 :
@@ -5757,7 +5757,7 @@ lvs
 =
 GetLayerViewSupport
 (
-aView
+aSession
 )
 ;
 if
