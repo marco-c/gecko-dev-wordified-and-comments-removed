@@ -1830,6 +1830,8 @@ rv
 rv
 )
 ;
+if
+(
 nsIDocument
 *
 doc
@@ -1837,10 +1839,6 @@ doc
 GetComposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 auto
