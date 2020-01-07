@@ -2375,6 +2375,11 @@ anchorID
 {
 return
 "
+midi
+-
+notification
+-
+icon
 "
 ;
 }
