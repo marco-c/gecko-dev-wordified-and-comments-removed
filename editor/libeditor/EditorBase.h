@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIEditor
 .
 h

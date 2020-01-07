@@ -3216,6 +3216,7 @@ NODE_IS_EDITABLE
 ;
 }
 }
+inline
 bool
 IsEditable
 (
