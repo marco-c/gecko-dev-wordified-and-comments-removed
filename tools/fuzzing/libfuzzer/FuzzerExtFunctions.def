@@ -431,6 +431,15 @@ false
 ;
 EXT_FUNC
 (
+__sanitizer_purge_allocator
+void
+(
+)
+false
+)
+;
+EXT_FUNC
+(
 __sanitizer_print_memory_profile
 int
 (

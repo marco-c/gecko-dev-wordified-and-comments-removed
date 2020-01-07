@@ -356,10 +356,7 @@ Dir
 long
 *
 Epoch
-std
-:
-:
-vector
+Vector
 <
 std
 :

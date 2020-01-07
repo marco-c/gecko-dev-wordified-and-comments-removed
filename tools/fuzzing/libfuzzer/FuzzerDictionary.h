@@ -685,10 +685,7 @@ std
 string
 &
 Text
-std
-:
-:
-vector
+Vector
 <
 Unit
 >

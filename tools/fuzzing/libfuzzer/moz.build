@@ -114,6 +114,11 @@ SOURCES
 =
 [
 '
+FuzzerClangCounters
+.
+cpp
+'
+'
 FuzzerCrossOver
 .
 cpp
@@ -195,11 +200,6 @@ cpp
 '
 '
 FuzzerTracePC
-.
-cpp
-'
-'
-FuzzerTraceState
 .
 cpp
 '

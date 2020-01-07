@@ -8,6 +8,12 @@ h
 #
 if
 LIBFUZZER_LINUX
+|
+|
+LIBFUZZER_NETBSD
+|
+|
+LIBFUZZER_FREEBSD
 __attribute__
 (
 (
