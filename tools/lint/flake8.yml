@@ -64,6 +64,16 @@ mozboot
 -
 python
 /
+mozbuild
+/
+mozpack
+/
+path
+.
+py
+-
+python
+/
 mozlint
 -
 python
