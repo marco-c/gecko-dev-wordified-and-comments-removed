@@ -149,9 +149,6 @@ const
 TrackInfo
 &
 aTrackInfo
-TaskQueue
-*
-aTaskQueue
 layers
 :
 :
@@ -465,12 +462,6 @@ RefPtr
 TaskQueue
 >
 mOmxTaskQueue
-;
-RefPtr
-<
-TaskQueue
->
-mTaskQueue
 ;
 RefPtr
 <
