@@ -887,6 +887,16 @@ rule
 pub
 trait
 StylesheetInDocument
+:
+:
+:
+std
+:
+:
+fmt
+:
+:
+Debug
 {
 fn
 origin
@@ -1392,6 +1402,7 @@ guard
 derive
 (
 Clone
+Debug
 )
 ]
 #

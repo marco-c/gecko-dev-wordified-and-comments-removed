@@ -2708,6 +2708,16 @@ nsCString
 spec
 )
 ;
+void
+Gecko_nsIURI_Debug
+(
+nsIURI
+*
+nsCString
+*
+spec
+)
+;
 NS_DECL_THREADSAFE_FFI_REFCOUNTING
 (
 mozilla
