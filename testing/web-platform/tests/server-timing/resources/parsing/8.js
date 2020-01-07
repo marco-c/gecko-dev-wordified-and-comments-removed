@@ -3,8 +3,6 @@ testServerTiming
 document
 .
 currentScript
-.
-src
 [
 {
 "
