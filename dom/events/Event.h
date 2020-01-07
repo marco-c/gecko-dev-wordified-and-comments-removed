@@ -135,6 +135,9 @@ class
 BeforeUnloadEvent
 ;
 class
+CustomEvent
+;
+class
 DragEvent
 ;
 class
@@ -482,6 +485,17 @@ virtual
 UIEvent
 *
 AsUIEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+CustomEvent
+*
+AsCustomEvent
 (
 )
 {

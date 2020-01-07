@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMCustomEvent
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

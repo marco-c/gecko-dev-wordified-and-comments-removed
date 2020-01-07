@@ -181,9 +181,6 @@ specific
 deprecated
 method
 .
-[
-Throws
-]
 void
 initCustomEvent
 (
