@@ -99,11 +99,6 @@ nsIPrintProgressParams
 .
 idl
 '
-'
-nsIPrintStatusFeedback
-.
-idl
-'
 ]
 EXPORTS
 .
