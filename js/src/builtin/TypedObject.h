@@ -61,6 +61,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 template
 <
 typename
@@ -3545,8 +3548,12 @@ cx
 JS
 :
 :
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 }

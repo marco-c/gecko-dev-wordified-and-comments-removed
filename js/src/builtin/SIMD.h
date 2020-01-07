@@ -5901,6 +5901,9 @@ fromUint32x4
 namespace
 js
 {
+class
+GlobalObject
+;
 enum
 class
 SimdType
@@ -7307,8 +7310,12 @@ InitSimdClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 namespace

@@ -26,6 +26,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 BooleanObject
 :
 public
@@ -120,7 +123,11 @@ cx
 js
 :
 :
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 global
 )
 ;

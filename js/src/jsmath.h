@@ -38,6 +38,9 @@ js
 struct
 Class
 ;
+class
+GlobalObject
+;
 typedef
 double
 (
@@ -446,8 +449,12 @@ InitMathClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 extern

@@ -26,6 +26,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 WeakCollectionObject
 :
 public
@@ -102,8 +105,12 @@ InitWeakMapClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 }

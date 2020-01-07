@@ -98,6 +98,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 extern
 JSObject
 *
@@ -106,8 +109,12 @@ InitStringClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 extern
