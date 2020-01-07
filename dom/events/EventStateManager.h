@@ -97,9 +97,6 @@ class
 imgIContainer
 ;
 class
-EnterLeaveDispatcher
-;
-class
 nsIContentViewer
 ;
 class
