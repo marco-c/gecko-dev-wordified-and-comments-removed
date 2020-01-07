@@ -9042,6 +9042,12 @@ formatterprofiles
 version
 =
 1
+removeTrailingWhitespace
+=
+true
+removeTrailingWhitespaceEditedLines
+=
+true
 scalability
 .
 numberOfLines
