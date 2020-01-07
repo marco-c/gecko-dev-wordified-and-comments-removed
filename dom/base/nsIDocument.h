@@ -9021,6 +9021,11 @@ return
 mIsWebComponentsEnabled
 ;
 }
+bool
+ModuleScriptsEnabled
+(
+)
+;
 protected
 :
 bool

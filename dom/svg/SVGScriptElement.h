@@ -198,8 +198,11 @@ override
 ;
 virtual
 void
-FreezeUriAsyncDefer
+FreezeExecutionAttrs
 (
+nsIDocument
+*
+aOwnerDoc
 )
 override
 ;
