@@ -20791,6 +20791,24 @@ options
 quiet
 )
     
+if
+hasattr
+(
+options
+'
+log
+'
+)
+:
+        
+delattr
+(
+options
+'
+log
+'
+)
+    
 options
 .
 runByManifest
