@@ -729,18 +729,9 @@ xpi
 with
 self
 .
-assertRaisesRegexp
+assertRaises
 (
 AddonInstallException
-"
-Could
-not
-find
-add
--
-on
-at
-"
 )
 :
             
@@ -763,17 +754,9 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaises
 (
 AddonInstallException
-"
-is
-not
-an
-absolute
-path
-.
-"
 )
 :
             
