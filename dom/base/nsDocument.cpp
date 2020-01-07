@@ -6820,6 +6820,11 @@ nsINode
 (
 nullNodeInfo
 )
+StyleScope
+(
+*
+this
+)
 mReferrerPolicySet
 (
 false
