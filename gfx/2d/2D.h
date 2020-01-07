@@ -3954,6 +3954,17 @@ mPermitSubpixelAA
 }
 virtual
 void
+FlushItem
+(
+const
+IntRect
+&
+aBounds
+)
+{
+}
+virtual
+void
 DetachAllSnapshots
 (
 )

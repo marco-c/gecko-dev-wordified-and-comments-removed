@@ -162,6 +162,17 @@ Flush
 }
 virtual
 void
+FlushItem
+(
+const
+IntRect
+&
+aBounds
+)
+override
+;
+virtual
+void
 DrawSurface
 (
 SourceSurface

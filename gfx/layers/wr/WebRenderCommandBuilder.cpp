@@ -3525,6 +3525,14 @@ FlushItem
 (
 IntRect
 (
+0
+0
+paintSize
+.
+width
+paintSize
+.
+height
 )
 )
 ;
