@@ -108,6 +108,9 @@ dom
 class
 NodeInfo
 ;
+class
+ProcessingInstruction
+;
 }
 }
 typedef
@@ -560,11 +563,8 @@ FlushTags
 }
 virtual
 nsresult
-ProcessStyleLink
+ProcessStyleLinkFromHeader
 (
-nsIContent
-*
-aElement
 const
 nsAString
 &
@@ -594,7 +594,13 @@ virtual
 nsresult
 MaybeProcessXSLTLink
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+ProcessingInstruction
 *
 aProcessingInstruction
 const

@@ -2975,11 +2975,8 @@ nsresult
 nsXMLContentSink
 :
 :
-ProcessStyleLink
+ProcessStyleLinkFromHeader
 (
-nsIContent
-*
-aElement
 const
 nsAString
 &
@@ -3045,7 +3042,7 @@ rv
 =
 MaybeProcessXSLTLink
 (
-aElement
+nullptr
 aHref
 aAlternate
 aType
@@ -3075,9 +3072,8 @@ return
 nsContentSink
 :
 :
-ProcessStyleLink
+ProcessStyleLinkFromHeader
 (
-aElement
 aHref
 aAlternate
 aTitle
@@ -3093,7 +3089,7 @@ nsXMLContentSink
 :
 MaybeProcessXSLTLink
 (
-nsIContent
+ProcessingInstruction
 *
 aProcessingInstruction
 const
@@ -3294,7 +3290,10 @@ mDocument
 NodePrincipal
 (
 )
+ToSupports
+(
 aProcessingInstruction
+)
 NS_ConvertUTF16toUTF8
 (
 aType
