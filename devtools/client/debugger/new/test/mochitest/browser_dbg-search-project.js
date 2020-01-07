@@ -322,12 +322,7 @@ ok
 (
 selectedSource
 .
-get
-(
-"
 url
-"
-)
 .
 includes
 (

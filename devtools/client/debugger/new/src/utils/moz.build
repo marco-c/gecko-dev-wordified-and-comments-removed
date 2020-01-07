@@ -223,6 +223,11 @@ task
 js
 '
 '
+telemetry
+.
+js
+'
+'
 text
 .
 js

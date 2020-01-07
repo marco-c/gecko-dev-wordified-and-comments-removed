@@ -1366,12 +1366,7 @@ _getState
 )
 )
 .
-get
-(
-"
 url
-"
-)
 url
 "
 expected
