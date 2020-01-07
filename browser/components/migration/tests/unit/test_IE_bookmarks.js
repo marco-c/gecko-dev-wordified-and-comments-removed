@@ -13,6 +13,7 @@ function
 let
 migrator
 =
+await
 MigrationUtils
 .
 getMigrator
@@ -26,9 +27,12 @@ Assert
 .
 ok
 (
+await
 migrator
 .
-sourceExists
+isSourceAvailable
+(
+)
 )
 ;
 let

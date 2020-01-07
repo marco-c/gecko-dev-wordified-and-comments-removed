@@ -297,6 +297,7 @@ updateAppInfo
 (
 )
 ;
+async
 function
 promiseMigration
 (
@@ -310,6 +311,7 @@ null
 let
 availableSources
 =
+await
 migrator
 .
 getMigrateData
