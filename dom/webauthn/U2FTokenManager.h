@@ -15,6 +15,17 @@ U2FTokenTransport
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PWebAuthnTransaction
+.
+h
+"
 namespace
 mozilla
 {
@@ -146,7 +157,8 @@ const
 uint64_t
 &
 aTransactionId
-U2FRegisterResult
+const
+WebAuthnMakeCredentialResult
 &
 aResult
 )
@@ -171,7 +183,8 @@ const
 uint64_t
 &
 aTransactionId
-U2FSignResult
+const
+WebAuthnGetAssertionResult
 &
 aResult
 )
