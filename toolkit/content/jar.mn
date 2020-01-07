@@ -345,14 +345,6 @@ global
 editMenuOverlay
 .
 js
-*
-content
-/
-global
-/
-editMenuOverlay
-.
-xul
 #
 endif
 content
