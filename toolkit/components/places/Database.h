@@ -651,8 +651,11 @@ CheckRoots
 )
 ;
 nsresult
-CreateBookmarkRoots
+EnsureBookmarkRoots
 (
+const
+int32_t
+startPosition
 )
 ;
 nsresult
