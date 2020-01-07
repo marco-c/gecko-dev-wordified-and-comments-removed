@@ -10553,6 +10553,9 @@ byteLength
 (
 )
 ;
+return
+true
+;
 }
 if
 (
