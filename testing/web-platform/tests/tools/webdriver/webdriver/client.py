@@ -2354,9 +2354,15 @@ timeout
         
 self
 .
-capabilities
+requested_capabilities
 =
 capabilities
+        
+self
+.
+capabilities
+=
+None
         
 self
 .
@@ -2587,7 +2593,7 @@ body
 if
 self
 .
-capabilities
+requested_capabilities
 is
 not
 None
@@ -2602,7 +2608,7 @@ capabilities
 =
 self
 .
-capabilities
+requested_capabilities
         
 value
 =
