@@ -5984,6 +5984,13 @@ Http2Session
 :
 kBackgroundGroupID
 ;
+nsHttp
+:
+:
+NotifyActiveTabLoadOptimization
+(
+)
+;
 }
 LOG3
 (
@@ -6127,6 +6134,13 @@ n
 "
 this
 )
+)
+;
+nsHttp
+:
+:
+NotifyActiveTabLoadOptimization
+(
 )
 ;
 }

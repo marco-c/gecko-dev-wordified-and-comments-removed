@@ -331,6 +331,8 @@ nsresult
 channelStatus
 ResourceTimingStruct
 timing
+TimeStamp
+lastActiveTabOptimization
 )
 ;
 async

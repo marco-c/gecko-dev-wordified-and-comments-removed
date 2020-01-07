@@ -722,6 +722,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+TimeStamp
+&
+aLastActiveTabOptHit
 )
 {
 LOG
@@ -750,6 +754,14 @@ MOZ_ASSERT
 OnSocketThread
 (
 )
+)
+;
+nsHttp
+:
+:
+SetLastActiveTabLoadOptimizationHit
+(
+aLastActiveTabOptHit
 )
 ;
 if
@@ -813,6 +825,8 @@ const
 nsresult
 const
 ResourceTimingStruct
+const
+TimeStamp
 >
 (
 "
@@ -829,6 +843,7 @@ HttpBackgroundChannelChild
 RecvOnStopRequest
 aChannelStatus
 aTiming
+aLastActiveTabOptHit
 )
 )
 ;
