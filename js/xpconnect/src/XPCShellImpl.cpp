@@ -2863,8 +2863,8 @@ isUndefined
 return
 true
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 &
@@ -7123,8 +7123,8 @@ SetGlobalObject
 glob
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 glob

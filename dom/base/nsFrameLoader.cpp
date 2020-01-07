@@ -8184,8 +8184,8 @@ if
 wrapper
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 jsapi
 .

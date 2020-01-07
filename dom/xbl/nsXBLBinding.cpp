@@ -3115,8 +3115,8 @@ if
 scriptObject
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scriptObject
@@ -3696,8 +3696,8 @@ cx
 proto
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope
@@ -4097,8 +4097,8 @@ parent_proto
 }
 else
 {
-JSAutoCompartment
-innerAC
+JSAutoRealm
+innerAR
 (
 cx
 xblScope
@@ -4138,8 +4138,8 @@ holder
 xblScope
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 holder
@@ -4255,8 +4255,8 @@ aProtoBinding
 }
 else
 {
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 global
@@ -4319,8 +4319,8 @@ aProtoBinding
 )
 )
 ;
-JSAutoCompartment
-ac3
+JSAutoRealm
+ar3
 (
 cx
 holder
@@ -4361,8 +4361,8 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-JSAutoCompartment
-ac4
+JSAutoRealm
+ar4
 (
 cx
 obj
@@ -4673,8 +4673,8 @@ xblScope
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 xblScope

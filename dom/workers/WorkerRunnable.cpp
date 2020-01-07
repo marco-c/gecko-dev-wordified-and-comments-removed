@@ -1310,9 +1310,9 @@ globalObject
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1450,7 +1450,7 @@ compartment
 "
 )
 ;
-ac
+ar
 .
 emplace
 (

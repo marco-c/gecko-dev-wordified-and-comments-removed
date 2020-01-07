@@ -130,7 +130,7 @@ cx
 )
 ;
 {
-JSAutoCompartment
+JSAutoRealm
 a
 (
 cx
@@ -209,7 +209,7 @@ fun
 ;
 }
 {
-JSAutoCompartment
+JSAutoRealm
 b
 (
 cx
@@ -478,7 +478,7 @@ cx
 )
 ;
 {
-JSAutoCompartment
+JSAutoRealm
 a
 (
 cx
@@ -591,7 +591,7 @@ fun
 ;
 }
 {
-JSAutoCompartment
+JSAutoRealm
 b
 (
 cx

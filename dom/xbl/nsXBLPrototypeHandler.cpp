@@ -1588,8 +1588,8 @@ scopeObject
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeObject
@@ -1993,8 +1993,8 @@ argCount
 argNames
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeObject
@@ -2079,8 +2079,8 @@ handlerFun
 NS_ERROR_FAILURE
 )
 ;
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 globalObject

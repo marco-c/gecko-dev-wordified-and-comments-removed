@@ -1682,8 +1682,8 @@ protoKey
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target
@@ -2256,8 +2256,8 @@ protop
 )
 {
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target

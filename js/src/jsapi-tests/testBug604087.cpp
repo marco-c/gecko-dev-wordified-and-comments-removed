@@ -74,8 +74,8 @@ HandleObject
 target
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target
@@ -514,8 +514,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 compartment2

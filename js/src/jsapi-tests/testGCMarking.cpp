@@ -217,8 +217,8 @@ false
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2

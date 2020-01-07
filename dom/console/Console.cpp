@@ -2565,8 +2565,8 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -2969,8 +2969,8 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -3555,8 +3555,8 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -8324,8 +8324,8 @@ mCountValue
 )
 ;
 }
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 aCx
 targetScope
@@ -12099,8 +12099,8 @@ i
 mGlobal
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 sequenceScope

@@ -3446,8 +3446,8 @@ this
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 constructor
@@ -3551,8 +3551,8 @@ return
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 constructorProtoUnwrapped
@@ -3638,8 +3638,8 @@ WasPassed
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 constructor

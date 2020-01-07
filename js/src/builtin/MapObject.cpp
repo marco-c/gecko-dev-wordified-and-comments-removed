@@ -9420,8 +9420,8 @@ UncheckedUnwrap
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -9492,8 +9492,8 @@ UncheckedUnwrap
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -9598,8 +9598,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -9749,8 +9749,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -9875,8 +9875,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -10284,8 +10284,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj

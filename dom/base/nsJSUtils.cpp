@@ -662,7 +662,7 @@ __LINE__
 js
 :
 :
-ProfilingStackFrame
+ProfileEntry
 :
 :
 Category
@@ -676,7 +676,7 @@ mCx
 (
 aCx
 )
-mCompartment
+mRealm
 (
 aCx
 aGlobal

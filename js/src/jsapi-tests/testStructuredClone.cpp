@@ -80,8 +80,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g1
@@ -150,8 +150,8 @@ prop
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g2
@@ -316,8 +316,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g1
@@ -377,8 +377,8 @@ toString
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g2
@@ -523,8 +523,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g1
@@ -591,8 +591,8 @@ isObject
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g2
@@ -1535,8 +1535,8 @@ CHECK
 g
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g

@@ -2636,8 +2636,8 @@ return
 nullptr
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeForTargetObjects
@@ -2655,8 +2655,8 @@ hasXrayWaiver
 )
 {
 {
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 obj

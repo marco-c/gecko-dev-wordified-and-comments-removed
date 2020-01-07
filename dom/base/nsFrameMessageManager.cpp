@@ -5180,8 +5180,8 @@ PrivilegedJunkScope
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

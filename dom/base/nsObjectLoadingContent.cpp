@@ -15353,8 +15353,8 @@ GetCurrentJSContext
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aObject
@@ -15603,8 +15603,8 @@ JSObject
 plugin_proto
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -15748,8 +15748,8 @@ proto
 cx
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

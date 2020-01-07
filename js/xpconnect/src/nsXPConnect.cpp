@@ -2185,8 +2185,8 @@ global
 return
 nullptr
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -2468,8 +2468,8 @@ uint32_t
 aFlags
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aJSContext
 aGlobal
@@ -2757,8 +2757,8 @@ aVal
 AutoJSContext
 cx
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aScope
@@ -3081,8 +3081,8 @@ aJSContext
 aJSObjArg
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aJSContext
 aJSObj
@@ -3711,8 +3711,8 @@ aJSContext
 aScopeArg
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aJSContext
 aScope

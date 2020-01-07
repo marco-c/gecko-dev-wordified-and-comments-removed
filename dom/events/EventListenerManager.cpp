@@ -4912,8 +4912,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 wrapScope
@@ -4969,8 +4969,8 @@ toObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target

@@ -1444,8 +1444,8 @@ UncheckedUnwrap
 exnObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 exnObj
@@ -2363,8 +2363,8 @@ GetCurrentThreadWorkerGlobal
 ;
 }
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 (
@@ -3644,8 +3644,8 @@ if
 mIsMainThread
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 (

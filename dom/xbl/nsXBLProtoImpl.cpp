@@ -351,8 +351,8 @@ scopeObject
 scopeObject
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeObject
@@ -720,8 +720,8 @@ NS_ERROR_UNEXPECTED
 }
 }
 }
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 targetClassObject
@@ -890,8 +890,8 @@ v
 cx
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -963,8 +963,8 @@ toObject
 )
 )
 ;
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 value

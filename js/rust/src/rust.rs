@@ -3670,7 +3670,7 @@ next
 impl
 Drop
 for
-JSAutoCompartment
+JSAutoRealm
 {
 fn
 drop

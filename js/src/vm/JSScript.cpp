@@ -25653,8 +25653,8 @@ nonLazyScript
 }
 else
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx_
 fun

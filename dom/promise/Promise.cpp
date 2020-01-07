@@ -479,8 +479,8 @@ ErrorResult
 aRv
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aGlobal
@@ -568,8 +568,8 @@ ErrorResult
 aRv
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aGlobal

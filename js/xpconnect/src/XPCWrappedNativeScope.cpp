@@ -1333,8 +1333,8 @@ cx
 contentScopeArg
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 contentScope

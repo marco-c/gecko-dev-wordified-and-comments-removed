@@ -1230,8 +1230,8 @@ aCx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

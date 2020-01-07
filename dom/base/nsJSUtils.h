@@ -219,8 +219,8 @@ JSContext
 *
 mCx
 ;
-JSAutoCompartment
-mCompartment
+JSAutoRealm
+mRealm
 ;
 JS
 :

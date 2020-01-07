@@ -1153,8 +1153,8 @@ CHECK
 global2
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2

@@ -209,10 +209,10 @@ JSContext
 aCx
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
 &
-aAc
+aAr
 JS
 :
 :

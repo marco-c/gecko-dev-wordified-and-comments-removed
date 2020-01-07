@@ -3879,8 +3879,8 @@ Obj
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 obj

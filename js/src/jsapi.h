@@ -4673,7 +4673,7 @@ class
 MOZ_RAII
 JS_PUBLIC_API
 (
-JSAutoCompartment
+JSAutoRealm
 )
 {
 JSContext
@@ -4686,7 +4686,7 @@ oldCompartment_
 ;
 public
 :
-JSAutoCompartment
+JSAutoRealm
 (
 JSContext
 *
@@ -4697,7 +4697,7 @@ target
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
-JSAutoCompartment
+JSAutoRealm
 (
 JSContext
 *
@@ -4709,7 +4709,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
-JSAutoCompartment
+JSAutoRealm
 (
 )
 ;

@@ -1260,9 +1260,9 @@ autoJS
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1277,7 +1277,7 @@ Init
 (
 )
 ;
-ac
+ar
 .
 emplace
 (

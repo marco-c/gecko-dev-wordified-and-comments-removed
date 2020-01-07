@@ -348,8 +348,8 @@ HandleObject
 aGlobalObject
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aGlobalObject

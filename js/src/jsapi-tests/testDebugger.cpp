@@ -70,7 +70,7 @@ g
 )
 ;
 {
-JSAutoCompartment
+JSAutoRealm
 ae
 (
 cx
@@ -237,7 +237,7 @@ hits
 )
 ;
 {
-JSAutoCompartment
+JSAutoRealm
 ae
 (
 cx

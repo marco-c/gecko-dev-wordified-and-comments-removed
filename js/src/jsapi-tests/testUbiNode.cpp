@@ -575,8 +575,8 @@ script1
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2
@@ -922,8 +922,8 @@ script1
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2

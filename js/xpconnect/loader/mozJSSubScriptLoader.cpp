@@ -1182,8 +1182,8 @@ setUndefined
 ;
 }
 }
-JSAutoCompartment
-rac
+JSAutoRealm
+rar
 (
 cx
 targetObj
@@ -1267,8 +1267,8 @@ if
 startupCache
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 script
@@ -2710,8 +2710,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 targetObj

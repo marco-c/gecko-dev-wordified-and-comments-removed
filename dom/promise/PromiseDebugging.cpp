@@ -1512,8 +1512,8 @@ IgnoreErrors
 )
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 promise

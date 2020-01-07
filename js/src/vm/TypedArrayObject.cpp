@@ -4438,8 +4438,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedBuffer
@@ -5814,8 +5814,8 @@ return
 nullptr
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrapped

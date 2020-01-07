@@ -2554,8 +2554,8 @@ isObject
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 &

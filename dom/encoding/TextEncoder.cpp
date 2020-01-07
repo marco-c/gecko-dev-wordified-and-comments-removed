@@ -113,8 +113,8 @@ rv
 return
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aObj

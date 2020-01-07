@@ -813,8 +813,8 @@ return
 NS_ERROR_TYPE_ERR
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sandbox

@@ -2626,8 +2626,8 @@ xblScope
 NS_ERROR_UNEXPECTED
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 xblScope

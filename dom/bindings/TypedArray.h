@@ -514,9 +514,9 @@ cx
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -535,7 +535,7 @@ GetWrapperPreserveColor
 )
 )
 {
-ac
+ar
 .
 emplace
 (

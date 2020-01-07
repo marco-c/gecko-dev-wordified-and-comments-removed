@@ -178,8 +178,8 @@ InitGlobals
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global1
@@ -3045,8 +3045,8 @@ cx
 target
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2

@@ -4522,9 +4522,9 @@ AssertIsOnWorkerThread
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -4578,7 +4578,7 @@ NS_ERROR_INVALID_ARG
 return
 ;
 }
-ac
+ar
 .
 emplace
 (

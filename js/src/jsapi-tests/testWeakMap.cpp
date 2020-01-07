@@ -411,8 +411,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 delegate
@@ -886,8 +886,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 destZone
@@ -910,8 +910,8 @@ nullptr
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sourceZone

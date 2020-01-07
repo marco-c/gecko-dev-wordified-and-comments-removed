@@ -25182,8 +25182,8 @@ true
             
 }
             
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global
@@ -26290,7 +26290,7 @@ so
 has
 a
 new
-compartment
+realm
 .
 Enter
 it
@@ -26304,8 +26304,8 @@ with
 it
 .
             
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aReflector
@@ -26966,8 +26966,8 @@ temp
 )
 ;
                 
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 obj
@@ -36542,7 +36542,7 @@ for
 our
 GlobalObject
 FastErrorResult
-JSAutoCompartment
+JSAutoRealm
               
 /
 /
@@ -36568,8 +36568,8 @@ cx
 getPromiseGlobal
 }
               
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 globalObj
@@ -51622,9 +51622,9 @@ CGGeneric
 "
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 \
 n
@@ -51639,7 +51639,7 @@ append
 CGGeneric
 (
 "
-ac
+ar
 .
 emplace
 (
@@ -52971,8 +52971,8 @@ conversionScope
 )
 ;
                   
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 conversionScope
@@ -53020,14 +53020,14 @@ store
 things
 in
 the
-compartment
+realm
 of
 our
 slotStorage
 .
                   
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 slotStorage
@@ -53056,7 +53056,8 @@ is
 in
 the
 caller
-compartment
+realm
+.
                 
 return
 {
@@ -73885,8 +73886,8 @@ deletes
 them
 .
               
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -78728,8 +78729,8 @@ proxy
 )
 ;
             
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 proxy
@@ -87324,8 +87325,8 @@ pass
 it
 .
                 
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 UnprivilegedJunkScopeOrWorkerGlobal
@@ -105518,8 +105519,8 @@ our
 chrome
 object
             
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 mImpl
@@ -114802,8 +114803,8 @@ side
 effects
 .
             
-JSAutoCompartment
-tempCompartment
+JSAutoRealm
+tempRealm
 (
 cx
 UnprivilegedJunkScopeOrWorkerGlobal
@@ -114921,8 +114922,8 @@ false
 )
 ;
             
-JSAutoCompartment
-reflectorCompartment
+JSAutoRealm
+reflectorRealm
 (
 cx
 obj

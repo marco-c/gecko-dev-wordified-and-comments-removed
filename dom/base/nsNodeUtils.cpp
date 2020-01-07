@@ -3213,8 +3213,8 @@ wrapper
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 wrapper

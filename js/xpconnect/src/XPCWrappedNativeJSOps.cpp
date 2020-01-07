@@ -726,8 +726,8 @@ IDX_WRAPPED_JSOBJECT
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 ccx
 mainObj

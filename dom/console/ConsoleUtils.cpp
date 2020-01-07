@@ -274,8 +274,8 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global

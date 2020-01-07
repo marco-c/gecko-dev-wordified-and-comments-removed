@@ -670,8 +670,8 @@ nsAutoJSString
 fieldName
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 callee
@@ -769,8 +769,8 @@ UncheckedUnwrap
 xblProto
 )
 ;
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 xblProto
@@ -1454,8 +1454,8 @@ found
 return
 NS_OK
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 scopeObject
@@ -1629,8 +1629,8 @@ id
 )
 )
 ;
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 aCx
 aTargetClassObject
@@ -2112,8 +2112,8 @@ ReportException
 )
 ;
 }
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 aBoundNode

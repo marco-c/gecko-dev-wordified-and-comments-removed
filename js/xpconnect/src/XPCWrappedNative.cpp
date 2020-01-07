@@ -773,8 +773,8 @@ global
 >
 scope
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -1324,9 +1324,9 @@ mozilla
 :
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1430,7 +1430,7 @@ XPCWrappedNative
 "
 )
 ;
-ac
+ar
 .
 emplace
 (
@@ -1590,7 +1590,7 @@ NS_OK
 }
 else
 {
-ac
+ar
 .
 emplace
 (

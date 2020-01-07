@@ -1920,8 +1920,8 @@ return
 false
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 globalScope
@@ -12852,7 +12852,7 @@ InitializeGCTimers
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
 workerCompartment
 ;
@@ -13231,8 +13231,8 @@ MOZ_ASSERT
 globalScope
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 globalScope
@@ -13279,8 +13279,8 @@ GlobalScope
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 GlobalScope
@@ -21184,8 +21184,8 @@ global
 nullptr
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global
@@ -21288,8 +21288,8 @@ global
 nullptr
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

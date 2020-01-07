@@ -49,8 +49,8 @@ newCompartment
 nullptr
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 newGlobal

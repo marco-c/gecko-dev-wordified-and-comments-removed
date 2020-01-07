@@ -1240,8 +1240,8 @@ allowed
 return
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -1371,9 +1371,9 @@ cx
 {
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1413,7 +1413,7 @@ cx
 return
 ;
 }
-ac
+ar
 .
 emplace
 (
@@ -2568,8 +2568,8 @@ aCx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 moduleExports
@@ -3826,9 +3826,9 @@ column
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 JS
 :
@@ -3851,7 +3851,7 @@ UncheckedUnwrap
 aStack
 )
 ;
-ac
+ar
 .
 emplace
 (

@@ -326,7 +326,7 @@ CHECK
 globalB
 )
 ;
-JSAutoCompartment
+JSAutoRealm
 enter
 (
 cx

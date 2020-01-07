@@ -381,8 +381,8 @@ NS_ERROR_FAILURE
 return
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 &
@@ -630,8 +630,8 @@ NS_ERROR_FAILURE
 return
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 &

@@ -35,7 +35,7 @@ pub
 struct
 AutoCompartment
 (
-JSAutoCompartment
+JSAutoRealm
 )
 ;
 impl
@@ -96,7 +96,7 @@ null_mut
 ;
 AutoCompartment
 (
-JSAutoCompartment
+JSAutoRealm
 :
 :
 new
@@ -149,7 +149,7 @@ AutoCompartment
 {
 AutoCompartment
 (
-JSAutoCompartment
+JSAutoRealm
 :
 :
 new
@@ -214,7 +214,7 @@ null_mut
 ;
 AutoCompartment
 (
-JSAutoCompartment
+JSAutoRealm
 :
 :
 new1
@@ -267,7 +267,7 @@ AutoCompartment
 {
 AutoCompartment
 (
-JSAutoCompartment
+JSAutoRealm
 :
 :
 new1

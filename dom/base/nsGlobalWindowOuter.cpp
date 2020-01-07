@@ -4516,8 +4516,8 @@ bool
 isChrome
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -7312,8 +7312,8 @@ JSObject
 aGlobal
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aGlobal
@@ -8739,8 +8739,8 @@ outerObject
 )
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 GetWrapperPreserveColor
@@ -8897,8 +8897,8 @@ NS_ERROR_FAILURE
 }
 }
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 GetWrapperPreserveColor
@@ -16175,8 +16175,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 GetWrapperPreserveColor
@@ -23373,8 +23373,8 @@ scope
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope
@@ -29340,8 +29340,8 @@ Cast
 sourceWindow
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sourceWin

@@ -4916,8 +4916,8 @@ T
 value
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -5137,9 +5137,9 @@ cx
 {
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 JS
 :
@@ -5199,7 +5199,7 @@ scope
 return
 false
 ;
-ac
+ar
 .
 emplace
 (
@@ -5386,9 +5386,9 @@ cx
 {
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 JS
 :
@@ -5448,7 +5448,7 @@ scope
 return
 false
 ;
-ac
+ar
 .
 emplace
 (
@@ -11207,8 +11207,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -13757,8 +13757,8 @@ return
 false
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aGlobal
@@ -14330,8 +14330,8 @@ return
 false
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 obj

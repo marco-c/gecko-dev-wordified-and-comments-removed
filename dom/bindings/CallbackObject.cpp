@@ -1044,7 +1044,7 @@ aExecutionReason
 )
 ;
 }
-mAc
+mAr
 .
 emplace
 (
@@ -1238,7 +1238,7 @@ CallSetup
 (
 )
 {
-mAc
+mAr
 .
 reset
 (
@@ -1500,8 +1500,8 @@ return
 nullptr
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 callback

@@ -5910,8 +5910,8 @@ PrivilegedJunkScope
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 junkScope

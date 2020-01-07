@@ -3619,7 +3619,7 @@ principals
 )
 )
 {
-ac_
+ar_
 .
 emplace
 (
@@ -3634,9 +3634,9 @@ private
 :
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac_
+ar_
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
@@ -6542,7 +6542,7 @@ true
 ;
 }
 AutoGeckoProfilerEntry
-labelFrame
+pseudoFrame
 (
 cx
 "

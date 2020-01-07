@@ -480,8 +480,8 @@ newGlobal
 return
 nullptr
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 newGlobal

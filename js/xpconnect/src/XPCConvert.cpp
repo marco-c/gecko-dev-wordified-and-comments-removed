@@ -4778,8 +4778,8 @@ param
 AutoJSContext
 cx
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 src

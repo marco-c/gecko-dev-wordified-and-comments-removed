@@ -349,8 +349,8 @@ if
 jsGlobal
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 jsGlobal

@@ -900,9 +900,9 @@ options
 {
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -913,7 +913,7 @@ isObject
 )
 )
 {
-ac
+ar
 .
 emplace
 (
@@ -1332,8 +1332,8 @@ thisObject
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedFun
@@ -1892,8 +1892,8 @@ false
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 targetScope
@@ -2261,8 +2261,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope

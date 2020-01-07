@@ -16730,9 +16730,9 @@ nullptr
 }
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -16759,7 +16759,7 @@ GetGlobalJSObject
 )
 )
 {
-ac
+ar
 .
 emplace
 (

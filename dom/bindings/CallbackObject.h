@@ -979,9 +979,9 @@ mAsyncStackSetter
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-mAc
+mAr
 ;
 ErrorResult
 &

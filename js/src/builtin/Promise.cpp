@@ -8452,8 +8452,8 @@ if
 unwrappedPromiseObj
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedPromiseObj
@@ -8650,8 +8650,8 @@ true
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 valuesArray
