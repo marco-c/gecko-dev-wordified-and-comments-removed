@@ -1304,6 +1304,8 @@ RestoreLastSession
 oncommand
 =
 "
+SessionStore
+.
 restoreLastSession
 (
 )
