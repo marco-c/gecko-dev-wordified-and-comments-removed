@@ -1799,7 +1799,7 @@ index
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aPreviousSibling
 )
@@ -1869,7 +1869,7 @@ newMenu
 aContainer
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aChild
 )
