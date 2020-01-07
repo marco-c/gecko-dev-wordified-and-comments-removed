@@ -48,6 +48,24 @@ js
 gc
 ;
 namespace
+js
+{
+struct
+GCManagedObjectWeakMap
+:
+public
+ObjectWeakMap
+{
+using
+ObjectWeakMap
+:
+:
+ObjectWeakMap
+;
+}
+;
+}
+namespace
 JS
 {
 template
@@ -59,7 +77,7 @@ DeletePolicy
 js
 :
 :
-ObjectWeakMap
+GCManagedObjectWeakMap
 >
 :
 public
@@ -71,7 +89,7 @@ GCManagedDeletePolicy
 js
 :
 :
-ObjectWeakMap
+GCManagedObjectWeakMap
 >
 {
 }
@@ -85,7 +103,7 @@ MapTypeToRootKind
 js
 :
 :
-ObjectWeakMap
+GCManagedObjectWeakMap
 *
 >
 {
@@ -116,7 +134,7 @@ GCPolicy
 js
 :
 :
-ObjectWeakMap
+GCManagedObjectWeakMap
 *
 >
 :
@@ -126,7 +144,7 @@ NonGCPointerPolicy
 js
 :
 :
-ObjectWeakMap
+GCManagedObjectWeakMap
 *
 >
 {
@@ -1439,7 +1457,7 @@ cx
 >
 make_unique
 <
-ObjectWeakMap
+GCManagedObjectWeakMap
 >
 (
 cx
@@ -1462,7 +1480,7 @@ init
 ;
 Rooted
 <
-ObjectWeakMap
+GCManagedObjectWeakMap
 *
 >
 rootMap

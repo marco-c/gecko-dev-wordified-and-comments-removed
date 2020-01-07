@@ -8089,6 +8089,10 @@ compartment
 -
 >
 objectMetadataTable
+.
+get
+(
+)
 ;
 if
 (
