@@ -252,11 +252,6 @@ const
 void
 SetScrollbarData
 (
-FrameMetrics
-:
-:
-ViewID
-aScrollViewId
 const
 uint64_t
 &
@@ -443,12 +438,6 @@ mIsPrimaryApzcHolder
 ;
 LayersId
 mLayersId
-;
-FrameMetrics
-:
-:
-ViewID
-mScrollViewId
 ;
 uint64_t
 mScrollbarAnimationId
