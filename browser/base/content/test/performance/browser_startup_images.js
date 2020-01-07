@@ -295,6 +295,13 @@ linux
 macosx
 "
 ]
+intermittentShown
+:
+[
+"
+win
+"
+]
 }
 {
 file
