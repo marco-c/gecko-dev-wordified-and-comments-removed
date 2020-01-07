@@ -12019,13 +12019,7 @@ mURI
 get
 (
 )
-nsContentUtils
-:
-:
-IsNonSubresourceRequest
-(
 this
-)
 &
 shouldIntercept
 )
