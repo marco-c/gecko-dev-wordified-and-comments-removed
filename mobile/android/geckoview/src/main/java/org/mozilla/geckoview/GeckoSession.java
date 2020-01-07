@@ -1860,7 +1860,9 @@ else
 if
 (
 "
-desktop_notification
+desktop
+-
+notification
 "
 .
 equals
