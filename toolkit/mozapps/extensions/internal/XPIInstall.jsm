@@ -1136,6 +1136,11 @@ webextension
 "
 webextension
 -
+dictionary
+"
+"
+webextension
+-
 theme
 "
 ]
