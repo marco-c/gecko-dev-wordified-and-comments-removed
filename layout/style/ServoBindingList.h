@@ -571,6 +571,13 @@ gecko_sheet
 )
 SERVO_BINDING_FUNC
 (
+Servo_AuthorStyles_ForceDirty
+void
+RawServoAuthorStylesBorrowedMut
+self
+)
+SERVO_BINDING_FUNC
+(
 Servo_AuthorStyles_Flush
 void
 RawServoAuthorStylesBorrowedMut
