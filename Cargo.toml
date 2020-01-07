@@ -455,6 +455,6 @@ serde
 branch
 =
 "
-deserialize_from_enums7
+deserialize_from_enums8
 "
 }
