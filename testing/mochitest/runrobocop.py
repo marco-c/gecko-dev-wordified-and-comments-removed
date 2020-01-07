@@ -2624,7 +2624,7 @@ device
 get_logcat
 (
                     
-filterOutRegexps
+filter_out_regexps
 =
 fennecLogcatFilters
 )
