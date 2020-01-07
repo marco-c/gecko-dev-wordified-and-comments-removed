@@ -1511,11 +1511,6 @@ BASE_URL
 }
 /
 dummy
-{
-remote
-:
-true
-}
 )
 ;
 await
