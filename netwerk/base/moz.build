@@ -670,11 +670,6 @@ nsIUDPSocket
 idl
 '
 '
-nsIUnicharStreamLoader
-.
-idl
-'
-'
 nsIUploadChannel
 .
 idl
@@ -1215,11 +1210,6 @@ cpp
 '
 '
 nsUDPSocket
-.
-cpp
-'
-'
-nsUnicharStreamLoader
 .
 cpp
 '
