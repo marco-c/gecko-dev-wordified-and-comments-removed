@@ -4609,6 +4609,14 @@ mCaps
 &
 NS_HTTP_CONNECTION_RESTARTABLE
 )
+|
+|
+(
+mEarlyDataDisposition
+=
+=
+EARLY_425
+)
 )
 )
 {
