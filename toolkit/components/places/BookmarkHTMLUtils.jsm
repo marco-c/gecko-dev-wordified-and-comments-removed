@@ -2964,9 +2964,7 @@ nodeType
 )
 {
 case
-Ci
-.
-nsIDOMNode
+current
 .
 ELEMENT_NODE
 :
@@ -2980,9 +2978,7 @@ current
 break
 ;
 case
-Ci
-.
-nsIDOMNode
+current
 .
 TEXT_NODE
 :
@@ -3029,9 +3025,7 @@ current
 nodeType
 =
 =
-Ci
-.
-nsIDOMNode
+current
 .
 ELEMENT_NODE
 )

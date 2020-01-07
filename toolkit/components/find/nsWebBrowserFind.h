@@ -91,6 +91,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 Selection
 ;
 }
@@ -215,7 +218,13 @@ GetRootNode
 nsIDocument
 *
 aDomDoc
-nsIDOMNode
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aNode

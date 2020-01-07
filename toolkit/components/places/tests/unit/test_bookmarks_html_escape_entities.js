@@ -400,9 +400,7 @@ nodeType
 )
 {
 case
-Ci
-.
-nsIDOMNode
+current
 .
 ELEMENT_NODE
 :
@@ -477,9 +475,7 @@ checksCount
 break
 ;
 case
-Ci
-.
-nsIDOMNode
+current
 .
 TEXT_NODE
 :
