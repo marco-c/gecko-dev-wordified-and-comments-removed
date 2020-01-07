@@ -8366,7 +8366,7 @@ isMarkingTracer
 (
 )
 )
-compartment
+realm
 (
 )
 -
@@ -8663,7 +8663,7 @@ toObject
 group
 -
 >
-compartment
+realm
 (
 )
 -

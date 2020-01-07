@@ -848,7 +848,7 @@ releaseTypes
 )
 ;
 bool
-hasMarkedCompartments
+hasMarkedRealms
 (
 )
 ;

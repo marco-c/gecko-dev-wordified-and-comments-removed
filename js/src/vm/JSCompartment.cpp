@@ -296,10 +296,6 @@ isSelfHosting
 (
 false
 )
-marked
-(
-true
-)
 performanceMonitoring
 (
 runtime_
@@ -376,14 +372,6 @@ nullptr
 enumerators
 (
 nullptr
-)
-scheduledForDestruction
-(
-false
-)
-maybeAlive
-(
-true
 )
 jitCompartment_
 (
