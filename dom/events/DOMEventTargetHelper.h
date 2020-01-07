@@ -666,7 +666,6 @@ EventTarget
 :
 GetParentObject
 ;
-virtual
 nsIGlobalObject
 *
 GetOwnerGlobal
