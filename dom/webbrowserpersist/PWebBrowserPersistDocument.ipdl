@@ -130,9 +130,6 @@ bug
 #
 792908
 include
-PBackgroundSharedTypes
-;
-include
 IPCStream
 ;
 namespace
@@ -214,9 +211,6 @@ cacheKey
 ;
 uint32_t
 persistFlags
-;
-PrincipalInfo
-principal
 ;
 }
 ;

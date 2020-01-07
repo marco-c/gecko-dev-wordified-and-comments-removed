@@ -215,9 +215,6 @@ null
 null
 null
 false
-gBrowser
-.
-contentPrincipal
 )
 ;
 let

@@ -1145,7 +1145,6 @@ null
 params
 .
 isContentWindowPrivate
-aPrincipal
 )
 ;
 }
