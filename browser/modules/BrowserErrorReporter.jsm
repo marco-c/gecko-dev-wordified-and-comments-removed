@@ -1221,10 +1221,6 @@ values
 exceptionValue
 ]
 }
-tags
-:
-{
-}
 }
 ;
 const
