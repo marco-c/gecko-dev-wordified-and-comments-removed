@@ -319,6 +319,9 @@ prototype
 _view
 :
 null
+disableUserActions
+:
+false
 QueryInterface
 :
 XPCOMUtils
@@ -369,6 +372,17 @@ PC_supportsCommand
 aCommand
 )
 {
+if
+(
+this
+.
+disableUserActions
+)
+{
+return
+false
+;
+}
 switch
 (
 aCommand

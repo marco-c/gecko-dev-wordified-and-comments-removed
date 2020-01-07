@@ -375,6 +375,11 @@ selectionChanged
 )
 ;
 "
+disableUserActions
+=
+"
+true
+"
 >
 <
 treecols
