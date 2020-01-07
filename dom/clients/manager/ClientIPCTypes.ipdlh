@@ -254,6 +254,14 @@ includeUncontrolled
 }
 ;
 struct
+ClientClaimArgs
+{
+IPCServiceWorkerDescriptor
+serviceWorker
+;
+}
+;
+struct
 ClientGetInfoAndStateArgs
 {
 nsID
@@ -275,6 +283,8 @@ ClientOpConstructorArgs
 ClientControlledArgs
 ;
 ClientMatchAllArgs
+;
+ClientClaimArgs
 ;
 ClientGetInfoAndStateArgs
 ;
