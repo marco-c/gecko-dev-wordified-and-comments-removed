@@ -198,11 +198,6 @@ nsIMenuBoxObject
 idl
 '
 '
-nsIScrollBoxObject
-.
-idl
-'
-'
 nsISliderListener
 .
 idl
