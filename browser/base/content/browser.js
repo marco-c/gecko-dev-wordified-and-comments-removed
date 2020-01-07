@@ -6221,9 +6221,6 @@ _loadURI
 browser
 uri
 params
-=
-{
-}
 )
 {
 let
@@ -6287,6 +6284,10 @@ postData
 }
 =
 params
+|
+|
+{
+}
 ;
 let
 currentRemoteType
