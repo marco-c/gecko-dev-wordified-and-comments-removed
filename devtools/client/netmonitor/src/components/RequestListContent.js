@@ -152,7 +152,6 @@ const
 {
 getDisplayedRequests
 getSelectedRequest
-getSortedRequests
 getWaterfallScale
 }
 =
@@ -431,13 +430,6 @@ selectedRequest
 PropTypes
 .
 object
-sortedRequests
-:
-PropTypes
-.
-array
-.
-isRequired
 requestFilterTypes
 :
 PropTypes
@@ -1334,7 +1326,7 @@ preventDefault
 let
 {
 selectedRequest
-sortedRequests
+displayedRequests
 }
 =
 this
@@ -1349,7 +1341,7 @@ open
 (
 evt
 selectedRequest
-sortedRequests
+displayedRequests
 )
 ;
 }
@@ -1654,12 +1646,6 @@ state
 scale
 :
 getWaterfallScale
-(
-state
-)
-sortedRequests
-:
-getSortedRequests
 (
 state
 )

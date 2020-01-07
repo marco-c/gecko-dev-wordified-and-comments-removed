@@ -233,7 +233,7 @@ open
 (
 event
 selectedRequest
-sortedRequests
+requests
 )
 {
 let
@@ -1063,7 +1063,7 @@ accesskey
 )
 visible
 :
-sortedRequests
+requests
 .
 size
 >
@@ -1078,7 +1078,7 @@ this
 .
 copyAllAsHar
 (
-sortedRequests
+requests
 )
 }
 )
@@ -1183,7 +1183,7 @@ accesskey
 )
 visible
 :
-sortedRequests
+requests
 .
 size
 >
@@ -1198,7 +1198,7 @@ this
 .
 saveAllAsHar
 (
-sortedRequests
+requests
 )
 }
 )
@@ -1732,7 +1732,7 @@ accesskey
 )
 visible
 :
-sortedRequests
+requests
 .
 size
 >
@@ -2540,7 +2540,7 @@ text
 }
 copyAllAsHar
 (
-sortedRequests
+requests
 )
 {
 return
@@ -2552,14 +2552,14 @@ this
 .
 getDefaultHarOptions
 (
-sortedRequests
+requests
 )
 )
 ;
 }
 saveAllAsHar
 (
-sortedRequests
+requests
 )
 {
 return
@@ -2571,14 +2571,14 @@ this
 .
 getDefaultHarOptions
 (
-sortedRequests
+requests
 )
 )
 ;
 }
 getDefaultHarOptions
 (
-sortedRequests
+requests
 )
 {
 return
@@ -2592,7 +2592,7 @@ props
 connector
 items
 :
-sortedRequests
+requests
 }
 ;
 }
