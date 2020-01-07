@@ -1221,6 +1221,14 @@ aIsTrackingResource
 override
 ;
 NS_IMETHOD
+OverrideTrackingResource
+(
+bool
+aIsTracking
+)
+override
+;
+NS_IMETHOD
 GetDocumentURI
 (
 nsIURI
