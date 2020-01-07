@@ -1032,11 +1032,6 @@ of
 "
 test_updatecheck
 .
-rdf
-"
-"
-test_updatecheck
-.
 json
 "
 ]

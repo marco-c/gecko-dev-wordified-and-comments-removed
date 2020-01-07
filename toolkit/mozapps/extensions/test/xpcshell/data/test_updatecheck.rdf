@@ -1567,7 +1567,7 @@ em
 :
 updateHash
 >
-sha1
+sha256
 :
 78fc1d2887eda35b4ad2e3a0b60120ca271ce6e6
 <
@@ -2021,7 +2021,7 @@ em
 :
 updateHash
 >
-sha1
+sha256
 :
 78fc1d2887eda35b4ad2e3a0b60120ca271ce6e6
 <

@@ -137,6 +137,11 @@ SpellCheckDictionaryBootstrap
 js
 '
 '
+UpdateRDFConverter
+.
+jsm
+'
+'
 XPIInstall
 .
 jsm
