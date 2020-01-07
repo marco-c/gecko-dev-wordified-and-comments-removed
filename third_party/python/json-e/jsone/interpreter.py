@@ -16,6 +16,7 @@ from
 shared
 import
 TemplateError
+InterpreterError
 string
 import
 operator
@@ -143,7 +144,7 @@ b
 )
 }
 def
-expectationError
+infixExpectationError
 (
 operator
 expected
@@ -151,18 +152,27 @@ expected
 :
     
 return
-TemplateError
+InterpreterError
 (
 '
+infix
+:
 {
 }
-expected
+expects
+{
+}
+{
+}
 {
 }
 '
 .
+                            
 format
 (
+operator
+expected
 operator
 expected
 )
@@ -460,21 +470,21 @@ precedence
         
 [
 '
+|
+|
+'
+]
+        
+[
+'
+&
+&
+'
+]
+        
+[
+'
 in
-'
-]
-        
-[
-'
-|
-|
-'
-]
-        
-[
-'
-&
-&
 '
 ]
         
@@ -735,7 +745,17 @@ v
 :
             
 raise
-expectationError
+InterpreterError
+(
+'
+{
+}
+expects
+{
+}
+'
+.
+format
 (
 '
 unary
@@ -744,6 +764,7 @@ unary
 '
 number
 '
+)
 )
         
 return
@@ -786,7 +807,17 @@ v
 :
             
 raise
-expectationError
+InterpreterError
+(
+'
+{
+}
+expects
+{
+}
+'
+.
+format
 (
 '
 unary
@@ -795,6 +826,7 @@ unary
 '
 number
 '
+)
 )
         
 return
@@ -834,18 +866,15 @@ KeyError
 :
             
 raise
-TemplateError
+InterpreterError
 (
                 
 '
-no
+unknown
 context
 value
-named
-"
 {
 }
-"
 '
 .
 format
@@ -1059,14 +1088,14 @@ bool
 :
             
 raise
-expectationError
+infixExpectationError
 (
 '
 +
 '
 '
 number
-or
+/
 string
 '
 )
@@ -1102,14 +1131,14 @@ bool
 :
             
 raise
-expectationError
+infixExpectationError
 (
 '
 +
 '
 '
 number
-or
+/
 string
 '
 )
@@ -1144,14 +1173,15 @@ string
 :
             
 raise
-expectationError
+infixExpectationError
 (
 '
 +
 '
 '
-matching
-types
+numbers
+/
+strings
 '
 )
         
@@ -1202,7 +1232,7 @@ left
 :
             
 raise
-expectationError
+infixExpectationError
 (
 op
 '
@@ -1247,7 +1277,7 @@ right
 :
             
 raise
-expectationError
+infixExpectationError
 (
 op
 '
@@ -1420,7 +1450,7 @@ dict
 :
             
 raise
-expectationError
+infixExpectationError
 (
 '
 .
@@ -1672,12 +1702,13 @@ bool
 :
             
 raise
-expectationError
+infixExpectationError
 (
 op
 '
-matching
-types
+numbers
+/
+strings
 '
 )
         
@@ -1737,7 +1768,7 @@ string
 :
                 
 raise
-expectationError
+infixExpectationError
 (
 '
 in
@@ -1770,7 +1801,7 @@ string
 :
                 
 raise
-expectationError
+infixExpectationError
 (
 '
 in
@@ -1795,7 +1826,7 @@ list
 :
             
 raise
-expectationError
+infixExpectationError
 (
                 
 '
@@ -1825,7 +1856,7 @@ TypeError
 :
             
 raise
-expectationError
+infixExpectationError
 (
 '
 in
@@ -2107,7 +2138,7 @@ TypeError
 :
                 
 raise
-expectationError
+infixExpectationError
 (
 '
 [
@@ -2152,7 +2183,7 @@ TypeError
 :
                 
 raise
-expectationError
+infixExpectationError
 (
 '
 [
@@ -2175,7 +2206,7 @@ dict
 :
         
 raise
-expectationError
+infixExpectationError
 (
 '
 [
@@ -2201,7 +2232,7 @@ string
 :
         
 raise
-expectationError
+infixExpectationError
 (
 '
 [
