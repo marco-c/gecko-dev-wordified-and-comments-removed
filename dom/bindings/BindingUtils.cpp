@@ -14675,6 +14675,9 @@ return
 false
 ;
 }
+if
+(
+!
 JS_EncodeStringToBuffer
 (
 cx
@@ -14686,7 +14689,12 @@ BeginWriting
 )
 length
 )
+)
+{
+return
+false
 ;
+}
 return
 true
 ;
