@@ -2183,6 +2183,17 @@ break
 ;
 }
 }
+getValidator
+(
+)
+{
+return
+new
+PasswordValidator
+(
+)
+;
+}
 async
 _trackLogin
 (
