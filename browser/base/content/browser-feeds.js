@@ -1667,7 +1667,9 @@ nsIFile
 let
 feedURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

@@ -237,7 +237,9 @@ uri
 =
 isURI
 ?
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -5695,7 +5697,9 @@ uri
 let
 newURI
 =
-NetUtil
+Services
+.
+ui
 .
 newURI
 (
