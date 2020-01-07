@@ -7,6 +7,15 @@ mozilla_dom_ipc_IPCBlobInputStream_h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
@@ -108,6 +117,10 @@ aCallback
 nsIEventTarget
 *
 aEventTarget
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 nsresult
@@ -180,6 +193,9 @@ nsCOMPtr
 nsIEventTarget
 >
 mFileMetadataCallbackEventTarget
+;
+Mutex
+mMutex
 ;
 }
 ;
