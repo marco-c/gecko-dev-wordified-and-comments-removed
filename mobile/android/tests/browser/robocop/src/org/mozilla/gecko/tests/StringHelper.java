@@ -35,7 +35,6 @@ StringHelper
 instance
 ;
 public
-static
 final
 String
 STATIC_ABOUT_HOME_URL
@@ -81,7 +80,6 @@ int
 DEFAULT_BOOKMARKS_COUNT
 ;
 public
-static
 final
 String
 ABOUT_BLANK_URL
@@ -98,7 +96,6 @@ String
 ABOUT_FIREFOX_URL
 ;
 public
-static
 final
 String
 ABOUT_HOME_URL
@@ -110,7 +107,6 @@ home
 "
 ;
 public
-static
 final
 String
 ABOUT_ADDONS_URL
@@ -122,7 +118,6 @@ addons
 "
 ;
 public
-static
 final
 String
 ABOUT_SCHEME
@@ -133,7 +128,6 @@ about
 "
 ;
 public
-static
 final
 String
 ABOUT_HOME_TITLE
@@ -142,7 +136,6 @@ ABOUT_HOME_TITLE
 "
 ;
 public
-static
 final
 String
 CONTEXT_MENU_BOOKMARK_LINK
@@ -153,7 +146,6 @@ Link
 "
 ;
 public
-static
 final
 String
 CONTEXT_MENU_OPEN_LINK_IN_NEW_TAB
@@ -172,7 +164,6 @@ String
 CONTEXT_MENU_OPEN_IN_NEW_TAB
 ;
 public
-static
 final
 String
 CONTEXT_MENU_OPEN_LINK_IN_PRIVATE_TAB
@@ -191,7 +182,6 @@ String
 CONTEXT_MENU_OPEN_IN_PRIVATE_TAB
 ;
 public
-static
 final
 String
 CONTEXT_MENU_COPY_LINK
@@ -202,7 +192,6 @@ Link
 "
 ;
 public
-static
 final
 String
 CONTEXT_MENU_SHARE_LINK
@@ -238,7 +227,6 @@ String
 CONTEXT_MENU_EDIT_SITE_SETTINGS
 ;
 public
-static
 final
 String
 CONTEXT_MENU_SITE_SETTINGS_SAVE_PASSWORD
@@ -297,7 +285,6 @@ String
 TITLE_PLACE_HOLDER
 ;
 public
-static
 final
 String
 ROBOCOP_BIG_LINK_URL
@@ -312,7 +299,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BIG_MAILTO_URL
@@ -327,7 +313,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_01_URL
@@ -342,7 +327,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_02_URL
@@ -357,7 +341,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_03_URL
@@ -372,7 +355,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_04_URL
@@ -387,7 +369,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_05_URL
@@ -402,7 +383,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BOXES_URL
@@ -417,7 +397,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_GEOLOCATION_URL
@@ -432,7 +411,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_LOGIN_01_URL
@@ -447,7 +425,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_LOGIN_02_URL
@@ -462,7 +439,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_POPUP_URL
@@ -477,7 +453,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_OFFLINE_STORAGE_URL
@@ -492,7 +467,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_PICTURE_LINK_URL
@@ -507,7 +481,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_SEARCH_URL
@@ -522,7 +495,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_TEXT_PAGE_URL
@@ -537,7 +509,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_INPUT_URL
@@ -552,7 +523,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_READER_MODE_BASIC_ARTICLE
@@ -569,7 +539,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_LINK_TO_SLOW_LOADING
@@ -584,7 +553,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_MEDIA_PLAYBACK_JS_URL
@@ -599,7 +567,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_MEDIA_PLAYBACK_LOOP_URL
@@ -614,7 +581,6 @@ html
 "
 ;
 private
-static
 final
 String
 ROBOCOP_JS_HARNESS_URL
@@ -629,7 +595,6 @@ html
 "
 ;
 public
-static
 final
 String
 ROBOCOP_PICTURE_URL
@@ -644,7 +609,6 @@ jpg
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BIG_LINK_TITLE
@@ -655,7 +619,6 @@ Link
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BIG_MAILTO_TITLE
@@ -666,7 +629,6 @@ Mailto
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_01_TITLE
@@ -679,7 +641,6 @@ Page
 "
 ;
 public
-static
 final
 String
 ROBOCOP_BLANK_PAGE_02_TITLE
@@ -692,7 +653,6 @@ Page
 "
 ;
 public
-static
 final
 String
 ROBOCOP_GEOLOCATION_TITLE
@@ -704,7 +664,6 @@ Page
 "
 ;
 public
-static
 final
 String
 ROBOCOP_PICTURE_LINK_TITLE
@@ -715,7 +674,6 @@ Link
 "
 ;
 public
-static
 final
 String
 ROBOCOP_SEARCH_TITLE
@@ -727,7 +685,6 @@ Engine
 "
 ;
 public
-static
 final
 String
 DISTRIBUTION1_LABEL
@@ -738,7 +695,6 @@ Distribution
 "
 ;
 public
-static
 final
 String
 DISTRIBUTION2_LABEL
@@ -794,7 +750,6 @@ String
 MOZILLA_SECTION_LABEL
 ;
 public
-static
 final
 String
 BRAND_NAME
@@ -816,7 +771,6 @@ Firefox
 "
 ;
 public
-static
 final
 String
 ABOUT_LABEL
@@ -828,7 +782,6 @@ About
 BRAND_NAME
 ;
 public
-static
 final
 String
 LOCATION_SERVICES_LABEL
@@ -965,7 +918,6 @@ String
 PAGE_LABEL
 ;
 public
-static
 final
 String
 MORE_LABEL
@@ -1015,7 +967,6 @@ String
 EDIT_BOOKMARK
 ;
 public
-static
 final
 String
 GEO_MESSAGE
@@ -1033,7 +984,6 @@ String
 GEO_ALLOW
 ;
 public
-static
 final
 String
 GEO_DENY
@@ -1046,7 +996,6 @@ share
 "
 ;
 public
-static
 final
 String
 OFFLINE_MESSAGE
@@ -1064,7 +1013,6 @@ use
 "
 ;
 public
-static
 final
 String
 OFFLINE_ALLOW
@@ -1074,7 +1022,6 @@ Allow
 "
 ;
 public
-static
 final
 String
 OFFLINE_DENY
@@ -1087,7 +1034,6 @@ allow
 "
 ;
 public
-static
 final
 String
 LOGIN_MESSAGE
@@ -1109,7 +1055,6 @@ login
 "
 ;
 public
-static
 final
 String
 LOGIN_ALLOW
@@ -1119,7 +1064,6 @@ Remember
 "
 ;
 public
-static
 final
 String
 LOGIN_DENY
@@ -1129,7 +1073,6 @@ Never
 "
 ;
 public
-static
 final
 String
 POPUP_MESSAGE
@@ -1148,7 +1091,6 @@ String
 POPUP_ALLOW
 ;
 public
-static
 final
 String
 POPUP_DENY
@@ -1161,7 +1103,6 @@ show
 "
 ;
 public
-static
 final
 String
 CONTENT_DESCRIPTION_READER_MODE_BUTTON

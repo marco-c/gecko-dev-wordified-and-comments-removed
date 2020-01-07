@@ -490,9 +490,6 @@ kind
 :
 "
 +
-(
-String
-)
 content
 .
 getKind

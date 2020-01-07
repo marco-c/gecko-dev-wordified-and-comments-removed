@@ -139,6 +139,8 @@ mActivityRule
 =
 new
 ActivityTestRule
+<
+>
 (
 GeckoViewActivity
 .
