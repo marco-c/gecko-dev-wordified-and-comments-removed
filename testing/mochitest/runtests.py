@@ -149,6 +149,10 @@ subsuite
     
 tags
 )
+from
+six
+import
+string_types
 try
 :
     
@@ -13348,27 +13352,39 @@ httpPort
 )
 }
         
-prefs
-=
-json
-.
-loads
-(
-json
-.
-dumps
-(
-prefs
-)
-%
-interpolation
-)
-        
 for
 pref
 in
 prefs
 :
+            
+if
+isinstance
+(
+prefs
+[
+pref
+]
+string_types
+)
+:
+                
+prefs
+[
+pref
+]
+=
+prefs
+[
+pref
+]
+.
+format
+(
+*
+*
+interpolation
+)
             
 prefs
 [
