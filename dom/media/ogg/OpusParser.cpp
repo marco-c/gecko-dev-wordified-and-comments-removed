@@ -467,6 +467,12 @@ mChannelMapping
 {
 if
 (
+mChannelMapping
+=
+=
+1
+&
+&
 mChannels
 >
 8
