@@ -714,8 +714,12 @@ state
 )
 {
 let
-oldSavedAddresses
+oldAddresses
 =
+paymentRequest
+.
+getAddresses
+(
 this
 .
 requestStore
@@ -723,8 +727,7 @@ requestStore
 getState
 (
 )
-.
-savedAddresses
+)
 ;
 this
 .
@@ -747,7 +750,6 @@ getState
 ;
 let
 {
-savedAddresses
 selectedPayerAddress
 selectedPaymentCard
 selectedShippingAddress
@@ -755,6 +757,16 @@ selectedShippingOption
 }
 =
 state
+;
+let
+addresses
+=
+paymentRequest
+.
+getAddresses
+(
+state
+)
 ;
 let
 shippingOptions
@@ -773,7 +785,7 @@ shippingAddress
 selectedShippingAddress
 &
 &
-savedAddresses
+addresses
 [
 selectedShippingAddress
 ]
@@ -784,7 +796,7 @@ oldShippingAddress
 selectedShippingAddress
 &
 &
-oldSavedAddresses
+oldAddresses
 [
 selectedShippingAddress
 ]
@@ -993,7 +1005,7 @@ selectedShippingOption
 if
 (
 !
-savedAddresses
+addresses
 [
 selectedPayerAddress
 ]
@@ -1012,7 +1024,7 @@ Object
 .
 keys
 (
-savedAddresses
+addresses
 )
 [
 0
