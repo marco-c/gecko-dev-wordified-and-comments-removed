@@ -726,7 +726,7 @@ final
 GeckoSessionSettings
 settings
 =
-mGeckoView
+mGeckoSession
 .
 getSettings
 (
