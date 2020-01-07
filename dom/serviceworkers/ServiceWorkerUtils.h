@@ -34,6 +34,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -47,8 +50,8 @@ typedef
 MozPromise
 <
 ServiceWorkerRegistrationDescriptor
-nsresult
-false
+ErrorResult
+true
 >
 ServiceWorkerRegistrationPromise
 ;
@@ -59,8 +62,8 @@ nsTArray
 <
 ServiceWorkerRegistrationDescriptor
 >
-nsresult
-false
+ErrorResult
+true
 >
 ServiceWorkerRegistrationListPromise
 ;
