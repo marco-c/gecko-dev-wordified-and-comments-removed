@@ -487,6 +487,15 @@ mozilla
 .
 geckoview
 .
+GeckoResponse
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoRuntime
 ;
 import
@@ -3327,9 +3336,7 @@ final
 int
 target
 final
-GeckoSession
-.
-Response
+GeckoResponse
 <
 Boolean
 >
@@ -3608,9 +3615,7 @@ final
 String
 uri
 final
-GeckoSession
-.
-Response
+GeckoResponse
 <
 GeckoSession
 >
