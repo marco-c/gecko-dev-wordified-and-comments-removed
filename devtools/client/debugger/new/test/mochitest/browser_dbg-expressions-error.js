@@ -134,6 +134,12 @@ true
 false
 )
 ;
+log
+(
+Adding
+location
+)
+;
 await
 addExpression
 (
