@@ -679,15 +679,6 @@ XULDocument
 (
 )
 ;
-already_AddRefed
-<
-nsIXULWindow
->
-GetXULWindowIfToplevelChrome
-(
-)
-const
-;
 friend
 nsresult
 (

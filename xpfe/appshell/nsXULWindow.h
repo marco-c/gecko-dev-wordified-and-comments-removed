@@ -744,9 +744,6 @@ bool
 mChromeLoaded
 ;
 bool
-mPersistentWindowStateLoaded
-;
-bool
 mSizingShellFromXUL
 ;
 bool

@@ -543,6 +543,9 @@ nsViewportInfo
 class
 nsIGlobalObject
 ;
+class
+nsIXULWindow
+;
 namespace
 mozilla
 {
@@ -7387,6 +7390,15 @@ nsIDocument
 GetTopLevelContentDocument
 (
 )
+;
+already_AddRefed
+<
+nsIXULWindow
+>
+GetXULWindowIfToplevelChrome
+(
+)
+const
 ;
 already_AddRefed
 <
