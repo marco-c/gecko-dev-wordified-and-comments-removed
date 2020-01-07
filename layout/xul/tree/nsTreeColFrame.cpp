@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsIDOMXULTreeElement
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMXULTreeElement
-.
-h
-"
-#
-include
-"
 nsITreeSelection
 .
 h

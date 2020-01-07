@@ -178,11 +178,6 @@ nsIDOMXULTextboxElement
 .
 idl
 '
-'
-nsIDOMXULTreeElement
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
