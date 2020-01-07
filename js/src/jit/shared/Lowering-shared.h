@@ -1486,16 +1486,6 @@ return
 false
 ;
 }
-static
-bool
-allowStaticTypedArrayAccesses
-(
-)
-{
-return
-false
-;
-}
 }
 ;
 }
