@@ -693,6 +693,15 @@ return
 false
 ;
 }
+mAnimationReadyTime
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 if
 (
 aFlags
