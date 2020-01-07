@@ -4049,6 +4049,15 @@ node
 haveObject
 )
 {
+nssPKIObject
+*
+original
+=
+node
+-
+>
+object
+;
 node
 -
 >
@@ -4077,6 +4086,11 @@ node
 object
 )
 {
+nssPKIObject_Destroy
+(
+original
+)
+;
 nssPKIObjectCollection_RemoveNode
 (
 collection

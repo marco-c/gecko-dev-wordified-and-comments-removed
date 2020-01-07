@@ -513,6 +513,13 @@ inIsPresent
 =
 PR_FALSE
 ;
+rvSlot
+-
+>
+lastTokenPingState
+=
+nssSlotLastPingState_Reset
+;
 return
 rvSlot
 ;

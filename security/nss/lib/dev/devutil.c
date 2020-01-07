@@ -121,6 +121,15 @@ ulValueLen
 =
 =
 0
+|
+|
+!
+cert_template
+[
+0
+]
+.
+pValue
 )
 {
 nss_ZFreeIf

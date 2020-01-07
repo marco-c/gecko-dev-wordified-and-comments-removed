@@ -910,6 +910,15 @@ int
 keyLen
 )
 ;
+SECItem
+*
+pk11_mkcertKeyID
+(
+CERTCertificate
+*
+cert
+)
+;
 SEC_END_PROTOS
 #
 endif

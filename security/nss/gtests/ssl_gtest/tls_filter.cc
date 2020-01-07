@@ -2572,7 +2572,7 @@ PacketFilter
 :
 :
 Action
-TlsInspectorRecordHandshakeMessage
+TlsHandshakeRecorder
 :
 :
 FilterHandshake
@@ -4252,9 +4252,7 @@ buf
 body
 )
 ;
-src_
-.
-lock
+agent
 (
 )
 -
@@ -4291,7 +4289,7 @@ PacketFilter
 :
 :
 Action
-TlsInspectorClientHelloVersionChanger
+TlsClientHelloVersionChanger
 :
 :
 FilterHandshake
@@ -4512,7 +4510,7 @@ PacketFilter
 :
 :
 Action
-TlsInspectorClientHelloVersionSetter
+TlsClientHelloVersionSetter
 :
 :
 FilterHandshake

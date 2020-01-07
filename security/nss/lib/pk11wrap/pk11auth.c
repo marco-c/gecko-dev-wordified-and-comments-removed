@@ -2262,6 +2262,10 @@ SECSuccess
 if
 (
 !
+contextSpecific
+&
+&
+!
 PK11_IsFriendly
 (
 slot

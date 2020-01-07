@@ -283,6 +283,7 @@ peer
 void
 SetPacketFilter
 (
+const
 std
 :
 :
@@ -290,9 +291,15 @@ shared_ptr
 <
 PacketFilter
 >
+&
 filter
 )
+{
+filter_
+=
+filter
 ;
+}
 void
 Reset
 (
