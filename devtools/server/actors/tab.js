@@ -2516,6 +2516,14 @@ parent
 &
 &
 window
+.
+parent
+!
+=
+window
+&
+&
+window
 !
 =
 this
