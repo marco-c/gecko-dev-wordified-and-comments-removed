@@ -4720,6 +4720,11 @@ StopSSLServerCertVerificationThreads
 (
 )
 ;
+NS_ProcessPendingEvents
+(
+mRawThread
+)
+;
 gSocketThread
 =
 nullptr
