@@ -75,6 +75,7 @@ wdk_path
 visual_studio_path
 =
 "
+.
 "
 #
 Version
@@ -97,6 +98,7 @@ always
 visual_studio_version
 =
 "
+2015
 "
 #
 Directory
@@ -121,6 +123,7 @@ filled
 wdk_path
 =
 "
+.
 "
 #
 Full
