@@ -2887,13 +2887,33 @@ status
 200
 :
             
-raise
+err
+=
 error
 .
 from_response
 (
 response
 )
+            
+if
+isinstance
+(
+err
+error
+.
+SessionNotCreatedException
+)
+:
+                
+self
+.
+session_id
+=
+None
+            
+raise
+err
         
 if
 "
