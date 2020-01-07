@@ -36962,7 +36962,7 @@ already_AddRefed
 <
 nsILayoutHistoryState
 >
-nsDocument
+nsIDocument
 :
 :
 GetLayoutHistoryState

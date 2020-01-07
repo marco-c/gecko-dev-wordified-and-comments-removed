@@ -5656,7 +5656,6 @@ RemovedFromDocShell
 =
 0
 ;
-virtual
 already_AddRefed
 <
 nsILayoutHistoryState
@@ -5665,8 +5664,6 @@ GetLayoutHistoryState
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -11627,6 +11624,12 @@ nsIDocument
 >
 >
 mFrameLoaderRunner
+;
+nsCOMPtr
+<
+nsILayoutHistoryState
+>
+mLayoutHistoryState
 ;
 public
 :
