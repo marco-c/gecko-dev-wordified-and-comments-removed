@@ -1921,13 +1921,6 @@ of
 targetValue
 )
 ;
-waitForClipboard
-(
-targetValue
-function
-(
-)
-{
 gURLBar
 .
 focus
@@ -2207,6 +2200,13 @@ select
 )
 ;
 }
+waitForClipboard
+(
+targetValue
+function
+(
+)
+{
 goDoCommand
 (
 "
