@@ -5675,7 +5675,7 @@ this
 EditSubAction
 :
 :
-resetTextProperties
+eRemoveAllTextProperties
 nsIEditor
 :
 :

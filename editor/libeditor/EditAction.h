@@ -33,6 +33,7 @@ eInsertTextComingFromIME
 eDeleteSelectedContent
 eSetTextProperty
 eRemoveTextProperty
+eRemoveAllTextProperties
 eComputeTextToOutput
 eSetText
 eInsertParagraphSeparator
@@ -47,7 +48,6 @@ eInsertElement
 eInsertQuotation
 ePasteHTMLContent
 eInsertHTMLSource
-resetTextProperties
 setAbsolutePosition
 removeAbsolutePosition
 decreaseZIndex
