@@ -57,6 +57,10 @@ build
 /
 pymake
 /
+security
+/
+nss
+/
 testing
 /
 mochitest
