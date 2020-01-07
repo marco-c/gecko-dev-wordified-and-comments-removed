@@ -69,7 +69,7 @@ types
 )
 ;
 const
-FontAxis
+FontPropertyValue
 =
 createFactory
 (
@@ -78,7 +78,7 @@ require
 "
 .
 /
-FontAxis
+FontPropertyValue
 "
 )
 )
@@ -153,14 +153,14 @@ fontEditor
 )
 .
 isRequired
-onAxisUpdate
+onInstanceChange
 :
 PropTypes
 .
 func
 .
 isRequired
-onInstanceChange
+onPropertyChange
 :
 PropTypes
 .
@@ -270,7 +270,7 @@ axis
 >
 {
 return
-FontAxis
+FontPropertyValue
 (
 {
 min
@@ -325,10 +325,10 @@ this
 .
 props
 .
-onAxisUpdate
-showInput
+onPropertyChange
+unit
 :
-true
+null
 }
 )
 ;

@@ -93,11 +93,6 @@ Font
 js
 '
 '
-FontAxis
-.
-js
-'
-'
 FontEditor
 .
 js
@@ -119,6 +114,11 @@ js
 '
 '
 FontPreview
+.
+js
+'
+'
+FontPropertyValue
 .
 js
 '

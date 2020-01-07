@@ -678,7 +678,7 @@ right
 .
 font
 -
-axis
+value
 -
 input
 {
@@ -696,7 +696,7 @@ width
 .
 font
 -
-axis
+value
 -
 slider
 {
@@ -732,7 +732,7 @@ none
 .
 font
 -
-axis
+value
 -
 slider
 :
@@ -752,7 +752,7 @@ border
 .
 font
 -
-axis
+value
 -
 slider
 :
@@ -791,7 +791,7 @@ rgba
 .
 font
 -
-axis
+value
 -
 slider
 :
@@ -818,7 +818,7 @@ grey
 .
 font
 -
-axis
+value
 -
 slider
 :
