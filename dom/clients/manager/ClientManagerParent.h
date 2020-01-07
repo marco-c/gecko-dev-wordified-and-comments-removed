@@ -205,11 +205,6 @@ ClientManagerParent
 (
 )
 ;
-void
-Init
-(
-)
-;
 }
 ;
 }
