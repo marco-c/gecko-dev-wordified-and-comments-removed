@@ -4179,15 +4179,6 @@ array
 }
 if
 (
-mAudioContextState
-=
-=
-AudioContextState
-:
-:
-Suspended
-&
-&
 aNewState
 =
 =
