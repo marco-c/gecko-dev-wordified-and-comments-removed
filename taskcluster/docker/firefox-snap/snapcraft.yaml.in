@@ -101,6 +101,10 @@ opengl
 -
 pulseaudio
 -
+removable
+-
+media
+-
 screen
 -
 inhibit
