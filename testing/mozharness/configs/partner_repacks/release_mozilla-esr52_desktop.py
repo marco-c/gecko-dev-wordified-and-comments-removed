@@ -23,14 +23,11 @@ repack_manifests_url
 "
 :
 "
-https
-:
-/
-/
+git
 github
 .
 com
-/
+:
 mozilla
 -
 partners
