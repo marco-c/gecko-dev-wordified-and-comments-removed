@@ -622,7 +622,7 @@ dst
 MOZ_MEMORY_API
 void
 *
-_aligned_malloc
+_aligned_malloc_impl
 (
 size_t
 size

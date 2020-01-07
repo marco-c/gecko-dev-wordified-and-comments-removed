@@ -92,6 +92,8 @@ _aligned_free
 =
 je_free
 _aligned_malloc
+=
+wrap__aligned_malloc
 strndup
 =
 wrap_strndup
