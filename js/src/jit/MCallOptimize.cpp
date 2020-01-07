@@ -4880,12 +4880,15 @@ add
 truncate
 )
 ;
+MOZ_TRY
+(
 callInfo
 .
 pushPriorCallStack
 (
 this
 current
+)
 )
 ;
 }
