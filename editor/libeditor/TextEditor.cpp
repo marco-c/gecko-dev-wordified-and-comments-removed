@@ -2913,15 +2913,6 @@ case
 eToBeginningOfLine
 :
 {
-selCont
--
->
-IntraLineMove
-(
-true
-false
-)
-;
 nsresult
 rv
 =
