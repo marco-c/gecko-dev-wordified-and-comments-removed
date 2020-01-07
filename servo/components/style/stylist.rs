@@ -7553,6 +7553,7 @@ usize
 impl
 CascadeData
 {
+pub
 fn
 new
 (
@@ -7660,6 +7661,7 @@ num_declarations
 0
 }
 }
+pub
 fn
 rebuild
 <
@@ -9002,6 +9004,7 @@ Ok
 )
 )
 }
+pub
 fn
 media_feature_affected_matches
 <

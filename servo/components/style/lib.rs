@@ -433,6 +433,10 @@ attr
 ;
 pub
 mod
+author_styles
+;
+pub
+mod
 bezier
 ;
 pub
