@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 SVGContentUtils
 .
 h
@@ -108,7 +115,10 @@ mEnd
 if
 (
 !
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 (
 *
 mIter

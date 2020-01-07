@@ -1040,7 +1040,10 @@ aNVars
 {
 nsCharSeparatedTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (

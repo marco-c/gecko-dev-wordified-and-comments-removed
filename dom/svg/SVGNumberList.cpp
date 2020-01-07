@@ -201,7 +201,10 @@ temp
 ;
 nsCharSeparatedTokenizerTemplate
 <
-IsSVGWhitespace
+nsContentUtils
+:
+:
+IsHTMLWhitespace
 >
 tokenizer
 (
