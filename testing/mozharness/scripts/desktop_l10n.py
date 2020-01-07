@@ -797,12 +797,6 @@ repack
 "
                 
 "
-taskcluster
--
-upload
-"
-                
-"
 funsize
 -
 props
