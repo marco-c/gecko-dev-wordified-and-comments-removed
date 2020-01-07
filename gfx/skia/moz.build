@@ -698,17 +698,6 @@ src
 /
 core
 /
-SkDeviceLooper
-.
-cpp
-'
-'
-skia
-/
-src
-/
-core
-/
 SkDeviceProfile
 .
 cpp
