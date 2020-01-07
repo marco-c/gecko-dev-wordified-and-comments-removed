@@ -3966,6 +3966,10 @@ moduleLoaders
 nullptr
 ;
 }
+PROFILER_CLEAR_JS_CONTEXT
+(
+)
+;
 bool
 shutdownCollect
 ;
@@ -4087,10 +4091,6 @@ created
 )
 ;
 }
-PROFILER_CLEAR_JS_CONTEXT
-(
-)
-;
 if
 (
 sInitializedJS
