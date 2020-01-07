@@ -58,7 +58,10 @@ open
 GET
 "
 "
-domstringlist
+/
+interfaces
+/
+html
 .
 idl
 "
@@ -102,6 +105,15 @@ idlArray
 add_idls
 (
 idls
+{
+only
+:
+[
+"
+DOMStringList
+"
+]
+}
 )
 ;
 idlArray
