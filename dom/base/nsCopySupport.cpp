@@ -4016,13 +4016,13 @@ if
 clipboardData
 )
 {
+count
+=
 clipboardData
 -
 >
-GetMozItemCount
+MozItemCount
 (
-&
-count
 )
 ;
 if
