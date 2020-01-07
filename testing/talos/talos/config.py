@@ -538,14 +538,6 @@ time
 )
         
 '
-privacy
-.
-reduceTimerPrecision
-'
-:
-False
-        
-'
 places
 .
 database
