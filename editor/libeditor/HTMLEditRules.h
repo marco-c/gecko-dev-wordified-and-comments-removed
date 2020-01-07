@@ -693,16 +693,10 @@ bool
 aHandled
 )
 ;
+MOZ_MUST_USE
 nsresult
 DidDeleteSelection
 (
-nsIEditor
-:
-:
-EDirection
-aDir
-nsresult
-aResult
 )
 ;
 nsresult
