@@ -233,6 +233,7 @@ bool
 HasVariations
 (
 )
+override
 ;
 bool
 IsCFF
