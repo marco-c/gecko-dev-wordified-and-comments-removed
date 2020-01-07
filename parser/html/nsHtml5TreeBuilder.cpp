@@ -10594,9 +10594,9 @@ root
 of
 the
 stack
-"
-"
 in
+"
+"
 foreign
 content
 only

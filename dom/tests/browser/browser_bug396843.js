@@ -120,6 +120,14 @@ Span
 HTML_TAG
 (
 "
+bdi
+"
+"
+"
+)
+HTML_TAG
+(
+"
 bdo
 "
 "

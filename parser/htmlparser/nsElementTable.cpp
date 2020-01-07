@@ -161,6 +161,12 @@ ____
 )
 ELEM
 (
+bdi
+____
+true
+)
+ELEM
+(
 bdo
 ____
 true

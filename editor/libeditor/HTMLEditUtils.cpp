@@ -2183,6 +2183,14 @@ GROUP_NONE
 )
 ELEM
 (
+bdi
+true
+true
+GROUP_SPECIAL
+GROUP_INLINE_ELEMENT
+)
+ELEM
+(
 bdo
 true
 true

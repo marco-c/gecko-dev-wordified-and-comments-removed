@@ -895,6 +895,11 @@ ELT_BIG
 static
 nsHtml5ElementName
 *
+ELT_BDI
+;
+static
+nsHtml5ElementName
+*
 ELT_BDO
 ;
 static
