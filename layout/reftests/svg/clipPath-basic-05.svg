@@ -55,7 +55,9 @@ title
 >
 Testcase
 for
-clipPath
+clip
+-
+path
 that
 can
 '
@@ -131,7 +133,9 @@ fill
 "
 lime
 "
-clipPath
+clip
+-
+path
 =
 "
 url
