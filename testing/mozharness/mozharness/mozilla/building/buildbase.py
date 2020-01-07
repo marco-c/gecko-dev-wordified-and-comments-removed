@@ -14561,12 +14561,22 @@ value
 installer_size
                 
 "
+alertChangeType
+"
+:
+"
+absolute
+"
+                
+"
 alertThreshold
 "
 :
-1
-.
-0
+(
+100
+*
+1024
+)
                 
 "
 subtests
