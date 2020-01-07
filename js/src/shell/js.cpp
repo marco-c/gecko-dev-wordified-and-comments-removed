@@ -19494,7 +19494,7 @@ geckoProfilingStack
 =
 MakeUnique
 <
-PseudoStack
+ProfilingStack
 >
 (
 )
