@@ -620,16 +620,8 @@ ToolbarWindow
 :
 BaseWindow
 {
-TitlebarAndBackgroundColor
-*
-mColor
-;
 CGFloat
 mUnifiedToolbarHeight
-;
-NSColor
-*
-mBackgroundColor
 ;
 NSRect
 mWindowButtonsRect
