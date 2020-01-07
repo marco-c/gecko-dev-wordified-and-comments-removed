@@ -477,9 +477,6 @@ undefined
 suiteStarted
 :
 false
-manageSuite
-:
-false
 testPluginEnabledStates
 :
 null
