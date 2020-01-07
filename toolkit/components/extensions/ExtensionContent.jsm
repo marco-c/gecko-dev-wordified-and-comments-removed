@@ -407,6 +407,7 @@ super
 "
 content
 "
+Schemas
 )
 ;
 this
@@ -2334,14 +2335,13 @@ this
 sandbox
 )
 ;
-Schemas
+this
+.
+childManager
 .
 inject
 (
 chromeObj
-this
-.
-childManager
 )
 ;
 return

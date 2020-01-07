@@ -522,6 +522,7 @@ super
 "
 addon
 "
+Schemas
 )
 ;
 this
@@ -595,6 +596,7 @@ super
 "
 devtools
 "
+Schemas
 )
 ;
 this
@@ -830,14 +832,13 @@ createObjectIn
 contentWindow
 )
 ;
-Schemas
+this
+.
+childManager
 .
 inject
 (
 browserObj
-this
-.
-childManager
 )
 ;
 return
@@ -887,12 +888,11 @@ createObjectIn
 contentWindow
 )
 ;
-Schemas
+chromeApiWrapper
 .
 inject
 (
 chromeObj
-chromeApiWrapper
 )
 ;
 return

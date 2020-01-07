@@ -3608,6 +3608,7 @@ EventEmitter
 constructor
 (
 processType
+schema
 )
 {
 super
@@ -3629,6 +3630,12 @@ this
 _createExtGlobal
 (
 )
+;
+this
+.
+schema
+=
+schema
 ;
 this
 .
