@@ -584,7 +584,6 @@ FLAG_ENABLE_JAVA_CRASHREPORTER
 <
 3
 ;
-private
 static
 final
 String
