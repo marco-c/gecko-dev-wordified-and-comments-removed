@@ -74,10 +74,10 @@ interface
 nsIURI
 ;
 interface
-nsIDOMNode
-;
-interface
 nsISimpleEnumerator
+;
+webidl
+Node
 ;
 [
 scriptable
@@ -189,7 +189,7 @@ in
 nsIURI
 aReferrerURI
 in
-nsIDOMNode
+Node
 aSource
 in
 boolean
@@ -285,7 +285,7 @@ in
 nsIURI
 aReferrerURI
 in
-nsIDOMNode
+Node
 aSource
 in
 nsContentPolicyType
@@ -323,7 +323,7 @@ or
 preload
 for
 a
-nsIDomNode
+Node
 .
 *
 /
@@ -334,7 +334,7 @@ in
 nsIURI
 aURI
 in
-nsIDOMNode
+Node
 aSource
 )
 ;

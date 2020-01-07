@@ -219,13 +219,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h
@@ -404,7 +397,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsContentPolicyType
@@ -2423,7 +2416,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsPrefetchNode
@@ -2943,7 +2936,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsContentPolicyType
@@ -3408,7 +3401,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 bool
@@ -3966,7 +3959,7 @@ CancelPrefetchPreloadURI
 nsIURI
 *
 aURI
-nsIDOMNode
+nsINode
 *
 aSource
 )
@@ -4276,7 +4269,7 @@ source
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 domNode
 =
@@ -4355,7 +4348,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsContentPolicyType
@@ -4384,7 +4377,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 bool

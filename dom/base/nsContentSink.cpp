@@ -3857,17 +3857,6 @@ if
 uri
 )
 {
-nsCOMPtr
-<
-nsIDOMNode
->
-domNode
-=
-do_QueryInterface
-(
-aSource
-)
-;
 if
 (
 aLinkTypes
@@ -3961,7 +3950,7 @@ PreloadURI
 (
 uri
 mDocumentURI
-domNode
+aSource
 policyType
 )
 ;
@@ -3975,7 +3964,7 @@ PrefetchURI
 (
 uri
 mDocumentURI
-domNode
+aSource
 aLinkTypes
 &
 nsStyleLinkElement

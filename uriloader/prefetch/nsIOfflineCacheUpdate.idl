@@ -107,9 +107,6 @@ interface
 nsIURI
 ;
 interface
-nsIDOMNode
-;
-interface
 nsIOfflineCacheUpdate
 ;
 interface

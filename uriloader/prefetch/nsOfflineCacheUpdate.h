@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
