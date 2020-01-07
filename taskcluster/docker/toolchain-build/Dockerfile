@@ -373,14 +373,6 @@ list
 \
 done
 RUN
-dpkg
--
--
-add
--
-architecture
-i386
-RUN
 apt
 -
 get
@@ -452,12 +444,6 @@ dev
 \
 libtool
 \
-libx11
--
-dev
-:
-i386
-\
 make
 \
 mercurial
@@ -474,10 +460,6 @@ procps
 \
 python
 -
-dev
-\
-python
--
 pip
 \
 python
@@ -487,8 +469,6 @@ setuptools
 python
 -
 virtualenv
-\
-scons
 \
 subversion
 \
