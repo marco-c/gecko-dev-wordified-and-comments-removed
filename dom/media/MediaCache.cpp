@@ -11210,6 +11210,7 @@ MediaCacheStream
 GetLength
 (
 )
+const
 {
 MOZ_ASSERT
 (

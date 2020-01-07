@@ -273,6 +273,7 @@ int64_t
 GetLength
 (
 )
+const
 ;
 int64_t
 GetResourceID
