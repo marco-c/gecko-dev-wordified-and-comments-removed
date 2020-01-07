@@ -1984,9 +1984,12 @@ nsFloatManager
 SavedState
 *
 aFloatStateBeforeLine
-nsFlowAreaRect
+mozilla
+:
+:
+LogicalRect
 &
-aFlowArea
+aFloatAvailableSpace
 nscoord
 &
 aAvailableSpaceBSize
