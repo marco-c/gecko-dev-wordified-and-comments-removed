@@ -2167,7 +2167,7 @@ bool
 nsContentUtils
 :
 :
-sIsWebComponentsEnabled
+sIsShadowDOMEnabled
 =
 false
 ;
@@ -3650,11 +3650,13 @@ Preferences
 AddBoolVarCache
 (
 &
-sIsWebComponentsEnabled
+sIsShadowDOMEnabled
 "
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 "
