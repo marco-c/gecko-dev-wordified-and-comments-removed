@@ -360,6 +360,23 @@ dbus
 '
             
 ]
+            
+self
+.
+mobile_android_packages
++
+=
+[
+                
+'
+ncurses
+-
+compat
+-
+libs
+'
+            
+]
     
 def
 install_system_packages
