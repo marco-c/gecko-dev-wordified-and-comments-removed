@@ -1238,7 +1238,7 @@ _get_backend_file
 (
 obj
 .
-relativedir
+relobjdir
 )
     
 def
