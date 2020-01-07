@@ -1579,7 +1579,7 @@ getToken
 (
 AppConstants
 .
-MOZ_ANDROID_GCM_SENDERID
+MOZ_ANDROID_GCM_SENDERIDS
 false
 )
 ;

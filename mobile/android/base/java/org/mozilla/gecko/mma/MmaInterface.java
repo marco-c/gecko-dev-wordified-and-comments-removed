@@ -80,13 +80,6 @@ attributes
 )
 ;
 void
-setGcmSenderId
-(
-String
-senderIds
-)
-;
-void
 setCustomIcon
 (
 DrawableRes
@@ -132,11 +125,6 @@ String
 from
 Bundle
 bundle
-)
-;
-String
-getMmaSenderId
-(
 )
 ;
 void
