@@ -248,7 +248,6 @@ manifestsLoaded
 ReadManifest
 (
 url
-EXPECTED_PASS
 aFilter
 )
 ;
@@ -257,7 +256,6 @@ function
 ReadManifest
 (
 aURL
-inherited_status
 aFilter
 )
 {
@@ -1926,16 +1924,6 @@ true
 }
 }
 }
-expected_status
-=
-Math
-.
-max
-(
-expected_status
-inherited_status
-)
-;
 if
 (
 minAsserts
@@ -2425,7 +2413,6 @@ DISALLOW_SCRIPT
 ReadManifest
 (
 incURI
-expected_status
 aFilter
 )
 ;
