@@ -648,7 +648,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -661,7 +661,7 @@ test
 desc
 )
 ;
-do_print
+info
 (
 "
 Input
@@ -700,7 +700,7 @@ test
 throws
 )
 {
-do_print
+info
 (
 "
 Test
@@ -724,7 +724,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 "
 getRuleText
@@ -746,7 +746,7 @@ test
 throws
 )
 {
-do_print
+info
 (
 "
 Exception
@@ -764,7 +764,7 @@ true
 }
 else
 {
-do_print
+info
 (
 "
 Exception

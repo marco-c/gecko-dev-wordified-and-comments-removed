@@ -88,7 +88,7 @@ checkUpdateLogContains
 ERR_UPDATE_IN_PROGRESS
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )

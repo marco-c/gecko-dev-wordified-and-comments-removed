@@ -219,7 +219,7 @@ tag3
 }
 )
 ;
-do_print
+info
 (
 "
 Make
@@ -279,7 +279,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -337,7 +337,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Make
@@ -398,7 +398,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Multiple
@@ -459,7 +459,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Extra

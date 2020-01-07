@@ -138,7 +138,7 @@ n
 CALL_QUIT
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

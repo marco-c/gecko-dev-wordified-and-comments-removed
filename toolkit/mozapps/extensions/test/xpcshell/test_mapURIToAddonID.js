@@ -826,7 +826,7 @@ newb1
 id
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -972,7 +972,7 @@ newb1
 id
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -1030,7 +1030,7 @@ b1
 id
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -1121,7 +1121,7 @@ restartManager
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_7
 )
@@ -1199,7 +1199,7 @@ b1
 id
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -1311,7 +1311,7 @@ b2
 id
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_invalidarg
 )

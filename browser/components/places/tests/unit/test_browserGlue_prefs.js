@@ -123,7 +123,7 @@ json
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -157,7 +157,7 @@ simulatePlacesInit
 (
 )
 {
-do_print
+info
 (
 "
 Simulate
@@ -295,7 +295,7 @@ test_import
 (
 )
 {
-do_print
+info
 (
 "
 Import
@@ -426,7 +426,7 @@ test_import_noSmartBookmarks
 (
 )
 {
-do_print
+info
 (
 "
 import
@@ -577,7 +577,7 @@ test_import_autoExport_updatedSmartBookmarks
 (
 )
 {
-do_print
+info
 (
 "
 Import
@@ -753,7 +753,7 @@ test_import_autoExport_oldSmartBookmarks
 (
 )
 {
-do_print
+info
 (
 "
 Import
@@ -928,7 +928,7 @@ test_restore
 (
 )
 {
-do_print
+info
 (
 "
 restore
@@ -1053,7 +1053,7 @@ test_restore_import
 (
 )
 {
-do_print
+info
 (
 "
 setting

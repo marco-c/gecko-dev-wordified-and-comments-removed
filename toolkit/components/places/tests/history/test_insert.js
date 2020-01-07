@@ -685,12 +685,12 @@ date
 transition
 )
 {
-do_print
+info
 (
 name
 )
 ;
-do_print
+info
 (
 filter
 :

@@ -47,7 +47,7 @@ standardInit
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_pt1
 )
@@ -243,7 +243,7 @@ removeDownloadListener
 downloadListener
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

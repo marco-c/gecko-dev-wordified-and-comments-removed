@@ -110,7 +110,7 @@ ensureProfilerInitialized
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 (
 )

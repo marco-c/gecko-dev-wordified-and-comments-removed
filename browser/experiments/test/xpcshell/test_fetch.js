@@ -162,7 +162,7 @@ do_get_cwd
 )
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

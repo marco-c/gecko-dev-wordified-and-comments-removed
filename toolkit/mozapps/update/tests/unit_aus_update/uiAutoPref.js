@@ -39,7 +39,7 @@ getMostRecentWindow
 aWindowType
 )
 {
-do_execute_soon
+executeSoon
 (
 check_status
 )
@@ -194,7 +194,7 @@ mediator
 WindowMediator
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -309,7 +309,7 @@ reloadUpdateManagerData
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 doTestFinish
 )

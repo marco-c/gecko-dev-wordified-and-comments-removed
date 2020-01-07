@@ -689,7 +689,7 @@ entryCount
 consumption
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

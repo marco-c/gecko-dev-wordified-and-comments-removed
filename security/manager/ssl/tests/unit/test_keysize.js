@@ -162,7 +162,7 @@ eeFullName
 pem
 )
 ;
-do_print
+info
 (
 "
 cert
@@ -175,7 +175,7 @@ eeCert
 organization
 )
 ;
-do_print
+info
 (
 "
 cert

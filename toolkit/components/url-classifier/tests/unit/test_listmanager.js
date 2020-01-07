@@ -1177,7 +1177,7 @@ run_next_test
 return
 ;
 }
-do_print
+info
 (
 "
 Waiting
@@ -1589,7 +1589,7 @@ run_next_test
 return
 ;
 }
-do_print
+info
 (
 "
 Wait
@@ -1715,7 +1715,7 @@ PREF_NEXTUPDATETIME
 )
 )
 ;
-do_print
+info
 (
 "
 nextupdatetime

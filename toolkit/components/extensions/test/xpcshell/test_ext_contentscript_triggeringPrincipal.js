@@ -3429,7 +3429,7 @@ request
 "
 )
 ;
-do_print
+info
 (
 "
 Got
@@ -3743,7 +3743,7 @@ delete
 baseURL
 )
 ;
-do_print
+info
 (
 Got
 CSP
@@ -3792,7 +3792,7 @@ delete
 source
 )
 ;
-do_print
+info
 (
 Got
 CSP
@@ -3827,7 +3827,7 @@ blockedSources
 size
 )
 {
-do_print
+info
 (
 "
 Got

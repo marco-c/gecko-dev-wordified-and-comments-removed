@@ -106,7 +106,7 @@ run_test
 (
 )
 {
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -172,7 +172,7 @@ name_matching_mode
 0
 )
 ;
-do_print
+info
 (
 "
 current
@@ -307,7 +307,7 @@ name_matching_mode
 1
 )
 ;
-do_print
+info
 (
 "
 current
@@ -450,7 +450,7 @@ name_matching_mode
 2
 )
 ;
-do_print
+info
 (
 "
 current
@@ -593,7 +593,7 @@ name_matching_mode
 3
 )
 ;
-do_print
+info
 (
 "
 current
@@ -761,7 +761,7 @@ name_matching_mode
 0
 )
 ;
-do_print
+info
 (
 "
 current
@@ -895,7 +895,7 @@ name_matching_mode
 1
 )
 ;
-do_print
+info
 (
 "
 current
@@ -1037,7 +1037,7 @@ name_matching_mode
 2
 )
 ;
-do_print
+info
 (
 "
 current
@@ -1179,7 +1179,7 @@ name_matching_mode
 3
 )
 ;
-do_print
+info
 (
 "
 current

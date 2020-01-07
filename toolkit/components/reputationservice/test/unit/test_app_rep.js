@@ -337,7 +337,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 Mock
@@ -359,7 +359,7 @@ readFileToString
 aFilename
 )
 ;
-do_print
+info
 (
 "
 Length
@@ -493,7 +493,7 @@ enabled
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -576,7 +576,7 @@ digest256
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -668,7 +668,7 @@ start
 4444
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -1149,7 +1149,7 @@ n
 ;
 }
 }
-do_print
+info
 (
 "
 Returning
@@ -1316,7 +1316,7 @@ equal
 aEvent
 )
 ;
-do_print
+info
 (
 "
 All

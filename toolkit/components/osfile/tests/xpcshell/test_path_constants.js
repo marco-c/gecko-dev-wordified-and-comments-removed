@@ -105,7 +105,7 @@ path
 }
 else
 {
-do_print
+info
 (
 "
 WARNING
@@ -493,7 +493,7 @@ Path
 libxul
 )
 ;
-do_print
+info
 (
 "
 Linked

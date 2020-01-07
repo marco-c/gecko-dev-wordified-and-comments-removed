@@ -532,7 +532,7 @@ run_test_1
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -666,7 +666,7 @@ run_test_2
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -800,7 +800,7 @@ run_test_3
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -920,7 +920,7 @@ run_test_4
 (
 )
 {
-do_print
+info
 (
 "
 Testing

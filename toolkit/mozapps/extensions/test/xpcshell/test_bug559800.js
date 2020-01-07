@@ -252,7 +252,7 @@ remove
 true
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_1
 )

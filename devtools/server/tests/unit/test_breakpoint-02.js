@@ -240,7 +240,7 @@ noScript
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (

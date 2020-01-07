@@ -43,7 +43,7 @@ removeObserver
 this
 )
 ;
-do_execute_soon
+executeSoon
 (
 resolve
 )
@@ -307,7 +307,7 @@ c
 )
 ;
 }
-do_print
+info
 (
 "
 Natural
@@ -322,7 +322,7 @@ guid2
 guid3
 )
 ;
-do_print
+info
 (
 "
 Sort
@@ -347,7 +347,7 @@ guid2
 guid1
 )
 ;
-do_print
+info
 (
 "
 Sort
@@ -372,7 +372,7 @@ guid2
 guid3
 )
 ;
-do_print
+info
 (
 "
 Sort
@@ -397,7 +397,7 @@ guid3
 guid2
 )
 ;
-do_print
+info
 (
 "
 Change
@@ -455,7 +455,7 @@ guid3
 guid2
 )
 ;
-do_print
+info
 (
 "
 Sort
@@ -525,7 +525,7 @@ guid1
 guid2
 )
 ;
-do_print
+info
 (
 "
 Sort
@@ -616,7 +616,7 @@ guid1
 guid2
 )
 ;
-do_print
+info
 (
 "
 Annotation
@@ -678,7 +678,7 @@ TRANSITION_TYPED
 await
 waitForVisited
 ;
-do_print
+info
 (
 "
 Sort
@@ -746,7 +746,7 @@ guid3
 guid1
 )
 ;
-do_print
+info
 (
 "
 Sort

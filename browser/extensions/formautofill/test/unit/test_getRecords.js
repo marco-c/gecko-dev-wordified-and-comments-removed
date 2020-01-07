@@ -902,7 +902,7 @@ of
 testCases
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -1558,7 +1558,7 @@ of
 testCases
 )
 {
-do_print
+info
 (
 "
 Starting

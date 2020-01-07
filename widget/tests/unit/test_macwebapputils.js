@@ -123,7 +123,7 @@ pathForAppWithIdentifier
 sig
 )
 ;
-do_print
+info
 (
 "
 TextEdit

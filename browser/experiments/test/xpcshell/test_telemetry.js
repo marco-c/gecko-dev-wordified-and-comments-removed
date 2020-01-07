@@ -137,7 +137,7 @@ id
 data
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -443,7 +443,7 @@ finish
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -820,7 +820,7 @@ entries
 (
 )
 ;
-do_print
+info
 (
 "
 Telemetry

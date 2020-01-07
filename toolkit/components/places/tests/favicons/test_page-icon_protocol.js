@@ -619,7 +619,7 @@ SMALLSVG_DATA_URI
 spec
 )
 ;
-do_print
+info
 (
 svgIcon
 .

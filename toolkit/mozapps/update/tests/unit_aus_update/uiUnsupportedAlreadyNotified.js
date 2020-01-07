@@ -170,7 +170,7 @@ mediator
 WindowMediator
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -290,7 +290,7 @@ notify
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test
 )
@@ -313,7 +313,7 @@ PREF_APP_UPDATE_BACKGROUNDERRORS
 )
 )
 {
-do_execute_soon
+executeSoon
 (
 check_test
 )

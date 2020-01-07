@@ -494,7 +494,7 @@ AddonManager
 ERROR_CORRUPT_FILE
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

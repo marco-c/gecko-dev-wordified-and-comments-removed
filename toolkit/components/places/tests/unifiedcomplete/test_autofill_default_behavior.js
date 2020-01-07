@@ -341,7 +341,7 @@ bookmark
 false
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -390,7 +390,7 @@ vi
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -467,7 +467,7 @@ typed
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -557,7 +557,7 @@ secure
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -595,7 +595,7 @@ bo
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -673,7 +673,7 @@ typed
 false
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -756,7 +756,7 @@ bookmarked
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -841,7 +841,7 @@ onlyTyped
 true
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -885,7 +885,7 @@ vi
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -967,7 +967,7 @@ typed
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1010,7 +1010,7 @@ bo
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1129,7 +1129,7 @@ typed
 true
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1168,7 +1168,7 @@ vi
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1207,7 +1207,7 @@ ty
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1281,7 +1281,7 @@ bo
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1359,7 +1359,7 @@ typed
 false
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1442,7 +1442,7 @@ bookmarked
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1488,7 +1488,7 @@ ta
 }
 )
 ;
-do_print
+info
 (
 "
 Restrict
@@ -1861,7 +1861,7 @@ searchEngines
 false
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -1918,7 +1918,7 @@ v
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2010,7 +2010,7 @@ ty
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2056,7 +2056,7 @@ b
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2167,7 +2167,7 @@ bookmark
 true
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2214,7 +2214,7 @@ v
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2261,7 +2261,7 @@ t
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2343,7 +2343,7 @@ b
 }
 )
 ;
-do_print
+info
 (
 "
 URL
@@ -2436,7 +2436,7 @@ typed
 false
 )
 ;
-do_print
+info
 (
 "
 URL

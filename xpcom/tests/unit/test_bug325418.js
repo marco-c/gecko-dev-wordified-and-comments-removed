@@ -76,7 +76,7 @@ timer
 =
 null
 ;
-do_print
+info
 (
 "
 1st

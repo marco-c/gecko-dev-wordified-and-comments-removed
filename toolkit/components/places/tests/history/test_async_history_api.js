@@ -223,7 +223,7 @@ aTitle
 aGUID
 )
 {
-do_print
+info
 (
 "
 onTitleChanged
@@ -357,7 +357,7 @@ slice
 1
 )
 ;
-do_print
+info
 (
 "
 onVisit
@@ -1059,7 +1059,7 @@ array
 "
 )
 ;
-do_print
+info
 (
 str
 )
@@ -1737,7 +1737,7 @@ throw
 e
 ;
 }
-do_print
+info
 (
 "
 Could
@@ -1801,7 +1801,7 @@ placesResult
 errors
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -5768,7 +5768,7 @@ aTopic
 aData
 )
 {
-do_print
+info
 (
 "
 observe
@@ -5989,7 +5989,7 @@ throw
 e
 ;
 }
-do_print
+info
 (
 "
 Could

@@ -1302,7 +1302,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -1685,7 +1685,7 @@ function
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 prepare_schema_migrate
 )

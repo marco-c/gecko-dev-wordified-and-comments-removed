@@ -386,7 +386,7 @@ shift
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 next_test
 )
@@ -614,7 +614,7 @@ run_test
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 next_test
 )

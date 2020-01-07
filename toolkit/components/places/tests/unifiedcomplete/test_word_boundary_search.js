@@ -426,7 +426,7 @@ matchBehavior
 2
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -518,7 +518,7 @@ title1
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -596,7 +596,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -704,7 +704,7 @@ tag
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -838,7 +838,7 @@ title1
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -896,7 +896,7 @@ word
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -1084,7 +1084,7 @@ title1
 }
 )
 ;
-do_print
+info
 (
 "
 Match
@@ -1150,7 +1150,7 @@ word
 }
 )
 ;
-do_print
+info
 (
 "
 Katakana
@@ -1196,7 +1196,7 @@ join
 }
 )
 ;
-do_print
+info
 (
 "
 Ideographs
@@ -1245,7 +1245,7 @@ join
 }
 )
 ;
-do_print
+info
 (
 "
 Ideographs
@@ -1294,7 +1294,7 @@ join
 }
 )
 ;
-do_print
+info
 (
 "
 Ideographs
@@ -1344,7 +1344,7 @@ join
 }
 )
 ;
-do_print
+info
 (
 "
 Extra
@@ -1378,7 +1378,7 @@ matches
 }
 )
 ;
-do_print
+info
 (
 "
 Don

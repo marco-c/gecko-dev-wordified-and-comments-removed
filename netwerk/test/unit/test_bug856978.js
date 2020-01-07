@@ -234,7 +234,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Registering

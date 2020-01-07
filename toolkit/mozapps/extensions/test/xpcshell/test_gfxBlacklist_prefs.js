@@ -411,7 +411,7 @@ aTopic
 aData
 )
 {
-do_execute_soon
+executeSoon
 (
 ensureBlacklistSet
 )
@@ -548,7 +548,7 @@ aTopic
 aData
 )
 {
-do_execute_soon
+executeSoon
 (
 ensureBlacklistUnset
 )

@@ -169,7 +169,7 @@ getMostRecentBackup
 true
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -214,7 +214,7 @@ f1
 "
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -256,7 +256,7 @@ f2
 "
 )
 ;
-do_print
+info
 (
 "
 Checking

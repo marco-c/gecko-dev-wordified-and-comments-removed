@@ -1518,7 +1518,7 @@ witness
 )
 )
 {
-do_print
+info
 (
 "
 test_result_dispose

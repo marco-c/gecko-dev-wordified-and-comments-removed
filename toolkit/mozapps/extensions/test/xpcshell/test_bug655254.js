@@ -773,7 +773,7 @@ active_version
 1
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )

@@ -29,7 +29,7 @@ jsm
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

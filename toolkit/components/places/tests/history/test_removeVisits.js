@@ -75,7 +75,7 @@ remove_visits_outside_unbookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -96,7 +96,7 @@ URI
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -167,7 +167,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -223,7 +223,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -248,7 +248,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Run
@@ -388,7 +388,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 asyncHistory
@@ -419,7 +419,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Frecency
@@ -458,7 +458,7 @@ remove_visits_outside_bookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -479,7 +479,7 @@ URI
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -550,7 +550,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Bookmark
@@ -588,7 +588,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -644,7 +644,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -669,7 +669,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Run
@@ -809,7 +809,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 asyncHistory
@@ -840,7 +840,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Frecency
@@ -879,7 +879,7 @@ remove_visits_unbookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -897,7 +897,7 @@ URI
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -969,7 +969,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -1021,7 +1021,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -1046,7 +1046,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Run
@@ -1189,7 +1189,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 asyncHistory
@@ -1220,7 +1220,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Frecency
@@ -1259,7 +1259,7 @@ remove_visits_bookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -1277,7 +1277,7 @@ URI
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -1349,7 +1349,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Bookmark
@@ -1387,7 +1387,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -1439,7 +1439,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -1464,7 +1464,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Run
@@ -1607,7 +1607,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 asyncHistory
@@ -1638,7 +1638,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Frecency
@@ -1677,7 +1677,7 @@ remove_all_visits_unbookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -1695,7 +1695,7 @@ URI
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -1759,7 +1759,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -1808,7 +1808,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -1835,7 +1835,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Run
@@ -1927,7 +1927,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 asyncHistory
@@ -1968,7 +1968,7 @@ remove_all_visits_bookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -1986,7 +1986,7 @@ URI
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -2050,7 +2050,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Bookmark
@@ -2096,7 +2096,7 @@ frecencyForUrl
 TEST_URI
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -2145,7 +2145,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -2170,7 +2170,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Run
@@ -2262,7 +2262,7 @@ containerOpen
 =
 false
 ;
-do_print
+info
 (
 "
 asyncHistory
@@ -2287,7 +2287,7 @@ TEST_URI
 )
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -2323,7 +2323,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Frecency
@@ -2362,7 +2362,7 @@ remove_all_visits_bookmarked_uri
 (
 )
 {
-do_print
+info
 (
 "
 *
@@ -2384,7 +2384,7 @@ frecency
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -2432,7 +2432,7 @@ DB_NOW
 ]
 )
 ;
-do_print
+info
 (
 "
 Remove
@@ -2481,7 +2481,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 URI
@@ -2506,7 +2506,7 @@ spec
 )
 )
 ;
-do_print
+info
 (
 "
 Frecency

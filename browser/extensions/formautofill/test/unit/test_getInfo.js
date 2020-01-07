@@ -1230,7 +1230,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -1319,7 +1319,7 @@ test_regexp_list
 (
 )
 {
-do_print
+info
 (
 "
 Verify
@@ -1549,14 +1549,14 @@ null
 )
 }
 ;
-do_print
+info
 (
 testcase
 .
 description
 )
 ;
-do_print
+info
 (
 testcase
 .

@@ -62,7 +62,7 @@ Sys
 .
 umask
 ;
-do_print
+info
 (
 "
 umask
@@ -250,7 +250,7 @@ options
 null
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -413,7 +413,7 @@ options
 null
 )
 {
-do_print
+info
 (
 "
 Setting

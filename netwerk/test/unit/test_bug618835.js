@@ -105,7 +105,7 @@ equal
 numberOfCLHandlerCalls
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -198,7 +198,7 @@ equal
 numberOfHandlerCalls
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (

@@ -660,7 +660,7 @@ executableName
 ]
 ;
 }
-do_print
+info
 (
 "
 launching
@@ -673,7 +673,7 @@ file
 path
 )
 ;
-do_print
+info
 (
 "
 with
@@ -736,7 +736,7 @@ aTopic
 aData
 )
 {
-do_print
+info
 (
 "
 topic
@@ -838,7 +838,7 @@ length
 processObserver
 )
 ;
-do_print
+info
 (
 "
 with
@@ -906,7 +906,7 @@ false
 return
 ;
 }
-do_print
+info
 (
 "
 topic
@@ -928,7 +928,7 @@ process
 exitValue
 )
 ;
-do_print
+info
 (
 "
 Restoring
@@ -1046,7 +1046,7 @@ appTimer
 =
 null
 ;
-do_print
+info
 (
 "
 Restoring
@@ -1071,7 +1071,7 @@ process
 isRunning
 )
 {
-do_print
+info
 (
 "
 attempting
@@ -1120,7 +1120,7 @@ nsITimerCallback
 )
 }
 ;
-do_print
+info
 (
 "
 launching
@@ -1133,7 +1133,7 @@ file
 path
 )
 ;
-do_print
+info
 (
 "
 with
@@ -1150,7 +1150,7 @@ join
 )
 )
 ;
-do_print
+info
 (
 "
 with
@@ -1177,7 +1177,7 @@ length
 i
 )
 {
-do_print
+info
 (
 "
 "
@@ -1302,7 +1302,7 @@ state
 processObserver
 )
 ;
-do_print
+info
 (
 "
 with
@@ -1476,7 +1476,7 @@ hang
 ]
 )
 ;
-do_print
+info
 (
 "
 Try

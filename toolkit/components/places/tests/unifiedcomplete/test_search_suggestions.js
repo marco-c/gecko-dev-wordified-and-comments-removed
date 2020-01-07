@@ -297,7 +297,7 @@ search
 .
 currentEngine
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -3893,7 +3893,7 @@ localhost
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -4164,7 +4164,7 @@ dns_first_for_single_words
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

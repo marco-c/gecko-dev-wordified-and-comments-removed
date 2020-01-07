@@ -454,7 +454,7 @@ ctx
 status
 )
 {
-do_execute_soon
+executeSoon
 (
 run_next_test
 )
@@ -527,7 +527,7 @@ asyncOpen2
 listener
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

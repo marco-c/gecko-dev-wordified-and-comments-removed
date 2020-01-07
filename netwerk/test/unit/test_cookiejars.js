@@ -353,7 +353,7 @@ checkCookie
 }
 else
 {
-do_print
+info
 (
 "
 setNextCookie
@@ -578,7 +578,7 @@ cookiesSeen
 ;
 }
 }
-do_print
+info
 (
 "
 Saw

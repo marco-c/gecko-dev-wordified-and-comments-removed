@@ -34,7 +34,7 @@ PAGE_URL
 SMALLPNG_DATA_URI
 )
 ;
-do_print
+info
 (
 "
 Set
@@ -136,7 +136,7 @@ charCodeAt
 )
 )
 ;
-do_print
+info
 (
 "
 Refresh

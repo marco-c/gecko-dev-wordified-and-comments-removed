@@ -5,7 +5,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Add
@@ -93,7 +93,7 @@ invalidateCachedGuidFor
 9999
 )
 ;
-do_print
+info
 (
 "
 Change
@@ -167,7 +167,7 @@ bm
 guid
 )
 ;
-do_print
+info
 (
 "
 Invalidate

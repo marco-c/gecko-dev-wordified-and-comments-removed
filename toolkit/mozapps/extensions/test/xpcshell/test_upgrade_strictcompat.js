@@ -440,7 +440,7 @@ clearUserPref
 PREF_EM_STRICT_COMPATIBILITY
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )
@@ -604,7 +604,7 @@ version
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -840,7 +840,7 @@ version
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )

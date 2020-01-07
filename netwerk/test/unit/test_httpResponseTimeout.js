@@ -419,7 +419,7 @@ kShortLivedKeepalivePref
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -455,7 +455,7 @@ kLongLivedKeepalivePref
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -546,7 +546,7 @@ primaryPort
 /
 "
 ;
-do_print
+info
 (
 "
 Using
@@ -624,7 +624,7 @@ finish
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

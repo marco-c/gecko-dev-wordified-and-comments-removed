@@ -388,7 +388,7 @@ response
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 run_next_test
 )
@@ -1027,7 +1027,7 @@ run_next_test
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

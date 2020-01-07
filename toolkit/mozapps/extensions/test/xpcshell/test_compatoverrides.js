@@ -1384,7 +1384,7 @@ a10
 appDisabled
 )
 ;
-do_execute_soon
+executeSoon
 (
 aCallback
 )
@@ -1398,7 +1398,7 @@ run_test_1
 (
 )
 {
-do_print
+info
 (
 "
 Run
@@ -1418,7 +1418,7 @@ run_test_2
 (
 )
 {
-do_print
+info
 (
 "
 Run

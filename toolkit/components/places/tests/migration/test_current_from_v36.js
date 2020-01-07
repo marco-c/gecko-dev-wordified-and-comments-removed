@@ -304,13 +304,13 @@ of
 gTestcases
 )
 {
-do_print
+info
 (
 "
 "
 )
 ;
-do_print
+info
 (
 "
 Checking

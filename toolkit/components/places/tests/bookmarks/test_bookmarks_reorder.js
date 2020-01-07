@@ -777,7 +777,7 @@ i
 ;
 }
 }
-do_print
+info
 (
 "
 Test

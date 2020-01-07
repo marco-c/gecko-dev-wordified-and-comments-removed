@@ -85,7 +85,7 @@ prefs
 .
 getBoolPref
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -235,7 +235,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -369,7 +369,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -503,7 +503,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -637,7 +637,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -770,7 +770,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -903,7 +903,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -1036,7 +1036,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate
@@ -1169,7 +1169,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Migrate

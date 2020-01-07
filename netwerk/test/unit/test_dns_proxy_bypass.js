@@ -191,7 +191,7 @@ request
 "
 )
 {
-do_print
+info
 (
 data
 )

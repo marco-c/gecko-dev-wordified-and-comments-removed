@@ -536,7 +536,7 @@ exportToFile
 jsonFile
 )
 ;
-do_print
+info
 (
 "
 Restoring
@@ -554,7 +554,7 @@ jsonFile
 true
 )
 ;
-do_print
+info
 (
 "
 Validating

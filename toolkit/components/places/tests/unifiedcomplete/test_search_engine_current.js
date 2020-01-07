@@ -39,7 +39,7 @@ search
 "
 )
 ;
-do_print
+info
 (
 "
 search
@@ -81,7 +81,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 search
@@ -135,7 +135,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 search
@@ -181,7 +181,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 search

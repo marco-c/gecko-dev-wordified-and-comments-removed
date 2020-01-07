@@ -190,7 +190,7 @@ i
 ]
 )
 ;
-do_print
+info
 (
 "
 ENTRY
@@ -333,7 +333,7 @@ success
 (
 )
 {
-do_print
+info
 (
 "
 SUCCESS
@@ -351,7 +351,7 @@ failure
 (
 )
 {
-do_print
+info
 (
 "
 FAILURE

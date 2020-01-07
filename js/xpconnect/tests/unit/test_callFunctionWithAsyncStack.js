@@ -43,7 +43,7 @@ asyncstack
 )
 )
 {
-do_print
+info
 (
 "
 Async

@@ -883,7 +883,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -960,7 +960,7 @@ tokens
 continue
 ;
 }
-do_print
+info
 (
 "
 Checking
@@ -1005,7 +1005,7 @@ i
 +
 )
 {
-do_print
+info
 (
 "
 Checking

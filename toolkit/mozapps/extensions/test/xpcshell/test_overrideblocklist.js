@@ -441,7 +441,7 @@ e
 return
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

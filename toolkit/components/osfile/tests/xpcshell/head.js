@@ -162,7 +162,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Executing
@@ -211,7 +211,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Executing
@@ -261,7 +261,7 @@ path
 test
 )
 {
-do_print
+info
 (
 "
 Fetching
@@ -413,7 +413,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Comparing

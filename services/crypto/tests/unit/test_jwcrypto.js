@@ -329,7 +329,7 @@ kpo
 undefined
 )
 ;
-do_print
+info
 (
 kpo
 .
@@ -404,7 +404,7 @@ kpo
 undefined
 )
 ;
-do_print
+info
 (
 kpo
 .

@@ -1021,7 +1021,7 @@ tests
 )
 )
 {
-do_print
+info
 (
 name
 )

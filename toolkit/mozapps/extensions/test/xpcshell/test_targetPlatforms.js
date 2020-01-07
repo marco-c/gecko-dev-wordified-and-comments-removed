@@ -769,7 +769,7 @@ addon5
 version
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

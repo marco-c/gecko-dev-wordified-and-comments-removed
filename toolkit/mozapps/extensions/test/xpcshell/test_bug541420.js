@@ -185,7 +185,7 @@ permissions
 0o100
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

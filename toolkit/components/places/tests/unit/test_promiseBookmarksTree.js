@@ -776,7 +776,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 ex
 )

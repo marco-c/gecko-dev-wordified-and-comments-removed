@@ -505,7 +505,7 @@ length
 i
 )
 {
-do_print
+info
 (
 stackFrameToString
 (
@@ -591,7 +591,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Actual
@@ -606,7 +606,7 @@ frame
 )
 )
 ;
-do_print
+info
 (
 "
 Expected
@@ -659,7 +659,7 @@ dumpThisFrame
 (
 )
 ;
-do_print
+info
 (
 "
 Expected
@@ -700,7 +700,7 @@ undefined
 "
 )
 {
-do_print
+info
 (
 "
 Unknown
@@ -741,7 +741,7 @@ dumpThisFrame
 (
 )
 ;
-do_print
+info
 (
 "
 Unknown
@@ -826,7 +826,7 @@ dumpThisFrame
 (
 )
 ;
-do_print
+info
 (
 "
 Unknown
@@ -860,7 +860,7 @@ dumpThisFrame
 (
 )
 ;
-do_print
+info
 (
 "
 Mismatching

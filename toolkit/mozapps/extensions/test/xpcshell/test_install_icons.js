@@ -459,7 +459,7 @@ icons
 icon64_url
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

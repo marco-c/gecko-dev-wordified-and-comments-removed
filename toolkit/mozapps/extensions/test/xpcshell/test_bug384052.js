@@ -648,7 +648,7 @@ ok
 gSeenExpectedURL
 )
 ;
-do_execute_soon
+executeSoon
 (
 shutdownTest
 )

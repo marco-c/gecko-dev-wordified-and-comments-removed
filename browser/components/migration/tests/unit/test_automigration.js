@@ -129,7 +129,7 @@ name
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -785,7 +785,7 @@ sourceProfiles
 (
 )
 {
-do_print
+info
 (
 "
 Read
@@ -950,7 +950,7 @@ sourceProfiles
 (
 )
 {
-do_print
+info
 (
 "
 Read
@@ -4883,7 +4883,7 @@ onFrecencyChanged
 aURI
 )
 {
-do_print
+info
 (
 "
 frecency
@@ -4935,7 +4935,7 @@ onManyFrecenciesChanged
 (
 )
 {
-do_print
+info
 (
 "
 Many
@@ -4973,7 +4973,7 @@ onDeleteURI
 aURI
 )
 {
-do_print
+info
 (
 "
 delete

@@ -238,7 +238,7 @@ cloud
 )
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -343,7 +343,7 @@ key
 file
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -559,7 +559,7 @@ PERMS_DIRECTORY
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -769,7 +769,7 @@ PERMS_DIRECTORY
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -341,7 +341,7 @@ exportToFile
 jsonFile
 )
 ;
-do_print
+info
 (
 "
 exported
@@ -358,7 +358,7 @@ jsonFile
 true
 )
 ;
-do_print
+info
 (
 "
 imported
@@ -377,7 +377,7 @@ json
 "
 )
 ;
-do_print
+info
 (
 "
 validated
@@ -395,7 +395,7 @@ validate
 infoMsg
 )
 {
-do_print
+info
 (
 Validating
 {
@@ -410,7 +410,7 @@ testMenuBookmarks
 (
 )
 ;
-do_print
+info
 (
 Validating
 {
@@ -425,7 +425,7 @@ testToolbarBookmarks
 (
 )
 ;
-do_print
+info
 (
 Validating
 {
@@ -439,7 +439,7 @@ testUnfiledBookmarks
 (
 )
 ;
-do_print
+info
 (
 Validating
 {
@@ -1281,7 +1281,7 @@ of
 tagData
 )
 {
-do_print
+info
 (
 "
 Test

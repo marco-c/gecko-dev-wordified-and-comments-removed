@@ -526,7 +526,7 @@ PARTIAL_LEN
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1607,7 +1607,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
-do_print
+info
 (
 downloadDir
 {
@@ -1650,7 +1650,7 @@ nsIFile
 downloadDir
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1713,7 +1713,7 @@ downloads
 =
 >
 {
-do_print
+info
 (
 removed
 {
@@ -1911,7 +1911,7 @@ getInterruptibleUrl
 (
 )
 ;
-do_print
+info
 (
 url
 )
@@ -2012,7 +2012,7 @@ events
 await
 progressPromise
 ;
-do_print
+info
 (
 download
 reached
@@ -2547,7 +2547,7 @@ events
 await
 progressPromise
 ;
-do_print
+info
 (
 download
 reached
@@ -3539,7 +3539,7 @@ events
 await
 progressPromise
 ;
-do_print
+info
 (
 download
 reached
@@ -4801,7 +4801,7 @@ events
 await
 progressPromise
 ;
-do_print
+info
 (
 download
 reached

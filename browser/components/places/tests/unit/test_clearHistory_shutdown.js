@@ -199,7 +199,7 @@ test_execute
 (
 )
 {
-do_print
+info
 (
 "
 Initialize
@@ -430,7 +430,7 @@ sanitizeOnShutdown
 true
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -475,7 +475,7 @@ TRANSITION_TYPED
 )
 ;
 }
-do_print
+info
 (
 "
 Add
@@ -493,7 +493,7 @@ testData
 "
 )
 ;
-do_print
+info
 (
 "
 Add
@@ -526,7 +526,7 @@ history
 "
 )
 ;
-do_print
+info
 (
 "
 Simulate
@@ -633,7 +633,7 @@ finalize
 )
 ;
 }
-do_print
+info
 (
 "
 Check

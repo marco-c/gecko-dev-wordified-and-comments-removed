@@ -2519,7 +2519,7 @@ aAddon
 null
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -2629,7 +2629,7 @@ nsIBlocklistService
 STATE_BLOCKED
 )
 {
-do_print
+info
 (
 "
 blocked
@@ -2657,7 +2657,7 @@ PERM_CAN_ENABLE
 )
 )
 ;
-do_print
+info
 (
 "
 blocked
@@ -2694,7 +2694,7 @@ aAddon
 userDisabled
 )
 {
-do_print
+info
 (
 "
 userDisabled
@@ -2721,7 +2721,7 @@ PERM_CAN_ENABLE
 )
 )
 ;
-do_print
+info
 (
 "
 userDisabled
@@ -2752,7 +2752,7 @@ PERM_CAN_DISABLE
 }
 else
 {
-do_print
+info
 (
 "
 other
@@ -2792,7 +2792,7 @@ theme
 "
 )
 {
-do_print
+info
 (
 "
 other

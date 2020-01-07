@@ -1911,7 +1911,7 @@ frames
 ex
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -1927,7 +1927,7 @@ order
 "
 )
 ;
-do_print
+info
 (
 frames
 .
@@ -1945,7 +1945,7 @@ ex
 .
 stack
 ;
-do_print
+info
 (
 stack
 )
@@ -2017,7 +2017,7 @@ frames
 framesFound
 ]
 ;
-do_print
+info
 (
 "
 Searching
@@ -2048,7 +2048,7 @@ frame
 1
 )
 {
-do_print
+info
 (
 "
 Found
@@ -2064,7 +2064,7 @@ framesFound
 }
 else
 {
-do_print
+info
 (
 "
 Didn
@@ -2127,7 +2127,7 @@ lastIndex
 )
 )
 ;
-do_print
+info
 (
 "
 Ensuring
@@ -3163,7 +3163,7 @@ test_without_maintainStack
 (
 )
 {
-do_print
+info
 (
 "
 Calling
@@ -3200,7 +3200,7 @@ maintainStack
 =
 false
 ;
-do_print
+info
 (
 "
 Calling
@@ -3232,7 +3232,7 @@ error
 )
 )
 ;
-do_print
+info
 (
 "
 Calling

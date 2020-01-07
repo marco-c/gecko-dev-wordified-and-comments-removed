@@ -403,7 +403,7 @@ result
 =
 >
 {
-do_print
+info
 (
 result
 )
@@ -584,7 +584,7 @@ parseInt
 )
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

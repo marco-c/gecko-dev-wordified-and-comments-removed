@@ -279,7 +279,7 @@ clearHistory
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )
@@ -540,7 +540,7 @@ favicon
 "
 ]
 ;
-do_print
+info
 (
 Checking
 against
@@ -858,7 +858,7 @@ onSearchBegin
 =
 >
 {
-do_print
+info
 (
 "
 onSearchBegin
@@ -891,7 +891,7 @@ onSearchComplete
 =
 >
 {
-do_print
+info
 (
 "
 onSearchComplete
@@ -934,7 +934,7 @@ expectedSearches
 +
 ;
 }
-do_print
+info
 (
 "
 Searching
@@ -1032,7 +1032,7 @@ firstIndexToCheck
 =
 1
 ;
-do_print
+info
 (
 "
 Checking
@@ -1083,7 +1083,7 @@ getImageAt
 )
 }
 ;
-do_print
+info
 (
 First
 match
@@ -1125,7 +1125,7 @@ correct
 "
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -1193,7 +1193,7 @@ i
 )
 }
 ;
-do_print
+info
 (
 Found
 value
@@ -1302,7 +1302,7 @@ result
 )
 )
 {
-do_print
+info
 (
 "
 Got
@@ -2258,7 +2258,7 @@ start
 port
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2335,7 +2335,7 @@ data
 /
 "
 ;
-do_print
+info
 (
 "
 Adding
@@ -2380,7 +2380,7 @@ Ci
 nsISearchEngine
 )
 ;
-do_print
+info
 (
 "
 Observed
@@ -2438,7 +2438,7 @@ modified
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2471,7 +2471,7 @@ modified
 "
 )
 ;
-do_print
+info
 (
 "
 Adding
@@ -2550,7 +2550,7 @@ geoPref
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

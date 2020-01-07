@@ -153,7 +153,7 @@ check
 expectedToIncrement
 )
 {
-do_print
+info
 (
 Checking
 counter
@@ -381,7 +381,7 @@ run
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -407,7 +407,7 @@ testChanges
 }
 finally
 {
-do_print
+info
 (
 "
 Reset
@@ -427,7 +427,7 @@ markBookmarksAsSynced
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -449,7 +449,7 @@ testReparenting
 }
 finally
 {
-do_print
+info
 (
 "
 Reset
@@ -469,7 +469,7 @@ markBookmarksAsSynced
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -491,7 +491,7 @@ testSeparators
 }
 finally
 {
-do_print
+info
 (
 "
 Reset
@@ -562,7 +562,7 @@ title
 "
 )
 ;
-do_print
+info
 (
 Inserted
 bookmark
@@ -610,7 +610,7 @@ NORMAL
 }
 )
 ;
-do_print
+info
 (
 Updated
 sync
@@ -653,7 +653,7 @@ title
 "
 )
 ;
-do_print
+info
 (
 Changed
 title
@@ -701,7 +701,7 @@ value
 "
 )
 ;
-do_print
+info
 (
 Set
 anno
@@ -737,7 +737,7 @@ tag
 ]
 )
 ;
-do_print
+info
 (
 Tagged
 bookmark
@@ -768,7 +768,7 @@ keyword
 "
 )
 ;
-do_print
+info
 (
 Set
 keyword
@@ -801,7 +801,7 @@ keyword
 "
 )
 ;
-do_print
+info
 (
 Removed
 keyword
@@ -931,7 +931,7 @@ foo
 "
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -968,7 +968,7 @@ syncChangeCounter
 }
 )
 ;
-do_print
+info
 (
 "
 Move
@@ -1041,7 +1041,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-do_print
+info
 (
 Created
 the
@@ -1107,7 +1107,7 @@ bookmark
 "
 )
 ;
-do_print
+info
 (
 Created
 a
@@ -1161,7 +1161,7 @@ bookmark
 "
 )
 ;
-do_print
+info
 (
 Created
 a
@@ -1241,7 +1241,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-do_print
+info
 (
 Created
 a
@@ -1274,7 +1274,7 @@ check
 (
 )
 ;
-do_print
+info
 (
 Moving
 bookmark
@@ -1335,7 +1335,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-do_print
+info
 (
 Moving
 folder
@@ -1381,7 +1381,7 @@ bookmark
 "
 )
 ;
-do_print
+info
 (
 Prepended
 child
@@ -1416,7 +1416,7 @@ child3
 ]
 )
 ;
-do_print
+info
 (
 Reorder
 children

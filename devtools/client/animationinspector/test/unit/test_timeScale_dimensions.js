@@ -142,7 +142,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -169,7 +169,7 @@ of
 TEST_ENDDELAY_X
 )
 {
-do_print
+info
 (
 Adding
 animations

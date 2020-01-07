@@ -51,7 +51,7 @@ xml
 ]
 )
 ;
-do_print
+info
 (
 "
 The
@@ -142,7 +142,7 @@ ico74
 )
 )
 ;
-do_print
+info
 (
 "
 Invalid
@@ -177,7 +177,7 @@ getIcons
 (
 )
 ;
-do_print
+info
 (
 "
 Check

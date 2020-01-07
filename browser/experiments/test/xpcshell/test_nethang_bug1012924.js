@@ -162,7 +162,7 @@ write
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -133,7 +133,7 @@ assert_feature_works
 condition
 )
 {
-do_print
+info
 (
 "
 List
@@ -203,7 +203,7 @@ site
 }
 )
 ;
-do_print
+info
 (
 "
 Autofill
@@ -254,7 +254,7 @@ assert_feature_does_not_appear
 condition
 )
 {
-do_print
+info
 (
 "
 List
@@ -284,7 +284,7 @@ matches
 }
 )
 ;
-do_print
+info
 (
 "
 Autofill
@@ -468,7 +468,7 @@ PREF_FEATURE_EXPIRE_DAYS
 14
 )
 ;
-do_print
+info
 (
 "
 Preloaded
@@ -631,7 +631,7 @@ PREF_FEATURE_EXPIRE_DAYS
 14
 )
 ;
-do_print
+info
 (
 "
 Preloaded
@@ -1837,7 +1837,7 @@ toMatch
 :
 null
 ;
-do_print
+info
 (
 "
 User
@@ -1930,7 +1930,7 @@ json
 "
 )
 ;
-do_print
+info
 (
 "
 Source
@@ -1952,7 +1952,7 @@ response
 ok
 )
 ;
-do_print
+info
 (
 "
 The
@@ -1972,7 +1972,7 @@ json
 (
 )
 ;
-do_print
+info
 (
 "
 Storage
@@ -2010,7 +2010,7 @@ lastSite
 ]
 )
 ;
-do_print
+info
 (
 "
 Storage

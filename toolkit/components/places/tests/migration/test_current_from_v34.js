@@ -554,7 +554,7 @@ path
 }
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -615,7 +615,7 @@ mobileGuid
 )
 )
 ;
-do_print
+info
 (
 "
 Create

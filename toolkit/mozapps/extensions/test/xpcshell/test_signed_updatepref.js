@@ -280,7 +280,7 @@ changed
 "
 )
 ;
-do_print
+info
 (
 "
 Verifying

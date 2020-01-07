@@ -355,7 +355,7 @@ socket
 transport
 )
 {
-do_print
+info
 (
 "
 Accept
@@ -417,7 +417,7 @@ socket
 status
 )
 {
-do_print
+info
 (
 "
 TLS
@@ -606,7 +606,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 onStopListening
@@ -916,7 +916,7 @@ errorCode
 SSL_ERROR_BAD_CERT_ALERT
 )
 {
-do_print
+info
 (
 "
 Got
@@ -1009,7 +1009,7 @@ HELLO
 5
 )
 ;
-do_print
+info
 (
 "
 Output
@@ -1078,7 +1078,7 @@ errorCode
 SSL_ERROR_BAD_CERT_ALERT
 )
 {
-do_print
+info
 (
 "
 Server
@@ -1431,7 +1431,7 @@ close
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

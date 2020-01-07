@@ -237,7 +237,7 @@ start
 1
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1252,7 +1252,7 @@ broken
 "
 )
 {
-do_print
+info
 (
 "
 waiting

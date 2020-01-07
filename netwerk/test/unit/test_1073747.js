@@ -24,7 +24,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Testing

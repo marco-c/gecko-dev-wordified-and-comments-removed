@@ -168,7 +168,7 @@ parentGuid
 =
 >
 {
-do_print
+info
 (
 Got
 a
@@ -293,7 +293,7 @@ guid
 =
 >
 {
-do_print
+info
 (
 Got
 a
@@ -468,7 +468,7 @@ guid
 =
 >
 {
-do_print
+info
 (
 Got
 a

@@ -177,7 +177,7 @@ ensureMostRelevantIndexProvidedByHelperFunction
 (
 )
 {
-do_print
+info
 (
 "
 Running
@@ -468,7 +468,7 @@ ensureMostRelevantIndexProvidedByClassMethod
 (
 )
 {
-do_print
+info
 (
 "
 Running
@@ -515,7 +515,7 @@ ensureErrorThrownWithInvalidArguments
 (
 )
 {
-do_print
+info
 (
 "
 Running

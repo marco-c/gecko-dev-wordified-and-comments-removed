@@ -238,7 +238,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 manifest1
@@ -280,7 +280,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 manifest2
@@ -322,7 +322,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 app_handler
@@ -370,7 +370,7 @@ metadata
 response
 )
 {
-do_print
+info
 (
 "
 datafile_handler
@@ -906,7 +906,7 @@ start_cache_nonpinned_app
 (
 )
 {
-do_print
+info
 (
 "
 Start
@@ -976,7 +976,7 @@ function
 appcahe
 )
 {
-do_print
+info
 (
 "
 app1
@@ -1007,7 +1007,7 @@ error_count
 0
 ]
 ;
-do_print
+info
 (
 "
 Start
@@ -1097,7 +1097,7 @@ error_count
 0
 ]
 ;
-do_print
+info
 (
 "
 Start
@@ -1171,7 +1171,7 @@ break
 case
 STATE_ERROR
 :
-do_print
+info
 (
 "
 STATE_ERROR
@@ -1196,7 +1196,7 @@ function
 appcahe
 )
 {
-do_print
+info
 (
 "
 app2

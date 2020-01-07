@@ -598,7 +598,7 @@ a4
 a5
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -722,7 +722,7 @@ a4
 a5
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -835,7 +835,7 @@ a4
 a5
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -959,7 +959,7 @@ a4
 a5
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

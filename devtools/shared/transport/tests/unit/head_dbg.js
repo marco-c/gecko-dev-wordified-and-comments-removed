@@ -821,7 +821,7 @@ _listeners
 .
 port
 ;
-do_print
+info
 (
 "
 Debugger

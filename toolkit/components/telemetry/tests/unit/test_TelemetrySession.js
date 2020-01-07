@@ -832,7 +832,7 @@ true
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -3715,7 +3715,7 @@ maximalNumberOfConcurrentThreads
 gNumberOfThreadsLaunched
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

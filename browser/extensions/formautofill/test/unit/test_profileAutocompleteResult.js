@@ -2029,7 +2029,7 @@ testCase
 =
 >
 {
-do_print
+info
 (
 "
 Starting

@@ -282,7 +282,7 @@ syncXHR
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -302,7 +302,7 @@ break
 case
 2
 :
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -317,7 +317,7 @@ suspend
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (

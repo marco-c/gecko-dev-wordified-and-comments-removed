@@ -86,7 +86,7 @@ checkUpdateLogContains
 STATE_FAILED_MAR_CHANNEL_MISMATCH_ERROR
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

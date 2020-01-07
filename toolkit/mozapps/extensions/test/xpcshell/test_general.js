@@ -55,7 +55,7 @@ list
 .
 length
 ;
-do_execute_soon
+executeSoon
 (
 run_test_1
 )
@@ -113,7 +113,7 @@ pendingAddons
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -159,7 +159,7 @@ addons
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )

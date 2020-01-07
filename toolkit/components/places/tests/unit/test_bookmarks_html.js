@@ -1174,7 +1174,7 @@ png
 "
 )
 ;
-do_print
+info
 (
 "
 Importing
@@ -1199,7 +1199,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -1233,7 +1233,7 @@ Test
 }
 )
 ;
-do_print
+info
 (
 "
 Set
@@ -1360,7 +1360,7 @@ base64Icon
 }
 )
 ;
-do_print
+info
 (
 "
 Export
@@ -1384,7 +1384,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Set
@@ -1427,7 +1427,7 @@ getSystemPrincipal
 }
 )
 ;
-do_print
+info
 (
 "
 import
@@ -1461,7 +1461,7 @@ promiseAsyncUpdates
 (
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -1641,7 +1641,7 @@ in
 test_bookmarks
 )
 {
-do_print
+info
 (
 "
 [

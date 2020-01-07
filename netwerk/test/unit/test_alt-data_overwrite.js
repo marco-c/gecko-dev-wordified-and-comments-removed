@@ -434,7 +434,7 @@ alternativeDataType
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -467,7 +467,7 @@ close
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 flushAndOpenAltChannel
 )
@@ -520,7 +520,7 @@ if
 cacheFlushObserver
 )
 {
-do_print
+info
 (
 "
 ignoring
@@ -678,7 +678,7 @@ alternativeDataType
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -711,7 +711,7 @@ close
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 flushAndOpenAltChannel2
 )
@@ -764,7 +764,7 @@ if
 cacheFlushObserver2
 )
 {
-do_print
+info
 (
 "
 ignoring
@@ -853,7 +853,7 @@ buffer
 altContent
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -866,7 +866,7 @@ forceShrinkingGC
 (
 )
 ;
-do_print
+info
 (
 "
 writing
@@ -903,7 +903,7 @@ close
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 flushAndOpenAltChannel3
 )
@@ -956,7 +956,7 @@ if
 cacheFlushObserver3
 )
 {
-do_print
+info
 (
 "
 ignoring

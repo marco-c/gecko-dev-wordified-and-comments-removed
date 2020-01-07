@@ -170,7 +170,7 @@ selectedName
 kSearchEngineID
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

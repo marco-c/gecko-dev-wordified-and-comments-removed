@@ -120,7 +120,7 @@ perm
 ]
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -234,7 +234,7 @@ newPushDB
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

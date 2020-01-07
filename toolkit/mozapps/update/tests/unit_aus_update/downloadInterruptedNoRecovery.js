@@ -213,7 +213,7 @@ removeDownloadListener
 downloadListener
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

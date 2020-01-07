@@ -149,7 +149,7 @@ complete
 =
 true
 ;
-do_print
+info
 (
 "
 Warning
@@ -194,7 +194,7 @@ complete
 =
 true
 ;
-do_print
+info
 (
 "
 No
@@ -257,7 +257,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -304,7 +304,7 @@ ok
 warned
 )
 ;
-do_print
+info
 (
 "
 Checking

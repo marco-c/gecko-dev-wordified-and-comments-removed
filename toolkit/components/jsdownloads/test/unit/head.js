@@ -653,7 +653,7 @@ resolve
 =
 >
 {
-do_execute_soon
+executeSoon
 (
 resolve
 )
@@ -2080,7 +2080,7 @@ resolve
 (
 )
 ;
-do_print
+info
 (
 "
 Interruptible
@@ -2107,7 +2107,7 @@ continueResponses
 (
 )
 {
-do_print
+info
 (
 "
 Interruptible
@@ -2147,7 +2147,7 @@ aRequest
 aResponse
 )
 {
-do_print
+info
 (
 "
 Interruptible
@@ -2192,7 +2192,7 @@ finish
 (
 )
 ;
-do_print
+info
 (
 "
 Interruptible
@@ -2285,7 +2285,7 @@ start
 1
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2362,7 +2362,7 @@ com
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -2422,7 +2422,7 @@ enable
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -3395,7 +3395,7 @@ helperapplauncherdialog
 mock
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

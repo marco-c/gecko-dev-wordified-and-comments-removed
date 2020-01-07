@@ -475,7 +475,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Check
@@ -518,7 +518,7 @@ of
 TEST_ANIMATIONS
 )
 {
-do_print
+info
 (
 "
 Test
@@ -548,7 +548,7 @@ state
 )
 ;
 }
-do_print
+info
 (
 "
 Checking
@@ -575,7 +575,7 @@ maxEndTime
 expectedMaxEnd
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -608,7 +608,7 @@ maxEndTime
 )
 ;
 }
-do_print
+info
 (
 "
 Add
@@ -641,7 +641,7 @@ state
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -681,7 +681,7 @@ expectedDistance
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -720,7 +720,7 @@ expectedDistance
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -759,7 +759,7 @@ expectedTime
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -799,7 +799,7 @@ expectedTime
 )
 ;
 }
-do_print
+info
 (
 "
 Test
@@ -859,7 +859,7 @@ iterationCount
 }
 )
 ;
-do_print
+info
 (
 "
 Test

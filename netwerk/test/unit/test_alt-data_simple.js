@@ -564,7 +564,7 @@ check_has_alt_data_in_index
 false
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -597,7 +597,7 @@ close
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 flushAndOpenAltChannel
 )

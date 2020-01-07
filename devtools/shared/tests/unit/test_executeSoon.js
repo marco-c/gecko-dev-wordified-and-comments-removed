@@ -61,7 +61,7 @@ asyncstack
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -127,7 +127,7 @@ while
 stack
 )
 {
-do_print
+info
 (
 stack
 .

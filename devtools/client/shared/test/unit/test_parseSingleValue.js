@@ -573,7 +573,7 @@ of
 TEST_DATA
 )
 {
-do_print
+info
 (
 "
 Test
@@ -613,7 +613,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 "
 parseSingleValue
@@ -638,7 +638,7 @@ test
 throws
 )
 {
-do_print
+info
 (
 "
 Exception
@@ -656,7 +656,7 @@ true
 }
 else
 {
-do_print
+info
 (
 "
 Exception
@@ -686,7 +686,7 @@ actual
 expected
 )
 {
-do_print
+info
 (
 "
 Check

@@ -99,7 +99,7 @@ err
 becauseNoSuchFile
 )
 {
-do_print
+info
 (
 "
 File
@@ -119,7 +119,7 @@ err
 ;
 }
 }
-do_print
+info
 (
 "
 Attempting
@@ -176,7 +176,7 @@ catch
 err
 )
 {
-do_print
+info
 (
 "
 File
@@ -240,7 +240,7 @@ TypeError
 )
 ;
 }
-do_print
+info
 (
 "
 Attempting
@@ -281,7 +281,7 @@ js
 )
 )
 ;
-do_print
+info
 (
 "
 File
@@ -290,7 +290,7 @@ correctly
 "
 )
 ;
-do_print
+info
 (
 "
 Attempting
@@ -309,7 +309,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 Attempting

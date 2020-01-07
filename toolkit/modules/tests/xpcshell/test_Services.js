@@ -71,7 +71,7 @@ service
 interface
 )
 {
-do_print
+info
 (
 "
 Checking

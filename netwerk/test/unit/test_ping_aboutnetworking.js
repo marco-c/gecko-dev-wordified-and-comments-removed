@@ -110,7 +110,7 @@ index
 -
 1
 ;
-do_print
+info
 (
 "
 requestSockets
@@ -271,7 +271,7 @@ changed
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -386,7 +386,7 @@ found
 =
 false
 ;
-do_print
+info
 (
 "
 requestDNSInfo

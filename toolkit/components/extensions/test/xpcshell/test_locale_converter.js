@@ -219,7 +219,7 @@ active
 =
 true
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

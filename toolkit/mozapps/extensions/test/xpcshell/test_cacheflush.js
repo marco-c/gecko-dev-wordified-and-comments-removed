@@ -421,7 +421,7 @@ gCacheFlushCount
 =
 0
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -525,7 +525,7 @@ gCacheFlushCount
 =
 0
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -621,7 +621,7 @@ gCacheFlushCount
 =
 0
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

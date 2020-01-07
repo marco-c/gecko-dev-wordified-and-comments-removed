@@ -53,7 +53,7 @@ initComplete
 aResult
 )
 {
-do_print
+info
 (
 "
 init

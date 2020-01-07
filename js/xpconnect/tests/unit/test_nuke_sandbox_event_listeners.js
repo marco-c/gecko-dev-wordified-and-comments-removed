@@ -285,7 +285,7 @@ name
 "
 )
 ;
-do_print
+info
 (
 "
 Dispatch
@@ -312,7 +312,7 @@ FromTest
 await
 fromTestPromise
 ;
-do_print
+info
 (
 "
 Got
@@ -325,7 +325,7 @@ test
 await
 fromSandboxPromise
 ;
-do_print
+info
 (
 "
 Got
@@ -363,7 +363,7 @@ sandbox
 true
 )
 ;
-do_print
+info
 (
 "
 Nuke
@@ -378,7 +378,7 @@ nukeSandbox
 sandbox
 )
 ;
-do_print
+info
 (
 "
 Dispatch
@@ -415,7 +415,7 @@ FromTest
 await
 fromTestPromise
 ;
-do_print
+info
 (
 "
 Got
@@ -463,7 +463,7 @@ nuked
 "
 )
 ;
-do_print
+info
 (
 "
 Dispatch
@@ -500,7 +500,7 @@ FromTest
 await
 fromTestPromise
 ;
-do_print
+info
 (
 "
 Got

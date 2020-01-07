@@ -512,7 +512,7 @@ make_channel
 URI
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (

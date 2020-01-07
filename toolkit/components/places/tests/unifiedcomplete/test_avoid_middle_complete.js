@@ -37,7 +37,7 @@ TRANSITION_TYPED
 }
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -123,7 +123,7 @@ TRANSITION_TYPED
 }
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -255,7 +255,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -271,7 +271,7 @@ engine
 )
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -412,7 +412,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -428,7 +428,7 @@ engine
 )
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -562,7 +562,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -578,7 +578,7 @@ engine
 )
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -712,7 +712,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -728,7 +728,7 @@ engine
 )
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -871,7 +871,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -887,7 +887,7 @@ engine
 )
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -1035,7 +1035,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1051,7 +1051,7 @@ engine
 )
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -1112,7 +1112,7 @@ search
 }
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -1165,7 +1165,7 @@ search
 }
 )
 ;
-do_print
+info
 (
 "
 Should
@@ -1300,7 +1300,7 @@ TRANSITION_TYPED
 }
 )
 ;
-do_print
+info
 (
 "
 Should

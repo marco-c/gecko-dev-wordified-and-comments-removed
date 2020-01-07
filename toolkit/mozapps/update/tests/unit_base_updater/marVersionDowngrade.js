@@ -86,7 +86,7 @@ checkUpdateLogContains
 STATE_FAILED_VERSION_DOWNGRADE_ERROR
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

@@ -56,7 +56,7 @@ gPIDPersistProcess
 pid
 )
 {
-do_execute_soon
+executeSoon
 (
 waitForHelperSleepFinished
 )
@@ -117,7 +117,7 @@ checkUpdateLogContains
 ERR_PARENT_PID_PERSISTS
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

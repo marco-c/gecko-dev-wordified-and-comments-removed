@@ -481,7 +481,7 @@ aTopic
 aData
 )
 {
-do_execute_soon
+executeSoon
 (
 checkBlacklist
 )

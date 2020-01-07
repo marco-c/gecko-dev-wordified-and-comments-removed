@@ -168,7 +168,7 @@ status
 MSG_SHOULD_EQUAL
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -247,7 +247,7 @@ status
 MSG_SHOULD_EQUAL
 )
 ;
-do_execute_soon
+executeSoon
 (
 resumeDownload
 )
@@ -295,7 +295,7 @@ cleanupActiveUpdate
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

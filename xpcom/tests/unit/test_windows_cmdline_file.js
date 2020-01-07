@@ -93,7 +93,7 @@ quote
 +
 suffix
 ;
-do_print
+info
 (
 Testing
 with

@@ -99,7 +99,7 @@ function
 args
 )
 {
-do_print
+info
 (
 "
 Controller
@@ -469,7 +469,7 @@ error
 throw
 ex
 ;
-do_print
+info
 (
 "
 I

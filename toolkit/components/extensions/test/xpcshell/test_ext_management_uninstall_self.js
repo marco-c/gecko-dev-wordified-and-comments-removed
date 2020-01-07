@@ -271,7 +271,7 @@ service
 promptService
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

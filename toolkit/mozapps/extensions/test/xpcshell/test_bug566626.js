@@ -285,7 +285,7 @@ run_test_2
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -370,13 +370,13 @@ run_test_2
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -516,7 +516,7 @@ a1
 gAddon
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

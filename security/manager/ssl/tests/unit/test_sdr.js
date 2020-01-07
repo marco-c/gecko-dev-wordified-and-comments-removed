@@ -26,7 +26,7 @@ gSetPasswordShownCount
 +
 +
 ;
-do_print
+info
 (
 setPassword
 (
@@ -40,7 +40,7 @@ gSetPasswordShownCount
 times
 )
 ;
-do_print
+info
 (
 tokenName
 :
@@ -352,7 +352,7 @@ nsTokenPasswordDialogs
 gTokenPasswordDialogs
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

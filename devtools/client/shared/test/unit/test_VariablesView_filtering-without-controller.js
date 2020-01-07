@@ -188,7 +188,7 @@ value
 }
 )
 ;
-do_print
+info
 (
 "
 Performing

@@ -153,7 +153,7 @@ function
 command
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -180,7 +180,7 @@ function
 command
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

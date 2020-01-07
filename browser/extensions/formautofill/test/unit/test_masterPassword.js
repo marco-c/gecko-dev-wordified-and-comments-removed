@@ -259,7 +259,7 @@ watcher
 gWindowWatcher
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -299,7 +299,7 @@ test_encrypt_decrypt
 (
 )
 {
-do_print
+info
 (
 "
 Starting

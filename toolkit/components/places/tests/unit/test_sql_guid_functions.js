@@ -4,7 +4,7 @@ check_invariants
 aGuid
 )
 {
-do_print
+info
 (
 "
 Checking

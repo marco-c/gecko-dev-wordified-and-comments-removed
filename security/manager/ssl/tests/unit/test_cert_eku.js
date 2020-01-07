@@ -479,7 +479,7 @@ netscape_step_up_policy
 0
 )
 ;
-do_print
+info
 (
 "
 Netscape
@@ -543,7 +543,7 @@ older
 PRErrorCodeSuccess
 )
 ;
-do_print
+info
 (
 "
 Netscape
@@ -626,7 +626,7 @@ older
 PRErrorCodeSuccess
 )
 ;
-do_print
+info
 (
 "
 Netscape
@@ -709,7 +709,7 @@ older
 PRErrorCodeSuccess
 )
 ;
-do_print
+info
 (
 "
 Netscape

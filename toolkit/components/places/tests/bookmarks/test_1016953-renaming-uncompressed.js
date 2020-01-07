@@ -201,7 +201,7 @@ result
 length
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -445,7 +445,7 @@ result
 length
 )
 ;
-do_print
+info
 (
 "
 Check

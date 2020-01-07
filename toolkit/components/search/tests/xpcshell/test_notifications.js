@@ -80,7 +80,7 @@ engine
 name
 )
 ;
-do_print
+info
 (
 "
 Observer
@@ -150,7 +150,7 @@ currentEngine
 =
 engine
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -201,7 +201,7 @@ logLine
 engineNameOutput
 )
 ;
-do_print
+info
 (
 "
 expectedLog
@@ -221,7 +221,7 @@ n
 )
 )
 ;
-do_print
+info
 (
 "
 gTestLog
@@ -303,7 +303,7 @@ useHttpServer
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 cleanup

@@ -21,7 +21,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -313,7 +313,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -677,7 +677,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -1133,7 +1133,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -1608,7 +1608,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -2233,7 +2233,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -2715,7 +2715,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -3139,7 +3139,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -3585,7 +3585,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -4099,7 +4099,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -4517,7 +4517,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -4873,7 +4873,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -5234,7 +5234,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting
@@ -5596,7 +5596,7 @@ setup
 (
 )
 {
-do_print
+info
 (
 "
 Sorting

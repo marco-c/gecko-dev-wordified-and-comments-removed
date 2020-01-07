@@ -77,7 +77,7 @@ addObserver
 observer
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

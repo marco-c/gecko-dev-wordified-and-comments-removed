@@ -203,7 +203,7 @@ statusText
 MSG_SHOULD_EQUAL
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

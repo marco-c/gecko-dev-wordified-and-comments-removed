@@ -3435,7 +3435,7 @@ length
 1
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )

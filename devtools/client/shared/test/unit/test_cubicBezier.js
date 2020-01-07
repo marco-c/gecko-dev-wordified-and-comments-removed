@@ -320,7 +320,7 @@ convertsStringCoordinates
 (
 )
 {
-do_print
+info
 (
 "
 Converts
@@ -415,7 +415,7 @@ coordinatesToStringOutputsAString
 (
 )
 {
-do_print
+info
 (
 "
 coordinates
@@ -523,7 +523,7 @@ pointGettersReturnPointCoordinatesArrays
 (
 )
 {
-do_print
+info
 (
 "
 Points
@@ -611,7 +611,7 @@ toStringOutputsCubicBezierValue
 (
 )
 {
-do_print
+info
 (
 "
 toString
@@ -670,7 +670,7 @@ toStringOutputsCssPresetValues
 (
 )
 {
-do_print
+info
 (
 "
 toString
@@ -848,7 +848,7 @@ testParseTimingFunction
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -1129,7 +1129,7 @@ cb
 info
 )
 {
-do_print
+info
 (
 info
 )

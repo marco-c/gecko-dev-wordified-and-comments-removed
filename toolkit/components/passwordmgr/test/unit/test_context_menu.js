@@ -213,7 +213,7 @@ of
 testHostnames
 )
 {
-do_print
+info
 (
 "
 test

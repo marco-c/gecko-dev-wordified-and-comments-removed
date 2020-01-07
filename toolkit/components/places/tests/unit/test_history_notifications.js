@@ -271,7 +271,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 "
 Unable

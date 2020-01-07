@@ -32,7 +32,7 @@ test_domain
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -160,7 +160,7 @@ test_url
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -300,7 +300,7 @@ test_untyped_domain
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -378,7 +378,7 @@ test_typed_domain
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -466,7 +466,7 @@ test_untyped_url
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -556,7 +556,7 @@ test_typed_url
 (
 )
 {
-do_print
+info
 (
 "
 Searching

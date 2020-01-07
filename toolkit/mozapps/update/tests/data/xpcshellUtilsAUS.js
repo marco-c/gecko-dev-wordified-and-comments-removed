@@ -5005,7 +5005,7 @@ PREF_APP_UPDATE_LOG
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 testFinishWaitForUpdateXMLFiles
 )
@@ -9170,7 +9170,7 @@ string
 ;
 }
 }
-do_execute_soon
+executeSoon
 (
 runUpdateFinished
 )
@@ -9791,7 +9791,7 @@ resetEnvironment
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 checkUpdateStagedState
 .
@@ -10289,7 +10289,7 @@ string
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 stageUpdateFinished
 )
@@ -10773,7 +10773,7 @@ e
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 setupAppFilesAsync
 )
@@ -10781,7 +10781,7 @@ setupAppFilesAsync
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 setupUpdaterTestFinished
 )
@@ -12825,7 +12825,7 @@ args
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForHelperSleep
 )
@@ -12969,7 +12969,7 @@ args
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForHelperSleep
 )
@@ -13128,7 +13128,7 @@ args
 length
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForHelperSleep
 )
@@ -13420,7 +13420,7 @@ catch
 e
 )
 {
-do_execute_soon
+executeSoon
 (
 waitForHelperFinishFileUnlock
 )
@@ -13428,7 +13428,7 @@ waitForHelperFinishFileUnlock
 return
 ;
 }
-do_execute_soon
+executeSoon
 (
 waitForHelperExitFinished
 )
@@ -17169,7 +17169,7 @@ path
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 checkPostUpdateAppLog
 )
@@ -17242,7 +17242,7 @@ path
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 checkPostUpdateAppLog
 )
@@ -17267,7 +17267,7 @@ MSG_SHOULD_EQUAL
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 checkPostUpdateAppLogFinished
 )
@@ -18027,7 +18027,7 @@ updateCount
 aUpdateCount
 )
 ;
-do_execute_soon
+executeSoon
 (
 gCheckFunc
 )
@@ -18128,7 +18128,7 @@ statusText
 gStatusText
 )
 ;
-do_execute_soon
+executeSoon
 (
 gCheckFunc
 .
@@ -18207,7 +18207,7 @@ gStatusResult
 =
 aStatus
 ;
-do_execute_soon
+executeSoon
 (
 downloadListenerStop
 )
@@ -19318,7 +19318,7 @@ registerProvider
 dirProvider
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 AGP_cleanup
@@ -19856,7 +19856,7 @@ false
 )
 ;
 }
-do_execute_soon
+executeSoon
 (
 afterAppExits
 )
@@ -20080,7 +20080,7 @@ return
 ;
 }
 }
-do_execute_soon
+executeSoon
 (
 runUpdateFinished
 )

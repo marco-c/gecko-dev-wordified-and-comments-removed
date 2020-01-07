@@ -43,7 +43,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Saw
@@ -111,7 +111,7 @@ checkExpected
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -145,7 +145,7 @@ pop
 (
 )
 ;
-do_print
+info
 (
 "
 Looking

@@ -58,7 +58,7 @@ unwrapped
 ]
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -92,7 +92,7 @@ wait
 (
 )
 ;
-do_print
+info
 (
 "
 Barrier
@@ -145,7 +145,7 @@ unwrapped
 ]
 )
 {
-do_print
+info
 (
 "
 Kind
@@ -297,7 +297,7 @@ test_reentrant
 (
 )
 {
-do_print
+info
 (
 "
 Ensure
@@ -340,7 +340,7 @@ unwrapped
 ]
 )
 {
-do_print
+info
 (
 "
 Kind
@@ -398,7 +398,7 @@ blocker
 =
 >
 {
-do_print
+info
 (
 "
 Entering
@@ -426,7 +426,7 @@ blocker
 =
 >
 {
-do_print
+info
 (
 "
 Entering
@@ -468,7 +468,7 @@ resolve
 (
 )
 ;
-do_print
+info
 (
 "
 Waiting
@@ -487,7 +487,7 @@ deferredOuter
 .
 promise
 ;
-do_print
+info
 (
 "
 Waiting
@@ -506,7 +506,7 @@ deferredInner
 .
 promise
 ;
-do_print
+info
 (
 "
 Allowing
@@ -528,7 +528,7 @@ resolve
 (
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -543,7 +543,7 @@ wait
 (
 )
 ;
-do_print
+info
 (
 "
 Waiting
@@ -571,7 +571,7 @@ test_phase_removeBlocker
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -620,7 +620,7 @@ unwrapped
 ]
 )
 {
-do_print
+info
 (
 "
 Switching
@@ -631,7 +631,7 @@ kind
 kind
 )
 ;
-do_print
+info
 (
 "
 Attempt
@@ -664,7 +664,7 @@ blocker
 =
 >
 {
-do_print
+info
 (
 "
 This
@@ -708,7 +708,7 @@ aBlocker
 aShouldRemove
 )
 {
-do_print
+info
 (
 "
 Attempting
@@ -778,7 +778,7 @@ blocker
 false
 )
 ;
-do_print
+info
 (
 "
 Attempt
@@ -811,7 +811,7 @@ null
 false
 )
 ;
-do_print
+info
 (
 "
 Waiting
@@ -830,7 +830,7 @@ wait
 (
 )
 ;
-do_print
+info
 (
 "
 Attempt
@@ -864,7 +864,7 @@ blockers
 =
 >
 {
-do_print
+info
 (
 "
 This
@@ -901,7 +901,7 @@ promise
 =
 >
 {
-do_print
+info
 (
 "
 This
@@ -949,7 +949,7 @@ promise
 =
 >
 {
-do_print
+info
 (
 "
 Attempt
@@ -1012,7 +1012,7 @@ i
 )
 ;
 }
-do_print
+info
 (
 "
 Waiting
@@ -1042,7 +1042,7 @@ blockers
 false
 )
 ;
-do_print
+info
 (
 "
 Attempt
@@ -1087,7 +1087,7 @@ blocker
 false
 )
 ;
-do_print
+info
 (
 "
 Attempt
@@ -1132,7 +1132,7 @@ test_state
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -1227,7 +1227,7 @@ state
 0
 ]
 ;
-do_print
+info
 (
 "
 State

@@ -342,7 +342,7 @@ testCount
 return
 ;
 }
-do_print
+info
 (
 "
 Checked

@@ -237,7 +237,7 @@ finish
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -556,7 +556,7 @@ MS_IN_ONE_DAY
 ]
 }
 ;
-do_print
+info
 (
 "
 gManifestObject

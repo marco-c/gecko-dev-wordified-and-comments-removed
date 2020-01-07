@@ -64,7 +64,7 @@ function
 options
 )
 {
-do_print
+info
 (
 "
 Remover
@@ -344,7 +344,7 @@ hasBookmark
 )
 ;
 }
-do_print
+info
 (
 "
 Generating
@@ -407,7 +407,7 @@ if
 hasOwnBookmark
 )
 {
-do_print
+info
 (
 "
 Adding
@@ -447,7 +447,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Bookmark
@@ -457,7 +457,7 @@ added
 ;
 }
 }
-do_print
+info
 (
 "
 Adding
@@ -473,7 +473,7 @@ addVisits
 visits
 )
 ;
-do_print
+info
 (
 "
 Preparing
@@ -820,7 +820,7 @@ i
 .
 test
 ;
-do_print
+info
 (
 "
 Marking
@@ -1070,7 +1070,7 @@ onFrecencyChanged
 aURI
 )
 {
-do_print
+info
 (
 "
 onFrecencyChanged
@@ -1117,7 +1117,7 @@ onManyFrecenciesChanged
 (
 )
 {
-do_print
+info
 (
 "
 Many
@@ -1149,7 +1149,7 @@ onDeleteURI
 aURI
 )
 {
-do_print
+info
 (
 "
 onDeleteURI
@@ -1219,7 +1219,7 @@ options
 useCallback
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -1243,7 +1243,7 @@ of
 visits
 )
 {
-do_print
+info
 (
 "
 Comparing
@@ -1367,7 +1367,7 @@ remove
 }
 else
 {
-do_print
+info
 (
 "
 No
@@ -1435,7 +1435,7 @@ visits
 i
 ]
 ;
-do_print
+info
 (
 "
 Controlling
@@ -1594,7 +1594,7 @@ db
 ;
 }
 }
-do_print
+info
 (
 "
 Checking
@@ -1622,7 +1622,7 @@ values
 )
 )
 ;
-do_print
+info
 (
 "
 Checking

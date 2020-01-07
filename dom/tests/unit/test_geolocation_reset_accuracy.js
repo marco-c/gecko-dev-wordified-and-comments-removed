@@ -208,7 +208,7 @@ _seenHigh
 =
 true
 ;
-do_execute_soon
+executeSoon
 (
 stop_high_accuracy_watch
 )

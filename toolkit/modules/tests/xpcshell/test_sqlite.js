@@ -806,7 +806,7 @@ setSchemaVersion
 v
 )
 ;
-do_print
+info
 (
 "
 Schema

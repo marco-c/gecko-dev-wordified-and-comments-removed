@@ -137,7 +137,7 @@ call
 return
 ;
 }
-do_print
+info
 (
 "
 Launching
@@ -175,7 +175,7 @@ next
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -200,7 +200,7 @@ complete
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -257,7 +257,7 @@ runtest
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -372,7 +372,7 @@ onResolve
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -2990,7 +2990,7 @@ resolve
 2
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -3144,7 +3144,7 @@ resolve
 2
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -4546,7 +4546,7 @@ resolve
 2
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -4565,7 +4565,7 @@ value
 =
 >
 {
-do_print
+info
 (
 "
 Starting
@@ -4582,7 +4582,7 @@ event_loop
 null
 )
 ;
-do_print
+info
 (
 "
 Setting
@@ -5187,7 +5187,7 @@ test_uncaught_is_reported
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -5241,7 +5241,7 @@ error
 (
 )
 ;
-do_print
+info
 (
 "
 Posted
@@ -5420,7 +5420,7 @@ onError
 (
 )
 {
-do_print
+info
 (
 "
 The
@@ -5466,7 +5466,7 @@ executor
 resolve
 )
 {
-do_execute_soon
+executeSoon
 (
 resolve
 )

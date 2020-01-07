@@ -6,7 +6,7 @@ test_untrimmed_secure_www
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -104,7 +104,7 @@ test_untrimmed_secure_www_path
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -212,7 +212,7 @@ test_untrimmed_secure
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -305,7 +305,7 @@ test_untrimmed_secure_path
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -408,7 +408,7 @@ test_untrimmed_www
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -502,7 +502,7 @@ test_untrimmed_www_path
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -610,7 +610,7 @@ test_untrimmed_ftp
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -703,7 +703,7 @@ test_untrimmed_ftp_path
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -806,7 +806,7 @@ test_priority_1
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -993,7 +993,7 @@ test_priority_2
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -1154,7 +1154,7 @@ test_priority_3
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -1291,7 +1291,7 @@ test_priority_4
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -1406,7 +1406,7 @@ test_priority_5
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -1523,7 +1523,7 @@ test_priority_6
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -1640,7 +1640,7 @@ test_longer_domain
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -1772,7 +1772,7 @@ test_escaped_chars
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -1891,7 +1891,7 @@ test_unsecure_secure
 (
 )
 {
-do_print
+info
 (
 "
 Don
@@ -2011,7 +2011,7 @@ test_unsecure_secure_domain
 (
 )
 {
-do_print
+info
 (
 "
 Don
@@ -2123,7 +2123,7 @@ test_untyped_www
 (
 )
 {
-do_print
+info
 (
 "
 Untyped
@@ -2227,7 +2227,7 @@ test_untyped_ftp
 (
 )
 {
-do_print
+info
 (
 "
 Untyped
@@ -2329,7 +2329,7 @@ test_untyped_secure
 (
 )
 {
-do_print
+info
 (
 "
 Untyped
@@ -2431,7 +2431,7 @@ test_untyped_secure_www
 (
 )
 {
-do_print
+info
 (
 "
 Untyped

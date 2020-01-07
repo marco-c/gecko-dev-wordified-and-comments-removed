@@ -207,7 +207,7 @@ b1
 isActive
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

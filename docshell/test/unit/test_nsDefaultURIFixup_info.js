@@ -194,7 +194,7 @@ fixup
 dns_first_for_single_words
 "
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -3635,7 +3635,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Check
@@ -3691,7 +3691,7 @@ of
 affectedTests
 )
 {
-do_print
+info
 (
 "
 Affected
@@ -3864,7 +3864,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 Caught
@@ -3902,7 +3902,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 Caught
@@ -3932,7 +3932,7 @@ null
 continue
 ;
 }
-do_print
+info
 (
 "
 Checking

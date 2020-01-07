@@ -149,7 +149,7 @@ guid
 =
 >
 {
-do_print
+info
 (
 "
 onPageChanged
@@ -377,7 +377,7 @@ test_copyFavicons_noop
 (
 )
 {
-do_print
+info
 (
 "
 Unknown
@@ -407,7 +407,7 @@ copied
 "
 )
 ;
-do_print
+info
 (
 "
 Unknown
@@ -446,7 +446,7 @@ copied
 "
 )
 ;
-do_print
+info
 (
 "
 Unknown
@@ -485,7 +485,7 @@ copied
 "
 )
 ;
-do_print
+info
 (
 "
 Unknown
@@ -526,7 +526,7 @@ copied
 "
 )
 ;
-do_print
+info
 (
 "
 Known
@@ -594,7 +594,7 @@ test_copyFavicons
 (
 )
 {
-do_print
+info
 (
 "
 Normal
@@ -729,7 +729,7 @@ found
 "
 )
 ;
-do_print
+info
 (
 "
 Private
@@ -881,7 +881,7 @@ test_copyFavicons_overlap
 (
 )
 {
-do_print
+info
 (
 "
 Copy

@@ -518,7 +518,7 @@ length
 1
 )
 ;
-do_print
+info
 (
 Object
 .

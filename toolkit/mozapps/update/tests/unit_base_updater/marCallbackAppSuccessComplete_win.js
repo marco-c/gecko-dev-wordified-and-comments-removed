@@ -85,7 +85,7 @@ checkUpdateLogContents
 LOG_COMPLETE_SUCCESS
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

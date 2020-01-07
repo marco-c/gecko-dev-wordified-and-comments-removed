@@ -497,7 +497,7 @@ payload
 .
 info
 ;
-do_print
+info
 (
 "
 Archive

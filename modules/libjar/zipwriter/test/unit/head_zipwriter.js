@@ -228,7 +228,7 @@ ZipWriter
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

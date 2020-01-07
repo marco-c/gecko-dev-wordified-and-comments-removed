@@ -488,7 +488,7 @@ bugzilla
 ]
 }
 ;
-do_print
+info
 (
 "
 Adding
@@ -506,7 +506,7 @@ change1
 ]
 )
 ;
-do_print
+info
 (
 "
 These
@@ -539,7 +539,7 @@ root
 )
 )
 ;
-do_print
+info
 (
 "
 Updating
@@ -674,7 +674,7 @@ root
 )
 )
 ;
-do_print
+info
 (
 "
 Deleting

@@ -293,7 +293,7 @@ test_cached_engine_properties
 (
 )
 {
-do_print
+info
 (
 "
 init
@@ -314,7 +314,7 @@ initComplete
 aResult
 )
 {
-do_print
+info
 (
 "
 init
@@ -431,7 +431,7 @@ test_cache_write
 (
 )
 {
-do_print
+info
 (
 "
 test
@@ -468,7 +468,7 @@ exists
 )
 )
 ;
-do_print
+info
 (
 "
 Next
@@ -487,7 +487,7 @@ forceFlush
 (
 )
 {
-do_print
+info
 (
 "
 Forcing
@@ -558,7 +558,7 @@ service
 "
 )
 ;
-do_print
+info
 (
 "
 Cache
@@ -588,7 +588,7 @@ cacheWritten
 =
 >
 {
-do_print
+info
 (
 "
 Check

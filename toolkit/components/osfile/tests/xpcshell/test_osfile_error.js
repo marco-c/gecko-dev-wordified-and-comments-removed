@@ -371,7 +371,7 @@ exception
 ex
 ;
 }
-do_print
+info
 (
 exception
 )

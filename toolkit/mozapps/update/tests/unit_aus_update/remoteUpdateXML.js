@@ -46,7 +46,7 @@ standardInit
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_pt01
 )

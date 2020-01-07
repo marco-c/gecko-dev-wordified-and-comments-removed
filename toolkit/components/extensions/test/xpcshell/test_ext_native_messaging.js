@@ -1695,7 +1695,7 @@ succeeded
 "
 )
 ;
-do_print
+info
 (
 "
 waiting
@@ -1813,7 +1813,7 @@ PREF_MAX_WRITE
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 clearPref
 )
@@ -2010,7 +2010,7 @@ PREF_MAX_READ
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 clearPref
 )

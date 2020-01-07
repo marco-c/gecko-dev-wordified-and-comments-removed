@@ -6,7 +6,7 @@ test_encoded
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -271,7 +271,7 @@ test_encoded_trimmed
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -524,7 +524,7 @@ test_encoded_partial
 (
 )
 {
-do_print
+info
 (
 "
 Searching
@@ -785,7 +785,7 @@ test_encoded_path
 (
 )
 {
-do_print
+info
 (
 "
 Searching

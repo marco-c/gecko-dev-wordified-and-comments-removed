@@ -818,7 +818,7 @@ TESTS
 )
 )
 {
-do_print
+info
 (
 "
 Running

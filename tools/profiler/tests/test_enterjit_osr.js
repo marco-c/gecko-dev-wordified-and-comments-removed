@@ -92,7 +92,7 @@ while
 1
 )
 {
-do_print
+info
 (
 "
 loop
@@ -232,7 +232,7 @@ profile
 lastSample
 )
 ;
-do_print
+info
 (
 stack
 )

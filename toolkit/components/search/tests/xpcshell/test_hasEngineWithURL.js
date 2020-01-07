@@ -3,7 +3,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -16,7 +16,7 @@ useHttpServer
 (
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -519,7 +519,7 @@ false
 UNSORTED_ENGINE
 )
 ;
-do_print
+info
 (
 "
 The
@@ -542,7 +542,7 @@ false
 SORTED_ENGINE
 )
 ;
-do_print
+info
 (
 "
 The
@@ -577,7 +577,7 @@ false
 SORTED_ENGINE_QUERYPARM_CHANGE
 )
 ;
-do_print
+info
 (
 "
 There
@@ -600,7 +600,7 @@ false
 SORTED_ENGINE_NAME_CHANGE
 )
 ;
-do_print
+info
 (
 "
 There
@@ -623,7 +623,7 @@ addEngineWithParams
 UNSORTED_ENGINE
 )
 ;
-do_print
+info
 (
 "
 The
@@ -642,7 +642,7 @@ true
 UNSORTED_ENGINE
 )
 ;
-do_print
+info
 (
 "
 The
@@ -664,7 +664,7 @@ true
 SORTED_ENGINE
 )
 ;
-do_print
+info
 (
 "
 The
@@ -700,7 +700,7 @@ false
 SORTED_ENGINE_QUERYPARM_CHANGE
 )
 ;
-do_print
+info
 (
 "
 There
@@ -724,7 +724,7 @@ true
 SORTED_ENGINE_NAME_CHANGE
 )
 ;
-do_print
+info
 (
 "
 There

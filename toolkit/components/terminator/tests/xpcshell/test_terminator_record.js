@@ -141,7 +141,7 @@ PATH
 tmp
 "
 ;
-do_print
+info
 (
 "
 Initializing
@@ -202,7 +202,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Waiting
@@ -238,7 +238,7 @@ PATH
 break
 ;
 }
-do_print
+info
 (
 "
 The
@@ -270,7 +270,7 @@ resolve
 )
 ;
 }
-do_print
+info
 (
 "
 The
@@ -303,7 +303,7 @@ utf
 }
 )
 ;
-do_print
+info
 (
 raw
 )
@@ -368,7 +368,7 @@ now
 (
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -391,7 +391,7 @@ teardown
 null
 )
 ;
-do_print
+info
 (
 "
 Moving
@@ -533,7 +533,7 @@ durations
 "
 )
 ;
-do_print
+info
 (
 "
 Cleaning
@@ -562,7 +562,7 @@ remove
 PATH_TMP
 )
 ;
-do_print
+info
 (
 "
 Waiting

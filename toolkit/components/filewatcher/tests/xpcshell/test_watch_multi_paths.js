@@ -114,7 +114,7 @@ function
 changed
 )
 {
-do_print
+info
 (
 changed
 +
@@ -156,7 +156,7 @@ function
 resourcePath
 )
 {
-do_print
+info
 (
 resourcePath
 +
@@ -199,7 +199,7 @@ function
 resourcePath
 )
 {
-do_print
+info
 (
 resourcePath
 +
@@ -267,7 +267,7 @@ tempDirNameBase
 i
 )
 ;
-do_print
+info
 (
 "
 Creating

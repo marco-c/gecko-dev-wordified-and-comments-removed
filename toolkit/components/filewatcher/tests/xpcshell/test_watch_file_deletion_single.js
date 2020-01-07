@@ -121,7 +121,7 @@ deferred
 reject
 )
 ;
-do_print
+info
 (
 "
 Removing

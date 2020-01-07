@@ -105,7 +105,7 @@ engine2
 1
 )
 ;
-do_print
+info
 (
 "
 Next
@@ -123,13 +123,13 @@ Promise
 resolve
 =
 >
-do_execute_soon
+executeSoon
 (
 resolve
 )
 )
 ;
-do_print
+info
 (
 "
 Forcing
@@ -168,7 +168,7 @@ application
 await
 promiseCommit
 ;
-do_print
+info
 (
 "
 Commit

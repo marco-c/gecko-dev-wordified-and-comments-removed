@@ -326,7 +326,7 @@ socket
 transport
 )
 {
-do_print
+info
 (
 "
 Accept
@@ -388,7 +388,7 @@ socket
 status
 )
 {
-do_print
+info
 (
 "
 TLS
@@ -693,7 +693,7 @@ HELLO
 5
 )
 ;
-do_print
+info
 (
 "
 Output

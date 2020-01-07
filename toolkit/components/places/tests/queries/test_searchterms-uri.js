@@ -366,7 +366,7 @@ containerOpen
 =
 true
 ;
-do_print
+info
 (
 "
 Number
@@ -401,7 +401,7 @@ childCount
 i
 )
 {
-do_print
+info
 (
 "
 result
@@ -439,7 +439,7 @@ testData
 root
 )
 ;
-do_print
+info
 (
 "
 change

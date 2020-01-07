@@ -29,7 +29,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -134,7 +134,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -255,7 +255,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -382,7 +382,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -518,7 +518,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -659,7 +659,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting

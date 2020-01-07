@@ -66,7 +66,7 @@ getCurrentDirectory
 (
 )
 ;
-do_print
+info
 (
 "
 Open
@@ -134,7 +134,7 @@ close
 (
 )
 ;
-do_print
+info
 (
 "
 Ensure
@@ -173,7 +173,7 @@ exn
 ex
 ;
 }
-do_print
+info
 (
 "
 Ensure
@@ -217,7 +217,7 @@ exn
 becauseClosed
 )
 ;
-do_print
+info
 (
 "
 Ensure
@@ -257,7 +257,7 @@ exn
 ex
 ;
 }
-do_print
+info
 (
 "
 Ensure

@@ -5332,7 +5332,7 @@ in
 TESTCASES
 )
 {
-do_print
+info
 (
 Start
 to
@@ -5366,7 +5366,7 @@ collectionName
 ]
 )
 {
-do_print
+info
 (
 test
 .

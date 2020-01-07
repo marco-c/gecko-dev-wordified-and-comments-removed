@@ -3401,7 +3401,7 @@ test_merge
 (
 )
 {
-do_print
+info
 (
 "
 Starting

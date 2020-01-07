@@ -32,7 +32,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 returning
@@ -87,7 +87,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 returning
@@ -184,7 +184,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 returning
@@ -449,7 +449,7 @@ request
 response
 )
 {
-do_print
+info
 (
 "
 gFetchCount

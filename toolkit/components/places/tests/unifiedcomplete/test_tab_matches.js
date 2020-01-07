@@ -178,7 +178,7 @@ uri4
 1
 )
 ;
-do_print
+info
 (
 "
 two
@@ -274,7 +274,7 @@ false
 }
 )
 ;
-do_print
+info
 (
 "
 three
@@ -394,7 +394,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 three
@@ -526,7 +526,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 a
@@ -663,7 +663,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 a
@@ -800,7 +800,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 a
@@ -932,7 +932,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 three
@@ -1068,7 +1068,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 three
@@ -1197,7 +1197,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 two
@@ -1301,7 +1301,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 three
@@ -1430,7 +1430,7 @@ favicon
 }
 )
 ;
-do_print
+info
 (
 "
 tab
@@ -1507,7 +1507,7 @@ rocks
 }
 )
 ;
-do_print
+info
 (
 "
 tab
@@ -1562,7 +1562,7 @@ mozilla
 }
 )
 ;
-do_print
+info
 (
 "
 tab
@@ -1624,7 +1624,7 @@ mozilla
 }
 )
 ;
-do_print
+info
 (
 "
 tab

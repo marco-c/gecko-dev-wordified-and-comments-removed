@@ -609,7 +609,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 e
 )
@@ -715,7 +715,7 @@ run_next_test
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

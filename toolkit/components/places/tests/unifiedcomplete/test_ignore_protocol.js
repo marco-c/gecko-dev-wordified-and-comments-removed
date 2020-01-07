@@ -69,7 +69,7 @@ title
 ]
 )
 ;
-do_print
+info
 (
 "
 Searching

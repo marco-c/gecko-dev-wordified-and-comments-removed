@@ -1056,7 +1056,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -1138,7 +1138,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -1232,7 +1232,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Test

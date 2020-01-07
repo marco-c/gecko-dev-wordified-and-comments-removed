@@ -109,7 +109,7 @@ function
 entry
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

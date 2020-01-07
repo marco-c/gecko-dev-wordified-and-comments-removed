@@ -104,7 +104,7 @@ function
 changed
 )
 {
-do_print
+info
 (
 changed
 +

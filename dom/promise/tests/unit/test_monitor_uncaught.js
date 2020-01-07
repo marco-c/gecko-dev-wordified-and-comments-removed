@@ -169,7 +169,7 @@ PromiseDebugging
 getPromiseID
 )
 ;
-do_print
+info
 (
 "
 Identifiers
@@ -344,7 +344,7 @@ function
 promise
 )
 {
-do_print
+info
 (
 this
 .
@@ -567,7 +567,7 @@ resolve
 }
 else
 {
-do_print
+info
 (
 this
 .
@@ -592,7 +592,7 @@ observations
 "
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -924,7 +924,7 @@ catch
 =
 >
 {
-do_print
+info
 (
 "
 Consumed
@@ -1284,7 +1284,7 @@ push
 s
 )
 ;
-do_print
+info
 (
 "
 Promise
@@ -1384,7 +1384,7 @@ promise
 ;
 }
 }
-do_print
+info
 (
 "
 Test
@@ -1401,7 +1401,7 @@ onLeftUncaught
 .
 blocker
 ;
-do_print
+info
 (
 "
 All
@@ -1426,7 +1426,7 @@ size
 0
 )
 {
-do_print
+info
 (
 "
 onConsumed
@@ -1441,7 +1441,7 @@ Promise
 "
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -1479,7 +1479,7 @@ onConsumed
 blocker
 ;
 }
-do_print
+info
 (
 "
 All
@@ -1679,7 +1679,7 @@ Promise
 }
 }
 ;
-do_print
+info
 (
 "
 Adding
@@ -1739,7 +1739,7 @@ active
 =
 false
 ;
-do_print
+info
 (
 "
 Removing
@@ -1757,7 +1757,7 @@ Promise
 "
 )
 ;
-do_print
+info
 (
 "
 Rejecting

@@ -70,7 +70,7 @@ MySearchEngine
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -197,7 +197,7 @@ frecency
 "
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -350,7 +350,7 @@ my
 )
 )
 ;
-do_print
+info
 (
 "
 Check

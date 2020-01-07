@@ -997,7 +997,7 @@ PLUGINS
 disabled
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -1141,7 +1141,7 @@ plugin
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

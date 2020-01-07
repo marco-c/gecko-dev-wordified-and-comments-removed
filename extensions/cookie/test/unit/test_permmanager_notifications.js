@@ -153,7 +153,7 @@ changed
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -181,7 +181,7 @@ now
 ;
 yield
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -209,7 +209,7 @@ now
 ;
 yield
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -228,7 +228,7 @@ permType
 ;
 yield
 ;
-do_execute_soon
+executeSoon
 (
 function
 (

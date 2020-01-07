@@ -1247,7 +1247,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 testcase
 .
@@ -1323,7 +1323,7 @@ testcase
 =
 >
 {
-do_print
+info
 (
 testcase
 .

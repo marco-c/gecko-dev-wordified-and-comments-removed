@@ -525,7 +525,7 @@ allOverAndDead
 =
 false
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -1399,7 +1399,7 @@ allow
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

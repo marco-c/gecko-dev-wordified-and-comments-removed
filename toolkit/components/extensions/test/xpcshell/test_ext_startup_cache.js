@@ -396,7 +396,7 @@ name
 "
 )
 ;
-do_print
+info
 (
 "
 Restart
@@ -466,7 +466,7 @@ name
 "
 )
 ;
-do_print
+info
 (
 "
 Change
@@ -550,7 +550,7 @@ name
 "
 )
 ;
-do_print
+info
 (
 "
 Update
@@ -624,7 +624,7 @@ name
 "
 )
 ;
-do_print
+info
 (
 "
 Change

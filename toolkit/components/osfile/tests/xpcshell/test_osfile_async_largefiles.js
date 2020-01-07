@@ -113,7 +113,7 @@ pos
 =
 0
 ;
-do_print
+info
 (
 "
 Moving
@@ -157,7 +157,7 @@ getPosition
 pos
 )
 ;
-do_print
+info
 (
 "
 Moving
@@ -201,7 +201,7 @@ getPosition
 pos
 )
 ;
-do_print
+info
 (
 "
 Moving
@@ -534,7 +534,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 ex
 .

@@ -844,7 +844,7 @@ a7
 strictCompatibility
 )
 ;
-do_execute_soon
+executeSoon
 (
 aCallback
 )
@@ -968,7 +968,7 @@ run_test_1
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -1007,7 +1007,7 @@ run_test_2
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -1040,7 +1040,7 @@ run_test_3
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -1079,7 +1079,7 @@ run_test_4
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -1112,7 +1112,7 @@ run_test_5
 (
 )
 {
-do_print
+info
 (
 "
 Test

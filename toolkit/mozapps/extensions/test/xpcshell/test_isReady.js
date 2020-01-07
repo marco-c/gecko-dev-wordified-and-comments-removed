@@ -87,7 +87,7 @@ addManagerListener
 listener
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -157,7 +157,7 @@ gotShutdownEvent
 =
 false
 ;
-do_print
+info
 (
 "
 Shutting
@@ -258,7 +258,7 @@ gotShutdownEvent
 =
 false
 ;
-do_print
+info
 (
 "
 Starting

@@ -1714,7 +1714,7 @@ bookmark
 )
 )
 ;
-do_print
+info
 (
 bookmarks
 .

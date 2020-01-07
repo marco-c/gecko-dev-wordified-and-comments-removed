@@ -411,7 +411,7 @@ gIsFromCache
 +
 ;
 }
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -1036,7 +1036,7 @@ test_triggerNetwork
 0
 )
 ;
-do_execute_soon
+executeSoon
 (
 (
 )
@@ -1581,7 +1581,7 @@ gResponseCounter
 11
 )
 ;
-do_print
+info
 (
 "
 IsFromCache
@@ -1596,7 +1596,7 @@ n
 "
 )
 ;
-do_print
+info
 (
 "
 Number

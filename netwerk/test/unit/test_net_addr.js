@@ -65,7 +65,7 @@ listener
 .
 port
 ;
-do_print
+info
 (
 '
 server
@@ -102,7 +102,7 @@ socket
 trans
 )
 {
-do_print
+info
 (
 '
 server
@@ -601,7 +601,7 @@ testDataStore
 =
 null
 ;
-do_execute_soon
+executeSoon
 (
 run_next_test
 )
@@ -693,7 +693,7 @@ TestServer
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

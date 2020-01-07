@@ -126,7 +126,7 @@ false
 true
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

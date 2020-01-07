@@ -259,7 +259,7 @@ gCurrentTestcase
 .
 passwordToUse
 ;
-do_print
+info
 (
 "
 getPKCS12FilePassword
@@ -304,7 +304,7 @@ text
 =
 >
 {
-do_print
+info
 (
 alert
 (
@@ -472,7 +472,7 @@ runOneTestcase
 testcase
 )
 {
-do_print
+info
 (
 running
 {
@@ -623,7 +623,7 @@ prompter
 gPromptFactory
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -132,7 +132,7 @@ next
 (
 )
 {
-do_print
+info
 (
 "
 Cleanup

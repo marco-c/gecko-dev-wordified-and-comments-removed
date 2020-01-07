@@ -80,7 +80,7 @@ null
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )

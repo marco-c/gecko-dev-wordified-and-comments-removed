@@ -68,7 +68,7 @@ searchTerms
 null
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -182,7 +182,7 @@ Search
 }
 )
 ;
-do_print
+info
 (
 "
 Past
@@ -268,7 +268,7 @@ bookmark
 }
 )
 ;
-do_print
+info
 (
 "
 Past

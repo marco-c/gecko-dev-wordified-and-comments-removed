@@ -94,7 +94,7 @@ checkUpdateLogContents
 LOG_PARTIAL_FAILURE
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

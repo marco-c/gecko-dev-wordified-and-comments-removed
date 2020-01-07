@@ -1752,7 +1752,7 @@ shouldInit
 false
 )
 {
-do_print
+info
 (
 "
 Performing
@@ -1891,7 +1891,7 @@ executeAsync
 stmt
 )
 ;
-do_print
+info
 (
 "
 Request
@@ -1917,7 +1917,7 @@ result
 )
 )
 ;
-do_print
+info
 (
 "
 Extracting
@@ -1953,7 +1953,7 @@ function
 results
 )
 {
-do_print
+info
 (
 "
 Data
@@ -2033,7 +2033,7 @@ asyncClose
 adb
 )
 ;
-do_print
+info
 (
 "
 Standard
@@ -2156,7 +2156,7 @@ options
 true
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -2232,7 +2232,7 @@ ok
 raised
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -2307,7 +2307,7 @@ ok
 raised
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -2393,7 +2393,7 @@ test_async_open_with_shared_cache
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -2468,7 +2468,7 @@ executeAsync
 stmt
 )
 ;
-do_print
+info
 (
 "
 Request
@@ -2494,7 +2494,7 @@ result
 )
 )
 ;
-do_print
+info
 (
 "
 Extracting
@@ -2530,7 +2530,7 @@ function
 results
 )
 {
-do_print
+info
 (
 "
 Data
@@ -2623,7 +2623,7 @@ test_clone_trivial_async
 (
 )
 {
-do_print
+info
 (
 "
 Open
@@ -2656,7 +2656,7 @@ Ci
 mozIStorageAsyncConnection
 )
 ;
-do_print
+info
 (
 "
 AsyncClone
@@ -2697,7 +2697,7 @@ Ci
 mozIStorageConnection
 )
 ;
-do_print
+info
 (
 "
 Close
@@ -2711,7 +2711,7 @@ asyncClose
 db
 )
 ;
-do_print
+info
 (
 "
 Close
@@ -2741,7 +2741,7 @@ use
 strict
 "
 ;
-do_print
+info
 (
 "
 Testing
@@ -2785,7 +2785,7 @@ Ci
 mozIStorageConnection
 )
 ;
-do_print
+info
 (
 "
 Cloning
@@ -2802,7 +2802,7 @@ asyncClone
 adb1
 )
 ;
-do_print
+info
 (
 "
 Testing
@@ -2846,7 +2846,7 @@ Ci
 mozIStorageConnection
 )
 ;
-do_print
+info
 (
 "
 Inserting
@@ -2898,7 +2898,7 @@ executeAsync
 stmt
 )
 ;
-do_print
+info
 (
 "
 Request
@@ -2924,7 +2924,7 @@ result
 )
 )
 ;
-do_print
+info
 (
 "
 Extracting
@@ -2963,7 +2963,7 @@ function
 results
 )
 {
-do_print
+info
 (
 "
 Data
@@ -3039,7 +3039,7 @@ finalize
 (
 )
 ;
-do_print
+info
 (
 "
 Closing
@@ -3053,7 +3053,7 @@ asyncClose
 adb2
 )
 ;
-do_print
+info
 (
 "
 First
@@ -3068,7 +3068,7 @@ asyncClose
 adb1
 )
 ;
-do_print
+info
 (
 "
 Second
@@ -5028,7 +5028,7 @@ test_async_clone_with_temp_trigger_and_table
 (
 )
 {
-do_print
+info
 (
 "
 Open
@@ -5061,7 +5061,7 @@ Ci
 mozIStorageAsyncConnection
 )
 ;
-do_print
+info
 (
 "
 Set
@@ -5152,7 +5152,7 @@ finalize
 )
 ;
 }
-do_print
+info
 (
 "
 Create
@@ -5187,7 +5187,7 @@ Ci
 mozIStorageAsyncConnection
 )
 ;
-do_print
+info
 (
 "
 Insert
@@ -5245,7 +5245,7 @@ finalize
 (
 )
 ;
-do_print
+info
 (
 "
 Fire
@@ -5283,7 +5283,7 @@ finalize
 (
 )
 ;
-do_print
+info
 (
 "
 Read
@@ -5343,7 +5343,7 @@ markh
 )
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -5375,7 +5375,7 @@ Ci
 mozIStorageAsyncConnection
 )
 ;
-do_print
+info
 (
 "
 Read
@@ -5421,7 +5421,7 @@ finalize
 (
 )
 ;
-do_print
+info
 (
 "
 Clean
@@ -5459,7 +5459,7 @@ test_sync_clone_in_transaction
 (
 )
 {
-do_print
+info
 (
 "
 Open
@@ -5492,7 +5492,7 @@ Ci
 mozIStorageAsyncConnection
 )
 ;
-do_print
+info
 (
 "
 Begin
@@ -5509,7 +5509,7 @@ beginTransaction
 (
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -5578,7 +5578,7 @@ query
 )
 ;
 }
-do_print
+info
 (
 "
 Clone
@@ -5602,7 +5602,7 @@ clone
 false
 )
 ;
-do_print
+info
 (
 "
 Drop
@@ -5623,7 +5623,7 @@ TABLE
 test_temp
 )
 ;
-do_print
+info
 (
 "
 Commit
@@ -5637,7 +5637,7 @@ commitTransaction
 (
 )
 ;
-do_print
+info
 (
 "
 Clone
@@ -5675,7 +5675,7 @@ finalize
 (
 )
 ;
-do_print
+info
 (
 "
 Clean
@@ -5706,7 +5706,7 @@ test_sync_clone_with_function
 (
 )
 {
-do_print
+info
 (
 "
 Open
@@ -5739,7 +5739,7 @@ Ci
 mozIStorageAsyncConnection
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -5803,7 +5803,7 @@ store_last_inserted_name
 func
 )
 ;
-do_print
+info
 (
 "
 Create
@@ -5842,7 +5842,7 @@ name
 END
 )
 ;
-do_print
+info
 (
 "
 Clone
@@ -5861,7 +5861,7 @@ clone
 false
 )
 ;
-do_print
+info
 (
 "
 Write
@@ -5900,7 +5900,7 @@ kit
 "
 )
 ;
-do_print
+info
 (
 "
 Clean

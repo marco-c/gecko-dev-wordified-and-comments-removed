@@ -616,7 +616,7 @@ be
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -764,7 +764,7 @@ hello
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

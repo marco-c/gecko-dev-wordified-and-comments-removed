@@ -371,7 +371,7 @@ start
 port
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

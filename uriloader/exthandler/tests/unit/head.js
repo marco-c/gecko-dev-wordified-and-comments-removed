@@ -557,7 +557,7 @@ true
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 async
 function

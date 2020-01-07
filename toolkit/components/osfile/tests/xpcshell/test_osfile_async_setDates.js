@@ -602,7 +602,7 @@ Android
 "
 )
 {
-do_print
+info
 (
 "
 File

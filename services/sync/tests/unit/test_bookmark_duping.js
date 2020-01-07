@@ -892,7 +892,7 @@ expectedFailures
 length
 )
 {
-do_print
+info
 (
 "
 Validation
@@ -901,7 +901,7 @@ failed
 "
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -911,7 +911,7 @@ summary
 )
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -923,7 +923,7 @@ undefined
 )
 )
 ;
-do_print
+info
 (
 "
 Expected
@@ -940,7 +940,7 @@ undefined
 )
 )
 ;
-do_print
+info
 (
 "
 Server
@@ -981,7 +981,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 Local
@@ -1565,7 +1565,7 @@ Folder
 "
 )
 ;
-do_print
+info
 (
 folder1_guid
 =
@@ -1994,7 +1994,7 @@ Folder
 "
 )
 ;
-do_print
+info
 (
 folder1_guid
 =
@@ -2137,7 +2137,7 @@ now
 deltaSeconds
 )
 ;
-do_print
+info
 (
 new
 duplicate
@@ -2489,7 +2489,7 @@ folder
 "
 )
 ;
-do_print
+info
 (
 folder1
 =
@@ -2960,7 +2960,7 @@ folder
 "
 )
 ;
-do_print
+info
 (
 folder1
 =
@@ -3434,7 +3434,7 @@ folder
 "
 )
 ;
-do_print
+info
 (
 folder1
 =

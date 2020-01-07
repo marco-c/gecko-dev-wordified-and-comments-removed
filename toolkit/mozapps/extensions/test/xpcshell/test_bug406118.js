@@ -327,7 +327,7 @@ updated
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 aCallback
 )

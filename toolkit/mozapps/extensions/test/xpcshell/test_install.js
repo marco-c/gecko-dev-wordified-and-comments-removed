@@ -1607,7 +1607,7 @@ id
 version
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -1788,7 +1788,7 @@ onDownloadProgress
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -1929,7 +1929,7 @@ iconURL
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -2990,7 +2990,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -3495,7 +3495,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -3753,7 +3753,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_9
 )
@@ -3971,7 +3971,7 @@ install
 .
 file
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -4318,7 +4318,7 @@ a3
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_11
 )
@@ -4850,7 +4850,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_14
 )
@@ -5025,7 +5025,7 @@ continued
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -5053,7 +5053,7 @@ run_test_15
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -5215,7 +5215,7 @@ continued
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_16
 )
@@ -5297,7 +5297,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install2_1_ended
@@ -5386,7 +5386,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install2_2_ended
@@ -5450,7 +5450,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_17
 )
@@ -5559,7 +5559,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install2_1_ended2
@@ -5685,7 +5685,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install2_2_ended2
@@ -5738,7 +5738,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_18
 )
@@ -5872,7 +5872,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install_2_1_ended3
@@ -5985,7 +5985,7 @@ onInstallEnded
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 install_2_2_ended3
@@ -6038,7 +6038,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_18_1
 )
@@ -6220,7 +6220,7 @@ unused
 aAddon
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 test18_1_install_ended
@@ -6280,7 +6280,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_19
 )
@@ -6390,7 +6390,7 @@ unused
 aAddon
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 test19_install_ended
@@ -6450,7 +6450,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_20
 )
@@ -6535,7 +6535,7 @@ unused
 aAddon
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 test20_install_ended
@@ -6595,7 +6595,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_21
 )

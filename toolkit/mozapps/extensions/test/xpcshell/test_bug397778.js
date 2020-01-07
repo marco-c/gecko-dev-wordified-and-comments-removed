@@ -179,7 +179,7 @@ Name
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -257,7 +257,7 @@ description
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -333,7 +333,7 @@ description
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_4
 )
@@ -414,7 +414,7 @@ Description
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -503,7 +503,7 @@ addon
 name
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_6
 )
@@ -580,7 +580,7 @@ Description
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

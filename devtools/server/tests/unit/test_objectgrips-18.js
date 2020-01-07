@@ -370,7 +370,7 @@ check_enum_properties
 response
 )
 {
-do_print
+info
 (
 "
 Check
@@ -432,7 +432,7 @@ value
 "
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -578,7 +578,7 @@ _value
 )
 ;
 }
-do_print
+info
 (
 "
 Check
@@ -615,7 +615,7 @@ data
 "
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -755,7 +755,7 @@ check_enum_symbols
 response
 )
 {
-do_print
+info
 (
 "
 Check
@@ -817,7 +817,7 @@ value
 "
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -1059,7 +1059,7 @@ Function
 "
 )
 ;
-do_print
+info
 (
 "
 Check
@@ -1096,7 +1096,7 @@ data
 "
 )
 ;
-do_print
+info
 (
 "
 Check

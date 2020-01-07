@@ -127,7 +127,7 @@ parse
 testCode
 )
 ;
-do_print
+info
 (
 "
 Reflect
@@ -136,7 +136,7 @@ AST
 "
 )
 ;
-do_print
+info
 (
 JSON
 .
@@ -148,7 +148,7 @@ null
 )
 )
 ;
-do_print
+info
 (
 "
 acorn
@@ -157,7 +157,7 @@ AST
 "
 )
 ;
-do_print
+info
 (
 JSON
 .

@@ -112,7 +112,7 @@ prop
 ]
 )
 {
-do_print
+info
 (
 "
 Checking

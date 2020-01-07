@@ -2754,7 +2754,7 @@ handle_earlyformsubmit_event
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -3351,7 +3351,7 @@ check_records_saving_is_called_correctly
 (
 )
 {
-do_print
+info
 (
 "
 Starting

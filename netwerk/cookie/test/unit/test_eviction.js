@@ -221,7 +221,7 @@ splice
 0
 ]
 ;
-do_print
+info
 (
 '
 testing
@@ -292,7 +292,7 @@ splice
 0
 ]
 ;
-do_print
+info
 (
 '
 testing
@@ -1761,7 +1761,7 @@ left
 length
 )
 {
-do_print
+info
 (
 "
 unexpected
@@ -1780,7 +1780,7 @@ right
 length
 )
 {
-do_print
+info
 (
 "
 expected
@@ -2061,7 +2061,7 @@ url
 .
 spec
 ;
-do_print
+info
 (
 s
 )

@@ -80,7 +80,7 @@ foo
 "
 )
 ;
-do_print
+info
 (
 "
 issuing
@@ -123,7 +123,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 issuing
@@ -165,7 +165,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 issuing

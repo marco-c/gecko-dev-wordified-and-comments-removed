@@ -498,7 +498,7 @@ containerOpen
 =
 true
 ;
-do_print
+info
 (
 "
 Number
@@ -533,7 +533,7 @@ childCount
 i
 )
 {
-do_print
+info
 (
 "
 result
@@ -571,7 +571,7 @@ testData
 root
 )
 ;
-do_print
+info
 (
 "
 Adding
@@ -639,7 +639,7 @@ root
 )
 )
 ;
-do_print
+info
 (
 "
 Updating
@@ -695,7 +695,7 @@ root
 )
 )
 ;
-do_print
+info
 (
 "
 Updating
@@ -871,7 +871,7 @@ root
 )
 )
 ;
-do_print
+info
 (
 "
 Deleting

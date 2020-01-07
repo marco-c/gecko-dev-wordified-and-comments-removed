@@ -5,7 +5,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 visit
@@ -142,7 +142,7 @@ searchengine
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -295,7 +295,7 @@ searchengine
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -406,7 +406,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -517,7 +517,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -636,7 +636,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -735,7 +735,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -821,7 +821,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -929,7 +929,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 non
@@ -973,7 +973,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 url
@@ -1050,7 +1050,7 @@ firefox
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1077,7 +1077,7 @@ firefox
 }
 )
 ;
-do_print
+info
 (
 "
 whitelisted
@@ -1138,7 +1138,7 @@ false
 }
 )
 ;
-do_print
+info
 (
 "
 url
@@ -1195,7 +1195,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1231,7 +1231,7 @@ mozilla
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1305,7 +1305,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1375,7 +1375,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1478,7 +1478,7 @@ enabled
 false
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1501,7 +1501,7 @@ enabled
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1556,7 +1556,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1625,7 +1625,7 @@ enabled
 keywordEnabled
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1686,7 +1686,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1747,7 +1747,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 visit
@@ -1806,7 +1806,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 numerical
@@ -1858,7 +1858,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 numerical
@@ -1918,7 +1918,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 access
@@ -1983,7 +1983,7 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 access

@@ -148,7 +148,7 @@ TEST_CASES
 )
 )
 {
-do_print
+info
 (
 "
 Starting

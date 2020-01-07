@@ -282,7 +282,7 @@ bind
 asyncRunner
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -316,7 +316,7 @@ gen
 (
 )
 {
-do_print
+info
 (
 "
 Running
@@ -2166,7 +2166,7 @@ obs
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -2235,7 +2235,7 @@ wait
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 next
 )

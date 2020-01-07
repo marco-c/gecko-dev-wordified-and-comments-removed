@@ -345,7 +345,7 @@ length
 0
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1121,7 +1121,7 @@ check
 (
 )
 {
-do_print
+info
 (
 Check
 normal
@@ -1291,7 +1291,7 @@ capture
 (
 )
 {
-do_print
+info
 (
 "
 Capture
@@ -1412,7 +1412,7 @@ checkCaptured
 (
 )
 {
-do_print
+info
 (
 Check
 captured

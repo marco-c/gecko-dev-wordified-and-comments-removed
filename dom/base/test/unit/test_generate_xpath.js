@@ -156,7 +156,7 @@ html
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -218,7 +218,7 @@ body
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -284,7 +284,7 @@ id
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -358,7 +358,7 @@ id
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -434,7 +434,7 @@ id
 "
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -537,7 +537,7 @@ id
 "
 )
 ;
-do_print
+info
 (
 "
 Test

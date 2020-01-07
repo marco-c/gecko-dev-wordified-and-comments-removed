@@ -335,7 +335,7 @@ test_shutdown_clients
 (
 )
 {
-do_print
+info
 (
 "
 Ensuring
@@ -578,7 +578,7 @@ dbClosed
 }
 )
 ;
-do_print
+info
 (
 "
 Now
@@ -640,7 +640,7 @@ of
 assertions
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -660,7 +660,7 @@ value
 )
 ;
 }
-do_print
+info
 (
 "
 Ensure

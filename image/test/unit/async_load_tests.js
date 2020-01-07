@@ -941,7 +941,7 @@ run_test
 (
 )
 {
-do_register_cleanup
+registerCleanupFunction
 (
 cleanup
 )

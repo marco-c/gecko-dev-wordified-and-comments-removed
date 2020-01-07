@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-do_print
+info
 (
 "
 starting

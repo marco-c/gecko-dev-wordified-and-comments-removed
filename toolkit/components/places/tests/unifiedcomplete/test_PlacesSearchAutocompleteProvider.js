@@ -1048,7 +1048,7 @@ topic
 verb
 )
 {
-do_print
+info
 (
 "
 browser

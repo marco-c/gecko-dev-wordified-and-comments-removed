@@ -207,7 +207,7 @@ state
 action
 )
 {
-do_print
+info
 (
 "
 Action

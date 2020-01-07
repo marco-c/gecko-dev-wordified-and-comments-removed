@@ -73,7 +73,7 @@ guid
 .
 index
 ;
-do_print
+info
 (
 Index
 :
@@ -84,7 +84,7 @@ bmIndex
 n
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -107,7 +107,7 @@ bmIndex
 )
 )
 ;
-do_print
+info
 (
 Checking
 out
@@ -149,7 +149,7 @@ bmIndex
 )
 ;
 }
-do_print
+info
 (
 "
 Checking
@@ -690,7 +690,7 @@ length
 0
 ]
 ;
-do_print
+info
 (
 Removing
 item
@@ -795,7 +795,7 @@ MIN_RAND
 )
 )
 ;
-do_print
+info
 (
 Moving
 item

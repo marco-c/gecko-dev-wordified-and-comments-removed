@@ -2372,7 +2372,7 @@ callback
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -632,7 +632,7 @@ expectedResults
 sectionIndex
 ]
 ;
-do_print
+info
 (
 "
 FieldName
@@ -654,7 +654,7 @@ fieldName
 )
 )
 ;
-do_print
+info
 (
 "
 FieldName
@@ -794,7 +794,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -1179,7 +1179,7 @@ formautofill
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 head_cleanup

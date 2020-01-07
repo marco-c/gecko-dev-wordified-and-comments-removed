@@ -51,7 +51,7 @@ null
 =
 >
 {
-do_print
+info
 (
 Checking
 policy

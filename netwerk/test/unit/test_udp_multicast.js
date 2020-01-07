@@ -296,7 +296,7 @@ s
 message
 )
 {
-do_print
+info
 (
 "
 Received
@@ -345,7 +345,7 @@ status
 }
 )
 ;
-do_print
+info
 (
 "
 Multicast
@@ -435,7 +435,7 @@ add_test
 =
 >
 {
-do_print
+info
 (
 "
 Joining
@@ -488,7 +488,7 @@ add_test
 =
 >
 {
-do_print
+info
 (
 "
 Disabling
@@ -554,7 +554,7 @@ add_test
 =
 >
 {
-do_print
+info
 (
 "
 Changing
@@ -622,7 +622,7 @@ add_test
 =
 >
 {
-do_print
+info
 (
 "
 Leaving

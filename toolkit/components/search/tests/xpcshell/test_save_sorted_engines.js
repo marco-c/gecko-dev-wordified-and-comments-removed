@@ -99,7 +99,7 @@ promiseAfterCache
 (
 )
 ;
-do_print
+info
 (
 "
 Commit
@@ -169,7 +169,7 @@ promiseAfterCache
 (
 )
 ;
-do_print
+info
 (
 "
 Commit
@@ -245,7 +245,7 @@ promiseAfterCache
 (
 )
 ;
-do_print
+info
 (
 "
 Commit

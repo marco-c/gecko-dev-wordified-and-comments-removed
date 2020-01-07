@@ -1422,7 +1422,7 @@ cleanupActiveUpdate
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )
@@ -1433,7 +1433,7 @@ waitForUpdateXMLFilesFinished
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 doTestFinish
 )

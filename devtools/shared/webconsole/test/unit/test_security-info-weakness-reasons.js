@@ -160,7 +160,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -183,7 +183,7 @@ of
 TEST_CASES
 )
 {
-do_print
+info
 (
 "
 Testing

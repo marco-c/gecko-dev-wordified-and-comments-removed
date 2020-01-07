@@ -201,7 +201,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Running
@@ -464,7 +464,7 @@ err
 becauseExists
 )
 {
-do_print
+info
 (
 "
 With

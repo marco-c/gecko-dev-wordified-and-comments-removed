@@ -915,7 +915,7 @@ addDirectory
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_1
 )
@@ -1453,7 +1453,7 @@ newb1
 isActive
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_3
 )
@@ -1860,7 +1860,7 @@ newb1
 isActive
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_5
 )
@@ -2256,7 +2256,7 @@ newb1
 null
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_8
 )
@@ -2575,7 +2575,7 @@ org
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_9
 )
@@ -2682,7 +2682,7 @@ org
 "
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_12
 )
@@ -2985,7 +2985,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_16
 )
@@ -3017,7 +3017,7 @@ function
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 check_installed_dictionary
@@ -3211,7 +3211,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_17
 )
@@ -3811,7 +3811,7 @@ rdf
 )
 )
 ;
-do_execute_soon
+executeSoon
 (
 check_test_23
 )
@@ -4060,7 +4060,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_25
 )
@@ -4320,7 +4320,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_26
 )
@@ -4562,7 +4562,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_27
 )
@@ -4809,7 +4809,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_28
 )
@@ -5049,7 +5049,7 @@ uninstall
 (
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_29
 )

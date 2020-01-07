@@ -80,7 +80,7 @@ offsetsGetterReturnsData
 (
 )
 {
-do_print
+info
 (
 "
 offsets
@@ -247,7 +247,7 @@ left
 "
 )
 ;
-do_print
+info
 (
 "
 offsets
@@ -350,7 +350,7 @@ convertsOffsetsToCoordinates
 (
 )
 {
-do_print
+info
 (
 "
 Converts
@@ -536,7 +536,7 @@ plotsCanvas
 (
 )
 {
-do_print
+info
 (
 "
 Plots

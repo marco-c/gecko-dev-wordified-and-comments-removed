@@ -95,7 +95,7 @@ of
 objects
 )
 {
-do_print
+info
 (
 uneval
 (

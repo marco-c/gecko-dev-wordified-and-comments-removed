@@ -153,7 +153,7 @@ headless_button
 .
 html
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1170,7 +1170,7 @@ r
 =
 >
 {
-do_execute_soon
+executeSoon
 (
 r
 )

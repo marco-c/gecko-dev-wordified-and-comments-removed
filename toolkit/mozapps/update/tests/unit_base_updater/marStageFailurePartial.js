@@ -86,7 +86,7 @@ checkUpdateLogContains
 ERR_LOADSOURCEFILE_FAILED
 )
 ;
-do_execute_soon
+executeSoon
 (
 waitForUpdateXMLFiles
 )

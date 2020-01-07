@@ -23,7 +23,7 @@ run_next_test
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 remove_bookmarks_html
 )

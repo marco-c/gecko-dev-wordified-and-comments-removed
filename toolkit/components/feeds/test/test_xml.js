@@ -35,7 +35,7 @@ doc
 ;
 try
 {
-do_print
+info
 (
 "
 Testing
@@ -221,7 +221,7 @@ data
 base
 ;
 }
-do_print
+info
 (
 "
 Testing

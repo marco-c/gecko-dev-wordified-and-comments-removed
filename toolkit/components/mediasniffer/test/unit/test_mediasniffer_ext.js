@@ -333,7 +333,7 @@ request
 context
 )
 {
-do_print
+info
 (
 "
 Sniffing

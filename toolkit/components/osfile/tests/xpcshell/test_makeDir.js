@@ -55,7 +55,7 @@ Path
 var
 profileDir
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

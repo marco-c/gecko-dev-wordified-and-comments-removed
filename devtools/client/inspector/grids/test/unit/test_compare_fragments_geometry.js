@@ -685,7 +685,7 @@ if
 desc
 )
 {
-do_print
+info
 (
 desc
 )

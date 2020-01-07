@@ -125,7 +125,7 @@ case
 do_print
 "
 :
-do_print
+info
 (
 data
 .

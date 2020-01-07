@@ -369,7 +369,7 @@ instancesOfObserversAreSharedBetweenWindows
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -396,7 +396,7 @@ shared
 "
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -444,7 +444,7 @@ obs11
 obs12
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -492,7 +492,7 @@ obs21
 obs22
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -545,7 +545,7 @@ eventsAreBatched
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -647,7 +647,7 @@ resize
 onResize
 )
 ;
-do_print
+info
 (
 "
 Fake
@@ -669,7 +669,7 @@ reflow
 (
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -694,7 +694,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 Fake
@@ -716,7 +716,7 @@ reflow
 (
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -742,7 +742,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 Fake
@@ -785,7 +785,7 @@ mockResize
 (
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -811,7 +811,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 Faking
@@ -896,7 +896,7 @@ noEventsAreSentWhenThereAreNoReflowsAndLoopTimeouts
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -972,7 +972,7 @@ reflows
 onReflows
 )
 ;
-do_print
+info
 (
 "
 Faking
@@ -1022,7 +1022,7 @@ observerIsAlreadyStarted
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -1105,7 +1105,7 @@ destroyStopsObserving
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -1171,7 +1171,7 @@ stoppingAndStartingSeveralTimesWorksCorrectly
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -1293,7 +1293,7 @@ reflowsArentStackedWhenStopped
 (
 )
 {
-do_print
+info
 (
 "
 Checking
@@ -1327,7 +1327,7 @@ getLayoutChangesObserver
 tabActor
 )
 ;
-do_print
+info
 (
 "
 Stoping
@@ -1342,7 +1342,7 @@ stop
 (
 )
 ;
-do_print
+info
 (
 "
 Faking
@@ -1386,7 +1386,7 @@ reflow
 (
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -1411,7 +1411,7 @@ length
 0
 )
 ;
-do_print
+info
 (
 "
 Starting
@@ -1466,7 +1466,7 @@ reflow
 (
 )
 ;
-do_print
+info
 (
 "
 Checking
@@ -1500,7 +1500,7 @@ stackedReflowsAreResetOnStop
 (
 )
 {
-do_print
+info
 (
 "
 Checking

@@ -198,7 +198,7 @@ stat
 destPath
 )
 ;
-do_print
+info
 (
 stat
 .

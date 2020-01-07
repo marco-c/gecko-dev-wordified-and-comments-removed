@@ -542,7 +542,7 @@ aZipReader
 aSignerCert
 )
 {
-do_print
+info
 (
 "
 openSignedAppFileCallback

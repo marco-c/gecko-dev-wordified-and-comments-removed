@@ -6,7 +6,7 @@ test_not_autofill_ws_1
 (
 )
 {
-do_print
+info
 (
 "
 Do
@@ -93,7 +93,7 @@ test_not_autofill_ws_2
 (
 )
 {
-do_print
+info
 (
 "
 Do
@@ -183,7 +183,7 @@ test_not_autofill_ws_3
 (
 )
 {
-do_print
+info
 (
 "
 Do
@@ -276,7 +276,7 @@ test_not_autofill_ws_4
 (
 )
 {
-do_print
+info
 (
 "
 Do
@@ -372,7 +372,7 @@ test_not_autofill_ws_5
 (
 )
 {
-do_print
+info
 (
 "
 Do
@@ -456,7 +456,7 @@ test_not_autofill_ws_6
 (
 )
 {
-do_print
+info
 (
 "
 Do

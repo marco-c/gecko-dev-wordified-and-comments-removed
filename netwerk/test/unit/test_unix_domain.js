@@ -242,7 +242,7 @@ socket
 '
 )
 ;
-do_print
+info
 (
 "
 creating
@@ -319,7 +319,7 @@ socket
 '
 )
 ;
-do_print
+info
 (
 "
 creating
@@ -357,7 +357,7 @@ aServ
 aTransport
 )
 {
-do_print
+info
 (
 "
 called
@@ -518,7 +518,7 @@ function
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -557,7 +557,7 @@ Murgatroyd
 "
 )
 ;
-do_print
+info
 (
 "
 server
@@ -580,7 +580,7 @@ Murgatroyd
 18
 )
 ;
-do_print
+info
 (
 "
 server
@@ -608,7 +608,7 @@ aServ
 aStatus
 )
 {
-do_print
+info
 (
 "
 called
@@ -735,7 +735,7 @@ Murgatroyd
 17
 )
 ;
-do_print
+info
 (
 "
 client
@@ -755,7 +755,7 @@ function
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -881,7 +881,7 @@ Murgatroyd
 "
 )
 ;
-do_print
+info
 (
 "
 client
@@ -1102,7 +1102,7 @@ function
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -1574,7 +1574,7 @@ function
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -1676,7 +1676,7 @@ function
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -1819,7 +1819,7 @@ aServ
 aTransport
 )
 {
-do_print
+info
 (
 "
 called
@@ -1877,7 +1877,7 @@ function
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -1947,7 +1947,7 @@ client3InputStreamReady
 aStream
 )
 {
-do_print
+info
 (
 "
 called
@@ -2012,7 +2012,7 @@ aServ
 aStatus
 )
 {
-do_print
+info
 (
 "
 called
@@ -2250,7 +2250,7 @@ aListener
 aServer
 )
 {
-do_print
+info
 (
 "
 test_keep_when_offline
@@ -2352,7 +2352,7 @@ log
 c
 '
 ;
-do_print
+info
 (
 "
 test_keep_when_offline
@@ -2412,7 +2412,7 @@ Cr
 NS_BASE_STREAM_CLOSED
 )
 ;
-do_print
+info
 (
 "
 client
@@ -2517,7 +2517,7 @@ log
 s
 '
 ;
-do_print
+info
 (
 "
 test_keep_when_offline
@@ -2625,7 +2625,7 @@ count
 10
 )
 {
-do_print
+info
 (
 "
 closing
@@ -2659,7 +2659,7 @@ aServ
 aStatus
 )
 {
-do_print
+info
 (
 "
 test_keep_when_offline

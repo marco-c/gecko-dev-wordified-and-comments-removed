@@ -338,7 +338,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 check
@@ -443,7 +443,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 check
@@ -599,7 +599,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 Should
@@ -745,7 +745,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 Should
@@ -819,7 +819,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 Should
@@ -940,7 +940,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 Updating
@@ -1011,7 +1011,7 @@ storage
 record
 )
 {
-do_print
+info
 (
 "
 Removing

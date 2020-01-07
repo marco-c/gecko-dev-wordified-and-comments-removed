@@ -205,7 +205,7 @@ backgroundScript
 }
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -315,7 +315,7 @@ instances
 "
 )
 ;
-do_print
+info
 (
 "
 waiting
@@ -498,7 +498,7 @@ resolve
 }
 )
 ;
-do_print
+info
 (
 "
 Wait
@@ -513,7 +513,7 @@ event
 await
 waitForDisconnect
 ;
-do_print
+info
 (
 "
 Got
@@ -563,7 +563,7 @@ xpi
 expectedError
 )
 {
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

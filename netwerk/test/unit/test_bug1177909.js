@@ -274,7 +274,7 @@ settings
 systemSettings
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

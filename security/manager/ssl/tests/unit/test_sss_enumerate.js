@@ -121,7 +121,7 @@ b
 expireTime
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -227,7 +227,7 @@ seenMessages
 let
 policy
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

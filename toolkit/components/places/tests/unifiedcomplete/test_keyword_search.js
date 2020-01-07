@@ -103,7 +103,7 @@ key
 }
 )
 ;
-do_print
+info
 (
 "
 Plain
@@ -165,7 +165,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Plain
@@ -227,7 +227,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Multi
@@ -294,7 +294,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -360,7 +360,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Unescaped
@@ -421,7 +421,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -487,7 +487,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword
@@ -551,7 +551,7 @@ heuristic
 }
 )
 ;
-do_print
+info
 (
 "
 Keyword

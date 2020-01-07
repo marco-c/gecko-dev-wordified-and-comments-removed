@@ -561,7 +561,7 @@ a5
 isActive
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_test_2
 )
@@ -728,7 +728,7 @@ a5
 isActive
 )
 ;
-do_execute_soon
+executeSoon
 (
 do_test_finished
 )

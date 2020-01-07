@@ -31,7 +31,7 @@ cwd
 fixture
 )
 ;
-do_print
+info
 (
 Importing
 from
@@ -149,7 +149,7 @@ root
 )
 )
 ;
-do_print
+info
 (
 Checking
 if
@@ -168,7 +168,7 @@ expected
 }
 )
 ;
-do_print
+info
 (
 Got
 bookmarks

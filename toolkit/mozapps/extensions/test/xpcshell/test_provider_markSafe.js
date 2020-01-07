@@ -108,7 +108,7 @@ testMarkSafe
 (
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -168,7 +168,7 @@ promiseShutdownManager
 (
 )
 ;
-do_print
+info
 (
 "
 Starting

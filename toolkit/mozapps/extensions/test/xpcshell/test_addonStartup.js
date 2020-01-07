@@ -744,7 +744,7 @@ readStartupData
 (
 )
 ;
-do_print
+info
 (
 readStartupData
 (
@@ -766,7 +766,7 @@ catch
 e
 )
 {
-do_print
+info
 (
 readStartupData
 (

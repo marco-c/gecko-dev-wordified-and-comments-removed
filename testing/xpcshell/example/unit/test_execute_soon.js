@@ -18,7 +18,7 @@ n
 "
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (
@@ -45,7 +45,7 @@ complete
 }
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 execute_soon_callback

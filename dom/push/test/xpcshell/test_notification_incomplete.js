@@ -67,7 +67,7 @@ newPushDB
 (
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -352,7 +352,7 @@ updates
 )
 ;
 }
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

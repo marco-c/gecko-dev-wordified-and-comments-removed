@@ -30,7 +30,7 @@ asyncInit
 (
 )
 ;
-do_print
+info
 (
 "
 Set
@@ -139,7 +139,7 @@ test_engine_set_alias_with_left_space
 (
 )
 {
-do_print
+info
 (
 "
 Set
@@ -251,7 +251,7 @@ test_engine_set_alias_with_right_space
 (
 )
 {
-do_print
+info
 (
 "
 Set
@@ -363,7 +363,7 @@ test_engine_set_alias_with_right_left_space
 (
 )
 {
-do_print
+info
 (
 "
 Set
@@ -477,7 +477,7 @@ test_engine_set_alias_with_space
 (
 )
 {
-do_print
+info
 (
 "
 Set

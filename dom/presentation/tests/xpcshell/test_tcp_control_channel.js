@@ -95,7 +95,7 @@ function
 (
 )
 {
-do_print
+info
 (
 '
 got
@@ -2419,7 +2419,7 @@ debug
 true
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

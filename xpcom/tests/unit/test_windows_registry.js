@@ -102,7 +102,7 @@ testKey
 keyName
 )
 {
-do_print
+info
 (
 "
 Setup
@@ -126,7 +126,7 @@ nsIWindowsRegKey
 ACCESS_READ
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -976,7 +976,7 @@ testKey
 keyName
 )
 {
-do_print
+info
 (
 "
 Cleaning

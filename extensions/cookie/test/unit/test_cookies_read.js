@@ -31,7 +31,7 @@ finish_test
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -197,7 +197,7 @@ db
 CMAX
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

@@ -92,7 +92,7 @@ NS_ERROR_NULL_POINTER
 throw
 ex
 ;
-do_print
+info
 (
 "
 Initialisation
@@ -136,7 +136,7 @@ NS_ERROR_NULL_POINTER
 throw
 ex
 ;
-do_print
+info
 (
 "
 Initialisation
@@ -227,7 +227,7 @@ NS_ERROR_NULL_POINTER
 throw
 ex
 ;
-do_print
+info
 (
 "
 Initialisation
@@ -271,7 +271,7 @@ NS_ERROR_NULL_POINTER
 throw
 ex
 ;
-do_print
+info
 (
 "
 Initialisation

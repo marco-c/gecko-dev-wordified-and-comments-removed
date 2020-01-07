@@ -778,7 +778,7 @@ nextToken
 )
 {
 }
-do_print
+info
 (
 "
 EOF

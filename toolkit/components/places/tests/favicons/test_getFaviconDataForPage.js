@@ -369,7 +369,7 @@ ROOT_URL
 missing
 "
 ;
-do_print
+info
 (
 "
 Set
@@ -435,7 +435,7 @@ ROOT_URL
 ROOT_ICON_URL
 )
 ;
-do_print
+info
 (
 "
 check
@@ -602,7 +602,7 @@ resolve
 }
 )
 ;
-do_print
+info
 (
 "
 Now
@@ -671,7 +671,7 @@ SUBPAGE_URL
 ICON32_URL
 )
 ;
-do_print
+info
 (
 "
 check

@@ -1544,7 +1544,7 @@ shutdownManager
 (
 )
 ;
-do_print
+info
 (
 "
 Locking
@@ -2810,7 +2810,7 @@ e
 )
 {
 }
-do_print
+info
 (
 "
 Unlocking

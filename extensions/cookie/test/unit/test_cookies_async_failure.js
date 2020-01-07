@@ -25,7 +25,7 @@ finish_test
 (
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -621,7 +621,7 @@ db
 2
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -801,7 +801,7 @@ host
 1
 )
 ;
-do_execute_soon
+executeSoon
 (
 function
 (
@@ -856,7 +856,7 @@ rebuilding
 yield
 ;
 }
-do_execute_soon
+executeSoon
 (
 function
 (

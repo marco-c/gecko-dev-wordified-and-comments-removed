@@ -3,7 +3,7 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 Setting
@@ -16,7 +16,7 @@ do_test_pending
 (
 )
 ;
-do_print
+info
 (
 "
 Test
@@ -110,7 +110,7 @@ init_complete
 i
 )
 {
-do_print
+info
 (
 "
 init
@@ -170,7 +170,7 @@ numberPending
 0
 )
 {
-do_print
+info
 (
 "
 Still
@@ -193,7 +193,7 @@ pending
 return
 ;
 }
-do_print
+info
 (
 "
 All
@@ -222,7 +222,7 @@ engines
 null
 )
 ;
-do_print
+info
 (
 "
 Waiting
@@ -240,7 +240,7 @@ function
 (
 )
 {
-do_print
+info
 (
 "
 Test
@@ -277,7 +277,7 @@ engines
 null
 )
 ;
-do_print
+info
 (
 "
 Synchronous

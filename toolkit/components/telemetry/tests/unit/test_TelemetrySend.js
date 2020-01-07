@@ -4708,7 +4708,7 @@ reporter
 crs
 )
 ;
-do_register_cleanup
+registerCleanupFunction
 (
 function
 (

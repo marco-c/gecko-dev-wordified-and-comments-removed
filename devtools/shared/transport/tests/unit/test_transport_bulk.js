@@ -84,7 +84,7 @@ function
 transportFactory
 )
 {
-do_print
+info
 (
 "
 Starting
@@ -415,7 +415,7 @@ length
 1
 )
 ;
-do_print
+info
 (
 Object
 .

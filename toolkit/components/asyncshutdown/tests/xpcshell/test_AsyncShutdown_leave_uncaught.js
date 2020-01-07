@@ -36,7 +36,7 @@ test_phase_simple_async
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -197,7 +197,7 @@ BOOM
 ]
 )
 {
-do_print
+info
 (
 "
 Asynchronous
@@ -299,7 +299,7 @@ success
 ;
 }
 }
-do_print
+info
 (
 "
 Synchronous
@@ -360,7 +360,7 @@ test_phase_many
 (
 )
 {
-do_print
+info
 (
 "
 Testing
@@ -449,7 +449,7 @@ false
 ]
 )
 {
-do_print
+info
 (
 "
 Testing
