@@ -8307,6 +8307,10 @@ return
 NS_OK
 ;
 }
+mNewBlock
+=
+blockParent
+;
 }
 if
 (

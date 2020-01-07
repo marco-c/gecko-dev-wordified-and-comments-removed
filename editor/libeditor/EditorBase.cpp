@@ -15076,6 +15076,8 @@ aNode
 bool
 aFindEditableNode
 bool
+aFindAnyDataNode
+bool
 aNoBlockCrossing
 )
 {
@@ -15100,6 +15102,7 @@ FindNode
 aNode
 false
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15117,6 +15120,8 @@ EditorRawDOMPoint
 aPoint
 bool
 aFindEditableNode
+bool
+aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
@@ -15214,6 +15219,7 @@ GetContainer
 (
 )
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15237,6 +15243,7 @@ GetChild
 (
 )
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15267,6 +15274,7 @@ nullptr
 }
 if
 (
+(
 !
 aFindEditableNode
 |
@@ -15274,6 +15282,19 @@ aFindEditableNode
 IsEditable
 (
 rightMostNode
+)
+)
+&
+&
+(
+aFindAnyDataNode
+|
+|
+IsElementOrText
+(
+*
+rightMostNode
+)
 )
 )
 {
@@ -15287,6 +15308,7 @@ GetPreviousNodeInternal
 *
 rightMostNode
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15303,6 +15325,8 @@ nsINode
 aNode
 bool
 aFindEditableNode
+bool
+aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
@@ -15328,6 +15352,7 @@ FindNode
 aNode
 true
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15345,6 +15370,8 @@ EditorRawDOMPoint
 aPoint
 bool
 aFindEditableNode
+bool
+aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
@@ -15521,6 +15548,7 @@ nullptr
 }
 if
 (
+(
 !
 aFindEditableNode
 |
@@ -15528,6 +15556,19 @@ aFindEditableNode
 IsEditable
 (
 leftMostNode
+)
+)
+&
+&
+(
+aFindAnyDataNode
+|
+|
+IsElementOrText
+(
+*
+leftMostNode
+)
 )
 )
 {
@@ -15541,6 +15582,7 @@ GetNextNodeInternal
 *
 leftMostNode
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15574,6 +15616,7 @@ GetContainer
 (
 )
 aFindEditableNode
+aFindAnyDataNode
 aNoBlockCrossing
 )
 ;
@@ -15825,6 +15868,8 @@ aGoForward
 bool
 aEditableNode
 bool
+aFindAnyDataNode
+bool
 bNoBlockCrossing
 )
 {
@@ -15865,6 +15910,7 @@ nullptr
 }
 if
 (
+(
 !
 aEditableNode
 |
@@ -15872,6 +15918,19 @@ aEditableNode
 IsEditable
 (
 candidate
+)
+)
+&
+&
+(
+aFindAnyDataNode
+|
+|
+IsElementOrText
+(
+*
+candidate
+)
 )
 )
 {
@@ -15885,6 +15944,7 @@ FindNode
 candidate
 aGoForward
 aEditableNode
+aFindAnyDataNode
 bNoBlockCrossing
 )
 ;
