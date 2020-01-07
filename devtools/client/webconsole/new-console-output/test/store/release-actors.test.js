@@ -486,8 +486,9 @@ dispatch
 (
 actions
 .
-messageAdd
+messagesAdd
 (
+[
 stubPackets
 .
 get
@@ -514,6 +515,7 @@ blue
 )
 "
 )
+]
 )
 )
 ;
@@ -559,9 +561,11 @@ dispatch
 (
 actions
 .
-messageAdd
+messagesAdd
 (
+[
 evaluationResultPacket
+]
 )
 )
 ;
@@ -602,9 +606,11 @@ dispatch
 (
 actions
 .
-messageAdd
+messagesAdd
 (
+[
 assertPacket
+]
 )
 )
 ;
