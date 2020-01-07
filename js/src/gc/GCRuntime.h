@@ -3945,7 +3945,7 @@ zone
 )
 ;
 IncrementalProgress
-mergeSweptObjectArenas
+releaseSweptEmptyArenas
 (
 FreeOp
 *
