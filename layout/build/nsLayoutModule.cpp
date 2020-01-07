@@ -2144,10 +2144,13 @@ NS_GEOLOCATION_CID
 0x39
 }
 }
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 Geolocation
-Init
+Geolocation
+:
+:
+NonWindowSingleton
 )
 #
 define
