@@ -469,7 +469,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )
@@ -488,9 +488,6 @@ let
 selectorClass
 =
 "
-toolbar
--
-dropdown
 "
 ;
 let
@@ -586,7 +583,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )

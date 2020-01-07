@@ -119,7 +119,7 @@ listState
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )
