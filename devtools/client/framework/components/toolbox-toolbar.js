@@ -225,11 +225,6 @@ currentHostType
 PropTypes
 .
 string
-areDockButtonsEnabled
-:
-PropTypes
-.
-bool
 canCloseToolbox
 :
 PropTypes
