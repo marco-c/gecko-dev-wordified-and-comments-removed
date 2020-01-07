@@ -277,6 +277,7 @@ SameObject
 readonly
 attribute
 ArrayBuffer
+?
 userHandle
 ;
 }
