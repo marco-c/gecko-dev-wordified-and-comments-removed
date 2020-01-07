@@ -120,6 +120,12 @@ GrowthState
 const
 ;
 double
+CrossStart
+(
+)
+const
+;
+double
 CrossSize
 (
 )
@@ -161,6 +167,9 @@ mParent
 ;
 FlexLineGrowthState
 mGrowthState
+;
+double
+mCrossStart
 ;
 double
 mCrossSize

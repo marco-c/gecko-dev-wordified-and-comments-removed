@@ -184,6 +184,11 @@ growthState
 readonly
 attribute
 double
+crossStart
+;
+readonly
+attribute
+double
 crossSize
 ;
 /
