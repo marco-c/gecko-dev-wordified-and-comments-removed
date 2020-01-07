@@ -16,7 +16,7 @@ addTab
 URL_ROOT
 +
 "
-doc_multi_timings
+doc_custom_playback_rate
 .
 html
 "
