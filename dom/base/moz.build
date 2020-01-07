@@ -167,11 +167,6 @@ nsIDOMDOMRequest
 idl
 '
 '
-nsIDOMFormData
-.
-idl
-'
-'
 nsIDOMParser
 .
 idl

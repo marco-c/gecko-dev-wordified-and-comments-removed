@@ -10023,6 +10023,11 @@ FileReader
 1
 ;
 bool
+FormData
+:
+1
+;
+bool
 InspectorUtils
 :
 1
