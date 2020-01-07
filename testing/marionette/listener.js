@@ -402,11 +402,6 @@ URL
 )
 ;
 let
-outerWindowID
-=
-null
-;
-let
 curContainer
 =
 {
@@ -1920,11 +1915,12 @@ registerSelf
 (
 )
 {
+let
+{
 outerWindowID
+}
 =
 winUtil
-.
-outerWindowID
 ;
 logger
 .
