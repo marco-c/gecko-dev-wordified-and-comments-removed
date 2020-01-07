@@ -137,3 +137,13 @@ CONFIG
 MOZILLA_VERSION
 '
 ]
+SPHINX_TREES
+[
+'
+installer
+'
+]
+=
+'
+docs
+'
