@@ -1890,11 +1890,6 @@ not
 property
 .
 is_vector
-and
-not
-property
-.
-is_gecko_size_type_hack
 :
 ty
 =

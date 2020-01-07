@@ -614,6 +614,7 @@ length
 :
 {
 CSSPixelLength
+ExtremumLength
 NonNegativeLength
 NonNegativeLengthOrPercentage
 }
