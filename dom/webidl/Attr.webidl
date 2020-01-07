@@ -158,6 +158,8 @@ localName
 [
 CEReactions
 SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 ]
 attribute

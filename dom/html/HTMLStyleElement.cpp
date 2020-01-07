@@ -667,7 +667,7 @@ nsAString
 &
 aInnerHTML
 nsIPrincipal
-&
+*
 aScriptedPrincipal
 ErrorResult
 &
@@ -677,7 +677,6 @@ aError
 SetTextContentInternal
 (
 aInnerHTML
-&
 aScriptedPrincipal
 aError
 )

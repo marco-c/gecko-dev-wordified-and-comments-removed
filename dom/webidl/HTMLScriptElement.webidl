@@ -168,7 +168,9 @@ HTMLElement
 {
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 ]
 attribute
