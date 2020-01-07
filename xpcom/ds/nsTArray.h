@@ -106,6 +106,15 @@ include
 "
 mozilla
 /
+mozalloc
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReverseIterator
 .
 h
