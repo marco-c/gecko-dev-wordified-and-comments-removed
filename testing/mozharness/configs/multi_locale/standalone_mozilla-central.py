@@ -28,13 +28,6 @@ objdir
 -
 droid
 "
-ANDROID_DIR
-=
-"
-mobile
-/
-android
-"
 MOZCONFIG
 =
 os
@@ -114,13 +107,12 @@ locales_dir
 "
 :
 "
-%
-s
+mobile
+/
+android
 /
 locales
 "
-%
-ANDROID_DIR
     
 "
 ignore_locales
@@ -293,6 +285,14 @@ objdir
 add
 -
 locales
+"
+        
+"
+android
+-
+assemble
+-
+app
 "
         
 "
