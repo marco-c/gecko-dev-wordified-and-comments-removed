@@ -526,6 +526,10 @@ Stopping
 "
 )
 ;
+stopSelf
+(
+)
+;
 Process
 .
 killProcess
