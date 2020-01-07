@@ -402,10 +402,17 @@ dmd
 :
             
 if
+arg
+in
+kwargs
+and
 kwargs
 [
 arg
 ]
+is
+not
+None
 :
                 
 runtime_testvars
