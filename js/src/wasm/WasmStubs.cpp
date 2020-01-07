@@ -9399,6 +9399,12 @@ case
 Trap
 :
 :
+InvalidConversionToInteger
+:
+case
+Trap
+:
+:
 IntegerDivideByZero
 :
 case
@@ -9409,12 +9415,6 @@ StackOverflow
 :
 break
 ;
-case
-Trap
-:
-:
-InvalidConversionToInteger
-:
 case
 Trap
 :
