@@ -801,7 +801,10 @@ nsCOMPtr
 <
 nsIURI
 >
-url
+base
+(
+aBaseURI
+)
 ;
 return
 NS_MutateURI
@@ -810,9 +813,8 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 )
 .
 Apply
-<
-nsIStandardURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -829,8 +831,9 @@ nsCString
 aSpec
 )
 aCharset
-aBaseURI
+base
 nullptr
+)
 )
 .
 Finalize
