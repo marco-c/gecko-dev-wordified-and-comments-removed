@@ -145,6 +145,10 @@ mCompositedFrameInvalid
 (
 false
 )
+mCompositedFrameRequested
+(
+false
+)
 mDiscarded
 (
 false
@@ -358,6 +362,15 @@ TimeStamp
 aTime
 )
 ;
+bool
+MaybeAdvanceAnimationFrameTime
+(
+const
+TimeStamp
+&
+aTime
+)
+;
 uint32_t
 GetCurrentAnimationFrameIndex
 (
@@ -479,6 +492,9 @@ mIsCurrentlyDecoded
 ;
 bool
 mCompositedFrameInvalid
+;
+bool
+mCompositedFrameRequested
 ;
 bool
 mDiscarded
