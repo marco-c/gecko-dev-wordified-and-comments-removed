@@ -32,6 +32,9 @@ namespace
 dom
 {
 class
+MessageBroadcaster
+;
+class
 MessageListenerManager
 :
 public
@@ -47,7 +50,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 MessageListenerManager
 nsFrameMessageManager
 )
-ChromeMessageBroadcaster
+MessageBroadcaster
 *
 GetParentObject
 (
@@ -58,7 +61,7 @@ mParentManager
 ;
 }
 virtual
-ChromeMessageBroadcaster
+MessageBroadcaster
 *
 GetParentManager
 (
@@ -88,7 +91,7 @@ ipc
 MessageManagerCallback
 *
 aCallback
-ChromeMessageBroadcaster
+MessageBroadcaster
 *
 aParentManager
 MessageManagerFlags
@@ -103,7 +106,7 @@ MessageListenerManager
 ;
 RefPtr
 <
-ChromeMessageBroadcaster
+MessageBroadcaster
 >
 mParentManager
 ;
