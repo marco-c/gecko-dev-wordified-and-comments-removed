@@ -4111,7 +4111,7 @@ return
 warning
 ;
 }
-bool
+void
 js
 :
 :
@@ -4129,6 +4129,7 @@ printable
 ;
 if
 (
+!
 ValueToPrintable
 (
 cx
@@ -4140,7 +4141,8 @@ id
 printable
 )
 )
-{
+return
+;
 JS_ReportErrorNumberLatin1
 (
 cx
@@ -4155,11 +4157,7 @@ ptr
 )
 ;
 }
-return
-false
-;
-}
-bool
+void
 js
 :
 :
@@ -4182,7 +4180,6 @@ name
 )
 )
 ;
-return
 ReportIsNotDefined
 (
 cx
