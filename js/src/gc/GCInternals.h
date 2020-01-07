@@ -1129,6 +1129,17 @@ gcreason
 MEM_PRESSURE
 ;
 }
+TenuredCell
+*
+AllocateCellInGC
+(
+Zone
+*
+zone
+AllocKind
+thingKind
+)
+;
 }
 }
 #
