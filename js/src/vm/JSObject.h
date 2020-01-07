@@ -813,13 +813,6 @@ const
 ;
 inline
 bool
-hasSpecialEquality
-(
-)
-const
-;
-inline
-bool
 isQualifiedVarObj
 (
 )

@@ -133,13 +133,6 @@ js_getter_str
 extern
 const
 char
-js_send_str
-[
-]
-;
-extern
-const
-char
 js_setter_str
 [
 ]
