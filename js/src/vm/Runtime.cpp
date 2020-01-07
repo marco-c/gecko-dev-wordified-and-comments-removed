@@ -669,10 +669,6 @@ defaultLocale
 (
 nullptr
 )
-defaultVersion_
-(
-JSVERSION_DEFAULT
-)
 profilingScripts
 (
 false
