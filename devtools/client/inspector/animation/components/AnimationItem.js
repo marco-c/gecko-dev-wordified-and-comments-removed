@@ -234,6 +234,7 @@ SummaryGraph
 (
 {
 animation
+emitEventForTest
 getAnimatedPropertyMap
 simulateAnimation
 timeScale
