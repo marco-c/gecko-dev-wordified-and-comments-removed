@@ -4435,7 +4435,7 @@ linux64
 -
 ccov
 /
-opt
+debug
 :
 description
 :
@@ -4443,7 +4443,7 @@ description
 Linux64
 -
 CCov
-Opt
+Debug
 "
 index
 :
@@ -4458,7 +4458,7 @@ linux64
 -
 ccov
 -
-opt
+debug
 treeherder
 :
 platform
@@ -4467,7 +4467,7 @@ linux64
 -
 ccov
 /
-opt
+debug
 symbol
 :
 B

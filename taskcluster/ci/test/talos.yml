@@ -124,7 +124,7 @@ linux64
 -
 ccov
 /
-opt
+debug
 :
 -
 talos
