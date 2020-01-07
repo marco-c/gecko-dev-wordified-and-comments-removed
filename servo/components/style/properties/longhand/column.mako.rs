@@ -84,9 +84,7 @@ servo_pref
 "
 layout
 .
-column
--
-width
+columns
 .
 enabled
 "
@@ -163,9 +161,7 @@ servo_pref
 "
 layout
 .
-column
--
-count
+columns
 .
 enabled
 "
@@ -245,9 +241,7 @@ servo_pref
 "
 layout
 .
-column
--
-gap
+columns
 .
 enabled
 "

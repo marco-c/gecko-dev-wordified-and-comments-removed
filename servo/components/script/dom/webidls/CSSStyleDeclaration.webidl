@@ -4145,9 +4145,7 @@ Pref
 "
 layout
 .
-column
--
-count
+columns
 .
 enabled
 "
@@ -4167,9 +4165,7 @@ Pref
 "
 layout
 .
-column
--
-count
+columns
 .
 enabled
 "
@@ -4191,9 +4187,7 @@ Pref
 "
 layout
 .
-column
--
-width
+columns
 .
 enabled
 "
@@ -4213,9 +4207,7 @@ Pref
 "
 layout
 .
-column
--
-width
+columns
 .
 enabled
 "
@@ -4257,9 +4249,7 @@ Pref
 "
 layout
 .
-column
--
-gap
+columns
 .
 enabled
 "
@@ -4279,9 +4269,7 @@ Pref
 "
 layout
 .
-column
--
-gap
+columns
 .
 enabled
 "

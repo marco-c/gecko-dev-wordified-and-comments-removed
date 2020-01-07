@@ -1686,7 +1686,6 @@ important_count
 0
 ;
 for
-&
 longhand
 in
 shorthand
@@ -1944,14 +1943,9 @@ longhands
 (
 )
 .
-iter
-(
-)
-.
 all
 (
 |
-&
 l
 |
 {
@@ -2184,7 +2178,6 @@ keyword
 >
 {
 for
-&
 id
 in
 ShorthandId
@@ -2236,7 +2229,6 @@ unparsed
 >
 {
 for
-&
 id
 in
 ShorthandId
@@ -3665,7 +3657,6 @@ continue
 ;
 }
 for
-&
 shorthand
 in
 longhand_id
@@ -3913,7 +3904,6 @@ contains_all_longhands
 true
 ;
 for
-&
 longhand
 in
 shorthand

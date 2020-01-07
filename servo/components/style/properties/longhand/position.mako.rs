@@ -3059,17 +3059,6 @@ animation_value_type
 "
 discrete
 "
-gecko_pref
-=
-"
-layout
-.
-css
-.
-grid
-.
-enabled
-"
 spec
 =
 "
