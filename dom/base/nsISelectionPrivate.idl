@@ -115,6 +115,9 @@ nsIContent
 interface
 nsINode
 ;
+interface
+nsIDOMRange
+;
 %
 {
 C
