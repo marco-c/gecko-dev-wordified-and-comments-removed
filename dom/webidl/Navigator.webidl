@@ -1316,9 +1316,6 @@ onactive
 ;
 }
 ;
-/
-/
-nsIDOMNavigator
 partial
 interface
 Navigator

@@ -184,11 +184,6 @@ nsIDOMModalContentWindow
 idl
 '
 '
-nsIDOMNavigator
-.
-idl
-'
-'
 nsIDOMScreen
 .
 idl

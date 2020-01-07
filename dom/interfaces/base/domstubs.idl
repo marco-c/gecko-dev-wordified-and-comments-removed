@@ -210,9 +210,6 @@ interface
 nsIDOMWindowCollection
 ;
 interface
-nsIDOMNavigator
-;
-interface
 nsIDOMScreen
 ;
 /

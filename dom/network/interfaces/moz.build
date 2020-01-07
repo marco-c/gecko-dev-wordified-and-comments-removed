@@ -90,11 +90,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIMozNavigatorNetwork
-.
-idl
-'
-'
 nsITCPSocketCallback
 .
 idl
