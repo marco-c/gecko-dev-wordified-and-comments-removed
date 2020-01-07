@@ -96,6 +96,11 @@ utils
 DevToolsModules
 (
 '
+accessible
+.
+js
+'
+'
 auto
 -
 refresh
@@ -175,6 +180,13 @@ js
 simple
 -
 outline
+.
+js
+'
+'
+xul
+-
+accessible
 .
 js
 '

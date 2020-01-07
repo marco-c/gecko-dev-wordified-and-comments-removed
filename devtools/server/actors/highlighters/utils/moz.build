@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+accessibility
+.
+js
+'
+'
 canvas
 .
 js
