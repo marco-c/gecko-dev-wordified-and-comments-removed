@@ -176,7 +176,7 @@ final
 int
 MEDIA_PLAYBACK_CHANGED_WAIT_MS
 =
-15000
+30000
 ;
 protected
 final
