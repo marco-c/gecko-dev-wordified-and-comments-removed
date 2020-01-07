@@ -491,9 +491,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMDocumentType
-;
-class
 nsIDOMElement
 ;
 class
@@ -12092,7 +12089,13 @@ const
 nsAString
 &
 aQualifiedName
-nsIDOMDocumentType
+mozilla
+:
+:
+dom
+:
+:
+DocumentType
 *
 aDoctype
 nsIURI
