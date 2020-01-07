@@ -6620,6 +6620,17 @@ ret
 )
 -
 PoppedFP
+&
+&
+offsetInModule
+<
+=
+codeRange
+-
+>
+ret
+(
+)
 )
 return
 nullptr
@@ -6643,7 +6654,7 @@ tls
 >
 instance
 ;
-MOZ_RELEASE_ASSERT
+if
 (
 &
 instance
@@ -6652,7 +6663,7 @@ instance
 code
 (
 )
-=
+!
 =
 &
 codeSegment
@@ -6661,6 +6672,8 @@ code
 (
 )
 )
+return
+nullptr
 ;
 return
 instance

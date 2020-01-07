@@ -2294,7 +2294,7 @@ canBeNegativeOverflow
 )
 {
 Label
-notmin
+notOverflow
 ;
 masm
 .
@@ -2310,7 +2310,7 @@ ImmWord
 INT64_MIN
 )
 &
-notmin
+notOverflow
 )
 ;
 masm
@@ -2328,7 +2328,7 @@ ImmWord
 1
 )
 &
-notmin
+notOverflow
 )
 ;
 if
@@ -2345,7 +2345,6 @@ isMod
 (
 )
 )
-{
 masm
 .
 ma_xor
@@ -2354,16 +2353,11 @@ output
 output
 )
 ;
-}
 else
-{
 masm
 .
-jump
+wasmTrap
 (
-oldTrap
-(
-lir
 wasm
 :
 :
@@ -2371,10 +2365,14 @@ Trap
 :
 :
 IntegerOverflow
+lir
+-
+>
+bytecodeOffset
+(
 )
 )
 ;
-}
 masm
 .
 jump
@@ -2388,7 +2386,7 @@ masm
 bind
 (
 &
-notmin
+notOverflow
 )
 ;
 }
