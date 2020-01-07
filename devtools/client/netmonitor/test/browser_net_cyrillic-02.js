@@ -116,11 +116,9 @@ querySelector
 (
 "
 .
-requests
--
-list
--
 status
+-
+code
 "
 )
 ;

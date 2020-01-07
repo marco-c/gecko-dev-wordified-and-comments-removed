@@ -246,6 +246,11 @@ StatusBar
 js
 '
 '
+StatusCode
+.
+js
+'
+'
 TabboxPanel
 .
 js
