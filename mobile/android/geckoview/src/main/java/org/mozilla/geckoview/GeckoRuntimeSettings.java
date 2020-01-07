@@ -753,6 +753,12 @@ settings
 .
 mJavaCrashReporting
 ;
+mDebugPause
+=
+settings
+.
+mDebugPause
+;
 }
 void
 flush
@@ -1143,7 +1149,7 @@ readBoolean
 source
 )
 ;
-mJavaCrashReporting
+mDebugPause
 =
 ParcelableUtils
 .
