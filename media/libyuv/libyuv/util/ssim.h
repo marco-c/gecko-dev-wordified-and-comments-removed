@@ -38,7 +38,7 @@ UINT8_TYPE_DEFINED
 typedef
 unsigned
 char
-uint8
+uint8_t
 ;
 #
 define
@@ -49,11 +49,11 @@ double
 CalcSSIM
 (
 const
-uint8
+uint8_t
 *
 org
 const
-uint8
+uint8_t
 *
 rec
 const

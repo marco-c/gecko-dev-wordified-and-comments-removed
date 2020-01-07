@@ -259,6 +259,13 @@ cc
 '
 unit_test
 /
+cpu_thread_test
+.
+cc
+'
+'
+unit_test
+/
 math_test
 .
 cc
@@ -657,10 +664,6 @@ LIBYUV_DISABLE_X86
 LIBYUV_DISABLE_NEON
 '
 #
-'
-LIBYUV_DISABLE_DSPR2
-'
-#
 Enable
 the
 following
@@ -762,7 +765,7 @@ target_name
 '
 :
 '
-convert
+yuvconvert
 '
 '
 type
@@ -794,7 +797,7 @@ sources
 '
 util
 /
-convert
+yuvconvert
 .
 cc
 '

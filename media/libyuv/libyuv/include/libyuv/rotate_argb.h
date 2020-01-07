@@ -40,12 +40,12 @@ int
 ARGBRotate
 (
 const
-uint8
+uint8_t
 *
 src_argb
 int
 src_stride_argb
-uint8
+uint8_t
 *
 dst_argb
 int

@@ -412,7 +412,7 @@ then
 CHROME_VALGRIND
 =
 sh
-CHROME_VALGRIND_SCRIPTS
+THISDIR
 /
 locate_valgrind
 .

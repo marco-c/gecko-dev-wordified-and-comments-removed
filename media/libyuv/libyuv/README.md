@@ -38,12 +38,13 @@ YUV
 from
 webcam
 formats
+for
+compression
 .
 *
 Convert
-from
-YUV
 to
+RGB
 formats
 for
 rendering
@@ -71,8 +72,6 @@ mode
 *
 Optimized
 for
-SSE2
-/
 SSSE3
 /
 AVX2
@@ -91,8 +90,7 @@ Arm
 *
 Optimized
 for
-DSP
-R2
+MSA
 on
 Mips
 .

@@ -1093,9 +1093,7 @@ disassembly
 :
 third_party
 /
-android_tools
-/
-ndk
+android_ndk
 /
 toolchains
 /
@@ -1144,9 +1142,7 @@ disassembly
 :
 third_party
 /
-android_tools
-/
-ndk
+android_ndk
 /
 toolchains
 /
@@ -1727,7 +1723,7 @@ C
 out
 /
 Debug
-convert
+yuvconvert
 ninja
 -
 C

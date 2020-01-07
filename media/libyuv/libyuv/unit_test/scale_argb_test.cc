@@ -134,7 +134,7 @@ b
 =
 0
 ;
-int64
+int64_t
 src_argb_plane_size
 =
 (
@@ -218,7 +218,7 @@ src_argb
 src_argb_plane_size
 )
 ;
-int64
+int64_t
 dst_argb_plane_size
 =
 (
@@ -682,7 +682,7 @@ int
 TileARGBScale
 (
 const
-uint8
+uint8_t
 *
 src_argb
 int
@@ -691,7 +691,7 @@ int
 src_width
 int
 src_height
-uint8
+uint8_t
 *
 dst_argb
 int
@@ -855,7 +855,7 @@ b
 =
 128
 ;
-int64
+int64_t
 src_argb_plane_size
 =
 (
@@ -940,7 +940,7 @@ src_argb
 src_argb_plane_size
 )
 ;
-int64
+int64_t
 dst_argb_plane_size
 =
 (
@@ -1971,19 +1971,19 @@ int
 YUVToARGBScaleReference2
 (
 const
-uint8
+uint8_t
 *
 src_y
 int
 src_stride_y
 const
-uint8
+uint8_t
 *
 src_u
 int
 src_stride_u
 const
-uint8
+uint8_t
 *
 src_v
 int
@@ -1993,7 +1993,7 @@ int
 src_width
 int
 src_height
-uint8
+uint8_t
 *
 dst_argb
 int
@@ -2016,13 +2016,13 @@ FilterMode
 filtering
 )
 {
-uint8
+uint8_t
 *
 argb_buffer
 =
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -2089,7 +2089,7 @@ static
 void
 FillRamp
 (
-uint8
+uint8_t
 *
 buf
 int
@@ -2230,7 +2230,7 @@ int
 benchmark_iterations
 )
 {
-int64
+int64_t
 src_y_plane_size
 =
 Abs
@@ -2243,7 +2243,7 @@ Abs
 src_height
 )
 ;
-int64
+int64_t
 src_uv_plane_size
 =
 (
@@ -2312,7 +2312,7 @@ src_v
 src_uv_plane_size
 )
 ;
-int64
+int64_t
 dst_argb_plane_size
 =
 (
