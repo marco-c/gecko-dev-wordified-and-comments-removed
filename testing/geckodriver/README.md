@@ -417,7 +417,7 @@ to
 version
 3
 .
-5
+11
 ]
 or
 later
@@ -443,7 +443,7 @@ supported
 version
 3
 .
-5
+11
 ]
 :
 https
@@ -466,7 +466,7 @@ selenium
 -
 3
 .
-5
+11
 .
 0
 [
