@@ -15930,7 +15930,7 @@ name
 =
 =
 '
-queryInterface
+QueryInterface
 '
 :
                 
@@ -15947,7 +15947,7 @@ TypeError
 (
 "
 Legacy
-queryInterface
+QueryInterface
 member
 shouldn
 '
@@ -16044,7 +16044,7 @@ should
 be
 only
 one
-queryInterface
+QueryInterface
 method
 with
 1
@@ -16105,26 +16105,28 @@ descriptor
 name
 )
                 
-condition
-=
-"
-WantsQueryInterface
-<
-%
-s
->
+if
+not
+isChromeOnly
+(
+m
+)
 :
-:
-Enabled
+                    
+raise
+TypeError
+(
 "
-%
-descriptor
-.
-nativeType
+QueryInterface
+must
+be
+ChromeOnly
+"
+)
                 
 self
 .
-regular
+chrome
 .
 append
 (
@@ -16162,11 +16164,12 @@ flags
 condition
 "
 :
-MemberCondition
+PropertyDefiner
+.
+getControllingCondition
 (
-func
-=
-condition
+m
+descriptor
 )
                 
 }
@@ -87722,7 +87725,7 @@ name
 =
 =
 '
-queryInterface
+QueryInterface
 '
 :
                 
