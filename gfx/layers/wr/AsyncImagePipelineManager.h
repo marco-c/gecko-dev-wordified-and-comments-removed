@@ -421,6 +421,16 @@ mImageCompositeNotifications
 )
 ;
 }
+void
+SetWillGenerateFrame
+(
+)
+;
+bool
+GetAndResetWillGenerateFrame
+(
+)
+;
 private
 :
 uint32_t
@@ -789,6 +799,9 @@ mAsyncImagePipelines
 ;
 uint32_t
 mAsyncImageEpoch
+;
+bool
+mWillGenerateFrame
 ;
 bool
 mDestroyed

@@ -1147,7 +1147,7 @@ aIsSync
 )
 ;
 void
-ScheduleComposition
+ScheduleGenerateFrame
 (
 )
 ;
