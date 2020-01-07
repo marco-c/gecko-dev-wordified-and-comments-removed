@@ -63,9 +63,6 @@ cookies
 "
 siteDataGroup
 "
-"
-historyGroup
-"
 ]
 )
 ;
@@ -112,9 +109,6 @@ data
 "
 siteDataGroup
 "
-"
-historyGroup
-"
 ]
 )
 ;
@@ -159,9 +153,6 @@ cache
 [
 "
 siteDataGroup
-"
-"
-historyGroup
 "
 ]
 )
