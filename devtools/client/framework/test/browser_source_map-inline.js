@@ -114,12 +114,12 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -139,7 +139,7 @@ true
 const
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 PAGE_URL
@@ -164,13 +164,13 @@ toolbox
 JS_URL
 )
 ;
-yield
+await
 createScript
 (
 JS_URL
 )
 ;
-yield
+await
 sourceSeen
 ;
 info
@@ -189,7 +189,7 @@ JS_URL
 let
 newLoc
 =
-yield
+await
 service
 .
 originalPositionFor
@@ -225,7 +225,7 @@ number
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy

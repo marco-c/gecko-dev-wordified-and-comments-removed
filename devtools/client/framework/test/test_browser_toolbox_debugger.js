@@ -12,12 +12,9 @@ lineNumber
 }
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -35,6 +32,7 @@ debugger
 tabs
 "
 )
+;
 Services
 .
 prefs
@@ -53,6 +51,7 @@ selected
 location
 "
 )
+;
 info
 (
 "
@@ -63,7 +62,7 @@ load
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -95,7 +94,7 @@ window
 .
 document
 ;
-yield
+await
 waitForSources
 (
 dbg
@@ -268,7 +267,7 @@ waitForPaused
 dbg
 )
 ;
-yield
+await
 addBreakpoint
 (
 dbg
@@ -276,7 +275,7 @@ fileName
 2
 )
 ;
-yield
+await
 onPaused
 ;
 assertPausedLocation
@@ -286,7 +285,7 @@ fileName
 2
 )
 ;
-yield
+await
 stepIn
 (
 dbg
@@ -308,7 +307,7 @@ dbg
 fileName
 )
 ;
-yield
+await
 removeBreakpoint
 (
 dbg
@@ -318,7 +317,7 @@ id
 2
 )
 ;
-yield
+await
 resume
 (
 dbg
@@ -341,5 +340,7 @@ destroy
 )
 ;
 }
+)
+(
 )
 ;

@@ -772,7 +772,6 @@ then
 =
 >
 {
-;
 toolbox
 =
 null

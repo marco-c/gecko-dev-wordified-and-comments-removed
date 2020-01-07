@@ -30,15 +30,15 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 PAGE_URL
@@ -47,7 +47,7 @@ PAGE_URL
 let
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -59,7 +59,7 @@ bottom
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -67,7 +67,7 @@ inspector
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -75,7 +75,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -83,7 +83,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -91,7 +91,7 @@ inspector
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -99,7 +99,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -107,7 +107,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 testToolSelectEvent
 (
 "
@@ -115,7 +115,7 @@ inspector
 "
 )
 ;
-yield
+await
 testToolSelectEvent
 (
 "
@@ -123,7 +123,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testToolSelectEvent
 (
 "
@@ -131,7 +131,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -140,7 +140,7 @@ destroy
 ;
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -152,7 +152,7 @@ side
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -160,7 +160,7 @@ inspector
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -168,7 +168,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -176,7 +176,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -184,7 +184,7 @@ inspector
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -192,7 +192,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -200,7 +200,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -209,7 +209,7 @@ destroy
 ;
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -221,7 +221,7 @@ window
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -229,7 +229,7 @@ inspector
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -237,7 +237,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -245,7 +245,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -253,7 +253,7 @@ inspector
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -261,7 +261,7 @@ webconsole
 "
 )
 ;
-yield
+await
 testSelectEvent
 (
 "
@@ -269,20 +269,20 @@ styleeditor
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
 (
 )
 ;
-yield
+await
 testSelectToolRace
 (
 )
 ;
+async
 function
-*
 testSelectEvent
 (
 toolId
@@ -310,7 +310,7 @@ toolId
 let
 id
 =
-yield
+await
 onSelect
 ;
 is
@@ -325,8 +325,8 @@ selected
 )
 ;
 }
+async
 function
-*
 testToolSelectEvent
 (
 toolId
@@ -354,7 +354,7 @@ selectTool
 toolId
 )
 ;
-yield
+await
 onSelected
 ;
 is
@@ -372,8 +372,8 @@ selected
 )
 ;
 }
+async
 function
-*
 testSelectToolRace
 (
 )
@@ -381,7 +381,7 @@ testSelectToolRace
 let
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -456,6 +456,7 @@ selectTool
 inspector
 "
 )
+;
 let
 p2
 =
@@ -534,13 +535,13 @@ then
 checkSelectToolResolution
 )
 ;
-yield
+await
 p1
 ;
-yield
+await
 p2
 ;
-yield
+await
 toolbox
 .
 destroy

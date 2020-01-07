@@ -559,7 +559,6 @@ then
 =
 >
 {
-;
 toolbox
 =
 null
@@ -576,4 +575,5 @@ finish
 ;
 }
 )
+;
 }

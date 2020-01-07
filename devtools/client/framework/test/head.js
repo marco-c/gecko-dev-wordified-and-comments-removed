@@ -483,8 +483,6 @@ name
 )
 ;
 }
-else
-{
 return
 promise
 .
@@ -492,7 +490,6 @@ resolve
 (
 )
 ;
-}
 }
 function
 synthesizeKeyElement

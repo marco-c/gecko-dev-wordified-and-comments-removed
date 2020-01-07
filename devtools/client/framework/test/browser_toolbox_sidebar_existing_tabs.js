@@ -99,15 +99,15 @@ document
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 "
@@ -137,7 +137,7 @@ testToolDefinition
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -451,7 +451,7 @@ destroy
 (
 )
 ;
-yield
+await
 toolbox
 .
 destroy
