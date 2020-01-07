@@ -281,6 +281,12 @@ function
 e
 )
 {
+e
+.
+stopImmediatePropagation
+(
+)
+;
 if
 (
 this
