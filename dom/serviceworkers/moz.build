@@ -125,11 +125,6 @@ ServiceWorker
 h
 '
 '
-ServiceWorkerCommon
-.
-h
-'
-'
 ServiceWorkerContainer
 .
 h
