@@ -451,6 +451,7 @@ segments
 renderPathSegments
 (
 segments
+style
 )
 {
 const
@@ -526,6 +527,7 @@ path
 (
 {
 d
+style
 }
 )
 ;

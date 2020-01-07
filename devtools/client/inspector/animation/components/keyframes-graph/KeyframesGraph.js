@@ -103,6 +103,13 @@ PropTypes
 func
 .
 isRequired
+type
+:
+PropTypes
+.
+string
+.
+isRequired
 values
 :
 PropTypes
@@ -120,6 +127,7 @@ render
 const
 {
 simulateAnimation
+type
 values
 }
 =
@@ -145,6 +153,7 @@ KeyframesGraphPath
 (
 {
 simulateAnimation
+type
 values
 }
 )

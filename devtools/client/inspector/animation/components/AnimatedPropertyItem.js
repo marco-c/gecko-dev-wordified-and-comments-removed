@@ -136,6 +136,13 @@ PropTypes
 object
 .
 isRequired
+type
+:
+PropTypes
+.
+string
+.
+isRequired
 values
 :
 PropTypes
@@ -155,6 +162,7 @@ const
 property
 simulateAnimation
 state
+type
 values
 }
 =
@@ -189,6 +197,7 @@ KeyframesGraph
 (
 {
 simulateAnimation
+type
 values
 }
 )
