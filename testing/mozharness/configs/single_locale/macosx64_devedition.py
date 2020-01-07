@@ -3,14 +3,6 @@ config
 {
     
 "
-platform
-"
-:
-"
-macosx64
-"
-    
-"
 app_name
 "
 :

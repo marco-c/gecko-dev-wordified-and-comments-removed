@@ -152,15 +152,9 @@ configuration_tokens
 '
 branch
 '
-                        
-'
-platform
-'
-                        
 '
 update_channel
 '
-                        
 )
 runtime_config_tokens
 =

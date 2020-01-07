@@ -3,14 +3,6 @@ config
 {
     
 "
-platform
-"
-:
-"
-win32
-"
-    
-"
 app_name
 "
 :

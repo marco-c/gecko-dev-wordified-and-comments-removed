@@ -254,14 +254,6 @@ MOZ_UPDATE_CHANNEL
 }
     
 "
-platform
-"
-:
-"
-android
-"
-    
-"
 build_target
 "
 :

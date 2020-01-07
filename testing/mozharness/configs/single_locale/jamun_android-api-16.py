@@ -249,14 +249,6 @@ jamun
 }
     
 "
-platform
-"
-:
-"
-android
-"
-    
-"
 build_target
 "
 :

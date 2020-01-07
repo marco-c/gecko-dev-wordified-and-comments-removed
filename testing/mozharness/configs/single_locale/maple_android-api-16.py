@@ -249,14 +249,6 @@ maple
 }
     
 "
-platform
-"
-:
-"
-android
-"
-    
-"
 build_target
 "
 :
