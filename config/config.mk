@@ -2617,7 +2617,7 @@ uselist
 -
 -
 (
-LINK
+LINKER
 )
 EXPAND_MKSHLIB_ARGS
 =

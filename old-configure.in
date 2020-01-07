@@ -2184,7 +2184,7 @@ _LD_FULL_VERSION
 =
 "
 {
-LINK
+LINKER
 }
 "
 -
@@ -7566,7 +7566,7 @@ MKSHLIB
 =
 '
 (
-LINK
+LINKER
 )
 -
 NOLOGO
@@ -7589,7 +7589,7 @@ MKCSHLIB
 =
 '
 (
-LINK
+LINKER
 )
 -
 NOLOGO

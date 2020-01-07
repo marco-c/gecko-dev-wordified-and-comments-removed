@@ -8092,7 +8092,7 @@ msvc
 imply_option
 (
 '
-LINK
+LINKER
 '
 linker
 reason

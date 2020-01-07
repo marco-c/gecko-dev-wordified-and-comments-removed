@@ -3272,7 +3272,7 @@ link
 check_prog
 (
 '
-LINK
+LINKER
 '
 (
 '
@@ -3288,7 +3288,7 @@ vc_compiler_path
 add_old_configure_assignment
 (
 '
-LINK
+LINKER
 '
 link
 )
