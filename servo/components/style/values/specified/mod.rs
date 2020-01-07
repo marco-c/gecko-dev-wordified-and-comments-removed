@@ -538,6 +538,7 @@ position
 Position
 PositionComponent
 GridAutoFlow
+GridTemplateAreas
 }
 ;
 pub

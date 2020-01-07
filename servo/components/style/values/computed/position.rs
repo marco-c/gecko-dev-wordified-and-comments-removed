@@ -47,7 +47,10 @@ specified
 position
 :
 :
+{
 GridAutoFlow
+GridTemplateAreas
+}
 ;
 pub
 type
