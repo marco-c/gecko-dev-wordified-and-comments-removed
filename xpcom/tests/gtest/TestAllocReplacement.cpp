@@ -297,7 +297,7 @@ after
 }
 TEST
 (
-AllocReplacement
+AllocReplacementDeathTest
 malloc_check
 )
 {
@@ -318,7 +318,7 @@ kAllocAmount
 }
 TEST
 (
-AllocReplacement
+AllocReplacementDeathTest
 calloc_check
 )
 {
@@ -340,7 +340,7 @@ kAllocAmount
 }
 TEST
 (
-AllocReplacement
+AllocReplacementDeathTest
 realloc_check
 )
 {
@@ -368,7 +368,7 @@ HAVE_POSIX_MEMALIGN
 )
 TEST
 (
-AllocReplacement
+AllocReplacementDeathTest
 posix_memalign_check
 )
 {
@@ -479,7 +479,7 @@ p
 ;
 TEST
 (
-AllocReplacement
+AllocReplacementDeathTest
 HeapAlloc_check
 )
 {
@@ -509,7 +509,7 @@ kAllocAmount
 }
 TEST
 (
-AllocReplacement
+AllocReplacementDeathTest
 HeapReAlloc_check
 )
 {
