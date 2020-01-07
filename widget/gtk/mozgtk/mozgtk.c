@@ -231,6 +231,10 @@ gdk_pointer_ungrab
 )
 STUB
 (
+gdk_property_change
+)
+STUB
+(
 gdk_property_get
 )
 STUB
