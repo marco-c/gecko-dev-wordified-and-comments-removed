@@ -292,6 +292,11 @@ processType
 origRuntime
 .
 processType
+uniqueProcessID
+:
+origRuntime
+.
+uniqueProcessID
 get
 userCanElevate
 (
