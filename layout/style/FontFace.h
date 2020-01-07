@@ -160,11 +160,11 @@ gfxFontFaceSrc
 >
 &
 aFontFaceSrcList
-WeightRange
+FontWeight
 aWeight
-StretchRange
+FontStretch
 aStretch
-SlantStyleRange
+FontSlantStyle
 aStyle
 const
 nsTArray
