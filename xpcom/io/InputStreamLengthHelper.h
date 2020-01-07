@@ -100,6 +100,13 @@ Run
 )
 override
 ;
+void
+ExecCallback
+(
+int64_t
+aLength
+)
+;
 nsCOMPtr
 <
 nsIInputStream
