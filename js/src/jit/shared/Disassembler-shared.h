@@ -652,6 +652,9 @@ Node
 *
 nodes_
 ;
+uint32_t
+tag_
+;
 static
 mozilla
 :
@@ -660,7 +663,7 @@ Atomic
 <
 uint32_t
 >
-live_
+counter_
 ;
 #
 endif
