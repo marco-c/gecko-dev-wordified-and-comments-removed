@@ -789,11 +789,6 @@ closeToolbox
 (
 )
 ;
-focusButton
-(
-closeButtonId
-)
-;
 }
 tabIndex
 :
