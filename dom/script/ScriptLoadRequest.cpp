@@ -163,11 +163,11 @@ mHasSourceMapURL
 (
 false
 )
-mIsDefer
+mInDeferList
 (
 false
 )
-mIsAsync
+mInAsyncList
 (
 false
 )

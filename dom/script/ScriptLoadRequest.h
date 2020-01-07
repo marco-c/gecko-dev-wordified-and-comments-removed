@@ -541,10 +541,10 @@ bool
 mHasSourceMapURL
 ;
 bool
-mIsDefer
+mInDeferList
 ;
 bool
-mIsAsync
+mInAsyncList
 ;
 bool
 mPreloadAsAsync
