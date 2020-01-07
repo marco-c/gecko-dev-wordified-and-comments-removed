@@ -705,7 +705,7 @@ gBlockedRemoteClients
 =
 {
 "
-tbnnotifier
+tbnotifier
 .
 exe
 "
