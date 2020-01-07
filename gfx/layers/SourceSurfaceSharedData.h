@@ -437,6 +437,10 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+bool
+aShare
+=
+true
 )
 ;
 uint8_t
