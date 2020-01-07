@@ -134,11 +134,6 @@ mozSpellCheckerFactory
 .
 cpp
 '
-'
-mozSpellI18NManager
-.
-cpp
-'
 ]
 FINAL_LIBRARY
 =

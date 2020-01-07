@@ -100,11 +100,6 @@ mozISpellCheckingEngine
 idl
 '
 '
-mozISpellI18NManager
-.
-idl
-'
-'
 mozISpellI18NUtil
 .
 idl
