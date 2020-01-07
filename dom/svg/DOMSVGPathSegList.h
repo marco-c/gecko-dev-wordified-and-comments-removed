@@ -533,6 +533,15 @@ ItemProxy
 ItemProxy
 (
 )
+:
+mItem
+(
+nullptr
+)
+mInternalDataIndex
+(
+0
+)
 {
 }
 ItemProxy

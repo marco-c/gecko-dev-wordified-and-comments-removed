@@ -75,6 +75,11 @@ public
 SVGAnimatedNumberList
 (
 )
+:
+mIsBaseSet
+(
+false
+)
 {
 }
 const

@@ -613,6 +613,9 @@ Paint
 (
 )
 :
+mPaintDefinition
+{
+}
 mPaintType
 (
 eStyleSVGPaintType_None
