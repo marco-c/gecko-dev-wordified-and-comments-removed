@@ -336,6 +336,9 @@ endPanel
 :
 AnimationDetailContainer
 (
+{
+getAnimatedPropertyMap
+}
 )
 endPanelControl
 :

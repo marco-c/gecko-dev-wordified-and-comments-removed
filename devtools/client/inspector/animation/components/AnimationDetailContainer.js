@@ -140,6 +140,13 @@ PropTypes
 object
 .
 isRequired
+getAnimatedPropertyMap
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -150,6 +157,7 @@ render
 const
 {
 animation
+getAnimatedPropertyMap
 }
 =
 this
@@ -186,6 +194,10 @@ animation
 ?
 AnimatedPropertyListContainer
 (
+{
+animation
+getAnimatedPropertyMap
+}
 )
 :
 null

@@ -64,6 +64,11 @@ graph
 DevToolsModules
 (
 '
+AnimatedPropertyItem
+.
+js
+'
+'
 AnimatedPropertyList
 .
 js
