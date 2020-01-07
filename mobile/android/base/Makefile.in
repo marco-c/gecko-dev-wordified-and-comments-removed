@@ -405,7 +405,6 @@ OMNIJAR_NAME
 PHONY
 :
 features
-tools
 features
 :
 :
