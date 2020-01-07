@@ -87,16 +87,6 @@ Site
 <
 !
 ENTITY
-statusCol
-.
-label
-"
-Status
-"
->
-<
-!
-ENTITY
 cookiesCol
 .
 label
