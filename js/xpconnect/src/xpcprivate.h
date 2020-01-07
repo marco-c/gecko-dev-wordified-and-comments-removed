@@ -6864,15 +6864,6 @@ GetInterfaceName
 (
 )
 ;
-static
-bool
-IsWrappedJS
-(
-nsISupports
-*
-aPtr
-)
-;
 NS_IMETHOD
 DelegatedQueryInterface
 (
