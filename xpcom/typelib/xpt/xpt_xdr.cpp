@@ -128,7 +128,7 @@ cursor
 )
 static
 bool
-CHECK_COUNT
+CheckCount
 (
 NotNull
 <
@@ -323,7 +323,7 @@ if
 (
 !
 (
-CHECK_COUNT
+CheckCount
 (
 cursor
 len
@@ -791,7 +791,7 @@ T
 if
 (
 !
-CHECK_COUNT
+CheckCount
 (
 cursor
 sz
@@ -941,7 +941,7 @@ u8p
 if
 (
 !
-CHECK_COUNT
+CheckCount
 (
 cursor
 1
