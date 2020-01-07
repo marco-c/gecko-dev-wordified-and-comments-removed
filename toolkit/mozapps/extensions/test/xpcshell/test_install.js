@@ -2884,7 +2884,7 @@ if
 (
 AppConstants
 .
-OS
+platform
 !
 =
 =
