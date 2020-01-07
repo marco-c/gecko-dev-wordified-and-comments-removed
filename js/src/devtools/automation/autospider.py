@@ -2313,6 +2313,24 @@ cxx
 )
 )
     
+if
+compiler
+=
+=
+'
+clang
+'
+:
+        
+platlib
+=
+'
+lib
+'
+    
+else
+:
+        
 platlib
 =
 '
