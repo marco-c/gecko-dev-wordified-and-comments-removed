@@ -5356,7 +5356,7 @@ mInInvalidSubtree
 (
 false
 )
-mBuiltOverlayScrollbars
+mDisablePartialUpdates
 (
 false
 )
