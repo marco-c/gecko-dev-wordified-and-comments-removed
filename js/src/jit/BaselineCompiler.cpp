@@ -4885,6 +4885,9 @@ JSOP_UNUSED223
 case
 JSOP_LIMIT
 :
+case
+JSOP_IMPORTMETA
+:
 JitSpew
 (
 JitSpew_BaselineAbort

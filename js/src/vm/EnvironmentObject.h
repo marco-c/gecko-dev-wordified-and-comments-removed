@@ -3553,6 +3553,15 @@ MutableHandleObject
 envObj
 )
 ;
+ModuleObject
+*
+GetModuleObjectForScript
+(
+JSScript
+*
+script
+)
+;
 ModuleEnvironmentObject
 *
 GetModuleEnvironmentForScript

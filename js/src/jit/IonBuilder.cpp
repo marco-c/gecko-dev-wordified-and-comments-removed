@@ -12656,6 +12656,9 @@ JSOP_SETINTRINSIC
 case
 JSOP_THROWMSG
 :
+case
+JSOP_IMPORTMETA
+:
 break
 ;
 case
