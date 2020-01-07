@@ -5511,6 +5511,13 @@ GetCompositorAnimationsId
 )
 )
 ;
+layer
+-
+>
+ClearCompositorAnimations
+(
+)
+;
 }
 layer
 -

@@ -3444,6 +3444,11 @@ aReadyTime
 )
 ;
 void
+ClearCompositorAnimations
+(
+)
+;
+void
 SetFixedPositionData
 (
 FrameMetrics
