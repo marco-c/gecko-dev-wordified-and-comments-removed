@@ -1633,6 +1633,13 @@ UsesTiling
 )
 const
 ;
+virtual
+bool
+ContentUsesTiling
+(
+)
+const
+;
 static
 mozilla
 :
@@ -2087,6 +2094,7 @@ BackendPrefsData
 GetBackendPrefs
 (
 )
+const
 ;
 void
 InitBackendPrefs
