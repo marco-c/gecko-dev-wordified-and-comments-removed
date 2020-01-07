@@ -136,7 +136,7 @@ defineLazyModuleGetter
 (
 this
 "
-FormAutofillParent
+formAutofillParent
 "
 "
 resource
@@ -746,15 +746,7 @@ MaybeOpenPopup
 onMaybeOpenPopup
 )
 ;
-let
-parent
-=
-new
-FormAutofillParent
-(
-)
-;
-parent
+formAutofillParent
 .
 init
 (
