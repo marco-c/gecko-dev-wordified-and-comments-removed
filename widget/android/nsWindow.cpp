@@ -2042,6 +2042,9 @@ Dispatch
 (
 NewRunnableFunction
 (
+"
+OnDetachRunnable
+"
 static_cast
 <
 void

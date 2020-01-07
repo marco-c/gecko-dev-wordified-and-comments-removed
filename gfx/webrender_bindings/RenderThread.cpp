@@ -1017,6 +1017,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+NotifyDidRenderRunnable
+"
 &
 NotifyDidRender
 renderer

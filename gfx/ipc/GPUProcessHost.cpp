@@ -855,6 +855,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DestroyProcessRunnable
+"
 DelayedDeleteSubprocess
 this
 )

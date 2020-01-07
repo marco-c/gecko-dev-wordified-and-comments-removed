@@ -8640,6 +8640,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DelayedDeleteSubprocessRunnable
+"
 DelayedDeleteSubprocess
 mSubprocess
 )
@@ -15441,6 +15444,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+EnsureProcessTerminatedRunnable
+"
 &
 ProcessWatcher
 :

@@ -2428,6 +2428,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+ScheduleSendAllPluginsCapturedRunnable
+"
 &
 ScheduleSendAllPluginsCaptured
 this

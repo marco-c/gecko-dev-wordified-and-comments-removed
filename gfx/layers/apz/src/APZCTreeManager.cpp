@@ -10677,6 +10677,9 @@ RunOnControllerThread
 (
 NewRunnableFunction
 (
+"
+SetLongTapEnabledRunnable
+"
 GestureEventListener
 :
 :
