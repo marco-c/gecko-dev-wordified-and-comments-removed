@@ -166,11 +166,6 @@ MountainGraphWidget
 js
 '
 '
-ShapesInContextEditor
-.
-js
-'
-'
 SideMenuWidget
 .
 jsm

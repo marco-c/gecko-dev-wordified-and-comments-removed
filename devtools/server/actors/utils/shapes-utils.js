@@ -18,10 +18,6 @@ y2
 return
 Math
 .
-round
-(
-Math
-.
 hypot
 (
 x2
@@ -30,7 +26,6 @@ x1
 y2
 -
 y1
-)
 )
 ;
 }
