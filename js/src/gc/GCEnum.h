@@ -204,13 +204,13 @@ GenerationalGC
 \
 D
 (
-IncrementalRootsThenFinish
+YieldBeforeMarking
 8
 )
 \
 D
 (
-IncrementalMarkAllThenFinish
+YieldBeforeSweeping
 9
 )
 \
@@ -258,7 +258,7 @@ CheckNursery
 \
 D
 (
-IncrementalSweepThenFinish
+YieldBeforeSweepingAtoms
 17
 )
 \
