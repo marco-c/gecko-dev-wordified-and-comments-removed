@@ -2348,14 +2348,26 @@ packages
 [
             
 '
-autoconf
-2
-.
-13
+python
+'
+            
+'
+python3
+'
+            
+'
+mercurial
 '
             
 '
 git
+'
+            
+'
+autoconf
+2
+.
+13
 '
             
 '
@@ -2365,23 +2377,7 @@ tar
 '
             
 '
-llvm
-'
-            
-'
-mercurial
-'
-            
-'
-node
-'
-            
-'
-python
-'
-            
-'
-python3
+watchman
 '
             
 '
@@ -2391,7 +2387,7 @@ notifier
 '
             
 '
-watchman
+node
 '
         
 ]
@@ -2416,6 +2412,10 @@ False
 packages
 =
 [
+            
+'
+llvm
+'
             
 '
 yasm
