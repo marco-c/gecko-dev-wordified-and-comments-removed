@@ -13404,7 +13404,7 @@ rv
 nsXULElement
 :
 :
-Create
+CreateFromPrototype
 (
 aPrototype
 this

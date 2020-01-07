@@ -45576,8 +45576,10 @@ NS_IF_ADDREF
 *
 aResult
 =
-new
 nsXULElement
+:
+:
+Construct
 (
 nodeInfo
 .
@@ -45628,8 +45630,10 @@ NS_IF_ADDREF
 *
 aResult
 =
-new
 nsXULElement
+:
+:
+Construct
 (
 nodeInfo
 .
@@ -45734,8 +45738,10 @@ NS_IF_ADDREF
 *
 aResult
 =
-new
 nsXULElement
+:
+:
+Construct
 (
 nodeInfo
 .

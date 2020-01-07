@@ -18983,8 +18983,10 @@ kNameSpaceID_XUL
 {
 element
 =
-new
 nsXULElement
+:
+:
+Construct
 (
 nodeInfo
 .

@@ -5745,7 +5745,7 @@ rv
 nsXULElement
 :
 :
-Create
+CreateFromPrototype
 (
 prototype
 aDocument
