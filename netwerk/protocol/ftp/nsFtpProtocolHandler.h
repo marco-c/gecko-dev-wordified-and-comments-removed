@@ -228,6 +228,9 @@ mRootConnectionList
 int32_t
 mIdleTimeout
 ;
+bool
+mEnabled
+;
 uint32_t
 mSessionId
 ;
