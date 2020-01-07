@@ -104,6 +104,11 @@ ConversionDoneCallback
 aCallback
 )
 ;
+void
+EndConversion
+(
+)
+;
 FORWARD_SHMEM_ALLOCATOR_TO
 (
 PPDFiumParent
