@@ -278,6 +278,14 @@ ServiceProvider
 cpp
 '
 ]
+OS_LIBS
++
+=
+[
+'
+ntdll
+'
+]
 if
 CONFIG
 [
