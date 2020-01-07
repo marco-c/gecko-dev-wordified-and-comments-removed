@@ -35,11 +35,6 @@ NS_OS_CURRENT_WORKING_DIR
 )
 DIR_ATOM
 (
-sOS_HomeDirectory
-NS_OS_HOME_DIR
-)
-DIR_ATOM
-(
 sOS_DesktopDirectory
 NS_OS_DESKTOP_DIR
 )
