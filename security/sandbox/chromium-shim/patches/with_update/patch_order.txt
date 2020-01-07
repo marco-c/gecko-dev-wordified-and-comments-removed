@@ -58,3 +58,6 @@ patch
 mingw_operator_new
 .
 patch
+mingw_cast_getprocaddress
+.
+patch
