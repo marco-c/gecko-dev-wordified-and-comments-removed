@@ -128,9 +128,6 @@ interface
 nsIChannel
 ;
 interface
-nsIDOMDocument
-;
-interface
 nsINode
 ;
 interface
@@ -141,6 +138,9 @@ nsIRedirectHistoryEntry
 ;
 interface
 nsIURI
+;
+webidl
+Document
 ;
 native
 LoadContextRef
@@ -2728,7 +2728,7 @@ LoadingDocument
 /
 readonly
 attribute
-nsIDOMDocument
+Document
 loadingDocument
 ;
 /

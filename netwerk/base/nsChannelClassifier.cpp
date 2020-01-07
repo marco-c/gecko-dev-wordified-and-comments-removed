@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h
