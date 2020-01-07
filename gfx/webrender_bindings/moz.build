@@ -297,6 +297,11 @@ webrender
 =
 [
 '
+RenderCompositorANGLE
+.
+h
+'
+'
 RenderD3D11TextureHostOGL
 .
 h
@@ -306,6 +311,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+RenderCompositorANGLE
+.
+cpp
+'
 '
 RenderD3D11TextureHostOGL
 .
