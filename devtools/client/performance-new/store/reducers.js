@@ -258,6 +258,9 @@ js
 "
 stackwalk
 "
+"
+responsiveness
+"
 ]
 action
 )
