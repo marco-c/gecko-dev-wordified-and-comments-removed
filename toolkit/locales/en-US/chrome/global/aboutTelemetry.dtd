@@ -494,6 +494,17 @@ Statements
 ENTITY
 aboutTelemetry
 .
+chromeHangsSection
+"
+Browser
+Hangs
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 addonDetailsSection
 "
 Add
