@@ -1238,6 +1238,9 @@ output_format
 '
 lcov
 '
+filter_covered
+=
+False
 )
 :
         
@@ -1604,6 +1607,24 @@ llvm
 '
 ]
         
+if
+filter_covered
+:
+            
+grcov_command
++
+=
+[
+'
+-
+-
+filter
+'
+'
+covered
+'
+]
+        
 tmp_output_file
 _
 =
@@ -1705,6 +1726,10 @@ output_format
 '
 coveralls
 '
+            
+filter_covered
+=
+True
         
 )
         
