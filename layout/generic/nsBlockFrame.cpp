@@ -35573,7 +35573,7 @@ get
 )
 )
 ;
-ServoRestyleManager
+RestyleManager
 *
 manager
 =
@@ -35583,11 +35583,6 @@ PresContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsServo
 (
 )
 ;

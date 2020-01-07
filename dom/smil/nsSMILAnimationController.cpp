@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+RestyleManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -2790,11 +2799,6 @@ context
 -
 >
 RestyleManager
-(
-)
--
->
-AsServo
 (
 )
 -

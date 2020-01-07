@@ -721,7 +721,7 @@ true
 }
 }
 }
-ServoRestyleManager
+RestyleManager
 *
 restyleManager
 =
@@ -729,11 +729,6 @@ presContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsServo
 (
 )
 ;
