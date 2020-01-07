@@ -138,7 +138,7 @@ aJITFrameInfo
 )
 const
 ;
-bool
+void
 StreamSamplesToJSON
 (
 SpliceableJSONWriter
@@ -148,16 +148,13 @@ int
 aThreadId
 double
 aSinceTime
-JSContext
-*
-cx
 UniqueStacks
 &
 aUniqueStacks
 )
 const
 ;
-bool
+void
 StreamMarkersToJSON
 (
 SpliceableJSONWriter
