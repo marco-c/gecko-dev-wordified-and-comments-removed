@@ -137,10 +137,11 @@ nsAString
 aSsid
 )
 {
-CopyASCIItoUTF16
+aSsid
+.
+AssignASCII
 (
 mSsid
-aSsid
 )
 ;
 return
