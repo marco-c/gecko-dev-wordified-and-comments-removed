@@ -2738,6 +2738,10 @@ test_types
 suite
 ]
             
+summary
+=
+None
+            
 for
 per_test_args
 in
@@ -2921,12 +2925,14 @@ per_test_args
                 
 tbpl_status
 log_level
+summary
 =
 parser
 .
 evaluate_parser
 (
 return_code
+summary
 )
                 
 self
