@@ -7543,6 +7543,16 @@ return
 true
 ;
 }
+if
+(
+!
+mMayHaveOpacityAnimation
+)
+{
+return
+false
+;
+}
 EffectSet
 *
 effects
