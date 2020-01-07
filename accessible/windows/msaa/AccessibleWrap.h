@@ -636,6 +636,11 @@ aCaretRect
 ;
 public
 :
+bool
+IsRootForHWND
+(
+)
+;
 MOZ_MUST_USE
 already_AddRefed
 <
