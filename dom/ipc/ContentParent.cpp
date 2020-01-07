@@ -10431,9 +10431,9 @@ FILE_REMOTE_TYPE
 mSubprocess
 =
 new
-GeckoChildProcessHost
+ContentProcessHost
 (
-GeckoProcessType_Content
+this
 isFile
 )
 ;
