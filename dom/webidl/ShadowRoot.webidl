@@ -212,6 +212,12 @@ ShadowRoot
 :
 DocumentFragment
 {
+readonly
+attribute
+Element
+?
+activeElement
+;
 /
 /
 Shadow

@@ -4035,7 +4035,7 @@ content
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsHostIncludingDescendantOf
 (
 content
 aContent

@@ -1319,6 +1319,13 @@ get
 nullptr
 ;
 }
+nsIContent
+*
+GetContainingShadowHost
+(
+)
+const
+;
 mozilla
 :
 :
