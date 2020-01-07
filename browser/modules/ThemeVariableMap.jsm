@@ -283,8 +283,6 @@ toolbar_field_text_focus
 "
 -
 -
-lwt
--
 toolbar
 -
 field
