@@ -255,6 +255,11 @@ a
 "
 )
 ;
+if
+(
+processfd
+)
+{
 fprintf
 (
 processfd
@@ -281,6 +286,7 @@ fclose
 processfd
 )
 ;
+}
 }
 }
 #
