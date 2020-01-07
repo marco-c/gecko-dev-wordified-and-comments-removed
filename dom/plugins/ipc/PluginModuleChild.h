@@ -1217,6 +1217,8 @@ MOZ_SANDBOX
 void
 EnableFlashSandbox
 (
+int
+aLevel
 bool
 aShouldEnableLogging
 )
@@ -1237,8 +1239,8 @@ defined
 (
 MOZ_SANDBOX
 )
-bool
-mEnableFlashSandbox
+int
+mFlashSandboxLevel
 ;
 bool
 mEnableFlashSandboxLogging
