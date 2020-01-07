@@ -984,14 +984,6 @@ frame
 void
 check
 (
-SavedStacks
-*
-stacks
-)
-;
-void
-check
-(
 Handle
 <
 PropertyDescriptor

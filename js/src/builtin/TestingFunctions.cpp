@@ -7454,7 +7454,7 @@ false
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -7513,7 +7513,7 @@ setNumber
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -7564,7 +7564,7 @@ savedStacks
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -7606,7 +7606,6 @@ done
 +
 iter
 )
-{
 iter
 -
 >
@@ -7614,7 +7613,6 @@ clearLiveSavedFrameCache
 (
 )
 ;
-}
 args
 .
 rval
