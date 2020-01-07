@@ -9,7 +9,10 @@ specified
 list
 :
 :
+{
+ListStyleImage
 Quotes
+}
 ;
 impl
 Quotes

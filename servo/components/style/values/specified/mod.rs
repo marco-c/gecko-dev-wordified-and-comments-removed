@@ -526,7 +526,10 @@ self
 list
 :
 :
+{
+ListStyleImage
 Quotes
+}
 ;
 pub
 use
