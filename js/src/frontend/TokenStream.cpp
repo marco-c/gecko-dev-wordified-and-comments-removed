@@ -2619,7 +2619,7 @@ class
 AnyCharsAccess
 >
 void
-TokenStreamSpecific
+GeneralTokenStreamChars
 <
 CharT
 AnyCharsAccess
