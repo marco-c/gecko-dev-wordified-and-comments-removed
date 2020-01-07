@@ -213,6 +213,11 @@ onInit
 )
 {
 }
+onDestroy
+(
+)
+{
+}
 onSettingsUpdate
 (
 )
