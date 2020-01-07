@@ -176,9 +176,6 @@ gDevToolsMethods
 =
 [
 "
-reload
-"
-"
 showToolbox
 "
 "
