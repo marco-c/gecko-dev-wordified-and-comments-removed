@@ -251,9 +251,6 @@ wasmFoldOffsets
 bool
 wasmDelayTier2
 ;
-bool
-ionInterruptWithoutSignals
-;
 uint32_t
 baselineWarmUpThreshold
 ;

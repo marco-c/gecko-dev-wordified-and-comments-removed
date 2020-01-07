@@ -861,12 +861,6 @@ wasmBatchIonThreshold
 1100
 )
 ;
-SET_DEFAULT
-(
-ionInterruptWithoutSignals
-false
-)
-;
 }
 bool
 DefaultJitOptions

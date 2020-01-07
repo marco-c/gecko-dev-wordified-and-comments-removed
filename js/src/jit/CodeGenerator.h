@@ -209,9 +209,6 @@ class
 CheckOverRecursedFailure
 ;
 class
-OutOfLineInterruptCheckImplicit
-;
-class
 OutOfLineUnboxFloatingPoint
 ;
 class
@@ -517,14 +514,6 @@ visitOutOfLineICFallback
 OutOfLineICFallback
 *
 ool
-)
-;
-void
-visitOutOfLineInterruptCheckImplicit
-(
-OutOfLineInterruptCheckImplicit
-*
-ins
 )
 ;
 void

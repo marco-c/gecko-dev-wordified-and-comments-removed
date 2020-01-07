@@ -20577,11 +20577,6 @@ jumpWithPatch
 RepatchLabel
 *
 label
-Condition
-cond
-Label
-*
-documentation
 )
 {
 ARMBuffer
@@ -20597,13 +20592,11 @@ as_BranchPool
 (
 0xdeadbeef
 label
-refLabel
+LabelDoc
 (
-documentation
 )
 &
 pe
-cond
 )
 ;
 CodeOffsetJump

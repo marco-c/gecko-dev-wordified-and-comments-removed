@@ -233,9 +233,6 @@ check
 )
 const
 {
-#
-ifndef
-XP_WIN
 if
 (
 OnHelperThread
@@ -270,8 +267,6 @@ runtime
 )
 )
 ;
-#
-endif
 }
 template
 class
@@ -369,9 +364,6 @@ ownedByCurrentHelperThread
 }
 else
 {
-#
-ifndef
-XP_WIN
 MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
@@ -385,8 +377,6 @@ runtime
 )
 )
 ;
-#
-endif
 }
 }
 else

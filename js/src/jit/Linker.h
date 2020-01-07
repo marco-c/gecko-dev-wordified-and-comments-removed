@@ -129,10 +129,6 @@ JSContext
 cx
 CodeKind
 kind
-bool
-hasPatchableBackedges
-=
-false
 )
 ;
 }
