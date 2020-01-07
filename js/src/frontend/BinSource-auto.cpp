@@ -58,6 +58,8 @@ include
 frontend
 /
 BinSource
+-
+macros
 .
 h
 "
@@ -67,8 +69,6 @@ include
 frontend
 /
 BinSource
--
-macros
 .
 h
 "
@@ -250,7 +250,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumArrowExpression
@@ -433,7 +433,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumAssignmentTarget
@@ -673,7 +673,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumAssignmentTargetOrAssignmentTargetWithInitializer
@@ -932,7 +932,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumAssignmentTargetPattern
@@ -1115,7 +1115,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumAssignmentTargetProperty
@@ -1298,7 +1298,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumBinding
@@ -1500,7 +1500,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumBindingOrBindingWithInitializer
@@ -1721,7 +1721,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumBindingPattern
@@ -1904,7 +1904,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumBindingProperty
@@ -2087,7 +2087,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumExportDeclaration
@@ -2327,7 +2327,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumExpression
@@ -3042,7 +3042,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumExpressionOrSuper
@@ -3776,7 +3776,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumExpressionOrTemplateElement
@@ -4510,7 +4510,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumForInOfBindingOrAssignmentTarget
@@ -4769,7 +4769,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumFunctionBodyOrExpression
@@ -5503,7 +5503,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumFunctionDeclaration
@@ -5686,7 +5686,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumFunctionDeclarationOrClassDeclarationOrExpression
@@ -6458,7 +6458,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumFunctionDeclarationOrClassDeclarationOrVariableDeclaration
@@ -6679,7 +6679,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumFunctionExpression
@@ -6862,7 +6862,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumGetter
@@ -7045,7 +7045,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumImportDeclaration
@@ -7228,7 +7228,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumImportDeclarationOrExportDeclarationOrStatement
@@ -7962,7 +7962,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumIterationStatement
@@ -8202,7 +8202,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumLiteral
@@ -8442,7 +8442,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumMethod
@@ -8625,7 +8625,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumMethodDefinition
@@ -8884,7 +8884,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumObjectProperty
@@ -9181,7 +9181,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumParameter
@@ -9402,7 +9402,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumProgram
@@ -9585,7 +9585,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumPropertyName
@@ -9768,7 +9768,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumSetter
@@ -9951,7 +9951,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumSimpleAssignmentTarget
@@ -10153,7 +10153,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumSpreadElementOrExpression
@@ -10887,7 +10887,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumStatement
@@ -11488,7 +11488,7 @@ guard
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseSumVariableDeclarationOrExpression
@@ -12222,7 +12222,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceNull
@@ -12358,7 +12358,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceArrayAssignmentTarget
@@ -12494,7 +12494,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceArrayBinding
@@ -12630,7 +12630,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceArrayExpression
@@ -12721,7 +12721,7 @@ Elements
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 elements
 parseListOfOptionalSpreadElementOrExpression
@@ -12800,7 +12800,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssertedBlockScope
@@ -12923,7 +12923,7 @@ parseAndUpdateCapturedNames
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 hasDirectEval
 tokenizer_
@@ -13077,7 +13077,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssertedParameterScope
@@ -13199,7 +13199,7 @@ parseAndUpdateCapturedNames
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 hasDirectEval
 tokenizer_
@@ -13353,7 +13353,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssertedVarScope
@@ -13497,7 +13497,7 @@ parseAndUpdateCapturedNames
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 hasDirectEval
 tokenizer_
@@ -13652,7 +13652,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssignmentExpression
@@ -13747,7 +13747,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 binding
 parseAssignmentTarget
@@ -13755,7 +13755,7 @@ parseAssignmentTarget
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -13763,7 +13763,7 @@ parseExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -13846,7 +13846,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssignmentTargetIdentifier
@@ -13971,7 +13971,7 @@ identifier
 "
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -14062,7 +14062,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssignmentTargetPropertyIdentifier
@@ -14198,7 +14198,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssignmentTargetPropertyProperty
@@ -14334,7 +14334,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAssignmentTargetWithInitializer
@@ -14470,7 +14470,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceAwaitExpression
@@ -14606,7 +14606,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBinaryExpression
@@ -14705,7 +14705,7 @@ Right
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 operator_
 parseBinaryOperator
@@ -14713,7 +14713,7 @@ parseBinaryOperator
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 left
 parseExpression
@@ -14721,7 +14721,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 right
 parseExpression
@@ -15152,7 +15152,7 @@ left
 }
 else
 {
-TRY_DECL
+BINJS_TRY_DECL
 (
 list
 factory_
@@ -15258,7 +15258,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBindingIdentifier
@@ -15383,7 +15383,7 @@ identifier
 "
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -15474,7 +15474,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBindingPropertyIdentifier
@@ -15610,7 +15610,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBindingPropertyProperty
@@ -15746,7 +15746,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBindingWithInitializer
@@ -15882,7 +15882,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBlock
@@ -16001,7 +16001,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 currentScope
 .
@@ -16018,7 +16018,7 @@ parseOptionalAssertedBlockScope
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 statements
 parseListOfStatement
@@ -16026,7 +16026,7 @@ parseListOfStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 bindings
 NewLexicalScopeData
@@ -16038,7 +16038,7 @@ parseContext_
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -16118,7 +16118,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceBreakStatement
@@ -16326,7 +16326,7 @@ found
 }
 }
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -16420,7 +16420,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceCallExpression
@@ -16515,7 +16515,7 @@ Arguments
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 callee
 parseExpressionOrSuper
@@ -16523,7 +16523,7 @@ parseExpressionOrSuper
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 arguments
 parseArguments
@@ -16727,7 +16727,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceCatchClause
@@ -16813,10 +16813,6 @@ fields
 BinField
 :
 :
-BindingScope
-BinField
-:
-:
 Binding
 BinField
 :
@@ -16850,7 +16846,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 currentScope
 .
@@ -16860,14 +16856,7 @@ parseContext_
 )
 )
 ;
-MOZ_TRY
-(
-parseOptionalAssertedParameterScope
-(
-)
-)
-;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 binding
 parseBinding
@@ -16875,7 +16864,7 @@ parseBinding
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseBlock
@@ -16912,7 +16901,7 @@ name
 )
 )
 ;
-TRY
+BINJS_TRY
 (
 currentScope
 .
@@ -16934,7 +16923,7 @@ start
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 bindings
 NewLexicalScopeData
@@ -16946,7 +16935,7 @@ parseContext_
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -16959,7 +16948,7 @@ body
 )
 )
 ;
-TRY
+BINJS_TRY
 (
 factory_
 .
@@ -17038,7 +17027,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceClassDeclaration
@@ -17174,7 +17163,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceClassElement
@@ -17310,7 +17299,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceClassExpression
@@ -17446,7 +17435,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceCompoundAssignmentExpression
@@ -17545,7 +17534,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 operator_
 parseCompoundAssignmentOperator
@@ -17553,7 +17542,7 @@ parseCompoundAssignmentOperator
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 binding
 parseSimpleAssignmentTarget
@@ -17561,7 +17550,7 @@ parseSimpleAssignmentTarget
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -17758,7 +17747,7 @@ BitAndAssign
 break
 ;
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -17838,7 +17827,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceComputedMemberAssignmentTarget
@@ -17933,7 +17922,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 object
 parseExpressionOrSuper
@@ -17941,7 +17930,7 @@ parseExpressionOrSuper
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -17949,7 +17938,7 @@ parseExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -18029,7 +18018,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceComputedMemberExpression
@@ -18124,7 +18113,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 object
 parseExpressionOrSuper
@@ -18132,7 +18121,7 @@ parseExpressionOrSuper
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -18140,7 +18129,7 @@ parseExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -18220,7 +18209,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceComputedPropertyName
@@ -18356,7 +18345,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceConditionalExpression
@@ -18455,7 +18444,7 @@ Alternate
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 test
 parseExpression
@@ -18463,7 +18452,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 consequent
 parseExpression
@@ -18471,7 +18460,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 alternate
 parseExpression
@@ -18479,7 +18468,7 @@ parseExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -18559,7 +18548,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceContinueStatement
@@ -18776,7 +18765,7 @@ found
 }
 }
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -18870,7 +18859,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceDataProperty
@@ -18965,7 +18954,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 name
 parsePropertyName
@@ -18973,7 +18962,7 @@ parsePropertyName
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -19001,7 +18990,7 @@ kind
 "
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -19084,7 +19073,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceDebuggerStatement
@@ -19220,7 +19209,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceDirective
@@ -19339,7 +19328,7 @@ pos
 start
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -19418,7 +19407,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceDoWhileStatement
@@ -19526,7 +19515,7 @@ StatementKind
 DoLoop
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 test
 parseExpression
@@ -19534,7 +19523,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseStatement
@@ -19542,7 +19531,7 @@ parseStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -19628,7 +19617,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEagerArrowExpression
@@ -19764,7 +19753,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEagerFunctionDeclaration
@@ -19821,20 +19810,256 @@ BinFields
 fields
 )
 {
-return
-raiseError
+MOZ_ASSERT
 (
-"
-FIXME
+kind
+=
+=
+BinKind
 :
-Not
-implemented
-yet
-(
+:
 EagerFunctionDeclaration
 )
-"
+;
+CheckRecursionLimit
+(
+cx_
 )
+;
+MOZ_TRY
+(
+tokenizer_
+-
+>
+checkFields
+(
+kind
+fields
+{
+BinField
+:
+:
+IsAsync
+BinField
+:
+:
+IsGenerator
+BinField
+:
+:
+ParameterScope
+BinField
+:
+:
+BodyScope
+BinField
+:
+:
+Name
+BinField
+:
+:
+Params
+BinField
+:
+:
+Body
+}
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+isAsync
+tokenizer_
+-
+>
+readBool
+(
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+isGenerator
+tokenizer_
+-
+>
+readBool
+(
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+funbox
+buildFunctionBox
+(
+isGenerator
+?
+GeneratorKind
+:
+:
+Generator
+:
+GeneratorKind
+:
+:
+NotGenerator
+isAsync
+?
+FunctionAsyncKind
+:
+:
+AsyncFunction
+:
+FunctionAsyncKind
+:
+:
+SyncFunction
+)
+)
+;
+BinParseContext
+funpc
+(
+cx_
+this
+funbox
+nullptr
+)
+;
+BINJS_TRY
+(
+funpc
+.
+init
+(
+)
+)
+;
+parseContext_
+-
+>
+functionScope
+(
+)
+.
+useAsVarScope
+(
+parseContext_
+)
+;
+MOZ_ASSERT
+(
+parseContext_
+-
+>
+isFunctionBox
+(
+)
+)
+;
+ParseContext
+:
+:
+Scope
+lexicalScope
+(
+cx_
+parseContext_
+usedNames_
+)
+;
+BINJS_TRY
+(
+lexicalScope
+.
+init
+(
+parseContext_
+)
+)
+;
+MOZ_TRY
+(
+parseOptionalAssertedParameterScope
+(
+)
+)
+;
+MOZ_TRY
+(
+parseOptionalAssertedVarScope
+(
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+name
+parseBindingIdentifier
+(
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+params
+parseFormalParameters
+(
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+body
+parseFunctionBody
+(
+)
+)
+;
+BINJS_TRY_DECL
+(
+lexicalScopeData
+NewLexicalScopeData
+(
+cx_
+lexicalScope
+alloc_
+parseContext_
+)
+)
+;
+BINJS_TRY_VAR
+(
+body
+factory_
+.
+newLexicalScope
+(
+*
+lexicalScopeData
+body
+)
+)
+;
+BINJS_MOZ_TRY_DECL
+(
+result
+buildFunction
+(
+start
+kind
+name
+params
+body
+funbox
+)
+)
+;
+return
+result
 ;
 }
 template
@@ -19900,7 +20125,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEagerFunctionExpression
@@ -20015,7 +20240,7 @@ Body
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 isAsync
 tokenizer_
@@ -20026,7 +20251,7 @@ readBool
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 isGenerator
 tokenizer_
@@ -20037,7 +20262,7 @@ readBool
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 funbox
 buildFunctionBox
@@ -20076,7 +20301,7 @@ funbox
 nullptr
 )
 ;
-TRY
+BINJS_TRY
 (
 funpc
 .
@@ -20118,7 +20343,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 lexicalScope
 .
@@ -20142,7 +20367,7 @@ parseOptionalAssertedVarScope
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 name
 parseOptionalBindingIdentifier
@@ -20150,7 +20375,7 @@ parseOptionalBindingIdentifier
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 params
 parseFormalParameters
@@ -20158,7 +20383,7 @@ parseFormalParameters
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseFunctionBody
@@ -20166,7 +20391,7 @@ parseFunctionBody
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 lexicalScopeData
 NewLexicalScopeData
@@ -20178,7 +20403,7 @@ parseContext_
 )
 )
 ;
-TRY_VAR
+BINJS_TRY_VAR
 (
 body
 factory_
@@ -20191,7 +20416,7 @@ body
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 buildFunction
@@ -20272,7 +20497,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEagerGetter
@@ -20408,7 +20633,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEagerMethod
@@ -20523,7 +20748,7 @@ Body
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 isAsync
 tokenizer_
@@ -20534,7 +20759,7 @@ readBool
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 isGenerator
 tokenizer_
@@ -20545,7 +20770,7 @@ readBool
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 funbox
 buildFunctionBox
@@ -20584,7 +20809,7 @@ funbox
 nullptr
 )
 ;
-TRY
+BINJS_TRY
 (
 funpc
 .
@@ -20626,7 +20851,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 lexicalScope
 .
@@ -20650,7 +20875,7 @@ parseOptionalAssertedVarScope
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 name
 parsePropertyName
@@ -20658,7 +20883,7 @@ parsePropertyName
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 params
 parseFormalParameters
@@ -20666,7 +20891,7 @@ parseFormalParameters
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseFunctionBody
@@ -20674,7 +20899,7 @@ parseFunctionBody
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 method
 buildFunction
@@ -20688,7 +20913,7 @@ funbox
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -20771,7 +20996,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEagerSetter
@@ -20907,7 +21132,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceEmptyStatement
@@ -20992,7 +21217,7 @@ fields
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -21076,7 +21301,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExport
@@ -21212,7 +21437,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExportAllFrom
@@ -21348,7 +21573,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExportDefault
@@ -21484,7 +21709,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExportFrom
@@ -21620,7 +21845,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExportFromSpecifier
@@ -21756,7 +21981,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExportLocalSpecifier
@@ -21892,7 +22117,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExportLocals
@@ -22028,7 +22253,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceExpressionStatement
@@ -22119,7 +22344,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -22127,7 +22352,7 @@ parseExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -22211,7 +22436,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceForInOfBinding
@@ -22312,7 +22537,7 @@ kindGuard
 this
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 kind_
 parseVariableDeclarationKind
@@ -22320,7 +22545,7 @@ parseVariableDeclarationKind
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 binding
 parseBinding
@@ -22369,7 +22594,7 @@ ParseNodeKind
 :
 Var
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -22462,7 +22687,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceForInStatement
@@ -22585,7 +22810,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 scope
 .
@@ -22595,7 +22820,7 @@ parseContext_
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 left
 parseForInOfBindingOrAssignmentTarget
@@ -22603,7 +22828,7 @@ parseForInOfBindingOrAssignmentTarget
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 right
 parseExpression
@@ -22611,7 +22836,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseStatement
@@ -22619,7 +22844,7 @@ parseStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 forHead
 factory_
@@ -22642,7 +22867,7 @@ start
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -22666,7 +22891,7 @@ isEmpty
 )
 )
 {
-TRY_DECL
+BINJS_TRY_DECL
 (
 bindings
 NewLexicalScopeData
@@ -22678,7 +22903,7 @@ parseContext_
 )
 )
 ;
-TRY_VAR
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -22759,7 +22984,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceForOfStatement
@@ -22895,7 +23120,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceForStatement
@@ -23022,7 +23247,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 scope
 .
@@ -23032,7 +23257,7 @@ parseContext_
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 init
 parseOptionalVariableDeclarationOrExpression
@@ -23040,7 +23265,7 @@ parseOptionalVariableDeclarationOrExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 test
 parseOptionalExpression
@@ -23048,7 +23273,7 @@ parseOptionalExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 update
 parseOptionalExpression
@@ -23056,7 +23281,7 @@ parseOptionalExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseStatement
@@ -23064,7 +23289,7 @@ parseStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 forHead
 factory_
@@ -23084,7 +23309,7 @@ start
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -23108,7 +23333,7 @@ isEmpty
 )
 )
 {
-TRY_DECL
+BINJS_TRY_DECL
 (
 bindings
 NewLexicalScopeData
@@ -23120,7 +23345,7 @@ parseContext_
 )
 )
 ;
-TRY_VAR
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -23201,7 +23426,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceFormalParameters
@@ -23296,7 +23521,7 @@ Rest
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 items
 parseListOfParameter
@@ -23304,7 +23529,7 @@ parseListOfParameter
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 rest
 parseOptionalBinding
@@ -23322,7 +23547,7 @@ if
 rest
 )
 {
-TRY_DECL
+BINJS_TRY_DECL
 (
 spread
 factory_
@@ -23410,7 +23635,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceFunctionBody
@@ -23505,7 +23730,7 @@ Statements
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 directives
 parseListOfDirective
@@ -23513,7 +23738,7 @@ parseListOfDirective
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 statements
 parseListOfStatement
@@ -23521,7 +23746,7 @@ parseListOfStatement
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 appendDirectivesToBody
@@ -23598,7 +23823,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceIdentifierExpression
@@ -23723,7 +23948,7 @@ identifier
 "
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -23814,7 +24039,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceIfStatement
@@ -23913,7 +24138,7 @@ Alternate
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 test
 parseExpression
@@ -23921,7 +24146,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 consequent
 parseStatement
@@ -23929,7 +24154,7 @@ parseStatement
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 alternate
 parseOptionalStatement
@@ -23937,7 +24162,7 @@ parseOptionalStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -24018,7 +24243,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceImport
@@ -24154,7 +24379,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceImportNamespace
@@ -24290,7 +24515,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceImportSpecifier
@@ -24426,7 +24651,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLabelledStatement
@@ -24565,7 +24790,7 @@ parseContext_
 label
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseStatement
@@ -24573,7 +24798,7 @@ parseStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -24658,7 +24883,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralBooleanExpression
@@ -24749,7 +24974,7 @@ Value
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 value
 tokenizer_
@@ -24760,7 +24985,7 @@ readBool
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -24845,7 +25070,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralInfinityExpression
@@ -24981,7 +25206,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralNullExpression
@@ -25066,7 +25291,7 @@ fields
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -25150,7 +25375,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralNumericExpression
@@ -25241,7 +25466,7 @@ Value
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 value
 tokenizer_
@@ -25252,7 +25477,7 @@ readDouble
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -25341,7 +25566,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralPropertyName
@@ -25467,7 +25692,7 @@ isIndex
 index
 )
 )
-TRY_VAR
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -25490,7 +25715,7 @@ offset
 )
 ;
 else
-TRY_VAR
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -25575,7 +25800,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralRegExpExpression
@@ -25873,7 +26098,7 @@ reobj
 cx_
 )
 ;
-TRY_VAR
+BINJS_TRY_VAR
 (
 reobj
 RegExpObject
@@ -25889,7 +26114,7 @@ TenuredObject
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -25976,7 +26201,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceLiteralStringExpression
@@ -26084,7 +26309,7 @@ readAtom
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -26169,7 +26394,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceModule
@@ -26305,7 +26530,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceNewExpression
@@ -26400,7 +26625,7 @@ Arguments
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 callee
 parseExpression
@@ -26408,7 +26633,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 arguments
 parseArguments
@@ -26507,7 +26732,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceNewTargetExpression
@@ -26643,7 +26868,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceObjectAssignmentTarget
@@ -26779,7 +27004,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceObjectBinding
@@ -26915,7 +27140,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceObjectExpression
@@ -27006,7 +27231,7 @@ Properties
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 properties
 parseListOfObjectProperty
@@ -27086,7 +27311,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceReturnStatement
@@ -27211,7 +27436,7 @@ usesReturn
 =
 true
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseOptionalExpression
@@ -27219,7 +27444,7 @@ parseOptionalExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -27304,7 +27529,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceScript
@@ -27410,7 +27635,7 @@ parseOptionalAssertedVarScope
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 directives
 parseListOfDirective
@@ -27418,7 +27643,7 @@ parseListOfDirective
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 statements
 parseListOfStatement
@@ -27426,7 +27651,7 @@ parseListOfStatement
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 appendDirectivesToBody
@@ -27503,7 +27728,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceShorthandProperty
@@ -27594,7 +27819,7 @@ Name
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 name
 parseIdentifierExpression
@@ -27612,7 +27837,7 @@ isUsableAsObjectPropertyName
 name
 )
 )
-TRY_VAR
+BINJS_TRY_VAR
 (
 name
 factory_
@@ -27635,7 +27860,7 @@ start
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -27718,7 +27943,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSkippableArrowExpression
@@ -27854,7 +28079,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSkippableFunctionDeclaration
@@ -27990,7 +28215,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSkippableFunctionExpression
@@ -28126,7 +28351,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSkippableGetter
@@ -28262,7 +28487,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSkippableMethod
@@ -28398,7 +28623,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSkippableSetter
@@ -28534,7 +28759,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSpreadElement
@@ -28670,7 +28895,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceStaticMemberAssignmentTarget
@@ -28765,7 +28990,7 @@ Property
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 object
 parseExpressionOrSuper
@@ -28790,7 +29015,7 @@ readAtom
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -28875,7 +29100,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceStaticMemberExpression
@@ -28970,7 +29195,7 @@ Property
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 object
 parseExpressionOrSuper
@@ -28995,7 +29220,7 @@ readAtom
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -29080,7 +29305,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSuper
@@ -29216,7 +29441,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSwitchCase
@@ -29311,7 +29536,7 @@ Consequent
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 test
 parseExpression
@@ -29319,7 +29544,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 consequent
 parseListOfStatement
@@ -29327,7 +29552,7 @@ parseListOfStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -29407,7 +29632,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSwitchDefault
@@ -29498,7 +29723,7 @@ Consequent
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 consequent
 parseListOfStatement
@@ -29506,7 +29731,7 @@ parseListOfStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -29586,7 +29811,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSwitchStatement
@@ -29681,7 +29906,7 @@ Cases
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 discriminant
 parseExpression
@@ -29689,7 +29914,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 cases
 parseListOfSwitchCase
@@ -29697,7 +29922,7 @@ parseListOfSwitchCase
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 scope
 factory_
@@ -29709,7 +29934,7 @@ cases
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -29789,7 +30014,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceSwitchStatementWithDefault
@@ -29892,7 +30117,7 @@ PostDefaultCases
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 discriminant
 parseExpression
@@ -29900,7 +30125,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 preDefaultCases
 parseListOfSwitchCase
@@ -29908,7 +30133,7 @@ parseListOfSwitchCase
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 defaultCase
 parseSwitchDefault
@@ -29916,7 +30141,7 @@ parseSwitchDefault
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 postDefaultCases
 parseListOfSwitchCase
@@ -29973,7 +30198,7 @@ iter
 next
 ;
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 scope
 factory_
@@ -29985,7 +30210,7 @@ cases
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -30065,7 +30290,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceTemplateElement
@@ -30201,7 +30426,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceTemplateExpression
@@ -30337,7 +30562,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceThisExpression
@@ -30481,7 +30706,7 @@ ThisBinding
 :
 Function
 )
-TRY_VAR
+BINJS_TRY_VAR
 (
 thisName
 factory_
@@ -30501,7 +30726,7 @@ cx_
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -30580,7 +30805,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceThrowStatement
@@ -30671,7 +30896,7 @@ Expression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 expression
 parseExpression
@@ -30679,7 +30904,7 @@ parseExpression
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -30764,7 +30989,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceTryCatchStatement
@@ -30888,7 +31113,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 scope
 .
@@ -30907,7 +31132,7 @@ parseBlock
 )
 ;
 }
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 catchClause
 parseCatchClause
@@ -30915,7 +31140,7 @@ parseCatchClause
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -30996,7 +31221,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceTryFinallyStatement
@@ -31124,7 +31349,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 scope
 .
@@ -31143,7 +31368,7 @@ parseBlock
 )
 ;
 }
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 catchClause
 parseOptionalCatchClause
@@ -31180,7 +31405,7 @@ parseContext_
 usedNames_
 )
 ;
-TRY
+BINJS_TRY
 (
 scope
 .
@@ -31199,7 +31424,7 @@ parseBlock
 )
 ;
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -31280,7 +31505,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceUnaryExpression
@@ -31375,7 +31600,7 @@ Operand
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 operator_
 parseUnaryOperator
@@ -31383,7 +31608,7 @@ parseUnaryOperator
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 operand
 parseExpression
@@ -31596,7 +31821,7 @@ break
 ;
 }
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -31676,7 +31901,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceUpdateExpression
@@ -31775,7 +32000,7 @@ Operand
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 isPrefix
 tokenizer_
@@ -31786,7 +32011,7 @@ readBool
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 operator_
 parseUpdateOperator
@@ -31794,7 +32019,7 @@ parseUpdateOperator
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 operand
 parseSimpleAssignmentTarget
@@ -31855,7 +32080,7 @@ PostDecrement
 break
 ;
 }
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -31935,7 +32160,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceVariableDeclaration
@@ -32036,7 +32261,7 @@ kindGuard
 this
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 kind_
 parseVariableDeclarationKind
@@ -32048,7 +32273,7 @@ variableDeclarationKind_
 =
 kind_
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 declarators
 parseListOfVariableDeclarator
@@ -32208,7 +32433,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceVariableDeclarator
@@ -32303,7 +32528,7 @@ Init
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 binding
 parseBinding
@@ -32311,7 +32536,7 @@ parseBinding
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 init
 parseOptionalExpression
@@ -32353,7 +32578,7 @@ asPropertyName
 )
 )
 ;
-TRY_VAR
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -32434,7 +32659,7 @@ declaration
 "
 )
 ;
-TRY_VAR
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -32518,7 +32743,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceWhileStatement
@@ -32626,7 +32851,7 @@ StatementKind
 WhileLoop
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 test
 parseExpression
@@ -32634,7 +32859,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseStatement
@@ -32642,7 +32867,7 @@ parseStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -32722,7 +32947,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceWithStatement
@@ -32817,7 +33042,7 @@ Body
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 object
 parseExpression
@@ -32825,7 +33050,7 @@ parseExpression
 )
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 body
 parseStatement
@@ -32833,7 +33058,7 @@ parseStatement
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -32913,7 +33138,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceYieldExpression
@@ -33049,7 +33274,7 @@ offset
 (
 )
 ;
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 result
 parseInterfaceYieldStarExpression
@@ -33151,7 +33376,7 @@ parseBinaryOperator
 (
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 variant
 tokenizer_
@@ -33399,7 +33624,7 @@ case
 BinVariant
 :
 :
-BinaryOperatorOrUnaryOperatorPlus
+UnaryOperatorOrBinaryOperatorPlus
 :
 return
 BinaryOperator
@@ -33411,7 +33636,7 @@ case
 BinVariant
 :
 :
-BinaryOperatorOrUnaryOperatorMinus
+UnaryOperatorOrBinaryOperatorMinus
 :
 return
 BinaryOperator
@@ -33509,7 +33734,7 @@ parseCompoundAssignmentOperator
 (
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 variant
 tokenizer_
@@ -33711,7 +33936,7 @@ parseUnaryOperator
 (
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 variant
 tokenizer_
@@ -33731,7 +33956,7 @@ case
 BinVariant
 :
 :
-BinaryOperatorOrUnaryOperatorPlus
+UnaryOperatorOrBinaryOperatorPlus
 :
 return
 UnaryOperator
@@ -33743,7 +33968,7 @@ case
 BinVariant
 :
 :
-BinaryOperatorOrUnaryOperatorMinus
+UnaryOperatorOrBinaryOperatorMinus
 :
 return
 UnaryOperator
@@ -33853,7 +34078,7 @@ parseUpdateOperator
 (
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 variant
 tokenizer_
@@ -33935,7 +34160,7 @@ parseVariableDeclarationKind
 (
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 variant
 tokenizer_
@@ -34056,7 +34281,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -34093,7 +34318,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseSpreadElementOrExpression
@@ -34335,7 +34560,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -34368,7 +34593,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseDirective
@@ -34688,7 +34913,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -34715,7 +34940,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseObjectProperty
@@ -34840,7 +35065,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -34867,7 +35092,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseOptionalSpreadElementOrExpression
@@ -34888,7 +35113,7 @@ item
 )
 ;
 else
-TRY
+BINJS_TRY
 (
 factory_
 .
@@ -35013,7 +35238,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseParameter
@@ -35099,7 +35324,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -35132,7 +35357,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseStatement
@@ -35218,7 +35443,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -35251,7 +35476,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseSwitchCase
@@ -35337,7 +35562,7 @@ guard
 )
 )
 ;
-TRY_DECL
+BINJS_TRY_DECL
 (
 result
 factory_
@@ -35374,7 +35599,7 @@ length
 i
 )
 {
-MOZ_TRY_DECL
+BINJS_MOZ_TRY_DECL
 (
 item
 parseVariableDeclarator
@@ -36417,17 +36642,6 @@ parseOptionalIdentifierName
 (
 )
 {
-MOZ_TRY_DECL
-(
-result
-tokenizer_
--
->
-readMaybeAtom
-(
-)
-)
-;
 return
 raiseError
 (
@@ -36467,17 +36681,6 @@ parseOptionalLabel
 (
 )
 {
-MOZ_TRY_DECL
-(
-result
-tokenizer_
--
->
-readMaybeAtom
-(
-)
-)
-;
 return
 raiseError
 (
@@ -36840,21 +37043,3 @@ BinTokenReaderTester
 ;
 }
 }
-#
-undef
-TRY
-#
-undef
-TRY_VAR
-#
-undef
-TRY_DECL
-#
-undef
-TRY_EMPL
-#
-undef
-MOZ_TRY_EMPLACE
-#
-undef
-MOZ_TRY_DECL
