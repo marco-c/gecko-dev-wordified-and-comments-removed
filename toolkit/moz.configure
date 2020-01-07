@@ -313,6 +313,9 @@ x86_64
 '
 mips64
 '
+'
+arm
+'
 )
 return
 target
