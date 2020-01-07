@@ -657,14 +657,11 @@ if
 mSameOriginMedia
 &
 &
-DecoderTraits
+MediaPrefs
 :
 :
-CrossOriginRedirectsProhibited
+BlockMidflightRedirects
 (
-ContainerType
-(
-)
 )
 )
 {
