@@ -1379,13 +1379,6 @@ browser
 )
 {
 let
-title
-=
-browser
-.
-contentTitle
-;
-let
 uri
 =
 browser
