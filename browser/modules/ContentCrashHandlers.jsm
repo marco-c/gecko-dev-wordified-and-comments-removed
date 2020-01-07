@@ -394,6 +394,9 @@ new
 Map
 (
 )
+testBuildIDMismatch
+:
+false
 get
 prefs
 (
@@ -1084,6 +1087,11 @@ if
 weakBrowser
 .
 restartRequired
+|
+|
+this
+.
+testBuildIDMismatch
 )
 {
 this
