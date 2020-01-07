@@ -2199,6 +2199,11 @@ IsElement
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 UnsetAttr
 (
 kNameSpaceID_None
