@@ -82,6 +82,9 @@ formdata
 ]
 )
 ;
+await
+gFindBarPromise
+;
 ok
 (
 !

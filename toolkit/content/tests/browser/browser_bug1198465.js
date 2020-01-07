@@ -81,6 +81,9 @@ yet
 "
 )
 ;
+await
+gFindBarPromise
+;
 let
 findBar
 =

@@ -211,6 +211,9 @@ listener
 }
 )
 ;
+await
+gFindBarPromise
+;
 gFindBar
 .
 onFindCommand

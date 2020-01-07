@@ -97,6 +97,9 @@ html
 await
 promise
 ;
+await
+gFindBarPromise
+;
 gFindBar
 .
 open
