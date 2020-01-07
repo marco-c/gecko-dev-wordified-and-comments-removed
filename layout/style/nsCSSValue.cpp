@@ -11316,16 +11316,6 @@ shorthand
 eCSSProperty_UNKNOWN
 |
 |
-nsCSSProps
-:
-:
-PropHasFlags
-(
-shorthand
-CSS_PROPERTY_IS_ALIAS
-)
-|
-|
 aProperty
 =
 =
