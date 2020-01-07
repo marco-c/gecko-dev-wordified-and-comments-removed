@@ -4989,6 +4989,12 @@ bool
 composite_needed
 :
 bool
+render_time_ns
+:
+Option
+<
+u64
+>
 )
 ;
 fn
