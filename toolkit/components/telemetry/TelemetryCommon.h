@@ -89,7 +89,7 @@ Gpu
 <
 GeckoProcessType_GPU
 )
-AllChildren
+AllChilds
 =
 0xFFFFFFFF
 -

@@ -1869,7 +1869,7 @@ content
 -
 gpu
 -
-all_children
+all_childs
 (
 record
 in
