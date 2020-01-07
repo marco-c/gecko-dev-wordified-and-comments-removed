@@ -6069,6 +6069,17 @@ aPlatformVersion
 )
 {
 }
+async
+getBlocklistURL
+(
+)
+{
+return
+this
+.
+blocklistURL
+;
+}
 uninstall
 (
 aAlwaysAllowUndo
