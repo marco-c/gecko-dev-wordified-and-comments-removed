@@ -320,12 +320,6 @@ minResultsForPopup
 maxRows
 :
 0
-showCommentColumn
-:
-false
-showImageColumn
-:
-false
 timeout
 :
 10
