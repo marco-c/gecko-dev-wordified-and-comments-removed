@@ -978,7 +978,8 @@ GroupRule
 ;
 public
 :
-NS_IMETHOD
+virtual
+void
 GetConditionText
 (
 nsAString

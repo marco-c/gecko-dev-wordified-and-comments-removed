@@ -118,11 +118,6 @@ nsIDOMCounter
 idl
 '
 '
-nsIDOMCSSConditionRule
-.
-idl
-'
-'
 nsIDOMCSSCounterStyleRule
 .
 idl
