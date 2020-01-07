@@ -29,19 +29,13 @@ using
 JS
 :
 :
-detail
-:
-:
-ToIntWidth
+ToSignedInteger
 ;
 using
 JS
 :
 :
-detail
-:
-:
-ToUintWidth
+ToUnsignedInteger
 ;
 BEGIN_TEST
 (
@@ -63,7 +57,7 @@ do
 {
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint8_t
 >
@@ -121,7 +115,7 @@ do
 {
 CHECK
 (
-ToIntWidth
+ToSignedInteger
 <
 int8_t
 >
@@ -164,7 +158,7 @@ testToUint32Large
 {
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -184,7 +178,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -217,7 +211,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -247,7 +241,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -282,7 +276,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -302,7 +296,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -330,7 +324,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint32_t
 >
@@ -371,7 +365,7 @@ testToUint64Large
 {
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
@@ -391,7 +385,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
@@ -424,7 +418,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
@@ -454,7 +448,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
@@ -489,7 +483,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
@@ -509,7 +503,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
@@ -537,7 +531,7 @@ pow
 ;
 CHECK
 (
-ToUintWidth
+ToUnsignedInteger
 <
 uint64_t
 >
