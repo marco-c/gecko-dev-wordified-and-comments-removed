@@ -3207,7 +3207,7 @@ mContext
 ;
 }
 ;
-void
+bool
 nsSVGIntegrationUtils
 :
 :
@@ -3239,6 +3239,20 @@ handleOpacity
 maskUsage
 )
 ;
+if
+(
+!
+maskUsage
+.
+shouldDoSomething
+(
+)
+)
+{
+return
+false
+;
+}
 nsIFrame
 *
 frame
@@ -3257,6 +3271,7 @@ frame
 )
 {
 return
+false
 ;
 }
 gfxContext
@@ -3493,6 +3508,7 @@ Fill
 )
 ;
 return
+true
 ;
 }
 }
@@ -3651,6 +3667,9 @@ CurrentMatrix
 )
 ;
 }
+return
+true
+;
 }
 void
 nsSVGIntegrationUtils

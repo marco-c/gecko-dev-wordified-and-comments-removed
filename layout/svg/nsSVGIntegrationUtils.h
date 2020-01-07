@@ -361,7 +361,7 @@ aParams
 )
 ;
 static
-void
+bool
 PaintMask
 (
 const
