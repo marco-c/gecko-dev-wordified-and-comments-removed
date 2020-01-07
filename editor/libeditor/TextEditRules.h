@@ -523,6 +523,7 @@ CreateTrailingBRIfNeeded
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 CreateBogusNodeIfNeeded
 (
