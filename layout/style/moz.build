@@ -544,11 +544,6 @@ ServoElementSnapshotTable
 h
 '
 '
-ServoFontFaceRule
-.
-h
-'
-'
 ServoFontFeatureValuesRule
 .
 h
@@ -644,6 +639,11 @@ dom
 [
 '
 CSS
+.
+h
+'
+'
+CSSFontFaceRule
 .
 h
 '
@@ -823,6 +823,11 @@ cpp
 '
 '
 CSS
+.
+cpp
+'
+'
+CSSFontFaceRule
 .
 cpp
 '
@@ -1103,11 +1108,6 @@ cpp
 '
 '
 ServoElementSnapshot
-.
-cpp
-'
-'
-ServoFontFaceRule
 .
 cpp
 '

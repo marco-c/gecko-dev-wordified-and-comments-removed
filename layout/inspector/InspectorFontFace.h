@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-ServoFontFaceRule
+dom
+/
+CSSFontFaceRule
 .
 h
 "
@@ -200,7 +202,7 @@ nsAString
 aGeneric
 )
 ;
-ServoFontFaceRule
+CSSFontFaceRule
 *
 GetRule
 (
@@ -354,7 +356,7 @@ mFontGroup
 ;
 RefPtr
 <
-ServoFontFaceRule
+CSSFontFaceRule
 >
 mRule
 ;
