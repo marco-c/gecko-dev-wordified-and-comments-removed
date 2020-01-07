@@ -755,6 +755,14 @@ AutoLock
 &
 )
 ;
+void
+InitAsCloneInternal
+(
+MediaCacheStream
+*
+aOriginal
+)
+;
 RefPtr
 <
 MediaCache
