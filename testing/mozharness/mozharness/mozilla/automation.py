@@ -296,9 +296,6 @@ set_property
 self
 prop_name
 prop_value
-write_to_file
-=
-False
 )
 :
         
@@ -330,26 +327,6 @@ prop_name
 ]
 =
 prop_value
-        
-if
-write_to_file
-:
-            
-return
-self
-.
-dump_properties
-(
-prop_list
-=
-[
-prop_name
-]
-                                        
-file_name
-=
-prop_name
-)
         
 return
 self

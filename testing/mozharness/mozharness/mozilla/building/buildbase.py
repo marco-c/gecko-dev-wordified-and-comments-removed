@@ -6264,9 +6264,6 @@ set_property
 buildid
 '
 buildid
-write_to_file
-=
-True
 )
         
 self
@@ -8154,9 +8151,6 @@ set_property
 (
 key
 prop
-write_to_file
-=
-True
 )
         
 else
@@ -8575,12 +8569,7 @@ prop
 prop_name
 '
 ]
-                                       
 prop_val
-                                       
-write_to_file
-=
-True
 )
         
 if
@@ -9732,9 +9721,6 @@ matches
 [
 prop
 ]
-write_to_file
-=
-True
 )
         
 upload_files_cmd

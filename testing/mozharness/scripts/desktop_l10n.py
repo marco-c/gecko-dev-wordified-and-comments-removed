@@ -3153,9 +3153,6 @@ set_property
 (
 prop_key
 prop_value
-write_to_file
-=
-True
 )
         
 BaseScript
@@ -3256,7 +3253,6 @@ set_property
 "
 locales
 "
-                          
 json
 .
 dumps
@@ -3265,10 +3261,6 @@ self
 .
 locales_property
 )
-                          
-write_to_file
-=
-True
 )
     
 def
