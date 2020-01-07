@@ -172,9 +172,8 @@ StyleCache
 nsAtom
 *
 aTag
-const
-nsAString
-&
+nsAtom
+*
 aAttr
 const
 nsAString
@@ -204,9 +203,8 @@ StyleCache
 nsAtom
 *
 aTag
-const
-nsAString
-&
+nsAtom
+*
 aAttr
 )
 :
