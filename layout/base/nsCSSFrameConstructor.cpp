@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoStyleSetInlines
+.
+h
+"
+#
+include
+"
 nsAbsoluteContainingBlock
 .
 h
