@@ -3011,10 +3011,6 @@ location
 requested_paths
 excluded_paths
 xul_tester
-reldir
-=
-'
-'
 )
 :
     
@@ -3195,15 +3191,7 @@ testcase
 =
 RefTestCase
 (
-os
-.
-path
-.
-join
-(
-reldir
 filename
-)
 )
         
 _apply_external_manifests
