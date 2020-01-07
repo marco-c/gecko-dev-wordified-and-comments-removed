@@ -2242,6 +2242,17 @@ nativeTab
 ;
 }
 }
+*
+getHighlightedTabs
+(
+)
+{
+yield
+this
+.
+activeTab
+;
+}
 get
 activeTab
 (
