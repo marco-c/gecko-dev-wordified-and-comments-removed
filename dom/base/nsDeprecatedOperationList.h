@@ -146,3 +146,7 @@ DEPRECATED_OPERATION
 (
 DOMAttrModifiedEvent
 )
+DEPRECATED_OPERATION
+(
+MozBoxOrInlineBoxDisplay
+)
