@@ -832,6 +832,7 @@ __init__
 (
 self
 config_path
+webidl_root
 inputs
 exported_header_dir
                  
@@ -1030,6 +1031,12 @@ self
 _config_path
 =
 config_path
+        
+self
+.
+_webidl_root
+=
+webidl_root
         
 self
 .
@@ -2077,6 +2084,31 @@ data
 path
 )
         
+web_roots
+=
+(
+            
+self
+.
+_webidl_root
+            
+os
+.
+path
+.
+dirname
+(
+self
+.
+_config_path
+)
+            
+self
+.
+_codegen_dir
+        
+)
+        
 self
 .
 _parser_results
@@ -2096,6 +2128,8 @@ Configuration
 self
 .
 _config_path
+web_roots
+                                     
 self
 .
 _parser_results
@@ -3450,6 +3484,23 @@ bindings
 '
 )
     
+webidl_root
+=
+os
+.
+path
+.
+join
+(
+topsrcdir
+'
+dom
+'
+'
+webidl
+'
+)
+    
 with
 open
 (
@@ -3575,6 +3626,8 @@ Bindings
 conf
 '
 )
+        
+webidl_root
         
 inputs
         

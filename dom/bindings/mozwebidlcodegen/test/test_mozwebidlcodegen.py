@@ -304,6 +304,10 @@ self
 .
 _config_path
             
+webidl_root
+=
+cache_dir
+            
 inputs
 =
 inputs
