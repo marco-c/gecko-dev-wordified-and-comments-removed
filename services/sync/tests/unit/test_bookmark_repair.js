@@ -2280,6 +2280,7 @@ ignoreLastModifiedOnProcessCommands
 =
 true
 ;
+await
 clientsEngine
 .
 initialize

@@ -238,6 +238,9 @@ let
 engine
 ;
 let
+syncID
+;
+let
 reconciler
 ;
 let
@@ -315,6 +318,15 @@ get
 "
 addons
 "
+)
+;
+syncID
+=
+await
+engine
+.
+resetLocalSyncID
+(
 )
 ;
 reconciler
@@ -1230,10 +1242,6 @@ version
 engine
 .
 version
-syncID
-:
-engine
-.
 syncID
 }
 }

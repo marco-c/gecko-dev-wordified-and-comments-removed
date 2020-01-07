@@ -419,11 +419,13 @@ cleanup
 (
 )
 {
+await
 engine
 .
-lastSync
-=
+setLastSync
+(
 0
+)
 ;
 engine
 .
