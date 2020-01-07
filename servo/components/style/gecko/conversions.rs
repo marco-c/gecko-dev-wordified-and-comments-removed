@@ -4162,8 +4162,9 @@ other_url
 RefPtr
 :
 :
-from_ptr_ref
+new
 (
+*
 shape_image
 .
 __bindgen_anon_1
@@ -4184,10 +4185,6 @@ ComputedUrl
 from_url_value
 (
 other_url
-.
-clone
-(
-)
 )
 ;
 ShapeSource

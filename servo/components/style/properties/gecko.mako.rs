@@ -6031,8 +6031,9 @@ url
 RefPtr
 :
 :
-from_ptr_ref
+new
 (
+*
 paint
 .
 mPaint
@@ -6050,10 +6051,6 @@ ComputedUrl
 from_url_value
 (
 url
-.
-clone
-(
-)
 )
 }
 )
@@ -37233,8 +37230,9 @@ url
 RefPtr
 :
 :
-from_ptr_ref
+new
 (
+*
 filter
 .
 __bindgen_anon_1
@@ -37252,10 +37250,6 @@ ComputedUrl
 from_url_value
 (
 url
-.
-clone
-(
-)
 )
 }
 )
