@@ -95,12 +95,6 @@ MAR_TOOLS_URL
 ]
     
 '
-purge_minsize
-'
-:
-12
-    
-'
 is_automation
 '
 :
