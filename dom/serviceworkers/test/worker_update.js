@@ -22,8 +22,10 @@ v
 {
 return
 v
-instanceof
-ServiceWorkerRegistration
+=
+=
+=
+undefined
 ?
 '
 FINISH

@@ -130,9 +130,9 @@ aReg
 )
 override
 ;
-RefPtr
+already_AddRefed
 <
-ServiceWorkerRegistrationPromise
+Promise
 >
 Update
 (
@@ -281,9 +281,6 @@ ServiceWorkerRegistration
 *
 mOuter
 ;
-ServiceWorkerRegistrationDescriptor
-mDescriptor
-;
 const
 nsString
 mScope
@@ -349,9 +346,9 @@ aReg
 )
 override
 ;
-RefPtr
+already_AddRefed
 <
-ServiceWorkerRegistrationPromise
+Promise
 >
 Update
 (
@@ -462,10 +459,6 @@ aProofOfLock
 ServiceWorkerRegistration
 *
 mOuter
-;
-const
-ServiceWorkerRegistrationDescriptor
-mDescriptor
 ;
 const
 nsString

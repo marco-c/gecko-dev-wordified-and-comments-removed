@@ -209,15 +209,6 @@ PrincipalInfo
 )
 const
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-GetPrincipal
-(
-)
-const
-;
 const
 nsCString
 &
