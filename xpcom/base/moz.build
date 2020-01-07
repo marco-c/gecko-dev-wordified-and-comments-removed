@@ -480,14 +480,6 @@ nsWindowsHelpers
 h
 '
 ]
-OS_LIBS
-+
-=
-[
-'
-wscapi
-'
-]
 EXPORTS
 .
 mozilla
