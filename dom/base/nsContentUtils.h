@@ -6080,10 +6080,9 @@ LookupCustomElementDefinition
 nsIDocument
 *
 aDoc
-const
-nsAString
-&
-aLocalName
+nsAtom
+*
+aNameAtom
 uint32_t
 aNameSpaceID
 nsAtom
