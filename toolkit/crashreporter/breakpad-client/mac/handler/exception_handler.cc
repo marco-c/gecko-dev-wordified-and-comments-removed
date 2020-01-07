@@ -2073,6 +2073,13 @@ Protect
 ;
 #
 endif
+self
+-
+>
+ResumeThreads
+(
+)
+;
 }
 ExceptionReplyMessage
 reply
