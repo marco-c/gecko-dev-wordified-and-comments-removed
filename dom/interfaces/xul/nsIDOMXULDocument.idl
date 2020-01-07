@@ -133,17 +133,6 @@ nsIDOMXULDocument
 :
 nsIDOMDocument
 {
-void
-persist
-(
-in
-DOMString
-id
-in
-DOMString
-attr
-)
-;
 nsIBoxObject
 getBoxObjectFor
 (
