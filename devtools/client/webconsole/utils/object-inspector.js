@@ -177,9 +177,9 @@ mode
 MODE
 .
 LONG
-disabledFocus
+focusable
 :
-true
+false
 roots
 :
 [
