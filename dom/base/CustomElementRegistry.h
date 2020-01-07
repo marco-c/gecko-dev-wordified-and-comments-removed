@@ -1647,6 +1647,14 @@ ErrorResult
 aRv
 )
 ;
+void
+Upgrade
+(
+nsINode
+&
+aRoot
+)
+;
 }
 ;
 class

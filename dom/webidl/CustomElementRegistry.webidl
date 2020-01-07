@@ -138,6 +138,16 @@ DOMString
 name
 )
 ;
+[
+CEReactions
+]
+void
+upgrade
+(
+Node
+root
+)
+;
 }
 ;
 dictionary
