@@ -4033,6 +4033,11 @@ SQLiteBridgeException
 java
 '
 '
+TextInputController
+.
+java
+'
+'
 TouchEventInterceptor
 .
 java
