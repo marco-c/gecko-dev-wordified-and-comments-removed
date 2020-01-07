@@ -16150,12 +16150,6 @@ preloadedSheet
 >
 GetSheet
 (
-doc
--
->
-GetStyleBackendType
-(
-)
 &
 sheet
 )
