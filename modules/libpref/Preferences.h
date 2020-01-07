@@ -964,6 +964,16 @@ aPref
 )
 ;
 static
+bool
+MustSendToContentProcesses
+(
+const
+char
+*
+aPref
+)
+;
+static
 nsresult
 AddStrongObserver
 (
