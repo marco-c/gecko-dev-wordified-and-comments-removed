@@ -2827,6 +2827,10 @@ entry
 mInterceptor
 )
 {
+interceptor
+=
+nullptr
+;
 unkInterceptor
 =
 entry
