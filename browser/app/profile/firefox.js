@@ -14245,6 +14245,8 @@ supportedCountries
 "
 "
 US
+CA
+DE
 "
 )
 ;
