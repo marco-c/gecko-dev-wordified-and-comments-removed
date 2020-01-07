@@ -3733,7 +3733,7 @@ win
 )
 ;
 return
-doc
+rootNode
 .
 elementsFromPoint
 (
