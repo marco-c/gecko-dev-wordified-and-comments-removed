@@ -4228,7 +4228,7 @@ aURI
 nsINode
 *
 aRequestingNode
-nsDocument
+nsIDocument
 *
 aDisplayDocument
 ExternalResourceLoad
@@ -29899,7 +29899,7 @@ return
 }
 nsIDocument
 *
-nsDocument
+nsIDocument
 :
 :
 RequestExternalResource
@@ -29968,7 +29968,7 @@ aPendingLoad
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 EnumerateExternalResources
@@ -34050,7 +34050,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 FlushExternalResources
