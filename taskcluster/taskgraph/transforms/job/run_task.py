@@ -722,9 +722,7 @@ file
 /
 taskcluster
 /
-docker
-/
-recipes
+scripts
 /
 run
 -

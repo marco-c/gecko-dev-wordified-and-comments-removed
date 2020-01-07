@@ -550,9 +550,7 @@ sh
 include
 taskcluster
 /
-docker
-/
-recipes
+scripts
 /
 run
 -
@@ -562,9 +560,7 @@ topsrcdir
 /
 taskcluster
 /
-docker
-/
-recipes
+scripts
 /
 run
 -
