@@ -590,6 +590,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

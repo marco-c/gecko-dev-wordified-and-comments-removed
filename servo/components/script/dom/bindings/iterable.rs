@@ -145,6 +145,7 @@ HandleValue
 Heap
 JSContext
 MutableHandleObject
+JSObject
 }
 ;
 use
@@ -461,6 +462,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

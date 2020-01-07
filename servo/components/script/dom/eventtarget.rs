@@ -455,6 +455,7 @@ jsapi
 CompileFunction
 JS_GetFunctionObject
 JSAutoCompartment
+JSFunction
 }
 ;
 use
@@ -2862,6 +2863,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSFunction
+>
 (
 )
 )

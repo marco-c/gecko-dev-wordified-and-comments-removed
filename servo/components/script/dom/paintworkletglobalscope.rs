@@ -347,6 +347,15 @@ js
 jsapi
 :
 :
+JSObject
+;
+use
+js
+:
+:
+jsapi
+:
+:
 JS_ClearPendingException
 ;
 use
@@ -1916,6 +1925,11 @@ mut
 result
 =
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

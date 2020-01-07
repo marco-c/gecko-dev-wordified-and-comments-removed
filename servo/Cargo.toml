@@ -63,16 +63,6 @@ cargo
 [
 profile
 .
-dev
-]
-codegen
--
-units
-=
-4
-[
-profile
-.
 release
 ]
 opt

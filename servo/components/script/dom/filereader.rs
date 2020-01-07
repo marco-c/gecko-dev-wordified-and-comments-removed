@@ -281,6 +281,15 @@ use
 js
 :
 :
+jsapi
+:
+:
+JSObject
+;
+use
+js
+:
+:
 jsval
 :
 :
@@ -1635,6 +1644,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

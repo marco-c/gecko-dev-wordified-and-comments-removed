@@ -1140,6 +1140,7 @@ jsapi
 {
 JSAutoCompartment
 JSContext
+JSObject
 }
 ;
 use
@@ -1383,6 +1384,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

@@ -261,7 +261,10 @@ js
 jsapi
 :
 :
+{
 JSAutoCompartment
+JSObject
+}
 ;
 use
 js
@@ -2935,6 +2938,11 @@ ptr
 :
 :
 null_mut
+:
+:
+<
+JSObject
+>
 (
 )
 )

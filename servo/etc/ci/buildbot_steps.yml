@@ -4,6 +4,11 @@ RUSTFLAGS
 :
 -
 Dwarnings
+CARGO_INCREMENTAL
+:
+"
+0
+"
 mac
 -
 rel
