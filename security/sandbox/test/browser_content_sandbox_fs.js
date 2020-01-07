@@ -1681,6 +1681,14 @@ GetProfileDir
 (
 )
 ;
+if
+(
+!
+isLinux
+(
+)
+)
+{
 tests
 .
 push
@@ -1712,6 +1720,7 @@ readDir
 }
 )
 ;
+}
 if
 (
 fileContentProcessEnabled
@@ -2807,6 +2816,14 @@ isDirectory
 )
 )
 {
+if
+(
+!
+isLinux
+(
+)
+)
+{
 tests
 .
 push
@@ -2838,6 +2855,7 @@ readFile
 }
 )
 ;
+}
 if
 (
 fileContentProcessEnabled
