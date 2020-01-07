@@ -712,9 +712,6 @@ apt
 install
 git
 curl
-freeglut3
--
-dev
 autoconf
 libx11
 -
@@ -892,9 +889,6 @@ sudo
 dnf
 install
 curl
-freeglut
--
-devel
 libtool
 gcc
 -
@@ -988,9 +982,6 @@ sudo
 yum
 install
 curl
-freeglut
--
-devel
 libtool
 gcc
 -
@@ -1221,11 +1212,6 @@ net
 misc
 /
 curl
-media
--
-libs
-/
-freeglut
 \
 media
 -

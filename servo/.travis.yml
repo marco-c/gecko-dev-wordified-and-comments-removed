@@ -341,10 +341,6 @@ packages
 -
 cmake
 -
-freeglut3
--
-dev
--
 gperf
 -
 libosmesa6
