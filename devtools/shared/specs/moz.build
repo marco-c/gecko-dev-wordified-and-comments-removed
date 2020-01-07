@@ -270,6 +270,13 @@ stylesheets
 js
 '
 '
+symbol
+-
+iterator
+.
+js
+'
+'
 timeline
 .
 js
