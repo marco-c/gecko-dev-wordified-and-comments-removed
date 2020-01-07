@@ -5531,6 +5531,12 @@ None
         
 self
 .
+manifest
+=
+None
+        
+self
+.
 tests_by_manifest
 =
 defaultdict
