@@ -1518,15 +1518,6 @@ ini
 '
 mochitest
 /
-webcomponents
-/
-chrome_disabled
-.
-ini
-'
-'
-mochitest
-/
 whatwg
 /
 chrome

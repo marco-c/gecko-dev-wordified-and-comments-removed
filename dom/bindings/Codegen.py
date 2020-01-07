@@ -53840,7 +53840,7 @@ append
 (
 CGGeneric
 (
-fill
+dedent
 (
                 
 "
@@ -53861,10 +53861,6 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
-cx
-{
-obj
-}
 )
 )
 {
@@ -53908,10 +53904,6 @@ cx
 "
 "
 "
-                
-obj
-=
-objectName
 )
 )
 )
