@@ -228,9 +228,7 @@ Handle
 FunctionVector
 >
 funcImports
-const
-LitValVector
-&
+HandleValVector
 globalImportValues
 const
 WasmGlobalObjectVector
