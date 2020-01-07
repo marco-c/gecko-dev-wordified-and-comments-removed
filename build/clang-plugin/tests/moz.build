@@ -287,6 +287,11 @@ TestStackClass
 cpp
 '
 '
+TestTemporaryClass
+.
+cpp
+'
+'
 TestTrivialCtorDtor
 .
 cpp
