@@ -23389,6 +23389,11 @@ nsIParserUtils
 :
 :
 SanitizerAllowComments
+|
+nsIParserUtils
+:
+:
+SanitizerLogRemovals
 )
 ;
 sanitizer
@@ -23822,6 +23827,11 @@ nsIParserUtils
 :
 :
 SanitizerAllowComments
+|
+nsIParserUtils
+:
+:
+SanitizerLogRemovals
 )
 ;
 sanitizer
