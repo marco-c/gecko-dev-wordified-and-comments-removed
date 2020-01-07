@@ -344,11 +344,6 @@ chunkifyTests
 js
 '
 '
-favicon
-.
-ico
-'
-'
 gen_template
 .
 pl
