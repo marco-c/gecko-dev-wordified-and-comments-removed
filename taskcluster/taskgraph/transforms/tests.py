@@ -2723,6 +2723,12 @@ layers
 False
         
 if
+"
+-
+qr
+/
+"
+in
 test
 [
 '
@@ -2731,15 +2737,6 @@ test
 platform
 '
 ]
-.
-startswith
-(
-'
-linux64
--
-qr
-'
-)
 :
             
 test

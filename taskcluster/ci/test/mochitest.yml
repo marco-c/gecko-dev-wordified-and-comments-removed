@@ -419,7 +419,8 @@ test
 -
 platform
 :
-linux64
+.
+*
 -
 qr
 /

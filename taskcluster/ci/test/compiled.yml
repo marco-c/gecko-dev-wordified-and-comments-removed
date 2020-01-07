@@ -138,7 +138,8 @@ to
 windows
 .
 *
-linux64
+.
+*
 -
 qr
 /
@@ -216,7 +217,8 @@ test
 -
 platform
 :
-linux64
+.
+*
 -
 qr
 /
@@ -360,7 +362,8 @@ test
 -
 platform
 :
-linux64
+.
+*
 -
 qr
 /
