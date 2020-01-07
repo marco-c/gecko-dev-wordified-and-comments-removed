@@ -140,6 +140,12 @@ mozilla
 :
 CheckedInt
 ;
+using
+mozilla
+:
+:
+IsAsciiDigit
+;
 bool
 js
 :
@@ -5608,7 +5614,7 @@ currentDollar
 ;
 if
 (
-JS7_ISDEC
+IsAsciiDigit
 (
 c
 )
@@ -5660,7 +5666,7 @@ currentChar
 ;
 if
 (
-JS7_ISDEC
+IsAsciiDigit
 (
 c
 )
