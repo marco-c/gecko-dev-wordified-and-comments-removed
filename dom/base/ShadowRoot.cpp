@@ -1459,12 +1459,6 @@ IsClosed
 (
 )
 ;
-aVisitor
-.
-mRelatedTargetRetargetedInCurrentScope
-=
-false
-;
 if
 (
 !
@@ -1577,6 +1571,13 @@ shadowHost
 false
 )
 ;
+if
+(
+aVisitor
+.
+mOriginalTargetIsInAnon
+)
+{
 nsCOMPtr
 <
 nsIContent
@@ -1616,6 +1617,7 @@ mEventTargetAtParent
 =
 shadowHost
 ;
+}
 }
 return
 NS_OK
