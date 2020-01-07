@@ -2293,9 +2293,12 @@ open
 =
 false
 ;
-multiView
+PanelMultiView
 .
-instance
+forNode
+(
+multiView
+)
 .
 destructor
 (

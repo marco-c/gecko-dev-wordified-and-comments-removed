@@ -65,15 +65,6 @@ customizableui
 /
 panelUI
 .
-css
-content
-/
-browser
-/
-customizableui
-/
-panelUI
-.
 js
 content
 /
