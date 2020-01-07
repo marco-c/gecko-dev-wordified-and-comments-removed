@@ -317,6 +317,7 @@ VendorNVIDIA
 VendorAMD
 VendorATI
 VendorMicrosoft
+VendorParallels
 DeviceVendorMax
 }
 ;

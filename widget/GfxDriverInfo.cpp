@@ -1367,6 +1367,14 @@ VendorMicrosoft
 ;
 DECLARE_VENDOR_ID
 (
+VendorParallels
+"
+0x1ab8
+"
+)
+;
+DECLARE_VENDOR_ID
+(
 DeviceVendorMax
 "
 "
