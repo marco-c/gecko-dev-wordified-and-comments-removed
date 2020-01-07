@@ -37,6 +37,9 @@ Policy
 navigate
 -
 to
+'
+self
+'
 support
 /
 navigate_parent
