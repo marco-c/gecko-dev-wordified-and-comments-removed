@@ -863,6 +863,7 @@ GetContentPref
 index
 )
 )
+false
 value
 MaybePrefValue
 (
@@ -1001,6 +1002,7 @@ GetContentPref
 index
 )
 )
+false
 value
 MaybePrefValue
 (
@@ -1146,6 +1148,7 @@ GetContentPref
 index
 )
 )
+false
 value
 MaybePrefValue
 (

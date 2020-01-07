@@ -1109,6 +1109,9 @@ Pref
 nsCString
 name
 ;
+bool
+isLocked
+;
 MaybePrefValue
 defaultValue
 ;

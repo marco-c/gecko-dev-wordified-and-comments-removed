@@ -152,7 +152,7 @@ run_test_in_child
 "
 test_existing_prefs
 .
-JS
+js
 "
 )
 ;
