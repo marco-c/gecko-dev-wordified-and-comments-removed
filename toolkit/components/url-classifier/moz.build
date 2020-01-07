@@ -390,6 +390,12 @@ LOCAL_INCLUDES
 /
 build
 '
+'
+/
+xpcom
+/
+io
+'
 ]
 CXXFLAGS
 +
