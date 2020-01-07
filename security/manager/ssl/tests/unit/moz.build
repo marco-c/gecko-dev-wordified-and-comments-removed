@@ -157,9 +157,6 @@ test_ct
 test_ev_certs
 '
 '
-test_getchain
-'
-'
 test_intermediate_basic_usage_constraints
 '
 '
