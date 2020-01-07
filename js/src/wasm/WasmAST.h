@@ -2455,7 +2455,7 @@ public
 AstExpr
 {
 const
-Val
+LitVal
 val_
 ;
 public
@@ -2473,7 +2473,7 @@ Const
 explicit
 AstConst
 (
-Val
+LitVal
 val
 )
 :
@@ -2491,7 +2491,7 @@ val
 )
 {
 }
-Val
+LitVal
 val
 (
 )

@@ -526,7 +526,7 @@ const
 wasm
 :
 :
-Val
+LitVal
 &
 value
 bool
@@ -545,7 +545,7 @@ const
 wasm
 :
 :
-Val
+LitVal
 val
 (
 )
@@ -847,7 +847,7 @@ const
 wasm
 :
 :
-ValVector
+LitValVector
 &
 globalImportValues
 const
