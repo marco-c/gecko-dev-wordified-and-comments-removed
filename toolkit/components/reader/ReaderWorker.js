@@ -239,6 +239,9 @@ JSDOMParser
 parse
 (
 serializedDoc
+uri
+.
+spec
 )
 ;
 return
