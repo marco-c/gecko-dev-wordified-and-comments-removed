@@ -314,10 +314,13 @@ reject
 new
 ScriptTimeoutError
 (
-"
 Timed
 out
-"
+after
+{
+timeout
+}
+ms
 )
 )
 ;
