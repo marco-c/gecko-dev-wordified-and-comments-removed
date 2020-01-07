@@ -141,6 +141,15 @@ UpdateOutputType
 uint32_t
 mAudioChannels
 ;
+AudioConfig
+:
+:
+ChannelLayout
+:
+:
+ChannelMap
+mChannelsMap
+;
 uint32_t
 mAudioRate
 ;
