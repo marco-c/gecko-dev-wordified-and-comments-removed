@@ -524,10 +524,6 @@ aEvent
 ;
 protected
 :
-nsPresContext
-*
-mPresContext
-;
 nsCOMPtr
 <
 nsIDocument
