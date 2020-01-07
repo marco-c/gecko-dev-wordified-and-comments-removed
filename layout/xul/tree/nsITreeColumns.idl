@@ -198,6 +198,7 @@ nsITreeBoxObject
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 f8a8d6b4
