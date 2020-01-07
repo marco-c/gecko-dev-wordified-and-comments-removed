@@ -2961,7 +2961,6 @@ f
 )
 )
 }
-pub
 fn
 apply_flags
 (
@@ -2985,6 +2984,14 @@ ThreadState
 :
 :
 LAYOUT
+)
+;
+self
+.
+cache
+.
+evict_all
+(
 )
 ;
 for
