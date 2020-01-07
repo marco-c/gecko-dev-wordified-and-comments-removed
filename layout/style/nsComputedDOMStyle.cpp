@@ -28663,10 +28663,10 @@ StyleBorder
 )
 -
 >
-mBorderColor
-[
+BorderColorFor
+(
 aSide
-]
+)
 )
 ;
 return
