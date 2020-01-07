@@ -191,13 +191,6 @@ aPeerProcess
 )
 ;
 void
-AddHandleToShare
-(
-HANDLE
-aHandle
-)
-;
-void
 ApplyLoggingPolicy
 (
 )
