@@ -148,11 +148,6 @@ nsIDOMCSSStyleSheet
 idl
 '
 '
-nsIDOMCSSUnknownRule
-.
-idl
-'
-'
 nsIDOMCSSValue
 .
 idl
