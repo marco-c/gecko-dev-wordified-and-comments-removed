@@ -668,16 +668,6 @@ usingInlineValueArray
 Value
 priv
 =
-const_cast
-<
-ProxyObject
-*
->
-(
-this
-)
--
->
 private_
 (
 )
