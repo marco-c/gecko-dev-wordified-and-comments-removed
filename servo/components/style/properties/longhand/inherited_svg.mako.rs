@@ -1245,17 +1245,6 @@ animation_value_type
 "
 discrete
 "
-gecko_pref
-=
-"
-svg
-.
-paint
--
-order
-.
-enabled
-"
 spec
 =
 "
