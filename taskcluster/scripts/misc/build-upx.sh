@@ -119,6 +119,11 @@ ucl
 /
 configure
 make
+-
+j
+(
+nproc
+)
 #
 -
 -
@@ -196,6 +201,11 @@ ucl
 cd
 src
 make
+-
+j
+(
+nproc
+)
 cp
 upx
 .

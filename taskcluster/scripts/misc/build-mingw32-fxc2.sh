@@ -125,6 +125,11 @@ right
 ?
 )
 make
+-
+j
+(
+nproc
+)
 cp
 fxc2
 .

@@ -415,6 +415,11 @@ prefix
 INSTALL_DIR
 /
 make
+-
+j
+(
+nproc
+)
 make
 install
 #
