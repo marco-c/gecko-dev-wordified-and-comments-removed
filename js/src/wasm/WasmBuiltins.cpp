@@ -2312,9 +2312,11 @@ return
 pf
 ;
 }
-static
 void
 *
+wasm
+:
+:
 AddressOf
 (
 SymbolicAddress
@@ -5010,9 +5012,6 @@ thunks
 codeBase
 )
 ;
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 masm
@@ -5130,8 +5129,6 @@ empty
 )
 )
 ;
-#
-endif
 ExecutableAllocator
 :
 :

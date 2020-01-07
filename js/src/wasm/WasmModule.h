@@ -787,7 +787,7 @@ CompileArgs
 args
 )
 ;
-void
+bool
 finishTier2
 (
 UniqueLinkDataTier
