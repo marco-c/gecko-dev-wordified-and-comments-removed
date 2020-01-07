@@ -65,6 +65,15 @@ acc
 )
 ;
 let
+contentDPR
+=
+await
+getContentDPR
+(
+browser
+)
+;
+let
 [
 x
 y
@@ -75,6 +84,7 @@ height
 getBounds
 (
 acc
+contentDPR
 )
 ;
 let
@@ -126,9 +136,11 @@ of
 prettyAccName
 )
 ;
-is
+ok
 (
 height
+>
+=
 expectedHeight
 "
 Wrong
