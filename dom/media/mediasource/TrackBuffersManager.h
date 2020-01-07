@@ -43,7 +43,9 @@ h
 #
 include
 "
-AutoTaskQueue
+mozilla
+/
+TaskQueue
 .
 h
 "
@@ -1771,7 +1773,7 @@ mAudioTracks
 ;
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 GetTaskQueueSafe
 (
@@ -1803,7 +1805,7 @@ ifdef
 DEBUG
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 taskQueue
 =
@@ -1983,7 +1985,7 @@ mMutex
 ;
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

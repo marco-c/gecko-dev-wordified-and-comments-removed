@@ -8,13 +8,6 @@ h
 #
 include
 "
-AutoTaskQueue
-.
-h
-"
-#
-include
-"
 MediaData
 .
 h
@@ -100,6 +93,15 @@ include
 mozilla
 /
 StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TaskQueue
 .
 h
 "
@@ -4157,7 +4159,7 @@ aDemuxer
 mTaskQueue
 (
 new
-AutoTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -4530,7 +4532,7 @@ private
 const
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -4651,7 +4653,7 @@ Wrapper
 MediaTrackDemuxer
 *
 aTrackDemuxer
-AutoTaskQueue
+TaskQueue
 *
 aTaskQueue
 )
@@ -5250,7 +5252,7 @@ mMutex
 const
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -5493,7 +5495,7 @@ mData
 ;
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 taskQueue
 =

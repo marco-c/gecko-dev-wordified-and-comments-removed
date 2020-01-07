@@ -888,7 +888,7 @@ aTask
 {
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 taskQueue
 =
