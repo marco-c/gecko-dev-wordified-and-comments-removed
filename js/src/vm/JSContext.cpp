@@ -5788,15 +5788,6 @@ arenas_
 (
 nullptr
 )
-#
-ifdef
-DEBUG
-enterRealmDepth_
-(
-0
-)
-#
-endif
 jitActivation
 (
 nullptr
