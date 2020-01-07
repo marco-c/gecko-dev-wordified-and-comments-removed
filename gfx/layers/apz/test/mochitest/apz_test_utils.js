@@ -1808,6 +1808,8 @@ restoreNormalRefresh
 await
 promiseAllPaintsDone
 (
+null
+true
 )
 ;
 await
