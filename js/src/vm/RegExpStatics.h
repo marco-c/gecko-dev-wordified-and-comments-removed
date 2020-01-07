@@ -186,7 +186,7 @@ cx
 JSLinearString
 *
 input
-MatchPairs
+VectorMatchPairs
 &
 newPairs
 )
@@ -1169,7 +1169,7 @@ cx
 JSLinearString
 *
 input
-MatchPairs
+VectorMatchPairs
 &
 newPairs
 )
