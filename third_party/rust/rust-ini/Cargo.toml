@@ -124,7 +124,7 @@ version
 .
 10
 .
-2
+3
 "
 authors
 =
@@ -220,14 +220,3 @@ ini
 test
 =
 true
-[
-dependencies
-.
-log
-]
-version
-=
-"
-^
-0
-"
