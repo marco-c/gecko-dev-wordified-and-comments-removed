@@ -5401,6 +5401,13 @@ node
 )
 )
 ;
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 _getNodeHTML
 :
