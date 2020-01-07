@@ -8533,6 +8533,10 @@ Tabs
 LOADURL_EXTERNAL
 )
 ;
+autoHideTabs
+(
+)
+;
 }
 else
 if
