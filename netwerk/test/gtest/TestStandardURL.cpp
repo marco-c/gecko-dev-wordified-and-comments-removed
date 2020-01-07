@@ -106,7 +106,7 @@ ASSERT_EQ
 url
 -
 >
-SetSpec
+SetSpecInternal
 (
 NS_LITERAL_CSTRING
 (
@@ -2290,7 +2290,7 @@ ASSERT_EQ
 url
 -
 >
-SetSpec
+SetSpecInternal
 (
 NS_LITERAL_CSTRING
 (

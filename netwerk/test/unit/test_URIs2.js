@@ -4551,9 +4551,6 @@ propertiesToCheck
 =
 [
 "
-spec
-"
-"
 scheme
 "
 "
