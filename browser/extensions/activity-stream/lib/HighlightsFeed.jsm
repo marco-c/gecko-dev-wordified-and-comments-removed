@@ -616,6 +616,9 @@ request
 numItems
 :
 MANY_EXTRA_LENGTH
+excludePocket
+:
+true
 }
 )
 ;
