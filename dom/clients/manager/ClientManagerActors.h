@@ -44,14 +44,6 @@ PClientManagerParent
 aActor
 )
 ;
-void
-InitClientManagerParent
-(
-PClientManagerParent
-*
-aActor
-)
-;
 }
 }
 #
