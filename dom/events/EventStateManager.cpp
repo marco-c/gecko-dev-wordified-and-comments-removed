@@ -166,6 +166,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WheelEventBinding
+.
+h
+"
+#
+include
+"
 ContentEventHandler
 .
 h
@@ -391,13 +402,6 @@ h
 include
 "
 nsIDocShell
-.
-h
-"
-#
-include
-"
-nsIDOMWheelEvent
 .
 h
 "
@@ -9812,7 +9816,7 @@ mDeltaMode
 )
 {
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -9906,7 +9910,7 @@ height
 break
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -9956,7 +9960,7 @@ height
 break
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -11339,7 +11343,7 @@ aEvent
 mDeltaMode
 =
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -11649,7 +11653,7 @@ mDeltaMode
 )
 {
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -11671,7 +11675,7 @@ ENABLE_SNAP
 break
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -11693,7 +11697,7 @@ ENABLE_SNAP
 break
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -11867,7 +11871,7 @@ aEvent
 mDeltaMode
 =
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -23839,7 +23843,7 @@ if
 mHandlingDeltaMode
 =
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -24102,7 +24106,7 @@ aEvent
 mDeltaMode
 =
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -24135,7 +24139,7 @@ aEvent
 mDeltaMode
 =
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL

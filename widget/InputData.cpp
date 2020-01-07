@@ -21,6 +21,17 @@ include
 "
 mozilla
 /
+dom
+/
+WheelEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEvents
 .
 h
@@ -2382,7 +2393,7 @@ wheelEvent
 .
 mDeltaMode
 =
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -3088,7 +3099,7 @@ aDeltaMode
 )
 {
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -3097,7 +3108,7 @@ return
 SCROLLDELTA_LINE
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -3106,7 +3117,7 @@ return
 SCROLLDELTA_PAGE
 ;
 case
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL
@@ -3147,7 +3158,7 @@ ScrollWheelInput
 SCROLLDELTA_LINE
 :
 return
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_LINE
@@ -3159,7 +3170,7 @@ ScrollWheelInput
 SCROLLDELTA_PAGE
 :
 return
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PAGE
@@ -3173,7 +3184,7 @@ SCROLLDELTA_PIXEL
 default
 :
 return
-nsIDOMWheelEvent
+WheelEventBinding
 :
 :
 DOM_DELTA_PIXEL

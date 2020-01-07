@@ -54,13 +54,6 @@ nsIDOMMouseEvent
 .
 h
 "
-#
-include
-"
-nsIDOMWheelEvent
-.
-h
-"
 enum
 nsDragDropEventStatus
 {
@@ -1514,10 +1507,7 @@ mOverflowDeltaY
 )
 mDeltaMode
 (
-nsIDOMWheelEvent
-:
-:
-DOM_DELTA_PIXEL
+0
 )
 mLineOrPageDeltaX
 (
@@ -1625,10 +1615,7 @@ mOverflowDeltaY
 )
 mDeltaMode
 (
-nsIDOMWheelEvent
-:
-:
-DOM_DELTA_PIXEL
+0
 )
 mLineOrPageDeltaX
 (

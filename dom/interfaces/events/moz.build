@@ -150,11 +150,6 @@ nsIDOMUIEvent
 .
 idl
 '
-'
-nsIDOMWheelEvent
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

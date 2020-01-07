@@ -3127,12 +3127,12 @@ must
 be
 one
 of
+the
 *
-nsIDOMWheelEvent
-:
-:
+WheelEvent
 DOM_DELTA_
 *
+constants
 .
 *
 param
