@@ -32,13 +32,6 @@ defined
 (
 _PR_PTHREADS
 )
-&
-&
-!
-defined
-(
-_PR_DCETHREADS
-)
 #
 define
 DEFAULT_ATOMIC_LOCKS

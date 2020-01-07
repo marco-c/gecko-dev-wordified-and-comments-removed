@@ -33,12 +33,6 @@ stdlib
 .
 h
 >
-#
-if
-defined
-(
-_PR_DCETHREADS
-)
 PRIntn
 failed_already
 =
@@ -354,8 +348,6 @@ return
 0
 ;
 }
-#
-endif
 int
 main
 (
@@ -367,12 +359,6 @@ char
 argv
 )
 {
-#
-if
-defined
-(
-_PR_DCETHREADS
-)
 PR_Initialize
 (
 prmain
@@ -392,11 +378,4 @@ else
 return
 0
 ;
-#
-else
-return
-0
-;
-#
-endif
 }

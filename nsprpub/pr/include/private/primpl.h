@@ -7516,13 +7516,6 @@ defined
 (
 _PR_PTHREADS
 )
-&
-&
-!
-defined
-(
-_PR_DCETHREADS
-)
 #
 define
 _PR_ZONE_ALLOCATOR

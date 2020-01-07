@@ -24,13 +24,6 @@ defined
 (
 _PR_PTHREADS
 )
-&
-&
-!
-defined
-(
-_PR_DCETHREADS
-)
 #
 include
 <
