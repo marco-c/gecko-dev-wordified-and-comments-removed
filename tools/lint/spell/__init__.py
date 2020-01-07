@@ -637,6 +637,23 @@ txt
                 
 ]
     
+if
+fix
+:
+        
+cmd_args
+.
+append
+(
+'
+-
+-
+write
+-
+changes
+'
+)
+    
 base_command
 =
 cmd_args
