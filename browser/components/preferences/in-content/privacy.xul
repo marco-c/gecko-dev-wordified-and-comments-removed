@@ -2747,7 +2747,7 @@ id
 "
 tracking
 -
-desc
+description
 "
 >
 <
@@ -2756,17 +2756,6 @@ id
 =
 "
 trackingProtectionLearnMore
-"
-data
--
-l10n
--
-name
-=
-"
-learn
--
-more
 "
 target
 =
