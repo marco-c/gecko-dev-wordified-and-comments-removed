@@ -460,6 +460,16 @@ window
 ;
 }
 }
+TelemetryStopwatch
+.
+cancel
+(
+"
+FX_SCHEDULE_PRESSURE_IDLE_SAMPLE_MS
+"
+window
+)
+;
 removeFromMapAndCancelTimeout
 (
 this
