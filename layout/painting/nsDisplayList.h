@@ -18423,15 +18423,6 @@ nsIFrame
 aFrame
 )
 ;
-static
-bool
-MayNeedActiveLayer
-(
-nsIFrame
-*
-aFrame
-)
-;
 NS_DISPLAY_DECL_NAME
 (
 "

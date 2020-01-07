@@ -14163,8 +14163,9 @@ usingSVGEffects
 nsDisplayOpacity
 :
 :
-MayNeedActiveLayer
+NeedsActiveLayer
 (
+aBuilder
 this
 )
 )
