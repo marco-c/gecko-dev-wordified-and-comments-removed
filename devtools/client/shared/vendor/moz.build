@@ -169,6 +169,17 @@ js
 '
 '
 react
+-
+test
+-
+renderer
+-
+shallow
+.
+js
+'
+'
+react
 .
 js
 '
