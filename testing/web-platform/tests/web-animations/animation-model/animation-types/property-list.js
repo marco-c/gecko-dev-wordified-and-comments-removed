@@ -3431,10 +3431,12 @@ options
 [
 [
 '
-0deg
+none
 '
 '
-90deg
+from
+-
+image
 '
 ]
 ]
