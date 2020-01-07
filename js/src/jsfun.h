@@ -1188,6 +1188,11 @@ isBuiltinNative
 )
 |
 |
+isNativeWithJitEntry
+(
+)
+|
+|
 isSelfHostedBuiltin
 (
 )
