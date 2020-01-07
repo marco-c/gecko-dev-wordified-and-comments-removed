@@ -1120,7 +1120,7 @@ this
 .
 rawNode
 .
-shadowRoot
+openOrClosedShadowRoot
 ;
 return
 shadowRoot
@@ -1175,7 +1175,7 @@ parentNode
 !
 parentNode
 .
-shadowRoot
+openOrClosedShadowRoot
 ;
 }
 get
