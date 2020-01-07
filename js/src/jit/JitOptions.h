@@ -216,6 +216,9 @@ bool
 disableCacheIR
 ;
 bool
+disableCacheIRBinaryArith
+;
+bool
 disableSharedStubs
 ;
 bool

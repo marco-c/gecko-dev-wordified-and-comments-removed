@@ -10711,6 +10711,12 @@ CacheKind
 :
 InstanceOf
 :
+case
+CacheKind
+:
+:
+BinaryArith
+:
 MOZ_ASSERT
 (
 numInputs
