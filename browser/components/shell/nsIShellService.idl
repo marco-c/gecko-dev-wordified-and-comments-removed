@@ -101,10 +101,10 @@ nsISupports
 idl
 "
 interface
-nsIDOMElement
-;
-interface
 nsIFile
+;
+webidl
+Element
 ;
 [
 scriptable
@@ -456,7 +456,7 @@ void
 setDesktopBackground
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 long

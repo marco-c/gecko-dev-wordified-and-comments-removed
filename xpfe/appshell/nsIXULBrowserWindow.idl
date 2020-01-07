@@ -117,9 +117,6 @@ interface
 nsIRequest
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIInputStream
 ;
 interface
@@ -136,6 +133,9 @@ nsIPrincipal
 ;
 interface
 mozIDOMWindowProxy
+;
+webidl
+Element
 ;
 /
 *
@@ -219,7 +219,7 @@ in
 AString
 link
 in
-nsIDOMElement
+Element
 element
 )
 ;

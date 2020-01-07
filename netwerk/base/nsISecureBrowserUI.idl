@@ -102,9 +102,6 @@ interface
 mozIDOMWindowProxy
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIDocShell
 ;
 [

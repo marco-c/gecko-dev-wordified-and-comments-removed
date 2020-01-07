@@ -101,13 +101,13 @@ nsISupports
 idl
 "
 interface
-nsIDOMElement
-;
-interface
 nsIURI
 ;
 webidl
 DocumentFragment
+;
+webidl
+Element
 ;
 /
 *
@@ -327,7 +327,7 @@ in
 nsIURI
 baseURI
 in
-nsIDOMElement
+Element
 element
 )
 ;

@@ -838,7 +838,13 @@ override
 NS_IMETHOD
 GetTopFrameElement
 (
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 )

@@ -63,8 +63,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMElement
+webidl
+Element
 ;
 /
 *
@@ -239,8 +239,8 @@ void
 addItem
 (
 in
-nsIDOMElement
-aDOMMenuElement
+Element
+aMenuElement
 )
 ;
 /
@@ -294,8 +294,8 @@ void
 removeItem
 (
 in
-nsIDOMElement
-aDOMMenuElement
+Element
+aMenuElement
 )
 ;
 }

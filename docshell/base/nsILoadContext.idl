@@ -120,8 +120,8 @@ idl
 interface
 mozIDOMWindowProxy
 ;
-interface
-nsIDOMElement
+webidl
+Element
 ;
 [
 ref
@@ -450,7 +450,7 @@ content
 /
 readonly
 attribute
-nsIDOMElement
+Element
 topFrameElement
 ;
 /

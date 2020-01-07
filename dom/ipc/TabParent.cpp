@@ -15193,7 +15193,7 @@ NO_IMPL
 NS_IMETHOD
 GetTopFrameElement
 (
-nsIDOMElement
+Element
 *
 *
 aElement
@@ -15202,14 +15202,11 @@ override
 {
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 elem
 =
-do_QueryInterface
-(
 mElement
-)
 ;
 elem
 .

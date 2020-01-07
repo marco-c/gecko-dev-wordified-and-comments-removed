@@ -70,9 +70,6 @@ interface
 nsIDOMWindow
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIDOMGeoPosition
 ;
 interface

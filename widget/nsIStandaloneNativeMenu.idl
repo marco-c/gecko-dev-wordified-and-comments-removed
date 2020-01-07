@@ -63,8 +63,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMElement
+webidl
+Element
 ;
 /
 *
@@ -141,8 +141,8 @@ void
 init
 (
 in
-nsIDOMElement
-aDOMElement
+Element
+aElement
 )
 ;
 /
