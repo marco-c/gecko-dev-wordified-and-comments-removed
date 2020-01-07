@@ -2091,7 +2091,7 @@ bool
 IsFloat32Representable
 (
 double
-aFloat32
+aValue
 )
 ;
 }
