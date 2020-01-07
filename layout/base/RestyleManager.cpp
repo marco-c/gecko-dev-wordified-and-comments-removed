@@ -6142,13 +6142,6 @@ nsChangeHint_ReconstructFrame
 }
 }
 }
-frameConstructor
--
->
-BeginUpdate
-(
-)
-;
 bool
 didUpdateCursor
 =
@@ -7757,13 +7750,6 @@ content
 }
 }
 }
-frameConstructor
--
->
-EndUpdate
-(
-)
-;
 #
 ifdef
 DEBUG
