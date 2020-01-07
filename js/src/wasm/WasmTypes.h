@@ -490,6 +490,15 @@ SystemAllocPolicy
 >
 InstanceVector
 ;
+typedef
+Vector
+<
+UniqueChars
+0
+SystemAllocPolicy
+>
+UniqueCharsVector
+;
 #
 define
 WASM_DECLARE_POD_VECTOR

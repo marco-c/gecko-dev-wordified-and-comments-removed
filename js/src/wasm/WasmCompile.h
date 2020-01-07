@@ -192,6 +192,9 @@ bytecode
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 ;
 bool
@@ -263,6 +266,9 @@ cancelled
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 ;
 }

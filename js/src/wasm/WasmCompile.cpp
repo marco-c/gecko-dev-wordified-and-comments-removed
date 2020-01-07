@@ -1693,6 +1693,9 @@ bytecode
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1713,6 +1716,7 @@ bytecode
 bytes
 0
 error
+warnings
 )
 ;
 CompileMode
@@ -2054,6 +2058,9 @@ cancelled
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 :
 d_
@@ -2066,6 +2073,7 @@ codeSection
 >
 start
 error
+warnings
 )
 streamEnd_
 (
@@ -2498,6 +2506,9 @@ cancelled
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 {
 MOZ_ASSERT
@@ -2523,6 +2534,7 @@ d
 envBytes
 0
 error
+warnings
 )
 ;
 CompileMode
@@ -2651,6 +2663,7 @@ codeBytes
 codeStreamEnd
 cancelled
 error
+warnings
 )
 ;
 if
@@ -2735,6 +2748,7 @@ end
 (
 )
 error
+warnings
 )
 ;
 if
