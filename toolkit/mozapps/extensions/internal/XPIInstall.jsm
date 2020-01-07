@@ -1961,7 +1961,7 @@ userPermissions
 =
 extension
 .
-userPermissions
+manifestPermissions
 ;
 addon
 .

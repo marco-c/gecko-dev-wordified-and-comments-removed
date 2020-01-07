@@ -396,7 +396,7 @@ context
 .
 extension
 .
-userPermissions
+activePermissions
 ;
 delete
 perms

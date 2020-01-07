@@ -94,7 +94,9 @@ permissions
 :
 [
 "
-devtools
+manifest
+:
+devtools_page
 "
 ]
 "
