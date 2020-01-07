@@ -3765,6 +3765,12 @@ HasScrollableFrameMetrics
 const
 ;
 bool
+HasRootScrollableFrameMetrics
+(
+)
+const
+;
+bool
 IsScrollableWithoutContent
 (
 )

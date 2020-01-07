@@ -11346,11 +11346,12 @@ value
 of
 the
 transform
-value
 on
 the
 compositor
-thread
+in
+layer
+pixels
 .
 *
 Unlike

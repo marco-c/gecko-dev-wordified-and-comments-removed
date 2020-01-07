@@ -207,6 +207,13 @@ promiseAllPaintsDone
 )
 ;
 let
+dpr
+=
+window
+.
+devicePixelRatio
+;
+let
 transform
 =
 utils
@@ -279,7 +286,6 @@ anim
 is
 (
 transform
-"
 matrix
 (
 1
@@ -287,10 +293,13 @@ matrix
 0
 1
 0
+{
 -
 300
+*
+dpr
+}
 )
-"
 "
 Element
 should
