@@ -1709,6 +1709,12 @@ closed
 return
 ;
 }
+this
+.
+closed
+=
+true
+;
 dumpn
 (
 "
@@ -1817,12 +1823,6 @@ closed
 .
 "
 )
-;
-this
-.
-closed
-=
-true
 ;
 this
 .
