@@ -1000,9 +1000,12 @@ if
 !
 this
 .
-tabbrowser
+warmingTabs
 .
-tabWarmingEnabled
+has
+(
+tab
+)
 )
 {
 browser
