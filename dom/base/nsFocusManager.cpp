@@ -1578,7 +1578,7 @@ currentContent
 window
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -2238,7 +2238,7 @@ content
 windowToFocus
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -2983,7 +2983,7 @@ else
 window
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 nullptr
 )
@@ -3252,7 +3252,7 @@ content
 window
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -4040,7 +4040,7 @@ content
 window
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -4072,7 +4072,7 @@ ShouldShowFocusRing
 window
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 nullptr
 )
@@ -5127,7 +5127,7 @@ GetWindow
 parentWindow
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 nullptr
 )
@@ -6645,7 +6645,7 @@ FLAG_SHOWRING
 newWindow
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 contentToFocus
 focusMethod
@@ -7254,7 +7254,7 @@ break
 window
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 frameElement
 )
@@ -8067,7 +8067,7 @@ aWindowToClear
 aWindowToClear
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 nullptr
 )
@@ -8440,7 +8440,7 @@ aAncestorWindowToFocus
 aAncestorWindowToFocus
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 nullptr
 0
@@ -8693,7 +8693,7 @@ aFlags
 aWindow
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 aContent
 focusMethod
@@ -9087,7 +9087,7 @@ focusedNode
 aWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -9108,7 +9108,7 @@ aContent
 aWindow
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 aContent
 focusMethod
@@ -9731,7 +9731,7 @@ mOriginalFocusedWindow
 mOriginalFocusedWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 :
@@ -10326,7 +10326,7 @@ currentWindow
 currentWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 :
@@ -12287,7 +12287,7 @@ startContent
 aWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -13566,7 +13566,7 @@ if
 window
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 =
@@ -13585,7 +13585,7 @@ else
 window
 -
 >
-SetFocusedNode
+SetFocusedElement
 (
 nullptr
 )
@@ -17199,7 +17199,7 @@ currentFocus
 aWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 ;
@@ -18059,7 +18059,7 @@ outerWindow
 outerWindow
 -
 >
-GetFocusedNode
+GetFocusedElement
 (
 )
 =
