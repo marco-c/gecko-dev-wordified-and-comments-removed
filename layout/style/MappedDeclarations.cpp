@@ -1,7 +1,7 @@
 #
 include
 "
-mozillla
+mozilla
 /
 MappedDeclarations
 .
