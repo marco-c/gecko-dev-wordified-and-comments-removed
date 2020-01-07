@@ -144,6 +144,8 @@ _current_amd64
 .
 deb
 wget
+-
+q
 https
 :
 /
