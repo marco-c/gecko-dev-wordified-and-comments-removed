@@ -21,9 +21,9 @@ argparse
 import
 json
 import
-os
+logging
 import
-re
+os
 import
 socket
 import
@@ -52,8 +52,6 @@ from
 localpaths
 import
 repo_root
-import
-sslutils
 from
 manifest
 .
@@ -3634,6 +3632,11 @@ kwargs
 )
 :
     
+reload
+(
+logging
+)
+    
 return
 WebSocketDaemon
 (
@@ -3679,6 +3682,11 @@ ssl_config
 kwargs
 )
 :
+    
+reload
+(
+logging
+)
     
 return
 WebSocketDaemon
