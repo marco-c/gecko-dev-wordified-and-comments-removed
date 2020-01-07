@@ -3467,15 +3467,6 @@ os
 '
 Android
 '
-and
-target
-.
-cpu
-!
-=
-'
-x86
-'
 if
 enabled
 :
