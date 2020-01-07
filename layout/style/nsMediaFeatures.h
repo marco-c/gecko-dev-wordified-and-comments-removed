@@ -15,7 +15,7 @@ class
 nsAtom
 ;
 class
-nsPresContext
+nsIDocument
 ;
 class
 nsCSSValue
@@ -30,9 +30,9 @@ void
 nsMediaFeatureValueGetter
 )
 (
-nsPresContext
+nsIDocument
 *
-aPresContext
+aDocument
 const
 nsMediaFeature
 *
