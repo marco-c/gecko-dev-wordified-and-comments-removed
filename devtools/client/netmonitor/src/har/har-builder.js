@@ -468,6 +468,14 @@ timings
 {
 }
 ;
+entry
+.
+_securityState
+=
+file
+.
+securityState
+;
 if
 (
 file
@@ -955,6 +963,9 @@ buildNameValuePairs
 input
 .
 cookies
+|
+|
+input
 )
 ;
 }

@@ -71,6 +71,11 @@ CustomRequestPanel
 js
 '
 '
+DropHarHandler
+.
+js
+'
+'
 HeadersPanel
 .
 js

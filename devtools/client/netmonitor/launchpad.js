@@ -687,6 +687,7 @@ ReactDOM
 App
 store
 {
+actions
 connector
 }
 )
