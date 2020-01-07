@@ -8155,6 +8155,8 @@ db
 execute
 (
 INSERT
+OR
+IGNORE
 INTO
 itemsToWeaklyReupload
 (
