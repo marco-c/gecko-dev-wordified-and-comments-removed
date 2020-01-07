@@ -236,6 +236,12 @@ setup
 )
 ;
 }
+enableActions
+(
+enable
+)
+{
+}
 willNavigate
 (
 )

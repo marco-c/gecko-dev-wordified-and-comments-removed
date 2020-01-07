@@ -916,6 +916,13 @@ getTabTarget
 (
 )
 ;
+connector
+.
+enableActions
+(
+false
+)
+;
 options
 =
 {
@@ -963,6 +970,13 @@ builder
 .
 build
 (
+)
+;
+connector
+.
+enableActions
+(
+true
 )
 ;
 return
