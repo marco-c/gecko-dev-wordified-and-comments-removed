@@ -66,6 +66,9 @@ char
 aProcessType
 )
 {
+#
+ifdef
+MOZ_DEBUG
 char
 *
 f
@@ -287,6 +290,8 @@ processfd
 )
 ;
 }
+#
+endif
 }
 }
 #
