@@ -85,14 +85,6 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-communicator
-'
-]
 JAR_MANIFESTS
 +
 =
