@@ -59,20 +59,6 @@ ui
 "
 )
 ;
-const
-{
-notifications
-}
-=
-require
-(
-"
-.
-/
-notifications
-"
-)
-;
 exports
 .
 reducers
@@ -82,6 +68,5 @@ filters
 messages
 prefs
 ui
-notifications
 }
 ;

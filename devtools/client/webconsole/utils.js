@@ -79,7 +79,6 @@ var
 WebConsoleUtils
 =
 {
-CONSOLE_ENTRY_THRESHOLD
 supportsString
 :
 function
