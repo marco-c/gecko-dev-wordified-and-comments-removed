@@ -10873,6 +10873,9 @@ BMB_viewBookmarksSidebar
 class
 =
 "
+menuitem
+-
+iconic
 subviewbutton
 "
 label
@@ -11073,6 +11076,9 @@ BMB_viewBookmarksToolbar
 class
 =
 "
+menuitem
+-
+iconic
 subviewbutton
 "
 label
