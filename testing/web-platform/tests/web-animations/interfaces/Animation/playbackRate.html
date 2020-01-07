@@ -140,20 +140,6 @@ description
 )
 {
 const
-accuracy
-=
-0
-.
-001
-;
-/
-*
-accuracy
-of
-DOMHighResTimeStamp
-*
-/
-const
 animationCurrentTimeDifference
 =
 animation
@@ -173,7 +159,7 @@ currentTime
 -
 previousTimelineCurrentTime
 ;
-assert_approx_equals
+assert_times_equal
 (
 animationCurrentTimeDifference
 timelineCurrentTimeDifference
@@ -181,7 +167,6 @@ timelineCurrentTimeDifference
 animation
 .
 playbackRate
-accuracy
 description
 )
 ;
