@@ -2060,7 +2060,6 @@ aNotify
 )
 ;
 }
-virtual
 nsresult
 SetAttr
 (
