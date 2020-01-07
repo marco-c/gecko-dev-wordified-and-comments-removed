@@ -110,7 +110,6 @@ ipc
 :
 :
 {
-self
 IpcSender
 IpcReceiver
 }
