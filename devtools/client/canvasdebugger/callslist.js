@@ -1799,8 +1799,6 @@ line
 return
 ;
 }
-else
-{
 view
 .
 setAttribute
@@ -1834,7 +1832,6 @@ isExpanded
 ;
 return
 ;
-}
 }
 let
 list
