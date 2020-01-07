@@ -334,9 +334,10 @@ docURISpec
 bool
 isFileURL
 ;
+if
 (
-void
-)
+NS_SUCCEEDED
+(
 docURI
 -
 >
@@ -348,9 +349,9 @@ file
 &
 isFileURL
 )
-;
-if
-(
+)
+&
+&
 isFileURL
 )
 {
