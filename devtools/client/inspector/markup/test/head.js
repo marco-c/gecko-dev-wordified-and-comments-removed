@@ -2242,8 +2242,8 @@ selector
 )
 ;
 }
+async
 function
-*
 waitForScrollStop
 (
 doc
@@ -2282,7 +2282,7 @@ stopFrameCount
 30
 )
 {
-yield
+await
 new
 Promise
 (
