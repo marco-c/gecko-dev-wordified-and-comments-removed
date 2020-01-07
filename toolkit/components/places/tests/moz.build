@@ -157,6 +157,13 @@ xpcshell
 ini
 '
 '
+sync
+/
+xpcshell
+.
+ini
+'
+'
 unifiedcomplete
 /
 xpcshell

@@ -387,6 +387,11 @@ PlacesUtils
 .
 jsm
 '
+'
+SyncedBookmarksMirror
+.
+jsm
+'
 ]
 EXTRA_COMPONENTS
 +
