@@ -8531,7 +8531,7 @@ nullptr
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 Selection
 :
 :
