@@ -1049,6 +1049,16 @@ true
 name
 :
 "
+PerformanceServerTiming
+"
+insecureContext
+:
+false
+}
+{
+name
+:
+"
 ProgressEvent
 "
 insecureContext

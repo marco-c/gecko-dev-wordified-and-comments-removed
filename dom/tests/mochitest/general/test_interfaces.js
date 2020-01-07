@@ -4017,6 +4017,16 @@ true
 name
 :
 "
+PerformanceServerTiming
+"
+insecureContext
+:
+false
+}
+{
+name
+:
+"
 PerformanceTiming
 "
 insecureContext
