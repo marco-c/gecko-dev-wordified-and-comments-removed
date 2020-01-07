@@ -16,7 +16,7 @@ pull
 -
 depth
 =
-1
+50
 sudo
 sh
 -
