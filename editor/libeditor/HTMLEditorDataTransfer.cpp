@@ -2080,7 +2080,7 @@ GetFirstChild
 EditorDOMPoint
 insertedPoint
 =
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 *
 firstChild
@@ -2325,7 +2325,7 @@ GetContainer
 EditorDOMPoint
 insertedPoint
 =
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 *
 firstChild
@@ -2488,7 +2488,7 @@ GetFirstChild
 EditorDOMPoint
 insertedPoint
 =
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 *
 firstChild
@@ -2570,7 +2570,7 @@ rv
 EditorDOMPoint
 insertedPoint
 =
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 *
 curNode
@@ -2702,7 +2702,7 @@ GetParentNode
 ;
 insertedPoint
 =
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 *
 content

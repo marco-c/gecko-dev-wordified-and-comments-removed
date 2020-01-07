@@ -1259,7 +1259,7 @@ typename
 CT
 >
 EditorDOMPoint
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 nsIContent
 &

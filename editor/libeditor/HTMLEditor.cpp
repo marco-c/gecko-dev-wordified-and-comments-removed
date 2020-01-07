@@ -494,7 +494,7 @@ EditorDOMPoint
 HTMLEditor
 :
 :
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 nsIContent
 &
@@ -512,7 +512,7 @@ EditorDOMPoint
 HTMLEditor
 :
 :
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 nsIContent
 &
@@ -6388,7 +6388,7 @@ NS_ERROR_FAILURE
 EditorDOMPoint
 insertedPoint
 =
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 *
 element
@@ -6540,7 +6540,7 @@ EditorDOMPoint
 HTMLEditor
 :
 :
-InsertNodeIntoProperAncestor
+InsertNodeIntoProperAncestorWithTransaction
 (
 nsIContent
 &
