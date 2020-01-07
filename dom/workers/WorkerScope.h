@@ -1011,9 +1011,6 @@ aRv
 void
 Close
 (
-JSContext
-*
-aCx
 )
 ;
 IMPL_EVENT_HANDLER
@@ -1096,9 +1093,6 @@ mName
 void
 Close
 (
-JSContext
-*
-aCx
 )
 ;
 IMPL_EVENT_HANDLER

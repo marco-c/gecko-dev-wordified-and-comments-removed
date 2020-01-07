@@ -3041,9 +3041,6 @@ DedicatedWorkerGlobalScope
 :
 Close
 (
-JSContext
-*
-aCx
 )
 {
 mWorkerPrivate
@@ -3058,7 +3055,6 @@ mWorkerPrivate
 >
 CloseInternal
 (
-aCx
 )
 ;
 }
@@ -3161,9 +3157,6 @@ SharedWorkerGlobalScope
 :
 Close
 (
-JSContext
-*
-aCx
 )
 {
 mWorkerPrivate
@@ -3178,7 +3171,6 @@ mWorkerPrivate
 >
 CloseInternal
 (
-aCx
 )
 ;
 }
