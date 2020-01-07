@@ -74,6 +74,16 @@ WindowTrackerBase
 :
 true
 "
+browserPaintedPromise
+"
+:
+true
+"
+browserStartupPromise
+"
+:
+true
+"
 getContainerForCookieStoreId
 "
 :
