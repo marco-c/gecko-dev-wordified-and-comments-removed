@@ -323,11 +323,6 @@ ScreenHelperGTK
 cpp
 '
 '
-TaskbarProgress
-.
-cpp
-'
-'
 WakeLockListener
 .
 cpp

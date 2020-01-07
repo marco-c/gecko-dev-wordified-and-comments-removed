@@ -1152,14 +1152,6 @@ aInvalidRegion
 )
 override
 ;
-void
-SetProgress
-(
-unsigned
-long
-progressPercent
-)
-;
 private
 :
 void
