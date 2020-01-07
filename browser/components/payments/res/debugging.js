@@ -520,7 +520,7 @@ USD
 "
 value
 :
-10
+1
 }
 selected
 :

@@ -157,6 +157,14 @@ _currencyAmount
 ;
 this
 .
+append
+(
+"
+"
+)
+;
+this
+.
 appendChild
 (
 this
