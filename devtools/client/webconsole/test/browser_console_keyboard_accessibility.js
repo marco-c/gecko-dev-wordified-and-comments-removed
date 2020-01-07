@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -42,7 +42,7 @@ console
 html
 "
 ;
-yield
+await
 loadTab
 (
 TEST_URI
@@ -51,7 +51,7 @@ TEST_URI
 let
 hud
 =
-yield
+await
 openConsole
 (
 )
@@ -134,7 +134,7 @@ i
 "
 )
 ;
-yield
+await
 waitForMessages
 (
 {
@@ -408,7 +408,7 @@ clearShortcut
 }
 )
 ;
-yield
+await
 hud
 .
 jsterm
