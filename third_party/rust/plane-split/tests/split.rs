@@ -23,7 +23,7 @@ euclid
 :
 :
 {
-Radians
+Angle
 TypedTransform3D
 TypedRect
 vec3
@@ -199,10 +199,10 @@ create_rotation
 0
 .
 0
-Radians
+Angle
 :
 :
-new
+radians
 (
 -
 FRAC_PI_4
@@ -235,10 +235,10 @@ create_rotation
 0
 .
 0
-Radians
+Angle
 :
 :
-new
+radians
 (
 0
 .
@@ -272,10 +272,10 @@ create_rotation
 0
 .
 0
-Radians
+Angle
 :
 :
-new
+radians
 (
 FRAC_PI_4
 )

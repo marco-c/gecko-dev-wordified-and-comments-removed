@@ -121,7 +121,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -168,7 +168,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
