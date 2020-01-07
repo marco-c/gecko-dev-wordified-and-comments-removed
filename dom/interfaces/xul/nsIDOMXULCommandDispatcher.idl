@@ -199,10 +199,6 @@ nsIDOMElement
 elt
 )
 ;
-attribute
-boolean
-suppressFocusScroll
-;
 /
 /
 When

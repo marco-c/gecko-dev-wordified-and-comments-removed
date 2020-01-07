@@ -3177,12 +3177,6 @@ currFocusedElement
 do
 {
 commandDispatcher
-.
-suppressFocusScroll
-=
-true
-;
-commandDispatcher
 [
 direction
 ]
