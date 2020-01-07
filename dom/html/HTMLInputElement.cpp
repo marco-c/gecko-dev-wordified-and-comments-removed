@@ -29699,7 +29699,7 @@ false
 ;
 }
 return
-IsSingleLineTextControl
+IsSingleLineTextOrNumberControl
 (
 false
 )
