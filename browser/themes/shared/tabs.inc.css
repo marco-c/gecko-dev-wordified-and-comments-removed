@@ -3857,13 +3857,6 @@ color
 )
 ;
 }
-:
-root
-[
-lwtheme
--
-image
-]
 #
 tabbrowser
 -
@@ -3895,6 +3888,11 @@ selected
 =
 true
 ]
+:
+-
+moz
+-
+lwtheme
 {
 background
 -
@@ -3979,6 +3977,7 @@ lwt
 header
 -
 image
+none
 )
 ;
 background
