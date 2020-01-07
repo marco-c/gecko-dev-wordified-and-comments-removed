@@ -595,6 +595,13 @@ IMarshal
 *
 mStdMarshal
 ;
+static
+MOZ_THREAD_LOCAL
+(
+bool
+)
+tlsCreatingStdMarshal
+;
 }
 ;
 template
