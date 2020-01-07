@@ -733,7 +733,7 @@ this
 .
 driver
 .
-close
+closeChromeWindow
 (
 )
 ;
