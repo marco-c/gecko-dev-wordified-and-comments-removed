@@ -346,11 +346,6 @@ gfxPoint
 pt
 )
 ;
-gfxPoint
-CurrentPoint
-(
-)
-;
 void
 LineTo
 (
