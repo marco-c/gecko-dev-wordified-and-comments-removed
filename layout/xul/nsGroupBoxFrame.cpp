@@ -624,11 +624,10 @@ BorderBackground
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayXULGroupBorder
+>
 (
 aBuilder
 this

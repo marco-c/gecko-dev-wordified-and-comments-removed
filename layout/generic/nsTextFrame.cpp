@@ -26317,11 +26317,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayText
+>
 (
 aBuilder
 this
