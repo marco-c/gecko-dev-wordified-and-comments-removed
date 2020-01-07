@@ -1,7 +1,10 @@
 .
 .
 /
-tools
+.
+.
+/
+python
 /
 mozterm
 .
