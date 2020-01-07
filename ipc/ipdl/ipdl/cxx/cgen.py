@@ -13,6 +13,7 @@ cxx
 .
 ast
 import
+MethodSpec
 TypeArray
 Visitor
 class
@@ -1385,50 +1386,6 @@ md
 )
 :
         
-assert
-not
-(
-md
-.
-static
-and
-md
-.
-virtual
-)
-        
-assert
-not
-(
-md
-.
-override
-and
-md
-.
-pure
-)
-        
-assert
-not
-md
-.
-pure
-or
-md
-.
-virtual
-        
-assert
-not
-md
-.
-override
-or
-md
-.
-virtual
-        
 if
 md
 .
@@ -1526,7 +1483,12 @@ MOZ_NEVER_INLINE
 if
 md
 .
-static
+methodspec
+=
+=
+MethodSpec
+.
+STATIC
 :
             
 self
@@ -1538,15 +1500,26 @@ static
 '
 )
         
-if
+elif
 md
 .
-virtual
-and
-not
+methodspec
+=
+=
+MethodSpec
+.
+VIRTUAL
+or
+\
+             
 md
 .
-override
+methodspec
+=
+=
+MethodSpec
+.
+PURE
 :
             
 self
@@ -1716,7 +1689,12 @@ self
 if
 md
 .
-override
+methodspec
+=
+=
+MethodSpec
+.
+OVERRIDE
 :
             
 self
@@ -1728,10 +1706,15 @@ override
 '
 )
         
-if
+elif
 md
 .
-pure
+methodspec
+=
+=
+MethodSpec
+.
+PURE
 :
             
 self
@@ -1757,7 +1740,12 @@ md
 .
 decl
 .
-pure
+methodspec
+=
+=
+MethodSpec
+.
+PURE
 :
             
 return
@@ -2037,7 +2025,12 @@ inline
 if
 dd
 .
-virtual
+methodspec
+=
+=
+MethodSpec
+.
+VIRTUAL
 :
             
 self
