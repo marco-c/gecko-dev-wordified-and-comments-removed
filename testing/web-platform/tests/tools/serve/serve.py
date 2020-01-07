@@ -25,6 +25,8 @@ logging
 import
 os
 import
+platform
+import
 socket
 import
 sys
@@ -3420,6 +3422,22 @@ domain
 )
 )
     
+if
+platform
+.
+uname
+(
+)
+[
+0
+]
+=
+=
+"
+Windows
+"
+:
+        
 for
 not_domain
 in
@@ -3427,7 +3445,7 @@ config
 .
 not_domains_set
 :
-        
+            
 rv
 .
 append
@@ -4700,8 +4718,6 @@ _not_subdomains
 u
 "
 nonexistent
--
-origin
 "
 }
 class

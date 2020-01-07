@@ -125,8 +125,6 @@ there
 is
 also
 nonexistent
--
-origin
 which
 is
 guaranteed
