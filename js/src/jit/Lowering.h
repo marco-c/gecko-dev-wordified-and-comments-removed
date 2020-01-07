@@ -1650,15 +1650,6 @@ ins
 override
 ;
 void
-visitMonitorTypes
-(
-MMonitorTypes
-*
-ins
-)
-override
-;
-void
 visitPostWriteBarrier
 (
 MPostWriteBarrier

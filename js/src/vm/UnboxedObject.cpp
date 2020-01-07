@@ -1205,6 +1205,7 @@ guardObjectType
 payloadReg
 types
 scratch
+payloadReg
 &
 failureStoreObject
 )

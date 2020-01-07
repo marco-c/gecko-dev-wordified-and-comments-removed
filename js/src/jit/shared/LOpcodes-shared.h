@@ -1323,11 +1323,6 @@ TypeBarrierO
 \
 _
 (
-MonitorTypes
-)
-\
-_
-(
 PostWriteBarrierO
 )
 \

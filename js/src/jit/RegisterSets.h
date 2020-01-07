@@ -669,7 +669,7 @@ reg
 ;
 }
 Register
-scratchReg
+payloadOrValueReg
 (
 )
 const
@@ -785,7 +785,7 @@ reg
 ;
 }
 Register
-scratchReg
+payloadOrValueReg
 (
 )
 const
@@ -844,6 +844,18 @@ o
 }
 #
 endif
+Register
+scratchReg
+(
+)
+const
+{
+return
+payloadOrValueReg
+(
+)
+;
+}
 ValueOperand
 (
 )
