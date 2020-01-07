@@ -660,17 +660,6 @@ virtualenv_modules
 [
                                     
 "
-pip
-=
-=
-1
-.
-5
-.
-5
-"
-                                    
-"
 boto
 "
                                     
