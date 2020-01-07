@@ -2520,15 +2520,6 @@ enabled
 "
 svg
 .
-paint
--
-order
-.
-enabled
-"
-"
-svg
-.
 path
 -
 caching
