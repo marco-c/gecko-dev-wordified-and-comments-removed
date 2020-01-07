@@ -1278,6 +1278,10 @@ summary
 .
 percentComplete
 =
+Math
+.
+floor
+(
 (
 summary
 .
@@ -1289,6 +1293,7 @@ totalSize
 )
 *
 100
+)
 ;
 }
 if
