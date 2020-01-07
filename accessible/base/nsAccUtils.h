@@ -200,7 +200,7 @@ aAtom
 )
 ;
 static
-nsStaticAtom
+nsAtom
 *
 GetARIAToken
 (

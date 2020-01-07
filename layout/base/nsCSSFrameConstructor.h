@@ -1438,6 +1438,8 @@ mFullConstructor
 nsICSSAnonBoxPseudo
 *
 const
+*
+const
 mAnonBoxPseudo
 ;
 }
@@ -1447,6 +1449,8 @@ FrameConstructionDataByTag
 {
 const
 nsStaticAtom
+*
+const
 *
 const
 mTag
@@ -1529,6 +1533,8 @@ FrameConstructionData
 mFCData
 ;
 nsICSSAnonBoxPseudo
+*
+const
 *
 const
 mPseudoType

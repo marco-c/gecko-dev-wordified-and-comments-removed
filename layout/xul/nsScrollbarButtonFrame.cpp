@@ -438,10 +438,12 @@ strings
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 increment
+&
 nsGkAtoms
 :
 :

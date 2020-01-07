@@ -93,25 +93,21 @@ mozilla
 struct
 txCoreFunctionDescriptor
 {
-const
 int8_t
 mMinParams
 ;
-const
 int8_t
 mMaxParams
 ;
-const
 Expr
 :
 :
 ResultType
 mReturnType
 ;
-const
 nsStaticAtom
 *
-const
+*
 mName
 ;
 }
@@ -131,6 +127,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -143,6 +140,7 @@ Expr
 :
 :
 NODESET_RESULT
+&
 nsGkAtoms
 :
 :
@@ -155,6 +153,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -167,6 +166,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -179,6 +179,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -191,6 +192,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -203,6 +205,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -216,6 +219,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -228,6 +232,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -240,6 +245,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -252,6 +258,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -264,6 +271,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -276,6 +284,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -288,6 +297,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -300,6 +310,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -312,6 +323,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -324,6 +336,7 @@ Expr
 :
 :
 STRING_RESULT
+&
 nsGkAtoms
 :
 :
@@ -336,6 +349,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -348,6 +362,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -360,6 +375,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -372,6 +388,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -384,6 +401,7 @@ Expr
 :
 :
 NUMBER_RESULT
+&
 nsGkAtoms
 :
 :
@@ -396,6 +414,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -408,6 +427,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -420,6 +440,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -432,6 +453,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -444,6 +466,7 @@ Expr
 :
 :
 BOOLEAN_RESULT
+&
 nsGkAtoms
 :
 :
@@ -3740,6 +3763,7 @@ if
 aName
 =
 =
+*
 descriptTable
 [
 i
@@ -3785,12 +3809,15 @@ aDest
 .
 Append
 (
+(
+*
 descriptTable
 [
 mType
 ]
 .
 mName
+)
 -
 >
 GetUTF16String

@@ -104,6 +104,7 @@ sWAIRoleMaps
 =
 {
 {
+&
 nsGkAtoms
 :
 :
@@ -120,6 +121,7 @@ eAlert
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -136,6 +138,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -152,6 +155,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -169,6 +173,7 @@ kNoReqStates
 eReadonlyUntilEditable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -185,6 +190,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -201,6 +207,7 @@ eButton
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -217,6 +224,7 @@ eTableCell
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -235,6 +243,7 @@ eARIACheckableMixed
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -253,6 +262,7 @@ eARIASelectableIfDefined
 eARIAReadonlyOrEditableIfDefined
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -280,6 +290,7 @@ eARIAReadonly
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -296,6 +307,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -312,6 +324,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -328,6 +341,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -347,6 +361,7 @@ states
 READONLY
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -363,6 +378,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -379,6 +395,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -395,6 +412,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -411,6 +429,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -430,6 +449,7 @@ states
 LINKED
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -449,6 +469,7 @@ states
 READONLY
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -465,6 +486,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -484,6 +506,7 @@ states
 LINKED
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -500,6 +523,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -516,6 +540,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -532,6 +557,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -548,6 +574,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -564,6 +591,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -580,6 +608,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -596,6 +625,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -615,6 +645,7 @@ states
 READONLY
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -631,6 +662,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -647,6 +679,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -663,6 +696,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -679,6 +713,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -695,6 +730,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -711,6 +747,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -727,6 +764,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -743,6 +781,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -762,6 +801,7 @@ states
 LINKED
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -778,6 +818,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -794,6 +835,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -813,6 +855,7 @@ states
 LINKED
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -829,6 +872,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -845,6 +889,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -861,6 +906,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -877,6 +923,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -893,6 +940,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -909,6 +957,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -925,6 +974,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -941,6 +991,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -957,6 +1008,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -973,6 +1025,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -989,6 +1042,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1006,6 +1060,7 @@ kNoReqStates
 eReadonlyUntilEditable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1022,6 +1077,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1038,6 +1094,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1054,6 +1111,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1071,6 +1129,7 @@ kNoReqStates
 eReadonlyUntilEditable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1087,6 +1146,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1103,6 +1163,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1124,6 +1185,7 @@ eARIAReadonlyOrEditable
 eFocusableUntilDisabled
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1142,6 +1204,7 @@ eARIASelectable
 eARIAReadonlyOrEditableIfDefined
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1158,6 +1221,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1174,6 +1238,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1190,6 +1255,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1207,6 +1273,7 @@ kNoReqStates
 eARIAPressed
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1226,6 +1293,7 @@ states
 LINKED
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1245,6 +1313,7 @@ states
 READONLY
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1270,6 +1339,7 @@ eFocusableUntilDisabled
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1289,6 +1359,7 @@ states
 READONLY
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1305,6 +1376,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1321,6 +1393,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1337,6 +1410,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1353,6 +1427,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1373,6 +1448,7 @@ VERTICAL
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1393,6 +1469,7 @@ HORIZONTAL
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1409,6 +1486,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1427,6 +1505,7 @@ eARIACheckableMixed
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1445,6 +1524,7 @@ eARIACheckableBool
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1461,6 +1541,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1477,6 +1558,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1493,6 +1575,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1511,6 +1594,7 @@ eARIASelectable
 eARIACheckedMixed
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1527,6 +1611,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1547,6 +1632,7 @@ READONLY
 eIndeterminateIfNoValue
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1564,6 +1650,7 @@ kNoReqStates
 eARIACheckableBool
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1582,6 +1669,7 @@ eARIAOrientation
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1598,6 +1686,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1615,6 +1704,7 @@ kNoReqStates
 eARIASelectable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1631,6 +1721,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1649,6 +1740,7 @@ eARIASelectableIfDefined
 eARIAReadonlyOrEditableIfDefined
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1670,6 +1762,7 @@ eARIAOrientation
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1686,6 +1779,7 @@ eLandmark
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1705,6 +1799,7 @@ eARIAMultiline
 eARIAReadonlyOrEditable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1725,6 +1820,7 @@ HORIZONTAL
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1746,6 +1842,7 @@ eARIAOrientation
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1763,6 +1860,7 @@ kNoReqStates
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1779,6 +1877,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1797,6 +1896,7 @@ eARIACheckableBool
 eARIAReadonly
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1814,6 +1914,7 @@ kNoReqStates
 eARIASelectable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1831,6 +1932,7 @@ kNoReqStates
 eARIASelectable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1851,6 +1953,7 @@ HORIZONTAL
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1867,6 +1970,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1886,6 +1990,7 @@ states
 READONLY
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1905,6 +2010,7 @@ eARIAMultiline
 eARIAReadonlyOrEditable
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1920,6 +2026,7 @@ eOffLiveAttr
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1940,6 +2047,7 @@ HORIZONTAL
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1956,6 +2064,7 @@ kGenericAccType
 kNoReqStates
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -1979,6 +2088,7 @@ eFocusableUntilDisabled
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2001,6 +2111,7 @@ eFocusableUntilDisabled
 eARIAOrientation
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2026,6 +2137,7 @@ nsRoleMapEntry
 sLandmarkRoleMap
 =
 {
+&
 nsGkAtoms
 :
 :
@@ -2049,6 +2161,7 @@ aria
 gEmptyRoleMap
 =
 {
+&
 nsGkAtoms
 :
 :
@@ -2087,10 +2200,9 @@ eARIANone
 struct
 AttrCharacteristics
 {
-const
 nsStaticAtom
 *
-const
+*
 attributeName
 ;
 const
@@ -2108,6 +2220,7 @@ gWAIUnivAttrMap
 =
 {
 {
+&
 nsGkAtoms
 :
 :
@@ -2115,6 +2228,7 @@ aria_activedescendant
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2126,6 +2240,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2135,6 +2250,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2144,6 +2260,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2153,6 +2270,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2162,6 +2280,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2171,6 +2290,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2182,6 +2302,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2191,6 +2312,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2200,6 +2322,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2209,6 +2332,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2218,6 +2342,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2227,6 +2352,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2238,6 +2364,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2249,6 +2376,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2260,6 +2388,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2269,6 +2398,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2278,6 +2408,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2285,6 +2416,7 @@ aria_level
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2294,6 +2426,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2305,6 +2438,7 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2314,6 +2448,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2323,6 +2458,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2332,6 +2468,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2339,6 +2476,7 @@ aria_orientation
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2346,6 +2484,7 @@ aria_posinset
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2355,6 +2494,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2364,6 +2504,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2373,6 +2514,7 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2382,6 +2524,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2391,6 +2534,7 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2398,6 +2542,7 @@ aria_setsize
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2405,6 +2550,7 @@ aria_sort
 ATTR_VALTOKEN
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2412,6 +2558,7 @@ aria_valuenow
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2419,6 +2566,7 @@ aria_valuemin
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2426,6 +2574,7 @@ aria_valuemax
 ATTR_BYPASSOBJ
 }
 {
+&
 nsGkAtoms
 :
 :
@@ -2803,6 +2952,7 @@ i
 )
 if
 (
+*
 gWAIUnivAttrMap
 [
 i

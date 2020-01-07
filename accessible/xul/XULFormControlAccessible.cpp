@@ -752,10 +752,12 @@ strings
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 menu
+&
 nsGkAtoms
 :
 :

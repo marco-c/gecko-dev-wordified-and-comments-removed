@@ -2951,14 +2951,17 @@ values
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 _false
+&
 nsGkAtoms
 :
 :
 _true
+&
 nsGkAtoms
 :
 :

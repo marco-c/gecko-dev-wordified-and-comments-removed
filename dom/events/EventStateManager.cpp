@@ -12859,10 +12859,12 @@ strings
 ]
 =
 {
+&
 nsGkAtoms
 :
 :
 always
+&
 nsGkAtoms
 :
 :
