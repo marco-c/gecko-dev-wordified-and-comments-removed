@@ -405,12 +405,10 @@ job
 taskdesc
 path
 =
-r
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+taskdesc
+)
 )
 def
 docker_worker_add_gecko_vcs_env_vars
