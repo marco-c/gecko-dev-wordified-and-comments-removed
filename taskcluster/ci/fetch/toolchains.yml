@@ -1581,7 +1581,7 @@ grcov
 -
 win
 -
-i686
+x86_64
 :
 description
 :
@@ -1596,7 +1596,7 @@ grcov
 -
 win
 -
-i686
+x86_64
 run
 :
 using
@@ -1632,14 +1632,14 @@ grcov
 -
 win
 -
-i686
+x86_64
 .
 tar
 .
 bz2
 sha256
 :
-87c3c22cd1bb99d9c41b6a6f9e20b6c655a580021776f1a532297f5e8315ad9b
+baede397959ec6f5e0c9630c8e9e1e59ebe723ec95acea9bb204511a886e0f2f
 size
 :
-919079
+1009309
