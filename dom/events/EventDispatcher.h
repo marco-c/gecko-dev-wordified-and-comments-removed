@@ -304,13 +304,6 @@ EventTarget
 *
 mEventTargetAtParent
 ;
-nsTArray
-<
-nsIContent
-*
->
-mDestInsertionPoints
-;
 }
 ;
 class

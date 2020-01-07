@@ -82,6 +82,9 @@ nsXBLPrototypeBinding
 namespace
 mozilla
 {
+class
+EventChainPreVisitor
+;
 namespace
 dom
 {
@@ -453,6 +456,15 @@ mIsComposedDocParticipant
 aIsComposedDocParticipant
 ;
 }
+nsresult
+GetEventTargetParent
+(
+EventChainPreVisitor
+&
+aVisitor
+)
+override
+;
 protected
 :
 virtual
