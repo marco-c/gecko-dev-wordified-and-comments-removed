@@ -360,10 +360,6 @@ nsIPresShell
 aPresShell
 StyleType
 aStyleType
-AnimationFlag
-aFlag
-=
-eWithAnimation
 )
 ;
 virtual
@@ -4028,9 +4024,6 @@ mExposeVisitedStyle
 bool
 mResolvedComputedStyle
 ;
-AnimationFlag
-mAnimationFlag
-;
 #
 ifdef
 DEBUG
@@ -4073,16 +4066,6 @@ nsComputedDOMStyle
 :
 :
 eAll
-nsComputedDOMStyle
-:
-:
-AnimationFlag
-aFlag
-=
-nsComputedDOMStyle
-:
-:
-eWithAnimation
 )
 ;
 #

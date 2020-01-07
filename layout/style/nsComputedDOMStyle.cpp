@@ -392,19 +392,12 @@ nsComputedDOMStyle
 :
 StyleType
 aStyleType
-nsComputedDOMStyle
-:
-:
-AnimationFlag
-aFlag
 )
 {
 RefPtr
 <
 nsComputedDOMStyle
 >
-computedStyle
-;
 computedStyle
 =
 new
@@ -414,7 +407,6 @@ aElement
 aPseudoElt
 aPresShell
 aStyleType
-aFlag
 )
 ;
 return
@@ -1152,8 +1144,6 @@ nsIPresShell
 aPresShell
 StyleType
 aStyleType
-AnimationFlag
-aFlag
 )
 :
 mDocumentWeak
@@ -1187,10 +1177,6 @@ false
 mResolvedComputedStyle
 (
 false
-)
-mAnimationFlag
-(
-aFlag
 )
 {
 MOZ_ASSERT
