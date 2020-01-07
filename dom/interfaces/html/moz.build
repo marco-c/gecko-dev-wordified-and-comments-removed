@@ -119,11 +119,6 @@ nsIDOMHTMLInputElement
 idl
 '
 '
-nsIDOMHTMLMediaElement
-.
-idl
-'
-'
 nsIDOMMozBrowserFrame
 .
 idl
