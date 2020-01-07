@@ -65,7 +65,7 @@ nsIChannel
 aChannel
 )
 ;
-nsresult
+void
 Play
 (
 )

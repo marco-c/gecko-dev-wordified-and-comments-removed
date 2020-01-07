@@ -2471,7 +2471,7 @@ DecodeWarning
 )
 ;
 }
-nsresult
+void
 MediaDecoder
 :
 :
@@ -2521,7 +2521,6 @@ mPlaybackRate
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -2541,7 +2540,6 @@ PrevSyncPoint
 )
 ;
 return
-NS_OK
 ;
 }
 else
@@ -2558,16 +2556,12 @@ mNextState
 PLAY_STATE_PLAYING
 ;
 return
-NS_OK
 ;
 }
 ChangeState
 (
 PLAY_STATE_PLAYING
 )
-;
-return
-NS_OK
 ;
 }
 void

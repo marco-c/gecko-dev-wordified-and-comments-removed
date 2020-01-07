@@ -892,7 +892,7 @@ forget
 )
 ;
 }
-nsresult
+void
 HLSDecoder
 :
 :
