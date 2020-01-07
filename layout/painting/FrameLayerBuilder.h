@@ -1715,10 +1715,7 @@ static
 void
 RecomputeVisibilityForItems
 (
-std
-:
-:
-vector
+nsTArray
 <
 AssignedDisplayItem
 >
@@ -1749,10 +1746,7 @@ aYScale
 void
 PaintItems
 (
-std
-:
-:
-vector
+nsTArray
 <
 AssignedDisplayItem
 >
