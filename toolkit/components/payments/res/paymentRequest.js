@@ -29,7 +29,7 @@ window
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 )
@@ -116,7 +116,7 @@ break
 }
 case
 "
-keypress
+keydown
 "
 :
 {
