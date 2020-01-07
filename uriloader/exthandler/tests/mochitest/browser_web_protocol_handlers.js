@@ -2,7 +2,7 @@ let
 testURL
 =
 "
-https
+http
 :
 /
 /
