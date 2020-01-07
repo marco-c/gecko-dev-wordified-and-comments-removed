@@ -238,6 +238,16 @@ extensions
 '
 toolkit
 /
+components
+/
+extensions
+/
+parent
+'
+    
+'
+toolkit
+/
 mozapps
 /
 extensions
