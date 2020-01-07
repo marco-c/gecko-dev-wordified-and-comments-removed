@@ -88,6 +88,7 @@ CodeCoverageHandler
 (
 )
 ;
+explicit
 CodeCoverageHandler
 (
 const
