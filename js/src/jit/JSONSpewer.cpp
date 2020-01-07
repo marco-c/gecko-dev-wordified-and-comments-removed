@@ -102,7 +102,7 @@ name
 s
 :
 %
-zu
+u
 "
 script
 -

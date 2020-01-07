@@ -2291,7 +2291,7 @@ bufsize
 s
 :
 %
-zu
+u
 "
 script
 -

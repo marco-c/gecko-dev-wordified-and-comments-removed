@@ -1487,7 +1487,7 @@ SprintfLiteral
 linenoStr
 "
 %
-zu
+u
 "
 script
 -
@@ -27753,14 +27753,11 @@ script
 )
 {
 return
-uint32_t
-(
 script
 -
 >
 lineno
 (
-)
 )
 ;
 }

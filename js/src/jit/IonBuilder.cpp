@@ -1892,7 +1892,7 @@ inline
 s
 :
 %
-zu
+u
 :
 %
 s
@@ -4103,7 +4103,7 @@ script
 s
 :
 %
-zu
+u
 (
 %
 p
@@ -4160,7 +4160,7 @@ script
 s
 :
 %
-zu
+u
 (
 %
 p
@@ -5167,7 +5167,7 @@ script
 s
 :
 %
-zu
+u
 (
 %
 p
@@ -6772,7 +6772,7 @@ JitSpew_IonMIR
 s
 :
 %
-zu
+u
 -
 Emitting
 code
@@ -8059,7 +8059,7 @@ for
 s
 :
 %
-zu
+u
 "
 script
 -
@@ -21797,7 +21797,7 @@ inline
 s
 :
 %
-zu
+u
 :
 callee
 is

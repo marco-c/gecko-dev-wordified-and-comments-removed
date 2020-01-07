@@ -631,10 +631,10 @@ namebuf
 s
 :
 %
-zu
+u
 :
 %
-zu
+u
 "
 script
 -

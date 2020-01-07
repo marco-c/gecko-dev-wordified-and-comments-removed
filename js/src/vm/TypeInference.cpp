@@ -13233,7 +13233,7 @@ p
 s
 :
 %
-zu
+u
 "
 info
 .
@@ -24527,7 +24527,7 @@ PRIxPTR
 s
 :
 %
-zu
+u
 "
 uintptr_t
 (

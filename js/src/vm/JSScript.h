@@ -4224,7 +4224,7 @@ return
 mainOffset_
 ;
 }
-size_t
+uint32_t
 lineno
 (
 )
@@ -4234,7 +4234,7 @@ return
 lineno_
 ;
 }
-size_t
+uint32_t
 column
 (
 )
