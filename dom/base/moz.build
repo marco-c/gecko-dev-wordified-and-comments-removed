@@ -1072,6 +1072,11 @@ StructuredCloneTags
 h
 '
 '
+StyleScope
+.
+h
+'
+'
 StyleSheetList
 .
 h
@@ -1770,6 +1775,11 @@ cpp
 '
 '
 StructuredCloneHolder
+.
+cpp
+'
+'
+StyleScope
 .
 cpp
 '
