@@ -241,12 +241,6 @@ WidgetEvent
 aEvent
 )
 ;
-double
-TimeStampImpl
-(
-)
-const
-;
 public
 :
 static
@@ -837,7 +831,6 @@ double
 TimeStamp
 (
 )
-const
 ;
 EventTarget
 *
