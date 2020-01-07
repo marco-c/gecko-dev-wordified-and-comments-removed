@@ -2624,6 +2624,12 @@ ident
         
 self
 .
+original
+=
+original
+        
+self
+.
 enabled_in
 =
 original
