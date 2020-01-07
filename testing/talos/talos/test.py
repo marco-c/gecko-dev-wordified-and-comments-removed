@@ -740,8 +740,6 @@ webextensions
 dummy
 /
 dummy
--
-signed
 .
 xpi
 '
@@ -3711,8 +3709,6 @@ webextensions
 dummy
 /
 dummy
--
-signed
 .
 xpi
 '
