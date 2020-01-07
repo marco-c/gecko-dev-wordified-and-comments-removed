@@ -57,6 +57,9 @@ toolkit
 .
 jar
 :
+#
+ifndef
+ANDROID
 content
 /
 global
@@ -129,6 +132,8 @@ viewPartialSource
 .
 xul
 )
+#
+endif
 content
 /
 global

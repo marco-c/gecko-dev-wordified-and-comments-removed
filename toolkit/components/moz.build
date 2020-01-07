@@ -318,6 +318,9 @@ urlformatter
 viewconfig
 '
 '
+viewsource
+'
+'
 windowcreator
 '
 '
@@ -351,9 +354,6 @@ DIRS
 [
 '
 narrate
-'
-'
-viewsource
 '
 ]
 ;
