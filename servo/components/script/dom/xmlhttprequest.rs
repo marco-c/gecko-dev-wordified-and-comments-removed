@@ -750,6 +750,7 @@ derive
 (
 Clone
 Copy
+Debug
 JSTraceable
 MallocSizeOf
 PartialEq
@@ -6585,7 +6586,7 @@ rs
 XMLHttpRequestState
 )
 {
-assert
+assert_ne
 !
 (
 self
@@ -6595,8 +6596,6 @@ ready_state
 get
 (
 )
-!
-=
 rs
 )
 ;
@@ -9422,12 +9421,10 @@ extra
 last
 )
 ;
-assert
+assert_eq
 !
 (
 read
-=
-=
 bytes
 .
 len

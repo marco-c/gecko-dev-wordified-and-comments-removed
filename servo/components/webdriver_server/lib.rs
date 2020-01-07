@@ -6763,14 +6763,12 @@ out
 )
 }
 ;
-assert
+assert_eq
 !
 (
 img
 .
 format
-=
-=
 PixelFormat
 :
 :

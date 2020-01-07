@@ -422,12 +422,10 @@ is_null
 )
 )
 ;
-assert
+assert_eq
 !
 (
 glyph_count
-=
-=
 pos_count
 )
 ;

@@ -897,7 +897,7 @@ block
 }
 )
 ;
-assert
+assert_eq
 !
 (
 self
@@ -911,8 +911,6 @@ children
 len
 (
 )
-=
-=
 1
 )
 ;

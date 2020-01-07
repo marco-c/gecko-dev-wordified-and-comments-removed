@@ -2747,7 +2747,7 @@ form
 }
 else
 {
-assert
+assert_eq
 !
 (
 node
@@ -2755,8 +2755,6 @@ node
 NodeName
 (
 )
-=
-=
 "
 KEYGEN
 "

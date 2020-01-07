@@ -2009,14 +2009,12 @@ em_size
 as
 f64
 ;
-assert
+assert_eq
 !
 (
 metrics
 .
 x_ppem
-=
-=
 metrics
 .
 y_ppem

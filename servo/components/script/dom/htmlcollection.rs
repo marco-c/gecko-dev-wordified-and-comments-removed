@@ -280,12 +280,10 @@ u32
 >
 OptionU32
 {
-assert
+assert_ne
 !
 (
 bits
-!
-=
 u32
 :
 :

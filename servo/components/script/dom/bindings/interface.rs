@@ -1402,7 +1402,7 @@ arity
 in
 named_constructors
 {
-assert
+assert_eq
 !
 (
 *
@@ -1415,8 +1415,6 @@ last
 unwrap
 (
 )
-=
-=
 b
 '
 \
@@ -1913,7 +1911,7 @@ obj
 HandleObject
 )
 {
-assert
+assert_eq
 !
 (
 *
@@ -1926,8 +1924,6 @@ last
 unwrap
 (
 )
-=
-=
 b
 '
 \
@@ -2518,7 +2514,7 @@ name
 in
 names
 {
-assert
+assert_eq
 !
 (
 *
@@ -2531,8 +2527,6 @@ last
 unwrap
 (
 )
-=
-=
 b
 '
 \
@@ -2592,7 +2586,7 @@ u8
 ]
 )
 {
-assert
+assert_eq
 !
 (
 *
@@ -2605,8 +2599,6 @@ last
 unwrap
 (
 )
-=
-=
 b
 '
 \

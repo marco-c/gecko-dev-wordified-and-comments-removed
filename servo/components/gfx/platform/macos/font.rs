@@ -1502,15 +1502,13 @@ return
 None
 ;
 }
-assert
+assert_ne
 !
 (
 glyphs
 [
 0
 ]
-!
-=
 0
 )
 ;

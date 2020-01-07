@@ -545,7 +545,7 @@ ident
 =
 >
 {
-assert
+assert_eq
 !
 (
 declarations
@@ -553,8 +553,6 @@ declarations
 len
 (
 )
-=
-=
 1
 "
 expected
@@ -593,7 +591,7 @@ expr
 =
 >
 {
-assert
+assert_eq
 !
 (
 declarations
@@ -601,8 +599,6 @@ declarations
 len
 (
 )
-=
-=
 len
 "
 expected
@@ -825,14 +821,12 @@ value
 )
 )
 ;
-assert
+assert_eq
 !
 (
 d
 .
 important
-=
-=
 false
 "
 descriptor
@@ -895,14 +889,12 @@ value
 )
 )
 ;
-assert
+assert_eq
 !
 (
 d
 .
 important
-=
-=
 true
 "
 descriptor

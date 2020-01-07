@@ -446,6 +446,7 @@ derive
 (
 Clone
 Copy
+Debug
 PartialEq
 )
 ]
@@ -2186,14 +2187,12 @@ NotShuttingDown
 =
 >
 {
-assert
+assert_eq
 !
 (
 self
 .
 ready_to_save_state
-=
-=
 ReadyState
 :
 :

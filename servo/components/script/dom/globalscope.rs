@@ -3384,7 +3384,7 @@ get_object_class
 global
 )
 ;
-assert
+assert_ne
 !
 (
 (
@@ -3401,8 +3401,6 @@ JSCLASS_IS_DOMJSCLASS
 JSCLASS_IS_GLOBAL
 )
 )
-!
-=
 0
 )
 ;

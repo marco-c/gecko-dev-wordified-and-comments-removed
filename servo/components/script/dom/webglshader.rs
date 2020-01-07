@@ -1359,7 +1359,7 @@ mut
 self
 )
 {
-assert
+assert_eq
 !
 (
 self
@@ -1369,8 +1369,6 @@ attached_counter
 get
 (
 )
-=
-=
 0
 )
 ;

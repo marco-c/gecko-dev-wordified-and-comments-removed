@@ -599,7 +599,7 @@ unwrap
 )
 )
 ;
-assert
+assert_eq
 !
 (
 list
@@ -612,8 +612,6 @@ mozilla
 org
 "
 )
-=
-=
 false
 )
 }
@@ -723,7 +721,7 @@ unwrap
 )
 )
 ;
-assert
+assert_eq
 !
 (
 list
@@ -746,8 +744,6 @@ unwrap
 len
 (
 )
-=
-=
 1
 )
 }
@@ -994,7 +990,7 @@ unwrap
 )
 )
 ;
-assert
+assert_eq
 !
 (
 list
@@ -1017,8 +1013,6 @@ unwrap
 len
 (
 )
-=
-=
 1
 )
 }

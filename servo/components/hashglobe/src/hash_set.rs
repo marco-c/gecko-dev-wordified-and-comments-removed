@@ -5791,12 +5791,10 @@ insert
 2
 )
 ;
-assert
+assert_ne
 !
 (
 s1
-!
-=
 s2
 )
 ;
@@ -6101,12 +6099,10 @@ last_i
 =
 i
 ;
-assert
+assert_ne
 !
 (
 x
-!
-=
 0
 )
 ;

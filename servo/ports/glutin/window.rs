@@ -961,12 +961,10 @@ as
 i32
 )
 ;
-assert
+assert_ne
 !
 (
 ret
-!
-=
 0
 )
 ;

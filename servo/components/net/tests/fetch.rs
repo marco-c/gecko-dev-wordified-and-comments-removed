@@ -671,12 +671,10 @@ unwrap
 (
 )
 ;
-assert
+assert_eq
 !
 (
 fetch_error
-=
-=
 &
 NetworkError
 :
@@ -982,7 +980,7 @@ is_network_error
 )
 )
 ;
-assert
+assert_eq
 !
 (
 *
@@ -997,8 +995,6 @@ lock
 unwrap
 (
 )
-=
-=
 ResponseBody
 :
 :
@@ -1531,14 +1527,12 @@ unwrap
 (
 )
 ;
-assert
+assert_eq
 !
 (
 *
 *
 content_type
-=
-=
 Mime
 (
 TopLevel

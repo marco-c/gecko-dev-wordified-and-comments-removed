@@ -2915,7 +2915,7 @@ mem
 :
 size_of
 ;
-assert
+assert_ne
 !
 (
 size_of
@@ -2926,8 +2926,6 @@ T
 >
 (
 )
-!
-=
 0
 "
 Need
@@ -4096,7 +4094,7 @@ H
 T
 >
 {
-assert
+assert_eq
 !
 (
 a
@@ -4104,8 +4102,6 @@ a
 header
 .
 length
-=
-=
 a
 .
 slice
@@ -5574,7 +5570,7 @@ clone
 )
 ;
 }
-assert
+assert_eq
 !
 (
 canary
@@ -5583,8 +5579,6 @@ load
 (
 Acquire
 )
-=
-=
 1
 )
 ;
