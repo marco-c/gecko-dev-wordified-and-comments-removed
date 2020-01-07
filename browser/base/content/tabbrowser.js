@@ -21895,7 +21895,7 @@ NS_NOINTERFACE
 ;
 }
 }
-let
+var
 StatusPanel
 =
 {
