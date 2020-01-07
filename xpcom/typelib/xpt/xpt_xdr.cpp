@@ -186,7 +186,7 @@ no
 room
 for
 %
-d
+u
 in
 cursor
 \
