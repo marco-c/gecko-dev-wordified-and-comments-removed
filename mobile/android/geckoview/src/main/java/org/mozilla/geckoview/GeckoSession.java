@@ -4261,9 +4261,7 @@ handler
 .
 setSessionIsReady
 (
-getEventDispatcher
-(
-)
+this
 !
 inProgress
 )

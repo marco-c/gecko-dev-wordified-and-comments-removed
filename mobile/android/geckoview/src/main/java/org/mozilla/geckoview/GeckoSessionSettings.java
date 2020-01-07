@@ -944,6 +944,13 @@ mSession
 !
 =
 null
+&
+&
+mSession
+.
+isOpen
+(
+)
 )
 {
 mSession
@@ -959,7 +966,9 @@ GeckoView
 :
 UpdateSettings
 "
-null
+toBundle
+(
+)
 )
 ;
 }
