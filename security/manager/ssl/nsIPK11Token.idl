@@ -144,6 +144,14 @@ attribute
 AUTF8String
 tokenLabel
 ;
+[
+must_use
+]
+readonly
+attribute
+boolean
+isInternalKeyToken
+;
 /
 *
 *
