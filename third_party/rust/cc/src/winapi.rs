@@ -380,6 +380,9 @@ oleaut32
 )
 ]
 extern
+"
+C
+"
 {
 }
 extern

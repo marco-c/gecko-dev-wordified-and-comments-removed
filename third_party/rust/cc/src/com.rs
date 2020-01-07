@@ -116,9 +116,9 @@ winapi
 :
 :
 {
-S_OK
-S_FALSE
 HRESULT
+S_FALSE
+S_OK
 }
 ;
 pub

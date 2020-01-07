@@ -6,8 +6,8 @@ ffi
 :
 :
 {
-OsString
 OsStr
+OsString
 }
 ;
 use

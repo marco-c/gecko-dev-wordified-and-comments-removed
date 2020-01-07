@@ -1417,6 +1417,7 @@ windows
 )
 {
 return
+;
 }
 let
 test
@@ -1545,6 +1546,7 @@ windows
 )
 {
 return
+;
 }
 let
 test
