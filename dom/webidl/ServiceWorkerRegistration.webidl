@@ -158,10 +158,10 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistration
+DOMPrefs
 :
 :
-Visible
+ServiceWorkersEnabled
 "
 Exposed
 =
