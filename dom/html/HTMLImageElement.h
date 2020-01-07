@@ -1090,11 +1090,13 @@ GetReferrerPolicyAsEnum
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 X
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 Y
 (
@@ -1343,6 +1345,7 @@ nsIContent
 aSourceNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 CSSIntPoint
 GetXY
 (
