@@ -3385,6 +3385,7 @@ virtual
 nsPoint
 GetPositionOfChildIgnoringScrolling
 (
+const
 nsIFrame
 *
 aChild
@@ -3403,6 +3404,7 @@ nsPoint
 GetPositionIgnoringScrolling
 (
 )
+const
 ;
 typedef
 AutoTArray
@@ -6871,6 +6873,16 @@ nullptr
 ;
 nsPoint
 GetOffsetTo
+(
+const
+nsIFrame
+*
+aOther
+)
+const
+;
+nsPoint
+GetOffsetToIgnoringScrolling
 (
 const
 nsIFrame
