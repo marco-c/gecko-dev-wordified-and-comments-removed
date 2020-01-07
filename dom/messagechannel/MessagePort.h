@@ -77,8 +77,6 @@ final
 :
 public
 DOMEventTargetHelper
-public
-nsIObserver
 {
 friend
 class
@@ -86,7 +84,6 @@ PostMessageRunnable
 ;
 public
 :
-NS_DECL_NSIOBSERVER
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -302,6 +299,12 @@ MessagePort
 (
 )
 ;
+void
+DisconnectFromOwner
+(
+)
+override
+;
 enum
 State
 {
@@ -437,9 +440,6 @@ nsAutoPtr
 MessagePortIdentifier
 >
 mIdentifier
-;
-uint64_t
-mInnerID
 ;
 State
 mState
