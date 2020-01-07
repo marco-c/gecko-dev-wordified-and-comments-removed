@@ -165,8 +165,6 @@ aStartPoint
 nsRange
 *
 aEndPoint
-bool
-aContinueOk
 )
 ;
 char16_t
