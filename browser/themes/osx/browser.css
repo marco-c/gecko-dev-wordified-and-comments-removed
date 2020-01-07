@@ -580,9 +580,6 @@ left
 ;
 }
 media
-not
-all
-and
 (
 -
 moz
@@ -592,6 +589,8 @@ mac
 yosemite
 -
 theme
+:
+0
 )
 {
 .
