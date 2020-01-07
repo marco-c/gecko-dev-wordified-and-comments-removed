@@ -485,6 +485,12 @@ aChangedTouches
 ;
 static
 bool
+PlatformSupportsTouch
+(
+)
+;
+static
+bool
 PrefEnabled
 (
 JSContext
