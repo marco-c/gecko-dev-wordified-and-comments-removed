@@ -1513,6 +1513,14 @@ _
 ClipSource
 :
 :
+LineDecoration
+(
+_
+)
+|
+ClipSource
+:
+:
 BoxShadow
 (
 _
@@ -1535,6 +1543,8 @@ against
 BorderCorner
 /
 BoxShadow
+/
+LineDecoration
 "
 )
 ;
