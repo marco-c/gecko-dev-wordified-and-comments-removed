@@ -27,10 +27,13 @@ mozilla
 NotNull
 ;
 struct
-XPTState
+XPTArena
 ;
 struct
 XPTCursor
+;
+struct
+XPTState
 ;
 bool
 XPT_SkipStringInline
