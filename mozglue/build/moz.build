@@ -406,6 +406,11 @@ SOURCES
 =
 [
 '
+Authenticode
+.
+cpp
+'
+'
 WindowsDllBlocklist
 .
 cpp
@@ -419,7 +424,13 @@ OS_LIBS
 =
 [
 '
+crypt32
+'
+'
 version
+'
+'
+wintrust
 '
 ]
 EXPORTS
@@ -428,6 +439,11 @@ mozilla
 +
 =
 [
+'
+Authenticode
+.
+h
+'
 '
 WindowsDllBlocklist
 .
