@@ -1876,13 +1876,6 @@ id
 "
 panel
 "
-role
-=
-"
-xul
-:
-panel
-"
 extends
 =
 "
