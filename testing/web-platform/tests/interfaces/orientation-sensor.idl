@@ -38,7 +38,7 @@ targetMatrix
 }
 ;
 enum
-LocalCoordinateSystem
+OrientationSensorLocalCoordinateSystem
 {
 "
 device
@@ -53,7 +53,7 @@ OrientationSensorOptions
 :
 SensorOptions
 {
-LocalCoordinateSystem
+OrientationSensorLocalCoordinateSystem
 referenceFrame
 =
 "
