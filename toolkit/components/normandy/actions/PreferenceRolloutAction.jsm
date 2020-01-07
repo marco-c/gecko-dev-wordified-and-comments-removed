@@ -768,7 +768,7 @@ reason
 invalid
 type
 "
-pref
+preference
 :
 prefSpec
 .

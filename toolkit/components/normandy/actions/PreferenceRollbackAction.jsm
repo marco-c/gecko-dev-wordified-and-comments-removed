@@ -225,7 +225,7 @@ TelemetryEvents
 sendEvent
 (
 "
-unenrollFailure
+unenrollFailed
 "
 "
 preference_rollout
@@ -383,7 +383,7 @@ TelemetryEvents
 sendEvent
 (
 "
-unenrollFailure
+unenrollFailed
 "
 "
 preference_rollout
