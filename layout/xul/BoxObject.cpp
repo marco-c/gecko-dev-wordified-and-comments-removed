@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

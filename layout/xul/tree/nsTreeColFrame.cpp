@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsITreeColumns
 .
 h

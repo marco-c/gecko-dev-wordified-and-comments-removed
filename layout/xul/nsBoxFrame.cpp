@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

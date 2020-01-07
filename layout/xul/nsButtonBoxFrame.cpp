@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

@@ -25826,10 +25826,8 @@ return
 mFrameElement
 ;
 }
-already_AddRefed
-<
-nsIDOMElement
->
+Element
+*
 nsGlobalWindowOuter
 :
 :

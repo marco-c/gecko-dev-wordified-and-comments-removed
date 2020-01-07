@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsXULElement
 .
 h

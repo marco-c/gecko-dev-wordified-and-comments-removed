@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

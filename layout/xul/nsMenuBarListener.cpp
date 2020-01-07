@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

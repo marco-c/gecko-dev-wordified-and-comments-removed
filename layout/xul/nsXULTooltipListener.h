@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

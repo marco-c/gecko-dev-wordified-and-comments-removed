@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIBoxObject
 .
 h

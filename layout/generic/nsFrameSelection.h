@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 WordMovementType
 .
 h
