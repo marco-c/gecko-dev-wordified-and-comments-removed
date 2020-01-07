@@ -634,7 +634,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 =
 =
 nullptr

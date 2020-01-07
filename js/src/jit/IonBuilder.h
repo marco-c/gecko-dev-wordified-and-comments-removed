@@ -168,9 +168,9 @@ IonBuilder
 JSContext
 *
 analysisContext
-CompileCompartment
+CompileRealm
 *
-comp
+realm
 const
 JitCompileOptions
 &
@@ -6167,7 +6167,7 @@ names
 )
 {
 return
-compartment
+realm
 -
 >
 runtime

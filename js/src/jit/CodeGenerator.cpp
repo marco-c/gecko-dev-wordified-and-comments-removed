@@ -13469,7 +13469,7 @@ jitRealm
 gen
 -
 >
-compartment
+realm
 -
 >
 jitRealm
@@ -14295,7 +14295,7 @@ jitRealm
 gen
 -
 >
-compartment
+realm
 -
 >
 jitRealm
@@ -15021,7 +15021,7 @@ jitRealm
 gen
 -
 >
-compartment
+realm
 -
 >
 jitRealm
@@ -24863,7 +24863,7 @@ if
 gen
 -
 >
-compartment
+realm
 -
 >
 maybeGlobal
@@ -24883,7 +24883,7 @@ AbsoluteAddress
 gen
 -
 >
-compartment
+realm
 -
 >
 addressOfGlobalWriteBarriered
@@ -33248,7 +33248,7 @@ bailAfterAddr
 gen
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -50060,7 +50060,7 @@ jitRealm
 gen
 -
 >
-compartment
+realm
 -
 >
 jitRealm
@@ -63693,7 +63693,7 @@ jr
 gen
 -
 >
-compartment
+realm
 -
 >
 jitRealm
@@ -82996,7 +82996,7 @@ rng
 gen
 -
 >
-compartment
+realm
 -
 >
 addressOfRandomNumberGenerator

@@ -669,9 +669,9 @@ JitContext
 CompileRuntime
 *
 rt
-CompileCompartment
+CompileRealm
 *
-comp
+realm
 TempAllocator
 *
 temp
@@ -689,9 +689,9 @@ runtime
 (
 rt
 )
-compartment
+realm
 (
-comp
+realm
 )
 prev_
 (
@@ -746,9 +746,9 @@ runtime
 )
 )
 )
-compartment
+realm
 (
-CompileCompartment
+CompileRealm
 :
 :
 get
@@ -756,7 +756,7 @@ get
 cx
 -
 >
-compartment
+realm
 (
 )
 )
@@ -11125,7 +11125,7 @@ JSContext
 *
 )
 nullptr
-CompileCompartment
+CompileRealm
 :
 :
 get
@@ -11133,7 +11133,7 @@ get
 cx
 -
 >
-compartment
+realm
 (
 )
 )

@@ -4590,7 +4590,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 hasAllocationMetadataBuilder
@@ -4700,7 +4700,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -4867,7 +4867,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -5208,7 +5208,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -5705,7 +5705,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone

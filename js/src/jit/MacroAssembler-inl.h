@@ -3122,7 +3122,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone

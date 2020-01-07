@@ -23334,7 +23334,7 @@ IonBuilder
 builder
 (
 cx
-CompileCompartment
+CompileRealm
 :
 :
 get
@@ -23342,7 +23342,7 @@ get
 cx
 -
 >
-compartment
+realm
 (
 )
 )
@@ -24628,7 +24628,7 @@ IonBuilder
 builder
 (
 nullptr
-CompileCompartment
+CompileRealm
 :
 :
 get
@@ -24636,7 +24636,7 @@ get
 cx
 -
 >
-compartment
+realm
 (
 )
 )

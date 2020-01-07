@@ -148,7 +148,7 @@ mir
 (
 static_cast
 <
-CompileCompartment
+CompileRealm
 *
 >
 (

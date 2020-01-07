@@ -191,9 +191,9 @@ JitContext
 CompileRuntime
 *
 rt
-CompileCompartment
+CompileRealm
 *
-comp
+realm
 TempAllocator
 *
 temp
@@ -228,9 +228,9 @@ CompileRuntime
 *
 runtime
 ;
-CompileCompartment
+CompileRealm
 *
-compartment
+realm
 ;
 int
 getNextAssemblerId
