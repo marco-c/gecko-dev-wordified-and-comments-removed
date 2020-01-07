@@ -4534,10 +4534,6 @@ array
 /
 }
 ;
-WebGL2RenderingContextBase
-implements
-WebGLRenderingContextBase
-;
 [
 Pref
 =
@@ -4553,6 +4549,10 @@ interface
 WebGL2RenderingContext
 {
 }
+;
+WebGL2RenderingContext
+implements
+WebGLRenderingContextBase
 ;
 WebGL2RenderingContext
 implements

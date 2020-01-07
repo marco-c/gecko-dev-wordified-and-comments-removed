@@ -36092,12 +36092,6 @@ operation
 isSetter
 (
 )
-or
-operation
-.
-isCreator
-(
-)
 :
             
 argument
