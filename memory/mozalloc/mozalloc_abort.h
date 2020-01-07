@@ -22,6 +22,10 @@ Types
 .
 h
 "
+extern
+"
+C
+"
 MFBT_API
 #
 if
