@@ -324,18 +324,6 @@ host
 "
 :
 "
-web
--
-platform
-.
-test
-"
-            
-"
-host_ip
-"
-:
-"
 127
 .
 0
@@ -343,6 +331,18 @@ host_ip
 0
 .
 1
+"
+            
+"
+external_host
+"
+:
+"
+web
+-
+platform
+.
+test
 "
             
 "
