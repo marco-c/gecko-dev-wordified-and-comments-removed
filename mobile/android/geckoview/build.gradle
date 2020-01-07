@@ -1755,12 +1755,6 @@ message
 }
 as
 StandardOutputListener
-kotlinOptions
-{
-allWarningsAsErrors
-=
-true
-}
 doFirst
 {
 logging
