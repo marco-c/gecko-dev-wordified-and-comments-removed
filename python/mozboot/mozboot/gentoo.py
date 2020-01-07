@@ -93,7 +93,7 @@ git
 mercurial
 '
 '
-node
+nodejs
 '
 ]
 )
