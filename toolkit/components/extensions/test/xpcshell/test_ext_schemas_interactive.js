@@ -391,6 +391,9 @@ ExtensionTestUtils
 loadExtension
 (
 {
+isPrivileged
+:
+true
 background
 (
 )
@@ -621,6 +624,9 @@ ExtensionTestUtils
 loadExtension
 (
 {
+isPrivileged
+:
+true
 background
 (
 )
