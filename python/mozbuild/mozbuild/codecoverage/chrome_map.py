@@ -383,6 +383,7 @@ def
 generate_pp_info
 (
 path
+topsrcdir
 )
 :
     
@@ -495,6 +496,16 @@ m
 .
 groups
 (
+)
+                
+inc_source
+=
+mozpath
+.
+relpath
+(
+inc_source
+topsrcdir
 )
                 
 pp_start
@@ -766,6 +777,9 @@ pp_info
 generate_pp_info
 (
 obj_path
+obj
+.
+topsrcdir
 )
                 
 else
@@ -782,9 +796,17 @@ _install_mapping
 dest
 ]
 =
+mozpath
+.
+relpath
+(
 f
 .
 full_path
+obj
+.
+topsrcdir
+)
 pp_info
     
 def
