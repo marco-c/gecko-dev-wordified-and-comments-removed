@@ -11647,7 +11647,7 @@ added
 "
 )
 ;
-NS_PRECONDITION
+NS_ASSERTION
 (
 !
 (

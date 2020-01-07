@@ -153,7 +153,7 @@ badly
 "
 )
 ;
-NS_PRECONDITION
+NS_ASSERTION
 (
 !
 aFrame
