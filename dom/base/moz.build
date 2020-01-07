@@ -1040,6 +1040,11 @@ MessageSender
 h
 '
 '
+MozQueryInterface
+.
+h
+'
+'
 NameSpaceConstants
 .
 h
@@ -1423,6 +1428,11 @@ cpp
 '
 '
 MessageSender
+.
+cpp
+'
+'
+MozQueryInterface
 .
 cpp
 '
