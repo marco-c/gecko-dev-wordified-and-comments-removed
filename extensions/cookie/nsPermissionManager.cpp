@@ -552,6 +552,9 @@ image
 "
 manifest
 "
+"
+cookie
+"
 }
 ;
 static
