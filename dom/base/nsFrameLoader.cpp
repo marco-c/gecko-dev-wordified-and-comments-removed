@@ -3542,6 +3542,14 @@ nsHTMLDocument
 htmlDoc
 =
 doc
+&
+&
+doc
+-
+>
+IsHTMLOrXHTML
+(
+)
 ?
 doc
 -

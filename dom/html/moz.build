@@ -216,6 +216,11 @@ nsHTMLDNSPrefetch
 h
 '
 '
+nsHTMLDocument
+.
+h
+'
+'
 nsIConstraintValidation
 .
 h
