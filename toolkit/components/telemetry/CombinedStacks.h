@@ -117,13 +117,6 @@ SizeOfExcludingThis
 )
 const
 ;
-void
-RemoveStack
-(
-unsigned
-aIndex
-)
-;
 #
 if
 defined
