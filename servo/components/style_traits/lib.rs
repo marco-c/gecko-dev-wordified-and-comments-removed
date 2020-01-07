@@ -974,6 +974,10 @@ ALLOW_ALL_NUMERIC_VALUES
 impl
 ParsingMode
 {
+#
+[
+inline
+]
 pub
 fn
 allows_unitless_lengths
@@ -995,6 +999,10 @@ ParsingMode
 ALLOW_UNITLESS_LENGTH
 )
 }
+#
+[
+inline
+]
 pub
 fn
 allows_all_numeric_values
