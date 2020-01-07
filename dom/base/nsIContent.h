@@ -330,7 +330,6 @@ NODE_IS_NATIVE_ANONYMOUS
 )
 ;
 }
-virtual
 nsIContent
 *
 FindFirstNonChromeOnlyAccessContent
@@ -604,7 +603,6 @@ IsInHTMLDocument
 )
 const
 ;
-virtual
 bool
 IsInChromeDocument
 (
