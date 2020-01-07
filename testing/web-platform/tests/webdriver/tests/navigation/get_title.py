@@ -1,7 +1,3 @@
-import
-pytest
-import
-time
 from
 tests
 .
@@ -149,6 +145,7 @@ capabilities
 "
 :
 {
+        
 "
 alwaysMatch
 "
@@ -254,8 +251,7 @@ session
 dismiss1
 "
 )
-=
-=
+is
 None
     
 expected_title
@@ -323,8 +319,7 @@ session
 dismiss2
 "
 )
-=
-=
+is
 False
     
 expected_title
@@ -392,8 +387,7 @@ session
 dismiss3
 "
 )
-=
-=
+is
 None
 def
 test_title_handle_prompt_accept
@@ -414,6 +408,7 @@ capabilities
 "
 :
 {
+        
 "
 alwaysMatch
 "
@@ -519,8 +514,7 @@ session
 accept1
 "
 )
-=
-=
+is
 None
     
 expected_title
@@ -588,8 +582,7 @@ session
 accept2
 "
 )
-=
-=
+is
 True
     
 expected_title
@@ -756,8 +749,7 @@ session
 dismiss1
 "
 )
-=
-=
+is
 None
     
 create_dialog
@@ -814,8 +806,7 @@ session
 dismiss2
 "
 )
-=
-=
+is
 False
     
 create_dialog
@@ -872,8 +863,7 @@ session
 dismiss3
 "
 )
-=
-=
+is
 None
 def
 test_title_from_top_context
