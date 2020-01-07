@@ -122,8 +122,10 @@ UPDATE_CONTENT_MODEL
 true
 )
 ;
+RefPtr
+<
 CharacterData
-*
+>
 clone
 =
 CloneDataNode
@@ -158,6 +160,10 @@ Text
 >
 (
 clone
+.
+get
+(
+)
 )
 ;
 newContent

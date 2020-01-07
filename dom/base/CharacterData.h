@@ -633,9 +633,9 @@ aPreallocateChildren
 const
 override
 {
-nsCOMPtr
+RefPtr
 <
-nsINode
+CharacterData
 >
 result
 =
@@ -865,8 +865,10 @@ nullptr
 )
 ;
 virtual
+already_AddRefed
+<
 CharacterData
-*
+>
 CloneDataNode
 (
 dom

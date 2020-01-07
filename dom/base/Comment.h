@@ -144,8 +144,10 @@ const
 override
 ;
 virtual
+already_AddRefed
+<
 CharacterData
-*
+>
 CloneDataNode
 (
 mozilla

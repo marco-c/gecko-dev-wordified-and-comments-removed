@@ -108,8 +108,10 @@ eDATA_NODE
 )
 ;
 }
+already_AddRefed
+<
 CharacterData
-*
+>
 CDATASection
 :
 :
@@ -143,8 +145,10 @@ ni
 =
 aNodeInfo
 ;
+RefPtr
+<
 CDATASection
-*
+>
 it
 =
 new
@@ -159,9 +163,6 @@ forget
 ;
 if
 (
-it
-&
-&
 aCloneText
 )
 {
@@ -175,6 +176,10 @@ mText
 }
 return
 it
+.
+forget
+(
+)
 ;
 }
 #
