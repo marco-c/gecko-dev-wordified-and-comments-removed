@@ -63,10 +63,7 @@ use
 util
 :
 :
-{
 from_unix_result
-to_io_err
-}
 ;
 use
 u2ftypes
@@ -136,11 +133,6 @@ path
 as_bytes
 (
 )
-)
-.
-map_err
-(
-to_io_err
 )
 ?
 ;
