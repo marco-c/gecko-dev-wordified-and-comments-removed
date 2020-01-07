@@ -81,6 +81,7 @@ DocumentWalker
 (
 node
 rootWin
+{
 whatToShow
 =
 nodeFilterConstants
@@ -92,6 +93,10 @@ standardTreeWalkerFilter
 skipTo
 =
 SKIP_TO_PARENT
+}
+=
+{
+}
 )
 {
 if
