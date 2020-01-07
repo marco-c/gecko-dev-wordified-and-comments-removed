@@ -246,10 +246,6 @@ mRootOfClosedTree
 (
 false
 )
-mItemInShadowTree
-(
-false
-)
 mParentIsSlotInClosedTree
 (
 false
@@ -318,10 +314,6 @@ mWantsPreHandleEvent
 false
 ;
 mRootOfClosedTree
-=
-false
-;
-mItemInShadowTree
 =
 false
 ;
@@ -439,9 +431,6 @@ mWantsPreHandleEvent
 ;
 bool
 mRootOfClosedTree
-;
-bool
-mItemInShadowTree
 ;
 bool
 mParentIsSlotInClosedTree
