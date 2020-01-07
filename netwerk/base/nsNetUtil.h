@@ -2642,6 +2642,10 @@ aChannel
 uint32_t
 NS_GetDefaultReferrerPolicy
 (
+bool
+privateBrowsing
+=
+false
 )
 ;
 namespace
