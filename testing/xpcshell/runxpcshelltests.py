@@ -10495,6 +10495,11 @@ log
 suite_start
 (
 tests_by_manifest
+name
+=
+'
+xpcshell
+'
 )
         
 while

@@ -6591,6 +6591,14 @@ suite_start
 (
 tests_by_group
                                 
+name
+=
+'
+marionette
+-
+test
+'
+                                
 version_info
 =
 self

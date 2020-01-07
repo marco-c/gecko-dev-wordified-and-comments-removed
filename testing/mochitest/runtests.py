@@ -9181,6 +9181,21 @@ suite_start
 self
 .
 tests_by_manifest
+name
+=
+'
+mochitest
+-
+{
+}
+'
+.
+format
+(
+self
+.
+flavor
+)
 )
         
 for
