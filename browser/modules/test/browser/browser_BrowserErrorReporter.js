@@ -22,17 +22,6 @@ jsm
 this
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 Services
 .
 scriptloader
