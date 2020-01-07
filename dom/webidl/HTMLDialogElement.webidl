@@ -169,6 +169,7 @@ dialog_element
 .
 enabled
 "
+HTMLConstructor
 ]
 interface
 HTMLDialogElement
