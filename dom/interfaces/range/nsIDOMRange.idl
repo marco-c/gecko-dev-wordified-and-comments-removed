@@ -232,11 +232,6 @@ nsIDOMNode
 newParent
 )
 ;
-DOMString
-toString
-(
-)
-;
 void
 detach
 (

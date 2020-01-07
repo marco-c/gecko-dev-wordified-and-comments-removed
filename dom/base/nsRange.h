@@ -1193,6 +1193,17 @@ aErr
 )
 ;
 void
+ToString
+(
+nsAString
+&
+aReturn
+ErrorResult
+&
+aErr
+)
+;
+void
 CollapseJS
 (
 bool

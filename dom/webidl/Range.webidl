@@ -528,6 +528,9 @@ Node
 node
 )
 ;
+[
+Throws
+]
 stringifier
 ;
 }
