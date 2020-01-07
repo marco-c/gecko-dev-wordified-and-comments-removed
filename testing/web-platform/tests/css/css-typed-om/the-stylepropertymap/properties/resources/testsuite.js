@@ -1886,6 +1886,10 @@ testCase
 .
 syntax
 .
+toLowerCase
+(
+)
+.
 match
 (
 /
