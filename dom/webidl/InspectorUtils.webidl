@@ -180,6 +180,13 @@ CSSRule
 rule
 )
 ;
+boolean
+hasRulesModifiedByCSSOM
+(
+CSSStyleSheet
+sheet
+)
+;
 [
 NewObject
 ]
