@@ -908,6 +908,15 @@ size_t
 n
 )
 {
+auto
+protectLast
+=
+[
+&
+]
+(
+)
+{
 if
 (
 !
@@ -931,6 +940,8 @@ Loc
 :
 Reserved
 )
+;
+}
 ;
 if
 (
@@ -957,6 +968,10 @@ n
 )
 )
 {
+protectLast
+(
+)
+;
 chunks_
 .
 append
@@ -1083,6 +1098,10 @@ get
 )
 )
 ;
+protectLast
+(
+)
+;
 chunks_
 .
 append
@@ -1151,6 +1170,10 @@ newChunk
 -
 >
 computedSizeOfIncludingThis
+(
+)
+;
+protectLast
 (
 )
 ;
