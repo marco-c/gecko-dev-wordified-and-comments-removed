@@ -73,7 +73,7 @@ action
 "
 store
 "
-        
+                    
 metavar
 =
 "
@@ -82,7 +82,7 @@ path
 default
 =
 None
-        
+                    
 help
 =
 "

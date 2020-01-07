@@ -60,7 +60,7 @@ metavar
 "
 mode
 "
-        
+                     
 action
 =
 '
@@ -74,7 +74,7 @@ pastebin
 default
 =
 None
-        
+                     
 choices
 =
 [
@@ -85,7 +85,7 @@ failed
 all
 '
 ]
-        
+                     
 help
 =
 "

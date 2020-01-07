@@ -40,10 +40,11 @@ hookimpl
 from
 _pytest
 .
-runner
+outcomes
 import
 fail
 skip
+xfail
 from
 _pytest
 .
@@ -59,7 +60,6 @@ _pytest
 skipping
 import
 MarkEvaluator
-xfail
 def
 pytest_pycollect_makeitem
 (
@@ -695,7 +695,7 @@ try
 try
 :
                     
-l
+values
 =
 traceback
 .
@@ -705,7 +705,7 @@ format_exception
 rawexcinfo
 )
                     
-l
+values
 .
 insert
 (
@@ -717,7 +717,7 @@ Incompatible
 Exception
 Representation
 "
-                                
+                                  
 "
 displaying
 natively
@@ -736,7 +736,7 @@ fail
 .
 join
 (
-l
+values
 )
 pytrace
 =
@@ -1025,7 +1025,7 @@ __unittest_skip__
 False
 )
 or
-            
+                
 getattr
 (
 testMethod
@@ -1351,7 +1351,7 @@ None
 exc_tb
 =
 None
-            
+                     
 captureVars
 =
 None
@@ -1409,7 +1409,7 @@ self
 exc_value
 exc_type
 exc_tb
-                    
+                                
 captureVars
 =
 captureVars

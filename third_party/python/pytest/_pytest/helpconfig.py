@@ -29,6 +29,7 @@ import
 PrintHelp
 import
 os
+import
 sys
 from
 argparse
@@ -246,7 +247,7 @@ action
 "
 store_true
 "
-            
+                    
 help
 =
 "
@@ -282,7 +283,7 @@ dest
 "
 help
 "
-            
+                     
 help
 =
 "
@@ -317,13 +318,13 @@ default
 =
 [
 ]
-               
+                     
 metavar
 =
 "
 name
 "
-               
+                     
 help
 =
 "
@@ -339,7 +340,7 @@ allowed
 )
 .
 "
-                    
+                     
 "
 To
 avoid
@@ -356,7 +357,7 @@ e
 g
 .
 "
-                    
+                     
 "
 no
 :
@@ -381,7 +382,7 @@ trace
 -
 config
 '
-               
+                    
 action
 =
 "
@@ -390,7 +391,7 @@ store_true
 default
 =
 False
-               
+                    
 help
 =
 "
@@ -414,7 +415,7 @@ addoption
 -
 debug
 '
-               
+                    
 action
 =
 "
@@ -428,7 +429,7 @@ debug
 default
 =
 False
-               
+                    
 help
 =
 "
@@ -577,7 +578,7 @@ py
 %
 s
 "
-                
+                        
 "
 python
 -
@@ -600,14 +601,14 @@ n
 "
 %
 (
-            
+                            
 pytest
 .
 __version__
 py
 .
 __version__
-            
+                            
 "
 .
 "
@@ -622,7 +623,7 @@ sys
 version_info
 )
 )
-            
+                            
 os
 .
 getcwd
@@ -782,7 +783,7 @@ s
 n
 "
 %
-            
+                         
 (
 pytest
 .
@@ -1380,7 +1381,7 @@ pylib
 s
 "
 %
-            
+                     
 (
 pytest
 .

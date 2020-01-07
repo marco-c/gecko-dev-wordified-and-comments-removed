@@ -43,10 +43,12 @@ MarkDecorator
 from
 _pytest
 .
-runner
+outcomes
 import
 fail
 skip
+xfail
+TEST_OUTCOME
 def
 pytest_addoption
 (
@@ -74,7 +76,7 @@ addoption
 -
 runxfail
 '
-           
+                    
 action
 =
 "
@@ -88,7 +90,7 @@ runxfail
 default
 =
 False
-           
+                    
 help
 =
 "
@@ -205,7 +207,9 @@ nop
 .
 Exception
 =
-XFailed
+xfail
+.
+Exception
         
 setattr
 (
@@ -223,7 +227,7 @@ addinivalue_line
 "
 markers
 "
-        
+                            
 "
 skip
 (
@@ -243,7 +247,7 @@ optional
 reason
 .
 "
-        
+                            
 "
 Example
 :
@@ -265,12 +269,12 @@ this
 skips
 the
 "
-        
+                            
 "
 test
 .
 "
-    
+                            
 )
     
 config
@@ -280,7 +284,7 @@ addinivalue_line
 "
 markers
 "
-        
+                            
 "
 skipif
 (
@@ -298,7 +302,7 @@ eval
 condition
 )
 "
-        
+                            
 "
 results
 in
@@ -311,7 +315,7 @@ happens
 within
 the
 "
-        
+                            
 "
 module
 global
@@ -335,7 +339,7 @@ win32
 '
 )
 "
-        
+                            
 "
 skips
 the
@@ -350,7 +354,7 @@ platform
 .
 see
 "
-        
+                            
 "
 http
 :
@@ -366,7 +370,7 @@ skipping
 .
 html
 "
-    
+                            
 )
     
 config
@@ -376,7 +380,7 @@ addinivalue_line
 "
 markers
 "
-        
+                            
 "
 xfail
 (
@@ -396,7 +400,7 @@ False
 )
 :
 "
-        
+                            
 "
 mark
 the
@@ -412,7 +416,7 @@ eval
 condition
 )
 "
-        
+                            
 "
 has
 a
@@ -427,7 +431,7 @@ for
 better
 reporting
 "
-        
+                            
 "
 and
 run
@@ -447,7 +451,7 @@ test
 function
 .
 "
-        
+                            
 "
 If
 only
@@ -464,7 +468,7 @@ list
 them
 in
 "
-        
+                            
 "
 raises
 and
@@ -481,7 +485,7 @@ be
 reported
 as
 "
-        
+                            
 "
 a
 true
@@ -502,77 +506,8 @@ skipping
 .
 html
 "
-    
+                            
 )
-class
-XFailed
-(
-fail
-.
-Exception
-)
-:
-    
-"
-"
-"
-raised
-from
-an
-explicit
-call
-to
-pytest
-.
-xfail
-(
-)
-"
-"
-"
-def
-xfail
-(
-reason
-=
-"
-"
-)
-:
-    
-"
-"
-"
-xfail
-an
-executing
-test
-or
-setup
-functions
-with
-the
-given
-reason
-.
-"
-"
-"
-    
-__tracebackhide__
-=
-True
-    
-raise
-XFailed
-(
-reason
-)
-xfail
-.
-Exception
-=
-XFailed
 class
 MarkEvaluator
 :
@@ -709,7 +644,7 @@ _istrue
 )
         
 except
-Exception
+TEST_OUTCOME
 :
             
 self
@@ -1822,7 +1757,7 @@ wasvalid
 )
 and
 \
-        
+            
 evalxfail
 .
 istrue
@@ -2590,7 +2525,7 @@ append
 event
 )
     
-l
+values
 =
 [
 ]
@@ -2606,7 +2541,7 @@ items
 )
 :
         
-l
+values
 .
 append
 (
@@ -2621,7 +2556,7 @@ key
 )
     
 return
-l
+values
 def
 show_skipped
 (
@@ -2719,6 +2654,8 @@ s
 num
 fspath
 lineno
++
+1
 reason
 )
 )

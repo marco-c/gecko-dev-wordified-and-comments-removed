@@ -76,6 +76,17 @@ attrs
 .
 0
 "
+pytest
+=
+"
+=
+=
+3
+.
+2
+.
+5
+"
 [
 requires
 ]

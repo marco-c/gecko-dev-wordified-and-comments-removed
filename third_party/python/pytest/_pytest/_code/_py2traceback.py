@@ -136,7 +136,7 @@ types
 InstanceType
 )
 or
-        
+            
 etype
 is
 None

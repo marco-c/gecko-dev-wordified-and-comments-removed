@@ -307,7 +307,7 @@ raw_lines
 ]
     
 for
-l
+values
 in
 raw_lines
 [
@@ -317,9 +317,9 @@ raw_lines
 :
         
 if
-l
+values
 and
-l
+values
 [
 0
 ]
@@ -344,7 +344,7 @@ lines
 .
 append
 (
-l
+values
 )
         
 else
@@ -363,7 +363,7 @@ lines
 n
 '
 +
-l
+values
     
 return
 lines
@@ -814,11 +814,14 @@ right_repr
 )
 )
     
+def
 issequence
-=
-lambda
+(
 x
+)
 :
+        
+return
 (
 isinstance
 (
@@ -830,7 +833,6 @@ Sequence
 )
 )
 and
-                            
 not
 isinstance
 (
@@ -839,33 +841,42 @@ basestring
 )
 )
     
+def
 istext
-=
-lambda
+(
 x
+)
 :
+        
+return
 isinstance
 (
 x
 basestring
 )
     
+def
 isdict
-=
-lambda
+(
 x
+)
 :
+        
+return
 isinstance
 (
 x
 dict
 )
     
+def
 isset
-=
-lambda
+(
 x
+)
 :
+        
+return
 isinstance
 (
 x

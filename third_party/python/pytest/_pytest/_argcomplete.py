@@ -616,6 +616,9 @@ prefix
 :
             
 if
+not
+prefix
+or
 prefix
 [
 -
@@ -753,6 +756,9 @@ argcomplete
 autocomplete
 (
 parser
+always_complete_options
+=
+False
 )
 else
 :
@@ -763,6 +769,7 @@ try_argcomplete
 parser
 )
 :
+        
 pass
     
 filescompleter

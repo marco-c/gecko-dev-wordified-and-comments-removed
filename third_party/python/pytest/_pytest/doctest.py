@@ -99,7 +99,7 @@ flags
 for
 doctests
 '
-        
+                  
 type
 =
 "
@@ -159,7 +159,7 @@ doctest
 -
 modules
 "
-        
+                    
 action
 =
 "
@@ -168,7 +168,7 @@ store_true
 default
 =
 False
-        
+                    
 help
 =
 "
@@ -180,7 +180,7 @@ all
 py
 modules
 "
-        
+                    
 dest
 =
 "
@@ -199,7 +199,7 @@ doctest
 -
 report
 "
-        
+                    
 type
 =
 str
@@ -210,7 +210,7 @@ default
 "
 udiff
 "
-        
+                    
 help
 =
 "
@@ -224,11 +224,11 @@ on
 doctest
 failure
 "
-        
+                    
 choices
 =
 DOCTEST_REPORT_CHOICES
-        
+                    
 dest
 =
 "
@@ -247,7 +247,7 @@ doctest
 -
 glob
 "
-        
+                    
 action
 =
 "
@@ -262,7 +262,7 @@ metavar
 "
 pat
 "
-        
+                    
 help
 =
 "
@@ -277,7 +277,7 @@ test
 .
 txt
 "
-        
+                    
 dest
 =
 "
@@ -300,7 +300,7 @@ import
 -
 errors
 "
-        
+                    
 action
 =
 "
@@ -309,7 +309,7 @@ store_true
 default
 =
 False
-        
+                    
 help
 =
 "
@@ -317,7 +317,7 @@ ignore
 doctest
 ImportErrors
 "
-        
+                    
 dest
 =
 "
@@ -855,11 +855,15 @@ lines
 =
 lines
 [
+max
+(
 example
 .
 lineno
 -
 9
+0
+)
 :
 example
 .
@@ -955,7 +959,7 @@ checker
 output_difference
 (
 example
-                        
+                                                   
 doctestfailure
 .
 got
@@ -996,7 +1000,7 @@ EXCEPTION
 s
 "
 %
-                            
+                          
 repr
 (
 inner_excinfo
@@ -1053,7 +1057,11 @@ return
 self
 .
 fspath
-None
+self
+.
+dtest
+.
+lineno
 "
 [
 doctest

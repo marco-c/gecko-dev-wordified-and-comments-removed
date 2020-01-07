@@ -26,15 +26,6 @@ licensed
 "
 "
 "
-__version__
-=
-"
-0
-.
-2
-.
-dev2
-"
 __all__
 =
 [
@@ -202,6 +193,7 @@ self
 .
 name
 key
+                               
 convert
 =
 convert

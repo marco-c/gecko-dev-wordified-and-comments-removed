@@ -18,6 +18,8 @@ assertion
 import
 BuiltinAssertionError
 _format_explanation
+import
+types
 passthroughex
 =
 py
@@ -3221,10 +3223,6 @@ if
 isinstance
 (
 frame
-py
-.
-std
-.
 types
 .
 FrameType
