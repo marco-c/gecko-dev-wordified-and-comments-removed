@@ -211,6 +211,8 @@ aHostURI
 bool
 aIsForeign
 bool
+aIsTrackingResource
+bool
 aIsSafeTopLevelNav
 bool
 aIsSameSiteForeign
@@ -231,6 +233,8 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsTrackingResource
 bool
 aIsSafeTopLevelNav
 bool

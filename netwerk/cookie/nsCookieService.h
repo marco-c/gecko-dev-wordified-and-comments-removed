@@ -912,6 +912,8 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsTrackingResource
 const
 char
 *
@@ -943,6 +945,8 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsTrackingResource
 bool
 aIsSafeTopLevelNav
 bool
@@ -1132,6 +1136,8 @@ aHostURI
 bool
 aIsForeign
 bool
+aIsTrackingResource
+bool
 aIsSafeTopLevelNav
 bool
 aIsTopLevelForeign
@@ -1175,6 +1181,8 @@ nsIURI
 aHostURI
 bool
 aIsForeign
+bool
+aIsTrackingResource
 nsDependentCString
 &
 aCookieHeader

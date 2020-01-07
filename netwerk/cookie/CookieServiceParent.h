@@ -135,6 +135,10 @@ aIsForeign
 const
 bool
 &
+aIsTrackingResource
+const
+bool
+&
 aIsSafeTopLevelNav
 const
 bool
@@ -173,6 +177,10 @@ bool
 &
 aIsForeign
 const
+bool
+&
+aIsTrackingResource
+const
 nsCString
 &
 aCookieString
@@ -209,6 +217,10 @@ const
 bool
 &
 aIsForeign
+const
+bool
+&
+aIsTackingResource
 const
 bool
 &
