@@ -1567,7 +1567,7 @@ False
             
 self
 .
-animation_type
+animation_value_type
 =
 None
         
