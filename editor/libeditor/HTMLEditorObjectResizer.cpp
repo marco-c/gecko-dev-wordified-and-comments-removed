@@ -174,13 +174,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -2358,7 +2351,7 @@ int32_t
 aClientX
 int32_t
 aClientY
-nsIDOMElement
+Element
 *
 aTarget
 )

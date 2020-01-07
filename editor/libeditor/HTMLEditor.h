@@ -226,9 +226,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMElement
-;
-class
 nsILinkHandler
 ;
 class
@@ -1527,7 +1524,7 @@ int32_t
 aX
 int32_t
 aY
-nsIDOMElement
+Element
 *
 aTarget
 )

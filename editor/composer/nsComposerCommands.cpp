@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h

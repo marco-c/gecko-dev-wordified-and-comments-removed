@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -254,7 +247,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 element
 =
