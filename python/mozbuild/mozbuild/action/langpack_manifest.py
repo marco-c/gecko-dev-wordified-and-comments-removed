@@ -134,9 +134,8 @@ phase
 =
 repo
 .
-_run_in_client
+_run
 (
-[
 "
 log
 "
@@ -156,7 +155,6 @@ T
 phase
 }
 "
-]
 )
         
 if
@@ -185,16 +183,14 @@ repo_url
 =
 repo
 .
-_run_in_client
+_run
 (
-[
 "
 paths
 "
 "
 default
 "
-]
 )
         
 repo_url
@@ -245,9 +241,8 @@ cs
 =
 repo
 .
-_run_in_client
+_run
 (
-[
 "
 log
 "
@@ -267,7 +262,6 @@ T
 node
 }
 "
-]
 )
     
 url
