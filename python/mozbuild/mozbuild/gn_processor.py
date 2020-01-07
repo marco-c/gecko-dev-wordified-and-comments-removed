@@ -2487,13 +2487,6 @@ list
 )
 :
                     
-input_value
-=
-set
-(
-input_value
-)
-                    
 reference
 [
 k
@@ -2505,10 +2498,22 @@ for
 i
 in
 common_value
+                                    
 if
-i
-in
 input_value
+.
+count
+(
+i
+)
+=
+=
+common_value
+.
+count
+(
+i
+)
 ]
                 
 elif
@@ -2645,13 +2650,6 @@ list
 )
 :
                     
-common_value
-=
-set
-(
-common_value
-)
-                    
 input_attrs
 [
 k
@@ -2663,11 +2661,22 @@ for
 i
 in
 input_value
+                                      
 if
-i
-not
-in
 common_value
+.
+count
+(
+i
+)
+!
+=
+input_value
+.
+count
+(
+i
+)
 ]
                 
 elif
