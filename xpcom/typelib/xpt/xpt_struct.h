@@ -1,9 +1,9 @@
 #
 ifndef
-__xpt_struct_h__
+xpt_struct_h
 #
 define
-__xpt_struct_h__
+xpt_struct_h
 #
 include
 "
@@ -667,6 +667,10 @@ XPT_ANN_LAST
 0x80
 #
 define
+XPT_ANN_PRIVATE
+0x40
+#
+define
 XPT_ANN_IS_LAST
 (
 flags
@@ -676,10 +680,6 @@ flags
 &
 XPT_ANN_LAST
 )
-#
-define
-XPT_ANN_PRIVATE
-0x40
 #
 define
 XPT_ANN_IS_PRIVATE
