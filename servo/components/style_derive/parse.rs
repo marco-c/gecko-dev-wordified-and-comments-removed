@@ -114,6 +114,14 @@ as_ref
 )
 )
 ;
+let
+ident
+=
+&
+variant
+.
+ident
+;
 match_body
 =
 quote
@@ -132,7 +140,7 @@ name
 :
 :
 #
-variant
+ident
 )
 }
 }

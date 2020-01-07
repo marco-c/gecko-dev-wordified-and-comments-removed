@@ -3270,10 +3270,10 @@ FlowFlags
 :
 from_bits
 (
-value
-.
-to_u32
 (
+value
+as
+u32
 )
 <
 <
