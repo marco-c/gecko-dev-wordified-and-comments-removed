@@ -908,7 +908,7 @@ event
 .
 target
 instanceof
-XMLStylesheetProcessingInstruction
+ProcessingInstruction
 )
 {
 return

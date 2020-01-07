@@ -6519,16 +6519,6 @@ true
 name
 :
 "
-XMLStylesheetProcessingInstruction
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 XPathEvaluator
 "
 insecureContext
