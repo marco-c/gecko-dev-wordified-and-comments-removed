@@ -6866,6 +6866,7 @@ aLoadData
 mLoaderPrincipal
 securityFlags
 contentPolicyType
+nullptr
 loadGroup
 nullptr
 nsIChannel
@@ -6902,6 +6903,7 @@ GetSystemPrincipal
 )
 securityFlags
 contentPolicyType
+nullptr
 loadGroup
 nullptr
 nsIChannel

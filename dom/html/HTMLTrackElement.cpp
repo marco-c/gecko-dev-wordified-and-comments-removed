@@ -1575,6 +1575,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_TRACK
+nullptr
 loadGroup
 nullptr
 nsIRequest

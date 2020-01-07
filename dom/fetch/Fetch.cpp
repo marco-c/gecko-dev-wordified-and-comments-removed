@@ -1628,6 +1628,12 @@ workerPrivate
 MainThreadEventTarget
 (
 )
+workerPrivate
+-
+>
+GetPerformanceStorage
+(
+)
 false
 )
 ;
@@ -2226,6 +2232,7 @@ TaskCategory
 :
 Other
 )
+nullptr
 isTrackingFetch
 )
 ;

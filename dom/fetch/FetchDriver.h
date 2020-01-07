@@ -130,6 +130,9 @@ class
 InternalResponse
 ;
 class
+PerformanceStorage
+;
+class
 FetchDriverObserver
 {
 public
@@ -306,6 +309,9 @@ aLoadGroup
 nsIEventTarget
 *
 aMainThreadEventTarget
+PerformanceStorage
+*
+aPerformanceStorage
 bool
 aIsTrackingFetch
 )
@@ -453,6 +459,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mMainThreadEventTarget
+;
+RefPtr
+<
+PerformanceStorage
+>
+mPerformanceStorage
 ;
 SRIMetadata
 mSRIMetadata

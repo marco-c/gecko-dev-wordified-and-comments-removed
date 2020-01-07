@@ -5390,6 +5390,7 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
 aLoadGroup
 )
 ;

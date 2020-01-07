@@ -14413,6 +14413,7 @@ nsIContentPolicy
 :
 TYPE_OBJECT_SUBREQUEST
 nullptr
+nullptr
 listenerPeer
 nsIRequest
 :

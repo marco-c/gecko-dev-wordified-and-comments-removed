@@ -730,6 +730,7 @@ ServiceWorkerDescriptor
 )
 securityFlags
 mPolicyType
+nullptr
 loadGroup
 this
 nsIRequest
