@@ -5167,7 +5167,7 @@ nsSliderFrame
 :
 StartDrag
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

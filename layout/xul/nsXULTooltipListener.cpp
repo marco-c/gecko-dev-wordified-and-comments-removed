@@ -323,7 +323,7 @@ nsXULTooltipListener
 :
 MouseOut
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -394,11 +394,6 @@ targetNode
 do_QueryInterface
 (
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetTarget
@@ -480,7 +475,7 @@ nsXULTooltipListener
 :
 MouseMove
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -497,11 +492,6 @@ MouseEvent
 mouseEvent
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsMouseEvent
@@ -624,11 +614,6 @@ do_QueryInterface
 aEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 GetCurrentTarget
 (
 )
@@ -689,11 +674,6 @@ EventTarget
 eventTarget
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetTarget
