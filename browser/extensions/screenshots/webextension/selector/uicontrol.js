@@ -324,6 +324,7 @@ downloadShot
 (
 selectedPos
 previewDataUrl
+captureType
 )
 ;
 }
@@ -359,6 +360,7 @@ copyShot
 (
 selectedPos
 previewDataUrl
+captureType
 )
 ;
 }
