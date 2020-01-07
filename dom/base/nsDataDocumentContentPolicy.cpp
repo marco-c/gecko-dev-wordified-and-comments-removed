@@ -123,7 +123,7 @@ aDecision
 )
 {
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -136,7 +136,7 @@ nsCOMPtr
 <
 nsISupports
 >
-aRequestingContext
+requestingContext
 =
 aLoadInfo
 -
@@ -147,7 +147,7 @@ GetLoadingContext
 ;
 MOZ_ASSERT
 (
-aContentType
+contentType
 =
 =
 nsContentUtils
@@ -155,7 +155,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-aContentType
+contentType
 )
 "
 We
@@ -193,7 +193,7 @@ node
 =
 do_QueryInterface
 (
-aRequestingContext
+requestingContext
 )
 ;
 if
@@ -223,7 +223,7 @@ window
 =
 do_QueryInterface
 (
-aRequestingContext
+requestingContext
 )
 )
 {
@@ -244,7 +244,7 @@ if
 doc
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -278,7 +278,7 @@ IsStaticDocument
 )
 |
 |
-aContentType
+contentType
 !
 =
 nsIContentPolicy
@@ -444,7 +444,7 @@ else
 if
 (
 (
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -453,7 +453,7 @@ nsIContentPolicy
 TYPE_IMAGE
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -545,7 +545,7 @@ NS_OK
 }
 if
 (
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -554,7 +554,7 @@ nsIContentPolicy
 TYPE_OBJECT
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -563,7 +563,7 @@ nsIContentPolicy
 TYPE_DOCUMENT
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -572,7 +572,7 @@ nsIContentPolicy
 TYPE_SUBDOCUMENT
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -581,7 +581,7 @@ nsIContentPolicy
 TYPE_SCRIPT
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -590,7 +590,7 @@ nsIContentPolicy
 TYPE_XSLT
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -599,7 +599,7 @@ nsIContentPolicy
 TYPE_FETCH
 |
 |
-aContentType
+contentType
 =
 =
 nsIContentPolicy

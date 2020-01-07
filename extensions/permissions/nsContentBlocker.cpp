@@ -653,7 +653,7 @@ aDecision
 )
 {
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -679,7 +679,7 @@ nsCOMPtr
 <
 nsIURI
 >
-aRequestingLocation
+requestingLocation
 ;
 if
 (
@@ -693,14 +693,14 @@ GetURI
 (
 getter_AddRefs
 (
-aRequestingLocation
+requestingLocation
 )
 )
 ;
 }
 MOZ_ASSERT
 (
-aContentType
+contentType
 =
 =
 nsContentUtils
@@ -708,7 +708,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-aContentType
+contentType
 )
 "
 We
@@ -737,7 +737,7 @@ rv
 ;
 if
 (
-aContentType
+contentType
 >
 NUMBER_OF_TYPES
 )
@@ -754,7 +754,7 @@ NS_OK
 ;
 if
 (
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -822,8 +822,8 @@ rv
 TestPermission
 (
 aContentLocation
-aRequestingLocation
-aContentType
+requestingLocation
+contentType
 &
 shouldLoad
 &
@@ -894,7 +894,7 @@ aDecision
 )
 {
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -907,7 +907,7 @@ nsCOMPtr
 <
 nsISupports
 >
-aRequestingContext
+requestingContext
 =
 aLoadInfo
 -
@@ -933,7 +933,7 @@ nsCOMPtr
 <
 nsIURI
 >
-aRequestingLocation
+requestingLocation
 ;
 if
 (
@@ -947,14 +947,14 @@ GetURI
 (
 getter_AddRefs
 (
-aRequestingLocation
+requestingLocation
 )
 )
 ;
 }
 MOZ_ASSERT
 (
-aContentType
+contentType
 =
 =
 nsContentUtils
@@ -962,7 +962,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-aContentType
+contentType
 )
 "
 We
@@ -988,7 +988,7 @@ do_QueryInterface
 (
 NS_CP_GetDocShellFromContext
 (
-aRequestingContext
+requestingContext
 )
 )
 ;
@@ -1025,7 +1025,7 @@ NS_OK
 }
 if
 (
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -1052,8 +1052,8 @@ rv
 TestPermission
 (
 aContentLocation
-aRequestingLocation
-aContentType
+requestingLocation
+contentType
 &
 shouldLoad
 &
