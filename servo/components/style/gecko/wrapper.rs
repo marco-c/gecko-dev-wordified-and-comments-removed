@@ -7688,6 +7688,10 @@ is_in_native_anonymous_subtree
 (
 )
 }
+#
+[
+inline
+]
 fn
 implemented_pseudo_element
 (
@@ -7749,6 +7753,10 @@ from_pseudo_type
 pseudo_type
 )
 }
+#
+[
+inline
+]
 fn
 store_children_to_process
 (
