@@ -664,6 +664,16 @@ use
 self
 :
 :
+resolution
+:
+:
+Resolution
+;
+pub
+use
+self
+:
+:
 percentage
 :
 :
@@ -1001,6 +1011,10 @@ position
 pub
 mod
 rect
+;
+pub
+mod
+resolution
 ;
 pub
 mod

@@ -564,6 +564,16 @@ LengthOrNumberRect
 ;
 pub
 use
+self
+:
+:
+resolution
+:
+:
+Resolution
+;
+pub
+use
 super
 :
 :
@@ -982,6 +992,10 @@ position
 pub
 mod
 rect
+;
+pub
+mod
+resolution
 ;
 pub
 mod
