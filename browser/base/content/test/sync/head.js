@@ -151,7 +151,7 @@ Service
 .
 clientsEngine
 "
-lastSync
+isFirstSync
 "
 )
 .
@@ -161,15 +161,8 @@ get
 )
 =
 >
+!
 clientsSynced
-?
-Date
-.
-now
-(
-)
-:
-0
 )
 ;
 sandbox

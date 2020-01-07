@@ -262,10 +262,7 @@ Service
 .
 clientsEngine
 .
-lastSync
-=
-=
-0
+isFirstSync
 )
 ;
 }
