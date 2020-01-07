@@ -545,8 +545,8 @@ SamplerMetadata
 >
 mSamplerMetadataVS
 ;
-bool
-mSamplerMetadataVSDirty
+int
+mNumActiveVSSamplers
 ;
 std
 :
@@ -557,8 +557,8 @@ SamplerMetadata
 >
 mSamplerMetadataPS
 ;
-bool
-mSamplerMetadataPSDirty
+int
+mNumActivePSSamplers
 ;
 std
 :
@@ -569,8 +569,8 @@ SamplerMetadata
 >
 mSamplerMetadataCS
 ;
-bool
-mSamplerMetadataCSDirty
+int
+mNumActiveCSSamplers
 ;
 }
 ;
