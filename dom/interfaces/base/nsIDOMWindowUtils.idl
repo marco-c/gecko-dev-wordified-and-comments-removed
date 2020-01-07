@@ -260,9 +260,6 @@ interface
 nsIDOMNode
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIPreloadedStyleSheet
 ;
 interface
@@ -302,13 +299,16 @@ webidl
 DOMRect
 ;
 webidl
-NodeList
+Element
 ;
 webidl
 EventTarget
 ;
 webidl
 Event
+;
+webidl
+NodeList
 ;
 [
 scriptable
@@ -1161,7 +1161,7 @@ in
 float
 aHeightPx
 in
-nsIDOMElement
+Element
 aElement
 in
 uint32_t
@@ -1391,7 +1391,7 @@ in
 float
 aBottomMargin
 in
-nsIDOMElement
+Element
 aElement
 in
 uint32_t
@@ -1414,7 +1414,7 @@ in
 int32_t
 aHeight
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -3545,7 +3545,7 @@ in
 long
 aModifierFlags
 in
-nsIDOMElement
+Element
 aElement
 [
 optional
@@ -3578,7 +3578,7 @@ in
 long
 aScreenY
 in
-nsIDOMElement
+Element
 aElement
 [
 optional
@@ -3909,7 +3909,7 @@ unsigned
 long
 aAdditionalFlags
 in
-nsIDOMElement
+Element
 aElement
 [
 optional
@@ -5231,7 +5231,7 @@ occurs
 .
 *
 /
-nsIDOMElement
+Element
 elementFromPoint
 (
 in
@@ -5859,7 +5859,7 @@ DOMRect
 getBoundsWithoutFlushing
 (
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -7678,7 +7678,7 @@ void
 remoteFrameFullscreenChanged
 (
 in
-nsIDOMElement
+Element
 aFrameElement
 )
 ;
@@ -8343,7 +8343,7 @@ AString
 getVisitedDependentComputedStyle
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 AString
@@ -9108,7 +9108,7 @@ boundaries
 /
 readonly
 attribute
-nsIDOMElement
+Element
 containerElement
 ;
 [
@@ -9705,7 +9705,7 @@ double
 computeAnimationDistance
 (
 in
-nsIDOMElement
+Element
 element
 in
 AString
@@ -9817,7 +9817,7 @@ AString
 getUnanimatedComputedStyle
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 AString
@@ -9882,7 +9882,7 @@ nsViewID
 getViewId
 (
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -9978,7 +9978,7 @@ boolean
 checkAndClearPaintedState
 (
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -10014,7 +10014,7 @@ boolean
 checkAndClearDisplayListState
 (
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -10079,7 +10079,7 @@ boolean
 isPartOfOpaqueLayer
 (
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -10160,7 +10160,7 @@ count
 )
 ]
 in
-nsIDOMElement
+Element
 aElements
 in
 uint32_t
@@ -11305,7 +11305,7 @@ AString
 getOMTAStyle
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 AString
@@ -11523,7 +11523,7 @@ void
 postRestyleSelfEvent
 (
 in
-nsIDOMElement
+Element
 aElement
 )
 ;
@@ -12449,7 +12449,7 @@ void
 addManuallyManagedState
 (
 in
-nsIDOMElement
+Element
 element
 in
 AString
@@ -12491,7 +12491,7 @@ void
 removeManuallyManagedState
 (
 in
-nsIDOMElement
+Element
 element
 in
 AString

@@ -4321,7 +4321,13 @@ FullScreenStackPop
 nsresult
 RemoteFrameFullscreenChanged
 (
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aFrameElement
 )
