@@ -611,6 +611,12 @@ aOther
 .
 mServiceWorkerDescriptor
 ;
+mServiceWorkerRegistrationDescriptor
+=
+aOther
+.
+mServiceWorkerRegistrationDescriptor
+;
 mLoadFlags
 =
 aOther

@@ -196,9 +196,9 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsAString
+ServiceWorkerRegistrationDescriptor
 &
-aScope
+aDescriptor
 )
 ;
 JSObject
