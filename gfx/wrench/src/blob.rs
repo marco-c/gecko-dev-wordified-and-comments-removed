@@ -379,10 +379,11 @@ DeviceUintRect
 :
 new
 (
-DeviceUintPoint
-:
-:
-origin
+descriptor
+.
+offset
+.
+to_u32
 (
 )
 descriptor

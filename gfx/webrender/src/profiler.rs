@@ -5,6 +5,9 @@ api
 ColorF
 ;
 use
+device
+:
+:
 query
 :
 :
@@ -77,6 +80,9 @@ vec2
 }
 ;
 use
+device
+:
+:
 query
 :
 :
