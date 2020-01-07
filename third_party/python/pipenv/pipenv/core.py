@@ -128,11 +128,17 @@ is_pinned
     
 is_star
     
-TemporaryDirectory
-    
 rmtree
     
 split_argument
+)
+from
+.
+_compat
+import
+(
+    
+TemporaryDirectory
 )
 from
 .
@@ -2805,6 +2811,8 @@ PIPENV_DONT_USE_PYENV
 and
 (
 SESSION_IS_INTERACTIVE
+or
+PIPENV_YES
 )
 :
                 
@@ -2837,7 +2845,7 @@ version_map
 .
 7
 .
-14
+15
 '
                     
 '
@@ -5022,10 +5030,13 @@ long_
 '
 index
 '
+num
+=
+1
 )
             
 dep
-extra_index
+extra_indexes
 =
 split_argument
 (
@@ -5078,7 +5089,7 @@ requirements_dir
                 
 extra_indexes
 =
-extra_index
+extra_indexes
             
 )
             
@@ -5201,10 +5212,13 @@ long_
 '
 index
 '
+num
+=
+1
 )
             
 dep
-extra_index
+extra_indexes
 =
 split_argument
 (
@@ -5253,7 +5267,7 @@ requirements_dir
                 
 extra_indexes
 =
-extra_index
+extra_indexes
             
 )
             
@@ -6399,16 +6413,6 @@ if
 write
 :
         
-project
-.
-destroy_lockfile
-(
-)
-    
-if
-write
-:
-        
 click
 .
 echo
@@ -7326,38 +7330,7 @@ r
 False
 )
     
-pip_freeze
-=
-delegator
-.
-run
-(
-'
-{
-0
-}
-freeze
-'
-.
-format
-(
-escape_grouped_arguments
-(
-which_pip
-(
-allow_global
-=
-system
-)
-)
-)
-)
-.
-out
-    
-for
-dep
-in
+if
 vcs_deps
 :
         
@@ -7592,53 +7565,11 @@ if
 write
 :
         
-with
-open
-(
 project
 .
-lockfile_location
-'
-w
-'
-)
-as
-f
-:
-            
-simplejson
-.
-dump
+write_lockfile
 (
-                
 lockfile
-f
-indent
-=
-4
-separators
-=
-(
-'
-'
-'
-:
-'
-)
-sort_keys
-=
-True
-            
-)
-            
-f
-.
-write
-(
-'
-\
-n
-'
 )
         
 click
@@ -8834,6 +8765,9 @@ if
 system
 or
 allow_global
+and
+not
+PIPENV_VIRTUALENV
 :
             
 click
@@ -11701,8 +11635,15 @@ in
 packages
 :
         
-if
+norm_name
+=
+pep423_name
+(
 package
+)
+        
+if
+norm_name
 in
 updated_packages
 :
@@ -11710,7 +11651,7 @@ updated_packages
 if
 updated_packages
 [
-package
+norm_name
 ]
 !
 =
@@ -11729,7 +11670,7 @@ append
 package
 updated_packages
 [
-package
+norm_name
 ]
 packages
 [
@@ -12692,6 +12633,9 @@ long_
 '
 index
 '
+num
+=
+1
 )
         
 line
@@ -13470,6 +13414,66 @@ err
 err
 =
 True
+)
+            
+if
+'
+setup
+.
+py
+egg_info
+'
+in
+c
+.
+err
+:
+                
+click
+.
+echo
+(
+                    
+"
+This
+is
+likely
+caused
+by
+a
+bug
+in
+{
+0
+}
+.
+"
+                    
+"
+Report
+this
+to
+its
+maintainers
+.
+"
+.
+format
+(
+                        
+crayons
+.
+green
+(
+package_name
+)
+                    
+)
+                    
+err
+=
+True
+                
 )
             
 requirements_directory
@@ -16644,6 +16648,96 @@ False
 )
 :
     
+if
+not
+project
+.
+lockfile_exists
+:
+        
+click
+.
+echo
+(
+            
+'
+{
+0
+}
+:
+Pipfile
+.
+lock
+is
+missing
+!
+You
+need
+to
+run
+{
+1
+}
+first
+.
+'
+.
+format
+(
+                
+crayons
+.
+red
+(
+'
+Error
+'
+bold
+=
+True
+)
+                
+crayons
+.
+red
+(
+'
+pipenv
+lock
+'
+bold
+=
+True
+)
+            
+)
+            
+err
+=
+True
+        
+)
+        
+sys
+.
+exit
+(
+1
+)
+    
+ensure_project
+(
+three
+=
+three
+python
+=
+python
+validate
+=
+False
+)
+    
 requirements_dir
 =
 TemporaryDirectory
@@ -16664,30 +16758,6 @@ pipenv
     
 )
     
-ensure_project
-(
-three
-=
-three
-python
-=
-python
-validate
-=
-False
-)
-    
-concurrent
-=
-(
-not
-sequential
-)
-    
-ensure_lockfile
-(
-)
-    
 do_init
 (
         
@@ -16701,11 +16771,18 @@ verbose
         
 concurrent
 =
-concurrent
+(
+not
+sequential
+)
         
 requirements_dir
 =
 requirements_dir
+        
+ignore_pipfile
+=
+True
     
 )
     

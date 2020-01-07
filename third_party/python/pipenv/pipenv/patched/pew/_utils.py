@@ -39,6 +39,10 @@ ImportError
 :
     
 from
+pipenv
+.
+vendor
+.
 pathlib2
 import
 Path
