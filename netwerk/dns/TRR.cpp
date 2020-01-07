@@ -4488,6 +4488,16 @@ rv
 if
 (
 !
+mDNS
+.
+mAddresses
+.
+getFirst
+(
+)
+&
+&
+!
 mCname
 .
 IsEmpty
