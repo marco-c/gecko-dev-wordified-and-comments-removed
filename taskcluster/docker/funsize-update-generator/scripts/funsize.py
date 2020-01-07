@@ -447,6 +447,19 @@ status_code
 403
 :
         
+log
+.
+info
+(
+"
+Unable
+to
+get
+secret
+key
+"
+)
+        
 return
 {
 }
@@ -462,6 +475,15 @@ r
 .
 json
 (
+)
+.
+get
+(
+'
+secret
+'
+{
+}
 )
 redo
 .
