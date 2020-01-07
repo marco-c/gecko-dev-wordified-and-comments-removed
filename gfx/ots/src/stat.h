@@ -133,7 +133,6 @@ Fixed
 value
 ;
 static
-const
 size_t
 Length
 (
@@ -177,7 +176,6 @@ Fixed
 rangeMaxValue
 ;
 static
-const
 size_t
 Length
 (
@@ -220,7 +218,6 @@ Fixed
 linkedValue
 ;
 static
-const
 size_t
 Length
 (
@@ -276,7 +273,6 @@ AxisValue
 >
 axisValues
 ;
-const
 size_t
 Length
 (

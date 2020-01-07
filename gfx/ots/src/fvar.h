@@ -64,7 +64,6 @@ OTSStream
 out
 )
 ;
-const
 uint16_t
 AxisCount
 (
