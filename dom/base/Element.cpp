@@ -922,7 +922,7 @@ mozilla
 /
 dom
 /
-KeyframeEffect
+KeyframeEffectBinding
 .
 h
 "
@@ -933,7 +933,7 @@ mozilla
 /
 dom
 /
-KeyframeEffectBinding
+KeyframeEffectReadOnly
 .
 h
 "

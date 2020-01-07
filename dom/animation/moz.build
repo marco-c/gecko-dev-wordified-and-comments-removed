@@ -174,11 +174,6 @@ DocumentTimeline
 h
 '
 '
-KeyframeEffect
-.
-h
-'
-'
 KeyframeEffectReadOnly
 .
 h
@@ -337,11 +332,6 @@ cpp
 '
 '
 EffectSet
-.
-cpp
-'
-'
-KeyframeEffect
 .
 cpp
 '

@@ -396,6 +396,17 @@ nsDocument
 IsWebAnimationsEnabled
 "
 RunConstructorInCallerCompartment
+HeaderFile
+=
+"
+mozilla
+/
+dom
+/
+KeyframeEffectReadOnly
+.
+h
+"
 Constructor
 (
 (
