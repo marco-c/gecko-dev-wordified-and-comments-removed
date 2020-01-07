@@ -302,6 +302,9 @@ all
 compareRetainedDisplayLists
 :
 false
+runSlower
+:
+false
 browser
 :
 undefined
