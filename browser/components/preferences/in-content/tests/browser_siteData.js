@@ -955,6 +955,8 @@ TEST_QUOTA_USAGE_URL
 )
 ;
 await
+BrowserTestUtils
+.
 waitForEvent
 (
 gBrowser
@@ -1641,6 +1643,8 @@ TEST_QUOTA_USAGE_URL
 )
 ;
 await
+BrowserTestUtils
+.
 waitForEvent
 (
 gBrowser
