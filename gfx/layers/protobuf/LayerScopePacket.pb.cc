@@ -2892,13 +2892,6 @@ LayersPacket_Layer_LayerType
 LayersPacket_Layer
 :
 :
-TextLayer
-;
-const
-LayersPacket_Layer_LayerType
-LayersPacket_Layer
-:
-:
 RefLayer
 ;
 const

@@ -350,14 +350,6 @@ aRef
 )
 ;
 void
-CreatedTextLayer
-(
-ShadowableLayer
-*
-aRef
-)
-;
-void
 CreatedBorderLayer
 (
 ShadowableLayer

@@ -179,15 +179,6 @@ override
 ;
 already_AddRefed
 <
-TextLayer
->
-CreateTextLayer
-(
-)
-override
-;
-already_AddRefed
-<
 CanvasLayer
 >
 CreateCanvasLayer
