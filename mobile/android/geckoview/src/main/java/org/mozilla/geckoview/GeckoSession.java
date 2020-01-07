@@ -1726,7 +1726,6 @@ GeckoView
 MediaPermission
 "
 }
-true
 )
 {
 Override
