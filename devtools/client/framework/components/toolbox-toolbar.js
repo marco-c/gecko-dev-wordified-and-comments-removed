@@ -292,6 +292,11 @@ PropTypes
 func
 .
 isRequired
+visibleToolboxButtonCount
+:
+PropTypes
+.
+number
 }
 ;
 }
