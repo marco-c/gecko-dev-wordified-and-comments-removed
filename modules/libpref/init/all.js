@@ -43542,6 +43542,6 @@ event
 .
 default_to_passive_touch_listeners
 "
-false
+true
 )
 ;
