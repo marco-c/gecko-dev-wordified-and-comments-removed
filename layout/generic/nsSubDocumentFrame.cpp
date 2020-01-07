@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

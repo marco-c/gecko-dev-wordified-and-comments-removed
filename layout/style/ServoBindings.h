@@ -751,13 +751,6 @@ node
 )
 ;
 bool
-Gecko_FlattenedTreeParentIsParent
-(
-RawGeckoNodeBorrowed
-node
-)
-;
-bool
 Gecko_IsSignificantChild
 (
 RawGeckoNodeBorrowed

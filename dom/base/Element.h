@@ -3712,7 +3712,7 @@ aError
 ;
 ShadowRoot
 *
-FastGetShadowRoot
+GetShadowRoot
 (
 )
 const
