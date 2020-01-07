@@ -177,12 +177,6 @@ mozilla
 :
 PositiveInfinity
 ;
-using
-mozilla
-:
-:
-SpecificNaN
-;
 namespace
 {
 class

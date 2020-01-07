@@ -138,12 +138,6 @@ JS
 AutoCheckCannotGC
 ;
 using
-JS
-:
-:
-GenericNaN
-;
-using
 mozilla
 :
 :

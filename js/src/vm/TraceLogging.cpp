@@ -146,12 +146,6 @@ mozilla
 :
 DebugOnly
 ;
-using
-mozilla
-:
-:
-NativeEndian
-;
 TraceLoggerThreadState
 *
 traceLoggerState

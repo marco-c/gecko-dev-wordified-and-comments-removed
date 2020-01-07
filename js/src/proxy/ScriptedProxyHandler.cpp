@@ -55,12 +55,6 @@ JS
 :
 IsArrayAnswer
 ;
-using
-mozilla
-:
-:
-ArrayLength
-;
 static
 bool
 IsCompatiblePropertyDescriptor

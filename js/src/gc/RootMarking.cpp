@@ -1,13 +1,4 @@
 #
-include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
 ifdef
 MOZ_VALGRIND
 #
@@ -159,12 +150,6 @@ js
 :
 :
 gc
-;
-using
-mozilla
-:
-:
-ArrayEnd
 ;
 using
 JS

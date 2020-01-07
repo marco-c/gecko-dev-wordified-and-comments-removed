@@ -223,12 +223,6 @@ JS
 :
 ToInt32
 ;
-using
-JS
-:
-:
-ToUint32
-;
 static
 NewObjectKind
 DataViewNewObjectKind

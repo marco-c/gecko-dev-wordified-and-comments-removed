@@ -92,12 +92,6 @@ using
 mozilla
 :
 :
-DebugOnly
-;
-using
-mozilla
-:
-:
 IsPowerOfTwo
 ;
 using

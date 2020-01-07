@@ -131,12 +131,6 @@ js
 :
 wasm
 ;
-using
-mozilla
-:
-:
-IsNaN
-;
 size_t
 LinkDataTier
 :

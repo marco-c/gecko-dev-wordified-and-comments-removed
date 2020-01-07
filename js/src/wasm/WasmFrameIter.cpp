@@ -66,12 +66,6 @@ mozilla
 :
 Maybe
 ;
-using
-mozilla
-:
-:
-Swap
-;
 WasmFrameIter
 :
 :

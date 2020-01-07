@@ -363,12 +363,6 @@ using
 mozilla
 :
 :
-DebugOnly
-;
-using
-mozilla
-:
-:
 CheckedInt
 ;
 using

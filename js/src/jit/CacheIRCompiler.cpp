@@ -65,12 +65,6 @@ js
 :
 jit
 ;
-using
-mozilla
-:
-:
-Maybe
-;
 ValueOperand
 CacheRegisterAllocator
 :

@@ -560,12 +560,6 @@ mozilla
 :
 Maybe
 ;
-using
-mozilla
-:
-:
-PodMove
-;
 static
 void
 selfHosting_WarningReporter
