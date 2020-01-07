@@ -32,6 +32,10 @@ malloc_size_of
 ;
 extern
 crate
+nsstring
+;
+extern
+crate
 selectors
 ;
 extern

@@ -1686,6 +1686,15 @@ mozilla
 css
 :
 :
+SheetLoadDataHolder
+"
+"
+mozilla
+:
+:
+css
+:
+:
 SheetParsingMode
 "
 "
@@ -3705,6 +3714,9 @@ LoaderReusableStyleSheets
 "
 "
 SheetLoadData
+"
+"
+SheetLoadDataHolder
 "
 "
 ServoStyleSheet
