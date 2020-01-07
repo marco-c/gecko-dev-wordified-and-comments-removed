@@ -324,6 +324,16 @@ default
 :
 [
 ]
+macosx64
+:
+-
+linux64
+-
+libdmg
+-
+linux64
+-
+hfsplus
 android
 -
 api

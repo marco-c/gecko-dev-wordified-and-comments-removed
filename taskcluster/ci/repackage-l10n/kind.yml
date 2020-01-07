@@ -93,6 +93,14 @@ taskgraph
 .
 transforms
 .
+use_toolchains
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 job
 :
 transforms
@@ -114,6 +122,8 @@ nightly
 l10n
 -
 signing
+-
+toolchain
 only
 -
 for

@@ -85,6 +85,14 @@ taskgraph
 .
 transforms
 .
+use_toolchains
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 repackage_routes
 :
 transforms
@@ -112,6 +120,8 @@ dependencies
 build
 -
 signing
+-
+toolchain
 only
 -
 for
