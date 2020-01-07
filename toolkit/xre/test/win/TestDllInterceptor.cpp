@@ -2716,6 +2716,9 @@ NtQueryFullAttributesFile
 )
 &
 &
+#
+ifndef
+MOZ_ASAN
 TestHook
 (
 TestSetUnhandledExceptionFilter
@@ -2730,6 +2733,8 @@ SetUnhandledExceptionFilter
 )
 &
 &
+#
+endif
 #
 ifdef
 _M_IX86
