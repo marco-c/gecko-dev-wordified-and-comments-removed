@@ -344,6 +344,11 @@ FilePickerParent
 cpp
 '
 '
+MemMapSnapshot
+.
+cpp
+'
+'
 MemoryReportRequest
 .
 cpp
@@ -702,6 +707,14 @@ gfx
 hal
 /
 sandbox
+'
+'
+/
+js
+/
+xpconnect
+/
+loader
 '
 '
 /
