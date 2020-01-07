@@ -95,16 +95,6 @@ mochitest
 *
 "
 "
-server
-/
-tests
-/
-unit
-/
-*
-*
-"
-"
 shared
 /
 heapsnapshot

@@ -738,7 +738,9 @@ init
 (
 )
 ;
-check_except
+Assert
+.
+throws
 (
 (
 )
@@ -748,6 +750,8 @@ check_except
 let
 badActor
 =
+protocol
+.
 ActorClassWithSpec
 (
 {
@@ -755,6 +759,8 @@ ActorClassWithSpec
 {
 missing
 :
+protocol
+.
 preEvent
 (
 "
@@ -775,6 +781,15 @@ void
 badActor
 ;
 }
+/
+Actor
+specification
+must
+have
+a
+typeName
+member
+/
 )
 ;
 protocol
