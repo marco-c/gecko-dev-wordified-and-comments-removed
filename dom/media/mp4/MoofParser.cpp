@@ -5937,14 +5937,6 @@ ReadU32
 )
 )
 ;
-uint8_t
-version
-=
-flags
->
->
-24
-;
 if
 (
 flags
