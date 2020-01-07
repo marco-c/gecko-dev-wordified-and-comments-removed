@@ -46,7 +46,10 @@ open
 GET
 "
 "
-idlharness
+/
+interfaces
+/
+FileAPI
 .
 idl
 "

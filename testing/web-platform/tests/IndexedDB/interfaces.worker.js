@@ -58,7 +58,10 @@ open
 GET
 "
 "
+/
 interfaces
+/
+IndexedDB
 .
 idl
 "

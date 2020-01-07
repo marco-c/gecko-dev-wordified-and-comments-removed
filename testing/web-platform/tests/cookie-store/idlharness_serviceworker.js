@@ -65,6 +65,9 @@ urls
 =
 [
 '
+/
+interfaces
+/
 cookie
 -
 store

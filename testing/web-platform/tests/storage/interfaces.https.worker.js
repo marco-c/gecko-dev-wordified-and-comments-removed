@@ -45,7 +45,10 @@ return
 fetch
 (
 '
+/
 interfaces
+/
+storage
 .
 idl
 '

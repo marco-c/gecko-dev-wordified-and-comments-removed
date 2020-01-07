@@ -45,7 +45,12 @@ return
 fetch
 (
 '
+/
 interfaces
+/
+background
+-
+fetch
 .
 idl
 '
