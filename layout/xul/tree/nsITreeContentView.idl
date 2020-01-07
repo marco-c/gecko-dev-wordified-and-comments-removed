@@ -105,6 +105,7 @@ Element
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 5ef62896
