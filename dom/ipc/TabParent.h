@@ -3136,6 +3136,9 @@ bool
 mRenderLayers
 ;
 bool
+mHasLayers
+;
+bool
 mHasPresented
 ;
 bool
