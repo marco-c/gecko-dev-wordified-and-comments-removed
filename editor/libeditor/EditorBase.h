@@ -2605,15 +2605,6 @@ nsINode
 aNode
 )
 ;
-virtual
-bool
-IsContainer
-(
-nsIDOMNode
-*
-aNode
-)
-;
 bool
 IsEditable
 (
