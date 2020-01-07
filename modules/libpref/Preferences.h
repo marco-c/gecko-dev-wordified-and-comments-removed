@@ -1566,6 +1566,12 @@ ExactMatch
 private
 :
 static
+void
+SetupTelemetryPref
+(
+)
+;
+static
 mozilla
 :
 :
