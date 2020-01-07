@@ -232,6 +232,8 @@ alt
 [
 CEReactions
 SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 ]
 attribute
@@ -241,6 +243,8 @@ src
 [
 CEReactions
 SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 ]
 attribute

@@ -404,6 +404,8 @@ CEReactions
 SetterThrows
 GetterCanOOM
 SetterNeedsSubjectPrincipal
+=
+NonSystem
 Pure
 ]
 attribute

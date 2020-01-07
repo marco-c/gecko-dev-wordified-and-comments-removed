@@ -17661,7 +17661,7 @@ nsAString
 &
 aInnerHTML
 nsIPrincipal
-&
+*
 aSubjectPrincipal
 ErrorResult
 &

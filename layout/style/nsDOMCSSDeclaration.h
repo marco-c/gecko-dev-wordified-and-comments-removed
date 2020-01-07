@@ -335,7 +335,7 @@ nsAString
 &
 aValue
 nsIPrincipal
-&
+*
 aSubjectPrincipal
 \
 mozilla
@@ -357,7 +357,6 @@ eCSSProperty_
 #
 id_
 aValue
-&
 aSubjectPrincipal
 )
 ;

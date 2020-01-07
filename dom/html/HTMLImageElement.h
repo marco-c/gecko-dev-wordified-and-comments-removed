@@ -650,7 +650,7 @@ nsAString
 &
 aSrc
 nsIPrincipal
-&
+*
 aTriggeringPrincipal
 ErrorResult
 &
@@ -695,7 +695,7 @@ nsAString
 &
 aSrcset
 nsIPrincipal
-&
+*
 aTriggeringPrincipal
 ErrorResult
 &

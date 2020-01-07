@@ -238,6 +238,8 @@ disabled
 [
 CEReactions
 SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 Pure
 ]

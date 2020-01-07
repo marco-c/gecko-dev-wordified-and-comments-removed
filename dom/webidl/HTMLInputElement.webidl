@@ -498,6 +498,8 @@ size
 CEReactions
 Pure
 SetterNeedsSubjectPrincipal
+=
+NonSystem
 SetterThrows
 ]
 attribute

@@ -377,7 +377,7 @@ nsAString
 &
 aHref
 nsIPrincipal
-&
+*
 aTriggeringPrincipal
 ErrorResult
 &
