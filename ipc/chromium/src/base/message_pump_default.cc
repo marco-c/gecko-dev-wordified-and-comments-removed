@@ -82,6 +82,17 @@ Delegate
 delegate
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+MessagePumpDefault
+:
+:
+Run
+"
+OTHER
+)
+;
 DCHECK
 (
 keep_running_
@@ -259,7 +270,7 @@ Run
 :
 Wait
 "
-OTHER
+IDLE
 )
 ;
 {
@@ -312,7 +323,7 @@ Run
 :
 Wait
 "
-OTHER
+IDLE
 )
 ;
 {
