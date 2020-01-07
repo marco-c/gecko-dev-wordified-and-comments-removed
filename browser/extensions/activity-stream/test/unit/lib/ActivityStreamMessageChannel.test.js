@@ -1937,7 +1937,9 @@ spy
 (
 global
 .
-Cu
+Components
+.
+utils
 "
 reportError
 "
@@ -2002,7 +2004,9 @@ calledOnce
 (
 global
 .
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -2060,7 +2064,9 @@ calledOnce
 (
 global
 .
-Cu
+Components
+.
+utils
 .
 reportError
 )

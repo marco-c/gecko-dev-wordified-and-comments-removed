@@ -86,6 +86,7 @@ jsm
 const
 {
 insertPinned
+TOP_SITES_DEFAULT_ROWS
 TOP_SITES_MAX_SITES_PER_ROW
 }
 =
@@ -585,7 +586,7 @@ Prefs
 values
 .
 topSitesRows
-2
+TOP_SITES_DEFAULT_ROWS
 )
 *
 TOP_SITES_MAX_SITES_PER_ROW

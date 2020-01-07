@@ -71,7 +71,9 @@ stub
 ;
 global
 .
-Cc
+Components
+.
+classes
 [
 "
 mozilla

@@ -980,7 +980,9 @@ spy
 (
 global
 .
-Cu
+Components
+.
+utils
 "
 reportError
 "
@@ -1018,7 +1020,9 @@ assert
 .
 called
 (
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -1050,7 +1054,9 @@ spy
 (
 global
 .
-Cu
+Components
+.
+utils
 "
 reportError
 "
@@ -1121,7 +1127,9 @@ assert
 .
 called
 (
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -1726,7 +1734,9 @@ spy
 (
 global
 .
-Cu
+Components
+.
+utils
 "
 reportError
 "
@@ -1793,7 +1803,9 @@ assert
 .
 called
 (
-Cu
+Components
+.
+utils
 .
 reportError
 )
@@ -2589,7 +2601,9 @@ spy
 (
 global
 .
-Cu
+Components
+.
+utils
 "
 reportError
 "
@@ -2658,7 +2672,9 @@ assert
 .
 called
 (
-Cu
+Components
+.
+utils
 .
 reportError
 )
