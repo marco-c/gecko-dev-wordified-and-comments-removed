@@ -172,6 +172,11 @@ MIDIOutputMap
 h
 '
 '
+MIDIPermissionRequest
+.
+h
+'
+'
 MIDIPlatformRunnables
 .
 h
@@ -257,6 +262,11 @@ cpp
 '
 '
 MIDIOutputMap
+.
+cpp
+'
+'
+MIDIPermissionRequest
 .
 cpp
 '
