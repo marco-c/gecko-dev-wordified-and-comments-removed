@@ -78,8 +78,21 @@ check_for_crashes
 (
 tmpdir
 stackwalk
+monkeypatch
 )
 :
+    
+monkeypatch
+.
+delenv
+(
+'
+MINIDUMP_SAVE_PATH
+'
+raising
+=
+False
+)
     
 def
 wrapper
