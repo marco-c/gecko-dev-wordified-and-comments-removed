@@ -571,11 +571,6 @@ mSuspendCount
 bool
 mIsPending
 ;
-bool
-mDuringOnStart
-=
-false
-;
 PRTime
 mLastModifiedTime
 ;
