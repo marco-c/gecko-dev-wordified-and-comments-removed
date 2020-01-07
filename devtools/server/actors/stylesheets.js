@@ -156,6 +156,16 @@ markup
 "
 )
 ;
+const
+InspectorUtils
+=
+require
+(
+"
+InspectorUtils
+"
+)
+;
 loader
 .
 lazyRequireGetter
@@ -3156,7 +3166,7 @@ styleSheets
 =
 isChrome
 ?
-DOMUtils
+InspectorUtils
 .
 getAllStyleSheets
 (
