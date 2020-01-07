@@ -75,9 +75,7 @@ manifest
 const
 catman
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -92,9 +90,7 @@ categorymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICategoryManager
 )

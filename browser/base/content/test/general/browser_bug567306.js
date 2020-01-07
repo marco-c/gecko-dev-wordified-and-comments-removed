@@ -1,16 +1,4 @@
 var
-{
-Ci
-:
-interfaces
-Cc
-:
-classes
-}
-=
-Components
-;
-var
 HasFindClipboard
 =
 Services

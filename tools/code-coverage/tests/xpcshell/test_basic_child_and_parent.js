@@ -29,9 +29,7 @@ function
 let
 codeCoverage
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -50,9 +48,7 @@ coverage
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICodeCoverage
 )
