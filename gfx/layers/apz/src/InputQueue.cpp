@@ -977,7 +977,9 @@ block
 GetBlockId
 (
 )
-aTargetConfirmed
+aFlags
+.
+mTargetConfirmed
 ?
 "
 "
