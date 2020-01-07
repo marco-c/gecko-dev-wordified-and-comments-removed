@@ -1457,7 +1457,7 @@ char16_t
 *
 )
 =
-NS_IsAscii
+NS_ConstExprIsAscii
 ;
 static_assert
 (
