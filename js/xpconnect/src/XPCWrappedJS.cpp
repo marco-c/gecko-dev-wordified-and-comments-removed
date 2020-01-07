@@ -2685,6 +2685,17 @@ SystemIsBeingShutDown
 (
 )
 {
+MOZ_ASSERT
+(
+!
+IsIncrementalGCInProgress
+(
+xpc_GetSafeJSContext
+(
+)
+)
+)
+;
 *
 mJSObj
 .

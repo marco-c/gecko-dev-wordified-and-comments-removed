@@ -522,6 +522,13 @@ SystemIsBeingShutDown
 mRuntime
 -
 >
+SystemIsBeingShutDown
+(
+)
+;
+mRuntime
+-
+>
 GarbageCollect
 (
 JS
