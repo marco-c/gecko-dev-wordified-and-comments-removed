@@ -873,8 +873,6 @@ private
 template
 <
 typename
-GeckoFunc
-typename
 ServoFunc
 >
 inline
@@ -884,8 +882,6 @@ ModifyDeclaration
 nsIPrincipal
 *
 aSubjectPrincipal
-GeckoFunc
-aGeckoFunc
 ServoFunc
 aServoFunc
 )
