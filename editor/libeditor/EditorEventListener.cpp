@@ -2035,11 +2035,6 @@ false
 mouseEvent
 -
 >
-AsEvent
-(
-)
--
->
 PreventDefault
 (
 )

@@ -282,14 +282,5 @@ unsigned
 long
 which
 ;
-[
-notxpcom
-nostdcall
-]
-EventPtr
-AsEvent
-(
-)
-;
 }
 ;

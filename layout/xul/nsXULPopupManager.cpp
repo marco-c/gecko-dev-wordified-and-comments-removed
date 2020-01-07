@@ -12833,11 +12833,6 @@ PreventDefault
 aKeyEvent
 -
 >
-AsEvent
-(
-)
--
->
 StopCrossProcessForwarding
 (
 )
