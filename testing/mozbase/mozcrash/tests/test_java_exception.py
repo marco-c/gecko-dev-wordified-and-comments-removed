@@ -236,8 +236,9 @@ caught
         
 self
 .
-assert_
+assertEqual
 (
+1
 mozcrash
 .
 check_for_java_exception
@@ -308,8 +309,9 @@ truncated_log
         
 self
 .
-assert_
+assertEqual
 (
+1
 mozcrash
 .
 check_for_java_exception
@@ -405,9 +407,9 @@ GeckoBackgroundThread
         
 self
 .
-assert_
+assertEqual
 (
-not
+0
 mozcrash
 .
 check_for_java_exception

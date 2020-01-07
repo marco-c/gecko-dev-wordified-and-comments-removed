@@ -62,8 +62,9 @@ test
         
 self
 .
-assert_
+assertEqual
 (
+1
 mozcrash
 .
 check_for_crashes
@@ -71,17 +72,17 @@ check_for_crashes
 self
 .
 tempdir
-                                                
+                                                       
 symbols_path
 =
 None
-                                                
+                                                       
 stackwalk_binary
 =
 self
 .
 stackwalk
-                                                
+                                                       
 quiet
 =
 True
@@ -301,8 +302,9 @@ symbols
         
 self
 .
-assert_
+assertEqual
 (
+1
 mozcrash
 .
 check_for_crashes
@@ -310,17 +312,17 @@ check_for_crashes
 self
 .
 tempdir
-                                                
+                                                       
 symbols_path
 =
 symbol_url
-                                                
+                                                       
 stackwalk_binary
 =
 self
 .
 stackwalk
-                                                
+                                                       
 quiet
 =
 True

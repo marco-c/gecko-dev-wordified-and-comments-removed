@@ -458,16 +458,6 @@ stackwalk_binary
 stackwalk_binary
 )
     
-if
-not
-crash_info
-.
-has_dumps
-:
-        
-return
-False
-    
 crash_count
 =
 0

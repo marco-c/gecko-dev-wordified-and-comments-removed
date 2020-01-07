@@ -67,8 +67,9 @@ stackwalk
         
 self
 .
-assert_
+assertEqual
 (
+1
 mozcrash
 .
 check_for_crashes
@@ -76,13 +77,13 @@ check_for_crashes
 self
 .
 tempdir
-                                                
+                                                       
 symbols_path
 =
 '
 symbols_path
 '
-                                                
+                                                       
 quiet
 =
 True
