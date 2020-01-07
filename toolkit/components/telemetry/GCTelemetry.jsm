@@ -476,6 +476,7 @@ obj
 .
 length
 >
+=
 count
 )
 {
