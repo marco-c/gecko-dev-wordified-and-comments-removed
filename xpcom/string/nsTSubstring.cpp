@@ -531,7 +531,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 nsStringBuffer
@@ -733,7 +733,7 @@ TERMINATED
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 ;
 }
 *
@@ -1214,7 +1214,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 nsStringBuffer
@@ -1401,7 +1401,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 &
 &
@@ -2137,7 +2137,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 NS_ASSERTION
@@ -2188,7 +2188,7 @@ TERMINATED
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 nsStringBuffer
@@ -2381,7 +2381,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 |
 DataFlags
 :
@@ -5831,7 +5831,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 return
@@ -5912,7 +5912,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 return

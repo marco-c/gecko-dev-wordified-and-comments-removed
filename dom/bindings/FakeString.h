@@ -80,7 +80,7 @@ nsString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 nsStringBuffer
@@ -633,7 +633,7 @@ nsString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 |
 nsString
 :
