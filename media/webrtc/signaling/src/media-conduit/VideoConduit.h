@@ -1507,10 +1507,12 @@ public
 :
 VideoStreamFactory
 (
+const
 std
 :
 :
 string
+&
 aCodecName
 WebrtcVideoConduit
 *
