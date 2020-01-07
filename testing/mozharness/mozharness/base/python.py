@@ -62,14 +62,6 @@ log
 import
 WARNING
 FATAL
-from
-mozharness
-.
-mozilla
-.
-proxxy
-import
-Proxxy
 external_tools_path
 =
 os
@@ -1749,18 +1741,6 @@ s
 install_method
 )
         
-proxxy
-=
-Proxxy
-(
-self
-.
-config
-self
-.
-log_obj
-)
-        
 trusted_hosts
 =
 set
@@ -1770,10 +1750,6 @@ set
 for
 link
 in
-proxxy
-.
-get_proxies_and_urls
-(
 c
 .
 get
@@ -1783,7 +1759,6 @@ find_links
 '
 [
 ]
-)
 )
 :
             

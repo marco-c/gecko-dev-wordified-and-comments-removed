@@ -29,14 +29,6 @@ log
 import
 ERROR
 FATAL
-from
-mozharness
-.
-mozilla
-.
-proxxy
-import
-Proxxy
 TooltoolErrorList
 =
 PythonErrorList
@@ -476,31 +468,10 @@ in
 default_urls
 ]
         
-proxxy
-=
-Proxxy
-(
-self
-.
-config
-self
-.
-log_obj
-)
-        
-proxxy_urls
-=
-proxxy
-.
-get_proxies_and_urls
-(
-default_urls
-)
-        
 for
-proxyied_url
+url
 in
-proxxy_urls
+default_urls
 :
             
 cmd
@@ -525,7 +496,7 @@ else
 -
 url
 '
-proxyied_url
+url
 ]
 )
         

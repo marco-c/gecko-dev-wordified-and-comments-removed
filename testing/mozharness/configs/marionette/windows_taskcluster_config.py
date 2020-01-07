@@ -135,13 +135,6 @@ hg
 }
     
 "
-proxxy
-"
-:
-{
-}
-    
-"
 find_links
 "
 :

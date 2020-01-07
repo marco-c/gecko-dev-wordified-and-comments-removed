@@ -51,11 +51,4 @@ download_symbols
 '
 ondemand
 '
-    
-'
-proxxy
-'
-:
-{
-}
 }
