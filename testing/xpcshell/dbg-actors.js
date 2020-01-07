@@ -4,6 +4,13 @@ strict
 "
 ;
 const
+Cu
+=
+Components
+.
+utils
+;
+const
 {
 Promise
 }
