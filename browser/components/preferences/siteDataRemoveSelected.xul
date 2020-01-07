@@ -207,7 +207,7 @@ title
 =
 "
 &
-removingDialog
+removingDialog1
 .
 title
 ;
@@ -403,7 +403,7 @@ true
 endif
 >
 &
-removingDialog
+removingDialog1
 .
 title
 ;
@@ -431,7 +431,7 @@ description
 "
 >
 &
-removingSelected
+removingSelected1
 .
 description
 ;
@@ -463,7 +463,7 @@ flex
 label
 >
 &
-siteTree2
+siteTree3
 .
 label
 ;
