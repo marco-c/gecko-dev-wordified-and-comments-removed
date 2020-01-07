@@ -311,16 +311,6 @@ GetUserMedia
 [
 Throws
 ]
-void
-removeTrack
-(
-MediaStreamTrack
-track
-)
-;
-[
-Throws
-]
 TransceiverImpl
 createTransceiverImpl
 (
