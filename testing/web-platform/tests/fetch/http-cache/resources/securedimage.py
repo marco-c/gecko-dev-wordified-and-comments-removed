@@ -26,7 +26,11 @@ request
 .
 url
 "
+fetch
+/
 http
+-
+cache
 /
 resources
 /
