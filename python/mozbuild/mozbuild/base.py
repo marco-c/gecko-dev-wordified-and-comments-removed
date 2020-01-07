@@ -948,6 +948,9 @@ sys
 prefix
 )
 "
+.
+.
+/
 mozinfo
 .
 json
@@ -1273,7 +1276,10 @@ self
 .
 topobjdir
 '
-_virtualenv
+_virtualenvs
+'
+'
+init
 '
 )
                 
