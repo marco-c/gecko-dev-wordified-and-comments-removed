@@ -3647,6 +3647,16 @@ ToCloneData
 )
 const
 {
+if
+(
+!
+mData
+)
+{
+return
+nullptr
+;
+}
 UniquePtr
 <
 ImageBitmapCloneData

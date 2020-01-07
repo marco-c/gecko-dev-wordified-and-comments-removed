@@ -1097,6 +1097,16 @@ ToCloneData
 )
 )
 ;
+if
+(
+!
+cloneData
+)
+{
+return
+nullptr
+;
+}
 const
 RefPtr
 <
