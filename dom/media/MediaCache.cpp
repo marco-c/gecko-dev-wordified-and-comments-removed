@@ -11041,6 +11041,14 @@ GetLength
 (
 )
 {
+MOZ_ASSERT
+(
+!
+NS_IsMainThread
+(
+)
+)
+;
 AutoLock
 lock
 (
