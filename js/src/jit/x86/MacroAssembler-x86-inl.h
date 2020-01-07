@@ -5547,6 +5547,7 @@ ValueOperand
 src
 AnyRegister
 dest
+JSValueType
 )
 {
 if

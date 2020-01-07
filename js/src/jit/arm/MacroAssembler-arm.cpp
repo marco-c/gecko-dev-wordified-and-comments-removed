@@ -15232,6 +15232,7 @@ ValueOperand
 operand
 Register
 dest
+JSValueType
 )
 {
 if
@@ -15268,6 +15269,7 @@ Address
 src
 Register
 dest
+JSValueType
 )
 {
 ScratchRegisterScope
@@ -15301,6 +15303,7 @@ BaseIndex
 src
 Register
 dest
+JSValueType
 )
 {
 ScratchRegisterScope
@@ -15445,6 +15448,8 @@ ValueOperand
 src
 AnyRegister
 dest
+JSValueType
+type
 )
 {
 if
