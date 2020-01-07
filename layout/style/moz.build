@@ -281,11 +281,6 @@ nsCSSKeywords
 h
 '
 '
-nsCSSParser
-.
-h
-'
-'
 nsCSSPropAliasList
 .
 h
@@ -575,11 +570,6 @@ h
 '
 '
 ServoKeyframesRule
-.
-h
-'
-'
-ServoMediaList
 .
 h
 '
@@ -1158,11 +1148,6 @@ cpp
 '
 '
 ServoKeyframesRule
-.
-cpp
-'
-'
-ServoMediaList
 .
 cpp
 '
