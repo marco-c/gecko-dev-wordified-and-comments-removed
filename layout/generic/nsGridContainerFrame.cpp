@@ -6115,6 +6115,7 @@ return
 0
 ;
 }
+static
 uint32_t
 MarkExcludedTracks
 (
@@ -6149,7 +6150,6 @@ TrackSize
 StateBits
 aSkipFlag
 )
-const
 {
 bool
 foundOneSelected
