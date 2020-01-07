@@ -323,14 +323,6 @@ CommandArgument
 python
 '
                      
-default
-=
-'
-2
-.
-7
-'
-                     
 help
 =
 '
@@ -610,6 +602,16 @@ kwargs
 )
 :
         
+python
+=
+python
+or
+self
+.
+virtualenv_manager
+.
+python_path
+        
 self
 .
 activate_pipenv
@@ -617,12 +619,19 @@ activate_pipenv
 pipfile
 =
 None
+args
+=
+[
+'
+-
+-
+python
+'
+python
+]
 populate
 =
 True
-python
-=
-python
 )
         
 if
