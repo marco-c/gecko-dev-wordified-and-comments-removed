@@ -456,8 +456,9 @@ testing
 /
 profiles
 /
-*
-*
+prefs_general
+.
+js
 '
 mozbase
 :

@@ -358,10 +358,7 @@ testing
 profiles
 '
 '
-common
-'
-'
-user
+prefs_general
 .
 js
 '
@@ -426,13 +423,8 @@ dumps
 (
 prefs
 )
-.
-format
-(
-*
-*
+%
 interpolation
-)
 )
             
 for
