@@ -2579,9 +2579,7 @@ typeaheadfind
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 )
 return
@@ -5533,9 +5531,7 @@ disablesecurity
 &
 SECUREBROWSERUI_CONTRACTID
 in
-Components
-.
-classes
+Cc
 )
 {
 var

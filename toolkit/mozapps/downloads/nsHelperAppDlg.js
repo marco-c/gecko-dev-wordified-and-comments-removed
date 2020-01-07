@@ -5034,9 +5034,7 @@ applicationchooser
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 {
 var

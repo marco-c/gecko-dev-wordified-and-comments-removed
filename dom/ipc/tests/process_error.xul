@@ -236,9 +236,7 @@ if
 nsICrashReporter
 '
 in
-Components
-.
-interfaces
+Ci
 )
 {
 dumpID

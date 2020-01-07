@@ -33,9 +33,7 @@ c
 .
 writable
 ?
-Components
-.
-interfaces
+Ci
 :
 SpecialPowers
 .
@@ -79,9 +77,7 @@ c
 .
 writable
 ?
-Components
-.
-classes
+Cc
 :
 SpecialPowers
 .
@@ -125,9 +121,7 @@ c
 .
 writable
 ?
-Components
-.
-utils
+Cu
 :
 SpecialPowers
 .

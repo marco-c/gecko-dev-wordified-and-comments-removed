@@ -42,9 +42,7 @@ os
 return
 nsILocalFile_
 in
-Components
-.
-interfaces
+Ci
 &
 &
 CWD

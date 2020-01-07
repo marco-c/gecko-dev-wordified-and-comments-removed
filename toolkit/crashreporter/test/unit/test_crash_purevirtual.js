@@ -21,9 +21,7 @@ reporter
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 )
 {
@@ -64,9 +62,7 @@ isOSX
 nsILocalFileMac
 "
 in
-Components
-.
-interfaces
+Ci
 )
 ;
 if

@@ -2822,9 +2822,7 @@ moz
 icon
 "
 in
-Components
-.
-classes
+Cc
 )
 {
 testURI

@@ -671,14 +671,10 @@ parent
 content
 _EU_Ci
 :
-Components
-.
-interfaces
+Ci
 _EU_Cc
 :
-Components
-.
-classes
+Cc
 }
 ;
 Services

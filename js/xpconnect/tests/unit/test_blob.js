@@ -37,9 +37,7 @@ ok
 (
 contractID
 in
-Components
-.
-classes
+Cc
 )
 ;
 var

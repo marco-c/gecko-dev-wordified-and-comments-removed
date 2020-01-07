@@ -30,9 +30,7 @@ run_test
 {
 check_cl
 (
-Components
-.
-interfaces
+Ci
 '
 XPCComponents_Interfaces
 '
@@ -50,9 +48,7 @@ XPCComponents_InterfacesByID
 ;
 check_cl
 (
-Components
-.
-classes
+Cc
 '
 XPCComponents_Classes
 '
@@ -70,9 +66,7 @@ XPCComponents_ClassesByID
 ;
 check_cl
 (
-Components
-.
-results
+Cr
 '
 XPCComponents_Results
 '

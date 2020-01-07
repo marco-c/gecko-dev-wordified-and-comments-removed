@@ -922,9 +922,7 @@ settings
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 document
 .

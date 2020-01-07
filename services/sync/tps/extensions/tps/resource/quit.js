@@ -155,9 +155,7 @@ if
 (
 kAppStartup
 in
-Components
-.
-classes
+Cc
 )
 {
 appService
@@ -180,9 +178,7 @@ if
 (
 kAppShell
 in
-Components
-.
-classes
+Cc
 )
 {
 appService

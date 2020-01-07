@@ -23,9 +23,7 @@ debuggingtools
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 ;
 Assert
@@ -50,9 +48,7 @@ type
 layoutdebug
 "
 in
-Components
-.
-classes
+Cc
 )
 ;
 }

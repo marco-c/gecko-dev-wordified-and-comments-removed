@@ -164,9 +164,7 @@ if
 nsIWindowsRegKey
 "
 in
-Components
-.
-interfaces
+Ci
 )
 )
 Assert

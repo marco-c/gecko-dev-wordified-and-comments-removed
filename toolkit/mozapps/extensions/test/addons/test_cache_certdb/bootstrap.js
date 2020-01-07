@@ -1,9 +1,7 @@
 var
 AM_Ci
 =
-Components
-.
-interfaces
+Ci
 ;
 const
 CERTDB_CONTRACTID

@@ -78,9 +78,7 @@ key
 1
 "
 in
-Components
-.
-classes
+Cc
 )
 ;
 let

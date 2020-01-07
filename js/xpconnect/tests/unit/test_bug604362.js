@@ -47,9 +47,7 @@ s
 .
 Cu
 =
-Components
-.
-utils
+Cu
 ;
 s
 .
