@@ -373,7 +373,9 @@ MOZ_ASSERT
 (
 mFrameRect
 .
-x
+X
+(
+)
 >
 =
 0
@@ -381,7 +383,9 @@ x
 &
 mFrameRect
 .
-y
+Y
+(
+)
 >
 =
 0
@@ -848,7 +852,9 @@ SkipToRow
 (
 mFrameRect
 .
-y
+Y
+(
+)
 )
 ;
 }
@@ -1097,7 +1103,9 @@ mCurrentInLine
 (
 mFrameRect
 .
-y
+Y
+(
+)
 +
 mFrameRect
 .

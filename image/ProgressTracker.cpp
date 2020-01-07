@@ -1854,6 +1854,10 @@ if
 image
 )
 {
+int32_t
+width
+height
+;
 if
 (
 NS_FAILED
@@ -1864,8 +1868,6 @@ image
 GetWidth
 (
 &
-rect
-.
 width
 )
 )
@@ -1879,8 +1881,6 @@ image
 GetHeight
 (
 &
-rect
-.
 height
 )
 )
@@ -1890,6 +1890,17 @@ rect
 =
 GetMaxSizedIntRect
 (
+)
+;
+}
+else
+{
+rect
+.
+SizeTo
+(
+width
+height
 )
 ;
 }
