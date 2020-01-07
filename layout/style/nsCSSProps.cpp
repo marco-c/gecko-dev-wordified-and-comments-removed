@@ -11718,13 +11718,13 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSPropertyID
-gGridGapSubpropTable
+gGapSubpropTable
 [
 ]
 =
 {
-eCSSProperty_grid_row_gap
-eCSSProperty_grid_column_gap
+eCSSProperty_row_gap
+eCSSProperty_column_gap
 eCSSProperty_UNKNOWN
 }
 ;

@@ -5388,10 +5388,10 @@ nsStyleGridLine
 mGridRowEnd
 ;
 nsStyleCoord
-mGridColumnGap
+mColumnGap
 ;
 nsStyleCoord
-mGridRowGap
+mRowGap
 ;
 bool
 WidthDependsOnContainer
@@ -11881,9 +11881,6 @@ mColumnCount
 ;
 nsStyleCoord
 mColumnWidth
-;
-nsStyleCoord
-mColumnGap
 ;
 mozilla
 :

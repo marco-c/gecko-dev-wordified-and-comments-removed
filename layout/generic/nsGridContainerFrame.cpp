@@ -10034,7 +10034,7 @@ mColFunctions
 mGridStyle
 -
 >
-mGridColumnGap
+mColumnGap
 aGrid
 .
 mGridColEnd
@@ -10054,7 +10054,7 @@ mRowFunctions
 mGridStyle
 -
 >
-mGridRowGap
+mRowGap
 aGrid
 .
 mGridRowEnd
@@ -13939,7 +13939,7 @@ InitRepeatTracks
 gridStyle
 -
 >
-mGridColumnGap
+mColumnGap
 aComputedMinSize
 .
 ISize
@@ -14012,7 +14012,7 @@ InitRepeatTracks
 gridStyle
 -
 >
-mGridRowGap
+mRowGap
 aComputedMinSize
 .
 BSize
@@ -32912,7 +32912,7 @@ state
 mGridStyle
 -
 >
-mGridColumnGap
+mColumnGap
 grid
 .
 mGridColEnd
@@ -32978,7 +32978,7 @@ state
 mGridStyle
 -
 >
-mGridColumnGap
+mColumnGap
 NS_UNCONSTRAINEDSIZE
 )
 ;
