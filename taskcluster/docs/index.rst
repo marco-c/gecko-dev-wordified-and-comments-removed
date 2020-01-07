@@ -212,6 +212,9 @@ release
 -
 promotion
 versioncontrol
+taskcluster
+-
+config
 how
 -
 tos
