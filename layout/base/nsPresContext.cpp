@@ -9327,7 +9327,7 @@ false
 }
 ComputedStyle
 *
-styleContext
+computedStyle
 =
 aFrame
 -
@@ -9339,7 +9339,7 @@ Style
 CSSPseudoElementType
 pseudoType
 =
-styleContext
+computedStyle
 -
 >
 GetPseudoType
@@ -9373,7 +9373,7 @@ false
 return
 Servo_HasAuthorSpecifiedRules
 (
-styleContext
+computedStyle
 -
 >
 AsServo

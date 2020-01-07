@@ -957,7 +957,7 @@ GetSize
 ;
 ComputedStyle
 *
-styleContext
+computedStyle
 =
 static_cast
 <
@@ -973,7 +973,7 @@ mOuterFocusStyle
 ;
 MOZ_ASSERT
 (
-styleContext
+computedStyle
 "
 We
 only
@@ -991,7 +991,7 @@ rect
 .
 Inflate
 (
-styleContext
+computedStyle
 -
 >
 StyleBorder
@@ -1027,7 +1027,7 @@ unused
 ;
 ComputedStyle
 *
-styleContext
+computedStyle
 =
 static_cast
 <
@@ -1043,7 +1043,7 @@ mOuterFocusStyle
 ;
 MOZ_ASSERT
 (
-styleContext
+computedStyle
 "
 We
 only
@@ -1100,7 +1100,7 @@ aBuilder
 &
 unused
 )
-styleContext
+computedStyle
 flags
 )
 ;

@@ -2757,7 +2757,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 presContext
 -
@@ -2798,7 +2798,7 @@ margin
 ;
 if
 (
-styleContext
+computedStyle
 -
 >
 StylePadding
@@ -2823,7 +2823,7 @@ LeftRight
 width
 +
 =
-styleContext
+computedStyle
 -
 >
 StyleBorder
@@ -2841,7 +2841,7 @@ LeftRight
 ;
 if
 (
-styleContext
+computedStyle
 -
 >
 StyleMargin
@@ -2984,7 +2984,7 @@ nsLayoutUtils
 :
 GetFontMetricsForComputedStyle
 (
-styleContext
+computedStyle
 )
 ;
 nscoord

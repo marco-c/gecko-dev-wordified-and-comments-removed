@@ -3605,14 +3605,6 @@ childX
 nsIContent
 *
 iContent
-;
-RefPtr
-<
-ComputedStyle
->
-styleContext
-;
-iContent
 =
 aColGroupFrame
 -
@@ -3621,7 +3613,11 @@ GetContent
 (
 )
 ;
-styleContext
+RefPtr
+<
+ComputedStyle
+>
+computedStyle
 =
 shell
 -
@@ -3657,7 +3653,7 @@ colFrame
 NS_NewTableColFrame
 (
 shell
-styleContext
+computedStyle
 )
 ;
 (

@@ -23304,7 +23304,7 @@ aInflation
 {
 ComputedStyle
 *
-styleContext
+computedStyle
 =
 aFrame
 -
@@ -23320,7 +23320,7 @@ NS_FONT_VARIANT_WIDTH_NORMAL
 ;
 if
 (
-styleContext
+computedStyle
 -
 >
 IsTextCombined
@@ -23406,7 +23406,7 @@ NS_FONT_VARIANT_WIDTH_QUARTER
 return
 GetFontMetricsForComputedStyle
 (
-styleContext
+computedStyle
 aInflation
 variantWidth
 )

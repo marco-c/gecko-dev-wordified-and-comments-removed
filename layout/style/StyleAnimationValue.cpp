@@ -964,7 +964,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 nsComputedDOMStyle
 :
@@ -977,7 +977,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-styleContext
+computedStyle
 )
 ;
 RefPtr
@@ -1033,7 +1033,7 @@ ComputeAnimationValue
 (
 aElement
 declarations
-styleContext
+computedStyle
 )
 ;
 return
