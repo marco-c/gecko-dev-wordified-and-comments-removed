@@ -108,7 +108,7 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 TBPL_SUCCESS
 TBPL_WORST_LEVEL_TUPLE
@@ -117,7 +117,7 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 TBPL_RETRY
 TBPL_FAILURE
@@ -6243,7 +6243,7 @@ dest
         
 self
 .
-buildbot_status
+record_status
 (
 parser
 .

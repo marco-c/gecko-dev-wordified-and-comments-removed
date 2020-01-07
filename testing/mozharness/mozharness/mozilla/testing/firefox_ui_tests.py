@@ -1967,7 +1967,7 @@ return_code
         
 self
 .
-buildbot_status
+record_status
 (
 tbpl_status
 level

@@ -66,7 +66,7 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 TBPL_RETRY
 EXIT_STATUS_DICT
@@ -6982,7 +6982,7 @@ per_test_args
                     
 self
 .
-buildbot_status
+record_status
 (
 tbpl_status
 level
@@ -7008,7 +7008,7 @@ else
                     
 self
 .
-buildbot_status
+record_status
 (
 tbpl_status
 level

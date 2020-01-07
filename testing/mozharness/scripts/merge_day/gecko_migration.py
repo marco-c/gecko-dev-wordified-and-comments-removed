@@ -159,9 +159,9 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
-BuildbotMixin
+AutomationMixin
 from
 mozharness
 .
@@ -198,7 +198,7 @@ MercurialScript
 BalrogMixin
 VirtualenvMixin
                      
-BuildbotMixin
+AutomationMixin
 MercurialRepoManipulationMixin
 )
 :

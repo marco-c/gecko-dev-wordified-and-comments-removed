@@ -99,9 +99,9 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
-BuildbotMixin
+AutomationMixin
 from
 mozharness
 .
@@ -172,7 +172,7 @@ ReleaseMixin
                          
 TransferMixin
 TooltoolMixin
-BuildbotMixin
+AutomationMixin
                          
 MercurialScript
 BalrogMixin
@@ -696,7 +696,7 @@ use
 (
 otherwise
 use
-buildbot
+automation
 supplied
 "
                  
@@ -1678,27 +1678,6 @@ taskcluster
 )
               
 *
-buildbot
-properties
-(
-try
-with
-buildbot
-forced
-build
-)
-              
-*
-buildbot
-change
-(
-try
-with
-buildbot
-scheduler
-)
-              
-*
 from
 the
 en
@@ -1775,100 +1754,6 @@ config
 "
 revision
 "
-]
-        
-elif
-'
-revision
-'
-in
-self
-.
-buildbot_properties
-:
-            
-revision
-=
-self
-.
-buildbot_properties
-[
-'
-revision
-'
-]
-        
-elif
-(
-self
-.
-buildbot_config
-and
-                
-self
-.
-buildbot_config
-.
-get
-(
-'
-sourcestamp
-'
-{
-}
-)
-.
-get
-(
-'
-revision
-'
-)
-)
-:
-            
-revision
-=
-self
-.
-buildbot_config
-[
-'
-sourcestamp
-'
-]
-[
-'
-revision
-'
-]
-        
-elif
-self
-.
-buildbot_config
-and
-self
-.
-buildbot_config
-.
-get
-(
-'
-revision
-'
-)
-:
-            
-revision
-=
-self
-.
-buildbot_config
-[
-'
-revision
-'
 ]
         
 if
@@ -2383,7 +2268,7 @@ prop_value
 =
 self
 .
-query_buildbot_property
+query_property
 (
 prop_key
 )
@@ -2415,7 +2300,7 @@ message
         
 self
 .
-set_buildbot_property
+set_property
 (
 prop_key
 prop_value
@@ -2480,7 +2365,7 @@ Success
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 locales
@@ -2493,7 +2378,7 @@ self
 .
 locales_property
 )
-                                   
+                          
 write_to_file
 =
 True
@@ -4026,7 +3911,7 @@ repos
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 tools_revision
@@ -4417,12 +4302,11 @@ taskcluster_nightly
                 
 self
 .
-set_buildbot_property
+set_property
 (
 "
 stage_platform
 "
-                                           
 self
 .
 config
@@ -4437,7 +4321,7 @@ stage_platform
                 
 self
 .
-set_buildbot_property
+set_property
 (
 "
 branch
@@ -4468,7 +4352,7 @@ locale
                 
 self
 .
-set_buildbot_property
+set_property
 (
 "
 completeMarUrl
@@ -4478,7 +4362,7 @@ apk_url
                 
 self
 .
-set_buildbot_property
+set_property
 (
                     
 "
@@ -4487,7 +4371,7 @@ platform
                     
 self
 .
-buildbot_config
+config
 [
 "
 properties
@@ -4502,7 +4386,7 @@ platform
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 locale
@@ -4512,7 +4396,7 @@ locale
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 appVersion
@@ -4526,7 +4410,7 @@ query_version
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 appName
@@ -4538,7 +4422,7 @@ Fennec
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 completeMarSize
@@ -4553,7 +4437,7 @@ apkfile
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 completeMarHash
@@ -4568,7 +4452,7 @@ apkfile
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 isOSUpdate
@@ -4578,7 +4462,7 @@ False
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 buildid

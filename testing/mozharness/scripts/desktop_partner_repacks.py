@@ -57,9 +57,9 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
-BuildbotMixin
+AutomationMixin
 from
 mozharness
 .
@@ -96,7 +96,7 @@ class
 DesktopPartnerRepacks
 (
 ReleaseMixin
-BuildbotMixin
+AutomationMixin
                             
 BaseScript
 VirtualenvMixin

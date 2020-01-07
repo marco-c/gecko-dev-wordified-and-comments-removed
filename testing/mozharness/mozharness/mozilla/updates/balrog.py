@@ -48,7 +48,7 @@ update
 (
 self
 .
-buildbot_properties
+properties
 )
         
 balrog_props

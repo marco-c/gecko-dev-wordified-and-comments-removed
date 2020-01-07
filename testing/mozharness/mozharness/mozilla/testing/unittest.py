@@ -29,7 +29,7 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 TBPL_WARNING
 TBPL_FAILURE
@@ -39,7 +39,7 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 TBPL_SUCCESS
 TBPL_WORST_LEVEL_TUPLE

@@ -85,11 +85,11 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 (
     
-BuildbotMixin
+AutomationMixin
     
 EXIT_STATUS_DICT
     
@@ -5007,7 +5007,6 @@ made
 the
 created
 the
-buildbot
 change
 .
 "
@@ -5067,7 +5066,7 @@ hex
 class
 BuildScript
 (
-BuildbotMixin
+AutomationMixin
 BalrogMixin
                   
 VirtualenvMixin
@@ -6279,14 +6278,12 @@ TASK_ID
             
 self
 .
-set_buildbot_property
+set_property
 (
 '
 buildid
 '
-                                       
 buildid
-                                       
 write_to_file
 =
 True
@@ -8316,7 +8313,7 @@ UNKNOWN
                     
 self
 .
-set_buildbot_property
+set_property
 (
 key
 prop
@@ -8733,7 +8730,7 @@ env
             
 self
 .
-set_buildbot_property
+set_property
 (
 prop
 [
@@ -8779,7 +8776,7 @@ buildid
                       
 "
 from
-buildbot
+automation
 "
 )
             
@@ -8794,7 +8791,7 @@ BuildID
 '
 )
             
-buildbot_buildid
+automation_buildid
 =
 self
 .
@@ -8823,7 +8820,7 @@ s
 .
 buildid
 from
-buildbot
+automation
 '
                 
 '
@@ -8837,7 +8834,7 @@ s
 %
 (
 app_ini_buildid
-buildbot_buildid
+automation_buildid
 )
             
 )
@@ -8846,9 +8843,9 @@ if
 app_ini_buildid
 =
 =
-buildbot_buildid
-!
-=
+automation_buildid
+is
+not
 None
 :
                 
@@ -9268,65 +9265,6 @@ query_abs_dirs
 (
 )
         
-buildprops
-=
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-base_work_dir
-'
-]
-'
-buildprops
-.
-json
-'
-)
-        
-if
-os
-.
-path
-.
-exists
-(
-buildprops
-)
-:
-            
-self
-.
-copyfile
-(
-                
-buildprops
-                
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_work_dir
-'
-]
-'
-buildprops
-.
-json
-'
-)
-)
-        
 if
 '
 MOZILLABUILD
@@ -9623,23 +9561,8 @@ android
 '
 )
         
-if
-self
-.
-config
-.
-get
-(
-'
-taskcluster_nightly
-'
-)
-:
-            
 multil10n_path
 =
-\
-                
 '
 build
 /
@@ -9655,7 +9578,7 @@ multil10n
 .
 py
 '
-            
+        
 base_work_dir
 =
 os
@@ -9669,26 +9592,6 @@ base_work_dir
 workspace
 '
 )
-        
-else
-:
-            
-multil10n_path
-=
-'
-%
-s
-/
-scripts
-/
-scripts
-/
-multil10n
-.
-py
-'
-%
-base_work_dir
         
 cmd
 =
@@ -9983,17 +9886,15 @@ matches
             
 self
 .
-set_buildbot_property
+set_property
 (
 prop
-                                       
 parser
 .
 matches
 [
 prop
 ]
-                                       
 write_to_file
 =
 True
@@ -12973,7 +12874,7 @@ return_code
                     
 self
 .
-buildbot_status
+record_status
 (
 status
 TBPL_STATUS_DICT
