@@ -604,7 +604,7 @@ is
 best
 in
 Firefox
-55
+57
 and
 greater
 although
