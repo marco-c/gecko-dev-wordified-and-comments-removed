@@ -530,4 +530,12 @@ py
 ]
     
 }
+    
+"
+update_channel
+"
+:
+"
+aurora
+"
 }

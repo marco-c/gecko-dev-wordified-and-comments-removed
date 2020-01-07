@@ -234,4 +234,12 @@ summary
 "
     
 ]
+    
+"
+update_channel
+"
+:
+"
+aurora
+"
 }

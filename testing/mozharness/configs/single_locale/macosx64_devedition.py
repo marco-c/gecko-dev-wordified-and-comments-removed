@@ -349,4 +349,12 @@ complete
 .
 mar
 "
+    
+"
+update_channel
+"
+:
+"
+aurora
+"
 }

@@ -720,4 +720,12 @@ hgext
 )
     
 ]
+    
+"
+update_channel
+"
+:
+"
+aurora
+"
 }
