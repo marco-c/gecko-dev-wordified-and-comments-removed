@@ -4779,6 +4779,10 @@ eCSSKeyword_strict
 NS_STYLE_CONTAIN_STRICT
 }
 {
+eCSSKeyword_content
+NS_STYLE_CONTAIN_CONTENT
+}
+{
 eCSSKeyword_layout
 NS_STYLE_CONTAIN_LAYOUT
 }
@@ -4789,6 +4793,10 @@ NS_STYLE_CONTAIN_STYLE
 {
 eCSSKeyword_paint
 NS_STYLE_CONTAIN_PAINT
+}
+{
+eCSSKeyword_size
+NS_STYLE_CONTAIN_SIZE
 }
 {
 eCSSKeyword_UNKNOWN
