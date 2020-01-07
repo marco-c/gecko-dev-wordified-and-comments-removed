@@ -205,6 +205,11 @@ TestMultiplexInputStream
 cpp
 '
 '
+TestNonBlockingAsyncInputStream
+.
+cpp
+'
+'
 TestNsDeque
 .
 cpp
