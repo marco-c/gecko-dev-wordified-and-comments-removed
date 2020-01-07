@@ -5842,6 +5842,7 @@ metrics
 GetScrollbarMetrics
 (
 orientation
+true
 )
 ;
 const
@@ -5922,6 +5923,7 @@ metrics
 GetScrollbarMetrics
 (
 orientation
+true
 )
 ;
 const
@@ -6483,6 +6485,7 @@ metrics
 GetScrollbarMetrics
 (
 GTK_ORIENTATION_VERTICAL
+true
 )
 ;
 aResult
@@ -6536,6 +6539,7 @@ metrics
 GetScrollbarMetrics
 (
 GTK_ORIENTATION_HORIZONTAL
+true
 )
 ;
 aResult
@@ -6670,6 +6674,7 @@ metrics
 GetScrollbarMetrics
 (
 orientation
+true
 )
 ;
 aResult
@@ -6730,6 +6735,7 @@ metrics
 GetScrollbarMetrics
 (
 orientation
+true
 )
 ;
 aResult
