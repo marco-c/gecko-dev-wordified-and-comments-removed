@@ -285,6 +285,10 @@ ActorDestroyReason
 aWhy
 )
 {
+mActive
+=
+false
+;
 }
 mozilla
 :
@@ -331,6 +335,11 @@ aData
 {
 if
 (
+mActive
+)
+{
+if
+(
 aTopic
 &
 &
@@ -354,11 +363,6 @@ SendCancelledCurrentJob
 }
 else
 {
-if
-(
-mActive
-)
-{
 Unused
 <
 <
@@ -366,6 +370,7 @@ SendDialogOpened
 (
 )
 ;
+}
 }
 else
 {
@@ -392,7 +397,6 @@ closed
 "
 )
 ;
-}
 }
 return
 NS_OK
