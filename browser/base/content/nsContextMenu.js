@@ -7529,9 +7529,9 @@ PrivateBrowsingUtils
 .
 isBrowserPrivate
 (
-gBrowser
+this
 .
-selectedBrowser
+browser
 )
 ;
 channel
