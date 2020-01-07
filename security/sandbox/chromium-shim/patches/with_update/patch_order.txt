@@ -49,3 +49,6 @@ patch
 mingw_duplicate_instatinations
 .
 patch
+mingw_msvc_requirement_error
+.
+patch
