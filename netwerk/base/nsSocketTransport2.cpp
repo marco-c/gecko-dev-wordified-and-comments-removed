@@ -2896,7 +2896,7 @@ false
 )
 mFastOpenStatus
 (
-TFO_NOT_TRIED
+TFO_NOT_SET
 )
 mFirstRetryError
 (
@@ -9407,12 +9407,8 @@ len
 ;
 if
 (
-(
-rv
 !
-=
-0
-)
+rv
 &
 &
 !
@@ -9424,7 +9420,7 @@ mFastOpenCallback
 >
 SetFastOpenStatus
 (
-TFO_NOT_TRIED
+TFO_DATA_COOKIE_NOT_ACCEPTED
 )
 ;
 }
