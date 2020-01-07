@@ -207,6 +207,12 @@ test
 "
 )
 ;
+EnterprisePolicyTesting
+.
+resetRunOnceState
+(
+)
+;
 }
 )
 ;
