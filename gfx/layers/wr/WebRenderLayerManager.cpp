@@ -924,6 +924,16 @@ aDisplayList
 nsDisplayListBuilder
 *
 aDisplayListBuilder
+const
+nsTArray
+<
+wr
+:
+:
+WrFilterOp
+>
+&
+aFilters
 )
 {
 MOZ_ASSERT
@@ -1077,6 +1087,7 @@ aDisplayList
 aDisplayListBuilder
 mScrollData
 contentSize
+aFilters
 )
 ;
 mWidget
