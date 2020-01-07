@@ -55,6 +55,9 @@ CLASSES_TO_PRESERVE
 caption
 "
 "
+emoji
+"
+"
 hidden
 "
 "
@@ -84,6 +87,11 @@ wp
 caption
 -
 text
+"
+"
+wp
+-
+smiley
 "
 ]
 ;
