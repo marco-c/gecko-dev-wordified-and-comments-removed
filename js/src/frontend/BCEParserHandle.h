@@ -37,7 +37,7 @@ js
 namespace
 frontend
 {
-class
+struct
 BCEParserHandle
 {
 virtual
