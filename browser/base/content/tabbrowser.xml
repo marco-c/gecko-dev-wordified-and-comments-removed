@@ -14288,7 +14288,7 @@ should
 not
 invoke
 its
-unmute
+mute
 method
 browser
 .
