@@ -214,7 +214,7 @@ color
 6f6f6f
 ;
 }
-#
+.
 narrate
 -
 dropdown
@@ -229,7 +229,7 @@ color
 e5e5e5
 ;
 }
-#
+.
 narrate
 -
 toggle
@@ -247,6 +247,11 @@ margin
 ;
 }
 .
+narrate
+-
+dropdown
+>
+.
 dropdown
 -
 popup
@@ -259,6 +264,11 @@ color
 transparent
 ;
 }
+.
+narrate
+-
+dropdown
+>
 .
 dropdown
 -
@@ -340,7 +350,7 @@ color
 )
 ;
 }
-#
+.
 narrate
 -
 control
@@ -395,7 +405,7 @@ border
 box
 ;
 }
-#
+.
 narrate
 -
 control
@@ -426,7 +436,7 @@ color
 )
 ;
 }
-#
+.
 narrate
 -
 skip
@@ -485,7 +495,7 @@ rgb
 )
 ;
 }
-#
+.
 narrate
 -
 skip
@@ -544,7 +554,7 @@ rgb
 )
 ;
 }
-#
+.
 narrate
 -
 skip
@@ -552,7 +562,7 @@ skip
 previous
 :
 disabled
-#
+.
 narrate
 -
 skip
@@ -574,7 +584,7 @@ rgb
 )
 ;
 }
-#
+.
 narrate
 -
 start
@@ -605,13 +615,13 @@ svg
 )
 ;
 }
-#
+.
 narrate
 -
 dropdown
 .
 speaking
-#
+.
 narrate
 -
 start
@@ -642,14 +652,14 @@ svg
 )
 ;
 }
-#
+.
 narrate
 -
 rate
 :
 :
 before
-#
+.
 narrate
 -
 rate
@@ -692,7 +702,7 @@ size
 auto
 ;
 }
-#
+.
 narrate
 -
 rate
@@ -724,7 +734,7 @@ svg
 )
 ;
 }
-#
+.
 narrate
 -
 rate
@@ -756,7 +766,7 @@ svg
 )
 ;
 }
-#
+.
 narrate
 -
 rate
@@ -775,7 +785,7 @@ grow
 1
 ;
 }
-#
+.
 narrate
 -
 rate
@@ -802,7 +812,7 @@ height
 2px
 ;
 }
-#
+.
 narrate
 -
 rate
@@ -829,7 +839,7 @@ height
 2px
 ;
 }
-#
+.
 narrate
 -
 rate
@@ -872,7 +882,7 @@ width
 0
 ;
 }
-#
+.
 narrate
 -
 rate
