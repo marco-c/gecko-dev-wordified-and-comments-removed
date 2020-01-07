@@ -9318,7 +9318,7 @@ this
 addon
 file
 .
-persistentDescriptor
+path
 )
 ;
 let
@@ -9419,7 +9419,7 @@ this
 addon
 file
 .
-persistentDescriptor
+path
 )
 ;
 XPIStates

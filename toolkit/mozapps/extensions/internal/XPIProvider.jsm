@@ -16308,7 +16308,7 @@ addAddonMetadata
 addon
 file
 .
-persistentDescriptor
+path
 )
 ;
 XPIStates
