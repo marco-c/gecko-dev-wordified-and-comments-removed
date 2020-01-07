@@ -1091,6 +1091,9 @@ MAKEFLAGS
 verbose
 )
 (
+topobjdir
+)
+(
 call
 BUILDSTATUS
 TIER_FINISH
