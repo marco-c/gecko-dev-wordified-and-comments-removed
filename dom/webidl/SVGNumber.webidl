@@ -139,14 +139,6 @@ apply
 .
 *
 /
-[
-Constructor
-Constructor
-(
-float
-value
-)
-]
 interface
 SVGNumber
 {
