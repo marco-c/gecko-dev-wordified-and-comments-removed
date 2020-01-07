@@ -104,7 +104,7 @@ curl
 .
 0
 -
-2ubuntu1
+2ubuntu2
 \
 jq
 =
@@ -142,7 +142,7 @@ libgtk
 .
 28
 -
-1ubuntu1
+1ubuntu3
 \
 libxml2
 -
