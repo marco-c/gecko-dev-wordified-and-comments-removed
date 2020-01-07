@@ -295,9 +295,11 @@ PlacesOrganizer
 selectLeftPaneContainerByHierarchy
 (
 [
-PlacesUtils
+PlacesUIUtils
 .
-virtualAllBookmarksGuid
+leftPaneQueries
+.
+AllBookmarks
 PlacesUtils
 .
 bookmarks

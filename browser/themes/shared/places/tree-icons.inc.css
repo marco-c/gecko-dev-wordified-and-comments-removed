@@ -489,7 +489,7 @@ tree
 image
 (
 query
-OrganizerQuery_allbms_____v
+OrganizerQuery_AllBookmarks
 )
 {
 list
@@ -529,7 +529,7 @@ tree
 image
 (
 query
-OrganizerQuery_downloads__v
+OrganizerQuery_Downloads
 )
 {
 list
@@ -583,7 +583,7 @@ tree
 image
 (
 query
-OrganizerQuery_tags_______v
+OrganizerQuery_Tags
 )
 {
 list
@@ -705,7 +705,7 @@ tree
 image
 (
 query
-OrganizerQuery_history____v
+OrganizerQuery_History
 )
 {
 list
