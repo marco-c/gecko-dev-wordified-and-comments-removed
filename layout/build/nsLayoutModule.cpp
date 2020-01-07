@@ -1612,7 +1612,7 @@ aResult
 nsresult
 NS_NewChildProcessMessageManager
 (
-nsISyncMessageSender
+nsIMessageSender
 *
 *
 aResult
@@ -1988,7 +1988,7 @@ NS_NewParentProcessMessageManager
 MAKE_CTOR
 (
 CreateChildMessageManager
-nsISyncMessageSender
+nsIMessageSender
 NS_NewChildProcessMessageManager
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR

@@ -118,7 +118,7 @@ class
 ProcessGlobal
 :
 public
-nsISyncMessageSender
+nsIMessageSender
 public
 nsMessageManagerScriptExecutor
 public
@@ -235,7 +235,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 ProcessGlobal
-nsISyncMessageSender
+nsIMessageSender
 )
 virtual
 JSObject
@@ -337,18 +337,6 @@ MessageManagerGlobal
 :
 GetRemoteType
 ;
-using
-MessageManagerGlobal
-:
-:
-SendSyncMessage
-;
-using
-MessageManagerGlobal
-:
-:
-SendRpcMessage
-;
 void
 GetInitialProcessData
 (
@@ -403,10 +391,6 @@ NS_FORWARD_SAFE_NSIMESSAGELISTENERMANAGER
 mMessageManager
 )
 NS_FORWARD_SAFE_NSIMESSAGESENDER
-(
-mMessageManager
-)
-NS_FORWARD_SAFE_NSISYNCMESSAGESENDER
 (
 mMessageManager
 )
