@@ -814,7 +814,7 @@ this
 )
 ;
 bool
-allowToStart
+allowedToStart
 =
 AutoplayPolicy
 :
@@ -834,10 +834,10 @@ AudioDestinationNode
 (
 this
 aIsOffline
+allowedToStart
 aNumberOfChannels
 aLength
 aSampleRate
-allowToStart
 )
 ;
 if
@@ -853,7 +853,7 @@ Mute
 if
 (
 !
-allowToStart
+allowedToStart
 )
 {
 ErrorResult
