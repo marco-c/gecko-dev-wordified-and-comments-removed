@@ -124,7 +124,7 @@ u
 none
 -
 t
-g2
+damp
 -
 e10s
 -
@@ -178,7 +178,7 @@ on
 .
 *
 "
-g2
+damp
 -
 e10s
 "
@@ -499,7 +499,7 @@ then
 click
 on
 "
-g2
+damp
 "
 :
 !
@@ -510,7 +510,7 @@ jobs
 (
 perfherder
 -
-g2
+damp
 .
 png
 )

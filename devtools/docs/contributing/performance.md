@@ -1442,7 +1442,7 @@ u
 none
 -
 t
-g2
+damp
 -
 e10s
 -
