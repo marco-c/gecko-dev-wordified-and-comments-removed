@@ -121,6 +121,11 @@ quirks
 =
 QUIRK_FLASH_HOOK_PRINTDLGW
 ;
+quirks
+|
+=
+QUIRK_FLASH_HOOK_SSL
+;
 #
 endif
 #

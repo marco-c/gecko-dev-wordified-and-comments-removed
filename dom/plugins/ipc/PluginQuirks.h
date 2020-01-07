@@ -89,6 +89,12 @@ QUIRK_FLASH_HOOK_PRINTDLGW
 <
 <
 14
+QUIRK_FLASH_HOOK_SSL
+=
+1
+<
+<
+15
 }
 ;
 int
