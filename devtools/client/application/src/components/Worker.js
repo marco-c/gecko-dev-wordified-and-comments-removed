@@ -736,6 +736,11 @@ debugLinkDisabled
 worker__debug
 -
 link
+js
+-
+debug
+-
+link
 }
 Strings
 .
