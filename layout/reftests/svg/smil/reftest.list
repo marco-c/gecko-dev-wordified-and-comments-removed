@@ -1450,12 +1450,6 @@ svg
 lime
 .
 svg
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 anim
@@ -1470,9 +1464,6 @@ view
 lime
 .
 svg
-#
-bug
-1354406
 #
 animate
 some

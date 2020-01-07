@@ -4604,12 +4604,6 @@ Android
 8
 1439
 )
-skip
--
-if
-(
-styloVsGecko
-)
 HTTP
 =
 =
@@ -4642,8 +4636,6 @@ for
 the
 d2d
 failures
-bug
-1354406
 =
 =
 290129
@@ -23035,12 +23027,6 @@ Android
 12
 1000
 )
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 539949
@@ -23059,9 +23045,6 @@ ref
 html
 #
 test2
-#
-bug
-1354406
 =
 =
 541382
