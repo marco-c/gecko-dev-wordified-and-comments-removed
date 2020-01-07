@@ -1608,16 +1608,6 @@ this
 .
 fontSwatch
 .
-textContent
-=
-"
-Aa
-"
-;
-this
-.
-fontSwatch
-.
 addEventListener
 (
 "
