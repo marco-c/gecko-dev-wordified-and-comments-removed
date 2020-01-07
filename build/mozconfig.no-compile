@@ -51,6 +51,8 @@ HOST_CC
 unset
 HOST_CXX
 unset
+LINKER
+unset
 RUSTC
 unset
 CARGO
