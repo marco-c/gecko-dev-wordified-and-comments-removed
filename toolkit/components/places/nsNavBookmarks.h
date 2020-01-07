@@ -664,16 +664,6 @@ _parentId
 )
 ;
 nsresult
-GetLastChildId
-(
-int64_t
-aFolder
-int64_t
-*
-aItemId
-)
-;
-nsresult
 AddSyncChangesForBookmarksWithURL
 (
 const
