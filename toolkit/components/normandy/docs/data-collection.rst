@@ -23,7 +23,7 @@ types
 of
 data
 that
-Shield
+Normandy
 collects
 .
 Uptake
@@ -33,7 +33,7 @@ Uptake
 -
 -
 -
-Shield
+Normandy
 monitors
 the
 execution
@@ -69,11 +69,7 @@ collection
 uptake
 under
 the
-shield
--
-recipe
--
-client
+normandy
 namespace
 .
 Runner
@@ -109,11 +105,7 @@ reported
 under
 the
 key
-shield
--
-recipe
--
-client
+normandy
 /
 runner
 :
@@ -123,7 +115,7 @@ data
 :
 :
 RUNNER_INVALID_SIGNATURE
-Shield
+Normandy
 failed
 to
 verify
@@ -217,7 +209,7 @@ action
 available
 from
 the
-Shield
+Normandy
 service
 one
 of
@@ -229,11 +221,7 @@ reported
 under
 the
 key
-shield
--
-recipe
--
-client
+normandy
 /
 action
 /
@@ -375,11 +363,7 @@ reported
 under
 the
 key
-shield
--
-recipe
--
-client
+normandy
 /
 recipe
 /
@@ -473,7 +457,7 @@ Enrollment
 -
 -
 -
-Shield
+Normandy
 records
 enrollment
 and
@@ -825,7 +809,7 @@ the
 user
 branch
 while
-Shield
+Normandy
 was
 inactive
 .
@@ -1250,7 +1234,7 @@ on
 was
 uninstalled
 while
-Shield
+Normandy
 was
 inactive
 .

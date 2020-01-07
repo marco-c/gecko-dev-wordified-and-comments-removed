@@ -130,13 +130,9 @@ const
 SHIELD_LEARN_MORE_URL_PREF
 =
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 .
 shieldLearnMoreUrl
 "
