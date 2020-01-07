@@ -2635,6 +2635,13 @@ a11yPanel
 selectAccessibleForNode
 (
 nodeFront
+"
+browser
+-
+context
+-
+menu
+"
 )
 ;
 await
