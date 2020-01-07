@@ -6749,7 +6749,7 @@ if
 await
 Authentication
 .
-isLoggedIn
+isReady
 (
 )
 )
@@ -6939,6 +6939,20 @@ firstSync
 )
 ;
 }
+if
+(
+!
+await
+Weave
+.
+Service
+.
+login
+(
+)
+)
+{
+await
 this
 .
 Login
@@ -6946,6 +6960,7 @@ Login
 false
 )
 ;
+}
 +
 +
 this
