@@ -6227,6 +6227,17 @@ mMaxSamples
 )
 ;
 }
+mMaxTexOrRbSize
+=
+std
+:
+:
+min
+(
+mMaxTextureSize
+mMaxRenderbufferSize
+)
+;
 fBindFramebuffer
 (
 LOCAL_GL_FRAMEBUFFER
