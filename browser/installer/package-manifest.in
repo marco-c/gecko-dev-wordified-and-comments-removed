@@ -2546,6 +2546,8 @@ browser
 PREF_DIR
 /
 webide
+-
+prefs
 .
 js
 ;
@@ -2584,6 +2586,8 @@ PREF_DIR
 devtools
 -
 startup
+-
+prefs
 .
 js
 ;
@@ -2612,19 +2616,6 @@ browser
 PREF_DIR
 /
 devtools
--
-shared
-.
-js
-RESPATH
-/
-browser
-/
-PREF_DIR
-/
-devtools
--
-client
 .
 js
 RESPATH
