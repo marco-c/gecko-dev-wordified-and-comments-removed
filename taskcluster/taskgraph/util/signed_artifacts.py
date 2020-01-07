@@ -69,9 +69,6 @@ True
 kind
 =
 None
-project
-=
-None
 )
 :
     
@@ -88,7 +85,7 @@ build_platform
 '
 )
     
-is_nightly
+use_stub
 =
 task
 .
@@ -97,7 +94,9 @@ attributes
 get
 (
 '
-nightly
+stub
+-
+installer
 '
 )
     
@@ -367,32 +366,8 @@ widevine
 }
 ]
         
-no_stub
-=
-(
-"
-mozilla
--
-esr60
-"
-"
-jamun
-"
-)
-        
 if
-'
-win32
-'
-in
-build_platform
-and
-is_nightly
-and
-project
-not
-in
-no_stub
+use_stub
 :
             
 artifacts_specifications
