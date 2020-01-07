@@ -5835,6 +5835,24 @@ test
 verify
 '
 )
+or
+\
+           
+test
+[
+'
+suite
+'
+]
+.
+startswith
+(
+'
+test
+-
+coverage
+'
+)
 :
             
 env

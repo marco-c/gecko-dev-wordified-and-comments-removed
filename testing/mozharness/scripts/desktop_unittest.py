@@ -6908,7 +6908,8 @@ suite_category
                 
 summary
 =
-None
+{
+}
                 
 executed_too_many_tests
 =
