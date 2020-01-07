@@ -463,6 +463,7 @@ activation
 asJit
 (
 )
+true
 )
 {
 stack
