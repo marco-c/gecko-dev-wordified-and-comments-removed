@@ -388,6 +388,14 @@ opt
 '
 linux64
 -
+fuzzing
+-
+debug
+'
+    
+'
+linux64
+-
 ccov
 -
 opt
