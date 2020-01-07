@@ -48947,14 +48947,17 @@ fill
 "
 "
                 
-JSCompartment
+JS
+:
+:
+Realm
 *
-compartment
+realm
 =
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 )
@@ -48962,7 +48965,7 @@ cx
                 
 MOZ_ASSERT
 (
-compartment
+realm
 )
 ;
                 
@@ -48970,9 +48973,12 @@ JSPrincipals
 *
 principals
 =
-JS_GetCompartmentPrincipals
+JS
+:
+:
+GetRealmPrincipals
 (
-compartment
+realm
 )
 ;
                 
@@ -51212,17 +51218,25 @@ argsPost
 append
 (
 "
-js
-:
-:
-GetObjectCompartment
 (
 unwrappedObj
 ?
+js
+:
+:
+GetNonCCWObjectRealm
+(
 *
 unwrappedObj
+)
 :
-obj
+js
+:
+:
+GetContextRealm
+(
+cx
+)
 )
 "
 )
@@ -103352,11 +103366,14 @@ append
 Argument
 (
 "
-JSCompartment
+JS
+:
+:
+Realm
 *
 "
 "
-aCompartment
+aRealm
 "
 "
 nullptr
@@ -103747,7 +103764,7 @@ append
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 scopeObj
 )
@@ -106925,11 +106942,14 @@ append
 Argument
 (
 "
-JSCompartment
+JS
+:
+:
+Realm
 *
 "
 "
-aCompartment
+aRealm
 "
 "
 nullptr
@@ -107113,7 +107133,7 @@ this
 aRv
 aExecutionReason
 aExceptionHandling
-aCompartment
+aRealm
 )
 ;
             
@@ -109767,11 +109787,14 @@ append
 Argument
 (
 "
-JSCompartment
+JS
+:
+:
+Realm
 *
 "
 "
-aCompartment
+aRealm
 "
 "
 nullptr
@@ -109859,7 +109882,7 @@ callSetup
 s
 "
 eRethrowContentExceptions
-aCompartment
+aRealm
 /
 *
 aIsJSImplementedWebIDL
@@ -109899,7 +109922,7 @@ callSetup
 s
 "
 aExceptionHandling
-aCompartment
+aRealm
 '
 %
 self
