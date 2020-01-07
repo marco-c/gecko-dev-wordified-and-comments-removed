@@ -2127,6 +2127,23 @@ listdir
 (
 vendor_dir
 )
+if
+os
+.
+path
+.
+isdir
+(
+os
+.
+path
+.
+join
+(
+vendor_dir
+p
+)
+)
 ]
         
 return
