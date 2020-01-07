@@ -682,6 +682,9 @@ const
 char
 *
 cname
+unsigned
+int
+TRRType
 )
 ;
 explicit
