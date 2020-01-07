@@ -307,6 +307,13 @@ PRFileDescStream
 aRecording
 )
 ;
+void
+PageDone
+(
+nsresult
+aResult
+)
+;
 nsCOMPtr
 <
 nsIPrintSettings

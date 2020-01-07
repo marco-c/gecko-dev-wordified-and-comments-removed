@@ -859,6 +859,17 @@ mPDFFileForOnePage
 =
 nullptr
 ;
+if
+(
+mPageDoneCallback
+)
+{
+mPageDoneCallback
+(
+aResult
+)
+;
+}
 }
 }
 }
