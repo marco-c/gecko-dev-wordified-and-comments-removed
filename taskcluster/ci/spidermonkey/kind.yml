@@ -116,11 +116,6 @@ defaults
 :
 treeherder
 :
-platform
-:
-linux64
-/
-opt
 kind
 :
 build
@@ -408,6 +403,8 @@ jobs
 sm
 -
 package
+-
+linux64
 /
 opt
 :
@@ -430,6 +427,8 @@ sm
 -
 package
 -
+linux64
+-
 opt
 treeherder
 :
@@ -441,6 +440,11 @@ tc
 (
 pkg
 )
+platform
+:
+linux64
+/
+opt
 worker
 :
 max
@@ -499,6 +503,8 @@ sm
 mozjs
 -
 sys
+-
+linux64
 /
 debug
 :
@@ -527,6 +533,8 @@ mozjs
 -
 sys
 -
+linux64
+-
 debug
 treeherder
 :
@@ -622,6 +630,8 @@ sm
 rust
 -
 bindings
+-
+linux64
 /
 debug
 :
@@ -649,6 +659,8 @@ rust
 -
 bindings
 -
+linux64
+-
 debug
 treeherder
 :
@@ -663,6 +675,11 @@ rust
 tier
 :
 2
+platform
+:
+linux64
+/
+debug
 worker
 :
 max
@@ -738,6 +755,8 @@ try
 sm
 -
 plain
+-
+linux64
 /
 debug
 :
@@ -755,7 +774,9 @@ name
 :
 sm
 -
-plaindebug
+plain
+-
+linux64
 -
 debug
 treeherder
@@ -825,7 +846,7 @@ sm
 -
 plain
 -
-windows
+win32
 /
 debug
 :
@@ -843,9 +864,9 @@ name
 :
 sm
 -
-win
+plain
 -
-plaindebug
+win32
 -
 debug
 treeherder
@@ -922,6 +943,8 @@ plaindebug
 sm
 -
 plain
+-
+linux64
 /
 opt
 :
@@ -941,6 +964,8 @@ sm
 -
 plain
 -
+linux64
+-
 opt
 treeherder
 :
@@ -952,6 +977,11 @@ tc
 (
 p
 )
+platform
+:
+linux64
+/
+opt
 worker
 :
 max
@@ -1004,7 +1034,7 @@ sm
 -
 plain
 -
-windows
+win32
 /
 opt
 :
@@ -1022,9 +1052,9 @@ name
 :
 sm
 -
-win
--
 plain
+-
+win32
 -
 opt
 treeherder
@@ -1103,6 +1133,8 @@ sm
 arm
 -
 sim
+-
+linux32
 /
 debug
 :
@@ -1125,6 +1157,8 @@ arm
 -
 sim
 -
+linux32
+-
 debug
 treeherder
 :
@@ -1196,6 +1230,8 @@ sm
 arm64
 -
 sim
+-
+linux64
 /
 debug
 :
@@ -1217,6 +1253,8 @@ sm
 arm64
 -
 sim
+-
+linux64
 -
 debug
 treeherder
@@ -1287,6 +1325,8 @@ sim
 sm
 -
 asan
+-
+linux64
 /
 opt
 :
@@ -1307,6 +1347,8 @@ sm
 -
 asan
 -
+linux64
+-
 opt
 treeherder
 :
@@ -1318,6 +1360,11 @@ tc
 (
 asan
 )
+platform
+:
+linux64
+/
+opt
 worker
 :
 max
@@ -1369,6 +1416,8 @@ asan
 sm
 -
 compacting
+-
+linux64
 /
 debug
 :
@@ -1387,6 +1436,8 @@ name
 sm
 -
 compacting
+-
+linux64
 -
 debug
 treeherder
@@ -1456,7 +1507,7 @@ sm
 -
 compacting
 -
-windows
+win32
 /
 debug
 :
@@ -1474,9 +1525,9 @@ name
 :
 sm
 -
-win
--
 compacting
+-
+win32
 -
 debug
 treeherder
@@ -1553,6 +1604,8 @@ compacting
 sm
 -
 msan
+-
+linux64
 /
 opt
 :
@@ -1573,6 +1626,8 @@ sm
 -
 msan
 -
+linux64
+-
 opt
 treeherder
 :
@@ -1584,6 +1639,11 @@ tc
 (
 msan
 )
+platform
+:
+linux64
+/
+opt
 worker
 :
 max
@@ -1635,6 +1695,8 @@ msan
 sm
 -
 tsan
+-
+linux64
 /
 opt
 :
@@ -1655,6 +1717,8 @@ sm
 -
 tsan
 -
+linux64
+-
 opt
 treeherder
 :
@@ -1669,6 +1733,11 @@ tsan
 tier
 :
 3
+platform
+:
+linux64
+/
+opt
 worker
 :
 max
@@ -1720,6 +1789,8 @@ tsan
 sm
 -
 rootanalysis
+-
+linux64
 /
 debug
 :
@@ -1739,6 +1810,8 @@ name
 sm
 -
 rootanalysis
+-
+linux64
 -
 debug
 treeherder
@@ -1807,6 +1880,8 @@ rootanalysis
 sm
 -
 nonunified
+-
+linux64
 /
 debug
 :
@@ -1828,6 +1903,8 @@ name
 sm
 -
 nonunified
+-
+linux64
 -
 debug
 treeherder
@@ -1896,6 +1973,8 @@ nonunified
 sm
 -
 fuzzing
+-
+linux64
 /
 opt
 :
@@ -1914,6 +1993,8 @@ name
 sm
 -
 fuzzing
+-
+linux64
 treeherder
 :
 platform
