@@ -1066,6 +1066,8 @@ return
 isFragment
 &
 &
+!
+!
 this
 .
 rawNode
@@ -1138,6 +1140,8 @@ return
 parentNode
 &
 &
+!
+!
 parentNode
 .
 shadowRoot
