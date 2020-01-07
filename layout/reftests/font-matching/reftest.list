@@ -413,12 +413,6 @@ if
 !
 winWidget
 )
-fails
--
-if
-(
-winWidget
-)
 =
 =
 1458158
