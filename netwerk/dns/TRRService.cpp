@@ -533,6 +533,14 @@ mWaitForCaptive
 |
 |
 mCaptiveIsPassed
+|
+|
+(
+mMode
+=
+=
+MODE_TRRONLY
+)
 )
 )
 {
