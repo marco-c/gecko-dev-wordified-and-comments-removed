@@ -236,7 +236,7 @@ param
 .
 AutoConfigURL
 .
-spec
+href
 )
 ;
 }

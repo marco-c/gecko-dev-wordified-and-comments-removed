@@ -84,11 +84,8 @@ mode
 let
 autoconfigURL
 =
-Services
-.
-io
-.
-newURI
+new
+URL
 (
 "
 data
@@ -121,7 +118,7 @@ is
 value
 autoconfigURL
 .
-spec
+href
 "
 AutoconfigURL
 correctly
