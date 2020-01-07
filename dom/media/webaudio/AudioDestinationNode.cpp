@@ -1297,6 +1297,8 @@ uint32_t
 aLength
 float
 aSampleRate
+bool
+aAllowToStart
 )
 :
 AudioNode
@@ -1461,6 +1463,9 @@ if
 (
 !
 aIsOffline
+&
+&
+aAllowToStart
 )
 {
 graph
