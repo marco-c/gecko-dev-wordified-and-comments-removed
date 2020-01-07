@@ -53707,7 +53707,7 @@ protoObj_
 }
 ;
 class
-MInstanceOfCache
+MCallInstanceOf
 :
 public
 MBinaryInstruction
@@ -53727,7 +53727,7 @@ ObjectPolicy
 :
 Data
 {
-MInstanceOfCache
+MCallInstanceOf
 (
 MDefinition
 *
@@ -53757,7 +53757,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-InstanceOfCache
+CallInstanceOf
 )
 TRIVIAL_NEW_WRAPPERS
 }

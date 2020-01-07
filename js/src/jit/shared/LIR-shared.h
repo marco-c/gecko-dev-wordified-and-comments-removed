@@ -31705,10 +31705,10 @@ LHS
 }
 ;
 class
-LInstanceOfCache
+LCallInstanceOf
 :
 public
-LInstructionHelper
+LCallInstructionHelper
 <
 1
 BOX_PIECES
@@ -31721,9 +31721,9 @@ public
 :
 LIR_HEADER
 (
-InstanceOfCache
+CallInstanceOf
 )
-LInstanceOfCache
+LCallInstanceOf
 (
 const
 LBoxAllocation
