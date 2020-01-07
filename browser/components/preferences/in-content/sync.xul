@@ -1062,7 +1062,7 @@ label
 =
 "
 &
-verify
+resendVerification
 .
 label
 ;
@@ -1071,7 +1071,7 @@ accesskey
 =
 "
 &
-verify
+resendVerification
 .
 accesskey
 ;
@@ -1092,7 +1092,7 @@ label
 =
 "
 &
-forget
+cancelSetup
 .
 label
 ;
@@ -1101,7 +1101,7 @@ accesskey
 =
 "
 &
-forget
+cancelSetup
 .
 accesskey
 ;
@@ -1274,7 +1274,7 @@ label
 =
 "
 &
-forget
+cancelSetup
 .
 label
 ;
@@ -1283,7 +1283,7 @@ accesskey
 =
 "
 &
-forget
+cancelSetup
 .
 accesskey
 ;
