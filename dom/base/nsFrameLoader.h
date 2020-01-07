@@ -433,12 +433,6 @@ LoadFrame
 (
 bool
 aOriginalSrc
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 void

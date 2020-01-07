@@ -3081,7 +3081,7 @@ nsAtom
 aName
 )
 ;
-nsresult
+void
 LoadSrc
 (
 )
