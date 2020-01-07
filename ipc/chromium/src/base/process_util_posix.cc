@@ -136,15 +136,6 @@ include
 "
 base
 /
-sys_info
-.
-h
-"
-#
-include
-"
-base
-/
 time
 .
 h
