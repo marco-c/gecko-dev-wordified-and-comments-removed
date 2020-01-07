@@ -1592,6 +1592,7 @@ mFrame
 PresContext
 (
 )
+nullptr
 )
 ;
 mozilla
