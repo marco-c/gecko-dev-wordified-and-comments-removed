@@ -887,9 +887,6 @@ return
 debug
 "
 "
-stylo
-"
-"
 webrender
 "
 "
@@ -915,9 +912,6 @@ debug
 "
 "
 e10s
-"
-"
-stylo
 "
 "
 webrender
