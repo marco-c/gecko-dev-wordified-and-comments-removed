@@ -6,17 +6,6 @@ define
 nsIScriptNameSpaceManager_h__
 #
 define
-JAVASCRIPT_GLOBAL_CONSTRUCTOR_CATEGORY
-\
-"
-JavaScript
--
-global
--
-constructor
-"
-#
-define
 JAVASCRIPT_GLOBAL_PROPERTY_CATEGORY
 \
 "
