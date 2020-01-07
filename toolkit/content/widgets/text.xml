@@ -162,13 +162,6 @@ text
 -
 base
 "
-role
-=
-"
-xul
-:
-text
-"
 >
 <
 implementation
@@ -2066,13 +2059,6 @@ xml
 text
 -
 label
-"
-role
-=
-"
-xul
-:
-link
 "
 >
 <
