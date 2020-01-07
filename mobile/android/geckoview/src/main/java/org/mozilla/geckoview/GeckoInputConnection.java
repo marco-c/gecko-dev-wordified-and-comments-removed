@@ -1624,6 +1624,7 @@ getInputDelegate
 .
 showSoftInput
 (
+mSession
 )
 ;
 mSoftInputReentrancyGuard
@@ -1677,6 +1678,7 @@ getInputDelegate
 .
 hideSoftInput
 (
+mSession
 )
 ;
 mSoftInputReentrancyGuard
@@ -1726,6 +1728,7 @@ getInputDelegate
 .
 restartInput
 (
+mSession
 reason
 )
 ;
@@ -1891,6 +1894,7 @@ getInputDelegate
 .
 updateExtractedText
 (
+mSession
 request
 extractedText
 )
@@ -2022,6 +2026,7 @@ getInputDelegate
 .
 updateSelection
 (
+mSession
 start
 end
 compositionStart
@@ -2359,6 +2364,7 @@ getInputDelegate
 .
 updateCursorAnchorInfo
 (
+mSession
 info
 )
 ;
