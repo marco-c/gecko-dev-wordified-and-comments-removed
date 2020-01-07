@@ -9245,9 +9245,6 @@ return
 false
 ;
 }
-return
-false
-;
 }
 nsStyleContext
 *
