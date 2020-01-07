@@ -433,6 +433,15 @@ nsString
 aMedia
 )
 {
+if
+(
+aSelf
+.
+IsInUncomposedDoc
+(
+)
+)
+{
 aSelf
 .
 GetAttr
@@ -451,6 +460,7 @@ CompressWhitespace
 (
 )
 ;
+}
 aSelf
 .
 GetAttr
