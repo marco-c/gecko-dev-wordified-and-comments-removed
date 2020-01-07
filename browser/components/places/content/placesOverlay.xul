@@ -263,8 +263,12 @@ jsm
 ;
 ChromeUtils
 .
-import
+defineModuleGetter
 (
+window
+"
+PlacesUtils
+"
 "
 resource
 :
