@@ -25,6 +25,13 @@ nsStyleConsts
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 struct
 nsPoint
 ;
