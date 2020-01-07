@@ -17,6 +17,9 @@ tests
 :
 [
 "
+about_preferences_basic
+"
+"
 tresize
 "
 ]
@@ -46,6 +49,9 @@ tests
 "
 :
 [
+"
+about_preferences_basic
+"
 "
 tresize
 "
