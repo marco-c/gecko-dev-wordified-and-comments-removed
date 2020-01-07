@@ -581,7 +581,7 @@ bool
 aBlockLevel
 )
 ;
-NS_IMETHOD
+nsresult
 GetHTMLBackgroundColorState
 (
 bool
@@ -1636,7 +1636,7 @@ InsertBR
 (
 )
 ;
-NS_IMETHOD
+nsresult
 InsertCell
 (
 nsIDOMElement
@@ -1656,7 +1656,7 @@ nsIDOMElement
 aNewCell
 )
 ;
-NS_IMETHOD
+nsresult
 DeleteRow
 (
 nsIDOMElement
@@ -1666,7 +1666,7 @@ int32_t
 aRowIndex
 )
 ;
-NS_IMETHOD
+nsresult
 DeleteColumn
 (
 nsIDOMElement
@@ -1676,7 +1676,7 @@ int32_t
 aColIndex
 )
 ;
-NS_IMETHOD
+nsresult
 DeleteCellContents
 (
 nsIDOMElement
@@ -1684,7 +1684,7 @@ nsIDOMElement
 aCell
 )
 ;
-NS_IMETHOD
+nsresult
 MergeCells
 (
 nsCOMPtr
@@ -1712,7 +1712,7 @@ Selection
 aSelection
 )
 ;
-NS_IMETHOD
+nsresult
 SetColSpan
 (
 nsIDOMElement
@@ -1722,7 +1722,7 @@ int32_t
 aColSpan
 )
 ;
-NS_IMETHOD
+nsresult
 SetRowSpan
 (
 nsIDOMElement
@@ -1813,7 +1813,7 @@ int32_t
 aColIndex
 )
 ;
-NS_IMETHOD
+nsresult
 GetCellSpansAt
 (
 nsIDOMElement
@@ -1831,7 +1831,7 @@ int32_t
 aActualColSpan
 )
 ;
-NS_IMETHOD
+nsresult
 SplitCellIntoColumns
 (
 nsIDOMElement
@@ -1851,7 +1851,7 @@ nsIDOMElement
 aNewCell
 )
 ;
-NS_IMETHOD
+nsresult
 SplitCellIntoRows
 (
 nsIDOMElement
@@ -1882,7 +1882,7 @@ nsIDOMElement
 sourceCell
 )
 ;
-NS_IMETHOD
+nsresult
 FixBadRowSpan
 (
 nsIDOMElement
@@ -1895,7 +1895,7 @@ int32_t
 aNewRowCount
 )
 ;
-NS_IMETHOD
+nsresult
 FixBadColSpan
 (
 nsIDOMElement
@@ -1973,14 +1973,14 @@ outValue
 nullptr
 )
 ;
-NS_IMETHOD
+nsresult
 PasteAsPlaintextQuotation
 (
 int32_t
 aSelectionType
 )
 ;
-NS_IMETHOD
+nsresult
 InsertAsPlaintextQuotation
 (
 const

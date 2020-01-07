@@ -373,7 +373,7 @@ nullptr
 }
 }
 ;
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -670,7 +670,7 @@ AsRaw
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -714,7 +714,7 @@ newSpan
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -3942,7 +3942,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -4410,7 +4410,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -5126,7 +5126,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -7328,7 +7328,7 @@ color
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -7523,7 +7523,7 @@ cell
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -9332,7 +9332,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -9565,7 +9565,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -9905,7 +9905,7 @@ colCount
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -11548,7 +11548,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :

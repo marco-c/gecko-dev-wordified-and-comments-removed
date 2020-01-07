@@ -7765,7 +7765,7 @@ aSelectionType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -8339,7 +8339,7 @@ aNodeInserted
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
