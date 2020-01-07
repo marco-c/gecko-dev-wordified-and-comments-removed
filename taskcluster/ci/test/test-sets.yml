@@ -995,6 +995,10 @@ xperf
 talos
 -
 speedometer
+-
+talos
+-
+tp6
 macosx64
 -
 tests
