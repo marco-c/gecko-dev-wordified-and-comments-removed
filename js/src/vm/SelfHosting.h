@@ -80,6 +80,9 @@ CompileOptions
 options
 )
 ;
+#
+ifdef
+DEBUG
 bool
 CallSelfHostedFunction
 (
@@ -100,6 +103,8 @@ MutableHandleValue
 rval
 )
 ;
+#
+endif
 bool
 CallSelfHostedFunction
 (

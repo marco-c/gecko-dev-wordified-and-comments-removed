@@ -3958,17 +3958,6 @@ ArgumentsAreLatin1
 ArgumentsAreUTF8
 }
 ;
-JSFunction
-*
-SelfHostedFunction
-(
-JSContext
-*
-cx
-HandlePropertyName
-propName
-)
-;
 #
 ifdef
 va_start
