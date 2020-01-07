@@ -742,7 +742,9 @@ tab
 let
 promiseTopic
 =
-promiseTopicObserved
+TestUtils
+.
+topicObserved
 (
 "
 PopupNotifications
@@ -965,7 +967,9 @@ run
 let
 promiseTopic
 =
-promiseTopicObserved
+TestUtils
+.
+topicObserved
 (
 "
 PopupNotifications
