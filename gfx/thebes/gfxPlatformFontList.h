@@ -329,6 +329,9 @@ mFontTableCacheSize
 uint32_t
 mCharMapsSize
 ;
+uint32_t
+mLoaderSize
+;
 }
 ;
 class
