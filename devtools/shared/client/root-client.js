@@ -17,6 +17,7 @@ chrome
 ;
 const
 {
+arg
 DebuggerClient
 }
 =
@@ -113,6 +114,12 @@ type
 "
 listTabs
 "
+options
+:
+arg
+(
+0
+)
 }
 )
 listAddons

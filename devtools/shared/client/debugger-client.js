@@ -1419,6 +1419,7 @@ listTabs
 :
 function
 (
+options
 onResponse
 )
 {
@@ -1429,6 +1430,7 @@ mainRoot
 .
 listTabs
 (
+options
 onResponse
 )
 ;

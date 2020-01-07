@@ -679,6 +679,7 @@ onListTabs
 async
 function
 (
+request
 )
 {
 let
@@ -752,6 +753,17 @@ let
 selected
 ;
 let
+options
+=
+request
+.
+options
+|
+|
+{
+}
+;
+let
 tabActors
 =
 await
@@ -759,6 +771,7 @@ tabList
 .
 getList
 (
+options
 )
 ;
 for
