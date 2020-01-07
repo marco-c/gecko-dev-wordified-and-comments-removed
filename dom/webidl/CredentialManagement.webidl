@@ -210,6 +210,17 @@ Credential
 credential
 )
 ;
+[
+Throws
+]
+Promise
+<
+void
+>
+preventSilentAccess
+(
+)
+;
 }
 ;
 dictionary
