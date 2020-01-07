@@ -372,7 +372,6 @@ bool
 OnDocumentParserError
 (
 )
-override
 ;
 virtual
 nsresult
