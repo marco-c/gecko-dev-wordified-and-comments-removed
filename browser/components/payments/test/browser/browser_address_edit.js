@@ -3157,12 +3157,11 @@ test_private_persist_addresses
 (
 )
 {
-await
 formAutofillStorage
 .
 addresses
 .
-_nukeAllRecords
+removeAll
 (
 )
 ;

@@ -153,6 +153,9 @@ remove
 "
 reconcile
 "
+"
+removeAll
+"
 ]
 .
 forEach
@@ -173,9 +176,7 @@ storage
 -
 changed
 "
-"
-add
-"
+event
 )
 ;
 Assert
