@@ -228,7 +228,7 @@ sendEvent
 unenrollFailed
 "
 "
-preference_rollout
+preference_rollback
 "
 rolloutSlug
 {
@@ -341,7 +341,7 @@ sendEvent
 unenroll
 "
 "
-preference_rollout
+preference_rollback
 "
 rolloutSlug
 {
@@ -386,7 +386,7 @@ sendEvent
 unenrollFailed
 "
 "
-preference_rollout
+preference_rollback
 "
 rolloutSlug
 {
