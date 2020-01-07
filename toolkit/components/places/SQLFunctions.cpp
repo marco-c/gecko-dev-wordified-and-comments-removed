@@ -2112,7 +2112,7 @@ DB
 )
 ;
 {
-RefPtr
+nsCOMPtr
 <
 mozIStorageStatement
 >
