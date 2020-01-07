@@ -108,7 +108,7 @@ eTreeOpAddViewSourceBase
 eTreeOpAddError
 eTreeOpAddLineNumberId
 eTreeOpStartLayout
-eTreeOpDisableEncodingMenu
+eTreeOpEnableEncodingMenu
 }
 ;
 class

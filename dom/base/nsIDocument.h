@@ -2663,13 +2663,13 @@ sandboxFlags
 ;
 }
 void
-DisableEncodingMenu
+EnableEncodingMenu
 (
 )
 {
 mEncodingMenuDisabled
 =
-true
+false
 ;
 }
 void

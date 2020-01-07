@@ -5874,7 +5874,7 @@ NS_OK
 ;
 }
 case
-eTreeOpDisableEncodingMenu
+eTreeOpEnableEncodingMenu
 :
 {
 nsIDocument
@@ -5891,7 +5891,7 @@ GetDocument
 doc
 -
 >
-DisableEncodingMenu
+EnableEncodingMenu
 (
 )
 ;

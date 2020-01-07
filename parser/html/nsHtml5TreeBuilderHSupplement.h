@@ -336,7 +336,7 @@ aLineNumber
 )
 ;
 void
-TryToDisableEncodingMenu
+TryToEnableEncodingMenu
 (
 )
 ;
