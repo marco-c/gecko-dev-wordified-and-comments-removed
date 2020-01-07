@@ -325,7 +325,8 @@ await
 promise_rejects
 (
 t
-err
+new
+TypeError
 fetch
 (
 .
