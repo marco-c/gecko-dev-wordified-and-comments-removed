@@ -1478,6 +1478,57 @@ parameters
 return
 None
             
+repo_param
+=
+'
+{
+}
+head_repository
+'
+.
+format
+(
+graph_config
+[
+'
+project
+-
+repo
+-
+param
+-
+prefix
+'
+]
+)
+            
+revision
+=
+parameters
+[
+'
+{
+}
+head_rev
+'
+.
+format
+(
+graph_config
+[
+'
+project
+-
+repo
+-
+param
+-
+prefix
+'
+]
+)
+]
+            
 match
 =
 re
@@ -1508,9 +1559,7 @@ org
 '
 parameters
 [
-'
-head_repository
-'
+repo_param
 ]
 )
             
@@ -1524,8 +1573,14 @@ Exception
 (
 '
 Unrecognized
-head_repository
+{
+}
 '
+.
+format
+(
+repo_param
+)
 )
             
 repo_scope
@@ -1713,9 +1768,7 @@ url
 :
 parameters
 [
-'
-head_repository
-'
+repo_param
 ]
                             
 '
@@ -1778,12 +1831,7 @@ pushlog_id
 revision
 '
 :
-parameters
-[
-'
-head_rev
-'
-]
+revision
                         
 }
                         
