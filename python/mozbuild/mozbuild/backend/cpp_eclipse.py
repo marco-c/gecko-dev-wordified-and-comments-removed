@@ -454,7 +454,7 @@ getattr
 (
 obj
 '
-relativedir
+relsrcdir
 '
 None
 )

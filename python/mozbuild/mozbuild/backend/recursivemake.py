@@ -11353,7 +11353,7 @@ add
 (
 obj
 .
-relativedir
+relsrcdir
 )
     
 def

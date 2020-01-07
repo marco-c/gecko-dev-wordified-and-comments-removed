@@ -2073,7 +2073,7 @@ join
 (
 l
 .
-relativedir
+relsrcdir
 '
 moz
 .
@@ -3451,7 +3451,7 @@ _binaries
 program
 ]
 .
-relativedir
+relsrcdir
 )
 context
 )
@@ -3838,7 +3838,7 @@ _binaries
 program
 ]
 .
-relativedir
+relsrcdir
 )
 context
 )

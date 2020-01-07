@@ -466,7 +466,7 @@ getattr
 (
 obj
 '
-relativedir
+relsrcdir
 '
 None
 )
@@ -714,7 +714,7 @@ getattr
 (
 obj
 '
-relativedir
+relsrcdir
 '
 None
 )

@@ -525,7 +525,7 @@ reldirs
 [
 o
 .
-relativedir
+relsrcdir
 for
 o
 in
@@ -705,7 +705,7 @@ set
 [
 o
 .
-relativedir
+relsrcdir
 for
 o
 in
@@ -740,7 +740,7 @@ reldir
 =
 o
 .
-relativedir
+relsrcdir
             
 if
 reldir
@@ -852,7 +852,7 @@ set
 [
 o
 .
-relativedir
+relsrcdir
 for
 o
 in
@@ -890,7 +890,7 @@ reldir
 =
 o
 .
-relativedir
+relsrcdir
             
 if
 reldir
@@ -8153,7 +8153,7 @@ s
 (
 o
 .
-relativedir
+relsrcdir
 o
 .
 basename
@@ -8183,7 +8183,7 @@ s
 (
 o
 .
-relativedir
+relsrcdir
 o
 .
 basename
