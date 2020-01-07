@@ -129,11 +129,6 @@ nsIDOMDocumentFragment
 idl
 '
 '
-nsIDOMDocumentType
-.
-idl
-'
-'
 nsIDOMDOMException
 .
 idl

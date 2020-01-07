@@ -1016,13 +1016,6 @@ h
 #
 include
 "
-nsIDOMDocumentType
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

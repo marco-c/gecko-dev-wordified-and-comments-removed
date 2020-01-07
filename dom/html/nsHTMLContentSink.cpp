@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsIDOMDocumentType
-.
-h
-"
-#
-include
-"
 nsIScriptElement
 .
 h
