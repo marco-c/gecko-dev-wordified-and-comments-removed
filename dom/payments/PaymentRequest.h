@@ -662,6 +662,12 @@ PaymentAddress
 >
 mShippingAddress
 ;
+RefPtr
+<
+PaymentAddress
+>
+mFullShippingAddress
+;
 nsString
 mShippingOption
 ;
