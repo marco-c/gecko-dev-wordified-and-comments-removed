@@ -4981,6 +4981,14 @@ updateInfo
 .
 guid
 ;
+pageInfo
+.
+title
+=
+updateInfo
+.
+title
+;
 if
 (
 !
