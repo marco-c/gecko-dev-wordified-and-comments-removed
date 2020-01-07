@@ -196,6 +196,11 @@ AnimationComparator
 h
 '
 '
+AnimationEventDispatcher
+.
+h
+'
+'
 AnimationPerformanceWarning
 .
 h
