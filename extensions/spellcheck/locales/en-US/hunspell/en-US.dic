@@ -1,4 +1,4 @@
-52520
+52537
 0
 /
 nm
@@ -33596,6 +33596,12 @@ THC
 THz
 /
 M
+TIF
+/
+MS
+TIFF
+/
+MS
 TKO
 /
 M
@@ -49977,6 +49983,7 @@ M
 buoyant
 /
 Y
+bupkis
 bur
 /
 SMY
@@ -59273,6 +59280,7 @@ MS
 crape
 /
 SM
+crapola
 crapped
 crapper
 /
@@ -60646,6 +60654,7 @@ M
 cyberpunk
 /
 SM
+cybersecurity
 cybersex
 cyberspace
 /
@@ -67668,6 +67677,8 @@ empanel
 /
 GDS
 empathetic
+empathic
+empathically
 empathize
 /
 DSG
@@ -69803,6 +69814,12 @@ exertion
 /
 MS
 exeunt
+exfiltrate
+/
+DGS
+exfiltration
+/
+S
 exfoliate
 /
 GNDS
@@ -78609,6 +78626,7 @@ gunsmith
 /
 M
 gunsmiths
+gunsmoke
 gunwale
 /
 MS
@@ -112819,6 +112837,8 @@ redhead
 /
 SMD
 redirection
+/
+S
 redistrict
 /
 GD
@@ -114390,6 +114410,7 @@ JMDRSZG
 revelation
 /
 SM
+revelatory
 reveler
 /
 M
@@ -123618,7 +123639,10 @@ spit
 MDGS
 spitball
 /
-SM
+SMG
+spitballer
+/
+S
 spite
 /
 ASM
@@ -133807,6 +133831,12 @@ DG
 unbound
 /
 D
+unbox
+/
+DS
+unboxing
+/
+S
 unbreakable
 unbroken
 uncanny
@@ -134461,6 +134491,8 @@ unloving
 unlucky
 /
 T
+unmaintainable
+unmaintained
 unman
 /
 S
@@ -136013,7 +136045,7 @@ vie
 DS
 view
 /
-AMDRSZG
+AMDRSZGB
 viewer
 /
 AM
@@ -138181,6 +138213,9 @@ MS
 whitehead
 /
 MS
+whitelist
+/
+DGS
 whiten
 /
 ZGDRJ
