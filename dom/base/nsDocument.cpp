@@ -14567,7 +14567,7 @@ aLastModified
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 AddToNameTable
@@ -14670,7 +14670,7 @@ aElement
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 RemoveFromNameTable
@@ -14751,7 +14751,7 @@ generation
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 AddToIdTable
@@ -14827,7 +14827,7 @@ aElement
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 RemoveFromIdTable
