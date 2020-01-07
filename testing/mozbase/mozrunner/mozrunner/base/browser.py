@@ -363,29 +363,6 @@ self
 .
 cmdargs
         
-if
-hasattr
-(
-self
-.
-app_ctx
-'
-wrap_command
-'
-)
-:
-            
-command
-=
-self
-.
-app_ctx
-.
-wrap_command
-(
-command
-)
-        
 return
 command
     
