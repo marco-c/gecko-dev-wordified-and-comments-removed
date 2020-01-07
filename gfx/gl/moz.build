@@ -827,6 +827,11 @@ GLUploadHelpers
 cpp
 '
 '
+MozFramebuffer
+.
+cpp
+'
+'
 ScopedGLHelpers
 .
 cpp
