@@ -38519,16 +38519,6 @@ pref
 "
 extensions
 .
-alwaysUnpack
-"
-false
-)
-;
-pref
-(
-"
-extensions
-.
 minCompatiblePlatformVersion
 "
 "
