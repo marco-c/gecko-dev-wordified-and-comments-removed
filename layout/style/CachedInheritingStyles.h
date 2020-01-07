@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_CachedAnonBoxStyles_h
+mozilla_CachedInheritingStyles_h
 #
 define
-mozilla_CachedAnonBoxStyles_h
+mozilla_CachedInheritingStyles_h
 #
 include
 "
@@ -28,7 +28,7 @@ class
 ServoStyleContext
 ;
 class
-CachedAnonBoxStyles
+CachedInheritingStyles
 {
 public
 :
@@ -46,11 +46,11 @@ Lookup
 (
 nsAtom
 *
-aAnonBox
+aPseudoTag
 )
 const
 ;
-CachedAnonBoxStyles
+CachedInheritingStyles
 (
 )
 :
@@ -61,7 +61,7 @@ mBits
 {
 }
 ~
-CachedAnonBoxStyles
+CachedInheritingStyles
 (
 )
 {

@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-CachedAnonBoxStyles
+CachedInheritingStyles
 .
 h
 "
@@ -186,7 +186,7 @@ aAnonBox
 )
 ;
 return
-mInheritingAnonBoxStyles
+mCachedInheritingStyles
 .
 Lookup
 (
@@ -214,7 +214,7 @@ aAnonBox
 )
 )
 ;
-mInheritingAnonBoxStyles
+mCachedInheritingStyles
 .
 Insert
 (
@@ -381,7 +381,7 @@ AddSizeOfExcludingThis
 aSizes
 )
 ;
-mInheritingAnonBoxStyles
+mCachedInheritingStyles
 .
 AddSizeOfIncludingThis
 (
@@ -425,8 +425,8 @@ mPresContext
 ServoComputedData
 mSource
 ;
-CachedAnonBoxStyles
-mInheritingAnonBoxStyles
+CachedInheritingStyles
+mCachedInheritingStyles
 ;
 RefPtr
 <

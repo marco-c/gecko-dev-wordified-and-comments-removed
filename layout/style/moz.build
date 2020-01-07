@@ -386,6 +386,11 @@ nsICSSLoaderObserver
 h
 '
 '
+nsICSSStyleRuleDOMWrapper
+.
+h
+'
+'
 nsIStyleRule
 .
 h
@@ -503,7 +508,7 @@ BindingStyleRule
 h
 '
 '
-CachedAnonBoxStyles
+CachedInheritingStyles
 .
 h
 '
@@ -976,7 +981,7 @@ BindingStyleRule
 cpp
 '
 '
-CachedAnonBoxStyles
+CachedInheritingStyles
 .
 cpp
 '
