@@ -3312,6 +3312,19 @@ e10s
 )
             
 if
+not
+(
+self
+.
+verify_enabled
+or
+self
+.
+per_test_coverage
+)
+:
+                
+if
 os
 .
 environ
@@ -3323,7 +3336,7 @@ MOZHARNESS_TEST_PATHS
 '
 )
 :
-                
+                    
 base_cmd
 .
 extend
@@ -3344,7 +3357,7 @@ split
 '
 )
 )
-            
+                
 elif
 c
 .
@@ -3363,13 +3376,8 @@ get
 this_chunk
 '
 )
-and
-not
-self
-.
-verify_enabled
 :
-                
+                    
 base_cmd
 .
 extend
@@ -3388,7 +3396,7 @@ c
 total_chunks
 '
 ]
-                                 
+                                     
 '
 -
 -
