@@ -242,8 +242,6 @@ GetReferrerURI
 void
 ScheduleLoadEventIfNeeded
 (
-nsresult
-aStatus
 )
 ;
 NotNull
@@ -378,6 +376,11 @@ mBlockResourceTiming
 :
 1
 ;
+bool
+mLoadFailed
+:
+1
+;
 nsCOMPtr
 <
 nsIStyleSheetLinkingElement
@@ -406,10 +409,6 @@ const
 Encoding
 *
 mPreloadEncoding
-;
-MOZ_INIT_OUTSIDE_CTOR
-nsresult
-mStatus
 ;
 private
 :
