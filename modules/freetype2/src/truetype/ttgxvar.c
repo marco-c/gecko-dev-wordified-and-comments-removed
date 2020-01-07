@@ -8127,6 +8127,16 @@ fvar_head
 .
 axisCount
 ;
+face
+-
+>
+blend
+-
+>
+num_axis
+=
+num_axes
+;
 }
 else
 num_axes
