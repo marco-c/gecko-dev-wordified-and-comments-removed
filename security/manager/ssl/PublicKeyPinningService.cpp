@@ -1552,7 +1552,10 @@ pinningTelemetryInfo
 >
 certPinningResultHistogram
 =
+Some
+(
 histogram
+)
 ;
 }
 nsCOMPtr

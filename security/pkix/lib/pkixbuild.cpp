@@ -160,6 +160,16 @@ deferredSubjectError
 (
 aDeferredSubjectError
 )
+subjectSignaturePublicKeyAlg
+(
+der
+:
+:
+PublicKeyAlgorithm
+:
+:
+Uninitialized
+)
 result
 (
 Result

@@ -1386,6 +1386,9 @@ v3
 v4
 =
 3
+Uninitialized
+=
+255
 }
 ;
 Result
@@ -1610,6 +1613,7 @@ PublicKeyAlgorithm
 {
 RSA_PKCS1
 ECDSA
+Uninitialized
 }
 ;
 Result
