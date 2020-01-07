@@ -192,6 +192,9 @@ cb
 )
 =
 >
+{
+try
+{
 (
 await
 (
@@ -241,6 +244,15 @@ slice
 )
 )
 )
+;
+}
+catch
+(
+e
+)
+{
+}
+}
 ;
 processListing
 (

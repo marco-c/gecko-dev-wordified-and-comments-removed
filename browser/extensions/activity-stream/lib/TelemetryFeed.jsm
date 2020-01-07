@@ -1866,6 +1866,8 @@ uninit
 (
 )
 {
+try
+{
 Services
 .
 obs
@@ -1886,6 +1888,13 @@ start
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 Object
