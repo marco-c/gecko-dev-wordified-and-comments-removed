@@ -719,6 +719,7 @@ HideLastPWInput
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 CollapseSelectionToTrailingBRIfNeeded
 (
