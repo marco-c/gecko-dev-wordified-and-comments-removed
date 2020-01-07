@@ -1889,6 +1889,11 @@ new
 APZSampler
 (
 mApzcTreeManager
+mOptions
+.
+UseWebRender
+(
+)
 )
 ;
 mApzUpdater
