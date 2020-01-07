@@ -717,6 +717,15 @@ IsOnWorkerThread
 )
 )
 {
+WorkerPrivate
+*
+workerPrivate
+=
+mRef
+-
+>
+mWorkerPrivate
+;
 RefPtr
 <
 ReleaseRefControlRunnable
@@ -726,10 +735,7 @@ r
 new
 ReleaseRefControlRunnable
 (
-mRef
--
->
-mWorkerPrivate
+workerPrivate
 mRef
 .
 forget
