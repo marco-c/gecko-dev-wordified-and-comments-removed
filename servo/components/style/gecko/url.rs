@@ -122,10 +122,7 @@ use
 style_traits
 :
 :
-{
 ParseError
-SpecifiedValueInfo
-}
 ;
 #
 [
@@ -145,6 +142,7 @@ derive
 Clone
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -570,12 +568,6 @@ usize
 {
 0
 }
-}
-impl
-SpecifiedValueInfo
-for
-CssUrl
-{
 }
 #
 [
