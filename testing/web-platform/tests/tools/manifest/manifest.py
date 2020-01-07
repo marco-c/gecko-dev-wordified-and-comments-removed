@@ -539,11 +539,15 @@ rel_path
                 
 if
 old_type
-=
-=
+in
+(
 "
 reftest
 "
+"
+reftest_node
+"
+)
 and
 new_type
 !
