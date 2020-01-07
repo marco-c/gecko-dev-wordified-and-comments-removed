@@ -158,11 +158,6 @@ nsICryptoHMAC
 idl
 '
 '
-nsIDataSignatureVerifier
-.
-idl
-'
-'
 nsIGenKeypairInfoDlg
 .
 idl
@@ -497,11 +492,6 @@ cpp
 '
 '
 nsCryptoHash
-.
-cpp
-'
-'
-nsDataSignatureVerifier
 .
 cpp
 '
