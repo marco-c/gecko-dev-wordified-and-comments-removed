@@ -2478,7 +2478,7 @@ types
 :
 [
 '
-fontStretch
+percentage
 '
 ]
 }
