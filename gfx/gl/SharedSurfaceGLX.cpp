@@ -224,13 +224,7 @@ surf
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 SharedSurface_GLXDrawable
@@ -720,13 +714,7 @@ ORIGIN_BOTTOM_LEFT
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 UniquePtr

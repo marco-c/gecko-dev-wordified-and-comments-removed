@@ -1209,13 +1209,7 @@ rep
 ;
 }
 return
-std
-:
-:
-move
-(
 snapshot
-)
 ;
 }
 }

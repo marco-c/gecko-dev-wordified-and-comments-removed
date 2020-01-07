@@ -114,13 +114,7 @@ NS_OK
 )
 ;
 return
-std
-:
-:
-move
-(
 classifier
-)
 ;
 }
 static
