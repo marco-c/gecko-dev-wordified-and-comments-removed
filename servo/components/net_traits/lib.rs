@@ -80,6 +80,10 @@ serde
 ;
 extern
 crate
+servo_arc
+;
+extern
+crate
 servo_config
 ;
 extern

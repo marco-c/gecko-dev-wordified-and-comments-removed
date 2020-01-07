@@ -36,6 +36,12 @@ hyper_serde
 Serde
 ;
 use
+servo_arc
+:
+:
+Arc
+;
+use
 servo_url
 :
 :
@@ -48,10 +54,7 @@ std
 sync
 :
 :
-{
-Arc
 Mutex
-}
 ;
 use
 std

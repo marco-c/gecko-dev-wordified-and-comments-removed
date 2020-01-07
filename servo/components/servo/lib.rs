@@ -2669,6 +2669,11 @@ time_profiler_chan
 clone
 (
 )
+mem_profiler_chan
+.
+clone
+(
+)
 config_dir
 )
 ;
