@@ -7713,6 +7713,9 @@ PinnedLinks
 blockedLinks
 :
 BlockedLinks
+placesProvider
+:
+PlacesProvider
 activityStreamLinks
 :
 ActivityStreamLinks
