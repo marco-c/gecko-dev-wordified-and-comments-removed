@@ -640,6 +640,15 @@ aUtterance
 {
 if
 (
+!
+mInnerID
+)
+{
+return
+;
+}
+if
+(
 aUtterance
 .
 mState
@@ -1447,6 +1456,10 @@ innerID
 mInnerID
 )
 {
+mInnerID
+=
+0
+;
 Cancel
 (
 )
