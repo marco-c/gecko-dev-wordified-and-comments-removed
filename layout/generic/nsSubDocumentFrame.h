@@ -607,12 +607,6 @@ nsView
 *
 mInnerView
 ;
-Maybe
-<
-bool
->
-mPreviouslyNeededLayer
-;
 bool
 mIsInline
 ;
