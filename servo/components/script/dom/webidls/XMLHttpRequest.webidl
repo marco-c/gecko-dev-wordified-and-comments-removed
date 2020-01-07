@@ -188,12 +188,8 @@ typedef
 (
 Blob
 or
-/
-*
 BufferSource
 or
-*
-/
 FormData
 or
 DOMString
