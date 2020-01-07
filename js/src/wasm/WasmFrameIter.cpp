@@ -6687,6 +6687,9 @@ fill
 function
 "
 ;
+#
+ifdef
+ENABLE_WASM_GC
 case
 SymbolicAddress
 :
@@ -6706,6 +6709,8 @@ wasm
 )
 "
 ;
+#
+endif
 #
 if
 defined

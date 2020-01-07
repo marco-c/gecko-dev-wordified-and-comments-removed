@@ -2801,6 +2801,9 @@ return
 1
 ;
 }
+#
+ifdef
+ENABLE_WASM_GC
 void
 Instance
 :
@@ -2987,6 +2990,8 @@ cell
 )
 ;
 }
+#
+endif
 Instance
 :
 :
@@ -4198,6 +4203,9 @@ getExceptionTail
 (
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 preBarrierCode_
 =
 jitRuntime
@@ -4211,6 +4219,8 @@ MIRType
 Object
 )
 ;
+#
+endif
 return
 true
 ;

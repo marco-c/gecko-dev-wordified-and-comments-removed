@@ -8454,7 +8454,12 @@ WaitI64
 Wake
 MemCopy
 MemFill
+#
+ifdef
+ENABLE_WASM_GC
 PostBarrier
+#
+endif
 #
 if
 defined

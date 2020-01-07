@@ -860,6 +860,9 @@ uint32_t
 len
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 static
 void
 postBarrier
@@ -871,6 +874,8 @@ PostBarrierArg
 arg
 )
 ;
+#
+endif
 }
 ;
 typedef
