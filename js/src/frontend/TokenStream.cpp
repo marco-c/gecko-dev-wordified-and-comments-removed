@@ -6519,10 +6519,6 @@ Rc
 )
 #
 define
-Templat
-String
-#
-define
 _______
 Other
 static
@@ -6629,7 +6625,7 @@ _______
 T_RB
 _______
 Ident
-Templat
+String
 Ident
 Ident
 Ident
@@ -6696,9 +6692,6 @@ T_LC
 #
 undef
 T_RC
-#
-undef
-Templat
 #
 undef
 _______
