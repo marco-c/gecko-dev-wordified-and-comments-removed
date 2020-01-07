@@ -371,7 +371,9 @@ mSendToParent
 registration
 -
 >
-mPendingUninstall
+IsPendingUninstall
+(
+)
 )
 {
 swm
@@ -387,9 +389,9 @@ mScope
 registration
 -
 >
-mPendingUninstall
-=
-true
+SetPendingUninstall
+(
+)
 ;
 mResult
 =
