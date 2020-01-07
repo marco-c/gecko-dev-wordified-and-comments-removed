@@ -17,7 +17,7 @@ version_info
 <
 (
 2
-6
+7
 )
 :
     
@@ -31,7 +31,7 @@ requires
 Python
 2
 .
-6
+7
 or
 higher
 .
@@ -720,19 +720,6 @@ Python
 :
 2
 .
-6
-'
-        
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-2
-.
 7
 '
         
@@ -890,6 +877,37 @@ whl
 '
 ]
 }
+    
+python_requires
+=
+'
+>
+=
+2
+.
+7
+!
+=
+3
+.
+0
+.
+*
+!
+=
+3
+.
+1
+.
+*
+!
+=
+3
+.
+2
+.
+*
+'
     
 *
 *
