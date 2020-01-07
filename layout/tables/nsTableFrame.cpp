@@ -38863,7 +38863,7 @@ RefPtr
 <
 ComputedStyle
 >
-newContext
+newStyle
 =
 aRestyleState
 .
@@ -38881,11 +38881,6 @@ aOwningFrame
 -
 >
 Style
-(
-)
--
->
-AsServo
 (
 )
 )
@@ -38907,7 +38902,7 @@ Style
 >
 CalcStyleDifference
 (
-newContext
+newStyle
 &
 equalStructs
 &
@@ -39004,7 +38999,7 @@ cur
 >
 SetComputedStyle
 (
-newContext
+newStyle
 )
 ;
 }
