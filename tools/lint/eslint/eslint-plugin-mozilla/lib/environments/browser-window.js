@@ -89,7 +89,7 @@ places
 /
 content
 /
-editBookmarkOverlay
+editBookmark
 .
 js
 "

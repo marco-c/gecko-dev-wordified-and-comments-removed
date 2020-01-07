@@ -135,5 +135,17 @@ chrome
 %
 reportphishDTD
 ;
+<
+!
+ENTITY
+%
+editBookmarkOverlayDTD
+SYSTEM
+"
+chrome
+:
+%
+editBookmarkOverlayDTD
+;
 ]
 >
