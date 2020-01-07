@@ -242,13 +242,6 @@ value
 :
 return
 True
-set_config
-(
-'
-MOZ_BUILD_MOBILE_ANDROID_WITH_GRADLE
-'
-with_gradle
-)
 depends
 (
 '

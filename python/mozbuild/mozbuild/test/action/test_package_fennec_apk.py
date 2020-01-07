@@ -141,17 +141,6 @@ ja
 '
 )
                          
-classes_dex
-=
-data
-(
-'
-classes
-.
-dex
-'
-)
-                         
 assets_dirs
 =
 [
@@ -225,12 +214,6 @@ for
 name
 in
 (
-'
-classes
-.
-dex
-'
-                     
 '
 assets
 /
