@@ -39933,7 +39933,7 @@ blacklist
 -
 duration
 "
-259200
+1200
 )
 ;
 pref
