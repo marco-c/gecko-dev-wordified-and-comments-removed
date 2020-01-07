@@ -2568,8 +2568,11 @@ if
 (
 HasRTLChars
 (
+MakeSpan
+(
 aBuffer
 aLength
+)
 )
 )
 {

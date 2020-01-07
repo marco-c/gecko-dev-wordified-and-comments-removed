@@ -5940,6 +5940,8 @@ Is2b
 &
 HasRTLChars
 (
+MakeSpan
+(
 txt
 -
 >
@@ -5951,6 +5953,7 @@ txt
 >
 GetLength
 (
+)
 )
 )
 )
