@@ -155,10 +155,9 @@ DOMMatrixInit
 other
 )
 ;
-/
-/
 [
 NewObject
+Throws
 ]
 static
 DOMMatrix
@@ -168,10 +167,9 @@ Float32Array
 array32
 )
 ;
-/
-/
 [
 NewObject
+Throws
 ]
 static
 DOMMatrix
