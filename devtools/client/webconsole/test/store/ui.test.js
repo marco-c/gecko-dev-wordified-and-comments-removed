@@ -218,7 +218,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 actorId
 messageId
@@ -389,7 +389,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 actorId
 messageId
@@ -590,7 +590,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 actorId
 messageId
@@ -742,7 +742,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 actorId
 messageId
@@ -807,7 +807,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 actorId
 messageId
@@ -933,7 +933,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 actorId
 messageId
@@ -1059,7 +1059,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 newActorId
 newMessageId

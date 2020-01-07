@@ -928,7 +928,7 @@ dispatch
 (
 actions
 .
-showObjectInSidebar
+showMessageObjectInSidebar
 (
 rootActorId
 messageId
