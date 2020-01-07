@@ -22,9 +22,7 @@ h
 #
 ifndef
 HAVE_MEMALIGN
-namespace
-{
-inline
+MOZ_MEMORY_API
 void
 *
 memalign
@@ -74,7 +72,6 @@ ret
 ;
 #
 endif
-}
 }
 #
 endif
