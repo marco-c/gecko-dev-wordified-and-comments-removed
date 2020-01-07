@@ -100,8 +100,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMNode
+webidl
+Node
 ;
 [
 scriptable
@@ -151,7 +151,7 @@ boolean
 skip
 (
 in
-nsIDOMNode
+Node
 aNode
 )
 ;

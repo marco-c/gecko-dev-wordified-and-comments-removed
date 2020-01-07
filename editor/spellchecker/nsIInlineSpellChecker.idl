@@ -114,6 +114,9 @@ interface
 nsIEditorSpellCheck
 ;
 webidl
+Node
+;
+webidl
 Range
 ;
 [
@@ -173,7 +176,7 @@ Range
 getMisspelledWord
 (
 in
-nsIDOMNode
+Node
 aNode
 in
 long
@@ -184,7 +187,7 @@ void
 replaceWord
 (
 in
-nsIDOMNode
+Node
 aNode
 in
 long

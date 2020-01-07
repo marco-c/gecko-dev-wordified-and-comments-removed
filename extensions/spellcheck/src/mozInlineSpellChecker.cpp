@@ -2990,7 +2990,7 @@ mozInlineSpellChecker
 :
 GetMisspelledWord
 (
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
@@ -3054,7 +3054,7 @@ mozInlineSpellChecker
 :
 ReplaceWord
 (
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
@@ -5590,7 +5590,7 @@ IsPointInSelection
 Selection
 &
 aSelection
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
@@ -5613,17 +5613,6 @@ nsRange
 >
 ranges
 ;
-nsCOMPtr
-<
-nsINode
->
-node
-=
-do_QueryInterface
-(
-aNode
-)
-;
 nsresult
 rv
 =
@@ -5631,9 +5620,9 @@ aSelection
 .
 GetRangesForIntervalArray
 (
-node
+aNode
 aOffset
-node
+aNode
 aOffset
 true
 &
