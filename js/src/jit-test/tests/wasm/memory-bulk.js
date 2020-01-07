@@ -1,3 +1,15 @@
+if
+(
+!
+wasmBulkMemSupported
+(
+)
+)
+quit
+(
+0
+)
+;
 function
 checkRange
 (
