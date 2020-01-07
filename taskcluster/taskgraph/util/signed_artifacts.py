@@ -17,14 +17,19 @@ import
 absolute_import
 print_function
 unicode_literals
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_path
 def
 generate_specifications_of_artifacts_to_sign
 (
     
-build_platform
-is_nightly
-=
-False
+task
 keep_locale_template
 =
 True
@@ -33,6 +38,32 @@ kind
 None
 )
 :
+    
+build_platform
+=
+task
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+)
+    
+is_nightly
+=
+task
+.
+attributes
+.
+get
+(
+'
+nightly
+'
+)
     
 if
 kind
@@ -58,17 +89,17 @@ artifacts
 :
 [
                 
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 source
 .
 tar
 .
 xz
 '
+)
             
 ]
             
@@ -104,11 +135,10 @@ artifacts
 :
 [
                 
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 {
 locale
 }
@@ -117,6 +147,7 @@ target
 .
 apk
 '
+)
             
 ]
             
@@ -151,11 +182,10 @@ artifacts
 '
 :
 [
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 {
 locale
 }
@@ -164,6 +194,7 @@ target
 .
 dmg
 '
+)
 ]
             
 '
@@ -201,11 +232,10 @@ artifacts
 :
 [
                 
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 {
 locale
 }
@@ -214,6 +244,7 @@ setup
 .
 exe
 '
+)
             
 ]
             
@@ -236,11 +267,10 @@ artifacts
 :
 [
                 
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 {
 locale
 }
@@ -249,6 +279,7 @@ target
 .
 zip
 '
+)
             
 ]
             
@@ -290,11 +321,11 @@ artifacts
 +
 =
 [
+                
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 {
 locale
 }
@@ -305,6 +336,8 @@ stub
 .
 exe
 '
+)
+            
 ]
     
 elif
@@ -325,11 +358,10 @@ artifacts
 '
 :
 [
+get_artifact_path
+(
+task
 '
-public
-/
-build
-/
 {
 locale
 }
@@ -340,6 +372,7 @@ tar
 .
 bz2
 '
+)
 ]
             
 '

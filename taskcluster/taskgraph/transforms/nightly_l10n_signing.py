@@ -175,19 +175,6 @@ generate_specifications_of_artifacts_to_sign
 (
             
 dep_job
-.
-attributes
-.
-get
-(
-'
-build_platform
-'
-)
-            
-is_nightly
-=
-True
             
 keep_locale_template
 =

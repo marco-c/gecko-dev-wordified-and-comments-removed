@@ -36,6 +36,14 @@ util
 signed_artifacts
 import
 generate_specifications_of_artifacts_to_sign
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_path
 transforms
 =
 TransformSequence
@@ -277,18 +285,7 @@ artifacts_specifications
 generate_specifications_of_artifacts_to_sign
 (
             
-build_platform
-            
 dep_job
-.
-attributes
-.
-get
-(
-'
-nightly
-'
-)
             
 keep_locale_template
 =
@@ -322,11 +319,11 @@ artifacts
 .
 append
 (
+                
+get_artifact_path
+(
+dep_job
 '
-public
-/
-build
-/
 en
 -
 US
@@ -335,6 +332,8 @@ target
 .
 apk
 '
+)
+            
 )
         
 job
