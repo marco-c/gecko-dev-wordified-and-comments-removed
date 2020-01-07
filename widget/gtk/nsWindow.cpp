@@ -20935,6 +20935,9 @@ aFullScreen
 ;
 if
 (
+mIsX11Display
+&
+&
 !
 IsFullscreenSupported
 (
