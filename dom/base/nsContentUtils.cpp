@@ -3284,6 +3284,11 @@ XPConnect
 (
 )
 ;
+NS_ADDREF
+(
+sXPConnect
+)
+;
 sSecurityManager
 =
 nsScriptSecurityManager
@@ -10159,9 +10164,10 @@ NS_IF_RELEASE
 sConsoleService
 )
 ;
+NS_IF_RELEASE
+(
 sXPConnect
-=
-nullptr
+)
 ;
 NS_IF_RELEASE
 (
