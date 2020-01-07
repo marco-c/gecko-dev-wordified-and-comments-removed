@@ -2687,6 +2687,9 @@ aRectToCopy
 if
 (
 asyncPaint
+&
+&
+aCopies
 )
 {
 aCopies
