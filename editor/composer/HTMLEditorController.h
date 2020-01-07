@@ -1,9 +1,9 @@
 #
 ifndef
-nsComposerController_h__
+mozilla_HTMLEditorController_h__
 #
 define
-nsComposerController_h__
+mozilla_HTMLEditorController_h__
 #
 include
 "
@@ -52,8 +52,12 @@ NS_HTMLEDITORCONTROLLER_CID
 0x47
 }
 }
+namespace
+mozilla
+{
 class
-nsComposerController
+HTMLEditorController
+final
 {
 public
 :
@@ -77,5 +81,6 @@ inCommandTable
 ;
 }
 ;
+}
 #
 endif

@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+HTMLEditorController
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
@@ -11,13 +20,6 @@ h
 include
 "
 nsComposerCommands
-.
-h
-"
-#
-include
-"
-nsComposerController
 .
 h
 "
@@ -45,6 +47,9 @@ h
 class
 nsIControllerCommand
 ;
+namespace
+mozilla
+{
 #
 define
 NS_REGISTER_ONE_COMMAND
@@ -256,7 +261,7 @@ theCmd
 \
 }
 nsresult
-nsComposerController
+HTMLEditorController
 :
 :
 RegisterEditorDocStateCommands
@@ -348,7 +353,7 @@ NS_OK
 ;
 }
 nsresult
-nsComposerController
+HTMLEditorController
 :
 :
 RegisterHTMLEditorCommands
@@ -793,4 +798,5 @@ cmd_increaseZIndex
 return
 NS_OK
 ;
+}
 }

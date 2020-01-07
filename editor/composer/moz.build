@@ -134,12 +134,12 @@ ComposerCommandsUpdater
 cpp
 '
 '
-nsComposerCommands
+HTMLEditorController
 .
 cpp
 '
 '
-nsComposerController
+nsComposerCommands
 .
 cpp
 '
@@ -167,6 +167,11 @@ mozilla
 [
 '
 ComposerCommandsUpdater
+.
+h
+'
+'
+HTMLEditorController
 .
 h
 '
