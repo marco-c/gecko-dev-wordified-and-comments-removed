@@ -8737,6 +8737,7 @@ IfThenElseEmitter
 }
 private
 :
+MOZ_MUST_USE
 bool
 emitIf
 (
@@ -8988,6 +8989,7 @@ endif
 }
 public
 :
+MOZ_MUST_USE
 bool
 emitIf
 (
@@ -9003,6 +9005,7 @@ If
 )
 ;
 }
+MOZ_MUST_USE
 bool
 emitCond
 (
@@ -9018,6 +9021,7 @@ Cond
 )
 ;
 }
+MOZ_MUST_USE
 bool
 emitIfElse
 (
@@ -9033,6 +9037,7 @@ IfElse
 )
 ;
 }
+MOZ_MUST_USE
 bool
 emitElse
 (
@@ -9110,6 +9115,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 emitEnd
 (
