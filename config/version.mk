@@ -199,8 +199,11 @@ _RC_STRING
 -
 BINARY
 (
+notdir
+(
 PROGRAM
 )
+)
 else
 ifdef
 _PROGRAM
@@ -210,7 +213,10 @@ _RC_STRING
 -
 BINARY
 (
+notdir
+(
 _PROGRAM
+)
 )
 else
 ifdef
@@ -221,7 +227,10 @@ _RC_STRING
 -
 BINARY
 (
+notdir
+(
 SHARED_LIBRARY
+)
 )
 endif
 endif
