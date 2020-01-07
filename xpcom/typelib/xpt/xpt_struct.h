@@ -73,6 +73,7 @@ char
 *
 name
 ;
+const
 XPTInterfaceDescriptor
 *
 interface_descriptor
