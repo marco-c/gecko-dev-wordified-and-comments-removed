@@ -50,7 +50,10 @@ use
 proc_macro2
 :
 :
+{
+Span
 TokenStream
+}
 ;
 struct
 MatchByteParser
@@ -150,7 +153,7 @@ code
 =
 ast
 .
-into_tokens
+into_token_stream
 (
 )
 .
@@ -512,8 +515,9 @@ syn
 Ident
 :
 :
-from
+new
 (
+&
 format
 !
 (
@@ -523,6 +527,12 @@ Case
 }
 "
 case_id
+)
+Span
+:
+:
+call_site
+(
 )
 )
 ;
@@ -741,6 +751,7 @@ syn
 :
 PatIdent
 {
+ref
 ident
 .
 .
