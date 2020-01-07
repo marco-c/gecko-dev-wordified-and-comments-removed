@@ -5011,12 +5011,8 @@ if
 aNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {
@@ -5568,12 +5564,8 @@ if
 node
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

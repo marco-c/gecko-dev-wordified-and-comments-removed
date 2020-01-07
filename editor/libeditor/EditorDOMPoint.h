@@ -867,12 +867,8 @@ mParent
 mParent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ;
 }

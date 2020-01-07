@@ -3822,12 +3822,8 @@ isText
 aChild
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ;
 if
@@ -3915,12 +3911,8 @@ isText
 aChild
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ;
 if

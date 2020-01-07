@@ -16401,12 +16401,8 @@ IsElement
 node
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

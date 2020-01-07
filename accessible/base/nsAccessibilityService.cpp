@@ -6029,12 +6029,8 @@ if
 content
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

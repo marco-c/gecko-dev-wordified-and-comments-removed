@@ -458,12 +458,8 @@ if
 n
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

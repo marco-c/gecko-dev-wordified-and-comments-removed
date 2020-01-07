@@ -168,12 +168,8 @@ GetFlattenedTreeParentElementForStyle
 aContent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 &
 &

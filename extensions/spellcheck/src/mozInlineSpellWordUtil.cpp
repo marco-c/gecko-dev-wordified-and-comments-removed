@@ -323,12 +323,8 @@ return
 aNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ;
 }

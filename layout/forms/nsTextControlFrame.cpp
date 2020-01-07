@@ -4176,12 +4176,8 @@ if
 child
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 &
 &
@@ -4226,12 +4222,8 @@ child
 child
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

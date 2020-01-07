@@ -1807,12 +1807,8 @@ NS_ASSERTION
 kidContent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 "
 should

@@ -3913,12 +3913,8 @@ if
 child
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 return

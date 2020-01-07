@@ -37137,12 +37137,8 @@ mContent
 mContent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

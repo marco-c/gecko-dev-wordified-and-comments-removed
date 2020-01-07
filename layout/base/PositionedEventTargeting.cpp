@@ -2628,12 +2628,8 @@ if
 content
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 |
@@ -2663,12 +2659,8 @@ Item
 )
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 )
