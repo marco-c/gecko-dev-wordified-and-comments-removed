@@ -10,6 +10,9 @@ new
 PaymentsStore
 (
 {
+orderDetailsShowing
+:
+false
 request
 :
 {
