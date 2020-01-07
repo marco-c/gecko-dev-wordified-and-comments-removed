@@ -4248,6 +4248,7 @@ null
 _lastCheckState
 :
 null
+async
 updateAutostart
 (
 )
@@ -4389,6 +4390,7 @@ return
 let
 buttonIndex
 =
+await
 confirmRestartPrompt
 (
 autoStart
@@ -8239,6 +8241,7 @@ a11yLearnMoreLink
 )
 ;
 }
+async
 updateA11yPrefs
 (
 checked
@@ -8247,6 +8250,7 @@ checked
 let
 buttonIndex
 =
+await
 confirmRestartPrompt
 (
 checked

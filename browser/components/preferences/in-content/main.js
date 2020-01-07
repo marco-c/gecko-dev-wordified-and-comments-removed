@@ -4091,6 +4091,7 @@ readBrowserContainersCheckbox
 )
 ;
 }
+async
 separateProfileModeChange
 (
 )
@@ -4265,6 +4266,7 @@ separateProfileMode
 let
 button_index
 =
+await
 confirmRestartPrompt
 (
 separateProfileModeCheckbox
