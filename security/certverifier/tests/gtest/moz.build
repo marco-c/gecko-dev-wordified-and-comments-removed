@@ -129,6 +129,11 @@ MultiLogCTVerifierTest
 .
 cpp
 '
+'
+TrustOverrideTest
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
