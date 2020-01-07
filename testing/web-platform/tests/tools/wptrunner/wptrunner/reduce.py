@@ -734,6 +734,9 @@ StringIO
 (
 )
         
+try
+:
+            
 with
 tempfile
 .
@@ -743,7 +746,7 @@ NamedTemporaryFile
 as
 f
 :
-            
+                
 args
 =
 self
@@ -753,7 +756,7 @@ kwargs
 copy
 (
 )
-            
+                
 args
 [
 "
@@ -764,7 +767,7 @@ log_raw
 [
 f
 ]
-            
+                
 args
 [
 "
@@ -773,7 +776,7 @@ capture_stdio
 ]
 =
 False
-            
+                
 wptrunner
 .
 setup_logging
@@ -782,7 +785,7 @@ args
 {
 }
 )
-            
+                
 wptrunner
 .
 run_tests
@@ -796,7 +799,7 @@ test_loader
 *
 args
 )
-            
+                
 wptrunner
 .
 logger
@@ -812,7 +815,7 @@ handlers
 0
 ]
 )
-            
+                
 is_unstable
 =
 self
@@ -821,7 +824,7 @@ log_is_unstable
 (
 f
 )
-            
+                
 sys
 .
 stdout
@@ -832,6 +835,22 @@ stderr
 stdout
 stderr
         
+except
+Exception
+as
+e
+:
+            
+logger
+.
+error
+(
+e
+)
+        
+finally
+:
+            
 logger
 .
 debug
@@ -844,7 +863,7 @@ with
 chunk
 removed
 "
-                     
+                        
 if
 is_unstable
 else
@@ -852,7 +871,13 @@ else
 stable
 "
 )
-        
+            
+logger
+.
+shutdown
+(
+)
+            
 return
 is_unstable
     

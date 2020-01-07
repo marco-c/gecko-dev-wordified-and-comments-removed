@@ -267,6 +267,9 @@ is
 not
 None
     
+try
+:
+        
 success
 =
 run_update
@@ -277,6 +280,30 @@ logger
 args
 )
     
+except
+Exception
+as
+e
+:
+        
+logger
+.
+error
+(
+e
+)
+        
+raise
+    
+finally
+:
+        
+logger
+.
+shutdown
+(
+)
+        
 sys
 .
 exit

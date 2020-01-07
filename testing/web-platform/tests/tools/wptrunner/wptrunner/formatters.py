@@ -57,6 +57,16 @@ data
 )
 :
         
+return
+    
+def
+shutdown
+(
+self
+data
+)
+:
+        
 results
 =
 {
