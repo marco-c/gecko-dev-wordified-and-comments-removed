@@ -275,6 +275,8 @@ channel
 notificationCallbacks
 =
 new
+CertUtils
+.
 BadCertHandler
 (
 true
@@ -418,6 +420,8 @@ aCerts
 {
 try
 {
+CertUtils
+.
 checkCert
 (
 aChannel

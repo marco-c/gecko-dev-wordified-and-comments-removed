@@ -384,16 +384,7 @@ jsm
 :
 [
 "
-BadCertHandler
-"
-"
-checkCert
-"
-"
-readCertPrefs
-"
-"
-validateCert
+CertUtils
 "
 ]
 "

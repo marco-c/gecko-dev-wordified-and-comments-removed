@@ -451,6 +451,8 @@ channel
 notificationCallbacks
 =
 new
+CertUtils
+.
 BadCertHandler
 (
 allowNonBuiltIn
@@ -660,6 +662,8 @@ target
 ;
 try
 {
+CertUtils
+.
 checkCert
 (
 request
