@@ -877,22 +877,9 @@ def
 __init__
 (
 self
-root
 path
-extra_helper_paths
-=
-None
-wpt
-=
-None
 )
 :
-        
-self
-.
-root
-=
-root
         
 self
 .
@@ -973,26 +960,13 @@ self
 comment
 =
 None
-        
-self
-.
-extra_helper_paths
-=
-extra_helper_paths
-or
-[
-]
-        
-self
-.
-wpt
-=
-wpt
+    
+staticmethod
     
 def
 prefix_command
 (
-self
+path
 )
 :
         
@@ -1004,6 +978,9 @@ the
 '
 -
 f
+shell
+.
+js
 '
 options
 needed
@@ -1014,17 +991,12 @@ test
 with
 the
 given
-path
-.
-"
-"
-"
         
 path
-=
-self
 .
-path
+"
+"
+"
         
 prefix
 =
@@ -1066,9 +1038,6 @@ path
 .
 join
 (
-self
-.
-root
 path
 '
 shell
@@ -1077,24 +1046,13 @@ js
 '
 )
             
-if
-os
-.
-path
-.
-exists
-(
-shell_path
-)
-:
-                
 prefix
 .
 append
 (
 shell_path
 )
-                
+            
 prefix
 .
 append
@@ -1111,55 +1069,8 @@ reverse
 (
 )
         
-for
-extra_path
-in
-self
-.
-extra_helper_paths
-:
-            
-prefix
-.
-append
-(
-'
--
-f
-'
-)
-            
-prefix
-.
-append
-(
-extra_path
-)
-        
 return
 prefix
-    
-def
-abs_path
-(
-self
-)
-:
-        
-return
-os
-.
-path
-.
-join
-(
-self
-.
-root
-self
-.
-path
-)
     
 def
 get_command
@@ -1180,11 +1091,16 @@ jitflags
 self
 .
 options
+\
+            
 +
-self
+RefTestCase
 .
 prefix_command
 (
+self
+.
+path
 )
         
 if
@@ -1210,9 +1126,7 @@ check
 "
 self
 .
-abs_path
-(
-)
+path
 ]
         
 elif
@@ -1232,9 +1146,7 @@ module
 "
 self
 .
-abs_path
-(
-)
+path
 ]
         
 else
@@ -1250,9 +1162,7 @@ f
 "
 self
 .
-abs_path
-(
-)
+path
 ]
         
 return
