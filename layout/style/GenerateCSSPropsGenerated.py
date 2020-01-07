@@ -153,11 +153,6 @@ longhand
 :
 0
 "
-logical
-"
-:
-0
-"
 shorthand
 "
 :
