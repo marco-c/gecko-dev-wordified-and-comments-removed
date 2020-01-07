@@ -15,8 +15,6 @@ tempfile
 import
 shutil
 import
-subprocess
-import
 sys
 from
 automation
@@ -87,17 +85,6 @@ _devicemanager
 =
 None
     
-_specialAmCommands
-=
-(
-'
-instrument
-'
-'
-start
-'
-)
-    
 def
 __init__
 (
@@ -119,7 +106,7 @@ None
         
 self
 .
-_devicemanager
+_dm
 =
 deviceManager
         
@@ -153,14 +140,6 @@ or
         
 self
 .
-_product
-=
-"
-fennec
-"
-        
-self
-.
 lastTestSeen
 =
 "
@@ -186,7 +165,7 @@ deviceManager
         
 self
 .
-_devicemanager
+_dm
 =
 deviceManager
     
@@ -217,20 +196,6 @@ self
 _remoteProfile
 =
 remoteProfile
-    
-def
-setProduct
-(
-self
-product
-)
-:
-        
-self
-.
-_product
-=
-product
     
 def
 setRemoteLog
@@ -499,7 +464,7 @@ topActivity
 =
 self
 .
-_devicemanager
+_dm
 .
 getTopActivity
 (
@@ -685,7 +650,7 @@ try
             
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -703,7 +668,7 @@ traces
 root
 =
 True
-                                                 
+                                       
 timeout
 =
 DeviceManager
@@ -713,7 +678,7 @@ short_timeout
             
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -729,7 +694,7 @@ traces
 root
 =
 True
-                                                 
+                                       
 timeout
 =
 DeviceManager
@@ -776,7 +741,7 @@ txt
 if
 self
 .
-_devicemanager
+_dm
 .
 fileExists
 (
@@ -791,7 +756,7 @@ t
 =
 self
 .
-_devicemanager
+_dm
 .
 pullFile
 (
@@ -903,7 +868,7 @@ try
             
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -920,7 +885,7 @@ tombstones
 root
 =
 True
-                                                 
+                                       
 timeout
 =
 DeviceManager
@@ -950,7 +915,7 @@ data
 tombstones
 "
         
-blobberUploadDir
+uploadDir
 =
 os
 .
@@ -965,7 +930,7 @@ None
 )
         
 if
-blobberUploadDir
+uploadDir
 :
             
 if
@@ -976,7 +941,7 @@ path
 .
 exists
 (
-blobberUploadDir
+uploadDir
 )
 :
                 
@@ -984,13 +949,13 @@ os
 .
 mkdir
 (
-blobberUploadDir
+uploadDir
 )
             
 if
 self
 .
-_devicemanager
+_dm
 .
 dirExists
 (
@@ -1003,7 +968,7 @@ try
                     
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1019,7 +984,7 @@ remoteDir
 root
 =
 True
-                                                 
+                                               
 timeout
 =
 DeviceManager
@@ -1029,7 +994,7 @@ short_timeout
                     
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1052,10 +1017,10 @@ remoteDir
 '
 )
 ]
+                                               
 root
 =
 True
-                                                 
 timeout
 =
 DeviceManager
@@ -1065,12 +1030,12 @@ short_timeout
                     
 self
 .
-_devicemanager
+_dm
 .
 getDirectory
 (
 remoteDir
-blobberUploadDir
+uploadDir
 False
 )
                 
@@ -1099,7 +1064,7 @@ path
 .
 join
 (
-blobberUploadDir
+uploadDir
 "
 tombstone_
 ?
@@ -1217,7 +1182,7 @@ logcat
 =
 self
 .
-_devicemanager
+_dm
 .
 getLogcat
 (
@@ -1286,7 +1251,7 @@ if
 not
 self
 .
-_devicemanager
+_dm
 .
 dirExists
 (
@@ -1319,7 +1284,7 @@ True
             
 self
 .
-_devicemanager
+_dm
 .
 getDirectory
 (
@@ -1333,13 +1298,6 @@ get_default_logger
 (
 )
             
-if
-logger
-is
-not
-None
-:
-                
 crashed
 =
 mozcrash
@@ -1354,20 +1312,6 @@ test
 self
 .
 lastTestSeen
-)
-            
-else
-:
-                
-crashed
-=
-Automation
-.
-checkForCrashes
-(
-self
-dumpDir
-symbolsPath
 )
         
 finally
@@ -1417,11 +1361,9 @@ extraArgs
 :
         
 if
-(
 self
 .
 _remoteProfile
-)
 :
             
 profileDir
@@ -1443,9 +1385,14 @@ extraArgs
 0
 ]
 in
-RemoteAutomation
-.
-_specialAmCommands
+(
+'
+instrument
+'
+'
+start
+'
+)
 :
             
 return
@@ -1509,32 +1456,6 @@ None
 )
 :
         
-if
-stdout
-=
-=
-None
-or
-stdout
-=
-=
--
-1
-or
-stdout
-=
-=
-subprocess
-.
-PIPE
-:
-            
-stdout
-=
-self
-.
-_remoteLog
-        
 return
 self
 .
@@ -1542,10 +1463,11 @@ RProcess
 (
 self
 .
-_devicemanager
+_dm
 cmd
-stdout
-stderr
+self
+.
+_remoteLog
 env
 cwd
 self
@@ -1577,9 +1499,6 @@ self
 dm
 cmd
 stdout
-=
-None
-stderr
 =
 None
 env
@@ -1699,46 +1618,18 @@ todo
 0
             
 if
-(
 self
 .
 proc
 is
 None
-)
 :
                 
-if
-cmd
-[
-0
-]
-=
-=
-'
-am
-'
-:
-                    
 self
 .
 proc
 =
 stdout
-                
-else
-:
-                    
-raise
-Exception
-(
-"
-unable
-to
-launch
-process
-"
-)
             
 self
 .
@@ -1751,9 +1642,9 @@ cmd
 .
 split
 (
-'
-/
-'
+posixpath
+.
+sep
 )
 [
 -
@@ -1776,9 +1667,14 @@ cmd
 1
 ]
 in
-RemoteAutomation
-.
-_specialAmCommands
+(
+'
+instrument
+'
+'
+start
+'
+)
 :
                 
 self
@@ -1792,13 +1688,6 @@ self
 timeout
 =
 5400
-            
-time
-.
-sleep
-(
-1
-)
             
 self
 .
