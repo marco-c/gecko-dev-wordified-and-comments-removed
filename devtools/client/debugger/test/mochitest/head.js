@@ -1422,8 +1422,11 @@ deferred
 promise
 ;
 }
-function
+this
+.
 once
+=
+function
 (
 aTarget
 aEventName
@@ -1566,6 +1569,7 @@ deferred
 promise
 ;
 }
+;
 function
 waitForTick
 (
