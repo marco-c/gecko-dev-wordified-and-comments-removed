@@ -69,6 +69,13 @@ element
 )
 SERVO_BINDING_FUNC
 (
+Servo_Element_IsDisplayContents
+bool
+RawGeckoElementBorrowed
+element
+)
+SERVO_BINDING_FUNC
+(
 Servo_Element_IsPrimaryStyleReusedViaRuleNode
 bool
 RawGeckoElementBorrowed
