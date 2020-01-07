@@ -2345,6 +2345,7 @@ Accessible
 CurrentItem
 (
 )
+const
 ;
 virtual
 void

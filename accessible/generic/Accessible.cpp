@@ -12982,6 +12982,7 @@ Accessible
 CurrentItem
 (
 )
+const
 {
 nsAutoString
 id

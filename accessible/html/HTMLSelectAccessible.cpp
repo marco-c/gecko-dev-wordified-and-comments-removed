@@ -351,6 +351,7 @@ HTMLSelectListAccessible
 CurrentItem
 (
 )
+const
 {
 nsIListControlFrame
 *
@@ -1900,6 +1901,7 @@ HTMLComboboxAccessible
 CurrentItem
 (
 )
+const
 {
 return
 AreItemsOperable
