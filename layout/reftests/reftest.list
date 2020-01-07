@@ -955,6 +955,17 @@ reftest
 .
 list
 #
+font
+variations
+include
+font
+-
+variations
+/
+reftest
+.
+list
+#
 forms
 include
 forms
