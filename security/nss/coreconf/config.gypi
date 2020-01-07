@@ -986,6 +986,9 @@ defines
 '
 NSS_FIPS_DISABLED
 '
+'
+NSS_NO_INIT_SUPPORT
+'
 ]
 }
 ]
@@ -1948,9 +1951,6 @@ defines
 '
 :
 [
-'
-NSS_NO_INIT_SUPPORT
-'
 '
 USE_UTIL_DIRECTLY
 '

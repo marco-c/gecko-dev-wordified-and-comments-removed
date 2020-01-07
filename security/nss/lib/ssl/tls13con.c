@@ -22048,6 +22048,14 @@ certificate_request
 )
 }
 {
+ssl_signature_algorithms_cert_xtn
+_M2
+(
+client_hello
+certificate_request
+)
+}
+{
 ssl_use_srtp_xtn
 _M2
 (
