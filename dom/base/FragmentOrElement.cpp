@@ -5079,6 +5079,10 @@ return
 ;
 }
 else
+if
+(
+targetInKnownToBeHandledScope
+)
 {
 aVisitor
 .
