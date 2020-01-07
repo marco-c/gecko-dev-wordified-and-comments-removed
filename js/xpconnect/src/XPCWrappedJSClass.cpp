@@ -4555,14 +4555,14 @@ if
 location
 )
 {
+lineNumber
+=
 location
 -
 >
 GetLineNumber
 (
 cx
-&
-lineNumber
 )
 ;
 location

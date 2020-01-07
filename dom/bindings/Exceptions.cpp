@@ -1036,14 +1036,6 @@ aStack
 protected
 :
 int32_t
-GetLineno
-(
-JSContext
-*
-aCx
-)
-;
-int32_t
 GetColNo
 (
 JSContext
@@ -1726,7 +1718,7 @@ int32_t
 JSStackFrame
 :
 :
-GetLineno
+GetLineNumber
 (
 JSContext
 *
@@ -1802,7 +1794,7 @@ NS_IMETHODIMP
 JSStackFrame
 :
 :
-GetLineNumber
+GetLineNumberXPCOM
 (
 JSContext
 *
@@ -1815,7 +1807,7 @@ aLineNumber
 *
 aLineNumber
 =
-GetLineno
+GetLineNumber
 (
 aCx
 )
@@ -2648,7 +2640,7 @@ TOP_LEVEL
 int32_t
 lineno
 =
-GetLineno
+GetLineNumber
 (
 aCx
 )
