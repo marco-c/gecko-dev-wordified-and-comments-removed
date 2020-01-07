@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMDataTransfer
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -187,7 +180,7 @@ DataTransfer
 final
 :
 public
-nsIDOMDataTransfer
+nsISupports
 public
 nsWrapperCache
 {
@@ -198,7 +191,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_DATATRANSFER_IID
 )
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMDATATRANSFER
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DataTransfer

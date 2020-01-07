@@ -355,12 +355,7 @@ DataTransfer
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMDataTransfer
-)
-NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
-(
 nsISupports
-nsIDOMDataTransfer
 )
 NS_INTERFACE_MAP_END
 const
