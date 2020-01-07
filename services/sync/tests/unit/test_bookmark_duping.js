@@ -115,6 +115,13 @@ js
 )
 ;
 const
+BookmarksToolbarTitle
+=
+"
+toolbar
+"
+;
+const
 bms
 =
 PlacesUtils
@@ -3988,10 +3995,7 @@ Folder
 "
 parentName
 :
-"
-Bookmarks
-Toolbar
-"
+BookmarksToolbarTitle
 parentid
 :
 "
