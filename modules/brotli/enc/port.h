@@ -1046,7 +1046,7 @@ if
 !
 BROTLI_IS_OOM
 (
-m
+M
 )
 &
 &
