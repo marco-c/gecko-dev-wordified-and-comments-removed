@@ -5732,6 +5732,9 @@ abspath
 (
 abspath
 )
+(
+DUMP_SYMBOLS_FLAGS
+)
 )
 endif
 endef

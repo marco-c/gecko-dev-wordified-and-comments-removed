@@ -211,12 +211,6 @@ tup
 '
     
 '
-enable_count_ctors
-'
-:
-False
-    
-'
 disable_package_metrics
 '
 :

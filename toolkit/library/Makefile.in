@@ -109,3 +109,10 @@ target
 LINK_GTEST_DURING_COMPILE
 =
 1
+DUMP_SYMBOLS_FLAGS
+=
+-
+-
+count
+-
+ctors
