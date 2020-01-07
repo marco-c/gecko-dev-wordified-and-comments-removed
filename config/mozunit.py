@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 inspect
 import
@@ -6,10 +10,6 @@ import
 sys
 import
 unittest
-from
-StringIO
-import
-StringIO
 from
 unittest
 import
@@ -21,6 +21,13 @@ as
 _TestResult
 import
 pytest
+import
+six
+StringIO
+=
+six
+.
+StringIO
 '
 '
 '
@@ -507,6 +514,25 @@ err
 message
 =
 value
+or
+'
+NO
+MESSAGE
+'
+        
+if
+hasattr
+(
+value
+'
+message
+'
+)
+:
+            
+message
+=
+value
 .
 message
 .
@@ -516,15 +542,6 @@ splitlines
 [
 0
 ]
-if
-value
-.
-message
-else
-'
-NO
-MESSAGE
-'
         
 while
 tb
@@ -1026,7 +1043,7 @@ content
 in
 files
 .
-iteritems
+items
 (
 )
 :
@@ -1209,13 +1226,21 @@ self
 :
         
 import
-__builtin__
+six
+.
+moves
+.
+builtins
         
 self
 .
 open
 =
-__builtin__
+six
+.
+moves
+.
+builtins
 .
 open
         
@@ -1249,7 +1274,11 @@ path
 .
 isfile
         
-__builtin__
+six
+.
+moves
+.
+builtins
 .
 open
 =
@@ -1296,9 +1325,17 @@ traceback
 :
         
 import
-__builtin__
+six
+.
+moves
+.
+builtins
         
-__builtin__
+six
+.
+moves
+.
+builtins
 .
 open
 =
