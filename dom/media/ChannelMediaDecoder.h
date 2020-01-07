@@ -404,13 +404,6 @@ CanPlayThroughImpl
 override
 final
 ;
-bool
-IsLiveStream
-(
-)
-override
-final
-;
 struct
 PlaybackRateInfo
 {
