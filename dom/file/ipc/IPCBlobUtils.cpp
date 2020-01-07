@@ -300,6 +300,10 @@ StreamBlobImpl
 Create
 (
 inputStream
+.
+forget
+(
+)
 aIPCBlob
 .
 type
@@ -338,6 +342,10 @@ StreamBlobImpl
 Create
 (
 inputStream
+.
+forget
+(
+)
 file
 .
 name

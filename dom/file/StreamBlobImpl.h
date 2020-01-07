@@ -48,8 +48,10 @@ StreamBlobImpl
 >
 Create
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 const
 nsAString
@@ -66,8 +68,10 @@ StreamBlobImpl
 >
 Create
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 const
 nsAString
@@ -218,8 +222,10 @@ private
 :
 StreamBlobImpl
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 const
 nsAString
@@ -231,8 +237,10 @@ aLength
 ;
 StreamBlobImpl
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 const
 nsAString
