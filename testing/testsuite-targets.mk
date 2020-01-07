@@ -934,6 +934,13 @@ TEST_PKGS_ZIP
 :
 =
 \
+(
+NULL
+)
+TEST_PKGS_TARGZ
+:
+=
+\
 common
 \
 cppunittest
@@ -949,13 +956,6 @@ raptor
 awsy
 \
 xpcshell
-\
-(
-NULL
-)
-TEST_PKGS_TARGZ
-:
-=
 \
 web
 -
