@@ -107,7 +107,7 @@ BUG_COMPONENT
 Testing
 "
 "
-geckodriver
+Marionette
 "
 )
 SPHINX_TREES
