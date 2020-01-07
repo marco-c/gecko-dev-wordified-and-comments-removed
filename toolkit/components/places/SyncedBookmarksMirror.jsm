@@ -9156,6 +9156,7 @@ id
 =
 :
 id
+tagFolderNameParams
 )
 ;
 }
@@ -9367,13 +9368,6 @@ isDeleted
 type
 isQuery
 smartBookmarkName
-IFNULL
-(
-tagFolderName
-"
-"
-)
-AS
 tagFolderName
 loadInSidebar
 keyword
@@ -9648,6 +9642,9 @@ getResultByName
 tagFolderName
 "
 )
+|
+|
+undefined
 }
 ;
 let
