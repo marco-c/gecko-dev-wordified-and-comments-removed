@@ -455,7 +455,6 @@ base
 '
 ]
 #
-#
 CXXFLAGS
 +
 =
@@ -841,7 +840,6 @@ winspool
 ws2_32
 '
 ]
-#
 #
 LDFLAGS
 +

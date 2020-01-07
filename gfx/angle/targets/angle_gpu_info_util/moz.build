@@ -438,7 +438,6 @@ base
 '
 ]
 #
-#
 CXXFLAGS
 +
 =
@@ -793,7 +792,6 @@ OS_LIBS
 setupapi
 '
 ]
-#
 #
 LDFLAGS
 +

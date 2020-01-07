@@ -497,7 +497,6 @@ base
 '
 ]
 #
-#
 CXXFLAGS
 +
 =
@@ -3718,7 +3717,6 @@ dxguid
 setupapi
 '
 ]
-#
 #
 LDFLAGS
 +
