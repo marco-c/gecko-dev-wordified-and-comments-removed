@@ -423,16 +423,10 @@ bool
 aHandled
 )
 ;
+MOZ_MUST_USE
 nsresult
 DidDeleteSelection
 (
-nsIEditor
-:
-:
-EDirection
-aCollapsedAction
-nsresult
-aResult
 )
 ;
 nsresult
