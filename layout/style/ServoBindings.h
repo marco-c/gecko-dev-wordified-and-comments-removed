@@ -204,7 +204,7 @@ class
 ComputedStyle
 ;
 class
-ServoStyleSheet
+StyleSheet
 ;
 class
 ServoElementSnapshotTable
@@ -895,7 +895,7 @@ sheet_contents
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 Gecko_LoadStyleSheet
 (
@@ -911,7 +911,7 @@ loader
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 parent
 mozilla
@@ -3347,7 +3347,7 @@ AssertIsMainThreadOrServoLangFontPrefsCacheLocked
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 Gecko_StyleSheet_Clone
 (
@@ -3355,14 +3355,14 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 aNewParentSheet
 )
@@ -3374,7 +3374,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3386,7 +3386,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3642,7 +3642,7 @@ Gecko_CreateCSSErrorReporter
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 sheet
 mozilla

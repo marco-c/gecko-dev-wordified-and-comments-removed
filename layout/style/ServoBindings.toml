@@ -3705,7 +3705,7 @@ SheetLoadData
 SheetLoadDataHolder
 "
 "
-ServoStyleSheet
+StyleSheet
 "
 "
 ServoComputedData

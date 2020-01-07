@@ -28,10 +28,10 @@ namespace
 mozilla
 {
 class
-ServoStyleSheet
+ServoMediaList
 ;
 class
-ServoMediaList
+StyleSheet
 ;
 class
 ServoImportRule
@@ -154,7 +154,7 @@ mRawRule
 ;
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 mChildSheet
 ;

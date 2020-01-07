@@ -300,7 +300,7 @@ class
 AccessibleCaretEventHub
 ;
 class
-ServoStyleSheet
+StyleSheet
 ;
 }
 class
@@ -2157,7 +2157,7 @@ RefPtr
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -2178,7 +2178,7 @@ RefPtr
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 >
 >
 &
