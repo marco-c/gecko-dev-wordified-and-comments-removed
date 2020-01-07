@@ -260,6 +260,22 @@ basestring
 ]
 )
         
+Optional
+(
+'
+config
+-
+paths
+'
+)
+:
+_by_platform
+(
+[
+basestring
+]
+)
+        
 Required
 (
 '
