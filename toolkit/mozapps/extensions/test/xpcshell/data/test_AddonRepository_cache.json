@@ -310,6 +310,11 @@ ratings
 count
 "
 :
+1234
+"
+text_count
+"
+:
 1111
 "
 average
@@ -798,6 +803,11 @@ ratings
 {
 "
 count
+"
+:
+2223
+"
+text_count
 "
 :
 1112
