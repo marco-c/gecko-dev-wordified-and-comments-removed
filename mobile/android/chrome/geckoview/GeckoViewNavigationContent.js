@@ -80,6 +80,17 @@ GeckoViewNavigationContent
 extends
 GeckoViewContentModule
 {
+onInit
+(
+)
+{
+this
+.
+onEnable
+(
+)
+;
+}
 onEnable
 (
 )
