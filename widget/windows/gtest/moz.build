@@ -108,6 +108,14 @@ LOCAL_INCLUDES
 [
 '
 /
+ipc
+/
+chromium
+/
+src
+'
+'
+/
 modules
 /
 pdfium
