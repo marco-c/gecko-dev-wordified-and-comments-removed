@@ -786,6 +786,15 @@ mThrottleReadLimit
 ;
 }
 bool
+AllowPlaintextServerTiming
+(
+)
+{
+return
+mAllowPlaintextServerTiming
+;
+}
+bool
 TCPKeepaliveEnabledForShortLivedConns
 (
 )
@@ -2067,6 +2076,9 @@ mFastOpenStallsTimeout
 ;
 bool
 mActiveTabPriority
+;
+bool
+mAllowPlaintextServerTiming
 ;
 private
 :
