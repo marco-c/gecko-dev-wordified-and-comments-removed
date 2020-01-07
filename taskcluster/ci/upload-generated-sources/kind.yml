@@ -199,6 +199,15 @@ py
 {
 ARTIFACT_URL
 }
+sparse
+-
+profile
+:
+upload
+-
+generated
+-
+sources
 optimization
 :
 only
