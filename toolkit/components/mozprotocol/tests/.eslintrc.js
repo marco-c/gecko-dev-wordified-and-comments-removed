@@ -18,7 +18,7 @@ plugin
 :
 mozilla
 /
-chrome
+browser
 -
 test
 "
