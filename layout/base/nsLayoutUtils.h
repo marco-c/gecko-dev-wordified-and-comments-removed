@@ -4292,6 +4292,16 @@ const
 nsRect
 *
 aDirty
+const
+mozilla
+:
+:
+Maybe
+<
+SVGImageContext
+>
+&
+aSVGContext
 uint32_t
 aImageFlags
 const

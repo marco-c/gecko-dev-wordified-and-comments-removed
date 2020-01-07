@@ -34275,6 +34275,13 @@ const
 nsRect
 *
 aDirty
+const
+Maybe
+<
+SVGImageContext
+>
+&
+aSVGContext
 uint32_t
 aImageFlags
 const
@@ -34429,9 +34436,7 @@ aDirty
 aDirty
 :
 dest
-Nothing
-(
-)
+aSVGContext
 aImageFlags
 )
 ;

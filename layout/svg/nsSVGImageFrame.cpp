@@ -1638,6 +1638,9 @@ aDirtyRect
 dirtyRect
 :
 nullptr
+Nothing
+(
+)
 flags
 )
 ;
