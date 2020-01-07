@@ -1814,7 +1814,10 @@ UseGDIFontTableAccess
 &
 !
 (
-mStyle
+!
+IsUpright
+(
+)
 &
 &
 UsingArabicOrHebrewScriptSystemLocale
