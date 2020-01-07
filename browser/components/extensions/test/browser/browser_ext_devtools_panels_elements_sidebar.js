@@ -90,10 +90,6 @@ panelDoc
 querySelector
 (
 "
-#
-inspector
--
-sidebar
 .
 tabs
 -
