@@ -1618,6 +1618,9 @@ ScriptProcessorNode
 ScrollAreaEvent
 "
 "
+SecurityPolicyViolationEvent
+"
+"
 Selection
 "
 "
