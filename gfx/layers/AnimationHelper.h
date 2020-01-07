@@ -33,6 +33,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimingParams
+.
+h
+"
 namespace
 mozilla
 {
@@ -87,6 +96,9 @@ ComputedTimingFunction
 >
 >
 mFunctions
+;
+TimingParams
+mTiming
 ;
 }
 ;
