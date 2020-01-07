@@ -12,12 +12,6 @@ NotLeaf
 )
 FRAME_ID
 (
-nsAutoRepeatBoxFrame
-Box
-NotLeaf
-)
-FRAME_ID
-(
 nsBCTableCellFrame
 BCTableCell
 NotLeaf

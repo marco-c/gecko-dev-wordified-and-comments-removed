@@ -312,11 +312,6 @@ nsScrollbarFrame
 cpp
 '
 '
-nsScrollBoxFrame
-.
-cpp
-'
-'
 nsSliderFrame
 .
 cpp
