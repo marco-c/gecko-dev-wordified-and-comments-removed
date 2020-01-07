@@ -23754,6 +23754,8 @@ types_
 =
 nullptr
 ;
+bitFields_
+.
 hasFreezeConstraints_
 =
 false
@@ -23823,6 +23825,8 @@ hadOOM
 )
 )
 {
+bitFields_
+.
 hasFreezeConstraints_
 =
 false
