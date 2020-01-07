@@ -4156,7 +4156,10 @@ UniquePtr
 AbstractTimelineMarker
 >
 (
-Move
+std
+:
+:
+move
 (
 clone
 )
@@ -7593,7 +7596,10 @@ mThrownError
 .
 emplace
 (
-Move
+std
+:
+:
+move
 (
 details
 )
