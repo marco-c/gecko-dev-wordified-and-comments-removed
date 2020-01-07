@@ -1138,10 +1138,6 @@ use_marionette
 =
 False
     
-parse_manifest
-=
-False
-    
 remoteApp
 =
 '
@@ -1167,7 +1163,16 @@ RefTest
 __init__
 (
 self
+options
+.
+suite
 )
+        
+self
+.
+run_by_manifest
+=
+False
         
 self
 .
@@ -2220,44 +2225,6 @@ allow_zooming
 =
 False
         
-if
-options
-.
-totalChunks
-:
-            
-prefs
-[
-'
-reftest
-.
-totalChunks
-'
-]
-=
-options
-.
-totalChunks
-        
-if
-options
-.
-thisChunk
-:
-            
-prefs
-[
-'
-reftest
-.
-thisChunk
-'
-]
-=
-options
-.
-thisChunk
-        
 profile
 .
 set_preferences
@@ -2770,11 +2737,6 @@ profile
         
 return
 status
-self
-.
-outputHandler
-.
-results
     
 def
 cleanup
