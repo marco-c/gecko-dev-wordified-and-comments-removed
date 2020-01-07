@@ -58,7 +58,7 @@ model
 ;
 const
 {
-CATEGORY_MASK
+CATEGORY_INDEX
 }
 =
 require
@@ -439,7 +439,7 @@ line
 456
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 other
