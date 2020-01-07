@@ -865,7 +865,13 @@ AudioStream
 this
 )
 ;
-uint32_t
+AudioConfig
+:
+:
+ChannelLayout
+:
+:
+ChannelMap
 channelMap
 =
 mConverter
