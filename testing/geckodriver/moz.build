@@ -61,6 +61,12 @@ RUST_PROGRAMS
 geckodriver
 "
 ]
+RustTest
+(
+"
+geckodriver
+"
+)
 with
 Files
 (
