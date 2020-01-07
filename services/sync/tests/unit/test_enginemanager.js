@@ -644,7 +644,9 @@ getEnabled
 (
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 engines
 [
@@ -686,7 +688,9 @@ getEnabled
 (
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 engines
 [

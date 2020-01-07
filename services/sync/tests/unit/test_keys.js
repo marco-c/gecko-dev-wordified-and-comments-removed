@@ -1837,7 +1837,9 @@ d8
 same
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 d1
 .
@@ -1846,7 +1848,9 @@ changed
 ]
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 d2
 .
@@ -1858,7 +1862,9 @@ bar
 ]
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 d3
 .
@@ -1870,7 +1876,9 @@ bar
 ]
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 d4
 .
@@ -1885,7 +1893,9 @@ foo
 ]
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 d5
 .
@@ -1900,7 +1910,9 @@ foo
 ]
 )
 ;
-do_check_array_eq
+Assert
+.
+deepEqual
 (
 d6
 .
