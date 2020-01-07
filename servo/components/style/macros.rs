@@ -507,9 +507,6 @@ impl
 style_traits
 :
 :
-values
-:
-:
 ToCss
 for
 name
@@ -526,7 +523,15 @@ dest
 :
 &
 mut
+:
+:
+style_traits
+:
+:
+CssWriter
+<
 W
+>
 )
 -
 >

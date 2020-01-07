@@ -99,6 +99,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 use
 std
@@ -111,6 +117,7 @@ style_traits
 :
 :
 {
+CssWriter
 ToCss
 ParseError
 }
@@ -689,7 +696,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -699,9 +709,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {

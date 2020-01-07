@@ -3,6 +3,12 @@ std
 :
 :
 fmt
+:
+:
+{
+self
+Write
+}
 ;
 use
 style_traits
@@ -12,6 +18,7 @@ values
 :
 :
 {
+CssWriter
 SequenceWriter
 ToCss
 }
@@ -347,7 +354,10 @@ dest
 :
 &
 mut
+CssWriter
+<
 W
+>
 )
 -
 >
@@ -357,9 +367,6 @@ fmt
 Result
 where
 W
-:
-fmt
-:
 :
 Write
 {
