@@ -34117,6 +34117,9 @@ marker
 ;
 if
 (
+isIncremental
+&
+&
 !
 hasBufferedGrayRoots
 (
