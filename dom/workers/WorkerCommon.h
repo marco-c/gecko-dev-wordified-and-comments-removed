@@ -120,14 +120,6 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
-void
-PropagateFirstPartyStorageAccessGrantedToWorkers
-(
-nsPIDOMWindowInner
-*
-aWindow
-)
-;
 bool
 IsWorkerGlobal
 (

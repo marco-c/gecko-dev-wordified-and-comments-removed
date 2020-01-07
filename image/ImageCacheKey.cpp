@@ -684,13 +684,13 @@ nsContentUtils
 :
 StorageDisabledByAntiTracking
 (
+nullptr
 aDocument
 -
 >
-GetInnerWindow
+GetChannel
 (
 )
-nullptr
 aURI
 )
 )

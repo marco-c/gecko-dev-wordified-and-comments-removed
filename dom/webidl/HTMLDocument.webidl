@@ -465,13 +465,5 @@ attribute
 NodeList
 blockedTrackingNodes
 ;
-[
-ChromeOnly
-]
-void
-userInteractionForTesting
-(
-)
-;
 }
 ;

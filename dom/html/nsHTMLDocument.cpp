@@ -14336,16 +14336,3 @@ mFormControlList
 )
 ;
 }
-void
-nsHTMLDocument
-:
-:
-UserInteractionForTesting
-(
-)
-{
-NotifyUserGestureActivation
-(
-)
-;
-}

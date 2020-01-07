@@ -438,14 +438,6 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
-void
-PropagateFirstPartyStorageAccessGranted
-(
-nsPIDOMWindowInner
-*
-aWindow
-)
-;
 nsresult
 CreateSharedWorker
 (

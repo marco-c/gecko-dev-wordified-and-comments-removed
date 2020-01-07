@@ -439,11 +439,6 @@ contentPolicyType
 uint32_t
 tainting
 ;
-nsString
-[
-]
-firstPartyStorageAccessGrantedOrigins
-;
 bool
 upgradeInsecureRequests
 ;

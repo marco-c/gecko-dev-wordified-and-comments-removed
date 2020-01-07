@@ -297,6 +297,10 @@ me
 )
 ;
 }
+)
+;
+registerCleanupFunction
+(
 async
 _
 =

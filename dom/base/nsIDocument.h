@@ -9827,11 +9827,6 @@ GetSameTypeParentDocument
 (
 )
 ;
-void
-MaybeAllowStorageForOpener
-(
-)
-;
 static
 bool
 MatchNameAttribute

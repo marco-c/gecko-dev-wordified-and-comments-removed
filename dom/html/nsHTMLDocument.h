@@ -1196,11 +1196,6 @@ nsContentList
 aFormControlList
 )
 ;
-void
-UserInteractionForTesting
-(
-)
-;
 protected
 :
 ~
