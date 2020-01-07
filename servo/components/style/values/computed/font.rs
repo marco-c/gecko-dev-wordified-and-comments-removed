@@ -5074,7 +5074,7 @@ display
 DisplayValue
 :
 :
-inline
+Inline
 {
 parent
 +

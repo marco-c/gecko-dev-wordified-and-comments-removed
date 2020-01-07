@@ -1042,7 +1042,7 @@ computed_value
 T
 :
 :
-decimal
+Decimal
 )
 }
 #

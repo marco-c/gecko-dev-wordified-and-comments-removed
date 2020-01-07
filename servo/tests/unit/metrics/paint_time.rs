@@ -92,6 +92,11 @@ computed_values
 :
 :
 image_rendering
+:
+:
+T
+as
+ImageRendering
 ;
 use
 time
@@ -632,13 +637,10 @@ zero
 )
 image_rendering
 :
-image_rendering
+ImageRendering
 :
 :
-T
-:
-:
-auto
+Auto
 }
 )
 )

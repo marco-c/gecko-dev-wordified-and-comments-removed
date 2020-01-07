@@ -771,7 +771,7 @@ border_collapse
 T
 :
 :
-collapse
+Collapse
 {
 let
 child_table_row

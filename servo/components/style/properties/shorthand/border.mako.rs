@@ -661,7 +661,7 @@ unwrap_or
 BorderStyle
 :
 :
-none
+None
 )
 width
 .

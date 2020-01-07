@@ -300,7 +300,7 @@ specified
 BorderStyle
 :
 :
-none
+None
 "
 alias
 =

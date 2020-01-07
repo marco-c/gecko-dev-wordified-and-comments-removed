@@ -355,7 +355,7 @@ table_layout
 T
 :
 :
-fixed
+Fixed
 {
 TableLayout
 :

@@ -78,7 +78,7 @@ computed_value
 :
 T
 as
-display
+Display
 ;
 use
 rule_tree
@@ -591,10 +591,10 @@ clone_display
 )
 =
 =
-display
+Display
 :
 :
-none
+None
 {
 return
 true

@@ -777,7 +777,7 @@ box
 "
 =
 >
-padding_box
+PaddingBox
 "
 content
 -
@@ -785,7 +785,7 @@ box
 "
 =
 >
-content_box
+ContentBox
 }
 add_impls_for_keyword_enum
 !

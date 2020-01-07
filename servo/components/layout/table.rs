@@ -352,7 +352,7 @@ table_layout
 T
 :
 :
-fixed
+Fixed
 {
 TableLayout
 :
@@ -861,7 +861,7 @@ border_collapse
 T
 :
 :
-separate
+Separate
 =
 >
 style
@@ -877,7 +877,7 @@ border_collapse
 T
 :
 :
-collapse
+Collapse
 =
 >
 border_spacing
@@ -1279,7 +1279,7 @@ border_collapse
 T
 :
 :
-collapse
+Collapse
 ;
 let
 table_inline_collapsed_borders
@@ -2484,7 +2484,7 @@ border_collapse
 T
 :
 :
-separate
+Separate
 =
 >
 BorderPaintingMode
@@ -2497,7 +2497,7 @@ border_collapse
 T
 :
 :
-collapse
+Collapse
 =
 >
 BorderPaintingMode
@@ -3645,7 +3645,7 @@ border_collapse
 T
 :
 :
-separate
+Separate
 |
 |
 block_direction_spacing
@@ -3749,7 +3749,7 @@ border_collapse
 T
 :
 :
-separate
+Separate
 =
 >
 block_direction_spacing
@@ -3759,7 +3759,7 @@ border_collapse
 T
 :
 :
-collapse
+Collapse
 =
 >
 {

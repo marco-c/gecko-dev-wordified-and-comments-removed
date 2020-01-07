@@ -2698,7 +2698,7 @@ computed_value
 T
 :
 :
-visible
+Visible
 }
 fn
 overflow_y_is_visible
@@ -2755,7 +2755,7 @@ computed_value
 T
 :
 :
-visible
+Visible
 }
 fn
 overflow_x_is_hidden
@@ -2812,7 +2812,7 @@ computed_value
 T
 :
 :
-hidden
+Hidden
 }
 fn
 overflow_y_is_hidden
@@ -2869,7 +2869,7 @@ computed_value
 T
 :
 :
-hidden
+Hidden
 }
 }
 #

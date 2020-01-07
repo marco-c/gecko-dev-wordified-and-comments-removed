@@ -3,6 +3,11 @@ computed_values
 :
 :
 display
+:
+:
+T
+as
+Display
 ;
 use
 matching
@@ -1135,13 +1140,10 @@ get_box
 display
 =
 =
-display
+Display
 :
 :
-T
-:
-:
-inline
+Inline
 &
 &
 add_if_not_equal

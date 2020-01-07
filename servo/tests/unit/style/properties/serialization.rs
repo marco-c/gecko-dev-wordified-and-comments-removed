@@ -18,9 +18,8 @@ display
 :
 :
 T
-:
-:
-inline_block
+as
+Display
 ;
 use
 style
@@ -255,7 +254,10 @@ PropertyDeclaration
 :
 Display
 (
-inline_block
+Display
+:
+:
+InlineBlock
 )
 Importance
 :
@@ -271,7 +273,7 @@ OverflowX
 OverflowValue
 :
 :
-auto
+Auto
 )
 Importance
 :
@@ -287,7 +289,7 @@ OverflowY
 OverflowValue
 :
 :
-auto
+Auto
 )
 Importance
 :
@@ -458,7 +460,7 @@ overflow
 OverflowValue
 :
 :
-auto
+Auto
 ;
 properties
 .
@@ -533,7 +535,7 @@ overflow_x
 OverflowValue
 :
 :
-scroll
+Scroll
 ;
 properties
 .
@@ -554,7 +556,7 @@ overflow_y
 OverflowValue
 :
 :
-auto
+Auto
 ;
 properties
 .
@@ -1207,7 +1209,7 @@ solid
 BorderStyle
 :
 :
-solid
+Solid
 ;
 properties
 .
@@ -1536,7 +1538,7 @@ solid
 BorderStyle
 :
 :
-solid
+Solid
 ;
 properties
 .
@@ -2450,7 +2452,7 @@ solid
 BorderStyle
 :
 :
-solid
+Solid
 ;
 let
 dotted
@@ -2458,7 +2460,7 @@ dotted
 BorderStyle
 :
 :
-dotted
+Dotted
 ;
 properties
 .
@@ -2886,7 +2888,7 @@ BorderTopStyle
 BorderStyle
 :
 :
-solid
+Solid
 )
 )
 ;
@@ -3242,7 +3244,7 @@ BorderTopStyle
 BorderStyle
 :
 :
-solid
+Solid
 )
 )
 ;
@@ -3373,7 +3375,7 @@ style
 BorderStyle
 :
 :
-solid
+Solid
 ;
 let
 color
@@ -3491,7 +3493,7 @@ from_px
 BorderStyle
 :
 :
-solid
+Solid
 Color
 :
 :
@@ -4075,7 +4077,7 @@ position
 ListStylePosition
 :
 :
-inside
+Inside
 ;
 let
 image
@@ -4113,7 +4115,7 @@ style_type
 ListStyleType
 :
 :
-disc
+Disc
 ;
 properties
 .
@@ -4305,7 +4307,7 @@ Second
 BorderStyle
 :
 :
-solid
+Solid
 )
 ;
 let
@@ -4832,7 +4834,7 @@ direction
 FlexDirection
 :
 :
-row
+Row
 ;
 let
 wrap
@@ -4840,7 +4842,7 @@ wrap
 FlexWrap
 :
 :
-wrap
+Wrap
 ;
 properties
 .

@@ -269,7 +269,7 @@ Second
 BorderStyle
 :
 :
-none
+None
 )
 }
 #
@@ -293,7 +293,7 @@ Second
 BorderStyle
 :
 :
-none
+None
 )
 }
 pub
@@ -373,7 +373,7 @@ Second
 BorderStyle
 :
 :
-hidden
+Hidden
 )
 =
 result

@@ -1141,7 +1141,7 @@ none
 "
 =
 >
-none
+None
 =
 -
 1
@@ -1150,7 +1150,7 @@ solid
 "
 =
 >
-solid
+Solid
 =
 6
 "
@@ -1158,7 +1158,7 @@ double
 "
 =
 >
-double
+Double
 =
 7
 "
@@ -1166,7 +1166,7 @@ dotted
 "
 =
 >
-dotted
+Dotted
 =
 4
 "
@@ -1174,7 +1174,7 @@ dashed
 "
 =
 >
-dashed
+Dashed
 =
 5
 "
@@ -1182,7 +1182,7 @@ hidden
 "
 =
 >
-hidden
+Hidden
 =
 -
 2
@@ -1191,7 +1191,7 @@ groove
 "
 =
 >
-groove
+Groove
 =
 1
 "
@@ -1199,7 +1199,7 @@ ridge
 "
 =
 >
-ridge
+Ridge
 =
 3
 "
@@ -1207,7 +1207,7 @@ inset
 "
 =
 >
-inset
+Inset
 =
 0
 "
@@ -1215,7 +1215,7 @@ outset
 "
 =
 >
-outset
+Outset
 =
 2
 }
@@ -1241,12 +1241,12 @@ self
 BorderStyle
 :
 :
-none
+None
 |
 BorderStyle
 :
 :
-hidden
+Hidden
 )
 }
 }

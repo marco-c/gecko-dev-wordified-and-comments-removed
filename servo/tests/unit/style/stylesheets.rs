@@ -954,7 +954,7 @@ display
 SpecifiedValue
 :
 :
-none
+None
 )
 Importance
 :
@@ -1242,7 +1242,7 @@ display
 SpecifiedValue
 :
 :
-block
+Block
 )
 Importance
 :
