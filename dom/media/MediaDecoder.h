@@ -504,6 +504,8 @@ AddOutputStream
 ProcessedMediaStream
 *
 aStream
+TrackID
+aNextAvailableTrackID
 bool
 aFinishWhenEnded
 )
@@ -516,6 +518,16 @@ MediaStream
 *
 aStream
 )
+;
+virtual
+TrackID
+NextAvailableTrackIDFor
+(
+MediaStream
+*
+aOutputStream
+)
+const
 ;
 virtual
 double

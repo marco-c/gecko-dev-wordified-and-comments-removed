@@ -2483,6 +2483,9 @@ DOMMediaStream
 >
 mStream
 ;
+TrackID
+mNextAvailableTrackID
+;
 bool
 mFinishWhenEnded
 ;
@@ -2503,9 +2506,6 @@ MediaStreamTrack
 >
 >
 mPreCreatedTracks
-;
-TrackID
-mNextAvailableTrackID
 ;
 nsTArray
 <
