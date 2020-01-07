@@ -2710,6 +2710,11 @@ AudioWorkletGlobalScope
 webidl
 '
 '
+AudioWorkletNode
+.
+webidl
+'
+'
 AutocompleteInfo
 .
 webidl

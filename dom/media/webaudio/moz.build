@@ -333,6 +333,11 @@ AudioScheduledSourceNode
 h
 '
 '
+AudioWorkletNode
+.
+h
+'
+'
 BiquadFilterNode
 .
 h
@@ -504,6 +509,11 @@ cpp
 '
 '
 AudioScheduledSourceNode
+.
+cpp
+'
+'
+AudioWorkletNode
 .
 cpp
 '
