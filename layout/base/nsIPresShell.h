@@ -1321,8 +1321,11 @@ IsSafeToFlush
 )
 const
 ;
-public
-:
+void
+NotifyFontFaceSetOnRefresh
+(
+)
+;
 void
 FlushPendingNotifications
 (
