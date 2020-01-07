@@ -485,6 +485,15 @@ FILENAME_TEMPLATE
 EXTRA_PARAMS
 "
 fi
+#
+EXTRA_PARAMS
+is
+optional
+#
+shellcheck
+disable
+=
+SC2086
 /
 home
 /
