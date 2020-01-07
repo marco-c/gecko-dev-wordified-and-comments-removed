@@ -98,6 +98,16 @@ Reftest
 Retrigger
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '

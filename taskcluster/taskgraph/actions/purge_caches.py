@@ -57,6 +57,16 @@ purge
 caches
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '

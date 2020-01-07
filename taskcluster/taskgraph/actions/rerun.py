@@ -76,6 +76,16 @@ name
 rerun
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '
