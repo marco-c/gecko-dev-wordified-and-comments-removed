@@ -176,12 +176,6 @@ files
 :
 [
 "
-devtools
-/
-*
-*
-"
-"
 extensions
 /
 pref
