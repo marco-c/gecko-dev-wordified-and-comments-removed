@@ -53,6 +53,10 @@ mortar
 /
 ppapi
 /
+build
+/
+pymake
+/
 testing
 /
 mochitest
