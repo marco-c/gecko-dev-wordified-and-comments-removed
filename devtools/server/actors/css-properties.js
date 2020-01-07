@@ -297,7 +297,7 @@ if
 safeCssPropertySupportsType
 (
 name
-DOMUtils
+InspectorUtils
 [
 "
 TYPE_
@@ -457,7 +457,7 @@ type
 try
 {
 return
-DOMUtils
+InspectorUtils
 .
 cssPropertySupportsType
 (
