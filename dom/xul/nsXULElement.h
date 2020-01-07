@@ -1519,13 +1519,6 @@ aAttribute
 const
 override
 ;
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
-using
-nsStyledElement
-:
-:
-GetParentElement
-;
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_DECL_NSIDOMXULELEMENT
 virtual

@@ -401,7 +401,6 @@ aPreallocateChildren
 const
 override
 ;
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
 using
 nsDocument
 :
