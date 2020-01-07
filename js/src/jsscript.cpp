@@ -3166,6 +3166,14 @@ ss
 ;
 if
 (
+!
+sourceObject
+)
+return
+false
+;
+if
+(
 xdr
 -
 >
@@ -3186,13 +3194,8 @@ sourceObject
 ;
 }
 else
-{
 if
 (
-!
-sourceObject
-|
-|
 !
 ScriptSourceObject
 :
@@ -3209,7 +3212,6 @@ options
 return
 false
 ;
-}
 }
 }
 script
