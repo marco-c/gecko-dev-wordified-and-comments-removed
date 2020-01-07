@@ -83,6 +83,7 @@ icmp6_dataun
 pragma
 pack
 (
+pop
 )
 #
 define
