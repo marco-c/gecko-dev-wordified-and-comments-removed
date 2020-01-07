@@ -2326,9 +2326,7 @@ gecko
 "
 boxed
 =
-"
 True
-"
 spec
 =
 "

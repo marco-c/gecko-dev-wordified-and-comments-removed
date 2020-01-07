@@ -177,9 +177,7 @@ ComputedValue
 "
 boxed
 =
-"
 True
-"
 allow_quirks
 =
 True
