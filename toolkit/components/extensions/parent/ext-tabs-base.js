@@ -2375,6 +2375,11 @@ if
 this
 .
 activeTab
+&
+&
+this
+.
+activeTab
 .
 hasTabPermission
 )
