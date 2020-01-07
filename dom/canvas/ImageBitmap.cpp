@@ -195,7 +195,7 @@ mozilla
 dom
 :
 :
-HTMLMediaElementBinding
+HTMLMediaElement_Binding
 :
 :
 NETWORK_EMPTY
@@ -207,7 +207,7 @@ mozilla
 dom
 :
 :
-HTMLMediaElementBinding
+HTMLMediaElement_Binding
 :
 :
 HAVE_METADATA
@@ -2360,7 +2360,7 @@ aGivenProto
 )
 {
 return
-ImageBitmapBinding
+ImageBitmap_Binding
 :
 :
 Wrap

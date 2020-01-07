@@ -125,7 +125,7 @@ aGivenProto
 )
 {
 return
-SpeechRecognitionResultListBinding
+SpeechRecognitionResultList_Binding
 :
 :
 Wrap

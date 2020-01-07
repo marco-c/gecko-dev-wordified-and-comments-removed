@@ -3923,7 +3923,7 @@ mLocation
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_KEY_LOCATION_RIGHT

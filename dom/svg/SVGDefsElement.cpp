@@ -52,7 +52,7 @@ aGivenProto
 )
 {
 return
-SVGDefsElementBinding
+SVGDefsElement_Binding
 :
 :
 Wrap

@@ -1019,7 +1019,7 @@ aGivenProto
 )
 {
 return
-BlobBinding
+Blob_Binding
 :
 :
 Wrap

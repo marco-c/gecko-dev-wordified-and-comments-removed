@@ -90,7 +90,7 @@ RealmOptions
 options
 ;
 return
-AudioWorkletGlobalScopeBinding
+AudioWorkletGlobalScope_Binding
 :
 :
 Wrap

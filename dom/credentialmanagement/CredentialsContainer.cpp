@@ -554,7 +554,7 @@ aGivenProto
 )
 {
 return
-CredentialsContainerBinding
+CredentialsContainer_Binding
 :
 :
 Wrap

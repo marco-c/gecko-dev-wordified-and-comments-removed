@@ -108,7 +108,7 @@ mozilla
 dom
 :
 :
-SVGGradientElementBinding
+SVGGradientElement_Binding
 ;
 using
 namespace
@@ -118,7 +118,7 @@ mozilla
 dom
 :
 :
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 using
 namespace

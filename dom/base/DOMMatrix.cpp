@@ -193,7 +193,7 @@ aGivenProto
 )
 {
 return
-DOMMatrixReadOnlyBinding
+DOMMatrixReadOnly_Binding
 :
 :
 Wrap
@@ -4280,7 +4280,7 @@ aGivenProto
 )
 {
 return
-DOMMatrixBinding
+DOMMatrix_Binding
 :
 :
 Wrap

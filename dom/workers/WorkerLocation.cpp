@@ -149,7 +149,7 @@ aGivenProto
 )
 {
 return
-WorkerLocationBinding
+WorkerLocation_Binding
 :
 :
 Wrap

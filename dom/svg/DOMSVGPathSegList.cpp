@@ -398,7 +398,7 @@ mozilla
 dom
 :
 :
-SVGPathSegListBinding
+SVGPathSegList_Binding
 :
 :
 Wrap

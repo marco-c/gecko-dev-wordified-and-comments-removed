@@ -59,7 +59,7 @@ aGivenProto
 )
 {
 return
-SVGFECompositeElementBinding
+SVGFECompositeElement_Binding
 :
 :
 Wrap

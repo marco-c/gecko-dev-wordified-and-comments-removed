@@ -49014,7 +49014,7 @@ mDocChangeRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 START_TO_START
@@ -49112,7 +49112,7 @@ mDocChangeRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 END_TO_END

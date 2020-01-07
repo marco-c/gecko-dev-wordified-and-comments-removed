@@ -331,7 +331,7 @@ nsGkAtoms
 :
 x
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -347,7 +347,7 @@ nsGkAtoms
 :
 y
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -363,7 +363,7 @@ nsGkAtoms
 :
 width
 100
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -379,7 +379,7 @@ nsGkAtoms
 :
 height
 100
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1603,7 +1603,7 @@ aGivenProto
 )
 {
 return
-SVGFEFuncRElementBinding
+SVGFEFuncRElement_Binding
 :
 :
 Wrap
@@ -1652,7 +1652,7 @@ aGivenProto
 )
 {
 return
-SVGFEFuncGElementBinding
+SVGFEFuncGElement_Binding
 :
 :
 Wrap
@@ -1701,7 +1701,7 @@ aGivenProto
 )
 {
 return
-SVGFEFuncBElementBinding
+SVGFEFuncBElement_Binding
 :
 :
 Wrap
@@ -1750,7 +1750,7 @@ aGivenProto
 )
 {
 return
-SVGFEFuncAElementBinding
+SVGFEFuncAElement_Binding
 :
 :
 Wrap

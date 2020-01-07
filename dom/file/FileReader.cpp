@@ -1018,7 +1018,7 @@ DOMException
 NS_ERROR_DOM_INVALID_STATE_ERR
 errorMsg
 errorNameC
-DOMExceptionBinding
+DOMException_Binding
 :
 :
 INVALID_STATE_ERR
@@ -2206,7 +2206,7 @@ aGivenProto
 )
 {
 return
-FileReaderBinding
+FileReader_Binding
 :
 :
 Wrap

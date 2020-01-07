@@ -163,7 +163,7 @@ aGivenProto
 )
 {
 return
-PublicKeyCredentialBinding
+PublicKeyCredential_Binding
 :
 :
 Wrap

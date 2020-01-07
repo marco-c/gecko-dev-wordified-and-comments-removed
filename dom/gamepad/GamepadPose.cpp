@@ -143,7 +143,7 @@ aGivenProto
 )
 {
 return
-GamepadPoseBinding
+GamepadPose_Binding
 :
 :
 Wrap

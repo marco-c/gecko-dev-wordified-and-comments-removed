@@ -71,7 +71,7 @@ aGivenProto
 )
 {
 return
-SVGAngleBinding
+SVGAngle_Binding
 :
 :
 Wrap

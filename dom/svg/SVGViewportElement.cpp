@@ -235,7 +235,7 @@ nsGkAtoms
 :
 x
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -251,7 +251,7 @@ nsGkAtoms
 :
 y
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -267,7 +267,7 @@ nsGkAtoms
 :
 width
 100
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -283,7 +283,7 @@ nsGkAtoms
 :
 height
 100
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

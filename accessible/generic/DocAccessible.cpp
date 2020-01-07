@@ -3079,7 +3079,7 @@ aModType
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -3136,7 +3136,7 @@ aModType
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -3326,7 +3326,7 @@ aModType
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -3338,7 +3338,7 @@ aModType
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION

@@ -928,7 +928,7 @@ aGivenProto
 )
 {
 return
-TimeRangesBinding
+TimeRanges_Binding
 :
 :
 Wrap

@@ -105,7 +105,7 @@ aGivenProto
 )
 {
 return
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 Wrap

@@ -1617,7 +1617,7 @@ text
 colType
 !
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_PASSWORD

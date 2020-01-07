@@ -1032,7 +1032,7 @@ mIsOffline
 )
 {
 return
-OfflineAudioContextBinding
+OfflineAudioContext_Binding
 :
 :
 Wrap
@@ -1046,7 +1046,7 @@ aGivenProto
 else
 {
 return
-AudioContextBinding
+AudioContext_Binding
 :
 :
 Wrap

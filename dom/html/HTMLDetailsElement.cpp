@@ -303,7 +303,7 @@ aGivenProto
 )
 {
 return
-HTMLDetailsElementBinding
+HTMLDetailsElement_Binding
 :
 :
 Wrap

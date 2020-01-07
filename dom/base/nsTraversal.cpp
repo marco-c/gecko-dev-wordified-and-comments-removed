@@ -182,7 +182,7 @@ mWhatToShow
 )
 {
 return
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_SKIP
@@ -195,7 +195,7 @@ mFilter
 )
 {
 return
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT

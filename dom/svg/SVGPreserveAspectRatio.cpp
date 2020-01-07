@@ -47,7 +47,7 @@ dom
 ;
 using
 namespace
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 ;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
@@ -552,7 +552,7 @@ mozilla
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 Wrap

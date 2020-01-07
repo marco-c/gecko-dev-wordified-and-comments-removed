@@ -2968,7 +2968,7 @@ return
 dom
 :
 :
-TransceiverImplBinding
+TransceiverImpl_Binding
 :
 :
 Wrap

@@ -1412,7 +1412,7 @@ mozilla
 dom
 :
 :
-WindowRootBinding
+WindowRoot_Binding
 :
 :
 Wrap

@@ -355,7 +355,7 @@ aGivenProto
 )
 {
 return
-PresentationReceiverBinding
+PresentationReceiver_Binding
 :
 :
 Wrap

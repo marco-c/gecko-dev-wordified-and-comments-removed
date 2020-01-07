@@ -133,7 +133,7 @@ return
 dom
 :
 :
-MozStorageStatementRowBinding
+MozStorageStatementRow_Binding
 :
 :
 Wrap

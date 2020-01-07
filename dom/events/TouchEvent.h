@@ -371,7 +371,7 @@ aGivenProto
 override
 {
 return
-TouchEventBinding
+TouchEvent_Binding
 :
 :
 Wrap

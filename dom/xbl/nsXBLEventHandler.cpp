@@ -174,7 +174,7 @@ EventPhase
 )
 !
 =
-EventBinding
+Event_Binding
 :
 :
 AT_TARGET
@@ -589,7 +589,7 @@ EventPhase
 )
 !
 =
-EventBinding
+Event_Binding
 :
 :
 AT_TARGET

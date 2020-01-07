@@ -80,7 +80,7 @@ aGivenProto
 )
 {
 return
-SVGFEFloodElementBinding
+SVGFEFloodElement_Binding
 :
 :
 Wrap

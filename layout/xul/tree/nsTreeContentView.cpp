@@ -471,7 +471,7 @@ aGivenProto
 )
 {
 return
-TreeContentViewBinding
+TreeContentView_Binding
 :
 :
 Wrap

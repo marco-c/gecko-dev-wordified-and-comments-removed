@@ -129,7 +129,7 @@ mozilla
 dom
 :
 :
-PerformanceEntryBinding
+PerformanceEntry_Binding
 :
 :
 Wrap

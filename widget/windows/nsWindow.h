@@ -1393,7 +1393,7 @@ mozilla
 dom
 :
 :
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE

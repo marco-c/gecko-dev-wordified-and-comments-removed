@@ -134,7 +134,7 @@ aGivenProto
 override
 {
 return
-ResponseBinding
+Response_Binding
 :
 :
 Wrap

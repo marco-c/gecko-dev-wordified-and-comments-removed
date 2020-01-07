@@ -115,7 +115,7 @@ aGivenProto
 )
 {
 return
-MediaKeyErrorBinding
+MediaKeyError_Binding
 :
 :
 Wrap

@@ -422,7 +422,7 @@ aGivenProto
 )
 {
 return
-HTMLOptionsCollectionBinding
+HTMLOptionsCollection_Binding
 :
 :
 Wrap

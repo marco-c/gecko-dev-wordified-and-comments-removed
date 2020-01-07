@@ -117,7 +117,7 @@ aGivenProto
 )
 {
 return
-GamepadHapticActuatorBinding
+GamepadHapticActuator_Binding
 :
 :
 Wrap

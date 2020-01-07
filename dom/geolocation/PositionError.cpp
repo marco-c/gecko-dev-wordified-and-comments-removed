@@ -107,7 +107,7 @@ mCode
 )
 {
 case
-PositionErrorBinding
+PositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -127,7 +127,7 @@ prompt
 break
 ;
 case
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -147,7 +147,7 @@ position
 break
 ;
 case
-PositionErrorBinding
+PositionError_Binding
 :
 :
 TIMEOUT
@@ -208,7 +208,7 @@ aGivenProto
 )
 {
 return
-PositionErrorBinding
+PositionError_Binding
 :
 :
 Wrap

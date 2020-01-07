@@ -16981,7 +16981,7 @@ hittest
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -17391,7 +17391,7 @@ MOUSE_POINTERID
 ;
 if
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN
@@ -22251,7 +22251,7 @@ WidgetMouseEvent
 :
 :
 eLeftButton
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN
@@ -22297,7 +22297,7 @@ MOUSE_INPUT_SOURCE
 )
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -27812,7 +27812,7 @@ wheelEvent
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -27967,7 +27967,7 @@ event
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -32083,7 +32083,7 @@ MOUSE_INPUT_SOURCE
 )
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -34330,7 +34330,7 @@ aWParam
 newLParam
 false
 button
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN

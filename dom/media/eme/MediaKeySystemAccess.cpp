@@ -385,7 +385,7 @@ aGivenProto
 )
 {
 return
-MediaKeySystemAccessBinding
+MediaKeySystemAccess_Binding
 :
 :
 Wrap

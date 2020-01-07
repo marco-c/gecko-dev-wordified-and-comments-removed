@@ -490,7 +490,7 @@ default
 :
 err
 =
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -1052,7 +1052,7 @@ err
 #
 else
 return
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -1087,7 +1087,7 @@ case
 EROFS
 :
 return
-PositionErrorBinding
+PositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -1101,7 +1101,7 @@ case
 ETIMEDOUT
 :
 return
-PositionErrorBinding
+PositionError_Binding
 :
 :
 TIMEOUT
@@ -1109,7 +1109,7 @@ TIMEOUT
 default
 :
 return
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE

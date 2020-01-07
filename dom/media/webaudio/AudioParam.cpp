@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-AudioParamBinding
+AudioParam_Binding
 :
 :
 Wrap

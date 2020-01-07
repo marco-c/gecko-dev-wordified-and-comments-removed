@@ -648,7 +648,7 @@ MOUSE_INPUT_SOURCE
 dom
 :
 :
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN

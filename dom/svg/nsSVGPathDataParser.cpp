@@ -56,7 +56,7 @@ mozilla
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 ;
 using
 namespace

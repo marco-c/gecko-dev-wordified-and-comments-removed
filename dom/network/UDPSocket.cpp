@@ -644,7 +644,7 @@ aGivenProto
 )
 {
 return
-UDPSocketBinding
+UDPSocket_Binding
 :
 :
 Wrap

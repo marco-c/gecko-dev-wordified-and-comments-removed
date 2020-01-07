@@ -175,7 +175,7 @@ aGivenProto
 )
 {
 return
-AuthenticatorAssertionResponseBinding
+AuthenticatorAssertionResponse_Binding
 :
 :
 Wrap

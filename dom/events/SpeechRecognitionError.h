@@ -116,7 +116,7 @@ mozilla
 dom
 :
 :
-SpeechRecognitionErrorBinding
+SpeechRecognitionError_Binding
 :
 :
 Wrap

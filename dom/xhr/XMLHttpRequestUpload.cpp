@@ -62,7 +62,7 @@ aGivenProto
 )
 {
 return
-XMLHttpRequestUploadBinding
+XMLHttpRequestUpload_Binding
 :
 :
 Wrap

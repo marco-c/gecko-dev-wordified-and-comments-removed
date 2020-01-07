@@ -88,7 +88,7 @@ dom
 {
 using
 namespace
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 JSObject
 *
@@ -112,7 +112,7 @@ aGivenProto
 )
 {
 return
-SVGPatternElementBinding
+SVGPatternElement_Binding
 :
 :
 Wrap
@@ -143,7 +143,7 @@ nsGkAtoms
 :
 x
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -159,7 +159,7 @@ nsGkAtoms
 :
 y
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -175,7 +175,7 @@ nsGkAtoms
 :
 width
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -191,7 +191,7 @@ nsGkAtoms
 :
 height
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

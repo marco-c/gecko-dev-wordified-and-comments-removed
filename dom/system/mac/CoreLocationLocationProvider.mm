@@ -476,7 +476,7 @@ NotifyError
 dom
 :
 :
-PositionErrorBinding
+PositionError_Binding
 :
 :
 PERMISSION_DENIED

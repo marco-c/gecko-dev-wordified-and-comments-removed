@@ -59,7 +59,7 @@ aCx
 )
 ;
 return
-ChromeMessageSenderBinding
+ChromeMessageSender_Binding
 :
 :
 Wrap

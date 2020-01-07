@@ -486,7 +486,7 @@ aGivenProto
 )
 {
 return
-CSSImportRuleBinding
+CSSImportRule_Binding
 :
 :
 Wrap

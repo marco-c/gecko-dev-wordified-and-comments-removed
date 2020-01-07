@@ -334,7 +334,7 @@ aGivenProto
 )
 {
 return
-TextTrackBinding
+TextTrack_Binding
 :
 :
 Wrap

@@ -107,7 +107,7 @@ aReflector
 )
 {
 return
-TextMetricsBinding
+TextMetrics_Binding
 :
 :
 Wrap

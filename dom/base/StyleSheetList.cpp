@@ -81,7 +81,7 @@ aGivenProto
 )
 {
 return
-StyleSheetListBinding
+StyleSheetList_Binding
 :
 :
 Wrap

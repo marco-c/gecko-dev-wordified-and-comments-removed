@@ -242,7 +242,7 @@ mozilla
 dom
 :
 :
-CaretPositionBinding
+CaretPosition_Binding
 :
 :
 Wrap

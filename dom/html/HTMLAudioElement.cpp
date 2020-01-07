@@ -493,7 +493,7 @@ aGivenProto
 )
 {
 return
-HTMLAudioElementBinding
+HTMLAudioElement_Binding
 :
 :
 Wrap

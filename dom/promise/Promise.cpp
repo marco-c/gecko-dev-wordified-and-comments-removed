@@ -1780,7 +1780,7 @@ aWrapper
 )
 {
 return
-PromiseNativeHandlerBinding
+PromiseNativeHandler_Binding
 :
 :
 Wrap

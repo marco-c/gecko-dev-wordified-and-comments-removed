@@ -85,7 +85,7 @@ return
 dom
 :
 :
-HTMLDivElementBinding
+HTMLDivElement_Binding
 :
 :
 Wrap

@@ -113,7 +113,7 @@ const
 override
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 MEDIA_RULE

@@ -100,7 +100,7 @@ mozilla
 dom
 :
 :
-FileListBinding
+FileList_Binding
 :
 :
 Wrap

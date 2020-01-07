@@ -1973,7 +1973,7 @@ aGivenProto
 )
 {
 return
-HTMLButtonElementBinding
+HTMLButtonElement_Binding
 :
 :
 Wrap

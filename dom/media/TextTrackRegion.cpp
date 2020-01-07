@@ -60,7 +60,7 @@ aGivenProto
 )
 {
 return
-VTTRegionBinding
+VTTRegion_Binding
 :
 :
 Wrap

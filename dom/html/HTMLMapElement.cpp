@@ -166,7 +166,7 @@ aGivenProto
 )
 {
 return
-HTMLMapElementBinding
+HTMLMapElement_Binding
 :
 :
 Wrap

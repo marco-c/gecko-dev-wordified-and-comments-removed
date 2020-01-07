@@ -145,7 +145,7 @@ aGivenProto
 override
 {
 return
-CompositionEventBinding
+CompositionEvent_Binding
 :
 :
 Wrap

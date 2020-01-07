@@ -161,7 +161,7 @@ aGivenProto
 )
 {
 return
-SVGUseElementBinding
+SVGUseElement_Binding
 :
 :
 Wrap
@@ -192,7 +192,7 @@ nsGkAtoms
 :
 x
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -208,7 +208,7 @@ nsGkAtoms
 :
 y
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -224,7 +224,7 @@ nsGkAtoms
 :
 width
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -240,7 +240,7 @@ nsGkAtoms
 :
 height
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1588,7 +1588,7 @@ SVGContentUtils
 XY
 0xff
 100
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

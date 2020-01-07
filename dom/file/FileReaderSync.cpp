@@ -270,7 +270,7 @@ aReflector
 )
 {
 return
-FileReaderSyncBinding
+FileReaderSync_Binding
 :
 :
 Wrap

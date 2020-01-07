@@ -203,7 +203,7 @@ aGivenProto
 )
 {
 return
-IdleDeadlineBinding
+IdleDeadline_Binding
 :
 :
 Wrap

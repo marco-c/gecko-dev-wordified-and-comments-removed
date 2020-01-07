@@ -505,7 +505,7 @@ aGivenProto
 )
 {
 return
-PresentationAvailabilityBinding
+PresentationAvailability_Binding
 :
 :
 Wrap

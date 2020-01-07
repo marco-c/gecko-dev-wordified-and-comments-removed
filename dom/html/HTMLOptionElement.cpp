@@ -1616,7 +1616,7 @@ aGivenProto
 )
 {
 return
-HTMLOptionElementBinding
+HTMLOptionElement_Binding
 :
 :
 Wrap

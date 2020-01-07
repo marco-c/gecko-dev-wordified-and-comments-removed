@@ -2192,7 +2192,7 @@ NS_IsMainThread
 )
 ;
 return
-WorkletBinding
+Worklet_Binding
 :
 :
 Wrap

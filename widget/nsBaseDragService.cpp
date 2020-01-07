@@ -400,7 +400,7 @@ mSuppressLevel
 )
 mInputSource
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -1657,7 +1657,7 @@ LayoutDeviceIntPoint
 ;
 mInputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE

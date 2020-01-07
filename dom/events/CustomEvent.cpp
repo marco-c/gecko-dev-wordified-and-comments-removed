@@ -348,7 +348,7 @@ mozilla
 dom
 :
 :
-CustomEventBinding
+CustomEvent_Binding
 :
 :
 Wrap

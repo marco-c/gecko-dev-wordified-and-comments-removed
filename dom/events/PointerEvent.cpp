@@ -155,7 +155,7 @@ mouseEvent
 >
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -188,7 +188,7 @@ aGivenProto
 )
 {
 return
-PointerEventBinding
+PointerEvent_Binding
 :
 :
 Wrap
@@ -222,7 +222,7 @@ mouse
 )
 {
 return
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -241,7 +241,7 @@ pen
 )
 {
 return
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN
@@ -260,14 +260,14 @@ touch
 )
 {
 return
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
 ;
 }
 return
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -289,7 +289,7 @@ aPointerTypeSrc
 )
 {
 case
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -306,7 +306,7 @@ mouse
 break
 ;
 case
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN
@@ -323,7 +323,7 @@ pen
 break
 ;
 case
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH

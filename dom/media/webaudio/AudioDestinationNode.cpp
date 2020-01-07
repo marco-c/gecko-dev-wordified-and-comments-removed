@@ -2036,7 +2036,7 @@ aGivenProto
 )
 {
 return
-AudioDestinationNodeBinding
+AudioDestinationNode_Binding
 :
 :
 Wrap

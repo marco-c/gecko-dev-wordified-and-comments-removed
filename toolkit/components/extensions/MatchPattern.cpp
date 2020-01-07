@@ -2237,7 +2237,7 @@ aGivenProto
 )
 {
 return
-MatchPatternBinding
+MatchPattern_Binding
 :
 :
 Wrap
@@ -2817,7 +2817,7 @@ aGivenProto
 )
 {
 return
-MatchPatternSetBinding
+MatchPatternSet_Binding
 :
 :
 Wrap
@@ -3399,7 +3399,7 @@ aGivenProto
 )
 {
 return
-MatchGlobBinding
+MatchGlob_Binding
 :
 :
 Wrap

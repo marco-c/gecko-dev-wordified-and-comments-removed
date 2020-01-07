@@ -2649,7 +2649,7 @@ false
 if
 (
 !
-IDBCursorBinding
+IDBCursor_Binding
 :
 :
 GetConstructorObject
@@ -2659,7 +2659,7 @@ aCx
 |
 |
 !
-IDBCursorWithValueBinding
+IDBCursorWithValue_Binding
 :
 :
 GetConstructorObject
@@ -2669,7 +2669,7 @@ aCx
 |
 |
 !
-IDBDatabaseBinding
+IDBDatabase_Binding
 :
 :
 GetConstructorObject
@@ -2679,7 +2679,7 @@ aCx
 |
 |
 !
-IDBFactoryBinding
+IDBFactory_Binding
 :
 :
 GetConstructorObject
@@ -2689,7 +2689,7 @@ aCx
 |
 |
 !
-IDBIndexBinding
+IDBIndex_Binding
 :
 :
 GetConstructorObject
@@ -2699,7 +2699,7 @@ aCx
 |
 |
 !
-IDBKeyRangeBinding
+IDBKeyRange_Binding
 :
 :
 GetConstructorObject
@@ -2709,7 +2709,7 @@ aCx
 |
 |
 !
-IDBLocaleAwareKeyRangeBinding
+IDBLocaleAwareKeyRange_Binding
 :
 :
 GetConstructorObject
@@ -2719,7 +2719,7 @@ aCx
 |
 |
 !
-IDBMutableFileBinding
+IDBMutableFile_Binding
 :
 :
 GetConstructorObject
@@ -2729,7 +2729,7 @@ aCx
 |
 |
 !
-IDBObjectStoreBinding
+IDBObjectStore_Binding
 :
 :
 GetConstructorObject
@@ -2739,7 +2739,7 @@ aCx
 |
 |
 !
-IDBOpenDBRequestBinding
+IDBOpenDBRequest_Binding
 :
 :
 GetConstructorObject
@@ -2749,7 +2749,7 @@ aCx
 |
 |
 !
-IDBRequestBinding
+IDBRequest_Binding
 :
 :
 GetConstructorObject
@@ -2759,7 +2759,7 @@ aCx
 |
 |
 !
-IDBTransactionBinding
+IDBTransaction_Binding
 :
 :
 GetConstructorObject
@@ -2769,7 +2769,7 @@ aCx
 |
 |
 !
-IDBVersionChangeEventBinding
+IDBVersionChangeEvent_Binding
 :
 :
 GetConstructorObject

@@ -262,7 +262,7 @@ return
 aUnit
 >
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_CM
@@ -271,7 +271,7 @@ SVG_LENGTHTYPE_CM
 aUnit
 <
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PC
@@ -464,7 +464,7 @@ if
 aUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -473,7 +473,7 @@ SVG_LENGTHTYPE_NUMBER
 mUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -484,7 +484,7 @@ SVG_LENGTHTYPE_PX
 aUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -493,7 +493,7 @@ SVG_LENGTHTYPE_PX
 mUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -667,13 +667,13 @@ mUnit
 )
 {
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
 :
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -684,7 +684,7 @@ return
 0f
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_MM
@@ -697,7 +697,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_CM
@@ -710,7 +710,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_IN
@@ -721,7 +721,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PT
@@ -740,7 +740,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PC
@@ -759,7 +759,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -772,7 +772,7 @@ aAxis
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -794,7 +794,7 @@ aElement
 )
 ;
 case
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_EXS
@@ -1069,7 +1069,7 @@ IsEmpty
 )
 )
 return
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1132,7 +1132,7 @@ i
 }
 }
 return
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_UNKNOWN

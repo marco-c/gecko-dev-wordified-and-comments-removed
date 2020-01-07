@@ -231,7 +231,7 @@ aGivenProto
 )
 {
 return
-DOMErrorBinding
+DOMError_Binding
 :
 :
 Wrap

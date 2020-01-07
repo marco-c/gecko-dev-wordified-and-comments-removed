@@ -111,7 +111,7 @@ aGivenProto
 )
 {
 return
-ElementBinding
+Element_Binding
 :
 :
 Wrap

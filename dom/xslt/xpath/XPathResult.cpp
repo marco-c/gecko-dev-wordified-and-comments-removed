@@ -309,7 +309,7 @@ aGivenProto
 )
 {
 return
-XPathResultBinding
+XPathResult_Binding
 :
 :
 Wrap

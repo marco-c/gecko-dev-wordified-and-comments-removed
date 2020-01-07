@@ -291,7 +291,7 @@ mozilla
 dom
 :
 :
-MutationRecordBinding
+MutationRecord_Binding
 :
 :
 Wrap
@@ -1828,7 +1828,7 @@ mozilla
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -2248,7 +2248,7 @@ mozilla
 dom
 :
 :
-MutationObserverBinding
+MutationObserver_Binding
 :
 :
 Wrap

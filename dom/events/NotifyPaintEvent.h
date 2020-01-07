@@ -157,7 +157,7 @@ aGivenProto
 override
 {
 return
-NotifyPaintEventBinding
+NotifyPaintEvent_Binding
 :
 :
 Wrap

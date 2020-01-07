@@ -16791,7 +16791,7 @@ mozilla
 dom
 :
 :
-SelectionBinding
+Selection_Binding
 :
 :
 Wrap

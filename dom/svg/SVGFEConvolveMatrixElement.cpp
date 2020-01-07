@@ -98,7 +98,7 @@ aGivenProto
 )
 {
 return
-SVGFEConvolveMatrixElementBinding
+SVGFEConvolveMatrixElement_Binding
 :
 :
 Wrap

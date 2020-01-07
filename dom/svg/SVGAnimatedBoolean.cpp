@@ -64,7 +64,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedBooleanBinding
+SVGAnimatedBoolean_Binding
 :
 :
 Wrap

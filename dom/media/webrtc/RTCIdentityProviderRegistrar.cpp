@@ -121,7 +121,7 @@ aGivenProto
 )
 {
 return
-RTCIdentityProviderRegistrarBinding
+RTCIdentityProviderRegistrar_Binding
 :
 :
 Wrap

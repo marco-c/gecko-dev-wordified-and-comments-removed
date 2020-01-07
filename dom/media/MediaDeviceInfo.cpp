@@ -125,7 +125,7 @@ aGivenProto
 )
 {
 return
-MediaDeviceInfoBinding
+MediaDeviceInfo_Binding
 :
 :
 Wrap

@@ -150,7 +150,7 @@ aGivenProto
 )
 {
 return
-SVGFEImageElementBinding
+SVGFEImageElement_Binding
 :
 :
 Wrap

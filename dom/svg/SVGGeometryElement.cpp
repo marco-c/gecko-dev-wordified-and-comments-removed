@@ -371,7 +371,7 @@ GetSpecifiedUnitType
 )
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

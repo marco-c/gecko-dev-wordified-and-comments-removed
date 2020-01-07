@@ -75,11 +75,11 @@ dom
 {
 using
 namespace
-SVGTextContentElementBinding
+SVGTextContentElement_Binding
 ;
 using
 namespace
-SVGTextPathElementBinding
+SVGTextPathElement_Binding
 ;
 class
 SVGAnimatedLength
@@ -106,7 +106,7 @@ aGivenProto
 )
 {
 return
-SVGTextPathElementBinding
+SVGTextPathElement_Binding
 :
 :
 Wrap
@@ -137,7 +137,7 @@ nsGkAtoms
 :
 textLength
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -153,7 +153,7 @@ nsGkAtoms
 :
 startOffset
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

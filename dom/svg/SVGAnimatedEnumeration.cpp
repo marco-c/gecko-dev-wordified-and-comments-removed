@@ -71,7 +71,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedEnumerationBinding
+SVGAnimatedEnumeration_Binding
 :
 :
 Wrap

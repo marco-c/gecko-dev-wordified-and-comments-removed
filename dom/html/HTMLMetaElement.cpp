@@ -828,7 +828,7 @@ aGivenProto
 )
 {
 return
-HTMLMetaElementBinding
+HTMLMetaElement_Binding
 :
 :
 Wrap

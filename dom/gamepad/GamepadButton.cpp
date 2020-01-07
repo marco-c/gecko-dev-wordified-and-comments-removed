@@ -71,7 +71,7 @@ aGivenProto
 )
 {
 return
-GamepadButtonBinding
+GamepadButton_Binding
 :
 :
 Wrap

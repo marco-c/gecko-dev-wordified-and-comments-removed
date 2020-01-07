@@ -381,7 +381,7 @@ aGivenProto
 )
 {
 return
-HTMLDialogElementBinding
+HTMLDialogElement_Binding
 :
 :
 Wrap

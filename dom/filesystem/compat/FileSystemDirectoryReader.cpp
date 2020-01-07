@@ -657,7 +657,7 @@ aGivenProto
 )
 {
 return
-FileSystemDirectoryReaderBinding
+FileSystemDirectoryReader_Binding
 :
 :
 Wrap

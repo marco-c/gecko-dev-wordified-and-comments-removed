@@ -660,7 +660,7 @@ aGivenProto
 )
 {
 return
-CSSPageRuleBinding
+CSSPageRule_Binding
 :
 :
 Wrap

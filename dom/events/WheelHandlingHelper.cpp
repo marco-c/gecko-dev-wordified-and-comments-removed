@@ -1626,7 +1626,7 @@ mDeltaMode
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -1772,7 +1772,7 @@ aEvent
 mDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE

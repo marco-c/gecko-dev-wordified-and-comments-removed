@@ -112,7 +112,7 @@ aGivenProto
 )
 {
 return
-DOMImplementationBinding
+DOMImplementation_Binding
 :
 :
 Wrap

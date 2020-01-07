@@ -49,7 +49,7 @@ namespace
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 ;
 typedef
 FallibleTArray

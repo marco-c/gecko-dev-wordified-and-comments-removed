@@ -104,7 +104,7 @@ aGivenProto
 )
 {
 return
-SVGMPathElementBinding
+SVGMPathElement_Binding
 :
 :
 Wrap

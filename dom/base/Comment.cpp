@@ -346,7 +346,7 @@ aGivenProto
 )
 {
 return
-CommentBinding
+Comment_Binding
 :
 :
 Wrap

@@ -69,7 +69,7 @@ aGivenProto
 )
 {
 return
-AudioScheduledSourceNodeBinding
+AudioScheduledSourceNode_Binding
 :
 :
 Wrap

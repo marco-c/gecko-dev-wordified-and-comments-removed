@@ -2371,7 +2371,7 @@ new
 NodeIterator
 (
 node
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 SHOW_TEXT

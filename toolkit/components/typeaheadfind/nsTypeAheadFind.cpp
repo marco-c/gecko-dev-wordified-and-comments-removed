@@ -1940,7 +1940,7 @@ mStartPointRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 START_TO_START
@@ -2117,7 +2117,7 @@ mStartPointRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 START_TO_END
@@ -2185,7 +2185,7 @@ mStartPointRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 END_TO_START

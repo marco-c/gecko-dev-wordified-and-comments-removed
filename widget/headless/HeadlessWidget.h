@@ -80,7 +80,7 @@ mozilla
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -138,7 +138,7 @@ mozilla
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -182,7 +182,7 @@ mozilla
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -226,7 +226,7 @@ mozilla
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE

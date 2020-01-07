@@ -250,7 +250,7 @@ aGivenProto
 )
 {
 return
-StorageBinding
+Storage_Binding
 :
 :
 Wrap

@@ -132,7 +132,7 @@ const
 final
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 DOCUMENT_RULE

@@ -80,7 +80,7 @@ aGivenProto
 )
 {
 return
-SVGScriptElementBinding
+SVGScriptElement_Binding
 :
 :
 Wrap

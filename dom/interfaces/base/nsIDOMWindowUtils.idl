@@ -1910,7 +1910,7 @@ be
 same
 values
 as
-EventBinding
+Event_Binding
 :
 :
 *
@@ -11346,12 +11346,11 @@ value
 of
 the
 transform
+value
 on
 the
 compositor
-in
-layer
-pixels
+thread
 .
 *
 Unlike

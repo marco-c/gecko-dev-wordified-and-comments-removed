@@ -123,7 +123,7 @@ aGivenProto
 )
 {
 return
-AudioListenerBinding
+AudioListener_Binding
 :
 :
 Wrap

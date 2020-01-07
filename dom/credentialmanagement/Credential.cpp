@@ -103,7 +103,7 @@ aGivenProto
 )
 {
 return
-CredentialBinding
+Credential_Binding
 :
 :
 Wrap

@@ -237,7 +237,7 @@ aGivenProto
 )
 {
 return
-HTMLFrameElementBinding
+HTMLFrameElement_Binding
 :
 :
 Wrap

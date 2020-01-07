@@ -816,7 +816,7 @@ return
 dom
 :
 :
-CSSTransitionBinding
+CSSTransition_Binding
 :
 :
 Wrap

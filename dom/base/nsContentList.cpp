@@ -463,7 +463,7 @@ aGivenProto
 )
 {
 return
-NodeListBinding
+NodeList_Binding
 :
 :
 Wrap
@@ -524,7 +524,7 @@ aGivenProto
 )
 {
 return
-HTMLCollectionBinding
+HTMLCollection_Binding
 :
 :
 Wrap
@@ -1801,7 +1801,7 @@ aGivenProto
 )
 {
 return
-HTMLCollectionBinding
+HTMLCollection_Binding
 :
 :
 Wrap
@@ -4296,7 +4296,7 @@ aGivenProto
 )
 {
 return
-NodeListBinding
+NodeList_Binding
 :
 :
 Wrap
@@ -4378,7 +4378,7 @@ aGivenProto
 )
 {
 return
-HTMLCollectionBinding
+HTMLCollection_Binding
 :
 :
 Wrap
@@ -4411,7 +4411,7 @@ aGivenProto
 )
 {
 return
-NodeListBinding
+NodeList_Binding
 :
 :
 Wrap

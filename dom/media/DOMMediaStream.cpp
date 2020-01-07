@@ -2247,7 +2247,7 @@ return
 dom
 :
 :
-MediaStreamBinding
+MediaStream_Binding
 :
 :
 Wrap
@@ -7405,7 +7405,7 @@ return
 dom
 :
 :
-LocalMediaStreamBinding
+LocalMediaStream_Binding
 :
 :
 Wrap

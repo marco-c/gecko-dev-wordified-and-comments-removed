@@ -253,7 +253,7 @@ aGivenProto
 )
 {
 return
-MediaKeyMessageEventBinding
+MediaKeyMessageEvent_Binding
 :
 :
 Wrap

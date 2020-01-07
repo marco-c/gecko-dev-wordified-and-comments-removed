@@ -170,7 +170,7 @@ aGivenProto
 )
 {
 return
-MimeTypeArrayBinding
+MimeTypeArray_Binding
 :
 :
 Wrap
@@ -825,7 +825,7 @@ aGivenProto
 )
 {
 return
-MimeTypeBinding
+MimeType_Binding
 :
 :
 Wrap

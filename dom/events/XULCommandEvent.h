@@ -89,7 +89,7 @@ aGivenProto
 override
 {
 return
-XULCommandEventBinding
+XULCommandEvent_Binding
 :
 :
 Wrap

@@ -223,7 +223,7 @@ aGivenProto
 )
 {
 return
-MediaElementAudioSourceNodeBinding
+MediaElementAudioSourceNode_Binding
 :
 :
 Wrap

@@ -8155,7 +8155,7 @@ aGivenProto
 )
 {
 return
-EventSourceBinding
+EventSource_Binding
 :
 :
 Wrap

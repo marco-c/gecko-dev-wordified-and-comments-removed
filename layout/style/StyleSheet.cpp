@@ -3791,7 +3791,7 @@ return
 dom
 :
 :
-CSSStyleSheetBinding
+CSSStyleSheet_Binding
 :
 :
 Wrap
@@ -3829,7 +3829,7 @@ Type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 IMPORT_RULE
@@ -4857,7 +4857,7 @@ Type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 IMPORT_RULE
@@ -4967,7 +4967,7 @@ Type
 )
 =
 =
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 IMPORT_RULE
@@ -5296,7 +5296,7 @@ Type
 )
 !
 =
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 IMPORT_RULE

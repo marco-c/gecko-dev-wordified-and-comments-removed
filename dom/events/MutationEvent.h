@@ -95,7 +95,7 @@ aGivenProto
 override
 {
 return
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 Wrap

@@ -513,7 +513,7 @@ mSwipeDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_RIGHT
@@ -575,7 +575,7 @@ mSwipeDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_RIGHT
@@ -600,7 +600,7 @@ mSwipeDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_LEFT

@@ -259,7 +259,7 @@ mozilla
 dom
 :
 :
-SVGTransformListBinding
+SVGTransformList_Binding
 :
 :
 Wrap

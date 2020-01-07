@@ -616,7 +616,7 @@ myRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 START_TO_START
@@ -648,7 +648,7 @@ myRange
 >
 CompareBoundaryPoints
 (
-RangeBinding
+Range_Binding
 :
 :
 END_TO_END

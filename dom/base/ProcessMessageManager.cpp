@@ -133,7 +133,7 @@ aCx
 )
 ;
 return
-ProcessMessageManagerBinding
+ProcessMessageManager_Binding
 :
 :
 Wrap

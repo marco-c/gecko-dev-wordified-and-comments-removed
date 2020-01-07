@@ -1342,7 +1342,7 @@ aGivenProto
 )
 {
 return
-HTMLFormControlsCollectionBinding
+HTMLFormControlsCollection_Binding
 :
 :
 Wrap

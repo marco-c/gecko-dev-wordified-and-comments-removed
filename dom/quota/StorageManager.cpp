@@ -3281,7 +3281,7 @@ aGivenProto
 )
 {
 return
-StorageManagerBinding
+StorageManager_Binding
 :
 :
 Wrap

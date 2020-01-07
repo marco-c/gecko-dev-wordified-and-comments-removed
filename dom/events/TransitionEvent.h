@@ -119,7 +119,7 @@ aGivenProto
 override
 {
 return
-TransitionEventBinding
+TransitionEvent_Binding
 :
 :
 Wrap

@@ -292,7 +292,7 @@ aGivenProto
 )
 {
 return
-CSSFontFeatureValuesRuleBinding
+CSSFontFeatureValuesRule_Binding
 :
 :
 Wrap

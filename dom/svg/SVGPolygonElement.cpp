@@ -81,7 +81,7 @@ aGivenProto
 )
 {
 return
-SVGPolygonElementBinding
+SVGPolygonElement_Binding
 :
 :
 Wrap

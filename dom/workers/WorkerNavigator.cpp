@@ -294,7 +294,7 @@ aGivenProto
 )
 {
 return
-WorkerNavigatorBinding
+WorkerNavigator_Binding
 :
 :
 Wrap
@@ -320,7 +320,7 @@ nsString
 aLanguages
 )
 {
-WorkerNavigatorBinding
+WorkerNavigator_Binding
 :
 :
 ClearCachedLanguagesValue

@@ -1158,7 +1158,7 @@ kMenuAccessKey
 else
 kMenuAccessKey
 =
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -2399,7 +2399,7 @@ keypress
 mDetail
 =
 =
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SPACE
@@ -3496,7 +3496,7 @@ key
 )
 {
 case
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_META
@@ -3507,7 +3507,7 @@ cMeta
 cMetaMask
 ;
 case
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_WIN
@@ -3518,7 +3518,7 @@ cOS
 cOSMask
 ;
 case
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -3529,7 +3529,7 @@ cAlt
 cAltMask
 ;
 case
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONTROL
@@ -3572,7 +3572,7 @@ MODIFIER_ALT
 return
 KeyToMask
 (
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -3584,7 +3584,7 @@ MODIFIER_CONTROL
 return
 KeyToMask
 (
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONTROL
@@ -3596,7 +3596,7 @@ MODIFIER_META
 return
 KeyToMask
 (
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_META
@@ -3608,7 +3608,7 @@ MODIFIER_OS
 return
 KeyToMask
 (
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_WIN

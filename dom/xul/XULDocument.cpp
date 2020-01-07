@@ -16517,7 +16517,7 @@ aGivenProto
 )
 {
 return
-XULDocumentBinding
+XULDocument_Binding
 :
 :
 Wrap

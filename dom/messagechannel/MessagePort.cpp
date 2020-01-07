@@ -1358,7 +1358,7 @@ aGivenProto
 )
 {
 return
-MessagePortBinding
+MessagePort_Binding
 :
 :
 Wrap

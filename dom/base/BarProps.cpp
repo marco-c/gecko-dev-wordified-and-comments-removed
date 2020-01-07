@@ -127,7 +127,7 @@ aGivenProto
 )
 {
 return
-BarPropBinding
+BarProp_Binding
 :
 :
 Wrap

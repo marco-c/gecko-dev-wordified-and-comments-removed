@@ -101,7 +101,7 @@ aGivenProto
 )
 {
 return
-SVGEllipseElementBinding
+SVGEllipseElement_Binding
 :
 :
 Wrap
@@ -132,7 +132,7 @@ nsGkAtoms
 :
 cx
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -148,7 +148,7 @@ nsGkAtoms
 :
 cy
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -164,7 +164,7 @@ nsGkAtoms
 :
 rx
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -180,7 +180,7 @@ nsGkAtoms
 :
 ry
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

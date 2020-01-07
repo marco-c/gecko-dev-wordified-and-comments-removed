@@ -1573,7 +1573,7 @@ aGivenProto
 )
 {
 return
-RTCCertificateBinding
+RTCCertificate_Binding
 :
 :
 Wrap

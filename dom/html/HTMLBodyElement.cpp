@@ -161,7 +161,7 @@ aGivenProto
 )
 {
 return
-HTMLBodyElementBinding
+HTMLBodyElement_Binding
 :
 :
 Wrap

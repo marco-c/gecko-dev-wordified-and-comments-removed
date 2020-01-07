@@ -73,7 +73,7 @@ aGivenProto
 )
 {
 return
-SVGFEGaussianBlurElementBinding
+SVGFEGaussianBlurElement_Binding
 :
 :
 Wrap

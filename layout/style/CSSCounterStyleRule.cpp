@@ -148,7 +148,7 @@ Type
 const
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 COUNTER_STYLE_RULE
@@ -430,7 +430,7 @@ aGivenProto
 )
 {
 return
-CSSCounterStyleRuleBinding
+CSSCounterStyleRule_Binding
 :
 :
 Wrap

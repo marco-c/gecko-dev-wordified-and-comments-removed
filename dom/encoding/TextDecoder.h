@@ -194,7 +194,7 @@ aReflector
 )
 {
 return
-TextDecoderBinding
+TextDecoder_Binding
 :
 :
 Wrap

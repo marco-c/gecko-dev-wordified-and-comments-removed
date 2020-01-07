@@ -2087,7 +2087,7 @@ aGivenProto
 )
 {
 return
-ScriptProcessorNodeBinding
+ScriptProcessorNode_Binding
 :
 :
 Wrap

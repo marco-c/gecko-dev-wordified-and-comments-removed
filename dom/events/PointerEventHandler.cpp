@@ -420,7 +420,7 @@ pointerEvent
 inputSource
 !
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -510,7 +510,7 @@ aContent
 ;
 if
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -634,7 +634,7 @@ mPendingContent
 {
 if
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -1285,7 +1285,7 @@ pointerEvent
 inputSource
 !
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -2212,7 +2212,7 @@ aPointerEvent
 >
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -2824,7 +2824,7 @@ mPointerType
 ;
 }
 return
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN

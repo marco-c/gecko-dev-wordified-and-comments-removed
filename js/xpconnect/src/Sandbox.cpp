@@ -1801,7 +1801,7 @@ SandboxFetchPromise
 dom
 :
 :
-RequestBinding
+Request_Binding
 :
 :
 GetConstructorObject
@@ -1813,7 +1813,7 @@ cx
 dom
 :
 :
-ResponseBinding
+Response_Binding
 :
 :
 GetConstructorObject
@@ -1825,7 +1825,7 @@ cx
 dom
 :
 :
-HeadersBinding
+Headers_Binding
 :
 :
 GetConstructorObject
@@ -5107,7 +5107,7 @@ Blob
 dom
 :
 :
-BlobBinding
+Blob_Binding
 :
 :
 GetConstructorObject
@@ -5127,7 +5127,7 @@ ChromeUtils
 dom
 :
 :
-ChromeUtilsBinding
+ChromeUtils_Binding
 :
 :
 GetConstructorObject
@@ -5147,7 +5147,7 @@ CSS
 dom
 :
 :
-CSSBinding
+CSS_Binding
 :
 :
 GetConstructorObject
@@ -5167,7 +5167,7 @@ CSSRule
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 GetConstructorObject
@@ -5187,7 +5187,7 @@ Directory
 dom
 :
 :
-DirectoryBinding
+Directory_Binding
 :
 :
 GetConstructorObject
@@ -5207,7 +5207,7 @@ DOMParser
 dom
 :
 :
-DOMParserBinding
+DOMParser_Binding
 :
 :
 GetConstructorObject
@@ -5227,7 +5227,7 @@ Element
 dom
 :
 :
-ElementBinding
+Element_Binding
 :
 :
 GetConstructorObject
@@ -5247,7 +5247,7 @@ Event
 dom
 :
 :
-EventBinding
+Event_Binding
 :
 :
 GetConstructorObject
@@ -5267,7 +5267,7 @@ File
 dom
 :
 :
-FileBinding
+File_Binding
 :
 :
 GetConstructorObject
@@ -5287,7 +5287,7 @@ FileReader
 dom
 :
 :
-FileReaderBinding
+FileReader_Binding
 :
 :
 GetConstructorObject
@@ -5307,7 +5307,7 @@ FormData
 dom
 :
 :
-FormDataBinding
+FormData_Binding
 :
 :
 GetConstructorObject
@@ -5327,7 +5327,7 @@ InspectorUtils
 dom
 :
 :
-InspectorUtilsBinding
+InspectorUtils_Binding
 :
 :
 GetConstructorObject
@@ -5348,7 +5348,7 @@ MessageChannel
 dom
 :
 :
-MessageChannelBinding
+MessageChannel_Binding
 :
 :
 GetConstructorObject
@@ -5361,7 +5361,7 @@ cx
 dom
 :
 :
-MessagePortBinding
+MessagePort_Binding
 :
 :
 GetConstructorObject
@@ -5382,7 +5382,7 @@ Node
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 GetConstructorObject
@@ -5402,7 +5402,7 @@ NodeFilter
 dom
 :
 :
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 GetConstructorObject
@@ -5422,7 +5422,7 @@ TextDecoder
 dom
 :
 :
-TextDecoderBinding
+TextDecoder_Binding
 :
 :
 GetConstructorObject
@@ -5442,7 +5442,7 @@ TextEncoder
 dom
 :
 :
-TextEncoderBinding
+TextEncoder_Binding
 :
 :
 GetConstructorObject
@@ -5462,7 +5462,7 @@ URL
 dom
 :
 :
-URLBinding
+URL_Binding
 :
 :
 GetConstructorObject
@@ -5482,7 +5482,7 @@ URLSearchParams
 dom
 :
 :
-URLSearchParamsBinding
+URLSearchParams_Binding
 :
 :
 GetConstructorObject
@@ -5502,7 +5502,7 @@ XMLHttpRequest
 dom
 :
 :
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 GetConstructorObject
@@ -5522,7 +5522,7 @@ XMLSerializer
 dom
 :
 :
-XMLSerializerBinding
+XMLSerializer_Binding
 :
 :
 GetConstructorObject

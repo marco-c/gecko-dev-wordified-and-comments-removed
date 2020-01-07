@@ -73,7 +73,7 @@ aGivenProto
 )
 {
 return
-SVGFEDiffuseLightingElementBinding
+SVGFEDiffuseLightingElement_Binding
 :
 :
 Wrap

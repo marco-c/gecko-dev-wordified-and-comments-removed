@@ -305,7 +305,7 @@ if
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -314,7 +314,7 @@ ADDITION
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -332,7 +332,7 @@ MOZ_ASSERT
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -595,7 +595,7 @@ nowSet
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -613,7 +613,7 @@ nowSet
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -623,7 +623,7 @@ else
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION

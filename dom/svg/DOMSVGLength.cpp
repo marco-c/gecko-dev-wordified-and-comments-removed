@@ -349,7 +349,7 @@ aIsAnimValItem
 )
 mUnit
 (
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -432,7 +432,7 @@ false
 )
 mUnit
 (
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -482,7 +482,7 @@ aAnimVal
 )
 mUnit
 (
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -963,7 +963,7 @@ if
 mUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -972,7 +972,7 @@ SVG_LENGTHTYPE_NUMBER
 mUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -1145,7 +1145,7 @@ if
 mUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1154,7 +1154,7 @@ SVG_LENGTHTYPE_NUMBER
 mUnit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -1919,7 +1919,7 @@ aGivenProto
 )
 {
 return
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 Wrap

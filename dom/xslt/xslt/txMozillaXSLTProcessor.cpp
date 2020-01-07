@@ -5119,7 +5119,7 @@ aGivenProto
 )
 {
 return
-XSLTProcessorBinding
+XSLTProcessor_Binding
 :
 :
 Wrap

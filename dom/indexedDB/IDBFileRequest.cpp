@@ -528,7 +528,7 @@ aGivenProto
 ;
 }
 return
-IDBFileRequestBinding
+IDBFileRequest_Binding
 :
 :
 Wrap

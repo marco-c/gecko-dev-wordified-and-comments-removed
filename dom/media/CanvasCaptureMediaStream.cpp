@@ -959,7 +959,7 @@ return
 dom
 :
 :
-CanvasCaptureMediaStreamBinding
+CanvasCaptureMediaStream_Binding
 :
 :
 Wrap

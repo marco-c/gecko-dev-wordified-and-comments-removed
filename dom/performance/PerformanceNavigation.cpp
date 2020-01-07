@@ -104,7 +104,7 @@ aGivenProto
 )
 {
 return
-PerformanceNavigationBinding
+PerformanceNavigation_Binding
 :
 :
 Wrap

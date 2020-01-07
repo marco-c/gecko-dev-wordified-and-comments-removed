@@ -137,7 +137,7 @@ aGivenProto
 )
 {
 return
-GridAreaBinding
+GridArea_Binding
 :
 :
 Wrap

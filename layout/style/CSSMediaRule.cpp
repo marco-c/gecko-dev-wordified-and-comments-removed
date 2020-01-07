@@ -445,7 +445,7 @@ aGivenProto
 )
 {
 return
-CSSMediaRuleBinding
+CSSMediaRule_Binding
 :
 :
 Wrap

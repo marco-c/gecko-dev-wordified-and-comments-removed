@@ -153,7 +153,7 @@ aGivenProto
 )
 {
 return
-GridDimensionBinding
+GridDimension_Binding
 :
 :
 Wrap

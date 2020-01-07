@@ -1578,7 +1578,7 @@ aGivenProto
 )
 {
 return
-BiquadFilterNodeBinding
+BiquadFilterNode_Binding
 :
 :
 Wrap

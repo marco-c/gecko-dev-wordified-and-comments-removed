@@ -209,7 +209,7 @@ mozilla
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 ;
 using
 namespace

@@ -566,7 +566,7 @@ aGivenProto
 )
 {
 return
-MediaQueryListBinding
+MediaQueryList_Binding
 :
 :
 Wrap

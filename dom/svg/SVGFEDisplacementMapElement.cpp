@@ -73,7 +73,7 @@ aGivenProto
 )
 {
 return
-SVGFEDisplacementMapElementBinding
+SVGFEDisplacementMapElement_Binding
 :
 :
 Wrap

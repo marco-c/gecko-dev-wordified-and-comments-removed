@@ -52,14 +52,14 @@ namespace
 dom
 :
 :
-SVGAngleBinding
+SVGAngle_Binding
 ;
 using
 namespace
 dom
 :
 :
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 ;
 SVGOrientSMILType
 SVGOrientSMILType

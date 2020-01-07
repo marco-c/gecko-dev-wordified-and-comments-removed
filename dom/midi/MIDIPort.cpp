@@ -353,7 +353,7 @@ aGivenProto
 )
 {
 return
-MIDIPortBinding
+MIDIPort_Binding
 :
 :
 Wrap

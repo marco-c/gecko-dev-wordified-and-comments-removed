@@ -136,14 +136,14 @@ nsSVGOrientType
 :
 mAnimVal
 (
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 :
 :
 SVG_MARKER_ORIENT_ANGLE
 )
 mBaseVal
 (
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 :
 :
 SVG_MARKER_ORIENT_ANGLE
@@ -204,7 +204,7 @@ mAnimVal
 =
 SVG_MARKER_ORIENT_AUTO_START_REVERSE
 ?
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 :
 :
 SVG_MARKER_ORIENT_UNKNOWN
@@ -224,7 +224,7 @@ mAnimVal
 =
 SVG_MARKER_ORIENT_AUTO_START_REVERSE
 ?
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 :
 :
 SVG_MARKER_ORIENT_UNKNOWN

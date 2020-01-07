@@ -11306,7 +11306,7 @@ event
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -11760,7 +11760,7 @@ event
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD

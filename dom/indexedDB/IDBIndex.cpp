@@ -3319,7 +3319,7 @@ aGivenProto
 )
 {
 return
-IDBIndexBinding
+IDBIndex_Binding
 :
 :
 Wrap

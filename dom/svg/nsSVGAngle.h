@@ -128,7 +128,7 @@ mozilla
 dom
 :
 :
-SVGAngleBinding
+SVGAngle_Binding
 :
 :
 SVG_ANGLETYPE_UNSPECIFIED

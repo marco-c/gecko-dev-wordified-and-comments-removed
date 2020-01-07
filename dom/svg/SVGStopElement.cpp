@@ -52,7 +52,7 @@ aGivenProto
 )
 {
 return
-SVGStopElementBinding
+SVGStopElement_Binding
 :
 :
 Wrap

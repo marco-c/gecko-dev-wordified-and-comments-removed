@@ -41,7 +41,7 @@ namespace
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 ;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (

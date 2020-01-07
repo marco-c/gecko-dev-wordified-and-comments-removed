@@ -310,7 +310,7 @@ aGivenProto
 )
 {
 return
-DOMRequestBinding
+DOMRequest_Binding
 :
 :
 Wrap

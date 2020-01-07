@@ -1831,7 +1831,7 @@ if
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -1865,7 +1865,7 @@ MOZ_ASSERT
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -1874,7 +1874,7 @@ ADDITION
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION

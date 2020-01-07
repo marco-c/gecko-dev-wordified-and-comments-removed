@@ -1613,7 +1613,7 @@ aGivenProto
 )
 {
 return
-WaveShaperNodeBinding
+WaveShaperNode_Binding
 :
 :
 Wrap
@@ -1642,7 +1642,7 @@ ErrorResult
 aRv
 )
 {
-WaveShaperNodeBinding
+WaveShaperNode_Binding
 :
 :
 ClearCachedCurveValue

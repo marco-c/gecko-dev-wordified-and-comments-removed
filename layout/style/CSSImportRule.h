@@ -106,7 +106,7 @@ const
 final
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 IMPORT_RULE

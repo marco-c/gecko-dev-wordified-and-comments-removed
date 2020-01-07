@@ -594,7 +594,7 @@ aGivenProto
 )
 {
 return
-PeriodicWaveBinding
+PeriodicWave_Binding
 :
 :
 Wrap

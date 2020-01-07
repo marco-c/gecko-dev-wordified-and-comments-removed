@@ -700,7 +700,7 @@ aGivenProto
 )
 {
 return
-HTMLOutputElementBinding
+HTMLOutputElement_Binding
 :
 :
 Wrap

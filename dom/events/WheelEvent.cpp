@@ -96,7 +96,7 @@ aWheelEvent
 mDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -149,7 +149,7 @@ AsWheelEvent
 >
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN

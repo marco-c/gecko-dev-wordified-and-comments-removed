@@ -294,7 +294,7 @@ aGivenProto
 )
 {
 return
-WebKitCSSMatrixBinding
+WebKitCSSMatrix_Binding
 :
 :
 Wrap

@@ -88,7 +88,7 @@ aGivenProto
 )
 {
 return
-ImageBitmapRenderingContextBinding
+ImageBitmapRenderingContext_Binding
 :
 :
 Wrap

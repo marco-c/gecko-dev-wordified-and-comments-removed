@@ -340,7 +340,7 @@ aGivenProto
 )
 {
 return
-ProcessingInstructionBinding
+ProcessingInstruction_Binding
 :
 :
 Wrap

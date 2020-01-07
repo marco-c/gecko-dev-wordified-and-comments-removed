@@ -232,7 +232,7 @@ aGivenProto
 )
 {
 return
-MIDIMessageEventBinding
+MIDIMessageEvent_Binding
 :
 :
 Wrap

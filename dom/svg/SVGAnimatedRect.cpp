@@ -164,7 +164,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedRectBinding
+SVGAnimatedRect_Binding
 :
 :
 Wrap

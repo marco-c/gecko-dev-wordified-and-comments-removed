@@ -271,7 +271,7 @@ aGivenProto
 )
 {
 return
-FileSystemFileEntryBinding
+FileSystemFileEntry_Binding
 :
 :
 Wrap

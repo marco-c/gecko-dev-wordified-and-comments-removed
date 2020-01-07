@@ -9281,7 +9281,7 @@ mozilla
 dom
 :
 :
-NotificationBinding
+Notification_Binding
 :
 :
 Wrap

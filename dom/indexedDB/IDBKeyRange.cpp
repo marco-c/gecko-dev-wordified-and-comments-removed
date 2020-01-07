@@ -1073,7 +1073,7 @@ aReflector
 )
 {
 return
-IDBKeyRangeBinding
+IDBKeyRange_Binding
 :
 :
 Wrap
@@ -1115,7 +1115,7 @@ aReflector
 )
 {
 return
-IDBLocaleAwareKeyRangeBinding
+IDBLocaleAwareKeyRange_Binding
 :
 :
 Wrap

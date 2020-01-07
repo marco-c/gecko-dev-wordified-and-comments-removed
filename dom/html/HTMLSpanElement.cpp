@@ -95,7 +95,7 @@ aGivenProto
 )
 {
 return
-HTMLSpanElementBinding
+HTMLSpanElement_Binding
 :
 :
 Wrap

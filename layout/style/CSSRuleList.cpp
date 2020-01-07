@@ -70,7 +70,7 @@ aGivenProto
 )
 {
 return
-CSSRuleListBinding
+CSSRuleList_Binding
 :
 :
 Wrap

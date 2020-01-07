@@ -247,7 +247,7 @@ mozilla
 dom
 :
 :
-SVGNumberListBinding
+SVGNumberList_Binding
 :
 :
 Wrap

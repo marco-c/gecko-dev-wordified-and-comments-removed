@@ -78,7 +78,7 @@ aGivenProto
 )
 {
 return
-SVGSwitchElementBinding
+SVGSwitchElement_Binding
 :
 :
 Wrap

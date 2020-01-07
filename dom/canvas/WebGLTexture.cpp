@@ -601,7 +601,7 @@ return
 dom
 :
 :
-WebGLTextureBinding
+WebGLTexture_Binding
 :
 :
 Wrap

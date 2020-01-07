@@ -267,7 +267,7 @@ JSObject
 wrapper
 (
 aCx
-WorkerBinding
+Worker_Binding
 :
 :
 Wrap

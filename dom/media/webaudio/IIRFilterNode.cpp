@@ -1193,7 +1193,7 @@ aGivenProto
 )
 {
 return
-IIRFilterNodeBinding
+IIRFilterNode_Binding
 :
 :
 Wrap

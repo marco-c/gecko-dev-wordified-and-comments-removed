@@ -25,6 +25,17 @@ mozilla
 /
 dom
 /
+ShadowRootBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentFragment
 .
 h
@@ -576,7 +587,7 @@ mozilla
 dom
 :
 :
-ShadowRootBinding
+ShadowRoot_Binding
 :
 :
 Wrap

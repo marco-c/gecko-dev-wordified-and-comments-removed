@@ -492,7 +492,7 @@ aGivenProto
 )
 {
 return
-HTMLPictureElementBinding
+HTMLPictureElement_Binding
 :
 :
 Wrap

@@ -2803,7 +2803,7 @@ aGivenProto
 )
 {
 return
-SourceBufferBinding
+SourceBuffer_Binding
 :
 :
 Wrap

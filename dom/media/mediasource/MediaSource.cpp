@@ -3261,7 +3261,7 @@ aGivenProto
 )
 {
 return
-MediaSourceBinding
+MediaSource_Binding
 :
 :
 Wrap

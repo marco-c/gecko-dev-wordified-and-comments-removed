@@ -4548,13 +4548,13 @@ true
 break
 ;
 case
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 NAMESPACE_RULE
 :
 case
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 FONT_FACE_RULE
@@ -4582,7 +4582,7 @@ break
 ;
 }
 case
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 STYLE_RULE

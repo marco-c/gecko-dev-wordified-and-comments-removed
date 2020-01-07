@@ -907,7 +907,7 @@ aGivenProto
 )
 {
 return
-DataTransferBinding
+DataTransfer_Binding
 :
 :
 Wrap
@@ -2682,7 +2682,7 @@ TypesListMayHaveChanged
 (
 )
 {
-DataTransferBinding
+DataTransfer_Binding
 :
 :
 ClearCachedTypesValue

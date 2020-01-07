@@ -245,7 +245,7 @@ aGivenProto
 )
 {
 return
-TestInterfaceIterableDoubleUnionBinding
+TestInterfaceIterableDoubleUnion_Binding
 :
 :
 Wrap

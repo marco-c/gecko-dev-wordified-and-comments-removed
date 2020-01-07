@@ -109,7 +109,7 @@ aGivenProto
 )
 {
 return
-SubtleCryptoBinding
+SubtleCrypto_Binding
 :
 :
 Wrap

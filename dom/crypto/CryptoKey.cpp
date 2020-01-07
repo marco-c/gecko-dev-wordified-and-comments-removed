@@ -742,7 +742,7 @@ aGivenProto
 )
 {
 return
-CryptoKeyBinding
+CryptoKey_Binding
 :
 :
 Wrap

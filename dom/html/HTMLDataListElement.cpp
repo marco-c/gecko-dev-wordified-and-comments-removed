@@ -57,7 +57,7 @@ aGivenProto
 )
 {
 return
-HTMLDataListElementBinding
+HTMLDataListElement_Binding
 :
 :
 Wrap

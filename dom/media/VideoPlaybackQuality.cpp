@@ -123,7 +123,7 @@ aGivenProto
 )
 {
 return
-VideoPlaybackQualityBinding
+VideoPlaybackQuality_Binding
 :
 :
 Wrap

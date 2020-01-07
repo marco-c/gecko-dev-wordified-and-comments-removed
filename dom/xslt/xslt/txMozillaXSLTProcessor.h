@@ -560,7 +560,7 @@ mozilla
 dom
 :
 :
-XSLTProcessorBinding
+XSLTProcessor_Binding
 :
 :
 DISABLE_ALL_LOADS

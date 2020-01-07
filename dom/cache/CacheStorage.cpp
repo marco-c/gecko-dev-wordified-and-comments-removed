@@ -1272,7 +1272,7 @@ if
 NS_WARN_IF
 (
 !
-CacheStorageBinding
+CacheStorage_Binding
 :
 :
 GetConstructorObject
@@ -1282,7 +1282,7 @@ aCx
 |
 |
 !
-CacheBinding
+Cache_Binding
 :
 :
 GetConstructorObject
@@ -2493,7 +2493,7 @@ mozilla
 dom
 :
 :
-CacheStorageBinding
+CacheStorage_Binding
 :
 :
 Wrap

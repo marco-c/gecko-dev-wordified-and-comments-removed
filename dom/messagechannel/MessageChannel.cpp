@@ -167,7 +167,7 @@ aGivenProto
 )
 {
 return
-MessageChannelBinding
+MessageChannel_Binding
 :
 :
 Wrap

@@ -139,7 +139,7 @@ return
 dom
 :
 :
-MozStorageAsyncStatementParamsBinding
+MozStorageAsyncStatementParams_Binding
 :
 :
 Wrap

@@ -81,7 +81,7 @@ aGivenProto
 )
 {
 return
-SVGLineElementBinding
+SVGLineElement_Binding
 :
 :
 Wrap
@@ -112,7 +112,7 @@ nsGkAtoms
 :
 x1
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -128,7 +128,7 @@ nsGkAtoms
 :
 y1
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -144,7 +144,7 @@ nsGkAtoms
 :
 x2
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -160,7 +160,7 @@ nsGkAtoms
 :
 y2
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

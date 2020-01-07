@@ -5042,7 +5042,7 @@ aGivenProto
 )
 {
 return
-PaymentRequestBinding
+PaymentRequest_Binding
 :
 :
 Wrap

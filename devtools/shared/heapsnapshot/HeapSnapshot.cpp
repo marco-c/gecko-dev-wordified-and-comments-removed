@@ -530,7 +530,7 @@ aGivenProto
 )
 {
 return
-HeapSnapshotBinding
+HeapSnapshot_Binding
 :
 :
 Wrap

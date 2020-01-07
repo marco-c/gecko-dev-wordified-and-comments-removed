@@ -2385,7 +2385,7 @@ mManager
 >
 SetLastInputSource
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -2619,7 +2619,7 @@ mManager
 >
 SetLastInputSource
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD

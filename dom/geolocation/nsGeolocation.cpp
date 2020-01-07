@@ -1054,7 +1054,7 @@ SetTimeoutTimer
 ;
 NotifyErrorAndShutdown
 (
-PositionErrorBinding
+PositionError_Binding
 :
 :
 TIMEOUT
@@ -1322,7 +1322,7 @@ NS_OK
 }
 NotifyError
 (
-PositionErrorBinding
+PositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -1649,7 +1649,7 @@ mIsWatchPositionRequest
 {
 NotifyError
 (
-PositionErrorBinding
+PositionError_Binding
 :
 :
 TIMEOUT
@@ -1683,7 +1683,7 @@ rv
 {
 NotifyError
 (
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -2005,7 +2005,7 @@ wrapped
 {
 NotifyError
 (
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -3146,7 +3146,7 @@ this
 {
 NotifyError
 (
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -5863,7 +5863,7 @@ aGivenProto
 )
 {
 return
-GeolocationBinding
+Geolocation_Binding
 :
 :
 Wrap

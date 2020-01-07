@@ -1142,7 +1142,7 @@ if
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -1151,7 +1151,7 @@ ADDITION
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -3354,7 +3354,7 @@ aGivenProto
 )
 {
 return
-HTMLImageElementBinding
+HTMLImageElement_Binding
 :
 :
 Wrap

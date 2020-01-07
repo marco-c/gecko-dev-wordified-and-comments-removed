@@ -394,7 +394,7 @@ aGivenProto
 )
 {
 return
-HTMLBRElementBinding
+HTMLBRElement_Binding
 :
 :
 Wrap

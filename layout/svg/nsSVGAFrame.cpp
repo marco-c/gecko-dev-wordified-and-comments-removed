@@ -315,7 +315,7 @@ aModType
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL

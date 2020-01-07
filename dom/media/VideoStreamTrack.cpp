@@ -65,7 +65,7 @@ aGivenProto
 )
 {
 return
-VideoStreamTrackBinding
+VideoStreamTrack_Binding
 :
 :
 Wrap

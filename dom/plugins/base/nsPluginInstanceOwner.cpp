@@ -9714,7 +9714,7 @@ mDeltaMode
 )
 {
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -9738,7 +9738,7 @@ mLineOrPageDeltaY
 break
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -9806,7 +9806,7 @@ break
 ;
 }
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -9843,7 +9843,7 @@ mDeltaMode
 )
 {
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -9867,7 +9867,7 @@ mLineOrPageDeltaX
 break
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -9930,7 +9930,7 @@ break
 ;
 }
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL

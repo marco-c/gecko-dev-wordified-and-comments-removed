@@ -7556,7 +7556,7 @@ DONT_FIRE_ONNEWGLOBALHOOK
 if
 (
 !
-WindowBinding
+Window_Binding
 :
 :
 Wrap

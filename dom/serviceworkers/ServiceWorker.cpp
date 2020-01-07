@@ -468,7 +468,7 @@ NS_IsMainThread
 )
 ;
 return
-ServiceWorkerBinding
+ServiceWorker_Binding
 :
 :
 Wrap

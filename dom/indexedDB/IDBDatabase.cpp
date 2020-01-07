@@ -5379,7 +5379,7 @@ aGivenProto
 )
 {
 return
-IDBDatabaseBinding
+IDBDatabase_Binding
 :
 :
 Wrap

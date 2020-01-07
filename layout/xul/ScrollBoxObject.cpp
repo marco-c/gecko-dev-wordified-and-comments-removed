@@ -129,7 +129,7 @@ aGivenProto
 )
 {
 return
-ScrollBoxObjectBinding
+ScrollBoxObject_Binding
 :
 :
 Wrap

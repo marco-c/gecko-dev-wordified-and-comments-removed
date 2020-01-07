@@ -71,7 +71,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedAngleBinding
+SVGAnimatedAngle_Binding
 :
 :
 Wrap

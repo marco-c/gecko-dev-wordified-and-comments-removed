@@ -207,7 +207,7 @@ aGivenProto
 )
 {
 return
-VRMockDisplayBinding
+VRMockDisplay_Binding
 :
 :
 Wrap
@@ -1130,7 +1130,7 @@ aGivenProto
 )
 {
 return
-VRMockControllerBinding
+VRMockController_Binding
 :
 :
 Wrap
@@ -1939,7 +1939,7 @@ aGivenProto
 )
 {
 return
-VRServiceTestBinding
+VRServiceTest_Binding
 :
 :
 Wrap

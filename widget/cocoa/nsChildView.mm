@@ -15362,7 +15362,7 @@ uint32_t
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_RIGHT
@@ -15373,7 +15373,7 @@ uint32_t
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_LEFT
@@ -15601,7 +15601,7 @@ uint32_t
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_RIGHT
@@ -15612,7 +15612,7 @@ uint32_t
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_LEFT
@@ -24366,7 +24366,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_LEFT
@@ -24388,7 +24388,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_RIGHT
@@ -24418,7 +24418,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_UP
@@ -24440,7 +24440,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 DIRECTION_DOWN
@@ -25450,7 +25450,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 ROTATION_COUNTERCLOCKWISE
@@ -25465,7 +25465,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 ROTATION_CLOCKWISE
@@ -25907,7 +25907,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 ROTATION_COUNTERCLOCKWISE
@@ -25922,7 +25922,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 ROTATION_CLOCKWISE
@@ -30875,7 +30875,7 @@ usePreciseDeltas
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -30883,7 +30883,7 @@ DOM_DELTA_PIXEL
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -31285,7 +31285,7 @@ inputSource
 dom
 :
 :
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN

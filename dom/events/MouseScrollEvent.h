@@ -79,7 +79,7 @@ aGivenProto
 override
 {
 return
-MouseScrollEventBinding
+MouseScrollEvent_Binding
 :
 :
 Wrap

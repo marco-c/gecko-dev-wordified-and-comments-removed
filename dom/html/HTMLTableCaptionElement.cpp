@@ -84,7 +84,7 @@ aGivenProto
 )
 {
 return
-HTMLTableCaptionElementBinding
+HTMLTableCaptionElement_Binding
 :
 :
 Wrap

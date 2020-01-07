@@ -949,7 +949,7 @@ aGivenProto
 )
 {
 return
-EventBinding
+Event_Binding
 :
 :
 Wrap
@@ -1565,7 +1565,7 @@ InTargetPhase
 )
 {
 return
-EventBinding
+Event_Binding
 :
 :
 AT_TARGET
@@ -1582,7 +1582,7 @@ mInCapturePhase
 )
 {
 return
-EventBinding
+Event_Binding
 :
 :
 CAPTURING_PHASE
@@ -1599,14 +1599,14 @@ mInBubblingPhase
 )
 {
 return
-EventBinding
+Event_Binding
 :
 :
 BUBBLING_PHASE
 ;
 }
 return
-EventBinding
+Event_Binding
 :
 :
 NONE

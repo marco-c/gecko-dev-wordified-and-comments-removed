@@ -80,7 +80,7 @@ mozilla
 dom
 :
 :
-PerformanceServerTimingBinding
+PerformanceServerTiming_Binding
 :
 :
 Wrap

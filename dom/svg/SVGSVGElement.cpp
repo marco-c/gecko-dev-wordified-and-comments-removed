@@ -170,11 +170,11 @@ dom
 {
 using
 namespace
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 ;
 using
 namespace
-SVGSVGElementBinding
+SVGSVGElement_Binding
 ;
 nsSVGEnumMapping
 SVGSVGElement
@@ -497,7 +497,7 @@ aGivenProto
 )
 {
 return
-SVGSVGElementBinding
+SVGSVGElement_Binding
 :
 :
 Wrap

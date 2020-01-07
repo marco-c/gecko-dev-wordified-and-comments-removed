@@ -476,7 +476,7 @@ HTML
 _interfacename
 #
 #
-ElementBinding
+Element_Binding
 {
 \
 JSObject
@@ -534,7 +534,7 @@ HTML
 _interfacename
 #
 #
-ElementBinding
+Element_Binding
 :
 :
 GetConstructorObject
@@ -553,7 +553,7 @@ sConstructorGetterCallback
 ]
 =
 {
-HTMLUnknownElementBinding
+HTMLUnknownElement_Binding
 :
 :
 GetConstructorObject
@@ -18773,7 +18773,7 @@ kNameSpaceID_XUL
 {
 constructor
 =
-XULElementBinding
+XULElement_Binding
 :
 :
 GetConstructorObject
@@ -18786,7 +18786,7 @@ else
 {
 constructor
 =
-HTMLElementBinding
+HTMLElement_Binding
 :
 :
 GetConstructorObject
@@ -18947,7 +18947,7 @@ tooltip
 {
 cb
 =
-XULPopupElementBinding
+XULPopupElement_Binding
 :
 :
 GetConstructorObject
@@ -18957,7 +18957,7 @@ else
 {
 cb
 =
-XULElementBinding
+XULElement_Binding
 :
 :
 GetConstructorObject

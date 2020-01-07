@@ -2937,7 +2937,7 @@ mIsPlainDocument
 )
 {
 return
-DocumentBinding
+Document_Binding
 :
 :
 Wrap
@@ -2949,7 +2949,7 @@ aGivenProto
 ;
 }
 return
-XMLDocumentBinding
+XMLDocument_Binding
 :
 :
 Wrap

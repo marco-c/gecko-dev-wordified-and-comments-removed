@@ -91,7 +91,7 @@ aGivenProto
 override
 {
 return
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 Wrap

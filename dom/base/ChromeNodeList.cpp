@@ -121,7 +121,7 @@ aGivenProto
 )
 {
 return
-ChromeNodeListBinding
+ChromeNodeList_Binding
 :
 :
 Wrap

@@ -411,7 +411,7 @@ prevSet
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -421,7 +421,7 @@ else
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -504,7 +504,7 @@ GetAnimateMotionTransform
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -514,7 +514,7 @@ else
 {
 modType
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL

@@ -97,7 +97,7 @@ aGivenProto
 )
 {
 return
-HTMLModElementBinding
+HTMLModElement_Binding
 :
 :
 Wrap

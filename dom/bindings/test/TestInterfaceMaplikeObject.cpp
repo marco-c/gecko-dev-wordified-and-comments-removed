@@ -186,7 +186,7 @@ aGivenProto
 )
 {
 return
-TestInterfaceMaplikeObjectBinding
+TestInterfaceMaplikeObject_Binding
 :
 :
 Wrap
@@ -239,7 +239,7 @@ mParent
 ErrorResult
 rv
 ;
-TestInterfaceMaplikeObjectBinding
+TestInterfaceMaplikeObject_Binding
 :
 :
 MaplikeHelpers
@@ -266,7 +266,7 @@ ClearInternal
 ErrorResult
 rv
 ;
-TestInterfaceMaplikeObjectBinding
+TestInterfaceMaplikeObject_Binding
 :
 :
 MaplikeHelpers
@@ -295,7 +295,7 @@ ErrorResult
 rv
 ;
 return
-TestInterfaceMaplikeObjectBinding
+TestInterfaceMaplikeObject_Binding
 :
 :
 MaplikeHelpers
@@ -325,7 +325,7 @@ ErrorResult
 rv
 ;
 return
-TestInterfaceMaplikeObjectBinding
+TestInterfaceMaplikeObject_Binding
 :
 :
 MaplikeHelpers

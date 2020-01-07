@@ -754,7 +754,7 @@ AssertIsOnMainThread
 )
 ;
 return
-SharedWorkerBinding
+SharedWorker_Binding
 :
 :
 Wrap

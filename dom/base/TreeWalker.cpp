@@ -249,7 +249,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -440,7 +440,7 @@ while
 filtered
 !
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_REJECT
@@ -489,7 +489,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -564,7 +564,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -604,7 +604,7 @@ aResult
 int16_t
 filtered
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -631,7 +631,7 @@ while
 filtered
 !
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_REJECT
@@ -679,7 +679,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -788,7 +788,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -882,7 +882,7 @@ filtered
 )
 {
 case
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -899,7 +899,7 @@ forget
 )
 ;
 case
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_SKIP
@@ -941,7 +941,7 @@ break
 ;
 }
 case
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_REJECT
@@ -1128,7 +1128,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -1151,7 +1151,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_REJECT
@@ -1251,7 +1251,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -1293,7 +1293,7 @@ aReflector
 )
 {
 return
-TreeWalkerBinding
+TreeWalker_Binding
 :
 :
 Wrap

@@ -3757,7 +3757,7 @@ aGivenProto
 override
 {
 return
-HTMLCollectionBinding
+HTMLCollection_Binding
 :
 :
 Wrap

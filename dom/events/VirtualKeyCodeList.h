@@ -17,7 +17,7 @@ mozilla
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK
@@ -45,7 +45,7 @@ mozilla
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK

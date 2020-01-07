@@ -144,7 +144,7 @@ aReflector
 )
 {
 return
-TextEncoderBinding
+TextEncoder_Binding
 :
 :
 Wrap

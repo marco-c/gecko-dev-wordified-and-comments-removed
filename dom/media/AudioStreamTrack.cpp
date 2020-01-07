@@ -51,7 +51,7 @@ aGivenProto
 )
 {
 return
-AudioStreamTrackBinding
+AudioStreamTrack_Binding
 :
 :
 Wrap

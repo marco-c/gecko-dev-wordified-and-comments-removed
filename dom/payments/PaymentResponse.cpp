@@ -195,7 +195,7 @@ aGivenProto
 )
 {
 return
-PaymentResponseBinding
+PaymentResponse_Binding
 :
 :
 Wrap

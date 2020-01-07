@@ -519,7 +519,7 @@ aGivenProto
 )
 {
 return
-FontFaceBinding
+FontFace_Binding
 :
 :
 Wrap

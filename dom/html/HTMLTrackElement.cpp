@@ -901,7 +901,7 @@ aGivenProto
 )
 {
 return
-HTMLTrackElementBinding
+HTMLTrackElement_Binding
 :
 :
 Wrap

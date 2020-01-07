@@ -7036,7 +7036,7 @@ aGivenProto
 )
 {
 return
-HTMLSelectElementBinding
+HTMLSelectElement_Binding
 :
 :
 Wrap

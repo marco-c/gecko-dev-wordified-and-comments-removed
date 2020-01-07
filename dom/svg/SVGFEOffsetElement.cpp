@@ -66,7 +66,7 @@ aGivenProto
 )
 {
 return
-SVGFEOffsetElementBinding
+SVGFEOffsetElement_Binding
 :
 :
 Wrap

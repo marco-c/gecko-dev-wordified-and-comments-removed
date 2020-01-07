@@ -1014,7 +1014,7 @@ HandleKeyNavigation
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_DOWN
@@ -1501,7 +1501,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_UP
@@ -1513,7 +1513,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_DOWN
@@ -1525,7 +1525,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_UP
@@ -1537,7 +1537,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_DOWN
@@ -1576,7 +1576,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_UP
@@ -1588,7 +1588,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_UP
@@ -1606,7 +1606,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_UP
@@ -1618,7 +1618,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_DOWN
@@ -1826,7 +1826,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_UP
@@ -1877,7 +1877,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_DOWN
@@ -2044,7 +2044,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_LEFT
@@ -2056,7 +2056,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_RIGHT
@@ -2071,7 +2071,7 @@ aKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_HOME

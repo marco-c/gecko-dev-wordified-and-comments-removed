@@ -215,7 +215,7 @@ dom
 WebGLBindingType
 #
 #
-Binding
+_Binding
 :
 :
 Wrap

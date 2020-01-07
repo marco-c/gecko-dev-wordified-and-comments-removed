@@ -112,7 +112,7 @@ aGivenProto
 override
 {
 return
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 Wrap

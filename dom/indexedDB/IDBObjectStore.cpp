@@ -9704,7 +9704,7 @@ aGivenProto
 )
 {
 return
-IDBObjectStoreBinding
+IDBObjectStore_Binding
 :
 :
 Wrap

@@ -161,7 +161,7 @@ aGivenProto
 )
 {
 return
-VideoTrackBinding
+VideoTrack_Binding
 :
 :
 Wrap

@@ -2973,7 +2973,7 @@ aGivenProto
 )
 {
 return
-AudioBufferSourceNodeBinding
+AudioBufferSourceNode_Binding
 :
 :
 Wrap

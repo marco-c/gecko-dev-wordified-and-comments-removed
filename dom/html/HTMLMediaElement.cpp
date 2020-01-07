@@ -953,7 +953,7 @@ mozilla
 dom
 :
 :
-HTMLMediaElementBinding
+HTMLMediaElement_Binding
 ;
 namespace
 mozilla

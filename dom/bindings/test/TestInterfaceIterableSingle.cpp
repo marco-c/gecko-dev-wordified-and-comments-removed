@@ -199,7 +199,7 @@ aGivenProto
 )
 {
 return
-TestInterfaceIterableSingleBinding
+TestInterfaceIterableSingle_Binding
 :
 :
 Wrap

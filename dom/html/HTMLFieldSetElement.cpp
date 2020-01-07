@@ -1366,7 +1366,7 @@ aGivenProto
 )
 {
 return
-HTMLFieldSetElementBinding
+HTMLFieldSetElement_Binding
 :
 :
 Wrap

@@ -1294,7 +1294,7 @@ aGivenProto
 )
 {
 return
-StreamFilterBinding
+StreamFilter_Binding
 :
 :
 Wrap

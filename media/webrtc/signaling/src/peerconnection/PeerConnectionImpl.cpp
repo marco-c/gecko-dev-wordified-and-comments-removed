@@ -1313,7 +1313,7 @@ aReflector
 )
 {
 return
-PeerConnectionImplBinding
+PeerConnectionImpl_Binding
 :
 :
 Wrap

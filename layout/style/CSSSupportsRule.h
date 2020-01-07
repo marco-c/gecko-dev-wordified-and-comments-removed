@@ -95,7 +95,7 @@ const
 override
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 SUPPORTS_RULE

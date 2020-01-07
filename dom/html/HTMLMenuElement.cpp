@@ -1050,7 +1050,7 @@ aGivenProto
 )
 {
 return
-HTMLMenuElementBinding
+HTMLMenuElement_Binding
 :
 :
 Wrap

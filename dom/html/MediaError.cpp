@@ -352,7 +352,7 @@ aGivenProto
 )
 {
 return
-MediaErrorBinding
+MediaError_Binding
 :
 :
 Wrap

@@ -1694,7 +1694,7 @@ aGivenProto
 )
 {
 return
-URLSearchParamsBinding
+URLSearchParams_Binding
 :
 :
 Wrap

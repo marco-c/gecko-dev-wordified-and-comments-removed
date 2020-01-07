@@ -107,7 +107,7 @@ aGivenProto
 )
 {
 return
-SpeechSynthesisVoiceBinding
+SpeechSynthesisVoice_Binding
 :
 :
 Wrap

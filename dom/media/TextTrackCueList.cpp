@@ -193,7 +193,7 @@ aGivenProto
 )
 {
 return
-TextTrackCueListBinding
+TextTrackCueList_Binding
 :
 :
 Wrap

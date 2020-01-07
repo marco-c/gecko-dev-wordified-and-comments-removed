@@ -583,7 +583,7 @@ aGivenProto
 )
 {
 return
-PaymentRequestUpdateEventBinding
+PaymentRequestUpdateEvent_Binding
 :
 :
 Wrap

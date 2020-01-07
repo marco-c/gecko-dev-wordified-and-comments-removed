@@ -151,7 +151,7 @@ aGivenProto
 )
 {
 return
-AuthenticatorResponseBinding
+AuthenticatorResponse_Binding
 :
 :
 Wrap

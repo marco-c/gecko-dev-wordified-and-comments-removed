@@ -2489,7 +2489,7 @@ aGivenProto
 )
 {
 return
-ScreenOrientationBinding
+ScreenOrientation_Binding
 :
 :
 Wrap

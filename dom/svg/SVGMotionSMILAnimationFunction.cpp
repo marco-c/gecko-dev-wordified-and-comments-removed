@@ -113,7 +113,7 @@ mozilla
 dom
 :
 :
-SVGAngleBinding
+SVGAngle_Binding
 ;
 using
 namespace

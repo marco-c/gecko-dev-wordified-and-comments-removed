@@ -760,7 +760,7 @@ return
 dom
 :
 :
-SVGNumberBinding
+SVGNumber_Binding
 :
 :
 Wrap

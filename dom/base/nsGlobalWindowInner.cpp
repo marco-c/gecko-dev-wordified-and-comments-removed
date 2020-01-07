@@ -24668,7 +24668,7 @@ if
 mNavigator
 )
 {
-NavigatorBinding
+Navigator_Binding
 :
 :
 ClearCachedLanguageValue
@@ -24676,7 +24676,7 @@ ClearCachedLanguageValue
 mNavigator
 )
 ;
-NavigatorBinding
+Navigator_Binding
 :
 :
 ClearCachedLanguagesValue
@@ -31972,7 +31972,7 @@ aCx
 if
 (
 !
-WindowBinding
+Window_Binding
 :
 :
 ClearCachedDocumentValue
@@ -31983,7 +31983,7 @@ this
 |
 |
 !
-WindowBinding
+Window_Binding
 :
 :
 ClearCachedPerformanceValue

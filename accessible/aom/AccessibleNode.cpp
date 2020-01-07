@@ -280,7 +280,7 @@ aGivenProto
 )
 {
 return
-AccessibleNodeBinding
+AccessibleNode_Binding
 :
 :
 Wrap

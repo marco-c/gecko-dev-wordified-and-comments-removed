@@ -321,7 +321,7 @@ aGivenProto
 )
 {
 return
-SVGStringListBinding
+SVGStringList_Binding
 :
 :
 Wrap

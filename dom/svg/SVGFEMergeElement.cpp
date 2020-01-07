@@ -70,7 +70,7 @@ aGivenProto
 )
 {
 return
-SVGFEMergeElementBinding
+SVGFEMergeElement_Binding
 :
 :
 Wrap

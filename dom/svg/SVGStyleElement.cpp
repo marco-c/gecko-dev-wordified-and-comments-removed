@@ -70,7 +70,7 @@ aGivenProto
 )
 {
 return
-SVGStyleElementBinding
+SVGStyleElement_Binding
 :
 :
 Wrap

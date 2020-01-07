@@ -2114,7 +2114,7 @@ aGivenProto
 )
 {
 return
-HTMLLinkElementBinding
+HTMLLinkElement_Binding
 :
 :
 Wrap

@@ -102,7 +102,7 @@ dom
 {
 using
 namespace
-SVGTransformBinding
+SVGTransform_Binding
 ;
 static
 nsSVGAttrTearoffTable
@@ -235,7 +235,7 @@ aGivenProto
 )
 {
 return
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 Wrap

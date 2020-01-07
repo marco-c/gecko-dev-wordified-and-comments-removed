@@ -124,7 +124,7 @@ aGivenProto
 )
 {
 return
-ImageCaptureErrorBinding
+ImageCaptureError_Binding
 :
 :
 Wrap

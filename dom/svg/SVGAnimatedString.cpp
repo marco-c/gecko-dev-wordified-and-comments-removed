@@ -48,7 +48,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedStringBinding
+SVGAnimatedString_Binding
 :
 :
 Wrap

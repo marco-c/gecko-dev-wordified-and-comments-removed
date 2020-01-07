@@ -52,7 +52,7 @@ aGivenProto
 )
 {
 return
-SVGAnimateElementBinding
+SVGAnimateElement_Binding
 :
 :
 Wrap

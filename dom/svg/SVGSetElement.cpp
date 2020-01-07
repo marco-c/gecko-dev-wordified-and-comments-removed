@@ -52,7 +52,7 @@ aGivenProto
 )
 {
 return
-SVGSetElementBinding
+SVGSetElement_Binding
 :
 :
 Wrap

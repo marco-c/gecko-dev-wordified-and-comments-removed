@@ -122,7 +122,7 @@ aCx
 )
 ;
 return
-ParentProcessMessageManagerBinding
+ParentProcessMessageManager_Binding
 :
 :
 Wrap

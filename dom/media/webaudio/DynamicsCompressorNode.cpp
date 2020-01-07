@@ -1219,7 +1219,7 @@ aGivenProto
 )
 {
 return
-DynamicsCompressorNodeBinding
+DynamicsCompressorNode_Binding
 :
 :
 Wrap

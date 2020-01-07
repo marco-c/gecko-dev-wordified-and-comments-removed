@@ -92,7 +92,7 @@ dom
 {
 using
 namespace
-SVGTextContentElementBinding
+SVGTextContentElement_Binding
 ;
 nsSVGEnumMapping
 SVGTextContentElement
@@ -169,7 +169,7 @@ nsGkAtoms
 :
 textLength
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

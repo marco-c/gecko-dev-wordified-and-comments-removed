@@ -625,7 +625,7 @@ return
 dom
 :
 :
-LocationBinding
+Location_Binding
 :
 :
 IsPermitted
@@ -646,7 +646,7 @@ return
 dom
 :
 :
-WindowBinding
+Window_Binding
 :
 :
 IsPermitted

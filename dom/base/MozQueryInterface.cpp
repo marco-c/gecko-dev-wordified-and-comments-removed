@@ -680,7 +680,7 @@ aReflector
 )
 {
 return
-MozQueryInterfaceBinding
+MozQueryInterface_Binding
 :
 :
 Wrap

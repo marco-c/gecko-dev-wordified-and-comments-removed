@@ -1046,7 +1046,7 @@ nullptr
 )
 mState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -1216,7 +1216,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -1229,7 +1229,7 @@ mFlagSend
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -1962,7 +1962,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -2432,7 +2432,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -2441,7 +2441,7 @@ LOADING
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -2571,7 +2571,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -2702,7 +2702,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -2711,7 +2711,7 @@ LOADING
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -2737,7 +2737,7 @@ HasOrHasHadOwner
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -2937,7 +2937,7 @@ Arraybuffer
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -3023,7 +3023,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -3079,7 +3079,7 @@ mResponseXML
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -3121,7 +3121,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -3340,7 +3340,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -3349,7 +3349,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -3444,7 +3444,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -3453,7 +3453,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -3611,7 +3611,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -3620,7 +3620,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -3697,7 +3697,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -3710,7 +3710,7 @@ mFlagSend
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 HEADERS_RECEIVED
@@ -3719,7 +3719,7 @@ HEADERS_RECEIVED
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -3814,7 +3814,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -3825,7 +3825,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -3839,7 +3839,7 @@ mFlagSend
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -3847,7 +3847,7 @@ DONE
 {
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -3901,7 +3901,7 @@ mFlagAborted
 {
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -3933,7 +3933,7 @@ aRv
 {
 mState
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -4069,7 +4069,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -4082,7 +4082,7 @@ mFlagSend
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 HEADERS_RECEIVED
@@ -4091,7 +4091,7 @@ HEADERS_RECEIVED
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -4113,7 +4113,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -4121,7 +4121,7 @@ DONE
 {
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -4433,7 +4433,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -4442,7 +4442,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -4766,7 +4766,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -4775,7 +4775,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -5076,7 +5076,7 @@ MOZ_ASSERT
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -5699,7 +5699,7 @@ return
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -6284,7 +6284,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -6292,7 +6292,7 @@ OPENED
 {
 mState
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -6324,7 +6324,7 @@ MOZ_ASSERT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -7179,7 +7179,7 @@ MOZ_ASSERT
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -7263,7 +7263,7 @@ mProgressSinceLastProgressEvent
 =
 true
 ;
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 ClearCachedResponseTextValue
@@ -7366,7 +7366,7 @@ rv
 ;
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -7418,7 +7418,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 HEADERS_RECEIVED
@@ -7426,7 +7426,7 @@ HEADERS_RECEIVED
 {
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -7544,7 +7544,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -7719,7 +7719,7 @@ true
 ;
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 HEADERS_RECEIVED
@@ -8769,7 +8769,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -9240,7 +9240,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -9249,7 +9249,7 @@ UNSENT
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -9544,7 +9544,7 @@ false
 }
 ChangeState
 (
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -10983,7 +10983,7 @@ mFlagSynchronous
 {
 mState
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -11414,7 +11414,7 @@ mFlagSynchronous
 {
 mState
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -11495,7 +11495,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -12307,7 +12307,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -12490,7 +12490,7 @@ mFlagSynchronous
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -12697,7 +12697,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -12820,7 +12820,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -12829,7 +12829,7 @@ LOADING
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -12894,7 +12894,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -12964,7 +12964,7 @@ if
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 UNSENT
@@ -12973,7 +12973,7 @@ UNSENT
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -13027,7 +13027,7 @@ if
 aState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 HEADERS_RECEIVED
@@ -13036,7 +13036,7 @@ HEADERS_RECEIVED
 aState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -13060,7 +13060,7 @@ mFlagSynchronous
 aState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -13069,7 +13069,7 @@ OPENED
 aState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -13974,7 +13974,7 @@ if
 mState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -14654,7 +14654,7 @@ Truncate
 (
 )
 ;
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 ClearCachedResponseTextValue
@@ -14909,7 +14909,7 @@ MOZ_ASSERT
 mState
 !
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE

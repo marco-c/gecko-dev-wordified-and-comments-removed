@@ -131,7 +131,7 @@ return
 dom
 :
 :
-WebGLRenderingContextBinding
+WebGLRenderingContext_Binding
 :
 :
 Wrap

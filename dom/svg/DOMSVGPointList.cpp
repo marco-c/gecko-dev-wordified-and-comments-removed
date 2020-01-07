@@ -470,7 +470,7 @@ mozilla
 dom
 :
 :
-SVGPointListBinding
+SVGPointList_Binding
 :
 :
 Wrap

@@ -77,7 +77,7 @@ aGivenProto
 )
 {
 return
-SVGFEColorMatrixElementBinding
+SVGFEColorMatrixElement_Binding
 :
 :
 Wrap

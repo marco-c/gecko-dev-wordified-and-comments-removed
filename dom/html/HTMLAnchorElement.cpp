@@ -264,7 +264,7 @@ aGivenProto
 )
 {
 return
-HTMLAnchorElementBinding
+HTMLAnchorElement_Binding
 :
 :
 Wrap

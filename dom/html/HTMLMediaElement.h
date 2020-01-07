@@ -3383,7 +3383,7 @@ mPendingEvents
 nsMediaNetworkState
 mNetworkState
 =
-HTMLMediaElementBinding
+HTMLMediaElement_Binding
 :
 :
 NETWORK_EMPTY
@@ -3391,7 +3391,7 @@ NETWORK_EMPTY
 nsMediaReadyState
 mReadyState
 =
-HTMLMediaElementBinding
+HTMLMediaElement_Binding
 :
 :
 HAVE_NOTHING

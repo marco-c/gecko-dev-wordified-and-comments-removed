@@ -48,7 +48,7 @@ aGivenProto
 )
 {
 return
-EventTargetBinding
+EventTarget_Binding
 :
 :
 Wrap

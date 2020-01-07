@@ -131,7 +131,7 @@ aGivenProto
 )
 {
 return
-AudioProcessingEventBinding
+AudioProcessingEvent_Binding
 :
 :
 Wrap

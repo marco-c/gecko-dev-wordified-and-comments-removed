@@ -2068,7 +2068,7 @@ aGivenProto
 )
 {
 return
-OscillatorNodeBinding
+OscillatorNode_Binding
 :
 :
 Wrap

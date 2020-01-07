@@ -2492,7 +2492,7 @@ aGivenProto
 )
 {
 return
-CacheBinding
+Cache_Binding
 :
 :
 Wrap

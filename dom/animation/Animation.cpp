@@ -205,7 +205,7 @@ return
 dom
 :
 :
-AnimationBinding
+Animation_Binding
 :
 :
 Wrap

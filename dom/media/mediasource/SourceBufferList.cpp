@@ -1018,7 +1018,7 @@ aGivenProto
 )
 {
 return
-SourceBufferListBinding
+SourceBufferList_Binding
 :
 :
 Wrap

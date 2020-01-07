@@ -4850,7 +4850,7 @@ case
 Type_Index
 :
 return
-IDBCursorWithValueBinding
+IDBCursorWithValue_Binding
 :
 :
 Wrap
@@ -4867,7 +4867,7 @@ case
 Type_IndexKey
 :
 return
-IDBCursorBinding
+IDBCursor_Binding
 :
 :
 Wrap

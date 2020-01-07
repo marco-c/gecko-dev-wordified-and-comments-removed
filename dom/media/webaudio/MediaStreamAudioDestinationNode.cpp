@@ -625,7 +625,7 @@ aGivenProto
 )
 {
 return
-MediaStreamAudioDestinationNodeBinding
+MediaStreamAudioDestinationNode_Binding
 :
 :
 Wrap

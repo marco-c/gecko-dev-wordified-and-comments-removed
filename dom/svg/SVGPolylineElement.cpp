@@ -74,7 +74,7 @@ aGivenProto
 )
 {
 return
-SVGPolylineElementBinding
+SVGPolylineElement_Binding
 :
 :
 Wrap

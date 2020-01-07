@@ -3087,7 +3087,7 @@ aGivenProto
 )
 {
 return
-CustomElementRegistryBinding
+CustomElementRegistry_Binding
 :
 :
 Wrap

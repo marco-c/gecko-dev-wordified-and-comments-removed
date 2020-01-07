@@ -1150,7 +1150,7 @@ curpos
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -1263,7 +1263,7 @@ curpos
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION

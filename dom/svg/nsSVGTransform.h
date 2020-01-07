@@ -78,7 +78,7 @@ mType
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 SVG_TRANSFORM_MATRIX
@@ -121,7 +121,7 @@ mType
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 SVG_TRANSFORM_MATRIX
@@ -425,7 +425,7 @@ aType
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 SVG_TRANSFORM_MATRIX
@@ -437,7 +437,7 @@ aType
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 SVG_TRANSFORM_SKEWY
@@ -502,7 +502,7 @@ aType
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 SVG_TRANSFORM_TRANSLATE
@@ -514,7 +514,7 @@ aType
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 :
 :
 SVG_TRANSFORM_SKEWY

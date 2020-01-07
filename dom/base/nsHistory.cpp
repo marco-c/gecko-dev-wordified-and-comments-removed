@@ -221,7 +221,7 @@ aGivenProto
 )
 {
 return
-HistoryBinding
+History_Binding
 :
 :
 Wrap

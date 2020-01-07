@@ -52,7 +52,7 @@ aGivenProto
 )
 {
 return
-SVGAnimateMotionElementBinding
+SVGAnimateMotionElement_Binding
 :
 :
 Wrap
