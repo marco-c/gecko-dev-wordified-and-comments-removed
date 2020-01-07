@@ -169,7 +169,10 @@ use
 str
 :
 :
+{
 starts_with_ignore_ascii_case
+string_as_ascii_lowercase
+}
 ;
 use
 string_cache
@@ -3221,7 +3224,10 @@ Atom
 :
 from
 (
+string_as_ascii_lowercase
+(
 feature_name
+)
 )
 ;
 match
