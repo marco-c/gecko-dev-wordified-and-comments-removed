@@ -7,6 +7,15 @@ gc_Rooting_h
 #
 include
 "
+gc
+/
+Policy
+.
+h
+"
+#
+include
+"
 js
 /
 GCVector
