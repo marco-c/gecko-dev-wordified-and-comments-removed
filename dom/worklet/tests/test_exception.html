@@ -134,7 +134,7 @@ set
 "
 dom
 .
-audioWorklet
+audioworklet
 .
 enabled
 "
@@ -176,6 +176,16 @@ This
 loading
 should
 fail
+var
+audioContext
+=
+new
+AudioContext
+(
+)
+;
+audioContext
+.
 audioWorklet
 .
 import
@@ -247,6 +257,8 @@ then
 >
 {
 return
+audioContext
+.
 audioWorklet
 .
 import
