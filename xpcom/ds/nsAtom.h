@@ -316,7 +316,11 @@ private
 :
 friend
 class
-nsAtomFriend
+nsAtomTable
+;
+friend
+class
+nsAtomSubTable
 ;
 friend
 class
@@ -429,7 +433,7 @@ private
 :
 friend
 class
-nsAtomFriend
+nsAtomTable
 ;
 nsStaticAtom
 (
