@@ -254,6 +254,7 @@ false
 }
 onFontToggle
 (
+event
 )
 {
 this
@@ -272,9 +273,16 @@ isFontExpanded
 }
 )
 ;
+event
+.
+stopPropagation
+(
+)
+;
 }
 onFontFaceRuleToggle
 (
+event
 )
 {
 this
@@ -291,6 +299,12 @@ state
 .
 isFontFaceRuleExpanded
 }
+)
+;
+event
+.
+stopPropagation
+(
 )
 ;
 }
