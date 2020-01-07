@@ -11007,12 +11007,6 @@ CacheKind
 :
 ToBool
 :
-case
-CacheKind
-:
-:
-UnaryArith
-:
 MOZ_ASSERT
 (
 numInputs

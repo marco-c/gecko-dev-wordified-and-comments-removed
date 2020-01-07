@@ -1572,6 +1572,12 @@ case
 ICStub
 :
 :
+UnaryArith_Int32
+:
+case
+ICStub
+:
+:
 BinaryArith_DoubleWithInt32
 :
 return
@@ -1585,6 +1591,12 @@ ICStub
 :
 :
 BinaryArith_Double
+:
+case
+ICStub
+:
+:
+UnaryArith_Double
 :
 return
 MIRType

@@ -1400,9 +1400,9 @@ ins
 override
 ;
 void
-visitUnaryCache
+visitUnarySharedStub
 (
-MUnaryCache
+MUnarySharedStub
 *
 ins
 )
