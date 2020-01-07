@@ -967,8 +967,6 @@ prep
 session
 (
 )
-.
-lock
 )
 ;
 VerifyNode
@@ -2189,9 +2187,9 @@ init
 bool
 traceHeap
 (
-AutoLockForExclusiveAccess
+AutoTraceSession
 &
-lock
+session
 )
 ;
 virtual
@@ -2580,9 +2578,9 @@ HeapCheckTracerBase
 :
 traceHeap
 (
-AutoLockForExclusiveAccess
+AutoTraceSession
 &
-lock
+session
 )
 {
 JS
@@ -2609,7 +2607,7 @@ gc
 traceRuntime
 (
 this
-lock
+session
 )
 ;
 while
@@ -2987,9 +2985,9 @@ rt
 void
 check
 (
-AutoLockForExclusiveAccess
+AutoTraceSession
 &
-lock
+session
 )
 ;
 private
@@ -3103,9 +3101,9 @@ CheckHeapTracer
 :
 check
 (
-AutoLockForExclusiveAccess
+AutoTraceSession
 &
-lock
+session
 )
 {
 if
@@ -3113,7 +3111,7 @@ if
 !
 traceHeap
 (
-lock
+session
 )
 )
 return
@@ -3196,8 +3194,6 @@ tracer
 check
 (
 session
-.
-lock
 )
 ;
 }
@@ -3235,9 +3231,9 @@ rt
 bool
 check
 (
-AutoLockForExclusiveAccess
+AutoTraceSession
 &
-lock
+session
 )
 ;
 private
@@ -3404,9 +3400,9 @@ CheckGrayMarkingTracer
 :
 check
 (
-AutoLockForExclusiveAccess
+AutoTraceSession
 &
-lock
+session
 )
 {
 if
@@ -3414,7 +3410,7 @@ if
 !
 traceHeap
 (
-lock
+session
 )
 )
 return
@@ -3540,8 +3536,6 @@ tracer
 check
 (
 session
-.
-lock
 )
 ;
 }

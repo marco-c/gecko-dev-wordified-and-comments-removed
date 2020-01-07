@@ -206,10 +206,6 @@ randomHashCodeScrambler
 (
 )
 )
-gcSweepGroupEdges_
-(
-group
-)
 typeDescrObjects_
 (
 group
@@ -316,7 +312,6 @@ false
 )
 listNext_
 (
-group
 NotOnList
 )
 {
