@@ -1542,10 +1542,7 @@ style
 media_queries
 :
 :
-{
 MediaList
-parse_media_query_list
-}
 ;
 use
 style
@@ -21867,7 +21864,10 @@ MediaList
 *
 list
 =
-parse_media_query_list
+MediaList
+:
+:
+parse
 (
 &
 context
