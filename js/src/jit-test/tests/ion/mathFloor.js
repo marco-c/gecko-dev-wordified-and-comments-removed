@@ -193,12 +193,10 @@ test
 (
 )
 {
-try
+with
+(
 {
 }
-catch
-(
-e
 )
 {
 }
