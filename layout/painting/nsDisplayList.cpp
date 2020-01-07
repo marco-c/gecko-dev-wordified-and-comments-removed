@@ -3920,13 +3920,6 @@ RefusedAsyncAnimationProperty
 true
 )
 ;
-aFrame
--
->
-SchedulePaint
-(
-)
-;
 return
 ;
 }
