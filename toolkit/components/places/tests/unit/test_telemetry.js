@@ -194,7 +194,7 @@ Assert
 equal
 (
 val
-2
+1
 )
 PLACES_ANNOS_PAGES_COUNT
 :
