@@ -98,13 +98,6 @@ mozilla
 :
 DOMEventTargetHelper
 )
-NS_REALLY_FORWARD_NSIDOMEVENTTARGET
-(
-mozilla
-:
-:
-DOMEventTargetHelper
-)
 nsPIDOMWindowInner
 *
 GetParentObject

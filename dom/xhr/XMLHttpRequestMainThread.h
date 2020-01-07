@@ -899,10 +899,6 @@ aMallocSizeOf
 const
 override
 ;
-NS_REALLY_FORWARD_NSIDOMEVENTTARGET
-(
-XMLHttpRequestEventTarget
-)
 virtual
 uint16_t
 ReadyState

@@ -51,10 +51,6 @@ XMLHttpRequestUpload
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
-NS_REALLY_FORWARD_NSIDOMEVENTTARGET
-(
-XMLHttpRequestEventTarget
-)
 virtual
 JSObject
 *

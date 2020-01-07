@@ -149,13 +149,6 @@ mozilla
 :
 DOMEventTargetHelper
 )
-NS_REALLY_FORWARD_NSIDOMEVENTTARGET
-(
-mozilla
-:
-:
-DOMEventTargetHelper
-)
 IMPL_EVENT_HANDLER
 (
 change
