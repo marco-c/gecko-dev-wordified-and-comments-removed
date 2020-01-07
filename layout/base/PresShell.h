@@ -1083,7 +1083,6 @@ aFlags
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleEvent
@@ -2804,7 +2803,6 @@ GetCurrentEventFrame
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RetargetEventToParent
 (
