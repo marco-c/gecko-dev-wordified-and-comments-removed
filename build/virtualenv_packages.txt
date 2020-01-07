@@ -32,6 +32,13 @@ pth
 :
 python
 /
+mozterm
+mozilla
+.
+pth
+:
+python
+/
 mozversioncontrol
 mozilla
 .
