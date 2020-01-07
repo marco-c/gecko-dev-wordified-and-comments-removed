@@ -896,8 +896,14 @@ sessionRestored
     
 extensions
 =
-\
-        
+[
+'
+{
+talos
+}
+/
+pageloader
+'
 '
 {
 talos
@@ -909,6 +915,7 @@ sessionrestore
 /
 addon
 '
+]
     
 cycles
 =
@@ -1182,6 +1189,7 @@ thing
     
 extensions
 =
+[
 '
 {
 talos
@@ -1193,6 +1201,7 @@ tresize
 /
 addon
 '
+]
     
 cycles
 =
@@ -1277,6 +1286,18 @@ test
 "
 "
 "
+    
+extensions
+=
+[
+'
+{
+talos
+}
+/
+pageloader
+'
+]
     
 tpmanifest
 =
@@ -1715,6 +1736,7 @@ load
     
 extensions
 =
+[
 '
 {
 talos
@@ -1724,6 +1746,14 @@ tests
 /
 cpstartup
 '
+'
+{
+talos
+}
+/
+pageloader
+'
+]
     
 tpmanifest
 =
@@ -1830,6 +1860,7 @@ process
     
 extensions
 =
+[
 '
 {
 talos
@@ -1839,6 +1870,14 @@ tests
 /
 tabpaint
 '
+'
+{
+talos
+}
+/
+pageloader
+'
+]
     
 tpmanifest
 =
@@ -1933,6 +1972,7 @@ tabs
     
 extensions
 =
+[
 '
 {
 talos
@@ -1942,6 +1982,14 @@ tests
 /
 tabswitch
 '
+'
+{
+talos
+}
+/
+pageloader
+'
+]
     
 tpmanifest
 =
@@ -2312,6 +2360,14 @@ manifest
     
 extensions
 =
+[
+'
+{
+talos
+}
+/
+pageloader
+'
 '
 {
 talos
@@ -2323,6 +2379,7 @@ tart
 /
 addon
 '
+]
     
 tpcycles
 =
@@ -2570,6 +2627,14 @@ manifest
     
 extensions
 =
+[
+'
+{
+talos
+}
+/
+pageloader
+'
 '
 {
 talos
@@ -2581,6 +2646,7 @@ devtools
 /
 addon
 '
+]
     
 cycles
 =

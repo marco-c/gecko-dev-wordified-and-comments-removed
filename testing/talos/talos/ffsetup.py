@@ -637,7 +637,7 @@ extensions
             
 extensions
 .
-append
+extend
 (
 self
 .
@@ -811,7 +811,15 @@ Installing
 Add
 -
 ons
+:
 "
+)
+        
+LOG
+.
+info
+(
+extensions
 )
         
 profile
@@ -865,6 +873,7 @@ info
 "
 Installing
 Webextensions
+:
 "
 )
             
@@ -937,6 +946,13 @@ filename
 :
                     
 continue
+                
+LOG
+.
+info
+(
+filename
+)
                 
 profile
 .
