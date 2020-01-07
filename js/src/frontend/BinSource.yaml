@@ -5242,6 +5242,14 @@ prepend
 callee
 )
 ;
+result
+-
+>
+setOp
+(
+JSOP_NEW
+)
+;
 ObjectExpression
 :
 build
