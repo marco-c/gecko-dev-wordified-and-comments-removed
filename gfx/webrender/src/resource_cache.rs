@@ -213,6 +213,12 @@ GpuCacheHandle
 }
 ;
 use
+gpu_types
+:
+:
+UvRectKind
+;
+use
 internal_types
 :
 :
@@ -5562,6 +5568,10 @@ image_data
 dirty_rect
 gpu_cache
 None
+UvRectKind
+:
+:
+Rect
 )
 ;
 image_template

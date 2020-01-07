@@ -180,6 +180,12 @@ gpu_cache
 GpuCache
 ;
 use
+gpu_types
+:
+:
+UvRectKind
+;
+use
 internal_types
 :
 :
@@ -4513,6 +4519,10 @@ eviction_notice
 (
 )
 )
+UvRectKind
+:
+:
+Rect
 )
 ;
 GlyphCacheEntry

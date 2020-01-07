@@ -279,8 +279,6 @@ y
 =
 ratio_xy
 ;
-vPos
-;
 vGradientAddress
 =
 user_data

@@ -80,6 +80,7 @@ gpu_types
 {
 ClipChainRectIndex
 ClipScrollNodeData
+UvRectKind
 }
 ;
 use
@@ -1106,6 +1107,10 @@ zero
 pic_state
 .
 tasks
+UvRectKind
+:
+:
+Rect
 )
 ;
 let
