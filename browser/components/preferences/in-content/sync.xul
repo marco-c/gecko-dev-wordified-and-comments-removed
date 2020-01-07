@@ -1936,6 +1936,14 @@ hbox
 groupbox
 >
 <
+vbox
+align
+=
+"
+start
+"
+>
+<
 label
 id
 =
@@ -1988,6 +1996,10 @@ multidevice
 <
 /
 label
+>
+<
+/
+vbox
 >
 <
 vbox
