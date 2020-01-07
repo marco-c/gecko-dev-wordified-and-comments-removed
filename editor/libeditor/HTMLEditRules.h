@@ -1725,6 +1725,7 @@ PT
 typename
 CT
 >
+MOZ_MUST_USE
 SplitNodeResult
 MaybeSplitAncestorsForInsertWithTransaction
 (
