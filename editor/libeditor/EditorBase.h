@@ -344,6 +344,9 @@ TextComposition
 class
 TextEditor
 ;
+class
+TextServicesDocument
+;
 enum
 class
 EditAction
@@ -3654,6 +3657,12 @@ RefPtr
 mozInlineSpellChecker
 >
 mInlineSpellChecker
+;
+RefPtr
+<
+TextServicesDocument
+>
+mTextServicesDocument
 ;
 RefPtr
 <
