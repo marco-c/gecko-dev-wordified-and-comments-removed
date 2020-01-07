@@ -147,6 +147,11 @@ MIDIManagerChild
 h
 '
 '
+MIDIManagerParent
+.
+h
+'
+'
 MIDIMessageEvent
 .
 h
@@ -188,6 +193,11 @@ h
 '
 '
 MIDIPortInterface
+.
+h
+'
+'
+MIDIPortParent
 .
 h
 '
@@ -226,6 +236,11 @@ MIDIManagerChild
 cpp
 '
 '
+MIDIManagerParent
+.
+cpp
+'
+'
 MIDIMessageEvent
 .
 cpp
@@ -267,6 +282,11 @@ cpp
 '
 '
 MIDIPortInterface
+.
+cpp
+'
+'
+MIDIPortParent
 .
 cpp
 '
