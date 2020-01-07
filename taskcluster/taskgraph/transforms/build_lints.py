@@ -354,11 +354,6 @@ seen_configs
 [
 key
 ]
-[
-'
-name
-'
-]
 )
 )
         
@@ -368,6 +363,11 @@ key
 ]
 =
 job
+[
+'
+name
+'
+]
         
 yield
 job
