@@ -106,10 +106,7 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 NotifyPaintEvent
 Event
 )
-NS_IMETHOD_
-(
 void
-)
 Serialize
 (
 IPC
@@ -123,10 +120,7 @@ aSerializeInterfaceType
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
 Deserialize
 (
 const

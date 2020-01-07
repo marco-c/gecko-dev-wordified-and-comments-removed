@@ -3778,7 +3778,6 @@ IsFileControlTextBox
 )
 )
 {
-return
 aDragEvent
 -
 >

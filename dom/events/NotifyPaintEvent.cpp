@@ -452,10 +452,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 NotifyPaintEvent
 :
 :
@@ -548,10 +545,7 @@ i
 ;
 }
 }
-NS_IMETHODIMP_
-(
 bool
-)
 NotifyPaintEvent
 :
 :

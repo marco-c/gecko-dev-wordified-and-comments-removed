@@ -2170,11 +2170,9 @@ return
 NS_OK
 ;
 }
-nsString
+nsAutoString
 type
 ;
-MOZ_ALWAYS_SUCCEEDS
-(
 aVisitor
 .
 mDOMEvent
@@ -2183,7 +2181,6 @@ mDOMEvent
 GetType
 (
 type
-)
 )
 ;
 MOZ_ASSERT

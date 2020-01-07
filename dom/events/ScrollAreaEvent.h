@@ -88,10 +88,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 ScrollAreaEvent
 UIEvent
 )
-NS_IMETHOD_
-(
 void
-)
 Serialize
 (
 IPC
@@ -105,10 +102,7 @@ aSerializeInterfaceType
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
 Deserialize
 (
 const
