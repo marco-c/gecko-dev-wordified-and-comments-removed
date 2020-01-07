@@ -3318,10 +3318,6 @@ if
 source_file
 .
 name_is_non_test
-or
-source_file
-.
-name_is_manual
 :
         
 return
@@ -3383,8 +3379,10 @@ source_file
 name_is_manual
 :
         
-return
-[
+errors
+.
+append
+(
 (
 "
 CONTENT
@@ -3409,7 +3407,7 @@ manual
 path
 None
 )
-]
+)
     
 if
 source_file
@@ -3427,8 +3425,10 @@ source_file
 name_is_visual
 :
         
-return
-[
+errors
+.
+append
+(
 (
 "
 CONTENT
@@ -3453,7 +3453,7 @@ visual
 path
 None
 )
-]
+)
     
 for
 reftest_node
