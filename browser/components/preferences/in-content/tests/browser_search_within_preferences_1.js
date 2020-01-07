@@ -12,6 +12,7 @@ add_task
 (
 async
 function
+show_search_bar_when_pref_is_enabled
 (
 )
 {
@@ -70,6 +71,7 @@ add_task
 (
 async
 function
+show_search_results_pane_only_then_revert_to_general
 (
 )
 {
@@ -379,6 +381,7 @@ add_task
 (
 async
 function
+search_for_password_show_passwordGroup
 (
 )
 {
@@ -927,6 +930,7 @@ add_task
 (
 async
 function
+search_with_nothing_found
 (
 )
 {
@@ -953,7 +957,7 @@ contentDocument
 querySelector
 (
 "
-.
+#
 no
 -
 results
@@ -1151,6 +1155,7 @@ add_task
 (
 async
 function
+exiting_search_reverts_to_general_pane
 (
 )
 {
@@ -1354,6 +1359,7 @@ add_task
 (
 async
 function
+verify_hidden_from_search_elements_dont_show_up
 (
 )
 {
@@ -1623,6 +1629,7 @@ add_task
 (
 async
 function
+changing_tabs_after_searching
 (
 )
 {
