@@ -351,10 +351,7 @@ aBody
 aBody
 +
 =
-'
-\
-0
-'
+0x01
 ;
 aBody
 +
