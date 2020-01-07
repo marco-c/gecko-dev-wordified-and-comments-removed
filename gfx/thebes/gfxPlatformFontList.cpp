@@ -8766,6 +8766,10 @@ Clear
 (
 )
 ;
+mEmojiPrefFont
+=
+nullptr
+;
 }
 size_t
 gfxPlatformFontList
