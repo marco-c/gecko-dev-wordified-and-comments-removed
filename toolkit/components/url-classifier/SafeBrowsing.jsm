@@ -2479,6 +2479,11 @@ if
 (
 this
 .
+malwareEnabled
+&
+&
+this
+.
 downloadsEnabled
 )
 {
@@ -2533,6 +2538,11 @@ i
 {
 if
 (
+this
+.
+malwareEnabled
+&
+&
 this
 .
 downloadsEnabled
