@@ -1,4 +1,4 @@
-49547
+49758
 0
 /
 nm
@@ -169,6 +169,9 @@ AWACS
 /
 M
 AWOL
+/
+M
+AWS
 /
 M
 AZ
@@ -960,6 +963,9 @@ M
 Alta
 /
 M
+Altaba
+/
+M
 Altai
 /
 M
@@ -1088,6 +1094,9 @@ Amerindian
 /
 MS
 Ameslan
+/
+M
+Amgen
 /
 M
 Amharic
@@ -1340,6 +1349,9 @@ Anguilla
 /
 M
 Angus
+/
+M
+Anhui
 /
 M
 Aniakchak
@@ -1660,6 +1672,9 @@ Arcturus
 M
 Ardabil
 Arden
+/
+M
+Arduino
 /
 M
 Arequipa
@@ -2452,6 +2467,9 @@ M
 Bahrain
 /
 M
+Baidu
+/
+M
 Baikal
 /
 M
@@ -2929,6 +2947,7 @@ M
 Beckett
 /
 M
+Beckman
 Becky
 /
 M
@@ -3394,6 +3413,9 @@ M
 Bierce
 /
 M
+BigQuery
+/
+M
 Bigfoot
 /
 M
@@ -3422,6 +3444,9 @@ Billy
 /
 M
 Bimini
+/
+M
+Biogen
 /
 M
 Bioko
@@ -3823,6 +3848,7 @@ M
 Boswell
 /
 M
+Botha
 Botox
 Botswana
 /
@@ -4128,6 +4154,7 @@ M
 Brillo
 /
 M
+Brillouin
 Brinkley
 /
 M
@@ -4622,6 +4649,9 @@ M
 CRT
 /
 SM
+CSS
+/
+M
 CST
 /
 M
@@ -5369,6 +5399,9 @@ M
 Celeste
 /
 M
+Celgene
+/
+M
 Celia
 /
 M
@@ -5908,6 +5941,9 @@ M
 Christopher
 /
 M
+Chromebook
+/
+MS
 Chronicles
 Chrysler
 /
@@ -6129,6 +6165,9 @@ Clio
 /
 M
 Clive
+/
+M
+Clojure
 /
 M
 Clorets
@@ -6637,6 +6676,9 @@ M
 Cosby
 /
 M
+CosmosDB
+/
+M
 Cossack
 /
 M
@@ -6701,6 +6743,9 @@ Cox
 /
 M
 Coy
+/
+M
+Coyle
 /
 M
 Cozumel
@@ -7863,6 +7908,9 @@ SM
 Dixon
 /
 M
+Django
+/
+M
 Djibouti
 /
 M
@@ -8146,6 +8194,9 @@ M
 Druid
 /
 M
+Drupal
+/
+M
 Dryden
 /
 M
@@ -8319,6 +8370,9 @@ Dyer
 /
 M
 Dylan
+/
+M
+DynamoDB
 /
 M
 Dyson
@@ -8619,6 +8673,9 @@ Elam
 /
 M
 Elanor
+/
+M
+Elasticsearch
 /
 M
 Elastoplast
@@ -9024,6 +9081,9 @@ M
 Eritrean
 /
 SM
+Erlang
+/
+M
 Erlenmeyer
 /
 M
@@ -9685,6 +9745,9 @@ M
 Finland
 /
 M
+Finlay
+/
+M
 Finley
 /
 M
@@ -9701,6 +9764,9 @@ Finnish
 /
 M
 Fiona
+/
+M
+Firebase
 /
 M
 Firefox
@@ -10153,6 +10219,9 @@ M
 Fuji
 /
 M
+Fujian
+/
+M
 Fujitsu
 /
 M
@@ -10190,6 +10259,9 @@ Fundy
 /
 M
 Furies
+/
+M
+Furman
 /
 M
 Furtwangler
@@ -10433,6 +10505,9 @@ Ganges
 /
 M
 Gangtok
+/
+M
+Gansu
 /
 M
 Gantry
@@ -11061,6 +11136,9 @@ M
 Goodall
 /
 M
+Goode
+/
+M
 Goodman
 /
 M
@@ -11378,6 +11456,9 @@ Guam
 /
 M
 Guamanian
+Guangdong
+/
+M
 Guangzhou
 /
 M
@@ -11440,6 +11521,9 @@ Guinness
 /
 M
 Guiyang
+/
+M
+Guizhou
 /
 M
 Guizot
@@ -11540,6 +11624,9 @@ M
 HBO
 /
 M
+HBase
+/
+M
 HDD
 HDMI
 HDTV
@@ -11597,6 +11684,9 @@ M
 Hades
 /
 M
+Hadoop
+/
+M
 Hadrian
 /
 M
@@ -11622,6 +11712,9 @@ Haida
 /
 SM
 Haifa
+/
+M
+Hainan
 /
 M
 Haiphong
@@ -12025,6 +12118,9 @@ Heb
 Hebe
 /
 M
+Hebei
+/
+M
 Hebert
 /
 M
@@ -12079,6 +12175,9 @@ M
 Heifetz
 /
 M
+Heilongjiang
+/
+M
 Heimlich
 /
 M
@@ -12115,6 +12214,7 @@ M
 Helga
 /
 M
+Helicobacter
 Helicon
 /
 M
@@ -12166,6 +12266,9 @@ Helvetius
 /
 M
 Hemingway
+/
+M
+Henan
 /
 M
 Hench
@@ -12281,6 +12384,9 @@ Herod
 /
 M
 Herodotus
+/
+M
+Heroku
 /
 M
 Herr
@@ -12812,6 +12918,9 @@ M
 Hubble
 /
 M
+Hubei
+/
+M
 Huber
 /
 M
@@ -12870,6 +12979,9 @@ M
 Hume
 /
 M
+Hummel
+/
+M
 Hummer
 /
 M
@@ -12882,6 +12994,9 @@ M
 Hun
 /
 SM
+Hunan
+/
+M
 Hung
 /
 M
@@ -12907,6 +13022,9 @@ Huntley
 /
 M
 Huntsville
+/
+M
+Hurd
 /
 M
 Hurley
@@ -14016,6 +14134,12 @@ M
 Jezebel
 /
 SM
+Jiangsu
+/
+M
+Jiangxi
+/
+M
 Jidda
 /
 M
@@ -15217,6 +15341,9 @@ M
 Kosygin
 /
 M
+Kotlin
+/
+M
 Koufax
 /
 M
@@ -15653,6 +15780,7 @@ SM
 Laplace
 /
 M
+Laplacian
 Lapland
 /
 MR
@@ -16132,6 +16260,9 @@ M
 Li
 /
 MY
+Liaoning
+/
+M
 Libby
 /
 M
@@ -16515,6 +16646,7 @@ M
 Lorentz
 /
 M
+Lorentzian
 Lorenz
 /
 M
@@ -17567,6 +17699,9 @@ SM
 Maria
 /
 M
+MariaDB
+/
+M
 Marian
 /
 M
@@ -17863,6 +17998,9 @@ M
 Mather
 /
 M
+Matheson
+/
+M
 Mathew
 /
 SM
@@ -17882,6 +18020,9 @@ Matilda
 /
 M
 Matisse
+/
+M
+Matlab
 /
 M
 Matt
@@ -18319,6 +18460,9 @@ Melville
 /
 M
 Melvin
+/
+M
+Memcached
 /
 M
 Memling
@@ -19063,6 +19207,9 @@ M
 Monet
 /
 M
+MongoDB
+/
+M
 Mongol
 /
 SM
@@ -19521,6 +19668,9 @@ M
 Muzak
 /
 M
+MySQL
+/
+M
 MySpace
 /
 M
@@ -19643,6 +19793,9 @@ NSF
 NSFW
 NT
 NV
+NVIDIA
+/
+M
 NW
 /
 M
@@ -19956,6 +20109,9 @@ Nembutal
 /
 M
 Nemesis
+/
+M
+Neo
 /
 M
 Neogene
@@ -20610,6 +20766,9 @@ M
 Oberon
 /
 M
+Ocaml
+/
+M
 Occam
 /
 M
@@ -21153,6 +21312,9 @@ M
 PFC
 PG
 PGP
+PHP
+/
+M
 PIN
 PJ
 '
@@ -22344,6 +22506,9 @@ M
 Post
 /
 M
+PostgreSQL
+/
+M
 Potemkin
 /
 M
@@ -22463,6 +22628,9 @@ Pribilof
 /
 M
 Price
+/
+M
+Priceline
 /
 M
 Priestley
@@ -22690,6 +22858,9 @@ Puzo
 /
 M
 Pvt
+PyTorch
+/
+M
 Pygmalion
 /
 M
@@ -22762,6 +22933,9 @@ MS
 Qingdao
 /
 M
+Qinghai
+/
+M
 Qiqihar
 /
 M
@@ -22777,6 +22951,9 @@ MS
 Quakerism
 /
 SM
+Qualcomm
+/
+M
 Quaoar
 /
 M
@@ -22880,6 +23057,9 @@ M
 RCMP
 RD
 RDA
+RDS
+/
+M
 REIT
 REM
 /
@@ -23163,7 +23343,13 @@ M
 Redgrave
 /
 M
+Redis
+/
+M
 Redmond
+/
+M
+Redshift
 /
 M
 Reebok
@@ -24166,6 +24352,9 @@ SOSes
 SPCA
 SPF
 SQL
+SQLite
+/
+M
 SRO
 SS
 SSA
@@ -24326,6 +24515,9 @@ Salem
 /
 M
 Salerno
+/
+M
+Salesforce
 /
 M
 Salinas
@@ -24719,6 +24911,9 @@ Schliemann
 /
 M
 Schlitz
+/
+M
+Schloss
 /
 M
 Schmidt
@@ -25149,6 +25344,9 @@ Seymour
 /
 M
 Sgt
+Shaanxi
+/
+M
 Shackleton
 /
 M
@@ -25171,6 +25369,9 @@ M
 Shana
 /
 M
+Shandong
+/
+M
 Shane
 /
 M
@@ -25189,7 +25390,13 @@ M
 Shantung
 /
 M
+Shanxi
+/
+M
 Shapiro
+/
+M
+SharePoint
 /
 M
 Shari
@@ -25461,6 +25668,9 @@ Siberian
 /
 MS
 Sibyl
+/
+M
+Sichuan
 /
 M
 Sicilian
@@ -27064,6 +27274,9 @@ M
 Tenochtitlan
 /
 M
+TensorFlow
+/
+M
 Teotihuacan
 /
 M
@@ -28330,6 +28543,9 @@ VAT
 M
 VAX
 VAXes
+VBA
+/
+M
 VCR
 /
 M
@@ -28973,6 +29189,9 @@ Walesa
 /
 M
 Walgreen
+/
+SM
+Walgreens
 /
 M
 Walker
@@ -29621,6 +29840,9 @@ SM
 Worcestershire
 /
 M
+WordPress
+/
+M
 Wordsworth
 /
 M
@@ -29703,6 +29925,9 @@ M
 XML
 XS
 XXL
+Xamarin
+/
+M
 Xanadu
 /
 M
@@ -29750,7 +29975,13 @@ M
 Xingu
 /
 M
+Xinjiang
+/
+M
 Xiongnu
+/
+M
+Xizang
 /
 M
 Xmas
@@ -30121,6 +30352,9 @@ Zeus
 /
 M
 Zhdanov
+Zhejiang
+/
+M
 Zhengzhou
 /
 M
@@ -33231,6 +33465,7 @@ MS
 amusing
 /
 Y
+amygdala
 amylase
 /
 M
@@ -33529,6 +33764,7 @@ anhydrous
 aniline
 /
 M
+anilingus
 animadversion
 /
 MS
@@ -33675,6 +33911,7 @@ annulling
 annulment
 /
 SM
+annulus
 annunciation
 /
 SM
@@ -33900,6 +34137,7 @@ MS
 antifascist
 /
 MS
+antiferromagnetic
 antifreeze
 /
 M
@@ -35431,6 +35669,7 @@ association
 /
 EM
 associations
+associativity
 assonance
 /
 M
@@ -35440,6 +35679,7 @@ MS
 assort
 /
 GLDS
+assortative
 assortment
 /
 MS
@@ -36224,6 +36464,7 @@ U
 avoidance
 /
 M
+avoidant
 avoirdupois
 /
 M
@@ -38901,6 +39142,7 @@ SM
 bimetallism
 /
 M
+bimodal
 bimonthly
 /
 SM
@@ -38910,6 +39152,7 @@ SM
 binary
 /
 SM
+binaural
 bind
 '
 s
@@ -42977,6 +43220,8 @@ cameraman
 /
 M
 cameramen
+camerapeople
+cameraperson
 camerawoman
 /
 M
@@ -43087,6 +43332,7 @@ cancellation
 SM
 cancelled
 cancelling
+cancelous
 cancer
 /
 MS
@@ -43675,6 +43921,9 @@ M
 carload
 /
 SM
+carmaker
+/
+S
 carmine
 /
 SM
@@ -44718,6 +44967,7 @@ MS
 cetacean
 /
 MS
+ceteris
 cf
 cg
 ch
@@ -47372,6 +47622,7 @@ MS
 coelenterate
 /
 MS
+coenzyme
 coequal
 /
 MYS
@@ -48240,6 +48491,7 @@ commutation
 /
 MS
 commutative
+commutativity
 commutator
 /
 SM
@@ -48249,6 +48501,7 @@ BDRSMZG
 commuter
 /
 M
+comorbidity
 comp
 /
 MDYGS
@@ -49055,6 +49308,7 @@ ZB
 conformable
 /
 U
+conformal
 conformance
 /
 M
@@ -50506,6 +50760,7 @@ U
 correlation
 /
 M
+correlational
 correlative
 /
 MS
@@ -50587,6 +50842,7 @@ cortex
 M
 cortical
 cortices
+cortisol
 cortisone
 /
 M
@@ -51057,6 +51313,9 @@ M
 couturier
 /
 MS
+covalent
+covariance
+covariant
 cove
 /
 MS
@@ -53625,6 +53884,7 @@ M
 declivity
 /
 SM
+decoherence
 decolletage
 /
 SM
@@ -55183,6 +55443,8 @@ dialysis
 M
 dialyzes
 diam
+diamagnetic
+diamagnetism
 diamante
 diamant
 diameter
@@ -55381,6 +55643,7 @@ differences
 different
 /
 IY
+differentiable
 differential
 /
 SM
@@ -56303,7 +56566,7 @@ dissipation
 M
 dissociate
 /
-GNDS
+GNVDS
 dissociation
 /
 M
@@ -57310,6 +57573,7 @@ downstream
 downswing
 /
 MS
+downtempo
 downtime
 /
 M
@@ -58277,7 +58541,9 @@ dysprosium
 /
 M
 dystonia
+dystopi
 dystopia
+dystopian
 dz
 d
 bridement
@@ -58601,6 +58867,8 @@ ecology
 M
 econ
 econometric
+/
+S
 economic
 /
 S
@@ -58865,6 +59133,7 @@ efflux
 effort
 /
 SM
+effortful
 effortless
 /
 YP
@@ -58977,6 +59246,9 @@ eiderdown
 /
 MS
 eigenvalue
+/
+S
+eigenvector
 /
 S
 eight
@@ -59209,6 +59481,7 @@ M
 electrotype
 /
 MS
+electroweak
 eleemosynary
 elegance
 /
@@ -59659,6 +59932,7 @@ empanel
 /
 GDS
 empathetic
+empathically
 empathize
 /
 DSG
@@ -60001,6 +60275,7 @@ endoscopy
 M
 endothelial
 endothermic
+endotracheal
 endow
 /
 SDLG
@@ -61146,6 +61421,7 @@ UY
 ethics
 /
 M
+ethmoid
 ethnic
 /
 SM
@@ -61278,6 +61554,7 @@ DSG
 euthenics
 /
 M
+eutrophication
 evacuate
 /
 XDSGN
@@ -61628,6 +61905,7 @@ M
 exciting
 /
 Y
+exciton
 excl
 exclaim
 /
@@ -61852,6 +62130,7 @@ exiguous
 exile
 /
 DSMG
+exilic
 exist
 /
 SDG
@@ -62540,6 +62819,7 @@ MS
 f
 /
 CIAVTR
+fMRI
 fa
 /
 M
@@ -63534,6 +63814,7 @@ ferret
 GSMD
 ferric
 ferromagnetic
+ferromagnetism
 ferrous
 ferrule
 /
@@ -66418,6 +66699,9 @@ freighter
 /
 M
 french
+frenemy
+/
+S
 frenetic
 frenetically
 frenzied
@@ -66942,6 +67226,7 @@ S
 functionary
 /
 SM
+functor
 fund
 /
 AMDGS
@@ -70763,6 +71048,7 @@ had
 haddock
 /
 SM
+hadith
 hadn
 '
 t
@@ -71282,6 +71568,7 @@ UM
 happy
 /
 URTP
+haptic
 harangue
 /
 MGDS
@@ -72322,6 +72609,7 @@ M
 heme
 /
 M
+hemiplegia
 hemisphere
 /
 SM
@@ -72492,6 +72780,7 @@ SM
 hermitage
 /
 MS
+hermitian
 hernia
 /
 SM
@@ -72863,6 +73152,7 @@ hipping
 hippo
 /
 SM
+hippocampus
 hippodrome
 /
 SM
@@ -72907,6 +73197,7 @@ SM
 histology
 /
 M
+histopathology
 historian
 /
 MS
@@ -73330,6 +73621,7 @@ homograph
 M
 homographs
 homologous
+homology
 homonym
 /
 SM
@@ -73555,6 +73847,7 @@ SM
 horn
 /
 MDS
+hornbeam
 hornblende
 /
 M
@@ -74526,6 +74819,7 @@ hyperbolic
 hypercritical
 /
 Y
+hypercube
 hyperglycemia
 /
 M
@@ -74540,6 +74834,7 @@ hypermedia
 /
 M
 hyperparathyroidism
+hyperplane
 hypersensitive
 /
 P
@@ -74576,6 +74871,9 @@ GNDS
 hyperventilation
 /
 M
+hypervisor
+/
+MS
 hyphen
 /
 MDSG
@@ -74684,6 +74982,9 @@ M
 i
 /
 US
+iOS
+/
+M
 iPad
 /
 M
@@ -75818,6 +76119,7 @@ PY
 impulsiveness
 /
 M
+impulsivity
 impunity
 /
 M
@@ -75912,7 +76214,7 @@ incantation
 SM
 incapacitate
 /
-GDS
+GNDS
 incarcerate
 /
 XDSGN
@@ -76821,6 +77123,7 @@ SM
 injector
 /
 SM
+injunctive
 injure
 /
 DRSZG
@@ -77113,6 +77416,7 @@ inspiration
 /
 MS
 inspirational
+inspiratory
 inspired
 /
 U
@@ -77224,6 +77528,7 @@ M
 insubordinate
 insufferable
 insufferably
+insula
 insular
 insularity
 /
@@ -77550,6 +77855,8 @@ DSG
 intermission
 /
 SM
+intermittence
+intermittency
 intermittent
 /
 Y
@@ -77599,6 +77906,7 @@ internship
 /
 MS
 interoffice
+interoperability
 interpenetrate
 /
 DSGN
@@ -77743,6 +78051,7 @@ intestinal
 intestine
 /
 MS
+intifada
 intimacy
 /
 SM
@@ -78307,6 +78616,7 @@ isometrics
 /
 M
 isomorphic
+isomorphism
 isosceles
 isotherm
 /
@@ -83753,6 +84063,7 @@ SM
 magnolia
 /
 MS
+magnon
 magnum
 /
 MS
@@ -83870,6 +84181,12 @@ maintain
 /
 ZGBDRS
 maintainability
+maintainable
+/
+U
+maintained
+/
+U
 maintenance
 /
 M
@@ -85319,7 +85636,7 @@ median
 MS
 mediate
 /
-DSGN
+ADSGN
 mediated
 /
 U
@@ -86190,6 +86507,7 @@ M
 microfilm
 /
 GMDS
+microfinance
 microfloppies
 microgroove
 /
@@ -86202,8 +86520,11 @@ microloan
 MS
 micromanage
 /
-GDSL
+ZGDRSL
 micromanagement
+/
+M
+micromanager
 /
 M
 micrometeorite
@@ -87686,6 +88007,7 @@ M
 mommy
 /
 SM
+monad
 monarch
 /
 M
@@ -88065,6 +88387,7 @@ SMY
 morale
 /
 M
+moralism
 moralist
 /
 MS
@@ -89318,6 +89641,7 @@ SM
 nanotechnology
 /
 SM
+nanotube
 nap
 /
 SM
@@ -89976,6 +90300,7 @@ neuron
 /
 MS
 neuronal
+neuroscience
 neuroses
 neurosis
 /
@@ -89991,6 +90316,7 @@ neurotic
 /
 MS
 neurotically
+neuroticism
 neurotransmitter
 /
 SM
@@ -90687,6 +91013,8 @@ nondepreciating
 nondescript
 nondestructive
 nondetachable
+nondeterminism
+nondeterministic
 nondisciplinary
 nondisclosure
 /
@@ -92726,6 +93054,7 @@ oracular
 oral
 /
 MYS
+orality
 orange
 /
 SMP
@@ -93055,6 +93384,7 @@ osmotic
 osprey
 /
 SM
+ossicles
 ossification
 /
 M
@@ -93207,6 +93537,7 @@ outdraw
 GS
 outdrawn
 outdrew
+outercourse
 outermost
 outerwear
 /
@@ -94865,6 +95196,7 @@ DSG
 paralyzing
 /
 Y
+paramagnetic
 paramecia
 paramecium
 /
@@ -95036,6 +95368,7 @@ pariah
 /
 M
 pariahs
+paribus
 parietal
 parimutuel
 /
@@ -95515,6 +95848,7 @@ SM
 patrician
 /
 SM
+patricidal
 patricide
 /
 SM
@@ -95803,6 +96137,7 @@ M
 pectoral
 /
 MS
+pectoralis
 peculate
 /
 GNDS
@@ -96531,6 +96866,7 @@ permit
 MS
 permitted
 permitting
+permittivity
 permutation
 /
 SM
@@ -96834,6 +97170,7 @@ MS
 petition
 /
 ZGMDRS
+petitionary
 petitioner
 /
 M
@@ -96992,6 +97329,7 @@ SM
 pharmacopoeia
 /
 MS
+pharmacotherapy
 pharmacy
 /
 SM
@@ -97189,6 +97527,7 @@ MS
 phonology
 /
 M
+phonon
 phony
 /
 PTGDRSM
@@ -97284,6 +97623,7 @@ phototropic
 phototropism
 phototypesetter
 phototypesetting
+photovoltaic
 phrasal
 phrase
 '
@@ -98186,6 +98526,7 @@ MDSG
 plasma
 /
 M
+plasmon
 plaster
 /
 SZGMDR
@@ -99447,7 +99788,7 @@ position
 CKEMS
 positional
 /
-K
+KE
 positioned
 /
 K
@@ -99916,6 +100257,7 @@ RT
 preadolescence
 /
 SM
+preadolescent
 preamble
 /
 MGDS
@@ -100212,6 +100554,7 @@ prehistory
 /
 M
 prehuman
+preinstalled
 prejudge
 /
 GDS
@@ -101526,6 +101869,7 @@ DRSZG
 proselytizer
 /
 M
+prosocial
 prosody
 /
 SM
@@ -101933,6 +102277,7 @@ psychopathy
 /
 M
 psychopharmacology
+psychophysiology
 psychos
 /
 S
@@ -102397,6 +102742,9 @@ Y
 purpose
 /
 DSMYG
+purposed
+/
+A
 purposeful
 /
 YP
@@ -102744,12 +103092,15 @@ M
 quantify
 /
 NDRSZG
+quantitation
 quantitative
 /
 Y
 quantity
 /
 SM
+quantization
+quantize
 quantum
 /
 M
@@ -103992,6 +104343,7 @@ DSG
 react
 /
 V
+reactance
 reactant
 /
 SM
@@ -104291,6 +104643,8 @@ recognizable
 /
 U
 recognizably
+/
+U
 recognize
 /
 DRSGB
@@ -104644,12 +104998,14 @@ MS
 reflective
 /
 Y
+reflectivity
 reflector
 /
 MS
 reflexive
 /
 SMY
+reflexivity
 reflexology
 reforge
 /
@@ -104781,6 +105137,7 @@ S
 reggae
 /
 M
+regicidal
 regicide
 /
 MS
@@ -104905,6 +105262,9 @@ rehearsed
 U
 rehi
 rehung
+reify
+/
+NDSG
 reign
 /
 MDSG
@@ -104961,7 +105321,7 @@ M
 rel
 relate
 /
-DRSXZGNV
+DRSBXZGNV
 relatedness
 /
 M
@@ -105940,6 +106300,7 @@ retina
 /
 SM
 retinal
+retinoblastoma
 retinue
 /
 SM
@@ -106055,6 +106416,7 @@ JMDRSZG
 revelation
 /
 SM
+revelatory
 reveler
 /
 M
@@ -108188,7 +108550,7 @@ sanitation
 M
 sanitize
 /
-GDS
+ZGDRS
 sanity
 /
 IM
@@ -108820,6 +109182,7 @@ SM
 schist
 /
 M
+schistosomiasis
 schizo
 /
 SM
@@ -114187,6 +114550,7 @@ solver
 /
 SM
 somatic
+somatosensory
 somber
 /
 PY
@@ -115152,6 +115516,7 @@ YP
 spinet
 /
 SM
+spinless
 spinnaker
 /
 SM
@@ -117247,6 +117612,7 @@ stressed
 /
 U
 stressful
+stressors
 stretch
 /
 BZGMDRS
@@ -117835,7 +118201,9 @@ SGD
 subornation
 /
 M
+subpar
 subparagraph
+subpart
 subplot
 /
 MS
@@ -118658,6 +119026,7 @@ supersonic
 superstar
 /
 MS
+superstardom
 superstate
 /
 S
@@ -119010,6 +119379,7 @@ sustainability
 sustainable
 /
 U
+sustainably
 sustenance
 /
 M
@@ -119322,6 +119692,7 @@ SM
 switcher
 /
 M
+switchover
 swivel
 /
 MDGS
@@ -119434,6 +119805,7 @@ M
 symbolize
 /
 DSG
+symbology
 symmetric
 /
 Y
@@ -119497,6 +119869,7 @@ GDS
 synchronous
 /
 Y
+synchrony
 syncopate
 /
 DSGN
@@ -123471,6 +123844,7 @@ SM
 transducer
 /
 MS
+transduction
 transect
 /
 DSG
@@ -123691,6 +124065,7 @@ transshipping
 transubstantiation
 /
 M
+transversal
 transverse
 /
 MYS
@@ -125157,6 +125532,10 @@ tyrannic
 tyrannical
 /
 Y
+tyrannicidal
+tyrannicide
+/
+S
 tyrannize
 /
 GDS
@@ -125176,6 +125555,7 @@ SM
 tyro
 /
 MS
+tzatziki
 u
 /
 S
@@ -125250,6 +125630,7 @@ ultramarine
 /
 M
 ultramodern
+ultrasensitive
 ultrashort
 ultrasonic
 ultrasonically
@@ -125350,6 +125731,9 @@ DG
 unbound
 /
 D
+unbox
+/
+GDS
 unbreakable
 unbroken
 uncanny
@@ -125387,6 +125771,7 @@ uncomfortable
 uncommon
 /
 T
+uncompelling
 uncomplaining
 /
 Y
@@ -125955,6 +126340,8 @@ SM
 universal
 /
 MYS
+universalism
+universalist
 universality
 /
 M
@@ -125967,6 +126354,7 @@ SM
 university
 /
 SM
+univocal
 unjust
 /
 Y
@@ -127127,6 +127515,7 @@ M
 ventilator
 /
 SM
+ventilatory
 ventral
 ventricle
 /
@@ -127547,6 +127936,7 @@ DS
 view
 /
 AMDRSZG
+viewable
 viewer
 /
 AM
@@ -129701,6 +130091,9 @@ MS
 whitehead
 /
 MS
+whitelist
+/
+GDS
 whiten
 /
 ZGDRJ
