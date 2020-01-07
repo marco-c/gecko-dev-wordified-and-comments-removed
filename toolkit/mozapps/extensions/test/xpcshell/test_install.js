@@ -79,11 +79,6 @@ var
 gInstallDate
 ;
 const
-ADDON1_SIZE
-=
-612
-;
-const
 ADDONS
 =
 {
@@ -976,9 +971,6 @@ org
 addon
 {
 install
-size
-:
-ADDON1_SIZE
 iconURL
 :
 jar
@@ -1481,9 +1473,6 @@ Test
 foreignInstall
 :
 false
-size
-:
-ADDON1_SIZE
 iconURL
 :
 uri2

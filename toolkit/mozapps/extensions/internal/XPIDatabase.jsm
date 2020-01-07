@@ -775,9 +775,6 @@ path
 skinnable
 "
 "
-size
-"
-"
 sourceURI
 "
 "
@@ -5039,9 +5036,6 @@ softDisabled
 "
 "
 skinnable
-"
-"
-size
 "
 "
 foreignInstall

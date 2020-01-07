@@ -2245,15 +2245,6 @@ OP_NEEDS_RESTART_NONE
 ;
 }
 get
-size
-(
-)
-{
-return
-null
-;
-}
-get
 permissions
 (
 )

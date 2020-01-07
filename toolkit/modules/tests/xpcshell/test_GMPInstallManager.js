@@ -1733,16 +1733,6 @@ version
 ;
 Assert
 .
-equal
-(
-gmpAddon
-.
-size
-undefined
-)
-;
-Assert
-.
 ok
 (
 gmpAddon

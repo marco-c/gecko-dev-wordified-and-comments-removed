@@ -554,9 +554,6 @@ dailyUsers
 sourceURI
 "
 "
-size
-"
-"
 updateDate
 "
 ]
@@ -800,9 +797,6 @@ sourceURI
 BASE_URL
 +
 INSTALL_URL2
-size
-:
-5555
 updateDate
 :
 new

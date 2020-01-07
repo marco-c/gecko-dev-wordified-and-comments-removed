@@ -725,16 +725,6 @@ equal
 (
 addon
 .
-size
-0
-)
-;
-Assert
-.
-equal
-(
-addon
-.
 scope
 AddonManager
 .

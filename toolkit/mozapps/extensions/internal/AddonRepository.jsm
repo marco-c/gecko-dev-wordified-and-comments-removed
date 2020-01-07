@@ -824,9 +824,6 @@ null
 sourceURI
 :
 null
-size
-:
-null
 updateDate
 :
 null
@@ -2180,17 +2177,6 @@ url
 )
 ;
 }
-addon
-.
-size
-=
-Number
-(
-file
-.
-size
-)
-;
 break
 ;
 }
