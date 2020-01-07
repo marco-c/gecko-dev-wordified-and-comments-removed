@@ -194,11 +194,6 @@ txNodeSet
 cpp
 '
 '
-txNodeSetAdaptor
-.
-cpp
-'
-'
 txNodeSetContext
 .
 cpp
@@ -275,11 +270,6 @@ cpp
 '
 '
 txXPathOptimizer
-.
-cpp
-'
-'
-txXPCOMExtensionFunction
 .
 cpp
 '
