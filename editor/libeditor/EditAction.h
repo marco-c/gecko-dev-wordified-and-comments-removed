@@ -40,7 +40,7 @@ eCreateOrChangeList
 eIndent
 eOutdent
 eSetOrClearAlignment
-makeBasicBlock
+eCreateOrRemoveBlock
 removeList
 makeDefListItem
 insertElement

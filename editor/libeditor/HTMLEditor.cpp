@@ -8984,7 +8984,7 @@ this
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 nsIEditor
 :
 :
@@ -9020,7 +9020,7 @@ subActionInfo
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 )
 ;
 subActionInfo
