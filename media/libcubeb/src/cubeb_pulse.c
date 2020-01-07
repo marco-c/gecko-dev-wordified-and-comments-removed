@@ -542,6 +542,10 @@ cubeb
 *
 context
 ;
+void
+*
+user_ptr
+;
 pa_stream
 *
 output_stream
@@ -555,10 +559,6 @@ data_callback
 ;
 cubeb_state_callback
 state_callback
-;
-void
-*
-user_ptr
 ;
 pa_time_event
 *

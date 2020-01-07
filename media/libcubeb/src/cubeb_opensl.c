@@ -504,6 +504,10 @@ cubeb
 *
 context
 ;
+void
+*
+user_ptr
+;
 pthread_mutex_t
 mutex
 ;
@@ -599,10 +603,6 @@ data_callback
 ;
 cubeb_state_callback
 state_callback
-;
-void
-*
-user_ptr
 ;
 cubeb_resampler
 *

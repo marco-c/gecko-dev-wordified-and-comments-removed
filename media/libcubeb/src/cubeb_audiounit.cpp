@@ -606,6 +606,12 @@ cubeb
 *
 context
 ;
+void
+*
+user_ptr
+=
+nullptr
+;
 cubeb_data_callback
 data_callback
 =
@@ -651,12 +657,6 @@ input_device
 ;
 device_info
 output_device
-;
-void
-*
-user_ptr
-=
-nullptr
 ;
 AudioStreamBasicDescription
 input_desc

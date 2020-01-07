@@ -438,6 +438,10 @@ cubeb
 *
 context
 ;
+void
+*
+user_ptr
+;
 cubeb_stream_params
 params
 ;
@@ -450,10 +454,6 @@ state_callback
 void
 *
 instance
-;
-void
-*
-user_ptr
 ;
 long
 unsigned

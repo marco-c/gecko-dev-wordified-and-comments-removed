@@ -142,6 +142,10 @@ cubeb
 *
 context
 ;
+void
+*
+arg
+;
 pthread_t
 th
 ;
@@ -207,10 +211,6 @@ data_cb
 ;
 cubeb_state_callback
 state_cb
-;
-void
-*
-arg
 ;
 }
 ;

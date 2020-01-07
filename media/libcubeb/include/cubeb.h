@@ -738,6 +738,16 @@ device_changed_callback
 )
 ;
 CUBEB_EXPORT
+void
+*
+cubeb_stream_user_ptr
+(
+cubeb_stream
+*
+stream
+)
+;
+CUBEB_EXPORT
 int
 cubeb_enumerate_devices
 (

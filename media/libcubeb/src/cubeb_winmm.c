@@ -408,6 +408,10 @@ cubeb
 *
 context
 ;
+void
+*
+user_ptr
+;
 cubeb_stream_params
 params
 ;
@@ -416,10 +420,6 @@ data_callback
 ;
 cubeb_state_callback
 state_callback
-;
-void
-*
-user_ptr
 ;
 WAVEHDR
 buffers
