@@ -103,15 +103,6 @@ h
 "
 #
 endif
-#
-ifndef
-D_INO
-#
-define
-D_INO
-d_ino
-#
-endif
 char
 *
 program
@@ -490,7 +481,7 @@ if
 ep
 -
 >
-D_INO
+d_ino
 =
 =
 ino
