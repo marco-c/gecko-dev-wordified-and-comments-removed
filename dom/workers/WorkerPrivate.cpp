@@ -6804,7 +6804,7 @@ bool
 WorkerPrivate
 :
 :
-NotifyPrivate
+Notify
 (
 WorkerStatus
 aStatus
@@ -17089,7 +17089,7 @@ void
 WorkerPrivate
 :
 :
-PostMessageToParentInternal
+PostMessageToParent
 (
 JSContext
 *
