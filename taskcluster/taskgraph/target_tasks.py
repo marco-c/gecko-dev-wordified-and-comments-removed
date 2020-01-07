@@ -2288,10 +2288,14 @@ all
 non
 -
 android
-mozilla_beta
+mozilla_
+{
+beta
+release
+}
 tasks
-plus
     
+plus
 l10n
 beetmover
 balrog
@@ -2826,10 +2830,14 @@ all
 non
 -
 android
-mozilla_beta
+mozilla_
+{
+beta
+release
+}
+    
 tasks
 plus
-    
 l10n
 beetmover
 balrog
