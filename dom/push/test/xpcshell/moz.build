@@ -13,3 +13,13 @@ PushServiceHandler
 manifest
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+broadcast_handler
+.
+jsm
+'
+]
