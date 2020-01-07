@@ -4553,14 +4553,13 @@ I32
 :
 masm
 .
-convertValueToInt32
+truncateValueToInt32
 (
 JSReturnOperand
 ReturnDoubleReg
 ReturnReg
 &
 oolConvert
-false
 )
 ;
 break
