@@ -847,6 +847,10 @@ debuggerMallocSizeOf
 (
 ReturnZeroSize
 )
+lastAnimationTime
+(
+0
+)
 performanceMonitoring_
 (
 )
