@@ -68,6 +68,11 @@ dom
 NodeInfo
 NodeInfo
 ;
+NS_IMPL_FROMCONTENT_HTML_WITH_TAG
+(
+HTMLAudioElement
+audio
+)
 explicit
 HTMLAudioElement
 (
