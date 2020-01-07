@@ -28953,7 +28953,7 @@ font
 :
 {
 SpecifiedFontFeatureSettings
-FontVariationSettings
+SpecifiedFontVariationSettings
 }
 ;
 let
@@ -29208,7 +29208,7 @@ eCSSFontDesc_FontFeatureSettings
 SpecifiedFontFeatureSettings
 eCSSFontDesc_FontVariationSettings
 /
-FontVariationSettings
+SpecifiedFontVariationSettings
 eCSSFontDesc_FontLanguageOverride
 /
 font_language_override

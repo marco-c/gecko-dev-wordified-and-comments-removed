@@ -214,7 +214,7 @@ font
 :
 {
 SpecifiedFontFeatureSettings
-FontVariationSettings
+SpecifiedFontVariationSettings
 }
 ;
 use
@@ -2470,7 +2470,7 @@ variation_settings
 /
 mFontVariationSettings
 :
-FontVariationSettings
+SpecifiedFontVariationSettings
 /
 /
 /
