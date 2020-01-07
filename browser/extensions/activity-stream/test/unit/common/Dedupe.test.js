@@ -1,10 +1,8 @@
-const
+import
 {
 Dedupe
 }
-=
-require
-(
+from
 "
 common
 /
@@ -12,7 +10,6 @@ Dedupe
 .
 jsm
 "
-)
 ;
 describe
 (

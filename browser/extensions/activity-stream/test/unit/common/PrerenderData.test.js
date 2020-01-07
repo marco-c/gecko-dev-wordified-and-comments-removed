@@ -1,11 +1,9 @@
-const
+import
 {
-PrerenderData
 _PrerenderData
+PrerenderData
 }
-=
-require
-(
+from
 "
 common
 /
@@ -13,7 +11,6 @@ PrerenderData
 .
 jsm
 "
-)
 ;
 describe
 (

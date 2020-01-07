@@ -12,14 +12,12 @@ stream
 .
 "
 ;
-const
+import
 {
-Prefs
 DefaultPrefs
+Prefs
 }
-=
-require
-(
+from
 "
 lib
 /
@@ -27,7 +25,6 @@ ActivityStreamPrefs
 .
 jsm
 "
-)
 ;
 const
 TEST_PREF_CONFIG

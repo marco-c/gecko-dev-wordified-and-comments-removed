@@ -51,6 +51,15 @@ rules
 :
 {
 "
+import
+/
+no
+-
+commonjs
+"
+:
+2
+"
 react
 /
 jsx

@@ -199,6 +199,7 @@ ga
 IE
 gd
 gl
+gn
 gu
 -
 IN
