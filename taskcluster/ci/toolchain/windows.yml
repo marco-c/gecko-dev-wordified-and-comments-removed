@@ -1088,7 +1088,13 @@ rust
 -
 1
 .
-21
+23
+.
+0
+-
+beta
+.
+2
 :
 description
 :
@@ -1182,11 +1188,7 @@ arguments
 channel
 '
 '
-1
-.
-21
-.
-0
+beta
 '
 '
 -
