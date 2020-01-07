@@ -1522,10 +1522,6 @@ private
 void
 CreateLayerManager
 (
-int
-aCompositorWidth
-int
-aCompositorHeight
 )
 ;
 void
