@@ -527,6 +527,11 @@ AudioCompactor
 h
 '
 '
+AudioConfig
+.
+h
+'
+'
 AudioConverter
 .
 h
@@ -1075,6 +1080,11 @@ cpp
 '
 '
 AudioCompactor
+.
+cpp
+'
+'
+AudioConfig
 .
 cpp
 '
