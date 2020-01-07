@@ -241,6 +241,10 @@ const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs
+const
+uint32_t
+&
+aLoadFlags
 )
 ;
 bool
