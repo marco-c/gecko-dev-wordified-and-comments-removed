@@ -1817,9 +1817,6 @@ desiredSize
 aReflowInput
 .
 reflowInput
-aDesiredSize
-.
-mFlags
 )
 ;
 desiredSize

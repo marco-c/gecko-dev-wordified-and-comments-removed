@@ -1820,9 +1820,6 @@ aReflowInput
 GetWritingMode
 (
 )
-aMetrics
-.
-mFlags
 )
 ;
 ReflowInput

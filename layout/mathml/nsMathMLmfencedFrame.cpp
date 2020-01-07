@@ -980,9 +980,6 @@ ReflowOutput
 childDesiredSize
 (
 aReflowInput
-aDesiredSize
-.
-mFlags
 )
 ;
 WritingMode

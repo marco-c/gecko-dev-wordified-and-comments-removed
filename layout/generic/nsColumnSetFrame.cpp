@@ -3486,9 +3486,6 @@ ReflowOutput
 kidDesiredSize
 (
 wm
-aDesiredSize
-.
-mFlags
 )
 ;
 LogicalPoint

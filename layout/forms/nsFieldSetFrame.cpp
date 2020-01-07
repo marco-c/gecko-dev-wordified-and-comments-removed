@@ -2243,9 +2243,6 @@ ReflowOutput
 kidDesiredSize
 (
 kidReflowInput
-aDesiredSize
-.
-mFlags
 )
 ;
 NS_ASSERTION

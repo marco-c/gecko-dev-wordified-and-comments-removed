@@ -3317,9 +3317,6 @@ aDesiredSize
 GetWritingMode
 (
 )
-aDesiredSize
-.
-mFlags
 )
 ;
 ReflowScrolledFrame

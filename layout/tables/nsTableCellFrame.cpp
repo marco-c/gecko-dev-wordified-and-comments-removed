@@ -4083,9 +4083,6 @@ ReflowOutput
 kidSize
 (
 wm
-aDesiredSize
-.
-mFlags
 )
 ;
 kidSize
