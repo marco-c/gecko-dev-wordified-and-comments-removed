@@ -4293,6 +4293,15 @@ mPendingDocShellIsActive
 bool
 mPendingDocShellReceivedMessage
 ;
+bool
+mPendingRenderLayers
+;
+bool
+mPendingRenderLayersReceivedMessage
+;
+uint64_t
+mPendingLayerObserverEpoch
+;
 uint32_t
 mPendingDocShellBlockers
 ;
