@@ -1257,6 +1257,16 @@ retAtom
 return
 false
 ;
+if
+(
+!
+pn
+-
+>
+isDirectRHSAnonFunction
+(
+)
+)
 fun
 -
 >

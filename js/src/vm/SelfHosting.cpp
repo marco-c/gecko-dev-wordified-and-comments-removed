@@ -2983,7 +2983,7 @@ setIsDefaultClassConstructor
 ctor
 -
 >
-clearGuessedAtom
+clearInferredName
 (
 )
 ;
