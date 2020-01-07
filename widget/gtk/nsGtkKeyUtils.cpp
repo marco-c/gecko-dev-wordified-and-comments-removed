@@ -6356,15 +6356,6 @@ GdkEventKey
 aGdkKeyEvent
 )
 {
-if
-(
-!
-aGdkKeyEvent
-)
-{
-return
-;
-}
 uint32_t
 charCode
 =
