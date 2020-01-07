@@ -1,7 +1,9 @@
 var
 label
 =
+"
 parent
+"
 ;
 function
 passBasicPromise
