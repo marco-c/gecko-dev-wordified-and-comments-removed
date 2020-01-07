@@ -198,7 +198,7 @@ ErrorResult
 aError
 )
 {
-SetAttrHelper
+SetHTMLAttr
 (
 nsGkAtoms
 :
