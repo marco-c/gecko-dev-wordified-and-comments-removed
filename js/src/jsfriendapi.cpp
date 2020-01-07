@@ -7367,10 +7367,10 @@ js
 gc
 :
 :
-AutoPrepareForTracing
-prep
+AutoTraceSession
+session
 (
-cx
+rt
 )
 ;
 gcstats
@@ -7405,8 +7405,6 @@ traceRuntime
 (
 &
 dtrc
-prep
-.
 session
 )
 ;

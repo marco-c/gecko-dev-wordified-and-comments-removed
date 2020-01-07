@@ -189,6 +189,9 @@ class
 AutoCallGCCallbacks
 ;
 class
+AutoGCSession
+;
+class
 AutoRunParallelTask
 ;
 class
@@ -1290,7 +1293,7 @@ traceRuntimeForMinorGC
 JSTracer
 *
 trc
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -2908,7 +2911,7 @@ reason
 SliceBudget
 &
 budget
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -2918,7 +2921,7 @@ resetIncrementalGC
 (
 AbortReason
 reason
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3014,7 +3017,7 @@ gcreason
 :
 Reason
 reason
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3052,7 +3055,7 @@ gcreason
 :
 Reason
 reason
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3102,7 +3105,7 @@ traceRuntimeForMajorGC
 JSTracer
 *
 trc
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3254,7 +3257,7 @@ gcreason
 :
 Reason
 reason
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3531,7 +3534,7 @@ reason
 SliceBudget
 &
 sliceBudget
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3626,7 +3629,7 @@ zone
 void
 updateRuntimePointersToRelocatedCells
 (
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -3672,7 +3675,7 @@ finishCollection
 void
 computeNonIncrementalMarkingForValidation
 (
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -4671,10 +4674,6 @@ GCHelperState
 friend
 class
 MarkingValidator
-;
-friend
-class
-AutoTraceSession
 ;
 friend
 class

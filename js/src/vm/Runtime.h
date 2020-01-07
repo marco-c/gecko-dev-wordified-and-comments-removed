@@ -385,6 +385,13 @@ TraceLoggerThread
 ;
 #
 endif
+namespace
+gc
+{
+class
+AutoHeapSession
+;
+}
 }
 struct
 DtoaState
@@ -3946,7 +3953,7 @@ js
 gc
 :
 :
-AutoTraceSession
+AutoHeapSession
 ;
 friend
 class

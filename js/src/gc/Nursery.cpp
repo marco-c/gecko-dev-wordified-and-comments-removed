@@ -4078,7 +4078,7 @@ mozilla
 :
 Maybe
 <
-AutoTraceSession
+AutoGCSession
 >
 session
 ;
@@ -4595,7 +4595,7 @@ runtime
 (
 )
 ;
-AutoTraceSession
+AutoGCSession
 session
 (
 rt
