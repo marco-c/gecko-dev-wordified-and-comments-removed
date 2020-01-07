@@ -897,11 +897,14 @@ image
 let
 active
 =
-!
-!
 aData
 .
 accentcolor
+|
+|
+aData
+.
+headerURL
 ;
 this
 .
