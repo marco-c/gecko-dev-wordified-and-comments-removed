@@ -1,5 +1,5 @@
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -31,7 +31,7 @@ reload
 target
 )
 ;
-await
+yield
 once
 (
 gFront
@@ -45,7 +45,7 @@ linked
 let
 vsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -58,7 +58,7 @@ vs
 let
 fsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -119,7 +119,7 @@ editor
 let
 vsEditor2
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -132,7 +132,7 @@ vs
 let
 fsEditor2
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -174,7 +174,7 @@ cached
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

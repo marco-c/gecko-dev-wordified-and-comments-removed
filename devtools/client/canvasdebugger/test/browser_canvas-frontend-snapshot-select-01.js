@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -28,13 +28,13 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
 )
 ;
-await
+yield
 recordAndWaitForFirstSnapshot
 (
 )
@@ -92,7 +92,7 @@ snapshot
 "
 )
 ;
-await
+yield
 recordAndWaitForAnotherSnapshot
 (
 )
@@ -186,7 +186,7 @@ secondSnapshotTarget
 window
 )
 ;
-await
+yield
 snapshotSelected
 ;
 info
@@ -289,7 +289,7 @@ firstDrawCallContents
 window
 )
 ;
-await
+yield
 screenshotDisplayed
 ;
 info
@@ -380,7 +380,7 @@ firstSnapshotTarget
 window
 )
 ;
-await
+yield
 snapshotSelected
 ;
 info
@@ -557,7 +557,7 @@ screenshotDisplayed
 )
 ;
 }
-await
+yield
 teardown
 (
 panel

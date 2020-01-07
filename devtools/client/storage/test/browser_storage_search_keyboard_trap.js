@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -32,7 +32,7 @@ expandAll
 (
 )
 ;
-await
+yield
 selectTreeItem
 (
 [
@@ -53,7 +53,7 @@ org
 ]
 )
 ;
-await
+yield
 focusSearchBoxUsingShortcut
 (
 gPanelWindow
@@ -79,7 +79,7 @@ searchbox
 "
 )
 ;
-await
+yield
 finishTests
 (
 )

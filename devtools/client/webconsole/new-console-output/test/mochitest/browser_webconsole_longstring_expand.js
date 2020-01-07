@@ -39,8 +39,8 @@ output
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -99,7 +99,7 @@ DebuggerServer
 LONG_STRING_INITIAL_LENGTH
 )
 ;
-await
+yield
 loadTab
 (
 TEST_URI
@@ -108,7 +108,7 @@ TEST_URI
 let
 hud
 =
-await
+yield
 openConsole
 (
 )
@@ -155,7 +155,7 @@ let
 result
 ]
 =
-await
+yield
 waitForMessages
 (
 {
@@ -241,7 +241,7 @@ hud
 iframeWindow
 )
 ;
-await
+yield
 waitForMessages
 (
 {
@@ -292,7 +292,7 @@ true
 let
 msg
 =
-await
+yield
 execute
 (
 hud
@@ -393,7 +393,7 @@ hud
 iframeWindow
 )
 ;
-await
+yield
 waitForMessages
 (
 {

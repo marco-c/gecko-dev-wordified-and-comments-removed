@@ -100,8 +100,8 @@ zoomValue
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -122,7 +122,7 @@ toolbox
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -141,7 +141,7 @@ tab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -186,7 +186,7 @@ type
 type
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -206,7 +206,7 @@ shortcuts
 "
 )
 ;
-await
+yield
 checkKeyBindings
 (
 toolbox
@@ -244,7 +244,7 @@ host
 BOTTOM
 )
 ;
-await
+yield
 toolbox
 .
 destroy
@@ -344,6 +344,7 @@ toolbox
 ;
 }
 function
+*
 checkKeyBindings
 (
 toolbox

@@ -1,5 +1,5 @@
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -32,7 +32,7 @@ reload
 target
 )
 ;
-await
+yield
 promise
 .
 all
@@ -62,7 +62,7 @@ SOURCES_SHOWN
 let
 vsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -75,7 +75,7 @@ vs
 let
 fsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -211,7 +211,7 @@ selected
 "
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -240,7 +240,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -269,7 +269,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -400,7 +400,7 @@ ch
 }
 )
 ;
-await
+yield
 once
 (
 panel
@@ -423,7 +423,7 @@ changed
 "
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -452,7 +452,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -481,7 +481,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -623,7 +623,7 @@ ch
 }
 )
 ;
-await
+yield
 once
 (
 panel
@@ -646,7 +646,7 @@ changed
 "
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -675,7 +675,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -704,7 +704,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -747,7 +747,7 @@ successfully
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

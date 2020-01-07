@@ -59,8 +59,8 @@ run_next_test
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -87,7 +87,7 @@ generatorError
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store

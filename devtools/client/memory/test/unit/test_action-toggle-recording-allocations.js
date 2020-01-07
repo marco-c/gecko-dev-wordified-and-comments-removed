@@ -25,8 +25,8 @@ allocations
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -38,7 +38,7 @@ StubbedMemoryFront
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -108,7 +108,7 @@ front
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -139,7 +139,7 @@ on
 "
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -196,7 +196,7 @@ front
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -227,7 +227,7 @@ off
 "
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -278,7 +278,7 @@ anymore
 "
 )
 ;
-await
+yield
 front
 .
 detach

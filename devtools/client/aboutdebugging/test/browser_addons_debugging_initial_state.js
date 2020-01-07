@@ -76,8 +76,8 @@ true
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -89,7 +89,7 @@ of
 TEST_DATA
 )
 {
-await
+yield
 testCheckboxState
 (
 testData
@@ -99,8 +99,8 @@ testData
 }
 )
 ;
-async
 function
+*
 testCheckboxState
 (
 testData
@@ -122,7 +122,7 @@ data
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -185,7 +185,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -193,7 +193,7 @@ addons
 "
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
@@ -210,7 +210,7 @@ addon
 "
 )
 ;
-await
+yield
 installAddon
 (
 {
@@ -357,7 +357,7 @@ earlier
 "
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -371,7 +371,7 @@ ADDON_NAME
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

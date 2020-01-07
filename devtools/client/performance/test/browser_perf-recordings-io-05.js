@@ -6,8 +6,12 @@ strict
 var
 test
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -18,7 +22,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -35,13 +39,13 @@ panel
 .
 panelWin
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -95,7 +99,7 @@ EVENTS
 RECORDING_EXPORTED
 )
 ;
-await
+yield
 PerformanceController
 .
 exportRecording
@@ -110,7 +114,7 @@ getCurrentRecording
 file
 )
 ;
-await
+yield
 exported
 ;
 ok
@@ -130,7 +134,7 @@ saved
 "
 )
 ;
-await
+yield
 PerformanceController
 .
 clearRecordings
@@ -159,7 +163,7 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-await
+yield
 PerformanceController
 .
 importRecording
@@ -169,10 +173,10 @@ importRecording
 file
 )
 ;
-await
+yield
 imported
 ;
-await
+yield
 rendered
 ;
 ok
@@ -187,7 +191,7 @@ thrown
 "
 )
 ;
-await
+yield
 teardown
 (
 panel
@@ -198,4 +202,5 @@ finish
 )
 ;
 }
+)
 ;

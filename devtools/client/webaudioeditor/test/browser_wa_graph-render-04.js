@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 CONNECT_MULTI_PARAM_URL
@@ -83,7 +83,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -221,7 +221,7 @@ connection
 }
 )
 ;
-await
+yield
 teardown
 (
 target

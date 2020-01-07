@@ -12,9 +12,12 @@ lineNumber
 }
 )
 ;
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
@@ -60,7 +63,7 @@ load
 "
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -92,7 +95,7 @@ window
 .
 document
 ;
-await
+yield
 waitForSources
 (
 dbg
@@ -265,7 +268,7 @@ waitForPaused
 dbg
 )
 ;
-await
+yield
 addBreakpoint
 (
 dbg
@@ -273,7 +276,7 @@ fileName
 2
 )
 ;
-await
+yield
 onPaused
 ;
 assertPausedLocation
@@ -283,7 +286,7 @@ fileName
 2
 )
 ;
-await
+yield
 stepIn
 (
 dbg
@@ -305,7 +308,7 @@ dbg
 fileName
 )
 ;
-await
+yield
 removeBreakpoint
 (
 dbg
@@ -315,7 +318,7 @@ id
 2
 )
 ;
-await
+yield
 resume
 (
 dbg
@@ -338,7 +341,5 @@ destroy
 )
 ;
 }
-)
-(
 )
 ;

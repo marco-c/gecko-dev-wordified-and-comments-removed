@@ -174,16 +174,19 @@ waitForExplicitFinish
 (
 )
 ;
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
 let
 win
 =
-await
+yield
 openWebIDE
 (
 )
@@ -425,7 +428,7 @@ zoom
 "
 )
 ;
-await
+yield
 closeWebIDE
 (
 win
@@ -433,7 +436,7 @@ win
 ;
 win
 =
-await
+yield
 openWebIDE
 (
 )
@@ -512,7 +515,7 @@ reset
 "
 )
 ;
-await
+yield
 closeWebIDE
 (
 win
@@ -525,8 +528,6 @@ finish
 )
 ;
 }
-)
-(
 )
 ;
 }

@@ -16,8 +16,8 @@ json
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -31,7 +31,7 @@ started
 "
 )
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -40,7 +40,7 @@ TEST_JSON_URL
 let
 count
 =
-await
+yield
 getElementCount
 (
 "
@@ -68,7 +68,7 @@ rows
 "
 )
 ;
-await
+yield
 sendString
 (
 "
@@ -82,7 +82,7 @@ searchBox
 "
 )
 ;
-await
+yield
 waitForFilter
 (
 )
@@ -90,7 +90,7 @@ waitForFilter
 let
 hiddenCount
 =
-await
+yield
 getElementCount
 (
 "

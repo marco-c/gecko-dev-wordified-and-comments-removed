@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-await
+yield
 initCanvasDebuggerBackend
 (
 SIMPLE_CANVAS_TRANSPARENT_URL
@@ -27,7 +27,7 @@ navigate
 "
 )
 ;
-await
+yield
 front
 .
 setup
@@ -53,7 +53,7 @@ successfully
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -76,7 +76,7 @@ up
 let
 snapshotActor
 =
-await
+yield
 front
 .
 recordAnimationFrame
@@ -86,7 +86,7 @@ recordAnimationFrame
 let
 animationOverview
 =
-await
+yield
 snapshotActor
 .
 getOverview
@@ -240,7 +240,7 @@ correct
 let
 firstDrawCallScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -254,7 +254,7 @@ functionCalls
 let
 secondDrawCallScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -268,7 +268,7 @@ functionCalls
 let
 thirdDrawCallScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -282,7 +282,7 @@ functionCalls
 let
 fourthDrawCallScreenshot
 =
-await
+yield
 snapshotActor
 .
 generateScreenshotFor
@@ -846,7 +846,7 @@ different
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

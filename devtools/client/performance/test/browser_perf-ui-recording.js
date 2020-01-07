@@ -103,8 +103,8 @@ actions
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -113,7 +113,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -135,7 +135,7 @@ ok
 (
 !
 (
-await
+yield
 pmmIsProfilerActive
 (
 )
@@ -157,7 +157,7 @@ started
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -166,7 +166,7 @@ panel
 ok
 (
 (
-await
+yield
 pmmIsProfilerActive
 (
 )
@@ -186,7 +186,7 @@ active
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -195,7 +195,7 @@ panel
 ok
 (
 (
-await
+yield
 pmmIsProfilerActive
 (
 )
@@ -215,7 +215,7 @@ active
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

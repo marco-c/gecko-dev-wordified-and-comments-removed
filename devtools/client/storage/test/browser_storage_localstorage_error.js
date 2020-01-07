@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 "
@@ -54,7 +54,7 @@ of
 itemsToOpen
 )
 {
-await
+yield
 selectTreeItem
 (
 item
@@ -89,7 +89,7 @@ tree
 )
 ;
 }
-await
+yield
 finishTests
 (
 )

@@ -196,8 +196,14 @@ _currentNode
 null
 ;
 }
-async
 build
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -211,7 +217,7 @@ _currentNode
 let
 props
 =
-await
+yield
 node
 .
 getParams
@@ -272,8 +278,15 @@ render
 )
 ;
 }
-async
+)
 render
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -331,7 +344,7 @@ values
 events
 }
 =
-await
+yield
 node
 .
 getAutomationData
@@ -358,7 +371,7 @@ events
 "
 )
 ;
-await
+yield
 this
 .
 graph
@@ -381,6 +394,7 @@ id
 )
 ;
 }
+)
 _createParamButtons
 :
 function

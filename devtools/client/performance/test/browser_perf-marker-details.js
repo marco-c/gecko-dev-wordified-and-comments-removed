@@ -3,8 +3,8 @@ use
 strict
 "
 ;
-async
 function
+*
 spawnTest
 (
 )
@@ -15,7 +15,7 @@ target
 panel
 }
 =
-await
+yield
 initPerformance
 (
 MARKERS_URL
@@ -68,7 +68,7 @@ TimeStamp
 "
 ]
 ;
-await
+yield
 startRecording
 (
 panel
@@ -85,7 +85,7 @@ started
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -134,7 +134,7 @@ type
 }
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -977,7 +977,7 @@ break
 ;
 }
 }
-await
+yield
 teardown
 (
 panel

@@ -232,8 +232,8 @@ test
 makeMemoryTest
 (
 TEST_URL
-async
 function
+*
 (
 {
 tab
@@ -311,7 +311,7 @@ coarseType
 "
 )
 ;
-await
+yield
 dispatch
 (
 takeSnapshotAndCensus
@@ -437,7 +437,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -486,7 +486,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -537,7 +537,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -588,7 +588,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -639,7 +639,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -690,7 +690,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -741,7 +741,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -787,7 +787,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilExpanded
 (
 store
@@ -834,7 +834,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store
@@ -885,7 +885,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilFocused
 (
 store

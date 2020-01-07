@@ -106,8 +106,8 @@ test
 makeMemoryTest
 (
 TEST_URL
-async
 function
+*
 (
 {
 panel
@@ -181,7 +181,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -308,7 +308,7 @@ rootNode
 panel
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -369,7 +369,7 @@ rootNode
 panel
 )
 ;
-await
+yield
 waitUntilState
 (
 store

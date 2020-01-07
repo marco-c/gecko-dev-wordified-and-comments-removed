@@ -19,12 +19,12 @@ js
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 pushPref
 (
 "
@@ -88,7 +88,7 @@ of
 tabs
 )
 {
-await
+yield
 initTab
 (
 tab
@@ -98,7 +98,7 @@ startToolbox
 )
 ;
 }
-await
+yield
 checkCacheStateForAllTabs
 (
 [
@@ -109,7 +109,7 @@ true
 ]
 )
 ;
-await
+yield
 setDisableCacheCheckboxChecked
 (
 tabs
@@ -119,7 +119,7 @@ tabs
 true
 )
 ;
-await
+yield
 checkCacheStateForAllTabs
 (
 [
@@ -130,7 +130,7 @@ true
 ]
 )
 ;
-await
+yield
 finishUp
 (
 )

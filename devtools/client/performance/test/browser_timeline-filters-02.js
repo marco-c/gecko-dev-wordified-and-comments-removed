@@ -14,8 +14,8 @@ doc_innerHTML
 html
 "
 ;
-async
 function
+*
 spawnTest
 (
 )
@@ -25,7 +25,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformance
 (
 URL
@@ -43,7 +43,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 startRecording
 (
 panel
@@ -60,7 +60,7 @@ started
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -133,7 +133,7 @@ EVENTS
 UI_WATERFALL_RENDERED
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -168,7 +168,7 @@ Javascript
 "
 )
 ;
-await
+yield
 waterfallRendered
 ;
 ok
@@ -252,7 +252,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -343,7 +343,7 @@ markers
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

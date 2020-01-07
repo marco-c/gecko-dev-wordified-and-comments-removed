@@ -123,8 +123,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -133,7 +133,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -176,13 +176,13 @@ UI_ENABLE_ALLOCATIONS_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -194,7 +194,7 @@ canUpdateWhileHidden
 =
 true
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -206,7 +206,7 @@ calltree
 "
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -218,7 +218,7 @@ flamegraph
 "
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -230,7 +230,7 @@ calltree
 "
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -242,13 +242,13 @@ flamegraph
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -268,7 +268,7 @@ panel
 0
 )
 ;
-await
+yield
 rerender
 ;
 ok
@@ -301,7 +301,7 @@ panel
 1
 )
 ;
-await
+yield
 rerender
 ;
 ok
@@ -321,7 +321,7 @@ recording
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

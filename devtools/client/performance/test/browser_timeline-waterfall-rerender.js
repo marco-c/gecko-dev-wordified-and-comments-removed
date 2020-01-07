@@ -1,5 +1,5 @@
-async
 function
+*
 spawnTest
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -38,7 +38,7 @@ MAX_MARKERS_SELECT
 =
 20
 ;
-await
+yield
 startRecording
 (
 panel
@@ -79,7 +79,7 @@ updated
 ok
 (
 (
-await
+yield
 waitUntil
 (
 (
@@ -108,7 +108,7 @@ times
 ok
 (
 (
-await
+yield
 waitUntil
 (
 (
@@ -140,7 +140,7 @@ available
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -247,7 +247,7 @@ end
 }
 )
 ;
-await
+yield
 rerendered
 ;
 ok
@@ -456,7 +456,7 @@ WaterfallView
 detailsSplitter
 )
 ;
-await
+yield
 rerendered
 ;
 let
@@ -574,7 +574,7 @@ visible
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

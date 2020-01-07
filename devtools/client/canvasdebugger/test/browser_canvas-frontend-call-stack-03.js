@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_DEEP_STACK_URL
@@ -29,7 +29,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
@@ -63,7 +63,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 promise
 .
 all
@@ -243,7 +243,7 @@ contents
 window
 )
 ;
-await
+yield
 callStackDisplayed
 ;
 is
@@ -605,7 +605,7 @@ call
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

@@ -53,8 +53,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -100,7 +100,7 @@ overflow
 scroll
 "
 ;
-await
+yield
 appendAndWaitForPaint
 (
 gBrowser

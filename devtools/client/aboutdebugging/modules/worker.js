@@ -3,6 +3,22 @@ use
 strict
 "
 ;
+const
+{
+Task
+}
+=
+require
+(
+"
+devtools
+/
+shared
+/
+task
+"
+)
+;
 loader
 .
 lazyRequireGetter
@@ -146,8 +162,12 @@ exports
 .
 getWorkerForms
 =
+Task
+.
 async
+(
 function
+*
 (
 client
 )
@@ -171,7 +191,7 @@ try
 registrations
 }
 =
-await
+yield
 client
 .
 mainRoot
@@ -186,7 +206,7 @@ listServiceWorkerRegistrations
 workers
 }
 =
-await
+yield
 client
 .
 mainRoot
@@ -201,7 +221,7 @@ let
 processes
 }
 =
-await
+yield
 client
 .
 mainRoot
@@ -233,7 +253,7 @@ let
 form
 }
 =
-await
+yield
 client
 .
 getProcess
@@ -253,7 +273,7 @@ actor
 let
 response
 =
-await
+yield
 client
 .
 request
@@ -296,4 +316,5 @@ workers
 }
 ;
 }
+)
 ;

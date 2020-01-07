@@ -58,8 +58,8 @@ run_next_test
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -89,7 +89,7 @@ generator
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -149,7 +149,7 @@ sync
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -207,8 +207,8 @@ data
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -236,7 +236,7 @@ action
 let
 moreData
 =
-await
+yield
 new
 Promise
 (
@@ -251,7 +251,7 @@ data
 ;
 moreData
 =
-await
+yield
 new
 Promise
 (

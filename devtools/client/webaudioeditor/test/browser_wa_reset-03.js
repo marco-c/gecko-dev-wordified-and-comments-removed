@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -68,7 +68,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -86,7 +86,7 @@ actor
 actorID
 )
 ;
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -172,7 +172,7 @@ target
 actors
 ]
 =
-await
+yield
 events
 ;
 nodeIds
@@ -227,7 +227,7 @@ reset
 "
 )
 ;
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -289,7 +289,7 @@ reset
 "
 )
 ;
-await
+yield
 teardown
 (
 target

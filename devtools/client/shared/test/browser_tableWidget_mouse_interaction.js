@@ -219,8 +219,12 @@ finish
 var
 startTests
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -228,7 +232,7 @@ populateTable
 (
 )
 ;
-await
+yield
 testMouseInteraction
 (
 )
@@ -238,6 +242,7 @@ endTests
 )
 ;
 }
+)
 ;
 function
 populateTable
@@ -583,8 +588,12 @@ defaultView
 var
 testMouseInteraction
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -691,7 +700,7 @@ firstColumnFirstRowCell
 let
 id
 =
-await
+yield
 event
 ;
 ok
@@ -809,7 +818,7 @@ firstColumnSecondRowCell
 ;
 id
 =
-await
+yield
 event
 ;
 ok
@@ -994,7 +1003,7 @@ firstColumnThirdRowCellInnerNode
 ;
 id
 =
-await
+yield
 event
 ;
 ok
@@ -1170,7 +1179,7 @@ node
 ;
 id
 =
-await
+yield
 event
 ;
 is
@@ -1303,7 +1312,7 @@ node
 2
 )
 ;
-await
+yield
 onPopupShown
 ;
 is
@@ -1468,10 +1477,10 @@ node
 ;
 id
 =
-await
+yield
 event
 ;
-await
+yield
 onPopupHidden
 ;
 is
@@ -1564,7 +1573,7 @@ node
 2
 )
 ;
-await
+yield
 onPopupShown
 ;
 is
@@ -1687,10 +1696,10 @@ node
 ;
 id
 =
-await
+yield
 event
 ;
-await
+yield
 onPopupHidden
 ;
 is
@@ -1783,7 +1792,7 @@ node
 2
 )
 ;
-await
+yield
 onPopupShown
 ;
 is
@@ -2001,10 +2010,10 @@ node
 ;
 id
 =
-await
+yield
 event
 ;
-await
+yield
 onPopupHidden
 ;
 is
@@ -2096,7 +2105,7 @@ node
 2
 )
 ;
-await
+yield
 onPopupShown
 ;
 onPopupHidden
@@ -2194,10 +2203,10 @@ node
 ;
 id
 =
-await
+yield
 event
 ;
-await
+yield
 onPopupHidden
 ;
 is
@@ -2262,4 +2271,5 @@ col1
 )
 ;
 }
+)
 ;

@@ -60,8 +60,8 @@ n
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -76,13 +76,13 @@ started
 "
 )
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
 )
 ;
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -93,7 +93,7 @@ rawdata
 let
 text
 =
-await
+yield
 getElementText
 (
 "
@@ -126,7 +126,7 @@ gBrowser
 .
 selectedBrowser
 ;
-await
+yield
 waitForClipboardPromise
 (
 function
@@ -156,7 +156,7 @@ browser
 jsonText
 )
 ;
-await
+yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -178,7 +178,7 @@ browser
 let
 prettyText
 =
-await
+yield
 getElementText
 (
 "
@@ -214,7 +214,7 @@ displayed
 "
 )
 ;
-await
+yield
 waitForClipboardPromise
 (
 function

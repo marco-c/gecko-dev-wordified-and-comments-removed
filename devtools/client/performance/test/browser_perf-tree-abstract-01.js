@@ -77,8 +77,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -104,7 +104,7 @@ vbox
 "
 )
 ;
-await
+yield
 appendAndWaitForPaint
 (
 gBrowser
@@ -393,7 +393,7 @@ let
 eventItem
 ]
 =
-await
+yield
 receivedExpandEvent
 ;
 is
@@ -416,7 +416,7 @@ correct
 "
 )
 ;
-await
+yield
 receivedFocusEvent
 ;
 is
@@ -867,7 +867,7 @@ target
 eventItem
 ]
 =
-await
+yield
 receivedFocusEvent
 ;
 is
@@ -949,7 +949,7 @@ target
 eventItem
 ]
 =
-await
+yield
 receivedExpandEvent
 ;
 is
@@ -972,7 +972,7 @@ correct
 "
 )
 ;
-await
+yield
 receivedFocusEvent
 ;
 is

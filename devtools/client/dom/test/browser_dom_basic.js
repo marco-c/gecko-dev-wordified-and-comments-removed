@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -37,13 +37,13 @@ let
 panel
 }
 =
-await
+yield
 addTestTab
 (
 TEST_PAGE_URL
 )
 ;
-await
+yield
 expandRow
 (
 panel

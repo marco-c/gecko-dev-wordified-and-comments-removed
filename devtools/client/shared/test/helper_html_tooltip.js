@@ -3,8 +3,8 @@ use
 strict
 "
 ;
-async
 function
+*
 showTooltip
 (
 tooltip
@@ -43,7 +43,7 @@ y
 }
 )
 ;
-await
+yield
 onShown
 ;
 return
@@ -53,8 +53,8 @@ tooltip
 )
 ;
 }
-async
 function
+*
 hideTooltip
 (
 tooltip
@@ -78,7 +78,7 @@ hide
 (
 )
 ;
-await
+yield
 onPopupHidden
 ;
 return

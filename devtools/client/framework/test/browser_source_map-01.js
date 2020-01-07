@@ -86,12 +86,12 @@ coffee
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 pushPref
 (
 "
@@ -111,7 +111,7 @@ true
 const
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 PAGE_URL
@@ -136,13 +136,13 @@ toolbox
 JS_URL
 )
 ;
-await
+yield
 createScript
 (
 JS_URL
 )
 ;
-await
+yield
 sourceSeen
 ;
 let
@@ -160,7 +160,7 @@ line
 let
 newLoc1
 =
-await
+yield
 service
 .
 originalPositionFor
@@ -198,7 +198,7 @@ column
 let
 newLoc2
 =
-await
+yield
 service
 .
 originalPositionFor
@@ -220,7 +220,7 @@ loc2
 newLoc2
 )
 ;
-await
+yield
 toolbox
 .
 destroy

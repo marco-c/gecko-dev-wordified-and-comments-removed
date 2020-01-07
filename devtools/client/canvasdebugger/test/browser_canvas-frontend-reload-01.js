@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -45,7 +45,7 @@ reload
 target
 )
 ;
-await
+yield
 reset
 ;
 ok
@@ -66,7 +66,7 @@ clicked
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -500,7 +500,7 @@ hidden
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

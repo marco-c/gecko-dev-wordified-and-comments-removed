@@ -149,8 +149,8 @@ _
 }
 add_task
 (
-async
 function
+*
 testWebExtensionsToolboxSwitchToPopup
 (
 )
@@ -302,7 +302,7 @@ document
 debugBtn
 }
 =
-await
+yield
 setupTestAboutDebuggingWebExtension
 (
 ADDON_NAME
@@ -856,7 +856,7 @@ click
 (
 )
 ;
-await
+yield
 onReadyForOpenPopup
 ;
 let
@@ -921,7 +921,7 @@ button
 let
 args
 =
-await
+yield
 onPopupCustomMessage
 ;
 ok
@@ -985,7 +985,7 @@ API
 "
 )
 ;
-await
+yield
 onToolboxClose
 ;
 ok
@@ -998,7 +998,7 @@ closed
 "
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -1012,7 +1012,7 @@ ADDON_NAME
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

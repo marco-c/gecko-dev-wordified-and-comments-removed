@@ -26,8 +26,8 @@ COL_NO
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -36,7 +36,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -70,7 +70,7 @@ editor
 "
 )
 ;
-await
+yield
 ui
 .
 selectStyleSheet
@@ -87,7 +87,7 @@ LINE_NO
 COL_NO
 )
 ;
-await
+yield
 reloadPageAndWaitForStyleSheets
 (
 ui
@@ -125,7 +125,7 @@ ready
 "
 )
 ;
-await
+yield
 ui
 .
 editors

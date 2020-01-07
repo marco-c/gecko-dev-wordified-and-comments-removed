@@ -1,7 +1,7 @@
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 AUTOMATION_URL
@@ -81,7 +81,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -128,7 +128,7 @@ nodeIds
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
@@ -252,7 +252,7 @@ nodeIds
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
@@ -376,7 +376,7 @@ nodeIds
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
@@ -489,7 +489,7 @@ visible
 "
 )
 ;
-await
+yield
 teardown
 (
 target

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -24,7 +24,7 @@ html
 "
 )
 ;
-await
+yield
 selectTreeItem
 (
 [
@@ -45,7 +45,7 @@ org
 ]
 )
 ;
-await
+yield
 editCell
 (
 "
@@ -59,7 +59,7 @@ newTestLS1
 "
 )
 ;
-await
+yield
 editCell
 (
 "
@@ -73,7 +73,7 @@ newValueLS1
 "
 )
 ;
-await
+yield
 editCell
 (
 "
@@ -87,7 +87,7 @@ newTestLS3
 "
 )
 ;
-await
+yield
 editCell
 (
 "
@@ -101,7 +101,7 @@ newValueLS3
 "
 )
 ;
-await
+yield
 editCell
 (
 "
@@ -115,7 +115,7 @@ newTestLS5
 "
 )
 ;
-await
+yield
 editCell
 (
 "
@@ -129,7 +129,7 @@ newValueLS5
 "
 )
 ;
-await
+yield
 finishTests
 (
 )

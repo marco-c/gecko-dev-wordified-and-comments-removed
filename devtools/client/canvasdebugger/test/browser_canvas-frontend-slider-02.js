@@ -1,5 +1,5 @@
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -29,7 +29,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
@@ -74,7 +74,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 promise
 .
 all
@@ -99,7 +99,7 @@ getItemAtIndex
 let
 firstSnapshotOverview
 =
-await
+yield
 firstSnapshot
 .
 attachment
@@ -162,7 +162,7 @@ value
 let
 thumbnailPixels
 =
-await
+yield
 thumbnailImageElementSet
 ;
 ok
@@ -193,7 +193,7 @@ background
 "
 )
 ;
-await
+yield
 once
 (
 window
@@ -245,7 +245,7 @@ value
 ;
 thumbnailPixels
 =
-await
+yield
 thumbnailImageElementSet
 ;
 ok
@@ -276,7 +276,7 @@ background
 "
 )
 ;
-await
+yield
 once
 (
 window
@@ -328,7 +328,7 @@ value
 ;
 thumbnailPixels
 =
-await
+yield
 thumbnailImageElementSet
 ;
 ok
@@ -359,7 +359,7 @@ background
 "
 )
 ;
-await
+yield
 once
 (
 window
@@ -411,7 +411,7 @@ value
 ;
 thumbnailPixels
 =
-await
+yield
 thumbnailImageElementSet
 ;
 ok
@@ -442,7 +442,7 @@ background
 "
 )
 ;
-await
+yield
 once
 (
 window
@@ -494,7 +494,7 @@ value
 ;
 thumbnailPixels
 =
-await
+yield
 thumbnailImageElementSet
 ;
 ok
@@ -525,7 +525,7 @@ background
 "
 )
 ;
-await
+yield
 once
 (
 window
@@ -555,7 +555,7 @@ index
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

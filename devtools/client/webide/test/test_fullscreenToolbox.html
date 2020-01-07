@@ -234,16 +234,19 @@ waitForExplicitFinish
 (
 )
 ;
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
 let
 win
 =
-await
+yield
 openWebIDE
 (
 )
@@ -288,7 +291,7 @@ docRuntime
 Select
 main
 process
-await
+yield
 waitForUpdate
 (
 win
@@ -336,7 +339,7 @@ click
 }
 )
 ;
-await
+yield
 waitForUpdate
 (
 win
@@ -359,7 +362,7 @@ exists
 "
 )
 ;
-await
+yield
 win
 .
 UI
@@ -427,7 +430,7 @@ fullscreen
 "
 )
 ;
-await
+yield
 win
 .
 Cmds
@@ -436,7 +439,7 @@ disconnectRuntime
 (
 )
 ;
-await
+yield
 closeWebIDE
 (
 win
@@ -455,8 +458,6 @@ finish
 )
 ;
 }
-)
-(
 )
 ;
 }

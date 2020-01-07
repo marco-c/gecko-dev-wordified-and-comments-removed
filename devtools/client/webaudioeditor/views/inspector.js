@@ -392,8 +392,14 @@ splitter
 null
 ;
 }
-async
 setCurrentAudioNode
+:
+Task
+.
+async
+(
+function
+*
 (
 node
 )
@@ -542,6 +548,7 @@ id
 ;
 }
 }
+)
 getCurrentAudioNode
 :
 function

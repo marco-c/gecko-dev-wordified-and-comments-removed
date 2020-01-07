@@ -1,5 +1,5 @@
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -11,7 +11,7 @@ debuggee
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 BLENDED_GEOMETRY_CANVAS_URL
@@ -42,7 +42,7 @@ secondProgramActor
 ]
 ]
 =
-await
+yield
 promise
 .
 all
@@ -65,7 +65,7 @@ SOURCES_SHOWN
 ]
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -94,7 +94,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -146,7 +146,7 @@ click
 (
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -175,7 +175,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -238,7 +238,7 @@ click
 (
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -267,7 +267,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -320,7 +320,7 @@ click
 (
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -349,7 +349,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -412,7 +412,7 @@ click
 (
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -441,7 +441,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -505,7 +505,7 @@ click
 (
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -534,7 +534,7 @@ a
 true
 )
 ;
-await
+yield
 ensurePixelIs
 (
 gFront
@@ -578,7 +578,7 @@ again
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

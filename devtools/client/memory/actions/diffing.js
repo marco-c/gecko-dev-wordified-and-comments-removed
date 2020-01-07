@@ -174,8 +174,8 @@ second
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -380,7 +380,7 @@ report
 parentMap
 }
 =
-await
+yield
 heapWorker
 .
 takeCensusDiff
@@ -495,6 +495,7 @@ heapWorker
 {
 return
 function
+*
 (
 dispatch
 getState
@@ -615,8 +616,8 @@ snapshot
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -653,7 +654,7 @@ snapshot
 )
 )
 ;
-await
+yield
 dispatch
 (
 refreshDiffing

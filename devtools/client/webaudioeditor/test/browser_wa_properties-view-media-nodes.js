@@ -177,8 +177,8 @@ resolve
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -188,7 +188,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 MEDIA_NODES_URL
@@ -239,7 +239,7 @@ MEDIA_PERMISSION
 true
 )
 ;
-await
+yield
 loadFrameScriptUtils
 (
 )
@@ -281,7 +281,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -320,7 +320,7 @@ MediaStreamAudioDestinationNode
 let
 defaults
 =
-await
+yield
 Promise
 .
 all
@@ -370,7 +370,7 @@ i
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
@@ -402,13 +402,13 @@ MEDIA_PERMISSION
 mediaPermissionPref
 )
 ;
-await
+yield
 teardown
 (
 target
 )
 ;
-await
+yield
 waitForDeviceClosed
 (
 )

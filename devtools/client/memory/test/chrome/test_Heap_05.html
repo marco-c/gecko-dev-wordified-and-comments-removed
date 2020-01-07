@@ -158,8 +158,12 @@ window
 .
 onload
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -177,7 +181,7 @@ container
 "
 )
 ;
-await
+yield
 renderComponent
 (
 Heap
@@ -404,7 +408,7 @@ censusState
 SAVED
 }
 ;
-await
+yield
 renderComponent
 (
 Heap
@@ -494,7 +498,7 @@ empty
 Empty
 Diffing
 Report
-await
+yield
 renderComponent
 (
 Heap
@@ -595,7 +599,7 @@ difference
 Empty
 Filtered
 Census
-await
+yield
 renderComponent
 (
 Heap
@@ -730,6 +734,7 @@ finish
 ;
 }
 }
+)
 ;
 <
 /

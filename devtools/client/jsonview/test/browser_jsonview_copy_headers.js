@@ -16,8 +16,8 @@ json
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -31,13 +31,13 @@ started
 "
 )
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
 )
 ;
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -48,7 +48,7 @@ headers
 let
 count
 =
-await
+yield
 getElementCount
 (
 "
@@ -76,7 +76,7 @@ groups
 let
 text
 =
-await
+yield
 getElementText
 (
 "
@@ -109,7 +109,7 @@ gBrowser
 .
 selectedBrowser
 ;
-await
+yield
 waitForClipboardPromise
 (
 function

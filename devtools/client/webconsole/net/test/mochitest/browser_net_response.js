@@ -71,8 +71,8 @@ John
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -94,7 +94,7 @@ let
 hud
 }
 =
-await
+yield
 addTestTab
 (
 TEST_PAGE_URL
@@ -103,7 +103,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-await
+yield
 executeAndInspectXhr
 (
 hud
@@ -122,7 +122,7 @@ TEXT_XHR_URL
 let
 tabBody
 =
-await
+yield
 selectNetInfoTab
 (
 hud
@@ -179,8 +179,8 @@ rendered
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -202,7 +202,7 @@ let
 hud
 }
 =
-await
+yield
 addTestTab
 (
 TEST_PAGE_URL
@@ -211,7 +211,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-await
+yield
 executeAndInspectXhr
 (
 hud
@@ -230,7 +230,7 @@ XML_XHR_URL
 let
 tabBody
 =
-await
+yield
 selectNetInfoTab
 (
 hud
@@ -278,8 +278,8 @@ collapsed
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -301,7 +301,7 @@ let
 hud
 }
 =
-await
+yield
 addTestTab
 (
 TEST_PAGE_URL
@@ -310,7 +310,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-await
+yield
 executeAndInspectXhr
 (
 hud
@@ -329,7 +329,7 @@ JSON_XHR_URL
 let
 tabBody
 =
-await
+yield
 selectNetInfoTab
 (
 hud
