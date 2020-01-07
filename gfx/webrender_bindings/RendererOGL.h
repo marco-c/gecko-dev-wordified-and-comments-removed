@@ -69,7 +69,7 @@ namespace
 layers
 {
 class
-CompositorBridgeParentBase
+CompositorBridgeParent
 ;
 class
 SyncObjectHost
@@ -211,7 +211,7 @@ aRenderer
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 aBridge
 )
@@ -239,7 +239,7 @@ const
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 GetCompositorBridge
 (
@@ -322,7 +322,7 @@ mRenderer
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 mBridge
 ;

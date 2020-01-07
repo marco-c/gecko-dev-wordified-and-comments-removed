@@ -125,7 +125,7 @@ aDocHandle
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 aBridge
 uint32_t
@@ -478,7 +478,7 @@ mUseANGLE
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 mBridge
 ;

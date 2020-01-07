@@ -1023,7 +1023,7 @@ NotifyDidRender
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 aBridge
 wr
