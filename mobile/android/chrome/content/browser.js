@@ -3823,12 +3823,6 @@ function
 (
 )
 {
-InitLater
-(
-(
-)
-=
->
 ChromeUtils
 .
 import
@@ -3846,7 +3840,6 @@ NotificationDB
 .
 jsm
 "
-)
 )
 ;
 InitLater
