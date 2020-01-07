@@ -989,13 +989,6 @@ RuntimeError
 >
 "
 "
-1
->
-"
-"
-trap
-handling
-0
 >
 "
 "
