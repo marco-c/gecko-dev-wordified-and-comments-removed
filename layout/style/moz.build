@@ -564,11 +564,6 @@ ServoStyleSetInlines
 h
 '
 '
-ServoSupportsRule
-.
-h
-'
-'
 ServoTraversalStatistics
 .
 h
@@ -1123,11 +1118,6 @@ cpp
 '
 '
 ServoStyleSet
-.
-cpp
-'
-'
-ServoSupportsRule
 .
 cpp
 '
