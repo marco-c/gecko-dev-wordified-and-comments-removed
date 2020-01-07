@@ -30611,10 +30611,15 @@ NS_OK
 rootElement
 -
 >
-InsertChildAt_Deprecated
+InsertChildBefore
 (
 title
-0
+rootElement
+-
+>
+GetFirstChild
+(
+)
 true
 )
 ;
