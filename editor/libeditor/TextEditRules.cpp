@@ -6444,6 +6444,9 @@ ReplaceData
 mLastStart
 mLastLength
 hiddenText
+IgnoreErrors
+(
+)
 )
 ;
 selection
