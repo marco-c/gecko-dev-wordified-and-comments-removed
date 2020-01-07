@@ -56,9 +56,6 @@ MPL
 .
 *
 /
-#
-ifdef
-WR_VERTEX_SHADER
 /
 /
 Border
@@ -111,6 +108,9 @@ BORDER_STYLE_INSET
 define
 BORDER_STYLE_OUTSET
 9
+#
+ifdef
+WR_VERTEX_SHADER
 struct
 Border
 {

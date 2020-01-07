@@ -1063,12 +1063,10 @@ push_stacking_context
 &
 info
 None
-None
 TransformStyle
 :
 :
 Flat
-None
 MixBlendMode
 :
 :

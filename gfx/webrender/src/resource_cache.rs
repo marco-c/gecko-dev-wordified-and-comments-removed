@@ -3603,6 +3603,16 @@ is_none
 (
 )
 {
+self
+.
+pending_image_requests
+.
+remove
+(
+&
+request
+)
+;
 return
 }
 }
