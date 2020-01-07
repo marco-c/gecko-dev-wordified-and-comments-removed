@@ -7077,6 +7077,7 @@ if
 updateCallback
 )
 {
+await
 updateCallback
 (
 )
