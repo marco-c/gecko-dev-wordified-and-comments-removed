@@ -162,16 +162,17 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -189,7 +190,7 @@ container
 "
 )
 ;
-yield
+await
 renderComponent
 (
 CensusTreeItem
@@ -240,7 +241,7 @@ inverted
 "
 )
 ;
-yield
+await
 renderComponent
 (
 CensusTreeItem
@@ -290,7 +291,7 @@ inverted
 "
 )
 ;
-yield
+await
 renderComponent
 (
 CensusTreeItem
@@ -352,7 +353,7 @@ children
 "
 )
 ;
-yield
+await
 renderComponent
 (
 CensusTreeItem
@@ -452,7 +453,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

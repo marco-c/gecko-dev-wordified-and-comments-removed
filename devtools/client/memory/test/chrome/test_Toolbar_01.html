@@ -154,16 +154,17 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -191,7 +192,7 @@ views
 .
 for
 (
-let
+const
 view
 of
 [
@@ -204,7 +205,7 @@ DOMINATOR_TREE
 ]
 )
 {
-yield
+await
 renderComponent
 (
 Toolbar
@@ -253,7 +254,7 @@ view
 )
 ;
 }
-yield
+await
 renderComponent
 (
 Toolbar
@@ -340,7 +341,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

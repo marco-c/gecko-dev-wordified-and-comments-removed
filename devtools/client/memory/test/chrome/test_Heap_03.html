@@ -154,16 +154,17 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -183,7 +184,7 @@ container
 ;
 for
 (
-let
+const
 state
 of
 [
@@ -196,7 +197,7 @@ FETCHING
 ]
 )
 {
-yield
+await
 renderComponent
 (
 Heap
@@ -287,7 +288,7 @@ state
 }
 for
 (
-let
+const
 state
 of
 [
@@ -300,7 +301,7 @@ INCREMENTAL_FETCHING
 ]
 )
 {
-yield
+await
 renderComponent
 (
 Heap
@@ -388,7 +389,7 @@ state
 )
 ;
 }
-yield
+await
 renderComponent
 (
 Heap
@@ -502,7 +503,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /
