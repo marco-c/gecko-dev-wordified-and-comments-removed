@@ -2866,7 +2866,6 @@ EnumeratedIdVectorToIterator
 (
 cx
 proxy
-0
 props
 )
 ;
@@ -2916,7 +2915,6 @@ EnumeratedIdVectorToIterator
 (
 cx
 proxy
-0
 props
 )
 ;
@@ -2961,7 +2959,6 @@ return
 NewEmptyPropertyIterator
 (
 cx
-0
 )
 ;
 }

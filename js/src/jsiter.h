@@ -247,13 +247,6 @@ next_
 prev_
 )
 ;
-MOZ_ASSERT
-(
-flags
-&
-JSITER_ENUMERATE
-)
-;
 this
 -
 >
@@ -294,13 +287,6 @@ unlink
 (
 )
 {
-MOZ_ASSERT
-(
-flags
-&
-JSITER_ENUMERATE
-)
-;
 next_
 -
 >
@@ -357,8 +343,6 @@ obj
 JSObject
 *
 iterObj
-unsigned
-flags
 uint32_t
 slength
 uint32_t
@@ -573,8 +557,6 @@ JSContext
 cx
 HandleObject
 obj
-unsigned
-flags
 )
 ;
 PropertyIteratorObject
@@ -597,8 +579,6 @@ JSContext
 cx
 HandleObject
 obj
-unsigned
-flags
 AutoIdVector
 &
 props
@@ -611,8 +591,6 @@ NewEmptyPropertyIterator
 JSContext
 *
 cx
-unsigned
-flags
 )
 ;
 JSObject
@@ -622,8 +600,6 @@ ValueToIterator
 JSContext
 *
 cx
-unsigned
-flags
 HandleValue
 vp
 )

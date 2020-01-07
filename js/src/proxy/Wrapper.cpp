@@ -503,7 +503,6 @@ GetIterator
 (
 cx
 target
-0
 )
 ;
 }

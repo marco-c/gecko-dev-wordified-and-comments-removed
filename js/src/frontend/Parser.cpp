@@ -29348,7 +29348,6 @@ headKind
 =
 PNK_FORIN
 )
-{
 stmt
 .
 refineForKind
@@ -29359,14 +29358,7 @@ StatementKind
 ForInLoop
 )
 ;
-iflags
-|
-=
-JSITER_ENUMERATE
-;
-}
 else
-{
 stmt
 .
 refineForKind
@@ -29377,7 +29369,6 @@ StatementKind
 ForOfLoop
 )
 ;
-}
 MUST_MATCH_TOKEN_MOD
 (
 TOK_RP

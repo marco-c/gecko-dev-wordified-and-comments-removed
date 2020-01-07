@@ -12305,10 +12305,6 @@ JSOP_ITER
 return
 jsop_iter
 (
-GET_INT8
-(
-pc
-)
 )
 ;
 case
@@ -68123,8 +68119,6 @@ IonBuilder
 :
 jsop_iter
 (
-uint8_t
-flags
 )
 {
 MDefinition
