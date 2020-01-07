@@ -642,6 +642,11 @@ nsBrowserElement
 h
 '
 '
+PlayPromise
+.
+h
+'
+'
 RadioNodeList
 .
 h
@@ -1073,6 +1078,11 @@ cpp
 '
 '
 nsTextEditorState
+.
+cpp
+'
+'
+PlayPromise
 .
 cpp
 '
