@@ -141,15 +141,6 @@ preferences
 connection
 .
 js
-content
-/
-browser
-/
-preferences
-/
-donottrack
-.
-xul
 *
 content
 /
