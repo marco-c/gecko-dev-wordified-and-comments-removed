@@ -5414,6 +5414,13 @@ titlebar
 -
 buttonbox
 "
+class
+=
+"
+titlebar
+-
+color
+"
 >
 <
 toolbarbutton
@@ -5662,6 +5669,9 @@ class
 chromeclass
 -
 menubar
+titlebar
+-
+color
 "
 customizable
 =
@@ -5810,6 +5820,13 @@ id
 =
 "
 TabsToolbar
+"
+class
+=
+"
+titlebar
+-
+color
 "
 fullscreentoolbar
 =
