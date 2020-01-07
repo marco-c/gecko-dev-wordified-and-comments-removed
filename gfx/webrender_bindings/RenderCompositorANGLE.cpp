@@ -1716,6 +1716,7 @@ HandleDeviceReset
 "
 BeginFrame
 "
+true
 )
 ;
 return
@@ -1807,6 +1808,7 @@ HandleDeviceReset
 "
 SyncObject
 "
+true
 )
 ;
 return

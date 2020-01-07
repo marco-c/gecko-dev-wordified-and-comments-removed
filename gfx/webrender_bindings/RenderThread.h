@@ -535,10 +535,17 @@ const
 char
 *
 aWhere
+bool
+aNotify
 )
 ;
 bool
 IsHandlingDeviceReset
+(
+)
+;
+void
+SimulateDeviceReset
 (
 )
 ;
