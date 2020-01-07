@@ -4661,6 +4661,9 @@ channel
 URI
 .
 spec
+headersSize
+:
+null
 hostname
 :
 channel
