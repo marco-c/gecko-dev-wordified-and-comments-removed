@@ -23994,7 +23994,7 @@ case
 VK_PROCESSKEY
 :
 return
-0
+NS_VK_PROCESSKEY
 ;
 case
 VK_PACKET
