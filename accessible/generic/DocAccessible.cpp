@@ -1509,9 +1509,12 @@ GetFocusManager
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+dom
+:
+:
+Element
 >
 newFocus
 ;

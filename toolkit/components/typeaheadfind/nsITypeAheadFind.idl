@@ -895,7 +895,7 @@ words
 only
 readonly
 attribute
-nsIDOMElement
+Element
 foundLink
 ;
 /

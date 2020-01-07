@@ -1649,9 +1649,9 @@ FLAG_NOSCROLL
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 result
 ;

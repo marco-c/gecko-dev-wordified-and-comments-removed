@@ -894,14 +894,14 @@ process
 .
 *
 /
-nsIDOMElement
+Element
 moveFocus
 (
 in
 mozIDOMWindowProxy
 aWindow
 in
-nsIDOMElement
+Element
 aStartElement
 in
 unsigned

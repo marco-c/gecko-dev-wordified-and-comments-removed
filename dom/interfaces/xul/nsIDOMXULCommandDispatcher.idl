@@ -198,7 +198,7 @@ void
 advanceFocusIntoSubtree
 (
 in
-nsIDOMElement
+Element
 elt
 )
 ;

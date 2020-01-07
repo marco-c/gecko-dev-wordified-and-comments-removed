@@ -13488,9 +13488,9 @@ MOVEFOCUS_FORWARD
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 result
 ;
