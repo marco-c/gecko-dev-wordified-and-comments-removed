@@ -1610,6 +1610,15 @@ aOS
 =
 os
 ;
+if
+(
+mShutdownOccurred
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 Don

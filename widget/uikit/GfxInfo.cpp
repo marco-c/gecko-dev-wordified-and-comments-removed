@@ -489,6 +489,15 @@ Ios
 ;
 if
 (
+mShutdownOccurred
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 aFeature
 =
 =

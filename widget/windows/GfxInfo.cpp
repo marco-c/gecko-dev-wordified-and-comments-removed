@@ -8368,6 +8368,15 @@ os
 ;
 if
 (
+mShutdownOccurred
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 !
 aDriverInfo
 .
