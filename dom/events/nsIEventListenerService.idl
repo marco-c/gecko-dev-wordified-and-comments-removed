@@ -101,9 +101,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMEventListener
-;
-interface
 nsIDOMEventTarget
 ;
 interface
@@ -578,6 +575,9 @@ target
 .
 *
 /
+[
+implicit_jscontext
+]
 void
 addSystemEventListener
 (
@@ -588,7 +588,7 @@ in
 DOMString
 type
 in
-nsIDOMEventListener
+jsval
 listener
 in
 boolean
@@ -612,6 +612,9 @@ target
 .
 *
 /
+[
+implicit_jscontext
+]
 void
 removeSystemEventListener
 (
@@ -622,13 +625,16 @@ in
 DOMString
 type
 in
-nsIDOMEventListener
+jsval
 listener
 in
 boolean
 useCapture
 )
 ;
+[
+implicit_jscontext
+]
 void
 addListenerForAllEvents
 (
@@ -636,7 +642,7 @@ in
 nsIDOMEventTarget
 target
 in
-nsIDOMEventListener
+jsval
 listener
 [
 optional
@@ -658,6 +664,9 @@ boolean
 aSystemEventGroup
 )
 ;
+[
+implicit_jscontext
+]
 void
 removeListenerForAllEvents
 (
@@ -665,7 +674,7 @@ in
 nsIDOMEventTarget
 target
 in
-nsIDOMEventListener
+jsval
 listener
 [
 optional

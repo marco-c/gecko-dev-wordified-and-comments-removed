@@ -6785,7 +6785,7 @@ EventListenerManager
 :
 AddListenerForAllEvents
 (
-nsIDOMEventListener
+EventListener
 *
 aDOMListener
 bool
@@ -6840,7 +6840,7 @@ EventListenerManager
 :
 RemoveListenerForAllEvents
 (
-nsIDOMEventListener
+EventListener
 *
 aDOMListener
 bool
