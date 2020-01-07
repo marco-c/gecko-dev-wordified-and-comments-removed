@@ -596,13 +596,6 @@ FunctionBox
 funbox
 )
 {
-MOZ_TRY
-(
-checkFunctionClosedVars
-(
-)
-)
-;
 TokenPos
 pos
 =
@@ -807,6 +800,13 @@ setHasThisBinding
 )
 ;
 }
+MOZ_TRY
+(
+checkFunctionClosedVars
+(
+)
+)
+;
 BINJS_TRY_DECL
 (
 bindings
