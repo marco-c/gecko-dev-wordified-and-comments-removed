@@ -45365,6 +45365,13 @@ pn
 )
 ;
 }
+static
+const
+size_t
+MinElementsForCopyOnWrite
+=
+5
+;
 if
 (
 emitterMode
@@ -45380,9 +45387,9 @@ pn
 -
 >
 pn_count
-!
+>
 =
-0
+MinElementsForCopyOnWrite
 )
 {
 RootedValue
