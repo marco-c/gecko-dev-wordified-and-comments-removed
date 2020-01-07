@@ -4304,6 +4304,10 @@ MethodKind
 :
 :
 VirtualDestructor
+{
+.
+.
+}
 )
 =
 >
@@ -4343,6 +4347,10 @@ MethodKind
 :
 :
 Virtual
+{
+.
+.
+}
 )
 =
 >

@@ -1975,8 +1975,9 @@ is_opaque
 (
 ctx
 &
-(
-)
+self
+.
+layout
 )
 TypeKind
 :
