@@ -323,6 +323,13 @@ UniqueStacks
 (
 )
 ;
+uniqueStacks
+-
+>
+AdvanceStreamingGeneration
+(
+)
+;
 UniquePtr
 <
 char
@@ -1053,6 +1060,13 @@ MakeUnique
 <
 UniqueStacks
 >
+(
+)
+;
+uniqueStacks
+-
+>
+AdvanceStreamingGeneration
 (
 )
 ;
