@@ -180,6 +180,10 @@ PIPCBlobInputStream
 ;
 include
 protocol
+PLoginReputation
+;
+include
+protocol
 PMedia
 ;
 include
@@ -1530,6 +1534,9 @@ PURLClassifierLocal
 ;
 manages
 PScriptCache
+;
+manages
+PLoginReputation
 ;
 both
 :
@@ -4145,6 +4152,13 @@ URIParams
 uri
 nsCString
 tables
+)
+;
+async
+PLoginReputation
+(
+URIParams
+formURI
 )
 ;
 /

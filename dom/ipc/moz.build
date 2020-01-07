@@ -510,6 +510,11 @@ PFilePicker
 ipdl
 '
 '
+PLoginReputation
+.
+ipdl
+'
+'
 PPluginWidget
 .
 ipdl
