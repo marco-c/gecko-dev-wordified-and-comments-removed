@@ -9151,6 +9151,15 @@ tryAttachStub
 (
 )
 ;
+void
+trackAttached
+(
+const
+char
+*
+name
+)
+;
 }
 ;
 class
