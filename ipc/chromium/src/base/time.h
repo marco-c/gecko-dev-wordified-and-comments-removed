@@ -1348,12 +1348,6 @@ Now
 (
 )
 ;
-static
-TimeTicks
-HighResNow
-(
-)
-;
 bool
 is_null
 (
