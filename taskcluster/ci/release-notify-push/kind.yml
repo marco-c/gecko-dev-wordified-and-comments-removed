@@ -339,9 +339,9 @@ try
 [
 "
 {
-task_def
+config
 [
-metadata
+params
 ]
 [
 owner
