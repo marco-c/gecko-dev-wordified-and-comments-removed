@@ -1594,7 +1594,7 @@ stop
 (
 experimentName
 {
-didResetValue
+resetValue
 :
 false
 reason
