@@ -46401,10 +46401,6 @@ self
 gecko
 v
 .
-get_values
-(
-)
-.
 len
 (
 )
@@ -46425,11 +46421,7 @@ value
 in
 v
 .
-get_values
-(
-)
-.
-into_iter
+iter
 (
 )
 .

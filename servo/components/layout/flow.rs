@@ -4764,10 +4764,6 @@ get_counters
 .
 counter_reset
 .
-get_values
-(
-)
-.
 is_empty
 (
 )
@@ -4781,10 +4777,6 @@ get_counters
 )
 .
 counter_increment
-.
-get_values
-(
-)
 .
 is_empty
 (
