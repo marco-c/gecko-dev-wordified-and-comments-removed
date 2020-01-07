@@ -5134,6 +5134,8 @@ bool
 aIsBackfaceVisible
 PipelineId
 aPipeline
+bool
+aIgnoreMissingPipeline
 )
 {
 wr_dp_push_iframe
@@ -5142,6 +5144,7 @@ mWrState
 aBounds
 aIsBackfaceVisible
 aPipeline
+aIgnoreMissingPipeline
 )
 ;
 }
