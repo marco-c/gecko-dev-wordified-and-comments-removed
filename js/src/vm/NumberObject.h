@@ -7,9 +7,7 @@ vm_NumberObject_h
 #
 include
 "
-builtin
-/
-Number
+jsnum
 .
 h
 "

@@ -55,9 +55,9 @@ h
 #
 include
 "
-util
+vm
 /
-StringBuffer
+ErrorReporting
 .
 h
 "
@@ -66,7 +66,7 @@ include
 "
 vm
 /
-ErrorReporting
+StringBuffer
 .
 h
 "

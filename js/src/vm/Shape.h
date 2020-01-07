@@ -190,7 +190,7 @@ include
 "
 vm
 /
-StringType
+String
 .
 h
 "
@@ -199,7 +199,7 @@ include
 "
 vm
 /
-SymbolType
+Symbol
 .
 h
 "

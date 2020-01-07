@@ -115,7 +115,7 @@ include
 "
 builtin
 /
-Atomics
+AtomicsObject
 .
 h
 "
@@ -356,7 +356,7 @@ include
 "
 vm
 /
-SymbolType
+Symbol
 .
 h
 "

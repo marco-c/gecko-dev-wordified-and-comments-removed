@@ -12,9 +12,9 @@ h
 #
 include
 "
-util
+vm
 /
-StringBuffer
+JSAtom
 .
 h
 "
@@ -23,7 +23,7 @@ include
 "
 vm
 /
-JSAtom
+StringBuffer
 .
 h
 "

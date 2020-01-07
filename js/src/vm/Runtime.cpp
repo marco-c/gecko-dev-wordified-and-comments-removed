@@ -115,9 +115,7 @@ endif
 #
 include
 "
-builtin
-/
-Math
+jsmath
 .
 h
 "

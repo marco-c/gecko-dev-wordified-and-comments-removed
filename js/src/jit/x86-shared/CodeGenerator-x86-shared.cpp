@@ -36,9 +36,7 @@ h
 #
 include
 "
-builtin
-/
-Math
+jsmath
 .
 h
 "

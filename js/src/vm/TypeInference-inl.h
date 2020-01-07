@@ -45,7 +45,7 @@ include
 "
 builtin
 /
-Symbol
+SymbolObject
 .
 h
 "

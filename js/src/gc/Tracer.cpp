@@ -69,15 +69,6 @@ h
 #
 include
 "
-util
-/
-Text
-.
-h
-"
-#
-include
-"
 vm
 /
 JSFunction
@@ -107,7 +98,7 @@ include
 "
 vm
 /
-SymbolType
+Symbol
 .
 h
 "

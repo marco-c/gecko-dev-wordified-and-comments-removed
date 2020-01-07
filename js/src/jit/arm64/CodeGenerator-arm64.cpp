@@ -23,9 +23,7 @@ h
 #
 include
 "
-builtin
-/
-Number
+jsnum
 .
 h
 "

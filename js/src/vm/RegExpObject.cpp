@@ -28,9 +28,7 @@ h
 #
 include
 "
-builtin
-/
-String
+jsstr
 .
 h
 "
@@ -99,15 +97,6 @@ h
 #
 include
 "
-util
-/
-StringBuffer
-.
-h
-"
-#
-include
-"
 vm
 /
 MatchPairs
@@ -128,7 +117,7 @@ include
 "
 vm
 /
-StringType
+StringBuffer
 .
 h
 "
@@ -147,7 +136,7 @@ DEBUG
 #
 include
 "
-util
+vm
 /
 Unicode
 .

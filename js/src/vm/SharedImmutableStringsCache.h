@@ -35,9 +35,7 @@ new
 #
 include
 "
-builtin
-/
-String
+jsstr
 .
 h
 "

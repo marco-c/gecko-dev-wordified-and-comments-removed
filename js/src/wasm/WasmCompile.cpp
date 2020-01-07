@@ -37,15 +37,6 @@ h
 #
 include
 "
-util
-/
-Text
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmBaselineCompile
