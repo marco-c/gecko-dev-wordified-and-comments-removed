@@ -780,6 +780,17 @@ AnimationPhase
 this
 )
 ;
+if
+(
+currentPhase
+=
+=
+mPreviousPhase
+)
+{
+return
+;
+}
 }
 else
 {
