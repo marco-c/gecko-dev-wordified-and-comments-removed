@@ -615,8 +615,8 @@ error
 if
 rc
 and
-not
 rc
+not
 in
 expected_rcs
 :
@@ -1656,14 +1656,17 @@ tup
 [
 0
 ]
+                                             
 result
 .
 test
+                                             
 time
 =
 output
 .
 dt
+                                             
 extra
 =
 getattr

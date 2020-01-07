@@ -779,6 +779,7 @@ input
 py
 PATH_TO_MOZILLA_CENTRAL
 "
+              
 file
 =
 sys

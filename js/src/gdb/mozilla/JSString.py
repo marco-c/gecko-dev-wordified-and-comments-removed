@@ -9,7 +9,6 @@ mozilla
 .
 prettyprinters
 import
-pretty_printer
 ptr_pretty_printer
 try
 :

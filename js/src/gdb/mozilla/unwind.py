@@ -1167,6 +1167,7 @@ script
 None
         
 if
+(
 tag
 =
 =
@@ -1176,6 +1177,7 @@ cache
 .
 CalleeToken_Function
 or
+            
 tag
 =
 =
@@ -1184,6 +1186,7 @@ self
 cache
 .
 CalleeToken_FunctionConstructing
+)
 :
             
 fptr
@@ -2224,8 +2227,8 @@ if
 self
 .
 proc_mappings
-!
-=
+is
+not
 None
 :
             
@@ -3301,6 +3304,7 @@ SENTINEL_REGISTER
 )
             
 except
+Exception
 :
                 
 continue

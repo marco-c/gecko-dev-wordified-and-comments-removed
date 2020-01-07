@@ -1,6 +1,4 @@
 import
-gdb
-import
 mozilla
 .
 prettyprinters

@@ -418,9 +418,9 @@ append
 (
 (
 current_gcFunction
+                                    
 len
 (
-                    
 hazardousGCFunctions
 [
 current_gcFunction
@@ -637,6 +637,7 @@ e
 :
     
 print
+(
 '
 Failed
 :
@@ -647,6 +648,7 @@ s
 str
 (
 e
+)
 )
 print
 (

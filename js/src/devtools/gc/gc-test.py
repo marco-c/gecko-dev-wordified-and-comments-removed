@@ -1,27 +1,16 @@
 import
-datetime
-import
 os
-import
-re
 import
 sys
 import
-traceback
-import
 math
 import
-string
-import
-copy
-import
 json
-import
-subprocess
 from
 subprocess
 import
-*
+Popen
+PIPE
 from
 operator
 import
@@ -749,12 +738,14 @@ KeyError
 :
             
 print
+(
 key
 '
 missing
 from
 baseline
 '
+)
             
 continue
         
@@ -805,16 +796,6 @@ val_getter
 (
 current_result
 )
-        
-fmt
-=
-'
-%
-30s
-:
-%
-s
-'
         
 if
 CTAvg
@@ -933,6 +914,7 @@ slowdown
 )
         
 print
+(
 '
 %
 30s
@@ -945,12 +927,14 @@ s
 key
 result
 )
+)
     
 if
 percent_speedups
 :
         
 print
+(
 '
 Average
 speedup
@@ -965,6 +949,7 @@ speedup
 avg
 (
 percent_speedups
+)
 )
 if
 __name__

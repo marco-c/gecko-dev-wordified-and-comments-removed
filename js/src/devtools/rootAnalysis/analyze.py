@@ -42,6 +42,7 @@ try
     
 execfile
 except
+Exception
 :
     
 def
@@ -126,6 +127,7 @@ get
 sixgill_bin
 '
 )
+                                     
 e
 [
 '
@@ -260,6 +262,7 @@ command
 )
     
 except
+Exception
 :
         
 print
@@ -290,6 +293,7 @@ fragment
 config
             
 except
+Exception
 :
                 
 problems
@@ -2166,6 +2170,9 @@ still
 present
 for
 backwards
+'
+                    
+'
 compatibility
 '
 )
@@ -2289,6 +2296,7 @@ default
 )
     
 except
+Exception
 :
         
 pass
@@ -2559,6 +2567,7 @@ sh
 -
 c
 '
+             
 data
 [
 '

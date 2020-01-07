@@ -1,8 +1,6 @@
 import
 gdb
 import
-os
-import
 re
 import
 sys
@@ -155,8 +153,7 @@ re
 .
 MULTILINE
 )
-=
-=
+is
 None
 :
         
@@ -432,6 +429,7 @@ enable_bigint
 =
 True
 except
+Exception
 :
     
 pass

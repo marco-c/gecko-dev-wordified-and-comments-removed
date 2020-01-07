@@ -73,8 +73,6 @@ __future__
 import
 print_function
 import
-re
-import
 sys
 import
 os
@@ -1101,10 +1099,11 @@ h4
 .
 format
 (
+                    
 name
 =
 type_name
-                                                         
+                    
 id
 =
 make_element_id
@@ -1125,12 +1124,12 @@ dl
 )
             
 for
-opcode
+opcode_
 in
 sorted
 (
 opcodes
-                                 
+                                  
 key
 =
 lambda
@@ -1144,7 +1143,7 @@ sort_key
                 
 print_opcode
 (
-opcode
+opcode_
 )
             
 print

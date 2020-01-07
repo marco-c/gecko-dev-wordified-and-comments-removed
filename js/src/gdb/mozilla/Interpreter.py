@@ -329,6 +329,7 @@ tJSOp
 )
         
 except
+Exception
 :
             
 opcode

@@ -7,12 +7,6 @@ subprocess
 import
 sys
 import
-traceback
-from
-threading
-import
-Thread
-import
 progressbar
 from
 taskpool
@@ -1188,6 +1182,7 @@ path
 join
 (
 testlibdir
+                                                                                
 '
 catcher
 .
@@ -2134,6 +2129,9 @@ the
 output
 of
 failed
+'
+                  
+'
 tests
 to
 [

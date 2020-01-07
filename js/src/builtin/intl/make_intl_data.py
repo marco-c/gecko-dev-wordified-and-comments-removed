@@ -1634,6 +1634,7 @@ println
 variantMappings
 redundantMappings
 extlangMappings
+                          
 description
 fileDate
 url
@@ -1941,7 +1942,7 @@ tag
 .
 format
 (
-key
+subtag
 )
             
 yield
@@ -2337,6 +2338,7 @@ variants
 .
 format
 (
+                        
 subtag
 )
 )
@@ -3323,6 +3325,7 @@ newVariants
 .
 format
 (
+                    
 preferred_subtag
 )
 )
@@ -3490,6 +3493,7 @@ tag_lang
 }
 )
 in
+                
 extlangMappings
 .
 items
@@ -5090,6 +5094,7 @@ z0
 .
 match
 )
+                  
 tzdataDir
 .
 listdir
@@ -6845,7 +6850,6 @@ zone
 target
 for
 (
-        
 zone
 target
 )
@@ -6855,6 +6859,7 @@ zoneinfoLinks
 items
 (
 )
+                     
 if
 zone
 not
@@ -7808,13 +7813,13 @@ for
 zone
 target
 )
-         
 in
 ianaLinks
 .
 items
 (
 )
+         
 if
 isICULink
 (
@@ -11189,6 +11194,7 @@ Firefox
 .
 format
 (
+                
 randint
 (
 1
@@ -11557,6 +11563,9 @@ subtag
 registry
 .
 txt
+"
+                             
+"
 (
 default
 :

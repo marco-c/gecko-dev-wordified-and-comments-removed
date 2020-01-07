@@ -281,16 +281,12 @@ gdb
 .
 unwinder
         
-import
-gdb
-.
-frames
-        
 do_unwinder_test
 (
 )
     
 except
+Exception
 :
         
 pass

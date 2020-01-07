@@ -103,12 +103,6 @@ literal
 "
     
 "
-json
--
-superset
-"
-    
-"
 Intl
 .
 Locale
@@ -1023,6 +1017,7 @@ utf
 8
 "
 )
+                                         
 includeFile
 .
 read
@@ -1668,6 +1663,7 @@ FEATURE_CHECK_NEEDED
 [
 f
 ]
+                                                 
 for
 f
 in
@@ -1689,6 +1685,7 @@ unconditionally
 .
 join
 (
+                                          
 featureCheckNeeded
 )
 )
@@ -2265,6 +2262,7 @@ path
 join
 (
 test262OutDir
+                                                                               
 relPath
 )
 )
@@ -2419,6 +2417,7 @@ convertTestFile
 test262parser
 testSource
 testName
+                                                            
 includeSet
 strictTests
 )
@@ -2626,7 +2625,11 @@ importing
 files
 .
 \
-nCurrent
+n
+"
+            
+"
+Current
 status
 :
 \
@@ -4266,6 +4269,9 @@ will
 be
 removed
 !
+"
+                        
+"
 (
 default
 :
@@ -4282,12 +4288,12 @@ parser
 .
 add_argument
 (
-        
 "
 -
 -
 pull
 "
+                        
 help
 =
 "
@@ -4308,12 +4314,12 @@ parser
 .
 add_argument
 (
-        
 "
 -
 -
 local
 "
+                        
 help
 =
 "
@@ -4329,6 +4335,9 @@ folder
 a
 new
 folder
+"
+                        
+"
 will
 be
 created

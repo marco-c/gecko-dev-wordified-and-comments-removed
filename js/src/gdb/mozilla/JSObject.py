@@ -5,10 +5,6 @@ gdb
 import
 mozilla
 .
-JSString
-import
-mozilla
-.
 prettyprinters
 as
 prettyprinters

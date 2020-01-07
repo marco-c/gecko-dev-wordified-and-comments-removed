@@ -231,7 +231,7 @@ self
 next_pending
 :
                     
-t
+task
 =
 self
 .
@@ -241,7 +241,7 @@ p
 =
 Popen
 (
-t
+task
 .
 cmd
 (
@@ -329,7 +329,7 @@ os
 O_NONBLOCK
 )
                     
-t
+task
 .
 start
 (
@@ -349,7 +349,7 @@ running
 .
 add
 (
-t
+task
 )
                     
 self
@@ -444,6 +444,7 @@ stdouts_and_stderrs
 ]
 [
 ]
+                                                 
 secs_to_next_deadline
 )
                 

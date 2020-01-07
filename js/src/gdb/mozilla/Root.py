@@ -7,7 +7,6 @@ mozilla
 .
 prettyprinters
 import
-pretty_printer
 template_pretty_printer
 mozilla
 .

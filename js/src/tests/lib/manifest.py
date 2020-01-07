@@ -341,8 +341,7 @@ break
         
 if
 path
-=
-=
+is
 None
 :
             
@@ -2993,15 +2992,6 @@ join
 (
 location
 filename
-)
-        
-statbuf
-=
-os
-.
-stat
-(
-fullpath
 )
         
 testcase

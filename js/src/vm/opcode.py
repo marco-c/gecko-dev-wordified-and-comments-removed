@@ -4,8 +4,6 @@ import
 print_function
 import
 re
-import
-sys
 from
 xml
 .
