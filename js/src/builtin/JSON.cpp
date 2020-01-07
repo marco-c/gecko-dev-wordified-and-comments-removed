@@ -1,7 +1,9 @@
 #
 include
 "
-json
+builtin
+/
+JSON
 .
 h
 "

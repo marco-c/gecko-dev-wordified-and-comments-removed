@@ -308,11 +308,6 @@ jsnum
 *
 '
 '
-json
-.
-*
-'
-'
 jsstr
 .
 *
@@ -1314,6 +1309,13 @@ cpp
 '
 builtin
 /
+JSON
+.
+cpp
+'
+'
+builtin
+/
 MapObject
 .
 cpp
@@ -2239,11 +2241,6 @@ cpp
 '
 '
 jsnum
-.
-cpp
-'
-'
-json
 .
 cpp
 '
