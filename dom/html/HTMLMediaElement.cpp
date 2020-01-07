@@ -29524,7 +29524,7 @@ MOZ_WIDGET_ANDROID
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchChromeEvent
 (
 OwnerDoc
 (
