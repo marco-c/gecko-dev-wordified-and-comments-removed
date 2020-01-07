@@ -184,6 +184,7 @@ InitMemoryReporter
 void
 RegisterXPTHeader
 (
+const
 XPTHeader
 *
 aHeader

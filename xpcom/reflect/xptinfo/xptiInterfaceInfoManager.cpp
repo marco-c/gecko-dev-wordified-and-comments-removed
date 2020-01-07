@@ -404,6 +404,7 @@ XPTInterfaceInfoManager
 :
 RegisterXPTHeader
 (
+const
 XPTHeader
 *
 aHeader
