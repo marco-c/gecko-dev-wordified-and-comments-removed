@@ -416,5 +416,10 @@ attribute
 jsval
 PluralRules
 ;
+readonly
+attribute
+jsval
+RelativeTimeFormat
+;
 }
 ;
