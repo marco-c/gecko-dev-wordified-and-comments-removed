@@ -436,6 +436,13 @@ long
 type
 )
 ;
+boolean
+isIgnorableWhitespace
+(
+CharacterData
+dataNode
+)
+;
 }
 ;
 dictionary
