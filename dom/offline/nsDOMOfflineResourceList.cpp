@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
