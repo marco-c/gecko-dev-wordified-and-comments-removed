@@ -224,6 +224,15 @@ void
 aOutInterface
 )
 ;
+static
+HRESULT
+DisconnectRemotesForTarget
+(
+IUnknown
+*
+aTarget
+)
+;
 STDMETHODIMP
 QueryInterface
 (
