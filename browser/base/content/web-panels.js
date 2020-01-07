@@ -285,6 +285,8 @@ webNavigation
 loadURI
 (
 aURI
+Ci
+.
 nsIWebNavigation
 .
 LOAD_FLAGS_NONE
@@ -377,6 +379,8 @@ webNavigation
 loadURI
 (
 cachedurl
+Ci
+.
 nsIWebNavigation
 .
 LOAD_FLAGS_NONE
@@ -421,6 +425,8 @@ webNavigation
 .
 stop
 (
+Ci
+.
 nsIWebNavigation
 .
 STOP_ALL
@@ -442,11 +448,15 @@ sessionHistory
 .
 QueryInterface
 (
+Ci
+.
 nsIWebNavigation
 )
 .
 reload
 (
+Ci
+.
 nsIWebNavigation
 .
 LOAD_FLAGS_NONE
