@@ -133,13 +133,6 @@ b
 ;
 break
 ;
-case
-"
-RU
-"
-:
-break
-;
 }
 if
 (
