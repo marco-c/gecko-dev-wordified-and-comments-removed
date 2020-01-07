@@ -11913,6 +11913,11 @@ NonNegativeLengthOrPercentageOrNormal
 :
 impl_style_coord
 "
+FlexBasis
+"
+:
+impl_style_coord
+"
 Length
 "
 :
@@ -14342,11 +14347,6 @@ SIDES
 %
 impl_split_style_coord
 (
-"
-%
-s
-"
-%
 side
 .
 ident

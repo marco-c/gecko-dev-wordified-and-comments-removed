@@ -3981,6 +3981,14 @@ u32
 ;
 pub
 const
+NS_STYLE_FLEX_BASIS_CONTENT
+:
+u32
+=
+4
+;
+pub
+const
 NS_STYLE_POSITION_STATIC
 :
 u32
