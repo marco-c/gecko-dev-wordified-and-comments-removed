@@ -683,6 +683,14 @@ false
 "
 extensions
 .
+showMismatchUI
+"
+false
+]
+[
+"
+extensions
+.
 update
 .
 enabled
