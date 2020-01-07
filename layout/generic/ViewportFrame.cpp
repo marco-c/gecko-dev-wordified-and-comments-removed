@@ -267,10 +267,11 @@ nsDisplayWrapList
 *
 wrapList
 =
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayWrapList
->
 (
 aBuilder
 this

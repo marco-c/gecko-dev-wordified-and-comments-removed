@@ -381,10 +381,11 @@ Content
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayEventReceiver
->
 (
 aBuilder
 this

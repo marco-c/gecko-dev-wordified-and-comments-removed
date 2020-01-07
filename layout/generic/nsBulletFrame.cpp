@@ -3742,10 +3742,11 @@ Content
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayBullet
->
 (
 aBuilder
 this

@@ -734,10 +734,11 @@ BorderBackground
 >
 AppendToBottom
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplaySolidColor
->
 (
 aBuilder
 this
