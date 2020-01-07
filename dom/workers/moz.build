@@ -124,6 +124,11 @@ SharedWorker
 h
 '
 '
+WorkerLoadInfo
+.
+h
+'
+'
 WorkerLocation
 .
 h
@@ -176,11 +181,6 @@ h
 '
 '
 WorkerDebuggerManager
-.
-h
-'
-'
-WorkerLoadInfo
 .
 h
 '
@@ -290,6 +290,11 @@ cpp
 '
 '
 WorkerError
+.
+cpp
+'
+'
+WorkerEventTarget
 .
 cpp
 '

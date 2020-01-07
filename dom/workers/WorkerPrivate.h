@@ -133,6 +133,9 @@ class
 WorkerErrorReport
 ;
 class
+WorkerEventTarget
+;
+class
 WorkerGlobalScope
 ;
 struct
@@ -149,9 +152,6 @@ WorkerControlRunnable
 ;
 class
 WorkerDebugger
-;
-class
-WorkerEventTarget
 ;
 class
 WorkerRunnable
