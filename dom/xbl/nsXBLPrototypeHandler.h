@@ -88,9 +88,6 @@ class
 nsIDOMUIEvent
 ;
 class
-nsIDOMKeyEvent
-;
-class
 nsIDOMMouseEvent
 ;
 class
@@ -116,6 +113,9 @@ AutoJSAPI
 ;
 class
 EventTarget
+;
+class
+KeyboardEvent
 ;
 }
 namespace
@@ -371,7 +371,13 @@ aEventType
 bool
 KeyEventMatched
 (
-nsIDOMKeyEvent
+mozilla
+:
+:
+dom
+:
+:
+KeyboardEvent
 *
 aKeyEvent
 uint32_t

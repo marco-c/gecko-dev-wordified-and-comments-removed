@@ -45,9 +45,6 @@ class
 nsIDOMElement
 ;
 class
-nsIDOMKeyEvent
-;
-class
 nsXBLPrototypeHandler
 ;
 namespace
@@ -70,6 +67,9 @@ Element
 ;
 class
 EventTarget
+;
+class
+KeyboardEvent
 ;
 }
 }
@@ -102,6 +102,16 @@ layers
 :
 KeyboardMap
 KeyboardMap
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+KeyboardEvent
+KeyboardEvent
 ;
 public
 :
@@ -156,7 +166,7 @@ nsXBLWindowKeyHandler
 nsresult
 WalkHandlers
 (
-nsIDOMKeyEvent
+KeyboardEvent
 *
 aKeyEvent
 nsAtom
@@ -167,7 +177,7 @@ aEventType
 bool
 WalkHandlersInternal
 (
-nsIDOMKeyEvent
+KeyboardEvent
 *
 aKeyEvent
 nsAtom
@@ -188,7 +198,7 @@ nullptr
 bool
 WalkHandlersAndExecute
 (
-nsIDOMKeyEvent
+KeyboardEvent
 *
 aKeyEvent
 nsAtom
@@ -215,7 +225,7 @@ nullptr
 void
 HandleEventOnCaptureInDefaultEventGroup
 (
-nsIDOMKeyEvent
+KeyboardEvent
 *
 aEvent
 )
@@ -223,7 +233,7 @@ aEvent
 void
 HandleEventOnCaptureInSystemEventGroup
 (
-nsIDOMKeyEvent
+KeyboardEvent
 *
 aEvent
 )
@@ -231,7 +241,7 @@ aEvent
 bool
 HasHandlerForEvent
 (
-nsIDOMKeyEvent
+KeyboardEvent
 *
 aEvent
 bool

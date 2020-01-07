@@ -144,6 +144,9 @@ class
 ExtendableEvent
 ;
 class
+KeyboardEvent
+;
+class
 TimeEvent
 ;
 class
@@ -428,6 +431,17 @@ virtual
 BeforeUnloadEvent
 *
 AsBeforeUnloadEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+KeyboardEvent
+*
+AsKeyboardEvent
 (
 )
 {
