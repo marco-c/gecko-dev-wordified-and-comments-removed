@@ -5586,6 +5586,10 @@ flags
 '
 required_for_compile
 '
+        
+'
+localized
+'
     
 )
     
@@ -5602,6 +5606,9 @@ flags
 =
 (
 )
+localized
+=
+False
 )
 :
         
@@ -5652,6 +5659,12 @@ self
 flags
 =
 flags
+        
+self
+.
+localized
+=
+localized
         
 suffixes
 =
