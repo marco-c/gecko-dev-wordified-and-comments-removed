@@ -56,6 +56,12 @@ XPCShell
 "
 )
 ;
+AddonTestUtils
+.
+initializeURLPreloader
+(
+)
+;
 await
 promiseStartupManager
 (

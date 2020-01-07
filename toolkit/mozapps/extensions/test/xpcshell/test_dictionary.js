@@ -28,6 +28,17 @@ XMLHttpRequest
 ]
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+spellCheck
+is
+undefined
+/
+)
+;
 Services
 .
 prefs
