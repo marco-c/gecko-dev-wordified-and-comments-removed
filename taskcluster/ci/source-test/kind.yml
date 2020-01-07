@@ -133,6 +133,12 @@ yml
 webidl
 .
 yml
+-
+manifest
+-
+upload
+.
+yml
 #
 This
 is
