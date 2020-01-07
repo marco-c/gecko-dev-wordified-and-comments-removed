@@ -509,9 +509,6 @@ DispatchMemoryPressure
 )
 }
 ;
-#
-ifdef
-MOZ_NATIVE_DEVICES
 template
 <
 class
@@ -691,8 +688,6 @@ RemovePresentationSurface
 )
 }
 ;
-#
-endif
 template
 <
 class

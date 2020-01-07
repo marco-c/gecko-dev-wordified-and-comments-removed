@@ -351,7 +351,7 @@ value
 >
 #
 ifdef
-MOZ_ANDROID_GOOGLE_PLAY_SERVICES
+MOZ_NATIVE_DEVICES
 <
 !
 -
@@ -402,11 +402,6 @@ google_play_services_version
 "
 /
 >
-#
-endif
-#
-ifdef
-MOZ_NATIVE_DEVICES
 <
 service
 android
