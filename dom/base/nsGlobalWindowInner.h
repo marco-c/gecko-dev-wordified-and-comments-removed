@@ -3128,12 +3128,6 @@ IsSecureContext
 )
 const
 ;
-bool
-IsSecureContextIfOpenerIgnored
-(
-)
-const
-;
 void
 GetSidebar
 (
@@ -6918,11 +6912,6 @@ aRequest
 ;
 protected
 :
-bool
-mIsSecureContextIfOpenerIgnored
-:
-1
-;
 bool
 mWasOffline
 :
