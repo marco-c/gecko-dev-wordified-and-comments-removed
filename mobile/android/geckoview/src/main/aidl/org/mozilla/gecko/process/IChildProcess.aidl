@@ -128,4 +128,9 @@ ParcelFileDescriptor
 crashAnnotationPfd
 )
 ;
+void
+crash
+(
+)
+;
 }
