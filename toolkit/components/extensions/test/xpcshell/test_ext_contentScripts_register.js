@@ -2140,11 +2140,6 @@ js
 "
 }
 ]
-runAt
-:
-"
-document_idle
-"
 }
 ]
 ;
