@@ -767,6 +767,7 @@ sessionhistory
 .
 max_total_viewers
 "
+-
 1
 )
 ;
