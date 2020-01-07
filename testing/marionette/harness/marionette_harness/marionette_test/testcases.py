@@ -37,6 +37,8 @@ import
 (
     
 TimeoutException
+    
+UnresponsiveInstanceException
 )
 from
 mozlog
@@ -815,7 +817,12 @@ e
 )
             
 except
+(
 KeyboardInterrupt
+UnresponsiveInstanceException
+)
+as
+e
 :
                 
 raise
@@ -927,7 +934,12 @@ exc_info
 )
                 
 except
+(
 KeyboardInterrupt
+UnresponsiveInstanceException
+)
+as
+e
 :
                     
 raise
@@ -1100,7 +1112,12 @@ tearDown
 )
                 
 except
+(
 KeyboardInterrupt
+UnresponsiveInstanceException
+)
+as
+e
 :
                     
 raise

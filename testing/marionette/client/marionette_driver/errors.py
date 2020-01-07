@@ -768,6 +768,14 @@ status
 unsupported
 operation
 "
+class
+UnresponsiveInstanceException
+(
+Exception
+)
+:
+    
+pass
 es_
 =
 [

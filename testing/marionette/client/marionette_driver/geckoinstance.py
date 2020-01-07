@@ -6,12 +6,18 @@ import
 tempfile
 import
 time
+import
+traceback
 from
 copy
 import
 deepcopy
 import
 mozversion
+from
+mozdevice
+import
+DMError
 from
 mozprofile
 import
@@ -631,6 +637,12 @@ self
 headless
 =
 headless
+        
+self
+.
+unresponsive_count
+=
+0
     
 property
     
@@ -2491,6 +2503,9 @@ device
 connected
 :
             
+try
+:
+                
 self
 .
 runner
@@ -2501,7 +2516,7 @@ dm
 .
 remove_forward
 (
-                
+                    
 "
 tcp
 :
@@ -2514,6 +2529,35 @@ format
 self
 .
 marionette_port
+)
+)
+                
+self
+.
+unresponsive_count
+=
+0
+            
+except
+DMError
+:
+                
+self
+.
+unresponsive_count
++
+=
+1
+                
+traceback
+.
+print_exception
+(
+*
+sys
+.
+exc_info
+(
 )
 )
 class
