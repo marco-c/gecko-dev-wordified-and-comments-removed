@@ -596,6 +596,8 @@ jsreftest
 -
 mochitest
 -
+mochitest
+-
 a11y
 -
 mochitest
