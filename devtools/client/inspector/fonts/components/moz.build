@@ -108,6 +108,11 @@ FontList
 js
 '
 '
+FontMeta
+.
+js
+'
+'
 FontOverview
 .
 js
