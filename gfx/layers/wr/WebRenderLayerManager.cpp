@@ -979,10 +979,6 @@ BeginTransaction
 (
 )
 ;
-DiscardCompositorAnimations
-(
-)
-;
 LayoutDeviceIntSize
 size
 =
@@ -1053,6 +1049,10 @@ aDisplayListBuilder
 mScrollData
 contentSize
 aFilters
+)
+;
+DiscardCompositorAnimations
+(
 )
 ;
 mWidget
