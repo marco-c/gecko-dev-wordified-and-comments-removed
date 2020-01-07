@@ -427,6 +427,9 @@ global
 treeUtils
 .
 js
+#
+ifndef
+MOZ_FENNEC
 content
 /
 global
@@ -434,6 +437,8 @@ global
 viewZoomOverlay
 .
 js
+#
+endif
 content
 /
 global
