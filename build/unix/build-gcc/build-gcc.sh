@@ -12,10 +12,13 @@ set
 x
 make_flags
 =
-'
+"
 -
-j12
-'
+j
+(
+nproc
+)
+"
 .
 data_dir
 /
