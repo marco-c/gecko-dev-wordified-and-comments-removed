@@ -186,7 +186,7 @@ nsIPKCS11Module
 findModuleByName
 (
 in
-AUTF8String
+AString
 name
 )
 ;
