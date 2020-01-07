@@ -900,10 +900,8 @@ CodeOffset
 MacroAssembler
 :
 :
-add32ToPtrWithPatch
+sub32FromStackPtrWithPatch
 (
-Register
-src
 Register
 dest
 )
@@ -913,7 +911,7 @@ MOZ_CRASH
 "
 NYI
 -
-add32ToPtrWithPatch
+sub32FromStackPtrWithPatch
 "
 )
 ;
@@ -922,7 +920,7 @@ void
 MacroAssembler
 :
 :
-patchAdd32ToPtr
+patchSub32FromStackPtr
 (
 CodeOffset
 offset
@@ -935,7 +933,7 @@ MOZ_CRASH
 "
 NYI
 -
-patchAdd32ToPtr
+patchSub32FromStackPtr
 "
 )
 ;

@@ -3162,10 +3162,8 @@ PER_SHARED_ARCH
 ;
 inline
 CodeOffset
-add32ToPtrWithPatch
+sub32FromStackPtrWithPatch
 (
-Register
-src
 Register
 dest
 )
@@ -3173,7 +3171,7 @@ PER_ARCH
 ;
 inline
 void
-patchAdd32ToPtr
+patchSub32FromStackPtr
 (
 CodeOffset
 offset

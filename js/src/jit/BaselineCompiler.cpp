@@ -22199,13 +22199,8 @@ scratchReg
 ;
 masm
 .
-storePtr
+storeStackPtr
 (
-masm
-.
-getStackPointer
-(
-)
 Address
 (
 scratchReg

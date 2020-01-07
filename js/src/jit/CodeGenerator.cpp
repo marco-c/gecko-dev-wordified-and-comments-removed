@@ -51113,13 +51113,8 @@ double
 ;
 masm
 .
-movePtr
+moveStackPtrTo
 (
-masm
-.
-getStackPointer
-(
-)
 params
 )
 ;
