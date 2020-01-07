@@ -1080,6 +1080,18 @@ wptserve
 *
 '
                         
+'
+mozpack
+/
+*
+'
+                        
+'
+mozbuild
+/
+*
+'
+                        
 ]
         
 super

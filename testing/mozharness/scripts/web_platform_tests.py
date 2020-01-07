@@ -2235,6 +2235,18 @@ platform
 /
 *
 "
+                          
+"
+mozpack
+/
+*
+"
+                          
+"
+mozbuild
+/
+*
+"
 ]
             
 suite_categories
