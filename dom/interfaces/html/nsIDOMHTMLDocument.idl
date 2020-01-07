@@ -172,10 +172,6 @@ attribute
 nsISupports
 head
 ;
-attribute
-nsIDOMHTMLElement
-body
-;
 /
 /
 If
