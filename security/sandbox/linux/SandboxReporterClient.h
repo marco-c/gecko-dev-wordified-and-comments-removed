@@ -21,7 +21,6 @@ SandboxReporterClient
 {
 public
 :
-explicit
 SandboxReporterClient
 (
 SandboxReport
@@ -31,8 +30,16 @@ ProcType
 aProcType
 int
 aFd
-=
-kSandboxReporterFileDesc
+)
+;
+explicit
+SandboxReporterClient
+(
+SandboxReport
+:
+:
+ProcType
+aProcType
 )
 ;
 SandboxReport
