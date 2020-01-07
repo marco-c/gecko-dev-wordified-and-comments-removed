@@ -3434,7 +3434,7 @@ manager
 >
 CanMakePayment
 (
-mInternalId
+this
 )
 ;
 if
@@ -3695,7 +3695,7 @@ manager
 >
 ShowPayment
 (
-mInternalId
+this
 )
 ;
 if
@@ -3893,7 +3893,7 @@ PaymentResponse
 GetOwner
 (
 )
-mInternalId
+this
 mId
 aMethodName
 mShippingOption

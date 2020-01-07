@@ -39,6 +39,9 @@ class
 PaymentAddress
 ;
 class
+PaymentRequest
+;
+class
 Promise
 ;
 class
@@ -62,10 +65,9 @@ PaymentResponse
 nsPIDOMWindowInner
 *
 aWindow
-const
-nsAString
-&
-aInternalId
+PaymentRequest
+*
+aRequest
 const
 nsAString
 &
@@ -249,8 +251,9 @@ mOwner
 bool
 mCompleteCalled
 ;
-nsString
-mInternalId
+PaymentRequest
+*
+mRequest
 ;
 nsString
 mRequestId
