@@ -1653,6 +1653,13 @@ isPrivate
 var
 curTest
 ;
+var
+testDone
+=
+SpecialPowers
+.
+wrapCallback
+(
 function
 testDone
 (
@@ -1677,6 +1684,8 @@ resolve
 )
 ;
 }
+)
+;
 mm
 .
 addMessageListener
@@ -1734,6 +1743,10 @@ testRemoteContentPrefs
 :
 fail
 "
+SpecialPowers
+.
+wrapCallback
+(
 function
 (
 msg
@@ -1757,6 +1770,7 @@ finish
 ;
 }
 )
+)
 ;
 mm
 .
@@ -1767,6 +1781,10 @@ testRemoteContentPrefs
 :
 ok
 "
+SpecialPowers
+.
+wrapCallback
+(
 (
 msg
 )
@@ -1792,6 +1810,7 @@ test
 ;
 }
 )
+)
 ;
 mm
 .
@@ -1802,6 +1821,10 @@ testRemoteContentPrefs
 :
 info
 "
+SpecialPowers
+.
+wrapCallback
+(
 (
 msg
 )
@@ -1818,6 +1841,7 @@ note
 )
 ;
 }
+)
 )
 ;
 curTest
@@ -2021,6 +2045,10 @@ testRemoteContentPrefs
 :
 getPref
 "
+SpecialPowers
+.
+wrapCallback
+(
 function
 (
 msg
@@ -2122,6 +2150,7 @@ error
 )
 ;
 }
+)
 )
 ;
 mm
