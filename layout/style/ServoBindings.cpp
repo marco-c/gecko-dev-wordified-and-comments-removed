@@ -12672,6 +12672,13 @@ aLength
 {
 MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
 aElements
 )
 ;
