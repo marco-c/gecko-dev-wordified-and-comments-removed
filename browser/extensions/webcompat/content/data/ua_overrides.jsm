@@ -34,9 +34,9 @@ includes
 "
 webcompat
 -
-ua
+addon
 -
-dummy
+testcases
 .
 schub
 .
