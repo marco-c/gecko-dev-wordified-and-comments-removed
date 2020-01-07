@@ -1104,12 +1104,6 @@ in
 notification_emails
 :
             
-print
-validate_notification_email
-(
-notification_email
-)
-            
 if
 not
 validate_notification_email
