@@ -89,6 +89,10 @@ aPerformanceTiming
 Performance
 *
 aPerformance
+const
+nsAString
+&
+aName
 )
 :
 PerformanceResourceTiming
@@ -98,12 +102,7 @@ Move
 aPerformanceTiming
 )
 aPerformance
-NS_LITERAL_STRING
-(
-"
-document
-"
-)
+aName
 )
 {
 SetEntryType
