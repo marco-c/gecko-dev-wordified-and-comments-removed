@@ -660,6 +660,7 @@ EditorDOMPoint
 aInsertToBreak
 )
 ;
+MOZ_MUST_USE
 nsresult
 SplitMailCites
 (
