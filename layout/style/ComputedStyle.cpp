@@ -414,6 +414,11 @@ uint32_t
 aEqualStructs
 )
 {
+MOZ_ASSERT
+(
+aNewContext
+)
+;
 AUTO_PROFILER_LABEL
 (
 "
@@ -451,12 +456,6 @@ hint
 nsChangeHint
 (
 0
-)
-;
-NS_ENSURE_TRUE
-(
-aNewContext
-hint
 )
 ;
 DebugOnly
@@ -1148,6 +1147,7 @@ ThreadsafeStyleDisplay
 >
 IsAbsPosContainingBlockForAppropriateFrame
 (
+*
 this
 )
 =
@@ -1162,6 +1162,7 @@ ThreadsafeStyleDisplay
 >
 IsAbsPosContainingBlockForAppropriateFrame
 (
+*
 aNewContext
 )
 &
@@ -1173,6 +1174,7 @@ ThreadsafeStyleDisplay
 >
 IsFixedPosContainingBlockForAppropriateFrame
 (
+*
 this
 )
 =
@@ -1187,6 +1189,7 @@ ThreadsafeStyleDisplay
 >
 IsFixedPosContainingBlockForAppropriateFrame
 (
+*
 aNewContext
 )
 )
