@@ -61,7 +61,12 @@ mozilla
 .
 fennec_
 echo
+{
 USER
+:
+-
+unknown
+}
 |
 sed
 '
@@ -78,7 +83,12 @@ MOZ_APP_DISPLAYNAME
 "
 Fennec
 echo
+{
 USER
+:
+-
+unknown
+}
 |
 sed
 '
