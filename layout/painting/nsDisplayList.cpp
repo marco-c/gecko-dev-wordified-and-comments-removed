@@ -39595,7 +39595,7 @@ nsRect
 aBoundsOverride
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -39612,7 +39612,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 -
@@ -40020,7 +40020,7 @@ Matrix4x4
 aOutMatrix
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -40037,7 +40037,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 -
@@ -40076,7 +40076,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOutMatrix
 .
@@ -44058,7 +44058,7 @@ nsRect
 aBoundsOverride
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -44147,7 +44147,7 @@ nsRect
 aOutRect
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

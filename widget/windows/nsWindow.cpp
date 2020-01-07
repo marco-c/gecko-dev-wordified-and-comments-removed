@@ -4745,10 +4745,12 @@ nsIWidget
 aNewParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewParent
 "
+null
+widget
 "
 )
 ;
