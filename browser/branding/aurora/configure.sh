@@ -55,7 +55,11 @@ MPL
 .
 MOZ_APP_DISPLAYNAME
 =
-FirefoxDeveloperEdition
+"
+Firefox
+Developer
+Edition
+"
 MOZ_APP_REMOTINGNAME
 =
 firefox
