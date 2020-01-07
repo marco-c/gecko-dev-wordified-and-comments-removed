@@ -1981,6 +1981,13 @@ void
 )
 ;
 void
+SetWindowDecoration
+(
+nsBorderStyle
+aStyle
+)
+;
+void
 InitButtonEvent
 (
 mozilla
