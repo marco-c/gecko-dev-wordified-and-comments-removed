@@ -1366,12 +1366,6 @@ SeekTarget
 aTarget
 )
 ;
-virtual
-void
-DownloadProgressed
-(
-)
-;
 void
 NotifyPrincipalChanged
 (
