@@ -137,14 +137,6 @@ Edition
 "
 !
 define
-BrandFullName
-"
-Firefox
-Developer
-Edition
-"
-!
-define
 CompanyName
 "
 mozilla
