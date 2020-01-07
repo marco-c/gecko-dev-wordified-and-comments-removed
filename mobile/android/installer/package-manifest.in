@@ -2077,6 +2077,10 @@ XPIDialogService
 js
 #
 endif
+;
+Remote
+control
+protocol
 #
 ifdef
 ENABLE_MARIONETTE
@@ -2103,6 +2107,15 @@ manifest
 BINPATH
 /
 components
+/
+marionette
+.
+js
+BINPATH
+/
+defaults
+/
+pref
 /
 marionette
 .
