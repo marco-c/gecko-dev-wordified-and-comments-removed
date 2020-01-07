@@ -10478,7 +10478,7 @@ obj_entries
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 is
@@ -10486,6 +10486,7 @@ is
 obj_is
 2
 0
+ObjectIs
 )
 JS_SELF_HOSTED_FN
 (

@@ -184,6 +184,11 @@ Compare
 \
 _
 (
+SameValue
+)
+\
+_
+(
 Phi
 )
 \
