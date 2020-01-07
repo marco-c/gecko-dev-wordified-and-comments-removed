@@ -265,7 +265,6 @@ newSession
 .
 html
 "
-;
 const
 val
 NEW_SESSION_CHILD_HTML_PATH
