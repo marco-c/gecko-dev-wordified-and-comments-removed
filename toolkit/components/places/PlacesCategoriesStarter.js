@@ -216,17 +216,6 @@ telemetry
 break
 ;
 case
-PlacesUtils
-.
-TOPIC_INIT_COMPLETE
-:
-PlacesUtils
-.
-keywords
-;
-break
-;
-case
 "
 idle
 -
