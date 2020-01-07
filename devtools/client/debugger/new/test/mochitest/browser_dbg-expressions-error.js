@@ -167,7 +167,7 @@ togglePauseOnExceptions
 (
 dbg
 true
-false
+true
 )
 ;
 log

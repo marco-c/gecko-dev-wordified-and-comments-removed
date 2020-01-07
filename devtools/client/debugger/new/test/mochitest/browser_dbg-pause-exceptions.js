@@ -104,7 +104,7 @@ togglePauseOnExceptions
 (
 dbg
 true
-false
+true
 )
 ;
 uncaughtException
@@ -219,7 +219,7 @@ togglePauseOnExceptions
 (
 dbg
 true
-true
+false
 )
 ;
 caughtException
