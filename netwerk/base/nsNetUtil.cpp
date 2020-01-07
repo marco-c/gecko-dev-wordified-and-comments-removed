@@ -6463,17 +6463,6 @@ mCount
 =
 writtenData
 ;
-if
-(
-mCount
-=
-=
-0
-)
-{
-break
-;
-}
 }
 continue
 ;
