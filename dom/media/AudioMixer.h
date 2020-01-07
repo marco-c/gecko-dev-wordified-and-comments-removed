@@ -186,10 +186,16 @@ getNext
 )
 )
 {
+MixerCallbackReceiver
+*
+receiver
+=
 cb
 -
 >
 mReceiver
+;
+receiver
 -
 >
 MixerCallback
