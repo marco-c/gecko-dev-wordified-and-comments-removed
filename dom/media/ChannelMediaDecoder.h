@@ -413,6 +413,10 @@ GetStatistics
 bool
 ShouldThrottleDownload
 (
+const
+MediaStatistics
+&
+aStats
 )
 ;
 MediaChannelStatistics
