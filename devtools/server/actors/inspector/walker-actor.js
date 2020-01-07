@@ -1282,15 +1282,6 @@ form
 traits
 :
 {
-autoReleased
-:
-true
-multiFrameQuerySelectorAll
-:
-true
-textSearch
-:
-true
 }
 }
 ;
