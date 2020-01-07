@@ -2034,20 +2034,6 @@ setup_logging
 (
 )
             
-task_group_id
-=
-os
-.
-environ
-.
-get
-(
-'
-ACTION_TASK_GROUP_ID
-'
-None
-)
-            
 task_id
 =
 json
@@ -2067,6 +2053,20 @@ ACTION_TASK_ID
 null
 '
 )
+)
+            
+task_group_id
+=
+os
+.
+environ
+.
+get
+(
+'
+ACTION_TASK_GROUP_ID
+'
+None
 )
             
 input
