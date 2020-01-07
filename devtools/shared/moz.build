@@ -393,15 +393,6 @@ Loader
 jsm
 '
 '
-old
--
-event
--
-emitter
-.
-js
-'
-'
 Parser
 .
 jsm
