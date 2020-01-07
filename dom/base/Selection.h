@@ -1556,6 +1556,13 @@ nsIContent
 aLimiter
 )
 ;
+void
+SetCanCacheFrameOffset
+(
+bool
+aCanCacheFrameOffset
+)
+;
 private
 :
 friend
