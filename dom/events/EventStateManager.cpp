@@ -285,13 +285,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULControlElement
 .
 h

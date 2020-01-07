@@ -7,13 +7,6 @@ mozilla_dom_HTMLSlotElement_h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

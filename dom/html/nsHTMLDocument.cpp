@@ -343,13 +343,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

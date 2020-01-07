@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

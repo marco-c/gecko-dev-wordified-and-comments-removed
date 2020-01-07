@@ -231,9 +231,6 @@ nsIDOMEventListener
 /
 HTML
 interface
-nsIDOMHTMLElement
-;
-interface
 nsIDOMHTMLFormElement
 ;
 interface

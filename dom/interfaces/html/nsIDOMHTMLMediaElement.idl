@@ -115,13 +115,6 @@ MPL
 #
 include
 "
-nsIDOMHTMLElement
-.
-idl
-"
-#
-include
-"
 nsIDOMTimeRanges
 .
 idl
