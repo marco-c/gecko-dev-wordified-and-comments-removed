@@ -127,9 +127,13 @@ add_untested_idls
 (
 '
 [
+SecureContext
 Exposed
 =
-ServiceWorker
+(
+Window
+Worker
+)
 ]
 interface
 ServiceWorkerGlobalScope
