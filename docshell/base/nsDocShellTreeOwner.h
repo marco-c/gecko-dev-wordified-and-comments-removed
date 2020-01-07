@@ -478,6 +478,12 @@ HideTooltip
 (
 )
 ;
+nsITooltipTextProvider
+*
+GetTooltipTextProvider
+(
+)
+;
 nsWebBrowser
 *
 mWebBrowser
