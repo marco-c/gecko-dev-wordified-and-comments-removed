@@ -4046,7 +4046,7 @@ label
 &
 appMenuRemoteTabs
 .
-openprefs
+opensyncprefs
 .
 label
 ;
@@ -4182,6 +4182,11 @@ remotetabs
 instruction
 -
 box
+"
+align
+=
+"
+center
 "
 >
 <
@@ -4715,7 +4720,7 @@ label
 &
 appMenuRemoteTabs
 .
-openprefs
+opensyncprefs
 .
 label
 ;

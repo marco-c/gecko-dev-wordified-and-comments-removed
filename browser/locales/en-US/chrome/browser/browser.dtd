@@ -4180,10 +4180,11 @@ here
 ENTITY
 appMenuRemoteTabs
 .
-openprefs
+opensyncprefs
 .
 label
 "
+Open
 Sync
 Preferences
 "
