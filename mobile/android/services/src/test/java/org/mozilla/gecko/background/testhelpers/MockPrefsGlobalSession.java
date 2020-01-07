@@ -299,15 +299,4 @@ clientsDelegate
 )
 ;
 }
-Override
-public
-Context
-getContext
-(
-)
-{
-return
-null
-;
-}
 }
