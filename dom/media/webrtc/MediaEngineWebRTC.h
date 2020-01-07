@@ -2412,7 +2412,7 @@ bool
 mSkipProcessing
 ;
 MediaEnginePrefs
-mLastPrefs
+mNetPrefs
 ;
 AlignedFloatBuffer
 mOutputBuffer

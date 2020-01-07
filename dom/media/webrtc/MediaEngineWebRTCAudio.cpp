@@ -1085,7 +1085,7 @@ NoIndex
 ;
 ApplySettings
 (
-mLastPrefs
+mNetPrefs
 mAllocations
 [
 i
@@ -2344,7 +2344,7 @@ prefs
 mChannels
 !
 =
-mLastPrefs
+mNetPrefs
 .
 mChannels
 )
@@ -2437,7 +2437,7 @@ channelCount
 0
 &
 &
-mLastPrefs
+mNetPrefs
 .
 mChannels
 >
@@ -2677,7 +2677,7 @@ config
 )
 ;
 }
-mLastPrefs
+mNetPrefs
 =
 prefs
 ;
