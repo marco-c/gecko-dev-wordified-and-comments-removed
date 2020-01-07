@@ -6622,12 +6622,8 @@ mAllowComments
 node
 -
 >
-IsNodeOfType
+IsComment
 (
-nsINode
-:
-:
-eCOMMENT
 )
 )
 {

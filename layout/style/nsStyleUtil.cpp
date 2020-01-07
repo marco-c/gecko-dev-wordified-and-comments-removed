@@ -3836,12 +3836,8 @@ isText
 aChild
 -
 >
-IsNodeOfType
+IsComment
 (
-nsINode
-:
-:
-eCOMMENT
 )
 &
 &
@@ -3925,12 +3921,8 @@ isText
 aChild
 -
 >
-IsNodeOfType
+IsComment
 (
-nsINode
-:
-:
-eCOMMENT
 )
 &
 &

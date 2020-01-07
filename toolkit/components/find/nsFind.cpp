@@ -3422,12 +3422,8 @@ return
 aContent
 -
 >
-IsNodeOfType
+IsComment
 (
-nsINode
-:
-:
-eCOMMENT
 )
 |
 |
@@ -3459,12 +3455,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsComment
 (
-nsINode
-:
-:
-eCOMMENT
 )
 |
 |
