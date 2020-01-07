@@ -2573,19 +2573,6 @@ options
 .
 suite
         
-prefs
-[
-'
-reftest
-.
-runSlower
-'
-]
-=
-options
-.
-runSlower
-        
 if
 tests
 :
