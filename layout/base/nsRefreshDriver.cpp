@@ -7492,6 +7492,10 @@ i
 1
 )
 {
+DispatchScrollEvents
+(
+)
+;
 DispatchAnimationEvents
 (
 )
@@ -7503,10 +7507,6 @@ DispatchPendingEvents
 RunFrameRequestCallbacks
 (
 aNowTime
-)
-;
-DispatchScrollEvents
-(
 )
 ;
 if
