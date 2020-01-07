@@ -2475,7 +2475,6 @@ counter_name
 value
 )
 in
-&
 fragment
 .
 style
@@ -2488,7 +2487,9 @@ get_counters
 .
 counter_reset
 .
-0
+get_values
+(
+)
 {
 let
 counter_name
@@ -2577,7 +2578,6 @@ counter_name
 value
 )
 in
-&
 fragment
 .
 style
@@ -2590,7 +2590,9 @@ get_counters
 .
 counter_increment
 .
-0
+get_values
+(
+)
 {
 let
 counter_name
