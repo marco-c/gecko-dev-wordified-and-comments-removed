@@ -34,9 +34,13 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
-ServoStyleRule
+CSSStyleRule
 ;
+}
 class
 StyleSheet
 ;

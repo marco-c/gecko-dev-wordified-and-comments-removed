@@ -569,11 +569,6 @@ ServoSpecifiedValues
 h
 '
 '
-ServoStyleRule
-.
-h
-'
-'
 ServoStyleSet
 .
 h
@@ -699,6 +694,11 @@ h
 '
 '
 CSSRuleList
+.
+h
+'
+'
+CSSStyleRule
 .
 h
 '
@@ -873,6 +873,11 @@ cpp
 '
 '
 CSSRuleList
+.
+cpp
+'
+'
+CSSStyleRule
 .
 cpp
 '
@@ -1123,11 +1128,6 @@ cpp
 '
 '
 ServoSpecifiedValues
-.
-cpp
-'
-'
-ServoStyleRule
 .
 cpp
 '

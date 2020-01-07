@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-ServoStyleRule
+dom
+/
+CSSStyleRule
 .
 h
 "
@@ -53,10 +55,13 @@ dom
 namespace
 mozilla
 {
-ServoStyleRuleDeclaration
+namespace
+dom
+{
+CSSStyleRuleDeclaration
 :
 :
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 (
 already_AddRefed
 <
@@ -81,11 +86,11 @@ aDecls
 )
 {
 }
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 ~
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 (
 )
 {
@@ -100,7 +105,7 @@ nullptr
 }
 NS_INTERFACE_MAP_BEGIN
 (
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 if
@@ -147,14 +152,14 @@ nsDOMCSSDeclaration
 )
 NS_IMPL_ADDREF_USING_AGGREGATOR
 (
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 Rule
 (
 )
 )
 NS_IMPL_RELEASE_USING_AGGREGATOR
 (
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 Rule
 (
 )
@@ -164,7 +169,7 @@ css
 :
 Rule
 *
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 GetParentRule
@@ -179,7 +184,7 @@ Rule
 }
 nsINode
 *
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 GetParentObject
@@ -199,7 +204,7 @@ GetParentObject
 }
 DeclarationBlock
 *
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 GetCSSDeclaration
@@ -213,7 +218,7 @@ mDecls
 ;
 }
 nsresult
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 SetCSSDeclaration
@@ -223,7 +228,7 @@ DeclarationBlock
 aDecl
 )
 {
-ServoStyleRule
+CSSStyleRule
 *
 rule
 =
@@ -319,7 +324,7 @@ NS_OK
 }
 nsIDocument
 *
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 DocToUpdate
@@ -334,7 +339,7 @@ nsDOMCSSDeclaration
 :
 :
 ParsingEnvironment
-ServoStyleRuleDeclaration
+CSSStyleRuleDeclaration
 :
 :
 GetParsingEnvironment
@@ -354,10 +359,10 @@ Rule
 )
 ;
 }
-ServoStyleRule
+CSSStyleRule
 :
 :
-ServoStyleRule
+CSSStyleRule
 (
 already_AddRefed
 <
@@ -394,7 +399,7 @@ Consume
 }
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (
-ServoStyleRule
+CSSStyleRule
 css
 :
 :
@@ -402,11 +407,11 @@ Rule
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-ServoStyleRule
+CSSStyleRule
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
-ServoStyleRule
+CSSStyleRule
 css
 :
 :
@@ -426,7 +431,7 @@ aClosure
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-ServoStyleRule
+CSSStyleRule
 css
 :
 :
@@ -452,7 +457,7 @@ p
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-ServoStyleRule
+CSSStyleRule
 css
 :
 :
@@ -460,7 +465,7 @@ Rule
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 bool
-ServoStyleRule
+CSSStyleRule
 :
 :
 IsCCLeaf
@@ -493,7 +498,7 @@ PreservingWrapper
 ;
 }
 size_t
-ServoStyleRule
+CSSStyleRule
 :
 :
 SizeOfIncludingThis
@@ -519,7 +524,7 @@ n
 ifdef
 DEBUG
 void
-ServoStyleRule
+CSSStyleRule
 :
 :
 List
@@ -587,7 +592,7 @@ get
 #
 endif
 void
-ServoStyleRule
+CSSStyleRule
 :
 :
 GetCssText
@@ -608,7 +613,7 @@ aCssText
 }
 nsICSSDeclaration
 *
-ServoStyleRule
+CSSStyleRule
 :
 :
 Style
@@ -621,7 +626,7 @@ mDecls
 ;
 }
 void
-ServoStyleRule
+CSSStyleRule
 :
 :
 GetSelectorText
@@ -640,7 +645,7 @@ aSelectorText
 ;
 }
 void
-ServoStyleRule
+CSSStyleRule
 :
 :
 SetSelectorText
@@ -713,7 +718,7 @@ this
 }
 }
 uint32_t
-ServoStyleRule
+CSSStyleRule
 :
 :
 GetSelectorCount
@@ -735,7 +740,7 @@ aCount
 ;
 }
 nsresult
-ServoStyleRule
+CSSStyleRule
 :
 :
 GetSelectorText
@@ -760,7 +765,7 @@ NS_OK
 ;
 }
 nsresult
-ServoStyleRule
+CSSStyleRule
 :
 :
 GetSpecificity
@@ -784,7 +789,7 @@ NS_OK
 ;
 }
 nsresult
-ServoStyleRule
+CSSStyleRule
 :
 :
 SelectorMatchesElement
@@ -887,7 +892,7 @@ NotNull
 DeclarationBlock
 *
 >
-ServoStyleRule
+CSSStyleRule
 :
 :
 GetDeclarationBlock
@@ -903,5 +908,6 @@ mDecls
 mDecls
 )
 ;
+}
 }
 }

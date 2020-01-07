@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-ServoStyleRule
+dom
+/
+CSSStyleRule
 .
 h
 "
@@ -93,7 +95,10 @@ ShadowRoot
 &
 )
 ;
-ServoStyleRule
+dom
+:
+:
+CSSStyleRule
 *
 Lookup
 (
@@ -221,7 +226,10 @@ RawServoStyleRule
 >
 WeakPtr
 <
-ServoStyleRule
+dom
+:
+:
+CSSStyleRule
 >
 >
 Hashtable
