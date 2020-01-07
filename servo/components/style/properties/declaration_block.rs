@@ -63,7 +63,10 @@ properties
 animated_properties
 :
 :
+{
 AnimationValue
+AnimationValueMap
+}
 ;
 use
 shared_lock
@@ -165,15 +168,6 @@ computed
 :
 :
 Context
-;
-use
-properties
-:
-:
-animated_properties
-:
-:
-AnimationValueMap
 ;
 pub
 struct
