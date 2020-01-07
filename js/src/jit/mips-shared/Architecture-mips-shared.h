@@ -862,16 +862,6 @@ ra
 static
 const
 SetType
-TempMask
-=
-VolatileMask
-&
-~
-NonAllocatableMask
-;
-static
-const
-SetType
 JSCallMask
 ;
 static

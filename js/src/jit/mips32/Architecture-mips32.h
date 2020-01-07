@@ -503,16 +503,6 @@ TotalSingle
 static
 const
 SetType
-TempMask
-=
-VolatileMask
-&
-~
-NonAllocatableMask
-;
-static
-const
-SetType
 AllocatableMask
 =
 AllMask

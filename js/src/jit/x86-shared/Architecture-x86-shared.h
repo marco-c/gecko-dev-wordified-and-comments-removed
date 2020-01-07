@@ -948,16 +948,6 @@ AllMask
 ~
 NonAllocatableMask
 ;
-static
-const
-SetType
-TempMask
-=
-VolatileMask
-&
-~
-NonAllocatableMask
-;
 }
 ;
 typedef
