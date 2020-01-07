@@ -7082,7 +7082,7 @@ enabled
 "
 PDMWMFAMDVP9DecoderEnabled
 bool
-true
+false
 )
 ;
 DECL_GFX_PREF
