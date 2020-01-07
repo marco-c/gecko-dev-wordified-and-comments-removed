@@ -3541,7 +3541,7 @@ this
 .
 _telemetry
 .
-actionOccurred
+toolOpened
 (
 "
 webideImportProject

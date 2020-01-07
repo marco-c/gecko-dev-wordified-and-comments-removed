@@ -872,7 +872,7 @@ gTelemetry
 {
 gTelemetry
 .
-actionOccurred
+toolOpened
 (
 "
 accessibilityNodeInspected
