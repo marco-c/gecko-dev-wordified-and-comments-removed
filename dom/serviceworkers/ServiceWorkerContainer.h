@@ -110,10 +110,7 @@ const
 0
 ;
 virtual
-RefPtr
-<
-ServiceWorkerRegistrationPromise
->
+void
 GetRegistration
 (
 const
@@ -124,6 +121,14 @@ const
 nsACString
 &
 aURL
+ServiceWorkerRegistrationCallback
+&
+&
+aSuccessCB
+ServiceWorkerFailureCallback
+&
+&
+aFailureCB
 )
 const
 =
