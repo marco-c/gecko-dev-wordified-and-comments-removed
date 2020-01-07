@@ -3649,7 +3649,6 @@ highlighters
 null
 ;
 }
-async
 destroy
 (
 )
