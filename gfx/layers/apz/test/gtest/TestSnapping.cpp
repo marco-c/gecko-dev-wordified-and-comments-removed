@@ -40,6 +40,13 @@ APZCSnappingTester
 Bug1265510
 )
 {
+SCOPED_GFX_PREF
+(
+WebRenderHitTest
+bool
+false
+)
+;
 const
 char
 *

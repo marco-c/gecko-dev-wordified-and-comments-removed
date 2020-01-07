@@ -1069,6 +1069,13 @@ APZEventRegionsTester
 HitRegionImmediateResponse
 )
 {
+SCOPED_GFX_PREF
+(
+WebRenderHitTest
+bool
+false
+)
+;
 CreateEventRegionsLayerTree1
 (
 )
@@ -1632,6 +1639,13 @@ APZEventRegionsTester
 Obscuration
 )
 {
+SCOPED_GFX_PREF
+(
+WebRenderHitTest
+bool
+false
+)
+;
 CreateObscuringLayerTree
 (
 )
