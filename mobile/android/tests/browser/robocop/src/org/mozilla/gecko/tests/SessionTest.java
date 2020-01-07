@@ -204,17 +204,6 @@ T
 ]
 mItems
 ;
-SuppressWarnings
-(
-{
-"
-unchecked
-"
-"
-varargs
-"
-}
-)
 public
 SessionObject
 (
@@ -572,7 +561,7 @@ home
 new
 PageInfo
 (
-mStringHelper
+StringHelper
 .
 STATIC_ABOUT_HOME_URL
 )
