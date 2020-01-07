@@ -163,9 +163,6 @@ if
 Android
 &
 &
-stylo
-&
-&
 isDebugBuild
 )
 load

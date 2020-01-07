@@ -61,8 +61,6 @@ Bug
 -
 Skip
 on
-stylo
-+
 debug
 because
 it
@@ -97,12 +95,7 @@ if
 Android
 |
 |
-(
-stylo
-&
-&
 isDebugBuild
-)
 )
 load
 694165

@@ -3335,9 +3335,6 @@ fails
 if
 (
 winWidget
-&
-&
-stylo
 )
 fuzzy
 -
