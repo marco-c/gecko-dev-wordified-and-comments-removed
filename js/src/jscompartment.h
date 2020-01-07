@@ -1600,7 +1600,12 @@ tp
 )
 {
 return
-true
+!
+IsInsideNursery
+(
+*
+tp
+)
 ;
 }
 }
