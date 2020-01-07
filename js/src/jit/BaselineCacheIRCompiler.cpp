@@ -10182,10 +10182,11 @@ Address
 iterObjAddr
 (
 niScratch
-offsetof
-(
 NativeIterator
-obj
+:
+:
+offsetOfObjectBeingIterated
+(
 )
 )
 ;
