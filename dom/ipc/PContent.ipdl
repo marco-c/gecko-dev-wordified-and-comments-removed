@@ -2618,6 +2618,8 @@ nsCString
 ID
 nsCString
 vendor
+nsCString
+sourceURL
 )
 ;
 /
