@@ -1787,15 +1787,6 @@ if
 aElement
 -
 >
-IsStyledByServo
-(
-)
-|
-|
-!
-aElement
--
->
 HasServoData
 (
 )

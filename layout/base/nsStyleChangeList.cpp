@@ -182,14 +182,6 @@ eTEXT
 aContent
 -
 >
-IsStyledByServo
-(
-)
-&
-&
-aContent
--
->
 HasFlag
 (
 NODE_NEEDS_FRAME
