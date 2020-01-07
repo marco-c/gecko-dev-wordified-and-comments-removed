@@ -297,9 +297,6 @@ false
 )
 mFullZoom
 (
-aStyle
--
->
 PresContext
 (
 )

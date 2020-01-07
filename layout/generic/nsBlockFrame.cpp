@@ -2825,6 +2825,9 @@ GetContent
 Style
 (
 )
+PresContext
+(
+)
 contentRect
 .
 height

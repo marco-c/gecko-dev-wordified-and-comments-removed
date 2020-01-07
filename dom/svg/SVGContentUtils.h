@@ -73,6 +73,9 @@ class
 nsIFrame
 ;
 class
+nsPresContext
+;
+class
 nsStyleCoord
 ;
 class
@@ -435,7 +438,8 @@ GetFontSize
 (
 ComputedStyle
 *
-aComputedStyle
+nsPresContext
+*
 )
 ;
 static
@@ -468,7 +472,8 @@ GetFontXHeight
 (
 ComputedStyle
 *
-aComputedStyle
+nsPresContext
+*
 )
 ;
 static
