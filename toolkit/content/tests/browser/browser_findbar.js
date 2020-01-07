@@ -106,7 +106,6 @@ tab
 let
 findbar
 =
-await
 gBrowser
 .
 getFindBar
@@ -429,7 +428,7 @@ findbar
 =
 gBrowser
 .
-getCachedFindBar
+getFindBar
 (
 )
 ;
@@ -501,7 +500,7 @@ ok
 !
 gBrowser
 .
-getCachedFindBar
+getFindBar
 (
 )
 .
@@ -550,7 +549,6 @@ TEST_PAGE_URI
 let
 findbar1
 =
-await
 gBrowser
 .
 getFindBar
@@ -572,7 +570,6 @@ TEST_PAGE_URI
 let
 findbar2
 =
-await
 gBrowser
 .
 getFindBar
@@ -757,7 +754,6 @@ tab
 let
 findbar
 =
-await
 gBrowser
 .
 getFindBar
@@ -1007,9 +1003,6 @@ yet
 "
 )
 ;
-await
-gFindBarPromise
-;
 let
 findBar
 =
@@ -1184,17 +1177,13 @@ return
 new
 Promise
 (
-async
-(
 resolve
-)
 =
 >
 {
 let
 findbar
 =
-await
 gBrowser
 .
 getFindBar

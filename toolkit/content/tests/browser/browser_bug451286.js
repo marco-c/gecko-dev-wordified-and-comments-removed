@@ -812,9 +812,6 @@ openFindBarAndWait
 (
 )
 {
-await
-gFindBarPromise
-;
 let
 awaitTransitionEnd
 =

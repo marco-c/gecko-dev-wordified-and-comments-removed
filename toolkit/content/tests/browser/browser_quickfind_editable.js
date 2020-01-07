@@ -79,7 +79,6 @@ expected
 let
 findbar
 =
-await
 gBrowser
 .
 getFindBar
