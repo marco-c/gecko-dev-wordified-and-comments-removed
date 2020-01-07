@@ -815,11 +815,11 @@ e
 ;
 this
 .
-onEdit
+onUpdate
 =
 this
 .
-onEdit
+onUpdate
 .
 bind
 (
@@ -839,7 +839,7 @@ update
 "
 this
 .
-onEdit
+onUpdate
 )
 ;
 this
@@ -1543,7 +1543,7 @@ update
 "
 this
 .
-onEdit
+onUpdate
 )
 ;
 this
@@ -2398,7 +2398,7 @@ break
 }
 }
 async
-onEdit
+onUpdate
 (
 {
 changed
@@ -2469,7 +2469,7 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;

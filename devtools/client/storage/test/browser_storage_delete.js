@@ -302,7 +302,7 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;
