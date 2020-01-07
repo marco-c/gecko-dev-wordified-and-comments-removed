@@ -585,8 +585,6 @@ section_menu_action_manage_webext
 "
 :
 "
-Manage
-Extension
 "
 "
 section_menu_action_add_topsite

@@ -653,6 +653,13 @@ firstrun_form_header
 >
 <
 span
+className
+=
+"
+sub
+-
+header
+"
 >
 <
 FormattedMessage

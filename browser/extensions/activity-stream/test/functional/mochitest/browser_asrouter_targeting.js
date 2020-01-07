@@ -65,6 +65,8 @@ isMatch
 FOO
 "
 {
+}
+{
 FOO
 :
 true
@@ -93,6 +95,8 @@ isMatch
 !
 FOO
 "
+{
+}
 {
 FOO
 :
@@ -154,6 +158,8 @@ isMatch
 "
 FOO
 "
+{
+}
 context
 )
 true
@@ -229,6 +235,8 @@ ASRouterTargeting
 findMatchingMessage
 (
 messages
+{
+}
 context
 )
 ;
@@ -298,6 +306,8 @@ ASRouterTargeting
 findMatchingMessage
 (
 messages
+{
+}
 context
 )
 ;
@@ -392,6 +402,8 @@ findMatchingMessage
 [
 message
 ]
+{
+}
 )
 message
 "
@@ -479,6 +491,8 @@ findMatchingMessage
 [
 message
 ]
+{
+}
 )
 message
 "
@@ -572,6 +586,8 @@ findMatchingMessage
 [
 message
 ]
+{
+}
 )
 message
 "
