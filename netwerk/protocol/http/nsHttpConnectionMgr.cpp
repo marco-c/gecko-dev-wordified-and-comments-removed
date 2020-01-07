@@ -24488,12 +24488,6 @@ else
 MOZ_ASSERT
 (
 !
-mSynTimer
-)
-;
-MOZ_ASSERT
-(
-!
 mBackupTransport
 )
 ;
@@ -24764,12 +24758,6 @@ nullptr
 ;
 Abandon
 (
-)
-;
-MOZ_ASSERT
-(
-!
-mSynTimer
 )
 ;
 MOZ_ASSERT
