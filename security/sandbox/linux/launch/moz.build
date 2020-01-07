@@ -108,6 +108,11 @@ SOURCES
 =
 [
 '
+LinuxCapabilities
+.
+cpp
+'
+'
 SandboxLaunch
 .
 cpp

@@ -764,11 +764,6 @@ SandboxBrokerCommon
 cpp
 '
 '
-LinuxCapabilities
-.
-cpp
-'
-'
 Sandbox
 .
 cpp
