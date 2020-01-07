@@ -241,6 +241,12 @@ int
 port
 )
 {
+sdp_set_media_port
+(
+mSection
+port
+)
+;
 }
 unsigned
 int

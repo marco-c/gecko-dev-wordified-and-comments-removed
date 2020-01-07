@@ -630,6 +630,17 @@ RustMediaSection
 aMediaSec
 )
 ;
+void
+sdp_set_media_port
+(
+const
+RustMediaSection
+*
+aMediaSec
+uint32_t
+aPort
+)
+;
 uint32_t
 sdp_get_media_port
 (
