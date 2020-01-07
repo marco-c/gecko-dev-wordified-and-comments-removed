@@ -327,12 +327,6 @@ shared
 '
     
 '
-enable_count_ctors
-'
-:
-False
-    
-'
 base_name
 '
 :

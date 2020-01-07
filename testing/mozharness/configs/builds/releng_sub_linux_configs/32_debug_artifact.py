@@ -70,12 +70,6 @@ shared
 '
     
 '
-enable_count_ctors
-'
-:
-True
-    
-'
 debug_build
 '
 :

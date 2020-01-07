@@ -47,12 +47,6 @@ enable_signing
 False
     
 '
-enable_count_ctors
-'
-:
-False
-    
-'
 env
 '
 :

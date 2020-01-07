@@ -70,12 +70,6 @@ shared
 '
     
 '
-enable_count_ctors
-'
-:
-False
-    
-'
 perfherder_extra_options
 '
 :

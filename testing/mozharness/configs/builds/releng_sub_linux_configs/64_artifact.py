@@ -203,12 +203,6 @@ shared
 '
     
 '
-enable_count_ctors
-'
-:
-True
-    
-'
 perfherder_extra_options
 '
 :
