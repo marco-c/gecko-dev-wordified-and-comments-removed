@@ -217,3 +217,10 @@ python
 compat
 :
 lintpy3
+setup
+:
+python
+.
+compat
+:
+setuppy3
