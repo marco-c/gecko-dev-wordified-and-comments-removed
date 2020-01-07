@@ -3133,6 +3133,9 @@ bool
 mPreserveLayers
 ;
 bool
+mRenderingLayers
+;
+bool
 mHasPresented
 ;
 bool
