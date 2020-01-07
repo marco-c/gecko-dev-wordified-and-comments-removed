@@ -313,6 +313,7 @@ ReleaseObjects
 enum
 State
 {
+eInitializing
 eWaiting
 eReading
 eWriting
