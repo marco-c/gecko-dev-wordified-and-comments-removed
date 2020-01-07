@@ -157,16 +157,6 @@ MOZ_XUL
 '
 ]
 :
-XPIDL_SOURCES
-+
-=
-[
-'
-nsIXULOverlayProvider
-.
-idl
-'
-]
 EXPORTS
 +
 =

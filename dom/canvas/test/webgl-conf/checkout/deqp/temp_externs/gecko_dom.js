@@ -791,12 +791,6 @@ Document
 .
 prototype
 .
-loadOverlay
-;
-Document
-.
-prototype
-.
 open
 ;
 Document
