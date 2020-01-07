@@ -246,7 +246,8 @@ true
 ;
 }
 }
-var
+this
+.
 PrerenderData
 =
 new
@@ -317,6 +318,11 @@ highlights
 "
 :
 true
+"
+enableWideLayout
+"
+:
+true
 }
 validation
 :
@@ -346,6 +352,9 @@ section
 topstories
 .
 collapsed
+"
+"
+enableWideLayout
 "
 {
 oneOf
@@ -444,7 +453,8 @@ _PrerenderData
 =
 _PrerenderData
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

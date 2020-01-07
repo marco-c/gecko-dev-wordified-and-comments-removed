@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 MAIN_MESSAGE_TYPE
 =
 "
@@ -12,7 +13,8 @@ ActivityStream
 Main
 "
 ;
-var
+this
+.
 CONTENT_MESSAGE_TYPE
 =
 "
@@ -21,7 +23,8 @@ ActivityStream
 Content
 "
 ;
-var
+this
+.
 PRELOAD_MESSAGE_TYPE
 =
 "
@@ -30,12 +33,14 @@ ActivityStream
 PreloadedBrowser
 "
 ;
-var
+this
+.
 UI_CODE
 =
 1
 ;
-var
+this
+.
 BACKGROUND_PROCESS
 =
 2
@@ -75,6 +80,9 @@ type
 of
 [
 "
+ARCHIVE_FROM_POCKET
+"
+"
 BLOCK_URL
 "
 "
@@ -82,6 +90,9 @@ BOOKMARK_URL
 "
 "
 DELETE_BOOKMARK_BY_ID
+"
+"
+DELETE_FROM_POCKET
 "
 "
 DELETE_HISTORY_URL
@@ -157,6 +168,9 @@ PLACES_LINKS_DELETED
 "
 "
 PLACES_LINK_BLOCKED
+"
+"
+PLACES_SAVED_TO_POCKET
 "
 "
 PREFS_INITIAL_VALUES
@@ -854,7 +868,8 @@ actionTypes
 =
 actionTypes
 ;
-var
+this
+.
 actionCreators
 =
 {
@@ -872,7 +887,8 @@ SetPref
 WebExtEvent
 }
 ;
-var
+this
+.
 actionUtils
 =
 {
@@ -1113,7 +1129,8 @@ null
 _RouteMessage
 }
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

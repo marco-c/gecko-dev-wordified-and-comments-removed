@@ -248,9 +248,9 @@ querySelector
 (
 "
 .
-section
+card
 -
-list
+outer
 .
 context
 -
@@ -276,6 +276,10 @@ document
 querySelector
 (
 "
+.
+card
+-
+outer
 .
 context
 -

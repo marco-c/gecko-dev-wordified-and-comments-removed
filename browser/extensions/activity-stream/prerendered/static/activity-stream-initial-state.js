@@ -128,6 +128,11 @@ highlights
 "
 :
 true
+"
+enableWideLayout
+"
+:
+true
 }
 }
 "
