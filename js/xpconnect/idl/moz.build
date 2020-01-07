@@ -95,11 +95,6 @@ mozIJSSubScriptLoader
 idl
 '
 '
-nsIAddonInterposition
-.
-idl
-'
-'
 nsIXPConnect
 .
 idl

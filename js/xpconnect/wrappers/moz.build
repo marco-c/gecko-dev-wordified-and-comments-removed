@@ -105,11 +105,6 @@ AccessCheck
 cpp
 '
 '
-AddonWrapper
-.
-cpp
-'
-'
 ChromeObjectWrapper
 .
 cpp
