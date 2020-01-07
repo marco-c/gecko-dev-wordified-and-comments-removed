@@ -312,12 +312,6 @@ mouseUpEventCount
 int32_t
 bugMode
 ;
-std
-:
-:
-string
-javaCodebase
-;
 AsyncDrawing
 asyncDrawing
 ;
