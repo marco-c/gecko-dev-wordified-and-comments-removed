@@ -786,13 +786,6 @@ resolve
 =
 >
 {
-let
-addon
-=
-install
-.
-addon
-;
 prepare_test
 (
 {
@@ -2491,13 +2484,6 @@ ID_DICT
 0
 "
 )
-;
-let
-addon
-=
-install
-.
-addon
 ;
 prepare_test
 (
