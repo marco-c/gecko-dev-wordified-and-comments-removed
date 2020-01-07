@@ -387,6 +387,18 @@ ErrorResult
 aRv
 )
 ;
+void
+ChangeType
+(
+const
+nsAString
+&
+aType
+ErrorResult
+&
+aRv
+)
+;
 IMPL_EVENT_HANDLER
 (
 updatestart
@@ -698,7 +710,6 @@ RangeRemovalPromise
 >
 mPendingRemoval
 ;
-const
 MediaContainerType
 mType
 ;
