@@ -767,7 +767,7 @@ folderRestrict
 {
 query
 .
-setFolders
+setParents
 (
 folderRestrict
 folderRestrict
