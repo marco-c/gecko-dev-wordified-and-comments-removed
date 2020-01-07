@@ -59,13 +59,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 jscntxtinlines
 .
 h

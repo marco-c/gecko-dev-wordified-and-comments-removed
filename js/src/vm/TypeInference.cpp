@@ -223,13 +223,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 jsscriptinlines
 .
 h

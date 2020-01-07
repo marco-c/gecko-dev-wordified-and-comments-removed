@@ -65,13 +65,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -230,13 +223,6 @@ include
 vm
 /
 WrapperObject
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "

@@ -52,13 +52,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jsopcode
 .
 h

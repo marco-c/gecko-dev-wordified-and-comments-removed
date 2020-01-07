@@ -110,13 +110,6 @@ endif
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

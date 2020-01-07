@@ -7,13 +7,6 @@ frontend_SharedContext_h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jsopcode
 .
 h

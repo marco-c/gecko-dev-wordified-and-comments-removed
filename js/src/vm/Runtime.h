@@ -113,13 +113,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h

@@ -32,13 +32,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 builtin
 /
 SelfHostingDefines

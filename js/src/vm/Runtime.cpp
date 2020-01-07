@@ -115,13 +115,6 @@ endif
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jsmath
 .
 h

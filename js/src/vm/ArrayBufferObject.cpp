@@ -300,13 +300,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 gc
 /
 Marking

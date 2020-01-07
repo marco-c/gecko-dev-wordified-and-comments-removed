@@ -42,13 +42,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -119,13 +112,6 @@ h
 include
 "
 jsarrayinlines
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "

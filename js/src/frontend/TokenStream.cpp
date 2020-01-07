@@ -74,13 +74,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h

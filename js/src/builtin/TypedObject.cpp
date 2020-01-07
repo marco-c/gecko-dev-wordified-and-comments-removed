@@ -114,13 +114,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
