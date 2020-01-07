@@ -4395,11 +4395,6 @@ PointerEvent
 webidl
 '
 '
-PopupBoxObject
-.
-webidl
-'
-'
 Position
 .
 webidl
@@ -5551,6 +5546,11 @@ webidl
 '
 '
 XULElement
+.
+webidl
+'
+'
+XULPopupElement
 .
 webidl
 '

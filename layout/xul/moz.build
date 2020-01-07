@@ -257,11 +257,6 @@ MenuBoxObject
 h
 '
 '
-PopupBoxObject
-.
-h
-'
-'
 ScrollBoxObject
 .
 h
@@ -471,11 +466,6 @@ cpp
 '
 '
 nsXULPopupManager
-.
-cpp
-'
-'
-PopupBoxObject
 .
 cpp
 '

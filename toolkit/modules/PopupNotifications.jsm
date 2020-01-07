@@ -821,7 +821,7 @@ panel
 !
 =
 "
-XULElement
+XULPopupElement
 "
 )
 throw
