@@ -1112,7 +1112,7 @@ getString
 "
 editBookmarkPanel
 .
-pageBookmarkedTitle
+newBookmarkTitle
 "
 )
 :
