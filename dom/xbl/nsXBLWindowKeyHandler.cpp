@@ -2390,14 +2390,6 @@ AsKeyboardEvent
 ;
 if
 (
-widgetEvent
--
->
-mFlags
-.
-mOnlySystemGroupDispatchInContent
-|
-|
 !
 widgetEvent
 -
