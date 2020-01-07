@@ -410,7 +410,7 @@ client
 .
 id
 )
-isMobile
+clientType
 :
 Weave
 .
@@ -418,7 +418,7 @@ Service
 .
 clientsEngine
 .
-isMobile
+getClientType
 (
 client
 .
