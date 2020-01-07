@@ -15,7 +15,7 @@ ci
 .
 org
 /
-behdad
+harfbuzz
 /
 harfbuzz
 .
@@ -33,7 +33,7 @@ ci
 .
 org
 /
-behdad
+harfbuzz
 /
 harfbuzz
 )
@@ -80,7 +80,7 @@ com
 /
 project
 /
-behdad
+harfbuzz
 /
 harfbuzz
 )
@@ -100,7 +100,7 @@ com
 /
 gh
 /
-behdad
+harfbuzz
 /
 harfbuzz
 .
@@ -122,7 +122,7 @@ com
 /
 gh
 /
-behdad
+harfbuzz
 /
 harfbuzz
 )
@@ -145,7 +145,7 @@ io
 /
 coveralls
 /
-behdad
+harfbuzz
 /
 harfbuzz
 .
@@ -163,7 +163,7 @@ io
 /
 r
 /
-behdad
+harfbuzz
 /
 harfbuzz
 )
@@ -224,3 +224,14 @@ the
 file
 COPYING
 .
+Documentation
+:
+https
+:
+/
+/
+harfbuzz
+.
+github
+.
+io

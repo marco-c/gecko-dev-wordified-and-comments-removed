@@ -464,7 +464,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -473,7 +473,7 @@ Coverage
 >
 coverage
 ;
-SHORT
+INT16
 deltaGlyphID
 ;
 public
@@ -998,7 +998,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -1321,7 +1321,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 SingleSubstFormat1
@@ -2239,7 +2239,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -2470,7 +2470,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 MultipleSubstFormat1
@@ -3218,7 +3218,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -3449,7 +3449,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 AlternateSubstFormat1
@@ -4994,7 +4994,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -5240,7 +5240,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 LigatureSubstFormat1
@@ -5904,7 +5904,7 @@ backtrack
 .
 len
 (
-USHORT
+UINT16
 *
 )
 backtrack
@@ -5924,7 +5924,7 @@ lookahead
 .
 len
 (
-USHORT
+UINT16
 *
 )
 lookahead
@@ -6082,7 +6082,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -6217,7 +6217,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 ReverseChainSingleSubstFormat1
@@ -6463,7 +6463,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 sub_format
 ;
 SingleSubst
@@ -7331,6 +7331,24 @@ extension
 .
 get_type
 (
+)
+;
+if
+(
+unlikely
+(
+type
+=
+=
+SubstLookupSubTable
+:
+:
+Extension
+)
+)
+return_trace
+(
+false
 )
 ;
 unsigned

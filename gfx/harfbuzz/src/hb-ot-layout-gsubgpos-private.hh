@@ -958,7 +958,7 @@ match_func_t
 hb_codepoint_t
 glyph_id
 const
-USHORT
+UINT16
 &
 value
 const
@@ -1071,7 +1071,7 @@ hb_glyph_info_t
 &
 info
 const
-USHORT
+UINT16
 *
 glyph_data
 )
@@ -1377,7 +1377,7 @@ void
 *
 match_data_
 const
-USHORT
+UINT16
 glyph_data
 [
 ]
@@ -1810,7 +1810,7 @@ matcher_t
 matcher
 ;
 const
-USHORT
+UINT16
 *
 match_glyph_data
 ;
@@ -1921,6 +1921,17 @@ nesting_level_left
 |
 !
 recurse_func
+|
+|
+buffer
+-
+>
+max_ops
+-
+-
+<
+=
+0
 )
 )
 return
@@ -2592,7 +2603,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2612,7 +2623,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2631,7 +2642,7 @@ match_func_t
 hb_codepoint_t
 glyph_id
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2673,7 +2684,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2702,7 +2713,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2746,7 +2757,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2798,7 +2809,7 @@ unsigned
 int
 count
 const
-USHORT
+UINT16
 values
 [
 ]
@@ -2861,7 +2872,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2889,7 +2900,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2932,7 +2943,7 @@ hb_set_t
 *
 glyphs
 const
-USHORT
+UINT16
 &
 value
 const
@@ -2987,7 +2998,7 @@ unsigned
 int
 count
 const
-USHORT
+UINT16
 values
 [
 ]
@@ -3034,7 +3045,7 @@ match_glyph
 hb_codepoint_t
 glyph_id
 const
-USHORT
+UINT16
 &
 value
 const
@@ -3059,7 +3070,7 @@ match_class
 hb_codepoint_t
 glyph_id
 const
-USHORT
+UINT16
 &
 value
 const
@@ -3104,7 +3115,7 @@ match_coverage
 hb_codepoint_t
 glyph_id
 const
-USHORT
+UINT16
 &
 value
 const
@@ -3159,7 +3170,7 @@ unsigned
 int
 count
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -3243,7 +3254,7 @@ unsigned
 int
 count
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -4199,7 +4210,7 @@ unsigned
 int
 count
 const
-USHORT
+UINT16
 backtrack
 [
 ]
@@ -4312,7 +4323,7 @@ unsigned
 int
 count
 const
-USHORT
+UINT16
 lookahead
 [
 ]
@@ -4450,10 +4461,10 @@ this
 )
 ;
 }
-USHORT
+UINT16
 sequenceIndex
 ;
-USHORT
+UINT16
 lookupListIndex
 ;
 public
@@ -4685,6 +4696,11 @@ lookup_index
 )
 continue
 ;
+if
+(
+unlikely
+(
+!
 buffer
 -
 >
@@ -4695,6 +4711,24 @@ match_positions
 idx
 ]
 )
+)
+)
+break
+;
+if
+(
+unlikely
+(
+buffer
+-
+>
+max_ops
+<
+=
+0
+)
+)
+break
 ;
 unsigned
 int
@@ -4998,7 +5032,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -5058,7 +5092,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -5120,7 +5154,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -5168,7 +5202,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -5565,13 +5599,13 @@ lookupCount
 }
 protected
 :
-USHORT
+UINT16
 inputCount
 ;
-USHORT
+UINT16
 lookupCount
 ;
-USHORT
+UINT16
 inputZ
 [
 VAR
@@ -6291,7 +6325,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -6783,7 +6817,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -6893,7 +6927,7 @@ c
 glyphCount
 (
 const
-USHORT
+UINT16
 *
 )
 (
@@ -6978,7 +7012,7 @@ c
 glyphCount
 (
 const
-USHORT
+UINT16
 *
 )
 (
@@ -7048,7 +7082,7 @@ c
 glyphCount
 (
 const
-USHORT
+UINT16
 *
 )
 (
@@ -7181,7 +7215,7 @@ c
 glyphCount
 (
 const
-USHORT
+UINT16
 *
 )
 (
@@ -7344,13 +7378,13 @@ lookupCount
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
-USHORT
+UINT16
 glyphCount
 ;
-USHORT
+UINT16
 lookupCount
 ;
 OffsetTo
@@ -7510,7 +7544,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 ContextFormat1
@@ -7587,7 +7621,7 @@ unsigned
 int
 backtrackCount
 const
-USHORT
+UINT16
 backtrack
 [
 ]
@@ -7595,7 +7629,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -7603,7 +7637,7 @@ unsigned
 int
 lookaheadCount
 const
-USHORT
+UINT16
 lookahead
 [
 ]
@@ -7704,7 +7738,7 @@ unsigned
 int
 backtrackCount
 const
-USHORT
+UINT16
 backtrack
 [
 ]
@@ -7712,7 +7746,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -7720,7 +7754,7 @@ unsigned
 int
 lookaheadCount
 const
-USHORT
+UINT16
 lookahead
 [
 ]
@@ -7829,7 +7863,7 @@ unsigned
 int
 backtrackCount
 const
-USHORT
+UINT16
 backtrack
 [
 ]
@@ -7838,7 +7872,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -7846,7 +7880,7 @@ unsigned
 int
 lookaheadCount
 const
-USHORT
+UINT16
 lookahead
 [
 ]
@@ -7915,7 +7949,7 @@ unsigned
 int
 backtrackCount
 const
-USHORT
+UINT16
 backtrack
 [
 ]
@@ -7923,7 +7957,7 @@ unsigned
 int
 inputCount
 const
-USHORT
+UINT16
 input
 [
 ]
@@ -7931,7 +7965,7 @@ unsigned
 int
 lookaheadCount
 const
-USHORT
+UINT16
 lookahead
 [
 ]
@@ -8081,7 +8115,7 @@ this
 const
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 &
 input
@@ -8090,7 +8124,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8100,7 +8134,7 @@ backtrack
 const
 ArrayOf
 <
-USHORT
+UINT16
 >
 &
 lookahead
@@ -8109,7 +8143,7 @@ StructAfter
 <
 ArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8187,7 +8221,7 @@ this
 const
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 &
 input
@@ -8196,7 +8230,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8206,7 +8240,7 @@ backtrack
 const
 ArrayOf
 <
-USHORT
+UINT16
 >
 &
 lookahead
@@ -8215,7 +8249,7 @@ StructAfter
 <
 ArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8293,7 +8327,7 @@ this
 const
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 &
 input
@@ -8302,7 +8336,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8312,7 +8346,7 @@ backtrack
 const
 ArrayOf
 <
-USHORT
+UINT16
 >
 &
 lookahead
@@ -8321,7 +8355,7 @@ StructAfter
 <
 ArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8402,7 +8436,7 @@ this
 const
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 &
 input
@@ -8411,7 +8445,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8421,7 +8455,7 @@ backtrack
 const
 ArrayOf
 <
-USHORT
+UINT16
 >
 &
 lookahead
@@ -8430,7 +8464,7 @@ StructAfter
 <
 ArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8523,7 +8557,7 @@ false
 const
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 &
 input
@@ -8532,7 +8566,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8557,7 +8591,7 @@ false
 const
 ArrayOf
 <
-USHORT
+UINT16
 >
 &
 lookahead
@@ -8566,7 +8600,7 @@ StructAfter
 <
 ArrayOf
 <
-USHORT
+UINT16
 >
 >
 (
@@ -8622,19 +8656,19 @@ protected
 :
 ArrayOf
 <
-USHORT
+UINT16
 >
 backtrack
 ;
 HeadlessArrayOf
 <
-USHORT
+UINT16
 >
 inputX
 ;
 ArrayOf
 <
-USHORT
+UINT16
 >
 lookaheadX
 ;
@@ -9362,7 +9396,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -9968,7 +10002,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetTo
@@ -10131,7 +10165,7 @@ backtrack
 len
 (
 const
-USHORT
+UINT16
 *
 )
 backtrack
@@ -10142,7 +10176,7 @@ input
 len
 (
 const
-USHORT
+UINT16
 *
 )
 input
@@ -10155,7 +10189,7 @@ lookahead
 len
 (
 const
-USHORT
+UINT16
 *
 )
 lookahead
@@ -10283,7 +10317,7 @@ backtrack
 len
 (
 const
-USHORT
+UINT16
 *
 )
 backtrack
@@ -10294,7 +10328,7 @@ input
 len
 (
 const
-USHORT
+UINT16
 *
 )
 input
@@ -10307,7 +10341,7 @@ lookahead
 len
 (
 const
-USHORT
+UINT16
 *
 )
 lookahead
@@ -10420,7 +10454,7 @@ backtrack
 len
 (
 const
-USHORT
+UINT16
 *
 )
 backtrack
@@ -10431,7 +10465,7 @@ input
 len
 (
 const
-USHORT
+UINT16
 *
 )
 input
@@ -10444,7 +10478,7 @@ lookahead
 len
 (
 const
-USHORT
+UINT16
 *
 )
 lookahead
@@ -10639,7 +10673,7 @@ backtrack
 len
 (
 const
-USHORT
+UINT16
 *
 )
 backtrack
@@ -10650,7 +10684,7 @@ input
 len
 (
 const
-USHORT
+UINT16
 *
 )
 input
@@ -10663,7 +10697,7 @@ lookahead
 len
 (
 const
-USHORT
+UINT16
 *
 )
 lookahead
@@ -10825,7 +10859,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 OffsetArrayOf
@@ -10992,7 +11026,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 ChainContextFormat1
@@ -11192,13 +11226,13 @@ extensionOffset
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
-USHORT
+UINT16
 extensionLookupType
 ;
-ULONG
+UINT32
 extensionOffset
 ;
 public
@@ -11404,7 +11438,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 ExtensionFormat1
@@ -11421,20 +11455,6 @@ u
 struct
 GSUBGPOS
 {
-static
-const
-hb_tag_t
-GSUBTag
-=
-HB_OT_TAG_GSUB
-;
-static
-const
-hb_tag_t
-GPOSTag
-=
-HB_OT_TAG_GPOS
-;
 inline
 unsigned
 int

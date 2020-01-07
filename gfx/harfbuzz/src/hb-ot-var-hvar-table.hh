@@ -112,7 +112,7 @@ get_width
 )
 ;
 const
-BYTE
+UINT8
 *
 p
 =
@@ -244,13 +244,13 @@ format
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
-USHORT
+UINT16
 mapCount
 ;
-BYTE
+UINT8
 mapData
 [
 VAR

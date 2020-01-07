@@ -16,7 +16,7 @@ HarfBuzz
 .
 7
 .
-1
+2
 ]
 [
 https
@@ -27,7 +27,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /

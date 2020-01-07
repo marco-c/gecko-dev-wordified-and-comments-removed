@@ -117,6 +117,15 @@ cg_font
 )
 ;
 HB_EXTERN
+hb_font_t
+*
+hb_coretext_font_create
+(
+CTFontRef
+ct_font
+)
+;
+HB_EXTERN
 CGFontRef
 hb_coretext_face_get_cg_font
 (
