@@ -4576,7 +4576,7 @@ GrayBufferState
 grayBufferState
 ;
 bool
-hasBufferedGrayRoots
+hasValidGrayRootsBuffer
 (
 )
 const
