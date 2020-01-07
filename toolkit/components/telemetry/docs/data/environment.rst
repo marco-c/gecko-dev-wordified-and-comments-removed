@@ -2594,6 +2594,10 @@ activeExperiment
 {
 /
 /
+obsolete
+in
+firefox
+61
 section
 is
 empty
@@ -4372,13 +4376,4 @@ printed
 when
 that
 happens
-.
-This
-section
-will
-eventually
-supersede
-addons
-/
-activeExperiment
 .
