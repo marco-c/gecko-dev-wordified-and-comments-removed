@@ -4,13 +4,6 @@ dom_plugins_PluginQuirks_h
 #
 define
 dom_plugins_PluginQuirks_h
-#
-include
-"
-nsString
-.
-h
-"
 namespace
 mozilla
 {

@@ -606,13 +606,6 @@ XRE_IsGPUProcess
 XRE_API
 (
 bool
-XRE_IsPluginProcess
-(
-)
-)
-XRE_API
-(
-bool
 XRE_UseNativeEventProcessing
 (
 )
