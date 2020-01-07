@@ -144,6 +144,11 @@ ServiceWorkerEvents
 h
 '
 '
+ServiceWorkerInterceptController
+.
+h
+'
+'
 ServiceWorkerIPCUtils
 .
 h
@@ -345,6 +350,11 @@ cpp
 '
 '
 ServiceWorkerInfo
+.
+cpp
+'
+'
+ServiceWorkerInterceptController
 .
 cpp
 '

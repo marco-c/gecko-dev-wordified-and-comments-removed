@@ -2555,6 +2555,12 @@ ClientSource
 >
 mInitialClientSource
 ;
+nsCOMPtr
+<
+nsINetworkInterceptController
+>
+mInterceptController
+;
 RefPtr
 <
 nsDOMNavigationTiming
