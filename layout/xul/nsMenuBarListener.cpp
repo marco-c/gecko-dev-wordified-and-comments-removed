@@ -1342,7 +1342,7 @@ GetCurrentMenuItem
 >
 OpenMenu
 (
-true
+false
 )
 ;
 #
