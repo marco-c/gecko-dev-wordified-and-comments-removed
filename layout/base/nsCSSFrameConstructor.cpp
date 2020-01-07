@@ -8003,6 +8003,14 @@ if
 content
 )
 {
+content
+-
+>
+SetFlags
+(
+NODE_IS_IN_NATIVE_ANONYMOUS_SUBTREE
+)
+;
 container
 -
 >
