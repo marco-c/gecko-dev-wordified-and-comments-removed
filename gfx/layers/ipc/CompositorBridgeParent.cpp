@@ -7558,6 +7558,16 @@ lock
 sIndirectLayerTreesLock
 )
 ;
+if
+(
+sIndirectLayerTrees
+[
+child
+]
+.
+mParent
+)
+{
 MOZ_ASSERT
 (
 sIndirectLayerTrees
@@ -7586,6 +7596,7 @@ mParent
 >
 mApzSampler
 ;
+}
 NotifyChildCreated
 (
 child
