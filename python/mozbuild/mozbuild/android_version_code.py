@@ -49,17 +49,13 @@ not
 cpu_arch
 or
 cpu_arch
-in
-[
-'
-armeabi
-'
+=
+=
 '
 armeabi
 -
 v7a
 '
-]
 :
         
 return
@@ -893,17 +889,13 @@ not
 cpu_arch
 or
 cpu_arch
-in
-[
-'
-armeabi
-'
+=
+=
 '
 armeabi
 -
 v7a
 '
-]
 :
         
 if
