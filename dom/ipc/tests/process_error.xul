@@ -315,6 +315,8 @@ getElementById
 thebrowser
 '
 )
+true
+false
 )
 ;
 ]
