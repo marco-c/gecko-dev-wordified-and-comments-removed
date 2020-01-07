@@ -685,9 +685,6 @@ CallbackHelper
 >
 mCallbacks
 ;
-mozilla
-:
-:
 ShmemPool
 mShmemPool
 ;
@@ -720,9 +717,6 @@ mChildIsAlive
 bool
 mDestroyed
 ;
-mozilla
-:
-:
 Atomic
 <
 bool
