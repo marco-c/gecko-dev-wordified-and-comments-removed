@@ -6,6 +6,8 @@ print_function
 unicode_literals
 import
 os
+import
+re
 from
 taskgraph
 .
@@ -61,6 +63,26 @@ import
 Optional
     
 Required
+)
+DIGEST_RE
+=
+re
+.
+compile
+(
+'
+^
+[
+0
+-
+9a
+-
+f
+]
+{
+64
+}
+'
 )
 transforms
 =
@@ -278,12 +300,35 @@ in
 route
 :
                 
+h
+=
+route
+.
+rsplit
+(
+'
+.
+'
+1
+)
+[
+1
+]
+                
+assert
+DIGEST_RE
+.
+match
+(
+h
+)
+                
 available_packages
 [
 name
 ]
 =
-route
+h
                 
 break
     
