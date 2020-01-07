@@ -746,8 +746,9 @@ aOutSideLimit
 nsresult
 CharacterDataChanged
 (
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 override

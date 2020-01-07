@@ -86,9 +86,9 @@ CharacterDataWillChange
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 ;
 static
@@ -98,9 +98,9 @@ CharacterDataChanged
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 ;
 static

@@ -349,9 +349,9 @@ override
 nsresult
 CharacterDataChanged
 (
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 final
 ;

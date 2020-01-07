@@ -1400,8 +1400,9 @@ nsLeafBoxFrame
 :
 CharacterDataChanged
 (
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 {
