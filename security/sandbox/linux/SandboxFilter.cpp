@@ -3668,6 +3668,12 @@ nullptr
 case
 __NR_getcwd
 :
+return
+Error
+(
+ENOENT
+)
+;
 CASES_FOR_fstatfs
 :
 CASES_FOR_fchown
