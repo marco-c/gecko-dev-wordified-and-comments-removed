@@ -460,7 +460,3 @@ XPathEvaluator
 implements
 LegacyQueryInterface
 ;
-XULTemplateBuilder
-implements
-LegacyQueryInterface
-;

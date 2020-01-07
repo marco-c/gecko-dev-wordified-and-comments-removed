@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsIXULTemplateBuilder
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

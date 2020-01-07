@@ -5668,11 +5668,6 @@ XULElement
 .
 webidl
 '
-'
-XULTemplateBuilder
-.
-webidl
-'
 ]
 if
 CONFIG

@@ -1513,13 +1513,6 @@ BINPATH
 /
 components
 /
-xultmpl
-.
-xpt
-BINPATH
-/
-components
-/
 zipwriter
 .
 xpt

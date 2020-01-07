@@ -1974,13 +1974,6 @@ RESPATH
 /
 components
 /
-xultmpl
-.
-xpt
-RESPATH
-/
-components
-/
 zipwriter
 .
 xpt
