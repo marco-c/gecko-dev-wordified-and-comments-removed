@@ -2963,6 +2963,9 @@ ArrayIteratorNext
 (
 )
 {
+var
+obj
+;
 if
 (
 !
@@ -2972,11 +2975,18 @@ this
 )
 |
 |
-!
-IsArrayIterator
+(
+obj
+=
+GuardToArrayIterator
 (
 this
 )
+)
+=
+=
+=
+null
 )
 {
 return
@@ -2995,7 +3005,7 @@ a
 =
 UnsafeGetReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_TARGET
 )
 ;
@@ -3035,7 +3045,7 @@ index
 =
 UnsafeGetReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_NEXT_INDEX
 )
 ;
@@ -3044,7 +3054,7 @@ itemKind
 =
 UnsafeGetInt32FromReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_ITEM_KIND
 )
 ;
@@ -3111,7 +3121,7 @@ len
 {
 UnsafeSetReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_TARGET
 null
 )
@@ -3128,7 +3138,7 @@ result
 }
 UnsafeSetReservedSlot
 (
-this
+obj
 ITERATOR_SLOT_NEXT_INDEX
 index
 +

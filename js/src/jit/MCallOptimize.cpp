@@ -1990,10 +1990,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsArrayIterator
+IntrinsicGuardToArrayIterator
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
