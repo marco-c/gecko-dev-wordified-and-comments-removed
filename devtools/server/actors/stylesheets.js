@@ -2440,6 +2440,14 @@ text
 =
 text
 ;
+if
+(
+kind
+!
+=
+UPDATE_PRESERVING_RULES
+)
+{
 this
 .
 _notifyPropertyChanged
@@ -2449,6 +2457,7 @@ ruleCount
 "
 )
 ;
+}
 if
 (
 transition
