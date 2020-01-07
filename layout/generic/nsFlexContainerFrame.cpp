@@ -5863,7 +5863,7 @@ childRIForMeasuringBSize
 .
 mFlags
 .
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 =
 true
 ;

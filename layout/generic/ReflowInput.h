@@ -675,7 +675,7 @@ mIsColumnBalancing
 1
 ;
 bool
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 :
 1
 ;
