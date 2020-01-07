@@ -13049,7 +13049,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_THREAD_OPS
+ENABLE_WASM_SIGNEXTEND_OPS
 static
 bool
 EmitSignExtend
@@ -24374,7 +24374,7 @@ Double
 ;
 #
 ifdef
-ENABLE_WASM_THREAD_OPS
+ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (
