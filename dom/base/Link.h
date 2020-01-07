@@ -549,14 +549,6 @@ UnregisterFromHistory
 (
 )
 ;
-already_AddRefed
-<
-nsIURI
->
-GetURIToMutate
-(
-)
-;
 void
 SetHrefAttribute
 (

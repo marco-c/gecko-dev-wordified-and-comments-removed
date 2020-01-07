@@ -11272,7 +11272,7 @@ return
 clone
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsStandardURL
 :
 :

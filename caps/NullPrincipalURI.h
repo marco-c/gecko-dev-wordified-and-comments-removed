@@ -181,6 +181,15 @@ NSID_LENGTH
 mPath
 ;
 nsresult
+Clone
+(
+nsIURI
+*
+*
+aURI
+)
+;
+nsresult
 SetSpecInternal
 (
 const

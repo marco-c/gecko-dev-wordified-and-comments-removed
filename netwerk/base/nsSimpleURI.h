@@ -200,6 +200,16 @@ eReplaceRef
 ;
 virtual
 nsresult
+Clone
+(
+nsIURI
+*
+*
+aURI
+)
+;
+virtual
+nsresult
 SetSpecInternal
 (
 const

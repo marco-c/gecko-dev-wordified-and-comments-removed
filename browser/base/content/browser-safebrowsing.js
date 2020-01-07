@@ -237,10 +237,6 @@ pageUri
 gBrowser
 .
 currentURI
-.
-clone
-(
-)
 ;
 if
 (

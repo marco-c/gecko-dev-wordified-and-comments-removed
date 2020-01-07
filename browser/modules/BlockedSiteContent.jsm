@@ -126,10 +126,6 @@ reportUri
 httpChannel
 .
 URI
-.
-clone
-(
-)
 ;
 if
 (

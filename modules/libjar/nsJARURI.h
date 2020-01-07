@@ -347,6 +347,15 @@ mCharsetHint
 private
 :
 nsresult
+Clone
+(
+nsIURI
+*
+*
+aURI
+)
+;
+nsresult
 SetSpecInternal
 (
 const
