@@ -1850,11 +1850,6 @@ aData
 ;
 protected
 :
-bool
-CheckDOMModified
-(
-)
-;
 LayerManager
 *
 mRetainingManager
@@ -1883,12 +1878,6 @@ const
 DisplayItemClip
 *
 mInactiveLayerClip
-;
-uint32_t
-mInitialDOMGeneration
-;
-bool
-mDetectedDOMModification
 ;
 bool
 mInvalidateAllLayers
