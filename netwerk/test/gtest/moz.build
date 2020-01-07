@@ -137,6 +137,11 @@ TestStandardURL
 .
 cpp
 '
+'
+TestURIMutator
+.
+cpp
+'
 ]
 TEST_DIRS
 +
