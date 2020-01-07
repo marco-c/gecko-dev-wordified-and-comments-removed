@@ -802,7 +802,7 @@ true
 SET_DEFAULT
 (
 spectreStringMitigations
-false
+true
 )
 ;
 SET_DEFAULT

@@ -11148,7 +11148,7 @@ spectre
 .
 string_mitigations
 "
-false
+true
 )
 ;
 pref
