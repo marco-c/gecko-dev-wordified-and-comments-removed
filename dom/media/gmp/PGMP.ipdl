@@ -181,6 +181,13 @@ adapter
 )
 ;
 async
+ProvideStorageId
+(
+nsCString
+storageId
+)
+;
+async
 PreloadLibs
 (
 nsCString

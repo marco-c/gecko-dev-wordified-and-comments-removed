@@ -85,6 +85,10 @@ cdm
 ContentDecryptionModule_9
 *
 aCDM
+const
+nsCString
+&
+aStorageId
 )
 ;
 void
@@ -317,8 +321,7 @@ uint32_t
 aVersion
 )
 override
-{
-}
+;
 cdm
 :
 :
@@ -839,6 +842,9 @@ bool
 mDestroyed
 =
 false
+;
+nsCString
+mStorageId
 ;
 }
 ;
