@@ -631,10 +631,6 @@ NSColor
 *
 mBackgroundColor
 ;
-NSView
-*
-mTitlebarView
-;
 NSRect
 mWindowButtonsRect
 ;
