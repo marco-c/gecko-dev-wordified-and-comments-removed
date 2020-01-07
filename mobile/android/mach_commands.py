@@ -4708,14 +4708,6 @@ x86
 "
 .
 '
-                     
-default
-=
-'
-4
-.
-3
-'
 )
     
 CommandArgument
