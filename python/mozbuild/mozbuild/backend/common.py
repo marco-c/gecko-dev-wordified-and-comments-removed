@@ -1188,6 +1188,12 @@ set
 (
 )
         
+seen_pgo_gen_only_objs
+=
+set
+(
+)
+        
 seen_libs
 =
 set
@@ -1201,6 +1207,15 @@ lib
 )
 :
             
+seen_pgo_gen_only_objs
+.
+update
+(
+lib
+.
+pgo_gen_only_objs
+)
+            
 for
 o
 in
@@ -1211,25 +1226,32 @@ objs
                 
 if
 o
-not
 in
 seen_objs
 :
                     
+continue
+                
+assert
+o
+not
+in
+seen_pgo_gen_only_objs
+                
 seen_objs
 .
 add
 (
 o
 )
-                    
+                
 objs
 .
 append
 (
 o
 )
-                    
+                
 if
 lib
 .
@@ -1239,7 +1261,7 @@ lib
 .
 no_pgo
 :
-                        
+                    
 no_pgo_objs
 .
 append
@@ -1473,11 +1495,19 @@ lib
 )
         
 return
+(
 objs
+sorted
+(
+seen_pgo_gen_only_objs
+)
 no_pgo_objs
+\
+                
 shared_libs
 os_libs
 static_libs
+)
     
 def
 _make_list_file

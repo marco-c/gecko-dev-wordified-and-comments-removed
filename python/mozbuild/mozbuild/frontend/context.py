@@ -8885,6 +8885,11 @@ flags
 '
 :
 List
+'
+pgo_generate_only
+'
+:
+bool
 }
 )
 )
