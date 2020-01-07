@@ -188,11 +188,6 @@ nsIBoxObject
 idl
 '
 '
-nsIContainerBoxObject
-.
-idl
-'
-'
 nsIListBoxObject
 .
 idl
