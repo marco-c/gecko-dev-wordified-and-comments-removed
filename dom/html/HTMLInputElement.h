@@ -4832,7 +4832,7 @@ private
 :
 static
 void
-MapAttributesIntoRule
+ImageInputMapAttributesIntoRule
 (
 const
 nsMappedAttributes
