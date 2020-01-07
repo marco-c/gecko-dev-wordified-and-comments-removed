@@ -1621,6 +1621,13 @@ cpp
 '
 jit
 /
+AsyncInterrupt
+.
+cpp
+'
+'
+jit
+/
 BacktrackingAllocator
 .
 cpp

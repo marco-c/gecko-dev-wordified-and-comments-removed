@@ -15226,13 +15226,6 @@ addInterruptCheck
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-HaveSignalHandlers
-(
-)
-)
-;
 }
 void
 jumpTable
@@ -48639,10 +48632,6 @@ localInfo_
 )
 return
 false
-;
-addInterruptCheck
-(
-)
 ;
 return
 true
