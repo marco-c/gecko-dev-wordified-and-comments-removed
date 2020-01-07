@@ -90,9 +90,7 @@ v
 )
 =
 >
-{
 v
-}
 Err
 (
 e
@@ -109,6 +107,7 @@ e
 }
 }
 }
+;
 }
 fn
 u2f_get_key_handle_from_register_response

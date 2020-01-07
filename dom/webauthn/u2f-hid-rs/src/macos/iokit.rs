@@ -1186,6 +1186,12 @@ mod
 tests
 {
 use
+super
+:
+:
+*
+;
+use
 core_foundation_sys
 :
 :
@@ -1235,12 +1241,6 @@ std
 :
 :
 thread
-;
-use
-super
-:
-:
-*
 ;
 extern
 "
