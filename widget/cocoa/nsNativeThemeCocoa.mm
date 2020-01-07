@@ -15207,9 +15207,8 @@ const
 HIRect
 &
 inBoxRect
-nsIFrame
-*
-aFrame
+bool
+aIsMain
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -15336,11 +15335,7 @@ regularwin
 windowtype
 "
 (
-IsActive
-(
-aFrame
-YES
-)
+aIsMain
 ?
 "
 normal
@@ -18607,7 +18602,11 @@ DrawStatusBar
 (
 cgContext
 macRect
+IsActive
+(
 aFrame
+YES
+)
 )
 ;
 break

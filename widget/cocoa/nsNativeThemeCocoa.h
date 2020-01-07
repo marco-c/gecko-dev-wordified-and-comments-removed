@@ -1621,9 +1621,8 @@ const
 HIRect
 &
 inBoxRect
-nsIFrame
-*
-aFrame
+bool
+aIsMain
 )
 ;
 void
