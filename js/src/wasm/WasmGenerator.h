@@ -694,7 +694,7 @@ ShareableBytes
 bytecode
 )
 ;
-UniqueCodeSegment
+UniqueModuleSegment
 finish
 (
 const

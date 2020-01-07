@@ -19,9 +19,6 @@ js
 namespace
 wasm
 {
-class
-CodeSegment
-;
 typedef
 Vector
 <

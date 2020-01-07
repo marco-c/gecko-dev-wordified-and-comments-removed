@@ -1222,7 +1222,7 @@ UniqueLinkDataTier
 linkData2
 UniqueMetadataTier
 metadata2
-UniqueCodeSegment
+UniqueModuleSegment
 code2
 ModuleEnvironment
 *
@@ -2962,9 +2962,9 @@ true
 ;
 }
 const
-CodeSegment
+ModuleSegment
 &
-codeSegment
+moduleSegment
 =
 code_
 -
@@ -2981,7 +2981,7 @@ cx
 JS_NewUint8Array
 (
 cx
-codeSegment
+moduleSegment
 .
 length
 (
@@ -3012,12 +3012,12 @@ TypedArrayObject
 viewDataUnshared
 (
 )
-codeSegment
+moduleSegment
 .
 base
 (
 )
-codeSegment
+moduleSegment
 .
 length
 (
@@ -6013,9 +6013,9 @@ true
 )
 {
 auto
-codeSegment
+moduleSegment
 =
-CodeSegment
+ModuleSegment
 :
 :
 create
@@ -6045,7 +6045,7 @@ metadata
 if
 (
 !
-codeSegment
+moduleSegment
 )
 {
 ReportOutOfMemory
@@ -6072,7 +6072,7 @@ CompileMode
 :
 Once
 *
-codeSegment
+moduleSegment
 metadata
 (
 Tier
@@ -6096,7 +6096,7 @@ Code
 (
 Move
 (
-codeSegment
+moduleSegment
 )
 metadata
 (

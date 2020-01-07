@@ -6407,7 +6407,7 @@ wasm
 LookupFaultingInstance
 (
 const
-CodeSegment
+ModuleSegment
 &
 codeSegment
 void

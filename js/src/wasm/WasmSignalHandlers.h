@@ -84,7 +84,7 @@ HaveSignalHandlers
 )
 ;
 class
-CodeSegment
+ModuleSegment
 ;
 bool
 InInterruptibleCode
@@ -96,10 +96,10 @@ uint8_t
 *
 pc
 const
-CodeSegment
+ModuleSegment
 *
 *
-cs
+ms
 )
 ;
 #
