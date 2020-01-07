@@ -5190,12 +5190,6 @@ CSSFiltersEnabled
 ;
 static
 bool
-UnsetValueEnabled
-(
-)
-;
-static
-bool
 IsInterCharacterRubyEnabled
 (
 )
