@@ -2926,6 +2926,10 @@ mComputedStyle
 aImageURLs
 )
 ;
+ClearCurrentStyleSources
+(
+)
+;
 }
 DeclarationBlock
 *
