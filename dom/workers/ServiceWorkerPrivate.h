@@ -287,7 +287,7 @@ aLoadGroup
 const
 nsAString
 &
-aDocumentId
+aClientId
 bool
 aIsReload
 )

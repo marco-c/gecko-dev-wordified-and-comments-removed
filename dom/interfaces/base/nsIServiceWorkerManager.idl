@@ -821,9 +821,6 @@ MaybeStartControlling
 in
 nsIDocument
 aDoc
-in
-DOMString
-aDocumentId
 )
 ;
 /

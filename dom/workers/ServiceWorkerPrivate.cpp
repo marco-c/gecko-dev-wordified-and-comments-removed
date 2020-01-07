@@ -4963,7 +4963,7 @@ aRegistration
 const
 nsAString
 &
-aDocumentId
+aClientId
 bool
 aIsReload
 bool
@@ -4986,7 +4986,7 @@ aScriptSpec
 )
 mClientId
 (
-aDocumentId
+aClientId
 )
 mIsReload
 (
@@ -6437,6 +6437,15 @@ mClientId
 IsEmpty
 (
 )
+&
+&
+!
+internalReq
+-
+>
+IsNavigationRequest
+(
+)
 )
 {
 init
@@ -6679,7 +6688,7 @@ aLoadGroup
 const
 nsAString
 &
-aDocumentId
+aClientId
 bool
 aIsReload
 )
@@ -7013,7 +7022,7 @@ ScriptSpec
 (
 )
 regInfo
-aDocumentId
+aClientId
 aIsReload
 newWorkerCreated
 )
@@ -7662,10 +7671,7 @@ WorkerTypeService
 VoidString
 (
 )
-mInfo
--
->
-Scope
+EmptyCString
 (
 )
 &

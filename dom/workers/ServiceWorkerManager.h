@@ -479,10 +479,6 @@ aOriginAttributes
 nsIDocument
 *
 aDoc
-const
-nsAString
-&
-aDocumentIdForTopLevelNavigation
 nsIInterceptedChannel
 *
 aChannel
@@ -1107,10 +1103,6 @@ aRegistration
 nsIDocument
 *
 aDoc
-const
-nsAString
-&
-aDocumentId
 )
 ;
 void
