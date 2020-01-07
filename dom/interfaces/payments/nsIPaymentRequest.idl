@@ -368,6 +368,14 @@ attribute
 AString
 error
 ;
+[
+implicit_jscontext
+]
+readonly
+attribute
+jsval
+shippingAddressErrors
+;
 void
 update
 (
@@ -377,6 +385,11 @@ aDetails
 in
 boolean
 aRequestShipping
+)
+;
+AString
+shippingAddressErrorsJSON
+(
 )
 ;
 }

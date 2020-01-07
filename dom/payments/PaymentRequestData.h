@@ -414,6 +414,10 @@ const
 nsAString
 &
 aError
+const
+nsAString
+&
+aShippingAddressError
 )
 ;
 ~
@@ -452,6 +456,9 @@ mModifiers
 ;
 nsString
 mError
+;
+nsString
+mShippingAddressErrors
 ;
 }
 ;

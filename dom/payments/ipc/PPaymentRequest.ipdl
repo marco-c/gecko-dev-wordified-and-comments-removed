@@ -246,6 +246,9 @@ modifiers
 nsString
 error
 ;
+nsString
+shippingAddressErrors
+;
 bool
 displayItemsPassed
 ;
