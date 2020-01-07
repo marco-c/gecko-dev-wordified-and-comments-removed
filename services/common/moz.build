@@ -149,13 +149,6 @@ clients
 js
 '
 '
-blocklist
--
-updater
-.
-js
-'
-'
 kinto
 -
 http
@@ -189,6 +182,13 @@ js
 '
 '
 observers
+.
+js
+'
+'
+remote
+-
+settings
 .
 js
 '
