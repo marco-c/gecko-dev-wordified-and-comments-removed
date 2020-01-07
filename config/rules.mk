@@ -5992,8 +5992,7 @@ cargo_build_flags
 +
 =
 -
--
-verbose
+vv
 else
 ifdef
 MOZ_AUTOMATION
@@ -6001,8 +6000,7 @@ cargo_build_flags
 +
 =
 -
--
-verbose
+vv
 endif
 #
 MOZ_AUTOMATION
