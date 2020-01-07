@@ -795,6 +795,11 @@ UNIFIED_SOURCES
 =
 [
 '
+testBinASTReader
+.
+cpp
+'
+'
 testBinTokenReaderTester
 .
 cpp
