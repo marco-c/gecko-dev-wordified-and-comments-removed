@@ -2736,11 +2736,15 @@ document
 getElementById
 (
 "
-privateBrowsingAutoStart
+browser
+.
+privatebrowsing
+.
+autostart
 "
 )
 .
-checked
+value
 ;
 this
 .
