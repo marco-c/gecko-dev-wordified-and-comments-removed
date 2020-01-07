@@ -730,8 +730,6 @@ Ahem
 AHEM
 COPY
 :
-css
-/
 fonts
 /
 ahem
@@ -4580,8 +4578,6 @@ WRONG
 -
 DIR
 :
-css
-/
 fonts
 /
 *
@@ -5701,8 +5697,6 @@ effects
 INDENT
 TABS
 :
-css
-/
 fonts
 /
 *
