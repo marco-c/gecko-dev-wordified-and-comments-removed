@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 {
@@ -11,7 +11,7 @@ u64
 }
 ;
 use
-core
+std
 :
 :
 {
@@ -23,7 +23,7 @@ i64
 }
 ;
 use
-core
+std
 :
 :
 {
@@ -32,7 +32,7 @@ f64
 }
 ;
 use
-core
+std
 :
 :
 num

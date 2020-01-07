@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 ops
@@ -11,7 +11,7 @@ Mul
 }
 ;
 use
-core
+std
 :
 :
 num
