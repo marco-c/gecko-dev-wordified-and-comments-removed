@@ -694,7 +694,7 @@ exit
 code
 is
 %
-u
+lu
 instead
 of
 0
