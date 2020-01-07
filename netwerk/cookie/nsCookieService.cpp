@@ -11644,6 +11644,12 @@ aArgc
 =
 =
 1
+|
+|
+aArgc
+=
+=
+2
 )
 ;
 OriginAttributes
@@ -11659,6 +11665,13 @@ attrs
 aOriginAttributes
 aCx
 aArgc
+=
+=
+0
+?
+0
+:
+1
 u
 "
 nsICookieManager
