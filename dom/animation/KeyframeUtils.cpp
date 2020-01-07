@@ -6943,6 +6943,9 @@ diffOffset
 ;
 }
 }
+#
+ifdef
+MOZ_OLD_STYLE
 template
 nsTArray
 <
@@ -6976,6 +6979,8 @@ CompositeOperation
 aEffectComposite
 )
 ;
+#
+endif
 template
 nsTArray
 <
