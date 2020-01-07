@@ -212,7 +212,7 @@ aTableName
 uint32_t
 aCount
 PrefixArray
-*
+&
 aNoiseEntries
 )
 ;

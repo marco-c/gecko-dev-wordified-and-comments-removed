@@ -7225,7 +7225,7 @@ aTableName
 uint32_t
 aCount
 PrefixArray
-*
+&
 aNoiseEntries
 )
 {
@@ -7456,8 +7456,7 @@ aPrefix
 )
 {
 aNoiseEntries
--
->
+.
 AppendElement
 (
 newPrefix
