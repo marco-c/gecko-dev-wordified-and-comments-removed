@@ -612,8 +612,14 @@ EnsureEditorInitialized
 )
 override
 ;
+mozilla
+:
+:
 UniquePtr
 <
+mozilla
+:
+:
 PresState
 >
 SaveState
@@ -624,6 +630,9 @@ override
 NS_IMETHOD
 RestoreState
 (
+mozilla
+:
+:
 PresState
 *
 aState
