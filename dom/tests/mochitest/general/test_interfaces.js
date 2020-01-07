@@ -3850,8 +3850,7 @@ OfflineResourceList
 "
 insecureContext
 :
-!
-isEarlyBetaOrEarlier
+false
 }
 {
 name
