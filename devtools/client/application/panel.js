@@ -54,6 +54,7 @@ makeRemote
 )
 ;
 }
+await
 this
 .
 panelWin
