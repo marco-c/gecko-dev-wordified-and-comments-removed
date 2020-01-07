@@ -471,6 +471,16 @@ aWindowId
 )
 ;
 void
+DecPendingFrameCount
+(
+wr
+:
+:
+WindowId
+aWindowId
+)
+;
+void
 IncRenderingFrameCount
 (
 wr

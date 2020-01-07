@@ -4325,12 +4325,10 @@ aWindowId
 ;
 extern
 void
-wr_notifier_new_scroll_frame_ready
+wr_notifier_nop_frame_done
 (
 WrWindowId
 aWindowId
-bool
-aCompositeNeeded
 )
 ;
 extern
