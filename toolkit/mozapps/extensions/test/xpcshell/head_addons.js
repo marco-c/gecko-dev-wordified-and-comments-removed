@@ -117,14 +117,14 @@ url
 "
 ;
 const
-PREF_GETADDONS_BYIDS_PERFORMANCE
+PREF_COMPAT_OVERRIDES
 =
 "
 extensions
 .
 getAddons
 .
-getWithPerformance
+compatOverides
 .
 url
 "

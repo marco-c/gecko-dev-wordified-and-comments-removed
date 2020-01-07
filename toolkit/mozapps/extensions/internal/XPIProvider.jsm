@@ -17398,6 +17398,10 @@ getCachedAddonByID
 addon
 .
 id
+)
+.
+then
+(
 aRepoAddon
 =
 >
@@ -17405,6 +17409,16 @@ aRepoAddon
 if
 (
 aRepoAddon
+|
+|
+AddonRepository
+.
+getCompatibilityOverridesSync
+(
+addon
+.
+id
+)
 )
 {
 logger
@@ -25565,6 +25579,9 @@ reviewCount
 "
 "
 reviewURL
+"
+"
+weeklyDownloads
 "
 ]
 .

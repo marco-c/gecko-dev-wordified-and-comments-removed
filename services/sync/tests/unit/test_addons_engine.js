@@ -1300,7 +1300,7 @@ addon1
 -
 search
 .
-xml
+json
 "
 )
 )

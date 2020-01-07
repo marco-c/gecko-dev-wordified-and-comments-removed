@@ -301,9 +301,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -320,9 +318,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -339,9 +335,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -358,9 +352,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /

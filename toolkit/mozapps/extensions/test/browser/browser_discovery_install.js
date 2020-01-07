@@ -81,16 +81,6 @@ prefs
 .
 setBoolPref
 (
-PREF_GETADDONS_CACHE_ENABLED
-true
-)
-;
-Services
-.
-prefs
-.
-setBoolPref
-(
 PREF_INSTALL_REQUIREBUILTINCERTS
 false
 )
