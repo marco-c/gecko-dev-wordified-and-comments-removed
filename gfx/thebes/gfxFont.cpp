@@ -21623,7 +21623,14 @@ ForHash
 (
 )
 size
+int32_t
+(
 sizeAdjust
+*
+1000
+.
+0f
+)
 nsRefPtrHashKey
 <
 nsAtom
