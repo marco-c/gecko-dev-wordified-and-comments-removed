@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -53,7 +53,7 @@ inDeepTreeWalker
 nsresult
 SetCurrentNode
 (
-nsIDOMNode
+nsINode
 *
 aCurrentNode
 nsINodeList
@@ -71,7 +71,7 @@ inDeepTreeWalker
 ;
 already_AddRefed
 <
-nsIDOMNode
+nsINode
 >
 GetParent
 (
@@ -80,7 +80,7 @@ GetParent
 nsresult
 EdgeChild
 (
-nsIDOMNode
+nsINode
 *
 *
 _retval
@@ -99,13 +99,13 @@ mShowDocumentsAsNodes
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mRoot
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mCurrentNode
 ;

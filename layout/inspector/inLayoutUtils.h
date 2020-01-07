@@ -8,9 +8,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMNode
-;
-class
 nsINode
 ;
 namespace
@@ -56,7 +53,7 @@ nsIDocument
 *
 GetSubDocumentFor
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
