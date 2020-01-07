@@ -2625,7 +2625,7 @@ _mountReactComponent
 ;
 this
 .
-_buildDockButtons
+_buildDockOptions
 (
 )
 ;
@@ -5080,7 +5080,7 @@ this
 _notificationBox
 ;
 }
-_buildDockButtons
+_buildDockOptions
 :
 function
 (
@@ -5100,7 +5100,7 @@ this
 .
 component
 .
-setDockButtonsEnabled
+setDockOptionsEnabled
 (
 false
 )
@@ -5112,7 +5112,7 @@ this
 .
 component
 .
-setDockButtonsEnabled
+setDockOptionsEnabled
 (
 true
 )
@@ -10373,7 +10373,7 @@ hostType
 ;
 this
 .
-_buildDockButtons
+_buildDockOptions
 (
 )
 ;
