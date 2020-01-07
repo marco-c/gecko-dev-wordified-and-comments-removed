@@ -127,17 +127,6 @@ working
 with
 CSS
 colors
-[
-implicit_jscontext
-]
-jsval
-colorNameToRGB
-(
-in
-DOMString
-aColorName
-)
-;
 AString
 rgbToColorName
 (
