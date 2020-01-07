@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsPlaceholderFrame
 .
 h
