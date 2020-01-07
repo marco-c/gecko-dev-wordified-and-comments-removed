@@ -4623,7 +4623,7 @@ return
 maxStackHeight_
 <
 =
-256
+512
 *
 1024
 ;
