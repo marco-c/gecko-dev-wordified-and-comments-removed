@@ -964,7 +964,6 @@ stringGrip
 async
 onNetworkEvent
 (
-type
 networkInfo
 )
 {
@@ -1014,7 +1013,6 @@ actor
 }
 onNetworkEventUpdate
 (
-type
 data
 )
 {

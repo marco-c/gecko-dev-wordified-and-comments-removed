@@ -1707,8 +1707,8 @@ stubPackets
 ;
 ;
 }
+async
 function
-*
 generateConsoleApiStubs
 (
 )
@@ -1787,7 +1787,7 @@ packets
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -1961,7 +1961,7 @@ listener
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2037,7 +2037,7 @@ remove
 }
 )
 ;
-yield
+await
 received
 ;
 }
@@ -2054,7 +2054,7 @@ FILTER
 LOG
 )
 ;
-yield
+await
 closeTabAndToolbox
 (
 )
@@ -2069,8 +2069,8 @@ ConsoleMessage
 )
 ;
 }
+async
 function
-*
 generateCssMessageStubs
 (
 )
@@ -2135,7 +2135,7 @@ packets
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -2281,7 +2281,7 @@ resolve
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2335,11 +2335,11 @@ style
 }
 )
 ;
-yield
+await
 received
 ;
 }
-yield
+await
 closeTabAndToolbox
 (
 )
@@ -2354,8 +2354,8 @@ ConsoleMessage
 )
 ;
 }
+async
 function
-*
 generateEvaluationResultStubs
 (
 )
@@ -2396,7 +2396,7 @@ packets
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -2419,7 +2419,7 @@ evaluationResult
 const
 packet
 =
-yield
+await
 new
 Promise
 (
@@ -2469,7 +2469,7 @@ packet
 )
 ;
 }
-yield
+await
 closeTabAndToolbox
 (
 )
@@ -2484,8 +2484,8 @@ ConsoleMessage
 )
 ;
 }
+async
 function
-*
 generateNetworkEventStubs
 (
 )
@@ -2550,7 +2550,7 @@ packets
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -2615,7 +2615,6 @@ networkEvent
 function
 onNetworkEvent
 (
-type
 res
 )
 {
@@ -2849,7 +2848,7 @@ resolve
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2925,7 +2924,7 @@ remove
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2937,7 +2936,7 @@ onNetworkUpdate
 )
 ;
 }
-yield
+await
 closeTabAndToolbox
 (
 )
@@ -2952,8 +2951,8 @@ NetworkEventMessage
 )
 ;
 }
+async
 function
-*
 generatePageErrorStubs
 (
 )
@@ -3018,7 +3017,7 @@ packets
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -3131,7 +3130,7 @@ expectUncaughtException
 )
 ;
 }
-yield
+await
 ContentTask
 .
 spawn
@@ -3191,11 +3190,11 @@ remove
 }
 )
 ;
-yield
+await
 received
 ;
 }
-yield
+await
 closeTabAndToolbox
 (
 )

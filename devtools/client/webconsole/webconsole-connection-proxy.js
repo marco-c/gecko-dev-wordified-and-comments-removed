@@ -1294,7 +1294,6 @@ _onNetworkEvent
 :
 function
 (
-type
 networkInfo
 )
 {
@@ -1343,7 +1342,6 @@ _onNetworkEventUpdate
 :
 function
 (
-type
 response
 )
 {

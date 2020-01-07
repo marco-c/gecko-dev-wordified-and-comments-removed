@@ -1641,10 +1641,7 @@ this
 .
 _onInspectObject
 =
-(
-event
 packet
-)
 =
 >
 this

@@ -1019,9 +1019,6 @@ dataProvider
 .
 onNetworkEvent
 (
-"
-networkEvent
-"
 networkInfo
 )
 ;
@@ -1041,9 +1038,6 @@ dataProvider
 .
 onNetworkEventUpdate
 (
-"
-networkEventUpdate
-"
 {
 packet
 :
@@ -1122,7 +1116,6 @@ event
 }
 onDocEvent
 (
-type
 event
 )
 {
