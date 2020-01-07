@@ -2599,14 +2599,6 @@ testing
 /
 marionette
 /
-test_
-*
-.
-js
-testing
-/
-marionette
-/
 atom
 .
 js
