@@ -179,9 +179,6 @@ Worker
 interface
 PerformanceObserver
 {
-[
-Throws
-]
 void
 observe
 (
