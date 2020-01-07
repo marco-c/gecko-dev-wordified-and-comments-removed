@@ -7757,6 +7757,13 @@ failure
 return
 false
 ;
+allocator
+.
+discardStack
+(
+masm
+)
+;
 Label
 slow
 done
@@ -7787,13 +7794,6 @@ bind
 (
 &
 slow
-)
-;
-allocator
-.
-discardStack
-(
-masm
 )
 ;
 prepareVMCall

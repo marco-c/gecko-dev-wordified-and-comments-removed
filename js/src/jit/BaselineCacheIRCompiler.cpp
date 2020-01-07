@@ -5293,6 +5293,13 @@ failure
 return
 false
 ;
+allocator
+.
+discardStack
+(
+masm
+)
+;
 Label
 slow
 done
@@ -5326,13 +5333,6 @@ slow
 )
 ;
 {
-allocator
-.
-discardStack
-(
-masm
-)
-;
 AutoStubFrame
 stubFrame
 (
