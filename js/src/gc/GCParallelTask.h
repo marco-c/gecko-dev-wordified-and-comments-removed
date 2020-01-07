@@ -35,6 +35,9 @@ namespace
 js
 {
 class
+AutoLockHelperThreadState
+;
+class
 GCParallelTask
 {
 public
