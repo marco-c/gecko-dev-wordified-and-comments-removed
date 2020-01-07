@@ -143,6 +143,13 @@ nsRefPtrHashtable
 .
 h
 "
+#
+include
+"
+nsIThreadPool
+.
+h
+"
 class
 nsHostResolver
 ;
@@ -1375,7 +1382,7 @@ Mutex
 mLock
 ;
 CondVar
-mIdleThreadCV
+mIdleTaskCV
 ;
 nsRefPtrHashtable
 <
@@ -1453,6 +1460,12 @@ mozilla
 TimeDuration
 mShortIdleTimeout
 ;
+RefPtr
+<
+nsIThreadPool
+>
+mResolverThreads
+;
 mozilla
 :
 :
@@ -1469,7 +1482,7 @@ Atomic
 <
 uint32_t
 >
-mNumIdleThreads
+mNumIdleTasks
 ;
 mozilla
 :
@@ -1478,7 +1491,7 @@ Atomic
 <
 uint32_t
 >
-mThreadCount
+mActiveTaskCount
 ;
 mozilla
 :
