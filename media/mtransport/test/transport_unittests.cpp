@@ -2110,6 +2110,12 @@ ice_ctx_
 =
 nullptr
 ;
+streams_
+.
+clear
+(
+)
+;
 }
 void
 DisconnectDestroyFlow
