@@ -5914,6 +5914,15 @@ builtin
 /
 intl
 /
+DateTimeFormat
+.
+js
+'
+'
+builtin
+/
+intl
+/
 IntlObject
 .
 js
