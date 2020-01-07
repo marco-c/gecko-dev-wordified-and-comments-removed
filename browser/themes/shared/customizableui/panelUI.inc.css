@@ -3817,6 +3817,16 @@ flex
 keyframes
 syncRotate
 {
+from
+{
+transform
+:
+rotate
+(
+0
+)
+;
+}
 to
 {
 transform
