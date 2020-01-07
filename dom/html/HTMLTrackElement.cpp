@@ -435,13 +435,13 @@ nullptr
 }
 ;
 static
-constexpr
 const
 nsAttrValue
 :
 :
 EnumTable
 *
+const
 kKindTableInvalidValueDefault
 =
 &
