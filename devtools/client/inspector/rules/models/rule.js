@@ -1100,7 +1100,7 @@ textProps
 index
 ]
 .
-noticeNewValue
+updateValue
 (
 newValue
 )

@@ -451,7 +451,7 @@ updateEditor
 )
 ;
 }
-noticeNewValue
+updateValue
 :
 function
 (
