@@ -26,15 +26,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -82,7 +76,7 @@ assertTrue
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )
