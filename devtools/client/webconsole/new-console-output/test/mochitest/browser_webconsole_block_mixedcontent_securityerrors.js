@@ -337,7 +337,7 @@ link
 )
 ;
 let
-response
+url
 =
 await
 simulateLinkClick
@@ -347,9 +347,7 @@ learnMoreLink
 ;
 is
 (
-response
-.
-link
+url
 LEARN_MORE_URI
 Clicking
 the
@@ -357,9 +355,7 @@ provided
 link
 opens
 {
-response
-.
-link
+url
 }
 )
 ;
@@ -523,7 +519,7 @@ link
 "
 )
 ;
-response
+url
 =
 await
 simulateLinkClick
@@ -533,9 +529,7 @@ learnMoreLink
 ;
 is
 (
-response
-.
-link
+url
 LEARN_MORE_URI
 Clicking
 the
@@ -543,9 +537,7 @@ provided
 link
 opens
 {
-response
-.
-link
+url
 }
 )
 ;

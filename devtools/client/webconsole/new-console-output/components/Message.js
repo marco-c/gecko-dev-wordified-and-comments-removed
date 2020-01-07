@@ -611,7 +611,6 @@ timeStamp
 }
 onLearnMoreClick
 (
-e
 )
 {
 let
@@ -632,7 +631,6 @@ serviceContainer
 openLink
 (
 exceptionDocURL
-e
 )
 ;
 }
