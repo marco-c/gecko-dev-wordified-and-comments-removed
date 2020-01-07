@@ -182,7 +182,9 @@ exit
 -
 status
 :
+[
 1
+]
 env
 :
 BUILD_TOOLS_REPO
