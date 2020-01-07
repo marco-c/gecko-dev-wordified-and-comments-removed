@@ -221,6 +221,9 @@ class
 APZCTreeManagerParent
 ;
 class
+APZSampler
+;
+class
 CompositorBridgeParent
 ;
 class
@@ -297,6 +300,14 @@ APZCTreeManager
 (
 LayersId
 aRootLayersId
+)
+;
+void
+SetSampler
+(
+APZSampler
+*
+aSampler
 )
 ;
 void
@@ -1275,6 +1286,11 @@ private
 :
 LayersId
 mRootLayersId
+;
+APZSampler
+*
+MOZ_NON_OWNING_REF
+mSampler
 ;
 mutable
 mozilla
