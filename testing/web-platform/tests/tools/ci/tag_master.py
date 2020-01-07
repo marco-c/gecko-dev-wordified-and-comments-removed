@@ -81,6 +81,11 @@ logging
 .
 basicConfig
 (
+level
+=
+logging
+.
+INFO
 )
 logger
 =
