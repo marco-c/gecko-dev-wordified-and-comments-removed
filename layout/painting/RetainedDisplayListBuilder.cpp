@@ -348,6 +348,10 @@ aList
 AnimatedGeometryRoot
 *
 aAGR
+uint32_t
+aCallerKey
+uint32_t
+aNestingDepth
 )
 {
 static
@@ -622,6 +626,8 @@ OldListIndex
 (
 i
 )
+aCallerKey
+aNestingDepth
 )
 ;
 if
@@ -722,6 +728,15 @@ SelectAGRForFrame
 f
 aAGR
 )
+item
+-
+>
+GetPerFrameKey
+(
+)
+aNestingDepth
++
+1
 )
 )
 {
@@ -1169,6 +1184,8 @@ aBuilder
 RetainedDisplayList
 &
 aOldList
+uint32_t
+aOuterKey
 )
 :
 mBuilder
@@ -1209,6 +1226,10 @@ aOldList
 mDAG
 )
 )
+)
+mOuterKey
+(
+aOuterKey
 )
 mResultIsModified
 (
@@ -1379,6 +1400,12 @@ GetChildren
 (
 )
 containerASRForChildren
+aNewItem
+-
+>
+GetPerFrameKey
+(
+)
 )
 )
 {
@@ -1664,6 +1691,7 @@ i
 GetOldListIndex
 (
 mOldList
+mOuterKey
 )
 ;
 return
@@ -2049,6 +2077,12 @@ GetChildren
 (
 )
 containerASRForChildren
+item
+-
+>
+GetPerFrameKey
+(
+)
 )
 )
 {
@@ -2505,6 +2539,9 @@ MergedListUnits
 >
 mMergedDAG
 ;
+uint32_t
+mOuterKey
+;
 bool
 mResultIsModified
 ;
@@ -2539,6 +2576,8 @@ ActiveScrolledRoot
 >
 &
 aOutContainerASR
+uint32_t
+aOuterKey
 )
 {
 MergeState
@@ -2547,6 +2586,7 @@ merge
 this
 *
 aOldList
+aOuterKey
 )
 ;
 Maybe

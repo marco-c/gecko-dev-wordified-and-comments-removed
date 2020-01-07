@@ -129,6 +129,14 @@ aList
 AnimatedGeometryRoot
 *
 aAGR
+uint32_t
+aCallerKey
+=
+0
+uint32_t
+aNestingDepth
+=
+0
 )
 ;
 bool
@@ -157,6 +165,10 @@ ActiveScrolledRoot
 >
 &
 aOutContainerASR
+uint32_t
+aOuterKey
+=
+0
 )
 ;
 bool
