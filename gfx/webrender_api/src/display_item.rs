@@ -1759,6 +1759,12 @@ Sepia
 (
 f32
 )
+DropShadow
+(
+LayoutVector2D
+f32
+ColorF
+)
 }
 #
 [
