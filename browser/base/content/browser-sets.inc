@@ -412,7 +412,9 @@ oncommand
 "
 BrowserCloseTabOrWindow
 (
+event
 )
+;
 "
 /
 >
