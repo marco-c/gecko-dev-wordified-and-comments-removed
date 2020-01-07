@@ -278,7 +278,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -345,7 +345,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 EXPECT_EQ
@@ -491,7 +491,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 std
@@ -571,7 +571,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 std
@@ -649,7 +649,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 if
@@ -771,7 +771,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -827,7 +827,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp384r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -1274,7 +1274,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 CheckConnected
@@ -1304,7 +1304,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -1460,7 +1460,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_curve25519
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -1532,7 +1532,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const
@@ -1621,7 +1621,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_curve25519
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const
@@ -1712,7 +1712,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const
@@ -1804,7 +1804,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const
@@ -1895,7 +1895,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const
@@ -1986,7 +1986,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const
@@ -2271,7 +2271,7 @@ CheckKeys
 ssl_kea_ecdh
 ssl_grp_ec_secp256r1
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 const

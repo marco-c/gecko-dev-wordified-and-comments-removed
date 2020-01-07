@@ -241,10 +241,13 @@ return
 {
 name
 :
-"
 Image
 Builder
-"
+(
+{
+name
+}
+)
 image
 :
 "
