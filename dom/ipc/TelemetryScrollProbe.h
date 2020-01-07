@@ -15,9 +15,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMEvent
-;
-class
 nsIPresShell
 ;
 class
@@ -29,6 +26,9 @@ mozilla
 namespace
 dom
 {
+class
+Event
+;
 class
 TabChildGlobal
 ;
@@ -103,7 +103,7 @@ const
 bool
 ShouldIgnore
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )

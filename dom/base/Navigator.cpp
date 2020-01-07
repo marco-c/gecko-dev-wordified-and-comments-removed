@@ -2928,11 +2928,6 @@ do_QueryInterface
 aEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 GetTarget
 (
 )
