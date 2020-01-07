@@ -976,7 +976,7 @@ content
 content
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -993,7 +993,7 @@ GetBlockParent
 (
 const
 Text
-*
+&
 aNode
 )
 {
@@ -1005,9 +1005,8 @@ nsIContent
 current
 =
 aNode
--
->
-GetParent
+.
+GetFlattenedTreeParent
 (
 )
 ;
@@ -1018,7 +1017,7 @@ current
 current
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 )
@@ -1454,6 +1453,7 @@ mLastBlockParent
 =
 GetBlockParent
 (
+*
 current
 -
 >
@@ -1534,6 +1534,7 @@ blockParent
 =
 GetBlockParent
 (
+*
 current
 )
 ;
@@ -2466,6 +2467,7 @@ blockParent
 =
 GetBlockParent
 (
+*
 current
 )
 ;
