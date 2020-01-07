@@ -219,11 +219,6 @@ debug
 "
 nightly
 "
-"
-l10n
--
-nightly
-"
 ]
     
 ]
