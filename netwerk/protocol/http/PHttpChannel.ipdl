@@ -737,6 +737,8 @@ bool
 useResponseHead
 nsHttpHeaderArray
 requestHeaders
+ParentLoadInfoForwarderArgs
+loadInfoForwarder
 bool
 isFromCache
 bool
@@ -832,8 +834,8 @@ URIParams
 newOriginalUri
 uint32_t
 redirectFlags
-bool
-allowInsecureRedirectToDataURI
+ParentLoadInfoForwarderArgs
+loadInfoForwarder
 nsHttpResponseHead
 responseHead
 nsCString
