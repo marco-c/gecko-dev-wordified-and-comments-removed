@@ -27356,6 +27356,10 @@ decorationSize
 ;
 GetCSDDecorationSize
 (
+GTK_WINDOW
+(
+mShell
+)
 &
 decorationSize
 )
