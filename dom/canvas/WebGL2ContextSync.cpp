@@ -94,10 +94,6 @@ return
 nullptr
 ;
 }
-MakeContextCurrent
-(
-)
-;
 RefPtr
 <
 WebGLSync
@@ -296,10 +292,6 @@ return
 LOCAL_GL_WAIT_FAILED
 ;
 }
-MakeContextCurrent
-(
-)
-;
 const
 auto
 ret
@@ -439,10 +431,6 @@ funcName
 return
 ;
 }
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
@@ -511,13 +499,6 @@ sync
 )
 )
 return
-;
-gl
--
->
-MakeCurrent
-(
-)
 ;
 GLint
 result

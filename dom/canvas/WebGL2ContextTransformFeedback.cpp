@@ -56,10 +56,6 @@ IsContextLost
 return
 nullptr
 ;
-MakeContextCurrent
-(
-)
-;
 GLuint
 tf
 =
@@ -203,10 +199,6 @@ tf
 )
 return
 false
-;
-MakeContextCurrent
-(
-)
 ;
 return
 gl
@@ -353,10 +345,6 @@ tf
 tf
 :
 mDefaultTransformFeedback
-)
-;
-MakeContextCurrent
-(
 )
 ;
 gl

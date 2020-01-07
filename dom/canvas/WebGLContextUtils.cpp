@@ -3304,10 +3304,6 @@ AssertCachedBindings
 #
 ifdef
 DEBUG
-MakeContextCurrent
-(
-)
-;
 GetAndFlushUnderlyingGLErrors
 (
 )
@@ -3626,10 +3622,6 @@ AssertCachedGlobalState
 #
 ifdef
 DEBUG
-MakeContextCurrent
-(
-)
-;
 GetAndFlushUnderlyingGLErrors
 (
 )

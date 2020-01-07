@@ -90,10 +90,6 @@ NullValue
 (
 )
 ;
-MakeContextCurrent
-(
-)
-;
 switch
 (
 pname

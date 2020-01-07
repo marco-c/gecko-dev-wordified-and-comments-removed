@@ -627,13 +627,6 @@ IsContextLost
 return
 false
 ;
-gl
--
->
-MakeCurrent
-(
-)
-;
 if
 (
 !
@@ -1225,13 +1218,6 @@ IsContextLost
 )
 )
 return
-;
-gl
--
->
-MakeCurrent
-(
-)
 ;
 if
 (

@@ -156,10 +156,6 @@ trackingSlot
 0
 ;
 }
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
@@ -220,10 +216,6 @@ trackingSlot
 1
 ;
 }
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
@@ -689,10 +681,6 @@ JS
 :
 :
 NullValue
-(
-)
-;
-MakeContextCurrent
 (
 )
 ;
@@ -2693,10 +2681,6 @@ setNull
 return
 ;
 }
-MakeContextCurrent
-(
-)
-;
 switch
 (
 pname
@@ -2800,10 +2784,6 @@ isEnabled
 )
 return
 false
-;
-MakeContextCurrent
-(
-)
 ;
 return
 gl

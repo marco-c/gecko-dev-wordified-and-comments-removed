@@ -225,10 +225,6 @@ return
 false
 ;
 }
-MakeContextCurrent
-(
-)
-;
 const
 auto
 &

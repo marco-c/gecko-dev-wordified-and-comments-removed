@@ -8524,13 +8524,6 @@ DestroyResourcesAndContext
 (
 )
 ;
-void
-MakeContextCurrent
-(
-)
-const
-{
-}
 bool
 ConvertImage
 (

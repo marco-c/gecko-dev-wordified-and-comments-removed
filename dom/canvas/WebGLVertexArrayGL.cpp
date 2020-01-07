@@ -70,13 +70,6 @@ nullptr
 mContext
 -
 >
-MakeContextCurrent
-(
-)
-;
-mContext
--
->
 gl
 -
 >
@@ -180,13 +173,6 @@ return
 mIsVAO
 ;
 }
-mContext
--
->
-MakeContextCurrent
-(
-)
-;
 return
 mContext
 -

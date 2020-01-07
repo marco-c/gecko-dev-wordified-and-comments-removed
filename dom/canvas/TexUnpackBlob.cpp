@@ -3110,13 +3110,6 @@ GL
 (
 )
 ;
-gl
--
->
-MakeCurrent
-(
-)
-;
 if
 (
 needsRespec

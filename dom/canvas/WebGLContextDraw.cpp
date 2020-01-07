@@ -2559,10 +2559,6 @@ IsContextLost
 )
 return
 ;
-MakeContextCurrent
-(
-)
-;
 bool
 error
 =
@@ -3327,10 +3323,6 @@ IsContextLost
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 bool
 error
@@ -4871,13 +4863,6 @@ FakeBlackTexture
 (
 )
 {
-mGL
--
->
-MakeCurrent
-(
-)
-;
 mGL
 -
 >

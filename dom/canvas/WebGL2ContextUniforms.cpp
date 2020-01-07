@@ -105,10 +105,6 @@ uniform1ui
 )
 return
 ;
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
@@ -151,10 +147,6 @@ uniform2ui
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 gl
 -
@@ -201,10 +193,6 @@ uniform3ui
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 gl
 -
@@ -254,10 +242,6 @@ uniform4ui
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 gl
 -
@@ -910,10 +894,6 @@ setObject
 array
 )
 ;
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
@@ -1189,10 +1169,6 @@ program
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 switch
 (

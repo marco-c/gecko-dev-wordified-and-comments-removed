@@ -71,10 +71,6 @@ IsContextLost
 )
 return
 ;
-MakeContextCurrent
-(
-)
-;
 uint32_t
 m
 =
@@ -376,10 +372,6 @@ IsContextLost
 )
 return
 ;
-MakeContextCurrent
-(
-)
-;
 const
 bool
 supportsFloatColorBuffers
@@ -505,10 +497,6 @@ IsContextLost
 )
 return
 ;
-MakeContextCurrent
-(
-)
-;
 mDepthClearValue
 =
 GLClampFloat
@@ -542,10 +530,6 @@ IsContextLost
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 mStencilClearValue
 =
@@ -583,10 +567,6 @@ IsContextLost
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 mColorWriteMask
 [
@@ -645,10 +625,6 @@ IsContextLost
 )
 )
 return
-;
-MakeContextCurrent
-(
-)
 ;
 mDepthWriteMask
 =
@@ -852,10 +828,6 @@ mStencilWriteMaskBack
 =
 mask
 ;
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
@@ -937,10 +909,6 @@ mask
 break
 ;
 }
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >
