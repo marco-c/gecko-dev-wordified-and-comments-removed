@@ -291,7 +291,7 @@ sCSSAnonBoxAtomSetup
 i
 ]
 .
-mAtom
+mAtomp
 =
 =
 aPseudo
@@ -354,6 +354,6 @@ aBoxType
 )
 ]
 .
-mAtom
+mAtomp
 ;
 }

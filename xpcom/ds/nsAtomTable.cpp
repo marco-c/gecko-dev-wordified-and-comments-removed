@@ -2613,7 +2613,7 @@ aSetup
 i
 ]
 .
-mAtom
+mAtomp
 ;
 MOZ_ASSERT
 (

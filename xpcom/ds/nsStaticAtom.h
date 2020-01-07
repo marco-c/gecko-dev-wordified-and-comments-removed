@@ -181,7 +181,7 @@ nsStaticAtom
 *
 *
 const
-mAtom
+mAtomp
 ;
 }
 ;
