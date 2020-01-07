@@ -16,15 +16,8 @@ COMPLICATED_URL
 require
 (
 "
-chrome
-:
-/
-/
-damp
-/
-content
-/
-tests
+.
+.
 /
 head
 "

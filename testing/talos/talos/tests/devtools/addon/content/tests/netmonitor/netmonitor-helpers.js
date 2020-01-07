@@ -32,15 +32,8 @@ runTest
 require
 (
 "
-chrome
-:
-/
-/
-damp
-/
-content
-/
-tests
+.
+.
 /
 head
 "
