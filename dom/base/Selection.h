@@ -2060,7 +2060,7 @@ RangeData
 *
 FindRangeData
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )

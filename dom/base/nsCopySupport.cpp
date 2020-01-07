@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h

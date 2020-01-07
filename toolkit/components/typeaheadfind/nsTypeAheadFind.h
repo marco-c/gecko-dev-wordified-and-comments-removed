@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h

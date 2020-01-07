@@ -229,9 +229,6 @@ class
 nsTableWrapperFrame
 ;
 class
-nsIDOMRange
-;
-class
 nsRange
 ;
 namespace

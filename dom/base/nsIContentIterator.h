@@ -31,7 +31,7 @@ class
 nsINode
 ;
 class
-nsIDOMRange
+nsRange
 ;
 #
 define
@@ -80,7 +80,7 @@ virtual
 nsresult
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )

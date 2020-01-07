@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIEditingSession
 .
 h
@@ -174,6 +167,13 @@ h
 include
 "
 nsIMathMLFrame
+.
+h
+"
+#
+include
+"
+nsRange
 .
 h
 "

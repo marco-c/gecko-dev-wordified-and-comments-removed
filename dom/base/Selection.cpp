@@ -1669,7 +1669,7 @@ printf
 (
 "
 NULL
-nsIDOMRange
+Range
 \
 n
 "
@@ -8299,7 +8299,7 @@ Selection
 :
 FindRangeData
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )
