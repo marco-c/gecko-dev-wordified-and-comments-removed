@@ -429,7 +429,7 @@ NS_ERROR_NOT_AVAILABLE
 return
 ;
 }
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
@@ -978,7 +978,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
@@ -1249,7 +1249,7 @@ return
 NS_OK
 ;
 }
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
@@ -1325,7 +1325,7 @@ return
 NS_OK
 ;
 }
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
