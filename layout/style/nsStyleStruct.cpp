@@ -16604,6 +16604,12 @@ aSource
 .
 mAnimationIterationCountCount
 )
+mShapeImageThreshold
+(
+aSource
+.
+mShapeImageThreshold
+)
 mShapeOutside
 (
 aSource
@@ -16988,6 +16994,14 @@ mShapeOutside
 aNewData
 .
 mShapeOutside
+|
+|
+mShapeImageThreshold
+!
+=
+aNewData
+.
+mShapeImageThreshold
 )
 {
 if

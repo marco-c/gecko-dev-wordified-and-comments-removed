@@ -2883,6 +2883,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetShapeImageThreshold
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetShapeOutside
 (
 )

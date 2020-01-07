@@ -10558,6 +10558,13 @@ mAnimationFillModeCount
 mAnimationPlayStateCount
 mAnimationIterationCountCount
 ;
+float
+mShapeImageThreshold
+=
+0
+.
+0f
+;
 mozilla
 :
 :
