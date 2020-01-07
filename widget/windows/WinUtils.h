@@ -1313,6 +1313,12 @@ aPath
 )
 ;
 static
+bool
+RunningFromANetworkDrive
+(
+)
+;
+static
 void
 Initialize
 (
