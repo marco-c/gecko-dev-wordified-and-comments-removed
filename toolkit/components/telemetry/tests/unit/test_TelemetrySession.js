@@ -2148,7 +2148,6 @@ checkPayload
 payload
 reason
 successfulPings
-savedPings
 )
 {
 Assert
@@ -2229,18 +2228,6 @@ simpleMeasurements
 .
 shutdownDuration
 SHUTDOWN_TIME
-)
-;
-Assert
-.
-equal
-(
-payload
-.
-simpleMeasurements
-.
-savedPings
-savedPings
 )
 ;
 Assert
@@ -3926,7 +3913,6 @@ pings
 payload
 REASON_TEST_PING
 0
-1
 )
 ;
 checkPingFormat
@@ -3949,7 +3935,6 @@ pings
 .
 payload
 REASON_SAVED_SESSION
-0
 0
 )
 ;
