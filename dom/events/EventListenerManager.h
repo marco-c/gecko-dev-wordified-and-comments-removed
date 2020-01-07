@@ -1324,6 +1324,7 @@ nsAString
 &
 aEventName
 )
+const
 ;
 bool
 HasListenersFor
@@ -1332,11 +1333,13 @@ nsAtom
 *
 aEventNameWithOn
 )
+const
 ;
 bool
 HasListeners
 (
 )
+const
 ;
 nsresult
 GetListenerInfo
