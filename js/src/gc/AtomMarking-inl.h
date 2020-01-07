@@ -116,7 +116,7 @@ return
 atom
 -
 >
-isPermanentAtom
+isPinned
 (
 )
 ;
