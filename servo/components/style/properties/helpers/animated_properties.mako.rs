@@ -369,7 +369,6 @@ computed
 {
 ClipRect
 Context
-ComputedUrl
 }
 ;
 use
@@ -517,6 +516,18 @@ transform
 Scale
 as
 ComputedScale
+;
+use
+values
+:
+:
+computed
+:
+:
+url
+:
+:
+ComputedUrl
 ;
 use
 values

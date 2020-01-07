@@ -55,7 +55,6 @@ computed
 :
 {
 Angle
-ComputedImageUrl
 Context
 }
 ;
@@ -104,6 +103,18 @@ position
 :
 :
 Position
+;
+use
+values
+:
+:
+computed
+:
+:
+url
+:
+:
+ComputedImageUrl
 ;
 use
 values

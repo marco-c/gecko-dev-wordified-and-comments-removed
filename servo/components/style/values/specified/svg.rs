@@ -85,7 +85,6 @@ specified
 {
 Number
 Opacity
-SpecifiedUrl
 }
 ;
 use
@@ -99,6 +98,18 @@ color
 :
 :
 RGBAColor
+;
+use
+values
+:
+:
+specified
+:
+:
+url
+:
+:
+SpecifiedUrl
 ;
 pub
 type

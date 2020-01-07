@@ -9,10 +9,7 @@ specified
 list
 :
 :
-{
-ListStyleImage
 Quotes
-}
 ;
 #
 [
