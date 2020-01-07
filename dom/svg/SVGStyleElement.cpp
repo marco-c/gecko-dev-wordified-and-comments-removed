@@ -887,7 +887,7 @@ crossorigin
 )
 title
 media
-IsAlternate
+HasAlternateRel
 :
 :
 No

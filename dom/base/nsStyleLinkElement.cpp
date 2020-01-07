@@ -226,7 +226,7 @@ const
 nsAString
 &
 aMedia
-IsAlternate
+HasAlternateRel
 aHasAlternateRel
 IsInline
 aIsInline
@@ -261,7 +261,7 @@ mHasAlternateRel
 aHasAlternateRel
 =
 =
-IsAlternate
+HasAlternateRel
 :
 :
 Yes
