@@ -21704,7 +21704,7 @@ bool
 aAllowCounters
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mUpdateCount
 !
@@ -31979,7 +31979,7 @@ GetPresContext
 FrameC
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mUpdateCount
 !
@@ -33514,7 +33514,7 @@ GetPresContext
 FrameC
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mUpdateCount
 !
