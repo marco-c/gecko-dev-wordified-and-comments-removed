@@ -769,6 +769,9 @@ CreateLoadRequest
 (
 ScriptKind
 aKind
+nsIURI
+*
+aURI
 nsIScriptElement
 *
 aElement
@@ -1224,7 +1227,7 @@ StartFetchingModuleAndDependencies
 (
 ModuleLoadRequest
 *
-aRequest
+aParent
 nsIURI
 *
 aURI

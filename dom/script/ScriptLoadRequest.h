@@ -156,6 +156,9 @@ ScriptLoadRequest
 (
 ScriptKind
 aKind
+nsIURI
+*
+aURI
 nsIScriptElement
 *
 aElement
@@ -600,6 +603,7 @@ mBytecodeOffset
 ValidJSVersion
 mValidJSVersion
 ;
+const
 nsCOMPtr
 <
 nsIURI
