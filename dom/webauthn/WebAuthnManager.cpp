@@ -885,7 +885,7 @@ WebAuthnManager
 MakeCredential
 (
 const
-MakePublicKeyCredentialOptions
+PublicKeyCredentialCreationOptions
 &
 aOptions
 const

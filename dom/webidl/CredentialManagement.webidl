@@ -226,7 +226,7 @@ signal
 dictionary
 CredentialCreationOptions
 {
-MakePublicKeyCredentialOptions
+PublicKeyCredentialCreationOptions
 publicKey
 ;
 AbortSignal
