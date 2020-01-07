@@ -3817,9 +3817,6 @@ actions
 :
 [
 build
-check
--
-test
 ]
 script
 :
