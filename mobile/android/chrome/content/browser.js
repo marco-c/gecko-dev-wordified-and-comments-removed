@@ -3199,6 +3199,7 @@ RemoteDebugger
 .
 init
 (
+window
 )
 ;
 DesktopUserAgent
