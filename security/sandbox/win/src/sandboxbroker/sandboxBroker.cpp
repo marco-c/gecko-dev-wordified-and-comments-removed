@@ -4111,13 +4111,6 @@ sandbox
 INTEGRITY_LEVEL_MEDIUM
 ;
 }
-mPolicy
--
->
-SetDoNotUseRestrictingSIDs
-(
-)
-;
 sandbox
 :
 :
