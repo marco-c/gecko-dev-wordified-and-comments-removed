@@ -109,6 +109,10 @@ mDocument
 (
 aDocument
 )
+mMatches
+(
+false
+)
 mMatchesValid
 (
 false
@@ -473,6 +477,10 @@ RecomputeMatches
 (
 )
 {
+mMatches
+=
+false
+;
 if
 (
 !
