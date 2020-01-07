@@ -80,7 +80,7 @@ Leak
 .
 fun
 :
-_ZL9SaveToEnvPKc
+_ZN7mozilla9SaveToEnvEPKc
 .
 .
 .
