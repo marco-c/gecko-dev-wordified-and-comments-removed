@@ -4138,7 +4138,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Once
 "
@@ -4153,8 +4153,12 @@ scene
 build
 "
 WebRenderAsyncSceneBuild
-bool
-false
+gfxPrefs
+:
+:
+WebRenderAll
+(
+)
 )
 ;
 DECL_GFX_PREF

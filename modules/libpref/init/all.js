@@ -7082,7 +7082,7 @@ scene
 -
 build
 "
-false
+2
 )
 ;
 pref
@@ -18429,6 +18429,7 @@ logo
 neterror
 newtab
 printpreview
+rights
 srcdoc
 studies
 "
