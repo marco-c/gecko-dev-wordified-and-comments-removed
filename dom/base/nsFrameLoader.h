@@ -493,12 +493,6 @@ aRv
 void
 Destroy
 (
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 void
