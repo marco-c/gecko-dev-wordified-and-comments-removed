@@ -6178,6 +6178,13 @@ CounterStyleRule
 let
 name
 =
+unsafe
+{
+Atom
+:
+:
+from_raw
+(
 rule
 .
 read_with
@@ -6188,10 +6195,8 @@ guard
 mName
 .
 mRawPtr
-.
-into
-(
 )
+}
 ;
 self
 .

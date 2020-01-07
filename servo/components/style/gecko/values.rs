@@ -3928,13 +3928,16 @@ is_null
 let
 name
 =
+unsafe
+{
 Atom
 :
 :
-from
+from_raw
 (
 name
 )
+}
 ;
 if
 name
