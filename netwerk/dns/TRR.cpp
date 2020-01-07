@@ -2148,6 +2148,10 @@ mHostResolver
 GetHostRecord
 (
 mHost
+.
+get
+(
+)
 pushedRec
 -
 >
@@ -4515,6 +4519,10 @@ new
 AddrInfo
 (
 mHost
+.
+get
+(
+)
 mType
 )
 )
@@ -4678,6 +4686,10 @@ new
 AddrInfo
 (
 mHost
+.
+get
+(
+)
 mType
 )
 ;
