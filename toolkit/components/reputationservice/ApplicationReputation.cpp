@@ -2353,6 +2353,12 @@ seplugin
 "
 "
 .
+settingcontent
+-
+ms
+"
+"
+.
 sh
 "
 "
