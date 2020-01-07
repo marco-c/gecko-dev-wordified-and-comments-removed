@@ -190,15 +190,11 @@ button10
 displayed_elementIDs
 =
 [
-        
 "
 button1
 "
 "
 button2
-"
-"
-button3
 "
 "
 button4
@@ -209,22 +205,28 @@ button5
 "
 button6
 "
+]
+    
+displayed_but_have_no_accessible_elementIDs
+=
+[
+        
+"
+button3
+"
+        
+"
+button7
+"
+        
+"
+button8
+"
         
 "
 no_accessible_but_displayed
 "
     
-]
-    
-displayed_but_a11y_hidden_elementIDs
-=
-[
-"
-button7
-"
-"
-button8
-"
 ]
     
 disabled_elementIDs
@@ -696,7 +698,7 @@ run_element_test
 (
 self
 .
-displayed_but_a11y_hidden_elementIDs
+displayed_but_have_no_accessible_elementIDs
                               
 lambda
 element
