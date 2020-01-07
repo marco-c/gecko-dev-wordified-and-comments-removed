@@ -424,7 +424,7 @@ mUpdatesEnabled
 aEnableUpdates
 ;
 }
-NS_IMETHODIMP
+void
 nsStyleLinkElement
 :
 :
@@ -435,8 +435,11 @@ nsAString
 aCharset
 )
 {
-return
-NS_ERROR_NOT_IMPLEMENTED
+aCharset
+.
+Truncate
+(
+)
 ;
 }
 void
