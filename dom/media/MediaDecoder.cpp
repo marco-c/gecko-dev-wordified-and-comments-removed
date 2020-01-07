@@ -2531,7 +2531,6 @@ IsEnded
 )
 )
 {
-return
 Seek
 (
 0
@@ -2540,6 +2539,9 @@ SeekTarget
 :
 PrevSyncPoint
 )
+;
+return
+NS_OK
 ;
 }
 else
@@ -2568,7 +2570,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 MediaDecoder
 :
 :
@@ -2690,9 +2692,6 @@ PLAY_STATE_PLAYING
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 MediaDecoder

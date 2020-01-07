@@ -419,7 +419,7 @@ GetCurrentTime
 )
 ;
 virtual
-nsresult
+void
 Seek
 (
 double
