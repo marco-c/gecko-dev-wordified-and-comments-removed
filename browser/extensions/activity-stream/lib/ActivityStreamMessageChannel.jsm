@@ -303,7 +303,7 @@ if
 (
 au
 .
-isSendToContent
+isSendToOneContent
 (
 action
 )
@@ -382,7 +382,7 @@ dispatch
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 action
 targetId

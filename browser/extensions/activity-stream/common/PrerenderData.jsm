@@ -273,10 +273,10 @@ showSearch
 :
 true
 "
-topSitesCount
+topSitesRows
 "
 :
-12
+2
 "
 collapseTopSites
 "
@@ -329,7 +329,7 @@ showTopSites
 showSearch
 "
 "
-topSitesCount
+topSitesRows
 "
 "
 collapseTopSites

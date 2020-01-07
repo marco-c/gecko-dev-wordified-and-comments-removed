@@ -1514,6 +1514,17 @@ private
 false
 )
 ;
+assert
+.
+propertyVal
+(
+params
+"
+triggeringPrincipal
+"
+undefined
+)
+;
 }
 )
 ;

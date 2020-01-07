@@ -93,10 +93,10 @@ context_menu_button_sr
 "
 :
 "
-Open
-context
+Malfermi
+kuntekstan
 menu
-for
+por
 {
 title
 }
@@ -844,9 +844,9 @@ edit_topsites_add_button_tooltip
 "
 :
 "
-Add
-Top
-Site
+Aldoni
+oftan
+retejon
 "
 "
 topsites_form_add_header
@@ -863,8 +863,8 @@ topsites_form_edit_header
 :
 "
 Redakti
-ofta
-retejo
+oftan
+retejon
 "
 "
 topsites_form_title_placeholder

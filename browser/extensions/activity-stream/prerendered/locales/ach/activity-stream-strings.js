@@ -100,10 +100,10 @@ context_menu_button_sr
 "
 :
 "
-Open
-context
-menu
-for
+Yab
+jami
+ayera
+pi
 {
 title
 }
@@ -854,9 +854,9 @@ edit_topsites_add_button_tooltip
 "
 :
 "
-Add
-Top
-Site
+Med
+Kakube
+maloyo
 "
 "
 topsites_form_add_header

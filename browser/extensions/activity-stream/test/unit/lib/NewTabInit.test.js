@@ -60,7 +60,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -153,7 +153,7 @@ resp
 =
 ac
 .
-SendToContent
+AlsoToOneContent
 (
 {
 type
@@ -270,7 +270,7 @@ store
 dispatch
 ac
 .
-SendToContent
+AlsoToOneContent
 (
 {
 type
@@ -465,7 +465,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -499,7 +499,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type
@@ -533,7 +533,7 @@ onAction
 (
 ac
 .
-SendToMain
+AlsoToMain
 (
 {
 type

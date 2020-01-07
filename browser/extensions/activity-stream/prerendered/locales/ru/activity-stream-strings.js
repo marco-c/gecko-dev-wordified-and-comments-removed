@@ -73,10 +73,6 @@ context_menu_button_sr
 "
 :
 "
-Open
-context
-menu
-for
 {
 title
 }
@@ -537,9 +533,6 @@ edit_topsites_add_button_tooltip
 "
 :
 "
-Add
-Top
-Site
 "
 "
 topsites_form_add_header

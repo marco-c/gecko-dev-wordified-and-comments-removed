@@ -795,6 +795,17 @@ params
 private
 :
 isPrivate
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
+{
+}
+)
 }
 ;
 const
