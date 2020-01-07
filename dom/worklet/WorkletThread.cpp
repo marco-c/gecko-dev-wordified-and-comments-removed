@@ -445,6 +445,16 @@ aStatus
 =
 =
 JSGC_END
+&
+&
+!
+Contexts
+(
+)
+.
+isEmpty
+(
+)
 )
 {
 nsCycleCollector_collect
