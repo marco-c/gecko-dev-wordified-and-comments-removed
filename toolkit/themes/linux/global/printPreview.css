@@ -101,3 +101,16 @@ button
 )
 ;
 }
+#
+pageNumber
+{
+width
+:
+calc
+(
+18px
++
+3ch
+)
+;
+}
