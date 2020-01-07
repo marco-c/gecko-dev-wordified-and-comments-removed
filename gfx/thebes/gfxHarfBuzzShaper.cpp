@@ -921,12 +921,14 @@ aElem
 )
 ;
 }
-static
 hb_codepoint_t
+gfxHarfBuzzShaper
+:
+:
 GetVerticalPresentationForm
 (
 hb_codepoint_t
-unicode
+aUnicode
 )
 {
 static
@@ -1089,7 +1091,7 @@ uint16_t
 bsearch
 (
 &
-unicode
+aUnicode
 sVerticalForms
 ArrayLength
 (
@@ -1174,6 +1176,9 @@ UseVerticalPresentationForms
 hb_codepoint_t
 verticalForm
 =
+gfxHarfBuzzShaper
+:
+:
 GetVerticalPresentationForm
 (
 unicode
@@ -1294,6 +1299,9 @@ UseVerticalPresentationForms
 hb_codepoint_t
 verticalForm
 =
+gfxHarfBuzzShaper
+:
+:
 GetVerticalPresentationForm
 (
 unicode
