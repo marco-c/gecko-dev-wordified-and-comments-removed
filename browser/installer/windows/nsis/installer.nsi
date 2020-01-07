@@ -6016,7 +6016,9 @@ If
 {
 Errors
 }
-Exec
+{
+ExecAndWaitForInputIdle
+}
 "
 \
 "
@@ -6081,7 +6083,9 @@ SetOutPath
 "
 INSTDIR
 "
-Exec
+{
+ExecAndWaitForInputIdle
+}
 "
 \
 "

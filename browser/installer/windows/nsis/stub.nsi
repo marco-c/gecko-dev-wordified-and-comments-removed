@@ -9935,7 +9935,9 @@ CheckboxCleanupProfile
 =
 =
 1
-Exec
+{
+ExecAndWaitForInputIdle
+}
 "
 \
 "
@@ -9956,7 +9958,9 @@ migration
 {
 Else
 }
-Exec
+{
+ExecAndWaitForInputIdle
+}
 "
 \
 "
@@ -10022,7 +10026,9 @@ R1
 =
 =
 1
-Exec
+{
+ExecAndWaitForInputIdle
+}
 "
 \
 "
@@ -10043,7 +10049,9 @@ migration
 {
 Else
 }
-Exec
+{
+ExecAndWaitForInputIdle
+}
 "
 \
 "
