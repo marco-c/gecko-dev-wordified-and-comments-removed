@@ -114,6 +114,15 @@ nsIChannel
 aNewChannel
 )
 ;
+static
+bool
+AllowFTPSubresourceLoad
+(
+nsIChannel
+*
+aChannel
+)
+;
 private
 :
 static
