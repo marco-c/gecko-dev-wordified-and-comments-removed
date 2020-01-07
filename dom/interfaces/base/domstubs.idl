@@ -176,9 +176,6 @@ Base
 interface
 nsIDOMWindow
 ;
-interface
-nsIDOMWindowCollection
-;
 /
 /
 Events

@@ -159,11 +159,6 @@ nsIDOMWindow
 idl
 '
 '
-nsIDOMWindowCollection
-.
-idl
-'
-'
 nsIDOMWindowUtils
 .
 idl

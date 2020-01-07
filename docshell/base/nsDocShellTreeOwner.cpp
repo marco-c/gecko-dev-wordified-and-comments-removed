@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsIDOMWindowCollection
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h

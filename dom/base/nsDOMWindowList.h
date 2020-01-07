@@ -13,13 +13,6 @@ h
 "
 #
 include
-"
-nsIDOMWindowCollection
-.
-h
-"
-#
-include
 <
 stdint
 .
@@ -40,9 +33,7 @@ nsIDOMWindow
 ;
 class
 nsDOMWindowList
-:
-public
-nsIDOMWindowCollection
+final
 {
 public
 :
@@ -54,8 +45,10 @@ nsIDocShell
 aDocShell
 )
 ;
-NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMWINDOWCOLLECTION
+NS_INLINE_DECL_REFCOUNTING
+(
+nsDOMWindowList
+)
 uint32_t
 GetLength
 (
@@ -83,7 +76,7 @@ nsAString
 aName
 )
 ;
-NS_IMETHOD
+void
 SetDocShell
 (
 nsIDocShell
@@ -139,7 +132,6 @@ forget
 }
 protected
 :
-virtual
 ~
 nsDOMWindowList
 (
