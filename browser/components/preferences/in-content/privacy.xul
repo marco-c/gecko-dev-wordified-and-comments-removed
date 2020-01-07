@@ -5125,6 +5125,11 @@ collectBrowserErrors
 accesskey
 ;
 "
+flex
+=
+"
+1
+"
 /
 >
 <
@@ -5215,6 +5220,11 @@ sendBackloggedCrashReports
 .
 accesskey
 ;
+"
+flex
+=
+"
+1
 "
 /
 >
