@@ -225,12 +225,6 @@ aEventVisibility
 )
 override
 ;
-void
-NotifyPrincipalChanged
-(
-)
-override
-;
 RefPtr
 <
 ResourceCallback
