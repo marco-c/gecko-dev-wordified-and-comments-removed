@@ -1739,6 +1739,13 @@ _
 MallocHeap
 parseTask
 )
+\
+macro
+(
+_
+MallocHeap
+ionBuilder
+)
 explicit
 HelperThreadStats
 (
