@@ -1073,8 +1073,6 @@ HEADER
 .
 .
 /
-src
-/
 jisx4051class
 .
 h
@@ -1089,8 +1087,6 @@ open
 output
 .
 .
-/
-src
 /
 jisx4051class
 .
