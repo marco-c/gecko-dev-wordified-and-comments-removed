@@ -153,7 +153,7 @@ kMaxFrameKeyLength
 =
 512
 ;
-void
+bool
 StreamSamplesToJSON
 (
 SpliceableJSONWriter
@@ -175,7 +175,7 @@ aUniqueStacks
 )
 const
 ;
-void
+bool
 StreamMarkersToJSON
 (
 SpliceableJSONWriter
