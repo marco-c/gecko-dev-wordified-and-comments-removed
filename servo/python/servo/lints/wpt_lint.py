@@ -249,9 +249,6 @@ output_format
 "
 json
 "
-css_mode
-=
-False
 )
             
 if
