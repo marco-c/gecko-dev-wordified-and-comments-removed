@@ -454,12 +454,6 @@ return
 this
 ;
 }
-void
-DidDirty
-(
-)
-{
-}
 NS_IMETHOD
 StyleSheetLoaded
 (

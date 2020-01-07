@@ -807,13 +807,6 @@ aSelectorText
 sheet
 -
 >
-DidDirty
-(
-)
-;
-sheet
--
->
 RuleChanged
 (
 this
