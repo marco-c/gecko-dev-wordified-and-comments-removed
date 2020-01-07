@@ -2485,9 +2485,7 @@ NOTIFY
 RuleAdded
 (
 *
-AsServo
-(
-)
+this
 aRule
 )
 )
@@ -2533,9 +2531,7 @@ NOTIFY
 RuleRemoved
 (
 *
-AsServo
-(
-)
+this
 aRule
 )
 )
@@ -2581,9 +2577,7 @@ NOTIFY
 RuleChanged
 (
 *
-AsServo
-(
-)
+this
 aRule
 )
 )
@@ -2675,11 +2669,6 @@ WillDirty
 nsresult
 result
 =
-AsServo
-(
-)
--
->
 InsertRuleIntoGroupInternal
 (
 aRule

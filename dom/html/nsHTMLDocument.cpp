@@ -9921,7 +9921,7 @@ Singleton
 (
 )
 ;
-ServoStyleSheet
+StyleSheet
 *
 contentEditableSheet
 =
@@ -9929,11 +9929,6 @@ cache
 -
 >
 ContentEditableSheet
-(
-)
--
->
-AsServo
 (
 )
 ;
@@ -9961,7 +9956,7 @@ if
 designMode
 )
 {
-ServoStyleSheet
+StyleSheet
 *
 designModeSheet
 =
@@ -9969,11 +9964,6 @@ cache
 -
 >
 DesignModeSheet
-(
-)
--
->
-AsServo
 (
 )
 ;
@@ -10025,11 +10015,6 @@ cache
 -
 >
 DesignModeSheet
-(
-)
--
->
-AsServo
 (
 )
 )

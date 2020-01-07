@@ -341,15 +341,6 @@ aStyleSheet
 mStyleSheet
 =
 aStyleSheet
-?
-aStyleSheet
--
->
-AsServo
-(
-)
-:
-nullptr
 ;
 EnumerateInstantiatedRules
 (
