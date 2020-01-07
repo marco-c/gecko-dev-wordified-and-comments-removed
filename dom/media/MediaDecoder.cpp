@@ -2815,16 +2815,6 @@ DiscardOngoingSeekIfExists
 mDecoderStateMachine
 -
 >
-DispatchIsLiveStream
-(
-IsLiveStream
-(
-)
-)
-;
-mDecoderStateMachine
--
->
 InvokeSeek
 (
 aTarget
