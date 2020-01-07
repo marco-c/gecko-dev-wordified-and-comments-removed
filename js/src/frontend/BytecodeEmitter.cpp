@@ -21002,10 +21002,6 @@ isDefault
 )
 )
 {
-caseCount
-=
-0
-;
 low
 =
 0
