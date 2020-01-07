@@ -669,12 +669,6 @@ VRControllerInfo
 mControllerInfo
 ;
 uint64_t
-mButtonPressed
-;
-uint64_t
-mButtonTouched
-;
-uint64_t
 mVibrateIndex
 ;
 dom

@@ -90,6 +90,13 @@ EXPORTS
 =
 [
 '
+external_api
+/
+moz_external_vr
+.
+h
+'
+'
 gfxVR
 .
 h
@@ -265,6 +272,11 @@ SOURCES
 +
 =
 [
+'
+gfxVRExternal
+.
+cpp
+'
 '
 gfxVRPuppet
 .

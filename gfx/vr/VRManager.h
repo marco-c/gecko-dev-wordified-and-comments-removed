@@ -74,6 +74,9 @@ class
 VRSystemManagerPuppet
 ;
 class
+VRSystemManagerExternal
+;
+class
 VRManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -235,6 +238,12 @@ CreateVRTestSystem
 VRSystemManagerPuppet
 *
 GetPuppetManager
+(
+)
+;
+VRSystemManagerExternal
+*
+GetExternalManager
 (
 )
 ;
@@ -404,6 +413,12 @@ RefPtr
 VRSystemManagerPuppet
 >
 mPuppetManager
+;
+RefPtr
+<
+VRSystemManagerExternal
+>
+mExternalManager
 ;
 bool
 mVRDisplaysRequested

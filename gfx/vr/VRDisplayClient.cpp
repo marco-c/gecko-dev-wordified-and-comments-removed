@@ -434,6 +434,8 @@ bLastEventWasMounted
 &
 mDisplayInfo
 .
+mDisplayState
+.
 mIsMounted
 )
 {
@@ -470,6 +472,8 @@ bLastEventWasMounted
 &
 !
 mDisplayInfo
+.
+mDisplayState
 .
 mIsMounted
 )
@@ -567,6 +571,8 @@ NotifyDisconnected
 )
 {
 mDisplayInfo
+.
+mDisplayState
 .
 mIsConnected
 =
