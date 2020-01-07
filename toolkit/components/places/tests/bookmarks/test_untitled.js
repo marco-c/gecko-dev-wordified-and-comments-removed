@@ -77,7 +77,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 ;
 try
@@ -269,7 +271,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 ;
 try
@@ -445,7 +449,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 ;
 try

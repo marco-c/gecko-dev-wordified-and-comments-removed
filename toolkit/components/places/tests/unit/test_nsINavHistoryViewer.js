@@ -675,12 +675,14 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 PlacesUtils
 .
-bookmarksMenuFolderId
+bookmarks
+.
+menuGuid
 ]
 1
 )

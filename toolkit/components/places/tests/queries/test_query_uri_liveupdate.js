@@ -97,7 +97,9 @@ getFolderContents
 (
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 false
 true
 )

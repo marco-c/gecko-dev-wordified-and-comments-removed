@@ -1,15 +1,4 @@
 const
-SHORTCUT_URL
-=
-"
-place
-:
-folder
-=
-2
-"
-;
-const
 QUERY_URL
 =
 "

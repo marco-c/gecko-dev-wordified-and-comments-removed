@@ -29,7 +29,7 @@ PlacesUtils
 .
 bookmarks
 .
-toolbarFolder
+toolbarGuid
 )
 .
 root

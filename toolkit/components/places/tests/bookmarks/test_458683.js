@@ -43,7 +43,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 .
 root
@@ -241,7 +243,9 @@ getFolderContents
 (
 PlacesUtils
 .
-tagsFolderId
+bookmarks
+.
+tagsGuid
 )
 .
 root

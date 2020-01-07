@@ -191,7 +191,9 @@ getFolderContents
 (
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 )
 .
 root

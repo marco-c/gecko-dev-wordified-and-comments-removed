@@ -389,12 +389,14 @@ queryURL
 =
 place
 :
-folder
+parent
 =
 {
 PlacesUtils
 .
-bookmarksMenuFolderId
+bookmarks
+.
+menuGuid
 }
 &
 queryType

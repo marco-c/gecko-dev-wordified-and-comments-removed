@@ -329,7 +329,9 @@ getFolderContents
 (
 PlacesUtils
 .
-bookmarksMenuFolderId
+bookmarks
+.
+menuGuid
 )
 .
 root
@@ -682,7 +684,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 .
 root
@@ -873,7 +877,9 @@ getFolderContents
 (
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 )
 .
 root

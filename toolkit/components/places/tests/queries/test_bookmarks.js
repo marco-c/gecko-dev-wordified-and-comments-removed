@@ -132,7 +132,9 @@ getFolderContents
 (
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 )
 .
 root
@@ -221,7 +223,7 @@ getFolderContents
 (
 folder
 .
-itemId
+bookmarkGuid
 )
 .
 root
@@ -653,7 +655,9 @@ getFolderContents
 (
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 )
 .
 root

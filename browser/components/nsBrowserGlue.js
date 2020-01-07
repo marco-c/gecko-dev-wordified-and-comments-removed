@@ -11153,7 +11153,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 .
 root
