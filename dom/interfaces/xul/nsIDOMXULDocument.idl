@@ -133,14 +133,6 @@ nsIDOMXULDocument
 :
 nsIDOMDocument
 {
-nsIBoxObject
-getBoxObjectFor
-(
-in
-nsIDOMElement
-elt
-)
-;
 /
 *
 *
