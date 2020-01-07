@@ -23188,7 +23188,7 @@ fm
 fm
 -
 >
-GetFocusedElement
+GetFocusedContent
 (
 )
 :

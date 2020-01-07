@@ -181,12 +181,12 @@ dom
 :
 Element
 *
-GetFocusedElement
+GetFocusedContent
 (
 )
 {
 return
-mFocusedElement
+mFocusedContent
 ;
 }
 bool
@@ -277,7 +277,7 @@ aElement
 {
 if
 (
-mFocusedElement
+mFocusedContent
 =
 =
 aElement
@@ -1041,7 +1041,7 @@ dom
 :
 Element
 >
-mFocusedElement
+mFocusedContent
 ;
 nsCOMPtr
 <

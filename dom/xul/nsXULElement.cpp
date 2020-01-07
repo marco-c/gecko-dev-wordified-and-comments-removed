@@ -2823,7 +2823,7 @@ window
 window
 -
 >
-GetFocusedElement
+GetFocusedNode
 (
 )
 )
