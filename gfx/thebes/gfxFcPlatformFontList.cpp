@@ -10464,8 +10464,6 @@ aLanguage
 nsACString
 &
 aLangStr
-bool
-aCheckEnvironment
 )
 {
 aLangStr
@@ -10552,11 +10550,6 @@ aLangStr
 return
 ;
 }
-if
-(
-aCheckEnvironment
-)
-{
 const
 char
 *
@@ -10692,7 +10685,6 @@ aLangStr
 {
 return
 ;
-}
 }
 if
 (
