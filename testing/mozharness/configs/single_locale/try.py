@@ -55,12 +55,6 @@ nightly
 "
     
 "
-update_gecko_source_to_enUS
-"
-:
-False
-    
-"
 hg_l10n_base
 "
 :
