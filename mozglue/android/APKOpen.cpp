@@ -2134,9 +2134,9 @@ jc
 jobjectArray
 jargs
 int
-ipcFd
-int
 crashFd
+int
+ipcFd
 int
 crashAnnotationFd
 )
@@ -2223,8 +2223,8 @@ gBootstrap
 XRE_SetAndroidChildFds
 (
 jenv
-ipcFd
 crashFd
+ipcFd
 crashAnnotationFd
 )
 ;

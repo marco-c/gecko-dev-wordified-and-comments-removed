@@ -494,9 +494,9 @@ JNIEnv
 *
 env
 int
-ipcFd
-int
 crashFd
+int
+ipcFd
 int
 crashAnnotationFd
 )
