@@ -165,11 +165,6 @@ drawElements
 html
 functions
 /
-drawElementsBadArgs
-.
-html
-functions
-/
 isTests
 .
 html

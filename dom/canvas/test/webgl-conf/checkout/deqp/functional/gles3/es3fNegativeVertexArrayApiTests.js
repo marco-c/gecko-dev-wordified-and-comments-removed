@@ -5106,7 +5106,7 @@ expectError
 (
 gl
 .
-INVALID_OPERATION
+NO_ERROR
 )
 ;
 gl
@@ -5885,7 +5885,7 @@ expectError
 (
 gl
 .
-INVALID_OPERATION
+NO_ERROR
 )
 ;
 gl
