@@ -1758,7 +1758,8 @@ denseElementsAreCopyOnWrite
 ;
 MOZ_ASSERT
 (
-isExtensible
+!
+denseElementsAreFrozen
 (
 )
 )
@@ -1795,6 +1796,13 @@ index
 extra
 )
 {
+MOZ_ASSERT
+(
+isExtensible
+(
+)
+)
+;
 uint32_t
 numShifted
 =
