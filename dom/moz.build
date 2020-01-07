@@ -243,6 +243,11 @@ cache
 canvas
 '
 '
+chrome
+-
+webidl
+'
+'
 clients
 '
 '
