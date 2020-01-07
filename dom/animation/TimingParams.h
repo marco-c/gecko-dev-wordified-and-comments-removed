@@ -70,14 +70,6 @@ TimeStamp
 h
 "
 #
-ifdef
-None
-#
-undef
-None
-#
-endif
-#
 include
 "
 mozilla
