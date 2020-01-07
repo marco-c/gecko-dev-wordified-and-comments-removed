@@ -192,9 +192,6 @@ aEventType
 LifeCycleEventCallback
 *
 aCallback
-nsIRunnable
-*
-aLoadFailure
 )
 ;
 nsresult
@@ -420,9 +417,6 @@ SpawnWorkerIfNeeded
 (
 WakeUpReason
 aWhy
-nsIRunnable
-*
-aLoadFailedRunnable
 bool
 *
 aNewWorkerCreated

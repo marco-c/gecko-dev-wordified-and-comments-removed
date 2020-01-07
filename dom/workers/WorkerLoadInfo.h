@@ -183,12 +183,6 @@ nsILoadGroup
 >
 mLoadGroup
 ;
-nsCOMPtr
-<
-nsIRunnable
->
-mLoadFailedAsyncRunnable
-;
 class
 InterfaceRequestor
 final

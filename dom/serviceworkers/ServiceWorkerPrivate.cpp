@@ -823,7 +823,6 @@ rv
 SpawnWorkerIfNeeded
 (
 LifeCycleEvent
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2107,7 +2106,6 @@ rv
 SpawnWorkerIfNeeded
 (
 MessageEvent
-nullptr
 )
 )
 ;
@@ -3011,9 +3009,6 @@ aEventType
 LifeCycleEventCallback
 *
 aCallback
-nsIRunnable
-*
-aLoadFailure
 )
 {
 nsresult
@@ -3022,7 +3017,6 @@ rv
 SpawnWorkerIfNeeded
 (
 LifeCycleEvent
-aLoadFailure
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3828,7 +3822,6 @@ rv
 SpawnWorkerIfNeeded
 (
 PushEvent
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3966,7 +3959,6 @@ rv
 SpawnWorkerIfNeeded
 (
 PushSubscriptionChangeEvent
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4928,7 +4920,6 @@ rv
 SpawnWorkerIfNeeded
 (
 why
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7016,28 +7007,6 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
-nsIRunnable
->
-failRunnable
-=
-NewRunnableMethod
-(
-"
-nsIInterceptedChannel
-:
-:
-ResetInterception
-"
-aChannel
-&
-nsIInterceptedChannel
-:
-:
-ResetInterception
-)
-;
 aChannel
 -
 >
@@ -7075,7 +7044,6 @@ rv
 SpawnWorkerIfNeeded
 (
 FetchEvent
-failRunnable
 &
 newWorkerCreated
 aLoadGroup
@@ -7282,9 +7250,6 @@ SpawnWorkerIfNeeded
 (
 WakeUpReason
 aWhy
-nsIRunnable
-*
-aLoadFailedRunnable
 bool
 *
 aNewWorkerCreated
@@ -7540,12 +7505,6 @@ info
 mLoadGroup
 =
 aLoadGroup
-;
-info
-.
-mLoadFailedAsyncRunnable
-=
-aLoadFailedRunnable
 ;
 info
 .
@@ -8471,7 +8430,6 @@ rv
 SpawnWorkerIfNeeded
 (
 AttachEvent
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
