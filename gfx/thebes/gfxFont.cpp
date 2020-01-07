@@ -10299,6 +10299,12 @@ needsOblique
 &
 &
 !
+aFontParams
+.
+isVerticalFont
+&
+&
+!
 textDrawer
 )
 {
