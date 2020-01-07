@@ -55,3 +55,6 @@ patch
 mingw_copy_s
 .
 patch
+mingw_operator_new
+.
+patch
