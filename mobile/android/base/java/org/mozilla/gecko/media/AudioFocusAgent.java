@@ -563,13 +563,6 @@ default
 }
 }
 ;
-notifyMediaControlService
-(
-MediaControlService
-.
-ACTION_INIT
-)
-;
 }
 RobocopTarget
 public
