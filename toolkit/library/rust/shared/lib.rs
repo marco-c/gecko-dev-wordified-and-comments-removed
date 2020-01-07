@@ -129,6 +129,10 @@ extern
 crate
 cosec
 ;
+extern
+crate
+rsdparsa_capi
+;
 use
 std
 :
