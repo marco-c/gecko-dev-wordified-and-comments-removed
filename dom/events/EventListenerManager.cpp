@@ -2309,10 +2309,10 @@ if
 doc
 &
 &
-nsDisplayListBuilder
+gfxPlatform
 :
 :
-LayerEventRegionsEnabled
+AsyncPanZoomEnabled
 (
 )
 )
