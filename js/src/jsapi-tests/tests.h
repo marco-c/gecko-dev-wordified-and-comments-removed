@@ -364,10 +364,6 @@ knownFail
 JSAPITestString
 msgs
 ;
-JSCompartment
-*
-oldCompartment
-;
 JSAPITest
 (
 )
@@ -379,10 +375,6 @@ nullptr
 knownFail
 (
 false
-)
-oldCompartment
-(
-nullptr
 )
 {
 next
