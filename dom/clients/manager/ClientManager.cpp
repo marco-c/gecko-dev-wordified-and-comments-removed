@@ -140,6 +140,9 @@ kBadThreadLocalIndex
 -
 1
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 const
 uint32_t
 kThreadLocalMagic1
@@ -152,16 +155,26 @@ kThreadLocalMagic2
 =
 0x59f375c9
 ;
+#
+endif
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 uint32_t
 sClientManagerThreadLocalMagic1
 =
 kThreadLocalMagic1
 ;
+#
+endif
 uint32_t
 sClientManagerThreadLocalIndex
 =
 kBadThreadLocalIndex
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 uint32_t
 sClientManagerThreadLocalMagic2
 =
@@ -172,6 +185,8 @@ sClientManagerThreadLocalIndexDuplicate
 =
 kBadThreadLocalIndex
 ;
+#
+endif
 }
 ClientManager
 :
@@ -335,7 +350,7 @@ Shutdown
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalMagic1
 =
@@ -343,7 +358,7 @@ sClientManagerThreadLocalMagic1
 kThreadLocalMagic1
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalMagic2
 =
@@ -351,7 +366,7 @@ sClientManagerThreadLocalMagic2
 kThreadLocalMagic2
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 !
@@ -359,7 +374,7 @@ sClientManagerThreadLocalIndex
 kBadThreadLocalIndex
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 =
@@ -367,7 +382,7 @@ sClientManagerThreadLocalIndex
 sClientManagerThreadLocalIndexDuplicate
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 this
 =
@@ -827,7 +842,7 @@ GetOrCreateForCurrentThread
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalMagic1
 =
@@ -835,7 +850,7 @@ sClientManagerThreadLocalMagic1
 kThreadLocalMagic1
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalMagic2
 =
@@ -843,7 +858,7 @@ sClientManagerThreadLocalMagic2
 kThreadLocalMagic2
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 !
@@ -851,7 +866,7 @@ sClientManagerThreadLocalIndex
 kBadThreadLocalIndex
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 =
@@ -917,7 +932,7 @@ PR_SUCCESS
 )
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 cm
 )
@@ -978,7 +993,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalMagic1
 =
@@ -986,7 +1001,7 @@ sClientManagerThreadLocalMagic1
 kThreadLocalMagic1
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalMagic2
 =
@@ -994,7 +1009,7 @@ sClientManagerThreadLocalMagic2
 kThreadLocalMagic2
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 =
@@ -1002,7 +1017,7 @@ sClientManagerThreadLocalIndex
 kBadThreadLocalIndex
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 =
@@ -1033,7 +1048,7 @@ status
 PR_SUCCESS
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 sClientManagerThreadLocalIndex
 !
@@ -1041,10 +1056,15 @@ sClientManagerThreadLocalIndex
 kBadThreadLocalIndex
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 sClientManagerThreadLocalIndexDuplicate
 =
 sClientManagerThreadLocalIndex
 ;
+#
+endif
 ClientPrefsInit
 (
 )
