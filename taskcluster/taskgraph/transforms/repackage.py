@@ -63,6 +63,7 @@ util
 taskcluster
 import
 get_taskcluster_artifact_prefix
+get_artifact_prefix
 from
 taskgraph
 .
@@ -1123,6 +1124,7 @@ artifacts
 :
 _generate_task_output_files
 (
+dep_job
 build_platform
 locale
 =
@@ -1875,6 +1877,7 @@ build_platform
 def
 _generate_task_output_files
 (
+task
 build_platform
 locale
 =
@@ -1899,6 +1902,13 @@ locale
 else
 '
 '
+    
+artifact_prefix
+=
+get_artifact_prefix
+(
+task
+)
     
 if
 build_platform
@@ -1969,9 +1979,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -1984,6 +1993,7 @@ mar
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
         
@@ -2049,9 +2059,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2062,6 +2071,7 @@ dmg
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
             
@@ -2097,9 +2107,8 @@ path
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2112,6 +2121,7 @@ exe
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
             
@@ -2120,9 +2130,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2135,6 +2144,7 @@ exe
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
         
@@ -2154,9 +2164,8 @@ path
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2169,6 +2178,7 @@ mar
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
             
@@ -2177,9 +2187,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2192,6 +2201,7 @@ mar
 .
 format
 (
+artifact_prefix
 locale_output_path
 )
         
@@ -2225,9 +2235,8 @@ path
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2242,7 +2251,10 @@ exe
 .
 format
 (
+                    
+artifact_prefix
 locale_output_path
+                
 )
                 
 '
@@ -2250,9 +2262,8 @@ name
 '
 :
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -2267,7 +2278,10 @@ exe
 .
 format
 (
+                    
+artifact_prefix
 locale_output_path
+                
 )
             
 }
