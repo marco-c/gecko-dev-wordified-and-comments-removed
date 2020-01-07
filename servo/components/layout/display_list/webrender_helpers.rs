@@ -345,7 +345,7 @@ base
 )
 .
 bounds
-local_clip
+clip_rect
 :
 self
 .
@@ -353,7 +353,7 @@ base
 (
 )
 .
-local_clip
+clip_rect
 is_backface_visible
 :
 true
