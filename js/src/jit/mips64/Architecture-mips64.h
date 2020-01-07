@@ -136,7 +136,7 @@ const
 uint32_t
 Allocatable
 =
-60
+62
 ;
 static
 const
@@ -397,17 +397,6 @@ SetType
 NonAllocatableMask
 =
 (
-(
-1U
-<
-<
-FloatRegisters
-:
-:
-f21
-)
-|
-(
 1U
 <
 <
@@ -415,7 +404,6 @@ FloatRegisters
 :
 :
 f23
-)
 )
 *
 Spread
