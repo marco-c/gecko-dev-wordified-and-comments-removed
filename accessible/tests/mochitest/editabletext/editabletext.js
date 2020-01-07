@@ -271,7 +271,6 @@ oldValue
 =
 getValue
 (
-aID
 )
 ;
 var
@@ -295,13 +294,11 @@ this
 .
 generateTest
 (
-aID
 removeTripple
 insertTripple
 setTextContentsInvoke
 getValueChecker
 (
-aID
 aValue
 )
 testID
@@ -407,7 +404,6 @@ this
 .
 generateTest
 (
-aID
 null
 [
 resPos
@@ -421,7 +417,6 @@ aStr
 insertTextInvoke
 getValueChecker
 (
-aID
 aResStr
 )
 testID
@@ -493,13 +488,11 @@ this
 .
 generateTest
 (
-aID
 null
 null
 copyTextInvoke
 getClipboardChecker
 (
-aID
 aClipboardStr
 )
 testID
@@ -587,7 +580,6 @@ this
 .
 generateTest
 (
-aID
 null
 [
 aStartPos
@@ -597,7 +589,6 @@ getTextFromClipboard
 copyNPasteTextInvoke
 getValueChecker
 (
-aID
 aResStr
 )
 testID
@@ -699,7 +690,6 @@ this
 .
 generateTest
 (
-aID
 [
 resStartPos
 resEndPos
@@ -709,7 +699,6 @@ null
 cutTextInvoke
 getValueChecker
 (
-aID
 aResStr
 )
 testID
@@ -797,7 +786,6 @@ this
 .
 generateTest
 (
-aID
 [
 aStartPos
 aEndPos
@@ -812,7 +800,6 @@ getTextFromClipboard
 cutNPasteTextInvoke
 getValueChecker
 (
-aID
 aResStr
 )
 testID
@@ -876,7 +863,6 @@ this
 .
 generateTest
 (
-aID
 null
 [
 aPos
@@ -887,7 +873,6 @@ getTextFromClipboard
 pasteTextInvoke
 getValueChecker
 (
-aID
 aResStr
 )
 testID
@@ -937,7 +922,6 @@ oldValue
 =
 getValue
 (
-aID
 )
 .
 substring
@@ -988,13 +972,11 @@ this
 .
 generateTest
 (
-aID
 removeTripple
 null
 deleteTextInvoke
 getValueChecker
 (
-aID
 aResStr
 )
 testID
@@ -1005,7 +987,6 @@ testID
 function
 getValue
 (
-aID
 )
 {
 var
@@ -1057,7 +1038,6 @@ textContent
 function
 getValueChecker
 (
-aID
 aValue
 )
 {
@@ -1076,7 +1056,6 @@ is
 (
 getValue
 (
-aID
 )
 aValue
 "
@@ -1097,7 +1076,6 @@ checker
 function
 getClipboardChecker
 (
-aID
 aText
 )
 {
@@ -1186,7 +1164,6 @@ generateTest
 function
 generateTest
 (
-aID
 aRemoveTriple
 aInsertTriple
 aInvokeFunc
