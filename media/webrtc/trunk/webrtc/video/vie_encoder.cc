@@ -2128,7 +2128,7 @@ encoder
 .
 "
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 success
 )
