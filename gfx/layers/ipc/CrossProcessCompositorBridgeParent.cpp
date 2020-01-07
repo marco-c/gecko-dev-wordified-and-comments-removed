@@ -763,6 +763,12 @@ state
 mParent
 )
 {
+LayersId
+dummyId
+{
+0
+}
+;
 RefPtr
 <
 APZCTreeManager
@@ -772,10 +778,7 @@ temp
 new
 APZCTreeManager
 (
-LayersId
-{
-0
-}
+dummyId
 )
 ;
 RefPtr
@@ -795,6 +798,7 @@ tempUpdater
 >
 ClearTree
 (
+dummyId
 )
 ;
 return

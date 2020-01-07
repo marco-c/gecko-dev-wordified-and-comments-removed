@@ -206,6 +206,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 KeyboardMap
@@ -301,6 +302,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 ScrollableLayerGuid
@@ -362,6 +364,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 uint64_t
@@ -482,6 +485,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 uint64_t
@@ -614,6 +618,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 float
@@ -674,6 +679,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 uint64_t
@@ -776,6 +782,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 ScrollableLayerGuid
@@ -835,6 +842,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 ScrollableLayerGuid
@@ -890,6 +898,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 ScrollableLayerGuid
@@ -943,6 +952,7 @@ mUpdater
 >
 RunOnControllerThread
 (
+mLayersId
 NewRunnableMethod
 <
 bool
