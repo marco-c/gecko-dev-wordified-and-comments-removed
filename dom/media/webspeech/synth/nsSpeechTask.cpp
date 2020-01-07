@@ -1763,6 +1763,10 @@ uint32_t
 aCharIndex
 )
 {
+mCallback
+=
+nullptr
+;
 if
 (
 !

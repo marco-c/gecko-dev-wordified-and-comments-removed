@@ -968,12 +968,12 @@ ElementAt
 GetState
 (
 )
-!
+=
 =
 SpeechSynthesisUtterance
 :
 :
-STATE_ENDED
+STATE_SPEAKING
 )
 {
 mCurrentTask
@@ -1011,6 +1011,10 @@ Paused
 return
 ;
 }
+mHoldQueue
+=
+false
+;
 if
 (
 mCurrentTask
@@ -1026,10 +1030,6 @@ Resume
 }
 else
 {
-mHoldQueue
-=
-false
-;
 AdvanceQueue
 (
 )
