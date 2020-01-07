@@ -6346,12 +6346,6 @@ aEvent
 )
 return
 ;
-aEvent
-.
-stopPropagation
-(
-)
-;
 this
 .
 _onOverflow
@@ -6376,12 +6370,6 @@ aEvent
 )
 )
 return
-;
-aEvent
-.
-stopPropagation
-(
-)
 ;
 this
 .
