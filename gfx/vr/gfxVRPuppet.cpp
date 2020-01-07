@@ -232,7 +232,7 @@ VRDisplayPuppet
 (
 )
 :
-VRDisplayHost
+VRDisplayLocal
 (
 VRDeviceType
 :
@@ -250,7 +250,7 @@ mSensorState
 MOZ_COUNT_CTOR_INHERITED
 (
 VRDisplayPuppet
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 VRDisplayState
@@ -791,7 +791,7 @@ VRDisplayPuppet
 MOZ_COUNT_DTOR_INHERITED
 (
 VRDisplayPuppet
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 }

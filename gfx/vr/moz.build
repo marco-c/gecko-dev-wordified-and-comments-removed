@@ -305,6 +305,11 @@ VRDisplayHost
 .
 cpp
 '
+'
+VRDisplayLocal
+.
+cpp
+'
 ]
 #
 Build

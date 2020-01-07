@@ -915,6 +915,12 @@ Shutdown
 (
 )
 ;
+mLastDisplayEnumerationTime
+=
+TimeStamp
+(
+)
+;
 }
 }
 }

@@ -261,7 +261,7 @@ IVRCompositor
 aVRCompositor
 )
 :
-VRDisplayHost
+VRDisplayLocal
 (
 VRDeviceType
 :
@@ -288,7 +288,7 @@ false
 MOZ_COUNT_CTOR_INHERITED
 (
 VRDisplayOpenVR
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 VRDisplayState
@@ -573,7 +573,7 @@ Destroy
 MOZ_COUNT_DTOR_INHERITED
 (
 VRDisplayOpenVR
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 }
@@ -2261,7 +2261,7 @@ bool
 VRDisplayOpenVR
 :
 :
-SubmitFrame
+SubmitFrameOpenVRHandle
 (
 void
 *
@@ -2619,7 +2619,7 @@ aRightEyeRect
 )
 {
 return
-SubmitFrame
+SubmitFrameOpenVRHandle
 (
 (
 void
@@ -2723,7 +2723,7 @@ else
 {
 result
 =
-SubmitFrame
+SubmitFrameOpenVRHandle
 (
 (
 void

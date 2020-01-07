@@ -57,7 +57,7 @@ h
 #
 include
 "
-VRDisplayHost
+VRDisplayLocal
 .
 h
 "
@@ -336,7 +336,7 @@ class
 VRDisplayOculus
 :
 public
-VRDisplayHost
+VRDisplayLocal
 {
 public
 :
