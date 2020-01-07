@@ -1872,6 +1872,13 @@ IsAvailable
 )
 )
 {
+GeckoAppShellSupport
+:
+:
+Init
+(
+)
+;
 java
 :
 :
