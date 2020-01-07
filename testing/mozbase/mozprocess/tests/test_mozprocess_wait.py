@@ -372,7 +372,7 @@ wait
 (
 timeout
 =
-5
+0
 )
         
 self

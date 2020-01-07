@@ -4970,6 +4970,9 @@ count
                 
 if
 timeout
+is
+not
+None
 and
 count
 >
