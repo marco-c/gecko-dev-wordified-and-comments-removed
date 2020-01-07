@@ -1015,16 +1015,6 @@ mSnapEffectiveTransforms
 }
 virtual
 bool
-ShouldAvoidComponentAlphaLayers
-(
-)
-{
-return
-false
-;
-}
-virtual
-bool
 AreComponentAlphaLayersEnabled
 (
 )
