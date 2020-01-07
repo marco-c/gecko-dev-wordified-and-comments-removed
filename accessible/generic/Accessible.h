@@ -883,6 +883,7 @@ RelationByType
 RelationType
 aType
 )
+const
 ;
 virtual
 void
@@ -2943,6 +2944,7 @@ AccGroupInfo
 GetGroupInfo
 (
 )
+const
 ;
 nsCOMPtr
 <
@@ -3001,6 +3003,7 @@ kGenericTypesBits
 uint8_t
 mRoleMapEntryIndex
 ;
+mutable
 uint32_t
 mStateFlags
 :
@@ -3125,6 +3128,7 @@ ProxyAccessible
 proxy
 ;
 }
+mutable
 mBits
 ;
 friend

@@ -164,6 +164,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 virtual

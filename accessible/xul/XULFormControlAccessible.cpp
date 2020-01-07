@@ -1328,6 +1328,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 Relation
 rel

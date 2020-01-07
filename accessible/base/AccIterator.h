@@ -704,6 +704,7 @@ public
 explicit
 ItemIterator
 (
+const
 Accessible
 *
 aItemContainer
@@ -763,6 +764,7 @@ ItemIterator
 =
 delete
 ;
+const
 Accessible
 *
 mContainer

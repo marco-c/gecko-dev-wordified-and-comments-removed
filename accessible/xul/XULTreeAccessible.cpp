@@ -1818,6 +1818,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 if
 (
@@ -3281,6 +3282,7 @@ RelationByType
 RelationType
 aType
 )
+const
 {
 switch
 (

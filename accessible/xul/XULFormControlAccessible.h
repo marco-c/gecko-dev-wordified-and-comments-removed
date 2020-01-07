@@ -386,6 +386,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 protected

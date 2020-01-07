@@ -158,6 +158,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 virtual
@@ -246,6 +247,7 @@ RelationByType
 RelationType
 aType
 )
+const
 override
 ;
 protected
