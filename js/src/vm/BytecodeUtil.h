@@ -2008,8 +2008,7 @@ skipStackHits
 0
 )
 ;
-char
-*
+UniqueChars
 DecompileArgument
 (
 JSContext
