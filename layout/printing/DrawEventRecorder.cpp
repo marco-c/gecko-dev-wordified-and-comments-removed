@@ -111,7 +111,7 @@ PRFileDesc
 aFd
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsOpen
@@ -140,7 +140,7 @@ Close
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsOpen
 (
