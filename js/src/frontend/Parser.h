@@ -1410,6 +1410,11 @@ declareFunctionThis
 (
 )
 ;
+bool
+declareFunctionArgumentsObject
+(
+)
+;
 inline
 Node
 newName
@@ -2066,6 +2071,12 @@ Base
 :
 :
 declareDotGeneratorName
+;
+using
+Base
+:
+:
+declareFunctionArgumentsObject
 ;
 using
 Base
@@ -3684,11 +3695,6 @@ isForInp
 bool
 *
 isForOfp
-)
-;
-bool
-declareFunctionArgumentsObject
-(
 )
 ;
 bool
