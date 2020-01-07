@@ -49403,11 +49403,6 @@ FindContentForSubDocument
 (
 child
 )
--
->
-AsElement
-(
-)
 ;
 if
 (

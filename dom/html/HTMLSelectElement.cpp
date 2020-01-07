@@ -2114,11 +2114,6 @@ mOptions
 GetOptionIndex
 (
 optElement
--
->
-AsElement
-(
-)
 0
 true
 &

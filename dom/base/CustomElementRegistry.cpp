@@ -2582,11 +2582,6 @@ if
 Traverse
 (
 child
--
->
-AsElement
-(
-)
 orderedElements
 )
 )

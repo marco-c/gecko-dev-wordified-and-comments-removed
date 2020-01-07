@@ -23809,11 +23809,6 @@ Element
 list
 =
 aList
--
->
-AsElement
-(
-)
 ;
 return
 list
@@ -34379,12 +34374,7 @@ htmlEditor
 >
 RemoveAttributeWithTransaction
 (
-*
 aParentDivOrP
-.
-AsElement
-(
-)
 *
 nsGkAtoms
 :
