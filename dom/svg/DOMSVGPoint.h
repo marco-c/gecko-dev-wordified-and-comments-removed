@@ -255,7 +255,7 @@ IsFinite
 (
 mPt
 .
-mX
+mY
 )
 "
 DOMSVGPoint
