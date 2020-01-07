@@ -5759,11 +5759,6 @@ ordinal
 "
 1000
 "
-persist
-=
-"
-width
-"
 skipintoolbarset
 =
 "
@@ -6309,11 +6304,6 @@ caption
 -
 buttons
 "
-persist
-=
-"
-width
-"
 #
 ifndef
 XP_MACOSX
@@ -6349,11 +6339,6 @@ type
 fullscreen
 -
 button
-"
-persist
-=
-"
-width
 "
 skipintoolbarset
 =
