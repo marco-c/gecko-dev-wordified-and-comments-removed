@@ -13,7 +13,11 @@ v
 -
 e
 test
+"
+(
 whoami
+)
+"
 =
 =
 '
@@ -56,7 +60,9 @@ root
 /
 build
 mkdir
+"
 BUILD
+"
 tooltool_fetch
 (
 )
@@ -83,6 +89,11 @@ tt
 }
 cd
 BUILD
+#
+shellcheck
+disable
+=
+SC1091
 .
 /
 tmp
@@ -107,4 +118,6 @@ apt
 get
 autoclean
 rm
+"
 0
+"
