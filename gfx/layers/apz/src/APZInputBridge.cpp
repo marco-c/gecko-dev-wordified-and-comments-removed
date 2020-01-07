@@ -5,7 +5,7 @@ mozilla
 /
 layers
 /
-IAPZCTreeManager
+APZInputBridge
 .
 h
 "
@@ -147,7 +147,7 @@ eMouseHitTest
 ;
 }
 bool
-IAPZCTreeManager
+APZInputBridge
 :
 :
 WillHandleWheelEvent
@@ -206,7 +206,7 @@ DOM_DELTA_PAGE
 ;
 }
 nsEventStatus
-IAPZCTreeManager
+APZInputBridge
 :
 :
 ReceiveInputEvent

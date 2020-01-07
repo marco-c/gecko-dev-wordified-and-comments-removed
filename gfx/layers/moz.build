@@ -573,6 +573,15 @@ apz
 /
 public
 /
+APZInputBridge
+.
+h
+'
+'
+apz
+/
+public
+/
 APZSampler
 .
 h
@@ -1865,9 +1874,9 @@ cpp
 '
 apz
 /
-public
+src
 /
-IAPZCTreeManager
+APZCTreeManager
 .
 cpp
 '
@@ -1876,7 +1885,7 @@ apz
 /
 src
 /
-APZCTreeManager
+APZInputBridge
 .
 cpp
 '
