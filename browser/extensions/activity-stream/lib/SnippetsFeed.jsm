@@ -125,7 +125,7 @@ defineModuleGetter
 (
 this
 "
-fxAccounts
+FxAccounts
 "
 "
 resource
@@ -822,9 +822,11 @@ const
 url
 =
 await
-fxAccounts
+FxAccounts
 .
-promiseAccountsSignUpURI
+config
+.
+promiseSignUpURI
 (
 "
 snippets

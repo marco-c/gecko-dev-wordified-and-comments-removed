@@ -196,10 +196,13 @@ WEEK_IN_MS
 ;
 }
 }
-fxAccounts
+FxAccounts
 :
 {
-promiseAccountsSignUpURI
+config
+:
+{
+promiseSignUpURI
 :
 sandbox
 .
@@ -216,6 +219,7 @@ resolve
 signUpUrl
 )
 )
+}
 }
 }
 )
