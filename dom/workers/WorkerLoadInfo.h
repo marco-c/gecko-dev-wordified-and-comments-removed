@@ -114,13 +114,9 @@ PrincipalInfo
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 struct
 WorkerLoadInfo
 {
@@ -419,9 +415,6 @@ endif
 bool
 ProxyReleaseMainThreadObjects
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -430,9 +423,6 @@ aWorkerPrivate
 bool
 ProxyReleaseMainThreadObjects
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

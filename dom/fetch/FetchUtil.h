@@ -67,13 +67,9 @@ dom
 class
 InternalRequest
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 FetchUtil
 final
@@ -169,9 +165,6 @@ JS
 StreamConsumer
 *
 aConsumer
-workers
-:
-:
 WorkerPrivate
 *
 aMaybeWorker

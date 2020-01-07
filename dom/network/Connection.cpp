@@ -64,10 +64,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 namespace
 network
 {
@@ -390,9 +386,6 @@ Connection
 :
 CreateForWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

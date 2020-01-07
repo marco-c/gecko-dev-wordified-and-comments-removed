@@ -20,13 +20,9 @@ dom
 class
 WorkerHolder
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 PerformanceProxyData
 ;
@@ -51,9 +47,6 @@ PerformanceStorageWorker
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -98,9 +91,6 @@ private
 explicit
 PerformanceStorageWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -114,9 +104,6 @@ PerformanceStorageWorker
 Mutex
 mMutex
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

@@ -153,16 +153,6 @@ mozilla
 :
 dom
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-workers
-;
 SharedWorker
 :
 :

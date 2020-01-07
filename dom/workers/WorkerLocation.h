@@ -176,9 +176,6 @@ WorkerLocation
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 :
 :

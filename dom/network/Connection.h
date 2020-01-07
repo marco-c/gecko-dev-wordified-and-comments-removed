@@ -58,13 +58,9 @@ NetworkInformation
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 namespace
 network
 {
@@ -102,9 +98,6 @@ Connection
 >
 CreateForWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

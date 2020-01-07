@@ -783,9 +783,6 @@ WorkerFetchResolver
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -3554,9 +3551,6 @@ mReporter
 return
 ;
 }
-workers
-:
-:
 WorkerPrivate
 *
 worker

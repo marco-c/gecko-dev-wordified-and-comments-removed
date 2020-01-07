@@ -451,9 +451,6 @@ mInfo
 ;
 RefPtr
 <
-workers
-:
-:
 WorkerPrivate
 >
 mWorkerPrivate

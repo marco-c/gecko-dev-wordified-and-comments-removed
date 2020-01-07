@@ -660,9 +660,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 IsCurrentThreadRunningChromeWorker
 (
 )

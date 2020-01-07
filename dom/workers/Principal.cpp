@@ -106,6 +106,9 @@ sPrincipal
 .
 debugToken
 =
+workers
+:
+:
 kJSPrincipalsDebugToken
 ;
 #

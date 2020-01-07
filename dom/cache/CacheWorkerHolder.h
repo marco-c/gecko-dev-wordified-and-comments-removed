@@ -28,13 +28,9 @@ h
 namespace
 mozilla
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 namespace
 dom
 {
@@ -60,9 +56,6 @@ CacheWorkerHolder
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

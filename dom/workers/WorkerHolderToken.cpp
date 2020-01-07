@@ -18,10 +18,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 already_AddRefed
 <
 WorkerHolderToken

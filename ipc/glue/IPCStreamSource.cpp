@@ -65,9 +65,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 ;
 using
@@ -75,9 +72,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerPrivate

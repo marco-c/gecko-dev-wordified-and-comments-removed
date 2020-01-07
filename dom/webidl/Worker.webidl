@@ -180,9 +180,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 :
 :
@@ -302,9 +299,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 ChromeWorkerPrivate

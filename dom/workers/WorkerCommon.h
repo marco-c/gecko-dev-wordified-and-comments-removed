@@ -149,12 +149,12 @@ WorkerTypeShared
 WorkerTypeService
 }
 ;
-}
-}
-BEGIN_WORKERS_NAMESPACE
 class
 WorkerPrivate
 ;
+}
+}
+BEGIN_WORKERS_NAMESPACE
 struct
 PrivatizableBase
 {

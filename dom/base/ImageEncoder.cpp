@@ -408,9 +408,6 @@ NS_IsMainThread
 )
 &
 &
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 (
 )

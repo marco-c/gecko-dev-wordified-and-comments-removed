@@ -7552,9 +7552,6 @@ GetFeatureStatusRunnable
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 *
 workerPrivate
@@ -7714,17 +7711,11 @@ NS_IsMainThread
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 *
 workerPrivate
 =
 dom
-:
-:
-workers
 :
 :
 GetCurrentThreadWorkerPrivate

@@ -5568,6 +5568,13 @@ aWindow
 ;
 }
 }
+END_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 WorkerPrivate
 *
 GetWorkerPrivateFromContext
@@ -5786,7 +5793,8 @@ GetGlobalJSObject
 )
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}
 struct
 RuntimeService
 :

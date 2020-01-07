@@ -71,13 +71,9 @@ dom
 class
 Promise
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 PromiseWorkerProxy
 :
@@ -158,9 +154,6 @@ PromiseWorkerProxy
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -175,9 +168,6 @@ aCallbacks
 nullptr
 )
 ;
-workers
-:
-:
 WorkerPrivate
 *
 GetWorkerPrivate
@@ -309,9 +299,6 @@ private
 :
 PromiseWorkerProxy
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -387,9 +374,6 @@ RunCallbackFunc
 aFunc
 )
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

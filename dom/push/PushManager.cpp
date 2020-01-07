@@ -181,8 +181,10 @@ namespace
 dom
 {
 using
-namespace
 workers
+:
+:
+AssertIsOnMainThread
 ;
 namespace
 {

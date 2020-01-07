@@ -60,14 +60,14 @@ MessagePort
 class
 StringOrWorkerOptions
 ;
+class
+WorkerPrivate
+;
 namespace
 workers
 {
 class
 RuntimeService
-;
-class
-WorkerPrivate
 ;
 }
 class
@@ -103,9 +103,6 @@ GlobalObject
 ;
 RefPtr
 <
-workers
-:
-:
 WorkerPrivate
 >
 mWorkerPrivate
@@ -233,9 +230,6 @@ aVisitor
 )
 override
 ;
-workers
-:
-:
 WorkerPrivate
 *
 GetWorkerPrivate
@@ -254,9 +248,6 @@ SharedWorker
 nsPIDOMWindowInner
 *
 aWindow
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

@@ -411,9 +411,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -464,9 +461,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerPrivate

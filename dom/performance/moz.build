@@ -253,17 +253,6 @@ PerformanceWorker
 cpp
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-dom
-/
-workers
-'
-]
 MOCHITEST_MANIFESTS
 +
 =

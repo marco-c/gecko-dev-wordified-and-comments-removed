@@ -51,13 +51,9 @@ SendRunnable
 class
 DOMString
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 XMLHttpRequestWorker
 final
@@ -168,9 +164,6 @@ XMLHttpRequestUpload
 >
 mUpload
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate
@@ -982,9 +975,6 @@ private
 explicit
 XMLHttpRequestWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

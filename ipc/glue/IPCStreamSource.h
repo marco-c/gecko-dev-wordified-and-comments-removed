@@ -278,9 +278,6 @@ mCallback
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

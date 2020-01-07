@@ -66,13 +66,9 @@ PerformanceStorage
 class
 PerformanceTiming
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 Performance
 :
@@ -124,9 +120,6 @@ Performance
 >
 CreateForWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

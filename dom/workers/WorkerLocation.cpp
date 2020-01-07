@@ -49,9 +49,6 @@ WorkerLocation
 :
 Create
 (
-workers
-:
-:
 WorkerPrivate
 :
 :

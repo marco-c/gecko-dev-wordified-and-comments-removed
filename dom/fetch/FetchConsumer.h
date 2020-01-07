@@ -62,13 +62,9 @@ Promise
 class
 WorkerHolder
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 template
 <
 class
@@ -161,9 +157,6 @@ ShutDownMainThreadConsuming
 (
 )
 ;
-workers
-:
-:
 WorkerPrivate
 *
 GetWorkerPrivate
@@ -205,9 +198,6 @@ aMainThreadEventTarget
 nsIGlobalObject
 *
 aGlobalObject
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -296,9 +286,6 @@ nsIGlobalObject
 >
 mGlobal
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

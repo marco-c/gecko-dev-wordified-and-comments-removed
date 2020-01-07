@@ -120,13 +120,9 @@ WorkerNotificationObserver
 class
 Promise
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 Notification
 ;
@@ -602,9 +598,6 @@ Promise
 >
 WorkerGet
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -761,9 +754,6 @@ IsTargetThread
 )
 ;
 }
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

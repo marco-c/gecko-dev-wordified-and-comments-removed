@@ -84,10 +84,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 FileBlobImpl

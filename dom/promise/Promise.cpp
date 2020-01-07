@@ -252,10 +252,6 @@ gIDGenerator
 )
 ;
 }
-using
-namespace
-workers
-;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 Promise

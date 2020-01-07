@@ -75,13 +75,9 @@ PerformanceObserverCallback
 struct
 PerformanceObserverInit
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 PerformanceObserver
 final
@@ -129,9 +125,6 @@ aCb
 ;
 PerformanceObserver
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

@@ -189,9 +189,6 @@ ServiceWorkerRegistration
 >
 CreateForWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

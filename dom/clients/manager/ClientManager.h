@@ -81,13 +81,9 @@ ClientType
 :
 uint8_t
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 ClientManager
 final
@@ -186,9 +182,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerPrivate

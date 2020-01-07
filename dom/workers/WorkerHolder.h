@@ -23,13 +23,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 #
 ifdef
 Status
@@ -86,9 +82,6 @@ WorkerHolder
 bool
 HoldWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -136,9 +129,6 @@ ReleaseWorkerInternal
 (
 )
 ;
-workers
-:
-:
 WorkerPrivate
 *
 MOZ_NON_OWNING_REF

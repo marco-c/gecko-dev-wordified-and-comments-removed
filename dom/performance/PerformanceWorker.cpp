@@ -19,6 +19,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h
@@ -29,10 +33,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 PerformanceWorker
 :
 :
