@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-[
-ArrayClass
-]
 interface
 DOMRectList
 {
