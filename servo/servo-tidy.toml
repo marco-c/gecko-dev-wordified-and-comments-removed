@@ -173,11 +173,6 @@ bitflags
 cookie
 "
 "
-foreign
--
-types
-"
-"
 mime
 "
 "
