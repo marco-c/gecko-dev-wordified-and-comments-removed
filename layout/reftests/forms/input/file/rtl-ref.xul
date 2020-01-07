@@ -130,6 +130,11 @@ rtl
 html
 :
 button
+dir
+=
+'
+ltr
+'
 >
 Browse
 &
