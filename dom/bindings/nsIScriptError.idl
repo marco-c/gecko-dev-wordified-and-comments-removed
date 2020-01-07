@@ -139,7 +139,7 @@ C
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

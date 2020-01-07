@@ -163,7 +163,7 @@ h
 '
     
 '
-nsStringGlue
+nsString
 .
 h
 '

@@ -7,7 +7,7 @@ ReferrerPolicy_h__
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

@@ -7,7 +7,7 @@ nsUnicharUtils_h__
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

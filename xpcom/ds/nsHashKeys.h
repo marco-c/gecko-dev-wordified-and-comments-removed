@@ -54,7 +54,7 @@ new
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "
