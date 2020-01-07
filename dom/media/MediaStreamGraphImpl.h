@@ -617,9 +617,6 @@ aStreamSet
 bool
 AudioTrackPresent
 (
-bool
-&
-aNeedsAEC
 )
 ;
 void
