@@ -1955,6 +1955,12 @@ TEXT_PLAIN
 locale
 "
 }
+{
+TEXT_PLAIN
+"
+ftl
+"
+}
 #
 if
 defined
