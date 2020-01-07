@@ -24,6 +24,8 @@ expectedResult
 }
 )
 {
+BrowserTestUtils
+.
 promiseAlertDialogOpen
 (
 buttonToClick
