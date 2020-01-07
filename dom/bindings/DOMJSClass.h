@@ -436,10 +436,10 @@ nonExposedGlobals
 IsNonExposedGlobal
 (
 cx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
@@ -487,10 +487,10 @@ enabledFunc
 enabledFunc
 (
 cx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
