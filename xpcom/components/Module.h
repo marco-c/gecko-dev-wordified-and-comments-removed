@@ -312,7 +312,6 @@ __attribute__
 section
 (
 "
-.
 kPStaticModules
 "
 )
@@ -367,7 +366,6 @@ __attribute__
 section
 (
 "
-.
 kPStaticModules
 "
 )

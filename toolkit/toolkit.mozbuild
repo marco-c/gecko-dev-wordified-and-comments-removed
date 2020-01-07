@@ -812,14 +812,6 @@ library
 '
 '
 /
-toolkit
-/
-library
-/
-StaticXULComponentsEnd
-'
-'
-/
 services
 '
 '
