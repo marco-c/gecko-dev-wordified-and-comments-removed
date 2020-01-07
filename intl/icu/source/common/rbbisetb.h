@@ -220,10 +220,8 @@ const
 void
 mergeCategories
 (
-int32_t
-left
-int32_t
-right
+IntPair
+categories
 )
 ;
 static

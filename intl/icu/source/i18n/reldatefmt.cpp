@@ -17,6 +17,11 @@ UCONFIG_NO_FORMATTING
 UCONFIG_NO_BREAK_ITERATION
 #
 include
+<
+cmath
+>
+#
+include
 "
 unicode
 /
@@ -4165,9 +4170,13 @@ UDAT_DIRECTION_NEXT
 ;
 if
 (
+std
+:
+:
+signbit
+(
 offset
-<
-0
+)
 )
 {
 direction

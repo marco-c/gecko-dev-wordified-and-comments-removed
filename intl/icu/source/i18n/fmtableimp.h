@@ -7,7 +7,7 @@ FMTABLEIMP_H
 #
 include
 "
-digitlst
+number_decimalquantity
 .
 h
 "
@@ -16,14 +16,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 U_NAMESPACE_BEGIN
-struct
-FmtStackData
-{
-DigitList
-stackDecimalNum
-;
-}
-;
 static
 const
 int64_t

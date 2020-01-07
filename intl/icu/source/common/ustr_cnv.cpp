@@ -57,6 +57,13 @@ ustr_cnv
 .
 h
 "
+#
+include
+"
+ucnv_bld
+.
+h
+"
 static
 UConverter
 *
@@ -189,6 +196,10 @@ converter
 )
 ;
 }
+ucnv_enableCleanup
+(
+)
+;
 umtx_lock
 (
 NULL

@@ -488,7 +488,7 @@ status
 )
 ;
 int32_t
-handlePrevious
+handleSafePrevious
 (
 int32_t
 fromPosition

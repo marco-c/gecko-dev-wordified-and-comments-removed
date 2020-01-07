@@ -1300,7 +1300,7 @@ OutputFile
 \
 bin
 \
-icutu61
+icutu62
 .
 dll
 <
@@ -1587,7 +1587,7 @@ OutputFile
 \
 bin
 \
-icutu61d
+icutu62d
 .
 dll
 <
@@ -1874,7 +1874,7 @@ OutputFile
 \
 bin64
 \
-icutu61
+icutu62
 .
 dll
 <
@@ -2146,7 +2146,7 @@ OutputFile
 \
 bin64
 \
-icutu61d
+icutu62d
 .
 dll
 <

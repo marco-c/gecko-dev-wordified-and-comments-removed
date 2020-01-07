@@ -821,7 +821,7 @@ CN
 "
 "
 Chinese
-Yuan
+yuan
 "
 }
 COP
@@ -9705,9 +9705,9 @@ Version
 .
 1
 .
-39
+41
 .
-20
+97
 "
 }
 }

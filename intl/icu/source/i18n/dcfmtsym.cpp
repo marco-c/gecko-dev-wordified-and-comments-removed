@@ -292,9 +292,7 @@ decimal
 "
 group
 "
-"
-list
-"
+NULL
 "
 percentSign
 "
@@ -358,6 +356,10 @@ UObject
 locale
 (
 )
+currPattern
+(
+NULL
+)
 {
 initialize
 (
@@ -387,6 +389,10 @@ UObject
 locale
 (
 loc
+)
+currPattern
+(
+NULL
 )
 {
 initialize
@@ -420,6 +426,10 @@ UObject
 locale
 (
 loc
+)
+currPattern
+(
+NULL
 )
 {
 initialize
@@ -1659,10 +1669,6 @@ validLocale
 actualLocale
 =
 0
-;
-currPattern
-=
-NULL
 ;
 initialize
 (

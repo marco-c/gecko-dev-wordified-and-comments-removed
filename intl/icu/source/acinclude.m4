@@ -3662,7 +3662,7 @@ use
 -
 std
 =
-c99
+c11
 on
 Solaris
 because
@@ -3698,7 +3698,7 @@ use
 -
 std
 =
-c99
+c11
 to
 disable
 the
@@ -3715,7 +3715,7 @@ CFLAGS
 -
 std
 =
-c99
+c11
 "
 ;
 ;

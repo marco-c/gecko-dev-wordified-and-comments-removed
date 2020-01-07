@@ -3842,6 +3842,8 @@ cldrVersion
 {
 "
 33
+.
+1
 "
 }
 codeMappings
@@ -20367,6 +20369,9 @@ Cyrl
 Deva
 "
 "
+Dogr
+"
+"
 Dsrt
 "
 "
@@ -20386,6 +20391,9 @@ Geor
 "
 "
 Glag
+"
+"
+Gong
 "
 "
 Gonm
@@ -20512,6 +20520,9 @@ Lydi
 Mahj
 "
 "
+Maka
+"
+"
 Mand
 "
 "
@@ -20519,6 +20530,9 @@ Mani
 "
 "
 Marc
+"
+"
+Medf
 "
 "
 Mend
@@ -20614,6 +20628,9 @@ Prti
 Rjng
 "
 "
+Rohg
+"
+"
 Runr
 "
 "
@@ -20642,6 +20659,12 @@ Sind
 "
 "
 Sinh
+"
+"
+Sogd
+"
+"
+Sogo
 "
 "
 Sora

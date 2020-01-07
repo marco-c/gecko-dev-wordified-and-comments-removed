@@ -3161,6 +3161,10 @@ MISCSRCDIR
 icudata
 .
 rc
+|
+build
+-
+dir
 ifeq
 (
 (

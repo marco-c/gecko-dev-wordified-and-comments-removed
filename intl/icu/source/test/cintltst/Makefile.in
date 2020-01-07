@@ -781,6 +781,10 @@ o
 cgendtst
 .
 o
+\
+unumberformattertst
+.
+o
 DEPS
 =
 (

@@ -3275,13 +3275,11 @@ getID
 (
 int32_t
 i
+UErrorCode
+&
+ec
 )
 {
-UErrorCode
-ec
-=
-U_ZERO_ERROR
-;
 int32_t
 idLen
 =
@@ -4198,6 +4196,7 @@ map
 [
 pos
 ]
+status
 )
 ;
 +

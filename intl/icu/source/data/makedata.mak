@@ -328,7 +328,7 @@ uvernum
 h
 U_ICUDATA_NAME
 =
-icudt61
+icudt62
 #
 #
 #
@@ -435,7 +435,7 @@ version
 .
 U_ICUDATA_NAME
 =
-icudt61
+icudt62
 !
 ENDIF
 U_ICUDATA_ENDIAN_SUFFIX
@@ -443,7 +443,7 @@ U_ICUDATA_ENDIAN_SUFFIX
 l
 UNICODE_VERSION
 =
-10
+11
 .
 0
 ICU_LIB_TARGET
@@ -588,7 +588,7 @@ out
 the
 prefix
 "
-icudt61_
+icudt62_
 "
 for
 use

@@ -100,7 +100,7 @@ CFLAGS
 -
 std
 =
-c99
+c11
 #
 #
 Flags
