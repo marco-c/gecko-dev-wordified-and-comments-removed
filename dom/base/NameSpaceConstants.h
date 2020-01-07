@@ -5,13 +5,6 @@ mozilla_dom_NameSpaceConstants_h__
 define
 mozilla_dom_NameSpaceConstants_h__
 #
-include
-<
-stdint
-.
-h
->
-#
 define
 kNameSpaceID_Unknown
 -

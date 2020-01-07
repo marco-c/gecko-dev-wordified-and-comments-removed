@@ -126,17 +126,6 @@ StyleSheetInlines
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-StyleSheetList
-.
-h
-"
 using
 namespace
 mozilla

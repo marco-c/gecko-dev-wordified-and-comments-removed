@@ -284,7 +284,7 @@ aError
 }
 already_AddRefed
 <
-ProcessMessageManager
+ChromeMessageSender
 >
 GetProcessMessageManager
 (

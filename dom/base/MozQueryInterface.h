@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-NonRefcountedDOMObject
+ChromeUtilsBinding
 .
 h
 "
@@ -32,13 +32,6 @@ include
 mozilla
 /
 ErrorResult
-.
-h
-"
-#
-include
-"
-nsID
 .
 h
 "

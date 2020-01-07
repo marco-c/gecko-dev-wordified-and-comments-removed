@@ -153,7 +153,7 @@ class
 BlobImpl
 ;
 class
-ProcessMessageManager
+ChromeMessageSender
 ;
 class
 ContentParent
@@ -364,7 +364,7 @@ mozilla
 dom
 :
 :
-ProcessMessageManager
+ChromeMessageSender
 *
 GetMessageManager
 (
@@ -817,7 +817,7 @@ mozilla
 dom
 :
 :
-ProcessMessageManager
+ChromeMessageSender
 >
 mMessageManager
 ;
