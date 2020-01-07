@@ -1028,13 +1028,6 @@ h
 #
 include
 "
-nsIDOMFileList
-.
-h
-"
-#
-include
-"
 nsIURIFixup
 .
 h

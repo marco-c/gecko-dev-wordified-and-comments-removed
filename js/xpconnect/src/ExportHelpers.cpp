@@ -113,13 +113,6 @@ nsJSUtils
 .
 h
 "
-#
-include
-"
-nsIDOMFileList
-.
-h
-"
 using
 namespace
 mozilla

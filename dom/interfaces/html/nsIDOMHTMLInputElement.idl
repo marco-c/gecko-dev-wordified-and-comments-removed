@@ -98,12 +98,6 @@ nsISupports
 .
 idl
 "
-interface
-nsIControllers
-;
-interface
-nsIDOMFileList
-;
 /
 *
 *

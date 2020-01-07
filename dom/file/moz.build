@@ -123,11 +123,6 @@ nsIDOMBlob
 .
 idl
 '
-'
-nsIDOMFileList
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

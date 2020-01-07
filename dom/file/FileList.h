@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMFileList
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -64,7 +57,7 @@ FileList
 final
 :
 public
-nsIDOMFileList
+nsISupports
 public
 nsWrapperCache
 {
@@ -75,7 +68,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 FileList
 )
-NS_DECL_NSIDOMFILELIST
 explicit
 FileList
 (
