@@ -1320,6 +1320,10 @@ pause_after_test
 text
 /
 javascript
+;
+charset
+=
+utf8
 "
                  
 "
@@ -1353,6 +1357,24 @@ path
 )
 )
             
+headers
+=
+{
+"
+Cache
+-
+Control
+"
+:
+"
+max
+-
+age
+=
+3600
+"
+}
+            
 route_builder
 .
 add_static
@@ -1361,6 +1383,10 @@ path
 format_args
 content_type
 route
+                                     
+headers
+=
+headers
 )
         
 data
