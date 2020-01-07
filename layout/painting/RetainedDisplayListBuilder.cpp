@@ -274,15 +274,6 @@ aFrame
 IsStackingContext
 (
 )
-|
-|
-!
-aFrame
--
->
-IsFixedPosContainingBlock
-(
-)
 )
 {
 return
