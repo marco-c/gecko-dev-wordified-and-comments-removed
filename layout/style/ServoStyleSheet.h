@@ -538,6 +538,11 @@ aOwningNodeToUse
 )
 ;
 void
+FinishParse
+(
+)
+;
+void
 DropRuleList
 (
 )
