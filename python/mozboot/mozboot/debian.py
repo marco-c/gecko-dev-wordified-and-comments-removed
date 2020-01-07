@@ -276,18 +276,6 @@ dev
 '
         
 '
-libiw
--
-dev
-'
-        
-'
-libnotify
--
-dev
-'
-        
-'
 libpulse
 -
 dev
@@ -303,14 +291,6 @@ dev
         
 '
 libxt
--
-dev
-'
-        
-'
-mesa
--
-common
 -
 dev
 '
