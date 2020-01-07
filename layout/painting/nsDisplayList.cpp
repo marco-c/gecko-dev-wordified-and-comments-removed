@@ -25719,7 +25719,10 @@ PushRect
 (
 rect
 rect
-true
+!
+BackfaceIsHidden
+(
+)
 wr
 :
 :
