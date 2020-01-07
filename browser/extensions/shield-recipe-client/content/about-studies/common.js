@@ -311,7 +311,7 @@ const
 remoteValues
 =
 {
-StudyList
+studyList
 :
 new
 RemoteValue
@@ -319,10 +319,8 @@ RemoteValue
 "
 StudyList
 "
-[
-]
 )
-ShieldLearnMoreHref
+shieldLearnMoreHref
 :
 new
 RemoteValue
@@ -330,7 +328,14 @@ RemoteValue
 "
 ShieldLearnMoreHref
 "
+)
+studiesEnabled
+:
+new
+RemoteValue
+(
 "
+StudiesEnabled
 "
 )
 }
