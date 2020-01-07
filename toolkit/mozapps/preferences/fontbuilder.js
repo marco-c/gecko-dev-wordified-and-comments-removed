@@ -518,9 +518,9 @@ aElement
 const
 preference
 =
-Preferences
+document
 .
-get
+getElementById
 (
 aElement
 .

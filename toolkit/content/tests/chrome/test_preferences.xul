@@ -813,24 +813,6 @@ aID
 ;
 }
 function
-GetPreference
-(
-aPrefWindow
-aID
-)
-{
-return
-aPrefWindow
-.
-Preferences
-.
-get
-(
-aID
-)
-;
-}
-function
 WritePrefsToPreferences
 (
 aPrefWindow
@@ -843,9 +825,11 @@ write
 preference
 data
 into
-Preference
-instances
-GetPreference
+<
+preference
+>
+s
+GetXULElement
 (
 aPrefWindow
 "
@@ -861,7 +845,7 @@ aPrefValueSet
 .
 int
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -877,7 +861,7 @@ aPrefValueSet
 .
 bool
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -893,7 +877,7 @@ aPrefValueSet
 .
 string
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -909,7 +893,7 @@ aPrefValueSet
 .
 unichar
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -925,7 +909,7 @@ aPrefValueSet
 .
 wstring_data
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -954,15 +938,17 @@ read
 preference
 data
 from
-Preference
-instances
+<
+preference
+>
+s
 var
 result
 =
 {
 int
 :
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -975,7 +961,7 @@ static_preference_int
 value
 bool
 :
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -988,7 +974,7 @@ static_preference_bool
 value
 string
 :
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -1001,7 +987,7 @@ static_preference_string
 value
 unichar
 :
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -1014,7 +1000,7 @@ static_preference_unichar
 value
 wstring_data
 :
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -1027,7 +1013,7 @@ static_preference_wstring
 value
 file_data
 :
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -1229,8 +1215,10 @@ read
 preference
 data
 from
-Preference
-instances
+<
+preference
+>
+s
 var
 result
 =
@@ -1404,8 +1392,9 @@ files
 /
 were
 all
-Preference
-instances
+<
+preferences
+>
 correctly
 initialized
 ?
@@ -1690,8 +1679,10 @@ get
 passed
 to
 the
-Preference
-instances
+<
+preference
+>
+s
 /
 /
 but
@@ -2015,7 +2006,7 @@ be
 empty
 here
 )
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2029,7 +2020,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2043,7 +2034,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2057,7 +2048,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2071,7 +2062,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2085,7 +2076,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2423,7 +2414,7 @@ check
 hasUserValue
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2448,7 +2439,7 @@ int
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2473,7 +2464,7 @@ bool
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2498,7 +2489,7 @@ string
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2523,7 +2514,7 @@ unichar
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2548,7 +2539,7 @@ wstring
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -2658,8 +2649,9 @@ files
 /
 were
 all
-Preference
-instances
+<
+preferences
+>
 correctly
 initialized
 ?
@@ -2968,8 +2960,10 @@ get
 passed
 to
 the
-Preference
-instances
+<
+preference
+>
+s
 /
 /
 but
@@ -3321,7 +3315,7 @@ be
 empty
 here
 )
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3335,7 +3329,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3349,7 +3343,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3363,7 +3357,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3377,7 +3371,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3391,7 +3385,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3766,7 +3760,7 @@ check
 hasUserValue
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3793,7 +3787,7 @@ int
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3820,7 +3814,7 @@ bool
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3847,7 +3841,7 @@ string
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3874,7 +3868,7 @@ unichar
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3901,7 +3895,7 @@ wstring
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3960,7 +3954,7 @@ click
 ;
 ok
 (
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -3993,7 +3987,7 @@ click
 ok
 (
 !
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -4027,7 +4021,7 @@ prefs
 to
 default
 values
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -4041,7 +4035,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -4055,7 +4049,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -4069,7 +4063,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -4083,7 +4077,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "
@@ -4097,7 +4091,7 @@ reset
 (
 )
 ;
-GetPreference
+GetXULElement
 (
 aPrefWindow
 "

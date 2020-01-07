@@ -217,9 +217,9 @@ dialogShown
 =
 prefWindow
 .
-Preferences
+document
 .
-get
+getElementById
 (
 "
 tests
@@ -235,9 +235,9 @@ called
 =
 prefWindow
 .
-Preferences
+document
 .
-get
+getElementById
 (
 "
 tests

@@ -76,11 +76,9 @@ alwaysClear
 let
 preference
 =
-win
+doc
 .
-Preferences
-.
-get
+getElementById
 (
 "
 privacy

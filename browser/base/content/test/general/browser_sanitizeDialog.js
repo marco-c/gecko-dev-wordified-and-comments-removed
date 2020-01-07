@@ -4057,9 +4057,9 @@ this
 .
 win
 .
-Preferences
+document
 .
-get
+getElementById
 (
 cb
 [

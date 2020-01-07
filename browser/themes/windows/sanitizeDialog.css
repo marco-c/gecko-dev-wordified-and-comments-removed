@@ -309,11 +309,9 @@ end
 ;
 }
 .
-dialog
+prefWindow
 -
-button
--
-box
+dlgbuttons
 {
 margin
 -
