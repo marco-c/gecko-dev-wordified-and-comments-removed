@@ -423,9 +423,15 @@ Bindings
 .
 conf
 \
+-
+-
+input
+-
+dir
 (
 dist_idl_dir
 )
+\
 (
 dist_include_dir
 )
