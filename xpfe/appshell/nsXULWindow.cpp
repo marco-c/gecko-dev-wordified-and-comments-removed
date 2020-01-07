@@ -3774,7 +3774,14 @@ obssvc
 >
 NotifyObservers
 (
-nullptr
+static_cast
+<
+nsIXULWindow
+*
+>
+(
+this
+)
 "
 xul
 -
