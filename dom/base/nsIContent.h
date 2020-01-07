@@ -2350,7 +2350,7 @@ _class
 *
 FromContent
 (
-nsIContent
+nsINode
 *
 aContent
 )
@@ -2384,7 +2384,7 @@ _class
 FromContent
 (
 const
-nsIContent
+nsINode
 *
 aContent
 )
@@ -2417,7 +2417,7 @@ _class
 *
 FromContentOrNull
 (
-nsIContent
+nsINode
 *
 aContent
 )
@@ -2444,7 +2444,7 @@ _class
 FromContentOrNull
 (
 const
-nsIContent
+nsINode
 *
 aContent
 )
