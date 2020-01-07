@@ -1014,7 +1014,7 @@ aModificationTime
 )
 ;
 bool
-PermissionAvaliable
+PermissionAvailable
 (
 nsIPrincipal
 *
