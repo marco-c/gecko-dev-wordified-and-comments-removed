@@ -1623,11 +1623,6 @@ mVideoDecodingOberver
 bool
 mIsBackgroundVideoDecodingAllowed
 ;
-int64_t
-mDecoderPosition
-=
-0
-;
 public
 :
 AbstractCanonical
