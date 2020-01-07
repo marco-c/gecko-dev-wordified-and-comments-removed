@@ -419,9 +419,6 @@ class
 nsIDocument
 ;
 class
-nsIGlobalHistory2
-;
-class
 nsIHttpChannel
 ;
 class
@@ -2676,12 +2673,6 @@ dom
 ChildSHistory
 >
 mSessionHistory
-;
-nsCOMPtr
-<
-nsIGlobalHistory2
->
-mGlobalHistory
 ;
 nsCOMPtr
 <

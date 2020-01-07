@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIGlobalHistory2
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
