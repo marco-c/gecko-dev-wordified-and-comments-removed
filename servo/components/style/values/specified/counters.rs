@@ -592,6 +592,8 @@ gecko
 )
 ]
 MozAltContent
+Items
+(
 #
 [
 css
@@ -599,8 +601,6 @@ css
 iterable
 )
 ]
-Items
-(
 Box
 <
 [

@@ -155,7 +155,6 @@ MallocSizeOf
 css
 (
 comma
-iterable
 )
 ]
 #
@@ -171,6 +170,13 @@ pub
 struct
 MediaList
 {
+#
+[
+css
+(
+iterable
+)
+]
 pub
 media_queries
 :

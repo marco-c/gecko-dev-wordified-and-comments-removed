@@ -3718,13 +3718,6 @@ MallocSizeOf
 ]
 #
 [
-css
-(
-iterable
-)
-]
-#
-[
 derive
 (
 Clone
@@ -3739,6 +3732,13 @@ pub
 struct
 Symbols
 (
+#
+[
+css
+(
+iterable
+)
+]
 pub
 Vec
 <

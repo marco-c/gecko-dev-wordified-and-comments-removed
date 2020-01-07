@@ -789,13 +789,6 @@ u32
 }
 #
 [
-css
-(
-iterable
-)
-]
-#
-[
 derive
 (
 Clone
@@ -808,6 +801,13 @@ pub
 struct
 VectorValues
 (
+#
+[
+css
+(
+iterable
+)
+]
 pub
 Vec
 <
