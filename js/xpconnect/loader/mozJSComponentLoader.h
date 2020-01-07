@@ -342,11 +342,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-nsresult
-AnnotateCrashReport
-(
-)
-;
 protected
 :
 virtual
