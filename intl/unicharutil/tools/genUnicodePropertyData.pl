@@ -170,7 +170,7 @@ files
 from
 #
 #
-http
+https
 :
 /
 /
@@ -267,7 +267,7 @@ require
 the
 file
 #
-http
+https
 :
 /
 /
@@ -328,7 +328,7 @@ revision
 17
 :
 #
-http
+https
 :
 /
 /
@@ -558,7 +558,7 @@ etc
 available
 from
 #
-http
+https
 :
 /
 /
