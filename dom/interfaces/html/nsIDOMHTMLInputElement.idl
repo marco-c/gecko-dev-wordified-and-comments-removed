@@ -105,9 +105,6 @@ interface
 nsIDOMFileList
 ;
 interface
-nsIDOMValidityState
-;
-interface
 nsIDOMHTMLFormElement
 ;
 /
