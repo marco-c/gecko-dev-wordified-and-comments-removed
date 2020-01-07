@@ -114,6 +114,15 @@ basestring
 :
 basestring
 }
+    
+Optional
+(
+'
+definition
+'
+)
+:
+basestring
 }
 )
 transforms
@@ -218,6 +227,18 @@ args
 }
 )
         
+definition
+=
+task
+.
+pop
+(
+'
+definition
+'
+image_name
+)
+        
 context_path
 =
 os
@@ -232,7 +253,7 @@ taskcluster
 '
 docker
 '
-image_name
+definition
 )
         
 context_hash
