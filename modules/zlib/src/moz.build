@@ -144,6 +144,12 @@ FINAL_LIBRARY
 '
 zlib
 '
+HostLibrary
+(
+'
+hostzlib
+'
+)
 SOURCES
 +
 =
@@ -224,3 +230,6 @@ zutil
 c
 '
 ]
+HOST_SOURCES
+=
+SOURCES
