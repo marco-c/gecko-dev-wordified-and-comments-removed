@@ -976,10 +976,7 @@ nsCString
 filepath
 ;
 float
-minWeight
-;
-float
-maxWeight
+weight
 ;
 int16_t
 stretch
