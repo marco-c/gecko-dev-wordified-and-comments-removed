@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsCSSProps
+nsCSSPropertyID
 .
 h
 "
