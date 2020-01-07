@@ -19,7 +19,7 @@ utf8
 <
 p
 >
-browser_console_devtools_loader_exception
+browser_console_addonsdk_loader_exception
 .
 js
 <
