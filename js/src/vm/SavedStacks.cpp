@@ -3539,7 +3539,7 @@ MOZ_RELEASE_ASSERT
 obj
 -
 >
-realm
+deprecatedRealm
 (
 )
 )
@@ -3560,7 +3560,7 @@ realm
 obj
 -
 >
-realm
+deprecatedRealm
 (
 )
 )
@@ -3602,7 +3602,7 @@ principals
 obj
 -
 >
-realm
+deprecatedRealm
 (
 )
 -

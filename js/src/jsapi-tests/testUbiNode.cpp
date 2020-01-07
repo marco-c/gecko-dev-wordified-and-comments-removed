@@ -81,6 +81,17 @@ SavedFrame
 .
 h
 "
+#
+include
+"
+vm
+/
+JSObject
+-
+inl
+.
+h
+"
 using
 JS
 :
@@ -945,7 +956,7 @@ realm
 global2
 -
 >
-realm
+nonCCWRealm
 (
 )
 )
@@ -971,7 +982,7 @@ realm
 global1
 -
 >
-realm
+nonCCWRealm
 (
 )
 )
@@ -1112,7 +1123,7 @@ realm
 global1
 -
 >
-realm
+nonCCWRealm
 (
 )
 )
@@ -1138,7 +1149,7 @@ realm
 global2
 -
 >
-realm
+nonCCWRealm
 (
 )
 )
