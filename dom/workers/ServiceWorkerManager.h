@@ -1009,7 +1009,10 @@ ServiceWorkerRegistrar
 aRegistrar
 )
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 StartControllingClient
 (
 const
@@ -1175,10 +1178,7 @@ ServiceWorkerRegistrationInfo
 aRegistration
 )
 ;
-RefPtr
-<
-GenericPromise
->
+void
 StartControllingADocument
 (
 ServiceWorkerRegistrationInfo
