@@ -1,13 +1,4 @@
 <
-stringbundleset
-id
-=
-"
-stringbundleset
-"
-/
->
-<
 commandset
 id
 =
