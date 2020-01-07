@@ -960,6 +960,10 @@ SelectorParseErrorKind
 UnexpectedIdent
 (
 name
+.
+clone
+(
+)
 )
 )
 )
