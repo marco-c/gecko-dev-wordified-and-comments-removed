@@ -1347,9 +1347,11 @@ JSObject
 globalObject
 (
 aCx
-JS_GetGlobalForObject
+JS
+:
+:
+GetNonCCWObjectGlobal
 (
-aCx
 aTargetClassObject
 )
 )

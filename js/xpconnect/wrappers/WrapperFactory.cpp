@@ -1155,9 +1155,11 @@ RootedObject
 currentScope
 (
 cx
-JS_GetGlobalForObject
+JS
+:
+:
+GetNonCCWObjectGlobal
 (
-cx
 obj
 )
 )
