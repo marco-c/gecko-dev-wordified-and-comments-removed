@@ -66,12 +66,6 @@ type
 application
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 src
 =
@@ -455,7 +449,7 @@ toSource
 {
 start
 :
-267
+255
 length
 :
 14

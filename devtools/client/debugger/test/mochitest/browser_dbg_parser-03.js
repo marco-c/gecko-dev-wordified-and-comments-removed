@@ -97,12 +97,6 @@ type
 text
 /
 javascript
-;
-version
-=
-1
-.
-8
 '
 >
 "
@@ -423,7 +417,7 @@ toSource
 {
 start
 :
-151
+139
 length
 :
 13
@@ -575,7 +569,7 @@ toSource
 {
 start
 :
-151
+139
 length
 :
 13
@@ -896,7 +890,7 @@ toSource
 {
 start
 :
-151
+139
 length
 :
 13

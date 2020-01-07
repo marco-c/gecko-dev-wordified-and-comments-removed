@@ -149,12 +149,6 @@ type
 text
 /
 javascript
-;
-version
-=
-1
-.
-8
 \
 "
 >
@@ -304,7 +298,7 @@ start
 0
 length
 :
-261
+249
 index
 :
 0
@@ -353,7 +347,7 @@ start
 0
 length
 :
-261
+249
 index
 :
 0
@@ -403,7 +397,7 @@ start
 0
 length
 :
-261
+249
 index
 :
 0
