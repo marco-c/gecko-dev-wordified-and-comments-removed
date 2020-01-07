@@ -7233,6 +7233,12 @@ LightweightThemeConsumer
 document
 )
 ;
+CompactTheme
+.
+init
+(
+)
+;
 TabsInTitlebar
 .
 init
@@ -7760,12 +7766,6 @@ init
 )
 ;
 FeedHandler
-.
-init
-(
-)
-;
-CompactTheme
 .
 init
 (
