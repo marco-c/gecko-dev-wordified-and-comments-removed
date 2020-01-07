@@ -280,11 +280,6 @@ attribute
 nsIDOMNodeList
 childNodes
 ;
-readonly
-attribute
-nsIDOMNode
-nextSibling
-;
 /
 /
 Modified
