@@ -21,7 +21,7 @@ gre
 /
 modules
 /
-LoadContextInfo
+Services
 .
 jsm
 "
@@ -86,7 +86,9 @@ cacheService
 .
 appCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 null

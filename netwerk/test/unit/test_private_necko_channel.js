@@ -266,7 +266,9 @@ get_device_entry_count
 "
 disk
 "
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 private
 function

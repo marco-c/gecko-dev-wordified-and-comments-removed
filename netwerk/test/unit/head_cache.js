@@ -30,7 +30,7 @@ gre
 /
 modules
 /
-LoadContextInfo
+Services
 .
 jsm
 '
@@ -172,7 +172,9 @@ svc
 .
 memoryCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 )
@@ -196,7 +198,9 @@ svc
 .
 diskCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 false
@@ -221,7 +225,9 @@ svc
 .
 appCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 null
@@ -297,7 +303,9 @@ lci
 )
 lci
 =
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 ;

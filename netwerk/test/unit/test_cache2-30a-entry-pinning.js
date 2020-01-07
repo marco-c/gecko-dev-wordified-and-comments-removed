@@ -25,7 +25,9 @@ Ci
 nsICacheStorage
 .
 OPEN_TRUNCATE
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 new
@@ -63,7 +65,9 @@ Ci
 nsICacheStorage
 .
 OPEN_NORMALLY
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 new
@@ -107,7 +111,9 @@ Ci
 nsICacheStorage
 .
 OPEN_NORMALLY
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 new

@@ -52,7 +52,9 @@ do_get_profile
 var
 lci
 =
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 ;

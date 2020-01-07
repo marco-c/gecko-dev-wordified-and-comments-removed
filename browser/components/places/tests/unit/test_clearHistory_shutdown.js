@@ -805,7 +805,9 @@ cache
 .
 diskCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 false
@@ -1009,7 +1011,9 @@ cache
 .
 diskCacheStorage
 (
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 default
 false

@@ -220,7 +220,9 @@ Ci
 nsICacheStorage
 .
 OPEN_TRUNCATE
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 custom
 (
@@ -464,7 +466,9 @@ Ci
 nsICacheStorage
 .
 OPEN_READONLY
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 custom
 (

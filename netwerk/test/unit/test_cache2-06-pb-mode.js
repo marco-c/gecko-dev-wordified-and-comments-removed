@@ -72,7 +72,9 @@ Ci
 nsICacheStorage
 .
 OPEN_NORMALLY
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 private
 new
@@ -108,7 +110,9 @@ Ci
 nsICacheStorage
 .
 OPEN_NORMALLY
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 private
 new
@@ -140,7 +144,9 @@ getCacheStorage
 "
 disk
 "
-LoadContextInfo
+Services
+.
+loadContextInfo
 .
 private
 )
