@@ -1493,7 +1493,9 @@ result
 .
 root
 ;
-NS_ASSERT
+console
+.
+assert
 (
 container
 "
@@ -3572,7 +3574,9 @@ dropNearNode
 =
 null
 ;
-NS_ASSERT
+console
+.
+assert
 (
 container
 "

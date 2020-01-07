@@ -1393,11 +1393,6 @@ DateTimePickerHelper
 jsm
 '
 '
-debug
-.
-js
-'
-'
 DeferredTask
 .
 jsm
