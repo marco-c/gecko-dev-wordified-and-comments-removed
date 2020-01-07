@@ -169,7 +169,7 @@ keyboardevent
 .
 dispatch_during_composition
 "
-false
+true
 )
 ;
 Preferences
