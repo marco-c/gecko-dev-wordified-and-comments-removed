@@ -2360,7 +2360,7 @@ UpdateFlags
 PROGRESS
 )
 ;
-updateProgressVisibility
+updateProgressBarState
 (
 tab
 Tab
@@ -2420,7 +2420,7 @@ getLoadProgress
 )
 ;
 }
-updateProgressVisibility
+updateProgressBarState
 (
 )
 ;
@@ -2438,7 +2438,7 @@ UpdateFlags
 PROGRESS
 )
 ;
-updateProgressVisibility
+updateProgressBarState
 (
 )
 ;
@@ -2628,7 +2628,7 @@ false
 }
 private
 void
-updateProgressVisibility
+updateProgressBarState
 (
 )
 {
@@ -2654,7 +2654,7 @@ selectedTab
 null
 )
 {
-updateProgressVisibility
+updateProgressBarState
 (
 selectedTab
 selectedTab
@@ -2668,7 +2668,7 @@ getLoadProgress
 }
 private
 void
-updateProgressVisibility
+updateProgressBarState
 (
 Tab
 selectedTab
@@ -3830,7 +3830,7 @@ UIMode
 EDIT
 )
 ;
-updateProgressVisibility
+updateProgressBarState
 (
 )
 ;
@@ -3991,7 +3991,7 @@ onStopEditing
 )
 ;
 }
-updateProgressVisibility
+updateProgressBarState
 (
 )
 ;
