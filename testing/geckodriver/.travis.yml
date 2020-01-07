@@ -335,7 +335,7 @@ DOCKER_IMAGE
 =
 i686
 -
-trusty
+xenial
 dist
 :
 trusty
