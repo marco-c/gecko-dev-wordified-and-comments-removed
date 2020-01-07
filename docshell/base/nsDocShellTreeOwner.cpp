@@ -577,10 +577,6 @@ nsIDOMEventListener
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsICDocShellTreeOwner
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END
