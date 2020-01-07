@@ -576,7 +576,7 @@ js
 Debugger
 :
 :
-getScriptFrame
+getFrame
 (
 JSContext
 *
@@ -594,7 +594,7 @@ result
 )
 {
 return
-getScriptFrameWithIter
+getFrameWithIter
 (
 cx
 iter

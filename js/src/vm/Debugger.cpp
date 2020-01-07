@@ -3398,7 +3398,7 @@ bool
 Debugger
 :
 :
-getScriptFrameWithIter
+getFrameWithIter
 (
 JSContext
 *
@@ -3425,7 +3425,7 @@ if
 Debugger
 :
 :
-getScriptFrameWithIter
+getFrameWithIter
 (
 cx
 referent
@@ -3453,7 +3453,7 @@ bool
 Debugger
 :
 :
-getScriptFrameWithIter
+getFrameWithIter
 (
 JSContext
 *
@@ -8385,7 +8385,7 @@ cx
 if
 (
 !
-getScriptFrame
+getFrame
 (
 cx
 iter
@@ -8557,7 +8557,7 @@ cx
 if
 (
 !
-getScriptFrame
+getFrame
 (
 cx
 iter
@@ -8724,7 +8724,7 @@ cx
 if
 (
 !
-getScriptFrame
+getFrame
 (
 cx
 iter
@@ -9983,7 +9983,7 @@ if
 dbg
 -
 >
-getScriptFrame
+getFrame
 (
 cx
 iter
@@ -19980,7 +19980,7 @@ return
 dbg
 -
 >
-getScriptFrame
+getFrame
 (
 cx
 iter
@@ -39862,7 +39862,7 @@ return
 dbg
 -
 >
-getScriptFrame
+getFrame
 (
 cx
 iter
