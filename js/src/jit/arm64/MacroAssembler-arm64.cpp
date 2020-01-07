@@ -3967,6 +3967,13 @@ CallSiteDesc
 desc
 )
 {
+AutoForbidPools
+afp
+(
+this
+1
+)
+;
 CodeOffset
 offset
 (
@@ -5832,6 +5839,13 @@ wasmTrapInstruction
 (
 )
 {
+AutoForbidPools
+afp
+(
+this
+1
+)
+;
 CodeOffset
 offs
 (

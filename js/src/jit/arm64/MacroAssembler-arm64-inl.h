@@ -1919,6 +1919,13 @@ AcquireX
 (
 )
 ;
+AutoForbidPools
+afp
+(
+this
+3
+)
+;
 CodeOffset
 offs
 =
