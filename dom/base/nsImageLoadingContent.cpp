@@ -5392,7 +5392,7 @@ aImageLoadType
 )
 ;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -5409,7 +5409,6 @@ mIsStartingImageLoad
 )
 {
 return
-NS_OK
 ;
 }
 MOZ_ASSERT
@@ -5460,9 +5459,6 @@ mImageBlockingStatus
 aContentDecision
 ;
 }
-return
-NS_OK
-;
 }
 RefPtr
 <

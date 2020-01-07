@@ -840,7 +840,8 @@ REJECT_
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 void
 setBlockedRequest
