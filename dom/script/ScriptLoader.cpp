@@ -15493,6 +15493,15 @@ req
 ;
 if
 (
+!
+aRequest
+-
+>
+IsModuleRequest
+(
+)
+&
+&
 aRequest
 -
 >
