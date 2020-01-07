@@ -48,6 +48,14 @@ recommends
 \
 socat
 \
+python3
+.
+5
+\
+python3
+-
+minimal
+\
 python
 \
 python
