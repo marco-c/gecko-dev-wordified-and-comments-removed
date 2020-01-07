@@ -148,8 +148,8 @@ explicit
 /
 string
 -
-bundle
--
+bundles
+/
 service
 "
 KIND_HEAP
@@ -160,7 +160,7 @@ Memory
 used
 for
 StringBundleService
-bundles
+overhead
 "
 )
 ;
