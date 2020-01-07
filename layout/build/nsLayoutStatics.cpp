@@ -961,13 +961,6 @@ AddRefAtoms
 (
 )
 ;
-nsRDFAtoms
-:
-:
-RegisterAtoms
-(
-)
-;
 NS_SetStaticAtomsDone
 (
 )
