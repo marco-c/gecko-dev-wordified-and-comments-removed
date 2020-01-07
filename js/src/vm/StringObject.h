@@ -7,7 +7,9 @@ vm_StringObject_h
 #
 include
 "
-jsstr
+builtin
+/
+String
 .
 h
 "

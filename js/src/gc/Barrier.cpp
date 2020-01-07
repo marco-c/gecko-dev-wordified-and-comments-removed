@@ -93,7 +93,7 @@ include
 "
 vm
 /
-Symbol
+SymbolType
 .
 h
 "

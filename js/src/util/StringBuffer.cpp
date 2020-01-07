@@ -1,7 +1,7 @@
 #
 include
 "
-vm
+util
 /
 StringBuffer
 .
@@ -32,7 +32,7 @@ include
 "
 vm
 /
-String
+StringType
 -
 inl
 .

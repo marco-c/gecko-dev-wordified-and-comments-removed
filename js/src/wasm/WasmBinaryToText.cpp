@@ -17,9 +17,9 @@ h
 #
 include
 "
-vm
+util
 /
-ArrayBufferObject
+StringBuffer
 .
 h
 "
@@ -28,7 +28,7 @@ include
 "
 vm
 /
-StringBuffer
+ArrayBufferObject
 .
 h
 "

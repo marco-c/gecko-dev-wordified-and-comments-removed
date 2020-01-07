@@ -69,7 +69,9 @@ h
 #
 include
 "
-jsstr
+builtin
+/
+RegExp
 .
 h
 "
@@ -78,7 +80,7 @@ include
 "
 builtin
 /
-RegExp
+String
 .
 h
 "

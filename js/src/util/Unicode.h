@@ -1,9 +1,9 @@
 #
 ifndef
-vm_Unicode_h
+util_Unicode_h
 #
 define
-vm_Unicode_h
+util_Unicode_h
 #
 include
 "
@@ -14,7 +14,7 @@ h
 #
 include
 "
-vm
+util
 /
 UnicodeNonBMP
 .

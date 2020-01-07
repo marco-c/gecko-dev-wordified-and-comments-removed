@@ -55,14 +55,16 @@ h
 #
 include
 "
-jsstr
+jstypes
 .
 h
 "
 #
 include
 "
-jstypes
+builtin
+/
+String
 .
 h
 "
@@ -89,7 +91,7 @@ include
 "
 vm
 /
-Symbol
+SymbolType
 .
 h
 "
@@ -151,7 +153,7 @@ include
 "
 vm
 /
-String
+StringType
 -
 inl
 .
