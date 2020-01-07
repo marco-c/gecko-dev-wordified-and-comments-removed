@@ -1653,14 +1653,6 @@ ins
 override
 ;
 void
-emitWasmCall
-(
-LWasmCallBase
-*
-ins
-)
-;
-void
 visitWasmLoad
 (
 LWasmLoad
