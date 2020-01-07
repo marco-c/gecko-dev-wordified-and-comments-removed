@@ -126,10 +126,10 @@ in
 question
 to
 exempt
-individual
+specific
 functions
 using
-MOZ_NO_SANITIZE_UINT_OVERFLOW
+MOZ_NO_SANITIZE_UNSIGNED_OVERFLOW
 #
 do
 that
