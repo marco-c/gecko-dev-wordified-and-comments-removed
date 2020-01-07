@@ -97,10 +97,6 @@ mVertical
 }
 }
 ;
-typedef
-uint64_t
-RefLayerId
-;
 struct
 NoFocusTarget
 {
@@ -168,7 +164,7 @@ mozilla
 :
 Variant
 <
-RefLayerId
+LayersId
 ScrollTargets
 NoFocusTarget
 >

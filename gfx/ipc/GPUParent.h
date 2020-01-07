@@ -93,7 +93,7 @@ PAPZInputBridgeParent
 AllocPAPZInputBridgeParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -231,7 +231,7 @@ IPCResult
 RecvInitUiCompositorController
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 Endpoint

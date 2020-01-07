@@ -320,7 +320,7 @@ aBridge
 CompositorAnimationStorage
 *
 aAnimStorage
-uint64_t
+LayersId
 aId
 )
 :
@@ -364,9 +364,10 @@ false
 MOZ_ASSERT
 (
 mId
-!
-=
-0
+.
+IsValid
+(
+)
 )
 ;
 }

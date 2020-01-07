@@ -257,7 +257,10 @@ childApzc
 new
 TestAsyncPanZoomController
 (
+LayersId
+{
 0
+}
 mcc
 tm
 )

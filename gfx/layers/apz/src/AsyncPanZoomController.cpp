@@ -2006,7 +2006,7 @@ AsyncPanZoomController
 :
 AsyncPanZoomController
 (
-uint64_t
+LayersId
 aLayersId
 APZCTreeManager
 *

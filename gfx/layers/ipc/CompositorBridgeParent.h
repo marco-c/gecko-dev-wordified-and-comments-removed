@@ -361,7 +361,7 @@ ScopedLayerTreeRegistration
 APZCTreeManager
 *
 aApzctm
-uint64_t
+LayersId
 aLayersId
 Layer
 *
@@ -378,7 +378,7 @@ ScopedLayerTreeRegistration
 ;
 private
 :
-uint64_t
+LayersId
 mLayersId
 ;
 }
@@ -461,7 +461,7 @@ bool
 SetTestSampleTime
 (
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -479,7 +479,7 @@ void
 LeaveTestMode
 (
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -501,7 +501,7 @@ void
 SetTestAsyncScrollOffset
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -524,7 +524,7 @@ void
 SetTestAsyncZoom
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -547,7 +547,7 @@ void
 FlushApzRepaints
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -559,7 +559,7 @@ void
 GetAPZTestData
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 APZTestData
@@ -573,7 +573,7 @@ void
 SetConfirmedTargetAPZC
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -667,7 +667,7 @@ virtual
 void
 ObserveLayerUpdate
 (
-uint64_t
+LayersId
 aLayersId
 uint64_t
 aEpoch
@@ -681,7 +681,7 @@ virtual
 void
 DidComposite
 (
-uint64_t
+LayersId
 aId
 TimeStamp
 &
@@ -914,7 +914,7 @@ Handle
 aHandle
 CrossProcessMutexHandle
 aMutexHandle
-uint64_t
+LayersId
 aLayersId
 uint32_t
 aApzcId
@@ -1086,7 +1086,7 @@ CompositorWidget
 *
 aWidget
 const
-uint64_t
+LayersId
 &
 aLayerTreeId
 )
@@ -1101,7 +1101,7 @@ IPCResult
 RecvInitialize
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )
@@ -1168,7 +1168,7 @@ IPCResult
 RecvNotifyChildCreated
 (
 const
-uint64_t
+LayersId
 &
 child
 CompositorOptions
@@ -1187,7 +1187,7 @@ IPCResult
 RecvMapAndNotifyChildCreated
 (
 const
-uint64_t
+LayersId
 &
 child
 const
@@ -1213,7 +1213,7 @@ IPCResult
 RecvNotifyChildRecreated
 (
 const
-uint64_t
+LayersId
 &
 child
 CompositorOptions
@@ -1232,7 +1232,7 @@ IPCResult
 RecvAdoptChild
 (
 const
-uint64_t
+LayersId
 &
 child
 )
@@ -1458,7 +1458,7 @@ bool
 SetTestSampleTime
 (
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -1472,7 +1472,7 @@ void
 LeaveTestMode
 (
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -1497,7 +1497,7 @@ void
 SetTestAsyncScrollOffset
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -1518,7 +1518,7 @@ void
 SetTestAsyncZoom
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -1539,7 +1539,7 @@ void
 FlushApzRepaints
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -1549,7 +1549,7 @@ void
 GetAPZTestData
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 APZTestData
@@ -1562,7 +1562,7 @@ void
 SetConfirmedTargetAPZC
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -1614,7 +1614,7 @@ TextureFlags
 &
 aFlags
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -1681,7 +1681,7 @@ override
 void
 ObserveLayerUpdate
 (
-uint64_t
+LayersId
 aLayersId
 uint64_t
 aEpoch
@@ -1715,7 +1715,7 @@ aLayer
 void
 NotifyChildCreated
 (
-uint64_t
+LayersId
 aChild
 )
 ;
@@ -1762,7 +1762,7 @@ ScheduleComposition
 void
 NotifyShadowTreeTransaction
 (
-uint64_t
+LayersId
 aId
 bool
 aIsFirstPaint
@@ -1804,7 +1804,7 @@ bool
 aIsFirstPaint
 )
 ;
-uint64_t
+LayersId
 RootLayerTreeId
 (
 )
@@ -1832,7 +1832,7 @@ TimeStamp
 &
 aTimeStamp
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -1841,7 +1841,7 @@ static
 void
 SetControllerForLayerTree
 (
-uint64_t
+LayersId
 aLayersId
 GeckoContentController
 *
@@ -1946,7 +1946,7 @@ LayerTreeState
 *
 GetIndirectShadowTree
 (
-uint64_t
+LayersId
 aId
 )
 ;
@@ -1954,7 +1954,7 @@ static
 bool
 CallWithIndirectShadowTree
 (
-uint64_t
+LayersId
 aId
 const
 std
@@ -1977,7 +1977,7 @@ APZCTreeManagerParent
 *
 GetApzcTreeManagerParentForRoot
 (
-uint64_t
+LayersId
 aContentLayersId
 )
 ;
@@ -1986,7 +1986,7 @@ GeckoContentController
 *
 GetGeckoContentControllerForRoot
 (
-uint64_t
+LayersId
 aContentLayersId
 )
 ;
@@ -2005,7 +2005,7 @@ MOZ_WIDGET_GTK
 bool
 UpdatePluginWindowState
 (
-uint64_t
+LayersId
 aId
 )
 ;
@@ -2110,7 +2110,7 @@ PAPZCTreeManagerParent
 AllocPAPZCTreeManagerParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -2133,7 +2133,7 @@ MonitorAutoLock
 &
 aProofOfLayerTreeStateLock
 const
-uint64_t
+LayersId
 &
 aLayersId
 LayerTreeState
@@ -2146,7 +2146,7 @@ PAPZParent
 AllocPAPZParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -2263,7 +2263,7 @@ CompositorBridgeParent
 GetCompositorBridgeParentFromLayersId
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -2275,7 +2275,7 @@ IAPZCTreeManager
 >
 GetAPZCTreeManager
 (
-uint64_t
+LayersId
 aLayersId
 )
 ;
@@ -2315,7 +2315,7 @@ static
 void
 DeallocateLayerTreeId
 (
-uint64_t
+LayersId
 aId
 )
 ;
@@ -2344,7 +2344,7 @@ LayersBackend
 &
 aBackendHints
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -2708,7 +2708,7 @@ mResumeCompositionMonitor
 uint64_t
 mCompositorBridgeID
 ;
-uint64_t
+LayersId
 mRootLayerTreeID
 ;
 bool
@@ -2765,7 +2765,7 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-uint64_t
+LayersId
 mLastPluginUpdateLayerTreeId
 ;
 nsIntPoint

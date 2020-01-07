@@ -132,7 +132,7 @@ aApz
 void
 Initialize
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 )
 ;
@@ -507,7 +507,7 @@ int32_t
 aMessage
 )
 ;
-uint64_t
+LayersId
 mRootLayerTreeId
 ;
 MOZ_NON_OWNING_REF

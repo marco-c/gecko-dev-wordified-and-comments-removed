@@ -117,7 +117,7 @@ AsyncPanZoomController
 aApzc
 bool
 aIsPrimaryHolder
-uint64_t
+LayersId
 aLayersId
 )
 :
@@ -197,7 +197,7 @@ RecycleWith
 AsyncPanZoomController
 *
 aApzc
-uint64_t
+LayersId
 aLayersId
 )
 {
@@ -298,7 +298,10 @@ nullptr
 }
 mLayersId
 =
+LayersId
+{
 0
+}
 ;
 }
 void
@@ -923,7 +926,7 @@ return
 mIsPrimaryApzcHolder
 ;
 }
-uint64_t
+LayersId
 HitTestingTreeNode
 :
 :
@@ -1512,7 +1515,10 @@ l
 %
 "
 PRIx64
+uint64_t
+(
 mLayersId
+)
 )
 .
 get

@@ -103,7 +103,7 @@ APZCTreeManagerChild
 *
 aAPZ
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )
@@ -247,7 +247,10 @@ APZChild
 (
 aController
 )
+LayersId
+{
 0
+}
 )
 ;
 }

@@ -252,7 +252,10 @@ aVsyncBridge
 TimeStamp
 aTimeStamp
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aLayersId
 )
@@ -310,7 +313,10 @@ mVsyncBridge
 TimeStamp
 mTimeStamp
 ;
-uint64_t
+layers
+:
+:
+LayersId
 mLayersId
 ;
 }
@@ -345,7 +351,10 @@ NotifyVsync
 TimeStamp
 aTimeStamp
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aLayersId
 )
@@ -394,7 +403,10 @@ NotifyVsyncImpl
 TimeStamp
 aTimeStamp
 const
-uint64_t
+layers
+:
+:
+LayersId
 &
 aLayersId
 )

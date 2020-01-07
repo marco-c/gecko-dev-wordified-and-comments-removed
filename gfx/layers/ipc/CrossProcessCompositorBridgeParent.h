@@ -88,7 +88,7 @@ IPCResult
 RecvInitialize
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )
@@ -183,7 +183,7 @@ IPCResult
 RecvNotifyChildCreated
 (
 const
-uint64_t
+LayersId
 &
 child
 CompositorOptions
@@ -202,7 +202,7 @@ IPCResult
 RecvMapAndNotifyChildCreated
 (
 const
-uint64_t
+LayersId
 &
 child
 const
@@ -228,7 +228,7 @@ IPCResult
 RecvNotifyChildRecreated
 (
 const
-uint64_t
+LayersId
 &
 child
 CompositorOptions
@@ -254,7 +254,7 @@ IPCResult
 RecvAdoptChild
 (
 const
-uint64_t
+LayersId
 &
 child
 )
@@ -530,7 +530,7 @@ LayersBackend
 &
 aBackendHints
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -582,7 +582,7 @@ bool
 SetTestSampleTime
 (
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -596,7 +596,7 @@ void
 LeaveTestMode
 (
 const
-uint64_t
+LayersId
 &
 aId
 )
@@ -615,7 +615,7 @@ void
 SetTestAsyncScrollOffset
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -636,7 +636,7 @@ void
 SetTestAsyncZoom
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -657,7 +657,7 @@ void
 FlushApzRepaints
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -667,7 +667,7 @@ void
 GetAPZTestData
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 APZTestData
@@ -680,7 +680,7 @@ void
 SetConfirmedTargetAPZC
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -729,7 +729,7 @@ this
 void
 DidCompositeLocked
 (
-uint64_t
+LayersId
 aId
 TimeStamp
 &
@@ -742,7 +742,7 @@ aCompositeEnd
 void
 DidComposite
 (
-uint64_t
+LayersId
 aId
 TimeStamp
 &
@@ -774,7 +774,7 @@ TextureFlags
 &
 aFlags
 const
-uint64_t
+LayersId
 &
 aId
 const
@@ -840,7 +840,7 @@ PAPZCTreeManagerParent
 AllocPAPZCTreeManagerParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -860,7 +860,7 @@ PAPZParent
 AllocPAPZParent
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 )
@@ -927,7 +927,7 @@ override
 void
 ObserveLayerUpdate
 (
-uint64_t
+LayersId
 aLayersId
 uint64_t
 aEpoch

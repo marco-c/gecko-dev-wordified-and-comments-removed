@@ -1320,7 +1320,7 @@ nsBaseWidget
 *
 aWidget
 const
-uint64_t
+LayersId
 aId
 )
 {
@@ -2848,7 +2848,7 @@ MOZ_ASSERT
 aRetryOut
 )
 ;
-uint64_t
+LayersId
 layerTreeId
 =
 AllocateLayerTreeId
@@ -3002,7 +3002,7 @@ LayerManager
 *
 aLayerManager
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 CSSToLayoutDeviceScale
@@ -3175,7 +3175,10 @@ child
 >
 SendPAPZCTreeManagerConstructor
 (
+LayersId
+{
 0
+}
 )
 ;
 if
@@ -4096,7 +4099,7 @@ GPUProcessManager
 :
 MapLayerTreeId
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -4146,7 +4149,7 @@ GPUProcessManager
 :
 UnmapLayerTreeId
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -4206,7 +4209,7 @@ GPUProcessManager
 :
 IsLayerTreeIdMapped
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -4231,7 +4234,7 @@ aRequestingId
 )
 ;
 }
-uint64_t
+LayersId
 GPUProcessManager
 :
 :
@@ -4286,7 +4289,10 @@ layerTreeId
 mResourceId
 ;
 return
+LayersId
+{
 layerTreeId
+}
 ;
 }
 uint32_t
@@ -4324,7 +4330,7 @@ base
 :
 ProcessId
 aOtherPid
-uint64_t
+LayersId
 *
 aOutLayersId
 CompositorOptions
@@ -4332,7 +4338,7 @@ CompositorOptions
 aOutCompositorOptions
 )
 {
-uint64_t
+LayersId
 layersId
 =
 AllocateLayerTreeId

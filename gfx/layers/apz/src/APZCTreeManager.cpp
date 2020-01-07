@@ -425,11 +425,11 @@ TreeBuildingState
 {
 TreeBuildingState
 (
-uint64_t
+LayersId
 aRootLayersId
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 APZTestData
 *
@@ -522,7 +522,7 @@ bool
 mIsFirstPaint
 ;
 const
-uint64_t
+LayersId
 mOriginatingLayersId
 ;
 const
@@ -1104,7 +1104,7 @@ APZCTreeManager
 :
 APZCTreeManager
 (
-uint64_t
+LayersId
 aRootLayersId
 )
 :
@@ -1250,7 +1250,7 @@ APZCTreeManager
 :
 NotifyLayerTreeAdopted
 (
-uint64_t
+LayersId
 aLayersId
 const
 RefPtr
@@ -1383,7 +1383,7 @@ APZCTreeManager
 :
 NotifyLayerTreeRemoved
 (
-uint64_t
+LayersId
 aLayersId
 )
 {
@@ -1424,7 +1424,7 @@ APZCTreeManager
 :
 NewAPZCInstance
 (
-uint64_t
+LayersId
 aLayersId
 GeckoContentController
 *
@@ -1508,7 +1508,7 @@ APZCTreeManager
 :
 UpdateHitTestingTreeImpl
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 const
 ScrollNode
@@ -1516,7 +1516,7 @@ ScrollNode
 aRoot
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -1689,7 +1689,7 @@ next
 =
 nullptr
 ;
-uint64_t
+LayersId
 layersId
 =
 aRootLayerTreeId
@@ -1874,7 +1874,7 @@ if
 (
 Maybe
 <
-uint64_t
+LayersId
 >
 newLayersId
 =
@@ -2246,9 +2246,9 @@ APZCTreeManager
 :
 UpdateFocusState
 (
-uint64_t
+LayersId
 aRootLayerTreeId
-uint64_t
+LayersId
 aOriginatingLayersId
 const
 FocusTarget
@@ -2293,14 +2293,14 @@ APZCTreeManager
 :
 UpdateHitTestingTree
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 Layer
 *
 aRoot
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -2335,7 +2335,7 @@ APZCTreeManager
 :
 UpdateHitTestingTree
 (
-uint64_t
+LayersId
 aRootLayerTreeId
 const
 WebRenderScrollData
@@ -2343,7 +2343,7 @@ WebRenderScrollData
 aScrollData
 bool
 aIsFirstPaint
-uint64_t
+LayersId
 aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
@@ -2430,11 +2430,15 @@ activeAnimations
 =
 false
 ;
-uint64_t
+LayersId
 lastLayersId
-=
+{
+(
+uint64_t
+)
 -
 1
+}
 ;
 wr
 :
@@ -3213,7 +3217,7 @@ aState
 AsyncPanZoomController
 *
 aApzc
-uint64_t
+LayersId
 aLayersId
 )
 {
@@ -3661,7 +3665,7 @@ const
 FrameMetrics
 &
 aMetrics
-uint64_t
+LayersId
 aLayersId
 const
 AncestorTransform
@@ -4968,7 +4972,7 @@ APZCTreeManager
 :
 FlushApzRepaints
 (
-uint64_t
+LayersId
 aLayersId
 )
 {
@@ -10099,7 +10103,7 @@ APZCTreeManager
 GetTargetAPZC
 (
 const
-uint64_t
+LayersId
 &
 aLayersId
 const
@@ -10561,13 +10565,13 @@ forget
 )
 ;
 }
-uint64_t
+LayersId
 layersId
 =
 wr
 :
 :
-AsUint64
+AsLayersId
 (
 pipelineId
 )
@@ -12013,7 +12017,7 @@ APZCTreeManager
 :
 FindRootApzcForLayersId
 (
-uint64_t
+LayersId
 aLayersId
 )
 const
@@ -12103,7 +12107,7 @@ APZCTreeManager
 :
 FindRootContentApzcForLayersId
 (
-uint64_t
+LayersId
 aLayersId
 )
 const
@@ -13147,7 +13151,7 @@ APZCTreeManager
 :
 GetContentController
 (
-uint64_t
+LayersId
 aLayersId
 )
 const
@@ -13199,7 +13203,7 @@ APZCTreeManager
 :
 GetAPZTestData
 (
-uint64_t
+LayersId
 aLayersId
 APZTestData
 *

@@ -71,9 +71,9 @@ ReceiveFocusChangingEvent
 void
 Update
 (
-uint64_t
+LayersId
 aRootLayerTreeId
-uint64_t
+LayersId
 aOriginatingLayersId
 const
 FocusTarget
@@ -84,7 +84,7 @@ aTarget
 void
 RemoveFocusTarget
 (
-uint64_t
+LayersId
 aLayersId
 )
 ;
@@ -135,8 +135,16 @@ std
 :
 unordered_map
 <
-uint64_t
+LayersId
 FocusTarget
+LayersId
+:
+:
+HashFn
+LayersId
+:
+:
+EqualFn
 >
 mFocusTree
 ;
@@ -152,7 +160,7 @@ mFocusHasKeyEventListeners
 bool
 mReceivedUpdate
 ;
-uint64_t
+LayersId
 mFocusLayersId
 ;
 FrameMetrics

@@ -85,7 +85,7 @@ UiCompositorControllerParent
 GetFromRootLayerTreeId
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )
@@ -98,7 +98,7 @@ UiCompositorControllerParent
 Start
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 Endpoint
@@ -336,7 +336,7 @@ explicit
 UiCompositorControllerParent
 (
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 )
@@ -378,7 +378,7 @@ Shutdown
 (
 )
 ;
-uint64_t
+LayersId
 mRootLayerTreeId
 ;
 #

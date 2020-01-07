@@ -1392,7 +1392,10 @@ mAllowZoom
 ScrollableLayerGuid
 newGuid
 (
+LayersId
+{
 0
+}
 presShellId
 viewId
 )

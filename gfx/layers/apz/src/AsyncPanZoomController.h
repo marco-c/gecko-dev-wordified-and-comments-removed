@@ -494,7 +494,7 @@ const
 ;
 AsyncPanZoomController
 (
-uint64_t
+LayersId
 aLayersId
 APZCTreeManager
 *
@@ -1453,7 +1453,7 @@ OnTouchEndOrCancel
 (
 )
 ;
-uint64_t
+LayersId
 mLayersId
 ;
 RefPtr
@@ -2346,7 +2346,7 @@ return
 mAsyncTransformAppliedToContent
 ;
 }
-uint64_t
+LayersId
 GetLayersId
 (
 )

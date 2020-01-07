@@ -1532,7 +1532,13 @@ RedrawAll
 (
 )
 ;
-int64_t
+mozilla
+:
+:
+layers
+:
+:
+LayersId
 GetRootLayerId
 (
 )

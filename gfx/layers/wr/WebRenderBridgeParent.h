@@ -1240,7 +1240,7 @@ TransactionBuilder
 aResources
 )
 ;
-uint64_t
+LayersId
 GetLayersId
 (
 )

@@ -96,7 +96,10 @@ apzc
 new
 TestAsyncPanZoomController
 (
+LayersId
+{
 0
+}
 mcc
 tm
 mGestureBehavior

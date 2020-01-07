@@ -111,6 +111,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes
@@ -277,6 +288,13 @@ layers
 :
 LayerManager
 LayerManager
+;
+typedef
+layers
+:
+:
+LayersId
+LayersId
 ;
 typedef
 layers
@@ -458,7 +476,7 @@ aNamespaces
 void
 MapLayerTreeId
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -470,7 +488,7 @@ aOwningId
 void
 UnmapLayerTreeId
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -482,7 +500,7 @@ aOwningId
 bool
 IsLayerTreeIdMapped
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -491,7 +509,7 @@ ProcessId
 aRequestingId
 )
 ;
-uint64_t
+LayersId
 AllocateLayerTreeId
 (
 )
@@ -512,7 +530,7 @@ base
 :
 ProcessId
 aOtherPid
-uint64_t
+LayersId
 *
 aOutLayersId
 CompositorOptions
@@ -880,7 +898,7 @@ nsBaseWidget
 *
 aWidget
 const
-uint64_t
+LayersId
 aId
 )
 ;
@@ -899,7 +917,7 @@ LayerManager
 *
 aLayerManager
 const
-uint64_t
+LayersId
 &
 aRootLayerTreeId
 CSSToLayoutDeviceScale

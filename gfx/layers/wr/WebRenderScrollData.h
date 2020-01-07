@@ -331,7 +331,7 @@ mVisibleRegion
 void
 SetReferentId
 (
-uint64_t
+LayersId
 aReferentId
 )
 {
@@ -345,7 +345,7 @@ aReferentId
 }
 Maybe
 <
-uint64_t
+LayersId
 >
 GetReferentId
 (
@@ -540,7 +540,7 @@ mVisibleRegion
 ;
 Maybe
 <
-uint64_t
+LayersId
 >
 mReferentId
 ;

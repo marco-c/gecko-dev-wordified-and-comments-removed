@@ -139,7 +139,7 @@ LayerTreeOwnerTracker
 :
 Map
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -168,7 +168,7 @@ LayerTreeOwnerTracker
 :
 Unmap
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -208,7 +208,7 @@ LayerTreeOwnerTracker
 :
 IsMapped
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
@@ -267,7 +267,7 @@ function
 <
 void
 (
-uint64_t
+LayersId
 aLayersId
 base
 :
