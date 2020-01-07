@@ -45,13 +45,15 @@ WidgetNodeType
 aNodeType
 )
 ;
-GdkPixbuf
+cairo_surface_t
 *
-GetWidgetIconPixbuf
+GetWidgetIconSurface
 (
 GtkWidget
 *
 aWidgetIcon
+int
+aScale
 )
 ;
 GtkStyleContext

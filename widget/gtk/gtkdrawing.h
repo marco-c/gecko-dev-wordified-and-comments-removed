@@ -57,6 +57,9 @@ curpos
 gint32
 maxpos
 ;
+gint32
+scale
+;
 }
 GtkWidgetState
 ;

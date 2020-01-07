@@ -5150,6 +5150,12 @@ height
 scaleFactor
 }
 ;
+state
+.
+scale
+=
+scaleFactor
+;
 gfxPoint
 origin
 =
