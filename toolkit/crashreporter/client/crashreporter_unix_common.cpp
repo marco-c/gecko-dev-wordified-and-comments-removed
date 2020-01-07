@@ -830,6 +830,7 @@ UIGetEnv
 (
 const
 string
+&
 name
 )
 {

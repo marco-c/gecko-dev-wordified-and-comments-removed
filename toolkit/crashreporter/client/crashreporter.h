@@ -829,6 +829,7 @@ std
 :
 :
 string
+&
 name
 )
 ;
