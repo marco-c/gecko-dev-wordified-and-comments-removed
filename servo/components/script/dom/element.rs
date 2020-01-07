@@ -2590,6 +2590,7 @@ to_trusted_node_address
 )
 )
 }
+pub
 fn
 has_css_layout_box
 (

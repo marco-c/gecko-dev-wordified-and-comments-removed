@@ -420,11 +420,13 @@ enum
 LayoutElementType
 {
 Element
+HTMLBRElement
 HTMLCanvasElement
 HTMLIFrameElement
 HTMLImageElement
 HTMLInputElement
 HTMLObjectElement
+HTMLParagraphElement
 HTMLTableCellElement
 HTMLTableColElement
 HTMLTableElement

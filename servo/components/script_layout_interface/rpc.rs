@@ -159,6 +159,16 @@ Vec
 UntrustedNodeAddress
 >
 ;
+fn
+element_inner_text
+(
+&
+self
+)
+-
+>
+String
+;
 }
 pub
 struct

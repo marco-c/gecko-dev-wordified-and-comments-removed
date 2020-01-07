@@ -310,6 +310,15 @@ forceSpellCheck
 (
 )
 ;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
+innerText
+;
 /
 /
 command
