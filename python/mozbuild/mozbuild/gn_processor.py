@@ -3609,9 +3609,7 @@ mozpath
 .
 join
 (
-config
-.
-topobjdir
+output
 '
 gn
 -
@@ -3983,7 +3981,10 @@ join
 (
 obj
 .
-topobjdir
+objdir
+obj
+.
+target_dir
                                                          
 '
 gn
