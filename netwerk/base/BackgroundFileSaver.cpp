@@ -2529,6 +2529,10 @@ this
 status
 )
 ;
+mObserver
+=
+nullptr
+;
 }
 mWorkerThread
 -
