@@ -103,6 +103,15 @@ preferences
 colors
 .
 xul
+content
+/
+browser
+/
+preferences
+/
+colors
+.
+js
 *
 content
 /
@@ -141,7 +150,6 @@ preferences
 connection
 .
 js
-*
 content
 /
 browser
@@ -178,7 +186,6 @@ preferences
 handlers
 .
 css
-*
 content
 /
 browser

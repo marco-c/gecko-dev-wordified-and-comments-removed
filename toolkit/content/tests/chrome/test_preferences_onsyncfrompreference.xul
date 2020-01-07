@@ -363,9 +363,9 @@ pref
 )
 prefWindow
 .
-document
+Preferences
 .
-getElementById
+get
 (
 pref
 )
