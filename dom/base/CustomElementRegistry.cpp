@@ -5340,6 +5340,15 @@ if
 (
 !
 elementData
+|
+|
+!
+element
+-
+>
+GetOwnerGlobal
+(
+)
 )
 {
 continue
