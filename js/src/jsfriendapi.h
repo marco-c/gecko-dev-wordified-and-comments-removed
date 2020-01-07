@@ -1923,10 +1923,13 @@ endif
 extern
 JS_FRIEND_API
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
 )
-GetAnyCompartmentInZone
+GetAnyRealmInZone
 (
 JS
 :
