@@ -265,7 +265,7 @@ MAX_OPEN_FACES
 #
 define
 MAX_FONT_SIZE
-1000
+2000
 extern
 FT_Face
 mozilla_NewFTFace
