@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -20,7 +20,7 @@ DOM_CACHE
 false
 )
 ;
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -56,6 +56,9 @@ org
 "
 ]
 [
+"
+key
+"
 "
 ls1
 "
@@ -136,6 +139,9 @@ org
 "
 ]
 [
+"
+key
+"
 "
 ss1
 "
@@ -236,13 +242,13 @@ obj1
 ]
 ]
 ;
-yield
+await
 checkState
 (
 state
 )
 ;
-yield
+await
 finishTests
 (
 )
