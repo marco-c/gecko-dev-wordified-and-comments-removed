@@ -133,6 +133,13 @@ BorderCornerRadius
 L
 >
 (
+#
+[
+css
+(
+field_bound
+)
+]
 pub
 Size
 <
@@ -207,6 +214,13 @@ BorderSpacing
 L
 >
 (
+#
+[
+css
+(
+field_bound
+)
+]
 pub
 Size
 <
