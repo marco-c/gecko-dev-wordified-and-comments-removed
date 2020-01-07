@@ -75,13 +75,13 @@ client
 postMessage
 (
 {
-destination
+context
 :
 event
 .
 request
 .
-destination
+context
 resource
 :
 resource

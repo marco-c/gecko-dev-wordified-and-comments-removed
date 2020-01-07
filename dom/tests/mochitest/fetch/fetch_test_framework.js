@@ -59,6 +59,16 @@ set
 "
 dom
 .
+requestcontext
+.
+enabled
+"
+true
+]
+[
+"
+dom
+.
 serviceWorkers
 .
 enabled

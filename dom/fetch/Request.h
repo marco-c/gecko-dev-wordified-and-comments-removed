@@ -272,8 +272,8 @@ MozErrors
 )
 ;
 }
-RequestDestination
-Destination
+RequestContext
+Context
 (
 )
 const
@@ -282,7 +282,7 @@ return
 mRequest
 -
 >
-Destination
+Context
 (
 )
 ;
