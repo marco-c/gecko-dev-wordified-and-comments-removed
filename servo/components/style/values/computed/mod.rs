@@ -342,6 +342,7 @@ font
 {
 FontSize
 FontSizeAdjust
+FontStretch
 FontSynthesis
 FontVariantAlternates
 FontWeight
@@ -690,7 +691,10 @@ self
 percentage
 :
 :
+{
 Percentage
+NonNegativePercentage
+}
 ;
 pub
 use
