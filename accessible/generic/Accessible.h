@@ -1242,6 +1242,7 @@ BoundsInAppUnits
 )
 const
 ;
+virtual
 nsIntRect
 Bounds
 (

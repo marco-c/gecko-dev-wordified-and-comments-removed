@@ -56,6 +56,14 @@ Shutdown
 override
 ;
 virtual
+nsIntRect
+Bounds
+(
+)
+const
+override
+;
+virtual
 nsRect
 BoundsInAppUnits
 (
