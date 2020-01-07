@@ -3442,6 +3442,11 @@ NotifyNonBlankPaint
 (
 )
 ;
+void
+NotifyDOMContentFlushed
+(
+)
+;
 bool
 UsesRootEMUnits
 (

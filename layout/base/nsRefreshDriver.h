@@ -988,6 +988,11 @@ return
 mSkippedPaints
 ;
 }
+void
+NotifyDOMContentLoaded
+(
+)
+;
 private
 :
 typedef
@@ -1297,6 +1302,9 @@ mSkippedPaints
 ;
 bool
 mResizeSuppressed
+;
+bool
+mNotifyDOMContentFlushed
 ;
 int64_t
 mMostRecentRefreshEpochTime
