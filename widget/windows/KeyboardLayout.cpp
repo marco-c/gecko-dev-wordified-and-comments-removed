@@ -9469,6 +9469,10 @@ aKeyEvent
 .
 PreventDefaultBeforeDispatch
 (
+CrossProcessForwarding
+:
+:
+eAllow
 )
 ;
 }
@@ -9527,6 +9531,10 @@ aKeyEvent
 .
 PreventDefaultBeforeDispatch
 (
+CrossProcessForwarding
+:
+:
+eAllow
 )
 ;
 }

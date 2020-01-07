@@ -2166,6 +2166,10 @@ keyEvent
 .
 PreventDefaultBeforeDispatch
 (
+CrossProcessForwarding
+:
+:
+eAllow
 )
 ;
 }

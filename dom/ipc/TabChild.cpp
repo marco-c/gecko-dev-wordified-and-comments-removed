@@ -9619,6 +9619,14 @@ PreventDefault
 )
 ;
 }
+localEvent
+.
+mFlags
+.
+mNoRemoteProcessDispatch
+=
+false
+;
 SendReplyKeyEvent
 (
 localEvent
