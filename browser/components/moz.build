@@ -318,6 +318,9 @@ extensions
 feeds
 '
 '
+library
+'
+'
 migration
 '
 '
