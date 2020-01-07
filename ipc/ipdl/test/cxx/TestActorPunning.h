@@ -222,10 +222,6 @@ HandleFatalError
 const
 char
 *
-aProtocolName
-const
-char
-*
 aErrorMsg
 )
 const
