@@ -86,6 +86,7 @@ eFamily_cursive
 eFamily_fantasy
 eFamily_moz_variable
 eFamily_moz_fixed
+eFamily_moz_emoji
 eFamily_generic_first
 =
 eFamily_serif

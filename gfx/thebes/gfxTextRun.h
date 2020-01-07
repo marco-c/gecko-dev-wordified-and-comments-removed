@@ -2841,6 +2841,8 @@ WhichPrefFontSupportsChar
 (
 uint32_t
 aCh
+uint32_t
+aNextCh
 )
 ;
 gfxFont

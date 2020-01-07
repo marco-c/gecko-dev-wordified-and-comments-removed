@@ -708,6 +708,7 @@ h
 undef
 FONT_PREF_LANG
 eFontPrefLang_CJKSet
+eFontPrefLang_Emoji
 eFontPrefLang_First
 =
 eFontPrefLang_Western
