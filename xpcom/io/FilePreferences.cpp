@@ -367,6 +367,13 @@ AsChar
 )
 ;
 }
+while
+(
+HasInput
+(
+)
+)
+{
 if
 (
 !
@@ -378,6 +385,7 @@ ConsumeName
 return
 false
 ;
+}
 }
 for
 (
@@ -411,12 +419,6 @@ ConsumeName
 {
 if
 (
-!
-HasInput
-(
-)
-|
-|
 CheckEOF
 (
 )
@@ -434,9 +436,7 @@ CheckCurrentDir
 )
 {
 return
-ConsumeName
-(
-)
+true
 ;
 }
 if
@@ -467,9 +467,7 @@ RemoveLastElement
 )
 ;
 return
-ConsumeName
-(
-)
+true
 ;
 }
 nsDependentSubstring
@@ -507,9 +505,7 @@ name
 )
 ;
 return
-ConsumeName
-(
-)
+true
 ;
 }
 bool
