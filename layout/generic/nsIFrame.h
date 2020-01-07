@@ -2466,6 +2466,7 @@ nsContainerFrame
 GetInFlowParent
 (
 )
+const
 ;
 nsIFrame
 *

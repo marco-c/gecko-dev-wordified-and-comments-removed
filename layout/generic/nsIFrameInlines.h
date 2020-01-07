@@ -829,6 +829,7 @@ nsIFrame
 GetInFlowParent
 (
 )
+const
 {
 if
 (
