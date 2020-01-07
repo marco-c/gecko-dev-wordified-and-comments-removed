@@ -24,6 +24,17 @@ mozfile
 .
 12
 '
+        
+'
+six
+>
+=
+1
+.
+10
+.
+0
+'
 ]
 setup
 (
@@ -101,10 +112,7 @@ Language
 Python
 :
 :
-2
-:
-:
-Only
+3
 '
 ]
       
