@@ -150,6 +150,15 @@ h
 #
 include
 "
+util
+/
+Text
+.
+h
+"
+#
+include
+"
 jsboolinlines
 .
 h

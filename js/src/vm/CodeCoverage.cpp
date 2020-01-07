@@ -69,6 +69,15 @@ endif
 #
 include
 "
+util
+/
+Text
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeUtil

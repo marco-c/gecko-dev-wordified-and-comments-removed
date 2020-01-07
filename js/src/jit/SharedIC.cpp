@@ -146,6 +146,15 @@ h
 #
 include
 "
+vm
+/
+StringType
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
