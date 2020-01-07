@@ -296,6 +296,7 @@ mParent
 ;
 class
 CamerasParent
+final
 :
 public
 PCamerasParent
