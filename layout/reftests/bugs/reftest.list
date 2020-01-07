@@ -22940,14 +22940,6 @@ ref
 .
 html
 random
--
-if
-(
-cocoaWidget
-|
-|
-winWidget
-)
 =
 =
 508816
@@ -22964,9 +22956,6 @@ ref
 xul
 #
 Bug
-631982
-and
-bug
 1375012
 =
 =
