@@ -194,6 +194,9 @@ JSObject
 aObj
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 return
 XRE_IsContentProcess
 (
@@ -216,6 +219,13 @@ enabled
 "
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 nsresult
 PaymentRequest
