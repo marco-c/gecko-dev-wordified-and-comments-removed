@@ -35,6 +35,15 @@ doFront
 {
 if
 (
+!
+aStr
+)
+return
+"
+"
+;
+if
+(
 aStr
 .
 length
