@@ -5100,10 +5100,6 @@ u
 low
 -
 memory
--
-no
--
-forward
 "
 :
 u
@@ -5113,10 +5109,6 @@ low
 memory
 -
 ongoing
--
-no
--
-forward
 "
 )
 ;
