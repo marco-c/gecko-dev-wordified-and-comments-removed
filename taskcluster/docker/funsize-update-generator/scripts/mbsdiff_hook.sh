@@ -136,7 +136,9 @@ METRIC_CMD
 =
 "
 (
-which
+command
+-
+v
 dog
 )
 "
