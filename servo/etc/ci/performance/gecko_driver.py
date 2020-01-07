@@ -375,6 +375,7 @@ run_gecko_test
 (
 testcase
 url
+date
 timeout
 is_async
 )

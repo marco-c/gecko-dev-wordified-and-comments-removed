@@ -46,8 +46,10 @@ strftime
 "
 %
 Y
+-
 %
 m
+-
 %
 d
 "
@@ -389,6 +391,7 @@ run_servo_test
 (
 testcase
 url
+date
 timeout
 is_async
 )
@@ -418,6 +421,7 @@ parse_log
 "
 testcase
 url
+date
 )
     
 ua_script_path
@@ -607,6 +611,7 @@ parse_log
 log
 testcase
 url
+date
 )
 def
 parse_log
@@ -614,6 +619,7 @@ parse_log
 log
 testcase
 url
+date
 )
 :
     
@@ -978,7 +984,7 @@ MACHINE
 date
 "
 :
-DATE
+date
             
 "
 testcase
@@ -1148,6 +1154,9 @@ timing
 testcase
 =
 None
+date
+=
+None
 )
 :
         
@@ -1185,7 +1194,7 @@ date
 '
 ]
 =
-DATE
+date
         
 return
 timing
@@ -1208,6 +1217,9 @@ set_testcase
 testcase
 =
 testcase
+date
+=
+date
 )
     
 timings
@@ -2319,6 +2331,41 @@ add_argument
 "
 -
 -
+date
+"
+                        
+type
+=
+str
+                        
+default
+=
+None
+                        
+help
+=
+(
+"
+the
+date
+to
+use
+in
+the
+CSV
+file
+.
+"
+)
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
 engine
 "
                         
@@ -2402,6 +2449,14 @@ gecko_driver
 .
 run_gecko_test
     
+date
+=
+args
+.
+date
+or
+DATE
+    
 try
 :
         
@@ -2483,6 +2538,7 @@ run_test
 (
 testcase
 url
+date
 args
 .
 timeout
