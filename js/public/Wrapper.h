@@ -2139,17 +2139,6 @@ cx
 ;
 JS_FRIEND_API
 (
-bool
-)
-IsCrossCompartmentWrapper
-(
-JSObject
-*
-obj
-)
-;
-JS_FRIEND_API
-(
 void
 )
 NukeCrossCompartmentWrapper

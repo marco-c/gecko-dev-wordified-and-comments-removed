@@ -15365,7 +15365,10 @@ IceGatheringState
 rv
 static_cast
 <
-JSCompartment
+JS
+:
+:
+Realm
 *
 >
 (

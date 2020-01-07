@@ -6223,7 +6223,11 @@ obj
 )
 )
 .
-compartment
+realm
+as
+*
+mut
+JSCompartment
 }
 #
 [

@@ -1012,6 +1012,9 @@ JSClass
 JSClassOps
 "
 "
+JSCompartment
+"
+"
 JSContext
 "
 "
