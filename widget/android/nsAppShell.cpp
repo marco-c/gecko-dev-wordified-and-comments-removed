@@ -2021,16 +2021,6 @@ Init
 (
 )
 ;
-mozilla
-:
-:
-GeckoVRManager
-:
-:
-Init
-(
-)
-;
 nsWindow
 :
 :
