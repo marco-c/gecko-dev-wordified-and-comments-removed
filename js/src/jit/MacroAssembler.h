@@ -1264,6 +1264,18 @@ size
 )
 ;
 }
+#
+ifdef
+JS_HAS_HIDDEN_SP
+void
+Push
+(
+RegisterOrSP
+reg
+)
+;
+#
+endif
 public
 :
 void
@@ -8130,7 +8142,7 @@ wasmEmitOldTrapOutOfLineCode
 void
 wasmEmitStackCheck
 (
-Register
+RegisterOrSP
 sp
 Register
 scratch

@@ -737,7 +737,7 @@ MIRType
 Int64
 :
 {
-Register
+RegisterOrSP
 sp
 =
 masm

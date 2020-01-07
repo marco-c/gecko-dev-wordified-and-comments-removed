@@ -3715,7 +3715,7 @@ maxStackHeight_
 CodeOffset
 stackAddOffset_
 ;
-Register
+RegisterOrSP
 sp_
 ;
 public
@@ -4577,7 +4577,10 @@ masm
 .
 wasmEmitStackCheck
 (
+RegisterOrSP
+(
 tmp0
+)
 tmp1
 stackOverflowLabel
 )
