@@ -21,15 +21,6 @@ contentSearch
 js
 "
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 Cu
 .
 importGlobalProperties
