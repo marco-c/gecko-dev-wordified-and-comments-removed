@@ -61,7 +61,7 @@ helpers
 )
 ;
 const
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 =
 require
 (
@@ -72,9 +72,7 @@ client
 /
 webconsole
 /
-new
--
-console
+webconsole
 -
 output
 -
@@ -103,7 +101,7 @@ messages
 )
 ;
 function
-getNewConsoleOutputWrapper
+getWebConsoleOutputWrapper
 (
 )
 {
@@ -143,7 +141,7 @@ ensureCSSErrorReportingEnabled
 ;
 return
 new
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 (
 null
 hud
@@ -153,7 +151,7 @@ hud
 describe
 (
 "
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 "
 (
 )
@@ -178,7 +176,7 @@ called
 const
 ncow
 =
-getNewConsoleOutputWrapper
+getWebConsoleOutputWrapper
 (
 )
 ;
@@ -302,7 +300,7 @@ dispatchPrivateMessagesClear
 const
 ncow
 =
-getNewConsoleOutputWrapper
+getWebConsoleOutputWrapper
 (
 )
 ;
@@ -396,7 +394,7 @@ dispatchPrivateMessagesClear
 const
 ncow
 =
-getNewConsoleOutputWrapper
+getWebConsoleOutputWrapper
 (
 )
 ;
@@ -601,7 +599,7 @@ dispatchPrivateMessagesClear
 const
 ncow
 =
-getNewConsoleOutputWrapper
+getWebConsoleOutputWrapper
 (
 )
 ;

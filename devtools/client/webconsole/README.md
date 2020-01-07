@@ -1361,9 +1361,7 @@ application
 is
 rendered
 from
-new
--
-console
+webconsole
 -
 output
 -

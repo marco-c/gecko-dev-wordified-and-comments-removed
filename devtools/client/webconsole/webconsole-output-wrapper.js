@@ -224,7 +224,7 @@ store
 null
 ;
 function
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 (
 parentNode
 hud
@@ -329,7 +329,7 @@ hud
 )
 ;
 }
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 .
 prototype
 =
@@ -2366,5 +2366,5 @@ module
 .
 exports
 =
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 ;

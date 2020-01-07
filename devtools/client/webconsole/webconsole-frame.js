@@ -227,7 +227,7 @@ sidebarToggle
 "
 ;
 function
-NewWebConsoleFrame
+WebConsoleFrame
 (
 webConsoleOwner
 )
@@ -315,7 +315,7 @@ this
 )
 ;
 }
-NewWebConsoleFrame
+WebConsoleFrame
 .
 prototype
 =
@@ -381,7 +381,7 @@ _initConnection
 await
 this
 .
-newConsoleOutput
+consoleOutput
 .
 init
 (
@@ -569,7 +569,7 @@ owner
 =
 this
 .
-newConsoleOutput
+consoleOutput
 =
 null
 ;
@@ -932,18 +932,18 @@ this
 .
 owner
 .
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 |
 |
 this
 .
 window
 .
-NewConsoleOutput
+WebConsoleOutput
 ;
 this
 .
-newConsoleOutput
+consoleOutput
 =
 new
 Wrapper
@@ -1278,7 +1278,7 @@ isOpen
 {
 this
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchSidebarClose
 (
@@ -1378,7 +1378,7 @@ PREF_MESSAGE_TIMESTAMP
 ;
 this
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchTimestampsToggle
 (
@@ -1409,7 +1409,7 @@ function
 {
 this
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchSplitConsoleCloseButtonToggle
 (
@@ -1462,7 +1462,7 @@ logWarningAboutReplacedAPI
 await
 this
 .
-newConsoleOutput
+consoleOutput
 .
 waitAsyncDispatches
 (
@@ -1500,7 +1500,7 @@ true
 ;
 this
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchMessageAdd
 (
@@ -1634,7 +1634,7 @@ eRestart
 }
 exports
 .
-NewWebConsoleFrame
+WebConsoleFrame
 =
-NewWebConsoleFrame
+WebConsoleFrame
 ;

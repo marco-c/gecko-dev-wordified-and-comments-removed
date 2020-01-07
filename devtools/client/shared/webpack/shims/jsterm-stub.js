@@ -411,7 +411,7 @@ this
 .
 hud
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchMessageAdd
 (

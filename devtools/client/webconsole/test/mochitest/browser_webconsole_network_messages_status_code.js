@@ -430,7 +430,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 once
 (
