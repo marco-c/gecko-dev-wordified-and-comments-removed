@@ -4767,15 +4767,6 @@ self
 _kill_processes
 (
 "
-compiz
-"
-)
-            
-self
-.
-_kill_processes
-(
-"
 xpcshell
 "
 )
