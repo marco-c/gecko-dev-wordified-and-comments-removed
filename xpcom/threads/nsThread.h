@@ -581,11 +581,6 @@ mIsMainThread
 bool
 mCanInvokeJS
 ;
-bool
-GetSchedulerLoggingEnabled
-(
-)
-;
 mozilla
 :
 :

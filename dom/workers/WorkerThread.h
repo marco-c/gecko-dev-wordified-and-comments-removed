@@ -278,6 +278,11 @@ uint32_t
 )
 override
 ;
+void
+IncrementDispatchCounter
+(
+)
+;
 }
 ;
 }
