@@ -399,6 +399,8 @@ JS
 Value
 >
 aScalarData
+bool
+aBuiltin
 JSContext
 *
 cx
