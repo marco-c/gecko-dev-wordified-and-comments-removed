@@ -31,6 +31,10 @@ WebGLExtensionSpec
 ;
 pub
 mod
+oeselementindexuint
+;
+pub
+mod
 oesstandardderivatives
 ;
 pub

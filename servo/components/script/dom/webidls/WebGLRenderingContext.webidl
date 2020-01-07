@@ -2538,10 +2538,8 @@ void
 attachShader
 (
 WebGLProgram
-?
 program
 WebGLShader
-?
 shader
 )
 ;
@@ -2549,7 +2547,6 @@ void
 bindAttribLocation
 (
 WebGLProgram
-?
 program
 GLuint
 index
@@ -3238,10 +3235,8 @@ void
 detachShader
 (
 WebGLProgram
-?
 program
 WebGLShader
-?
 shader
 )
 ;
