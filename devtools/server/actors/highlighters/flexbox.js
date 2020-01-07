@@ -1543,6 +1543,14 @@ if
 !
 this
 .
+options
+.
+showAlignment
+|
+|
+!
+this
+.
 flexData
 |
 |
