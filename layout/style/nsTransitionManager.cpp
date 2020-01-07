@@ -222,15 +222,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsDOMMutationObserver
 .
 h

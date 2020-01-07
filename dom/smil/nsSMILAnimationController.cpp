@@ -53,15 +53,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

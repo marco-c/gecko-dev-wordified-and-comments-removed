@@ -241,15 +241,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 Layers
 .
 h

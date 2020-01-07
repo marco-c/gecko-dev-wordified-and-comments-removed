@@ -19,15 +19,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsAnimationManager
 .
 h

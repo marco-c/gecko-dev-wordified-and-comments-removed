@@ -64,15 +64,6 @@ include
 "
 mozilla
 /
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h
@@ -82,7 +73,7 @@ include
 "
 mozilla
 /
-ServoRestyleManager
+RestyleManager
 .
 h
 "

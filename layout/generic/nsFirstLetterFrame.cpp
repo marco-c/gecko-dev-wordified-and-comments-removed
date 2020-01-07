@@ -70,15 +70,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsPlaceholderFrame
 .
 h

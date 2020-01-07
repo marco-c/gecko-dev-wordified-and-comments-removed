@@ -339,7 +339,7 @@ include
 "
 mozilla
 /
-ServoRestyleManager
+RestyleManager
 .
 h
 "
@@ -2010,13 +2010,13 @@ if
 mHadData
 )
 {
-ServoRestyleManager
+RestyleManager
 :
 :
 ClearServoDataFromSubtree
 (
 mElement
-ServoRestyleManager
+RestyleManager
 :
 :
 IncludeRoot

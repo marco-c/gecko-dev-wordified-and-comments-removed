@@ -291,15 +291,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsInlineFrame
 .
 h
