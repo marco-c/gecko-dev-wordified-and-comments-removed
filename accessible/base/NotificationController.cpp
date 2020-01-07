@@ -3194,6 +3194,15 @@ WillRefresh
 aTime
 )
 ;
+if
+(
+!
+mDocument
+)
+{
+return
+;
+}
 }
 mObservingState
 =
