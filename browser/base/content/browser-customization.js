@@ -157,12 +157,6 @@ urlbar
 "
 )
 ;
-gHomeButton
-.
-updateTooltip
-(
-)
-;
 if
 (
 AppConstants
