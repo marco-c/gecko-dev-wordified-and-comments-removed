@@ -7900,7 +7900,7 @@ case
 JS
 :
 :
-TranscodeResult_Failure_UnknownClassKind
+TranscodeResult_Failure_BadDecode
 :
 MOZ_ASSERT
 (
@@ -7917,13 +7917,9 @@ JS_ReportErrorASCII
 (
 cx
 "
-Unknown
-class
-kind
-go
-fix
-it
-.
+XDR
+data
+corruption
 "
 )
 ;

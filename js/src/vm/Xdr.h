@@ -1313,6 +1313,12 @@ Type
 NULL
 )
 {
+const
+uint32_t
+MAGIC
+=
+0x21AB218C
+;
 uint32_t
 tmp
 ;
@@ -1330,6 +1336,8 @@ uint32_t
 *
 val
 )
+^
+MAGIC
 ;
 if
 (
@@ -1356,6 +1364,8 @@ val
 T
 (
 tmp
+^
+MAGIC
 )
 ;
 return
