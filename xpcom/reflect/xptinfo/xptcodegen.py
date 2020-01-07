@@ -2111,7 +2111,7 @@ dom
 :
 :
 %
-sBinding
+s_Binding
 :
 :
 sNativePropertyHooks
