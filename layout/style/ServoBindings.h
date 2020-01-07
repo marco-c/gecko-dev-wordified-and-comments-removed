@@ -3645,6 +3645,15 @@ nsAtom
 aId
 )
 ;
+bool
+Gecko_GetBoolPrefValue
+(
+const
+char
+*
+pref_name
+)
+;
 }
 #
 endif
