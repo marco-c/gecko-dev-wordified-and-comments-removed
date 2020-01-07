@@ -1280,6 +1280,8 @@ locales
 jar
 .
 mn
+resources
+and
 overrides
 %
 override
@@ -1329,3 +1331,18 @@ locale
 appstrings
 .
 properties
+%
+resource
+search
+-
+plugins
+chrome
+:
+/
+/
+browser
+/
+locale
+/
+searchplugins
+/
