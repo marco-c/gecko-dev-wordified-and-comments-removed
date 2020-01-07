@@ -349,7 +349,7 @@ const
 uint32_t
 kMaximumKeyStringLength
 =
-70
+72
 ;
 const
 uint32_t
@@ -3968,7 +3968,7 @@ must
 be
 limited
 to
-70
+72
 characters
 .
 "

@@ -1962,7 +1962,7 @@ cannot
 be
 longer
 than
-70
+72
 characters
 .
 Keyed
