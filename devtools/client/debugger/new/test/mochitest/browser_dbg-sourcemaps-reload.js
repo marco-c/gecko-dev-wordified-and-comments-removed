@@ -281,15 +281,6 @@ v1
 await
 syncBp
 ;
-await
-waitForSelectedSource
-(
-dbg
-"
-v1
-"
-)
-;
 is
 (
 getBreakpoints
