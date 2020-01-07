@@ -109,6 +109,11 @@ addEventListener
 keypress
 "
 this
+{
+mozSystemGroup
+:
+true
+}
 )
 ;
 element
