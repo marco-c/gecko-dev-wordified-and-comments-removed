@@ -2388,6 +2388,7 @@ VolatileMask
 )
 ;
 }
+constexpr
 bool
 operator
 !
@@ -2415,6 +2416,7 @@ k_
 k_
 ;
 }
+constexpr
 bool
 operator
 =
