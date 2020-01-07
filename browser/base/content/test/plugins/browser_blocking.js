@@ -540,6 +540,8 @@ link
 let
 promise
 =
+BrowserTestUtils
+.
 waitForEvent
 (
 gBrowser
@@ -548,7 +550,6 @@ tabContainer
 "
 TabOpen
 "
-null
 true
 )
 ;
@@ -704,6 +705,8 @@ promise
 ;
 promise
 =
+BrowserTestUtils
+.
 waitForEvent
 (
 gBrowser
@@ -712,7 +715,6 @@ tabContainer
 "
 TabClose
 "
-null
 true
 )
 ;

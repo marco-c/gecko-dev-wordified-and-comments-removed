@@ -82,7 +82,9 @@ consoleOpened
 let
 console
 =
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 ;
@@ -347,7 +349,9 @@ message
 "
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .

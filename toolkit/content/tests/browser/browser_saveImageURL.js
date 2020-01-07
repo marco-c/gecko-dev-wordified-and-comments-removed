@@ -220,9 +220,9 @@ false
 let
 channel
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 docShell
 .
@@ -358,9 +358,9 @@ document
 let
 channel
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 docShell
 .

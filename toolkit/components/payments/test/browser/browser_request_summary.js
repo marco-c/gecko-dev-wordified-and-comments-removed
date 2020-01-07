@@ -41,7 +41,7 @@ ok
 (
 browser
 .
-contentDocument
+contentDocumentAsCPOW
 .
 getElementById
 (

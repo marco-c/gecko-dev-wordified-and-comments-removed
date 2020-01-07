@@ -374,7 +374,9 @@ nukeSandbox
 sandbox
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .
