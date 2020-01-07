@@ -4006,6 +4006,11 @@ TouchEventInterceptor
 java
 '
 '
+TrackingProtection
+.
+java
+'
+'
 WakeLockDelegate
 .
 java
