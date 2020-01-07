@@ -208,6 +208,8 @@ environment
 topsrcdir
 topobjdir
 dry_run
+                 
+default_group
 )
 :
         
@@ -342,12 +344,6 @@ variables
         
 self
 .
-rust_library
-=
-None
-        
-self
-.
 static_lib
 =
 None
@@ -385,6 +381,12 @@ exports
 set
 (
 )
+        
+self
+.
+_default_group
+=
+default_group
         
 self
 .
@@ -522,7 +524,7 @@ None
 extra_inputs
 =
 None
-extra_outputs
+output_group
 =
 None
 check_unchanged
@@ -544,6 +546,18 @@ outputs
 or
 [
 ]
+        
+if
+output_group
+is
+None
+:
+            
+output_group
+=
+self
+.
+_default_group
         
 for
 f
@@ -659,7 +673,7 @@ outputs
 s
 %
 (
-extra_outputs
+output_group
 )
 s
 \
@@ -744,22 +758,15 @@ outputs
 )
             
 '
-extra_outputs
+output_group
 '
 :
 '
-|
 '
 +
-'
-'
-.
-join
-(
-extra_outputs
-)
+output_group
 if
-extra_outputs
+output_group
 else
 '
 '
@@ -807,17 +814,6 @@ source
 )
 ]
         
-if
-output_group
-:
-            
-outputs
-.
-append
-(
-output_group
-)
-        
 self
 .
 rule
@@ -841,6 +837,10 @@ source
 outputs
 =
 outputs
+            
+output_group
+=
+output_group
         
 )
     
@@ -1533,6 +1533,73 @@ files
         
 self
 .
+_shlibs
+=
+'
+(
+MOZ_OBJ_ROOT
+)
+/
+<
+shlibs
+>
+'
+        
+self
+.
+_gtests
+=
+'
+(
+MOZ_OBJ_ROOT
+)
+/
+<
+gtest
+>
+'
+        
+self
+.
+_default_group
+=
+'
+(
+MOZ_OBJ_ROOT
+)
+/
+<
+default
+>
+'
+        
+self
+.
+_rust_outputs
+=
+set
+(
+)
+        
+self
+.
+_rust_backend_file
+=
+self
+.
+_get_backend_file
+(
+'
+toolkit
+/
+library
+/
+rust
+'
+)
+        
+self
+.
 _built_in_addons
 =
 set
@@ -1561,20 +1628,6 @@ browser
 built_in_addons
 .
 json
-'
-        
-self
-.
-_shlibs
-=
-'
-(
-MOZ_OBJ_ROOT
-)
-/
-<
-shlibs
->
 '
     
 def
@@ -1706,9 +1759,16 @@ what
 what
 =
 [
-self
-.
-environment
+'
+%
+s
+/
+<
+default
+>
+'
+%
+config
 .
 topobjdir
 ]
@@ -1995,6 +2055,9 @@ topobjdir
 self
 .
 dry_run
+self
+.
+_default_group
 )
         
 return
@@ -2111,31 +2174,31 @@ backend_file
 .
 shared_lib
         
+output_group
+=
+self
+.
+_shlibs
+        
 if
+'
+toolkit
+/
+library
+/
+gtest
+'
+in
 backend_file
 .
 objdir
-.
-endswith
-(
-'
-gtest
-'
-)
-and
-shlib
-.
-name
-=
-=
-'
-libxul
-.
-so
-'
 :
             
-return
+output_group
+=
+self
+.
+_gtests
         
 if
 shlib
@@ -2511,13 +2574,9 @@ shlib
 lib_name
 ]
             
-extra_outputs
+output_group
 =
-[
-self
-.
-_shlibs
-]
+output_group
             
 display
 =
@@ -2569,9 +2628,7 @@ lib_name
                                   
 output_group
 =
-self
-.
-_shlibs
+output_group
 )
     
 def
@@ -3831,11 +3888,13 @@ RustLibrary
 )
 :
             
-backend_file
+self
 .
-rust_library
-=
+_gen_rust_rules
+(
 obj
+backend_file
+)
         
 elif
 isinstance
@@ -4142,15 +4201,6 @@ host_library
 self
 .
 _gen_host_library
-)
-                                    
-(
-backend_file
-.
-rust_library
-self
-.
-_gen_rust
 )
 )
 :
@@ -4745,15 +4795,10 @@ def
 _get_cargo_env
 (
 self
+lib
 backend_file
 )
 :
-        
-lib
-=
-backend_file
-.
-rust_library
         
 env
 =
@@ -5735,32 +5780,57 @@ outputs
 ]
 )
             
-backend_file
+output_key
+=
+tuple
+(
+outputs
+)
+            
+if
+output_key
+not
+in
+self
+.
+_rust_outputs
+:
+                
+self
+.
+_rust_outputs
+.
+add
+(
+output_key
+)
+                
+self
+.
+_rust_backend_file
 .
 rule
 (
-                
+                    
 command
-                
+                    
 inputs
 =
 sorted
 (
 inputs
 )
-                
+                    
 outputs
 =
 outputs
-                
-extra_outputs
+                    
+output_group
 =
-[
 self
 .
 _rust_libs
-]
-                
+                    
 extra_inputs
 =
 [
@@ -5768,7 +5838,7 @@ self
 .
 _installed_files
 ]
-                
+                    
 display
 =
 '
@@ -5785,9 +5855,9 @@ display_name
 invocation
 )
 )
-            
+                
 )
-            
+                
 for
 dst
 link
@@ -5803,13 +5873,25 @@ iteritems
 (
 )
 :
-                
-backend_file
+                    
+self
+.
+_rust_outputs
+.
+add
+(
+output_key
+)
+                    
+self
+.
+_rust_backend_file
 .
 symlink_rule
 (
 link
 dst
+                                                         
 self
 .
 _rust_libs
@@ -5831,28 +5913,13 @@ val
 )
     
 def
-_gen_rust
+_gen_rust_rules
 (
 self
+obj
 backend_file
 )
 :
-        
-if
-'
-toolkit
-/
-library
-/
-gtest
-'
-in
-backend_file
-.
-objdir
-:
-            
-return
         
 cargo_flags
 =
@@ -5860,9 +5927,7 @@ self
 .
 _get_cargo_flags
 (
-backend_file
-.
-rust_library
+obj
 )
         
 cargo_env
@@ -5871,6 +5936,7 @@ self
 .
 _get_cargo_env
 (
+obj
 backend_file
 )
         
@@ -6260,31 +6326,26 @@ outputs
 )
 :
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _early_generated_files
-]
             
 else
 :
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
 if
 obj
 .
 required_for_compile
 else
-[
-]
+None
                 
 full_inputs
 +
@@ -6447,9 +6508,9 @@ outputs
 =
 outputs
                 
-extra_outputs
+output_group
 =
-extra_outputs
+output_group
                 
 check_unchanged
 =
@@ -7747,13 +7808,11 @@ outputs
 =
 outputs
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
                 
 check_unchanged
 =
@@ -8519,13 +8578,11 @@ outputs
 =
 outputs
             
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
             
 check_unchanged
 =
@@ -8710,13 +8767,11 @@ outputs
 =
 outputs
             
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
             
 check_unchanged
 =
