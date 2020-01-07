@@ -4880,15 +4880,12 @@ add
 truncate
 )
 ;
-MOZ_TRY
-(
 callInfo
 .
-pushFormals
+pushPriorCallStack
 (
 this
 current
-)
 )
 ;
 }
@@ -5119,7 +5116,7 @@ argc
 {
 callInfo
 .
-popFormals
+popPriorCallStack
 (
 current
 )
