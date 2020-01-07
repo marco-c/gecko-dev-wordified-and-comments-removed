@@ -349,6 +349,15 @@ false
 EnvironmentMap
 env_map
 ;
+std
+:
+:
+vector
+<
+HANDLE
+>
+handles_to_inherit
+;
 #
 endif
 #
