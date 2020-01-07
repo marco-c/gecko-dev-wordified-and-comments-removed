@@ -139,6 +139,11 @@ GetExternalImageHandler
 (
 )
 ;
+void
+Update
+(
+)
+;
 bool
 UpdateAndRender
 (

@@ -322,6 +322,16 @@ aWindowId
 )
 ;
 void
+WakeUp
+(
+wr
+:
+:
+WindowId
+aWindowId
+)
+;
+void
 PipelineSizeChanged
 (
 wr
