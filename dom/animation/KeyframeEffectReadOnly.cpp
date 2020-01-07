@@ -4653,7 +4653,7 @@ nsIFrame
 *
 frame
 =
-GetAnimationFrame
+GetStyleFrame
 (
 )
 ;
@@ -5226,7 +5226,7 @@ nsIFrame
 KeyframeEffectReadOnly
 :
 :
-GetAnimationFrame
+GetStyleFrame
 (
 )
 const
@@ -6325,7 +6325,7 @@ nsIFrame
 *
 frame
 =
-GetAnimationFrame
+GetStyleFrame
 (
 )
 ;
@@ -6787,7 +6787,7 @@ nsIFrame
 *
 frame
 =
-GetAnimationFrame
+GetStyleFrame
 (
 )
 ;

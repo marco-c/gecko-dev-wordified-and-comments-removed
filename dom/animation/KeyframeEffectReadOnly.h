@@ -1219,7 +1219,7 @@ aBaseComputedStyle
 ;
 nsIFrame
 *
-GetAnimationFrame
+GetStyleFrame
 (
 )
 const
