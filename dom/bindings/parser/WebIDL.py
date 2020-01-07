@@ -4010,6 +4010,7 @@ parent
 members
                  
 isKnownNonPartial
+toStringTag
 )
 :
         
@@ -4165,6 +4166,12 @@ self
 iterableInterface
 =
 None
+        
+self
+.
+toStringTag
+=
+toStringTag
         
 IDLObjectWithScope
 .
@@ -9555,6 +9562,10 @@ isKnownNonPartial
 classNameOverride
 =
 None
+                 
+toStringTag
+=
+None
 )
 :
         
@@ -9570,6 +9581,8 @@ name
 parent
 members
 isKnownNonPartial
+                                         
+toStringTag
 )
         
 self
@@ -11013,6 +11026,10 @@ name
 None
 members
 isKnownNonPartial
+                                         
+toStringTag
+=
+None
 )
     
 def
