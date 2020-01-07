@@ -55,10 +55,7 @@ use
 media_queries
 :
 :
-{
-parse_media_query_list
 MediaList
-}
 ;
 use
 parser
@@ -902,7 +899,10 @@ context
 let
 media
 =
-parse_media_query_list
+MediaList
+:
+:
+parse
 (
 &
 self
@@ -2113,7 +2113,10 @@ media
 let
 media_queries
 =
-parse_media_query_list
+MediaList
+:
+:
+parse
 (
 self
 .
