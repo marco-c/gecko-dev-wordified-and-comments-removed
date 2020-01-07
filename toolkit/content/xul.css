@@ -1370,9 +1370,6 @@ true
 "
 ]
 )
-%
-endif
-windowdragbox
 {
 -
 moz
@@ -1384,6 +1381,8 @@ dragging
 drag
 ;
 }
+%
+endif
 toolbaritem
 toolbarbutton
 toolbarseparator

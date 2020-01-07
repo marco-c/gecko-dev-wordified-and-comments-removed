@@ -927,16 +927,11 @@ accesskey
 menupopup
 >
 <
-windowdragbox
+vbox
 id
 =
 "
 topBar
-"
-class
-=
-"
-viewGroupWrapper
 "
 >
 <
@@ -1155,7 +1150,7 @@ radiogroup
 >
 <
 /
-windowdragbox
+vbox
 >
 <
 deck
