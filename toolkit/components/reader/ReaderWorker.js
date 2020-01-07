@@ -225,7 +225,6 @@ parseDocument
 (
 uri
 serializedDoc
-options
 )
 {
 let
@@ -247,7 +246,6 @@ Readability
 (
 uri
 doc
-options
 )
 .
 parse
