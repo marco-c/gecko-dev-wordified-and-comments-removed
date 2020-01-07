@@ -158,11 +158,6 @@ nsIDOMCSSKeyframesRule
 idl
 '
 '
-nsIDOMCSSMediaRule
-.
-idl
-'
-'
 nsIDOMCSSPageRule
 .
 idl

@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsIDOMCSSMediaRule
+nsIDOMCSSConditionRule
 .
 h
 "
@@ -37,7 +37,7 @@ css
 :
 ConditionRule
 public
-nsIDOMCSSMediaRule
+nsIDOMCSSConditionRule
 {
 protected
 :
@@ -93,7 +93,6 @@ override
 =
 0
 ;
-NS_DECL_NSIDOMCSSMEDIARULE
 uint16_t
 Type
 (
