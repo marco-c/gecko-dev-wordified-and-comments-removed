@@ -170,6 +170,9 @@ finalize
 )
 ;
 }
+/
+NS_ERROR_MALFORMED_URI
+/
 "
 invalid
 port
@@ -212,6 +215,9 @@ finalize
 )
 ;
 }
+/
+NS_ERROR_MALFORMED_URI
+/
 "
 invalid
 port
@@ -247,6 +253,9 @@ finalize
 )
 ;
 }
+/
+NS_ERROR_MALFORMED_URI
+/
 "
 invalid
 port

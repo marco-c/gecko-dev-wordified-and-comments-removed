@@ -58,6 +58,9 @@ true
 )
 ;
 }
+/
+NS_ERROR_MALFORMED_URI
+/
 "
 invalid
 port
