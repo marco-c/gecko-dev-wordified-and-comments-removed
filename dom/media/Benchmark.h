@@ -224,8 +224,7 @@ Parameters
 :
 mFramesToMeasure
 (
--
-1
+UINT32_MAX
 )
 mStartupFrame
 (
@@ -244,11 +243,11 @@ Forever
 }
 Parameters
 (
-int32_t
+uint32_t
 aFramesToMeasure
 uint32_t
 aStartupFrame
-int32_t
+uint32_t
 aStopAtFrame
 const
 TimeDuration
@@ -278,7 +277,7 @@ aTimeout
 {
 }
 const
-int32_t
+uint32_t
 mFramesToMeasure
 ;
 const
@@ -288,7 +287,7 @@ mStartupFrame
 const
 Maybe
 <
-int32_t
+uint32_t
 >
 mStopAtFrame
 ;
