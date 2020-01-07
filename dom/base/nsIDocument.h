@@ -5634,8 +5634,6 @@ nsIRequest
 *
 aNewRequest
 )
-=
-0
 ;
 virtual
 void
@@ -9742,6 +9740,16 @@ const
 ;
 protected
 :
+bool
+ContainsEMEContent
+(
+)
+;
+bool
+ContainsMSEContent
+(
+)
+;
 void
 MaybeInitializeFinalizeFrameLoaders
 (
