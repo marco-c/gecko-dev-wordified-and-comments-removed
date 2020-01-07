@@ -3475,3 +3475,15 @@ lastMaintenance
 2147483647
 )
 ;
+user_pref
+(
+"
+browser
+.
+bookmarks
+.
+max_backups
+"
+0
+)
+;
