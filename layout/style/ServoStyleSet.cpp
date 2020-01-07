@@ -3384,7 +3384,6 @@ SheetType
 :
 Doc
 ]
-*
 aSheet
 )
 ;

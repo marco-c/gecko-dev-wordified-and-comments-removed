@@ -5458,7 +5458,7 @@ sheetCount
 aDocument
 -
 >
-SheetCount
+GetNumberOfStyleSheets
 (
 )
 ;
@@ -5490,7 +5490,7 @@ curSheet
 aDocument
 -
 >
-SheetAt
+GetStyleSheetAt
 (
 insertionPoint
 )

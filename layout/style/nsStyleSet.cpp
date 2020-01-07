@@ -3623,7 +3623,6 @@ aDocument
 FindDocStyleSheetInsertionPoint
 (
 sheets
-*
 aSheet
 )
 ;
