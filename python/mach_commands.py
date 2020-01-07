@@ -509,8 +509,7 @@ self
                          
 tests
 =
-[
-]
+None
                          
 test_objects
 =
@@ -562,10 +561,6 @@ _spawn
 TestResolver
 )
             
-if
-tests
-:
-                
 test_objects
 =
 resolver
@@ -575,29 +570,19 @@ resolve_tests
 paths
 =
 tests
-                                                      
 flavor
 =
 '
 python
 '
 )
-            
+        
 else
 :
-                
-test_objects
+            
+subsuite
 =
-resolver
-.
-resolve_tests
-(
-flavor
-=
-'
-python
-'
-)
+None
         
 mp
 =
