@@ -262,7 +262,7 @@ IsCellCropped
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 ErrorResult
@@ -275,7 +275,7 @@ RemoveImageCacheEntry
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 &
 col
 ErrorResult

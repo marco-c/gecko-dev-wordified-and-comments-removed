@@ -67,6 +67,9 @@ webidl
 Element
 ;
 webidl
+TreeColumn
+;
+webidl
 TreeColumns
 ;
 [
@@ -177,12 +180,12 @@ attribute
 short
 type
 ;
-nsITreeColumn
+TreeColumn
 getNext
 (
 )
 ;
-nsITreeColumn
+TreeColumn
 getPrevious
 (
 )

@@ -96,8 +96,8 @@ MPL
 interface
 nsITreeBoxObject
 ;
-interface
-nsITreeColumn
+webidl
+TreeColumn
 ;
 #
 include
@@ -614,7 +614,7 @@ column
 *
 /
 attribute
-nsITreeColumn
+TreeColumn
 currentColumn
 ;
 /

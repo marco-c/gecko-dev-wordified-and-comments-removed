@@ -64,7 +64,7 @@ class
 nsIContent
 ;
 class
-nsITreeColumn
+nsTreeColumn
 ;
 namespace
 mozilla
@@ -321,9 +321,9 @@ mNeedTitletip
 int32_t
 mLastTreeRow
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 mLastTreeCol
 ;

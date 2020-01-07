@@ -3817,7 +3817,7 @@ GetCellProperties
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 nsAString
@@ -3835,7 +3835,7 @@ nsCertTree
 :
 GetColumnProperties
 (
-nsITreeColumn
+nsTreeColumn
 *
 col
 nsAString
@@ -4274,7 +4274,7 @@ GetImageSrc
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 nsAString
@@ -4300,7 +4300,7 @@ GetCellValue
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 nsAString
@@ -4326,7 +4326,7 @@ GetCellText
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 nsAString
@@ -5083,7 +5083,7 @@ nsCertTree
 :
 CycleHeader
 (
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -5112,7 +5112,7 @@ CycleCell
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -5129,7 +5129,7 @@ IsEditable
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 bool
@@ -5154,7 +5154,7 @@ IsSelectable
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 bool
@@ -5179,7 +5179,7 @@ SetCellValue
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 const
@@ -5200,7 +5200,7 @@ SetCellText
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 const
@@ -5259,7 +5259,7 @@ char16_t
 action
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 )

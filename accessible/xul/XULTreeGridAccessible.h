@@ -410,7 +410,7 @@ XULTreeGridCellAccessible
 *
 GetCellAccessible
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )
@@ -479,7 +479,7 @@ nsITreeView
 aTreeView
 int32_t
 aRow
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )
@@ -758,9 +758,9 @@ mTreeView
 int32_t
 mRow
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 mColumn
 ;

@@ -118,7 +118,7 @@ nsITreeView
 aTreeView
 int32_t
 aRow
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )

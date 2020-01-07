@@ -1008,7 +1008,7 @@ nsTreeColumn
 :
 GetNext
 (
-nsITreeColumn
+nsTreeColumn
 *
 *
 _retval
@@ -1034,7 +1034,7 @@ nsTreeColumn
 :
 GetPrevious
 (
-nsITreeColumn
+nsTreeColumn
 *
 *
 _retval

@@ -38,7 +38,7 @@ class
 nsITreeBoxObject
 ;
 class
-nsITreeColumn
+nsTreeColumn
 ;
 struct
 nsTreeRange
@@ -126,9 +126,9 @@ mSuppressed
 int32_t
 mCurrentIndex
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 mCurrentColumn
 ;

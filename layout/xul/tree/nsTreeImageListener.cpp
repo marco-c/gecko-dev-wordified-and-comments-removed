@@ -170,7 +170,7 @@ AddCell
 (
 int32_t
 aIndex
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )
@@ -394,7 +394,7 @@ InvalidationArea
 :
 InvalidationArea
 (
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )

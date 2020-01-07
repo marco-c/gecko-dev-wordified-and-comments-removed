@@ -107,13 +107,13 @@ interface
 nsITreeSelection
 ;
 interface
-nsITreeColumn
-;
-interface
 nsIScriptableRegion
 ;
 webidl
 Element
+;
+webidl
+TreeColumn
 ;
 webidl
 TreeColumns
@@ -442,7 +442,7 @@ in
 long
 row
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -612,7 +612,7 @@ in
 long
 row
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -646,7 +646,7 @@ void
 scrollToColumn
 (
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -696,7 +696,7 @@ void
 invalidateColumn
 (
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -715,7 +715,7 @@ in
 long
 row
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -740,7 +740,7 @@ in
 long
 endIndex
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -915,7 +915,7 @@ out
 long
 row
 out
-nsITreeColumn
+TreeColumn
 col
 out
 AString
@@ -946,7 +946,7 @@ in
 long
 row
 in
-nsITreeColumn
+TreeColumn
 col
 in
 AString
@@ -991,7 +991,7 @@ in
 long
 row
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;
@@ -1222,7 +1222,7 @@ in
 long
 row
 in
-nsITreeColumn
+TreeColumn
 col
 )
 ;

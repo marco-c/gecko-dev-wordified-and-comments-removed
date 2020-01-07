@@ -536,7 +536,7 @@ aY
 int32_t
 *
 aRow
-nsITreeColumn
+nsTreeColumn
 *
 *
 aCol
@@ -613,7 +613,7 @@ RemoveImageCacheEntry
 (
 int32_t
 aRowIndex
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )

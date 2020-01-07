@@ -827,9 +827,9 @@ row
 -
 1
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 column
 ;
@@ -2937,9 +2937,9 @@ nsIntRect
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 column
 =
@@ -4306,7 +4306,7 @@ XULTreeItemAccessibleBase
 :
 GetCellName
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 nsAString

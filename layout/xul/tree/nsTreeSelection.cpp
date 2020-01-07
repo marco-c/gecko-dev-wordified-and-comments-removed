@@ -2788,7 +2788,7 @@ nsTreeSelection
 :
 GetCurrentColumn
 (
-nsITreeColumn
+nsTreeColumn
 *
 *
 aCurrentColumn
@@ -2812,7 +2812,7 @@ nsTreeSelection
 :
 SetCurrentColumn
 (
-nsITreeColumn
+nsTreeColumn
 *
 aCurrentColumn
 )

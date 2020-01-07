@@ -4917,7 +4917,7 @@ aY
 int32_t
 *
 aRow
-nsITreeColumn
+nsTreeColumn
 *
 *
 aCol
@@ -8905,9 +8905,9 @@ if
 aCol
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 currentColumn
 ;
@@ -19968,7 +19968,7 @@ RemoveImageCacheEntry
 (
 int32_t
 aRowIndex
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )
