@@ -3574,6 +3574,7 @@ Debug
 Eq
 Hash
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]

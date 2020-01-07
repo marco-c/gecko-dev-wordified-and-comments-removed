@@ -498,6 +498,17 @@ SpecifiedValue
 >
 }
 impl
+:
+:
+style_traits
+:
+:
+SpecifiedValueInfo
+for
+PaintWorklet
+{
+}
+impl
 ToCss
 for
 PaintWorklet

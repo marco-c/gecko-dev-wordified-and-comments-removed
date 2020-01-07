@@ -5036,8 +5036,8 @@ ptr
 [
 derive
 (
-Eq
 Debug
+Eq
 PartialEq
 )
 ]

@@ -2775,8 +2775,8 @@ bitflags
 derive
 (
 MallocSizeOf
-ToComputedValue
 SpecifiedValueInfo
+ToComputedValue
 )
 ]
 #
