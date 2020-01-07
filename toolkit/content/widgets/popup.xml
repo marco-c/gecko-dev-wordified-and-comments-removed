@@ -1593,13 +1593,6 @@ id
 "
 popup
 "
-role
-=
-"
-xul
-:
-menupopup
-"
 extends
 =
 "
