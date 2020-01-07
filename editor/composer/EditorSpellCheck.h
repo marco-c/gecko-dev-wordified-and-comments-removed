@@ -139,6 +139,12 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 EditorSpellCheck
 )
 NS_DECL_NSIEDITORSPELLCHECK
+mozSpellChecker
+*
+GetSpellChecker
+(
+)
+;
 protected
 :
 virtual

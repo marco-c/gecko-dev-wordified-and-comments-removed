@@ -439,6 +439,15 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 mozInlineSpellChecker
 nsIDOMEventListener
 )
+mozilla
+:
+:
+EditorSpellCheck
+*
+GetEditorSpellCheck
+(
+)
+;
 static
 bool
 CanEnableInlineSpellChecking
