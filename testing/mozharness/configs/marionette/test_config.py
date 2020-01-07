@@ -177,6 +177,7 @@ testsdir
 "
 :
 "
+marionette
 "
         
 }
