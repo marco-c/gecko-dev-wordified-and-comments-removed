@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
