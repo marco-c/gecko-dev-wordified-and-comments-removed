@@ -58,6 +58,7 @@ gBrowser
 testPage
 )
 ;
+await
 FullZoom
 .
 enlarge
