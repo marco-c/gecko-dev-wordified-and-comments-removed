@@ -2642,6 +2642,10 @@ mCheckedForTracking
 (
 false
 )
+mCheckedForOpszAxis
+(
+false
+)
 mTrakTable
 (
 nullptr
@@ -2731,6 +2735,10 @@ mHasAATSmallCapsInitialized
 false
 )
 mCheckedForTracking
+(
+false
+)
+mCheckedForOpszAxis
 (
 false
 )
