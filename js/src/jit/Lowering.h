@@ -1400,15 +1400,6 @@ ins
 override
 ;
 void
-visitUnarySharedStub
-(
-MUnarySharedStub
-*
-ins
-)
-override
-;
-void
 visitNullarySharedStub
 (
 MNullarySharedStub
