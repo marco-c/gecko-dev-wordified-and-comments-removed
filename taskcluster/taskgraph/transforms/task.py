@@ -532,32 +532,6 @@ platform
 '
 :
 basestring
-        
-Required
-(
-'
-environments
-'
-default
-=
-[
-'
-production
-'
-'
-staging
-'
-]
-)
-:
-[
-'
-production
-'
-'
-staging
-'
-]
     
 }
     
@@ -2958,32 +2932,13 @@ locale
 }
 "
 ]
-TREEHERDER_ROUTE_ROOTS
+TREEHERDER_ROUTE_ROOT
 =
-{
-    
-'
-production
-'
-:
 '
 tc
 -
 treeherder
 '
-    
-'
-staging
-'
-:
-'
-tc
--
-treeherder
--
-stage
-'
-}
 DEFAULT_BRANCH_REV_PARAM
 =
 '
@@ -6432,21 +6387,6 @@ treeherder
 None
 )
     
-task
-[
-'
-extra
-'
-]
-.
-pop
-(
-'
-treeherderEnv
-'
-None
-)
-    
 worker
 =
 task
@@ -8462,20 +8402,6 @@ if
 task_th
 :
             
-extra
-[
-'
-treeherderEnv
-'
-]
-=
-task_th
-[
-'
-environments
-'
-]
-            
 treeherder
 =
 extra
@@ -8738,9 +8664,8 @@ DEFAULT_BRANCH_REV_PARAM
             
 routes
 .
-extend
+append
 (
-[
                 
 '
 {
@@ -8760,10 +8685,7 @@ v2
 .
 format
 (
-TREEHERDER_ROUTE_ROOTS
-[
-env
-]
+TREEHERDER_ROUTE_ROOT
                                         
 config
 .
@@ -8785,18 +8707,7 @@ pushlog_id
 '
 ]
 )
-                
-for
-env
-in
-task_th
-[
-'
-environments
-'
-]
             
-]
 )
         
 if
