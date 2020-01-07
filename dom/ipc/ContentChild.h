@@ -3866,9 +3866,6 @@ bool
 >
 mShuttingDown
 ;
-int32_t
-mShutdownTimeout
-;
 #
 ifdef
 NIGHTLY_BUILD
