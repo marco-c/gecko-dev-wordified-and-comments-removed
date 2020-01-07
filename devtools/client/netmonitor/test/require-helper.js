@@ -114,7 +114,7 @@ utils
 :
 return
 const
-React
+ReactDOM
 =
 require
 (
@@ -129,7 +129,7 @@ vendor
 /
 react
 -
-dev
+dom
 '
 )
 ;
@@ -137,9 +137,7 @@ module
 .
 exports
 =
-React
-.
-addons
+ReactDOM
 .
 TestUtils
 ;
