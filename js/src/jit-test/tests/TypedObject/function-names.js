@@ -37,15 +37,3 @@ StructType
 "
 )
 ;
-assertEq
-(
-TypedObject
-.
-storage
-.
-name
-"
-storage
-"
-)
-;

@@ -31,7 +31,6 @@ StructType
 uint32
 Object
 Any
-storage
 objectType
 }
 =
