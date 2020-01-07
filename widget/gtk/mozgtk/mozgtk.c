@@ -563,14 +563,6 @@ gdk_x11_screen_get_xscreen
 )
 STUB
 (
-gdk_x11_screen_get_screen_number
-)
-STUB
-(
-gdk_x11_screen_lookup_visual
-)
-STUB
-(
 gdk_x11_screen_supports_net_wm_hint
 )
 STUB
