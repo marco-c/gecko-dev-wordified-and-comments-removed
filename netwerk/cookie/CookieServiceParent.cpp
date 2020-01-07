@@ -298,6 +298,10 @@ nsICookieService
 "
 )
 ;
+mProcessingCookie
+=
+false
+;
 }
 CookieServiceParent
 :
@@ -1416,6 +1420,10 @@ aCookieString
 0
 )
 ;
+mProcessingCookie
+=
+true
+;
 mCookieService
 -
 >
@@ -1426,10 +1434,13 @@ aIsForeign
 cookieString
 aServerTime
 aFromHttp
-true
 aAttrs
 dummyChannel
 )
+;
+mProcessingCookie
+=
+false
 ;
 return
 IPC_OK

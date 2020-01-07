@@ -92,6 +92,15 @@ nsICookie
 aCookie
 )
 ;
+bool
+ProcessingCookie
+(
+)
+{
+return
+mProcessingCookie
+;
+}
 protected
 :
 virtual
@@ -240,6 +249,9 @@ RefPtr
 nsCookieService
 >
 mCookieService
+;
+bool
+mProcessingCookie
 ;
 }
 ;
