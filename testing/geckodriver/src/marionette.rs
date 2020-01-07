@@ -3035,13 +3035,10 @@ port
 .
 unwrap_or
 (
-try
-!
-(
 get_free_port
 (
 )
-)
+?
 )
 ;
 if
@@ -10476,11 +10473,8 @@ TcpListener
 :
 bind
 (
-&
 (
-"
-localhost
-"
+DEFAULT_HOST
 0
 )
 )
