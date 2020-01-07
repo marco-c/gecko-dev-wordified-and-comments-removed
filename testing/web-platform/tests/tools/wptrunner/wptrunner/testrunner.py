@@ -3914,6 +3914,12 @@ extra
 file_result
 .
 extra
+                             
+stack
+=
+file_result
+.
+stack
 )
         
 restart_before_next

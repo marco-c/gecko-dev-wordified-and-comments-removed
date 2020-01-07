@@ -55,6 +55,9 @@ None
 extra
 =
 None
+stack
+=
+None
 )
 :
         
@@ -111,6 +114,12 @@ None
 else
 {
 }
+        
+self
+.
+stack
+=
+stack
     
 def
 __repr__
