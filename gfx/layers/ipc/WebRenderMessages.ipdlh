@@ -445,6 +445,14 @@ mozilla
 namespace
 layers
 {
+struct
+RefCountedShmem
+{
+Shmem
+buffer
+;
+}
+;
 union
 OptionalTransform
 {

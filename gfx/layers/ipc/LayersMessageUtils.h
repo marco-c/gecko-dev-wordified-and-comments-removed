@@ -158,6 +158,17 @@ include
 "
 mozilla
 /
+layers
+/
+RefCountedShmem
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h

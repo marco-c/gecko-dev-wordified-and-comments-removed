@@ -1265,6 +1265,13 @@ h
 '
 ipc
 /
+RefCountedShmem
+.
+h
+'
+'
+ipc
+/
 RemoteContentController
 .
 h
@@ -2738,6 +2745,13 @@ cpp
 ipc
 /
 LayerTreeOwnerTracker
+.
+cpp
+'
+'
+ipc
+/
+RefCountedShmem
 .
 cpp
 '
