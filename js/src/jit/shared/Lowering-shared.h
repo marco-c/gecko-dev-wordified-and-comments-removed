@@ -660,14 +660,6 @@ Register
 reg
 )
 ;
-inline
-LDefinition
-tempFixed
-(
-FloatRegister
-reg
-)
-;
 template
 <
 size_t

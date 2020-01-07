@@ -478,12 +478,6 @@ false
 ;
 SET_DEFAULT
 (
-disableCacheIRBinaryArith
-false
-)
-;
-SET_DEFAULT
-(
 disableSharedStubs
 false
 )
