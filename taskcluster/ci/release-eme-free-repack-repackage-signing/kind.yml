@@ -130,3 +130,9 @@ win64
 nightly
 /
 opt
+-
+macosx64
+-
+nightly
+/
+opt
