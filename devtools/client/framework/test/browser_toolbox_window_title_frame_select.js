@@ -80,8 +80,8 @@ properties
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -105,7 +105,7 @@ enabled
 true
 )
 ;
-yield
+await
 addTab
 (
 URL
@@ -126,7 +126,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -148,7 +148,7 @@ waitForTitleChange
 toolbox
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -158,10 +158,10 @@ inspector
 "
 )
 ;
-yield
+await
 onTitleChanged
 ;
-yield
+await
 toolbox
 .
 switchHost
@@ -173,7 +173,7 @@ HostType
 WINDOW
 )
 ;
-yield
+await
 waitForTitleChange
 (
 toolbox
@@ -206,7 +206,7 @@ host
 "
 )
 ;
-yield
+await
 waitForTick
 (
 )
@@ -229,7 +229,7 @@ frames
 "
 )
 ;
-yield
+await
 testShortcutToOpenFrames
 (
 btn
@@ -263,7 +263,7 @@ present
 let
 menu
 =
-yield
+await
 toolbox
 .
 showFramesMenu
@@ -275,7 +275,7 @@ btn
 }
 )
 ;
-yield
+await
 once
 (
 menu
@@ -458,13 +458,13 @@ click
 (
 )
 ;
-yield
+await
 willNavigate
 ;
-yield
+await
 newRoot
 ;
-yield
+await
 onTitleChanged
 ;
 info
@@ -524,7 +524,7 @@ preferences
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -636,8 +636,8 @@ document
 title
 ;
 }
+async
 function
-*
 testShortcutToOpenFrames
 (
 btn
@@ -689,7 +689,7 @@ toolbox
 win
 )
 ;
-yield
+await
 wait
 (
 200
@@ -727,7 +727,7 @@ toolbox
 win
 )
 ;
-yield
+await
 wait
 (
 200
