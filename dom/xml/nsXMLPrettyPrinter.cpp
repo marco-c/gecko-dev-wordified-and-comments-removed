@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMDocumentXBL
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

@@ -764,13 +764,6 @@ BINPATH
 /
 components
 /
-dom_xbl
-.
-xpt
-BINPATH
-/
-components
-/
 dom_xhr
 .
 xpt
