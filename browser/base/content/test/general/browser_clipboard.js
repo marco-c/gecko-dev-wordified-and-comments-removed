@@ -152,8 +152,6 @@ SimpleTest
 promiseFocus
 (
 browser
-.
-contentWindowAsCPOW
 )
 ;
 const
@@ -1307,8 +1305,6 @@ SimpleTest
 promiseFocus
 (
 browser
-.
-contentWindowAsCPOW
 )
 ;
 await
