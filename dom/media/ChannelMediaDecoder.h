@@ -427,6 +427,7 @@ ComputePlaybackRate
 (
 )
 ;
+static
 void
 UpdatePlaybackRate
 (
@@ -434,6 +435,9 @@ const
 PlaybackRateInfo
 &
 aInfo
+BaseMediaResource
+*
+aResource
 )
 ;
 MediaStatistics
