@@ -1290,15 +1290,6 @@ DoFinishOffThreadDecode
 (
 )
 ;
-JSObject
-*
-CompilationScope
-(
-JSContext
-*
-cx
-)
-;
 size_t
 ShallowHeapSizeOfIncludingThis
 (
