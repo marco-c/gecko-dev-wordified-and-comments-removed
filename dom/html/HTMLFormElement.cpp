@@ -6429,7 +6429,7 @@ action
 if
 (
 !
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
