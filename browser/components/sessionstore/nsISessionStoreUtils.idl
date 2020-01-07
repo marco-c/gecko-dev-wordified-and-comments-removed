@@ -303,11 +303,14 @@ reasons
 .
 *
 /
+[
+implicit_jscontext
+]
 nsIDOMEventListener
 createDynamicFrameEventFilter
 (
 in
-nsIDOMEventListener
+jsval
 listener
 )
 ;
