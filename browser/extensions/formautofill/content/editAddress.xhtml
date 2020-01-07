@@ -881,8 +881,9 @@ strict
 ;
 let
 {
-supportedCountries
 DEFAULT_REGION
+getFormFormat
+supportedCountries
 }
 =
 FormAutofillUtils
@@ -935,6 +936,14 @@ form
 record
 {
 DEFAULT_REGION
+getFormFormat
+:
+getFormFormat
+.
+bind
+(
+FormAutofillUtils
+)
 supportedCountries
 }
 )

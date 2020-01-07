@@ -381,7 +381,7 @@ postalCodeLabel
 fieldsOrder
 }
 =
-FormAutofillUtils
+this
 .
 getFormFormat
 (
