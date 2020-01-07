@@ -104,7 +104,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 domain
 ;
 [

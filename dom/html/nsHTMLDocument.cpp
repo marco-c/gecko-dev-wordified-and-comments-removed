@@ -4032,9 +4032,10 @@ if
 uri
 )
 {
-SetDOMStringToNull
-(
 aDomain
+.
+Truncate
+(
 )
 ;
 return
@@ -4072,9 +4073,10 @@ aDomain
 }
 else
 {
-SetDOMStringToNull
-(
 aDomain
+.
+Truncate
+(
 )
 ;
 }
