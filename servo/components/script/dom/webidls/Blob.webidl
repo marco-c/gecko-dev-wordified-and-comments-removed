@@ -153,14 +153,10 @@ type
 ;
 typedef
 (
-/
-*
 ArrayBuffer
 or
 ArrayBufferView
 or
-*
-/
 Blob
 or
 DOMString
