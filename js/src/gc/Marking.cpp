@@ -8220,6 +8220,17 @@ sweep
 this
 )
 ;
+if
+(
+!
+trc
+-
+>
+canSkipJsids
+(
+)
+)
+{
 unsigned
 count
 =
@@ -8272,6 +8283,7 @@ group_property
 "
 )
 ;
+}
 }
 if
 (

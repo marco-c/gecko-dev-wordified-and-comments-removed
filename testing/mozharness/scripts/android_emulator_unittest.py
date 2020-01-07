@@ -294,14 +294,6 @@ clobber
 '
                          
 '
-read
--
-buildbot
--
-config
-'
-                         
-'
 setup
 -
 avds
