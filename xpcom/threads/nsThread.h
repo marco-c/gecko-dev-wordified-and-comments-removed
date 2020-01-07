@@ -578,12 +578,6 @@ mShutdownRequired
 MainThreadFlag
 mIsMainThread
 ;
-mozilla
-:
-:
-TimeStamp
-mLastUnlabeledRunnable
-;
 bool
 mCanInvokeJS
 ;
