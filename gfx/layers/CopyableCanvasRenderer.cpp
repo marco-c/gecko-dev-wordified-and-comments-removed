@@ -473,6 +473,10 @@ ClearCachedResources
 (
 )
 {
+SetDirty
+(
+)
+;
 if
 (
 mBufferProvider
