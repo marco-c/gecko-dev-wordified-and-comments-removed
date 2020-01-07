@@ -505,7 +505,7 @@ offsets
 (
 )
 {
-let
+const
 p
 =
 this
@@ -694,12 +694,7 @@ function
 element
 )
 {
-let
-p
-=
-this
-.
-padding
+const
 w
 =
 this
@@ -715,9 +710,12 @@ canvas
 .
 height
 ;
+const
 p
 =
-p
+this
+.
+padding
 .
 map
 (

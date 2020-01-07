@@ -226,7 +226,7 @@ setViewportSizeWithInputKeys
 ui
 )
 {
-let
+const
 width
 =
 320

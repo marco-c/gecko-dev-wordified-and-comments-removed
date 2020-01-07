@@ -235,9 +235,6 @@ spectrum
 tooltip
 "
 ;
-let
-widget
-;
 const
 node
 =
@@ -266,6 +263,7 @@ appendChild
 node
 )
 ;
+const
 widget
 =
 new

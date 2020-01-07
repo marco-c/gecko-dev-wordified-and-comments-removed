@@ -129,9 +129,6 @@ function
 (
 )
 {
-let
-eventLoop
-;
 executeSoon
 (
 function
@@ -248,6 +245,7 @@ size
 1
 )
 ;
+const
 eventLoop
 =
 thread

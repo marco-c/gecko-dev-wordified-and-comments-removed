@@ -1904,11 +1904,13 @@ value
 splitChar
 )
 {
-let
+const
 data
 =
 [
 ]
+;
+let
 i
 =
 0

@@ -4192,9 +4192,6 @@ aToken
 aSkip
 )
 {
-let
-ch
-;
 aToken
 .
 mIdent
@@ -4232,6 +4229,7 @@ this
 .
 mLineNumber
 ;
+const
 ch
 =
 this

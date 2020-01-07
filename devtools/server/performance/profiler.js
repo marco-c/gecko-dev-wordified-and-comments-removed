@@ -581,7 +581,7 @@ function
 (
 )
 {
-let
+const
 position
 =
 {

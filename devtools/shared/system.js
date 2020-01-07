@@ -406,7 +406,6 @@ width
 height
 physicalWidth
 physicalHeight
-os
 brandName
 ;
 const
@@ -445,6 +444,7 @@ version
 unknown
 "
 ;
+const
 os
 =
 appInfo

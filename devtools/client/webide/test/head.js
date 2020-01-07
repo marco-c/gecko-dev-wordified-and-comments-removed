@@ -1282,12 +1282,7 @@ runtime
 "
 )
 ;
-let
-panelNode
-;
-let
-runtimePanel
-;
+const
 runtimePanel
 =
 getRuntimeDocument
@@ -1295,6 +1290,7 @@ getRuntimeDocument
 win
 )
 ;
+const
 panelNode
 =
 runtimePanel

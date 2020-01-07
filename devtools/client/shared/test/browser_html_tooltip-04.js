@@ -232,7 +232,7 @@ box4
 "
 )
 ;
-let
+const
 height
 =
 TOOLTIP_HEIGHT

@@ -104,11 +104,13 @@ start
 count
 )
 ;
-let
+const
 parts
 =
 [
 ]
+;
+let
 offset
 =
 0

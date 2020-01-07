@@ -227,11 +227,13 @@ headersSize
 =
 header
 ;
-let
+const
 payload
 =
 {
 }
+;
+const
 requestPostData
 =
 {

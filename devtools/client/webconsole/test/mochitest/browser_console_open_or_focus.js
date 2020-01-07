@@ -36,8 +36,8 @@ function
 let
 currWindow
 hud
-mainWindow
 ;
+const
 mainWindow
 =
 Services

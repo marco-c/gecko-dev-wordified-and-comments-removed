@@ -2703,12 +2703,6 @@ l
 )
 {
 let
-r
-g
-b
-;
-let
-m1
 m2
 ;
 if
@@ -2745,6 +2739,7 @@ l
 s
 ;
 }
+const
 m1
 =
 l
@@ -2753,6 +2748,7 @@ l
 -
 m2
 ;
+const
 r
 =
 Math
@@ -2777,6 +2773,7 @@ h
 )
 )
 ;
+const
 g
 =
 Math
@@ -2793,6 +2790,7 @@ h
 )
 )
 ;
+const
 b
 =
 Math

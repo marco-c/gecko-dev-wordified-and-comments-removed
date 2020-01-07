@@ -1594,15 +1594,7 @@ this
 .
 _doc
 ;
-let
-newAppCmd
-;
-let
-packagedAppCmd
-;
-let
-hostedAppCmd
-;
+const
 newAppCmd
 =
 doc
@@ -1617,6 +1609,7 @@ app
 "
 )
 ;
+const
 packagedAppCmd
 =
 doc
@@ -1631,6 +1624,7 @@ app
 "
 )
 ;
+const
 hostedAppCmd
 =
 doc

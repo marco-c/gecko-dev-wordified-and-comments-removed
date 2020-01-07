@@ -1449,12 +1449,6 @@ uniqueId
 >
 {
 let
-cell
-;
-let
-cells
-;
-let
 columnObj
 ;
 const
@@ -1691,12 +1685,14 @@ this
 .
 visibleSelectedIndex
 ;
+const
 cells
 =
 columnObj
 .
 visibleCellNodes
 ;
+const
 cell
 =
 cells
