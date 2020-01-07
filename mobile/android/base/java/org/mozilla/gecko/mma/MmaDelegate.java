@@ -332,6 +332,16 @@ public
 static
 final
 String
+RESUMED_FROM_BACKGROUND
+=
+"
+E_Resumed_From_Background
+"
+;
+public
+static
+final
+String
 NEW_TAB
 =
 "

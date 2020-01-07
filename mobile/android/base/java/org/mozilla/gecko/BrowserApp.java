@@ -7140,6 +7140,15 @@ this
 )
 ;
 }
+MmaDelegate
+.
+track
+(
+MmaDelegate
+.
+RESUMED_FROM_BACKGROUND
+)
+;
 }
 Override
 public
