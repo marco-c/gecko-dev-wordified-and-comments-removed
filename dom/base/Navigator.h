@@ -627,13 +627,12 @@ const
 bool
 JavaEnabled
 (
-CallerType
-aCallerType
-ErrorResult
-&
-aRv
 )
+{
+return
+false
 ;
+}
 uint64_t
 HardwareConcurrency
 (

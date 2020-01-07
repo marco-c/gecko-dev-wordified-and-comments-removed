@@ -1472,8 +1472,12 @@ support
 this
 .
 [
-Throws
-NeedsCallerType
+Affects
+=
+Nothing
+DependsOn
+=
+Nothing
 ]
 boolean
 javaEnabled
