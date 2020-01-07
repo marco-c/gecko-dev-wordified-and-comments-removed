@@ -216,6 +216,9 @@ HitTestingTreeNode
 class
 WebRenderScrollData
 ;
+struct
+AncestorTransform
+;
 class
 APZCTreeManager
 :
@@ -1089,10 +1092,7 @@ aMetrics
 uint64_t
 aLayersId
 const
-gfx
-:
-:
-Matrix4x4
+AncestorTransform
 &
 aAncestorTransform
 HitTestingTreeNode
