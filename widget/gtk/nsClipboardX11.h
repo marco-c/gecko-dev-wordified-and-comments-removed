@@ -97,6 +97,14 @@ aTargetNums
 )
 override
 ;
+virtual
+bool
+HasSelectionSupport
+(
+void
+)
+override
+;
 void
 Complete
 (

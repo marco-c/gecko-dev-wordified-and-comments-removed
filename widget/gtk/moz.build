@@ -188,6 +188,9 @@ DIRS
 =
 [
 '
+wayland
+'
+'
 mozwayland
 '
 ]
