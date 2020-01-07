@@ -365,9 +365,6 @@ attribute
 ChannelCountMode
 channelCountMode
 ;
-[
-SetterThrows
-]
 attribute
 ChannelInterpretation
 channelInterpretation
