@@ -19,13 +19,6 @@ nsPerformanceMetrics
 .
 h
 >
-#
-include
-"
-nsComponentManagerUtils
-.
-h
-"
 PerformanceMetricsDispatchCategory
 :
 :

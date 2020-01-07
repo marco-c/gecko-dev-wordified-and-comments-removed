@@ -463,6 +463,11 @@ onClearHistory
 )
 {
 }
+onVisits
+(
+)
+{
+}
 onTitleChanged
 (
 )

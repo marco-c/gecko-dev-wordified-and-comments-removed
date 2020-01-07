@@ -77,15 +77,6 @@ mozilla
 dom
 :
 :
-BlobURLProtocolHandler
-;
-using
-mozilla
-:
-:
-dom
-:
-:
 ClientInfo
 ;
 using

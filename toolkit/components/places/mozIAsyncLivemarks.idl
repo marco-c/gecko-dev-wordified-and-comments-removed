@@ -349,14 +349,6 @@ boolean
 aForceUpdate
 )
 ;
-void
-handlePlacesEvents
-(
-in
-jsval
-aEvents
-)
-;
 jsval
 invalidateCachedLivemarks
 (
