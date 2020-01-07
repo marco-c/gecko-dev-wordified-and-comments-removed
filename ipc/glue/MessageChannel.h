@@ -306,6 +306,15 @@ friend
 class
 ThreadLink
 ;
+#
+ifdef
+FUZZING
+friend
+class
+ProtocolFuzzerHelper
+;
+#
+endif
 class
 CxxStackFrame
 ;
