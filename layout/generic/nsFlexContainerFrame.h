@@ -350,11 +350,6 @@ aLogicalAxis
 const
 override
 ;
-bool
-IsHorizontal
-(
-)
-;
 static
 void
 CalculatePackingSpace
