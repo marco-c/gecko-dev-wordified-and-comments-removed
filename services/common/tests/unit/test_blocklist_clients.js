@@ -1615,7 +1615,10 @@ equal
 (
 called
 false
-no
+shouldn
+'
+t
+have
 sync
 event
 for
@@ -4194,11 +4197,11 @@ mozilla
 org
 "
 "
-minVersion
+maxVersion
 "
 :
 "
-99999
+20
 "
 }
 ]
