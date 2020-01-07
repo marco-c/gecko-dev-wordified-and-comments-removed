@@ -1457,6 +1457,12 @@ macosx64
 -
 tests
 -
+macosx64
+-
+talos
+-
+profiling
+-
 awsy
 macosx64
 -
