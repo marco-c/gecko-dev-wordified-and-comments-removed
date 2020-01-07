@@ -21450,6 +21450,14 @@ else
 if
 (
 isBackup
+&
+&
+gHttpHandler
+-
+>
+FastFallbackToIPv4
+(
+)
 )
 {
 tmpFlags
