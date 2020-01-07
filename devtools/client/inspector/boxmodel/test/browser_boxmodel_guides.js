@@ -344,6 +344,13 @@ highlight
 "
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 is
 (
 highlightedNodeFront
