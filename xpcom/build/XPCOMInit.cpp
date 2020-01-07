@@ -2429,10 +2429,6 @@ LC_ALL
 }
 #
 endif
-NS_StartupLocalFile
-(
-)
-;
 nsDirectoryService
 :
 :
@@ -4036,10 +4032,6 @@ BeginLateWriteChecks
 )
 ;
 }
-NS_ShutdownLocalFile
-(
-)
-;
 if
 (
 nsComponentManagerImpl
