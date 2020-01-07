@@ -1457,6 +1457,11 @@ closest
 panel
 "
 )
+=
+=
+this
+.
+panelNode
 )
 {
 return
