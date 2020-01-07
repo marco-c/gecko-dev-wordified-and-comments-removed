@@ -373,6 +373,11 @@ BindOffscreenFramebuffer
 (
 )
 ;
+void
+Destroy
+(
+)
+;
 static
 already_AddRefed
 <
@@ -417,6 +422,13 @@ mConfig
 ;
 protected
 :
+const
+RefPtr
+<
+GLLibraryEGL
+>
+mEgl
+;
 EGLSurface
 mSurface
 ;
