@@ -231,6 +231,15 @@ html
 "
 const
 val
+CONTENT_CRASH_URL
+=
+"
+about
+:
+crashcontent
+"
+const
+val
 DOWNLOAD_HTML_PATH
 =
 "
