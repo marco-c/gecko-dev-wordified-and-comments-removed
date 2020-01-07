@@ -190,7 +190,7 @@ Services
 )
 ;
 const
-events
+EventEmitter
 =
 require
 (
@@ -199,8 +199,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -1129,7 +1127,7 @@ getClientCssProperties
 )
 ;
 }
-events
+EventEmitter
 .
 decorate
 (
