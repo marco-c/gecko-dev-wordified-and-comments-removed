@@ -1232,8 +1232,6 @@ NS_OK
 ;
 \
 }
-else
-{
 \
 /
 *
@@ -1252,8 +1250,6 @@ foundInterface
 =
 nullptr
 ;
-\
-}
 \
 }
 else
