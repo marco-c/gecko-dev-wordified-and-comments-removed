@@ -6195,6 +6195,7 @@ ValueOperand
 operand
 Register
 dest
+JSValueType
 )
 {
 if
@@ -6231,6 +6232,7 @@ Address
 src
 Register
 dest
+JSValueType
 )
 {
 ma_lw
@@ -6262,6 +6264,7 @@ BaseIndex
 src
 Register
 dest
+JSValueType
 )
 {
 computeScaledAddress
@@ -6615,6 +6618,7 @@ ValueOperand
 src
 AnyRegister
 dest
+JSValueType
 )
 {
 if
