@@ -76,13 +76,13 @@ JavaScript
 object
 definitions
 in
-IntlData
+    
+LangTagMappingsGenerated
 .
 js
 .
 The
 definitions
-    
 are
 used
 in
@@ -1562,7 +1562,7 @@ args
 "
 Update
 the
-IntlData
+LangTagMappingsGenerated
 .
 js
 file
@@ -5770,7 +5770,7 @@ u
 "
 #
 ifndef
-builtin_IntlTimeZoneData_h
+builtin_intl_TimeZoneDataGenerated_h
 "
 )
         
@@ -5780,7 +5780,7 @@ u
 "
 #
 define
-builtin_IntlTimeZoneData_h
+builtin_intl_TimeZoneDataGenerated_h
 "
 )
         
@@ -6276,7 +6276,7 @@ u
 endif
 /
 *
-builtin_IntlTimeZoneData_h
+builtin_intl_TimeZoneDataGenerated_h
 *
 /
 "
@@ -8422,7 +8422,7 @@ args
 "
 Update
 the
-IntlCurrency
+CurrencyDataGenerated
 .
 js
 file
@@ -8576,7 +8576,7 @@ print
 (
 "
 Writing
-IntlCurrency
+CurrencyData
 file
 .
 .
@@ -8857,7 +8857,7 @@ join
 dirPaths
 [
 -
-3
+4
 :
 ]
 )
@@ -8869,6 +8869,8 @@ js
 src
 /
 builtin
+/
+intl
 "
 :
         
@@ -8886,6 +8888,8 @@ js
 src
 /
 builtin
+/
+intl
 "
 %
 sys
@@ -8908,7 +8912,7 @@ dirPaths
 [
 :
 -
-3
+4
 ]
 )
     
@@ -9085,7 +9089,7 @@ out
 default
 =
 "
-IntlData
+LangTagMappingsGenerated
 .
 js
 "
@@ -9284,7 +9288,7 @@ out
 default
 =
 "
-IntlTimeZoneData
+TimeZoneDataGenerated
 .
 h
 "
@@ -9424,7 +9428,7 @@ out
 default
 =
 "
-IntlCurrency
+CurrencyDataGenerated
 .
 js
 "

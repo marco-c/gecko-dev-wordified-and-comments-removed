@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_IntlTimeZoneData_h
+builtin_intl_TimeZoneDataGenerated_h
 #
 define
-builtin_IntlTimeZoneData_h
+builtin_intl_TimeZoneDataGenerated_h
 namespace
 js
 {
