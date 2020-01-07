@@ -2327,6 +2327,10 @@ nullptr
 ;
 if
 (
+!
+aBuiltin
+&
+&
 gEventNameIDMap
 .
 Get
