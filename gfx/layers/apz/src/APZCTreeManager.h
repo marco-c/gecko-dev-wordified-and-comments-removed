@@ -241,9 +241,6 @@ FocusTarget
 struct
 FlingHandoffState
 ;
-struct
-ScrollableLayerGuidHash
-;
 class
 LayerMetricsWrapper
 ;
@@ -1359,7 +1356,10 @@ unordered_map
 <
 ScrollableLayerGuid
 ZoomConstraints
-ScrollableLayerGuidHash
+ScrollableLayerGuid
+:
+:
+HashFn
 >
 mZoomConstraints
 ;
