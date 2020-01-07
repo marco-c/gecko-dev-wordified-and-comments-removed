@@ -5065,12 +5065,6 @@ IsInputDateTimeOthersEnabled
 ;
 static
 bool
-IsInputNumberEnabled
-(
-)
-;
-static
-bool
 IsInputColorEnabled
 (
 )
