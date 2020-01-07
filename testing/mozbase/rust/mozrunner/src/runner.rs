@@ -411,7 +411,7 @@ ExitStatus
 >
 ;
 fn
-is_running
+running
 (
 &
 mut
@@ -721,7 +721,7 @@ try_wait
 )
 }
 fn
-is_running
+running
 (
 &
 mut
