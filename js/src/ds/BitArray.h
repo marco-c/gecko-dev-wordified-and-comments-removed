@@ -22,6 +22,13 @@ h
 >
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 jstypes
 .
