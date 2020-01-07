@@ -1581,13 +1581,6 @@ aURL
 )
 ;
 static
-nsIDocument
-*
-GetDocumentFromCaller
-(
-)
-;
-static
 bool
 InProlog
 (
