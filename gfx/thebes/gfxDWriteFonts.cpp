@@ -221,8 +221,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 AntialiasOption
 anAAOption
 )
@@ -245,10 +243,6 @@ nullptr
 mSpaceGlyph
 (
 0
-)
-mNeedsBold
-(
-aNeedsBold
 )
 mUseSubpixelPositions
 (
@@ -436,7 +430,6 @@ unscaledFont
 entry
 &
 mStyle
-mNeedsBold
 anAAOption
 )
 ;
@@ -485,9 +478,6 @@ FontWeight
 700
 )
 ;
-bool
-needsBold
-;
 gfxFontEntry
 *
 fe
@@ -510,7 +500,6 @@ Arial
 )
 &
 style
-needsBold
 )
 ;
 if
@@ -542,7 +531,6 @@ FindOrMakeFont
 (
 &
 style
-needsBold
 )
 ;
 gfxDWriteFont

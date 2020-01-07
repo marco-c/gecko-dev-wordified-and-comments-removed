@@ -107,10 +107,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
-=
-false
 AntialiasOption
 =
 kAntialiasDefault
@@ -398,9 +394,6 @@ mGlyphWidths
 ;
 uint32_t
 mSpaceGlyph
-;
-bool
-mNeedsBold
 ;
 bool
 mUseSubpixelPositions

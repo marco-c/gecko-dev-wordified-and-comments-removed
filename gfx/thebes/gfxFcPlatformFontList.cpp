@@ -2659,7 +2659,6 @@ FindOrMakeFont
 (
 &
 s
-false
 )
 ;
 if
@@ -3099,13 +3098,17 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-aNeedsBold
 )
 {
 if
 (
-aNeedsBold
+aStyle
+-
+>
+NeedsSyntheticBold
+(
+this
+)
 )
 {
 FcPatternAddBool
@@ -4062,8 +4065,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 {
 nsAutoRef
@@ -4276,7 +4277,6 @@ CreateScaledFont
 renderPattern
 size
 aFontStyle
-aNeedsBold
 )
 ;
 const
@@ -4420,7 +4420,6 @@ renderPattern
 size
 this
 aFontStyle
-aNeedsBold
 )
 ;
 cairo_scaled_font_destroy
@@ -5456,9 +5455,6 @@ gfxFontEntry
 &
 aFontEntryList
 bool
-&
-aNeedsSyntheticBold
-bool
 aIgnoreSizeTolerance
 )
 {
@@ -5469,7 +5465,6 @@ FindAllFontsForStyle
 (
 aFontStyle
 aFontEntryList
-aNeedsSyntheticBold
 aIgnoreSizeTolerance
 )
 ;
@@ -6056,8 +6051,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 :
 gfxFT2FontBase
@@ -6066,7 +6059,6 @@ aUnscaledFont
 aScaledFont
 aFontEntry
 aFontStyle
-aNeedsBold
 )
 mPattern
 (

@@ -123,8 +123,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 :
 gfxFont
@@ -164,7 +162,13 @@ HasVariations
 {
 mApplySyntheticBold
 =
-aNeedsBold
+aFontStyle
+-
+>
+NeedsSyntheticBold
+(
+aFontEntry
+)
 ;
 if
 (

@@ -1153,8 +1153,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-aNeedsBold
 gfxCharacterMap
 *
 aUnicodeRangeMap
@@ -1773,8 +1771,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 =
 0
@@ -2536,9 +2532,6 @@ gfxFontStyle
 &
 aFontStyle
 bool
-&
-aNeedsSyntheticBold
-bool
 aIgnoreSizeTolerance
 =
 false
@@ -2559,9 +2552,6 @@ gfxFontEntry
 >
 &
 aFontEntryList
-bool
-&
-aNeedsSyntheticBold
 bool
 aIgnoreSizeTolerance
 =

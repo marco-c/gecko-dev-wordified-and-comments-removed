@@ -3137,9 +3137,6 @@ aCh
 mReplacementCharFallbackFamily
 )
 {
-bool
-needsBold
-;
 fontEntry
 =
 mReplacementCharFallbackFamily
@@ -3149,7 +3146,6 @@ FindFontForStyle
 (
 *
 aStyle
-needsBold
 )
 ;
 if
@@ -3633,9 +3629,6 @@ gfxFontEntry
 *
 fontEntry
 ;
-bool
-needsBold
-;
 fontEntry
 =
 fallback
@@ -3645,7 +3638,6 @@ FindFontForStyle
 (
 *
 aMatchStyle
-needsBold
 )
 ;
 if
@@ -4291,9 +4283,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 {
 gfxFontFamily
@@ -4304,10 +4293,6 @@ FindFamily
 (
 aFamily
 )
-;
-aNeedsBold
-=
-false
 ;
 if
 (
@@ -4321,7 +4306,6 @@ FindFontForStyle
 (
 *
 aStyle
-aNeedsBold
 )
 ;
 return

@@ -72,8 +72,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 AntialiasOption
 anAAOption
 =

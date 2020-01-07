@@ -2091,8 +2091,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 {
 RefPtr
@@ -2148,7 +2146,6 @@ gfxMacFont
 unscaledFont
 this
 aFontStyle
-aNeedsBold
 )
 ;
 }
@@ -9177,17 +9174,6 @@ Elements
 familyNameLen
 )
 ;
-bool
-needsBold
-;
-/
-/
-ignored
-in
-the
-system
-fallback
-case
 gfxFontFamily
 *
 family
@@ -9211,7 +9197,6 @@ FindFontForStyle
 (
 *
 aMatchStyle
-needsBold
 )
 ;
 if

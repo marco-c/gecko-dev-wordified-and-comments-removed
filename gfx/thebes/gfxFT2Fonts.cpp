@@ -794,8 +794,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 :
 gfxFT2FontBase
@@ -804,7 +802,6 @@ aUnscaledFont
 aCairoFont
 aFontEntry
 aFontStyle
-false
 )
 mCharGlyphCache
 (
@@ -832,7 +829,13 @@ whack
 ;
 mApplySyntheticBold
 =
-aNeedsBold
+aFontStyle
+-
+>
+NeedsSyntheticBold
+(
+aFontEntry
+)
 ;
 }
 gfxFT2Font
