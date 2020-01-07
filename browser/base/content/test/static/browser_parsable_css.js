@@ -2290,6 +2290,14 @@ contentWindow
 .
 document
 ;
+doc
+.
+docShell
+.
+cssErrorReportingEnabled
+=
+true
+;
 let
 manifestURIs
 =
