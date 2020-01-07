@@ -120,7 +120,6 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 true
-true
 )
 ;
 let
@@ -267,7 +266,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-true
 false
 )
 .
@@ -312,7 +310,6 @@ telemetry
 snapshotKeyedHistograms
 (
 1
-true
 false
 )
 .
@@ -444,7 +441,6 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
-true
 true
 )
 ;
