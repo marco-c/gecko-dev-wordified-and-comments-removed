@@ -24952,6 +24952,11 @@ mBlockScriptedClosingFlag
 return
 ;
 }
+if
+(
+mDoc
+)
+{
 nsAutoString
 url
 ;
@@ -25049,6 +25054,7 @@ WindowCloseBlockedWarning
 ;
 return
 ;
+}
 }
 }
 if
