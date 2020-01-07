@@ -190,6 +190,11 @@ TestID
 cpp
 '
 '
+TestLogCommandLineHandler
+.
+cpp
+'
+'
 TestMoveString
 .
 cpp

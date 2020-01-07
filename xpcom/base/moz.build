@@ -726,6 +726,11 @@ JSObjectHolder
 cpp
 '
 '
+LogCommandLineHandler
+.
+cpp
+'
+'
 Logging
 .
 cpp
