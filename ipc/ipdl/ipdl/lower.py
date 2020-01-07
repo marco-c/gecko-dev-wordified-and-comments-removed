@@ -33134,7 +33134,7 @@ msgid
 =
 md
 .
-pqMsgId
+msgId
 (
 )
 if
@@ -33143,7 +33143,7 @@ reply
 else
 md
 .
-pqReplyId
+replyId
 (
 )
         
