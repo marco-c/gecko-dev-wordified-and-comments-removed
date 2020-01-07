@@ -302,7 +302,10 @@ interface
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 partial
 interface
