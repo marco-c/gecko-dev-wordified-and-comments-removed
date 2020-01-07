@@ -215,12 +215,6 @@ cy
 bool
 visible
 ;
-nsCOMPtr
-<
-nsISHistory
->
-sessionHistory
-;
 nsString
 name
 ;
