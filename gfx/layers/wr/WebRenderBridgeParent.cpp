@@ -5486,6 +5486,10 @@ aImageMgr
 CompositorAnimationStorage
 *
 aAnimStorage
+const
+TextureFactoryIdentifier
+&
+aTextureFactoryIdentifier
 )
 {
 MOZ_ASSERT
@@ -5537,6 +5541,7 @@ Unused
 SendWrUpdated
 (
 mIdNamespace
+aTextureFactoryIdentifier
 )
 ;
 CompositorBridgeParentBase
