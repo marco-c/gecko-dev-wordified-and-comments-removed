@@ -123,13 +123,13 @@ category
 '
 misc
 '
-        
+             
 conditions
 =
 [
 is_osx_10_10_or_greater
 ]
-        
+             
 description
 =
 '
@@ -142,7 +142,7 @@ related
 measurements
 for
 '
-        
+             
 '
 all
 running
@@ -161,7 +161,7 @@ and
 above
 .
 '
-        
+             
 '
 Requires
 root
@@ -187,7 +187,7 @@ int
 default
 =
 30000
-        
+                     
 help
 =
 '

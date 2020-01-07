@@ -20,6 +20,7 @@ re
 .
 compile
 (
+    
 "
 ^
 [
@@ -281,7 +282,6 @@ lib
 /
 debug
 '
-;
 endian_re
 =
 re
@@ -990,7 +990,6 @@ build
 id
 "
 )
-;
     
 if
 buildid
@@ -1190,7 +1189,6 @@ file
 gnu_debuglink
 "
 )
-;
     
 if
 debuglink
@@ -1703,7 +1701,6 @@ groups
 ]
 16
 )
-;
             
 break
     
@@ -1901,7 +1898,6 @@ r
 n
 "
 )
-\
               
 addr2line
 .
