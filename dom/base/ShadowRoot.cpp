@@ -310,7 +310,7 @@ DocumentFragment
 (
 aNodeInfo
 )
-StyleScope
+DocumentOrShadowRoot
 (
 *
 this
@@ -1093,7 +1093,7 @@ SheetCount
 )
 =
 =
-StyleScope
+DocumentOrShadowRoot
 :
 :
 SheetCount
@@ -1273,7 +1273,7 @@ RemoveStyleSheet
 aSheet
 )
 ;
-StyleScope
+DocumentOrShadowRoot
 :
 :
 RemoveSheet

@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-StyleScope
+DocumentOrShadowRoot
 .
 h
 "
@@ -89,7 +89,7 @@ final
 public
 DocumentFragment
 public
-StyleScope
+DocumentOrShadowRoot
 public
 nsStubMutationObserver
 {
@@ -201,7 +201,7 @@ StyleSheets
 {
 return
 &
-StyleScope
+DocumentOrShadowRoot
 :
 :
 EnsureDOMStyleSheets
@@ -365,7 +365,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementById

@@ -618,7 +618,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementById

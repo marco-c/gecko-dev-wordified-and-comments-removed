@@ -223,7 +223,7 @@ mozilla
 /
 dom
 /
-StyleScope
+DocumentOrShadowRoot
 .
 h
 "
@@ -784,7 +784,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 public
 mozilla
 :
@@ -3257,7 +3257,7 @@ StyleSheets
 {
 return
 &
-StyleScope
+DocumentOrShadowRoot
 :
 :
 EnsureDOMStyleSheets
@@ -6348,7 +6348,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementById
@@ -6360,7 +6360,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementsByTagName
@@ -6372,7 +6372,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementsByTagNameNS
@@ -6384,7 +6384,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementsByClassName

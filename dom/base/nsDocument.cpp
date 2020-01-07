@@ -6962,7 +6962,7 @@ nsINode
 (
 nullNodeInfo
 )
-StyleScope
+DocumentOrShadowRoot
 (
 *
 this
