@@ -1361,16 +1361,6 @@ warningDesc
 .
 version
 ;
-#
-ifdef
-MOZ_TELEMETRY_ON_BY_DEFAULT
-&
-warningDesc
-.
-telemetryDesc
-;
-#
-endif
 <
 /
 description
