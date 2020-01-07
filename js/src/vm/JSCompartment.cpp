@@ -6563,13 +6563,6 @@ reportTelemetry
 {
 if
 (
-creationOptions_
-.
-addonIdOrNull
-(
-)
-|
-|
 isSystem_
 )
 return
@@ -6636,13 +6629,6 @@ e
 {
 if
 (
-creationOptions_
-.
-addonIdOrNull
-(
-)
-|
-|
 isSystem_
 )
 return

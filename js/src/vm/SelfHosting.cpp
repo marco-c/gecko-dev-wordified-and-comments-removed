@@ -11441,7 +11441,7 @@ compartment
 )
 -
 >
-isProbablySystemOrAddonCode
+isProbablySystemCode
 (
 )
 )
