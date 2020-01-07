@@ -183,7 +183,11 @@ let
 visited
 =
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 SJS_URI
 )

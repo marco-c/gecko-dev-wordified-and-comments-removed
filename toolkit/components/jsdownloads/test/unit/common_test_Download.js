@@ -11818,7 +11818,11 @@ equal
 (
 false
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 httpUrl
 (
