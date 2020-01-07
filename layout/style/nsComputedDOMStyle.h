@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsCSSProps
-.
-h
-"
-#
-include
-"
 nsDOMCSSDeclaration
 .
 h
@@ -161,6 +154,9 @@ ComputedGridTrackInfo
 struct
 ComputedStyleMap
 ;
+struct
+nsCSSKTableEntry
+;
 class
 nsIFrame
 ;
@@ -209,10 +205,7 @@ nsStubMutationObserver
 private
 :
 typedef
-nsCSSProps
-:
-:
-KTableEntry
+nsCSSKTableEntry
 KTableEntry
 ;
 typedef

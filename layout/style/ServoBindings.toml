@@ -729,6 +729,11 @@ SizeOfState
 h
 "
 "
+nsCSSProps
+.
+h
+"
+"
 nsContentUtils
 .
 h
@@ -1867,6 +1872,9 @@ nsCSSCounterDesc
 "
 "
 nsCSSFontDesc
+"
+"
+nsCSSKTableEntry
 "
 "
 nsCSSKeyword

@@ -457,10 +457,7 @@ nsStyleImageLayers
 &
 aLayers
 const
-nsCSSProps
-:
-:
-KTableEntry
+nsCSSKTableEntry
 aTable
 [
 ]
