@@ -89,6 +89,9 @@ Loader
 class
 LoaderReusableStyleSheets
 ;
+class
+SheetLoadData
+;
 }
 struct
 ServoStyleSheetInner
@@ -274,6 +277,12 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
+css
+:
+:
+SheetLoadData
+*
+aLoadData
 uint32_t
 aLineNumber
 nsCompatibility

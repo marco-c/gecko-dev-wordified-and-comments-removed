@@ -809,6 +809,12 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
+css
+:
+:
+SheetLoadData
+*
+aLoadData
 uint32_t
 aLineNumber
 nsCompatibility
@@ -860,6 +866,7 @@ Servo_StyleSheet_FromUTF8Bytes
 (
 aLoader
 this
+aLoadData
 aInput
 .
 Elements
@@ -1294,6 +1301,7 @@ mInner
 -
 >
 mPrincipal
+nullptr
 lineNumber
 eCompatibility_FullStandards
 &

@@ -702,6 +702,9 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
+SheetLoadData
+*
+aLoadData
 uint32_t
 aLineNumber
 css
@@ -4978,6 +4981,12 @@ CSSStyleSheet
 >
 mSheet
 ;
+RefPtr
+<
+SheetLoadData
+>
+mLoadData
+;
 css
 :
 :
@@ -5850,6 +5859,9 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
+SheetLoadData
+*
+aLoadData
 uint32_t
 aLineNumber
 css
@@ -6017,6 +6029,10 @@ aSheetURI
 aBaseURI
 aSheetPrincipal
 )
+;
+mLoadData
+=
+aLoadData
 ;
 int32_t
 ruleCount
@@ -6244,6 +6260,10 @@ GetSourceURL
 (
 )
 )
+;
+mLoadData
+=
+nullptr
 ;
 ReleaseScanner
 (
@@ -15271,6 +15291,7 @@ mChildLoader
 LoadChildSheet
 (
 mSheet
+mLoadData
 url
 aMedia
 rule
@@ -76586,6 +76607,9 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
+SheetLoadData
+*
+aLoadData
 uint32_t
 aLineNumber
 css
@@ -76613,6 +76637,7 @@ aInput
 aSheetURI
 aBaseURI
 aSheetPrincipal
+aLoadData
 aLineNumber
 aReusableSheets
 )

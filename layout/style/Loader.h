@@ -826,6 +826,9 @@ LoadChildSheet
 StyleSheet
 *
 aParentSheet
+SheetLoadData
+*
+aParentData
 nsIURI
 *
 aURL

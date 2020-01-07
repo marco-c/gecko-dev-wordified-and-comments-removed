@@ -11232,6 +11232,9 @@ aLoader
 ServoStyleSheet
 *
 aParent
+SheetLoadData
+*
+aParentLoadData
 css
 :
 :
@@ -11399,6 +11402,7 @@ aLoader
 LoadChildSheet
 (
 aParent
+aParentLoadData
 uri
 media
 nullptr
