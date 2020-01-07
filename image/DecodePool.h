@@ -89,6 +89,7 @@ IDecodingTask
 ;
 class
 DecodePool
+final
 :
 public
 nsIObserver
@@ -191,15 +192,6 @@ mImpl
 ;
 Mutex
 mMutex
-;
-nsTArray
-<
-nsCOMPtr
-<
-nsIThread
->
->
-mThreads
 ;
 nsCOMPtr
 <
