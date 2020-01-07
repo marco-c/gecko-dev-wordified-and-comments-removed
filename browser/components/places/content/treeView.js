@@ -7736,12 +7736,6 @@ sortingMode
 let
 newSort
 ;
-let
-newSortingAnnotation
-=
-"
-"
-;
 const
 NHQO
 =
@@ -8103,14 +8097,6 @@ Cr
 NS_ERROR_INVALID_ARG
 ;
 }
-this
-.
-_result
-.
-sortingAnnotation
-=
-newSortingAnnotation
-;
 this
 .
 _result

@@ -596,9 +596,6 @@ nsNavHistoryQueryOptions
 uint16_t
 mSort
 ;
-nsCString
-mSortingAnnotation
-;
 uint16_t
 mResultType
 ;
