@@ -1512,6 +1512,12 @@ clear
 (
 )
 ;
+this
+.
+acceptConnections
+=
+false
+;
 Services
 .
 obs
@@ -1521,12 +1527,6 @@ notifyObservers
 this
 NOTIFY_RUNNING
 )
-;
-this
-.
-acceptConnections
-=
-false
 ;
 this
 .
