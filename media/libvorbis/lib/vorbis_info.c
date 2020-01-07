@@ -1315,6 +1315,9 @@ vi
 >
 bitrate_upper
 =
+(
+ogg_int32_t
+)
 oggpack_read
 (
 opb
@@ -1326,6 +1329,9 @@ vi
 >
 bitrate_nominal
 =
+(
+ogg_int32_t
+)
 oggpack_read
 (
 opb
@@ -1337,6 +1343,9 @@ vi
 >
 bitrate_lower
 =
+(
+ogg_int32_t
+)
 oggpack_read
 (
 opb
@@ -4307,6 +4316,15 @@ if
 b
 )
 {
+if
+(
+vi
+-
+>
+channels
+>
+0
+)
 oggpack_writeclear
 (
 &

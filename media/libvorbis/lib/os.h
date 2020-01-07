@@ -55,7 +55,10 @@ static
 __inline__
 #
 elif
+defined
+(
 _WIN32
+)
 #
 define
 STIN

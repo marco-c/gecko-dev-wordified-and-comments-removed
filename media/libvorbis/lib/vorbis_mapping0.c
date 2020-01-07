@@ -434,17 +434,6 @@ vi
 >
 codec_setup
 ;
-memset
-(
-info
-0
-sizeof
-(
-*
-info
-)
-)
-;
 if
 (
 vi
