@@ -191,6 +191,16 @@ mIsComposing
 ;
 }
 bool
+IsHandlingComposition
+(
+)
+const
+{
+return
+mIsHandlingComposition
+;
+}
+bool
 IsInNativeInputTransaction
 (
 )
@@ -718,6 +728,9 @@ InputTransactionType
 }
 bool
 mIsComposing
+;
+bool
+mIsHandlingComposition
 ;
 bool
 mHasFocus
