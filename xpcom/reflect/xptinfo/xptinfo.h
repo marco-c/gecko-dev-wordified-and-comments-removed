@@ -78,7 +78,7 @@ uint8_t
 val
 )
 {
-flags
+mFlags
 =
 val
 ;
@@ -98,11 +98,11 @@ nsXPTType
 other
 )
 {
-flags
+mFlags
 =
 other
 .
-flags
+mFlags
 ;
 return
 *
@@ -116,7 +116,7 @@ uint8_t
 const
 {
 return
-flags
+mFlags
 ;
 }
 bool
@@ -126,7 +126,7 @@ IsArithmetic
 const
 {
 return
-flags
+mFlags
 <
 =
 T_WCHAR

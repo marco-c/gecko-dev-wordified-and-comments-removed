@@ -971,7 +971,7 @@ type
 .
 prefix
 .
-flags
+mFlags
 )
 {
 case

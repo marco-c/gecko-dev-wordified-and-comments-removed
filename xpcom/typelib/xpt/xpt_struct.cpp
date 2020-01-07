@@ -1721,7 +1721,7 @@ cursor
 tdp
 -
 >
-flags
+mFlags
 )
 ;
 }
