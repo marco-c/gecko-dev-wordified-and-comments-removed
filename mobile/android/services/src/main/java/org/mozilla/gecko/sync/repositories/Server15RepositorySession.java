@@ -196,7 +196,7 @@ BatchingDownloader
 (
 this
 .
-delegateQueue
+fetchWorkQueue
 this
 .
 serverRepository

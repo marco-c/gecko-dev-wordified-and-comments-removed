@@ -514,7 +514,7 @@ fetchModified
 "
 )
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (
@@ -557,7 +557,9 @@ delegate
 throws
 InactiveSessionException
 {
-executeDelegateCommand
+fetchWorkQueue
+.
+execute
 (
 sessionHelper
 .
@@ -638,7 +640,7 @@ since
 "
 )
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (

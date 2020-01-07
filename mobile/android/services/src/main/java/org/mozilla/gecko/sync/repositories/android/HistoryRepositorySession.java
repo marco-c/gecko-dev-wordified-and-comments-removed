@@ -400,7 +400,9 @@ delegate
 throws
 InactiveSessionException
 {
-executeDelegateCommand
+fetchWorkQueue
+.
+execute
 (
 sessionHelper
 .
@@ -489,7 +491,7 @@ timestamp
 "
 )
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (

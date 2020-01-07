@@ -1252,7 +1252,7 @@ onFetchCompleted
 }
 }
 ;
-delegateQueue
+fetchWorkQueue
 .
 execute
 (
