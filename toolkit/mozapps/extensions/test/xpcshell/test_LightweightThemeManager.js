@@ -203,6 +203,8 @@ perm
 )
 ;
 }
+add_task
+(
 async
 function
 run_test
@@ -232,7 +234,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -4811,10 +4814,6 @@ length
 2
 )
 ;
-do_test_pending
-(
-)
-;
 let
 builtInThemeAddon
 =
@@ -5281,8 +5280,6 @@ currentTheme
 null
 )
 ;
-do_test_finished
-(
+}
 )
 ;
-}

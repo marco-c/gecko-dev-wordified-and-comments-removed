@@ -409,7 +409,8 @@ userDisabled
 =
 true
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

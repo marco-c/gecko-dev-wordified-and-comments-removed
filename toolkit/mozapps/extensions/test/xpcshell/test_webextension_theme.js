@@ -180,7 +180,8 @@ THEME_IDS
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

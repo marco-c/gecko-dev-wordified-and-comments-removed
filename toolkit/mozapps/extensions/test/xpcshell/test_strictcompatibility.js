@@ -708,7 +708,8 @@ ADDONS
 )
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon
 [
@@ -1370,7 +1371,8 @@ CHECK_COMPAT_ADDONS
 )
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon
 [

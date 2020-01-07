@@ -23,12 +23,16 @@ XPCShell
 "
 )
 ;
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -293,3 +297,5 @@ types
 )
 ;
 }
+)
+;

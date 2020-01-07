@@ -145,11 +145,13 @@ org
 ;
 add_test
 (
+async
 function
 (
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -219,7 +221,8 @@ Addon
 profileDir
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -365,7 +368,8 @@ function
 (
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -435,7 +439,8 @@ Addon
 profileDir
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

@@ -123,8 +123,11 @@ clear
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -283,7 +286,8 @@ concat
 blacklistPreferences
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -515,3 +519,5 @@ com
 )
 ;
 }
+)
+;

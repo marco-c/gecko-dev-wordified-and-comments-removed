@@ -98,7 +98,8 @@ manager
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -270,7 +271,8 @@ again
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

@@ -93,7 +93,8 @@ function
 (
 )
 {
-writeInstallRDFToXPI
+await
+promiseWriteInstallRDFToXPI
 (
 {
 id
@@ -158,7 +159,8 @@ profileDir
 NORMAL_ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -377,7 +379,8 @@ uninstall
 (
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -391,7 +394,8 @@ function
 (
 )
 {
-writeInstallRDFToXPI
+await
+promiseWriteInstallRDFToXPI
 (
 {
 id
@@ -469,7 +473,8 @@ SYSTEM_ID
 }
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -726,7 +731,8 @@ extension
 "
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;

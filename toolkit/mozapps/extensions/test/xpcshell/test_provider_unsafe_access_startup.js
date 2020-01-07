@@ -202,7 +202,7 @@ registerProvider
 secondProvider
 )
 ;
-startupManager
+promiseStartupManager
 (
 )
 ;

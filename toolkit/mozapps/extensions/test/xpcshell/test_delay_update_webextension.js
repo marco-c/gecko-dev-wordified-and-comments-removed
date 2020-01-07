@@ -239,7 +239,8 @@ delay_updates_ignore
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -755,7 +756,8 @@ delay_updates_complete
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1162,7 +1164,8 @@ delay_updates_defer
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1809,7 +1812,8 @@ runtime_reload
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

@@ -414,7 +414,8 @@ size
 0
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -750,7 +751,8 @@ ID
 profileDir
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

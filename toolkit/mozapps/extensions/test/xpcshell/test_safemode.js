@@ -184,7 +184,8 @@ inSafeMode
 =
 true
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -224,7 +225,8 @@ addon1
 version
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 profileDir

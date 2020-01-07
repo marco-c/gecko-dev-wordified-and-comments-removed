@@ -90,11 +90,16 @@ now
 (
 )
 ;
+async
 function
 run_test
 (
 )
 {
+do_test_pending
+(
+)
+;
 createAppInfo
 (
 "
@@ -120,7 +125,8 @@ XPCShell
 "
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -190,7 +196,8 @@ WINNT_x86
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -259,7 +266,8 @@ spidermonkey
 profileDir
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -322,7 +330,8 @@ profileDir
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -386,10 +395,6 @@ setExtensionModifiedTime
 (
 dest
 gInstallTime
-)
-;
-do_test_pending
-(
 )
 ;
 run_test_1
@@ -623,7 +628,8 @@ run_test_2
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -859,7 +865,8 @@ run_test_3
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -932,7 +939,8 @@ remove
 true
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1083,7 +1091,8 @@ version
 "
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;

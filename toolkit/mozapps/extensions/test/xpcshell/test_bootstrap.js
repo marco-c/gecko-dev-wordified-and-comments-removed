@@ -2977,6 +2977,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 manuallyInstall
 (
 XPIS
@@ -3984,6 +3985,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 manuallyInstall
 (
 XPIS
@@ -4486,6 +4488,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 manuallyInstall
 (
 XPIS
@@ -5300,6 +5303,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 manuallyInstall
 (
 XPIS
@@ -5780,6 +5784,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 manuallyInstall
 (
 XPIS
@@ -6139,6 +6144,7 @@ promiseShutdownManager
 let
 file
 =
+await
 manuallyInstall
 (
 XPIS
@@ -6284,6 +6290,7 @@ clear
 ID1
 )
 ;
+await
 manuallyInstall
 (
 XPIS

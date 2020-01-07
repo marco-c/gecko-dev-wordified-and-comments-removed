@@ -88,7 +88,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

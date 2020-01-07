@@ -2222,7 +2222,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -2800,7 +2801,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 sampleRDFManifest
 tempdir
@@ -2866,7 +2868,8 @@ installTemporaryAddon
 unpackedAddon
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -3142,7 +3145,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 sampleRDFManifest
 tempdir
@@ -3208,7 +3212,8 @@ installTemporaryAddon
 unpackedAddon
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 Object
 .
@@ -3456,7 +3461,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 sampleRDFManifest
 tempdir
@@ -3918,7 +3924,8 @@ clone
 (
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id

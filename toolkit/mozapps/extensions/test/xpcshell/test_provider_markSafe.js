@@ -135,7 +135,8 @@ registerProvider
 provider
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -200,7 +201,8 @@ registerProvider
 provider
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

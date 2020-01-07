@@ -36,7 +36,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -69,7 +70,8 @@ run_test_1
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -127,11 +129,13 @@ run_test_2
 (
 )
 {
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -168,7 +172,8 @@ run_test_3
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

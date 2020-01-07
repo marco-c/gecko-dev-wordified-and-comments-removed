@@ -109,6 +109,7 @@ plugin
 )
 ;
 }
+async
 function
 run_test
 (
@@ -180,7 +181,8 @@ nsIPluginTag
 STATE_CLICKTOPLAY
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1130,7 +1132,8 @@ run_test_4
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

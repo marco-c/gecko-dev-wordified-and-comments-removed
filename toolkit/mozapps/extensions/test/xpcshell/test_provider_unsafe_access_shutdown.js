@@ -172,7 +172,8 @@ registerProvider
 secondProvider
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

@@ -1247,7 +1247,8 @@ test_bad_pointer_id
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 sourceDir
@@ -1307,7 +1308,8 @@ version
 "
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon2
 sourceDir
@@ -1433,7 +1435,8 @@ test_remove_pointer
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 sourceDir
@@ -1631,7 +1634,8 @@ remove
 false
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1_2
 profileDir
@@ -1748,7 +1752,8 @@ version
 "
 )
 ;
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1_2
 sourceDir
@@ -1819,7 +1824,8 @@ promiseRestartManager
 var
 dest
 =
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 sourceDir
@@ -1938,7 +1944,8 @@ test_new_relative_pointer
 (
 )
 {
-writeInstallRDFForExtension
+await
+promiseWriteInstallRDFForExtension
 (
 addon1
 sourceDir

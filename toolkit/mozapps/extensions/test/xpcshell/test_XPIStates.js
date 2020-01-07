@@ -56,7 +56,16 @@ run_next_test
 )
 ;
 }
-writeInstallRDFToXPI
+add_task
+(
+async
+function
+setup
+(
+)
+{
+await
+promiseWriteInstallRDFToXPI
 (
 {
 id
@@ -117,7 +126,8 @@ Enabled
 profileDir
 )
 ;
-writeInstallRDFToXPI
+await
+promiseWriteInstallRDFToXPI
 (
 {
 id
@@ -178,7 +188,8 @@ Disabled
 profileDir
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -248,7 +259,8 @@ js
 "
 )
 ;
-writeInstallRDFToDir
+await
+promiseWriteInstallRDFToDir
 (
 {
 id
@@ -316,6 +328,9 @@ extraFile
 .
 js
 "
+)
+;
+}
 )
 ;
 var
@@ -461,7 +476,8 @@ detect_touches
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

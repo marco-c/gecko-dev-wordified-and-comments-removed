@@ -264,7 +264,16 @@ identity
 .
 primaryPort
 ;
-writeInstallRDFForExtension
+add_task
+(
+async
+function
+setup
+(
+)
+{
+await
+promiseWriteInstallRDFForExtension
 (
 {
 id
@@ -345,6 +354,9 @@ Addon
 profileDir
 )
 ;
+}
+)
+;
 add_task
 (
 async
@@ -353,7 +365,8 @@ cancel_during_check
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -585,7 +598,8 @@ httpReceived
 .
 promise
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;

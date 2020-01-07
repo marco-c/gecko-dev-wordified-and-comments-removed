@@ -104,6 +104,7 @@ icon64
 png
 "
 ;
+async
 function
 run_test
 (
@@ -138,7 +139,8 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

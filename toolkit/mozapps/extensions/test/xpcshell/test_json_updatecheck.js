@@ -363,7 +363,8 @@ test_default_values
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

@@ -447,8 +447,11 @@ active_version
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -473,11 +476,13 @@ XPCShell
 "
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;
@@ -485,11 +490,9 @@ resetPrefs
 (
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 async
@@ -500,6 +503,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -516,7 +520,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -624,6 +629,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -645,7 +651,8 @@ breakAddon
 file
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -753,6 +760,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -769,7 +777,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -877,6 +886,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -908,7 +918,8 @@ now
 600000
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -999,7 +1010,8 @@ resetPrefs
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1139,6 +1151,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -1155,7 +1168,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1265,6 +1279,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -1286,7 +1301,8 @@ breakAddon
 file
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1396,6 +1412,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -1412,7 +1429,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1522,6 +1540,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -1772,7 +1791,8 @@ function
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1842,7 +1862,8 @@ breakAddon
 staged
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1904,6 +1925,7 @@ staged
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -1925,7 +1947,8 @@ breakAddon
 file
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1996,6 +2019,7 @@ function
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -2012,7 +2036,8 @@ profileDir
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -2137,6 +2162,7 @@ staged
 let
 file
 =
+await
 manuallyInstall
 (
 do_get_file
@@ -2153,7 +2179,8 @@ stage
 ID
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

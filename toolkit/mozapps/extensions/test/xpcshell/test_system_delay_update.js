@@ -755,7 +755,8 @@ NORMAL_ID
 }
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1193,7 +1194,7 @@ extension
 )
 ;
 await
-shutdownManager
+promiseShutdownManager
 (
 )
 ;
@@ -1289,7 +1290,8 @@ NORMAL_ID
 }
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -1885,7 +1887,7 @@ extension
 )
 ;
 await
-shutdownManager
+promiseShutdownManager
 (
 )
 ;
@@ -1981,7 +1983,8 @@ NORMAL_ID
 }
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -2599,7 +2602,7 @@ extension
 )
 ;
 await
-shutdownManager
+promiseShutdownManager
 (
 )
 ;
@@ -2695,7 +2698,8 @@ DEFER_ALSO_ID
 }
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -3484,7 +3488,7 @@ extension
 )
 ;
 await
-shutdownManager
+promiseShutdownManager
 (
 )
 ;

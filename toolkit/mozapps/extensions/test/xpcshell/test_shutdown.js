@@ -445,11 +445,13 @@ test_functions
 (
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
-shutdownManager
+await
+promiseShutdownManager
 (
 )
 ;

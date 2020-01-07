@@ -85,7 +85,8 @@ function
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -228,7 +229,8 @@ gExtensionsJSON
 path
 )
 ;
-startupManager
+await
+promiseStartupManager
 (
 )
 ;

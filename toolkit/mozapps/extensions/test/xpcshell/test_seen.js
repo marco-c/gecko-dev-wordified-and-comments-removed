@@ -457,6 +457,7 @@ ID
 let
 path
 =
+await
 manuallyInstall
 (
 do_get_addon
@@ -622,6 +623,7 @@ function
 let
 path
 =
+await
 manuallyInstall
 (
 do_get_addon
@@ -736,6 +738,7 @@ profileDir
 ID
 )
 ;
+await
 manuallyInstall
 (
 do_get_addon
@@ -828,6 +831,7 @@ function
 let
 path
 =
+await
 manuallyInstall
 (
 do_get_addon
@@ -1070,6 +1074,7 @@ function
 let
 path
 =
+await
 manuallyInstall
 (
 do_get_addon
@@ -1198,6 +1203,7 @@ profileDir
 ID
 )
 ;
+await
 manuallyInstall
 (
 do_get_addon
@@ -1289,6 +1295,7 @@ function
 let
 path
 =
+await
 manuallyInstall
 (
 do_get_addon
