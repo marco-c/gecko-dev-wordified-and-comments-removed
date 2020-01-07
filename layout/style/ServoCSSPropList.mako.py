@@ -439,6 +439,18 @@ Length
 "
     
 "
+LengthOrPercentage
+"
+    
+"
+NonNegativeLength
+"
+    
+"
+NonNegativeLengthOrPercentage
+"
+    
+"
 ListStyleType
 "
     
