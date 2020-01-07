@@ -3367,6 +3367,13 @@ async
 normalizeManifest
 (
 manifest
+manifestType
+=
+"
+manifest
+.
+WebExtensionManifest
+"
 baseManifest
 =
 BASE_MANIFEST
@@ -3432,11 +3439,7 @@ Schemas
 normalize
 (
 manifest
-"
-manifest
-.
-WebExtensionManifest
-"
+manifestType
 context
 )
 ;
