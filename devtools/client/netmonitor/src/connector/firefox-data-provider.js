@@ -989,7 +989,6 @@ actor
 )
 ;
 }
-async
 onNetworkEventUpdate
 (
 type
@@ -1162,6 +1161,7 @@ networkInfo
 totalTime
 !
 =
+=
 "
 undefined
 "
@@ -1182,15 +1182,6 @@ totalTime
 )
 ;
 }
-await
-this
-.
-_requestData
-(
-actor
-updateType
-)
-;
 break
 ;
 }
