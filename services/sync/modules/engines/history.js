@@ -1228,11 +1228,14 @@ getObservers
 (
 )
 ;
-function
+const
 notifyHistoryObservers
+=
 (
 notification
 )
+=
+>
 {
 for
 (
@@ -1274,6 +1277,7 @@ ex
 }
 }
 }
+;
 notifyHistoryObservers
 (
 "
