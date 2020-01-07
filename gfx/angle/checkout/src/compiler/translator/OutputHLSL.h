@@ -77,6 +77,8 @@ compiler
 /
 translator
 /
+tree_util
+/
 IntermTraverse
 .
 h
@@ -471,11 +473,9 @@ TIntermCase
 )
 override
 ;
-bool
+void
 visitFunctionPrototype
 (
-Visit
-visit
 TIntermFunctionPrototype
 *
 node
@@ -603,9 +603,9 @@ void
 writeParameter
 (
 const
-TIntermSymbol
+TVariable
 *
-symbol
+param
 TInfoSinkBase
 &
 out

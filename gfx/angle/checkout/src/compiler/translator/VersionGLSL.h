@@ -11,6 +11,8 @@ compiler
 /
 translator
 /
+tree_util
+/
 IntermTraverse
 .
 h
@@ -182,10 +184,9 @@ node
 )
 override
 ;
-bool
+void
 visitFunctionPrototype
 (
-Visit
 TIntermFunctionPrototype
 *
 node

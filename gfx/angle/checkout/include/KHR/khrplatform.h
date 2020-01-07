@@ -41,15 +41,6 @@ defined
 __ANDROID__
 )
 #
-include
-<
-sys
-/
-cdefs
-.
-h
->
-#
 define
 KHRONOS_APICALL
 __attribute__
@@ -63,7 +54,6 @@ default
 )
 )
 )
-__NDK_FPABI__
 #
 else
 #

@@ -405,6 +405,9 @@ while
 ;
 #
 define
+YY_NO_INPUT
+#
+define
 YY_USER_ACTION
 \
 do
