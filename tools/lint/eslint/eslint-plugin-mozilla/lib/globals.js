@@ -36,12 +36,14 @@ helpers
 )
 ;
 const
-escope
+eslintScope
 =
 require
 (
 "
-escope
+eslint
+-
+scope
 "
 )
 ;
@@ -678,7 +680,7 @@ content
 let
 scopeManager
 =
-escope
+eslintScope
 .
 analyze
 (
