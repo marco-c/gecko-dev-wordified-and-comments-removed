@@ -1218,6 +1218,11 @@ aCallID
 windowID
 :
 aWindowID
+origin
+:
+aContentWindow
+.
+origin
 documentURI
 :
 aContentWindow
