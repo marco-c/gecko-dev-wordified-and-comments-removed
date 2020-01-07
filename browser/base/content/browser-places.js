@@ -2630,11 +2630,8 @@ window
 ;
 }
 showPlacesOrganizer
-:
-function
-PCH_showPlacesOrganizer
 (
-aLeftPaneRoot
+item
 )
 {
 var
@@ -2693,7 +2690,7 @@ dialog
 no
 resizable
 "
-aLeftPaneRoot
+item
 )
 ;
 }
@@ -2705,7 +2702,7 @@ PlacesOrganizer
 .
 selectLeftPaneContainerByHierarchy
 (
-aLeftPaneRoot
+item
 )
 ;
 organizer
