@@ -85,7 +85,7 @@ AutoEditInitRulesTrigger
 ;
 enum
 class
-EditAction
+EditSubAction
 :
 int32_t
 ;
@@ -528,11 +528,11 @@ aCaretStyle
 protected
 :
 virtual
-nsresult
-StartOperation
+void
+OnStartToHandleTopLevelEditSubAction
 (
-EditAction
-opID
+EditSubAction
+aEditSubAction
 nsIEditor
 :
 :
@@ -542,8 +542,8 @@ aDirection
 override
 ;
 virtual
-nsresult
-EndOperation
+void
+OnEndHandlingTopLevelEditSubAction
 (
 )
 override

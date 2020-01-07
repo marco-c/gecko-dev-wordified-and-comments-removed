@@ -8075,7 +8075,7 @@ mEditorInitialized
 mTextEditor
 -
 >
-IsInEditAction
+IsInEditSubAction
 (
 )
 )

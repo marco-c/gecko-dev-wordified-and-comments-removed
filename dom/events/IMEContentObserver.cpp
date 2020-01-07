@@ -6672,7 +6672,7 @@ mEditorBase
 mEditorBase
 -
 >
-IsInEditAction
+IsInEditSubAction
 (
 )
 )
