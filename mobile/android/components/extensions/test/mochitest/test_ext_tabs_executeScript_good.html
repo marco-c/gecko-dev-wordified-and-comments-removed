@@ -162,8 +162,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testHasPermission
 (
 params
@@ -360,14 +360,14 @@ ran
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -384,7 +384,7 @@ params
 setup
 )
 {
-yield
+await
 params
 .
 setup
@@ -404,7 +404,7 @@ script
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -421,7 +421,7 @@ params
 tearDown
 )
 {
-yield
+await
 params
 .
 tearDown
@@ -430,7 +430,7 @@ extension
 )
 ;
 }
-yield
+await
 extension
 .
 unload
