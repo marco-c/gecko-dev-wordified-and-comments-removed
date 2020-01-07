@@ -1632,16 +1632,6 @@ return
 mIsSecureContext
 ;
 }
-bool
-IsInAutomation
-(
-)
-const
-{
-return
-mIsInAutomation
-;
-}
 TimeStamp
 CreationTimeStamp
 (
@@ -3791,9 +3781,6 @@ mIsSecureContext
 ;
 bool
 mDebuggerRegistered
-;
-bool
-mIsInAutomation
 ;
 }
 ;
