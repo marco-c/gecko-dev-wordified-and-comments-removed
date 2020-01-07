@@ -61,12 +61,6 @@ TransformSequence
 transforms
 .
 add
-(
-check_if_partners_enabled
-)
-transforms
-.
-add
 def
 resolve_properties
 (
@@ -413,3 +407,9 @@ dependencies
         
 yield
 task
+transforms
+.
+add
+(
+check_if_partners_enabled
+)
