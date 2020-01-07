@@ -448,12 +448,6 @@ pseudo
 -
 element
 :
-fails
--
-if
-(
-Android
-)
 =
 =
 moz
