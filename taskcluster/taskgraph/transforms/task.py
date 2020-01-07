@@ -4272,6 +4272,10 @@ project
 :
 taskcluster
 :
+{
+trust_domain
+}
+:
 level
 -
 {
@@ -4285,6 +4289,19 @@ buckets
 .
 format
 (
+                
+trust_domain
+=
+config
+.
+graph_config
+[
+'
+trust
+-
+domain
+'
+]
                 
 level
 =
