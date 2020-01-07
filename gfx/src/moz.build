@@ -276,6 +276,11 @@ FontPropertyTypes
 .
 h
 '
+'
+RelativeLuminanceUtils
+.
+h
+'
 ]
 EXPORTS
 .
