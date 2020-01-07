@@ -9478,10 +9478,6 @@ cursor
 next
 ;
 }
-aIsAsync
-=
-true
-;
 return
 cursor
 ;
@@ -44878,6 +44874,16 @@ DisplayItemType
 TYPE_TRANSFORM
 )
 ;
+if
+(
+aBuilder
+-
+>
+IsRetainingDisplayList
+(
+)
+)
+{
 mTransformFrame
 -
 >
@@ -44886,6 +44892,7 @@ AddDisplayItem
 this
 )
 ;
+}
 }
 already_AddRefed
 <
