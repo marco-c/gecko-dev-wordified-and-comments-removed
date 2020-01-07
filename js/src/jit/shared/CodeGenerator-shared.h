@@ -1555,6 +1555,11 @@ rbegin
 )
 -
 >
+toGoto
+(
+)
+-
+>
 getSuccessor
 (
 0
