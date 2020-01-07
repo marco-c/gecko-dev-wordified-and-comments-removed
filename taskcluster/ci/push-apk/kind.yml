@@ -100,6 +100,10 @@ push
 apk
 -
 breakpoint
+-
+beetmover
+-
+checksums
 jobs
 :
 push
