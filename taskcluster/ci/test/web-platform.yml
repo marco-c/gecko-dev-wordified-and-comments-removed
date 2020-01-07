@@ -21,6 +21,15 @@ script
 web_platform_tests
 .
 py
+no
+-
+read
+-
+buildbot
+-
+config
+:
+true
 config
 :
 by

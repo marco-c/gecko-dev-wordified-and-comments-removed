@@ -69,6 +69,15 @@ script
 talos_script
 .
 py
+no
+-
+read
+-
+buildbot
+-
+config
+:
+true
 config
 :
 by
