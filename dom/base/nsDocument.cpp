@@ -30908,16 +30908,6 @@ false
 ;
 }
 }
-enum
-class
-StyleDataType
-{
-InlineStyle
-SMILOverride
-RestyleBits
-ServoData
-}
-;
 nsINode
 *
 nsIDocument
