@@ -42,6 +42,10 @@ WINVER
 #
 include
 "
+mozilla
+/
+gfx
+/
 dw
 -
 extra
