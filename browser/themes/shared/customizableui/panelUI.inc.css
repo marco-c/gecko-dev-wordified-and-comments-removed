@@ -5652,9 +5652,11 @@ float
 :
 right
 ;
-color
+opacity
 :
-GrayText
+0
+.
+5
 ;
 }
 .
