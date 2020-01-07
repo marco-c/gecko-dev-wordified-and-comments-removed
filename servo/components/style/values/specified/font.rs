@@ -219,9 +219,6 @@ font
 :
 :
 {
-KeywordInfo
-as
-GenericKeywordInfo
 KeywordSize
 VariationValue
 }
@@ -3511,7 +3508,10 @@ pub
 type
 KeywordInfo
 =
-GenericKeywordInfo
+generics
+:
+:
+KeywordInfo
 <
 NonNegativeLength
 >
