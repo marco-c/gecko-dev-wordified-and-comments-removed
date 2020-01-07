@@ -79,6 +79,13 @@ nullable
 :
 boolean
 "
+evalResultAsGrip
+:
+"
+nullable
+:
+boolean
+"
 toolboxSelectedNodeActorID
 :
 "
@@ -160,6 +167,13 @@ webExtensionEvalResult
 "
 {
 value
+:
+"
+nullable
+:
+json
+"
+valueGrip
 :
 "
 nullable
