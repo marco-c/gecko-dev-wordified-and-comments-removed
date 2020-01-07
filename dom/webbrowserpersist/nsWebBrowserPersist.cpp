@@ -5271,6 +5271,11 @@ NS_ENSURE_ARG_POINTER
 aFile
 )
 ;
+NS_ENSURE_ARG_POINTER
+(
+aTriggeringPrincipal
+)
+;
 nsresult
 rv
 =
