@@ -1705,6 +1705,7 @@ nsAtom
 aBlockTag
 )
 ;
+MOZ_MUST_USE
 nsresult
 MakeBlockquote
 (
