@@ -124,11 +124,11 @@ nsIContentPolicy
 .
 idl
 "
-interface
-nsIDOMNode
-;
 webidl
 DragEvent
+;
+webidl
+Node
 ;
 webidl
 Selection
@@ -390,7 +390,7 @@ void
 invokeDragSession
 (
 in
-nsIDOMNode
+Node
 aDOMNode
 in
 AUTF8String
@@ -702,7 +702,7 @@ void
 invokeDragSessionWithImage
 (
 in
-nsIDOMNode
+Node
 aDOMNode
 in
 AUTF8String
@@ -718,7 +718,7 @@ unsigned
 long
 aActionType
 in
-nsIDOMNode
+Node
 aImage
 in
 long

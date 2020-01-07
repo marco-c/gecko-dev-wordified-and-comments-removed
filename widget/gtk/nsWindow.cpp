@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -12029,7 +12029,7 @@ shouldRollup
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 sourceNode
 ;

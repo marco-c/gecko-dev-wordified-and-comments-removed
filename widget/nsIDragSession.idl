@@ -123,14 +123,14 @@ nsSize
 nsSize
 )
 ;
-interface
-nsIDOMNode
-;
 webidl
 DataTransfer
 ;
 webidl
 Document
+;
+webidl
+Node
 ;
 [
 scriptable
@@ -381,7 +381,7 @@ application
 /
 readonly
 attribute
-nsIDOMNode
+Node
 sourceNode
 ;
 /
@@ -652,7 +652,7 @@ void
 updateDragImage
 (
 in
-nsIDOMNode
+Node
 aImage
 in
 long

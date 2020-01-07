@@ -108,10 +108,10 @@ class
 nsIContent
 ;
 class
-nsIDOMNode
+nsIDocument
 ;
 class
-nsIDocument
+nsINode
 ;
 class
 nsPresContext
@@ -244,7 +244,7 @@ aActionType
 nsresult
 DrawDrag
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion
@@ -378,7 +378,7 @@ mTargetSize
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mSourceNode
 ;
@@ -408,7 +408,7 @@ mDataTransfer
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mImage
 ;

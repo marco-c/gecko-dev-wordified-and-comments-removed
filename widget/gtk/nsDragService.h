@@ -201,7 +201,7 @@ override
 NS_IMETHOD
 InvokeDragSession
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 const

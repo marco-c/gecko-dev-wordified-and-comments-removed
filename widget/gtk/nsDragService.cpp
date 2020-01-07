@@ -1238,7 +1238,7 @@ nsDragService
 :
 InvokeDragSession
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 const

@@ -103,7 +103,7 @@ override
 NS_IMETHOD
 UpdateDragImage
 (
-nsIDOMNode
+nsINode
 *
 aImage
 int32_t
@@ -170,7 +170,7 @@ NSImage
 *
 ConstructDragImage
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion
@@ -185,7 +185,7 @@ NSImage
 *
 ConstructDragImage
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion

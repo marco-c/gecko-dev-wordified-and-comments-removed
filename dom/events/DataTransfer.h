@@ -105,6 +105,9 @@ File
 h
 "
 class
+nsIDOMNode
+;
+class
 nsINode
 ;
 class

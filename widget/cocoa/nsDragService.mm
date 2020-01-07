@@ -203,7 +203,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -467,7 +467,7 @@ nsDragService
 :
 ConstructDragImage
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion
@@ -759,7 +759,7 @@ nsDragService
 :
 ConstructDragImage
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion
@@ -3896,7 +3896,7 @@ nsDragService
 :
 UpdateDragImage
 (
-nsIDOMNode
+nsINode
 *
 aImage
 int32_t

@@ -2507,7 +2507,7 @@ SourceSurface
 >
 RenderNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 nsIntRegion
