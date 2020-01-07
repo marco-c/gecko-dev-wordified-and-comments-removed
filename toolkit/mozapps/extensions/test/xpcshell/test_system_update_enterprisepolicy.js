@@ -311,7 +311,7 @@ policies
 :
 {
 "
-DisableSysAddonUpdate
+DisableSystemAddonUpdate
 "
 :
 true

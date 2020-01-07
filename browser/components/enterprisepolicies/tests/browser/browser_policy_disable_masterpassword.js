@@ -341,10 +341,10 @@ policies
 :
 {
 "
-CreateMasterPassword
+DisableMasterPasswordCreation
 "
 :
-false
+true
 }
 }
 )
