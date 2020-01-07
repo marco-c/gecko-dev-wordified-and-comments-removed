@@ -518,6 +518,7 @@ RemoveRedundantTrailingBR
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 CreateTrailingBRIfNeeded
 (
