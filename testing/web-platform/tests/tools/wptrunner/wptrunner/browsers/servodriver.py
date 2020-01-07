@@ -298,14 +298,6 @@ test
 "
             
 "
-bind_hostname
-"
-:
-"
-true
-"
-            
-"
 testharnessreport
 "
 :

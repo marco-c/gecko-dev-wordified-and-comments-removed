@@ -820,9 +820,7 @@ test
 bind_hostname
 "
 :
-"
-false
-"
+False
             
 "
 certificate_domain

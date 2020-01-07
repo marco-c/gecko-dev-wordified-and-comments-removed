@@ -492,13 +492,6 @@ env_options
     
 return
 {
-"
-bind_hostname
-"
-:
-"
-true
-"
 }
 class
 ChromeAndroidBrowser
