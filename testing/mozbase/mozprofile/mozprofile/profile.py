@@ -787,7 +787,7 @@ user_js
         
 self
 .
-addon_manager
+addons
 =
 AddonManager
 (
@@ -803,9 +803,9 @@ restore
         
 self
 .
-addon_manager
+addons
 .
-install_addons
+install
 (
 self
 .

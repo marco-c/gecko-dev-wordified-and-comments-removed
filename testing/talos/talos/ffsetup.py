@@ -824,9 +824,9 @@ extensions
         
 profile
 .
-addon_manager
+addons
 .
-install_addons
+install
 (
 extensions
 )
@@ -956,9 +956,9 @@ filename
                 
 profile
 .
-addon_manager
+addons
 .
-install_from_path
+install
 (
 filename
 )

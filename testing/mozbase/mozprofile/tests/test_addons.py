@@ -121,7 +121,7 @@ self
 .
 profile
 .
-addon_manager
+addons
         
 self
 .
@@ -156,7 +156,7 @@ tmpdir
 )
     
 def
-test_install_addons_multiple_same_source
+test_install_multiple_same_source
 (
 self
 )
@@ -214,7 +214,7 @@ self
 .
 am
 .
-install_addons
+install
 (
 [
 addon_folder
@@ -248,7 +248,7 @@ self
 .
 am
 .
-install_addons
+install
 (
 [
 addon_xpi
@@ -282,7 +282,7 @@ self
 .
 am
 .
-install_addons
+install
 (
 [
 addon_folder
@@ -399,7 +399,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 self
 .
@@ -474,7 +474,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon
 )
@@ -619,7 +619,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon
 )
@@ -728,7 +728,7 @@ id
 )
     
 def
-test_install_from_path_xpi
+test_install_xpi
 (
 self
 )
@@ -806,7 +806,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 temp_addon
 )
@@ -872,7 +872,7 @@ sort
 )
     
 def
-test_install_from_path_folder
+test_install_folder
 (
 self
 )
@@ -1017,7 +1017,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 self
 .
@@ -1037,7 +1037,7 @@ addons
 )
     
 def
-test_install_from_path_unpack
+test_install_unpack
 (
 self
 )
@@ -1117,7 +1117,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_xpi
 )
@@ -1148,7 +1148,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_folder
 )
@@ -1179,7 +1179,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_no_unpack
 unpack
@@ -1210,7 +1210,7 @@ clean
 )
     
 def
-test_install_from_path_after_reset
+test_install_after_reset
 (
 self
 )
@@ -1245,9 +1245,9 @@ self
 .
 profile
 .
-addon_manager
+addons
 .
-install_from_path
+install
 (
 addon
 )
@@ -1264,9 +1264,9 @@ self
 .
 profile
 .
-addon_manager
+addons
 .
-install_from_path
+install
 (
 addon
 )
@@ -1279,7 +1279,7 @@ self
 .
 profile
 .
-addon_manager
+addons
 .
 installed_addons
 [
@@ -1288,7 +1288,7 @@ addon
 )
     
 def
-test_install_from_path_backup
+test_install_backup
 (
 self
 )
@@ -1399,7 +1399,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_xpi
 )
@@ -1419,7 +1419,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_xpi
 )
@@ -1513,7 +1513,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_folder
 )
@@ -1533,7 +1533,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_folder
 )
@@ -1623,7 +1623,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_name
 )
@@ -1643,7 +1643,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 addon_xpi
 )
@@ -1734,7 +1734,7 @@ clean
 )
     
 def
-test_install_from_path_invalid_addons
+test_install_invalid_addons
 (
 self
 )
@@ -1811,7 +1811,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 self
 .
@@ -1847,7 +1847,7 @@ AddonManger
 )
     
 def
-test_install_from_path_error
+test_install_error
 (
 self
 )
@@ -1857,7 +1857,7 @@ self
 "
 "
 Check
-install_from_path
+install
 raises
 an
 error
@@ -1891,7 +1891,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 temp_addon
 )
@@ -2163,7 +2163,7 @@ self
 .
 am
 .
-install_addons
+install
 (
 addon_one
 )
@@ -2235,7 +2235,7 @@ addon_two
         
 duplicate_profile
 .
-addon_manager
+addons
 .
 clean
 (
@@ -2408,7 +2408,7 @@ addons
                 
 am
 .
-install_from_path
+install
 (
 addon
 )
@@ -2605,7 +2605,7 @@ self
 .
 am
 .
-install_from_path
+install
 (
 self
 .
