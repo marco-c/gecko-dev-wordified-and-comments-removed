@@ -95,7 +95,7 @@ get_pr
 (
 repo
 owner
-rev
+sha
 )
 :
     
@@ -143,7 +143,7 @@ s
 (
 repo
 owner
-rev
+sha
 )
 )
     
@@ -269,8 +269,11 @@ No
 PR
 found
 for
-master
+%
+s
 "
+%
+sha
 )
         
 return
@@ -294,8 +297,11 @@ Found
 multiple
 PRs
 for
-master
+%
+s
 "
+%
+sha
 )
     
 pr
@@ -484,6 +490,7 @@ e
 )
         
 return
+False
     
 if
 resp
@@ -510,24 +517,31 @@ resp
 .
 code
 )
-    
-else
-:
         
+return
+False
+    
 logger
 .
 info
 (
 "
 Tagged
-master
+%
+s
 as
 %
 s
 "
 %
+(
+sha
 tag
 )
+)
+    
+return
+True
 def
 main
 (
@@ -650,10 +664,18 @@ head_rev
 if
 pr
 is
-not
 None
 :
         
+sys
+.
+exit
+(
+1
+)
+    
+tagged
+=
 tag
 (
 owner
@@ -666,6 +688,18 @@ s
 "
 %
 pr
+)
+    
+if
+not
+tagged
+:
+        
+sys
+.
+exit
+(
+1
 )
 if
 __name__
