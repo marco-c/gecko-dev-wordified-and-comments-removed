@@ -10,8 +10,6 @@ import
 subprocess
 import
 sys
-import
-buildconfig
 has_failed
 =
 False
@@ -119,26 +117,12 @@ parse_args
 (
 )
     
-nm
-=
-buildconfig
-.
-substs
-.
-get
-(
-'
-NM
-'
-'
-nm
-'
-)
-    
 cmd
 =
 [
+'
 nm
+'
 '
 -
 u
