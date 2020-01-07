@@ -889,7 +889,7 @@ return
 mCompositeUntilTime
 ;
 }
-uint32_t
+uint64_t
 GetCompositorBridgeID
 (
 )
@@ -902,7 +902,7 @@ mCompositorBridgeID
 void
 SetCompositorBridgeID
 (
-uint32_t
+uint64_t
 aID
 )
 {
@@ -956,7 +956,7 @@ Diagnostics
 >
 mDiagnostics
 ;
-uint32_t
+uint64_t
 mCompositorBridgeID
 ;
 bool
