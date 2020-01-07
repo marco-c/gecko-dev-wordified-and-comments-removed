@@ -699,11 +699,6 @@ let
 inline_size_computer
 =
 InternalTable
-{
-border_collapse
-:
-border_collapse
-}
 ;
 inline_size_computer
 .
