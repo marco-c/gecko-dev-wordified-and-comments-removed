@@ -2219,8 +2219,6 @@ Encoding
 >
 aEncoding
 )
-=
-0
 ;
 int32_t
 GetDocumentCharacterSetSource
@@ -2346,8 +2344,6 @@ nsAString
 &
 aContentType
 )
-=
-0
 ;
 void
 GetContentLanguage
