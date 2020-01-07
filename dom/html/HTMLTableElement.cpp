@@ -4424,6 +4424,15 @@ if
 value
 &
 &
+!
+aData
+-
+>
+ShouldIgnoreColors
+(
+)
+&
+&
 value
 -
 >

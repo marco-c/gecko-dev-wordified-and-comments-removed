@@ -1253,6 +1253,15 @@ PropertyIsSet
 (
 eCSSProperty_color
 )
+&
+&
+!
+aData
+-
+>
+ShouldIgnoreColors
+(
+)
 )
 {
 nscolor
