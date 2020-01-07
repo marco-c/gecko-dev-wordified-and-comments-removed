@@ -373,6 +373,27 @@ rendering
     
 CommandArgument
 (
+'
+-
+-
+bin
+'
+default
+=
+None
+                     
+help
+=
+'
+Launch
+with
+specific
+binary
+'
+)
+    
+CommandArgument
+(
         
 '
 params
@@ -431,6 +452,9 @@ False
 software
 =
 False
+bin
+=
+None
 )
 :
         
@@ -717,6 +741,8 @@ wait
 args
 =
 [
+bin
+or
 self
 .
 get_binary_path
@@ -1250,6 +1276,27 @@ build
     
 CommandArgument
 (
+'
+-
+-
+bin
+'
+default
+=
+None
+                     
+help
+=
+'
+Launch
+with
+specific
+binary
+'
+)
+    
+CommandArgument
+(
         
 '
 params
@@ -1288,6 +1335,9 @@ False
 dev
 =
 False
+bin
+=
+None
 params
 =
 [
@@ -1317,6 +1367,8 @@ RUST_BACKTRACE
 servo_cmd
 =
 [
+bin
+or
 self
 .
 get_binary_path
