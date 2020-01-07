@@ -347,7 +347,6 @@ oom_with_hook
 '
 ]
 elif
-not
 CONFIG
 [
 '
@@ -365,7 +364,7 @@ builds
 on
 automation
 to
-unwillingly
+unwittingly
 stop
 annotating
 OOM
