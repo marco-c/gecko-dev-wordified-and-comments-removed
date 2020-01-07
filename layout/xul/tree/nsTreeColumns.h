@@ -691,7 +691,7 @@ nsTreeColumns
 final
 :
 public
-nsITreeColumns
+nsISupports
 public
 nsWrapperCache
 {
@@ -717,7 +717,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsTreeColumns
 )
-NS_DECL_NSITREECOLUMNS
 nsIContent
 *
 GetParentObject
@@ -878,6 +877,16 @@ nsString
 >
 &
 aNames
+)
+;
+void
+InvalidateColumns
+(
+)
+;
+void
+RestoreNaturalOrder
+(
 )
 ;
 friend
