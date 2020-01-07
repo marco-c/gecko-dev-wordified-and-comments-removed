@@ -26161,6 +26161,15 @@ IsUsedFlexBasisContent
 flexBasis
 mainAxisCoord
 )
+&
+&
+MOZ_LIKELY
+(
+!
+IsTableWrapperFrame
+(
+)
+)
 )
 {
 static
