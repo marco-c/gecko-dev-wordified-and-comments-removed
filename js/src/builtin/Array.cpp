@@ -4001,6 +4001,15 @@ MaybeInIteration
 arr
 cx
 )
+&
+&
+!
+arr
+-
+>
+denseElementsAreSealed
+(
+)
 )
 {
 if
