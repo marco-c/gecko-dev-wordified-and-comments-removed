@@ -3744,6 +3744,15 @@ AssertIsOnMainThread
 (
 )
 ;
+if
+(
+mInnerObjectsFreed
+)
+{
+return
+0
+;
+}
 uint32_t
 handle
 =
