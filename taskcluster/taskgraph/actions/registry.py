@@ -1501,16 +1501,20 @@ yml
 '
 )
                 
-if
-not
-isinstance
-(
+tasks
+=
 taskcluster_yml
 [
 '
 tasks
 '
 ]
+                
+if
+not
+isinstance
+(
+tasks
 list
 )
 :
@@ -1595,12 +1599,7 @@ action
 in
 '
 :
-taskcluster_yml
-[
-'
 tasks
-'
-]
 [
 0
 ]
