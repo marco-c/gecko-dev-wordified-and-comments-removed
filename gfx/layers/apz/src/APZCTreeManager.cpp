@@ -13865,8 +13865,8 @@ Inverse
 (
 )
 ;
-AsyncTransformComponentMatrix
-asyncCompensation
+compensation
+*
 =
 ViewAs
 <
@@ -13880,12 +13880,6 @@ asyncUntransform
 contentUntransform
 )
 ;
-compensation
-=
-compensation
-*
-asyncCompensation
-;
 if
 (
 aOutClipTransform
@@ -13894,7 +13888,7 @@ aOutClipTransform
 *
 aOutClipTransform
 =
-asyncCompensation
+compensation
 ;
 }
 }
