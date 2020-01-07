@@ -545,7 +545,7 @@ if
 (
 event
 .
-topLevelOrigin
+topOrigin
 !
 =
 =
@@ -560,13 +560,13 @@ msg
 Unexpected
 event
 .
-topLevelOrigin
+topOrigin
 :
 "
 {
 event
 .
-topLevelOrigin
+topOrigin
 }
 "
 .

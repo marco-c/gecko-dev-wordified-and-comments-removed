@@ -208,7 +208,7 @@ CanMakePaymentEvent
 test
 '
 {
-topLevelOrigin
+topOrigin
 :
 '
 https
@@ -261,7 +261,7 @@ assert_equals
 (
 ev
 .
-topLevelOrigin
+topOrigin
 '
 https
 :
