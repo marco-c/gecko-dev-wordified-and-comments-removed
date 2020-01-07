@@ -2870,7 +2870,6 @@ void
 compileShader
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -3357,7 +3356,6 @@ WebGLActiveInfo
 getActiveAttrib
 (
 WebGLProgram
-?
 program
 GLuint
 index
@@ -3368,7 +3366,6 @@ WebGLActiveInfo
 getActiveUniform
 (
 WebGLProgram
-?
 program
 GLuint
 index
@@ -3395,7 +3392,6 @@ GLint
 getAttribLocation
 (
 WebGLProgram
-?
 program
 DOMString
 name
@@ -3440,7 +3436,6 @@ any
 getProgramParameter
 (
 WebGLProgram
-?
 program
 GLenum
 pname
@@ -3451,7 +3446,6 @@ DOMString
 getProgramInfoLog
 (
 WebGLProgram
-?
 program
 )
 ;
@@ -3470,7 +3464,6 @@ any
 getShaderParameter
 (
 WebGLShader
-?
 shader
 GLenum
 pname
@@ -3491,7 +3484,6 @@ DOMString
 getShaderInfoLog
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -3500,7 +3492,6 @@ DOMString
 getShaderSource
 (
 WebGLShader
-?
 shader
 )
 ;
@@ -3519,10 +3510,8 @@ any
 getUniform
 (
 WebGLProgram
-?
 program
 WebGLUniformLocation
-?
 location
 )
 ;
@@ -3531,7 +3520,6 @@ WebGLUniformLocation
 getUniformLocation
 (
 WebGLProgram
-?
 program
 DOMString
 name
@@ -3762,7 +3750,6 @@ void
 shaderSource
 (
 WebGLShader
-?
 shader
 DOMString
 source
@@ -3913,7 +3900,6 @@ format
 GLenum
 type
 TexImageSource
-?
 source
 )
 ;
@@ -4030,7 +4016,6 @@ format
 GLenum
 type
 TexImageSource
-?
 source
 )
 ;
@@ -4686,7 +4671,6 @@ void
 validateProgram
 (
 WebGLProgram
-?
 program
 )
 ;
