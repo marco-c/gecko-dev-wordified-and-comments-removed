@@ -850,15 +850,6 @@ lParam
 ;
 if
 (
-shouldCallNextHook
-.
-isSome
-(
-)
-)
-{
-if
-(
 :
 :
 UnhookWindowsHookEx
@@ -874,6 +865,13 @@ nullptr
 }
 if
 (
+shouldCallNextHook
+.
+isSome
+(
+)
+&
+&
 !
 shouldCallNextHook
 .
@@ -885,7 +883,6 @@ value
 return
 0
 ;
-}
 }
 }
 return
