@@ -368,6 +368,13 @@ help
 Symbols
 zip
 file
+-
+URL
+or
+path
+to
+local
+file
 '
 )
     
@@ -380,6 +387,18 @@ parse_args
 )
     
 if
+not
+args
+.
+zip
+.
+startswith
+(
+'
+http
+'
+)
+and
 not
 os
 .
@@ -706,17 +725,47 @@ MAX_RETRIES
 try
 :
             
-r
-=
-requests
+if
+args
 .
-post
+zip
+.
+startswith
 (
+'
+http
+'
+)
+:
                 
-url
-                
-files
+zip_arg
 =
+{
+'
+data
+'
+:
+{
+'
+url
+'
+:
+args
+.
+zip
+}
+}
+            
+else
+:
+                
+zip_arg
+=
+{
+'
+files
+'
+:
 {
 '
 symbols
@@ -734,6 +783,16 @@ rb
 '
 )
 }
+}
+            
+r
+=
+requests
+.
+post
+(
+                
+url
                 
 headers
 =
@@ -753,7 +812,14 @@ False
                 
 timeout
 =
-120
+(
+10
+300
+)
+                
+*
+*
+zip_arg
 )
             
 if
