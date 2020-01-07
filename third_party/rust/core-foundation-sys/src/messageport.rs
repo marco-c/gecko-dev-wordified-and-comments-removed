@@ -205,7 +205,7 @@ type
 CFMessagePortRef
 =
 *
-const
+mut
 __CFMessagePort
 ;
 extern
