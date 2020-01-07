@@ -378,6 +378,15 @@ aAdapter
 {
 if
 (
+!
+getenv
+(
+"
+MOZ_DISABLE_GMP_SANDBOX
+"
+)
+&
+&
 mSandboxStarter
 &
 &
