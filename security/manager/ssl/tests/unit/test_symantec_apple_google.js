@@ -168,8 +168,8 @@ example
 .
 com
 "
-PRErrorCodeSuccess
+SEC_ERROR_UNKNOWN_ISSUER
 null
-shouldBeImminentlyDistrusted
+null
 )
 ;
