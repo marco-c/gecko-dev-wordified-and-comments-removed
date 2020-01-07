@@ -1720,13 +1720,6 @@ load
 1418059
 .
 html
-skip
--
-if
-(
-!
-stylo
-)
 test
 -
 pref

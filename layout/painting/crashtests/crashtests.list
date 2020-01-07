@@ -8,15 +8,6 @@ skip
 -
 if
 (
-!
-(
-stylo
-|
-|
-styloVsGecko
-)
-|
-|
 Android
 )
 load

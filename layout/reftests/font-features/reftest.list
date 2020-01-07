@@ -613,14 +613,6 @@ skip
 -
 if
 (
-(
-stylo
-|
-|
-styloVsGecko
-)
-&
-&
 winWidget
 )
 =
@@ -633,6 +625,9 @@ annotations
 ref
 .
 html
+#
+bug
+1447257
 #
 font
 -

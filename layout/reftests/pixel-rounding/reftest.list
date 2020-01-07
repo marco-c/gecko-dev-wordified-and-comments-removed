@@ -3470,13 +3470,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-stylo
-|
-|
-styloVsGecko
 128
 220
 )

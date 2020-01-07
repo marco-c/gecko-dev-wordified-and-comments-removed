@@ -55,14 +55,6 @@ ref
 .
 html
 fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 1339287
@@ -73,3 +65,6 @@ html
 ref
 .
 html
+#
+bug
+1383868

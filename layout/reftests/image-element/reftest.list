@@ -109,12 +109,6 @@ if
 (
 cocoaWidget
 )
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 canvas

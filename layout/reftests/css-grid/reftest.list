@@ -4052,12 +4052,6 @@ if
 !
 gtkWidget
 )
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 grid
@@ -4086,11 +4080,6 @@ ref
 html
 #
 ditto
-.
-Also
-stylo
-bug
-1396977
 .
 =
 =

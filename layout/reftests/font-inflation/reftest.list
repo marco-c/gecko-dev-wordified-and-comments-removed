@@ -1761,12 +1761,6 @@ inflation
 lineThreshold
 0
 )
-skip
--
-if
-(
-styloVsGecko
-)
 load
 video
 -

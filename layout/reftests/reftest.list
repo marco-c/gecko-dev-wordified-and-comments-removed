@@ -1391,9 +1391,6 @@ if
 (
 !
 skiaPdf
-|
-|
-styloVsGecko
 )
 include
 printing

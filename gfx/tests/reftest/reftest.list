@@ -29,12 +29,6 @@ fuzzy
 175
 443
 )
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 611498
