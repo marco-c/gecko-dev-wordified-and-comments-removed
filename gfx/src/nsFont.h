@@ -247,6 +247,11 @@ kerning
 NS_FONT_KERNING_AUTO
 ;
 uint8_t
+opticalSizing
+=
+NS_FONT_OPTICAL_SIZING_AUTO
+;
+uint8_t
 synthesis
 =
 NS_FONT_SYNTHESIS_WEIGHT
