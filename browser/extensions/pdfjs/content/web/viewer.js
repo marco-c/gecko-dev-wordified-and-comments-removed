@@ -15928,6 +15928,9 @@ true
 break
 ;
 case
+13
+:
+case
 40
 :
 case
@@ -16135,6 +16138,9 @@ evt
 keyCode
 )
 {
+case
+13
+:
 case
 32
 :
