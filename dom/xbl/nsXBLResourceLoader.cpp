@@ -891,8 +891,9 @@ else
 mResources
 -
 >
-ComputeServoStyleSet
+ComputeServoStyles
 (
+*
 mBoundDocument
 -
 >
@@ -901,7 +902,12 @@ GetShell
 )
 -
 >
-GetPresContext
+StyleSet
+(
+)
+-
+>
+AsServo
 (
 )
 )

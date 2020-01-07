@@ -501,14 +501,6 @@ MediaFeatureChangeReason
 )
 ;
 void
-UpdateBoundContentBindingsForServo
-(
-nsPresContext
-*
-aPresContext
-)
-;
-void
 AppendAllSheets
 (
 nsTArray

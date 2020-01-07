@@ -64,6 +64,9 @@ nsTArray
 h
 "
 struct
+RawServoAuthorStyles
+;
+struct
 RawServoStyleSet
 ;
 struct
@@ -577,6 +580,14 @@ RawServoDeclarationBlockStrong
 )
 DECL_OWNED_REF_TYPE_FOR
 (
+RawServoAuthorStyles
+)
+DECL_NULLABLE_BORROWED_REF_TYPE_FOR
+(
+RawServoAuthorStyles
+)
+DECL_OWNED_REF_TYPE_FOR
+(
 RawServoStyleSet
 )
 DECL_NULLABLE_BORROWED_REF_TYPE_FOR
@@ -983,6 +994,12 @@ DEFINE_BOXED_TYPE
 (
 StyleSet
 RawServoStyleSet
+)
+;
+DEFINE_BOXED_TYPE
+(
+AuthorStyles
+RawServoAuthorStyles
 )
 ;
 DEFINE_BOXED_TYPE

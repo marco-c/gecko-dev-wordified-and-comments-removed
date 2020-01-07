@@ -3455,12 +3455,13 @@ aData
 }
 #
 endif
-ServoStyleSet
+const
+RawServoAuthorStyles
 *
 nsXBLBinding
 :
 :
-GetServoStyleSet
+GetServoStyles
 (
 )
 const
@@ -3469,7 +3470,7 @@ return
 mPrototypeBinding
 -
 >
-GetServoStyleSet
+GetServoStyles
 (
 )
 ;
