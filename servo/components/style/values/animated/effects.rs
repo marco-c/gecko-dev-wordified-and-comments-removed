@@ -28,7 +28,7 @@ animated
 color
 :
 :
-RGBA
+Color
 ;
 use
 values
@@ -137,10 +137,7 @@ BoxShadow
 =
 GenericBoxShadow
 <
-Option
-<
-RGBA
->
+Color
 Length
 Length
 Length
@@ -203,10 +200,7 @@ SimpleShadow
 =
 GenericSimpleShadow
 <
-Option
-<
-RGBA
->
+Color
 Length
 Length
 >

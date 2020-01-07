@@ -1020,10 +1020,6 @@ GetCSSShadowArray
 nsCSSShadowArray
 *
 aArray
-const
-nscolor
-&
-aDefaultColor
 bool
 aIsBoxShadow
 )

@@ -1140,8 +1140,16 @@ Self
 )
 >
 {
-Err
+Ok
 (
+RGBA
+:
+:
+transparent
+(
+)
+.
+into
 (
 )
 )

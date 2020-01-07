@@ -237,6 +237,14 @@ const
 nscolor
 CalcColor
 (
+nscolor
+aForegroundColor
+)
+const
+;
+nscolor
+CalcColor
+(
 mozilla
 :
 :
