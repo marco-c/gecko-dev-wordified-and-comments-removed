@@ -12,9 +12,9 @@ test_library_after_appMenu
 )
 {
 await
-gCUITestUtils
+PanelUI
 .
-openMainMenu
+show
 (
 )
 ;

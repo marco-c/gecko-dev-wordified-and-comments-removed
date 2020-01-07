@@ -233,9 +233,9 @@ TEST_PAGE
 )
 ;
 await
-gCUITestUtils
+PanelUI
 .
-openMainMenu
+show
 (
 )
 ;

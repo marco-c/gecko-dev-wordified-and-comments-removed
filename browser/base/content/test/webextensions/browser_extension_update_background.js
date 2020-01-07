@@ -454,9 +454,9 @@ badge
 )
 ;
 await
-gCUITestUtils
+PanelUI
 .
-openMainMenu
+show
 (
 )
 ;
@@ -762,9 +762,9 @@ gone
 )
 ;
 await
-gCUITestUtils
+PanelUI
 .
-openMainMenu
+show
 (
 )
 ;
@@ -793,9 +793,9 @@ gone
 )
 ;
 await
-gCUITestUtils
+PanelUI
 .
-hideMainMenu
+hide
 (
 )
 ;
@@ -839,9 +839,9 @@ badge
 )
 ;
 await
-gCUITestUtils
+PanelUI
 .
-openMainMenu
+show
 (
 )
 ;

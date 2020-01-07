@@ -185,9 +185,9 @@ focus
 )
 ;
 await
-gCUITestUtils
+PanelUI
 .
-openMainMenu
+show
 (
 )
 ;
