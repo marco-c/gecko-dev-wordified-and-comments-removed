@@ -828,14 +828,6 @@ clobber
 '
                          
 '
-read
--
-buildbot
--
-config
-'
-                         
-'
 pull
 '
                          

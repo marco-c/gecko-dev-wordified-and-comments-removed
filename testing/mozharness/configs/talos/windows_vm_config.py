@@ -57,16 +57,6 @@ talos
 "
     
 "
-buildbot_json_path
-"
-:
-"
-buildprops
-.
-json
-"
-    
-"
 installer_path
 "
 :
@@ -150,14 +140,6 @@ default_actions
         
 "
 clobber
-"
-        
-"
-read
--
-buildbot
--
-config
 "
         
 "

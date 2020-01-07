@@ -2971,12 +2971,6 @@ minidumps
 "
     
 "
-buildbot_max_log_size
-"
-:
-52428800
-    
-"
 default_blob_upload_servers
 "
 :

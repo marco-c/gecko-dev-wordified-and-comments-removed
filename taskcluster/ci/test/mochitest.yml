@@ -4,15 +4,6 @@ defaults
 :
 mozharness
 :
-no
--
-read
--
-buildbot
--
-config
-:
-true
 script
 :
 by
