@@ -7,13 +7,13 @@ unicode_literals
 import
 re
 import
+copy
+import
 pprint
 import
 collections
 import
 voluptuous
-import
-taskgraph
 from
 .
 attributes
@@ -54,20 +54,18 @@ msg_prefix
 "
 "
     
-if
-taskgraph
-.
-fast
-:
-        
-return
-    
 try
 :
         
+return
+copy
+.
+deepcopy
+(
 schema
 (
 obj
+)
 )
     
 except

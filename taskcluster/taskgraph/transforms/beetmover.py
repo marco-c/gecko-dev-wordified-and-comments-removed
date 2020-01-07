@@ -2300,6 +2300,7 @@ label
 '
 )
         
+yield
 validate_schema
 (
             
@@ -2333,9 +2334,6 @@ kind
 label
 )
 )
-        
-yield
-job
 transforms
 .
 add

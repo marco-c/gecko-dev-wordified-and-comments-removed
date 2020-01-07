@@ -600,13 +600,11 @@ load
 f
 )
     
+return
 validate_graph_config
 (
 config
 )
-    
-return
-config
 class
 TaskGraphGenerator
 (
