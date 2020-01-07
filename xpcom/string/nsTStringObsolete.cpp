@@ -659,12 +659,6 @@ case
 F
 '
 :
-done
-=
-true
-;
-break
-;
 case
 '
 0
