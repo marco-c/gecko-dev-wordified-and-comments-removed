@@ -1541,6 +1541,14 @@ mInner
 -
 >
 mDragging
+&
+&
+aBuilder
+-
+>
+IsForEventDelivery
+(
+)
 )
 {
 aLists
