@@ -386,7 +386,7 @@ called
 ;
 }
 static
-const
+constexpr
 ProtoTableEntry
 protoTable
 [
