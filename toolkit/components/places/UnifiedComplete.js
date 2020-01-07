@@ -1057,6 +1057,9 @@ h
 .
 frecency
 DESC
+LIMIT
+:
+maxResults
 ;
 const
 QUERYINDEX_ORIGIN_AUTOFILLED_VALUE
@@ -10493,6 +10496,16 @@ userContextId
 this
 .
 _userContextId
+maxResults
+:
+Prefs
+.
+get
+(
+"
+maxRichResults
+"
+)
 }
 ]
 ;
