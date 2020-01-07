@@ -125,6 +125,7 @@ Core
 "
 "
 Canvas
+:
 2D
 "
 )
@@ -148,7 +149,7 @@ BUG_COMPONENT
 Core
 "
 "
-Javascript
+JavaScript
 :
 Standard
 Library
@@ -174,7 +175,7 @@ BUG_COMPONENT
 Core
 "
 "
-Javascript
+JavaScript
 :
 Standard
 Library
