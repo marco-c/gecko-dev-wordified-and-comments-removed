@@ -562,10 +562,6 @@ products
 "
 gecko
 "
-boxed
-=
-not
-RUSTC_HAS_PR45225
 animation_value_type
 =
 "
@@ -919,10 +915,6 @@ products
 "
 gecko
 "
-boxed
-=
-not
-RUSTC_HAS_PR45225
 animation_value_type
 =
 "

@@ -503,10 +503,6 @@ animation_value_type
 "
 AnimatedCaretColor
 "
-boxed
-=
-not
-RUSTC_HAS_PR45225
 ignored_when_colors_disabled
 =
 True
