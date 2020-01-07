@@ -646,6 +646,7 @@ identity
 popup
 -
 expander
+subviewkeynav
 "
 when
 -
@@ -1059,6 +1060,7 @@ tracking
 protection
 -
 button
+subviewkeynav
 "
 label
 =
@@ -1113,6 +1115,7 @@ tracking
 protection
 -
 button
+subviewkeynav
 "
 label
 =
@@ -1169,6 +1172,7 @@ tracking
 protection
 -
 button
+subviewkeynav
 "
 label
 =
@@ -1223,6 +1227,7 @@ tracking
 protection
 -
 button
+subviewkeynav
 "
 label
 =
