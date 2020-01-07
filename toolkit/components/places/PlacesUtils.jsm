@@ -2149,13 +2149,6 @@ livemark
 /
 siteURI
 "
-POST_DATA_ANNO
-:
-"
-bookmarkProperties
-/
-POSTData
-"
 READ_ONLY_ANNO
 :
 "
