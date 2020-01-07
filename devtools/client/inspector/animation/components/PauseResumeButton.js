@@ -124,7 +124,7 @@ l10n
 ;
 const
 {
-hasPlayingAnimation
+hasRunningAnimation
 }
 =
 require
@@ -202,7 +202,7 @@ this
 state
 =
 {
-isPlaying
+isRunning
 :
 false
 }
@@ -325,7 +325,7 @@ props
 ;
 const
 {
-isPlaying
+isRunning
 }
 =
 this
@@ -335,7 +335,7 @@ state
 setAnimationsPlayState
 (
 !
-isPlaying
+isRunning
 )
 ;
 }
@@ -385,9 +385,9 @@ this
 props
 ;
 const
-isPlaying
+isRunning
 =
-hasPlayingAnimation
+hasRunningAnimation
 (
 animations
 )
@@ -397,7 +397,7 @@ this
 setState
 (
 {
-isPlaying
+isRunning
 }
 )
 ;
@@ -408,7 +408,7 @@ render
 {
 const
 {
-isPlaying
+isRunning
 }
 =
 this
@@ -435,7 +435,7 @@ button
 "
 +
 (
-isPlaying
+isRunning
 ?
 "
 "
@@ -456,7 +456,7 @@ this
 )
 title
 :
-isPlaying
+isRunning
 ?
 getStr
 (

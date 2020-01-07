@@ -89,4 +89,13 @@ animation
 .
 js
 '
+'
+current
+-
+time
+-
+timer
+.
+js
+'
 )
