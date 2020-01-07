@@ -1037,15 +1037,6 @@ Value
 vp
 )
 ;
-static
-bool
-initClass
-(
-JSContext
-*
-cx
-)
-;
 template
 <
 typename

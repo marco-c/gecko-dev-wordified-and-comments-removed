@@ -26,9 +26,6 @@ namespace
 js
 {
 class
-AutoSetNewObjectMetadata
-;
-class
 ReadableStream
 :
 public
