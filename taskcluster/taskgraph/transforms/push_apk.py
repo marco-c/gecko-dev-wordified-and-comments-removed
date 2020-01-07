@@ -670,6 +670,11 @@ play
 -
 strings
 '
+'
+beetmover
+-
+checksums
+'
 )
     
 ]
