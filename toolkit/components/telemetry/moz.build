@@ -488,6 +488,11 @@ TelemetryHealthPing
 jsm
 '
 '
+TelemetryLog
+.
+jsm
+'
+'
 TelemetryModules
 .
 jsm
