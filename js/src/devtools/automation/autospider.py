@@ -2823,6 +2823,8 @@ system
 '
 Linux
 '
+and
+AUTOMATION
 :
     
 CONFIGURE_ARGS
