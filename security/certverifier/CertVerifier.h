@@ -607,17 +607,6 @@ ocspStrict
 }
 ;
 enum
-OcspGetConfig
-{
-ocspGetDisabled
-=
-0
-ocspGetEnabled
-=
-1
-}
-;
-enum
 class
 CertificateTransparencyMode
 {
@@ -635,8 +624,6 @@ OcspDownloadConfig
 odc
 OcspStrictConfig
 osc
-OcspGetConfig
-ogc
 mozilla
 :
 :
@@ -690,10 +677,6 @@ mOCSPDownloadConfig
 const
 bool
 mOCSPStrict
-;
-const
-bool
-mOCSPGETEnabled
 ;
 const
 mozilla

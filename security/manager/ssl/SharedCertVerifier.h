@@ -66,8 +66,6 @@ OcspDownloadConfig
 odc
 OcspStrictConfig
 osc
-OcspGetConfig
-ogc
 mozilla
 :
 :
@@ -107,7 +105,6 @@ CertVerifier
 (
 odc
 osc
-ogc
 ocspSoftTimeout
 ocspHardTimeout
 certShortLifetimeInDays

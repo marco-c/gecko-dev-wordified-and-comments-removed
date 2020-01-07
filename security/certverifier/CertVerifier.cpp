@@ -414,8 +414,6 @@ OcspDownloadConfig
 odc
 OcspStrictConfig
 osc
-OcspGetConfig
-ogc
 mozilla
 :
 :
@@ -455,13 +453,6 @@ osc
 =
 =
 ocspStrict
-)
-mOCSPGETEnabled
-(
-ogc
-=
-=
-ocspGetEnabled
 )
 mOCSPTimeoutSoft
 (
@@ -2546,15 +2537,6 @@ NSSCertDBTrustDomain
 :
 FetchOCSPForDVHardFail
 ;
-OcspGetConfig
-ocspGETConfig
-=
-mOCSPGETEnabled
-?
-ocspGetEnabled
-:
-ocspGetDisabled
-;
 Input
 stapledOCSPResponseInput
 ;
@@ -2656,7 +2638,6 @@ trustEmail
 defaultOCSPFetching
 mOCSPCache
 pinArg
-ocspGETConfig
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
@@ -2903,7 +2884,6 @@ trustSSL
 evOCSPFetching
 mOCSPCache
 pinArg
-ocspGETConfig
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
@@ -3261,7 +3241,6 @@ trustSSL
 defaultOCSPFetching
 mOCSPCache
 pinArg
-ocspGETConfig
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
@@ -3537,7 +3516,6 @@ trustSSL
 defaultOCSPFetching
 mOCSPCache
 pinArg
-ocspGETConfig
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
@@ -3599,7 +3577,6 @@ trustEmail
 defaultOCSPFetching
 mOCSPCache
 pinArg
-ocspGETConfig
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
@@ -3702,7 +3679,6 @@ trustEmail
 defaultOCSPFetching
 mOCSPCache
 pinArg
-ocspGETConfig
 mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
