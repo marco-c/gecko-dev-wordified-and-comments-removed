@@ -94,10 +94,10 @@ onPing
 ;
 DebuggerServer
 .
-removeTargetScopedActor
+removeTabActor
 (
 "
-testTargetScopedActor1
+testTabActor1
 "
 )
 ;
@@ -112,7 +112,7 @@ testGlobalActor1
 ;
 DebuggerServer
 .
-addTargetScopedActor
+addTabActor
 (
 {
 constructorName
@@ -125,7 +125,7 @@ constructorFun
 TestActor1
 }
 "
-testTargetScopedActor1
+testTabActor1
 "
 )
 ;

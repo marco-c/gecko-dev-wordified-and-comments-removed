@@ -130,7 +130,7 @@ HelloActor
 type
 :
 {
-target
+tab
 :
 true
 }

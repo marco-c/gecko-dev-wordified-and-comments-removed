@@ -137,7 +137,7 @@ type
 global
 :
 true
-target
+tab
 :
 true
 }
@@ -150,7 +150,7 @@ ok
 (
 DebuggerServer
 .
-targetScopedActorFactories
+tabActorFactories
 .
 hasOwnProperty
 (
@@ -435,7 +435,7 @@ ok
 !
 DebuggerServer
 .
-targetScopedActorFactories
+tabActorFactories
 .
 hasOwnProperty
 (

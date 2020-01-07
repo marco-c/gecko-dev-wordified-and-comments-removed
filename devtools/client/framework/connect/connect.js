@@ -628,7 +628,7 @@ document
 getElementById
 (
 "
-tabTargetActors
+tabActors
 "
 )
 ;

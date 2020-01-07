@@ -151,7 +151,7 @@ options
 type
 :
 {
-target
+tab
 :
 true
 }

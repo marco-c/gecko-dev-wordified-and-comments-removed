@@ -78,8 +78,8 @@ gTab1
 gTab2
 ;
 var
-gTargetActor1
-gTargetActor2
+gTabActor1
+gTabActor2
 ;
 function
 test
@@ -195,7 +195,7 @@ response
 =
 >
 {
-gTargetActor1
+gTabActor1
 =
 response
 .
@@ -218,7 +218,7 @@ TAB_URL_1
 0
 ]
 ;
-gTargetActor2
+gTabActor2
 =
 response
 .
@@ -277,7 +277,7 @@ JSON
 .
 stringify
 (
-gTargetActor1
+gTabActor1
 )
 JSON
 .
@@ -292,8 +292,8 @@ getTab
 returns
 the
 same
-target
-form
+tab
+grip
 for
 first
 tab
@@ -399,7 +399,7 @@ JSON
 .
 stringify
 (
-gTargetActor1
+gTabActor1
 )
 JSON
 .
@@ -414,8 +414,8 @@ getTab
 returns
 the
 same
-target
-form
+tab
+grip
 when
 filtering
 by
@@ -458,7 +458,7 @@ JSON
 .
 stringify
 (
-gTargetActor2
+gTabActor2
 )
 JSON
 .
@@ -473,8 +473,8 @@ getTab
 returns
 the
 same
-target
-form
+tab
+grip
 for
 second
 tab
@@ -636,12 +636,12 @@ outerWindowID
 .
 then
 (
-checkSelectedTargetActor
+checkSelectedTabActor
 )
 ;
 }
 function
-checkSelectedTargetActor
+checkSelectedTabActor
 (
 )
 {
@@ -652,7 +652,7 @@ request
 {
 to
 :
-gTargetActor2
+gTabActor2
 .
 consoleActor
 type
@@ -722,7 +722,7 @@ function
 (
 )
 {
-checkFirstTargetActor
+checkFirstTabActor
 (
 )
 ;
@@ -743,7 +743,7 @@ gTab2
 ;
 }
 function
-checkFirstTargetActor
+checkFirstTabActor
 (
 )
 {
@@ -754,7 +754,7 @@ request
 {
 to
 :
-gTargetActor1
+gTabActor1
 .
 consoleActor
 type

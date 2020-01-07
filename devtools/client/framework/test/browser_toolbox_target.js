@@ -195,7 +195,7 @@ destroyed
 )
 ;
 const
-onTabDetached
+onTabActorDetached
 =
 once
 (
@@ -247,7 +247,7 @@ destroyed
 )
 ;
 await
-onTabDetached
+onTabActorDetached
 ;
 iframe
 .

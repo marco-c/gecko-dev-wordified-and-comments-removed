@@ -90,7 +90,7 @@ DebuggerServer
 registerActors
 (
 {
-target
+tab
 :
 true
 }

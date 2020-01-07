@@ -123,14 +123,14 @@ connection
 ;
 this
 .
-_targetActors
+_tabActors
 =
 [
 ]
 ;
 this
 .
-_targetActorPool
+_tabActorPool
 =
 new
 ActorPool
@@ -150,7 +150,7 @@ const
 actor
 =
 new
-TestTargetActor
+TestTabActor
 (
 connection
 global
@@ -164,7 +164,7 @@ false
 ;
 this
 .
-_targetActors
+_tabActors
 .
 push
 (
@@ -173,7 +173,7 @@ actor
 ;
 this
 .
-_targetActorPool
+_tabActorPool
 .
 addActor
 (
@@ -185,7 +185,7 @@ if
 (
 this
 .
-_targetActors
+_tabActors
 .
 length
 >
@@ -194,7 +194,7 @@ length
 {
 this
 .
-_targetActors
+_tabActors
 [
 0
 ]
@@ -210,7 +210,7 @@ addActorPool
 (
 this
 .
-_targetActorPool
+_tabActorPool
 )
 ;
 }
@@ -239,7 +239,7 @@ resolve
 .
 this
 .
-_targetActors
+_tabActors
 ]
 )
 ;
@@ -290,7 +290,7 @@ root
 ;
 }
 function
-TestTargetActor
+TestTabActor
 (
 connection
 global
@@ -346,18 +346,18 @@ _extraActors
 }
 ;
 }
-TestTargetActor
+TestTabActor
 .
 prototype
 =
 {
 constructor
 :
-TestTargetActor
+TestTabActor
 actorPrefix
 :
 "
-TestTargetActor
+TestTabActor
 "
 get
 window
@@ -428,7 +428,7 @@ _createExtraActors
 (
 DebuggerServer
 .
-targetScopedActorFactories
+tabActorFactories
 actorPool
 )
 ;
@@ -444,7 +444,7 @@ isEmpty
 {
 this
 .
-_targetActorPool
+_tabActorPool
 =
 actorPool
 ;
@@ -456,7 +456,7 @@ addActorPool
 (
 this
 .
-_targetActorPool
+_tabActorPool
 )
 ;
 }
@@ -558,7 +558,7 @@ _appendExtraActors
 appendExtraActors
 }
 ;
-TestTargetActor
+TestTabActor
 .
 prototype
 .
@@ -569,7 +569,7 @@ requestTypes
 attach
 "
 :
-TestTargetActor
+TestTabActor
 .
 prototype
 .
@@ -578,7 +578,7 @@ onAttach
 detach
 "
 :
-TestTargetActor
+TestTabActor
 .
 prototype
 .
