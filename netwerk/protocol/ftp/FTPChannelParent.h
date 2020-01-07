@@ -394,12 +394,7 @@ RecvDivertComplete
 override
 ;
 nsresult
-SuspendChannel
-(
-)
-;
-nsresult
-ResumeChannel
+ResumeChannelInternalIfPossible
 (
 )
 ;

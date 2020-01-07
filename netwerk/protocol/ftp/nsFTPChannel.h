@@ -422,6 +422,9 @@ ADivertableParentChannel
 >
 mParentChannel
 ;
+uint32_t
+mSuspendCount
+;
 }
 ;
 #
