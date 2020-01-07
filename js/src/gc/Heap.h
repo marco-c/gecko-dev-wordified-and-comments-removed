@@ -2108,7 +2108,7 @@ ChunkSize
 /
 ArenaSize
 /
-JS_BITS_PER_BYTE
+CHAR_BIT
 ;
 const
 size_t

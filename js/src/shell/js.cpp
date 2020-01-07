@@ -2936,11 +2936,9 @@ C
 "
 {
 extern
-JS_EXPORT_API
-(
+MOZ_EXPORT
 char
 *
-)
 readline
 (
 const
@@ -2950,10 +2948,8 @@ prompt
 )
 ;
 extern
-JS_EXPORT_API
-(
+MOZ_EXPORT
 void
-)
 add_history
 (
 char
