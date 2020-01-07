@@ -1017,6 +1017,13 @@ image_rendering
 to_layout
 (
 )
+webrender_api
+:
+:
+AlphaType
+:
+:
+PremultipliedAlpha
 id
 )
 ;
