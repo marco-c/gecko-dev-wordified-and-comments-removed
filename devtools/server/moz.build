@@ -162,11 +162,6 @@ main
 .
 js
 '
-'
-worker
-.
-js
-'
 )
 with
 Files

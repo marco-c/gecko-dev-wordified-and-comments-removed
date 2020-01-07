@@ -3170,6 +3170,8 @@ devtools
 /
 server
 /
+startup
+/
 worker
 .
 js
