@@ -1042,6 +1042,10 @@ mBoundPixelUnpackBuffer
 =
 nullptr
 ;
+mBoundTransformFeedbackBuffer
+=
+nullptr
+;
 mBoundUniformBuffer
 =
 nullptr
@@ -11083,6 +11087,7 @@ mBoundCopyWriteBuffer
 mBoundPixelPackBuffer
 mBoundPixelUnpackBuffer
 mBoundTransformFeedback
+mBoundTransformFeedbackBuffer
 mBoundUniformBuffer
 mCurrentProgram
 mBoundDrawFramebuffer

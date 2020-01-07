@@ -152,12 +152,7 @@ LOCAL_GL_TRANSFORM_FEEDBACK_BUFFER
 slot
 =
 &
-(
-mBoundTransformFeedback
--
->
-mGenericBufferBinding
-)
+mBoundTransformFeedbackBuffer
 ;
 break
 ;
@@ -2070,10 +2065,7 @@ mBoundUniformBuffer
 fnClearIfBuffer
 (
 LOCAL_GL_TRANSFORM_FEEDBACK_BUFFER
-mBoundTransformFeedback
--
->
-mGenericBufferBinding
+mBoundTransformFeedbackBuffer
 )
 ;
 if

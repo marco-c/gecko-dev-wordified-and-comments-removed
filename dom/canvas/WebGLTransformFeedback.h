@@ -75,12 +75,6 @@ mGLName
 ;
 private
 :
-WebGLRefPtr
-<
-WebGLBuffer
->
-mGenericBufferBinding
-;
 std
 :
 :
