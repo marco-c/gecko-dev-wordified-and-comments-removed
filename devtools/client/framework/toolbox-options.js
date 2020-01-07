@@ -348,6 +348,14 @@ toolbox
 ;
 this
 .
+telemetry
+=
+toolbox
+.
+telemetry
+;
+this
+.
 isReady
 =
 false
@@ -1485,7 +1493,7 @@ tool
 id
 )
 ;
-Services
+this
 .
 telemetry
 .

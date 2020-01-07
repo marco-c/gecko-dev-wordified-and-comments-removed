@@ -5359,7 +5359,7 @@ DEVTOOLS_INSPECTOR_NEW_ROOT_TO_RELOAD_DELAY_MS
 let
 histogram
 =
-Services
+this
 .
 telemetry
 .

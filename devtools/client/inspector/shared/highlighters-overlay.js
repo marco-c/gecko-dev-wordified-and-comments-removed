@@ -171,6 +171,14 @@ store
 ;
 this
 .
+telemetry
+=
+inspector
+.
+telemetry
+;
+this
+.
 flexboxHighlighterShown
 =
 null
@@ -1370,7 +1378,7 @@ grid
 "
 )
 {
-Services
+this
 .
 telemetry
 .
@@ -1400,7 +1408,7 @@ rule
 "
 )
 {
-Services
+this
 .
 telemetry
 .
