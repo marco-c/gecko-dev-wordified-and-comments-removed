@@ -394,8 +394,11 @@ mIterationStart
 GraphTime
 mIterationEnd
 ;
+const
+RefPtr
+<
 MediaStreamGraphImpl
-*
+>
 mGraphImpl
 ;
 TimeStamp
