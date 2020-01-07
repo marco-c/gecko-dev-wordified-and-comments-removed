@@ -556,6 +556,44 @@ Field
 Variant
 }
 impl
+Identifier
+{
+pub
+fn
+is_some
+(
+self
+)
+-
+>
+bool
+{
+match
+self
+{
+Identifier
+:
+:
+No
+=
+>
+false
+Identifier
+:
+:
+Field
+|
+Identifier
+:
+:
+Variant
+=
+>
+true
+}
+}
+}
+impl
 Container
 {
 pub
@@ -1014,7 +1052,6 @@ Err
 )
 =
 >
-{
 cx
 .
 error
@@ -1044,7 +1081,6 @@ rename_all
 s
 )
 )
-}
 }
 }
 }
@@ -1090,7 +1126,6 @@ default
 "
 =
 >
-{
 match
 item
 .
@@ -1132,7 +1167,6 @@ Default
 _
 =
 >
-{
 cx
 .
 error
@@ -1157,8 +1191,6 @@ named
 fields
 "
 )
-}
-}
 }
 MetaItem
 (
@@ -1242,7 +1274,6 @@ path
 _
 =
 >
-{
 cx
 .
 error
@@ -1275,7 +1306,6 @@ named
 fields
 "
 )
-}
 }
 }
 }
@@ -1411,7 +1441,6 @@ untagged
 "
 =
 >
-{
 match
 item
 .
@@ -1470,7 +1499,6 @@ on
 enums
 "
 )
-}
 }
 }
 MetaItem
@@ -1668,7 +1696,6 @@ _
 )
 =
 >
-{
 cx
 .
 error
@@ -1698,7 +1725,6 @@ on
 enums
 "
 )
-}
 }
 }
 }
@@ -2702,7 +2728,6 @@ content
 )
 =
 >
-{
 EnumTag
 :
 :
@@ -2714,7 +2739,6 @@ tag
 content
 :
 content
-}
 }
 (
 true
@@ -3406,7 +3430,6 @@ Err
 )
 =
 >
-{
 cx
 .
 error
@@ -3436,7 +3459,6 @@ rename_all
 s
 )
 )
-}
 }
 }
 }
@@ -3727,7 +3749,6 @@ borrow
 "
 =
 >
-{
 match
 variant
 .
@@ -3794,7 +3815,6 @@ variants
 "
 )
 ;
-}
 }
 }
 MetaItem
@@ -4339,6 +4359,10 @@ Option
 &
 Variant
 >
+container_default
+:
+&
+Default
 )
 -
 >
@@ -5520,6 +5544,16 @@ attribute
 }
 }
 if
+container_default
+=
+=
+&
+Default
+:
+:
+None
+&
+&
 skip_deserializing
 .
 0
@@ -7708,7 +7742,6 @@ elems
 )
 =
 >
-{
 for
 elem
 in
@@ -7720,7 +7753,6 @@ elem
 out
 )
 ;
-}
 }
 syn
 :

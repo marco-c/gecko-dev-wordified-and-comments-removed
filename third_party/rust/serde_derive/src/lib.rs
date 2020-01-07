@@ -20,7 +20,7 @@ serde_derive
 .
 0
 .
-23
+27
 "
 )
 ]
@@ -69,10 +69,6 @@ recursion_limit
 192
 "
 ]
-extern
-crate
-syn
-;
 #
 [
 macro_use
@@ -80,6 +76,10 @@ macro_use
 extern
 crate
 quote
+;
+extern
+crate
+syn
 ;
 extern
 crate

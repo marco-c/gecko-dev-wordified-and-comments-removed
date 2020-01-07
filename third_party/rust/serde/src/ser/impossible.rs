@@ -11,13 +11,13 @@ ser
 {
 self
 Serialize
+SerializeMap
 SerializeSeq
+SerializeStruct
+SerializeStructVariant
 SerializeTuple
 SerializeTupleStruct
 SerializeTupleVariant
-SerializeMap
-SerializeStruct
-SerializeStructVariant
 }
 ;
 pub

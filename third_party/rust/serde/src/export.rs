@@ -84,8 +84,8 @@ Result
 :
 {
 self
-Ok
 Err
+Ok
 }
 ;
 pub

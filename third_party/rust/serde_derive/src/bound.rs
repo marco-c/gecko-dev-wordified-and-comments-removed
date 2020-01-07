@@ -113,7 +113,6 @@ map
 |
 ty_param
 |
-{
 syn
 :
 :
@@ -129,7 +128,6 @@ ty_param
 clone
 (
 )
-}
 }
 )
 .
@@ -592,7 +590,6 @@ variants
 )
 =
 >
-{
 for
 variant
 in
@@ -652,7 +649,6 @@ field
 ty
 )
 ;
-}
 }
 }
 Body

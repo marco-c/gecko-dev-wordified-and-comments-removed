@@ -10,11 +10,11 @@ ser
 :
 {
 self
+Impossible
 Serialize
-Serializer
 SerializeMap
 SerializeStruct
-Impossible
+Serializer
 }
 ;
 #
@@ -44,8 +44,8 @@ content
 :
 :
 {
-SerializeTupleVariantAsMapValue
 SerializeStructVariantAsMapValue
+SerializeTupleVariantAsMapValue
 }
 ;
 pub
