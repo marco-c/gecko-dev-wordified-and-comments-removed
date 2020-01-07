@@ -298,6 +298,9 @@ write
 path
 =
 track
+expand_pattern
+=
+True
 )
     
 return
