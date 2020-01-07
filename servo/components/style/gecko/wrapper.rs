@@ -11878,6 +11878,11 @@ pseudo_class
 NonTSPseudoClass
 :
 :
+Defined
+|
+NonTSPseudoClass
+:
+:
 Focus
 |
 NonTSPseudoClass

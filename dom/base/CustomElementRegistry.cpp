@@ -5077,6 +5077,14 @@ eCustom
 aElement
 -
 >
+SetDefined
+(
+true
+)
+;
+aElement
+-
+>
 SetCustomElementDefinition
 (
 aDefinition
