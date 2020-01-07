@@ -3934,6 +3934,14 @@ ModuleEnvironment
 env
 )
 ;
+void
+ConvertMemoryPagesToBytes
+(
+Limits
+*
+memory
+)
+;
 MOZ_MUST_USE
 bool
 Validate
