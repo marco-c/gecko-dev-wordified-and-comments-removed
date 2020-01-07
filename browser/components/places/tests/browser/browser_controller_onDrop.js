@@ -394,7 +394,9 @@ selectItems
 [
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 ]
 )
 ;
