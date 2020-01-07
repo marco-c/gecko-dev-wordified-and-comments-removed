@@ -86,6 +86,11 @@ test_setup
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 Services
 .
 search
