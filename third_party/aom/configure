@@ -4406,7 +4406,7 @@ solution
 INLINE
 =
 "
-__forceinline
+__inline
 "
 ;
 ;
