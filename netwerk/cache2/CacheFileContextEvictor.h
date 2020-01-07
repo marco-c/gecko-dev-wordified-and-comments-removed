@@ -94,6 +94,11 @@ nsIFile
 aCacheDirectory
 )
 ;
+void
+Shutdown
+(
+)
+;
 uint32_t
 ContextsCount
 (
