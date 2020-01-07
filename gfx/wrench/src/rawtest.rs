@@ -2791,7 +2791,6 @@ builder
 .
 define_clip
 (
-None
 rect
 (
 110
@@ -2877,7 +2876,6 @@ builder
 .
 define_clip
 (
-None
 rect
 (
 80
@@ -3088,7 +3086,6 @@ builder
 .
 define_clip
 (
-None
 rect
 (
 80

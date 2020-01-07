@@ -1273,7 +1273,6 @@ builder
 .
 define_clip
 (
-None
 bounds
 vec
 !

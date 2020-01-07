@@ -3521,8 +3521,6 @@ debug
 "
 compile
 {
-:
-?
 }
 "
 name
@@ -3602,8 +3600,6 @@ compile
 shader
 :
 {
-:
-?
 }
 \
 n
@@ -3650,8 +3646,6 @@ on
 shader
 :
 {
-:
-?
 }
 \
 n
@@ -6610,8 +6604,6 @@ program
 binary
 :
 {
-:
-?
 }
 renderer
 {
@@ -6940,8 +6932,6 @@ shader
 program
 :
 {
-:
-?
 }
 \
 n

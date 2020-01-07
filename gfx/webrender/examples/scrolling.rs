@@ -548,7 +548,6 @@ builder
 .
 define_sticky_frame
 (
-None
 (
 50
 350
