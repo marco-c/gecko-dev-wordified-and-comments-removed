@@ -2692,6 +2692,12 @@ POINTS_PER_INCH_FLOAT
 size
 *
 =
+mozilla
+:
+:
+widget
+:
+:
 ScreenHelperGTK
 :
 :
