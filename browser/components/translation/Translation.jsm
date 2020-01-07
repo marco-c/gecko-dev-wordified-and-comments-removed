@@ -446,7 +446,7 @@ jsm
 ;
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 .

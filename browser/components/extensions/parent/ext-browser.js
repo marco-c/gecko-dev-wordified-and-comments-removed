@@ -922,7 +922,7 @@ topNormalWindow
 return
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 {
 allowPopups

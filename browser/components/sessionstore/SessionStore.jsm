@@ -7043,7 +7043,7 @@ activeWindow
 =
 this
 .
-_getMostRecentBrowserWindow
+_getTopWindow
 (
 )
 ;
@@ -7314,7 +7314,7 @@ win
 =
 this
 .
-_getMostRecentBrowserWindow
+_getTopWindow
 (
 )
 ;
@@ -9256,7 +9256,7 @@ window
 =
 this
 .
-_getMostRecentBrowserWindow
+_getTopWindow
 (
 )
 ;
@@ -11957,7 +11957,7 @@ lastWindow
 =
 this
 .
-_getMostRecentBrowserWindow
+_getTopWindow
 (
 )
 ;
@@ -13265,7 +13265,7 @@ activeWindow
 =
 this
 .
-_getMostRecentBrowserWindow
+_getTopWindow
 (
 )
 ;
@@ -17781,17 +17781,17 @@ window
 }
 }
 }
-_getMostRecentBrowserWindow
+_getTopWindow
 :
 function
-ssi_getMostRecentBrowserWindow
+ssi_getTopWindow
 (
 )
 {
 return
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 {
 allowPopups

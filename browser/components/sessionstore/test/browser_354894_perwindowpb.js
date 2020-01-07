@@ -23,7 +23,7 @@ PromiseTestUtils
 whitelistRejectionsGlobally
 (
 /
-getMostRecentBrowserWindow
+getTopWindow
 /
 )
 ;
