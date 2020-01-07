@@ -380,7 +380,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+clicks
 .
 html
 "
@@ -407,7 +407,7 @@ By
 .
 ID
 "
-resultContainer
+normal
 "
 )
         

@@ -195,7 +195,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -210,7 +210,7 @@ navigate
 test_html
 )
             
-keyReporter
+key_reporter
 =
 self
 .
@@ -232,7 +232,7 @@ assertEqual
 (
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -242,7 +242,7 @@ value
 )
 )
             
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -258,7 +258,7 @@ assertEqual
 "
 zyxwvutsr
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -268,7 +268,7 @@ value
 )
 )
             
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -280,7 +280,7 @@ a
 "
 )
             
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -298,7 +298,7 @@ assertEqual
 (
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -397,7 +397,7 @@ TypingTestCase
 :
     
 def
-testShouldFireKeyPressEvents
+test_should_fire_key_press_events
 (
 self
 )
@@ -412,7 +412,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -427,7 +427,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -443,7 +443,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -483,7 +483,7 @@ text
 )
     
 def
-testShouldFireKeyDownEvents
+test_should_fire_key_down_events
 (
 self
 )
@@ -498,7 +498,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -513,7 +513,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -529,7 +529,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -568,7 +568,7 @@ text
 )
     
 def
-testShouldFireKeyUpEvents
+test_should_fire_key_up_events
 (
 self
 )
@@ -583,7 +583,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -598,7 +598,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -614,7 +614,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -654,7 +654,7 @@ text
 )
     
 def
-testShouldTypeLowerCaseLetters
+test_should_type_lowercase_characters
 (
 self
 )
@@ -669,7 +669,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -684,7 +684,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -700,7 +700,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -718,7 +718,7 @@ assertEqual
 abc
 def
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -729,7 +729,7 @@ value
 )
     
 def
-testShouldBeAbleToTypeCapitalLetters
+test_should_type_uppercase_characters
 (
 self
 )
@@ -744,7 +744,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -759,7 +759,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -775,7 +775,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -793,7 +793,7 @@ assertEqual
 ABC
 DEF
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -804,7 +804,7 @@ value
 )
     
 def
-testCutAndPasteShortcuts
+test_cut_and_paste_shortcuts
 (
 self
 )
@@ -819,7 +819,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -834,7 +834,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -856,7 +856,7 @@ assertEqual
 (
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -866,7 +866,7 @@ value
 )
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -882,7 +882,7 @@ assertEqual
 "
 zyxwvutsr
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -892,7 +892,7 @@ value
 )
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -904,7 +904,7 @@ a
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -922,7 +922,7 @@ assertEqual
 (
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -932,7 +932,7 @@ value
 )
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -951,7 +951,7 @@ assertEqual
 "
 zyxwvutsr
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -962,7 +962,7 @@ value
 )
     
 def
-testShouldBeAbleToTypeQuoteMarks
+test_should_type_a_quote_characters
 (
 self
 )
@@ -977,7 +977,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -992,7 +992,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -1008,7 +1008,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -1026,7 +1026,7 @@ assertEqual
 \
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -1037,7 +1037,7 @@ value
 )
     
 def
-testShouldBeAbleToTypeTheAtCharacter
+test_should_type_an_at_character
 (
 self
 )
@@ -1052,7 +1052,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1067,7 +1067,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -1083,7 +1083,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -1097,7 +1097,7 @@ assertEqual
 (
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -1108,7 +1108,7 @@ value
 )
     
 def
-testShouldBeAbleToMixUpperAndLowerCaseLetters
+test_should_type_a_mix_of_upper_and_lower_case_character
 (
 self
 )
@@ -1123,7 +1123,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1138,7 +1138,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -1154,7 +1154,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -1176,7 +1176,7 @@ eXample
 .
 com
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -1187,7 +1187,7 @@ value
 )
     
 def
-testArrowKeysShouldNotBePrintable
+test_arrow_keys_are_not_printable
 (
 self
 )
@@ -1202,7 +1202,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1217,7 +1217,7 @@ navigate
 test_html
 )
         
-keyReporter
+key_reporter
 =
 self
 .
@@ -1233,7 +1233,7 @@ keyReporter
 "
 )
         
-keyReporter
+key_reporter
 .
 send_keys
 (
@@ -1248,7 +1248,7 @@ assertEqual
 (
 "
 "
-keyReporter
+key_reporter
 .
 get_property
 (
@@ -1259,7 +1259,7 @@ value
 )
     
 def
-testWillSimulateAKeyUpWhenEnteringTextIntoInputElements
+test_will_simulate_a_key_up_when_entering_text_into_input_elements
 (
 self
 )
@@ -1274,7 +1274,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1347,7 +1347,7 @@ cheese
 )
     
 def
-testWillSimulateAKeyDownWhenEnteringTextIntoInputElements
+test_will_simulate_a_key_down_when_entering_text_into_input_elements
 (
 self
 )
@@ -1362,7 +1362,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1435,7 +1435,7 @@ chees
 )
     
 def
-testWillSimulateAKeyPressWhenEnteringTextIntoInputElements
+test_will_simulate_a_key_press_when_entering_text_into_input_elements
 (
 self
 )
@@ -1450,7 +1450,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1523,7 +1523,7 @@ chees
 )
     
 def
-testWillSimulateAKeyUpWhenEnteringTextIntoTextAreas
+test_will_simulate_a_keyup_when_entering_text_into_textareas
 (
 self
 )
@@ -1538,7 +1538,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1611,7 +1611,7 @@ text
 )
     
 def
-testWillSimulateAKeyDownWhenEnteringTextIntoTextAreas
+test_will_simulate_a_keydown_when_entering_text_into_textareas
 (
 self
 )
@@ -1626,7 +1626,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1699,7 +1699,7 @@ chees
 )
     
 def
-testWillSimulateAKeyPressWhenEnteringTextIntoTextAreas
+test_will_simulate_a_keypress_when_entering_text_into_textareas
 (
 self
 )
@@ -1714,7 +1714,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -1790,20 +1790,26 @@ skip_if_mobile
 (
 "
 Bug
-1324752
+1333069
 -
-Arrow
-keys
-cannot
-be
-sent
+Assertion
+:
+'
+down
+:
+40
+'
+not
+found
 in
-Fennec
+u
+'
+'
 "
 )
     
 def
-testShouldReportKeyCodeOfArrowKeysUpDownEvents
+test_should_report_key_code_of_arrow_keys_up_down_events
 (
 self
 )
@@ -1818,7 +1824,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2072,7 +2078,7 @@ Bug
 )
     
 def
-testNumericShiftKeys
+test_numeric_shift_keys
 (
 self
 )
@@ -2087,7 +2093,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2134,7 +2140,7 @@ keyReporter
 "
 )
         
-numericShiftsEtc
+numeric_shifts_etc
 =
 "
 ~
@@ -2166,14 +2172,14 @@ element
 .
 send_keys
 (
-numericShiftsEtc
+numeric_shifts_etc
 )
         
 self
 .
 assertEqual
 (
-numericShiftsEtc
+numeric_shifts_etc
 element
 .
 get_property
@@ -2203,7 +2209,7 @@ strip
 )
     
 def
-testLowerCaseAlphaKeys
+test_numeric_non_shift_keys
 (
 self
 )
@@ -2218,7 +2224,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2249,7 +2255,92 @@ keyReporter
 "
 )
         
-lowerAlphas
+numeric_line_chars_non_shifted
+=
+"
+1234567890
+-
+=
+[
+]
+\
+\
+.
+'
+/
+42
+"
+        
+element
+.
+send_keys
+(
+numeric_line_chars_non_shifted
+)
+        
+self
+.
+assertEqual
+(
+numeric_line_chars_non_shifted
+element
+.
+get_property
+(
+"
+value
+"
+)
+)
+    
+def
+test_lowercase_alpha_keys
+(
+self
+)
+:
+        
+test_html
+=
+self
+.
+marionette
+.
+absolute_url
+(
+"
+keyboard
+.
+html
+"
+)
+        
+self
+.
+marionette
+.
+navigate
+(
+test_html
+)
+        
+element
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+"
+keyReporter
+"
+)
+        
+lower_alphas
 =
 "
 abcdefghijklmnopqrstuvwxyz
@@ -2259,14 +2350,14 @@ element
 .
 send_keys
 (
-lowerAlphas
+lower_alphas
 )
         
 self
 .
 assertEqual
 (
-lowerAlphas
+lower_alphas
 element
 .
 get_property
@@ -2288,7 +2379,7 @@ Bug
 )
     
 def
-testUppercaseAlphaKeys
+test_uppercase_alpha_keys
 (
 self
 )
@@ -2303,7 +2394,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2350,7 +2441,7 @@ keyReporter
 "
 )
         
-upperAlphas
+upper_alphas
 =
 "
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -2360,14 +2451,14 @@ element
 .
 send_keys
 (
-upperAlphas
+upper_alphas
 )
         
 self
 .
 assertEqual
 (
-upperAlphas
+upper_alphas
 element
 .
 get_property
@@ -2407,7 +2498,7 @@ Bug
 )
     
 def
-testAllPrintableKeys
+test_all_printable_keys
 (
 self
 )
@@ -2422,7 +2513,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2469,8 +2560,9 @@ keyReporter
 "
 )
         
-allPrintable
+all_printable
 =
+(
 "
 !
 \
@@ -2492,6 +2584,9 @@ allPrintable
 =
 >
 ?
+"
+                         
+"
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 [
 \
@@ -2499,25 +2594,29 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ]
 ^
 _
+"
+                         
+"
 abcdefghijklmnopqrstuvwxyz
 {
 |
 }
 ~
 "
+)
         
 element
 .
 send_keys
 (
-allPrintable
+all_printable
 )
         
 self
 .
 assertTrue
 (
-allPrintable
+all_printable
 element
 .
 get_property
@@ -2557,7 +2656,7 @@ Bug
 )
     
 def
-testSpecialSpaceKeys
+test_special_space_keys
 (
 self
 )
@@ -2572,7 +2671,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2648,7 +2747,7 @@ value
 )
     
 def
-testShouldTypeAnInteger
+test_should_type_an_integer
 (
 self
 )
@@ -2663,7 +2762,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2719,7 +2818,7 @@ value
 )
     
 def
-testShouldSendKeysToElementsWithoutTheValueAttribute
+test_should_send_keys_to_elements_without_the_value_attribute
 (
 self
 )
@@ -2734,7 +2833,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2786,7 +2885,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+keyboard
 .
 html
 "
@@ -2979,5 +3078,266 @@ get_property
 "
 value
 "
+)
+)
+    
+def
+test_send_keys_to_type_input
+(
+self
+)
+:
+        
+test_html
+=
+self
+.
+marionette
+.
+absolute_url
+(
+"
+html5
+/
+test_html_inputs
+.
+html
+"
+)
+        
+self
+.
+marionette
+.
+navigate
+(
+test_html
+)
+        
+num_input
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+'
+number
+'
+)
+        
+self
+.
+assertEqual
+(
+"
+"
+                         
+self
+.
+marionette
+.
+execute_script
+(
+"
+return
+arguments
+[
+0
+]
+.
+value
+"
+[
+num_input
+]
+)
+)
+        
+num_input
+.
+send_keys
+(
+"
+1234
+"
+)
+        
+self
+.
+assertEqual
+(
+'
+1234
+'
+                         
+self
+.
+marionette
+.
+execute_script
+(
+"
+return
+arguments
+[
+0
+]
+.
+value
+"
+[
+num_input
+]
+)
+)
+    
+def
+test_insert_keys
+(
+self
+)
+:
+        
+l
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+"
+change
+"
+)
+        
+l
+.
+send_keys
+(
+"
+abde
+"
+)
+        
+self
+.
+assertEqual
+(
+"
+abde
+"
+self
+.
+marionette
+.
+execute_script
+(
+"
+return
+arguments
+[
+0
+]
+.
+value
+;
+"
+[
+l
+]
+)
+)
+        
+self
+.
+marionette
+.
+execute_script
+(
+            
+"
+"
+"
+var
+el
+=
+arguments
+[
+0
+]
+;
+            
+el
+.
+selectionStart
+=
+el
+.
+selectionEnd
+=
+el
+.
+value
+.
+length
+/
+2
+;
+"
+"
+"
+            
+script_args
+=
+[
+l
+]
+)
+        
+l
+.
+send_keys
+(
+"
+c
+"
+)
+        
+self
+.
+assertEqual
+(
+"
+abcde
+"
+                         
+self
+.
+marionette
+.
+execute_script
+(
+"
+return
+arguments
+[
+0
+]
+.
+value
+;
+"
+[
+l
+]
 )
 )

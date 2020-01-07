@@ -358,23 +358,6 @@ self
 marionette
 .
 process_id
-        
-self
-.
-remote_uri
-=
-self
-.
-marionette
-.
-absolute_url
-(
-"
-javascriptPage
-.
-html
-"
-)
     
 def
 tearDown
