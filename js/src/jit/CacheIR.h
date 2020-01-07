@@ -8827,6 +8827,11 @@ tryAttachString
 )
 ;
 bool
+tryAttachSymbol
+(
+)
+;
+bool
 tryAttachNullOrUndefined
 (
 )
