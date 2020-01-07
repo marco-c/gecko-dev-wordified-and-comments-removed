@@ -7312,7 +7312,7 @@ removed
 and
         
 "
-eAttemptQuit
+eForceQuit
 "
 is
 added
@@ -7384,7 +7384,7 @@ are
 removed
 and
 "
-eAttemptQuit
+eForceQuit
 "
 is
 added
@@ -7465,7 +7465,7 @@ set
 (
 (
 "
-eAttemptQuit
+eForceQuit
 "
 )
 )
