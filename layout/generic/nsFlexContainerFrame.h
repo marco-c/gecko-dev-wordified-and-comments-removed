@@ -424,6 +424,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+IsItemInlineAxisMainAxis
+(
+nsIFrame
+*
+aFrame
+)
+;
 protected
 :
 explicit
