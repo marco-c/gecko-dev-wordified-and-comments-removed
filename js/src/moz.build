@@ -5941,6 +5941,15 @@ builtin
 /
 intl
 /
+NumberFormat
+.
+js
+'
+'
+builtin
+/
+intl
+/
 PluralRules
 .
 js
