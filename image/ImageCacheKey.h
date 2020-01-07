@@ -180,8 +180,6 @@ aAttrs
 void
 *
 aControlledDocument
-bool
-aIsStyloEnabled
 )
 ;
 static
@@ -218,9 +216,6 @@ mHash
 ;
 bool
 mIsChrome
-;
-bool
-mIsStyloEnabled
 ;
 }
 ;
