@@ -1139,6 +1139,16 @@ proto
 "
 UNWANTED_SOFTWARE
 }
+{
+"
+test
+-
+passwordwhite
+-
+proto
+"
+CSD_WHITELIST
+}
 }
 ;
 NS_IMETHODIMP
