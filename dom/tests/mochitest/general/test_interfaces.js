@@ -607,12 +607,6 @@ DataTransferItemList
 DelayNode
 "
 "
-DesktopNotification
-"
-"
-DesktopNotificationCenter
-"
-"
 DeviceLightEvent
 "
 "
