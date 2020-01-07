@@ -1476,7 +1476,8 @@ SEARCH_TEXT
 /
 /
 Test
-nsIDOMNSEditableElement
+editable
+element
 with
 selection
 .
@@ -1541,9 +1542,14 @@ Test
 non
 -
 editable
-nsIDOMNSEditableElement
+input
+element
 (
+type
+=
+"
 button
+"
 )
 .
 await
