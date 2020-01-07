@@ -58,6 +58,15 @@ pdb
 egg
 -
 info
+\
+.
+gcda
+\
+.
+gcno
+\
+.
+gcov
 #
 Vim
 swap
