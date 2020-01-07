@@ -28797,9 +28797,6 @@ GetCSDSupportLevel
 (
 )
 {
-return
-CSD_SUPPORT_NONE
-;
 if
 (
 sCSDSupportLevel
