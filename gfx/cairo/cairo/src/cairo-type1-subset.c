@@ -98,6 +98,18 @@ ctype
 .
 h
 >
+extern
+FT_Error
+mozilla_LoadFTGlyph
+(
+FT_Face
+aFace
+uint32_t
+aGlyphIndex
+int32_t
+aFlags
+)
+;
 typedef
 struct
 _cairo_type1_font_subset
@@ -2822,7 +2834,7 @@ continue
 ;
 error
 =
-FT_Load_Glyph
+mozilla_LoadFTGlyph
 (
 font
 -

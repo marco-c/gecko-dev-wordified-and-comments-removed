@@ -1052,7 +1052,10 @@ FT_LOAD_NO_HINTING
 FT_Error
 err
 =
-FT_Load_Glyph
+Factory
+:
+:
+LoadFTGlyph
 (
 face
 gid
