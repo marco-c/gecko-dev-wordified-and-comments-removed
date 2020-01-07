@@ -3,6 +3,12 @@ logging
 import
 os
 import
+pickle
+from
+logging
+import
+handlers
+import
 pytest
 import
 localpaths
@@ -527,8 +533,6 @@ DEBUG
     
 handler
 =
-logging
-.
 handlers
 .
 BufferingHandler
@@ -933,8 +937,6 @@ DEBUG
     
 handler
 =
-logging
-.
 handlers
 .
 BufferingHandler
@@ -2763,3 +2765,19 @@ ValueError
 c
 .
 ssl_env
+def
+test_pickle
+(
+)
+:
+    
+pickle
+.
+dumps
+(
+config
+.
+Config
+(
+)
+)
