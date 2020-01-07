@@ -111,11 +111,6 @@ CallbackAndVarCacheOrder
 .
 cpp
 '
-'
-Parser
-.
-cpp
-'
 ]
 if
 CONFIG
