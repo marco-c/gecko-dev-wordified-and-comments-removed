@@ -552,7 +552,7 @@ h
 #
 include
 "
-nsStyleStruct
+nsTimingFunction
 .
 h
 "

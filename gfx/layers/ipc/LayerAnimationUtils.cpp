@@ -25,6 +25,13 @@ LayersMessages
 .
 h
 "
+#
+include
+"
+nsTimingFunction
+.
+h
+"
 namespace
 mozilla
 {

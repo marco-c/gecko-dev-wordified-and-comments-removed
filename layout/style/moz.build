@@ -445,6 +445,11 @@ nsStyleUtil
 .
 h
 '
+'
+nsTimingFunction
+.
+h
+'
 ]
 if
 CONFIG
