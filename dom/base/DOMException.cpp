@@ -1284,9 +1284,6 @@ if
 mLocation
 )
 {
-nsresult
-rv
-=
 mLocation
 -
 >
@@ -1294,12 +1291,6 @@ ToString
 (
 aCx
 location
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
