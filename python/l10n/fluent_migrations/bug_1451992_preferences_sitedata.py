@@ -29,7 +29,6 @@ migrate
 import
 COPY
 CONCAT
-REPLACE
 def
 migrate
 (

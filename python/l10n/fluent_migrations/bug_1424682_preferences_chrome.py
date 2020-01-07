@@ -22,15 +22,6 @@ migrate
 helpers
 import
 MESSAGE_REFERENCE
-EXTERNAL_ARGUMENT
-from
-fluent
-.
-migrate
-.
-transforms
-import
-REPLACE
 from
 fluent
 .
@@ -38,6 +29,7 @@ migrate
 import
 COPY
 CONCAT
+REPLACE
 def
 migrate
 (
@@ -166,7 +158,7 @@ callee
 =
 FTL
 .
-Identifier
+Function
 (
 '
 PLATFORM
