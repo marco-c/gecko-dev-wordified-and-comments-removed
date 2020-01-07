@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsPlatformCharset
-.
-h
-"
-#
-include
-"
 LocaleService
 .
 h
@@ -153,11 +146,6 @@ nsCollation
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCollationFactory
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
-(
-nsPlatformCharset
-Init
 )
 namespace
 mozilla
