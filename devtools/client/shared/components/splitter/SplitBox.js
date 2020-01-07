@@ -1085,6 +1085,11 @@ controlled
 style
 :
 leftPanelStyle
+role
+:
+"
+presentation
+"
 ref
 :
 div
@@ -1158,6 +1163,11 @@ uncontrolled
 style
 :
 rightPanelStyle
+role
+:
+"
+presentation
+"
 ref
 :
 div
