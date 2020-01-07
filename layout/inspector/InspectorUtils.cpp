@@ -3646,6 +3646,16 @@ aResult
 ;
 }
 else
+if
+(
+propertyID
+=
+=
+eCSSProperty_all
+)
+{
+}
+else
 {
 CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
