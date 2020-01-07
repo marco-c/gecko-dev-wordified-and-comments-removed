@@ -7211,6 +7211,12 @@ SetRecvBufferSize
 uint32_t
 )
 ;
+FWD_TS_PTR
+(
+GetResetIPFamilyPreference
+bool
+)
+;
 nsresult
 SocketTransportShim
 :

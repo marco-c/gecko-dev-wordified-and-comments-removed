@@ -422,6 +422,15 @@ return
 mIdleSynTimeout
 ;
 }
+uint16_t
+GetFallbackSynTimeout
+(
+)
+{
+return
+mFallbackSynTimeout
+;
+}
 bool
 FastFallbackToIPv4
 (
@@ -1717,6 +1726,9 @@ mMaxRequestDelay
 ;
 uint16_t
 mIdleSynTimeout
+;
+uint16_t
+mFallbackSynTimeout
 ;
 bool
 mH2MandatorySuiteEnabled

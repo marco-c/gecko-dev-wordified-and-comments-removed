@@ -1012,6 +1012,9 @@ mHttpsProxy
 uint32_t
 mConnectionFlags
 ;
+bool
+mResetFamilyPreference
+;
 uint32_t
 mTlsFlags
 ;

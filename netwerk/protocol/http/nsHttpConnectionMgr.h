@@ -767,6 +767,12 @@ ResetIPFamilyPreference
 (
 )
 ;
+bool
+PreferenceKnown
+(
+)
+const
+;
 size_t
 PendingQLength
 (
