@@ -253,12 +253,6 @@ ipc
 '
 '
 /
-dom
-/
-workers
-'
-'
-/
 xpcom
 /
 build

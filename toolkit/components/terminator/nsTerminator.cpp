@@ -208,7 +208,7 @@ mozilla
 /
 dom
 /
-workers
+workerinternals
 /
 RuntimeService
 .
@@ -378,7 +378,7 @@ mozilla
 dom
 :
 :
-workers
+workerinternals
 :
 :
 RuntimeService
@@ -391,7 +391,7 @@ mozilla
 dom
 :
 :
-workers
+workerinternals
 :
 :
 RuntimeService

@@ -301,17 +301,6 @@ PUDPSocket
 ipdl
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-.
-.
-/
-workers
-'
-]
 include
 (
 '

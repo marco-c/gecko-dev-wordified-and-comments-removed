@@ -359,17 +359,6 @@ config
 mozbuild
 '
 )
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-dom
-/
-workers
-'
-]
 FINAL_LIBRARY
 =
 '

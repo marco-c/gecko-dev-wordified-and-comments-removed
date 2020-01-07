@@ -45,6 +45,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h

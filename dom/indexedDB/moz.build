@@ -628,12 +628,6 @@ storage
 '
 '
 /
-dom
-/
-workers
-'
-'
-/
 ipc
 /
 glue

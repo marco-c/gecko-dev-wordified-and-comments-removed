@@ -153,17 +153,6 @@ PBroadcastChannel
 ipdl
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-.
-.
-/
-workers
-'
-]
 MOCHITEST_MANIFESTS
 +
 =

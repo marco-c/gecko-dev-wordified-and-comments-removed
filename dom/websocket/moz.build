@@ -138,12 +138,6 @@ dom
 /
 base
 '
-'
-/
-dom
-/
-workers
-'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +

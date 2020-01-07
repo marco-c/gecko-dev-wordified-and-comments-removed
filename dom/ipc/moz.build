@@ -688,12 +688,6 @@ security
 '
 '
 /
-dom
-/
-workers
-'
-'
-/
 extensions
 /
 cookie

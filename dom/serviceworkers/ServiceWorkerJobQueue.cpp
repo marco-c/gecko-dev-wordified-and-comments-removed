@@ -15,6 +15,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerCommon
 .
 h

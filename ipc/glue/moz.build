@@ -1078,12 +1078,6 @@ storage
 '
 '
 /
-dom
-/
-workers
-'
-'
-/
 media
 /
 webrtc

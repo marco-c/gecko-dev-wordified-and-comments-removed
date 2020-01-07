@@ -153,12 +153,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-workers
-'
-'
 /
 netwerk
 /

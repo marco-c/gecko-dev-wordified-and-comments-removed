@@ -202,12 +202,6 @@ base
 /
 events
 '
-'
-.
-.
-/
-workers
-'
 ]
 include
 (

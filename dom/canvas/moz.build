@@ -1124,12 +1124,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-workers
-'
-'
 /
 dom
 /

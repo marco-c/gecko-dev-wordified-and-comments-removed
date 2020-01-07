@@ -340,17 +340,6 @@ ServiceWorkerRegistrarTypes
 ipdlh
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-dom
-/
-workers
-'
-]
 include
 (
 '

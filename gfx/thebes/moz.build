@@ -1309,12 +1309,6 @@ base
 /
 dom
 /
-workers
-'
-'
-/
-dom
-/
 xml
 '
 ]

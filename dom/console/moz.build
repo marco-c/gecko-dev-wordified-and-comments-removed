@@ -223,12 +223,6 @@ base
 '
 '
 /
-dom
-/
-workers
-'
-'
-/
 js
 /
 xpconnect

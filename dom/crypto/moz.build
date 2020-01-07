@@ -201,12 +201,6 @@ LOCAL_INCLUDES
 [
 '
 /
-dom
-/
-workers
-'
-'
-/
 security
 /
 manager

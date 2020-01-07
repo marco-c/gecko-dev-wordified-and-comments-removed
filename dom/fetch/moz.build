@@ -282,12 +282,6 @@ LOCAL_INCLUDES
 +
 =
 [
-'
-.
-.
-/
-workers
-'
 #
 For
 HttpBaseChannel

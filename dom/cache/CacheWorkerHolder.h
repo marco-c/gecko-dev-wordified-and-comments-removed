@@ -21,6 +21,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerHolder
 .
 h

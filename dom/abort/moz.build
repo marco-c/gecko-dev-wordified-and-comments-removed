@@ -146,17 +146,6 @@ AbortSignal
 cpp
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-.
-.
-/
-workers
-'
-]
 FINAL_LIBRARY
 =
 '

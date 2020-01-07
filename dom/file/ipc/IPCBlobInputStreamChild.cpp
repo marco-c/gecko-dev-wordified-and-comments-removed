@@ -26,6 +26,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerHolder
 .
 h
@@ -33,6 +37,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h
@@ -40,6 +48,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerRunnable
 .
 h

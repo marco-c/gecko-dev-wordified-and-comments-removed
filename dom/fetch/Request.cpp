@@ -103,13 +103,6 @@ Unused
 .
 h
 "
-#
-include
-"
-WorkerPrivate
-.
-h
-"
 namespace
 mozilla
 {

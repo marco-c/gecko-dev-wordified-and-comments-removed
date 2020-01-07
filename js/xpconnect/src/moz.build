@@ -331,12 +331,6 @@ svg
 '
 '
 /
-dom
-/
-workers
-'
-'
-/
 layout
 /
 base

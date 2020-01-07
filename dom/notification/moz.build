@@ -201,12 +201,6 @@ dom
 /
 ipc
 '
-'
-/
-dom
-/
-workers
-'
 ]
 BROWSER_CHROME_MANIFESTS
 +
