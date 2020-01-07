@@ -345,15 +345,6 @@ build
 -
 platform
 :
-default
-:
-in
--
-tree
-:
-desktop
--
-build
 android
 -
 api
@@ -369,9 +360,7 @@ tree
 android
 -
 build
-win
-.
-*
+default
 :
 null
 secrets
