@@ -1229,7 +1229,6 @@ td
 >
 ArrayElementType
 (
-mDescriptor
 )
 ;
 }
@@ -1861,7 +1860,6 @@ td
 >
 ArrayElementType
 (
-mDescriptor
 )
 ;
 }
@@ -2265,7 +2263,6 @@ td
 >
 ArrayElementType
 (
-mDescriptor
 )
 ;
 }
