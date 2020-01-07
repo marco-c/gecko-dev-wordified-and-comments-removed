@@ -2466,7 +2466,7 @@ test
 /
 performance
 /
-browser_appmenu_reflows
+browser_appmenu
 .
 js
 "
@@ -2483,7 +2483,7 @@ test
 /
 performance
 /
-browser_tabstrip_overflow_underflow_reflows
+browser_tabstrip_overflow_underflow
 .
 js
 "
@@ -2517,7 +2517,7 @@ test
 /
 performance
 /
-browser_urlbar_keyed_search_reflows
+browser_urlbar_keyed_search
 .
 js
 "
@@ -2534,7 +2534,7 @@ test
 /
 performance
 /
-browser_urlbar_search_reflows
+browser_urlbar_search
 .
 js
 "

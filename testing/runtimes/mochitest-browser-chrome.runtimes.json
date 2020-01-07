@@ -2464,7 +2464,7 @@ test
 /
 performance
 /
-browser_appmenu_reflows
+browser_appmenu
 .
 js
 "
@@ -2481,7 +2481,7 @@ test
 /
 performance
 /
-browser_tabclose_grow_reflows
+browser_tabclose_grow
 .
 js
 "
@@ -2498,7 +2498,7 @@ test
 /
 performance
 /
-browser_tabopen_squeeze_reflows
+browser_tabopen_squeeze
 .
 js
 "
@@ -2515,7 +2515,7 @@ test
 /
 performance
 /
-browser_tabstrip_overflow_underflow_reflows
+browser_tabstrip_overflow_underflow
 .
 js
 "
@@ -2549,7 +2549,7 @@ test
 /
 performance
 /
-browser_urlbar_keyed_search_reflows
+browser_urlbar_keyed_search
 .
 js
 "
@@ -2566,7 +2566,7 @@ test
 /
 performance
 /
-browser_urlbar_search_reflows
+browser_urlbar_search
 .
 js
 "
@@ -2583,7 +2583,7 @@ test
 /
 performance
 /
-browser_windowopen_reflows
+browser_windowopen
 .
 js
 "

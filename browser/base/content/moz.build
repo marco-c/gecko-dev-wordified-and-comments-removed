@@ -368,7 +368,7 @@ test
 /
 performance
 /
-browser_appmenu_reflows
+browser_appmenu
 .
 js
 "
