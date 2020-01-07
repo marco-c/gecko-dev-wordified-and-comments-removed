@@ -3875,9 +3875,6 @@ VERIFIED_SRCS
 Hacl_Curve25519
 .
 c
-FStar
-.
-c
 else
 #
 All
@@ -3898,6 +3895,15 @@ ECL_SRCS
 +
 =
 curve25519_32
+.
+c
+endif
+ifndef
+HAVE_INT128_SUPPORT
+VERIFIED_SRCS
++
+=
+FStar
 .
 c
 endif
