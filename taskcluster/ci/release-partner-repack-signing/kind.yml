@@ -69,6 +69,14 @@ taskgraph
 .
 transforms
 .
+chunk_partners
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 name_sanity
 :
 transforms
@@ -155,4 +163,4 @@ run
 -
 time
 :
-7200
+3600
