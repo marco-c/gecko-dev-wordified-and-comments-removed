@@ -179,7 +179,7 @@ BuildEnvironmentArray
 (
 options
 .
-environ
+env_map
 )
 ;
 pid_t
