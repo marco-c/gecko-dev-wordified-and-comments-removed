@@ -197,11 +197,6 @@ nsIScriptChannel
 idl
 '
 '
-nsISelection
-.
-idl
-'
-'
 nsISelectionController
 .
 idl

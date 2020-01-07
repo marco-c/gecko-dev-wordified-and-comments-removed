@@ -226,13 +226,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

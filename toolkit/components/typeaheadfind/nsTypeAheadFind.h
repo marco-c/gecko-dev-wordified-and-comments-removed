@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsIDOMRange
 .
 h

@@ -36,9 +36,6 @@ class
 nsIFrame
 ;
 class
-nsISelection
-;
-class
 nsITextControlElement
 ;
 class
@@ -47,6 +44,13 @@ nsTextControlFrame
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Selection
+;
+}
 class
 TextInputListener
 final
@@ -172,7 +176,10 @@ const
 nsAString
 &
 aCommandsToUpdate
-nsISelection
+dom
+:
+:
+Selection
 *
 aSelection
 =

@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsViewManager
 .
 h

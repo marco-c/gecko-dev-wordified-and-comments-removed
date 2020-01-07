@@ -102,13 +102,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsITransactionManager
 .
 h

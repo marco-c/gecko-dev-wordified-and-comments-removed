@@ -38,9 +38,6 @@ class
 nsINode
 ;
 class
-nsISelection
-;
-class
 nsIDocument
 ;
 class

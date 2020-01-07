@@ -3298,7 +3298,7 @@ caret
 return
 ;
 }
-nsISelection
+Selection
 *
 caretSelection
 =

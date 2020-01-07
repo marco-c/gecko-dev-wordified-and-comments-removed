@@ -237,9 +237,6 @@ nsIDOMRange
 class
 nsRange
 ;
-class
-nsISelection
-;
 namespace
 mozilla
 {
