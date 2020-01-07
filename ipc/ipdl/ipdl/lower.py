@@ -13458,7 +13458,24 @@ IPDLParamTraits
                    
 specializes
 =
+Type
+(
 fortype
+.
+name
+                                    
+T
+=
+fortype
+.
+T
+                                    
+inner
+=
+fortype
+.
+inner
+)
                    
 struct
 =

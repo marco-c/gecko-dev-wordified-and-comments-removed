@@ -3916,9 +3916,8 @@ ipc
 IPCResult
 RecvShowAlert
 (
-const
-AlertNotificationType
-&
+nsIAlertNotification
+*
 aAlert
 )
 override
@@ -4419,7 +4418,7 @@ aKeyword
 nsString
 *
 aProviderName
-nsCOMPtr
+RefPtr
 <
 nsIInputStream
 >

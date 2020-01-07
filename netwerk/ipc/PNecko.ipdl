@@ -280,10 +280,9 @@ h
 "
 ;
 using
-nsCOMPtr
-<
+refcounted
+class
 nsIInputStream
->
 from
 "
 mozilla
@@ -778,10 +777,7 @@ uri
 )
 returns
 (
-nsCOMPtr
-<
 nsIInputStream
->
 stream
 )
 ;

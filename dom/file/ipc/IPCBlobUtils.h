@@ -66,13 +66,6 @@ nsIContentParent
 namespace
 IPCBlobUtils
 {
-typedef
-RefPtr
-<
-BlobImpl
->
-BlobImplPtr
-;
 already_AddRefed
 <
 BlobImpl
@@ -184,8 +177,6 @@ template
 struct
 IPDLParamTraits
 <
-RefPtr
-<
 mozilla
 :
 :
@@ -193,7 +184,6 @@ dom
 :
 :
 BlobImpl
->
 >
 {
 static
@@ -209,9 +199,6 @@ aMsg
 IProtocol
 *
 aActor
-const
-RefPtr
-<
 mozilla
 :
 :
@@ -219,8 +206,7 @@ dom
 :
 :
 BlobImpl
->
-&
+*
 aParam
 )
 ;

@@ -28017,7 +28017,7 @@ type
 FileContentData
 :
 :
-TBlobImplPtr
+TBlobImpl
 )
 {
 if
@@ -28025,7 +28025,7 @@ if
 !
 it
 .
-get_BlobImplPtr
+get_BlobImpl
 (
 )
 )
@@ -28047,7 +28047,7 @@ Create
 aWindow
 it
 .
-get_BlobImplPtr
+get_BlobImpl
 (
 )
 )

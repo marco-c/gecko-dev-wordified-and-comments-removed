@@ -2759,10 +2759,7 @@ mOptionalValue
 void
 IPDLParamTraits
 <
-nsCOMPtr
-<
 nsIInputStream
->
 >
 :
 :
@@ -2777,12 +2774,8 @@ aMsg
 IProtocol
 *
 aActor
-const
-nsCOMPtr
-<
 nsIInputStream
->
-&
+*
 aParam
 )
 {
@@ -3086,10 +3079,7 @@ TakeOptionalValue
 bool
 IPDLParamTraits
 <
-nsCOMPtr
-<
 nsIInputStream
->
 >
 :
 :
@@ -3108,7 +3098,7 @@ aIter
 IProtocol
 *
 aActor
-nsCOMPtr
+RefPtr
 <
 nsIInputStream
 >

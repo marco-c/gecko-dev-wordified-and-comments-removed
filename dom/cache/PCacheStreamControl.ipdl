@@ -83,10 +83,9 @@ h
 "
 ;
 using
-nsCOMPtr
-<
+refcounted
+class
 nsIInputStream
->
 from
 "
 mozilla
@@ -123,10 +122,7 @@ aStreamId
 )
 returns
 (
-nsCOMPtr
-<
 nsIInputStream
->
 aStream
 )
 ;

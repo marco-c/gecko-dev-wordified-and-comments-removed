@@ -1849,10 +1849,9 @@ ipc
 IPCResult
 RecvGeolocationUpdate
 (
-const
-GeoPosition
-&
-somewhere
+nsIDOMGeoPosition
+*
+aPosition
 )
 override
 ;

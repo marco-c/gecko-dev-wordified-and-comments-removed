@@ -1350,8 +1350,6 @@ ipc
 void
 IPDLParamTraits
 <
-RefPtr
-<
 mozilla
 :
 :
@@ -1359,7 +1357,6 @@ dom
 :
 :
 BlobImpl
->
 >
 :
 :
@@ -1374,9 +1371,6 @@ aMsg
 IProtocol
 *
 aActor
-const
-RefPtr
-<
 mozilla
 :
 :
@@ -1384,8 +1378,7 @@ dom
 :
 :
 BlobImpl
->
-&
+*
 aParam
 )
 {
@@ -1469,8 +1462,6 @@ ipcblob
 bool
 IPDLParamTraits
 <
-RefPtr
-<
 mozilla
 :
 :
@@ -1478,7 +1469,6 @@ dom
 :
 :
 BlobImpl
->
 >
 :
 :

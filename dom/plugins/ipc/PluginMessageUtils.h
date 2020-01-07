@@ -1906,14 +1906,8 @@ struct
 ParamTraits
 <
 NPNSString
-*
 >
 {
-typedef
-NPNSString
-*
-paramType
-;
 static
 void
 Write
@@ -1921,9 +1915,8 @@ Write
 Message
 *
 aMsg
-const
-paramType
-&
+NPNSString
+*
 aParam
 )
 {
@@ -2078,7 +2071,8 @@ aMsg
 PickleIterator
 *
 aIter
-paramType
+NPNSString
+*
 *
 aResult
 )

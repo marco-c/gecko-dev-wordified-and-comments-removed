@@ -371,7 +371,9 @@ h
 "
 ;
 using
-GeoPosition
+refcounted
+class
+nsIDOMGeoPosition
 from
 "
 nsGeoPositionIPCSerialiser
@@ -380,7 +382,9 @@ h
 "
 ;
 using
-AlertNotificationType
+refcounted
+class
+nsIAlertNotification
 from
 "
 mozilla
@@ -906,10 +910,9 @@ h
 "
 ;
 using
-nsCOMPtr
-<
+refcounted
+class
 nsIInputStream
->
 from
 "
 mozilla
@@ -2413,8 +2416,8 @@ data
 async
 GeolocationUpdate
 (
-GeoPosition
-somewhere
+nsIDOMGeoPosition
+aPosition
 )
 ;
 async
@@ -4401,7 +4404,7 @@ retval
 async
 ShowAlert
 (
-AlertNotificationType
+nsIAlertNotification
 alert
 )
 ;
@@ -4790,10 +4793,7 @@ returns
 (
 nsString
 providerName
-nsCOMPtr
-<
 nsIInputStream
->
 postData
 OptionalURIParams
 uri
