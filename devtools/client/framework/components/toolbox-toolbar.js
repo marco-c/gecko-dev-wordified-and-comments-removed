@@ -78,7 +78,7 @@ dom
 ;
 const
 {
-openLink
+openTrustedLink
 }
 =
 require
@@ -1376,7 +1376,7 @@ click
 =
 >
 {
-openLink
+openTrustedLink
 (
 "
 https
@@ -1443,7 +1443,7 @@ click
 =
 >
 {
-openLink
+openTrustedLink
 (
 "
 https
