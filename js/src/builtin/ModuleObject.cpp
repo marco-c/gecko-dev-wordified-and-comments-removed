@@ -4388,14 +4388,6 @@ environment
 )
 const
 {
-MOZ_ASSERT
-(
-!
-hadEvaluationError
-(
-)
-)
-;
 if
 (
 status
