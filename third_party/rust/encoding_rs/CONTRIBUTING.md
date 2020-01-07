@@ -318,11 +318,9 @@ for
 this
 code
 is
-0
-.
-8
-.
-4
+rustfmt
+-
+nightly
 .
 Please
 either

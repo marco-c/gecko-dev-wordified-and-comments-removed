@@ -1,11 +1,11 @@
 use
-variant
+super
 :
 :
 *
 ;
 use
-super
+variant
 :
 :
 *
