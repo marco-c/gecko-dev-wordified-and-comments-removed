@@ -1319,6 +1319,15 @@ unreachable
 Component
 :
 :
+Slotted
+(
+.
+.
+)
+|
+Component
+:
+:
 PseudoElement
 (
 .
