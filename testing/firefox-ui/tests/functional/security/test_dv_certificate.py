@@ -70,11 +70,11 @@ https
 :
 /
 /
-mozilla
+ssl
 -
-intermediate
+dv
 .
-badssl
+mozqa
 .
 com
 '
@@ -232,7 +232,7 @@ certificate
         
 self
 .
-assertRegexpMatches
+assertEqual
 (
 self
 .
@@ -250,35 +250,13 @@ get_property
 textContent
 '
 )
-                                 
-'
-.
-*
-badssl
-\
-.
-com
-'
-)
-        
-self
-.
-assertRegexpMatches
-(
+                         
 cert
 [
 '
 commonName
 '
 ]
-'
-.
-*
-badssl
-\
-.
-com
-'
 )
         
 secure_label
@@ -557,7 +535,7 @@ security
         
 self
 .
-assertRegexpMatches
+assertEqual
 (
 deck
 .
@@ -571,15 +549,13 @@ get_property
 value
 '
 )
-                                 
+                         
+cert
+[
 '
-.
-*
-badssl
-\
-.
-com
+commonName
 '
+]
 )
         
 self
