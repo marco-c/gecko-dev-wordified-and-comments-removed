@@ -1406,7 +1406,7 @@ return
 audio_pipeline_
 -
 >
-rtp_packets_sent
+RtpPacketsSent
 (
 )
 ;
@@ -1420,7 +1420,7 @@ return
 audio_pipeline_
 -
 >
-rtp_packets_received
+RtpPacketsReceived
 (
 )
 ;
@@ -1434,7 +1434,7 @@ return
 audio_pipeline_
 -
 >
-rtcp_packets_sent
+RtcpPacketsSent
 (
 )
 ;
@@ -1448,7 +1448,7 @@ return
 audio_pipeline_
 -
 >
-rtcp_packets_received
+RtcpPacketsReceived
 (
 )
 ;
