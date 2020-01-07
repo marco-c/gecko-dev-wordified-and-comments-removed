@@ -5050,6 +5050,13 @@ SOURCES
 '
 frontend
 /
+BinSource
+.
+cpp
+'
+'
+frontend
+/
 BinToken
 .
 cpp
