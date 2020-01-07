@@ -1939,6 +1939,16 @@ aContent
 nsEventStatus
 *
 aStatus
+bool
+aIsHandlingNativeEvent
+=
+false
+nsIContent
+*
+*
+aTargetContent
+=
+nullptr
 )
 =
 0
