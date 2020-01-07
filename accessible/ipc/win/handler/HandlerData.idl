@@ -132,13 +132,6 @@ h
 "
 import
 "
-oaidl
-.
-idl
-"
-;
-import
-"
 ocidl
 .
 idl
@@ -200,10 +193,6 @@ _StaticIA2Data
 NEWEST_IA2_INTERFACE
 *
 mIA2
-;
-IEnumVARIANT
-*
-mIEnumVARIANT
 ;
 IAccessibleHypertext2
 *
