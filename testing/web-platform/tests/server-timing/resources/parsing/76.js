@@ -1,0 +1,10 @@
+testServerTiming
+(
+document
+.
+currentScript
+.
+src
+[
+]
+)

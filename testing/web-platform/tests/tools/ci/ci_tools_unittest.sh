@@ -126,6 +126,14 @@ pypy
 ]
 ;
 then
+TOXENV
+=
+"
+TOXENV
+py27
+-
+flake8
+"
 cd
 tools
 /

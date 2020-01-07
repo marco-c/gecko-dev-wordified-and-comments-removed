@@ -1346,7 +1346,7 @@ test_atom_1
 self
 )
 :
-            
+        
 self
 .
 compare
@@ -1369,7 +1369,7 @@ test_atom_2
 self
 )
 :
-            
+        
 self
 .
 compare
@@ -1392,7 +1392,7 @@ test_atom_3
 self
 )
 :
-            
+        
 self
 .
 compare

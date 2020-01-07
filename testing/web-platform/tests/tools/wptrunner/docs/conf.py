@@ -121,7 +121,7 @@ latex_elements
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -136,7 +136,7 @@ u
 wptrunner
 Documentation
 '
-   
+     
 u
 '
 James
@@ -177,7 +177,7 @@ Graham
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -190,7 +190,7 @@ u
 wptrunner
 Documentation
 '
-   
+     
 u
 '
 James
@@ -207,7 +207,7 @@ of
 project
 .
 '
-   
+     
 '
 Miscellaneous
 '

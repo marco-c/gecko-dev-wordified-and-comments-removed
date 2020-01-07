@@ -1231,7 +1231,7 @@ Files
 "
 tests
 /
-XMLHttpRequest
+xhr
 /
 *
 *
@@ -4119,8 +4119,6 @@ Files
 tests
 /
 quirks
--
-mode
 /
 *
 *

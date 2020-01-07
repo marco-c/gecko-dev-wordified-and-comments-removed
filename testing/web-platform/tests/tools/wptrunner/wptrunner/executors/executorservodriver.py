@@ -219,6 +219,7 @@ start
 )
         
 except
+Exception
 :
             
 self
@@ -349,6 +350,7 @@ end
 )
         
 except
+Exception
 :
             
 pass
