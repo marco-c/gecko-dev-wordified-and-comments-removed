@@ -285,6 +285,12 @@ base
 '
 '
 /
+dom
+/
+media
+'
+'
+/
 media
 /
 libyuv
