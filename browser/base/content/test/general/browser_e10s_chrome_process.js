@@ -312,6 +312,11 @@ about
 :
 blank
 "
+{
+forceNotRemote
+:
+true
+}
 )
 ;
 }
