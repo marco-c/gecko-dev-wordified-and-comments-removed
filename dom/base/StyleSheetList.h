@@ -7,6 +7,13 @@ mozilla_dom_StyleSheetList_h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
