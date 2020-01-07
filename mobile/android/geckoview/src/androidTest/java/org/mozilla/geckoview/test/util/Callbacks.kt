@@ -139,6 +139,9 @@ Int
 uri
 :
 String
+elementType
+:
+Int
 elementSrc
 :
 String
