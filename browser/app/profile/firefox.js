@@ -704,7 +704,6 @@ getSymbolRules
 "
 "
 localBreakpad
-remoteBreakpad
 nm
 "
 )
@@ -728,7 +727,6 @@ getSymbolRules
 "
 "
 localBreakpad
-remoteBreakpad
 dump_syms
 .
 exe
