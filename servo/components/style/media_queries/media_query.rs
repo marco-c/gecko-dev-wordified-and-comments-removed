@@ -55,7 +55,7 @@ use
 super
 :
 :
-Expression
+MediaFeatureExpression
 ;
 use
 values
@@ -250,7 +250,7 @@ expressions
 :
 Vec
 <
-Expression
+MediaFeatureExpression
 >
 }
 impl
@@ -675,7 +675,7 @@ expressions
 .
 push
 (
-Expression
+MediaFeatureExpression
 :
 :
 parse
@@ -733,7 +733,7 @@ expressions
 .
 push
 (
-Expression
+MediaFeatureExpression
 :
 :
 parse

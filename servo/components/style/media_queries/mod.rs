@@ -50,7 +50,7 @@ media_queries
 :
 {
 Device
-Expression
+MediaFeatureExpression
 }
 ;
 #
@@ -74,6 +74,6 @@ media_queries
 :
 {
 Device
-Expression
+MediaFeatureExpression
 }
 ;

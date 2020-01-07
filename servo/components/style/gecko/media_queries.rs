@@ -1403,7 +1403,7 @@ MallocSizeOf
 ]
 pub
 struct
-Expression
+MediaFeatureExpression
 {
 feature
 :
@@ -1427,7 +1427,7 @@ RangeOrOperator
 impl
 ToCss
 for
-Expression
+MediaFeatureExpression
 {
 fn
 to_css
@@ -1680,7 +1680,7 @@ write_str
 impl
 PartialEq
 for
-Expression
+MediaFeatureExpression
 {
 fn
 eq
@@ -1690,7 +1690,7 @@ self
 other
 :
 &
-Expression
+Self
 )
 -
 >
@@ -1787,7 +1787,7 @@ from_css_value
 for_expr
 :
 &
-Expression
+MediaFeatureExpression
 css_value
 :
 &
@@ -2223,7 +2223,7 @@ W
 for_expr
 :
 &
-Expression
+MediaFeatureExpression
 )
 -
 >
@@ -3382,7 +3382,7 @@ Err
 )
 }
 impl
-Expression
+MediaFeatureExpression
 {
 fn
 new
@@ -4012,7 +4012,7 @@ RangedExpressionWithNoValue
 return
 Ok
 (
-Expression
+Self
 :
 :
 new
@@ -4167,7 +4167,7 @@ MediaQueryExpectedFeatureValue
 ;
 Ok
 (
-Expression
+Self
 :
 :
 new

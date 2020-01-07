@@ -47,9 +47,7 @@ media_queries
 :
 {
 Device
-Expression
-as
-MediaExpression
+MediaFeatureExpression
 }
 ;
 use
@@ -107,7 +105,7 @@ SourceSize
 {
 condition
 :
-MediaExpression
+MediaFeatureExpression
 value
 :
 Length
@@ -157,7 +155,7 @@ i
 let
 condition
 =
-MediaExpression
+MediaFeatureExpression
 :
 :
 parse

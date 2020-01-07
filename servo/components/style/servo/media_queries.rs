@@ -693,14 +693,14 @@ MallocSizeOf
 ]
 pub
 struct
-Expression
+MediaFeatureExpression
 (
 pub
 ExpressionKind
 )
 ;
 impl
-Expression
+MediaFeatureExpression
 {
 pub
 fn
@@ -791,7 +791,7 @@ expect_colon
 ;
 Ok
 (
-Expression
+MediaFeatureExpression
 (
 match_ignore_ascii_case
 !
@@ -911,10 +911,6 @@ SelectorParseErrorKind
 UnexpectedIdent
 (
 name
-.
-clone
-(
-)
 )
 )
 )
@@ -1036,7 +1032,7 @@ width
 impl
 ToCss
 for
-Expression
+MediaFeatureExpression
 {
 fn
 to_css
