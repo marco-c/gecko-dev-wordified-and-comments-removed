@@ -1867,6 +1867,15 @@ frontend
 TokenStream
 '
 '
+js
+:
+:
+frontend
+:
+:
+TokenStreamAnyChars
+'
+'
 mozilla
 :
 :

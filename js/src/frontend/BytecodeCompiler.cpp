@@ -1315,7 +1315,7 @@ if
 parser
 -
 >
-tokenStream
+anyChars
 .
 hadError
 (
@@ -1906,7 +1906,7 @@ module
 parser
 -
 >
-tokenStream
+anyChars
 )
 ;
 if

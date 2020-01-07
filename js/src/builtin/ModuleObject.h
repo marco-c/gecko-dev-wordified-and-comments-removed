@@ -97,7 +97,7 @@ class
 ParseNode
 ;
 class
-TokenStream
+TokenStreamAnyChars
 ;
 }
 typedef
@@ -1545,7 +1545,7 @@ const
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 tokenStream
 )
@@ -1735,7 +1735,7 @@ const
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 tokenStream_
 ;

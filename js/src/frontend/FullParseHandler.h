@@ -50,6 +50,9 @@ h
 namespace
 js
 {
+class
+RegExpObject
+;
 namespace
 frontend
 {

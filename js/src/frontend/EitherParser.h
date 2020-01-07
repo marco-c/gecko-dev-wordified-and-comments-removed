@@ -762,7 +762,7 @@ return
 parser
 -
 >
-tokenStream
+anyChars
 ;
 }
 }

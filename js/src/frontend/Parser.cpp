@@ -3375,7 +3375,7 @@ begin
 )
 &
 &
-tokenStream
+anyChars
 .
 compileWarning
 (
@@ -3455,7 +3455,7 @@ result
 {
 result
 =
-tokenStream
+anyChars
 .
 compileWarning
 (
@@ -3762,7 +3762,7 @@ errorNumber
 ErrorMetadata
 metadata
 ;
-tokenStream
+anyChars
 .
 computeErrorMetadataNoOffset
 (
@@ -3773,7 +3773,7 @@ metadata
 bool
 result
 =
-tokenStream
+anyChars
 .
 compileWarning
 (
@@ -3821,7 +3821,7 @@ errorNumber
 ErrorMetadata
 metadata
 ;
-tokenStream
+anyChars
 .
 computeErrorMetadataNoOffset
 (
@@ -4058,12 +4058,10 @@ alloc
 (
 alloc
 )
-tokenStream
+anyChars
 (
 cx
 options
-chars
-length
 thisForCtor
 (
 )
@@ -4227,6 +4225,13 @@ syntaxParser_
 (
 syntaxParser
 )
+tokenStream
+(
+cx
+options
+chars
+length
+)
 handler
 (
 cx
@@ -4274,7 +4279,7 @@ true
 #
 endif
 return
-tokenStream
+anyChars
 .
 checkOptions
 (
@@ -5058,7 +5063,7 @@ uint32_t
 line
 column
 ;
-tokenStream
+anyChars
 .
 srcCoords
 .
@@ -5267,7 +5272,7 @@ uint32_t
 line
 column
 ;
-tokenStream
+anyChars
 .
 srcCoords
 .
@@ -12589,7 +12594,7 @@ tt
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 currentName
 (
@@ -12620,7 +12625,7 @@ explicitName
 nullptr
 )
 ;
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -14132,7 +14137,7 @@ isAsync
 )
 &
 &
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -14161,7 +14166,7 @@ yieldExpressionsSupported
 )
 &
 &
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -14512,9 +14517,6 @@ parenFreeArrow
 =
 false
 ;
-TokenStream
-:
-:
 Modifier
 firstTokenModifier
 =
@@ -14523,9 +14525,6 @@ TokenStream
 :
 None
 ;
-TokenStream
-:
-:
 Modifier
 argModifier
 =
@@ -14659,7 +14658,7 @@ funbox
 >
 setStart
 (
-tokenStream
+anyChars
 )
 ;
 }
@@ -15097,7 +15096,7 @@ funbox
 >
 setStart
 (
-tokenStream
+anyChars
 )
 ;
 RootedPropertyName
@@ -16296,6 +16295,7 @@ newDirectives
 =
 directives
 ;
+typename
 TokenStream
 :
 :
@@ -16342,7 +16342,7 @@ break
 }
 if
 (
-tokenStream
+anyChars
 .
 hadError
 (
@@ -16504,6 +16504,7 @@ getRewindToken
 (
 )
 ;
+typename
 TokenStream
 :
 :
@@ -16532,7 +16533,7 @@ tokenStream
 seek
 (
 position
-tokenStream
+anyChars
 )
 )
 return
@@ -16667,7 +16668,7 @@ position
 syntaxParser_
 -
 >
-tokenStream
+anyChars
 )
 )
 return
@@ -16680,7 +16681,7 @@ pn_pos
 .
 end
 =
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -17199,9 +17200,6 @@ null
 (
 )
 ;
-TokenStream
-:
-:
 Modifier
 modifier
 =
@@ -17758,7 +17756,7 @@ false
 #
 endif
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -17980,7 +17978,7 @@ handler
 getFunctionNameOffset
 (
 pn
-tokenStream
+anyChars
 )
 ;
 if
@@ -18025,7 +18023,7 @@ funbox
 >
 setEnd
 (
-tokenStream
+anyChars
 )
 ;
 }
@@ -18047,7 +18045,7 @@ Arrow
 endif
 if
 (
-tokenStream
+anyChars
 .
 hadError
 (
@@ -18061,7 +18059,7 @@ funbox
 >
 setEnd
 (
-tokenStream
+anyChars
 )
 ;
 if
@@ -18183,7 +18181,7 @@ asyncKind
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -18419,7 +18417,7 @@ names
 .
 default_
 ;
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -18650,7 +18648,7 @@ asyncKind
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -18772,7 +18770,7 @@ null
 }
 else
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -19223,7 +19221,7 @@ strict
 {
 if
 (
-tokenStream
+anyChars
 .
 sawOctalEscape
 (
@@ -19373,7 +19371,7 @@ if
 (
 canHaveDirectives
 )
-tokenStream
+anyChars
 .
 clearSawOctalEscape
 (
@@ -19423,7 +19421,7 @@ Operand
 {
 if
 (
-tokenStream
+anyChars
 .
 isEOF
 (
@@ -19532,7 +19530,7 @@ next
 {
 if
 (
-tokenStream
+anyChars
 .
 isEOF
 (
@@ -20667,7 +20665,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -20963,7 +20961,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -21063,7 +21061,7 @@ tt
 TOK_RC
 )
 {
-tokenStream
+anyChars
 .
 addModifierException
 (
@@ -21181,7 +21179,7 @@ else
 TokenPos
 namePos
 =
-tokenStream
+anyChars
 .
 nextToken
 (
@@ -21602,7 +21600,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -21715,13 +21713,13 @@ tt
 TOK_RB
 )
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
 )
 ;
-tokenStream
+anyChars
 .
 addModifierException
 (
@@ -22037,7 +22035,7 @@ tt
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -22224,7 +22222,7 @@ errorNumber
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -22425,7 +22423,7 @@ forInOrOfExpression
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -22433,7 +22431,7 @@ TOK_LB
 )
 |
 |
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -22659,7 +22657,7 @@ forInOrOfExpression
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -23593,7 +23591,7 @@ PropertyName
 importName
 (
 context
-tokenStream
+anyChars
 .
 currentName
 (
@@ -24030,16 +24028,12 @@ importDeclaration
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
-currentToken
+isCurrentTokenType
 (
-)
-.
-type
-=
-=
 TOK_IMPORT
+)
 )
 ;
 if
@@ -25138,7 +25132,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -25271,7 +25265,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -25509,7 +25503,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -25598,7 +25592,7 @@ bindingName
 =
 newName
 (
-tokenStream
+anyChars
 .
 currentName
 (
@@ -25650,7 +25644,7 @@ exportName
 =
 newName
 (
-tokenStream
+anyChars
 .
 currentName
 (
@@ -25902,7 +25896,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26043,7 +26037,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26170,7 +26164,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26325,7 +26319,7 @@ DeclarationKind
 :
 :
 Const
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26342,7 +26336,7 @@ DeclarationKind
 :
 :
 Let
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26471,7 +26465,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26588,7 +26582,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -26877,7 +26871,7 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -27008,7 +27002,7 @@ AsyncFunction
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -27032,7 +27026,7 @@ begin
 ;
 default
 :
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -27083,16 +27077,12 @@ null
 ;
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
-currentToken
+isCurrentTokenType
 (
-)
-.
-type
-=
-=
 TOK_EXPORT
+)
 )
 ;
 if
@@ -27348,7 +27338,7 @@ InvokedPrediction
 invoked
 )
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -28296,7 +28286,7 @@ isForInp
 *
 isForOfp
 )
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -28363,7 +28353,7 @@ forInOrOfExpression
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -28542,7 +28532,7 @@ if
 parsingLexicalDeclaration
 )
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -28938,7 +28928,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -29528,7 +29518,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -30077,7 +30067,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -30380,7 +30370,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -30593,7 +30583,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -30766,7 +30756,7 @@ inHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -30881,7 +30871,7 @@ null
 (
 )
 ;
-tokenStream
+anyChars
 .
 addModifierException
 (
@@ -30988,7 +30978,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -31261,7 +31251,7 @@ NameRequired
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -31459,7 +31449,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -31628,7 +31618,7 @@ yieldHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -32189,7 +32179,7 @@ openedPos
 }
 else
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -32603,7 +32593,7 @@ defaultHandling
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -32707,7 +32697,7 @@ names
 .
 default_
 ;
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -32730,7 +32720,7 @@ null
 }
 else
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -33047,7 +33037,7 @@ isStatic
 true
 ;
 else
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -33056,7 +33046,7 @@ ungetToken
 }
 else
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -33352,7 +33342,7 @@ SetterNoExpressionClosure
 if
 (
 !
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -33404,7 +33394,7 @@ default
 if
 (
 !
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -33746,7 +33736,7 @@ next
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -33970,9 +33960,6 @@ case
 TOK_YIELD
 :
 {
-TokenStream
-:
-:
 Modifier
 modifier
 ;
@@ -34606,7 +34593,7 @@ if
 canHaveDirectives
 &
 &
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -34663,9 +34650,6 @@ case
 TOK_YIELD
 :
 {
-TokenStream
-:
-:
 Modifier
 modifier
 ;
@@ -35325,7 +35309,7 @@ null
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -35858,13 +35842,13 @@ PRECEDENCE_CLASSES
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
 )
 ;
-tokenStream
+anyChars
 .
 addModifierException
 (
@@ -36219,7 +36203,7 @@ endsExpr
 return
 newNumber
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -36325,12 +36309,13 @@ maybeAsyncArrow
 true
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
 )
 ;
+typename
 TokenStream
 :
 :
@@ -36585,7 +36570,7 @@ pos
 .
 begin
 ;
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -36660,7 +36645,7 @@ FunctionAsyncKind
 AsyncFunction
 ;
 else
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -36851,7 +36836,7 @@ default
 MOZ_ASSERT
 (
 !
-tokenStream
+anyChars
 .
 isCurrentTokenAssignment
 (
@@ -36889,7 +36874,7 @@ possibleError
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -38489,7 +38474,7 @@ invoked
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -38560,7 +38545,7 @@ else
 {
 tt
 =
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -38770,7 +38755,7 @@ isSuperBase
 (
 lhs
 )
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -38847,7 +38832,7 @@ PropertyName
 *
 field
 =
-tokenStream
+anyChars
 .
 currentName
 (
@@ -39586,7 +39571,7 @@ op
 }
 else
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -40232,13 +40217,13 @@ TokenKind
 hint
 =
 !
-tokenStream
+anyChars
 .
 currentNameHasEscapes
 (
 )
 ?
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40252,7 +40237,7 @@ RootedPropertyName
 ident
 (
 context
-tokenStream
+anyChars
 .
 currentName
 (
@@ -40307,13 +40292,13 @@ TokenKind
 hint
 =
 !
-tokenStream
+anyChars
 .
 currentNameHasEscapes
 (
 )
 ?
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40327,7 +40312,7 @@ RootedPropertyName
 ident
 (
 context
-tokenStream
+anyChars
 .
 currentName
 (
@@ -40448,7 +40433,7 @@ handler
 .
 newStringLiteral
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40488,14 +40473,14 @@ noSubstitutionTaggedTemplate
 {
 if
 (
-tokenStream
+anyChars
 .
 hasInvalidTemplateEscape
 (
 )
 )
 {
-tokenStream
+anyChars
 .
 clearInvalidTemplateEscape
 (
@@ -40517,7 +40502,7 @@ handler
 .
 newTemplateStringLiteral
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40574,7 +40559,7 @@ handler
 .
 newTemplateStringLiteral
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40646,7 +40631,7 @@ length
 RegExpFlag
 flags
 =
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40677,9 +40662,7 @@ context
 chars
 length
 flags
-nullptr
-&
-tokenStream
+anyChars
 alloc
 TenuredObject
 )
@@ -40767,7 +40750,7 @@ length
 RegExpFlag
 flags
 =
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -40802,7 +40785,7 @@ irregexp
 :
 ParsePatternSyntax
 (
-tokenStream
+anyChars
 alloc
 source
 flags
@@ -41273,7 +41256,7 @@ possibleError
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -41352,7 +41335,7 @@ PNX_NONCONST
 }
 else
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -42021,7 +42004,7 @@ set
 DoubleToAtom
 (
 context
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -42051,7 +42034,7 @@ propName
 =
 newNumber
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -42078,7 +42061,7 @@ propAtom
 .
 set
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -42208,7 +42191,7 @@ propAtom
 .
 set
 (
-tokenStream
+anyChars
 .
 currentName
 (
@@ -42319,7 +42302,7 @@ propAtom
 .
 set
 (
-tokenStream
+anyChars
 .
 currentName
 (
@@ -42357,7 +42340,7 @@ propAtom
 .
 set
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -42449,7 +42432,7 @@ set
 DoubleToAtom
 (
 context
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -42478,7 +42461,7 @@ null
 return
 newNumber
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -42645,13 +42628,13 @@ null
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
 )
 ;
-tokenStream
+anyChars
 .
 addModifierException
 (
@@ -42691,7 +42674,7 @@ tt
 TOK_LP
 )
 {
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -42798,7 +42781,7 @@ literal
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -42930,7 +42913,7 @@ possibleError
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -43030,7 +43013,7 @@ tt
 TOK_RC
 )
 {
-tokenStream
+anyChars
 .
 addModifierException
 (
@@ -43165,7 +43148,7 @@ else
 TokenPos
 namePos
 =
-tokenStream
+anyChars
 .
 nextToken
 (
@@ -43713,7 +43696,7 @@ context
 if
 (
 !
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -44204,7 +44187,7 @@ newTarget
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -44416,7 +44399,7 @@ invoked
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
@@ -44798,7 +44781,7 @@ TOK_NUMBER
 return
 newNumber
 (
-tokenStream
+anyChars
 .
 currentToken
 (
@@ -45142,7 +45125,7 @@ null
 )
 ;
 }
-tokenStream
+anyChars
 .
 ungetToken
 (
@@ -45195,7 +45178,7 @@ possibleError
 {
 MOZ_ASSERT
 (
-tokenStream
+anyChars
 .
 isCurrentTokenType
 (
