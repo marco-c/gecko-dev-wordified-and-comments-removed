@@ -796,21 +796,6 @@ and
 run
 Talos
 tests
-:
-    
-https
-:
-/
-/
-wiki
-.
-mozilla
-.
-org
-/
-Buildbot
-/
-Talos
     
 "
 "

@@ -1850,22 +1850,6 @@ project
 '
 ]
 )
-        
-mh_command
-.
-append
-(
-r
-'
--
--
-skip
--
-buildbot
--
-actions
-'
-)
     
 mh_command
 .

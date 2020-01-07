@@ -418,25 +418,6 @@ code_coverage
                 
 return
 True
-            
-return
-'
-ccov
-'
-in
-self
-.
-buildbot_config
-[
-'
-properties
-'
-]
-[
-'
-stage_platform
-'
-]
         
 except
 (
@@ -556,25 +537,6 @@ jsd_code_coverage
                 
 return
 True
-            
-return
-'
-jsdcov
-'
-in
-self
-.
-buildbot_config
-[
-'
-properties
-'
-]
-[
-'
-stage_platform
-'
-]
         
 except
 (
