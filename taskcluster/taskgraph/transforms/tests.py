@@ -159,6 +159,7 @@ util
 schema
 import
 resolve_keyed_by
+OptimizationSchema
 from
 taskgraph
 .
@@ -2404,6 +2405,21 @@ basestring
     
 }
 )
+    
+Exclusive
+(
+Optional
+(
+'
+optimization
+'
+)
+'
+optimization
+'
+)
+:
+OptimizationSchema
     
 Exclusive
 (
@@ -7940,6 +7956,28 @@ test
 [
 '
 when
+'
+]
+        
+elif
+'
+optimization
+'
+in
+test
+:
+            
+jobdesc
+[
+'
+optimization
+'
+]
+=
+test
+[
+'
+optimization
 '
 ]
         
