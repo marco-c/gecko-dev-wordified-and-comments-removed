@@ -128,12 +128,6 @@ FieldsIdentified
 "
 )
 ;
-FormAutofillContent
-.
-updateActiveInput
-(
-)
-;
 }
 )
 ;
@@ -213,12 +207,6 @@ isAutofillEnabled
 return
 ;
 }
-FormAutofillContent
-.
-updateActiveInput
-(
-)
-;
 let
 element
 =
