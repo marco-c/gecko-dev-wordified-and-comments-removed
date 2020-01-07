@@ -3282,9 +3282,6 @@ SystemAllocPolicy
 IteratorCache
 iteratorCache
 ;
-int32_t
-detachedTypedObjects
-;
 void
 chooseAllocationSamplingProbability
 (

@@ -2174,7 +2174,7 @@ OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 cx
 -
 >
-compartment
+zone
 (
 )
 -

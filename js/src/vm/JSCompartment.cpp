@@ -291,10 +291,6 @@ nullptr
 regExps
 (
 )
-detachedTypedObjects
-(
-0
-)
 innerViews
 (
 zone

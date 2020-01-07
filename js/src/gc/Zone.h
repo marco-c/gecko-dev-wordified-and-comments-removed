@@ -3428,6 +3428,11 @@ return
 p
 ;
 }
+uint32_t
+detachedTypedObjects
+=
+0
+;
 private
 :
 js

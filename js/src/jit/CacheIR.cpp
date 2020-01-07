@@ -7412,7 +7412,7 @@ jitSupportsFloatingPoint
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
@@ -9895,7 +9895,7 @@ obj
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
@@ -16043,7 +16043,7 @@ jitSupportsFloatingPoint
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
@@ -18069,7 +18069,7 @@ if
 cx_
 -
 >
-compartment
+zone
 (
 )
 -

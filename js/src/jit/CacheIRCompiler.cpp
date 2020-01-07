@@ -9830,7 +9830,7 @@ failure
 return
 false
 ;
-int32_t
+uint32_t
 *
 address
 =
@@ -9838,7 +9838,7 @@ address
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
