@@ -3820,9 +3820,6 @@ spec
 "
 scheme
 "
-"
-host
-"
 ]
 ;
 propertiesToCheck

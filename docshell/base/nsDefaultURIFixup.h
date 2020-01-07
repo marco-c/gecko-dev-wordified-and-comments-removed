@@ -123,8 +123,11 @@ aUrl
 bool
 MakeAlternateURI
 (
+nsCOMPtr
+<
 nsIURI
-*
+>
+&
 aURI
 )
 ;
