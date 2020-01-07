@@ -153,9 +153,6 @@ uint8_t
 struct
 Keyframe
 ;
-enum
-Side
-;
 struct
 StyleTransition
 ;
