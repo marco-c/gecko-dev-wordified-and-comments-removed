@@ -138,11 +138,6 @@ nsIDOMNSEditableElement
 .
 idl
 '
-'
-nsIDOMXMLDocument
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

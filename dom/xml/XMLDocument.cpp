@@ -1426,12 +1426,6 @@ mLoopingForSyncLoad
 false
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-XMLDocument
-nsDocument
-nsIDOMXMLDocument
-)
 nsresult
 XMLDocument
 :
