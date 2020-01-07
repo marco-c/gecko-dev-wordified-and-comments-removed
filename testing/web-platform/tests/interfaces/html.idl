@@ -735,6 +735,10 @@ HTMLElement
 includes
 ElementContentEditable
 ;
+HTMLElement
+includes
+HTMLOrSVGElement
+;
 /
 /
 Note
@@ -788,14 +792,6 @@ blur
 )
 ;
 }
-;
-HTMLElement
-includes
-HTMLOrSVGElement
-;
-SVGElement
-includes
-HTMLOrSVGElement
 ;
 [
 Exposed
