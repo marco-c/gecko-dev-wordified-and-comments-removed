@@ -48,6 +48,8 @@ jsm
 var
 {
 HiddenExtensionPage
+browserPaintedPromise
+browserStartupPromise
 promiseExtensionViewLoaded
 }
 =
