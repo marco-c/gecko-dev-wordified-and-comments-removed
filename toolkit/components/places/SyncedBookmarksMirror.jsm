@@ -11058,11 +11058,14 @@ ID
 *
 /
 INSERT
+OR
+IGNORE
 INTO
 moz_keywords
 (
 keyword
 place_id
+post_data
 )
 SELECT
 OLD
@@ -11071,6 +11074,8 @@ newKeyword
 OLD
 .
 newPlaceId
+'
+'
 WHERE
 OLD
 .
@@ -11871,11 +11876,14 @@ set
 *
 /
 INSERT
+OR
+IGNORE
 INTO
 moz_keywords
 (
 keyword
 place_id
+post_data
 )
 SELECT
 OLD
@@ -11884,6 +11892,8 @@ newKeyword
 OLD
 .
 newPlaceId
+'
+'
 WHERE
 OLD
 .
