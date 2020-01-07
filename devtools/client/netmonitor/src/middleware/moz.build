@@ -71,11 +71,6 @@ recording
 js
 '
 '
-throttling
-.
-js
-'
-'
 thunk
 .
 js

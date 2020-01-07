@@ -127,10 +127,10 @@ client
 /
 shared
 /
-components
-/
+network
+-
 throttling
-/
+-
 profiles
 "
 )
@@ -2326,7 +2326,7 @@ change
 -
 network
 -
-throttling
+throtting
 "
 :
 this

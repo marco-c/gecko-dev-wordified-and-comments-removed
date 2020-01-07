@@ -121,15 +121,7 @@ createFactory
 require
 (
 "
-devtools
-/
-client
-/
-shared
-/
-components
-/
-throttling
+.
 /
 NetworkThrottlingSelector
 "

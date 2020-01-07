@@ -118,6 +118,11 @@ GlobalToolbar
 js
 '
 '
+NetworkThrottlingSelector
+.
+js
+'
+'
 ReloadConditions
 .
 js

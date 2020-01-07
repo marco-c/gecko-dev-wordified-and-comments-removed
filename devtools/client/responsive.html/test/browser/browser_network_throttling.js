@@ -15,10 +15,10 @@ client
 /
 shared
 /
-components
-/
+network
+-
 throttling
-/
+-
 profiles
 "
 )
