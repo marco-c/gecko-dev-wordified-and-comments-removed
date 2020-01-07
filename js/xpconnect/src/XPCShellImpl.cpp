@@ -5236,6 +5236,11 @@ cx
 ;
 opts
 .
+setUTF8
+(
+true
+)
+.
 setFileAndLine
 (
 "
