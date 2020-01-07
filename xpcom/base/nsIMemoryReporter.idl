@@ -3719,11 +3719,6 @@ LowMemoryEventsVirtual
 DECL_REGISTER_DISTINGUISHED_AMOUNT
 (
 Infallible
-LowMemoryEventsCommitSpace
-)
-DECL_REGISTER_DISTINGUISHED_AMOUNT
-(
-Infallible
 LowMemoryEventsPhysical
 )
 DECL_REGISTER_DISTINGUISHED_AMOUNT

@@ -15,6 +15,11 @@ Init
 (
 )
 ;
+void
+Activate
+(
+)
+;
 }
 }
 #
