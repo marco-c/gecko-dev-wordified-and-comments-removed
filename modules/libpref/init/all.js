@@ -18742,6 +18742,7 @@ newtab
 printpreview
 srcdoc
 studies
+welcome
 "
 )
 ;
