@@ -146,10 +146,16 @@ Error
 )
 "
 }
+)
+.
+then
+(
 function
 (
+[
 response
 bpClient
+]
 )
 {
 gThreadClient

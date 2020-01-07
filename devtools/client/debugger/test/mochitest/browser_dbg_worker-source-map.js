@@ -386,7 +386,9 @@ sourceForm
 )
 ;
 let
+[
 response
+]
 =
 yield
 source

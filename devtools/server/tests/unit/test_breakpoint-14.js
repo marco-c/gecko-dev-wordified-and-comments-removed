@@ -175,11 +175,17 @@ source
 setBreakpoint
 (
 location
+)
+.
+then
+(
 async
 function
 (
+[
 response
 bpClient
+]
 )
 {
 const

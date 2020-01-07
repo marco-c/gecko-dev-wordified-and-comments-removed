@@ -146,10 +146,16 @@ a
 2
 "
 }
+)
+.
+then
+(
 function
 (
+[
 response
 bpClient
+]
 )
 {
 gThreadClient

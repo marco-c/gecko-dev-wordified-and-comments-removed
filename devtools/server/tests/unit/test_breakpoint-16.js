@@ -183,10 +183,16 @@ source
 setBreakpoint
 (
 location
+)
+.
+then
+(
 function
 (
+[
 response
 bpClient
+]
 )
 {
 gThreadClient

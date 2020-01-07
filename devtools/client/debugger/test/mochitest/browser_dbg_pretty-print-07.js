@@ -183,6 +183,10 @@ gSource
 prettyPrint
 (
 4
+)
+.
+then
+(
 testPrettyPrinted
 )
 ;
@@ -252,6 +256,10 @@ gSource
 )
 .
 disablePrettyPrint
+(
+)
+.
+then
 (
 testUgly
 )
