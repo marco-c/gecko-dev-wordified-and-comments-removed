@@ -1757,7 +1757,6 @@ mGeckoBackChannel
 {
 if
 (
-&
 mCachedData
 .
 mDynamicData
