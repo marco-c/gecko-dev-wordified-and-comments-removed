@@ -349,14 +349,6 @@ attribute
 DOMString
 bgColor
 ;
-[
-Pure
-]
-readonly
-attribute
-HTMLCollection
-anchors
-;
 void
 clear
 (

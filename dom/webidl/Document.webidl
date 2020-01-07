@@ -1988,12 +1988,6 @@ EmptyString
 DOMString
 bgColor
 ;
-/
-/
-(
-HTML
-only
-)
 [
 SameObject
 ]
