@@ -514,7 +514,6 @@ HasTextForTranslation
 )
 override
 ;
-virtual
 void
 AppendTextTo
 (
@@ -522,10 +521,8 @@ nsAString
 &
 aResult
 )
-override
 ;
 MOZ_MUST_USE
-virtual
 bool
 AppendTextTo
 (
@@ -536,7 +533,6 @@ const
 fallible_t
 &
 )
-override
 ;
 virtual
 void
