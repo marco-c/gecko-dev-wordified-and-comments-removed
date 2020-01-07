@@ -123,6 +123,8 @@ contenteditable
 _cursor_html
 =
 '
+layout
+/
 test_carets_cursor
 .
 html
@@ -1261,6 +1263,8 @@ self
 open_test_html
 (
 '
+layout
+/
 test_carets_columns
 .
 html
