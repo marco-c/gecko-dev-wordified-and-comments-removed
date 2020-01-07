@@ -13030,7 +13030,6 @@ nsStyleUtil
 IsSignificantChild
 (
 child
-true
 false
 )
 )

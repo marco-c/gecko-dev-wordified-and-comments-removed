@@ -760,8 +760,6 @@ Gecko_IsSignificantChild
 RawGeckoNodeBorrowed
 aNode
 bool
-aTextIsSignificant
-bool
 aWhitespaceIsSignificant
 )
 {
@@ -777,7 +775,6 @@ aNode
 AsContent
 (
 )
-aTextIsSignificant
 aWhitespaceIsSignificant
 )
 ;

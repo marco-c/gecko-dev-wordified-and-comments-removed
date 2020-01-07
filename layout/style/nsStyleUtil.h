@@ -533,8 +533,6 @@ nsIContent
 *
 aChild
 bool
-aTextIsSignificant
-bool
 aWhitespaceIsSignificant
 )
 ;
@@ -546,8 +544,6 @@ const
 nsIContent
 *
 aChild
-bool
-aTextIsSignificant
 bool
 aWhitespaceIsSignificant
 )

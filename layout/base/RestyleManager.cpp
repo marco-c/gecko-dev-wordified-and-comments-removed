@@ -404,7 +404,6 @@ nsStyleUtil
 IsSignificantChild
 (
 cur
-true
 false
 )
 )
@@ -1020,7 +1019,6 @@ nsStyleUtil
 IsSignificantChild
 (
 child
-true
 false
 )
 )
@@ -1676,7 +1674,6 @@ nsStyleUtil
 IsSignificantChild
 (
 child
-true
 false
 )
 )

@@ -5467,8 +5467,6 @@ nsIContent
 *
 aChild
 bool
-aTextIsSignificant
-bool
 aWhitespaceIsSignificant
 )
 {
@@ -5479,7 +5477,6 @@ nsStyleUtil
 IsSignificantChild
 (
 aChild
-aTextIsSignificant
 aWhitespaceIsSignificant
 )
 ;
@@ -6160,7 +6157,6 @@ child
 IsSignificantChild
 (
 child
-true
 isWhitespaceSignificant
 )
 ;
@@ -7385,7 +7381,6 @@ firstNode
 IsSignificantChild
 (
 firstNode
-true
 false
 )
 ;
@@ -7500,7 +7495,6 @@ lastNode
 IsSignificantChild
 (
 lastNode
-true
 false
 )
 ;
