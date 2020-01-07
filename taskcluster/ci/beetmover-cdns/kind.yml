@@ -93,9 +93,11 @@ kind
 dependencies
 :
 -
+post
+-
 beetmover
 -
-checksums
+dummy
 job
 -
 defaults
