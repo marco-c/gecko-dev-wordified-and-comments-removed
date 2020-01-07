@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+CheckedInt
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -45,6 +54,9 @@ return
 false
 ;
 }
+mozilla
+:
+:
 CheckedInt
 <
 int32_t

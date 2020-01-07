@@ -31,6 +31,15 @@ include
 "
 mozilla
 /
+CheckedInt
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -3050,6 +3059,9 @@ return
 auto
 bufferCopy
 =
+mozilla
+:
+:
 MakeUniqueFallible
 <
 char16_t
@@ -3386,6 +3398,9 @@ return
 auto
 bufferCopy
 =
+mozilla
+:
+:
 MakeUniqueFallible
 <
 char16_t
@@ -3584,6 +3599,9 @@ return
 auto
 bufferCopy
 =
+mozilla
+:
+:
 MakeUniqueFallible
 <
 char16_t
@@ -3750,6 +3768,9 @@ return
 auto
 bufferCopy
 =
+mozilla
+:
+:
 MakeUniqueFallible
 <
 char16_t
@@ -5494,6 +5515,9 @@ int32_t
 aLength
 )
 {
+mozilla
+:
+:
 CheckedInt
 <
 int32_t
@@ -5727,6 +5751,9 @@ mHandles
 ;
 mHandles
 =
+mozilla
+:
+:
 MakeUnique
 <
 nsIContent

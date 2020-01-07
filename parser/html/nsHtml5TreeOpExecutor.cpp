@@ -90,6 +90,13 @@ h
 #
 include
 "
+nsINestedURI
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
