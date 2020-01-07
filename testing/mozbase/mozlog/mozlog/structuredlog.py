@@ -2063,6 +2063,7 @@ _log_data
 "
 suite_end
 "
+data
 )
     
 log_action
