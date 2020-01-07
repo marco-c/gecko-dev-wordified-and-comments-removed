@@ -484,6 +484,10 @@ mercurial
 \
 python
 \
+python3
+.
+5
+\
 xz
 -
 utils
