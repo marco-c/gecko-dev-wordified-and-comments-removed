@@ -1151,6 +1151,16 @@ GetTags
 )
 const
 {
+if
+(
+!
+mParser
+)
+{
+return
+nullptr
+;
+}
 MetadataTags
 *
 tags
