@@ -1399,6 +1399,17 @@ eTransparencyTransparent
 mTransparencyMode
 )
 {
+MutexAutoLock
+lock
+(
+mBasicLayersSurface
+-
+>
+GetTransparentSurfaceLock
+(
+)
+)
+;
 targetSurface
 =
 mBasicLayersSurface
