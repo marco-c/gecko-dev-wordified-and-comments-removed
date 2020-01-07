@@ -844,7 +844,7 @@ does_not_exist
 )
 ;
 }
-"
+/
 No
 element
 for
@@ -853,8 +853,7 @@ for
 does_not_exist
 '
 found
-.
-"
+/
 "
 Checking
 that
@@ -884,12 +883,11 @@ _findBoundingBox
 )
 ;
 }
-"
+/
 No
 selectors
 specified
-.
-"
+/
 "
 Checking
 that
