@@ -76,6 +76,16 @@ DistancePath
 js
 '
 '
+KeyframeMarkerItem
+.
+js
+'
+'
+KeyframeMarkerList
+.
+js
+'
+'
 KeyframesGraph
 .
 js
