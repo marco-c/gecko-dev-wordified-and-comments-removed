@@ -14,9 +14,6 @@ IPCMessageUtils
 h
 "
 #
-undef
-None
-#
 include
 "
 mozilla
