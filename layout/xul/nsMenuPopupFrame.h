@@ -543,11 +543,6 @@ GetWidget
 (
 )
 ;
-void
-AttachedDismissalListener
-(
-)
-;
 virtual
 void
 Init
@@ -1074,13 +1069,6 @@ bool
 aShouldAutoPosition
 )
 ;
-void
-SetConsumeRollupEvent
-(
-uint32_t
-aConsumeMode
-)
-;
 nsIScrollableFrame
 *
 GetScrollFrame
@@ -1565,9 +1553,6 @@ mPopupAnchor
 int8_t
 mPosition
 ;
-uint8_t
-mConsumeRollupEvent
-;
 FlipType
 mFlip
 ;
@@ -1590,6 +1575,10 @@ mSizedToPopup
 (
 false
 )
+mIsOpenChanged
+{
+false
+}
 {
 }
 void

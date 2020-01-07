@@ -81,13 +81,6 @@ a
 ;
 x
 .
-enableKeyboardNavigator
-(
-true
-)
-;
-x
-.
 openPopup
 (
 null
