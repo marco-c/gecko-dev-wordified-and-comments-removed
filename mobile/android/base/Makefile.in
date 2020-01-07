@@ -1623,3 +1623,7 @@ ifeq
 IS_LANGUAGE_REPACK
 )
 )
+export
+:
+:
+android_apks
