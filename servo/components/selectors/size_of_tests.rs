@@ -104,6 +104,11 @@ for
 Impl
 {
 type
+ExtraMatchingData
+=
+u64
+;
+type
 AttrValue
 =
 Atom
