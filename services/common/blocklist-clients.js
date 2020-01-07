@@ -791,6 +791,10 @@ PREF_BLOCKLIST_BUCKET
 lastCheckTimePref
 :
 PREF_BLOCKLIST_ADDONS_CHECKED_SECONDS
+signerName
+:
+"
+"
 }
 )
 ;
@@ -836,6 +840,10 @@ PREF_BLOCKLIST_BUCKET
 lastCheckTimePref
 :
 PREF_BLOCKLIST_PLUGINS_CHECKED_SECONDS
+signerName
+:
+"
+"
 }
 )
 ;
@@ -881,6 +889,10 @@ PREF_BLOCKLIST_BUCKET
 lastCheckTimePref
 :
 PREF_BLOCKLIST_GFX_CHECKED_SECONDS
+signerName
+:
+"
+"
 }
 )
 ;

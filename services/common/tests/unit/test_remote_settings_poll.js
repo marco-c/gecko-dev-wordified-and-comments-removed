@@ -46,7 +46,9 @@ js
 )
 ;
 const
+{
 RemoteSettings
+}
 =
 ChromeUtils
 .
@@ -404,8 +406,6 @@ now
 const
 c
 =
-RemoteSettings
-.
 RemoteSettings
 (
 "

@@ -224,7 +224,11 @@ initialize
 (
 )
 ;
-return
+const
+{
+RemoteSettings
+}
+=
 ChromeUtils
 .
 import
@@ -247,6 +251,9 @@ js
 {
 }
 )
+;
+return
+RemoteSettings
 ;
 }
 )

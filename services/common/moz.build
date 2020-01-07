@@ -280,3 +280,13 @@ common
 js
 '
 ]
+SPHINX_TREES
+[
+'
+services
+'
+]
+=
+'
+docs
+'
