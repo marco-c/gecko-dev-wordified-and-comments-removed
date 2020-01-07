@@ -57,6 +57,7 @@ Accessible
 Role
 (
 )
+const
 {
 const
 nsRoleMapEntry

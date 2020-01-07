@@ -7435,6 +7435,7 @@ ARIATransformRole
 role
 aRole
 )
+const
 {
 if
 (

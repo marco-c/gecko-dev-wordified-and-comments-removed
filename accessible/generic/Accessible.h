@@ -627,6 +627,7 @@ role
 Role
 (
 )
+const
 ;
 bool
 HasARIARole
@@ -2846,6 +2847,7 @@ a11y
 role
 aRole
 )
+const
 ;
 void
 ARIAName
