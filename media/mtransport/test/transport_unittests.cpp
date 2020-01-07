@@ -2089,6 +2089,10 @@ DestroyFlow
 (
 )
 {
+disconnect_all
+(
+)
+;
 if
 (
 flow_
