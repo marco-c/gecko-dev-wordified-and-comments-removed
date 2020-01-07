@@ -129,26 +129,6 @@ US
 ]
     
 "
-tools_repo
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-build
-/
-tools
-"
-    
-"
 tooltool_config
 "
 :

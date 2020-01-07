@@ -123,26 +123,6 @@ US
 ]
     
 "
-tools_repo
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-build
-/
-tools
-"
-    
-"
 platform
 "
 :
