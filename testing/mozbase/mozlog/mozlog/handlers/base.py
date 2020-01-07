@@ -9,7 +9,7 @@ Lock
 import
 codecs
 from
-.
+mozlog
 .
 structuredlog
 import
