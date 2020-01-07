@@ -7,6 +7,9 @@ function
 MenuItem
 (
 {
+accelerator
+=
+null
 accesskey
 =
 null
@@ -56,6 +59,12 @@ true
 }
 )
 {
+this
+.
+accelerator
+=
+accelerator
+;
 this
 .
 accesskey
