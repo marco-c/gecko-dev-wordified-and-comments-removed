@@ -8253,7 +8253,7 @@ this
 .
 inspector
 .
-isSplitRuleViewEnabled
+is3PaneModeEnabled
 ?
 true
 :
