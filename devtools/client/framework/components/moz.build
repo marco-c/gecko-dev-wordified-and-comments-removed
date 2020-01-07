@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+MeatballMenu
+.
+js
+'
+'
 ToolboxController
 .
 js
