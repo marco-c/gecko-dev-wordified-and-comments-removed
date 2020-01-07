@@ -802,13 +802,6 @@ arch
 pentiumpro
 -
 -
-disable
--
-initfini
--
-array
--
--
 with
 -
 sysroot
