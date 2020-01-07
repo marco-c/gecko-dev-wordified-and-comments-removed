@@ -14654,6 +14654,13 @@ onLocaleReady
 locale
 )
 ;
+mBrowserToolbar
+.
+onLocaleReady
+(
+locale
+)
+;
 if
 (
 mMenu
