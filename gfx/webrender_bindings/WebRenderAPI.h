@@ -1080,6 +1080,13 @@ const
 wr
 :
 :
+WrClipId
+*
+aClipNodeId
+const
+wr
+:
+:
 WrAnimationProperty
 *
 aAnimation
