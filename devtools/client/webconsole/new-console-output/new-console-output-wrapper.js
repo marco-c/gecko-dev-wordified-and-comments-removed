@@ -1367,8 +1367,8 @@ output
 wrapper
 "
 }
-consoleOutput
 filterBar
+consoleOutput
 sideBar
 )
 )
