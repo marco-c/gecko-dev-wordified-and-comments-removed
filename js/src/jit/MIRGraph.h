@@ -1005,7 +1005,8 @@ uint32_t
 popped
 )
 ;
-void
+MOZ_MUST_USE
+bool
 addPredecessorSameInputsAs
 (
 MBasicBlock
