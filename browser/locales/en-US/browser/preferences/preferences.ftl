@@ -445,7 +445,7 @@ short
 name
 }
 now
-revert
+cancel
 -
 no
 -
@@ -453,7 +453,7 @@ restart
 -
 button
 =
-Revert
+Cancel
 restart
 -
 later
