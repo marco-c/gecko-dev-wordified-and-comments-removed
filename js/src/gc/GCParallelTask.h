@@ -217,6 +217,7 @@ return
 duration_
 ;
 }
+MOZ_MUST_USE
 bool
 start
 (
@@ -227,6 +228,7 @@ join
 (
 )
 ;
+MOZ_MUST_USE
 bool
 startWithLockHeld
 (

@@ -2901,7 +2901,7 @@ lock
 )
 const
 ;
-void
+bool
 startBackgroundAllocTaskIfIdle
 (
 )

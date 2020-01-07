@@ -2204,7 +2204,7 @@ cell
 )
 ;
 }
-void
+bool
 GCRuntime
 :
 :
@@ -2225,6 +2225,7 @@ helperLock
 )
 )
 return
+true
 ;
 allocTask
 .
@@ -2233,6 +2234,7 @@ joinWithLockHeld
 helperLock
 )
 ;
+return
 allocTask
 .
 startWithLockHeld
