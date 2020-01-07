@@ -613,15 +613,6 @@ return
 false
 ;
 }
-getSourceHomePageURL
-(
-)
-{
-return
-"
-"
-;
-}
 get
 sourceLocked
 (
