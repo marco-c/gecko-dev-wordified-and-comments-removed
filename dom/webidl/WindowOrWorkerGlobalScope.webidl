@@ -565,13 +565,10 @@ mozilla
 dom
 :
 :
-cache
+DOMPrefs
 :
 :
-CacheStorage
-:
-:
-PrefEnabled
+DOMCachesEnabled
 "
 SameObject
 ]
