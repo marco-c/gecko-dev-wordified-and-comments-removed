@@ -588,6 +588,7 @@ aName
 scrollPosition
 "
 )
+{
 return
 this
 .
@@ -595,6 +596,7 @@ _list
 .
 scrollPosition
 ;
+}
 if
 (
 aName
@@ -604,6 +606,7 @@ aName
 scrollWidth
 "
 )
+{
 return
 this
 .
@@ -611,6 +614,7 @@ _list
 .
 scrollWidth
 ;
+}
 return
 this
 .

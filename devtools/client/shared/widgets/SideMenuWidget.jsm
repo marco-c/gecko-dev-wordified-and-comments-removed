@@ -1466,14 +1466,11 @@ return
 aChild
 ;
 }
-else
-{
 return
 aChild
 .
 parentNode
 ;
-}
 }
 _showContextMenu
 :

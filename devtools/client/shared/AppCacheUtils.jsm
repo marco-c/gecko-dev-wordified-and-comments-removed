@@ -1918,8 +1918,6 @@ uri
 )
 ;
 }
-else
-{
 this
 .
 _getURIInfo
@@ -2012,7 +2010,6 @@ invalidURI
 }
 )
 ;
-}
 }
 )
 ;
