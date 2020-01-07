@@ -87,6 +87,17 @@ pytest
 .
 5
 "
+jsmin
+=
+"
+=
+=
+2
+.
+1
+.
+0
+"
 [
 requires
 ]
