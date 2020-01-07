@@ -637,24 +637,6 @@ description
             
 '
 worker
--
-type
-'
-:
-'
-scriptworker
--
-prov
--
-v1
-/
-balrogworker
--
-v1
-'
-            
-'
-worker
 '
 :
 {

@@ -140,10 +140,6 @@ import
     
 BALROG_ACTIONS
     
-get_balrog_action_scope
-    
-get_balrog_server_scope
-    
 get_release_config
 )
 from
@@ -6157,42 +6153,6 @@ get_release_config
 (
 config
 )
-    
-server_scope
-=
-get_balrog_server_scope
-(
-config
-)
-    
-action_scope
-=
-get_balrog_action_scope
-(
-config
-action
-=
-worker
-[
-'
-balrog
--
-action
-'
-]
-)
-    
-task_def
-[
-'
-scopes
-'
-]
-=
-[
-server_scope
-action_scope
-]
     
 if
 worker

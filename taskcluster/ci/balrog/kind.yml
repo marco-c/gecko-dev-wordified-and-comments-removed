@@ -85,6 +85,14 @@ taskgraph
 .
 transforms
 .
+scriptworker
+:
+add_balrog_scopes
+-
+taskgraph
+.
+transforms
+.
 release_notifications
 :
 transforms
