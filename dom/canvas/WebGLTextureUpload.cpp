@@ -5833,8 +5833,8 @@ bool
 ok
 =
 lastLevelWidth
-&
-&
+|
+|
 lastLevelHeight
 ;
 if
@@ -5858,7 +5858,7 @@ depth
 lastLevel
 ;
 ok
-&
+|
 =
 bool
 (
