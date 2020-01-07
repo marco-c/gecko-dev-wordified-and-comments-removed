@@ -1394,8 +1394,6 @@ monitor
 .
 panelWin
 .
-api
-.
 off
 (
 EVENTS
@@ -1426,8 +1424,6 @@ markers
 monitor
 .
 panelWin
-.
-api
 .
 on
 (
@@ -1618,8 +1614,6 @@ return
 }
 window
 .
-api
-.
 off
 (
 EVENTS
@@ -1629,8 +1623,6 @@ onRequest
 )
 ;
 window
-.
-api
 .
 off
 (
@@ -1656,8 +1648,6 @@ resolve
 }
 window
 .
-api
-.
 on
 (
 EVENTS
@@ -1667,8 +1657,6 @@ onRequest
 )
 ;
 window
-.
-api
 .
 on
 (
@@ -1829,8 +1817,6 @@ type
 >
 panelWin
 .
-api
-.
 on
 (
 type
@@ -1890,8 +1876,6 @@ type
 =
 >
 panelWin
-.
-api
 .
 on
 (
@@ -2691,8 +2675,6 @@ getRequests
 {
 panel
 .
-api
-.
 off
 (
 EVENTS
@@ -2702,8 +2684,6 @@ onNetworkEvent
 )
 ;
 panel
-.
-api
 .
 off
 (
@@ -2722,8 +2702,6 @@ resolve
 }
 panel
 .
-api
-.
 on
 (
 EVENTS
@@ -2733,8 +2711,6 @@ onNetworkEvent
 )
 ;
 panel
-.
-api
 .
 on
 (
@@ -5450,8 +5426,6 @@ onResponseContent
 monitor
 .
 panelWin
-.
-api
 .
 once
 (

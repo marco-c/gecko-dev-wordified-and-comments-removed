@@ -379,5 +379,8 @@ module
 .
 exports
 =
+new
 ChromeConnector
+(
+)
 ;

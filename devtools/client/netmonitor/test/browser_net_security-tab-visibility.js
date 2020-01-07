@@ -218,8 +218,6 @@ monitor
 .
 panelWin
 .
-api
-.
 once
 (
 EVENTS
@@ -720,8 +718,6 @@ return
 monitor
 .
 panelWin
-.
-api
 .
 once
 (
