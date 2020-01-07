@@ -3301,15 +3301,6 @@ CallerType
 mozilla
 :
 :
-dom
-:
-:
-DocumentOrShadowRoot
-"
-"
-mozilla
-:
-:
 AnonymousCounterStyle
 "
 "

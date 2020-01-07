@@ -3688,15 +3688,9 @@ Element
 Gecko_GetElementsWithId
 (
 const
-mozilla
-:
-:
-dom
-:
-:
-DocumentOrShadowRoot
+nsIDocument
 *
-aDocOrShadowRoot
+aDocument
 nsAtom
 *
 aId
