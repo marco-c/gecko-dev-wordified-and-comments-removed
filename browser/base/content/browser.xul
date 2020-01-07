@@ -1650,6 +1650,8 @@ type
 =
 "
 autocomplete
+-
+richlistbox
 "
 id
 =
