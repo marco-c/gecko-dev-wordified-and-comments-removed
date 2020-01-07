@@ -767,10 +767,6 @@ nsIContent
 *
 *
 aReturn
-bool
-aCloneAfterOriginal
-=
-true
 )
 ;
 virtual
