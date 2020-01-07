@@ -1,8 +1,0 @@
-class
-Lint
-(
-object
-)
-:
-    
-pass
