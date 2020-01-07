@@ -1083,18 +1083,6 @@ query_abs_dirs
             
 file_path_gcda
 =
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_blob_upload_dir
-'
-]
 '
 code
 -
@@ -1104,7 +1092,6 @@ gcda
 .
 zip
 '
-)
             
 self
 .
@@ -1113,6 +1100,14 @@ run_command
 [
 '
 zip
+'
+'
+-
+q
+'
+'
+-
+0
 '
 '
 -
