@@ -153,6 +153,13 @@ GetPrivate
 )
 const
 ;
+WorkerPrivate
+*
+GetUnsafePrivate
+(
+)
+const
+;
 private
 :
 explicit
