@@ -118,17 +118,6 @@ js
 '
 react
 -
-addons
--
-shallow
--
-compare
-.
-js
-'
-'
-react
--
 dom
 -
 factories
