@@ -1930,6 +1930,15 @@ apz
 /
 src
 /
+APZUtils
+.
+cpp
+'
+'
+apz
+/
+src
+/
 AsyncPanZoomController
 .
 cpp

@@ -167,7 +167,7 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+APZUtils
 .
 h
 "
@@ -668,7 +668,7 @@ Loop
 )
 )
 ;
-APZCTreeManager
+apz
 :
 :
 InitializeGlobalState

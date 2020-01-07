@@ -80,6 +80,9 @@ class
 CompositorManagerChild
 ;
 class
+ImageContainer
+;
+class
 WebRenderLayerManager
 ;
 class
