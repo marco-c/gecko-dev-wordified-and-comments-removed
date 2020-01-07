@@ -66,7 +66,7 @@ doc
 =
 browser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 initDebuggerServer
 (

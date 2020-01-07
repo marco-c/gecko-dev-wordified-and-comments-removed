@@ -480,9 +480,9 @@ then
 {
 doc
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 ;
 runTests
 (

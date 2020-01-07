@@ -388,9 +388,15 @@ gBrowser
 .
 selectedBrowser
 ;
-whenLoaded
+BrowserTestUtils
+.
+browserLoaded
 (
 browser
+)
+.
+then
+(
 (
 )
 =

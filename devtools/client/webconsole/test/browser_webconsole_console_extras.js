@@ -159,9 +159,9 @@ finishTest
 let
 button
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 querySelector
 (
@@ -193,7 +193,9 @@ click
 "
 }
 button
-content
+gBrowser
+.
+contentWindowAsCPOW
 )
 ;
 }

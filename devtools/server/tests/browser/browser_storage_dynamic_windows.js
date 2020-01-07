@@ -1344,9 +1344,9 @@ onStoresUpdate
 let
 iframe
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 createElement
 (
@@ -1371,9 +1371,9 @@ iframe
 html
 "
 ;
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 querySelector
 (

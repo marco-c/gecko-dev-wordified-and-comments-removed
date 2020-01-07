@@ -128,11 +128,12 @@ bookmarked
 "
 )
 ;
-content
+gBrowser
 .
-location
-=
+loadURI
+(
 testURL
+)
 ;
 await
 BrowserTestUtils

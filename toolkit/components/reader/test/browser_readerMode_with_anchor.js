@@ -263,9 +263,9 @@ pageShownPromise
 ;
 is
 (
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 documentElement
 .
