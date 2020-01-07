@@ -20,12 +20,12 @@ nsISupports
 .
 h
 "
-class
-nsPresState
-;
 namespace
 mozilla
 {
+class
+PresState
+;
 namespace
 dom
 {
@@ -333,7 +333,10 @@ virtual
 bool
 RestoreState
 (
-nsPresState
+mozilla
+:
+:
+PresState
 *
 aState
 )

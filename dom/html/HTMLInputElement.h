@@ -661,7 +661,7 @@ virtual
 bool
 RestoreState
 (
-nsPresState
+PresState
 *
 aState
 )
@@ -5060,6 +5060,12 @@ IsInputDateTimeEnabled
 static
 bool
 IsInputDateTimeOthersEnabled
+(
+)
+;
+static
+bool
+IsInputNumberEnabled
 (
 )
 ;

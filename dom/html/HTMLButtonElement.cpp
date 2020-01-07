@@ -186,7 +186,9 @@ h
 #
 include
 "
-nsPresState
+mozilla
+/
+PresState
 .
 h
 "
@@ -1738,7 +1740,7 @@ return
 NS_OK
 ;
 }
-nsPresState
+PresState
 *
 state
 =
@@ -1754,8 +1756,10 @@ state
 state
 -
 >
-SetDisabled
+disabled
 (
+)
+=
 HasAttr
 (
 kNameSpaceID_None
@@ -1764,7 +1768,15 @@ nsGkAtoms
 :
 disabled
 )
+;
+state
+-
+>
+disabledSet
+(
 )
+=
+true
 ;
 }
 return
@@ -1777,7 +1789,7 @@ HTMLButtonElement
 :
 RestoreState
 (
-nsPresState
+PresState
 *
 aState
 )
@@ -1790,7 +1802,7 @@ aState
 aState
 -
 >
-IsDisabledSet
+disabledSet
 (
 )
 &
@@ -1799,7 +1811,7 @@ IsDisabledSet
 aState
 -
 >
-GetDisabled
+disabled
 (
 )
 )
