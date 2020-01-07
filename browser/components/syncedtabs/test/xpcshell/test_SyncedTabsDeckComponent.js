@@ -1246,7 +1246,7 @@ component
 .
 PANELS
 .
-NOT_AUTHED_INFO
+LOGIN_FAILED
 )
 ;
 SyncedTabsMock
