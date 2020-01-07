@@ -186,6 +186,13 @@ observers
 js
 '
 '
+remote
+-
+settings
+.
+js
+'
+'
 rest
 .
 js

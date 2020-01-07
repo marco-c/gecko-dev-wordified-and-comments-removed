@@ -1820,13 +1820,6 @@ RESPATH
 /
 components
 /
-servicesSettings
-.
-manifest
-RESPATH
-/
-components
-/
 cryptoComponents
 .
 manifest

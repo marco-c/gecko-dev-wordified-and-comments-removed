@@ -61,7 +61,7 @@ source
 /
 services
 /
-settings
+common
 /
 remote
 -
@@ -147,7 +147,7 @@ resource
 /
 services
 -
-settings
+common
 /
 remote
 -
