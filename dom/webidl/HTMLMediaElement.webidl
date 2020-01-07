@@ -181,7 +181,7 @@ network
 state
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

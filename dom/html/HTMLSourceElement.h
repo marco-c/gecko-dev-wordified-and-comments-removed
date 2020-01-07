@@ -157,8 +157,6 @@ GetSrc
 nsString
 &
 aSrc
-nsIPrincipal
-&
 )
 {
 GetURIAttr
@@ -271,8 +269,6 @@ GetSrcset
 DOMString
 &
 aSrcset
-nsIPrincipal
-&
 )
 {
 GetHTMLAttr

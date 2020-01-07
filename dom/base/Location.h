@@ -218,9 +218,6 @@ const
 nsAString
 &
 aHref
-nsIPrincipal
-&
-aSubjectPrincipal
 ErrorResult
 &
 aError

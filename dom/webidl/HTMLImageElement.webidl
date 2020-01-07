@@ -231,7 +231,7 @@ alt
 ;
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 ]
 attribute
@@ -240,7 +240,7 @@ src
 ;
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

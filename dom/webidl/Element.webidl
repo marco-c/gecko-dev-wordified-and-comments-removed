@@ -1501,7 +1501,7 @@ Element
 {
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 Pure
 SetterThrows
 TreatNullAs

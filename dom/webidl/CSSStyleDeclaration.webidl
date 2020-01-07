@@ -120,7 +120,7 @@ CSSStyleDeclaration
 {
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

@@ -403,7 +403,7 @@ nodeValue
 CEReactions
 SetterThrows
 GetterCanOOM
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 Pure
 ]
 attribute

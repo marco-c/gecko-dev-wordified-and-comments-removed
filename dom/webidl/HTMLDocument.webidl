@@ -286,7 +286,7 @@ text
 [
 CEReactions
 SetterThrows
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 ]
 attribute
 DOMString

@@ -460,9 +460,6 @@ GetCssText
 nsString
 &
 aString
-nsIPrincipal
-&
-aSubjectPrincipal
 )
 {
 GetCssText

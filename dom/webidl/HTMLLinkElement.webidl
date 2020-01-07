@@ -237,7 +237,7 @@ disabled
 ;
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 Pure
 ]

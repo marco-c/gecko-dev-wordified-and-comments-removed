@@ -161,8 +161,6 @@ GetSrc
 nsString
 &
 aSrc
-nsIPrincipal
-&
 )
 const
 {

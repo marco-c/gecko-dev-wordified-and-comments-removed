@@ -172,7 +172,7 @@ HTMLElement
 {
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 ]
 attribute
@@ -195,7 +195,7 @@ HTMLSourceElement
 {
 [
 CEReactions
-NeedsSubjectPrincipal
+SetterNeedsSubjectPrincipal
 SetterThrows
 ]
 attribute
