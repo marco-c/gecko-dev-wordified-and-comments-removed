@@ -612,13 +612,7 @@ PrincipalInfo
 )
 ;
 return
-std
-:
-:
-move
-(
 ref
-)
 ;
 }
 }

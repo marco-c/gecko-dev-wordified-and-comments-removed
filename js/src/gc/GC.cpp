@@ -33121,7 +33121,7 @@ ProfilingStackFrame
 Category
 :
 :
-GC
+GCCC
 )
 {
 MOZ_ASSERT

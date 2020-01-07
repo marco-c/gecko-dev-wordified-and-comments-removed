@@ -21548,11 +21548,6 @@ GetManagedTabContext
 )
 {
 return
-std
-:
-:
-move
-(
 ContentProcessManager
 :
 :
@@ -21568,7 +21563,6 @@ this
 >
 ChildID
 (
-)
 )
 )
 ;
