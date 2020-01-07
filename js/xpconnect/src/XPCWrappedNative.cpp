@@ -4612,10 +4612,7 @@ CallMethodHelper
 helper
 (
 ccx
-CallMethodHelper
-(
 ccx
-)
 )
 ;
 return
@@ -6366,9 +6363,7 @@ new
 dp
 -
 >
-Ext
-(
-)
+ext
 .
 jsval
 )
@@ -6384,9 +6379,7 @@ MOZ_ASSERT
 dp
 -
 >
-Ext
-(
-)
+ext
 .
 jsval
 .
@@ -6415,9 +6408,7 @@ new
 dp
 -
 >
-Ext
-(
-)
+ext
 .
 nsstr
 )
@@ -6445,9 +6436,7 @@ new
 dp
 -
 >
-Ext
-(
-)
+ext
 .
 nscstr
 )
