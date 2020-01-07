@@ -1197,7 +1197,6 @@ _onColorPicked
 :
 function
 (
-e
 color
 )
 {

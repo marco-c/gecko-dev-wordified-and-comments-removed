@@ -1499,10 +1499,7 @@ resolve
 let
 onConnectionChange
 =
-(
-_
 state
-)
 =
 >
 {

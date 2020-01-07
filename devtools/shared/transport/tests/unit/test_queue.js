@@ -555,10 +555,7 @@ on
 "
 connectionchange
 "
-(
-event
 type
-)
 =
 >
 {

@@ -1661,7 +1661,6 @@ _onConnectionChange
 :
 function
 (
-evt
 what
 connection
 )

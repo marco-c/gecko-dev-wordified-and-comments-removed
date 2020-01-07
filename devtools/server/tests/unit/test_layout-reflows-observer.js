@@ -592,10 +592,7 @@ reflowsEvents
 let
 onReflows
 =
-(
-event
 reflows
-)
 =
 >
 reflowsEvents
@@ -950,7 +947,6 @@ let
 onReflows
 =
 (
-event
 reflows
 )
 =

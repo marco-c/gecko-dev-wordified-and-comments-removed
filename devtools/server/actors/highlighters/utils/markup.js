@@ -1284,7 +1284,6 @@ e
 }
 _onWindowReady
 (
-e
 {
 isTopLevel
 }
