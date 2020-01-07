@@ -2351,7 +2351,11 @@ ownerGlobal
 openPreferences
 (
 "
-panePrivacy
+privacy
+-
+address
+-
+autofill
 "
 {
 origin
