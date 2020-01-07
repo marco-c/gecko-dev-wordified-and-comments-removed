@@ -2454,6 +2454,10 @@ StopAndClearResources
 (
 )
 ;
+mCanSend
+=
+false
+;
 return
 IPC_OK
 (
