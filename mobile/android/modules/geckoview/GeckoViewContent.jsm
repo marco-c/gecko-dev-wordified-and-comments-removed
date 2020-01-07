@@ -118,7 +118,7 @@ window
 addEventListener
 (
 "
-MozDOMFullScreen
+MozDOMFullscreen
 :
 Entered
 "
@@ -134,7 +134,7 @@ window
 addEventListener
 (
 "
-MozDOMFullScreen
+MozDOMFullscreen
 :
 Exited
 "
@@ -183,7 +183,7 @@ window
 removeEventListener
 (
 "
-MozDOMFullScreen
+MozDOMFullscreen
 :
 Entered
 "
@@ -198,7 +198,7 @@ window
 removeEventListener
 (
 "
-MozDOMFullScreen
+MozDOMFullscreen
 :
 Exited
 "
