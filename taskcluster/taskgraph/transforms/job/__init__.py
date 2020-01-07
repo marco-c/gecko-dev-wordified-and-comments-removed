@@ -586,12 +586,11 @@ in
 jobs
 :
         
-yield
 validate_schema
 (
 job_description_schema
 job
-                              
+                        
 "
 In
 job
@@ -622,6 +621,9 @@ label
 )
 )
 )
+        
+yield
+job
 transforms
 .
 add
@@ -1110,6 +1112,10 @@ run_using
 schema
 =
 None
+defaults
+=
+{
+}
 )
 :
     
@@ -1273,6 +1279,7 @@ worker_implementation
 (
 func
 schema
+defaults
 )
         
 return
@@ -1280,44 +1287,6 @@ func
     
 return
 wrap
-run_job_using
-(
-'
-always
--
-optimized
-'
-'
-always
--
-optimized
-'
-               
-Schema
-(
-{
-'
-using
-'
-:
-'
-always
--
-optimized
-'
-}
-)
-)
-def
-always_optimized
-(
-config
-job
-taskdesc
-)
-:
-    
-pass
 def
 configure_taskdesc_for_run
 (
@@ -1462,6 +1431,7 @@ worker_implementation
     
 func
 schema
+defaults
 =
 registry
 [
@@ -1471,8 +1441,15 @@ run_using
 worker_implementation
 ]
     
-if
-schema
+for
+k
+v
+in
+defaults
+.
+items
+(
+)
 :
         
 job
@@ -1481,7 +1458,17 @@ job
 run
 '
 ]
-=
+.
+setdefault
+(
+k
+v
+)
+    
+if
+schema
+:
+        
 validate_schema
 (
                 
@@ -1499,6 +1486,11 @@ job
 .
 run
 using
+{
+!
+r
+}
+/
 {
 !
 r
@@ -1526,6 +1518,7 @@ run
 using
 '
 ]
+worker_implementation
 job
 [
 '
