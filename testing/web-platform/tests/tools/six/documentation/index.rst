@@ -720,7 +720,7 @@ the
 attributes
 of
 several
-intepreter
+interpreter
 data
 structures
 .
@@ -3233,7 +3233,7 @@ This
 is
 so
 the
-appropiate
+appropriate
 modules
 can
 be

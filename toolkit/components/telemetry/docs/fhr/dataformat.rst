@@ -4515,7 +4515,7 @@ Integer
 count
 of
 installed
-lightweigh
+lightweight
 themes
 .
 Notes

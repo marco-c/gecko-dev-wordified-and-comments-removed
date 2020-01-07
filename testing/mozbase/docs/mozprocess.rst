@@ -193,7 +193,7 @@ the
 class
 should
 be
-instanciated
+instantiated
 with
 at
 least
@@ -1580,7 +1580,7 @@ the
 process
 using
 the
-initilization
+initialization
 parameter
 *
 onFinish
@@ -2019,7 +2019,7 @@ end
 of
 execution
 before
-stoping
+stopping
 (
 join
 )

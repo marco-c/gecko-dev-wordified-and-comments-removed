@@ -1711,7 +1711,7 @@ only
 is
 a
 valid
-seperator
+separator
 ;
 =
 will

@@ -41,7 +41,7 @@ read
 -
 once
 to
-minimise
+minimize
 the
 chances
 of

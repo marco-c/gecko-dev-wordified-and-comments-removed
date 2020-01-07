@@ -429,7 +429,7 @@ to
 .
 6
 *
-Supress
+Suppress
 any
 errors
 from
@@ -2666,7 +2666,7 @@ hosted
 packages
 that
 got
-accidentily
+accidentally
 included
 in
 pip

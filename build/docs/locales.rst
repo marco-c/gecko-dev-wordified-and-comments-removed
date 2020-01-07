@@ -505,7 +505,7 @@ a
 single
 build
 with
-mutliple
+multiple
 locales
 you
 will

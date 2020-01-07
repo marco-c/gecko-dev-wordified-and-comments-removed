@@ -1014,7 +1014,7 @@ very
 little
 control
 for
-determing
+determining
 where
 these
 .

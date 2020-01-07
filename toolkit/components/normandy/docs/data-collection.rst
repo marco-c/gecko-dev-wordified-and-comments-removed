@@ -613,7 +613,7 @@ latter
 being
 for
 experiments
-targetting
+targeting
 large
 numbers
 of

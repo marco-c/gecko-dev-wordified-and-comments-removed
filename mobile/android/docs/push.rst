@@ -1226,7 +1226,7 @@ given
 uaid
 *
 and
-correponds
+corresponds
 to
 a
 unique

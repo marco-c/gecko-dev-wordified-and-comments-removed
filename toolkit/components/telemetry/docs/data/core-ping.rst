@@ -1128,7 +1128,7 @@ is
 completely
 hidden
 is
-preferrable
+preferable
 (
 e
 .

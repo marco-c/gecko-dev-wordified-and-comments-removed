@@ -1217,7 +1217,7 @@ is
 a
 32
 character
-hexidecimal
+hexadecimal
 string
 .
 In

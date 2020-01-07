@@ -5624,7 +5624,7 @@ This
 section
 contains
 the
-informations
+information
 about
 the
 slow

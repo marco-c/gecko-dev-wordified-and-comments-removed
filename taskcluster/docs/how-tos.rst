@@ -1239,7 +1239,7 @@ is
 the
 task
 actually
-excuted
+executed
 ?
 Mozharness
 ?
