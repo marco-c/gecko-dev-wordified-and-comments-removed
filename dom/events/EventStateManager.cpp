@@ -5963,6 +5963,9 @@ nsIDragService
 :
 DRAGDROP_ACTION_NONE
 ;
+nsCString
+principalURISpec
+;
 if
 (
 dragSession
@@ -5982,6 +5985,14 @@ GetDragAction
 (
 &
 action
+)
+;
+dragSession
+-
+>
+GetTriggeringPrincipalURISpec
+(
+principalURISpec
 )
 ;
 nsCOMPtr
@@ -6031,6 +6042,7 @@ AsDragEvent
 )
 action
 dropEffect
+principalURISpec
 )
 ;
 return
@@ -7964,6 +7976,9 @@ nsIContent
 eventContent
 targetContent
 ;
+nsCString
+principalURISpec
+;
 mCurrentTarget
 -
 >
@@ -7993,6 +8008,7 @@ getter_AddRefs
 (
 targetContent
 )
+principalURISpec
 )
 ;
 StopTrackingDragGesture
@@ -8204,6 +8220,7 @@ event
 dataTransfer
 targetContent
 selection
+principalURISpec
 )
 ;
 if
@@ -8264,6 +8281,9 @@ nsIContent
 *
 *
 aTargetNode
+nsACString
+&
+aPrincipalURISpec
 )
 {
 *
@@ -8312,6 +8332,7 @@ getter_AddRefs
 (
 dragDataNode
 )
+aPrincipalURISpec
 )
 ;
 if
@@ -8493,6 +8514,10 @@ aDragTarget
 nsISelection
 *
 aSelection
+const
+nsACString
+&
+aPrincipalURISpec
 )
 {
 nsCOMPtr
@@ -8765,6 +8790,7 @@ dragService
 InvokeDragSessionWithSelection
 (
 aSelection
+aPrincipalURISpec
 transArray
 action
 event
@@ -8858,6 +8884,7 @@ dragTarget
 AsDOMNode
 (
 )
+aPrincipalURISpec
 transArray
 region
 action

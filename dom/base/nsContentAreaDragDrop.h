@@ -91,6 +91,9 @@ nsIContent
 *
 *
 aDragNode
+nsACString
+&
+aPrincipalURISpec
 )
 ;
 }

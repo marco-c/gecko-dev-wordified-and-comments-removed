@@ -2040,6 +2040,10 @@ uint32_t
 aDragAction
 uint32_t
 aDropEffect
+const
+nsCString
+&
+aPrincipalURISpec
 )
 ;
 void
@@ -2518,6 +2522,10 @@ const
 LayoutDeviceIntRect
 &
 aDragRect
+const
+nsCString
+&
+aPrincipalURISpec
 )
 override
 ;
@@ -2527,6 +2535,9 @@ AddInitialDnDDataTo
 DataTransfer
 *
 aDataTransfer
+nsACString
+&
+aPrincipalURISpec
 )
 ;
 bool
@@ -2968,6 +2979,9 @@ mDragValid
 ;
 LayoutDeviceIntRect
 mDragRect
+;
+nsCString
+mDragPrincipalURISpec
 ;
 bool
 mInitedByParent

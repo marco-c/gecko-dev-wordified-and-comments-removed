@@ -3657,6 +3657,8 @@ uint8_t
 format
 LayoutDeviceIntRect
 dragRect
+nsCString
+principalURISpec
 )
 ;
 /
@@ -4358,6 +4360,8 @@ uint32_t
 aDragAction
 uint32_t
 aDropEffect
+nsCString
+aPrincipalURISpec
 )
 ;
 async

@@ -1781,6 +1781,9 @@ nsIContent
 *
 *
 aTargetNode
+nsACString
+&
+aPrincipalURISpec
 )
 ;
 bool
@@ -1804,6 +1807,10 @@ aDragTarget
 nsISelection
 *
 aSelection
+const
+nsACString
+&
+aPrincipalURISpec
 )
 ;
 bool

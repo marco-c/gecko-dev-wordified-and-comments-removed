@@ -401,6 +401,9 @@ nsIContent
 *
 *
 aDragNode
+nsACString
+&
+aPrincipalURISpec
 )
 ;
 private
@@ -592,6 +595,9 @@ nsIContent
 *
 *
 aDragNode
+nsACString
+&
+aPrincipalURISpec
 )
 {
 NS_ENSURE_TRUE
@@ -623,6 +629,7 @@ aDataTransfer
 aCanDrag
 aSelection
 aDragNode
+aPrincipalURISpec
 )
 ;
 }
@@ -1451,6 +1458,9 @@ nsIContent
 *
 *
 aDragNode
+nsACString
+&
+aPrincipalURISpec
 )
 {
 NS_PRECONDITION
@@ -1798,6 +1808,7 @@ tp
 AddInitialDnDDataTo
 (
 aDataTransfer
+aPrincipalURISpec
 )
 ;
 }

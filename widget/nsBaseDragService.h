@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -375,6 +382,9 @@ nsCOMPtr
 nsIDOMNode
 >
 mSourceNode
+;
+nsCString
+mTriggeringPrincipalURISpec
 ;
 nsCOMPtr
 <

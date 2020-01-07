@@ -8836,6 +8836,10 @@ const
 uint32_t
 &
 aDropEffect
+const
+nsCString
+&
+aPrincipalURISpec
 )
 {
 WidgetDragEvent
@@ -8874,6 +8878,14 @@ dragSession
 SetDragAction
 (
 aDragAction
+)
+;
+dragSession
+-
+>
+SetTriggeringPrincipalURISpec
+(
+aPrincipalURISpec
 )
 ;
 nsCOMPtr

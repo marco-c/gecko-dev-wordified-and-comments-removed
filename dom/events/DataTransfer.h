@@ -767,6 +767,14 @@ GetMozSourceNode
 (
 )
 ;
+void
+GetMozTriggeringPrincipalURISpec
+(
+nsAString
+&
+aPrincipalURISpec
+)
+;
 mozilla
 :
 :
