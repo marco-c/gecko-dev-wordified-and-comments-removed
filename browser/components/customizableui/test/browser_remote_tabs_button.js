@@ -295,6 +295,12 @@ waitForCondition
 syncWasCalled
 )
 ;
+gSync
+.
+_onActivityStop
+(
+)
+;
 }
 )
 ;
@@ -398,11 +404,11 @@ service
 .
 sync
 =
-mocked_syncAndReportErrors
+mocked_sync
 ;
 }
 function
-mocked_syncAndReportErrors
+mocked_sync
 (
 )
 {
