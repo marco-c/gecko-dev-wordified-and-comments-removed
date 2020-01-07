@@ -204,10 +204,10 @@ Register
 const
 nsTArray
 <
-WebAuthnScopedCredentialDescriptor
+WebAuthnScopedCredential
 >
 &
-aDescriptors
+aCredentials
 const
 WebAuthnAuthenticatorSelection
 &
@@ -242,10 +242,10 @@ Sign
 const
 nsTArray
 <
-WebAuthnScopedCredentialDescriptor
+WebAuthnScopedCredential
 >
 &
-aDescriptors
+aCredentials
 const
 nsTArray
 <
@@ -260,6 +260,8 @@ uint8_t
 >
 &
 aChallenge
+bool
+aRequireUserVerification
 uint32_t
 aTimeoutMS
 )
