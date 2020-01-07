@@ -2722,6 +2722,11 @@ UseAPZ
 (
 )
 ;
+bool
+AllowWebRenderForThisWindow
+(
+)
+;
 mozilla
 :
 :
