@@ -216,7 +216,6 @@ arrow
 const
 calculateVerticalPosition
 =
-function
 (
 anchorRect
 viewportRect
@@ -224,6 +223,8 @@ height
 pos
 offset
 )
+=
+>
 {
 const
 {
