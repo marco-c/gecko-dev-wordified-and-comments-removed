@@ -45,6 +45,15 @@ mIsForMail
 aIsForMail
 ;
 }
+bool
+Skip
+(
+nsINode
+*
+aNode
+)
+const
+;
 private
 :
 ~
