@@ -1351,7 +1351,7 @@ mSelection
 selCon
 -
 >
-GetDOMSelection
+GetSelection
 (
 nsISelectionController
 :
@@ -1614,7 +1614,7 @@ mSelection
 selCon
 -
 >
-GetDOMSelection
+GetSelection
 (
 nsISelectionController
 :

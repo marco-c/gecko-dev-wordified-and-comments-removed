@@ -7277,11 +7277,11 @@ NS_IMETHODIMP
 PresShell
 :
 :
-GetSelection
+GetSelectionFromScript
 (
 RawSelectionType
 aRawSelectionType
-nsISelection
+Selection
 *
 *
 aSelection
@@ -7307,9 +7307,9 @@ frameSelection
 =
 mSelection
 ;
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 selection
 =
@@ -7350,7 +7350,7 @@ Selection
 PresShell
 :
 :
-GetDOMSelection
+GetSelection
 (
 RawSelectionType
 aRawSelectionType

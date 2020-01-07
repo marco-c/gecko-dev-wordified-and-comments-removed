@@ -2872,7 +2872,7 @@ sel
 selectionController
 -
 >
-GetDOMSelection
+GetSelection
 (
 nsISelectionController
 :

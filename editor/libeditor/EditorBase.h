@@ -1971,7 +1971,7 @@ GetSelection
 (
 SelectionType
 aSelectionType
-nsISelection
+Selection
 *
 *
 aSelection
@@ -3425,7 +3425,7 @@ selection
 sc
 -
 >
-GetDOMSelection
+GetSelection
 (
 ToRawSelectionType
 (

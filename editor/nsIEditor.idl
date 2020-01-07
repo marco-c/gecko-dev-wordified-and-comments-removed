@@ -112,9 +112,6 @@ interface
 nsIContent
 ;
 interface
-nsISelection
-;
-interface
 nsISelectionController
 ;
 interface
@@ -143,6 +140,9 @@ nsITransferable
 ;
 webidl
 Element
+;
+webidl
+Selection
 ;
 %
 {
@@ -260,7 +260,7 @@ eNoStrip
 ;
 readonly
 attribute
-nsISelection
+Selection
 selection
 ;
 void

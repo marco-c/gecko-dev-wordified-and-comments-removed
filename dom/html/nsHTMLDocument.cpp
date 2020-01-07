@@ -10382,7 +10382,7 @@ spellCheckSelection
 selectionController
 -
 >
-GetDOMSelection
+GetSelection
 (
 nsISelectionController
 :
