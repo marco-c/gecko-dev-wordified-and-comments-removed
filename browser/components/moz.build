@@ -370,11 +370,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIBrowserGlue
-.
-idl
-'
-'
 nsIBrowserHandler
 .
 idl
