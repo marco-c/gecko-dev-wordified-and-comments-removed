@@ -174,6 +174,8 @@ extends
 CustomListPreference
 {
 protected
+static
+final
 String
 LOGTAG
 =

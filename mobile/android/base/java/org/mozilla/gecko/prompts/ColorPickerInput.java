@@ -93,6 +93,7 @@ GeckoColorPickerInput
 "
 ;
 private
+static
 final
 boolean
 mShowAdvancedButton

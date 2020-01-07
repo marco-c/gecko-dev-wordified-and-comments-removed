@@ -534,6 +534,7 @@ tabs
 }
 ;
 private
+static
 final
 int
 LOADER_ID_HISTORY
@@ -541,6 +542,7 @@ LOADER_ID_HISTORY
 0
 ;
 private
+static
 final
 int
 LOADER_ID_REMOTE

@@ -161,6 +161,7 @@ GeckoMenu
 ActionItemBarPresenter
 {
 private
+static
 final
 String
 LOGTAG

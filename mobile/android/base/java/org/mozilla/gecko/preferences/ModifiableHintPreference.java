@@ -111,6 +111,7 @@ Context
 mContext
 ;
 private
+static
 final
 String
 MATCH_STRING
@@ -121,6 +122,7 @@ I
 "
 ;
 private
+static
 final
 int
 RESID_TEXT_VIEW
@@ -132,6 +134,7 @@ id
 label_search_hint
 ;
 private
+static
 final
 int
 RESID_DRAWABLE
@@ -143,6 +146,7 @@ drawable
 ab_add_search_engine
 ;
 private
+static
 final
 double
 SCALE_FACTOR

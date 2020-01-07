@@ -129,6 +129,7 @@ View
 OnClickListener
 {
 private
+static
 final
 String
 LOGTAG

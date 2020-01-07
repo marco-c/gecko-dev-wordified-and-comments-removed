@@ -46,6 +46,7 @@ implements
 RepositoryStateProvider
 {
 private
+static
 final
 int
 INITIAL_CAPACITY

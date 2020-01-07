@@ -163,6 +163,7 @@ implements
 Runnable
 {
 public
+static
 final
 String
 LOG_TAG

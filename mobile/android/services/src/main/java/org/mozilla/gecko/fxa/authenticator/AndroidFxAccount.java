@@ -921,6 +921,7 @@ AccountManager
 accountManager
 ;
 private
+static
 final
 long
 neverSynced

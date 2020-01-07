@@ -107,6 +107,7 @@ extends
 PixelTest
 {
 private
+static
 final
 String
 TEST_PROFILE_NAME

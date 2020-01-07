@@ -72,6 +72,7 @@ GzipNonChunkedCompressingEntity
 extends
 GzipCompressingEntity
 {
+static
 final
 int
 MAX_BUFFER_SIZE_BYTES
