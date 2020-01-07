@@ -1635,10 +1635,13 @@ ipc
 IPCResult
 RecvNotifyVisited
 (
-const
+nsTArray
+<
 URIParams
+>
 &
-aURI
+&
+aURIs
 )
 override
 ;
