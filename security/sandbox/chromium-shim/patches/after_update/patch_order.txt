@@ -16,3 +16,6 @@ patch
 use_STARTF_FORCEOFFFEEDBACK_flag
 .
 patch
+remove_dynamic_GetUserDefaultLocaleName_call
+.
+patch
