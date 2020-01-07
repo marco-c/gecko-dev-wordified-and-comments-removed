@@ -115,13 +115,4 @@ browser
 .
 ini
 '
-'
-browser
-/
-disable_app_update
-/
-browser
-.
-ini
-'
 ]
