@@ -739,15 +739,7 @@ IsBidiLTR
 nsRect
 contentRect
 =
-GetContentRect
-(
-)
--
-GetRect
-(
-)
-.
-TopLeft
+GetContentRectRelativeToSelf
 (
 )
 +
