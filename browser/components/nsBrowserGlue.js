@@ -7617,7 +7617,7 @@ getService
 (
 Ci
 .
-ILoginReputationService
+nsILoginReputationService
 )
 ;
 reputationService
