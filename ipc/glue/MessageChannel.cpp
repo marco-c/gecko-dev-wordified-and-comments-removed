@@ -1946,6 +1946,10 @@ mIsPostponingSends
 (
 false
 )
+mInKillHardShutdown
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -2632,6 +2636,10 @@ if
 Unsound_IsClosed
 (
 )
+&
+&
+!
+mInKillHardShutdown
 )
 {
 CrashReporter
