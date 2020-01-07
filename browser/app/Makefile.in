@@ -317,6 +317,12 @@ cp
 -
 p
 (
+DIST
+)
+/
+bin
+/
+(
 MOZ_APP_NAME
 )
 (

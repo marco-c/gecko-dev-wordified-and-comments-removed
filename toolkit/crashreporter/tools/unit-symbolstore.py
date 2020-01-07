@@ -4197,11 +4197,10 @@ buildconfig
 topobjdir
                                            
 '
-browser
+dist
 '
-                                           
 '
-app
+bin
 '
                                            
 '
@@ -4350,6 +4349,24 @@ include
 '
 )
         
+browser_app
+=
+os
+.
+path
+.
+join
+(
+buildconfig
+.
+topobjdir
+'
+browser
+/
+app
+'
+)
+        
 output
 =
 subprocess
@@ -4424,6 +4441,10 @@ devnull
 w
 '
 )
+                                         
+cwd
+=
+browser_app
 )
         
 lines

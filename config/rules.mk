@@ -3590,6 +3590,13 @@ RESFILE
 GLOBAL_DEPS
 )
 (
+call
+mkdir_deps
+(
+FINAL_TARGET
+)
+)
+(
 REPORT_BUILD
 )
 (
@@ -5994,7 +6001,10 @@ syms_template
 file
 )
 (
+notdir
+(
 file
+)
 )
 _syms
 .

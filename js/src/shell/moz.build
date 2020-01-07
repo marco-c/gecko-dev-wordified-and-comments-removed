@@ -565,6 +565,11 @@ src
 [
 '
 !
+/
+dist
+/
+bin
+/
 js
 %
 s
