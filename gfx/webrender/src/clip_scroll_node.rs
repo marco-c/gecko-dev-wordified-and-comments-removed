@@ -6,7 +6,6 @@ api
 ClipId
 DevicePixelScale
 ExternalScrollId
-IdType
 LayerPixel
 LayerPoint
 LayerRect
@@ -42,6 +41,7 @@ api
 :
 {
 ScrollLocation
+ScrollNodeIdType
 ScrollSensitivity
 StickyOffsetBounds
 WorldPoint
@@ -3817,7 +3817,7 @@ node_id
 ClipId
 id_to_match
 :
-IdType
+ScrollNodeIdType
 )
 -
 >
@@ -3829,7 +3829,7 @@ external_id
 match
 id_to_match
 {
-IdType
+ScrollNodeIdType
 :
 :
 ExternalScrollId
@@ -3839,7 +3839,7 @@ id
 =
 >
 id
-IdType
+ScrollNodeIdType
 :
 :
 ClipId
