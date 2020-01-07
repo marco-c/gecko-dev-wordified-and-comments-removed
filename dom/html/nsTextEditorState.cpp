@@ -6535,7 +6535,7 @@ direction
 sel
 -
 >
-GetSelectionDirection
+GetDirection
 (
 )
 ;
