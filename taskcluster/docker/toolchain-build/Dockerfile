@@ -525,14 +525,6 @@ zip
 zlib1g
 -
 dev
-\
-&
-&
-\
-apt
--
-get
-clean
 #
 %
 include

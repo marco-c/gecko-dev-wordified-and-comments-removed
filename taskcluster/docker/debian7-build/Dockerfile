@@ -676,14 +676,6 @@ libxt
 dev
 :
 ARCH
-\
-&
-&
-\
-apt
--
-get
-clean
 #
 %
 include
