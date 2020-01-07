@@ -3532,10 +3532,6 @@ GetStatus
 (
 )
 {
-AssertOwnsLock
-(
-)
-;
 return
 mStatus
 ;

@@ -4389,6 +4389,8 @@ const
 nsACString
 &
 type
+int64_t
+predictedSize
 nsIOutputStream
 *
 *
@@ -4407,6 +4409,7 @@ mSynthesizedCacheInfo
 OpenAlternativeOutputStream
 (
 type
+predictedSize
 _retval
 )
 ;

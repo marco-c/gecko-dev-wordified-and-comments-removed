@@ -882,6 +882,8 @@ entry
 openOutputStream
 (
 0
+-
+1
 )
 ;
 var

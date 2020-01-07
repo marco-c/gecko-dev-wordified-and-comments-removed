@@ -598,6 +598,17 @@ IsWriteInProgress
 (
 )
 ;
+bool
+EntryWouldExceedLimit
+(
+int64_t
+aOffset
+int64_t
+aSize
+bool
+aIsAltData
+)
+;
 size_t
 SizeOfExcludingThis
 (

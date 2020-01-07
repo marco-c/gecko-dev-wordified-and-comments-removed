@@ -191,6 +191,7 @@ entry
 openOutputStream
 (
 0
+5
 )
 ;
 write_and_check
@@ -272,6 +273,7 @@ openOutputStream
 entry
 .
 storageDataSize
+5
 )
 ;
 write_and_check

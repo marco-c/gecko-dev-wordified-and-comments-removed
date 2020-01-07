@@ -602,6 +602,9 @@ aCacheEntry
 openOutputStream
 (
 0
+aContent
+.
+length
 )
 ;
 var
