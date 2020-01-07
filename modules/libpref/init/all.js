@@ -9860,18 +9860,6 @@ javascript
 .
 options
 .
-array_prototype_values
-"
-true
-)
-;
-pref
-(
-"
-javascript
-.
-options
-.
 strict
 "
 false
@@ -39409,7 +39397,7 @@ blacklist
 -
 duration
 "
-60
+1200
 )
 ;
 pref
