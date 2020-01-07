@@ -275,11 +275,6 @@ attribute
 nsIDOMNode
 parentNode
 ;
-readonly
-attribute
-nsIDOMNodeList
-childNodes
-;
 /
 /
 Modified
