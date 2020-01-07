@@ -109,9 +109,6 @@ interface
 nsIPersistentProperties
 ;
 interface
-nsIDOMCSSPrimitiveValue
-;
-interface
 nsIDOMNode
 ;
 interface

@@ -88,6 +88,7 @@ const
 =
 0
 ;
+inline
 nsROCSSPrimitiveValue
 *
 AsPrimitiveValue

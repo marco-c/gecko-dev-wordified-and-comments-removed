@@ -33,7 +33,11 @@ h
 #
 include
 "
-nsIDOMCSSPrimitiveValue
+mozilla
+/
+dom
+/
+CSSPrimitiveValueBinding
 .
 h
 "
@@ -6652,7 +6656,7 @@ val
 SetString
 (
 str
-nsIDOMCSSPrimitiveValue
+CSSPrimitiveValueBinding
 :
 :
 CSS_ATTR
@@ -6809,7 +6813,7 @@ val
 SetString
 (
 str
-nsIDOMCSSPrimitiveValue
+CSSPrimitiveValueBinding
 :
 :
 CSS_COUNTER

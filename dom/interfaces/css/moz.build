@@ -113,11 +113,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMCSSPrimitiveValue
-.
-idl
-'
-'
 nsIDOMCSSStyleDeclaration
 .
 idl

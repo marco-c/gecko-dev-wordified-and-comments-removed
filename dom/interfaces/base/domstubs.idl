@@ -249,9 +249,6 @@ interface
 nsIDOMCSSValue
 ;
 interface
-nsIDOMCSSPrimitiveValue
-;
-interface
 nsIDOMCSSStyleDeclaration
 ;
 /
