@@ -590,6 +590,20 @@ run_info_data
 kwargs
 )
     
+executor_kwargs
+[
+"
+e10s
+"
+]
+=
+run_info_data
+[
+"
+e10s
+"
+]
+    
 capabilities
 =
 {
@@ -764,6 +778,20 @@ capabilities
 ]
 =
 capabilities
+    
+executor_kwargs
+[
+"
+debug
+"
+]
+=
+run_info_data
+[
+"
+debug
+"
+]
     
 return
 executor_kwargs
