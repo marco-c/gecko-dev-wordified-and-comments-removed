@@ -3470,6 +3470,8 @@ requests
 list
 -
 duration
+-
+time
 "
 )
 .
@@ -3498,6 +3500,8 @@ requests
 list
 -
 duration
+-
+time
 "
 )
 .
@@ -3531,6 +3535,8 @@ requests
 list
 -
 latency
+-
+time
 "
 )
 .
@@ -3559,6 +3565,8 @@ requests
 list
 -
 latency
+-
+time
 "
 )
 .
