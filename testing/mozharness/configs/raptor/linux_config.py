@@ -118,7 +118,7 @@ find_links
 [
         
 "
-http
+https
 :
 /
 /
@@ -136,7 +136,7 @@ pub
 "
         
 "
-http
+https
 :
 /
 /
@@ -213,6 +213,12 @@ webroot
 "
         
 "
+install
+-
+chrome
+"
+        
+"
 create
 -
 virtualenv
@@ -220,12 +226,6 @@ virtualenv
         
 "
 install
-"
-        
-"
-setup
--
-mitmproxy
 "
         
 "
