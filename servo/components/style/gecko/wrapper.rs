@@ -1253,6 +1253,15 @@ stylesheets
 is_empty
 (
 )
+|
+|
+author_styles
+.
+stylesheets
+.
+dirty
+(
+)
 )
 ;
 &
