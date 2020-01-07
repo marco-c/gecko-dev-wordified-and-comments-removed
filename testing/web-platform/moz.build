@@ -2037,11 +2037,10 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
 CSS
-Object
-Model
+Parsing
+and
+Computation
 "
 )
 with
@@ -2186,7 +2185,10 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+CSS
+Parsing
+and
+Computation
 "
 )
 with
