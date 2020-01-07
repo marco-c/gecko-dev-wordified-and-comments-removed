@@ -47,6 +47,10 @@ bool
 sVisitedLinksEnabled
 ;
 static
+bool
+sMozDocumentEnabledInContent
+;
+static
 void
 Init
 (
