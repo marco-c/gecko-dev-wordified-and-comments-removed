@@ -638,12 +638,6 @@ CustomElementData
 >
 mCustomElementData
 ;
-nsCOMPtr
-<
-nsISupports
->
-mFrameLoaderOrOpener
-;
 }
 ;
 class

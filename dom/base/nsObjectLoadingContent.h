@@ -106,9 +106,6 @@ class
 nsPluginFrame
 ;
 class
-nsXULElement
-;
-class
 nsPluginInstanceOwner
 ;
 namespace
@@ -130,6 +127,9 @@ MozPluginParameter
 ;
 class
 HTMLIFrameElement
+;
+class
+XULFrameElement
 ;
 }
 }
@@ -640,7 +640,13 @@ NS_ERROR_NOT_IMPLEMENTED
 void
 SwapFrameLoaders
 (
-nsXULElement
+mozilla
+:
+:
+dom
+:
+:
+XULFrameElement
 &
 aOtherLoaderOwner
 mozilla

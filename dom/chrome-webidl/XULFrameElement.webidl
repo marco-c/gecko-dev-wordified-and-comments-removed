@@ -138,3 +138,7 @@ contentDocument
 ;
 }
 ;
+XULFrameElement
+implements
+MozFrameLoaderOwner
+;

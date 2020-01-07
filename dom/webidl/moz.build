@@ -4176,6 +4176,11 @@ MouseScrollEvent
 webidl
 '
 '
+MozFrameLoaderOwner
+.
+webidl
+'
+'
 MutationEvent
 .
 webidl
