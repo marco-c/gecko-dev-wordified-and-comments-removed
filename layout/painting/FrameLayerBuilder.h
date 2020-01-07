@@ -164,6 +164,15 @@ ContainerState
 class
 PaintedDisplayItemLayerUserData
 ;
+enum
+class
+DisplayItemEntryType
+{
+ITEM
+PUSH_OPACITY
+POP_OPACITY
+}
+;
 class
 DisplayItemData
 final
