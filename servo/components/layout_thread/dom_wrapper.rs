@@ -4270,9 +4270,6 @@ Impl
 >
 _
 :
-VisitedHandlingMode
-_
-:
 &
 mut
 F
@@ -7138,9 +7135,6 @@ Self
 :
 Impl
 >
-_
-:
-VisitedHandlingMode
 _
 :
 &

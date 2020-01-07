@@ -9,12 +9,6 @@ CaseSensitivity
 }
 ;
 use
-context
-:
-:
-VisitedHandlingMode
-;
-use
 matching
 :
 :
@@ -362,9 +356,6 @@ Self
 :
 Impl
 >
-visited_handling
-:
-VisitedHandlingMode
 flags_setter
 :
 &

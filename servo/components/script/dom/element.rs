@@ -977,15 +977,6 @@ use
 selectors
 :
 :
-context
-:
-:
-VisitedHandlingMode
-;
-use
-selectors
-:
-:
 matching
 :
 :
@@ -19702,9 +19693,6 @@ Self
 :
 Impl
 >
-_
-:
-VisitedHandlingMode
 _
 :
 &
