@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

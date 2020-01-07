@@ -2284,7 +2284,7 @@ aClientY
 nsIDOMElement
 *
 aTarget
-nsIDOMEvent
+Event
 *
 aEvent
 )

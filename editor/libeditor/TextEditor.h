@@ -66,9 +66,6 @@ class
 nsIContent
 ;
 class
-nsIDOMEvent
-;
-class
 nsIDocumentEncoder
 ;
 class

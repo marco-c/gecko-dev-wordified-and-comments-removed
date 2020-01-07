@@ -64,9 +64,6 @@ class
 nsIContent
 ;
 class
-nsIDOMEvent
-;
-class
 nsIPresShell
 ;
 class

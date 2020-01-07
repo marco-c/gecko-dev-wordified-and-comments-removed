@@ -288,6 +288,9 @@ class
 DocumentFragment
 ;
 class
+Event
+;
+class
 MouseEvent
 ;
 }
@@ -1511,7 +1514,10 @@ aY
 nsIDOMElement
 *
 aTarget
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aMouseEvent
 )
