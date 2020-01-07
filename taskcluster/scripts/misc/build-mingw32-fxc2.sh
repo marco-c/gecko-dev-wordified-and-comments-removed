@@ -64,18 +64,6 @@ PATH
 "
 TOOLTOOL_DIR
 /
-gcc
-/
-bin
-:
-TOOLTOOL_DIR
-/
-gcc
-/
-i686
--
-w64
--
 mingw32
 /
 bin
@@ -156,7 +144,7 @@ bin
 cp
 TOOLTOOL_DIR
 /
-gcc
+mingw32
 /
 i686
 -

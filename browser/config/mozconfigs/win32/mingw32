@@ -282,7 +282,7 @@ CC
 "
 TOOLTOOL_DIR
 /
-gcc
+mingw32
 /
 bin
 /
@@ -299,7 +299,7 @@ CXX
 "
 TOOLTOOL_DIR
 /
-gcc
+mingw32
 /
 bin
 /
@@ -367,12 +367,6 @@ bin
 :
 TOOLTOOL_DIR
 /
-gcc
-/
-i686
--
-w64
--
 mingw32
 /
 bin
@@ -414,9 +408,9 @@ lib64
 :
 TOOLTOOL_DIR
 /
-gcc
+mingw32
 /
-lib
+lib64
 mk_add_options
 "
 export
