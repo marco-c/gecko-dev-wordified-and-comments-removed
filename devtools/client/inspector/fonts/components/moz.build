@@ -93,7 +93,17 @@ Font
 js
 '
 '
+FontEditor
+.
+js
+'
+'
 FontList
+.
+js
+'
+'
+FontOverview
 .
 js
 '

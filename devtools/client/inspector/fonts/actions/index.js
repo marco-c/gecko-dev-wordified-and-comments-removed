@@ -25,6 +25,9 @@ createEnum
 (
 [
 "
+UPDATE_EDITOR_VISIBILITY
+"
+"
 UPDATE_FONTS
 "
 "

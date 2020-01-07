@@ -90,6 +90,13 @@ DevToolsModules
 '
 font
 -
+editor
+.
+js
+'
+'
+font
+-
 options
 .
 js
