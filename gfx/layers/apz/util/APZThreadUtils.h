@@ -72,7 +72,7 @@ AssertOnControllerThread
 ;
 static
 void
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;

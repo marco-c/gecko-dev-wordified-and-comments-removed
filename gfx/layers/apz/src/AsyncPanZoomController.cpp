@@ -2335,7 +2335,7 @@ Destroy
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -15046,7 +15046,7 @@ aOutDeferredTasks
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -15261,7 +15261,7 @@ aSampleTime
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -16593,7 +16593,7 @@ aThisLayerTreeUpdated
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;
@@ -19775,7 +19775,7 @@ ShareCompositorFrameMetrics
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;

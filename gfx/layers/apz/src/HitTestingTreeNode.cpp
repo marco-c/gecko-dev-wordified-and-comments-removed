@@ -257,7 +257,7 @@ Destroy
 APZThreadUtils
 :
 :
-AssertOnCompositorThread
+AssertOnSamplerThread
 (
 )
 ;

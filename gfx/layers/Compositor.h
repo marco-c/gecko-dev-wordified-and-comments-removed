@@ -1280,12 +1280,6 @@ return
 mWidget
 ;
 }
-static
-void
-AssertOnCompositorThread
-(
-)
-;
 virtual
 void
 GetFrameStats
