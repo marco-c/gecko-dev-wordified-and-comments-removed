@@ -708,15 +708,6 @@ vertical
 ref
 .
 html
-fails
--
-if
-(
-webrender
-&
-&
-cocoaWidget
-)
 =
 =
 linear
@@ -1545,7 +1536,7 @@ webrender
 1
 -
 2
-2
+4
 -
 9
 )
@@ -1575,7 +1566,7 @@ webrender
 1
 -
 2
-2
+4
 -
 9
 )

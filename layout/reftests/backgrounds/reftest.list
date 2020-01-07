@@ -3369,13 +3369,9 @@ fuzzy
 if
 (
 webrender
-&
-&
-!
-gtkWidget
 73
 -
-73
+93
 49600
 -
 49600
