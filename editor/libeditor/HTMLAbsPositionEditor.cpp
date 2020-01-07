@@ -1384,9 +1384,6 @@ HTMLEditor
 :
 StartMoving
 (
-nsIDOMElement
-*
-aHandle
 )
 {
 nsCOMPtr

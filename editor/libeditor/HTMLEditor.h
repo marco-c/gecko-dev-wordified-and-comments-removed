@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h
@@ -228,6 +221,9 @@ nsIClipboard
 ;
 class
 nsIDOMDocument
+;
+class
+nsIDOMElement
 ;
 class
 nsIDOMMouseEvent
@@ -3839,9 +3835,6 @@ aParentContent
 nsresult
 StartMoving
 (
-nsIDOMElement
-*
-aHandle
 )
 ;
 nsresult

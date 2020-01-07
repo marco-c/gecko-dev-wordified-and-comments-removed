@@ -90,9 +90,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMElement
-;
-class
 nsIDOMNode
 ;
 class
