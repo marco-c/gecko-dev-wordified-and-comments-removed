@@ -1637,8 +1637,9 @@ aProtoPI
 nsINode
 *
 aParent
-uint32_t
-aIndex
+nsINode
+*
+aBeforeThis
 )
 ;
 nsresult
@@ -1651,8 +1652,9 @@ aProtoPI
 nsINode
 *
 aParent
-uint32_t
-aIndex
+nsINode
+*
+aBeforeThis
 nsIContent
 *
 aPINode
@@ -1668,8 +1670,9 @@ aProtoPI
 nsINode
 *
 aParent
-uint32_t
-aIndex
+nsINode
+*
+aBeforeThis
 nsIContent
 *
 aPINode
