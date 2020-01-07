@@ -4694,6 +4694,10 @@ ScalarKey
 aId
 bool
 aKeyed
+bool
+aForce
+=
+false
 )
 {
 if
@@ -4734,6 +4738,10 @@ CannotRecordDataset
 }
 if
 (
+!
+aForce
+&
+&
 !
 internal_CanRecordProcess
 (
@@ -5468,6 +5476,7 @@ internal_CanRecordScalar
 lock
 uniqueId
 false
+aForce
 )
 ;
 if
@@ -6147,6 +6156,7 @@ internal_CanRecordScalar
 lock
 uniqueId
 true
+aForce
 )
 ;
 if
