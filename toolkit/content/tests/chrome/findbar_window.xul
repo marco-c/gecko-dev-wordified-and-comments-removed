@@ -474,13 +474,6 @@ Cr
 NS_NOINTERFACE
 ;
 }
-setJSStatus
-:
-function
-(
-)
-{
-}
 setOverLink
 :
 function

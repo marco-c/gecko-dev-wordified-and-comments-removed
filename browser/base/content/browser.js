@@ -23302,11 +23302,6 @@ canViewSource
 )
 ;
 }
-setJSStatus
-(
-)
-{
-}
 forceInitialBrowserNonRemote
 (
 aOpener
