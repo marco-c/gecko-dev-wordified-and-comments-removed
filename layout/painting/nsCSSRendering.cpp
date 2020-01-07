@@ -4952,7 +4952,7 @@ return
 *
 savedOutlineInnerRect
 ;
-NS_NOTREACHED
+NS_ERROR
 (
 "
 we
