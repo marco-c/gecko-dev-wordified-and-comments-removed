@@ -313,6 +313,12 @@ DocumentOrShadowRoot
 =
 default
 ;
+Element
+*
+GetPointerLockElement
+(
+)
+;
 protected
 :
 nsIContent

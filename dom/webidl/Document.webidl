@@ -1968,12 +1968,6 @@ partial
 interface
 Document
 {
-readonly
-attribute
-Element
-?
-pointerLockElement
-;
 void
 exitPointerLock
 (

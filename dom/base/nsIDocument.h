@@ -7764,12 +7764,6 @@ ExitFullscreen
 (
 )
 ;
-Element
-*
-GetPointerLockElement
-(
-)
-;
 void
 ExitPointerLock
 (

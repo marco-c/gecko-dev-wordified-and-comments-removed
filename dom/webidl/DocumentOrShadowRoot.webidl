@@ -241,17 +241,6 @@ attribute
 StyleSheetList
 styleSheets
 ;
-/
-/
-Not
-implemented
-yet
-:
-bug
-1430303
-.
-/
-/
 readonly
 attribute
 Element
