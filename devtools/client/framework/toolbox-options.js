@@ -1432,18 +1432,12 @@ atleastOneToolNotSupported
 =
 false
 ;
-const
-toolbox
-=
-this
-.
-toolbox
-;
 let
 onCheckboxClick
 =
 function
 (
+telemetry
 tool
 )
 {
@@ -1493,8 +1487,6 @@ tool
 id
 )
 ;
-this
-.
 telemetry
 .
 keyedScalarSet
@@ -1715,6 +1707,9 @@ onCheckboxClick
 bind
 (
 checkboxInput
+this
+.
+telemetry
 tool
 )
 )
@@ -1871,6 +1866,8 @@ name
 pref
 }
 of
+this
+.
 toolbox
 .
 listWebExtensions
