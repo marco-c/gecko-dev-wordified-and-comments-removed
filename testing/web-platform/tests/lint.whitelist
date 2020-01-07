@@ -2692,17 +2692,6 @@ html
 SET
 TIMEOUT
 :
-webauthn
-/
-*
-timeout
-.
-https
-.
-html
-SET
-TIMEOUT
-:
 webdriver
 /
 *
