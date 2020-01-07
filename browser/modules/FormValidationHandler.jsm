@@ -252,14 +252,9 @@ aEvent
 .
 originalTarget
 .
-ownerDocument
+ownerGlobal
 .
-getElementById
-(
-"
-content
-"
-)
+gBrowser
 ;
 tabBrowser
 .
