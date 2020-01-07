@@ -784,6 +784,14 @@ lintargs
 )
 :
     
+global
+results
+    
+results
+=
+[
+]
+    
 cmdargs
 =
 [

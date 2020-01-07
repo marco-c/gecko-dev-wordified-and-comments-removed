@@ -148,6 +148,15 @@ exclude
 obj
 *
 '
+'
+tools
+/
+lint
+/
+test
+/
+files
+'
 ]
         
 cli

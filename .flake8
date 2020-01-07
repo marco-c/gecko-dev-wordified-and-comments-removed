@@ -50,3 +50,10 @@ testing
 mochitest
 /
 pywebsocket
+tools
+/
+lint
+/
+test
+/
+files

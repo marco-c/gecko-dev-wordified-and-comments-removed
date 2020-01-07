@@ -620,6 +620,15 @@ mozlint
 *
 *
 '
+-
+'
+tools
+/
+lint
+/
+*
+*
+'
 mozterm
 :
 description
