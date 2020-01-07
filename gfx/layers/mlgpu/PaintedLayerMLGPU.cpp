@@ -638,7 +638,7 @@ IsPlaceholderTile
 continue
 ;
 }
-TileIntPoint
+TileCoordIntPoint
 pos
 =
 aTiles

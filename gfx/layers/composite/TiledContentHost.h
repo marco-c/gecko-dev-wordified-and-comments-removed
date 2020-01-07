@@ -503,7 +503,7 @@ mutable
 CompositableTextureSourceRef
 mTextureSourceOnWhite
 ;
-TileIntPoint
+TileCoordIntPoint
 mTilePosition
 ;
 TimeStamp

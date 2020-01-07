@@ -99,7 +99,7 @@ namespace
 mozilla
 {
 struct
-TileUnit
+TileCoordUnit
 {
 }
 ;
@@ -109,7 +109,7 @@ template
 struct
 IsPixel
 <
-TileUnit
+TileCoordUnit
 >
 :
 mozilla
@@ -228,9 +228,9 @@ gfx
 :
 IntSizeTyped
 <
-TileUnit
+TileCoordUnit
 >
-TileIntSize
+TileCoordIntSize
 ;
 typedef
 gfx
@@ -238,17 +238,17 @@ gfx
 :
 IntPointTyped
 <
-TileUnit
+TileCoordUnit
 >
-TileIntPoint
+TileCoordIntPoint
 ;
 struct
 TilesPlacement
 {
-TileIntPoint
+TileCoordIntPoint
 mFirst
 ;
-TileIntSize
+TileCoordIntSize
 mSize
 ;
 TilesPlacement
@@ -278,7 +278,7 @@ aRetainedHeight
 int
 TileIndex
 (
-TileIntPoint
+TileCoordIntPoint
 aPosition
 )
 const
@@ -307,7 +307,7 @@ mFirst
 y
 ;
 }
-TileIntPoint
+TileCoordIntPoint
 TilePosition
 (
 size_t
@@ -316,7 +316,7 @@ aIndex
 const
 {
 return
-TileIntPoint
+TileCoordIntPoint
 (
 mFirst
 .
@@ -342,7 +342,7 @@ height
 bool
 HasTile
 (
-TileIntPoint
+TileCoordIntPoint
 aPosition
 )
 const
@@ -512,7 +512,7 @@ gfx
 IntPoint
 GetTileOffset
 (
-TileIntPoint
+TileCoordIntPoint
 aPosition
 )
 const
@@ -777,7 +777,7 @@ i
 )
 {
 const
-TileIntPoint
+TileCoordIntPoint
 tilePosition
 =
 mTiles

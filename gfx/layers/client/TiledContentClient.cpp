@@ -5434,7 +5434,7 @@ oldIndex
 )
 {
 const
-TileIntPoint
+TileCoordIntPoint
 tilePosition
 =
 oldTiles
@@ -5544,7 +5544,7 @@ i
 )
 {
 const
-TileIntPoint
+TileCoordIntPoint
 tilePosition
 =
 newTiles
@@ -6010,7 +6010,7 @@ IsLocked
 )
 {
 const
-TileIntPoint
+TileCoordIntPoint
 tilePosition
 =
 newTiles
