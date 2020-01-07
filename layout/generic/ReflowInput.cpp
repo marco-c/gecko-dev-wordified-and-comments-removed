@@ -6797,7 +6797,7 @@ GetWritingMode
 (
 )
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 aCBSize
 .
