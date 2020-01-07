@@ -3946,7 +3946,7 @@ g
 .
 1396381378123
 .
-pause_behaviour_changed
+pause_on_exceptions
 :
 objects
 :
@@ -4018,7 +4018,7 @@ exceptions
 is
 checked
 .
-caught_exceptions
+caught_exceptio
 :
 Pause
 on
@@ -4132,7 +4132,7 @@ statement
 or
 breakpoint
 .
-collapsed_callstacks
+lib_stacks
 :
 Number
 of
