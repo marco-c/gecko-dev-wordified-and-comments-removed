@@ -181,7 +181,7 @@ mozilla
 interceptor
 :
 :
-VMSharingPolicyUnique
+VMSharingPolicyShared
 <
 mozilla
 :
