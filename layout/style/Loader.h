@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsIStyleSheetLinkingElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -150,9 +157,6 @@ nsIContent
 ;
 class
 nsIDocument
-;
-class
-nsIStyleSheetLinkingElement
 ;
 namespace
 mozilla
@@ -654,6 +658,13 @@ ReferrerPolicy
 ;
 public
 :
+typedef
+nsIStyleSheetLinkingElement
+:
+:
+IsAlternate
+IsAlternate
+;
 Loader
 (
 )
@@ -761,7 +772,7 @@ aObserver
 bool
 *
 aCompleted
-bool
+IsAlternate
 *
 aIsAlternate
 )
@@ -799,7 +810,7 @@ aIntegrity
 nsICSSLoaderObserver
 *
 aObserver
-bool
+IsAlternate
 *
 aIsAlternate
 )
@@ -1011,8 +1022,8 @@ nsICSSLoaderObserver
 aObserver
 )
 ;
-bool
 IsAlternate
+IsAlternateSheet
 (
 const
 nsAString
@@ -1136,7 +1147,7 @@ aTitle
 StyleSheetState
 &
 aSheetState
-bool
+IsAlternate
 *
 aIsAlternate
 RefPtr
@@ -1167,8 +1178,7 @@ dom
 MediaList
 *
 aMediaList
-bool
-aIsAlternate
+IsAlternate
 )
 ;
 nsresult
@@ -1260,7 +1270,7 @@ aSheet
 nsICSSLoaderObserver
 *
 aObserver
-bool
+IsAlternate
 aWasAlternate
 nsIStyleSheetLinkingElement
 *
