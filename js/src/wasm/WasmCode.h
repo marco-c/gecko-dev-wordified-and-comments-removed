@@ -1487,6 +1487,9 @@ kind
 MemoryUsage
 memoryUsage
 ;
+HasGcTypes
+temporaryHasGcTypes
+;
 uint32_t
 minMemoryLength
 ;
@@ -1522,6 +1525,13 @@ MemoryUsage
 :
 :
 None
+)
+temporaryHasGcTypes
+(
+HasGcTypes
+:
+:
+False
 )
 minMemoryLength
 (

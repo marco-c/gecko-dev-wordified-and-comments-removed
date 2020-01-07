@@ -4618,6 +4618,16 @@ memoryUsage
 metadata_
 -
 >
+temporaryHasGcTypes
+=
+env_
+-
+>
+gcTypesEnabled
+;
+metadata_
+-
+>
 minMemoryLength
 =
 env_

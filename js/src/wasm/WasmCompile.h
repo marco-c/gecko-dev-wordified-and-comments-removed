@@ -73,6 +73,9 @@ ionEnabled
 bool
 sharedMemoryEnabled
 ;
+HasGcTypes
+gcTypesEnabled
+;
 bool
 testTiering
 ;
@@ -117,6 +120,13 @@ false
 sharedMemoryEnabled
 (
 false
+)
+gcTypesEnabled
+(
+HasGcTypes
+:
+:
+False
 )
 testTiering
 (

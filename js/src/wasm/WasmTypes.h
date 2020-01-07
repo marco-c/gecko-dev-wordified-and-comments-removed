@@ -2057,6 +2057,14 @@ False
 True
 }
 ;
+enum
+class
+HasGcTypes
+{
+False
+True
+}
+;
 class
 Val
 {
