@@ -3846,6 +3846,9 @@ static
 void
 Usage
 (
+char
+*
+progName
 )
 {
 fprintf
@@ -5368,6 +5371,7 @@ case
 :
 Usage
 (
+progName
 )
 ;
 break
@@ -5912,6 +5916,7 @@ nickName
 )
 Usage
 (
+progName
 )
 ;
 if
@@ -5924,6 +5929,7 @@ inFile
 )
 Usage
 (
+progName
 )
 ;
 if
@@ -5936,6 +5942,7 @@ inFile
 )
 Usage
 (
+progName
 )
 ;
 if
@@ -5963,6 +5970,7 @@ nickName
 )
 Usage
 (
+progName
 )
 ;
 if
@@ -5995,6 +6003,7 @@ erase
 )
 Usage
 (
+progName
 )
 ;
 if

@@ -363,13 +363,6 @@ Qunused
 arguments
 '
 )
-    
-set_warning
-(
-'
-shadow
-'
-)
 if
 __name__
 =

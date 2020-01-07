@@ -18,7 +18,7 @@ vector
 <
 uint8_t
 >
-kat_key
+key
 =
 {
 0

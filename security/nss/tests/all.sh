@@ -3194,7 +3194,6 @@ nss_ssl_tests
 crl
 iopr
 policy
-normal_normal
 "
 if
 [

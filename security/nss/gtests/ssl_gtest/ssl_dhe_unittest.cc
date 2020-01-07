@@ -547,12 +547,12 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 )
 :
 TlsHandshakeFilter
 (
-a
+agent
 {
 kTlsHandshakeServerKeyExchange
 }
@@ -686,7 +686,7 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 uint8_t
 handshake_type
 ChangeYTo
@@ -695,7 +695,7 @@ change
 :
 TlsHandshakeFilter
 (
-a
+agent
 {
 handshake_type
 }
@@ -1108,7 +1108,7 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 ChangeYTo
 change
 bool
@@ -1117,7 +1117,7 @@ modify
 :
 TlsDheSkeChangeY
 (
-a
+agent
 kTlsHandshakeServerKeyExchange
 change
 )
@@ -1292,7 +1292,7 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 ChangeYTo
 change
 std
@@ -1308,7 +1308,7 @@ server_filter
 :
 TlsDheSkeChangeY
 (
-a
+agent
 kTlsHandshakeClientKeyExchange
 change
 )
@@ -1936,12 +1936,12 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 )
 :
 TlsHandshakeFilter
 (
-a
+agent
 {
 kTlsHandshakeServerKeyExchange
 }
@@ -2129,12 +2129,12 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 )
 :
 TlsHandshakeFilter
 (
-a
+agent
 {
 kTlsHandshakeServerKeyExchange
 }
@@ -2926,7 +2926,7 @@ shared_ptr
 TlsAgent
 >
 &
-a
+agent
 uint16_t
 version
 const
@@ -2939,7 +2939,7 @@ len
 :
 TlsHandshakeFilter
 (
-a
+agent
 {
 kTlsHandshakeServerKeyExchange
 }

@@ -284,6 +284,7 @@ DERinput
 SECItem
 newinput
 ;
+SECStatus
 rv
 =
 SECITEM_CopyItem

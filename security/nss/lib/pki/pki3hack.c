@@ -5301,7 +5301,7 @@ NULL
 {
 NSSCryptoContext
 *
-cctx
+cc
 =
 c
 -
@@ -5314,7 +5314,7 @@ nssrv
 =
 nssCryptoContext_ImportTrust
 (
-cctx
+cc
 nssTrust
 )
 ;

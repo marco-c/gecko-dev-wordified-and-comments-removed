@@ -5288,9 +5288,9 @@ PR_FALSE
 {
 void
 *
-v
+dummy
 ;
-v
+dummy
 =
 CBC_PadBuffer
 (
@@ -5313,7 +5313,7 @@ len
 ;
 if
 (
-v
+dummy
 =
 =
 NULL
@@ -5339,7 +5339,7 @@ unsigned
 char
 *
 )
-v
+dummy
 ;
 }
 dest

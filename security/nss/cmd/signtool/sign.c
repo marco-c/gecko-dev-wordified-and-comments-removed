@@ -998,12 +998,12 @@ int
 javascript
 char
 *
-metafilename
+metafile
 char
 *
 install_script
 int
-optimize_level
+optimize
 PRBool
 recurse
 )
@@ -1027,7 +1027,7 @@ info
 .
 metafile
 =
-metafilename
+metafile
 ;
 info
 .
@@ -1039,7 +1039,7 @@ info
 .
 optimize
 =
-optimize_level
+optimize
 ;
 return
 foreach
@@ -1082,7 +1082,7 @@ arg
 {
 char
 *
-zipfilename
+zipfile
 =
 NULL
 ;
@@ -1206,7 +1206,7 @@ basedir
 relpath
 )
 ;
-zipfilename
+zipfile
 =
 PL_strdup
 (
@@ -1217,7 +1217,7 @@ arc
 =
 PORT_Strrchr
 (
-zipfilename
+zipfile
 '
 .
 '
@@ -1288,7 +1288,7 @@ s
 \
 n
 "
-zipfilename
+zipfile
 )
 ;
 }
@@ -1301,7 +1301,7 @@ infop
 -
 >
 keyName
-zipfilename
+zipfile
 infop
 -
 >
@@ -1335,11 +1335,11 @@ archive
 ;
 if
 (
-zipfilename
+zipfile
 )
 PR_Free
 (
-zipfilename
+zipfile
 )
 ;
 return
@@ -3512,11 +3512,11 @@ who
 {
 FILE
 *
-sfFile
+sf
 ;
 FILE
 *
-mfFile
+mf
 ;
 long
 r1
@@ -3560,7 +3560,7 @@ who
 if
 (
 (
-mfFile
+mf
 =
 fopen
 (
@@ -3589,7 +3589,7 @@ ERRX
 if
 (
 (
-sfFile
+sf
 =
 fopen
 (
@@ -3660,7 +3660,7 @@ out_of_memory
 ;
 fprintf
 (
-sfFile
+sf
 "
 Signature
 -
@@ -3676,7 +3676,7 @@ n
 ;
 fprintf
 (
-sfFile
+sf
 "
 Created
 -
@@ -3692,7 +3692,7 @@ CREATOR
 ;
 fprintf
 (
-sfFile
+sf
 "
 Comments
 :
@@ -3710,7 +3710,7 @@ fgets
 (
 buf
 BUFSIZ
-mfFile
+mf
 )
 =
 =
@@ -3789,7 +3789,7 @@ ERRX
 }
 fseek
 (
-mfFile
+mf
 0L
 SEEK_SET
 )
@@ -3803,7 +3803,7 @@ r1
 =
 ftell
 (
-mfFile
+mf
 )
 ;
 if
@@ -3812,7 +3812,7 @@ fgets
 (
 name
 BUFSIZ
-mfFile
+mf
 )
 =
 =
@@ -3899,7 +3899,7 @@ fgets
 (
 buf
 BUFSIZ
-mfFile
+mf
 )
 )
 {
@@ -3941,7 +3941,7 @@ r2
 =
 ftell
 (
-mfFile
+mf
 )
 ;
 }
@@ -3949,7 +3949,7 @@ r3
 =
 ftell
 (
-mfFile
+mf
 )
 ;
 if
@@ -3959,7 +3959,7 @@ r1
 {
 fprintf
 (
-sfFile
+sf
 "
 \
 n
@@ -3968,7 +3968,7 @@ n
 ;
 fprintf
 (
-sfFile
+sf
 "
 %
 s
@@ -3979,7 +3979,7 @@ name
 }
 calculate_MD5_range
 (
-mfFile
+mf
 r1
 r2
 &
@@ -3996,7 +3996,7 @@ optimize
 {
 fprintf
 (
-sfFile
+sf
 "
 Digest
 -
@@ -4021,7 +4021,7 @@ MD5_LENGTH
 ;
 fprintf
 (
-sfFile
+sf
 "
 MD5
 -
@@ -4053,7 +4053,7 @@ SHA1_LENGTH
 ;
 fprintf
 (
-sfFile
+sf
 "
 SHA1
 -
@@ -4074,7 +4074,7 @@ sha1
 ;
 fseek
 (
-mfFile
+mf
 r3
 SEEK_SET
 )
@@ -4092,12 +4092,12 @@ name
 ;
 fclose
 (
-sfFile
+sf
 )
 ;
 fclose
 (
-mfFile
+mf
 )
 ;
 return

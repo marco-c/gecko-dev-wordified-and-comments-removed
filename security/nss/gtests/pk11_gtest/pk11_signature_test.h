@@ -94,14 +94,14 @@ protected
 Pk11SignatureTest
 (
 CK_MECHANISM_TYPE
-mech
+mechanism
 SECOidTag
 hash_oid
 )
 :
 mechanism_
 (
-mech
+mechanism
 )
 hash_oid_
 (

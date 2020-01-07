@@ -10547,7 +10547,7 @@ BLAKE2B_DestroyContext
 (
 BLAKE2BContext
 *
-ctx
+BLAKE2BContext
 PRBool
 freeit
 )
@@ -10576,7 +10576,7 @@ vector
 p_BLAKE2B_DestroyContext
 )
 (
-ctx
+BLAKE2BContext
 freeit
 )
 ;

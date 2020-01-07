@@ -100,7 +100,7 @@ synopsis
 (
 char
 *
-progname
+program_name
 )
 {
 PRFileDesc
@@ -140,7 +140,7 @@ dir
 \
 n
 "
-progname
+program_name
 )
 ;
 PR_fprintf
@@ -163,7 +163,7 @@ dir
 \
 n
 "
-progname
+program_name
 )
 ;
 PR_fprintf
@@ -204,7 +204,7 @@ dir
 \
 n
 "
-progname
+program_name
 )
 ;
 PR_fprintf
@@ -248,7 +248,7 @@ dir
 \
 n
 "
-progname
+program_name
 )
 ;
 PR_fprintf
@@ -283,7 +283,7 @@ name
 \
 n
 "
-progname
+program_name
 )
 ;
 PR_fprintf
@@ -357,7 +357,7 @@ name
 \
 n
 "
-progname
+program_name
 )
 ;
 PR_fprintf
@@ -401,7 +401,7 @@ short_usage
 (
 char
 *
-progname
+program_name
 )
 {
 PR_fprintf
@@ -420,12 +420,12 @@ descriptions
 \
 n
 "
-progname
+program_name
 )
 ;
 synopsis
 (
-progname
+program_name
 )
 ;
 }
@@ -435,7 +435,7 @@ long_usage
 (
 char
 *
-progname
+program_name
 )
 {
 PRFileDesc
@@ -448,7 +448,7 @@ PR_STDERR
 ;
 synopsis
 (
-progname
+program_name
 )
 ;
 PR_fprintf

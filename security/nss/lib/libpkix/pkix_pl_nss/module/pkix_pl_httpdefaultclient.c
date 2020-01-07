@@ -114,7 +114,7 @@ PKIX_Boolean
 pKeepGoing
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_UInt32
@@ -331,7 +331,7 @@ void
 )
 &
 copy
-plCtx
+plContext
 )
 PKIX_MALLOCFAILED
 )
@@ -1088,7 +1088,7 @@ void
 )
 &
 body
-plCtx
+plContext
 )
 PKIX_MALLOCFAILED
 )
@@ -1132,7 +1132,7 @@ client
 -
 >
 rcvBuf
-plCtx
+plContext
 )
 PKIX_FREEFAILED
 )
@@ -1169,7 +1169,7 @@ PKIX_PL_HttpDefaultClient
 pClient
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_PL_HttpDefaultClient
@@ -1208,7 +1208,7 @@ PKIX_PL_Object
 )
 &
 client
-plCtx
+plContext
 )
 PKIX_COULDNOTCREATEHTTPDEFAULTCLIENTOBJECT
 )
@@ -1439,7 +1439,7 @@ client
 >
 plContext
 =
-plCtx
+plContext
 ;
 *
 pClient
@@ -1475,7 +1475,7 @@ PKIX_PL_Object
 object
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_PL_HttpDefaultClient
@@ -1503,7 +1503,7 @@ pkix_CheckType
 (
 object
 PKIX_HTTPDEFAULTCLIENT_TYPE
-plCtx
+plContext
 )
 PKIX_OBJECTNOTANHTTPDEFAULTCLIENT
 )
@@ -1530,7 +1530,7 @@ client
 -
 >
 rcvHeaders
-plCtx
+plContext
 )
 ;
 client
@@ -1609,7 +1609,7 @@ client
 -
 >
 POSTBuf
-plCtx
+plContext
 )
 ;
 client
@@ -1637,7 +1637,7 @@ client
 -
 >
 rcvBuf
-plCtx
+plContext
 )
 ;
 client
@@ -1718,7 +1718,7 @@ pkix_pl_HttpDefaultClient_RegisterSelf
 (
 void
 *
-plCtx
+plContext
 )
 {
 extern
@@ -1814,7 +1814,7 @@ PKIX_Boolean
 pKeepGoing
 void
 *
-plCtx
+plContext
 )
 {
 PRErrorCode
@@ -1868,7 +1868,7 @@ client
 socket
 &
 status
-plCtx
+plContext
 )
 PKIX_SOCKETCONNECTCONTINUEFAILED
 )
@@ -1937,7 +1937,7 @@ PKIX_UInt32
 pBytesTransferred
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_Int32
@@ -2066,7 +2066,7 @@ dataToWrite
 lenToWrite
 &
 bytesWritten
-plCtx
+plContext
 )
 PKIX_SOCKETSENDFAILED
 )
@@ -2158,7 +2158,7 @@ PKIX_UInt32
 pBytesTransferred
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_Int32
@@ -2217,7 +2217,7 @@ socket
 &
 bytesWritten
 NULL
-plCtx
+plContext
 )
 PKIX_SOCKETPOLLFAILED
 )
@@ -2269,7 +2269,7 @@ PKIX_Boolean
 pKeepGoing
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_UInt32
@@ -2334,7 +2334,7 @@ client
 >
 rcvBuf
 )
-plCtx
+plContext
 )
 PKIX_REALLOCFAILED
 )
@@ -2393,7 +2393,7 @@ filledupBytes
 bytesToRead
 &
 bytesRead
-plCtx
+plContext
 )
 PKIX_SOCKETRECVFAILED
 )
@@ -2412,7 +2412,7 @@ pkix_pl_HttpDefaultClient_HdrCheckComplete
 client
 bytesRead
 pKeepGoing
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTHDRCHECKCOMPLETEFAILED
 )
@@ -2454,7 +2454,7 @@ PKIX_Boolean
 pKeepGoing
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_Int32
@@ -2507,7 +2507,7 @@ socket
 NULL
 &
 bytesRead
-plCtx
+plContext
 )
 PKIX_SOCKETPOLLFAILED
 )
@@ -2534,7 +2534,7 @@ pkix_pl_HttpDefaultClient_HdrCheckComplete
 client
 bytesRead
 pKeepGoing
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTHDRCHECKCOMPLETEFAILED
 )
@@ -2569,7 +2569,7 @@ PKIX_Boolean
 pKeepGoing
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_Int32
@@ -2774,7 +2774,7 @@ client
 -
 >
 rcvBuf
-plCtx
+plContext
 )
 PKIX_REALLOCFAILED
 )
@@ -2823,7 +2823,7 @@ socket
 NULL
 &
 bytesRead
-plCtx
+plContext
 )
 PKIX_SOCKETPOLLFAILED
 )
@@ -2862,7 +2862,7 @@ filledupBytes
 bytesToRead
 &
 bytesRead
-plCtx
+plContext
 )
 PKIX_SOCKETRECVFAILED
 )
@@ -3019,7 +3019,7 @@ PKIX_PL_HttpDefaultClient
 client
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_UInt32
@@ -3068,7 +3068,7 @@ pkix_pl_HttpDefaultClient_ConnectContinue
 client
 &
 keepGoing
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTCONNECTCONTINUEFAILED
 )
@@ -3087,7 +3087,7 @@ client
 keepGoing
 &
 bytesTransferred
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTSENDFAILED
 )
@@ -3106,7 +3106,7 @@ client
 keepGoing
 &
 bytesTransferred
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTSENDCONTINUEFAILED
 )
@@ -3123,7 +3123,7 @@ pkix_pl_HttpDefaultClient_RecvHdr
 client
 &
 keepGoing
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTRECVHDRFAILED
 )
@@ -3140,7 +3140,7 @@ pkix_pl_HttpDefaultClient_RecvHdrContinue
 client
 &
 keepGoing
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTRECVHDRCONTINUEFAILED
 )
@@ -3160,7 +3160,7 @@ pkix_pl_HttpDefaultClient_RecvBody
 client
 &
 keepGoing
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTRECVBODYFAILED
 )
@@ -3214,7 +3214,7 @@ SEC_HTTP_SERVER_SESSION
 pSession
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_PL_HttpDefaultClient
@@ -3245,7 +3245,7 @@ host
 portnum
 &
 client
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTCREATEFAILED
 )
@@ -3278,7 +3278,7 @@ PRPollDesc
 pPollDesc
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_ENTER
@@ -3305,7 +3305,7 @@ PKIX_PL_Object
 )
 session
 PKIX_HTTPDEFAULTCLIENT_TYPE
-plCtx
+plContext
 )
 PKIX_SESSIONNOTANHTTPDEFAULTCLIENT
 )
@@ -3344,7 +3344,7 @@ SEC_HTTP_REQUEST_SESSION
 pRequest
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_PL_HttpDefaultClient
@@ -3400,7 +3400,7 @@ PKIX_PL_Object
 )
 session
 PKIX_HTTPDEFAULTCLIENT_TYPE
-plCtx
+plContext
 )
 PKIX_SESSIONNOTANHTTPDEFAULTCLIENT
 )
@@ -3549,7 +3549,7 @@ com
 status
 &
 socket
-plCtx
+plContext
 )
 PKIX_HTTPCERTSTOREFINDSOCKETCONNECTIONFAILED
 )
@@ -3577,7 +3577,7 @@ portnum
 status
 &
 socket
-plCtx
+plContext
 )
 PKIX_HTTPCERTSTOREFINDSOCKETCONNECTIONFAILED
 )
@@ -3598,7 +3598,7 @@ pkix_pl_Socket_GetCallbackList
 socket
 &
 callbackList
-plCtx
+plContext
 )
 PKIX_SOCKETGETCALLBACKLISTFAILED
 )
@@ -3621,7 +3621,7 @@ pkix_pl_Socket_GetPRFileDesc
 socket
 &
 fileDesc
-plCtx
+plContext
 )
 PKIX_SOCKETGETPRFILEDESCFAILED
 )
@@ -3729,7 +3729,7 @@ char
 http_content_type
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_PL_HttpDefaultClient
@@ -3761,7 +3761,7 @@ PKIX_PL_Object
 )
 request
 PKIX_HTTPDEFAULTCLIENT_TYPE
-plCtx
+plContext
 )
 PKIX_REQUESTNOTANHTTPDEFAULTCLIENT
 )
@@ -3883,7 +3883,7 @@ SECStatus
 pSECReturn
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_PL_HttpDefaultClient
@@ -3938,7 +3938,7 @@ PKIX_PL_Object
 )
 request
 PKIX_HTTPDEFAULTCLIENT_TYPE
-plCtx
+plContext
 )
 PKIX_REQUESTNOTANHTTPDEFAULTCLIENT
 )
@@ -4237,7 +4237,7 @@ client
 >
 POSTBuf
 )
-plCtx
+plContext
 )
 PKIX_MALLOCFAILED
 )
@@ -4359,7 +4359,7 @@ PKIX_CHECK
 pkix_pl_HttpDefaultClient_Dispatch
 (
 client
-plCtx
+plContext
 )
 PKIX_HTTPDEFAULTCLIENTDISPATCHFAILED
 )
@@ -4618,7 +4618,7 @@ SEC_HTTP_REQUEST_SESSION
 request
 void
 *
-plCtx
+plContext
 )
 {
 PKIX_ENTER
@@ -4644,7 +4644,7 @@ PKIX_PL_Object
 )
 request
 PKIX_HTTPDEFAULTCLIENT_TYPE
-plCtx
+plContext
 )
 PKIX_REQUESTNOTANHTTPDEFAULTCLIENT
 )

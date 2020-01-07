@@ -782,7 +782,7 @@ void
 const
 PRUint16
 *
-allSuites
+cipherSuites
 =
 SSL_ImplementedCiphers
 ;
@@ -807,7 +807,7 @@ i
 PRUint16
 suite
 =
-allSuites
+cipherSuites
 [
 i
 ]

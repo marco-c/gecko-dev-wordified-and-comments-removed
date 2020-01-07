@@ -3501,13 +3501,13 @@ PreAllocator_Destroy
 (
 PreAllocator
 *
-allocator
+PreAllocator
 )
 {
 if
 (
 !
-allocator
+PreAllocator
 )
 {
 return
@@ -3515,7 +3515,7 @@ return
 }
 if
 (
-allocator
+PreAllocator
 -
 >
 arena
@@ -3523,7 +3523,7 @@ arena
 {
 PORT_FreeArena
 (
-allocator
+PreAllocator
 -
 >
 arena

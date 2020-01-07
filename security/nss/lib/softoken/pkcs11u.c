@@ -5074,6 +5074,8 @@ so
 session
 )
 {
+SFTKSession
+*
 session
 =
 so
@@ -5484,7 +5486,6 @@ CKA_SUBJECT
 CKA_SENSITIVE
 CKA_EXTRACTABLE
 CKA_NETSCAPE_DB
-CKA_PUBLIC_KEY_INFO
 }
 ;
 static
