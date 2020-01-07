@@ -159,7 +159,7 @@ function
 )
 {
 return
-document
+self
 .
 origin
 +
