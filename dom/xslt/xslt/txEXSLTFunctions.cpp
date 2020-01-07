@@ -303,9 +303,9 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDOMDocumentFragment
+DocumentFragment
 >
 domFragment
 =
