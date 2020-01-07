@@ -2391,13 +2391,6 @@ id
 "
 toolbarpaletteitem
 "
-extends
-=
-"
-xul
-:
-button
-"
 >
 <
 content
