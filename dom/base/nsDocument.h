@@ -14,6 +14,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1559,6 +1566,12 @@ EnsureOnloadBlocker
 ;
 public
 :
+js
+:
+:
+ExpandoAndGeneration
+mExpandoAndGeneration
+;
 RefPtr
 <
 mozilla
