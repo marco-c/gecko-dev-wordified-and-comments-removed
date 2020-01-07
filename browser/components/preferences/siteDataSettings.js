@@ -212,7 +212,12 @@ if
 (
 l10n
 .
+hasOwnProperty
+(
+"
 raw
+"
+)
 )
 {
 box
