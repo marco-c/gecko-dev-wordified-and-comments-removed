@@ -46,15 +46,6 @@ stylesheets
 :
 StylesheetInDocument
 ;
-use
-stylesheets
-:
-:
-import_rule
-:
-:
-ImportSheet
-;
 pub
 struct
 RulesIterator
