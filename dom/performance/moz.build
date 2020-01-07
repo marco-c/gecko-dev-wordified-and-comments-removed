@@ -163,6 +163,11 @@ PerformanceService
 h
 '
 '
+PerformanceStorage
+.
+h
+'
+'
 PerformanceTiming
 .
 h

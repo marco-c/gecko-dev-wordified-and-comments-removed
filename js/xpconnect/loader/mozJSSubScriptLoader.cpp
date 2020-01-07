@@ -2086,6 +2086,7 @@ nsIContentPolicy
 TYPE_OTHER
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :
@@ -2260,6 +2261,7 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
 nullptr
 nullptr
 nsIRequest

@@ -712,6 +712,7 @@ redirectURI
 redirectLoadInfo
 nullptr
 nullptr
+nullptr
 mLoadFlags
 ioService
 )
@@ -2051,6 +2052,7 @@ newChannel
 )
 mURI
 redirectLoadInfo
+nullptr
 nullptr
 nullptr
 mLoadFlags

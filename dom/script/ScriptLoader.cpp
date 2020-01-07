@@ -5471,6 +5471,7 @@ aRequest
 mTriggeringPrincipal
 securityFlags
 contentPolicyType
+nullptr
 loadGroup
 prompter
 nsIRequest

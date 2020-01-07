@@ -42174,6 +42174,7 @@ channel
 aURI
 loadInfo
 nullptr
+nullptr
 static_cast
 <
 nsIInterfaceRequestor

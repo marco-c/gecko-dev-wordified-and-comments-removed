@@ -1894,6 +1894,7 @@ nsIContentPolicy
 :
 :
 TYPE_XSLT
+nullptr
 loadGroup
 )
 ;

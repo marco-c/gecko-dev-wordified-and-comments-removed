@@ -4845,6 +4845,7 @@ nsIContentPolicy
 :
 :
 TYPE_XBL
+nullptr
 loadGroup
 )
 ;
@@ -4874,6 +4875,7 @@ nsIContentPolicy
 :
 :
 TYPE_XBL
+nullptr
 loadGroup
 )
 ;

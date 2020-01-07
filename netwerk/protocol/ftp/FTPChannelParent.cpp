@@ -705,6 +705,7 @@ uri
 loadInfo
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :

@@ -378,6 +378,7 @@ nsIContentPolicy
 TYPE_PING
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :

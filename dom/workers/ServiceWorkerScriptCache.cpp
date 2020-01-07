@@ -2874,6 +2874,7 @@ uri
 aPrincipal
 secFlags
 contentPolicyType
+nullptr
 loadGroup
 nullptr
 mLoadFlags

@@ -7130,6 +7130,7 @@ uri
 redirectLoadInfo
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :

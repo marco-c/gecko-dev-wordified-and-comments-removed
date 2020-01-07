@@ -7137,6 +7137,7 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
 group
 )
 ;

@@ -2620,6 +2620,7 @@ uri
 loadInfo
 nullptr
 nullptr
+nullptr
 aLoadFlags
 ios
 )

@@ -12807,6 +12807,7 @@ upgradedURI
 redirectLoadInfo
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :
@@ -24474,6 +24475,7 @@ newChannel
 )
 mRedirectURI
 redirectLoadInfo
+nullptr
 nullptr
 nullptr
 nsIRequest
@@ -36869,6 +36871,7 @@ pushChannel
 )
 pushResource
 mLoadInfo
+nullptr
 nullptr
 nullptr
 nsIRequest
