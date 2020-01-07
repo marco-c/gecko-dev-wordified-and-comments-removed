@@ -936,8 +936,8 @@ BeginUpdate
 nsresult
 ApplyUpdate
 (
-TableUpdate
-&
+TableUpdateV2
+*
 aUpdate
 )
 ;
