@@ -53,6 +53,11 @@ distribution
 firefox
 .
 desktop
+environment
+:
+DISABLE_WAYLAND
+:
+1
 plugs
 :
 -
@@ -78,9 +83,13 @@ opengl
 -
 pulseaudio
 -
-unity7
+screen
 -
-wayland
+inhibit
+-
+control
+-
+unity7
 -
 x11
 plugs
