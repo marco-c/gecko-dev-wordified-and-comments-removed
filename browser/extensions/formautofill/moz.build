@@ -213,6 +213,16 @@ jar
 mn
 '
 ]
+SPHINX_TREES
+[
+'
+docs
+'
+]
+=
+'
+docs
+'
 with
 Files
 (
