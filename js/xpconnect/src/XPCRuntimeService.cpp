@@ -44,7 +44,7 @@ BindingUtils
 .
 h
 "
-NS_IMPL_QUERY_INTERFACE
+NS_IMPL_ISUPPORTS
 (
 BackstagePass
 nsIXPCScriptable
@@ -52,14 +52,6 @@ nsIGlobalObject
 nsIClassInfo
 nsIScriptObjectPrincipal
 nsISupportsWeakReference
-)
-NS_IMPL_ADDREF
-(
-BackstagePass
-)
-NS_IMPL_RELEASE
-(
-BackstagePass
 )
 #
 define
