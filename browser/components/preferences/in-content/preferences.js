@@ -2982,7 +2982,7 @@ getString
 "
 extensionControlled
 .
-enable2
+enable
 "
 )
 ;
