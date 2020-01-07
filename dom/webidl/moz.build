@@ -2685,6 +2685,11 @@ AudioParam
 webidl
 '
 '
+AudioParamMap
+.
+webidl
+'
+'
 AudioProcessingEvent
 .
 webidl

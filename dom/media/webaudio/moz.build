@@ -318,6 +318,11 @@ AudioParam
 h
 '
 '
+AudioParamMap
+.
+h
+'
+'
 AudioProcessingEvent
 .
 h
@@ -484,6 +489,11 @@ cpp
 '
 '
 AudioParam
+.
+cpp
+'
+'
+AudioParamMap
 .
 cpp
 '
