@@ -507,6 +507,8 @@ __NR_clone
 SIGCHLD
 |
 CLONE_NEWUSER
+|
+CLONE_NEWPID
 nullptr
 nullptr
 nullptr
