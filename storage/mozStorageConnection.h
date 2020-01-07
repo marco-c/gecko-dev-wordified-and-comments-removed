@@ -448,6 +448,11 @@ initializeInternal
 (
 )
 ;
+void
+initializeFailed
+(
+)
+;
 nsresult
 setClosedState
 (
