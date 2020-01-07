@@ -662,7 +662,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

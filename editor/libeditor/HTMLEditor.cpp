@@ -4483,7 +4483,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -7318,7 +7318,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 |
@@ -8128,7 +8128,7 @@ handled
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -8945,7 +8945,7 @@ handled
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -9373,7 +9373,7 @@ handled
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 &
@@ -10456,7 +10456,7 @@ isCollapsed
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -11622,7 +11622,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -18207,7 +18207,7 @@ isCollapsed
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -19738,7 +19738,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

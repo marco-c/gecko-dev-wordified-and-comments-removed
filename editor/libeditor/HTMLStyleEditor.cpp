@@ -427,7 +427,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -4697,7 +4697,7 @@ isCollapsed
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -5785,7 +5785,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -6468,7 +6468,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

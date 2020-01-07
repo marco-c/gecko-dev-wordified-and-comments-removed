@@ -530,7 +530,7 @@ isContextClick
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

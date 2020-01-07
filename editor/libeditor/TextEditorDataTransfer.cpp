@@ -1038,7 +1038,7 @@ isCollapsed
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;

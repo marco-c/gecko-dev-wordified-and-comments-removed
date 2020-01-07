@@ -4132,7 +4132,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 |
@@ -5909,7 +5909,7 @@ if
 !
 aSelection
 .
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -6237,7 +6237,7 @@ if
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -7736,7 +7736,7 @@ if
 !
 aSelection
 .
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -10294,7 +10294,7 @@ bCollapsed
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -10554,7 +10554,7 @@ bCollapsed
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -19369,7 +19369,7 @@ if
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -19647,7 +19647,7 @@ if
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -23007,7 +23007,7 @@ if
 (
 aSelection
 .
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -26912,7 +26912,7 @@ if
 (
 aSelection
 .
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -27577,7 +27577,7 @@ if
 inSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -38775,7 +38775,7 @@ if
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -39108,7 +39108,7 @@ if
 !
 aSelection
 .
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -39401,7 +39401,7 @@ if
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

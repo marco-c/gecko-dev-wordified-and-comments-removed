@@ -4016,7 +4016,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

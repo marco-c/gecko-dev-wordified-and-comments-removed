@@ -2555,7 +2555,7 @@ bCollapsed
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -3144,7 +3144,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -3388,7 +3388,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 |
@@ -7067,7 +7067,7 @@ return
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
@@ -8449,7 +8449,7 @@ aIsCollapsed
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;
