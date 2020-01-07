@@ -2103,13 +2103,6 @@ prefix
 -
 with
 -
-pthreads
-'
-'
--
--
-with
--
 qemu
 -
 exe
