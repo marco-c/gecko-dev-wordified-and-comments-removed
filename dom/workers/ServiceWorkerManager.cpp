@@ -7426,7 +7426,7 @@ if
 reg
 -
 >
-IsControllingDocuments
+IsControllingClients
 (
 )
 &
@@ -10849,7 +10849,7 @@ if
 registration
 )
 {
-StopControllingADocument
+StopControllingRegistration
 (
 registration
 )
@@ -11056,7 +11056,7 @@ forget
 aRegistration
 -
 >
-StartControllingADocument
+StartControllingClient
 (
 )
 ;
@@ -11147,7 +11147,7 @@ void
 ServiceWorkerManager
 :
 :
-StopControllingADocument
+StopControllingRegistration
 (
 ServiceWorkerRegistrationInfo
 *
@@ -11157,7 +11157,7 @@ aRegistration
 aRegistration
 -
 >
-StopControllingADocument
+StopControllingClient
 (
 )
 ;
@@ -11166,7 +11166,7 @@ if
 aRegistration
 -
 >
-IsControllingDocuments
+IsControllingClients
 (
 )
 |
@@ -14540,7 +14540,7 @@ if
 controllingRegistration
 )
 {
-StopControllingADocument
+StopControllingRegistration
 (
 controllingRegistration
 )
