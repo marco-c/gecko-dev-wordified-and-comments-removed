@@ -3157,15 +3157,7 @@ try
 :
             
 import
-zstd
-            
-zstd
-.
-ZstdCompressor
-            
-zstd
-.
-ZstdDecompressor
+zstandard
         
 except
 (
@@ -3192,9 +3184,9 @@ zstandard
 =
 0
 .
-8
+9
 .
-1
+0
 '
 )
     
