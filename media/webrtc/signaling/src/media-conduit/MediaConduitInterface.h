@@ -1399,6 +1399,17 @@ lengthSamples
 0
 ;
 virtual
+bool
+IsSamplingFreqSupported
+(
+int
+freq
+)
+const
+=
+0
+;
+virtual
 MediaConduitErrorCode
 ConfigureSendMediaCodec
 (
