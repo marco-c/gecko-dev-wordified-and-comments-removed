@@ -203,7 +203,7 @@ tokens
 CEReactions
 Throws
 ]
-void
+boolean
 replace
 (
 DOMString

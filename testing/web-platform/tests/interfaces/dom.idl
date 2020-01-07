@@ -2838,7 +2838,7 @@ force
 [
 CEReactions
 ]
-void
+boolean
 replace
 (
 DOMString
