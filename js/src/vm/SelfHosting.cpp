@@ -2370,6 +2370,14 @@ filename
 )
 )
 ;
+if
+(
+!
+filename
+)
+return
+false
+;
 RootedString
 message
 (
