@@ -705,13 +705,8 @@ Overflow
 )
 COMPUTED_STYLE_PROP
 (
-overflow_clip_box_block
-OverflowClipBoxBlock
-)
-COMPUTED_STYLE_PROP
-(
-overflow_clip_box_inline
-OverflowClipBoxInline
+overflow_clip_box
+OverflowClipBox
 )
 COMPUTED_STYLE_PROP
 (
