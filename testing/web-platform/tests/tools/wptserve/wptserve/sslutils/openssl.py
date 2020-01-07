@@ -2363,7 +2363,20 @@ hosts
 =
 tuple
 (
+sorted
+(
 hosts
+key
+=
+lambda
+x
+:
+-
+len
+(
+x
+)
+)
 )
         
 if

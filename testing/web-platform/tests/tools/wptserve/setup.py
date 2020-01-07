@@ -5,9 +5,7 @@ setup
 PACKAGE_VERSION
 =
 '
-1
-.
-4
+2
 .
 0
 '
@@ -156,6 +154,11 @@ packages
 [
 '
 wptserve
+'
+'
+wptserve
+.
+sslutils
 '
 ]
       

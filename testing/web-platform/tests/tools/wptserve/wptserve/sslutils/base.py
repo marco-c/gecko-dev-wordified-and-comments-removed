@@ -51,7 +51,7 @@ def
 host_cert_path
 (
 self
-host
+hosts
 )
 :
         
