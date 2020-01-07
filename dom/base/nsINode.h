@@ -216,9 +216,6 @@ class
 nsIDOMElement
 ;
 class
-nsIDOMNodeList
-;
-class
 nsIFrame
 ;
 class

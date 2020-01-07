@@ -98,8 +98,8 @@ nsIDOMXULSelectCntrlEl
 .
 idl
 "
-interface
-nsIDOMNodeList
+webidl
+NodeList
 ;
 [
 scriptable
@@ -135,7 +135,7 @@ currentIndex
 ;
 readonly
 attribute
-nsIDOMNodeList
+NodeList
 selectedItems
 ;
 void
@@ -208,7 +208,7 @@ scriptable
 /
 /
 mutable
-nsIDOMNodeList
+NodeList
 for
 selectedItems
 readonly

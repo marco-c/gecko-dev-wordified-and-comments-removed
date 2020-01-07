@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIDOMXULButtonElement
 .
 h

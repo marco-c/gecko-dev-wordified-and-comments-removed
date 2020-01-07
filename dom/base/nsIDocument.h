@@ -485,9 +485,6 @@ class
 nsIDOMElement
 ;
 class
-nsIDOMNodeList
-;
-class
 nsIHTMLCollection
 ;
 class
@@ -5566,7 +5563,7 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
-nsIDOMNodeList
+nsINodeList
 *
 *
 aReturn

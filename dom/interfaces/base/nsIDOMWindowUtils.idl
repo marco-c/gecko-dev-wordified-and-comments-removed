@@ -260,9 +260,6 @@ interface
 nsIDOMNode
 ;
 interface
-nsIDOMNodeList
-;
-interface
 nsIDOMElement
 ;
 interface
@@ -303,6 +300,9 @@ nsIDOMStorage
 ;
 webidl
 DOMRect
+;
+webidl
+NodeList
 ;
 webidl
 EventTarget
@@ -5376,7 +5376,7 @@ occurs
 .
 *
 /
-nsIDOMNodeList
+NodeList
 nodesFromRect
 (
 in

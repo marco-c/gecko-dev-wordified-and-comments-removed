@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIDOMXULCommandDispatcher
 .
 h

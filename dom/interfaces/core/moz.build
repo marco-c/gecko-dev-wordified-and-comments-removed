@@ -124,11 +124,6 @@ nsIDOMNode
 idl
 '
 '
-nsIDOMNodeList
-.
-idl
-'
-'
 nsIDOMNSEditableElement
 .
 idl

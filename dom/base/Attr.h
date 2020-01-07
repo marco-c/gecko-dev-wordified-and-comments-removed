@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

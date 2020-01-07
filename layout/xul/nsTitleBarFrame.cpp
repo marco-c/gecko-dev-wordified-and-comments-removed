@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

@@ -145,9 +145,6 @@ nsIDOMElement
 interface
 nsIDOMNode
 ;
-interface
-nsIDOMNodeList
-;
 /
 /
 Needed

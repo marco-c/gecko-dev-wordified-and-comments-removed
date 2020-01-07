@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIContentIterator
 .
 h
@@ -2432,7 +2425,6 @@ NS_INTERFACE_TABLE
 (
 nsAttrChildContentList
 nsINodeList
-nsIDOMNodeList
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION
 (
@@ -3234,7 +3226,7 @@ NoteXPCOMChild
 (
 NS_ISUPPORTS_CAST
 (
-nsIDOMNodeList
+nsINodeList
 *
 mChildrenList
 )
@@ -3588,7 +3580,7 @@ NoteXPCOMChild
 (
 NS_ISUPPORTS_CAST
 (
-nsIDOMNodeList
+nsINodeList
 *
 mLabelsList
 )

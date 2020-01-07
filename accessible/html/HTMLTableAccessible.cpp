@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h

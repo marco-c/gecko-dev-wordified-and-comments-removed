@@ -141,13 +141,6 @@ algorithm
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h

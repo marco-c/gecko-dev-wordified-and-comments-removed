@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h

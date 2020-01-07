@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsXBLContentSink
 .
 h

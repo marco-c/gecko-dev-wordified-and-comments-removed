@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIDOMNodeList
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h
