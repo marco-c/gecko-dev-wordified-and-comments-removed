@@ -1403,6 +1403,14 @@ filterAll
 ;
 fp
 .
+defaultExtension
+=
+"
+p12
+"
+;
+fp
+.
 open
 (
 rv
