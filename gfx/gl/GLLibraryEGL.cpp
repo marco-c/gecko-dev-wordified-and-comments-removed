@@ -480,7 +480,7 @@ nsAString
 filename
 )
 {
-nsAutoCString
+nsAutoString
 path
 (
 gfx
@@ -507,10 +507,7 @@ path
 .
 Append
 (
-ToNewUTF8String
-(
 filename
-)
 )
 ;
 PRLibSpec
@@ -520,13 +517,13 @@ lspec
 .
 type
 =
-PR_LibSpec_Pathname
+PR_LibSpec_PathnameU
 ;
 lspec
 .
 value
 .
-pathname
+pathname_u
 =
 path
 .

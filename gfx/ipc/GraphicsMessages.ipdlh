@@ -355,6 +355,8 @@ IntSize
 ;
 nsCString
 ;
+nsString
+;
 int32_t
 ;
 }
