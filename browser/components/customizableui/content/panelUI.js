@@ -2204,16 +2204,6 @@ viewNode
 id
 )
 ;
-multiView
-.
-setAttribute
-(
-"
-ephemeral
-"
-true
-)
-;
 tempPanel
 .
 appendChild
