@@ -578,6 +578,8 @@ client
 preferences
 /
 devtools
+-
+client
 .
 js
 -
@@ -615,6 +617,8 @@ client
 preferences
 /
 devtools
+-
+client
 .
 js
 .
