@@ -214,6 +214,11 @@ command
 runme
 .
 sh
+taskcluster
+-
+proxy
+:
+true
 artifacts
 :
 -
