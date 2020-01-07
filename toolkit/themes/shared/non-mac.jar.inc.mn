@@ -684,8 +684,6 @@ arrow
 panelarrow
 -
 horizontal
--
-themed
 .
 svg
 (
@@ -704,8 +702,6 @@ arrow
 panelarrow
 -
 horizontal
--
-themed
 .
 svg
 )
@@ -720,8 +716,6 @@ arrow
 panelarrow
 -
 vertical
--
-themed
 .
 svg
 (
@@ -740,8 +734,6 @@ arrow
 panelarrow
 -
 vertical
--
-themed
 .
 svg
 )
