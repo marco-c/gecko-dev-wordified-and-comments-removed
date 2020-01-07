@@ -1293,6 +1293,11 @@ ClientDataHash
 )
 aTransactionInfo
 .
+Extensions
+(
+)
+aTransactionInfo
+.
 RequireUserVerification
 (
 )
