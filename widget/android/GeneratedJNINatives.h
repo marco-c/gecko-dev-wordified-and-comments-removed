@@ -1717,7 +1717,7 @@ GeckoSession
 Window
 :
 :
-Attach_t
+AttachEditable_t
 >
 (
 mozilla
@@ -1734,7 +1734,7 @@ GeckoSession
 Window
 :
 :
-Attach_t
+AttachEditable_t
 Impl
 >
 :
@@ -1746,7 +1746,7 @@ Wrap
 Impl
 :
 :
-Attach
+AttachEditable
 >
 )
 mozilla
