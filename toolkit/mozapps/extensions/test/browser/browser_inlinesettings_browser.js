@@ -1,6 +1,6 @@
-var
+let
 {
-Extension
+ExtensionTestCommon
 }
 =
 Components
@@ -14,11 +14,11 @@ resource
 :
 /
 /
-gre
+testing
+-
+common
 /
-modules
-/
-Extension
+ExtensionTestCommon
 .
 jsm
 "
@@ -131,7 +131,7 @@ id
 let
 xpi
 =
-Extension
+ExtensionTestCommon
 .
 generateXPI
 (

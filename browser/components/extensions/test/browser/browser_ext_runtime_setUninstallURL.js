@@ -33,7 +33,7 @@ jsm
 ;
 let
 {
-Extension
+ExtensionTestCommon
 }
 =
 Components
@@ -47,11 +47,11 @@ resource
 :
 /
 /
-gre
+testing
+-
+common
 /
-modules
-/
-Extension
+ExtensionTestCommon
 .
 jsm
 "
@@ -71,7 +71,7 @@ loadedURL
 let
 xpi
 =
-Extension
+ExtensionTestCommon
 .
 generateXPI
 (
