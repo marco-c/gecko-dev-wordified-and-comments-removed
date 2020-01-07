@@ -1251,11 +1251,13 @@ onAdd
 function
 "
 )
+{
 onAdd
 (
 actors
 )
 ;
+}
 }
 if
 (
