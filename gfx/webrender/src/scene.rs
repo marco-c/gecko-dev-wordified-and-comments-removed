@@ -717,6 +717,16 @@ remove
 pipeline_id
 )
 ;
+self
+.
+pipeline_epochs
+.
+remove
+(
+&
+pipeline_id
+)
+;
 }
 pub
 fn

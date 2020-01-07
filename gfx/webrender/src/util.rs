@@ -2786,12 +2786,10 @@ FastTransform
 :
 Offset
 (
-(
 offset
 +
 *
 other_offset
-)
 )
 }
 _

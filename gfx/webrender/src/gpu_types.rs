@@ -6,6 +6,7 @@ api
 DevicePoint
 LayerToWorldTransform
 PremultipliedColorF
+WorldToLayerTransform
 }
 ;
 use
@@ -925,6 +926,10 @@ transform
 :
 LayerToWorldTransform
 pub
+inv_transform
+:
+WorldToLayerTransform
+pub
 transform_kind
 :
 f32
@@ -954,6 +959,14 @@ ClipScrollNodeData
 transform
 :
 LayerToWorldTransform
+:
+:
+identity
+(
+)
+inv_transform
+:
+WorldToLayerTransform
 :
 :
 identity
