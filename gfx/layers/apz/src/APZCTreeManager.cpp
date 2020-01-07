@@ -8813,13 +8813,6 @@ IsUpdaterThread
 )
 )
 {
-MOZ_ASSERT
-(
-XRE_IsParentProcess
-(
-)
-)
-;
 GetUpdater
 (
 )
