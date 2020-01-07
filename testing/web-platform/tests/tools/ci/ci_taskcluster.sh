@@ -117,6 +117,11 @@ unexpected
 reftest
 -
 internal
+-
+-
+install
+-
+fonts
 elif
 [
 1
@@ -215,4 +220,9 @@ restart
 on
 -
 unexpected
+-
+-
+install
+-
+fonts
 fi
