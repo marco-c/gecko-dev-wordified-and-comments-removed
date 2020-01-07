@@ -299,8 +299,11 @@ void
 data
 IterateZoneCallback
 zoneCallback
-JSIterateCompartmentCallback
-compartmentCallback
+JS
+:
+:
+IterateRealmCallback
+realmCallback
 IterateArenaCallback
 arenaCallback
 IterateCellCallback
@@ -325,8 +328,11 @@ void
 data
 IterateZoneCallback
 zoneCallback
-JSIterateCompartmentCallback
-compartmentCallback
+JS
+:
+:
+IterateRealmCallback
+realmCallback
 IterateArenaCallback
 arenaCallback
 IterateCellCallback
