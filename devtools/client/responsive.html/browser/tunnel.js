@@ -1061,11 +1061,6 @@ UpdateDropDown
 "
 PageVisibility
 :
-Hide
-"
-"
-PageVisibility
-:
 Show
 "
 "
