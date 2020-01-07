@@ -1555,15 +1555,6 @@ wsObj
 (
 this
 pointToInsert
-.
-GetContainer
-(
-)
-pointToInsert
-.
-Offset
-(
-)
 )
 ;
 if
