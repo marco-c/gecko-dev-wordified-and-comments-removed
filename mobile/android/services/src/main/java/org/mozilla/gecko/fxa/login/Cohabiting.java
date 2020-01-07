@@ -105,7 +105,6 @@ getSimpleName
 (
 )
 ;
-public
 Cohabiting
 (
 String
@@ -119,11 +118,9 @@ sessionToken
 byte
 [
 ]
-kA
-byte
-[
-]
-kB
+kSync
+String
+kXCS
 BrowserIDKeyPair
 keyPair
 )
@@ -136,8 +133,8 @@ Cohabiting
 email
 uid
 sessionToken
-kA
-kB
+kSync
+kXCS
 keyPair
 )
 ;
@@ -157,8 +154,8 @@ Married
 email
 uid
 sessionToken
-kA
-kB
+kSync
+kXCS
 keyPair
 certificate
 )

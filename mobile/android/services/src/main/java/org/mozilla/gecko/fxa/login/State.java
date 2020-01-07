@@ -51,13 +51,13 @@ abstract
 class
 State
 {
-public
+private
 static
 final
 long
 CURRENT_VERSION
 =
-3L
+4L
 ;
 public
 static
@@ -75,7 +75,6 @@ serialVersionUID
 =
 8628129091996684799L
 ;
-public
 NotASessionTokenState
 (
 String
@@ -110,7 +109,6 @@ NeedsVerification
 NeedsFinishMigrating
 None
 }
-protected
 final
 StateLabel
 stateLabel
