@@ -150,7 +150,10 @@ Range
 *
 /
 [
-builtinclass
+shim
+(
+Range
+)
 uuid
 (
 1f94055c

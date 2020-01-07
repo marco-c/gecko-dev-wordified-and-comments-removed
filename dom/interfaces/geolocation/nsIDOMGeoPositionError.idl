@@ -95,6 +95,10 @@ endif
 %
 }
 [
+shim
+(
+PositionError
+)
 uuid
 (
 85255CC3

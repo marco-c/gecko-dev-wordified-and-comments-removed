@@ -170,7 +170,10 @@ version
 *
 /
 [
-builtinclass
+shim
+(
+Selection
+)
 uuid
 (
 e0a4d4b3

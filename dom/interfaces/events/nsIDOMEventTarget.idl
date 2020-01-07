@@ -99,6 +99,10 @@ domstubs
 idl
 "
 [
+shim
+(
+EventTarget
+)
 uuid
 (
 9a78ac3c

@@ -176,6 +176,10 @@ Core
 *
 /
 [
+shim
+(
+NodeList
+)
 uuid
 (
 450cf0ba

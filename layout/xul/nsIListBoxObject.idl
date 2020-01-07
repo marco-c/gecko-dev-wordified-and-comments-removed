@@ -112,6 +112,10 @@ interface
 nsIDOMElement
 ;
 [
+shim
+(
+ListBoxObject
+)
 uuid
 (
 AA9DEF4E

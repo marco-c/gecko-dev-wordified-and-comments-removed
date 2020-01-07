@@ -125,7 +125,10 @@ interface
 nsICursorContinueCallback
 ;
 [
-builtinclass
+shim
+(
+DOMRequest
+)
 uuid
 (
 e39da69e

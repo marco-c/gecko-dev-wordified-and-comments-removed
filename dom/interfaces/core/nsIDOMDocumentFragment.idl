@@ -167,7 +167,10 @@ Core
 *
 /
 [
-builtinclass
+shim
+(
+DocumentFragment
+)
 uuid
 (
 48eb8d72

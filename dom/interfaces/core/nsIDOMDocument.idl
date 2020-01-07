@@ -208,6 +208,10 @@ html
 *
 /
 [
+shim
+(
+Document
+)
 uuid
 (
 b15fa0f4

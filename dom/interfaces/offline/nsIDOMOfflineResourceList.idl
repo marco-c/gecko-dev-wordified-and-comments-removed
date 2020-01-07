@@ -99,6 +99,10 @@ domstubs
 idl
 "
 [
+shim
+(
+OfflineResourceList
+)
 uuid
 (
 6044702d

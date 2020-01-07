@@ -197,6 +197,10 @@ loading
 *
 /
 [
+shim
+(
+DOMParser
+)
 uuid
 (
 70b9600e
