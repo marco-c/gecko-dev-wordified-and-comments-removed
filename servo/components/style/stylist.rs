@@ -267,7 +267,7 @@ parser
 :
 {
 SelectorIter
-SelectorMethods
+Visit
 }
 ;
 use

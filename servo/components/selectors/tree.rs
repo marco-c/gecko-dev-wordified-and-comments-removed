@@ -59,7 +59,6 @@ pub
 struct
 OpaqueElement
 (
-pub
 NonZeroPtrMut
 <
 (

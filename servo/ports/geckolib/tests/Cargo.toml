@@ -178,13 +178,6 @@ components
 /
 selectors
 "
-features
-=
-[
-"
-gecko_like_types
-"
-]
 }
 size_of_test
 =
