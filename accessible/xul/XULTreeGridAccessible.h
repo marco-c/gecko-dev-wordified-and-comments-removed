@@ -370,6 +370,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 virtual
@@ -532,6 +533,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 virtual

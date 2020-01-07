@@ -1099,6 +1099,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 index_t

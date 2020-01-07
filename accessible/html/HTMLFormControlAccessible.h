@@ -281,6 +281,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 }
@@ -441,6 +442,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 nsIContent
@@ -759,6 +761,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 nsIContent
@@ -838,6 +841,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 nsIContent

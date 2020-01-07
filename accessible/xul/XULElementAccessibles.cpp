@@ -249,6 +249,7 @@ nsString
 &
 aName
 )
+const
 {
 if
 (
@@ -718,6 +719,7 @@ nsString
 &
 aName
 )
+const
 {
 mContent
 -

@@ -4480,6 +4480,7 @@ nsString
 &
 aName
 )
+const
 {
 aName
 .

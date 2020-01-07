@@ -567,6 +567,7 @@ nsString
 &
 aName
 )
+const
 {
 return
 eNameOK

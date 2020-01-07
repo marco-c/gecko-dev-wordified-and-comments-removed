@@ -2375,6 +2375,7 @@ nsString
 &
 aName
 )
+const
 {
 nsIContent
 *

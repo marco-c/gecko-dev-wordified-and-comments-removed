@@ -728,6 +728,7 @@ nsString
 &
 aName
 )
+const
 {
 aName
 .
@@ -10085,6 +10086,7 @@ nsString
 &
 aName
 )
+const
 {
 nsresult
 rv
@@ -10171,6 +10173,7 @@ nsString
 &
 aName
 )
+const
 {
 if
 (

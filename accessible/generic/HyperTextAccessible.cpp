@@ -9213,6 +9213,7 @@ nsString
 &
 aName
 )
+const
 {
 bool
 hasImgAlt

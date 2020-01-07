@@ -606,6 +606,7 @@ nsString
 &
 aName
 )
+const
 ;
 virtual
 void
@@ -2668,6 +2669,7 @@ nsString
 &
 aName
 )
+const
 ;
 virtual
 void
@@ -2857,6 +2859,7 @@ nsString
 &
 aName
 )
+const
 ;
 static
 void

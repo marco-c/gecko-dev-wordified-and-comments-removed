@@ -747,6 +747,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 nsresult

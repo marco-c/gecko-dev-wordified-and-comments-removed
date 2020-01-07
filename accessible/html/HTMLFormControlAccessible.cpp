@@ -1040,6 +1040,7 @@ nsString
 &
 aName
 )
+const
 {
 ENameValueFlag
 nameFlag
@@ -1359,6 +1360,7 @@ nsString
 &
 aName
 )
+const
 {
 ENameValueFlag
 nameFlag
@@ -3044,6 +3046,7 @@ nsString
 &
 aName
 )
+const
 {
 ENameValueFlag
 nameFlag
@@ -3263,6 +3266,7 @@ nsString
 &
 aName
 )
+const
 {
 ENameValueFlag
 nameFlag

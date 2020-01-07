@@ -54,6 +54,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 virtual

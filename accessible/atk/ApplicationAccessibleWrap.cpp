@@ -302,6 +302,7 @@ nsString
 &
 aName
 )
+const
 {
 AppName
 (

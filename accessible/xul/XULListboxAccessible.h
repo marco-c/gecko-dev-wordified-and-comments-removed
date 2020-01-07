@@ -551,6 +551,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 Accessible

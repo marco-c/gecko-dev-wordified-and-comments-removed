@@ -81,6 +81,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 void

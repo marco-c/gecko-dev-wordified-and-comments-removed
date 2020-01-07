@@ -117,6 +117,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 }
@@ -206,6 +207,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 }

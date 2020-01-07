@@ -1285,6 +1285,7 @@ nsString
 &
 aName
 )
+const
 {
 Accessible
 *
@@ -1969,6 +1970,7 @@ nsString
 &
 aName
 )
+const
 {
 if
 (

@@ -560,6 +560,7 @@ nsString
 &
 aName
 )
+const
 {
 mContent
 -
