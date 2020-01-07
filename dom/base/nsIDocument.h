@@ -11850,7 +11850,7 @@ aInstancePtrResult
 nsresult
 NS_NewDOMDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aInstancePtrResult
@@ -11892,7 +11892,7 @@ aFlavor
 nsresult
 NS_NewXBLDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aInstancePtrResult
