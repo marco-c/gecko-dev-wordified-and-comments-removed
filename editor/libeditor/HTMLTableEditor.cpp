@@ -12603,16 +12603,8 @@ GetChildAtAnchorOffset
 ;
 if
 (
-!
 selectedNode
 )
-{
-selectedNode
-=
-anchorNode
-;
-}
-else
 {
 if
 (
