@@ -1471,6 +1471,11 @@ devtools
 checkbox
 -
 label
+devtools
+-
+persistlog
+-
+checkbox
 "
 title
 :
@@ -1532,6 +1537,11 @@ devtools
 checkbox
 -
 label
+devtools
+-
+cache
+-
+checkbox
 "
 title
 :
