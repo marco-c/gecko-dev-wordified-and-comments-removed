@@ -5282,7 +5282,7 @@ audioipc
 .
 stack_size
 "
-65536
+262144
 )
 ;
 #
