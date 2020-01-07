@@ -249,6 +249,9 @@ bool
 wasmFoldOffsets
 ;
 bool
+wasmDelayTier2
+;
+bool
 ionInterruptWithoutSignals
 ;
 bool

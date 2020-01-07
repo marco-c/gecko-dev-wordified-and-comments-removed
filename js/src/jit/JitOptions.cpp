@@ -839,6 +839,12 @@ true
 ;
 SET_DEFAULT
 (
+wasmDelayTier2
+false
+)
+;
+SET_DEFAULT
+(
 wasmBatchBaselineThreshold
 10000
 )
