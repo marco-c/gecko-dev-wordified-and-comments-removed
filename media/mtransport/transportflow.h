@@ -140,7 +140,7 @@ return
 id_
 ;
 }
-nsresult
+void
 PushLayer
 (
 TransportLayer
