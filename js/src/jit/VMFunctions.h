@@ -658,7 +658,7 @@ o
 :
 next
 (
-functions
+nullptr
 )
 wrapped
 (
@@ -732,10 +732,6 @@ o
 expectTailCall
 )
 {
-functions
-=
-this
-;
 MOZ_ASSERT_IF
 (
 outParam
@@ -772,6 +768,10 @@ returnType
 =
 =
 Type_Object
+)
+;
+addToFunctions
+(
 )
 ;
 }
@@ -1006,6 +1006,13 @@ return
 true
 ;
 }
+private
+:
+void
+addToFunctions
+(
+)
+;
 }
 ;
 template

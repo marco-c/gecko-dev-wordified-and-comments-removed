@@ -2534,7 +2534,6 @@ true
 ;
 JSObject
 *
-const
 Wrapper
 :
 :

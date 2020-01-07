@@ -807,7 +807,6 @@ singletonWithPrototype
 static
 JSObject
 *
-const
 defaultProto
 ;
 }

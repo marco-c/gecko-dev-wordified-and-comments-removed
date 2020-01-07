@@ -657,6 +657,11 @@ nuke
 (
 )
 ;
+static
+const
+Class
+proxyClass
+;
 }
 ;
 inline
