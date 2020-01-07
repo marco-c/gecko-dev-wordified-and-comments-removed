@@ -2992,13 +2992,10 @@ class
 AutoCallGCCallbacks
 ;
 void
-maybeCallBeginCallback
+maybeCallGCCallback
 (
-)
-;
-void
-maybeCallEndCallback
-(
+JSGCStatus
+status
 )
 ;
 void
@@ -4351,7 +4348,7 @@ ActiveThreadData
 <
 uint32_t
 >
-gcBeginCallbackDepth
+gcCallbackDepth
 ;
 Callback
 <
