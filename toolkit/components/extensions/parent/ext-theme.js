@@ -1903,12 +1903,17 @@ onUpdated
 new
 EventManager
 (
+{
 context
+name
+:
 "
 theme
 .
 onUpdated
 "
+register
+:
 fire
 =
 >
@@ -1986,6 +1991,7 @@ callback
 ;
 }
 ;
+}
 }
 )
 .

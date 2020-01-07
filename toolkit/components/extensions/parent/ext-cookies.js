@@ -1986,12 +1986,17 @@ onChanged
 new
 EventManager
 (
+{
 context
+name
+:
 "
 cookies
 .
 onChanged
 "
+register
+:
 fire
 =
 >
@@ -2299,6 +2304,7 @@ changed
 ;
 }
 ;
+}
 }
 )
 .

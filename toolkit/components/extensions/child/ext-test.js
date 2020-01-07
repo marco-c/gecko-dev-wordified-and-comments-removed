@@ -789,12 +789,17 @@ onMessage
 new
 TestEventManager
 (
+{
 context
+name
+:
 "
 test
 .
 onMessage
 "
+register
+:
 fire
 =
 >
@@ -860,6 +865,7 @@ handler
 ;
 }
 ;
+}
 }
 )
 .

@@ -641,12 +641,17 @@ onClicked
 new
 EventManager
 (
+{
 context
+name
+:
 "
 browserAction
 .
 onClicked
 "
+register
+:
 fire
 =
 >
@@ -713,6 +718,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

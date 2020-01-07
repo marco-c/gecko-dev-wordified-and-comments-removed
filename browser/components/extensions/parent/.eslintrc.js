@@ -59,11 +59,6 @@ Window
 :
 true
 "
-WindowEventManager
-"
-:
-true
-"
 actionContextMenu
 "
 :

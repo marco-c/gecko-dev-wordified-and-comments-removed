@@ -26,12 +26,17 @@ onInputChanged
 new
 EventManager
 (
+{
 context
+name
+:
 "
 omnibox
 .
 onInputChanged
 "
+register
+:
 fire
 =
 >
@@ -121,6 +126,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .
