@@ -122,6 +122,14 @@ hasFilePrivileges
 (
 false
 )
+hasSandboxedProfile
+(
+false
+)
+hasAudio
+(
+false
+)
 shouldLog
 (
 true
