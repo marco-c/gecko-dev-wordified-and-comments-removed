@@ -194,13 +194,6 @@ canvas
 js
 '
 '
-child
--
-process
-.
-js
-'
-'
 common
 .
 js

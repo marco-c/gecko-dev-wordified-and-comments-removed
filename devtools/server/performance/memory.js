@@ -156,7 +156,7 @@ lazyRequireGetter
 (
 this
 "
-ChildProcessActor
+ContentProcessTargetActor
 "
 "
 devtools
@@ -165,7 +165,9 @@ server
 /
 actors
 /
-child
+targets
+/
+content
 -
 process
 "
@@ -691,7 +693,7 @@ this
 .
 parent
 instanceof
-ChildProcessActor
+ContentProcessTargetActor
 )
 {
 boundaries

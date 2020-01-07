@@ -123,7 +123,11 @@ TabSources
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
 /
 utils
 /
@@ -156,7 +160,7 @@ true
 )
 ;
 function
-ChildProcessActor
+ContentProcessTargetActor
 (
 connection
 )
@@ -395,11 +399,11 @@ this
 }
 exports
 .
-ChildProcessActor
+ContentProcessTargetActor
 =
-ChildProcessActor
+ContentProcessTargetActor
 ;
-ChildProcessActor
+ContentProcessTargetActor
 .
 prototype
 =
@@ -407,7 +411,7 @@ prototype
 actorPrefix
 :
 "
-process
+contentProcessTarget
 "
 get
 isRootActor
@@ -842,7 +846,7 @@ function
 }
 }
 ;
-ChildProcessActor
+ContentProcessTargetActor
 .
 prototype
 .
@@ -853,7 +857,7 @@ requestTypes
 listWorkers
 "
 :
-ChildProcessActor
+ContentProcessTargetActor
 .
 prototype
 .

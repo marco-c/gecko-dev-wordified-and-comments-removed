@@ -247,7 +247,7 @@ mm
 ;
 const
 {
-ChildProcessActor
+ContentProcessTargetActor
 }
 =
 loader
@@ -261,7 +261,9 @@ server
 /
 actors
 /
-child
+targets
+/
+content
 -
 process
 "
@@ -289,7 +291,7 @@ const
 actor
 =
 new
-ChildProcessActor
+ContentProcessTargetActor
 (
 conn
 )
