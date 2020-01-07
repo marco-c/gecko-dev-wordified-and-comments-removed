@@ -205,6 +205,11 @@ nsThread
 h
 '
 '
+nsThreadManager
+.
+h
+'
+'
 nsThreadUtils
 .
 h
