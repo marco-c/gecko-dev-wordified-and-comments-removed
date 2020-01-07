@@ -123,12 +123,12 @@ XPIDL_SOURCES
 =
 [
 '
-ILoginReputation
+nsIApplicationReputation
 .
 idl
 '
 '
-nsIApplicationReputation
+nsILoginReputation
 .
 idl
 '
