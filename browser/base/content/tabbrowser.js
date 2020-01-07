@@ -22031,6 +22031,17 @@ value
 !
 =
 text
+|
+|
+(
+text
+&
+&
+!
+this
+.
+isVisible
+)
 )
 {
 this
