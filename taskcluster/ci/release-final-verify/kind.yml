@@ -275,7 +275,9 @@ treeherder
 :
 platform
 :
-linux64
+firefox
+-
+release
 /
 opt
 kind
@@ -310,9 +312,9 @@ treeherder
 :
 platform
 :
-linux64
--
 devedition
+-
+release
 /
 opt
 kind
