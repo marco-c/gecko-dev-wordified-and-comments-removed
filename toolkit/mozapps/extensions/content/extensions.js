@@ -11350,12 +11350,10 @@ this
 .
 _browser
 .
-loadURI
+loadURIWithFlags
 (
 aURL
-{
 flags
-}
 )
 ;
 }

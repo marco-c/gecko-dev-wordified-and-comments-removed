@@ -111,7 +111,7 @@ origin
 ;
 browser
 .
-loadURI
+loadURIWithFlags
 (
 "
 data
@@ -121,6 +121,10 @@ text
 html
 hi
 "
+0
+null
+null
+null
 )
 ;
 await

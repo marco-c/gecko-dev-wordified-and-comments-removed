@@ -143,7 +143,7 @@ tab
 .
 linkedBrowser
 .
-loadURI
+loadURIWithFlags
 (
 "
 http
@@ -168,11 +168,10 @@ print_postdata
 .
 sjs
 "
-{
-postData
-:
+0
+null
+null
 postStream
-}
 )
 ;
 BrowserTestUtils

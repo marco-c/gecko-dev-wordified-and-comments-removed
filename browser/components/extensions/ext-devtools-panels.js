@@ -1264,7 +1264,7 @@ toolbox
 ;
 browser
 .
-loadURI
+loadURIWithFlags
 (
 url
 {
