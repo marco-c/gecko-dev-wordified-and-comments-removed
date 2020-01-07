@@ -115,7 +115,7 @@ globalActor
 Found
 the
 test
-tab
+global
 actor
 .
 "
@@ -313,7 +313,9 @@ all
 pools
 .
 One
-tab
+target
+-
+scoped
 actor
 and
 one
