@@ -4,11 +4,11 @@ strict
 "
 ;
 const
-TEST_CASES
+TEST_DATA
 =
 [
 {
-targetClassName
+targetClass
 :
 "
 cssanimation
@@ -77,7 +77,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 cssanimation
@@ -140,7 +140,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 delay
@@ -223,7 +223,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 delay
@@ -278,7 +278,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 easing
@@ -333,7 +333,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -416,7 +416,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -463,7 +463,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -602,7 +602,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -722,7 +722,7 @@ isInfinity
 true
 }
 {
-targetClassName
+targetClass
 :
 "
 direction
@@ -844,7 +844,7 @@ isInfinity
 true
 }
 {
-targetClassName
+targetClass
 :
 "
 direction
@@ -968,7 +968,7 @@ isInfinity
 true
 }
 {
-targetClassName
+targetClass
 :
 "
 direction
@@ -1090,7 +1090,7 @@ isInfinity
 true
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -1153,7 +1153,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -1276,7 +1276,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -1375,7 +1375,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -1518,7 +1518,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -1617,7 +1617,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 iterationstart
@@ -1696,7 +1696,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 no
@@ -1759,7 +1759,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 keyframes
@@ -1816,7 +1816,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 narrow
@@ -1889,7 +1889,7 @@ y
 ]
 }
 {
-targetClassName
+targetClass
 :
 "
 duplicate
@@ -1969,9 +1969,9 @@ openAnimationInspector
 for
 (
 const
-testCase
+testData
 of
-TEST_CASES
+TEST_DATA
 )
 {
 const
@@ -1981,10 +1981,10 @@ expectedEndDelayPath
 expectedForwardsPath
 expectedIterationPathList
 isInfinity
-targetClassName
+targetClass
 }
 =
-testCase
+testData
 ;
 const
 animationItemEl
@@ -1992,7 +1992,7 @@ animationItemEl
 findAnimationItemElementsByTargetClassName
 (
 panel
-targetClassName
+targetClass
 )
 ;
 info
@@ -2004,7 +2004,7 @@ path
 existance
 for
 {
-targetClassName
+targetClass
 }
 )
 ;
@@ -2053,7 +2053,7 @@ delay
 path
 for
 {
-targetClassName
+targetClass
 }
 )
 ;
@@ -2124,7 +2124,7 @@ path
 list
 for
 {
-targetClassName
+targetClass
 }
 )
 ;
@@ -2196,7 +2196,7 @@ info
 Checking
 infinity
 {
-targetClassName
+targetClass
 }
 )
 ;
@@ -2273,7 +2273,7 @@ endDelay
 path
 for
 {
-targetClassName
+targetClass
 }
 )
 ;
@@ -2344,7 +2344,7 @@ fill
 path
 for
 {
-targetClassName
+targetClass
 }
 )
 ;
