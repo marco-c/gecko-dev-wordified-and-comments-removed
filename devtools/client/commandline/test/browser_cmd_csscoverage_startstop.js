@@ -196,15 +196,15 @@ options
 }
 )
 ;
+async
 function
-*
 navigate
 (
 usage
 options
 )
 {
-yield
+await
 usage
 .
 start
@@ -240,7 +240,7 @@ loadURI
 PAGE_1
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -286,7 +286,7 @@ loaded
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -329,7 +329,7 @@ ready
 "
 )
 ;
-yield
+await
 usage
 .
 stop
@@ -352,12 +352,12 @@ running
 "
 )
 ;
-yield
+await
 toolboxReady
 ;
 }
+async
 function
-*
 checkPages
 (
 usage
@@ -377,7 +377,7 @@ PAGE_3
 let
 actualVisited
 =
-yield
+await
 usage
 .
 _testOnlyVisitedPages
@@ -394,8 +394,8 @@ Visited
 )
 ;
 }
+async
 function
-*
 checkEditorReport
 (
 usage
@@ -434,7 +434,7 @@ column
 let
 actualPage1
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -494,7 +494,7 @@ column
 let
 actualPage2
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -554,7 +554,7 @@ column
 let
 actualPage3a
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -614,7 +614,7 @@ column
 let
 actualPage3b
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -674,7 +674,7 @@ column
 let
 actualSheetA
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -724,7 +724,7 @@ column
 let
 actualSheetB
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -774,7 +774,7 @@ column
 let
 actualSheetC
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -824,7 +824,7 @@ column
 let
 actualSheetD
 =
-yield
+await
 usage
 .
 createEditorReport
@@ -842,8 +842,8 @@ SheetD
 )
 ;
 }
+async
 function
-*
 checkPageReport
 (
 usage
@@ -852,7 +852,7 @@ usage
 let
 actualReport
 =
-yield
+await
 usage
 .
 createPageReport

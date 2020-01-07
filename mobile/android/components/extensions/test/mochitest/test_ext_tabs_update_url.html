@@ -161,8 +161,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testTabsUpdateURL
 (
 existentTabURL
@@ -455,7 +455,7 @@ done
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -465,7 +465,7 @@ startup
 let
 mozExtTabURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -533,7 +533,7 @@ tabsUpdateURL
 isErrorExpected
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -549,7 +549,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

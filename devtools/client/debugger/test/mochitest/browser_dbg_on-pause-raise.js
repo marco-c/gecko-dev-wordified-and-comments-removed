@@ -233,8 +233,8 @@ closeDebuggerAndFinish
 panel
 )
 ;
+async
 function
-*
 testPause
 (
 )
@@ -388,13 +388,13 @@ debugger
 "
 )
 ;
-yield
+await
 onPaused
 ;
-yield
+await
 onFocus
 ;
-yield
+await
 onTabSelect
 ;
 if
@@ -429,7 +429,7 @@ selected
 )
 ;
 }
-yield
+await
 toolbox
 .
 selectTool
@@ -482,7 +482,7 @@ selected
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -546,8 +546,8 @@ present
 )
 ;
 }
+async
 function
-*
 testResume
 (
 )
@@ -589,10 +589,10 @@ resume
 panelWin
 )
 ;
-yield
+await
 onPaused
 ;
-yield
+await
 toolbox
 .
 selectTool
