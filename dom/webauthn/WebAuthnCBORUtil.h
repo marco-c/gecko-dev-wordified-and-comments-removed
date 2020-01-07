@@ -34,7 +34,7 @@ aPubKeyObj
 )
 ;
 nsresult
-CBOREncodeAttestationObj
+CBOREncodeFidoU2FAttestationObj
 (
 const
 CryptoBuffer
@@ -48,6 +48,18 @@ const
 CryptoBuffer
 &
 aSignatureBuf
+CryptoBuffer
+&
+aAttestationObj
+)
+;
+nsresult
+CBOREncodeNoneAttestationObj
+(
+const
+CryptoBuffer
+&
+aAuthDataBuf
 CryptoBuffer
 &
 aAttestationObj
