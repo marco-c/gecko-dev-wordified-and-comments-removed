@@ -120,7 +120,7 @@ test_addon_restartless_xpi
 js
 "
 "
-test_addon_nonrestartless_xpi
+test_addon_webext_xpi
 .
 js
 "
