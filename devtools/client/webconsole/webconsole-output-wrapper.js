@@ -1351,6 +1351,17 @@ bind
 (
 this
 )
+jstermCodeMirror
+:
+store
+.
+getState
+(
+)
+.
+prefs
+.
+jstermCodeMirror
 }
 )
 ;
