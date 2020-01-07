@@ -1246,6 +1246,11 @@ nsHTMLStyleSheet
 cpp
 '
 '
+nsICSSDeclaration
+.
+cpp
+'
+'
 nsMediaFeatures
 .
 cpp

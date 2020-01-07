@@ -76,15 +76,6 @@ GetParentObject
 final
 override
 ;
-DocGroup
-*
-GetDocGroup
-(
-)
-const
-final
-override
-;
 protected
 :
 DeclarationBlock
