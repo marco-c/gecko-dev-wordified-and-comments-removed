@@ -36,15 +36,6 @@ mozilla
 .
 gecko
 .
-EventDispatcher
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoAppShell
 ;
 import
