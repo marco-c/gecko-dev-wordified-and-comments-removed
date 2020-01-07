@@ -55,6 +55,10 @@ bool
 sGridTemplateSubgridValueEnabled
 ;
 static
+bool
+sEmulateMozBoxWithFlex
+;
+static
 void
 Init
 (
