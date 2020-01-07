@@ -664,6 +664,15 @@ mozilla
 pkix
 :
 :
+MOZILLA_PKIX_ERROR_SELF_SIGNED_CERT
+:
+case
+mozilla
+:
+:
+pkix
+:
+:
 MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 :
 case

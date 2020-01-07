@@ -414,7 +414,7 @@ Ci
 nsICertOverrideService
 .
 ERROR_UNTRUSTED
-SEC_ERROR_UNKNOWN_ISSUER
+MOZILLA_PKIX_ERROR_SELF_SIGNED_CERT
 )
 ;
 add_read_only_cert_override_test
