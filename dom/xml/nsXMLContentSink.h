@@ -99,6 +99,9 @@ nsIContent
 class
 nsIParser
 ;
+class
+nsTextNode
+;
 namespace
 mozilla
 {
@@ -729,9 +732,9 @@ mTextLength
 int32_t
 mNotifyLevel
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+nsTextNode
 >
 mLastTextNode
 ;

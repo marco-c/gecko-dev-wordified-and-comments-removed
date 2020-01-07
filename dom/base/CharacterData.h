@@ -480,7 +480,6 @@ aNotify
 )
 ;
 }
-virtual
 nsresult
 AppendText
 (
@@ -493,7 +492,6 @@ aLength
 bool
 aNotify
 )
-override
 ;
 virtual
 bool
