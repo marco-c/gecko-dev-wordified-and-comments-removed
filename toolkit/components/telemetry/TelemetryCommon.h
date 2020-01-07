@@ -456,6 +456,11 @@ nsAString
 aStr
 )
 ;
+void
+SetCurrentProduct
+(
+)
+;
 SupportedProduct
 GetCurrentProduct
 (
