@@ -665,6 +665,12 @@ virtual
 bool
 CheckElementStart
 (
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 aElement
