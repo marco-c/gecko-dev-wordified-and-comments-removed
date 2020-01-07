@@ -451,16 +451,6 @@ nullptr
 ;
 extern
 bool
-WouldDefinePastNonwritableLength
-(
-HandleNativeObject
-obj
-uint32_t
-index
-)
-;
-extern
-bool
 GetLengthProperty
 (
 JSContext
