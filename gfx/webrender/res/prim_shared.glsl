@@ -119,10 +119,6 @@ uniform
 sampler2DArray
 sSharedCacheA8
 ;
-uniform
-sampler2D
-sGradients
-;
 vec2
 clamp_rect
 (

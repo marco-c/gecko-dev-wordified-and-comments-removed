@@ -434,8 +434,6 @@ properties
 resolve_float
 (
 binding
-*
-value
 )
 ;
 }
