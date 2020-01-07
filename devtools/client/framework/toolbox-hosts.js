@@ -571,7 +571,7 @@ SidebarHost
 constructor
 (
 hostTab
-hostType
+type
 )
 {
 this
@@ -584,7 +584,7 @@ this
 .
 type
 =
-hostType
+type
 ;
 this
 .
@@ -776,7 +776,7 @@ if
 (
 this
 .
-hostType
+type
 =
 =
 "
