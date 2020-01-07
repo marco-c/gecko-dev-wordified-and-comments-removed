@@ -200,6 +200,12 @@ h
 ;
 using
 class
+mozilla
+:
+:
+net
+:
+:
 nsHttpResponseHead
 from
 "
