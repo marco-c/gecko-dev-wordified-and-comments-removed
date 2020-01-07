@@ -226,6 +226,11 @@ MediaDataDecoderCodec
 cpp
 '
 '
+RtpSourceObserver
+.
+cpp
+'
+'
 VideoConduit
 .
 cpp

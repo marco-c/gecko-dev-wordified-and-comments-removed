@@ -193,6 +193,15 @@ src
 /
 peerconnection
 '
+'
+/
+media
+/
+webrtc
+/
+trunk
+/
+'
 ]
 FINAL_LIBRARY
 =

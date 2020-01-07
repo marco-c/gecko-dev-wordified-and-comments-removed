@@ -571,6 +571,15 @@ src
 /
 peerconnection
 '
+'
+/
+media
+/
+webrtc
+/
+trunk
+/
+'
 ]
 DEFINES
 [
