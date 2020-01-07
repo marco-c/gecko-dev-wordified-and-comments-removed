@@ -565,9 +565,15 @@ connect
 )
 (
 mapStateToProps
+{
+setPopupObjectProperties
+:
 _actions2
 .
 default
+.
+setPopupObjectProperties
+}
 )
 (
 FrameworkComponent

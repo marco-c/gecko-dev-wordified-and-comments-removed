@@ -267,12 +267,10 @@ source
 0
 _source
 .
-getFilenameFromURL
+getFilename
 )
 (
 source
-.
-url
 )
 )
 ;

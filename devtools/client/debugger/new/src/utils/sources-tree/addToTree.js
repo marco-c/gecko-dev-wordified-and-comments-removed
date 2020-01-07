@@ -563,8 +563,6 @@ getURL
 )
 (
 source
-.
-url
 debuggeeUrl
 )
 ;

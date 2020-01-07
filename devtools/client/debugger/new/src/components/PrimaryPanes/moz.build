@@ -83,4 +83,9 @@ SourcesTree
 .
 js
 '
+'
+SourcesTreeItem
+.
+js
+'
 )

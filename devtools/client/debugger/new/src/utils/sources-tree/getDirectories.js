@@ -170,7 +170,7 @@ returnTarget
 function
 getDirectories
 (
-sourceUrl
+source
 sourceTree
 )
 {
@@ -184,7 +184,7 @@ _getURL
 getURL
 )
 (
-sourceUrl
+source
 )
 ;
 const
@@ -215,7 +215,7 @@ sourceTree
 )
 ;
 const
-source
+subtreeSource
 =
 findSource
 (
@@ -226,7 +226,7 @@ fullUrl
 if
 (
 !
-source
+subtreeSource
 )
 {
 return
@@ -237,7 +237,7 @@ return
 let
 node
 =
-source
+subtreeSource
 ;
 const
 directories
@@ -249,7 +249,7 @@ directories
 .
 push
 (
-source
+subtreeSource
 )
 ;
 while
