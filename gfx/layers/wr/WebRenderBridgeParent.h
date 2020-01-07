@@ -1271,12 +1271,12 @@ HandleShutdown
 (
 )
 ;
-bool
+void
 AdvanceAnimations
 (
 )
 ;
-bool
+void
 SampleAnimations
 (
 nsTArray

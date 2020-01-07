@@ -33612,6 +33612,11 @@ opacityForSC
 =
 nullptr
 ;
+OptionalOpacity
+opacityForCompositor
+=
+mOpacity
+;
 prop
 .
 id
@@ -33642,6 +33647,10 @@ GetAnimations
 )
 animationsId
 )
+void_t
+(
+)
+opacityForCompositor
 )
 ;
 aManager
@@ -42192,6 +42201,11 @@ WrAnimationType
 :
 Transform
 ;
+OptionalTransform
+transformForCompositor
+=
+newTransformMatrix
+;
 OpAddCompositorAnimations
 anim
 (
@@ -42203,6 +42217,10 @@ GetAnimations
 (
 )
 animationsId
+)
+transformForCompositor
+void_t
+(
 )
 )
 ;
