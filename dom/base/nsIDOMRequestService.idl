@@ -121,9 +121,6 @@ idl
 interface
 mozIDOMWindow
 ;
-interface
-nsICursorContinueCallback
-;
 webidl
 DOMRequest
 ;

@@ -152,12 +152,12 @@ nsIDocumentEncoder
 idl
 '
 '
-nsIDOMDOMRequest
+nsIDOMParser
 .
 idl
 '
 '
-nsIDOMParser
+nsIDOMRequestService
 .
 idl
 '
