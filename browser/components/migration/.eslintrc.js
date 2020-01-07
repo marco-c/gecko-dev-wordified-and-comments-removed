@@ -30,9 +30,16 @@ comma
 dangle
 "
 :
+[
 "
-off
+error
 "
+"
+always
+-
+multiline
+"
+]
 "
 complexity
 "
