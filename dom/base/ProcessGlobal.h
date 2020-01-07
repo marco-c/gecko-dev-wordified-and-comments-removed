@@ -237,6 +237,12 @@ Get
 (
 )
 ;
+static
+bool
+WasCreated
+(
+)
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -441,6 +447,10 @@ private
 :
 bool
 mInitialized
+;
+static
+bool
+sWasCreated
 ;
 }
 ;
