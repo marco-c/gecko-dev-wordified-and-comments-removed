@@ -13754,6 +13754,10 @@ _run_clang_format_diff
 self
 .
 _clang_format_diff
+                                               
+self
+.
+_clang_format_path
 show
 )
         
@@ -15293,6 +15297,7 @@ _run_clang_format_diff
 (
 self
 clang_format_diff
+clang_format
 show
 )
 :
@@ -15330,6 +15335,15 @@ clang_format_diff
 -
 p1
 "
+"
+-
+binary
+=
+%
+s
+"
+%
+clang_format
 ]
         
 if
