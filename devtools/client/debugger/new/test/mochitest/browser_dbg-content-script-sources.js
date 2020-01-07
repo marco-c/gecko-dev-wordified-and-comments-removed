@@ -303,17 +303,6 @@ dbg
 )
 ;
 await
-waitForSources
-(
-dbg
-"
-content_script
-.
-js
-"
-)
-;
-await
 waitForSelectedSource
 (
 dbg

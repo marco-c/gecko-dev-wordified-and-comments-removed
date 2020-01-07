@@ -76,15 +76,6 @@ simple1
 1
 )
 ;
-await
-waitForSelectedSource
-(
-dbg
-"
-simple1
-"
-)
-;
 findElementWithSelector
 (
 dbg
