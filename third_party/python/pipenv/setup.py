@@ -205,6 +205,25 @@ virtualenv
 '
     
 '
+pathlib2
+=
+=
+2
+.
+1
+.
+0
+;
+python_version
+<
+"
+3
+.
+4
+"
+'
+    
+'
 requests
 [
 security
@@ -640,7 +659,6 @@ setup
 .
 py
 sdist
-bdist_wheel
 '
 .
 format
@@ -861,18 +879,6 @@ main
 package_data
 =
 {
-        
-'
-'
-:
-[
-'
-LICENSE
-'
-'
-NOTICES
-'
-]
         
 "
 pipenv

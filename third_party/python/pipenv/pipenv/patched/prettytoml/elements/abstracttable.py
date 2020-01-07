@@ -1,20 +1,3 @@
-try
-:
-    
-from
-collections
-.
-abc
-import
-Mapping
-except
-ImportError
-:
-    
-from
-collections
-import
-Mapping
 from
 prettytoml
 .
@@ -36,7 +19,6 @@ ContainerElement
 traversal
 .
 TraversalMixin
-Mapping
 )
 :
     
@@ -273,27 +255,6 @@ self
 _enumerate_items
 (
 )
-)
-)
-    
-def
-__iter__
-(
-self
-)
-:
-        
-return
-(
-key
-for
-key
-_
-in
-self
-.
-items
-(
 )
 )
     
