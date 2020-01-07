@@ -243,6 +243,17 @@ enabled
 "
 ;
 const
+SUPPORTED_COUNTRIES_PREF
+=
+"
+extensions
+.
+formautofill
+.
+supportedCountries
+"
+;
+const
 SYNC_USERNAME_PREF
 =
 "
