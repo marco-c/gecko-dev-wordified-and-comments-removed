@@ -23370,10 +23370,8 @@ stackForCall
 ;
 {
 enoughMemory_
+&
 =
-enoughMemory_
-&
-&
 moveResolver_
 .
 resolve

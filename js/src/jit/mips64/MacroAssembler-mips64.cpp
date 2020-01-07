@@ -10528,10 +10528,8 @@ intptr_t
 ;
 {
 enoughMemory_
+&
 =
-enoughMemory_
-&
-&
 moveResolver_
 .
 resolve
