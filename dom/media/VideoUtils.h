@@ -635,6 +635,8 @@ MediaThreadType
 {
 PLAYBACK
 PLATFORM_DECODER
+MSG_CONTROL
+WEBRTC_DECODER
 }
 ;
 already_AddRefed
