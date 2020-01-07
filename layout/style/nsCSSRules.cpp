@@ -771,7 +771,7 @@ return
 mChildSheet
 ;
 }
-NS_IMETHODIMP
+void
 ImportRule
 :
 :
@@ -781,13 +781,11 @@ nsAString
 &
 aHref
 )
+const
 {
 aHref
 =
 mURLSpec
-;
-return
-NS_OK
 ;
 }
 size_t
