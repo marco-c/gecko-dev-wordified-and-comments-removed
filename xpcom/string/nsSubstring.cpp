@@ -196,8 +196,9 @@ MOZ_CRASH_UNSAFE_PRINTF
 Bad
 canary
 value
+0x
 %
-d
+x
 "
 c
 )
@@ -1696,8 +1697,9 @@ MOZ_CRASH_UNSAFE_PRINTF
 Bad
 canary
 value
+0x
 %
-d
+x
 in
 FromData
 "
