@@ -527,6 +527,15 @@ h
 #
 include
 "
+mozilla
+/
+RuleNodeCacheConditions
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h

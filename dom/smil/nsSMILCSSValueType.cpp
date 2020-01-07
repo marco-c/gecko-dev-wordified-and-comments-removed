@@ -2547,7 +2547,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 nsComputedDOMStyle
 :
@@ -2561,7 +2561,7 @@ nullptr
 if
 (
 !
-computedStyle
+styleContext
 )
 {
 return
@@ -2575,7 +2575,7 @@ ValueFromStringHelper
 aPropID
 aTargetElement
 presContext
-computedStyle
+styleContext
 aString
 )
 ;

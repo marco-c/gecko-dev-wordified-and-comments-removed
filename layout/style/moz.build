@@ -518,6 +518,11 @@ PreloadedStyleSheet
 h
 '
 '
+RuleNodeCacheConditions
+.
+h
+'
+'
 ServoArcTypeList
 .
 h

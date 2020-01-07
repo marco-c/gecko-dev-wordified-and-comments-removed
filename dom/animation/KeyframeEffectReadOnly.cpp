@@ -4362,7 +4362,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 ;
 if
 (
@@ -4372,7 +4372,7 @@ isServo
 isCSSAnimation
 )
 {
-computedStyle
+styleContext
 =
 GetTargetComputedStyle
 (
@@ -4652,9 +4652,9 @@ ComputedStyle
 *
 servoComputedStyle
 =
-computedStyle
+styleContext
 ?
-computedStyle
+styleContext
 -
 >
 AsServo

@@ -1,0 +1,17 @@
+#
+ifndef
+RuleNodeCacheConditions_h_
+#
+define
+RuleNodeCacheConditions_h_
+namespace
+mozilla
+{
+class
+RuleNodeCacheConditions
+{
+}
+;
+}
+#
+endif

@@ -50,6 +50,13 @@ h
 #
 include
 "
+RuleNodeCacheConditions
+.
+h
+"
+#
+include
+"
 nsGlobalWindowInner
 .
 h

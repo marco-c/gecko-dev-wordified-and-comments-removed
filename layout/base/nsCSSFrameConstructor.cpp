@@ -8683,7 +8683,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -8719,7 +8719,7 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-computedStyle
+styleContext
 )
 ;
 nsContainerFrame
@@ -8791,7 +8791,7 @@ innerFrame
 NS_NewMathMLmtableFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 else
@@ -8800,7 +8800,7 @@ innerFrame
 NS_NewTableFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -8970,7 +8970,7 @@ ProcessChildren
 (
 aState
 content
-computedStyle
+styleContext
 innerFrame
 true
 childItems
@@ -9201,7 +9201,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -9245,7 +9245,7 @@ newFrame
 NS_NewMathMLmtrFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 else
@@ -9254,7 +9254,7 @@ newFrame
 NS_NewTableRowFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 }
@@ -9265,7 +9265,7 @@ newFrame
 NS_NewTableRowGroupFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 }
@@ -9368,7 +9368,7 @@ ProcessChildren
 (
 aState
 content
-computedStyle
+styleContext
 newFrame
 true
 childItems
@@ -9436,7 +9436,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -9449,7 +9449,7 @@ colFrame
 NS_NewTableColFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -9470,7 +9470,7 @@ Style
 )
 =
 =
-computedStyle
+styleContext
 "
 Unexpected
 style
@@ -9517,7 +9517,7 @@ newCol
 NS_NewTableColFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -9628,7 +9628,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -9686,7 +9686,7 @@ newFrame
 NS_NewMathMLmtdFrame
 (
 mPresShell
-computedStyle
+styleContext
 tableFrame
 )
 ;
@@ -9698,7 +9698,7 @@ newFrame
 NS_NewTableCellFrame
 (
 mPresShell
-computedStyle
+styleContext
 tableFrame
 )
 ;
@@ -9741,7 +9741,7 @@ nsCSSAnonBoxes
 :
 :
 cellContent
-computedStyle
+styleContext
 )
 ;
 bool
@@ -9915,7 +9915,7 @@ ProcessChildren
 (
 aState
 content
-computedStyle
+styleContext
 cellInnerFrame
 true
 childItems
@@ -10296,7 +10296,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 mPresShell
 -
@@ -10321,7 +10321,7 @@ nsStyleDisplay
 *
 display
 =
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -10448,7 +10448,7 @@ if
 resolveStyle
 )
 {
-computedStyle
+styleContext
 =
 mPresShell
 -
@@ -10470,7 +10470,7 @@ aDocElement
 ;
 display
 =
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -10536,14 +10536,14 @@ None
 RegisterDisplayNoneStyleFor
 (
 aDocElement
-computedStyle
+styleContext
 )
 ;
 return
 nullptr
 ;
 }
-computedStyle
+styleContext
 -
 >
 StartBackgroundImageLoads
@@ -10610,7 +10610,7 @@ contentFrame
 NS_NewDocElementBoxFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -10684,7 +10684,7 @@ RefPtr
 ComputedStyle
 >
 (
-computedStyle
+styleContext
 )
 .
 forget
@@ -10732,7 +10732,7 @@ ConstructOuterSVG
 state
 item
 mDocElementContainingBlock
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -10818,7 +10818,7 @@ contentFrame
 NS_NewFlexContainerFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -10887,7 +10887,7 @@ contentFrame
 NS_NewGridContainerFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -10973,7 +10973,7 @@ RefPtr
 ComputedStyle
 >
 (
-computedStyle
+styleContext
 )
 .
 forget
@@ -11021,7 +11021,7 @@ ConstructTable
 state
 item
 mDocElementContainingBlock
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -11096,7 +11096,7 @@ contentFrame
 NS_NewBlockFormattingContext
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 nsFrameItems
@@ -11114,7 +11114,7 @@ display
 mDocElementContainingBlock
 )
 mDocElementContainingBlock
-computedStyle
+styleContext
 &
 contentFrame
 frameItems
@@ -11268,7 +11268,7 @@ ProcessChildren
 (
 state
 aDocElement
-computedStyle
+styleContext
 contentFrame
 true
 childItems
@@ -11868,7 +11868,9 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
+;
+styleContext
 =
 styleSet
 -
@@ -11892,7 +11894,7 @@ BeginBuildingScrollFrame
 (
 state
 aDocElement
-computedStyle
+styleContext
 viewportFrame
 rootPseudo
 true
@@ -12613,7 +12615,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -12664,7 +12666,7 @@ comboboxFrame
 NS_NewComboboxControlFrame
 (
 mPresShell
-computedStyle
+styleContext
 flags
 )
 ;
@@ -12736,7 +12738,7 @@ nsCSSAnonBoxes
 :
 :
 dropDownList
-computedStyle
+styleContext
 )
 ;
 nsContainerFrame
@@ -12844,7 +12846,7 @@ scrolledFrame
 NS_NewSelectsAreaFrame
 (
 mPresShell
-computedStyle
+styleContext
 flags
 )
 ;
@@ -13091,7 +13093,7 @@ listFrame
 NS_NewListControlFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 nsContainerFrame
@@ -13101,7 +13103,7 @@ scrolledFrame
 NS_NewSelectsAreaFrame
 (
 mPresShell
-computedStyle
+styleContext
 NS_BLOCK_FLOAT_MGR
 )
 ;
@@ -13112,7 +13114,7 @@ listFrame
 scrolledFrame
 content
 aParentFrame
-computedStyle
+styleContext
 false
 aItem
 .
@@ -13298,7 +13300,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -13311,7 +13313,7 @@ fieldsetFrame
 NS_NewFieldSetFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -13358,7 +13360,7 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-computedStyle
+styleContext
 )
 ;
 const
@@ -13733,7 +13735,7 @@ ProcessChildren
 (
 aState
 content
-computedStyle
+styleContext
 contentFrame
 true
 childItems
@@ -16055,7 +16057,7 @@ primaryFrame
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -16066,7 +16068,7 @@ nsStyleDisplay
 *
 display
 =
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -16132,7 +16134,7 @@ mCreationFunc
 )
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 bool
@@ -16247,7 +16249,7 @@ BuildScrollFrame
 (
 aState
 content
-computedStyle
+styleContext
 newFrame
 geometricParent
 scrollframe
@@ -16330,7 +16332,7 @@ data
 -
 >
 mAnonBoxPseudo
-computedStyle
+styleContext
 )
 ;
 #
@@ -17002,7 +17004,7 @@ ProcessChildren
 (
 aState
 content
-computedStyle
+styleContext
 newFrameAsContainer
 !
 (
@@ -20768,7 +20770,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -20790,7 +20792,7 @@ BeginBuildingScrollFrame
 (
 aState
 content
-computedStyle
+styleContext
 aState
 .
 GetGeometricParent
@@ -20813,7 +20815,7 @@ scrolledFrame
 aConstructor
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 aState
@@ -20957,7 +20959,7 @@ aConstructor
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -21056,7 +21058,7 @@ newFrame
 aConstructor
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -21081,7 +21083,7 @@ aDisplay
 aParentFrame
 )
 aParentFrame
-computedStyle
+styleContext
 &
 newFrame
 aFrameItems
@@ -21836,7 +21838,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -21849,7 +21851,7 @@ newFrame
 aConstructor
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -21862,7 +21864,7 @@ aState
 .
 GetGeometricParent
 (
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -21902,7 +21904,7 @@ StyleSet
 ResolveInheritingAnonymousBoxStyle
 (
 aInnerPseudo
-computedStyle
+styleContext
 )
 ;
 nsContainerFrame
@@ -22035,7 +22037,7 @@ ProcessChildren
 (
 aState
 content
-computedStyle
+styleContext
 innerFrame
 true
 childItems
@@ -23677,7 +23679,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 ResolveComputedStyle
 (
@@ -23688,7 +23690,7 @@ DoAddFrameConstructionItems
 (
 aState
 aContent
-computedStyle
+styleContext
 aSuppressWhiteSpaceOptimizations
 parentFrame
 nullptr
@@ -23925,7 +23927,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 (
 aComputedStyle
 )
@@ -24074,7 +24076,7 @@ if
 resolveStyle
 )
 {
-computedStyle
+styleContext
 =
 mPresShell
 -
@@ -24102,7 +24104,7 @@ AsElement
 }
 display
 =
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -24111,7 +24113,7 @@ StyleDisplay
 ;
 aComputedStyle
 =
-computedStyle
+styleContext
 ;
 aTag
 =
@@ -24163,7 +24165,7 @@ SetAsUndisplayedContent
 aState
 aItems
 aContent
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24276,7 +24278,7 @@ SetAsUndisplayedContent
 aState
 aItems
 aContent
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24370,7 +24372,7 @@ SetAsUndisplayedContent
 aState
 aItems
 aContent
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24474,7 +24476,7 @@ SetAsUndisplayedContent
 aState
 aItems
 element
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24489,7 +24491,7 @@ element
 aTag
 aNameSpaceID
 aParentFrame
-computedStyle
+styleContext
 )
 ;
 if
@@ -24505,7 +24507,7 @@ FindXULTagData
 element
 aTag
 aNameSpaceID
-computedStyle
+styleContext
 )
 ;
 }
@@ -24522,7 +24524,7 @@ FindMathMLData
 element
 aTag
 aNameSpaceID
-computedStyle
+styleContext
 )
 ;
 foundMathMLData
@@ -24552,7 +24554,7 @@ ITEM_IS_WITHIN_SVG_TEXT
 aFlags
 &
 ITEM_ALLOWS_TEXT_PATH_CHILD
-computedStyle
+styleContext
 )
 ;
 }
@@ -24568,7 +24570,7 @@ FindXULDisplayData
 (
 display
 element
-computedStyle
+styleContext
 )
 ;
 }
@@ -24584,7 +24586,7 @@ FindDisplayData
 (
 display
 element
-computedStyle
+styleContext
 )
 ;
 }
@@ -24616,7 +24618,7 @@ SetAsUndisplayedContent
 aState
 aItems
 element
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24674,7 +24676,7 @@ SetAsUndisplayedContent
 aState
 aItems
 element
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24737,7 +24739,7 @@ SetAsUndisplayedContent
 aState
 aItems
 aContent
-computedStyle
+styleContext
 isGeneratedContent
 )
 ;
@@ -24849,7 +24851,7 @@ aContent
 {
 MOZ_ASSERT
 (
-computedStyle
+styleContext
 -
 >
 GetPseudo
@@ -24876,7 +24878,7 @@ mFrameManager
 RegisterDisplayContentsStyleFor
 (
 aContent
-computedStyle
+styleContext
 )
 ;
 }
@@ -24890,7 +24892,7 @@ mFrameManager
 ChangeRegisteredDisplayContentsStyleFor
 (
 aContent
-computedStyle
+styleContext
 )
 ;
 }
@@ -24918,7 +24920,7 @@ aContent
 AsElement
 (
 )
-computedStyle
+styleContext
 CSSPseudoElementType
 :
 :
@@ -25014,7 +25016,7 @@ aContent
 AsElement
 (
 )
-computedStyle
+styleContext
 CSSPseudoElementType
 :
 :
@@ -25099,7 +25101,7 @@ aContent
 aTag
 aNameSpaceID
 pendingBinding
-computedStyle
+styleContext
 .
 forget
 (
@@ -25128,7 +25130,7 @@ aContent
 aTag
 aNameSpaceID
 pendingBinding
-computedStyle
+styleContext
 .
 forget
 (
@@ -25759,7 +25761,7 @@ item
 ;
 ComputedStyle
 *
-computedStyle
+styleContext
 =
 item
 .
@@ -25772,7 +25774,7 @@ adjParentFrame
 item
 .
 mFCData
-computedStyle
+styleContext
 )
 ;
 if
@@ -25791,7 +25793,7 @@ aIter
 &
 &
 !
-computedStyle
+styleContext
 -
 >
 StyleText
@@ -25874,14 +25876,14 @@ item
 .
 mContent
 adjParentFrame
-computedStyle
+styleContext
 aFrameItems
 )
 ;
 return
 ;
 }
-computedStyle
+styleContext
 -
 >
 StartBackgroundImageLoads
@@ -27206,7 +27208,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 ResolveComputedStyle
 (
@@ -27218,7 +27220,7 @@ nsStyleDisplay
 *
 display
 =
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -36085,7 +36087,7 @@ PresShell
 ;
 ComputedStyle
 *
-computedStyle
+styleContext
 =
 aFrame
 -
@@ -36183,7 +36185,7 @@ newFrame
 NS_NewContinuingTextFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36214,7 +36216,7 @@ newFrame
 NS_NewInlineFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36265,7 +36267,7 @@ newFrame
 NS_NewBlockFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36299,7 +36301,7 @@ newFrame
 NS_NewXULLabelFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36352,7 +36354,7 @@ newFrame
 NS_NewColumnSetFrame
 (
 shell
-computedStyle
+styleContext
 nsFrameState
 (
 0
@@ -36418,7 +36420,7 @@ aPresContext
 aFrame
 aParentFrame
 content
-computedStyle
+styleContext
 )
 ;
 }
@@ -36442,7 +36444,7 @@ shell
 aFrame
 aParentFrame
 content
-computedStyle
+styleContext
 )
 ;
 }
@@ -36463,7 +36465,7 @@ newFrame
 NS_NewTableRowGroupFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36517,7 +36519,7 @@ rowFrame
 NS_NewTableRowFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 rowFrame
@@ -36664,7 +36666,7 @@ cellFrame
 NS_NewTableCellFrame
 (
 shell
-computedStyle
+styleContext
 tableFrame
 )
 ;
@@ -36760,7 +36762,7 @@ newFrame
 NS_NewFirstLineFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36791,7 +36793,7 @@ newFrame
 NS_NewFirstLetterFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36822,7 +36824,7 @@ newFrame
 NS_NewImageFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36853,7 +36855,7 @@ newFrame
 NS_NewImageControlFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -36941,7 +36943,7 @@ fieldset
 NS_NewFieldSetFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 fieldset
@@ -37034,7 +37036,7 @@ newFrame
 NS_NewLegendFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37065,7 +37067,7 @@ newFrame
 NS_NewFlexContainerFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37096,7 +37098,7 @@ newFrame
 NS_NewGridContainerFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37127,7 +37129,7 @@ newFrame
 NS_NewRubyFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37158,7 +37160,7 @@ newFrame
 NS_NewRubyBaseContainerFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37189,7 +37191,7 @@ newFrame
 NS_NewRubyTextContainerFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37220,7 +37222,7 @@ newFrame
 NS_NewDetailsFrame
 (
 shell
-computedStyle
+styleContext
 )
 ;
 newFrame
@@ -37573,7 +37575,7 @@ GetContent
 ;
 ComputedStyle
 *
-computedStyle
+styleContext
 =
 nsLayoutUtils
 :
@@ -37617,7 +37619,7 @@ GetNameSpaceID
 (
 )
 true
-computedStyle
+styleContext
 ITEM_ALLOW_XBL_BASE
 |
 ITEM_ALLOW_PAGE_BREAK
@@ -43351,7 +43353,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 ResolveComputedStyle
 (
@@ -43430,7 +43432,7 @@ GetNameSpaceID
 (
 )
 true
-computedStyle
+styleContext
 flags
 anonChildren
 aItemsToConstruct
@@ -43796,7 +43798,7 @@ IsLeaf
 {
 ComputedStyle
 *
-computedStyle
+styleContext
 ;
 if
 (
@@ -43811,7 +43813,7 @@ AddStateBits
 NS_FRAME_MAY_HAVE_GENERATED_CONTENT
 )
 ;
-computedStyle
+styleContext
 =
 nsFrame
 :
@@ -43837,7 +43839,7 @@ aContent
 AsElement
 (
 )
-computedStyle
+styleContext
 CSSPseudoElementType
 :
 :
@@ -44057,7 +44059,7 @@ aContent
 AsElement
 (
 )
-computedStyle
+styleContext
 CSSPseudoElementType
 :
 :
@@ -47451,7 +47453,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 ResolveComputedStyle
 (
@@ -47463,7 +47465,7 @@ nsStyleDisplay
 *
 display
 =
-computedStyle
+styleContext
 -
 >
 StyleDisplay
@@ -47521,7 +47523,7 @@ GetNameSpaceID
 (
 )
 true
-computedStyle
+styleContext
 ITEM_ALLOW_XBL_BASE
 nullptr
 items
@@ -47973,7 +47975,7 @@ mContent
 ComputedStyle
 *
 const
-computedStyle
+styleContext
 =
 aItem
 .
@@ -48018,7 +48020,7 @@ newFrame
 NS_NewInlineFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame
@@ -48219,7 +48221,7 @@ GetContent
 ;
 ComputedStyle
 *
-computedStyle
+styleContext
 =
 aInitialInline
 -
@@ -48259,7 +48261,7 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
-computedStyle
+styleContext
 )
 ;
 nsContainerFrame
@@ -48387,7 +48389,7 @@ inlineFrame
 NS_NewInlineFrame
 (
 mPresShell
-computedStyle
+styleContext
 )
 ;
 InitAndRestoreFrame

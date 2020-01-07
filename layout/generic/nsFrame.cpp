@@ -666,6 +666,15 @@ include
 "
 mozilla
 /
+RuleNodeCacheConditions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleSet
 .
 h

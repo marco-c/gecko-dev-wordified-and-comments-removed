@@ -5817,9 +5817,9 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 ;
-computedStyle
+styleContext
 =
 styleSet
 -
@@ -5858,7 +5858,7 @@ shell
 )
 nsComboboxDisplayFrame
 (
-computedStyle
+styleContext
 this
 )
 ;
