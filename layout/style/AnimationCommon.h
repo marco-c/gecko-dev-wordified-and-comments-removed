@@ -1141,6 +1141,14 @@ effect
 "
 )
 ;
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 Nullable
 <
 TimeDuration
