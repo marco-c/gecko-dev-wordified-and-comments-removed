@@ -750,6 +750,7 @@ ReadOnlyCompileOptions
 options
 (
 )
+const
 final
 {
 InvokeMemberFunction
