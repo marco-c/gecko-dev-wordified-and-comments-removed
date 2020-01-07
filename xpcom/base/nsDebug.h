@@ -192,7 +192,7 @@ __LINE__
 }
 while
 (
-0
+false
 )
 #
 else
@@ -213,7 +213,7 @@ nothing
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -675,7 +675,7 @@ __COUNTER__
 }
 while
 (
-0
+false
 )
 #
 define
@@ -710,7 +710,7 @@ __COUNTER__
 }
 while
 (
-0
+false
 )
 #
 else
@@ -766,7 +766,7 @@ nothing
 }
 while
 (
-0
+false
 )
 #
 define
@@ -784,7 +784,7 @@ nothing
 }
 while
 (
-0
+false
 )
 #
 endif
@@ -846,7 +846,7 @@ ret
 }
 while
 (
-0
+false
 )
 #
 define
@@ -909,7 +909,7 @@ return
 }
 while
 (
-0
+false
 )
 #
 define
@@ -1161,7 +1161,7 @@ ret
 }
 while
 (
-0
+false
 )
 #
 define
@@ -1201,7 +1201,7 @@ return
 }
 while
 (
-0
+false
 )
 #
 define
