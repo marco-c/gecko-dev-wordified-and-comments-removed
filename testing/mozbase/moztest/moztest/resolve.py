@@ -88,9 +88,6 @@ aliases
 :
 (
 '
-Cpp
-'
-'
 cpp
 '
 )
@@ -129,13 +126,7 @@ aliases
 :
 (
 '
-C
-'
-'
-Rc
-'
-'
-RC
+c
 '
 '
 rc
@@ -180,7 +171,7 @@ aliases
 :
 (
 '
-Fxfn
+fxfn
 '
 )
         
@@ -221,7 +212,7 @@ aliases
 :
 (
 '
-Fxup
+fxup
 '
 )
         
@@ -259,9 +250,6 @@ aliases
 '
 :
 (
-'
-Sm
-'
 '
 sm
 '
@@ -337,6 +325,19 @@ a11y
 {
         
 '
+aliases
+'
+:
+(
+'
+a11y
+'
+'
+ally
+'
+)
+        
+'
 mach_command
 '
 :
@@ -382,10 +383,9 @@ aliases
 bc
 '
 '
-BC
-'
-'
-Bc
+browser
+-
+chrome
 '
 )
         
@@ -427,6 +427,16 @@ chrome
 '
 :
 {
+        
+'
+aliases
+'
+:
+(
+'
+mc
+'
+)
         
 '
 mach_command
@@ -474,10 +484,9 @@ aliases
 dt
 '
 '
-DT
-'
-'
-Dt
+devtools
+-
+chrome
 '
 )
         
@@ -517,6 +526,19 @@ plain
 '
 :
 {
+        
+'
+aliases
+'
+:
+(
+'
+mp
+'
+'
+plain
+'
+)
         
 '
 mach_command
@@ -589,13 +611,7 @@ aliases
 :
 (
 '
-RR
-'
-'
 rr
-'
-'
-Rr
 '
 )
         
@@ -674,9 +690,6 @@ aliases
 :
 (
 '
-V
-'
-'
 v
 '
 )
@@ -711,9 +724,6 @@ aliases
 '
 :
 (
-'
-X
-'
 '
 x
 '
@@ -1352,13 +1362,6 @@ aliases
 '
 :
 (
-'
-M
-%
-d
-'
-%
-i
 '
 m
 %
@@ -3474,6 +3477,10 @@ items
                 
 if
 entry
+.
+lower
+(
+)
 in
 v
 .
