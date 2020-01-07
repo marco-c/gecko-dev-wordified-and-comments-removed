@@ -944,7 +944,7 @@ left
 right
 )
 use
-offset
+inset
 -
 inline
 -

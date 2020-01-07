@@ -3514,7 +3514,7 @@ size
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -3728,7 +3728,7 @@ auto
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -3738,7 +3738,7 @@ auto
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -3797,7 +3797,7 @@ auto
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -3807,7 +3807,7 @@ end
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -7913,7 +7913,7 @@ color
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -9652,7 +9652,7 @@ height
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -9735,7 +9735,7 @@ size
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -9939,7 +9939,7 @@ color
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -10637,7 +10637,7 @@ top
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -10873,7 +10873,7 @@ top
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -11367,7 +11367,7 @@ white
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -11448,7 +11448,7 @@ height
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -15288,7 +15288,7 @@ height
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -16145,7 +16145,7 @@ start
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -17950,7 +17950,7 @@ size
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -18794,7 +18794,7 @@ size
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -18804,7 +18804,7 @@ end
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -19809,7 +19809,7 @@ height
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -20363,7 +20363,7 @@ height
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -21576,7 +21576,7 @@ top
 ;
 \
 n
-offset
+inset
 -
 inline
 -
@@ -21701,7 +21701,7 @@ width
 {
 \
 n
-offset
+inset
 -
 inline
 -
