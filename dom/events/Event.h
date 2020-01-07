@@ -524,7 +524,7 @@ GetEventPopupControlState
 WidgetEvent
 *
 aEvent
-nsIDOMEvent
+Event
 *
 aDOMEvent
 =

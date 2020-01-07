@@ -2725,7 +2725,7 @@ GetEventPopupControlState
 WidgetEvent
 *
 aEvent
-nsIDOMEvent
+Event
 *
 aDOMEvent
 )
@@ -2741,11 +2741,6 @@ aDOMEvent
 &
 &
 aDOMEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetWantsPopupControlCheck
