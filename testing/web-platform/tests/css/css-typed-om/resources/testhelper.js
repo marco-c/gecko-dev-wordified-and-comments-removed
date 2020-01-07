@@ -239,7 +239,7 @@ break
 ;
 case
 '
-CSSRotation
+CSSRotate
 '
 :
 assert_style_value_equals
@@ -254,7 +254,7 @@ angle
 ;
 case
 '
-CSSTranslation
+CSSTranslate
 '
 :
 case

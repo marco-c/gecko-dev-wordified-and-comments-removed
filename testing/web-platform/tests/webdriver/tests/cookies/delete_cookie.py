@@ -790,8 +790,6 @@ response
 body
     
 assert
-isinstance
-(
 response
 .
 body
@@ -800,19 +798,5 @@ body
 value
 "
 ]
-dict
-)
-    
-assert
-response
-.
-body
-[
-"
-value
-"
-]
-=
-=
-{
-}
+is
+None

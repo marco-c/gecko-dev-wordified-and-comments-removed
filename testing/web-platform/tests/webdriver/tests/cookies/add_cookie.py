@@ -150,8 +150,6 @@ result
 body
     
 assert
-isinstance
-(
 result
 .
 body
@@ -160,8 +158,8 @@ body
 value
 "
 ]
-dict
-)
+is
+None
     
 result
 =
@@ -534,8 +532,6 @@ result
 body
     
 assert
-isinstance
-(
 result
 .
 body
@@ -544,8 +540,8 @@ body
 value
 "
 ]
-dict
-)
+is
+None
     
 result
 =
@@ -888,8 +884,6 @@ result
 body
     
 assert
-isinstance
-(
 result
 .
 body
@@ -898,8 +892,8 @@ body
 value
 "
 ]
-dict
-)
+is
+None
     
 result
 =
@@ -1200,8 +1194,6 @@ result
 body
     
 assert
-isinstance
-(
 result
 .
 body
@@ -1210,8 +1202,8 @@ body
 value
 "
 ]
-dict
-)
+is
+None
     
 result
 =
@@ -1354,13 +1346,14 @@ value
 basestring
 )
     
-assert
+if
 "
 expiry
 "
 in
 cookie
-    
+:
+        
 assert
 cookie
 .
@@ -1523,8 +1516,6 @@ result
 body
     
 assert
-isinstance
-(
 result
 .
 body
@@ -1533,8 +1524,8 @@ body
 value
 "
 ]
-dict
-)
+is
+None
     
 result
 =

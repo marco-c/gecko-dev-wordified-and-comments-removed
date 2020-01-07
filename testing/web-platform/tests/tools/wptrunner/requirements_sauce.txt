@@ -12,3 +12,4 @@ selenium
 3
 .
 0
+requests

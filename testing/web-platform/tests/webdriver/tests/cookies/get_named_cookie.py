@@ -239,13 +239,14 @@ httpOnly
 bool
 )
     
-assert
+if
 "
 expiry
 "
 in
 cookie
-    
+:
+        
 assert
 cookie
 .
@@ -727,8 +728,6 @@ result
 body
     
 assert
-isinstance
-(
 result
 .
 body
@@ -737,8 +736,8 @@ body
 value
 "
 ]
-dict
-)
+is
+None
     
 session
 .
