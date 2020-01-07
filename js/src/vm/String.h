@@ -2684,6 +2684,13 @@ js
 :
 AutoStableStringChars
 ;
+friend
+class
+js
+:
+:
+TenuringTracer
+;
 JSLinearString
 *
 ensureLinear
