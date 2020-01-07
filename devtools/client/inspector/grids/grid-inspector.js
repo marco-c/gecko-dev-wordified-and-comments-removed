@@ -518,6 +518,8 @@ inspector
 return
 ;
 }
+try
+{
 this
 .
 layoutInspector
@@ -533,6 +535,15 @@ getLayoutInspector
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+;
+}
 this
 .
 loadHighlighterSettings
