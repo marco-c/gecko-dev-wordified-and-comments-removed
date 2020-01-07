@@ -99,6 +99,11 @@ UNIFIED_SOURCES
 =
 [
 '
+DllBlocklistWin
+.
+cpp
+'
+'
 LauncherProcessWin
 .
 cpp
