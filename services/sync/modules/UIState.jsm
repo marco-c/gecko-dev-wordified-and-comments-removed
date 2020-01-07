@@ -130,17 +130,6 @@ sync
 error
 "
 "
-weave
-:
-service
-:
-start
--
-over
-:
-finish
-"
-"
 fxaccounts
 :
 onverified
