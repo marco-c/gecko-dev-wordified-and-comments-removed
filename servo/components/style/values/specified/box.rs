@@ -1115,17 +1115,6 @@ Context
 longhands
 :
 :
-_servo_display_for_hypothetical_box
-:
-:
-derive_from_display
-(
-context
-)
-;
-longhands
-:
-:
 _servo_text_decorations_in_effect
 :
 :
