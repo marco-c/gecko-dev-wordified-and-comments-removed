@@ -3688,9 +3688,9 @@ pp
 make_deps_target
 =
 '
-codegen
+webidl
 .
-pp
+stub
 '
     
 )
