@@ -11770,8 +11770,6 @@ startTime
 getTime
 (
 )
-*
-1000
 )
 ;
 Assert
@@ -11916,10 +11914,8 @@ time
 >
 =
 beforeStartTimeMs
-*
-1000
 -
-1000000
+1000
 )
 ;
 continueResponses
