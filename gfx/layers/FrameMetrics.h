@@ -132,6 +132,13 @@ nsStyleCoord
 .
 h
 "
+#
+include
+"
+PLDHashTable
+.
+h
+"
 namespace
 IPC
 {
