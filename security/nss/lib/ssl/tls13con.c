@@ -16421,7 +16421,7 @@ PRUint32
 innerLength
 ;
 SECItem
-oldNpn
+oldAlpn
 =
 {
 siBuffer
@@ -16581,7 +16581,7 @@ nextProtoState
 SSL_NEXT_PROTO_EARLY_VALUE
 )
 {
-oldNpn
+oldAlpn
 =
 ss
 -
@@ -16692,7 +16692,7 @@ if
 SECITEM_CompareItem
 (
 &
-oldNpn
+oldAlpn
 &
 ss
 -
@@ -16706,7 +16706,7 @@ nextProto
 SECITEM_FreeItem
 (
 &
-oldNpn
+oldAlpn
 PR_FALSE
 )
 ;
@@ -16840,7 +16840,7 @@ ssl_0rtt_ignored
 SECITEM_FreeItem
 (
 &
-oldNpn
+oldAlpn
 PR_FALSE
 )
 ;

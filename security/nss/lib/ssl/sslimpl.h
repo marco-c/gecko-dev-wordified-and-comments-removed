@@ -1030,12 +1030,6 @@ enableOCSPStapling
 ;
 unsigned
 int
-enableNPN
-:
-1
-;
-unsigned
-int
 enableALPN
 :
 1
@@ -5394,7 +5388,7 @@ ssl_ResetSelfEncryptKeys
 ;
 extern
 SECStatus
-ssl3_ValidateNextProtoNego
+ssl3_ValidateAppProtocol
 (
 const
 unsigned

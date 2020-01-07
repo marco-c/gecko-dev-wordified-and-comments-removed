@@ -452,6 +452,9 @@ saw
 "
 abi
 "
+"
+coverage
+"
 ]
 ;
 let

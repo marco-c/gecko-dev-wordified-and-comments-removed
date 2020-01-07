@@ -335,6 +335,11 @@ crv
 )
 )
 ;
+PORT_Free
+(
+newTemplate
+)
+;
 return
 SECFailure
 ;
@@ -379,7 +384,7 @@ if
 newTemplate
 )
 {
-free
+PORT_Free
 (
 newTemplate
 )
