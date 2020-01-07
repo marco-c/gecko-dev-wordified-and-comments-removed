@@ -580,6 +580,11 @@ i
 ;
 if
 (
+existingArgument
+)
+{
+if
+(
 newArgument
 .
 actor
@@ -615,6 +620,7 @@ existingArgument
 .
 ownPropertyLength
 ;
+}
 }
 return
 newArgument
