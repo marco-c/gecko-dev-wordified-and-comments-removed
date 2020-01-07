@@ -28,6 +28,11 @@ js
 namespace
 wasm
 {
+bool
+IonCanCompile
+(
+)
+;
 MOZ_MUST_USE
 bool
 IonCompileFunctions
