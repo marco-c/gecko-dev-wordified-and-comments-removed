@@ -7755,6 +7755,12 @@ uninit
 (
 )
 ;
+SavantShieldStudy
+.
+uninit
+(
+)
+;
 }
 _onWindowsRestored
 :
