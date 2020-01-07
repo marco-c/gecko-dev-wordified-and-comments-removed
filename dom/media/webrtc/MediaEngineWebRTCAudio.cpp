@@ -2676,10 +2676,6 @@ AssertIsOnOwningThread
 (
 )
 ;
-mLastPrefs
-=
-aPrefs
-;
 RefPtr
 <
 MediaEngineWebRTCMicrophoneSource
