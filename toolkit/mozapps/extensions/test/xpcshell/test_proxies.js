@@ -329,11 +329,6 @@ file
 exists
 (
 )
-Components
-.
-stack
-.
-caller
 )
 ;
 }
