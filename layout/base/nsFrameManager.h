@@ -220,16 +220,6 @@ aState
 )
 ;
 void
-DestroyAnonymousContent
-(
-already_AddRefed
-<
-nsIContent
->
-aContent
-)
-;
-void
 AddSizeOfIncludingThis
 (
 nsWindowSizes
