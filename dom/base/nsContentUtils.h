@@ -1738,8 +1738,6 @@ IsCustomElementName
 nsAtom
 *
 aName
-uint32_t
-aNameSpaceID
 )
 ;
 static
