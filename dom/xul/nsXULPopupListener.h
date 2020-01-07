@@ -98,9 +98,6 @@ dom
 MouseEvent
 *
 aEvent
-nsIContent
-*
-aTargetContent
 )
 ;
 virtual
@@ -117,9 +114,9 @@ NS_CONTEXT_MENU_IS_MOUSEUP
 nsresult
 FireFocusOnTargetContent
 (
-nsIDOMNode
+nsIContent
 *
-aTargetNode
+aTargetContent
 bool
 aIsTouch
 )
