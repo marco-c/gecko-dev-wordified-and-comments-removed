@@ -6643,7 +6643,7 @@ Ident
 Dec
 String
 EOL
-BasePrefix
+ZeroDigit
 Other
 LastCharKind
 =
@@ -6820,7 +6820,7 @@ T_COMMA
 _______
 _______
 _______
-BasePrefix
+ZeroDigit
 Dec
 Dec
 Dec
@@ -8206,7 +8206,7 @@ if
 c1kind
 =
 =
-BasePrefix
+ZeroDigit
 )
 {
 tp
