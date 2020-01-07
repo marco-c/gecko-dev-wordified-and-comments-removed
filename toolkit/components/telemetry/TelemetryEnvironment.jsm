@@ -2779,6 +2779,7 @@ this
 .
 _updateAddons
 (
+true
 )
 ;
 if
@@ -3279,6 +3280,7 @@ _pendingTask
 async
 _updateAddons
 (
+atStartup
 )
 {
 this
@@ -3344,6 +3346,7 @@ this
 .
 _getActivePlugins
 (
+atStartup
 )
 activeGMPlugins
 :
@@ -3352,6 +3355,7 @@ this
 .
 _getActiveGMPlugins
 (
+atStartup
 )
 activeExperiment
 :
@@ -3915,10 +3919,14 @@ activeTheme
 }
 _getActivePlugins
 (
+atStartup
 )
 {
 if
 (
+atStartup
+|
+|
 !
 Services
 .
@@ -4198,10 +4206,14 @@ activePlugins
 async
 _getActiveGMPlugins
 (
+atStartup
 )
 {
 if
 (
+atStartup
+|
+|
 !
 Services
 .
