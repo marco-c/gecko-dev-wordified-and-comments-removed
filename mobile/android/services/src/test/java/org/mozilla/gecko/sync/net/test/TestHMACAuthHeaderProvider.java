@@ -210,7 +210,6 @@ key
 throws
 InvalidKeyException
 NoSuchAlgorithmException
-UnsupportedEncodingException
 {
 return
 HMACAuthHeaderProvider
