@@ -886,6 +886,7 @@ objdir
 environment
 topsrcdir
 topobjdir
+dry_run
 )
 :
         
@@ -959,6 +960,9 @@ name
 capture_diff
 =
 True
+dry_run
+=
+dry_run
 )
         
 self
@@ -2484,6 +2488,9 @@ self
 environment
 .
 topobjdir
+self
+.
+dry_run
 )
         
 return
