@@ -4169,7 +4169,7 @@ if
 (
 aViolationEventInit
 .
-mLineNumber
+mColumnNumber
 !
 =
 0
