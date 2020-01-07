@@ -2072,6 +2072,16 @@ AB_CD
 (
 MOZ_UI_LOCALE
 )
+include
+(
+topsrcdir
+)
+/
+config
+/
+AB_rCD
+.
+mk
 #
 Many
 locales
