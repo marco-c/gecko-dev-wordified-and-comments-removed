@@ -643,6 +643,7 @@ return
 payload_
 ;
 }
+constexpr
 bool
 aliases
 (
@@ -765,6 +766,7 @@ return
 value_
 ;
 }
+constexpr
 bool
 aliases
 (

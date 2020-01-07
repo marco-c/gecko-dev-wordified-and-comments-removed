@@ -71,7 +71,7 @@ ReturnReg
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 static
