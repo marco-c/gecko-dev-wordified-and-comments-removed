@@ -292,6 +292,7 @@ def
 backfill_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
@@ -564,6 +565,7 @@ push_decision_task_id
 find_decision_task
 (
 push_params
+graph_config
 )
         
 except

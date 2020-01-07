@@ -1239,6 +1239,7 @@ def
 release_promotion_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
@@ -1592,6 +1593,7 @@ or
 find_hg_revision_pushlog_id
 (
 parameters
+graph_config
 revision
 )
         
@@ -1601,6 +1603,7 @@ previous_graph_ids
 find_decision_task
 (
 parameters
+graph_config
 )
 ]
     

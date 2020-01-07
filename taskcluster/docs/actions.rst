@@ -490,6 +490,7 @@ def
 hello_world_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
@@ -1095,6 +1096,7 @@ def
 retrigger_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
@@ -1625,6 +1627,7 @@ def
 retrigger_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
@@ -1969,6 +1972,7 @@ def
 try_only_action
 (
 parameters
+graph_config
 input
 task_group_id
 task_id

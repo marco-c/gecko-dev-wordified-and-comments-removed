@@ -176,6 +176,7 @@ def
 add_all_talos
 (
 parameters
+graph_config
 input
 task_group_id
 task_id
@@ -189,7 +190,9 @@ label_to_taskid
 =
 fetch_graph_and_labels
 (
+        
 parameters
+graph_config
 )
     
 times
