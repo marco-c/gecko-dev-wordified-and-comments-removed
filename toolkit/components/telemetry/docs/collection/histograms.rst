@@ -3004,7 +3004,7 @@ limited
 by
 their
 internal
-represenation
+representation
 .
 Telemetry
 Histograms
