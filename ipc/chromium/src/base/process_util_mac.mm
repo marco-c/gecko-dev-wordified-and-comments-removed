@@ -285,7 +285,7 @@ BuildEnvironmentArray
 (
 options
 .
-env_map
+environ
 )
 ;
 posix_spawn_file_actions_t

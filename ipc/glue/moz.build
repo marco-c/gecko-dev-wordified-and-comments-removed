@@ -172,11 +172,6 @@ CrossProcessSemaphore
 h
 '
 '
-EnvironmentMap
-.
-h
-'
-'
 FileDescriptor
 .
 h
