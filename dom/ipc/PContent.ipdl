@@ -4107,6 +4107,16 @@ PPresentation
 (
 )
 ;
+async
+CreateAudioIPCConnection
+(
+)
+returns
+(
+FileDescriptor
+fd
+)
+;
 sync
 PURLClassifier
 (
