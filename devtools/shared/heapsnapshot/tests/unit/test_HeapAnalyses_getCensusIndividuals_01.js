@@ -64,8 +64,8 @@ MAX_INDIVIDUALS
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -84,7 +84,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -108,7 +108,7 @@ snapshot
 const
 dominatorTreeId
 =
-yield
+await
 client
 .
 computeDominatorTree
@@ -133,7 +133,7 @@ const
 report
 }
 =
-yield
+await
 client
 .
 takeCensus
@@ -167,11 +167,10 @@ nodesWithLeafIndicesFound
 =
 0
 ;
-yield
-*
+await
 (
+async
 function
-*
 assertCanGetIndividuals
 (
 censusNode
@@ -195,7 +194,7 @@ nodesWithLeafIndicesFound
 const
 response
 =
-yield
+await
 client
 .
 getCensusIndividuals
@@ -455,8 +454,7 @@ censusNode
 children
 )
 {
-yield
-*
+await
 assertCanGetIndividuals
 (
 child

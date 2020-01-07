@@ -488,23 +488,6 @@ doEvalWithBinding
 doEvalWithBindingFrame
 forceLexicalInit
 ]
-.
-map
-(
-t
-=
->
-{
-return
-Task
-.
-async
-(
-t
-)
-;
-}
-)
 ;
 runTests
 (
@@ -513,8 +496,8 @@ testEnd
 )
 ;
 }
+async
 function
-*
 doSimpleEval
 (
 )
@@ -535,7 +518,7 @@ eval
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -598,8 +581,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doWindowEval
 (
 )
@@ -618,7 +601,7 @@ document
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -697,8 +680,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doEvalWithException
 (
 )
@@ -716,7 +699,7 @@ exception
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -793,8 +776,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doEvalWithHelper
 (
 )
@@ -812,7 +795,7 @@ helper
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -877,8 +860,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doEvalString
 (
 )
@@ -886,7 +869,7 @@ doEvalString
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -929,8 +912,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doEvalLongString
 (
 )
@@ -938,7 +921,7 @@ doEvalLongString
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1015,8 +998,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doEvalWithBinding
 (
 )
@@ -1024,7 +1007,7 @@ doEvalWithBinding
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1060,7 +1043,7 @@ bindObjectActor
 let
 bindObjectSame
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1105,7 +1088,7 @@ selectedObjectActor
 let
 selectedObjectSame
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1137,8 +1120,8 @@ nextTest
 )
 ;
 }
+async
 function
-*
 doEvalWithBindingFrame
 (
 )
@@ -1172,7 +1155,7 @@ bar
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1218,7 +1201,7 @@ response
 let
 bindObjectGlobal
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1288,7 +1271,7 @@ bindObjectActor
 let
 selectedObjectGlobal
 =
-yield
+await
 evaluateJS
 (
 "
@@ -1359,8 +1342,8 @@ nextTest
 (
 )
 }
+async
 function
-*
 forceLexicalInit
 (
 )
@@ -1623,7 +1606,7 @@ testData
 let
 response
 =
-yield
+await
 evaluateJS
 (
 data
@@ -1675,7 +1658,7 @@ vars
 let
 response2
 =
-yield
+await
 evaluateJS
 (
 varName

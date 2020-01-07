@@ -200,12 +200,8 @@ rawPacket
 var
 test_helper
 =
-Task
-.
 async
-(
 function
-*
 (
 payload
 )
@@ -283,7 +279,7 @@ open
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -415,5 +411,4 @@ closedDeferred
 promise
 ;
 }
-)
 ;

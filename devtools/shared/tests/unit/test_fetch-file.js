@@ -92,8 +92,8 @@ Uint8Array
 ;
 add_task
 (
+async
 function
-*
 test_arrow_urls
 (
 )
@@ -136,7 +136,7 @@ file
 +
 path
 ;
-yield
+await
 OS
 .
 File
@@ -161,7 +161,7 @@ let
 content
 }
 =
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -189,8 +189,8 @@ read
 ;
 add_task
 (
+async
 function
-*
 test_empty
 (
 )
@@ -209,7 +209,7 @@ let
 content
 }
 =
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -245,8 +245,8 @@ correctly
 ;
 add_task
 (
+async
 function
-*
 test_encoding_utf8
 (
 )
@@ -260,7 +260,7 @@ createTemporaryFile
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -276,7 +276,7 @@ let
 content
 }
 =
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -307,8 +307,8 @@ read
 ;
 add_task
 (
+async
 function
-*
 test_encoding_iso_8859_1
 (
 )
@@ -322,7 +322,7 @@ createTemporaryFile
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -338,7 +338,7 @@ let
 content
 }
 =
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -370,13 +370,13 @@ read
 ;
 add_task
 (
+async
 function
-*
 test_missing
 (
 )
 {
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -457,8 +457,8 @@ found
 ;
 add_task
 (
+async
 function
-*
 test_schemeless_files
 (
 )
@@ -472,7 +472,7 @@ createTemporaryFile
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -497,7 +497,7 @@ let
 content
 }
 =
-yield
+await
 DevToolsUtils
 .
 fetch

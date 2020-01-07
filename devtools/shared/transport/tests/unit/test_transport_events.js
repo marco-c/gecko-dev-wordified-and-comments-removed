@@ -14,12 +14,12 @@ initTestDebuggerServer
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 test_transport_events
 (
 "
@@ -28,7 +28,7 @@ socket
 socket_transport
 )
 ;
-yield
+await
 test_transport_events
 (
 "
@@ -51,8 +51,8 @@ run_next_test
 )
 ;
 }
+async
 function
-*
 test_transport_events
 (
 name
@@ -91,7 +91,7 @@ length
 let
 transport
 =
-yield
+await
 transportFactory
 (
 )
@@ -185,7 +185,7 @@ ready
 (
 )
 ;
-yield
+await
 rootReceived
 ;
 let
@@ -350,10 +350,10 @@ echo
 }
 )
 ;
-yield
+await
 echoSent
 ;
-yield
+await
 echoReceived
 ;
 let
@@ -447,10 +447,10 @@ close
 (
 )
 ;
-yield
+await
 clientClosed
 ;
-yield
+await
 serverClosed
 ;
 info

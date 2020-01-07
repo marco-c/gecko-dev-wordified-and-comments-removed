@@ -296,8 +296,8 @@ connection
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -358,7 +358,7 @@ webSocket
 =
 true
 ;
-yield
+await
 listener
 .
 open
@@ -381,7 +381,7 @@ socket
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -457,14 +457,14 @@ closed
 onUnexpectedClose
 )
 ;
-yield
+await
 client
 .
 connect
 (
 )
 ;
-yield
+await
 client
 .
 listTabs
@@ -492,7 +492,7 @@ message
 let
 reply
 =
-yield
+await
 client
 .
 request

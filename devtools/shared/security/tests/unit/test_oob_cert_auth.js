@@ -82,8 +82,8 @@ listTabs
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -96,8 +96,8 @@ initTestDebuggerServer
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -117,7 +117,7 @@ sockets
 let
 serverCert
 =
-yield
+await
 cert
 .
 local
@@ -225,7 +225,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -284,7 +284,7 @@ oob
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -371,7 +371,7 @@ closed
 onUnexpectedClose
 )
 ;
-yield
+await
 connectClient
 (
 client
@@ -387,7 +387,7 @@ secrets
 let
 reply
 =
-yield
+await
 client
 .
 request
@@ -460,8 +460,8 @@ sockets
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -577,7 +577,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -600,7 +600,7 @@ socket
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -687,7 +687,7 @@ connect
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -701,7 +701,7 @@ secrets
 ;
 try
 {
-yield
+await
 client
 .
 request
@@ -780,8 +780,8 @@ succeeded
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -801,7 +801,7 @@ sockets
 let
 serverCert
 =
-yield
+await
 cert
 .
 local
@@ -969,7 +969,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -991,7 +991,7 @@ socket
 ;
 try
 {
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -1086,8 +1086,8 @@ succeeded
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1107,7 +1107,7 @@ sockets
 let
 serverCert
 =
-yield
+await
 cert
 .
 local
@@ -1275,7 +1275,7 @@ authenticator
 =
 serverAuth
 ;
-yield
+await
 listener
 .
 open
@@ -1297,7 +1297,7 @@ socket
 ;
 try
 {
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -1392,8 +1392,8 @@ succeeded
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -76,8 +76,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -96,7 +96,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -107,7 +107,7 @@ snapshotFilePath
 const
 dominatorTreeId
 =
-yield
+await
 client
 .
 computeDominatorTree
@@ -118,7 +118,7 @@ snapshotFilePath
 const
 partialTree
 =
-yield
+await
 client
 .
 getDominatorTree
@@ -151,7 +151,7 @@ nodes
 const
 response
 =
-yield
+await
 client
 .
 getImmediatelyDominated
@@ -317,7 +317,7 @@ edges
 const
 secondResponse
 =
-yield
+await
 client
 .
 getImmediatelyDominated

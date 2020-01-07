@@ -274,12 +274,8 @@ FRAME_URL
 let
 startTest
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -291,7 +287,7 @@ load
 startTest
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -356,7 +352,7 @@ worker
 let
 tab1
 =
-yield
+await
 addTab
 (
 FRAME_URL
@@ -365,7 +361,7 @@ FRAME_URL
 let
 swr
 =
-yield
+await
 withActiveServiceWorker
 (
 tab1
@@ -376,7 +372,7 @@ contentWindow
 SERVICE_WORKER_URL
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -507,13 +503,13 @@ URL
 let
 tab2
 =
-yield
+await
 addTab
 (
 FRAME_URL
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -583,7 +579,7 @@ resolve
 }
 )
 ;
-yield
+await
 swr
 .
 unregister
@@ -597,7 +593,6 @@ finish
 )
 ;
 }
-)
 ;
 addEventListener
 (

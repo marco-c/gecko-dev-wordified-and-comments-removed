@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -25,7 +25,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 readHeapSnapshot
@@ -82,7 +82,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 readHeapSnapshot
@@ -143,7 +143,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -170,7 +170,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 takeCensus

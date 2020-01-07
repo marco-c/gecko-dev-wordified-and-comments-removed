@@ -56,8 +56,8 @@ run_next_test
 )
 ;
 }
+async
 function
-*
 test_socket_conn
 (
 )
@@ -250,7 +250,7 @@ unicodeString
 let
 transport
 =
-yield
+await
 DebuggerClient
 .
 socketConnect
@@ -421,8 +421,8 @@ closedDeferred
 promise
 ;
 }
+async
 function
-*
 test_socket_shutdown
 (
 )
@@ -519,7 +519,7 @@ toTimeString
 ;
 try
 {
-yield
+await
 DebuggerClient
 .
 socketConnect

@@ -76,8 +76,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -96,7 +96,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -120,7 +120,7 @@ snapshot
 let
 dominatorTreeId
 =
-yield
+await
 client
 .
 computeDominatorTree
@@ -141,7 +141,7 @@ tree
 "
 )
 ;
-yield
+await
 client
 .
 deleteHeapSnapshot
@@ -168,7 +168,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 getDominatorTree
@@ -213,7 +213,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 computeDominatorTree
@@ -253,7 +253,7 @@ false
 ;
 try
 {
-yield
+await
 client
 .
 takeCensus

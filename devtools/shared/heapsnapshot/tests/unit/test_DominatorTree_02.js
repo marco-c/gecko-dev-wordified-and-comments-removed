@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -103,7 +103,7 @@ assertionCount
 ;
 }
 ;
-yield
+await
 waitForDone
 (
 worker

@@ -73,15 +73,15 @@ promise
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 const
 success
 =
-yield
+await
 testResolve
 (
 )
@@ -99,7 +99,7 @@ error
 ;
 try
 {
-yield
+await
 testReject
 (
 )

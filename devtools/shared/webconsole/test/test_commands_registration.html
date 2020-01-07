@@ -197,8 +197,8 @@ resolve
 )
 ;
 }
+async
 function
-*
 evaluateJSAndCheckResult
 (
 input
@@ -208,7 +208,7 @@ result
 let
 response
 =
-yield
+await
 evaluateJS
 (
 input
@@ -268,12 +268,8 @@ testEnd
 tests
 =
 [
-Task
-.
 async
-(
 function
-*
 registerNewCommand
 (
 )
@@ -345,7 +341,7 @@ bar
 let
 response
 =
-yield
+await
 evaluateJS
 (
 command
@@ -397,13 +393,8 @@ nextTest
 )
 ;
 }
-)
-Task
-.
 async
-(
 function
-*
 wrapCommand
 (
 )
@@ -511,7 +502,7 @@ replaced
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -546,7 +537,7 @@ bang
 ;
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -633,13 +624,8 @@ nextTest
 )
 ;
 }
-)
-Task
-.
 async
-(
 function
-*
 unregisterCommand
 (
 )
@@ -656,7 +642,7 @@ setFoo
 let
 response
 =
-yield
+await
 evaluateJS
 (
 "
@@ -703,13 +689,8 @@ nextTest
 )
 ;
 }
-)
-Task
-.
 async
-(
 function
-*
 registerAccessor
 (
 )
@@ -780,7 +761,7 @@ o_
 let
 response
 =
-yield
+await
 evaluateJS
 (
 command
@@ -875,13 +856,8 @@ nextTest
 )
 ;
 }
-)
-Task
-.
 async
-(
 function
-*
 unregisterAfterOverridingTwice
 (
 )
@@ -918,7 +894,7 @@ override
 "
 )
 ;
-yield
+await
 evaluateJSAndCheckResult
 (
 "
@@ -1001,7 +977,7 @@ override
 "
 )
 ;
-yield
+await
 evaluateJSAndCheckResult
 (
 "
@@ -1018,7 +994,7 @@ command
 "
 )
 ;
-yield
+await
 evaluateJSAndCheckResult
 (
 "
@@ -1066,7 +1042,7 @@ command
 "
 )
 ;
-yield
+await
 evaluateJSAndCheckResult
 (
 "
@@ -1099,7 +1075,6 @@ nextTest
 )
 ;
 }
-)
 ]
 ;
 function

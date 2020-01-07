@@ -127,8 +127,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -154,7 +154,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -162,7 +162,7 @@ readHeapSnapshot
 firstSnapshotFilePath
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -189,7 +189,7 @@ const
 delta
 }
 =
-yield
+await
 client
 .
 takeCensusDiff
@@ -210,7 +210,7 @@ delta
 deltaTreeNode
 }
 =
-yield
+await
 client
 .
 takeCensusDiff

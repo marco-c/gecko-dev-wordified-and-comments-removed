@@ -44,8 +44,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -117,7 +117,7 @@ WORKER_URL
 ;
 try
 {
-yield
+await
 worker
 .
 performTask
@@ -176,7 +176,7 @@ worker
 }
 try
 {
-yield
+await
 worker
 .
 performTask
@@ -238,7 +238,7 @@ destroy
 ;
 try
 {
-yield
+await
 worker
 .
 performTask

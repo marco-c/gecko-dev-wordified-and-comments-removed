@@ -87,12 +87,12 @@ DURATION
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 testWorker
 (
 "
@@ -126,7 +126,7 @@ js
 )
 )
 ;
-yield
+await
 testWorker
 (
 "
@@ -153,8 +153,8 @@ worker
 }
 )
 ;
+async
 function
-*
 testWorker
 (
 context
@@ -183,7 +183,7 @@ WORKER_URL
 let
 results
 =
-yield
+await
 worker
 .
 performTask
@@ -242,7 +242,7 @@ x
 is
 (
 (
-yield
+await
 fn
 (
 5

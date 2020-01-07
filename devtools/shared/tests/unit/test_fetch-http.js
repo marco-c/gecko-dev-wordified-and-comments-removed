@@ -245,13 +245,13 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test_normal
 (
 )
 {
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -300,8 +300,8 @@ correct
 ;
 add_task
 (
+async
 function
-*
 test_caching
 (
 )
@@ -322,7 +322,7 @@ request
 "
 )
 ;
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -375,7 +375,7 @@ response
 "
 )
 ;
-yield
+await
 DevToolsUtils
 .
 fetch
@@ -434,7 +434,7 @@ loadFromCache
 false
 }
 ;
-yield
+await
 DevToolsUtils
 .
 fetch

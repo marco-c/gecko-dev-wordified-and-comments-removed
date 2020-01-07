@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -25,7 +25,7 @@ saveNewHeapSnapshot
 (
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot

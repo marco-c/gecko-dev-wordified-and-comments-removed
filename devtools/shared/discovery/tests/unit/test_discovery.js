@@ -419,8 +419,8 @@ device
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -528,7 +528,7 @@ penguins
 ]
 )
 ;
-yield
+await
 scanForChange
 (
 "
@@ -586,7 +586,7 @@ true
 }
 )
 ;
-yield
+await
 scanForChange
 (
 "
@@ -714,7 +714,7 @@ devtools
 "
 )
 ;
-yield
+await
 scanForChange
 (
 "
@@ -739,7 +739,7 @@ false
 }
 )
 ;
-yield
+await
 scanForChange
 (
 "
@@ -750,7 +750,7 @@ updated
 "
 )
 ;
-yield
+await
 scanForNoChange
 (
 "
@@ -775,7 +775,7 @@ penguins
 "
 )
 ;
-yield
+await
 scanForChange
 (
 "
