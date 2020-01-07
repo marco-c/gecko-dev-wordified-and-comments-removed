@@ -7138,13 +7138,11 @@ xpt_modules
 :
             
 sources
+directories
 =
 modules
 [
 module
-]
-[
-0
 ]
             
 deps
@@ -7152,6 +7150,13 @@ deps
 sorted
 (
 sources
+)
+            
+directories
+=
+sorted
+(
+directories
 )
             
 mk
@@ -7174,6 +7179,30 @@ module
 join
 (
 deps
+)
+)
+)
+            
+mk
+.
+add_statement
+(
+'
+%
+s_dirs
+=
+%
+s
+'
+%
+(
+module
+'
+'
+.
+join
+(
+directories
 )
 )
 )

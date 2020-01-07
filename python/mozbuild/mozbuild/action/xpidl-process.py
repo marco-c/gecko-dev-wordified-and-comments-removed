@@ -169,6 +169,7 @@ path
 .
 join
 (
+topsrcdir
 p
 idl
 )

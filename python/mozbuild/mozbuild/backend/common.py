@@ -234,6 +234,17 @@ idl
 source_path
 )
         
+dirname
+=
+mozpath
+.
+dirname
+(
+idl
+.
+source_path
+)
+        
 root
 =
 mozpath
@@ -358,6 +369,9 @@ module
 set
 (
 )
+set
+(
+)
 )
 )
         
@@ -374,6 +388,16 @@ entry
 root
 '
 ]
+)
+        
+t
+[
+1
+]
+.
+add
+(
+dirname
 )
 class
 BinariesCollection
