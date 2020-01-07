@@ -950,7 +950,7 @@ NS_SUCCEEDED
 profileDir
 -
 >
-GetNativePath
+GetPersistentDescriptor
 (
 path
 )

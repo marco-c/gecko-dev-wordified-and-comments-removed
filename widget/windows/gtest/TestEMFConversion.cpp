@@ -178,7 +178,7 @@ file
 NS_ERROR_FAILURE
 )
 ;
-nsAutoCString
+nsAutoString
 path
 ;
 nsresult
@@ -187,7 +187,7 @@ rv
 file
 -
 >
-GetNativePath
+GetPath
 (
 path
 )
@@ -202,10 +202,7 @@ rv
 {
 aPath
 =
-NS_ConvertUTF8toUTF16
-(
 path
-)
 ;
 }
 return
