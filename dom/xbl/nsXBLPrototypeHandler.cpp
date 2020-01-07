@@ -3238,14 +3238,7 @@ false
 return
 ModifiersMatchMask
 (
-static_cast
-<
-nsIDOMKeyEvent
-*
->
-(
 aKeyEvent
-)
 aIgnoreModifierState
 )
 ;

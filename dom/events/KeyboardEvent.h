@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIDOMKeyEvent
-.
-h
-"
-#
-include
-"
 nsRFPService
 .
 h
@@ -60,8 +53,6 @@ KeyboardEvent
 :
 public
 UIEvent
-public
-nsIDOMKeyEvent
 {
 public
 :
@@ -79,8 +70,6 @@ aEvent
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMKEYEVENT
-NS_FORWARD_TO_UIEVENT
 virtual
 KeyboardEvent
 *

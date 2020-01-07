@@ -151,11 +151,6 @@ nsIDOMFocusEvent
 idl
 '
 '
-nsIDOMKeyEvent
-.
-idl
-'
-'
 nsIDOMMouseEvent
 .
 idl

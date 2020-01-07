@@ -99,7 +99,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMKeyEvent
+nsIDOMEvent
 ;
 interface
 mozIDOMWindow
@@ -3028,7 +3028,7 @@ startComposition
 optional
 ]
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional
@@ -3720,7 +3720,7 @@ flushPendingComposition
 optional
 ]
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional
@@ -3819,7 +3819,7 @@ commitComposition
 optional
 ]
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional
@@ -3977,7 +3977,7 @@ aCommitString
 optional
 ]
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional
@@ -4121,7 +4121,7 @@ cancelComposition
 optional
 ]
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional
@@ -5063,7 +5063,7 @@ long
 keydown
 (
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional
@@ -5100,7 +5100,7 @@ boolean
 keyup
 (
 in
-nsIDOMKeyEvent
+nsIDOMEvent
 aKeyboardEvent
 [
 optional

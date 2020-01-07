@@ -64,6 +64,13 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+KeyboardEvent
+;
+}
 class
 TextInputProcessor
 final
@@ -304,7 +311,10 @@ const
 nsresult
 PrepareKeyboardEventForComposition
 (
-nsIDOMKeyEvent
+dom
+:
+:
+KeyboardEvent
 *
 aDOMKeyEvent
 uint32_t
