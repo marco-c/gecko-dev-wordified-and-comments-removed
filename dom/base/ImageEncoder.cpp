@@ -412,7 +412,7 @@ NS_IsMainThread
 )
 &
 &
-GetCurrentThreadWorkerPrivate
+IsCurrentThreadRunningWorker
 (
 )
 )
