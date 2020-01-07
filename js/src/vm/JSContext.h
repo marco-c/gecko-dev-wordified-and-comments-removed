@@ -2153,6 +2153,15 @@ ThreadLocalData
 <
 size_t
 >
+isTouchingGrayThings
+;
+js
+:
+:
+ThreadLocalData
+<
+size_t
+>
 noGCOrAllocationCheck
 ;
 js

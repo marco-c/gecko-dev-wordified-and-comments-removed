@@ -13209,6 +13209,9 @@ isGCCompacting
 )
 )
 ;
+AutoTouchingGrayThings
+tgt
+;
 gcstats
 :
 :
@@ -24501,6 +24504,9 @@ src
 )
 )
 ;
+AutoTouchingGrayThings
+tgt
+;
 unsigned
 slot
 =
@@ -24995,6 +25001,9 @@ JSObject
 wrapper
 )
 {
+AutoTouchingGrayThings
+tgt
+;
 if
 (
 !
@@ -45048,17 +45057,6 @@ Cell
 cell
 )
 {
-MOZ_ASSERT
-(
-!
-JS
-:
-:
-CurrentThreadIsHeapCollecting
-(
-)
-)
-;
 MOZ_ASSERT
 (
 !

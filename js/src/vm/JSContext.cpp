@@ -6315,6 +6315,10 @@ gcHelperStateThread
 (
 false
 )
+isTouchingGrayThings
+(
+false
+)
 noGCOrAllocationCheck
 (
 0
