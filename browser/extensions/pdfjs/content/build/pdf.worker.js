@@ -610,14 +610,14 @@ pdfjsVersion
 .
 0
 .
-661
+673
 '
 ;
 var
 pdfjsBuild
 =
 '
-42922c9a
+31012570
 '
 ;
 var
@@ -689,7 +689,7 @@ _pdf_manager
 =
 __w_pdfjs_require__
 (
-7
+8
 )
 ;
 var
@@ -697,7 +697,7 @@ _is_node
 =
 __w_pdfjs_require__
 (
-45
+46
 )
 ;
 var
@@ -713,7 +713,7 @@ _message_handler
 =
 __w_pdfjs_require__
 (
-46
+47
 )
 ;
 var
@@ -721,7 +721,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 function
@@ -1644,7 +1644,7 @@ workerVersion
 .
 0
 .
-661
+673
 '
 ;
 if
@@ -4386,6 +4386,10 @@ setVerbosityLevel
 =
 exports
 .
+URL
+=
+exports
+.
 ReadableStream
 =
 exports
@@ -4617,6 +4621,14 @@ _streams_polyfill
 __w_pdfjs_require__
 (
 5
+)
+;
+var
+_url_polyfill
+=
+__w_pdfjs_require__
+(
+7
 )
 ;
 var
@@ -5497,6 +5509,8 @@ var
 base
 =
 new
+_url_polyfill
+.
 URL
 (
 baseUrl
@@ -5539,6 +5553,8 @@ var
 other
 =
 new
+_url_polyfill
+.
 URL
 (
 otherUrl
@@ -5645,6 +5661,8 @@ absoluteUrl
 baseUrl
 ?
 new
+_url_polyfill
+.
 URL
 (
 url
@@ -5652,6 +5670,8 @@ baseUrl
 )
 :
 new
+_url_polyfill
+.
 URL
 (
 url
@@ -9533,6 +9553,8 @@ if
 forceDataSchema
 &
 &
+_url_polyfill
+.
 URL
 .
 createObjectURL
@@ -9548,6 +9570,8 @@ contentType
 )
 ;
 return
+_url_polyfill
+.
 URL
 .
 createObjectURL
@@ -10054,6 +10078,14 @@ ReadableStream
 _streams_polyfill
 .
 ReadableStream
+;
+exports
+.
+URL
+=
+_url_polyfill
+.
+URL
 ;
 exports
 .
@@ -31137,6 +31169,29 @@ use
 strict
 "
 ;
+{
+exports
+.
+URL
+=
+URL
+;
+}
+}
+)
+(
+function
+(
+module
+exports
+__w_pdfjs_require__
+)
+{
+"
+use
+strict
+"
+;
 Object
 .
 defineProperty
@@ -31175,7 +31230,7 @@ _chunked_stream
 =
 __w_pdfjs_require__
 (
-8
+9
 )
 ;
 var
@@ -31183,7 +31238,7 @@ _document
 =
 __w_pdfjs_require__
 (
-9
+10
 )
 ;
 var
@@ -31191,7 +31246,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -35445,7 +35500,7 @@ _obj
 =
 __w_pdfjs_require__
 (
-10
+11
 )
 ;
 var
@@ -35453,7 +35508,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -35469,7 +35524,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -35477,7 +35532,7 @@ _annotation
 =
 __w_pdfjs_require__
 (
-25
+26
 )
 ;
 var
@@ -35485,7 +35540,7 @@ _crypto
 =
 __w_pdfjs_require__
 (
-23
+24
 )
 ;
 var
@@ -35493,7 +35548,7 @@ _parser
 =
 __w_pdfjs_require__
 (
-12
+13
 )
 ;
 var
@@ -35501,7 +35556,7 @@ _operator_list
 =
 __w_pdfjs_require__
 (
-26
+27
 )
 ;
 var
@@ -35509,7 +35564,7 @@ _evaluator
 =
 __w_pdfjs_require__
 (
-27
+28
 )
 ;
 var
@@ -35517,7 +35572,7 @@ _function
 =
 __w_pdfjs_require__
 (
-41
+42
 )
 ;
 var
@@ -38973,7 +39028,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -38981,7 +39036,7 @@ _parser
 =
 __w_pdfjs_require__
 (
-12
+13
 )
 ;
 var
@@ -38989,7 +39044,7 @@ _chunked_stream
 =
 __w_pdfjs_require__
 (
-8
+9
 )
 ;
 var
@@ -38997,7 +39052,7 @@ _crypto
 =
 __w_pdfjs_require__
 (
-23
+24
 )
 ;
 var
@@ -39005,7 +39060,7 @@ _colorspace
 =
 __w_pdfjs_require__
 (
-24
+25
 )
 ;
 var
@@ -52686,7 +52741,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -52702,7 +52757,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -52710,7 +52765,7 @@ _ccitt_stream
 =
 __w_pdfjs_require__
 (
-14
+15
 )
 ;
 var
@@ -52718,7 +52773,7 @@ _jbig2_stream
 =
 __w_pdfjs_require__
 (
-16
+17
 )
 ;
 var
@@ -52726,7 +52781,7 @@ _jpeg_stream
 =
 __w_pdfjs_require__
 (
-19
+20
 )
 ;
 var
@@ -52734,7 +52789,7 @@ _jpx_stream
 =
 __w_pdfjs_require__
 (
-21
+22
 )
 ;
 const
@@ -59820,7 +59875,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -67560,7 +67615,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -67568,7 +67623,7 @@ _ccitt
 =
 __w_pdfjs_require__
 (
-15
+16
 )
 ;
 var
@@ -67576,7 +67631,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -75723,7 +75778,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -75731,7 +75786,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -75739,7 +75794,7 @@ _jbig
 =
 __w_pdfjs_require__
 (
-17
+18
 )
 ;
 var
@@ -76131,7 +76186,7 @@ _arithmetic_decoder
 =
 __w_pdfjs_require__
 (
-18
+19
 )
 ;
 var
@@ -76139,7 +76194,7 @@ _ccitt
 =
 __w_pdfjs_require__
 (
-15
+16
 )
 ;
 let
@@ -90826,7 +90881,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -90834,7 +90889,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -90842,7 +90897,7 @@ _jpg
 =
 __w_pdfjs_require__
 (
-20
+21
 )
 ;
 let
@@ -99234,7 +99289,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -99242,7 +99297,7 @@ _jpx
 =
 __w_pdfjs_require__
 (
-22
+23
 )
 ;
 var
@@ -99718,7 +99773,7 @@ _arithmetic_decoder
 =
 __w_pdfjs_require__
 (
-18
+19
 )
 ;
 let
@@ -114024,7 +114079,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -114032,7 +114087,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -126734,7 +126789,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -134853,7 +134908,7 @@ _obj
 =
 __w_pdfjs_require__
 (
-10
+11
 )
 ;
 var
@@ -134861,7 +134916,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -134869,7 +134924,7 @@ _colorspace
 =
 __w_pdfjs_require__
 (
-24
+25
 )
 ;
 var
@@ -134877,7 +134932,7 @@ _operator_list
 =
 __w_pdfjs_require__
 (
-26
+27
 )
 ;
 var
@@ -134885,7 +134940,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 class
@@ -143956,7 +144011,7 @@ _cmap
 =
 __w_pdfjs_require__
 (
-28
+29
 )
 ;
 var
@@ -143964,7 +144019,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -143972,7 +144027,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -143980,7 +144035,7 @@ _fonts
 =
 __w_pdfjs_require__
 (
-29
+30
 )
 ;
 var
@@ -143988,7 +144043,7 @@ _encodings
 =
 __w_pdfjs_require__
 (
-32
+33
 )
 ;
 var
@@ -143996,7 +144051,7 @@ _unicode
 =
 __w_pdfjs_require__
 (
-35
+36
 )
 ;
 var
@@ -144004,7 +144059,7 @@ _standard_fonts
 =
 __w_pdfjs_require__
 (
-34
+35
 )
 ;
 var
@@ -144012,7 +144067,7 @@ _pattern
 =
 __w_pdfjs_require__
 (
-38
+39
 )
 ;
 var
@@ -144020,7 +144075,7 @@ _parser
 =
 __w_pdfjs_require__
 (
-12
+13
 )
 ;
 var
@@ -144028,7 +144083,7 @@ _bidi
 =
 __w_pdfjs_require__
 (
-39
+40
 )
 ;
 var
@@ -144036,7 +144091,7 @@ _colorspace
 =
 __w_pdfjs_require__
 (
-24
+25
 )
 ;
 var
@@ -144044,7 +144099,7 @@ _glyphlist
 =
 __w_pdfjs_require__
 (
-33
+34
 )
 ;
 var
@@ -144052,7 +144107,7 @@ _metrics
 =
 __w_pdfjs_require__
 (
-40
+41
 )
 ;
 var
@@ -144060,7 +144115,7 @@ _function
 =
 __w_pdfjs_require__
 (
-41
+42
 )
 ;
 var
@@ -144068,7 +144123,7 @@ _jpeg_stream
 =
 __w_pdfjs_require__
 (
-19
+20
 )
 ;
 var
@@ -144076,7 +144131,7 @@ _murmurhash
 =
 __w_pdfjs_require__
 (
-43
+44
 )
 ;
 var
@@ -144084,7 +144139,7 @@ _operator_list
 =
 __w_pdfjs_require__
 (
-26
+27
 )
 ;
 var
@@ -144092,7 +144147,7 @@ _image
 =
 __w_pdfjs_require__
 (
-44
+45
 )
 ;
 var
@@ -163272,7 +163327,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -163280,7 +163335,7 @@ _parser
 =
 __w_pdfjs_require__
 (
-12
+13
 )
 ;
 var
@@ -163288,7 +163343,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -169198,7 +169253,7 @@ _cff_parser
 =
 __w_pdfjs_require__
 (
-30
+31
 )
 ;
 var
@@ -169206,7 +169261,7 @@ _glyphlist
 =
 __w_pdfjs_require__
 (
-33
+34
 )
 ;
 var
@@ -169214,7 +169269,7 @@ _encodings
 =
 __w_pdfjs_require__
 (
-32
+33
 )
 ;
 var
@@ -169222,7 +169277,7 @@ _standard_fonts
 =
 __w_pdfjs_require__
 (
-34
+35
 )
 ;
 var
@@ -169230,7 +169285,7 @@ _unicode
 =
 __w_pdfjs_require__
 (
-35
+36
 )
 ;
 var
@@ -169238,7 +169293,7 @@ _font_renderer
 =
 __w_pdfjs_require__
 (
-36
+37
 )
 ;
 var
@@ -169246,7 +169301,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -169254,7 +169309,7 @@ _type1_parser
 =
 __w_pdfjs_require__
 (
-37
+38
 )
 ;
 var
@@ -190375,7 +190430,7 @@ _charsets
 =
 __w_pdfjs_require__
 (
-31
+32
 )
 ;
 var
@@ -190383,7 +190438,7 @@ _encodings
 =
 __w_pdfjs_require__
 (
-32
+33
 )
 ;
 var
@@ -278340,7 +278395,7 @@ _cff_parser
 =
 __w_pdfjs_require__
 (
-30
+31
 )
 ;
 var
@@ -278348,7 +278403,7 @@ _glyphlist
 =
 __w_pdfjs_require__
 (
-33
+34
 )
 ;
 var
@@ -278356,7 +278411,7 @@ _encodings
 =
 __w_pdfjs_require__
 (
-32
+33
 )
 ;
 var
@@ -278364,7 +278419,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -284283,7 +284338,7 @@ _encodings
 =
 __w_pdfjs_require__
 (
-32
+33
 )
 ;
 var
@@ -284291,7 +284346,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -288123,7 +288178,7 @@ _colorspace
 =
 __w_pdfjs_require__
 (
-24
+25
 )
 ;
 var
@@ -288131,7 +288186,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -325626,7 +325681,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -325634,7 +325689,7 @@ _ps_parser
 =
 __w_pdfjs_require__
 (
-42
+43
 )
 ;
 let
@@ -333142,7 +333197,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -335329,7 +335384,7 @@ _primitives
 =
 __w_pdfjs_require__
 (
-11
+12
 )
 ;
 var
@@ -335337,7 +335392,7 @@ _colorspace
 =
 __w_pdfjs_require__
 (
-24
+25
 )
 ;
 var
@@ -335345,7 +335400,7 @@ _stream
 =
 __w_pdfjs_require__
 (
-13
+14
 )
 ;
 var
@@ -335353,7 +335408,7 @@ _jpeg_stream
 =
 __w_pdfjs_require__
 (
-19
+20
 )
 ;
 var
@@ -335361,7 +335416,7 @@ _jpx
 =
 __w_pdfjs_require__
 (
-22
+23
 )
 ;
 var
