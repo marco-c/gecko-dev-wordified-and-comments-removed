@@ -789,6 +789,13 @@ ProgramSources
 ;
 pub
 use
+frame_builder
+:
+:
+ChasePrimitive
+;
+pub
+use
 renderer
 :
 :

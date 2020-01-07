@@ -226,14 +226,14 @@ cmi
 render_task_address
 )
 ;
-ClipScrollNode
-scroll_node
+Transform
+transform
 =
-fetch_clip_scroll_node
+fetch_transform
 (
 cmi
 .
-scroll_node_id
+transform_id
 )
 ;
 BoxShadowData
@@ -264,7 +264,7 @@ write_clip_tile_vertex
 bs_data
 .
 dest_rect
-scroll_node
+transform
 area
 )
 ;

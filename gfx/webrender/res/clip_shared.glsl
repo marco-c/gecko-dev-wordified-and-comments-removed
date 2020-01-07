@@ -59,7 +59,6 @@ MPL
 #
 include
 rect
-clip_scroll
 render_task
 resource_cache
 snap
@@ -110,7 +109,7 @@ int
 render_task_address
 ;
 int
-scroll_node_id
+transform_id
 ;
 int
 segment
@@ -139,7 +138,7 @@ aClipRenderTaskAddress
 ;
 cmi
 .
-scroll_node_id
+transform_id
 =
 aScrollNodeId
 ;
@@ -285,8 +284,8 @@ write_clip_tile_vertex
 (
 RectWithSize
 local_clip_rect
-ClipScrollNode
-scroll_node
+Transform
+transform
 ClipArea
 area
 )
@@ -317,7 +316,7 @@ device_pos
 ;
 if
 (
-scroll_node
+transform
 .
 is_axis_aligned
 )
@@ -327,9 +326,9 @@ snap_positions
 =
 compute_snap_positions
 (
-scroll_node
-.
 transform
+.
+m
 local_clip_rect
 )
 ;
@@ -339,9 +338,9 @@ snap_offsets
 compute_snap_offset_impl
 (
 device_pos
-scroll_node
-.
 transform
+.
+m
 local_clip_rect
 RectWithSize
 (
@@ -431,7 +430,7 @@ get_node_pos
 actual_pos
 /
 uDevicePixelRatio
-scroll_node
+transform
 )
 ;
 }

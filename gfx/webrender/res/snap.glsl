@@ -126,7 +126,6 @@ there
 /
 is
 a
-scroll_node
 transform
 with
 scale
@@ -407,7 +406,7 @@ local
 position
 on
 the
-scroll_node
+transform
 and
 a
 snap

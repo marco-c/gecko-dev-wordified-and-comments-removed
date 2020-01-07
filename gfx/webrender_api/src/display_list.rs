@@ -211,7 +211,7 @@ MAX_TEXT_RUN_LENGTH
 :
 usize
 =
-2038
+2040
 ;
 const
 FIRST_CLIP_ID

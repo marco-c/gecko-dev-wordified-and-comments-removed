@@ -279,6 +279,9 @@ RGBAF32
 RG8
 =
 5
+RGBAI32
+=
+6
 }
 impl
 ImageFormat
@@ -324,6 +327,13 @@ RG8
 =
 >
 2
+ImageFormat
+:
+:
+RGBAI32
+=
+>
+16
 }
 }
 }
