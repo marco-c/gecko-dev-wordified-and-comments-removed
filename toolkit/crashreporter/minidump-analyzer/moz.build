@@ -231,10 +231,10 @@ OS_LIBS
 =
 [
 '
-Dbghelp
+dbghelp
 '
 '
-Imagehlp
+imagehlp
 '
 ]
 if
