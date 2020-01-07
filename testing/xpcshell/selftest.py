@@ -179,7 +179,9 @@ run_test
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -194,7 +196,9 @@ run_test
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -228,7 +232,9 @@ rejection
 )
 ;
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -284,7 +290,9 @@ run_test
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -316,7 +324,9 @@ test_simple
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -355,7 +365,9 @@ test_failing
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -783,7 +795,9 @@ test_unicode_print
 )
 {
   
-do_check_eq
+Assert
+.
+equal
 (
 "
 \
@@ -1081,7 +1095,9 @@ false
 )
 ;
   
-do_check_true
+Assert
+.
+ok
 (
 result
 )
@@ -1842,7 +1858,9 @@ cleanup_checkout
 )
 {
     
-do_check_eq
+Assert
+.
+equal
 (
 checkpoints
 .
@@ -2104,7 +2122,9 @@ no_run_test_add_test
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -2133,7 +2153,9 @@ no_run_test_add_task
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -2157,7 +2179,9 @@ no_run_test_add_test
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -2178,7 +2202,9 @@ no_run_test_add_task
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -2219,7 +2245,9 @@ no_run_test_add_test_fail
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -2248,7 +2276,9 @@ no_run_test_add_task_fail
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -2339,7 +2369,9 @@ run_test
 )
 {
   
-do_check_neq
+Assert
+.
+notEqual
 (
 typeof
 mozinfo
@@ -2347,7 +2379,9 @@ undefined
 )
 ;
   
-do_check_neq
+Assert
+.
+notEqual
 (
 typeof
 mozinfo
@@ -4480,7 +4514,9 @@ test_should_be_skipped
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -4653,7 +4689,9 @@ test_should_not_be_skipped
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -4820,7 +4858,9 @@ test_should_be_skipped
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -4988,7 +5028,9 @@ test_should_not_be_skipped
 )
 {
   
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -6618,7 +6660,9 @@ assertNotInLog
 (
 "
 [
-do_check_true
+Assert
+.
+ok
 :
 "
 )
