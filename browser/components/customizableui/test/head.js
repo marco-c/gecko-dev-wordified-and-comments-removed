@@ -1947,8 +1947,9 @@ clearTimeout
 timeoutId
 )
 ;
-resolve
+executeSoon
 (
+resolve
 )
 ;
 }
