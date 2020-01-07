@@ -1539,6 +1539,7 @@ false
 )
 (
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -1561,6 +1562,7 @@ val
 (
 false
 )
+InvalidArgumentError
 )
 ;
 Assert

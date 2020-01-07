@@ -665,6 +665,9 @@ foo
 }
 ]
 )
+/
+InvalidArgumentError
+/
 )
 ;
 Assert
@@ -689,6 +692,9 @@ foo
 }
 ]
 )
+/
+InvalidArgumentError
+/
 )
 ;
 Assert
@@ -713,6 +719,9 @@ foo
 }
 ]
 )
+/
+InvalidArgumentError
+/
 )
 ;
 Assert
@@ -735,6 +744,9 @@ null
 }
 ]
 )
+/
+InvalidArgumentError
+/
 )
 ;
 Assert
@@ -758,6 +770,9 @@ foo
 false
 ]
 )
+/
+InvalidArgumentError
+/
 )
 ;
 let
@@ -1621,6 +1636,7 @@ foo
 }
 ]
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -1645,6 +1661,7 @@ foo
 }
 ]
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -1669,6 +1686,7 @@ foo
 }
 ]
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -1691,6 +1709,7 @@ null
 }
 ]
 )
+InvalidArgumentError
 )
 ;
 Response
