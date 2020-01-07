@@ -236,14 +236,6 @@ updated
 let
 onGridPanelReady
 =
-id
-=
-=
-=
-"
-layoutview
-"
-?
 inspector
 .
 once
@@ -255,12 +247,6 @@ panel
 -
 updated
 "
-)
-:
-Promise
-.
-resolve
-(
 )
 ;
 inspector
