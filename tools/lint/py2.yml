@@ -129,6 +129,16 @@ py
 -
 servo
 -
+taskcluster
+/
+docker
+/
+funsize
+-
+update
+-
+generator
+-
 testing
 /
 awsy
