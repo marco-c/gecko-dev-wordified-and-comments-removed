@@ -36,6 +36,7 @@ High
 Input
 Normal
 Idle
+Count
 }
 ;
 class
