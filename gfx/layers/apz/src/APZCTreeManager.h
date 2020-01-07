@@ -257,7 +257,7 @@ class
 HitTestingTreeNode
 ;
 class
-WebRenderScrollData
+WebRenderScrollDataWrapper
 ;
 struct
 AncestorTransform
@@ -377,9 +377,9 @@ UpdateHitTestingTree
 LayersId
 aRootLayerTreeId
 const
-WebRenderScrollData
+WebRenderScrollDataWrapper
 &
-aScrollData
+aScrollWrapper
 bool
 aIsFirstPaint
 LayersId
