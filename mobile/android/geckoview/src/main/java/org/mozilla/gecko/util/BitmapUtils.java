@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-gfx
+util
 ;
 import
 java
@@ -137,17 +137,6 @@ android
 util
 .
 Log
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
-HardwareUtils
 ;
 public
 final
