@@ -9391,6 +9391,7 @@ kSegmentSize
 =
 128
 ;
+typedef
 mozilla
 :
 :
@@ -9409,6 +9410,9 @@ Link
 kSegmentSize
 InfallibleAllocPolicy
 >
+LinksToUpdateList
+;
+LinksToUpdateList
 mLinksToUpdate
 ;
 RefPtr
@@ -9567,12 +9571,12 @@ mIsSyntheticDocument
 1
 ;
 bool
-mHasLinksToUpdate
+mHasLinksToUpdateRunnable
 :
 1
 ;
 bool
-mHasLinksToUpdateRunnable
+mFlushingPendingLinkUpdates
 :
 1
 ;
@@ -9837,9 +9841,6 @@ eTriTrue
 ;
 Tri
 mAllowXULXBL
-;
-bool
-mIsLinkUpdateRegistrationsForbidden
 ;
 nsCOMPtr
 <
