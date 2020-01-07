@@ -1056,6 +1056,7 @@ fdata
 -
 sections
 "
+fi
 #
 For
 MinGW
@@ -1108,7 +1109,6 @@ mbig
 -
 obj
 "
-fi
 fi
 CFLAGS
 =
