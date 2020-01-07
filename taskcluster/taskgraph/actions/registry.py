@@ -1659,20 +1659,6 @@ input
 }
                             
 '
-task
-'
-:
-{
-'
-eval
-'
-:
-'
-task
-'
-}
-                            
-'
 taskId
 '
 :
@@ -1935,7 +1921,6 @@ trigger_action_callback
 (
 task_group_id
 task_id
-task
 input
 callback
 parameters
@@ -2051,6 +2036,19 @@ taskcluster
 testing
 =
 True
+    
+if
+task_id
+:
+        
+task
+=
+taskcluster
+.
+get_task_definition
+(
+task_id
+)
     
 cb
 (
