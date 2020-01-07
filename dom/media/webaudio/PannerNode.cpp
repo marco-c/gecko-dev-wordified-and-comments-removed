@@ -2528,6 +2528,12 @@ Normalize
 }
 if
 (
+inputChannels
+=
+=
+2
+&
+&
 mListenerPosition
 =
 =
