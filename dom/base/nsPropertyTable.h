@@ -191,12 +191,6 @@ bool
 aTransfer
 =
 false
-void
-*
-*
-aOldValue
-=
-nullptr
 )
 {
 return
@@ -208,7 +202,6 @@ aPropertyValue
 aDtor
 aDtorData
 aTransfer
-aOldValue
 )
 ;
 }
@@ -263,7 +256,7 @@ TransferOrDeleteAllPropertiesFor
 nsPropertyOwner
 aObject
 nsPropertyTable
-*
+&
 aOtherTable
 )
 ;
@@ -408,10 +401,6 @@ void
 aDtorData
 bool
 aTransfer
-void
-*
-*
-aOldValue
 )
 ;
 PropertyList
