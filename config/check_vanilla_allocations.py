@@ -360,6 +360,16 @@ filename
             
 continue
         
+if
+"
+Fuzzer
+"
+in
+filename
+:
+            
+continue
+        
 fn
 =
 m

@@ -2804,7 +2804,6 @@ Linux
 :
     
 CONFIGURE_ARGS
-+
 =
 '
 -
@@ -2815,6 +2814,8 @@ stdcxx
 -
 compat
 '
++
+CONFIGURE_ARGS
 ACTIVE_PROCESSES
 =
 set
