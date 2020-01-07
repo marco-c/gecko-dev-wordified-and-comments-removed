@@ -36,7 +36,7 @@ z
 }
 ;
 enum
-LocalCoordinateSystem
+GyroscopeLocalCoordinateSystem
 {
 "
 device
@@ -51,7 +51,7 @@ GyroscopeSensorOptions
 :
 SensorOptions
 {
-LocalCoordinateSystem
+GyroscopeLocalCoordinateSystem
 referenceFrame
 =
 "
