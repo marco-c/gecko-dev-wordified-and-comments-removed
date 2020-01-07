@@ -738,7 +738,7 @@ first_available
 0
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
@@ -1438,7 +1438,7 @@ first_available
 0
 "
 "
-enterprise_only
+machine_only
 "
 :
 true
