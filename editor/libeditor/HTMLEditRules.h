@@ -1812,6 +1812,7 @@ AdjustWhitespace
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 PinSelectionToNewBlock
 (
