@@ -240,12 +240,6 @@ MediaList
 :
 Create
 (
-aDocument
--
->
-GetStyleBackendType
-(
-)
 aMedia
 )
 ;
@@ -313,14 +307,6 @@ MediaList
 :
 Create
 (
-OwnerDoc
-(
-)
--
->
-GetStyleBackendType
-(
-)
 mediaStr
 )
 ;

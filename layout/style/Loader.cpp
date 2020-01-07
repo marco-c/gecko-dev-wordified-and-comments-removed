@@ -5037,9 +5037,6 @@ MediaList
 :
 Create
 (
-GetStyleBackendType
-(
-)
 aMediaString
 )
 ;

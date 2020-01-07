@@ -125,12 +125,6 @@ MediaList
 :
 Create
 (
-aDocument
--
->
-GetStyleBackendType
-(
-)
 aMediaQueryList
 aCallerType
 )

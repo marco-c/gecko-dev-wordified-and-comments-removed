@@ -988,12 +988,6 @@ MediaList
 :
 Create
 (
-aDocument
--
->
-GetStyleBackendType
-(
-)
 aMedia
 )
 ;
