@@ -1168,16 +1168,6 @@ aStatus
 ;
 #
 endif
-enum
-class
-nsDidReflowStatus
-:
-uint32_t
-{
-NOT_FINISHED
-FINISHED
-}
-;
 #
 define
 NS_FRAME_OVERFLOW_DELTA_MAX
