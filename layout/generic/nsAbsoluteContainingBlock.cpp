@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsPlaceholderFrame
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

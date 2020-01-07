@@ -22,6 +22,10 @@ nsIPresShell
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIntervalSet
 :
 :

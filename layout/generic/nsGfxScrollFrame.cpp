@@ -560,6 +560,13 @@ namespace
 mozilla
 :
 :
+gfx
+;
+using
+namespace
+mozilla
+:
+:
 layers
 ;
 using
