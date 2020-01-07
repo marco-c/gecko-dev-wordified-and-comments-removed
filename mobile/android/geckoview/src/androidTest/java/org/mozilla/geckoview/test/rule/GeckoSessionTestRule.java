@@ -2706,7 +2706,7 @@ return
 mErrorCollector
 ;
 }
-private
+public
 <
 T
 >
@@ -2812,7 +2812,9 @@ call
 getCurrentCount
 (
 )
-lessThan
++
+1
+lessThanOrEqualTo
 (
 Math
 .
