@@ -1592,6 +1592,7 @@ GetDocument
 )
 ;
 }
+inline
 nsINode
 *
 OwnerDocAsNode

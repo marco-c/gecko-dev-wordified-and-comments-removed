@@ -15583,6 +15583,13 @@ restylableAnonymousNode
 )
 GK_ATOM
 (
+docLevelNativeAnonymousContent
+"
+docLevelNativeAnonymousContent
+"
+)
+GK_ATOM
+(
 paintRequestTime
 "
 PaintRequestTime

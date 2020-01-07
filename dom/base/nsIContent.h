@@ -1465,13 +1465,6 @@ GetFlattenedTreeParent
 )
 const
 ;
-nsINode
-*
-GetFlattenedTreeParentForDocumentElementNAC
-(
-)
-const
-;
 virtual
 bool
 IsLink
