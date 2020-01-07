@@ -56,6 +56,10 @@ sGridTemplateSubgridValueEnabled
 ;
 static
 bool
+sFontVariationsEnabled
+;
+static
+bool
 sEmulateMozBoxWithFlex
 ;
 static
