@@ -480,6 +480,7 @@ LookupResultArray
 *
 results
 )
+const
 {
 nsCOMPtr
 <
@@ -723,6 +724,7 @@ UrlClassifierDBServiceWorkerProxy
 OpenDb
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -760,6 +762,7 @@ UrlClassifierDBServiceWorkerProxy
 CloseDb
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -797,6 +800,7 @@ UrlClassifierDBServiceWorkerProxy
 PreShutdown
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -838,6 +842,7 @@ ConstCacheResultArray
 &
 aEntries
 )
+const
 {
 nsCOMPtr
 <
@@ -943,6 +948,7 @@ nsIUrlClassifierGetCacheCallback
 *
 aCallback
 )
+const
 {
 nsCOMPtr
 <
