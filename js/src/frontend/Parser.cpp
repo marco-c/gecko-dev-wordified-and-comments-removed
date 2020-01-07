@@ -18048,6 +18048,9 @@ false
 #
 if
 JS_HAS_EXPR_CLOSURES
+this
+-
+>
 addTelemetry
 (
 DeprecatedLanguageExtension
