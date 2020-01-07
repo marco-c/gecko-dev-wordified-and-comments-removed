@@ -4073,6 +4073,11 @@ mForcedHidden
 false
 ;
 bool
+mAttemptPlayUponLoadedMetadata
+=
+false
+;
+bool
 mMediaTracksConstructed
 =
 false
