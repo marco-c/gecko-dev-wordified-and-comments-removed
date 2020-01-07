@@ -311,6 +311,15 @@ classic
 /
 global
 /
+spinbuttons
+.
+css
+skin
+/
+classic
+/
+global
+/
 splitter
 .
 css
