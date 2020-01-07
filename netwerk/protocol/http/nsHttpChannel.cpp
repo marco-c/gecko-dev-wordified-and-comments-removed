@@ -5947,9 +5947,12 @@ if
 nsContentUtils
 :
 :
-IsScriptType
+IsJavascriptMIMEType
+(
+NS_ConvertUTF8toUTF16
 (
 contentType
+)
 )
 )
 {
