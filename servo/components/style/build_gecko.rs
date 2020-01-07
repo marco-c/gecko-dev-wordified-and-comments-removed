@@ -1792,6 +1792,11 @@ default
 (
 )
 .
+rustfmt_bindings
+(
+false
+)
+.
 rust_target
 (
 RustTarget
