@@ -3796,15 +3796,6 @@ wholeLength
 if
 (
 canUseInline
-&
-&
-!
-cx
--
->
-helperThread
-(
-)
 )
 {
 Latin1Char
