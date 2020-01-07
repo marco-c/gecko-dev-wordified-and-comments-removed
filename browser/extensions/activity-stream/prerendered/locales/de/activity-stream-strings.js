@@ -556,7 +556,7 @@ settings_pane_topsites_header
 "
 :
 "
-Meistbesuchte
+Wichtige
 Seiten
 "
 "
@@ -643,8 +643,7 @@ settings_pane_highlights_header
 "
 :
 "
-Wichtigste
-Seiten
+berblick
 "
 "
 settings_pane_highlights_body2

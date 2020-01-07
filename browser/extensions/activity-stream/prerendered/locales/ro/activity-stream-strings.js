@@ -257,8 +257,7 @@ confirm_history_delete_p1
 :
 "
 Sigur
-dore
-ti
+vrei
 s
 tergi
 fiecare
