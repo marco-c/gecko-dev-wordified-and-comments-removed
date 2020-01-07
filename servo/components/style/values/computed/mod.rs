@@ -390,6 +390,7 @@ box_
 {
 OverflowClipBox
 ScrollSnapType
+TouchAction
 VerticalAlign
 WillChange
 }
