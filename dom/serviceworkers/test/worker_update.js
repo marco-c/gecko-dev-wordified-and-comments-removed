@@ -22,10 +22,8 @@ v
 {
 return
 v
-=
-=
-=
-undefined
+instanceof
+ServiceWorkerRegistration
 ?
 '
 FINISH
