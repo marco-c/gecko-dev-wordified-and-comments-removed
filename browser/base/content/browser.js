@@ -32094,9 +32094,6 @@ hiddenRows
 :
 [
 "
-description
-"
-"
 location
 "
 "
@@ -37526,11 +37523,6 @@ bookmarkData
 spec
 )
 title
-description
-:
-bookmarkData
-.
-description
 keyword
 :
 "
@@ -37550,9 +37542,6 @@ hiddenRows
 [
 "
 location
-"
-"
-description
 "
 "
 tags
