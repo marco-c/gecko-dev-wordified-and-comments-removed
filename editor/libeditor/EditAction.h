@@ -45,10 +45,8 @@ eRemoveList
 eCreateOrChangeDefinitionList
 eInsertElement
 eInsertQuotation
-htmlPaste
-=
-3012
-loadHTML
+ePasteHTMLContent
+eInsertHTMLSource
 resetTextProperties
 setAbsolutePosition
 removeAbsolutePosition

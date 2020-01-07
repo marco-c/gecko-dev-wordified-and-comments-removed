@@ -561,7 +561,7 @@ this
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 nsIEditor
 :
 :
@@ -589,7 +589,7 @@ subActionInfo
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 )
 ;
 bool
@@ -1030,7 +1030,7 @@ this
 EditSubAction
 :
 :
-htmlPaste
+ePasteHTMLContent
 nsIEditor
 :
 :

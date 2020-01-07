@@ -2524,7 +2524,7 @@ aEditSubAction
 EditSubAction
 :
 :
-htmlPaste
+ePasteHTMLContent
 |
 |
 aEditSubAction
@@ -2533,7 +2533,7 @@ aEditSubAction
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 )
 {
 rv
@@ -2734,7 +2734,7 @@ aEditSubAction
 EditSubAction
 :
 :
-htmlPaste
+ePasteHTMLContent
 |
 |
 aEditSubAction
@@ -2743,7 +2743,7 @@ aEditSubAction
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 )
 {
 rv
@@ -3241,7 +3241,7 @@ case
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 :
 return
 WillLoadHTML
