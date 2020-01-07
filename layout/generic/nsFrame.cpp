@@ -14433,13 +14433,6 @@ ContainsBlendMode
 )
 )
 ;
-aBuilder
--
->
-MarkCurrentFrameModifiedDuringBuilding
-(
-)
-;
 if
 (
 !
@@ -14464,14 +14457,8 @@ GetVisibleRect
 aBuilder
 -
 >
-SetDirtyRect
+MarkCurrentFrameModifiedDuringBuilding
 (
-aBuilder
--
->
-GetVisibleRect
-(
-)
 )
 ;
 set
@@ -50806,7 +50793,6 @@ here
 ;
 uint32_t
 equalStructs
-samePointerStructs
 ;
 nsChangeHint
 childHint
@@ -50824,9 +50810,6 @@ CalcStyleDifference
 aNewComputedStyle
 &
 equalStructs
-&
-samePointerStructs
-true
 )
 ;
 MOZ_ASSERT

@@ -38880,7 +38880,6 @@ Style
 ;
 uint32_t
 equalStructs
-samePointerStructs
 ;
 nsChangeHint
 wrapperHint
@@ -38898,9 +38897,6 @@ CalcStyleDifference
 newStyle
 &
 equalStructs
-&
-samePointerStructs
-true
 )
 ;
 MOZ_ASSERT

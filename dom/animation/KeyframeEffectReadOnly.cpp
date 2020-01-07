@@ -6315,11 +6315,6 @@ equalStructs
 =
 0
 ;
-uint32_t
-samePointerStructs
-=
-0
-;
 nsChangeHint
 changeHint
 =
@@ -6331,8 +6326,6 @@ CalcStyleDifference
 toContext
 &
 equalStructs
-&
-samePointerStructs
 )
 ;
 mCumulativeChangeHint

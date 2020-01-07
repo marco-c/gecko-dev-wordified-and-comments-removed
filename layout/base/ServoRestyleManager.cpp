@@ -2299,7 +2299,6 @@ false
 ;
 uint32_t
 equalStructs
-samePointerStructs
 ;
 mComputedHint
 =
@@ -2312,8 +2311,6 @@ CalcStyleDifference
 aNewStyle
 &
 equalStructs
-&
-samePointerStructs
 )
 ;
 mComputedHint
@@ -2844,7 +2841,6 @@ nullptr
 ;
 uint32_t
 equalStructs
-samePointerStructs
 ;
 nsChangeHint
 childHint
@@ -2856,8 +2852,6 @@ CalcStyleDifference
 newStyle
 &
 equalStructs
-&
-samePointerStructs
 )
 ;
 if

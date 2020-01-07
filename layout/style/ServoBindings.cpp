@@ -1611,9 +1611,6 @@ aNewStyle
 uint32_t
 equalStructs
 ;
-uint32_t
-samePointerStructs
-;
 nsChangeHint
 result
 =
@@ -1645,9 +1642,6 @@ aNewStyle
 )
 &
 equalStructs
-&
-samePointerStructs
-true
 )
 ;
 *
