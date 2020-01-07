@@ -752,6 +752,14 @@ nsIContent
 aContent
 )
 ;
+int32_t
+HostOrSlotTabIndexValue
+(
+nsIContent
+*
+aContent
+)
+;
 nsIContent
 *
 GetNextTabbableContentInScope
