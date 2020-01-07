@@ -5249,7 +5249,13 @@ this
 assertSameCompartment
 (
 cx
+JS
+:
+:
+GetCompartmentForRealm
+(
 this
+)
 obj
 )
 ;

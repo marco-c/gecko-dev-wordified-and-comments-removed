@@ -17281,7 +17281,7 @@ AutoRealmUnchecked
 ar
 (
 cx
-realm
+compartment
 )
 ;
 Rooted

@@ -3276,7 +3276,7 @@ return
 JS
 :
 :
-GetRealmForCompartment
+GetCompartmentForRealm
 (
 oldRealm
 )

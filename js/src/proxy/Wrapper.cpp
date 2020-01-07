@@ -2618,11 +2618,17 @@ context
 ;
 if
 (
+JS
+:
+:
+GetCompartmentForRealm
+(
 ar
 -
 >
 origin
 (
+)
 )
 !
 =

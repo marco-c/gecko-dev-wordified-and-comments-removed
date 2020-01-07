@@ -1138,10 +1138,16 @@ compartments
 .
 append
 (
+JS
+:
+:
+GetCompartmentForRealm
+(
 atomsRealm
 .
 get
 (
+)
 )
 )
 )
