@@ -887,6 +887,12 @@ cancelPicker
 (
 )
 ;
+this
+.
+eyedropperOpen
+=
+true
+;
 inspector
 .
 pickColorFromPage
@@ -906,12 +912,6 @@ then
 =
 >
 {
-this
-.
-eyedropperOpen
-=
-true
-;
 this
 .
 hide
