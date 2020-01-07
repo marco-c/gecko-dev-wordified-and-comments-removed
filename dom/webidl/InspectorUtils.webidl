@@ -443,6 +443,16 @@ CharacterData
 dataNode
 )
 ;
+Node
+?
+getParentForNode
+(
+Node
+node
+boolean
+showingAnonymousContent
+)
+;
 }
 ;
 dictionary
