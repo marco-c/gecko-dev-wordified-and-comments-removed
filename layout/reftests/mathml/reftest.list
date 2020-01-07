@@ -2112,6 +2112,9 @@ fails
 if
 (
 gtkWidget
+|
+|
+Android
 )
 random
 -

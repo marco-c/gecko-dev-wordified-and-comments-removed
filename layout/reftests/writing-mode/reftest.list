@@ -3809,6 +3809,9 @@ fails
 if
 (
 webrender
+|
+|
+Android
 )
 =
 =
@@ -3842,6 +3845,9 @@ error
 with
 WR
 enabled
+and
+on
+Android
 .
 fuzzy
 -

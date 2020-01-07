@@ -266,6 +266,14 @@ bidiSVG
 ref
 .
 svg
+fuzzy
+-
+if
+(
+Android
+253
+76
+)
 =
 =
 bidiSVG
