@@ -427,7 +427,7 @@ AddRef
 }
 }
 void
-SetStringBuffer
+SetKnownLiveStringBuffer
 (
 nsStringBuffer
 *
@@ -503,7 +503,7 @@ aLength
 ;
 }
 void
-SetEphemeralStringBuffer
+SetStringBuffer
 (
 nsStringBuffer
 *
@@ -512,7 +512,7 @@ uint32_t
 aLength
 )
 {
-SetStringBuffer
+SetKnownLiveStringBuffer
 (
 aStringBuffer
 aLength
@@ -531,7 +531,7 @@ true
 ;
 }
 void
-SetOwnedString
+SetKnownLiveString
 (
 const
 nsAString
@@ -600,7 +600,7 @@ if
 buf
 )
 {
-SetStringBuffer
+SetKnownLiveStringBuffer
 (
 buf
 aString
@@ -654,7 +654,7 @@ eNullNotExpected
 }
 ;
 void
-SetOwnedAtom
+SetKnownLiveAtom
 (
 nsAtom
 *
@@ -762,7 +762,7 @@ GetLength
 }
 else
 {
-SetStringBuffer
+SetKnownLiveStringBuffer
 (
 aAtom
 -

@@ -217,7 +217,7 @@ buf
 {
 aString
 .
-SetEphemeralStringBuffer
+SetStringBuffer
 (
 buf
 aLength

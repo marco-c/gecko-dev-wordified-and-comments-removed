@@ -150,7 +150,7 @@ aPrefix
 {
 aPrefix
 .
-SetOwnedAtom
+SetKnownLiveAtom
 (
 GetPrefix
 (

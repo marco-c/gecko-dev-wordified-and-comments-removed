@@ -309,7 +309,7 @@ const
 {
 aRetVal
 .
-SetOwnedAtom
+SetKnownLiveAtom
 (
 mType
 mozilla
@@ -387,7 +387,7 @@ const
 {
 aRetVal
 .
-SetOwnedAtom
+SetKnownLiveAtom
 (
 mAttrName
 mozilla
@@ -420,7 +420,7 @@ const
 {
 aRetVal
 .
-SetOwnedString
+SetKnownLiveString
 (
 mAttrNamespace
 )
@@ -443,7 +443,7 @@ const
 {
 aRetVal
 .
-SetOwnedString
+SetKnownLiveString
 (
 mPrevValue
 )
