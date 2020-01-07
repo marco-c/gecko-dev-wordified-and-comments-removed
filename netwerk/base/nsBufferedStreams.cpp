@@ -160,6 +160,9 @@ nsBufferedStream
 (
 )
 :
+mBufferSize
+{
+}
 mBuffer
 (
 nullptr

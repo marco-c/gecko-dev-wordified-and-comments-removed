@@ -257,6 +257,9 @@ mOpenRedirectChannel
 (
 false
 )
+mRedirectFlags
+{
+}
 mStatus
 (
 NS_OK

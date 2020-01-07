@@ -1132,6 +1132,9 @@ mForcePaint
 (
 false
 )
+mForcePaintEpoch
+{
+}
 mShutdownDone
 (
 false

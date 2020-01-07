@@ -2538,6 +2538,11 @@ nsContentPermissionRequestProxy
 nsContentPermissionRequestProxy
 (
 )
+:
+mParent
+{
+nullptr
+}
 {
 }
 nsContentPermissionRequestProxy

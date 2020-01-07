@@ -985,6 +985,14 @@ Message
 Message
 (
 )
+:
+mErrorNumber
+{
+dom
+:
+:
+Err_Limit
+}
 {
 MOZ_COUNT_CTOR
 (

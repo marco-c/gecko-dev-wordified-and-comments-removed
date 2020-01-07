@@ -2168,6 +2168,9 @@ mBeforeUnloadListeners
 (
 0
 )
+mLastBackgroundColor
+{
+}
 mDidFakeShow
 (
 false

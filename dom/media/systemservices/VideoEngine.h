@@ -120,6 +120,10 @@ public
 VideoEngine
 (
 )
+:
+mId
+{
+}
 {
 }
 ;

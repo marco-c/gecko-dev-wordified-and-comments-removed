@@ -1952,6 +1952,14 @@ val
 uint8_clamped
 (
 )
+:
+val
+{
+'
+\
+0
+'
+}
 {
 }
 uint8_clamped

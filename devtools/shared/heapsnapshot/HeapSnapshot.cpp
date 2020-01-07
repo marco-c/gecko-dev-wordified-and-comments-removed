@@ -6943,6 +6943,12 @@ compartments
 (
 compartments
 )
+nodeCount
+{
+}
+edgeCount
+{
+}
 {
 }
 class

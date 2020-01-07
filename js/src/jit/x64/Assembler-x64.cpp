@@ -1270,6 +1270,12 @@ reader_
 (
 reader
 )
+offset_
+{
+}
+extOffset_
+{
+}
 {
 tableStart_
 =

@@ -129,6 +129,9 @@ mGeneration
 (
 NOT_TRACKED
 )
+mIndexInGeneration
+{
+}
 {
 }
 bool

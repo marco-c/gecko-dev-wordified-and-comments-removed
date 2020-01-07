@@ -236,6 +236,9 @@ mBuffer
 (
 nullptr
 )
+mCallbackData
+{
+}
 mKernTable
 (
 nullptr
@@ -313,6 +316,10 @@ mVerticalInitialized
 (
 false
 )
+mUseVerticalPresentationForms
+{
+false
+}
 mLoadedLocaGlyf
 (
 false

@@ -434,6 +434,9 @@ m_centsPerRange
 (
 CentsPerRange
 )
+m_numberOfComponents
+{
+}
 m_maxPartialsInBandLimitedTable
 (
 0

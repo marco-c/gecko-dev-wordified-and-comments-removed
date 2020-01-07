@@ -707,6 +707,9 @@ gcreason
 :
 NO_REASON
 )
+previousGC
+{
+}
 freeMallocedBuffersTask
 (
 nullptr

@@ -73,6 +73,10 @@ aTimingFunctionType
 =
 NS_STYLE_TRANSITION_TIMING_FUNCTION_EASE
 )
+:
+mFunc
+{
+}
 {
 AssignFromKeyword
 (

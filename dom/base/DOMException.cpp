@@ -712,6 +712,10 @@ mData
 (
 aData
 )
+mInitialized
+{
+false
+}
 mHoldingJSVal
 (
 false

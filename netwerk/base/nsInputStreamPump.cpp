@@ -176,6 +176,15 @@ mStreamOffset
 (
 0
 )
+mStreamLength
+{
+}
+mSegSize
+{
+}
+mSegCount
+{
+}
 mStatus
 (
 NS_OK
@@ -188,6 +197,10 @@ mLoadFlags
 (
 LOAD_NORMAL
 )
+mIsPending
+{
+false
+}
 mProcessingCallbacks
 (
 false

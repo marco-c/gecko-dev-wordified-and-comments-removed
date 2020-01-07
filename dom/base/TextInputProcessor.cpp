@@ -178,6 +178,9 @@ mType
 (
 aType
 )
+mTextChangeData
+{
+}
 {
 }
 explicit
@@ -1033,6 +1036,10 @@ mSelectionChangeData
 TextInputProcessorNotification
 (
 )
+:
+mTextChangeData
+{
+}
 {
 }
 }

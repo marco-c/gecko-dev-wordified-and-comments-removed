@@ -1902,6 +1902,11 @@ public
 DefaultNewGroupCache
 (
 )
+:
+associated_
+{
+nullptr
+}
 {
 purge
 (

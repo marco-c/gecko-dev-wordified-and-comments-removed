@@ -77,6 +77,9 @@ mCurrentChunk
 (
 0
 )
+mLastReadChunk
+{
+}
 #
 ifdef
 DEBUG

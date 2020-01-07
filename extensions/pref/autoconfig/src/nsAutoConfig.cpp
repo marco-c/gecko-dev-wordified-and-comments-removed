@@ -198,6 +198,11 @@ nsAutoConfig
 nsAutoConfig
 (
 )
+:
+mLoaded
+{
+false
+}
 {
 }
 nsresult

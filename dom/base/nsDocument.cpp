@@ -55277,6 +55277,15 @@ PrefStore
 PrefStore
 (
 )
+:
+mFlashBlockEnabled
+{
+false
+}
+mPluginsHttpOnly
+{
+false
+}
 {
 Preferences
 :

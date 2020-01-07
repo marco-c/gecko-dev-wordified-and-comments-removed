@@ -100,6 +100,9 @@ RtpSourceObserver
 (
 )
 :
+mMaxJitterWindow
+{
+}
 mLevelGuard
 (
 "

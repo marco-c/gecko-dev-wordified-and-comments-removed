@@ -695,6 +695,10 @@ public
 FrameSizeClass
 (
 )
+:
+class_
+{
+}
 {
 }
 static

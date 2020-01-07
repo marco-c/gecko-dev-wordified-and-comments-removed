@@ -897,6 +897,9 @@ mIMENotificationRequests
 (
 nullptr
 )
+mPreAttrChangeLength
+{
+}
 mSuppressNotifications
 (
 0

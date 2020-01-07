@@ -571,6 +571,10 @@ aIntervalMilliseconds
 )
 )
 )
+mThread
+{
+nullptr
+}
 {
 pthread_attr_t
 *

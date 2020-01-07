@@ -550,6 +550,15 @@ mSurfaceSize
 aSurfaceWidth
 aSurfaceHeight
 )
+mFBOTextureTarget
+{
+}
+mQuadVBO
+{
+}
+mTriangleVBO
+{
+}
 mHasBGRA
 (
 0

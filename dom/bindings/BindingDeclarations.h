@@ -1255,10 +1255,14 @@ public
 NonNull
 (
 )
+:
+ptr
+{
+nullptr
+}
 #
 ifdef
 DEBUG
-:
 inited
 (
 false

@@ -1756,6 +1756,10 @@ mPinCount
 (
 0
 )
+mNotifyDataEndedStatus
+{
+NS_ERROR_NOT_INITIALIZED
+}
 mMetadataInPartialBlockBuffer
 (
 false

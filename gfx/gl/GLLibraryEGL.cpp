@@ -1120,6 +1120,11 @@ public
 AngleErrorReporting
 (
 )
+:
+mFailureId
+{
+nullptr
+}
 {
 }
 void

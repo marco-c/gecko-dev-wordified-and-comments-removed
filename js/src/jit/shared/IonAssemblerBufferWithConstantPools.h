@@ -278,6 +278,10 @@ LifoAlloc
 &
 alloc
 )
+:
+earliestRange_
+{
+}
 {
 for
 (

@@ -947,6 +947,13 @@ BlendMethod
 :
 OVER
 )
+mFormat
+{
+SurfaceFormat
+:
+:
+UNKNOWN
+}
 mAborted
 (
 false

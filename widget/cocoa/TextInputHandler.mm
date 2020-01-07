@@ -29019,6 +29019,9 @@ mIMECompositionStart
 (
 UINT32_MAX
 )
+mRangeForWritingMode
+{
+}
 mIsIMEComposing
 (
 false

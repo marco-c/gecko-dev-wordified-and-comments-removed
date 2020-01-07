@@ -71,6 +71,17 @@ mState
 ZERO
 )
 {
+this
+-
+>
+mUnion
+.
+table
+=
+{
+nullptr
+}
+;
 }
 ~
 nsCheapSet

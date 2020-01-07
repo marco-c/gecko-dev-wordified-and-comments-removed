@@ -53,6 +53,10 @@ Time
 (
 Uninitialized
 )
+:
+elapsedSecondsAD
+{
+}
 {
 }
 bool

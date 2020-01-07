@@ -52,9 +52,6 @@ public
 SVGLength
 (
 )
-#
-ifdef
-DEBUG
 :
 mValue
 (
@@ -72,8 +69,6 @@ SVGLengthBinding
 :
 SVG_LENGTHTYPE_UNKNOWN
 )
-#
-endif
 {
 }
 SVGLength

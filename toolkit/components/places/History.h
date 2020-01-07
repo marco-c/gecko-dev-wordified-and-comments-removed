@@ -601,6 +601,9 @@ nsURIHashKey
 (
 aURI
 )
+time
+{
+}
 {
 }
 RecentURIKey

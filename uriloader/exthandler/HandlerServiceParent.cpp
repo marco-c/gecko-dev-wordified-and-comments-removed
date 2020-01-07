@@ -175,6 +175,9 @@ mHandlerInfo
 (
 aHandlerInfo
 )
+mPrefAction
+{
+}
 mPossibleApps
 (
 do_CreateInstance

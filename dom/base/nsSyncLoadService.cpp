@@ -157,6 +157,10 @@ mLoading
 (
 false
 )
+mAsyncLoadStatus
+{
+NS_ERROR_NOT_INITIALIZED
+}
 {
 }
 NS_DECL_ISUPPORTS

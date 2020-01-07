@@ -284,6 +284,11 @@ ptr
 =
 NULL
 )
+:
+value_
+{
+nullptr
+}
 {
 capture
 (

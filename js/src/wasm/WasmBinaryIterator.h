@@ -396,6 +396,13 @@ align
 LinearMemoryAddress
 (
 )
+:
+offset
+{
+}
+align
+{
+}
 {
 }
 LinearMemoryAddress

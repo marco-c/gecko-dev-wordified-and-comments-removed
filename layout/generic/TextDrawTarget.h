@@ -119,6 +119,9 @@ mManager
 (
 aManager
 )
+mWRGlyphFlags
+{
+}
 {
 SetPermitSubpixelAA
 (

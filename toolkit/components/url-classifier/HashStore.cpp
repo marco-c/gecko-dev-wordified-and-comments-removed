@@ -975,6 +975,9 @@ nsIFile
 aRootStoreDir
 )
 :
+mHeader
+{
+}
 mTableName
 (
 aTableName

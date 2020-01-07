@@ -2348,6 +2348,10 @@ SourceOrRefUnion
 SourceOrRefUnion
 (
 )
+:
+sourceref_
+{
+}
 {
 }
 :
@@ -2384,6 +2388,10 @@ FunctionDisplayNameOrRefUnion
 FunctionDisplayNameOrRefUnion
 (
 )
+:
+functiondisplaynameref_
+{
+}
 {
 }
 :
@@ -3145,6 +3153,11 @@ StackFrameTypeUnion
 StackFrameTypeUnion
 (
 )
+:
+data_
+{
+nullptr
+}
 {
 }
 :
@@ -4837,6 +4850,10 @@ TypeNameOrRefUnion
 TypeNameOrRefUnion
 (
 )
+:
+typenameref_
+{
+}
 {
 }
 :
@@ -4873,6 +4890,10 @@ JSObjectClassNameOrRefUnion
 JSObjectClassNameOrRefUnion
 (
 )
+:
+jsobjectclassnameref_
+{
+}
 {
 }
 :
@@ -4909,6 +4930,10 @@ ScriptFilenameOrRefUnion
 ScriptFilenameOrRefUnion
 (
 )
+:
+scriptfilenameref_
+{
+}
 {
 }
 :
@@ -5763,6 +5788,10 @@ EdgeNameOrRefUnion
 EdgeNameOrRefUnion
 (
 )
+:
+nameref_
+{
+}
 {
 }
 :

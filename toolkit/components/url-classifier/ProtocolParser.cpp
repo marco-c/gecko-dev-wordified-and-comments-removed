@@ -473,6 +473,9 @@ mState
 (
 PROTOCOL_STATE_CONTROL
 )
+mChunkState
+{
+}
 mResetRequested
 (
 false

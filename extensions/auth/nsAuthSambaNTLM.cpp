@@ -67,6 +67,9 @@ mInitialMessage
 (
 nullptr
 )
+mInitialMessageLen
+{
+}
 mChildPID
 (
 nullptr

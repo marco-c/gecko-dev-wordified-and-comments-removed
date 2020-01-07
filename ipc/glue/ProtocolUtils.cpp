@@ -2742,6 +2742,10 @@ kFreedActorId
 :
 kNullActorId
 )
+mIsMainThreadProtocol
+{
+false
+}
 mEventTargetMutex
 (
 "

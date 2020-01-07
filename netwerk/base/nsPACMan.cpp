@@ -894,6 +894,9 @@ net
 PendingPACQuery
 "
 )
+mPort
+{
+}
 mPACMan
 (
 pacMan

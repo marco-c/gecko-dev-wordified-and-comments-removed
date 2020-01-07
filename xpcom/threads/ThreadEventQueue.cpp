@@ -211,6 +211,10 @@ mLock
 EventsAvail
 "
 )
+mEventsAreDoomed
+{
+false
+}
 {
 static_assert
 (

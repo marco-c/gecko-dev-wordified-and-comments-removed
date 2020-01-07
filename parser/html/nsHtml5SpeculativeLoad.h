@@ -38,12 +38,7 @@ nsHtml5TreeOpExecutor
 enum
 eHtml5SpeculativeLoad
 {
-#
-ifdef
-DEBUG
 eSpeculativeLoadUninitialized
-#
-endif
 eSpeculativeLoadBase
 eSpeculativeLoadCSP
 eSpeculativeLoadMetaReferrer

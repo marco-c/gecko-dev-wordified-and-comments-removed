@@ -98,6 +98,10 @@ mTextClickable
 (
 false
 )
+mRequireInteraction
+{
+false
+}
 mInPrivateBrowsing
 (
 false

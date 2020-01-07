@@ -1339,6 +1339,16 @@ mBytesHashed
 (
 0
 )
+mHashLength
+{
+}
+mHashType
+{
+'
+\
+0
+'
+}
 mInvalidMetadata
 (
 false

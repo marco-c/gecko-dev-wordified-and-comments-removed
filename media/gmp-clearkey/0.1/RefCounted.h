@@ -140,6 +140,11 @@ T
 *
 aPtr
 )
+:
+mPtr
+{
+nullptr
+}
 {
 Set
 (
@@ -150,6 +155,11 @@ aPtr
 RefPtr
 (
 )
+:
+mPtr
+{
+nullptr
+}
 {
 Set
 (

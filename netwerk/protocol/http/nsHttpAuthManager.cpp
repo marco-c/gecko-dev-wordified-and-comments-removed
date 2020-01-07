@@ -50,6 +50,15 @@ nsHttpAuthManager
 nsHttpAuthManager
 (
 )
+:
+mAuthCache
+{
+nullptr
+}
+mPrivateAuthCache
+{
+nullptr
+}
 {
 }
 nsresult

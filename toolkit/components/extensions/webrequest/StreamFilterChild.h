@@ -126,6 +126,13 @@ State
 :
 Uninitialized
 )
+mNextState
+{
+State
+:
+:
+Uninitialized
+}
 mReceivedOnStop
 (
 false

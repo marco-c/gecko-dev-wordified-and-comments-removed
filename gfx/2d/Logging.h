@@ -853,6 +853,10 @@ mOptions
 (
 0
 )
+mReason
+{
+aReason
+}
 mLogIt
 (
 false

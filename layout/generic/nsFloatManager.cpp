@@ -5154,6 +5154,12 @@ mFrame
 (
 aFrame
 )
+mLeftBEnd
+{
+}
+mRightBEnd
+{
+}
 mRect
 (
 ShapeInfo

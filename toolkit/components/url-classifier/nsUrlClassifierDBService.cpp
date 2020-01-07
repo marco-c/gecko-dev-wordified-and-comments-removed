@@ -687,6 +687,13 @@ nsUrlClassifierDBServiceWorker
 (
 )
 :
+mUpdateWaitSec
+{
+}
+mUpdateStatus
+{
+NS_ERROR_NOT_INITIALIZED
+}
 mInStream
 (
 false

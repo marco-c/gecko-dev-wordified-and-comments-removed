@@ -218,6 +218,10 @@ mNode
 (
 nullptr
 )
+mBeforeNode
+{
+false
+}
 {
 }
 NodePointer
