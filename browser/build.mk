@@ -53,6 +53,17 @@ MPL
 0
 /
 .
+installer
+:
+(
+MAKE
+)
+-
+C
+browser
+/
+installer
+installer
 package
 :
 (
