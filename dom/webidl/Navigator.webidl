@@ -798,10 +798,10 @@ mozilla
 dom
 :
 :
-StorageManager
+DOMPreferences
 :
 :
-PrefEnabled
+StorageManagerEnabled
 "
 ]
 readonly
