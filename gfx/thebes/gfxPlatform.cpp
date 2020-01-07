@@ -7973,9 +7973,9 @@ nsAString
 aFontName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 )
 {
@@ -8010,9 +8010,9 @@ nsAString
 aFontName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 const
 uint8_t

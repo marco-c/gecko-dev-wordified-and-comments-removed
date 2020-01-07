@@ -1436,7 +1436,12 @@ aFontStyle
 .
 style
 =
-NS_FONT_STYLE_NORMAL
+FontSlantStyle
+:
+:
+Normal
+(
+)
 ;
 aFontStyle
 .
@@ -1453,7 +1458,12 @@ aFontStyle
 .
 stretch
 =
-NS_FONT_STRETCH_NORMAL
+FontStretch
+:
+:
+Normal
+(
+)
 ;
 aFontStyle
 .

@@ -3249,7 +3249,7 @@ aData
 SetKeywordValue
 (
 eCSSProperty_font_style
-NS_STYLE_FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 )
 ;
 }
@@ -3272,7 +3272,7 @@ aData
 SetKeywordValue
 (
 eCSSProperty_font_style
-NS_STYLE_FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 )
 ;
 }

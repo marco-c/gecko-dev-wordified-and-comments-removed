@@ -350,9 +350,9 @@ nsAString
 aFaceName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 const
 uint8_t
@@ -376,9 +376,9 @@ FcPattern
 aFontPattern
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 )
 ;
@@ -1033,9 +1033,9 @@ nsAString
 aFontName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 )
 override
@@ -1050,9 +1050,9 @@ nsAString
 aFontName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 const
 uint8_t

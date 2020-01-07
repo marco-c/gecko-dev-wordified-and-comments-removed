@@ -862,7 +862,10 @@ FontStyleTextAttr
 public
 TTextAttr
 <
-nscoord
+mozilla
+:
+:
+FontSlantStyle
 >
 {
 public
@@ -893,7 +896,10 @@ GetValueFor
 Accessible
 *
 aContent
-nscoord
+mozilla
+:
+:
+FontSlantStyle
 *
 aValue
 )
@@ -907,7 +913,10 @@ nsIPersistentProperties
 *
 aAttributes
 const
-nscoord
+mozilla
+:
+:
+FontSlantStyle
 &
 aValue
 )

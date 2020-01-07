@@ -333,9 +333,9 @@ gfxFontFaceSrc
 aFontFaceSrcList
 FontWeight
 aWeight
-uint32_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 const
 nsTArray
@@ -1043,10 +1043,10 @@ aFamilyList
 FontWeight
 &
 aWeight
-uint32_t
+FontStretch
 &
 aStretch
-uint8_t
+FontSlantStyle
 &
 aStyle
 ErrorResult
