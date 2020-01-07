@@ -3678,10 +3678,9 @@ parseContext_
 build
 :
 |
-ParseNode
-*
+BINJS_TRY_DECL
+(
 params
-=
 new_
 <
 ListNode
@@ -3697,6 +3696,7 @@ tokenizer_
 pos
 (
 start
+)
 )
 )
 ;
@@ -3905,10 +3905,9 @@ parseContext_
 build
 :
 |
-ParseNode
-*
+BINJS_TRY_DECL
+(
 params
-=
 new_
 <
 ListNode
@@ -3922,6 +3921,7 @@ param
 -
 >
 pn_pos
+)
 )
 ;
 factory_
@@ -4747,10 +4747,9 @@ ListOfParameter
 init
 :
 |
-ParseNode
-*
+BINJS_TRY_DECL
+(
 result
-=
 new_
 <
 ListNode
@@ -4766,6 +4765,7 @@ tokenizer_
 pos
 (
 start
+)
 )
 )
 ;
@@ -4829,10 +4829,9 @@ ListOfSpreadElementOrExpression
 init
 :
 #
-ParseNode
-*
+BINJS_TRY_DECL
+(
 result
-=
 new_
 <
 ListNode
@@ -4847,6 +4846,7 @@ tokenizer_
 >
 pos
 (
+)
 )
 )
 ;
@@ -5393,8 +5393,9 @@ BindingIdentifier
 after
 :
 |
-BINJS_TRY
+if
 (
+!
 parseContext_
 -
 >
@@ -5409,6 +5410,10 @@ result
 >
 pn_atom
 )
+)
+return
+raiseOOM
+(
 )
 ;
 if
