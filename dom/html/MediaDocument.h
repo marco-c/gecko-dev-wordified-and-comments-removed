@@ -290,16 +290,6 @@ aListener
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-void
-DropDocumentRef
-(
-)
-{
-mDocument
-=
-nullptr
-;
-}
 RefPtr
 <
 MediaDocument
