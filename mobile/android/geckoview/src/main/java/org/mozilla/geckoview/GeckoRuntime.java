@@ -649,6 +649,16 @@ return
 mDelegate
 ;
 }
+public
+GeckoRuntimeSettings
+getSettings
+(
+)
+{
+return
+mSettings
+;
+}
 Override
 public
 int
