@@ -2010,7 +2010,7 @@ t
 >
 {
 return
-createPseudo
+getPseudoElement
 (
 t
 '
