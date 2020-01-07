@@ -2243,7 +2243,6 @@ DidReflow
 (
 aPresContext
 aReflowInput
-aStatus
 )
 ;
 PresShell
