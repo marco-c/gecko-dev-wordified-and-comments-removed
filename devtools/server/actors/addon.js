@@ -1152,6 +1152,11 @@ document
 nodePrincipal
 .
 addonId
+=
+=
+this
+.
+id
 ;
 }
 return
