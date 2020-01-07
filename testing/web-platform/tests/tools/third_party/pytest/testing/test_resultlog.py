@@ -17,7 +17,7 @@ pytest
 from
 _pytest
 .
-main
+nodes
 import
 Node
 Item
@@ -27,12 +27,16 @@ _pytest
 .
 resultlog
 import
+(
+    
 generic_path
+    
 ResultLog
-\
     
 pytest_configure
+    
 pytest_unconfigure
+)
 def
 test_generic_path
 (
@@ -66,24 +70,29 @@ p1
 =
 Node
 (
-'
+"
 a
-'
+"
 config
 =
 config
 session
 =
 session
+nodeid
+=
+"
+a
+"
 )
     
 p2
 =
 Node
 (
-'
+"
 B
-'
+"
 parent
 =
 p1
@@ -93,10 +102,10 @@ p3
 =
 Node
 (
-'
+"
 (
 )
-'
+"
 parent
 =
 p2
@@ -106,9 +115,9 @@ item
 =
 Item
 (
-'
+"
 c
-'
+"
 parent
 =
 p3
@@ -125,7 +134,7 @@ assert
 res
 =
 =
-'
+"
 a
 .
 B
@@ -133,17 +142,17 @@ B
 )
 .
 c
-'
+"
     
 p0
 =
 FSCollector
 (
-'
+"
 proj
 /
 test
-'
+"
 config
 =
 config
@@ -156,13 +165,13 @@ p1
 =
 FSCollector
 (
-'
+"
 proj
 /
 test
 /
 a
-'
+"
 parent
 =
 p0
@@ -172,9 +181,9 @@ p2
 =
 Node
 (
-'
+"
 B
-'
+"
 parent
 =
 p1
@@ -184,10 +193,10 @@ p3
 =
 Node
 (
-'
+"
 (
 )
-'
+"
 parent
 =
 p2
@@ -197,9 +206,9 @@ p4
 =
 Node
 (
-'
+"
 c
-'
+"
 parent
 =
 p3
@@ -209,11 +218,11 @@ item
 =
 Item
 (
-'
+"
 [
 1
 ]
-'
+"
 parent
 =
 p4
@@ -230,7 +239,7 @@ assert
 res
 =
 =
-'
+"
 test
 /
 a
@@ -243,7 +252,7 @@ c
 [
 1
 ]
-'
+"
 def
 test_write_log_entry
 (
@@ -274,14 +283,14 @@ reslog
 .
 write_log_entry
 (
-'
+"
 name
-'
-'
+"
+"
 .
-'
-'
-'
+"
+"
+"
 )
     
 entry
@@ -302,10 +311,10 @@ entry
 ]
 =
 =
-'
+"
 \
 n
-'
+"
     
 entry_lines
 =
@@ -331,10 +340,10 @@ entry_lines
 ]
 =
 =
-'
+"
 .
 name
-'
+"
     
 reslog
 .
@@ -352,15 +361,15 @@ reslog
 .
 write_log_entry
 (
-'
+"
 name
-'
-'
+"
+"
 s
-'
-'
+"
+"
 Skipped
-'
+"
 )
     
 entry
@@ -381,10 +390,10 @@ entry
 ]
 =
 =
-'
+"
 \
 n
-'
+"
     
 entry_lines
 =
@@ -410,10 +419,10 @@ entry_lines
 ]
 =
 =
-'
+"
 s
 name
-'
+"
     
 assert
 entry_lines
@@ -422,9 +431,9 @@ entry_lines
 ]
 =
 =
-'
+"
 Skipped
-'
+"
     
 reslog
 .
@@ -442,17 +451,17 @@ reslog
 .
 write_log_entry
 (
-'
+"
 name
-'
-'
+"
+"
 s
-'
-'
+"
+"
 Skipped
 \
 n
-'
+"
 )
     
 entry
@@ -473,10 +482,10 @@ entry
 ]
 =
 =
-'
+"
 \
 n
-'
+"
     
 entry_lines
 =
@@ -502,10 +511,10 @@ entry_lines
 ]
 =
 =
-'
+"
 s
 name
-'
+"
     
 assert
 entry_lines
@@ -514,9 +523,9 @@ entry_lines
 ]
 =
 =
-'
+"
 Skipped
-'
+"
     
 reslog
 .
@@ -532,7 +541,7 @@ TextIO
     
 longrepr
 =
-'
+"
 tb1
 \
 n
@@ -544,18 +553,18 @@ tb3
 \
 nSome
 Error
-'
+"
     
 reslog
 .
 write_log_entry
 (
-'
+"
 name
-'
-'
+"
+"
 F
-'
+"
 longrepr
 )
     
@@ -577,10 +586,10 @@ entry
 ]
 =
 =
-'
+"
 \
 n
-'
+"
     
 entry_lines
 =
@@ -606,10 +615,10 @@ entry_lines
 ]
 =
 =
-'
+"
 F
 name
-'
+"
     
 assert
 entry_lines
@@ -620,8 +629,8 @@ entry_lines
 =
 =
 [
-'
-'
+"
+"
 +
 line
 for
@@ -860,6 +869,7 @@ testdir
 .
 makepyfile
 (
+            
 test_mod
 =
 "
@@ -938,6 +948,7 @@ pass
 "
 "
 "
+        
 )
         
 lines
@@ -1101,9 +1112,9 @@ lines
 .
 startswith
 (
-'
+"
 x
-'
+"
 )
         
 tb
@@ -1149,9 +1160,9 @@ lines
 .
 startswith
 (
-'
+"
 X
-'
+"
 )
         
 assert
@@ -1267,9 +1278,9 @@ entry_lines
 .
 startswith
 (
-'
+"
 !
-'
+"
 )
         
 if
@@ -1312,13 +1323,13 @@ entry_lines
 ]
 =
 =
-'
-'
+"
+"
         
 assert
-'
+"
 ValueError
-'
+"
 in
 entry
 def
@@ -1344,6 +1355,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1420,6 +1432,7 @@ assert
 "
 "
 "
+    
 )
     
 testdir
@@ -1466,44 +1479,46 @@ lines
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 .
 *
 :
 test_pass
 "
-        
+            
 "
 F
 *
 :
 test_fail
 "
-        
+            
 "
 s
 *
 :
 test_skip
 "
-        
+            
 "
 x
 *
 :
 test_xfail
 "
-        
+            
 "
 x
 *
 :
 test_xfail_norun
 "
-    
+        
 ]
+    
 )
 def
 test_makedir_for_resultlog
@@ -1546,6 +1561,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1564,6 +1580,7 @@ pass
 "
 "
 "
+    
 )
     
 testdir
@@ -1619,14 +1636,12 @@ lines
 fnmatch_lines
 (
 [
-        
 "
 .
 *
 :
 test_pass
 "
-    
 ]
 )
 def
@@ -1663,9 +1678,9 @@ not
 hasattr
 (
 config
-'
+"
 _resultlog
-'
+"
 )
     
 pytest_configure
@@ -1677,9 +1692,9 @@ assert
 hasattr
 (
 config
-'
+"
 _resultlog
-'
+"
 )
     
 pytest_unconfigure
@@ -1692,9 +1707,9 @@ not
 hasattr
 (
 config
-'
+"
 _resultlog
-'
+"
 )
     
 config
@@ -1714,9 +1729,9 @@ not
 hasattr
 (
 config
-'
+"
 _resultlog
-'
+"
 )
     
 pytest_unconfigure
@@ -1729,9 +1744,9 @@ not
 hasattr
 (
 config
-'
+"
 _resultlog
-'
+"
 )
 def
 test_failure_issue380
@@ -1744,6 +1759,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -1807,12 +1823,14 @@ path
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1828,6 +1846,7 @@ pass
 "
 "
 "
+    
 )
     
 result

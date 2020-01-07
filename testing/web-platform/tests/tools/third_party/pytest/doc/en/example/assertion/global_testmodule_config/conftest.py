@@ -1,5 +1,6 @@
 import
 pytest
+import
 py
 mydir
 =
@@ -63,9 +64,9 @@ if
 hasattr
 (
 mod
-'
+"
 hello
-'
+"
 )
 :
             

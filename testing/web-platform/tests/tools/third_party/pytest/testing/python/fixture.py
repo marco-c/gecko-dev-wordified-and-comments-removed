@@ -20,6 +20,7 @@ _pytest
 fixtures
 import
 FixtureLookupError
+FixtureRequest
 from
 _pytest
 import
@@ -66,9 +67,9 @@ g
 =
 =
 (
-'
+"
 arg
-'
+"
 )
     
 def
@@ -95,9 +96,9 @@ h
 =
 =
 (
-'
+"
 arg1
-'
+"
 )
     
 def
@@ -125,12 +126,12 @@ h
 =
 =
 (
-'
+"
 arg1
-'
-'
+"
+"
 arg2
-'
+"
 )
     
 class
@@ -181,9 +182,9 @@ f
 =
 =
 (
-'
+"
 arg1
-'
+"
 )
     
 assert
@@ -201,12 +202,12 @@ A
 =
 =
 (
-'
+"
 arg1
-'
-'
+"
+"
 arg2
-'
+"
 )
 class
 TestFillFixtures
@@ -244,6 +245,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -277,6 +279,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -301,8 +304,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 def
@@ -312,7 +315,6 @@ some
 )
 *
 "
-            
 "
 *
 fixture
@@ -323,14 +325,13 @@ not
 found
 *
 "
-            
 "
 *
 xyzsomething
 *
 "
-        
 ]
+        
 )
     
 def
@@ -347,6 +348,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -399,6 +401,7 @@ pass
 "
 "
 "
+        
 )
         
 fixtures
@@ -437,9 +440,9 @@ item
 .
 funcargs
 [
-'
+"
 some
-'
+"
 ]
 =
 =
@@ -452,9 +455,9 @@ item
 .
 funcargs
 [
-'
+"
 other
-'
+"
 ]
 =
 =
@@ -472,6 +475,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -538,6 +542,7 @@ test_func
 "
 "
 "
+        
 )
         
 reprec
@@ -571,6 +576,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -618,6 +624,7 @@ self
 "
 "
 "
+        
 )
         
 result
@@ -636,14 +643,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -690,12 +695,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -734,7 +741,9 @@ arg2
 "
 "
 "
+            
 )
+        
 )
         
 sub2
@@ -750,12 +759,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -794,7 +805,9 @@ arg1
 "
 "
 "
+            
 )
+        
 )
         
 sub1
@@ -880,6 +893,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -945,6 +959,7 @@ spamspam
 "
 "
 "
+        
 )
         
 result
@@ -1008,6 +1023,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -1033,6 +1049,7 @@ spam
 "
 "
 "
+        
 )
         
 testfile
@@ -1041,6 +1058,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1082,6 +1100,7 @@ spamspam
 "
 "
 "
+        
 )
         
 result
@@ -1145,6 +1164,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -1170,6 +1190,7 @@ spam
 "
 "
 "
+        
 )
         
 pkg
@@ -1196,12 +1217,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -1228,7 +1251,9 @@ spam
 "
 "
 "
+            
 )
+        
 )
         
 testfile
@@ -1248,12 +1273,14 @@ testfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -1276,7 +1303,9 @@ spamspam
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -1340,6 +1369,7 @@ testdir
 .
 makepyfile
 (
+            
 testplugin
 =
 "
@@ -1365,6 +1395,7 @@ return
 "
 "
 "
+        
 )
         
 testdir
@@ -1377,6 +1408,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -1409,12 +1441,14 @@ foo
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1435,6 +1469,7 @@ foo
 "
 "
 "
+        
 )
         
 result
@@ -1443,10 +1478,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 s
-'
+"
 )
         
 assert
@@ -1469,6 +1504,7 @@ testdir
 .
 makepyfile
 (
+            
 testplugin0
 =
 "
@@ -1494,12 +1530,14 @@ return
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 testplugin1
 =
 "
@@ -1528,6 +1566,7 @@ foo
 "
 "
 "
+        
 )
         
 testdir
@@ -1540,6 +1579,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1571,6 +1611,7 @@ foo
 "
 "
 "
+        
 )
         
 result
@@ -1625,6 +1666,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -1660,6 +1702,7 @@ param
 "
 "
 "
+        
 )
         
 testfile
@@ -1668,6 +1711,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1708,6 +1752,7 @@ spam
 "
 "
 "
+        
 )
         
 result
@@ -1794,6 +1839,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -1829,6 +1875,7 @@ param
 "
 "
 "
+        
 )
         
 subdir
@@ -1837,9 +1884,9 @@ testdir
 .
 mkpydir
 (
-'
+"
 subdir
-'
+"
 )
         
 subdir
@@ -1855,12 +1902,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -1886,7 +1935,9 @@ spam
 "
 "
 "
+            
 )
+        
 )
         
 testfile
@@ -1906,12 +1957,14 @@ testfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -1934,7 +1987,9 @@ spam
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -2022,6 +2077,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2047,6 +2103,7 @@ spam
 "
 "
 "
+        
 )
         
 testfile
@@ -2055,6 +2112,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2128,6 +2186,7 @@ spam
 "
 "
 "
+        
 )
         
 result
@@ -2214,6 +2273,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2239,6 +2299,7 @@ spam
 "
 "
 "
+        
 )
         
 subdir
@@ -2247,9 +2308,9 @@ testdir
 .
 mkpydir
 (
-'
+"
 subdir
-'
+"
 )
         
 subdir
@@ -2265,12 +2326,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -2306,7 +2369,9 @@ param
 "
 "
 "
+            
 )
+        
 )
         
 testfile
@@ -2326,12 +2391,14 @@ testfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -2377,7 +2444,9 @@ spam
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -2432,8 +2501,10 @@ passed
 def
 test_override_autouse_fixture_with_parametrized_fixture_conftest_conftest
 (
+        
 self
 testdir
+    
 )
 :
         
@@ -2473,6 +2544,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2503,6 +2575,7 @@ spam
 "
 "
 "
+        
 )
         
 subdir
@@ -2511,9 +2584,9 @@ testdir
 .
 mkpydir
 (
-'
+"
 subdir
-'
+"
 )
         
 subdir
@@ -2529,12 +2602,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -2570,7 +2645,9 @@ param
 "
 "
 "
+            
 )
+        
 )
         
 testfile
@@ -2590,12 +2667,14 @@ testfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -2641,7 +2720,9 @@ spam
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -2705,6 +2786,7 @@ testdir
 .
 makepyfile
 (
+            
 testplugin
 =
 "
@@ -2741,6 +2823,7 @@ foo
 "
 "
 "
+        
 )
         
 testdir
@@ -2753,6 +2836,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2783,6 +2867,7 @@ foo
 "
 "
 "
+        
 )
         
 result
@@ -2813,6 +2898,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2867,12 +2953,14 @@ pass
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2889,6 +2977,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -2905,8 +2994,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 ERROR
@@ -2916,7 +3006,7 @@ of
 test_lookup_error
 *
 "
-            
+                
 "
 def
 test_lookup_error
@@ -2926,7 +3016,7 @@ unknown
 :
 *
 "
-            
+                
 "
 E
 fixture
@@ -2936,7 +3026,7 @@ unknown
 not
 found
 "
-            
+                
 "
 >
 available
@@ -2954,7 +3044,7 @@ d_fixture
 monkeypatch
 *
 "
-            
+                
 "
 >
 use
@@ -2973,15 +3063,16 @@ on
 them
 .
 "
-            
+                
 "
 *
 1
 error
 *
 "
-        
+            
 ]
+        
 )
         
 assert
@@ -3010,6 +3101,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3118,6 +3210,7 @@ None
 "
 "
 "
+        
 )
         
 result
@@ -3156,6 +3249,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -3186,6 +3280,7 @@ pass
 "
 "
 "
+        
 )
         
 req
@@ -3223,9 +3318,9 @@ hasattr
 req
 .
 module
-'
+"
 test_func
-'
+"
 )
         
 assert
@@ -3290,6 +3385,7 @@ testdir
 .
 getitems
 (
+            
 "
 "
 "
@@ -3332,6 +3428,7 @@ pass
 "
 "
 "
+        
 )
         
 req
@@ -3378,6 +3475,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -3418,6 +3516,7 @@ pass
 "
 "
 "
+        
 )
         
 item1
@@ -3464,9 +3563,9 @@ arg2fixturedefs
 assert
 arg2fixturedefs
 [
-'
+"
 something
-'
+"
 ]
 [
 0
@@ -3480,6 +3579,193 @@ something
 "
     
 def
+test_request_garbage
+(
+self
+testdir
+)
+:
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+sys
+            
+import
+pytest
+            
+from
+_pytest
+.
+fixtures
+import
+PseudoFixtureDef
+            
+import
+gc
+            
+pytest
+.
+fixture
+(
+autouse
+=
+True
+)
+            
+def
+something
+(
+request
+)
+:
+                
+#
+this
+method
+of
+test
+doesn
+'
+t
+work
+on
+pypy
+                
+if
+hasattr
+(
+sys
+"
+pypy_version_info
+"
+)
+:
+                    
+yield
+                
+else
+:
+                    
+original
+=
+gc
+.
+get_debug
+(
+)
+                    
+gc
+.
+set_debug
+(
+gc
+.
+DEBUG_SAVEALL
+)
+                    
+gc
+.
+collect
+(
+)
+                    
+yield
+                    
+gc
+.
+collect
+(
+)
+                    
+leaked_types
+=
+sum
+(
+1
+for
+_
+in
+gc
+.
+garbage
+                                       
+if
+isinstance
+(
+_
+PseudoFixtureDef
+)
+)
+                    
+gc
+.
+garbage
+[
+:
+]
+=
+[
+]
+                    
+try
+:
+                        
+assert
+leaked_types
+=
+=
+0
+                    
+finally
+:
+                        
+gc
+.
+set_debug
+(
+original
+)
+            
+def
+test_func
+(
+)
+:
+                
+pass
+        
+"
+"
+"
+        
+)
+        
+reprec
+=
+testdir
+.
+inline_run
+(
+)
+        
+reprec
+.
+assertoutcome
+(
+passed
+=
+1
+)
+    
+def
 test_getfixturevalue_recursive
 (
 self
@@ -3491,6 +3777,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -3515,12 +3802,14 @@ return
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3567,6 +3856,7 @@ something
 "
 "
 "
+        
 )
         
 reprec
@@ -3592,17 +3882,16 @@ mark
 .
 parametrize
 (
-        
-'
+"
 getfixmethod
-'
+"
 (
-'
+"
 getfixturevalue
-'
-'
+"
+"
 getfuncargvalue
-'
+"
 )
 )
     
@@ -3621,6 +3910,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -3676,6 +3966,7 @@ pass
 "
 "
 "
+        
 )
         
 import
@@ -3685,9 +3976,9 @@ if
 getfixmethod
 =
 =
-'
+"
 getfuncargvalue
-'
+"
 :
             
 warning_expectation
@@ -3871,6 +4162,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -3919,6 +4211,7 @@ pass
 "
 "
 "
+        
 )
         
 item
@@ -4001,6 +4294,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -4023,6 +4317,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -4047,8 +4342,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 AssertionError
@@ -4062,14 +4358,15 @@ pytest
 fixture
 *
 "
-            
+                
 "
 *
 pytest_funcarg__marked_with_prefix_and_decorator
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -4084,6 +4381,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4142,6 +4440,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -4180,6 +4479,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4245,6 +4545,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -4297,6 +4598,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4362,6 +4664,7 @@ values
 "
 "
 "
+        
 )
         
 result
@@ -4379,16 +4682,16 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 1
 error
 *
 "
-        
 ]
+        
 )
     
 def
@@ -4438,6 +4741,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4606,6 +4910,7 @@ values
 "
 "
 "
+        
 )
         
 result
@@ -4622,9 +4927,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+"
 *
 Exception
 :
@@ -4632,9 +4937,8 @@ Error
 in
 excepts
 fixture
-'
-            
-'
+"
+"
 *
 2
 passed
@@ -4642,9 +4946,9 @@ passed
 error
 in
 *
-'
-        
+"
 ]
+        
 )
     
 def
@@ -4713,6 +5017,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4824,6 +5129,7 @@ tmpdir_factory
 "
 "
 "
+        
 )
         
 reprec
@@ -4855,6 +5161,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4936,6 +5243,7 @@ fn
 "
 "
 "
+        
 )
         
 reprec
@@ -4967,6 +5275,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5146,6 +5455,7 @@ function
 "
 "
 "
+        
 )
         
 reprec
@@ -5208,12 +5518,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -5236,7 +5548,9 @@ pass
 "
 "
 "
+            
 )
+        
 )
         
 p
@@ -5295,6 +5609,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -5313,6 +5628,7 @@ arg1
 "
 "
 "
+        
 )
     
 def
@@ -5344,27 +5660,27 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 color
 =
 yes
-'
-'
+"
+"
 -
 -
 fixtures
-'
+"
 )
         
 assert
-'
+"
 \
 x1b
 [
 32mtmpdir
-'
+"
 in
 result
 .
@@ -5386,6 +5702,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5420,6 +5737,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -5451,6 +5769,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5527,6 +5846,7 @@ in
 "
 "
 "
+        
 )
         
 reprec
@@ -5567,6 +5887,7 @@ testdir
 .
 getitems
 (
+            
 "
 "
 "
@@ -5617,6 +5938,7 @@ pass
 "
 "
 "
+        
 )
         
 req1
@@ -5629,9 +5951,9 @@ item1
 )
         
 assert
-'
+"
 xfail
-'
+"
 not
 in
 item1
@@ -5650,18 +5972,18 @@ xfail
 )
         
 assert
-'
+"
 xfail
-'
+"
 in
 item1
 .
 keywords
         
 assert
-'
+"
 skipif
-'
+"
 not
 in
 item1
@@ -5680,9 +6002,9 @@ skipif
 )
         
 assert
-'
+"
 skipif
-'
+"
 in
 item1
 .
@@ -5715,6 +6037,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5772,6 +6095,7 @@ keywords
 "
 "
 "
+        
 )
         
 reprec
@@ -5803,6 +6127,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -5868,12 +6193,14 @@ hello
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5936,6 +6263,7 @@ keywords
 "
 "
 "
+        
 )
         
 reprec
@@ -5975,6 +6303,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -6057,6 +6386,7 @@ hello
 "
 "
 "
+        
 )
         
 reprec
@@ -6082,6 +6412,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -6201,6 +6532,7 @@ hello
 "
 "
 "
+        
 )
         
 reprec
@@ -6432,9 +6764,9 @@ values
 =
 =
 [
-'
+"
 setup
-'
+"
 ]
         
 setupstate
@@ -6534,6 +6866,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6600,6 +6933,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -6621,14 +6955,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -6644,6 +6976,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6722,6 +7055,7 @@ arg1
 "
 "
 "
+        
 )
         
 result
@@ -6743,14 +7077,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -6766,6 +7098,7 @@ testdir
 .
 makepyfile
 (
+            
 test_0
 =
 "
@@ -6886,12 +7219,14 @@ something
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 test_1
 =
 "
@@ -6925,6 +7260,7 @@ values
 "
 "
 "
+        
 )
         
 result
@@ -6946,14 +7282,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 3
 passed
 *
 "
-        
 ]
 )
     
@@ -6969,6 +7303,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7031,6 +7366,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -7056,7 +7392,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 3
@@ -7064,13 +7399,11 @@ fnmatch_lines
 x
 *
 "
-            
 "
 *
 ZeroDivisionError
 *
 "
-        
 ]
 )
 class
@@ -7092,6 +7425,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7128,6 +7462,7 @@ arg1
 "
 "
 "
+        
 )
         
 reprec
@@ -7159,6 +7494,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7235,6 +7571,7 @@ arg2
 "
 "
 "
+        
 )
         
 reprec
@@ -7266,6 +7603,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7332,6 +7670,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -7348,8 +7687,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 ScopeMismatch
@@ -7358,29 +7698,30 @@ involved
 factories
 *
 "
-            
+                
 "
 *
 def
 arg2
 *
 "
-            
+                
 "
 *
 def
 arg1
 *
 "
-            
+                
 "
 *
 1
 error
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -7395,6 +7736,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7462,6 +7804,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -7478,8 +7821,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 ScopeMismatch
@@ -7488,22 +7831,20 @@ involved
 factories
 *
 "
-            
 "
 *
 def
 arg2
 *
 "
-            
 "
 *
 1
 error
 *
 "
-        
 ]
+        
 )
     
 def
@@ -7518,6 +7859,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7556,6 +7898,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -7574,6 +7917,7 @@ fnmatch_lines
 (
             
 (
+                
 "
 *
 ValueError
@@ -7588,7 +7932,7 @@ has
 an
 unsupported
 "
-             
+                
 "
 scope
 value
@@ -7596,6 +7940,7 @@ value
 functions
 '
 "
+            
 )
         
 )
@@ -7612,6 +7957,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7701,6 +8047,7 @@ arg1
 "
 "
 "
+        
 )
         
 result
@@ -7718,14 +8065,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 2
 passed
 *
 "
-        
 ]
 )
     
@@ -7741,6 +8086,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7790,6 +8136,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -7806,6 +8153,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -7853,6 +8201,7 @@ found
 "
 "
 "
+        
 )
     
 def
@@ -7867,6 +8216,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7909,6 +8259,7 @@ arg1
 "
 "
 "
+        
 )
         
 reprec
@@ -7948,6 +8299,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7995,6 +8347,7 @@ a
 "
 "
 "
+        
 )
         
 reprec
@@ -8026,6 +8379,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8149,6 +8503,7 @@ TestClass
 "
 "
 "
+        
 )
         
 reprec
@@ -8180,6 +8535,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -8195,12 +8551,14 @@ myfix
 "
 "
 "
+        
 )
         
 testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -8239,12 +8597,14 @@ world
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8293,6 +8653,7 @@ world
 "
 "
 "
+        
 )
         
 reprec
@@ -8339,6 +8700,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -8357,6 +8719,7 @@ fixtures
 "
 "
 "
+        
 )
     
 def
@@ -8371,6 +8734,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8430,6 +8794,7 @@ arg1
 "
 "
 "
+        
 )
         
 reprec
@@ -8461,6 +8826,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8564,6 +8930,7 @@ arg2
 "
 "
 "
+        
 )
         
 reprec
@@ -8651,6 +9018,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -8709,6 +9077,7 @@ _pyfuncitem
 "
 "
 "
+        
 )
         
 return
@@ -8726,6 +9095,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8776,6 +9146,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -8810,6 +9181,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8879,6 +9251,7 @@ name
 "
 "
 "
+        
 )
         
 reprec
@@ -8914,6 +9287,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9055,6 +9429,7 @@ class
 "
 "
 "
+        
 )
         
 reprec
@@ -9121,8 +9496,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -9147,7 +9524,9 @@ return
 "
 "
 "
+            
 )
+        
 )
         
 package
@@ -9163,8 +9542,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -9186,7 +9567,9 @@ one
 "
 "
 "
+            
 )
+        
 )
         
 sub
@@ -9228,8 +9611,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -9254,7 +9639,9 @@ return
 "
 "
 "
+            
 )
+        
 )
         
 sub
@@ -9270,8 +9657,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -9293,7 +9682,9 @@ one
 "
 "
 "
+            
 )
+        
 )
         
 reprec
@@ -9364,6 +9755,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -9458,6 +9850,7 @@ _pyfuncitem
 "
 "
 "
+        
 )
         
 return
@@ -9475,6 +9868,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9534,6 +9928,7 @@ autousenames
 "
 "
 "
+        
 )
         
 reprec
@@ -9569,6 +9964,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9687,6 +10083,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -9718,6 +10115,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9798,6 +10196,7 @@ test_method2
 "
 "
 "
+        
 )
         
 reprec
@@ -9851,6 +10250,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9960,6 +10360,7 @@ fixturenames
 "
 "
 "
+        
 )
         
 reprec
@@ -9995,7 +10396,7 @@ testdir
 "
 "
         
-a
+an
 imported
 mock
 .
@@ -10028,6 +10429,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -10073,6 +10475,7 @@ _call
 "
 "
 "
+        
 )
         
 reprec
@@ -10135,6 +10538,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -10162,6 +10566,7 @@ xxx
 "
 "
 "
+        
 )
         
 conftest
@@ -10238,6 +10643,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -10253,6 +10659,7 @@ error
 "
 "
 "
+        
 )
     
 def
@@ -10267,6 +10674,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -10412,6 +10820,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -10469,12 +10878,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -10511,7 +10922,9 @@ hello
 "
 "
 "
+            
 )
+        
 )
         
 t
@@ -10534,12 +10947,14 @@ t
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -10566,7 +10981,9 @@ hello
 "
 "
 "
+            
 )
+        
 )
         
 reprec
@@ -10602,6 +11019,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -10665,6 +11083,7 @@ f
 "
 "
 "
+        
 )
         
 reprec
@@ -10696,6 +11115,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -10828,6 +11248,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -10859,6 +11280,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -10971,6 +11393,7 @@ else
 "
 "
 "
+        
 )
         
 reprec
@@ -11006,6 +11429,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -11133,6 +11557,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -11174,6 +11599,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -11306,12 +11732,14 @@ fin
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -11354,6 +11782,7 @@ pass
 "
 "
 "
+        
 )
         
 confcut
@@ -11364,7 +11793,6 @@ confcut
 confcutdir
 =
 {
-0
 }
 "
 .
@@ -11466,6 +11894,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -11586,6 +12015,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -11617,6 +12047,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -11635,6 +12066,21 @@ pytest_generate_tests
 metafunc
 )
 :
+                
+if
+metafunc
+.
+cls
+is
+None
+:
+                    
+assert
+metafunc
+.
+function
+is
+test_finish
                 
 if
 metafunc
@@ -11834,6 +12280,7 @@ teardown
 "
 "
 "
+        
 )
         
 reprec
@@ -11842,6 +12289,10 @@ testdir
 .
 inline_run
 (
+"
+-
+s
+"
 )
         
 reprec
@@ -11865,6 +12316,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -11937,6 +12389,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -12040,6 +12493,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12176,10 +12630,12 @@ fin1
 "
 "
 "
+            
 %
 locals
 (
 )
+        
 )
         
 reprec
@@ -12221,6 +12677,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12298,6 +12755,7 @@ abc
 "
 "
 "
+        
 )
         
 reprec
@@ -12329,6 +12787,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12406,6 +12865,7 @@ in
 "
 "
 "
+        
 )
         
 reprec
@@ -12431,9 +12891,11 @@ mark
 .
 parametrize
 (
-'
+        
+"
 param_args
-'
+"
+        
 [
 "
 '
@@ -12468,6 +12930,7 @@ val
 )
 "
 ]
+    
 )
     
 def
@@ -12515,6 +12978,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12583,8 +13047,10 @@ pass
 "
 "
 "
+            
 %
 param_args
+        
 )
         
 reprec
@@ -12616,6 +13082,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12723,6 +13190,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -12754,6 +13222,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12834,6 +13303,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -12868,6 +13338,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12985,6 +13456,7 @@ m
 "
 "
 "
+        
 )
         
 reprec
@@ -13179,6 +13651,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -13286,6 +13759,7 @@ values
 "
 "
 "
+        
 )
         
 reprec
@@ -13317,6 +13791,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -13420,6 +13895,7 @@ finalized_list
 "
 "
 "
+        
 )
         
 testdir
@@ -13538,6 +14014,7 @@ finalized
 "
 "
 "
+        
 )
         
 reprec
@@ -13563,11 +14040,13 @@ mark
 .
 parametrize
 (
+        
 "
 method
 "
-[
         
+[
+            
 '
 request
 .
@@ -13578,7 +14057,7 @@ arg
 "
 )
 '
-        
+            
 '
 request
 .
@@ -13594,8 +14073,9 @@ function
 "
 )
 '
-    
+        
 ]
+        
 ids
 =
 [
@@ -13606,6 +14086,7 @@ getfixturevalue
 cached_setup
 "
 ]
+    
 )
     
 def
@@ -13621,6 +14102,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -13661,6 +14143,7 @@ pass
 "
 "
 "
+        
 )
         
 testdir
@@ -13710,8 +14193,10 @@ pass
 "
 "
 "
+            
 %
 method
+        
 )
         
 result
@@ -13736,8 +14221,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 ScopeMismatch
@@ -13752,8 +14237,8 @@ session
 request
 *
 "
-        
 ]
+        
 )
     
 def
@@ -13768,6 +14253,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -13793,6 +14279,7 @@ return
 "
 "
 "
+        
 )
         
 testdir
@@ -13843,6 +14330,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -13874,6 +14362,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -13939,6 +14428,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -14024,6 +14514,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -14054,12 +14545,14 @@ pass
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -14099,6 +14592,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -14116,20 +14610,17 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 ScopeMismatch
 *
 "
-            
 "
 *
 1
 error
 *
 "
-        
 ]
 )
     
@@ -14145,6 +14636,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -14217,6 +14709,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -14283,6 +14776,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -14298,12 +14792,14 @@ classic
 "
 "
 "
+        
 )
         
 testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -14372,12 +14868,14 @@ pass
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 test_mod1
 =
 "
@@ -14405,6 +14903,7 @@ pass
 "
 "
 "
+            
 test_mod2
 =
 "
@@ -14452,6 +14951,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -14472,6 +14972,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -14671,10 +15172,11 @@ PASSED
 "
 "
 "
+        
 )
     
 def
-test_class_ordering
+test_dynamic_parametrized_ordering
 (
 self
 testdir
@@ -14685,6 +15187,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -14700,12 +15203,353 @@ classic
 "
 "
 "
+        
 )
         
 testdir
 .
 makeconftest
 (
+            
+"
+"
+"
+            
+import
+pytest
+            
+def
+pytest_configure
+(
+config
+)
+:
+                
+class
+DynamicFixturePlugin
+(
+object
+)
+:
+                    
+pytest
+.
+fixture
+(
+scope
+=
+'
+session
+'
+params
+=
+[
+'
+flavor1
+'
+'
+flavor2
+'
+]
+)
+                    
+def
+flavor
+(
+self
+request
+)
+:
+                        
+return
+request
+.
+param
+                
+config
+.
+pluginmanager
+.
+register
+(
+DynamicFixturePlugin
+(
+)
+'
+flavor
+-
+fixture
+'
+)
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+session
+'
+params
+=
+[
+'
+vxlan
+'
+'
+vlan
+'
+]
+)
+            
+def
+encap
+(
+request
+)
+:
+                
+return
+request
+.
+param
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+session
+'
+autouse
+=
+'
+True
+'
+)
+            
+def
+reprovision
+(
+request
+flavor
+encap
+)
+:
+                
+pass
+        
+"
+"
+"
+        
+)
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+def
+test
+(
+reprovision
+)
+:
+                
+pass
+            
+def
+test2
+(
+reprovision
+)
+:
+                
+pass
+        
+"
+"
+"
+        
+)
+        
+result
+=
+testdir
+.
+runpytest
+(
+"
+-
+v
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+"
+"
+"
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test
+[
+flavor1
+-
+vxlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test2
+[
+flavor1
+-
+vxlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test
+[
+flavor2
+-
+vxlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test2
+[
+flavor2
+-
+vxlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test
+[
+flavor2
+-
+vlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test2
+[
+flavor2
+-
+vlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test
+[
+flavor1
+-
+vlan
+]
+PASSED
+            
+test_dynamic_parametrized_ordering
+.
+py
+:
+:
+test2
+[
+flavor1
+-
+vlan
+]
+PASSED
+        
+"
+"
+"
+        
+)
+    
+def
+test_class_ordering
+(
+self
+testdir
+)
+:
+        
+testdir
+.
+makeini
+(
+            
+"
+"
+"
+            
+[
+pytest
+]
+            
+console_output_style
+=
+classic
+        
+"
+"
+"
+        
+)
+        
+testdir
+.
+makeconftest
+(
+            
 "
 "
 "
@@ -14835,12 +15679,14 @@ fin
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -14892,6 +15738,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -14910,8 +15757,10 @@ result
 .
 stdout
 .
-fnmatch_lines
+re_match_lines
 (
+            
+r
 "
 "
 "
@@ -14925,10 +15774,12 @@ TestClass2
 :
 :
 test_1
+\
 [
-1
--
 a
+-
+1
+\
 ]
 PASSED
             
@@ -14941,10 +15792,12 @@ TestClass2
 :
 :
 test_1
+\
 [
-2
--
 a
+-
+2
+\
 ]
 PASSED
             
@@ -14957,10 +15810,12 @@ TestClass2
 :
 :
 test_2
+\
 [
+a
+-
 1
--
-a
+\
 ]
 PASSED
             
@@ -14973,10 +15828,12 @@ TestClass2
 :
 :
 test_2
+\
 [
-2
--
 a
+-
+2
+\
 ]
 PASSED
             
@@ -14989,10 +15846,12 @@ TestClass2
 :
 :
 test_1
+\
 [
-1
--
 b
+-
+1
+\
 ]
 PASSED
             
@@ -15005,10 +15864,12 @@ TestClass2
 :
 :
 test_1
+\
 [
-2
--
 b
+-
+2
+\
 ]
 PASSED
             
@@ -15021,10 +15882,12 @@ TestClass2
 :
 :
 test_2
+\
 [
-1
--
 b
+-
+1
+\
 ]
 PASSED
             
@@ -15037,10 +15900,12 @@ TestClass2
 :
 :
 test_2
+\
 [
-2
--
 b
+-
+2
+\
 ]
 PASSED
             
@@ -15053,42 +15918,12 @@ TestClass
 :
 :
 test_3
+\
 [
-1
--
 a
-]
-PASSED
-            
-test_class_ordering
-.
-py
-:
-:
-TestClass
-:
-:
-test_3
-[
-2
 -
-a
-]
-PASSED
-            
-test_class_ordering
-.
-py
-:
-:
-TestClass
-:
-:
-test_3
-[
 1
--
-b
+\
 ]
 PASSED
             
@@ -15101,16 +15936,55 @@ TestClass
 :
 :
 test_3
+\
 [
-2
+a
 -
+2
+\
+]
+PASSED
+            
+test_class_ordering
+.
+py
+:
+:
+TestClass
+:
+:
+test_3
+\
+[
 b
+-
+1
+\
+]
+PASSED
+            
+test_class_ordering
+.
+py
+:
+:
+TestClass
+:
+:
+test_3
+\
+[
+b
+-
+2
+\
 ]
 PASSED
         
 "
 "
 "
+        
 )
     
 def
@@ -15125,6 +15999,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -15350,6 +16225,7 @@ test4
 "
 "
 "
+        
 )
         
 reprec
@@ -15397,169 +16273,198 @@ expected
 =
 [
             
-'
+"
 create
 :
 1
-'
-'
-test1
-'
-'
-fin
-:
-1
-'
-'
-create
-:
-2
-'
-'
-test1
-'
+"
             
-'
+"
+test1
+"
+            
+"
+fin
+:
+1
+"
+            
+"
+create
+:
+2
+"
+            
+"
+test1
+"
+            
+"
 fin
 :
 2
-'
-'
+"
+            
+"
 create
 :
 mod1
-'
-'
+"
+            
+"
 test2
-'
-'
+"
+            
+"
 create
 :
 1
-'
-'
+"
+            
+"
 test3
-'
+"
             
-'
+"
 fin
 :
 1
-'
-'
+"
+            
+"
 create
 :
 2
-'
-'
+"
+            
+"
 test3
-'
-'
+"
+            
+"
 fin
 :
 2
-'
-'
+"
+            
+"
 create
 :
 1
-'
+"
             
-'
+"
 test4
-'
-'
+"
+            
+"
 fin
 :
 1
-'
-'
+"
+            
+"
 create
 :
 2
-'
-'
+"
+            
+"
 test4
-'
-'
+"
+            
+"
 fin
 :
 2
-'
+"
             
-'
+"
 fin
 :
 mod1
-'
-'
+"
+            
+"
 create
 :
 mod2
-'
-'
+"
+            
+"
 test2
-'
-'
+"
+            
+"
 create
 :
 1
-'
-'
+"
+            
+"
 test3
-'
+"
             
-'
+"
 fin
 :
 1
-'
-'
+"
+            
+"
 create
 :
 2
-'
-'
+"
+            
+"
 test3
-'
-'
+"
+            
+"
 fin
 :
 2
-'
-'
+"
+            
+"
 create
 :
 1
-'
+"
             
-'
+"
 test4
-'
-'
+"
+            
+"
 fin
 :
 1
-'
-'
+"
+            
+"
 create
 :
 2
-'
-'
+"
+            
+"
 test4
-'
-'
+"
+            
+"
 fin
 :
 2
-'
+"
             
-'
+"
 fin
 :
 mod2
-'
+"
+        
 ]
         
 import
@@ -15597,6 +16502,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -15785,6 +16691,7 @@ values
 "
 "
 "
+        
 )
         
 result
@@ -15805,6 +16712,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -15817,6 +16725,7 @@ passed
 "
 "
 "
+        
 )
         
 assert
@@ -15845,6 +16754,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -15897,6 +16807,7 @@ return
 "
 "
 "
+        
 )
         
 b
@@ -15923,8 +16834,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -15975,7 +16888,9 @@ True
 "
 "
 "
+            
 )
+        
 )
         
 reprec
@@ -15994,9 +16909,9 @@ for
 test
 in
 [
-'
+"
 test_browser
-'
+"
 ]
 :
             
@@ -16006,11 +16921,11 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 Finalized
 *
-'
+"
 )
     
 def
@@ -16027,6 +16942,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -16132,6 +17048,7 @@ a
 "
 "
 "
+        
 )
         
 reprec
@@ -16147,15 +17064,15 @@ for
 test
 in
 [
-'
+"
 test_a
-'
-'
+"
+"
 test_b
-'
-'
+"
+"
 test_c
-'
+"
 ]
 :
             
@@ -16181,6 +17098,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -16240,6 +17158,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -16295,6 +17214,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -16393,6 +17313,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -16510,6 +17431,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -16646,6 +17568,7 @@ fin2
 "
 "
 "
+        
 )
         
 reprec
@@ -16710,6 +17633,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -16880,6 +17804,7 @@ pass
 "
 "
 "
+            
 %
 {
 "
@@ -16888,6 +17813,7 @@ scope
 :
 scope
 }
+        
 )
         
 reprec
@@ -16929,6 +17855,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -17064,6 +17991,7 @@ test_population
 "
 "
 "
+        
 )
         
 reprec
@@ -17104,47 +18032,61 @@ module
 values
         
 assert
+(
+            
 values
+            
 =
 =
 [
+                
 "
 test_hello
 "
+                
 "
 fin
 John
 "
+                
 "
 test_hello
 "
+                
 "
 fin
 Doe
 "
-                          
+                
 "
 test_name
 "
+                
 "
 test_population
 "
+                
 "
 fin
 John
 "
-                          
+                
 "
 test_name
 "
+                
 "
 test_population
 "
+                
 "
 fin
 Doe
 "
+            
 ]
+        
+)
     
 def
 test_parametrize_setup_function
@@ -17158,6 +18100,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -17348,6 +18291,7 @@ setup2
 "
 "
 "
+        
 )
         
 reprec
@@ -17383,6 +18327,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -17419,6 +18364,7 @@ test_app
 "
 "
 "
+        
 )
         
 reprec
@@ -17450,6 +18396,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -17509,6 +18456,7 @@ assert
 "
 "
 "
+        
 )
         
 res
@@ -17517,10 +18465,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 v
-'
+"
 )
         
 res
@@ -17530,22 +18478,20 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 test_foo
 *
 alpha
 *
-'
-            
-'
+"
+"
 *
 test_foo
 *
 beta
 *
-'
+"
 ]
 )
     
@@ -17561,6 +18507,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -17620,6 +18567,7 @@ assert
 "
 "
 "
+        
 )
         
 res
@@ -17628,10 +18576,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 v
-'
+"
 )
         
 res
@@ -17641,22 +18589,20 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 test_foo
 *
 alpha
 *
-'
-            
-'
+"
+"
 *
 test_foo
 *
 beta
 *
-'
+"
 ]
 )
     
@@ -17679,6 +18625,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -17818,6 +18765,7 @@ True
 "
 "
 "
+        
 )
         
 monkeypatch
@@ -17871,13 +18819,16 @@ v
 out1
 =
 [
+            
 line
+            
 for
 line
 in
 out1
 .
 outlines
+            
 if
 line
 .
@@ -17892,18 +18843,22 @@ py
 test_foo
 "
 )
+        
 ]
         
 out2
 =
 [
+            
 line
+            
 for
 line
 in
 out2
 .
 outlines
+            
 if
 line
 .
@@ -17918,6 +18873,7 @@ py
 test_foo
 "
 )
+        
 ]
         
 assert
@@ -17949,6 +18905,7 @@ mark
 .
 parametrize
 (
+        
 (
 "
 scope
@@ -17960,8 +18917,9 @@ ok
 error
 "
 )
-[
         
+[
+            
 [
 "
 session
@@ -17975,7 +18933,7 @@ function
 module
 "
 ]
-        
+            
 [
 "
 module
@@ -17989,7 +18947,7 @@ cls
 function
 "
 ]
-        
+            
 [
 "
 class
@@ -18003,7 +18961,7 @@ cls
 function
 "
 ]
-        
+            
 [
 "
 function
@@ -18017,8 +18975,9 @@ function
 "
 "
 ]
-    
+        
 ]
+    
 )
     
 def
@@ -18036,6 +18995,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -18120,6 +19080,7 @@ pass
 "
 "
 "
+            
 %
 (
 scope
@@ -18134,6 +19095,7 @@ split
 (
 )
 )
+        
 )
         
 reprec
@@ -18172,6 +19134,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -18254,6 +19217,7 @@ pass
 "
 "
 "
+            
 %
 (
 scope
@@ -18268,6 +19232,7 @@ split
 (
 )
 )
+        
 )
         
 reprec
@@ -18305,6 +19270,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -18340,6 +19306,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -18364,8 +19331,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 def
@@ -18376,7 +19343,6 @@ qwe123
 :
 *
 "
-            
 "
 *
 fixture
@@ -18387,15 +19353,14 @@ not
 found
 *
 "
-            
 "
 *
 1
 error
 *
 "
-        
 ]
+        
 )
     
 def
@@ -18410,6 +19375,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -18503,6 +19469,7 @@ values
 "
 "
 "
+        
 )
         
 result
@@ -18519,6 +19486,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -18558,6 +19526,7 @@ error
 "
 "
 "
+        
 )
     
 def
@@ -18572,6 +19541,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -18609,6 +19579,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -18633,8 +19604,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 def
@@ -18645,7 +19616,6 @@ qwe123
 :
 *
 "
-            
 "
 *
 fixture
@@ -18656,15 +19626,14 @@ not
 found
 *
 "
-            
 "
 *
 1
 error
 *
 "
-        
 ]
+        
 )
 class
 TestShowFixtures
@@ -18729,20 +19698,17 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 tmpdir
 *
 "
-            
 "
 *
 temporary
 directory
 *
 "
-        
 ]
 )
     
@@ -18778,7 +19744,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 tmpdir
@@ -18791,14 +19756,12 @@ tmpdir
 py
 *
 "
-            
 "
 *
 temporary
 directory
 *
 "
-        
 ]
 )
     
@@ -18816,6 +19779,7 @@ testdir
 .
 makepyfile
 (
+            
 '
 '
 '
@@ -18863,6 +19827,7 @@ world
 '
 '
 '
+        
 )
         
 result
@@ -18885,6 +19850,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -18910,6 +19876,7 @@ world
 "
 "
 "
+        
 )
         
 assert
@@ -18954,6 +19921,7 @@ testdir
 .
 makeconftest
 (
+            
 '
 '
 '
@@ -18983,6 +19951,7 @@ world
 '
 '
 '
+        
 )
         
 if
@@ -18993,6 +19962,7 @@ testdir
 .
 makepyfile
 (
+                
 "
 "
 "
@@ -19008,6 +19978,7 @@ pass
 "
 "
 "
+            
 )
         
 result
@@ -19029,6 +20000,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -19057,6 +20029,7 @@ world
 "
 "
 "
+        
 )
     
 def
@@ -19073,8 +20046,10 @@ testdir
 .
 makepyfile
 (
+            
 dedent
 (
+                
 '
 '
 '
@@ -19129,7 +20104,9 @@ line2
 '
 '
 '
+            
 )
+        
 )
         
 result
@@ -19152,8 +20129,10 @@ stdout
 .
 fnmatch_lines
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -19180,7 +20159,9 @@ line2
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -19197,8 +20178,10 @@ testdir
 .
 makepyfile
 (
+            
 dedent
 (
+                
 '
 '
 '
@@ -19232,7 +20215,9 @@ line
 '
 '
 '
+            
 )
+        
 )
         
 result
@@ -19255,8 +20240,10 @@ stdout
 .
 fnmatch_lines
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -19278,7 +20265,9 @@ line
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -19295,8 +20284,10 @@ testdir
 .
 makepyfile
 (
+            
 dedent
 (
+                
 '
 '
 '
@@ -19331,7 +20322,9 @@ line
 '
 '
 '
+            
 )
+        
 )
         
 result
@@ -19354,8 +20347,10 @@ stdout
 .
 fnmatch_lines
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -19379,7 +20374,9 @@ line
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -19396,8 +20393,10 @@ testdir
 .
 makepyfile
 (
+            
 dedent
 (
+                
 '
 '
 '
@@ -19407,6 +20406,9 @@ pytest
             
 class
 TestClass
+(
+object
+)
 :
                 
 pytest
@@ -19437,7 +20439,9 @@ line
 '
 '
 '
+            
 )
+        
 )
         
 result
@@ -19460,8 +20464,10 @@ stdout
 .
 fnmatch_lines
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -19485,7 +20491,9 @@ line
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -19521,6 +20529,7 @@ testdir
 .
 makepyfile
 (
+            
 test_a
 =
 '
@@ -19563,12 +20572,14 @@ pass
 '
 '
 '
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 test_b
 =
 '
@@ -19611,6 +20622,7 @@ pass
 '
 '
 '
+        
 )
         
 result
@@ -19632,6 +20644,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -19663,6 +20676,7 @@ B
 "
 "
 "
+        
 )
     
 def
@@ -19677,6 +20691,7 @@ testdir
 .
 makeconftest
 (
+            
 '
 '
 '
@@ -19716,15 +20731,17 @@ World
 '
 '
 '
+        
 )
         
 testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 def
 test_foo
@@ -19742,15 +20759,17 @@ Hello
 World
 "
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 '
 '
 '
@@ -19802,6 +20821,7 @@ Hi
 '
 '
 '
+        
 )
         
 result
@@ -19823,9 +20843,10 @@ stdout
 .
 fnmatch_lines
 (
-'
-'
-'
+            
+"
+"
+"
             
 *
 fixtures
@@ -19857,26 +20878,81 @@ from
 test
 module
         
-'
-'
-'
+"
+"
+"
+        
 )
+    
+def
+test_fixture_disallow_twice
+(
+self
+)
+:
+        
+"
+"
+"
+Test
+that
+applying
+pytest
+.
+fixture
+twice
+generates
+an
+error
+(
+#
+2334
+)
+.
+"
+"
+"
+        
+with
+pytest
+.
+raises
+(
+ValueError
+)
+:
+            
+pytest
+.
+fixture
+            
+pytest
+.
+fixture
+            
+def
+foo
+(
+)
+:
+                
+pass
 pytest
 .
 mark
 .
 parametrize
 (
-'
+"
 flavor
-'
+"
 [
-'
+"
 fixture
-'
-'
+"
+"
 yield_fixture
-'
+"
 ]
 )
 class
@@ -19899,6 +20975,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -19980,10 +21057,13 @@ assert
 .
 format
 (
+                
 flavor
 =
 flavor
+            
 )
+        
 )
         
 result
@@ -20004,6 +21084,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20037,6 +21118,7 @@ teardown
 "
 "
 "
+        
 )
     
 def
@@ -20052,6 +21134,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20137,10 +21220,13 @@ arg1
 .
 format
 (
+                
 flavor
 =
 flavor
+            
 )
+        
 )
         
 result
@@ -20161,6 +21247,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20186,6 +21273,7 @@ teardown
 "
 "
 "
+        
 )
     
 def
@@ -20201,6 +21289,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20254,10 +21343,13 @@ pass
 .
 format
 (
+                
 flavor
 =
 flavor
+            
 )
+        
 )
         
 result
@@ -20278,6 +21370,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20298,6 +21391,7 @@ error
 "
 "
 "
+        
 )
     
 def
@@ -20313,6 +21407,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20366,10 +21461,13 @@ pass
 .
 format
 (
+                
 flavor
 =
 flavor
+            
 )
+        
 )
         
 result
@@ -20390,6 +21488,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20413,6 +21512,7 @@ error
 "
 "
 "
+        
 )
     
 def
@@ -20428,6 +21528,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20475,10 +21576,13 @@ pass
 .
 format
 (
+                
 flavor
 =
 flavor
+            
 )
+        
 )
         
 result
@@ -20499,6 +21603,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20518,6 +21623,7 @@ test_yields
 "
 "
 "
+        
 )
     
 def
@@ -20533,6 +21639,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20582,10 +21689,13 @@ meow
 .
 format
 (
+                
 flavor
 =
 flavor
+            
 )
+        
 )
         
 result
@@ -20633,6 +21743,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20699,6 +21810,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -20715,6 +21827,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20753,7 +21866,6 @@ in
 E
 *
 {
-0
 }
 :
 4
@@ -20767,7 +21879,6 @@ here
 E
 *
 {
-1
 }
 :
 9
@@ -20783,13 +21894,16 @@ error
 .
 format
 (
+                
 testfile
 .
 basename
 testfile
 .
 basename
+            
 )
+        
 )
     
 def
@@ -20806,6 +21920,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -20857,6 +21972,7 @@ fix_with_param
 "
 "
 "
+        
 )
         
 result
@@ -20873,6 +21989,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -20911,7 +22028,6 @@ in
 E
 *
 {
-0
 }
 :
 4
@@ -20925,7 +22041,6 @@ here
 E
 *
 {
-1
 }
 :
 8
@@ -20941,13 +22056,16 @@ failed
 .
 format
 (
+                
 testfile
 .
 basename
 testfile
 .
 basename
+            
 )
+        
 )
     
 def
@@ -20964,6 +22082,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -20999,6 +22118,7 @@ param
 "
 "
 "
+        
 )
         
 testfile
@@ -21007,6 +22127,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -21030,6 +22151,7 @@ fix_with_param
 "
 "
 "
+        
 )
         
 result
@@ -21046,6 +22168,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -21084,7 +22207,6 @@ in
 E
 *
 {
-0
 }
 :
 4
@@ -21098,7 +22220,6 @@ here
 E
 *
 {
-1
 }
 :
 2
@@ -21114,13 +22235,16 @@ failed
 .
 format
 (
+                
 conffile
 .
 basename
 testfile
 .
 basename
+            
 )
+        
 )
     
 def
@@ -21137,9 +22261,9 @@ testdir
 .
 mkdir
 (
-'
+"
 tests
-'
+"
 )
         
 fixdir
@@ -21148,9 +22272,9 @@ testdir
 .
 mkdir
 (
-'
+"
 fixtures
-'
+"
 )
         
 fixfile
@@ -21170,12 +22294,14 @@ fixfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -21211,7 +22337,9 @@ param
 "
 "
 "
+            
 )
+        
 )
         
 testfile
@@ -21231,12 +22359,14 @@ testfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -21265,7 +22395,9 @@ fix_with_param
 "
 "
 "
+            
 )
+        
 )
         
 tests_dir
@@ -21295,6 +22427,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -21333,7 +22466,6 @@ in
 E
 *
 {
-0
 }
 :
 5
@@ -21347,7 +22479,6 @@ here
 E
 *
 {
-1
 }
 :
 5
@@ -21363,13 +22494,16 @@ failed
 .
 format
 (
+                
 fixfile
 .
 strpath
 testfile
 .
 basename
+            
 )
+        
 )
 def
 test_pytest_fixture_setup_and_post_finalizer_hook
@@ -21382,6 +22516,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -21470,23 +22605,25 @@ name
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 *
 *
 {
-        
-'
+            
+"
 tests
 /
 conftest
 .
 py
-'
+"
 :
 "
 "
@@ -21576,14 +22713,14 @@ name
 "
 "
 "
-        
-'
+            
+"
 tests
 /
 test_hooks
 .
 py
-'
+"
 :
 "
 "
@@ -21640,8 +22777,9 @@ some
 "
 "
 "
-    
+        
 }
+    
 )
     
 result
@@ -21670,8 +22808,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 TESTS
@@ -21684,7 +22823,7 @@ from
 test_func
 *
 "
-        
+            
 "
 *
 ROOT
@@ -21697,14 +22836,14 @@ from
 test_func
 *
 "
-        
+            
 "
 *
 TEST
 test_func
 *
 "
-        
+            
 "
 *
 TESTS
@@ -21717,7 +22856,7 @@ from
 test_func
 *
 "
-        
+            
 "
 *
 ROOT
@@ -21730,6 +22869,1285 @@ from
 test_func
 *
 "
-    
+        
 ]
+    
+)
+class
+TestScopeOrdering
+(
+object
+)
+:
+    
+"
+"
+"
+Class
+of
+tests
+that
+ensure
+fixtures
+are
+ordered
+based
+on
+their
+scopes
+(
+#
+2405
+)
+"
+"
+"
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+use_mark
+"
+[
+True
+False
+]
+)
+    
+def
+test_func_closure_module_auto
+(
+self
+testdir
+use_mark
+)
+:
+        
+"
+"
+"
+Semantically
+identical
+to
+the
+example
+posted
+in
+#
+2405
+when
+use_mark
+=
+True
+"
+"
+"
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+autouse
+=
+{
+autouse
+}
+)
+            
+def
+m1
+(
+)
+:
+pass
+            
+if
+{
+use_mark
+}
+:
+                
+pytestmark
+=
+pytest
+.
+mark
+.
+usefixtures
+(
+'
+m1
+'
+)
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+autouse
+=
+True
+)
+            
+def
+f1
+(
+)
+:
+pass
+            
+def
+test_func
+(
+m1
+)
+:
+                
+pass
+        
+"
+"
+"
+.
+format
+(
+                
+autouse
+=
+not
+use_mark
+use_mark
+=
+use_mark
+            
+)
+        
+)
+        
+items
+_
+=
+testdir
+.
+inline_genitems
+(
+)
+        
+request
+=
+FixtureRequest
+(
+items
+[
+0
+]
+)
+        
+assert
+request
+.
+fixturenames
+=
+=
+"
+m1
+f1
+"
+.
+split
+(
+)
+    
+def
+test_func_closure_with_native_fixtures
+(
+self
+testdir
+monkeypatch
+)
+:
+        
+"
+"
+"
+Sanity
+check
+that
+verifies
+the
+order
+returned
+by
+the
+closures
+and
+the
+actual
+fixture
+execution
+order
+:
+        
+The
+execution
+order
+may
+differ
+because
+of
+fixture
+inter
+-
+dependencies
+.
+        
+"
+"
+"
+        
+monkeypatch
+.
+setattr
+(
+pytest
+"
+FIXTURE_ORDER
+"
+[
+]
+raising
+=
+False
+)
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+FIXTURE_ORDER
+=
+pytest
+.
+FIXTURE_ORDER
+            
+pytest
+.
+fixture
+(
+scope
+=
+"
+session
+"
+)
+            
+def
+s1
+(
+)
+:
+                
+FIXTURE_ORDER
+.
+append
+(
+'
+s1
+'
+)
+            
+pytest
+.
+fixture
+(
+scope
+=
+"
+module
+"
+)
+            
+def
+m1
+(
+)
+:
+                
+FIXTURE_ORDER
+.
+append
+(
+'
+m1
+'
+)
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+session
+'
+)
+            
+def
+my_tmpdir_factory
+(
+)
+:
+                
+FIXTURE_ORDER
+.
+append
+(
+'
+my_tmpdir_factory
+'
+)
+            
+pytest
+.
+fixture
+            
+def
+my_tmpdir
+(
+my_tmpdir_factory
+)
+:
+                
+FIXTURE_ORDER
+.
+append
+(
+'
+my_tmpdir
+'
+)
+            
+pytest
+.
+fixture
+            
+def
+f1
+(
+my_tmpdir
+)
+:
+                
+FIXTURE_ORDER
+.
+append
+(
+'
+f1
+'
+)
+            
+pytest
+.
+fixture
+            
+def
+f2
+(
+)
+:
+                
+FIXTURE_ORDER
+.
+append
+(
+'
+f2
+'
+)
+            
+def
+test_foo
+(
+f1
+m1
+f2
+s1
+)
+:
+pass
+        
+"
+"
+"
+        
+)
+        
+items
+_
+=
+testdir
+.
+inline_genitems
+(
+)
+        
+request
+=
+FixtureRequest
+(
+items
+[
+0
+]
+)
+        
+assert
+request
+.
+fixturenames
+=
+=
+"
+s1
+my_tmpdir_factory
+m1
+f1
+f2
+my_tmpdir
+"
+.
+split
+(
+)
+        
+testdir
+.
+runpytest
+(
+)
+        
+assert
+pytest
+.
+FIXTURE_ORDER
+=
+=
+"
+s1
+my_tmpdir_factory
+m1
+my_tmpdir
+f1
+f2
+"
+.
+split
+(
+)
+    
+def
+test_func_closure_module
+(
+self
+testdir
+)
+:
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+)
+            
+def
+m1
+(
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+            
+def
+f1
+(
+)
+:
+pass
+            
+def
+test_func
+(
+f1
+m1
+)
+:
+                
+pass
+        
+"
+"
+"
+        
+)
+        
+items
+_
+=
+testdir
+.
+inline_genitems
+(
+)
+        
+request
+=
+FixtureRequest
+(
+items
+[
+0
+]
+)
+        
+assert
+request
+.
+fixturenames
+=
+=
+"
+m1
+f1
+"
+.
+split
+(
+)
+    
+def
+test_func_closure_scopes_reordered
+(
+self
+testdir
+)
+:
+        
+"
+"
+"
+Test
+ensures
+that
+fixtures
+are
+ordered
+by
+scope
+regardless
+of
+the
+order
+of
+the
+parameters
+although
+        
+fixtures
+of
+same
+scope
+keep
+the
+declared
+order
+        
+"
+"
+"
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+session
+'
+)
+            
+def
+s1
+(
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+)
+            
+def
+m1
+(
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+            
+def
+f1
+(
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+            
+def
+f2
+(
+)
+:
+pass
+            
+class
+Test
+:
+                
+pytest
+.
+fixture
+(
+scope
+=
+'
+class
+'
+)
+                
+def
+c1
+(
+cls
+)
+:
+pass
+                
+def
+test_func
+(
+self
+f2
+f1
+c1
+m1
+s1
+)
+:
+                    
+pass
+        
+"
+"
+"
+        
+)
+        
+items
+_
+=
+testdir
+.
+inline_genitems
+(
+)
+        
+request
+=
+FixtureRequest
+(
+items
+[
+0
+]
+)
+        
+assert
+request
+.
+fixturenames
+=
+=
+"
+s1
+m1
+c1
+f2
+f1
+"
+.
+split
+(
+)
+    
+def
+test_func_closure_same_scope_closer_root_first
+(
+self
+testdir
+)
+:
+        
+"
+"
+"
+Auto
+-
+use
+fixtures
+of
+same
+scope
+are
+ordered
+by
+closer
+-
+to
+-
+root
+first
+"
+"
+"
+        
+testdir
+.
+makeconftest
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+autouse
+=
+True
+)
+            
+def
+m_conf
+(
+)
+:
+pass
+        
+"
+"
+"
+        
+)
+        
+testdir
+.
+makepyfile
+(
+            
+*
+*
+{
+                
+"
+sub
+/
+conftest
+.
+py
+"
+:
+"
+"
+"
+                
+import
+pytest
+                
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+autouse
+=
+True
+)
+                
+def
+m_sub
+(
+)
+:
+pass
+            
+"
+"
+"
+                
+"
+sub
+/
+test_func
+.
+py
+"
+:
+"
+"
+"
+                
+import
+pytest
+                
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+autouse
+=
+True
+)
+                
+def
+m_test
+(
+)
+:
+pass
+                
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+                
+def
+f1
+(
+)
+:
+pass
+                
+def
+test_func
+(
+m_test
+f1
+)
+:
+                    
+pass
+        
+"
+"
+"
+            
+}
+        
+)
+        
+items
+_
+=
+testdir
+.
+inline_genitems
+(
+)
+        
+request
+=
+FixtureRequest
+(
+items
+[
+0
+]
+)
+        
+assert
+request
+.
+fixturenames
+=
+=
+"
+m_conf
+m_sub
+m_test
+f1
+"
+.
+split
+(
+)
+    
+def
+test_func_closure_all_scopes_complex
+(
+self
+testdir
+)
+:
+        
+"
+"
+"
+Complex
+test
+involving
+all
+scopes
+and
+mixing
+autouse
+with
+normal
+fixtures
+"
+"
+"
+        
+testdir
+.
+makeconftest
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+session
+'
+)
+            
+def
+s1
+(
+)
+:
+pass
+        
+"
+"
+"
+        
+)
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+autouse
+=
+True
+)
+            
+def
+m1
+(
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+module
+'
+)
+            
+def
+m2
+(
+s1
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+            
+def
+f1
+(
+)
+:
+pass
+            
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+            
+def
+f2
+(
+)
+:
+pass
+            
+class
+Test
+:
+                
+pytest
+.
+fixture
+(
+scope
+=
+'
+class
+'
+autouse
+=
+True
+)
+                
+def
+c1
+(
+self
+)
+:
+                    
+pass
+                
+def
+test_func
+(
+self
+f2
+f1
+m2
+)
+:
+                    
+pass
+        
+"
+"
+"
+        
+)
+        
+items
+_
+=
+testdir
+.
+inline_genitems
+(
+)
+        
+request
+=
+FixtureRequest
+(
+items
+[
+0
+]
+)
+        
+assert
+request
+.
+fixturenames
+=
+=
+"
+s1
+m1
+m2
+c1
+f2
+f1
+"
+.
+split
+(
 )

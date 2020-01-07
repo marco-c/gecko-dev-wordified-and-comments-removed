@@ -27,6 +27,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -84,6 +85,7 @@ bar
 "
 "
 "
+    
 )
     
 reprec
@@ -129,6 +131,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -204,6 +207,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -224,6 +228,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -250,6 +255,7 @@ passed
 "
 "
 "
+    
 )
 def
 test_isclasscheck_issue53
@@ -264,6 +270,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -297,6 +304,7 @@ _E
 "
 "
 "
+    
 )
     
 result
@@ -328,6 +336,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -413,6 +422,7 @@ assert
 "
 "
 "
+    
 )
     
 reprec
@@ -466,9 +476,9 @@ rep
 .
 failed
 and
-'
+"
 42
-'
+"
 in
 str
 (
@@ -489,6 +499,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -554,6 +565,7 @@ values
 "
 "
 "
+    
 )
     
 result
@@ -572,14 +584,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 passed
 *
 "
-    
 ]
 )
 def
@@ -595,6 +605,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -638,6 +649,7 @@ pass
 "
 "
 "
+    
 )
     
 reprec
@@ -697,6 +709,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -746,6 +759,7 @@ x
 "
 "
 "
+    
 )
     
 reprec
@@ -778,6 +792,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -855,6 +870,7 @@ None
 "
 "
 "
+    
 )
     
 reprec
@@ -963,6 +979,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1004,6 +1021,7 @@ pass
 "
 "
 "
+    
 )
     
 testdir
@@ -1042,9 +1060,9 @@ obj
 __name__
 !
 =
-'
+"
 TestCaseObjectsShouldBeCleanedUp
-'
+"
 def
 test_unittest_skip_issue148
 (
@@ -1058,6 +1076,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1117,6 +1136,7 @@ xxx
 "
 "
 "
+    
 )
     
 reprec
@@ -1147,6 +1167,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1193,6 +1214,7 @@ down2
 "
 "
 "
+    
 )
     
 result
@@ -1221,34 +1243,35 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 tearDown
 *
 "
-        
+            
 "
 *
 assert
 0
 *
 "
-        
+            
 "
 *
 test_method
 *
 "
-        
+            
 "
 *
 assert
 False
 *
 "
-        
+            
 "
 *
 1
@@ -1258,8 +1281,9 @@ failed
 error
 *
 "
-    
+        
 ]
+    
 )
 def
 test_setup_failure_is_shown
@@ -1272,6 +1296,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1323,6 +1348,7 @@ xyz
 "
 "
 "
+    
 )
     
 result
@@ -1352,13 +1378,11 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 setUp
 *
 "
-        
 "
 *
 assert
@@ -1367,21 +1391,19 @@ assert
 down1
 *
 "
-        
 "
 *
 1
 failed
 *
 "
-    
 ]
 )
     
 assert
-'
+"
 never42
-'
+"
 not
 in
 result
@@ -1404,6 +1426,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1506,6 +1529,7 @@ x
 "
 "
 "
+    
 )
     
 reprec
@@ -1538,6 +1562,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1636,6 +1661,7 @@ x
 "
 "
 "
+    
 )
     
 reprec
@@ -1665,12 +1691,12 @@ parametrize
 type
 "
 [
-'
+"
 Error
-'
-'
+"
+"
 Failure
-'
+"
 ]
 )
 def
@@ -1685,6 +1711,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1776,11 +1803,13 @@ pass
 "
 "
 "
+        
 %
 (
 type
 type
 )
+    
 )
     
 result
@@ -1792,11 +1821,11 @@ runpytest
 )
     
 assert
-'
+"
 should
 not
 raise
-'
+"
 not
 in
 result
@@ -1816,12 +1845,12 @@ parametrize
 type
 "
 [
-'
+"
 Error
-'
-'
+"
+"
 Failure
-'
+"
 ]
 )
 def
@@ -1836,6 +1865,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1979,10 +2009,12 @@ pass
 "
 "
 "
+        
 %
 locals
 (
 )
+    
 )
     
 result
@@ -1999,8 +2031,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 NOTE
 :
@@ -2009,21 +2042,22 @@ Exception
 Representation
 *
 "
-        
+            
 "
 *
 ZeroDivisionError
 *
 "
-        
+            
 "
 *
 1
 failed
 *
 "
-    
+        
 ]
+    
 )
 def
 test_testcase_totally_incompatible_exception_info
@@ -2038,6 +2072,7 @@ testdir
 .
 getitems
 (
+        
 "
 "
 "
@@ -2066,6 +2101,7 @@ pass
 "
 "
 "
+    
 )
     
 item
@@ -2088,12 +2124,12 @@ pop
 )
     
 assert
-'
+"
 ERROR
 :
 Unknown
 Incompatible
-'
+"
 in
 str
 (
@@ -2116,6 +2152,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2156,6 +2193,7 @@ assert
 "
 "
 "
+    
 )
     
 reprec
@@ -2215,13 +2253,13 @@ cls
 ignore_unclosed_socket_warning
 =
 (
-'
+"
 -
 W
-'
-'
+"
+"
 always
-'
+"
 )
     
 def
@@ -2236,6 +2274,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2268,6 +2307,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -2295,6 +2335,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2327,6 +2368,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -2362,6 +2404,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2554,6 +2597,7 @@ pass
 "
 "
 "
+        
 )
         
 from
@@ -2591,8 +2635,9 @@ stdout
 .
 fnmatch_lines_random
 (
-[
             
+[
+                
 "
 *
 XFAIL
@@ -2600,31 +2645,31 @@ XFAIL
 test_trial_todo
 *
 "
-            
+                
 "
 *
 trialselfskip
 *
 "
-            
+                
 "
 *
 skip_in_setup_class
 *
 "
-            
+                
 "
 *
 iwanto
 *
 "
-            
+                
 "
 *
 i2wanto
 *
 "
-            
+                
 "
 *
 sys
@@ -2632,13 +2677,13 @@ sys
 version_info
 *
 "
-            
+                
 "
 *
 skip_in_method
 *
 "
-            
+                
 "
 *
 1
@@ -2651,8 +2696,10 @@ skipped
 xfailed
 *
 "
+                
 if
 should_fail
+                
 else
 "
 *
@@ -2666,8 +2713,9 @@ xfail
 xpass
 *
 "
-        
+            
 ]
+        
 )
         
 assert
@@ -2696,6 +2744,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2891,6 +2940,7 @@ teardown
 "
 "
 "
+        
 )
         
 result
@@ -2907,26 +2957,27 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 ERRORS
 *
 "
-            
+                
 "
 *
 DelayedCalls
 *
 "
-            
+                
 "
 *
 test_four
 *
 "
-            
+                
 "
 *
 NameError
@@ -2934,13 +2985,13 @@ NameError
 crash
 *
 "
-            
+                
 "
 *
 test_one
 *
 "
-            
+                
 "
 *
 NameError
@@ -2948,32 +2999,33 @@ NameError
 crash
 *
 "
-            
+                
 "
 *
 test_three
 *
 "
-            
+                
 "
 *
 DelayedCalls
 *
 "
-            
+                
 "
 *
 test_two
 *
 "
-            
+                
 "
 *
 crash
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -2990,6 +3042,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3029,6 +3082,7 @@ hellopdb
 "
 "
 "
+        
 )
         
 child
@@ -3069,6 +3123,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3108,6 +3163,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -3146,6 +3202,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3187,6 +3244,7 @@ run
 "
 "
 "
+        
 )
         
 reprec
@@ -3225,6 +3283,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3265,6 +3324,7 @@ assert
 "
 "
 "
+        
 )
         
 reprec
@@ -3303,6 +3363,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3345,6 +3406,7 @@ run
 "
 "
 "
+        
 )
         
 reprec
@@ -3353,6 +3415,7 @@ testdir
 .
 inline_run
 (
+            
 testpath
 "
 -
@@ -3362,6 +3425,7 @@ s
 self
 .
 ignore_unclosed_socket_warning
+        
 )
         
 reprec
@@ -3383,6 +3447,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3601,6 +3666,7 @@ _post_teardown
 "
 "
 "
+    
 )
     
 result
@@ -3629,8 +3695,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 _pre_setup
@@ -3638,7 +3705,7 @@ _pre_setup
 )
 *
 "
-        
+            
 "
 *
 setUp
@@ -3646,7 +3713,7 @@ setUp
 )
 *
 "
-        
+            
 "
 *
 test_thing
@@ -3654,7 +3721,7 @@ test_thing
 )
 *
 "
-        
+            
 "
 *
 tearDown
@@ -3662,7 +3729,7 @@ tearDown
 )
 *
 "
-        
+            
 "
 *
 _post_teardown
@@ -3670,8 +3737,9 @@ _post_teardown
 )
 *
 "
-    
+        
 ]
+    
 )
 def
 test_unittest_not_shown_in_traceback
@@ -3684,6 +3752,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3722,6 +3791,7 @@ x
 "
 "
 "
+    
 )
     
 res
@@ -3756,6 +3826,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3811,6 +3882,7 @@ make_test
 "
 "
 "
+    
 )
     
 result
@@ -3853,6 +3925,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3882,6 +3955,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -3918,16 +3992,16 @@ mark
 .
 parametrize
 (
-'
+"
 runner
-'
+"
 [
-'
+"
 pytest
-'
-'
+"
+"
 unittest
-'
+"
 ]
 )
 def
@@ -3944,6 +4018,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3992,15 +4067,16 @@ main
 "
 "
 "
+    
 )
     
 if
 runner
 =
 =
-'
+"
 pytest
-'
+"
 :
         
 result
@@ -4021,8 +4097,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 XFAIL
@@ -4032,15 +4108,14 @@ MyTestCase
 test_failing_test_is_xfail
 *
 "
-            
 "
 *
 1
 xfailed
 *
 "
-        
 ]
+        
 )
     
 else
@@ -4062,7 +4137,6 @@ stderr
 fnmatch_lines
 (
 [
-            
 "
 *
 1
@@ -4070,7 +4144,6 @@ test
 in
 *
 "
-            
 "
 *
 OK
@@ -4083,7 +4156,6 @@ failures
 )
 *
 "
-        
 ]
 )
     
@@ -4100,16 +4172,16 @@ mark
 .
 parametrize
 (
-'
+"
 runner
-'
+"
 [
-'
+"
 pytest
-'
-'
+"
+"
 unittest
-'
+"
 ]
 )
 def
@@ -4126,6 +4198,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4174,6 +4247,7 @@ main
 "
 "
 "
+    
 )
     
 from
@@ -4193,9 +4267,9 @@ if
 runner
 =
 =
-'
+"
 pytest
-'
+"
 :
         
 result
@@ -4216,8 +4290,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 MyTestCase
@@ -4225,7 +4300,7 @@ MyTestCase
 test_passing_test_is_fail
 *
 "
-            
+                
 "
 *
 1
@@ -4241,8 +4316,9 @@ else
 xpassed
 *
 "
-        
+            
 ]
+        
 )
     
 else
@@ -4264,7 +4340,6 @@ stderr
 fnmatch_lines
 (
 [
-            
 "
 *
 1
@@ -4272,7 +4347,6 @@ test
 in
 *
 "
-            
 "
 *
 (
@@ -4283,7 +4357,6 @@ successes
 )
 *
 "
-        
 ]
 )
     
@@ -4306,28 +4379,27 @@ mark
 .
 parametrize
 (
-'
+    
+"
 fix_type
 stmt
-'
+"
 [
-    
 (
-'
+"
 fixture
-'
-'
+"
+"
 return
-'
+"
 )
-    
 (
-'
+"
 yield_fixture
-'
-'
+"
+"
 yield
-'
+"
 )
 ]
 )
@@ -4344,6 +4416,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4510,13 +4583,16 @@ world
 .
 format
 (
+            
 fix_type
 =
 fix_type
 stmt
 =
 stmt
+        
 )
+    
 )
     
 result
@@ -4553,6 +4629,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4630,6 +4707,7 @@ x
 "
 "
 "
+    
 )
     
 reprec
@@ -4662,6 +4740,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4745,6 +4824,7 @@ x
 "
 "
 "
+    
 )
     
 reprec
@@ -4778,6 +4858,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -4809,12 +4890,14 @@ assert
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4845,6 +4928,7 @@ self
 "
 "
 "
+    
 )
     
 reprec
@@ -4874,6 +4958,7 @@ testdir
 .
 makepyfile
 (
+        
 test_foo
 =
 "
@@ -4915,6 +5000,7 @@ reasons
 "
 "
 "
+    
 )
     
 result
@@ -4927,10 +5013,10 @@ runpytest
 -
 v
 "
-'
+"
 -
 rs
-'
+"
 )
     
 result
@@ -4939,6 +5025,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -4968,6 +5055,7 @@ skipped
 "
 "
 "
+    
 )
 def
 test_unittest_skip_issue1169
@@ -4980,6 +5068,7 @@ testdir
 .
 makepyfile
 (
+        
 test_foo
 =
 "
@@ -5026,6 +5115,7 @@ fail
 "
 "
 "
+    
 )
     
 result
@@ -5038,10 +5128,10 @@ runpytest
 -
 v
 "
-'
+"
 -
 rs
-'
+"
 )
     
 result
@@ -5050,6 +5140,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -5075,6 +5166,7 @@ skipped
 "
 "
 "
+    
 )
 def
 test_class_method_containing_test_issue1558
@@ -5087,6 +5179,7 @@ testdir
 .
 makepyfile
 (
+        
 test_foo
 =
 "
@@ -5132,6 +5225,7 @@ False
 "
 "
 "
+    
 )
     
 reprec
@@ -5149,4 +5243,362 @@ assertoutcome
 passed
 =
 1
+)
+pytest
+.
+mark
+.
+issue
+(
+3498
+)
+pytest
+.
+mark
+.
+parametrize
+(
+    
+"
+base
+"
+[
+"
+six
+.
+moves
+.
+builtins
+.
+object
+"
+"
+unittest
+.
+TestCase
+"
+"
+unittest2
+.
+TestCase
+"
+]
+)
+def
+test_usefixtures_marker_on_unittest
+(
+base
+testdir
+)
+:
+    
+module
+=
+base
+.
+rsplit
+(
+"
+.
+"
+1
+)
+[
+0
+]
+    
+pytest
+.
+importorskip
+(
+module
+)
+    
+testdir
+.
+makepyfile
+(
+        
+conftest
+=
+"
+"
+"
+        
+import
+pytest
+        
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+        
+def
+fixture1
+(
+request
+monkeypatch
+)
+:
+            
+monkeypatch
+.
+setattr
+(
+request
+.
+instance
+'
+fixture1
+'
+True
+)
+        
+pytest
+.
+fixture
+(
+scope
+=
+'
+function
+'
+)
+        
+def
+fixture2
+(
+request
+monkeypatch
+)
+:
+            
+monkeypatch
+.
+setattr
+(
+request
+.
+instance
+'
+fixture2
+'
+True
+)
+        
+def
+node_and_marks
+(
+item
+)
+:
+            
+print
+(
+item
+.
+nodeid
+)
+            
+for
+mark
+in
+item
+.
+iter_markers
+(
+)
+:
+                
+print
+(
+"
+"
+mark
+)
+        
+pytest
+.
+fixture
+(
+autouse
+=
+True
+)
+        
+def
+my_marks
+(
+request
+)
+:
+            
+node_and_marks
+(
+request
+.
+node
+)
+        
+def
+pytest_collection_modifyitems
+(
+items
+)
+:
+            
+for
+item
+in
+items
+:
+               
+node_and_marks
+(
+item
+)
+        
+"
+"
+"
+    
+)
+    
+testdir
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+import
+pytest
+        
+import
+{
+module
+}
+        
+class
+Tests
+(
+{
+base
+}
+)
+:
+            
+fixture1
+=
+False
+            
+fixture2
+=
+False
+            
+pytest
+.
+mark
+.
+usefixtures
+(
+"
+fixture1
+"
+)
+            
+def
+test_one
+(
+self
+)
+:
+                
+assert
+self
+.
+fixture1
+                
+assert
+not
+self
+.
+fixture2
+            
+pytest
+.
+mark
+.
+usefixtures
+(
+"
+fixture1
+"
+"
+fixture2
+"
+)
+            
+def
+test_two
+(
+self
+)
+:
+                
+assert
+self
+.
+fixture1
+                
+assert
+self
+.
+fixture2
+    
+"
+"
+"
+.
+format
+(
+            
+module
+=
+module
+base
+=
+base
+        
+)
+    
+)
+    
+result
+=
+testdir
+.
+runpytest
+(
+"
+-
+s
+"
+)
+    
+result
+.
+assert_outcomes
+(
+passed
+=
+2
 )

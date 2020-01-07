@@ -48,8 +48,7 @@ stderr
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 pytest
 *
@@ -59,14 +58,13 @@ s
 imported
 from
 *
-'
+"
 %
 (
 pytest
 .
 __version__
 )
-    
 ]
 )
     
@@ -87,7 +85,6 @@ stderr
 fnmatch_lines
 (
 [
-            
 "
 *
 setuptools
@@ -95,13 +92,11 @@ registered
 plugins
 :
 "
-            
 "
 *
 at
 *
 "
-        
 ]
 )
 def
@@ -138,6 +133,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -186,6 +182,7 @@ fixtures
 "
 "
 "
+    
 )
 def
 test_hookvalidation_unknown
@@ -198,6 +195,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -214,6 +212,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -239,16 +238,14 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 unknown
 hook
 *
 pytest_hello
 *
-'
-    
+"
 ]
 )
 def
@@ -262,6 +259,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -290,6 +288,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -334,7 +333,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 using
@@ -344,14 +342,12 @@ pytest
 py
 *
 "
-        
 "
 *
 active
 plugins
 *
 "
-    
 ]
 )
 def
@@ -450,14 +446,13 @@ stderr
 .
 fnmatch_lines
 (
-[
         
+[
 "
 *
 pytest_plugin_registered
 *
 "
-        
 "
 *
 manager
@@ -465,6 +460,6 @@ manager
 PluginManager
 *
 "
-    
 ]
+    
 )

@@ -5,18 +5,18 @@ test_upper
 :
     
 assert
-'
+"
 foo
-'
+"
 .
 upper
 (
 )
 =
 =
-'
+"
 FOO
-'
+"
 def
 test_lower
 (
@@ -24,15 +24,15 @@ test_lower
 :
     
 assert
-'
+"
 FOO
-'
+"
 .
 lower
 (
 )
 =
 =
-'
+"
 foo
-'
+"

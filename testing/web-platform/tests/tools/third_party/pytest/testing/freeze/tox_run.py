@@ -29,9 +29,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 import
@@ -53,15 +53,15 @@ os
 getcwd
 (
 )
-'
+"
 dist
-'
-'
+"
+"
 runtests_script
-'
-'
+"
+"
 runtests_script
-'
+"
 )
     
 if
@@ -71,19 +71,19 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
         
 executable
 +
 =
-'
+"
 .
 exe
-'
+"
     
 sys
 .
@@ -93,11 +93,11 @@ os
 .
 system
 (
-'
+"
 %
 s
 tests
-'
+"
 %
 executable
 )

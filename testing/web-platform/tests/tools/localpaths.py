@@ -291,6 +291,9 @@ third_party
 "
 pytest
 "
+"
+src
+"
 )
 )
 sys

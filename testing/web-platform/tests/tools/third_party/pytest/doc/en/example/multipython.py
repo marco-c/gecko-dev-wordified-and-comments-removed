@@ -30,21 +30,21 @@ _code
 pythonlist
 =
 [
-'
+"
 python2
 .
 7
-'
-'
+"
+"
 python3
 .
 4
-'
-'
+"
+"
 python3
 .
 5
-'
+"
 ]
 pytest
 .
@@ -196,12 +196,14 @@ dumpfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -243,6 +245,7 @@ close
 "
 "
 "
+                
 %
 (
 str
@@ -253,7 +256,9 @@ picklefile
 )
 obj
 )
+            
 )
+        
 )
         
 py
@@ -304,12 +309,14 @@ loadfile
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -365,6 +372,7 @@ SystemExit
 "
 "
 "
+                
 %
 (
 str
@@ -375,7 +383,9 @@ picklefile
 )
 expression
 )
+            
 )
+        
 )
         
 print

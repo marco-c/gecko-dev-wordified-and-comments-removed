@@ -340,9 +340,9 @@ basedir
 .
 join
 (
-'
+"
 adir
-'
+"
 )
 )
         
@@ -367,9 +367,9 @@ basedir
 .
 join
 (
-'
+"
 b
-'
+"
 )
 )
         
@@ -414,9 +414,9 @@ conftest
 .
 _rget_with_confmod
 (
-'
+"
 a
-'
+"
 basedir
 )
     
@@ -742,17 +742,13 @@ option
     
 conf
 .
-join
+ensure
 (
 "
 conftest
 .
 py
 "
-)
-.
-ensure
-(
 )
     
 conftest
@@ -896,6 +892,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1028,6 +1025,7 @@ mod
 "
 "
 "
+    
 )
     
 res
@@ -1298,13 +1296,13 @@ parametrize
 "
 name
 "
-'
+"
 test
 tests
 whatever
 .
 dotdir
-'
+"
 .
 split
 (
@@ -1368,13 +1366,13 @@ name
 not
 in
 (
-'
+"
 whatever
-'
-'
+"
+"
 .
 dotdir
-'
+"
 )
 :
         
@@ -1458,12 +1456,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -1494,7 +1494,9 @@ store_true
 "
 "
 "
+        
 )
+    
 )
     
 result
@@ -1538,14 +1540,14 @@ xyz
 )
     
 assert
-'
+"
 warning
 :
 could
 not
 load
 initial
-'
+"
 not
 in
 result
@@ -1639,12 +1641,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -1675,7 +1679,9 @@ store_true
 "
 "
 "
+        
 )
+    
 )
     
 testdir
@@ -1763,12 +1769,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -1799,7 +1807,9 @@ store_true
 "
 "
 "
+        
 )
+    
 )
     
 testdir
@@ -1935,9 +1945,9 @@ monkeypatch
 setattr
 (
 conftest
-'
+"
 _importconftest
-'
+"
 impct
 )
     
@@ -2034,14 +2044,10 @@ py
 .
 write
 (
-py
-.
-std
-.
-textwrap
-.
+        
 dedent
 (
+            
 "
 "
 "
@@ -2108,7 +2114,9 @@ bar
 "
 "
 "
+        
 )
+    
 )
     
 subsub
@@ -2152,14 +2160,10 @@ py
 .
 write
 (
-py
-.
-std
-.
-textwrap
-.
+        
 dedent
 (
+            
 "
 "
 "
@@ -2202,7 +2206,9 @@ bar
 "
 "
 "
+        
 )
+    
 )
     
 result
@@ -2262,14 +2268,10 @@ py
 .
 write
 (
-py
-.
-std
-.
-textwrap
-.
+        
 dedent
 (
+            
 "
 "
 "
@@ -2302,7 +2304,9 @@ store_true
 "
 "
 "
+        
 )
+    
 )
     
 p
@@ -2322,38 +2326,14 @@ p
 .
 write
 (
-py
-.
-std
-.
-textwrap
-.
-dedent
-(
 "
-"
-"
-        
-import
-pytest
-        
 def
 test_hello
 (
-found
 )
 :
-            
-assert
-found
-=
-=
-1
-    
+pass
 "
-"
-"
-)
 )
     
 result
@@ -2384,6 +2364,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -2399,6 +2380,7 @@ world
 "
 "
 "
+    
 )
 class
 TestConftestVisibility
@@ -2450,8 +2432,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -2480,7 +2464,9 @@ package
 "
 "
 "
+            
 )
+        
 )
         
 package
@@ -2496,8 +2482,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -2523,7 +2511,9 @@ package
 "
 "
 "
+            
 )
+        
 )
         
 swc
@@ -2565,8 +2555,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -2595,7 +2587,9 @@ swc
 "
 "
 "
+            
 )
+        
 )
         
 swc
@@ -2611,8 +2605,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -2638,7 +2634,9 @@ swc
 "
 "
 "
+            
 )
+        
 )
         
 snc
@@ -2680,8 +2678,10 @@ py
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -2724,7 +2724,9 @@ s
 "
 "
 "
+            
 )
+        
 )
         
 print
@@ -2766,25 +2768,21 @@ tmpdir
         
 return
 {
-            
 "
 runner
 "
 :
 runner
-            
 "
 package
 "
 :
 package
-            
 "
 swc
 "
 :
 swc
-            
 "
 snc
 "
@@ -2798,13 +2796,15 @@ mark
 .
 parametrize
 (
+        
 "
 chdir
 testarg
 expect_ntests_passed
 "
+        
 [
-        
+            
 (
 "
 runner
@@ -2815,7 +2815,7 @@ runner
 "
 3
 )
-        
+            
 (
 "
 package
@@ -2826,7 +2826,7 @@ package
 "
 3
 )
-        
+            
 (
 "
 swc
@@ -2840,7 +2840,7 @@ swc
 "
 3
 )
-        
+            
 (
 "
 snc
@@ -2854,7 +2854,7 @@ snc
 "
 3
 )
-        
+            
 (
 "
 runner
@@ -2867,7 +2867,7 @@ package
 "
 3
 )
-        
+            
 (
 "
 package
@@ -2877,7 +2877,7 @@ package
 "
 3
 )
-        
+            
 (
 "
 swc
@@ -2888,7 +2888,7 @@ swc
 "
 3
 )
-        
+            
 (
 "
 snc
@@ -2899,7 +2899,7 @@ snc
 "
 3
 )
-        
+            
 (
 "
 runner
@@ -2914,7 +2914,7 @@ swc
 "
 1
 )
-        
+            
 (
 "
 package
@@ -2926,7 +2926,7 @@ swc
 "
 1
 )
-        
+            
 (
 "
 swc
@@ -2936,7 +2936,7 @@ swc
 "
 1
 )
-        
+            
 (
 "
 snc
@@ -2949,7 +2949,7 @@ swc
 "
 1
 )
-        
+            
 (
 "
 runner
@@ -2964,7 +2964,7 @@ snc
 "
 1
 )
-        
+            
 (
 "
 package
@@ -2976,7 +2976,7 @@ snc
 "
 1
 )
-        
+            
 (
 "
 swc
@@ -2989,7 +2989,7 @@ snc
 "
 1
 )
-        
+            
 (
 "
 snc
@@ -2999,8 +2999,9 @@ snc
 "
 1
 )
-    
+        
 ]
+    
 )
     
 pytest
@@ -3012,12 +3013,13 @@ issue616
 def
 test_parsefactories_relative_node_ids
 (
-            
+        
 self
 testdir
 chdir
 testarg
 expect_ntests_passed
+    
 )
 :
         
@@ -3043,7 +3045,6 @@ s
 "
 %
 (
-              
 dirs
 [
 chdir
@@ -3130,29 +3131,27 @@ mark
 .
 parametrize
 (
-'
+    
+"
 confcutdir
 passed
 error
-'
+"
 [
-    
 (
-'
+"
 .
-'
+"
 2
 0
 )
-    
 (
-'
+"
 src
-'
+"
 1
 1
 )
-    
 (
 None
 1
@@ -3182,7 +3181,7 @@ detected
 only
 up
 to
-a
+an
 ini
 file
 unless
@@ -3213,9 +3212,9 @@ root
 .
 join
 (
-'
+"
 src
-'
+"
 )
 .
 ensure
@@ -3229,41 +3228,43 @@ src
 .
 join
 (
-'
+"
 pytest
 .
 ini
-'
+"
 )
 .
 write
 (
-'
+"
 [
 pytest
 ]
-'
+"
 )
     
 src
 .
 join
 (
-'
+"
 conftest
 .
 py
-'
+"
 )
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -3285,28 +3286,32 @@ pass
 "
 "
 "
+        
 )
+    
 )
     
 src
 .
 join
 (
-'
+"
 test_foo
 .
 py
-'
+"
 )
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -3332,28 +3337,32 @@ pass
 "
 "
 "
+        
 )
+    
 )
     
 root
 .
 join
 (
-'
+"
 conftest
 .
 py
-'
+"
 )
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -3375,7 +3384,9 @@ pass
 "
 "
 "
+        
 )
+    
 )
     
 args
@@ -3394,14 +3405,14 @@ confcutdir
 args
 =
 [
-'
+"
 -
 -
 confcutdir
 =
 %
 s
-'
+"
 %
 root
 .
@@ -3423,8 +3434,8 @@ args
     
 match
 =
-'
-'
+"
+"
     
 if
 passed
@@ -3433,13 +3444,13 @@ passed
 match
 +
 =
-'
+"
 *
 %
 d
 passed
 *
-'
+"
 %
 passed
     
@@ -3450,13 +3461,13 @@ error
 match
 +
 =
-'
+"
 *
 %
 d
 error
 *
-'
+"
 %
 error
     
@@ -3479,6 +3490,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -3517,12 +3529,14 @@ DontTouchMe
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3538,6 +3552,7 @@ pass
 "
 "
 "
+    
 )
     
 res
@@ -3566,24 +3581,27 @@ testdir
 .
 makeconftest
 (
-'
-'
-'
+        
+"
+"
+"
         
 raise
 ValueError
 (
 )
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3599,6 +3617,7 @@ pass
 "
 "
 "
+    
 )
     
 res
@@ -3618,12 +3637,12 @@ ret
 4
     
 assert
-'
+"
 raise
 ValueError
 (
 )
-'
+"
 in
 [
 line
@@ -3682,11 +3701,12 @@ testdir
 .
 makepyfile
 (
+        
 *
 *
 {
-        
-'
+            
+"
 root
 /
 demo
@@ -3696,7 +3716,7 @@ demo
 test_foo1
 .
 py
-'
+"
 :
 "
 def
@@ -3706,8 +3726,8 @@ test1
 :
 pass
 "
-        
-'
+            
+"
 root
 /
 demo
@@ -3717,7 +3737,7 @@ a
 test_foo2
 .
 py
-'
+"
 :
 "
 def
@@ -3727,8 +3747,8 @@ test1
 :
 pass
 "
-        
-'
+            
+"
 root
 /
 demo
@@ -3738,7 +3758,7 @@ a
 conftest
 .
 py
-'
+"
 :
 "
 "
@@ -3758,8 +3778,8 @@ True
 "
 "
 "
-        
-'
+            
+"
 root
 /
 demo
@@ -3769,7 +3789,28 @@ b
 test_foo3
 .
 py
-'
+"
+:
+"
+def
+test1
+(
+)
+:
+pass
+"
+            
+"
+root
+/
+demo
+-
+c
+/
+test_foo4
+.
+py
+"
 :
 "
 def
@@ -3780,28 +3821,8 @@ test1
 pass
 "
         
-'
-root
-/
-demo
--
-c
-/
-test_foo4
-.
-py
-'
-:
-"
-def
-test1
-(
-)
-:
-pass
-"
-    
 }
+    
 )
     
 result
@@ -3818,40 +3839,37 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 *
 test_foo1
 .
 py
 *
-'
-        
-'
+"
+"
 *
 test_foo3
 .
 py
 *
-'
-        
-'
+"
+"
 *
 test_foo4
 .
 py
 *
-'
-        
-'
+"
+"
 *
 3
 passed
 *
-'
-    
+"
 ]
+    
 )
 def
 test_required_option_help
@@ -3894,12 +3912,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -3933,7 +3953,9 @@ True
 "
 "
 "
+        
 )
+    
 )
     
 result
@@ -3950,14 +3972,14 @@ x
 )
     
 assert
-'
+"
 argument
 -
 -
 xyz
 is
 required
-'
+"
 not
 in
 result
@@ -3969,10 +3991,10 @@ str
 )
     
 assert
-'
+"
 general
 :
-'
+"
 in
 result
 .

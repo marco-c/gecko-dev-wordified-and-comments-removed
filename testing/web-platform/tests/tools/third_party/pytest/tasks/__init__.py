@@ -27,6 +27,5 @@ invoke
 .
 Collection
 (
-    
 generate
 )

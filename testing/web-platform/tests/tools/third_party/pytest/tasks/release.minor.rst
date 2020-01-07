@@ -66,7 +66,7 @@ with
 more
 than
 a
-1600
+2000
 tests
 against
 itself

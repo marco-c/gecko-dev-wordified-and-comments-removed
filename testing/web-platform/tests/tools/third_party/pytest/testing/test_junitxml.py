@@ -143,14 +143,12 @@ value
     
 expected
 =
-dict
-(
-(
+{
 name
+:
 str
 (
 value
-)
 )
 for
 name
@@ -161,25 +159,23 @@ kwargs
 items
 (
 )
-)
+}
     
 on_node
 =
-dict
-(
-(
+{
 name
+:
 nodeval
 (
 node
 name
 )
-)
 for
 name
 in
 expected
-)
+}
     
 assert
 on_node
@@ -487,6 +483,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -558,6 +555,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -619,6 +617,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -705,6 +704,7 @@ True
 "
 "
 "
+        
 )
         
 result
@@ -766,6 +766,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -822,6 +823,7 @@ sleep
 "
 "
 "
+        
 )
         
 result
@@ -890,6 +892,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -925,6 +928,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1004,6 +1008,7 @@ name
 "
 test_function
 "
+        
 )
         
 fnode
@@ -1053,6 +1058,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1089,6 +1095,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1156,6 +1163,7 @@ name
 "
 test_function
 "
+        
 )
         
 fnode
@@ -1205,6 +1213,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1252,6 +1261,7 @@ Exception
 "
 "
 "
+        
 )
         
 result
@@ -1382,6 +1392,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1407,6 +1418,7 @@ hello23
 "
 "
 "
+        
 )
         
 result
@@ -1486,6 +1498,7 @@ name
 "
 test_skip
 "
+        
 )
         
 snode
@@ -1529,6 +1542,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1561,6 +1575,7 @@ True
 "
 "
 "
+        
 )
         
 result
@@ -1640,6 +1655,7 @@ name
 "
 test_skip
 "
+        
 )
         
 snode
@@ -1683,6 +1699,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1720,6 +1737,7 @@ True
 "
 "
 "
+        
 )
         
 result
@@ -1799,6 +1817,7 @@ name
 "
 test_skip
 "
+        
 )
         
 snode
@@ -1842,6 +1861,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1879,6 +1899,7 @@ bar
 "
 "
 "
+        
 )
         
 result
@@ -1933,6 +1954,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1957,6 +1979,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2035,6 +2058,7 @@ name
 "
 test_method
 "
+        
 )
     
 def
@@ -2165,6 +2189,7 @@ name
 "
 test_func
 "
+        
 )
     
 def
@@ -2302,11 +2327,38 @@ toxml
 (
 )
     
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+out
+"
+"
+system
+-
+err
+"
+]
+)
+    
 def
 test_failure_function
 (
 self
 testdir
+junit_logging
 )
 :
         
@@ -2314,9 +2366,13 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
+            
+import
+logging
             
 import
 sys
@@ -2352,6 +2408,26 @@ n
 "
 )
                 
+logging
+.
+info
+(
+'
+info
+msg
+'
+)
+                
+logging
+.
+warning
+(
+'
+warning
+msg
+'
+)
+                
 raise
 ValueError
 (
@@ -2361,6 +2437,7 @@ ValueError
 "
 "
 "
+        
 )
         
 result
@@ -2369,6 +2446,18 @@ dom
 runandparse
 (
 testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 assert
@@ -2426,7 +2515,7 @@ py
 line
 =
 "
-1
+3
 "
             
 classname
@@ -2440,6 +2529,7 @@ name
 "
 test_fail
 "
+        
 )
         
 fnode
@@ -2508,6 +2598,19 @@ toxml
 (
 )
         
+assert
+"
+info
+msg
+"
+not
+in
+systemout
+.
+toxml
+(
+)
+        
 systemerr
 =
 systemout
@@ -2538,6 +2641,126 @@ systemerr
 toxml
 (
 )
+        
+assert
+"
+info
+msg
+"
+not
+in
+systemerr
+.
+toxml
+(
+)
+        
+if
+junit_logging
+=
+=
+"
+system
+-
+out
+"
+:
+            
+assert
+"
+warning
+msg
+"
+in
+systemout
+.
+toxml
+(
+)
+            
+assert
+"
+warning
+msg
+"
+not
+in
+systemerr
+.
+toxml
+(
+)
+        
+elif
+junit_logging
+=
+=
+"
+system
+-
+err
+"
+:
+            
+assert
+"
+warning
+msg
+"
+not
+in
+systemout
+.
+toxml
+(
+)
+            
+assert
+"
+warning
+msg
+"
+in
+systemerr
+.
+toxml
+(
+)
+        
+elif
+junit_logging
+=
+=
+"
+no
+"
+:
+            
+assert
+"
+warning
+msg
+"
+not
+in
+systemout
+.
+toxml
+(
+)
+            
+assert
+"
+warning
+msg
+"
+not
+in
+systemerr
+.
+toxml
+(
+)
     
 def
 test_failure_verbose_message
@@ -2551,6 +2774,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2574,6 +2798,7 @@ error
 "
 "
 "
+        
 )
         
 result
@@ -2645,6 +2870,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2693,6 +2919,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2793,6 +3020,7 @@ s
 "
 %
 char
+            
 )
             
 sysout
@@ -2801,11 +3029,11 @@ tnode
 .
 find_first_by_tag
 (
-'
+"
 system
 -
 out
-'
+"
 )
             
 text
@@ -2818,12 +3046,12 @@ assert
 text
 =
 =
-'
+"
 %
 s
 \
 n
-'
+"
 %
 char
     
@@ -2839,6 +3067,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2871,6 +3100,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -2959,6 +3189,7 @@ name
 "
 test_func
 "
+        
 )
         
 tnode
@@ -3000,7 +3231,6 @@ xyz
 test_junit_prefixing
 .
 "
-            
 "
 TestHello
 "
@@ -3010,6 +3240,7 @@ name
 "
 test_hello
 "
+        
 )
     
 def
@@ -3024,6 +3255,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3049,6 +3281,7 @@ xfail
 "
 "
 "
+        
 )
         
 result
@@ -3129,6 +3362,7 @@ name
 "
 test_xfail
 "
+        
 )
         
 fnode
@@ -3156,6 +3390,146 @@ failure
 )
     
 def
+test_xfail_captures_output_once
+(
+self
+testdir
+)
+:
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+sys
+            
+import
+pytest
+            
+pytest
+.
+mark
+.
+xfail
+(
+)
+            
+def
+test_fail
+(
+)
+:
+                
+sys
+.
+stdout
+.
+write
+(
+'
+XFAIL
+This
+is
+stdout
+'
+)
+                
+sys
+.
+stderr
+.
+write
+(
+'
+XFAIL
+This
+is
+stderr
+'
+)
+                
+assert
+0
+        
+"
+"
+"
+        
+)
+        
+result
+dom
+=
+runandparse
+(
+testdir
+)
+        
+node
+=
+dom
+.
+find_first_by_tag
+(
+"
+testsuite
+"
+)
+        
+tnode
+=
+node
+.
+find_first_by_tag
+(
+"
+testcase
+"
+)
+        
+assert
+len
+(
+tnode
+.
+find_by_tag
+(
+"
+system
+-
+err
+"
+)
+)
+=
+=
+1
+        
+assert
+len
+(
+tnode
+.
+find_by_tag
+(
+"
+system
+-
+out
+"
+)
+)
+=
+=
+1
+    
+def
 test_xfailure_xpass
 (
 self
@@ -3167,6 +3541,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3191,6 +3566,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3265,6 +3641,7 @@ name
 "
 test_xpass
 "
+        
 )
     
 def
@@ -3279,6 +3656,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3317,6 +3695,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3391,6 +3770,7 @@ name
 "
 test_xpass
 "
+        
 )
         
 fnode
@@ -3494,7 +3874,6 @@ tnode
 .
 assert_attr
 (
-            
 file
 =
 "
@@ -3502,7 +3881,6 @@ test_collect_error
 .
 py
 "
-            
 name
 =
 "
@@ -3564,7 +3942,7 @@ testdir
         
 value
 =
-'
+"
 hx
 \
 xc4
@@ -3576,12 +3954,13 @@ xc4
 x87
 \
 n
-'
+"
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3609,8 +3988,10 @@ assert
 "
 "
 "
+            
 %
 value
+        
 )
         
 result
@@ -3704,6 +4085,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3749,6 +4131,7 @@ M2
 "
 "
 "
+        
 )
         
 result
@@ -3780,6 +4163,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3802,6 +4186,7 @@ stdout
 "
 "
 "
+        
 )
         
 result
@@ -3872,6 +4257,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3901,6 +4287,7 @@ stderr
 "
 "
 "
+        
 )
         
 result
@@ -3971,6 +4358,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4015,6 +4403,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -4085,6 +4474,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4136,6 +4526,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -4206,6 +4597,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4272,6 +4664,7 @@ call
 "
 "
 "
+        
 )
         
 result
@@ -4359,14 +4752,13 @@ mangle_test_address
     
 address
 =
-'
+"
 :
 :
-'
+"
 .
 join
 (
-        
 [
 "
 a
@@ -4503,11 +4895,11 @@ tmpdir
 .
 join
 (
-'
+"
 junix
 .
 xml
-'
+"
 )
 )
         
@@ -4584,6 +4976,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -4688,6 +5081,7 @@ failed
 "
 "
 "
+        
 )
         
 testdir
@@ -4825,6 +5219,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4901,6 +5296,7 @@ False
 "
 "
 "
+    
 )
     
 xmlf
@@ -4911,25 +5307,25 @@ tmpdir
 .
 join
 (
-'
+"
 junit
 .
 xml
-'
+"
 )
     
 testdir
 .
 runpytest
 (
-'
+"
 -
 -
 junitxml
 =
 %
 s
-'
+"
 %
 xmlf
 )
@@ -4943,19 +5339,19 @@ read
 )
     
 assert
-'
+"
 \
 x00
-'
+"
 not
 in
 text
     
 assert
-'
+"
 #
 x00
-'
+"
 in
 text
 def
@@ -4969,6 +5365,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5045,6 +5442,7 @@ False
 "
 "
 "
+    
 )
     
 xmlf
@@ -5055,25 +5453,25 @@ tmpdir
 .
 join
 (
-'
+"
 junit
 .
 xml
-'
+"
 )
     
 testdir
 .
 runpytest
 (
-'
+"
 -
 -
 junitxml
 =
 %
 s
-'
+"
 %
 xmlf
 )
@@ -5087,10 +5485,10 @@ read
 )
     
 assert
-'
+"
 #
 x0
-'
+"
 in
 text
 def
@@ -5121,18 +5519,29 @@ chr
 invalid
 =
 (
+        
 0x00
+        
 0x1
+        
 0xB
+        
 0xC
+        
 0xE
+        
 0x19
+        
 27
-               
+        
 0xD800
+        
 0xDFFF
+        
 0xFFFE
+        
 0x0FFFF
+    
 )
     
 valid
@@ -5177,12 +5586,12 @@ i
             
 expected
 =
-'
+"
 #
 x
 %
 02X
-'
+"
 %
 i
         
@@ -5191,12 +5600,12 @@ else
             
 expected
 =
-'
+"
 #
 x
 %
 04X
-'
+"
 %
 i
         
@@ -5250,32 +5659,32 @@ path
 .
 expanduser
 (
-'
+"
 ~
-'
+"
 )
 )
 .
 join
 (
-'
+"
 test
 .
 xml
-'
+"
 )
     
 xml_tilde
 =
 LogXML
 (
-'
+"
 ~
 %
 stest
 .
 xml
-'
+"
 %
 tmpdir
 .
@@ -5315,13 +5724,13 @@ path
 .
 expandvars
 (
-'
+"
 HOME
 /
 test
 .
 xml
-'
+"
 )
 )
     
@@ -5329,13 +5738,13 @@ xml_var
 =
 LogXML
 (
-'
+"
 HOME
 %
 stest
 .
 xml
-'
+"
 %
 tmpdir
 .
@@ -5361,6 +5770,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5386,6 +5796,7 @@ a
 "
 "
 "
+    
 )
     
 testdir
@@ -5474,6 +5885,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5489,6 +5901,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5619,6 +6032,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5658,6 +6072,7 @@ char
 "
 "
 "
+    
 )
     
 result
@@ -5713,6 +6128,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5751,6 +6167,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5797,7 +6214,7 @@ assert_attr
 (
 name
 =
-'
+"
 test_func
 [
 double
@@ -5805,7 +6222,7 @@ double
 :
 colon
 ]
-'
+"
 )
 def
 test_double_colon_split_method_issue469
@@ -5818,6 +6235,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5864,6 +6282,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5897,7 +6316,6 @@ node
 .
 assert_attr
 (
-        
 classname
 =
 "
@@ -5913,7 +6331,7 @@ assert_attr
 (
 name
 =
-'
+"
 test_func
 [
 double
@@ -5921,7 +6339,7 @@ double
 :
 colon
 ]
-'
+"
 )
 def
 test_unicode_issue368
@@ -6005,19 +6423,19 @@ something
         
 location
 =
-'
+"
 tests
 /
 filename
 .
 py
-'
+"
 42
-'
+"
 TestClass
 .
 method
-'
+"
     
 test_report
 =
@@ -6134,6 +6552,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6148,11 +6567,11 @@ fixture
 def
 other
 (
-record_xml_property
+record_property
 )
 :
             
-record_xml_property
+record_property
 (
 "
 bar
@@ -6163,12 +6582,12 @@ bar
 def
 test_record
 (
-record_xml_property
+record_property
 other
 )
 :
             
-record_xml_property
+record_property
 (
 "
 foo
@@ -6183,6 +6602,7 @@ foo
 "
 "
 "
+    
 )
     
 result
@@ -6191,10 +6611,10 @@ dom
 runandparse
 (
 testdir
-'
+"
 -
-rw
-'
+rwv
+"
 )
     
 node
@@ -6225,9 +6645,9 @@ tnode
 .
 find_first_by_tag
 (
-'
+"
 properties
-'
+"
 )
     
 pnodes
@@ -6236,9 +6656,9 @@ psnode
 .
 find_by_tag
 (
-'
+"
 property
-'
+"
 )
     
 pnodes
@@ -6279,34 +6699,6 @@ value
 1
 "
 )
-    
-result
-.
-stdout
-.
-fnmatch_lines
-(
-[
-        
-'
-test_record_property
-.
-py
-:
-:
-test_record
-'
-        
-'
-*
-record_xml_property
-*
-experimental
-*
-'
-    
-]
-)
 def
 test_record_property_same_name
 (
@@ -6318,6 +6710,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6325,11 +6718,11 @@ makepyfile
 def
 test_record_with_same_name
 (
-record_xml_property
+record_property
 )
 :
             
-record_xml_property
+record_property
 (
 "
 foo
@@ -6339,7 +6732,7 @@ bar
 "
 )
             
-record_xml_property
+record_property
 (
 "
 foo
@@ -6352,6 +6745,7 @@ baz
 "
 "
 "
+    
 )
     
 result
@@ -6360,10 +6754,10 @@ dom
 runandparse
 (
 testdir
-'
+"
 -
 rw
-'
+"
 )
     
 node
@@ -6394,9 +6788,9 @@ tnode
 .
 find_first_by_tag
 (
-'
+"
 properties
-'
+"
 )
     
 pnodes
@@ -6405,9 +6799,9 @@ psnode
 .
 find_by_tag
 (
-'
+"
 property
-'
+"
 )
     
 pnodes
@@ -6446,6 +6840,153 @@ value
 "
 baz
 "
+)
+def
+test_record_attribute
+(
+testdir
+)
+:
+    
+testdir
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+import
+pytest
+        
+pytest
+.
+fixture
+        
+def
+other
+(
+record_xml_attribute
+)
+:
+            
+record_xml_attribute
+(
+"
+bar
+"
+1
+)
+        
+def
+test_record
+(
+record_xml_attribute
+other
+)
+:
+            
+record_xml_attribute
+(
+"
+foo
+"
+"
+<
+1
+"
+)
+;
+    
+"
+"
+"
+    
+)
+    
+result
+dom
+=
+runandparse
+(
+testdir
+"
+-
+rw
+"
+)
+    
+node
+=
+dom
+.
+find_first_by_tag
+(
+"
+testsuite
+"
+)
+    
+tnode
+=
+node
+.
+find_first_by_tag
+(
+"
+testcase
+"
+)
+    
+tnode
+.
+assert_attr
+(
+bar
+=
+"
+1
+"
+)
+    
+tnode
+.
+assert_attr
+(
+foo
+=
+"
+<
+1
+"
+)
+    
+result
+.
+stdout
+.
+fnmatch_lines
+(
+        
+[
+"
+test_record_attribute
+.
+py
+:
+:
+test_record
+"
+"
+*
+record_xml_attribute
+*
+experimental
+*
+"
+]
+    
 )
 def
 test_random_report_log_xdist
@@ -6497,15 +7038,16 @@ pytest
 .
 importorskip
 (
-'
+"
 xdist
-'
+"
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6548,6 +7090,7 @@ i
 "
 "
 "
+    
 )
     
 _
@@ -6556,10 +7099,10 @@ dom
 runandparse
 (
 testdir
-'
+"
 -
 n2
-'
+"
 )
     
 suite_node
@@ -6596,9 +7139,9 @@ case_node
 .
 find_first_by_tag
 (
-'
+"
 failure
-'
+"
 )
 :
             
@@ -6608,9 +7151,9 @@ append
 (
 case_node
 [
-'
+"
 name
-'
+"
 ]
 )
     
@@ -6619,12 +7162,12 @@ failed
 =
 =
 [
-'
+"
 test_x
 [
 22
 ]
-'
+"
 ]
 def
 test_runs_twice
@@ -6639,9 +7182,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 def
 test_pass
@@ -6651,9 +7195,10 @@ test_pass
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -6667,9 +7212,9 @@ f
 )
     
 assert
-'
+"
 INTERNALERROR
-'
+"
 not
 in
 result
@@ -6686,9 +7231,9 @@ second
 [
 x
 [
-'
+"
 classname
-'
+"
 ]
 for
 x
@@ -6716,9 +7261,9 @@ xfail
 (
 reason
 =
-'
+"
 hangs
-'
+"
 run
 =
 False
@@ -6734,9 +7279,9 @@ pytest
 .
 importorskip
 (
-'
+"
 xdist
-'
+"
 )
     
 f
@@ -6745,9 +7290,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 def
 test_pass
@@ -6757,9 +7303,10 @@ test_pass
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -6767,34 +7314,32 @@ dom
 =
 runandparse
 (
-        
 testdir
 f
-        
-'
+"
 -
 -
 dist
-'
-'
+"
+"
 each
-'
-'
+"
+"
 -
 -
 tx
-'
-'
+"
+"
 2
 *
 popen
-'
+"
 )
     
 assert
-'
+"
 INTERNALERROR
-'
+"
 not
 in
 result
@@ -6811,9 +7356,9 @@ second
 [
 x
 [
-'
+"
 classname
-'
+"
 ]
 for
 x
@@ -6844,6 +7389,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -6964,15 +7510,17 @@ parent
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 def
 test_pass
@@ -6982,9 +7530,10 @@ test_pass
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -6996,9 +7545,9 @@ testdir
 )
     
 assert
-'
+"
 INTERNALERROR
-'
+"
 not
 in
 result
@@ -7014,7 +7563,7 @@ items
 sorted
 (
         
-'
+"
 %
 (
 classname
@@ -7030,10 +7579,9 @@ s
 file
 )
 s
-'
+"
 %
 x
-        
 for
 x
 in
@@ -7045,6 +7593,7 @@ find_by_tag
 testcase
 "
 )
+    
 )
     
 import
@@ -7058,79 +7607,83 @@ items
 )
     
 assert
+(
+        
 items
+        
 =
 =
 [
-        
+            
 u
-'
+"
 conftest
 a
 conftest
 .
 py
-'
-        
+"
+            
 u
-'
+"
 conftest
 a
 conftest
 .
 py
-'
-        
+"
+            
 u
-'
+"
 conftest
 b
 conftest
 .
 py
-'
-        
+"
+            
 u
-'
+"
 test_fancy_items_regression
 a
 test_fancy_items_regression
 .
 py
-'
-        
+"
+            
 u
-'
+"
 test_fancy_items_regression
 a
 test_fancy_items_regression
 .
 py
-'
-        
+"
+            
 u
-'
+"
 test_fancy_items_regression
 b
 test_fancy_items_regression
 .
 py
-'
-        
+"
+            
 u
-'
+"
 test_fancy_items_regression
 test_pass
-'
-        
+"
 u
-'
+"
 test_fancy_items_regression
 .
 py
-'
-    
+"
+        
 ]
+    
+)
 def
 test_global_properties
 (
@@ -7199,9 +7752,9 @@ log
 .
 add_global_property
 (
-'
+"
 foo
-'
+"
 1
 )
     
@@ -7209,9 +7762,9 @@ log
 .
 add_global_property
 (
-'
+"
 bar
-'
+"
 2
 )
     
@@ -7239,20 +7792,18 @@ dom
 .
 getElementsByTagName
 (
-'
+"
 properties
-'
+"
 )
     
 assert
-(
 properties
 .
 length
 =
 =
 1
-)
 "
 There
 must
@@ -7270,20 +7821,18 @@ dom
 .
 getElementsByTagName
 (
-'
+"
 property
-'
+"
 )
     
 assert
-(
 property_list
 .
 length
 =
 =
 2
-)
 "
 There
 most
@@ -7297,20 +7846,20 @@ nodes
 expected
 =
 {
-'
+"
 foo
-'
+"
 :
-'
+"
 1
-'
-'
+"
+"
 bar
-'
+"
 :
-'
+"
 2
-'
+"
 }
     
 actual
@@ -7332,9 +7881,9 @@ p
 .
 getAttribute
 (
-'
+"
 name
-'
+"
 )
 )
         
@@ -7346,9 +7895,9 @@ p
 .
 getAttribute
 (
-'
+"
 value
-'
+"
 )
 )
         
@@ -7448,19 +7997,19 @@ something
         
 location
 =
-'
+"
 tests
 /
 filename
 .
 py
-'
+"
 42
-'
+"
 TestClass
 .
 method
-'
+"
         
 url
 =
@@ -7514,9 +8063,9 @@ path
 .
 getElementsByTagName
 (
-'
+"
 testcase
-'
+"
 )
 [
 0
@@ -7524,17 +8073,19 @@ testcase
     
 assert
 (
+        
 test_case
 .
 getAttribute
 (
-'
+"
 url
-'
+"
 )
 =
 =
 test_url
+    
 )
 "
 The
@@ -7553,15 +8104,15 @@ mark
 .
 parametrize
 (
-'
+"
 suite_name
-'
+"
 [
-'
+"
 my_suite
-'
-'
-'
+"
+"
+"
 ]
 )
 def
@@ -7580,6 +8131,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -7591,7 +8143,6 @@ pytest
 junit_suite_name
 =
 {
-0
 }
         
 "
@@ -7600,8 +8151,11 @@ junit_suite_name
 .
 format
 (
+                
 suite_name
+            
 )
+        
 )
         
 expected
@@ -7613,14 +8167,15 @@ else
         
 expected
 =
-'
+"
 pytest
-'
+"
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -7639,6 +8194,7 @@ pass
 "
 "
 "
+    
 )
     
 result

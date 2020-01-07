@@ -6,9 +6,9 @@ fixture
 (
 scope
 =
-'
+"
 module
-'
+"
 params
 =
 range

@@ -38,6 +38,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -132,6 +133,7 @@ append
 "
 "
 "
+    
 )
     
 result
@@ -141,13 +143,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -265,6 +267,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -363,6 +366,7 @@ values
 "
 "
 "
+    
 )
     
 result
@@ -372,13 +376,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -402,6 +406,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -480,6 +485,7 @@ values
 "
 "
 "
+    
 )
     
 result
@@ -489,13 +495,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -505,7 +511,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 TypeError
@@ -517,7 +522,6 @@ lambda
 )
 *
 "
-    
 ]
 )
 def
@@ -531,6 +535,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -576,6 +581,7 @@ my_teardown
 "
 "
 "
+    
 )
     
 reprec
@@ -616,6 +622,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -736,6 +743,7 @@ my_teardown_partial
 "
 "
 "
+    
 )
     
 result
@@ -745,13 +753,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -761,14 +769,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 passed
 *
 "
-    
 ]
 )
 def
@@ -784,6 +790,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1183,6 +1190,7 @@ expect
 "
 "
 "
+    
 )
     
 result
@@ -1192,13 +1200,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -1208,14 +1216,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 10
 passed
 *
 "
-    
 ]
 )
 def
@@ -1229,6 +1235,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1340,6 +1347,7 @@ items
 "
 "
 "
+    
 )
     
 result
@@ -1348,13 +1356,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -1364,14 +1372,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 passed
 *
 "
-    
 ]
 )
 def
@@ -1385,6 +1391,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1450,6 +1457,7 @@ values
 "
 "
 "
+    
 )
     
 result
@@ -1458,13 +1466,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 p
-'
-'
+"
+"
 nose
-'
+"
 )
     
 result
@@ -1474,14 +1482,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 passed
 *
 "
-    
 ]
 )
 def
@@ -1495,6 +1501,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1541,6 +1548,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -1558,14 +1566,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 passed
 *
 "
-    
 ]
 )
 def
@@ -1579,6 +1585,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1679,6 +1686,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -1708,6 +1716,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -1854,6 +1863,7 @@ tests
 '
 '
 '
+    
 )
     
 reprec
@@ -1888,6 +1898,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1918,6 +1929,7 @@ False
 "
 "
 "
+    
 )
     
 result
@@ -1948,6 +1960,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1975,6 +1988,7 @@ test
 "
 "
 "
+    
 )
     
 reprec
@@ -2006,6 +2020,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2032,6 +2047,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -2062,6 +2078,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2088,6 +2105,7 @@ pass
 "
 "
 "
+    
 )
     
 reprec
@@ -2133,6 +2151,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2167,6 +2186,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -2197,6 +2217,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2231,6 +2252,7 @@ pass
 "
 "
 "
+    
 )
     
 reprec

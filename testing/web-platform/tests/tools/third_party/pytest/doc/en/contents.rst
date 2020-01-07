@@ -103,14 +103,13 @@ started
 usage
 existingtestsuite
 assert
-builtin
 fixture
+mark
 monkeypatch
 tmpdir
 capture
 warnings
 doctest
-mark
 skipping
 parametrize
 cache
@@ -120,6 +119,7 @@ xunit_setup
 plugins
 writing_plugins
 logging
+reference
 goodpractices
 pythonpath
 customize

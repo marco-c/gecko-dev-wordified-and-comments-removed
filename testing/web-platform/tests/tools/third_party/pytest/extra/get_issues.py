@@ -3,7 +3,7 @@ json
 import
 py
 import
-textwrap
+requests
 issues_url
 =
 "
@@ -27,8 +27,6 @@ pytest
 /
 issues
 "
-import
-requests
 def
 get_issues
 (
@@ -93,9 +91,9 @@ print
 (
 data
 [
-'
+"
 message
-'
+"
 ]
 )
             
@@ -123,9 +121,9 @@ r
 .
 headers
 [
-'
+"
 Link
-'
+"
 ]
 )
         
@@ -142,24 +140,24 @@ links
 if
 link
 [
-'
+"
 rel
-'
+"
 ]
 =
 =
-'
+"
 next
-'
+"
 :
                 
 url
 =
 link
 [
-'
+"
 url
-'
+"
 ]
                 
 another_page
@@ -295,18 +293,18 @@ labels
 [
 l
 [
-'
+"
 name
-'
+"
 ]
 for
 l
 in
 issue
 [
-'
+"
 labels
-'
+"
 ]
 ]
     
@@ -314,15 +312,15 @@ for
 key
 in
 (
-'
+"
 bug
-'
-'
+"
+"
 enhancement
-'
-'
+"
+"
 proposal
-'
+"
 )
 :
         
@@ -336,9 +334,9 @@ return
 key
     
 return
-'
+"
 issue
-'
+"
 def
 report
 (
@@ -358,15 +356,6 @@ issue
 [
 "
 title
-"
-]
-        
-body
-=
-issue
-[
-"
-body
 "
 ]
         
@@ -490,6 +479,7 @@ parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -500,7 +490,6 @@ action
 "
 store_true
 "
-                        
 help
 =
 "
@@ -509,12 +498,14 @@ cache
 refresh
 issues
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -532,13 +523,13 @@ issues
 .
 json
 "
-                        
 help
 =
 "
 cache
 file
 "
+    
 )
     
 args

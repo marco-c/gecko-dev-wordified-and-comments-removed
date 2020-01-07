@@ -162,9 +162,9 @@ config
 .
 getoption
 (
-'
+"
 acceptance
-'
+"
 )
 :
 pytest

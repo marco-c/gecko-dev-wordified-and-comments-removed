@@ -86,12 +86,12 @@ collector
 .
 makeitem
 (
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 )
     
 assert

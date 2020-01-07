@@ -1,3 +1,9 @@
+from
+six
+.
+moves
+import
+range
 import
 pytest
 SKIP
@@ -12,7 +18,7 @@ parametrize
 "
 x
 "
-xrange
+range
 (
 5000
 )

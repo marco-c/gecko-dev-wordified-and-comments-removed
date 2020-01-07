@@ -29,6 +29,11 @@ pytest
 import
 contextlib
 from
+six
+import
+binary_type
+text_type
+from
 _pytest
 import
 capture
@@ -63,167 +68,77 @@ dup
 )
 "
 )
-if
-sys
-.
-version_info
->
-=
-(
-3
-0
-)
-:
-    
 def
 tobytes
 (
 obj
 )
 :
-        
+    
 if
 isinstance
 (
 obj
-str
+text_type
 )
 :
-            
+        
 obj
 =
 obj
 .
 encode
 (
-'
+"
 UTF
 -
 8
-'
+"
 )
-        
+    
 assert
 isinstance
 (
 obj
-bytes
+binary_type
 )
-        
+    
 return
 obj
-    
 def
 totext
 (
 obj
 )
 :
-        
-if
-isinstance
-(
-obj
-bytes
-)
-:
-            
-obj
-=
-str
-(
-obj
-'
-UTF
--
-8
-'
-)
-        
-assert
-isinstance
-(
-obj
-str
-)
-        
-return
-obj
-else
-:
     
-def
-tobytes
-(
-obj
-)
-:
-        
 if
 isinstance
 (
 obj
-unicode
+binary_type
 )
 :
-            
+        
 obj
 =
-obj
-.
-encode
+text_type
 (
-'
+obj
+"
 UTF
 -
 8
-'
+"
 )
-        
-assert
-isinstance
-(
-obj
-str
-)
-        
-return
-obj
     
-def
-totext
-(
-obj
-)
-:
-        
-if
-isinstance
-(
-obj
-str
-)
-:
-            
-obj
-=
-unicode
-(
-obj
-'
-UTF
--
-8
-'
-)
-        
 assert
 isinstance
 (
 obj
-unicode
+text_type
 )
-        
+    
 return
 obj
 def
@@ -328,6 +243,8 @@ from
 _pytest
 .
 config
+.
+argparsing
 import
 Parser
         
@@ -389,9 +306,9 @@ monkeypatch
 delattr
 (
 os
-'
+"
 dup
-'
+"
 raising
 =
 False
@@ -430,17 +347,17 @@ mark
 .
 parametrize
 (
+        
 "
 method
 "
-                             
 [
-'
+"
 no
-'
-'
+"
+"
 sys
-'
+"
 pytest
 .
 mark
@@ -457,11 +374,12 @@ dup
 "
 )
 '
-'
+"
 fd
-'
+"
 )
 ]
+    
 )
     
 def
@@ -719,12 +637,12 @@ parametrize
 method
 "
 [
-'
+"
 fd
-'
-'
+"
+"
 sys
-'
+"
 ]
 )
 def
@@ -810,6 +728,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -852,8 +771,10 @@ s
 "
 "
 "
+        
 %
 obj
+    
 )
     
 result
@@ -881,14 +802,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 passed
 *
 "
-    
 ]
 )
 pytest
@@ -901,12 +820,12 @@ parametrize
 method
 "
 [
-'
+"
 fd
-'
-'
+"
+"
 sys
-'
+"
 ]
 )
 def
@@ -921,6 +840,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -944,6 +864,7 @@ u00f6y
 "
 "
 "
+    
 )
     
 result
@@ -971,14 +892,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 passed
 *
 "
-    
 ]
 )
 def
@@ -994,6 +913,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1016,6 +936,7 @@ xyz42123
 "
 "
 "
+    
 )
     
 result
@@ -1034,14 +955,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 Captured
 stdout
 *
 "
-        
 "
 *
 collect
@@ -1049,7 +968,6 @@ collect
 failure
 *
 "
-    
 ]
 )
 class
@@ -1073,6 +991,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1147,6 +1066,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -1164,39 +1084,41 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 setup
 module
 *
 "
-            
+                
 "
 setup
 test_func1
 *
 "
-            
+                
 "
 in
 func1
 *
 "
-            
+                
 "
 setup
 test_func2
 *
 "
-            
+                
 "
 in
 func2
 *
 "
-        
+            
 ]
+        
 )
     
 pytest
@@ -1227,6 +1149,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1301,6 +1224,7 @@ teardown
 "
 "
 "
+        
 )
         
 result
@@ -1318,8 +1242,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_func
@@ -1328,7 +1253,7 @@ test_func
 :
 *
 "
-            
+                
 "
 *
 Captured
@@ -1337,35 +1262,36 @@ during
 setup
 *
 "
-            
+                
 "
 module
 -
 setup
 *
 "
-            
+                
 "
 function
 -
 setup
 *
 "
-            
+                
 "
 *
 Captured
 stdout
 *
 "
-            
+                
 "
 in
 teardown
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1382,6 +1308,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1420,6 +1347,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -1472,6 +1400,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1528,6 +1457,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1545,40 +1475,42 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 *
 teardown_function
 *
-'
-            
-'
+"
+                
+"
 *
 Captured
 stdout
 *
-'
-            
+"
+                
 "
 setup
 func1
 *
 "
-            
+                
 "
 in
 func1
 *
 "
-            
+                
 "
 teardown
 func1
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1595,6 +1527,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1628,6 +1561,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1645,8 +1579,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 def
@@ -1657,29 +1592,30 @@ mod
 :
 *
 "
-            
+                
 "
 *
 Captured
 stdout
 *
 "
-            
+                
 "
 *
 teardown
 module
 *
 "
-            
+                
 "
 *
 1
 error
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1696,6 +1632,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1755,6 +1692,7 @@ ValueError
 "
 "
 "
+        
 )
         
 result
@@ -1772,8 +1710,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_capturing_outerr
@@ -1783,7 +1722,7 @@ py
 F
 *
 "
-            
+                
 "
 =
 =
@@ -1797,13 +1736,13 @@ FAILURES
 =
 =
 "
-            
+                
 "
 ____
 *
 ____
 "
-            
+                
 "
 *
 test_capturing_outerr
@@ -1814,7 +1753,7 @@ py
 :
 ValueError
 "
-            
+                
 "
 *
 -
@@ -1826,11 +1765,11 @@ stdout
 call
 *
 "
-            
+                
 "
 1
 "
-            
+                
 "
 *
 -
@@ -1842,12 +1781,13 @@ stderr
 call
 *
 "
-            
+                
 "
 2
 "
-        
+            
 ]
+        
 )
 class
 TestLoggingInteraction
@@ -1870,6 +1810,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1919,6 +1860,7 @@ resources
 "
 "
 "
+        
 )
         
 result
@@ -1964,6 +1906,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2027,6 +1970,7 @@ assert
 "
 "
 "
+        
 )
         
 for
@@ -2034,22 +1978,22 @@ optargs
 in
 (
 (
-'
+"
 -
 -
 capture
 =
 sys
-'
+"
 )
 (
-'
+"
 -
 -
 capture
 =
 fd
-'
+"
 )
 )
 :
@@ -2086,30 +2030,28 @@ stdout
 .
 fnmatch_lines
 (
-[
                 
+[
 "
 *
 WARN
 *
 hello3
 "
-                
 "
 *
 WARN
 *
 hello1
 "
-                
 "
 *
 WARN
 *
 hello2
 "
-            
 ]
+            
 )
             
 assert
@@ -2134,6 +2076,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2197,6 +2140,7 @@ assert
 "
 "
 "
+        
 )
         
 for
@@ -2204,22 +2148,22 @@ optargs
 in
 (
 (
-'
+"
 -
 -
 capture
 =
 sys
-'
+"
 )
 (
-'
+"
 -
 -
 capture
 =
 fd
-'
+"
 )
 )
 :
@@ -2256,30 +2200,28 @@ stdout
 .
 fnmatch_lines
 (
-[
                 
+[
 "
 *
 WARN
 *
 hello3
 "
-                
 "
 *
 WARN
 *
 hello1
 "
-                
 "
 *
 WARN
 *
 hello2
 "
-            
 ]
+            
 )
             
 assert
@@ -2302,6 +2244,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2327,6 +2270,7 @@ hello435
 "
 "
 "
+        
 )
         
 result
@@ -2365,24 +2309,22 @@ stderr
 fnmatch_lines
 (
 [
-            
 "
 WARNING
 *
 hello435
 *
 "
-        
 ]
 )
         
 assert
-'
+"
 operation
 on
 closed
 file
-'
+"
 not
 in
 result
@@ -2405,6 +2347,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2421,6 +2364,7 @@ basicConfig
 "
 "
 "
+        
 )
         
 p
@@ -2429,6 +2373,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2457,6 +2402,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2492,21 +2438,19 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 WARNING
 *
 hello433
 *
 "
-        
 ]
 )
         
 assert
-'
+"
 something
-'
+"
 not
 in
 result
@@ -2518,12 +2462,12 @@ str
 )
         
 assert
-'
+"
 operation
 on
 closed
 file
-'
+"
 not
 in
 result
@@ -2576,6 +2520,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -2614,8 +2559,10 @@ startswith
 "
 "
 "
+            
 *
 opt
+        
 )
         
 reprec
@@ -2641,6 +2588,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2668,6 +2616,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -2685,8 +2634,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 ERROR
@@ -2696,7 +2646,7 @@ setup
 test_one
 *
 "
-            
+                
 "
 E
 *
@@ -2709,7 +2659,7 @@ same
 time
 *
 "
-            
+                
 "
 *
 ERROR
@@ -2719,7 +2669,7 @@ setup
 test_two
 *
 "
-            
+                
 "
 E
 *
@@ -2732,14 +2682,16 @@ same
 time
 *
 "
-            
+                
 "
 *
 2
 error
 *
 "
+            
 ]
+        
 )
     
 def
@@ -2786,6 +2738,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2827,6 +2780,7 @@ capsys
 "
 "
 "
+        
 )
         
 result
@@ -2843,14 +2797,15 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_one
 *
 "
-            
+                
 "
 *
 capsys
@@ -2862,13 +2817,13 @@ same
 time
 *
 "
-            
+                
 "
 *
 test_two
 *
 "
-            
+                
 "
 *
 capfd
@@ -2880,7 +2835,7 @@ same
 time
 *
 "
-            
+                
 "
 *
 2
@@ -2888,8 +2843,9 @@ failed
 in
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -2906,6 +2862,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2923,6 +2880,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -2940,8 +2898,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 ERROR
@@ -2951,7 +2909,6 @@ setup
 test_one
 *
 "
-            
 "
 E
 *
@@ -2964,7 +2921,6 @@ same
 time
 *
 "
-            
 "
 *
 1
@@ -2972,6 +2928,7 @@ error
 *
 "
 ]
+        
 )
     
 pytest
@@ -3008,6 +2965,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3034,8 +2992,10 @@ assert
 "
 "
 "
+            
 %
 method
+        
 )
         
 result
@@ -3054,11 +3014,9 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 xxx42xxx
 "
-        
 ]
 )
     
@@ -3078,6 +3036,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -3137,6 +3096,7 @@ close
 "
 "
 "
+        
 )
         
 reprec
@@ -3164,6 +3124,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -3242,6 +3203,7 @@ b
 "
 "
 "
+        
 )
         
 reprec
@@ -3267,17 +3229,16 @@ version_info
 (
 3
 )
-        
 reason
 =
-'
+"
 only
 have
 capsysbinary
 in
 python
 3
-'
+"
     
 )
     
@@ -3295,6 +3256,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -3376,6 +3338,7 @@ b
 "
 "
 "
+        
 )
         
 reprec
@@ -3402,17 +3365,16 @@ version_info
 (
 3
 )
-        
 reason
 =
-'
+"
 only
 have
 capsysbinary
 in
 python
 3
-'
+"
     
 )
     
@@ -3428,6 +3390,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3444,6 +3407,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3460,14 +3424,15 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_hello
 *
 "
-            
+                
 "
 *
 capsysbinary
@@ -3479,7 +3444,7 @@ python
 3
 *
 "
-            
+                
 "
 *
 1
@@ -3487,8 +3452,9 @@ error
 in
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -3505,6 +3471,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3522,6 +3489,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3540,20 +3508,17 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_partial_setup_failure
 *
 "
-            
 "
 *
 1
 error
 *
 "
-        
 ]
 )
     
@@ -3573,6 +3538,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3613,6 +3579,7 @@ KeyboardInterrupt
 "
 "
 "
+        
 )
         
 result
@@ -3631,13 +3598,11 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 KeyboardInterrupt
 *
 "
-        
 ]
 )
         
@@ -3669,6 +3634,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3695,6 +3661,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -3707,9 +3674,9 @@ p
 )
         
 assert
-'
+"
 closed
-'
+"
 not
 in
 result
@@ -3726,16 +3693,16 @@ mark
 .
 parametrize
 (
-'
+"
 fixture
-'
+"
 [
-'
+"
 capsys
-'
-'
+"
+"
 capfd
-'
+"
 ]
 )
     
@@ -3745,9 +3712,9 @@ mark
 .
 parametrize
 (
-'
+"
 no_capture
-'
+"
 [
 True
 False
@@ -3768,6 +3735,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3863,19 +3831,22 @@ executed
 .
 format
 (
+                
 fixture
 =
 fixture
+            
 )
+        
 )
         
 args
 =
 (
-'
+"
 -
 s
-'
+"
 )
 if
 no_capture
@@ -3899,6 +3870,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -3913,13 +3885,14 @@ disabled
 "
 "
 "
+        
 )
         
 assert
-'
+"
 captured
 before
-'
+"
 not
 in
 result
@@ -3931,10 +3904,10 @@ str
 )
         
 assert
-'
+"
 captured
 after
-'
+"
 not
 in
 result
@@ -3950,10 +3923,10 @@ no_capture
 :
             
 assert
-'
+"
 test_normal
 executed
-'
+"
 in
 result
 .
@@ -3967,10 +3940,10 @@ else
 :
             
 assert
-'
+"
 test_normal
 executed
-'
+"
 not
 in
 result
@@ -3987,16 +3960,16 @@ mark
 .
 parametrize
 (
-'
+"
 fixture
-'
+"
 [
-'
+"
 capsys
-'
-'
+"
+"
 capfd
-'
+"
 ]
 )
     
@@ -4038,6 +4011,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4208,10 +4182,13 @@ n
 .
 format
 (
+                
 fixture
 =
 fixture
+            
 )
+        
 )
         
 result
@@ -4237,11 +4214,11 @@ passed
 )
         
 assert
-'
+"
 stdout
 contents
 begin
-'
+"
 not
 in
 result
@@ -4253,11 +4230,11 @@ str
 )
         
 assert
-'
+"
 stderr
 contents
 begin
-'
+"
 not
 in
 result
@@ -4298,12 +4275,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -4324,7 +4303,9 @@ ValueError
 "
 "
 "
+        
 )
+    
 )
     
 sub1
@@ -4359,11 +4340,11 @@ runpytest
 testdir
 .
 tmpdir
-'
+"
 -
 -
 traceconfig
-'
+"
 )
     
 result
@@ -4373,7 +4354,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 ValueError
@@ -4382,14 +4362,12 @@ ValueError
 )
 *
 "
-        
 "
 *
 1
 error
 *
 "
-    
 ]
 )
 def
@@ -4403,6 +4381,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4437,6 +4416,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -4461,14 +4441,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 skipped
 *
 "
-    
 ]
 )
 def
@@ -4482,6 +4460,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -4502,6 +4481,7 @@ hello19
 "
 "
 "
+    
 )
     
 testdir
@@ -4535,9 +4515,9 @@ ret
 0
     
 assert
-'
+"
 hello19
-'
+"
 not
 in
 result
@@ -4558,6 +4538,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4596,6 +4577,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -4604,13 +4586,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 cap
 =
 fd
-'
+"
 )
     
 result
@@ -4619,9 +4601,10 @@ stdout
 .
 fnmatch_lines
 (
-'
-'
-'
+        
+"
+"
+"
         
 *
 def
@@ -4642,9 +4625,10 @@ Captured
 failed
 *
     
-'
-'
-'
+"
+"
+"
+    
 )
 def
 test_capture_early_option_parsing
@@ -4657,6 +4641,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -4677,6 +4662,7 @@ hello19
 "
 "
 "
+    
 )
     
 testdir
@@ -4714,9 +4700,9 @@ ret
 0
     
 assert
-'
+"
 hello19
-'
+"
 in
 result
 .
@@ -4736,6 +4722,7 @@ testdir
 .
 makepyfile
 (
+        
 r
 "
 "
@@ -4805,6 +4792,7 @@ test_foo
 "
 "
 "
+    
 )
     
 result
@@ -4813,13 +4801,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 assert
 =
 plain
-'
+"
 )
     
 result
@@ -4858,6 +4846,7 @@ testdir
 .
 makepyfile
 (
+        
 pytest_xyz
 =
 "
@@ -4900,6 +4889,7 @@ bad_snap
 "
 "
 "
+    
 )
     
 result
@@ -4933,14 +4923,13 @@ stderr
 .
 fnmatch_lines
 (
-[
         
+[
 "
 *
 in
 bad_snap
 "
-        
 "
 raise
 Exception
@@ -4950,14 +4939,13 @@ boom
 '
 )
 "
-        
 "
 Exception
 :
 boom
 "
-    
 ]
+    
 )
 class
 TestCaptureIO
@@ -5081,17 +5069,17 @@ f
 .
 write
 (
-unicode
+text_type
 (
 "
 \
 u00f6
 "
-'
+"
 UTF
 -
 8
-'
+"
 )
 )
             
@@ -5122,7 +5110,7 @@ assert
 isinstance
 (
 s
-unicode
+text_type
 )
     
 pytest
@@ -5131,7 +5119,6 @@ mark
 .
 skipif
 (
-        
 sys
 .
 version_info
@@ -5141,16 +5128,14 @@ version_info
 =
 =
 2
-        
 reason
 =
-'
+"
 python
 3
 only
 behaviour
-'
-    
+"
 )
     
 def
@@ -5208,13 +5193,13 @@ buffer
 write
 (
 b
-'
+"
 foo
 \
 r
 \
 n
-'
+"
 )
         
 assert
@@ -5225,13 +5210,13 @@ getvalue
 )
 =
 =
-'
+"
 foo
 \
 r
 \
 n
-'
+"
 def
 test_bytes_io
 (
@@ -5345,13 +5330,20 @@ f
 readlines
 )
     
+iter_f
+=
+iter
+(
+f
+)
+    
 pytest
 .
 raises
 (
 IOError
-iter
-f
+next
+iter_f
 )
     
 pytest
@@ -5375,7 +5367,7 @@ mark
 .
 skipif
 (
-'
+"
 sys
 .
 version_info
@@ -5383,15 +5375,15 @@ version_info
 (
 3
 )
-'
+"
 reason
 =
-'
+"
 python2
 has
 no
 buffer
-'
+"
 )
 def
 test_dontreadfrominput_buffer_python3
@@ -5446,13 +5438,20 @@ fb
 readlines
 )
     
+iter_f
+=
+iter
+(
+f
+)
+    
 pytest
 .
 raises
 (
 IOError
-iter
-fb
+next
+iter_f
 )
     
 pytest
@@ -5476,7 +5475,7 @@ mark
 .
 skipif
 (
-'
+"
 sys
 .
 version_info
@@ -5485,15 +5484,15 @@ version_info
 (
 3
 )
-'
+"
 reason
 =
-'
+"
 python2
 has
 no
 buffer
-'
+"
 )
 def
 test_dontreadfrominput_buffer_python2
@@ -5554,10 +5553,10 @@ makepyfile
 .
 open
 (
-'
+"
 wb
 +
-'
+"
 )
     
 yield
@@ -5823,10 +5822,10 @@ hello
 "
     
 assert
-'
+"
 BytesIO
 object
-'
+"
 in
 f
 .
@@ -5885,9 +5884,9 @@ not
 hasattr
 (
 f
-'
+"
 name
-'
+"
 )
 contextlib
 .
@@ -6202,10 +6201,10 @@ makepyfile
 .
 open
 (
-'
+"
 wb
 +
-'
+"
 )
 as
 tmpfile
@@ -6366,8 +6365,8 @@ x
 =
 tobytes
 (
-'
-'
+"
+"
 )
     
 def
@@ -6462,9 +6461,9 @@ open
 tmpfile
 .
 name
-'
+"
 rb
-'
+"
 )
 as
 stmp_file
@@ -7147,7 +7146,8 @@ mark
 .
 skipif
 (
-'
+        
+"
 sys
 .
 version_info
@@ -7156,11 +7156,10 @@ version_info
 (
 3
 )
-'
-                        
+"
 reason
 =
-'
+"
 text
 output
 different
@@ -7168,7 +7167,8 @@ for
 bytes
 on
 python3
-'
+"
+    
 )
     
 def
@@ -7190,10 +7190,10 @@ cap
             
 print
 (
-'
+"
 \
 xa6
-'
+"
 )
             
 out
@@ -7215,17 +7215,17 @@ builtin
 .
 _totext
 (
-'
+"
 \
 ufffd
 \
 n
-'
-'
+"
+"
 unicode
 -
 escape
-'
+"
 )
     
 def
@@ -7773,6 +7773,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7812,6 +7813,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -7828,6 +7830,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -7849,6 +7852,7 @@ stdout
 "
 "
 "
+        
 )
     
 def
@@ -8021,6 +8025,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8169,6 +8174,7 @@ stop_capturing
 "
 "
 "
+        
 )
         
 result
@@ -8201,9 +8207,9 @@ parseoutcomes
 (
 )
 [
-'
+"
 passed
-'
+"
 ]
 =
 =
@@ -8234,10 +8240,10 @@ capsys
     
 test_text
 =
-'
+"
 test
 text
-'
+"
     
 print
 (
@@ -8250,9 +8256,9 @@ sys
 stdout
 .
 encoding
-'
+"
 replace
-'
+"
 )
 )
     
@@ -8274,8 +8280,8 @@ assert
 err
 =
 =
-'
-'
+"
+"
 def
 test_capsys_results_accessible_by_attribute
 (
@@ -8339,9 +8345,9 @@ mark
 .
 parametrize
 (
-'
+"
 use
-'
+"
 [
 True
 False
@@ -8433,6 +8439,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8479,6 +8486,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -8495,6 +8503,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -8519,6 +8528,7 @@ hello
 "
 "
 "
+    
 )
 pytest
 .
@@ -8526,16 +8536,16 @@ mark
 .
 parametrize
 (
-'
+"
 method
-'
+"
 [
-'
+"
 SysCapture
-'
-'
+"
+"
 FDCapture
-'
+"
 ]
 )
 def
@@ -8558,9 +8568,9 @@ not
 hasattr
 (
 os
-'
+"
 dup
-'
+"
 )
 :
         
@@ -8582,6 +8592,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8710,10 +8721,12 @@ outerr
 "
 "
 "
+        
 %
 (
 method
 )
+    
 )
     
 result
@@ -8731,6 +8744,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -8754,6 +8768,7 @@ hello3
 "
 "
 "
+    
 )
     
 result
@@ -8762,6 +8777,7 @@ stderr
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -8775,6 +8791,7 @@ hello2
 "
 "
 "
+    
 )
     
 assert
@@ -8801,6 +8818,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8841,6 +8859,7 @@ strict
 "
 "
 "
+    
 )
     
 reprec
@@ -8865,6 +8884,7 @@ mark
 .
 skipif
 (
+    
 not
 sys
 .
@@ -8872,9 +8892,9 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 and
 sys
@@ -8890,10 +8910,10 @@ version_info
 3
 6
 )
-                    
+    
 reason
 =
-'
+"
 only
 py3
 .
@@ -8901,7 +8921,7 @@ py3
 +
 on
 windows
-'
+"
 )
 def
 test_py36_windowsconsoleio_workaround_non_standard_streams
@@ -8954,6 +8974,9 @@ _py36_windowsconsoleio_workaround
     
 class
 DummyStream
+(
+object
+)
 :
         
 def
@@ -8987,6 +9010,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -9023,6 +9047,7 @@ encoding
 "
 "
 "
+    
 )
     
 reprec
@@ -9040,6 +9065,139 @@ assertoutcome
 passed
 =
 1
+)
+def
+test_crash_on_closing_tmpfile_py27
+(
+testdir
+)
+:
+    
+testdir
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+from
+__future__
+import
+print_function
+        
+import
+time
+        
+import
+threading
+        
+import
+sys
+        
+def
+spam
+(
+)
+:
+            
+f
+=
+sys
+.
+stderr
+            
+while
+True
+:
+                
+print
+(
+'
+.
+'
+end
+=
+'
+'
+file
+=
+f
+)
+        
+def
+test_silly
+(
+)
+:
+            
+t
+=
+threading
+.
+Thread
+(
+target
+=
+spam
+)
+            
+t
+.
+daemon
+=
+True
+            
+t
+.
+start
+(
+)
+            
+time
+.
+sleep
+(
+0
+.
+5
+)
+    
+"
+"
+"
+    
+)
+    
+result
+=
+testdir
+.
+runpytest_subprocess
+(
+)
+    
+assert
+result
+.
+ret
+=
+=
+0
+    
+assert
+"
+IOError
+"
+not
+in
+result
+.
+stdout
+.
+str
+(
 )
 def
 test_pickling_and_unpickling_encoded_file

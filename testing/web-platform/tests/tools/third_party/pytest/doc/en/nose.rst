@@ -582,7 +582,7 @@ a
 virtual
 environment
 like
-Tox
+tox
 is
 recommended
 over

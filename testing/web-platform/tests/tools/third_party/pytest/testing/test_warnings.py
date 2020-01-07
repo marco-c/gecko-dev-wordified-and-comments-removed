@@ -18,10 +18,10 @@ import
 pytest
 WARNINGS_SUMMARY_HEADER
 =
-'
+"
 warnings
 summary
-'
+"
 pytest
 .
 fixture
@@ -77,28 +77,29 @@ test_name
 .
 lstrip
 (
-'
+"
 test_
-'
+"
 )
 +
-'
+"
 _module
-'
+"
     
 testdir
 .
 makepyfile
 (
+        
 *
 *
 {
-        
+            
 module_name
 :
-'
-'
-'
+"
+"
+"
             
 import
 warnings
@@ -138,15 +139,15 @@ warning
 return
 1
         
-'
-'
-'
-        
+"
+"
+"
+            
 test_name
 :
-'
-'
-'
+"
+"
+"
             
 import
 {
@@ -171,18 +172,21 @@ foo
 =
 1
         
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                
 module_name
 =
 module_name
+            
 )
-    
+        
 }
+    
 )
 pytest
 .
@@ -190,9 +194,9 @@ mark
 .
 filterwarnings
 (
-'
+"
 always
-'
+"
 )
 def
 test_normal_flow
@@ -247,9 +251,10 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 =
 =
@@ -258,11 +263,11 @@ s
 =
 =
 *
-'
+"
 %
 WARNINGS_SUMMARY_HEADER
-        
-'
+            
+"
 *
 test_normal_flow
 .
@@ -270,9 +275,9 @@ py
 :
 :
 test_func
-'
-        
-'
+"
+            
+"
 *
 normal_flow_module
 .
@@ -284,8 +289,8 @@ UserWarning
 :
 user
 warning
-'
-        
+"
+            
 '
 *
 warnings
@@ -301,8 +306,8 @@ warning
 )
 )
 '
-        
-'
+            
+"
 *
 normal_flow_module
 .
@@ -314,8 +319,8 @@ RuntimeWarning
 :
 runtime
 warning
-'
-        
+"
+            
 '
 *
 warnings
@@ -331,17 +336,18 @@ warning
 )
 )
 '
-        
-'
+            
+"
 *
 1
 passed
 2
 warnings
 *
-'
-    
+"
+        
 ]
+    
 )
     
 assert
@@ -355,14 +361,14 @@ str
 .
 count
 (
-'
+"
 test_normal_flow
 .
 py
 :
 :
 test_func
-'
+"
 )
 =
 =
@@ -373,9 +379,9 @@ mark
 .
 filterwarnings
 (
-'
+"
 always
-'
+"
 )
 def
 test_setup_teardown_warnings
@@ -389,9 +395,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 warnings
@@ -448,9 +455,10 @@ fix
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -467,9 +475,10 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 =
 =
@@ -478,11 +487,11 @@ s
 =
 =
 *
-'
+"
 %
 WARNINGS_SUMMARY_HEADER
-        
-'
+            
+"
 *
 test_setup_teardown_warnings
 .
@@ -495,8 +504,8 @@ UserWarning
 warning
 during
 setup
-'
-        
+"
+            
 '
 *
 warnings
@@ -513,8 +522,8 @@ setup
 )
 )
 '
-        
-'
+            
+"
 *
 test_setup_teardown_warnings
 .
@@ -527,8 +536,8 @@ UserWarning
 warning
 during
 teardown
-'
-        
+"
+            
 '
 *
 warnings
@@ -545,17 +554,18 @@ teardown
 )
 )
 '
-        
-'
+            
+"
 *
 1
 passed
 2
 warnings
 *
-'
-    
+"
+        
 ]
+    
 )
 pytest
 .
@@ -563,16 +573,16 @@ mark
 .
 parametrize
 (
-'
+"
 method
-'
+"
 [
-'
+"
 cmdline
-'
-'
+"
+"
 ini
-'
+"
 ]
 )
 def
@@ -587,21 +597,21 @@ method
 args
 =
 (
-'
+"
 -
 W
-'
-'
+"
+"
 error
-'
+"
 )
 if
 method
 =
 =
-'
+"
 cmdline
-'
+"
 else
 (
 )
@@ -610,18 +620,19 @@ if
 method
 =
 =
-'
+"
 ini
-'
+"
 :
         
 testdir
 .
 makeini
 (
-'
-'
-'
+            
+"
+"
+"
             
 [
 pytest
@@ -631,9 +642,10 @@ filterwarnings
 =
 error
             
-'
-'
-'
+"
+"
+"
+        
 )
     
 result
@@ -652,17 +664,18 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 E
 UserWarning
 :
 user
 warning
-'
-        
-'
+"
+            
+"
 as_errors_module
 .
 py
@@ -670,17 +683,18 @@ py
 3
 :
 UserWarning
-'
-        
-'
+"
+            
+"
 *
 1
 failed
 in
 *
-'
-    
+"
+        
 ]
+    
 )
 pytest
 .
@@ -688,16 +702,16 @@ mark
 .
 parametrize
 (
-'
+"
 method
-'
+"
 [
-'
+"
 cmdline
-'
-'
+"
+"
 ini
-'
+"
 ]
 )
 def
@@ -712,21 +726,21 @@ method
 args
 =
 (
-'
+"
 -
 W
-'
-'
+"
+"
 ignore
-'
+"
 )
 if
 method
 =
 =
-'
+"
 cmdline
-'
+"
 else
 (
 )
@@ -735,18 +749,19 @@ if
 method
 =
 =
-'
+"
 ini
-'
+"
 :
         
 testdir
 .
 makeini
 (
-'
-'
-'
+            
+"
+"
+"
         
 [
 pytest
@@ -756,9 +771,10 @@ filterwarnings
 =
 ignore
         
-'
-'
-'
+"
+"
+"
+        
 )
     
 result
@@ -778,15 +794,13 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 1
 passed
 in
 *
-'
-    
+"
 ]
 )
     
@@ -807,6 +821,7 @@ mark
 .
 skipif
 (
+    
 sys
 .
 version_info
@@ -815,10 +830,9 @@ version_info
 3
 0
 )
-                    
 reason
 =
-'
+"
 warnings
 message
 is
@@ -827,7 +841,7 @@ is
 ok
 in
 python3
-'
+"
 )
 pytest
 .
@@ -835,9 +849,9 @@ mark
 .
 filterwarnings
 (
-'
+"
 always
-'
+"
 )
 def
 test_unicode
@@ -851,9 +865,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 #
 -
@@ -902,9 +917,10 @@ fix
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -921,9 +937,10 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 =
 =
@@ -932,11 +949,11 @@ s
 =
 =
 *
-'
+"
 %
 WARNINGS_SUMMARY_HEADER
-        
-'
+            
+"
 *
 test_unicode
 .
@@ -951,18 +968,19 @@ u6d4b
 \
 u8bd5
 *
-'
-        
-'
+"
+            
+"
 *
 1
 passed
 1
 warnings
 *
-'
-    
+"
+        
 ]
+    
 )
 pytest
 .
@@ -970,6 +988,7 @@ mark
 .
 skipif
 (
+    
 sys
 .
 version_info
@@ -979,10 +998,10 @@ version_info
 3
 0
 )
-                    
+    
 reason
 =
-'
+"
 warnings
 message
 is
@@ -993,7 +1012,7 @@ is
 not
 str
 instance
-'
+"
 )
 def
 test_py2_unicode
@@ -1004,6 +1023,8 @@ pyfile_with_warnings
 :
     
 if
+(
+        
 getattr
 (
 sys
@@ -1023,6 +1044,7 @@ pypy_version_info
 5
 9
 )
+        
 and
 sys
 .
@@ -1030,9 +1052,11 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
+)
+    
 )
 :
         
@@ -1063,9 +1087,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 #
 -
@@ -1125,9 +1150,10 @@ fix
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1144,9 +1170,10 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 =
 =
@@ -1155,11 +1182,11 @@ s
 =
 =
 *
-'
+"
 %
 WARNINGS_SUMMARY_HEADER
-        
-'
+            
+"
 *
 test_py2_unicode
 .
@@ -1175,8 +1202,8 @@ u6d4b
 \
 \
 u8bd5
-'
-        
+"
+            
 '
 *
 warnings
@@ -1192,8 +1219,8 @@ u8bd5
 "
 )
 '
-        
-'
+            
+"
 *
 warnings
 .
@@ -1209,18 +1236,19 @@ using
 unicode
 non
 *
-'
-        
-'
+"
+            
+"
 *
 1
 passed
 2
 warnings
 *
-'
-    
+"
+        
 ]
+    
 )
 def
 test_py2_unicode_ascii
@@ -1263,20 +1291,21 @@ testdir
 .
 makeini
 (
-'
+"
 [
 pytest
 ]
-'
+"
 )
     
 testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -1311,9 +1340,10 @@ hello
 "
 )
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1330,9 +1360,10 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 =
 =
@@ -1341,10 +1372,10 @@ s
 =
 =
 *
-'
+"
 %
 WARNINGS_SUMMARY_HEADER
-        
+            
 '
 *
 warnings
@@ -1357,8 +1388,8 @@ hello
 "
 )
 '
-        
-'
+            
+"
 *
 1
 passed
@@ -1366,9 +1397,10 @@ passed
 warnings
 in
 *
-'
-    
+"
+        
 ]
+    
 )
 def
 test_works_with_filterwarnings
@@ -1405,9 +1437,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 warnings
@@ -1473,9 +1506,10 @@ MyWarning
 assert
 True
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1493,8 +1527,7 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 =
 =
@@ -1502,8 +1535,7 @@ fnmatch_lines
 passed
 in
 *
-'
-    
+"
 ]
 )
 pytest
@@ -1512,16 +1544,16 @@ mark
 .
 parametrize
 (
-'
+"
 default_config
-'
+"
 [
-'
+"
 ini
-'
-'
+"
+"
 cmdline
-'
+"
 ]
 )
 def
@@ -1559,15 +1591,16 @@ if
 default_config
 =
 =
-'
+"
 ini
-'
+"
 :
         
 testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -1583,12 +1616,14 @@ always
 "
 "
 "
+        
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1672,6 +1707,7 @@ RuntimeWarning
 "
 "
 "
+    
 )
     
 result
@@ -1680,21 +1716,21 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 W
 always
-'
+"
 if
 default_config
 =
 =
-'
+"
 cmdline
-'
+"
 else
-'
-'
+"
+"
 )
     
 result
@@ -1704,7 +1740,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 1
@@ -1715,7 +1751,7 @@ passed
 warnings
 in
 *
-'
+"
 ]
 )
 def
@@ -1749,6 +1785,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1782,6 +1819,7 @@ foo
 "
 "
 "
+    
 )
     
 result
@@ -1790,13 +1828,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 W
-'
-'
+"
+"
 always
-'
+"
 )
     
 result
@@ -1806,7 +1844,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 1
@@ -1815,6 +1853,6 @@ passed
 warnings
 in
 *
-'
+"
 ]
 )

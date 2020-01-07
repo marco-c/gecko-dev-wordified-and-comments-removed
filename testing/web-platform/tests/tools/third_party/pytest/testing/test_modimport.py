@@ -13,6 +13,7 @@ MODSET
 [
     
 x
+    
 for
 x
 in
@@ -33,11 +34,11 @@ dirpath
 .
 visit
 (
-'
+"
 *
 .
 py
-'
+"
 )
     
 if
@@ -46,9 +47,9 @@ x
 purebasename
 !
 =
-'
+"
 __init__
-'
+"
 ]
 pytest
 .
@@ -56,9 +57,9 @@ mark
 .
 parametrize
 (
-'
+"
 modfile
-'
+"
 MODSET
 ids
 =
@@ -82,17 +83,19 @@ subprocess
 .
 call
 (
-[
         
+[
+            
 sys
 .
 executable
-        
-'
+            
+"
 -
 c
-'
-'
+"
+            
+"
 import
 sys
 py
@@ -114,13 +117,14 @@ argv
 pyimport
 (
 )
-'
-        
+"
+            
 modfile
 .
 strpath
-    
+        
 ]
+    
 )
     
 if

@@ -9,8 +9,6 @@ warnings
 import
 re
 import
-py
-import
 pytest
 from
 _pytest
@@ -31,6 +29,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -74,6 +73,7 @@ UserWarning
 "
 "
 "
+    
 )
     
 res
@@ -127,10 +127,6 @@ rec
 .
 list
             
-py
-.
-std
-.
 warnings
 .
 warn_explicit
@@ -156,10 +152,6 @@ list
 =
 1
             
-py
-.
-std
-.
 warnings
 .
 warn
@@ -288,9 +280,9 @@ TypeError
 WarningsChecker
 (
 (
-'
+"
 hi
-'
+"
 RuntimeWarning
 )
 )
@@ -411,10 +403,6 @@ i
 0
 :
             
-py
-.
-std
-.
 warnings
 .
 warn
@@ -424,7 +412,6 @@ is
 deprecated
 "
 DeprecationWarning
-                                 
 stacklevel
 =
 1
@@ -448,21 +435,17 @@ i
 0
 :
             
-py
-.
-std
-.
 warnings
 .
 warn_explicit
 (
+                
 "
 dep_explicit
 "
 category
 =
 DeprecationWarning
-                                          
 filename
 =
 "
@@ -471,6 +454,7 @@ hello
 lineno
 =
 3
+            
 )
     
 def
@@ -503,11 +487,11 @@ dep
 )
         
 assert
-'
+"
 Did
 not
 produce
-'
+"
 in
 str
 (
@@ -566,10 +550,6 @@ self
         
 onceregistry
 =
-py
-.
-std
-.
 warnings
 .
 onceregistry
@@ -580,10 +560,6 @@ copy
         
 filters
 =
-py
-.
-std
-.
 warnings
 .
 filters
@@ -593,20 +569,12 @@ filters
         
 warn
 =
-py
-.
-std
-.
 warnings
 .
 warn
         
 warn_explicit
 =
-py
-.
-std
-.
 warnings
 .
 warn_explicit
@@ -627,10 +595,6 @@ assert
 onceregistry
 =
 =
-py
-.
-std
-.
 warnings
 .
 onceregistry
@@ -639,10 +603,6 @@ assert
 filters
 =
 =
-py
-.
-std
-.
 warnings
 .
 filters
@@ -650,10 +610,6 @@ filters
 assert
 warn
 is
-py
-.
-std
-.
 warnings
 .
 warn
@@ -661,10 +617,6 @@ warn
 assert
 warn_explicit
 is
-py
-.
-std
-.
 warnings
 .
 warn_explicit
@@ -728,16 +680,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 context_manager
-'
-'
+"
+"
 call
-'
+"
 ]
 )
     
@@ -788,14 +740,14 @@ pass
         
 msg
 =
-'
+"
 Did
 not
 produce
 DeprecationWarning
 or
 PendingDeprecationWarning
-'
+"
         
 with
 pytest
@@ -803,7 +755,7 @@ pytest
 raises
 (
 AssertionError
-matches
+match
 =
 msg
 )
@@ -813,9 +765,9 @@ if
 mode
 =
 =
-'
+"
 call
-'
+"
 :
                 
 pytest
@@ -846,13 +798,15 @@ mark
 .
 parametrize
 (
-'
+        
+"
 warning_type
-'
+"
 [
 PendingDeprecationWarning
 DeprecationWarning
 ]
+    
 )
     
 pytest
@@ -861,16 +815,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 context_manager
-'
-'
+"
+"
 call
-'
+"
 ]
 )
     
@@ -880,9 +834,9 @@ mark
 .
 parametrize
 (
-'
+"
 call_f_first
-'
+"
 [
 True
 False
@@ -895,9 +849,9 @@ mark
 .
 filterwarnings
 (
-'
+"
 ignore
-'
+"
 )
     
 def
@@ -972,9 +926,9 @@ if
 mode
 =
 =
-'
+"
 call
-'
+"
 :
             
 assert
@@ -1013,16 +967,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 context_manager
-'
-'
+"
+"
 call
-'
+"
 ]
 )
     
@@ -1074,10 +1028,10 @@ f
 raise
 ValueError
 (
-'
+"
 some
 exception
-'
+"
 )
         
 with
@@ -1088,10 +1042,10 @@ raises
 ValueError
 match
 =
-'
+"
 some
 exception
-'
+"
 )
 :
             
@@ -1099,9 +1053,9 @@ if
 mode
 =
 =
-'
+"
 call
-'
+"
 :
                 
 pytest
@@ -1136,14 +1090,21 @@ self
 other_warnings
 =
 [
+            
 Warning
+            
 UserWarning
+            
 SyntaxWarning
+            
 RuntimeWarning
-                          
+            
 FutureWarning
+            
 ImportWarning
+            
 UnicodeWarning
+        
 ]
         
 for
@@ -1279,7 +1240,6 @@ pytest
 fail
 .
 Exception
-                      
 lambda
 :
 pytest
@@ -1310,8 +1270,8 @@ pytest
 .
 warns
 (
+            
 SyntaxWarning
-                     
 lambda
 msg
 :
@@ -1325,6 +1285,7 @@ SyntaxWarning
 "
 syntax
 "
+        
 )
     
 def
@@ -1338,80 +1299,85 @@ pytest
 .
 warns
 (
+            
 (
 RuntimeWarning
 SyntaxWarning
 )
-                     
 lambda
 :
 warnings
 .
 warn
 (
-'
+"
 w1
-'
+"
 RuntimeWarning
 )
+        
 )
         
 pytest
 .
 warns
 (
+            
 (
 RuntimeWarning
 SyntaxWarning
 )
-                     
 lambda
 :
 warnings
 .
 warn
 (
-'
+"
 w2
-'
+"
 SyntaxWarning
 )
+        
 )
         
 pytest
 .
 raises
 (
+            
 pytest
 .
 fail
 .
 Exception
-                      
+            
 lambda
 :
 pytest
 .
 warns
 (
-                          
+                
 (
 RuntimeWarning
 SyntaxWarning
 )
-                          
+                
 lambda
 :
 warnings
 .
 warn
 (
-'
+"
 w3
-'
+"
 UserWarning
 )
+            
 )
+        
 )
     
 def
@@ -1497,6 +1463,7 @@ excinfo
 .
 match
 (
+            
 r
 "
 DID
@@ -1520,7 +1487,7 @@ was
 emitted
 .
 "
-                      
+            
 r
 "
 The
@@ -1538,12 +1505,14 @@ UserWarning
 '
 user
 '
+?
 \
 )
 \
 ]
 .
 "
+        
 )
         
 with
@@ -1584,6 +1553,7 @@ excinfo
 .
 match
 (
+            
 r
 "
 DID
@@ -1607,7 +1577,7 @@ was
 emitted
 .
 "
-                      
+            
 r
 "
 The
@@ -1625,12 +1595,14 @@ RuntimeWarning
 '
 runtime
 '
+?
 \
 )
 \
 ]
 .
 "
+        
 )
         
 with
@@ -1663,6 +1635,7 @@ excinfo
 .
 match
 (
+            
 r
 "
 DID
@@ -1686,7 +1659,7 @@ was
 emitted
 .
 "
-                      
+            
 r
 "
 The
@@ -1702,6 +1675,7 @@ is
 ]
 .
 "
+        
 )
         
 warning_classes
@@ -1760,6 +1734,7 @@ ImportWarning
 message_template
 =
 (
+            
 "
 DID
 NOT
@@ -1776,7 +1751,7 @@ was
 emitted
 .
 "
-                            
+            
 "
 The
 list
@@ -1790,22 +1765,25 @@ is
 }
 .
 "
+        
 )
         
 excinfo
 .
 match
 (
+            
 re
 .
 escape
 (
+                
 message_template
 .
 format
 (
+                    
 warning_classes
-                                                        
 [
 each
 .
@@ -1815,8 +1793,11 @@ each
 in
 warninfo
 ]
+                
 )
+            
 )
+        
 )
     
 def
@@ -2154,9 +2135,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -2205,9 +2187,10 @@ runtime
 RuntimeWarning
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -2225,13 +2208,13 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 2
 passed
 in
 *
-'
+"
 ]
 )
     
@@ -2251,13 +2234,13 @@ UserWarning
 match
 =
 r
-'
+"
 must
 be
 \
 d
 +
-'
+"
 )
 :
             
@@ -2296,13 +2279,13 @@ UserWarning
 match
 =
 r
-'
+"
 must
 be
 \
 d
 +
-'
+"
 )
 :
                 
@@ -2341,13 +2324,13 @@ FutureWarning
 match
 =
 r
-'
+"
 must
 be
 \
 d
 +
-'
+"
 )
 :
                 
@@ -2380,9 +2363,9 @@ UserWarning
 match
 =
 r
-'
+"
 aaa
-'
+"
 )
 :
             
@@ -2445,9 +2428,9 @@ UserWarning
 match
 =
 r
-'
+"
 aaa
-'
+"
 )
 :
                 

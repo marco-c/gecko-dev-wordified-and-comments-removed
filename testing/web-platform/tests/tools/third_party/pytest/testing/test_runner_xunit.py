@@ -38,6 +38,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -164,6 +165,7 @@ answer
 "
 "
 "
+    
 )
     
 rep
@@ -210,6 +212,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -262,6 +265,7 @@ append
 "
 "
 "
+    
 )
     
 reprec
@@ -313,6 +317,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -365,6 +370,7 @@ pass
 "
 "
 "
+    
 )
     
 calls
@@ -407,6 +413,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -517,6 +524,7 @@ clslevel
 "
 "
 "
+    
 )
     
 reprec
@@ -544,6 +552,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -611,6 +620,7 @@ clslevel
 "
 "
 "
+    
 )
     
 reprec
@@ -637,6 +647,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -712,6 +723,7 @@ test_other
 "
 "
 "
+    
 )
     
 reprec
@@ -735,6 +747,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -817,6 +830,7 @@ clslevel
 "
 "
 "
+    
 )
     
 reprec
@@ -843,6 +857,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -947,6 +962,7 @@ value
 "
 "
 "
+    
 )
     
 reprec
@@ -973,6 +989,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -1105,6 +1122,7 @@ x
 "
 "
 "
+    
 )
     
 rep
@@ -1140,6 +1158,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -1193,6 +1212,7 @@ memory
 "
 "
 "
+    
 )
     
 reprec
@@ -1219,6 +1239,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1261,6 +1282,7 @@ pass
 "
 "
 "
+    
 )
     
 reprec
@@ -1293,6 +1315,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1332,6 +1355,7 @@ pass
 "
 "
 "
+    
 )
     
 reprec
@@ -1364,6 +1388,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1424,6 +1449,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -1441,14 +1467,15 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 function1
 *
 "
-        
+            
 "
 *
 ValueError
@@ -1456,13 +1483,13 @@ ValueError
 42
 *
 "
-        
+            
 "
 *
 function2
 *
 "
-        
+            
 "
 *
 ValueError
@@ -1470,15 +1497,16 @@ ValueError
 42
 *
 "
-        
+            
 "
 *
 2
 error
 *
 "
-    
+        
 ]
+    
 )
     
 assert
@@ -1500,20 +1528,21 @@ mark
 .
 parametrize
 (
-'
+"
 arg
-'
+"
 [
-'
-'
-'
+"
+"
+"
 arg
-'
+"
 ]
 )
 def
 test_setup_teardown_function_level_with_optional_argument
 (
+    
 testdir
 monkeypatch
 arg
@@ -1557,14 +1586,16 @@ monkeypatch
 .
 setattr
 (
+        
 sys
-'
+"
 trace_setups_teardowns
-'
+"
 trace_setups_teardowns
 raising
 =
 False
+    
 )
     
 p
@@ -1573,6 +1604,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1726,10 +1758,13 @@ pass
 .
 format
 (
+            
 arg
 =
 arg
+        
 )
+    
 )
     
 result
@@ -1754,45 +1789,45 @@ expected
 =
 [
         
-'
+"
 setup_module
-'
+"
         
-'
+"
 setup_function
-'
+"
         
-'
+"
 teardown_function
-'
+"
         
-'
+"
 setup_function
-'
+"
         
-'
+"
 teardown_function
-'
+"
         
-'
+"
 setup_method
-'
+"
         
-'
+"
 teardown_method
-'
+"
         
-'
+"
 setup_method
-'
+"
         
-'
+"
 teardown_method
-'
+"
         
-'
+"
 teardown_module
-'
+"
     
 ]
     

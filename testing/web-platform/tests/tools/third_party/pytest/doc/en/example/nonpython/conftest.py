@@ -211,14 +211,15 @@ n
 .
 join
 (
-[
                 
+[
+                    
 "
 usecase
 execution
 failed
 "
-                
+                    
 "
 spec
 failed
@@ -240,7 +241,7 @@ args
 :
 3
 ]
-                
+                    
 "
 no
 further
@@ -251,8 +252,9 @@ this
 point
 .
 "
-            
+                
 ]
+            
 )
     
 def

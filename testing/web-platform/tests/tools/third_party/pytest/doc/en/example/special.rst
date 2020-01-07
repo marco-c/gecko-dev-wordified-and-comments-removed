@@ -404,10 +404,6 @@ test_unit1
 method
 called
 .
-[
-100
-%
-]
 4
 passed
 in

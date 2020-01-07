@@ -42,3 +42,6 @@ sphinx
 4
 .
 *
+sphinxcontrib
+-
+trio

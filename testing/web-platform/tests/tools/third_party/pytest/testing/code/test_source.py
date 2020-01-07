@@ -5,6 +5,8 @@ absolute_import
 division
 print_function
 import
+inspect
+import
 sys
 import
 _pytest
@@ -27,14 +29,7 @@ _code
 .
 source
 import
-_ast
-if
-_ast
-is
-not
-None
-:
-    
+ast
 astonly
 =
 pytest
@@ -42,31 +37,6 @@ pytest
 mark
 .
 nothing
-else
-:
-    
-astonly
-=
-pytest
-.
-mark
-.
-xfail
-(
-"
-True
-"
-reason
-=
-"
-only
-works
-with
-AST
--
-compile
-"
-)
 failsonjython
 =
 pytest
@@ -138,6 +108,7 @@ x
 =
 Source
 (
+        
 "
 "
 "
@@ -147,9 +118,11 @@ Source
 "
 "
 "
+        
 rstrip
 =
 False
+    
 )
     
 assert
@@ -170,6 +143,7 @@ x
 =
 Source
 (
+        
 "
 "
 "
@@ -179,9 +153,11 @@ Source
 "
 "
 "
+        
 rstrip
 =
 True
+    
 )
     
 assert
@@ -254,15 +230,15 @@ xc3
 xa5
 "
 '
-'
+"
 utf8
-'
+"
 )
 mode
 =
-'
+"
 eval
-'
+"
 )
     
 val
@@ -303,13 +279,13 @@ source
 .
 startswith
 (
-'
+"
 def
 test_source_str_function
 (
 )
 :
-'
+"
 )
 def
 test_source_from_method
@@ -363,7 +339,6 @@ self
 )
 :
 "
-                            
 "
 pass
 "
@@ -410,15 +385,15 @@ lines
 =
 =
 [
-'
+"
 a
-'
-'
+"
+"
 b
-'
-'
+"
+"
 c
-'
+"
 ]
 def
 test_source_from_inner_function
@@ -456,13 +431,13 @@ source
 .
 startswith
 (
-'
+"
 def
 f
 (
 )
 :
-'
+"
 )
     
 source
@@ -484,13 +459,13 @@ source
 .
 startswith
 (
-'
+"
 def
 f
 (
 )
 :
-'
+"
 )
 def
 test_source_putaround_simple
@@ -519,6 +494,7 @@ putaround
 try
 :
 "
+        
 "
 "
 "
@@ -541,13 +517,17 @@ x
 "
 "
 "
+    
 )
     
 assert
+(
+        
 str
 (
 source
 )
+        
 =
 =
 "
@@ -575,6 +555,8 @@ x
 "
 "
 "
+    
+)
 def
 test_source_putaround
 (
@@ -593,6 +575,7 @@ source
 .
 putaround
 (
+        
 "
 "
 "
@@ -608,6 +591,7 @@ x
 "
 "
 "
+    
 )
     
 assert
@@ -660,8 +644,8 @@ source
 )
 =
 =
-'
-'
+"
+"
     
 assert
 source
@@ -735,10 +719,10 @@ _pytest
 _code
 .
 compile
-'
+"
 xyz
 xyz
-'
+"
 )
     
 assert
@@ -773,10 +757,10 @@ text
 strip
 (
 )
-'
+"
 x
 x
-'
+"
 def
 test_isparseable
 (
@@ -889,6 +873,7 @@ source
 =
 Source
 (
+        
 "
 "
 "
@@ -915,6 +900,7 @@ pass
 "
 "
 "
+    
 )
     
 def
@@ -1057,6 +1043,7 @@ source
 =
 Source
 (
+        
 "
 "
 "
@@ -1084,6 +1071,7 @@ x
 "
 "
 "
+    
 )
 .
 strip
@@ -1126,9 +1114,9 @@ d
 assert
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 =
@@ -1213,6 +1201,7 @@ co1
 =
 gensource
 (
+            
 "
 "
 "
@@ -1231,12 +1220,14 @@ KeyError
 "
 "
 "
+        
 )
         
 co2
 =
 gensource
 (
+            
 "
 "
 "
@@ -1255,14 +1246,11 @@ ValueError
 "
 "
 "
+        
 )
         
 source1
 =
-py
-.
-std
-.
 inspect
 .
 getsource
@@ -1271,18 +1259,14 @@ co1
 )
         
 assert
-'
+"
 KeyError
-'
+"
 in
 source1
         
 source2
 =
-py
-.
-std
-.
 inspect
 .
 getsource
@@ -1291,9 +1275,9 @@ co2
 )
         
 assert
-'
+"
 ValueError
-'
+"
 in
 source2
     
@@ -1358,6 +1342,7 @@ source
 =
 Source
 (
+            
 "
 "
 "
@@ -1374,6 +1359,7 @@ hello
 "
 "
 "
+        
 )
         
 s
@@ -1425,6 +1411,7 @@ source
 =
 Source
 (
+            
 "
 "
 "
@@ -1453,6 +1440,7 @@ finally
 "
 "
 "
+        
 )
         
 assert
@@ -1531,6 +1519,7 @@ source
 =
 Source
 (
+            
 "
 "
 "
@@ -1557,6 +1546,7 @@ pass
 "
 "
 "
+        
 )
         
 assert
@@ -1593,6 +1583,7 @@ source
 =
 Source
 (
+            
 "
 "
 "
@@ -1628,6 +1619,7 @@ c
 "
 "
 "
+        
 )
         
 assert
@@ -1664,6 +1656,7 @@ source
 =
 Source
 (
+            
 "
 "
 "
@@ -1696,6 +1689,7 @@ x
 "
 "
 "
+        
 )
         
 assert
@@ -1954,9 +1948,9 @@ strip
 .
 startswith
 (
-'
+"
 assert
-'
+"
 )
     
 pytest
@@ -1965,16 +1959,16 @@ mark
 .
 parametrize
 (
-'
+"
 name
-'
+"
 [
-'
-'
+"
+"
 None
-'
+"
 my
-'
+"
 ]
 )
     
@@ -2027,7 +2021,7 @@ mylineno
 +
 2
 +
-2
+3
 )
             
 else
@@ -2054,7 +2048,7 @@ mylineno
 +
 2
 +
-2
+3
 )
             
 fn
@@ -2145,9 +2139,9 @@ a
 "
 mode
 =
-'
+"
 eval
-'
+"
 )
 def
 test_getstartingblock_singleline
@@ -2199,12 +2193,12 @@ x
 =
 A
 (
-'
+"
 x
-'
-'
+"
+"
 y
-'
+"
 )
     
 values
@@ -2246,6 +2240,7 @@ c
 (
 )
 :
+        
 pass
     
 excinfo
@@ -2254,7 +2249,9 @@ pytest
 .
 raises
 (
+        
 TypeError
+        
 "
 "
 "
@@ -2285,6 +2282,7 @@ teardown
 "
 "
 "
+    
 )
     
 source
@@ -2310,12 +2308,12 @@ strip
 )
 =
 =
-'
+"
 c
 (
 1
 )
-'
+"
 def
 test_getfuncsource_dynamic
 (
@@ -2389,7 +2387,7 @@ strip
 )
 =
 =
-'
+"
 def
 f
 (
@@ -2399,7 +2397,7 @@ f
 n
 raise
 ValueError
-'
+"
     
 assert
 str
@@ -2419,14 +2417,14 @@ strip
 )
 =
 =
-'
+"
 def
 g
 (
 )
 :
 pass
-'
+"
 def
 test_getfuncsource_with_multine_string
 (
@@ -2441,19 +2439,21 @@ f
         
 c
 =
-'
-'
-'
+"
+"
+"
 while
 True
 :
     
 pass
-'
-'
-'
+"
+"
+"
     
 assert
+(
+        
 str
 (
 _pytest
@@ -2469,9 +2469,10 @@ f
 strip
 (
 )
+        
 =
 =
-"
+'
 def
 f
 (
@@ -2481,9 +2482,9 @@ f
 n
 c
 =
-'
-'
-'
+"
+"
+"
 while
 True
 :
@@ -2492,10 +2493,12 @@ n
 pass
 \
 n
-'
-'
-'
 "
+"
+"
+'
+    
+)
 def
 test_deindent
 (
@@ -2517,25 +2520,25 @@ assert
 deindent
 (
 [
-'
+"
 \
 tfoo
-'
-'
+"
+"
 \
 tbar
-'
+"
 ]
 )
 =
 =
 [
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 ]
     
 def
@@ -2546,20 +2549,17 @@ f
         
 c
 =
-'
-'
-'
+"
+"
+"
 while
 True
 :
     
 pass
-'
-'
-'
-    
-import
-inspect
+"
+"
+"
     
 lines
 =
@@ -2589,24 +2589,24 @@ f
 )
 :
 "
-"
+'
 c
 =
-'
-'
-'
+"
+"
+"
 while
 True
 :
-"
+'
 "
 pass
 "
-"
-'
-'
 '
 "
+"
+"
+'
 ]
     
 source
@@ -2649,27 +2649,27 @@ lines
 =
 =
 [
-'
-'
-'
+"
+"
+"
 def
 f
 (
 )
 :
-'
-'
+"
+"
 def
 g
 (
 )
 :
-'
-'
+"
+"
 pass
-'
-'
-'
+"
+"
+"
 ]
 def
 test_source_of_class_at_eof_without_newline
@@ -2686,9 +2686,10 @@ _code
 .
 Source
 (
-'
-'
-'
+        
+"
+"
+"
         
 class
 A
@@ -2708,9 +2709,10 @@ x
 =
 1
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 path
@@ -2905,9 +2907,9 @@ x
 )
     
 assert
-'
+"
 test_findsource_simple
-'
+"
 in
 str
 (
@@ -2921,13 +2923,13 @@ lineno
 ]
 =
 =
-'
+"
 def
 x
 (
 )
 :
-'
+"
 def
 test_findsource
 (
@@ -2951,6 +2953,7 @@ _code
 .
 compile
 (
+        
 "
 "
 "
@@ -2968,6 +2971,7 @@ pass
 "
 "
 "
+    
 )
     
 src
@@ -2979,11 +2983,11 @@ co
 )
     
 assert
-'
+"
 if
 1
 :
-'
+"
 in
 str
 (
@@ -3008,18 +3012,18 @@ findsource
 (
 d
 [
-'
+"
 x
-'
+"
 ]
 )
     
 assert
-'
+"
 if
 1
 :
-'
+"
 in
 str
 (
@@ -3119,10 +3123,6 @@ A
 _
 A_lineno
 =
-py
-.
-std
-.
 inspect
 .
 findsource
@@ -3255,9 +3255,9 @@ WithCall
 )
     
 assert
-'
+"
 pass
-'
+"
 in
 str
 (
@@ -3395,24 +3395,26 @@ source
 =
 Source
 (
+        
 [
-'
+            
+"
 def
 test_basic_complex
 (
 )
 :
-'
-                     
-'
+"
+            
+"
 assert
 1
 =
 =
 2
-'
-                     
-'
+"
+            
+"
 #
 vim
 :
@@ -3423,8 +3425,10 @@ pyopencl
 fdm
 =
 marker
-'
+"
+        
 ]
+    
 )
     
 ast
@@ -3487,16 +3491,15 @@ sys
 pypy_version_info
 "
 )
-                   
 reason
 =
-'
+"
 does
 not
 work
 on
 pypy
-'
+"
 )
 def
 test_comments
@@ -3567,11 +3570,11 @@ source
 )
 =
 =
-'
+"
 x
 =
 1
-'
+"
     
 for
 line
@@ -3594,10 +3597,10 @@ source
 )
 =
 =
-'
+"
 assert
 False
-'
+"
     
 assert
 str
@@ -3623,9 +3626,9 @@ test_comment_in_statement
     
 source
 =
-'
-'
-'
+"
+"
+"
 test
 (
 foo
@@ -3640,9 +3643,9 @@ bar
 =
 2
 )
-'
-'
-'
+"
+"
+"
     
 for
 line
@@ -3655,6 +3658,8 @@ range
 :
         
 assert
+(
+            
 str
 (
 getstatement
@@ -3663,11 +3668,10 @@ line
 source
 )
 )
-=
-=
-\
             
-'
+=
+=
+"
 test
 (
 foo
@@ -3684,7 +3688,9 @@ bar
 =
 2
 )
-'
+"
+        
+)
 def
 test_single_line_else
 (
@@ -3763,7 +3769,8 @@ test_issue55
 source
 =
 (
-'
+        
+"
 def
 round_trip
 (
@@ -3779,8 +3786,8 @@ assert
 dinp
 \
 n
-'
-              
+"
+        
 '
 def
 test_rt
@@ -3803,6 +3810,7 @@ n
 \
 n
 '
+    
 )
     
 s
@@ -3843,7 +3851,9 @@ source
 =
 getstatement
 (
+        
 0
+        
 "
 "
 "
@@ -3860,6 +3870,7 @@ x
 "
 "
 "
+    
 )
     
 assert
