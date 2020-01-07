@@ -900,7 +900,7 @@ healthReport
 isInPrivateBrowsing
 ;
 }
-private
+public
 static
 boolean
 isDefaultBrowser
