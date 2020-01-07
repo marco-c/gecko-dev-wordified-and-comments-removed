@@ -15918,6 +15918,8 @@ bool
 aAsync
 bool
 aDefer
+bool
+aNoModule
 const
 mozilla
 :
@@ -15960,8 +15962,18 @@ mDocument
 ModuleScriptsEnabled
 (
 )
-&
-&
+)
+{
+if
+(
+aNoModule
+)
+{
+return
+;
+}
+if
+(
 aType
 .
 LowerCaseEqualsASCII
@@ -15974,6 +15986,7 @@ module
 {
 return
 ;
+}
 }
 SRIMetadata
 sriMetadata

@@ -955,6 +955,20 @@ nsHtml5AttributeName
 ATTR_DEFER
 )
 ;
+bool
+noModule
+=
+aAttributes
+-
+>
+contains
+(
+nsHtml5AttributeName
+:
+:
+ATTR_NOMODULE
+)
+;
 mSpeculativeLoadQueue
 .
 AppendElement
@@ -978,6 +992,7 @@ nsHtml5TreeBuilder
 IN_HEAD
 async
 defer
+noModule
 )
 ;
 mCurrentHtmlScriptIsAsyncOrDefer
@@ -1705,6 +1720,7 @@ nsHtml5TreeBuilder
 :
 :
 IN_HEAD
+false
 false
 false
 )
