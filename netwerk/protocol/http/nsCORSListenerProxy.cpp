@@ -1035,7 +1035,6 @@ false
 ;
 }
 }
-const
 struct
 CheckHeaderToken
 {
