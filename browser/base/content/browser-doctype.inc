@@ -123,5 +123,17 @@ chrome
 %
 syncBrandDTD
 ;
+<
+!
+ENTITY
+%
+reportphishDTD
+SYSTEM
+"
+chrome
+:
+%
+reportphishDTD
+;
 ]
 >
