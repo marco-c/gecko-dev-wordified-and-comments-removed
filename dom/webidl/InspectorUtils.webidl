@@ -465,6 +465,16 @@ boolean
 showingAnonymousContent
 )
 ;
+sequence
+<
+DOMString
+>
+getBindingURLs
+(
+Element
+element
+)
+;
 }
 ;
 dictionary
