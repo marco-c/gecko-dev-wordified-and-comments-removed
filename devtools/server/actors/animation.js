@@ -2018,11 +2018,7 @@ getDistance
 (
 this
 .
-player
-.
-effect
-.
-target
+node
 propertyName
 value1
 value2
@@ -2168,11 +2164,7 @@ getDistance
 (
 this
 .
-player
-.
-effect
-.
-target
+node
 propertyName
 baseValue
 value
