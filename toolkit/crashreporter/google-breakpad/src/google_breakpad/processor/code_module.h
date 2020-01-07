@@ -136,15 +136,6 @@ shrink_down_delta
 =
 0
 ;
-virtual
-bool
-is_unloaded
-(
-)
-const
-=
-0
-;
 }
 ;
 }

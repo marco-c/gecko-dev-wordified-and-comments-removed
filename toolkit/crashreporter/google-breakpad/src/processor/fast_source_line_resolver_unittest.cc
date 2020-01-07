@@ -298,17 +298,6 @@ code_file_
 ;
 }
 virtual
-bool
-is_unloaded
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
 uint64_t
 shrink_down_delta
 (

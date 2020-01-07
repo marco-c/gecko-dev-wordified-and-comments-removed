@@ -229,7 +229,10 @@ source_end_ptr
 =
 source_ptr
 +
-1
+sizeof
+(
+char
+)
 ;
 uint16_t
 *
@@ -244,6 +247,11 @@ target_end_ptr
 target_ptr
 +
 2
+*
+sizeof
+(
+uint16_t
+)
 ;
 out
 [
@@ -532,6 +540,11 @@ target_end_ptr
 target_ptr
 +
 2
+*
+sizeof
+(
+uint16_t
+)
 ;
 out
 [

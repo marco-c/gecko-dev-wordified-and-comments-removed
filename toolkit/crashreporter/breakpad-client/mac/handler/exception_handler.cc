@@ -1231,15 +1231,6 @@ result
 =
 false
 ;
-#
-if
-TARGET_OS_IPHONE
-exit_after_write
-=
-false
-;
-#
-endif
 if
 (
 directCallback_

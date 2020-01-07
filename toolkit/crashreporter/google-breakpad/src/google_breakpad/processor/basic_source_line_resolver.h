@@ -196,9 +196,6 @@ ParseFunction
 char
 *
 function_line
-bool
-*
-is_multiple
 uint64_t
 *
 address
@@ -242,9 +239,6 @@ ParsePublicSymbol
 char
 *
 public_line
-bool
-*
-is_multiple
 uint64_t
 *
 address

@@ -5,15 +5,6 @@ GOOGLE_BREAKPAD_COMMON_ANDROID_INCLUDE_SYS_USER_H
 define
 GOOGLE_BREAKPAD_COMMON_ANDROID_INCLUDE_SYS_USER_H
 #
-include
-<
-sys
-/
-types
-.
-h
->
-#
 include_next
 <
 sys

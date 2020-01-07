@@ -78,17 +78,6 @@ include
 "
 common
 /
-linux
-/
-ignore_ret
-.
-h
-"
-#
-include
-"
-common
-/
 mac
 /
 MachIPC
@@ -840,8 +829,9 @@ data
 =
 1
 ;
-IGNORE_RET
 (
+void
+)
 write
 (
 fds
@@ -851,7 +841,6 @@ fds
 &
 data
 1
-)
 )
 ;
 int

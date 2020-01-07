@@ -203,17 +203,6 @@ ERROR
 ;
 break
 ;
-case
-SEVERITY_CRITICAL
-:
-severity_string
-=
-"
-CRITICAL
-"
-;
-break
-;
 }
 stream_
 <

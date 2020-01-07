@@ -1033,7 +1033,7 @@ build
 /
 testing
 .
-gyp
+gypi
 :
 gmock
 '
@@ -1045,7 +1045,7 @@ build
 /
 testing
 .
-gyp
+gypi
 :
 gtest
 '

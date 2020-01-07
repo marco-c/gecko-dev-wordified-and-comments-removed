@@ -102,6 +102,9 @@ bool
 ParseProcMaps
 (
 const
+std
+:
+:
 string
 &
 input

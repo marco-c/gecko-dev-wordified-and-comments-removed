@@ -182,8 +182,6 @@ function
 IDiaSymbol
 *
 block
-bool
-has_multiple_symbols
 )
 ;
 bool
@@ -217,8 +215,6 @@ PrintCodePublicSymbol
 IDiaSymbol
 *
 symbol
-bool
-has_multiple_symbols
 )
 ;
 bool

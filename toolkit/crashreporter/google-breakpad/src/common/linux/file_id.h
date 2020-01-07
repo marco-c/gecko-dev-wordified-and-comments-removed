@@ -36,15 +36,6 @@ memory_allocator
 .
 h
 "
-#
-include
-"
-common
-/
-using_std_string
-.
-h
-"
 namespace
 google_breakpad
 {
@@ -103,6 +94,9 @@ identifier
 )
 ;
 static
+std
+:
+:
 string
 ConvertIdentifierToUUIDString
 (
@@ -116,6 +110,9 @@ identifier
 )
 ;
 static
+std
+:
+:
 string
 ConvertIdentifierToString
 (
@@ -129,6 +126,9 @@ identifier
 )
 ;
 private
+:
+std
+:
 :
 string
 path_

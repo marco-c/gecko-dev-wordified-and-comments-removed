@@ -421,7 +421,7 @@ symupload
 /
 minidump_upload
 .
-cc
+m
 '
 ]
 '
