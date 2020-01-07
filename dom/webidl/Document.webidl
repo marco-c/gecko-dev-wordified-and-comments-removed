@@ -1769,6 +1769,7 @@ uppercase
 .
 [
 LenientSetter
+Unscopable
 Func
 =
 "
