@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsStaticAtom
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

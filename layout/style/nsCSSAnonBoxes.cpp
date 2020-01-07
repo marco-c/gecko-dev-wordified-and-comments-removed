@@ -14,13 +14,6 @@ nsCSSAnonBoxes
 .
 h
 "
-#
-include
-"
-nsStaticAtom
-.
-h
-"
 using
 namespace
 mozilla

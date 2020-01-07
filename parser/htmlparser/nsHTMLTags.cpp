@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsStaticAtom
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsStaticAtom
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
