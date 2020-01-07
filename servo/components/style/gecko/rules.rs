@@ -2076,6 +2076,10 @@ nscssvalue
 set_integer
 (
 finite
+.
+value
+(
+)
 )
 }
 else
