@@ -10908,11 +10908,6 @@ installLocation
 =
 =
 TemporaryInstallLocation
-builtIn
-:
-installLocation
-instanceof
-BuiltInInstallLocation
 }
 ;
 if
