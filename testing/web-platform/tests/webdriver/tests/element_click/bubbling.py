@@ -900,6 +900,7 @@ lastElementChild
 .
 textContent
 =
+              
 {
 type
 }
@@ -977,10 +978,12 @@ addEventListener
 "
 mousedown
 "
+function
 (
+mousedownEvent
 )
-=
->
+{
+          
 over
 .
 style
@@ -990,6 +993,9 @@ display
 "
 none
 "
+;
+        
+}
 )
 ;
         
