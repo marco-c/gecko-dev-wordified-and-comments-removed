@@ -173,6 +173,12 @@ DestroyEGLSurface
 (
 )
 ;
+ID3D11Device
+*
+GetDeviceOfEGLDisplay
+(
+)
+;
 RefPtr
 <
 gl
