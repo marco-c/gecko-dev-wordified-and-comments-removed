@@ -14618,11 +14618,12 @@ isGMPlugin
 {
 fullDesc
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 aAddon
 .
 fullDescription
+)
 ;
 }
 else
