@@ -480,12 +480,6 @@ OpAddCompositorAnimations
 CompositorAnimations
 data
 ;
-OptionalTransform
-transform
-;
-OptionalOpacity
-opacity
-;
 }
 ;
 struct
