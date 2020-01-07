@@ -2504,7 +2504,14 @@ editBookmarkPanelTitle
 box
 >
 <
-box
+html
+:
+div
+id
+=
+"
+editBookmarkPanelFaviconContainer
+"
 >
 <
 html
@@ -2519,7 +2526,9 @@ editBookmarkPanelFavicon
 >
 <
 /
-box
+html
+:
+div
 >
 <
 box
