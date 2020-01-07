@@ -790,7 +790,7 @@ bytesAsHex
 (
 Utils
 .
-digestUTF8
+digestBytes
 (
 this
 .
