@@ -102,9 +102,6 @@ Nullable
 h
 "
 class
-nsTextInputListener
-;
-class
 nsTextControlFrame
 ;
 class
@@ -130,6 +127,9 @@ mozilla
 {
 class
 ErrorResult
+;
+class
+TextInputListener
 ;
 namespace
 dom
@@ -1259,7 +1259,10 @@ mBoundFrame
 ;
 RefPtr
 <
-nsTextInputListener
+mozilla
+:
+:
+TextInputListener
 >
 mTextListener
 ;
