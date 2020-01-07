@@ -721,7 +721,7 @@ symbol
 UVC
 platform
 :
-linux
+linux32
 /
 opt
 kind
@@ -983,7 +983,9 @@ symbol
 UVC
 platform
 :
-macosx64
+osx
+-
+cross
 /
 opt
 kind
@@ -1112,7 +1114,9 @@ symbol
 UVC
 platform
 :
-win32
+windows2012
+-
+32
 /
 opt
 kind
@@ -1241,7 +1245,9 @@ symbol
 UVC
 platform
 :
-win64
+windows2012
+-
+64
 /
 opt
 kind
@@ -1370,7 +1376,7 @@ symbol
 UVC
 platform
 :
-linux
+linux32
 -
 devedition
 /
@@ -1500,7 +1506,9 @@ symbol
 UVC
 platform
 :
-macosx64
+osx
+-
+cross
 -
 devedition
 /
@@ -1563,7 +1571,9 @@ symbol
 UVC
 platform
 :
-win32
+windows2012
+-
+32
 -
 devedition
 /
@@ -1626,7 +1636,9 @@ symbol
 UVC
 platform
 :
-win64
+windows2012
+-
+64
 -
 devedition
 /
