@@ -16,7 +16,6 @@ from
 voluptuous
 import
 Required
-Optional
 graph_config_schema
 =
 Schema
@@ -73,19 +72,6 @@ Required
 (
 '
 products
-'
-)
-:
-[
-basestring
-]
-        
-Optional
-(
-'
-job
--
-names
 '
 )
 :
