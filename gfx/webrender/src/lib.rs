@@ -66,6 +66,20 @@ border
 mod
 box_shadow
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+capture
+"
+)
+]
+mod
+capture
+;
 mod
 clip
 ;
@@ -619,6 +633,7 @@ device
 {
 build_shader_strings
 ProgramCache
+ReadPixelsFormat
 UploadMethod
 VertexUsageHint
 }
@@ -655,7 +670,6 @@ renderer
 {
 GraphicsApi
 GraphicsApiInfo
-ReadPixelsFormat
 Renderer
 RendererOptions
 }

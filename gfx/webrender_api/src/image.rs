@@ -229,9 +229,6 @@ pub
 enum
 ImageFormat
 {
-Invalid
-=
-0
 R8
 =
 1
@@ -289,13 +286,6 @@ RG8
 =
 >
 2
-ImageFormat
-:
-:
-Invalid
-=
->
-0
 }
 }
 }

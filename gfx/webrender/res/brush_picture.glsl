@@ -115,15 +115,15 @@ vColor
 endif
 #
 define
-BRUSH_IMAGE_SIMPLE
+BRUSH_PICTURE_SIMPLE
 0
 #
 define
-BRUSH_IMAGE_NINEPATCH
+BRUSH_PICTURE_NINEPATCH
 1
 #
 define
-BRUSH_IMAGE_MIRROR
+BRUSH_PICTURE_MIRROR
 2
 #
 ifdef
@@ -505,7 +505,7 @@ vImageKind
 )
 {
 case
-BRUSH_IMAGE_SIMPLE
+BRUSH_PICTURE_SIMPLE
 :
 {
 vec2
@@ -545,7 +545,7 @@ break
 ;
 }
 case
-BRUSH_IMAGE_NINEPATCH
+BRUSH_PICTURE_NINEPATCH
 :
 {
 vec2
@@ -600,7 +600,7 @@ break
 ;
 }
 case
-BRUSH_IMAGE_MIRROR
+BRUSH_PICTURE_MIRROR
 :
 {
 vec2
@@ -709,7 +709,7 @@ vImageKind
 )
 {
 case
-BRUSH_IMAGE_SIMPLE
+BRUSH_PICTURE_SIMPLE
 :
 {
 uv
@@ -731,7 +731,7 @@ break
 ;
 }
 case
-BRUSH_IMAGE_NINEPATCH
+BRUSH_PICTURE_NINEPATCH
 :
 {
 uv
@@ -802,7 +802,7 @@ break
 ;
 }
 case
-BRUSH_IMAGE_MIRROR
+BRUSH_PICTURE_MIRROR
 :
 {
 /

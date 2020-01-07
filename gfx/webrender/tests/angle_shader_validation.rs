@@ -347,7 +347,7 @@ Shader
 name
 :
 "
-brush_image
+brush_picture
 "
 features
 :
