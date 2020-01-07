@@ -997,6 +997,9 @@ id
 ;
 if
 (
+message
+&
+&
 !
 message
 .
