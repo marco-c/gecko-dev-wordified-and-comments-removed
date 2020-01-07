@@ -534,6 +534,8 @@ DummyArray
 ;
 array
 =
+*
+&
 array
 ;
 ASSERT_EQ
