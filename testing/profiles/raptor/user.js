@@ -1,0 +1,14 @@
+user_pref
+(
+"
+dom
+.
+performance
+.
+time_to_non_blank_paint
+.
+enabled
+"
+true
+)
+;
