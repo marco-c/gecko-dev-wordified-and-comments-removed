@@ -425,7 +425,7 @@ variations
 enabled
 "
 layout_css_font_variations_enabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
