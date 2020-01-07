@@ -340,6 +340,16 @@ public
 static
 final
 String
+DISMISS_ONBOARDING
+=
+"
+E_Dismiss_Onboarding
+"
+;
+public
+static
+final
+String
 USER_ATT_FOCUS_INSTALLED
 =
 "
