@@ -13,6 +13,11 @@ import
 subprocess
 import
 sys
+NDK_VERSION
+=
+'
+r15c
+'
 ANDROID_NDK_EXISTS
 =
 '
@@ -954,8 +959,15 @@ android
 -
 ndk
 -
-r15c
+{
+0
+}
 '
+.
+format
+(
+NDK_VERSION
+)
 )
 )
     
@@ -1679,9 +1691,7 @@ android_ndk_url
 os_name
 ver
 =
-'
-r15c
-'
+NDK_VERSION
 )
 :
     
