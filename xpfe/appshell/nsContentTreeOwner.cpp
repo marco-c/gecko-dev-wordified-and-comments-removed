@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIEmbeddingSiteWindow
 .
 h

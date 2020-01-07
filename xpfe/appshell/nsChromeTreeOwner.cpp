@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIXULBrowserWindow
 .
 h

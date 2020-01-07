@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULControlElement
 .
 h

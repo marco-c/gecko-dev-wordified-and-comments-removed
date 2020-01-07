@@ -94,14 +94,7 @@ MPL
 #
 include
 "
-nsIDOMXULElement
-.
-idl
-"
-#
-include
-"
-nsIDOMElement
+nsISupports
 .
 idl
 "
@@ -110,6 +103,9 @@ nsITreeColumns
 ;
 interface
 nsITreeView
+;
+interface
+nsIDOMElement
 ;
 interface
 nsIDOMXULTextBoxElement

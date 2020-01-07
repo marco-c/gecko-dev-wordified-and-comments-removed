@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULMenuListElement
 .
 h

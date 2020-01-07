@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMXULElement
-.
-h
-"
-#
-include
-"
 nsWidgetInitData
 .
 h

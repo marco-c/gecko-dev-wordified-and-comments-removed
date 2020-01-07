@@ -98,6 +98,9 @@ nsIDOMXULSelectCntrlEl
 .
 idl
 "
+interface
+nsIDOMNodeList
+;
 [
 scriptable
 uuid

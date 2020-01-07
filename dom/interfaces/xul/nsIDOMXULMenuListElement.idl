@@ -101,6 +101,9 @@ idl
 interface
 nsIDOMXULTextBoxElement
 ;
+interface
+nsIDOMNode
+;
 [
 scriptable
 uuid
