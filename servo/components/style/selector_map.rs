@@ -613,9 +613,6 @@ E
 :
 Impl
 >
-quirks_mode
-:
-QuirksMode
 flags_setter
 :
 &
@@ -647,6 +644,15 @@ is_empty
 {
 return
 }
+let
+quirks_mode
+=
+context
+.
+quirks_mode
+(
+)
+;
 let
 init_len
 =
