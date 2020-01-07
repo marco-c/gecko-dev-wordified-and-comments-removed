@@ -2545,6 +2545,10 @@ MediaStreamGraph
 :
 SYSTEM_THREAD_DRIVER
 ownerWindow
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 newStream
@@ -2730,6 +2734,10 @@ MediaStreamGraph
 GetInstanceIfExists
 (
 window
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 if

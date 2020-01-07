@@ -3139,6 +3139,13 @@ AUDIO_CALLBACK_DRIVER_SHUTDOWN_TIMEOUT
 1000
 ;
 static
+const
+TrackRate
+REQUEST_DEFAULT_SAMPLE_RATE
+=
+0
+;
+static
 MediaStreamGraph
 *
 GetInstanceIfExists
@@ -3146,6 +3153,8 @@ GetInstanceIfExists
 nsPIDOMWindowInner
 *
 aWindow
+TrackRate
+aSampleRate
 )
 ;
 static
@@ -3158,6 +3167,8 @@ aGraphDriverRequested
 nsPIDOMWindowInner
 *
 aWindow
+TrackRate
+aSampleRate
 )
 ;
 static

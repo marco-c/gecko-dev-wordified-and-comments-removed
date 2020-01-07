@@ -15444,6 +15444,10 @@ GetInstance
 (
 graphDriverType
 window
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 RefPtr
@@ -15588,6 +15592,10 @@ GetInstance
 (
 graphDriverType
 window
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 RefPtr
@@ -31935,6 +31943,10 @@ MediaStreamGraph
 :
 AUDIO_THREAD_DRIVER
 window
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 if

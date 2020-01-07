@@ -2954,10 +2954,10 @@ output
 .
 rate
 =
-CubebUtils
-:
-:
-PreferredSampleRate
+mGraphImpl
+-
+>
+GraphRate
 (
 )
 ;

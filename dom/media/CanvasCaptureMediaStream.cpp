@@ -1156,6 +1156,10 @@ MediaStreamGraph
 :
 SYSTEM_THREAD_DRIVER
 aWindow
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 stream
