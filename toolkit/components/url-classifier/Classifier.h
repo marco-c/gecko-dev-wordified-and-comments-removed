@@ -599,6 +599,9 @@ nsIFile
 >
 mRootStoreDirectoryForUpdate
 ;
+bool
+mIsClosed
+;
 }
 ;
 }
