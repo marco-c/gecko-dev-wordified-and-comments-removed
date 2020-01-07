@@ -163,9 +163,6 @@ aWrapper
 UnsetWrapperFlags
 (
 kWrapperFlagsMask
-&
-~
-WRAPPER_IS_NOT_DOM_BINDING
 )
 ;
 if

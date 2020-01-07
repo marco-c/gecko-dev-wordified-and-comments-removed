@@ -548,15 +548,6 @@ aCx
 )
 )
 ;
-MOZ_ASSERT
-(
-aArgument
-.
-IsDOMBinding
-(
-)
-)
-;
 return
 GetOrCreateDOMReflector
 (
