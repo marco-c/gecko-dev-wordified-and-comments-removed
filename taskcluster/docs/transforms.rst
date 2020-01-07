@@ -1160,6 +1160,10 @@ rust
 -
 bindings
 *
+debian
+-
+package
+*
 toolchain
 -
 script
