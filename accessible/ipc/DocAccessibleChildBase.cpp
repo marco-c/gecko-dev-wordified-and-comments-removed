@@ -279,7 +279,10 @@ aRoot
 ;
 #
 endif
-uint32_t
+a11y
+:
+:
+role
 role
 =
 aRoot
