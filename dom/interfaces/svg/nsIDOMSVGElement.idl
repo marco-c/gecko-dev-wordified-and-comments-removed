@@ -98,9 +98,6 @@ nsIDOMElement
 .
 idl
 "
-interface
-nsIDOMCSSStyleDeclaration
-;
 [
 uuid
 (
@@ -146,11 +143,6 @@ readonly
 attribute
 nsISupports
 className
-;
-readonly
-attribute
-nsIDOMCSSStyleDeclaration
-style
 ;
 }
 ;

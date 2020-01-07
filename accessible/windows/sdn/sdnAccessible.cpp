@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 .
 h
 "
@@ -1116,7 +1116,7 @@ S_FALSE
 ;
 nsCOMPtr
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
 cssDecl
 =
@@ -1187,10 +1187,6 @@ nsAutoString
 property
 value
 ;
-if
-(
-NS_SUCCEEDED
-(
 cssDecl
 -
 >
@@ -1199,9 +1195,9 @@ Item
 index
 property
 )
-)
-&
-&
+;
+if
+(
 property
 .
 CharAt
@@ -1347,7 +1343,7 @@ S_FALSE
 ;
 nsCOMPtr
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
 cssDecl
 =

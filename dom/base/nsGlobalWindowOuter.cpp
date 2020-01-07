@@ -28470,7 +28470,7 @@ nullptr
 }
 RefPtr
 <
-nsComputedDOMStyle
+nsICSSDeclaration
 >
 compStyle
 =

@@ -169,7 +169,6 @@ NS_IMPL_QUERY_INTERFACE
 (
 nsDOMCSSDeclaration
 nsICSSDeclaration
-nsIDOMCSSStyleDeclaration
 )
 NS_IMETHODIMP
 nsDOMCSSDeclaration

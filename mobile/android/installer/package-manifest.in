@@ -636,13 +636,6 @@ BINPATH
 /
 components
 /
-dom_css
-.
-xpt
-BINPATH
-/
-components
-/
 dom_events
 .
 xpt

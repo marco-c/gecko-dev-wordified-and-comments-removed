@@ -951,13 +951,6 @@ h
 #
 include
 "
-nsComputedDOMStyle
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h
@@ -1180,6 +1173,13 @@ h
 include
 "
 nsIEffectiveTLDService
+.
+h
+"
+#
+include
+"
+nsICSSDeclaration
 .
 h
 "
@@ -20067,7 +20067,7 @@ nsAString
 aPseudoElt
 bool
 aDefaultStylesOnly
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 *
 aReturn
@@ -20112,9 +20112,9 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
-declaration
+cs
 =
 GetComputedStyleHelper
 (
@@ -20125,7 +20125,7 @@ aDefaultStylesOnly
 rv
 )
 ;
-declaration
+cs
 .
 forget
 (

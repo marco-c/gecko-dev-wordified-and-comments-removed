@@ -22,13 +22,6 @@ nsICSSDeclaration
 .
 h
 "
-#
-include
-"
-nsIDOMCSSStyleDeclaration
-.
-h
-"
 namespace
 mozilla
 {

@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
 nsCSSPropertyID
 .
 h
@@ -116,7 +109,7 @@ class
 nsICSSDeclaration
 :
 public
-nsIDOMCSSStyleDeclaration
+nsISupports
 public
 nsWrapperCache
 {
@@ -190,7 +183,6 @@ nsAString
 &
 aCssText
 )
-override
 =
 0
 ;
@@ -207,7 +199,6 @@ aSubjectPrincipal
 =
 nullptr
 )
-override
 =
 0
 ;
@@ -222,7 +213,6 @@ nsAString
 &
 aValue
 )
-override
 =
 0
 ;
@@ -264,7 +254,6 @@ nsAString
 &
 aReturn
 )
-override
 =
 0
 ;
@@ -279,7 +268,6 @@ nsAString
 &
 aReturn
 )
-override
 =
 0
 ;
@@ -304,7 +292,6 @@ aSubjectPrincipal
 =
 nullptr
 )
-override
 =
 0
 ;
@@ -315,11 +302,10 @@ uint32_t
 *
 aLength
 )
-override
 =
 0
 ;
-NS_IMETHOD
+void
 Item
 (
 uint32_t
@@ -328,7 +314,6 @@ nsAString
 &
 aReturn
 )
-override
 {
 bool
 found
@@ -353,9 +338,6 @@ Truncate
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 SetCssText
@@ -744,18 +726,6 @@ GetLength
 uint32_t
 *
 aLength
-)
-override
-;
-\
-NS_IMETHOD
-Item
-(
-uint32_t
-index
-nsAString
-&
-_retval
 )
 override
 ;

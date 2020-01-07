@@ -241,13 +241,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
 nsAppShellCID
 .
 h

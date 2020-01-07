@@ -266,13 +266,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
 nsDOMCSSAttrDeclaration
 .
 h

@@ -156,7 +156,7 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 .
 h
 "
@@ -6327,7 +6327,7 @@ false
 }
 nsCOMPtr
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
 firstCSSDecl
 secondCSSDecl
@@ -6555,7 +6555,7 @@ GetInlineStyles
 Element
 *
 aElement
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 *
 aCssDecl
@@ -6597,18 +6597,15 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 >
 cssDecl
 =
-do_QueryInterface
-(
 inlineStyles
 -
 >
 Style
 (
-)
 )
 ;
 MOZ_ASSERT

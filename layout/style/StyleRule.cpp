@@ -167,9 +167,6 @@ nsRuleProcessorData
 .
 h
 "
-class
-nsIDOMCSSStyleDeclaration
-;
 using
 namespace
 mozilla
