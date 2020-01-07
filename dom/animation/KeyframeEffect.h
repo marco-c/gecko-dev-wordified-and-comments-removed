@@ -1297,7 +1297,7 @@ CanThrottle
 const
 ;
 bool
-CanThrottleTransformChanges
+CanThrottleOverflowChanges
 (
 const
 nsIFrame
@@ -1307,7 +1307,7 @@ aFrame
 const
 ;
 bool
-CanThrottleTransformChangesInScrollable
+CanThrottleOverflowChangesInScrollable
 (
 nsIFrame
 &
@@ -1368,7 +1368,7 @@ nullptr
 const
 ;
 bool
-HasTransformThatMightAffectOverflow
+HasPropertiesThatMightAffectOverflow
 (
 )
 const
