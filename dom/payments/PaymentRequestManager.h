@@ -165,6 +165,10 @@ const
 PaymentComplete
 &
 aComplete
+bool
+aTimedOut
+=
+false
 )
 ;
 nsresult
