@@ -2846,8 +2846,10 @@ aBorderArea
 )
 ;
 }
-static
 bool
+nsCSSRendering
+:
+:
 IsBoxDecorationSlice
 (
 const
@@ -2868,8 +2870,10 @@ StyleBoxDecorationBreak
 Slice
 ;
 }
-static
 nsRect
+nsCSSRendering
+:
+:
 BoxDecorationRectForBorder
 (
 nsIFrame
@@ -2885,8 +2889,6 @@ const
 nsStyleBorder
 *
 aStyleBorder
-=
-nullptr
 )
 {
 if
@@ -2906,8 +2908,6 @@ StyleBorder
 ;
 }
 return
-:
-:
 IsBoxDecorationSlice
 (
 *
@@ -2934,8 +2934,10 @@ eForBorder
 aBorderArea
 ;
 }
-static
 nsRect
+nsCSSRendering
+:
+:
 BoxDecorationRectForBackground
 (
 nsIFrame
@@ -2951,8 +2953,6 @@ const
 nsStyleBorder
 *
 aStyleBorder
-=
-nullptr
 )
 {
 if
@@ -2972,8 +2972,6 @@ StyleBorder
 ;
 }
 return
-:
-:
 IsBoxDecorationSlice
 (
 *
@@ -3888,6 +3886,7 @@ mBackgroundColor
 nsRect
 joinedBorderArea
 =
+nsCSSRendering
 :
 :
 BoxDecorationRectForBorder
@@ -3946,6 +3945,7 @@ height
 ;
 if
 (
+nsCSSRendering
 :
 :
 IsBoxDecorationSlice
@@ -6734,8 +6734,6 @@ GetSkipSides
 ;
 frameRect
 =
-:
-:
 BoxDecorationRectForBorder
 (
 aForFrame
@@ -7945,8 +7943,6 @@ GetSkipSides
 nsRect
 frameRect
 =
-:
-:
 BoxDecorationRectForBorder
 (
 aFrame
@@ -8086,8 +8082,6 @@ twipsRadii
 nsRect
 frameRect
 =
-:
-:
 BoxDecorationRectForBorder
 (
 aFrame
@@ -10273,8 +10267,6 @@ GetSkipSides
 nsRect
 clipBorderArea
 =
-:
-:
 BoxDecorationRectForBorder
 (
 aForFrame
@@ -12363,8 +12355,6 @@ GetSkipSides
 nsRect
 paintBorderArea
 =
-:
-:
 BoxDecorationRectForBackground
 (
 aParams
@@ -12381,8 +12371,6 @@ aBorder
 nsRect
 clipBorderArea
 =
-:
-:
 BoxDecorationRectForBorder
 (
 aParams
@@ -12961,8 +12949,6 @@ GetSkipSides
 nsRect
 paintBorderArea
 =
-:
-:
 BoxDecorationRectForBackground
 (
 aParams
@@ -15124,8 +15110,6 @@ GetSkipSides
 nsRect
 borderArea
 =
-:
-:
 BoxDecorationRectForBackground
 (
 aForFrame
