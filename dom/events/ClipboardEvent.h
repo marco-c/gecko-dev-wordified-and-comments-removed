@@ -35,13 +35,6 @@ Event
 .
 h
 "
-#
-include
-"
-nsIDOMClipboardEvent
-.
-h
-"
 namespace
 mozilla
 {
@@ -56,8 +49,6 @@ ClipboardEvent
 :
 public
 Event
-public
-nsIDOMClipboardEvent
 {
 public
 :
@@ -74,9 +65,11 @@ InternalClipboardEvent
 aEvent
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMCLIPBOARDEVENT
-NS_FORWARD_TO_EVENT
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+ClipboardEvent
+Event
+)
 virtual
 JSObject
 *
