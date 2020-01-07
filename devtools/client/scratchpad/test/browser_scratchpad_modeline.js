@@ -422,11 +422,8 @@ browser
 is
 (
 obj
-[
-"
+.
 other
-"
-]
 "
 true
 "
