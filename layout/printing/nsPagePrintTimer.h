@@ -37,6 +37,15 @@ h
 #
 include
 "
+mozilla
+/
+OwningNonNull
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -89,6 +98,7 @@ aPrintJob
 )
 mDocViewerPrint
 (
+*
 aDocViewerPrint
 )
 mDocument
@@ -118,6 +128,9 @@ false
 {
 MOZ_ASSERT
 (
+aDocViewerPrint
+&
+&
 aDocument
 )
 ;
@@ -206,7 +219,11 @@ nsPrintJob
 *
 mPrintJob
 ;
-nsCOMPtr
+const
+mozilla
+:
+:
+OwningNonNull
 <
 nsIDocumentViewerPrint
 >
