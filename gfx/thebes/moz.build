@@ -1194,6 +1194,11 @@ DeviceManagerDx
 .
 cpp
 '
+'
+PrintTargetEMF
+.
+cpp
+'
 ]
 if
 CONFIG
