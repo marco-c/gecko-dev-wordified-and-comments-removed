@@ -1774,12 +1774,13 @@ aOutOfList
 nullptr
 )
 ;
+MOZ_MUST_USE
 nsresult
 RemoveListStructure
 (
 Element
 &
-aList
+aListElement
 )
 ;
 nsresult
@@ -1891,6 +1892,7 @@ nsRange
 aRange
 )
 ;
+MOZ_MUST_USE
 nsresult
 ConfirmSelectionInBody
 (
