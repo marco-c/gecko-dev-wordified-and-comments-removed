@@ -1128,7 +1128,7 @@ enabled
 }
 already_AddRefed
 <
-Event
+TouchEvent
 >
 TouchEvent
 :
