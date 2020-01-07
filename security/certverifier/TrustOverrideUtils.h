@@ -513,7 +513,7 @@ GetCert
 ;
 if
 (
-CertDNIsInList
+CertSPKIIsInList
 (
 nssCert
 .

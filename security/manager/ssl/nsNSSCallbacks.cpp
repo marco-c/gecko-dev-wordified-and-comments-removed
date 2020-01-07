@@ -5804,7 +5804,7 @@ CheckForSymantecDistrust
 intCerts
 eeCert
 NULL_TIME
-RootAppleAndGoogleDNs
+RootAppleAndGoogleSPKIs
 isDistrusted
 )
 ;
