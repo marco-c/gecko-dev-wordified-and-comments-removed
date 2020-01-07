@@ -37,10 +37,9 @@ gBrowser
 .
 selectedTab
 )
-.
-then
-(
+;
 finish
+(
 )
 ;
 }

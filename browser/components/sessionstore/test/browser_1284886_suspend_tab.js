@@ -267,8 +267,9 @@ prompt
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab1
 )
@@ -355,8 +356,9 @@ prompt
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab1
 )
@@ -435,7 +437,9 @@ tab
 "
 )
 ;
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab1
 )

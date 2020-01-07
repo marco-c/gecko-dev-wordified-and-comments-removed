@@ -293,6 +293,12 @@ UserContextId
 )
 ;
 await
+TestUtils
+.
+waitForTick
+(
+)
+;
 BrowserTestUtils
 .
 removeTab
@@ -300,7 +306,6 @@ removeTab
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
