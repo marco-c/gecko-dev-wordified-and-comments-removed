@@ -2249,7 +2249,7 @@ mozilla
 MakeScopeExit
 (
 [
-&
+self
 ]
 {
 self
