@@ -329,7 +329,7 @@ root
 )
 ;
 }
-ensureParentFront
+ensureDOMNodeFront
 :
 function
 (

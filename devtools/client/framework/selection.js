@@ -565,7 +565,7 @@ node
 =
 node
 .
-parentNode
+parentOrHost
 (
 )
 ;
