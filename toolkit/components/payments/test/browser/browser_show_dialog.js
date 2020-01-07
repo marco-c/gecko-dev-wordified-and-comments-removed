@@ -340,7 +340,7 @@ org
 "
 }
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -422,7 +422,7 @@ number
 "
 }
 ;
-profileStorage
+formAutofillStorage
 .
 creditCards
 .
