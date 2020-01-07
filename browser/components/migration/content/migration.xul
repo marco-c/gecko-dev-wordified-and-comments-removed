@@ -197,6 +197,17 @@ branded
 "
 true
 "
+onwizardcancel
+=
+"
+return
+MigrationWizard
+.
+onWizardCancel
+(
+)
+;
+"
 >
 <
 script
