@@ -1166,6 +1166,14 @@ this
 isBrowserConsole
 )
 {
+this
+.
+window
+.
+focus
+(
+)
+;
 shortcuts
 .
 on
