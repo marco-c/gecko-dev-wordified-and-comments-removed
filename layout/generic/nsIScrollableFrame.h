@@ -543,7 +543,7 @@ aBuilder
 ;
 virtual
 bool
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 =

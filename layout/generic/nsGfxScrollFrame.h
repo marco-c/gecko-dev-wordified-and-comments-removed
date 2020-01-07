@@ -1319,7 +1319,7 @@ aBuilder
 const
 ;
 bool
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 const
@@ -3511,7 +3511,7 @@ IsMaybeScrollingActive
 }
 virtual
 bool
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 override
@@ -3519,7 +3519,7 @@ override
 return
 mHelper
 .
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 ;
@@ -5626,7 +5626,7 @@ IsMaybeScrollingActive
 }
 virtual
 bool
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 override
@@ -5634,7 +5634,7 @@ override
 return
 mHelper
 .
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 ;

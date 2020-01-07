@@ -9124,7 +9124,7 @@ aIsAsync
 sf
 -
 >
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 ;
@@ -37359,7 +37359,7 @@ ScrollFrame
 )
 -
 >
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 )
