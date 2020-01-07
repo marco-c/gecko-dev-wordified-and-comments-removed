@@ -312,7 +312,7 @@ if
 0
 _preview
 .
-isImmutablePreview
+isImmutable
 )
 (
 result
