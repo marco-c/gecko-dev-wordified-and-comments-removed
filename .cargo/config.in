@@ -127,7 +127,7 @@ serde
 branch
 =
 "
-deserialize_from_enums6
+deserialize_from_enums7
 "
 replace
 -
