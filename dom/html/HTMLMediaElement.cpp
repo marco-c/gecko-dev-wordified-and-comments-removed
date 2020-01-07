@@ -17201,12 +17201,6 @@ nullptr
 }
 if
 (
-mReadyState
->
-=
-HAVE_METADATA
-&
-&
 !
 IsAllowedToPlay
 (
