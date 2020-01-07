@@ -821,6 +821,9 @@ JS
 AutoHideScriptedCaller
 mCallerOverride
 ;
+AutoProfilerLabel
+mAutoProfilerLabel
+;
 }
 ;
 class
