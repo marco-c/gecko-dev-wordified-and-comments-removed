@@ -8,8 +8,10 @@ import
 sys
 import
 unittest
+from
+mozprocess
 import
-psutil
+ProcessHandler
 here
 =
 os
@@ -186,7 +188,7 @@ didTimeout
         
 detected
 =
-psutil
+ProcessHandler
 .
 pid_exists
 (
