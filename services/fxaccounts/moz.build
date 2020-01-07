@@ -199,6 +199,11 @@ FxAccountsConfig
 jsm
 '
 '
+FxAccountsMessages
+.
+js
+'
+'
 FxAccountsOAuthGrantClient
 .
 jsm
