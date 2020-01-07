@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMKeyEvent
 .
 h
