@@ -120,7 +120,7 @@ organizer
 .
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 History

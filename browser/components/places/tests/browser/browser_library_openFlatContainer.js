@@ -106,7 +106,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks

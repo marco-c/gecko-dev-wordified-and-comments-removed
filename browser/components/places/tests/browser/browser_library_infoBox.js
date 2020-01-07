@@ -117,7 +117,7 @@ org
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 AllBookmarks
@@ -171,7 +171,7 @@ PO
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 History
@@ -368,7 +368,7 @@ false
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 BookmarksMenu
