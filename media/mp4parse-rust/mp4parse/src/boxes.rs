@@ -850,5 +850,17 @@ lpcm
 -
 quicktime
 atom
+ALACSpecificBox
+0x616C6163
+/
+/
+"
+alac
+"
+-
+Also
+used
+by
+ALACSampleEntry
 )
 ;
