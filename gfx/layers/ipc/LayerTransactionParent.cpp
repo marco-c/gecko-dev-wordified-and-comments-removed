@@ -361,6 +361,14 @@ mIPCOpen
 false
 )
 {
+MOZ_ASSERT
+(
+mId
+!
+=
+0
+)
+;
 }
 LayerTransactionParent
 :
