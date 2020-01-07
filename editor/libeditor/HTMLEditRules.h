@@ -733,7 +733,7 @@ aAction
 )
 ;
 EditActionResult
-TryToJoinBlocks
+TryToJoinBlocksWithTransaction
 (
 nsIContent
 &
@@ -1754,14 +1754,14 @@ aStartOfDeepestRightNode
 )
 ;
 EditorDOMPoint
-JoinNodesSmart
+JoinNearestEditableNodesWithTransaction
 (
 nsIContent
 &
-aNodeLeft
+aLeftNode
 nsIContent
 &
-aNodeRight
+aRightNode
 )
 ;
 Element

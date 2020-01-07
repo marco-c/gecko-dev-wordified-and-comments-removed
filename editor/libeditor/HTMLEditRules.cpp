@@ -11412,7 +11412,7 @@ GetAsText
 EditorDOMPoint
 pt
 =
-JoinNodesSmart
+JoinNearestEditableNodesWithTransaction
 (
 *
 sibling
@@ -11843,7 +11843,7 @@ IsContent
 EditActionResult
 ret
 =
-TryToJoinBlocks
+TryToJoinBlocksWithTransaction
 (
 *
 leftNode
@@ -12164,7 +12164,7 @@ IsContent
 EditActionResult
 ret
 =
-TryToJoinBlocks
+TryToJoinBlocksWithTransaction
 (
 *
 leftNode
@@ -12705,7 +12705,7 @@ pt
 mHTMLEditor
 -
 >
-JoinNodeDeep
+JoinNodesDeepWithTransaction
 (
 *
 leftParent
@@ -13130,7 +13130,7 @@ join
 EditActionResult
 ret
 =
-TryToJoinBlocks
+TryToJoinBlocksWithTransaction
 (
 *
 leftParent
@@ -13820,7 +13820,7 @@ EditActionResult
 HTMLEditRules
 :
 :
-TryToJoinBlocks
+TryToJoinBlocksWithTransaction
 (
 nsIContent
 &
@@ -15176,7 +15176,7 @@ NameAtom
 EditorDOMPoint
 pt
 =
-JoinNodesSmart
+JoinNearestEditableNodesWithTransaction
 (
 *
 leftBlock
@@ -36430,7 +36430,7 @@ EditorDOMPoint
 HTMLEditRules
 :
 :
-JoinNodesSmart
+JoinNearestEditableNodesWithTransaction
 (
 nsIContent
 &
@@ -36583,7 +36583,7 @@ rv
 mHTMLEditor
 -
 >
-JoinNodes
+JoinNodesWithTransaction
 (
 aNodeLeft
 aNodeRight
@@ -36719,7 +36719,7 @@ rv
 mHTMLEditor
 -
 >
-JoinNodes
+JoinNodesWithTransaction
 (
 aNodeLeft
 aNodeRight
@@ -36831,7 +36831,7 @@ EditorDOMPoint
 ;
 }
 return
-JoinNodesSmart
+JoinNearestEditableNodesWithTransaction
 (
 *
 lastLeft

@@ -1285,7 +1285,7 @@ aResult
 )
 ;
 nsresult
-JoinNodes
+JoinNodesWithTransaction
 (
 nsINode
 &
@@ -3385,7 +3385,7 @@ aSplitAtEdges
 )
 ;
 EditorDOMPoint
-JoinNodeDeep
+JoinNodesDeepWithTransaction
 (
 nsIContent
 &

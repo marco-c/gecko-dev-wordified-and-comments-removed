@@ -6257,7 +6257,7 @@ GetParentNode
 )
 ;
 return
-JoinNodes
+JoinNodesWithTransaction
 (
 *
 leftNode
@@ -6270,7 +6270,7 @@ nsresult
 EditorBase
 :
 :
-JoinNodes
+JoinNodesWithTransaction
 (
 nsINode
 &
@@ -17375,7 +17375,7 @@ EditorDOMPoint
 EditorBase
 :
 :
-JoinNodeDeep
+JoinNodesDeepWithTransaction
 (
 nsIContent
 &
@@ -17449,7 +17449,7 @@ Length
 nsresult
 rv
 =
-JoinNodes
+JoinNodesWithTransaction
 (
 *
 leftNodeToJoin
