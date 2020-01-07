@@ -1058,6 +1058,11 @@ AttributionCode
 jsm
 '
 '
+BlockedSiteContent
+.
+jsm
+'
+'
 BrowserErrorReporter
 .
 jsm
