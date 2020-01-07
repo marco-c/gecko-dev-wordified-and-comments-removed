@@ -3197,6 +3197,7 @@ AtomSet
 :
 AddPtr
 >
+&
 zonePtr
 const
 CharT
@@ -3969,6 +3970,7 @@ AtomSet
 :
 AddPtr
 >
+&
 zonePtr
 const
 CharT
