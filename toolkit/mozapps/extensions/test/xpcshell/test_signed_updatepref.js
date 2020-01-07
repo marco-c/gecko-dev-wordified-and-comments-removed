@@ -314,7 +314,7 @@ jsm
 ;
 XPIscope
 .
-XPIProvider
+XPIDatabase
 .
 verifySignatures
 (
