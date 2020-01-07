@@ -3060,13 +3060,11 @@ scriptloader
 loadSubScript
 (
 "
-chrome
+resource
 :
 /
 /
 specialpowers
-/
-content
 /
 Assert
 .
