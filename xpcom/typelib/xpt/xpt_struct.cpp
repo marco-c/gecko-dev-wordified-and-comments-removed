@@ -1042,6 +1042,12 @@ return
 false
 ;
 }
+XPTMethodDescriptor
+*
+method_descriptors
+=
+nullptr
+;
 if
 (
 id
@@ -1063,9 +1069,6 @@ sizeof
 XPTMethodDescriptor
 )
 ;
-id
--
->
 method_descriptors
 =
 static_cast
@@ -1084,9 +1087,6 @@ n
 if
 (
 !
-id
--
->
 method_descriptors
 )
 return
@@ -1119,9 +1119,6 @@ DoMethodDescriptor
 arena
 cursor
 &
-id
--
->
 method_descriptors
 [
 i
@@ -1133,6 +1130,13 @@ return
 false
 ;
 }
+id
+-
+>
+method_descriptors
+=
+method_descriptors
+;
 if
 (
 !

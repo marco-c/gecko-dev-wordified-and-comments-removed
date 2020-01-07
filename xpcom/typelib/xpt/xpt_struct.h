@@ -175,6 +175,7 @@ kMainProcessScriptableOnlyMask
 )
 ;
 }
+const
 XPTMethodDescriptor
 *
 method_descriptors
