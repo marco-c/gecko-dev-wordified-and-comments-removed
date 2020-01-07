@@ -347,16 +347,6 @@ return
 mRawRule
 ;
 }
-already_AddRefed
-<
-Rule
->
-Clone
-(
-)
-const
-final
-;
 size_t
 SizeOfIncludingThis
 (

@@ -94,16 +94,6 @@ final
 ;
 #
 endif
-already_AddRefed
-<
-Rule
->
-Clone
-(
-)
-const
-final
-;
 nsAtom
 *
 GetPrefix
