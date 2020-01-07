@@ -63,6 +63,7 @@ gen_test_config
 (
 browser
 test
+cs_port
 )
 :
     
@@ -131,7 +132,8 @@ http
 /
 localhost
 :
-8000
+%
+d
 /
 %
 s
@@ -147,6 +149,7 @@ json
 %
 (
 browser
+cs_port
 test
 )
     

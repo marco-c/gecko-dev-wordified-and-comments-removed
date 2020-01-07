@@ -497,6 +497,17 @@ tests_to_run
 [
 ]
     
+args
+.
+test
+=
+args
+.
+test
+[
+0
+]
+    
 if
 args
 .
