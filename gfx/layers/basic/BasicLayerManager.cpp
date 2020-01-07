@@ -3355,6 +3355,10 @@ complete
 "
 )
 ;
+ClearDisplayItemLayers
+(
+)
+;
 return
 !
 mTransactionIncomplete
