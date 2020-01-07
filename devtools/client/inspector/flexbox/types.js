@@ -30,11 +30,16 @@ exports
 flexbox
 =
 {
-id
+actorID
 :
 PropTypes
 .
 number
+highlighted
+:
+PropTypes
+.
+bool
 nodeFront
 :
 PropTypes
