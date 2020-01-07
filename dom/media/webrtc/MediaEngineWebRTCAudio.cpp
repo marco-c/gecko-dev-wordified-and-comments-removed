@@ -2349,6 +2349,16 @@ if
 allocation
 .
 mStream
+&
+&
+allocation
+.
+mStream
+-
+>
+GraphImpl
+(
+)
 )
 {
 stream
