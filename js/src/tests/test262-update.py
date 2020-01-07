@@ -1391,17 +1391,22 @@ testRec
         
 unsupported
 =
-UNSUPPORTED_FEATURES
-.
-intersection
-(
+[
+f
+for
+f
+in
 testRec
 [
 "
 features
 "
 ]
-)
+if
+f
+in
+UNSUPPORTED_FEATURES
+]
         
 if
 unsupported
@@ -1424,10 +1429,7 @@ supported
 .
 join
 (
-list
-(
 unsupported
-)
 )
 )
         
@@ -1436,17 +1438,22 @@ else
             
 releaseOrBeta
 =
-RELEASE_OR_BETA
-.
-intersection
-(
+[
+f
+for
+f
+in
 testRec
 [
 "
 features
 "
 ]
-)
+if
+f
+in
+RELEASE_OR_BETA
+]
             
 if
 releaseOrBeta
@@ -1475,34 +1482,29 @@ yet
 .
 join
 (
-list
-(
 releaseOrBeta
-)
 )
 )
 )
             
 featureCheckNeeded
 =
-set
-(
-FEATURE_CHECK_NEEDED
-.
-keys
-(
-)
-)
-.
-intersection
-(
+[
+f
+for
+f
+in
 testRec
 [
 "
 features
 "
 ]
-)
+if
+f
+in
+FEATURE_CHECK_NEEDED
+]
             
 if
 featureCheckNeeded
@@ -1546,10 +1548,7 @@ unconditionally
 .
 join
 (
-list
-(
 featureCheckNeeded
-)
 )
 )
 )
