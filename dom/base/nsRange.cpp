@@ -1382,8 +1382,7 @@ result
 }
 else
 {
-return
-false
+break
 ;
 }
 }
