@@ -3665,7 +3665,7 @@ mReadPos
 ;
 }
 ;
-bool
+void
 ProfileBuffer
 :
 :
@@ -3678,9 +3678,6 @@ int
 aThreadId
 double
 aSinceTime
-JSContext
-*
-aContext
 UniqueStacks
 &
 aUniqueStacks
@@ -3746,11 +3743,6 @@ e
 *
 this
 )
-;
-bool
-haveSamples
-=
-false
 ;
 for
 (
@@ -4700,14 +4692,7 @@ mUniqueStrings
 sample
 )
 ;
-haveSamples
-=
-true
-;
 }
-return
-haveSamples
-;
 #
 undef
 ERROR_AND_CONTINUE
@@ -4929,7 +4914,7 @@ Next
 )
 ;
 }
-bool
+void
 ProfileBuffer
 :
 :
@@ -4958,11 +4943,6 @@ e
 *
 this
 )
-;
-bool
-haveMarkers
-=
-false
 ;
 while
 (
@@ -5035,10 +5015,6 @@ aProcessStartTime
 aUniqueStacks
 )
 ;
-haveMarkers
-=
-true
-;
 }
 }
 e
@@ -5048,9 +5024,6 @@ Next
 )
 ;
 }
-return
-haveMarkers
-;
 }
 static
 void
