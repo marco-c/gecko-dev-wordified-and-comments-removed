@@ -77,7 +77,7 @@ simple1
 )
 ;
 await
-waitForLoadedSource
+waitForSelectedSource
 (
 dbg
 "
