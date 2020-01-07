@@ -393,7 +393,6 @@ Throws
 ]
 static
 DOMString
-?
 createObjectURL
 (
 MediaSource
