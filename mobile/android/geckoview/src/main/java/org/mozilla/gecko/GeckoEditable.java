@@ -258,7 +258,7 @@ Stub
 implements
 InvocationHandler
 Editable
-TextInputController
+SessionTextInput
 .
 EditableClient
 {
@@ -325,7 +325,7 @@ mFocusedChild
 IBinder
 mFocusedToken
 ;
-TextInputController
+SessionTextInput
 .
 EditableListener
 mListener
@@ -1234,7 +1234,7 @@ void
 syncShadowText
 (
 final
-TextInputController
+SessionTextInput
 .
 EditableListener
 listener
@@ -2975,7 +2975,7 @@ void
 setListener
 (
 final
-TextInputController
+SessionTextInput
 .
 EditableListener
 newListener
@@ -4943,7 +4943,7 @@ if
 type
 !
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -4962,7 +4962,7 @@ notifyIME
 +
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -4995,7 +4995,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5056,7 +5056,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5089,7 +5089,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5130,7 +5130,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5181,7 +5181,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5206,7 +5206,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5241,7 +5241,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -5313,7 +5313,7 @@ notifyIMEContext
 +
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .

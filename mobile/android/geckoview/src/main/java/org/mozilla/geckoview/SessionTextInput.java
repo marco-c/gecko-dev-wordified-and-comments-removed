@@ -146,7 +146,7 @@ InputConnection
 public
 final
 class
-TextInputController
+SessionTextInput
 {
 public
 interface
@@ -474,7 +474,7 @@ private
 Delegate
 mInputConnection
 ;
-TextInputController
+SessionTextInput
 (
 final
 NonNull

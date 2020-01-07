@@ -45,7 +45,7 @@ mozilla
 .
 geckoview
 .
-TextInputController
+SessionTextInput
 ;
 import
 android
@@ -605,7 +605,7 @@ GeckoEditable
 .
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -627,7 +627,7 @@ if
 type
 =
 =
-TextInputController
+SessionTextInput
 .
 EditableListener
 .
@@ -726,7 +726,7 @@ GeckoEditable
 .
 getConstantName
 (
-TextInputController
+SessionTextInput
 .
 EditableListener
 .

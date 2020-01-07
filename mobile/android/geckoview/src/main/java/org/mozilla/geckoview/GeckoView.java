@@ -1307,7 +1307,7 @@ getApplicationContext
 }
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1346,7 +1346,7 @@ null
 {
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1680,7 +1680,7 @@ getHandler
 return
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1719,7 +1719,7 @@ null
 return
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1764,7 +1764,7 @@ null
 &
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1810,7 +1810,7 @@ null
 &
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1856,7 +1856,7 @@ null
 &
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1902,7 +1902,7 @@ null
 &
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .
@@ -1951,7 +1951,7 @@ null
 &
 mSession
 .
-getTextInputController
+getTextInput
 (
 )
 .

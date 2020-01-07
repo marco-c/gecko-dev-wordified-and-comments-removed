@@ -465,11 +465,11 @@ mNativeQueue
 ;
 private
 final
-TextInputController
+SessionTextInput
 mTextInput
 =
 new
-TextInputController
+SessionTextInput
 (
 this
 mNativeQueue
@@ -3883,8 +3883,8 @@ inProgress
 }
 public
 NonNull
-TextInputController
-getTextInputController
+SessionTextInput
+getTextInput
 (
 )
 {

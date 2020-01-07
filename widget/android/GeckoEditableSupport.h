@@ -109,7 +109,7 @@ EditableClient
 java
 :
 :
-TextInputController
+SessionTextInput
 :
 :
 EditableClient
@@ -120,7 +120,7 @@ EditableListener
 java
 :
 :
-TextInputController
+SessionTextInput
 :
 :
 EditableListener

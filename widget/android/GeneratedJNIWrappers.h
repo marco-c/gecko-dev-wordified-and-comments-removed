@@ -55614,7 +55614,7 @@ Natives
 }
 ;
 class
-TextInputController
+SessionTextInput
 :
 public
 mozilla
@@ -55625,7 +55625,7 @@ jni
 :
 ObjectBase
 <
-TextInputController
+SessionTextInput
 >
 {
 public
@@ -55638,7 +55638,7 @@ name
 ]
 ;
 explicit
-TextInputController
+SessionTextInput
 (
 const
 Context
@@ -55648,7 +55648,7 @@ ctx
 :
 ObjectBase
 <
-TextInputController
+SessionTextInput
 >
 (
 ctx
@@ -55686,7 +55686,7 @@ ANY
 }
 ;
 class
-TextInputController
+SessionTextInput
 :
 :
 EditableClient
@@ -55776,7 +55776,7 @@ ANY
 }
 ;
 class
-TextInputController
+SessionTextInput
 :
 :
 EditableListener
