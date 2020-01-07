@@ -526,9 +526,13 @@ update
 manifests
 .
 >
+"
 updatemanifestv2
+"
 >
+"
 updatemanifestv3
+"
 notice
 "
 "
@@ -557,7 +561,9 @@ complete
 "
 >
 >
+"
 updatemanifestv2
+"
 echo
 "
 type
@@ -569,7 +575,9 @@ complete
 "
 >
 >
+"
 updatemanifestv3
+"
 notice
 "
 "
