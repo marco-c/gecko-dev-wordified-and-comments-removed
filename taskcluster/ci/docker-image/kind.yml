@@ -206,6 +206,14 @@ packages
 -
 deb7
 -
+cmake
+-
+deb7
+-
+ninja
+-
+deb7
+-
 python
 lint
 :

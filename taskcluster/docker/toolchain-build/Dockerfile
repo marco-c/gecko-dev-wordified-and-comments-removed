@@ -426,6 +426,8 @@ essential
 \
 curl
 \
+cmake
+\
 flex
 \
 gawk
@@ -441,6 +443,10 @@ gnupg
 libtool
 \
 make
+\
+ninja
+-
+build
 \
 p7zip
 -
