@@ -2158,13 +2158,13 @@ PREDICTOR_MAX_RESOURCES_PREF
 PREDICTOR_MAX_RESOURCES_DEFAULT
 )
 ;
+mCleanedUp
+=
 Preferences
 :
 :
-AddBoolVarCache
+GetBool
 (
-&
-mCleanedUp
 PREDICTOR_CLEANED_UP_PREF
 false
 )
