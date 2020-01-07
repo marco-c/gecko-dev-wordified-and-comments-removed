@@ -11046,6 +11046,9 @@ argument
 is
 an
 HTMLCanvasElement
+or
+an
+OffscreenCanvas
 object
 with
 either
@@ -11065,10 +11068,10 @@ implementation
 *
 must
 *
-return
-without
-drawing
-anything
+throw
+an
+INVALID_STATE_ERR
+exception
 <
 ^
 >
