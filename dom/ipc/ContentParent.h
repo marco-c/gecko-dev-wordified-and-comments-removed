@@ -244,6 +244,12 @@ extension
 "
 #
 define
+PRIVILEGED_REMOTE_TYPE
+"
+privileged
+"
+#
+define
 LARGE_ALLOCATION_REMOTE_TYPE
 "
 webLargeAllocation

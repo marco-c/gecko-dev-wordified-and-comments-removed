@@ -96,6 +96,10 @@ Extension
 =
 2
     
+Privileged
+=
+3
+    
 def
 __init__
 (
@@ -191,6 +195,30 @@ append
 (
 '
 Extension
+'
+)
+        
+if
+self
+.
+val
+&
+(
+1
+<
+<
+self
+.
+Privileged
+)
+:
+            
+res
+.
+append
+(
+'
+Privileged
 '
 )
         

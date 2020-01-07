@@ -198,6 +198,7 @@ uint8_t
 Parent
 Web
 Extension
+Privileged
 }
 ;
 template
