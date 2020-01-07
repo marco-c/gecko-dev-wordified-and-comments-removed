@@ -151,6 +151,11 @@ CDMProxy
 h
 '
 '
+DataMutex
+.
+h
+'
+'
 DecryptorProxyCallback
 .
 h
