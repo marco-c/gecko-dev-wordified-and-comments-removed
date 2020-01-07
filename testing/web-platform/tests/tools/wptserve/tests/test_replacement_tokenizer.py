@@ -49,9 +49,14 @@ ident
 '
 '
 bbb
-(
-)
 '
+)
+(
+'
+arguments
+'
+[
+]
 )
 ]
 ]

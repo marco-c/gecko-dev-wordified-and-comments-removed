@@ -1,0 +1,11 @@
+{
+{
+file_hash
+(
+sha007
+sub_file_hash_subject
+.
+txt
+)
+}
+}
