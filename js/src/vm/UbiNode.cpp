@@ -1961,7 +1961,17 @@ return
 nullptr
 ;
 return
+UniquePtr
+<
+EdgeRange
+>
+(
 range
+.
+release
+(
+)
+)
 ;
 }
 template
