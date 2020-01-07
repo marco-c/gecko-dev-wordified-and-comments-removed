@@ -369,11 +369,6 @@ onClearHistory
 )
 {
 }
-onVisits
-(
-)
-{
-}
 onTitleChanged
 (
 )
