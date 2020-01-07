@@ -1473,6 +1473,8 @@ document
 "
 :
 INCLUDE_NAME
+|
+NAME_FROM_SUBTREE_RULE
 "
 grouping
 "
