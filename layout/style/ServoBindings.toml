@@ -1921,12 +1921,6 @@ nsCSSPropertyIDSet
 nsCSSProps
 "
 "
-nsCSSRect
-"
-"
-nsCSSRect_heap
-"
-"
 nsCSSShadowArray
 "
 "
@@ -2075,6 +2069,9 @@ nsStylePadding
 "
 "
 nsStylePosition
+"
+"
+nsStyleSides
 "
 "
 nsStyleSVG
@@ -3551,9 +3548,6 @@ nsCSSPropertyID
 nsCSSPropertyIDSet
 "
 "
-nsCSSRect
-"
-"
 nsCSSShadowArray
 "
 "
@@ -3687,6 +3681,9 @@ nsStyleSVGPaint
 "
 "
 nsStyleSVGReset
+"
+"
+nsStyleSides
 "
 "
 nsStyleTable
