@@ -339,9 +339,9 @@ badge
 )
 ;
 await
-PanelUI
+gCUITestUtils
 .
-show
+openMainMenu
 (
 )
 ;
@@ -372,9 +372,9 @@ menu
 )
 ;
 await
-PanelUI
+gCUITestUtils
 .
-hide
+hideMainMenu
 (
 )
 ;
