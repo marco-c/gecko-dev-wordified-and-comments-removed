@@ -2484,10 +2484,7 @@ NS_IsMainThread
 nsresult
 rv
 =
-mLabeledMainThreadTarget
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
