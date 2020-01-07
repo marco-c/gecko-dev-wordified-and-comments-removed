@@ -332,6 +332,7 @@ check_all_feedback_commands_hidden
 (
 NORMAL_PAGE
 )
+;
 }
 )
 ;
@@ -348,6 +349,7 @@ check_all_feedback_commands_hidden
 (
 PHISH_PAGE
 )
+;
 }
 )
 ;
