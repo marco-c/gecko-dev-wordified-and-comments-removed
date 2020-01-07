@@ -259,6 +259,11 @@ ClientPrefs
 cpp
 '
 '
+ClientPrincipalUtils
+.
+cpp
+'
+'
 ClientSource
 .
 cpp
