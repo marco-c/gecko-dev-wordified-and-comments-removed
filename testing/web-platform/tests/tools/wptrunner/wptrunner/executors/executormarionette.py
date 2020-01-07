@@ -500,9 +500,6 @@ delete_session
 send_request
 =
 False
-reset_session_id
-=
-True
 )
         
 except
