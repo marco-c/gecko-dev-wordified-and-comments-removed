@@ -97,16 +97,6 @@ png
 u201cimg
 -
 src
-"
-+
-"
-https
-:
-/
-/
-example
-.
-com
 \
 u201d
 )

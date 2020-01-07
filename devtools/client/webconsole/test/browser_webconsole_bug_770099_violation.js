@@ -97,16 +97,6 @@ png
 u201cdefault
 -
 src
-"
-+
-"
-https
-:
-/
-/
-example
-.
-com
 \
 u201d
 )

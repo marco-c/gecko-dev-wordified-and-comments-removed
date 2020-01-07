@@ -108,13 +108,6 @@ png
 u201cimg
 -
 src
-http
-:
-/
-/
-example
-.
-com
 \
 u201d
 )
@@ -168,13 +161,6 @@ js
 u201cscript
 -
 src
-http
-:
-/
-/
-example
-.
-com
 \
 u201d
 )
