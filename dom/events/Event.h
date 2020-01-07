@@ -156,6 +156,9 @@ class
 TimeEvent
 ;
 class
+UIEvent
+;
+class
 WantsPopupControlCheck
 ;
 class
@@ -476,6 +479,17 @@ virtual
 MouseEvent
 *
 AsMouseEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+UIEvent
+*
+AsUIEvent
 (
 )
 {
