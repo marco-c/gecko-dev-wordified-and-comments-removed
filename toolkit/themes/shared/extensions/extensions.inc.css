@@ -5534,6 +5534,8 @@ primary
 -
 button
 -
+background
+-
 hover
 )
 ;
@@ -5552,6 +5554,8 @@ content
 primary
 -
 button
+-
+background
 -
 hover
 )
@@ -5584,6 +5588,8 @@ primary
 -
 button
 -
+background
+-
 active
 )
 ;
@@ -5602,6 +5608,8 @@ content
 primary
 -
 button
+-
+background
 -
 active
 )
