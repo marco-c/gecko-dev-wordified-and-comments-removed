@@ -5589,11 +5589,6 @@ mode
 "
 icons
 "
-iconsize
-=
-"
-small
-"
 #
 ifdef
 MENUBAR_CAN_AUTOHIDE
@@ -5751,11 +5746,6 @@ mode
 =
 "
 icons
-"
-iconsize
-=
-"
-small
 "
 aria
 -
@@ -6365,11 +6355,6 @@ customizable
 =
 "
 true
-"
-iconsize
-=
-"
-small
 "
 customizationtarget
 =
@@ -9466,11 +9451,6 @@ mode
 =
 "
 icons
-"
-iconsize
-=
-"
-small
 "
 class
 =
