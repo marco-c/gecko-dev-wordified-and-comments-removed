@@ -225,6 +225,17 @@ mHandle
 )
 ;
 }
+if
+(
+mBuffer
+)
+{
+midl_user_free
+(
+mBuffer
+)
+;
+}
 }
 static
 unsigned
