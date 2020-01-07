@@ -127,6 +127,11 @@ enable
 -
 release
 '
+default
+=
+milestone
+.
+is_release_or_beta
 help
 =
 '
