@@ -137,6 +137,13 @@ js
 '
 '
 addon
+-
+console
+.
+js
+'
+'
+addon
 .
 js
 '
