@@ -130,7 +130,7 @@ vec2
 clamp_rect
 (
 vec2
-point
+pt
 RectWithSize
 rect
 )
@@ -138,7 +138,7 @@ rect
 return
 clamp
 (
-point
+pt
 rect
 .
 p0
@@ -2520,7 +2520,7 @@ ray_plane
 vec3
 normal
 vec3
-point
+pt
 vec3
 ray_origin
 vec3
@@ -2554,7 +2554,7 @@ denom
 vec3
 d
 =
-point
+pt
 -
 ray_origin
 ;

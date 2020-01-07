@@ -187,8 +187,18 @@ vLocalPos
 =
 local_pos
 ;
-Line
+/
+/
+Note
+:
 line
+name
+is
+reserved
+in
+HLSL
+Line
+line_prim
 =
 fetch_line
 (
@@ -223,7 +233,7 @@ default
 :
 vColor
 =
-line
+line_prim
 .
 color
 ;
@@ -238,7 +248,7 @@ switch
 (
 int
 (
-line
+line_prim
 .
 orientation
 )
@@ -303,7 +313,7 @@ vStyle
 =
 int
 (
-line
+line_prim
 .
 style
 )
@@ -453,7 +463,7 @@ line_thickness
 =
 max
 (
-line
+line_prim
 .
 wavyLineThickness
 1

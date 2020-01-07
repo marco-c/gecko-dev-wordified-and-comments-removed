@@ -180,7 +180,7 @@ run
 all
 reftests
 run
-.
+script
 /
 headless
 .
@@ -192,7 +192,7 @@ run
 specific
 reftests
 run
-.
+script
 /
 headless
 .

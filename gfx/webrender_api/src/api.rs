@@ -2068,10 +2068,6 @@ EnableRenderTargetDebug
 (
 bool
 )
-EnableAlphaRectsDebug
-(
-bool
-)
 EnableGpuTimeQueries
 (
 bool

@@ -204,7 +204,7 @@ log
 "
 0
 .
-3
+4
 "
 num
 -
@@ -420,7 +420,7 @@ env_logger
 "
 0
 .
-4
+5
 "
 rand
 =
@@ -433,14 +433,12 @@ rand
 for
 the
 benchmarks
-servo
--
 glutin
 =
 "
 0
 .
-14
+12
 "
 #
 for
@@ -562,6 +560,8 @@ version
 =
 "
 9
+.
+2
 .
 0
 "

@@ -1580,7 +1580,7 @@ event
 glutin
 :
 :
-Event
+WindowEvent
 api
 :
 &
@@ -1610,7 +1610,7 @@ event
 glutin
 :
 :
-Event
+WindowEvent
 :
 :
 Touch

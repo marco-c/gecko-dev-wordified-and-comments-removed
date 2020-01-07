@@ -1593,11 +1593,13 @@ core_text
 font
 :
 :
-new_from_CGFont
+new_from_CGFont_with_variations
 (
 &
 cg_var_font
 size
+&
+vals_dict
 )
 }
 }
