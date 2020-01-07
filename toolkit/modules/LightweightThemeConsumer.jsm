@@ -279,8 +279,6 @@ black
 "
 -
 -
-lwt
--
 arrowpanel
 -
 background
@@ -297,8 +295,6 @@ popup
 "
 -
 -
-lwt
--
 arrowpanel
 -
 color
@@ -314,8 +310,6 @@ popup_text
 [
 "
 -
--
-lwt
 -
 arrowpanel
 -
