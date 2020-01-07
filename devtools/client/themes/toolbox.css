@@ -970,6 +970,15 @@ rotate
 )
 ;
 }
+:
+root
+[
+platform
+=
+"
+mac
+"
+]
 #
 toolbox
 -
@@ -977,7 +986,9 @@ controls
 {
 margin
 -
-right
+inline
+-
+end
 :
 3px
 ;
