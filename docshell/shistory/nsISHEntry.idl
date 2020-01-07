@@ -984,7 +984,8 @@ entry
 *
 /
 attribute
-nsISupports
+unsigned
+long
 cacheKey
 ;
 /
@@ -1220,7 +1221,8 @@ in
 nsILayoutHistoryState
 layoutHistoryState
 in
-nsISupports
+unsigned
+long
 cacheKey
 in
 ACString

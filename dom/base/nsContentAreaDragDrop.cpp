@@ -757,7 +757,7 @@ persist
 SavePrivacyAwareURI
 (
 inSourceURI
-nullptr
+0
 nullptr
 mozilla
 :

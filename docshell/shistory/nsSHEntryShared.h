@@ -211,10 +211,7 @@ mPrincipalToInherit
 nsCString
 mContentType
 ;
-nsCOMPtr
-<
-nsISupports
->
+uint32_t
 mCacheKey
 ;
 uint32_t

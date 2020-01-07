@@ -1322,8 +1322,7 @@ nsSHEntry
 :
 GetCacheKey
 (
-nsISupports
-*
+uint32_t
 *
 aResult
 )
@@ -1336,12 +1335,6 @@ mShared
 >
 mCacheKey
 ;
-NS_IF_ADDREF
-(
-*
-aResult
-)
-;
 return
 NS_OK
 ;
@@ -1352,8 +1345,7 @@ nsSHEntry
 :
 SetCacheKey
 (
-nsISupports
-*
+uint32_t
 aCacheKey
 )
 {
@@ -1541,8 +1533,7 @@ aInputStream
 nsILayoutHistoryState
 *
 aLayoutHistoryState
-nsISupports
-*
+uint32_t
 aCacheKey
 const
 nsACString

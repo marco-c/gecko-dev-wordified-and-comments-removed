@@ -768,7 +768,7 @@ wbp
 SaveURI
 (
 imageURI
-nullptr
+0
 docURI
 content
 -

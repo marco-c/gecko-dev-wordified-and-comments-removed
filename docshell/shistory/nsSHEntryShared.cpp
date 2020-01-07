@@ -145,6 +145,10 @@ mDocShellID
 0
 }
 )
+mCacheKey
+(
+0
+)
 mLastTouched
 (
 0

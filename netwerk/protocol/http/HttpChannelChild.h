@@ -909,10 +909,7 @@ override
 ;
 private
 :
-nsCOMPtr
-<
-nsISupports
->
+uint32_t
 mCacheKey
 ;
 nsCOMPtr

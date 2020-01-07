@@ -1464,7 +1464,7 @@ principal
 null
 cacheKey
 :
-null
+0
 }
 )
 {
@@ -1539,6 +1539,9 @@ loadFromCache
 aOptions
 .
 cacheKey
+!
+=
+0
 &
 &
 channel
