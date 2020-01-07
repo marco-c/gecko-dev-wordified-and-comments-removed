@@ -2005,6 +2005,11 @@ case
 ACCESSIBILITY
 "
 :
+case
+"
+APPLICATION
+"
+:
 timerHist
 =
 DEVTOOLS_
