@@ -108,6 +108,15 @@ aDOMCSSDecl
 )
 ;
 static
+void
+NotifyNeedsRepaint
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 bool
 IsStyleMaybeAnimated
 (
