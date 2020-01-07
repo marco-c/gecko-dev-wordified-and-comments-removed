@@ -13005,7 +13005,7 @@ utcTime
 )
 ;
 int
-eqivalentYear
+timeZoneYear
 =
 IsRepresentableAsTime32
 (
@@ -13048,7 +13048,7 @@ buflen
 fmt
 &
 prtm
-eqivalentYear
+timeZoneYear
 offsetInSeconds
 )
 ;
