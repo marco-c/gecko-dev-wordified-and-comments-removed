@@ -108,6 +108,7 @@ dev
 xz
 -
 utils
+jq
 &
 &
 \
