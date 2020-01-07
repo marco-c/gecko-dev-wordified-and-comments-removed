@@ -47,6 +47,18 @@ locales
 "
     
 "
+locales
+"
+:
+[
+"
+en
+-
+US
+"
+]
+    
+"
 bouncer_prefix
 "
 :

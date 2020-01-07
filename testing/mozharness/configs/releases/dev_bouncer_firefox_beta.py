@@ -26,6 +26,18 @@ net
 "
     
 "
+locales
+"
+:
+[
+"
+en
+-
+US
+"
+]
+    
+"
 products
 "
 :
