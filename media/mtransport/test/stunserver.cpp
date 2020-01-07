@@ -26,7 +26,7 @@ h
 #
 include
 "
-databuffer
+mediapacket
 .
 h
 "
@@ -1368,6 +1368,16 @@ server
 )
 buffer_
 (
+)
+sock_
+(
+sock
+)
+{
+buffer_
+.
+Copy
+(
 reinterpret_cast
 <
 const
@@ -1379,11 +1389,7 @@ data
 )
 len
 )
-sock_
-(
-sock
-)
-{
+;
 nr_transport_addr_copy
 (
 &
@@ -1396,7 +1402,7 @@ TestStunServer
 *
 server_
 ;
-DataBuffer
+MediaPacket
 buffer_
 ;
 nr_transport_addr

@@ -94,6 +94,11 @@ dtlsidentity
 cpp
 '
 '
+mediapacket
+.
+cpp
+'
+'
 nr_socket_prsock
 .
 cpp

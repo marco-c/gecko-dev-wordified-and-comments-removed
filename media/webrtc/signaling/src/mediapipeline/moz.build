@@ -225,6 +225,11 @@ RtpLogger
 .
 cpp
 '
+'
+TransportLayerPacketDumper
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
