@@ -303,7 +303,7 @@ build
 &
 unzip
 -
-q
+qo
 -
 d
 jsshell
