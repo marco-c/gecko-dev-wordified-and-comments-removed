@@ -15696,9 +15696,11 @@ return
 WrappableJSErrorResult
 rv
 ;
-RUN_ON_THREAD
-(
 mThread
+-
+>
+Dispatch
+(
 WrapRunnable
 (
 pco
