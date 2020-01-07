@@ -12694,6 +12694,14 @@ the
 number
 1
               
+let
+[
+resolve
+]
+=
+arguments
+;
+              
 setTimeout
 (
 function
@@ -12701,7 +12709,7 @@ function
 )
 {
                 
-marionetteScriptFinished
+resolve
 (
 1
 )

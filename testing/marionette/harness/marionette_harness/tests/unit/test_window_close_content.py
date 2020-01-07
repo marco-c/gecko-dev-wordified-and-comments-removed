@@ -939,7 +939,10 @@ ev
 >
 {
                 
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 true
 )

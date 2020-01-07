@@ -307,6 +307,8 @@ runAsyncCode
 "
 "
           
+/
+/
 let
 url
 =
@@ -316,6 +318,8 @@ arguments
 ]
 ;
           
+/
+/
 let
 title
 =
@@ -323,6 +327,31 @@ arguments
 [
 1
 ]
+;
+          
+/
+/
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
+let
+[
+url
+title
+resolve
+]
+=
+arguments
 ;
           
 PlacesUtils
@@ -352,11 +381,11 @@ then
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 false
 )
-marionetteScriptFinished
+resolve
 )
 ;
         
@@ -400,6 +429,19 @@ runAsyncCode
 "
 "
 "
+          
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
           
 let
 children
@@ -481,11 +523,11 @@ then
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 false
 )
-marionetteScriptFinished
+resolve
 )
 ;
         
@@ -519,6 +561,19 @@ runAsyncCode
 "
 "
 "
+          
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
           
 PlacesUtils
 .
@@ -581,7 +636,7 @@ then
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 false
 )
@@ -589,7 +644,7 @@ false
 ex
 =
 >
-marionetteScriptFinished
+resolve
 (
 "
 Unexpected
@@ -694,6 +749,19 @@ finished
 false
 ;
           
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
 global
 .
 FormHistory
@@ -714,7 +782,7 @@ finished
 true
 ;
               
-marionetteScriptFinished
+resolve
 (
 error
 )
@@ -734,7 +802,7 @@ finished
 )
 {
                 
-marionetteScriptFinished
+resolve
 (
 false
 )
@@ -799,6 +867,19 @@ runAsyncCode
 "
 "
 "
+          
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
           
 const
 TEST_ADDRESS_1
@@ -955,7 +1036,7 @@ TEST_ADDRESS_1
 .
 then
 (
-marionetteScriptFinished
+resolve
 )
 ;
         
@@ -1073,6 +1154,19 @@ runAsyncCode
 "
 "
 "
+          
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
           
 const
 COMPLETE_STATE
@@ -1257,7 +1351,7 @@ this
 )
 ;
                     
-marionetteScriptFinished
+resolve
 (
 )
 ;
@@ -1394,6 +1488,19 @@ runAsyncCode
 "
 "
           
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
 Cu
 .
 import
@@ -1466,7 +1573,7 @@ finalize
 .
 then
 (
-marionetteScriptFinished
+resolve
 )
 ;
         
@@ -1676,12 +1783,12 @@ runAsyncCode
 "
           
 let
+[
 url
+resolve
+]
 =
 arguments
-[
-0
-]
 ;
           
 PlacesUtils
@@ -1701,7 +1808,7 @@ then
 bookmark
 =
 >
-marionetteScriptFinished
+resolve
 (
 bookmark
 ?
@@ -1716,7 +1823,7 @@ title
 ex
 =
 >
-marionetteScriptFinished
+resolve
 (
 ex
 )
@@ -1855,6 +1962,19 @@ runAsyncCode
 "
 "
           
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
 PlacesUtils
 .
 history
@@ -1881,7 +2001,7 @@ pageInfo
 )
 {
               
-marionetteScriptFinished
+resolve
 (
 "
 No
@@ -1895,7 +2015,7 @@ found
 else
 {
               
-marionetteScriptFinished
+resolve
 (
 pageInfo
 )
@@ -1913,7 +2033,7 @@ e
 >
 {
             
-marionetteScriptFinished
+resolve
 (
 "
 Unexpected
@@ -1996,6 +2116,19 @@ runAsyncCode
 "
           
 let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
+let
 results
 =
 [
@@ -2057,7 +2190,7 @@ handleCompletion
 )
 {
               
-marionetteScriptFinished
+resolve
 (
 results
 )
@@ -2169,6 +2302,14 @@ runAsyncCode
 "
           
 let
+[
+resolve
+]
+=
+arguments
+;
+          
+let
 count
 ;
           
@@ -2191,7 +2332,7 @@ handleCompletion
 )
 {
               
-marionetteScriptFinished
+resolve
 (
 count
 )
@@ -2266,6 +2407,19 @@ runAsyncCode
 "
 "
           
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
 return
 global
 .
@@ -2299,7 +2453,7 @@ getAll
 .
 then
 (
-marionetteScriptFinished
+resolve
 )
 ;
         
@@ -2733,6 +2887,18 @@ runAsyncCode
 "
           
 let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+          
+let
 mm
 =
 gBrowser
@@ -2824,7 +2990,7 @@ function
 )
 {
               
-marionetteScriptFinished
+resolve
 (
 [
 .
@@ -3034,6 +3200,19 @@ jsm
 ;
           
 let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
+let
 prefs
 =
 new
@@ -3126,7 +3305,7 @@ username
 )
 ;
             
-marionetteScriptFinished
+resolve
 (
 result
 )
@@ -3142,7 +3321,7 @@ err
 >
 {
             
-marionetteScriptFinished
+resolve
 (
 err
 .

@@ -132,6 +132,14 @@ execute_async_script
 "
 "
               
+let
+[
+resolve
+]
+=
+arguments
+;
+              
 Components
 .
 utils
@@ -184,7 +192,7 @@ id
 )
 ;
                 
-marionetteScriptFinished
+resolve
 (
 ids
 )
@@ -251,6 +259,14 @@ execute_async_script
 "
 "
                   
+let
+[
+resolve
+]
+=
+arguments
+;
+                  
 Components
 .
 utils
@@ -305,7 +321,7 @@ uninstall
 )
 ;
                     
-marionetteScriptFinished
+resolve
 (
 addon
 .

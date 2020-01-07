@@ -107,7 +107,10 @@ marionette
 execute_async_script
 (
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 1
 )
@@ -163,16 +166,17 @@ execute_async_script
 "
 setTimeout
 (
-function
 (
 )
-{
-marionetteScriptFinished
+=
+>
+arguments
+[
+0
+]
 (
 2
 )
-;
-}
 2000
 )
 ;
@@ -196,16 +200,17 @@ execute_async_script
 "
 setTimeout
 (
-function
 (
 )
-{
-marionetteScriptFinished
+=
+>
+arguments
+[
+0
+]
 (
 3
 )
-;
-}
 2000
 )
 ;
@@ -349,7 +354,10 @@ marionette
 execute_async_script
 (
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 window
 !
@@ -434,7 +442,10 @@ execute_async_script
 (
             
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 this
 .
@@ -467,7 +478,10 @@ marionette
 execute_async_script
 (
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 )
 "
@@ -674,7 +688,10 @@ execute_async_script
 "
 "
             
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 true
 )
@@ -736,7 +753,10 @@ interfaces
 nsIPrefBranch
 )
 ;
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 4
 )
@@ -772,7 +792,10 @@ foobar
 "
                                              
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 )
 ;
@@ -791,7 +814,10 @@ execute_async_script
 (
             
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 this
 .
@@ -841,7 +867,25 @@ arguments
 "
                                              
 "
-marionetteScriptFinished
+let
+resolve
+=
+"
+                                                 
+"
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+"
+                                             
+"
+resolve
 (
 )
 ;
@@ -867,7 +911,10 @@ execute_async_script
 (
             
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 this
 .
@@ -994,7 +1041,10 @@ Components
 .
 classes
 ;
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 5
 )

@@ -107,7 +107,10 @@ nsIPermissionManager
 ALLOW_ACTION
 ;
             
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 result
 )
@@ -359,9 +362,13 @@ foo
 =
 1
 ;
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 )
+;
 "
 sandbox
 =
@@ -382,9 +389,13 @@ foo
 =
 2
 ;
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 )
+;
 "
 sandbox
 =
@@ -403,10 +414,14 @@ execute_async_script
 (
             
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 foo
 )
+;
 "
             
 sandbox
@@ -438,10 +453,14 @@ execute_async_script
 (
             
 "
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 foo
 )
+;
 "
             
 sandbox

@@ -360,6 +360,19 @@ execute_async_script
 "
 "
               
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+              
 var
 {
 Sanitizer
@@ -475,7 +488,7 @@ then
 >
 {
                 
-marionetteScriptFinished
+resolve
 (
 true
 )
@@ -487,7 +500,7 @@ aError
 >
 {
                 
-marionetteScriptFinished
+resolve
 (
 false
 )
