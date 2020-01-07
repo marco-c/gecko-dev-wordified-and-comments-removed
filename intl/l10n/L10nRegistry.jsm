@@ -33,7 +33,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -45,7 +45,7 @@ modules
 Services
 .
 jsm
-'
+"
 {
 }
 )
@@ -76,9 +76,7 @@ jsm
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -411,8 +409,8 @@ sourcesOrder
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 const
@@ -422,8 +420,8 @@ resourceIds
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 return
@@ -655,6 +653,7 @@ other
 }
 }
 }
+;
 function
 generateContext
 (
@@ -1097,7 +1096,6 @@ fullPath
 }
 }
 else
-{
 if
 (
 this
@@ -1124,7 +1122,6 @@ fullPath
 "
 )
 ;
-}
 }
 return
 this
@@ -1276,6 +1273,7 @@ response
 text
 (
 )
+;
 }
 )
 ;
@@ -1304,14 +1302,14 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 L10nRegistry
-'
-'
+"
+"
 FileSource
-'
-'
+"
+"
 IndexedFileSource
-'
+"
 ]
 ;
