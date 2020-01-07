@@ -20829,11 +20829,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 UsbDevice
 '
 kVersion

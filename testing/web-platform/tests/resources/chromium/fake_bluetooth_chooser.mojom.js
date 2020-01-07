@@ -4651,11 +4651,9 @@ name
 :
 '
 content
-:
-:
+.
 mojom
-:
-:
+.
 FakeBluetoothChooser
 '
 kVersion

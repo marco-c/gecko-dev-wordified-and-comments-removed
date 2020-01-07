@@ -1363,11 +1363,9 @@ name
 :
 '
 content
-:
-:
+.
 mojom
-:
-:
+.
 MojoLayoutTestHelper
 '
 kVersion
