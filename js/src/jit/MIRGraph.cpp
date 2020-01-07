@@ -2680,12 +2680,6 @@ firstStackSlot
 (
 )
 )
-id_
-{
-}
-domIndex_
-{
-}
 numDominated_
 (
 0
@@ -2767,12 +2761,6 @@ if
 defined
 (
 JS_ION_PERF
-)
-|
-|
-defined
-(
-DEBUG
 )
 lineno_
 (

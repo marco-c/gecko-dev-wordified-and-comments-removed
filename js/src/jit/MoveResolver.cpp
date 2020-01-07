@@ -58,10 +58,6 @@ ABIArg
 &
 arg
 )
-:
-disp_
-{
-}
 {
 switch
 (

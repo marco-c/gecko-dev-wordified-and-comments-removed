@@ -1606,10 +1606,6 @@ lineno
 (
 lineno
 )
-lineHeader
-{
-false
-}
 {
 }
 void

@@ -216,15 +216,6 @@ DtoaCache
 (
 )
 :
-d
-{
-0
-.
-0
-}
-base
-{
-}
 s
 (
 nullptr
@@ -1984,11 +1975,6 @@ JSCompartment
 *
 target
 )
-:
-filter
-{
-nullptr
-}
 {
 auto
 p

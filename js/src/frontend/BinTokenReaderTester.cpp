@@ -84,10 +84,6 @@ cx_
 (
 cx
 )
-poisoned_
-{
-false
-}
 start_
 (
 start
@@ -129,10 +125,6 @@ cx_
 (
 cx
 )
-poisoned_
-{
-false
-}
 start_
 (
 chars
@@ -1688,10 +1680,6 @@ BinTokenReaderTester
 reader
 )
 :
-initialized_
-{
-false
-}
 reader_
 (
 reader
@@ -1786,10 +1774,6 @@ AutoBase
 (
 reader
 )
-expectedEnd_
-{
-nullptr
-}
 {
 }
 void

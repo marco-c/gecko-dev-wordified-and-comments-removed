@@ -7228,10 +7228,6 @@ recursion_depth_
 (
 0
 )
-macro_assembler_
-{
-nullptr
-}
 ignore_case_
 (
 ignore_case

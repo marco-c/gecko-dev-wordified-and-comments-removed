@@ -5548,10 +5548,6 @@ s_
 (
 cx
 )
-twoByteChars_
-{
-nullptr
-}
 state_
 (
 Uninitialized

@@ -2628,12 +2628,6 @@ cx_
 (
 cx
 )
-zealBits_
-{
-}
-frequency_
-{
-}
 {
 uint32_t
 dummy

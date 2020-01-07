@@ -1171,11 +1171,6 @@ public
 ConstantOrRegister
 (
 )
-:
-constant_
-{
-false
-}
 {
 }
 MOZ_IMPLICIT

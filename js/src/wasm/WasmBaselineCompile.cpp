@@ -3684,16 +3684,6 @@ reservedSize_
 (
 localSize_
 )
-frameOffset_
-{
-}
-mirType_
-{
-MIRType
-:
-:
-Undefined
-}
 done_
 (
 false

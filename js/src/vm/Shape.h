@@ -6912,10 +6912,6 @@ parent
 (
 nullptr
 )
-listp
-{
-nullptr
-}
 {
 #
 ifdef
@@ -7079,10 +7075,6 @@ parent
 (
 nullptr
 )
-listp
-{
-nullptr
-}
 {
 MOZ_ASSERT
 (

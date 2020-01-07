@@ -646,12 +646,6 @@ data_
 (
 nullptr
 )
-size_
-{
-}
-capacity_
-{
-}
 {
 }
 bool

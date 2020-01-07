@@ -908,10 +908,6 @@ scriptNeedsArgsObj_
 (
 false
 )
-hadOverflowBailout_
-{
-false
-}
 mayReadFrameArgsDirectly_
 (
 false

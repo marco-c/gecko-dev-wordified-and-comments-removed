@@ -2206,10 +2206,6 @@ executed
 (
 false
 )
-prev
-{
-nullptr
-}
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
@@ -2271,10 +2267,6 @@ executed
 (
 false
 )
-prev
-{
-nullptr
-}
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;

@@ -7759,9 +7759,6 @@ tryStart_
 (
 0
 )
-tryEnd_
-{
-}
 state_
 (
 Start
@@ -9966,9 +9963,6 @@ emitterMode
 (
 emitterMode
 )
-functionBodyEndPos
-{
-}
 functionBodyEndPosSet
 (
 false
