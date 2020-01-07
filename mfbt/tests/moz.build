@@ -228,6 +228,9 @@ TestSmallPointerArray
 TestSplayTree
 '
 '
+TestSPSCQueue
+'
+'
 TestTemplateLib
 '
 '
