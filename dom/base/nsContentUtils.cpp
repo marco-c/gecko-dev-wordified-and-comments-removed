@@ -17997,6 +17997,13 @@ AsyncPrecreateStringBundles
 (
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 for
 (
 uint32_t
