@@ -5480,12 +5480,7 @@ nullptr
 ;
 if
 (
-document
--
->
-IsStyledByServo
-(
-)
+false
 )
 {
 nsCOMPtr
