@@ -1203,7 +1203,6 @@ CopyBuffer
 }
 }
 }
-}
 else
 {
 gfxWarning
@@ -1230,6 +1229,7 @@ draw
 target
 "
 ;
+}
 }
 }
 else
