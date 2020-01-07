@@ -106,12 +106,7 @@ SOURCES
 =
 [
 '
-LibFuzzerRegistry
-.
-cpp
-'
-'
-LibFuzzerRunner
+FuzzerRunner
 .
 cpp
 '
@@ -121,12 +116,7 @@ EXPORTS
 =
 [
 '
-LibFuzzerRegistry
-.
-h
-'
-'
-LibFuzzerRunner
+FuzzerRunner
 .
 h
 '

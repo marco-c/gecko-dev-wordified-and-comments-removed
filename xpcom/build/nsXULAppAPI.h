@@ -811,7 +811,7 @@ LIBFUZZER
 #
 include
 "
-LibFuzzerRegistry
+FuzzerRegistry
 .
 h
 "

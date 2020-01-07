@@ -19,13 +19,6 @@ FuzzingInterface
 .
 h
 "
-#
-include
-"
-LibFuzzerRegistry
-.
-h
-"
 extern
 "
 C
