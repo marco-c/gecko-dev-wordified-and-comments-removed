@@ -11626,6 +11626,17 @@ MIRGraph
 graph
 )
 {
+if
+(
+graph
+.
+hasTryBlock
+(
+)
+)
+return
+true
+;
 MDefinitionVector
 worklist
 (
