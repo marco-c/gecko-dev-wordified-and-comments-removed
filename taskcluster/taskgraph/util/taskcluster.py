@@ -317,7 +317,7 @@ yml
 return
 yaml
 .
-load
+safe_load
 (
 response
 .

@@ -137,7 +137,7 @@ cron_yml
 =
 yaml
 .
-load
+safe_load
 (
 f
 )
