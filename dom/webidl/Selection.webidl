@@ -606,7 +606,6 @@ wrapColumn
 ;
 [
 ChromeOnly
-Throws
 ]
 void
 addSelectionListener
@@ -617,7 +616,6 @@ newListener
 ;
 [
 ChromeOnly
-Throws
 ]
 void
 removeSelectionListener

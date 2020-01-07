@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsISelectionPrivate
+mozilla
+/
+Attributes
 .
 h
 "
@@ -23,7 +25,9 @@ include
 "
 mozilla
 /
-Attributes
+dom
+/
+Selection
 .
 h
 "
@@ -54,7 +58,13 @@ aClipboardID
 void
 Listen
 (
-nsISelectionPrivate
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSelection
 )
