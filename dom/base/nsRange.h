@@ -898,6 +898,8 @@ InspectorFontFace
 >
 &
 aResult
+uint32_t
+aMaxRanges
 )
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED

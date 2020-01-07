@@ -596,6 +596,8 @@ aGlobal
 nsRange
 &
 aRange
+uint32_t
+aMaxRanges
 nsTArray
 <
 nsAutoPtr

@@ -5037,6 +5037,8 @@ aFrame
 UsedFontFaceTable
 &
 aResult
+uint32_t
+aMaxRanges
 )
 ;
 static
@@ -5055,6 +5057,8 @@ aFollowContinuations
 UsedFontFaceTable
 &
 aResult
+uint32_t
+aMaxRanges
 )
 ;
 static
