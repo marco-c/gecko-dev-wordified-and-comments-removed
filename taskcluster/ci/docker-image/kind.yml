@@ -214,6 +214,10 @@ git
 -
 deb7
 -
+make
+-
+deb7
+-
 mercurial
 -
 deb7
@@ -246,6 +250,10 @@ packages
 deb7
 -
 git
+-
+deb7
+-
+make
 -
 deb7
 -
@@ -288,6 +296,10 @@ packages
 deb7
 -
 git
+-
+deb7
+-
+make
 -
 deb7
 -
