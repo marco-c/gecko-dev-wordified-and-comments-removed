@@ -3907,13 +3907,7 @@ MediaKeySystemMediaCapability
 }
 }
 return
-std
-:
-:
-move
-(
 supportedCapabilities
-)
 ;
 }
 static

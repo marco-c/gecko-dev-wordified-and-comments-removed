@@ -5676,13 +5676,7 @@ blocker
 )
 ;
 return
-std
-:
-:
-move
-(
 client
-)
 ;
 }
 #

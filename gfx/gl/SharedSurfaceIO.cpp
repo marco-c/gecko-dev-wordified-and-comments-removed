@@ -135,13 +135,7 @@ hasAlpha
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 void
@@ -1000,13 +994,7 @@ maxDims
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 UniquePtr

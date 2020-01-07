@@ -134,13 +134,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-move
-(
 clone
-)
 ;
 }
 #

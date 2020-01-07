@@ -692,13 +692,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-move
-(
 mozFB
-)
 ;
 }
 MozFramebuffer

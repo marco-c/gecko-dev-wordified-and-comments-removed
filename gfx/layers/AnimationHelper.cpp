@@ -612,17 +612,11 @@ move
 (
 aTransformInDevSpace
 )
-std
-:
-:
-move
-(
 gfx
 :
 :
 Matrix4x4
 (
-)
 )
 dontCare
 )
@@ -3473,11 +3467,6 @@ fillMode
 (
 )
 )
-std
-:
-:
-move
-(
 AnimationUtils
 :
 :
@@ -3487,7 +3476,6 @@ animation
 .
 easingFunction
 (
-)
 )
 )
 }

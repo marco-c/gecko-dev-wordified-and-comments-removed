@@ -4772,16 +4772,10 @@ IsEmpty
 )
 ;
 return
-std
-:
-:
-move
-(
 mGMPContentParent
 .
 forget
 (
-)
 )
 ;
 }

@@ -9741,11 +9741,6 @@ GetRoot
 {
 props
 =
-std
-:
-:
-move
-(
 LayerProperties
 :
 :
@@ -9756,7 +9751,6 @@ aManager
 >
 GetRoot
 (
-)
 )
 )
 ;

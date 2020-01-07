@@ -925,13 +925,7 @@ newContent
 )
 ;
 return
-std
-:
-:
-move
-(
 newContent
-)
 ;
 }
 void

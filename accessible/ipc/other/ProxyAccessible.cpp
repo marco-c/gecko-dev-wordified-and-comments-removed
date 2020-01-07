@@ -401,13 +401,7 @@ proxy
 )
 ;
 return
-std
-:
-:
-move
-(
 targets
-)
 ;
 }
 void

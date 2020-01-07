@@ -12557,16 +12557,10 @@ mDisabledTracks
 .
 AppendElement
 (
-std
-:
-:
-move
-(
 DisabledTrack
 (
 aTrackID
 aMode
-)
 )
 )
 ;

@@ -5953,11 +5953,6 @@ timelines
 AddMarkerForDocShell
 (
 docShell
-std
-:
-:
-move
-(
 MakeUnique
 <
 EventTimelineMarker
@@ -5969,7 +5964,6 @@ MarkerTracingType
 :
 :
 START
-)
 )
 )
 ;

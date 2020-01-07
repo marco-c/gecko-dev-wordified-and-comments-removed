@@ -6498,13 +6498,7 @@ return
 nullptr
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 UniquePtr
@@ -8039,13 +8033,7 @@ RGB16F
 ;
 }
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 void

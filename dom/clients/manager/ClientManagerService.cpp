@@ -1857,11 +1857,6 @@ source
 >
 StartOp
 (
-std
-:
-:
-move
-(
 ClientGetInfoAndStateArgs
 (
 source
@@ -1883,7 +1878,6 @@ Info
 .
 PrincipalInfo
 (
-)
 )
 )
 )

@@ -9726,16 +9726,10 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-std
-:
-:
-move
-(
 task
 .
 forget
 (
-)
 )
 )
 ;

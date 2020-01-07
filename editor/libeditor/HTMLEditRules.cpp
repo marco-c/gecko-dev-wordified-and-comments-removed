@@ -28701,11 +28701,6 @@ PropItem
 >
 item
 =
-std
-:
-:
-move
-(
 HTMLEditorRef
 (
 )
@@ -28715,7 +28710,6 @@ mTypeInState
 >
 TakeClearProperty
 (
-)
 )
 ;
 {
@@ -28796,11 +28790,6 @@ rv
 }
 item
 =
-std
-:
-:
-move
-(
 HTMLEditorRef
 (
 )
@@ -28810,7 +28799,6 @@ mTypeInState
 >
 TakeClearProperty
 (
-)
 )
 ;
 weDidSomething
@@ -28835,11 +28823,6 @@ TakeRelativeFontSize
 ;
 item
 =
-std
-:
-:
-move
-(
 HTMLEditorRef
 (
 )
@@ -28849,7 +28832,6 @@ mTypeInState
 >
 TakeSetProperty
 (
-)
 )
 ;
 if

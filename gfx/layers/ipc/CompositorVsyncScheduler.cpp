@@ -695,16 +695,10 @@ Loop
 >
 PostDelayedTask
 (
-std
-:
-:
-move
-(
 task
 .
 forget
 (
-)
 )
 0
 )

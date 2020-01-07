@@ -111,11 +111,6 @@ timelines
 AddMarkerForDocShell
 (
 mDocShell
-std
-:
-:
-move
-(
 MakeUnique
 <
 RestyleTimelineMarker
@@ -126,7 +121,6 @@ MarkerTracingType
 :
 :
 START
-)
 )
 )
 ;
@@ -193,11 +187,6 @@ timelines
 AddMarkerForDocShell
 (
 mDocShell
-std
-:
-:
-move
-(
 MakeUnique
 <
 RestyleTimelineMarker
@@ -208,7 +197,6 @@ MarkerTracingType
 :
 :
 END
-)
 )
 )
 ;

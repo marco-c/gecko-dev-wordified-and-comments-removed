@@ -27969,13 +27969,7 @@ length
 nullptr
 ;
 return
-std
-:
-:
-move
-(
 ffiType
-)
 ;
 }
 bool
@@ -30913,13 +30907,7 @@ structAlign
 #
 endif
 return
-std
-:
-:
-move
-(
 ffiType
-)
 ;
 }
 bool

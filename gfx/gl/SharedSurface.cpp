@@ -1673,15 +1673,9 @@ SharedSurface
 >
 surf
 =
-std
-:
-:
-move
-(
 CreateShared
 (
 size
-)
 )
 ;
 if

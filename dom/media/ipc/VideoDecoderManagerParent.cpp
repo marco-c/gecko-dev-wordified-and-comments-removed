@@ -219,13 +219,7 @@ handle
 aTexture
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 StaticRefPtr

@@ -810,11 +810,6 @@ mDirEntry
 {
 mReturnIterator
 =
-std
-:
-:
-move
-(
 mLexer
 .
 Clone
@@ -822,7 +817,6 @@ Clone
 *
 mIterator
 SIZE_MAX
-)
 )
 ;
 if
@@ -890,11 +884,6 @@ RemoveElementAt
 ;
 mIterator
 =
-std
-:
-:
-move
-(
 mLexer
 .
 Clone
@@ -902,7 +891,6 @@ Clone
 *
 mReturnIterator
 SIZE_MAX
-)
 )
 ;
 if
