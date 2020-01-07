@@ -277,6 +277,9 @@ mozilla
 :
 DOMEventTargetHelper
 *
+bool
+*
+aDoneOut
 )
 >
 &
