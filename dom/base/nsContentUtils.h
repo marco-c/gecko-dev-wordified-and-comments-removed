@@ -372,9 +372,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMHTMLInputElement
-;
-class
 nsIDOMNode
 ;
 class
@@ -568,6 +565,9 @@ Element
 ;
 class
 EventTarget
+;
+class
+HTMLInputElement
 ;
 class
 IPCDataTransfer
@@ -5129,7 +5129,13 @@ static
 bool
 IsAutocompleteEnabled
 (
-nsIDOMHTMLInputElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLInputElement
 *
 aInput
 )
