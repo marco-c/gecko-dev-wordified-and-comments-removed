@@ -182,7 +182,7 @@ value
 must
 be
 a
-nsIDOMBlob
+Blob
 if
 picture
 is

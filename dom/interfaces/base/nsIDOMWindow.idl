@@ -102,9 +102,6 @@ interface
 nsIControllers
 ;
 interface
-nsIDOMBlob
-;
-interface
 nsIDOMOfflineResourceList
 ;
 interface

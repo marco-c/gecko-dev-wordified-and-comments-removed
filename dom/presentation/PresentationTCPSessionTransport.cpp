@@ -1781,7 +1781,7 @@ PresentationTCPSessionTransport
 :
 SendBlob
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 )

@@ -64,13 +64,13 @@ nsISupports
 idl
 "
 interface
-nsIDOMBlob
-;
-interface
 nsIInputStream
 ;
 interface
 nsINetAddr
+;
+webidl
+Blob
 ;
 %
 {
@@ -346,7 +346,7 @@ void
 sendBlob
 (
 in
-nsIDOMBlob
+Blob
 blob
 )
 ;

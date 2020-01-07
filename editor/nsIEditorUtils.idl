@@ -106,10 +106,10 @@ domstubs
 idl
 "
 interface
-nsIDOMBlob
-;
-interface
 mozIDOMWindowProxy
+;
+webidl
+Blob
 ;
 [
 scriptable
@@ -215,7 +215,7 @@ void
 slurpBlob
 (
 in
-nsIDOMBlob
+Blob
 aBlob
 in
 mozIDOMWindowProxy

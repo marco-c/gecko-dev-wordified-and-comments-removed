@@ -157,7 +157,7 @@ PresentationContentSessionInfo
 :
 SendBlob
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 )

@@ -404,9 +404,7 @@ if
 (
 a
 instanceof
-Ci
-.
-nsIDOMBlob
+Blob
 )
 return
 '

@@ -219,7 +219,7 @@ PresentationSessionTransportIPC
 :
 SendBlob
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 )

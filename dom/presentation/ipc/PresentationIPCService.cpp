@@ -558,7 +558,7 @@ nsAString
 aSessionId
 uint8_t
 aRole
-nsIDOMBlob
+Blob
 *
 aBlob
 )

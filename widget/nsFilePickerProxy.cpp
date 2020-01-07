@@ -885,10 +885,12 @@ IsFile
 {
 nsCOMPtr
 <
-nsIDOMBlob
+nsISupports
 >
 blob
 =
+ToSupports
+(
 mFilesOrDirectories
 [
 0
@@ -897,9 +899,6 @@ mFilesOrDirectories
 GetAsFile
 (
 )
-.
-get
-(
 )
 ;
 blob
@@ -1057,10 +1056,12 @@ IsFile
 {
 nsCOMPtr
 <
-nsIDOMBlob
+nsISupports
 >
 blob
 =
+ToSupports
+(
 mFilesOrDirectories
 [
 index
@@ -1069,9 +1070,6 @@ index
 GetAsFile
 (
 )
-.
-get
-(
 )
 ;
 blob

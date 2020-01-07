@@ -64,9 +64,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMBlob
-;
-interface
 nsIInputStream
 ;
 interface
@@ -83,6 +80,9 @@ nsIPresentationTransportBuilderConstructor
 ;
 interface
 nsIPrincipal
+;
+webidl
+Blob
 ;
 webidl
 EventTarget
@@ -743,7 +743,7 @@ in
 uint8_t
 role
 in
-nsIDOMBlob
+Blob
 blob
 )
 ;
