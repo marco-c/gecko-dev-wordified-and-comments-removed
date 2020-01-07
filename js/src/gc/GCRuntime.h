@@ -1933,6 +1933,11 @@ session
 )
 ;
 void
+purgeRuntimeForMinorGC
+(
+)
+;
+void
 shrinkBuffers
 (
 )
