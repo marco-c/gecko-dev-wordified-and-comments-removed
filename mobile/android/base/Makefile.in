@@ -412,6 +412,11 @@ features
 call
 py_action
 generate_builtin_addons
+-
+-
+features
+=
+features
 chrome
 /
 chrome
