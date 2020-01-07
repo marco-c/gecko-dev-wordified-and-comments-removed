@@ -204,6 +204,13 @@ h
 #
 include
 "
+nss
+.
+h
+"
+#
+include
+"
 js
 /
 Date
@@ -1606,6 +1613,11 @@ clamped
 if
 (
 sJitter
+&
+&
+NSS_IsInitialized
+(
+)
 )
 {
 if
