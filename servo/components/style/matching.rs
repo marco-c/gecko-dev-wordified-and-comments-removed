@@ -1387,7 +1387,7 @@ old_values
 .
 flags
 .
-inherited
+maybe_inherited
 (
 )
 !
@@ -1396,7 +1396,7 @@ new_values
 .
 flags
 .
-inherited
+maybe_inherited
 (
 )
 {
