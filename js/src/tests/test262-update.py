@@ -57,14 +57,16 @@ BigInt
 class
 -
 fields
+-
+public
 "
                             
 "
-optional
+class
 -
-catch
+fields
 -
-binding
+private
 "
                             
 "
