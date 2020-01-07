@@ -728,6 +728,11 @@ flags
 "
 APPLIES_TO_FIRST_LETTER
 "
+enabled_in
+=
+"
+chrome
+"
 ignored_when_colors_disabled
 =
 "
