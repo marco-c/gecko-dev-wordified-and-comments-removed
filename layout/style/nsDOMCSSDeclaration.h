@@ -121,12 +121,6 @@ override
 =
 0
 ;
-using
-nsICSSDeclaration
-:
-:
-GetLength
-;
 virtual
 nsresult
 GetPropertyValue
@@ -275,12 +269,9 @@ aSubjectPrincipal
 )
 override
 ;
-NS_IMETHOD
-GetLength
-(
 uint32_t
-*
-aLength
+Length
+(
 )
 override
 ;
