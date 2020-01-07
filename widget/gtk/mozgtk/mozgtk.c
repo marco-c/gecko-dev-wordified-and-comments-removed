@@ -939,6 +939,10 @@ gtk_frame_new
 )
 STUB
 (
+gtk_get_current_event_time
+)
+STUB
+(
 gtk_grab_add
 )
 STUB
