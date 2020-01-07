@@ -234,6 +234,11 @@ LocaleService
 h
 '
 '
+MozLocale
+.
+h
+'
+'
 OSPreferences
 .
 h
@@ -250,6 +255,11 @@ cpp
 '
 '
 LocaleService
+.
+cpp
+'
+'
+MozLocale
 .
 cpp
 '
