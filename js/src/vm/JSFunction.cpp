@@ -8220,6 +8220,7 @@ RootedScriptSourceObject
 sourceObject
 (
 cx
+&
 lazy
 -
 >

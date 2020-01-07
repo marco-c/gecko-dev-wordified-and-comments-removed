@@ -8525,6 +8525,9 @@ LazyScript
 JSFunction
 *
 fun
+ScriptSourceObject
+&
+sourceObject
 void
 *
 table
@@ -8552,6 +8555,8 @@ JSContext
 cx
 HandleFunction
 fun
+HandleScriptSourceObject
+sourceObject
 uint64_t
 packedData
 uint32_t
@@ -8598,6 +8603,8 @@ JSContext
 cx
 HandleFunction
 fun
+HandleScriptSourceObject
+sourceObject
 const
 frontend
 :
@@ -8755,7 +8762,7 @@ enclosingScope_
 ;
 }
 ScriptSourceObject
-*
+&
 sourceObject
 (
 )
@@ -8772,8 +8779,7 @@ return
 sourceObject
 (
 )
--
->
+.
 source
 (
 )
@@ -8804,14 +8810,11 @@ mutedErrors
 ;
 }
 void
-setEnclosingScopeAndSource
+setEnclosingScope
 (
 Scope
 *
 enclosingScope
-ScriptSourceObject
-*
-sourceObject
 )
 ;
 uint32_t
@@ -9407,7 +9410,7 @@ const
 {
 return
 !
-sourceObject_
+enclosingScope_
 ;
 }
 friend

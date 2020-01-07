@@ -397,6 +397,7 @@ class
 AutoAwaitIsKeyword
 ;
 class
+MOZ_STACK_CLASS
 ParserBase
 :
 public
@@ -476,6 +477,9 @@ ScriptSource
 *
 ss
 ;
+RootedScriptSourceObject
+sourceObject
+;
 AutoKeepAtoms
 keepAtoms
 ;
@@ -548,6 +552,9 @@ foldConstants
 UsedNameTracker
 &
 usedNames
+ScriptSourceObject
+*
+sourceObject
 )
 ;
 ~
@@ -1233,6 +1240,7 @@ class
 ParseHandler
 >
 class
+MOZ_STACK_CLASS
 PerHandlerParser
 :
 public
@@ -1280,6 +1288,9 @@ usedNames
 LazyScript
 *
 lazyOuterFunction
+ScriptSourceObject
+*
+sourceObject
 )
 ;
 static
@@ -1821,6 +1832,7 @@ typename
 CharT
 >
 class
+MOZ_STACK_CLASS
 GeneralParser
 :
 public
@@ -2522,6 +2534,9 @@ syntaxParser
 LazyScript
 *
 lazyOuterFunction
+ScriptSourceObject
+*
+sourceObject
 )
 ;
 inline
@@ -4111,6 +4126,7 @@ typename
 CharT
 >
 class
+MOZ_STACK_CLASS
 Parser
 <
 SyntaxParseHandler
@@ -4568,6 +4584,7 @@ typename
 CharT
 >
 class
+MOZ_STACK_CLASS
 Parser
 <
 FullParseHandler
