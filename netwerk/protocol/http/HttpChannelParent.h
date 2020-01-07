@@ -543,10 +543,6 @@ uint32_t
 &
 aRedirectMode
 const
-uint32_t
-&
-aFetchCacheMode
-const
 uint64_t
 &
 aChannelId
@@ -1073,10 +1069,7 @@ nsIAssociatedContentSecurity
 >
 mAssociatedContentSecurity
 ;
-Atomic
-<
 bool
->
 mIPCClosed
 ;
 nsCOMPtr

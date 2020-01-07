@@ -908,11 +908,6 @@ redirectMode
 )
 a
 .
-fetchCacheMode
-(
-)
-a
-.
 channelId
 (
 )
@@ -2350,10 +2345,6 @@ uint32_t
 &
 aRedirectMode
 const
-uint32_t
-&
-aFetchCacheMode
-const
 uint64_t
 &
 aChannelId
@@ -2682,14 +2673,6 @@ httpChannel
 SetRedirectMode
 (
 aRedirectMode
-)
-;
-httpChannel
--
->
-SetFetchCacheMode
-(
-aFetchCacheMode
 )
 ;
 httpChannel

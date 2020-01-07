@@ -11409,14 +11409,6 @@ mRedirectMode
 ;
 openArgs
 .
-fetchCacheMode
-(
-)
-=
-mFetchCacheMode
-;
-openArgs
-.
 channelId
 (
 )

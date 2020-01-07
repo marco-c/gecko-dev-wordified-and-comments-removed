@@ -2911,9 +2911,6 @@ mCorsMode
 uint32_t
 mRedirectMode
 ;
-uint32_t
-mFetchCacheMode
-;
 bool
 mOnStartRequestCalled
 ;
