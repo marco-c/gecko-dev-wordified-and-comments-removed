@@ -119,6 +119,9 @@ nsISelection
 webidl
 Element
 ;
+webidl
+Node
+;
 [
 scriptable
 builtinclass
@@ -2372,14 +2375,14 @@ macro
 )
 *
 /
-nsIDOMElement
+Element
 getElementOrParentByTagName
 (
 in
 AString
 aTagName
 in
-nsIDOMNode
+Node
 aNode
 )
 ;
