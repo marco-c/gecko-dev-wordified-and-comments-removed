@@ -6992,7 +6992,7 @@ intentHasURL
 &
 AboutPages
 .
-isAboutHome
+isDefaultHomePage
 (
 passedUri
 )
