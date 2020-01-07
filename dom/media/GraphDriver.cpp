@@ -1180,6 +1180,14 @@ Start
 (
 )
 {
+MOZ_ASSERT
+(
+!
+ThreadRunning
+(
+)
+)
+;
 LOG
 (
 LogLevel
@@ -1208,12 +1216,12 @@ NS_WARN_IF
 mThread
 )
 ;
-if
+MOZ_ASSERT
 (
 !
 mThread
 )
-{
+;
 nsCOMPtr
 <
 nsIRunnable
@@ -1266,7 +1274,6 @@ forget
 NS_DISPATCH_NORMAL
 )
 ;
-}
 }
 }
 void
