@@ -1,13 +1,6 @@
 #
 include
 "
-nsHostObjectURI
-.
-h
-"
-#
-include
-"
 nsIObjectInputStream
 .
 h
@@ -16,6 +9,17 @@ h
 include
 "
 nsIObjectOutputStream
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+BlobURL
 .
 h
 "
@@ -52,6 +56,13 @@ URIUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 NS_DEFINE_CID
 (
@@ -68,7 +79,7 @@ NS_THIS_SIMPLEURI_IMPLEMENTATION_CID
 ;
 NS_IMPL_ADDREF_INHERITED
 (
-nsHostObjectURI
+BlobURL
 mozilla
 :
 :
@@ -79,7 +90,7 @@ nsSimpleURI
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsHostObjectURI
+BlobURL
 mozilla
 :
 :
@@ -90,7 +101,7 @@ nsSimpleURI
 )
 NS_INTERFACE_MAP_BEGIN
 (
-nsHostObjectURI
+BlobURL
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -148,7 +159,7 @@ net
 nsSimpleURI
 )
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetPrincipal
@@ -190,7 +201,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetPrincipalUri
@@ -228,7 +239,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 Read
@@ -256,7 +267,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 nsresult
-nsHostObjectURI
+BlobURL
 :
 :
 ReadPrivate
@@ -346,7 +357,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 Write
@@ -405,7 +416,7 @@ true
 ;
 }
 void
-nsHostObjectURI
+BlobURL
 :
 :
 Serialize
@@ -531,7 +542,7 @@ hostParams
 ;
 }
 bool
-nsHostObjectURI
+BlobURL
 :
 :
 Deserialize
@@ -697,7 +708,7 @@ true
 ;
 }
 nsresult
-nsHostObjectURI
+BlobURL
 :
 :
 SetScheme
@@ -713,7 +724,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsHostObjectURI
+BlobURL
 :
 :
 CloneInternal
@@ -778,7 +789,7 @@ ifdef
 DEBUG
 RefPtr
 <
-nsHostObjectURI
+BlobURL
 >
 uriCheck
 ;
@@ -809,13 +820,13 @@ uriCheck
 ;
 #
 endif
-nsHostObjectURI
+BlobURL
 *
 u
 =
 static_cast
 <
-nsHostObjectURI
+BlobURL
 *
 >
 (
@@ -845,7 +856,7 @@ NS_OK
 ;
 }
 nsresult
-nsHostObjectURI
+BlobURL
 :
 :
 EqualsInternal
@@ -886,7 +897,7 @@ NS_OK
 }
 RefPtr
 <
-nsHostObjectURI
+BlobURL
 >
 otherUri
 ;
@@ -991,7 +1002,7 @@ NS_OK
 }
 NS_IMPL_NSIURIMUTATOR_ISUPPORTS
 (
-nsHostObjectURI
+BlobURL
 :
 :
 Mutator
@@ -1001,7 +1012,7 @@ nsIPrincipalURIMutator
 nsISerializable
 )
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 Mutate
@@ -1014,7 +1025,7 @@ aMutator
 {
 RefPtr
 <
-nsHostObjectURI
+BlobURL
 :
 :
 Mutator
@@ -1022,7 +1033,7 @@ Mutator
 mutator
 =
 new
-nsHostObjectURI
+BlobURL
 :
 :
 Mutator
@@ -1064,7 +1075,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetInterfaces
@@ -1094,7 +1105,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetScriptableHelper
@@ -1115,7 +1126,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetContractID
@@ -1137,7 +1148,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetClassDescription
@@ -1159,7 +1170,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetClassID
@@ -1201,7 +1212,7 @@ aClassID
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetFlags
@@ -1224,7 +1235,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHostObjectURI
+BlobURL
 :
 :
 GetClassIDNoAlloc
