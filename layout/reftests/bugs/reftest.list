@@ -34037,10 +34037,14 @@ moz
 -
 document
 .
-content
+url
+-
+prefix
+-
+hack
 .
 enabled
-false
+true
 )
 fails
 -
