@@ -93,12 +93,12 @@ NotSupported
 )
 ;
 let
-expectNotAllowedError
+expectInvalidStateError
 =
 expectError
 (
 "
-NotAllowed
+InvalidState
 "
 )
 ;
@@ -706,7 +706,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectNotAllowedError
+expectInvalidStateError
 )
 ;
 await
@@ -764,7 +764,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectNotAllowedError
+expectInvalidStateError
 )
 ;
 let

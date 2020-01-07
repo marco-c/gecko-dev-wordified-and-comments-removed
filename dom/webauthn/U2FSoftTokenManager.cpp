@@ -2904,7 +2904,7 @@ U2FRegisterPromise
 :
 CreateAndReject
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
+NS_ERROR_DOM_INVALID_STATE_ERR
 __func__
 )
 ;
@@ -3734,7 +3734,7 @@ U2FSignPromise
 :
 CreateAndReject
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
+NS_ERROR_DOM_INVALID_STATE_ERR
 __func__
 )
 ;
