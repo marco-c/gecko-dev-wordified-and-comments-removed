@@ -494,11 +494,6 @@ Forwarded
 t
 )
 ;
-MakeAccessibleAfterMovingGC
-(
-t
-)
-;
 return
 t
 ;

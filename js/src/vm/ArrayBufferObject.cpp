@@ -4375,7 +4375,7 @@ uint8_t
 *
 >
 (
-getSlot
+getFixedSlot
 (
 DATA_SLOT
 )
@@ -4409,7 +4409,7 @@ uint8_t
 :
 unshared
 (
-getSlot
+getFixedSlot
 (
 DATA_SLOT
 )
@@ -4577,7 +4577,7 @@ OwnsState
 ownsData
 )
 {
-setSlot
+setFixedSlot
 (
 DATA_SLOT
 PrivateValue
@@ -4701,7 +4701,7 @@ byteLength
 const
 {
 return
-getSlot
+getFixedSlot
 (
 BYTE_LENGTH_SLOT
 )
@@ -4729,7 +4729,7 @@ length
 INT32_MAX
 )
 ;
-setSlot
+setFixedSlot
 (
 BYTE_LENGTH_SLOT
 Int32Value
@@ -5346,7 +5346,7 @@ const
 return
 uint32_t
 (
-getSlot
+getFixedSlot
 (
 FLAGS_SLOT
 )
@@ -5367,7 +5367,7 @@ uint32_t
 flags
 )
 {
-setSlot
+setFixedSlot
 (
 FLAGS_SLOT
 Int32Value
@@ -6851,7 +6851,7 @@ owner
 ;
 buf
 .
-setSlot
+setFixedSlot
 (
 DATA_SLOT
 PrivateValue
@@ -6926,7 +6926,7 @@ hasInlineData
 )
 dst
 .
-setSlot
+setFixedSlot
 (
 DATA_SLOT
 PrivateValue
@@ -6953,7 +6953,7 @@ firstView
 )
 {
 return
-getSlot
+getFixedSlot
 (
 FIRST_VIEW_SLOT
 )
@@ -6969,7 +6969,7 @@ ArrayBufferViewObject
 >
 (
 &
-getSlot
+getFixedSlot
 (
 FIRST_VIEW_SLOT
 )
@@ -6993,7 +6993,7 @@ ArrayBufferViewObject
 view
 )
 {
-setSlot
+setFixedSlot
 (
 FIRST_VIEW_SLOT
 ObjectOrNullValue
@@ -7988,6 +7988,16 @@ view
 obj
 )
 ;
+size_t
+nfixed
+=
+obj
+-
+>
+numFixedSlotsMaybeForwarded
+(
+)
+;
 void
 *
 srcData
@@ -7997,6 +8007,7 @@ obj
 >
 getPrivate
 (
+nfixed
 )
 ;
 void
@@ -8024,6 +8035,7 @@ obj
 >
 setPrivateUnbarriered
 (
+nfixed
 dstData
 )
 ;
@@ -8085,11 +8097,22 @@ offset
 0
 )
 ;
+size_t
+nfixed
+=
 obj
 -
 >
-initPrivate
+numFixedSlotsMaybeForwarded
 (
+)
+;
+obj
+-
+>
+setPrivateUnbarriered
+(
+nfixed
 buf
 .
 dataPointer
