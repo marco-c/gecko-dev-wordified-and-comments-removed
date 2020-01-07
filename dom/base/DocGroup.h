@@ -350,6 +350,12 @@ DocGroup
 *
 sPendingDocGroups
 ;
+bool
+IsActive
+(
+)
+const
+;
 private
 :
 DocGroup

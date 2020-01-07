@@ -255,6 +255,16 @@ Iter
 )
 ;
 }
+uint32_t
+Count
+(
+bool
+aActiveOnly
+=
+false
+)
+const
+;
 nsresult
 FindItemWithName
 (
