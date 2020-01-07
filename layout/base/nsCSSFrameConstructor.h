@@ -4076,11 +4076,6 @@ aContent
 nsContainerFrame
 *
 aParentFrame
-nsAtom
-*
-aTag
-int32_t
-aNameSpaceID
 bool
 aSuppressWhiteSpaceOptimizations
 ComputedStyle
