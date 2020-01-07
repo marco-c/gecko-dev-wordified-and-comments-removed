@@ -13366,6 +13366,17 @@ TelemetryPrefValue
 )
 )
 ;
+MOZ_ASSERT
+(
+Preferences
+:
+:
+IsLocked
+(
+kTelemetryPref
+)
+)
+;
 }
 #
 endif
