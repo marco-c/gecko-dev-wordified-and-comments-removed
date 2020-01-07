@@ -71,6 +71,14 @@ iteritems
 )
 :
     
+if
+"
+visibleDefaultEngines
+"
+in
+table
+:
+      
 engines
 .
 update
@@ -82,7 +90,9 @@ visibleDefaultEngines
 "
 ]
 )
-else
+if
+not
+engines
 :
   
 engines
