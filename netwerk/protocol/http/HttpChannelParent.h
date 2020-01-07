@@ -356,6 +356,16 @@ OnBackgroundParentDestroyed
 (
 )
 ;
+base
+:
+:
+ProcessId
+OtherPid
+(
+)
+const
+override
+;
 protected
 :
 MOZ_MUST_USE
