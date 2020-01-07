@@ -1313,7 +1313,7 @@ aria_invalid
 )
 {
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -1344,6 +1344,11 @@ int32_t
 idx
 =
 elm
+-
+>
+AsElement
+(
+)
 -
 >
 FindAttrValueIn

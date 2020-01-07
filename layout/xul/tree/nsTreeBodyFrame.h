@@ -1028,7 +1028,13 @@ return
 mTreeBoxObject
 ;
 }
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetBaseElement
 (

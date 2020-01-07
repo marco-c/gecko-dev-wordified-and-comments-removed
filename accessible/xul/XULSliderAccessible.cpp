@@ -185,6 +185,11 @@ return
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None
@@ -570,7 +575,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsIContent
+Element
 *
 sliderElm
 =

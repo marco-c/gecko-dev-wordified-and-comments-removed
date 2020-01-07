@@ -1285,6 +1285,11 @@ kNameSpaceID_XUL
 aContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1304,6 +1309,11 @@ IsEmpty
 )
 )
 aContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

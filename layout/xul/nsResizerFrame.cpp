@@ -1630,6 +1630,11 @@ elementid
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -2012,6 +2017,11 @@ aOriginalSizeInfo
 aContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -2026,6 +2036,11 @@ width
 )
 ;
 aContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr
@@ -2517,7 +2532,7 @@ GetDirection
 {
 static
 const
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -2654,7 +2669,10 @@ directions
 int32_t
 index
 =
-GetContent
+mContent
+-
+>
+AsElement
 (
 )
 -

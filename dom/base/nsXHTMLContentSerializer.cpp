@@ -1527,6 +1527,11 @@ meta
 child
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -1541,6 +1546,11 @@ nsAutoString
 header
 ;
 child
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

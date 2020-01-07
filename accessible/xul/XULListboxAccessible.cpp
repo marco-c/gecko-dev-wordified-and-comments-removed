@@ -380,6 +380,11 @@ if
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None
@@ -2339,6 +2344,11 @@ mIsCheckbox
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None
@@ -2531,6 +2541,11 @@ kNameSpaceID_XUL
 )
 {
 childContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr
