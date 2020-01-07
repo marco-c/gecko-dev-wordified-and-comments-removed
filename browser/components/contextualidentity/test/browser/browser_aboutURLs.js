@@ -22,7 +22,7 @@ aboutURLs
 ]
 ;
 let
-skipURLs
+networkURLs
 =
 [
 "
@@ -30,9 +30,6 @@ credits
 "
 "
 telemetry
-"
-"
-downloads
 "
 ]
 ;
@@ -176,7 +173,7 @@ HIDE_FROM_ABOUTABOUT
 &
 &
 !
-skipURLs
+networkURLs
 .
 includes
 (
