@@ -124,14 +124,3 @@ p3
 QuellGccWarnings
 .
 patch
-patch
--
-p3
-<
-clang
--
-cl
--
-workaround
-.
-patch
