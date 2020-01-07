@@ -575,7 +575,7 @@ true
 noTabReconfigureOnClose
 :
 true
-logErrorInPage
+logInPage
 :
 true
 }
@@ -1991,7 +1991,7 @@ form
 )
 ;
 }
-onLogErrorInPage
+onLogInPage
 (
 request
 )
@@ -2000,6 +2000,7 @@ let
 {
 text
 category
+flags
 }
 =
 request
@@ -2041,7 +2042,7 @@ null
 null
 0
 0
-1
+flags
 category
 getInnerId
 (
@@ -4914,14 +4915,14 @@ prototype
 .
 onListWorkers
 "
-logErrorInPage
+logInPage
 "
 :
 TabActor
 .
 prototype
 .
-onLogErrorInPage
+onLogInPage
 }
 ;
 exports

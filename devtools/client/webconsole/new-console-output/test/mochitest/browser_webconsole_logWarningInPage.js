@@ -56,7 +56,7 @@ toolbox
 .
 target
 .
-logErrorInPage
+logWarningInPage
 (
 "
 beware
@@ -110,15 +110,15 @@ classList
 contains
 (
 "
-error
+warn
 "
 )
 "
 the
 log
 represents
-an
-error
+a
+warning
 "
 )
 ;
