@@ -2990,7 +2990,7 @@ Toolbar
 LOCALIZATION
 NOTE
 (
-bookmarksSidebarGtkCmd
+bookmarksGtkCmd
 .
 commandkey
 )
@@ -4188,7 +4188,7 @@ appMenuRemoteTabs
 .
 noclients
 .
-label
+subtitle
 )
 :
 This

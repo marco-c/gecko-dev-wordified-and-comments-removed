@@ -810,7 +810,7 @@ cmd
 .
 chooseUnblock
 .
-tooltip
+label
 )
 :
 This
@@ -882,7 +882,7 @@ cmd
 .
 chooseOpen
 .
-tooltip
+label
 )
 :
 This
