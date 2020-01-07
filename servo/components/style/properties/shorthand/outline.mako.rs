@@ -33,13 +33,13 @@ sub_properties
 "
 outline
 -
-color
+width
 outline
 -
 style
 outline
 -
-width
+color
 "
 derive_serialize
 =
