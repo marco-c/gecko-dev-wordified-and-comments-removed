@@ -3027,9 +3027,6 @@ static
 void
 FreeChunkPool
 (
-JSRuntime
-*
-rt
 ChunkPool
 &
 pool
@@ -3122,9 +3119,6 @@ GCRuntime
 :
 freeEmptyChunks
 (
-JSRuntime
-*
-rt
 const
 AutoLockGC
 &
@@ -3133,7 +3127,6 @@ lock
 {
 FreeChunkPool
 (
-rt
 emptyChunks
 (
 lock
@@ -3201,10 +3194,6 @@ GCRuntime
 :
 updateOnArenaFree
 (
-const
-ChunkInfo
-&
-info
 )
 {
 +
@@ -3271,7 +3260,6 @@ gc
 .
 updateOnArenaFree
 (
-info
 )
 ;
 }
@@ -3281,9 +3269,6 @@ Chunk
 :
 addArenaToDecommittedList
 (
-JSRuntime
-*
-rt
 const
 Arena
 *
@@ -3467,7 +3452,6 @@ ok
 )
 addArenaToDecommittedList
 (
-rt
 arena
 )
 ;
@@ -3772,7 +3756,6 @@ this
 ;
 decommitAllArenas
 (
-rt
 )
 ;
 MOZ_ASSERT
@@ -5811,7 +5794,6 @@ clear
 ;
 FreeChunkPool
 (
-rt
 fullChunks_
 .
 ref
@@ -5821,7 +5803,6 @@ ref
 ;
 FreeChunkPool
 (
-rt
 availableChunks_
 .
 ref
@@ -5831,7 +5812,6 @@ ref
 ;
 FreeChunkPool
 (
-rt
 emptyChunks_
 .
 ref
@@ -11980,11 +11960,6 @@ trc
 Arena
 *
 arena
-JS
-:
-:
-TraceKind
-traceKind
 )
 {
 for
@@ -12079,13 +12054,6 @@ type
 (
 trc
 arena
-JS
-:
-:
-TraceKind
-:
-:
-traceKind
 )
 ;
 \
@@ -12839,9 +12807,6 @@ GCRuntime
 :
 updateCellPointers
 (
-MovingTracer
-*
-trc
 Zone
 *
 zone
@@ -13156,7 +13121,6 @@ CellUpdateBackgroundTaskCount
 ;
 updateCellPointers
 (
-trc
 zone
 UpdatePhaseMisc
 bgTaskCount
@@ -13170,7 +13134,6 @@ zone
 ;
 updateCellPointers
 (
-trc
 zone
 UpdatePhaseObjects
 bgTaskCount
@@ -14148,7 +14111,6 @@ kinds
 )
 queueForForegroundSweep
 (
-fop
 kind
 )
 ;
@@ -14159,9 +14121,6 @@ ArenaLists
 :
 queueForForegroundSweep
 (
-FreeOp
-*
-fop
 AllocKind
 thingKind
 )
@@ -14269,7 +14228,6 @@ kinds
 )
 queueForBackgroundSweep
 (
-fop
 kind
 )
 ;
@@ -14281,9 +14239,6 @@ ArenaLists
 :
 queueForBackgroundSweep
 (
-FreeOp
-*
-fop
 AllocKind
 thingKind
 )
@@ -14587,9 +14542,6 @@ ArenaLists
 :
 queueForegroundThingsForSweep
 (
-FreeOp
-*
-fop
 )
 {
 gcShapeArenasToUpdate
@@ -16061,9 +16013,6 @@ lock
 ;
 FreeChunkPool
 (
-runtime
-(
-)
 toFree
 )
 ;
@@ -17257,12 +17206,6 @@ Zone
 :
 sweepUniqueIds
 (
-js
-:
-:
-FreeOp
-*
-fop
 )
 {
 uniqueIds
@@ -26185,12 +26128,6 @@ JSRuntime
 runtime
 )
 {
-FreeOp
-fop
-(
-nullptr
-)
-;
 for
 (
 SweepGroupZonesIter
@@ -26217,8 +26154,6 @@ zone
 >
 sweepUniqueIds
 (
-&
-fop
 )
 ;
 }
@@ -27570,7 +27505,6 @@ arenas
 .
 queueForegroundThingsForSweep
 (
-fop
 )
 ;
 }
@@ -32264,14 +32198,6 @@ GCRuntime
 :
 endCompactPhase
 (
-JS
-:
-:
-gcreason
-:
-:
-Reason
-reason
 )
 {
 startedCompacting
@@ -32285,14 +32211,6 @@ GCRuntime
 :
 finishCollection
 (
-JS
-:
-:
-gcreason
-:
-:
-Reason
-reason
 )
 {
 assertBackgroundSweepingFinished
@@ -34469,7 +34387,6 @@ break
 ;
 endCompactPhase
 (
-reason
 )
 ;
 }
@@ -34538,7 +34455,6 @@ join
 }
 finishCollection
 (
-reason
 )
 ;
 incrementalState
@@ -37393,7 +37309,6 @@ lock
 ;
 freeEmptyChunks
 (
-rt
 lock
 )
 ;

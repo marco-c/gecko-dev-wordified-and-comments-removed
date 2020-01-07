@@ -16881,7 +16881,6 @@ moveSlotsToTenured
 (
 ndst
 nsrc
-dstKind
 )
 ;
 tenuredSize
@@ -17121,7 +17120,6 @@ moveSlotsToTenured
 (
 dst
 src
-dstKind
 )
 ;
 tenuredSize
@@ -17200,8 +17198,6 @@ dst
 NativeObject
 *
 src
-AllocKind
-dstKind
 )
 {
 if

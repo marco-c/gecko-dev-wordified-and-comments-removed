@@ -1616,9 +1616,6 @@ Nursery
 :
 allocateString
 (
-JSContext
-*
-cx
 Zone
 *
 zone

@@ -546,11 +546,6 @@ dst
 NativeObject
 *
 src
-gc
-:
-:
-AllocKind
-dstKind
 )
 ;
 size_t
@@ -905,9 +900,6 @@ Cell
 *
 allocateString
 (
-JSContext
-*
-cx
 JS
 :
 :

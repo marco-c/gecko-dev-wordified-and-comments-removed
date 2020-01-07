@@ -1116,9 +1116,6 @@ fop
 void
 queueForegroundThingsForSweep
 (
-FreeOp
-*
-fop
 )
 ;
 void
@@ -1200,9 +1197,6 @@ inline
 void
 queueForForegroundSweep
 (
-FreeOp
-*
-fop
 AllocKind
 thingKind
 )
@@ -1211,9 +1205,6 @@ inline
 void
 queueForBackgroundSweep
 (
-FreeOp
-*
-fop
 AllocKind
 thingKind
 )
