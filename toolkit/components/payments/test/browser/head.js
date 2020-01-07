@@ -10,7 +10,7 @@ BLANK_PAGE_PATH
 /
 browser
 /
-browser
+toolkit
 /
 components
 /

@@ -259,7 +259,7 @@ run
 /
 mach
 python
-browser
+toolkit
 /
 components
 /
