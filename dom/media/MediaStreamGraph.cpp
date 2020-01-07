@@ -9800,6 +9800,12 @@ Disconnect
 )
 ;
 }
+mTracks
+.
+Clear
+(
+)
+;
 mGraph
 =
 nullptr
