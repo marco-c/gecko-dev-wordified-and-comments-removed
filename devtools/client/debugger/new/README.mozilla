@@ -24,7 +24,7 @@ debugger
 .
 html
 Version
-58
+59
 Comparison
 :
 https
@@ -47,13 +47,13 @@ compare
 /
 release
 -
-57
+58
 .
 .
 .
 release
 -
-58
+59
 Packages
 :
 -
@@ -104,6 +104,6 @@ dom
 webpack
 3
 .
-12
+11
 .
 0

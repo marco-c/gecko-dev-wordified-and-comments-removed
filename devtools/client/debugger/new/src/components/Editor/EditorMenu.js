@@ -1538,12 +1538,7 @@ getPrettySource
 state
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 )
 contextMenu
 :
@@ -1570,10 +1565,6 @@ findFunctionText
 (
 line
 selectedSource
-.
-toJS
-(
-)
 symbols
 )
 getFunctionLocation
