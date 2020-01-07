@@ -546,6 +546,7 @@ XULListboxAccessible
 ColCount
 (
 )
+const
 {
 nsIContent
 *

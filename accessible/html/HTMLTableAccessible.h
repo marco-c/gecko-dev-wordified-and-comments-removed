@@ -409,6 +409,7 @@ uint32_t
 ColCount
 (
 )
+const
 override
 ;
 virtual

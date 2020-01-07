@@ -2231,6 +2231,7 @@ HTMLTableAccessible
 ColCount
 (
 )
+const
 {
 nsTableWrapperFrame
 *

@@ -141,6 +141,7 @@ XULTreeGridAccessible
 ColCount
 (
 )
+const
 {
 return
 nsCoreUtils
