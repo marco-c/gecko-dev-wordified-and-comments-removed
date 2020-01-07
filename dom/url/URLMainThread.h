@@ -208,9 +208,6 @@ GetHref
 nsAString
 &
 aHref
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -250,9 +247,6 @@ GetProtocol
 nsAString
 &
 aProtocol
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -278,9 +272,6 @@ GetUsername
 nsAString
 &
 aUsername
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -293,9 +284,6 @@ const
 nsAString
 &
 aUsername
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -306,9 +294,6 @@ GetPassword
 nsAString
 &
 aPassword
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -321,9 +306,6 @@ const
 nsAString
 &
 aPassword
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -334,9 +316,6 @@ GetHost
 nsAString
 &
 aHost
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -349,9 +328,6 @@ const
 nsAString
 &
 aHost
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -362,9 +338,6 @@ GetHostname
 nsAString
 &
 aHostname
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -377,9 +350,6 @@ const
 nsAString
 &
 aHostname
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -390,9 +360,6 @@ GetPort
 nsAString
 &
 aPort
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -405,9 +372,6 @@ const
 nsAString
 &
 aPort
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -418,9 +382,6 @@ GetPathname
 nsAString
 &
 aPathname
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -433,9 +394,6 @@ const
 nsAString
 &
 aPathname
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -446,9 +404,6 @@ GetSearch
 nsAString
 &
 aSearch
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -460,9 +415,6 @@ GetHash
 nsAString
 &
 aHost
-ErrorResult
-&
-aRv
 )
 const
 override
@@ -475,9 +427,6 @@ const
 nsAString
 &
 aHash
-ErrorResult
-&
-aRv
 )
 override
 ;
@@ -496,9 +445,6 @@ const
 nsAString
 &
 aSearch
-ErrorResult
-&
-aRv
 )
 override
 ;
