@@ -93,6 +93,16 @@ js
 /
 rust
 "
+export
+LD_LIBRARY_PATH
+=
+"
+TOOLTOOL_CHECKOUT
+/
+gcc
+/
+lib64
+"
 #
 Enable
 backtraces
