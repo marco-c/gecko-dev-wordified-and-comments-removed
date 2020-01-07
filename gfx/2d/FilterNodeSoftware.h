@@ -13,6 +13,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
 <
 vector
 >
@@ -3103,6 +3112,9 @@ aKernelUnitLengthX
 CoordType
 aKernelUnitLengthY
 )
+;
+Mutex
+mLock
 ;
 LightType
 mLight
