@@ -34882,7 +34882,7 @@ WebAuthnPromptHelper
 _icon
 :
 "
-default
+webauthn
 -
 notification
 -
