@@ -5967,10 +5967,6 @@ compactingDisabledCount
 (
 0
 )
-keepAtoms
-(
-0
-)
 suppressProfilerSampling
 (
 false
