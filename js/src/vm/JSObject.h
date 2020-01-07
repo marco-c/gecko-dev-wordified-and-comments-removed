@@ -1588,7 +1588,7 @@ js
 :
 GlobalObject
 &
-global
+deprecatedGlobal
 (
 )
 const

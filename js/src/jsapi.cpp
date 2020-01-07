@@ -5460,7 +5460,7 @@ return
 obj
 -
 >
-global
+deprecatedGlobal
 (
 )
 ;

@@ -2085,7 +2085,7 @@ return
 obj
 -
 >
-global
+deprecatedGlobal
 (
 )
 ;

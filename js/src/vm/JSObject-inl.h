@@ -2080,7 +2080,7 @@ GlobalObject
 JSObject
 :
 :
-global
+deprecatedGlobal
 (
 )
 const
@@ -2124,7 +2124,13 @@ this
 )
 ;
 return
-global
+*
+realm
+(
+)
+-
+>
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
