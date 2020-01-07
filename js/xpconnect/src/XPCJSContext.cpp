@@ -2750,6 +2750,9 @@ if
 proto
 &
 &
+xpc
+:
+:
 IsSandboxPrototypeProxy
 (
 proto
