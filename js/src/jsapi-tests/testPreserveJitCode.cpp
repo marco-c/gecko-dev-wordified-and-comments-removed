@@ -194,9 +194,6 @@ cx
 global
 )
 ;
-#
-ifdef
-JS_CODEGEN_ARM64
 if
 (
 !
@@ -215,8 +212,6 @@ knownFail
 =
 true
 ;
-#
-endif
 CHECK_EQUAL
 (
 countIonScripts
