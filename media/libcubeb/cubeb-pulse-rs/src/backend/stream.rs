@@ -2527,10 +2527,12 @@ r_usec
 let
 bytes
 =
-r_usec
-.
+USecExt
+:
+:
 to_bytes
 (
+r_usec
 &
 self
 .
