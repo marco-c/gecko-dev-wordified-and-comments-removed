@@ -3771,7 +3771,8 @@ if
 webrender
 &
 &
-winWidget
+!
+gtkWidget
 )
 =
 =
@@ -3872,6 +3873,15 @@ winWidget
 608
 -
 608
+)
+fails
+-
+if
+(
+webrender
+&
+&
+cocoaWidget
 )
 =
 =

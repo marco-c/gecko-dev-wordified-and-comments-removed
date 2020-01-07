@@ -203,6 +203,15 @@ if
 !
 cocoaWidget
 )
+fails
+-
+if
+(
+webrender
+&
+&
+cocoaWidget
+)
 =
 =
 mac

@@ -3369,9 +3369,13 @@ fuzzy
 if
 (
 webrender
+&
+&
+!
+gtkWidget
 73
 -
-93
+73
 49600
 -
 49600

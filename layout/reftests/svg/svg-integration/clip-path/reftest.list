@@ -312,7 +312,8 @@ if
 webrender
 &
 &
-winWidget
+!
+gtkWidget
 )
 =
 =
