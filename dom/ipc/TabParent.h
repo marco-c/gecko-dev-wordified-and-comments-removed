@@ -1342,7 +1342,10 @@ uint32_t
 &
 aStride
 const
-uint8_t
+gfx
+:
+:
+SurfaceFormat
 &
 aFormat
 const
@@ -2486,7 +2489,10 @@ uint32_t
 &
 aStride
 const
-uint8_t
+gfx
+:
+:
+SurfaceFormat
 &
 aFormat
 const
