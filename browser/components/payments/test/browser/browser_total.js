@@ -86,7 +86,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )
@@ -184,7 +184,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )
@@ -298,7 +298,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )

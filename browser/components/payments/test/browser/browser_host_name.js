@@ -40,7 +40,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 dialogTaskFn
 args
 {
