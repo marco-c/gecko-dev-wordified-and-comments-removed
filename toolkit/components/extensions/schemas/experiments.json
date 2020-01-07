@@ -252,7 +252,6 @@ ref
 "
 APIParentScope
 "
-}
 "
 onError
 "
@@ -260,6 +259,7 @@ onError
 "
 warn
 "
+}
 "
 optional
 "
@@ -351,7 +351,6 @@ ref
 "
 APIChildScope
 "
-}
 "
 onError
 "
@@ -359,6 +358,7 @@ onError
 "
 warn
 "
+}
 }
 }
 "
@@ -487,7 +487,6 @@ ref
 "
 APIEvent
 "
-}
 "
 onError
 "
@@ -495,6 +494,7 @@ onError
 "
 warn
 "
+}
 }
 {
 "
