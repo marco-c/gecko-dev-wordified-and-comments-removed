@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

@@ -356,9 +356,6 @@ class
 nsIDocumentLoaderFactory
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMNode
 ;
 class

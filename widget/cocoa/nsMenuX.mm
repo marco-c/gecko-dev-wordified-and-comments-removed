@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDocumentObserver
 .
 h

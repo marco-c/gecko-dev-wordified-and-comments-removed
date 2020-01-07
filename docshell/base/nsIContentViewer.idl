@@ -67,9 +67,6 @@ interface
 nsIDocShell
 ;
 interface
-nsIDocument
-;
-interface
 nsIDOMNode
 ;
 interface
@@ -77,6 +74,9 @@ nsISHEntry
 ;
 interface
 nsIPrintSettings
+;
+webidl
+Document
 ;
 %
 {
@@ -254,7 +254,7 @@ void
 loadStart
 (
 in
-nsIDocument
+Document
 aDoc
 )
 ;
@@ -888,7 +888,7 @@ getDocument
 /
 readonly
 attribute
-nsISupports
+Document
 DOMDocument
 ;
 /
@@ -897,9 +897,6 @@ DOMDocument
 *
 Returns
 DOMDocument
-as
-nsIDocument
-and
 without
 addrefing
 .
@@ -910,7 +907,7 @@ noscript
 notxpcom
 nostdcall
 ]
-nsIDocument
+Document
 getDocument
 (
 )
@@ -934,7 +931,7 @@ void
 setDocument
 (
 in
-nsIDocument
+Document
 aDocument
 )
 ;
@@ -1442,7 +1439,7 @@ void
 setDocumentInternal
 (
 in
-nsIDocument
+Document
 aDocument
 in
 boolean

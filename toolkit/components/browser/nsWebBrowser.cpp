@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -2806,7 +2799,7 @@ nsWebBrowser
 :
 GetDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDocument
@@ -4233,7 +4226,7 @@ else
 {
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 domDoc
 ;

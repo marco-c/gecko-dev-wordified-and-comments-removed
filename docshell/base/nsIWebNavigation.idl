@@ -96,9 +96,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMDocument
-;
-interface
 nsIInputStream
 ;
 interface
@@ -112,6 +109,9 @@ nsIPrincipal
 ;
 interface
 nsIChildSHistory
+;
+webidl
+Document
 ;
 %
 {
@@ -2729,7 +2729,7 @@ situations
 /
 readonly
 attribute
-nsIDOMDocument
+Document
 document
 ;
 /

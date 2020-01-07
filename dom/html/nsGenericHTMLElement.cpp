@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsMappedAttributes
 .
 h

@@ -103,9 +103,6 @@ interface
 nsIInputStream
 ;
 interface
-nsIDOMDocument
-;
-interface
 nsIWebProgressListener
 ;
 interface
@@ -1774,7 +1771,7 @@ an
 *
 nsIWebBrowserPersistDocument
 or
-nsIDOMDocument
+Document
 .
 *
 param

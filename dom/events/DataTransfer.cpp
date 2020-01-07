@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h

@@ -950,7 +950,6 @@ aNode
 ;
 public
 :
-NS_DECL_NSIDOMDOCUMENT
 using
 mozilla
 :

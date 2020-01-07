@@ -7219,7 +7219,7 @@ nsSHistory
 :
 GetDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDocument

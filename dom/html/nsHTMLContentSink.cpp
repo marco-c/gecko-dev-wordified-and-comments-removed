@@ -184,13 +184,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIScriptElement
 .
 h

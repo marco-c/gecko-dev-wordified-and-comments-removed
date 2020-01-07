@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsILayoutHistoryState
 .
 h

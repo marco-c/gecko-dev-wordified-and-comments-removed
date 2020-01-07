@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIScriptObjectPrincipal
 .
 h

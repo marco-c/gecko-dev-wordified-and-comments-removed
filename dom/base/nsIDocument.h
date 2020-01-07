@@ -479,9 +479,6 @@ class
 nsIDocumentObserver
 ;
 class
-nsIDOMDocument
-;
-class
 nsIHTMLCollection
 ;
 class

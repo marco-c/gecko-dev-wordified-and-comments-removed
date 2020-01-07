@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h
