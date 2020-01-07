@@ -1424,6 +1424,7 @@ bool
 IsCSSEnabled
 (
 )
+const
 {
 return
 mCSSAware

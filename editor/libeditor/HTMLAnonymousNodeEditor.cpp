@@ -1950,9 +1950,9 @@ isPositioned
 nsAutoString
 positionStr
 ;
-mCSSEditUtils
--
->
+CSSEditUtils
+:
+:
 GetComputedProperty
 (
 aElement
@@ -1991,9 +1991,9 @@ nsComputedDOMStyle
 >
 cssDecl
 =
-mCSSEditUtils
--
->
+CSSEditUtils
+:
+:
 GetComputedStyle
 (
 &
