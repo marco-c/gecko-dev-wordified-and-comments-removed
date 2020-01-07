@@ -107,11 +107,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 function
@@ -176,11 +177,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
@@ -307,11 +309,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
@@ -520,11 +523,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
@@ -673,11 +677,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
@@ -800,11 +805,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
@@ -927,11 +933,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
@@ -1049,11 +1056,12 @@ session
 "
         
 let
-[
 resolve
-]
 =
 arguments
+[
+0
+]
 ;
         
 resolve
