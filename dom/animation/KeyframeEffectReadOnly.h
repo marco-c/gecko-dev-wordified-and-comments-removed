@@ -1219,6 +1219,13 @@ aBaseComputedStyle
 ;
 nsIFrame
 *
+GetPrimaryFrame
+(
+)
+const
+;
+nsIFrame
+*
 GetStyleFrame
 (
 )
