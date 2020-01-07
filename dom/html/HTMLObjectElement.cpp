@@ -1911,6 +1911,8 @@ nsObjectLoadingContent
 GetCapabilities
 (
 )
+|
+eFallbackIfClassIDPresent
 ;
 }
 void

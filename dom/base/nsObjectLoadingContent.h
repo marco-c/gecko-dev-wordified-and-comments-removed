@@ -787,7 +787,7 @@ eSupportDocuments
 <
 <
 2
-eSupportClassID
+eFallbackIfClassIDPresent
 =
 1u
 <
