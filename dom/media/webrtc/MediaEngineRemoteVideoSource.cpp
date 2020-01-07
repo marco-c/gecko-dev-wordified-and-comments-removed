@@ -4853,13 +4853,6 @@ aOutSettings
 )
 const
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 aOutSettings
 =
 *

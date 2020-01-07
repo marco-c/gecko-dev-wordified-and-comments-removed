@@ -183,15 +183,6 @@ const
 0
 ;
 virtual
-bool
-IsAvailable
-(
-)
-const
-=
-0
-;
-virtual
 nsString
 GetName
 (
