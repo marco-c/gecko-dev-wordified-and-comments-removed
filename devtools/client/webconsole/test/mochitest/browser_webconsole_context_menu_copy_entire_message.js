@@ -133,6 +133,9 @@ log
 (
 "
 simple
+"
++
+"
 text
 message
 "
@@ -348,7 +351,7 @@ n
 "
 )
 ;
-ok
+is
 (
 lines
 .
@@ -497,7 +500,7 @@ n
 "
 )
 ;
-ok
+is
 (
 lines
 .
@@ -743,7 +746,7 @@ n
 "
 )
 ;
-ok
+is
 (
 lines
 .
@@ -892,7 +895,7 @@ n
 "
 )
 ;
-ok
+is
 (
 lines
 .
