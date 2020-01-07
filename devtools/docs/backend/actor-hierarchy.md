@@ -414,7 +414,7 @@ requests
 >
 ContentActor
 (
-childtab
+content
 .
 js
 )

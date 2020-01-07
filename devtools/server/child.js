@@ -246,7 +246,7 @@ server
 /
 actors
 /
-childtab
+content
 "
 )
 ;
