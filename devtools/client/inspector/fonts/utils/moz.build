@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 '
+font
+-
+utils
+.
+js
+'
+'
 l10n
 .
 js
