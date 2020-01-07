@@ -181,9 +181,6 @@ revision
 '
 en_us_installer_binary_url
 '
-'
-mar_tools_url
-'
 )
 class
 DesktopSingleLocale

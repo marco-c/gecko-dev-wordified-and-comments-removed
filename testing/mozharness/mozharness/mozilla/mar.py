@@ -135,32 +135,6 @@ self
 .
 config
         
-replace_dict
-=
-{
-'
-platform
-'
-:
-config
-[
-'
-platform
-'
-]
-                        
-'
-branch
-'
-:
-config
-[
-'
-branch
-'
-]
-}
-        
 url
 =
 config
@@ -169,8 +143,6 @@ config
 mar_tools_url
 '
 ]
-%
-replace_dict
         
 binaries
 =
