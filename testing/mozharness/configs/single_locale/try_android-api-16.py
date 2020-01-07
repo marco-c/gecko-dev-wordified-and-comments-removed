@@ -168,12 +168,6 @@ US
 "
 ]
     
-"
-nightly_build
-"
-:
-False
-    
 '
 balrog_credentials_file
 '

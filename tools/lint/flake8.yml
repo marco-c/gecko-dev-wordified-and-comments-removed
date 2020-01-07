@@ -132,6 +132,12 @@ testing
 /
 mozharness
 /
+configs
+-
+testing
+/
+mozharness
+/
 mozfile
 -
 testing
