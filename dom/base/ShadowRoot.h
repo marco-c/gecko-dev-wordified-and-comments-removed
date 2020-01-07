@@ -333,6 +333,14 @@ EnsureDOMStyleSheets
 )
 ;
 }
+void
+CloneInternalDataFrom
+(
+ShadowRoot
+*
+aOther
+)
+;
 private
 :
 bool
