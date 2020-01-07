@@ -155,9 +155,7 @@ join
 (
 image_path
 '
-green
--
-1x1
+red
 .
 png
 '
