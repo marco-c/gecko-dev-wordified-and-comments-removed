@@ -448,6 +448,13 @@ state
 "
 2d
 .
+scrollPathIntoView
+:
+"
+scroll
+"
+2d
+.
 canvas
 :
 "
