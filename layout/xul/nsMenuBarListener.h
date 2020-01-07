@@ -205,6 +205,8 @@ GetMenuForKeyEvent
 nsIDOMKeyEvent
 *
 aKeyEvent
+bool
+aPeek
 )
 ;
 void
