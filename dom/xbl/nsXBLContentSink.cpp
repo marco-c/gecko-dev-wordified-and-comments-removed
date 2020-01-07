@@ -1001,6 +1001,8 @@ uint32_t
 aAttsCount
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 )
 {
 nsresult
@@ -1015,6 +1017,7 @@ aName
 aAtts
 aAttsCount
 aLineNumber
+aColumnNumber
 )
 ;
 if
@@ -4101,6 +4104,8 @@ NodeInfo
 aNodeInfo
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 nsIContent
 *
 *
@@ -4139,6 +4144,7 @@ aAtts
 aAttsCount
 aNodeInfo
 aLineNumber
+aColumnNumber
 aResult
 aAppendContent
 aFromParser

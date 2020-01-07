@@ -421,6 +421,8 @@ NodeInfo
 aNodeInfo
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 nsIContent
 *
 *
@@ -803,6 +805,8 @@ NodeInfo
 aNodeInfo
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 nsIContent
 *
 *
@@ -825,6 +829,7 @@ aAtts
 aAttsCount
 aNodeInfo
 aLineNumber
+aColumnNumber
 aResult
 aAppendContent
 NOT_FROM_PARSER

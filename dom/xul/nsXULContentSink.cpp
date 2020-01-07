@@ -1534,6 +1534,8 @@ uint32_t
 aAttsCount
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 )
 {
 MOZ_ASSERT
@@ -2582,6 +2584,7 @@ get
 noAtts
 0
 0
+0
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2642,6 +2645,7 @@ get
 (
 )
 noAtts
+0
 0
 0
 )

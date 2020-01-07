@@ -133,6 +133,11 @@ line
 -
 number
 ;
+long
+column
+-
+number
+;
 }
 ;
 dictionary

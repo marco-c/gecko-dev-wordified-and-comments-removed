@@ -913,6 +913,7 @@ GetDocumentURI
 (
 )
 0
+0
 aValue
 nullptr
 )

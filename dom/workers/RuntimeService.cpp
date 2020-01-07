@@ -2891,6 +2891,9 @@ mFileName
 uint32_t
 mLineNum
 ;
+uint32_t
+mColumnNum
+;
 public
 :
 LogViolationDetailsRunnable
@@ -2904,6 +2907,8 @@ nsString
 aFileName
 uint32_t
 aLineNum
+uint32_t
+aColumnNum
 )
 :
 WorkerMainThreadRunnable
@@ -2926,6 +2931,10 @@ aFileName
 mLineNum
 (
 aLineNum
+)
+mColumnNum
+(
+aColumnNum
 )
 {
 MOZ_ASSERT
@@ -2993,6 +3002,11 @@ lineNum
 =
 0
 ;
+uint32_t
+columnNum
+=
+0
+;
 JS
 :
 :
@@ -3011,6 +3025,8 @@ aCx
 file
 &
 lineNum
+&
+columnNum
 )
 &
 &
@@ -3057,6 +3073,7 @@ LogViolationDetailsRunnable
 worker
 fileName
 lineNum
+columnNum
 )
 ;
 ErrorResult
@@ -11855,6 +11872,7 @@ VIOLATION_TYPE_EVAL
 mFileName
 scriptSample
 mLineNum
+mColumnNum
 EmptyString
 (
 )

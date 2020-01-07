@@ -622,6 +622,7 @@ TYPE_SCRIPT
 false
 content
 0
+0
 )
 ;
 Assert
@@ -681,6 +682,20 @@ x9d
 \
 xb9
 "
+"
+line
+-
+number
+"
+:
+1
+"
+column
+-
+number
+"
+:
+2
 }
 false
 function
@@ -762,6 +777,7 @@ ud841
 udf79
 "
 1
+2
 )
 ;
 }
@@ -902,6 +918,7 @@ TYPE_SCRIPT
 false
 content
 0
+0
 )
 ;
 Assert
@@ -996,6 +1013,7 @@ script
 sample
 "
 4
+5
 )
 ;
 }

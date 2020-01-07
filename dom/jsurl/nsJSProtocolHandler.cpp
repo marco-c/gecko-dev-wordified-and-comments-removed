@@ -821,6 +821,7 @@ EmptyString
 true
 nullptr
 0
+0
 &
 allowsInlineScript
 )
