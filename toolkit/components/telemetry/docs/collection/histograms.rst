@@ -470,7 +470,7 @@ histogram
 note
 :
 :
-Ony
+Only
 flag
 and
 count

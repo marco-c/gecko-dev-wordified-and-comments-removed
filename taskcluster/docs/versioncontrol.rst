@@ -200,7 +200,7 @@ to
 .
 Typically
 one
-simplies
+implies
 copies
 the
 latest
