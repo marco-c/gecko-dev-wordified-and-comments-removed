@@ -663,10 +663,6 @@ InsertNode
 *
 newCell
 pointToInsert
-.
-AsRaw
-(
-)
 )
 ;
 }

@@ -808,10 +808,6 @@ InsertNode
 *
 contentToInsert
 pointToInsert
-.
-AsRaw
-(
-)
 )
 ;
 if
@@ -1647,10 +1643,6 @@ GetContainerAsContent
 (
 )
 pointToInsert
-.
-AsRaw
-(
-)
 SplitAtEdges
 :
 :
@@ -2048,10 +2040,6 @@ InsertNodeIntoProperAncestor
 *
 firstChild
 pointToInsert
-.
-AsRaw
-(
-)
 SplitAtEdges
 :
 :
@@ -2296,10 +2284,6 @@ InsertNodeIntoProperAncestor
 *
 firstChild
 pointToInsert
-.
-AsRaw
-(
-)
 SplitAtEdges
 :
 :
@@ -2463,10 +2447,6 @@ InsertNodeIntoProperAncestor
 *
 firstChild
 pointToInsert
-.
-AsRaw
-(
-)
 SplitAtEdges
 :
 :
@@ -2554,10 +2534,6 @@ AsContent
 (
 )
 pointToInsert
-.
-AsRaw
-(
-)
 SplitAtEdges
 :
 :
@@ -2690,10 +2666,6 @@ GetParent
 (
 )
 pointToInsert
-.
-AsRaw
-(
-)
 SplitAtEdges
 :
 :
