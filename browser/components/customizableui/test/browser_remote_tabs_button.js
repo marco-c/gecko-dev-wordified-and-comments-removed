@@ -239,7 +239,7 @@ remoteTabsPanel
 getAttribute
 (
 "
-current
+visible
 "
 )
 "
