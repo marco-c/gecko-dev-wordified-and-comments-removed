@@ -2000,9 +2000,9 @@ CanLoadImage
 nsIURI
 *
 aURI
-nsISupports
+nsINode
 *
-aContext
+aNode
 nsIDocument
 *
 aLoadingDocument
