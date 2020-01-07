@@ -16613,10 +16613,6 @@ newDirectives
 =
 directives
 ;
-typename
-TokenStream
-:
-:
 Position
 start
 (
@@ -16832,10 +16828,6 @@ getRewindToken
 (
 )
 ;
-typename
-TokenStream
-:
-:
 Position
 position
 (
@@ -37904,10 +37896,6 @@ ungetToken
 (
 )
 ;
-typename
-TokenStream
-:
-:
 Position
 start
 (
