@@ -2456,10 +2456,13 @@ Shutdown
 ;
 if
 (
-gfxVars
+wr
 :
 :
-UseWebRender
+RenderThread
+:
+:
+Get
 (
 )
 )
