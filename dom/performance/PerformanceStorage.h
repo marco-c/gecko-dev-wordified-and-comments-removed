@@ -24,6 +24,9 @@ namespace
 dom
 {
 class
+PerformanceTimingData
+;
+class
 PerformanceStorage
 {
 public
