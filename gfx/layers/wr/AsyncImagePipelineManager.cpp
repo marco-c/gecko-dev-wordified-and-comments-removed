@@ -543,6 +543,12 @@ wr
 PipelineId
 &
 aPipelineId
+wr
+:
+:
+TransactionBuilder
+&
+aTxn
 )
 {
 if
@@ -591,9 +597,8 @@ Data
 +
 mAsyncImageEpoch
 ;
-mApi
--
->
+aTxn
+.
 ClearDisplayList
 (
 wr
@@ -634,9 +639,8 @@ key
 )
 ;
 }
-mApi
--
->
+aTxn
+.
 UpdateResources
 (
 resources
