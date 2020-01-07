@@ -300,11 +300,6 @@ nsFrameManager
 h
 '
 '
-nsFrameManagerBase
-.
-h
-'
-'
 nsFrameTraversal
 .
 h
@@ -478,6 +473,11 @@ h
 '
 '
 StaticPresData
+.
+h
+'
+'
+UndisplayedNode
 .
 h
 '
