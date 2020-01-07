@@ -418,6 +418,10 @@ char
 *
 gArgv
 ;
+extern
+bool
+gAutoSubmit
+;
 void
 UIError
 (
