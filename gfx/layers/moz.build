@@ -889,6 +889,13 @@ h
 '
 client
 /
+MultiTiledContentClient
+.
+h
+'
+'
+client
+/
 SingleTiledContentClient
 .
 h
@@ -2448,6 +2455,13 @@ cpp
 client
 /
 ImageClient
+.
+cpp
+'
+'
+client
+/
+MultiTiledContentClient
 .
 cpp
 '
