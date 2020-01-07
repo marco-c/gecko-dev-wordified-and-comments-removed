@@ -1480,6 +1480,11 @@ PersistentBufferProvider
 h
 '
 '
+ProfilerScreenshots
+.
+h
+'
+'
 RenderTrace
 .
 h
@@ -3048,6 +3053,11 @@ cpp
 '
 '
 PaintThread
+.
+cpp
+'
+'
+ProfilerScreenshots
 .
 cpp
 '
