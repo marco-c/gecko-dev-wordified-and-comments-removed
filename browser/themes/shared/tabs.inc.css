@@ -161,7 +161,10 @@ color
 )
 ;
 }
+#
 tabbrowser
+-
+tabpanels
 {
 background
 -
@@ -178,7 +181,10 @@ privatebrowsingmode
 =
 temporary
 ]
+#
 tabbrowser
+-
+tabpanels
 {
 background
 -

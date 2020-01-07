@@ -2289,11 +2289,7 @@ window
 .
 gBrowser
 .
-container
-instanceof
-Ci
-.
-nsIDOMXULElement
+tabbox
 &
 &
 target
@@ -2304,7 +2300,7 @@ window
 .
 gBrowser
 .
-container
+tabbox
 )
 )
 {
