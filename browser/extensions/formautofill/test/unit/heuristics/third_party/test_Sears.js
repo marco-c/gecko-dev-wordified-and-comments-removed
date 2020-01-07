@@ -490,11 +490,13 @@ fieldName
 "
 :
 "
-cc
+address
 -
-number
+level1
 "
 }
+]
+[
 {
 "
 section
@@ -519,9 +521,9 @@ fieldName
 "
 :
 "
-address
+cc
 -
-level1
+number
 "
 }
 ]

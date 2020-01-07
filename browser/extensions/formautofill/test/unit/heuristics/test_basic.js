@@ -529,6 +529,8 @@ fieldName
 email
 "
 }
+]
+[
 {
 "
 section
