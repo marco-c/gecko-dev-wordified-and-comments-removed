@@ -1254,8 +1254,8 @@ output
 wrapper
 "
 }
-filterBar
 consoleOutput
+filterBar
 sideBar
 )
 )
