@@ -99,9 +99,6 @@ nsIDOMXULSelectCntrlEl
 idl
 "
 interface
-nsIDOMXULTextBoxElement
-;
-interface
 nsIDOMNode
 ;
 [

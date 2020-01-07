@@ -358,7 +358,6 @@ implementation
 implements
 =
 "
-nsIDOMXULTextBoxElement
 nsIDOMXULLabeledControlElement
 "
 >

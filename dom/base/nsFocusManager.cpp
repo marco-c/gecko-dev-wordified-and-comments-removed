@@ -445,13 +445,6 @@ MOZ_XUL
 #
 include
 "
-nsIDOMXULTextboxElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULMenuListElement
 .
 h

@@ -173,11 +173,6 @@ nsIDOMXULSelectCntrlItemEl
 .
 idl
 '
-'
-nsIDOMXULTextboxElement
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
