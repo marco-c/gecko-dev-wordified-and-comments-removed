@@ -95,6 +95,11 @@ GeckoView
 manifest
 '
 '
+GeckoViewExternalAppService
+.
+js
+'
+'
 GeckoViewPermission
 .
 js

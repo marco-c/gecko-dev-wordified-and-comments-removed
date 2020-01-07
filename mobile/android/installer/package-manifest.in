@@ -2962,6 +2962,13 @@ BINPATH
 /
 components
 /
+GeckoViewExternalAppService
+.
+js
+BINPATH
+/
+components
+/
 GeckoViewPrompt
 .
 js
