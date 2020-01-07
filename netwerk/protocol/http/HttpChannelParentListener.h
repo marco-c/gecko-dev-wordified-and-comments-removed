@@ -190,6 +190,12 @@ nsIInterceptedChannel
 >
 mInterceptedChannel
 ;
+nsCOMPtr
+<
+nsINetworkInterceptController
+>
+mInterceptController
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
