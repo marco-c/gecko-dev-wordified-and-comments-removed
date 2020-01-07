@@ -371,24 +371,6 @@ android
 "
     
 "
-log_format
-"
-:
-"
-%
-(
-levelname
-)
-8s
--
-%
-(
-message
-)
-s
-"
-    
-"
 log_tbpl_level
 "
 :
