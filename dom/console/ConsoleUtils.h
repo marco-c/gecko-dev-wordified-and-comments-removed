@@ -43,6 +43,14 @@ NS_INLINE_DECL_REFCOUNTING
 (
 ConsoleUtils
 )
+enum
+Level
+{
+eLog
+eWarning
+eError
+}
+;
 static
 void
 ReportForServiceWorkerScope
@@ -63,6 +71,8 @@ uint32_t
 aLineNumber
 uint32_t
 aColumnNumber
+Level
+aLevel
 )
 ;
 private
@@ -111,6 +121,8 @@ uint32_t
 aLineNumber
 uint32_t
 aColumnNumber
+Level
+aLevel
 )
 ;
 RefPtr
