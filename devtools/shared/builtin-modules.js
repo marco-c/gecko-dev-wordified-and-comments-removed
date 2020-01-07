@@ -69,7 +69,6 @@ jsmScope
 ;
 const
 {
-PromiseDebugging
 ChromeUtils
 HeapSnapshot
 atob
@@ -478,7 +477,6 @@ Services
 )
 promise
 Promise
-PromiseDebugging
 ChromeUtils
 HeapSnapshot
 InspectorUtils
