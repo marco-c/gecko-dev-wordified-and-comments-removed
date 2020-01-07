@@ -6255,16 +6255,7 @@ aDirtyFrame
 ;
 }
 return
-(
-aFrame
--
->
-GetStateBits
-(
-)
-&
-NS_FRAME_FORCE_DISPLAY_LIST_DESCEND_INTO
-)
+true
 ;
 }
 static
