@@ -14170,6 +14170,9 @@ sel
 >
 CollapseToStart
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

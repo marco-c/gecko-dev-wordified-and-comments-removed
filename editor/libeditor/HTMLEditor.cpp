@@ -6315,6 +6315,9 @@ selection
 >
 CollapseToStart
 (
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -6325,6 +6328,9 @@ selection
 >
 CollapseToEnd
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

@@ -2072,6 +2072,9 @@ selection
 >
 CollapseToEnd
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

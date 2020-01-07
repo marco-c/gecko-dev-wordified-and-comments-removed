@@ -11298,6 +11298,9 @@ domSelection
 >
 CollapseToStart
 (
+IgnoreErrors
+(
+)
 )
 ;
 }
