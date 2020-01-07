@@ -282,6 +282,25 @@ DevEdition
 '
     
 '
+macosx64
+-
+ccov
+'
+:
+'
+Rev7
+MacOSX
+Yosemite
+10
+.
+10
+.
+5
+Code
+Coverage
+'
+    
+'
 android
 -
 4
@@ -786,15 +805,6 @@ test
 )
 :
 test_description_schema
-    
-Required
-(
-'
-workdir
-'
-)
-:
-basestring
 }
 )
 def
@@ -881,15 +891,6 @@ job
 taskdesc
 )
 :
-    
-run
-=
-job
-[
-'
-run
-'
-]
     
 test
 =
@@ -1044,9 +1045,10 @@ logs
 /
 "
 "
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 workspace
 /
@@ -1057,13 +1059,6 @@ upload
 logs
 /
 "
-.
-format
-(
-*
-*
-run
-)
 )
         
 (
@@ -1073,20 +1068,14 @@ public
 test
 "
 "
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 artifacts
 /
 "
-.
-format
-(
-*
-*
-run
-)
 )
         
 (
@@ -1097,9 +1086,10 @@ test_info
 /
 "
 "
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 workspace
 /
@@ -1108,13 +1098,6 @@ build
 blobber_upload_dir
 /
 "
-.
-format
-(
-*
-*
-run
-)
 )
     
 ]
@@ -1188,19 +1171,13 @@ path
 join
 (
 '
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 workspace
 '
-.
-format
-(
-*
-*
-run
-)
 path
 )
         
@@ -1286,19 +1263,13 @@ point
 '
 :
 "
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 workspace
 "
-.
-format
-(
-*
-*
-run
-)
     
 }
 ]
@@ -1583,9 +1554,10 @@ command
 [
         
 '
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 bin
 /
@@ -1593,13 +1565,6 @@ run
 -
 task
 '
-.
-format
-(
-*
-*
-run
-)
     
 ]
     
@@ -1632,21 +1597,15 @@ vcs
 checkout
 '
 '
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 checkouts
 /
 gecko
 '
-.
-format
-(
-*
-*
-run
-)
 ]
 )
         
@@ -1658,9 +1617,10 @@ MOZHARNESS_PATH
 ]
 =
 '
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 checkouts
 /
@@ -1670,13 +1630,6 @@ testing
 /
 mozharness
 '
-.
-format
-(
-*
-*
-run
-)
     
 else
 :
@@ -1710,9 +1663,10 @@ extend
 '
         
 '
-{
-workdir
-}
+/
+builds
+/
+worker
 /
 bin
 /
@@ -1722,13 +1676,6 @@ linux
 .
 sh
 '
-.
-format
-(
-*
-*
-run
-)
     
 ]
 )
