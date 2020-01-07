@@ -135,6 +135,11 @@ SearchBox
 js
 '
 '
+Sidebar
+.
+js
+'
+'
 SidebarToggle
 .
 css
