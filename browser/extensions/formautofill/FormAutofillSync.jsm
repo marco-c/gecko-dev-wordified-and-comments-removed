@@ -1544,6 +1544,13 @@ _resetClient
 (
 )
 {
+await
+profileStorage
+.
+initialize
+(
+)
+;
 this
 .
 _store
