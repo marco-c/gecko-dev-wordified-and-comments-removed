@@ -3309,6 +3309,11 @@ ResetSetMediaKeysTempVariables
 (
 )
 ;
+void
+PauseIfShouldNotBePlaying
+(
+)
+;
 RefPtr
 <
 MediaDecoder
