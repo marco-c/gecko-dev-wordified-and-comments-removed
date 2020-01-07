@@ -8,6 +8,13 @@ h
 #
 include
 "
+string
+.
+h
+"
+#
+include
+"
 jsctypes
 -
 test
