@@ -10279,7 +10279,7 @@ any
 /
 readonly
 attribute
-string
+AString
 focusedInputType
 ;
 /
