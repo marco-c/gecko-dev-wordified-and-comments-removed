@@ -5341,6 +5341,16 @@ popup_border
 #
 27272b
 "
+toolbar_field_text
+:
+"
+rgb
+(
+249
+249
+250
+)
+"
 author
 :
 vendorShortName
