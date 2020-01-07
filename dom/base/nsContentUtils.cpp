@@ -23479,6 +23479,12 @@ Reset
 (
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 if
 (
 aSanitize
