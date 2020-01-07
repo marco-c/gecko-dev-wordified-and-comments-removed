@@ -143,10 +143,8 @@ String
 modeHint
 String
 actionHint
-boolean
-inPrivateBrowsing
-boolean
-isUserAction
+int
+flags
 )
 ;
 /

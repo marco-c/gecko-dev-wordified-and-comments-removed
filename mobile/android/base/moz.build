@@ -3570,16 +3570,6 @@ GeckoEditableChild
 java
 '
 '
-GeckoEditableClient
-.
-java
-'
-'
-GeckoEditableListener
-.
-java
-'
-'
 GeckoHalDefines
 .
 java
