@@ -1311,17 +1311,6 @@ nsIServiceWorkerManagerListener
 aListener
 )
 ;
-bool
-shouldReportToWindow
-(
-in
-mozIDOMWindowProxy
-aWindow
-in
-ACString
-aScope
-)
-;
 }
 ;
 %
