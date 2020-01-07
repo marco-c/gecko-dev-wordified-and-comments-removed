@@ -280,13 +280,6 @@ waitForExplicitFinish
 (
 )
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 var
 gFramesLoaded
 =

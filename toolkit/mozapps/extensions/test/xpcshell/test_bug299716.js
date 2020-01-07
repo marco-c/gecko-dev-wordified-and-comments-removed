@@ -563,13 +563,6 @@ start
 )
 ;
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 xhr
 =
 Components

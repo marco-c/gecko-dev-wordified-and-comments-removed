@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-var
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
 ChromeUtils
 .
 import

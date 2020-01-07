@@ -1830,15 +1830,6 @@ function
 (
 )
 {
-let
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 const
 {
 SessionHistory

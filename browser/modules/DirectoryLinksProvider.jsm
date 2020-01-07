@@ -13,13 +13,6 @@ DirectoryLinksProvider
 "
 ]
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 Cu
 .
 importGlobalProperties

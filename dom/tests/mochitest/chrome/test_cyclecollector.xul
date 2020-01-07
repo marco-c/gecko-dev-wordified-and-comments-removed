@@ -264,13 +264,6 @@ Bug
 *
 *
 /
-let
-Ci
-=
-Components
-.
-interfaces
-;
 var
 obs
 =

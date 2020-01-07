@@ -943,13 +943,6 @@ clearInfobars
 )
 {
 var
-Ci
-=
-Components
-.
-interfaces
-;
-var
 browser
 =
 window

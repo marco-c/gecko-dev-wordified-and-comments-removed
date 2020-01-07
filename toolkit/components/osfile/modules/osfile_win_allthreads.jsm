@@ -17,13 +17,6 @@ undefined
 "
 )
 {
-let
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

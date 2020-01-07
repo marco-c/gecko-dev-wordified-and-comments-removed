@@ -1,17 +1,3 @@
-var
-Cu
-=
-Components
-.
-utils
-;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 const
 {
 require

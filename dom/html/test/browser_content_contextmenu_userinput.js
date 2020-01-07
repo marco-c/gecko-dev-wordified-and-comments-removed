@@ -275,13 +275,6 @@ resolve
 >
 {
 let
-Ci
-=
-Components
-.
-interfaces
-;
-let
 windowUtils
 =
 content

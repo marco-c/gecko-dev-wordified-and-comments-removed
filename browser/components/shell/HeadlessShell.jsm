@@ -70,13 +70,6 @@ jsm
 )
 ;
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 progressListeners
 =
 new

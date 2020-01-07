@@ -3,13 +3,6 @@ run_test
 (
 )
 {
-var
-Cu
-=
-Components
-.
-utils
-;
 sb
 =
 new

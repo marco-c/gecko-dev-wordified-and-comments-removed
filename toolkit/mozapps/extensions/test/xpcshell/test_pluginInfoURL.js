@@ -1,10 +1,3 @@
-var
-Ci
-=
-Components
-.
-interfaces
-;
 ChromeUtils
 .
 import

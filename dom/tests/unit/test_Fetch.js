@@ -1,15 +1,3 @@
-const
-{
-utils
-:
-Cu
-results
-:
-Cr
-}
-=
-Components
-;
 Cu
 .
 importGlobalProperties

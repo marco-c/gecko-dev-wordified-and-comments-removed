@@ -284,13 +284,6 @@ Bug
 *
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 doTest
 (

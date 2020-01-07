@@ -4,15 +4,6 @@ strict
 "
 ;
 const
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
-const
 BASE_URI
 =
 "

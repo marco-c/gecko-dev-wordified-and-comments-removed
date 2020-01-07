@@ -13,13 +13,6 @@ TabState
 "
 ]
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

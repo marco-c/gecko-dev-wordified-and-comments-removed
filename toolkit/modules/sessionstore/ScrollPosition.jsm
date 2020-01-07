@@ -13,13 +13,6 @@ ScrollPosition
 "
 ]
 ;
-const
-Ci
-=
-Components
-.
-interfaces
-;
 this
 .
 ScrollPosition

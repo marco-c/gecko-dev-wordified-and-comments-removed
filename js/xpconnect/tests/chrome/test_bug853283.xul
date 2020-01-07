@@ -281,13 +281,6 @@ waitForExplicitFinish
 (
 )
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 go
 (

@@ -1,15 +1,3 @@
-let
-{
-classes
-:
-Cc
-interfaces
-:
-Ci
-}
-=
-Components
-;
 const
 BASE_ORIGIN
 =

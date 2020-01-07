@@ -82,13 +82,6 @@ Path
 else
 {
 let
-Cu
-=
-Components
-.
-utils
-;
-let
 Scope
 =
 {

@@ -1,16 +1,4 @@
 const
-{
-classes
-:
-Cc
-interfaces
-:
-Ci
-}
-=
-Components
-;
-const
 URIs
 =
 [

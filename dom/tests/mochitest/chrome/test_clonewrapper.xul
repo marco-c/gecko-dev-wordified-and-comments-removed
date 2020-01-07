@@ -187,13 +187,6 @@ CDATA
 /
 Setup
 .
-const
-Cu
-=
-Components
-.
-utils
-;
 SimpleTest
 .
 waitForExplicitFinish

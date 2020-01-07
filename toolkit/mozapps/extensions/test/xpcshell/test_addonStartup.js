@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-const
-Cr
-=
-Components
-.
-results
-;
 add_task
 (
 async

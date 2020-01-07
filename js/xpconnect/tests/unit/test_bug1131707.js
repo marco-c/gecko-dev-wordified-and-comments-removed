@@ -1,10 +1,3 @@
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 testStrict
 (

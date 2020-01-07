@@ -13,13 +13,6 @@ TabStateFlusher
 "
 ]
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 this
 .
 TabStateFlusher

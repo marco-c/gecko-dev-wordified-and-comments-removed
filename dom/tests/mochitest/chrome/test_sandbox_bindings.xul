@@ -295,13 +295,6 @@ Bug
 *
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 isXrayWrapper
 (

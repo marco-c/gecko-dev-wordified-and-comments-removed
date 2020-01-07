@@ -4,13 +4,6 @@ run_test
 )
 {
 var
-Cu
-=
-Components
-.
-utils
-;
-var
 sb
 =
 new

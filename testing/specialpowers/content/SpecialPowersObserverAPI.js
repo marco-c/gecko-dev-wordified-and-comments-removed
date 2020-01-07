@@ -104,13 +104,6 @@ undefined
 "
 )
 {
-var
-Ci
-=
-Components
-.
-interfaces
-;
 }
 if
 (
@@ -125,13 +118,6 @@ undefined
 "
 )
 {
-var
-Cc
-=
-Components
-.
-classes
-;
 }
 this
 .

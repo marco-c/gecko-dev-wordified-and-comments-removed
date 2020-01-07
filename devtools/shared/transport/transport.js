@@ -59,13 +59,6 @@ this
 else
 {
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 {
 require
 }

@@ -232,13 +232,6 @@ waitForExplicitFinish
 (
 )
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 var
 sb
 =

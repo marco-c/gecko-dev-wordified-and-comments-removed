@@ -610,13 +610,6 @@ yield
 undefined
 ;
 var
-Ci
-=
-Components
-.
-interfaces
-;
-var
 docshell
 =
 TestWindow

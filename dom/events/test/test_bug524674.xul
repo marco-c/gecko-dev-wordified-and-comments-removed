@@ -296,13 +296,6 @@ interfaces
 nsIEventListenerService
 )
 ;
-const
-Ci
-=
-Components
-.
-interfaces
-;
 function
 dummyListener
 (

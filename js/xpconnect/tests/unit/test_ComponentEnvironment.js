@@ -1,12 +1,3 @@
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 let
 tgt
 =

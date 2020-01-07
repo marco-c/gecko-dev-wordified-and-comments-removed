@@ -1,17 +1,3 @@
-const
-Cc
-=
-Components
-.
-classes
-;
-const
-Ci
-=
-Components
-.
-interfaces
-;
 function
 run_test
 (

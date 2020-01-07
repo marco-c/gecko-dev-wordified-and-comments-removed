@@ -10,13 +10,6 @@ exports
 )
 {
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 CC
 =
 Components

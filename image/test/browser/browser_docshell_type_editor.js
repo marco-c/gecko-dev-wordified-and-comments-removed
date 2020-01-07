@@ -4,13 +4,6 @@ strict
 "
 ;
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 SIMPLE_HTML
 =
 "

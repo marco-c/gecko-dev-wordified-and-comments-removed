@@ -378,13 +378,6 @@ up
 the
 sandbox
 .
-const
-Cu
-=
-Components
-.
-utils
-;
 var
 sb
 =

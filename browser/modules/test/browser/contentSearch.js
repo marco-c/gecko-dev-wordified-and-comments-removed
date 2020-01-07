@@ -168,13 +168,6 @@ resolve
 >
 {
 let
-Ci
-=
-Components
-.
-interfaces
-;
-let
 webProgress
 =
 content

@@ -16,15 +16,6 @@ function
 {
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 Services
 }
 =

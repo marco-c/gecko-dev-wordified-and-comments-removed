@@ -323,13 +323,6 @@ g
 g
 ;
 var
-Cu
-=
-Components
-.
-utils
-;
-var
 s
 =
 new

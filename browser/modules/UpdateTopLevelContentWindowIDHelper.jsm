@@ -8,13 +8,6 @@ trackBrowserWindow
 "
 ]
 ;
-const
-Ci
-=
-Components
-.
-interfaces
-;
 ChromeUtils
 .
 import

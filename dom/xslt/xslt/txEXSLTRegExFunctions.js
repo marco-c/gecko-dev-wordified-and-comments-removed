@@ -69,13 +69,6 @@ nodeset
 1
 "
 ;
-const
-Ci
-=
-Components
-.
-interfaces
-;
 function
 txEXSLTRegExFunctions
 (

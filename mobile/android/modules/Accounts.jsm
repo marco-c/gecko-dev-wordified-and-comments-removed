@@ -13,15 +13,6 @@ Accounts
 "
 ]
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

@@ -8,15 +8,6 @@ EngineSynchronizer
 "
 ]
 ;
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

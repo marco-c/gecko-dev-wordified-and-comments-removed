@@ -1,17 +1,3 @@
-var
-Ci
-=
-Components
-.
-interfaces
-;
-var
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

@@ -4,13 +4,6 @@ run_test
 )
 {
 let
-Cu
-=
-Components
-.
-utils
-;
-let
 sandbox1
 =
 new

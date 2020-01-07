@@ -1,10 +1,3 @@
-var
-Cu
-=
-Components
-.
-utils
-;
 const
 PREF_UTTERANCE_ORDER
 =

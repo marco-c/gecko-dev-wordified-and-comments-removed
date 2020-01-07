@@ -262,13 +262,6 @@ javascript
 [
 CDATA
 [
-const
-Cu
-=
-Components
-.
-utils
-;
 var
 sandbox
 =

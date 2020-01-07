@@ -272,13 +272,6 @@ Bug
 *
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 SimpleTest
 .
 waitForExplicitFinish

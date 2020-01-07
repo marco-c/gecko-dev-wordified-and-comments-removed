@@ -1,15 +1,3 @@
-var
-{
-interfaces
-:
-Ci
-utils
-:
-Cu
-}
-=
-Components
-;
 function
 canQuitApplication
 (

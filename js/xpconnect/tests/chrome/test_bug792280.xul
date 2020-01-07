@@ -269,13 +269,6 @@ Bug
 *
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 checkSb
 (

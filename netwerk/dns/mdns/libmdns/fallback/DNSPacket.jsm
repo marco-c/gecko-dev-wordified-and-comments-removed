@@ -13,15 +13,6 @@ DNSPacket
 '
 ]
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

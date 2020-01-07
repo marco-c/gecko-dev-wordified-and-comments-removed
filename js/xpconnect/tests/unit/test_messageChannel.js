@@ -6,13 +6,6 @@ function
 )
 {
 let
-Cu
-=
-Components
-.
-utils
-;
-let
 sb
 =
 new

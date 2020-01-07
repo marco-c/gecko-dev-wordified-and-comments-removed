@@ -491,13 +491,6 @@ waitForExplicitFinish
 )
 ;
 var
-Ci
-=
-Components
-.
-interfaces
-;
-var
 frame
 =
 document

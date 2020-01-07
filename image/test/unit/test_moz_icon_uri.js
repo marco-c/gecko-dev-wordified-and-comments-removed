@@ -1,17 +1,3 @@
-var
-Ci
-=
-Components
-.
-interfaces
-;
-var
-Cc
-=
-Components
-.
-classes
-;
 function
 run_test
 (

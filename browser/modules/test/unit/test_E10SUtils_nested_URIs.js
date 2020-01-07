@@ -1,15 +1,3 @@
-const
-{
-utils
-:
-Cu
-interfaces
-:
-Ci
-}
-=
-Components
-;
 ChromeUtils
 .
 import

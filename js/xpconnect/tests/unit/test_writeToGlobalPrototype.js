@@ -3,13 +3,6 @@ G
 =
 3
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 run_test
 (

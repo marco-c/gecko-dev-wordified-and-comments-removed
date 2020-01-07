@@ -54,13 +54,6 @@ Ci
 nsIIDNService
 )
 ;
-var
-Cr
-=
-Components
-.
-results
-;
 function
 run_test
 (

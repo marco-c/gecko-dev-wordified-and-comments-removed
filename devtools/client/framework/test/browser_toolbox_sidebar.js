@@ -3,13 +3,6 @@ test
 (
 )
 {
-const
-Cu
-=
-Components
-.
-utils
-;
 let
 {
 ToolSidebar

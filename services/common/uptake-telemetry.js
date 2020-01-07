@@ -15,15 +15,6 @@ UptakeTelemetry
 ;
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 Services
 }
 =

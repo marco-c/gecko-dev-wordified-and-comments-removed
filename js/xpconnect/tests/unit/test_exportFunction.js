@@ -4,13 +4,6 @@ run_test
 )
 {
 var
-Cu
-=
-Components
-.
-utils
-;
-var
 epsb
 =
 new

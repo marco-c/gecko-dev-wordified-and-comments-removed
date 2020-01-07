@@ -1,10 +1,3 @@
-var
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

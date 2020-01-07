@@ -172,13 +172,6 @@ savedMM
 =
 null
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 function
 info
 (

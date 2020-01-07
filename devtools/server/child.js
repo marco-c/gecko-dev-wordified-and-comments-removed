@@ -16,13 +16,6 @@ function
 )
 {
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 {
 require
 }

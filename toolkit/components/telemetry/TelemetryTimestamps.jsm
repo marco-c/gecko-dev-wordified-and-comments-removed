@@ -8,13 +8,6 @@ TelemetryTimestamps
 "
 ]
 ;
-const
-Cu
-=
-Components
-.
-utils
-;
 var
 timeStamps
 =

@@ -1,15 +1,3 @@
-var
-{
-classes
-:
-Cc
-interfaces
-:
-Ci
-}
-=
-Components
-;
 function
 check_profile_dir
 (

@@ -4,13 +4,6 @@ strict
 "
 ;
 var
-Cu
-=
-Components
-.
-utils
-;
-var
 {
 require
 }

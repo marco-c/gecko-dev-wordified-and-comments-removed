@@ -271,13 +271,6 @@ domain
 *
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 SimpleTest
 .
 waitForExplicitFinish

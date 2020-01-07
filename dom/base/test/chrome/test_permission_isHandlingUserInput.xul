@@ -260,13 +260,6 @@ javascript
 [
 CDATA
 [
-let
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

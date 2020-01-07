@@ -259,13 +259,6 @@ javascript
 [
 CDATA
 [
-const
-Cu
-=
-Components
-.
-utils
-;
 ChromeUtils
 .
 import

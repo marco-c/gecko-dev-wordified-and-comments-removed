@@ -222,15 +222,6 @@ key
 }
 )
 const
-{
-interfaces
-:
-Ci
-}
-=
-Components
-;
-const
 NS
 =
 {

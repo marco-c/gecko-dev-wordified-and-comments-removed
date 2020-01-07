@@ -1,12 +1,3 @@
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 Cu
 .
 import

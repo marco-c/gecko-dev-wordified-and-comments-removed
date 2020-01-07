@@ -5,15 +5,6 @@ strict
 ;
 const
 {
-utils
-:
-Cu
-}
-=
-Components
-;
-const
-{
 XPCOMUtils
 }
 =

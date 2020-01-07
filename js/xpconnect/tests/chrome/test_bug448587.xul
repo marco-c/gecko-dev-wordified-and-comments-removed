@@ -326,13 +326,6 @@ Bug
 *
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 var
 sandbox
 =

@@ -1,16 +1,4 @@
 let
-{
-classes
-:
-Cc
-interfaces
-:
-Ci
-}
-=
-Components
-;
-let
 swm
 =
 Cc

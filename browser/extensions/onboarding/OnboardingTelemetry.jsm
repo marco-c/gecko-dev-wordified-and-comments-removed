@@ -13,15 +13,6 @@ OnboardingTelemetry
 "
 ]
 ;
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

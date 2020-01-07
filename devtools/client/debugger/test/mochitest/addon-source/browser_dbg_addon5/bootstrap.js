@@ -1,15 +1,3 @@
-var
-{
-interfaces
-:
-Ci
-classes
-:
-Cc
-}
-=
-Components
-;
 function
 startup
 (

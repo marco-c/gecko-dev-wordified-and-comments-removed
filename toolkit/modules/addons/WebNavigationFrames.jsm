@@ -12,13 +12,6 @@ WebNavigationFrames
 "
 ]
 ;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 function
 docShellToWindow
 (

@@ -1,15 +1,3 @@
-var
-{
-utils
-:
-Cu
-interfaces
-:
-Ci
-}
-=
-Components
-;
 const
 {
 XPCOMUtils

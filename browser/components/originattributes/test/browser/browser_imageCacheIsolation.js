@@ -4,13 +4,6 @@ requestLongerTimeout
 )
 ;
 let
-Cu
-=
-Components
-.
-utils
-;
-let
 {
 HttpServer
 }

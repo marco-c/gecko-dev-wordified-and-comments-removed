@@ -13,15 +13,6 @@ initializeIdentityWithTokenServerResponse
 "
 ]
 ;
-var
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 ChromeUtils
 .
 import

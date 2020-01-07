@@ -3279,13 +3279,6 @@ getLoadContext
 (
 )
 {
-const
-Ci
-=
-Components
-.
-interfaces
-;
 return
 window
 .

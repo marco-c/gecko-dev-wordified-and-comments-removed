@@ -1,17 +1,3 @@
-var
-Cc
-=
-Components
-.
-classes
-;
-var
-Ci
-=
-Components
-.
-interfaces
-;
 do_get_profile
 (
 )
