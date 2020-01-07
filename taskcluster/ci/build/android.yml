@@ -2163,6 +2163,12 @@ dependencies
 -
 android
 -
+ndk
+-
+linux
+-
+android
+-
 sdk
 -
 linux
