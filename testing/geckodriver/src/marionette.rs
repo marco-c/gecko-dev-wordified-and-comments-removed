@@ -4342,9 +4342,7 @@ debug
 Browser
 process
 stopped
-with
-exit
-status
+:
 {
 }
 "
