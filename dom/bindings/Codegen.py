@@ -4699,9 +4699,6 @@ else
 protoGetter
 =
 "
-binding_detail
-:
-:
 GetHackedNamespaceProtoObject
 "
         
@@ -12142,15 +12139,12 @@ fill
 "
                 
 return
-binding_detail
-:
-:
 HTMLConstructor
 (
 cx
 argc
 vp
-                                                       
+                                       
 constructors
 :
 :
@@ -12160,7 +12154,7 @@ id
 {
 name
 }
-                                                       
+                                       
 prototypes
 :
 :
@@ -12170,7 +12164,7 @@ id
 {
 name
 }
-                                                       
+                                       
 CreateInterfaceObjects
 )
 ;
@@ -25421,9 +25415,6 @@ aReflector
 ifdef
 DEBUG
               
-binding_detail
-:
-:
 AssertReflectorHasGivenProto
 (
 aCx
@@ -42695,9 +42686,6 @@ seqType
 CGTemplatedType
 (
 "
-binding_detail
-:
-:
 AutoSequence
 "
                                               
@@ -49563,9 +49551,6 @@ isFallible
 reporterClass
 =
 "
-binding_detail
-:
-:
 FastErrorResult
 "
             
@@ -59790,9 +59775,6 @@ dedent
 "
 "
             
-binding_detail
-:
-:
 FastErrorResult
 rv
 ;
@@ -76271,9 +76253,6 @@ dedent
 "
 "
             
-binding_detail
-:
-:
 FastErrorResult
 rv
 ;
@@ -77965,9 +77944,6 @@ decls
 +
 =
 "
-binding_detail
-:
-:
 FakeString
 %
 s
@@ -89757,9 +89733,6 @@ JSAutoCompartment
 ac
 (
 cx
-binding_detail
-:
-:
 UnprivilegedJunkScopeOrWorkerGlobal
 (
 )
@@ -98151,6 +98124,55 @@ in
 descriptors
 )
         
+cgthings
+=
+[
+CGGeneric
+(
+dedent
+(
+            
+"
+"
+"
+            
+namespace
+binding_detail
+{
+}
+;
+/
+/
+Just
+to
+make
+sure
+it
+'
+s
+known
+as
+a
+namespace
+            
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+binding_detail
+;
+            
+"
+"
+"
+)
+)
+]
+        
 enums
 =
 config
@@ -98161,8 +98183,9 @@ webIDLFile
 )
         
 cgthings
-=
-[
+.
+extend
+(
 CGEnum
 (
 e
@@ -98171,7 +98194,7 @@ for
 e
 in
 enums
-]
+)
         
 hasCode
 =
@@ -116796,9 +116819,6 @@ JSAutoCompartment
 tempCompartment
 (
 cx
-binding_detail
-:
-:
 UnprivilegedJunkScopeOrWorkerGlobal
 (
 )
