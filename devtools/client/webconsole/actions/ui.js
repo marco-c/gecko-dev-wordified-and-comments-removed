@@ -53,6 +53,7 @@ SELECT_NETWORK_MESSAGE_TAB
 SIDEBAR_CLOSE
 SHOW_OBJECT_IN_SIDEBAR
 TIMESTAMPS_TOGGLE
+SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
 }
 =
 require
@@ -232,6 +233,21 @@ SIDEBAR_CLOSE
 ;
 }
 function
+splitConsoleCloseButtonToggle
+(
+shouldDisplayButton
+)
+{
+return
+{
+type
+:
+SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
+shouldDisplayButton
+}
+;
+}
+function
 showObjectInSidebar
 (
 actorId
@@ -320,5 +336,6 @@ selectNetworkMessageTab
 sidebarClose
 showObjectInSidebar
 timestampsToggle
+splitConsoleCloseButtonToggle
 }
 ;
