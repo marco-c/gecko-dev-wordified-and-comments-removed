@@ -994,7 +994,7 @@ mut
 self
 w
 :
-u16
+f32
 )
 {
 unsafe
@@ -1006,8 +1006,6 @@ Gecko_CSSValue_SetFontWeight
 (
 self
 w
-as
-f32
 )
 }
 }

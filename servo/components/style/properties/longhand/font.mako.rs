@@ -375,12 +375,14 @@ specified
 FontWeight
 :
 :
-Normal
+normal
+(
+)
 "
 animation_value_type
 =
 "
-ComputedValue
+Number
 "
 flags
 =

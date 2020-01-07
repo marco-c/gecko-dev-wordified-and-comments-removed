@@ -2871,7 +2871,7 @@ fromComp
 midComp
 :
 "
-600
+550
 "
 toComp
 :
