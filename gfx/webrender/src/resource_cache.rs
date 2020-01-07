@@ -2423,6 +2423,7 @@ FontInstanceOptions
 render_mode
 flags
 bg_color
+synthetic_italics
 .
 .
 }
@@ -2464,6 +2465,7 @@ new
 bg_color
 render_mode
 flags
+synthetic_italics
 platform_options
 variations
 )
