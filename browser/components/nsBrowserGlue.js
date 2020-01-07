@@ -2006,6 +2006,17 @@ LoginManagerParent
 "
 ]
 "
+LoginStats
+:
+LoginEncountered
+"
+:
+[
+"
+LoginManagerParent
+"
+]
+"
 WCCR
 :
 registerProtocolHandler
