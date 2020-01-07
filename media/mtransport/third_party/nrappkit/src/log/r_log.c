@@ -645,6 +645,9 @@ NR_reg_initted
 {
 if
 (
+(
+size_t
+)
 snprintf
 (
 dest_prefix
@@ -697,6 +700,9 @@ r
 ;
 if
 (
+(
+size_t
+)
 snprintf
 (
 log_types
@@ -1107,6 +1113,11 @@ _status
 ;
 abort
 :
+(
+void
+)
+_status
+;
 return
 ;
 }
@@ -1206,7 +1217,7 @@ hex
 =
 0
 ;
-int
+size_t
 unused
 ;
 if
@@ -2428,6 +2439,9 @@ i
 {
 if
 (
+(
+size_t
+)
 snprintf
 (
 reg_key
@@ -2523,6 +2537,9 @@ value
 ;
 if
 (
+(
+size_t
+)
 snprintf
 (
 reg_key

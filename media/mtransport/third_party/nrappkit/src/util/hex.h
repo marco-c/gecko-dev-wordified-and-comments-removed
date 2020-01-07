@@ -10,7 +10,7 @@ nr_nbin2hex
 UCHAR
 *
 bin
-int
+size_t
 binlen
 char
 hex
@@ -18,7 +18,7 @@ hex
 ]
 size_t
 size
-int
+size_t
 *
 len
 )
@@ -29,7 +29,7 @@ nr_nhex2bin
 char
 *
 hex
-int
+size_t
 hexlen
 UCHAR
 bin
@@ -37,7 +37,7 @@ bin
 ]
 size_t
 size
-int
+size_t
 *
 len
 )

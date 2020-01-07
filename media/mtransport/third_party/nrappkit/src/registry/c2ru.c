@@ -835,6 +835,7 @@ unsigned
 int
 count
 ;
+unsigned
 int
 i
 ;
