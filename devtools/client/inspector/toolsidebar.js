@@ -282,6 +282,13 @@ doc
 showAllTabsMenu
 :
 true
+sidebarToggleButton
+:
+this
+.
+_options
+.
+sidebarToggleButton
 onSelect
 :
 this
