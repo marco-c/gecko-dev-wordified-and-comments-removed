@@ -66,6 +66,27 @@ is_automation
 True
     
 "
+locales_file
+"
+:
+"
+%
+s
+/
+mobile
+/
+locales
+/
+l10n
+-
+changesets
+.
+json
+"
+%
+MOZILLA_DIR
+    
+"
 locales_dir
 "
 :
@@ -75,6 +96,18 @@ mobile
 android
 /
 locales
+"
+    
+"
+locales_platform
+"
+:
+"
+android
+-
+api
+-
+16
 "
     
 "
@@ -88,6 +121,14 @@ en
 US
 "
 ]
+    
+"
+platform
+"
+:
+"
+android
+"
     
 "
 build_target
@@ -242,11 +283,14 @@ EN_US_BINARY_URL
 os
 .
 environ
-[
+.
+get
+(
 "
 EN_US_BINARY_URL
 "
-]
+EN_US_BINARY_URL
+)
         
 "
 MOZ_OBJDIR
@@ -261,4 +305,21 @@ MOZ_UPDATE_CHANNEL
 MOZ_UPDATE_CHANNEL
     
 }
+    
+"
+upload_branch
+"
+:
+"
+%
+s
+-
+android
+-
+api
+-
+16
+"
+%
+BRANCH
 }

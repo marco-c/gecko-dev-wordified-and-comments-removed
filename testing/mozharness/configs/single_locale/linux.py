@@ -3,6 +3,14 @@ config
 {
     
 "
+platform
+"
+:
+"
+linux
+"
+    
+"
 app_name
 "
 :
@@ -102,6 +110,16 @@ hg_l10n_tag
 :
 "
 default
+"
+    
+"
+application_ini
+"
+:
+"
+application
+.
+ini
 "
     
 "

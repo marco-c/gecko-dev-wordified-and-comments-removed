@@ -17,7 +17,7 @@ branch
 "
 mozilla
 -
-central
+esr60
 "
     
 "
@@ -29,13 +29,17 @@ http
 :
 /
 /
-archive
+ftp
 .
 mozilla
 .
 org
 /
 pub
+/
+mozilla
+.
+org
 /
 firefox
 /
@@ -45,7 +49,8 @@ latest
 -
 mozilla
 -
-central
+esr60
+/
 "
     
 "
@@ -53,7 +58,7 @@ update_channel
 "
 :
 "
-nightly
+esr
 "
     
 "

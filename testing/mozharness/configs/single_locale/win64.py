@@ -3,6 +3,14 @@ config
 {
     
 "
+platform
+"
+:
+"
+win64
+"
+    
+"
 app_name
 "
 :
@@ -120,6 +128,22 @@ l10n
 "
     
 "
+locales_file
+"
+:
+"
+src
+/
+browser
+/
+locales
+/
+all
+-
+locales
+"
+    
+"
 locales_dir
 "
 :
@@ -135,6 +159,16 @@ hg_l10n_tag
 :
 "
 default
+"
+    
+"
+application_ini
+"
+:
+"
+application
+.
+ini
 "
     
 "

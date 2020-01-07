@@ -1,5 +1,3 @@
-import
-os
 config
 =
 {
@@ -17,7 +15,7 @@ branch
 "
 mozilla
 -
-central
+esr52
 "
     
 "
@@ -25,7 +23,7 @@ en_us_binary_url
 "
 :
 "
-http
+https
 :
 /
 /
@@ -37,6 +35,10 @@ org
 /
 pub
 /
+mozilla
+.
+org
+/
 firefox
 /
 nightly
@@ -45,7 +47,8 @@ latest
 -
 mozilla
 -
-central
+esr52
+/
 "
     
 "
@@ -53,7 +56,7 @@ update_channel
 "
 :
 "
-nightly
+esr
 "
     
 "
@@ -71,23 +74,14 @@ mozilla
 .
 org
 /
+releases
+/
 l10n
+/
+mozilla
 -
-central
+release
 "
-    
-"
-mar_tools_url
-"
-:
-os
-.
-environ
-[
-"
-MAR_TOOLS_URL
-"
-]
     
 '
 is_automation
