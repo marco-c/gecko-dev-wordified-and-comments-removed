@@ -10863,14 +10863,6 @@ identifier
 =
 =
 "
-RunConstructorInCallerCompartment
-"
-or
-                  
-identifier
-=
-=
-"
 NonOrdinaryGetPrototypeOf
 "
 )
