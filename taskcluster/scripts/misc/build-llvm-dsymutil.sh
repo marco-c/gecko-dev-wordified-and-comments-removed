@@ -122,6 +122,9 @@ ninja
 llvm
 -
 dsymutil
+llvm
+-
+symbolizer
 tar
 -
 -
@@ -149,6 +152,11 @@ bin
 llvm
 -
 dsymutil
+bin
+/
+llvm
+-
+symbolizer
 mkdir
 -
 p
