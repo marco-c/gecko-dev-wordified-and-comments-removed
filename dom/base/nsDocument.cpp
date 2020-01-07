@@ -44088,17 +44088,6 @@ true
 if
 (
 !
-static_cast
-<
-const
-nsDocument
-*
->
-(
-this
-)
--
->
 IsAboutPage
 (
 )
