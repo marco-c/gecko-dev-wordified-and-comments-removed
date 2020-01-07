@@ -15375,9 +15375,6 @@ mForceKillTimer
 =
 nullptr
 ;
-#
-ifdef
-NIGHTLY_BUILD
 MessageChannel
 *
 channel
@@ -15399,8 +15396,6 @@ SetInKillHardShutdown
 )
 ;
 }
-#
-endif
 if
 (
 mCrashReporter
