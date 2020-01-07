@@ -2554,13 +2554,6 @@ nullptr
 )
 ;
 }
-nsHttpChannelAuthProvider
-:
-:
-InitializePrefs
-(
-)
-;
 mMisc
 .
 AssignLiteral

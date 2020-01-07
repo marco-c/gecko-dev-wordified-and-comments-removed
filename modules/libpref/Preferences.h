@@ -1233,6 +1233,10 @@ bool
 aDefault
 =
 false
+bool
+aSkipAssignment
+=
+false
 )
 ;
 template
@@ -1259,6 +1263,10 @@ bool
 aDefault
 =
 false
+bool
+aSkipAssignment
+=
+false
 )
 ;
 static
@@ -1276,6 +1284,10 @@ int32_t
 aDefault
 =
 0
+bool
+aSkipAssignment
+=
+false
 )
 ;
 template
@@ -1302,6 +1314,10 @@ int32_t
 aDefault
 =
 0
+bool
+aSkipAssignment
+=
+false
 )
 ;
 static
@@ -1319,6 +1335,10 @@ uint32_t
 aDefault
 =
 0
+bool
+aSkipAssignment
+=
+false
 )
 ;
 template
@@ -1345,6 +1365,10 @@ uint32_t
 aDefault
 =
 0
+bool
+aSkipAssignment
+=
+false
 )
 ;
 static
@@ -1364,6 +1388,10 @@ aDefault
 0
 .
 0f
+bool
+aSkipAssignment
+=
+false
 )
 ;
 static
@@ -1556,6 +1584,8 @@ char
 >
 InitInitialObjects
 (
+bool
+aIsStartup
 )
 ;
 static
