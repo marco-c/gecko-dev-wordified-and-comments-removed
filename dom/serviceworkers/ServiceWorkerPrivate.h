@@ -290,8 +290,8 @@ bool
 aIsReload
 )
 ;
-void
-StoreISupports
+bool
+MaybeStoreISupports
 (
 nsISupports
 *
