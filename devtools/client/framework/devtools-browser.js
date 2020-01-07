@@ -1011,7 +1011,7 @@ break
 ;
 case
 "
-sdk
+devtools
 :
 loader
 :
@@ -3191,7 +3191,7 @@ removeObserver
 (
 gDevToolsBrowser
 "
-sdk
+devtools
 :
 loader
 :
@@ -3390,7 +3390,7 @@ addObserver
 (
 gDevToolsBrowser
 "
-sdk
+devtools
 :
 loader
 :
