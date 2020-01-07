@@ -516,7 +516,6 @@ urlbarSuggestsPref
 .
 value
 =
-!
 urlbarSuggests
 .
 checked
