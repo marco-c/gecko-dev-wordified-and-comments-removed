@@ -4494,6 +4494,15 @@ visuallyselected
 =
 true
 ]
+:
+not
+(
+:
+-
+moz
+-
+lwtheme
+)
 {
 -
 moz
