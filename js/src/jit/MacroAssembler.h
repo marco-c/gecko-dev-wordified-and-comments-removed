@@ -11424,6 +11424,16 @@ Register
 scratch
 )
 ;
+void
+branchIfNativeIteratorNotReusable
+(
+Register
+ni
+Label
+*
+notReusable
+)
+;
 using
 MacroAssemblerSpecific
 :
