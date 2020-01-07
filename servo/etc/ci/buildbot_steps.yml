@@ -1578,6 +1578,7 @@ chaos_monkey_test
 .
 py
 -
+env
 RUSTFLAGS
 =
 bash
