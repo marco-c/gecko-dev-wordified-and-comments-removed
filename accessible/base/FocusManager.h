@@ -4,6 +4,15 @@ mozilla_a11y_FocusManager_h_
 #
 define
 mozilla_a11y_FocusManager_h_
+#
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
 class
 nsINode
 ;

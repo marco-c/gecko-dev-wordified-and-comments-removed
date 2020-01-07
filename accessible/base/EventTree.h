@@ -23,6 +23,17 @@ include
 "
 mozilla
 /
+a11y
+/
+DocAccessible
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -42,6 +53,9 @@ mozilla
 namespace
 a11y
 {
+class
+NotificationController
+;
 class
 TreeMutation
 final

@@ -123,6 +123,17 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+HTMLBodyElement
+.
+h
+"
 using
 namespace
 mozilla

@@ -5,6 +5,12 @@ AccessibleOrProxy
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 AccessibleOrProxy
 AccessibleOrProxy
 :
@@ -76,4 +82,6 @@ OuterDocOfRemoteBrowser
 (
 )
 ;
+}
+}
 }

@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 TextLeafAccessible
 .
 h
@@ -76,6 +83,13 @@ mozilla
 :
 :
 a11y
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 NotificationController
 :
