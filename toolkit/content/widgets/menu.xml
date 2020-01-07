@@ -363,9 +363,7 @@ if
 (
 parent
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULContainerElement
 )

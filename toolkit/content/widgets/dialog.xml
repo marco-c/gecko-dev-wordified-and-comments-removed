@@ -3546,9 +3546,7 @@ event
 .
 originalTarget
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULButtonElement
 )
