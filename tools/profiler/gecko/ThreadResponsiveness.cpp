@@ -334,16 +334,8 @@ aTimer
 final
 override
 {
-mThread
--
->
-Dispatch
+Run
 (
-this
-nsIThread
-:
-:
-NS_DISPATCH_NORMAL
 )
 ;
 return
