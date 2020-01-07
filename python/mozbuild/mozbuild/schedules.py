@@ -38,10 +38,6 @@ INCLUSIVE_COMPONENTS
 [
     
 '
-docs
-'
-    
-'
 py
 -
 lint
