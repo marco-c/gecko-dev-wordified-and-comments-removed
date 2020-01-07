@@ -140,11 +140,6 @@ nsMultiMixedConv
 cpp
 '
 '
-nsTXTToHTMLConv
-.
-cpp
-'
-'
 nsUnknownDecoder
 .
 cpp
