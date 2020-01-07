@@ -418,7 +418,7 @@ name
 '
 :
 '
-jsshell
+js
 -
 bench
 '
