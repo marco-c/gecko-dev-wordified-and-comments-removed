@@ -33816,6 +33816,12 @@ aContent
 if
 (
 !
+IsWebComponentsEnabled
+(
+)
+|
+|
+!
 aContent
 )
 {
