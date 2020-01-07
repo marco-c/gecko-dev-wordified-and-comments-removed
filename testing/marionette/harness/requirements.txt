@@ -21,7 +21,7 @@ driver
 =
 2
 .
-6
+7
 .
 0
 mozcrash
@@ -33,9 +33,11 @@ mozcrash
 mozdevice
 >
 =
+1
+.
 0
 .
-44
+0
 mozinfo
 >
 =
@@ -69,9 +71,11 @@ mozprofile
 mozrunner
 >
 =
-6
+7
 .
-15
+0
+.
+1
 moztest
 >
 =

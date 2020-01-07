@@ -1,9 +1,11 @@
 mozrunner
 >
 =
-6
+7
 .
-15
+0
+.
+1
 mozversion
 >
 =
