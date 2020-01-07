@@ -3483,7 +3483,7 @@ GetNextSibling
 }
 content
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (

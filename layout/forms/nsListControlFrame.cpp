@@ -718,7 +718,7 @@ BorderBackground
 )
 -
 >
-AppendNewToBottom
+AppendToBottom
 (
 new
 (

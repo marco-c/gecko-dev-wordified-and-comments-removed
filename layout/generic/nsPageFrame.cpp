@@ -2831,7 +2831,7 @@ NS_RGBA
 }
 content
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -2886,7 +2886,7 @@ Content
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (

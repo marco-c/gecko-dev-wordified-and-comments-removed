@@ -6772,7 +6772,7 @@ Content
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (

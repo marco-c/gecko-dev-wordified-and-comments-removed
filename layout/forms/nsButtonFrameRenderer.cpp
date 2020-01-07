@@ -2436,7 +2436,7 @@ mBoxShadow
 aBackground
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -2474,7 +2474,7 @@ aBackground
 aBackground
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -2508,7 +2508,7 @@ HasBorder
 aForeground
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (

@@ -2607,7 +2607,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -2632,7 +2632,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -2971,7 +2971,7 @@ dependentFrame
 }
 thisItemList
 .
-AppendNewToTop
+AppendToTop
 (
 nsDisplayFixedPosition
 :
@@ -3012,7 +3012,7 @@ dependentFrame
 ;
 thisItemList
 .
-AppendNewToTop
+AppendToTop
 (
 bgItem
 )
@@ -3044,7 +3044,7 @@ aBuilder
 ;
 thisItemList
 .
-AppendNewToTop
+AppendToTop
 (
 new
 (
@@ -3118,7 +3118,7 @@ BorderBackground
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 nsDisplayBlendContainer
 :
@@ -3382,7 +3382,7 @@ Outlines
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (

@@ -380,7 +380,7 @@ Content
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (

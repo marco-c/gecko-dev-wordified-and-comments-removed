@@ -1522,7 +1522,7 @@ Content
 )
 -
 >
-AppendNewToTop
+AppendToTop
 (
 new
 (
