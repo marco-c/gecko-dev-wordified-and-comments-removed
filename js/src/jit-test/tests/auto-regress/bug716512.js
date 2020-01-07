@@ -3,6 +3,7 @@ gcparam
 "
 maxBytes
 "
-22000
+-
+1
 )
 ;
