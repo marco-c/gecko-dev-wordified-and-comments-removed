@@ -2697,9 +2697,10 @@ header
 "
 )
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 msg1
+)
 ;
 doc
 .
@@ -2716,9 +2717,10 @@ message
 "
 )
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 msg2
+)
 ;
 }
 else
