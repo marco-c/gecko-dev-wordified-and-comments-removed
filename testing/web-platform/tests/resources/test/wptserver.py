@@ -1,4 +1,6 @@
 import
+logging
+import
 os
 import
 subprocess
@@ -182,15 +184,8 @@ w
 '
 )
         
-self
-.
-proc
+wptserve_cmd
 =
-subprocess
-.
-Popen
-(
-            
 [
 os
 .
@@ -209,6 +204,36 @@ wpt
 serve
 '
 ]
+        
+logging
+.
+info
+(
+'
+Executing
+%
+s
+'
+%
+'
+'
+.
+join
+(
+wptserve_cmd
+)
+)
+        
+self
+.
+proc
+=
+subprocess
+.
+Popen
+(
+            
+wptserve_cmd
             
 stderr
 =
@@ -242,7 +267,8 @@ sleep
 retry
 )
             
-if
+exit_code
+=
 self
 .
 proc
@@ -250,10 +276,38 @@ proc
 poll
 (
 )
+            
+if
+exit_code
 !
 =
 None
 :
+                
+logging
+.
+warn
+(
+'
+Command
+"
+%
+s
+"
+exited
+with
+%
+s
+'
+'
+'
+.
+join
+(
+wptserve_cmd
+)
+exit_code
+)
                 
 break
             
@@ -290,8 +344,14 @@ Could
 not
 start
 wptserve
-.
+on
+%
+s
 '
+%
+self
+.
+base_url
 )
     
 def
