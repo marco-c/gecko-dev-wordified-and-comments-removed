@@ -259,7 +259,7 @@ proc_macro_derive
 Parse
 attributes
 (
-parse
+css
 )
 )
 ]

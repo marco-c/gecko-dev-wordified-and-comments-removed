@@ -4732,14 +4732,14 @@ Evenodd
 FillRule
 :
 :
-EvenOdd
+Evenodd
 }
 else
 {
 FillRule
 :
 :
-NonZero
+Nonzero
 }
 ;
 let

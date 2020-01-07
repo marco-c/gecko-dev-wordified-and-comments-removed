@@ -6,15 +6,6 @@ deny
 missing_docs
 )
 ]
-#
-!
-[
-recursion_limit
-=
-"
-500
-"
-]
 extern
 crate
 app_units
@@ -338,10 +329,6 @@ extern
 crate
 style_derive
 ;
-#
-[
-macro_use
-]
 extern
 crate
 style_traits

@@ -154,7 +154,7 @@ i
 t
 >
 (
-context
+_context
 :
 &
 ParserContext
@@ -193,17 +193,10 @@ input
 .
 try
 (
-|
-i
-|
 BorderStyle
 :
 :
 parse
-(
-context
-i
-)
 )
 {
 if
