@@ -7242,17 +7242,6 @@ opt
 '
 :
                 
-if
-try_options
-.
-get
-(
-'
-taskcluster_worker
-'
-)
-:
-                    
 test
 [
 '
@@ -7274,28 +7263,6 @@ t
 linux
 -
 talos
-'
-                
-else
-:
-                    
-test
-[
-'
-worker
--
-type
-'
-]
-=
-'
-buildbot
--
-bridge
-/
-buildbot
--
-bridge
 '
             
 else
