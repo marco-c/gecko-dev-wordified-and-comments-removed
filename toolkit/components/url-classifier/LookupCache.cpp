@@ -1046,6 +1046,7 @@ nsIUrlClassifierCacheInfo
 *
 aCache
 )
+const
 {
 MOZ_ASSERT
 (
@@ -2353,6 +2354,7 @@ LookupCache
 DumpCache
 (
 )
+const
 {
 if
 (
@@ -3682,6 +3684,7 @@ LookupCacheV2
 DumpCompletions
 (
 )
+const
 {
 if
 (
