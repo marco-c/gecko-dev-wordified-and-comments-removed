@@ -8338,6 +8338,9 @@ view
 let
 transactions
 ;
+let
+itemsCount
+;
 if
 (
 insertionPoint
@@ -8372,6 +8375,12 @@ item
 uri
 )
 ;
+itemsCount
+=
+urls
+.
+length
+;
 transactions
 =
 [
@@ -8402,6 +8411,12 @@ insertionPoint
 getIndex
 (
 )
+;
+itemsCount
+=
+items
+.
+length
 ;
 transactions
 =
@@ -8506,9 +8521,7 @@ PlacesUIUtils
 batchUpdatesForNode
 (
 resultForBatching
-transactions
-.
-length
+itemsCount
 async
 (
 )
