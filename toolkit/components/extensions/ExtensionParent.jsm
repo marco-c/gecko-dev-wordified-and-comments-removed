@@ -5953,6 +5953,9 @@ imageData
 details
 .
 path
+!
+=
+null
 )
 {
 let
@@ -6158,6 +6161,9 @@ baseURI
 if
 (
 path
+!
+=
+null
 )
 {
 if
