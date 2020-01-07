@@ -197,6 +197,8 @@ CompositorAnimationStorage
 &
 &
 aAnimStorage
+TimeDuration
+aVsyncRate
 )
 ;
 static
@@ -511,6 +513,10 @@ aIdNamespace
 const
 TimeStamp
 &
+aRefreshStartTime
+const
+TimeStamp
+&
 aTxnStartTime
 const
 TimeStamp
@@ -569,6 +575,10 @@ wr
 IdNamespace
 &
 aIdNamespace
+const
+TimeStamp
+&
+aRefreshStartTime
 const
 TimeStamp
 &
@@ -988,6 +998,10 @@ Epoch
 aWrEpoch
 TransactionId
 aTransactionId
+const
+TimeStamp
+&
+aRefreshStartTime
 const
 TimeStamp
 &
@@ -1427,6 +1441,10 @@ aId
 const
 TimeStamp
 &
+aRefreshStartTime
+const
+TimeStamp
+&
 aTxnStartTime
 const
 TimeStamp
@@ -1441,6 +1459,10 @@ aEpoch
 mId
 (
 aId
+)
+mRefreshStartTime
+(
+aRefreshStartTime
 )
 mTxnStartTime
 (
@@ -1460,6 +1482,9 @@ mEpoch
 ;
 TransactionId
 mId
+;
+TimeStamp
+mRefreshStartTime
 ;
 TimeStamp
 mTxnStartTime
@@ -1601,6 +1626,9 @@ nsTHashtable
 nsUint64HashKey
 >
 mSharedSurfaceIds
+;
+TimeDuration
+mVsyncRate
 ;
 TimeStamp
 mPreviousFrameTimeStamp

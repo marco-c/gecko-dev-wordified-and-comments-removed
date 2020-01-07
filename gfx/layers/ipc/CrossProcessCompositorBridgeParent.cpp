@@ -1445,6 +1445,12 @@ move
 (
 animStorage
 )
+cbp
+-
+>
+GetVsyncInterval
+(
+)
 )
 ;
 parent

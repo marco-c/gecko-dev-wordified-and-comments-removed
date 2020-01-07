@@ -432,6 +432,8 @@ aLargeShmems
 IdNamespace
 aIdNamespace
 TimeStamp
+refreshStartTime
+TimeStamp
 txnStartTime
 TimeStamp
 fwdTime
@@ -460,6 +462,8 @@ TransactionId
 transactionId
 IdNamespace
 aIdNamespace
+TimeStamp
+refreshStartTime
 TimeStamp
 txnStartTime
 TimeStamp
