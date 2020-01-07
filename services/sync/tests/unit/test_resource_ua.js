@@ -391,7 +391,9 @@ Agent
 ua
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ua
 expectedUA
@@ -479,7 +481,9 @@ Agent
 ua
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ua
 expectedUA
@@ -576,7 +580,9 @@ Agent
 ua
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ua
 expectedUA
@@ -673,7 +679,9 @@ Agent
 ua
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ua
 expectedUA

@@ -29,7 +29,9 @@ jsm
 scope
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 scope
 .
@@ -43,7 +45,9 @@ foo
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 scope
 .
@@ -59,7 +63,9 @@ baz
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 scope
 .

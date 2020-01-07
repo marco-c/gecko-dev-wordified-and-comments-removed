@@ -84,7 +84,9 @@ placesRoot
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 histsvc
 .
@@ -162,7 +164,9 @@ test
 20anno
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 histsvc
 .
@@ -194,7 +198,9 @@ placeURI
 options
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 options
 .
@@ -207,7 +213,9 @@ anno
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 options
 .

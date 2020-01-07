@@ -237,7 +237,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -366,7 +368,9 @@ sources
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -419,7 +423,9 @@ error
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -448,7 +454,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -521,7 +529,9 @@ error
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -550,7 +560,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

@@ -70,7 +70,9 @@ inRecord
 inStatus
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 inStatus
 Cr
@@ -87,7 +89,9 @@ getNextAddrAsString
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 answer
 =
@@ -137,7 +141,9 @@ inRecord
 inStatus
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 inStatus
 Cr
@@ -154,7 +160,9 @@ getNextAddrAsString
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 answer
 =
@@ -204,7 +212,9 @@ inRecord
 inStatus
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 inStatus
 Cr
@@ -321,7 +331,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .

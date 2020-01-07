@@ -69,7 +69,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 transitions
@@ -105,7 +107,9 @@ getChild
 i
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 node
 .
@@ -119,7 +123,9 @@ substr
 TRANSITION_EMBED
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 node
 .

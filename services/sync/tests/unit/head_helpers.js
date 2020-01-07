@@ -887,7 +887,9 @@ removeAddonListener
 listener
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 null
 install
@@ -895,7 +897,9 @@ install
 addon
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 null
 install
@@ -925,7 +929,9 @@ getAddonInstall
 name
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 null
 install
@@ -1331,7 +1337,9 @@ a1
 a2
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a1
 .
@@ -1359,7 +1367,9 @@ length
 i
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a1
 [

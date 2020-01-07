@@ -560,7 +560,9 @@ windowId
 windowId
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 id
 windowId

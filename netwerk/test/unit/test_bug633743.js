@@ -302,7 +302,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -705,8 +707,11 @@ metadata
 response
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 metadata
 .
 hasHeader

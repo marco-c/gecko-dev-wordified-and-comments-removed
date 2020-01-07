@@ -106,7 +106,9 @@ success
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 success
 )
@@ -203,7 +205,9 @@ lag
 time
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 time
 >

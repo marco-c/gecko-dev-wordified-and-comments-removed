@@ -385,7 +385,9 @@ org
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cached
 null
@@ -406,7 +408,9 @@ org
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cached
 null
@@ -427,7 +431,9 @@ org
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cached
 null

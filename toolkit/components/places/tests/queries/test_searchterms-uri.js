@@ -481,8 +481,11 @@ task_populateDB
 change1
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 isInResult
 (
 {
@@ -537,7 +540,9 @@ task_populateDB
 change2
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 isInResult
 (

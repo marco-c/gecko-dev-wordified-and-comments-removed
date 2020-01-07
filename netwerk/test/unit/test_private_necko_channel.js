@@ -254,7 +254,9 @@ function
 count
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 count
 0
@@ -272,7 +274,9 @@ function
 count
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 count
 1

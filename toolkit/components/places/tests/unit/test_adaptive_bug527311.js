@@ -348,7 +348,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -360,7 +362,9 @@ nsIAutoCompleteController
 STATUS_COMPLETE_NO_MATCH
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .

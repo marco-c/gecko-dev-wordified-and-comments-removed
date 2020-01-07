@@ -362,7 +362,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -398,7 +400,9 @@ i
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 newGrips
 [

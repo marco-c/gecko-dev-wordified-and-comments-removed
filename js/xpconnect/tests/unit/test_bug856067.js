@@ -67,7 +67,9 @@ w
 sb
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Object
 .
@@ -82,7 +84,9 @@ Object
 prototype
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Object
 .
@@ -95,7 +99,9 @@ length
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 w
 .
@@ -105,7 +111,9 @@ foopy
 12
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 w
 .

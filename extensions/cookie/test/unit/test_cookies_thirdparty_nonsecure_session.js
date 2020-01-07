@@ -259,7 +259,9 @@ do_load_profile
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -274,7 +276,9 @@ host
 4
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -352,7 +356,9 @@ do_load_profile
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -367,7 +373,9 @@ host
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

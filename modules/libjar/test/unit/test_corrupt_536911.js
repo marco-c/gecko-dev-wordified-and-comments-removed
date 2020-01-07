@@ -159,7 +159,9 @@ failed
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 failed
 )

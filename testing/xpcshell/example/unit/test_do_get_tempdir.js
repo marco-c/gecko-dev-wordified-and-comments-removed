@@ -17,7 +17,9 @@ do_get_tempdir
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmpd
 .
@@ -47,7 +49,9 @@ NORMAL_FILE_TYPE
 600
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmpd
 .

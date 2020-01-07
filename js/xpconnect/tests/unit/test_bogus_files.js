@@ -60,7 +60,9 @@ didThrow
 true
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 didThrow
 shouldThrow
@@ -70,7 +72,9 @@ if
 (
 didThrow
 )
-do_check_eq
+Assert
+.
+equal
 (
 exceptionName
 expectedName
@@ -160,7 +164,9 @@ NS_ERROR_FILE_NOT_FOUND
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 (
@@ -189,7 +195,9 @@ object
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 (

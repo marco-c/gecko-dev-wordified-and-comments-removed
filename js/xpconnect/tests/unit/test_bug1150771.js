@@ -71,7 +71,9 @@ arg
 sandbox2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 Cu
@@ -97,7 +99,9 @@ arg
 sandbox2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 Cu
@@ -113,7 +117,9 @@ object
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .

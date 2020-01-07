@@ -144,7 +144,9 @@ text
 length
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -204,7 +206,9 @@ text
 length
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 "
@@ -358,7 +362,9 @@ if
 expectedResponse
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 data
 expectedResponse
@@ -367,7 +373,9 @@ expectedResponse
 }
 else
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 !

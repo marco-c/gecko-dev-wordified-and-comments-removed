@@ -165,7 +165,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -177,7 +179,9 @@ debuggerStatement
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

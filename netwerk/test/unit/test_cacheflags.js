@@ -513,7 +513,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Components
 .
@@ -526,7 +528,9 @@ this
 expectSuccess
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -536,7 +540,9 @@ this
 readFromCache
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gHitServer
 this

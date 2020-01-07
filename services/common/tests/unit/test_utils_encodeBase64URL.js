@@ -61,7 +61,9 @@ expected
 )
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 CommonUtils
 .
@@ -87,7 +89,9 @@ test_no_padding
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 CommonUtils
 .

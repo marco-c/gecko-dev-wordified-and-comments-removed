@@ -168,7 +168,9 @@ shutdown
 "
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 1
 )
@@ -195,7 +197,9 @@ function
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 success
 )
@@ -220,7 +224,9 @@ starting
 "
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 1
 )

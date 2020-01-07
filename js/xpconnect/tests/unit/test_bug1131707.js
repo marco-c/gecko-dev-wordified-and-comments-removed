@@ -16,7 +16,9 @@ use
 strict
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -34,7 +36,9 @@ string
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -124,7 +128,9 @@ val
 sb
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 Date
@@ -135,7 +141,9 @@ string
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 new
@@ -147,7 +155,9 @@ object
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -165,7 +175,9 @@ string
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .

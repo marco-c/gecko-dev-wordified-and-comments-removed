@@ -113,7 +113,9 @@ a3
 ]
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a1
 .
@@ -121,7 +123,9 @@ isDebuggable
 false
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a2
 .
@@ -129,7 +133,9 @@ isDebuggable
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a3
 .

@@ -353,7 +353,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 upgrade_insecure_header
 curTest

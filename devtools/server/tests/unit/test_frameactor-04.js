@@ -302,7 +302,9 @@ count
 undefined
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 testFrames
 .
@@ -383,7 +385,9 @@ name
 ]
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 expected
 [

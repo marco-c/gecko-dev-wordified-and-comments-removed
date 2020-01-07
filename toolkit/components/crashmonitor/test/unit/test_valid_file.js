@@ -61,7 +61,9 @@ CrashMonitor
 .
 previousCheckpoints
 ;
-do_check_true
+Assert
+.
+ok
 (
 checkpoints
 [
@@ -75,7 +77,9 @@ startup
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Object
 .

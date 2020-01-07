@@ -83,7 +83,9 @@ function
 addons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gCount
 addons
@@ -101,7 +103,9 @@ function
 pendingAddons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 0
 pendingAddons
@@ -145,7 +149,9 @@ function
 addons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gCount
 addons
@@ -183,7 +189,9 @@ function
 addons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gCount
 addons

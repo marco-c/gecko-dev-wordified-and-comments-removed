@@ -181,7 +181,9 @@ response
 bpClient
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -202,7 +204,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -212,7 +216,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -228,7 +234,9 @@ source
 actor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -242,7 +250,9 @@ location
 line
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -254,7 +264,9 @@ breakpoint
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -269,7 +281,9 @@ bpClient
 actor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .
@@ -277,7 +291,9 @@ a
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .

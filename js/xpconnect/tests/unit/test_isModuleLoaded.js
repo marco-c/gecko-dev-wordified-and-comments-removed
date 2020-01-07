@@ -10,7 +10,9 @@ run_test
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -62,7 +64,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -112,7 +116,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -144,7 +150,9 @@ module
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -207,7 +215,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -232,7 +242,9 @@ ex
 )
 {
 }
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu

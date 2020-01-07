@@ -210,7 +210,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -218,7 +220,9 @@ childCount
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -232,7 +236,9 @@ title
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .

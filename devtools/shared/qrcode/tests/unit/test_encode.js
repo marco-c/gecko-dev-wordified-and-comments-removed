@@ -74,7 +74,9 @@ L
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 imgData
 .
@@ -145,7 +147,9 @@ lymmzJk0a9q8iTOnzp0NCgAAOw
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 imgData
 .
@@ -153,7 +157,9 @@ width
 58
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 imgData
 .

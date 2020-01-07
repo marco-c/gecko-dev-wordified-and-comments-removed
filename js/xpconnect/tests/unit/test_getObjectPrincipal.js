@@ -47,7 +47,9 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 secMan
 .
@@ -102,7 +104,9 @@ foo
 sb
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .

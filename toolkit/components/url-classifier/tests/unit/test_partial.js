@@ -513,7 +513,9 @@ slice
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -559,7 +561,9 @@ i
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 this
 .

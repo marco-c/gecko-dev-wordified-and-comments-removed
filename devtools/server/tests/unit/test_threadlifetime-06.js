@@ -155,7 +155,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -186,7 +188,9 @@ actor
 i
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 actor
 packet
@@ -214,7 +218,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -241,7 +247,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

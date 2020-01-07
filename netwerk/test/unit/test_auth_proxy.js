@@ -202,7 +202,9 @@ authInfo
 {
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 (
 authInfo
@@ -348,7 +350,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cred
 .
@@ -358,7 +362,9 @@ authInfo
 realm
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 cred
@@ -968,7 +974,9 @@ channel
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -978,7 +986,9 @@ request
 responseStatus
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -1017,7 +1027,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 "
@@ -1078,7 +1090,9 @@ ctx
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

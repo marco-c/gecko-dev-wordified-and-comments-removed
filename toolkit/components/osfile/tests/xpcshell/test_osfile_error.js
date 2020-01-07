@@ -125,7 +125,9 @@ exception
 ex
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 exception
 instanceof
@@ -134,7 +136,9 @@ File
 Error
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exception
 .
@@ -217,7 +221,9 @@ exception
 ex
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 exception
 instanceof
@@ -226,7 +232,9 @@ File
 Error
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exception
 .
@@ -368,7 +376,9 @@ do_print
 exception
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exception
 instanceof
@@ -377,7 +387,9 @@ File
 Error
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exception
 .

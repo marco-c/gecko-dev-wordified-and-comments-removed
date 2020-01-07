@@ -142,7 +142,9 @@ append
 SUBDIR
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 target
 .
@@ -199,7 +201,9 @@ entry
 path
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 entry
 .

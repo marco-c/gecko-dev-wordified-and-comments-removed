@@ -174,7 +174,9 @@ this
 expectResponse
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -185,7 +187,9 @@ NS_OK
 }
 else
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

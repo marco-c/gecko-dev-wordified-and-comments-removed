@@ -154,7 +154,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -164,7 +166,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -180,7 +184,9 @@ line0
 5
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -192,7 +198,9 @@ resumeLimit
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .
@@ -200,7 +208,9 @@ a
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gDebuggee
 .

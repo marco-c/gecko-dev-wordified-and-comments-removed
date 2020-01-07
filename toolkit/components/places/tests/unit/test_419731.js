@@ -349,7 +349,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -374,7 +376,9 @@ Ci
 nsINavHistoryContainerResultNode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 theTag
 .
@@ -403,7 +407,9 @@ bar
 }
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 theTag
 root
@@ -430,7 +436,9 @@ Ci
 nsINavHistoryContainerResultNode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 theTag
 .
@@ -446,7 +454,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 theTag
 .
@@ -464,7 +474,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -613,7 +625,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -630,7 +644,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .

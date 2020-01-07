@@ -121,7 +121,9 @@ event
 packet2
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet1
 .

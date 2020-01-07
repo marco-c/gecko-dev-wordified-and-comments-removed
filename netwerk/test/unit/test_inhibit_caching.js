@@ -258,7 +258,9 @@ Ci
 nsIHttpChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -266,7 +268,9 @@ responseStatus
 200
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 "
@@ -424,7 +428,9 @@ Ci
 nsIHttpChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -432,7 +438,9 @@ responseStatus
 200
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 "

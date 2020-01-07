@@ -103,7 +103,9 @@ function
 packet1
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet1
 .
@@ -113,7 +115,9 @@ root
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet1
 .
@@ -146,7 +150,9 @@ function
 packet2
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet2
 .
@@ -156,7 +162,9 @@ root
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 packet1
 .

@@ -35,7 +35,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 result
 2
@@ -63,7 +65,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 result
 2
@@ -136,7 +140,9 @@ xhr
 sb
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -154,7 +160,9 @@ xhr
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -168,7 +176,9 @@ mynative
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -200,7 +210,9 @@ sb
 xhr
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 Cu
@@ -211,7 +223,9 @@ waived
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .

@@ -313,7 +313,9 @@ in
 notif1
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 notif1
 [

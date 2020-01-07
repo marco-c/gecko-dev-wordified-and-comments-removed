@@ -3,7 +3,9 @@ run_test
 (
 )
 {
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -14,7 +16,9 @@ x
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -28,7 +32,9 @@ x
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -39,7 +45,9 @@ undefined
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 [
 3
@@ -53,7 +61,9 @@ do_check_matches
 ]
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 [
 3

@@ -193,7 +193,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .
@@ -201,7 +203,9 @@ childCount
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .
@@ -254,7 +258,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .
@@ -300,7 +306,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .
@@ -308,7 +316,9 @@ childCount
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .
@@ -361,7 +371,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .
@@ -369,7 +381,9 @@ childCount
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rootNode
 .

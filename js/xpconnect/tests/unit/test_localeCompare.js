@@ -3,7 +3,9 @@ run_test
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 "
 C
@@ -19,7 +21,9 @@ D
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 D
@@ -35,7 +39,9 @@ C
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 \
@@ -52,7 +58,9 @@ D
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 D

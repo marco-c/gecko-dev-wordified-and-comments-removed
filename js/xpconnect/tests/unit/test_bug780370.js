@@ -49,7 +49,9 @@ r
 }
 }
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .
@@ -74,7 +76,9 @@ expected
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .

@@ -71,7 +71,9 @@ objRef
 =
 obj
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .
@@ -94,7 +96,9 @@ nukeSandbox
 sb
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -104,7 +108,9 @@ obj
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .

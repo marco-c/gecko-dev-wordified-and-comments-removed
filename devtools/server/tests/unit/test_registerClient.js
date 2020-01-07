@@ -327,7 +327,9 @@ type
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 type
 "
@@ -335,7 +337,9 @@ foo
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .
@@ -377,7 +381,9 @@ then
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 gTestClient
 .

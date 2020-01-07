@@ -72,7 +72,9 @@ sql
 ;
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 statement
 .

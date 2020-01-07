@@ -63,7 +63,9 @@ prototype
 requestTypes
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Array
 .
@@ -75,7 +77,9 @@ requestTypes
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 JSON
 .

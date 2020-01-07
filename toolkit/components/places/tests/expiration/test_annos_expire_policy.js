@@ -972,7 +972,9 @@ getPagesWithAnnotation
 aAnno
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 .
@@ -1012,7 +1014,9 @@ getItemsWithAnnotation
 aAnno
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 items
 .
@@ -1061,7 +1065,9 @@ getPagesWithAnnotation
 aAnno
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 .
@@ -1110,7 +1116,9 @@ getItemsWithAnnotation
 aAnno
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 items
 .

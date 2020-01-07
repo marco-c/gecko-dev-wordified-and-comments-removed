@@ -130,7 +130,9 @@ evt
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 evt
 "
@@ -150,7 +152,9 @@ sources
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -178,7 +182,9 @@ function
 lines
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 arrays_equal
 (

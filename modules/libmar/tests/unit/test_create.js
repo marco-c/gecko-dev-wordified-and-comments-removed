@@ -50,8 +50,11 @@ if
 checkNoMAR
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 outMAR
 .
 exists
@@ -483,7 +486,9 @@ false
 }
 }
 ;
-do_check_eq
+Assert
+.
+equal
 (
 run_tests
 (

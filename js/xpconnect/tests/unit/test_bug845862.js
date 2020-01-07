@@ -75,7 +75,9 @@ return
 sb
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 sb
 .
@@ -121,7 +123,9 @@ get
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 b
 !

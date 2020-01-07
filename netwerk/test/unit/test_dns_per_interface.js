@@ -90,7 +90,9 @@ requestWithInterfaceNotCanceled
 )
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 inStatus
 Cr

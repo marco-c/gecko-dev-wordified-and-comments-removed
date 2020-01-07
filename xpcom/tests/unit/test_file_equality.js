@@ -82,7 +82,9 @@ exists
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exists
 )
@@ -111,7 +113,9 @@ tmp1
 path
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmp1
 .
@@ -130,8 +134,11 @@ appendRelativePath
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 tmp1
 .
 equals
@@ -146,7 +153,9 @@ normalize
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmp1
 .

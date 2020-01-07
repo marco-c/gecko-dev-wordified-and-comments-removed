@@ -123,7 +123,9 @@ variables
 .
 person
 ;
-do_check_eq
+Assert
+.
+equal
 (
 person
 .
@@ -155,7 +157,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -171,7 +175,9 @@ Function
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -187,7 +193,9 @@ Function
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -259,7 +267,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -288,7 +298,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -315,7 +327,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

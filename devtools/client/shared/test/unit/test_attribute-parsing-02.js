@@ -949,7 +949,9 @@ if
 expected
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 tokens
@@ -973,7 +975,9 @@ correct
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tokens
 .
@@ -1014,7 +1018,9 @@ token
 i
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tokens
 [
@@ -1030,7 +1036,9 @@ i
 value
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tokens
 [

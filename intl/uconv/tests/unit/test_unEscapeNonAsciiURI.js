@@ -47,7 +47,9 @@ FE
 FF
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 textToSubURI
 .
@@ -339,7 +341,9 @@ e
 result
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 thrown
 t
@@ -350,7 +354,9 @@ throws
 }
 else
 {
-do_check_eq
+Assert
+.
+equal
 (
 textToSubURI
 .

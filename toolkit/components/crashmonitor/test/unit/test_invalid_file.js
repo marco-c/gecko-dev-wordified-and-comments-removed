@@ -44,7 +44,9 @@ init
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -65,7 +67,9 @@ CrashMonitor
 .
 previousCheckpoints
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !

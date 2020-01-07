@@ -72,7 +72,9 @@ x
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -130,7 +132,9 @@ sb
 fun
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 doubleWrapped
 .
@@ -151,7 +155,9 @@ forceGC
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 doubleWrapped
 .

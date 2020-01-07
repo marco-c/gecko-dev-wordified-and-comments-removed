@@ -173,7 +173,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 responseBody
@@ -200,7 +202,9 @@ loadInfo
 .
 redirectChain
 ;
-do_check_eq
+Assert
+.
+equal
 (
 numRedirects
 -
@@ -238,7 +242,9 @@ i
 .
 principal
 ;
-do_check_eq
+Assert
+.
+equal
 (
 URL
 +
@@ -253,7 +259,9 @@ URI
 spec
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 redirectChain
 [
@@ -275,7 +283,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 redirectChain
 [

@@ -153,7 +153,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -250,7 +252,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -329,7 +333,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -355,7 +361,9 @@ function
 str
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 str
 .
@@ -363,7 +371,9 @@ length
 10
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 str
 "

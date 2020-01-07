@@ -203,7 +203,9 @@ bindByIndex
 visitId
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -228,7 +230,9 @@ finalize
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 placeId
 >
@@ -315,7 +319,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -355,7 +361,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -426,7 +434,9 @@ check_results
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -445,7 +455,9 @@ check_results
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -464,7 +476,9 @@ check_results
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await

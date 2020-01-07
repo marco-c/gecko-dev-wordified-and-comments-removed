@@ -168,7 +168,9 @@ a1
 ]
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a1
 .
@@ -190,7 +192,9 @@ loadJSON
 gExtensionsJSON
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 schemaVersion
@@ -199,7 +203,9 @@ in
 data
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 .

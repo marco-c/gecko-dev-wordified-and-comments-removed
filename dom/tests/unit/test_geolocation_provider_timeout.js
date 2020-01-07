@@ -67,7 +67,9 @@ successCallback
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -82,7 +84,9 @@ errorCallback
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )

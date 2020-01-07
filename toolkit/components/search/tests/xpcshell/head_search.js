@@ -1594,7 +1594,9 @@ instanceof
 Object
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 expectedObj
 [
@@ -1648,7 +1650,9 @@ property
 prop
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expectedObj
 [
@@ -2339,7 +2343,9 @@ function
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Services
 .

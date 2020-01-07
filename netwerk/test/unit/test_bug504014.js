@@ -1050,7 +1050,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .

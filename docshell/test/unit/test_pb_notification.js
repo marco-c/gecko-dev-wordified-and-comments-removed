@@ -104,7 +104,9 @@ aTopic
 aData
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aTopic
 "

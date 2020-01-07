@@ -43,7 +43,9 @@ getNewPrompter
 null
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 prompt
 null
@@ -60,7 +62,9 @@ getNewAuthPrompter
 null
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 prompt
 null
@@ -82,7 +86,9 @@ interfaces
 nsIPrompt
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 prompt
 null
@@ -104,7 +110,9 @@ interfaces
 nsIAuthPrompt
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 prompt
 null
@@ -126,7 +134,9 @@ interfaces
 nsIAuthPrompt2
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 prompt
 null

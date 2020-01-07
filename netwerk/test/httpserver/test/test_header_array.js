@@ -317,7 +317,9 @@ Authenticate
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 headerValue
 "
@@ -348,7 +350,9 @@ Authenticate
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 headerValue
 "
@@ -383,7 +387,9 @@ Merge
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 headerValue
 "

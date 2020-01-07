@@ -163,7 +163,9 @@ GMT
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 serv
 .
@@ -200,7 +202,9 @@ com
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 serv
 .

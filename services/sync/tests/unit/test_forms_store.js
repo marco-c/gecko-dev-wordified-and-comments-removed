@@ -136,7 +136,9 @@ applyEnsureNoFailures
 records
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -296,7 +298,9 @@ one
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 (
 store
@@ -324,7 +328,9 @@ dupe
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -376,7 +382,9 @@ id
 rec
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rec
 .
@@ -388,7 +396,9 @@ name
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rec
 .
@@ -414,7 +424,9 @@ delete
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 (
 await
@@ -622,7 +634,9 @@ there
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 (
 store
@@ -833,7 +847,9 @@ one
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 (
 store

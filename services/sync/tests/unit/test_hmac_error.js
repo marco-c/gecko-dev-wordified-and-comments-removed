@@ -210,7 +210,9 @@ scotsman
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 1
 Service
@@ -715,7 +717,9 @@ _
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 hmacErrorCount
 0
@@ -1358,7 +1362,9 @@ again
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 hasData
@@ -1510,7 +1516,9 @@ keysWBO
 .
 modified
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 hasData
@@ -1586,7 +1594,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 hmacErrorCount
 0

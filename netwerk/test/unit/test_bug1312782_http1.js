@@ -536,7 +536,9 @@ maxWindowId
 maxWindowId
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 id
 <

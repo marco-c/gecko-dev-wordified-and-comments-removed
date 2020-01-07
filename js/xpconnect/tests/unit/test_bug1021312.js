@@ -35,7 +35,9 @@ function
 str
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 /
 someString
@@ -112,7 +114,9 @@ str
 sb
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 called
 )

@@ -342,7 +342,9 @@ test
 prefs
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Ci
 .
@@ -414,7 +416,9 @@ test
 prefs
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 test
 .
@@ -447,7 +451,9 @@ test
 prefs
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Ci
 .

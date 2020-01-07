@@ -74,7 +74,9 @@ null
 base
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -111,7 +113,9 @@ null
 base
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -148,7 +152,9 @@ null
 base
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -184,7 +190,9 @@ null
 base
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .

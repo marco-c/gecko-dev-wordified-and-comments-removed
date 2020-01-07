@@ -68,7 +68,9 @@ chromeSB
 .
 foo
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .
@@ -113,7 +115,9 @@ r
 chromeSB
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .

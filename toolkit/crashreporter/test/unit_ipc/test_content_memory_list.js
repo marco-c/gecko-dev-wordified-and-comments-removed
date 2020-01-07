@@ -137,7 +137,9 @@ mdump
 extra
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 mdump
 .
@@ -146,7 +148,9 @@ exists
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 mdump
 .
@@ -159,7 +163,9 @@ if
 (
 is_win7_or_newer
 )
-do_check_true
+Assert
+.
+ok
 (
 CrashTestUtils
 .

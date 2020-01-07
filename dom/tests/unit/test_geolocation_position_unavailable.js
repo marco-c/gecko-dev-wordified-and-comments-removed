@@ -31,7 +31,9 @@ successCallback
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -47,7 +49,9 @@ errorCallback
 err
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Ci
 .

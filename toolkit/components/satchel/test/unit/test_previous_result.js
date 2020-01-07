@@ -8,7 +8,9 @@ search
 result
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 result
 .
@@ -35,7 +37,9 @@ search
 result
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 result
 .

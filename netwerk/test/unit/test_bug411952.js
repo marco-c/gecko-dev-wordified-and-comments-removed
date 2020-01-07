@@ -28,7 +28,9 @@ Ci
 nsICookieManager
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 cm
 null
@@ -178,7 +180,9 @@ C
 "
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 "
 creationTime
@@ -211,7 +215,9 @@ creationTime
 1000000
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Math
 .
@@ -243,7 +249,9 @@ break
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 found
 "

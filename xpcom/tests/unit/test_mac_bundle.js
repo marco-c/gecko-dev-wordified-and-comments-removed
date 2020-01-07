@@ -46,7 +46,9 @@ app
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 keynoteBundle
 instanceof
@@ -57,7 +59,9 @@ interfaces
 nsILocalFileMac
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 appBundle
 instanceof
@@ -68,7 +72,9 @@ interfaces
 nsILocalFileMac
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 keynoteBundle
 .
@@ -77,7 +83,9 @@ isPackage
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 appBundle
 .

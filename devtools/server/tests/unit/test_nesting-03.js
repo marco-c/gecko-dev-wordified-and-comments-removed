@@ -158,7 +158,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -176,7 +178,9 @@ response
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -184,7 +188,9 @@ response
 error
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -202,7 +208,9 @@ response
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -210,7 +218,9 @@ response
 error
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

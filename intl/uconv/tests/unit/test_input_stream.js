@@ -157,7 +157,9 @@ ConvertToUnicode
 utf8Result
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (

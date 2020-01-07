@@ -146,7 +146,9 @@ run_test
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 is_registered
 (
@@ -156,8 +158,11 @@ test1
 )
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 is_registered
 (
 "
@@ -166,7 +171,9 @@ test2
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 is_registered
 (
@@ -176,8 +183,11 @@ test3
 )
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 is_registered
 (
 "

@@ -84,7 +84,9 @@ encoding
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -109,7 +111,9 @@ finalize
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 enc
 =
@@ -185,7 +189,9 @@ t
 ;
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -194,7 +200,9 @@ executeStep
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expectedDistance
 stmt

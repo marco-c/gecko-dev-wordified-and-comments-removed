@@ -56,7 +56,9 @@ indentation
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 indent1
 !
@@ -65,7 +67,9 @@ indent1
 indent2
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 loader1
 .
@@ -78,7 +82,9 @@ loader2
 _provider
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 loader1
 .

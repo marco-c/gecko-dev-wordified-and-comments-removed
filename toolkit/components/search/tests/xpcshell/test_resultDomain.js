@@ -113,7 +113,9 @@ searchTerms
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine1
 .
@@ -127,7 +129,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine1
 .
@@ -146,7 +150,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine1
 .
@@ -173,7 +179,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine1
 .
@@ -191,7 +199,9 @@ type
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine2
 .
@@ -205,7 +215,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine3
 .

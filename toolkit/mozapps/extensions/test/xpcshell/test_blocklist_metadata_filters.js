@@ -141,7 +141,9 @@ features
 args
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 url
 URI_EXTENSION_BLOCKLIST_DIALOG
@@ -685,7 +687,9 @@ a3
 ]
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a1
 .
@@ -697,7 +701,9 @@ nsIBlocklistService
 STATE_NOT_BLOCKED
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a2
 .
@@ -709,7 +715,9 @@ nsIBlocklistService
 STATE_NOT_BLOCKED
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a3
 .
@@ -788,7 +796,9 @@ a3
 ]
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 a1
 .
@@ -800,7 +810,9 @@ nsIBlocklistService
 STATE_SOFTBLOCKED
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a2
 .
@@ -812,7 +824,9 @@ nsIBlocklistService
 STATE_BLOCKED
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a3
 .

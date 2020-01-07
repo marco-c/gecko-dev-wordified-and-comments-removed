@@ -10,8 +10,11 @@ getTestDB
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 db
 .
 exists
@@ -28,7 +31,9 @@ openUnsharedDatabase
 db
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 db
 .
@@ -50,7 +55,9 @@ getTestDB
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 db
 .
@@ -68,7 +75,9 @@ openUnsharedDatabase
 db
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 db
 .

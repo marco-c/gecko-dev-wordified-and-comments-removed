@@ -33,7 +33,9 @@ mdump
 extra
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 mdump
 .
@@ -42,7 +44,9 @@ exists
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 mdump
 .
@@ -51,7 +55,9 @@ fileSize
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 CrashTestUtils
 .

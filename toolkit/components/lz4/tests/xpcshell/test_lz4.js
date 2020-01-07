@@ -82,7 +82,9 @@ do_check_true
 :
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 data
 .

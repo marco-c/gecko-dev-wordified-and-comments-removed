@@ -237,7 +237,9 @@ init
 await
 observerPromise
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .

@@ -56,7 +56,9 @@ decodeUTF8
 encoded
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 decoded
 str

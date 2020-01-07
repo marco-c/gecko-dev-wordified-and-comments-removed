@@ -37,7 +37,9 @@ a
 b
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Math
 .
@@ -95,7 +97,9 @@ NowSeconds
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -161,7 +165,9 @@ function
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .

@@ -26,7 +26,9 @@ Ci
 nsIPermissionManager
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -188,7 +190,9 @@ pear
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -203,7 +207,9 @@ apple
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -218,7 +224,9 @@ apple
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -233,7 +241,9 @@ pear
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -248,7 +258,9 @@ cucumber
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (
@@ -263,7 +275,9 @@ pear
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 perm_count
 (

@@ -213,7 +213,9 @@ instanceof
 Array
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 error
 .
@@ -230,7 +232,9 @@ result
 }
 else
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .
@@ -244,7 +248,9 @@ thrown
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 thrown
 )

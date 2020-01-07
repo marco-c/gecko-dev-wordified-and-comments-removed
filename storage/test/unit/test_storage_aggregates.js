@@ -248,7 +248,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Cr
 .
@@ -337,7 +339,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Cr
 .
@@ -380,7 +384,9 @@ executeStep
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 testNums
 .
@@ -467,7 +473,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sas
 stmt

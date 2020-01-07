@@ -67,7 +67,9 @@ PR_USEC_PER_MSEC
 false
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipW
 .
@@ -92,7 +94,9 @@ ZipReader
 tmpFile
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipR
 .
@@ -129,7 +133,9 @@ ZIP_EXTENDED_TIMESTAMP_SIZE
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 source
 .

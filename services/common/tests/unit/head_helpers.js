@@ -117,7 +117,9 @@ obj
 c
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 c
 Object
@@ -175,7 +177,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .
@@ -224,7 +228,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .

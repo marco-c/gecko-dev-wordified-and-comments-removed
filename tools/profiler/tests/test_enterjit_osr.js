@@ -46,7 +46,9 @@ p
 )
 return
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 p
@@ -187,7 +189,9 @@ arbitrary_name
 (
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 profile
 .
@@ -271,7 +275,9 @@ arbitrary_name
 )
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gotName
 false
@@ -283,7 +289,9 @@ true
 ;
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 gotName
 true

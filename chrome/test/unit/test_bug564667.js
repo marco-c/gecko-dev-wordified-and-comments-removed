@@ -89,7 +89,9 @@ convertChromeURL
 uri
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 .

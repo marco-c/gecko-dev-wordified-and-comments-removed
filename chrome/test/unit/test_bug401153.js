@@ -142,7 +142,9 @@ target
 {
 try
 {
-do_check_true
+Assert
+.
+ok
 (
 rph
 .
@@ -200,7 +202,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 rph
 .
@@ -240,8 +244,11 @@ test_failed_mapping
 namespace
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 rph
 .
 hasSubstitution

@@ -173,7 +173,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -183,7 +185,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -224,7 +228,9 @@ function
 response
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 response
 .

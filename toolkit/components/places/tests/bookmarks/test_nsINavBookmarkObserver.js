@@ -82,7 +82,9 @@ aMethodName
 aArguments
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 this
 .
@@ -108,7 +110,9 @@ shift
 .
 args
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aArguments
 .
@@ -136,7 +140,9 @@ i
 +
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 args
 [
@@ -374,7 +380,9 @@ validate
 aMethodName
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 this
 .

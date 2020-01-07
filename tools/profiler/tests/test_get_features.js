@@ -71,7 +71,9 @@ GetFeatures
 ]
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 profilerFeatures
 !

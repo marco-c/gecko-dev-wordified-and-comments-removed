@@ -261,7 +261,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 testData
@@ -272,7 +274,9 @@ testNum
 data
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .

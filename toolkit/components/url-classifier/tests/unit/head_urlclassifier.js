@@ -1368,7 +1368,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tables
 expectedTables
@@ -1474,7 +1476,9 @@ function
 arg
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 expected
 arg
@@ -1599,7 +1603,9 @@ join
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tables
 expected

@@ -72,7 +72,9 @@ off
 count
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 req
 .

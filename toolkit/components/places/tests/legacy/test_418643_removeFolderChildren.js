@@ -834,7 +834,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .

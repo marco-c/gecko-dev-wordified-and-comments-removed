@@ -368,7 +368,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -376,7 +378,9 @@ responseStatus
 200
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -403,7 +407,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -419,7 +425,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -427,7 +435,9 @@ responseStatus
 200
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -454,7 +464,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -462,7 +474,9 @@ responseStatus
 200
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .

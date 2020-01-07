@@ -104,7 +104,9 @@ TextEncoder
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 new
 TextDecoder
@@ -119,7 +121,9 @@ utf
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 new
 TextEncoder

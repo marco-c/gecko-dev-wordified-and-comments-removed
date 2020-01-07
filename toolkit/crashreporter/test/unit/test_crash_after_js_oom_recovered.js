@@ -107,7 +107,9 @@ mdump
 extra
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .
@@ -117,7 +119,9 @@ Yes
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .

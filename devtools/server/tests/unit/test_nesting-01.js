@@ -129,7 +129,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -137,7 +139,9 @@ currentStep
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 thread
 .
@@ -155,7 +159,9 @@ true
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 thread
 .
@@ -166,7 +172,9 @@ p
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 +
 +
@@ -174,7 +182,9 @@ currentStep
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 thread
 .

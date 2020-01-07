@@ -24,7 +24,9 @@ jsm
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -42,7 +44,9 @@ catch
 x
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 x
 .
@@ -60,7 +64,9 @@ jsm
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 x
 .

@@ -63,7 +63,9 @@ o
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -78,7 +80,9 @@ prop
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -93,7 +97,9 @@ f
 undefined
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -110,7 +116,9 @@ wrappedJSObject
 allowed
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .
@@ -171,7 +179,9 @@ wrappedJSObject
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 friend
 .
@@ -207,7 +217,9 @@ waived
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 from
 .

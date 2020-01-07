@@ -204,7 +204,9 @@ readyState
 return
 false
 ;
-do_check_eq
+Assert
+.
+equal
 (
 xhr
 .
@@ -220,7 +222,9 @@ status
 200
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 xhr
 .

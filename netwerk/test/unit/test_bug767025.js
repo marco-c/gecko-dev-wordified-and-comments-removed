@@ -1000,7 +1000,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1058,7 +1060,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1175,7 +1179,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1233,7 +1239,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1291,7 +1299,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1349,7 +1359,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1407,7 +1419,9 @@ append
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .
@@ -1465,7 +1479,9 @@ FC3E6D6C1164E9
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 file
 .

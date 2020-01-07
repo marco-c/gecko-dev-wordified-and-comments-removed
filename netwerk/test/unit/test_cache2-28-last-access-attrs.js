@@ -38,7 +38,9 @@ min
 max
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 t
 >
@@ -46,7 +48,9 @@ t
 min
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 t
 <
@@ -103,7 +107,9 @@ NowSeconds
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -178,7 +184,9 @@ NowSeconds
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .

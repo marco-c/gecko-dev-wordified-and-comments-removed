@@ -374,7 +374,9 @@ org
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a1
 null
@@ -407,7 +409,9 @@ httpReceived
 .
 promise
 ;
-do_check_true
+Assert
+.
+ok
 (
 a1
 .
@@ -424,7 +428,9 @@ listener
 .
 promise
 ;
-do_check_eq
+Assert
+.
+equal
 (
 AddonManager
 .
@@ -480,8 +486,11 @@ finish
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 a1
 .
 cancelUpdate
@@ -527,7 +536,9 @@ org
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 a1
 null
@@ -572,7 +583,9 @@ listener
 .
 promise
 ;
-do_check_eq
+Assert
+.
+equal
 (
 AddonManager
 .

@@ -312,7 +312,9 @@ appCache
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 entry
 .
@@ -505,7 +507,9 @@ complete
 =
 true
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 "
@@ -563,7 +567,9 @@ this
 complete
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -686,7 +692,9 @@ this
 complete
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -764,7 +772,9 @@ this
 complete
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -951,7 +961,9 @@ appCache
 result
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 result
 Cr
@@ -2699,7 +2711,9 @@ request
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .

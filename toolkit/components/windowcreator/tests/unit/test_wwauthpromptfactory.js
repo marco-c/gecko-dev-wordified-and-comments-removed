@@ -250,7 +250,9 @@ authPromptRequestReceived
 =
 false
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 ww
 .
@@ -266,7 +268,9 @@ nsIAuthPrompt
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 authPromptRequestReceived
 )
@@ -275,7 +279,9 @@ authPromptRequestReceived
 =
 false
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 ww
 .
@@ -291,7 +297,9 @@ nsIAuthPrompt2
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 authPromptRequestReceived
 )

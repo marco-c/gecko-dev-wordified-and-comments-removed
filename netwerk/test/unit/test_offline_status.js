@@ -69,7 +69,9 @@ interfaces
 nsINetworkLinkService
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 ioService
 .
@@ -85,7 +87,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ioService
 .

@@ -83,7 +83,9 @@ CSS
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 CSS
 .

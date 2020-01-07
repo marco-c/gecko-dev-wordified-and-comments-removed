@@ -193,7 +193,9 @@ duration
 ms
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 options
@@ -205,7 +207,9 @@ number
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 options
 [
@@ -290,7 +294,9 @@ duration
 ms
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 options
 [

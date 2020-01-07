@@ -119,7 +119,9 @@ function
 frameResponse
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 frameResponse
 .
@@ -182,7 +184,9 @@ sort
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 popped
 .
@@ -206,7 +210,9 @@ i
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 expectPopped
 [

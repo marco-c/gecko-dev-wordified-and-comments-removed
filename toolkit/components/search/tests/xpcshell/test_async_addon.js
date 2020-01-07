@@ -26,8 +26,11 @@ installAddonEngine
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -47,7 +50,9 @@ search_initialized
 aStatus
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -57,7 +62,9 @@ aStatus
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -77,7 +84,9 @@ getEngines
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engines
 .
@@ -85,7 +94,9 @@ length
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

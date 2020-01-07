@@ -142,7 +142,9 @@ close
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aStatusCode
 Components
@@ -152,7 +154,9 @@ results
 NS_OK
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .

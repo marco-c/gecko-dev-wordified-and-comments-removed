@@ -123,7 +123,9 @@ getFloatPref
 PREF_NAME
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 FLOAT
 +
@@ -133,7 +135,9 @@ FUDGE
 floatPref
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 FLOAT
 -

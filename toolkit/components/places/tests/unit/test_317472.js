@@ -142,7 +142,9 @@ TEST_BOOKMARKED_URI
 charset
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 PlacesUtils
 .
@@ -156,7 +158,9 @@ CHARSET_ANNO
 charset
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -170,7 +174,9 @@ TEST_URI
 charset
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -191,7 +197,9 @@ clearHistory
 (
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 (
 await
@@ -238,7 +246,9 @@ e
 )
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -262,7 +272,9 @@ TEST_BOOKMARKED_URI
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 (
 await

@@ -120,7 +120,9 @@ promiseAddonByID
 ID
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -348,7 +350,9 @@ promiseAddonByID
 ID
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -410,7 +414,9 @@ promiseAddonByID
 ID
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null
@@ -545,7 +551,9 @@ promiseAddonByID
 ID
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 addon
 null

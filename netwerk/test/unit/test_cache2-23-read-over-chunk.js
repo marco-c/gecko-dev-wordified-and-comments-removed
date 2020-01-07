@@ -147,7 +147,9 @@ function
 read
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 read
 .
@@ -163,7 +165,9 @@ close
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 read
 =

@@ -246,7 +246,9 @@ Ci
 nsIURI
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 copy
 .
@@ -256,7 +258,9 @@ aboutLicense
 asciiSpec
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 copy
 .

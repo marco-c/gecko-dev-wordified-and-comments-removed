@@ -40,7 +40,9 @@ arr
 4
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .

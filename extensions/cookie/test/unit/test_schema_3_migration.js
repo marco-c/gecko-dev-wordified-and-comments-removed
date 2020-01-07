@@ -484,7 +484,9 @@ do_load_profile
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -501,7 +503,9 @@ com
 20
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -518,7 +522,9 @@ com
 20
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -569,7 +575,9 @@ Ci
 nsICookie2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .
@@ -668,7 +676,9 @@ do_load_profile
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -717,7 +727,9 @@ Ci
 nsICookie2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .

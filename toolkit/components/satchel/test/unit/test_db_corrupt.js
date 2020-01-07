@@ -150,8 +150,11 @@ initialization
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 bakFile
 .
 exists
@@ -176,7 +179,9 @@ test_corruptFormHistoryDB_lazyCorruptInit2
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 bakFile
 .
@@ -237,7 +242,9 @@ handleResult
 aNumEntries
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 aNumEntries
 =
@@ -271,7 +278,9 @@ handleResult
 aNumEntries2
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 aNumEntries2
 =
@@ -400,7 +409,9 @@ function
 count
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 count
 =
@@ -479,7 +490,9 @@ function
 count
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 count
 =

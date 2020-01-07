@@ -192,7 +192,9 @@ args
 length
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 link
 .

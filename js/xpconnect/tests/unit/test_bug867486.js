@@ -36,8 +36,11 @@ true
 }
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Cu
 .
 evalInSandbox

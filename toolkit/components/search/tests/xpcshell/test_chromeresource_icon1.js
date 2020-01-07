@@ -96,7 +96,9 @@ resourceicon
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine1
 .
@@ -118,7 +120,9 @@ png
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine1
 .
@@ -158,7 +162,9 @@ chromeicon
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine2
 .
@@ -180,7 +186,9 @@ png
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine2
 .

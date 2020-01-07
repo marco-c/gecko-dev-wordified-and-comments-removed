@@ -239,7 +239,9 @@ n
 }
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 outText
 expectedText
@@ -424,7 +426,9 @@ n
 }
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 outText
 expectedText

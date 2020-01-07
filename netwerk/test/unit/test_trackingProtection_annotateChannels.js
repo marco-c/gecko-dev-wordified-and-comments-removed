@@ -186,7 +186,9 @@ request
 context
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -203,7 +205,9 @@ this
 _tracking
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -237,7 +241,9 @@ this
 _tracking
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 request
 .

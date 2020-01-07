@@ -137,7 +137,9 @@ serializeBasicCardResponseData
 expected
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 actual
 .
@@ -198,7 +200,9 @@ actual
 data
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 actual
 .
@@ -311,7 +315,9 @@ addressLines
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 actual
 .
@@ -347,7 +353,9 @@ entries
 )
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 actual
 .
@@ -377,7 +385,9 @@ i
 continue
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 actual
 [
@@ -707,7 +717,9 @@ requestId
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 propVal
 requestId
@@ -730,7 +742,9 @@ data
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 propVal
 serializeBasicCardResponseData
@@ -746,7 +760,9 @@ propName
 continue
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 propVal
 responseData

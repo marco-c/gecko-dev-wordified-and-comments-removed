@@ -104,8 +104,11 @@ url
 )
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -124,7 +127,9 @@ getEngines
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engines
 .
@@ -132,7 +137,9 @@ length
 5
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -157,7 +164,9 @@ engine
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 null

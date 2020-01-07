@@ -204,7 +204,9 @@ true
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 feedFeedURI
 .
@@ -216,7 +218,9 @@ originalURI
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 httpFeedURI
 .
@@ -228,7 +232,9 @@ originalURI
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 httpsFeedURI
 .
@@ -240,7 +246,9 @@ originalURI
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 httpURI
 .
@@ -252,7 +260,9 @@ URI
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 httpURI
 .
@@ -264,7 +274,9 @@ URI
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 httpsURI
 .

@@ -26,7 +26,9 @@ sandboxPrototype
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -37,7 +39,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 /
 must

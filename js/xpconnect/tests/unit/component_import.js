@@ -126,7 +126,9 @@ catch
 ex
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 ex
 .
@@ -137,7 +139,9 @@ lineNumber
 )
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 threw
 )

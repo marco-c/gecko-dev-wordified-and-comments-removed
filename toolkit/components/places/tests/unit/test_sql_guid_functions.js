@@ -44,7 +44,9 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 _
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 kAllowedChars
 .
@@ -152,7 +154,9 @@ kGuidLength
 )
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -275,7 +279,9 @@ j
 +
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 checkedChars
 [
@@ -354,7 +360,9 @@ getResultByIndex
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -386,7 +394,9 @@ handleCompletion
 aReason
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aReason
 Ci
@@ -396,7 +406,9 @@ mozIStorageStatementCallback
 REASON_FINISHED
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 checked
 )

@@ -355,7 +355,9 @@ object
 iter
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 iter
 .
@@ -641,7 +643,9 @@ object
 iter
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 iter
 .

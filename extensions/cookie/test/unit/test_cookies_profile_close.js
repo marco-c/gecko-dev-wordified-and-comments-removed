@@ -128,7 +128,9 @@ cookiemgr
 .
 enumerator
 ;
-do_check_true
+Assert
+.
+ok
 (
 enumerator
 .
@@ -146,8 +148,11 @@ getNext
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 enumerator
 .
 hasMoreElements
@@ -159,7 +164,9 @@ do_close_profile
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -173,7 +180,9 @@ null
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -222,7 +231,9 @@ null
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -479,7 +490,9 @@ do_load_profile
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .

@@ -325,7 +325,9 @@ prop1
 sbMaster
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ret
 200
@@ -345,7 +347,9 @@ prop1
 sbMaster
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ret
 200
@@ -365,7 +369,9 @@ prop1
 sbMaster
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ret
 200
@@ -390,7 +396,9 @@ str
 sb
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -404,7 +412,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 e
 .
@@ -488,7 +498,9 @@ interfaces
 sbMaster
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )

@@ -1788,7 +1788,9 @@ output
 n
 "
 )
-do_check_true
+Assert
+.
+ok
 (
 good
 .
@@ -1928,7 +1930,9 @@ val
 }
 else
 {
-do_check_true
+Assert
+.
+ok
 (
 checker
 .
@@ -2036,8 +2040,11 @@ val
 }
 else
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 checker
 .
 check
@@ -2080,7 +2087,9 @@ Ci
 mozISpellCheckingEngine
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !

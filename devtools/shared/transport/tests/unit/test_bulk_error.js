@@ -79,7 +79,9 @@ done
 }
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 length
 really_long
@@ -179,7 +181,9 @@ traits
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 traits
 .
@@ -394,7 +398,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )

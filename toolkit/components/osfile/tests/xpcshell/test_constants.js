@@ -75,7 +75,9 @@ check_definition
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 OS
 .
@@ -85,7 +87,9 @@ Constants
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -105,7 +109,9 @@ Constants
 libc
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 OS
 .
@@ -117,7 +123,9 @@ Path
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 OS
 .
@@ -129,7 +137,9 @@ Sys
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -179,7 +189,9 @@ isDebugBuild
 true
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 OS
 .
@@ -193,7 +205,9 @@ DEBUG
 }
 else
 {
-do_check_true
+Assert
+.
+ok
 (
 typeof
 (

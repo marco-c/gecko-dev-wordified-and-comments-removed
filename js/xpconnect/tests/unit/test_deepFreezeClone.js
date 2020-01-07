@@ -28,7 +28,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 rgxp
 .
@@ -91,7 +93,9 @@ foo
 =
 12
 ;
-do_check_eq
+Assert
+.
+equal
 (
 waived
 .
@@ -120,7 +124,9 @@ tick
 tack
 '
 ;
-do_check_eq
+Assert
+.
+equal
 (
 waived
 .
@@ -149,7 +155,9 @@ newProp
 =
 100
 ;
-do_check_eq
+Assert
+.
+equal
 (
 waived
 .
@@ -221,7 +229,9 @@ foo
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 desc
 .
@@ -230,7 +240,9 @@ writable
 frozen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 desc
 .
@@ -253,7 +265,9 @@ tick
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 desc
 .
@@ -262,7 +276,9 @@ writable
 frozen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 desc
 .

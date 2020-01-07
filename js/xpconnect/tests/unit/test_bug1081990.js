@@ -55,7 +55,9 @@ function
 {
 }
 ;
-do_check_true
+Assert
+.
+ok
 (
 sb
 .
@@ -75,7 +77,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 sb
 .
@@ -95,7 +99,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 sb
 .

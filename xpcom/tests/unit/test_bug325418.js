@@ -49,7 +49,9 @@ cancel
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Math
 .
@@ -94,7 +96,9 @@ happened
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -135,7 +139,9 @@ cancel
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Math
 .

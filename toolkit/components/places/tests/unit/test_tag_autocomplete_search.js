@@ -300,7 +300,9 @@ numSearchesStarted
 +
 +
 ;
-do_check_eq
+Assert
+.
+equal
 (
 numSearchesStarted
 1
@@ -317,7 +319,9 @@ input_onSearchComplete
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 numSearchesStarted
 1
@@ -329,7 +333,9 @@ results
 .
 length
 )
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -342,7 +348,9 @@ STATUS_COMPLETE_MATCH
 )
 ;
 else
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -354,7 +362,9 @@ nsIAutoCompleteController
 STATUS_COMPLETE_NO_MATCH
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -382,7 +392,9 @@ i
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .

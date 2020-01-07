@@ -94,7 +94,9 @@ aData
 aMimeType
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 aURI
 .
@@ -104,7 +106,9 @@ SMALLPNG_DATA_URI
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aDataLen
 =
@@ -113,7 +117,9 @@ aDataLen
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aData
 .
@@ -124,7 +130,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aMimeType
 =
@@ -208,7 +216,9 @@ aData
 aMimeType
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 aURI
 =
@@ -217,7 +227,9 @@ aURI
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aDataLen
 =
@@ -226,7 +238,9 @@ aDataLen
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aData
 .
@@ -237,7 +251,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 aMimeType
 =

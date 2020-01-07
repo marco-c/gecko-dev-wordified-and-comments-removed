@@ -118,7 +118,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -130,7 +132,9 @@ exception
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

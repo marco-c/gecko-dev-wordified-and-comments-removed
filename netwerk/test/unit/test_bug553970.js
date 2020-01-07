@@ -1005,7 +1005,9 @@ i
 2
 ]
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 url1

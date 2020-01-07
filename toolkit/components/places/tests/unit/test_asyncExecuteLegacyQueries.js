@@ -126,7 +126,9 @@ getNextRow
 {
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 row
 .
@@ -137,7 +139,9 @@ getResultByIndex
 uri
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 row
 .
@@ -367,7 +371,9 @@ getNextRow
 {
 try
 {
-do_check_eq
+Assert
+.
+equal
 (
 row
 .
@@ -378,7 +384,9 @@ getResultByIndex
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 row
 .

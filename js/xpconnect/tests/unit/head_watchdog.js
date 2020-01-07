@@ -292,7 +292,9 @@ return
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 expectInterrupt
 )
@@ -329,7 +331,9 @@ busyWait
 3000
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 expectInterrupt

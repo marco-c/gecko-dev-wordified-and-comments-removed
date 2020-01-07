@@ -114,7 +114,9 @@ sqlite
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 3
 getDBVersion
@@ -158,7 +160,9 @@ openUnsharedDatabase
 destFile
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 CURRENT_SCHEMA
 FormHistory
@@ -166,7 +170,9 @@ FormHistory
 schemaVersion
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 dbConnection
 .
@@ -184,7 +190,9 @@ close
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 CURRENT_SCHEMA
 FormHistory
@@ -210,7 +218,9 @@ function
 num
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 num
 >

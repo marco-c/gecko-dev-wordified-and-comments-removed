@@ -158,7 +158,9 @@ callback
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 result
 expected

@@ -329,7 +329,9 @@ if
 finished
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 asource
 bsource
@@ -366,7 +368,9 @@ result
 false
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 result
 )
@@ -512,7 +516,9 @@ if
 expected
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 x
 .
@@ -528,7 +534,9 @@ has_thrown
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 has_thrown
 )

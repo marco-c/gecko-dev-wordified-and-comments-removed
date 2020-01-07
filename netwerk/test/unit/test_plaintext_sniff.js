@@ -608,7 +608,9 @@ interfaces
 nsIChannel
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chan
 .
@@ -776,7 +778,9 @@ bodyIdx
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 expectedType
 type

@@ -721,7 +721,9 @@ displayString
 }
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 displayString
 testCases

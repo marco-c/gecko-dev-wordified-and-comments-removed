@@ -276,7 +276,9 @@ reference_fetch_file
 b
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 a_contents
 =
@@ -404,7 +406,9 @@ source
 dest2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await

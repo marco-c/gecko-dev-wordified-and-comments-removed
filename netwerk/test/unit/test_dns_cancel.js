@@ -143,7 +143,9 @@ inRequest
 requestList1NotCanceled
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 inStatus
 Cr
@@ -219,7 +221,9 @@ inRequest
 requestList2NotCanceled
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 inStatus
 Cr

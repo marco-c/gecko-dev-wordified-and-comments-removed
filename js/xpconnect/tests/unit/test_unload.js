@@ -65,7 +65,9 @@ jsm
 scope2
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 global1
 =
@@ -74,7 +76,9 @@ global1
 global2
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 scope1
 .
@@ -139,8 +143,11 @@ jsm
 scope3
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 global1
 =
 =
@@ -148,8 +155,11 @@ global1
 global3
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 scope1
 .
 NetUtil

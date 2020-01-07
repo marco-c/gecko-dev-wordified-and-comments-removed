@@ -217,7 +217,9 @@ gShell
 desktopBackgroundColor
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 shellColor
 aExpectedShellColor
@@ -250,7 +252,9 @@ getString
 GCONF_BG_COLOR_KEY
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gconfColor
 aExpectedGConfColor

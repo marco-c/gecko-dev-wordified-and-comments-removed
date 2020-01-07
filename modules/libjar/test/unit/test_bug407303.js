@@ -145,7 +145,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 NS_ERROR_UNKNOWN_HOST

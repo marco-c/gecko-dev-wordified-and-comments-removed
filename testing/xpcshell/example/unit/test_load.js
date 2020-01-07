@@ -17,7 +17,9 @@ js
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 subscriptLoaded
 )
@@ -47,7 +49,9 @@ catch
 ex
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ex
 .
@@ -66,8 +70,11 @@ file
 )
 ;
 }
-do_check_false
+Assert
+.
+ok
 (
+!
 subscriptLoaded
 "
 load

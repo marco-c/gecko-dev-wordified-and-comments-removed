@@ -19,7 +19,9 @@ Components
 )
 {
 }
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -40,7 +42,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 "
@@ -54,7 +58,9 @@ threw
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 threw
 "

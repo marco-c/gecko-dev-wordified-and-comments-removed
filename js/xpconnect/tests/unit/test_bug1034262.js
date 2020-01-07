@@ -78,7 +78,9 @@ x
 sb1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .
@@ -97,7 +99,9 @@ function
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .
@@ -119,7 +123,9 @@ function
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Cu
 .

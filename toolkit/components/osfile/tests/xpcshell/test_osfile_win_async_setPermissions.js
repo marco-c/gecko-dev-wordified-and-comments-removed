@@ -315,7 +315,9 @@ winAttributes
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stat
 .
@@ -327,7 +329,9 @@ attributesExpected
 readOnly
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stat
 .
@@ -339,7 +343,9 @@ attributesExpected
 system
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stat
 .
@@ -511,7 +517,9 @@ winAttributes
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stat
 .
@@ -523,7 +531,9 @@ attributesExpected
 readOnly
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stat
 .
@@ -535,7 +545,9 @@ attributesExpected
 system
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stat
 .

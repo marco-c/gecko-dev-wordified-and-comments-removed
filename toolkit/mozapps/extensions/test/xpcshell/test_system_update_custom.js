@@ -1218,7 +1218,9 @@ PREF_SYSTEM_ADDON_SET
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 set
 .
@@ -1793,7 +1795,9 @@ getSystemAddonDirectories
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 dirs
 .

@@ -48,7 +48,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -66,7 +68,9 @@ status
 data
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 data
 .

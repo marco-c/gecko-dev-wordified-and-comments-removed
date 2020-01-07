@@ -30,7 +30,9 @@ aValues
 aDefaultIndex
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 aValues
 .
@@ -140,7 +142,9 @@ strLen
 strLen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -148,7 +152,9 @@ selectionStart
 strLen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -202,7 +208,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -306,7 +314,9 @@ strLen
 strLen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -314,7 +324,9 @@ selectionStart
 strLen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 input
 .
@@ -368,7 +380,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 input
 .

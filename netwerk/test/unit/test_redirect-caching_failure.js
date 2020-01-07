@@ -207,7 +207,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -259,7 +261,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -271,7 +275,9 @@ results
 NS_ERROR_UNKNOWN_PROTOCOL
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 "

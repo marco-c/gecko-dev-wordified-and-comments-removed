@@ -296,8 +296,11 @@ accept
 buf
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 warned
 )
 ;
@@ -337,7 +340,9 @@ warn
 buf
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 warned
 )

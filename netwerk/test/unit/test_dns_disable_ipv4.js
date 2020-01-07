@@ -75,7 +75,9 @@ Cr
 NS_OK
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 inStatus
 Cr
@@ -111,7 +113,9 @@ dump
 answer
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 answer
 .
@@ -191,7 +195,9 @@ dump
 e
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )

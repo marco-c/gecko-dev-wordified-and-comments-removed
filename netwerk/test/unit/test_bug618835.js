@@ -97,7 +97,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 1
 numberOfCLHandlerCalls
@@ -188,7 +190,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 1
 numberOfHandlerCalls
@@ -279,7 +283,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 2
 numberOfHandlerCalls
@@ -353,7 +359,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 2
 numberOfCLHandlerCalls

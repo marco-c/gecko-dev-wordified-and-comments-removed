@@ -141,7 +141,9 @@ waiveXrays
 obj
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -158,7 +160,9 @@ sb1B
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .
@@ -175,7 +179,9 @@ sb2
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Cu
 .

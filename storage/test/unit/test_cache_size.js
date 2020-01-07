@@ -41,7 +41,9 @@ page_size
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -50,7 +52,9 @@ executeStep
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stmt
 .
@@ -108,7 +112,9 @@ cache_size
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -117,7 +123,9 @@ executeStep
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stmt
 .
@@ -169,8 +177,11 @@ sqlite
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 exists

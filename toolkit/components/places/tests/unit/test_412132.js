@@ -579,7 +579,9 @@ should
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 frecencyForUrl
 (

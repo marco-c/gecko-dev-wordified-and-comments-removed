@@ -77,7 +77,9 @@ args
 0
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -88,7 +90,9 @@ catch
 ex
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )

@@ -483,7 +483,9 @@ finish_test
 event
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 receivedCookieVal
 sentCookieVal

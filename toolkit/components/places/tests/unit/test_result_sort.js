@@ -243,7 +243,9 @@ result
 .
 root
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -259,7 +261,9 @@ b
 c
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -272,7 +276,9 @@ bookmarkGuid
 a
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .
@@ -285,7 +291,9 @@ bookmarkGuid
 b
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 root
 .

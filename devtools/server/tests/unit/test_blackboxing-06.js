@@ -124,7 +124,9 @@ function
 error
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -376,7 +378,9 @@ error
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -430,7 +434,9 @@ js
 0
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -464,7 +470,9 @@ error
 }
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 error
@@ -557,7 +565,9 @@ test_correct_location
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -577,7 +587,9 @@ statement
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

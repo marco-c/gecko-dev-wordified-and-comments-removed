@@ -483,7 +483,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -604,7 +606,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -724,7 +728,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -852,7 +858,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -993,7 +1001,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -1154,7 +1164,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -1327,7 +1339,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .
@@ -1500,7 +1514,9 @@ shortcutFile
 target
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 shortcutTarget
 .

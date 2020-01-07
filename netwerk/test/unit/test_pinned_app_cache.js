@@ -1139,7 +1139,9 @@ state
 case
 STATE_FINISHED
 :
-do_check_true
+Assert
+.
+ok
 (
 error_count
 [

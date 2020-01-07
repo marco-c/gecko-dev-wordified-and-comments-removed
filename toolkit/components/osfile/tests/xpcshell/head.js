@@ -449,7 +449,9 @@ b
 test
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a_contents
 b_contents

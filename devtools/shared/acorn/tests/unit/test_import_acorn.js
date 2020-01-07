@@ -41,7 +41,9 @@ walk
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 isObject
 (
@@ -49,7 +51,9 @@ acorn
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 isObject
 (
@@ -57,7 +61,9 @@ acorn_loose
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 isObject
 (
@@ -65,7 +71,9 @@ walk
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 acorn
@@ -76,7 +84,9 @@ function
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 acorn_loose
@@ -87,7 +97,9 @@ function
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 walk

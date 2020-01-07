@@ -373,7 +373,9 @@ i
 0
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 qualityValue
 undefined
@@ -392,7 +394,9 @@ acceptedLanguagesLength
 10
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 qualityValue
 .
@@ -409,7 +413,9 @@ decimalPlaces
 }
 else
 {
-do_check_true
+Assert
+.
+ok
 (
 qualityValue
 .
@@ -419,7 +425,9 @@ length
 3
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 qualityValue
 .
@@ -434,7 +442,9 @@ decimalPlaces
 2
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 parseFloat
 (

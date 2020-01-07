@@ -227,7 +227,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -239,7 +241,9 @@ Passed
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -255,7 +259,9 @@ ch
 cx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .
@@ -268,7 +274,9 @@ Passed
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ch
 .

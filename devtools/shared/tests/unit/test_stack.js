@@ -104,7 +104,9 @@ makeEvent
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 [
@@ -113,7 +115,9 @@ event
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 [
@@ -126,7 +130,9 @@ nobody
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 .
@@ -178,7 +184,9 @@ makeEvent
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 [
@@ -192,7 +200,9 @@ nobody
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 [
@@ -203,7 +213,9 @@ parent
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 [
@@ -214,7 +226,9 @@ asyncParent
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 .

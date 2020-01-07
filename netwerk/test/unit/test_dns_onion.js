@@ -101,8 +101,11 @@ inRecord
 inStatus
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 Components
 .
 isSuccessCode
@@ -179,7 +182,9 @@ getNextAddrAsString
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 answer
 =
@@ -334,7 +339,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )

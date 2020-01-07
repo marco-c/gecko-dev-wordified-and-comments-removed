@@ -418,7 +418,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 testData
@@ -429,7 +431,9 @@ testNum
 data
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -449,7 +453,9 @@ testNum
 type
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -469,7 +475,9 @@ testNum
 isByteRangeRequest
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -489,7 +497,9 @@ testNum
 startRange
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .

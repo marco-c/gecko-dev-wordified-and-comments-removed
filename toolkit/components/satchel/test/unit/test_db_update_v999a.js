@@ -124,7 +124,9 @@ sqlite
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 999
 getDBVersion
@@ -141,7 +143,9 @@ function
 num
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 num
 0
@@ -161,7 +165,9 @@ function
 num
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 num
 1
@@ -187,7 +193,9 @@ function
 num
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 num
 >
@@ -281,7 +289,9 @@ E
 checkOne
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 CURRENT_SCHEMA
 FormHistory

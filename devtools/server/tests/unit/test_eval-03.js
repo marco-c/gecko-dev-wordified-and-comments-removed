@@ -127,7 +127,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -150,7 +152,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -160,7 +164,9 @@ paused
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -172,7 +178,9 @@ clientEvaluated
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .
@@ -188,7 +196,9 @@ object
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 packet
 .

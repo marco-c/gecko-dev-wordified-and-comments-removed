@@ -89,7 +89,9 @@ mdump
 extra
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 "
 SystemMemoryUsePercentage
@@ -98,7 +100,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 TotalVirtualMemory
@@ -107,7 +111,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 AvailableVirtualMemory
@@ -116,7 +122,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 TotalPageFile
@@ -125,7 +133,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 AvailablePageFile
@@ -134,7 +144,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 TotalPhysicalMemory
@@ -143,7 +155,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 AvailablePhysicalMemory

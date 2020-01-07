@@ -3,7 +3,9 @@ run_test
 (
 )
 {
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -17,7 +19,9 @@ x
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 x
@@ -45,7 +49,9 @@ foo
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 a
@@ -79,7 +85,9 @@ d
 }
 )
 ;
-do_check_matches
+Assert
+.
+deepEqual
 (
 [
 3

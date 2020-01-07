@@ -94,8 +94,11 @@ n
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 indexes
 .
 includes
@@ -121,7 +124,9 @@ items
 n
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 bmIndex
 >
@@ -159,7 +164,9 @@ n
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 indexes
 .

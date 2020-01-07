@@ -199,7 +199,9 @@ quickStretch
 email
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 b2h
 (
@@ -244,7 +246,9 @@ quickStretchedActual
 6b88094c1c73bbf133223f300d101ed70837af48d9d2c1b6e7d38804b20cdde4
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 b2h
 (
@@ -265,7 +269,9 @@ authPW
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 b2h
 (
@@ -302,7 +308,9 @@ authKeyInfo
 hkdfLen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 b2h
 (
@@ -336,7 +344,9 @@ unwrapKeyInfo
 hkdfLen
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 b2h
 (
@@ -404,7 +414,9 @@ quickStretch
 email
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 b2h
 (
@@ -461,7 +473,9 @@ password
 options
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 .
@@ -479,7 +493,9 @@ wrong
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 .

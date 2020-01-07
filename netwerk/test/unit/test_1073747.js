@@ -139,7 +139,9 @@ catch
 x
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -148,7 +150,9 @@ return
 x
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 false
 )

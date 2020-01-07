@@ -306,7 +306,9 @@ getPagesWithAnnotation
 aAnno
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 .
@@ -343,7 +345,9 @@ getItemsWithAnnotation
 aAnno
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 items
 .
@@ -366,7 +370,9 @@ persist
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pages
 .
@@ -386,7 +392,9 @@ persist
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 items
 .
@@ -413,7 +421,9 @@ promiseItemGuid
 itemId
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 (
 await

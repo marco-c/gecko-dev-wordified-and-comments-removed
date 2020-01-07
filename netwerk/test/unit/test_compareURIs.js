@@ -564,7 +564,9 @@ equal
 =
 false
 }
-do_check_eq
+Assert
+.
+equal
 (
 equal
 aTest

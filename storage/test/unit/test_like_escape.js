@@ -168,7 +168,9 @@ bar_baz
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 paramForLike
 "
@@ -206,7 +208,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 foo
@@ -281,7 +285,9 @@ _ba
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 paramForLike
 "
@@ -323,7 +329,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 foo

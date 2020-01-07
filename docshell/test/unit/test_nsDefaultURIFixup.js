@@ -475,7 +475,9 @@ FIXUP_FLAG_FIX_SCHEME_TYPOS
 .
 spec
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 item
@@ -543,7 +545,9 @@ FIXUP_FLAG_FIX_SCHEME_TYPOS
 .
 spec
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 item
@@ -611,7 +615,9 @@ FIXUP_FLAG_FIX_SCHEME_TYPOS
 .
 spec
 ;
-do_check_eq
+Assert
+.
+equal
 (
 result
 item

@@ -381,7 +381,9 @@ n
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -492,7 +494,9 @@ decode
 decompressed
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 text
 "
@@ -677,7 +681,9 @@ decompressedBytes
 value
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 compare_arrays
 (
@@ -765,7 +771,9 @@ decompressed
 byteLength
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 compare_arrays
 (
@@ -862,7 +870,9 @@ exn
 ex
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 exn
 )
@@ -876,7 +886,9 @@ byteLength
 10
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 exn
 .
@@ -886,7 +898,9 @@ becauseLZNoHeader
 }
 else
 {
-do_check_true
+Assert
+.
+ok
 (
 exn
 .

@@ -47,7 +47,9 @@ eval
 str
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 "
@@ -64,7 +66,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 rgxp
 .
@@ -198,7 +202,9 @@ r
 }
 }
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -213,7 +219,9 @@ simpleValueProp
 undefined
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -228,7 +236,9 @@ objectValueProp
 undefined
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -244,7 +254,9 @@ getterProp
 undefined
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .
@@ -294,7 +306,9 @@ denied
 i
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .

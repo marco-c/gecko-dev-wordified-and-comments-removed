@@ -282,7 +282,9 @@ actor
 )
 )
 {
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 from
@@ -308,7 +310,9 @@ response
 }
 else
 {
-do_check_matches
+Assert
+.
+deepEqual
 (
 {
 from

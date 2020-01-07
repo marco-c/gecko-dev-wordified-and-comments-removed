@@ -133,7 +133,9 @@ waitForPause
 gThreadClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -188,7 +190,9 @@ line
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -223,7 +227,9 @@ name
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -241,7 +247,9 @@ waitForPause
 gThreadClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -253,7 +261,9 @@ breakpoint
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -291,7 +301,9 @@ waitForPause
 gThreadClient
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -303,7 +315,9 @@ clientEvaluated
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

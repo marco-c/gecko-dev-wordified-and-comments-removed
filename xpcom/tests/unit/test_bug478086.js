@@ -75,7 +75,9 @@ root
 .
 directoryEntries
 ;
-do_check_true
+Assert
+.
+ok
 (
 drives
 .
@@ -109,7 +111,9 @@ nsIFile
 .
 path
 ;
-do_check_eq
+Assert
+.
+equal
 (
 newPath
 .

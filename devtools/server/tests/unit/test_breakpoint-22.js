@@ -243,7 +243,9 @@ reason
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 reason
 .

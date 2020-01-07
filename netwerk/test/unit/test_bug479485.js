@@ -150,7 +150,9 @@ port
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 exception_threw
 exception_expected
@@ -262,7 +264,9 @@ port
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 exception_threw
 exception_expected

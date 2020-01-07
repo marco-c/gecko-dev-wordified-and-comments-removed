@@ -103,7 +103,9 @@ Ci
 nsIPrefBranch
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .
@@ -122,7 +124,9 @@ new
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .
@@ -141,7 +145,9 @@ new
 23
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pb
 .

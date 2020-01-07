@@ -698,7 +698,9 @@ title
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 isHostInMozPlaces
 (
@@ -742,7 +744,9 @@ newURI
 NEW_URL
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 isHostInMozPlaces
 (

@@ -127,7 +127,9 @@ configured
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Status
 .
@@ -137,7 +139,9 @@ checkSetup
 CLIENT_NOT_CONFIGURED
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Status
 .
@@ -177,7 +181,9 @@ checkSetup
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Status
 .

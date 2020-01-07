@@ -124,7 +124,9 @@ containerOpen
 =
 true
 ;
-do_check_true
+Assert
+.
+ok
 (
 toolbar
 .
@@ -142,7 +144,9 @@ getChild
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 folderNode
 .
@@ -152,7 +156,9 @@ folderNode
 RESULT_TYPE_FOLDER
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 folderNode
 .

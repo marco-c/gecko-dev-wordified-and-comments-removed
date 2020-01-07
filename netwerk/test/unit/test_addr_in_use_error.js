@@ -63,7 +63,9 @@ true
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 listener
 instanceof

@@ -38,8 +38,11 @@ value
 "
 }
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 data
 .
 readLine
@@ -57,7 +60,9 @@ LF
 ]
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 data
 .
@@ -67,7 +72,9 @@ out
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 out
 .

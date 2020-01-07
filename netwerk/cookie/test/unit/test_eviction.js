@@ -1578,7 +1578,9 @@ names
 uri
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 cm
 .
@@ -1791,7 +1793,9 @@ right
 ;
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 names
 .
@@ -1862,7 +1866,9 @@ i
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 names
 [
@@ -1876,7 +1882,9 @@ i
 name
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 names
 [

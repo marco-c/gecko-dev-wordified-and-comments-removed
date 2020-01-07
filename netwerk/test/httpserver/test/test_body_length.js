@@ -57,7 +57,9 @@ request
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -67,7 +69,9 @@ POST
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -128,7 +132,9 @@ read
 avail
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 data
 REQUEST_DATA

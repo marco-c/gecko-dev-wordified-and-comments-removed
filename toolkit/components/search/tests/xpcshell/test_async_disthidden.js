@@ -104,8 +104,11 @@ url
 )
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 search
@@ -131,7 +134,9 @@ asyncInit
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -151,7 +156,9 @@ getEngines
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engines
 .
@@ -175,7 +182,9 @@ engine
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 null

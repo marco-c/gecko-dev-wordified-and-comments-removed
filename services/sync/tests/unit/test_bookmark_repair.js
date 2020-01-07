@@ -2295,8 +2295,11 @@ pullNewChanges
 )
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 await
 PlacesUtils
 .
@@ -2388,7 +2391,9 @@ sync
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 await
 PlacesUtils
@@ -2754,7 +2759,9 @@ sync
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 user
 .
@@ -3153,7 +3160,9 @@ sync
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 (

@@ -44,7 +44,9 @@ run_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 runtime
 .

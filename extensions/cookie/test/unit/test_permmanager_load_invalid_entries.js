@@ -70,7 +70,9 @@ openDatabase
 file
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 file
 .
@@ -883,7 +885,9 @@ now
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 connection
 .
@@ -929,7 +933,9 @@ getInt64
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 thisModTime
 =
@@ -950,7 +956,9 @@ numMigrated
 1
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 numMigrated
 >
@@ -1021,7 +1029,9 @@ uri
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .

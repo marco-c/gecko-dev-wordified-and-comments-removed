@@ -37,7 +37,9 @@ makeGetter
 11
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 5
 numForms
@@ -95,7 +97,9 @@ num
 +
 +
 )
-do_check_eq
+Assert
+.
+equal
 (
 text
 get

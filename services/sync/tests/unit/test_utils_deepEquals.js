@@ -280,7 +280,9 @@ matches
 numMatch
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 numMatch
 expect
@@ -320,7 +322,9 @@ a
 undefined
 }
 ;
-do_check_true
+Assert
+.
+ok
 (
 Utils
 .
@@ -337,8 +341,11 @@ b
 =
 5
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 Utils
 .
 deepEquals
@@ -354,7 +361,9 @@ b
 =
 5
 ;
-do_check_true
+Assert
+.
+ok
 (
 Utils
 .
@@ -371,7 +380,9 @@ c
 =
 undefined
 ;
-do_check_true
+Assert
+.
+ok
 (
 Utils
 .
@@ -388,7 +399,9 @@ d
 =
 undefined
 ;
-do_check_true
+Assert
+.
+ok
 (
 Utils
 .

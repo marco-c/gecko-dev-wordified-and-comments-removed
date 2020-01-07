@@ -116,7 +116,9 @@ mdump
 extra
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .
@@ -126,7 +128,9 @@ TestValue
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 StartupTime
@@ -135,7 +139,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 ProcessType
@@ -144,7 +150,9 @@ in
 extra
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 extra
 .

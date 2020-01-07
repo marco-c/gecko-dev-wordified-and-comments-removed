@@ -719,7 +719,9 @@ file
 .
 spec
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 OS
@@ -787,7 +789,9 @@ file
 .
 path
 ;
-do_check_eq
+Assert
+.
+equal
 (
 path
 OS
@@ -831,7 +835,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 e
 .
@@ -850,7 +856,9 @@ thrown
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 thrown
 )

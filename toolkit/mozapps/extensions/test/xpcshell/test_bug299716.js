@@ -515,7 +515,9 @@ xpi
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 xpiFile
 .
@@ -628,7 +630,9 @@ send
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 xhr
 .
@@ -670,7 +674,9 @@ send
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 xhr
 .

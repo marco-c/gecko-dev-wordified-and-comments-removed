@@ -145,7 +145,9 @@ Header
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 headerValue
 "
@@ -344,7 +346,9 @@ readyState
 4
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .

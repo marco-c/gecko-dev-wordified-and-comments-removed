@@ -51,7 +51,9 @@ allowContentToAccess
 uri
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 desired
 actual

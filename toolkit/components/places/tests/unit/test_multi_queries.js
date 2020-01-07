@@ -303,7 +303,9 @@ containerOpen
 =
 false
 ;
-do_check_eq
+Assert
+.
+equal
 (
 childCount
 3

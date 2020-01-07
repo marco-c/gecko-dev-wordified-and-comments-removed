@@ -633,7 +633,9 @@ updateSuccess
 aEvent
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 "
 1000
@@ -755,7 +757,9 @@ handleEvent
 aEvent
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 "
 "
@@ -831,7 +835,9 @@ handleEvent
 aEvent
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 "
 goog

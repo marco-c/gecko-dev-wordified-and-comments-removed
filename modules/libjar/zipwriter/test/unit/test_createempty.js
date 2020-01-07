@@ -21,7 +21,9 @@ close
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 tmpFile
 .
@@ -30,7 +32,9 @@ exists
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tmpFile
 .

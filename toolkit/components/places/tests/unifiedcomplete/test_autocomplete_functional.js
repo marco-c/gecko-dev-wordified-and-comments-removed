@@ -1507,7 +1507,9 @@ of
 types
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -1561,7 +1563,9 @@ of
 types
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

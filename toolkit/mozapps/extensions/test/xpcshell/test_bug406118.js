@@ -179,7 +179,9 @@ features
 args
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 url
 URI_EXTENSION_BLOCKLIST_DIALOG
@@ -695,7 +697,9 @@ of
 addons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 addon
 .
@@ -751,8 +755,11 @@ a4
 ]
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 Services
 .
 blocklist
@@ -765,7 +772,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -779,7 +788,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -793,7 +804,9 @@ null
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .

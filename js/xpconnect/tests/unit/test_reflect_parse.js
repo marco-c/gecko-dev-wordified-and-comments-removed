@@ -18,7 +18,9 @@ strict
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 parseData
 .

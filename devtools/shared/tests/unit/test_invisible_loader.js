@@ -108,7 +108,9 @@ addDebuggee
 sandbox
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -158,7 +160,9 @@ jsm
 .
 Promise
 ;
-do_check_eq
+Assert
+.
+equal
 (
 loader
 .
@@ -248,7 +252,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 true
 )
@@ -294,7 +300,9 @@ js
 "
 ]
 ;
-do_check_eq
+Assert
+.
+equal
 (
 promise
 promiseModule

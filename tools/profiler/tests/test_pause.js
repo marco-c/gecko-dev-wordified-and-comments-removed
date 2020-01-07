@@ -47,7 +47,9 @@ profiler
 )
 return
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 profiler
@@ -57,7 +59,9 @@ IsActive
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 profiler
@@ -78,7 +82,9 @@ StartProfiler
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 profiler
 .
@@ -93,7 +99,9 @@ PauseSampling
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 profiler
 .
@@ -108,7 +116,9 @@ ResumeSampling
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 profiler
@@ -124,7 +134,9 @@ StopProfiler
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 profiler
@@ -134,7 +146,9 @@ IsActive
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 profiler

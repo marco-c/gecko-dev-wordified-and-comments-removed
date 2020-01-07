@@ -60,7 +60,9 @@ newURI
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 newURI
 .
@@ -68,7 +70,9 @@ spec
 url
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 newURI
 .
@@ -84,7 +88,9 @@ file
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 newURI
 .

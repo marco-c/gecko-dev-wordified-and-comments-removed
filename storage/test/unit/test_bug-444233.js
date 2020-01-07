@@ -141,7 +141,9 @@ test_bug444233
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stmt
 .
@@ -150,7 +152,9 @@ executeStep
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 2
 stmt

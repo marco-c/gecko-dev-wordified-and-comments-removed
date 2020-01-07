@@ -266,7 +266,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 xhr
 .
@@ -291,8 +293,11 @@ function
 (
 )
 {
-do_check_false
+Assert
+.
+equal
 (
+false
 false
 )
 ;

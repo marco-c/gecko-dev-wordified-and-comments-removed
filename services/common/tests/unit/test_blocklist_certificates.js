@@ -351,7 +351,9 @@ list
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 list
 .
@@ -412,7 +414,9 @@ now
 )
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 0
 Services
@@ -516,7 +520,9 @@ list
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 list
 .
@@ -564,7 +570,9 @@ list
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 list
 .
@@ -669,7 +677,9 @@ checked
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 newValue
 0

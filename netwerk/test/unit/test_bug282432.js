@@ -110,7 +110,9 @@ aContext
 aStatusCode
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aStatusCode
 Components
@@ -206,8 +208,11 @@ txt
 true
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 exists

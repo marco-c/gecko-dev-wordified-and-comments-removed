@@ -728,7 +728,9 @@ split
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 params
 .
@@ -781,7 +783,9 @@ pair
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 expected
 [
@@ -958,7 +962,9 @@ function
 addon
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 (

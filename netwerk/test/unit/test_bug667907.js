@@ -225,7 +225,9 @@ request
 context
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -281,7 +283,9 @@ context
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr

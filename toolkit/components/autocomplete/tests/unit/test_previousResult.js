@@ -815,7 +815,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -827,7 +829,9 @@ nsIAutoCompleteController
 STATUS_COMPLETE_MATCH
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 controller
 .
@@ -843,7 +847,9 @@ numSearchesStarted
 1
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 search1
 .
@@ -851,7 +857,9 @@ _previousResult
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 search2
 .
@@ -871,7 +879,9 @@ test
 return
 ;
 }
-do_check_neq
+Assert
+.
+notEqual
 (
 search1
 .
@@ -879,7 +889,9 @@ _previousResult
 null
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 search2
 .

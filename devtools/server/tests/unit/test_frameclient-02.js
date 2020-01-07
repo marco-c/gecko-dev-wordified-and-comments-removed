@@ -119,8 +119,11 @@ function
 (
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 gThreadClient
 .
 moreFrames
@@ -145,7 +148,9 @@ gClient
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 gThreadClient
 .

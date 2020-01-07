@@ -153,7 +153,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -229,7 +231,9 @@ status
 entry
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Cr
@@ -296,7 +300,9 @@ function
 read
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 read
 .

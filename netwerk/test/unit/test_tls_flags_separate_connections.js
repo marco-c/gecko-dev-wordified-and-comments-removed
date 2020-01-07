@@ -282,7 +282,9 @@ Ci
 nsIHttpChannelInternal
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -322,7 +324,9 @@ this
 tlsFlags
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 hashKey
 previousHashKeys
@@ -334,7 +338,9 @@ tlsFlags
 }
 else
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 hashKey
 previousHashKeys

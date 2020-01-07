@@ -126,7 +126,9 @@ engine
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 engine
 retrievedEngine
@@ -257,7 +259,9 @@ i
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gTestLog
 [
@@ -270,7 +274,9 @@ i
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 gTestLog
 .

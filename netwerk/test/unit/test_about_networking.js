@@ -166,7 +166,9 @@ break
 ;
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 found
 true
@@ -248,7 +250,9 @@ break
 ;
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 found
 true
@@ -454,7 +458,9 @@ break
 ;
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 found
 true

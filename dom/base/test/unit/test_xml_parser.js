@@ -199,7 +199,9 @@ root
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 doc
 .
@@ -235,7 +237,9 @@ xmlns
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 doc
 .
@@ -272,7 +276,9 @@ ns1
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 doc
 .
@@ -282,7 +288,9 @@ namespaceURI
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 doc
 .

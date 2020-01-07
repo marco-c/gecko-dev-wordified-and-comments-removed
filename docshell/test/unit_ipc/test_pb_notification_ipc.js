@@ -35,7 +35,9 @@ aTopic
 aData
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aTopic
 "
@@ -113,7 +115,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 notifications
 1

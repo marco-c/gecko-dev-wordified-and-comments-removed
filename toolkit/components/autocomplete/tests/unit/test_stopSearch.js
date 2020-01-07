@@ -231,7 +231,9 @@ called
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 this
 .

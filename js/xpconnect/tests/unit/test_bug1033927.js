@@ -55,7 +55,9 @@ XMLHttpRequest
 sb
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 xhr
 .
@@ -70,7 +72,9 @@ XMLHttpRequest
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 new
@@ -92,7 +96,9 @@ Object
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb
 .

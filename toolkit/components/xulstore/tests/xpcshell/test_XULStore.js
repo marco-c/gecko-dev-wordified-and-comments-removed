@@ -116,7 +116,9 @@ id
 attr
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 value
 reference
@@ -132,7 +134,9 @@ attr
 exists
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 XULStore
 .
@@ -283,7 +287,9 @@ sort
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 a
 .
@@ -739,7 +745,9 @@ dos
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 dos
 .

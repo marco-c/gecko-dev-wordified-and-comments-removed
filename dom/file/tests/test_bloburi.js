@@ -186,7 +186,9 @@ handler
 .
 protocolFlags
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Ci
 .

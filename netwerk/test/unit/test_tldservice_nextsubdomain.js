@@ -233,7 +233,9 @@ test
 data
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 r
 test
@@ -247,7 +249,9 @@ catch
 e
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 test
 .

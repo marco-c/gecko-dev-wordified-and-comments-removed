@@ -232,7 +232,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 requestBody
@@ -326,7 +328,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 requestBody
@@ -458,7 +462,9 @@ request
 buffer
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 buffer
 requestBody

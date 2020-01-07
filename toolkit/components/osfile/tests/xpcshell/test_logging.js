@@ -143,7 +143,9 @@ messageCount
 1
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aMessage
 .
@@ -178,7 +180,9 @@ messageCount
 2
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aMessage
 .

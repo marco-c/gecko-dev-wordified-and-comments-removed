@@ -80,8 +80,11 @@ function
 entry
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 bypassed
 )
 ;
@@ -99,7 +102,9 @@ function
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 bypassed
 )

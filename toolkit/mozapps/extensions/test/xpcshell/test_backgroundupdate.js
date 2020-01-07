@@ -182,7 +182,9 @@ function
 aAddons
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aAddons
 .
@@ -622,7 +624,9 @@ complete
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 installCount
 3
@@ -676,7 +680,9 @@ completeCount
 3
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 sawCompleteNotification
 )

@@ -2521,7 +2521,9 @@ opts2
 .
 value
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aQueryArr
 .
@@ -2603,7 +2605,9 @@ j
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 queryArr2
 .
@@ -2611,7 +2615,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 queryObjsEqual
 (

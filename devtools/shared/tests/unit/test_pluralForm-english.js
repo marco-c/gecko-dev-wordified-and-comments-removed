@@ -26,7 +26,9 @@ run_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 2
 PluralForm
@@ -53,7 +55,9 @@ num
 +
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 num
 =
@@ -81,7 +85,9 @@ words
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 "
 word
@@ -97,7 +103,9 @@ word
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 "
 word

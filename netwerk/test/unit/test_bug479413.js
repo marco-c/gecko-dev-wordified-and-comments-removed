@@ -24,7 +24,9 @@ inputIDN
 isASCII
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 displayIDN
 inputIDN
@@ -68,7 +70,9 @@ e
 )
 {
 }
-do_check_neq
+Assert
+.
+notEqual
 (
 displayIDN
 inputIDN

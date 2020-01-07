@@ -59,7 +59,9 @@ disk
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 disk
 .
@@ -81,7 +83,9 @@ m1
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 mem
 .
@@ -103,8 +107,11 @@ m1
 )
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 mem
 .
 exists
@@ -125,7 +132,9 @@ m2
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 disk
 .

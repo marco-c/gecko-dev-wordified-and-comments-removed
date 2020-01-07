@@ -157,7 +157,9 @@ exception
 ex
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ex
 .

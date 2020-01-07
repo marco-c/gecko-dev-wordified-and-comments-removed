@@ -82,7 +82,9 @@ controlGPUProcessForXPCShell
 true
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 ok
 true
@@ -160,7 +162,9 @@ function
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 foundGPUProcess
 true

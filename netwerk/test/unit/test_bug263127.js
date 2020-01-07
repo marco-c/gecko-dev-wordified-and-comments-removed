@@ -143,8 +143,11 @@ e
 )
 ;
 }
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 exists

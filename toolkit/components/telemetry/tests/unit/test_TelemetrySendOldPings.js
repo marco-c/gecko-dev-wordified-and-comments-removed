@@ -442,7 +442,9 @@ assertReceivedPings
 aExpectedNum
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 gSeenPings
 aExpectedNum

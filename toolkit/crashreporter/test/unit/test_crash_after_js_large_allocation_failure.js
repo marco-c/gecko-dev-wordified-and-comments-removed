@@ -107,7 +107,9 @@ mdump
 extra
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .
@@ -117,8 +119,11 @@ Yes
 "
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 "
 JSOutOfMemory
 "
@@ -126,7 +131,9 @@ in
 extra
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .

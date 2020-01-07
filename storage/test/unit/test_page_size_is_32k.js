@@ -34,7 +34,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stmt
 .
@@ -69,7 +71,9 @@ executeStep
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 stmt
 .
@@ -122,8 +126,11 @@ sqlite
 "
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 file
 .
 exists

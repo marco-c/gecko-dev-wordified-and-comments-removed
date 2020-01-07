@@ -401,7 +401,9 @@ user
 pw
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 this
 .
@@ -827,7 +829,9 @@ channel
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -837,7 +841,9 @@ this
 _expectedCode
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -909,7 +915,9 @@ ctx
 status
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 status
 Components

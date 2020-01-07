@@ -215,7 +215,9 @@ removeAllSince
 since
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 1
 pm
@@ -233,7 +235,9 @@ since
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 0
 pm
@@ -253,7 +257,9 @@ since
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 0
 pm
@@ -271,7 +277,9 @@ since
 )
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 0
 pm

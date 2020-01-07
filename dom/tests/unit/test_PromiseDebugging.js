@@ -3,8 +3,11 @@ run_test
 (
 )
 {
-do_check_false
+Assert
+.
+equal
 (
+false
 PromiseDebugging
 =
 =
@@ -43,7 +46,9 @@ getState
 p
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 state
 .
@@ -75,7 +80,9 @@ getState
 p
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 state
 .
@@ -85,7 +92,9 @@ fulfilled
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 state
 .

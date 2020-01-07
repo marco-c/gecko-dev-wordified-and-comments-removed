@@ -198,7 +198,9 @@ setProgressHandler
 testProgressHandler
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 oldH
 instanceof
@@ -235,7 +237,9 @@ removeProgressHandler
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 oldH
 null
@@ -299,7 +303,9 @@ executeStep
 )
 {
 }
-do_check_true
+Assert
+.
+ok
 (
 testProgressHandler
 .
@@ -404,7 +410,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Cr
 .
@@ -414,7 +422,9 @@ e
 result
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 SQLITE_INTERRUPT
 msc
@@ -450,7 +460,9 @@ catch
 e
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Cr
 .
@@ -460,7 +472,9 @@ e
 result
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 SQLITE_INTERRUPT
 msc

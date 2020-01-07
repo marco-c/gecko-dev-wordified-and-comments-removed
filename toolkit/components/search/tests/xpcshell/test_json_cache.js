@@ -325,7 +325,9 @@ service
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -356,7 +358,9 @@ engines
 0
 ]
 ;
-do_check_true
+Assert
+.
+ok
 (
 engine
 instanceof
@@ -389,7 +393,9 @@ engine
 name
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -450,8 +456,11 @@ append
 CACHE_FILENAME
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 cache
 .
 exists
@@ -558,7 +567,9 @@ complete
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 cache
 .

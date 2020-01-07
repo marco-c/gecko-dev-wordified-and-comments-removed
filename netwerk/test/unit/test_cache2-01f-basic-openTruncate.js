@@ -39,7 +39,9 @@ new1
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !

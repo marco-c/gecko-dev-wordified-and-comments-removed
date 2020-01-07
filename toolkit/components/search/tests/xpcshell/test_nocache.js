@@ -101,7 +101,9 @@ append
 CACHE_FILENAME
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 cacheFile
 .
@@ -216,7 +218,9 @@ break
 ;
 }
 }
-do_check_true
+Assert
+.
+ok
 (
 found
 )

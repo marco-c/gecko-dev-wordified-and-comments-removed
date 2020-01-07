@@ -297,7 +297,9 @@ Test
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 event
 .
@@ -307,7 +309,9 @@ test
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 .
@@ -315,7 +319,9 @@ value
 42
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 event
 .

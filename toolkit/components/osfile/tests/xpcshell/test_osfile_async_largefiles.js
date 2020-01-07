@@ -142,7 +142,9 @@ pos
 =
 forward
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -184,7 +186,9 @@ pos
 =
 current
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -228,7 +232,9 @@ pos
 =
 backward
 ;
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -373,7 +379,9 @@ catch
 ex
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 ex
 .
@@ -393,7 +401,9 @@ pass
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -442,7 +452,9 @@ catch
 ex
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 ex
 .
@@ -462,7 +474,9 @@ pass
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 (
 await
@@ -529,7 +543,9 @@ toString
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 !

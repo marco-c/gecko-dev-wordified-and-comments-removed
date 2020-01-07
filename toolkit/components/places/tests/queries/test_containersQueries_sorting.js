@@ -429,7 +429,9 @@ test_query_callback
 aSequence
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aSequence
 .
@@ -1691,7 +1693,9 @@ i
 title
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sortedResults
 [

@@ -207,7 +207,9 @@ c
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 name
@@ -228,7 +230,9 @@ B
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 someInteger
@@ -291,7 +295,9 @@ nsIXPCTestInterfaceB
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 name
@@ -310,7 +316,9 @@ A
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 (
@@ -482,7 +490,9 @@ null
 }
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 !
 (
@@ -505,7 +515,9 @@ A
 '
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 '
 someInteger
@@ -540,7 +552,9 @@ gc
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 "

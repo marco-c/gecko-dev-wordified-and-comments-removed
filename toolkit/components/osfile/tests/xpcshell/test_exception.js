@@ -82,7 +82,9 @@ Exception
 exn
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 exn
 .

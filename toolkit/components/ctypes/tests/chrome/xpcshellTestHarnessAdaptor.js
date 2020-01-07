@@ -201,7 +201,9 @@ condition
 stack
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 condition
 true
@@ -216,7 +218,9 @@ condition
 stack
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 condition
 false

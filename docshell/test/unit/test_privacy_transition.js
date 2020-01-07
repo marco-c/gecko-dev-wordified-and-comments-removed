@@ -124,7 +124,9 @@ privateBrowsingId
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 gNotifications
 2

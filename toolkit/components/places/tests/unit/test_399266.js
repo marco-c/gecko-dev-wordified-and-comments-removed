@@ -223,7 +223,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 options
@@ -285,7 +287,9 @@ com
 /
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -293,7 +297,9 @@ uri
 site
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -370,7 +376,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 TOTAL_SITES
@@ -430,7 +438,9 @@ com
 /
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .
@@ -438,7 +448,9 @@ uri
 site
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 node
 .

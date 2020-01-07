@@ -357,7 +357,9 @@ offset
 count
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 this
 .
@@ -386,7 +388,9 @@ ctx
 status
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 this
 .

@@ -80,7 +80,9 @@ search_initialized
 aStatus
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 Components
 .
@@ -118,7 +120,9 @@ complete
 i
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 pending
 [
@@ -137,7 +141,9 @@ numberPending
 -
 -
 ;
-do_check_true
+Assert
+.
+ok
 (
 numberPending
 >
@@ -145,7 +151,9 @@ numberPending
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Services
 .
@@ -206,7 +214,9 @@ getEngines
 (
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 engines
 null
@@ -259,7 +269,9 @@ getEngines
 (
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 engines
 null

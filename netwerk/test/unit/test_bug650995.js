@@ -728,7 +728,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 firstRequest
 data
@@ -781,7 +783,9 @@ data
 ctx
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 secondExpectedReply
 data

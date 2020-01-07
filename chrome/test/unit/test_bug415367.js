@@ -116,7 +116,9 @@ obj
 result
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 uri
 !
@@ -124,7 +126,9 @@ uri
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .

@@ -28,7 +28,9 @@ run_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 jsesc
 (
@@ -56,7 +58,9 @@ xe9st
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 jsesc
 (

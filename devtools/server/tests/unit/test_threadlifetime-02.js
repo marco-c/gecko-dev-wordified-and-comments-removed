@@ -141,7 +141,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -162,7 +164,9 @@ event
 packet
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 pauseGrip
 .
@@ -212,7 +216,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

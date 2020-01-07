@@ -201,7 +201,9 @@ a
 b
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 setEqual
 (
@@ -218,8 +220,11 @@ a
 b
 )
 {
-do_check_false
+Assert
+.
+ok
 (
+!
 setEqual
 (
 a

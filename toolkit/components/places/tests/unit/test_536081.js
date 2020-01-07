@@ -155,7 +155,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 1
@@ -195,7 +197,9 @@ node
 uri
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 await
 PlacesTestUtils
@@ -226,8 +230,11 @@ node
 uri
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 await
 PlacesTestUtils
 .

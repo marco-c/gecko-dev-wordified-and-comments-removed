@@ -523,8 +523,11 @@ verifyTrackerEmpty
 (
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 tracker
 .
 _isTracking
@@ -759,7 +762,9 @@ verifyTrackedCount
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -827,7 +832,9 @@ verifyTrackedCount
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -899,7 +906,9 @@ verifyTrackedCount
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .
@@ -1044,7 +1053,9 @@ guid
 ]
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 tracker
 .

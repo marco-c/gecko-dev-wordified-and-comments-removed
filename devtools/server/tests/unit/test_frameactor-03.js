@@ -128,7 +128,9 @@ packet2
 .
 poppedFrames
 ;
-do_check_eq
+Assert
+.
+equal
 (
 typeof
 (
@@ -141,7 +143,9 @@ typeof
 )
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 poppedFrames
 .

@@ -171,7 +171,9 @@ telemetry
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 PlacesUtils
 .

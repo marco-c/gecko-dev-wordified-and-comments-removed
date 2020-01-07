@@ -123,7 +123,9 @@ aSearch
 aResult
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -133,7 +135,9 @@ test
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -143,7 +147,9 @@ aResult
 RESULT_SUCCESS
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -151,7 +157,9 @@ matchCount
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -164,7 +172,9 @@ test_dir
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -177,7 +187,9 @@ directory
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .
@@ -190,7 +202,9 @@ test_file
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aResult
 .

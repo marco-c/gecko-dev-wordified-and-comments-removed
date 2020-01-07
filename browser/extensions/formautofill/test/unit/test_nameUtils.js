@@ -963,7 +963,9 @@ testcase
 nameParts
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 name
 testcase

@@ -231,7 +231,9 @@ registerNewActor
 e
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -257,7 +259,9 @@ helloActor
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 !
@@ -282,7 +286,9 @@ response
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -333,7 +339,9 @@ unregisterNewActor
 e
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -359,7 +367,9 @@ helloActor
 =
 >
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 helloActor

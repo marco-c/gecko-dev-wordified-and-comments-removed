@@ -196,7 +196,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 !
 response
@@ -221,7 +223,9 @@ response
 sources
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 s
 .
@@ -268,7 +272,9 @@ url
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 expectedSources
 .

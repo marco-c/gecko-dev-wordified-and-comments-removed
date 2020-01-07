@@ -32,7 +32,9 @@ interfaces
 nsIScriptableRegion
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 rgn
 .
@@ -54,7 +56,9 @@ unionRect
 60
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 rgn
 .
@@ -84,7 +88,9 @@ unionRect
 1
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 rgn
 .

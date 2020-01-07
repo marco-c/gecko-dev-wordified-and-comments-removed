@@ -1776,7 +1776,9 @@ xn
 0
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (
@@ -1805,7 +1807,9 @@ punycodeURL
 isASCII
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (
@@ -1827,7 +1831,9 @@ punycodeURL
 }
 else
 {
-do_check_eq
+Assert
+.
+equal
 (
 escape
 (

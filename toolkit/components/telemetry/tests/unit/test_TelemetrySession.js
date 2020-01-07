@@ -3640,7 +3640,9 @@ Telemetry
 .
 maximalNumberOfConcurrentThreads
 ;
-do_check_true
+Assert
+.
+ok
 (
 currentMaxNumberOfThreads
 >
@@ -3701,7 +3703,9 @@ threads
 .
 length
 ;
-do_check_true
+Assert
+.
+ok
 (
 Telemetry
 .
@@ -3813,7 +3817,9 @@ add
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 TelemetrySession
 .

@@ -12,7 +12,9 @@ text
 plain
 "
 ;
-do_check_eq
+Assert
+.
+equal
 (
 badMimeType
 .
@@ -89,7 +91,9 @@ e
 finally
 {
 }
-do_check_eq
+Assert
+.
+equal
 (
 true
 true

@@ -375,7 +375,9 @@ interfaces
 nsIHttpChannel
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Math
 .
@@ -390,7 +392,9 @@ responseStatus
 3
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 request
 .
@@ -399,7 +403,9 @@ false
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 eventsink
 .

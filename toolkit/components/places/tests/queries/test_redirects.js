@@ -10,7 +10,9 @@ check_results_callback
 aSequence
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aSequence
 .

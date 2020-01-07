@@ -83,7 +83,9 @@ wrapMe
 =
 chromeObj
 ;
-do_check_true
+Assert
+.
+ok
 (
 true
 "
@@ -94,7 +96,9 @@ crash
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 sb2
 .

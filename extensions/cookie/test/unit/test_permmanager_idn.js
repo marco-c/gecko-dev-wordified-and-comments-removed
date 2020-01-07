@@ -165,7 +165,9 @@ ALLOW_ACTION
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -179,7 +181,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -193,7 +197,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -277,7 +283,9 @@ cm
 '
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -291,7 +299,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -305,7 +315,9 @@ pm
 ALLOW_ACTION
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -331,7 +343,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .
@@ -358,7 +372,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 pm
 .

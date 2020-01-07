@@ -580,7 +580,9 @@ directory
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 (
 await
@@ -624,8 +626,11 @@ anymore
 "
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 (
 await
 testLeaksOf
@@ -711,7 +716,9 @@ file
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 (
 await
@@ -755,8 +762,11 @@ anymore
 "
 )
 ;
-do_check_false
+Assert
+.
+equal
 (
+false
 (
 await
 testLeaksOf

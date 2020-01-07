@@ -241,7 +241,9 @@ get_size
 filename
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 size
 =
@@ -274,7 +276,9 @@ VACUUM
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 get_size
 (

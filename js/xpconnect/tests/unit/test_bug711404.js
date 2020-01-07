@@ -55,7 +55,9 @@ a
 4000
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 p
 .

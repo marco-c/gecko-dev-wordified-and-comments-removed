@@ -182,7 +182,9 @@ cookieURI
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 storedCookie
 GOOD_COOKIE

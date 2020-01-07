@@ -134,7 +134,9 @@ tags
 "
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 aGuid
 bookmark
@@ -179,7 +181,9 @@ removeObserver
 this
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 this
 .

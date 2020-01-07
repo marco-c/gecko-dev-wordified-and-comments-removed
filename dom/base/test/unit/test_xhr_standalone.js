@@ -77,7 +77,9 @@ exceptionThrown
 true
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 false
 exceptionThrown

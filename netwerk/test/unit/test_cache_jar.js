@@ -935,7 +935,9 @@ buffer
 expected
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 handlers_called
 expected

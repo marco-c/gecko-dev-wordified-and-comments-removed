@@ -392,7 +392,9 @@ receivedNotifications
 +
 +
 ;
-do_check_eq
+Assert
+.
+equal
 (
 currentTest
 .
@@ -413,7 +415,9 @@ do_check_valid_places_guid
 aGUID
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 aReason
 Ci
@@ -460,7 +464,9 @@ historyObserver
 false
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 currentTest
 .

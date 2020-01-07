@@ -63,8 +63,11 @@ if
 isChild
 )
 {
-do_check_false
+Assert
+.
+equal
 (
+false
 "
 mozilla
 .
@@ -112,7 +115,9 @@ Ci
 nsISupportsString
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 svc
 .
@@ -130,8 +135,11 @@ if
 isChild
 )
 {
-do_check_false
+Assert
+.
+equal
 (
+false
 "
 mozilla
 .
@@ -179,7 +187,9 @@ Ci
 nsISupportsString
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 svc
 .

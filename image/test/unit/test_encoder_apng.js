@@ -1888,7 +1888,9 @@ png
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 dataURL
 input

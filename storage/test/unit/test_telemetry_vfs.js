@@ -136,7 +136,9 @@ bloat
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 read_hgram
 .

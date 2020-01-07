@@ -46,7 +46,9 @@ state
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 pluginDefaultState
 Ci
@@ -114,7 +116,9 @@ get_test_plugintag
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 testPlugin
 .
@@ -162,7 +166,9 @@ state
 nonDefaultState
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 testPlugin
 .
@@ -170,7 +176,9 @@ enabledState
 nonDefaultState
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 secondTestPlugin
 .

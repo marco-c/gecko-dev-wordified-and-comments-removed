@@ -1188,7 +1188,9 @@ in
 expectedRecord
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 expectedRecord
 [

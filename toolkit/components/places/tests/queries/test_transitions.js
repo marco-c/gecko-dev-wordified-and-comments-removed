@@ -731,7 +731,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 testDataDownload
 .
@@ -767,7 +769,9 @@ TRANSITION_DOWNLOAD
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 testDataDownload
 .

@@ -82,7 +82,9 @@ function
 aContext
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 false
 )
@@ -96,7 +98,9 @@ aContext
 aStatusCode
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 aStatusCode
 Cr

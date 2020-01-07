@@ -134,7 +134,9 @@ cloneStop
 listener
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 original_listener
 .
@@ -144,7 +146,9 @@ listener
 state
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 original_listener
 listener
@@ -248,7 +252,9 @@ listener
 aRequest
 )
 {
-do_check_neq
+Assert
+.
+notEqual
 (
 listener
 .
@@ -258,7 +264,9 @@ SIZE_AVAILABLE
 0
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 listener
 .

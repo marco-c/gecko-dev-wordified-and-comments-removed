@@ -264,7 +264,9 @@ substring
 psn_0_
 "
 )
-do_check_eq
+Assert
+.
+equal
 (
 data
 kExpectedURI
@@ -567,7 +569,9 @@ newURI
 kTestURI
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .

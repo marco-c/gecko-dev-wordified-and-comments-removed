@@ -306,7 +306,9 @@ expected
 return
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 data
 expected
@@ -326,7 +328,9 @@ Ci
 nsICookie2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .
@@ -336,7 +340,9 @@ expected
 isSession
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .
@@ -346,7 +352,9 @@ expected
 isSecure
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cookie
 .

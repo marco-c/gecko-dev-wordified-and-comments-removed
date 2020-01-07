@@ -385,7 +385,9 @@ of
 count_visited_URIs
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 await
 promiseIsURIVisited
@@ -406,7 +408,9 @@ of
 notcount_visited_URIs
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 await
 promiseIsURIVisited
@@ -497,7 +501,9 @@ root
 .
 childCount
 ;
-do_check_eq
+Assert
+.
+equal
 (
 cc
 count_visited_URIs
@@ -531,7 +537,9 @@ getChild
 i
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 count_visited_URIs
 .

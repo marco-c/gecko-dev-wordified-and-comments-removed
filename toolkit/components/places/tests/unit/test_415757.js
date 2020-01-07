@@ -431,8 +431,11 @@ uri
 site
 )
 ;
-do_check_false
+Assert
+.
+ok
 (
+!
 uri_in_db
 (
 testURI
@@ -486,7 +489,9 @@ uri
 site
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 uri_in_db
 (
@@ -567,7 +572,9 @@ erroneously
 )
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 annoVal
 testAnnoRetainedValue

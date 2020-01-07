@@ -139,7 +139,9 @@ PREF_NAME
 test1
 "
 )
-do_check_true
+Assert
+.
+ok
 (
 true
 )

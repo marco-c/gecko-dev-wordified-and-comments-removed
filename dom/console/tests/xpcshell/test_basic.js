@@ -26,7 +26,9 @@ function
 (
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 "
 console
@@ -90,7 +92,9 @@ aSubject
 .
 wrappedJSObject
 ;
-do_check_true
+Assert
+.
+ok
 (
 obj
 .
@@ -109,7 +113,9 @@ received
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 obj
 .
@@ -128,7 +134,9 @@ JSM
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 obj
 .

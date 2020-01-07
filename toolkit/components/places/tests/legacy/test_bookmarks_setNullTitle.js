@@ -68,7 +68,9 @@ DEFAULT_INDEX
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .
@@ -88,7 +90,9 @@ itemId
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .
@@ -126,7 +130,9 @@ DEFAULT_INDEX
 null
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .
@@ -147,7 +153,9 @@ itemId
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bs
 .

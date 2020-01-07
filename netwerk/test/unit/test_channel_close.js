@@ -292,7 +292,9 @@ data
 context
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 data
 httpbody

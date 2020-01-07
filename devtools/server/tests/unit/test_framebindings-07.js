@@ -117,7 +117,9 @@ frame
 .
 environment
 ;
-do_check_eq
+Assert
+.
+equal
 (
 environment
 .
@@ -134,7 +136,9 @@ environment
 .
 parent
 ;
-do_check_eq
+Assert
+.
+equal
 (
 parent
 .
@@ -151,7 +155,9 @@ parent
 .
 parent
 ;
-do_check_eq
+Assert
+.
+equal
 (
 grandpa
 .
@@ -179,7 +185,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -216,7 +224,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -252,7 +262,9 @@ response
 =
 >
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

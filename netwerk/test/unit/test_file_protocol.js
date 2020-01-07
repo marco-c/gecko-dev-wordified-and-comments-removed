@@ -1417,7 +1417,9 @@ new_file_channel
 file
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 chan
 .
@@ -1458,7 +1460,9 @@ Ci
 nsIIOService
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 chan
 .

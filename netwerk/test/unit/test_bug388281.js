@@ -58,7 +58,9 @@ port
 =
 90
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -101,7 +103,9 @@ port
 =
 500
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -144,7 +148,9 @@ port
 =
 20
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -188,7 +194,9 @@ port
 -
 1
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .
@@ -229,7 +237,9 @@ port
 =
 80
 ;
-do_check_eq
+Assert
+.
+equal
 (
 uri
 .

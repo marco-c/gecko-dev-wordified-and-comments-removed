@@ -759,7 +759,9 @@ metadata
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 metadata
 .
@@ -827,7 +829,9 @@ testfile
 0
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 teststring1
 +
@@ -854,7 +858,9 @@ data
 context
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 correctOnProgress
 )

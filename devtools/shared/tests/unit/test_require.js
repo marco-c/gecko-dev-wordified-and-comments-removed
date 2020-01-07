@@ -51,7 +51,9 @@ indentation
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 indent1
 =

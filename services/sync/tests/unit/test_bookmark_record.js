@@ -281,7 +281,9 @@ getTypeObject
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 placesItem
 .
@@ -294,7 +296,9 @@ type
 Bookmark
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bookmarkItem
 .
@@ -329,7 +333,9 @@ bookmarkItem
 ciphertext
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 bookmarkItem
 .
@@ -361,7 +367,9 @@ decrypt
 keyBundle
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 payload
 .
@@ -373,7 +381,9 @@ here
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 bookmarkItem
 .
@@ -386,7 +396,9 @@ type
 Bookmark
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 payload
 bookmarkItem

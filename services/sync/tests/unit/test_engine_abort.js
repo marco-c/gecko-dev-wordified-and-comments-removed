@@ -399,7 +399,9 @@ err
 ex
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 err
 "
@@ -450,7 +452,9 @@ err
 ex
 ;
 }
-do_check_eq
+Assert
+.
+equal
 (
 err
 undefined

@@ -154,7 +154,9 @@ findEntries
 null
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 entries
 .
@@ -172,7 +174,9 @@ getNext
 (
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 entryName
 "
@@ -184,7 +188,9 @@ txt
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 zipreader
 .
@@ -240,7 +246,9 @@ getEntry
 entryName
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 entry
 !

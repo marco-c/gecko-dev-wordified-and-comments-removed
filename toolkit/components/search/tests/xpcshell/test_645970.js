@@ -32,7 +32,9 @@ bug645970
 "
 )
 ;
-do_check_neq
+Assert
+.
+notEqual
 (
 engine
 null

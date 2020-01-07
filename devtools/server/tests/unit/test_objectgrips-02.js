@@ -169,7 +169,9 @@ frame
 .
 arguments
 ;
-do_check_eq
+Assert
+.
+equal
 (
 args
 [
@@ -204,7 +206,9 @@ function
 response
 )
 {
-do_check_true
+Assert
+.
+ok
 (
 response
 .
@@ -235,7 +239,9 @@ function
 response
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -245,7 +251,9 @@ length
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .
@@ -258,7 +266,9 @@ b
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 response
 .

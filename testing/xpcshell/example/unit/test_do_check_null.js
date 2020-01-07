@@ -3,8 +3,11 @@ run_test
 (
 )
 {
-do_check_null
+Assert
+.
+equal
 (
+null
 null
 )
 ;

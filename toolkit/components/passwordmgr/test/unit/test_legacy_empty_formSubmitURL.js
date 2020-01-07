@@ -188,7 +188,9 @@ com
 }
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -205,7 +207,9 @@ length
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -235,7 +239,9 @@ length
 2
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -281,7 +287,9 @@ com
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -298,7 +306,9 @@ length
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .
@@ -337,7 +347,9 @@ length
 1
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Services
 .

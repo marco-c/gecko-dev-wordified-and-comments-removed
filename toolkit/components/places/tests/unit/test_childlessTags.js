@@ -419,7 +419,9 @@ containerOpen
 =
 true
 ;
-do_check_eq
+Assert
+.
+equal
 (
 resultRoot
 .
@@ -469,7 +471,9 @@ indexOf
 tag
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 indexOfTag
 >

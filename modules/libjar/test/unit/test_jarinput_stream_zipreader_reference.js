@@ -135,7 +135,9 @@ return
 true
 ;
 }
-do_check_true
+Assert
+.
+ok
 (
 check_archive_crc
 (
@@ -210,7 +212,9 @@ forceGC
 (
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 stream
 .
@@ -224,7 +228,9 @@ length
 0
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 dirstream
 .

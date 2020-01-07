@@ -22,7 +22,9 @@ run_test
 (
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 Utils
 .
@@ -37,7 +39,9 @@ mzxw6ytb9jrgcztpn5rgc4tcme
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Utils
 .
@@ -52,7 +56,9 @@ foobarbafoobarba
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Utils
 .
@@ -98,7 +104,9 @@ aeaqcaibaeaqcaibaeaqcaibae
 "
 )
 ;
-do_check_eq
+Assert
+.
+equal
 (
 Utils
 .

@@ -70,7 +70,9 @@ Ci
 nsICacheTesting
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 testingInterface
 )

@@ -87,7 +87,9 @@ mdump
 extra
 )
 {
-do_check_eq
+Assert
+.
+equal
 (
 extra
 .
@@ -97,7 +99,9 @@ Yes
 "
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 "
 OOMAllocationSize
@@ -106,7 +110,9 @@ in
 extra
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 Number
 (

@@ -165,7 +165,9 @@ getService
 nsIBLS
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -191,7 +193,9 @@ nsIBLS
 STATE_BLOCKED
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -217,7 +221,9 @@ nsIBLS
 STATE_OUTDATED
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .
@@ -243,7 +249,9 @@ nsIBLS
 STATE_OUTDATED
 )
 ;
-do_check_true
+Assert
+.
+ok
 (
 blocklist
 .

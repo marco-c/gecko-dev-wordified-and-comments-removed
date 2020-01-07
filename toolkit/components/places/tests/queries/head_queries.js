@@ -1587,7 +1587,9 @@ uri
 ;
 }
 }
-do_check_eq
+Assert
+.
+equal
 (
 expectedResultCount
 aRoot
