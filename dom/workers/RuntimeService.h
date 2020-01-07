@@ -71,9 +71,9 @@ WorkerLoadInfo
 class
 WorkerThread
 ;
-}
-}
-BEGIN_WORKERS_NAMESPACE
+namespace
+workers
+{
 class
 RuntimeService
 final
@@ -746,6 +746,8 @@ aSharedWorker
 ;
 }
 ;
-END_WORKERS_NAMESPACE
+}
+}
+}
 #
 endif

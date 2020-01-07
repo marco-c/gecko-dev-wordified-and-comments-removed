@@ -579,6 +579,9 @@ Context
 ;
 workerPrivate
 =
+workers
+:
+:
 GetWorkerPrivateFromContext
 (
 cx

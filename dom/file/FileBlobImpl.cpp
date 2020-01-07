@@ -755,6 +755,9 @@ WorkerPrivate
 *
 workerPrivate
 =
+workers
+:
+:
 GetCurrentThreadWorkerPrivate
 (
 )

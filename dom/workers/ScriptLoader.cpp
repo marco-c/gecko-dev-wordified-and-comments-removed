@@ -533,7 +533,6 @@ h
 define
 MAX_CONCURRENT_SCRIPTS
 1000
-USING_WORKERS_NAMESPACE
 using
 mozilla
 :
@@ -573,6 +572,10 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+workers
+;
 namespace
 {
 nsIURI

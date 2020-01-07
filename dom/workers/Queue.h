@@ -33,7 +33,15 @@ nsTArray
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+namespace
+workersinternals
+{
 template
 <
 typename
@@ -708,6 +716,8 @@ Queue
 ;
 }
 ;
-END_WORKERS_NAMESPACE
+}
+}
+}
 #
 endif
