@@ -2964,7 +2964,7 @@ nsXULPopupManager
 :
 InitTriggerEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 nsIContent
@@ -3010,11 +3010,6 @@ do_QueryInterface
 aEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 GetTarget
 (
 )
@@ -3040,11 +3035,6 @@ uiEvent
 aEvent
 ?
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsUIEvent
@@ -3257,11 +3247,6 @@ MouseEvent
 mouseEvent
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsMouseEvent
@@ -3788,7 +3773,7 @@ bool
 aAttributesOverride
 bool
 aSelectFirstItem
-nsIDOMEvent
+Event
 *
 aTriggerEvent
 )
@@ -3871,7 +3856,7 @@ int32_t
 aYPos
 bool
 aIsContextMenu
-nsIDOMEvent
+Event
 *
 aTriggerEvent
 )
@@ -3957,7 +3942,7 @@ bool
 aIsContextMenu
 bool
 aAttributesOverride
-nsIDOMEvent
+Event
 *
 aTriggerEvent
 )
@@ -6531,7 +6516,7 @@ bool
 aIsContextMenu
 bool
 aSelectFirstItem
-nsIDOMEvent
+Event
 *
 aTriggerEvent
 )
