@@ -71,7 +71,10 @@ use
 device
 :
 :
+{
+FrameId
 Texture
+}
 ;
 use
 gpu_cache
@@ -79,7 +82,6 @@ gpu_cache
 :
 {
 GpuCache
-GpuCacheUpdateList
 }
 ;
 use
@@ -4249,12 +4251,9 @@ render_tasks
 :
 RenderTaskTree
 pub
-gpu_cache_updates
+gpu_cache_frame_id
 :
-Option
-<
-GpuCacheUpdateList
->
+FrameId
 pub
 deferred_resolves
 :
