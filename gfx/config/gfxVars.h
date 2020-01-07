@@ -210,6 +210,13 @@ false
 \
 _
 (
+UseWebRenderDCompWin
+bool
+false
+)
+\
+_
+(
 UseWebRenderProgramBinary
 bool
 false

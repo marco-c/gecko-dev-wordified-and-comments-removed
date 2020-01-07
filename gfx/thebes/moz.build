@@ -1189,6 +1189,11 @@ D3D11Checks
 .
 cpp
 '
+]
+SOURCES
++
+=
+[
 '
 DeviceManagerDx
 .
