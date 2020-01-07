@@ -1651,6 +1651,10 @@ gtk_targets_include_image
 )
 STUB
 (
+gtk_targets_include_text
+)
+STUB
+(
 gtk_target_table_free
 )
 STUB
