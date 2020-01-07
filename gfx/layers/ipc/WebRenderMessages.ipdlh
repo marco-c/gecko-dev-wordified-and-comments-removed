@@ -105,6 +105,17 @@ MPL
 *
 /
 include
+"
+mozilla
+/
+layers
+/
+WebRenderMessageUtils
+.
+h
+"
+;
+include
 LayersSurfaces
 ;
 include

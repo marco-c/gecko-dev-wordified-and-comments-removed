@@ -93,6 +93,13 @@ MPL
 .
 *
 /
+include
+"
+GMPMessageUtils
+.
+h
+"
+;
 using
 GMPBufferType
 from
