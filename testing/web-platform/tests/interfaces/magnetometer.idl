@@ -36,7 +36,7 @@ z
 }
 ;
 enum
-LocalCoordinateSystem
+MagnetometerLocalCoordinateSystem
 {
 "
 device
@@ -51,7 +51,7 @@ MagnetometerSensorOptions
 :
 SensorOptions
 {
-LocalCoordinateSystem
+MagnetometerLocalCoordinateSystem
 referenceFrame
 =
 "
