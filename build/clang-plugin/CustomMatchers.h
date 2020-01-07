@@ -489,10 +489,15 @@ isRealFloatingType
 )
 ;
 }
-AST_MATCHER
+AST_POLYMORPHIC_MATCHER
 (
-BinaryOperator
 isInSystemHeader
+\
+AST_POLYMORPHIC_SUPPORTED_TYPES
+(
+Decl
+Stmt
+)
 )
 {
 return
