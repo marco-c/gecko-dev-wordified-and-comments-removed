@@ -8830,7 +8830,7 @@ level
 .
 flash
 "
-0
+1
 )
 ;
 pref
@@ -8848,7 +8848,7 @@ level
 .
 default
 "
-0
+1
 )
 ;
 #
