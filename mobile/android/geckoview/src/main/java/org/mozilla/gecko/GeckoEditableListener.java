@@ -93,11 +93,6 @@ IME_STATE_PASSWORD
 =
 2
 ;
-int
-IME_STATE_PLUGIN
-=
-3
-;
 void
 notifyIME
 (
