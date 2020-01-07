@@ -2684,17 +2684,6 @@ aPlugins
 )
 override
 ;
-virtual
-nsresult
-GetStateObject
-(
-nsIVariant
-*
-*
-aResult
-)
-override
-;
 long
 BlockedTrackingNodeCount
 (

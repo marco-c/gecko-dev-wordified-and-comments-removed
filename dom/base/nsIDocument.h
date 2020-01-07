@@ -6772,7 +6772,6 @@ NotifyMediaFeatureValuesChanged
 (
 )
 ;
-virtual
 nsresult
 GetStateObject
 (
@@ -6781,8 +6780,6 @@ nsIVariant
 *
 aResult
 )
-=
-0
 ;
 nsDOMNavigationTiming
 *
