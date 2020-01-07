@@ -115,13 +115,13 @@ data
 void
 brush_vs
 (
+VertexInfo
+vi
 int
 prim_address
-vec2
-local_pos
 RectWithSize
 local_rect
-ivec2
+ivec3
 user_data
 PictureTask
 pic_task
@@ -146,6 +146,8 @@ ifdef
 WR_FEATURE_ALPHA_PASS
 vLocalPos
 =
+vi
+.
 local_pos
 ;
 #

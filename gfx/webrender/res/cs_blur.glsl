@@ -278,6 +278,17 @@ y
 ;
 break
 ;
+default
+:
+vOffsetScale
+=
+vec2
+(
+0
+.
+0
+)
+;
 }
 vUvRect
 =

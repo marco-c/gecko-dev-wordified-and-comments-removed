@@ -244,13 +244,10 @@ TEX_SAMPLE
 sampler
 tex_coord
 )
-textureLod
+texture
 (
 sampler
 tex_coord
-0
-.
-0
 )
 #
 endif
