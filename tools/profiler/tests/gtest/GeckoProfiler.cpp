@@ -3269,7 +3269,7 @@ ProfilingStackFrame
 Category
 :
 :
-STORAGE
+DOM
 )
 ;
 AutoProfilerLabel
