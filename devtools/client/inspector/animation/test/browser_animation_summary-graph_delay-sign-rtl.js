@@ -31,6 +31,17 @@ this
 )
 ;
 await
+pushPref
+(
+"
+intl
+.
+uidirection
+"
+1
+)
+;
+await
 testSummaryGraphDelaySign
 (
 )
