@@ -244,6 +244,10 @@ get
 (
 )
 ;
+release
+(
+)
+;
 }
 Promise
 [

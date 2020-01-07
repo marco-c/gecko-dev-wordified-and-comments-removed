@@ -238,6 +238,10 @@ get
 (
 )
 ;
+release
+(
+)
+;
 }
 public
 Console
