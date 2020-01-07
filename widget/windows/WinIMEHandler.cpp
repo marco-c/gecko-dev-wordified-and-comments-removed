@@ -2465,10 +2465,10 @@ mozAwesomebar
 {
 if
 (
-IMMHandler
+TSFTextStore
 :
 :
-IsGoogleJapaneseInputActive
+ShouldSetInputScopeOfURLBarToDefault
 (
 )
 )

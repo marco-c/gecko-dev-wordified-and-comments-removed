@@ -1208,6 +1208,12 @@ IsGoogleJapaneseInputActive
 ;
 static
 bool
+ShouldSetInputScopeOfURLBarToDefault
+(
+)
+;
+static
+bool
 DoNotReturnErrorFromGetSelection
 (
 )
