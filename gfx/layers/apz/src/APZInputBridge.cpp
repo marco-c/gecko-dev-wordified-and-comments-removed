@@ -703,7 +703,9 @@ mTime
 wheelEvent
 .
 mTimeStamp
-0
+wheelEvent
+.
+mModifiers
 scrollMode
 ScrollWheelInput
 :
