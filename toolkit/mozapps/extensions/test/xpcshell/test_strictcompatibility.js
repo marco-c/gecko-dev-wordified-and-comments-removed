@@ -42,6 +42,9 @@ name
 Test
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -125,6 +128,9 @@ name
 Test
 2
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -308,6 +314,9 @@ name
 Test
 4
 "
+bootstrap
+:
+true
 strictCompatibility
 :
 true
@@ -398,6 +407,9 @@ name
 Test
 5
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -481,6 +493,9 @@ name
 Test
 6
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

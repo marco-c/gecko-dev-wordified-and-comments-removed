@@ -694,11 +694,6 @@ test_signed_verify
 js
 "
 "
-test_strictcompatibility
-.
-js
-"
-"
 test_syncGUID
 .
 js
