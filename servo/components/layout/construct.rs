@@ -7528,7 +7528,13 @@ style_context
 if
 style
 .
-is_in_display_none_subtree
+get_box
+(
+)
+.
+display
+.
+is_none
 (
 )
 {
