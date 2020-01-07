@@ -136,9 +136,7 @@ Path
 ]
 =
 =
-'
-/
-'
+PATHSEP_CHAR
 )
 {
 Pos
@@ -155,9 +153,7 @@ Path
 .
 find
 (
-'
-/
-'
+PATHSEP_CHAR
 Pos
 )
 )
