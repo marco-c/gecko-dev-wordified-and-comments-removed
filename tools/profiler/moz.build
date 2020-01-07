@@ -187,13 +187,6 @@ cpp
 '
 core
 /
-ProfiledThreadData
-.
-cpp
-'
-'
-core
-/
 ProfileJSONWriter
 .
 cpp
@@ -215,7 +208,7 @@ cpp
 '
 core
 /
-RegisteredThread
+ThreadInfo
 .
 cpp
 '
