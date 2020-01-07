@@ -500,16 +500,6 @@ load
 1443664
 .
 html
-skip
--
-if
-(
-Android
-)
-load
-1444630
-.
-html
 load
 1446451
 .
