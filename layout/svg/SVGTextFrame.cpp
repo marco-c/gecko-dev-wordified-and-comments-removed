@@ -8042,9 +8042,9 @@ mVisIEndEdge
 NS_DISPLAY_DECL_NAME
 (
 "
-SVGText
+SVGCharClip
 "
-TYPE_TEXT
+TYPE_SVG_CHAR_CLIP
 )
 }
 ;
