@@ -795,8 +795,14 @@ urlclassifier
 .
 trackingTable
 "
-"
-"
+TrackingProtection
+.
+buildPrefValue
+(
+TrackingProtectionDelegate
+.
+CATEGORY_ALL
+)
 )
 ;
 boolean
