@@ -6503,6 +6503,16 @@ AssertPluginThread
 (
 )
 ;
+if
+(
+!
+sObjectMap
+)
+{
+return
+nullptr
+;
+}
 NPObjectData
 *
 d
