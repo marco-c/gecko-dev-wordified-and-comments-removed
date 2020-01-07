@@ -1358,6 +1358,16 @@ tests
 cppunit
 -
 crashtest
+#
+-
+jittest
+#
+not
+ready
+yet
+:
+bug
+1098508
 -
 jsreftest
 -
