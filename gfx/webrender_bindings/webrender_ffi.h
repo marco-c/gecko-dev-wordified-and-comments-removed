@@ -389,7 +389,6 @@ wr
 :
 :
 WrPipelineInfo
-*
 aInfo
 )
 ;

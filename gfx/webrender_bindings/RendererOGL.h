@@ -253,7 +253,6 @@ wr
 :
 :
 WrPipelineInfo
-*
 FlushPipelineInfo
 (
 )
