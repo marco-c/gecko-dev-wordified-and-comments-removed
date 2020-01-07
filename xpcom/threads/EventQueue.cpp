@@ -23,8 +23,6 @@ EventQueue
 :
 EventQueue
 (
-EventPriority
-aPriority
 )
 {
 }
