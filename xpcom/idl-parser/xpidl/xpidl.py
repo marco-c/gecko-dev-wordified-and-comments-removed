@@ -287,7 +287,7 @@ or
 '
 '
 )
-                              
+                               
 for
 name
 value
@@ -766,6 +766,7 @@ sys
 stderr
 IDLError
 (
+                
 "
 [
 const
@@ -1739,6 +1740,7 @@ be
 redeclared
 "
 %
+                           
 (
 object
 .
@@ -1867,6 +1869,7 @@ location
 s
 "
 %
+                               
 (
 object
 .
@@ -4740,6 +4743,7 @@ has_method
 raise
 IDLError
 (
+                            
 "
 interface
 '
@@ -4833,6 +4837,7 @@ s
 '
 "
 %
+                               
 (
 self
 .
@@ -4884,6 +4889,7 @@ s
 '
 "
 %
+                               
 (
 self
 .
@@ -4944,6 +4950,7 @@ s
 "
 %
 (
+                    
 self
 .
 name
@@ -5728,7 +5735,7 @@ shimfile
 True
 setshimfile
 )
-        
+    
 }
     
 def
@@ -6183,6 +6190,7 @@ not
 s
 "
 %
+                           
 self
 .
 type
@@ -7460,6 +7468,7 @@ last
 parameter
 "
 %
+                               
 p
 .
 name
@@ -7519,6 +7528,7 @@ long
 raise
 IDLError
 (
+                                
 "
 is_size
 parameter
@@ -7555,6 +7565,7 @@ s
 '
 "
 %
+                                   
 p
 .
 size_is
@@ -8894,7 +8905,7 @@ webidl
 '
 WEBIDL
 '
-        
+    
 }
     
 tokens
@@ -8936,7 +8947,7 @@ RSHIFT
 '
 NATIVEID
 '
-        
+    
 ]
     
 tokens
@@ -10555,10 +10566,12 @@ slice
 doccomments
 )
         
+def
 l
-=
-lambda
+(
+)
 :
+return
 self
 .
 getLocation
@@ -12167,6 +12180,7 @@ t
 raise
 IDLError
 (
+                
 "
 Syntax
 Error

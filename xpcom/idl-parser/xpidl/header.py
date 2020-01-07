@@ -364,7 +364,7 @@ NS_IMETHOD
 '
 )
 :
-        
+    
 params
 =
 {
@@ -377,7 +377,7 @@ attributeReturnType
 a
 declType
 )
-                  
+              
 '
 binaryname
 '
@@ -387,7 +387,7 @@ attributeNativeName
 a
 getter
 )
-                  
+              
 '
 paramlist
 '
@@ -398,7 +398,7 @@ a
 getter
 )
 }
-        
+    
 return
 "
 %
@@ -3417,6 +3417,7 @@ s
 ;
 "
 %
+                             
 (
 iface
 .
@@ -3589,7 +3590,6 @@ fd
 iface
 True
 )
-;
     
 fd
 .
@@ -3606,7 +3606,6 @@ fd
 iface
 False
 )
-;
     
 fd
 .
@@ -3683,6 +3682,7 @@ s
 ;
 "
 %
+                             
 (
 iface
 .
