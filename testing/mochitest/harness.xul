@@ -381,16 +381,6 @@ javascript
 [
 CDATA
 [
-if
-(
-Cc
-=
-=
-=
-undefined
-)
-{
-}
 function
 loadTests
 (

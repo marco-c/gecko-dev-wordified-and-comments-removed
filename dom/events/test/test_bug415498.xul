@@ -304,16 +304,6 @@ Bug
 *
 *
 /
-if
-(
-Cc
-=
-=
-=
-undefined
-)
-{
-}
 SimpleTest
 .
 waitForExplicitFinish

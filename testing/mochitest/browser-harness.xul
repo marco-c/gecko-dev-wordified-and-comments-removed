@@ -524,16 +524,6 @@ javascript
 [
 CDATA
 [
-if
-(
-Cc
-=
-=
-=
-undefined
-)
-{
-}
 var
 gConfig
 ;
