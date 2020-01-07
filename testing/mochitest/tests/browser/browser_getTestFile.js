@@ -8,9 +8,7 @@ let
 Promise
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -29,9 +27,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

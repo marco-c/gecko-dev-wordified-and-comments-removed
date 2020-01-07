@@ -182,7 +182,7 @@ application
 pdf
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -201,7 +201,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -272,9 +272,9 @@ nsIPluginHost
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -295,9 +295,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -1723,9 +1723,7 @@ jsm
 let
 PdfjsChromeUtils
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -1833,7 +1831,7 @@ Factory
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

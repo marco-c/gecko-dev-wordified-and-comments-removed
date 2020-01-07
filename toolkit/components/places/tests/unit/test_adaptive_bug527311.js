@@ -36,9 +36,7 @@ openpage
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

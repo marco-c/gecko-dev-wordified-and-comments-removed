@@ -261,9 +261,7 @@ jsm
 let
 RemoteSecurityUI
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -524,9 +522,7 @@ let
 RemoteWebProgressManager
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -666,9 +662,7 @@ let
 RemoteFinder
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2195,9 +2189,7 @@ messageManager
 let
 Services
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2611,9 +2603,7 @@ let
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -3151,9 +3141,7 @@ disablehistory
 let
 Services
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -3344,7 +3332,7 @@ this
 .
 _selectParentHelper
 =
-Cu
+ChromeUtils
 .
 import
 (

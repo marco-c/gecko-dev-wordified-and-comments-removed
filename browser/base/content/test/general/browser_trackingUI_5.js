@@ -57,7 +57,7 @@ var
 UrlClassifierTestUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

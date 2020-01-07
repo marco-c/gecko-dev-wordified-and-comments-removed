@@ -4,7 +4,7 @@ tmpScope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

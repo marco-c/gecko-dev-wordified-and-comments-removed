@@ -31,7 +31,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -100,7 +100,7 @@ dump
 )
 =
 >
-Cu
+ChromeUtils
 .
 import
 (
@@ -152,7 +152,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

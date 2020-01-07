@@ -63,9 +63,7 @@ version
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -260,9 +258,7 @@ LightweightThemeManager
 ltm
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

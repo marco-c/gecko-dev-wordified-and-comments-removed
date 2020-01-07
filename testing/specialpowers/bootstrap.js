@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -35,9 +33,7 @@ observer
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -128,9 +124,7 @@ observer
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

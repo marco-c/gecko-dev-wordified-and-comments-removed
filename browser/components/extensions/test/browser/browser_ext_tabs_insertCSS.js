@@ -16,7 +16,7 @@ let
 MessageChannel
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

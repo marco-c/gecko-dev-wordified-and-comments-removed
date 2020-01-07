@@ -38,7 +38,7 @@ UnsupportedOperationError
 WebDriverError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -36,9 +36,9 @@ TextDecoder
 ]
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -59,9 +59,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

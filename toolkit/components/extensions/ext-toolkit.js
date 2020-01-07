@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -37,7 +37,7 @@ URL
 ]
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

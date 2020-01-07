@@ -56,7 +56,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -105,9 +105,9 @@ notificationStorage
 1
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

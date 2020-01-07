@@ -17,7 +17,7 @@ element
 WebElement
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -43,7 +43,7 @@ const
 InvalidArgumentError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

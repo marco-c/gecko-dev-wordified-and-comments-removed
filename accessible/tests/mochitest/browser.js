@@ -198,9 +198,7 @@ button
 )
 ;
 }
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

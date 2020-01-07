@@ -8,7 +8,7 @@ global
 =
 this
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -27,7 +27,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -79,9 +77,7 @@ const
 GlobalManager
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

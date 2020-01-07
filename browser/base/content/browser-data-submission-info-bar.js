@@ -88,7 +88,7 @@ _log
 let
 Log
 =
-Cu
+ChromeUtils
 .
 import
 (

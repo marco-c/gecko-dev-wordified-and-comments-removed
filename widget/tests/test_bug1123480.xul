@@ -277,9 +277,7 @@ access
 to
 file
 methods
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -481,9 +479,7 @@ with
 private
 browsing
 enabled
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -566,9 +562,7 @@ plaintext
 in
 private
 channel
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

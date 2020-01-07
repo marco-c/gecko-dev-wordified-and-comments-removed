@@ -12,7 +12,7 @@ bug543805
 /
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

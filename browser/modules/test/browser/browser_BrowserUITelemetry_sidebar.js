@@ -10,7 +10,7 @@ BrowserUITelemetry
 BUIT
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

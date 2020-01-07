@@ -211,9 +211,7 @@ kFromUserInput
 =
 1
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

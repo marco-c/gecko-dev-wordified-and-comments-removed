@@ -94,9 +94,7 @@ interfaces
 .
 nsIURIMutator
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

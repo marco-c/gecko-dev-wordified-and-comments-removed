@@ -79,7 +79,7 @@ TextEncoder
 ]
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -117,7 +117,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -136,7 +136,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -155,7 +155,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -179,7 +179,7 @@ const
 EventEmitter
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -205,7 +205,7 @@ const
 OS
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -226,9 +226,9 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -267,7 +267,7 @@ let
 Management
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -391,7 +391,7 @@ AppInfo
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -602,7 +602,7 @@ open
 var
 AMscope
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -3494,7 +3494,7 @@ annotations
 let
 XPIscope
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -3668,7 +3668,7 @@ flush
 let
 XPIScope
 =
-Cu
+ChromeUtils
 .
 import
 (

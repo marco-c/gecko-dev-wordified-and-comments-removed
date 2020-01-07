@@ -3,7 +3,7 @@ setExpectedFailuresForSelfTest
 1
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

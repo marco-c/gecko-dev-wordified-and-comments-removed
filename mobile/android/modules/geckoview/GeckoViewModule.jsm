@@ -31,7 +31,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -62,7 +62,7 @@ dump
 )
 =
 >
-Cu
+ChromeUtils
 .
 import
 (

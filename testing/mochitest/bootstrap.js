@@ -13,7 +13,7 @@ Cc
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -70,9 +70,9 @@ win
 .
 console
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 win
 "

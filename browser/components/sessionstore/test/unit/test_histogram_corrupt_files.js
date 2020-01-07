@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -51,7 +51,7 @@ do_get_profile
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

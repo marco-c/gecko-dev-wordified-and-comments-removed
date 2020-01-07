@@ -3,7 +3,7 @@ var
 AddonManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -29,7 +29,7 @@ var
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

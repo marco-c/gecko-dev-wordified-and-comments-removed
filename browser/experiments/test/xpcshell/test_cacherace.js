@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -22,7 +22,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -309,7 +309,7 @@ PREF_FETCHINTERVAL
 let
 ExperimentsScope
 =
-Cu
+ChromeUtils
 .
 import
 (

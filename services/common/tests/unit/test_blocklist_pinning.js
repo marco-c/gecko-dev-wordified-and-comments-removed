@@ -12,7 +12,7 @@ CC
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -90,7 +90,7 @@ platformVersion
 2
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -153,7 +153,7 @@ const
 PinningPreloadClient
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

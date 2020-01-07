@@ -9,9 +9,7 @@ Loader
 Require
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

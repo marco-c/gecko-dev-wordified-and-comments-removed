@@ -32,9 +32,7 @@ wrappedJSObject
 let
 scope
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -17,7 +17,7 @@ Components
 .
 manager
 ;
-Cu
+ChromeUtils
 .
 import
 (

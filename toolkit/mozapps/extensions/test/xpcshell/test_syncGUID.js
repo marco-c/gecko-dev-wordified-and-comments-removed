@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -37,9 +35,7 @@ scope
 }
 ;
 return
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

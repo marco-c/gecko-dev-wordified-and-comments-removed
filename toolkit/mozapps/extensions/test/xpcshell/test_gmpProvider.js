@@ -21,7 +21,7 @@ Components
 var
 GMPScope
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -44,7 +44,7 @@ jsm
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -63,7 +63,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -116,9 +116,9 @@ properties
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -2682,7 +2682,7 @@ removedPaths
 ;
 GMPScope
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2951,7 +2951,7 @@ id
 }
 GMPScope
 =
-Cu
+ChromeUtils
 .
 import
 (

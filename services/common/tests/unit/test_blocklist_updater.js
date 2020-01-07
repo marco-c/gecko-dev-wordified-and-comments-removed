@@ -1,4 +1,4 @@
-Cu
+ChromeUtils
 .
 import
 (
@@ -22,7 +22,7 @@ const
 UptakeTelemetry
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -378,7 +378,7 @@ now
 let
 updater
 =
-Cu
+ChromeUtils
 .
 import
 (

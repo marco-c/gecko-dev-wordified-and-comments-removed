@@ -3,7 +3,7 @@ var
 WebChannel
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -412,7 +412,7 @@ try
 {
 updateChannel
 =
-Cu
+ChromeUtils
 .
 import
 (

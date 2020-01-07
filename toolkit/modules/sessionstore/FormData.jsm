@@ -27,7 +27,7 @@ Components
 .
 interfaces
 ;
-Cu
+ChromeUtils
 .
 import
 (

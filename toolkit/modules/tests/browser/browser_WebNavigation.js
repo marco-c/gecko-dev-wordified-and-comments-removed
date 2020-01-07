@@ -26,7 +26,7 @@ var
 WebNavigation
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

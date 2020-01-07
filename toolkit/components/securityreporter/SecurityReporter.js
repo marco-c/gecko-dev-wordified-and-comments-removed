@@ -29,7 +29,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -84,7 +84,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -122,9 +122,9 @@ HISTOGRAM_ID
 TLS_ERROR_REPORT_UI
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

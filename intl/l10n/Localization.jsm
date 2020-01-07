@@ -24,7 +24,7 @@ const
 L10nRegistry
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -994,7 +994,7 @@ const
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

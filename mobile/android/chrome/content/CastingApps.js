@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -51,7 +51,7 @@ function
 aService
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -121,7 +121,7 @@ function
 aService
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

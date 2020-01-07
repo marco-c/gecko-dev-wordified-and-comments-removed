@@ -3,7 +3,7 @@ var
 LoadContextInfo
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

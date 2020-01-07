@@ -3,7 +3,7 @@ const
 FinderIterator
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

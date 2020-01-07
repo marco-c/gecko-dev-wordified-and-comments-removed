@@ -8,7 +8,7 @@ const
 LightweightThemeManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

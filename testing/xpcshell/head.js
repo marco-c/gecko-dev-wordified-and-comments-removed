@@ -40,9 +40,7 @@ _register_modules_protocol_handler
 var
 _Promise
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -68,9 +66,7 @@ Promise
 var
 _PromiseTestUtils
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -96,9 +92,7 @@ PromiseTestUtils
 var
 _Task
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -124,9 +118,7 @@ Task
 let
 _NetUtil
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -165,9 +157,7 @@ XMLHttpRequest
 var
 AssertCls
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -294,9 +284,7 @@ n
 var
 _LoggerClass
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2061,9 +2049,7 @@ try
 require
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2956,9 +2942,7 @@ string
 let
 _CoverageCollector
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

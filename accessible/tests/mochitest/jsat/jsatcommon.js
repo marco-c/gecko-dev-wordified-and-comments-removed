@@ -12,9 +12,7 @@ gTestFuncs
 var
 gIterator
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -33,9 +31,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -56,9 +52,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -79,9 +73,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -652,9 +644,7 @@ testFunc
 (
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

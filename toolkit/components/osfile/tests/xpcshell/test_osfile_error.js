@@ -14,9 +14,7 @@ Constants
 }
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

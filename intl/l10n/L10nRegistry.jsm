@@ -3,9 +3,7 @@ const
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -31,9 +29,7 @@ const
 MessageContext
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

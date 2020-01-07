@@ -10,7 +10,7 @@ BrowserUITelemetry
 BUIT
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -35,7 +35,7 @@ const
 SyncedTabs
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

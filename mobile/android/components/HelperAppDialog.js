@@ -115,7 +115,7 @@ drawable
 alert_download
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
