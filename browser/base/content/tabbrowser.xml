@@ -6928,8 +6928,6 @@ _hiddenSoundPlayingTabs
 add
 (
 tab
-.
-id
 )
 ;
 this
@@ -6954,8 +6952,6 @@ _hiddenSoundPlayingTabs
 delete
 (
 tab
-.
-id
 )
 ;
 if
