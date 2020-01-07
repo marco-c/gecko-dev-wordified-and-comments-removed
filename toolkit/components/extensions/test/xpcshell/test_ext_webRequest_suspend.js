@@ -3,6 +3,17 @@ use
 strict
 "
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Message
+manager
+disconnected
+/
+)
+;
 const
 HOSTS
 =
