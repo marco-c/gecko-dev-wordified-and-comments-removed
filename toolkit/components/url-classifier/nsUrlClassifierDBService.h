@@ -647,7 +647,7 @@ nsACString
 &
 tables
 LookupResultArray
-*
+&
 results
 )
 ;
