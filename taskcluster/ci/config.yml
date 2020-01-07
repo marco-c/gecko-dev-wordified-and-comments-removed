@@ -625,6 +625,16 @@ Device
 Image
 '
 '
+Deb7
+'
+:
+'
+Packages
+for
+Debian
+7
+'
+'
 Nexus
 5
 -
