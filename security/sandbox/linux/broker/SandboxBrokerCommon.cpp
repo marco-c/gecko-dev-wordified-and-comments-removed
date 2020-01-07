@@ -123,6 +123,9 @@ unlink
 "
 readlink
 "
+"
+connect
+"
 }
 ;
 ssize_t

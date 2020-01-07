@@ -124,6 +124,12 @@ RECURSIVE
 <
 <
 5
+MAY_CONNECT
+=
+1
+<
+<
+6
 }
 ;
 typedef
