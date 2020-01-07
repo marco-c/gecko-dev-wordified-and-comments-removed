@@ -8441,6 +8441,17 @@ if
 script
 -
 >
+hideScriptFromDebugger
+(
+)
+)
+return
+;
+if
+(
+script
+-
+>
 compartment
 (
 )
