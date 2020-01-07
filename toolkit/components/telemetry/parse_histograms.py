@@ -938,10 +938,7 @@ products
 '
 [
 "
-firefox
-"
-"
-fennec
+all
 "
 ]
 )

@@ -2881,8 +2881,7 @@ out
 it
 defaults
 to
-firefox
-fennec
+all
 .
 Changing
 a

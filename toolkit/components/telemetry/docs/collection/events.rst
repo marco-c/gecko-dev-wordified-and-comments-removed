@@ -1278,8 +1278,7 @@ on
 It
 defaults
 to
-firefox
-fennec
+all
 .
 Currently
 supported

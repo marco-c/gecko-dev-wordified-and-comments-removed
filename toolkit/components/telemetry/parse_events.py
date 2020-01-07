@@ -1975,10 +1975,7 @@ products
 '
 [
 "
-firefox
-"
-"
-fennec
+all
 "
 ]
 )
