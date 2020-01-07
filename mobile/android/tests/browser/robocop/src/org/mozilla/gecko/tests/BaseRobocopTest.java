@@ -798,6 +798,8 @@ getActivity
 (
 )
 ;
+mStringHelper
+=
 StringHelper
 .
 initialize
@@ -807,14 +809,6 @@ tempActivity
 getResources
 (
 )
-)
-;
-mStringHelper
-=
-StringHelper
-.
-get
-(
 )
 ;
 mSolo
