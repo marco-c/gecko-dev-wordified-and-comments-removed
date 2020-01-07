@@ -5769,6 +5769,7 @@ __main__
 :
     
 print
+(
 Certificate
 (
 sys
@@ -5778,4 +5779,5 @@ stdin
 .
 toPEM
 (
+)
 )

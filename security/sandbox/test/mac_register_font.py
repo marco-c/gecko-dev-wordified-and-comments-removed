@@ -22,8 +22,6 @@ OS
 "
 "
 import
-CoreFoundation
-import
 CoreText
 import
 Cocoa
@@ -63,7 +61,7 @@ action
 "
 store_true
 "
-            
+                        
 help
 =
 "
@@ -89,7 +87,7 @@ nargs
 '
 *
 '
-            
+                        
 help
 =
 "
@@ -124,7 +122,7 @@ action
 "
 store_true
 "
-            
+                        
 help
 =
 "
@@ -158,7 +156,7 @@ action
 "
 store_true
 "
-            
+                        
 help
 =
 "
@@ -244,7 +242,7 @@ error
 register_or_unregister_font
 (
 fontURL
-                
+                                                      
 args
 .
 unregister
@@ -269,7 +267,7 @@ s
 scope
 "
 %
-                    
+                   
 (
 (
 "
@@ -307,7 +305,7 @@ s
 scope
 "
 %
-                    
+                   
 (
 (
 "
@@ -364,7 +362,7 @@ CoreText
 CTFontManagerUnregisterFontsForURL
 (
 fontURL
-        
+                                                        
 scope
 None
 )
@@ -377,7 +375,7 @@ CoreText
 CTFontManagerRegisterFontsForURL
 (
 fontURL
-                
+                                                           
 scope
 None
 )
