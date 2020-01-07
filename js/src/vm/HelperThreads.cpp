@@ -7204,7 +7204,7 @@ task
 parseGlobal
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 )
