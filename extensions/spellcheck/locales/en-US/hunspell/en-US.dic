@@ -1,4 +1,4 @@
-52804
+52808
 0
 /
 nm
@@ -47475,6 +47475,9 @@ blammo
 blanch
 /
 GDS
+blanche
+/
+S
 blancmange
 /
 MS
@@ -51986,6 +51989,9 @@ SZGMDR
 cartage
 /
 M
+carte
+/
+S
 cartel
 /
 MS
@@ -76190,6 +76196,7 @@ MS
 gazillion
 /
 S
+gazillionth
 gazpacho
 /
 M
@@ -98638,6 +98645,9 @@ neurotic
 MS
 neurotically
 neuroticism
+neurotoxin
+/
+S
 neurotransmitter
 /
 SM
@@ -108731,7 +108741,7 @@ preclude
 GDS
 preclusion
 /
-M
+MS
 precocious
 /
 YP
@@ -118061,7 +118071,7 @@ screed
 S
 screen
 /
-SJMDG
+SJMDGRZ
 screening
 /
 M
@@ -132275,7 +132285,7 @@ trailer
 M
 train
 /
-ZGSMDRB
+ZGSMDRBJ
 trained
 /
 U
