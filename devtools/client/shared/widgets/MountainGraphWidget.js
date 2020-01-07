@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -13,15 +13,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -198,8 +192,6 @@ MountainGraphWidget
 .
 prototype
 =
-Heritage
-.
 extend
 (
 AbstractCanvasGraph

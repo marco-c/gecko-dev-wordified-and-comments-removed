@@ -4019,8 +4019,6 @@ ResultsPanelContainer
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WidgetMethods

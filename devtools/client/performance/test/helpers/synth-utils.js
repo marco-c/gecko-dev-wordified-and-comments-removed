@@ -590,7 +590,7 @@ jsm
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -598,15 +598,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -636,8 +630,6 @@ MyCustomTreeItem
 .
 prototype
 =
-Heritage
-.
 extend
 (
 AbstractTreeItem

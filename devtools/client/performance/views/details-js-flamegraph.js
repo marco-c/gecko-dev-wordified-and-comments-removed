@@ -6,8 +6,6 @@ strict
 var
 JsFlameGraphView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

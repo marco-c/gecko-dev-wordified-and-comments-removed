@@ -2781,8 +2781,6 @@ FilteredSourcesView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 ResultsPanelContainer
@@ -3361,8 +3359,6 @@ FilteredFunctionsView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 ResultsPanelContainer

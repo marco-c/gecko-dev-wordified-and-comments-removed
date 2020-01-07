@@ -21,7 +21,7 @@ task
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -29,15 +29,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -549,8 +543,6 @@ LineGraphWidget
 .
 prototype
 =
-Heritage
-.
 extend
 (
 AbstractCanvasGraph

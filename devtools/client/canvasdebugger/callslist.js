@@ -6,8 +6,6 @@ strict
 var
 CallsListView
 =
-Heritage
-.
 extend
 (
 WidgetMethods

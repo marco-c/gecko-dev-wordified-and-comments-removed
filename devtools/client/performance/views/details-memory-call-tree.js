@@ -6,8 +6,6 @@ strict
 var
 MemoryCallTreeView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

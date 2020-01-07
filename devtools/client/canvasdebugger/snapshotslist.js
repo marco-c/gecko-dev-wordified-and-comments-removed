@@ -6,8 +6,6 @@ strict
 var
 SnapshotsListView
 =
-Heritage
-.
 extend
 (
 WidgetMethods

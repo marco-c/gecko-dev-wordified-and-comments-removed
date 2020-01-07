@@ -38,8 +38,6 @@ ticks
 var
 WaterfallView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

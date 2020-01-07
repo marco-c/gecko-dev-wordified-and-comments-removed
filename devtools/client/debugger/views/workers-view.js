@@ -26,8 +26,6 @@ WorkersView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WidgetMethods

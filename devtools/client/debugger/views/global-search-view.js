@@ -77,8 +77,6 @@ GlobalSearchView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WidgetMethods

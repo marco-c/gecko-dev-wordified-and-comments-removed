@@ -103,8 +103,6 @@ StackFramesView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WidgetMethods

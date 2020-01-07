@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -13,15 +13,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -286,8 +280,6 @@ MarkersOverview
 .
 prototype
 =
-Heritage
-.
 extend
 (
 AbstractCanvasGraph

@@ -6,8 +6,6 @@ strict
 var
 JsCallTreeView
 =
-Heritage
-.
 extend
 (
 DetailsSubview
