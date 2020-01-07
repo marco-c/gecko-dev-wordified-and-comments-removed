@@ -6518,15 +6518,6 @@ platform
 "
 ]
         
-hashType
-=
-config
-[
-'
-hashType
-'
-]
-        
 appName
 =
 config
@@ -6563,16 +6554,6 @@ set_buildbot_property
 appName
 "
 appName
-)
-        
-self
-.
-set_buildbot_property
-(
-"
-hashType
-"
-hashType
 )
         
 self
