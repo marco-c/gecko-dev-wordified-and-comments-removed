@@ -348,6 +348,17 @@ mozilla
 /
 dom
 /
+KeyboardEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h
@@ -1117,7 +1128,7 @@ kMenuAccessKey
 else
 kMenuAccessKey
 =
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_ALT
@@ -2418,7 +2429,7 @@ keypress
 mDetail
 =
 =
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_SPACE
@@ -3537,7 +3548,7 @@ key
 )
 {
 case
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_META
@@ -3548,7 +3559,7 @@ cMeta
 cMetaMask
 ;
 case
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_WIN
@@ -3559,7 +3570,7 @@ cOS
 cOSMask
 ;
 case
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_ALT
@@ -3570,7 +3581,7 @@ cAlt
 cAltMask
 ;
 case
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_CONTROL
@@ -3613,7 +3624,7 @@ MODIFIER_ALT
 return
 KeyToMask
 (
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_ALT
@@ -3625,7 +3636,7 @@ MODIFIER_CONTROL
 return
 KeyToMask
 (
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_CONTROL
@@ -3637,7 +3648,7 @@ MODIFIER_META
 return
 KeyToMask
 (
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_META
@@ -3649,7 +3660,7 @@ MODIFIER_OS
 return
 KeyToMask
 (
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_VK_WIN

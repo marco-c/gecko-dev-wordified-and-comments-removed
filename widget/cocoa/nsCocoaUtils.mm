@@ -5139,7 +5139,7 @@ have
 different
 name
 in
-nsIDOMKeyEvent
+KeyboardEvent
 from
 its
 key
