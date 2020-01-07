@@ -2243,6 +2243,8 @@ FontStretch
 VARIANT_HK
 |
 VARIANT_SYSFONT
+|
+VARIANT_PERCENT
 kFontStretchKTable
 )
 CSS_PROP_
