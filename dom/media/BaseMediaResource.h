@@ -78,14 +78,6 @@ aIsPrivateBrowsing
 )
 ;
 virtual
-nsresult
-Close
-(
-)
-=
-0
-;
-virtual
 void
 ThrottleReadahead
 (

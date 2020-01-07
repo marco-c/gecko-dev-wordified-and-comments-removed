@@ -111,6 +111,16 @@ void
 ;
 virtual
 nsresult
+Close
+(
+)
+{
+return
+NS_OK
+;
+}
+virtual
+nsresult
 ReadAt
 (
 int64_t
