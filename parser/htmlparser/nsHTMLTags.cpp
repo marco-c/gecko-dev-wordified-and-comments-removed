@@ -93,7 +93,7 @@ const
 nsHTMLTags
 :
 :
-sTagUnicodeTable
+sTagNames
 [
 ]
 =
@@ -355,7 +355,7 @@ i
 nsAutoString
 temp1
 (
-sTagUnicodeTable
+sTagNames
 [
 i
 ]
@@ -420,7 +420,7 @@ len
 =
 NS_strlen
 (
-sTagUnicodeTable
+sTagNames
 [
 i
 ]
@@ -531,7 +531,7 @@ char16_t
 *
 tagName
 =
-sTagUnicodeTable
+sTagNames
 [
 i
 ]
@@ -805,7 +805,7 @@ i
 {
 tag
 =
-sTagUnicodeTable
+sTagNames
 [
 i
 ]
