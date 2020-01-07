@@ -456,6 +456,8 @@ extensions
 webapi
 .
 testing
+.
+http
 "
 false
 )
