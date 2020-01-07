@@ -63,7 +63,6 @@ constructor
 {
 webConsoleClient
 actions
-owner
 }
 )
 {
@@ -78,22 +77,12 @@ this
 actions
 =
 actions
-|
-|
-{
-}
 ;
 this
 .
 actionsEnabled
 =
 true
-;
-this
-.
-owner
-=
-owner
 ;
 this
 .
@@ -232,8 +221,6 @@ true
 )
 ;
 }
-this
-.
 emit
 (
 EVENTS
@@ -1015,8 +1002,6 @@ url
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1135,8 +1120,6 @@ headersSize
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1247,8 +1230,6 @@ onPayloadDataReceived
 actor
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1345,8 +1326,6 @@ true
 )
 ;
 }
-this
-.
 emit
 (
 EVENTS
@@ -1569,8 +1548,6 @@ toUpperCase
 )
 }
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1755,8 +1732,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1797,8 +1772,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1839,8 +1812,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1881,8 +1852,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1925,8 +1894,6 @@ securityInfo
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -1967,8 +1934,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -2016,8 +1981,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -2058,8 +2021,6 @@ response
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -2102,8 +2063,6 @@ stacktrace
 }
 )
 ;
-this
-.
 emit
 (
 EVENTS
@@ -2120,6 +2079,8 @@ payload
 stacktrace
 ;
 }
+}
+function
 emit
 (
 type
@@ -2128,14 +2089,16 @@ data
 {
 if
 (
-this
-.
-owner
+typeof
+window
+!
+=
+"
+undefined
+"
 )
 {
-this
-.
-owner
+window
 .
 emit
 (
@@ -2143,7 +2106,6 @@ type
 data
 )
 ;
-}
 }
 }
 module

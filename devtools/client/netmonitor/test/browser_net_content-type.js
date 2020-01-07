@@ -1768,8 +1768,6 @@ monitor
 .
 panelWin
 .
-api
-.
 once
 (
 EVENTS
@@ -1841,8 +1839,6 @@ onResponseContent
 monitor
 .
 panelWin
-.
-api
 .
 once
 (

@@ -124,8 +124,6 @@ monitor
 .
 panelWin
 .
-api
-.
 once
 (
 EVENTS
@@ -146,8 +144,6 @@ false
 monitor
 .
 panelWin
-.
-api
 .
 once
 (

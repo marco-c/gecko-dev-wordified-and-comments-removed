@@ -1858,8 +1858,6 @@ monitor
 .
 panelWin
 .
-api
-.
 once
 (
 EVENTS
@@ -2322,8 +2320,6 @@ onEvent
 monitor
 .
 panelWin
-.
-api
 .
 once
 (

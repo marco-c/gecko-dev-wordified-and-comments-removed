@@ -142,8 +142,6 @@ monitor
 .
 panelWin
 .
-api
-.
 once
 (
 "
