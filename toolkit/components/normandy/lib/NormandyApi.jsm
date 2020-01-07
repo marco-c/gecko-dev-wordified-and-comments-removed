@@ -130,13 +130,9 @@ prefs
 getBranch
 (
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 .
 "
 )

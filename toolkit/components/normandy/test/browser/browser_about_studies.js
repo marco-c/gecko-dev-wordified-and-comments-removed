@@ -150,13 +150,9 @@ set
 [
 [
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 .
 shieldLearnMoreUrl
 "

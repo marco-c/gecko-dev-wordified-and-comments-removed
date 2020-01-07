@@ -127,13 +127,9 @@ const
 startupPrefs
 =
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 .
 startupExperimentPrefs
 "
