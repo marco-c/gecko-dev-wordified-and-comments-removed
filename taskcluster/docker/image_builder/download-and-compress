@@ -74,6 +74,8 @@ requests
 import
 requests_unixsocket
 import
+zstandard
+as
 zstd
 #
 Allow
