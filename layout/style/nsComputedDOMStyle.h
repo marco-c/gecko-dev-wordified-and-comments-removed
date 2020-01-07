@@ -309,9 +309,9 @@ const
 nsAString
 &
 aPseudoElt
-nsIPresShell
+nsIDocument
 *
-aPresShell
+aDocument
 StyleType
 aStyleType
 )
@@ -3982,9 +3982,9 @@ const
 nsAString
 &
 aPseudoElt
-nsIPresShell
+nsIDocument
 *
-aPresShell
+aDocument
 nsComputedDOMStyle
 :
 :

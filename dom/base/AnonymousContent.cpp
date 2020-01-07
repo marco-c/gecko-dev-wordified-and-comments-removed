@@ -994,7 +994,12 @@ NS_LITERAL_STRING
 "
 "
 )
-shell
+element
+-
+>
+OwnerDoc
+(
+)
 nsComputedDOMStyle
 :
 :
