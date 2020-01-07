@@ -444,6 +444,11 @@ int
 aHeight
 )
 ;
+void
+UpdateScaleFactor
+(
+)
+;
 nsWindow
 *
 mWindow
