@@ -3763,9 +3763,6 @@ mChromeFlags
 uint32_t
 mMaxTouchPoints
 ;
-int32_t
-mActiveSuppressDisplayport
-;
 layers
 :
 :

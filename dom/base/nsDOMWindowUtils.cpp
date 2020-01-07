@@ -18962,13 +18962,12 @@ GetPresShell
 )
 )
 ;
-APZCCallbackHelper
-:
-:
-RespectDisplayPortSuppression
+shell
+-
+>
+RespectDisplayportSuppression
 (
 aEnabled
-shell
 )
 ;
 return
