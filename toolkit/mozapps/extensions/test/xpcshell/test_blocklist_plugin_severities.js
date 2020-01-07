@@ -79,8 +79,11 @@ false
 }
 ]
 ;
+add_task
+(
+async
 function
-run_test
+checkBlocklistSeverities
 (
 )
 {
@@ -130,8 +133,9 @@ Services
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -149,8 +153,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_BLOCKED
@@ -158,8 +160,9 @@ STATE_BLOCKED
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -177,8 +180,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_OUTDATED
@@ -186,8 +187,9 @@ STATE_OUTDATED
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -205,8 +207,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_OUTDATED
@@ -214,8 +214,9 @@ STATE_OUTDATED
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -233,11 +234,11 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_NOT_BLOCKED
 )
 ;
 }
+)
+;

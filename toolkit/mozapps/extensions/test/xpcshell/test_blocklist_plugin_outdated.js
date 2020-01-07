@@ -472,8 +472,9 @@ blocklist
 ;
 Assert
 .
-ok
+equal
 (
+await
 gBlocklist
 .
 getPluginBlocklistState
@@ -491,8 +492,6 @@ PLUGINS
 9
 "
 )
-=
-=
 nsIBLS
 .
 STATE_NOT_BLOCKED
@@ -521,8 +520,9 @@ xml
 ;
 Assert
 .
-ok
+equal
 (
+await
 gBlocklist
 .
 getPluginBlocklistState
@@ -540,8 +540,6 @@ PLUGINS
 9
 "
 )
-=
-=
 nsIBLS
 .
 STATE_OUTDATED
@@ -570,8 +568,9 @@ xml
 ;
 Assert
 .
-ok
+equal
 (
+await
 gBlocklist
 .
 getPluginBlocklistState
@@ -589,8 +588,6 @@ PLUGINS
 9
 "
 )
-=
-=
 nsIBLS
 .
 STATE_OUTDATED

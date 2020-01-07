@@ -76,8 +76,11 @@ false
 }
 ]
 ;
+add_task
+(
+async
 function
-run_test
+checkBlocklistForRegexes
 (
 )
 {
@@ -127,8 +130,9 @@ Services
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -146,8 +150,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_BLOCKED
@@ -155,8 +157,9 @@ STATE_BLOCKED
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -174,8 +177,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_NOT_BLOCKED
@@ -183,8 +184,9 @@ STATE_NOT_BLOCKED
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -202,8 +204,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_BLOCKED
@@ -211,8 +211,9 @@ STATE_BLOCKED
 ;
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -230,11 +231,11 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_NOT_BLOCKED
 )
 ;
 }
+)
+;
