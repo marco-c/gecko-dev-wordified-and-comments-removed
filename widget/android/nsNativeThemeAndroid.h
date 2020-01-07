@@ -83,7 +83,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
