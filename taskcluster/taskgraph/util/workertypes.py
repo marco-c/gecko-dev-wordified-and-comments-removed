@@ -877,25 +877,6 @@ linux
 )
     
 '
-buildbot
--
-bridge
-/
-buildbot
--
-bridge
-'
-:
-(
-'
-buildbot
--
-bridge
-'
-None
-)
-    
-'
 invalid
 /
 invalid

@@ -825,7 +825,13 @@ install
 -
 -
 upgrade
+'
 pip
+<
+10
+.
+0
+'
 pip
 install
 virtualenv

@@ -208,14 +208,6 @@ in
 the
 main
 repos
-as
-part
-of
-the
-buildbot
-to
-taskcluster
-migration
 .
 =
 =
