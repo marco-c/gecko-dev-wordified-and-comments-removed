@@ -3508,8 +3508,6 @@ WebGLShader
 shader
 )
 ;
-/
-/
 any
 getTexParameter
 (
