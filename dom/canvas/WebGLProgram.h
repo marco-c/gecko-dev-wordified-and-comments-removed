@@ -304,6 +304,9 @@ LinkedProgramInfo
 {
 friend
 class
+mozilla
+:
+:
 WebGLProgram
 ;
 MOZ_DECLARE_REFCOUNTED_TYPENAME
