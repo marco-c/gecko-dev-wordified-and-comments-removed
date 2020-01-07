@@ -42,12 +42,6 @@ style_structs
 :
 Font
 ;
-use
-std
-:
-:
-fmt
-;
 #
 [
 derive
@@ -92,11 +86,6 @@ NotAvailable
 pub
 trait
 FontMetricsProvider
-:
-fmt
-:
-:
-Debug
 {
 fn
 query
