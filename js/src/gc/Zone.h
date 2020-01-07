@@ -1336,7 +1336,7 @@ private
 js
 :
 :
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 CompartmentVector
 >
@@ -1568,7 +1568,7 @@ private
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 ZoneSet
 >
@@ -3453,7 +3453,7 @@ jitZone_
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 bool
 >
@@ -3462,7 +3462,7 @@ gcScheduled_
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 bool
 >
@@ -3505,7 +3505,7 @@ NotOnList
 js
 :
 :
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 Zone
 *

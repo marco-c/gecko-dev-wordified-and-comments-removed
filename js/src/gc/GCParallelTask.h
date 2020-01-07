@@ -47,7 +47,7 @@ TaskState
 >
 state
 ;
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 mozilla
 :

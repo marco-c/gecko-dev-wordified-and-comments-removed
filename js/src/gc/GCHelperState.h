@@ -62,7 +62,7 @@ rt
 ConditionVariable
 done
 ;
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 State
 >
