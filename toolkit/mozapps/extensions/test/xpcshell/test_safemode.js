@@ -89,6 +89,9 @@ icon
 .
 png
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -340,7 +343,7 @@ Assert
 .
 ok
 (
-isExtensionInAddonsList
+isExtensionInBootstrappedList
 (
 profileDir
 newa1

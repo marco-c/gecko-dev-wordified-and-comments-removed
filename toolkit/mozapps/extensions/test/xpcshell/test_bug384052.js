@@ -459,6 +459,9 @@ name
 Test
 extension
 "
+bootstrap
+:
+true
 updateURL
 :
 gTestURL

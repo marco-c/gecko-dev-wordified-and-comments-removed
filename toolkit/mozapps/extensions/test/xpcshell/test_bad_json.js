@@ -25,6 +25,9 @@ name
 Test
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

@@ -420,6 +420,9 @@ Mozilla
 Corp
 .
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -477,6 +480,9 @@ Moz
 -
 addon
 "
+bootstrap
+:
+true
 creator
 :
 "
@@ -565,6 +571,9 @@ Moz
 -
 addon
 "
+bootstrap
+:
+true
 creator
 :
 "

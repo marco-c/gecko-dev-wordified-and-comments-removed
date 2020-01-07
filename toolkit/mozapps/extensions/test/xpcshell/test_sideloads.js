@@ -134,6 +134,9 @@ name
 details
 .
 name
+bootstrap
+:
+true
 version
 :
 "

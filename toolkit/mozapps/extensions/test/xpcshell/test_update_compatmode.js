@@ -181,6 +181,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -265,6 +268,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -351,6 +357,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -441,6 +450,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 updateURL
 :
 "

@@ -452,6 +452,9 @@ name
 extension
 1
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -508,6 +511,9 @@ name
 extension
 2
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -564,6 +570,9 @@ name
 extension
 3a
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -620,6 +629,9 @@ name
 extension
 4
 "
+bootstrap
+:
+true
 version
 :
 "

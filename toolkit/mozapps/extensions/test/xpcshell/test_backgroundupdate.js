@@ -293,6 +293,9 @@ test_backgroundupdate
 .
 json
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -371,6 +374,9 @@ test_backgroundupdate
 .
 json
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -428,6 +434,9 @@ version
 .
 0
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
