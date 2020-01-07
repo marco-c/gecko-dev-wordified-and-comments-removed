@@ -368,7 +368,7 @@ font
 {
 FontFamily
 FontLanguageOverride
-FontVariantSettings
+FontVariationSettings
 FontVariantEastAsian
 }
 ;
