@@ -297,10 +297,6 @@ me
 )
 ;
 }
-)
-;
-registerCleanupFunction
-(
 async
 _
 =
