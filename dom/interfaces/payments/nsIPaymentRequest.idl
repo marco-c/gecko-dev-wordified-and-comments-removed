@@ -222,6 +222,11 @@ attribute
 boolean
 pending
 ;
+readonly
+attribute
+AString
+type
+;
 }
 ;
 [

@@ -192,6 +192,10 @@ aAmount
 const
 bool
 aPending
+const
+nsAString
+&
+aType
 )
 ;
 ~
@@ -212,6 +216,9 @@ mAmount
 ;
 bool
 mPending
+;
+nsString
+mType
 ;
 }
 ;
