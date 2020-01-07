@@ -3161,7 +3161,7 @@ false
 elif
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 bool
 VRDisplayPuppet
@@ -3176,8 +3176,8 @@ mozilla
 layers
 :
 :
-SurfaceTextureDescriptor
-&
+EGLImageDescriptor
+*
 aDescriptor
 const
 gfx

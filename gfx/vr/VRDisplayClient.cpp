@@ -344,8 +344,6 @@ mLastPresentingGeneration
 =
 mDisplayInfo
 .
-mDisplayState
-.
 mPresentingGeneration
 )
 {
@@ -368,8 +366,6 @@ MakePresentationGenerationCurrent
 mLastPresentingGeneration
 =
 mDisplayInfo
-.
-mDisplayState
 .
 mPresentingGeneration
 ;
