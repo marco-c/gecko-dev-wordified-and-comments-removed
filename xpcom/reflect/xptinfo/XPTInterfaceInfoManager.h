@@ -193,6 +193,7 @@ aHeader
 void
 VerifyAndAddEntryIfNew
 (
+const
 XPTInterfaceDirectoryEntry
 *
 iface

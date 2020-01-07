@@ -51,6 +51,7 @@ major_version
 uint16_t
 num_interfaces
 ;
+const
 XPTInterfaceDirectoryEntry
 *
 interface_directory
