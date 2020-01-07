@@ -10,3 +10,7 @@ extern
 crate
 nsstring_gtest
 ;
+extern
+crate
+xpcom_gtest
+;

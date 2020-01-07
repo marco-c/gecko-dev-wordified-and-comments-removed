@@ -27,6 +27,10 @@ nserror
 ;
 extern
 crate
+xpcom
+;
+extern
+crate
 rust_url_capi
 ;
 extern
