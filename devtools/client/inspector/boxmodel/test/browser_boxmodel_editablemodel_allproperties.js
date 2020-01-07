@@ -136,12 +136,12 @@ TEST_URI
 let
 {
 inspector
-boxmodel
+view
 testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -149,7 +149,7 @@ yield
 testEditing
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -157,7 +157,7 @@ yield
 testEditingAndCanceling
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -165,7 +165,7 @@ yield
 testDeleting
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -173,7 +173,7 @@ yield
 testDeletingAndCanceling
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -185,7 +185,7 @@ function
 testEditing
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -242,7 +242,7 @@ inspector
 let
 span
 =
-boxmodel
+view
 .
 document
 .
@@ -289,7 +289,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -299,7 +299,7 @@ defaultView
 let
 editor
 =
-boxmodel
+view
 .
 document
 .
@@ -356,7 +356,7 @@ synthesizeKey
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -429,7 +429,7 @@ VK_RETURN
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -493,7 +493,7 @@ function
 testEditingAndCanceling
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -558,7 +558,7 @@ inspector
 let
 span
 =
-boxmodel
+view
 .
 document
 .
@@ -605,7 +605,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -615,7 +615,7 @@ defaultView
 let
 editor
 =
-boxmodel
+view
 .
 document
 .
@@ -672,7 +672,7 @@ synthesizeKey
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -745,7 +745,7 @@ VK_ESCAPE
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -815,7 +815,7 @@ function
 testDeleting
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -850,7 +850,7 @@ inspector
 let
 span
 =
-boxmodel
+view
 .
 document
 .
@@ -897,7 +897,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -907,7 +907,7 @@ defaultView
 let
 editor
 =
-boxmodel
+view
 .
 document
 .
@@ -964,7 +964,7 @@ VK_DELETE
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -1035,7 +1035,7 @@ VK_RETURN
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -1098,7 +1098,7 @@ function
 testDeletingAndCanceling
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -1160,7 +1160,7 @@ inspector
 let
 span
 =
-boxmodel
+view
 .
 document
 .
@@ -1207,7 +1207,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -1217,7 +1217,7 @@ defaultView
 let
 editor
 =
-boxmodel
+view
 .
 document
 .
@@ -1274,7 +1274,7 @@ VK_DELETE
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -1345,7 +1345,7 @@ VK_ESCAPE
 "
 {
 }
-boxmodel
+view
 .
 document
 .
