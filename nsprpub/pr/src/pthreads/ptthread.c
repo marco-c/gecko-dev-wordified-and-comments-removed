@@ -4227,9 +4227,6 @@ _PR_Fini
 void
 )
 {
-#
-ifndef
-DARWIN
 void
 *
 thred
@@ -4341,8 +4338,6 @@ keyCreated
 =
 PR_FALSE
 ;
-#
-endif
 }
 PR_IMPLEMENT
 (
