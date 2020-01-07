@@ -47,6 +47,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -375,6 +384,12 @@ mozilla
 :
 :
 DebugOnly
+;
+using
+mozilla
+:
+:
+IsAsciiDigit
 ;
 using
 JS
@@ -1145,7 +1160,7 @@ sizeof
 |
 |
 !
-JS7_ISDEC
+IsAsciiDigit
 (
 *
 s
@@ -1204,7 +1219,7 @@ s
 if
 (
 !
-JS7_ISDEC
+IsAsciiDigit
 (
 *
 s
