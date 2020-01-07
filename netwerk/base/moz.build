@@ -325,11 +325,6 @@ nsIInputStreamPump
 idl
 '
 '
-nsIIOActivityData
-.
-idl
-'
-'
 nsIIOService
 .
 idl
