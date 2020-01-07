@@ -75,6 +75,8 @@ aThreadInfo
 nsIEventTarget
 *
 aEventTarget
+bool
+aIncludeResponsiveness
 )
 ;
 ~
