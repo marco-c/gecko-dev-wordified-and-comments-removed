@@ -300,22 +300,6 @@ strip
 )
 ]
     
-if
-buildconfig
-.
-substs
-[
-'
-OS_TARGET
-'
-]
-=
-=
-'
-WINNT
-'
-:
-        
 libname
 ext
 =
@@ -336,6 +320,22 @@ output
 name
 )
 )
+    
+if
+buildconfig
+.
+substs
+[
+'
+OS_TARGET
+'
+]
+=
+=
+'
+WINNT
+'
+:
         
 assert
 ext
@@ -395,6 +395,8 @@ output
 write
 (
 '
+%
+s
 {
 \
 nglobal
@@ -418,6 +420,8 @@ n
 '
                      
 %
+(
+libname
 '
 ;
 \
@@ -427,6 +431,7 @@ n
 join
 (
 symbols
+)
 )
 )
     
