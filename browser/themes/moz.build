@@ -130,15 +130,11 @@ osx
 ]
 elif
 toolkit
-in
-(
-'
-gtk2
-'
+=
+=
 '
 gtk3
 '
-)
 :
 DIRS
 +

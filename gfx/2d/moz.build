@@ -569,9 +569,6 @@ in
 android
 '
 '
-gtk2
-'
-'
 gtk3
 '
 )
@@ -607,15 +604,11 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
-in
-(
-'
-gtk2
-'
+=
+=
 '
 gtk3
 '
-)
 :
 SOURCES
 +
@@ -1429,9 +1422,6 @@ in
 android
 '
 '
-gtk2
-'
-'
 gtk3
 '
 )
@@ -1464,9 +1454,6 @@ in
 (
 '
 android
-'
-'
-gtk2
 '
 '
 gtk3

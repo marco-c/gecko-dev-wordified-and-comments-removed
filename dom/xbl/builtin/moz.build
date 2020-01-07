@@ -155,15 +155,11 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
-in
-(
-'
-gtk2
-'
+=
+=
 '
 gtk3
 '
-)
 :
 DIRS
 +

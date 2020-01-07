@@ -540,9 +540,6 @@ in
 windows
 '
 '
-gtk2
-'
-'
 gtk3
 '
 '
@@ -597,9 +594,6 @@ in
 (
 '
 windows
-'
-'
-gtk2
 '
 '
 gtk3

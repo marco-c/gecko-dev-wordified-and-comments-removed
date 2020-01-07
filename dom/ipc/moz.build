@@ -875,15 +875,11 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
-in
-(
+=
+=
 '
 android
 '
-'
-gtk2
-'
-)
 :
 DEFINES
 [

@@ -305,9 +305,6 @@ in
 android
 '
 '
-gtk2
-'
-'
 gtk3
 '
 )
