@@ -1928,6 +1928,16 @@ FireResizeEvent
 )
 override
 ;
+static
+PresShell
+*
+GetShellForTouchEvent
+(
+WidgetGUIEvent
+*
+aEvent
+)
+;
 protected
 :
 virtual
