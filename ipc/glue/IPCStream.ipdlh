@@ -175,6 +175,9 @@ delayedStart
 IPCRemoteStreamType
 stream
 ;
+int64_t
+length
+;
 }
 ;
 /
