@@ -211,14 +211,6 @@ api_url
 "
 extensions
 .
-showMismatchUI
-"
-:
-False
-        
-"
-extensions
-.
 update
 .
 enabled
