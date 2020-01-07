@@ -2052,7 +2052,9 @@ getElementById
 "
 sp
 -
-menubar
+menu
+-
+toolbar
 "
 )
 .
@@ -2079,7 +2081,9 @@ getElementById
 "
 sp
 -
-menubar
+menu
+-
+toolbar
 "
 )
 .
