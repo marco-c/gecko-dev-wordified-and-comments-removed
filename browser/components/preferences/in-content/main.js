@@ -306,13 +306,6 @@ hide_plugins_without_extensions
 "
 ;
 const
-PREF_SETTING_TYPE
-=
-"
-prefs
-"
-;
-const
 CONTAINERS_KEY
 =
 "
