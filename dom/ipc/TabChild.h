@@ -1146,6 +1146,16 @@ FORWARD_SHMEM_ALLOCATOR_TO
 (
 PBrowserChild
 )
+nsIContentFrameMessageManager
+*
+GetMessageManager
+(
+)
+{
+return
+mTabChildGlobal
+;
+}
 virtual
 bool
 DoSendBlockingMessage

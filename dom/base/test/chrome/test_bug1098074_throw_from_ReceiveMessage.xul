@@ -279,9 +279,6 @@ globalmessagemanager
 .
 getService
 (
-Ci
-.
-nsIMessageListenerManager
 )
 ;
 globalMM
