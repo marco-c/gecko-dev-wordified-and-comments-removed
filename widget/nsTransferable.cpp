@@ -882,7 +882,7 @@ nsTransferable
 :
 mPrivateData
 (
-false
+true
 )
 mContentPolicyType
 (
