@@ -764,10 +764,6 @@ UnboxedPlainObject
 public
 UnboxedObject
 {
-UnboxedExpandoObject
-*
-expando_
-;
 uint8_t
 data_
 [
@@ -975,7 +971,14 @@ maybeExpando
 const
 {
 return
-expando_
+static_cast
+<
+UnboxedExpandoObject
+*
+>
+(
+shapeOrExpando_
+)
 ;
 }
 void
@@ -986,7 +989,7 @@ UnboxedExpandoObject
 expando
 )
 {
-expando_
+shapeOrExpando_
 =
 expando
 ;
@@ -996,7 +999,7 @@ initExpando
 (
 )
 {
-expando_
+shapeOrExpando_
 =
 nullptr
 ;
@@ -1017,7 +1020,7 @@ JSObject
 >
 (
 &
-expando_
+shapeOrExpando_
 )
 ;
 }
@@ -1164,10 +1167,8 @@ offsetOfExpando
 )
 {
 return
-offsetof
+offsetOfShapeOrExpando
 (
-UnboxedPlainObject
-expando_
 )
 ;
 }

@@ -214,6 +214,10 @@ js
 GCPtrObjectGroup
 group_
 ;
+void
+*
+shapeOrExpando_
+;
 private
 :
 friend
@@ -1953,6 +1957,7 @@ const
 #
 endif
 static
+constexpr
 size_t
 offsetOfGroup
 (
@@ -1963,6 +1968,21 @@ offsetof
 (
 JSObject
 group_
+)
+;
+}
+static
+constexpr
+size_t
+offsetOfShapeOrExpando
+(
+)
+{
+return
+offsetof
+(
+JSObject
+shapeOrExpando_
 )
 ;
 }
@@ -2280,7 +2300,7 @@ void
 *
 data
 [
-3
+2
 ]
 ;
 }
@@ -2294,7 +2314,7 @@ void
 *
 data
 [
-3
+2
 ]
 ;
 js
@@ -2317,7 +2337,7 @@ void
 *
 data
 [
-3
+2
 ]
 ;
 js
@@ -2340,7 +2360,7 @@ void
 *
 data
 [
-3
+2
 ]
 ;
 js
@@ -2363,7 +2383,7 @@ void
 *
 data
 [
-3
+2
 ]
 ;
 js
@@ -2386,7 +2406,7 @@ void
 *
 data
 [
-3
+2
 ]
 ;
 js
