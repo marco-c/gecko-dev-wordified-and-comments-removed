@@ -45,6 +45,14 @@ aInstancePtr
 )
 ;
 static
+const
+char
+*
+GetMultiprocessMode
+(
+)
+;
+static
 void
 SetMultiprocessMode
 (

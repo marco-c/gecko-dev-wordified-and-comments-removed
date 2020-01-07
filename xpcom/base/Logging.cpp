@@ -108,6 +108,13 @@ h
 #
 include
 "
+nsDebugImpl
+.
+h
+"
+#
+include
+"
 NSPRLogModulesParser
 .
 h
@@ -2058,6 +2065,8 @@ out
 "
 [
 %
+s
+%
 ld
 :
 %
@@ -2074,6 +2083,12 @@ s
 %
 s
 "
+nsDebugImpl
+:
+:
+GetMultiprocessMode
+(
+)
 pid
 currentThreadName
 ToLogStr
@@ -2145,6 +2160,8 @@ UTC
 -
 [
 %
+s
+%
 ld
 :
 %
@@ -2184,6 +2201,12 @@ tm_sec
 now
 .
 tm_usec
+nsDebugImpl
+:
+:
+GetMultiprocessMode
+(
+)
 pid
 currentThreadName
 ToLogStr
