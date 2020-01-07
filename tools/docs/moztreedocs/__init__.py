@@ -157,6 +157,21 @@ set
 (
 )
     
+is_main
+=
+docdir
+=
+=
+MAIN_DOC_PATH
+    
+relevant_mozbuild_path
+=
+None
+if
+is_main
+else
+docdir
+    
 class
 fakeconfig
 (
@@ -189,6 +204,7 @@ reader
 .
 find_sphinx_variables
 (
+relevant_mozbuild_path
 )
 :
         
@@ -219,6 +235,35 @@ name
 SPHINX_TREES
 '
 :
+            
+absdir
+=
+os
+.
+path
+.
+join
+(
+build
+.
+topsrcdir
+reldir
+)
+            
+if
+not
+is_main
+and
+absdir
+not
+in
+(
+docdir
+MAIN_DOC_PATH
+)
+:
+                
+continue
             
 assert
 key
