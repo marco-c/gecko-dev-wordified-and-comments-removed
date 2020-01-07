@@ -1160,10 +1160,10 @@ aStripWrappers
 override
 ;
 nsresult
-DeleteNode
+DeleteNodeWithTransaction
 (
 nsINode
-*
+&
 aNode
 )
 ;

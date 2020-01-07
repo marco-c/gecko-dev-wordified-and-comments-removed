@@ -1148,10 +1148,10 @@ aTag
 )
 ;
 nsresult
-DeleteNode
+DeleteNodeWithTransaction
 (
 nsINode
-*
+&
 aNode
 )
 ;
