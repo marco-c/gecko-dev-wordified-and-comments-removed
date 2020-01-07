@@ -1330,4 +1330,13 @@ sync
 updatePinningList
 )
 ;
+return
+{
+OneCRLBlocklistClient
+AddonBlocklistClient
+PluginBlocklistClient
+GfxBlocklistClient
+PinningBlocklistClient
+}
+;
 }

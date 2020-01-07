@@ -935,3 +935,16 @@ caretWidth
 1
 )
 ;
+user_pref
+(
+"
+dom
+.
+push
+.
+serverURL
+"
+"
+"
+)
+;
