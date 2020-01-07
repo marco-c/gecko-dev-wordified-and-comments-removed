@@ -35,6 +35,5 @@ toctree
 maxdepth
 :
 1
-DirectoryLinksProvider
 UITelemetry
 BrowserUsageTelemetry
