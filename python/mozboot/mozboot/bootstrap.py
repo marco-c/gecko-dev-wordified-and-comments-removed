@@ -1946,8 +1946,11 @@ self
 .
 instance
 .
-_hgplain_env
+_hg_cleanenv
 (
+load_hgrc
+=
+True
 )
                                      
 hg

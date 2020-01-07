@@ -3051,6 +3051,9 @@ def
 _hg_cleanenv
 (
 self
+load_hgrc
+=
+False
 )
 :
         
@@ -3149,6 +3152,11 @@ b
 1
 '
         
+if
+not
+load_hgrc
+:
+            
 env
 [
 b
