@@ -219,8 +219,8 @@ ws
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -257,7 +257,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 FILTERING_URL
@@ -397,13 +397,13 @@ loadCommonFrameScript
 (
 )
 ;
-yield
+await
 performRequestsInContent
 (
 REQUESTS_WITH_MEDIA_AND_FLASH_AND_WS
 )
 ;
-yield
+await
 wait
 ;
 testFilterButtons
@@ -514,7 +514,7 @@ valid
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -15,7 +15,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 "
@@ -38,7 +38,7 @@ opened
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

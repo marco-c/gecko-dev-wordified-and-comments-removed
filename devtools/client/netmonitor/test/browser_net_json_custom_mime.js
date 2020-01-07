@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 JSON_CUSTOM_MIME_URL
@@ -130,7 +130,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -140,8 +140,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -207,7 +207,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -381,14 +381,14 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 testResponseTab
 (
 )
 ;
-yield
+await
 teardown
 (
 monitor

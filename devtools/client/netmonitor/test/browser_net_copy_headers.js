@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -84,7 +84,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -334,7 +334,7 @@ n
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -541,7 +541,7 @@ item
 ]
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -682,7 +682,7 @@ headers
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

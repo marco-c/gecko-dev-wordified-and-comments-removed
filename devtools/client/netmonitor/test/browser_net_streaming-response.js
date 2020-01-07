@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -165,7 +165,7 @@ fmt
 +
 fmt
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -176,8 +176,8 @@ linkedBrowser
 {
 url
 }
+async
 function
-*
 (
 args
 )
@@ -198,7 +198,7 @@ url
 )
 ;
 }
-yield
+await
 wait
 ;
 let
@@ -263,7 +263,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -405,7 +405,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 store
@@ -420,7 +420,7 @@ null
 )
 )
 ;
-yield
+await
 selectIndexAndWaitForSourceEditor
 (
 monitor
@@ -435,7 +435,7 @@ REQUESTS
 ]
 )
 ;
-yield
+await
 selectIndexAndWaitForSourceEditor
 (
 monitor

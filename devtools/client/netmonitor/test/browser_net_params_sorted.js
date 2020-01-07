@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 POST_DATA_URL
@@ -85,7 +85,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -95,8 +95,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -111,7 +111,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -156,7 +156,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 EventUtils

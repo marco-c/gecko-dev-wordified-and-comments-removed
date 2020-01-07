@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 FILTERING_URL
@@ -209,7 +209,7 @@ monitor
 8
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -219,8 +219,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -249,7 +249,7 @@ true
 }
 )
 ;
-yield
+await
 wait
 ;
 testStatus
@@ -332,7 +332,7 @@ testStatus
 ;
 }
 }
-yield
+await
 teardown
 (
 monitor

@@ -27,8 +27,8 @@ IMAGE_TOOLTIP_REQUESTS
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -39,7 +39,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 IMAGE_TOOLTIP_URL
@@ -147,12 +147,12 @@ monitor
 IMAGE_TOOLTIP_REQUESTS
 )
 ;
-yield
+await
 performRequests
 (
 )
 ;
-yield
+await
 onEvents
 ;
 info
@@ -174,7 +174,7 @@ made
 "
 )
 ;
-yield
+await
 showTooltipAndVerify
 (
 document
@@ -210,7 +210,7 @@ hidden
 "
 )
 ;
-yield
+await
 hideTooltipAndVerify
 (
 document
@@ -258,7 +258,7 @@ again
 "
 )
 ;
-yield
+await
 triggerActivity
 (
 ACTIVITY_TYPE
@@ -268,12 +268,12 @@ RELOAD
 WITH_CACHE_ENABLED
 )
 ;
-yield
+await
 performRequests
 (
 )
 ;
-yield
+await
 onEvents
 ;
 info
@@ -290,7 +290,7 @@ reload
 "
 )
 ;
-yield
+await
 showTooltipAndVerify
 (
 document
@@ -366,7 +366,7 @@ monitor
 panelWin
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -391,7 +391,7 @@ visible
 )
 )
 ;
-yield
+await
 teardown
 (
 monitor
@@ -412,8 +412,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -429,8 +429,8 @@ performRequests
 )
 ;
 }
+async
 function
-*
 showTooltipAndVerify
 (
 target
@@ -453,7 +453,7 @@ file
 "
 )
 ;
-yield
+await
 showTooltipOn
 (
 anchor
@@ -506,8 +506,8 @@ correctly
 )
 ;
 }
+async
 function
-*
 showTooltipOn
 (
 element
@@ -537,7 +537,7 @@ mousemove
 win
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -559,8 +559,8 @@ img
 )
 ;
 }
+async
 function
-*
 hideTooltipAndVerify
 (
 target
@@ -607,7 +607,7 @@ mousemove
 win
 )
 ;
-yield
+await
 waitUntil
 (
 (

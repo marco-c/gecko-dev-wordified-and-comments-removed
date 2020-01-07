@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -288,7 +288,7 @@ reload
 (
 )
 ;
-yield
+await
 networkEvent
 ;
 is
@@ -734,7 +734,7 @@ menu
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

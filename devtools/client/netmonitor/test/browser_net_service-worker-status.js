@@ -39,8 +39,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -50,7 +50,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 TEST_URL
@@ -224,7 +224,7 @@ worker
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -234,12 +234,12 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
-yield
+await
 content
 .
 wrappedJSObject
@@ -273,7 +273,7 @@ REQUEST_DATA
 length
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -283,8 +283,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -299,7 +299,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -314,7 +314,7 @@ getState
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -402,7 +402,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -455,7 +455,7 @@ index
 }
 )
 ;
-yield
+await
 verifyRequestItemTarget
 (
 document
@@ -601,7 +601,7 @@ worker
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -611,12 +611,12 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
-yield
+await
 content
 .
 wrappedJSObject
@@ -628,7 +628,7 @@ unregisterServiceWorker
 }
 )
 ;
-yield
+await
 teardown
 (
 monitor

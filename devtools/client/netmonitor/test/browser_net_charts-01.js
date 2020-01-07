@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ monitor
 tab
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -81,7 +81,7 @@ loadURI
 SIMPLE_URL
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -703,7 +703,7 @@ correct
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

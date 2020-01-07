@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -56,7 +56,7 @@ monitor
 tab
 }
 =
-yield
+await
 initNetMonitor
 (
 URL
@@ -121,10 +121,10 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 waitUntil
 (
 (
@@ -166,7 +166,7 @@ item
 0
 ]
 ;
-yield
+await
 waitUntil
 (
 (

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -89,7 +89,7 @@ false
 let
 beaconTab
 =
-yield
+await
 addTab
 (
 SEND_BEACON_URL
@@ -140,7 +140,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -150,8 +150,8 @@ beaconTab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -174,7 +174,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 is
@@ -253,7 +253,7 @@ correct
 "
 )
 ;
-yield
+await
 removeTab
 (
 beaconTab

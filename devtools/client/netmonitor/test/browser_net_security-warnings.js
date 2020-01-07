@@ -35,8 +35,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -138,7 +138,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -149,8 +149,8 @@ linkedBrowser
 test
 .
 uri
+async
 function
-*
 (
 url
 )
@@ -168,7 +168,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 info
@@ -221,7 +221,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 if
@@ -298,7 +298,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 }

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -89,7 +89,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -99,8 +99,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -127,7 +127,7 @@ com
 }
 )
 ;
-yield
+await
 requestsDone
 ;
 let
@@ -174,7 +174,7 @@ toggle
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -218,7 +218,7 @@ tab
 )
 )
 ;
-yield
+await
 securityInfoLoaded
 ;
 let

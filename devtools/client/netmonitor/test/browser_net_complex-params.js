@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 PARAMS_URL
@@ -107,7 +107,7 @@ monitor
 7
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -117,8 +117,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -133,7 +133,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -207,7 +207,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 testParamsTab1
@@ -279,7 +279,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 testParamsTab1
@@ -352,7 +352,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 testParamsTab1
@@ -426,7 +426,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 testParamsTab2
@@ -506,7 +506,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 testParamsTab2
@@ -599,7 +599,7 @@ item
 ]
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -662,7 +662,7 @@ testParamsTab3
 (
 )
 ;
-yield
+await
 teardown
 (
 monitor

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -38,7 +38,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 JSONP_URL
@@ -130,7 +130,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -140,8 +140,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -221,7 +221,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -482,7 +482,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 testResponseTab
@@ -552,7 +552,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 testResponseTab
@@ -568,7 +568,7 @@ JSONP
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -128,14 +128,14 @@ EXPECTED_REQUESTS
 length
 )
 ;
-yield
+await
 performRequests
 (
 2
 HSTS_SJS
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -183,7 +183,7 @@ stackTrace
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -325,7 +325,7 @@ monitor
 1
 )
 ;
-yield
+await
 performRequests
 (
 1
@@ -337,10 +337,10 @@ reset
 "
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 teardown
 (
 monitor
@@ -365,8 +365,8 @@ linkedBrowser
 count
 url
 }
+async
 function
-*
 (
 args
 )

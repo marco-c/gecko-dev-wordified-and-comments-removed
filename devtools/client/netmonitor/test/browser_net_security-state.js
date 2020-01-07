@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -76,7 +76,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -125,7 +125,7 @@ false
 )
 )
 ;
-yield
+await
 performRequests
 (
 )
@@ -300,8 +300,8 @@ teardown
 monitor
 )
 ;
+async
 function
-*
 performRequests
 (
 )
@@ -325,8 +325,8 @@ linkedBrowser
 count
 url
 }
+async
 function
-*
 (
 args
 )
@@ -373,7 +373,7 @@ problem
 "
 )
 ;
-yield
+await
 executeRequests
 (
 1
@@ -402,7 +402,7 @@ complete
 "
 )
 ;
-yield
+await
 done
 ;
 done
@@ -425,7 +425,7 @@ HTTP
 "
 )
 ;
-yield
+await
 executeRequests
 (
 1
@@ -444,7 +444,7 @@ com
 CORS_SJS_PATH
 )
 ;
-yield
+await
 done
 ;
 done
@@ -467,7 +467,7 @@ HTTPS
 "
 )
 ;
-yield
+await
 executeRequests
 (
 1
@@ -484,7 +484,7 @@ com
 CORS_SJS_PATH
 )
 ;
-yield
+await
 done
 ;
 done
@@ -509,7 +509,7 @@ localhost
 "
 )
 ;
-yield
+await
 executeRequests
 (
 1
@@ -524,7 +524,7 @@ localhost
 CORS_SJS_PATH
 )
 ;
-yield
+await
 done
 ;
 const

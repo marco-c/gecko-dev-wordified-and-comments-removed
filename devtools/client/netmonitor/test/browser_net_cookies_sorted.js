@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_UNSORTED_COOKIES_SJS
@@ -93,7 +93,7 @@ monitor
 1
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -138,7 +138,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -321,7 +321,7 @@ index
 }
 )
 ;
-yield
+await
 teardown
 (
 monitor

@@ -159,8 +159,8 @@ video
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -169,7 +169,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 FILTERING_URL
@@ -341,13 +341,13 @@ monitor
 7
 )
 ;
-yield
+await
 performRequestsInContent
 (
 requests
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -637,7 +637,7 @@ performRequestsInContent
 REQUESTS_WITH_MEDIA
 )
 ;
-yield
+await
 wait
 ;
 info
@@ -700,7 +700,7 @@ performRequestsInContent
 REQUESTS_WITH_MEDIA
 )
 ;
-yield
+await
 waitForNetworkEvents
 (
 monitor
@@ -759,7 +759,7 @@ testContents
 20
 )
 ;
-yield
+await
 teardown
 (
 monitor

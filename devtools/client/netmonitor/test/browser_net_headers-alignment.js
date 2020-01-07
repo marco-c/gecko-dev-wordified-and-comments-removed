@@ -159,8 +159,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {

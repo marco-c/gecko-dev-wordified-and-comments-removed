@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CYRILLIC_URL
@@ -84,7 +84,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -144,7 +144,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -238,7 +238,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -282,7 +282,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 let

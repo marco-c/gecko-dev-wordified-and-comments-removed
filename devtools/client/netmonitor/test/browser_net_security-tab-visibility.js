@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -117,7 +117,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -256,7 +256,7 @@ testcase
 uri
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -267,8 +267,8 @@ linkedBrowser
 testcase
 .
 uri
+async
 function
-*
 (
 url
 )
@@ -298,7 +298,7 @@ event
 "
 )
 ;
-yield
+await
 onNewItem
 ;
 info
@@ -422,7 +422,7 @@ testcase
 visibleOnSecurityInfo
 )
 {
-yield
+await
 waitUntil
 (
 (
@@ -466,7 +466,7 @@ tab
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -505,7 +505,7 @@ arrive
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -606,7 +606,7 @@ complete
 "
 )
 ;
-yield
+await
 onComplete
 ;
 is

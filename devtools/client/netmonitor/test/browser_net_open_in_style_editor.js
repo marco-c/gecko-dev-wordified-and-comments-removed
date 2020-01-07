@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -17,7 +17,7 @@ monitor
 toolbox
 }
 =
-yield
+await
 initNetMonitor
 (
 CONTENT_TYPE_WITHOUT_CACHE_URL
@@ -97,7 +97,7 @@ monitor
 CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -107,8 +107,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -123,7 +123,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -207,7 +207,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -256,7 +256,7 @@ click
 (
 )
 ;
-yield
+await
 onStyleEditorReady
 ;
 ok
@@ -271,7 +271,7 @@ open
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

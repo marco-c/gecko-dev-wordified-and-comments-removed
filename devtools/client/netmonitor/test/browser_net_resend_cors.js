@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CORS_URL
@@ -136,7 +136,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -145,8 +145,8 @@ tab
 .
 linkedBrowser
 requestUrl
+async
 function
-*
 (
 url
 )
@@ -173,7 +173,7 @@ data
 }
 )
 ;
-yield
+await
 wait
 ;
 const
@@ -314,7 +314,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -414,7 +414,7 @@ connector
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -451,7 +451,7 @@ requests
 "
 )
 ;
-yield
+await
 onRequests
 ;
 for
@@ -574,7 +574,7 @@ right
 method
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -604,7 +604,7 @@ responseContentAvailable
 }
 )
 ;
-yield
+await
 connector
 .
 requestData
@@ -617,7 +617,7 @@ responseContent
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (

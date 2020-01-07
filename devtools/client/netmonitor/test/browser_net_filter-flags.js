@@ -721,8 +721,8 @@ utf
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -731,7 +731,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 FILTERING_URL
@@ -897,13 +897,13 @@ loadCommonFrameScript
 (
 )
 ;
-yield
+await
 performRequestsInContent
 (
 REQUESTS
 )
 ;
-yield
+await
 waitNetwork
 ;
 setFreetextFilter
@@ -915,7 +915,7 @@ running
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -943,7 +943,7 @@ cache
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -969,7 +969,7 @@ cached
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -998,7 +998,7 @@ cache
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1025,7 +1025,7 @@ cached
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1053,7 +1053,7 @@ code
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1082,7 +1082,7 @@ code
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1110,7 +1110,7 @@ HtmL
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1139,7 +1139,7 @@ HtmL
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1165,7 +1165,7 @@ get
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1191,7 +1191,7 @@ post
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1217,7 +1217,7 @@ http
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1243,7 +1243,7 @@ https
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1273,7 +1273,7 @@ Sam
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1303,7 +1303,7 @@ name2
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1335,7 +1335,7 @@ existing
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1365,7 +1365,7 @@ value2
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1397,7 +1397,7 @@ existing
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1430,7 +1430,7 @@ com
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1465,7 +1465,7 @@ com
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1502,7 +1502,7 @@ com
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1529,7 +1529,7 @@ size
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1555,7 +1555,7 @@ size
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1581,7 +1581,7 @@ size
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1609,7 +1609,7 @@ size
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1635,7 +1635,7 @@ size
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1663,7 +1663,7 @@ size
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1689,7 +1689,7 @@ transferred
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1715,7 +1715,7 @@ transferred
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1741,7 +1741,7 @@ transferred
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1770,7 +1770,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1798,7 +1798,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1826,7 +1826,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1854,7 +1854,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1884,7 +1884,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1914,7 +1914,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1945,7 +1945,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1975,7 +1975,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2005,7 +2005,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2035,7 +2035,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2067,7 +2067,7 @@ than
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2093,7 +2093,7 @@ xhr
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2119,7 +2119,7 @@ script
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2151,7 +2151,7 @@ Type
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2183,7 +2183,7 @@ Modified
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2217,7 +2217,7 @@ ip
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2251,7 +2251,7 @@ ip
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2279,7 +2279,7 @@ com
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2307,7 +2307,7 @@ com
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2335,7 +2335,7 @@ http
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2363,7 +2363,7 @@ http
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2397,7 +2397,7 @@ code
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2414,14 +2414,14 @@ testContents
 ]
 )
 ;
-yield
+await
 teardown
 (
 monitor
 )
 ;
+async
 function
-*
 testContents
 (
 visibility
@@ -2489,7 +2489,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -2526,7 +2526,7 @@ getState
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -2684,7 +2684,7 @@ id
 itemId
 )
 ;
-yield
+await
 waitUntil
 (
 (

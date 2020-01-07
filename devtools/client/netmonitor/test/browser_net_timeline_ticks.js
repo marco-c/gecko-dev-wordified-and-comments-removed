@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -38,7 +38,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -205,7 +205,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 NetMonitorController

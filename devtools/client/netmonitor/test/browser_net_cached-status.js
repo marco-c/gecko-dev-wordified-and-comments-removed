@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -31,7 +31,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 STATUS_CODES_URL
@@ -450,7 +450,7 @@ requests
 "
 )
 ;
-yield
+await
 performRequestsAndWait
 (
 )
@@ -468,7 +468,7 @@ requests
 "
 )
 ;
-yield
+await
 performRequestsAndWait
 (
 )
@@ -543,7 +543,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -566,7 +566,7 @@ request
 index
 )
 ;
-yield
+await
 verifyRequestItemTarget
 (
 document
@@ -607,14 +607,14 @@ index
 +
 ;
 }
-yield
+await
 teardown
 (
 monitor
 )
 ;
+async
 function
-*
 performRequestsAndWait
 (
 )
@@ -628,7 +628,7 @@ monitor
 3
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -638,8 +638,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -654,7 +654,7 @@ performCachedRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 }

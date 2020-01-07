@@ -16,8 +16,8 @@ svg
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -27,7 +27,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CURL_URL
@@ -62,7 +62,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -71,8 +71,8 @@ tab
 .
 linkedBrowser
 SVG_URL
+async
 function
-*
 (
 url
 )
@@ -89,7 +89,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -150,7 +150,7 @@ item
 ]
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -224,7 +224,7 @@ text
 }
 )
 ;
-yield
+await
 teardown
 (
 monitor

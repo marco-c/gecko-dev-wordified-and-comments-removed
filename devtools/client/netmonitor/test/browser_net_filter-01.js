@@ -648,8 +648,8 @@ Protocols
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -658,7 +658,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 FILTERING_URL
@@ -774,13 +774,13 @@ loadCommonFrameScript
 (
 )
 ;
-yield
+await
 performRequestsInContent
 (
 REQUESTS_WITH_MEDIA_AND_FLASH_AND_WS
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -902,7 +902,7 @@ all
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -956,7 +956,7 @@ html
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1040,7 +1040,7 @@ css
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1124,7 +1124,7 @@ js
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1208,7 +1208,7 @@ xhr
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1292,7 +1292,7 @@ fonts
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1376,7 +1376,7 @@ images
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1460,7 +1460,7 @@ media
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1544,7 +1544,7 @@ ws
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1598,7 +1598,7 @@ all
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1651,7 +1651,7 @@ foobar
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1704,7 +1704,7 @@ sample
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1757,7 +1757,7 @@ SAMPLE
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1811,7 +1811,7 @@ sample
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1910,7 +1910,7 @@ monitor
 ]
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1933,7 +1933,7 @@ sample
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1972,7 +1972,7 @@ monitor
 ]
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2026,7 +2026,7 @@ html
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2080,7 +2080,7 @@ all
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2241,7 +2241,7 @@ all
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2257,7 +2257,7 @@ testContents
 ]
 )
 ;
-yield
+await
 teardown
 (
 monitor
@@ -2309,8 +2309,8 @@ selectedId
 )
 ;
 }
+async
 function
-*
 testContents
 (
 visibility
@@ -2378,7 +2378,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -2406,7 +2406,7 @@ getState
 let
 visibleItems
 ;
-yield
+await
 waitUntil
 (
 (

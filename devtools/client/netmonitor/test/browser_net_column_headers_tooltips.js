@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -15,7 +15,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -126,7 +126,7 @@ attribute
 )
 ;
 }
-yield
+await
 teardown
 (
 monitor

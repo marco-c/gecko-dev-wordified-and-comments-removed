@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -15,7 +15,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 STATISTICS_URL
@@ -150,7 +150,7 @@ display
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -199,7 +199,7 @@ correctly
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -259,7 +259,7 @@ display
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -312,7 +312,7 @@ correctly
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -365,7 +365,7 @@ correctly
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

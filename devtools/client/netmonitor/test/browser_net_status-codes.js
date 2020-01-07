@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -38,7 +38,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 STATUS_CODES_URL
@@ -513,7 +513,7 @@ monitor
 5
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -523,8 +523,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -539,7 +539,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 info
@@ -550,19 +550,19 @@ tests
 "
 )
 ;
-yield
+await
 verifyRequests
 (
 )
 ;
-yield
+await
 testTab
 (
 0
 testHeaders
 )
 ;
-yield
+await
 testTab
 (
 2
@@ -575,8 +575,8 @@ teardown
 monitor
 )
 ;
+async
 function
-*
 verifyRequests
 (
 )
@@ -643,7 +643,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -716,7 +716,7 @@ request
 index
 )
 ;
-yield
+await
 verifyRequestItemTarget
 (
 document
@@ -746,8 +746,8 @@ index
 ;
 }
 }
+async
 function
-*
 testTab
 (
 tabIdx
@@ -788,7 +788,7 @@ request
 counter
 )
 ;
-yield
+await
 testFn
 (
 item
@@ -801,8 +801,8 @@ counter
 ;
 }
 }
+async
 function
-*
 testHeaders
 (
 data
@@ -838,7 +838,7 @@ index
 ]
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -1018,7 +1018,6 @@ incorrect
 ;
 }
 function
-*
 testParams
 (
 data

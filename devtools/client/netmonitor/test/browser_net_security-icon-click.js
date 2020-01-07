@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -77,7 +77,7 @@ HTTPS
 "
 )
 ;
-yield
+await
 performRequestAndWait
 (
 "
@@ -98,7 +98,7 @@ request_2
 "
 )
 ;
-yield
+await
 performRequestAndWait
 (
 "
@@ -142,7 +142,7 @@ logged
 "
 )
 ;
-yield
+await
 clickAndTestSecurityIcon
 (
 )
@@ -241,7 +241,7 @@ sorted
 "
 )
 ;
-yield
+await
 clickAndTestSecurityIcon
 (
 )
@@ -252,8 +252,8 @@ teardown
 monitor
 )
 ;
+async
 function
-*
 performRequestAndWait
 (
 url
@@ -268,7 +268,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -279,8 +279,8 @@ linkedBrowser
 {
 url
 }
+async
 function
-*
 (
 args
 )
@@ -304,8 +304,8 @@ return
 wait
 ;
 }
+async
 function
-*
 clickAndTestSecurityIcon
 (
 )
@@ -360,7 +360,7 @@ monitor
 panelWin
 )
 ;
-yield
+await
 waitUntil
 (
 (

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -15,7 +15,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 FILTERING_URL
@@ -295,7 +295,7 @@ panel
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -429,7 +429,7 @@ mode
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -16,7 +16,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -111,7 +111,7 @@ com
 CORS_SJS_PATH
 ]
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -120,8 +120,8 @@ tab
 .
 linkedBrowser
 REQUEST_URLS
+async
 function
-*
 (
 urls
 )
@@ -148,7 +148,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 info
@@ -201,7 +201,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 info

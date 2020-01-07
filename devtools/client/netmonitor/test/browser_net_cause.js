@@ -333,12 +333,12 @@ line
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -367,7 +367,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -460,7 +460,7 @@ loadURI
 CAUSE_URL
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -475,7 +475,7 @@ getState
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -957,7 +957,7 @@ sorting
 }
 )
 ;
-yield
+await
 teardown
 (
 monitor

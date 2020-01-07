@@ -30,8 +30,8 @@ N_EXPECTED_REQUESTS
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -41,7 +41,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -108,7 +108,7 @@ loadURI
 CAUSE_URL
 )
 ;
-yield
+await
 waitPromise
 ;
 info
@@ -175,7 +175,7 @@ mousedown
 xhrRequestItem
 )
 ;
-yield
+await
 waitPromise
 ;
 info
@@ -240,7 +240,7 @@ click
 stackTab
 )
 ;
-yield
+await
 waitPromise
 ;
 info
@@ -256,7 +256,7 @@ applied
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -385,7 +385,7 @@ js
 10
 )
 ;
-yield
+await
 teardown
 (
 monitor
