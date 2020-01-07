@@ -103,7 +103,7 @@ jsm
 )
 ;
 class
-CachedIterable
+CachedAsyncIterable
 {
 constructor
 (
@@ -313,8 +313,12 @@ cur
 }
 ;
 }
+async
 touchNext
 (
+count
+=
+1
 )
 {
 const
@@ -325,6 +329,20 @@ iterator
 =
 this
 ;
+let
+idx
+=
+0
+;
+while
+(
+idx
++
++
+<
+count
+)
+{
 if
 (
 seen
@@ -356,6 +374,7 @@ seen
 .
 push
 (
+await
 iterator
 .
 next
@@ -363,6 +382,7 @@ next
 )
 )
 ;
+}
 }
 }
 }
@@ -421,7 +441,7 @@ this
 ctxs
 =
 new
-CachedIterable
+CachedAsyncIterable
 (
 this
 .
@@ -687,7 +707,7 @@ this
 ctxs
 =
 new
-CachedIterable
+CachedAsyncIterable
 (
 this
 .
