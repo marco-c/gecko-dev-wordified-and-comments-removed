@@ -12558,11 +12558,17 @@ currentDirPref
 .
 value
 ?
+\
+u2066
+{
 currentDirPref
 .
 value
 .
 path
+}
+\
+u2069
 :
 "
 "
