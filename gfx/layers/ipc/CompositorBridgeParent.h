@@ -2227,6 +2227,12 @@ GetAPZCTreeManager
 (
 )
 ;
+AndroidDynamicToolbarAnimator
+*
+GetAndroidDynamicToolbarAnimator
+(
+)
+;
 #
 endif
 RefPtr
