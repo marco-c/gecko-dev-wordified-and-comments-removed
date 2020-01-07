@@ -10,15 +10,6 @@ from
 six
 import
 string_types
-from
-mozlog
-import
-get_default_logger
-logger
-=
-get_default_logger
-(
-)
 def
 command
 (

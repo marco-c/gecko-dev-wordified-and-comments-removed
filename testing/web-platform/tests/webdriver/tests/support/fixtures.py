@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 json
 import
@@ -8,8 +12,6 @@ import
 re
 import
 webdriver
-import
-mozlog
 from
 tests
 .
@@ -46,13 +48,6 @@ default_port
 "
 4444
 "
-logger
-=
-mozlog
-.
-get_default_logger
-(
-)
 def
 ignore_exceptions
 (
@@ -94,9 +89,7 @@ as
 e
 :
             
-logger
-.
-warning
+print
 (
 "
 Ignored
@@ -106,6 +99,11 @@ s
 "
 %
 e
+file
+=
+sys
+.
+stderr
 )
     
 inner
