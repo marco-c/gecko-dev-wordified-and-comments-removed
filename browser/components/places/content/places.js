@@ -1964,6 +1964,7 @@ fp
 fileURL
 .
 spec
+false
 )
 .
 catch
@@ -2808,11 +2809,7 @@ BookmarkJSONUtils
 importFromFile
 (
 aFilePath
-{
-replace
-:
 true
-}
 )
 ;
 }

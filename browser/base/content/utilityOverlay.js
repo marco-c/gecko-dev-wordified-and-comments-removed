@@ -57,8 +57,12 @@ jsm
 ;
 ChromeUtils
 .
-import
+defineModuleGetter
 (
+this
+"
+PrivateBrowsingUtils
+"
 "
 resource
 :
