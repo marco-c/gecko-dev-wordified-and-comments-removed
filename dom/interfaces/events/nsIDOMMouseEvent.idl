@@ -184,11 +184,6 @@ mozMovementY
 ;
 readonly
 attribute
-short
-button
-;
-readonly
-attribute
 unsigned
 short
 buttons
