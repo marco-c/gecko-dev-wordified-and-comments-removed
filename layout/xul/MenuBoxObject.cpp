@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIDOMKeyEvent
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
