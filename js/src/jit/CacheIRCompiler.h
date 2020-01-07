@@ -87,6 +87,11 @@ GuardClass
 \
 _
 (
+GuardGroupHasUnanalyzedNewScript
+)
+\
+_
+(
 GuardIsNativeFunction
 )
 \
