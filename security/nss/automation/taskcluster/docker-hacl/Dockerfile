@@ -57,7 +57,7 @@ github
 .
 com
 /
-franziskuskiefer
+mitls
 /
 hacl
 -
@@ -78,7 +78,7 @@ opamv
 2
 ENV
 haclversion
-668d6cf274c33bbe2e951e3a84b73f2b6442a51f
+426abe1c4e55f3e569bd9815d52bffc4daac44e5
 #
 Install
 required

@@ -74,7 +74,7 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 uint16_t
 extension
 size_t
@@ -83,7 +83,7 @@ length
 :
 TlsExtensionFilter
 (
-agent
+a
 )
 extension_
 (
@@ -187,7 +187,7 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 uint16_t
 extension
 size_t
@@ -196,7 +196,7 @@ index
 :
 TlsExtensionFilter
 (
-agent
+a
 )
 extension_
 (
@@ -289,7 +289,7 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 uint8_t
 handshake_type
 uint16_t
@@ -301,7 +301,7 @@ data
 :
 TlsHandshakeFilter
 (
-agent
+a
 {
 handshake_type
 }
@@ -3351,14 +3351,14 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 TlsPreSharedKeyReplacerFunc
 function
 )
 :
 TlsExtensionFilter
 (
-agent
+a
 )
 identities_
 (

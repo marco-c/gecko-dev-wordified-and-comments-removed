@@ -117,9 +117,6 @@ static
 void
 Usage
 (
-char
-*
-progName
 )
 {
 #
@@ -4874,7 +4871,6 @@ SECSuccess
 )
 Usage
 (
-progName
 )
 ;
 pk12_debugging
@@ -4925,7 +4921,6 @@ activated
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -4954,7 +4949,6 @@ activated
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -4989,7 +4983,6 @@ option
 ;
 Usage
 (
-progName
 )
 ;
 }
@@ -5639,7 +5632,6 @@ else
 {
 Usage
 (
-progName
 )
 ;
 pk12uErrno

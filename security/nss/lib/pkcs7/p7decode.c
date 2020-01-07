@@ -5591,9 +5591,6 @@ sig
 SECItem
 holder
 ;
-SECStatus
-rv
-;
 sig
 =
 &

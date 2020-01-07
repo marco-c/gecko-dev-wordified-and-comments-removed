@@ -1261,7 +1261,7 @@ cipher_suite
 (
 uint16_t
 *
-cipher_suite
+suite
 )
 const
 {
@@ -1276,7 +1276,7 @@ return
 false
 ;
 *
-cipher_suite
+suite
 =
 info_
 .
@@ -1352,7 +1352,7 @@ auth_type
 (
 SSLAuthType
 *
-auth_type
+a
 )
 const
 {
@@ -1367,7 +1367,7 @@ return
 false
 ;
 *
-auth_type
+a
 =
 info_
 .
@@ -1382,7 +1382,7 @@ kea_type
 (
 SSLKEAType
 *
-kea_type
+k
 )
 const
 {
@@ -1397,7 +1397,7 @@ return
 false
 ;
 *
-kea_type
+k
 =
 info_
 .

@@ -4467,7 +4467,6 @@ CK_ATTRIBUTE_PTR
 newTemplate
 ;
 CK_ULONG
-i
 j
 n
 newLength
@@ -4475,10 +4474,6 @@ k
 ;
 CK_ATTRIBUTE_TYPE_PTR
 oldTypes
-;
-NSSCKFWObject
-*
-rv
 ;
 n
 =

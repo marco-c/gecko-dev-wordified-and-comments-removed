@@ -2724,7 +2724,7 @@ algOpt
 name_size
 ;
 PRBool
-newValue
+newOption
 =
 PR_FALSE
 ;
@@ -2751,7 +2751,7 @@ name_size
 )
 )
 {
-newValue
+newOption
 =
 PR_TRUE
 ;
@@ -2759,7 +2759,7 @@ PR_TRUE
 if
 (
 (
-newValue
+newOption
 |
 |
 algOpt
@@ -2800,7 +2800,7 @@ disable
 ;
 if
 (
-newValue
+newOption
 )
 {
 value

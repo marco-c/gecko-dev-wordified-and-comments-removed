@@ -1888,9 +1888,6 @@ size
 16
 )
 ;
-SECStatus
-rv
-;
 if
 (
 encrypt

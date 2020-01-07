@@ -1038,7 +1038,9 @@ sources
 :
 [
 '
-poly1305
+verified
+/
+Hacl_Poly1305_32
 .
 c
 '
@@ -1059,7 +1061,9 @@ sources
 :
 [
 '
-poly1305
+verified
+/
+Hacl_Poly1305_32
 .
 c
 '

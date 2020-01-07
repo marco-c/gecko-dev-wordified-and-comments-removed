@@ -277,9 +277,7 @@ static
 void
 Usage
 (
-char
-*
-progName
+void
 )
 {
 fprintf
@@ -1695,9 +1693,6 @@ nsigners
 0
 )
 {
-SECStatus
-rv
-;
 rv
 =
 NSS_CMSSignedData_VerifyCertsOnly
@@ -6497,7 +6492,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -6552,7 +6546,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -6786,7 +6779,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -6858,7 +6850,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -6924,7 +6915,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -6979,7 +6969,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7040,7 +7029,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7093,7 +7081,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7317,7 +7304,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7502,7 +7488,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7557,7 +7542,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7673,7 +7657,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7733,7 +7716,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7793,7 +7775,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 exit
@@ -7970,7 +7951,6 @@ PL_OPT_BAD
 )
 Usage
 (
-progName
 )
 ;
 PL_DestroyOptState
@@ -7987,7 +7967,6 @@ UNKNOWN
 )
 Usage
 (
-progName
 )
 ;
 if
@@ -8837,7 +8816,6 @@ n
 ;
 Usage
 (
-progName
 )
 ;
 exitstatus
