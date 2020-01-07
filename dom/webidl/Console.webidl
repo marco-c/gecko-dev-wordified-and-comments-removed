@@ -645,6 +645,12 @@ counter
 =
 null
 ;
+DOMString
+prefix
+=
+"
+"
+;
 }
 ;
 /
