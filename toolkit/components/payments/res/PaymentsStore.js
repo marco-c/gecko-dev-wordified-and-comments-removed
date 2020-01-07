@@ -1,8 +1,5 @@
-"
-use
-strict
-"
-;
+export
+default
 class
 PaymentsStore
 {
