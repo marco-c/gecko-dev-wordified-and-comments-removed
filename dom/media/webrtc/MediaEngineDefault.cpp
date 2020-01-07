@@ -1805,7 +1805,12 @@ aStream
 AddAudioTrack
 (
 aID
-mRate
+aStream
+-
+>
+GraphRate
+(
+)
 0
 segment
 SourceMediaStream
@@ -2041,7 +2046,12 @@ aSource
 >
 TimeToTicksRoundUp
 (
-mRate
+aGraph
+-
+>
+GraphRate
+(
+)
 aDesiredTime
 )
 ;
