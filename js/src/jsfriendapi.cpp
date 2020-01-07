@@ -708,7 +708,13 @@ compartment
 )
 {
 return
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
+)
 -
 >
 creationOptions

@@ -7712,7 +7712,7 @@ isSingleton
 cx
 -
 >
-compartment
+realm
 (
 )
 -

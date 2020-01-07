@@ -1914,7 +1914,13 @@ erase
 i
 )
 ;
+JS
+:
+:
+GetRealmForCompartment
+(
 comp
+)
 -
 >
 destroy

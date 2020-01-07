@@ -907,7 +907,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -977,7 +977,7 @@ canLazilyParse
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -995,7 +995,7 @@ disableLazyParsing
 cx
 -
 >
-compartment
+realm
 (
 )
 -

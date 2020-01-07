@@ -11432,7 +11432,7 @@ MOZ_LIKELY
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -12220,7 +12220,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -

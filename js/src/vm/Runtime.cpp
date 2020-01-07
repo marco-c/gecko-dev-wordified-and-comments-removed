@@ -1083,13 +1083,13 @@ options
 ;
 ScopedJSDeletePtr
 <
-JSCompartment
+Realm
 >
 atomsCompartment
 (
 js_new
 <
-JSCompartment
+Realm
 >
 (
 atomsZone
