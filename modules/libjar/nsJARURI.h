@@ -460,6 +460,9 @@ nsACString
 &
 input
 const
+mozilla
+:
+:
 Encoding
 *
 encoding

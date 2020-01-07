@@ -8,6 +8,13 @@ h
 #
 include
 "
+BackgroundParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 webrender

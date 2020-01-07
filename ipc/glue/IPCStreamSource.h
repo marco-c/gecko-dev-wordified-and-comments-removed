@@ -68,6 +68,12 @@ class
 PBackgroundParent
 ;
 class
+PChildToParentStreamChild
+;
+class
+PParentToChildStreamParent
+;
+class
 IPCStreamSource
 :
 public
