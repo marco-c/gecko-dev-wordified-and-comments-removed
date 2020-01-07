@@ -38,8 +38,6 @@ GRADLE_VERSION
 GRADLE_VERSION
 :
 =
-3
-.
 4
 .
 1

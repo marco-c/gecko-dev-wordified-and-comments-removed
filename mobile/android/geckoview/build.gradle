@@ -291,20 +291,8 @@ project
 ext
 .
 compileSdkVersion
-buildToolsVersion
-project
-.
-ext
-.
-buildToolsVersion
 defaultConfig
 {
-defaultPublishConfig
-'
-release
-'
-publishNonDefault
-true
 targetSdkVersion
 project
 .
@@ -1510,7 +1498,7 @@ assets
 }
 dependencies
 {
-compile
+implementation
 "
 com
 .
@@ -1530,7 +1518,7 @@ substs
 ANDROID_SUPPORT_LIBRARY_VERSION
 }
 "
-compile
+implementation
 "
 com
 .
@@ -2138,7 +2126,7 @@ all
 variant
 -
 >
-configureVariantWithJNIWrappers
+configureLibraryVariantWithJNIWrappers
 (
 variant
 "
