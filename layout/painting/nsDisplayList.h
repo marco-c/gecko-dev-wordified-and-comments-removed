@@ -22306,14 +22306,6 @@ const
 Matrix4x4
 GetTransformForRendering
 (
-mozilla
-:
-:
-LayoutDevicePoint
-*
-aOutOrigin
-=
-nullptr
 )
 ;
 const

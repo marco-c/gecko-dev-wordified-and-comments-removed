@@ -77,10 +77,6 @@ WrFilterOp
 &
 aFilters
 const
-LayoutDeviceRect
-&
-aBounds
-const
 gfx
 :
 :
@@ -195,9 +191,8 @@ PushStackingContext
 wr
 :
 :
-ToLayoutRect
+LayoutRect
 (
-aBounds
 )
 aAnimation
 aOpacityPtr
