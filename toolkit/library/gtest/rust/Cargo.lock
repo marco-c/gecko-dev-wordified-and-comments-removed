@@ -5459,7 +5459,7 @@ encoding_rs
 .
 7
 .
-1
+2
 (
 registry
 +
@@ -5511,7 +5511,7 @@ encoding_rs
 .
 7
 .
-1
+2
 (
 registry
 +
@@ -5568,7 +5568,7 @@ version
 .
 7
 .
-1
+2
 "
 source
 =
@@ -5633,7 +5633,7 @@ simd
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -7559,7 +7559,7 @@ version
 .
 4
 .
-19
+20
 "
 source
 =
@@ -14201,7 +14201,7 @@ version
 .
 2
 .
-0
+1
 "
 source
 =
@@ -18918,7 +18918,7 @@ gleam
 .
 4
 .
-19
+20
 (
 registry
 +
@@ -19738,7 +19738,7 @@ gleam
 .
 4
 .
-19
+20
 (
 registry
 +
@@ -21804,7 +21804,7 @@ encoding_rs
 .
 7
 .
-1
+2
 (
 registry
 +
@@ -21829,7 +21829,7 @@ index
 "
 =
 "
-f5215aabf22b83153be3ee44dfe3f940214541b2ce13d419c55e7a115c8c51a9
+98fd0f24d1fb71a4a6b9330c8ca04cbd4e7cc5d846b54ca74ff376bc7c9f798d
 "
 "
 checksum
@@ -22328,7 +22328,7 @@ gleam
 .
 4
 .
-19
+20
 (
 registry
 +
@@ -22353,7 +22353,7 @@ index
 "
 =
 "
-4f756699879522bc654ecc44ad42ad14c59803c2dacfa5a67a7fc27257a8b4e9
+959c818d9bbe9f7b7db55dce0bc44673c4da4f4ee122536c40550f984c3b8017
 "
 "
 checksum
@@ -24398,7 +24398,7 @@ simd
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -24423,7 +24423,7 @@ index
 "
 =
 "
-7a94d14a2ae1f1f110937de5fb69e494372560181c7e1739a097fcc2cee37ba0
+3dd0805c7363ab51a829a1511ad24b6ed0349feaa756c4bc2f977f9f496e6673
 "
 "
 checksum
