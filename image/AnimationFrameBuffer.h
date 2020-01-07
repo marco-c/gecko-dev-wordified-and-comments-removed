@@ -97,16 +97,6 @@ return
 mSizeKnown
 ;
 }
-bool
-HasRedecodeError
-(
-)
-const
-{
-return
-mRedecodeError
-;
-}
 size_t
 Displayed
 (
@@ -205,9 +195,6 @@ mGetIndex
 ;
 bool
 mSizeKnown
-;
-bool
-mRedecodeError
 ;
 }
 ;
