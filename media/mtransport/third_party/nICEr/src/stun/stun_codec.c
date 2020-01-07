@@ -7599,6 +7599,16 @@ Data
 *
 password
 ;
+if
+(
+!
+msg
+)
+ABORT
+(
+R_BAD_ARGS
+)
+;
 r_log
 (
 NR_LOG_STUN
