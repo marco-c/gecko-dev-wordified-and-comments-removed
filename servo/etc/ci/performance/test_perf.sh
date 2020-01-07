@@ -297,6 +297,9 @@ WARC_DIR
 then
 git
 clone
+-
+-
+progress
 {
 WARC_REPO
 }
@@ -325,6 +328,9 @@ C
 WARC_DIR
 }
 pull
+-
+-
+progress
 virtualenv
 venv
 -
