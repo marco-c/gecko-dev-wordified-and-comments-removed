@@ -89,9 +89,9 @@ mIsAttrSet
 (
 false
 )
-mHadTransformBeforeLastBaseValChange
+mRequiresFrameReconstruction
 (
-false
+true
 )
 {
 }
@@ -221,13 +221,13 @@ mAnimVal
 ;
 }
 bool
-HadTransformBeforeLastBaseValChange
+RequiresFrameReconstruction
 (
 )
 const
 {
 return
-mHadTransformBeforeLastBaseValChange
+mRequiresFrameReconstruction
 ;
 }
 mozilla
@@ -259,7 +259,7 @@ bool
 mIsAttrSet
 ;
 bool
-mHadTransformBeforeLastBaseValChange
+mRequiresFrameReconstruction
 ;
 struct
 SMILAnimatedTransformList
