@@ -90,7 +90,7 @@ debian
 package
 '
     
-Required
+Optional
 (
 '
 dist
@@ -99,7 +99,7 @@ dist
 :
 basestring
     
-Required
+Optional
 (
 '
 snapshot
