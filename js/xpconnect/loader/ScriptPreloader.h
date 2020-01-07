@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -198,7 +205,6 @@ uint8_t
 Parent
 Web
 Extension
-Privileged
 }
 ;
 template
@@ -1224,6 +1230,11 @@ PrepareCacheWriteInternal
 (
 )
 ;
+void
+FinishContentStartup
+(
+)
+;
 Result
 <
 nsCOMPtr
@@ -1514,6 +1525,12 @@ nsCOMPtr
 nsIThread
 >
 mSaveThread
+;
+nsCOMPtr
+<
+nsITimer
+>
+mSaveTimer
 ;
 AutoMemMap
 mCacheData
