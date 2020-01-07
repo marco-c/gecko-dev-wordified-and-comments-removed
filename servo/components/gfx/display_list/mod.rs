@@ -3227,6 +3227,13 @@ Size2D
 <
 Au
 >
+pub
+tile_spacing
+:
+Size2D
+<
+Au
+>
 }
 #
 [
@@ -3292,6 +3299,13 @@ gradient
 RadialGradient
 pub
 tile
+:
+Size2D
+<
+Au
+>
+pub
+tile_spacing
 :
 Size2D
 <
