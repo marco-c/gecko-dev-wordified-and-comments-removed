@@ -155,7 +155,7 @@ close
 ;
 already_AddRefed
 <
-nsIDOMEvent
+Event
 >
 CreateGenericEvent
 (

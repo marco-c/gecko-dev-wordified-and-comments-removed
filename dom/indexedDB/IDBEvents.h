@@ -157,7 +157,7 @@ kCloseEventType
 ;
 already_AddRefed
 <
-nsIDOMEvent
+Event
 >
 CreateGenericEvent
 (

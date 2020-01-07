@@ -314,14 +314,10 @@ SetTrusted
 true
 )
 ;
-bool
-dummy
-;
 DispatchEvent
 (
+*
 event
-&
-dummy
 )
 ;
 }

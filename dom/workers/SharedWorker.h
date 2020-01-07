@@ -40,9 +40,6 @@ PostMessage
 #
 endif
 class
-nsIDOMEvent
-;
-class
 nsPIDOMWindowInner
 ;
 namespace
@@ -62,6 +59,9 @@ StringOrWorkerOptions
 ;
 class
 WorkerPrivate
+;
+class
+Event
 ;
 namespace
 workerinternals
@@ -115,9 +115,9 @@ mMessagePort
 ;
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
-nsIDOMEvent
+Event
 >
 >
 mFrozenEvents
@@ -180,7 +180,7 @@ Thaw
 void
 QueueEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
