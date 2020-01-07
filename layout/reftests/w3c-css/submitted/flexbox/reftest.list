@@ -2397,7 +2397,6 @@ content
 ref
 .
 html
-fails
 =
 =
 flexbox
@@ -2424,10 +2423,6 @@ content
 ref
 .
 html
-#
-bug
-1374540
-fails
 =
 =
 flexbox
@@ -2454,9 +2449,6 @@ content
 ref
 .
 html
-#
-bug
-1374540
 =
 =
 flexbox
