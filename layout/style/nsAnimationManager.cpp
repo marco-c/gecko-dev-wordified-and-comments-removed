@@ -730,9 +730,14 @@ presContext
 return
 ;
 }
-const
+static
+constexpr
 StickyTimeDuration
 zeroDuration
+=
+StickyTimeDuration
+(
+)
 ;
 uint64_t
 currentIteration
