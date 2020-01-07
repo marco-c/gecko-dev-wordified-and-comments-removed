@@ -309,7 +309,7 @@ mModuleScript
 mModuleScript
 -
 >
-IsErrored
+HasParseError
 (
 )
 )
@@ -372,7 +372,7 @@ mModuleScript
 mModuleScript
 -
 >
-IsErrored
+HasParseError
 (
 )
 )
