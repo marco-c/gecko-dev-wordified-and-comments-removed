@@ -40051,7 +40051,9 @@ StyleDisplay
 )
 -
 >
-mSpecifiedTransform
+GetCombinedTransform
+(
+)
 )
 mToTransformOrigin
 (
@@ -40545,7 +40547,7 @@ parentFrame
 frame
 -
 >
-GetInFlowParent
+GetFlattenedTreeParentPrimaryFrame
 (
 )
 ;
@@ -41609,7 +41611,7 @@ establisher
 establisher
 -
 >
-GetInFlowParent
+GetFlattenedTreeParentPrimaryFrame
 (
 )
 )
