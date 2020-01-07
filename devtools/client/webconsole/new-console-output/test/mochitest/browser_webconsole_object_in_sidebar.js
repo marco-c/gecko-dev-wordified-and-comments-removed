@@ -286,7 +286,9 @@ b
 c
 "
 "
-__proto__
+<
+prototype
+>
 "
 ]
 ;

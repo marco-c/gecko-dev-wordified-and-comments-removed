@@ -297,7 +297,9 @@ arrayPropertiesNames
 length
 "
 "
-__proto__
+<
+prototype
+>
 "
 ]
 ;
@@ -577,7 +579,9 @@ objectPropertiesNames
 push
 (
 "
-__proto__
+<
+prototype
+>
 "
 )
 ;
