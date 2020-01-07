@@ -359,10 +359,6 @@ enterCompartmentDepth
 (
 0
 )
-globalHolds
-(
-0
-)
 performanceMonitoring
 (
 runtime_

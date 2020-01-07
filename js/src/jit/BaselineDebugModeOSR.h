@@ -513,10 +513,9 @@ static
 void
 forwardLiveIterators
 (
-const
-CooperatingContext
-&
-target
+JSContext
+*
+cx
 uint8_t
 *
 oldAddr

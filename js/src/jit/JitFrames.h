@@ -904,10 +904,6 @@ TraceJitActivations
 JSContext
 *
 cx
-const
-CooperatingContext
-&
-target
 JSTracer
 *
 trc

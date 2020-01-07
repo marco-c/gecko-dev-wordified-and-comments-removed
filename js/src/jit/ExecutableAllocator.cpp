@@ -1339,7 +1339,7 @@ preventBackedgePatching
 rt
 -
 >
-activeContext
+mainContextFromAnyThread
 (
 )
 -

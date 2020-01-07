@@ -2002,7 +2002,7 @@ JS_DropPrincipals
 rt
 -
 >
-activeContextFromOwnThread
+mainContextFromOwnThread
 (
 )
 p

@@ -296,9 +296,6 @@ class
 StoreBuffer
 ;
 }
-class
-CooperatingContext
-;
 inline
 JSCompartment
 *

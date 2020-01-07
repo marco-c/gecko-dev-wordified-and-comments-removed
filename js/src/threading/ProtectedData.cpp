@@ -361,7 +361,7 @@ MOZ_ASSERT
 group
 -
 >
-ownedByCurrentThread
+ownedByCurrentHelperThread
 (
 )
 )
