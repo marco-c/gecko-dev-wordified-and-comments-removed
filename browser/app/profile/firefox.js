@@ -2842,16 +2842,6 @@ pref
 "
 browser
 .
-showQuitWarning
-"
-false
-)
-;
-pref
-(
-"
-browser
-.
 fullscreen
 .
 autohide

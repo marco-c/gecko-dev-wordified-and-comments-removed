@@ -353,14 +353,6 @@ false
 "
 browser
 .
-showQuitWarning
-"
-false
-]
-[
-"
-browser
-.
 startup
 .
 homepage_override
