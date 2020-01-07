@@ -444,7 +444,7 @@ aCx
 global
 )
 ;
-scriptloader
+workerinternals
 :
 :
 LoadMainScript

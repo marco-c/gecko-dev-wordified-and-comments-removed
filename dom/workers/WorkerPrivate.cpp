@@ -1773,7 +1773,7 @@ false
 ErrorResult
 rv
 ;
-scriptloader
+workerinternals
 :
 :
 LoadMainScript
@@ -12477,7 +12477,7 @@ rv
 )
 )
 {
-scriptloader
+workerinternals
 :
 :
 ReportLoadError
@@ -12742,10 +12742,7 @@ mozilla
 dom
 :
 :
-workers
-:
-:
-scriptloader
+workerinternals
 ;
 MOZ_ASSERT
 (
