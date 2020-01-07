@@ -2649,9 +2649,6 @@ MaybeFireNodeRemoved
 &
 aOldChild
 this
-OwnerDoc
-(
-)
 )
 ;
 }
@@ -2903,7 +2900,6 @@ nodes
 i
 ]
 parentNode
-doc
 )
 ;
 }
@@ -8782,9 +8778,6 @@ MaybeFireNodeRemoved
 (
 aRefChild
 this
-OwnerDoc
-(
-)
 )
 ;
 }
@@ -8811,12 +8804,6 @@ MaybeFireNodeRemoved
 (
 aNewChild
 oldParent
-aNewChild
--
->
-OwnerDoc
-(
-)
 )
 ;
 }

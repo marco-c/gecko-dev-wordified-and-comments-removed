@@ -10870,14 +10870,6 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
->
-owningDoc
-=
-doc
-;
-nsCOMPtr
-<
 nsINode
 >
 child
@@ -10920,7 +10912,6 @@ MaybeFireNodeRemoved
 (
 child
 this
-doc
 )
 ;
 }

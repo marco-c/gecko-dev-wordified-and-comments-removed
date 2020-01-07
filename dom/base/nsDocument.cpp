@@ -31108,12 +31108,6 @@ MaybeFireNodeRemoved
 (
 adoptedNode
 parent
-adoptedNode
--
->
-OwnerDoc
-(
-)
 )
 ;
 }

@@ -2877,9 +2877,6 @@ aChild
 nsINode
 *
 aParent
-nsIDocument
-*
-aOwnerDoc
 )
 ;
 static
