@@ -743,10 +743,10 @@ AccessibleCaretManager
 :
 OnSelectionChanged
 (
-nsIDOMDocument
+nsIDocument
 *
 aDoc
-nsISelection
+Selection
 *
 aSel
 int16_t

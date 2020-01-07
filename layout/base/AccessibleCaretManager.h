@@ -104,6 +104,9 @@ class
 nsIContent
 ;
 class
+nsIDocument
+;
+class
 nsIPresShell
 ;
 struct
@@ -239,10 +242,13 @@ virtual
 nsresult
 OnSelectionChanged
 (
-nsIDOMDocument
+nsIDocument
 *
 aDoc
-nsISelection
+dom
+:
+:
+Selection
 *
 aSel
 int16_t
