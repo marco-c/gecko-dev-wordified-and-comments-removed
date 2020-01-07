@@ -499,15 +499,6 @@ extensions
 permissions
 '
 ]
-DIRS
-+
-=
-[
-'
-/
-rdf
-'
-]
 if
 CONFIG
 [
