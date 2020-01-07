@@ -7283,7 +7283,11 @@ GetPresShell
 )
 )
 {
-break
+StopTimer
+(
+)
+;
+return
 ;
 }
 if
