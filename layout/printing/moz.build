@@ -183,7 +183,7 @@ nsPrintData
 cpp
 '
 '
-nsPrintEngine
+nsPrintJob
 .
 cpp
 '

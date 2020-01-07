@@ -35,7 +35,7 @@ class
 nsPagePrintTimer
 ;
 class
-nsPrintEngine
+nsPrintJob
 ;
 namespace
 mozilla
@@ -155,11 +155,11 @@ aPagePrintTimer
 )
 ;
 void
-SetPrintEngine
+SetPrintJob
 (
-nsPrintEngine
+nsPrintJob
 *
-aPrintEngine
+aPrintJob
 )
 ;
 PRFileDesc
@@ -214,9 +214,9 @@ mPagePrintTimer
 ;
 RefPtr
 <
-nsPrintEngine
+nsPrintJob
 >
-mPrintEngine
+mPrintJob
 ;
 PRFileDesc
 *
