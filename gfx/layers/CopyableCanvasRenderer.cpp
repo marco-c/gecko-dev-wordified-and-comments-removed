@@ -463,6 +463,14 @@ mGLContext
 aData
 .
 mGLContext
+&
+&
+mBufferProvider
+=
+=
+aData
+.
+mBufferProvider
 ;
 }
 void
