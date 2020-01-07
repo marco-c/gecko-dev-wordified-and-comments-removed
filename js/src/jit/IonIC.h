@@ -723,9 +723,6 @@ updateBaseAddress
 JitCode
 *
 code
-MacroAssembler
-&
-masm
 )
 ;
 Register

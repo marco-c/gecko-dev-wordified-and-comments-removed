@@ -5942,9 +5942,6 @@ const
 uint32_t
 *
 icEntries
-MacroAssembler
-&
-masm
 )
 {
 memcpy
@@ -5988,7 +5985,6 @@ i
 updateBaseAddress
 (
 method_
-masm
 )
 ;
 }

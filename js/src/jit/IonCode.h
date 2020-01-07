@@ -2070,9 +2070,6 @@ const
 uint32_t
 *
 caches
-MacroAssembler
-&
-masm
 )
 ;
 void

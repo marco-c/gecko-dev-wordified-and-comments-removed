@@ -3843,6 +3843,13 @@ JSScript
 script
 )
 {
+if
+(
+innerized
+)
+return
+false
+;
 CacheIRReader
 reader
 (
