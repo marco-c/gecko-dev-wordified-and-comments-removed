@@ -745,14 +745,6 @@ single_locale
 "
                 
 "
-appName
-"
-:
-"
-Firefox
-"
-                
-"
 hashType
 "
 :
