@@ -257,6 +257,10 @@ unwrap
 proc_macro_derive
 (
 Parse
+attributes
+(
+parse
+)
 )
 ]
 pub
