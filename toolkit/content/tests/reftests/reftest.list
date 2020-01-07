@@ -71,10 +71,6 @@ http
 .
 oscpu
 )
-&
-&
-!
-isDebugBuild
 )
 )
 =
