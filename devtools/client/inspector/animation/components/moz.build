@@ -129,6 +129,16 @@ App
 js
 '
 '
+KeyframesProgressTickItem
+.
+js
+'
+'
+KeyframesProgressTickList
+.
+js
+'
+'
 NoAnimationPanel
 .
 js
