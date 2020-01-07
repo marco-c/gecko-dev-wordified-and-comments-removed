@@ -7,12 +7,6 @@ init
 (
 )
 {
-this
-.
-requiresAddonInterpositions
-=
-true
-;
 ChromeUtils
 .
 defineModuleGetter
