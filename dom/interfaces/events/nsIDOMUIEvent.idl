@@ -287,16 +287,6 @@ unsigned
 long
 which
 ;
-readonly
-attribute
-nsIDOMNode
-rangeParent
-;
-readonly
-attribute
-long
-rangeOffset
-;
 [
 notxpcom
 nostdcall
