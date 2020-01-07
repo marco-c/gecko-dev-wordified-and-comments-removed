@@ -42,6 +42,14 @@ test
 /
 serviceworkers
 /
+isolated
+/
+multi
+-
+e10s
+-
+update
+/
 "
 ;
 add_task
