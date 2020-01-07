@@ -4351,11 +4351,13 @@ aShell
 ;
 mRestyleManager
 =
-new
+MakeUnique
+<
 mozilla
 :
 :
 RestyleManager
+>
 (
 this
 )
