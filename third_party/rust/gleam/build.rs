@@ -184,6 +184,9 @@ GL_APPLE_fence
 "
 GL_ARB_get_program_binary
 "
+"
+GL_ARB_blend_func_extended
+"
 ]
 ;
 let
