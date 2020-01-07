@@ -183,8 +183,6 @@ Maybe
 add
 :
 -
-OneTopLevelClass
--
 OverloadMethodsDeclarationOrder
 -
 Empty
@@ -544,6 +542,15 @@ true
 <
 /
 module
+>
+<
+module
+name
+=
+"
+OneTopLevelClass
+"
+/
 >
 <
 /
