@@ -175,9 +175,7 @@ new
 #
 include
 <
-string
-.
-h
+cstring
 >
 #
 include
