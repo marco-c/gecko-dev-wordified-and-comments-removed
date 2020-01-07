@@ -420,7 +420,7 @@ name
 {
 try
 {
-DOMUtils
+InspectorUtils
 .
 cssPropertyIsShorthand
 (

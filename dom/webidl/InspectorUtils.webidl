@@ -325,6 +325,16 @@ DOMString
 property
 )
 ;
+[
+Throws
+]
+boolean
+cssPropertyIsShorthand
+(
+DOMString
+property
+)
+;
 }
 ;
 dictionary
