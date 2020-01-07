@@ -47,14 +47,6 @@ INFO
 from
 mozharness
 .
-base
-.
-python
-import
-Python3Virtualenv
-from
-mozharness
-.
 mozilla
 .
 testing
@@ -374,7 +366,6 @@ Raptor
 (
 TestingMixin
 MercurialScript
-Python3Virtualenv
 CodeCoverageMixin
 )
 :

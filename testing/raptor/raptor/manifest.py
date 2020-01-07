@@ -124,6 +124,9 @@ playback_pageset_zip_mac
 '
 playback_recordings
 '
+'
+python3_win_manifest
+'
 ]
 def
 filter_app
