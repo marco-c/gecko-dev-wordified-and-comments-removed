@@ -561,7 +561,7 @@ testThreadingThread
 cpp
 '
 '
-testToSignedOrUnsignedInteger
+testToIntWidth
 .
 cpp
 '
