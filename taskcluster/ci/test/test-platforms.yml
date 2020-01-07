@@ -563,6 +563,10 @@ qr
 -
 tests
 -
+linux
+-
+qr
+-
 talos
 -
 awsy
@@ -1170,6 +1174,8 @@ qr
 tests
 -
 windows
+-
+qr
 -
 talos
 #
