@@ -460,9 +460,6 @@ height
 ;
 }
 ;
-[
-LegacyArrayClass
-]
 interface
 DOMRectList
 {
