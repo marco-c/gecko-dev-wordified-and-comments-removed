@@ -18122,6 +18122,12 @@ result
 )
 {
 return
+mozilla
+:
+:
+net
+:
+:
 nsStandardURL
 :
 :

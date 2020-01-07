@@ -1253,6 +1253,16 @@ mozilla
 net
 :
 :
+ExtensionProtocolHandler
+ExtensionProtocolHandler
+;
+typedef
+mozilla
+:
+:
+net
+:
+:
 SubstitutingURL
 :
 :

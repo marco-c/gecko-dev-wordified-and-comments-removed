@@ -437,6 +437,9 @@ TSimpleNestedURIParams
 mutator
 =
 new
+net
+:
+:
 nsSimpleNestedURI
 :
 :

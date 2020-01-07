@@ -123,6 +123,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+net
+;
 namespace
 dom
 {

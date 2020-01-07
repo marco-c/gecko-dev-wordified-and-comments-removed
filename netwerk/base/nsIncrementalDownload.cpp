@@ -210,6 +210,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 static
 nsresult
 WriteToFile

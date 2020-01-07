@@ -898,6 +898,9 @@ rv
 bool
 isURIUniqueOrigin
 =
+net
+:
+:
 nsIOService
 :
 :

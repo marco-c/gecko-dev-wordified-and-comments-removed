@@ -1127,6 +1127,12 @@ nsIAsyncVerifyRedirectCallback
 aCallback
 )
 {
+mozilla
+:
+:
+net
+:
+:
 nsAsyncRedirectAutoCallback
 autoCallback
 (

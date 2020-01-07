@@ -1362,6 +1362,12 @@ nsILoadInfo
 secCheckLoadInfo
 =
 new
+mozilla
+:
+:
+net
+:
+:
 LoadInfo
 (
 doc

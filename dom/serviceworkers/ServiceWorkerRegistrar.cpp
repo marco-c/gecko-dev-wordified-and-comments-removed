@@ -341,6 +341,9 @@ aOrigin
 {
 RefPtr
 <
+net
+:
+:
 MozURL
 >
 url
@@ -348,6 +351,9 @@ url
 nsresult
 rv
 =
+net
+:
+:
 MozURL
 :
 :

@@ -124,6 +124,9 @@ OptionalCorsPreflightArgsRef
 mozilla
 :
 :
+net
+:
+:
 OptionalCorsPreflightArgs
 )
 ;

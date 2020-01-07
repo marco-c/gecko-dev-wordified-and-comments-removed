@@ -372,6 +372,12 @@ rv
 NS_MutateURI
 (
 new
+mozilla
+:
+:
+net
+:
+:
 nsSimpleURI
 :
 :

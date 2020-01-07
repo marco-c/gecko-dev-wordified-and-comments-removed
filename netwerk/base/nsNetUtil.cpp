@@ -2988,6 +2988,9 @@ new
 mozilla
 :
 :
+net
+:
+:
 LoadInfo
 (
 aLoadingPrincipal
@@ -3291,6 +3294,9 @@ loadInfo
 =
 new
 mozilla
+:
+:
+net
 :
 :
 LoadInfo

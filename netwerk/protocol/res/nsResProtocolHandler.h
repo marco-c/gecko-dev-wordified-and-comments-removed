@@ -55,6 +55,9 @@ public
 mozilla
 :
 :
+net
+:
+:
 SubstitutingProtocolHandler
 public
 nsSupportsWeakReference
@@ -68,6 +71,9 @@ NS_FORWARD_NSIPROTOCOLHANDLER
 mozilla
 :
 :
+net
+:
+:
 SubstitutingProtocolHandler
 :
 :
@@ -75,6 +81,12 @@ SubstitutingProtocolHandler
 nsResProtocolHandler
 (
 )
+:
+mozilla
+:
+:
+net
+:
 :
 SubstitutingProtocolHandler
 (
@@ -142,6 +154,9 @@ return
 mozilla
 :
 :
+net
+:
+:
 SubstitutingProtocolHandler
 :
 :
@@ -167,6 +182,9 @@ override
 {
 return
 mozilla
+:
+:
+net
 :
 :
 SubstitutingProtocolHandler
@@ -195,6 +213,9 @@ return
 mozilla
 :
 :
+net
+:
+:
 SubstitutingProtocolHandler
 :
 :
@@ -218,6 +239,9 @@ return
 mozilla
 :
 :
+net
+:
+:
 SubstitutingProtocolHandler
 :
 :
@@ -238,6 +262,9 @@ override
 {
 return
 mozilla
+:
+:
+net
 :
 :
 SubstitutingProtocolHandler

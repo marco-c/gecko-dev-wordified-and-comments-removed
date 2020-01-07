@@ -15687,6 +15687,9 @@ const
 mozilla
 :
 :
+net
+:
+:
 nsCookieKey
 &
 aKey

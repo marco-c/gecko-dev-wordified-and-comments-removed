@@ -523,6 +523,9 @@ ReadSegments
 CallPeekFunc
 &
 data
+net
+:
+:
 nsIOService
 :
 :

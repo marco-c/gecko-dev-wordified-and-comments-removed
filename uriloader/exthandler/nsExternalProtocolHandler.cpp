@@ -1483,6 +1483,12 @@ nsExtProtocolChannel
 :
 SetParentListener
 (
+mozilla
+:
+:
+net
+:
+:
 HttpChannelParentListener
 *
 aListener

@@ -197,6 +197,10 @@ LogLevel
 Debug
 )
 }
+using
+namespace
+net
+;
 namespace
 dom
 {
