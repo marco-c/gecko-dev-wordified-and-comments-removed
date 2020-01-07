@@ -287,6 +287,12 @@ using
 mozilla
 :
 :
+NumberEqualsInt32
+;
+using
+mozilla
+:
+:
 NumberIsInt32
 ;
 using
@@ -20965,7 +20971,7 @@ i
 if
 (
 !
-NumberIsInt32
+NumberEqualsInt32
 (
 caseValue
 -

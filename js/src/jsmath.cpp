@@ -4083,7 +4083,7 @@ ignored
 ;
 if
 (
-NumberIsInt32
+NumberEqualsInt32
 (
 x
 &
@@ -4173,7 +4173,7 @@ ignored
 ;
 if
 (
-NumberIsInt32
+NumberEqualsInt32
 (
 x
 &
