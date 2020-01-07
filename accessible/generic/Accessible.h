@@ -2374,13 +2374,7 @@ IsDefunct
 (
 )
 const
-{
-return
-mStateFlags
-&
-eIsDefunct
 ;
-}
 bool
 IsInDocument
 (
