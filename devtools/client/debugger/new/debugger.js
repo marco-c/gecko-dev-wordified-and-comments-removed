@@ -166745,7 +166745,6 @@ obj
 function
 willNavigate
 (
-_
 event
 )
 {
