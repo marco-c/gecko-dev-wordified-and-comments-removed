@@ -808,6 +808,12 @@ nsINode
 aNode
 )
 ;
+Element
+*
+GetActiveEditingHost
+(
+)
+;
 protected
 :
 virtual
