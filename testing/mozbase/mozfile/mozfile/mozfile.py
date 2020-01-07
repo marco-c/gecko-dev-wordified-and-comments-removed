@@ -1466,6 +1466,7 @@ unicode_delimeters
 vertical_line
 '
 :
+u
 '
 '
     
@@ -1473,6 +1474,7 @@ vertical_line
 item_marker
 '
 :
+u
 '
 '
     
@@ -1480,6 +1482,7 @@ item_marker
 last_child
 '
 :
+u
 '
 '
 }
