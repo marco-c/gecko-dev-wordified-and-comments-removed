@@ -7344,10 +7344,7 @@ AS
 -
 o
 (
-DEFINES
-)
-(
-ASFLAGS
+SFLAGS
 )
 (
 (
@@ -7355,9 +7352,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-LOCAL_INCLUDES
 )
 -
 c

@@ -421,6 +421,14 @@ dict
         
 self
 .
+_compile_as_flags
+=
+dict
+(
+)
+        
+self
+.
 _linkage
 =
 [
@@ -1390,6 +1398,33 @@ LIBRARY_DEFINES
 '
 lib_defines
 )
+                
+objdir_flags
+=
+self
+.
+_compile_as_flags
+.
+get
+(
+lib
+.
+objdir
+)
+                
+if
+objdir_flags
+:
+                    
+objdir_flags
+.
+resolve_flags
+(
+'
+LIBRARY_DEFINES
+'
+lib_defines
+)
         
 for
 flags_obj
@@ -1397,6 +1432,21 @@ in
 self
 .
 _compile_flags
+.
+values
+(
+)
+:
+            
+yield
+flags_obj
+        
+for
+flags_obj
+in
+self
+.
+_compile_as_flags
 .
 values
 (
@@ -6804,7 +6854,10 @@ in
 DEFINES
 '
 Defines
+(
 computed_flags
+computed_as_flags
+)
 )
                                                 
 (
@@ -6812,7 +6865,9 @@ computed_flags
 HOST_DEFINES
 '
 HostDefines
+(
 computed_host_flags
+)
 )
 )
 :
@@ -6878,7 +6933,13 @@ if
 defines_from_obj
 :
                 
+for
+flags
+in
 backend_flags
+:
+                    
+flags
 .
 resolve_flags
 (
@@ -7077,6 +7138,29 @@ yield
 include_obj
         
 computed_flags
+.
+resolve_flags
+(
+'
+LOCAL_INCLUDES
+'
+[
+'
+-
+I
+%
+s
+'
+%
+p
+for
+p
+in
+local_includes
+]
+)
+        
+computed_as_flags
 .
 resolve_flags
 (
@@ -8281,7 +8365,15 @@ self
 _asm_compile_dirs
 :
             
-yield
+self
+.
+_compile_as_flags
+[
+context
+.
+objdir
+]
+=
 computed_as_flags
         
 if
