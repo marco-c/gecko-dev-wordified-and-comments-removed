@@ -202,6 +202,10 @@ sBlockMixedScript
 ;
 static
 bool
+sBlockMixedObjectSubrequest
+;
+static
+bool
 sBlockMixedDisplay
 ;
 static
