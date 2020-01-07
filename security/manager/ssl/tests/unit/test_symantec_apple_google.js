@@ -148,7 +148,7 @@ com
 "
 PRErrorCodeSuccess
 null
-shouldNotBeImminentlyDistrusted
+shouldBeImminentlyDistrusted
 )
 ;
 add_connection_test
