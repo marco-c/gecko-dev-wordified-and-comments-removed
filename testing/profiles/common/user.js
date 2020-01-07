@@ -106,9 +106,11 @@ browser
 .
 search
 .
-geoSpecificDefaults
+region
 "
-false
+"
+US
+"
 )
 ;
 user_pref
@@ -118,9 +120,9 @@ browser
 .
 search
 .
-isUS
+geoSpecificDefaults
 "
-true
+false
 )
 ;
 user_pref
