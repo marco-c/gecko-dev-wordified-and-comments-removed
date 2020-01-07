@@ -19,7 +19,6 @@ response
 header
 based
 on
-if
 which
 client
 hint
@@ -79,9 +78,18 @@ memory
 -
 received
 "
+request
+.
+headers
+.
+get
+(
 "
-true
+device
+-
+memory
 "
+)
 )
     
 if
@@ -105,9 +113,16 @@ dpr
 -
 received
 "
+request
+.
+headers
+.
+get
+(
 "
-true
+dpr
 "
+)
 )
     
 if
@@ -135,9 +150,18 @@ width
 -
 received
 "
+request
+.
+headers
+.
+get
+(
 "
-true
+viewport
+-
+width
 "
+)
 )
     
 if
@@ -161,9 +185,16 @@ rtt
 -
 received
 "
+request
+.
+headers
+.
+get
+(
 "
-true
+rtt
 "
+)
 )
     
 if
@@ -187,9 +218,16 @@ downlink
 -
 received
 "
+request
+.
+headers
+.
+get
+(
 "
-true
+downlink
 "
+)
 )
     
 if
@@ -213,7 +251,14 @@ ect
 -
 received
 "
+request
+.
+headers
+.
+get
+(
 "
-true
+ect
 "
+)
 )
