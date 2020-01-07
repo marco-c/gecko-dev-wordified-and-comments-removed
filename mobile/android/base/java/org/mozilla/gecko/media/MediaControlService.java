@@ -2100,7 +2100,7 @@ R
 .
 drawable
 .
-flat_icon
+ic_status_logo
 )
 .
 setLargeIcon
