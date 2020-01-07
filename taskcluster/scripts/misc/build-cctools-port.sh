@@ -209,14 +209,8 @@ clang
 export
 LDFLAGS
 =
-/
-lib64
-/
-libpthread
-.
-so
-.
-0
+-
+lpthread
 .
 /
 autogen
