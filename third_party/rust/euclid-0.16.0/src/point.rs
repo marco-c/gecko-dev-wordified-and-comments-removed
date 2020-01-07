@@ -69,13 +69,13 @@ ops
 :
 {
 Add
-AddAssign
-Div
-DivAssign
 Mul
-MulAssign
 Sub
+Div
+AddAssign
 SubAssign
+MulAssign
+DivAssign
 }
 ;
 use
@@ -4881,8 +4881,8 @@ super
 :
 :
 {
-Point2D
 TypedPoint2D
+Point2D
 point2
 }
 ;

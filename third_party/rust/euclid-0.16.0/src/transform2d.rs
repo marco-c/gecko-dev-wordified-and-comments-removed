@@ -152,7 +152,7 @@ example
 TypedTransform2D
 <
 f32
-WorldSpace
+WordSpace
 ScreenSpace
 >
 :
@@ -166,7 +166,7 @@ a
 TypedPoint2D
 <
 f32
-WorldSpace
+WordSpace
 >
 and
 returns
@@ -2241,6 +2241,11 @@ Neg
 <
 Output
 =
+T
+>
++
+ApproxEq
+<
 T
 >
 +
