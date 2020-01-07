@@ -1567,14 +1567,6 @@ kAnimTypeTable
 eCSSProperty_COUNT_no_shorthands
 ]
 ;
-static
-const
-ptrdiff_t
-kStyleStructOffsetTable
-[
-eCSSProperty_COUNT_no_shorthands
-]
-;
 private
 :
 static
