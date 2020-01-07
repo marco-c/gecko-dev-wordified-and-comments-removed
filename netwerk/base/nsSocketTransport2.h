@@ -1125,13 +1125,6 @@ Relaxed
 >
 mSelfAddrIsSet
 ;
-Atomic
-<
-bool
-Relaxed
->
-mNetAddrPreResolved
-;
 nsAutoPtr
 <
 NetAddr
