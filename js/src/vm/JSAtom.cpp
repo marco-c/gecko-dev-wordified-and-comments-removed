@@ -4316,6 +4316,9 @@ if
 chars
 )
 return
+xdr
+-
+>
 fail
 (
 JS
@@ -4325,7 +4328,7 @@ TranscodeResult_Throw
 )
 ;
 }
-MOZ_ALWAYS_TRUE
+MOZ_TRY
 (
 xdr
 -
