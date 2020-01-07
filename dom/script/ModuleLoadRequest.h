@@ -121,6 +121,16 @@ const
 SRIMetadata
 &
 aIntegrity
+nsIURI
+*
+aReferrer
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
 ScriptLoader
 *
 aLoader
