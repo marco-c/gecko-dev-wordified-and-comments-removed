@@ -3649,10 +3649,10 @@ offset
 if
 (
 !
-mPacketizer
+mPacketizerInput
 |
 |
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
@@ -3665,7 +3665,7 @@ aRate
 100u
 |
 |
-mPacketizer
+mPacketizerInput
 -
 >
 Channels
@@ -3676,7 +3676,7 @@ Channels
 aChannels
 )
 {
-mPacketizer
+mPacketizerInput
 =
 new
 AudioPacketizer
@@ -4076,7 +4076,7 @@ return
 ;
 }
 }
-mPacketizer
+mPacketizerInput
 -
 >
 Input
@@ -4093,7 +4093,7 @@ aFrames
 ;
 while
 (
-mPacketizer
+mPacketizerInput
 -
 >
 PacketsAvailable
@@ -4104,14 +4104,14 @@ PacketsAvailable
 uint32_t
 samplesPerPacket
 =
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
 (
 )
 *
-mPacketizer
+mPacketizerInput
 -
 >
 Channels
@@ -4166,7 +4166,7 @@ Data
 (
 )
 ;
-mPacketizer
+mPacketizerInput
 -
 >
 Output
@@ -4229,7 +4229,7 @@ offset
 offset
 +
 =
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
@@ -4240,7 +4240,7 @@ PacketSize
 Deinterleave
 (
 packet
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
@@ -4286,7 +4286,7 @@ SharedBuffer
 :
 Create
 (
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
@@ -4404,7 +4404,7 @@ offset
 offset
 +
 =
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
@@ -4508,7 +4508,7 @@ forget
 (
 )
 processedOutputChannelPointersConst
-mPacketizer
+mPacketizerInput
 -
 >
 PacketSize
