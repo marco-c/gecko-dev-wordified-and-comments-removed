@@ -153,6 +153,17 @@ test
 /
 mochitest
 /
+formautofill
+/
+mochitest
+.
+ini
+'
+'
+test
+/
+mochitest
+/
 mochitest
 .
 ini
