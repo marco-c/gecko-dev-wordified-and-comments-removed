@@ -632,6 +632,15 @@ CPU_ARCH
 "
 x86
 "
+-
+a
+"
+OS_ARCH
+"
+=
+"
+Linux
+"
 ;
 then
 ac_cv_needs_atomic
