@@ -697,14 +697,6 @@ log_name
 "
 single_locale
 "
-                
-"
-hashType
-"
-:
-"
-sha512
-"
             
 }
         
