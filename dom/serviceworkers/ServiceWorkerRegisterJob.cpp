@@ -171,15 +171,6 @@ ClearPendingUninstall
 swm
 -
 >
-StoreRegistration
-(
-mPrincipal
-registration
-)
-;
-swm
--
->
 CheckPendingReadyPromises
 (
 )
