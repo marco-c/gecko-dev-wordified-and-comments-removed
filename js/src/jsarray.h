@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_Array_h
+jsarray_h
 #
 define
-builtin_Array_h
+jsarray_h
 #
 include
 "

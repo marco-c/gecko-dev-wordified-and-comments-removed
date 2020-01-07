@@ -396,11 +396,7 @@ h
 #
 include
 "
-builtin
-/
-Boolean
--
-inl
+jsboolinlines
 .
 h
 "

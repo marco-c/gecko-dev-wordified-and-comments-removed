@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_Boolean_h
+jsbool_h
 #
 define
-builtin_Boolean_h
+jsbool_h
 #
 include
 "

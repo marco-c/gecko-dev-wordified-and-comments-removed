@@ -1,11 +1,7 @@
 #
 include
 "
-builtin
-/
-Array
--
-inl
+jsarrayinlines
 .
 h
 "
