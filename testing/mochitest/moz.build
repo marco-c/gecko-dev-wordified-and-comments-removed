@@ -174,16 +174,6 @@ chrome
 ini
 '
 ]
-GENERATED_FILES
-+
-=
-[
-'
-automation
-.
-py
-'
-]
 TEST_HARNESS_FILES
 .
 testing
@@ -194,6 +184,9 @@ mochitest
 [
 '
 !
+/
+build
+/
 automation
 .
 py
