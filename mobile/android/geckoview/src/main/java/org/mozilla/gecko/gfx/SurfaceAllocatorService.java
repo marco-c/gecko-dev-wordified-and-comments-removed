@@ -50,6 +50,7 @@ util
 Log
 ;
 public
+final
 class
 SurfaceAllocatorService
 extends

@@ -90,6 +90,7 @@ util
 ArrayList
 ;
 public
+final
 class
 NativePanZoomController
 extends

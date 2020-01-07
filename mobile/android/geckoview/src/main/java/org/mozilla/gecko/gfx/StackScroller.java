@@ -54,7 +54,7 @@ exceptionMode
 nsresult
 "
 )
-public
+final
 class
 StackScroller
 {

@@ -47,6 +47,7 @@ util
 List
 ;
 public
+final
 class
 PanningPerfAPI
 {

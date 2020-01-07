@@ -78,7 +78,6 @@ gecko
 .
 GeckoAppShell
 ;
-public
 final
 class
 VsyncSource
