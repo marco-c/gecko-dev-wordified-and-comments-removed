@@ -359,7 +359,7 @@ void
 ptr
 ;
 return
-moz_posix_memalign
+posix_memalign
 (
 &
 ptr
