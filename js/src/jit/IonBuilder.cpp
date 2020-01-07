@@ -71626,11 +71626,11 @@ while
 false
 )
 ;
-MCallInstanceOf
+MInstanceOfCache
 *
 ins
 =
-MCallInstanceOf
+MInstanceOfCache
 :
 :
 New

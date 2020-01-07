@@ -8339,8 +8339,8 @@ IRGenerator
 HandleValue
 lhsVal_
 ;
-HandleValue
-rhsVal_
+HandleObject
+rhsObj_
 ;
 void
 trackAttached
@@ -8370,7 +8370,7 @@ ICState
 :
 Mode
 HandleValue
-HandleValue
+HandleObject
 )
 ;
 bool

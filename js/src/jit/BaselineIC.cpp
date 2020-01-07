@@ -22940,7 +22940,7 @@ ICInstanceOf_Fallback
 stub
 HandleValue
 lhs
-HandleValue
+HandleObject
 rhs
 bool
 *
@@ -23284,7 +23284,7 @@ cx
 frame
 stub
 lhs
-rhs
+obj
 &
 attached
 )
