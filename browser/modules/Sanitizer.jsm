@@ -4520,7 +4520,7 @@ principal
 )
 ;
 }
-return
+await
 maybeSanitizeSessionPrincipals
 (
 principals
