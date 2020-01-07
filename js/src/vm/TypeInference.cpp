@@ -23810,17 +23810,6 @@ get
 inUnsafeCallWithABI
 )
 ;
-MOZ_ASSERT
-(
-!
-zone
--
->
-types
-.
-assertNoTISweeping
-)
-;
 zone
 -
 >
