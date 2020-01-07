@@ -136,12 +136,3 @@ common
 build
 '
 )
-CXXFLAGS
-+
-=
-CONFIG
-[
-'
-MOZ_BZ2_CFLAGS
-'
-]

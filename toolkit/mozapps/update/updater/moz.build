@@ -148,15 +148,6 @@ updater
 xpcshell
 '
 ]
-CXXFLAGS
-+
-=
-CONFIG
-[
-'
-MOZ_BZ2_CFLAGS
-'
-]
 if
 CONFIG
 [
