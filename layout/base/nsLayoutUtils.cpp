@@ -13248,16 +13248,6 @@ STOP_AT_STACKING_CONTEXT_AND_DISPLAY_PORT
 parent
 -
 >
-HasAnyStateBits
-(
-NS_FRAME_OUT_OF_FLOW
-)
-&
-&
-!
-parent
--
->
 IsStackingContext
 (
 )
