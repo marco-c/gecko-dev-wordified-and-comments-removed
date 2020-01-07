@@ -64,9 +64,6 @@ google
 .
 com
 "
-loadInSidebar
-:
-true
 tags
 :
 [
@@ -361,9 +358,6 @@ google
 .
 com
 "
-loadInSidebar
-:
-true
 tags
 :
 [

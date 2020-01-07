@@ -1414,9 +1414,6 @@ keyword
 "
 location
 "
-"
-loadInSidebar
-"
 ]
 uri
 :

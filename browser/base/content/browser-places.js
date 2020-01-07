@@ -1499,9 +1499,6 @@ hiddenRows
 location
 "
 "
-loadInSidebar
-"
-"
 keyword
 "
 ]
@@ -2596,9 +2593,6 @@ hiddenRows
 [
 "
 location
-"
-"
-loadInSidebar
 "
 "
 keyword

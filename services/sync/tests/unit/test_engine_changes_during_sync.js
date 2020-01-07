@@ -2523,12 +2523,6 @@ awesome
 ;
 remoteFxBmk
 .
-loadInSidebar
-=
-false
-;
-remoteFxBmk
-.
 parentName
 =
 "
