@@ -139,7 +139,7 @@ generateOffer
 generateAnswer
 /
 /
-assert_session_desc_equals
+assert_session_desc_similar
 /
 /
 test_state_change_event
@@ -617,7 +617,7 @@ pranswer
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -625,7 +625,7 @@ remoteDescription
 offer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -641,7 +641,7 @@ currentRemoteDescription
 null
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -649,7 +649,7 @@ localDescription
 pranswer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -971,7 +971,7 @@ stable
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -979,7 +979,7 @@ localDescription
 answer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -987,7 +987,7 @@ remoteDescription
 offer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -995,7 +995,7 @@ currentLocalDescription
 answer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .

@@ -372,7 +372,7 @@ sdp
 }
 }
 function
-assert_session_desc_equals
+assert_session_desc_similar
 (
 sessionDesc1
 sessionDesc2
@@ -403,7 +403,7 @@ lines
 ;
 }
 function
-assert_session_desc_not_equals
+assert_session_desc_not_similar
 (
 sessionDesc1
 sessionDesc2

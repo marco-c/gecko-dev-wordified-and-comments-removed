@@ -134,7 +134,7 @@ js
 :
 /
 /
-assert_session_desc_equals
+assert_session_desc_similar
 (
 )
 /
@@ -399,7 +399,7 @@ offer
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc2
 .
@@ -407,7 +407,7 @@ remoteDescription
 offer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc2
 .
@@ -554,7 +554,7 @@ offer
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc2
 .
@@ -562,7 +562,7 @@ remoteDescription
 offer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc2
 .
@@ -698,7 +698,7 @@ offer2
 =
 >
 {
-assert_session_desc_not_equals
+assert_session_desc_not_similar
 (
 offer1
 offer2
@@ -747,7 +747,7 @@ offer
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc2
 .
@@ -755,7 +755,7 @@ remoteDescription
 offer2
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc2
 .

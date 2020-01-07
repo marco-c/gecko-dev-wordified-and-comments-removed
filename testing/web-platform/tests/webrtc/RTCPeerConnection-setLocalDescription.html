@@ -135,10 +135,10 @@ js
 generateOffer
 /
 /
-assert_session_desc_not_equals
+assert_session_desc_not_similar
 /
 /
-assert_session_desc_equals
+assert_session_desc_similar
 /
 /
 test_state_change_event
@@ -399,13 +399,13 @@ offer
 '
 )
 ;
-assert_session_desc_not_equals
+assert_session_desc_not_similar
 (
 offer1
 offer2
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -413,7 +413,7 @@ localDescription
 offer2
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -421,7 +421,7 @@ currentLocalDescription
 offer1
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -600,7 +600,7 @@ offer
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -608,7 +608,7 @@ localDescription
 offer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -616,7 +616,7 @@ currentLocalDescription
 answer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .

@@ -157,7 +157,7 @@ test_state_change_event
 )
 /
 /
-assert_session_desc_equals
+assert_session_desc_similar
 (
 )
 /
@@ -372,7 +372,7 @@ offer
 '
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
@@ -380,7 +380,7 @@ localDescription
 offer
 )
 ;
-assert_session_desc_equals
+assert_session_desc_similar
 (
 pc
 .
