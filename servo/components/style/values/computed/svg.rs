@@ -67,6 +67,16 @@ specified
 SVGPaintOrder
 ;
 pub
+use
+values
+:
+:
+specified
+:
+:
+MozContextProperties
+;
+pub
 type
 SVGPaint
 =
