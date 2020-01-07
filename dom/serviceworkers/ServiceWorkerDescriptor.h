@@ -4,6 +4,9 @@ _mozilla_dom_ServiceWorkerDescriptor_h
 #
 define
 _mozilla_dom_ServiceWorkerDescriptor_h
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -40,6 +43,17 @@ public
 :
 ServiceWorkerDescriptor
 (
+uint64_t
+aId
+nsIPrincipal
+*
+aPrincipal
+const
+nsACString
+&
+aScope
+ServiceWorkerState
+aState
 )
 ;
 ServiceWorkerDescriptor
