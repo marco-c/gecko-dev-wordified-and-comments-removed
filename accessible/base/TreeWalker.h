@@ -69,6 +69,9 @@ eWalkContextTree
 2
 |
 eWalkCache
+eScoped
+=
+4
 }
 ;
 explicit
