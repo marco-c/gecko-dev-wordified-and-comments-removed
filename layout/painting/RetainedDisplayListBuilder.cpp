@@ -1682,9 +1682,8 @@ GetPerFrameKey
 )
 )
 {
-*
-aOutIndex
-=
+if
+(
 i
 -
 >
@@ -1692,11 +1691,14 @@ GetOldListIndex
 (
 mOldList
 mOuterKey
+aOutIndex
 )
-;
+)
+{
 return
 true
 ;
+}
 }
 }
 return
