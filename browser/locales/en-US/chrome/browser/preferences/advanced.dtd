@@ -577,10 +577,12 @@ Network
 <
 !
 ENTITY
-siteData
+siteData1
 .
 label
 "
+Cookies
+and
 Site
 Data
 "
