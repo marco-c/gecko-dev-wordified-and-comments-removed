@@ -1253,9 +1253,7 @@ inputField
 &
 inputField
 instanceof
-Ci
-.
-nsIDOMHTMLInputElement
+HTMLInputElement
 true
 testprefix
 +
