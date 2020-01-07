@@ -716,7 +716,7 @@ codeFunction
 (
 MutableHandleFunction
 funp
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {

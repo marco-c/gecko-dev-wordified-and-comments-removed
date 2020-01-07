@@ -2399,7 +2399,7 @@ sourceObject
 sourceObjects
 )
 {
-RootedScriptSource
+RootedScriptSourceObject
 sso
 (
 cx

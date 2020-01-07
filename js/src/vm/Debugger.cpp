@@ -27953,7 +27953,7 @@ HandleScript
 script
 )
 {
-RootedScriptSource
+RootedScriptSourceObject
 source
 (
 cx_
@@ -35254,7 +35254,7 @@ void
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 source
 )
 {
@@ -35564,7 +35564,7 @@ wrapSource
 JSContext
 *
 cx
-HandleScriptSource
+HandleScriptSourceObject
 source
 )
 {
@@ -35995,7 +35995,7 @@ return
 false
 ;
 \
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
@@ -36044,7 +36044,7 @@ JSString
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -36602,7 +36602,7 @@ JSString
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -36882,7 +36882,7 @@ char16_t
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -37057,7 +37057,7 @@ JSObject
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -37199,7 +37199,7 @@ Value
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -37351,7 +37351,7 @@ bool
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -37537,7 +37537,7 @@ Value
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -37671,7 +37671,7 @@ char
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {
@@ -38005,7 +38005,7 @@ bool
 ReturnType
 match
 (
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 )
 {

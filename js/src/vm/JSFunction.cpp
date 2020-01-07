@@ -2597,7 +2597,7 @@ mode
 xdr
 HandleScope
 enclosingScope
-HandleScriptSource
+HandleScriptSourceObject
 sourceObject
 MutableHandleFunction
 objp
@@ -3315,7 +3315,7 @@ XDR_ENCODE
 >
 *
 HandleScope
-HandleScriptSource
+HandleScriptSourceObject
 MutableHandleFunction
 )
 ;
@@ -3332,7 +3332,7 @@ XDR_DECODE
 >
 *
 HandleScope
-HandleScriptSource
+HandleScriptSourceObject
 MutableHandleFunction
 )
 ;
@@ -4214,7 +4214,7 @@ options
 return
 nullptr
 ;
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
@@ -8216,7 +8216,7 @@ hasEncoder
 )
 )
 {
-RootedScriptSource
+RootedScriptSourceObject
 sourceObject
 (
 cx
