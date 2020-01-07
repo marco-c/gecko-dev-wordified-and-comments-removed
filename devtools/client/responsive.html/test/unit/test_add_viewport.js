@@ -27,8 +27,8 @@ viewports
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -38,8 +38,8 @@ NEW_PIXEL_RATIO
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

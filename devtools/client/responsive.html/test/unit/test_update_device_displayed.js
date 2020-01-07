@@ -29,8 +29,8 @@ devices
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
