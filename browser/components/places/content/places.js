@@ -947,12 +947,6 @@ focus
 (
 )
 ;
-gSync
-.
-init
-(
-)
-;
 }
 QueryInterface
 :
