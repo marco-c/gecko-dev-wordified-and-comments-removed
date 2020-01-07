@@ -7510,7 +7510,7 @@ return
 aImage
 -
 >
-GetImageRequest
+ImageRequest
 (
 )
 ;

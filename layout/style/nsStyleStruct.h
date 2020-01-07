@@ -1221,7 +1221,7 @@ eStyleImageType_Image
 aOldImage
 -
 >
-GetImageRequest
+ImageRequest
 (
 )
 :
@@ -1250,7 +1250,7 @@ mType
 }
 nsStyleImageRequest
 *
-GetImageRequest
+ImageRequest
 (
 )
 const
@@ -1288,7 +1288,7 @@ GetImageData
 const
 {
 return
-GetImageRequest
+ImageRequest
 (
 )
 -
@@ -1338,7 +1338,7 @@ mType
 eStyleImageType_Image
 |
 |
-GetImageRequest
+ImageRequest
 (
 )
 -
@@ -10749,7 +10749,7 @@ mCounters
 }
 nsStyleImageRequest
 *
-GetImageRequest
+ImageRequest
 (
 )
 const
@@ -10760,6 +10760,13 @@ mType
 =
 =
 eStyleContentType_Image
+)
+;
+MOZ_ASSERT
+(
+mContent
+.
+mImage
 )
 ;
 return
@@ -10776,7 +10783,7 @@ GetImage
 const
 {
 return
-GetImageRequest
+ImageRequest
 (
 )
 -

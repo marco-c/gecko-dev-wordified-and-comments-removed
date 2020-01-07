@@ -16694,7 +16694,7 @@ eStyleImageType_Image
 shapeImage
 -
 >
-GetImageRequest
+ImageRequest
 (
 )
 -
