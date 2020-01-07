@@ -31623,7 +31623,7 @@ GetContainer
 )
 )
 ;
-IgnoredErrorResult
+ErrorResult
 error
 ;
 range
@@ -31635,18 +31635,6 @@ aPoint
 error
 )
 ;
-if
-(
-NS_WARN_IF
-(
-error
-.
-Failed
-(
-)
-)
-)
-{
 MOZ_ASSERT
 (
 !
@@ -31657,7 +31645,6 @@ Failed
 )
 )
 ;
-}
 PromoteRange
 (
 *

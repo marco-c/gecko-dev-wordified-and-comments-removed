@@ -1992,9 +1992,6 @@ FromContent
 aSourceNode
 )
 ;
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -2006,7 +2003,9 @@ xulEl
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 int32_t
@@ -3239,9 +3238,6 @@ if
 xulEl
 )
 {
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -3253,7 +3249,9 @@ xulEl
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 nsCOMPtr

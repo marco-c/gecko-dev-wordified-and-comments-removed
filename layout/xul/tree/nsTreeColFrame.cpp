@@ -754,9 +754,6 @@ if
 treeElement
 )
 {
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -768,7 +765,9 @@ treeElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 nsCOMPtr

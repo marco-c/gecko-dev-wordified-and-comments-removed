@@ -30307,9 +30307,6 @@ FromContent
 aContainer
 )
 ;
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -30321,7 +30318,9 @@ xulElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 nsCOMPtr

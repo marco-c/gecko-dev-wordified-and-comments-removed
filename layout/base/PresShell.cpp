@@ -37250,9 +37250,6 @@ if
 xulElement
 )
 {
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -37264,7 +37261,9 @@ xulElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 nsCOMPtr

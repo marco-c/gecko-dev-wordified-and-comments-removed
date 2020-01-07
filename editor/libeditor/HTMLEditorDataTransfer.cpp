@@ -9586,9 +9586,6 @@ if
 contextAsNode
 )
 {
-IgnoredErrorResult
-ignored
-;
 contextLeafAsContent
 -
 >
@@ -9596,7 +9593,9 @@ AppendChild
 (
 *
 fragment
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 fragment
