@@ -297,6 +297,7 @@ files
 )
         
 except
+BaseException
 :
             
 raise

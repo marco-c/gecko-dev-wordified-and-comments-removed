@@ -1388,6 +1388,7 @@ strerror
 )
         
 except
+Exception
 :
             
 log

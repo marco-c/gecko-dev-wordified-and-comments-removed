@@ -559,6 +559,7 @@ get_binary_path
 )
     
 except
+Exception
 :
         
 pass
@@ -614,6 +615,7 @@ app
 )
         
 except
+Exception
 :
             
 pass

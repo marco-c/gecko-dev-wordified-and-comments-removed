@@ -554,6 +554,7 @@ dest
 )
             
 except
+Exception
 :
                 
 exc
@@ -737,6 +738,7 @@ return
 install_dir
     
 except
+BaseException
 :
         
 cls
@@ -762,6 +764,7 @@ dest
 )
             
 except
+Exception
 :
                 
 try
@@ -775,6 +778,7 @@ dest
 )
                 
 except
+Exception
 :
                     
 pass

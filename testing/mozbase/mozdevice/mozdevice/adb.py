@@ -12879,6 +12879,7 @@ timeout
 )
         
 except
+BaseException
 :
             
 raise
@@ -13203,6 +13204,7 @@ timeout
 )
         
 except
+BaseException
 :
             
 raise

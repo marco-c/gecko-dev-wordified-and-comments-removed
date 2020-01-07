@@ -1077,6 +1077,7 @@ timeout
 )
         
 except
+Exception
 :
             
 return

@@ -846,6 +846,7 @@ exc_info
 )
             
 except
+Exception
 :
                 
 self
@@ -891,6 +892,7 @@ testMethod
 )
                         
 except
+Exception
 :
                             
 raise
@@ -1043,6 +1045,7 @@ e
 )
                 
 except
+Exception
 :
                     
 self
@@ -1094,6 +1097,7 @@ tearDown
 )
                         
 except
+Exception
 :
                             
 raise
@@ -1141,6 +1145,7 @@ exc_info
 )
                 
 except
+Exception
 :
                     
 self

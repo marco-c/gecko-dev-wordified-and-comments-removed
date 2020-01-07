@@ -434,6 +434,7 @@ co_filename
 )
         
 except
+Exception
 :
             
 test_name
@@ -2342,6 +2343,7 @@ co_filename
 )
         
 except
+Exception
 :
             
 test_name
@@ -3749,6 +3751,7 @@ location
 )
         
 except
+Exception
 :
             
 pass

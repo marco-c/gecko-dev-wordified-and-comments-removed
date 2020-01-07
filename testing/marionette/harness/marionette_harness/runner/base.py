@@ -6719,6 +6719,7 @@ exc_info
 )
         
 except
+Exception
 :
             
 self
@@ -6805,6 +6806,7 @@ suite_end
 )
         
 except
+Exception
 :
             
 if

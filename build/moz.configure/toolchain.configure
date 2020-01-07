@@ -3257,6 +3257,7 @@ COMPILER
 ]
 )
 except
+Exception
 :
 raise
 FatalCheckError

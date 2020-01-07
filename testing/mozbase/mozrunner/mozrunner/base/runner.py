@@ -1350,6 +1350,7 @@ crashed
 crash_count
         
 except
+Exception
 :
             
 traceback

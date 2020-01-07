@@ -379,6 +379,7 @@ e
 message
         
 except
+Exception
 :
             
 status
@@ -503,6 +504,7 @@ run
 )
     
 except
+Exception
 :
         
 logger

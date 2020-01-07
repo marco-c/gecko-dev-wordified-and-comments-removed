@@ -2599,6 +2599,7 @@ options
 )
     
 except
+Exception
 :
         
 log

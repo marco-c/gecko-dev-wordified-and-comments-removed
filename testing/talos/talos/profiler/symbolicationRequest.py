@@ -553,6 +553,7 @@ source
 continue
                 
 except
+Exception
 :
                     
 self

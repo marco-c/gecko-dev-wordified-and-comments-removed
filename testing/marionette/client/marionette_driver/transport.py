@@ -1176,6 +1176,7 @@ port
 )
         
 except
+Exception
 :
             
 self

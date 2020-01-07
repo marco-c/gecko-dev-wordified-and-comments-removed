@@ -265,6 +265,7 @@ results
 )
             
 except
+Exception
 :
                 
 pass
@@ -3087,6 +3088,7 @@ using_xperf
 True
         
 except
+Exception
 :
             
 pass

@@ -1087,6 +1087,7 @@ terminate
 )
             
 except
+Exception
 :
                 
 self
@@ -2075,6 +2076,7 @@ procd
 )
             
 except
+Exception
 :
                 
 continue
@@ -2847,6 +2849,7 @@ pid
 )
             
 except
+Exception
 :
                 
 print
@@ -3385,6 +3388,7 @@ options
 )
     
 except
+Exception
 :
         
 print

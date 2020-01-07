@@ -1318,6 +1318,7 @@ debugger_args
 )
             
 except
+Exception
 :
                 
 self

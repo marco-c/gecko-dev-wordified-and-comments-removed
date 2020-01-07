@@ -1542,6 +1542,7 @@ dump_dir
 )
             
 except
+Exception
 :
                 
 self
@@ -1787,6 +1788,7 @@ result
 1
     
 except
+Exception
 :
         
 traceback

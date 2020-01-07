@@ -3989,6 +3989,7 @@ md5
 )
         
 except
+Exception
 :
             
 return

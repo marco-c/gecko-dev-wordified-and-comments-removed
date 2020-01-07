@@ -16,6 +16,7 @@ try
 import
 hashlib
 except
+ImportError
 :
     
 hashlib

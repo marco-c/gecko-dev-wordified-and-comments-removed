@@ -6208,6 +6208,7 @@ nc
 )
                 
 except
+Exception
 :
                     
 f
@@ -6321,6 +6322,7 @@ ctime
 )
                 
 except
+Exception
 :
                     
 f
@@ -6350,6 +6352,7 @@ exc_info
 )
         
 except
+Exception
 :
             
 self

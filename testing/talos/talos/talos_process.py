@@ -1025,6 +1025,7 @@ wait
 )
         
 except
+Exception
 :
             
 LOG

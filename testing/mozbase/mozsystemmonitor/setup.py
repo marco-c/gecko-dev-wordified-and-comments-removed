@@ -59,6 +59,7 @@ read
 (
 )
 except
+Exception
 :
     
 description

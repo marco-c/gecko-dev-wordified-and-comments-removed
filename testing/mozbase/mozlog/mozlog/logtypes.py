@@ -705,6 +705,7 @@ value
 )
         
 except
+Exception
 :
             
 raise

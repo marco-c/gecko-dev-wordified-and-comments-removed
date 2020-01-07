@@ -1926,6 +1926,7 @@ error
 )
             
 except
+Exception
 :
                 
 self
@@ -2144,6 +2145,7 @@ remoteDir
 )
             
 except
+BaseException
 :
                 
 raise
@@ -3470,6 +3472,7 @@ short_timeout
 )
             
 except
+Exception
 :
                 
 self
@@ -4468,6 +4471,7 @@ return
 root
                 
 except
+Exception
 :
                     
 pass
@@ -7112,6 +7116,7 @@ wait
 )
         
 except
+Exception
 :
             
 return

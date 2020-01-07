@@ -1983,6 +1983,7 @@ _run_profile
 )
         
 except
+BaseException
 :
             
 self

@@ -503,6 +503,7 @@ return
 path
         
 except
+Exception
 :
             
 pass

@@ -679,6 +679,7 @@ message
 )
             
 except
+Exception
 :
                 
 logger

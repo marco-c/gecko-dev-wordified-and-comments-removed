@@ -120,6 +120,7 @@ readlines
 )
     
 except
+Exception
 :
         
 print

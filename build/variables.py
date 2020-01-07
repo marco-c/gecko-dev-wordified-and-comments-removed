@@ -156,6 +156,7 @@ stderr
 )
     
 except
+Exception
 :
         
 return

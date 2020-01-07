@@ -846,6 +846,7 @@ local_dict
 )
                 
 except
+Exception
 :
                     
 self

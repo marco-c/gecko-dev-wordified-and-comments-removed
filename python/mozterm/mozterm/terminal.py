@@ -89,6 +89,7 @@ fileno
 )
         
 except
+Exception
 :
             
 self

@@ -720,6 +720,7 @@ message
 )
         
 except
+Exception
 :
             
 logger

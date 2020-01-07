@@ -1661,6 +1661,7 @@ expression
 )
         
 except
+Exception
 :
             
 extype

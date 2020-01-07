@@ -1043,6 +1043,7 @@ expandedPath
 )
                 
 except
+Exception
 :
                     
 continue

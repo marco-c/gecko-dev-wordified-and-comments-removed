@@ -88,6 +88,7 @@ NS_XRE_ENABLE_PROFILE_MIGRATOR
 )
     
 except
+Exception
 :
         
 pass
@@ -123,6 +124,7 @@ NS_XRE_ENABLE_CRASH_REPORTER
 )
     
 except
+Exception
 :
         
 pass

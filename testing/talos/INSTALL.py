@@ -68,6 +68,7 @@ check_call
 as
 call
 except
+ImportError
 :
     
 from

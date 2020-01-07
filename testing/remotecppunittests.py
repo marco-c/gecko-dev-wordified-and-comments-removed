@@ -2068,6 +2068,7 @@ dm_args
 )
     
 except
+BaseException
 :
         
 if
