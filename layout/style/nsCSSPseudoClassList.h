@@ -493,15 +493,6 @@ scope
 "
 0
 "
-layout
-.
-css
-.
-scope
--
-pseudo
-.
-enabled
 "
 )
 CSS_PSEUDO_CLASS
