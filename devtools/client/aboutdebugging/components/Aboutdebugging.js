@@ -392,6 +392,13 @@ DebuggerClient
 )
 .
 isRequired
+connect
+:
+PropTypes
+.
+object
+.
+isRequired
 telemetry
 :
 PropTypes
@@ -581,6 +588,7 @@ render
 let
 {
 client
+connect
 }
 =
 this
@@ -637,6 +645,7 @@ component
 (
 {
 client
+connect
 id
 :
 selectedPanel

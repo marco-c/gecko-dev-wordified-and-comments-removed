@@ -194,6 +194,11 @@ DebuggerClient
 )
 .
 isRequired
+connect
+:
+PropTypes
+.
+object
 id
 :
 PropTypes
@@ -485,6 +490,7 @@ render
 let
 {
 client
+connect
 id
 }
 =
@@ -571,6 +577,7 @@ TargetList
 (
 {
 client
+connect
 id
 :
 "
