@@ -61,3 +61,6 @@ patch
 mingw_cast_getprocaddress
 .
 patch
+mingw_capitalization
+.
+patch

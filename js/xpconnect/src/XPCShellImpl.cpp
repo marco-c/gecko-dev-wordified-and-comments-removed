@@ -267,7 +267,7 @@ MOZ_SANDBOX
 #
 include
 "
-SandboxBroker
+sandboxBroker
 .
 h
 "
