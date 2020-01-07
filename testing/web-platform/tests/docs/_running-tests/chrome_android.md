@@ -5,7 +5,7 @@ on
 Chrome
 on
 an
-android
+Android
 device
 some
 additional
@@ -47,7 +47,7 @@ need
 to
 root
 the
-android
+Android
 device
 and
 update
