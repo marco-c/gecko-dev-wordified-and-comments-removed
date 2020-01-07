@@ -82,10 +82,13 @@ final
 :
 public
 nsThread
+public
+nsIObserver
 {
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIOBSERVER
 static
 already_AddRefed
 <
@@ -270,6 +273,9 @@ mCreationTimeStamp
 JSContext
 *
 mJSContext
+;
+bool
+mIsTerminating
 ;
 }
 ;
