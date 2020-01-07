@@ -86,8 +86,6 @@ ConfigFileSubstitution
     
 ContextDerived
     
-ContextWrapped
-    
 Defines
     
 DirectoryTraversal
@@ -117,8 +115,6 @@ HostSources
 InstallationTarget
     
 JARManifest
-    
-JavaJarData
     
 Library
     
@@ -4183,40 +4179,6 @@ _process_installation_target
 obj
 backend_file
 )
-        
-elif
-isinstance
-(
-obj
-ContextWrapped
-)
-:
-            
-if
-isinstance
-(
-obj
-.
-wrapped
-JavaJarData
-)
-:
-                
-self
-.
-_process_java_jar_data
-(
-obj
-.
-wrapped
-backend_file
-)
-            
-else
-:
-                
-return
-False
         
 elif
 isinstance

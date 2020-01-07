@@ -65,8 +65,6 @@ ComputedFlags
     
 ConfigFileSubstitution
     
-ContextWrapped
-    
 Defines
     
 DirectoryTraversal
@@ -8759,33 +8757,6 @@ context
             
 yield
 obj
-        
-for
-name
-jar
-in
-context
-.
-get
-(
-'
-JAVA_JAR_TARGETS
-'
-{
-}
-)
-.
-items
-(
-)
-:
-            
-yield
-ContextWrapped
-(
-context
-jar
-)
         
 computed_as_flags
 .
