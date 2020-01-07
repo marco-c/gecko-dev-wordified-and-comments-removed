@@ -134,9 +134,9 @@ webidl
 .
 yml
 -
-manifest
+wpt
 -
-upload
+manifest
 .
 yml
 #
