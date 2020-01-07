@@ -3,7 +3,7 @@ include
 "
 builtin
 /
-DataViewObject
+DataView
 .
 h
 "

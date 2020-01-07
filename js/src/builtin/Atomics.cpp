@@ -3,7 +3,7 @@ include
 "
 builtin
 /
-AtomicsObject
+Atomics
 .
 h
 "

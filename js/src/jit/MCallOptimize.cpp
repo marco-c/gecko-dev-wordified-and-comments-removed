@@ -12,7 +12,7 @@ include
 "
 builtin
 /
-AtomicsObject
+Atomics
 .
 h
 "
@@ -76,7 +76,7 @@ include
 "
 builtin
 /
-MapObject
+Map
 .
 h
 "

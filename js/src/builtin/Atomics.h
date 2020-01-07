@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_AtomicsObject_h
+builtin_Atomics_h
 #
 define
-builtin_AtomicsObject_h
+builtin_Atomics_h
 #
 include
 "

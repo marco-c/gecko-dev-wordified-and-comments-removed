@@ -3,7 +3,7 @@ include
 "
 builtin
 /
-WeakMapObject
+WeakMap
 -
 inl
 .
@@ -21,7 +21,7 @@ include
 "
 builtin
 /
-WeakSetObject
+WeakSet
 .
 h
 "

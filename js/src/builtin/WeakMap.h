@@ -1,9 +1,9 @@
 #
 ifndef
-builtin_WeakMapObject_h
+builtin_WeakMap_h
 #
 define
-builtin_WeakMapObject_h
+builtin_WeakMap_h
 #
 include
 "

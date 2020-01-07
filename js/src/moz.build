@@ -1116,7 +1116,7 @@ UNIFIED_SOURCES
 '
 builtin
 /
-AtomicsObject
+Atomics
 .
 cpp
 '
@@ -1130,7 +1130,7 @@ cpp
 '
 builtin
 /
-DataViewObject
+DataView
 .
 cpp
 '
@@ -1180,7 +1180,7 @@ builtin
 /
 intl
 /
-IntlObject
+Intl
 .
 cpp
 '
@@ -1230,7 +1230,7 @@ cpp
 '
 builtin
 /
-MapObject
+Map
 .
 cpp
 '
@@ -1328,14 +1328,14 @@ cpp
 '
 builtin
 /
-WeakMapObject
+WeakMap
 .
 cpp
 '
 '
 builtin
 /
-WeakSetObject
+WeakSet
 .
 cpp
 '
@@ -6024,7 +6024,7 @@ builtin
 /
 intl
 /
-IntlObject
+Intl
 .
 js
 '

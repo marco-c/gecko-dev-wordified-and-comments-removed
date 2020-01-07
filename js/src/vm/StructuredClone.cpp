@@ -51,7 +51,7 @@ include
 "
 builtin
 /
-DataViewObject
+DataView
 .
 h
 "
@@ -69,7 +69,7 @@ include
 "
 builtin
 /
-MapObject
+Map
 .
 h
 "
