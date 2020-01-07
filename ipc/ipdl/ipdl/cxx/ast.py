@@ -2966,9 +2966,6 @@ inline
 force_inline
 =
 0
-never_inline
-=
-0
                  
 typeop
 =
@@ -3025,22 +3022,6 @@ isinstance
 (
 T
 int
-)
-        
-assert
-not
-(
-inline
-and
-never_inline
-)
-        
-assert
-not
-(
-force_inline
-and
-never_inline
 )
         
 if
@@ -3120,12 +3101,6 @@ self
 inline
 =
 inline
-        
-self
-.
-never_inline
-=
-never_inline
         
 self
 .
@@ -3214,12 +3189,6 @@ force_inline
 self
 .
 force_inline
-            
-never_inline
-=
-self
-.
-never_inline
             
 typeop
 =
