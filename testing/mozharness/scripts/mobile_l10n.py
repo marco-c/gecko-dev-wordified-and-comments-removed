@@ -796,7 +796,9 @@ query_env
 (
 partial_env
 =
-c
+self
+.
+config
 .
 get
 (
