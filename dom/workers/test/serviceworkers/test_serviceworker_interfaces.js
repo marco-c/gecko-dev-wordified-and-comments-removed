@@ -381,6 +381,9 @@ PerformanceObserver
 PerformanceObserverEntryList
 "
 "
+PerformanceResourceTiming
+"
+"
 ProgressEvent
 "
 "
