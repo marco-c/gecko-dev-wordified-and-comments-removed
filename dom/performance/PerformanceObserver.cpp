@@ -630,13 +630,6 @@ IsEmpty
 )
 )
 {
-aRv
-.
-Throw
-(
-NS_ERROR_DOM_TYPE_ERR
-)
-;
 return
 ;
 }
@@ -707,13 +700,6 @@ IsEmpty
 )
 )
 {
-aRv
-.
-Throw
-(
-NS_ERROR_DOM_TYPE_ERR
-)
-;
 return
 ;
 }
