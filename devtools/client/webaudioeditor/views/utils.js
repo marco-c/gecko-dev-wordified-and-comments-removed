@@ -16,9 +16,11 @@ el
 .
 classList
 )
+{
 return
 null
 ;
+}
 while
 (
 !
@@ -47,10 +49,11 @@ audionode
 "
 )
 )
+{
 return
 el
 ;
-else
+}
 el
 =
 el

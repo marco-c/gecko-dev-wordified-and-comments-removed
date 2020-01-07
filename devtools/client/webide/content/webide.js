@@ -1231,6 +1231,7 @@ mainWindow
 focus
 (
 )
+;
 }
 else
 {
@@ -2354,7 +2355,6 @@ true
 ;
 }
 else
-{
 if
 (
 AppManager
@@ -2398,7 +2398,6 @@ true
 "
 )
 ;
-}
 }
 }
 let
@@ -5210,8 +5209,6 @@ resolve
 )
 ;
 }
-else
-{
 return
 UI
 .
@@ -5219,7 +5216,6 @@ createToolbox
 (
 )
 ;
-}
 }
 removeProject
 :

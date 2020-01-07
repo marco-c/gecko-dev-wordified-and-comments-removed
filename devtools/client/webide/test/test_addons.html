@@ -312,6 +312,7 @@ item
 }
 }
 )
+;
 }
 )
 ;
@@ -360,12 +361,9 @@ click
 )
 ;
 }
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -385,7 +383,7 @@ installed
 let
 win
 =
-yield
+await
 openWebIDE
 (
 true
@@ -414,7 +412,7 @@ installed
 "
 )
 ;
-yield
+await
 nextTick
 (
 )
@@ -445,6 +443,7 @@ w
 )
 .
 display
+;
 is
 (
 display
@@ -460,7 +459,7 @@ hidden
 "
 )
 ;
-yield
+await
 uninstallADBFromUI
 (
 addonDoc
@@ -513,6 +512,7 @@ w
 )
 .
 display
+;
 is
 (
 display
@@ -528,7 +528,7 @@ present
 "
 )
 ;
-yield
+await
 closeWebIDE
 (
 win
@@ -542,8 +542,11 @@ finish
 ;
 }
 )
+(
+)
 ;
 }
+;
 <
 /
 script

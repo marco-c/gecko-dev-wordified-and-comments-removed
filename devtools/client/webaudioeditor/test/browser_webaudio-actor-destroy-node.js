@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 DESTROY_NODES_URL
@@ -22,7 +22,7 @@ let
 created
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -81,7 +81,7 @@ forceNodeCollection
 let
 destroyed
 =
-yield
+await
 waitUntilDestroyed
 ;
 destroyed
@@ -140,7 +140,7 @@ document
 }
 )
 ;
-yield
+await
 removeTab
 (
 target
@@ -191,12 +191,14 @@ actor
 .
 actorID
 )
+{
 return
 list
 [
 i
 ]
 ;
+}
 }
 return
 null

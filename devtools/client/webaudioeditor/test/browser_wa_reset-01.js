@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -142,7 +142,7 @@ reload
 target
 )
 ;
-yield
+await
 navigating
 ;
 is
@@ -232,7 +232,7 @@ hidden
 "
 )
 ;
-yield
+await
 started
 ;
 is
@@ -354,7 +354,7 @@ reload
 target
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -474,10 +474,10 @@ toolbox
 "
 )
 ;
-yield
+await
 rendered
 ;
-yield
+await
 teardown
 (
 target

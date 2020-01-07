@@ -71,6 +71,7 @@ webrtcUI
 .
 showGlobalIndicator
 )
+{
 return
 Promise
 .
@@ -78,6 +79,7 @@ resolve
 (
 )
 ;
+}
 return
 new
 Promise

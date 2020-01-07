@@ -174,12 +174,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +195,7 @@ registerAllActors
 let
 win
 =
-yield
+await
 openWebIDE
 (
 )
@@ -293,7 +290,7 @@ click
 (
 )
 ;
-yield
+await
 waitForUpdate
 (
 win
@@ -304,7 +301,7 @@ targets
 "
 )
 ;
-yield
+await
 connectionsChanged
 ;
 is
@@ -347,7 +344,7 @@ available
 Select
 main
 process
-yield
+await
 win
 .
 Cmds
@@ -356,7 +353,7 @@ showProjectPanel
 (
 )
 ;
-yield
+await
 waitForUpdate
 (
 win
@@ -404,7 +401,7 @@ click
 }
 )
 ;
-yield
+await
 waitForUpdate
 (
 win
@@ -457,18 +454,18 @@ closed
 2
 )
 ;
-yield
+await
 nextTick
 (
 )
 ;
-yield
+await
 closeWebIDE
 (
 win
 )
 ;
-yield
+await
 connectionsChanged
 ;
 is
@@ -512,7 +509,7 @@ after
 connection
 win
 =
-yield
+await
 openWebIDE
 (
 )
@@ -585,7 +582,7 @@ click
 (
 )
 ;
-yield
+await
 waitForUpdate
 (
 win
@@ -596,7 +593,7 @@ targets
 "
 )
 ;
-yield
+await
 connectionsChanged
 ;
 is
@@ -663,7 +660,7 @@ to
 be
 fully
 loaded
-yield
+await
 win
 .
 UI
@@ -757,7 +754,7 @@ project
 "
 )
 ;
-yield
+await
 win
 .
 Cmds
@@ -766,7 +763,7 @@ disconnectRuntime
 (
 )
 ;
-yield
+await
 closeWebIDE
 (
 win
@@ -786,8 +783,11 @@ finish
 ;
 }
 )
+(
+)
 ;
 }
+;
 <
 /
 script

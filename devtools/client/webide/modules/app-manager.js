@@ -1018,15 +1018,12 @@ _appsFront
 apps
 ;
 }
-else
-{
 return
 new
 Map
 (
 )
 ;
-}
 }
 isProjectRunning
 :
@@ -1532,8 +1529,6 @@ true
 )
 ;
 }
-else
-{
 return
 TargetFactory
 .
@@ -1561,7 +1556,6 @@ false
 }
 )
 ;
-}
 }
 if
 (
@@ -3174,8 +3168,6 @@ launch
 )
 ;
 }
-else
-{
 return
 app
 .
@@ -3183,7 +3175,6 @@ reload
 (
 )
 ;
-}
 }
 runtimeCanHandleApps
 :
@@ -3872,7 +3863,6 @@ DEFAULT_PROJECT_ICON
 ;
 }
 else
-{
 if
 (
 project
@@ -3990,7 +3980,6 @@ replace
 "
 )
 ;
-}
 }
 project
 .

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_NODES_URL
@@ -23,7 +23,7 @@ _
 nodes
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -147,7 +147,7 @@ type
 }
 )
 ;
-yield
+await
 removeTab
 (
 target

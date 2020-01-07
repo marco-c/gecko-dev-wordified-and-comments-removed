@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_NODES_URL
@@ -23,7 +23,7 @@ _
 nodes
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -52,7 +52,7 @@ node
 ]
 )
 ;
-yield
+await
 loadFrameScriptUtils
 (
 )
@@ -60,7 +60,7 @@ loadFrameScriptUtils
 let
 allNodeParams
 =
-yield
+await
 Promise
 .
 all
@@ -134,7 +134,7 @@ StereoPannerNode
 let
 defaults
 =
-yield
+await
 Promise
 .
 all
@@ -301,11 +301,8 @@ curve
 is
 (
 flags
-[
-"
+.
 Float32Array
-"
-]
 true
 "
 curve
@@ -323,7 +320,7 @@ flag
 }
 )
 ;
-yield
+await
 removeTab
 (
 target

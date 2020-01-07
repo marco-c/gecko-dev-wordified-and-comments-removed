@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_NODES_URL
@@ -23,7 +23,7 @@ _
 nodes
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -55,7 +55,7 @@ node
 let
 allNodeParams
 =
-yield
+await
 Promise
 .
 all
@@ -175,7 +175,7 @@ params
 let
 testFlags
 =
-yield
+await
 nodes
 [
 i
@@ -292,11 +292,8 @@ curve
 is
 (
 flags
-[
-"
+.
 Float32Array
-"
-]
 true
 "
 curve
@@ -310,7 +307,7 @@ flag
 }
 }
 }
-yield
+await
 removeTab
 (
 target

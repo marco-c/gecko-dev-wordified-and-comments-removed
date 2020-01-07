@@ -48,22 +48,6 @@ Services
 "
 )
 ;
-const
-{
-Task
-}
-=
-require
-(
-"
-devtools
-/
-shared
-/
-task
-"
-)
-;
 var
 strings
 =
@@ -774,12 +758,9 @@ manifestURL
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -790,7 +771,7 @@ try
 {
 result
 =
-yield
+await
 AppValidator
 .
 findManifestPath
@@ -806,7 +787,7 @@ e
 {
 result
 =
-yield
+await
 AppValidator
 .
 findManifestAtOrigin
@@ -819,6 +800,8 @@ return
 result
 ;
 }
+)
+(
 )
 ;
 }
@@ -972,6 +955,7 @@ if
 !
 manifestURL
 )
+{
 return
 Promise
 .
@@ -980,6 +964,7 @@ resolve
 null
 )
 ;
+}
 }
 else
 if
@@ -1585,6 +1570,7 @@ status
 =
 400
 )
+{
 this
 .
 error
@@ -1608,6 +1594,7 @@ status
 )
 )
 ;
+}
 resolve
 (
 )

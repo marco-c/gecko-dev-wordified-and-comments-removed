@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -11,7 +11,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 COMPLEX_CONTEXT_URL
@@ -81,7 +81,7 @@ let
 actors
 ]
 =
-yield
+await
 events
 ;
 let
@@ -314,7 +314,7 @@ msg
 }
 )
 ;
-yield
+await
 teardown
 (
 target

@@ -1475,8 +1475,10 @@ if
 !
 node
 )
+{
 return
 ;
+}
 let
 id
 =
