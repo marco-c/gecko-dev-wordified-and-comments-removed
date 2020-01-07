@@ -477,7 +477,7 @@ createFromForm
 (
 event
 .
-target
+originalTarget
 )
 ;
 InsecurePasswordUtils
@@ -517,7 +517,7 @@ createFromField
 (
 event
 .
-target
+originalTarget
 )
 ;
 InsecurePasswordUtils

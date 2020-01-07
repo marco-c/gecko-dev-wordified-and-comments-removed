@@ -2244,6 +2244,16 @@ recipient
 value
 }
 ;
+if
+(
+target
+.
+isDisconnected
+)
+{
+return
+;
+}
 target
 .
 sendAsyncMessage

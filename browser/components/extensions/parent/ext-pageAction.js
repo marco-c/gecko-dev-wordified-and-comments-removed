@@ -868,6 +868,17 @@ requestAnimationFrame
 =
 >
 {
+if
+(
+!
+this
+.
+browserPageAction
+)
+{
+return
+;
+}
 let
 title
 =
