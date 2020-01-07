@@ -525,9 +525,8 @@ compartment
 )
 =
 =
-GetCompartmentForRealm
+compartment
 (
-realm_
 )
 ;
 }
@@ -1093,6 +1092,8 @@ compartment
 const
 {
 return
+realm_
+?
 JS
 :
 :
@@ -1100,6 +1101,8 @@ GetCompartmentForRealm
 (
 realm_
 )
+:
+nullptr
 ;
 }
 JS
