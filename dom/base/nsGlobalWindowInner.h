@@ -1511,7 +1511,7 @@ MaybeUpdateTouchState
 override
 ;
 void
-RefreshCompartmentPrincipal
+RefreshRealmPrincipal
 (
 )
 ;

@@ -10898,7 +10898,7 @@ win
 )
 -
 >
-RefreshCompartmentPrincipal
+RefreshRealmPrincipal
 (
 )
 ;

@@ -38547,15 +38547,12 @@ cx
 return
 nullptr
 ;
-JS_SetCompartmentPrincipals
-(
 JS
 :
 :
-GetCompartmentForRealm
+SetRealmPrincipals
 (
 realm
-)
 principals
 )
 ;
