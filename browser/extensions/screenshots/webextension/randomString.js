@@ -14,7 +14,7 @@ length
 chars
 )
 {
-let
+const
 randomStringChars
 =
 "

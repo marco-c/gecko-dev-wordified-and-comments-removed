@@ -308,7 +308,7 @@ result
 ;
 }
 ;
-let
+const
 loadingTabs
 =
 new
@@ -508,7 +508,7 @@ tab
 =
 >
 {
-let
+const
 downloadOnly
 =
 !
@@ -726,7 +726,7 @@ catcher
 .
 watchFunction
 ;
-let
+const
 allScripts
 =
 standardScripts
@@ -788,13 +788,13 @@ reverse
 ;
 for
 (
-let
+const
 moduleName
 of
 moduleNames
 )
 {
-let
+const
 moduleObj
 =
 global

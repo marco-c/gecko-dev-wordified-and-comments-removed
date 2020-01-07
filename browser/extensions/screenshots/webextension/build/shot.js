@@ -288,9 +288,9 @@ url
 .
 indexOf
 (
-'
+"
 )
-'
+"
 )
 >
 -
@@ -333,7 +333,7 @@ url
 )
 )
 {
-let
+const
 exc
 =
 new
@@ -458,11 +458,12 @@ i
 )
 !
 =
+=
 -
 1
 )
 {
-let
+const
 match
 =
 (
@@ -550,6 +551,7 @@ i
 )
 =
 =
+=
 -
 1
 )
@@ -558,7 +560,7 @@ return
 null
 ;
 }
-let
+const
 match
 =
 (
@@ -619,6 +621,7 @@ typeof
 obj
 !
 =
+=
 "
 object
 "
@@ -673,7 +676,7 @@ required
 ;
 for
 (
-let
+const
 attr
 of
 required
@@ -704,7 +707,7 @@ optional
 ;
 for
 (
-let
+const
 attr
 in
 obj
@@ -755,7 +758,7 @@ required
 [
 ]
 ;
-let
+const
 result
 =
 {
@@ -763,7 +766,7 @@ result
 ;
 for
 (
-let
+const
 attr
 of
 required
@@ -790,7 +793,7 @@ optional
 ;
 for
 (
-let
+const
 attr
 of
 optional
@@ -841,6 +844,7 @@ https
 /
 )
 !
+=
 =
 -
 1
@@ -1090,6 +1094,7 @@ typeof
 a
 !
 =
+=
 "
 object
 "
@@ -1098,6 +1103,7 @@ object
 typeof
 b
 !
+=
 =
 "
 object
@@ -1143,6 +1149,7 @@ a
 .
 length
 !
+=
 =
 b
 .
@@ -1207,7 +1214,7 @@ return
 false
 ;
 }
-let
+const
 seen
 =
 new
@@ -1217,7 +1224,7 @@ Set
 ;
 for
 (
-let
+const
 attr
 of
 Object
@@ -1258,7 +1265,7 @@ attr
 }
 for
 (
-let
+const
 attr
 of
 Object
@@ -1756,7 +1763,7 @@ clips
 {
 for
 (
-let
+const
 clipId
 in
 attrs
@@ -1764,7 +1771,7 @@ attrs
 clips
 )
 {
-let
+const
 clip
 =
 attrs
@@ -1793,7 +1800,7 @@ clip
 ;
 }
 }
-let
+const
 isProd
 =
 typeof
@@ -1820,7 +1827,7 @@ production
 ;
 for
 (
-let
+const
 attr
 in
 attrs
@@ -1958,7 +1965,7 @@ update
 json
 )
 {
-let
+const
 ALL_ATTRS
 =
 [
@@ -2003,7 +2010,7 @@ json
 ;
 for
 (
-let
+const
 attr
 in
 json
@@ -2012,6 +2019,7 @@ json
 if
 (
 attr
+=
 =
 =
 "
@@ -2031,6 +2039,7 @@ attr
 ]
 =
 =
+=
 "
 object
 "
@@ -2041,6 +2050,7 @@ this
 [
 attr
 ]
+=
 =
 =
 "
@@ -2158,7 +2168,7 @@ clips
 {
 for
 (
-let
+const
 clipId
 in
 json
@@ -2257,7 +2267,7 @@ asJson
 (
 )
 {
-let
+const
 result
 =
 {
@@ -2265,7 +2275,7 @@ result
 ;
 for
 (
-let
+const
 attr
 of
 this
@@ -2273,7 +2283,7 @@ this
 REGULAR_ATTRS
 )
 {
-var
+let
 val
 =
 this
@@ -2317,7 +2327,7 @@ clips
 ;
 for
 (
-let
+const
 attr
 in
 this
@@ -2352,7 +2362,7 @@ asRecallJson
 (
 )
 {
-let
+const
 result
 =
 {
@@ -2364,7 +2374,7 @@ clips
 ;
 for
 (
-let
+const
 attr
 of
 this
@@ -2372,7 +2382,7 @@ this
 RECALL_ATTRS
 )
 {
-var
+let
 val
 =
 this
@@ -2409,7 +2419,7 @@ val
 }
 for
 (
-let
+const
 name
 of
 this
@@ -2589,7 +2599,7 @@ this
 .
 title
 ;
-let
+const
 date
 =
 new
@@ -2731,16 +2741,16 @@ clipFilename
 =
 clipFilename
 +
-'
+"
 [
 .
 .
 .
 ]
-'
+"
 ;
 }
-let
+const
 clip
 =
 this
@@ -2789,6 +2799,7 @@ clip
 image
 .
 type
+=
 =
 =
 "
@@ -2984,7 +2995,7 @@ viewUrl
 (
 )
 {
-let
+const
 url
 =
 this
@@ -3140,6 +3151,7 @@ typeof
 val
 =
 =
+=
 "
 string
 "
@@ -3189,6 +3201,7 @@ null
 |
 typeof
 val
+=
 =
 =
 "
@@ -3283,6 +3296,7 @@ typeof
 val
 =
 =
+=
 "
 object
 "
@@ -3372,6 +3386,7 @@ typeof
 val
 =
 =
+=
 "
 string
 "
@@ -3395,7 +3410,7 @@ title
 (
 )
 {
-let
+const
 ogTitle
 =
 this
@@ -3409,7 +3424,7 @@ openGraph
 .
 title
 ;
-let
+const
 twitterTitle
 =
 this
@@ -3511,6 +3526,7 @@ typeof
 val
 =
 =
+=
 "
 number
 "
@@ -3594,7 +3610,7 @@ clipNames
 (
 )
 {
-let
+const
 names
 =
 Object
@@ -3655,7 +3671,7 @@ addClip
 val
 )
 {
-let
+const
 name
 =
 makeRandomId
@@ -3680,7 +3696,7 @@ name
 val
 )
 {
-let
+const
 clip
 =
 new
@@ -3768,7 +3784,7 @@ biggest
 ;
 for
 (
-let
+const
 clipId
 in
 this
@@ -3804,7 +3820,7 @@ clipId
 clipUrl
 )
 {
-let
+const
 clip
 =
 this
@@ -3884,6 +3900,7 @@ typeof
 val
 =
 =
+=
 "
 string
 "
@@ -3921,6 +3938,7 @@ assert
 (
 typeof
 val
+=
 =
 =
 "
@@ -3974,6 +3992,7 @@ val
 height
 =
 =
+=
 "
 number
 "
@@ -3985,6 +4004,7 @@ typeof
 val
 .
 width
+=
 =
 =
 "
@@ -4030,6 +4050,7 @@ assert
 (
 typeof
 val
+=
 =
 =
 "
@@ -4119,6 +4140,7 @@ typeof
 val
 =
 =
+=
 "
 object
 "
@@ -4156,7 +4178,7 @@ Array
 ;
 for
 (
-let
+const
 name
 in
 val
@@ -4175,6 +4197,7 @@ val
 [
 name
 ]
+=
 =
 =
 "
@@ -4556,6 +4579,7 @@ dimensions
 x
 =
 =
+=
 "
 number
 "
@@ -4567,6 +4591,7 @@ json
 dimensions
 .
 y
+=
 =
 =
 "
@@ -4598,6 +4623,7 @@ typeof
 json
 .
 title
+=
 =
 =
 "
@@ -4634,6 +4660,7 @@ typeof
 json
 .
 alt
+=
 =
 =
 "
@@ -4751,6 +4778,7 @@ typeof
 id
 =
 =
+=
 "
 string
 "
@@ -4782,9 +4810,9 @@ createdDate
 ;
 if
 (
-'
+"
 sortOrder
-'
+"
 in
 json
 )
@@ -4795,6 +4823,7 @@ typeof
 json
 .
 sortOrder
+=
 =
 =
 "
@@ -4820,9 +4849,9 @@ sortOrder
 }
 if
 (
-'
+"
 sortOrder
-'
+"
 in
 json
 )
@@ -4838,7 +4867,7 @@ sortOrder
 }
 else
 {
-let
+const
 biggestOrder
 =
 shot
@@ -4968,6 +4997,7 @@ typeof
 val
 =
 =
+=
 "
 number
 "
@@ -5094,6 +5124,7 @@ image
 captureType
 =
 =
+=
 "
 madeSelection
 "
@@ -5102,6 +5133,7 @@ madeSelection
 image
 .
 captureType
+=
 =
 =
 "
@@ -5114,6 +5146,7 @@ image
 captureType
 =
 =
+=
 "
 visible
 "
@@ -5122,6 +5155,7 @@ visible
 image
 .
 captureType
+=
 =
 =
 "
@@ -5134,6 +5168,7 @@ image
 captureType
 =
 =
+=
 "
 fullPage
 "
@@ -5142,6 +5177,7 @@ fullPage
 image
 .
 captureType
+=
 =
 =
 "
@@ -5171,6 +5207,7 @@ typeof
 image
 .
 text
+=
 =
 =
 "
@@ -5211,6 +5248,7 @@ dimensions
 x
 =
 =
+=
 "
 number
 "
@@ -5222,6 +5260,7 @@ image
 dimensions
 .
 y
+=
 =
 =
 "
@@ -5254,6 +5293,7 @@ image
 type
 =
 =
+=
 "
 png
 "
@@ -5262,6 +5302,7 @@ png
 image
 .
 type
+=
 =
 =
 "
@@ -5294,6 +5335,7 @@ location
 left
 =
 =
+=
 "
 number
 "
@@ -5305,6 +5347,7 @@ image
 location
 .
 right
+=
 =
 =
 "
@@ -5320,6 +5363,7 @@ location
 top
 =
 =
+=
 "
 number
 "
@@ -5331,6 +5375,7 @@ image
 location
 .
 bottom
+=
 =
 =
 "
@@ -5389,6 +5434,7 @@ location
 topLeftElement
 =
 =
+=
 "
 string
 "
@@ -5411,6 +5457,7 @@ topLeftOffset
 x
 =
 =
+=
 "
 number
 "
@@ -5424,6 +5471,7 @@ location
 topLeftOffset
 .
 y
+=
 =
 =
 "
@@ -5439,6 +5487,7 @@ location
 bottomRightElement
 =
 =
+=
 "
 string
 "
@@ -5461,6 +5510,7 @@ bottomRightOffset
 x
 =
 =
+=
 "
 number
 "
@@ -5474,6 +5524,7 @@ location
 bottomRightOffset
 .
 y
+=
 =
 =
 "
@@ -5557,6 +5608,7 @@ typeof
 val
 =
 =
+=
 "
 number
 "
@@ -5594,6 +5646,7 @@ if
 typeof
 exports
 !
+=
 =
 "
 undefined

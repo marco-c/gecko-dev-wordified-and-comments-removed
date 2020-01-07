@@ -12,7 +12,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -66,7 +66,7 @@ logLevel
 )
 ;
 }
-let
+const
 shouldLog
 =
 {
@@ -80,7 +80,7 @@ false
 ;
 for
 (
-let
+const
 level
 of
 levels

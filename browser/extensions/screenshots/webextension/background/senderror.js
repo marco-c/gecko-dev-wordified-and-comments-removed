@@ -12,13 +12,13 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
 }
 ;
-let
+const
 manifest
 =
 browser
@@ -34,7 +34,7 @@ ERROR_TIME_LIMIT
 =
 3000
 ;
-let
+const
 messages
 =
 {
@@ -352,7 +352,7 @@ now
 (
 )
 ;
-let
+const
 id
 =
 makeUuid
@@ -387,7 +387,7 @@ generic
 "
 ;
 }
-let
+const
 title
 =
 messages
@@ -408,10 +408,10 @@ popupMessage
 info
 |
 |
-'
-'
+"
+"
 ;
-let
+const
 showMessage
 =
 messages
@@ -536,7 +536,7 @@ e
 return
 ;
 }
-let
+const
 dsn
 =
 auth
@@ -593,7 +593,7 @@ install
 )
 ;
 }
-let
+const
 exception
 =
 new
@@ -714,7 +714,7 @@ addon
 )
 ;
 }
-let
+const
 rest
 =
 {
@@ -722,7 +722,7 @@ rest
 ;
 for
 (
-let
+const
 attr
 in
 e
@@ -795,9 +795,9 @@ exception
 {
 logger
 :
-'
+"
 addon
-'
+"
 tags
 :
 {

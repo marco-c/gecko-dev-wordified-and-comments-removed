@@ -23,7 +23,7 @@ l
 {
 for
 (
-let
+const
 id
 of
 l

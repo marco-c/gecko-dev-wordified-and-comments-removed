@@ -7,7 +7,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -31,8 +31,8 @@ url
 .
 split
 (
-'
-'
+"
+"
 2
 )
 [
@@ -55,6 +55,7 @@ if
 contentType
 !
 =
+=
 "
 image
 /
@@ -64,6 +65,7 @@ png
 &
 contentType
 !
+=
 =
 "
 image
@@ -137,8 +139,8 @@ url
 .
 split
 (
-'
-'
+"
+"
 1
 )
 [
@@ -151,9 +153,9 @@ contentType
 .
 split
 (
-'
+"
 ;
-'
+"
 1
 )
 [
@@ -166,9 +168,9 @@ contentType
 .
 split
 (
-'
+"
 :
-'
+"
 2
 )
 [
@@ -200,7 +202,7 @@ reject
 =
 >
 {
-let
+const
 reader
 =
 new
@@ -261,7 +263,7 @@ reject
 =
 >
 {
-let
+const
 reader
 =
 new

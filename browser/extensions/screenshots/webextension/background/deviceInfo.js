@@ -12,7 +12,7 @@ function
 (
 )
 {
-let
+const
 manifest
 =
 browser
@@ -98,7 +98,7 @@ ium
 /
 )
 ;
-let
+const
 chromeVersion
 =
 match
@@ -137,7 +137,7 @@ Firefox
 /
 )
 ;
-let
+const
 firefoxVersion
 =
 match
@@ -149,7 +149,7 @@ match
 :
 null
 ;
-let
+const
 appName
 =
 chromeVersion

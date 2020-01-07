@@ -30,13 +30,13 @@ html
 )
 )
 {
-let
+const
 exc
 =
 new
 Error
 (
-'
+"
 iframe
 URL
 does
@@ -46,7 +46,7 @@ expected
 blank
 .
 html
-'
+"
 )
 ;
 exc

@@ -18,7 +18,7 @@ makeUuid
 (
 )
 {
-var
+const
 randomValues
 =
 window
@@ -35,7 +35,7 @@ Uint8Array
 )
 ;
 return
-'
+"
 xxxxxxxx
 -
 xxxx
@@ -45,7 +45,7 @@ xxxx
 yxxx
 -
 xxxxxxxxxxxx
-'
+"
 .
 replace
 (
@@ -60,7 +60,7 @@ function
 c
 )
 {
-var
+const
 i
 =
 Array
@@ -83,7 +83,7 @@ slice
 0
 ]
 ;
-var
+const
 r
 =
 randomValues
@@ -100,9 +100,9 @@ c
 =
 =
 =
-'
+"
 x
-'
+"
 ?
 r
 :

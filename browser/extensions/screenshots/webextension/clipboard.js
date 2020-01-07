@@ -12,7 +12,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -38,7 +38,7 @@ reject
 =
 >
 {
-let
+const
 element
 =
 document
@@ -115,7 +115,7 @@ watchFunction
 {
 try
 {
-let
+const
 doc
 =
 element
@@ -127,7 +127,7 @@ assertIsBlankDocument
 doc
 )
 ;
-let
+const
 el
 =
 doc
@@ -160,7 +160,7 @@ if
 text
 )
 {
-let
+const
 exc
 =
 new
@@ -206,7 +206,7 @@ activeElement
 el
 )
 {
-let
+const
 unhandledTag
 =
 doc
@@ -225,7 +225,7 @@ active
 element
 "
 ;
-let
+const
 exc
 =
 new

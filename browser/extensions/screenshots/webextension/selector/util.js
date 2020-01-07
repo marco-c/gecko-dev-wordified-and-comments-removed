@@ -12,7 +12,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -55,7 +55,7 @@ function
 x
 )
 {
-let
+const
 max
 =
 Math
@@ -121,7 +121,7 @@ function
 y
 )
 {
-let
+const
 max
 =
 Math
@@ -178,7 +178,7 @@ y
 ;
 }
 ;
-var
+const
 CAPTURE_WIGGLE
 =
 10
@@ -199,21 +199,21 @@ function
 box
 )
 {
-var
+const
 scrollX
 =
 window
 .
 scrollX
 ;
-var
+const
 scrollY
 =
 window
 .
 scrollY
 ;
-var
+const
 text
 =
 [
@@ -225,7 +225,7 @@ traverse
 el
 )
 {
-var
+let
 elBox
 =
 el
@@ -356,7 +356,7 @@ CAPTURE_WIGGLE
 {
 for
 (
-var
+let
 i
 =
 0
@@ -374,7 +374,7 @@ i
 +
 )
 {
-var
+const
 child
 =
 el
@@ -389,6 +389,7 @@ if
 child
 .
 nodeType
+=
 =
 =
 ELEMENT_NODE
@@ -426,6 +427,7 @@ el
 tagName
 =
 =
+=
 "
 IMG
 "
@@ -459,6 +461,7 @@ if
 el
 .
 tagName
+=
 =
 =
 "

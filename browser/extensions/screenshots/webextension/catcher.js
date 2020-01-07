@@ -17,7 +17,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -32,7 +32,7 @@ queue
 [
 ]
 ;
-let
+const
 log
 =
 global
@@ -71,7 +71,7 @@ info
 )
 ;
 }
-let
+const
 e
 =
 makeError
@@ -159,7 +159,7 @@ stack
 ;
 for
 (
-let
+const
 attr
 in
 exc
@@ -184,7 +184,7 @@ info
 {
 for
 (
-let
+const
 attr
 of
 Object
@@ -427,7 +427,7 @@ h
 ;
 for
 (
-let
+const
 error
 of
 queue

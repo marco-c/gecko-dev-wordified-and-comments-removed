@@ -12,7 +12,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -42,7 +42,7 @@ abTests
 {
 }
 ;
-let
+const
 registrationInfoFetched
 =
 catcher
@@ -125,7 +125,6 @@ ID
 registrationInfo
 )
 ;
-return
 browser
 .
 storage
@@ -167,7 +166,7 @@ generateRegistrationInfo
 (
 )
 {
-let
+const
 info
 =
 {
@@ -209,7 +208,7 @@ reject
 =
 >
 {
-let
+const
 registerUrl
 =
 main
@@ -225,7 +224,7 @@ api
 register
 "
 ;
-let
+const
 req
 =
 new
@@ -277,6 +276,7 @@ if
 req
 .
 status
+=
 =
 =
 200
@@ -360,7 +360,7 @@ req
 responseText
 )
 ;
-let
+const
 exc
 =
 new
@@ -423,7 +423,7 @@ error
 "
 )
 ;
-let
+const
 exc
 =
 new
@@ -495,7 +495,7 @@ login
 options
 )
 {
-let
+const
 {
 ownershipCheck
 noRegister
@@ -518,7 +518,7 @@ reject
 =
 >
 {
-let
+const
 loginUrl
 =
 main
@@ -534,7 +534,7 @@ api
 login
 "
 ;
-let
+const
 req
 =
 new
@@ -570,6 +570,7 @@ if
 req
 .
 status
+=
 =
 =
 404
@@ -623,7 +624,7 @@ req
 responseText
 )
 ;
-let
+const
 exc
 =
 new
@@ -688,7 +689,7 @@ status
 0
 )
 {
-let
+const
 error
 =
 new
@@ -740,7 +741,7 @@ initialized
 =
 true
 ;
-let
+const
 jsonResponse
 =
 JSON
@@ -835,7 +836,7 @@ error
 "
 )
 ;
-let
+const
 exc
 =
 new
