@@ -5322,15 +5322,12 @@ shouldWarnDeprecated
 }
 template
 <
-class
-AnyCharsAccess
 >
 MOZ_MUST_USE
 bool
-TokenStreamChars
+TokenStreamCharsBase
 <
 char16_t
-AnyCharsAccess
 >
 :
 :
