@@ -551,6 +551,13 @@ no
 more
 candidates
 .
+if
+(
+event
+.
+candidate
+)
+{
 gSecondConnection
 .
 addIceCandidate
@@ -560,6 +567,7 @@ event
 candidate
 )
 ;
+}
 }
 )
 ;
@@ -575,6 +583,13 @@ function
 event
 )
 {
+if
+(
+event
+.
+candidate
+)
+{
 gFirstConnection
 .
 addIceCandidate
@@ -584,6 +599,7 @@ event
 candidate
 )
 ;
+}
 }
 )
 ;
