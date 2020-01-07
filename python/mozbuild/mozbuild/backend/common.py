@@ -194,9 +194,6 @@ register_idl
 (
 self
 idl
-allow_existing
-=
-False
 )
 :
         
@@ -297,9 +294,6 @@ root
 }
         
 if
-not
-allow_existing
-and
 entry
 [
 '
