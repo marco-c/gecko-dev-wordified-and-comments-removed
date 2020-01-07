@@ -33,11 +33,6 @@ exports
 font
 =
 {
-CSSFamilyName
-:
-PropTypes
-.
-string
 format
 :
 PropTypes
