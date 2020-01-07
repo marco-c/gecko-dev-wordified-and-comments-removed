@@ -1700,11 +1700,6 @@ KEY_MAP_GTK
 PreviousCandidate
 GDK_PreviousCandidate
 )
-KEY_MAP_WIN
-(
-Process
-VK_PROCESSKEY
-)
 KEY_MAP_GTK
 (
 SingleCandidate

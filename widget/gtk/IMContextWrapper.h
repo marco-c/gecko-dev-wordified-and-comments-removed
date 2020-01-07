@@ -226,7 +226,7 @@ GdkEventKey
 *
 aEvent
 bool
-aKeyboardEventWasDispatched
+aKeyDownEventWasSent
 =
 false
 )
@@ -721,10 +721,10 @@ bool
 mIsIMFocused
 ;
 bool
-mFallbackToKeyEvent
+mFilterKeyEvent
 ;
 bool
-mKeyboardEventWasDispatched
+mKeyDownEventWasSent
 ;
 bool
 mIsDeletingSurrounding
@@ -1046,11 +1046,6 @@ PrepareToDestroyContext
 GtkIMContext
 *
 aContext
-)
-;
-bool
-MaybeDispatchKeyEventAsProcessedByIME
-(
 )
 ;
 bool

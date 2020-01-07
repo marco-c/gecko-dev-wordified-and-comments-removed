@@ -183,8 +183,6 @@ aKeyEvent
 GdkEventKey
 *
 aGdkKeyEvent
-bool
-aIsProcessedByIME
 )
 ;
 static
