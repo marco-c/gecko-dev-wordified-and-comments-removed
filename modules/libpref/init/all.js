@@ -18613,11 +18613,9 @@ content_privileged_about_uris_without_csp
 "
 blank
 cache
-certerror
 credits
 home
 logo
-neterror
 newtab
 printpreview
 srcdoc
