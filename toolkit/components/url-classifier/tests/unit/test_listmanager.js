@@ -1034,6 +1034,10 @@ run_test
 (
 )
 {
+throwOnUpdateErrors
+(
+)
+;
 gHttpServ
 =
 new
