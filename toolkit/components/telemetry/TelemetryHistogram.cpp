@@ -10671,7 +10671,12 @@ gTelemetryHistogramMutex
 )
 ;
 return
-0
+gNameToHistogramIDMap
+.
+ShallowSizeOfExcludingThis
+(
+aMallocSizeOf
+)
 ;
 }
 size_t
