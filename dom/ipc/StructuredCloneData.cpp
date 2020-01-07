@@ -1823,7 +1823,7 @@ IsOnBackgroundThread
 ;
 UnpackClonedMessageData
 <
-BorrowMemory
+CopyMemory
 Parent
 >
 (
