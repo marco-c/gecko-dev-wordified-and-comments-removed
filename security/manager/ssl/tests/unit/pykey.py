@@ -4638,6 +4638,10 @@ stdin
 read
 (
 )
+.
+strip
+(
+)
 )
 .
 toPEM

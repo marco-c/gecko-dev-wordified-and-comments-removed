@@ -3984,9 +3984,7 @@ listen
 %
 s
 :
-pgo
-server
-certificate
+pgoserver
 \
 n
 "
