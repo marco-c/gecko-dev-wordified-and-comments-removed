@@ -1486,14 +1486,6 @@ aLength
 )
 ;
 void
-Gecko_EnsureMozBorderColors
-(
-nsStyleBorder
-*
-aBorder
-)
-;
-void
 Gecko_CopyFontFamilyFrom
 (
 nsFont
