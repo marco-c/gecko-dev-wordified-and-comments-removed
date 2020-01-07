@@ -2261,6 +2261,12 @@ getSystemPrincipal
 )
 )
 ;
+cmdLine
+.
+preventDefault
+=
+true
+;
 }
 }
 catch
