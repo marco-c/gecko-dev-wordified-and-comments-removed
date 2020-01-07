@@ -292,7 +292,7 @@ Err
 CreationError
 :
 :
-OsError
+PlatformSpecific
 (
 "
 Could

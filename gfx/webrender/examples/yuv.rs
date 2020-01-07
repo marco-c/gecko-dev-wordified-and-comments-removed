@@ -10,6 +10,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+winit
+;
 #
 [
 path
@@ -963,7 +967,7 @@ mut
 self
 _event
 :
-glutin
+winit
 :
 :
 WindowEvent

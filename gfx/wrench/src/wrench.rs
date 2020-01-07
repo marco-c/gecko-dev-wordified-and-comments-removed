@@ -52,7 +52,7 @@ font_loader
 system_fonts
 ;
 use
-glutin
+winit
 :
 :
 EventsLoopProxy

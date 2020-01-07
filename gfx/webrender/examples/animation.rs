@@ -14,6 +14,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+winit
+;
 #
 [
 path
@@ -303,7 +307,7 @@ mut
 self
 win_event
 :
-glutin
+winit
 :
 :
 WindowEvent
@@ -322,7 +326,7 @@ bool
 match
 win_event
 {
-glutin
+winit
 :
 :
 WindowEvent
@@ -332,14 +336,14 @@ KeyboardInput
 {
 input
 :
-glutin
+winit
 :
 :
 KeyboardInput
 {
 state
 :
-glutin
+winit
 :
 :
 ElementState
@@ -372,7 +376,7 @@ delta_opacity
 match
 key
 {
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -395,7 +399,7 @@ Down
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -419,7 +423,7 @@ Up
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -442,7 +446,7 @@ Right
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -466,7 +470,7 @@ Left
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -489,7 +493,7 @@ Comma
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -513,7 +517,7 @@ Period
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -537,7 +541,7 @@ Z
 .
 1
 )
-glutin
+winit
 :
 :
 VirtualKeyCode

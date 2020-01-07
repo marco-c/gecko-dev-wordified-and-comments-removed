@@ -19931,6 +19931,13 @@ PipelineInfo
 )
 ;
 fn
+post_resource_update
+(
+&
+self
+)
+;
+fn
 poke
 (
 &

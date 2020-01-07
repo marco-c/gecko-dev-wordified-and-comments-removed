@@ -14,6 +14,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+winit
+;
 #
 [
 path
@@ -202,7 +206,7 @@ mut
 self
 event
 :
-glutin
+winit
 :
 :
 WindowEvent
@@ -221,7 +225,7 @@ bool
 match
 event
 {
-glutin
+winit
 :
 :
 WindowEvent
@@ -231,14 +235,14 @@ KeyboardInput
 {
 input
 :
-glutin
+winit
 :
 :
 KeyboardInput
 {
 state
 :
-glutin
+winit
 :
 :
 ElementState
@@ -263,7 +267,7 @@ key
 match
 key
 {
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -295,7 +299,7 @@ rect_count
 )
 ;
 }
-glutin
+winit
 :
 :
 VirtualKeyCode
