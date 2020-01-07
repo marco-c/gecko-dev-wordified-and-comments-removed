@@ -2325,9 +2325,10 @@ mutate_box
 (
 )
 .
-set_display
+set_adjusted_display
 (
 inline_display
+false
 )
 ;
 }
