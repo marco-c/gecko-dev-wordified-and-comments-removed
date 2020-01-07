@@ -25,7 +25,7 @@ GITFLAGS
 =
 PYTHON
 =
-python
+python3
 PYTHONFLAGS
 =
 VNU_TEST_REPO
@@ -223,6 +223,11 @@ PYTHONFLAGS
 mjson
 .
 tool
+-
+-
+sort
+-
+keys
 >
 .
 tmp

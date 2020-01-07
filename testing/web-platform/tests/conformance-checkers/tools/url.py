@@ -314,27 +314,6 @@ com
 "
     
 "
-scheme
--
-javascript
--
-no
--
-slash
--
-malformed
-"
-:
-"
-javascript
-:
-example
-.
-com
-/
-"
-    
-"
 userinfo
 -
 password
