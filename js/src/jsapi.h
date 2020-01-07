@@ -22879,7 +22879,15 @@ HandleString
 asyncCause
 MutableHandleObject
 stackp
-unsigned
+const
+mozilla
+:
+:
+Maybe
+<
+size_t
+>
+&
 maxFrameCount
 )
 ;
