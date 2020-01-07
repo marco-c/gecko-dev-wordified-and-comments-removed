@@ -17001,7 +17001,7 @@ method
 name
 =
 "
-loadURIWithFlags
+loadURI
 "
 >
 <
@@ -17030,7 +17030,7 @@ body
 [
 CDATA
 [
-_loadURIWithFlags
+_loadURI
 (
 this
 aURI
@@ -17124,7 +17124,7 @@ method
 name
 =
 "
-loadURIWithFlags
+loadURI
 "
 >
 <
@@ -17153,7 +17153,7 @@ body
 [
 CDATA
 [
-_loadURIWithFlags
+_loadURI
 (
 this
 aURI

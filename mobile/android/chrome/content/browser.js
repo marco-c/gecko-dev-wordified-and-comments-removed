@@ -8251,7 +8251,7 @@ try
 {
 aBrowser
 .
-loadURIWithFlags
+loadURI
 (
 aURI
 {
@@ -19965,7 +19965,7 @@ browser
 {
 browser
 .
-loadURIWithFlags
+loadURI
 (
 aURI
 .
@@ -21431,7 +21431,7 @@ this
 .
 browser
 .
-loadURIWithFlags
+loadURI
 (
 aURL
 {

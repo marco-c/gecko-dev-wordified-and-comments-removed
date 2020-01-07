@@ -3682,7 +3682,7 @@ nativeTab
 .
 linkedBrowser
 .
-loadURIWithFlags
+loadURI
 (
 url
 options
