@@ -4921,6 +4921,16 @@ canHaveNonEmptyElements
 )
 )
 ;
+MOZ_ASSERT
+(
+reqCapacity
+>
+=
+getDenseInitializedLength
+(
+)
+)
+;
 if
 (
 denseElementsAreCopyOnWrite
