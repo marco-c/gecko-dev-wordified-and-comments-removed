@@ -4130,7 +4130,7 @@ printable
 if
 (
 !
-ValueToPrintableLatin1
+ValueToPrintableUTF8
 (
 cx
 IdToValue
@@ -4143,7 +4143,7 @@ printable
 )
 return
 ;
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
