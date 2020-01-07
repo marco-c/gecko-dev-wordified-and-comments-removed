@@ -780,10 +780,6 @@ secrets
 "
                 
 "
-clobber
-"
-                
-"
 clone
 -
 locales
