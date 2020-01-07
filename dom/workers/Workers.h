@@ -695,6 +695,12 @@ nsCOMPtr
 <
 nsIPrincipal
 >
+mLoadingPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
 mPrincipal
 ;
 nsCOMPtr
