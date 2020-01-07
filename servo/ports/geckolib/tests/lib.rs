@@ -31,10 +31,6 @@ cstr
 ;
 extern
 crate
-env_logger
-;
-extern
-crate
 geckoservo
 ;
 #
