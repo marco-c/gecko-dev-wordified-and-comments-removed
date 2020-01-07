@@ -1780,6 +1780,17 @@ tooltool
 downloads
 :
 internal
+run
+-
+on
+-
+projects
+:
+[
+'
+try
+'
+]
 toolchains
 :
 -
