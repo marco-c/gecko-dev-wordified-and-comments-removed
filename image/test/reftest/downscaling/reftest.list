@@ -385,12 +385,6 @@ fuzzy
 80
 468
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 downscale
@@ -449,12 +443,6 @@ fuzzy
 (
 17
 208
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

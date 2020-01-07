@@ -1158,12 +1158,6 @@ fuzzy
 1
 26732
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 feComposite

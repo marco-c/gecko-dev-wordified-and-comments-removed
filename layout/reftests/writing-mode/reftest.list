@@ -3820,12 +3820,6 @@ cocoaWidget
 65
 69
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 1193519
