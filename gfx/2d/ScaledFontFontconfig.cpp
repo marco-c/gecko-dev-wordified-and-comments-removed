@@ -2895,6 +2895,15 @@ FT_Set_Var_Design_Coordinates
 )
 ;
 }
+if
+(
+!
+setCoords
+)
+{
+return
+;
+}
 cairo_scaled_font_t
 *
 sf
