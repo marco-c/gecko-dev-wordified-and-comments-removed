@@ -256,9 +256,14 @@ const
 char
 *
 id
-const
+UniquePtr
+<
 char
-*
+[
+]
+>
+&
+&
 inbuf
 uint32_t
 length
