@@ -162,7 +162,7 @@ defineLazyServiceGetter
 (
 this
 "
-gHandlerServiceJSON
+gHandlerService
 "
 "
 mozilla
@@ -210,14 +210,14 @@ json
 )
 ;
 let
-unloadHandlerStoreJSON
+unloadHandlerStore
 =
 async
 function
 (
 )
 {
-gHandlerServiceJSON
+gHandlerService
 ;
 let
 promise
@@ -260,7 +260,7 @@ promise
 }
 ;
 let
-deleteHandlerStoreJSON
+deleteHandlerStore
 =
 async
 function
@@ -268,7 +268,7 @@ function
 )
 {
 await
-unloadHandlerStoreJSON
+unloadHandlerStore
 (
 )
 ;
@@ -290,7 +290,7 @@ true
 }
 ;
 let
-copyTestDataToHandlerStoreJSON
+copyTestDataToHandlerStore
 =
 async
 function
@@ -298,7 +298,7 @@ function
 )
 {
 await
-unloadHandlerStoreJSON
+unloadHandlerStore
 (
 )
 ;
@@ -333,7 +333,7 @@ test_terminate
 )
 {
 await
-deleteHandlerStoreJSON
+deleteHandlerStore
 (
 )
 ;
