@@ -33,9 +33,6 @@ txOutputFormat
 h
 "
 class
-nsIDOMDocument
-;
-class
 nsIDOMDocumentFragment
 ;
 class
@@ -82,7 +79,7 @@ TX_DECL_TXAOUTPUTXMLEVENTHANDLER
 nsresult
 createResultDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 aSourceDocument
 bool
