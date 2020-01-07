@@ -187,16 +187,6 @@ WINNT
 '
 :
 EXPORTS
-+
-=
-[
-'
-nsWindowsDllInterceptor
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 +

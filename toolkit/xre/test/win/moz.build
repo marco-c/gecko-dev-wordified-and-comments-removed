@@ -93,14 +93,6 @@ TestXREMakeCommandLineWin
 '
 ]
 )
-CppUnitTests
-(
-[
-'
-TestDllInterceptor
-'
-]
-)
 DEFINES
 [
 '
@@ -136,9 +128,6 @@ OS_LIBS
 [
 '
 comctl32
-'
-'
-ole32
 '
 '
 shell32
