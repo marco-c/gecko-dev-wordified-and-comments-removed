@@ -11700,6 +11700,14 @@ isDisplayContents
 styleFrame
 &
 &
+aElement
+-
+>
+HasServoData
+(
+)
+&
+&
 Servo_Element_IsDisplayContents
 (
 aElement
