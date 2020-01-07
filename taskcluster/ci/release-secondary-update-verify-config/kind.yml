@@ -350,12 +350,12 @@ project
 :
 birch
 :
-nonbeta
+beta
 mozilla
 -
 release
 :
-nonbeta
+beta
 default
 :
 null
