@@ -1129,10 +1129,7 @@ aTargets
 {
 mRetargetedTouchTargets
 =
-std
-:
-:
-move
+Move
 (
 aTargets
 )
@@ -1403,10 +1400,7 @@ aInitialTargetTouches
 {
 mInitialTargetTouches
 =
-std
-:
-:
-move
+Move
 (
 aInitialTargetTouches
 )
@@ -2152,10 +2146,7 @@ mRetargetedRelatedTarget
 ;
 SetRetargetedTouchTarget
 (
-std
-:
-:
-move
+Move
 (
 aVisitor
 .
@@ -3784,7 +3775,7 @@ EventDispatcher
 :
 Dispatch
 "
-EVENTS
+OTHER
 )
 ;
 NS_ASSERTION
@@ -4873,10 +4864,7 @@ targetEtci
 >
 SetInitialTargetTouches
 (
-std
-:
-:
-move
+Move
 (
 initialTargetTouches
 )

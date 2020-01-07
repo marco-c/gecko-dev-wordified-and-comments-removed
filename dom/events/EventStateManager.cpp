@@ -17320,7 +17320,7 @@ AUTO_PROFILER_LABEL
 "
 CreateMouseOrPointerWidgetEvent
 "
-EVENTS
+OTHER
 )
 ;
 nsAutoPtr
