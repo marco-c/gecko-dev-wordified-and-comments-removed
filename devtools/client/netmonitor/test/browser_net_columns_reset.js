@@ -138,7 +138,7 @@ click
 (
 )
 ;
-is
+ok
 (
 JSON
 .
@@ -146,6 +146,9 @@ stringify
 (
 prefBefore
 )
+=
+=
+=
 JSON
 .
 stringify

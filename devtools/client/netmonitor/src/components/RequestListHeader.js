@@ -657,13 +657,11 @@ header
 =
 >
 columns
-.
-get
-(
+[
 header
 .
 name
-)
+]
 )
 .
 map
