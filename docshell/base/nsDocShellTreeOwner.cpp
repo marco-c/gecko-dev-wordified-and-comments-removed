@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "

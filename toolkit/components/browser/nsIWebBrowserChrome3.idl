@@ -70,13 +70,6 @@ nsIURI
 .
 idl
 "
-#
-include
-"
-nsIDOMNode
-.
-idl
-"
 interface
 nsIDocShell
 ;
@@ -88,6 +81,9 @@ nsIRunnable
 ;
 interface
 nsIPrincipal
+;
+webidl
+Node
 ;
 /
 *
@@ -201,7 +197,7 @@ in
 nsIURI
 linkURI
 in
-nsIDOMNode
+Node
 linkNode
 in
 boolean

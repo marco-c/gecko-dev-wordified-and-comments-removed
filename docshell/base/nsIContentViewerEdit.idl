@@ -96,8 +96,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMNode
+webidl
+Node
 ;
 [
 scriptable
@@ -237,7 +237,7 @@ void
 setCommandNode
 (
 in
-nsIDOMNode
+Node
 aNode
 )
 ;

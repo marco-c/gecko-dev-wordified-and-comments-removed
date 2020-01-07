@@ -67,9 +67,6 @@ interface
 nsIDocShell
 ;
 interface
-nsIDOMNode
-;
-interface
 nsISHEntry
 ;
 interface
@@ -77,6 +74,9 @@ nsIPrintSettings
 ;
 webidl
 Document
+;
+webidl
+Node
 ;
 %
 {
@@ -1554,7 +1554,7 @@ void
 scrollToNode
 (
 in
-nsIDOMNode
+Node
 node
 )
 ;

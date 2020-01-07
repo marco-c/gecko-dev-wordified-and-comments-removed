@@ -547,7 +547,7 @@ mTooltipShownOnce
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mPossibleTooltipNode
 ;

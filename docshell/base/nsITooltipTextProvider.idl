@@ -100,8 +100,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMNode
+webidl
+Node
 ;
 /
 *
@@ -213,7 +213,7 @@ see
 nsIComponentManager
 *
 see
-nsIDOMNode
+Node
 *
 /
 [
@@ -327,7 +327,7 @@ boolean
 getNodeText
 (
 in
-nsIDOMNode
+Node
 aNode
 out
 wstring
