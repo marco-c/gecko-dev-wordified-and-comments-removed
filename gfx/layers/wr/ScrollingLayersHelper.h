@@ -275,6 +275,17 @@ StackingContextHelper
 aSc
 )
 ;
+const
+DisplayItemClipChain
+*
+ExtendChain
+(
+const
+DisplayItemClipChain
+*
+aClip
+)
+;
 Maybe
 <
 ClipAndScroll
