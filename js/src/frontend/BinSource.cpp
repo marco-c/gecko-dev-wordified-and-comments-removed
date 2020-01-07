@@ -741,6 +741,9 @@ funbox
 FunctionSyntaxKind
 syntax
 =
+FunctionSyntaxKind
+:
+:
 Expression
 ;
 funbox
