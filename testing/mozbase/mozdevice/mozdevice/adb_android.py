@@ -1761,6 +1761,9 @@ install_app
 (
 self
 apk_path
+replace
+=
+False
 timeout
 =
 None
@@ -1790,6 +1793,18 @@ name
 to
 be
 installed
+.
+        
+:
+param
+bool
+replace
+:
+If
+True
+replace
+existing
+application
 .
         
 :
@@ -1897,6 +1912,20 @@ append
 "
 -
 g
+"
+)
+        
+if
+replace
+:
+            
+cmd
+.
+append
+(
+"
+-
+r
 "
 )
         
