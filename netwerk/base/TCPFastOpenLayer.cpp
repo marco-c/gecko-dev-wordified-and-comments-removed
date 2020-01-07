@@ -2013,12 +2013,6 @@ if
 result
 =
 =
-PR_NOT_IMPLEMENTED_ERROR
-|
-|
-result
-=
-=
 PR_NOT_TCP_SOCKET_ERROR
 )
 {
