@@ -2280,7 +2280,7 @@ printf
 (
 "
 NULL
-nsIDOMRange
+Range
 \
 n
 "

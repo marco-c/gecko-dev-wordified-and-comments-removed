@@ -148,7 +148,7 @@ h
 #
 include
 "
-nsIDOMRange
+nsRange
 .
 h
 "

@@ -139,6 +139,9 @@ dom
 class
 DataTransfer
 ;
+class
+Selection
+;
 }
 }
 class
@@ -419,9 +422,15 @@ mozilla
 CSSIntPoint
 mImageOffset
 ;
-nsCOMPtr
+RefPtr
 <
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 >
 mSelection
 ;

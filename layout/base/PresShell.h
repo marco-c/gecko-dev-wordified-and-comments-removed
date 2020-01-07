@@ -831,7 +831,10 @@ SourceSurface
 >
 RenderSelection
 (
-nsISelection
+dom
+:
+:
+Selection
 *
 aSelection
 const
@@ -2102,7 +2105,7 @@ RangePaintInfo
 >
 CreateRangePaintInfo
 (
-nsIDOMRange
+nsRange
 *
 aRange
 nsRect
