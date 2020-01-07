@@ -807,6 +807,10 @@ Length
 if
 (
 pathCFStr
+&
+&
+!
+aIsPrivate
 )
 {
 bool
