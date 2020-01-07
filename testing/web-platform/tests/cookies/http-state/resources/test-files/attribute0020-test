@@ -1,0 +1,14 @@
+Set
+-
+Cookie
+:
+foo
+=
+bar
+;
+Path
+=
+/
+qux
+;
+taz
