@@ -1623,12 +1623,13 @@ nsINode
 aNodeArray
 )
 ;
+MOZ_MUST_USE
 nsresult
 BustUpInlinesAtRangeEndpoints
 (
 RangeItem
 &
-inRange
+aRangeItem
 )
 ;
 MOZ_MUST_USE
