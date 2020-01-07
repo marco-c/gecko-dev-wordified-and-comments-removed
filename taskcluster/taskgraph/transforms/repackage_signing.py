@@ -55,6 +55,8 @@ scriptworker
 import
 (
     
+add_scope_prefix
+    
 get_signing_cert_scope_per_platform
     
 get_worker_type_for_scope
@@ -704,17 +706,17 @@ scopes
 =
 [
 signing_cert_scope
+add_scope_prefix
+(
+config
 '
-project
-:
-releng
-:
 signing
 :
 format
 :
 mar_sha384
 '
+)
 ]
         
 upstream_artifacts
@@ -872,17 +874,17 @@ scopes
 .
 append
 (
+add_scope_prefix
+(
+config
 "
-project
-:
-releng
-:
 signing
 :
 format
 :
 sha2signcode
 "
+)
 )
             
 if
@@ -971,17 +973,17 @@ scopes
 .
 append
 (
+add_scope_prefix
+(
+config
 "
-project
-:
-releng
-:
 signing
 :
 format
 :
 sha2signcodestub
 "
+)
 )
         
 task
