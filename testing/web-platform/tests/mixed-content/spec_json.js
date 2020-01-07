@@ -133,6 +133,11 @@ prefetch
 -
 tag
 "
+"
+beacon
+-
+request
+"
 ]
 "
 optionally
