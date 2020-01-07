@@ -1609,7 +1609,8 @@ mDoDeleteSelection
 ;
 }
 ;
-NS_IMETHOD
+virtual
+nsresult
 InitRules
 (
 )
@@ -2055,7 +2056,8 @@ bool
 aDoDeleteSelection
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 PrepareTransferable
 (
 nsITransferable
