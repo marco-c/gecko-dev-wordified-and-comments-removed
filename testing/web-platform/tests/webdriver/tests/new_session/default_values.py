@@ -1,11 +1,12 @@
-import
-uuid
-import
-pytest
 from
-webdriver
+tests
+.
+support
+.
+asserts
 import
-error
+assert_error
+assert_success
 def
 test_basic
 (
@@ -14,7 +15,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -38,10 +39,17 @@ add_browser_capabilites
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
 set
 (
-resp
+value
 .
 keys
 (
@@ -65,7 +73,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -89,17 +97,14 @@ add_browser_capabilites
 }
 )
     
-with
-pytest
-.
-raises
+assert_success
 (
-error
-.
-SessionNotCreatedException
+response
 )
-:
-        
+    
+response
+_
+=
 new_session
 (
 {
@@ -120,6 +125,16 @@ add_browser_capabilites
 }
 }
 )
+    
+assert_error
+(
+response
+"
+session
+not
+created
+"
+)
 def
 test_no_capabilites
 (
@@ -127,21 +142,22 @@ new_session
 )
 :
     
-with
-pytest
-.
-raises
-(
-error
-.
-InvalidArgumentException
-)
-:
-        
+response
+_
+=
 new_session
 (
 {
 }
+)
+    
+assert_error
+(
+response
+"
+invalid
+argument
+"
 )
 def
 test_missing_first_match
@@ -151,7 +167,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -174,6 +190,11 @@ add_browser_capabilites
 }
 }
 )
+    
+assert_success
+(
+response
+)
 def
 test_missing_always_match
 (
@@ -182,7 +203,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -207,6 +228,11 @@ add_browser_capabilites
 }
 }
 )
+    
+assert_success
+(
+response
+)
 def
 test_desired
 (
@@ -215,18 +241,7 @@ add_browser_capabilites
 )
 :
     
-with
-pytest
-.
-raises
-(
-error
-.
-InvalidArgumentException
-)
-:
-        
-resp
+response
 _
 =
 new_session
@@ -243,6 +258,15 @@ add_browser_capabilites
 )
 }
 )
+    
+assert_error
+(
+response
+"
+invalid
+argument
+"
+)
 def
 test_ignore_non_spec_fields_in_capabilities
 (
@@ -251,7 +275,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -262,6 +286,7 @@ capabilities
 "
 :
 {
+        
 "
 alwaysMatch
 "
@@ -271,6 +296,7 @@ add_browser_capabilites
 {
 }
 )
+        
 "
 desiredCapbilities
 "
@@ -284,12 +310,20 @@ pageLoadStrategy
 eager
 "
 }
+    
 }
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
-resp
+value
 [
 "
 capabilities
@@ -313,7 +347,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -324,12 +358,12 @@ capabilities
 "
 :
 {
-      
 "
 firstMatch
 "
 :
 [
+        
 add_browser_capabilites
 (
 {
@@ -349,7 +383,7 @@ unmatchable
 True
 }
 )
-                     
+        
 {
 "
 pageLoadStrategy
@@ -359,13 +393,21 @@ pageLoadStrategy
 none
 "
 }
+    
 ]
 }
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
-resp
+value
 [
 "
 capabilities

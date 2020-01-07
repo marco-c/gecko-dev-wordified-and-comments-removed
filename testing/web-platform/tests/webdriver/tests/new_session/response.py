@@ -1,14 +1,22 @@
 import
 uuid
+from
+tests
+.
+support
+.
+asserts
+import
+assert_success
 def
-test_resp_sessionid
+test_sessionid
 (
 new_session
 add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -32,16 +40,23 @@ add_browser_capabilites
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
 isinstance
 (
-resp
+value
 [
 "
 sessionId
 "
 ]
-unicode
+basestring
 )
     
 uuid
@@ -50,7 +65,7 @@ UUID
 (
 hex
 =
-resp
+value
 [
 "
 sessionId
@@ -58,14 +73,14 @@ sessionId
 ]
 )
 def
-test_resp_capabilites
+test_capabilites
 (
 new_session
 add_browser_capabilites
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -89,22 +104,17 @@ add_browser_capabilites
 }
 )
     
-assert
-isinstance
+value
+=
+assert_success
 (
-resp
-[
-"
-sessionId
-"
-]
-unicode
+response
 )
     
 assert
 isinstance
 (
-resp
+value
 [
 "
 capabilities
@@ -113,47 +123,11 @@ capabilities
 dict
 )
     
-assert
-{
-"
-browserName
-"
-            
-"
-browserVersion
-"
-            
-"
-platformName
-"
-            
-"
-acceptInsecureCerts
-"
-            
-"
-setWindowRect
-"
-            
-"
-timeouts
-"
-            
-"
-proxy
-"
-            
-"
-pageLoadStrategy
-"
-}
-.
-issubset
-(
-                
+all_capabilities
+=
 set
 (
-resp
+value
 [
 "
 capabilities
@@ -164,9 +138,81 @@ keys
 (
 )
 )
+    
+expected_capabilities
+=
+{
+        
+"
+browserName
+"
+        
+"
+browserVersion
+"
+        
+"
+platformName
+"
+        
+"
+acceptInsecureCerts
+"
+        
+"
+setWindowRect
+"
+        
+"
+timeouts
+"
+        
+"
+proxy
+"
+        
+"
+pageLoadStrategy
+"
+    
+}
+    
+assert
+expected_capabilities
+.
+issubset
+(
+all_capabilities
+)
+(
+        
+"
+{
+0
+}
+cannot
+be
+found
+in
+{
+1
+}
+"
+.
+format
+(
+            
+list
+(
+expected_capabilities
+-
+all_capabilities
+)
+all_capabilities
+)
 )
 def
-test_resp_data
+test_data
 (
 new_session
 add_browser_capabilites
@@ -174,7 +220,7 @@ platform_name
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -198,10 +244,17 @@ add_browser_capabilites
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
 isinstance
 (
-resp
+value
 [
 "
 capabilities
@@ -212,13 +265,13 @@ capabilities
 browserName
 "
 ]
-unicode
+basestring
 )
     
 assert
 isinstance
 (
-resp
+value
 [
 "
 capabilities
@@ -229,7 +282,7 @@ capabilities
 browserVersion
 "
 ]
-unicode
+basestring
 )
     
 if
@@ -237,7 +290,7 @@ platform_name
 :
         
 assert
-resp
+value
 [
 "
 capabilities
@@ -260,7 +313,7 @@ assert
 platformName
 "
 in
-resp
+value
 [
 "
 capabilities
@@ -268,7 +321,7 @@ capabilities
 ]
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -285,7 +338,7 @@ False
 assert
 isinstance
 (
-resp
+value
 [
 "
 capabilities
@@ -300,7 +353,7 @@ bool
 )
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -321,7 +374,7 @@ implicit
 0
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -342,7 +395,7 @@ pageLoad
 300000
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -363,7 +416,7 @@ script
 30000
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -380,7 +433,7 @@ proxy
 }
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -405,7 +458,7 @@ platform_name
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -416,6 +469,7 @@ capabilities
 "
 :
 {
+        
 "
 alwaysMatch
 "
@@ -436,12 +490,20 @@ implicit
 }
 }
 )
+    
 }
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
-resp
+value
 [
 "
 capabilities
@@ -484,7 +546,7 @@ platform_name
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -495,6 +557,7 @@ capabilities
 "
 :
 {
+        
 "
 alwaysMatch
 "
@@ -515,8 +578,15 @@ eager
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
-resp
+value
 [
 "
 capabilities
