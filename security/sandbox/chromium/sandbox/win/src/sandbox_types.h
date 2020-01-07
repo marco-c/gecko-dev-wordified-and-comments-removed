@@ -29,6 +29,15 @@ h
 namespace
 sandbox
 {
+#
+ifdef
+__MINGW32__
+#
+define
+_Copy_s
+copy
+#
+endif
 enum
 ResultCode
 :

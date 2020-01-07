@@ -52,3 +52,6 @@ patch
 mingw_msvc_requirement_error
 .
 patch
+mingw_copy_s
+.
+patch
