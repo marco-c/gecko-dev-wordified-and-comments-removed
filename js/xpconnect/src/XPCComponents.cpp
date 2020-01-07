@@ -13530,7 +13530,7 @@ NS_IMETHODIMP
 nsXPCComponents_Utils
 :
 :
-ReadFile
+ReadUTF8File
 (
 nsIFile
 *
@@ -13566,7 +13566,7 @@ NS_IMETHODIMP
 nsXPCComponents_Utils
 :
 :
-ReadURI
+ReadUTF8URI
 (
 nsIURI
 *
