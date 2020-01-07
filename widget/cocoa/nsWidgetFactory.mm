@@ -448,7 +448,7 @@ nsDeviceContextSpecX
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsPrintOptionsX
+nsPrintSettingsServiceX
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
@@ -928,7 +928,7 @@ nsPrintSessionConstructor
 kNS_PRINTSETTINGSSERVICE_CID
 false
 NULL
-nsPrintOptionsXConstructor
+nsPrintSettingsServiceXConstructor
 }
 {
 &

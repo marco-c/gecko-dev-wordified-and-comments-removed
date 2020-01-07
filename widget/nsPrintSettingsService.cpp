@@ -187,7 +187,7 @@ RemotePrintJobChild
 ;
 NS_IMPL_ISUPPORTS
 (
-nsPrintOptions
+nsPrintSettingsService
 nsIPrintSettingsService
 )
 static
@@ -655,25 +655,8 @@ printerenumerator
 ;
 1
 "
-nsPrintOptions
-:
-:
-nsPrintOptions
-(
-)
-{
-}
-nsPrintOptions
-:
-:
-~
-nsPrintOptions
-(
-)
-{
-}
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 Init
@@ -685,7 +668,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 SerializeToPrintData
@@ -1618,7 +1601,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 DeserializeToPrintSettings
@@ -2314,7 +2297,7 @@ NS_OK
 const
 char
 *
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 GetPrefName
@@ -2691,7 +2674,7 @@ _a3
 #
 endif
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadPrefs
@@ -4307,7 +4290,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WritePrefs
@@ -5972,7 +5955,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 _CreatePrintSettings
@@ -6053,7 +6036,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 GetGlobalPrintSettings
@@ -6100,7 +6083,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 GetNewPrintSettings
@@ -6119,7 +6102,7 @@ aNewPrintSettings
 ;
 }
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 GetDefaultPrinterName
@@ -6285,7 +6268,7 @@ aDefaultPrinterName
 ;
 }
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 InitPrintSettingsFromPrinter
@@ -6587,7 +6570,7 @@ NS_OK
 #
 endif
 NS_IMETHODIMP
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 InitPrintSettingsFromPrefs
@@ -6719,7 +6702,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 SavePrintSettingsToPrefs
@@ -6807,7 +6790,7 @@ aFlags
 ;
 }
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadPrefDouble
@@ -6874,7 +6857,7 @@ rv
 ;
 }
 nsresult
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WritePrefDouble
@@ -6927,7 +6910,7 @@ str
 ;
 }
 void
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadInchesToTwipsPref
@@ -7043,7 +7026,7 @@ aTwips
 }
 }
 void
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WriteInchesFromTwipsPref
@@ -7085,7 +7068,7 @@ inchesStr
 ;
 }
 void
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadInchesIntToTwipsPref
@@ -7172,7 +7155,7 @@ aTwips
 }
 }
 void
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WriteInchesIntFromTwipsPref
@@ -7210,7 +7193,7 @@ aTwips
 ;
 }
 void
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadJustification
@@ -7298,7 +7281,7 @@ kJustLeft
 }
 }
 void
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WriteJustification
@@ -7401,7 +7384,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIPrintOptions
+nsIPrintSettingsService
 >
 printService
 =

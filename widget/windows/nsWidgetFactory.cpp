@@ -662,7 +662,7 @@ Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsPrintOptionsWin
+nsPrintSettingsServiceWin
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -1080,7 +1080,7 @@ MAIN_PROCESS_ONLY
 kNS_PRINTSETTINGSSERVICE_CID
 false
 nullptr
-nsPrintOptionsWinConstructor
+nsPrintSettingsServiceWinConstructor
 }
 {
 &

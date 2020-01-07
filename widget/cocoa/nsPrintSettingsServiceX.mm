@@ -149,25 +149,8 @@ mozilla
 :
 embedding
 ;
-nsPrintOptionsX
-:
-:
-nsPrintOptionsX
-(
-)
-{
-}
-nsPrintOptionsX
-:
-:
-~
-nsPrintOptionsX
-(
-)
-{
-}
 NS_IMETHODIMP
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 SerializeToPrintData
@@ -186,7 +169,7 @@ data
 nsresult
 rv
 =
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 SerializeToPrintData
@@ -295,7 +278,7 @@ data
 ;
 }
 nsresult
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 SerializeToPrintDataChild
@@ -541,7 +524,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 SerializeToPrintDataParent
@@ -1207,7 +1190,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 DeserializeToPrintSettings
@@ -1224,7 +1207,7 @@ settings
 nsresult
 rv
 =
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 DeserializeToPrintSettings
@@ -1336,7 +1319,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 ReadPrefs
@@ -1357,7 +1340,7 @@ rv
 ;
 rv
 =
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadPrefs
@@ -1374,7 +1357,7 @@ NS_SUCCEEDED
 rv
 )
 "
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 ReadPrefs
@@ -1418,7 +1401,7 @@ NS_OK
 ;
 }
 nsresult
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 _CreatePrintSettings
@@ -1508,7 +1491,7 @@ rv
 ;
 }
 nsresult
-nsPrintOptionsX
+nsPrintSettingsServiceX
 :
 :
 WritePrefs
@@ -1529,7 +1512,7 @@ rv
 ;
 rv
 =
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WritePrefs
@@ -1546,7 +1529,7 @@ NS_SUCCEEDED
 rv
 )
 "
-nsPrintOptions
+nsPrintSettingsService
 :
 :
 WritePrefs

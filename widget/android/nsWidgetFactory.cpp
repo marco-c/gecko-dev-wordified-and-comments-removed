@@ -193,7 +193,7 @@ nsClipboardHelper
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsPrintOptionsAndroid
+nsPrintSettingsServiceAndroid
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
@@ -478,7 +478,7 @@ nsClipboardHelperConstructor
 kNS_PRINTSETTINGSSERVICE_CID
 false
 nullptr
-nsPrintOptionsAndroidConstructor
+nsPrintSettingsServiceAndroidConstructor
 }
 {
 &

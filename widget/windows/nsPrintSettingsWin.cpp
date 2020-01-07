@@ -1702,7 +1702,7 @@ DEBUG_rodsX
 #
 include
 "
-nsIPrintOptions
+nsIPrintSettingsService
 .
 h
 "
@@ -1742,7 +1742,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIPrintOptions
+nsIPrintSettingsService
 >
 printService
 =

@@ -511,7 +511,7 @@ nsDeviceContextSpecGTK
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsPrintOptionsGTK
+nsPrintSettingsServiceGTK
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -1119,7 +1119,7 @@ NS_PRINTING
 kNS_PRINTSETTINGSSERVICE_CID
 false
 nullptr
-nsPrintOptionsGTKConstructor
+nsPrintSettingsServiceGTKConstructor
 }
 {
 &
