@@ -1460,8 +1460,6 @@ CFLAGS
 "
 CFLAGS
 -
-TC
--
 nologo
 "
 CXXFLAGS
@@ -4814,8 +4812,6 @@ HOST_CFLAGS
 =
 "
 HOST_CFLAGS
--
-TC
 -
 nologo
 "
