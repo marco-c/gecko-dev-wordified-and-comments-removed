@@ -7361,8 +7361,9 @@ REPORT_BUILD
 (
 AS
 )
--
-o
+(
+ASOUTOPTION
+)
 (
 SFLAGS
 )
