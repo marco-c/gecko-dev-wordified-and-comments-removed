@@ -37959,7 +37959,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -38018,7 +38018,7 @@ sheetCount
 i
 )
 {
-ServoStyleSheet
+StyleSheet
 *
 sheet
 =
@@ -38057,7 +38057,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -43366,7 +43366,7 @@ i
 +
 )
 {
-ServoStyleSheet
+StyleSheet
 *
 ss
 =
@@ -43490,7 +43490,7 @@ i
 +
 )
 {
-ServoStyleSheet
+StyleSheet
 *
 ss
 =
@@ -43551,7 +43551,7 @@ i
 +
 )
 {
-ServoStyleSheet
+StyleSheet
 *
 ss
 =

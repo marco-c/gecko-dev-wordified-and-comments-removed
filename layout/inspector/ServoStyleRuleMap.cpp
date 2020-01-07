@@ -126,7 +126,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -267,7 +267,7 @@ ServoStyleRuleMap
 :
 SheetAdded
 (
-ServoStyleSheet
+StyleSheet
 &
 aStyleSheet
 )
@@ -293,7 +293,7 @@ ServoStyleRuleMap
 :
 SheetRemoved
 (
-ServoStyleSheet
+StyleSheet
 &
 aStyleSheet
 )
@@ -311,7 +311,7 @@ ServoStyleRuleMap
 :
 RuleAdded
 (
-ServoStyleSheet
+StyleSheet
 &
 aStyleSheet
 css
@@ -343,7 +343,7 @@ ServoStyleRuleMap
 :
 RuleRemoved
 (
-ServoStyleSheet
+StyleSheet
 &
 aStyleSheet
 css
@@ -738,7 +738,7 @@ ServoStyleRuleMap
 :
 FillTableFromStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 &
 aSheet
 )

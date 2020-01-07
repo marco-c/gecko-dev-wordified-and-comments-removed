@@ -3881,7 +3881,7 @@ aPresContext
 aSheet
 =
 new
-ServoStyleSheet
+StyleSheet
 (
 eAgentSheetFeatures
 CORS_NONE

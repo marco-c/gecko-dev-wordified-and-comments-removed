@@ -120,7 +120,7 @@ include
 "
 mozilla
 /
-ServoStyleSheet
+ServoSupportsRule
 .
 h
 "
@@ -129,7 +129,7 @@ include
 "
 mozilla
 /
-ServoSupportsRule
+StyleSheet
 .
 h
 "
@@ -153,7 +153,7 @@ already_AddRefed
 ServoCssRules
 >
 aRawRules
-ServoStyleSheet
+StyleSheet
 *
 aDirectOwnerStyleSheet
 )

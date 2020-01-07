@@ -9334,7 +9334,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 agentSheets
@@ -9890,7 +9890,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 agentSheets

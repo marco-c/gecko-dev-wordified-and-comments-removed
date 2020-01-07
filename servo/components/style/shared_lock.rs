@@ -1289,7 +1289,7 @@ gecko_bindings
 structs
 :
 :
-ServoStyleSheet
+StyleSheet
 }
 #
 [

@@ -129,7 +129,7 @@ aParentRule
 void
 SetStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -166,7 +166,7 @@ aSheet
 }
 }
 }
-ServoStyleSheet
+StyleSheet
 *
 GetParentObject
 (
@@ -528,7 +528,7 @@ mRawRule
 nullptr
 ;
 }
-ServoStyleSheet
+StyleSheet
 *
 mStyleSheet
 =

@@ -1117,7 +1117,9 @@ structs
 :
 :
 {
-ServoStyleSheet
+StyleSheet
+as
+DomStyleSheet
 SheetLoadData
 SheetLoadDataHolder
 }
@@ -7694,7 +7696,7 @@ stylesheet
 :
 *
 mut
-ServoStyleSheet
+DomStyleSheet
 load_data
 :
 *
@@ -8050,7 +8052,7 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -8223,7 +8225,7 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -8304,12 +8306,12 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 before_sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -8392,7 +8394,7 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -9000,7 +9002,7 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -9090,12 +9092,12 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 before_sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -9195,7 +9197,7 @@ sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 {
 let
@@ -9616,7 +9618,7 @@ reference_sheet
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 -
 >
@@ -10495,7 +10497,7 @@ gecko_stylesheet
 :
 *
 mut
-ServoStyleSheet
+DomStyleSheet
 rule_type
 :
 *
@@ -12962,7 +12964,7 @@ RawServoImportRuleBorrowed
 >
 *
 const
-ServoStyleSheet
+DomStyleSheet
 {
 read_locked_arc
 (
@@ -12992,7 +12994,7 @@ raw
 as
 *
 const
-ServoStyleSheet
+DomStyleSheet
 }
 )
 }
@@ -13015,7 +13017,7 @@ sheet
 :
 *
 mut
-ServoStyleSheet
+DomStyleSheet
 )
 {
 write_locked_arc

@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-ServoStyleSheet
+StyleSheet
 .
 h
 "
@@ -80,7 +80,7 @@ mChildSheet
 =
 const_cast
 <
-ServoStyleSheet
+StyleSheet
 *
 >
 (

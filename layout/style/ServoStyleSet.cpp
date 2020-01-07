@@ -2892,7 +2892,7 @@ AppendStyleSheet
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3000,7 +3000,7 @@ PrependStyleSheet
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3108,7 +3108,7 @@ RemoveStyleSheet
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3184,7 +3184,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -3311,10 +3311,10 @@ InsertStyleSheetBefore
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aNewSheet
-ServoStyleSheet
+StyleSheet
 *
 aReferenceSheet
 )
@@ -3481,7 +3481,7 @@ Length
 )
 ;
 }
-ServoStyleSheet
+StyleSheet
 *
 ServoStyleSet
 :
@@ -3599,7 +3599,7 @@ ServoStyleSet
 :
 RemoveDocStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3621,7 +3621,7 @@ ServoStyleSet
 :
 AddDocStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 nsIDocument
@@ -3715,7 +3715,7 @@ Length
 )
 )
 {
-ServoStyleSheet
+StyleSheet
 *
 beforeSheet
 =
@@ -4660,7 +4660,7 @@ ServoStyleSet
 :
 RuleAdded
 (
-ServoStyleSheet
+StyleSheet
 &
 aSheet
 css
@@ -4702,7 +4702,7 @@ ServoStyleSet
 :
 RuleRemoved
 (
-ServoStyleSheet
+StyleSheet
 &
 aSheet
 css
@@ -4744,7 +4744,7 @@ ServoStyleSet
 :
 RuleChanged
 (
-ServoStyleSheet
+StyleSheet
 &
 aSheet
 css
@@ -6379,7 +6379,7 @@ PrependSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -6412,7 +6412,7 @@ AppendSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -6444,10 +6444,10 @@ InsertSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
-ServoStyleSheet
+StyleSheet
 *
 aBeforeSheet
 )
@@ -6521,7 +6521,7 @@ RemoveSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )

@@ -105,7 +105,9 @@ structs
 :
 :
 {
-ServoStyleSheet
+StyleSheet
+as
+DomStyleSheet
 SheetLoadData
 SheetLoadDataHolder
 }
@@ -236,7 +238,7 @@ mut
 Loader
 *
 mut
-ServoStyleSheet
+DomStyleSheet
 *
 mut
 SheetLoadData
@@ -261,7 +263,7 @@ parent
 :
 *
 mut
-ServoStyleSheet
+DomStyleSheet
 parent_load_data
 :
 *
