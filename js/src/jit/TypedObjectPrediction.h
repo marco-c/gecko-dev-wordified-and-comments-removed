@@ -359,7 +359,7 @@ out
 )
 const
 ;
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -368,10 +368,7 @@ scalarType
 )
 const
 ;
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 referenceType
 (
 )

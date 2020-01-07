@@ -14345,10 +14345,7 @@ nullptr
 }
 else
 {
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 =
 ReferenceTypeFromSimpleTypeDescrKey
@@ -14362,7 +14359,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -14382,7 +14379,7 @@ valueReg
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -14469,7 +14466,7 @@ break
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -15705,10 +15702,7 @@ emitStoreTypedObjectReferenceProp
 (
 ValueOperand
 val
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 const
 Address
@@ -15724,7 +15718,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -15750,7 +15744,7 @@ dest
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -15838,7 +15832,7 @@ break
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING

@@ -1352,7 +1352,10 @@ t
 return
 ReferenceSizes
 [
+uint32_t
+(
 t
+)
 ]
 ;
 }
@@ -1369,7 +1372,10 @@ t
 return
 ReferenceSizes
 [
+uint32_t
+(
 t
+)
 ]
 ;
 }
@@ -1536,7 +1542,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -1559,7 +1565,7 @@ return
 true
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -1604,7 +1610,7 @@ true
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -3427,10 +3433,7 @@ Layout
 :
 addReference
 (
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 )
 {
@@ -5252,7 +5255,10 @@ initReservedSlot
 JS_DESCR_SLOT_TYPE
 Int32Value
 (
+int32_t
+(
 type
+)
 )
 )
 ;
@@ -14708,7 +14714,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -14747,7 +14753,7 @@ return
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -14784,7 +14790,7 @@ return
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -14990,7 +14996,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -15027,7 +15033,7 @@ return
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -15064,7 +15070,7 @@ return
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -15237,7 +15243,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -15250,7 +15256,7 @@ valueOffsets
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -15263,7 +15269,7 @@ objectOffsets
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING

@@ -789,10 +789,7 @@ ScalarTypeDescr
 )
 ;
 }
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 TypedObjectPrediction
 :
 :

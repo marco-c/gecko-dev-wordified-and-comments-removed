@@ -7647,10 +7647,7 @@ Uint32
 }
 else
 {
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 =
 ReferenceTypeFromSimpleTypeDescrKey
@@ -7663,7 +7660,7 @@ monitorLoad
 type
 !
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -16287,10 +16284,7 @@ return
 true
 ;
 }
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 =
 fieldDescr
@@ -16313,7 +16307,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -16321,7 +16315,7 @@ TYPE_ANY
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -16336,7 +16330,7 @@ rhsId
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING

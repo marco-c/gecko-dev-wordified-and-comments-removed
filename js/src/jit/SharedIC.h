@@ -8763,10 +8763,7 @@ key
 ;
 }
 inline
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 ReferenceTypeFromSimpleTypeDescrKey
 (
 uint32_t
@@ -8783,10 +8780,7 @@ key
 )
 ;
 return
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 (
 key
 >

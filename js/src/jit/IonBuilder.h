@@ -1882,10 +1882,7 @@ const
 LinearSum
 &
 byteOffset
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 MDefinition
 *
@@ -2480,10 +2477,7 @@ const
 LinearSum
 &
 byteOffset
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 PropertyName
 *
