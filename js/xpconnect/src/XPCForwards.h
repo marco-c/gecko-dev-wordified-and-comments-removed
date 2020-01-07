@@ -71,9 +71,6 @@ class
 NativeSetMap
 ;
 class
-IID2ThisTranslatorMap
-;
-class
 XPCWrappedNativeProtoMap
 ;
 class
