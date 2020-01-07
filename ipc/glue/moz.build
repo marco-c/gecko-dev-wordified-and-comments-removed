@@ -142,6 +142,11 @@ BrowserProcessSubThread
 h
 '
 '
+ByteBuf
+.
+h
+'
+'
 CrashReporterClient
 .
 h
