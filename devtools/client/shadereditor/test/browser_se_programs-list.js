@@ -18,20 +18,18 @@ MULTIPLE_CONTEXTS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
 L10N
-ShadersListView
-ShadersEditorsView
+shadersListView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 0
@@ -49,7 +47,7 @@ empty
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedItem
 null
@@ -67,7 +65,7 @@ item
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 -
@@ -103,7 +101,7 @@ all
 [
 getPrograms
 (
-gFront
+front
 2
 (
 actors
@@ -148,8 +146,6 @@ checkSecondProgram
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -171,7 +167,7 @@ programs
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 attachments
 [
@@ -207,7 +203,7 @@ list
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 attachments
 [
@@ -285,7 +281,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -298,7 +294,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -355,8 +351,6 @@ compiled
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -396,8 +390,6 @@ shown
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -442,7 +434,7 @@ type
 mousedown
 "
 }
-ShadersListView
+shadersListView
 .
 items
 [
@@ -457,10 +449,10 @@ shown
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedItem
-ShadersListView
+shadersListView
 .
 items
 [
@@ -481,7 +473,7 @@ selected
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 1
@@ -515,7 +507,7 @@ checkFirstProgram
 {
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 1
@@ -532,10 +524,10 @@ entry
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedItem
-ShadersListView
+shadersListView
 .
 items
 [
@@ -556,7 +548,7 @@ selected
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0
@@ -581,7 +573,7 @@ checkSecondProgram
 {
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 2
@@ -598,10 +590,10 @@ entries
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedItem
-ShadersListView
+shadersListView
 .
 items
 [
@@ -622,7 +614,7 @@ selected
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0

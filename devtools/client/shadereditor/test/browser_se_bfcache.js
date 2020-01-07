@@ -18,15 +18,13 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersListView
-ShadersEditorsView
+shadersListView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 loadFrameScripts
 (
@@ -46,7 +44,7 @@ firstProgram
 await
 once
 (
-gFront
+front
 "
 program
 -
@@ -75,7 +73,7 @@ thirdProgram
 await
 getPrograms
 (
-gFront
+front
 2
 )
 ;
@@ -86,7 +84,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -99,7 +97,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -126,8 +124,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 PROGRAMS_ADDED
@@ -137,8 +133,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -171,7 +165,7 @@ hidden
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 1
@@ -191,7 +185,7 @@ back
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0
@@ -284,8 +278,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 PROGRAMS_ADDED
@@ -295,8 +287,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -329,7 +319,7 @@ hidden
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 2
@@ -349,7 +339,7 @@ forward
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0

@@ -18,14 +18,12 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
-ShadersEditorsView
+front
+shadersEditorsView
 EVENTS
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -40,7 +38,7 @@ all
 [
 once
 (
-gFront
+front
 "
 program
 -
@@ -50,8 +48,6 @@ linked
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -63,7 +59,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -76,7 +72,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (

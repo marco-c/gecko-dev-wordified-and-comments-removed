@@ -18,14 +18,12 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersEditorsView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -40,7 +38,7 @@ all
 [
 once
 (
-gFront
+front
 "
 program
 -
@@ -50,8 +48,6 @@ linked
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -63,7 +59,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -76,7 +72,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -115,8 +111,6 @@ vertError
 =
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -170,8 +164,6 @@ ch
 ;
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -234,8 +226,6 @@ vertError
 =
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -305,8 +295,6 @@ fragError
 await
 panel
 .
-panelWin
-.
 once
 (
 EVENTS
@@ -365,8 +353,6 @@ ch
 ;
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -435,8 +421,6 @@ fragError
 =
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -509,8 +493,6 @@ ch
 await
 panel
 .
-panelWin
-.
 once
 (
 EVENTS
@@ -558,8 +540,6 @@ vertError
 =
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -767,7 +747,7 @@ line
 const
 parsed
 =
-ShadersEditorsView
+shadersEditorsView
 .
 _errors
 .
@@ -1118,7 +1098,7 @@ line
 const
 parsed
 =
-ShadersEditorsView
+shadersEditorsView
 .
 _errors
 .
@@ -1434,7 +1414,7 @@ line
 const
 parsed
 =
-ShadersEditorsView
+shadersEditorsView
 .
 _errors
 .

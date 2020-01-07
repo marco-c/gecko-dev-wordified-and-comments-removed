@@ -18,15 +18,13 @@ MULTIPLE_CONTEXTS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersListView
-ShadersEditorsView
+shadersListView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -41,7 +39,7 @@ all
 [
 once
 (
-gFront
+front
 "
 program
 -
@@ -50,7 +48,7 @@ linked
 )
 once
 (
-gFront
+front
 "
 program
 -
@@ -64,8 +62,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -75,7 +71,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -88,7 +84,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -99,7 +95,7 @@ fs
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0
@@ -284,8 +280,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -321,8 +315,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -345,7 +337,7 @@ changed
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -378,7 +370,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -411,7 +403,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -444,7 +436,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -477,7 +469,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -510,7 +502,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -543,7 +535,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -576,7 +568,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -633,7 +625,7 @@ type
 mousedown
 "
 }
-ShadersListView
+shadersListView
 .
 items
 [
@@ -647,8 +639,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -656,7 +646,7 @@ SOURCES_SHOWN
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 1
@@ -818,7 +808,7 @@ type
 mousedown
 "
 }
-ShadersListView
+shadersListView
 .
 items
 [
@@ -832,8 +822,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -841,7 +829,7 @@ SOURCES_SHOWN
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0

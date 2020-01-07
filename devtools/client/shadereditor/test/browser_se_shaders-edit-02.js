@@ -18,14 +18,12 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersEditorsView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -40,7 +38,7 @@ all
 [
 once
 (
-gFront
+front
 "
 program
 -
@@ -50,8 +48,6 @@ linked
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -63,7 +59,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -76,7 +72,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -115,8 +111,6 @@ error
 =
 await
 panel
-.
-panelWin
 .
 once
 (
@@ -339,8 +333,6 @@ error
 await
 panel
 .
-panelWin
-.
 once
 (
 EVENTS
@@ -469,7 +461,7 @@ log
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -498,7 +490,7 @@ true
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -554,8 +546,6 @@ error
 await
 panel
 .
-panelWin
-.
 once
 (
 EVENTS
@@ -610,8 +600,6 @@ error
 await
 panel
 .
-panelWin
-.
 once
 (
 EVENTS
@@ -639,7 +627,7 @@ successfully
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -668,7 +656,7 @@ true
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :

@@ -18,13 +18,11 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
-ShadersEditorsView
+front
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -34,7 +32,7 @@ target
 await
 once
 (
-gFront
+front
 "
 program
 -
@@ -46,7 +44,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -59,7 +57,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -120,7 +118,7 @@ const
 vsEditor2
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -133,7 +131,7 @@ const
 fsEditor2
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (

@@ -18,15 +18,13 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersListView
-ShadersEditorsView
+shadersListView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -41,7 +39,7 @@ all
 [
 once
 (
-gFront
+front
 "
 program
 -
@@ -51,8 +49,6 @@ linked
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -150,7 +146,7 @@ anymore
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 1
@@ -167,10 +163,10 @@ entry
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedItem
-ShadersListView
+shadersListView
 .
 items
 [
@@ -191,7 +187,7 @@ selected
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 0
@@ -212,7 +208,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -225,7 +221,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -336,8 +332,6 @@ navigating
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 UI_RESET
@@ -441,7 +435,7 @@ content
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 itemCount
 0
@@ -458,7 +452,7 @@ empty
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedItem
 null
@@ -476,7 +470,7 @@ item
 ;
 is
 (
-ShadersListView
+shadersListView
 .
 selectedIndex
 -
