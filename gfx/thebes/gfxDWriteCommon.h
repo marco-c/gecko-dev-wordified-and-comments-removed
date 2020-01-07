@@ -422,12 +422,12 @@ static
 HRESULT
 CreateCustomFontFile
 (
-FallibleTArray
-<
+const
 uint8_t
->
-&
+*
 aFontData
+uint32_t
+aLength
 IDWriteFontFile
 *
 *
