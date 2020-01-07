@@ -85,6 +85,13 @@ h
 #
 include
 "
+DesktopFlingPhysics
+.
+h
+"
+#
+include
+"
 FrameMetrics
 .
 h
@@ -960,6 +967,9 @@ aHandoffState
 return
 new
 GenericFlingAnimation
+<
+DesktopFlingPhysics
+>
 (
 aApzc
 aHandoffState
