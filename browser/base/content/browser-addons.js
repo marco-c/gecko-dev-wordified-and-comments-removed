@@ -3065,7 +3065,7 @@ button
 addEventListener
 (
 "
-click
+command
 "
 callback
 )
@@ -3278,6 +3278,12 @@ evt
 =
 >
 {
+PanelUI
+.
+hide
+(
+)
+;
 ExtensionsUI
 .
 showSideloaded
