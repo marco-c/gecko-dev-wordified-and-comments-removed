@@ -18229,8 +18229,10 @@ if
 (
 !
 aMultiprocessCompatible
-&
-&
+)
+{
+if
+(
 Services
 .
 prefs
@@ -18277,6 +18279,7 @@ aId
 interposition
 )
 ;
+}
 Cu
 .
 allowCPOWsInAddon
