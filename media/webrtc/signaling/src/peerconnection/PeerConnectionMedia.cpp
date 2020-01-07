@@ -2709,10 +2709,6 @@ rv
 )
 )
 {
-MOZ_CRASH
-(
-)
-;
 return
 rv
 ;
@@ -2746,10 +2742,6 @@ rv
 )
 )
 {
-MOZ_CRASH
-(
-)
-;
 return
 rv
 ;
