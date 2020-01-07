@@ -993,6 +993,9 @@ argsobj
 return
 false
 ;
+#
+ifndef
+JS_CODEGEN_NONE
 JSScript
 *
 script
@@ -1012,6 +1015,8 @@ cx
 script
 )
 ;
+#
+endif
 args
 .
 rval
