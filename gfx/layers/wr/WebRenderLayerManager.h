@@ -940,15 +940,6 @@ ImageKey
 >
 mImageKeysToDelete
 ;
-nsTArray
-<
-wr
-:
-:
-ImageKey
->
-mImageKeysToDeleteLater
-;
 std
 :
 :
