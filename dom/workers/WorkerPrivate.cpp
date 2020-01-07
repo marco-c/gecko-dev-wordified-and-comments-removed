@@ -19583,6 +19583,12 @@ nsIDocument
 >
 document
 ;
+Maybe
+<
+ClientInfo
+>
+clientInfo
+;
 if
 (
 globalWindow
@@ -19741,6 +19747,15 @@ loadInfo
 .
 mLoadGroup
 NS_ERROR_FAILURE
+)
+;
+clientInfo
+=
+globalWindow
+-
+>
+GetClientInfo
+(
 )
 ;
 if
@@ -20281,6 +20296,7 @@ loadInfo
 .
 mLoadGroup
 aScriptURL
+clientInfo
 ContentPolicyType
 (
 aWorkerType
