@@ -4672,7 +4672,7 @@ file_lines
 '
 mfbt
 /
-Assertions
+Sprintf
 .
 h
 '
