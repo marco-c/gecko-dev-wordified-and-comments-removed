@@ -153,13 +153,6 @@ lazy
 -
 require
 "
-"
-rewrite
--
-lazy
--
-getter
-"
 ]
 }
 ]
