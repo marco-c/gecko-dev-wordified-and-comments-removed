@@ -342,10 +342,12 @@ psutil_NtQueryObject
 void
 )
 ;
-void
+DWORD
+WINAPI
 psutil_NtQueryObjectThread
 (
-void
+LPVOID
+lpvParam
 )
 ;
 #
