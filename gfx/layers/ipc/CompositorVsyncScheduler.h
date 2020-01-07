@@ -187,11 +187,8 @@ TimeStamp
 GetLastComposeTime
 (
 )
-{
-return
-mLastCompose
+const
 ;
-}
 #
 ifdef
 COMPOSITOR_PERFORMANCE_WARNING
