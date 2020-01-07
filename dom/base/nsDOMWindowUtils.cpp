@@ -2000,10 +2000,14 @@ presShell
 >
 FlushPendingNotifications
 (
+ChangesToFlush
+(
 FlushType
 :
 :
 Display
+false
+)
 )
 ;
 RefPtr
@@ -12540,7 +12544,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 nsComputedDOMStyle
 :
@@ -12560,7 +12564,7 @@ ComputeDistance
 (
 property
 v2
-computedStyle
+styleContext
 )
 ;
 return
@@ -12959,7 +12963,7 @@ RefPtr
 <
 ComputedStyle
 >
-computedStyle
+styleContext
 =
 nsComputedDOMStyle
 :
@@ -12973,7 +12977,7 @@ pseudo
 if
 (
 !
-computedStyle
+styleContext
 )
 {
 return
@@ -12988,7 +12992,12 @@ value
 =
 Servo_ComputedValues_ExtractAnimationValue
 (
-computedStyle
+styleContext
+-
+>
+AsServo
+(
+)
 propertyID
 )
 .
