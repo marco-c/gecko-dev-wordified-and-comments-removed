@@ -2571,6 +2571,14 @@ contextData
 srcUrl
 ;
 }
+if
+(
+!
+contextData
+.
+onBookmark
+)
+{
 info
 .
 pageUrl
@@ -2579,6 +2587,7 @@ contextData
 .
 pageUrl
 ;
+}
 if
 (
 contextData
