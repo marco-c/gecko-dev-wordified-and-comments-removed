@@ -538,9 +538,9 @@ xptiInterfaceEntry
 Create
 (
 const
-XPTInterfaceDirectoryEntry
+XPTInterfaceDescriptor
 *
-aEntry
+aIface
 xptiTypelibGuts
 *
 aTypelib
@@ -1140,9 +1140,9 @@ private
 xptiInterfaceEntry
 (
 const
-XPTInterfaceDirectoryEntry
+XPTInterfaceDescriptor
 *
-aDescriptor
+aIface
 xptiTypelibGuts
 *
 aTypelib

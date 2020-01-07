@@ -64,7 +64,7 @@ class
 nsIMemoryReporter
 ;
 struct
-XPTInterfaceDirectoryEntry
+XPTInterfaceDescriptor
 ;
 class
 xptiInterfaceEntry
@@ -172,7 +172,7 @@ void
 VerifyAndAddEntryIfNew
 (
 const
-XPTInterfaceDirectoryEntry
+XPTInterfaceDescriptor
 *
 iface
 uint16_t
