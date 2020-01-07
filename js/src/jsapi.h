@@ -23113,6 +23113,12 @@ JS
 RootedObject
 iterator
 ;
+JS
+:
+:
+RootedValue
+nextMethod
+;
 uint32_t
 index
 ;
@@ -23161,6 +23167,10 @@ cx
 iterator
 (
 cx_
+)
+nextMethod
+(
+cx
 )
 index
 (
@@ -23228,11 +23238,6 @@ val
 bool
 *
 done
-)
-;
-bool
-materializeArrayIterator
-(
 )
 ;
 }
