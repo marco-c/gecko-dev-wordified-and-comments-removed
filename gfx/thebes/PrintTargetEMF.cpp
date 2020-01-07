@@ -742,9 +742,6 @@ PrintTargetEMF
 :
 GetReferenceDrawTarget
 (
-DrawEventRecorder
-*
-aRecorder
 )
 {
 if
@@ -791,7 +788,6 @@ mRefTarget
 >
 GetReferenceDrawTarget
 (
-aRecorder
 )
 ;
 }

@@ -155,9 +155,6 @@ DrawTarget
 >
 GetReferenceDrawTarget
 (
-DrawEventRecorder
-*
-aRecorder
 )
 override
 final
