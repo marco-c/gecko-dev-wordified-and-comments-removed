@@ -4883,16 +4883,6 @@ currentMaxAudioChannels
 insertBasicInfo
 (
 "
-channelLayout
-"
-data
-.
-currentPreferredChannelLayout
-)
-;
-insertBasicInfo
-(
-"
 sampleRate
 "
 data

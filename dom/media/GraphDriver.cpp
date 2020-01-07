@@ -3073,14 +3073,7 @@ output
 .
 layout
 =
-CubebUtils
-:
-:
-GetPreferredChannelLayoutOrSMPTE
-(
-cubebContext
-mOutputChannels
-)
+CUBEB_LAYOUT_UNDEFINED
 ;
 output
 .

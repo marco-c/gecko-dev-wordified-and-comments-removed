@@ -3325,14 +3325,6 @@ currentMaxAudioChannels
 ;
 data
 .
-currentPreferredChannelLayout
-=
-winUtils
-.
-currentPreferredChannelLayout
-;
-data
-.
 currentPreferredSampleRate
 =
 winUtils
