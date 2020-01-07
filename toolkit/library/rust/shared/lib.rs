@@ -31,11 +31,15 @@ xpcom
 ;
 extern
 crate
-rust_url_capi
+netwerk_helper
 ;
 extern
 crate
-netwerk_helper
+prefs_parser
+;
+extern
+crate
+rust_url_capi
 ;
 #
 [
