@@ -1042,7 +1042,6 @@ NSMODULE_DEFN
 end_kPStaticModules
 )
 ;
-MOZ_ASAN_BLACKLIST
 void
 nsComponentManagerImpl
 :
@@ -1104,12 +1103,6 @@ end_kPStaticModules
 +
 staticModules
 )
-if
-(
-*
-staticModules
-)
-{
 sStaticModules
 -
 >
@@ -1119,7 +1112,6 @@ AppendElement
 staticModules
 )
 ;
-}
 }
 nsTArray
 <
