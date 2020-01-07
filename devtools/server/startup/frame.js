@@ -227,7 +227,7 @@ else
 {
 const
 {
-ContentActor
+FrameTargetActor
 }
 =
 require
@@ -239,14 +239,16 @@ server
 /
 actors
 /
-content
+targets
+/
+frame
 "
 )
 ;
 actor
 =
 new
-ContentActor
+FrameTargetActor
 (
 conn
 chromeGlobal

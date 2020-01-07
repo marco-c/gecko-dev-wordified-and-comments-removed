@@ -72,7 +72,7 @@ protocol
 ;
 const
 {
-browsingContextTargetSpec
+frameTargetSpec
 }
 =
 require
@@ -86,14 +86,12 @@ specs
 /
 targets
 /
-browsing
--
-context
+frame
 "
 )
 ;
 const
-contentPrototype
+frameTargetPrototype
 =
 extend
 (
@@ -102,7 +100,7 @@ extend
 browsingContextTargetPrototype
 )
 ;
-contentPrototype
+frameTargetPrototype
 .
 initialize
 =
@@ -196,7 +194,7 @@ Object
 .
 defineProperty
 (
-contentPrototype
+frameTargetPrototype
 "
 title
 "
@@ -226,7 +224,7 @@ true
 }
 )
 ;
-contentPrototype
+frameTargetPrototype
 .
 exit
 =
@@ -308,7 +306,7 @@ null
 ;
 }
 ;
-contentPrototype
+frameTargetPrototype
 .
 _sendForm
 =
@@ -338,11 +336,11 @@ form
 ;
 exports
 .
-ContentActor
+FrameTargetActor
 =
 ActorClassWithSpec
 (
-browsingContextTargetSpec
-contentPrototype
+frameTargetSpec
+frameTargetPrototype
 )
 ;
