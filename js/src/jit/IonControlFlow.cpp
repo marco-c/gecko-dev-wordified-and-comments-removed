@@ -4689,7 +4689,7 @@ SRC_FOR_OF
 )
 stackPhiCount
 =
-2
+3
 ;
 else
 if

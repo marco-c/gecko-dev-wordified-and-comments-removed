@@ -2622,6 +2622,17 @@ tn
 stackDepth
 -
 1
+|
+|
+stackDepth
+=
+=
+tn
+-
+>
+stackDepth
+-
+2
 )
 return
 true
