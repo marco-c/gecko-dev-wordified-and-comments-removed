@@ -482,6 +482,15 @@ AutoObjectVector
 promises
 )
 ;
+enum
+class
+CreateDependentPromise
+{
+Always
+SkipIfCtorUnobservable
+Never
+}
+;
 MOZ_MUST_USE
 bool
 OriginalPromiseThen
@@ -501,7 +510,7 @@ HandleValue
 onRejected
 MutableHandleObject
 dependent
-bool
+CreateDependentPromise
 createDependent
 )
 ;
