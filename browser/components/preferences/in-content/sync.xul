@@ -1103,7 +1103,7 @@ label
 =
 "
 &
-cancelSetup
+removeAccount
 .
 label
 ;
@@ -1112,7 +1112,7 @@ accesskey
 =
 "
 &
-cancelSetup
+removeAccount
 .
 accesskey
 ;
@@ -1285,7 +1285,7 @@ label
 =
 "
 &
-cancelSetup
+removeAccount
 .
 label
 ;
@@ -1294,7 +1294,7 @@ accesskey
 =
 "
 &
-cancelSetup
+removeAccount
 .
 accesskey
 ;
