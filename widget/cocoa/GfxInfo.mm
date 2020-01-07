@@ -1612,7 +1612,7 @@ os
 ;
 if
 (
-sShutdownOccured
+sShutdownOccurred
 )
 {
 return

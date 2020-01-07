@@ -489,7 +489,7 @@ Ios
 ;
 if
 (
-sShutdownOccured
+sShutdownOccurred
 )
 {
 return
