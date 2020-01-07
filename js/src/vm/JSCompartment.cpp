@@ -3414,9 +3414,9 @@ return
 ;
 if
 (
-debugEnvs
+debugEnvs_
 )
-debugEnvs
+debugEnvs_
 -
 >
 trace
@@ -3625,9 +3625,9 @@ finishRoots
 {
 if
 (
-debugEnvs
+debugEnvs_
 )
-debugEnvs
+debugEnvs_
 -
 >
 finish
@@ -3857,7 +3857,7 @@ sweep
 ;
 }
 void
-JSCompartment
+Realm
 :
 :
 sweepDebugEnvironments
@@ -3866,9 +3866,9 @@ sweepDebugEnvironments
 {
 if
 (
-debugEnvs
+debugEnvs_
 )
-debugEnvs
+debugEnvs_
 -
 >
 sweep
@@ -5119,7 +5119,7 @@ jitRealm_
 MOZ_ASSERT
 (
 !
-debugEnvs
+debugEnvs_
 )
 ;
 MOZ_ASSERT
@@ -6061,7 +6061,7 @@ DebuggerObservesMask
 DebugEnvironments
 :
 :
-onCompartmentUnsetIsDebuggee
+onRealmUnsetIsDebuggee
 (
 this
 )

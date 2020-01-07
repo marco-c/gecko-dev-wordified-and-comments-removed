@@ -2718,7 +2718,7 @@ init
 static
 DebugEnvironments
 *
-ensureCompartmentData
+ensureRealmData
 (
 JSContext
 *
@@ -2987,11 +2987,11 @@ frame
 ;
 static
 void
-onCompartmentUnsetIsDebuggee
+onRealmUnsetIsDebuggee
 (
-JSCompartment
+Realm
 *
-c
+realm
 )
 ;
 }
