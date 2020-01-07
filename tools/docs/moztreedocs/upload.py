@@ -371,6 +371,7 @@ def
 upload
 (
 f
+path
 bucket
 key
 extra_args
@@ -529,6 +530,7 @@ read
 (
 )
 )
+path
 bucket
 key
                                
