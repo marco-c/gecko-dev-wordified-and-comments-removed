@@ -2999,6 +2999,11 @@ status
 )
 ;
 void
+changeToNonIncrementalGC
+(
+)
+;
+void
 pushZealSelectedObjects
 (
 )
@@ -4228,13 +4233,6 @@ SweepGroupsIter
 friend
 class
 WeakCacheSweepIterator
-;
-ActiveThreadData
-<
-Arena
-*
->
-arenasAllocatedDuringSweep
 ;
 ActiveThreadData
 <
