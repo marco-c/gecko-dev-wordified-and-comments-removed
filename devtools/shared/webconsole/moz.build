@@ -155,13 +155,6 @@ monitor
 js
 '
 '
-screenshot
--
-helper
-.
-js
-'
-'
 throttle
 .
 js

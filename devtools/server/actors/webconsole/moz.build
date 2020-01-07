@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-commands
-.
-js
-'
-'
 content
 -
 process
@@ -103,11 +98,6 @@ js
 '
 '
 listeners
-.
-js
-'
-'
-screenshot
 .
 js
 '
