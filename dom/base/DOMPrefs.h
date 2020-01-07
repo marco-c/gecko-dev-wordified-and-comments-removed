@@ -58,6 +58,12 @@ JSObject
 aObj
 )
 ;
+static
+bool
+DOMCachesTestingEnabled
+(
+)
+;
 }
 ;
 }

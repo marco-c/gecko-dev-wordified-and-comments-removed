@@ -1115,9 +1115,9 @@ GetPrincipalInfo
 bool
 testingEnabled
 =
-aWorkerPrivate
--
->
+DOMPrefs
+:
+:
 DOMCachesTestingEnabled
 (
 )
