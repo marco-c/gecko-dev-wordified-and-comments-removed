@@ -3977,12 +3977,6 @@ Element
 >
 mRootElement
 ;
-RefPtr
-<
-Text
->
-mIMETextNode
-;
 nsCOMPtr
 <
 dom
@@ -4085,12 +4079,6 @@ mPlaceholderBatch
 ;
 EditAction
 mAction
-;
-uint32_t
-mIMETextOffset
-;
-uint32_t
-mIMETextLength
 ;
 EDirection
 mDirection
