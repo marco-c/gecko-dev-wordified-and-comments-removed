@@ -330,7 +330,13 @@ aFocused
 nsresult
 GetTreeBody
 (
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aElement

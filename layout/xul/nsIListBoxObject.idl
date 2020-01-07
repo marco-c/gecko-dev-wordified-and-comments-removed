@@ -108,8 +108,8 @@ see
 ListBoxObject
 .
 webidl
-interface
-nsIDOMElement
+webidl
+Element
 ;
 [
 shim
@@ -139,7 +139,7 @@ getRowCount
 (
 )
 ;
-nsIDOMElement
+Element
 getItemAtIndex
 (
 in
@@ -151,7 +151,7 @@ long
 getIndexOfItem
 (
 in
-nsIDOMElement
+Element
 item
 )
 ;

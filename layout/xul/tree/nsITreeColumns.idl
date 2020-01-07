@@ -66,8 +66,8 @@ idl
 interface
 nsITreeColumns
 ;
-interface
-nsIDOMElement
+webidl
+Element
 ;
 [
 scriptable
@@ -91,7 +91,7 @@ nsISupports
 {
 readonly
 attribute
-nsIDOMElement
+Element
 element
 ;
 readonly
@@ -347,7 +347,7 @@ nsITreeColumn
 getColumnFor
 (
 in
-nsIDOMElement
+Element
 element
 )
 ;

@@ -100,8 +100,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMElement
+webidl
+Element
 ;
 [
 scriptable
@@ -139,7 +139,7 @@ index
 .
 *
 /
-nsIDOMElement
+Element
 getItemAtIndex
 (
 in
@@ -167,7 +167,7 @@ long
 getIndexOfItem
 (
 in
-nsIDOMElement
+Element
 item
 )
 ;

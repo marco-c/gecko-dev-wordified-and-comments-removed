@@ -101,9 +101,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMElement
-;
-interface
 nsITreeView
 ;
 interface
@@ -117,6 +114,9 @@ nsITreeColumns
 ;
 interface
 nsIScriptableRegion
+;
+webidl
+Element
 ;
 /
 *
@@ -250,7 +250,7 @@ node
 /
 readonly
 attribute
-nsIDOMElement
+Element
 treeBody
 ;
 /
