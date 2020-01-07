@@ -483,6 +483,17 @@ EndLayer
 )
 ;
 void
+Dispatch
+(
+RefPtr
+<
+Runnable
+>
+&
+aRunnable
+)
+;
+void
 EndLayerTransaction
 (
 SyncObjectClient
