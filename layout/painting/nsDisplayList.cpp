@@ -33827,10 +33827,6 @@ IsEmpty
 )
 )
 {
-opacityForSC
-=
-nullptr
-;
 prop
 .
 id
@@ -42517,10 +42513,6 @@ IsEmpty
 )
 )
 {
-transformForSC
-=
-nullptr
-;
 prop
 .
 id
