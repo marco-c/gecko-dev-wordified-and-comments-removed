@@ -122,12 +122,6 @@ use
 std
 :
 :
-mem
-;
-use
-std
-:
-:
 fmt
 :
 :
@@ -135,6 +129,12 @@ fmt
 self
 Write
 }
+;
+use
+std
+:
+:
+mem
 ;
 use
 style_traits
@@ -1374,8 +1374,8 @@ derive
 Clone
 Debug
 Eq
-PartialEq
 MallocSizeOf
+PartialEq
 )
 ]
 pub
@@ -1484,8 +1484,8 @@ derive
 Clone
 Debug
 Eq
-PartialEq
 MallocSizeOf
+PartialEq
 )
 ]
 pub
