@@ -3923,6 +3923,17 @@ request
 Override
 public
 void
+onCrash
+(
+final
+GeckoSession
+session
+)
+{
+}
+Override
+public
+void
 startActionMode
 (
 final

@@ -4535,6 +4535,17 @@ request
 )
 {
 }
+Override
+public
+void
+onCrash
+(
+final
+GeckoSession
+session
+)
+{
+}
 protected
 void
 setFullScreen

@@ -255,6 +255,16 @@ WebResponseInfo
 )
 {
 }
+override
+fun
+onCrash
+(
+session
+:
+GeckoSession
+)
+{
+}
 }
 interface
 NavigationDelegate
