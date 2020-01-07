@@ -615,6 +615,7 @@ asyncLoadModule
 apiName
 )
 ;
+return
 module
 .
 onUninstall

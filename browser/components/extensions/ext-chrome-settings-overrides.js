@@ -407,6 +407,12 @@ removeSearchSettings
 id
 )
 {
+return
+Promise
+.
+all
+(
+[
 this
 .
 processDefaultSearchSetting
@@ -416,12 +422,13 @@ removeSetting
 "
 id
 )
-;
 this
 .
 removeEngine
 (
 id
+)
+]
 )
 ;
 }
@@ -431,6 +438,7 @@ onUninstall
 id
 )
 {
+return
 this
 .
 removeSearchSettings
