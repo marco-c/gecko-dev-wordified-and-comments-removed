@@ -102,11 +102,6 @@ mozilla
 .
 org
 /
-%
-(
-user_repo_override
-)
-s
 "
 "
 required_config_vars
@@ -115,9 +110,6 @@ required_config_vars
 [
 "
 tag_override
-"
-"
-user_repo_override
 "
 ]
 "
