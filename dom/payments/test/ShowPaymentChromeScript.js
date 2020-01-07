@@ -184,8 +184,6 @@ San
 Bruno
 "
 "
-Test
-locality
 "
 "
 94066
@@ -197,8 +195,6 @@ locality
 en
 "
 "
-Testing
-Org
 "
 "
 Bill
