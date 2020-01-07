@@ -901,6 +901,8 @@ chrome_map
 generate_pp_info
 (
 fname
+'
+'
 )
         
 expected
