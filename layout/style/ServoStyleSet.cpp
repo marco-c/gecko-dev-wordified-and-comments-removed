@@ -4810,6 +4810,10 @@ ServoStyleSet
 :
 GetKeyframesForName
 (
+const
+Element
+&
+aElement
 nsAtom
 *
 aName
@@ -4841,6 +4845,8 @@ mRawSet
 get
 (
 )
+&
+aElement
 aName
 &
 aTimingFunction

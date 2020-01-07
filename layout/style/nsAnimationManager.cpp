@@ -1503,6 +1503,10 @@ aComputedStyle
 bool
 BuildKeyframes
 (
+const
+Element
+&
+aElement
 nsPresContext
 *
 aPresContext
@@ -1543,6 +1547,7 @@ styleSet
 >
 GetKeyframesForName
 (
+aElement
 aName
 aTimingFunction
 aKeyframes
@@ -1900,6 +1905,10 @@ aBuilder
 .
 BuildKeyframes
 (
+*
+aTarget
+.
+mElement
 aPresContext
 animationName
 aStyleDisplay
