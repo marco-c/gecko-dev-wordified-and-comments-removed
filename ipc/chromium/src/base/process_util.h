@@ -187,17 +187,6 @@ UniquePtr
 h
 "
 #
-include
-"
-mozilla
-/
-ipc
-/
-EnvironmentMap
-.
-h
-"
-#
 if
 defined
 (
@@ -346,9 +335,6 @@ start_hidden
 =
 false
 ;
-EnvironmentMap
-env_map
-;
 #
 endif
 #
@@ -358,7 +344,7 @@ defined
 OS_POSIX
 )
 environment_map
-env_map
+environ
 ;
 file_handle_mapping_vector
 fds_to_remap
