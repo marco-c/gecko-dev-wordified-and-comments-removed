@@ -725,10 +725,11 @@ class
 JSScript
 ;
 friend
-struct
+class
+JS
 :
 :
-JSCompartment
+Realm
 ;
 uint32_t
 stepMode
