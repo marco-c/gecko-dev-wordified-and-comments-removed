@@ -67,6 +67,15 @@ support
 .
 annotation
 .
+CheckResult
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -1925,6 +1934,7 @@ return
 null
 ;
 }
+CheckResult
 Nullable
 public
 Tab
