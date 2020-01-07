@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsFrameManager
+nsCSSFrameConstructor
 .
 h
 "
@@ -1627,7 +1627,7 @@ GetShell
 )
 -
 >
-FrameManager
+FrameConstructor
 (
 )
 -

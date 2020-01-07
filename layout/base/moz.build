@@ -290,6 +290,11 @@ nsCompatibility
 h
 '
 '
+nsCounterManager
+.
+h
+'
+'
 nsCSSFrameConstructor
 .
 h
@@ -301,6 +306,11 @@ h
 '
 '
 nsFrameTraversal
+.
+h
+'
+'
+nsGenConList
 .
 h
 '
@@ -356,6 +366,11 @@ h
 '
 '
 nsPresState
+.
+h
+'
+'
+nsQuoteList
 .
 h
 '

@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -195,13 +202,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsFrameManager
 .
 h
 "

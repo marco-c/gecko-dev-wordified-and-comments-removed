@@ -910,17 +910,6 @@ return
 mFrameConstructor
 ;
 }
-nsFrameManager
-*
-FrameManager
-(
-)
-const
-{
-return
-mFrameManager
-;
-}
 void
 SetAuthorStyleDisabled
 (
