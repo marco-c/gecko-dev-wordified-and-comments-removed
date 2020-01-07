@@ -10759,6 +10759,8 @@ NotifyPossibleTitleChange
 false
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIDocShellTreeItem
@@ -10768,10 +10770,6 @@ item
 GetDocShell
 (
 )
-;
-if
-(
-item
 )
 {
 nsCOMPtr
@@ -10791,6 +10789,8 @@ owner
 )
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIXULWindow
@@ -10801,10 +10801,6 @@ do_GetInterface
 (
 owner
 )
-;
-if
-(
-xulWin
 )
 {
 nsCOMPtr
@@ -10836,7 +10832,7 @@ item
 xulWin
 -
 >
-ApplyChromeFlags
+BeforeStartLayout
 (
 )
 ;
