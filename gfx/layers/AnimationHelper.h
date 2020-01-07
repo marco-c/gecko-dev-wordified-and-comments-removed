@@ -555,6 +555,10 @@ RawServoAnimationValue
 >
 &
 aAnimationValue
+const
+AnimatedValue
+*
+aPreviousValue
 )
 ;
 static
