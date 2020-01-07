@@ -889,6 +889,7 @@ loadRecord
 (
 record
 addresses
+preserveFieldValues
 )
 {
 this
@@ -905,13 +906,19 @@ addresses
 ;
 this
 .
-generateYears
+generateBillingAddressOptions
 (
 )
 ;
+if
+(
+!
+preserveFieldValues
+)
+{
 this
 .
-generateBillingAddressOptions
+generateYears
 (
 )
 ;
@@ -922,6 +929,7 @@ loadRecord
 record
 )
 ;
+}
 }
 generateYears
 (

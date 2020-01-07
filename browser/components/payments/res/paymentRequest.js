@@ -634,9 +634,6 @@ page
 onboardingWizard
 :
 true
-guid
-:
-null
 }
 ;
 }
