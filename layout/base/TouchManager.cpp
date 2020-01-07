@@ -1114,7 +1114,6 @@ targetFrame
 =
 newTargetFrame
 ;
-}
 targetFrame
 -
 >
@@ -1159,6 +1158,7 @@ SetTarget
 targetContent
 )
 ;
+}
 }
 if
 (
