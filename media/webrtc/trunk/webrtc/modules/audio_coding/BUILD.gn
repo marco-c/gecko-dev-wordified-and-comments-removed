@@ -119,6 +119,12 @@ arm
 gni
 "
 )
+if
+(
+!
+build_with_mozilla
+)
+{
 import
 (
 "
@@ -133,6 +139,7 @@ proto_library
 gni
 "
 )
+}
 audio_codec_deps
 =
 [
@@ -217,6 +224,7 @@ isac
 "
 ]
 }
+}
 audio_codec_deps
 +
 =
@@ -226,7 +234,6 @@ audio_codec_deps
 g722
 "
 ]
-}
 if
 (
 !
@@ -5882,18 +5889,13 @@ build_with_mozilla
 include_dirs
 =
 [
-getenv
-(
 "
-DIST
-"
-)
-+
-"
+/
+media
+/
+libopus
 /
 include
-/
-opus
 "
 ]
 }
@@ -6941,6 +6943,7 @@ isac
 "
 ]
 }
+}
 defines
 +
 =
@@ -6958,7 +6961,6 @@ deps
 g722
 "
 ]
-}
 }
 #
 Although

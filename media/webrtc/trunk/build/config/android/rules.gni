@@ -86,6 +86,12 @@ config
 gni
 "
 )
+if
+(
+!
+build_with_mozilla
+)
+{
 import
 (
 "
@@ -102,6 +108,7 @@ internal_rules
 gni
 "
 )
+}
 import
 (
 "
@@ -894,6 +901,12 @@ sanitizers
 gni
 "
 )
+if
+(
+!
+build_with_mozilla
+)
+{
 import
 (
 "
@@ -908,6 +921,7 @@ grit_rule
 gni
 "
 )
+}
 #
 Declare
 a

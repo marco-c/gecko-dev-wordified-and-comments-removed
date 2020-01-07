@@ -487,6 +487,9 @@ is_ios
 |
 |
 is_chromecast
+|
+|
+build_with_mozilla
 )
 {
 safe_browsing_mode
@@ -567,6 +570,10 @@ is_linux
 &
 !
 is_chromecast
+&
+&
+!
+build_with_mozilla
 use_dbus
 =
 is_linux
