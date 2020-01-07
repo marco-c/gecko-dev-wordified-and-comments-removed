@@ -25907,6 +25907,10 @@ mPaused
 if
 (
 mDecoder
+&
+&
+!
+mPausedForInactiveDocumentOrChannel
 )
 {
 mDecoder
@@ -26345,6 +26349,12 @@ CurrentTime
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+mPausedForInactiveDocumentOrChannel
+)
+;
 mDecoder
 -
 >
