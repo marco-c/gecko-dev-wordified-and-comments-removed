@@ -2286,6 +2286,7 @@ logAllocationSites
 }
 ;
 }
+async
 addTab
 (
 url
@@ -2320,11 +2321,14 @@ tab
 .
 linkedBrowser
 ;
-return
+await
 awaitBrowserLoaded
 (
 browser
 )
+;
+return
+tab
 ;
 }
 closeCurrentTab
