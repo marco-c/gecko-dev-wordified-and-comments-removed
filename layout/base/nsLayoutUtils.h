@@ -669,8 +669,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 public
 :
@@ -4129,7 +4129,7 @@ aAppUnitsPerPixel
 ;
 }
 static
-ImgDrawResult
+DrawResult
 DrawBackgroundImage
 (
 gfxContext
@@ -4179,7 +4179,7 @@ aOpacity
 )
 ;
 static
-ImgDrawResult
+DrawResult
 DrawImage
 (
 gfxContext
@@ -4224,7 +4224,7 @@ aOpacity
 )
 ;
 static
-ImgDrawResult
+DrawResult
 DrawSingleUnscaledImage
 (
 gfxContext
@@ -4258,7 +4258,7 @@ nullptr
 )
 ;
 static
-ImgDrawResult
+DrawResult
 DrawSingleImage
 (
 gfxContext

@@ -3131,7 +3131,7 @@ ctx
 return
 NS_ERROR_FAILURE
 ;
-ImgDrawResult
+DrawResult
 res
 =
 imgContainer
@@ -3173,7 +3173,7 @@ if
 res
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -3182,7 +3182,7 @@ BAD_IMAGE
 res
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS

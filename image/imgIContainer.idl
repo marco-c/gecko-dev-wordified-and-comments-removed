@@ -107,7 +107,7 @@ C
 #
 include
 "
-ImgDrawResult
+DrawResult
 .
 h
 "
@@ -229,7 +229,7 @@ Orientation
 %
 }
 native
-ImgDrawResult
+DrawResult
 (
 mozilla
 :
@@ -237,7 +237,7 @@ mozilla
 image
 :
 :
-ImgDrawResult
+DrawResult
 )
 ;
 [
@@ -3833,7 +3833,7 @@ variety
 *
 return
 A
-ImgDrawResult
+DrawResult
 value
 indicating
 whether
@@ -3854,7 +3854,7 @@ successful
 noscript
 notxpcom
 ]
-ImgDrawResult
+DrawResult
 draw
 (
 in

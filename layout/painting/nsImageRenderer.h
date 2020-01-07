@@ -343,8 +343,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 typedef
 mozilla
@@ -497,7 +497,7 @@ nsSize
 aDefaultSize
 )
 ;
-ImgDrawResult
+DrawResult
 DrawLayer
 (
 nsPresContext
@@ -530,7 +530,7 @@ float
 aOpacity
 )
 ;
-ImgDrawResult
+DrawResult
 BuildWebRenderDisplayItemsForLayer
 (
 nsPresContext
@@ -600,7 +600,7 @@ float
 aOpacity
 )
 ;
-ImgDrawResult
+DrawResult
 DrawBorderImageComponent
 (
 nsPresContext
@@ -690,13 +690,13 @@ return
 mPrepareResult
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
 ;
 }
-ImgDrawResult
+DrawResult
 PrepareResult
 (
 )
@@ -774,7 +774,7 @@ GetGradientData
 ;
 private
 :
-ImgDrawResult
+DrawResult
 Draw
 (
 nsPresContext
@@ -818,7 +818,7 @@ aOpacity
 0
 )
 ;
-ImgDrawResult
+DrawResult
 BuildWebRenderDisplayItems
 (
 nsPresContext
@@ -948,7 +948,7 @@ nsLayoutUtils
 SurfaceFromElementResult
 mImageElementSurface
 ;
-ImgDrawResult
+DrawResult
 mPrepareResult
 ;
 nsSize

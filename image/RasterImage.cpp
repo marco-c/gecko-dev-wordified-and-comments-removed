@@ -2216,7 +2216,7 @@ forget
 }
 Tuple
 <
-ImgDrawResult
+DrawResult
 IntSize
 RefPtr
 <
@@ -2270,7 +2270,7 @@ FRAME_MAX_VALUE
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -2292,7 +2292,7 @@ mError
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -2368,7 +2368,7 @@ result
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -2417,7 +2417,7 @@ IsFinished
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 INCOMPLETE
@@ -2432,7 +2432,7 @@ surface
 return
 MakeTuple
 (
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -5198,7 +5198,7 @@ return
 true
 ;
 }
-ImgDrawResult
+DrawResult
 RasterImage
 :
 :
@@ -5380,7 +5380,7 @@ aFlags
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -5393,7 +5393,7 @@ frameIsFinished
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 INCOMPLETE
@@ -5405,14 +5405,14 @@ couldRedecodeForBetterFrame
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 WRONG_SIZE
 ;
 }
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -5420,7 +5420,7 @@ SUCCESS
 }
 NS_IMETHODIMP_
 (
-ImgDrawResult
+DrawResult
 )
 RasterImage
 :
@@ -5462,7 +5462,7 @@ FRAME_MAX_VALUE
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -5474,7 +5474,7 @@ mError
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -5494,7 +5494,7 @@ DefaultSurfaceFlags
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -5507,7 +5507,7 @@ aContext
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -5584,7 +5584,7 @@ Now
 ;
 }
 return
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY

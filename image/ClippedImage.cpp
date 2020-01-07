@@ -187,7 +187,7 @@ float
 aFrame
 uint32_t
 aFlags
-ImgDrawResult
+DrawResult
 aDrawResult
 )
 :
@@ -301,7 +301,7 @@ forget
 )
 ;
 }
-ImgDrawResult
+DrawResult
 GetDrawResult
 (
 )
@@ -321,7 +321,7 @@ return
 mDrawResult
 !
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -330,7 +330,7 @@ SUCCESS
 mDrawResult
 !
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -363,7 +363,7 @@ uint32_t
 mFlags
 ;
 const
-ImgDrawResult
+DrawResult
 mDrawResult
 ;
 }
@@ -422,7 +422,7 @@ aFlags
 )
 mDrawResult
 (
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -516,7 +516,7 @@ return
 true
 ;
 }
-ImgDrawResult
+DrawResult
 GetDrawResult
 (
 )
@@ -553,7 +553,7 @@ const
 uint32_t
 mFlags
 ;
-ImgDrawResult
+DrawResult
 mDrawResult
 ;
 float
@@ -1109,7 +1109,7 @@ uint32_t
 aFlags
 )
 {
-ImgDrawResult
+DrawResult
 result
 ;
 RefPtr
@@ -1181,7 +1181,7 @@ aFlags
 }
 Pair
 <
-ImgDrawResult
+DrawResult
 RefPtr
 <
 SourceSurface
@@ -1241,12 +1241,12 @@ MakePair
 (
 surface
 ?
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
 :
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -1357,7 +1357,7 @@ DrawTarget
 return
 MakePair
 (
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -1803,7 +1803,7 @@ willResample
 }
 NS_IMETHODIMP_
 (
-ImgDrawResult
+DrawResult
 )
 ClippedImage
 :
@@ -1876,7 +1876,7 @@ aFlags
 )
 )
 {
-ImgDrawResult
+DrawResult
 result
 ;
 RefPtr
@@ -1911,7 +1911,7 @@ MOZ_ASSERT
 result
 !
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -1972,7 +1972,7 @@ aOpacity
 )
 ;
 }
-ImgDrawResult
+DrawResult
 ClippedImage
 :
 :

@@ -275,6 +275,11 @@ EXPORTS
 =
 [
 '
+DrawResult
+.
+h
+'
+'
 FrameTimeout
 .
 h
@@ -301,11 +306,6 @@ h
 '
 '
 ImageRegion
-.
-h
-'
-'
-ImgDrawResult
 .
 h
 '

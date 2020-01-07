@@ -108,8 +108,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 typedef
 mozilla
@@ -312,7 +312,7 @@ const
 nsPoint
 &
 aPt
-ImgDrawResult
+DrawResult
 &
 aDrawResult
 Maybe
@@ -326,7 +326,7 @@ nsRect
 aDest
 )
 ;
-ImgDrawResult
+DrawResult
 PaintImage
 (
 gfxContext
@@ -342,7 +342,7 @@ uint32_t
 aFlags
 )
 ;
-ImgDrawResult
+DrawResult
 CreateWebRenderCommands
 (
 mozilla

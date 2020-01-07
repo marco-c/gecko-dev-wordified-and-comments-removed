@@ -296,7 +296,7 @@ nullptr
 )
 mPrepareResult
 (
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -498,7 +498,7 @@ IsEmpty
 {
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -554,7 +554,7 @@ mFlags
 {
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -708,7 +708,7 @@ IsEmpty
 {
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -761,7 +761,7 @@ subImage
 }
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -783,7 +783,7 @@ GetGradientData
 ;
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -894,7 +894,7 @@ property
 {
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -988,7 +988,7 @@ paintServerFrame
 {
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -1004,7 +1004,7 @@ paintServerFrame
 }
 mPrepareResult
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -1994,7 +1994,7 @@ return
 drawFlags
 ;
 }
-ImgDrawResult
+DrawResult
 nsImageRenderer
 :
 :
@@ -2059,7 +2059,7 @@ me
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -2098,7 +2098,7 @@ height
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -2115,10 +2115,10 @@ GetSamplingFilterForFrame
 mForFrame
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -2191,7 +2191,7 @@ IsEmpty
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -2272,7 +2272,7 @@ tempDT
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -2352,7 +2352,7 @@ tempDT
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -2491,7 +2491,7 @@ element
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -2748,7 +2748,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsImageRenderer
 :
 :
@@ -2850,7 +2850,7 @@ me
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -2889,7 +2889,7 @@ height
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -3081,7 +3081,7 @@ container
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -3132,7 +3132,7 @@ isNothing
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE
@@ -3313,7 +3313,7 @@ break
 ;
 }
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -3498,7 +3498,7 @@ forget
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsImageRenderer
 :
 :
@@ -3559,7 +3559,7 @@ me
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -3598,7 +3598,7 @@ height
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -3641,7 +3641,7 @@ aOpacity
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsImageRenderer
 :
 :
@@ -3775,7 +3775,7 @@ height
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -4292,7 +4292,7 @@ height
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsImageRenderer
 :
 :
@@ -4363,7 +4363,7 @@ me
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 BAD_ARGS
@@ -4386,7 +4386,7 @@ IsEmpty
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -4546,7 +4546,7 @@ element
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR

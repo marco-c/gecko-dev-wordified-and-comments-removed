@@ -599,7 +599,7 @@ PlaybackType
 aPlaybackType
 )
 ;
-ImgDrawResult
+DrawResult
 DrawInternal
 (
 DrawableSurface
@@ -630,7 +630,7 @@ aOpacity
 ;
 Tuple
 <
-ImgDrawResult
+DrawResult
 gfx
 :
 :

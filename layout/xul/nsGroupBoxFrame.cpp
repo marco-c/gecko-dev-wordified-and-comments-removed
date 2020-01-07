@@ -161,7 +161,7 @@ return
 false
 ;
 }
-ImgDrawResult
+DrawResult
 PaintBorder
 (
 gfxContext
@@ -542,7 +542,7 @@ gfxContext
 aCtx
 )
 {
-ImgDrawResult
+DrawResult
 result
 =
 static_cast
@@ -791,7 +791,7 @@ yoff
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsGroupBoxFrame
 :
 :
@@ -885,10 +885,10 @@ groupRect
 =
 aPt
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS

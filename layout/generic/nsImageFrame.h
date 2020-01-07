@@ -221,8 +221,8 @@ mozilla
 image
 :
 :
-ImgDrawResult
-ImgDrawResult
+DrawResult
+DrawResult
 ;
 typedef
 mozilla
@@ -640,7 +640,7 @@ nsStyleContext
 aStyleContext
 )
 ;
-ImgDrawResult
+DrawResult
 DisplayAltFeedback
 (
 gfxContext
@@ -913,7 +913,7 @@ nsRect
 aRect
 )
 ;
-ImgDrawResult
+DrawResult
 PaintImage
 (
 gfxContext

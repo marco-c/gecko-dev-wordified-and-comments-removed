@@ -5924,7 +5924,7 @@ nsImageFrame
 mFrame
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 f
@@ -5960,7 +5960,7 @@ TYPE_ALT_FEEDBACK
 )
 }
 ;
-ImgDrawResult
+DrawResult
 nsImageFrame
 :
 :
@@ -6106,7 +6106,7 @@ borderEdgeWidth
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -6205,7 +6205,7 @@ IsEmpty
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -6247,10 +6247,10 @@ drawTarget
 )
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -6278,7 +6278,7 @@ mPrefShowLoadingPlaceholder
 {
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -6501,7 +6501,7 @@ if
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -7028,7 +7028,7 @@ imgIContainer
 FLAG_HIGH_QUALITY_SCALING
 ;
 }
-ImgDrawResult
+DrawResult
 result
 =
 static_cast
@@ -7058,7 +7058,7 @@ if
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -7067,7 +7067,7 @@ NOT_READY
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 INCOMPLETE
@@ -7076,7 +7076,7 @@ INCOMPLETE
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 TEMPORARY_ERROR
@@ -8048,7 +8048,7 @@ destRect
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsImageFrame
 :
 :
@@ -8178,7 +8178,7 @@ this
 aImage
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
 nsLayoutUtils
@@ -8354,7 +8354,7 @@ if
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -8371,7 +8371,7 @@ if
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 BAD_IMAGE

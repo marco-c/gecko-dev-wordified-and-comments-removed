@@ -3123,7 +3123,7 @@ eCornerBottomLeftY
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsCSSRendering
 :
 :
@@ -3682,7 +3682,7 @@ FLAG_SYNC_DECODE_IMAGES
 image
 :
 :
-ImgDrawResult
+DrawResult
 result
 ;
 Maybe
@@ -4322,7 +4322,7 @@ Nothing
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsCSSRendering
 :
 :
@@ -4429,7 +4429,7 @@ mAppearance
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -4448,10 +4448,10 @@ IsEmpty
 )
 )
 {
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -4512,7 +4512,7 @@ MOZ_ASSERT
 result
 =
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -4532,10 +4532,10 @@ aDirtyRect
 ;
 }
 }
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -4556,7 +4556,7 @@ eStyleImageType_Null
 {
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 NOT_READY
@@ -8973,7 +8973,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsCSSRendering
 :
 :
@@ -9050,7 +9050,7 @@ mAppearance
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -9084,7 +9084,7 @@ GetParent
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -9368,7 +9368,7 @@ return
 false
 ;
 }
-ImgDrawResult
+DrawResult
 nsCSSRendering
 :
 :
@@ -9471,7 +9471,7 @@ mAppearance
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -9505,7 +9505,7 @@ GetParent
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -11762,7 +11762,7 @@ mBlendMode
 )
 ;
 }
-ImgDrawResult
+DrawResult
 nsCSSRendering
 :
 :
@@ -11943,7 +11943,7 @@ drawing
 )
 ;
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -12054,7 +12054,7 @@ drawBackgroundImage
 drawBackgroundColor
 )
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -12198,7 +12198,7 @@ appUnitsPerPixel
 ;
 }
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -12214,7 +12214,7 @@ mImageCount
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -12394,10 +12394,10 @@ skipSides
 aBorder
 )
 ;
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
@@ -12819,7 +12819,7 @@ return
 result
 ;
 }
-ImgDrawResult
+DrawResult
 nsCSSRendering
 :
 :
@@ -13018,16 +13018,16 @@ IsEmpty
 )
 {
 return
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS
 ;
 }
-ImgDrawResult
+DrawResult
 result
 =
-ImgDrawResult
+DrawResult
 :
 :
 SUCCESS

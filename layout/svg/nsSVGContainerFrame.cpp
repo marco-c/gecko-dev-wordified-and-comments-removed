@@ -8,7 +8,7 @@ h
 #
 include
 "
-ImgDrawResult
+DrawResult
 .
 h
 "
