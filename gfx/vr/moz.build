@@ -348,6 +348,9 @@ DIRS
 '
 openvr
 '
+'
+service
+'
 ]
 SOURCES
 +
