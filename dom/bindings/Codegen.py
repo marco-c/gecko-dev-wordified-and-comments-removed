@@ -95468,6 +95468,24 @@ isUnrestricted
 (
 )
         
+if
+type
+.
+isRecord
+(
+)
+:
+            
+return
+CGDictionary
+.
+typeSafeToJSONify
+(
+type
+.
+inner
+)
+        
 return
 False
     
