@@ -311,6 +311,10 @@ gdk_screen_width
 )
 STUB
 (
+gdk_selection_owner_get
+)
+STUB
+(
 gdk_set_program_class
 )
 STUB
