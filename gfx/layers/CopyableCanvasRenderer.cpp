@@ -649,6 +649,7 @@ get
 )
 ;
 }
+else
 if
 (
 mGLContext
