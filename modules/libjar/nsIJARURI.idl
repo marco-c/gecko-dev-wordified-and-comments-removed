@@ -274,6 +274,7 @@ sequences
 .
 *
 /
+readonly
 attribute
 AUTF8String
 JAREntry
