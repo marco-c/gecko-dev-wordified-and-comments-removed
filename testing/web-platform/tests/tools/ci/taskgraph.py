@@ -123,7 +123,7 @@ payload
 maxRunTime
 "
 :
-5400
+7200
         
 "
 image
@@ -400,7 +400,7 @@ testharness
 chunks
 "
 :
-12
+15
 }
     
 "
@@ -412,7 +412,7 @@ reftest
 chunks
 "
 :
-6
+10
 }
     
 "
