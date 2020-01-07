@@ -642,11 +642,6 @@ base
 child
 -
 >
-AsElement
-(
-)
--
->
 HasAttr
 (
 kNameSpaceID_None
@@ -675,11 +670,6 @@ nsAutoString
 href
 ;
 child
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -910,11 +900,6 @@ base
 child
 -
 >
-AsElement
-(
-)
--
->
 HasAttr
 (
 kNameSpaceID_None
@@ -943,11 +928,6 @@ nsString
 target
 ;
 child
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

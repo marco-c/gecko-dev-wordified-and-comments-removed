@@ -3000,7 +3000,7 @@ shortcutElement
 ;
 nsCOMPtr
 <
-Element
+nsIContent
 >
 shortcutContent
 =
@@ -3904,7 +3904,7 @@ keyElement
 {
 nsCOMPtr
 <
-Element
+nsIContent
 >
 keyContent
 (

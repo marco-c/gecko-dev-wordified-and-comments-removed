@@ -4572,7 +4572,7 @@ SourceElementMatches
 candidateSource
 -
 >
-AsElement
+AsContent
 (
 )
 )
@@ -4626,7 +4626,7 @@ TryCreateResponsiveSelector
 candidateSource
 -
 >
-AsElement
+AsContent
 (
 )
 )
@@ -4660,7 +4660,7 @@ TryCreateResponsiveSelector
 candidateSource
 -
 >
-AsElement
+AsContent
 (
 )
 )
@@ -4765,14 +4765,14 @@ HTMLImageElement
 :
 SourceElementMatches
 (
-Element
+nsIContent
 *
-aSourceElement
+aSourceNode
 )
 {
 MOZ_ASSERT
 (
-aSourceElement
+aSourceNode
 -
 >
 IsHTMLElement
@@ -4820,12 +4820,12 @@ MOZ_ASSERT
 (
 IsPreviousSibling
 (
-aSourceElement
+aSourceNode
 this
 )
 )
 ;
-auto
+HTMLSourceElement
 *
 src
 =
@@ -4835,7 +4835,7 @@ HTMLSourceElement
 *
 >
 (
-aSourceElement
+aSourceNode
 )
 ;
 if
@@ -4858,7 +4858,7 @@ type
 ;
 if
 (
-src
+aSourceNode
 -
 >
 GetAttr
@@ -4893,9 +4893,9 @@ HTMLImageElement
 :
 TryCreateResponsiveSelector
 (
-Element
+nsIContent
 *
-aSourceElement
+aSourceNode
 )
 {
 nsCOMPtr
@@ -4907,7 +4907,7 @@ principal
 bool
 isSourceTag
 =
-aSourceElement
+aSourceNode
 -
 >
 IsHTMLElement
@@ -4928,7 +4928,7 @@ if
 !
 SourceElementMatches
 (
-aSourceElement
+aSourceNode
 )
 )
 {
@@ -4945,7 +4945,7 @@ HTMLSourceElement
 :
 FromContent
 (
-aSourceElement
+aSourceNode
 )
 ;
 principal
@@ -4961,7 +4961,7 @@ GetSrcsetTriggeringPrincipal
 else
 if
 (
-aSourceElement
+aSourceNode
 -
 >
 IsHTMLElement
@@ -4975,7 +4975,7 @@ img
 {
 MOZ_ASSERT
 (
-aSourceElement
+aSourceNode
 =
 =
 this
@@ -4992,7 +4992,7 @@ srcset
 if
 (
 !
-aSourceElement
+aSourceNode
 -
 >
 GetAttr
@@ -5032,7 +5032,7 @@ sel
 new
 ResponsiveImageSelector
 (
-aSourceElement
+aSourceNode
 )
 ;
 if
@@ -5055,7 +5055,7 @@ false
 nsAutoString
 sizes
 ;
-aSourceElement
+aSourceNode
 -
 >
 GetAttr
@@ -5084,7 +5084,7 @@ isSourceTag
 {
 MOZ_ASSERT
 (
-aSourceElement
+aSourceNode
 =
 =
 this

@@ -895,11 +895,6 @@ if
 node
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -913,11 +908,6 @@ eCaseMatters
 |
 |
 node
--
->
-AsElement
-(
-)
 -
 >
 AttrValueIs

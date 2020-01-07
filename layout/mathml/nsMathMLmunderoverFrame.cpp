@@ -866,11 +866,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -982,11 +977,6 @@ NS_MATHML_EMBELLISH_ACCENTOVER
 if
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -2236,11 +2226,6 @@ center
 if
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

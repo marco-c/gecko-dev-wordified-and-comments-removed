@@ -2255,11 +2255,6 @@ br
 aContent
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -2277,11 +2272,6 @@ eIgnoreCase
 &
 !
 aContent
--
->
-AsElement
-(
-)
 -
 >
 AttrValueIs

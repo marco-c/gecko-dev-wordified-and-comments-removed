@@ -279,11 +279,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -352,11 +347,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
@@ -423,11 +413,6 @@ if
 (
 !
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

@@ -248,8 +248,13 @@ UpdateMouseThrough
 (
 )
 {
+if
+(
+mContent
+)
+{
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -274,11 +279,6 @@ nullptr
 switch
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 FindAttrValueIn
@@ -329,6 +329,7 @@ NS_FRAME_MOUSE_THROUGH_NEVER
 ;
 break
 ;
+}
 }
 }
 }

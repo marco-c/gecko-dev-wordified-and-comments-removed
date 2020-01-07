@@ -123,7 +123,7 @@ aIsTouch
 ;
 #
 endif
-RefPtr
+nsCOMPtr
 <
 mozilla
 :
@@ -135,15 +135,9 @@ Element
 >
 mElement
 ;
-RefPtr
+nsCOMPtr
 <
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 >
 mPopupContent
 ;

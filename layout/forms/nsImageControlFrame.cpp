@@ -647,11 +647,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 HasAttr
 (
 kNameSpaceID_None

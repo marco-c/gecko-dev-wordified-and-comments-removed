@@ -3352,7 +3352,7 @@ false
 ;
 nsCOMPtr
 <
-Element
+nsIContent
 >
 columnContent
 (
@@ -3387,11 +3387,6 @@ false
 ;
 return
 mContent
--
->
-AsElement
-(
-)
 -
 >
 AttrValueIs

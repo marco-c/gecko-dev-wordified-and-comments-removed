@@ -400,7 +400,7 @@ aMethod
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
 aOriginatingElement
 )
@@ -1588,7 +1588,7 @@ Encoding
 *
 >
 aEncoding
-Element
+nsIContent
 *
 aOriginatingElement
 )
@@ -2758,7 +2758,7 @@ Encoding
 *
 >
 aEncoding
-Element
+nsIContent
 *
 aOriginatingElement
 )
@@ -3238,7 +3238,7 @@ Encoding
 *
 >
 aEncoding
-Element
+nsIContent
 *
 aOriginatingElement
 )

@@ -3002,11 +3002,6 @@ aria_selected
 rowContent
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None

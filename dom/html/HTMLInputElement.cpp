@@ -17482,7 +17482,7 @@ false
 }
 nsCOMPtr
 <
-Element
+nsIContent
 >
 target
 =

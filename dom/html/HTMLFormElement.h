@@ -678,7 +678,7 @@ const
 void
 OnSubmitClickBegin
 (
-Element
+nsIContent
 *
 aOriginatingElement
 )
@@ -1368,7 +1368,7 @@ nsIURI
 *
 *
 aActionURL
-Element
+nsIContent
 *
 aOriginatingElement
 )

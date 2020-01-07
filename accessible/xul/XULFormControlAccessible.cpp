@@ -478,11 +478,6 @@ if
 mContent
 -
 >
-AsElement
-(
-)
--
->
 HasAttr
 (
 kNameSpaceID_None
@@ -725,11 +720,6 @@ return
 mContent
 -
 >
-AsElement
-(
-)
--
->
 AttrValueIs
 (
 kNameSpaceID_None
@@ -755,7 +745,7 @@ ContainsMenu
 const
 {
 static
-Element
+nsIContent
 :
 :
 AttrValuesArray
@@ -779,11 +769,6 @@ nullptr
 ;
 return
 mContent
--
->
-AsElement
-(
-)
 -
 >
 FindAttrValueIn
@@ -2050,11 +2035,6 @@ aName
 if
 (
 mContent
--
->
-AsElement
-(
-)
 -
 >
 GetAttr

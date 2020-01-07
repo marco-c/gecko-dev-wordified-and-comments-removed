@@ -1324,9 +1324,9 @@ UpdateResponsiveSource
 bool
 TryCreateResponsiveSelector
 (
-Element
+nsIContent
 *
-aSourceElement
+aSourceNode
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1447,9 +1447,9 @@ private
 bool
 SourceElementMatches
 (
-Element
+nsIContent
 *
-aSourceElement
+aSourceNode
 )
 ;
 static

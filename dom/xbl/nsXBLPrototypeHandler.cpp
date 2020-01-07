@@ -666,7 +666,7 @@ nsXBLPrototypeHandler
 :
 nsXBLPrototypeHandler
 (
-Element
+nsIContent
 *
 aHandlerElement
 XBLReservedKey
@@ -992,7 +992,7 @@ true
 }
 already_AddRefed
 <
-Element
+nsIContent
 >
 nsXBLPrototypeHandler
 :
@@ -1010,7 +1010,7 @@ NS_HANDLER_TYPE_XUL
 {
 nsCOMPtr
 <
-Element
+nsIContent
 >
 element
 =
@@ -2583,7 +2583,7 @@ aEvent
 {
 nsCOMPtr
 <
-Element
+nsIContent
 >
 handlerElement
 =
@@ -3691,7 +3691,7 @@ aEvent
 {
 nsCOMPtr
 <
-Element
+nsIContent
 >
 handlerElement
 =
@@ -3758,7 +3758,7 @@ nsXBLPrototypeHandler
 :
 ConstructPrototype
 (
-Element
+nsIContent
 *
 aKeyElement
 const
@@ -4750,7 +4750,7 @@ const
 char16_t
 *
 aModifiers
-Element
+nsIContent
 *
 aKeyElement
 const

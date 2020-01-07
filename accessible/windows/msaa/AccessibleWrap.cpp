@@ -1960,11 +1960,6 @@ roleString
 content
 -
 >
-AsElement
-(
-)
--
->
 GetAttr
 (
 kNameSpaceID_None
