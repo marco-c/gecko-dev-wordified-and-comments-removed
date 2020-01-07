@@ -1299,6 +1299,13 @@ jsm
 '
 addons
 /
+SecurityInfo
+.
+jsm
+'
+'
+addons
+/
 WebNavigation
 .
 jsm
