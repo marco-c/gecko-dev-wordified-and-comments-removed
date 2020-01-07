@@ -1059,6 +1059,11 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+ApplySettings
+(
+mLastPrefs
+)
+;
 return
 NS_OK
 ;
