@@ -228,6 +228,11 @@ PropTypes
 number
 ]
 )
+dataSize
+:
+PropTypes
+.
+number
 expandedNodes
 :
 PropTypes
@@ -707,6 +712,13 @@ this
 props
 .
 actions
+dataSize
+:
+this
+.
+props
+.
+dataSize
 }
 )
 div
