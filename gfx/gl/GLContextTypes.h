@@ -88,7 +88,7 @@ enum
 class
 CreateContextFlags
 :
-uint8_t
+int8_t
 {
 NONE
 =
@@ -129,12 +129,6 @@ PREFER_ROBUSTNESS
 <
 <
 5
-HIGH_POWER
-=
-1
-<
-<
-6
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
