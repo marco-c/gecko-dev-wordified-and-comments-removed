@@ -551,6 +551,10 @@ CollectedClientData
 {
 required
 DOMString
+type
+;
+required
+DOMString
 challenge
 ;
 required
