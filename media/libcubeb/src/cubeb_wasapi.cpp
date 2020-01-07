@@ -5057,10 +5057,10 @@ channels
 ;
 if
 (
+FAILED
+(
 hr
-!
-=
-S_OK
+)
 )
 {
 LOG
@@ -5140,10 +5140,10 @@ volumes
 ;
 if
 (
+FAILED
+(
 hr
-!
-=
-S_OK
+)
 )
 {
 LOG
