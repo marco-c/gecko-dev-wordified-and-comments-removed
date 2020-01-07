@@ -150,6 +150,8 @@ aIsPrivateBrowsing
 mSuspendAgent
 (
 mCacheStream
+!
+aChannel
 )
 {
 }
@@ -2582,15 +2584,6 @@ return
 nullptr
 ;
 }
-resource
--
->
-mSuspendAgent
-.
-Suspend
-(
-)
-;
 return
 resource
 .
