@@ -8460,7 +8460,7 @@ mozversion
 .
 1
 .
-2
+3
 "
 "
 regex
@@ -13570,7 +13570,7 @@ version
 .
 1
 .
-2
+3
 "
 dependencies
 =
