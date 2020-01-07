@@ -5036,6 +5036,13 @@ UNIFIED_SOURCES
 '
 frontend
 /
+BinSource
+.
+cpp
+'
+'
+frontend
+/
 BinToken
 .
 cpp
