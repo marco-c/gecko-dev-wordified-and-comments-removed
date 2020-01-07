@@ -263,7 +263,14 @@ nsStringBuffer
 :
 FromData
 (
+const_cast
+<
+char16_t
+*
+>
+(
 mString
+)
 )
 ;
 }
@@ -363,6 +370,7 @@ const
 uint32_t
 mHash
 ;
+const
 char16_t
 *
 const
