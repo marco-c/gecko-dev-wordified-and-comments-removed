@@ -475,6 +475,13 @@ linkedBrowser
 )
 {
 await
+TestUtils
+.
+waitForTick
+(
+)
+;
+await
 BrowserTestUtils
 .
 removeTab
