@@ -42,6 +42,8 @@ dst
 "
 "
 import
+os
+import
 shutil
 import
 sys
@@ -59,7 +61,14 @@ shutil
 copy
 (
 src
+os
+.
+path
+.
+normpath
+(
 dst
+)
 )
 if
 __name__
