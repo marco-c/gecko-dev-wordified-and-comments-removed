@@ -790,6 +790,12 @@ layout
 =
 CUBEB_LAYOUT_MONO
 ;
+input_params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 output_params
 .
 format
@@ -813,6 +819,12 @@ output_params
 layout
 =
 CUBEB_LAYOUT_STEREO
+;
+output_params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
 ;
 r
 =
