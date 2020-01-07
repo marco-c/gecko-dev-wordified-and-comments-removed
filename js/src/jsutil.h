@@ -1526,7 +1526,6 @@ ptr
 }
 #
 if
-(
 defined
 (
 DEBUG
@@ -1536,14 +1535,6 @@ DEBUG
 defined
 (
 NIGHTLY_BUILD
-)
-)
-&
-&
-!
-defined
-(
-MOZ_ASAN
 )
 #
 define
