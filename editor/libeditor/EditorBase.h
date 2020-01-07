@@ -2089,14 +2089,6 @@ SyncRealTimeSpell
 (
 )
 ;
-void
-ReinitializeSelection
-(
-Element
-&
-aElement
-)
-;
 protected
 :
 virtual
