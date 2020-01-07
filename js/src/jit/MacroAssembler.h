@@ -7881,7 +7881,7 @@ oolEntry
 PER_SHARED_ARCH
 ;
 void
-outOfLineWasmTruncateDoubleToInt32
+oolWasmTruncateCheckF64ToI32
 (
 FloatRegister
 input
@@ -7898,6 +7898,8 @@ rejoin
 )
 DEFINED_ON
 (
+arm
+arm64
 x86_shared
 )
 ;
@@ -7928,7 +7930,7 @@ oolEntry
 PER_SHARED_ARCH
 ;
 void
-outOfLineWasmTruncateFloat32ToInt32
+oolWasmTruncateCheckF32ToI32
 (
 FloatRegister
 input
@@ -7945,6 +7947,8 @@ rejoin
 )
 DEFINED_ON
 (
+arm
+arm64
 x86_shared
 )
 ;
@@ -7995,7 +7999,7 @@ x64
 )
 ;
 void
-outOfLineWasmTruncateDoubleToInt64
+oolWasmTruncateCheckF64ToI64
 (
 FloatRegister
 input
@@ -8012,6 +8016,8 @@ rejoin
 )
 DEFINED_ON
 (
+arm
+arm64
 x86_shared
 )
 ;
@@ -8062,7 +8068,7 @@ x64
 )
 ;
 void
-outOfLineWasmTruncateFloat32ToInt64
+oolWasmTruncateCheckF32ToI64
 (
 FloatRegister
 input
@@ -8079,6 +8085,8 @@ rejoin
 )
 DEFINED_ON
 (
+arm
+arm64
 x86_shared
 )
 ;

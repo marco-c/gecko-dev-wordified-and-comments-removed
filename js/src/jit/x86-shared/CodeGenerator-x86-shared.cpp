@@ -25880,7 +25880,7 @@ Int32
 )
 masm
 .
-outOfLineWasmTruncateFloat32ToInt32
+oolWasmTruncateCheckF32ToI32
 (
 input
 isUnsigned
@@ -25901,7 +25901,7 @@ Int64
 )
 masm
 .
-outOfLineWasmTruncateFloat32ToInt64
+oolWasmTruncateCheckF32ToI64
 (
 input
 isUnsigned
@@ -25943,7 +25943,7 @@ Int32
 )
 masm
 .
-outOfLineWasmTruncateDoubleToInt32
+oolWasmTruncateCheckF64ToI32
 (
 input
 isUnsigned
@@ -25964,7 +25964,7 @@ Int64
 )
 masm
 .
-outOfLineWasmTruncateDoubleToInt64
+oolWasmTruncateCheckF64ToI64
 (
 input
 isUnsigned
