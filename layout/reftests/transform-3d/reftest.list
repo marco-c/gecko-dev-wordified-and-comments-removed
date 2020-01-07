@@ -1538,6 +1538,12 @@ cocoaWidget
 128
 9
 )
+skip
+-
+if
+(
+Android
+)
 =
 =
 animate
@@ -1559,6 +1565,10 @@ intermittently
 fuzzy
 on
 Mac
+bug
+1461311
+for
+Android
 =
 =
 animate
