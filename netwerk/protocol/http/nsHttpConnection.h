@@ -827,6 +827,12 @@ nsresult
 aStatus
 )
 ;
+bool
+NoClientCertAuth
+(
+)
+const
+;
 private
 :
 enum
