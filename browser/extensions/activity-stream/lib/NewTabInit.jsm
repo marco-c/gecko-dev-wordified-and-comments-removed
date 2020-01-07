@@ -22,7 +22,7 @@ actionTypes
 at
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

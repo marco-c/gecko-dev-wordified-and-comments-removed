@@ -1454,7 +1454,9 @@ refresh
 )
 ;
 const
+[
 headers
+]
 =
 feed
 .
@@ -1466,9 +1468,6 @@ getCall
 )
 .
 args
-[
-1
-]
 ;
 assert
 .

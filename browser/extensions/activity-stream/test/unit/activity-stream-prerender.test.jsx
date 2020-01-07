@@ -199,14 +199,13 @@ getState
 /
 TopStories
 const
+[
 firstSection
+]
 =
 state
 .
 Sections
-[
-0
-]
 ;
 assert
 .

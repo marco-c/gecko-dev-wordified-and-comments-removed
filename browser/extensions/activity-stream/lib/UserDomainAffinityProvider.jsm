@@ -18,7 +18,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -1107,7 +1107,9 @@ this
 maxHistoryQueryResults
 ;
 const
+{
 root
+}
 =
 history
 .
@@ -1116,8 +1118,6 @@ executeQuery
 query
 options
 )
-.
-root
 ;
 root
 .

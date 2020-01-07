@@ -432,7 +432,9 @@ dispatch
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -443,9 +445,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -1015,7 +1014,9 @@ dispatch
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -1026,9 +1027,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .

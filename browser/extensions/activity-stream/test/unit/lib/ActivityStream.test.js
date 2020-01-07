@@ -550,7 +550,9 @@ init
 )
 ;
 const
+[
 action
+]
 =
 as
 .
@@ -561,9 +563,6 @@ init
 firstCall
 .
 args
-[
-1
-]
 ;
 assert
 .
@@ -612,7 +611,9 @@ init
 )
 ;
 const
+[
 action
+]
 =
 as
 .
@@ -623,9 +624,6 @@ init
 firstCall
 .
 args
-[
-1
-]
 ;
 assert
 .
@@ -665,7 +663,9 @@ init
 )
 ;
 const
+[
 action
+]
 =
 as
 .
@@ -676,9 +676,6 @@ init
 firstCall
 .
 args
-[
-2
-]
 ;
 assert
 .

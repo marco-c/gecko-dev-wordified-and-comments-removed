@@ -2903,7 +2903,9 @@ FAKE_OPTIONS
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -2914,9 +2916,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -3018,7 +3017,9 @@ FAKE_ID
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -3029,9 +3030,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -3168,7 +3166,9 @@ FAKE_ROWS
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -3179,9 +3179,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -3272,7 +3269,9 @@ true
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -3283,9 +3282,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -3398,7 +3394,9 @@ FAKE_CARD_OPTIONS
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -3409,9 +3407,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -3502,7 +3497,9 @@ true
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -3513,9 +3510,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -3858,7 +3852,9 @@ dispatch
 )
 ;
 const
+[
 action
+]
 =
 feed
 .
@@ -3869,9 +3865,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .

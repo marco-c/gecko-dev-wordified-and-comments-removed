@@ -11,7 +11,7 @@ topsites_edit
 )
 {
 const
-topsitesEditBtn
+topsitesAddBtn
 =
 content
 .
@@ -21,7 +21,7 @@ querySelector
 (
 "
 .
-edit
+add
 -
 topsites
 -
@@ -30,7 +30,7 @@ button
 "
 )
 ;
-topsitesEditBtn
+topsitesAddBtn
 .
 click
 (
@@ -47,9 +47,9 @@ querySelector
 (
 "
 .
-edit
+topsite
 -
-topsites
+form
 "
 )
 ;
@@ -67,9 +67,8 @@ Should
 find
 a
 visible
-topsites
-edit
-menu
+topsite
+form
 "
 )
 ;
