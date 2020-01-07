@@ -389,16 +389,6 @@ insertAfterCurrent
 "
 aInsertAfterCurrent
 ]
-[
-"
-browser
-.
-sessionstore
-.
-restore_tabs_lazily
-"
-false
-]
 ]
 }
 )

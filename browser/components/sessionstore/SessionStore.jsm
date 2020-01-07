@@ -14491,9 +14491,7 @@ skipBackgroundNotify
 true
 bulkOrderedOpen
 :
-this
-.
-_browserSetState
+true
 }
 )
 ;
