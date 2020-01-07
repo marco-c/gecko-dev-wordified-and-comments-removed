@@ -54,11 +54,6 @@ JSObject
 .
 h
 "
-typedef
-struct
-JSProperty
-JSProperty
-;
 namespace
 js
 {

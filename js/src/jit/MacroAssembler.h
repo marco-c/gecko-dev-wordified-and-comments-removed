@@ -11898,6 +11898,14 @@ convertDoubleElements
 false
 )
 ;
+enum
+class
+TypedArrayLength
+{
+Fixed
+Dynamic
+}
+;
 void
 initTypedArraySlots
 (

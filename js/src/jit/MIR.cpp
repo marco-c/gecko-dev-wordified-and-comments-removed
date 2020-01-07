@@ -36518,10 +36518,7 @@ Scalar
 Type
 arrayType
 =
-Scalar
-:
-:
-Type
+GetTypedArrayClassType
 (
 key
 -
@@ -36529,15 +36526,6 @@ key
 clasp
 (
 )
--
-&
-TypedArrayObject
-:
-:
-classes
-[
-0
-]
 )
 ;
 MIRType
