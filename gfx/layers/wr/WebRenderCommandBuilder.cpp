@@ -3395,6 +3395,16 @@ aGrouper
 mAppUnitsPerDevPixel
 )
 ;
+bounds
+=
+LayoutDeviceRect
+(
+RoundedToInt
+(
+bounds
+)
+)
+;
 IntSize
 size
 =
