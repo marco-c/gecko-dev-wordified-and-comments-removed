@@ -34,8 +34,12 @@ txt
 "
 "
 "
+from
+six
+.
+moves
 import
-urlparse
+urllib
 _SEPARATORS
 =
 '
@@ -1034,7 +1038,9 @@ resource
     
 parsed
 =
-urlparse
+urllib
+.
+parse
 .
 urlsplit
 (
@@ -1094,6 +1100,7 @@ port
     
 except
 ValueError
+as
 e
 :
         
@@ -1191,7 +1198,9 @@ path
 try
 :
     
-urlparse
+urllib
+.
+parse
 .
 uses_netloc
 .
@@ -1203,10 +1212,13 @@ ws
 )
 except
 ValueError
+as
 e
 :
     
-urlparse
+urllib
+.
+parse
 .
 uses_netloc
 .
@@ -1217,7 +1229,9 @@ ws
 '
 )
     
-urlparse
+urllib
+.
+parse
 .
 uses_netloc
 .

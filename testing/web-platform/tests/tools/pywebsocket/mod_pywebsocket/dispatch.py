@@ -593,9 +593,10 @@ try
 :
         
 exec
+(
 handler_definition
-in
 global_dic
+)
     
 except
 Exception
@@ -1238,6 +1239,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
             
@@ -1262,6 +1264,7 @@ raise
         
 except
 Exception
+as
 e
 :
             
@@ -1461,6 +1464,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
             
@@ -1487,6 +1491,7 @@ except
 msgutil
 .
 BadOperationException
+as
 e
 :
             
@@ -1519,6 +1524,7 @@ except
 msgutil
 .
 InvalidFrameException
+as
 e
 :
             
@@ -1550,6 +1556,7 @@ except
 msgutil
 .
 UnsupportedFrameException
+as
 e
 :
             
@@ -1581,6 +1588,7 @@ except
 stream
 .
 InvalidUTF8Exception
+as
 e
 :
             
@@ -1613,6 +1621,7 @@ except
 msgutil
 .
 ConnectionTerminatedException
+as
 e
 :
             
@@ -1631,6 +1640,7 @@ e
         
 except
 Exception
+as
 e
 :
             
@@ -2002,6 +2012,7 @@ read
             
 except
 DispatchException
+as
 e
 :
                 

@@ -481,6 +481,7 @@ fields
     
 except
 ValueError
+as
 e
 :
         

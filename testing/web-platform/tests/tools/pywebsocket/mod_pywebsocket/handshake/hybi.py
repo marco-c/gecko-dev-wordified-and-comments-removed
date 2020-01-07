@@ -386,6 +386,7 @@ connection
         
 except
 HandshakeException
+as
 e
 :
             
@@ -1208,6 +1209,7 @@ accept
         
 except
 HandshakeException
+as
 e
 :
             
@@ -1541,6 +1543,7 @@ except
 common
 .
 ExtensionParsingException
+as
 e
 :
             
@@ -1695,6 +1698,7 @@ True
         
 except
 TypeError
+as
 e
 :
             

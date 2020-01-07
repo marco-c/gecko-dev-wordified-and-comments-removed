@@ -392,6 +392,7 @@ except
 socket
 .
 error
+as
 e
 :
             
@@ -425,6 +426,7 @@ e
         
 except
 IOError
+as
 e
 :
             
@@ -510,6 +512,7 @@ bytes_to_write
         
 except
 Exception
+as
 e
 :
             

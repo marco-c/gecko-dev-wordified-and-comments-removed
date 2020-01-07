@@ -3004,6 +3004,7 @@ break
         
 except
 ValueError
+as
 e
 :
             
@@ -3807,6 +3808,7 @@ return
         
 except
 AttributeError
+as
 e
 :
             
@@ -3921,6 +3923,7 @@ expected_body
             
 except
 IndexError
+as
 e
 :
                 
@@ -3971,6 +3974,7 @@ message
         
 except
 AttributeError
+as
 e
 :
             
@@ -4325,6 +4329,7 @@ utf
                 
 except
 UnicodeDecodeError
+as
 e
 :
                     
