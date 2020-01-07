@@ -64,8 +64,6 @@ gtar
             
 '
 node
--
-devel
 '
             
 '
