@@ -1280,6 +1280,11 @@ browser
 .
 find_binary
 (
+self
+.
+venv
+.
+path
 )
             
 if
