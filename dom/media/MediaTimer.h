@@ -209,6 +209,11 @@ char
 aCallSite
 )
 ;
+void
+Cancel
+(
+)
+;
 private
 :
 virtual
@@ -266,6 +271,11 @@ const
 TimeStamp
 &
 aNow
+)
+;
+void
+Reject
+(
 )
 ;
 static
