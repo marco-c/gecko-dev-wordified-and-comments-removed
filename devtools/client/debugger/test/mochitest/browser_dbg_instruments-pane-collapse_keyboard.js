@@ -235,4 +235,9 @@ keycode
 await
 onTransitionEnd
 ;
+await
+waitForTick
+(
+)
+;
 }
