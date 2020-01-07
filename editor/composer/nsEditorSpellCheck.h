@@ -54,6 +54,9 @@ nscore
 h
 "
 class
+mozSpellChecker
+;
+class
 nsIEditor
 ;
 class
@@ -141,9 +144,9 @@ nsEditorSpellCheck
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsISpellChecker
+mozSpellChecker
 >
 mSpellChecker
 ;
