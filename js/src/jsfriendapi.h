@@ -9528,7 +9528,7 @@ size_t
 )
 atom
 &
-0x7
+JSID_TYPE_MASK
 )
 =
 =
@@ -9544,6 +9544,8 @@ JSID_FROM_BITS
 size_t
 )
 atom
+|
+JSID_TYPE_STRING
 )
 ;
 MOZ_ASSERT
@@ -9583,7 +9585,7 @@ size_t
 )
 atom
 &
-0x7
+JSID_TYPE_MASK
 )
 =
 =
@@ -9599,6 +9601,8 @@ JSID_FROM_BITS
 size_t
 )
 atom
+|
+JSID_TYPE_STRING
 )
 ;
 MOZ_ASSERT
@@ -9652,11 +9656,8 @@ return
 id
 =
 =
-JSID_FROM_BITS
+NON_INTEGER_ATOM_TO_JSID
 (
-(
-size_t
-)
 atom
 )
 ;
