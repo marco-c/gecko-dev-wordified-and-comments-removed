@@ -39,7 +39,7 @@ readme
 "
 README
 .
-html
+md
 "
 private
 :
