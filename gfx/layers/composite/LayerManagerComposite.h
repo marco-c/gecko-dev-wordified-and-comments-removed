@@ -1270,16 +1270,6 @@ override
 virtual
 already_AddRefed
 <
-BorderLayer
->
-CreateBorderLayer
-(
-)
-override
-;
-virtual
-already_AddRefed
-<
 CanvasLayer
 >
 CreateCanvasLayer

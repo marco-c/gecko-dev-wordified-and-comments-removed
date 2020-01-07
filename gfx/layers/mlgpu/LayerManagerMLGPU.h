@@ -195,15 +195,6 @@ CreateRefLayer
 )
 override
 ;
-already_AddRefed
-<
-BorderLayer
->
-CreateBorderLayer
-(
-)
-override
-;
 bool
 AreComponentAlphaLayersEnabled
 (
