@@ -48093,10 +48093,10 @@ nsIContent
 *
 letterContent
 =
-aTextContent
+aParentFrame
 -
 >
-GetParent
+GetContent
 (
 )
 ;
@@ -48667,10 +48667,10 @@ nsIContent
 *
 letterContent
 =
-aTextContent
+aParentFrame
 -
 >
-GetParent
+GetContent
 (
 )
 ;
