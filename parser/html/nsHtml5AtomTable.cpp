@@ -27,8 +27,10 @@ aStr
 )
 mAtom
 (
-new
 nsDynamicAtom
+:
+:
+Create
 (
 *
 aStr
@@ -80,8 +82,13 @@ nsHtml5AtomEntry
 (
 )
 {
-delete
+nsDynamicAtom
+:
+:
+Destroy
+(
 mAtom
+)
 ;
 }
 nsHtml5AtomTable

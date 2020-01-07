@@ -7,6 +7,13 @@ nsHtml5String_h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -14,7 +21,7 @@ h
 #
 include
 "
-nsAtom
+nsStringBuffer
 .
 h
 "
