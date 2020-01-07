@@ -61,6 +61,18 @@ use
 values
 :
 :
+computed
+:
+:
+url
+:
+:
+ComputedUrl
+;
+use
+values
+:
+:
 generics
 :
 :
@@ -135,6 +147,7 @@ Angle
 NonNegativeNumber
 NonNegativeLength
 SimpleShadow
+ComputedUrl
 >
 ;
 #
@@ -161,6 +174,7 @@ Angle
 NonNegativeNumber
 NonNegativeLength
 Impossible
+ComputedUrl
 >
 ;
 pub

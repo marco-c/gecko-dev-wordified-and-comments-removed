@@ -129,6 +129,18 @@ use
 values
 :
 :
+computed
+:
+:
+url
+:
+:
+ComputedUrl
+;
+use
+values
+:
+:
 distance
 :
 :
@@ -305,6 +317,7 @@ Angle
 Number
 Length
 SimpleShadow
+ComputedUrl
 >
 ;
 #
@@ -331,6 +344,7 @@ Angle
 Number
 Length
 Impossible
+ComputedUrl
 >
 ;
 pub

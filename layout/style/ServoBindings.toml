@@ -3105,6 +3105,7 @@ nsstring
 {
 nsACString
 nsAString
+nsCString
 nsString
 nsStringRepr
 }

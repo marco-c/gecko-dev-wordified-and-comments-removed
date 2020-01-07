@@ -1009,6 +1009,8 @@ Gecko_SetLayerImageImageValue
 self
 url
 .
+0
+.
 image_value
 .
 get
@@ -1039,6 +1041,8 @@ self
 image_rect
 .
 url
+.
+0
 .
 image_value
 .

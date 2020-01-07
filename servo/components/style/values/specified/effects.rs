@@ -181,17 +181,6 @@ Length
 NonNegativeLength
 }
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 use
 values
 :
@@ -246,6 +235,7 @@ Angle
 Factor
 NonNegativeLength
 SimpleShadow
+SpecifiedUrl
 >
 ;
 #
@@ -272,6 +262,7 @@ Angle
 Factor
 NonNegativeLength
 Impossible
+SpecifiedUrl
 >
 ;
 #
