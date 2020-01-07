@@ -175,6 +175,8 @@ formatMessages
 [
 [
 "
+performance
+-
 default
 -
 content
