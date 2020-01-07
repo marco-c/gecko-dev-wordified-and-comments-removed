@@ -85,6 +85,11 @@ GeckoViewContent
 js
 content
 /
+GeckoViewContentSettings
+.
+js
+content
+/
 GeckoViewNavigationContent
 .
 js
