@@ -1177,6 +1177,7 @@ applySafe
 (
 callback
 args
+caller
 )
 {
 if
@@ -1199,6 +1200,7 @@ after
 context
 unloaded
 "
+caller
 )
 ;
 }
@@ -1225,6 +1227,7 @@ context
 is
 inactive
 "
+caller
 )
 ;
 }
@@ -1308,6 +1311,7 @@ applySafeWithoutClone
 (
 callback
 args
+caller
 )
 ;
 }
@@ -1316,6 +1320,7 @@ applySafeWithoutClone
 (
 callback
 args
+caller
 )
 {
 if
@@ -1338,6 +1343,7 @@ after
 context
 unloaded
 "
+caller
 )
 ;
 }
@@ -1364,6 +1370,7 @@ context
 is
 inactive
 "
+caller
 )
 ;
 }
@@ -1819,6 +1826,7 @@ fileName
 withLastError
 (
 error
+caller
 callback
 )
 {
@@ -1864,6 +1872,7 @@ this
 .
 lastError
 }
+caller
 )
 ;
 }
@@ -1875,6 +1884,21 @@ null
 ;
 }
 }
+getCaller
+(
+)
+{
+return
+ChromeUtils
+.
+getCallerLocation
+(
+this
+.
+principal
+)
+;
+}
 wrapPromise
 (
 promise
@@ -1883,6 +1907,15 @@ callback
 null
 )
 {
+let
+caller
+=
+this
+.
+getCaller
+(
+)
+;
 let
 applySafe
 =
@@ -1943,7 +1976,9 @@ this
 unloaded
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 resolved
@@ -1952,6 +1987,7 @@ context
 unloaded
 \
 n
+caller
 )
 ;
 }
@@ -1964,7 +2000,9 @@ this
 active
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 resolved
@@ -1974,6 +2012,7 @@ is
 inactive
 \
 n
+caller
 )
 ;
 }
@@ -1993,6 +2032,7 @@ callback
 args
 .
 unwrappedValues
+caller
 )
 ;
 }
@@ -2008,6 +2048,7 @@ applySafe
 (
 callback
 args
+caller
 )
 ;
 }
@@ -2019,6 +2060,7 @@ callback
 [
 args
 ]
+caller
 )
 ;
 }
@@ -2032,6 +2074,7 @@ this
 withLastError
 (
 error
+caller
 (
 )
 =
@@ -2044,7 +2087,9 @@ this
 unloaded
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 rejected
@@ -2053,6 +2098,7 @@ context
 unloaded
 \
 n
+caller
 )
 ;
 }
@@ -2065,7 +2111,9 @@ this
 active
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 rejected
@@ -2075,6 +2123,7 @@ is
 inactive
 \
 n
+caller
 )
 ;
 }
@@ -2087,6 +2136,7 @@ applySafeWithoutClone
 callback
 [
 ]
+caller
 )
 ;
 }
@@ -2129,7 +2179,9 @@ this
 unloaded
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 resolved
@@ -2138,6 +2190,7 @@ context
 unloaded
 \
 n
+caller
 )
 ;
 }
@@ -2150,7 +2203,9 @@ this
 active
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 resolved
@@ -2160,6 +2215,7 @@ is
 inactive
 \
 n
+caller
 )
 ;
 }
@@ -2200,6 +2256,7 @@ values
 [
 values
 ]
+caller
 )
 ;
 }
@@ -2226,6 +2283,7 @@ value
 [
 value
 ]
+caller
 )
 ;
 }
@@ -2237,6 +2295,7 @@ resolve
 [
 value
 ]
+caller
 )
 ;
 }
@@ -2252,7 +2311,9 @@ this
 unloaded
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 rejected
@@ -2270,6 +2331,7 @@ message
 }
 \
 n
+caller
 )
 ;
 }
@@ -2282,7 +2344,9 @@ this
 active
 )
 {
-dump
+Cu
+.
+reportError
 (
 Promise
 rejected
@@ -2301,6 +2365,7 @@ message
 }
 \
 n
+caller
 )
 ;
 }
@@ -2319,6 +2384,7 @@ normalizeError
 value
 )
 ]
+caller
 )
 ;
 }
