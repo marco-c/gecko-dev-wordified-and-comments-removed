@@ -6059,8 +6059,10 @@ instance
 ;
 JSContext
 *
-*
-addressOfContext
+cx
+;
+uintptr_t
+stackLimit
 ;
 void
 *
