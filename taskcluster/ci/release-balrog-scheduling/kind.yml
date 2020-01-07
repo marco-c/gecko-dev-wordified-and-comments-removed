@@ -191,7 +191,9 @@ treeherder
 :
 platform
 :
-linux64
+firefox
+-
+release
 /
 opt
 symbol
@@ -258,7 +260,9 @@ treeherder
 :
 platform
 :
-linux64
+devedition
+-
+release
 /
 opt
 symbol
