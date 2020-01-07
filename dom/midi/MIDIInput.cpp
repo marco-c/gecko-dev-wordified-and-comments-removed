@@ -217,11 +217,17 @@ doc
 GetOwner
 (
 )
+?
+GetOwner
+(
+)
 -
 >
 GetDoc
 (
 )
+:
+nullptr
 ;
 if
 (
