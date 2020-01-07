@@ -219,12 +219,6 @@ releng_sub_linux_configs
 64_artifact
 .
 py
--
-balrog
-/
-production
-.
-py
 script
 :
 "

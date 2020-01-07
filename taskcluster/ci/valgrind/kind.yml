@@ -227,12 +227,6 @@ builds
 releng_base_linux_64_builds
 .
 py
--
-balrog
-/
-production
-.
-py
 script
 :
 "

@@ -1843,12 +1843,6 @@ taskcluster_sub_win32
 addondevel
 .
 py
--
-balrog
-/
-production
-.
-py
 run
 -
 on
@@ -2047,12 +2041,6 @@ builds
 taskcluster_sub_win64
 /
 addondevel
-.
-py
--
-balrog
-/
-production
 .
 py
 run
