@@ -6,7 +6,7 @@ syn
 DeriveInput
 Field
 Ident
-MetaItem
+Meta
 }
 ;
 use
@@ -28,7 +28,7 @@ options
 {
 OuterFrom
 ParseAttribute
-ParseBody
+ParseData
 DataShape
 }
 ;
@@ -51,7 +51,7 @@ base
 :
 OuterFrom
 pub
-data
+fields
 :
 Option
 <
@@ -96,7 +96,7 @@ start
 (
 di
 )
-data
+fields
 :
 Default
 :
@@ -129,7 +129,7 @@ parse_body
 &
 di
 .
-body
+data
 )
 }
 }
@@ -193,11 +193,11 @@ ident
 as_ref
 (
 )
-data
+fields
 :
 v
 .
-data
+fields
 .
 as_ref
 (
@@ -271,7 +271,7 @@ self
 mi
 :
 &
-MetaItem
+Meta
 )
 -
 >
@@ -285,6 +285,10 @@ match
 mi
 .
 name
+(
+)
+.
+as_ref
 (
 )
 {
@@ -328,7 +332,7 @@ mi
 }
 }
 impl
-ParseBody
+ParseData
 for
 FromVariantOptions
 {
@@ -375,7 +379,7 @@ as_ref
 Some
 (
 "
-data
+fields
 "
 )
 =
@@ -383,7 +387,7 @@ data
 {
 self
 .
-data
+fields
 =
 field
 .

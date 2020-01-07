@@ -14,7 +14,7 @@ options
 {
 Core
 ParseAttribute
-ParseBody
+ParseData
 }
 ;
 pub
@@ -76,7 +76,7 @@ parse_body
 &
 di
 .
-body
+data
 )
 }
 }
@@ -97,7 +97,7 @@ mi
 syn
 :
 :
-MetaItem
+Meta
 )
 -
 >
@@ -118,7 +118,7 @@ mi
 }
 }
 impl
-ParseBody
+ParseData
 for
 FmiOptions
 {

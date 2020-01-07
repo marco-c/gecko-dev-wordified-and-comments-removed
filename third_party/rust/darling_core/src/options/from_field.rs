@@ -24,7 +24,7 @@ options
 :
 {
 ParseAttribute
-ParseBody
+ParseData
 OuterFrom
 }
 ;
@@ -125,7 +125,7 @@ parse_body
 &
 di
 .
-body
+data
 )
 }
 }
@@ -146,7 +146,7 @@ mi
 syn
 :
 :
-MetaItem
+Meta
 )
 -
 >
@@ -167,7 +167,7 @@ mi
 }
 }
 impl
-ParseBody
+ParseData
 for
 FromFieldOptions
 {

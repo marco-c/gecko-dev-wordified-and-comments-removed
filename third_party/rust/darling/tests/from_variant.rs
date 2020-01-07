@@ -57,7 +57,7 @@ Option
 <
 bool
 >
-data
+fields
 :
 darling
 :
@@ -65,12 +65,12 @@ darling
 ast
 :
 :
-VariantData
+Fields
 <
 syn
 :
 :
-Ty
+Type
 >
 }
 impl
@@ -117,7 +117,7 @@ Default
 default
 (
 )
-data
+fields
 :
 darling
 :

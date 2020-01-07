@@ -48,12 +48,12 @@ pub
 struct
 Container
 {
-body
+data
 :
 ast
 :
 :
-Body
+Data
 <
 Variant
 (
@@ -117,7 +117,7 @@ di
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #
@@ -171,7 +171,7 @@ di
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #

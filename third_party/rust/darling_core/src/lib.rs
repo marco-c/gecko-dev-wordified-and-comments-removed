@@ -13,16 +13,12 @@ macro_use
 ]
 extern
 crate
-lazy_static
+quote
 ;
 #
 [
 macro_use
 ]
-extern
-crate
-quote
-;
 extern
 crate
 syn

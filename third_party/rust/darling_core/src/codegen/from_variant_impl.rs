@@ -62,7 +62,7 @@ a
 Ident
 >
 pub
-data
+fields
 :
 Option
 <
@@ -222,11 +222,11 @@ __fwd_attrs
 )
 ;
 let
-passed_data
+passed_fields
 =
 self
 .
-data
+fields
 .
 as_ref
 (
@@ -251,7 +251,7 @@ darling
 ast
 :
 :
-VariantData
+Fields
 :
 :
 try_from
@@ -260,7 +260,7 @@ try_from
 #
 input
 .
-data
+fields
 )
 ?
 )
@@ -369,7 +369,7 @@ __validate_data
 #
 input
 .
-data
+fields
 )
 ?
 ;
@@ -471,7 +471,7 @@ passed_ident
 #
 passed_attrs
 #
-passed_data
+passed_fields
 #
 inits
 }

@@ -14,7 +14,7 @@ syn
 {
 Ident
 Path
-Ty
+Type
 }
 ;
 use
@@ -61,7 +61,7 @@ ty
 &
 '
 a
-Ty
+Type
 pub
 default_expression
 :
@@ -76,9 +76,6 @@ a
 pub
 with_path
 :
-&
-'
-a
 Path
 pub
 map
@@ -335,7 +332,7 @@ quote
 ;
 tokens
 .
-append
+append_all
 (
 if
 field
@@ -486,6 +483,7 @@ ident
 let
 with_path
 =
+&
 field
 .
 with_path
@@ -586,7 +584,7 @@ map
 }
 tokens
 .
-append
+append_all
 (
 if
 field
@@ -603,7 +601,6 @@ name_str
 {
 /
 /
-/
 Store
 the
 index
@@ -618,7 +615,6 @@ in
 case
 we
 need
-/
 /
 /
 it
@@ -838,7 +834,7 @@ ident
 ;
 tokens
 .
-append
+append_all
 (
 if
 field
@@ -1066,7 +1062,7 @@ name_in_attr
 ;
 tokens
 .
-append
+append_all
 (
 quote
 !

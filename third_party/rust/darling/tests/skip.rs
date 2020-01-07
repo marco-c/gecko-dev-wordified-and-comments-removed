@@ -115,7 +115,7 @@ di
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #

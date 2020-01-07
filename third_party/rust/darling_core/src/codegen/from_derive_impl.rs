@@ -20,7 +20,7 @@ use
 ast
 :
 :
-Body
+Data
 ;
 use
 codegen
@@ -90,7 +90,7 @@ a
 Ident
 >
 pub
-body
+data
 :
 Option
 <
@@ -201,7 +201,7 @@ map_fn
 ;
 if
 let
-Body
+Data
 :
 :
 Struct
@@ -214,7 +214,7 @@ self
 .
 base
 .
-body
+data
 {
 if
 data
@@ -426,7 +426,7 @@ passed_body
 =
 self
 .
-body
+data
 .
 as_ref
 (
@@ -451,7 +451,7 @@ darling
 ast
 :
 :
-Body
+Data
 :
 :
 try_from
@@ -460,7 +460,7 @@ try_from
 #
 input
 .
-body
+data
 )
 ?
 )
@@ -489,7 +489,7 @@ __validate_body
 #
 input
 .
-body
+data
 )
 ?
 ;

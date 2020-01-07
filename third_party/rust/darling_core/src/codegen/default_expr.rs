@@ -121,7 +121,7 @@ Tokens
 {
 tokens
 .
-append
+append_all
 (
 match
 *
@@ -143,7 +143,7 @@ dsn
 Ident
 :
 :
-new
+from
 (
 DEFAULT_STRUCT_NAME
 )
@@ -253,7 +253,7 @@ name
 Ident
 :
 :
-new
+from
 (
 DEFAULT_STRUCT_NAME
 )
@@ -267,7 +267,7 @@ self
 ;
 tokens
 .
-append
+append_all
 (
 quote
 !

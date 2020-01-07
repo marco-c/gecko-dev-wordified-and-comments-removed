@@ -10,7 +10,7 @@ syn
 :
 {
 Lit
-NestedMetaItem
+NestedMeta
 }
 ;
 use
@@ -500,7 +500,7 @@ items
 :
 &
 [
-NestedMetaItem
+NestedMeta
 ]
 )
 -

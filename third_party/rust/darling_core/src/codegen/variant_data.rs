@@ -26,11 +26,11 @@ use
 ast
 :
 :
-VariantData
+Fields
 ;
 pub
 struct
-VariantDataGen
+FieldsGen
 <
 '
 a
@@ -40,7 +40,7 @@ pub
 &
 '
 a
-VariantData
+Fields
 <
 Field
 <
@@ -55,7 +55,7 @@ impl
 '
 a
 >
-VariantDataGen
+FieldsGen
 <
 '
 a
@@ -82,7 +82,7 @@ self
 .
 0
 {
-VariantData
+Fields
 {
 style
 :
@@ -131,7 +131,7 @@ panic
 !
 (
 "
-VariantDataGen
+FieldsGen
 doesn
 '
 t
@@ -201,10 +201,10 @@ let
 syn
 :
 :
-NestedMetaItem
+NestedMeta
 :
 :
-MetaItem
+Meta
 (
 ref
 __inner
@@ -284,7 +284,7 @@ self
 .
 0
 {
-VariantData
+Fields
 {
 style
 :
@@ -333,7 +333,7 @@ panic
 !
 (
 "
-VariantDataGen
+FieldsGen
 doesn
 '
 t
