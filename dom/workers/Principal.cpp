@@ -21,7 +21,12 @@ Assertions
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 struct
 WorkerPrincipal
 final
@@ -134,4 +139,5 @@ one
 )
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}

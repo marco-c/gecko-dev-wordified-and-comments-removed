@@ -710,6 +710,9 @@ Dispatch
 return
 ;
 }
+WorkerErrorReport
+:
+:
 LogErrorToConsole
 (
 aReport
@@ -1274,10 +1277,10 @@ i
 }
 }
 }
-namespace
-workers
-{
 void
+WorkerErrorReport
+:
+:
 ReportError
 (
 JSContext
@@ -1833,6 +1836,9 @@ Dispatch
 return
 ;
 }
+WorkerErrorReport
+:
+:
 LogErrorToConsole
 (
 aReport
@@ -1841,6 +1847,9 @@ aInnerWindowId
 ;
 }
 void
+WorkerErrorReport
+:
+:
 LogErrorToConsole
 (
 const
@@ -2207,7 +2216,6 @@ fflush
 stderr
 )
 ;
-}
 }
 }
 }

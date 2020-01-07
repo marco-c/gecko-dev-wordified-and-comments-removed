@@ -11,7 +11,12 @@ WorkerCommon
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 JSPrincipals
 *
 GetWorkerPrincipal
@@ -26,6 +31,7 @@ JSPrincipals
 aPrincipals
 )
 ;
-END_WORKERS_NAMESPACE
+}
+}
 #
 endif
