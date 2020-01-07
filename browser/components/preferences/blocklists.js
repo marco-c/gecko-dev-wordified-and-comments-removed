@@ -909,17 +909,3 @@ BASE_LIST_ID
 }
 }
 ;
-function
-initWithParams
-(
-params
-)
-{
-gBlocklistManager
-.
-init
-(
-params
-)
-;
-}
