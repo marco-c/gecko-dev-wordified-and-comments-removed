@@ -2098,7 +2098,7 @@ MainThreadData
 <
 size_t
 >
-numCompartments
+numRealms
 ;
 js
 :

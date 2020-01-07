@@ -3350,11 +3350,6 @@ Zone
 zone
 )
 ;
-~
-JSCompartment
-(
-)
-;
 MOZ_MUST_USE
 bool
 init

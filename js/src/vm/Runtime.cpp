@@ -680,7 +680,7 @@ numActiveHelperThreadZones
 (
 0
 )
-numCompartments
+numRealms
 (
 0
 )
