@@ -4,6 +4,8 @@
 bin
 /
 sh
+-
+e
 #
 Script
 to
@@ -15,9 +17,6 @@ sources
 to
 latest
 upstream
-set
--
-e
 #
 Default
 version
@@ -25,7 +24,7 @@ version
 VER
 =
 "
-0c8e1d91464aaa63b82ebf076b63cda1df4230d1
+2dc5127a69bc9bf891972e269e3abde0b77612f5
 "
 #
 Accept
@@ -282,7 +281,7 @@ patches
 "
 patch
 -
-p3
+p4
 <
 mp4parse
 -
