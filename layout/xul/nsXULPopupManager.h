@@ -1165,16 +1165,6 @@ GetInstance
 (
 )
 ;
-static
-nsContainerFrame
-*
-ImmediateParentFrame
-(
-nsContainerFrame
-*
-aFrame
-)
-;
 void
 AdjustPopupsOnWindowChange
 (
