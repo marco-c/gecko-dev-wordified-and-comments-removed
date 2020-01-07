@@ -574,7 +574,7 @@ allowSyntheticWeight
 aFontEntry
 -
 >
-IsBold
+SupportsBold
 (
 )
 ;
