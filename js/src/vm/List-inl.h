@@ -125,8 +125,9 @@ length
 list
 -
 >
-setDenseElement
+setDenseElementWithType
 (
+cx
 length
 value
 )
