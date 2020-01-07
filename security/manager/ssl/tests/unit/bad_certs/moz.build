@@ -323,6 +323,12 @@ pem
 '
 #
 '
+mitm
+.
+pem
+'
+#
+'
 noValidNames
 .
 pem

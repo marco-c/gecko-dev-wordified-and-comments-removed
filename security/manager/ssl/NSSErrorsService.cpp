@@ -646,6 +646,15 @@ mozilla
 pkix
 :
 :
+MOZILLA_PKIX_ERROR_MITM_DETECTED
+:
+case
+mozilla
+:
+:
+pkix
+:
+:
 MOZILLA_PKIX_ERROR_NOT_YET_VALID_CERTIFICATE
 :
 case
