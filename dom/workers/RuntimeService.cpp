@@ -10927,12 +10927,15 @@ IsSecureContext
 )
 =
 =
-JS_GetIsSecureContext
+JS
+:
+:
+GetIsSecureContext
 (
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 aCx
 )
