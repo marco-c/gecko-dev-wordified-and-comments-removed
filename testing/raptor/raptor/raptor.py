@@ -863,6 +863,14 @@ proc
 =
 proc
         
+self
+.
+control_server
+.
+browser_proc
+=
+proc
+        
 try
 :
             
