@@ -1654,7 +1654,10 @@ JS_EncodeStringToUTF8
 JS_EndRequest
 "
 "
-JS_EnterCompartment
+JS
+:
+:
+EnterRealm
 "
 "
 JS_EnumerateStandardClasses
@@ -1780,7 +1783,10 @@ JS
 IsCallable
 "
 "
-JS_LeaveCompartment
+JS
+:
+:
+LeaveRealm
 "
 "
 JS_LinkConstructorAndPrototype

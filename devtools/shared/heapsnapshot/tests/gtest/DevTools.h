@@ -237,7 +237,10 @@ global
 )
 return
 ;
-JS_EnterCompartment
+JS
+:
+:
+EnterRealm
 (
 cx
 global
@@ -476,7 +479,10 @@ if
 global
 )
 {
-JS_LeaveCompartment
+JS
+:
+:
+LeaveRealm
 (
 cx
 nullptr

@@ -109,7 +109,10 @@ global
 return
 false
 ;
-JS_EnterCompartment
+JS
+:
+:
+EnterRealm
 (
 cx
 global
@@ -132,7 +135,10 @@ if
 oldCompartment
 )
 {
-JS_LeaveCompartment
+JS
+:
+:
+LeaveRealm
 (
 cx
 oldCompartment
@@ -148,7 +154,10 @@ if
 global
 )
 {
-JS_LeaveCompartment
+JS
+:
+:
+LeaveRealm
 (
 cx
 nullptr
