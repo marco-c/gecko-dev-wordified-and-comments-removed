@@ -304,6 +304,11 @@ webaudio
 js
 '
 '
+webconsole
+.
+js
+'
+'
 webextension
 -
 inspected

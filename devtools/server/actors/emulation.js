@@ -490,7 +490,7 @@ false
 }
 consoleActor
 .
-onStartListeners
+startListeners
 (
 {
 listeners
@@ -505,7 +505,7 @@ NetworkActivity
 ;
 consoleActor
 .
-onSetPreferences
+setPreferences
 (
 {
 preferences
@@ -598,7 +598,7 @@ prefs
 =
 consoleActor
 .
-onGetPreferences
+getPreferences
 (
 {
 preferences
