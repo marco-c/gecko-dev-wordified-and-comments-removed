@@ -1,14 +1,14 @@
 #
 include
 "
-nsCOMPtr
+nsPrintSettingsServiceWin
 .
 h
 "
 #
 include
 "
-nsPrintOptionsWin
+nsCOMPtr
 .
 h
 "

@@ -1,7 +1,7 @@
 #
 include
 "
-nsPrintOptionsGTK
+nsPrintSettingsServiceGTK
 .
 h
 "

@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsPrintSettingsServiceX
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -111,13 +118,6 @@ h
 include
 "
 nsIServiceManager
-.
-h
-"
-#
-include
-"
-nsPrintOptionsX
 .
 h
 "

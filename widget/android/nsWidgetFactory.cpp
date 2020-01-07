@@ -103,14 +103,14 @@ h
 #
 include
 "
-nsPrintOptionsAndroid
+nsPrintSession
 .
 h
 "
 #
 include
 "
-nsPrintSession
+nsPrintSettingsServiceAndroid
 .
 h
 "

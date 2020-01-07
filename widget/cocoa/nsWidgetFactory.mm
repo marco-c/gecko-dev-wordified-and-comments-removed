@@ -282,7 +282,7 @@ h
 #
 include
 "
-nsPrintOptionsX
+nsPrintSettingsServiceX
 .
 h
 "

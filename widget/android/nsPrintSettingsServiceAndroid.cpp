@@ -1,7 +1,7 @@
 #
 include
 "
-nsPrintOptionsAndroid
+nsPrintSettingsServiceAndroid
 .
 h
 "

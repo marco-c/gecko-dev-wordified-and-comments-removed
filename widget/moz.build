@@ -1167,7 +1167,7 @@ nsDeviceContextSpecProxy
 h
 '
 '
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 '
@@ -1182,12 +1182,12 @@ nsDeviceContextSpecProxy
 cpp
 '
 '
-nsPrintOptionsImpl
+nsPrintSession
 .
 cpp
 '
 '
-nsPrintSession
+nsPrintSettingsService
 .
 cpp
 '

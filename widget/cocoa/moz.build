@@ -281,7 +281,7 @@ nsPrintDialogX
 mm
 '
 '
-nsPrintOptionsX
+nsPrintSettingsServiceX
 .
 mm
 '

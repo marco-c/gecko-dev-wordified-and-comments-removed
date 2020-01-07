@@ -7,7 +7,7 @@ nsPrintOptionsAndroid_h__
 #
 include
 "
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 "

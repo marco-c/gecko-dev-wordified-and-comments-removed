@@ -541,7 +541,7 @@ nsPrintDialogWin
 cpp
 '
 '
-nsPrintOptionsWin
+nsPrintSettingsServiceWin
 .
 cpp
 '

@@ -404,12 +404,12 @@ nsPrintDialogGTK
 cpp
 '
 '
-nsPrintOptionsGTK
+nsPrintSettingsGTK
 .
 cpp
 '
 '
-nsPrintSettingsGTK
+nsPrintSettingsServiceGTK
 .
 cpp
 '
