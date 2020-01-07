@@ -142,15 +142,6 @@ State
 class
 StateRestorer
 ;
-nsIContent
-*
-GetBlockParent
-(
-nsINode
-*
-aNode
-)
-;
 nsresult
 NextNode
 (
