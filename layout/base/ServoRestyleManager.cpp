@@ -4541,6 +4541,16 @@ Pshaw
 ;
 MOZ_ASSERT
 (
+(
+aFlags
+&
+ServoTraversalFlags
+:
+:
+FlushThrottledAnimations
+)
+|
+|
 !
 presContext
 -
