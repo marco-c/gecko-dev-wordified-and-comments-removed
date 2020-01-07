@@ -252,6 +252,12 @@ toctree
 maxdepth
 :
 1
+.
+.
+/
+CONTRIBUTING
+.
+md
 NewContributors
 .
 md
