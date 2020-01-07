@@ -1045,10 +1045,7 @@ const
 JS
 :
 :
-ForEachProfiledFrameOp
-:
-:
-FrameHandle
+ProfiledFrameHandle
 *
 mJITFrameHandle
 ;
@@ -1083,10 +1080,7 @@ const
 JS
 :
 :
-ForEachProfiledFrameOp
-:
-:
-FrameHandle
+ProfiledFrameHandle
 &
 aJITFrameHandle
 )

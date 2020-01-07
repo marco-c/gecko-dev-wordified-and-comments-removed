@@ -7248,10 +7248,7 @@ typedef
 JS
 :
 :
-ForEachProfiledFrameOp
-:
-:
-FrameHandle
+ProfiledFrameHandle
 FrameHandle
 ;
 void
