@@ -88,6 +88,7 @@ static
 nsresult
 GetNameFromSubtree
 (
+const
 Accessible
 *
 aAccessible
@@ -100,6 +101,7 @@ static
 void
 GetTextEquivFromSubtree
 (
+const
 Accessible
 *
 aAccessible
@@ -132,6 +134,7 @@ static
 nsresult
 GetTextEquivFromIDRefs
 (
+const
 Accessible
 *
 aAccessible
@@ -147,6 +150,7 @@ static
 nsresult
 AppendTextEquivFromContent
 (
+const
 Accessible
 *
 aInitiatorAcc
@@ -176,6 +180,7 @@ static
 nsresult
 AppendFromAccessibleChildren
 (
+const
 Accessible
 *
 aAccessible
