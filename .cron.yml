@@ -75,8 +75,6 @@ projects
 mozilla
 -
 central
--
-date
 when
 :
 by
@@ -165,8 +163,6 @@ projects
 mozilla
 -
 central
--
-date
 when
 :
 [
@@ -216,8 +212,6 @@ projects
 mozilla
 -
 central
--
-date
 when
 :
 [
@@ -267,8 +261,6 @@ projects
 mozilla
 -
 central
--
-date
 when
 :
 [
@@ -318,8 +310,6 @@ projects
 mozilla
 -
 central
--
-date
 when
 :
 [
@@ -365,8 +355,6 @@ projects
 mozilla
 -
 central
--
-date
 when
 :
 by
