@@ -74,14 +74,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IXULDOCUMENT_IID
 )
 virtual
-bool
-OnDocumentParserError
-(
-)
-=
-0
-;
-virtual
 void
 ResetDocumentDirection
 (
