@@ -1,16 +1,4 @@
 const
-{
-Cu
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-const
 Services
 =
 require
@@ -1204,7 +1192,6 @@ for
 (
 let
 [
-manifestURL
 app
 ]
 of

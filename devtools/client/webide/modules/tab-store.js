@@ -1,17 +1,5 @@
 const
 {
-Cu
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-const
-{
 TargetFactory
 }
 =

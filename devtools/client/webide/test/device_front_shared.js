@@ -1230,7 +1230,7 @@ line
 "
 )
 ;
-var
+let
 mouseClick
 =
 new

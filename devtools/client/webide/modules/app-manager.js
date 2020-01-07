@@ -1,17 +1,5 @@
 const
 {
-Cu
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-const
-{
 TargetFactory
 }
 =
@@ -3373,9 +3361,6 @@ error_cantInstallValidationErrors
 return
 ;
 }
-let
-installPromise
-;
 if
 (
 project

@@ -724,7 +724,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -982,7 +981,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >

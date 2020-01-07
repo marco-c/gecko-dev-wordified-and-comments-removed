@@ -25,16 +25,6 @@ jsm
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 AppManager
 }

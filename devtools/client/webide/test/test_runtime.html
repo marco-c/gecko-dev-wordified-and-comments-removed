@@ -1146,9 +1146,7 @@ since
 connection
 never
 completes
-let
-errorDeferred
-=
+await
 new
 Promise
 (
@@ -1295,6 +1293,9 @@ resolve
 ;
 }
 )
+;
+await
+noErrorDeferred
 ;
 SimpleTest
 .

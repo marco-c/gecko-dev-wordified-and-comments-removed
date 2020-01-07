@@ -1,7 +1,6 @@
 const
 {
 Cc
-Cu
 Ci
 }
 =
