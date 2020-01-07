@@ -105,6 +105,13 @@ application
 javascript
 "
 >
+const
+InspectorUtils
+=
+SpecialPowers
+.
+InspectorUtils
+;
 var
 domUtils
 =
@@ -148,7 +155,7 @@ styleSheets
 ;
 is
 (
-domUtils
+InspectorUtils
 .
 getRelativeRuleLine
 (
@@ -170,7 +177,7 @@ line
 ;
 is
 (
-domUtils
+InspectorUtils
 .
 getRuleLine
 (
@@ -214,7 +221,7 @@ n
 ;
 is
 (
-domUtils
+InspectorUtils
 .
 getRelativeRuleLine
 (
@@ -237,7 +244,7 @@ reparsing
 ;
 is
 (
-domUtils
+InspectorUtils
 .
 getRuleLine
 (

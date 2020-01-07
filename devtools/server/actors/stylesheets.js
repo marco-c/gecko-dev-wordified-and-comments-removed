@@ -529,7 +529,7 @@ this
 .
 line
 =
-DOMUtils
+InspectorUtils
 .
 getRuleLine
 (
@@ -540,7 +540,7 @@ this
 .
 column
 =
-DOMUtils
+InspectorUtils
 .
 getRuleColumn
 (
@@ -1181,7 +1181,7 @@ i
 ;
 if
 (
-DOMUtils
+InspectorUtils
 .
 getRelativeRuleLine
 (

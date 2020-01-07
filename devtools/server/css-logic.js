@@ -75,6 +75,16 @@ logic
 "
 )
 ;
+const
+InspectorUtils
+=
+require
+(
+"
+InspectorUtils
+"
+)
+;
 function
 CssLogic
 (
@@ -2873,7 +2883,7 @@ this
 .
 line
 =
-domUtils
+InspectorUtils
 .
 getRuleLine
 (
@@ -2886,7 +2896,7 @@ this
 .
 column
 =
-domUtils
+InspectorUtils
 .
 getRuleColumn
 (
