@@ -1,11 +1,3 @@
-#
-!
-[
-deny
-(
-warnings
-)
-]
 extern
 crate
 cssparser
