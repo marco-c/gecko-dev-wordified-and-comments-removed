@@ -485,7 +485,7 @@ element
 [
 Throws
 ]
-void
+boolean
 setContentState
 (
 Element
@@ -499,7 +499,7 @@ state
 [
 Throws
 ]
-void
+boolean
 removeContentState
 (
 Element
