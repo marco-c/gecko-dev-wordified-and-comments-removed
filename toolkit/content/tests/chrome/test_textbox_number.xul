@@ -215,6 +215,11 @@ type
 "
 number
 "
+size
+=
+"
+4
+"
 /
 >
 <
@@ -264,6 +269,11 @@ type
 =
 "
 number
+"
+size
+=
+"
+4
 "
 value
 =
@@ -335,6 +345,11 @@ type
 "
 number
 "
+size
+=
+"
+4
+"
 value
 =
 "
@@ -389,6 +404,11 @@ type
 =
 "
 number
+"
+size
+=
+"
+4
 "
 oninput
 =
