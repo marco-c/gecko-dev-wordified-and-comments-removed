@@ -61,16 +61,6 @@ SetICUMemoryFunctions
 (
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
-void
-SetGMPMemoryFunctions
-(
-)
-;
-#
-endif
 void
 LogTerm
 (
