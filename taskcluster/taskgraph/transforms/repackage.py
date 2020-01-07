@@ -1114,7 +1114,9 @@ tree
 "
 :
 "
-desktop
+debian7
+-
+amd64
 -
 build
 "
