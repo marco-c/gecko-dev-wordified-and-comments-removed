@@ -41,15 +41,6 @@ include
 "
 mozilla
 /
-BackgroundHangMonitor
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ContentParent
@@ -2947,7 +2938,7 @@ GetUniqueID
 mozilla
 :
 :
-BackgroundHangMonitor
+HangMonitor
 :
 :
 RegisterAnnotator
@@ -3162,7 +3153,7 @@ endif
 mozilla
 :
 :
-BackgroundHangMonitor
+HangMonitor
 :
 :
 UnregisterAnnotator
@@ -4571,7 +4562,10 @@ AnnotateHang
 mozilla
 :
 :
-BackgroundHangAnnotations
+HangMonitor
+:
+:
+HangAnnotations
 &
 aAnnotations
 )

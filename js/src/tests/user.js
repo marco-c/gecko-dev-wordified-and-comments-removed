@@ -109,6 +109,16 @@ max_script_run_time
 user_pref
 (
 "
+hangmonitor
+.
+timeout
+"
+0
+)
+;
+user_pref
+(
+"
 dom
 .
 max_chrome_script_run_time
