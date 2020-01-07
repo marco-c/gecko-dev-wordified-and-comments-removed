@@ -2199,7 +2199,7 @@ computedTiming
 }
 if
 (
-HasTransformThatMightAffectOverflow
+HasPropertiesThatMightAffectOverflow
 (
 )
 )
@@ -2285,7 +2285,7 @@ set
 effectSet
 -
 >
-UpdateLastTransformSyncTime
+UpdateLastOverflowAnimationSyncTime
 (
 now
 )
@@ -5190,7 +5190,7 @@ IsScrolledOutOfView
 {
 if
 (
-HasTransformThatMightAffectOverflow
+HasPropertiesThatMightAffectOverflow
 (
 )
 )
@@ -5209,13 +5209,13 @@ false
 return
 isVisibilityHidden
 ?
-CanThrottleTransformChangesInScrollable
+CanThrottleOverflowChangesInScrollable
 (
 *
 frame
 )
 :
-CanThrottleTransformChanges
+CanThrottleOverflowChanges
 (
 *
 frame
@@ -5343,13 +5343,13 @@ false
 }
 if
 (
-HasTransformThatMightAffectOverflow
+HasPropertiesThatMightAffectOverflow
 (
 )
 &
 &
 !
-CanThrottleTransformChangesInScrollable
+CanThrottleOverflowChangesInScrollable
 (
 *
 frame
@@ -5392,7 +5392,7 @@ bool
 KeyframeEffect
 :
 :
-CanThrottleTransformChanges
+CanThrottleOverflowChanges
 (
 const
 nsIFrame
@@ -5443,7 +5443,7 @@ MOZ_ASSERT
 (
 effectSet
 "
-CanThrottleTransformChanges
+CanOverflowTransformChanges
 is
 expected
 to
@@ -5465,7 +5465,7 @@ MOZ_ASSERT
 (
 mAnimation
 "
-CanThrottleTransformChanges
+CanOverflowTransformChanges
 is
 expected
 to
@@ -5489,7 +5489,7 @@ lastSyncTime
 effectSet
 -
 >
-LastTransformSyncTime
+LastOverflowAnimationSyncTime
 (
 )
 ;
@@ -5519,7 +5519,7 @@ bool
 KeyframeEffect
 :
 :
-CanThrottleTransformChangesInScrollable
+CanThrottleOverflowChangesInScrollable
 (
 nsIFrame
 &
@@ -5582,7 +5582,7 @@ true
 }
 if
 (
-CanThrottleTransformChanges
+CanThrottleOverflowChanges
 (
 aFrame
 )
