@@ -47,7 +47,7 @@ nightly_sha384
 e
 TASK_ID
 =
-LD5HUGP5QNeQdFKNTTuyCg
+I8RveHT_RbCsAptRg4OBCw
 mozillareleases
 /
 funsize
@@ -59,3 +59,14 @@ generator
 runme
 .
 sh
+The
+TASK_ID
+should
+be
+a
+recent
+"
+partials
+"
+Task
+.
