@@ -456,6 +456,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIAsyncInputStreamLength
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIIPCBlobInputStream
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
