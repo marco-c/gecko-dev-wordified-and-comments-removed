@@ -305,6 +305,9 @@ ins
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 LIRGraph
 :
@@ -383,6 +386,8 @@ finish
 )
 ;
 }
+#
+endif
 LBlock
 :
 :
@@ -864,6 +869,9 @@ return
 exitMoveGroup_
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 LBlock
 :
@@ -1004,6 +1012,8 @@ finish
 )
 ;
 }
+#
+endif
 static
 size_t
 TotalOperandCount
@@ -1785,6 +1795,9 @@ RECOVERED_INPUT
 ;
 }
 }
+#
+ifdef
+JS_JITSPEW
 void
 LNode
 :
@@ -1899,6 +1912,8 @@ op
 )
 ;
 }
+#
+endif
 bool
 LAllocation
 :
@@ -1957,11 +1972,14 @@ this
 other
 ;
 }
+#
+ifdef
+JS_JITSPEW
 static
 const
 char
 *
-typeName
+DefTypeName
 (
 LDefinition
 :
@@ -2174,7 +2192,7 @@ s
 virtualRegister
 (
 )
-typeName
+DefTypeName
 (
 type
 (
@@ -2890,6 +2908,8 @@ toInstruction
 )
 ;
 }
+#
+endif
 void
 LInstruction
 :
@@ -3242,6 +3262,9 @@ LIROP
 }
 #
 endif
+#
+ifdef
+JS_JITSPEW
 void
 LNode
 :
@@ -3700,6 +3723,8 @@ undef
 LIROP
 }
 }
+#
+endif
 void
 LInstruction
 :
@@ -4109,6 +4134,9 @@ type
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 LMoveGroup
 :
@@ -4189,9 +4217,6 @@ get
 )
 )
 ;
-#
-ifdef
-DEBUG
 out
 .
 printf
@@ -4200,7 +4225,7 @@ printf
 %
 s
 "
-typeName
+DefTypeName
 (
 move
 .
@@ -4210,8 +4235,6 @@ type
 )
 )
 ;
-#
-endif
 out
 .
 printf
@@ -4242,6 +4265,8 @@ printf
 ;
 }
 }
+#
+endif
 #
 define
 LIROP

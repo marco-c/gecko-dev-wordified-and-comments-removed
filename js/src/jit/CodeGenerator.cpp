@@ -32063,6 +32063,9 @@ LInstruction
 ins
 )
 {
+#
+ifdef
+JS_JITSPEW
 if
 (
 const
@@ -32122,6 +32125,8 @@ opName
 )
 )
 ;
+#
+endif
 }
 ~
 ScriptCountBlockState
