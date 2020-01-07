@@ -882,7 +882,7 @@ return
 ;
 t
 .
-unreached_func
+assert_unreached
 (
 '
 No
