@@ -1956,6 +1956,13 @@ newtab
 )
 ;
 await
+TestUtils
+.
+waitForTick
+(
+)
+;
+await
 BrowserTestUtils
 .
 removeTab
@@ -2845,6 +2852,13 @@ extensions
 are
 disabled
 "
+)
+;
+await
+TestUtils
+.
+waitForTick
+(
 )
 ;
 await
