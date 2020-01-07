@@ -34340,7 +34340,7 @@ MOZ_ASSERT
 aChild
 -
 >
-GetParent
+GetParentNode
 (
 )
 "
