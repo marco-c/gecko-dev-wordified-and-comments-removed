@@ -32,6 +32,12 @@ readonly
 attribute
 EventTarget
 ?
+srcElement
+;
+readonly
+attribute
+EventTarget
+?
 currentTarget
 ;
 const
@@ -87,6 +93,10 @@ readonly
 attribute
 boolean
 cancelable
+;
+attribute
+boolean
+returnValue
 ;
 void
 preventDefault
