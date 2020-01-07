@@ -4746,8 +4746,12 @@ Table
 true
 )
 ;
-assert_equals
+assertThrows
 (
+(
+)
+=
+>
 new
 Table
 (
@@ -4773,9 +4777,7 @@ anyfunc
 "
 }
 )
-instanceof
-Table
-true
+RangeError
 )
 ;
 }
