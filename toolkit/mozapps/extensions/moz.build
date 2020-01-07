@@ -247,11 +247,6 @@ AddonManager
 jsm
 '
 '
-ChromeManifestParser
-.
-jsm
-'
-'
 LightweightThemeManager
 .
 jsm
