@@ -249,14 +249,6 @@ after
 used
 "
 "
-varsIgnorePattern
-"
-:
-"
-^
-EXPORTED_SYMBOLS
-"
-"
 vars
 "
 :

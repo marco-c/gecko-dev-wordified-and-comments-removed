@@ -67,6 +67,15 @@ value
 )
 ;
 }
+context
+.
+markVariableAsUsed
+(
+"
+EXPORTED_SYMBOLS
+"
+)
+;
 }
 module
 .
