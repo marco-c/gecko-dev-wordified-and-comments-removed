@@ -192,7 +192,7 @@ setBoolPref
 "
 devtools
 .
-webconsole
+browserconsole
 .
 new
 -
@@ -205,8 +205,8 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -219,7 +219,7 @@ clearUserPref
 "
 devtools
 .
-webconsole
+browserconsole
 .
 new
 -
@@ -246,7 +246,7 @@ filterbar
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 flushPrefEnv
@@ -317,7 +317,7 @@ true
 )
 ;
 }
-yield
+await
 HUDService
 .
 toggleBrowserConsole
