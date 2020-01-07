@@ -362,6 +362,7 @@ tracking
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -369,6 +370,7 @@ test_bootstrap1_1
 "
 )
 ;
+await
 uninstallAddon
 (
 addon
@@ -469,6 +471,7 @@ score
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -519,6 +522,7 @@ tracker
 score
 )
 ;
+await
 uninstallAddon
 (
 addon
@@ -565,6 +569,7 @@ startListening
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -606,6 +611,7 @@ tracking
 "
 )
 ;
+await
 uninstallAddon
 (
 addon
@@ -692,6 +698,7 @@ startListening
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -907,6 +914,7 @@ tracker
 score
 )
 ;
+await
 uninstallAddon
 (
 addon
@@ -954,6 +962,7 @@ startListening
 let
 addon
 =
+await
 installAddon
 (
 "
@@ -1057,6 +1066,7 @@ tracker
 score
 )
 ;
+await
 uninstallAddon
 (
 addon
