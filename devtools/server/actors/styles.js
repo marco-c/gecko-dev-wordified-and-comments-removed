@@ -4306,11 +4306,12 @@ this
 _parentSheet
 &
 &
+!
 this
 .
 sheetActor
 .
-allRulesHaveSource
+hasRulesModifiedByCSSOM
 (
 )
 &
