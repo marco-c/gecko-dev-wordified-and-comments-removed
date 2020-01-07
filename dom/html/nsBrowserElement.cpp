@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIMozBrowserFrame
 .
 h

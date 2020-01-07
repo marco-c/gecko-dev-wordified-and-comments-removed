@@ -13,13 +13,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

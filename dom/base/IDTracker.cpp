@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

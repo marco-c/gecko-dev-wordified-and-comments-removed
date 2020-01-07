@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsILinkHandler
 .
 h

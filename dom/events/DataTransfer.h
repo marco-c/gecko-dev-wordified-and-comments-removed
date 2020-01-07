@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDragService
 .
 h

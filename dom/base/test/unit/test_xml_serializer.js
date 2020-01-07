@@ -1110,11 +1110,6 @@ root
 firstChild
 .
 firstChild
-.
-QueryInterface
-(
-nsIDOMElement
-)
 ;
 node
 .
@@ -2391,11 +2386,6 @@ child1
 root
 .
 firstChild
-.
-QueryInterface
-(
-nsIDOMElement
-)
 ;
 child1
 .
@@ -2582,11 +2572,6 @@ child1
 root
 .
 firstChild
-.
-QueryInterface
-(
-nsIDOMElement
-)
 ;
 var
 child2
@@ -2594,11 +2579,6 @@ child2
 child1
 .
 firstChild
-.
-QueryInterface
-(
-nsIDOMElement
-)
 ;
 child1
 .
