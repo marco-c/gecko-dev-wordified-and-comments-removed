@@ -252,7 +252,7 @@ aHandoffState
 {
 return
 new
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 (
 aApzc
 this
@@ -332,10 +332,10 @@ int32_t
 aOrigin
 ;
 }
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 :
 :
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 (
 AsyncPanZoomController
 &
@@ -835,7 +835,7 @@ Now
 ;
 }
 bool
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 :
 :
 DoSample
@@ -1289,7 +1289,7 @@ true
 ;
 }
 void
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 :
 :
 DeferHandleFlingOverscroll
@@ -1342,7 +1342,7 @@ mScrolledApzc
 ;
 }
 bool
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 :
 :
 CheckBounds
