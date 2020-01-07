@@ -7758,6 +7758,15 @@ usize
 >
 RgbImage
 {
+self
+.
+gl
+.
+bind_vertex_array
+(
+0
+)
+;
 let
 mut
 pixels
