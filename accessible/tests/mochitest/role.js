@@ -587,6 +587,13 @@ nsIAccessibleRole
 ROLE_NAVIGATION
 ;
 const
+ROLE_NON_NATIVE_DOCUMENT
+=
+nsIAccessibleRole
+.
+ROLE_NON_NATIVE_DOCUMENT
+;
+const
 ROLE_NOTHING
 =
 nsIAccessibleRole

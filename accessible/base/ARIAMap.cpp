@@ -1050,7 +1050,7 @@ document
 roles
 :
 :
-DOCUMENT
+NON_NATIVE_DOCUMENT
 kUseMapRole
 eNoValue
 eNoAction
@@ -1119,7 +1119,7 @@ graphicsDocument
 roles
 :
 :
-DOCUMENT
+NON_NATIVE_DOCUMENT
 kUseMapRole
 eNoValue
 eNoAction

@@ -5237,6 +5237,17 @@ return
 AXDocumentArticle
 "
 ;
+case
+roles
+:
+:
+NON_NATIVE_DOCUMENT
+:
+return
+"
+AXDocument
+"
+;
 /
 /
 macOS
