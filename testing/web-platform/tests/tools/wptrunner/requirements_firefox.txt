@@ -11,7 +11,7 @@ mozprofile
 =
 1
 .
-0
+1
 .
 0
 mozprocess
@@ -29,9 +29,11 @@ mozcrash
 mozrunner
 =
 =
-6
+7
 .
-15
+0
+.
+0
 mozleak
 =
 =
