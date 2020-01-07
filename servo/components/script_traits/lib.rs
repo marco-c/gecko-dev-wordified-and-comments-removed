@@ -2471,7 +2471,10 @@ TraversalDirection
 )
 WindowSize
 (
+Option
+<
 TopLevelBrowsingContextId
+>
 WindowSizeData
 WindowSizeType
 )
