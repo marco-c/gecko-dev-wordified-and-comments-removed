@@ -90,6 +90,16 @@ dummy_match_byte
 "
 ;
 fi
+-
+cd
+macros
+&
+&
+cargo
+build
+-
+-
+verbose
 notifications
 :
 webhooks
