@@ -10772,6 +10772,13 @@ filters
 )
 GK_ATOM
 (
+colorpicker
+"
+colorpicker
+"
+)
+GK_ATOM
+(
 colorProfile
 "
 color
