@@ -287,6 +287,9 @@ dom
 class
 DocumentFragment
 ;
+class
+MouseEvent
+;
 }
 namespace
 widget
@@ -1552,7 +1555,10 @@ aTarget
 nsresult
 OnMouseMove
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )
