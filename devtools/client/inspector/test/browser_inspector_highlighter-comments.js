@@ -456,9 +456,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 COMMENT_NODE
 )
@@ -527,9 +525,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 TEXT_NODE
 &

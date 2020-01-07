@@ -966,9 +966,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 COMMENT_NODE
 )

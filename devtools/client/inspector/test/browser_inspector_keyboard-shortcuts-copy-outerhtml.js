@@ -59,9 +59,7 @@ comment
 getElementByType
 (
 inspector
-Ci
-.
-nsIDOMNode
+Node
 .
 COMMENT_NODE
 )
@@ -107,9 +105,7 @@ doctype
 getElementByType
 (
 inspector
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_TYPE_NODE
 )

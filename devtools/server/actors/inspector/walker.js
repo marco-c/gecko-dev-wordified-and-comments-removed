@@ -1775,9 +1775,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_NODE
 )
@@ -2290,9 +2288,7 @@ rawNode
 nodeType
 !
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 |
@@ -2365,9 +2361,7 @@ nodeType
 !
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 TEXT_NODE
 |
@@ -4971,9 +4965,7 @@ nodeType
 !
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 )
@@ -5235,9 +5227,7 @@ rawNode
 nodeType
 !
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 )
@@ -6196,9 +6186,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_NODE
 )
@@ -7926,9 +7914,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_FRAGMENT_NODE
 |
