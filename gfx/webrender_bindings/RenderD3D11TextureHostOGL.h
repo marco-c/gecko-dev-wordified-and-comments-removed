@@ -79,6 +79,12 @@ Unlock
 )
 override
 ;
+void
+ClearCachedResources
+(
+)
+override
+;
 virtual
 gfx
 :
@@ -223,6 +229,12 @@ override
 virtual
 void
 Unlock
+(
+)
+override
+;
+void
+ClearCachedResources
 (
 )
 override
