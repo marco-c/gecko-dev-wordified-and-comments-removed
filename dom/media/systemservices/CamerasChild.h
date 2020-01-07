@@ -482,7 +482,6 @@ NS_INLINE_DECL_REFCOUNTING
 (
 CamerasChild
 )
-virtual
 mozilla
 :
 :
@@ -514,7 +513,6 @@ prop
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -541,7 +539,6 @@ h
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -554,7 +551,6 @@ RecvDeviceChange
 )
 override
 ;
-virtual
 int
 AddDeviceChangeCallback
 (
@@ -569,7 +565,6 @@ SetFakeDeviceChangeEvents
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -585,7 +580,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -601,7 +595,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -617,7 +610,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -634,7 +626,6 @@ capability
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -659,7 +650,6 @@ scary
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -673,7 +663,6 @@ void
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -687,7 +676,6 @@ void
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
