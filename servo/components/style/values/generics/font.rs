@@ -1102,6 +1102,7 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Hash
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
