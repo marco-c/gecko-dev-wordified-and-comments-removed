@@ -116,10 +116,6 @@ nsIDOMBlob
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIXHRSendable
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIMutable
 )
 NS_INTERFACE_MAP_ENTRY
@@ -922,7 +918,7 @@ GetAllocationSize
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 Blob
 :
 :
@@ -942,6 +938,7 @@ nsACString
 &
 aCharset
 )
+const
 {
 return
 mImpl

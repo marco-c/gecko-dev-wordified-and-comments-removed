@@ -397,10 +397,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMFormData
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsIXHRSendable
-)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
@@ -1792,7 +1788,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 FormData
 :
 :
@@ -1812,6 +1808,7 @@ nsACString
 &
 aCharset
 )
+const
 {
 FSMultipartFormData
 fs
