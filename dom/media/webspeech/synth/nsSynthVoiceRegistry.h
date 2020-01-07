@@ -25,6 +25,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+MediaStreamGraph
+.
+h
+"
 class
 nsISpeechService
 ;
