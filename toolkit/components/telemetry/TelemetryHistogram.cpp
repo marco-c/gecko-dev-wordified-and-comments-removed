@@ -10882,7 +10882,7 @@ Length
 ;
 counts_
 .
-resize
+SetLength
 (
 numCounts
 )
