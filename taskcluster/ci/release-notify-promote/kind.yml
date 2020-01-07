@@ -85,9 +85,11 @@ kind
 dependencies
 :
 -
+post
+-
 beetmover
 -
-checksums
+dummy
 -
 release
 -
