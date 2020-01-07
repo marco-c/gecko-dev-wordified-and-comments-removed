@@ -131,14 +131,6 @@ True
 DEFINES
 [
 "
-WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE
-"
-]
-=
-True
-DEFINES
-[
-"
 WEBRTC_MOZILLA_BUILD
 "
 ]
@@ -756,10 +748,6 @@ CXXFLAGS
 +
 =
 [
-"
--
-msse2
-"
 "
 -
 msse2
