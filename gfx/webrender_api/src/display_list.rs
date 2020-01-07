@@ -7424,6 +7424,9 @@ LayoutPrimitiveInfo
 pipeline_id
 :
 PipelineId
+ignore_missing_pipeline
+:
+bool
 )
 {
 let
@@ -7444,6 +7447,7 @@ generate_clip_id
 (
 )
 pipeline_id
+ignore_missing_pipeline
 }
 )
 ;

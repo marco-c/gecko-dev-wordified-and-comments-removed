@@ -8374,10 +8374,14 @@ read_pixels
 0
 img_desc
 .
+size
+.
 width
 as
 i32
 img_desc
+.
+size
 .
 height
 as

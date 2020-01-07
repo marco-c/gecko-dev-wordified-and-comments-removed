@@ -8670,8 +8670,12 @@ new
 (
 desc
 .
+size
+.
 width
 desc
+.
+size
 .
 height
 data
@@ -22729,8 +22733,12 @@ size
 (
 descriptor
 .
+size
+.
 width
 descriptor
+.
+size
 .
 height
 layer_count

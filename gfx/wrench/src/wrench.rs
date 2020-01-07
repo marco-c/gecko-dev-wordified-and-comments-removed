@@ -722,6 +722,7 @@ Wrench
 window_size
 :
 DeviceUintSize
+pub
 device_pixel_ratio
 :
 f32

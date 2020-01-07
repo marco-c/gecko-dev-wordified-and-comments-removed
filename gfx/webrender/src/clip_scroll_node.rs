@@ -787,6 +787,13 @@ scrolling
 .
 scrollable_size
 ;
+let
+viewport_rect
+=
+scrolling
+.
+viewport_rect
+;
 *
 scrolling
 =
@@ -804,6 +811,12 @@ scrolling
 scrollable_size
 =
 scrollable_size
+;
+scrolling
+.
+viewport_rect
+=
+viewport_rect
 ;
 }
 _

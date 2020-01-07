@@ -621,6 +621,8 @@ img
 .
 descriptor
 .
+size
+.
 width
 *
 img
@@ -701,12 +703,16 @@ img
 .
 descriptor
 .
+size
+.
 width
 height
 :
 img
 .
 descriptor
+.
+size
 .
 height
 stride
@@ -772,6 +778,8 @@ img
 .
 descriptor
 .
+size
+.
 width
 )
 ;
@@ -784,6 +792,8 @@ height
 img
 .
 descriptor
+.
+size
 .
 height
 )

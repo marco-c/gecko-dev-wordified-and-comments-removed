@@ -626,6 +626,8 @@ render_task_index
 aData0
 .
 y
+%
+0x10000
 ;
 pi
 .
@@ -633,7 +635,9 @@ clip_task_index
 =
 aData0
 .
-z
+y
+/
+0x10000
 ;
 pi
 .
@@ -641,9 +645,7 @@ clip_chain_rect_index
 =
 aData0
 .
-w
-/
-65536
+z
 ;
 pi
 .
@@ -652,8 +654,6 @@ scroll_node_id
 aData0
 .
 w
-%
-65536
 ;
 pi
 .
