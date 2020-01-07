@@ -1805,7 +1805,7 @@ StyleSheet
 *
 aSheet
 bool
-aWasAlternate
+aWasDeferred
 nsresult
 aStatus
 )
@@ -1823,7 +1823,7 @@ nsContentSink
 StyleSheetLoaded
 (
 aSheet
-aWasAlternate
+aWasDeferred
 aStatus
 )
 ;

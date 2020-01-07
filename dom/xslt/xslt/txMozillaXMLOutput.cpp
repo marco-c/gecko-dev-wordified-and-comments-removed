@@ -4406,7 +4406,7 @@ StyleSheet
 *
 aSheet
 bool
-aWasAlternate
+aWasDeferred
 nsresult
 aStatus
 )
@@ -4426,7 +4426,7 @@ NS_OK
 if
 (
 !
-aWasAlternate
+aWasDeferred
 )
 {
 -
