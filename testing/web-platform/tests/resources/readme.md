@@ -110,7 +110,7 @@ documentation
 please
 visit
 [
-http
+https
 :
 /
 /
@@ -133,7 +133,7 @@ api
 html
 ]
 (
-http
+https
 :
 /
 /

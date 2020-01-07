@@ -596,7 +596,7 @@ spec
 link
 ]
 :
-http
+https
 :
 /
 /

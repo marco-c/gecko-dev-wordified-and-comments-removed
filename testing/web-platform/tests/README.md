@@ -2985,7 +2985,7 @@ lint
 tool
 ]
 :
-http
+https
 :
 /
 /
@@ -4114,7 +4114,7 @@ review
 tests
 ]
 (
-http
+https
 :
 /
 /
