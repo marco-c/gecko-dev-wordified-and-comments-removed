@@ -1824,15 +1824,6 @@ sanitizer
 -
 enable
 -
-trace
--
-logging
-'
-'
--
--
-enable
--
 ubsan
 -
 int
