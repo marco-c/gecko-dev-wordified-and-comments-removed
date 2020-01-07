@@ -173,7 +173,7 @@ event
 .
 data
 "
-Error
+EvalError
 :
 call
 to
@@ -293,7 +293,7 @@ event
 .
 data
 "
-Error
+EvalError
 :
 call
 to
