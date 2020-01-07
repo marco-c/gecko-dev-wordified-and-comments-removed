@@ -778,13 +778,6 @@ BINPATH
 /
 components
 /
-downloads
-.
-xpt
-BINPATH
-/
-components
-/
 editor
 .
 xpt
