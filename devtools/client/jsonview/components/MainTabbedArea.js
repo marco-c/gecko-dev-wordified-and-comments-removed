@@ -320,6 +320,11 @@ onTabChanged
 TabPanel
 (
 {
+id
+:
+"
+json
+"
 className
 :
 "
@@ -379,6 +384,11 @@ searchFilter
 TabPanel
 (
 {
+id
+:
+"
+rawdata
+"
 className
 :
 "
@@ -446,6 +456,11 @@ actions
 TabPanel
 (
 {
+id
+:
+"
+headers
+"
 className
 :
 "
