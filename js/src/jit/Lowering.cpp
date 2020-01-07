@@ -20511,7 +20511,7 @@ elements
 (
 )
 )
-useRegisterOrConstant
+useRegister
 (
 ins
 -
@@ -23711,7 +23711,7 @@ const
 LAllocation
 index
 =
-useRegisterOrConstant
+useRegister
 (
 ins
 -
@@ -23735,6 +23735,9 @@ LLoadTypedArrayElementHole
 (
 object
 index
+temp
+(
+)
 )
 ;
 if
