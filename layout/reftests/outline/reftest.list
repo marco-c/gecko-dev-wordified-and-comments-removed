@@ -59,12 +59,6 @@ transform
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 outline
