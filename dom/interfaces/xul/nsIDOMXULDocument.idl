@@ -133,16 +133,6 @@ nsIDOMXULDocument
 :
 nsIDOMDocument
 {
-readonly
-attribute
-long
-width
-;
-readonly
-attribute
-long
-height
-;
 nsIDOMNodeList
 getElementsByAttribute
 (
