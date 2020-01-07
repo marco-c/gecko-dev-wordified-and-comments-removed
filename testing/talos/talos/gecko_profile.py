@@ -102,6 +102,12 @@ test_config
 browser_config
 test_config
         
+self
+.
+cleanup
+=
+True
+        
 gecko_profile_dir
 =
 tempfile
@@ -764,7 +770,22 @@ symbols_path
                 
 )
             
-else
+elif
+os
+.
+path
+.
+isfile
+(
+self
+.
+browser_config
+[
+'
+symbols_path
+'
+]
+)
 :
                 
 symbolicator
@@ -782,6 +803,53 @@ symbols_path
 ]
                 
 )
+            
+elif
+os
+.
+path
+.
+isdir
+(
+self
+.
+browser_config
+[
+'
+symbols_path
+'
+]
+)
+:
+                
+symbolicator
+.
+options
+[
+"
+symbolPaths
+"
+]
+[
+"
+FIREFOX
+"
+]
+=
+self
+.
+browser_config
+[
+'
+symbols_path
+'
+]
+                
+self
+.
+cleanup
+=
+False
         
 missing_symbols_zip
 =
@@ -1086,6 +1154,12 @@ dir
 )
 )
         
+if
+self
+.
+cleanup
+:
+            
 for
 symbol_path
 in
@@ -1097,7 +1171,7 @@ values
 (
 )
 :
-            
+                
 mozfile
 .
 remove
