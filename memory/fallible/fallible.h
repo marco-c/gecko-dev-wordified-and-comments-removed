@@ -26,8 +26,10 @@ std
 :
 nothrow_t
 ;
+static
 const
 fallible_t
+&
 fallible
 =
 std
