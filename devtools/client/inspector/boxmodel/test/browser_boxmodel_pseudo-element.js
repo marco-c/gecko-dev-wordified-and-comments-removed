@@ -451,11 +451,11 @@ TEST_URI
 let
 {
 inspector
-view
+boxmodel
 }
 =
 yield
-openBoxModelView
+openLayoutView
 (
 )
 ;
@@ -507,7 +507,7 @@ yield
 testInitialValues
 (
 inspector
-view
+boxmodel
 )
 ;
 }
@@ -518,7 +518,7 @@ function
 testInitialValues
 (
 inspector
-view
+boxmodel
 )
 {
 info
@@ -539,9 +539,9 @@ correct
 )
 ;
 let
-viewdoc
+doc
 =
-view
+boxmodel
 .
 document
 ;
@@ -566,7 +566,7 @@ i
 let
 elt
 =
-viewdoc
+doc
 .
 querySelector
 (
