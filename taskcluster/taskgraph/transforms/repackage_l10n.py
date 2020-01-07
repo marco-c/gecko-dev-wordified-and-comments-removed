@@ -20,6 +20,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+copy
 from
 taskgraph
 .
@@ -78,11 +80,20 @@ chunk_locales
 )
 :
             
+locale_job
+=
+copy
+.
+deepcopy
+(
+job
+)
+            
 treeherder
 =
-job
+locale_job
 .
-get
+setdefault
 (
 '
 treeherder
@@ -113,27 +124,14 @@ format
 locale
 )
             
-yield
-{
-                
+locale_job
+[
 '
 locale
 '
-:
+]
+=
 locale
-                
-'
-treeherder
-'
-:
-treeherder
-                
-'
-dependent
--
-task
-'
-:
-dep_job
             
-}
+yield
+locale_job
