@@ -351,7 +351,7 @@ mozilla
 :
 ComposerCommandsUpdater
 >
-mStateMaintainer
+mComposerCommandsUpdater
 ;
 nsCString
 mEditorType
