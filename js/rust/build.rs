@@ -1842,7 +1842,10 @@ JS
 HideScriptedCaller
 "
 "
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 "
 "
 JS_IsArrayObject

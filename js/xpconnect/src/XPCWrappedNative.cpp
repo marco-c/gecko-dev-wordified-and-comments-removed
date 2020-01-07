@@ -786,10 +786,12 @@ initStandardClasses
 &
 &
 !
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-global
 )
 )
 return

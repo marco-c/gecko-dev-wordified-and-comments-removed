@@ -547,10 +547,12 @@ global
 ;
 CHECK
 (
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-global
 )
 )
 ;

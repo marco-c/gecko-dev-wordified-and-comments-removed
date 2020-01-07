@@ -729,10 +729,12 @@ testResolveRecursion_InitStandardClasses
 {
 CHECK
 (
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-global
 )
 )
 ;

@@ -4444,10 +4444,12 @@ mContext
 if
 (
 !
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 mContext
-global
 )
 )
 {

@@ -79,10 +79,12 @@ g
 ;
 CHECK
 (
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-g
 )
 )
 ;
