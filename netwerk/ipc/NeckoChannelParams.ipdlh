@@ -1425,6 +1425,9 @@ redirectMode
 uint64_t
 channelId
 ;
+nsString
+integrityMetadata
+;
 uint64_t
 contentWindowId
 ;
