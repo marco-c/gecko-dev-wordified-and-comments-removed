@@ -205,10 +205,6 @@ pair
 [
 0
 ]
-.
-trim
-(
-)
 ;
 const
 value
@@ -222,6 +218,17 @@ trim
 (
 )
 ;
+if
+(
+tag
+.
+length
+=
+=
+=
+4
+)
+{
 acc
 [
 tag
@@ -229,6 +236,7 @@ tag
 =
 value
 ;
+}
 return
 acc
 ;
