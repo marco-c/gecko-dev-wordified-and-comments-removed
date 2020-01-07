@@ -107,6 +107,17 @@ include
 "
 vm
 /
+Compartment
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Debugger
 -
 inl
