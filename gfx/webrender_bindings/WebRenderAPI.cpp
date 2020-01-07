@@ -3353,7 +3353,7 @@ aMask
 )
 {
 const
-uint64_t
+size_t
 *
 ancestorScrollId
 =
@@ -3379,7 +3379,7 @@ id
 ;
 }
 const
-uint64_t
+size_t
 *
 ancestorClipId
 =
@@ -3404,7 +3404,7 @@ id
 )
 ;
 }
-uint64_t
+size_t
 clip_id
 =
 wr_dp_define_clip
@@ -3443,9 +3443,7 @@ DefineClip
 id
 =
 %
-"
-PRIu64
-"
+zu
 as
 =
 %
@@ -3601,9 +3599,7 @@ PushClip
 id
 =
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -3795,9 +3791,7 @@ p
 -
 >
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -3888,9 +3882,7 @@ p
 -
 >
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -4043,7 +4035,7 @@ LayoutVector2D
 aAppliedOffset
 )
 {
-uint64_t
+size_t
 id
 =
 wr_dp_define_sticky_frame
@@ -4066,9 +4058,7 @@ DefineSticky
 id
 =
 %
-"
-PRIu64
-"
+zu
 c
 =
 %
@@ -4244,9 +4234,7 @@ PushSticky
 id
 =
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -4575,7 +4563,7 @@ it
 second
 ;
 }
-uint64_t
+size_t
 numericScrollId
 =
 wr_dp_define_scroll_layer
@@ -4652,9 +4640,7 @@ PushScrollLayer
 id
 =
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -4720,9 +4706,7 @@ PopScrollLayer
 id
 =
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -4787,9 +4771,7 @@ PushClipAndScroll
 s
 =
 %
-"
-PRIu64
-"
+zu
 c
 =
 %

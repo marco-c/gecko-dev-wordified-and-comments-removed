@@ -4131,7 +4131,7 @@ Grayscale
 struct
 WrClipId
 {
-uint64_t
+size_t
 id
 ;
 bool
@@ -4160,7 +4160,7 @@ id
 struct
 WrScrollId
 {
-uint64_t
+size_t
 id
 ;
 bool
@@ -4210,7 +4210,7 @@ id
 struct
 WrStickyId
 {
-uint64_t
+size_t
 id
 ;
 bool
