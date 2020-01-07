@@ -112,8 +112,6 @@ args
 in
 Bundle
 extras
-int
-flags
 in
 ParcelFileDescriptor
 prefsPfd

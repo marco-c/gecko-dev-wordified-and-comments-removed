@@ -1900,13 +1900,6 @@ IsAvailable
 )
 )
 {
-GeckoAppShellSupport
-:
-:
-Init
-(
-)
-;
 GeckoThreadSupport
 :
 :

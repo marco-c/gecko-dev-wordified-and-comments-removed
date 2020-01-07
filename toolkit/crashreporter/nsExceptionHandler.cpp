@@ -3647,7 +3647,7 @@ bin
 am
 "
 "
-startservice
+start
 "
 "
 -
@@ -3731,7 +3731,7 @@ bin
 am
 "
 "
-startservice
+start
 "
 "
 -
@@ -6788,7 +6788,7 @@ mozilla
 .
 gecko
 .
-CrashReporterService
+CrashReporter
 "
 )
 ;
@@ -6814,7 +6814,7 @@ mozilla
 .
 gecko
 .
-CrashReporterService
+CrashReporter
 "
 )
 ;

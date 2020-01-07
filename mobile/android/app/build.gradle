@@ -844,7 +844,7 @@ mozilla
 /
 gecko
 /
-CrashReporterActivity
+CrashReporter
 .
 java
 '
