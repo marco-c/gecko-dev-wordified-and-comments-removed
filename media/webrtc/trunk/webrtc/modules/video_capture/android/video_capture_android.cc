@@ -608,7 +608,9 @@ captureTime
 if
 (
 !
-_captureStarted
+CaptureStarted
+(
+)
 )
 return
 0
