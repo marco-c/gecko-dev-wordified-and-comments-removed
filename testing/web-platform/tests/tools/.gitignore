@@ -12,9 +12,6 @@ coverage
 .
 xml
 .
-tox
-/
-.
 cache
 /
 .
