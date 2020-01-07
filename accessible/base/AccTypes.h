@@ -34,6 +34,7 @@ eHTMLTableType
 eHTMLTableCellType
 eHTMLTableRowType
 eHTMLTextFieldType
+eHTMLTextPasswordFieldType
 eHyperTextType
 eImageType
 eOuterDocType
