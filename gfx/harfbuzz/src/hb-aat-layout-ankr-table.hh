@@ -112,6 +112,8 @@ this
 ;
 return_trace
 (
+likely
+(
 c
 -
 >
@@ -144,6 +146,7 @@ c
 this
 )
 )
+)
 ;
 }
 protected
@@ -165,10 +168,9 @@ lookupTable
 ;
 LOffsetTo
 <
-ArrayOf
+LArrayOf
 <
 Anchor
-HBUINT32
 >
 >
 anchors

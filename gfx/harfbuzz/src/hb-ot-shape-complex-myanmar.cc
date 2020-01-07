@@ -1393,11 +1393,10 @@ buffer
 len
 &
 &
-!
 buffer
 -
 >
-in_error
+successful
 )
 {
 unsigned

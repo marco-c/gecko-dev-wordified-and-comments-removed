@@ -2,6 +2,8 @@ from
 __future__
 import
 print_function
+division
+absolute_import
 import
 io
 os
@@ -51,7 +53,9 @@ h
 encoding
 =
 '
-utf8
+utf
+-
+8
 '
 )
 as

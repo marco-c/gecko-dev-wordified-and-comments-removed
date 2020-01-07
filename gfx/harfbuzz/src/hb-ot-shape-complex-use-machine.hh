@@ -2273,9 +2273,7 @@ eof
 ts
 HB_UNUSED
 te
-HB_UNUSED
 act
-HB_UNUSED
 ;
 int
 cs

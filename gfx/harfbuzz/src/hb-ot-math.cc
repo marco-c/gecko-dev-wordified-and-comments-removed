@@ -64,9 +64,6 @@ face
 )
 )
 return
-OT
-:
-:
 Null
 (
 OT
@@ -115,9 +112,6 @@ face
 !
 =
 &
-OT
-:
-:
 Null
 (
 OT

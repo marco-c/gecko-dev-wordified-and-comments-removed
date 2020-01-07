@@ -17,9 +17,6 @@ private
 .
 hh
 "
-namespace
-OT
-{
 #
 define
 HB_OT_TAG_hhea
@@ -56,6 +53,9 @@ e
 a
 '
 )
+namespace
+OT
+{
 template
 <
 typename

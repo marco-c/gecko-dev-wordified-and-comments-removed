@@ -270,7 +270,6 @@ s
 /
 '
 echo
-echo
 "
 Checking
 that
@@ -342,7 +341,6 @@ found
 skipping
 "
 else
-echo
 echo
 "
 Checking

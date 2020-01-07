@@ -17,9 +17,6 @@ private
 .
 hh
 "
-namespace
-OT
-{
 #
 define
 HB_OT_TAG_head
@@ -38,6 +35,9 @@ a
 d
 '
 )
+namespace
+OT
+{
 struct
 head
 {

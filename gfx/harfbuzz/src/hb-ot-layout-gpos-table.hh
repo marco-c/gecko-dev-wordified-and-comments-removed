@@ -1281,7 +1281,11 @@ y_ppem
 ;
 hb_position_t
 cx
+=
+0
 cy
+=
+0
 ;
 hb_bool_t
 ret

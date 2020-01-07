@@ -10,6 +10,12 @@ utf
 -
 *
 -
+from
+__future__
+import
+print_function
+division
+absolute_import
 import
 io
 import
@@ -32,7 +38,6 @@ utf
 )
 print
 (
-u
 "
 "
 "
@@ -339,6 +344,7 @@ rjust
 )
   
 print
+(
 "
 {
 %
@@ -363,9 +369,9 @@ ranges
 3
 ]
 )
+)
 print
 (
-u
 "
 "
 "
@@ -375,4 +381,3 @@ u
 "
 "
 )
-;

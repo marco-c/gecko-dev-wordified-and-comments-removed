@@ -145,7 +145,7 @@ HB_STRING_ARRAY_TYPE_NAME
 ;
 static
 inline
-hb_string_t
+hb_bytes_t
 HB_STRING_ARRAY_NAME
 (
 unsigned
@@ -166,7 +166,7 @@ HB_STRING_ARRAY_OFFS_NAME
 )
 ;
 return
-hb_string_t
+hb_bytes_t
 (
 HB_STRING_ARRAY_POOL_NAME
 .

@@ -259,10 +259,14 @@ info
 ;
 if
 (
+unlikely
+(
+!
 buffer
 -
 >
-in_error
+successful
+)
 )
 return
 false

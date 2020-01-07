@@ -1114,11 +1114,10 @@ idx
 count
 &
 &
-!
 buffer
 -
 >
-in_error
+successful
 ;
 )
 {
@@ -1193,10 +1192,11 @@ if
 (
 unlikely
 (
+!
 buffer
 -
 >
-in_error
+successful
 )
 )
 return

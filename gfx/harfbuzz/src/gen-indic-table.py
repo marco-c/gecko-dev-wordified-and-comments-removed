@@ -1,4 +1,11 @@
+from
+__future__
 import
+print_function
+division
+absolute_import
+import
+io
 sys
 if
 len
@@ -13,11 +20,7 @@ argv
 :
 	
 print
->
->
-sys
-.
-stderr
+(
 "
 usage
 :
@@ -40,6 +43,12 @@ Blocks
 .
 txt
 "
+file
+=
+sys
+.
+stderr
+)
 	
 sys
 .
@@ -155,9 +164,18 @@ A
 files
 =
 [
-file
+io
+.
+open
 (
 x
+encoding
+=
+'
+utf
+-
+8
+'
 )
 for
 x
@@ -604,6 +622,7 @@ data
 u
 ]
 print
+(
 "
 /
 *
@@ -618,12 +637,16 @@ table
 *
 /
 "
+)
 print
+(
 "
 /
 *
 "
+)
 print
+(
 "
 *
 The
@@ -635,11 +658,15 @@ by
 running
 :
 "
+)
 print
+(
 "
 *
 "
+)
 print
+(
 "
 *
 .
@@ -661,11 +688,15 @@ Blocks
 .
 txt
 "
+)
 print
+(
 "
 *
 "
+)
 print
+(
 "
 *
 on
@@ -675,10 +706,13 @@ these
 headers
 :
 "
+)
 print
+(
 "
 *
 "
+)
 for
 h
 in
@@ -692,6 +726,7 @@ h
 :
 		
 print
+(
 "
 *
 %
@@ -705,13 +740,19 @@ strip
 (
 )
 )
+)
 print
+(
 "
 *
 /
 "
+)
 print
+(
+)
 print
+(
 '
 #
 include
@@ -731,7 +772,10 @@ private
 hh
 "
 '
+)
 print
+(
+)
 short
 =
 [
@@ -898,9 +942,13 @@ range
 :
 	
 print
+(
+)
 	
 vv
 =
+sorted
+(
 values
 [
 i
@@ -909,11 +957,6 @@ i
 keys
 (
 )
-	
-vv
-.
-sort
-(
 )
 	
 for
@@ -1044,6 +1087,7 @@ v
 s
 		
 print
+(
 "
 #
 define
@@ -1069,7 +1113,6 @@ s
 /
 "
 %
-\
 			
 (
 what_short
@@ -1086,7 +1129,6 @@ v
 upper
 (
 )
-\
 			
 '
 '
@@ -1113,9 +1155,9 @@ v
 )
 )
 /
+/
 8
 )
-\
 			
 values
 [
@@ -1126,8 +1168,12 @@ v
 ]
 v
 )
+)
 print
+(
+)
 print
+(
 "
 #
 define
@@ -1148,8 +1194,13 @@ IMC_
 M
 )
 "
+)
 print
+(
+)
 print
+(
+)
 total
 =
 0
@@ -1184,10 +1235,15 @@ last_block
 :
 		
 print
+(
+)
 		
 print
+(
+)
 		
 print
+(
 "
 /
 *
@@ -1198,6 +1254,7 @@ s
 "
 %
 block
+)
 	
 num
 =
@@ -1245,8 +1302,11 @@ u
 :
 			
 print
+(
+)
 			
 print
+(
 "
 /
 *
@@ -1257,6 +1317,11 @@ print
 "
 %
 u
+end
+=
+"
+"
+)
 		
 if
 u
@@ -1279,11 +1344,7 @@ u
 defaults
 )
 		
-sys
-.
-stdout
-.
-write
+print
 (
 "
 %
@@ -1324,6 +1385,10 @@ d
 ]
 )
 )
+end
+=
+"
+"
 )
 	
 total
@@ -1349,15 +1414,13 @@ last_block
 block
 uu
 =
+sorted
+(
 data
 .
 keys
 (
 )
-uu
-.
-sort
-(
 )
 last
 =
@@ -1378,6 +1441,7 @@ ends
 [
 ]
 print
+(
 "
 static
 const
@@ -1388,6 +1452,7 @@ indic_table
 =
 {
 "
+)
 for
 u
 in
@@ -1540,10 +1605,15 @@ starts
 ]
 			
 print
+(
+)
 			
 print
+(
+)
 			
 print
+(
 "
 #
 define
@@ -1557,6 +1627,7 @@ d
 (
 start
 offset
+)
 )
 			
 starts
@@ -1600,7 +1671,11 @@ starts
 1
 ]
 print
+(
+)
 print
+(
+)
 occupancy
 =
 used
@@ -1613,6 +1688,7 @@ page_bits
 =
 12
 print
+(
 "
 }
 ;
@@ -1638,12 +1714,18 @@ d
 offset
 occupancy
 )
+)
 print
+(
+)
 print
+(
 "
 INDIC_TABLE_ELEMENT_TYPE
 "
+)
 print
+(
 "
 hb_indic_get_categories
 (
@@ -1651,11 +1733,15 @@ hb_codepoint_t
 u
 )
 "
+)
 print
+(
 "
 {
 "
+)
 print
+(
 "
 switch
 (
@@ -1668,10 +1754,13 @@ d
 "
 %
 page_bits
+)
 print
+(
 "
 {
 "
+)
 pages
 =
 set
@@ -1688,10 +1777,13 @@ starts
 +
 ends
 +
+list
+(
 singles
 .
 keys
 (
+)
 )
 ]
 )
@@ -1705,6 +1797,7 @@ pages
 :
 	
 print
+(
 "
 case
 0x
@@ -1714,6 +1807,7 @@ case
 "
 %
 p
+)
 	
 for
 u
@@ -1738,6 +1832,7 @@ page_bits
 continue
 		
 print
+(
 "
 if
 (
@@ -1785,6 +1880,7 @@ d
 ]
 ]
 )
+)
 	
 for
 (
@@ -1827,6 +1923,7 @@ indic_offset_0x
 start
 		
 print
+(
 "
 if
 (
@@ -1867,31 +1964,43 @@ end
 start
 offset
 )
+)
 	
 print
+(
 "
 break
 ;
 "
+)
 	
 print
+(
 "
 "
+)
 print
+(
 "
 default
 :
 "
+)
 print
+(
 "
 break
 ;
 "
+)
 print
+(
 "
 }
 "
+)
 print
+(
 "
 return
 _
@@ -1901,17 +2010,24 @@ x
 )
 ;
 "
+)
 print
+(
 "
 }
 "
+)
 print
+(
+)
 print
+(
 "
 #
 undef
 _
 "
+)
 for
 i
 in
@@ -1925,6 +2041,8 @@ print
 	
 vv
 =
+sorted
+(
 values
 [
 i
@@ -1933,11 +2051,6 @@ i
 keys
 (
 )
-	
-vv
-.
-sort
-(
 )
 	
 for
@@ -1947,6 +2060,7 @@ vv
 :
 		
 print
+(
 "
 #
 undef
@@ -1956,7 +2070,6 @@ s_
 s
 "
 %
-\
 			
 (
 what_short
@@ -1971,8 +2084,12 @@ i
 v
 ]
 )
+)
 print
+(
+)
 print
+(
 "
 /
 *
@@ -1987,6 +2104,7 @@ table
 *
 /
 "
+)
 if
 occupancy
 <

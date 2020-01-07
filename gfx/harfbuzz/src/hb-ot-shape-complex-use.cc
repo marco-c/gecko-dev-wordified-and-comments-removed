@@ -2566,11 +2566,10 @@ buffer
 len
 &
 &
-!
 buffer
 -
 >
-in_error
+successful
 )
 {
 unsigned
@@ -2682,11 +2681,10 @@ buffer
 len
 &
 &
-!
 buffer
 -
 >
-in_error
+successful
 &
 &
 last_syllable

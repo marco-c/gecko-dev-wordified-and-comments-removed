@@ -269,7 +269,7 @@ sub_tables
 =
 tables
 .
-array
+arrayZ
 +
 start_offset
 ;
@@ -546,7 +546,7 @@ rec
 =
 tables
 .
-array
+arrayZ
 [
 i
 ]
@@ -805,7 +805,7 @@ rec
 =
 tables
 .
-array
+arrayZ
 [
 i
 ]
@@ -976,13 +976,12 @@ FixedVersion
 >
 version
 ;
-ArrayOf
+LArrayOf
 <
 LOffsetTo
 <
 OffsetTable
 >
-HBUINT32
 >
 table
 ;
@@ -1220,9 +1219,8 @@ _
 '
 )
 ;
-static
-const
-hb_tag_t
+enum
+{
 CFFTag
 =
 HB_TAG
@@ -1240,10 +1238,6 @@ T
 O
 '
 )
-;
-static
-const
-hb_tag_t
 TrueTypeTag
 =
 HB_TAG
@@ -1253,10 +1247,6 @@ HB_TAG
 0
 0
 )
-;
-static
-const
-hb_tag_t
 TTCTag
 =
 HB_TAG
@@ -1274,10 +1264,6 @@ c
 f
 '
 )
-;
-static
-const
-hb_tag_t
 TrueTag
 =
 HB_TAG
@@ -1295,10 +1281,6 @@ u
 e
 '
 )
-;
-static
-const
-hb_tag_t
 Typ1Tag
 =
 HB_TAG
@@ -1316,6 +1298,7 @@ p
 1
 '
 )
+}
 ;
 inline
 hb_tag_t

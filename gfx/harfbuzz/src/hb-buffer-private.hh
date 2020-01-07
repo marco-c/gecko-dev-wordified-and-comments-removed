@@ -250,7 +250,7 @@ hb_segment_properties_t
 props
 ;
 bool
-in_error
+successful
 ;
 bool
 have_output

@@ -547,7 +547,7 @@ CONS_WITH_STACKER
 #
 Override
 :
-Adjoc
+Adhoc
 ZWJ
 placement
 .
@@ -999,9 +999,7 @@ eof
 ts
 HB_UNUSED
 te
-HB_UNUSED
 act
-HB_UNUSED
 ;
 int
 cs

@@ -36,6 +36,14 @@ doap
 README
 .
 python
+.
+md
+\
+README
+.
+wine
+.
+md
 \
 BUILD
 .

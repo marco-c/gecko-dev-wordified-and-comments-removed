@@ -350,7 +350,7 @@ set_num_glyphs
 plan
 -
 >
-gids_to_retain_sorted
+glyphs
 .
 len
 )
@@ -371,9 +371,11 @@ maxp_prime
 bool
 result
 =
-hb_subset_plan_add_table
-(
 plan
+-
+>
+add_table
+(
 HB_OT_TAG_maxp
 maxp_prime_blob
 )

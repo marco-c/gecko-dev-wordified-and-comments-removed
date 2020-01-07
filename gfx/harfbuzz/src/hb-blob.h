@@ -209,6 +209,17 @@ int
 length
 )
 ;
+HB_EXTERN
+hb_blob_t
+*
+hb_blob_create_from_file
+(
+const
+char
+*
+file_name
+)
+;
 HB_END_DECLS
 #
 endif

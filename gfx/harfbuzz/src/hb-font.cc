@@ -422,7 +422,6 @@ hb_font_get_glyph_h_advance_nil
 hb_font_t
 *
 font
-HB_UNUSED
 void
 *
 font_data
@@ -487,7 +486,6 @@ hb_font_get_glyph_v_advance_nil
 hb_font_t
 *
 font
-HB_UNUSED
 void
 *
 font_data

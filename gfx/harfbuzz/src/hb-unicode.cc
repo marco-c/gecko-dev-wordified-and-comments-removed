@@ -92,7 +92,6 @@ ufuncs
 HB_UNUSED
 hb_codepoint_t
 unicode
-HB_UNUSED
 void
 *
 user_data

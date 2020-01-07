@@ -603,7 +603,7 @@ m
 }
 inline
 void
-finish
+fini
 (
 void
 )

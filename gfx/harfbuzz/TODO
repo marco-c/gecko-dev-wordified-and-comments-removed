@@ -73,9 +73,6 @@ from
 script
 .
 -
-blob_from_file
-?
--
 Add
 hb
 -
@@ -127,12 +124,6 @@ aalt
 -
 like
 features
-?
--
-SFNT
-api
-?
-get_num_faces
 ?
 -
 Add

@@ -1469,7 +1469,7 @@ khmer_category
 )
 =
 =
-OT_H
+OT_Coeng
 &
 &
 info
@@ -2404,11 +2404,10 @@ buffer
 len
 &
 &
-!
 buffer
 -
 >
-in_error
+successful
 )
 {
 unsigned
@@ -2520,11 +2519,10 @@ buffer
 len
 &
 &
-!
 buffer
 -
 >
-in_error
+successful
 &
 &
 last_syllable
@@ -2749,7 +2747,7 @@ khmer_category
 (
 )
 =
-OT_H
+OT_Coeng
 ;
 _hb_glyph_info_clear_ligated_and_multiplied
 (

@@ -158,7 +158,7 @@ p
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
