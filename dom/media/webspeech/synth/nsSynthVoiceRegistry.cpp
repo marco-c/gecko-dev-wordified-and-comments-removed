@@ -698,7 +698,7 @@ NS_CreateServicesFromCategory
 (
 NS_SPEECH_SYNTH_STARTED
 nullptr
-NS_SPEECH_SYNTH_STARTED
+nullptr
 )
 ;
 }
