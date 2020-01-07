@@ -1186,6 +1186,16 @@ objects
 .
 contentWindow
 ;
+this
+.
+_browser
+.
+_contentDocument
+=
+objects
+.
+contentDocument
+;
 if
 (
 json
