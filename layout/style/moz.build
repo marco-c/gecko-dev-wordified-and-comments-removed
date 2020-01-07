@@ -559,11 +559,6 @@ ServoImportRule
 h
 '
 '
-ServoMediaRule
-.
-h
-'
-'
 ServoPageRule
 .
 h
@@ -1118,11 +1113,6 @@ cpp
 '
 '
 ServoImportRule
-.
-cpp
-'
-'
-ServoMediaRule
 .
 cpp
 '
