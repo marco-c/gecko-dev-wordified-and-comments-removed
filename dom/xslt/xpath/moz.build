@@ -129,11 +129,6 @@ txCoreFunctionCall
 cpp
 '
 '
-txErrorExpr
-.
-cpp
-'
-'
 txExpr
 .
 cpp
