@@ -605,19 +605,7 @@ stylo
 '
 ]
 =
-substs
-.
-get
-(
-'
-MOZ_STYLO_ENABLE
-'
-)
-=
-=
-'
-1
-'
+True
     
 d
 [

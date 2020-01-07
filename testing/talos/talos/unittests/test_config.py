@@ -1000,10 +1000,6 @@ no_upload_results
 '
                 
 '
-enable_stylo
-'
-                
-'
 disable_stylo
 '
                 

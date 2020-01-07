@@ -3651,12 +3651,6 @@ no_upload_results
 False
                 
 '
-enable_stylo
-'
-:
-True
-                
-'
 stylothreads
 '
 :

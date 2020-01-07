@@ -1579,20 +1579,6 @@ headless
 }
 )
         
-stylo
-=
-self
-.
-config
-.
-get
-(
-'
-enable_stylo
-'
-False
-)
-        
 mozinfo
 .
 update
@@ -1602,7 +1588,7 @@ update
 stylo
 '
 :
-stylo
+True
 }
 )
         
