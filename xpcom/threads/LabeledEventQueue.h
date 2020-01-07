@@ -388,7 +388,7 @@ mNumEvents
 0
 ;
 int64_t
-mAvoidActiveTabCount
+mAvoidVisibleTabCount
 =
 0
 ;

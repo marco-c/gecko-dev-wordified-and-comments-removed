@@ -765,12 +765,12 @@ if
 TabChild
 :
 :
-HasActiveTabs
+HasVisibleTabs
 (
 )
 &
 &
-mAvoidActiveTabCount
+mAvoidVisibleTabCount
 <
 =
 0
@@ -784,7 +784,7 @@ iter
 TabChild
 :
 :
-GetActiveTabs
+GetVisibleTabs
 (
 )
 .
@@ -846,7 +846,7 @@ sCurrentSchedulerGroup
 continue
 ;
 }
-mAvoidActiveTabCount
+mAvoidVisibleTabCount
 +
 =
 2
@@ -896,7 +896,7 @@ firstGroup
 ;
 do
 {
-mAvoidActiveTabCount
+mAvoidVisibleTabCount
 -
 -
 ;
