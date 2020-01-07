@@ -724,8 +724,13 @@ mCharCode
 mModifiers
 &
 (
+#
+ifndef
+XP_MACOSX
 MODIFIER_ALT
 |
+#
+endif
 MODIFIER_CONTROL
 |
 MODIFIER_META
