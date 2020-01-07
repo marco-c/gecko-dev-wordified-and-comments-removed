@@ -2820,7 +2820,7 @@ scroll_offsets
 &
 HashMap
 <
-ClipId
+ExternalScrollId
 LayerPoint
 >
 )
@@ -2922,11 +2922,8 @@ scroll_node_with_id
 (
 *
 offset
+*
 id
-.
-into
-(
-)
 ScrollClamping
 :
 :

@@ -40,9 +40,7 @@ dependencies
 rayon
 =
 "
-0
-.
-8
+1
 "
 thread_profiler
 =
