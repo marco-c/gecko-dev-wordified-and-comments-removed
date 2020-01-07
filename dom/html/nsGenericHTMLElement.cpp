@@ -14110,11 +14110,6 @@ GetInnerTextNoFlush
 aValue
 aError
 this
-0
-this
-GetChildCount
-(
-)
 )
 ;
 }
