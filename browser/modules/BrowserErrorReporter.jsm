@@ -858,6 +858,11 @@ errorName
 value
 :
 errorMessage
+module
+:
+message
+.
+sourceName
 stacktrace
 :
 {
