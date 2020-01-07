@@ -250,7 +250,6 @@ ContentActor
 (
 conn
 chromeGlobal
-prefix
 )
 ;
 }
