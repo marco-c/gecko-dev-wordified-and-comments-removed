@@ -283,11 +283,6 @@ childNodes
 readonly
 attribute
 nsIDOMNode
-previousSibling
-;
-readonly
-attribute
-nsIDOMNode
 nextSibling
 ;
 /
