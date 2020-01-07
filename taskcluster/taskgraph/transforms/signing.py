@@ -508,19 +508,6 @@ format
             
 )
         
-treeherder
-=
-job
-.
-get
-(
-'
-treeherder
-'
-{
-}
-)
-        
 is_nightly
 =
 dep_job
@@ -536,6 +523,34 @@ False
 )
         
 treeherder
+=
+None
+        
+if
+'
+partner
+'
+not
+in
+config
+.
+kind
+:
+            
+treeherder
+=
+job
+.
+get
+(
+'
+treeherder
+'
+{
+}
+)
+            
+treeherder
 .
 setdefault
 (
@@ -545,9 +560,12 @@ symbol
 _generate_treeherder_symbol
 (
 is_nightly
+config
+.
+kind
 )
 )
-        
+            
 dep_th_platform
 =
 dep_job
@@ -565,7 +583,7 @@ extra
 .
 get
 (
-            
+                
 '
 treeherder
 '
@@ -590,7 +608,7 @@ platform
 '
 '
 )
-        
+            
 build_type
 =
 dep_job
@@ -603,7 +621,7 @@ get
 build_type
 '
 )
-        
+            
 build_platform
 =
 dep_job
@@ -616,7 +634,7 @@ get
 build_platform
 '
 )
-        
+            
 treeherder
 .
 setdefault
@@ -626,14 +644,14 @@ platform
 '
 _generate_treeherder_platform
 (
-            
+                
 dep_th_platform
 build_platform
 build_type
-        
+            
 )
 )
-        
+            
 treeherder
 .
 setdefault
@@ -653,7 +671,7 @@ build_platform
 else
 2
 )
-        
+            
 treeherder
 .
 setdefault
@@ -959,12 +977,6 @@ dep_job
 optimization
             
 '
-treeherder
-'
-:
-treeherder
-            
-'
 routes
 '
 :
@@ -1014,6 +1026,19 @@ phase
 )
         
 }
+        
+if
+treeherder
+:
+            
+task
+[
+'
+treeherder
+'
+]
+=
+treeherder
         
 yield
 task
@@ -1081,16 +1106,23 @@ def
 _generate_treeherder_symbol
 (
 is_nightly
+kind
 )
 :
     
+if
+is_nightly
+:
+        
 return
 '
 Ns
 '
-if
-is_nightly
+    
 else
+:
+        
+return
 '
 Bs
 '
