@@ -1957,7 +1957,7 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -1982,13 +1982,10 @@ if
 (
 MOZ_UNLIKELY
 (
-(
-size_t
-)
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -2031,7 +2028,7 @@ obj
 cx
 -
 >
-compartment
+realm
 (
 )
 -
