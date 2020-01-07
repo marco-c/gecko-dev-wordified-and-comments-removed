@@ -391,6 +391,15 @@ cp
 /
 test
 /
+test_loopback
+.
+cpp
+gtest
+cp
+1
+/
+test
+/
 test_mixer
 .
 cpp
