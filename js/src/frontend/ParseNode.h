@@ -72,7 +72,12 @@ Nop
 \
 F
 (
-Semi
+EmptyStatement
+)
+\
+F
+(
+ExpressionStatement
 )
 \
 F
@@ -2022,7 +2027,7 @@ getKind
 ParseNodeKind
 :
 :
-Semi
+ExpressionStatement
 )
 {
 MOZ_ASSERT
@@ -2041,9 +2046,6 @@ pn_kid
 ;
 if
 (
-kid
-&
-&
 kid
 -
 >
