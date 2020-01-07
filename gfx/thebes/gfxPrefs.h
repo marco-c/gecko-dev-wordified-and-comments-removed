@@ -4177,7 +4177,7 @@ test
 "
 WebRenderHitTest
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
