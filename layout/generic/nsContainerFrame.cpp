@@ -12,17 +12,6 @@ mozilla
 /
 dom
 /
-HTMLDetailsElement
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLSummaryElement
 .
 h
