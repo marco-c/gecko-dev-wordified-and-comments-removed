@@ -120,6 +120,10 @@ mPrincipal
 (
 prin
 )
+mWrapper
+(
+nullptr
+)
 {
 }
 private
