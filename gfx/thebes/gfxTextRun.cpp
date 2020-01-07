@@ -10038,6 +10038,10 @@ aCh
 &
 &
 !
+mSkipDrawing
+&
+&
+!
 FontLoadingForFamily
 (
 ff
@@ -10987,6 +10991,10 @@ STATUS_NOT_LOADED
 &
 &
 inRange
+&
+&
+!
+mSkipDrawing
 &
 &
 !
@@ -15420,6 +15428,10 @@ gfxUserFontEntry
 :
 :
 STATUS_NOT_LOADED
+&
+&
+!
+mSkipDrawing
 &
 &
 !
