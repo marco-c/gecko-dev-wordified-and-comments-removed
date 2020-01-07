@@ -2661,7 +2661,7 @@ self
 .
 device
 .
-pkill
+stop_application
 (
 self
 .
@@ -2675,7 +2675,7 @@ self
 .
 device
 .
-pkill
+stop_application
 (
 self
 .
