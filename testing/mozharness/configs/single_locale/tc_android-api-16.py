@@ -3,24 +3,6 @@ config
 {
     
 "
-locales_file
-"
-:
-"
-src
-/
-mobile
-/
-locales
-/
-l10n
--
-changesets
-.
-json
-"
-    
-"
 mozconfig
 "
 :

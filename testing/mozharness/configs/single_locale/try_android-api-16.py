@@ -45,27 +45,6 @@ is_automation
 True
     
 "
-locales_file
-"
-:
-"
-%
-s
-/
-mobile
-/
-locales
-/
-l10n
--
-changesets
-.
-json
-"
-%
-MOZILLA_DIR
-    
-"
 locales_dir
 "
 :

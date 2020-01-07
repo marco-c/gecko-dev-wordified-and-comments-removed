@@ -5,22 +5,6 @@ config
 {
     
 "
-locales_file
-"
-:
-"
-src
-/
-browser
-/
-locales
-/
-all
--
-locales
-"
-    
-"
 bootstrap_env
 "
 :

@@ -4,22 +4,6 @@ config
 =
 {
     
-"
-locales_file
-"
-:
-"
-src
-/
-browser
-/
-locales
-/
-all
--
-locales
-"
-    
 '
 vcs_share_base
 '
