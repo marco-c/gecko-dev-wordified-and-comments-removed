@@ -928,6 +928,17 @@ nsIRequest
 :
 :
 LOAD_ANONYMOUS
+|
+(
+mPB
+?
+nsIRequest
+:
+:
+INHIBIT_CACHING
+:
+0
+)
 ios
 )
 ;
