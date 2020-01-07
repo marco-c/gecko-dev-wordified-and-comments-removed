@@ -21921,7 +21921,7 @@ mozjs
 .
 1
 .
-8
+9
 (
 registry
 +
@@ -24110,7 +24110,7 @@ version
 .
 1
 .
-8
+9
 "
 source
 =
@@ -24169,11 +24169,11 @@ index
 "
 "
 lazy_static
+1
+.
 0
 .
-2
-.
-11
+0
 (
 registry
 +
@@ -33928,7 +33928,7 @@ mozjs
 .
 1
 .
-8
+9
 (
 registry
 +
@@ -54915,7 +54915,7 @@ mozjs
 .
 1
 .
-8
+9
 (
 registry
 +
@@ -54940,7 +54940,7 @@ index
 "
 =
 "
-722aeeec7049d03494ef79190343c2dea89c743c2d66acfb4555aef69dd77061
+c9935bada5ea5d70291f21cce7b1bbad507edea12590ebe9cfb6b665fb716480
 "
 "
 checksum
