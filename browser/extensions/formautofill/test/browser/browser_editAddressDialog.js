@@ -407,7 +407,7 @@ span
 .
 textContent
 "
-Zip
+ZIP
 Code
 "
 "
@@ -419,7 +419,7 @@ label
 should
 be
 '
-Zip
+ZIP
 Code
 '
 "
