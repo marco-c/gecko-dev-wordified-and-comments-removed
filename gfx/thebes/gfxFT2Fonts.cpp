@@ -804,6 +804,7 @@ aUnscaledFont
 aCairoFont
 aFontEntry
 aFontStyle
+false
 )
 mCharGlyphCache
 (

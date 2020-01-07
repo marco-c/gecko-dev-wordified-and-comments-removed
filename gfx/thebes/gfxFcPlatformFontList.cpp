@@ -5194,6 +5194,7 @@ aUnscaledFont
 aScaledFont
 aFontEntry
 aFontStyle
+aNeedsBold
 )
 mPattern
 (
