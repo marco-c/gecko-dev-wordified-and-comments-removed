@@ -1568,7 +1568,12 @@ mallocSizeOf
 size_t
 n
 =
-0
+aCallbacks
+.
+sizeOfIncludingThis
+(
+mallocSizeOf
+)
 ;
 for
 (

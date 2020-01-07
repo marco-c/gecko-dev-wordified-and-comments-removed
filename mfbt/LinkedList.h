@@ -1602,9 +1602,7 @@ n
 ;
 for
 (
-const
-T
-*
+ConstRawType
 t
 =
 getFirst
