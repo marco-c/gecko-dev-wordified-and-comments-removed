@@ -4767,10 +4767,7 @@ New
 alloc
 (
 )
-GetNextPc
-(
 loopEntry
-)
 )
 ;
 CFGLoopEntry
@@ -7509,10 +7506,7 @@ New
 alloc
 (
 )
-GetNextPc
-(
 loopEntry
-)
 )
 ;
 CFGLoopEntry
@@ -7847,10 +7841,7 @@ New
 alloc
 (
 )
-GetNextPc
-(
 loopEntry
-)
 )
 ;
 CFGLoopEntry
