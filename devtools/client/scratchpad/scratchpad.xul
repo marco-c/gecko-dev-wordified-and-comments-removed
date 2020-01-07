@@ -1594,6 +1594,14 @@ accel
 keyset
 >
 <
+toolbar
+type
+=
+"
+menubar
+"
+>
+<
 menubar
 id
 =
@@ -3365,6 +3373,10 @@ menu
 <
 /
 menubar
+>
+<
+/
+toolbar
 >
 <
 toolbar

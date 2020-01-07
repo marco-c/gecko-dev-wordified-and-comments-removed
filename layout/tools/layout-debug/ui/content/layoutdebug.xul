@@ -421,6 +421,14 @@ flex
 toolbox
 >
 <
+toolbar
+type
+=
+"
+menubar
+"
+>
+<
 menubar
 id
 =
@@ -1350,6 +1358,10 @@ menu_Help
 <
 /
 menubar
+>
+<
+/
+toolbar
 >
 <
 toolbar
