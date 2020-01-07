@@ -753,9 +753,11 @@ aRhs
 struct
 FrameKey
 {
+const
 nsCString
 mLocation
 ;
+const
 mozilla
 :
 :
@@ -765,6 +767,7 @@ unsigned
 >
 mLine
 ;
+const
 mozilla
 :
 :
@@ -774,6 +777,7 @@ unsigned
 >
 mCategory
 ;
+const
 mozilla
 :
 :
@@ -783,6 +787,7 @@ JITAddress
 >
 mJITAddress
 ;
+const
 mozilla
 :
 :
