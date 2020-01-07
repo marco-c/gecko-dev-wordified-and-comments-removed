@@ -936,6 +936,17 @@ MOZ_RELEASE_ASSERT
 mLayer
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+mFrameList
+.
+Contains
+(
+aFrame
+)
+)
+;
 mFrameList
 .
 AppendElement
