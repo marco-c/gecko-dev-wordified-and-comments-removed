@@ -1185,7 +1185,7 @@ nsAString
 aFontName
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 uint8_t
 aStyle
@@ -4455,10 +4455,10 @@ beginning
 break
 ;
 }
-int32_t
+uint32_t
 stretch
 =
-strtol
+strtoul
 (
 beginning
 nullptr
@@ -7255,7 +7255,7 @@ nsAString
 aFontName
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 uint8_t
 aStyle
@@ -7627,7 +7627,7 @@ nsAString
 aFontName
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 uint8_t
 aStyle

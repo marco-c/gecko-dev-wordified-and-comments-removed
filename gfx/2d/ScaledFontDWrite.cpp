@@ -426,7 +426,7 @@ inline
 DWRITE_FONT_STRETCH
 DWriteFontStretchFromStretch
 (
-int16_t
+uint16_t
 aStretch
 )
 {

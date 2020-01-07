@@ -1170,7 +1170,7 @@ aFamilyList
 FontWeight
 &
 aWeight
-int32_t
+uint32_t
 &
 aStretch
 uint8_t
@@ -1407,7 +1407,7 @@ familyList
 FontWeight
 weight
 ;
-int32_t
+uint32_t
 stretch
 ;
 uint8_t
@@ -4617,7 +4617,7 @@ Normal
 (
 )
 ;
-int32_t
+uint32_t
 stretch
 =
 NS_STYLE_FONT_STRETCH_NORMAL
@@ -9189,7 +9189,7 @@ gfxFontFaceSrc
 aFontFaceSrcList
 FontWeight
 aWeight
-int32_t
+uint32_t
 aStretch
 uint8_t
 aStyle

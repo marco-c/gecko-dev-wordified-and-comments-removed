@@ -339,7 +339,7 @@ uint8_t
 aStyle
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 gfxFloat
 aSize
@@ -410,7 +410,7 @@ fontSmoothingBackgroundColor
 FontWeight
 weight
 ;
-int8_t
+uint8_t
 stretch
 ;
 uint8_t

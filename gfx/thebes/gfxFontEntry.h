@@ -529,7 +529,7 @@ return
 mWeight
 ;
 }
-int16_t
+uint16_t
 Stretch
 (
 )
@@ -1412,7 +1412,7 @@ NUM_SCRIPT_CODES
 FontWeight
 mWeight
 ;
-int16_t
+uint16_t
 mStretch
 ;
 RefPtr

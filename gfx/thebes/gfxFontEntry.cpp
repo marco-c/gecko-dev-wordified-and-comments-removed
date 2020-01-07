@@ -5363,15 +5363,15 @@ return
 #
 define
 REVERSE_STRETCH_DISTANCE
-5
+200
 static
 inline
 uint32_t
 StretchDistance
 (
-int16_t
+int32_t
 aFontStretch
-int16_t
+int32_t
 aTargetStretch
 )
 {
@@ -5392,7 +5392,7 @@ if
 (
 aTargetStretch
 >
-0
+100
 )
 {
 distance
@@ -6281,7 +6281,7 @@ true
 return
 ;
 }
-int16_t
+uint16_t
 firstStretch
 =
 mAvailableFonts
