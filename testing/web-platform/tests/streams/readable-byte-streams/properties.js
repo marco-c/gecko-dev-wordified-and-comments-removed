@@ -870,12 +870,12 @@ byobRequest
 constructor
 .
 length
-2
+0
 '
 constructor
 has
-1
-parameter
+0
+parameters
 '
 )
 ;
