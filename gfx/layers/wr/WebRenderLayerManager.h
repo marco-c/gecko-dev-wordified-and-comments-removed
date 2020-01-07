@@ -530,7 +530,7 @@ virtual
 void
 DidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla
@@ -967,7 +967,7 @@ TransactionIdAllocator
 >
 mTransactionIdAllocator
 ;
-uint64_t
+TransactionId
 mLatestTransactionId
 ;
 nsTArray

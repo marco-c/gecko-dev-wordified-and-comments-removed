@@ -1648,9 +1648,9 @@ mVsyncRate
 aVsyncRate
 )
 mPendingTransaction
-(
+{
 0
-)
+}
 mPaused
 (
 false
@@ -5592,7 +5592,10 @@ id
 )
 =
 =
+TransactionId
+{
 1
+}
 |
 |
 aInfo
@@ -9218,6 +9221,10 @@ ENABLE_FRAME_LATENCY_LOG
 if
 (
 mPendingTransaction
+.
+IsValid
+(
+)
 )
 {
 if
@@ -9329,7 +9336,10 @@ TimeStamp
 endif
 mPendingTransaction
 =
+TransactionId
+{
 0
+}
 ;
 }
 }
@@ -9434,7 +9444,7 @@ PipelineId
 aPipelineId
 )
 {
-uint64_t
+TransactionId
 transactionId
 =
 mWrBridge
@@ -9562,7 +9572,7 @@ lts
 >
 mCrossProcessParent
 ;
-uint64_t
+TransactionId
 transactionId
 =
 lts
@@ -9602,7 +9612,7 @@ CompositorBridgeParent
 :
 NotifyDidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 TimeStamp
 &

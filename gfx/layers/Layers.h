@@ -1831,7 +1831,7 @@ virtual
 void
 DidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla
@@ -1922,13 +1922,16 @@ aAllocator
 {
 }
 virtual
-uint64_t
+TransactionId
 GetLastTransactionId
 (
 )
 {
 return
+TransactionId
+{
 0
+}
 ;
 }
 virtual

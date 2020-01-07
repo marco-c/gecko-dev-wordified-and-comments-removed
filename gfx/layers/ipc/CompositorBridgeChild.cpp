@@ -2607,7 +2607,7 @@ LayersId
 &
 aId
 const
-uint64_t
+TransactionId
 &
 aTransactionId
 const

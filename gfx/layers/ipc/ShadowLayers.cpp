@@ -3008,7 +3008,7 @@ ShadowLayerForwarder
 :
 SendPaintTime
 (
-uint64_t
+TransactionId
 aId
 TimeDuration
 aPaintTime
@@ -3058,7 +3058,7 @@ const
 nsIntRegion
 &
 aRegionToClear
-uint64_t
+TransactionId
 aId
 bool
 aScheduleComposite
@@ -3153,6 +3153,10 @@ WillEndTransaction
 MOZ_ASSERT
 (
 aId
+.
+IsValid
+(
+)
 )
 ;
 AUTO_PROFILER_LABEL

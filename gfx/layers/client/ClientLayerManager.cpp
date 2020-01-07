@@ -492,9 +492,9 @@ mWidget
 aWidget
 )
 mLatestTransactionId
-(
+{
 0
-)
+}
 mLastPaintTime
 (
 TimeDuration
@@ -627,7 +627,7 @@ allocator
 =
 mTransactionIdAllocator
 ;
-uint64_t
+TransactionId
 id
 =
 mLatestTransactionId
@@ -2150,7 +2150,7 @@ ClientLayerManager
 :
 DidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 TimeStamp
@@ -2178,6 +2178,10 @@ this
 if
 (
 aTransactionId
+.
+IsValid
+(
+)
 )
 {
 nsIWidgetListener

@@ -213,6 +213,17 @@ TransactionIdAllocator
 public
 nsARefreshObserver
 {
+using
+TransactionId
+=
+mozilla
+:
+:
+layers
+:
+:
+TransactionId
+;
 public
 :
 explicit
@@ -810,7 +821,7 @@ uint64_t
 aJank
 )
 ;
-uint64_t
+TransactionId
 GetTransactionId
 (
 bool
@@ -818,7 +829,7 @@ aThrottle
 )
 override
 ;
-uint64_t
+TransactionId
 LastTransactionId
 (
 )
@@ -828,7 +839,7 @@ override
 void
 NotifyTransactionCompleted
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 override
@@ -836,7 +847,7 @@ override
 void
 RevokeTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 override
@@ -850,7 +861,7 @@ override
 void
 ResetInitialTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 override
@@ -1243,10 +1254,10 @@ nsRefreshDriver
 >
 mRootRefresh
 ;
-uint64_t
+TransactionId
 mPendingTransaction
 ;
-uint64_t
+TransactionId
 mCompletedTransaction
 ;
 uint32_t

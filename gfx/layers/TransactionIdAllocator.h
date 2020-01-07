@@ -16,6 +16,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -45,7 +56,7 @@ NS_INLINE_DECL_REFCOUNTING
 TransactionIdAllocator
 )
 virtual
-uint64_t
+TransactionId
 GetTransactionId
 (
 bool
@@ -55,7 +66,7 @@ aThrottle
 0
 ;
 virtual
-uint64_t
+TransactionId
 LastTransactionId
 (
 )
@@ -67,7 +78,7 @@ virtual
 void
 NotifyTransactionCompleted
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 =
@@ -77,7 +88,7 @@ virtual
 void
 RevokeTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 =
@@ -95,7 +106,7 @@ virtual
 void
 ResetInitialTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 =

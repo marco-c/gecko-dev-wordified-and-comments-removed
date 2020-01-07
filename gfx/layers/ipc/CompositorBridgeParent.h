@@ -2606,7 +2606,7 @@ override
 void
 NotifyDidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 TimeStamp
 &
@@ -2680,7 +2680,7 @@ mScale
 TimeDuration
 mVsyncRate
 ;
-uint64_t
+TransactionId
 mPendingTransaction
 ;
 TimeStamp

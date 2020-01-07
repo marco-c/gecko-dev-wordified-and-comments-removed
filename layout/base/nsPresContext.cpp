@@ -825,8 +825,10 @@ mRefreshDriver
 LastTransactionId
 (
 )
-+
-1
+.
+Next
+(
+)
 nsRect
 (
 0
@@ -9632,7 +9634,7 @@ nsRect
 >
 *
 aList
-uint64_t
+TransactionId
 aTransactionId
 mozilla
 :
@@ -9796,7 +9798,10 @@ this
 nullptr
 eAfterPaint
 aList
+uint64_t
+(
 aTransactionId
+)
 timeStamp
 )
 ;
@@ -10195,7 +10200,7 @@ nsPresContext
 :
 NotifyInvalidation
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 nsIntRect
@@ -10277,7 +10282,7 @@ nsPresContext
 :
 GetInvalidations
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 {
@@ -10316,7 +10321,7 @@ nsPresContext
 :
 NotifyInvalidation
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 nsRect
@@ -10500,7 +10505,7 @@ data
 return
 ;
 }
-uint64_t
+TransactionId
 transactionId
 =
 aContainer
@@ -10697,7 +10702,7 @@ nullptr
 struct
 NotifyDidPaintSubdocumentCallbackClosure
 {
-uint64_t
+TransactionId
 mTransactionId
 ;
 const
@@ -10792,7 +10797,7 @@ nsRect
 >
 *
 aList
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla
@@ -10898,7 +10903,7 @@ nsPresContext
 >
 mPresContext
 ;
-uint64_t
+TransactionId
 mTransactionId
 ;
 const
@@ -10922,7 +10927,7 @@ nsPresContext
 :
 NotifyDidPaintForSubtree
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla
@@ -13634,7 +13639,7 @@ nsRootPresContext
 :
 EnsureEventualDidPaintEvent
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 {
@@ -13768,7 +13773,7 @@ nsRootPresContext
 :
 CancelDidPaintTimers
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 {

@@ -816,7 +816,13 @@ virtual
 void
 DidCompositeWindow
 (
-uint64_t
+mozilla
+:
+:
+layers
+:
+:
+TransactionId
 aTransactionId
 const
 mozilla

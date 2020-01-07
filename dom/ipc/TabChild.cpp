@@ -14096,7 +14096,13 @@ TabChild
 :
 DidComposite
 (
-uint64_t
+mozilla
+:
+:
+layers
+:
+:
+TransactionId
 aTransactionId
 const
 TimeStamp
