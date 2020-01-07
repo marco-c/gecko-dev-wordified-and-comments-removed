@@ -3475,9 +3475,11 @@ map
 node
 =
 >
-PlacesUtils
+Services
 .
-_uri
+io
+.
+newURI
 (
 node
 .

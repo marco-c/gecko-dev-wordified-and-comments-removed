@@ -85,9 +85,11 @@ push
 {
 uri
 :
-PlacesUtils
+Services
 .
-_uri
+io
+.
+newURI
 (
 uri
 )
