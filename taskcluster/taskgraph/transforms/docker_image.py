@@ -101,6 +101,19 @@ from
 )
 :
 basestring
+    
+Optional
+(
+'
+args
+'
+)
+:
+{
+basestring
+:
+basestring
+}
 }
 )
 transforms
@@ -192,6 +205,19 @@ symbol
 '
 )
         
+args
+=
+task
+.
+pop
+(
+'
+args
+'
+{
+}
+)
+        
 context_path
 =
 os
@@ -213,9 +239,11 @@ context_hash
 =
 generate_context_hash
 (
+            
 GECKO
 context_path
 image_name
+args
 )
         
 description
@@ -750,6 +778,34 @@ time
 }
         
 }
+        
+for
+k
+v
+in
+args
+.
+items
+(
+)
+:
+            
+taskdesc
+[
+'
+worker
+'
+]
+[
+'
+env
+'
+]
+[
+k
+]
+=
+v
         
 add_optimization
 (
