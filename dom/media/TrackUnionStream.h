@@ -215,6 +215,12 @@ aTrackID
 )
 override
 ;
+void
+RemoveAllDirectListenersImpl
+(
+)
+override
+;
 nsTArray
 <
 TrackMapEntry
