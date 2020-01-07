@@ -17495,6 +17495,16 @@ aOffset
 +
 1
 )
+&
+&
+!
+aTextRun
+-
+>
+CharIsFormattingControl
+(
+aOffset
+)
 ;
 }
 static
