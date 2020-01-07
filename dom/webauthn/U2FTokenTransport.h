@@ -136,6 +136,13 @@ Cancel
 =
 0
 ;
+virtual
+void
+Drop
+(
+)
+{
+}
 protected
 :
 virtual
