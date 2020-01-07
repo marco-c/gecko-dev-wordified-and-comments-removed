@@ -644,6 +644,10 @@ retry_exceptions
 aiohttp
 .
 ClientError
+            
+asyncio
+.
+TimeoutError
         
 )
         
@@ -709,6 +713,9 @@ session
 get
 (
 url
+timeout
+=
+60
 )
 as
 resp
