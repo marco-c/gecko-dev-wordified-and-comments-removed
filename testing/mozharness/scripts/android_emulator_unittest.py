@@ -6811,10 +6811,6 @@ RUST_BACKTRACE
 full
 '
             
-summary
-=
-None
-            
 for
 per_test_args
 in
@@ -7038,14 +7034,12 @@ parser
                 
 tbpl_status
 log_level
-summary
 =
 parser
 .
 evaluate_parser
 (
 0
-summary
 )
                 
 parser
