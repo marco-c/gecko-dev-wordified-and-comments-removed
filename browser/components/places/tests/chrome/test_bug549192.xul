@@ -1052,11 +1052,8 @@ node
 )
 =
 =
-Ci
-.
-nsINavHistoryResultTreeViewer
-.
-INDEX_INVISIBLE
+-
+1
 node
 .
 uri

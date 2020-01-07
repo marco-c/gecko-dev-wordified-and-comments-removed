@@ -52,9 +52,6 @@ Ci
 nsINavHistoryResultObserver
 Ci
 .
-nsINavHistoryResultTreeViewer
-Ci
-.
 nsISupportsWeakReference
 ]
 ;
@@ -5731,9 +5728,6 @@ val
 ;
 }
 nodeForTreeIndex
-:
-function
-PTV_nodeForTreeIndex
 (
 aIndex
 )
@@ -5763,9 +5757,6 @@ aIndex
 ;
 }
 treeIndexForNode
-:
-function
-PTV_treeNodeForIndex
 (
 aNode
 )
@@ -5789,11 +5780,8 @@ ex
 {
 }
 return
-Ci
-.
-nsINavHistoryResultTreeViewer
-.
-INDEX_INVISIBLE
+-
+1
 ;
 }
 get
