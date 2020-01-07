@@ -698,7 +698,17 @@ animation
 ;
 animation
 =
+static_cast
+<
+LinkedListElement
+<
+Animation
+>
+*
+>
+(
 animation
+)
 -
 >
 getNext

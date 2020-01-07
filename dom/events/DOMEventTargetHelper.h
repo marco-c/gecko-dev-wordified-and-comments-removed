@@ -83,6 +83,15 @@ include
 "
 mozilla
 /
+LinkedList
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 EventTarget
@@ -136,6 +145,11 @@ dom
 :
 :
 EventTarget
+public
+LinkedListElement
+<
+DOMEventTargetHelper
+>
 {
 public
 :
@@ -659,7 +673,7 @@ GetOwnerGlobal
 (
 )
 const
-override
+final
 {
 return
 mParentObject

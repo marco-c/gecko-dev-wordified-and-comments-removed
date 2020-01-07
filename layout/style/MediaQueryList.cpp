@@ -173,7 +173,17 @@ tmp
 mDocument
 )
 {
+static_cast
+<
+LinkedListElement
+<
+MediaQueryList
+>
+*
+>
+(
 tmp
+)
 -
 >
 remove
