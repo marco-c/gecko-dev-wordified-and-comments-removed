@@ -400,6 +400,14 @@ ast
 )
 ;
 if
+attrs
+.
+skip
+{
+continue
+;
+}
+if
 !
 attrs
 .
@@ -946,6 +954,9 @@ struct
 CssFieldAttrs
 {
 ignore_bound
+:
+bool
+skip
 :
 bool
 }
