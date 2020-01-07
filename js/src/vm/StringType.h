@@ -681,7 +681,7 @@ JSString
 )
 ;
 using
-js
+JS
 :
 :
 shadow
