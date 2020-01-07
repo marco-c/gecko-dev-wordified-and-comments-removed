@@ -920,6 +920,7 @@ MOZ_ASSERT
 (
 aOldLength
 <
+=
 aNewLength
 )
 ;
