@@ -95,6 +95,16 @@ nsIFrame
 aFrame
 )
 ;
+static
+nsIFrame
+*
+SuppressInvalidPointsAndGetTargetedFrame
+(
+WidgetTouchEvent
+*
+aEvent
+)
+;
 bool
 PreHandleEvent
 (

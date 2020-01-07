@@ -358,6 +358,9 @@ mRefPoint
 bool
 mChanged
 ;
+bool
+mIsTouchEventSuppressed
+;
 uint32_t
 mMessage
 ;

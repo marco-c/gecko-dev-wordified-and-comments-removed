@@ -166,6 +166,11 @@ aRotationAngle
 float
 aForce
 )
+:
+mIsTouchEventSuppressed
+(
+false
+)
 {
 mTarget
 =
@@ -263,6 +268,11 @@ aRotationAngle
 float
 aForce
 )
+:
+mIsTouchEventSuppressed
+(
+false
+)
 {
 mIdentifier
 =
@@ -356,6 +366,12 @@ mChanged
 aOther
 .
 mChanged
+)
+mIsTouchEventSuppressed
+(
+aOther
+.
+mIsTouchEventSuppressed
 )
 mMessage
 (
