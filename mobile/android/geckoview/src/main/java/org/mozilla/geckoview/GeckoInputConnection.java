@@ -1468,9 +1468,9 @@ mView
 ;
 }
 NonNull
-SessionTextInput
+GeckoSession
 .
-Delegate
+TextInputDelegate
 getInputDelegate
 (
 )
