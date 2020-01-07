@@ -406,10 +406,6 @@ enumerators
 (
 nullptr
 )
-realmStats_
-(
-nullptr
-)
 scheduledForDestruction
 (
 false
