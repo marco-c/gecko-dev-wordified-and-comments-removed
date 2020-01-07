@@ -1996,9 +1996,12 @@ State
 :
 :
 Start
-had_hierarchy_error
+dom_error
 :
-false
+None
+insert_rule_context
+:
+None
 namespaces
 }
 ;
