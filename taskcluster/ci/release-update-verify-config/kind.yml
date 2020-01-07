@@ -216,6 +216,11 @@ app
 name
 :
 browser
+branch
+-
+prefix
+:
+mozilla
 archive
 -
 prefix
