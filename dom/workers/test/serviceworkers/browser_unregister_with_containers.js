@@ -420,7 +420,7 @@ browser
 ok
 (
 !
-controller
+controlled
 "
 window
 should
