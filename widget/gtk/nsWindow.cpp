@@ -15716,7 +15716,17 @@ mShell
 ;
 drawToContainer
 =
+(
 mIsCSDAvailable
+&
+&
+GetCSDSupportLevel
+(
+)
+=
+=
+CSD_SUPPORT_FLAT
+)
 |
 |
 gtk_style_context_has_class
