@@ -1,4 +1,4 @@
-Cu
+ChromeUtils
 .
 import
 (
@@ -17,7 +17,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -36,7 +36,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -72,7 +72,7 @@ History
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -169,7 +169,7 @@ xps
 enabled
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

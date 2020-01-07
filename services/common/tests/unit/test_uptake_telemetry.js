@@ -3,7 +3,7 @@ const
 UptakeTelemetry
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

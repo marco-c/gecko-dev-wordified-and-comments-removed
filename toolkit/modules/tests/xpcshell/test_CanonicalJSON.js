@@ -3,9 +3,7 @@ const
 CanonicalJSON
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

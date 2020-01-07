@@ -255,9 +255,7 @@ javascript
 [
 CDATA
 [
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

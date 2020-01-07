@@ -35,7 +35,7 @@ function
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

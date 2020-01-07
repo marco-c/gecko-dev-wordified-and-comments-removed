@@ -8,9 +8,7 @@ ImportTesting
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

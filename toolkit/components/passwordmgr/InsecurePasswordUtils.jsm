@@ -45,7 +45,7 @@ security
 properties
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -127,9 +127,9 @@ nsIScriptSecurityManager
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

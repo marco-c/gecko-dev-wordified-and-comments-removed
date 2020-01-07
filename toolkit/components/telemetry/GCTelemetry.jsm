@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -30,7 +30,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

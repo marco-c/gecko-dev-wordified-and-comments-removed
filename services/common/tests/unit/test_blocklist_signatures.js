@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -24,7 +24,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -48,7 +48,7 @@ const
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -74,7 +74,7 @@ const
 OneCRLBlocklistClient
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -102,7 +102,7 @@ const
 UptakeTelemetry
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

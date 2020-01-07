@@ -106,7 +106,7 @@ const
 profileStorage
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -132,7 +132,7 @@ PaymentTestUtils
 PTU
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -64,7 +64,7 @@ const
 StreamUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -94,7 +94,7 @@ JSONPacket
 BulkPacket
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

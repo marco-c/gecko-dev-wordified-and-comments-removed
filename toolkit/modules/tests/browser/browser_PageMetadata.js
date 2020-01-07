@@ -3,7 +3,7 @@ var
 PageMetadata
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

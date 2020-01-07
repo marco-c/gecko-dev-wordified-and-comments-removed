@@ -19,9 +19,7 @@ Components
 .
 classes
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

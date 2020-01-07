@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -59,7 +59,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -78,7 +78,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -97,7 +97,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -116,7 +116,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -135,7 +135,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -154,7 +154,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -173,9 +173,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -196,9 +196,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -223,7 +223,7 @@ do_get_profile
 (
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -458,7 +458,7 @@ let
 ProfileStorage
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -755,7 +755,7 @@ patterns
 fixturePathPrefix
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -772,7 +772,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

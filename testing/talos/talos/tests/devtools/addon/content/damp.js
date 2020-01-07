@@ -10,9 +10,7 @@ const
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -38,7 +36,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -128,9 +126,7 @@ let
 require
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

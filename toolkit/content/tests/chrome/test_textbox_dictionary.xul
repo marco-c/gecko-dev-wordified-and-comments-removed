@@ -388,9 +388,7 @@ testNum
 =
 0
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

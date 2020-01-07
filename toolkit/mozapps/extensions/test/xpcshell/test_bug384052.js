@@ -37,9 +37,7 @@ source
 1
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

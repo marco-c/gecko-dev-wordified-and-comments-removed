@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -19,9 +17,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -45,9 +41,7 @@ const
 OS
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

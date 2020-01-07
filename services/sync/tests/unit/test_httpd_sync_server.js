@@ -1,4 +1,4 @@
-Cu
+ChromeUtils
 .
 import
 (
@@ -17,7 +17,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -492,7 +492,7 @@ run_next_test
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

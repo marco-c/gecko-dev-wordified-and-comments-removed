@@ -102,7 +102,7 @@ Cu
 .
 getGlobalForObject
 (
-Cu
+ChromeUtils
 .
 import
 (

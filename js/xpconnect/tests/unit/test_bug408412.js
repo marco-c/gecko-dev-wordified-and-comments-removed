@@ -58,9 +58,7 @@ file
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

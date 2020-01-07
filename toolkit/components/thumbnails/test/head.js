@@ -4,7 +4,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -24,7 +24,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -44,7 +44,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -64,7 +64,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -85,7 +85,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -105,7 +105,7 @@ jsm
 tmp
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -138,9 +138,9 @@ OS
 =
 tmp
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

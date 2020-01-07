@@ -4855,9 +4855,7 @@ null
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

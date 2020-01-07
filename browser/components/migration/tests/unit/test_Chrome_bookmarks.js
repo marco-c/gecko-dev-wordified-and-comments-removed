@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -181,7 +181,7 @@ shift
 )
 ;
 }
-Cu
+ChromeUtils
 .
 import
 (

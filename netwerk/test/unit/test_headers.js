@@ -8,7 +8,7 @@ lastTest
 =
 4
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -27,7 +27,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

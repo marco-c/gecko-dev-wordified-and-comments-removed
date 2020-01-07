@@ -42,9 +42,7 @@ createFile
 path
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -126,9 +124,7 @@ createSymlink
 path
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -190,9 +186,7 @@ deleteFile
 path
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -259,9 +253,7 @@ readDir
 path
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -367,9 +359,7 @@ readFile
 path
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -444,9 +434,7 @@ statPath
 path
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

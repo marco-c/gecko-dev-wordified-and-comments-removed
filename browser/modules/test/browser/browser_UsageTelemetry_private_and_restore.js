@@ -8,7 +8,7 @@ const
 Utils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -528,7 +528,7 @@ selected
 let
 SessionStore
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -36,7 +36,7 @@ myScope
 =
 this
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -55,7 +55,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -75,7 +75,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -95,7 +95,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -115,7 +115,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -135,7 +135,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -154,7 +154,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -174,7 +174,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

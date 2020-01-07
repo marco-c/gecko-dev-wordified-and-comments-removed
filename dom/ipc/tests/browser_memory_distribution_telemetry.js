@@ -6,7 +6,7 @@ strict
 var
 session
 =
-Cu
+ChromeUtils
 .
 import
 (

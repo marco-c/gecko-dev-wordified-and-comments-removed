@@ -61,9 +61,7 @@ PROCESS_TYPE_CONTENT
 ;
 try
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

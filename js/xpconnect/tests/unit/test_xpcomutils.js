@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -19,9 +17,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -987,9 +983,7 @@ tmp
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

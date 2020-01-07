@@ -684,9 +684,7 @@ temp
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

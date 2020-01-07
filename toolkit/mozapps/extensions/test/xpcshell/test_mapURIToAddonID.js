@@ -1,6 +1,4 @@
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -410,9 +408,7 @@ shutdownManager
 let
 s
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

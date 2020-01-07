@@ -1850,9 +1850,7 @@ let
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2014,9 +2012,7 @@ let
 AppConstants
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2783,9 +2779,7 @@ let
 Services
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

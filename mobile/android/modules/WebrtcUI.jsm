@@ -28,7 +28,7 @@ WebrtcUI
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -33,7 +33,7 @@ TRANSACTIONS_QUEUE_TIMEOUT_MS
 =
 240000
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -52,7 +52,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

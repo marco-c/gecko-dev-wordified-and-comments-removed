@@ -75,9 +75,7 @@ works
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -22,9 +22,7 @@ tgt_check
 const
 a
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -45,9 +43,7 @@ tgt_load
 const
 b
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

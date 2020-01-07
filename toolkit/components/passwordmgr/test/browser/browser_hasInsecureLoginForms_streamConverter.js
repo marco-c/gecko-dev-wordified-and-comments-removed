@@ -1,4 +1,4 @@
-Cu
+ChromeUtils
 .
 import
 (
@@ -23,7 +23,7 @@ registerConverter
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -43,7 +43,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

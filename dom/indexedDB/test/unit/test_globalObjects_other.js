@@ -43,7 +43,7 @@ uri
 spec
 ;
 }
-Cu
+ChromeUtils
 .
 import
 (

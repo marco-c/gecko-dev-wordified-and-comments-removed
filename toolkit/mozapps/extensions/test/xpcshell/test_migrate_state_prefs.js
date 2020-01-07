@@ -30,9 +30,7 @@ getXS
 let
 XPI
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -12,9 +12,7 @@ gContentAPI
 var
 gContentWindow
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -33,9 +31,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

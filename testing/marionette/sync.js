@@ -24,7 +24,7 @@ error
 TimeoutError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

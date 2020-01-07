@@ -6,7 +6,7 @@ testnum
 var
 dbConnection
 ;
-Cu
+ChromeUtils
 .
 import
 (

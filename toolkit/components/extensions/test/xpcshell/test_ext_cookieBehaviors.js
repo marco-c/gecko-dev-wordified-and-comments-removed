@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -22,7 +22,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -818,7 +818,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
