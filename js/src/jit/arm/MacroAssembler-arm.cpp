@@ -1452,7 +1452,7 @@ as_nop
 )
 ;
 }
-void
+BufferOffset
 MacroAssemblerARM
 :
 :
@@ -1483,6 +1483,9 @@ HasMOVWT
 )
 )
 {
+BufferOffset
+offset
+=
 as_movw
 (
 dest
@@ -1510,9 +1513,13 @@ imm
 c
 )
 ;
+return
+offset
+;
 }
 else
 {
+return
 as_Imm32Pool
 (
 dest
@@ -1522,7 +1529,7 @@ c
 ;
 }
 }
-void
+BufferOffset
 MacroAssemblerARM
 :
 :
@@ -1539,6 +1546,7 @@ Condition
 c
 )
 {
+return
 ma_movPatchable
 (
 Imm32
@@ -1965,11 +1973,9 @@ Register
 dest
 )
 {
-writeDataRelocation
-(
-ptr
-)
-;
+BufferOffset
+offset
+=
 ma_movPatchable
 (
 Imm32
@@ -1983,6 +1989,12 @@ value
 )
 dest
 Always
+)
+;
+writeDataRelocation
+(
+offset
+ptr
 )
 ;
 }
