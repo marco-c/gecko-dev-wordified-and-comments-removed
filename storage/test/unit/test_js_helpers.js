@@ -370,6 +370,9 @@ savedOffRow
 string
 ;
 }
+/
+NS_ERROR_NOT_INITIALIZED
+/
 "
 GC
 '

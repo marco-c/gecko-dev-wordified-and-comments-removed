@@ -5427,6 +5427,9 @@ executeAsync
 (
 badStmt
 )
+Ci
+.
+mozIStorageError
 )
 ;
 badStmt
