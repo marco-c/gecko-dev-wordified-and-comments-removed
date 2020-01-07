@@ -456,6 +456,13 @@ content
 /
 global
 /
+widgets
+.
+css
+content
+/
+global
+/
 bindings
 /
 autocomplete
@@ -1020,6 +1027,7 @@ toolbarbutton
 .
 xml
 )
+*
 content
 /
 global
