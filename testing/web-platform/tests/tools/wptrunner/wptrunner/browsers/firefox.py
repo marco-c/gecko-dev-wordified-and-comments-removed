@@ -296,6 +296,23 @@ asan
 )
 :
         
+if
+run_info_data
+.
+get
+(
+"
+ccov
+"
+)
+:
+            
+return
+4
+        
+else
+:
+            
 return
 3
     
