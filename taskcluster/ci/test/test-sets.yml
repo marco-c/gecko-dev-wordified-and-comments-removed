@@ -626,6 +626,8 @@ qr
 tests
 :
 -
+crashtest
+-
 mochitest
 -
 gpu
