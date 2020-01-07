@@ -385,6 +385,17 @@ content
 /
 test
 /
+sanitize
+/
+browser
+.
+ini
+'
+'
+content
+/
+test
+/
 sidebar
 /
 browser
