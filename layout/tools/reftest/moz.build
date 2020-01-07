@@ -200,13 +200,6 @@ output
 py
 '
 '
-reftest
--
-preferences
-.
-js
-'
-'
 reftestcommandline
 .
 py
