@@ -27,6 +27,13 @@ nsCSSValue
 .
 h
 "
+#
+include
+"
+StyleBackendType
+.
+h
+"
 class
 nsAttrValue
 ;
@@ -47,6 +54,8 @@ protected
 explicit
 GenericSpecifiedValues
 (
+StyleBackendType
+aType
 nsIDocument
 *
 aDoc
@@ -54,6 +63,10 @@ uint32_t
 aSIDs
 )
 :
+mType
+(
+aType
+)
 mDocument
 (
 aDoc
@@ -467,6 +480,13 @@ nsAttrValue
 &
 value
 )
+;
+const
+mozilla
+:
+:
+StyleBackendType
+mType
 ;
 nsIDocument
 *
