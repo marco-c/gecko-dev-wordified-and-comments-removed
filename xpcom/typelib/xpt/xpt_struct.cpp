@@ -1325,7 +1325,7 @@ cursor
 cd
 -
 >
-name
+mName
 )
 |
 |
@@ -1338,7 +1338,7 @@ cursor
 cd
 -
 >
-type
+mType
 id
 )
 )
@@ -1352,7 +1352,7 @@ switch
 cd
 -
 >
-type
+mType
 .
 Tag
 (
@@ -1375,7 +1375,7 @@ uint16_t
 cd
 -
 >
-value
+mValue
 .
 i16
 )
@@ -1398,7 +1398,7 @@ uint32_t
 cd
 -
 >
-value
+mValue
 .
 i32
 )
@@ -1417,7 +1417,7 @@ cursor
 cd
 -
 >
-value
+mValue
 .
 ui16
 )
@@ -1436,7 +1436,7 @@ cursor
 cd
 -
 >
-value
+mValue
 .
 ui32
 )
@@ -1756,7 +1756,7 @@ cursor
 td
 -
 >
-prefix
+mPrefix
 )
 )
 {
@@ -1798,9 +1798,9 @@ td
 >
 u
 .
-iface
+mIface
 .
-iface_hi8
+mIfaceHi8
 =
 (
 iface
@@ -1816,9 +1816,9 @@ td
 >
 u
 .
-iface
+mIface
 .
-iface_lo8
+mIfaceLo8
 =
 iface
 &
@@ -1841,9 +1841,9 @@ td
 >
 u
 .
-interface_is
+mInterfaceIs
 .
-argnum
+mArgNum
 )
 )
 return
@@ -1872,9 +1872,9 @@ td
 >
 u
 .
-array
+mArray
 .
-argnum
+mArgNum
 )
 |
 |
@@ -1926,9 +1926,9 @@ td
 >
 u
 .
-array
+mArray
 .
-additional_type
+mAdditionalType
 =
 id
 -
@@ -1964,9 +1964,9 @@ td
 >
 u
 .
-pstring_is
+mPStringIs
 .
-argnum
+mArgNum
 )
 |
 |
