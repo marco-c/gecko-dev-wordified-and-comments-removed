@@ -2151,7 +2151,7 @@ selector
 =
 nodeSelectors
 .
-pop
+shift
 (
 )
 ;

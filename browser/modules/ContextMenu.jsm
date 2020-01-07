@@ -2708,7 +2708,7 @@ aNode
 {
 selectors
 .
-push
+unshift
 (
 findCssSelector
 (
