@@ -1,9 +1,9 @@
 #
 ifndef
-jsopcode_h
+vm_BytecodeUtil_h
 #
 define
-jsopcode_h
+vm_BytecodeUtil_h
 #
 include
 "

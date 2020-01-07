@@ -100,7 +100,11 @@ h
 #
 include
 "
-jsopcodeinlines
+vm
+/
+BytecodeUtil
+-
+inl
 .
 h
 "
