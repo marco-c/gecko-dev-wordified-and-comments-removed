@@ -173,6 +173,16 @@ pem
 '
 intermediate
 -
+other
+-
+crossigned
+.
+pem
+'
+#
+'
+intermediate
+-
 whitelisted
 .
 pem
