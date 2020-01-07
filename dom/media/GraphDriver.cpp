@@ -3020,6 +3020,12 @@ cubebContext
 mOutputChannels
 )
 ;
+output
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 Maybe
 <
 uint32_t
