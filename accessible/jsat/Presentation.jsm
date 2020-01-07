@@ -761,6 +761,7 @@ aObject
 )
 {
 return
+[
 "
 todo
 .
@@ -768,6 +769,7 @@ selection
 -
 changed
 "
+]
 ;
 }
 nameChanged
@@ -776,6 +778,7 @@ aAccessible
 )
 {
 return
+[
 "
 todo
 .
@@ -783,6 +786,7 @@ name
 -
 changed
 "
+]
 ;
 }
 valueChanged
@@ -791,6 +795,7 @@ aAccessible
 )
 {
 return
+[
 "
 todo
 .
@@ -798,6 +803,7 @@ value
 -
 changed
 "
+]
 ;
 }
 tabStateChanged
