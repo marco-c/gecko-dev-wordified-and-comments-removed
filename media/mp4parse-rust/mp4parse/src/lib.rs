@@ -7722,12 +7722,13 @@ remains
 data
 ;
 while
-!
 remains
 .
-is_empty
+len
 (
 )
+>
+2
 {
 let
 des
