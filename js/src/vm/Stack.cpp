@@ -6510,7 +6510,7 @@ CanReuseScriptForClone
 fun
 -
 >
-compartment
+realm
 (
 )
 currentCallee

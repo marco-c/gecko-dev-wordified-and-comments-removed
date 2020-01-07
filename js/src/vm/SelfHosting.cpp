@@ -19029,7 +19029,7 @@ CanReuseScriptForClone
 cx
 -
 >
-compartment
+realm
 (
 )
 selfHostedFunction

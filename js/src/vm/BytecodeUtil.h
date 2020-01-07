@@ -3236,7 +3236,7 @@ endif
 extern
 MOZ_MUST_USE
 bool
-DumpCompartmentPCCounts
+DumpRealmPCCounts
 (
 JSContext
 *

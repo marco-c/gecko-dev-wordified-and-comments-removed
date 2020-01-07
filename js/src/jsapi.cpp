@@ -17714,7 +17714,7 @@ CanReuseScriptForClone
 cx
 -
 >
-compartment
+realm
 (
 )
 fun
@@ -23616,7 +23616,7 @@ if
 script
 -
 >
-compartment
+realm
 (
 )
 !
@@ -23624,7 +23624,7 @@ compartment
 cx
 -
 >
-compartment
+realm
 (
 )
 )
@@ -23720,7 +23720,7 @@ if
 script
 -
 >
-compartment
+realm
 (
 )
 !
@@ -23728,7 +23728,7 @@ compartment
 cx
 -
 >
-compartment
+realm
 (
 )
 )

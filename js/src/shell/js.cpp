@@ -52829,7 +52829,7 @@ if
 js
 :
 :
-DumpCompartmentPCCounts
+DumpRealmPCCounts
 (
 cx
 )

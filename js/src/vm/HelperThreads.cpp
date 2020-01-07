@@ -9561,11 +9561,6 @@ script
 )
 -
 >
-compartment
-(
-)
--
->
 runtimeFromAnyThread
 (
 )

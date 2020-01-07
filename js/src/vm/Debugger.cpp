@@ -12043,11 +12043,6 @@ script
 )
 -
 >
-compartment
-(
-)
--
->
 zone
 (
 )
@@ -12224,11 +12219,6 @@ override
 {
 return
 script_
--
->
-compartment
-(
-)
 -
 >
 zone
@@ -12597,11 +12587,6 @@ scripts
 MOZ_ASSERT
 (
 script
--
->
-compartment
-(
-)
 -
 >
 zone

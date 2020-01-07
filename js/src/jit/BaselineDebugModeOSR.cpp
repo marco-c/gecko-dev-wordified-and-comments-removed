@@ -3602,11 +3602,6 @@ if
 script
 -
 >
-compartment
-(
-)
--
->
 zone
 (
 )
