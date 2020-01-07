@@ -8192,7 +8192,7 @@ for
 (
 Shape
 *
-shape
+shapeToClone
 :
 shapes
 )
@@ -8206,7 +8206,7 @@ child
 cx
 StackShape
 (
-shape
+shapeToClone
 )
 )
 ;
