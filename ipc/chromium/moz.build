@@ -339,15 +339,6 @@ src
 /
 base
 /
-cpu
-.
-cc
-'
-'
-src
-/
-base
-/
 file_util_win
 .
 cc
