@@ -323,6 +323,17 @@ PostRestyleForThrottledAnimations
 (
 )
 ;
+void
+ClearRestyleRequestsFor
+(
+dom
+:
+:
+Element
+*
+aElement
+)
+;
 template
 <
 typename
