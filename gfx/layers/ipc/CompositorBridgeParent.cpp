@@ -4840,6 +4840,11 @@ mApzcTreeManager
 ;
 MOZ_ASSERT
 (
+mApzSampler
+)
+;
+MOZ_ASSERT
+(
 !
 aLayersId
 .
@@ -4898,6 +4903,7 @@ APZCTreeManagerParent
 (
 mRootLayerTreeID
 mApzcTreeManager
+mApzSampler
 )
 ;
 return
@@ -4960,6 +4966,11 @@ mApzcTreeManager
 ;
 MOZ_ASSERT
 (
+mApzSampler
+)
+;
+MOZ_ASSERT
+(
 !
 aState
 .
@@ -4975,6 +4986,7 @@ APZCTreeManagerParent
 (
 aLayersId
 mApzcTreeManager
+mApzSampler
 )
 ;
 }
@@ -7793,6 +7805,7 @@ parent
 ChildAdopted
 (
 mApzcTreeManager
+mApzSampler
 )
 ;
 }
