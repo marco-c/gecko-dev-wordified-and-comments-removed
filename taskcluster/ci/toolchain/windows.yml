@@ -116,7 +116,7 @@ run
 -
 time
 :
-36000
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -290,7 +290,7 @@ run
 -
 time
 :
-36000
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -472,7 +472,7 @@ run
 -
 time
 :
-36000
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -660,7 +660,7 @@ run
 -
 time
 :
-36000
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -867,7 +867,7 @@ run
 -
 time
 :
-36000
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -1549,7 +1549,7 @@ run
 -
 time
 :
-36000
+3600
 env
 :
 TOOLTOOL_MANIFEST
@@ -1823,7 +1823,7 @@ run
 -
 time
 :
-36000
+3600
 env
 :
 TOOLTOOL_MANIFEST

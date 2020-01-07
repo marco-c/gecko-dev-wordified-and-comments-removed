@@ -612,7 +612,7 @@ run
 -
 time
 :
-36000
+3600
 env
 :
 TOOLTOOL_MANIFEST
@@ -833,7 +833,7 @@ run
 -
 time
 :
-36000
+3600
 run
 :
 using
@@ -1010,7 +1010,7 @@ run
 -
 time
 :
-36000
+3600
 run
 :
 using
@@ -1180,7 +1180,7 @@ run
 -
 time
 :
-36000
+3600
 run
 :
 using
@@ -1345,7 +1345,7 @@ run
 -
 time
 :
-36000
+3600
 run
 :
 using
@@ -1793,7 +1793,7 @@ run
 -
 time
 :
-36000
+3600
 run
 :
 using
@@ -1902,7 +1902,7 @@ run
 -
 time
 :
-36000
+1800
 run
 :
 using
@@ -2014,7 +2014,7 @@ run
 -
 time
 :
-36000
+1800
 run
 :
 using
@@ -2148,7 +2148,7 @@ run
 -
 time
 :
-36000
+1800
 run
 :
 using
@@ -2263,7 +2263,7 @@ run
 -
 time
 :
-36000
+1800
 artifacts
 :
 -
@@ -2638,7 +2638,7 @@ run
 -
 time
 :
-36000
+1800
 run
 :
 using
@@ -3527,7 +3527,7 @@ run
 -
 time
 :
-36000
+1800
 run
 :
 using
@@ -3759,7 +3759,7 @@ run
 -
 time
 :
-36000
+1800
 run
 :
 using

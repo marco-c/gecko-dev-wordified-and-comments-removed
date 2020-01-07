@@ -197,7 +197,7 @@ run
 -
 time
 :
-36000
+3600
 env
 :
 PERFHERDER_EXTRA_OPTIONS

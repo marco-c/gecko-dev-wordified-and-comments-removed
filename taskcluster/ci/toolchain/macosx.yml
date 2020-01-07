@@ -141,7 +141,7 @@ run
 -
 time
 :
-36000
+3600
 env
 :
 TOOLTOOL_MANIFEST
@@ -345,7 +345,7 @@ run
 -
 time
 :
-36000
+3600
 env
 :
 TOOLTOOL_MANIFEST
@@ -545,7 +545,7 @@ run
 -
 time
 :
-36000
+1800
 env
 :
 TOOLTOOL_MANIFEST
@@ -690,7 +690,7 @@ run
 -
 time
 :
-36000
+1800
 env
 :
 TOOLTOOL_MANIFEST
