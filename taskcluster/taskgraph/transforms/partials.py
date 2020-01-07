@@ -879,6 +879,30 @@ SHA384_SIGNING_CERT
 '
 nightly_sha384
 '
+                
+'
+DATADOG_API_SECRET
+'
+:
+'
+project
+/
+releng
+/
+gecko
+/
+build
+/
+level
+-
+3
+/
+datadog
+-
+api
+-
+key
+'
             
 }
         
