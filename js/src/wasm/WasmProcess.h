@@ -92,11 +92,6 @@ CodeSegment
 cs
 )
 ;
-bool
-Init
-(
-)
-;
 void
 ShutDown
 (
