@@ -218,7 +218,7 @@ formValue
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

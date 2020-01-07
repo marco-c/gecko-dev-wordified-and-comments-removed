@@ -114,8 +114,9 @@ getTabState
 tab
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -273,8 +274,9 @@ used
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

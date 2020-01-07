@@ -757,8 +757,9 @@ length
 1
 )
 {
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 gBrowser
 .

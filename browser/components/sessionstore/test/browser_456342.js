@@ -213,7 +213,7 @@ expectedValue
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

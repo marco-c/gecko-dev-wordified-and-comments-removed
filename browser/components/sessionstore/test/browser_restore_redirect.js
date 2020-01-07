@@ -185,8 +185,9 @@ cleared
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -419,8 +420,9 @@ cleared
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

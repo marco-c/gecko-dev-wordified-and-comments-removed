@@ -91,7 +91,7 @@ position
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab1
 )

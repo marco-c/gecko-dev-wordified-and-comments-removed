@@ -50,7 +50,7 @@ linkedBrowser
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -201,7 +201,7 @@ title
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

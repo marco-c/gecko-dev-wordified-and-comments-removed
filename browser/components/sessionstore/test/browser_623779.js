@@ -54,8 +54,9 @@ tab
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 newTab
 )

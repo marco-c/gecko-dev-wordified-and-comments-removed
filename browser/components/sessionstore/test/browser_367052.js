@@ -180,7 +180,7 @@ whatsoever
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

@@ -71,7 +71,7 @@ OnHistoryReplaceEntry
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

@@ -486,13 +486,13 @@ restored
 ;
 }
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab2
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -581,8 +581,9 @@ discarded
 ;
 }
 }
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

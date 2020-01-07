@@ -504,13 +504,13 @@ newWin
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 newTab1
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 newTab2
 )

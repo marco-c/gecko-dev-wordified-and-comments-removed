@@ -439,7 +439,7 @@ blank
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -526,7 +526,7 @@ remote
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -606,7 +606,7 @@ remote
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -743,7 +743,7 @@ remote
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -862,7 +862,7 @@ browser
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -965,7 +965,7 @@ snippet
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1050,7 +1050,7 @@ remote
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1093,8 +1093,9 @@ closed
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -1148,7 +1149,7 @@ remote
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

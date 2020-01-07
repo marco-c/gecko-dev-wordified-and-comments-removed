@@ -512,8 +512,9 @@ cleared
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 gBrowser
 .

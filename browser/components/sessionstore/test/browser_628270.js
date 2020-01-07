@@ -139,7 +139,7 @@ hidden
 "
 )
 ;
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
