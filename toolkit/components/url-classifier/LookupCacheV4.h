@@ -167,6 +167,11 @@ const
 int
 VER
 ;
+static
+const
+uint32_t
+MAX_METADATA_VALUE_LENGTH
+;
 protected
 :
 virtual

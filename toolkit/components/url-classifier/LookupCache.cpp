@@ -340,7 +340,15 @@ LOG
 "
 Loading
 PrefixSet
+for
+%
+s
 "
+mTableName
+.
+get
+(
+)
 )
 )
 ;
