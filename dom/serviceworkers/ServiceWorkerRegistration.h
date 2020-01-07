@@ -171,15 +171,12 @@ aRv
 0
 ;
 virtual
-already_AddRefed
+RefPtr
 <
-Promise
+GenericPromise
 >
 Unregister
 (
-ErrorResult
-&
-aRv
 )
 =
 0
