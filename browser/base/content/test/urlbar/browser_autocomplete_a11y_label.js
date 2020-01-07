@@ -165,15 +165,8 @@ let
 engine
 =
 await
-SearchTestUtils
-.
 promiseNewSearchEngine
 (
-getRootDirectory
-(
-gTestPath
-)
-+
 TEST_ENGINE_BASENAME
 )
 ;
