@@ -5,6 +5,11 @@ OuterDocAccessible
 )
 XULMAP_TYPE
 (
+button
+XULButtonAccessible
+)
+XULMAP_TYPE
+(
 checkbox
 XULCheckboxAccessible
 )
@@ -172,6 +177,11 @@ XULMAP_TYPE
 (
 toolbar
 XULToolbarAccessible
+)
+XULMAP_TYPE
+(
+toolbarbutton
+XULToolbarButtonAccessible
 )
 XULMAP_TYPE
 (

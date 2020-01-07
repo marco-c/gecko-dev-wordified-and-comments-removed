@@ -166,13 +166,6 @@ xml
 #
 basetext
 "
-role
-=
-"
-xul
-:
-button
-"
 >
 <
 implementation

@@ -152,13 +152,6 @@ xul
 :
 button
 "
-role
-=
-"
-xul
-:
-toolbarbutton
-"
 extends
 =
 "
