@@ -210,6 +210,10 @@ cmake
 -
 deb7
 -
+mercurial
+-
+deb7
+-
 ninja
 -
 deb7
