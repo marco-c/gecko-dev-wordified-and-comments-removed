@@ -83,6 +83,7 @@ aesgcm
 dsa
 ecdsa
 hmac
+kas
 tls
 rng
 rsa

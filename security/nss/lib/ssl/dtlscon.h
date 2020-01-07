@@ -121,7 +121,7 @@ dtls_QueueMessage
 sslSocket
 *
 ss
-SSL3ContentType
+SSLContentType
 type
 const
 PRUint8

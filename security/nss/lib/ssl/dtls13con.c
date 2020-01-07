@@ -111,7 +111,7 @@ rv
 sslBuffer_AppendNumber
 (
 wrBuf
-content_application_data
+ssl_ct_application_data
 1
 )
 ;
@@ -665,7 +665,7 @@ ssl3_SendRecord
 (
 ss
 NULL
-content_ack
+ssl_ct_ack
 buf
 .
 buf
@@ -1415,7 +1415,7 @@ const
 ssl3CipherSpec
 *
 spec
-SSL3ContentType
+SSLContentType
 rType
 sslBuffer
 *
@@ -1528,7 +1528,7 @@ if
 rType
 =
 =
-content_ack
+ssl_ct_ack
 )
 {
 ssl_GetSSL3HandshakeLock
@@ -1587,7 +1587,7 @@ if
 rType
 =
 =
-content_handshake
+ssl_ct_handshake
 )
 {
 if

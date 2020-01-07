@@ -174,7 +174,7 @@ content_type
 )
 !
 =
-kTlsApplicationDataType
+ssl_ct_application_data
 )
 {
 return
@@ -920,7 +920,7 @@ content_type
 )
 !
 =
-kTlsApplicationDataType
+ssl_ct_application_data
 )
 {
 return
@@ -1227,7 +1227,7 @@ content_type
 )
 !
 =
-kTlsApplicationDataType
+ssl_ct_application_data
 )
 {
 return
@@ -1263,7 +1263,7 @@ if
 inner_content_type
 !
 =
-kTlsApplicationDataType
+ssl_ct_application_data
 )
 {
 return

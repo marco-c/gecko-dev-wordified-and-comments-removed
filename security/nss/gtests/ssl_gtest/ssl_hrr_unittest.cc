@@ -378,7 +378,7 @@ content_type
 )
 !
 =
-content_handshake
+ssl_ct_handshake
 )
 {
 return
@@ -5232,7 +5232,7 @@ seq_num
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 hrr
 .

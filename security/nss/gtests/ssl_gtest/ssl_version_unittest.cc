@@ -695,7 +695,7 @@ TlsAgentTestBase
 MakeRecord
 (
 variant_
-kTlsAlertType
+ssl_ct_alert
 SSL_LIBRARY_VERSION_TLS_1_0
 kWarningAlert
 PR_ARRAY_SIZE

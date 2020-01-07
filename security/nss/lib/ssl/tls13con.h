@@ -58,7 +58,7 @@ cText
 sslBuffer
 *
 plaintext
-SSL3ContentType
+SSLContentType
 *
 innerType
 SSL3AlertDescription
@@ -268,7 +268,7 @@ tls13_LimitEarlyData
 sslSocket
 *
 ss
-SSL3ContentType
+SSLContentType
 type
 PRInt32
 toSend
@@ -448,7 +448,7 @@ ss
 ssl3CipherSpec
 *
 cwSpec
-SSL3ContentType
+SSLContentType
 type
 const
 PRUint8

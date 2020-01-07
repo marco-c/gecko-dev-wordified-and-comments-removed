@@ -325,7 +325,7 @@ content_type
 )
 !
 =
-kTlsAlertType
+ssl_ct_alert
 )
 {
 return
@@ -2034,11 +2034,13 @@ content_type
 )
 !
 =
-kTlsChangeCipherSpecType
+ssl_ct_change_cipher_spec
 )
+{
 return
 KEEP
 ;
+}
 std
 :
 :
@@ -2091,7 +2093,7 @@ record_header
 version
 (
 )
-kTlsHandshakeType
+ssl_ct_handshake
 0
 )
 ;

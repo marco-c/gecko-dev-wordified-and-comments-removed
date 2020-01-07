@@ -448,7 +448,7 @@ i
 EXPECT_EQ
 (
 expected_match
-kTlsChangeCipherSpecType
+ssl_ct_change_cipher_spec
 =
 =
 records_
@@ -1478,7 +1478,7 @@ kCannedCcs
 ]
 =
 {
-kTlsChangeCipherSpecType
+ssl_ct_change_cipher_spec
 SSL_LIBRARY_VERSION_TLS_1_2
 >
 >
@@ -1762,7 +1762,7 @@ count
 ;
 EXPECT_EQ
 (
-kTlsHandshakeType
+ssl_ct_handshake
 client_records
 -
 >
@@ -1780,7 +1780,7 @@ content_type
 ;
 EXPECT_EQ
 (
-kTlsApplicationDataType
+ssl_ct_application_data
 client_records
 -
 >
@@ -1809,7 +1809,7 @@ count
 ;
 EXPECT_EQ
 (
-kTlsHandshakeType
+ssl_ct_handshake
 server_records
 -
 >
@@ -1848,7 +1848,7 @@ i
 {
 EXPECT_EQ
 (
-kTlsApplicationDataType
+ssl_ct_application_data
 server_records
 -
 >
@@ -2126,7 +2126,7 @@ count
 ;
 EXPECT_EQ
 (
-kTlsHandshakeType
+ssl_ct_handshake
 client_records
 -
 >
@@ -2155,7 +2155,7 @@ count
 ;
 EXPECT_EQ
 (
-kTlsHandshakeType
+ssl_ct_handshake
 server_records
 -
 >
@@ -2194,7 +2194,7 @@ i
 {
 EXPECT_EQ
 (
-kTlsApplicationDataType
+ssl_ct_application_data
 server_records
 -
 >

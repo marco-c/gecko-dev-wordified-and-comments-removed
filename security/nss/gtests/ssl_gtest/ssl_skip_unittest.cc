@@ -98,7 +98,7 @@ content_type
 )
 !
 =
-kTlsHandshakeType
+ssl_ct_handshake
 )
 {
 return

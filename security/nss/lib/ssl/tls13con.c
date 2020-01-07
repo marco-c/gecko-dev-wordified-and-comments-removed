@@ -22469,7 +22469,7 @@ tls13_LimitEarlyData
 sslSocket
 *
 ss
-SSL3ContentType
+SSLContentType
 type
 PRInt32
 toSend
@@ -22483,7 +22483,7 @@ PORT_Assert
 type
 =
 =
-content_application_data
+ssl_ct_application_data
 )
 ;
 PORT_Assert
@@ -22595,7 +22595,7 @@ ss
 ssl3CipherSpec
 *
 cwSpec
-SSL3ContentType
+SSLContentType
 type
 const
 PRUint8
@@ -22827,7 +22827,7 @@ ssl_InsertRecordHeader
 (
 ss
 cwSpec
-content_application_data
+ssl_ct_application_data
 &
 buf
 &
@@ -23016,7 +23016,7 @@ cText
 sslBuffer
 *
 plaintext
-SSL3ContentType
+SSLContentType
 *
 innerType
 SSL3AlertDescription
@@ -23199,7 +23199,7 @@ hdr
 ]
 =
 =
-content_application_data
+ssl_ct_application_data
 |
 |
 (
@@ -23634,7 +23634,7 @@ SECFailure
 innerType
 =
 (
-SSL3ContentType
+SSLContentType
 )
 plaintext
 -
@@ -23671,7 +23671,7 @@ TrafficKeyEarlyApplicationData
 innerType
 =
 =
-content_application_data
+ssl_ct_application_data
 )
 {
 if

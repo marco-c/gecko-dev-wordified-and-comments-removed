@@ -554,12 +554,12 @@ content_type
 )
 !
 =
-kTlsHandshakeType
+ssl_ct_handshake
 )
 {
 EXPECT_EQ
 (
-kTlsChangeCipherSpecType
+ssl_ct_change_cipher_spec
 header
 .
 content_type

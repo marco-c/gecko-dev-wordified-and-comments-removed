@@ -81,7 +81,7 @@ const
 ssl3CipherSpec
 *
 spec
-SSL3ContentType
+SSLContentType
 rType
 sslBuffer
 *

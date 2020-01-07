@@ -597,7 +597,7 @@ TlsRecordRecorder
 >
 (
 agent
-content_ack
+ssl_ct_ack
 )
 ;
 ack_
@@ -3328,7 +3328,7 @@ SendEncryptedRecord
 (
 spec
 0x0002000000000002
-kTlsApplicationDataType
+ssl_ct_application_data
 DataBuffer
 (
 buf
@@ -3508,7 +3508,7 @@ SendEncryptedRecord
 (
 spec
 0x0002000000000002
-kTlsHandshakeType
+ssl_ct_handshake
 DataBuffer
 (
 buf
@@ -4673,7 +4673,7 @@ header
 version
 (
 )
-kTlsApplicationDataType
+ssl_ct_application_data
 header
 .
 sequence_number

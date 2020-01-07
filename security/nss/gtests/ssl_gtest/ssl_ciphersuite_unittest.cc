@@ -1268,7 +1268,7 @@ TlsAgentTestBase
 MakeRecord
 (
 variant_
-kTlsApplicationDataType
+ssl_ct_application_data
 version_
 payload
 sizeof
