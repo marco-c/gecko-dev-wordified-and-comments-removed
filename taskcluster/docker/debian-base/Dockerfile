@@ -492,6 +492,14 @@ python3
 -
 minimal
 \
+python
+-
+zstandard
+\
+python3
+-
+zstandard
+\
 xz
 -
 utils

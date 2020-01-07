@@ -248,6 +248,12 @@ defaults
 -
 deb7
 -
+python
+-
+zstandard
+-
+deb7
+-
 xz
 -
 utils
@@ -434,6 +440,12 @@ packages
 deb9
 -
 mercurial
+-
+deb9
+-
+python
+-
+zstandard
 android
 -
 build
