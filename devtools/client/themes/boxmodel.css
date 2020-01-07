@@ -1378,6 +1378,12 @@ select
 :
 none
 ;
+white
+-
+space
+:
+nowrap
+;
 }
 .
 boxmodel
