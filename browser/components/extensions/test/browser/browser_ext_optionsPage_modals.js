@@ -290,8 +290,11 @@ onModalDialog
 true
 )
 ;
-resolve
+SimpleTest
+.
+executeSoon
 (
+resolve
 )
 ;
 }
