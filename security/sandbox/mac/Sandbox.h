@@ -150,6 +150,9 @@ hasFilePrivileges
 bool
 hasSandboxedProfile
 ;
+bool
+hasAudio
+;
 MacSandboxPluginInfo
 pluginInfo
 ;
