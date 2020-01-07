@@ -903,7 +903,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 )
 include
 test262
@@ -916,7 +916,7 @@ Array
 /
 prototype
 /
-flatten
+flat
 /
 jstests
 .
