@@ -83,7 +83,9 @@ generics
 counters
 :
 :
-CounterPair
+CounterIncrement
+as
+GenericCounterIncrement
 ;
 use
 values
@@ -95,9 +97,7 @@ generics
 counters
 :
 :
-CounterIncrement
-as
-GenericCounterIncrement
+CounterPair
 ;
 use
 values
