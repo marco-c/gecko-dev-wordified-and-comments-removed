@@ -386,17 +386,6 @@ aCounterDesc
 )
 ;
 static
-bool
-GetColorName
-(
-int32_t
-aPropID
-nsCString
-&
-aStr
-)
-;
-static
 int32_t
 FindIndexOfKeyword
 (
