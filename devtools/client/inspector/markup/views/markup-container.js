@@ -2152,6 +2152,15 @@ node
 parentNode
 (
 )
+&
+&
+this
+.
+node
+.
+parentNode
+(
+)
 .
 tagName
 !
