@@ -270,9 +270,6 @@ double
 z
 )
 ;
-bool
-mEnabled
-;
 inline
 bool
 IsSensorEnabled
@@ -296,8 +293,10 @@ Length
 ;
 }
 bool
-AreSensorEventsDisabled
+IsSensorAllowedByPref
 (
+uint32_t
+aType
 nsIDOMWindow
 *
 aWindow
