@@ -628,7 +628,7 @@ listener
 {
 QueryInterface
 :
-_XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -853,7 +853,7 @@ prototype
 {
 QueryInterface
 :
-_XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1326,7 +1326,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 QueryInterface
 :
-_XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5580,7 +5580,7 @@ null
 }
 QueryInterface
 :
-_XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

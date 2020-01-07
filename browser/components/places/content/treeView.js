@@ -250,7 +250,7 @@ __xulStore
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

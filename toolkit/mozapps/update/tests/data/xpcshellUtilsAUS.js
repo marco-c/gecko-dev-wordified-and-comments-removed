@@ -18574,7 +18574,7 @@ spidermonkey
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
