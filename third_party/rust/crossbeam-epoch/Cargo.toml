@@ -124,7 +124,7 @@ version
 .
 3
 .
-0
+1
 "
 authors
 =
@@ -304,9 +304,11 @@ lazy_static
 version
 =
 "
+1
+.
 0
 .
-2
+0
 "
 optional
 =
