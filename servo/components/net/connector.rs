@@ -335,17 +335,7 @@ unwrap
 (
 )
 ;
-{
-let
-context
-=
 ssl_connector_builder
-.
-builder_mut
-(
-)
-;
-context
 .
 set_ca_file
 (
@@ -363,7 +353,7 @@ file
 "
 )
 ;
-context
+ssl_connector_builder
 .
 set_cipher_list
 (
@@ -380,7 +370,7 @@ ciphers
 "
 )
 ;
-context
+ssl_connector_builder
 .
 set_options
 (
@@ -391,7 +381,6 @@ SSL_OP_NO_SSLV3
 SSL_OP_NO_COMPRESSION
 )
 ;
-}
 let
 ssl_connector
 =

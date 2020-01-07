@@ -183,9 +183,6 @@ packages
 bitflags
 "
 "
-lazy_static
-"
-"
 winapi
 "
 "
