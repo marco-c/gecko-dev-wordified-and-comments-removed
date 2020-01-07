@@ -86,6 +86,9 @@ ComputedFlexItemInfo
 mItems
 ;
 nscoord
+mCrossStart
+;
+nscoord
 mCrossSize
 ;
 nscoord
