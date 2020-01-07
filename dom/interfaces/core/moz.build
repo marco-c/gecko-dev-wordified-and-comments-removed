@@ -109,11 +109,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMDocument
-.
-idl
-'
-'
 nsIDOMNode
 .
 idl

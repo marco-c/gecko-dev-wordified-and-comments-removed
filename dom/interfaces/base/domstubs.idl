@@ -137,9 +137,6 @@ nsViewID
 /
 Core
 interface
-nsIDOMDocument
-;
-interface
 nsIDOMNode
 ;
 /

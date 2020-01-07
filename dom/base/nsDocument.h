@@ -70,7 +70,7 @@ h
 #
 include
 "
-nsIDOMDocument
+nsIDOMNode
 .
 h
 "
@@ -575,7 +575,7 @@ nsDocument
 public
 nsIDocument
 public
-nsIDOMDocument
+nsIDOMNode
 public
 nsSupportsWeakReference
 public

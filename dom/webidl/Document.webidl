@@ -2735,7 +2735,8 @@ documentURL
 ;
 /
 /
-nsIDOMDocumentTouch
+Touch
+bits
 /
 /
 XXXbz
