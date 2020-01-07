@@ -418,7 +418,6 @@ GetCurrentTime
 (
 )
 ;
-virtual
 void
 Seek
 (
