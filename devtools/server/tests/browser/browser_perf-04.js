@@ -132,7 +132,7 @@ startProfiler
 is
 (
 features
-0x82
+0x102
 "
 Should
 apply
