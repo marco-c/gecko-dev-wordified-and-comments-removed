@@ -19512,8 +19512,13 @@ dragend
 this
 )
 ;
-resolve
+Services
+.
+tm
+.
+dispatchToMainThread
 (
+resolve
 )
 ;
 }
