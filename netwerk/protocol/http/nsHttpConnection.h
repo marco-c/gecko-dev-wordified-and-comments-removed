@@ -1272,6 +1272,9 @@ private
 TimingStruct
 mBootstrappedTimings
 ;
+bool
+mBootstrappedTimingsSet
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
