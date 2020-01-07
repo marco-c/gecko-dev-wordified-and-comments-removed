@@ -2927,7 +2927,7 @@ swm
 >
 MaybeClaimClient
 (
-doc
+mClientInfo
 swd
 )
 ;
