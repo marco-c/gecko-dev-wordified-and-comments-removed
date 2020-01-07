@@ -35675,9 +35675,6 @@ note
 this
 )
 {
-js
-:
-:
 UniquePtr
 <
 JSErrorNotes
@@ -35686,7 +35683,7 @@ JSErrorNotes
 Note
 >
 copied
-(
+=
 CopyErrorNote
 (
 cx
@@ -35694,7 +35691,6 @@ note
 .
 get
 (
-)
 )
 )
 ;
