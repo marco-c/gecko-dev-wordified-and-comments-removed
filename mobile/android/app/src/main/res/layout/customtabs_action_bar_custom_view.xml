@@ -412,7 +412,7 @@ android
 ellipsize
 =
 "
-middle
+start
 "
 android
 :
