@@ -234,7 +234,6 @@ existing
 layer
 implementations
 (
-TransportLayerPrsock
 TransportLayerIce
 TransportLayerLoopback
 )
@@ -312,15 +311,6 @@ RFC
 stack
 .
 *
-Prsock
--
--
-a
-wrapper
-around
-NSPR
-sockets
-*
 Loopback
 -
 -
@@ -341,7 +331,7 @@ its
 data
 The
 last
-three
+two
 are
 primarily
 for

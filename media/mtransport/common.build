@@ -188,11 +188,6 @@ transportlayerloopback
 .
 cpp
 '
-'
-transportlayerprsock
-.
-cpp
-'
 ]
 mtransport_cppsrcs
 =
