@@ -174,9 +174,6 @@ giovfs
 )
 return
 ;
-nsAutoCString
-name
-;
 nsCOMPtr
 <
 nsIGIOMimeApp
@@ -207,12 +204,6 @@ app
 >
 GetName
 (
-name
-)
-;
-CopyUTF8toUTF16
-(
-name
 aDesc
 )
 ;
@@ -355,7 +346,7 @@ mimeInfo
 nullptr
 )
 ;
-nsAutoCString
+nsAutoString
 name
 ;
 nsAutoCString
@@ -436,10 +427,7 @@ mimeInfo
 >
 SetDefaultDescription
 (
-NS_ConvertUTF8toUTF16
-(
 name
-)
 )
 ;
 mimeInfo
