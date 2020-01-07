@@ -397,6 +397,10 @@ artifact
 toolchain
 -
 v
+{
+TOOLTOOL_MANIFEST
+:
++
 -
 -
 tooltool
@@ -422,6 +426,7 @@ manifest
 GECKO_DIR
 /
 TOOLTOOL_MANIFEST
+}
 -
 -
 cache
