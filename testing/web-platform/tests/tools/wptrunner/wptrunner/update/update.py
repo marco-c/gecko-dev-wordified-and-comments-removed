@@ -17,13 +17,6 @@ GitTree
 HgTree
 NoVCSTree
 from
-.
-.
-import
-environment
-as
-env
-from
 base
 import
 Step
