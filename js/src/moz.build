@@ -3059,13 +3059,6 @@ cpp
 '
 wasm
 /
-WasmBinaryIterator
-.
-cpp
-'
-'
-wasm
-/
 WasmBinaryToAST
 .
 cpp
@@ -3151,6 +3144,13 @@ cpp
 wasm
 /
 WasmModule
+.
+cpp
+'
+'
+wasm
+/
+WasmOpIter
 .
 cpp
 '

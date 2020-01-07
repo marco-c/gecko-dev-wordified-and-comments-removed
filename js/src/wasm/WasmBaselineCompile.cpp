@@ -256,7 +256,7 @@ include
 "
 wasm
 /
-WasmBinaryIterator
+WasmGenerator
 .
 h
 "
@@ -265,7 +265,7 @@ include
 "
 wasm
 /
-WasmGenerator
+WasmOpIter
 .
 h
 "
