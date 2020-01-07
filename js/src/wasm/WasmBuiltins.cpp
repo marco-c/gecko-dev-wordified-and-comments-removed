@@ -2325,11 +2325,9 @@ return
 pf
 ;
 }
+static
 void
 *
-wasm
-:
-:
 AddressOf
 (
 SymbolicAddress

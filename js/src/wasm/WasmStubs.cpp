@@ -2433,9 +2433,6 @@ SymbolicAddress
 sym
 )
 {
-ABIFunctionType
-_
-;
 if
 (
 isAbsolute
@@ -2446,11 +2443,9 @@ call
 (
 ImmPtr
 (
-AddressOf
+SymbolicAddressTarget
 (
 sym
-&
-_
 )
 ImmPtr
 :
