@@ -5461,6 +5461,12 @@ clear
 (
 )
 ;
+mQueuedIceCtxOperations
+.
+clear
+(
+)
+;
 RUN_ON_THREAD
 (
 mSTSThread
