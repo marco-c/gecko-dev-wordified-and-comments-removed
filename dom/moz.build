@@ -444,6 +444,9 @@ payments
 '
 websocket
 '
+'
+serviceworkers
+'
 ]
 if
 CONFIG
