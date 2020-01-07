@@ -72,6 +72,8 @@ aGlobal
 nsIDocument
 &
 aDocument
+bool
+aDocumentOnly
 nsTArray
 <
 RefPtr

@@ -637,6 +637,13 @@ ErrorReporter
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 sSpecCache
