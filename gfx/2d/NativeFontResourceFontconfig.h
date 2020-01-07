@@ -89,6 +89,11 @@ NativeFontResourceFontconfig
 (
 )
 ;
+FT_Face
+CloneFace
+(
+)
+;
 private
 :
 NativeFontResourceFontconfig
@@ -102,6 +107,8 @@ uint8_t
 &
 &
 aFontData
+uint32_t
+aDataLength
 FT_Face
 aFace
 )
@@ -113,6 +120,9 @@ uint8_t
 ]
 >
 mFontData
+;
+uint32_t
+mDataLength
 ;
 FT_Face
 mFace

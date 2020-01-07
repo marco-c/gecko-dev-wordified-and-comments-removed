@@ -521,6 +521,8 @@ const
 gfxFontStyle
 *
 aStyle
+FT_Face
+aFTFace
 )
 ;
 virtual
