@@ -2463,13 +2463,6 @@ nsCString
 requestedLocales
 )
 ;
-async
-ClearSiteDataReloadNeeded
-(
-nsString
-origin
-)
-;
 /
 /
 nsIPermissionManager
