@@ -956,6 +956,15 @@ frameId
 ;
 this
 .
+telemetry
+=
+new
+Telemetry
+(
+)
+;
+this
+.
 _webExtensions
 =
 new
@@ -978,15 +987,6 @@ _inspectorExtensionSidebars
 =
 new
 Map
-(
-)
-;
-this
-.
-_telemetry
-=
-new
-Telemetry
 (
 )
 ;
@@ -3004,7 +3004,7 @@ openSplitConsole
 ;
 this
 .
-_telemetry
+telemetry
 .
 addEventProperty
 (
@@ -3031,7 +3031,7 @@ else
 {
 this
 .
-_telemetry
+telemetry
 .
 addEventProperty
 (
@@ -3740,7 +3740,7 @@ function
 {
 this
 .
-_telemetry
+telemetry
 .
 toolOpened
 (
@@ -3751,7 +3751,7 @@ toolbox
 ;
 this
 .
-_telemetry
+telemetry
 .
 logOncePerBrowserVersion
 (
@@ -3765,7 +3765,7 @@ getScreenDimensions
 ;
 this
 .
-_telemetry
+telemetry
 .
 log
 (
@@ -3795,7 +3795,7 @@ theme
 ;
 this
 .
-_telemetry
+telemetry
 .
 logKeyedScalar
 (
@@ -3806,7 +3806,7 @@ currentTheme
 ;
 this
 .
-_telemetry
+telemetry
 .
 preparePendingEvent
 (
@@ -3843,7 +3843,7 @@ width
 ;
 this
 .
-_telemetry
+telemetry
 .
 addEventProperty
 (
@@ -8426,7 +8426,7 @@ currentToolId
 {
 this
 .
-_telemetry
+telemetry
 .
 toolClosed
 (
@@ -8646,7 +8646,7 @@ id
 ;
 this
 .
-_telemetry
+telemetry
 .
 addEventProperties
 (
@@ -8700,7 +8700,7 @@ currentToolId
 {
 this
 .
-_telemetry
+telemetry
 .
 recordEvent
 (
@@ -8795,7 +8795,7 @@ cold
 {
 this
 .
-_telemetry
+telemetry
 .
 addEventProperty
 (
@@ -8821,7 +8821,7 @@ message_count
 }
 this
 .
-_telemetry
+telemetry
 .
 preparePendingEvent
 (
@@ -8840,7 +8840,7 @@ pending
 ;
 this
 .
-_telemetry
+telemetry
 .
 toolOpened
 (
@@ -9087,7 +9087,7 @@ true
 ;
 this
 .
-_telemetry
+telemetry
 .
 recordEvent
 (
@@ -9194,7 +9194,7 @@ false
 ;
 this
 .
-_telemetry
+telemetry
 .
 recordEvent
 (
@@ -11058,7 +11058,7 @@ changed
 ;
 this
 .
-_telemetry
+telemetry
 .
 log
 (
@@ -12889,7 +12889,7 @@ currentToolId
 ;
 this
 .
-_telemetry
+telemetry
 .
 toolClosed
 (
@@ -12900,7 +12900,7 @@ toolbox
 ;
 this
 .
-_telemetry
+telemetry
 .
 recordEvent
 (
@@ -12928,7 +12928,7 @@ width
 ;
 this
 .
-_telemetry
+telemetry
 .
 recordEvent
 (
@@ -12984,7 +12984,7 @@ toolbox_close
 ;
 this
 .
-_telemetry
+telemetry
 .
 destroy
 (
