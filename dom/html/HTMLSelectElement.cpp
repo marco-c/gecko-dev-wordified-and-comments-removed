@@ -123,7 +123,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -4891,9 +4891,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 nsGenericHTMLFormElementWithState
@@ -4902,7 +4902,7 @@ nsGenericHTMLFormElementWithState
 MapImageAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -4911,7 +4911,7 @@ nsGenericHTMLFormElementWithState
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

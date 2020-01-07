@@ -255,9 +255,8 @@ aAttributes
 mozilla
 :
 :
-GenericSpecifiedValues
-*
-aGenericData
+MappedDeclarations
+&
 )
 ;
 void

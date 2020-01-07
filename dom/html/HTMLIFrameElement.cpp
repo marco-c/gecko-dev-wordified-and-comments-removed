@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -369,9 +369,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 const
@@ -439,9 +439,8 @@ NS_STYLE_FRAME_OFF
 frameborder
 )
 {
-aData
--
->
+aDecls
+.
 SetPixelValueIfUnset
 (
 eCSSProperty_border_top_width
@@ -450,9 +449,8 @@ eCSSProperty_border_top_width
 0f
 )
 ;
-aData
--
->
+aDecls
+.
 SetPixelValueIfUnset
 (
 eCSSProperty_border_right_width
@@ -461,9 +459,8 @@ eCSSProperty_border_right_width
 0f
 )
 ;
-aData
--
->
+aDecls
+.
 SetPixelValueIfUnset
 (
 eCSSProperty_border_bottom_width
@@ -472,9 +469,8 @@ eCSSProperty_border_bottom_width
 0f
 )
 ;
-aData
--
->
+aDecls
+.
 SetPixelValueIfUnset
 (
 eCSSProperty_border_left_width
@@ -491,7 +487,7 @@ nsGenericHTMLElement
 MapImageSizeAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -500,7 +496,7 @@ nsGenericHTMLElement
 MapImageAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -509,7 +505,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }
