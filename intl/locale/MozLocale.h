@@ -208,6 +208,14 @@ mVariants
 aOther
 .
 mVariants
+&
+&
+mPrivateUse
+=
+=
+aOther
+.
+mPrivateUse
 ;
 }
 private
@@ -235,6 +243,12 @@ nsTArray
 nsCString
 >
 mVariants
+;
+nsTArray
+<
+nsCString
+>
+mPrivateUse
 ;
 bool
 mIsValid
