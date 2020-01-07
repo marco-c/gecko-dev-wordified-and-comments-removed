@@ -3,9 +3,12 @@ use
 strict
 "
 ;
-ChromeUtils
-.
-import
+const
+{
+PromiseTestUtils
+}
+=
+scopedCuImport
 (
 "
 resource
@@ -20,7 +23,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 PromiseTestUtils
@@ -28,10 +30,9 @@ PromiseTestUtils
 whitelistRejectionsGlobally
 (
 /
-[
-object
-Object
-]
+connection
+just
+closed
 /
 )
 ;
