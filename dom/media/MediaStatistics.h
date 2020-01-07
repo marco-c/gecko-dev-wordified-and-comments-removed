@@ -23,9 +23,6 @@ int64_t
 mDownloadPosition
 ;
 int64_t
-mDecoderPosition
-;
-int64_t
 mPlaybackPosition
 ;
 bool

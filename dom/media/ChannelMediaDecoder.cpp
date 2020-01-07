@@ -1905,12 +1905,6 @@ mPlaybackRateReliable
 ;
 result
 .
-mDecoderPosition
-=
-mDecoderPosition
-;
-result
-.
 mPlaybackPosition
 =
 mPlaybackPosition
