@@ -520,6 +520,11 @@ mEventTarget
 principal
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+reservedClient
+)
+;
 newLoadInfo
 -
 >
@@ -964,10 +969,9 @@ aEventTarget
 channelPrincipal
 )
 ;
-NS_ENSURE_TRUE
+MOZ_DIAGNOSTIC_ASSERT
 (
 reservedClient
-NS_ERROR_FAILURE
 )
 ;
 }

@@ -21532,16 +21532,11 @@ GetPrincipalInfo
 )
 )
 ;
-if
+MOZ_DIAGNOSTIC_ASSERT
 (
-!
 mClientSource
 )
-{
-return
-false
 ;
-}
 if
 (
 mFrozen
