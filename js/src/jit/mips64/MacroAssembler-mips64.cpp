@@ -1794,10 +1794,9 @@ Register
 shift
 )
 {
-as_dsubu
+ma_negu
 (
 ScratchRegister
-zero
 shift
 )
 ;
