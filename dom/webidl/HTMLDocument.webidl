@@ -130,16 +130,6 @@ name
 )
 ;
 [
-CEReactions
-Pure
-SetterThrows
-]
-attribute
-HTMLElement
-?
-body
-;
-[
 Pure
 ]
 readonly
