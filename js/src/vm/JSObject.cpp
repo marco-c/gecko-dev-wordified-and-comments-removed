@@ -18845,8 +18845,17 @@ KEY
 }
 }
 #
-ifdef
+if
+defined
+(
 DEBUG
+)
+|
+|
+defined
+(
+JS_JITSPEW
+)
 static
 void
 dumpValue
@@ -19289,9 +19298,6 @@ invalid
 "
 )
 ;
-#
-ifdef
-DEBUG
 switch
 (
 v
@@ -19377,8 +19383,6 @@ put
 break
 ;
 }
-#
-endif
 out
 .
 putChar
