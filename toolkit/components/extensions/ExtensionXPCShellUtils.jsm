@@ -2133,6 +2133,7 @@ this
 addon
 )
 {
+await
 this
 .
 addon

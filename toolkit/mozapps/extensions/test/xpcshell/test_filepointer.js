@@ -999,6 +999,7 @@ exists
 )
 )
 ;
+await
 addon
 .
 uninstall
@@ -1070,6 +1071,7 @@ version
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1691,6 +1693,7 @@ version
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1809,6 +1812,7 @@ version
 "
 )
 ;
+await
 addon
 .
 uninstall

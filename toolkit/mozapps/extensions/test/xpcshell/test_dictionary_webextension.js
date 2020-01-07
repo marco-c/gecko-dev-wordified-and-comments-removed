@@ -368,12 +368,14 @@ aff
 }
 )
 ;
+await
 addon
 .
 uninstall
 (
 )
 ;
+await
 addon2
 .
 uninstall
@@ -570,6 +572,7 @@ affixes
 "
 )
 ;
+await
 addon
 .
 uninstall

@@ -280,6 +280,7 @@ gBrowser
 selectedTab
 )
 ;
+await
 addon
 .
 uninstall

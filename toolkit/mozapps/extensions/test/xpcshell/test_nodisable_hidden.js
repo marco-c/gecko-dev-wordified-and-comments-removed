@@ -374,6 +374,7 @@ extension
 "
 )
 ;
+await
 addon
 .
 uninstall

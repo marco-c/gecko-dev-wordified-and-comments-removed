@@ -391,6 +391,7 @@ xpi
 "
 )
 ;
+await
 addon
 .
 uninstall

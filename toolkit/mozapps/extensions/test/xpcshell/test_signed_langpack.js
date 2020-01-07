@@ -60,6 +60,7 @@ addon
 null
 )
 ;
+await
 install
 .
 addon

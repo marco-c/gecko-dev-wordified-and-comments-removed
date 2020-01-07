@@ -1115,6 +1115,13 @@ extension
 "
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 if
 (
 stageDir

@@ -334,6 +334,7 @@ addon
 seen
 )
 ;
+await
 addon
 .
 uninstall
@@ -807,6 +808,7 @@ addon
 seen
 )
 ;
+await
 addon
 .
 uninstall
@@ -1050,6 +1052,7 @@ addon
 seen
 )
 ;
+await
 addon
 .
 uninstall
@@ -1271,6 +1274,7 @@ addon
 seen
 )
 ;
+await
 addon
 .
 uninstall
@@ -1526,6 +1530,7 @@ addon
 seen
 )
 ;
+await
 addon
 .
 uninstall

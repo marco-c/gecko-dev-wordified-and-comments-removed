@@ -566,6 +566,11 @@ settingData
 )
 ;
 }
+await
+promiseStartupManager
+(
+)
+;
 let
 testExtensions
 =
@@ -641,11 +646,6 @@ temporary
 }
 )
 ]
-;
-await
-promiseStartupManager
-(
-)
 ;
 for
 (

@@ -384,6 +384,7 @@ fails
 "
 )
 ;
+await
 addon
 .
 uninstall

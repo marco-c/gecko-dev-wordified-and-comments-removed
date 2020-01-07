@@ -388,6 +388,7 @@ und
 true
 )
 ;
+await
 addon
 .
 uninstall
@@ -655,6 +656,7 @@ reqLocs
 )
 ;
 }
+await
 addon
 .
 uninstall
@@ -762,6 +764,7 @@ addon
 appDisabled
 )
 ;
+await
 addon
 .
 uninstall

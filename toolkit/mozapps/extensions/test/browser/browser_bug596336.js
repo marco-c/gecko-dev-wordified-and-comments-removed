@@ -442,6 +442,7 @@ disabled
 "
 )
 ;
+await
 aAddon
 .
 uninstall
@@ -593,6 +594,7 @@ disabled
 "
 )
 ;
+await
 aAddon
 .
 uninstall
@@ -823,6 +825,7 @@ disabled
 "
 )
 ;
+await
 aAddon
 .
 uninstall
@@ -1056,6 +1059,7 @@ disabled
 "
 )
 ;
+await
 aAddon
 .
 uninstall

@@ -361,6 +361,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -667,6 +668,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -991,6 +993,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1297,6 +1300,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1623,6 +1627,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall

@@ -1795,6 +1795,7 @@ OP_NEEDS_RESTART_UNINSTALL
 0
 )
 ;
+await
 addon
 .
 uninstall
@@ -2140,6 +2141,7 @@ ID_DICT
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -2322,6 +2324,7 @@ getAddonByID
 ID_DICT
 )
 ;
+await
 addon
 .
 uninstall
@@ -2847,6 +2850,7 @@ getAddonByID
 ID_DICT
 )
 ;
+await
 addon
 .
 uninstall

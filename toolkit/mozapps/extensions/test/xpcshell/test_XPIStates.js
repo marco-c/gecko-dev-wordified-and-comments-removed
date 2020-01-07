@@ -580,6 +580,7 @@ org
 ]
 )
 ;
+await
 pe
 .
 uninstall
@@ -712,6 +713,7 @@ getTime
 )
 )
 ;
+await
 newAddon
 .
 uninstall

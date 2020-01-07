@@ -388,6 +388,7 @@ exists
 )
 )
 ;
+await
 addon
 .
 uninstall

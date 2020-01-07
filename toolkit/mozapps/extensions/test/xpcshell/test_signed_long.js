@@ -182,6 +182,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
+await
 addon
 .
 uninstall

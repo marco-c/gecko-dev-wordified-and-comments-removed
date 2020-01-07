@@ -288,6 +288,7 @@ AddonManager
 UPDATE_STATUS_DOWNLOAD_ERROR
 )
 ;
+await
 addon
 .
 uninstall

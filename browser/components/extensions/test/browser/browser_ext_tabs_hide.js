@@ -964,6 +964,13 @@ click
 await
 popupHidden
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 is
 (
 gBrowser

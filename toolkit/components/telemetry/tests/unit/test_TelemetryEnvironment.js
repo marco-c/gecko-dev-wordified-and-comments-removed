@@ -8177,6 +8177,7 @@ addon
 .
 startupPromise
 ;
+await
 addon
 .
 uninstall
@@ -8447,6 +8448,7 @@ addon
 .
 startupPromise
 ;
+await
 addon
 .
 uninstall
@@ -8653,6 +8655,7 @@ addon
 .
 startupPromise
 ;
+await
 addon
 .
 uninstall
@@ -9142,6 +9145,7 @@ addon
 .
 startupPromise
 ;
+await
 addon
 .
 uninstall

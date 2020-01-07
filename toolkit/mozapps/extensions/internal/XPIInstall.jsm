@@ -8514,6 +8514,7 @@ this
 existingAddon
 )
 {
+await
 XPIInternal
 .
 BootstrapScope
@@ -18022,6 +18023,9 @@ save
 ;
 }
 ;
+let
+promise
+;
 if
 (
 oldAddon
@@ -18059,6 +18063,8 @@ oldAddon
 .
 installDate
 ;
+promise
+=
 XPIInternal
 .
 BootstrapScope
@@ -18104,6 +18110,8 @@ get
 addon
 )
 ;
+promise
+=
 bootstrap
 .
 install
@@ -18130,6 +18138,9 @@ addon
 wrapper
 false
 )
+;
+await
+promise
 ;
 AddonManagerPrivate
 .
@@ -18685,6 +18696,7 @@ if
 existing
 )
 {
+await
 bootstrap
 .
 update
@@ -18723,6 +18735,7 @@ aAddon
 id
 )
 ;
+await
 bootstrap
 .
 uninstall
