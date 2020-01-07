@@ -421,10 +421,10 @@ get_file_size
 {
 stat
 -
-f
+c
 "
 %
-z
+s
 "
 "
 1
