@@ -9798,6 +9798,12 @@ Performance
 CreateForMainThread
 (
 this
+mDoc
+-
+>
+NodePrincipal
+(
+)
 timing
 timedChannel
 )

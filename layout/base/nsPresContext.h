@@ -3246,11 +3246,6 @@ HasPendingRestyleOrReflow
 )
 ;
 void
-NotifyFontFaceSetOnRefresh
-(
-)
-;
-void
 ReflowStarted
 (
 bool

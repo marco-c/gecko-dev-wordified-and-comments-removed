@@ -2658,7 +2658,7 @@ GetDefaultBackgroundColorToDraw
 )
 ;
 DOMHighResTimeStamp
-GetPerformanceNow
+GetPerformanceNowUnclamped
 (
 )
 ;
