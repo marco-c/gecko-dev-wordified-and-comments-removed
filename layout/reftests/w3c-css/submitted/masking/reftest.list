@@ -2241,12 +2241,6 @@ fuzzy
 1
 5000
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 mask
