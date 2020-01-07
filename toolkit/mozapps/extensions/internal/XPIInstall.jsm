@@ -10399,7 +10399,7 @@ addon
 async
 unstageInstall
 (
-stagedAddon
+stagingDir
 )
 {
 XPIStates
@@ -10432,7 +10432,7 @@ this
 addon
 .
 id
-stagedAddon
+stagingDir
 )
 )
 ;
@@ -10450,7 +10450,7 @@ id
 }
 .
 xpi
-stagedAddon
+stagingDir
 )
 )
 ;
