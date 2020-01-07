@@ -35829,6 +35829,10 @@ GetContent
 aChild
 )
 {
+childFrame
+=
+nullptr
+;
 UnregisterDisplayNoneStyleFor
 (
 aChild
