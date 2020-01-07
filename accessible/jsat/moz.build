@@ -112,17 +112,7 @@ EventManager
 jsm
 '
 '
-Gestures
-.
-jsm
-'
-'
 OutputGenerator
-.
-jsm
-'
-'
-PointerAdapter
 .
 jsm
 '
