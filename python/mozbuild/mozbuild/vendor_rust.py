@@ -250,6 +250,26 @@ which
 we
 want
 .
+Version
+0
+.
+1
+.
+14
+and
+up
+        
+handles
+local
+modifications
+to
+vendored
+crates
+(
+bug
+1323557
+)
+.
         
 '
 '
@@ -334,7 +354,7 @@ b
 .
 1
 .
-13
+14
 '
         
 return
@@ -1033,7 +1053,7 @@ vendor
 .
 1
 .
-12
+14
 required
 ;
 force
