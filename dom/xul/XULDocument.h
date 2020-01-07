@@ -494,12 +494,10 @@ IsDocumentRightToLeft
 )
 override
 ;
-virtual
 void
 ResetDocumentDirection
 (
 )
-override
 ;
 virtual
 nsIDocument
