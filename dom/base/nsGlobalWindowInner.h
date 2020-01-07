@@ -1621,6 +1621,17 @@ JSObject
 *
 )
 ;
+static
+bool
+RegisterProtocolHandlerAllowedForContext
+(
+JSContext
+*
+JSObject
+*
+aObj
+)
+;
 bool
 DoResolve
 (

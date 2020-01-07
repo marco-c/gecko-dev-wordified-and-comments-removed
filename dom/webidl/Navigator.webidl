@@ -747,6 +747,14 @@ handler
 registration
 [
 Throws
+Func
+=
+"
+nsGlobalWindowInner
+:
+:
+RegisterProtocolHandlerAllowedForContext
+"
 ]
 void
 registerProtocolHandler

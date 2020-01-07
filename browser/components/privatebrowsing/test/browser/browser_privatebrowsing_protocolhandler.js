@@ -20,7 +20,7 @@ let
 testURI
 =
 "
-http
+https
 :
 /
 /
