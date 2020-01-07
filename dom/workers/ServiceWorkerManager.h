@@ -448,17 +448,6 @@ aURI
 )
 ;
 bool
-IsControlled
-(
-nsIDocument
-*
-aDocument
-ErrorResult
-&
-aRv
-)
-;
-bool
 MayHaveActiveServiceWorkerInstance
 (
 ContentParent

@@ -4703,15 +4703,6 @@ sIsScopedStyleEnabled
 ;
 }
 static
-bool
-IsControlledByServiceWorker
-(
-nsIDocument
-*
-aDocument
-)
-;
-static
 void
 FireMutationEventsForDirectParsing
 (
