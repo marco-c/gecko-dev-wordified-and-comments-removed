@@ -123,8 +123,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -133,7 +133,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -156,13 +156,13 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -228,7 +228,7 @@ let
 viewName
 ]
 =
-yield
+await
 viewChanged
 ;
 is
@@ -297,7 +297,7 @@ flamegraph
 viewName
 ]
 =
-yield
+await
 viewChanged
 ;
 is
@@ -364,7 +364,7 @@ waterfall
 viewName
 ]
 =
-yield
+await
 viewChanged
 ;
 is
@@ -390,7 +390,7 @@ waterfall
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

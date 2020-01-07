@@ -141,8 +141,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -151,7 +151,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -184,7 +184,7 @@ UI_ENABLE_MEMORY_PREF
 true
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -451,7 +451,7 @@ recording
 "
 )
 ;
-yield
+await
 times
 (
 OverviewView
@@ -462,16 +462,12 @@ UI_OVERVIEW_RENDERED
 {
 expectedArgs
 :
-{
-"
-1
-"
-:
+[
 Constants
 .
 FRAMERATE_GRAPH_LOW_RES_INTERVAL
+]
 }
-}
 )
 ;
 ok
@@ -702,7 +698,7 @@ recording
 "
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -771,7 +767,7 @@ overview
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel
