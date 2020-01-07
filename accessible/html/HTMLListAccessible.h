@@ -121,8 +121,8 @@ Shutdown
 override
 ;
 virtual
-nsIntRect
-Bounds
+nsRect
+BoundsInAppUnits
 (
 )
 const
