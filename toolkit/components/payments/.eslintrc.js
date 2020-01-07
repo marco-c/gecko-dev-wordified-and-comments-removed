@@ -45,6 +45,13 @@ js
 "
 res
 /
+paymentRequest
+.
+js
+"
+"
+res
+/
 PaymentsStore
 .
 js
