@@ -603,14 +603,14 @@ children
 addEventListener
 (
 "
-keypress
+keydown
 "
 e
 =
 >
 this
 .
-onKeypress
+onKeydown
 (
 e
 )
@@ -1450,7 +1450,7 @@ ids
 ;
 }
 }
-onKeypress
+onKeydown
 :
 function
 (

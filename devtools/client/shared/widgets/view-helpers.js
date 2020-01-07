@@ -1418,11 +1418,11 @@ widget
 on
 (
 "
-keyPress
+keyDown
 "
 this
 .
-_onWidgetKeyPress
+_onWidgetKeyDown
 .
 bind
 (
@@ -4154,7 +4154,7 @@ _target
 )
 ;
 }
-_onWidgetKeyPress
+_onWidgetKeyDown
 :
 function
 (

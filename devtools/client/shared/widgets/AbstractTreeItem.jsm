@@ -1151,11 +1151,11 @@ this
 ;
 this
 .
-_onKeyPress
+_onKeyDown
 =
 this
 .
-_onKeyPress
+_onKeyDown
 .
 bind
 (
@@ -1288,11 +1288,11 @@ targetNode
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 .
-_onKeyPress
+_onKeyDown
 )
 ;
 targetNode
@@ -1735,7 +1735,7 @@ focus
 )
 ;
 }
-_onKeyPress
+_onKeyDown
 :
 function
 (

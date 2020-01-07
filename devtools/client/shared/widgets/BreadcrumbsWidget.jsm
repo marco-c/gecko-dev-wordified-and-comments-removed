@@ -217,7 +217,7 @@ _list
 addEventListener
 (
 "
-keypress
+keydown
 "
 e
 =
@@ -227,7 +227,7 @@ this
 emit
 (
 "
-keyPress
+keyDown
 "
 e
 )

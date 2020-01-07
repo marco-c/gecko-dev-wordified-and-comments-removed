@@ -882,11 +882,11 @@ tooltip
 off
 (
 "
-keypress
+keydown
 "
 this
 .
-_onTooltipKeypress
+_onTooltipKeydown
 )
 ;
 this

@@ -352,7 +352,7 @@ window
 ;
 this
 .
-_onKeyPress
+_onKeyDown
 =
 event
 =
@@ -375,7 +375,7 @@ this
 emit
 (
 "
-keypress
+keydown
 "
 event
 .
@@ -423,11 +423,11 @@ win
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 .
-_onKeyPress
+_onKeyDown
 )
 ;
 this
@@ -742,11 +742,11 @@ win
 removeEventListener
 (
 "
-keypress
+keydown
 "
 this
 .
-_onKeyPress
+_onKeyDown
 )
 ;
 for
