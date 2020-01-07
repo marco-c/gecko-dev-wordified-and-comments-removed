@@ -704,6 +704,7 @@ renderSeparator
 (
 )
 )
+;
 }
 }
 return
