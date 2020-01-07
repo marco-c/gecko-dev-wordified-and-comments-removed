@@ -34,6 +34,10 @@ License
 GENRB_CLDR_VERSION
 =
 32
+.
+0
+.
+1
 #
 A
 list

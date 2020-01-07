@@ -4102,7 +4102,7 @@ stderr
 "
 An
 error
-occured
+occurred
 processing
 file
 %

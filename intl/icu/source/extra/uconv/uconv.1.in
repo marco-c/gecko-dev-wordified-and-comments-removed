@@ -724,7 +724,7 @@ used
 to
 represent
 the
-occurence
+occurrence
 of
 such
 characters
@@ -1285,7 +1285,6 @@ for
 the
 transcoding
 to
-the
 the
 destination
 encoding
@@ -1901,7 +1900,6 @@ B
 substitute
 Write
 the
-the
 encoding
 '
 s
@@ -2375,7 +2373,7 @@ Unicode
 codepoint
 in
 the
-litterature
+literature
 delimited
 by
 curly
@@ -2765,7 +2763,7 @@ does
 report
 errors
 as
-occuring
+occurring
 at
 the
 first
@@ -2791,7 +2789,7 @@ which
 reports
 errors
 as
-occuring
+occurring
 at
 the
 first
@@ -2876,7 +2874,7 @@ at
 which
 the
 error
-occured
+occurred
 .
 .
 SH

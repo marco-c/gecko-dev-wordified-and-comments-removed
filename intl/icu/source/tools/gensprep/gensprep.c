@@ -455,7 +455,7 @@ bundle
 name
 generate
 the
-ouput
+output
 data
 file
 with
