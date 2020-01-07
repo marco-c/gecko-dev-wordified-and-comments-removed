@@ -449,16 +449,12 @@ JAR_COMPRESSION
 (
 MOZ_PKG_MANIFEST
 )
-'
 (
 DIST
 )
-'
-'
 (
 DIST
 )
-'
 /
 (
 MOZ_PKG_DIR

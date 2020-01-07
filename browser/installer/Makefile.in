@@ -508,11 +508,9 @@ DEFINES
 -
 DAPPNAME
 =
-'
 (
 _APPNAME
 )
-'
 else
 #
 Every
@@ -535,11 +533,9 @@ DEFINES
 -
 DBINPATH
 =
-'
 (
 BINPATH
 )
-'
 ifeq
 (
 cocoa
@@ -569,11 +565,9 @@ DEFINES
 -
 DRESPATH
 =
-"
 (
 RESPATH
 )
-"
 LPROJ_ROOT
 =
 (

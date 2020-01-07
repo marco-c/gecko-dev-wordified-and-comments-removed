@@ -504,7 +504,6 @@ MKDIR
 )
 -
 p
-'
 (
 dist_dest
 )
@@ -512,13 +511,11 @@ dist_dest
 Contents
 /
 MacOS
-'
 (
 MKDIR
 )
 -
 p
-'
 (
 dist_dest
 )
@@ -526,7 +523,6 @@ dist_dest
 (
 LPROJ
 )
-'
 rsync
 -
 a
@@ -545,11 +541,9 @@ srcdir
 macbuild
 /
 Contents
-'
 (
 dist_dest
 )
-'
 -
 -
 exclude
@@ -581,7 +575,6 @@ English
 .
 lproj
 /
-'
 (
 dist_dest
 )
@@ -589,7 +582,6 @@ dist_dest
 (
 LPROJ
 )
-'
 sed
 -
 e
@@ -689,7 +681,6 @@ plist
 .
 in
 >
-'
 (
 dist_dest
 )
@@ -699,7 +690,6 @@ Contents
 Info
 .
 plist
-'
 sed
 -
 e
@@ -747,7 +737,6 @@ UTF
 -
 16
 >
-'
 (
 dist_dest
 )
@@ -759,7 +748,6 @@ LPROJ
 InfoPlist
 .
 strings
-'
 rsync
 -
 a
@@ -790,7 +778,6 @@ DIST
 /
 bin
 /
-'
 (
 dist_dest
 )
@@ -798,7 +785,6 @@ dist_dest
 Contents
 /
 Resources
-'
 rsync
 -
 a
@@ -835,7 +821,6 @@ DIST
 /
 bin
 /
-'
 (
 dist_dest
 )
@@ -843,11 +828,9 @@ dist_dest
 Contents
 /
 MacOS
-'
 (
 RM
 )
-'
 (
 dist_dest
 )
@@ -859,7 +842,6 @@ MacOS
 (
 MOZ_APP_NAME
 )
-'
 rsync
 -
 aL
@@ -872,7 +854,6 @@ bin
 (
 MOZ_APP_NAME
 )
-'
 (
 dist_dest
 )
@@ -880,7 +861,6 @@ dist_dest
 Contents
 /
 MacOS
-'
 cp
 -
 RL
@@ -893,7 +873,6 @@ branding
 firefox
 .
 icns
-'
 (
 dist_dest
 )
@@ -905,7 +884,6 @@ Resources
 firefox
 .
 icns
-'
 cp
 -
 RL
@@ -918,7 +896,6 @@ branding
 document
 .
 icns
-'
 (
 dist_dest
 )
@@ -930,13 +907,11 @@ Resources
 document
 .
 icns
-'
 (
 MKDIR
 )
 -
 p
-'
 (
 dist_dest
 )
@@ -946,13 +921,11 @@ Contents
 Library
 /
 LaunchServices
-'
 ifdef
 MOZ_UPDATER
 mv
 -
 f
-'
 (
 dist_dest
 )
@@ -974,8 +947,6 @@ org
 mozilla
 .
 updater
-'
-'
 (
 dist_dest
 )
@@ -985,7 +956,6 @@ Contents
 Library
 /
 LaunchServices
-'
 ln
 -
 s
@@ -1010,7 +980,6 @@ org
 mozilla
 .
 updater
-'
 (
 dist_dest
 )
@@ -1032,12 +1001,10 @@ org
 mozilla
 .
 updater
-'
 endif
 printf
 APPLMOZB
 >
-'
 (
 dist_dest
 )
@@ -1045,7 +1012,6 @@ dist_dest
 Contents
 /
 PkgInfo
-'
 endif
 .
 PHONY
