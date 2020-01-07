@@ -548,6 +548,16 @@ data
 "
 add
 "
+&
+&
+subject
+.
+wrappedJSObject
+.
+collectionName
+=
+=
+collectionName
 )
 ;
 for
