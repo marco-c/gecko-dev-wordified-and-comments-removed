@@ -63,6 +63,7 @@ char
 *
 aClipboardData
 )
+override
 ;
 virtual
 GdkAtom
