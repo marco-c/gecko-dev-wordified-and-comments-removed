@@ -2666,7 +2666,9 @@ GetImageContainerImpl
 (
 aManager
 aSize
-aSVGContext
+Nothing
+(
+)
 aFlags
 )
 ;
