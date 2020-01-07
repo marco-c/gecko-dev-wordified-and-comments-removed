@@ -71,6 +71,11 @@ final
 :
 public
 nsIServiceWorkerInfo
+public
+ServiceWorker
+:
+:
+Inner
 {
 private
 :
