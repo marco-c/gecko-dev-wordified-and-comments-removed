@@ -739,6 +739,14 @@ mFormat
 SurfaceWithFormat
 (
 )
+:
+mFormat
+(
+SurfaceFormat
+:
+:
+UNKNOWN
+)
 {
 }
 SurfaceWithFormat
