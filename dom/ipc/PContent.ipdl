@@ -1282,6 +1282,9 @@ blob
 Principal
 principal
 ;
+bool
+revoked
+;
 }
 ;
 struct
