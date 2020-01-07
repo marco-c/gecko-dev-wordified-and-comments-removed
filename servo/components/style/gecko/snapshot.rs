@@ -809,7 +809,7 @@ case_sensitivity
 bindings
 :
 :
-Gecko_SnapshotClassOrClassList
+Gecko_SnapshotHasClass
 )
 }
 #
