@@ -129,11 +129,7 @@ UseANGLE
 )
 const
 override
-{
-return
-false
 ;
-}
 LayoutDeviceIntSize
 GetClientSize
 (
