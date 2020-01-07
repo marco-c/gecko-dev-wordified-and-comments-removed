@@ -1232,6 +1232,9 @@ addon
 rdf
 :
 true
+bootstrap
+:
+true
 }
 }
 }
