@@ -2066,7 +2066,9 @@ testing
 /
 profiles
 /
-prefs_general
+common
+/
+user
 .
 js
 (
@@ -2074,6 +2076,10 @@ PKG_STAGE
 )
 /
 steeplechase
+/
+prefs_general
+.
+js
 TEST_EXTENSIONS
 :
 =
