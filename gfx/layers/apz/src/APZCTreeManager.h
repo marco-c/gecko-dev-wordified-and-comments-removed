@@ -165,9 +165,6 @@ namespace
 wr
 {
 class
-TransactionBuilder
-;
-class
 WebRenderAPI
 ;
 struct
@@ -318,9 +315,9 @@ PushStateToWR
 wr
 :
 :
-TransactionBuilder
-&
-aTxn
+WebRenderAPI
+*
+aWrApi
 const
 TimeStamp
 &

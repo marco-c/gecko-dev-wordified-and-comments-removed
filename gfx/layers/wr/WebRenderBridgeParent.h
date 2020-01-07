@@ -1328,12 +1328,6 @@ const
 bool
 PushAPZStateToWR
 (
-wr
-:
-:
-TransactionBuilder
-&
-aTxn
 nsTArray
 <
 wr

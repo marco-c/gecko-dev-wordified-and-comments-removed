@@ -2029,17 +2029,6 @@ bool
 aCompositeNeeded
 )
 {
-if
-(
-aCompositeNeeded
-)
-{
-wr_notifier_new_frame_ready
-(
-aWindowId
-)
-;
-}
 }
 void
 wr_notifier_external_event
