@@ -610,14 +610,6 @@ string
 aURLSpec
 )
 ;
-nsIStringBundle
-createExtensibleBundle
-(
-in
-string
-aRegistryKey
-)
-;
 /
 *
 *
