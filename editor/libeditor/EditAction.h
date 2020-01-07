@@ -20,8 +20,8 @@ ignore
 eNone
 =
 0
-undo
-redo
+eUndo
+eRedo
 insertNode
 createNode
 deleteNode
