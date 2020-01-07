@@ -81,12 +81,6 @@ virtualenv_path
 VENV_PATH
     
 "
-virtualenv_python_dll
-"
-:
-PYTHON_DLL
-    
-"
 pip_index
 "
 :

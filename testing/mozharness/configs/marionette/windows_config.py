@@ -27,25 +27,6 @@ ini
 "
     
 "
-virtualenv_python_dll
-"
-:
-'
-c
-:
-/
-mozilla
--
-build
-/
-python27
-/
-python27
-.
-dll
-'
-    
-"
 virtualenv_path
 "
 :
