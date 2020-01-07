@@ -180,6 +180,9 @@ backend_name
 ;
 unsafe
 {
+try_call
+!
+(
 ffi
 :
 :
@@ -190,6 +193,7 @@ mut
 context
 context_name
 backend_name
+)
 )
 ;
 Ok
