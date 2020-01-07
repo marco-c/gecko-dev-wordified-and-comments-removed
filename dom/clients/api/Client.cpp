@@ -914,7 +914,7 @@ Create
 GetCurrentThreadWorkerPrivate
 (
 )
-Closing
+Terminating
 )
 ;
 EnsureHandle
