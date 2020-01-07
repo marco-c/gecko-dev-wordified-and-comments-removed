@@ -140,6 +140,11 @@ GeckoViewTab
 jsm
 '
 '
+GeckoViewTrackingProtection
+.
+jsm
+'
+'
 GeckoViewUtils
 .
 jsm
