@@ -1751,7 +1751,7 @@ ref
 parent
 )
 =
-rule
+rules
 .
 inherits
 {
