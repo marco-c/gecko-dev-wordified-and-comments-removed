@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIRootBox
+nsIPopupContainer
 .
 h
 "
@@ -74,12 +74,12 @@ using
 namespace
 mozilla
 ;
-nsIRootBox
+nsIPopupContainer
 *
-nsIRootBox
+nsIPopupContainer
 :
 :
-GetRootBox
+GetPopupContainer
 (
 nsIPresShell
 *
@@ -136,7 +136,7 @@ FirstChild
 )
 ;
 }
-nsIRootBox
+nsIPopupContainer
 *
 rootBox
 =
@@ -182,7 +182,7 @@ final
 public
 nsBoxFrame
 public
-nsIRootBox
+nsIPopupContainer
 {
 public
 :
@@ -949,7 +949,7 @@ nsRootBoxFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIRootBox
+nsIPopupContainer
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
