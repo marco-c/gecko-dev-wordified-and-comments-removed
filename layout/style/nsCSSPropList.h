@@ -3907,7 +3907,9 @@ CounterIncrement
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
+VARIANT_INHERIT
+|
+VARIANT_NONE
 nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
@@ -3922,7 +3924,9 @@ CounterReset
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
+VARIANT_INHERIT
+|
+VARIANT_NONE
 nullptr
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Discrete
