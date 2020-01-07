@@ -320,7 +320,7 @@ mStyleSheet
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsStyleLinkElement
 :
 :
@@ -380,15 +380,9 @@ node
 ;
 }
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP_
-(
 StyleSheet
 *
-)
 nsStyleLinkElement
 :
 :
@@ -400,7 +394,7 @@ return
 mStyleSheet
 ;
 }
-NS_IMETHODIMP
+void
 nsStyleLinkElement
 :
 :
@@ -414,11 +408,8 @@ mDontLoadStyle
 =
 aDontLoadStyle
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsStyleLinkElement
 :
 :
@@ -431,9 +422,6 @@ aEnableUpdates
 mUpdatesEnabled
 =
 aEnableUpdates
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
