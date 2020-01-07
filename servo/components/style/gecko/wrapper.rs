@@ -11892,7 +11892,12 @@ state_bit
 )
 {
 return
-true
+!
+context
+.
+in_negation
+(
+)
 ;
 }
 self
@@ -12011,7 +12016,12 @@ state_bit
 )
 {
 return
-true
+!
+context
+.
+in_negation
+(
+)
 ;
 }
 let
