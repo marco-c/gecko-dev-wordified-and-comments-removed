@@ -11652,9 +11652,12 @@ onThisLine
 )
 )
 {
-ts
--
->
+parser
+.
+errorReporter
+(
+)
+.
 reportErrorNoOffset
 (
 JSMSG_OUT_OF_MEMORY
@@ -22766,7 +22769,9 @@ traceLog
 (
 cx
 TraceLogger_BytecodeEmission
-tokenStream
+parser
+.
+errorReporter
 (
 )
 body
@@ -23138,7 +23143,9 @@ traceLog
 (
 cx
 TraceLogger_BytecodeEmission
-tokenStream
+parser
+.
+errorReporter
 (
 )
 funbox
