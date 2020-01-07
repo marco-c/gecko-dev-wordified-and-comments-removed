@@ -228,6 +228,9 @@ BUFFER_STATUS_INTERVAL_DEFAULT
 _profilerStatusSubscribers
 :
 0
+started
+:
+false
 addInstance
 :
 function
@@ -461,6 +464,12 @@ currentTime
 }
 this
 .
+started
+=
+true
+;
+this
+.
 _updateProfilerStatusPolling
 (
 )
@@ -504,6 +513,11 @@ length
 <
 =
 1
+&
+&
+this
+.
+started
 )
 {
 nsIProfilerModule
@@ -511,6 +525,12 @@ nsIProfilerModule
 StopProfiler
 (
 )
+;
+this
+.
+started
+=
+false
 ;
 }
 this
