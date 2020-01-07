@@ -8095,6 +8095,11 @@ if
 script
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+false
+)
+;
 ReportOutOfMemory
 (
 cx
@@ -8265,6 +8270,11 @@ length
 expectedLength
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+false
+)
+;
 ReportOutOfMemory
 (
 cx
