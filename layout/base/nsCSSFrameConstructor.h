@@ -1469,8 +1469,6 @@ mFullConstructor
 nsICSSAnonBoxPseudo
 *
 const
-*
-const
 mAnonBoxPseudo
 ;
 }
@@ -1483,7 +1481,6 @@ nsStaticAtom
 *
 const
 *
-const
 mTag
 ;
 const
@@ -1567,7 +1564,6 @@ nsICSSAnonBoxPseudo
 *
 const
 *
-const
 mPseudoType
 ;
 }
