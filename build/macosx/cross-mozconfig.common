@@ -367,7 +367,9 @@ DSYMUTIL
 =
 topsrcdir
 /
-clang
+llvm
+-
+dsymutil
 /
 bin
 /
