@@ -10602,10 +10602,9 @@ id_
 method_
 flags_
 pref_
-parsevariant_
 \
+parsevariant_
 kwtable_
-stylestruct_
 animtype_
 )
 \
