@@ -1587,6 +1587,11 @@ parent
 =
 :
 unsorted_folder
+syncChangeCounter
+=
+syncChangeCounter
++
+1
 WHERE
 guid
 NOT
@@ -1923,6 +1928,11 @@ parent
 =
 :
 unsorted_folder
+syncChangeCounter
+=
+syncChangeCounter
++
+1
 WHERE
 guid
 NOT
@@ -2917,6 +2927,11 @@ guid
 GENERATE_GUID
 (
 )
+syncChangeCounter
+=
+syncChangeCounter
++
+1
 syncStatus
 =
 :
@@ -3144,9 +3159,6 @@ parent
 NEW
 .
 parent
-NEW
-.
-id
 )
 ;
 END
