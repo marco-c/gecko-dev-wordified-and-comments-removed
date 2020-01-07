@@ -87,12 +87,10 @@ sp
 -
 1
 <
-pseudoStack_
--
->
-stackCapacity
-(
-)
+PseudoStack
+:
+:
+MaxEntries
 )
 {
 MOZ_ASSERT
