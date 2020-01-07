@@ -669,11 +669,6 @@ aStride
 aSize
 .
 height
-*
-BytesPerPixel
-(
-aFormat
-)
 )
 ;
 if
@@ -694,11 +689,6 @@ aStride
 aSize
 .
 height
-*
-BytesPerPixel
-(
-aFormat
-)
 )
 ;
 RefPtr
