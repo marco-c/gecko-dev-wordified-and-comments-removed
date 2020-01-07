@@ -515,11 +515,6 @@ IsInfinite
 )
 const
 ;
-void
-NotifyDataArrived
-(
-)
-;
 bool
 IsSeeking
 (

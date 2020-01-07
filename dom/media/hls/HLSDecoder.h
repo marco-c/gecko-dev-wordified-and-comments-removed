@@ -123,6 +123,11 @@ Shutdown
 )
 override
 ;
+void
+NotifyDataArrived
+(
+)
+;
 private
 :
 friend

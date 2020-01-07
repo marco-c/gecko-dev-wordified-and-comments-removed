@@ -199,6 +199,11 @@ NotifyInitDataArrived
 (
 )
 ;
+void
+NotifyDataArrived
+(
+)
+;
 private
 :
 void
