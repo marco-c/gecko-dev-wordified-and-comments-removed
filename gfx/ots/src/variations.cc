@@ -498,6 +498,7 @@ size_t
 itemCount
 )
 *
+(
 size_t
 (
 shortDeltaCount
@@ -506,6 +507,7 @@ shortDeltaCount
 size_t
 (
 regionIndexCount
+)
 )
 )
 )
