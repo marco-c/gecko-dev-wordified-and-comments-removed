@@ -1995,6 +1995,17 @@ LoginManagerParent
 "
 ]
 "
+LoginStats
+:
+LoginFillSuccessful
+"
+:
+[
+"
+LoginManagerParent
+"
+]
+"
 WCCR
 :
 registerProtocolHandler
