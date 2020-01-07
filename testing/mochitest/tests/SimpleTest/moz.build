@@ -122,6 +122,11 @@ MozillaLogger
 js
 '
 '
+AddTask
+.
+js
+'
+'
 EventUtils
 .
 js
@@ -172,11 +177,6 @@ js
 '
 '
 SimpleTest
-.
-js
-'
-'
-SpawnTask
 .
 js
 '
