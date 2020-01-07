@@ -2251,7 +2251,7 @@ unsafe
 structs
 :
 :
-nsContentUtils_sIsWebComponentsEnabled
+nsContentUtils_sIsShadowDOMEnabled
 }
 }
 fn

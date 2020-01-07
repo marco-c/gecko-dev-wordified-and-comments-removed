@@ -253098,13 +253098,13 @@ u
 {
 1
 }
-_ZN14nsContentUtils23sIsWebComponentsEnabledE
+_ZN14nsContentUtils23sIsShadowDOMEnabledE
 "
 ]
 pub
 static
 mut
-nsContentUtils_sIsWebComponentsEnabled
+nsContentUtils_sIsShadowDOMEnabled
 :
 bool
 ;
