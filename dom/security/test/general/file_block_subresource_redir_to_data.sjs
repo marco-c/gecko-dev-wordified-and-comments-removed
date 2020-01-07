@@ -98,6 +98,15 @@ query
 "
 script
 "
+|
+|
+query
+=
+=
+=
+"
+modulescript
+"
 )
 {
 response
@@ -112,7 +121,7 @@ data
 :
 text
 /
-html
+javascript
 "
 +
 escape
@@ -148,7 +157,7 @@ data
 :
 text
 /
-html
+javascript
 "
 +
 escape
