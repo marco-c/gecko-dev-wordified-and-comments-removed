@@ -3424,7 +3424,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -3737,7 +3737,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -7267,7 +7267,7 @@ version
 .
 23
 .
-1
+2
 "
 source
 =
@@ -7537,9 +7537,9 @@ index
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -11811,9 +11811,9 @@ hashglobe
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -13221,7 +13221,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -13396,9 +13396,9 @@ servo_arc
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -14190,9 +14190,9 @@ index
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -14463,7 +14463,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -19883,9 +19883,9 @@ servo_url
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -22063,7 +22063,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -22193,9 +22193,9 @@ index
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -29346,7 +29346,7 @@ parking_lot_core
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -29387,7 +29387,7 @@ version
 .
 2
 .
-6
+7
 "
 source
 =
@@ -29508,9 +29508,9 @@ index
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -33407,7 +33407,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -34492,9 +34492,9 @@ servo_url
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -34895,7 +34895,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -35844,7 +35844,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -36079,9 +36079,9 @@ size_of_test
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -40646,9 +40646,9 @@ version
 "
 0
 .
-4
+6
 .
-3
+0
 "
 source
 =
@@ -41445,7 +41445,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -42171,9 +42171,9 @@ index
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -42616,7 +42616,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -42935,7 +42935,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -43137,7 +43137,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -43341,9 +43341,9 @@ size_of_test
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -51711,7 +51711,7 @@ cssparser
 .
 23
 .
-1
+2
 (
 registry
 +
@@ -51736,7 +51736,7 @@ index
 "
 =
 "
-83b169a4a5c49826a93ab1778008771b3b05bca95deea76e6c723c667dbc74b8
+8a807ac3ab7a217829c2a3b65732b926b2befe6a35f33b4bf8b503692430f223
 "
 "
 checksum
@@ -56149,7 +56149,7 @@ parking_lot_core
 .
 2
 .
-6
+7
 (
 registry
 +
@@ -56174,7 +56174,7 @@ index
 "
 =
 "
-4f610cb9664da38e417ea3225f23051f589851999535290e077939838ab7a595
+6c677d78851950b3aec390e681a411f78cc250cba277d4f578758a377f727970
 "
 "
 checksum
@@ -58141,9 +58141,9 @@ checksum
 smallvec
 0
 .
-4
+6
 .
-3
+0
 (
 registry
 +
@@ -58168,7 +58168,7 @@ index
 "
 =
 "
-8fcd03faf178110ab0334d74ca9631d77f94c8c11cc77fcb59538abf0025695d
+44db0ecb22921ef790d17ae13a3f6d15784183ff5f2a01aa32098c7498d2b4b9
 "
 "
 checksum
