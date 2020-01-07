@@ -2220,16 +2220,6 @@ aPrefs
 )
 ;
 bool
-AllocChannel
-(
-)
-;
-void
-FreeChannel
-(
-)
-;
-bool
 HasEnabledTrack
 (
 )
