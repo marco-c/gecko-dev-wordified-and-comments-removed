@@ -3826,9 +3826,6 @@ host
 "
 port
 "
-"
-query
-"
 ]
 ;
 propertiesToCheck
