@@ -119,6 +119,16 @@ mDone
 nsAutoHandle
 mDoneEvent
 ;
+static
+bool
+InitStatics
+(
+)
+;
+static
+bool
+sIsMulticore
+;
 }
 ;
 }
