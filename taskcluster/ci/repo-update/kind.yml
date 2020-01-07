@@ -206,7 +206,10 @@ PRODUCT
 firefox
 REVIEWERS
 :
+"
 sfraser
+aki
+"
 command
 :
 -
