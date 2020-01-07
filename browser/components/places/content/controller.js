@@ -1409,9 +1409,6 @@ hiddenRows
 :
 [
 "
-description
-"
-"
 keyword
 "
 "

@@ -1561,7 +1561,6 @@ addLiveBookmark
 {
 spec
 title
-subtitle
 }
 )
 ;

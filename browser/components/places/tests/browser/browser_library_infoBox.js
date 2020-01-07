@@ -635,7 +635,6 @@ checkInfoBoxSelected
 ;
 ok
 (
-!
 infoBoxExpanderWrapper
 .
 hidden
@@ -643,7 +642,6 @@ hidden
 Expander
 button
 is
-not
 hidden
 for
 recently
@@ -653,7 +651,7 @@ node
 "
 )
 ;
-checkAddInfoFieldsNotCollapsed
+checkAddInfoFieldsCollapsed
 (
 PO
 )
@@ -665,6 +663,14 @@ ContentTree
 view
 .
 view
+;
+ContentTree
+.
+view
+.
+focus
+(
+)
 ;
 ok
 (

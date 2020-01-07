@@ -302,8 +302,6 @@ FEED_URI
 Example
 Feed
 "
-"
-"
 ]
 "
 Should

@@ -327,9 +327,6 @@ spec
 data
 .
 title
-data
-.
-subtitle
 )
 .
 catch

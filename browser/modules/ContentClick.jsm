@@ -243,9 +243,6 @@ hiddenRows
 :
 [
 "
-description
-"
-"
 location
 "
 "
