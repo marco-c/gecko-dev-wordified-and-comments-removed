@@ -4321,8 +4321,7 @@ mozBlockInsideInlineWrapper
 Unexpected
 kind
 of
-style
-context
+ComputedStyle
 "
 )
 ;

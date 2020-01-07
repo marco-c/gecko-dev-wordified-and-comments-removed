@@ -13233,8 +13233,7 @@ aComputedStyle
 Must
 have
 a
-style
-context
+ComputedStyle
 "
 )
 ;

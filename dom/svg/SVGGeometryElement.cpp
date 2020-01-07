@@ -710,8 +710,7 @@ Couldn
 '
 t
 get
-style
-context
+ComputedStyle
 for
 content
 in
