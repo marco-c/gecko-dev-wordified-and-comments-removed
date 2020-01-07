@@ -1324,7 +1324,12 @@ close
 catch
 (
 ex
+)
+{
 if
+(
+!
+(
 ex
 instanceof
 OS
@@ -1338,7 +1343,12 @@ ex
 .
 becauseNoSuchFile
 )
+)
 {
+throw
+ex
+;
+}
 yield
 OS
 .
