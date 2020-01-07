@@ -1071,12 +1071,14 @@ nsToolkitProfile
 :
 RemoveInBackground
 (
+bool
+removeFiles
 )
 {
 return
 RemoveInternal
 (
-true
+removeFiles
 true
 )
 ;
