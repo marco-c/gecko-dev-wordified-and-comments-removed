@@ -70,7 +70,11 @@ h
 #
 include
 "
-nsHostObjectProtocolHandler
+mozilla
+/
+dom
+/
+FontTableURIProtocolHandler
 .
 h
 "
@@ -5189,6 +5193,12 @@ uri
 |
 |
 !
+mozilla
+:
+:
+dom
+:
+:
 IsFontTableURI
 (
 uri

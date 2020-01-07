@@ -23,6 +23,17 @@ mozilla
 /
 dom
 /
+BlobURLProtocolHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h
@@ -55,13 +66,6 @@ include
 mozilla
 /
 Unused
-.
-h
-"
-#
-include
-"
-nsHostObjectProtocolHandler
 .
 h
 "
@@ -247,7 +251,7 @@ url
 nsresult
 rv
 =
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 AddDataEntry
@@ -457,7 +461,7 @@ nsIPrincipal
 *
 urlPrincipal
 =
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 GetDataEntryPrincipal
@@ -503,7 +507,7 @@ subsumes
 subsumes
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -678,7 +682,7 @@ mURL
 ;
 mValid
 =
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 HasDataEntry

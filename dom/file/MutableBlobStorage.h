@@ -25,6 +25,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 prio
 .
 h

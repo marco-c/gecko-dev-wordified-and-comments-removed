@@ -32,6 +32,17 @@ include
 "
 mozilla
 /
+dom
+/
+BlobURLProtocolHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -40,13 +51,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsHostObjectProtocolHandler
 .
 h
 "
@@ -436,7 +440,7 @@ url
 ;
 aRv
 =
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 AddDataEntry
@@ -531,7 +535,7 @@ url
 ;
 aRv
 =
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 AddDataEntry
@@ -578,7 +582,7 @@ CreateObjectURL
 url
 ]
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -691,7 +695,7 @@ nsIPrincipal
 *
 urlPrincipal
 =
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 GetDataEntryPrincipal
@@ -721,7 +725,7 @@ UnregisterHostObjectURI
 asciiurl
 )
 ;
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -803,7 +807,7 @@ aURL
 )
 ;
 return
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 HasDataEntry
