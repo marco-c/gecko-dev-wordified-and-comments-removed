@@ -333,9 +333,10 @@ public
 static
 const
 char
-*
-const
 kPrefName
+[
+38
+]
 ;
 static
 FifoWatcher
