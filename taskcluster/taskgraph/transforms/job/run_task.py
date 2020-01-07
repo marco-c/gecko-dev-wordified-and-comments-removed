@@ -362,6 +362,19 @@ job
 taskdesc
 )
     
+if
+run
+.
+get
+(
+'
+cache
+-
+dotcache
+'
+)
+:
+        
 worker
 [
 '
@@ -372,7 +385,7 @@ caches
 append
 (
 {
-        
+            
 '
 type
 '
@@ -380,7 +393,7 @@ type
 '
 persistent
 '
-        
+            
 '
 name
 '
@@ -407,7 +420,7 @@ config
 .
 params
 )
-        
+            
 '
 mount
 -
@@ -423,7 +436,7 @@ worker
 .
 cache
 '
-        
+            
 '
 skip
 -
@@ -431,7 +444,7 @@ untrusted
 '
 :
 True
-    
+        
 }
 )
     
