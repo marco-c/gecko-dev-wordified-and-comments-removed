@@ -66,6 +66,10 @@ mDuration
 -
 1
 )
+mTrack
+(
+0
+)
 mIsKeyframe
 (
 false

@@ -146,6 +146,11 @@ Context
 Context
 (
 )
+:
+mId
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (

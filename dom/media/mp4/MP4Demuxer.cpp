@@ -616,6 +616,10 @@ ResourceStream
 aResource
 )
 )
+mIsSeekable
+(
+false
+)
 {
 DDLINKCHILD
 (

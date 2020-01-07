@@ -1865,6 +1865,10 @@ mSetInactiveOnFinish
 (
 false
 )
+mCORSMode
+(
+CORS_NONE
+)
 {
 nsresult
 rv

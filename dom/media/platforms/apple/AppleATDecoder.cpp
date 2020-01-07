@@ -200,6 +200,9 @@ mConverter
 (
 nullptr
 )
+mOutputFormat
+(
+)
 mStream
 (
 nullptr
