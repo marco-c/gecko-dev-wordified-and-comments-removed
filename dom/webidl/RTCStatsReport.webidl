@@ -704,6 +704,16 @@ lastPacketReceivedTimestamp
 boolean
 selected
 ;
+[
+ChromeOnly
+]
+unsigned
+long
+componentId
+;
+/
+/
+moz
 }
 ;
 enum
