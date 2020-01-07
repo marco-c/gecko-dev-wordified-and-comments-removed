@@ -683,7 +683,7 @@ cancel
 ?
 "
 _title
-MB_YESNOCANCEL
+MB_YESNO
 )
 ;
 _inCancelMessageBox
