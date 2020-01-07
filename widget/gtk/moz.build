@@ -437,11 +437,6 @@ nsClipboard
 cpp
 '
 '
-nsClipboardX11
-.
-cpp
-'
-'
 nsDragService
 .
 cpp
