@@ -1517,7 +1517,7 @@ get_box
 _servo_overflow_clip_box
 get_inheritedtext
 .
-_servo_text_decorations_in_effect
+text_decorations_in_effect
 get_pointing
 .
 cursor

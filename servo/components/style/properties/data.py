@@ -1149,9 +1149,6 @@ None
 animation_value_type
 =
 None
-derived_from
-=
-None
 keyword
 =
 None
@@ -1159,9 +1156,6 @@ None
 predefined_type
 =
 None
-custom_cascade
-=
-False
 servo_pref
 =
 None
@@ -1178,9 +1172,6 @@ need_index
 =
 False
                  
-custom_cascade_function
-=
-None
 gecko_ffi_name
 =
 None
@@ -1312,22 +1303,6 @@ gecko_pref
 =
 gecko_pref
         
-self
-.
-custom_cascade
-=
-custom_cascade
-        
-self
-.
-custom_cascade_function
-=
-custom_cascade_function
-if
-custom_cascade
-else
-None
-        
 assert
 enabled_in
 in
@@ -1370,21 +1345,6 @@ m
 self
 .
 camel_case
-        
-self
-.
-derived_from
-=
-(
-derived_from
-or
-"
-"
-)
-.
-split
-(
-)
         
 self
 .
@@ -1790,12 +1750,6 @@ self
 .
 ident
 )
-        
-self
-.
-derived_from
-=
-None
         
 self
 .
@@ -2592,13 +2546,6 @@ longhands_by_name
         
 self
 .
-derived_longhands
-=
-{
-}
-        
-self
-.
 longhand_aliases
 =
 [
@@ -2839,30 +2786,6 @@ name
 ]
 =
 longhand
-        
-for
-name
-in
-longhand
-.
-derived_from
-:
-            
-self
-.
-derived_longhands
-.
-setdefault
-(
-name
-[
-]
-)
-.
-append
-(
-longhand
-)
         
 return
 longhand

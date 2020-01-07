@@ -10788,7 +10788,7 @@ get_inheritedtext
 (
 )
 .
-_servo_text_decorations_in_effect
+text_decorations_in_effect
 ;
 let
 stacking_relative_content_box
