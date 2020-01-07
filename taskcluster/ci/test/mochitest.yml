@@ -142,8 +142,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 )
@@ -393,8 +391,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 a11y
@@ -518,8 +514,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 bc
@@ -722,8 +716,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 inst
@@ -814,8 +806,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 ss
@@ -956,8 +946,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 c
@@ -1133,8 +1121,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 cl
@@ -1319,8 +1305,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 dt
@@ -1470,8 +1454,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 gpu
@@ -1686,8 +1668,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 mda
@@ -1833,8 +1813,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 h
@@ -1925,8 +1903,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 -
 V
@@ -2023,8 +1999,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 gl

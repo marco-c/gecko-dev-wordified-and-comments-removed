@@ -198,8 +198,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 H
 )
@@ -323,10 +321,7 @@ linux64
 debug
 symbol
 :
-tc
-(
 H
-)
 run
 :
 using

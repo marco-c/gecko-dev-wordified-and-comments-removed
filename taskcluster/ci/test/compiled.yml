@@ -104,10 +104,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 Cpp
-)
 instance
 -
 size
@@ -214,10 +211,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 GTest
-)
 instance
 -
 size
@@ -364,10 +358,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 Jit
-)
 run
 -
 on

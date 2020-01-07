@@ -105,10 +105,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 Mn
-)
 max
 -
 run
@@ -204,10 +201,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 MnH
-)
 max
 -
 run

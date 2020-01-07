@@ -133,8 +133,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 pkg
 )
@@ -203,8 +201,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 mozjs
 -
@@ -283,8 +279,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 rust
 )
@@ -364,8 +358,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 p
 )
@@ -408,8 +400,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 p
 )
@@ -458,8 +448,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 nojit
 )
@@ -517,8 +505,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 arm
 )
@@ -573,8 +559,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 arm64
 )
@@ -620,8 +604,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 asan
 )
@@ -674,8 +656,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 cgc
 )
@@ -719,8 +699,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 msan
 )
@@ -769,8 +747,6 @@ treeherder
 symbol
 :
 SM
--
-tc
 (
 tsan
 )
@@ -827,8 +803,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 r
 )
@@ -879,8 +853,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 nu
 )
@@ -926,8 +898,6 @@ opt
 symbol
 :
 SM
--
-tc
 (
 f
 )

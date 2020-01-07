@@ -85,8 +85,6 @@ treeherder
 -
 symbol
 :
-tc
--
 SY
 (
 sy
@@ -146,8 +144,6 @@ treeherder
 -
 symbol
 :
-tc
--
 SYsd
 (
 sy
@@ -219,8 +215,6 @@ treeherder
 -
 symbol
 :
-tc
--
 SYss
 (
 sy

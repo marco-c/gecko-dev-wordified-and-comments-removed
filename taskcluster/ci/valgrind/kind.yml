@@ -140,10 +140,7 @@ linux64
 opt
 symbol
 :
-tc
-(
 V
-)
 kind
 :
 build

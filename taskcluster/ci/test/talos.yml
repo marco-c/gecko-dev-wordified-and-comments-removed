@@ -159,8 +159,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 c
@@ -272,8 +270,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 c
@@ -345,8 +341,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 d
@@ -458,8 +452,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 d
@@ -531,8 +523,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 g1
@@ -651,8 +641,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 g1
@@ -731,8 +719,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 g2
@@ -866,8 +852,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 g2
@@ -946,8 +930,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 g3
@@ -1059,8 +1041,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 g3
@@ -1132,8 +1112,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 g4
@@ -1245,8 +1223,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 g4
@@ -1318,8 +1294,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 g5
@@ -1431,8 +1405,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 g5
@@ -1504,8 +1476,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 h1
@@ -1614,8 +1584,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 h2
@@ -1724,8 +1692,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 o
@@ -1837,8 +1803,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 o
@@ -1916,8 +1880,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 p
@@ -2016,8 +1978,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 ps
@@ -2128,8 +2088,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 ps
@@ -2205,8 +2163,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 p
@@ -2264,8 +2220,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 sp
@@ -2377,8 +2331,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 sp
@@ -2450,8 +2402,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 s
@@ -2563,8 +2513,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 s
@@ -2636,8 +2584,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 tp
@@ -2749,8 +2695,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 tp
@@ -2822,8 +2766,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 tp6
@@ -2942,8 +2884,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tsd
 (
 tp6
@@ -3067,8 +3007,6 @@ treeherder
 -
 symbol
 :
-tc
--
 Tss
 (
 tp6
@@ -3187,8 +3125,6 @@ treeherder
 -
 symbol
 :
-tc
--
 T
 (
 x

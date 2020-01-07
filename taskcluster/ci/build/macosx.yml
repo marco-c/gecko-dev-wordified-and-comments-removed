@@ -35,10 +35,7 @@ cross
 debug
 symbol
 :
-tc
-(
 B
-)
 tier
 :
 1
@@ -222,10 +219,7 @@ cross
 opt
 symbol
 :
-tc
-(
 B
-)
 tier
 :
 1
@@ -407,10 +401,7 @@ dmd
 opt
 symbol
 :
-tc
-(
 Bdmd
-)
 tier
 :
 2
@@ -626,10 +617,7 @@ devedition
 opt
 symbol
 :
-tc
-(
 N
-)
 tier
 :
 1
@@ -839,10 +827,7 @@ noopt
 debug
 symbol
 :
-tc
-(
 B
-)
 tier
 :
 2
@@ -1071,10 +1056,7 @@ devel
 opt
 symbol
 :
-tc
-(
 B
-)
 tier
 :
 2
@@ -1310,10 +1292,7 @@ cross
 opt
 symbol
 :
-tc
-(
 N
-)
 tier
 :
 1

@@ -34,10 +34,7 @@ linux64
 opt
 symbol
 :
-tc
-(
 Src
-)
 worker
 -
 type
@@ -158,10 +155,7 @@ api
 opt
 symbol
 :
-tc
-(
 Src
-)
 worker
 -
 type
@@ -282,10 +276,7 @@ source
 opt
 symbol
 :
-tc
-(
 Src
-)
 worker
 -
 type

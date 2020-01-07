@@ -99,8 +99,6 @@ symbol
 ]
 =
 '
-tc
--
 L10n
 -
 Rpk

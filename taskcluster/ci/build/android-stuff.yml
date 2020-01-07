@@ -47,8 +47,6 @@ tier
 1
 symbol
 :
-tc
--
 A
 (
 test
@@ -374,8 +372,6 @@ tier
 1
 symbol
 :
-tc
--
 A
 (
 lint
@@ -899,8 +895,6 @@ tier
 1
 symbol
 :
-tc
--
 A
 (
 checkstyle
@@ -1309,8 +1303,6 @@ tier
 1
 symbol
 :
-tc
--
 A
 (
 findbugs
@@ -1727,8 +1719,6 @@ tier
 3
 symbol
 :
-tc
--
 A
 (
 gv

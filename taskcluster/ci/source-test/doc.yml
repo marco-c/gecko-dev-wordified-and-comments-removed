@@ -15,10 +15,7 @@ treeherder
 :
 symbol
 :
-tc
-(
 Doc
-)
 kind
 :
 test
@@ -175,10 +172,7 @@ treeherder
 :
 symbol
 :
-tc
-(
 DocUp
-)
 kind
 :
 test

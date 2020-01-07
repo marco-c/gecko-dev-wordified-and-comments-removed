@@ -13,10 +13,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 gv
-)
 instance
 -
 size
@@ -107,8 +104,6 @@ treeherder
 -
 symbol
 :
-tc
--
 M
 (
 rc
@@ -245,9 +240,11 @@ treeherder
 -
 symbol
 :
-tc
+tt
 -
-e10s
+c
+(
+)
 max
 -
 run
@@ -317,10 +314,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 TV
-)
 loopback
 -
 video

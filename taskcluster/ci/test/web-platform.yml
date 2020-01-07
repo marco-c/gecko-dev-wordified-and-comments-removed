@@ -95,8 +95,6 @@ treeherder
 -
 symbol
 :
-tc
--
 W
 (
 wpt
@@ -201,8 +199,6 @@ treeherder
 -
 symbol
 :
-tc
--
 W
 (
 wptH
@@ -354,8 +350,6 @@ treeherder
 -
 symbol
 :
-tc
--
 W
 (
 Wr
@@ -445,8 +439,6 @@ treeherder
 -
 symbol
 :
-tc
--
 W
 (
 WrH
@@ -588,8 +580,6 @@ treeherder
 -
 symbol
 :
-tc
--
 W
 (
 Wd
@@ -642,8 +632,6 @@ treeherder
 -
 symbol
 :
-tc
--
 W
 (
 WdH
@@ -751,10 +739,7 @@ treeherder
 -
 symbol
 :
-tc
-(
 TVw
-)
 run
 -
 on

@@ -405,10 +405,7 @@ setdefault
 symbol
 '
 '
-tc
-(
 SymN
-)
 '
 )
         
@@ -423,10 +420,7 @@ setdefault
 symbol
 '
 '
-tc
-(
 Sym
-)
 '
 )
         

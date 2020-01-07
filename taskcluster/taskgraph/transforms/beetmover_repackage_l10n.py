@@ -95,8 +95,6 @@ continue
 group
 =
 '
-tc
--
 BMR
 -
 L10n

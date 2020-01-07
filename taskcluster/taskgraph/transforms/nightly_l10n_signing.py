@@ -115,8 +115,6 @@ l10n_chunk
 group
 =
 '
-tc
--
 L10n
 '
         

@@ -434,10 +434,7 @@ windows2012
 debug
 symbol
 :
-tc
-(
 S
-)
 tier
 :
 1
@@ -607,10 +604,7 @@ windows2012
 opt
 symbol
 :
-tc
-(
 S
-)
 tier
 :
 1
@@ -780,10 +774,7 @@ windows2012
 debug
 symbol
 :
-tc
-(
 S
-)
 tier
 :
 1
@@ -953,10 +944,7 @@ windows2012
 opt
 symbol
 :
-tc
-(
 S
-)
 tier
 :
 1

@@ -143,8 +143,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 p
 )
@@ -194,8 +192,6 @@ opt
 symbol
 :
 SM
--
-tc
 (
 p
 )
@@ -245,8 +241,6 @@ debug
 symbol
 :
 SM
--
-tc
 (
 cgc
 )
