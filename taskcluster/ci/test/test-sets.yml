@@ -735,10 +735,6 @@ gpu
 mochitest
 -
 media
--
-mochitest
--
-webgl
 windows
 -
 qr
