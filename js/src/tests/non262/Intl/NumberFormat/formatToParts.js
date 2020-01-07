@@ -1056,13 +1056,6 @@ Fraction
 "
 "
 )
-Literal
-(
-"
-\
-xA0
-"
-)
 PercentSign
 (
 "
