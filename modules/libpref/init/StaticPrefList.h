@@ -111,7 +111,7 @@ parallel
 "
 layout_css_parsing_parallel
 bool
-true
+false
 )
 VARCACHE_PREF
 (
