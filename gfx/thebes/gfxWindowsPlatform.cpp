@@ -1565,10 +1565,6 @@ mRenderMode
 (
 RENDER_GDI
 )
-mUsingDirectWrite
-(
-false
-)
 {
 CoInitialize
 (
@@ -2828,10 +2824,6 @@ InitFontList
 )
 )
 {
-mUsingDirectWrite
-=
-true
-;
 return
 pfl
 ;
@@ -2864,7 +2856,7 @@ FEATURE_FAILURE_FONT_FAIL
 )
 ;
 }
-mUsingDirectWrite
+mHasVariationFontSupport
 =
 false
 ;
@@ -9954,9 +9946,6 @@ CheckVariationFontSupport
 )
 {
 return
-mUsingDirectWrite
-&
-&
 IsWin10FallCreatorsUpdateOrLater
 (
 )

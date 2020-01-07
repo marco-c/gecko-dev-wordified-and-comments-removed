@@ -984,9 +984,6 @@ D3D_FEATURE_LEVEL
 >
 mFeatureLevels
 ;
-bool
-mUsingDirectWrite
-;
 }
 ;
 #
