@@ -60,10 +60,6 @@ h
 #
 include
 "
-gfx
-/
-gl
-/
 MozFramebuffer
 .
 h
