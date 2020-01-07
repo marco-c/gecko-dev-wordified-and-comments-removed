@@ -142,7 +142,7 @@ GeckoViewAccessibility
 extends
 GeckoViewModule
 {
-init
+onInit
 (
 )
 {
