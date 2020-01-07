@@ -1262,6 +1262,12 @@ font
 family
 )
 ;
+line
+-
+height
+:
+normal
+;
 }
 .
 status
@@ -2149,7 +2155,9 @@ vertical
 -
 align
 :
-top
+text
+-
+bottom
 ;
 }
 .
@@ -3366,6 +3374,12 @@ position
 :
 relative
 ;
+height
+:
+24px
+;
+line
+-
 height
 :
 24px
