@@ -6309,9 +6309,32 @@ none
 important
 ;
 }
-#
 statuspanel
 {
+-
+moz
+-
+binding
+:
+url
+(
+"
+chrome
+:
+/
+/
+browser
+/
+content
+/
+tabbrowser
+.
+xml
+#
+statuspanel
+"
+)
+;
 position
 :
 fixed
@@ -6342,7 +6365,6 @@ events
 none
 ;
 }
-#
 statuspanel
 [
 mirror
@@ -6365,7 +6387,6 @@ end
 0
 ;
 }
-#
 statuspanel
 [
 sizelimit
@@ -6379,7 +6400,6 @@ width
 %
 ;
 }
-#
 statuspanel
 [
 type
@@ -6405,7 +6425,6 @@ width
 800px
 )
 {
-#
 statuspanel
 [
 type
@@ -6422,7 +6441,6 @@ width
 ;
 }
 }
-#
 statuspanel
 [
 type
@@ -6439,7 +6457,6 @@ ease
 out
 ;
 }
-#
 statuspanel
 [
 type
@@ -6447,7 +6464,7 @@ type
 overLink
 ]
 >
-#
+.
 statuspanel
 -
 inner
@@ -6457,7 +6474,6 @@ direction
 ltr
 ;
 }
-#
 statuspanel
 [
 inactive
@@ -6472,7 +6488,6 @@ opacity
 0
 ;
 }
-#
 statuspanel
 [
 inactive
@@ -6492,7 +6507,7 @@ ease
 out
 ;
 }
-#
+.
 statuspanel
 -
 inner
