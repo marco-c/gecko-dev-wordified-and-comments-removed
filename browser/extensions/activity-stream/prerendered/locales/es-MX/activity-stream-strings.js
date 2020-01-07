@@ -75,7 +75,8 @@ type_label_bookmarked
 "
 :
 "
-Marcados
+En
+marcadores
 "
 "
 type_label_recommended
@@ -123,8 +124,8 @@ menu_action_open_new_window
 Abrir
 en
 una
-Nueva
-Ventana
+nueva
+ventana
 "
 "
 menu_action_open_private_window
@@ -134,9 +135,9 @@ menu_action_open_private_window
 Abrir
 en
 una
-Nueva
-Ventana
-Privada
+nueva
+ventana
+privada
 "
 "
 menu_action_dismiss
@@ -321,6 +322,7 @@ search_header
 :
 "
 Buscar
+con
 {
 search_engine_name
 }
@@ -370,8 +372,9 @@ section_disclaimer_topstories_linktext
 :
 "
 Saber
-como
-trabaja
+c
+mo
+funciona
 .
 "
 "
@@ -957,8 +960,7 @@ section_menu_action_move_up
 "
 :
 "
-M
-s
+Subir
 "
 "
 section_menu_action_move_down
