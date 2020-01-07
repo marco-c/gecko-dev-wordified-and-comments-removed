@@ -34,7 +34,7 @@ mozilla
 /
 layers
 /
-APZUtils
+LayersTypes
 .
 h
 "
@@ -338,18 +338,6 @@ SetLongTapEnabled
 (
 bool
 aTapGestureEnabled
-)
-=
-0
-;
-virtual
-void
-ProcessTouchVelocity
-(
-uint32_t
-aTimestampMs
-float
-aSpeedY
 )
 =
 0
