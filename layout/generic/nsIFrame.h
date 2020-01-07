@@ -9527,6 +9527,7 @@ bool
 IsScrolledOutOfView
 (
 )
+const
 ;
 Matrix
 ComputeWidgetTransform
