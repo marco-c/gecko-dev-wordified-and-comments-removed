@@ -1230,7 +1230,7 @@ project
 .
 latest
 .
-firefox
+taskgraph
 .
 decision
 "
