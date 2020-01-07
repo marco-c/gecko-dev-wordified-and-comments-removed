@@ -15238,6 +15238,8 @@ ChromeHangs
 render
 (
 payload
+.
+chromeHangs
 )
 ;
 TelLog
