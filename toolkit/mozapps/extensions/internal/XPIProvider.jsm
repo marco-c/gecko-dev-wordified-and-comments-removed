@@ -2066,6 +2066,9 @@ wantGlobalProperties
 :
 [
 "
+ChromeUtils
+"
+"
 TextDecoder
 "
 ]
@@ -18339,6 +18342,13 @@ path
 addonId
 :
 aId
+wantGlobalProperties
+:
+[
+"
+ChromeUtils
+"
+]
 metadata
 :
 {
@@ -18509,6 +18519,13 @@ uri
 addonId
 :
 aId
+wantGlobalProperties
+:
+[
+"
+ChromeUtils
+"
+]
 metadata
 :
 {
