@@ -535,8 +535,6 @@ WorkerPrivate
 aWorkerPrivate
 TargetAndBusyBehavior
 aBehavior
-=
-WorkerThreadModifyBusyCount
 )
 #
 ifdef
