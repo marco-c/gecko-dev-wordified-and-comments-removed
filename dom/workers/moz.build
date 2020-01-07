@@ -164,6 +164,11 @@ ServiceWorkerRegistration
 h
 '
 '
+ServiceWorkerUtils
+.
+h
+'
+'
 WorkerLocation
 .
 h
@@ -435,6 +440,11 @@ cpp
 '
 '
 ServiceWorkerUpdaterParent
+.
+cpp
+'
+'
+ServiceWorkerUtils
 .
 cpp
 '
