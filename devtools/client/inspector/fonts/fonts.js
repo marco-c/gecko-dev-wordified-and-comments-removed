@@ -1147,6 +1147,16 @@ ruleView
 rules
 )
 {
+if
+(
+rule
+.
+inherited
+)
+{
+continue
+;
+}
 for
 (
 const
