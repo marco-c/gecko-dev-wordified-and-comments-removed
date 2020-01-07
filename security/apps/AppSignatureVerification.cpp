@@ -7734,14 +7734,6 @@ mSignerCert
 }
 virtual
 void
-ReleaseNSSResources
-(
-)
-override
-{
-}
-virtual
-void
 CallCallback
 (
 nsresult
