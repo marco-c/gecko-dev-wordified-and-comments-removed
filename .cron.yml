@@ -580,6 +580,18 @@ projects
 mozilla
 -
 central
+-
+mozilla
+-
+beta
+-
+mozilla
+-
+release
+-
+mozilla
+-
+esr60
 when
 :
 by
@@ -624,7 +636,7 @@ minute
 }
 mozilla
 -
-esr60
+beta
 :
 -
 {
@@ -688,7 +700,7 @@ minute
 }
 mozilla
 -
-beta
+esr60
 :
 -
 {
