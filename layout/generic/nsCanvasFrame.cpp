@@ -1848,6 +1848,11 @@ if
 mBackgroundStyle
 -
 >
+StyleBackground
+(
+)
+-
+>
 mImage
 .
 mLayers
@@ -1908,6 +1913,11 @@ Layer
 layer
 =
 mBackgroundStyle
+-
+>
+StyleBackground
+(
+)
 -
 >
 mImage
@@ -2213,8 +2223,7 @@ aBuilder
 )
 )
 {
-const
-nsStyleBackground
+ComputedStyle
 *
 bg
 =
@@ -2256,11 +2265,6 @@ dependentFrame
 -
 >
 Style
-(
-)
--
->
-StyleBackground
 (
 )
 ;
@@ -2365,6 +2369,11 @@ nsStyleImageLayers
 layers
 =
 bg
+-
+>
+StyleBackground
+(
+)
 -
 >
 mImage

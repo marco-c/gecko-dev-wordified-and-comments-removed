@@ -904,6 +904,7 @@ aRect
 )
 mStyle
 (
+*
 aStyle
 )
 mAscent
@@ -1147,7 +1148,6 @@ mRect
 ;
 const
 nsStyleTextOverflowSide
-*
 mStyle
 ;
 nscoord
@@ -1414,8 +1414,7 @@ aOffsetFromRect
 if
 (
 mStyle
--
->
+.
 mType
 =
 =
@@ -1520,16 +1519,14 @@ mFrame
 fm
 aCtx
 mStyle
--
->
+.
 mString
 .
 get
 (
 )
 mStyle
--
->
+.
 mString
 .
 Length
