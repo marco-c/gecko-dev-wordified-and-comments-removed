@@ -478,5 +478,9 @@ attribute
 EventHandler
 onshippingoptionchange
 ;
+attribute
+EventHandler
+onpaymentmethodchange
+;
 }
 ;

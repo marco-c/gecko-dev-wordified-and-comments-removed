@@ -65,8 +65,10 @@ class
 Promise
 ;
 class
+PaymentRequest
+;
+class
 PaymentRequestUpdateEvent
-final
 :
 public
 Event

@@ -122,6 +122,11 @@ PaymentAddress
 h
 '
 '
+PaymentMethodChangeEvent
+.
+h
+'
+'
 PaymentRequest
 .
 h
@@ -163,6 +168,11 @@ cpp
 '
 '
 PaymentAddress
+.
+cpp
+'
+'
+PaymentMethodChangeEvent
 .
 cpp
 '
