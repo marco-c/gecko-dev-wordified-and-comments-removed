@@ -13480,7 +13480,7 @@ codeSection_
 .
 size
 >
-MaxModuleBytes
+MaxCodeSectionBytes
 )
 return
 rejectAndDestroyBeforeHelperThreadStarted
