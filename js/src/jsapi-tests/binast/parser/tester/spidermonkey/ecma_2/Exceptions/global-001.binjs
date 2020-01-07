@@ -110,6 +110,7 @@ list
 <
 list
 >
+k
 <
 tuple
 >
@@ -981,6 +982,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -992,6 +994,7 @@ tuple
 <
 list
 >
+i
 <
 tuple
 >
@@ -1152,6 +1155,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1163,6 +1167,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >

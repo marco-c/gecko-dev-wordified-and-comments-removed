@@ -37,6 +37,7 @@ list
 <
 list
 >
+V
 <
 string
 >
@@ -684,6 +685,7 @@ tuple
 <
 list
 >
+T
 <
 tuple
 >
@@ -780,6 +782,7 @@ tuple
 <
 list
 >
+W
 <
 tuple
 >
@@ -1071,6 +1074,7 @@ tuple
 <
 list
 >
+D
 <
 tuple
 >

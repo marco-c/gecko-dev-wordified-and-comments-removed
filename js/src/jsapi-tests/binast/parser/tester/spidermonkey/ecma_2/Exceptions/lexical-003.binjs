@@ -1010,6 +1010,7 @@ tuple
 <
 list
 >
+Y
 <
 tuple
 >
@@ -1062,6 +1063,7 @@ tuple
 <
 list
 >
+r
 <
 tuple
 >
@@ -1171,6 +1173,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1182,6 +1185,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >

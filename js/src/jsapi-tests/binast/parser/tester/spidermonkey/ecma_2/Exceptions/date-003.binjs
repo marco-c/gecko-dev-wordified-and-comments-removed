@@ -31,19 +31,19 @@ head
 list
 >
 <
+/
+list
+>
+<
+list
+>
+<
 string
 >
 MyObject
 <
 /
 string
->
-<
-/
-list
->
-<
-list
 >
 <
 string
@@ -126,6 +126,7 @@ list
 <
 list
 >
+!
 <
 tuple
 >
@@ -999,6 +1000,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1151,6 +1153,7 @@ tuple
 <
 list
 >
+K
 <
 tuple
 >
@@ -1389,6 +1392,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1400,6 +1404,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >
@@ -2025,7 +2030,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2053,6 +2058,15 @@ head
 >
 <
 list
+>
+;
+<
+string
+>
+MyObject
+<
+/
+string
 >
 <
 string
@@ -2083,6 +2097,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2131,6 +2146,7 @@ head
 <
 list
 >
+U
 <
 tuple
 >
@@ -2165,6 +2181,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head

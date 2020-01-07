@@ -31,6 +31,13 @@ head
 list
 >
 <
+/
+list
+>
+<
+list
+>
+<
 string
 >
 DoWhile
@@ -45,21 +52,6 @@ DoWhileObject
 <
 /
 string
->
-<
-string
->
-looping
-<
-/
-string
->
-<
-/
-list
->
-<
-list
 >
 <
 string
@@ -86,12 +78,21 @@ VERSION
 string
 >
 <
+string
+>
+looping
+<
+/
+string
+>
+<
 /
 list
 >
 <
 list
 >
+<
 <
 string
 >
@@ -126,6 +127,7 @@ list
 <
 list
 >
+<
 <
 tuple
 >
@@ -726,6 +728,7 @@ tuple
 <
 list
 >
+{
 <
 tuple
 >
@@ -886,6 +889,7 @@ tuple
 <
 list
 >
+{
 <
 tuple
 >
@@ -1046,6 +1050,7 @@ tuple
 <
 list
 >
+{
 <
 tuple
 >
@@ -1206,6 +1211,7 @@ tuple
 <
 list
 >
+{
 <
 tuple
 >
@@ -1384,7 +1390,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1412,6 +1418,15 @@ head
 >
 <
 list
+>
+;
+<
+string
+>
+looping
+<
+/
+string
 >
 <
 string
@@ -1442,6 +1457,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1490,6 +1506,7 @@ head
 <
 list
 >
+V
 <
 tuple
 >
@@ -1524,6 +1541,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1776,6 +1794,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1846,6 +1865,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1919,7 +1939,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1947,6 +1967,14 @@ head
 >
 <
 list
+>
+<
+string
+>
+DoWhileObject
+<
+/
+string
 >
 <
 string
@@ -2001,6 +2029,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2049,6 +2078,7 @@ head
 <
 list
 >
+R
 <
 tuple
 >
@@ -2155,6 +2185,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2190,6 +2221,7 @@ list
 <
 list
 >
+Q
 <
 tuple
 >
@@ -2693,7 +2725,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2721,6 +2753,15 @@ head
 >
 <
 list
+>
+;
+<
+string
+>
+DoWhile
+<
+/
+string
 >
 <
 string
@@ -2771,6 +2812,7 @@ list
 list
 >
 <
+<
 string
 >
 result1
@@ -2792,6 +2834,23 @@ list
 >
 <
 list
+>
+<
+<
+string
+>
+result1
+<
+/
+string
+>
+<
+string
+>
+result2
+<
+/
+string
 >
 <
 /
@@ -2841,6 +2900,7 @@ head
 <
 list
 >
+V
 <
 tuple
 >
@@ -2875,6 +2935,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2910,6 +2971,7 @@ list
 <
 list
 >
+4
 <
 tuple
 >
@@ -3128,6 +3190,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3179,6 +3242,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3243,6 +3307,7 @@ tuple
 <
 list
 >
+Y
 <
 tuple
 >
@@ -3294,6 +3359,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3398,6 +3464,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3503,6 +3570,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head

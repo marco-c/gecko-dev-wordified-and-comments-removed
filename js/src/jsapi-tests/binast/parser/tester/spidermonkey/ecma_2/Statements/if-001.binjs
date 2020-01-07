@@ -101,6 +101,14 @@ list
 list
 >
 <
+string
+>
+result
+<
+/
+string
+>
+<
 /
 list
 >
@@ -118,6 +126,7 @@ list
 <
 list
 >
+z
 <
 tuple
 >
@@ -1134,6 +1143,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1145,6 +1155,7 @@ tuple
 <
 list
 >
+W
 <
 tuple
 >
@@ -1247,6 +1258,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head

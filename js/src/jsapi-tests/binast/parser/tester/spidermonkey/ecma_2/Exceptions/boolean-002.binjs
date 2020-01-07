@@ -101,6 +101,14 @@ list
 list
 >
 <
+string
+>
+s
+<
+/
+string
+>
+<
 /
 list
 >
@@ -1045,6 +1053,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1157,6 +1166,7 @@ tuple
 <
 list
 >
+d
 <
 tuple
 >
@@ -1462,6 +1472,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1473,6 +1484,7 @@ tuple
 <
 list
 >
+.
 <
 tuple
 >

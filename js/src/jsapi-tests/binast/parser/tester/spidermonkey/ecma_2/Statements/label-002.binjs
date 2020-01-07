@@ -31,6 +31,13 @@ head
 list
 >
 <
+/
+list
+>
+<
+list
+>
+<
 string
 >
 LabelTest
@@ -45,13 +52,6 @@ LabelTest2
 <
 /
 string
->
-<
-/
-list
->
-<
-list
 >
 <
 string
@@ -110,6 +110,8 @@ list
 <
 list
 >
+]
+4
 <
 tuple
 >
@@ -1786,7 +1788,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1814,6 +1816,15 @@ head
 >
 <
 list
+>
+u
+<
+string
+>
+LabelTest
+<
+/
+string
 >
 <
 string
@@ -1860,6 +1871,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1990,6 +2002,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2145,6 +2158,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2237,6 +2251,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2802,7 +2817,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2830,6 +2845,15 @@ head
 >
 <
 list
+>
+v
+<
+string
+>
+LabelTest2
+<
+/
+string
 >
 <
 string
@@ -2876,6 +2900,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3006,6 +3031,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3161,6 +3187,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3253,6 +3280,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3264,6 +3292,7 @@ tuple
 <
 list
 >
+U
 <
 tuple
 >

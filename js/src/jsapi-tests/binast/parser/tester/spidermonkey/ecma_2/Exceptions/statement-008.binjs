@@ -1011,6 +1011,7 @@ tuple
 <
 list
 >
+D
 <
 tuple
 >
@@ -1063,6 +1064,7 @@ tuple
 <
 list
 >
+]
 <
 tuple
 >
@@ -1164,6 +1166,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1175,6 +1178,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >
