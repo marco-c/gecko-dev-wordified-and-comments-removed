@@ -8682,7 +8682,7 @@ reason
 panel_name
 "
 :
-id
+panelName
 "
 cold
 "
@@ -8736,7 +8736,7 @@ prevPanelName
 next_panel
 "
 :
-id
+panelName
 "
 reason
 "
@@ -12959,7 +12959,12 @@ panel_name
 :
 this
 .
+getTelemetryPanelName
+(
+this
+.
 currentToolId
+)
 "
 next_panel
 "
