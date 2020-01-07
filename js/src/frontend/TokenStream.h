@@ -5587,8 +5587,8 @@ MOZ_MUST_USE
 bool
 decimalNumber
 (
-int
-c
+int32_t
+unit
 TokenStart
 start
 const
