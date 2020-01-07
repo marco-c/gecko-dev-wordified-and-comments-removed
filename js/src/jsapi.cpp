@@ -7614,7 +7614,7 @@ if
 cx
 -
 >
-isCooperativelyScheduled
+isMainThreadContext
 (
 )
 )

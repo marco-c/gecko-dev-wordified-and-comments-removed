@@ -535,7 +535,7 @@ kind
 ContextKind
 :
 :
-Cooperative
+MainThread
 )
 {
 if
@@ -779,7 +779,7 @@ init
 ContextKind
 :
 :
-Cooperative
+MainThread
 )
 )
 {
@@ -4111,7 +4111,7 @@ return
 warning
 ;
 }
-void
+bool
 js
 :
 :
@@ -4129,8 +4129,7 @@ printable
 ;
 if
 (
-!
-ValueToPrintableUTF8
+ValueToPrintable
 (
 cx
 IdToValue
@@ -4141,9 +4140,8 @@ id
 printable
 )
 )
-return
-;
-JS_ReportErrorNumberUTF8
+{
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -4157,7 +4155,11 @@ ptr
 )
 ;
 }
-void
+return
+false
+;
+}
+bool
 js
 :
 :
@@ -4180,6 +4182,7 @@ name
 )
 )
 ;
+return
 ReportIsNotDefined
 (
 cx
@@ -5778,7 +5781,7 @@ kind_
 ContextKind
 :
 :
-Background
+HelperThread
 )
 helperThread_
 (
@@ -6200,7 +6203,7 @@ kind_
 ContextKind
 :
 :
-Background
+HelperThread
 ;
 MOZ_ASSERT
 (

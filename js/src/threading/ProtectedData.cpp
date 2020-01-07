@@ -179,17 +179,14 @@ MOZ_ASSERT
 cx
 )
 ;
-if
+MOZ_ASSERT_IF
 (
 cx
 -
 >
-isCooperativelyScheduled
+isMainThreadContext
 (
 )
-)
-MOZ_ASSERT
-(
 CurrentThreadCanAccessRuntime
 (
 cx
@@ -201,7 +198,6 @@ runtime
 )
 )
 ;
-else
 MOZ_ASSERT
 (
 id

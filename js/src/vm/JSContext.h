@@ -250,8 +250,8 @@ enum
 class
 ContextKind
 {
-Cooperative
-Background
+MainThread
+HelperThread
 }
 ;
 #
@@ -406,7 +406,7 @@ rt
 )
 ;
 bool
-isCooperativelyScheduled
+isMainThreadContext
 (
 )
 const
@@ -421,7 +421,7 @@ js
 ContextKind
 :
 :
-Cooperative
+MainThread
 ;
 }
 inline
@@ -4117,7 +4117,7 @@ reportWarnings
 )
 ;
 extern
-void
+bool
 ReportIsNotDefined
 (
 JSContext
@@ -4128,7 +4128,7 @@ name
 )
 ;
 extern
-void
+bool
 ReportIsNotDefined
 (
 JSContext
