@@ -1,7 +1,0 @@
--
-e
-.
-sphinx
-zope
-.
-interface

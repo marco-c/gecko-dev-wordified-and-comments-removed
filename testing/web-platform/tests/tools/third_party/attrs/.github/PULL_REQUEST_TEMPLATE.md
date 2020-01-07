@@ -113,7 +113,7 @@ master
 /
 tests
 /
-utils
+strategies
 .
 py
 )

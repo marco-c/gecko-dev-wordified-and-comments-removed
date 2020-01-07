@@ -42,19 +42,19 @@ Factory
 attrib
 attrs
 fields
+fields_dict
+    
 make_class
 validate
 )
 __version__
 =
 "
-17
+18
 .
-4
+1
 .
 0
-.
-dev0
 "
 __title__
 =
@@ -202,6 +202,10 @@ exceptions
     
 "
 fields
+"
+    
+"
+fields_dict
 "
     
 "

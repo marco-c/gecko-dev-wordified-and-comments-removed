@@ -36,6 +36,38 @@ python_implementation
 PyPy
 "
 if
+PYPY
+or
+sys
+.
+version_info
+[
+:
+2
+]
+>
+=
+(
+3
+6
+)
+:
+    
+ordered_dict
+=
+dict
+else
+:
+    
+from
+collections
+import
+OrderedDict
+    
+ordered_dict
+=
+OrderedDict
+if
 PY2
 :
     
@@ -431,21 +463,11 @@ testability
 "
 "
     
-try
-:
-        
 import
 ctypes
-        
+    
 return
 ctypes
-    
-except
-ImportError
-:
-        
-return
-None
 if
 not
 PY2
@@ -627,18 +649,14 @@ value
 else
 :
         
+try
+:
+            
 ctypes
 =
 import_ctypes
 (
 )
-        
-if
-ctypes
-is
-not
-None
-:
             
 set_closure_cell
 =
@@ -669,7 +687,8 @@ ctypes
 .
 c_int
         
-else
+except
+Exception
 :
             
 set_closure_cell

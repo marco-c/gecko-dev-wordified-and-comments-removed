@@ -140,9 +140,6 @@ None
 init
 =
 True
-convert
-=
-None
 metadata
 =
 mappingproxy
@@ -151,6 +148,9 @@ mappingproxy
 }
 )
 type
+=
+None
+converter
 =
 None
 )

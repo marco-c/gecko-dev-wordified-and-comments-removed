@@ -27,13 +27,13 @@ attr
 from
 attr
 import
-validators
-as
-validator_module
+has
 from
 attr
 import
-has
+validators
+as
+validator_module
 from
 attr
 .

@@ -20,6 +20,17 @@ CHANGELOG
 .
 rst
 "
+template
+=
+"
+changelog
+.
+d
+/
+towncrier_template
+.
+rst
+"
 issue_format
 =
 "
