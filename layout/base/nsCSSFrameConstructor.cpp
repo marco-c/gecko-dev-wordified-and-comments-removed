@@ -10959,14 +10959,6 @@ binding
 if
 (
 resolveStyle
-|
-|
-styleContext
--
->
-IsServo
-(
-)
 )
 {
 styleContext
@@ -24928,6 +24920,11 @@ forget
 }
 if
 (
+resolveStyle
+)
+{
+if
+(
 styleContext
 -
 >
@@ -24963,10 +24960,6 @@ AsElement
 ;
 }
 else
-if
-(
-resolveStyle
-)
 {
 styleContext
 =
@@ -24988,6 +24981,7 @@ aContent
 aState
 )
 ;
+}
 }
 display
 =
