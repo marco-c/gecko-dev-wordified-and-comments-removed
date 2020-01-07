@@ -243,8 +243,9 @@ Blob
 data
 )
 ;
-/
-/
+[
+Throws
+]
 void
 send
 (
@@ -252,8 +253,9 @@ ArrayBuffer
 data
 )
 ;
-/
-/
+[
+Throws
+]
 void
 send
 (
