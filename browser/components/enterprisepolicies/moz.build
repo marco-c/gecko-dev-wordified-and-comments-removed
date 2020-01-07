@@ -186,3 +186,13 @@ FINAL_LIBRARY
 '
 browsercomps
 '
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
