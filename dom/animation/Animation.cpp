@@ -1075,8 +1075,15 @@ TimeDuration
 Animation
 :
 :
-GetCurrentTime
+GetCurrentTimeForHoldTime
 (
+const
+Nullable
+<
+TimeDuration
+>
+&
+aHoldTime
 )
 const
 {
@@ -1089,7 +1096,7 @@ result
 if
 (
 !
-mHoldTime
+aHoldTime
 .
 IsNull
 (
@@ -1098,7 +1105,7 @@ IsNull
 {
 result
 =
-mHoldTime
+aHoldTime
 ;
 return
 result
