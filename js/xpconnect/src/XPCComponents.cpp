@@ -12771,7 +12771,7 @@ NS_IMETHODIMP
 nsXPCComponents_Utils
 :
 :
-GetCompartmentLocation
+GetRealmLocation
 (
 HandleValue
 val

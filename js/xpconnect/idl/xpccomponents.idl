@@ -4172,7 +4172,7 @@ object
 '
 s
 *
-compartment
+realm
 (
 the
 same
@@ -4223,7 +4223,7 @@ code
 implicit_jscontext
 ]
 ACString
-getCompartmentLocation
+getRealmLocation
 (
 in
 jsval

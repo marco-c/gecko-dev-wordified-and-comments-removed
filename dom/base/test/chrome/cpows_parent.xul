@@ -2462,7 +2462,7 @@ cpowLocation
 =
 Cu
 .
-getCompartmentLocation
+getRealmLocation
 (
 getUnprivilegedObject
 )
