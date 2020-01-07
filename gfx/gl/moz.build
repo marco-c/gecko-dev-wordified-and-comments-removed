@@ -163,6 +163,13 @@ CONFIG
 MOZ_EGL_XRENDER_COMPOSITE
 '
 ]
+or
+CONFIG
+[
+'
+MOZ_WAYLAND
+'
+]
 :
 gl_provider
 =
