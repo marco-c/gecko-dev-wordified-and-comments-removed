@@ -291,14 +291,6 @@ markuploaded
 "
 )
 ;
-let
-multipleChildrenUpdates
-=
-waitForMultipleChildrenUpdates
-(
-inspector
-)
-;
 yield
 chooseWithInspectElementContextMenu
 (
@@ -352,7 +344,10 @@ inspection
 )
 ;
 yield
-multipleChildrenUpdates
+waitForMultipleChildrenUpdates
+(
+inspector
+)
 ;
 ok
 (
