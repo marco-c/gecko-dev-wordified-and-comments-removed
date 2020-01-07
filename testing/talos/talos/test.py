@@ -1794,6 +1794,22 @@ preferences
 {
         
 '
+addon
+.
+test
+.
+cpstartup
+.
+webserver
+'
+:
+'
+{
+webserver
+}
+'
+        
+'
 browser
 .
 link
