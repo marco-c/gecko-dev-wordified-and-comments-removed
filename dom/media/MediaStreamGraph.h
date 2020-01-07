@@ -1759,6 +1759,11 @@ true
 >
 NotifyPullPromise
 ;
+bool
+PullNewData
+(
+StreamTime
+aDesiredUpToTime
 nsTArray
 <
 RefPtr
@@ -1766,13 +1771,8 @@ RefPtr
 NotifyPullPromise
 >
 >
-PullNewData
-(
-StreamTime
-aDesiredUpToTime
-bool
-*
-aEnsureNextIteration
+&
+aPromises
 )
 ;
 void
