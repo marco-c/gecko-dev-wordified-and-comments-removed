@@ -7,15 +7,7 @@ json
 import
 os
 import
-re
-import
-sys
-import
 urlparse
-from
-collections
-import
-defaultdict
 from
 mozpack
 .
@@ -54,12 +46,6 @@ import
 ChromeManifestHandler
 import
 buildconfig
-import
-mozpack
-.
-path
-as
-mozpath
 class
 LcovRecord
 (
@@ -486,198 +472,9 @@ self
         
 self
 .
-pp_info
-=
-{
-}
-        
-self
-.
 _ranges
 =
 None
-        
-self
-.
-_line_comment_re
-=
-re
-.
-compile
-(
-'
-^
-/
-/
-line
-(
-\
-d
-+
-)
-"
-(
-.
-+
-)
-"
-'
-)
-    
-def
-has_pp_info
-(
-self
-src_path
-)
-:
-        
-return
-src_path
-in
-self
-.
-pp_info
-    
-def
-populate_pp_info
-(
-self
-fh
-src_path
-)
-:
-        
-section_info
-=
-dict
-(
-)
-        
-this_section
-=
-None
-        
-def
-finish_section
-(
-pp_end
-)
-:
-            
-pp_start
-inc_source
-inc_start
-=
-this_section
-            
-section_info
-[
-(
-pp_start
-pp_end
-)
-]
-=
-inc_source
-inc_start
-        
-for
-count
-line
-in
-enumerate
-(
-fh
-)
-:
-            
-if
-not
-line
-.
-startswith
-(
-'
-/
-/
-line
-'
-)
-:
-                
-continue
-            
-m
-=
-re
-.
-match
-(
-self
-.
-_line_comment_re
-line
-)
-            
-if
-m
-:
-                
-if
-this_section
-:
-                    
-finish_section
-(
-count
-+
-1
-)
-                
-inc_start
-inc_source
-=
-m
-.
-groups
-(
-)
-                
-pp_start
-=
-count
-+
-2
-                
-this_section
-=
-pp_start
-inc_source
-int
-(
-inc_start
-)
-        
-if
-this_section
-:
-            
-finish_section
-(
-count
-+
-2
-)
-        
-self
-.
-pp_info
-[
-src_path
-]
-=
-section_info
     
 def
 _get_range
@@ -1182,6 +979,7 @@ rewrite_record
 (
 self
 record
+pp_info
 )
 :
         
@@ -1189,14 +987,42 @@ self
 .
 _current_pp_info
 =
-self
-.
-pp_info
+dict
+(
 [
-record
+(
+tuple
+(
+[
+int
+(
+l
+)
+for
+l
+in
+k
 .
-source_file
+split
+(
+'
+'
+)
 ]
+)
+v
+)
+for
+k
+v
+in
+pp_info
+.
+items
+(
+)
+]
+)
         
 self
 .
@@ -1384,9 +1210,9 @@ current_source_file
 =
 None
         
-current_preprocessed
+current_pp_info
 =
-False
+None
         
 current_lines
 =
@@ -1442,15 +1268,15 @@ end_of_record
                         
 if
 current_source_file
-!
-=
+is
+not
 None
 :
                             
 yield
 (
 current_source_file
-current_preprocessed
+current_pp_info
 current_lines
 )
                         
@@ -1458,9 +1284,9 @@ current_source_file
 =
 None
                         
-current_preprocessed
+current_pp_info
 =
-False
+None
                         
 current_lines
 =
@@ -1523,7 +1349,7 @@ None
 else
 (
 sf
-False
+None
 )
                         
 if
@@ -1543,7 +1369,7 @@ else
 :
                             
 current_source_file
-current_preprocessed
+current_pp_info
 =
 res
                             
@@ -1834,7 +1660,7 @@ rewrite_record
         
 for
 source_file
-preprocessed
+pp_info
 record_content
 in
 self
@@ -1846,7 +1672,10 @@ rewrite_source
 :
             
 if
-preprocessed
+pp_info
+is
+not
+None
 :
                 
 record
@@ -1864,6 +1693,7 @@ in
 rewrite_record
 (
 record
+pp_info
 )
 :
                     
@@ -2655,7 +2485,7 @@ self
 line_count
 )
 :
-       
+        
 self
 .
 current_record
@@ -3491,7 +3321,7 @@ topobjdir
 :
             
 source_path
-preprocessed
+pp_info
 =
 self
 .
@@ -3502,8 +3332,7 @@ term
             
 return
 source_path
-term
-preprocessed
+pp_info
         
 objdir_path
 =
@@ -3703,7 +3532,7 @@ topobjdir
 :
             
 source_path
-preprocessed
+pp_info
 =
 self
 .
@@ -3714,11 +3543,10 @@ objdir_path
             
 return
 source_path
-term
-preprocessed
+pp_info
         
 src_path
-preprocessed
+pp_info
 =
 self
 .
@@ -3734,8 +3562,7 @@ normpath
 (
 src_path
 )
-objdir_path
-preprocessed
+pp_info
     
 def
 rewrite_url
@@ -3799,7 +3626,7 @@ if
 in
 url
 :
-             
+            
 url
 =
 url
@@ -3927,7 +3754,6 @@ url_obj
 .
 path
 None
-False
                 
 dir_parts
 =
@@ -4183,7 +4009,6 @@ topobjdir
 return
 path
 None
-False
             
 url
 =
@@ -4257,14 +4082,6 @@ extra_chrome_manifests
         
 self
 .
-topobjdir
-=
-buildconfig
-.
-topobjdir
-        
-self
-.
 url_finder
 =
 UrlFinder
@@ -4300,7 +4117,9 @@ set
         
 found_valid
 =
+[
 False
+]
         
 def
 rewrite_source
@@ -4385,8 +4204,7 @@ return
 None
             
 source_file
-objdir_file
-preprocessed
+pp_info
 =
 res
             
@@ -4420,60 +4238,16 @@ url
 source_file
 )
             
-if
-preprocessed
-and
-not
-self
-.
-pp_rewriter
-.
-has_pp_info
-(
-source_file
-)
-:
-                
-obj_path
-=
-os
-.
-path
-.
-join
-(
-self
-.
-topobjdir
-objdir_file
-)
-                
-with
-open
-(
-obj_path
-)
-as
-fh
-:
-                    
-self
-.
-pp_rewriter
-.
-populate_pp_info
-(
-fh
-source_file
-)
-            
 found_valid
+[
+0
+]
 =
 True
             
 return
 source_file
-preprocessed
+pp_info
         
 in_paths
 =
@@ -4578,6 +4352,9 @@ rewrite_record
 if
 not
 found_valid
+[
+0
+]
 :
             
 print
