@@ -204,6 +204,16 @@ mochitest
 ini
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+PerTestCoverageUtils
+.
+jsm
+'
+]
 FINAL_LIBRARY
 =
 '
