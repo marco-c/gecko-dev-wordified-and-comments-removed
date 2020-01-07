@@ -7153,7 +7153,7 @@ const
 ;
 JSAtom
 *
-functionDisplayAtom
+maybeFunctionDisplayAtom
 (
 )
 const

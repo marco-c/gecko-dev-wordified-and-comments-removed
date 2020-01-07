@@ -4868,7 +4868,7 @@ JSAtom
 FrameIter
 :
 :
-functionDisplayAtom
+maybeFunctionDisplayAtom
 (
 )
 const
@@ -4906,13 +4906,12 @@ functionDisplayAtom
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 isFunctionFrame
 (
 )
 )
-;
 return
 calleeTemplate
 (
@@ -4922,6 +4921,9 @@ calleeTemplate
 displayAtom
 (
 )
+;
+return
+nullptr
 ;
 }
 MOZ_CRASH
