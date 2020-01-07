@@ -20533,7 +20533,7 @@ selectionStyle
 mUnderlineStyle
 =
 =
-NS_STYLE_BORDER_STYLE_NONE
+NS_STYLE_TEXT_DECORATION_STYLE_NONE
 |
 |
 selectionStyle
