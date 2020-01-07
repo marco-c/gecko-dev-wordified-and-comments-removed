@@ -74,6 +74,11 @@ messages
 js
 '
 '
+notifications
+.
+js
+'
+'
 prefs
 .
 js
