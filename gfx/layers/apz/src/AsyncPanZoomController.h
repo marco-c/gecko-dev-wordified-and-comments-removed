@@ -306,6 +306,13 @@ FlingHandoffState
 aHandoffState
 )
 ;
+static
+void
+InitializeGlobalState
+(
+)
+{
+}
 }
 ;
 struct

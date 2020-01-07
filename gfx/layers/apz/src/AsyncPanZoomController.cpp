@@ -2050,6 +2050,13 @@ sysmem
 =
 threshold
 ;
+PlatformSpecificState
+:
+:
+InitializeGlobalState
+(
+)
+;
 }
 AsyncPanZoomController
 :
