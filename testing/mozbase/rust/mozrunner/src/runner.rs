@@ -372,7 +372,7 @@ trait
 RunnerProcess
 {
 fn
-status
+try_wait
 (
 &
 mut
@@ -706,7 +706,7 @@ for
 FirefoxProcess
 {
 fn
-status
+try_wait
 (
 &
 mut
@@ -749,7 +749,7 @@ bool
 {
 self
 .
-status
+try_wait
 (
 )
 .
