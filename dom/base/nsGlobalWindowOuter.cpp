@@ -13403,13 +13403,11 @@ aStatus
 if
 (
 !
-CanSetProperty
+nsContentUtils
+:
+:
+LegacyIsCallerChromeOrNativeCode
 (
-"
-dom
-.
-disable_window_status_change
-"
 )
 )
 {
