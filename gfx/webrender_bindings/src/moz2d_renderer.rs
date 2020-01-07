@@ -1208,7 +1208,7 @@ output
 vec
 !
 [
-255u8
+0u8
 ;
 buf_size
 ]
