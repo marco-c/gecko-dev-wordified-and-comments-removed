@@ -5506,6 +5506,9 @@ opStr
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_SATURATING_TRUNC_OPS
 static
 bool
 RenderExtraConversionOperator
@@ -5566,9 +5569,6 @@ op
 )
 )
 {
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 NumericOp
 :
@@ -5729,8 +5729,6 @@ f64
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -5761,6 +5759,8 @@ opStr
 )
 ;
 }
+#
+endif
 static
 bool
 RenderIf
@@ -9917,6 +9917,9 @@ false
 ;
 break
 ;
+#
+ifdef
+ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 AstExprKind
 :
@@ -9944,6 +9947,8 @@ false
 ;
 break
 ;
+#
+endif
 case
 AstExprKind
 :
