@@ -3030,6 +3030,14 @@ info
 code
 >
 .
+The
+value
+is
+treated
+case
+-
+insensitively
+.
 <
 /
 tr
