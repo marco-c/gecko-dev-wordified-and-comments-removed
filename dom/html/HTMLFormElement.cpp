@@ -7617,11 +7617,6 @@ input
 )
 &
 &
-nsContentUtils
-:
-:
-IsFocusedContent
-(
 mControls
 -
 >
@@ -7629,6 +7624,15 @@ mElements
 [
 i
 ]
+-
+>
+State
+(
+)
+.
+HasState
+(
+NS_EVENT_STATE_FOCUS
 )
 )
 {
