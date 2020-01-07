@@ -3584,7 +3584,8 @@ self
 )
 :
         
-return
+handles
+=
 self
 .
 send_session_command
@@ -3596,6 +3597,25 @@ DELETE
 window
 "
 )
+        
+if
+len
+(
+handles
+)
+=
+=
+0
+:
+            
+self
+.
+session_id
+=
+None
+        
+return
+handles
     
 property
     
