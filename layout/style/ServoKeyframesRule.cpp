@@ -1463,17 +1463,6 @@ aMallocSizeOf
 this
 )
 ;
-n
-+
-=
-GroupRule
-:
-:
-SizeOfExcludingThis
-(
-aMallocSizeOf
-)
-;
 if
 (
 mKeyframeList
