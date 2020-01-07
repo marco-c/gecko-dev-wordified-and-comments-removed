@@ -49,7 +49,7 @@ selectedTab
 =
 newTab
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 "
 javascript
@@ -82,7 +82,7 @@ tab
 "
 )
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 "
 http
@@ -117,7 +117,7 @@ tab
 "
 )
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 "
 http

@@ -5679,7 +5679,7 @@ true
 true
 )
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 pageURL
 "
