@@ -150,6 +150,12 @@ nsSVGElement
 aElement
 )
 ;
+bool
+IsRendered
+(
+)
+const
+;
 void
 *
 GetBaseValKey
