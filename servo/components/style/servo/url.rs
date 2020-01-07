@@ -108,10 +108,6 @@ CssUrl
 pub
 fn
 parse_from_string
-<
-'
-a
->
 (
 url
 :
@@ -123,15 +119,7 @@ ParserContext
 )
 -
 >
-Result
-<
 Self
-ParseError
-<
-'
-a
->
->
 {
 let
 serialization
@@ -161,8 +149,6 @@ ok
 (
 )
 ;
-Ok
-(
 CssUrl
 {
 original
@@ -175,7 +161,6 @@ resolved
 :
 resolved
 }
-)
 }
 pub
 fn
@@ -410,6 +395,8 @@ expect_url
 )
 ?
 ;
+Ok
+(
 Self
 :
 :
@@ -425,6 +412,7 @@ to_owned
 (
 )
 context
+)
 )
 }
 }

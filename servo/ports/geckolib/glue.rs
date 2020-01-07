@@ -25092,12 +25092,8 @@ QuirksMode
 NoQuirks
 )
 ;
-if
 let
-Ok
-(
 url
-)
 =
 SpecifiedImageUrl
 :
@@ -25112,7 +25108,7 @@ into
 &
 context
 )
-{
+;
 let
 decl
 =
@@ -25171,7 +25167,7 @@ CssOm
 ;
 }
 )
-}
+;
 }
 #
 [
