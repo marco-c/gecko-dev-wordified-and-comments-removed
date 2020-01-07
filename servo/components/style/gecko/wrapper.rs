@@ -3640,6 +3640,10 @@ flags
 (
 )
 }
+#
+[
+inline
+]
 fn
 set_flags
 (
@@ -3665,6 +3669,10 @@ flags
 )
 }
 }
+#
+[
+inline
+]
 unsafe
 fn
 unset_flags
@@ -3688,6 +3696,10 @@ as_node
 flags
 )
 }
+#
+[
+inline
+]
 pub
 fn
 descendants_need_frames
@@ -3714,6 +3726,10 @@ u32
 =
 0
 }
+#
+[
+inline
+]
 pub
 fn
 needs_frame
@@ -3740,6 +3756,10 @@ u32
 =
 0
 }
+#
+[
+inline
+]
 fn
 dom_slots
 (
@@ -3786,6 +3806,10 @@ as_ref
 )
 }
 }
+#
+[
+inline
+]
 fn
 extended_slots
 (
@@ -4100,6 +4124,10 @@ GeckoElement
 binding_parent
 }
 }
+#
+[
+inline
+]
 fn
 non_xul_xbl_binding_parent_raw_content
 (
