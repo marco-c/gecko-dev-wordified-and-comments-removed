@@ -1647,12 +1647,6 @@ AbstractThread
 >
 mAbstractMainThread
 ;
-RefPtr
-<
-SharedThreadPool
->
-mThreadPool
-;
 nsCOMPtr
 <
 nsITimer
