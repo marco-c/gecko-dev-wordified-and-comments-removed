@@ -701,10 +701,12 @@ TransformSequence
 (
 )
 def
-_parse_locales_file
+parse_locales_file
 (
 locales_file
 platform
+=
+None
 )
 :
     
@@ -790,6 +792,10 @@ items
 )
                 
 if
+platform
+is
+None
+or
 platform
 in
 data
@@ -1736,7 +1742,7 @@ nightly
         
 locales_with_changesets
 =
-_parse_locales_file
+parse_locales_file
 (
 job
 [
@@ -1746,7 +1752,7 @@ locales
 file
 "
 ]
-                                                      
+                                                     
 platform
 =
 locales_platform
