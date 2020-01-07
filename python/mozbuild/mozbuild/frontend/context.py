@@ -3320,6 +3320,18 @@ CFLAGS
             
 (
 '
+PROFILE_GEN_DYN_CFLAGS
+'
+None
+(
+'
+PROFILE_GEN_DYN_CFLAGS
+'
+)
+)
+            
+(
+'
 OS_COMPILE_CFLAGS
 '
 context
