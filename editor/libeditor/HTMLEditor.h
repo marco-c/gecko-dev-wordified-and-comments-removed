@@ -3628,7 +3628,7 @@ mResizingShadow
 ManualNACPtr
 mResizingInfo
 ;
-nsCOMPtr
+RefPtr
 <
 Element
 >
