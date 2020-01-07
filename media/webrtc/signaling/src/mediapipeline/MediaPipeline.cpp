@@ -468,6 +468,7 @@ virtual
 void
 OnVideoFrameConverted
 (
+const
 unsigned
 char
 *
@@ -493,6 +494,7 @@ virtual
 void
 OnVideoFrameConverted
 (
+const
 webrtc
 :
 :
@@ -668,6 +670,7 @@ VideoFrameConverter
 void
 QueueVideoChunk
 (
+const
 VideoChunk
 &
 aChunk
@@ -1346,6 +1349,7 @@ video_frame
 void
 VideoFrameConverted
 (
+const
 webrtc
 :
 :
@@ -6598,6 +6602,7 @@ converter
 void
 OnVideoFrameConverted
 (
+const
 unsigned
 char
 *
@@ -6661,6 +6666,7 @@ aCaptureTime
 void
 OnVideoFrameConverted
 (
+const
 webrtc
 :
 :
@@ -6908,6 +6914,7 @@ nullptr
 void
 OnVideoFrameConverted
 (
+const
 unsigned
 char
 *
@@ -6960,6 +6967,7 @@ aCaptureTime
 void
 OnVideoFrameConverted
 (
+const
 webrtc
 :
 :

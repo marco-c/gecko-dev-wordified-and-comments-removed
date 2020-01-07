@@ -506,6 +506,7 @@ width
 unsigned
 short
 height
+const
 webrtc
 :
 :
@@ -523,6 +524,7 @@ width
 unsigned
 short
 height
+const
 webrtc
 :
 :
@@ -555,6 +557,7 @@ virtual
 MediaConduitErrorCode
 SendVideoFrame
 (
+const
 unsigned
 char
 *
@@ -579,6 +582,7 @@ virtual
 MediaConduitErrorCode
 SendVideoFrame
 (
+const
 webrtc
 :
 :

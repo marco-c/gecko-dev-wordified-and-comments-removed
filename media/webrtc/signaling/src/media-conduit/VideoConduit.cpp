@@ -8565,6 +8565,7 @@ width
 unsigned
 short
 height
+const
 webrtc
 :
 :
@@ -9033,6 +9034,7 @@ width
 unsigned
 short
 height
+const
 webrtc
 :
 :
@@ -9222,6 +9224,7 @@ WebrtcVideoConduit
 :
 SendVideoFrame
 (
+const
 unsigned
 char
 *
@@ -9821,6 +9824,7 @@ WebrtcVideoConduit
 :
 SendVideoFrame
 (
+const
 webrtc
 :
 :
