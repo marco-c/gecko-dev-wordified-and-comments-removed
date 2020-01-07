@@ -645,12 +645,6 @@ counter
 =
 null
 ;
-DOMString
-prefix
-=
-"
-"
-;
 }
 ;
 /
