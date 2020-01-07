@@ -73,6 +73,15 @@ Build
 import
 android
 .
+support
+.
+annotation
+.
+NonNull
+;
+import
+android
+.
 util
 .
 Log
@@ -408,6 +417,7 @@ public
 BasicSelectionActionDelegate
 (
 final
+NonNull
 Activity
 activity
 )
@@ -430,6 +440,7 @@ public
 BasicSelectionActionDelegate
 (
 final
+NonNull
 Activity
 activity
 final
@@ -490,6 +501,7 @@ mExternalActionsEnabled
 ;
 }
 protected
+NonNull
 String
 [
 ]
@@ -510,6 +522,7 @@ boolean
 isActionAvailable
 (
 final
+NonNull
 String
 id
 )
@@ -578,9 +591,11 @@ void
 prepareAction
 (
 final
+NonNull
 String
 id
 final
+NonNull
 MenuItem
 item
 )
@@ -682,9 +697,11 @@ boolean
 performAction
 (
 final
+NonNull
 String
 id
 final
+NonNull
 MenuItem
 item
 )
