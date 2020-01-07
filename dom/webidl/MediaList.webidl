@@ -113,9 +113,6 @@ the
 medialist
 -
 interface
-[
-ArrayClass
-]
 interface
 MediaList
 {
