@@ -720,9 +720,6 @@ F32ReinterpretI32
 F64ReinterpretI64
 =
 0xbf
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 I32Extend8S
 =
 0xc0
@@ -738,8 +735,6 @@ I64Extend16S
 I64Extend32S
 =
 0xc4
-#
-endif
 RefNull
 =
 0xd0

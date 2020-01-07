@@ -954,9 +954,6 @@ Op
 :
 RefIsNull
 :
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 Op
 :
@@ -987,8 +984,6 @@ Op
 :
 I64Extend32S
 :
-#
-endif
 return
 OpKind
 :

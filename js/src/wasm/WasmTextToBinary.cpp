@@ -7725,9 +7725,6 @@ begin
 cur_
 )
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 if
 (
 consume
@@ -7778,8 +7775,6 @@ begin
 cur_
 )
 ;
-#
-endif
 break
 ;
 case
@@ -10242,9 +10237,6 @@ begin
 cur_
 )
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 if
 (
 consume
@@ -10320,8 +10312,6 @@ begin
 cur_
 )
 ;
-#
-endif
 break
 ;
 case

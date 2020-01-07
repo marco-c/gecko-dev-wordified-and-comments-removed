@@ -1,15 +1,3 @@
-if
-(
-!
-wasmSignExtensionSupported
-(
-)
-)
-quit
-(
-0
-)
-;
 let
 1
 =

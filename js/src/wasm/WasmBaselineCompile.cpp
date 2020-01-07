@@ -49093,9 +49093,6 @@ DoubleGreaterThanOrEqual
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (
@@ -49221,8 +49218,6 @@ I64
 )
 )
 ;
-#
-endif
 case
 uint16_t
 (

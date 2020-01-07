@@ -13183,9 +13183,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 static
 bool
 EmitSignExtend
@@ -13263,8 +13260,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 EmitExtendI32
@@ -24948,9 +24943,6 @@ unrecognizedOpcode
 op
 )
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (
@@ -25046,8 +25038,6 @@ f
 )
 )
 ;
-#
-endif
 case
 uint16_t
 (
