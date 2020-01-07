@@ -3381,13 +3381,6 @@ flex
 )
 GK_ATOM
 (
-flexgroup
-"
-flexgroup
-"
-)
-GK_ATOM
-(
 flip
 "
 flip
