@@ -102,10 +102,10 @@ interface
 nsIAccessiblePivot
 ;
 interface
-nsIDOMDocument
-;
-interface
 mozIDOMWindowProxy
+;
+webidl
+Document
 ;
 /
 *
@@ -291,7 +291,7 @@ docType
 *
 *
 The
-nsIDOMDocument
+Document
 interface
 associated
 with
@@ -302,7 +302,7 @@ document
 /
 readonly
 attribute
-nsIDOMDocument
+Document
 DOMDocument
 ;
 /
