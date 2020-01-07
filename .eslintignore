@@ -2145,6 +2145,12 @@ messagechannel
 *
 dom
 /
+midi
+/
+*
+*
+dom
+/
 network
 /
 *
