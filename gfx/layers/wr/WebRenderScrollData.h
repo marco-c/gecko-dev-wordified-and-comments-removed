@@ -609,11 +609,6 @@ aMetadata
 )
 ;
 size_t
-AddNewLayerData
-(
-)
-;
-size_t
 AddLayerData
 (
 const
@@ -627,14 +622,6 @@ GetLayerCount
 (
 )
 const
-;
-WebRenderLayerScrollData
-*
-GetLayerDataMutable
-(
-size_t
-aIndex
-)
 ;
 const
 WebRenderLayerScrollData
