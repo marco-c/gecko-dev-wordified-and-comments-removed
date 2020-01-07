@@ -2353,9 +2353,6 @@ NS_ENSURE_ARG_POINTER
 aEndNode
 )
 ;
-#
-ifdef
-DEBUG_FIND
 DEBUG_FIND_PRINTF
 (
 "
@@ -2402,8 +2399,6 @@ DumpNode
 aEndNode
 )
 ;
-#
-endif
 nsresult
 rv
 =
