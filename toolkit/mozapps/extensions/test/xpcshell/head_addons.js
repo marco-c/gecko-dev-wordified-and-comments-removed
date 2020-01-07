@@ -754,11 +754,6 @@ test_bug470377_4
 js
 "
 "
-test_bug559800
-.
-js
-"
-"
 test_bug564030
 .
 js
