@@ -1975,10 +1975,12 @@ s
 >
 nscssvalue
 .
-set_ident
+set_ident_from_atom
 (
 &
 s
+.
+0
 )
 }
 }
