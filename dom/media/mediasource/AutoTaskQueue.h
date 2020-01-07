@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-SharedThreadPool
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SystemGroup
 .
 h
@@ -40,6 +31,9 @@ TaskQueue
 .
 h
 "
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {
@@ -56,7 +50,7 @@ AutoTaskQueue
 (
 already_AddRefed
 <
-SharedThreadPool
+nsIEventTarget
 >
 aPool
 bool
@@ -87,7 +81,7 @@ AutoTaskQueue
 (
 already_AddRefed
 <
-SharedThreadPool
+nsIEventTarget
 >
 aPool
 const
