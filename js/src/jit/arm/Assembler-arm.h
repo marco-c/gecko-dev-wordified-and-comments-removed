@@ -7856,6 +7856,11 @@ as_bkpt
 (
 )
 ;
+BufferOffset
+as_illegal_trap
+(
+)
+;
 public
 :
 static
