@@ -80,10 +80,6 @@ ServiceWorkerDescriptor
 mDescriptor
 ;
 const
-nsCString
-mScriptSpec
-;
-const
 nsString
 mCacheName
 ;
@@ -186,7 +182,11 @@ ScriptSpec
 const
 {
 return
-mScriptSpec
+mDescriptor
+.
+ScriptURL
+(
+)
 ;
 }
 const
