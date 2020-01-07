@@ -1377,7 +1377,7 @@ continue
         
 task_regexes
 .
-add
+update
 (
 suite
 [
