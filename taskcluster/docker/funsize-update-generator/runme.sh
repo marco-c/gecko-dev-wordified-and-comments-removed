@@ -563,6 +563,4 @@ SHA384_SIGNING_CERT
 pubkey
 "
 \
-"
 EXTRA_PARAMS
-"

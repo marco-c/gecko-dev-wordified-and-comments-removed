@@ -8,17 +8,11 @@ set
 -
 xe
 test
-"
 TASK_ID
-"
 test
-"
 SHA1_SIGNING_CERT
-"
 test
-"
 SHA384_SIGNING_CERT
-"
 ARTIFACTS_DIR
 =
 "
@@ -82,9 +76,7 @@ if
 !
 -
 z
-"
 OUTPUT_FILENAME
-"
 ]
 ;
 then
@@ -178,6 +170,4 @@ SHA384_SIGNING_CERT
 pubkey
 "
 \
-"
 EXTRA_PARAMS
-"
