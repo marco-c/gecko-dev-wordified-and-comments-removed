@@ -2216,6 +2216,17 @@ NoInterfaceObject
 interface
 NavigatorAutomationInformation
 {
+[
+Pref
+=
+"
+dom
+.
+webdriver
+.
+enabled
+"
+]
 readonly
 attribute
 boolean
