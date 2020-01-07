@@ -365,9 +365,6 @@ js
 stackwalk
 "
 "
-responsiveness
-"
-"
 threads
 "
 "
