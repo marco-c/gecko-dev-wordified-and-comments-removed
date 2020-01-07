@@ -372,15 +372,6 @@ virtualmethods
 VirtualMethods
 ;
 use
-dom
-:
-:
-window
-:
-:
-ReflowReason
-;
-use
 dom_struct
 :
 :
@@ -402,7 +393,7 @@ script_layout_interface
 message
 :
 :
-ReflowGoal
+QueryMsg
 ;
 use
 std
@@ -2665,9 +2656,9 @@ unwrap
 }
 window
 .
-reflow
+layout_reflow
 (
-ReflowGoal
+QueryMsg
 :
 :
 ElementInnerTextQuery
@@ -2678,10 +2669,6 @@ to_trusted_node_address
 (
 )
 )
-ReflowReason
-:
-:
-Query
 )
 ;
 DOMString
