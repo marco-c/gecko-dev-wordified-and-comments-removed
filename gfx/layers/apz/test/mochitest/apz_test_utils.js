@@ -2938,11 +2938,6 @@ DISPATCH_TO_CONTENT
 ;
 if
 (
-config
-.
-isWebRender
-|
-|
 params
 .
 layerState
