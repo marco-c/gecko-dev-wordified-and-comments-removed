@@ -3995,17 +3995,6 @@ HandleObject
 obj
 )
 ;
-extern
-bool
-IsStandardPrototype
-(
-JSObject
-*
-obj
-JSProtoKey
-key
-)
-;
 }
 namespace
 js
