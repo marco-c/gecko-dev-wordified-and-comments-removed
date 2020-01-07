@@ -205,11 +205,12 @@ if
 webrender
 &
 &
-winWidget
+!
+gtkWidget
 50
 -
-50
-499
+85
+459
 -
 499
 )
