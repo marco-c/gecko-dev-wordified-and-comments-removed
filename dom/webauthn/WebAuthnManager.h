@@ -66,8 +66,6 @@ const
 nsCString
 &
 aClientData
-bool
-aDirectAttestation
 AbortSignal
 *
 aSignal
@@ -84,10 +82,6 @@ aRpIdHash
 mClientData
 (
 aClientData
-)
-mDirectAttestation
-(
-aDirectAttestation
 )
 mSignal
 (
@@ -122,9 +116,6 @@ mRpIdHash
 ;
 nsCString
 mClientData
-;
-bool
-mDirectAttestation
 ;
 RefPtr
 <
