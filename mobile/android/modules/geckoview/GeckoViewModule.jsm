@@ -78,13 +78,6 @@ ViewModule
 )
 )
 ;
-function
-debug
-(
-aMsg
-)
-{
-}
 class
 GeckoViewModule
 {

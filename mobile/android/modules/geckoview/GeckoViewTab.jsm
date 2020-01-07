@@ -97,13 +97,6 @@ ViewTab
 )
 )
 ;
-function
-debug
-(
-aMsg
-)
-{
-}
 class
 GeckoViewTab
 extends

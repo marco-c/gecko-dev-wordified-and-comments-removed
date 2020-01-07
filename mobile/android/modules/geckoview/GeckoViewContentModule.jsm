@@ -101,13 +101,6 @@ ViewContentModule
 )
 )
 ;
-function
-debug
-(
-aMsg
-)
-{
-}
 class
 GeckoViewContentModule
 {

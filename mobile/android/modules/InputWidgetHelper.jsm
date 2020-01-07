@@ -212,9 +212,6 @@ type
 "
 )
 ;
-let
-p
-=
 new
 Prompt
 (

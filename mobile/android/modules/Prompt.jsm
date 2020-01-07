@@ -1042,11 +1042,6 @@ function
 aItems
 )
 {
-let
-hasSelected
-=
-false
-;
 this
 .
 msg
