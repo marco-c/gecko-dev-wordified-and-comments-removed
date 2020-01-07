@@ -533,11 +533,6 @@ TelemetryUtils
 jsm
 '
 '
-ThirdPartyCookieProbe
-.
-jsm
-'
-'
 UITelemetry
 .
 jsm
