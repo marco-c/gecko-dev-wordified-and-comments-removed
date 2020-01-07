@@ -11,12 +11,6 @@ default_actions
 [
         
 '
-clone
--
-tools
-'
-        
-'
 build
 '
         

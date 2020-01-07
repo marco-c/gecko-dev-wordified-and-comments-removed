@@ -1251,9 +1251,6 @@ mozharness
 actions
 :
 [
-clone
--
-tools
 build
 check
 -
@@ -1446,9 +1443,6 @@ mozharness
 actions
 :
 [
-clone
--
-tools
 build
 check
 -
