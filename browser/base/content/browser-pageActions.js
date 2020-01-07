@@ -1239,10 +1239,11 @@ popuphidden
 =
 >
 {
-panelNode
+PanelMultiView
 .
-remove
+removePopup
 (
+panelNode
 )
 ;
 }

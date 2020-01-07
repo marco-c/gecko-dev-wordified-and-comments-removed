@@ -72,15 +72,6 @@ browser
 /
 customizableui
 /
-panelUI
-.
-xml
-content
-/
-browser
-/
-customizableui
-/
 toolbar
 .
 xml
