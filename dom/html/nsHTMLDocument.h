@@ -501,8 +501,6 @@ nsAutoEditingState
 void
 EndUpdate
 (
-nsUpdateType
-aUpdateType
 )
 override
 ;

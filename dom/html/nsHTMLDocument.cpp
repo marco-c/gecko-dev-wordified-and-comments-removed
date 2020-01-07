@@ -8682,8 +8682,6 @@ nsHTMLDocument
 :
 EndUpdate
 (
-nsUpdateType
-aUpdateType
 )
 {
 const
@@ -8702,7 +8700,6 @@ nsDocument
 :
 EndUpdate
 (
-aUpdateType
 )
 ;
 if
@@ -9301,7 +9298,7 @@ agentSheets
 presShell
 -
 >
-RestyleForCSSRuleChanges
+ApplicableStylesChanged
 (
 )
 ;
@@ -9945,7 +9942,7 @@ rv
 presShell
 -
 >
-RestyleForCSSRuleChanges
+ApplicableStylesChanged
 (
 )
 ;
