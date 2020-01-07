@@ -260,12 +260,6 @@ _browserConsole
 ;
 this
 .
-NEW_CONSOLE_OUTPUT_ENABLED
-=
-true
-;
-this
-.
 window
 =
 this
