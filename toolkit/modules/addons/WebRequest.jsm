@@ -4195,6 +4195,13 @@ tabParent
 =
 >
 {
+if
+(
+channel
+.
+channel
+)
+{
 channel
 .
 registerTraceableChannel
@@ -4203,6 +4210,7 @@ extension
 tabParent
 )
 ;
+}
 }
 ;
 }
