@@ -325,8 +325,8 @@ generateWasm
 wasm
 :
 :
-SigIdDesc
-sigId
+FuncTypeIdDesc
+funcTypeId
 wasm
 :
 :

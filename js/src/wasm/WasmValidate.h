@@ -138,8 +138,8 @@ maxMemoryLength
 TypeDefVector
 types
 ;
-SigWithIdPtrVector
-funcSigs
+FuncTypeWithIdPtrVector
+funcTypes
 ;
 Uint32Vector
 funcImportGlobalDataOffsets
@@ -280,7 +280,7 @@ numFuncs
 const
 {
 return
-funcSigs
+funcTypes
 .
 length
 (
@@ -308,7 +308,7 @@ numFuncDefs
 const
 {
 return
-funcSigs
+funcTypes
 .
 length
 (
@@ -404,7 +404,7 @@ length
 ;
 }
 uint32_t
-funcIndexToSigIndex
+funcIndexToFuncTypeIndex
 (
 uint32_t
 funcIndex
@@ -415,9 +415,9 @@ return
 TypeDef
 :
 :
-fromSigWithIdPtr
+fromFuncTypeWithIdPtr
 (
-funcSigs
+funcTypes
 [
 funcIndex
 ]

@@ -2088,9 +2088,9 @@ ModuleEnvironment
 &
 env
 const
-Sig
+FuncType
 &
-sig
+funcType
 const
 ValTypeVector
 &
@@ -2119,7 +2119,7 @@ iter
 .
 readFunctionStart
 (
-sig
+funcType
 .
 ret
 (
@@ -7008,14 +7008,14 @@ d
 )
 {
 const
-Sig
+FuncType
 &
-sig
+funcType
 =
 *
 env
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -7030,7 +7030,7 @@ locals
 .
 appendAll
 (
-sig
+funcType
 .
 args
 (
@@ -7077,7 +7077,7 @@ if
 DecodeFunctionBodyExprs
 (
 env
-sig
+funcType
 locals
 bodyBegin
 +
@@ -7432,7 +7432,7 @@ typeIndex
 =
 TypeDef
 (
-Sig
+FuncType
 (
 std
 :
@@ -8002,7 +8002,7 @@ TypeDefVector
 types
 uint32_t
 *
-sigIndex
+funcTypeIndex
 )
 {
 if
@@ -8012,7 +8012,7 @@ d
 .
 readVarU32
 (
-sigIndex
+funcTypeIndex
 )
 )
 return
@@ -8030,7 +8030,7 @@ index
 if
 (
 *
-sigIndex
+funcTypeIndex
 >
 =
 types
@@ -8059,7 +8059,7 @@ if
 types
 [
 *
-sigIndex
+funcTypeIndex
 ]
 .
 isFuncType
@@ -9138,7 +9138,7 @@ Function
 :
 {
 uint32_t
-sigIndex
+funcTypeIndex
 ;
 if
 (
@@ -9151,7 +9151,7 @@ env
 >
 types
 &
-sigIndex
+funcTypeIndex
 )
 )
 return
@@ -9163,7 +9163,7 @@ if
 env
 -
 >
-funcSigs
+funcTypes
 .
 append
 (
@@ -9173,7 +9173,7 @@ env
 >
 types
 [
-sigIndex
+funcTypeIndex
 ]
 .
 funcType
@@ -9189,7 +9189,7 @@ if
 env
 -
 >
-funcSigs
+funcTypes
 .
 length
 (
@@ -9562,7 +9562,7 @@ resize
 env
 -
 >
-funcSigs
+funcTypes
 .
 length
 (
@@ -9658,7 +9658,7 @@ numFuncs
 env
 -
 >
-funcSigs
+funcTypes
 .
 length
 (
@@ -9705,7 +9705,7 @@ if
 env
 -
 >
-funcSigs
+funcTypes
 .
 reserve
 (
@@ -9736,7 +9736,7 @@ i
 )
 {
 uint32_t
-sigIndex
+funcTypeIndex
 ;
 if
 (
@@ -9749,7 +9749,7 @@ env
 >
 types
 &
-sigIndex
+funcTypeIndex
 )
 )
 return
@@ -9758,7 +9758,7 @@ false
 env
 -
 >
-funcSigs
+funcTypes
 .
 infallibleAppend
 (
@@ -9768,7 +9768,7 @@ env
 >
 types
 [
-sigIndex
+funcTypeIndex
 ]
 .
 funcType
@@ -11659,15 +11659,15 @@ function
 )
 ;
 const
-Sig
+FuncType
 &
-sig
+funcType
 =
 *
 env
 -
 >
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -11677,7 +11677,7 @@ if
 !
 IsVoid
 (
-sig
+funcType
 .
 ret
 (
@@ -11701,7 +11701,7 @@ anything
 ;
 if
 (
-sig
+funcType
 .
 args
 (

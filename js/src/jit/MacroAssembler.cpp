@@ -18717,8 +18717,8 @@ WasmTable
 wasm
 :
 :
-SigIdDesc
-sigId
+FuncTypeIdDesc
+funcTypeId
 =
 callee
 .
@@ -18728,7 +18728,7 @@ wasmTableSigId
 ;
 switch
 (
-sigId
+funcTypeId
 .
 kind
 (
@@ -18739,7 +18739,7 @@ case
 wasm
 :
 :
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -18749,7 +18749,7 @@ Global
 :
 loadWasmGlobalPtr
 (
-sigId
+funcTypeId
 .
 globalDataOffset
 (
@@ -18763,7 +18763,7 @@ case
 wasm
 :
 :
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -18775,7 +18775,7 @@ move32
 (
 Imm32
 (
-sigId
+funcTypeId
 .
 immediate
 (
@@ -18790,7 +18790,7 @@ case
 wasm
 :
 :
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind

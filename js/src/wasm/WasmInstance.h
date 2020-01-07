@@ -128,12 +128,12 @@ const
 void
 *
 *
-addressOfSigId
+addressOfFuncTypeId
 (
 const
-SigIdDesc
+FuncTypeIdDesc
 &
-sigId
+funcTypeId
 )
 const
 ;

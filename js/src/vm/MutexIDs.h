@@ -195,7 +195,7 @@ RuntimeScriptData
 \
 _
 (
-WasmSigIdSet
+WasmFuncTypeIdSet
 500
 )
 \

@@ -2597,9 +2597,9 @@ MacroAssembler
 &
 masm
 const
-SigIdDesc
+FuncTypeIdDesc
 &
-sigId
+funcTypeId
 const
 Maybe
 <
@@ -2641,7 +2641,7 @@ currentOffset
 ;
 switch
 (
-sigId
+funcTypeId
 .
 kind
 (
@@ -2649,7 +2649,7 @@ kind
 )
 {
 case
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -2667,7 +2667,7 @@ masm
 .
 loadWasmGlobalPtr
 (
-sigId
+funcTypeId
 .
 globalDataOffset
 (
@@ -2710,7 +2710,7 @@ break
 ;
 }
 case
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -2733,7 +2733,7 @@ Equal
 WasmTableCallSigReg
 Imm32
 (
-sigId
+funcTypeId
 .
 immediate
 (
@@ -2761,7 +2761,7 @@ break
 ;
 }
 case
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind

@@ -472,9 +472,9 @@ alloc_
 ;
 }
 const
-Sig
+FuncType
 &
-sig
+funcType
 (
 )
 const
@@ -483,7 +483,7 @@ return
 *
 env_
 .
-funcSigs
+funcTypes
 [
 func_
 .
@@ -539,7 +539,7 @@ ValTypeVector
 &
 args
 =
-sig
+funcType
 (
 )
 .
@@ -6555,9 +6555,9 @@ bool
 callDirect
 (
 const
-Sig
+FuncType
 &
-sig
+funcType
 uint32_t
 funcIndex
 const
@@ -6603,7 +6603,7 @@ ret
 =
 ToMIRType
 (
-sig
+funcType
 .
 ret
 (
@@ -6673,7 +6673,7 @@ bool
 callIndirect
 (
 uint32_t
-sigIndex
+funcTypeIndex
 MDefinition
 *
 index
@@ -6704,15 +6704,15 @@ true
 ;
 }
 const
-SigWithId
+FuncTypeWithId
 &
-sig
+funcType
 =
 env_
 .
 types
 [
-sigIndex
+funcTypeIndex
 ]
 .
 funcType
@@ -6733,7 +6733,7 @@ isAsmJS
 {
 MOZ_ASSERT
 (
-sig
+funcType
 .
 id
 .
@@ -6742,7 +6742,7 @@ kind
 )
 =
 =
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -6764,7 +6764,7 @@ env_
 .
 asmJSSigToTableIndex
 [
-sigIndex
+funcTypeIndex
 ]
 ]
 ;
@@ -6867,7 +6867,7 @@ else
 {
 MOZ_ASSERT
 (
-sig
+funcType
 .
 id
 .
@@ -6876,7 +6876,7 @@ kind
 )
 !
 =
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -6919,7 +6919,7 @@ CalleeDesc
 wasmTable
 (
 table
-sig
+funcType
 .
 id
 )
@@ -6956,7 +6956,7 @@ call
 regArgs_
 ToMIRType
 (
-sig
+funcType
 .
 ret
 (
@@ -11451,7 +11451,7 @@ IsVoid
 (
 f
 .
-sig
+funcType
 (
 )
 .
@@ -11532,9 +11532,9 @@ FunctionCompiler
 &
 f
 const
-Sig
+FuncType
 &
-sig
+funcType
 const
 DefVector
 &
@@ -11565,7 +11565,7 @@ i
 0
 n
 =
-sig
+funcType
 .
 args
 (
@@ -11611,7 +11611,7 @@ args
 [
 i
 ]
-sig
+funcType
 .
 args
 (
@@ -11731,9 +11731,9 @@ return
 true
 ;
 const
-Sig
+FuncType
 &
-sig
+funcType
 =
 *
 f
@@ -11742,7 +11742,7 @@ env
 (
 )
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -11760,7 +11760,7 @@ if
 EmitCallArgs
 (
 f
-sig
+funcType
 args
 &
 call
@@ -11810,7 +11810,7 @@ callImport
 (
 globalDataOffset
 call
-sig
+funcType
 .
 ret
 (
@@ -11832,7 +11832,7 @@ f
 .
 callDirect
 (
-sig
+funcType
 funcIndex
 call
 &
@@ -11847,7 +11847,7 @@ if
 (
 IsVoid
 (
-sig
+funcType
 .
 ret
 (
@@ -11893,7 +11893,7 @@ readCallSiteLineOrBytecode
 )
 ;
 uint32_t
-sigIndex
+funcTypeIndex
 ;
 MDefinition
 *
@@ -11919,7 +11919,7 @@ iter
 readOldCallIndirect
 (
 &
-sigIndex
+funcTypeIndex
 &
 callee
 &
@@ -11944,7 +11944,7 @@ iter
 readCallIndirect
 (
 &
-sigIndex
+funcTypeIndex
 &
 callee
 &
@@ -11967,9 +11967,9 @@ return
 true
 ;
 const
-Sig
+FuncType
 &
-sig
+funcType
 =
 f
 .
@@ -11979,7 +11979,7 @@ env
 .
 types
 [
-sigIndex
+funcTypeIndex
 ]
 .
 funcType
@@ -11999,7 +11999,7 @@ if
 EmitCallArgs
 (
 f
-sig
+funcType
 args
 &
 call
@@ -12019,7 +12019,7 @@ f
 .
 callIndirect
 (
-sigIndex
+funcTypeIndex
 callee
 call
 &
@@ -12033,7 +12033,7 @@ if
 (
 IsVoid
 (
-sig
+funcType
 .
 ret
 (
@@ -20583,7 +20583,7 @@ readFunctionStart
 (
 f
 .
-sig
+funcType
 (
 )
 .
@@ -20710,7 +20710,7 @@ IsVoid
 (
 f
 .
-sig
+funcType
 (
 )
 .
@@ -29089,7 +29089,7 @@ appendAll
 (
 env
 .
-funcSigs
+funcTypes
 [
 func
 .
@@ -29280,12 +29280,12 @@ lir
 return
 false
 ;
-SigIdDesc
-sigId
+FuncTypeIdDesc
+funcTypeId
 =
 env
 .
-funcSigs
+funcTypes
 [
 func
 .
@@ -29323,7 +29323,7 @@ codegen
 .
 generateWasm
 (
-sigId
+funcTypeId
 prologueTrapOffset
 &
 offsets

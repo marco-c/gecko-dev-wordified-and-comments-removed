@@ -62670,8 +62670,8 @@ generateWasm
 wasm
 :
 :
-SigIdDesc
-sigId
+FuncTypeIdDesc
+funcTypeId
 wasm
 :
 :
@@ -62702,7 +62702,7 @@ wasm
 GenerateFunctionPrologue
 (
 masm
-sigId
+funcTypeId
 mozilla
 :
 :

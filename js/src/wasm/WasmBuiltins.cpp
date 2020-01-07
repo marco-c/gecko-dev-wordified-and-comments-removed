@@ -1538,7 +1538,7 @@ i
 <
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -1574,7 +1574,7 @@ switch
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -5307,9 +5307,9 @@ ABIFunctionType
 ToBuiltinABIFunctionType
 (
 const
-Sig
+FuncType
 &
-sig
+funcType
 )
 {
 const
@@ -5317,7 +5317,7 @@ ValTypeVector
 &
 args
 =
-sig
+funcType
 .
 args
 (
@@ -5326,7 +5326,7 @@ args
 ExprType
 ret
 =
-sig
+funcType
 .
 ret
 (
@@ -5519,9 +5519,9 @@ MaybeGetBuiltinThunk
 HandleFunction
 f
 const
-Sig
+FuncType
 &
-sig
+funcType
 )
 {
 MOZ_ASSERT
@@ -5578,7 +5578,7 @@ abiType
 =
 ToBuiltinABIFunctionType
 (
-sig
+funcType
 )
 ;
 if
