@@ -15167,13 +15167,12 @@ rv
 mSelection
 -
 >
-ScrollIntoViewInternal
+ScrollIntoView
 (
 nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-false
 nsIPresShell
 :
 :
@@ -15186,6 +15185,7 @@ nsIPresShell
 ScrollAxis
 (
 )
+0
 )
 ;
 aEvent
