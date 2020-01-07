@@ -11122,7 +11122,7 @@ spectre
 .
 index_masking
 "
-false
+true
 )
 ;
 pref
