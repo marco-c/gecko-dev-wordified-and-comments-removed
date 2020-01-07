@@ -26,12 +26,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -61,7 +61,7 @@ view
 testActor
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -90,7 +90,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -134,7 +134,7 @@ propertyname
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -205,10 +205,10 @@ displayed
 "
 )
 ;
-await
+yield
 onSuggest
 ;
-await
+yield
 onPopupOpened
 ;
 ok
@@ -240,7 +240,7 @@ page
 "
 )
 ;
-await
+yield
 reloadPage
 (
 inspector

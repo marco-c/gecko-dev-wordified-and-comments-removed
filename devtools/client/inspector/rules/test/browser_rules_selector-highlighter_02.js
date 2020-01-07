@@ -48,12 +48,12 @@ p
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -82,7 +82,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -163,7 +163,7 @@ HighlighterFront
 let
 icon
 =
-await
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -204,7 +204,7 @@ icon
 "
 )
 ;
-await
+yield
 clickSelectorIcon
 (
 icon
@@ -239,7 +239,7 @@ icon
 "
 )
 ;
-await
+yield
 clickSelectorIcon
 (
 icon
@@ -276,7 +276,7 @@ passed
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -287,7 +287,7 @@ inspector
 ;
 icon
 =
-await
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -296,7 +296,7 @@ p
 "
 )
 ;
-await
+yield
 clickSelectorIcon
 (
 icon
@@ -354,7 +354,7 @@ highlighter
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -365,7 +365,7 @@ inspector
 ;
 icon
 =
-await
+yield
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -374,7 +374,7 @@ body
 "
 )
 ;
-await
+yield
 clickSelectorIcon
 (
 icon

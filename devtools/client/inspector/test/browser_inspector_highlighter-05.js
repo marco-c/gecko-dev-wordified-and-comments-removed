@@ -179,8 +179,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -205,7 +205,7 @@ tab
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -247,14 +247,14 @@ loaded
 "
 )
 ;
-await
+yield
 navigateTo
 (
 inspector
 TEST_URL
 )
 ;
-await
+yield
 pageLoaded
 ;
 info
@@ -278,7 +278,7 @@ node
 let
 divFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -287,7 +287,7 @@ p
 inspector
 )
 ;
-await
+yield
 inspector
 .
 highlighter
@@ -311,7 +311,7 @@ highlighted
 ;
 is
 (
-await
+yield
 testActor
 .
 isHighlighting

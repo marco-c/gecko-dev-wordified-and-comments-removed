@@ -40,12 +40,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -74,7 +74,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -89,7 +89,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -122,7 +122,7 @@ view
 let
 editor
 =
-await
+yield
 focusNewRuleViewProperty
 (
 ruleEditor
@@ -181,7 +181,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onSuggest
 ;
 }
@@ -293,7 +293,7 @@ popup
 _window
 )
 ;
-await
+yield
 onSuggest
 ;
 is
@@ -362,7 +362,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onModifications
 ;
 editor
@@ -498,7 +498,7 @@ blur
 (
 )
 ;
-await
+yield
 onModifications
 ;
 is

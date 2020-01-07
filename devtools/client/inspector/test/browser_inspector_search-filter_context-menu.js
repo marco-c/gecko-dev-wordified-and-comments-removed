@@ -29,12 +29,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -63,7 +63,7 @@ toolbox
 inspector
 }
 =
-await
+yield
 openInspector
 (
 )
@@ -75,7 +75,7 @@ searchBox
 =
 inspector
 ;
-await
+yield
 selectNode
 (
 "
@@ -241,7 +241,7 @@ focus
 (
 )
 ;
-await
+yield
 onFocus
 ;
 let
@@ -275,7 +275,7 @@ button
 win
 )
 ;
-await
+yield
 onContextMenuPopup
 ;
 is
@@ -421,7 +421,7 @@ hidePopup
 (
 )
 ;
-await
+yield
 onContextMenuHidden
 ;
 info
@@ -478,10 +478,10 @@ button
 win
 )
 ;
-await
+yield
 onContextMenuPopup
 ;
-await
+yield
 waitForClipboardPromise
 (
 (
@@ -502,7 +502,7 @@ hidePopup
 (
 )
 ;
-await
+yield
 onContextMenuHidden
 ;
 info
@@ -538,7 +538,7 @@ button
 win
 )
 ;
-await
+yield
 onContextMenuPopup
 ;
 is
@@ -671,7 +671,7 @@ suggestions
 "
 )
 ;
-await
+yield
 inspector
 .
 searchSuggestions

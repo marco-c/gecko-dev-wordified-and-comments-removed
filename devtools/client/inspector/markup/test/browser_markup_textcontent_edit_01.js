@@ -36,8 +36,8 @@ walker
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -47,7 +47,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -62,7 +62,7 @@ nodes
 "
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -71,13 +71,13 @@ expandAll
 (
 )
 ;
-await
+yield
 waitForMultipleChildrenUpdates
 (
 inspector
 )
 ;
-await
+yield
 editContainer
 (
 inspector
@@ -103,7 +103,7 @@ line6
 }
 )
 ;
-await
+yield
 editContainer
 (
 inspector
@@ -164,7 +164,7 @@ imperdiet
 }
 )
 ;
-await
+yield
 editContainer
 (
 inspector
@@ -208,7 +208,7 @@ IMPERDIET
 }
 )
 ;
-await
+yield
 editContainer
 (
 inspector
@@ -255,8 +255,8 @@ value
 }
 )
 ;
-async
 function
+*
 editContainer
 (
 inspector
@@ -271,7 +271,7 @@ oldValue
 let
 nodeValue
 =
-await
+yield
 getFirstChildNodeValue
 (
 selector
@@ -320,7 +320,7 @@ markupmutation
 let
 container
 =
-await
+yield
 focusNode
 (
 selector
@@ -421,12 +421,12 @@ event
 "
 )
 ;
-await
+yield
 onMutated
 ;
 nodeValue
 =
-await
+yield
 getFirstChildNodeValue
 (
 selector
@@ -536,7 +536,7 @@ selection
 let
 bodyContainer
 =
-await
+yield
 getContainerForSelector
 (
 "

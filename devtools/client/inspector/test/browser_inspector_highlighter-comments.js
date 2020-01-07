@@ -18,8 +18,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -29,7 +29,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_PAGE
@@ -42,7 +42,7 @@ inspector
 .
 markup
 ;
-await
+yield
 selectNode
 (
 "
@@ -68,7 +68,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverElement
 (
 "
@@ -77,7 +77,7 @@ id1
 "
 )
 ;
-await
+yield
 assertHighlighterShownOn
 (
 "
@@ -104,12 +104,12 @@ appear
 "
 )
 ;
-await
+yield
 hoverComment
 (
 )
 ;
-await
+yield
 assertHighlighterHidden
 (
 )
@@ -132,7 +132,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverElement
 (
 "
@@ -141,7 +141,7 @@ id1
 "
 )
 ;
-await
+yield
 assertHighlighterShownOn
 (
 "
@@ -167,7 +167,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverElement
 (
 "
@@ -176,7 +176,7 @@ id2
 "
 )
 ;
-await
+yield
 assertHighlighterShownOn
 (
 "
@@ -204,7 +204,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverElement
 (
 "
@@ -212,7 +212,7 @@ script
 "
 )
 ;
-await
+yield
 assertHighlighterHidden
 (
 )
@@ -234,7 +234,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverElement
 (
 "
@@ -243,7 +243,7 @@ id3
 "
 )
 ;
-await
+yield
 assertHighlighterShownOn
 (
 "
@@ -271,7 +271,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverElement
 (
 "
@@ -280,7 +280,7 @@ id4
 "
 )
 ;
-await
+yield
 assertHighlighterHidden
 (
 )
@@ -303,7 +303,7 @@ appear
 "
 )
 ;
-await
+yield
 hoverTextNode
 (
 "
@@ -313,7 +313,7 @@ node
 "
 )
 ;
-await
+yield
 assertHighlighterShownOnTextNode
 (
 "
@@ -379,8 +379,8 @@ return
 promise
 ;
 }
-async
 function
+*
 hoverElement
 (
 selector
@@ -402,7 +402,7 @@ view
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 selector
@@ -568,8 +568,8 @@ container
 )
 ;
 }
-async
 function
+*
 assertHighlighterShownOn
 (
 selector
@@ -578,7 +578,7 @@ selector
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -601,8 +601,8 @@ selector
 )
 ;
 }
-async
 function
+*
 assertHighlighterShownOnTextNode
 (
 parentSelector
@@ -612,7 +612,7 @@ childNodeIndex
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedTextNode
@@ -634,8 +634,8 @@ node
 )
 ;
 }
-async
 function
+*
 assertHighlighterHidden
 (
 )
@@ -643,7 +643,7 @@ assertHighlighterHidden
 let
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting

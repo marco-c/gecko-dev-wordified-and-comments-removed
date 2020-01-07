@@ -71,15 +71,15 @@ body
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 tab
 =
-await
+yield
 addTab
 (
 "
@@ -102,7 +102,7 @@ CONTENT
 let
 testActor
 =
-await
+yield
 getTestActorWithoutToolbox
 (
 tab
@@ -111,7 +111,7 @@ tab
 let
 inspector
 =
-await
+yield
 clickOnInspectMenuItem
 (
 testActor
@@ -120,7 +120,7 @@ span
 "
 )
 ;
-await
+yield
 getRuleViewSelectorHighlighterIcon
 (
 inspector

@@ -58,12 +58,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -92,12 +92,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -121,7 +121,7 @@ filter
 "
 )
 ;
-await
+yield
 setSearchFilter
 (
 view
@@ -167,7 +167,7 @@ textProps
 .
 editor
 ;
-await
+yield
 focusEditableField
 (
 view
@@ -349,7 +349,7 @@ KEY_Enter
 "
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 ok
@@ -403,7 +403,7 @@ KEY_Escape
 "
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 }

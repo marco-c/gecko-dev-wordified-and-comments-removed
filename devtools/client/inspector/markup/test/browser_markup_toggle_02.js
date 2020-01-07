@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -50,7 +50,7 @@ element
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -120,10 +120,10 @@ doc
 defaultView
 )
 ;
-await
+yield
 onChildren
 ;
-await
+yield
 onUpdated
 ;
 info
@@ -143,7 +143,7 @@ created
 let
 numLi
 =
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -172,7 +172,7 @@ i
 let
 liContainer
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -278,7 +278,7 @@ hidden
 ;
 numLi
 =
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -307,7 +307,7 @@ i
 let
 liContainer
 =
-await
+yield
 getContainerForSelector
 (
 "

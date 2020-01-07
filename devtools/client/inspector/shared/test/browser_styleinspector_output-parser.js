@@ -2076,8 +2076,8 @@ value
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -2102,7 +2102,7 @@ false
 }
 }
 ;
-await
+yield
 initCssProperties
 (
 toolbox

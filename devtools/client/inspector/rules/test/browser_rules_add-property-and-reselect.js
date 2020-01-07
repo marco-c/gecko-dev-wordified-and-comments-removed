@@ -16,12 +16,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URI
@@ -33,12 +33,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -63,7 +63,7 @@ rules
 "
 )
 ;
-await
+yield
 setPropertyOnAllRules
 (
 view
@@ -78,7 +78,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -87,7 +87,7 @@ body
 inspector
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -105,8 +105,8 @@ view
 }
 )
 ;
-async
 function
+*
 setPropertyOnAllRules
 (
 view
@@ -158,7 +158,7 @@ true
 )
 ;
 }
-await
+yield
 onRefreshed
 ;
 }

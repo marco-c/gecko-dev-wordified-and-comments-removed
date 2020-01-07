@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -44,7 +44,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -53,7 +53,7 @@ TEST_URL
 let
 shadow
 =
-await
+yield
 getNodeFront
 (
 "
@@ -68,7 +68,7 @@ markup
 let
 children
 =
-await
+yield
 inspector
 .
 walker
@@ -134,7 +134,7 @@ nodes
 0
 ]
 ;
-await
+yield
 isEditingMenuDisabled
 (
 before
@@ -164,7 +164,7 @@ nodes
 1
 ]
 ;
-await
+yield
 isEditingMenuDisabled
 (
 shadowChild1
@@ -194,7 +194,7 @@ nodes
 2
 ]
 ;
-await
+yield
 isEditingMenuDisabled
 (
 shadowChild2

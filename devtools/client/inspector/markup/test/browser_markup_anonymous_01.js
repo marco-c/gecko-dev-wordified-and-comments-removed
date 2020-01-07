@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -35,7 +35,7 @@ TEST_URL
 let
 pseudo
 =
-await
+yield
 getNodeFront
 (
 "
@@ -48,7 +48,7 @@ inspector
 let
 children
 =
-await
+yield
 inspector
 .
 walker
@@ -97,7 +97,7 @@ nodes
 0
 ]
 ;
-await
+yield
 isEditingMenuDisabled
 (
 before
@@ -125,7 +125,7 @@ nodes
 1
 ]
 ;
-await
+yield
 isEditingMenuEnabled
 (
 span
@@ -155,7 +155,7 @@ nodes
 2
 ]
 ;
-await
+yield
 isEditingMenuDisabled
 (
 after
@@ -165,7 +165,7 @@ inspector
 let
 native
 =
-await
+yield
 getNodeFront
 (
 "
@@ -178,7 +178,7 @@ inspector
 let
 nativeChildren
 =
-await
+yield
 inspector
 .
 walker
@@ -243,7 +243,7 @@ anonymous
 let
 videoChildren
 =
-await
+yield
 inspector
 .
 walker

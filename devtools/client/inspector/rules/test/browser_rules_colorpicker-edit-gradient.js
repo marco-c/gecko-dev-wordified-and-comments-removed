@@ -59,12 +59,12 @@ tooltip
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -92,7 +92,7 @@ let
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -136,7 +136,7 @@ works
 "
 )
 ;
-await
+yield
 testPickingNewColor
 (
 view
@@ -331,8 +331,8 @@ found
 ;
 }
 }
-async
 function
+*
 testPickingNewColor
 (
 view
@@ -439,7 +439,7 @@ click
 (
 )
 ;
-await
+yield
 onColorPickerReady
 ;
 let
@@ -498,7 +498,7 @@ rgb
 "
 }
 ;
-await
+yield
 simulateColorPickerChange
 (
 view
@@ -560,7 +560,7 @@ updated
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 "
@@ -620,7 +620,7 @@ correctly
 "
 )
 ;
-await
+yield
 hideTooltipAndWaitForRuleViewChanged
 (
 cPicker

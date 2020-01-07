@@ -29,8 +29,8 @@ xul
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -39,7 +39,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -48,7 +48,7 @@ TEST_URL
 let
 toolbarbutton
 =
-await
+yield
 getNodeFront
 (
 "
@@ -60,7 +60,7 @@ inspector
 let
 children
 =
-await
+yield
 inspector
 .
 walker
@@ -114,7 +114,7 @@ anonymous
 "
 )
 ;
-await
+yield
 isEditingMenuEnabled
 (
 toolbarbutton
@@ -192,7 +192,7 @@ anonymous
 "
 )
 ;
-await
+yield
 isEditingMenuDisabled
 (
 node

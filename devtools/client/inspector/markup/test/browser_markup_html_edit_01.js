@@ -73,8 +73,8 @@ div
 '
 validate
 :
-async
 function
+*
 (
 {
 pageNodeFront
@@ -86,7 +86,7 @@ testActor
 let
 text
 =
-await
+yield
 testActor
 .
 getProperty
@@ -120,7 +120,7 @@ content
 let
 num
 =
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -348,8 +348,8 @@ div
 "
 validate
 :
-async
 function
+*
 (
 {
 pageNodeFront
@@ -373,7 +373,7 @@ selected
 let
 html
 =
-await
+yield
 testActor
 .
 getProperty
@@ -574,8 +574,8 @@ div
 '
 validate
 :
-async
 function
+*
 (
 {
 selectedNodeFront
@@ -587,7 +587,7 @@ testActor
 let
 beforeSiblingFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -616,7 +616,7 @@ selected
 let
 text
 =
-await
+yield
 testActor
 .
 getProperty
@@ -652,7 +652,7 @@ content
 let
 beforeText
 =
-await
+yield
 testActor
 .
 getProperty
@@ -688,7 +688,7 @@ inserted
 let
 afterText
 =
-await
+yield
 testActor
 .
 getProperty
@@ -807,8 +807,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -818,7 +818,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -834,7 +834,7 @@ focus
 (
 )
 ;
-await
+yield
 runEditOuterHTMLTests
 (
 TEST_DATA

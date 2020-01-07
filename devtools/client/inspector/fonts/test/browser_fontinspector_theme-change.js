@@ -74,8 +74,8 @@ originalTheme
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -85,7 +85,7 @@ inspector
 view
 }
 =
-await
+yield
 openFontInspectorForURL
 (
 TEST_URI
@@ -100,7 +100,7 @@ doc
 =
 view
 ;
-await
+yield
 selectNode
 (
 "
@@ -165,7 +165,7 @@ originalTheme
 .
 )
 ;
-await
+yield
 setThemeAndWaitForUpdate
 (
 newTheme
@@ -204,7 +204,7 @@ theme
 "
 )
 ;
-await
+yield
 setThemeAndWaitForUpdate
 (
 originalTheme
@@ -250,8 +250,8 @@ restored
 }
 )
 ;
-async
 function
+*
 setThemeAndWaitForUpdate
 (
 theme
@@ -304,7 +304,7 @@ update
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 }

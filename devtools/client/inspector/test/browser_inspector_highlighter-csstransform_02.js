@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -43,7 +43,7 @@ inspector
 let
 highlighter
 =
-await
+yield
 front
 .
 getHighlighterByType
@@ -56,7 +56,7 @@ CssTransformHighlighter
 let
 nodeFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -81,7 +81,7 @@ node
 "
 )
 ;
-await
+yield
 highlighter
 .
 show
@@ -92,7 +92,7 @@ nodeFront
 let
 data
 =
-await
+yield
 testActor
 .
 getAllAdjustedQuads
@@ -117,7 +117,7 @@ border
 let
 points
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -287,14 +287,14 @@ highlighter
 "
 )
 ;
-await
+yield
 highlighter
 .
 hide
 (
 )
 ;
-await
+yield
 highlighter
 .
 finalize

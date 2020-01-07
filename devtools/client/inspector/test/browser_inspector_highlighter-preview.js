@@ -59,8 +59,8 @@ p
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -71,7 +71,7 @@ toolbox
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -80,7 +80,7 @@ TEST_URI
 let
 body
 =
-await
+yield
 getNodeFront
 (
 "
@@ -118,7 +118,7 @@ picker
 "
 )
 ;
-await
+yield
 startPicker
 (
 toolbox
@@ -144,7 +144,7 @@ ON
 "
 )
 ;
-await
+yield
 clickElement
 (
 "
@@ -156,7 +156,7 @@ inspector
 true
 )
 ;
-await
+yield
 checkElementSelected
 (
 "
@@ -192,7 +192,7 @@ ON
 "
 )
 ;
-await
+yield
 clickElement
 (
 "
@@ -204,7 +204,7 @@ inspector
 true
 )
 ;
-await
+yield
 checkElementSelected
 (
 "
@@ -238,7 +238,7 @@ OFF
 "
 )
 ;
-await
+yield
 clickElement
 (
 "
@@ -250,7 +250,7 @@ inspector
 false
 )
 ;
-await
+yield
 checkElementSelected
 (
 "
@@ -269,8 +269,8 @@ false
 }
 )
 ;
-async
 function
+*
 clickElement
 (
 selector
@@ -293,7 +293,7 @@ updated
 "
 )
 ;
-await
+yield
 testActor
 .
 synthesizeMouse
@@ -315,12 +315,12 @@ isShift
 }
 )
 ;
-await
+yield
 onSelectionChanged
 ;
 }
-async
 function
+*
 checkElementSelected
 (
 selector
@@ -330,7 +330,7 @@ inspector
 let
 el
 =
-await
+yield
 getNodeFront
 (
 selector

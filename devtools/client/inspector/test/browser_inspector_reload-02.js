@@ -259,8 +259,8 @@ svg
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -270,7 +270,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -297,7 +297,7 @@ page
 "
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -325,13 +325,13 @@ reload
 "
 )
 ;
-await
+yield
 markupLoaded
 ;
 let
 svgFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -375,7 +375,7 @@ works
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -393,7 +393,7 @@ page
 "
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -408,7 +408,7 @@ reload
 let
 rectFront
 =
-await
+yield
 getNodeFront
 (
 "

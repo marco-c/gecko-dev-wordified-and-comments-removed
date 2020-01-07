@@ -91,8 +91,8 @@ id
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -101,7 +101,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -143,7 +143,7 @@ let
 editor
 }
 =
-await
+yield
 getContainerForSelector
 (
 selector
@@ -222,7 +222,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 mutated
 ;
 info
@@ -241,7 +241,7 @@ here
 let
 node
 =
-await
+yield
 walker
 .
 querySelector
@@ -281,7 +281,7 @@ deleted
 ;
 node
 =
-await
+yield
 walker
 .
 querySelector
@@ -351,7 +351,7 @@ change
 "
 )
 ;
-await
+yield
 undoChange
 (
 inspector
@@ -359,7 +359,7 @@ inspector
 ;
 node
 =
-await
+yield
 walker
 .
 querySelector

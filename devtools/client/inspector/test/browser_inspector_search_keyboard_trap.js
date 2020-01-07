@@ -182,8 +182,8 @@ true
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -192,7 +192,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -212,7 +212,7 @@ inspector
 .
 panelDoc
 ;
-await
+yield
 selectNode
 (
 "
@@ -222,7 +222,7 @@ b1
 inspector
 )
 ;
-await
+yield
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -307,7 +307,7 @@ key
 options
 )
 ;
-await
+yield
 done
 ;
 }

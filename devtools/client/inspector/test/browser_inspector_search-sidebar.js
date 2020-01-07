@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -15,7 +15,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -114,7 +114,7 @@ again
 "
 )
 ;
-await
+yield
 clickContainer
 (
 "
@@ -216,7 +216,7 @@ again
 "
 )
 ;
-await
+yield
 clickContainer
 (
 "

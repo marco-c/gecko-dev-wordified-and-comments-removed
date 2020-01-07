@@ -354,8 +354,8 @@ AAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -371,7 +371,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -399,7 +399,7 @@ Testing
 desc
 )
 ;
-await
+yield
 selectNode
 (
 selector
@@ -452,7 +452,7 @@ item
 "
 )
 ;
-await
+yield
 waitForClipboardPromise
 (
 (

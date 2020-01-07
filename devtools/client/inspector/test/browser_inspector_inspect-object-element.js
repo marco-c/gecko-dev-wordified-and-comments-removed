@@ -46,8 +46,8 @@ object
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -56,13 +56,13 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
 )
 ;
-await
+yield
 selectNode
 (
 "

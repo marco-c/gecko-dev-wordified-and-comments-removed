@@ -159,8 +159,8 @@ host
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -206,7 +206,7 @@ encodeURIComponent
 TEST_URI
 )
 ;
-await
+yield
 addTab
 (
 url
@@ -220,12 +220,12 @@ view
 toolbox
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 runTest
 (
 testActor
@@ -247,7 +247,7 @@ state
 "
 )
 ;
-await
+yield
 navigateTo
 (
 inspector
@@ -265,7 +265,7 @@ WINDOW
 "
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -275,7 +275,7 @@ window
 "
 )
 ;
-await
+yield
 runTest
 (
 testActor
@@ -286,8 +286,8 @@ view
 }
 )
 ;
-async
 function
+*
 runTest
 (
 testActor
@@ -295,7 +295,7 @@ inspector
 view
 )
 {
-await
+yield
 selectNode
 (
 "
@@ -386,7 +386,7 @@ tooltip
 "
 )
 ;
-await
+yield
 openEyedropper
 (
 view
@@ -442,7 +442,7 @@ eyedropper
 "
 )
 ;
-await
+yield
 testESC
 (
 swatch
@@ -460,7 +460,7 @@ again
 "
 )
 ;
-await
+yield
 openEyedropper
 (
 view
@@ -483,7 +483,7 @@ eyedropper
 "
 )
 ;
-await
+yield
 testSelect
 (
 view
@@ -510,7 +510,7 @@ hide
 (
 )
 ;
-await
+yield
 onHidden
 ;
 ok
@@ -530,14 +530,14 @@ closed
 "
 )
 ;
-await
+yield
 waitForTick
 (
 )
 ;
 }
-async
 function
+*
 testESC
 (
 swatch
@@ -582,7 +582,7 @@ resolve
 }
 )
 ;
-await
+yield
 testActor
 .
 synthesizeKey
@@ -600,7 +600,7 @@ options
 }
 )
 ;
-await
+yield
 onCanceled
 ;
 let
@@ -629,8 +629,8 @@ ESC
 )
 ;
 }
-async
 function
+*
 testSelect
 (
 view
@@ -694,7 +694,7 @@ changed
 "
 )
 ;
-await
+yield
 testActor
 .
 synthesizeMouse
@@ -723,7 +723,7 @@ mousemove
 }
 )
 ;
-await
+yield
 testActor
 .
 synthesizeMouse
@@ -752,7 +752,7 @@ mousedown
 }
 )
 ;
-await
+yield
 testActor
 .
 synthesizeMouse
@@ -781,10 +781,10 @@ mouseup
 }
 )
 ;
-await
+yield
 onPicked
 ;
-await
+yield
 onRuleViewChanged
 ;
 let
@@ -838,7 +838,7 @@ swatch
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 "

@@ -53,15 +53,15 @@ bottom
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 helper
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -88,7 +88,7 @@ finalize
 =
 helper
 ;
-await
+yield
 checkArrowsLabelsAndHandlers
 (
 "
@@ -112,7 +112,7 @@ right
 helper
 )
 ;
-await
+yield
 checkArrowsLabelsAndHandlers
 (
 "
@@ -130,7 +130,7 @@ left
 helper
 )
 ;
-await
+yield
 finalize
 (
 )
@@ -138,8 +138,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 checkArrowsLabelsAndHandlers
 (
 selector
@@ -167,7 +167,7 @@ page
 "
 )
 ;
-await
+yield
 show
 (
 selector
@@ -185,7 +185,7 @@ let
 hidden
 =
 (
-await
+yield
 isElementHidden
 (
 "
@@ -199,7 +199,7 @@ name
 &
 &
 (
-await
+yield
 isElementHidden
 (
 "
@@ -262,7 +262,7 @@ let
 hidden
 =
 (
-await
+yield
 isElementHidden
 (
 "
@@ -276,7 +276,7 @@ name
 &
 &
 (
-await
+yield
 isElementHidden
 (
 "
@@ -320,7 +320,7 @@ highlighter
 "
 )
 ;
-await
+yield
 hide
 (
 )

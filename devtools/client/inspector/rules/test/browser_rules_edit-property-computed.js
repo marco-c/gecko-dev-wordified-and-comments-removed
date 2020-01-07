@@ -45,12 +45,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -79,12 +79,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -94,7 +94,7 @@ testid
 inspector
 )
 ;
-await
+yield
 editAndCheck
 (
 view
@@ -103,8 +103,8 @@ view
 }
 )
 ;
-async
 function
+*
 editAndCheck
 (
 view
@@ -159,7 +159,7 @@ field
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -268,7 +268,7 @@ flush
 (
 )
 ;
-await
+yield
 onPropertyChange
 ;
 info
@@ -287,7 +287,7 @@ applied
 "
 )
 ;
-await
+yield
 onRefreshAfterPreview
 ;
 let
@@ -337,7 +337,7 @@ field
 "
 )
 ;
-await
+yield
 onBlur
 ;
 info
@@ -354,7 +354,7 @@ applied
 "
 )
 ;
-await
+yield
 once
 (
 view

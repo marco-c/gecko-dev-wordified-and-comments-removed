@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 URL_ROOT
@@ -28,7 +28,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -49,7 +49,7 @@ rule
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -85,7 +85,7 @@ view
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -138,7 +138,7 @@ KEY_Enter
 "
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 info
@@ -185,7 +185,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onBlur
 ;
 info

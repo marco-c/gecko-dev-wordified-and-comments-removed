@@ -52,15 +52,15 @@ style
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 helper
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -103,7 +103,7 @@ option
 "
 )
 ;
-await
+yield
 show
 (
 "
@@ -137,7 +137,7 @@ page
 "
 )
 ;
-await
+yield
 waitForElementAttributeSet
 (
 "
@@ -149,7 +149,7 @@ drawn
 helper
 )
 ;
-await
+yield
 waitForClipboardPromise
 (
 (
@@ -201,7 +201,7 @@ value
 "
 )
 ;
-await
+yield
 waitForElementAttributeRemoved
 (
 "
@@ -213,7 +213,7 @@ drawn
 helper
 )
 ;
-await
+yield
 waitForElementAttributeSet
 (
 "

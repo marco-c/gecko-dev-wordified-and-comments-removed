@@ -69,12 +69,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -103,7 +103,7 @@ inspector
 gridInspector
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -216,10 +216,10 @@ click
 (
 )
 ;
-await
+yield
 onColorPickerReady
 ;
-await
+yield
 simulateColorPickerChange
 (
 cPicker
@@ -331,10 +331,10 @@ RETURN
 "
 )
 ;
-await
+yield
 onColorPickerHidden
 ;
-await
+yield
 onGridColorUpdate
 ;
 is
@@ -396,7 +396,7 @@ ruleView
 .
 highlighters
 ;
-await
+yield
 selectNode
 (
 "
@@ -574,7 +574,7 @@ click
 (
 )
 ;
-await
+yield
 onHighlighterShown
 ;
 }

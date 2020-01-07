@@ -693,8 +693,8 @@ value
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -775,7 +775,7 @@ div
 >
 "
 ;
-await
+yield
 addTab
 (
 "
@@ -799,12 +799,12 @@ boxmodel
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -813,14 +813,14 @@ div
 inspector
 )
 ;
-await
+yield
 testInitialValues
 (
 inspector
 boxmodel
 )
 ;
-await
+yield
 testChangingValues
 (
 inspector
@@ -832,6 +832,7 @@ testActor
 )
 ;
 function
+*
 testInitialValues
 (
 inspector
@@ -924,8 +925,8 @@ value
 ;
 }
 }
-async
 function
+*
 testChangingValues
 (
 inspector
@@ -963,7 +964,7 @@ waitForUpdate
 inspector
 )
 ;
-await
+yield
 testActor
 .
 setAttribute
@@ -991,7 +992,7 @@ top
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 for

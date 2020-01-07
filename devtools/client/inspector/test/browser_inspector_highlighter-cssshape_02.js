@@ -23,8 +23,8 @@ ShapesHighlighter
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -34,7 +34,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -50,7 +50,7 @@ inspector
 let
 highlighter
 =
-await
+yield
 front
 .
 getHighlighterByType
@@ -58,7 +58,7 @@ getHighlighterByType
 HIGHLIGHTER_TYPE
 )
 ;
-await
+yield
 polygonHasCorrectAttrs
 (
 testActor
@@ -66,7 +66,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 circleHasCorrectAttrs
 (
 testActor
@@ -74,7 +74,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 ellipseHasCorrectAttrs
 (
 testActor
@@ -82,7 +82,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 insetHasCorrectAttrs
 (
 testActor
@@ -90,7 +90,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 highlighter
 .
 finalize
@@ -100,8 +100,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 polygonHasCorrectAttrs
 (
 testActor
@@ -124,7 +124,7 @@ points
 let
 polygonNode
 =
-await
+yield
 getNodeFront
 (
 "
@@ -134,7 +134,7 @@ polygon
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -152,7 +152,7 @@ cssClipPath
 let
 points
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -223,8 +223,8 @@ points
 )
 ;
 }
-async
 function
+*
 circleHasCorrectAttrs
 (
 testActor
@@ -247,7 +247,7 @@ attributes
 let
 circleNode
 =
-await
+yield
 getNodeFront
 (
 "
@@ -257,7 +257,7 @@ circle
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -275,7 +275,7 @@ cssClipPath
 let
 rx
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -294,7 +294,7 @@ highlighterFront
 let
 ry
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -313,7 +313,7 @@ highlighterFront
 let
 cx
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -332,7 +332,7 @@ highlighterFront
 let
 cy
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -401,8 +401,8 @@ cy
 )
 ;
 }
-async
 function
+*
 ellipseHasCorrectAttrs
 (
 testActor
@@ -425,7 +425,7 @@ attributes
 let
 ellipseNode
 =
-await
+yield
 getNodeFront
 (
 "
@@ -435,7 +435,7 @@ ellipse
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -453,7 +453,7 @@ cssClipPath
 let
 rx
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -472,7 +472,7 @@ highlighterFront
 let
 ry
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -491,7 +491,7 @@ highlighterFront
 let
 cx
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -510,7 +510,7 @@ highlighterFront
 let
 cy
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -579,8 +579,8 @@ cy
 )
 ;
 }
-async
 function
+*
 insetHasCorrectAttrs
 (
 testActor
@@ -603,7 +603,7 @@ attributes
 let
 insetNode
 =
-await
+yield
 getNodeFront
 (
 "
@@ -613,7 +613,7 @@ inset
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -631,7 +631,7 @@ cssClipPath
 let
 x
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -650,7 +650,7 @@ highlighterFront
 let
 y
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -669,7 +669,7 @@ highlighterFront
 let
 width
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -688,7 +688,7 @@ highlighterFront
 let
 height
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -43,7 +43,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )

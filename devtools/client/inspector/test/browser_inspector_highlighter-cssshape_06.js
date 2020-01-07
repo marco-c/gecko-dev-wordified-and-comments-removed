@@ -47,15 +47,15 @@ inset
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 inspector
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -64,7 +64,7 @@ TEST_URL
 let
 helper
 =
-await
+yield
 getHighlighterHelperFor
 (
 HIGHLIGHTER_TYPE
@@ -80,14 +80,14 @@ testActor
 =
 inspector
 ;
-await
+yield
 testTranslate
 (
 testActor
 helper
 )
 ;
-await
+yield
 testScale
 (
 testActor
@@ -103,8 +103,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 testTranslate
 (
 testActor
@@ -127,7 +127,7 @@ shape
 }
 )
 ;
-await
+yield
 helper
 .
 show
@@ -159,7 +159,7 @@ width
 height
 }
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -197,7 +197,7 @@ shape
 }
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -207,7 +207,7 @@ y
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -221,7 +221,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -235,7 +235,7 @@ dy
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -245,7 +245,7 @@ reflow
 let
 newBB
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -297,7 +297,7 @@ shape
 back
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -311,7 +311,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -321,7 +321,7 @@ y
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -331,7 +331,7 @@ y
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -340,7 +340,7 @@ reflow
 ;
 newBB
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -388,8 +388,8 @@ axis
 ;
 }
 }
-async
 function
+*
 testScale
 (
 testActor
@@ -412,7 +412,7 @@ shape
 }
 )
 ;
-await
+yield
 helper
 .
 show
@@ -445,7 +445,7 @@ height
 center
 }
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -509,7 +509,7 @@ nw
 ]
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -519,7 +519,7 @@ y
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -533,7 +533,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -547,7 +547,7 @@ dy
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -594,7 +594,7 @@ nw
 "
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -610,7 +610,7 @@ nw
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -630,7 +630,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -650,7 +650,7 @@ dy
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -660,7 +660,7 @@ reflow
 let
 nwBB
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -755,7 +755,7 @@ ne
 "
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -775,7 +775,7 @@ ne
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -799,7 +799,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -823,7 +823,7 @@ dy
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -833,7 +833,7 @@ reflow
 let
 neBB
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -936,7 +936,7 @@ sw
 "
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -956,7 +956,7 @@ sw
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -980,7 +980,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -1004,7 +1004,7 @@ dy
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -1014,7 +1014,7 @@ reflow
 let
 swBB
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -1117,7 +1117,7 @@ se
 "
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -1137,7 +1137,7 @@ se
 shape
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -1161,7 +1161,7 @@ dy
 shape
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -1185,7 +1185,7 @@ dy
 shape
 )
 ;
-await
+yield
 testActor
 .
 reflow
@@ -1195,7 +1195,7 @@ reflow
 let
 seBB
 =
-await
+yield
 getBoundingBoxInPx
 (
 testActor
@@ -1291,8 +1291,8 @@ scale
 ;
 }
 }
-async
 function
+*
 getBoundingBoxInPx
 (
 testActor
@@ -1308,7 +1308,7 @@ polygon
 let
 quads
 =
-await
+yield
 testActor
 .
 getAllAdjustedQuads
@@ -1334,7 +1334,7 @@ bounds
 let
 computedStyle
 =
-await
+yield
 helper
 .
 highlightedNode
@@ -1380,7 +1380,7 @@ value
 let
 path
 =
-await
+yield
 helper
 .
 getElementAttribute

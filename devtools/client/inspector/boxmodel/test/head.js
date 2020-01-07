@@ -80,8 +80,8 @@ height
 }
 )
 ;
-async
 function
+*
 selectAndHighlightNode
 (
 selectorOrNodeFront
@@ -104,7 +104,7 @@ selectorOrNodeFront
 let
 nodeFront
 =
-await
+yield
 getNodeFront
 (
 selectorOrNodeFront
@@ -141,7 +141,7 @@ highlight
 "
 )
 ;
-await
+yield
 updated
 ;
 }
@@ -354,8 +354,8 @@ selectNode
 ;
 selectNode
 =
-async
 function
+*
 (
 node
 inspector
@@ -371,7 +371,7 @@ inspector
 true
 )
 ;
-await
+yield
 _selectNode
 (
 node
@@ -379,7 +379,7 @@ inspector
 reason
 )
 ;
-await
+yield
 onUpdate
 ;
 }

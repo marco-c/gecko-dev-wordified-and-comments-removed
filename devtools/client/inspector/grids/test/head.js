@@ -142,8 +142,12 @@ CssGridHighlighter
 var
 simulateColorPickerChange
 =
+Task
+.
 async
+(
 function
+*
 (
 colorPicker
 newRgba
@@ -163,7 +167,7 @@ object
 let
 spectrum
 =
-await
+yield
 colorPicker
 .
 spectrum
@@ -206,6 +210,7 @@ onChange
 )
 ;
 }
+)
 ;
 registerCleanupFunction
 (

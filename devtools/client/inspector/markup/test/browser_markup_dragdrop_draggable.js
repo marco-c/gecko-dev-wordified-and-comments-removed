@@ -101,8 +101,8 @@ true
 {
 node
 :
-async
 function
+*
 (
 inspector
 )
@@ -110,7 +110,7 @@ inspector
 let
 parentFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -125,7 +125,7 @@ let
 nodes
 }
 =
-await
+yield
 inspector
 .
 walker
@@ -153,8 +153,8 @@ true
 {
 node
 :
-async
 function
+*
 (
 inspector
 )
@@ -162,7 +162,7 @@ inspector
 let
 parentFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -177,7 +177,7 @@ let
 nodes
 }
 =
-await
+yield
 inspector
 .
 walker
@@ -206,8 +206,8 @@ false
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -216,13 +216,13 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -262,7 +262,7 @@ string
 {
 container
 =
-await
+yield
 getContainerForSelector
 (
 node
@@ -278,7 +278,7 @@ else
 {
 container
 =
-await
+yield
 node
 (
 inspector

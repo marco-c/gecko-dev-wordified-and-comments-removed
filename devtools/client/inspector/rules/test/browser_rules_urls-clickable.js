@@ -56,12 +56,12 @@ BJRU5ErkJggg
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URI
@@ -73,12 +73,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNodes
 (
 inspector
@@ -88,8 +88,8 @@ view
 }
 )
 ;
-async
 function
+*
 selectNodes
 (
 inspector
@@ -154,7 +154,7 @@ inline
 resolved
 "
 ;
-await
+yield
 selectNode
 (
 relative1
@@ -208,7 +208,7 @@ matches
 "
 )
 ;
-await
+yield
 selectNode
 (
 relative2
@@ -261,7 +261,7 @@ matches
 "
 )
 ;
-await
+yield
 selectNode
 (
 absolute
@@ -315,7 +315,7 @@ matches
 "
 )
 ;
-await
+yield
 selectNode
 (
 inline
@@ -369,7 +369,7 @@ matches
 "
 )
 ;
-await
+yield
 selectNode
 (
 base64
@@ -423,7 +423,7 @@ matches
 "
 )
 ;
-await
+yield
 selectNode
 (
 inlineresolved
@@ -478,7 +478,7 @@ matches
 "
 )
 ;
-await
+yield
 selectNode
 (
 noimage

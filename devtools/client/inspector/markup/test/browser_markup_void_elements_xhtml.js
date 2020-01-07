@@ -16,8 +16,8 @@ xhtml
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -61,7 +61,7 @@ let
 editor
 }
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -154,7 +154,7 @@ document
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "

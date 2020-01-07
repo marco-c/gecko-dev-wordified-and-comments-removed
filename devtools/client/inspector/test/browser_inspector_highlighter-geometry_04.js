@@ -121,15 +121,15 @@ y2
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 helper
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -157,7 +157,7 @@ finalize
 =
 helper
 ;
-await
+yield
 checkArrowsAndHandlers
 (
 helper
@@ -245,7 +245,7 @@ y2
 }
 )
 ;
-await
+yield
 checkArrowsAndHandlers
 (
 helper
@@ -293,7 +293,7 @@ y2
 }
 )
 ;
-await
+yield
 checkArrowsAndHandlers
 (
 helper
@@ -350,12 +350,12 @@ highlighter
 "
 )
 ;
-await
+yield
 hide
 (
 )
 ;
-await
+yield
 finalize
 (
 )
@@ -363,8 +363,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 checkArrowsAndHandlers
 (
 helper
@@ -384,7 +384,7 @@ node
 selector
 )
 ;
-await
+yield
 helper
 .
 show
@@ -400,7 +400,7 @@ in
 arrows
 )
 {
-await
+yield
 checkArrowAndHandler
 (
 helper
@@ -413,8 +413,8 @@ side
 ;
 }
 }
-async
 function
+*
 checkArrowAndHandler
 (
 {
@@ -445,7 +445,7 @@ correct
 let
 handlerX
 =
-await
+yield
 getElementAttribute
 (
 "
@@ -462,7 +462,7 @@ cx
 let
 handlerY
 =
-await
+yield
 getElementAttribute
 (
 "
@@ -479,7 +479,7 @@ cy
 let
 expectedHandlerX
 =
-await
+yield
 getElementAttribute
 (
 "
@@ -499,7 +499,7 @@ cx
 let
 expectedHandlerY
 =
-await
+yield
 getElementAttribute
 (
 "
@@ -567,7 +567,7 @@ expectedCoords
 let
 value
 =
-await
+yield
 getElementAttribute
 (
 "

@@ -36,12 +36,12 @@ enabled
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 pushPref
 (
 CSS_SHAPES_ENABLED_PREF
@@ -51,7 +51,7 @@ true
 let
 env
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -60,7 +60,7 @@ TEST_URL
 let
 helper
 =
-await
+yield
 getHighlighterHelperFor
 (
 HIGHLIGHTER_TYPE
@@ -92,7 +92,7 @@ view
 .
 highlighters
 ;
-await
+yield
 highlightFromRuleView
 (
 inspector
@@ -101,7 +101,7 @@ highlighters
 testActor
 )
 ;
-await
+yield
 highlightFromHighlighter
 (
 view
@@ -113,8 +113,8 @@ helper
 }
 )
 ;
-async
 function
+*
 highlightFromRuleView
 (
 inspector
@@ -123,7 +123,7 @@ highlighters
 testActor
 )
 {
-await
+yield
 selectNode
 (
 "
@@ -133,7 +133,7 @@ polygon
 inspector
 )
 ;
-await
+yield
 toggleShapesHighlighter
 (
 view
@@ -197,7 +197,7 @@ HIGHLIGHTER_TYPE
 let
 markerHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -301,7 +301,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onHighlighterShown
 ;
 ok
@@ -350,7 +350,7 @@ state
 ;
 markerHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -423,7 +423,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onHighlighterShown
 ;
 ok
@@ -471,7 +471,7 @@ null
 ;
 markerHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -511,7 +511,7 @@ highlighter
 "
 )
 ;
-await
+yield
 toggleShapesHighlighter
 (
 view
@@ -529,8 +529,8 @@ false
 )
 ;
 }
-async
 function
+*
 highlightFromHighlighter
 (
 view
@@ -556,7 +556,7 @@ mouse
 =
 helper
 ;
-await
+yield
 toggleShapesHighlighter
 (
 view
@@ -620,7 +620,7 @@ handled
 "
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -629,13 +629,13 @@ move
 0
 )
 ;
-await
+yield
 onEventHandled
 ;
 let
 markerHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -751,7 +751,7 @@ it
 "
 )
 ;
-await
+yield
 mouse
 .
 down
@@ -760,7 +760,7 @@ down
 0
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -769,7 +769,7 @@ move
 10
 )
 ;
-await
+yield
 mouse
 .
 up
@@ -780,7 +780,7 @@ up
 ;
 markerHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -931,7 +931,7 @@ handled
 "
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -940,12 +940,12 @@ move
 100
 )
 ;
-await
+yield
 onEventHandled
 ;
 markerHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute

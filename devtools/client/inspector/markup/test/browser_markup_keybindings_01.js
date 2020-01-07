@@ -42,8 +42,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -52,7 +52,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -77,7 +77,7 @@ let
 editor
 }
 =
-await
+yield
 focusNode
 (
 "
@@ -169,7 +169,7 @@ let
 attributes
 =
 (
-await
+yield
 getAttributesFromEditor
 (
 "

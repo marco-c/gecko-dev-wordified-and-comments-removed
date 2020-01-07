@@ -80,8 +80,8 @@ HTML
 ;
 add_task
 (
-async
 function
+*
 deleteNodeAfterWhitespace
 (
 )
@@ -91,7 +91,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -122,7 +122,7 @@ view
 "
 )
 ;
-await
+yield
 selectAndFocusNode
 (
 "
@@ -134,7 +134,7 @@ whitespace
 inspector
 )
 ;
-await
+yield
 deleteCurrentSelection
 (
 inspector
@@ -143,7 +143,7 @@ inspector
 let
 parentNodeFront
 =
-await
+yield
 inspector
 .
 selection
@@ -157,7 +157,7 @@ parentNode
 let
 nodeFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -197,7 +197,7 @@ removed
 let
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -242,7 +242,7 @@ markup
 "
 )
 ;
-await
+yield
 undoChange
 (
 inspector
@@ -250,7 +250,7 @@ inspector
 ;
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -297,7 +297,7 @@ order
 "
 )
 ;
-await
+yield
 selectAndFocusNode
 (
 "
@@ -309,7 +309,7 @@ whitespace
 inspector
 )
 ;
-await
+yield
 deleteCurrentSelection
 (
 inspector
@@ -329,7 +329,7 @@ markup
 "
 )
 ;
-await
+yield
 undoChange
 (
 inspector
@@ -337,7 +337,7 @@ inspector
 ;
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -363,7 +363,7 @@ back
 let
 nextSibling
 =
-await
+yield
 getNodeFront
 (
 "
@@ -380,7 +380,7 @@ inspector
 let
 afterWhitespace
 =
-await
+yield
 getNodeFront
 (
 "
@@ -411,8 +411,8 @@ node
 }
 )
 ;
-async
 function
+*
 selectAndFocusNode
 (
 selector
@@ -434,14 +434,14 @@ is
 focused
 )
 ;
-await
+yield
 selectNode
 (
 selector
 inspector
 )
 ;
-await
+yield
 clickContainer
 (
 selector
@@ -449,8 +449,8 @@ inspector
 )
 ;
 }
-async
 function
+*
 deleteCurrentSelection
 (
 inspector
@@ -493,7 +493,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 Promise
 .
 all

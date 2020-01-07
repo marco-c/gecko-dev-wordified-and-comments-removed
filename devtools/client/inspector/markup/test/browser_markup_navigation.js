@@ -596,8 +596,8 @@ head
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -606,7 +606,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -701,7 +701,7 @@ updated
 "
 )
 ;
-await
+yield
 waitForChildrenUpdated
 (
 inspector
@@ -727,7 +727,7 @@ inspector
 )
 ;
 }
-await
+yield
 inspector
 .
 once

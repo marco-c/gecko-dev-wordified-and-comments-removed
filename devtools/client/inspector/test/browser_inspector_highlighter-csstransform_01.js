@@ -105,8 +105,8 @@ span
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -116,7 +116,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -149,7 +149,7 @@ inspector
 let
 highlighter
 =
-await
+yield
 front
 .
 getHighlighterByType
@@ -159,21 +159,21 @@ CssTransformHighlighter
 "
 )
 ;
-await
+yield
 isHiddenByDefault
 (
 testActor
 highlighter
 )
 ;
-await
+yield
 has2PolygonsAnd4Lines
 (
 testActor
 highlighter
 )
 ;
-await
+yield
 isNotShownForUntransformed
 (
 testActor
@@ -181,7 +181,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 isNotShownForInline
 (
 testActor
@@ -189,7 +189,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 isVisibleWhenShown
 (
 testActor
@@ -197,7 +197,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 linesLinkThePolygons
 (
 testActor
@@ -205,7 +205,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 highlighter
 .
 finalize
@@ -215,8 +215,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 isHiddenByDefault
 (
 testActor
@@ -240,7 +240,7 @@ default
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -272,8 +272,8 @@ default
 )
 ;
 }
-async
 function
+*
 has2PolygonsAnd4Lines
 (
 testActor
@@ -302,7 +302,7 @@ polygons
 let
 value
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -340,7 +340,7 @@ exists
 ;
 value
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -399,7 +399,7 @@ of
 {
 value
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -443,8 +443,8 @@ exists
 ;
 }
 }
-async
 function
+*
 isNotShownForUntransformed
 (
 testActor
@@ -471,7 +471,7 @@ node
 let
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -481,7 +481,7 @@ untransformed
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -492,7 +492,7 @@ node
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -523,8 +523,8 @@ hidden
 )
 ;
 }
-async
 function
+*
 isNotShownForInline
 (
 testActor
@@ -551,7 +551,7 @@ node
 let
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -561,7 +561,7 @@ inline
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -572,7 +572,7 @@ node
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -603,8 +603,8 @@ hidden
 )
 ;
 }
-async
 function
+*
 isVisibleWhenShown
 (
 testActor
@@ -630,7 +630,7 @@ node
 let
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -640,7 +640,7 @@ transformed
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -651,7 +651,7 @@ node
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -690,7 +690,7 @@ highlighter
 "
 )
 ;
-await
+yield
 highlighterFront
 .
 hide
@@ -699,7 +699,7 @@ hide
 ;
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -729,8 +729,8 @@ hidden
 )
 ;
 }
-async
 function
+*
 linesLinkThePolygons
 (
 testActor
@@ -754,7 +754,7 @@ node
 let
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -764,7 +764,7 @@ transformed
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -821,7 +821,7 @@ of
 let
 x1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -844,7 +844,7 @@ highlighterFront
 let
 y1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -867,7 +867,7 @@ highlighterFront
 let
 x2
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -890,7 +890,7 @@ highlighterFront
 let
 y2
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -926,7 +926,7 @@ y2
 let
 points1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -957,7 +957,7 @@ split
 let
 points2
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1163,7 +1163,7 @@ coordinate
 )
 ;
 }
-await
+yield
 highlighterFront
 .
 hide

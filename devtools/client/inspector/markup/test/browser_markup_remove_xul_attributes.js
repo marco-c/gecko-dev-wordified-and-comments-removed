@@ -16,8 +16,8 @@ xul
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -36,7 +36,7 @@ TEST_URL
 let
 panelFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -91,7 +91,7 @@ markupmutation
 "
 )
 ;
-await
+yield
 testActor
 .
 removeAttribute
@@ -114,7 +114,7 @@ markupmutation
 "
 )
 ;
-await
+yield
 onMutation
 ;
 is

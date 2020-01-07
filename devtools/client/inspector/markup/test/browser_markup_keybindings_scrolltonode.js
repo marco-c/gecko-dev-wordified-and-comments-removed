@@ -116,8 +116,8 @@ HTML
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -127,7 +127,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -178,7 +178,7 @@ hidden
 "
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -191,7 +191,7 @@ true
 testActor
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -217,7 +217,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -255,7 +255,7 @@ scroll
 "
 )
 ;
-await
+yield
 EventUtils
 .
 synthesizeKey
@@ -270,7 +270,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 waitForScroll
 ;
 ok
@@ -304,7 +304,7 @@ visible
 "
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -317,7 +317,7 @@ false
 testActor
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -343,7 +343,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -380,7 +380,7 @@ scroll
 "
 )
 ;
-await
+yield
 EventUtils
 .
 synthesizeKey
@@ -395,7 +395,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 waitForScroll
 ;
 ok
@@ -429,7 +429,7 @@ out
 "
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -442,7 +442,7 @@ true
 testActor
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -467,7 +467,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -496,7 +496,7 @@ modifier
 "
 )
 ;
-await
+yield
 EventUtils
 .
 synthesizeKey
@@ -535,7 +535,7 @@ out
 "
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -548,7 +548,7 @@ true
 testActor
 )
 ;
-await
+yield
 checkElementIsInViewport
 (
 "
@@ -564,8 +564,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 checkElementIsInViewport
 (
 selector
@@ -576,7 +576,7 @@ testActor
 let
 isInViewport
 =
-await
+yield
 testActor
 .
 eval

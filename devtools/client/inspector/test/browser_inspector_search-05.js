@@ -145,8 +145,8 @@ iframe
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -155,7 +155,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -188,7 +188,7 @@ box
 "
 )
 ;
-await
+yield
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -238,7 +238,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 processingDone
 ;
 info
@@ -253,7 +253,7 @@ complete
 "
 )
 ;
-await
+yield
 inspector
 .
 searchSuggestions
@@ -305,7 +305,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 processingDone
 ;
 info
@@ -349,10 +349,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSelect
 ;
-await
+yield
 checkCorrectButton
 (
 inspector
@@ -407,10 +407,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSelect
 ;
-await
+yield
 checkCorrectButton
 (
 inspector
@@ -465,10 +465,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSelect
 ;
-await
+yield
 checkCorrectButton
 (
 inspector
@@ -523,10 +523,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSelect
 ;
-await
+yield
 checkCorrectButton
 (
 inspector
@@ -581,10 +581,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSelect
 ;
-await
+yield
 checkCorrectButton
 (
 inspector
@@ -602,8 +602,12 @@ iframe
 let
 checkCorrectButton
 =
+Task
+.
 async
+(
 function
+*
 (
 inspector
 frameSelector
@@ -669,7 +673,7 @@ button
 let
 selectedNodeDoc
 =
-await
+yield
 walker
 .
 document
@@ -680,7 +684,7 @@ node
 let
 iframe
 =
-await
+yield
 walker
 .
 multiFrameQuerySelectorAll
@@ -690,7 +694,7 @@ frameSelector
 ;
 iframe
 =
-await
+yield
 iframe
 .
 item
@@ -702,7 +706,7 @@ let
 iframeDoc
 =
 (
-await
+yield
 walker
 .
 children
@@ -732,4 +736,5 @@ frameSelector
 )
 ;
 }
+)
 ;

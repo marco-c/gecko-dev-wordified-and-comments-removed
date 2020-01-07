@@ -556,8 +556,8 @@ available
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -567,7 +567,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -593,7 +593,7 @@ TEST_URI
 let
 helper
 =
-await
+yield
 getHighlighterHelperFor
 (
 HIGHLIGHTER_TYPE
@@ -611,7 +611,7 @@ prefix
 =
 ID
 ;
-await
+yield
 helper
 .
 show
@@ -621,14 +621,14 @@ html
 "
 )
 ;
-await
+yield
 respondsToMoveEvents
 (
 helper
 testActor
 )
 ;
-await
+yield
 respondsToReturnAndEscape
 (
 helper
@@ -643,8 +643,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 respondsToMoveEvents
 (
 helper
@@ -682,7 +682,7 @@ width
 height
 }
 =
-await
+yield
 testActor
 .
 getBoundingClientRect
@@ -863,7 +863,7 @@ mouse
 "
 )
 {
-await
+yield
 mouse
 .
 move
@@ -899,7 +899,7 @@ true
 {
 }
 ;
-await
+yield
 EventUtils
 .
 synthesizeAndWaitKey
@@ -909,7 +909,7 @@ options
 )
 ;
 }
-await
+yield
 checkPosition
 (
 expected
@@ -918,8 +918,8 @@ helper
 ;
 }
 }
-async
 function
+*
 checkPosition
 (
 {
@@ -934,7 +934,7 @@ getElementAttribute
 let
 style
 =
-await
+yield
 getElementAttribute
 (
 "
@@ -978,8 +978,8 @@ position
 )
 ;
 }
-async
 function
+*
 respondsToReturnAndEscape
 (
 {
@@ -1004,7 +1004,7 @@ eyedropper
 "
 )
 ;
-await
+yield
 EventUtils
 .
 synthesizeAndWaitKey
@@ -1019,7 +1019,7 @@ VK_RETURN
 let
 hidden
 =
-await
+yield
 isElementHidden
 (
 "
@@ -1055,7 +1055,7 @@ it
 "
 )
 ;
-await
+yield
 show
 (
 "
@@ -1063,7 +1063,7 @@ html
 "
 )
 ;
-await
+yield
 EventUtils
 .
 synthesizeAndWaitKey
@@ -1077,7 +1077,7 @@ VK_ESCAPE
 ;
 hidden
 =
-await
+yield
 isElementHidden
 (
 "

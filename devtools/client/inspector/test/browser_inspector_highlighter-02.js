@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -46,7 +46,7 @@ DIV
 "
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 "
@@ -61,7 +61,7 @@ inspector
 let
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -82,7 +82,7 @@ shown
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -109,7 +109,7 @@ div
 "
 )
 ;
-await
+yield
 testActor
 .
 isNodeCorrectlyHighlighted
@@ -138,7 +138,7 @@ DIV
 "
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 "
@@ -152,7 +152,7 @@ inspector
 ;
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -170,7 +170,7 @@ shown
 "
 )
 ;
-await
+yield
 testActor
 .
 isNodeCorrectlyHighlighted
@@ -199,7 +199,7 @@ DIV
 "
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 "
@@ -213,7 +213,7 @@ inspector
 ;
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -231,7 +231,7 @@ shown
 "
 )
 ;
-await
+yield
 testActor
 .
 isNodeCorrectlyHighlighted

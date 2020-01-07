@@ -81,12 +81,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -115,7 +115,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -137,7 +137,7 @@ name
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -201,7 +201,7 @@ span
 "
 )
 ;
-await
+yield
 focusEditableField
 (
 view
@@ -355,7 +355,7 @@ requests
 "
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 info
@@ -371,7 +371,7 @@ change
 "
 )
 ;
-await
+yield
 onSwatchUnitChange
 ;
 ok
@@ -400,7 +400,7 @@ updated
 "
 )
 ;
-await
+yield
 onPropertyValueUpdate
 ;
 ok

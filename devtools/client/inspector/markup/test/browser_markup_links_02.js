@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -46,7 +46,7 @@ node
 "
 )
 ;
-await
+yield
 addNewAttributes
 (
 "
@@ -82,7 +82,7 @@ let
 editor
 }
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -238,7 +238,7 @@ menu2
 inspector
 )
 ;
-await
+yield
 nodeMutated
 ;
 info
@@ -259,7 +259,7 @@ attribute
 editor
 }
 =
-await
+yield
 getContainerForSelector
 (
 "

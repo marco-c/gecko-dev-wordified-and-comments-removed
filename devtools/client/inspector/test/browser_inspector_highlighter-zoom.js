@@ -110,8 +110,8 @@ hidden
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -121,7 +121,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -139,7 +139,7 @@ highlighterUtils
 let
 div
 =
-await
+yield
 getNodeFront
 (
 "
@@ -166,7 +166,7 @@ level
 }
 )
 ;
-await
+yield
 testActor
 .
 zoomPageTo
@@ -185,7 +185,7 @@ node
 "
 )
 ;
-await
+yield
 highlighterUtils
 .
 highlightNodeFront
@@ -196,7 +196,7 @@ div
 let
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -218,7 +218,7 @@ level
 }
 )
 ;
-await
+yield
 testActor
 .
 isNodeCorrectlyHighlighted
@@ -248,7 +248,7 @@ down
 let
 style
 =
-await
+yield
 getElementsNodeStyle
 (
 testActor
@@ -260,7 +260,7 @@ width
 height
 }
 =
-await
+yield
 testActor
 .
 getWindowDimensions
@@ -298,7 +298,7 @@ node
 "
 )
 ;
-await
+yield
 highlighterUtils
 .
 unhighlight
@@ -309,8 +309,8 @@ unhighlight
 }
 )
 ;
-async
 function
+*
 getElementsNodeStyle
 (
 testActor
@@ -319,7 +319,7 @@ testActor
 let
 value
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute

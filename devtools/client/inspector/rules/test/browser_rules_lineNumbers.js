@@ -16,12 +16,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TESTCASE_URI
@@ -33,12 +33,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -106,7 +106,7 @@ changed
 "
 )
 ;
-await
+yield
 addProperty
 (
 view
@@ -121,7 +121,7 @@ size
 "
 )
 ;
-await
+yield
 onLocationChanged
 ;
 let

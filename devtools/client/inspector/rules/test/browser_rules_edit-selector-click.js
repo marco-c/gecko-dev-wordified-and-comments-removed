@@ -47,12 +47,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -81,12 +81,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -96,7 +96,7 @@ testclass
 inspector
 )
 ;
-await
+yield
 testClickOnSelectorEditorInput
 (
 view
@@ -105,8 +105,8 @@ view
 }
 )
 ;
-async
 function
+*
 testClickOnSelectorEditorInput
 (
 view
@@ -153,7 +153,7 @@ view
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -225,7 +225,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onClick
 ;
 is
@@ -305,7 +305,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onDoubleClick
 ;
 is
@@ -397,7 +397,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onBlur
 ;
 isnot

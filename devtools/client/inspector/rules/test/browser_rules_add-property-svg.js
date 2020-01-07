@@ -31,12 +31,12 @@ path
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URL
@@ -48,12 +48,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 TEST_SELECTOR
@@ -71,7 +71,7 @@ property
 "
 )
 ;
-await
+yield
 addProperty
 (
 view
@@ -87,7 +87,7 @@ red
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 TEST_SELECTOR

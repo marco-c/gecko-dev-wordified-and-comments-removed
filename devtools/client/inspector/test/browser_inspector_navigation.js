@@ -142,8 +142,8 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -153,13 +153,13 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL_1
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -181,7 +181,7 @@ page
 "
 )
 ;
-await
+yield
 navigateTo
 (
 inspector
@@ -198,7 +198,7 @@ loaded
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -244,7 +244,7 @@ history
 "
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -278,7 +278,7 @@ history
 "
 )
 ;
-await
+yield
 markuploaded
 ;
 info
@@ -292,7 +292,7 @@ updates
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 ok
@@ -308,7 +308,7 @@ loaded
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -330,7 +330,7 @@ correct
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -345,8 +345,8 @@ inspector
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -356,13 +356,13 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL_3
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -383,7 +383,7 @@ page
 "
 )
 ;
-await
+yield
 navigateTo
 (
 inspector
@@ -400,7 +400,7 @@ loaded
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -446,7 +446,7 @@ history
 "
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -480,7 +480,7 @@ history
 "
 )
 ;
-await
+yield
 markuploaded
 ;
 info
@@ -494,7 +494,7 @@ updates
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 ok
@@ -510,7 +510,7 @@ loaded
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -532,7 +532,7 @@ correct
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

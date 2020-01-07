@@ -80,8 +80,8 @@ options
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -89,7 +89,7 @@ testActor
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -122,7 +122,7 @@ visible
 ;
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -174,7 +174,7 @@ left
 {
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -228,8 +228,8 @@ options
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -260,7 +260,7 @@ let
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -305,8 +305,8 @@ true
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -335,7 +335,7 @@ left
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -392,8 +392,8 @@ true
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -401,7 +401,7 @@ testActor
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -461,8 +461,8 @@ content
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -472,7 +472,7 @@ let
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -499,7 +499,7 @@ hidden
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -527,7 +527,7 @@ hidden
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -555,7 +555,7 @@ hidden
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -604,8 +604,8 @@ margin
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -615,7 +615,7 @@ let
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -641,7 +641,7 @@ shown
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -669,7 +669,7 @@ hidden
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -697,7 +697,7 @@ hidden
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -749,8 +749,8 @@ padding
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -758,7 +758,7 @@ testActor
 let
 topY1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -780,7 +780,7 @@ y1
 let
 rightX1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -802,7 +802,7 @@ x1
 let
 bottomY1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -824,7 +824,7 @@ y1
 let
 leftX1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -848,7 +848,7 @@ let
 points
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -982,8 +982,8 @@ margin
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -991,7 +991,7 @@ testActor
 let
 topY1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1013,7 +1013,7 @@ y1
 let
 rightX1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1035,7 +1035,7 @@ x1
 let
 bottomY1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1057,7 +1057,7 @@ y1
 let
 leftX1
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1081,7 +1081,7 @@ let
 points
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -1216,8 +1216,8 @@ true
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -1248,7 +1248,7 @@ let
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -1281,7 +1281,7 @@ attribute
 let
 faded
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1380,8 +1380,8 @@ true
 }
 checkHighlighter
 :
-async
 function
+*
 (
 testActor
 )
@@ -1412,7 +1412,7 @@ let
 d
 }
 =
-await
+yield
 testActor
 .
 getHighlighterRegionPath
@@ -1445,7 +1445,7 @@ attribute
 let
 faded
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -1517,8 +1517,8 @@ faded
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -1528,7 +1528,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -1554,7 +1554,7 @@ TEST_URL
 let
 divFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -1602,7 +1602,7 @@ options
 options
 )
 ;
-await
+yield
 inspector
 .
 highlighter
@@ -1613,7 +1613,7 @@ divFront
 options
 )
 ;
-await
+yield
 checkHighlighter
 (
 testActor
@@ -1631,7 +1631,7 @@ highlighter
 "
 )
 ;
-await
+yield
 inspector
 .
 highlighter

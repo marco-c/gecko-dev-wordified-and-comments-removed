@@ -125,8 +125,8 @@ OUTER_FRAME_SRC
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -136,7 +136,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -182,7 +182,7 @@ activate
 "
 )
 ;
-await
+yield
 startPicker
 (
 inspector
@@ -200,7 +200,7 @@ outerFrameDiv
 "
 )
 ;
-await
+yield
 moveMouseOver
 (
 outerFrameDiv
@@ -209,7 +209,7 @@ outerFrameDiv
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -235,7 +235,7 @@ innerFrameDiv
 "
 )
 ;
-await
+yield
 moveMouseOver
 (
 innerFrameDiv
@@ -244,7 +244,7 @@ innerFrameDiv
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -269,7 +269,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 inspector
@@ -297,7 +297,7 @@ directly
 let
 innerFrameFront
 =
-await
+yield
 getNodeFrontInFrame
 (
 "
@@ -312,7 +312,7 @@ inspector
 let
 innerFrameDivFront
 =
-await
+yield
 getNodeFrontInFrame
 (
 "
@@ -322,7 +322,7 @@ innerFrameFront
 inspector
 )
 ;
-await
+yield
 selectNode
 (
 innerFrameDivFront
@@ -361,7 +361,7 @@ deactivate
 "
 )
 ;
-await
+yield
 inspector
 .
 toolbox

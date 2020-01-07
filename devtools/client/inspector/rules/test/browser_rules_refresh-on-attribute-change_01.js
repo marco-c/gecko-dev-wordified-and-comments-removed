@@ -78,12 +78,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -113,12 +113,12 @@ view
 testActor
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -210,7 +210,7 @@ refreshed
 "
 )
 ;
-await
+yield
 testActor
 .
 setAttribute
@@ -227,7 +227,7 @@ differentid
 "
 )
 ;
-await
+yield
 ruleViewRefreshed
 ;
 info
@@ -291,7 +291,7 @@ refreshed
 "
 )
 ;
-await
+yield
 testActor
 .
 setAttribute
@@ -308,7 +308,7 @@ testid
 "
 )
 ;
-await
+yield
 ruleViewRefreshed
 ;
 info

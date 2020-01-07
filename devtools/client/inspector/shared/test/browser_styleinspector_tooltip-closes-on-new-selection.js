@@ -58,12 +58,12 @@ xhtml
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -92,12 +92,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -121,7 +121,7 @@ selection
 "
 )
 ;
-await
+yield
 testRuleView
 (
 view
@@ -149,7 +149,7 @@ selectComputedView
 inspector
 )
 ;
-await
+yield
 testComputedView
 (
 view
@@ -159,8 +159,8 @@ inspector
 }
 )
 ;
-async
 function
+*
 testRuleView
 (
 ruleView
@@ -205,7 +205,7 @@ div
 "
 )
 ;
-await
+yield
 tooltip
 .
 setContent
@@ -250,7 +250,7 @@ styleDocument
 firstElementChild
 )
 ;
-await
+yield
 onShown
 ;
 info
@@ -275,7 +275,7 @@ hidden
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -285,7 +285,7 @@ two
 inspector
 )
 ;
-await
+yield
 onHidden
 ;
 ok
@@ -306,8 +306,8 @@ selected
 )
 ;
 }
-async
 function
+*
 testComputedView
 (
 computedView
@@ -352,7 +352,7 @@ div
 "
 )
 ;
-await
+yield
 tooltip
 .
 setContent
@@ -397,7 +397,7 @@ styleDocument
 firstElementChild
 )
 ;
-await
+yield
 onShown
 ;
 info
@@ -422,7 +422,7 @@ hidden
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -432,7 +432,7 @@ one
 inspector
 )
 ;
-await
+yield
 onHidden
 ;
 ok

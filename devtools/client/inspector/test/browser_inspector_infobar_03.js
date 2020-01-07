@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -56,7 +56,7 @@ fixed
 "
 }
 ;
-await
+yield
 testPositionAndStyle
 (
 testData
@@ -67,8 +67,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testPositionAndStyle
 (
 test
@@ -87,7 +87,7 @@ test
 selector
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 test
@@ -99,7 +99,7 @@ inspector
 let
 style
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -155,7 +155,7 @@ scrolled
 "
 )
 ;
-await
+yield
 testActor
 .
 scrollWindow
@@ -166,7 +166,7 @@ scrollWindow
 ;
 style
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute

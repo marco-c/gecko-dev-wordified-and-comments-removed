@@ -53,12 +53,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -87,12 +87,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -154,7 +154,7 @@ property
 "
 )
 ;
-await
+yield
 removeProperty
 (
 view
@@ -165,7 +165,7 @@ false
 let
 newValue
 =
-await
+yield
 executeInContent
 (
 "
@@ -292,7 +292,7 @@ blur
 (
 )
 ;
-await
+yield
 removeProperty
 (
 view
@@ -302,7 +302,7 @@ false
 ;
 newValue
 =
-await
+yield
 executeInContent
 (
 "

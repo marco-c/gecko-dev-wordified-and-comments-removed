@@ -87,12 +87,12 @@ DEVTOOLS_NUMBER_OF_CSS_GRIDS_IN_A_PAGE
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -120,7 +120,7 @@ let
 inspector
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -160,7 +160,7 @@ length
 1
 )
 ;
-await
+yield
 navigateTo
 (
 inspector
@@ -184,7 +184,7 @@ TEST_URI2
 )
 )
 ;
-await
+yield
 onGridListUpdate
 ;
 let

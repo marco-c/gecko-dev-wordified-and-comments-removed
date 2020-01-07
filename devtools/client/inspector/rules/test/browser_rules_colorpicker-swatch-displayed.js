@@ -295,12 +295,12 @@ nb
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -328,7 +328,7 @@ let
 view
 }
 =
-await
+yield
 openRuleView
 (
 )

@@ -55,8 +55,8 @@ css
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -86,7 +86,7 @@ PREF
 true
 )
 ;
-await
+yield
 addTab
 (
 TESTCASE_URI
@@ -99,7 +99,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -114,7 +114,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -123,7 +123,7 @@ div
 inspector
 )
 ;
-await
+yield
 verifyLinkText
 (
 SCSS_LOC
@@ -156,7 +156,7 @@ PREF
 false
 )
 ;
-await
+yield
 verifyLinkText
 (
 CSS_LOC
@@ -190,14 +190,14 @@ PREF
 true
 )
 ;
-await
+yield
 testClickingLink
 (
 toolbox
 view
 )
 ;
-await
+yield
 checkDisplayedStylesheet
 (
 toolbox
@@ -229,8 +229,8 @@ PREF
 }
 )
 ;
-async
 function
+*
 testClickingLink
 (
 toolbox
@@ -298,7 +298,7 @@ click
 (
 )
 ;
-await
+yield
 onStyleEditorReady
 ;
 }
@@ -512,6 +512,7 @@ return
 waitForSuccess
 (
 function
+*
 (
 )
 {

@@ -67,12 +67,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -101,12 +101,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -116,7 +116,7 @@ testid
 inspector
 )
 ;
-await
+yield
 testEditableFieldFocus
 (
 inspector
@@ -126,7 +126,7 @@ KEY_Enter
 "
 )
 ;
-await
+yield
 testEditableFieldFocus
 (
 inspector
@@ -139,8 +139,8 @@ KEY_Tab
 }
 )
 ;
-async
 function
+*
 testEditableFieldFocus
 (
 inspector
@@ -198,7 +198,7 @@ click
 (
 )
 ;
-await
+yield
 onFocus
 ;
 assertEditor
@@ -240,7 +240,7 @@ view
 1
 )
 ;
-await
+yield
 focusNextEditableField
 (
 view
@@ -341,7 +341,7 @@ changed
 :
 null
 ;
-await
+yield
 focusNextEditableField
 (
 view
@@ -349,7 +349,7 @@ ruleEditor
 commitKey
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 assertEditor
@@ -383,7 +383,7 @@ with
 commitKey
 )
 ;
-await
+yield
 focusNextEditableField
 (
 view
@@ -424,7 +424,7 @@ changed
 "
 )
 ;
-await
+yield
 focusNextEditableField
 (
 view
@@ -432,7 +432,7 @@ ruleEditor
 commitKey
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 assertEditor
@@ -462,7 +462,7 @@ view
 2
 )
 ;
-await
+yield
 focusNextEditableField
 (
 view
@@ -509,8 +509,8 @@ KEY_Escape
 )
 ;
 }
-async
 function
+*
 focusNextEditableField
 (
 view
@@ -544,7 +544,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onFocus
 ;
 }

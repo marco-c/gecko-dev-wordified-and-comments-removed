@@ -35,8 +35,8 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -46,7 +46,7 @@ inspector
 toolbox
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -115,7 +115,7 @@ computedview
 "
 )
 ;
-await
+yield
 waitForTick
 (
 )
@@ -129,7 +129,7 @@ inspector
 "
 )
 ;
-await
+yield
 toolbox
 .
 destroy
@@ -150,7 +150,7 @@ inspector
 inspector
 =
 (
-await
+yield
 openInspector
 (
 )
@@ -186,7 +186,7 @@ listener
 "
 )
 ;
-await
+yield
 inspector
 .
 sidebar

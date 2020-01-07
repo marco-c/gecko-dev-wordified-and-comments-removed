@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -59,7 +59,7 @@ u00D7
 "
 }
 ;
-await
+yield
 testInfobar
 (
 testData
@@ -80,7 +80,7 @@ level
 "
 )
 ;
-await
+yield
 testActor
 .
 zoomPageTo
@@ -101,7 +101,7 @@ zoom
 "
 )
 ;
-await
+yield
 testInfobar
 (
 testData
@@ -112,8 +112,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testInfobar
 (
 test
@@ -131,7 +131,7 @@ selector
 }
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 test
@@ -143,7 +143,7 @@ inspector
 let
 id
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent
@@ -178,7 +178,7 @@ selected
 let
 dims
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent

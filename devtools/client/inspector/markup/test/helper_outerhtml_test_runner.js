@@ -32,9 +32,12 @@ tests
 )
 ;
 return
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
@@ -46,7 +49,7 @@ of
 tests
 )
 {
-await
+yield
 runEditOuterHTMLTest
 (
 step
@@ -57,12 +60,10 @@ testActor
 }
 }
 )
-(
-)
 ;
 }
-async
 function
+*
 runEditOuterHTMLTest
 (
 test
@@ -91,7 +92,7 @@ selector
 "
 )
 ;
-await
+yield
 selectNode
 (
 test
@@ -141,7 +142,7 @@ reselectedonremoved
 "
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -161,7 +162,7 @@ test
 oldHTML
 )
 ;
-await
+yield
 onReselected
 ;
 let
@@ -176,7 +177,7 @@ nodeFront
 let
 pageNodeFront
 =
-await
+yield
 inspector
 .
 walker
@@ -200,7 +201,7 @@ test
 validate
 )
 {
-await
+yield
 test
 .
 validate
@@ -238,7 +239,7 @@ let
 outerHTML
 }
 =
-await
+yield
 testActor
 .
 getNodeInfo
@@ -264,7 +265,7 @@ updated
 )
 ;
 }
-await
+yield
 onUpdated
 ;
 let

@@ -26,12 +26,12 @@ bug
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -59,7 +59,7 @@ let
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -93,7 +93,7 @@ colorswatch
 let
 picker
 =
-await
+yield
 openColorPickerForSwatch
 (
 cSwatch
@@ -169,13 +169,13 @@ ownerDocument
 defaultView
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 let
 value
 =
-await
+yield
 change
 ;
 info
@@ -270,8 +270,8 @@ defaultView
 }
 )
 ;
-async
 function
+*
 openColorPickerForSwatch
 (
 swatch
@@ -350,7 +350,7 @@ click
 (
 )
 ;
-await
+yield
 onColorPickerReady
 ;
 ok

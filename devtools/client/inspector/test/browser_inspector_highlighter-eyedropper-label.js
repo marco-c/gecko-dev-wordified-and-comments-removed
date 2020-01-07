@@ -487,8 +487,8 @@ true
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -498,7 +498,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_PAGE
@@ -507,7 +507,7 @@ TEST_PAGE
 let
 helper
 =
-await
+yield
 getHighlighterHelperFor
 (
 HIGHLIGHTER_TYPE
@@ -541,7 +541,7 @@ width
 height
 }
 =
-await
+yield
 testActor
 .
 getBoundingClientRect
@@ -573,7 +573,7 @@ page
 "
 )
 ;
-await
+yield
 show
 (
 "
@@ -644,7 +644,7 @@ y
 }
 )
 ;
-await
+yield
 mouse
 .
 move
@@ -653,7 +653,7 @@ x
 y
 )
 ;
-await
+yield
 checkLabelPositionAttributes
 (
 helper
@@ -670,7 +670,7 @@ eyedropper
 "
 )
 ;
-await
+yield
 hide
 (
 )
@@ -682,8 +682,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 checkLabelPositionAttributes
 (
 helper
@@ -701,7 +701,7 @@ positions
 is
 (
 (
-await
+yield
 hasAttribute
 (
 helper
@@ -738,8 +738,8 @@ position
 ;
 }
 }
-async
 function
+*
 hasAttribute
 (
 {
@@ -751,7 +751,7 @@ name
 let
 value
 =
-await
+yield
 getElementAttribute
 (
 "

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 URL_ROOT
@@ -29,7 +29,7 @@ boxmodel
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -51,7 +51,7 @@ page
 "
 )
 ;
-await
+yield
 assertBoxModelView
 (
 inspector
@@ -76,14 +76,14 @@ waitForMarkupLoaded
 inspector
 )
 ;
-await
+yield
 testActor
 .
 reload
 (
 )
 ;
-await
+yield
 onMarkupLoaded
 ;
 info
@@ -103,7 +103,7 @@ page
 "
 )
 ;
-await
+yield
 assertBoxModelView
 (
 inspector
@@ -114,8 +114,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 assertBoxModelView
 (
 inspector
@@ -123,7 +123,7 @@ boxmodel
 testActor
 )
 {
-await
+yield
 selectNode
 (
 "
@@ -205,7 +205,7 @@ waitForUpdate
 inspector
 )
 ;
-await
+yield
 setStyle
 (
 testActor
@@ -220,7 +220,7 @@ padding
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 ok

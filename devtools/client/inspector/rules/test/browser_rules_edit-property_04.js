@@ -47,12 +47,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -81,12 +81,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -126,7 +126,7 @@ property
 "
 )
 ;
-await
+yield
 togglePropStatus
 (
 view
@@ -136,7 +136,7 @@ prop
 let
 newValue
 =
-await
+yield
 executeInContent
 (
 "
@@ -178,7 +178,7 @@ unset
 "
 )
 ;
-await
+yield
 testEditDisableProperty
 (
 view
@@ -192,7 +192,7 @@ VK_ESCAPE
 "
 )
 ;
-await
+yield
 testEditDisableProperty
 (
 view
@@ -206,7 +206,7 @@ VK_ESCAPE
 "
 )
 ;
-await
+yield
 testEditDisableProperty
 (
 view
@@ -220,7 +220,7 @@ VK_TAB
 "
 )
 ;
-await
+yield
 testEditDisableProperty
 (
 view
@@ -237,8 +237,8 @@ VK_RETURN
 }
 )
 ;
-async
 function
+*
 testEditDisableProperty
 (
 view
@@ -274,7 +274,7 @@ valueSpan
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -336,7 +336,7 @@ hidden
 let
 newValue
 =
-await
+yield
 executeInContent
 (
 "
@@ -430,10 +430,10 @@ view
 styleWindow
 )
 ;
-await
+yield
 onBlur
 ;
-await
+yield
 onChangeDone
 ;
 ok
@@ -528,7 +528,7 @@ checked
 ;
 newValue
 =
-await
+yield
 executeInContent
 (
 "

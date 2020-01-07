@@ -37,8 +37,8 @@ TEST_ACTOR_URL
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -54,7 +54,7 @@ Toolbox
 let
 tab
 =
-await
+yield
 addTab
 (
 TEST_PAGE_URL
@@ -63,7 +63,7 @@ TEST_PAGE_URL
 let
 toolbox
 =
-await
+yield
 openToolboxForTab
 (
 tab
@@ -87,7 +87,7 @@ registrar
 front
 }
 =
-await
+yield
 registerTestActor
 (
 toolbox
@@ -106,7 +106,7 @@ panel
 let
 inspector
 =
-await
+yield
 toolbox
 .
 selectTool
@@ -119,7 +119,7 @@ inspector
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -188,7 +188,7 @@ actor
 "
 )
 ;
-await
+yield
 unregisterActor
 (
 registrar

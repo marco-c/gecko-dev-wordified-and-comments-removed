@@ -95,8 +95,8 @@ span
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -105,7 +105,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -147,7 +147,7 @@ grid
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -160,7 +160,7 @@ inspector
 let
 gridContainer
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -250,7 +250,7 @@ flex
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -263,7 +263,7 @@ inspector
 let
 flexContainer
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -352,7 +352,7 @@ block
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -365,7 +365,7 @@ inspector
 let
 blockContainer
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -451,7 +451,7 @@ span
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -463,7 +463,7 @@ inspector
 let
 spanContainer
 =
-await
+yield
 getContainerForSelector
 (
 "
