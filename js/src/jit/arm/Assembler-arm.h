@@ -9115,7 +9115,7 @@ next
 ;
 Instruction
 *
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -10310,13 +10310,13 @@ inst_
 inst
 )
 {
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
 }
 void
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 {
@@ -10325,7 +10325,7 @@ inst_
 inst_
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -10346,9 +10346,7 @@ next
 )
 ;
 return
-cur
-(
-)
+inst_
 ;
 }
 Instruction
@@ -10395,7 +10393,7 @@ buffer
 {
 }
 void
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;

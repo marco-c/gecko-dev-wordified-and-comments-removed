@@ -16312,7 +16312,7 @@ Instruction
 Instruction
 :
 :
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 {
@@ -16358,7 +16358,7 @@ size
 )
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16378,7 +16378,7 @@ this
 )
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16390,7 +16390,7 @@ void
 BufferInstructionIterator
 :
 :
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 {
@@ -16440,7 +16440,7 @@ size
 )
 )
 ;
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16461,7 +16461,7 @@ next
 (
 )
 ;
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16511,7 +16511,7 @@ size
 )
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16539,7 +16539,7 @@ size
 )
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16547,7 +16547,7 @@ return
 ret
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16793,7 +16793,7 @@ inst
 inst
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -16969,7 +16969,7 @@ inst
 inst
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
@@ -17107,7 +17107,7 @@ inst
 inst
 -
 >
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;

@@ -1704,7 +1704,7 @@ cur
 ;
 iter
 .
-skipPool
+maybeSkipAutomaticInstructions
 (
 )
 ;
