@@ -108,6 +108,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+PushBroadcastService
+.
+jsm
+'
+'
 PushCrypto
 .
 jsm

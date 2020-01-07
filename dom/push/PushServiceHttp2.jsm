@@ -2297,6 +2297,7 @@ connect
 function
 (
 subscriptions
+broadcastListeners
 )
 {
 this
@@ -2306,6 +2307,16 @@ startConnections
 subscriptions
 )
 ;
+}
+sendSubscribeBroadcast
+:
+async
+function
+(
+serviceId
+version
+)
+{
 }
 isConnected
 :
