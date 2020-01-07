@@ -1068,11 +1068,6 @@ BrowserErrorReporter
 jsm
 '
 '
-BrowserUITelemetry
-.
-jsm
-'
-'
 BrowserUsageTelemetry
 .
 jsm
