@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-KeyframeEffect
+KeyframeEffectReadOnly
 .
 h
 "
@@ -102,7 +102,7 @@ inline
 void
 PostSpecifiedTimingUpdated
 (
-KeyframeEffect
+KeyframeEffectReadOnly
 *
 aEffect
 )

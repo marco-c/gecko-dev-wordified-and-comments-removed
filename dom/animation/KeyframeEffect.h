@@ -227,11 +227,6 @@ ErrorResult
 aRv
 )
 ;
-void
-NotifySpecifiedTimingUpdated
-(
-)
-;
 }
 ;
 }
