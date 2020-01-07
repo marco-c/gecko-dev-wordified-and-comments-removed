@@ -1172,10 +1172,10 @@ mRawPtr
 mFunction
 )
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 ActualArgs
 >
@@ -2569,7 +2569,10 @@ p
 new
 T
 (
-Forward
+std
+:
+:
+forward
 <
 Args
 >
@@ -2624,7 +2627,10 @@ p
 new
 T
 (
-Forward
+std
+:
+:
+forward
 <
 Args
 >

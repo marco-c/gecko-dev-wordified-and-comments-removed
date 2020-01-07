@@ -2180,7 +2180,10 @@ T
 operator
 =
 (
-Forward
+std
+:
+:
+forward
 <
 LinkedList
 <

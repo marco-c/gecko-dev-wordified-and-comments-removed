@@ -91,10 +91,10 @@ aArgs
 :
 mArray
 {
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

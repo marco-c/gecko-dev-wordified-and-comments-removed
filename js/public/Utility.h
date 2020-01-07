@@ -1664,10 +1664,10 @@ memory
 )
 T
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >
@@ -1742,10 +1742,10 @@ NEWNAME
 T
 >
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

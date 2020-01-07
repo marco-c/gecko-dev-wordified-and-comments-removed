@@ -126,7 +126,10 @@ lambda
 new
 LambdaType
 (
-Forward
+std
+:
+:
+forward
 <
 OnRunType
 >

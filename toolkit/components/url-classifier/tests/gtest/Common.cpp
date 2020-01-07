@@ -112,10 +112,10 @@ NS_NewRunnableFunction
 "
 RunTestInNewThread
 "
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Function
 >

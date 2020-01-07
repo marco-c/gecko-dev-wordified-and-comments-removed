@@ -1520,7 +1520,10 @@ aType
 )
 mInitData
 (
-Forward
+std
+:
+:
+forward
 <
 AInitDatas
 >
@@ -1599,7 +1602,10 @@ AppendElement
 InitData
 (
 aType
-Forward
+std
+:
+:
+forward
 <
 AInitDatas
 >

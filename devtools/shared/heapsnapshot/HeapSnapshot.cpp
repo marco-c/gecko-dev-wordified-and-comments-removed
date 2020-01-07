@@ -4717,7 +4717,10 @@ rhs
 :
 Base
 (
-Forward
+std
+:
+:
+forward
 <
 T
 >
@@ -4772,7 +4775,10 @@ this
 )
 TwoByteString
 (
-Forward
+std
+:
+:
+forward
 <
 T
 >

@@ -485,10 +485,10 @@ child
 f
 )
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 ARGS
 >

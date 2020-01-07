@@ -200,12 +200,6 @@ using
 mozilla
 :
 :
-Forward
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -287,7 +281,10 @@ rhs
 :
 Base
 (
-Forward
+std
+:
+:
+forward
 <
 T
 >
@@ -342,7 +339,10 @@ this
 )
 AtomOrTwoByteChars
 (
-Forward
+std
+:
+:
+forward
 <
 T
 >

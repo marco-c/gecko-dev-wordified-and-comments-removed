@@ -1520,10 +1520,10 @@ aOther
 *
 this
 =
-mozilla
+std
 :
 :
-Forward
+forward
 <
 RegisteredProxy
 >

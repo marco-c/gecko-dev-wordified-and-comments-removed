@@ -812,7 +812,10 @@ aLambda
 )
 mInstance
 (
-Forward
+std
+:
+:
+forward
 <
 InstanceType
 >
@@ -1138,10 +1141,10 @@ Impl
 (
 this
 aWindow
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

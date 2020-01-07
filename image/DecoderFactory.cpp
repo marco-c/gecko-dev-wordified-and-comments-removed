@@ -1469,7 +1469,10 @@ decoder
 >
 SetIterator
 (
-Forward
+std
+:
+:
+forward
 <
 SourceBufferIterator
 >

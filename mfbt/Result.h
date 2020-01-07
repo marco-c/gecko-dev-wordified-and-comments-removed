@@ -1201,7 +1201,10 @@ aValue
 >
 decltype
 (
-Forward
+std
+:
+:
+forward
 <
 Result
 <
@@ -1215,7 +1218,10 @@ aValue
 )
 {
 return
-Forward
+std
+:
+:
+forward
 <
 Result
 <

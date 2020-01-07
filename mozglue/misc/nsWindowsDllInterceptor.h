@@ -255,10 +255,10 @@ aArgs
 :
 mDetourPatcher
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >
@@ -277,10 +277,10 @@ _M_IX86
 )
 mNopSpacePatcher
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

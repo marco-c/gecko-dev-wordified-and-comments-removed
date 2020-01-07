@@ -126,7 +126,10 @@ FLIP_VERTICALLY
 WithFilterPipeline
 (
 decoder
-Forward
+std
+:
+:
+forward
 <
 Func
 >
@@ -187,7 +190,10 @@ nullptr
 WithFilterPipeline
 (
 decoder
-Forward
+std
+:
+:
+forward
 <
 Func
 >

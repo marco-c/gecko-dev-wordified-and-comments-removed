@@ -10081,7 +10081,10 @@ holder
 )
 func
 =
-Forward
+std
+:
+:
+forward
 <
 FunctionType
 >

@@ -114,10 +114,10 @@ WindowsDllPatcherBase
 VMPolicy
 >
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

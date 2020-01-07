@@ -59,10 +59,10 @@ aArgs
 :
 mVMPolicy
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >
