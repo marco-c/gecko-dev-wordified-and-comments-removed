@@ -21955,7 +21955,7 @@ mozjs
 .
 1
 .
-9
+10
 (
 registry
 +
@@ -24148,7 +24148,7 @@ version
 .
 1
 .
-9
+10
 "
 source
 =
@@ -33986,7 +33986,7 @@ mozjs
 .
 1
 .
-9
+10
 (
 registry
 +
@@ -55013,7 +55013,7 @@ mozjs
 .
 1
 .
-9
+10
 (
 registry
 +
@@ -55038,7 +55038,7 @@ index
 "
 =
 "
-c9935bada5ea5d70291f21cce7b1bbad507edea12590ebe9cfb6b665fb716480
+2cd8370617e9a151ed9e7b49f38092075d0ae80bdf9f1dcd807a60cc9c3b7151
 "
 "
 checksum
