@@ -959,6 +959,11 @@ AttributionCode
 jsm
 '
 '
+BrowserErrorReporter
+.
+jsm
+'
+'
 BrowserUITelemetry
 .
 jsm
