@@ -100,3 +100,9 @@ moztest
 mozbase
 /
 mozversion
+.
+.
+/
+tools
+/
+mozterm

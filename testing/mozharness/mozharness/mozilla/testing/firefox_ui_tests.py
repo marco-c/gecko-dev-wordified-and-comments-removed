@@ -1067,6 +1067,14 @@ mozbase
 '
 tools
 /
+mozterm
+/
+*
+'
+                        
+'
+tools
+/
 wptserve
 /
 *
