@@ -740,6 +740,10 @@ aMallocSizeOf
 )
 const
 ;
+static
+bool
+sSameSiteEnabled
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -825,6 +829,12 @@ const
 nsACString
 &
 aHost
+)
+;
+static
+bool
+IsSameSiteEnabled
+(
 )
 ;
 static
