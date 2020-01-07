@@ -1222,6 +1222,9 @@ nsStyleImageLayers_Size_DimensionType
 StyleStackSizing
 "
 "
+StyleBorderImageRepeat
+"
+"
 StyleBoxPack
 "
 "
