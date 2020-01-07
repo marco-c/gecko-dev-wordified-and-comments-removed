@@ -177,7 +177,7 @@ mozilla
 dom
 :
 :
-Request
+DOMPreferences
 :
 :
 RequestContextEnabled
