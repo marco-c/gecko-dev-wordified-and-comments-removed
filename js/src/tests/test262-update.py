@@ -50,10 +50,6 @@ optimization
 "
                             
 "
-BigInt
-"
-                            
-"
 class
 -
 fields
@@ -125,6 +121,22 @@ hasOwnProperty
 (
 '
 Atomics
+'
+)
+"
+                         
+"
+BigInt
+"
+:
+"
+!
+this
+.
+hasOwnProperty
+(
+'
+BigInt
 '
 )
 "
