@@ -117,6 +117,7 @@ script
 >
 promise_test
 (
+async
 t
 =
 >
@@ -124,13 +125,9 @@ t
 const
 video
 =
-document
-.
-createElement
+await
+loadVideo
 (
-'
-video
-'
 )
 ;
 video
@@ -210,6 +207,7 @@ exitPictureInPicture
 (
 )
 )
+;
 }
 '
 leavepictureinpicture
@@ -225,6 +223,7 @@ exitPictureInPicture
 ;
 promise_test
 (
+async
 t
 =
 >
@@ -232,13 +231,9 @@ t
 const
 video
 =
-document
-.
-createElement
+await
+loadVideo
 (
-'
-video
-'
 )
 ;
 video

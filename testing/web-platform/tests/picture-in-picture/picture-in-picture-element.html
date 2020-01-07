@@ -121,6 +121,7 @@ script
 >
 promise_test
 (
+async
 t
 =
 >
@@ -136,13 +137,9 @@ null
 const
 video
 =
-document
-.
-createElement
+await
+loadVideo
 (
-'
-video
-'
 )
 ;
 return
@@ -193,6 +190,7 @@ null
 ;
 }
 )
+;
 }
 )
 ;
