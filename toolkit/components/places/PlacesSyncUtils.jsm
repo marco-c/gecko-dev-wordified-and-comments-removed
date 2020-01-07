@@ -4241,6 +4241,12 @@ repository
 getLogger
 (
 "
+Sync
+.
+Engine
+.
+Bookmarks
+.
 BookmarkSyncUtils
 "
 )
