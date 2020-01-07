@@ -81,7 +81,7 @@ xhr
 open
 (
 "
-HEAD
+GET
 "
 url
 )
