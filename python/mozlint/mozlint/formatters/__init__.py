@@ -22,6 +22,11 @@ import
 StylishFormatter
 from
 .
+summary
+import
+SummaryFormatter
+from
+.
 treeherder
 import
 TreeherderFormatter
@@ -79,6 +84,12 @@ stylish
 '
 :
 StylishFormatter
+    
+'
+summary
+'
+:
+SummaryFormatter
     
 '
 treeherder
