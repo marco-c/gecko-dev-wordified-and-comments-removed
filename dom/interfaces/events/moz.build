@@ -151,11 +151,6 @@ nsIDOMNSEvent
 idl
 '
 '
-nsIDOMScrollAreaEvent
-.
-idl
-'
-'
 nsIDOMUIEvent
 .
 idl
