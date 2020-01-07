@@ -223,6 +223,11 @@ app
 name
 :
 browser
+branch
+-
+prefix
+:
+mozilla
 product
 :
 firefox
