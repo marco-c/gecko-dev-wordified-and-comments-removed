@@ -10,3 +10,7 @@ DATA_STORAGE
 (
 SiteSecurityServiceState
 )
+DATA_STORAGE
+(
+TRRBlacklist
+)

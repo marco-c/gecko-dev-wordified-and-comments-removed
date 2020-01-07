@@ -1345,7 +1345,7 @@ kTCPSendBufferSize
 )
 mSpdyPushAllowance
 (
-32768
+131072
 )
 mSpdyPullAllowance
 (

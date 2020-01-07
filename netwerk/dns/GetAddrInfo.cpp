@@ -111,7 +111,7 @@ Logging
 h
 "
 #
-if
+ifdef
 DNSQUERY_AVAILABLE
 #
 undef
@@ -211,7 +211,7 @@ __VA_ARGS__
 )
 )
 #
-if
+ifdef
 DNSQUERY_AVAILABLE
 static_assert
 (
@@ -1308,7 +1308,7 @@ n
 )
 ;
 #
-if
+ifdef
 DNSQUERY_AVAILABLE
 return
 _GetAddrInfoInit_Windows
@@ -1341,7 +1341,7 @@ n
 )
 ;
 #
-if
+ifdef
 DNSQUERY_AVAILABLE
 return
 _GetAddrInfoShutdown_Windows
@@ -1400,7 +1400,7 @@ NS_ERROR_NULL_POINTER
 ;
 }
 #
-if
+ifdef
 DNSQUERY_AVAILABLE
 if
 (
@@ -1418,6 +1418,22 @@ RES_CANON_NAME
 }
 #
 endif
+if
+(
+gNativeIsLocalhost
+)
+{
+aHost
+=
+"
+localhost
+"
+;
+aAddressFamily
+=
+PR_AF_INET
+;
+}
 *
 aAddrInfo
 =
@@ -1436,7 +1452,7 @@ aAddrInfo
 )
 ;
 #
-if
+ifdef
 DNSQUERY_AVAILABLE
 if
 (

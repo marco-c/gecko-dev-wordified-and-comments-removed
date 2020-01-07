@@ -451,7 +451,7 @@ static
 int32_t
 kEmergencyWindowThreshold
 =
-256
+96
 *
 1024
 ;
