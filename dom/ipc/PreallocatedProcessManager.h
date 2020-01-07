@@ -84,6 +84,12 @@ ContentParent
 aParent
 )
 ;
+static
+void
+Disable
+(
+)
+;
 private
 :
 PreallocatedProcessManager
