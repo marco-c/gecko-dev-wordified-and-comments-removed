@@ -35308,7 +35308,7 @@ gc_
 .
 maybeCallGCCallback
 (
-JSGC_BEGIN
+JSGC_END
 )
 ;
 }
