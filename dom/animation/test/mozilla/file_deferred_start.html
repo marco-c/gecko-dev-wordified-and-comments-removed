@@ -702,6 +702,9 @@ waitForPaints
 (
 )
 ;
+const
+animation
+=
 div
 .
 animate
@@ -737,6 +740,12 @@ delay
 *
 MS_PER_SEC
 }
+)
+;
+await
+waitForAnimationReadyToRestyle
+(
+animation
 )
 ;
 await
