@@ -1420,6 +1420,10 @@ u32
 =
 0
 }
+#
+[
+inline
+]
 fn
 flattened_tree_parent_is_parent
 (
@@ -1572,6 +1576,10 @@ false
 }
 true
 }
+#
+[
+inline
+]
 fn
 flattened_tree_parent
 (
@@ -1656,6 +1664,10 @@ GeckoNode
 }
 }
 }
+#
+[
+inline
+]
 fn
 contains_non_whitespace_content
 (

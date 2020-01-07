@@ -451,6 +451,10 @@ PropertyDeclaration
 Importance
 )
 ;
+#
+[
+inline
+]
 fn
 next
 (
@@ -504,6 +508,10 @@ Normal
 )
 )
 }
+#
+[
+inline
+]
 fn
 size_hint
 (
@@ -542,6 +550,13 @@ DeclarationImportanceIterator
 a
 >
 {
+#
+[
+inline
+(
+always
+)
+]
 fn
 next_back
 (
@@ -622,6 +637,10 @@ NormalDeclarationIterator
 a
 >
 {
+#
+[
+inline
+]
 pub
 fn
 new
