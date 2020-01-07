@@ -9,4 +9,4 @@ tests
 /
 dom
 /
-workers
+serviceworkers

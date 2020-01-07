@@ -314,11 +314,9 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 xslt
 /
@@ -406,11 +404,9 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 xslt
 /

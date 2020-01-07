@@ -9,10 +9,8 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 swa

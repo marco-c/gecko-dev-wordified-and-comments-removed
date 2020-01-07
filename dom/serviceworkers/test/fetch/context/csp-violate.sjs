@@ -32,11 +32,9 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 fetch
 /

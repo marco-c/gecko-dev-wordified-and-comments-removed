@@ -36,11 +36,9 @@ browser
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 "
 ;
@@ -93,11 +91,9 @@ browser
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 "
 ;

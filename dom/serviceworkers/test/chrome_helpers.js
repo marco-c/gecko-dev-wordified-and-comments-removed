@@ -54,11 +54,9 @@ chrome
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 "
 ;
