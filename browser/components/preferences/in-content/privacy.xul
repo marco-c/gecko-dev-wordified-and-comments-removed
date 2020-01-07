@@ -5839,9 +5839,6 @@ class
 indent
 "
 >
-#
-ifdef
-MOZILLA_OFFICIAL
 <
 checkbox
 id
@@ -5869,8 +5866,6 @@ accesskey
 "
 /
 >
-#
-endif
 <
 checkbox
 id
