@@ -105,6 +105,17 @@ block_display_content
 "
 false
 )
+pushPref
+(
+"
+security
+.
+mixed_content
+.
+upgrade_display_content
+"
+false
+)
 ]
 )
 ;

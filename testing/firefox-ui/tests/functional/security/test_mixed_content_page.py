@@ -33,6 +33,22 @@ setUp
         
 self
 .
+marionette
+.
+set_pref
+(
+'
+security
+.
+mixed_content
+.
+upgrade_display_content
+'
+False
+)
+        
+self
+.
 locationbar
 =
 self

@@ -183,6 +183,16 @@ block_display_content
 "
 false
 ]
+[
+"
+security
+.
+mixed_content
+.
+upgrade_display_content
+"
+false
+]
 ]
 }
 )

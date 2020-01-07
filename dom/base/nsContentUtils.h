@@ -2897,6 +2897,14 @@ aType
 ;
 static
 bool
+IsUpgradableDisplayType
+(
+nsContentPolicyType
+aType
+)
+;
+static
+bool
 HasMutationListeners
 (
 nsINode
@@ -7196,6 +7204,10 @@ sIsResourceTimingEnabled
 static
 bool
 sIsPerformanceNavigationTimingEnabled
+;
+static
+bool
+sIsUpgradableDisplayContentPrefEnabled
 ;
 static
 bool

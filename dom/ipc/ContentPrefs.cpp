@@ -2441,6 +2441,13 @@ security
 .
 mixed_content
 .
+upgrade_display_content
+"
+"
+security
+.
+mixed_content
+.
 use_hsts
 "
 "

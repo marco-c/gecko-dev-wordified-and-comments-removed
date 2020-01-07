@@ -437,6 +437,9 @@ bool
 upgradeInsecureRequests
 ;
 bool
+browserUpgradeInsecureRequests
+;
+bool
 verifySignedContent
 ;
 bool
@@ -447,9 +450,6 @@ allowDocumentToBeAgnosticToCSP
 ;
 bool
 forceAllowDataURI
-;
-bool
-allowInsecureRedirectToDataURI
 ;
 bool
 forceInheritPrincipalDropped
