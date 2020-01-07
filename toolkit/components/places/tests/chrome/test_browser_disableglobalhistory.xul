@@ -235,6 +235,12 @@ close
 (
 )
 ;
+SimpleTest
+.
+finish
+(
+)
+;
 }
 <
 /
