@@ -390,6 +390,18 @@ derive
 Debug
 )
 ]
+pub
+enum
+CacheEntryMarker
+{
+}
+#
+[
+derive
+(
+Debug
+)
+]
 #
 [
 cfg_attr
@@ -684,7 +696,7 @@ WeakCacheEntryHandle
 =
 WeakFreeListHandle
 <
-CacheEntry
+CacheEntryMarker
 >
 ;
 #
@@ -940,6 +952,7 @@ entries
 FreeList
 <
 CacheEntry
+CacheEntryMarker
 >
 standalone_entry_handles
 :
@@ -947,7 +960,7 @@ Vec
 <
 FreeListHandle
 <
-CacheEntry
+CacheEntryMarker
 >
 >
 shared_entry_handles
@@ -956,7 +969,7 @@ Vec
 <
 FreeListHandle
 <
-CacheEntry
+CacheEntryMarker
 >
 >
 }
