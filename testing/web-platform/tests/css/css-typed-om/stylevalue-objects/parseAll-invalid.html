@@ -248,10 +248,10 @@ CSSStyleValue
 parseAll
 (
 '
-background
+width
 '
 '
-red
+10deg
 '
 )
 )
@@ -264,7 +264,10 @@ parseAll
 (
 )
 with
-shorthand
+invalid
+value
+for
+valid
 property
 throws
 TypeError
@@ -290,10 +293,10 @@ TypeError
 >
 CSSStyleValue
 .
-parseAll
+parse
 (
 '
-width
+margin
 '
 '
 10deg
@@ -312,7 +315,7 @@ with
 invalid
 value
 for
-valid
+shorthand
 property
 throws
 TypeError
