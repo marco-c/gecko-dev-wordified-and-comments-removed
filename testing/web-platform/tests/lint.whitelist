@@ -12881,6 +12881,16 @@ regions
 interactivity
 /
 *
+LAYOUTTESTS
+APIS
+:
+resources
+/
+chromium
+/
+generic_sensor_mocks
+.
+js
 #
 Existing
 use
