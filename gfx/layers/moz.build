@@ -2285,6 +2285,13 @@ cpp
 '
 basic
 /
+BasicTextLayer
+.
+cpp
+'
+'
+basic
+/
 TextureHostBasic
 .
 cpp
@@ -2369,6 +2376,13 @@ cpp
 client
 /
 ClientPaintedLayer
+.
+cpp
+'
+'
+client
+/
+ClientTextLayer
 .
 cpp
 '
