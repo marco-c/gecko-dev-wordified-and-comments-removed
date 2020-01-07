@@ -491,6 +491,7 @@ TargetConfirmationState
 :
 eConfirmed
 nullptr
+false
 )
 ;
 if
@@ -3018,6 +3019,7 @@ TargetConfirmationState
 :
 eTimedOut
 firstInput
+false
 )
 ;
 }
@@ -3307,6 +3309,7 @@ TargetConfirmationState
 :
 eConfirmed
 firstInput
+false
 )
 ;
 block
@@ -3488,6 +3491,7 @@ TargetConfirmationState
 :
 eConfirmed
 firstInput
+true
 )
 ;
 block

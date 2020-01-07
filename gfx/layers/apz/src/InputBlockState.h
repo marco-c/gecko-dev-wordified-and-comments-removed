@@ -252,6 +252,8 @@ aState
 InputData
 *
 aFirstInput
+bool
+aForScrollbarDrag
 )
 ;
 const
@@ -588,6 +590,8 @@ aState
 InputData
 *
 aFirstInput
+bool
+aForScrollbarDrag
 )
 override
 ;
@@ -880,6 +884,8 @@ aState
 InputData
 *
 aFirstInput
+bool
+aForScrollbarDrag
 )
 override
 ;
