@@ -97,7 +97,7 @@ class
 MediaResource
 ;
 class
-ReentrantMonitorAutoEnter
+MonitorAutoLock
 ;
 class
 MediaCache
@@ -119,7 +119,7 @@ MediaCacheStream
 using
 AutoLock
 =
-ReentrantMonitorAutoEnter
+MonitorAutoLock
 ;
 public
 :
@@ -356,6 +356,8 @@ AutoLock
 nsresult
 Read
 (
+AutoLock
+&
 char
 *
 aBuffer
