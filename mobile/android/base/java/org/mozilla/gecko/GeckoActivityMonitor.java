@@ -72,10 +72,6 @@ GeckoActivityMonitor
 )
 ;
 private
-GeckoApplication
-appContext
-;
-private
 WeakReference
 <
 Activity
