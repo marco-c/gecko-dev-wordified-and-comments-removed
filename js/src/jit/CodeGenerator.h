@@ -1517,7 +1517,7 @@ uint32_t
 simdTemplatesToReadBarrier_
 ;
 uint32_t
-compartmentStubsToReadBarrier_
+realmStubsToReadBarrier_
 ;
 void
 addSimdTemplateToReadBarrier

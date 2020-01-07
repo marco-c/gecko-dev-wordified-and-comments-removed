@@ -288,7 +288,7 @@ setMinorGCShouldCancelIonCompilations
 }
 ;
 class
-JitCompartment
+JitRealm
 ;
 class
 CompileCompartment
@@ -331,9 +331,9 @@ addressOfRandomNumberGenerator
 )
 ;
 const
-JitCompartment
+JitRealm
 *
-jitCompartment
+jitRealm
 (
 )
 ;
