@@ -1122,7 +1122,7 @@ bool
 -
 pref
 "
-true
+false
 )
 ;
 user_pref
