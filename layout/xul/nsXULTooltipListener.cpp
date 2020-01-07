@@ -416,7 +416,7 @@ currentTooltip
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 targetNode
 =
@@ -453,7 +453,7 @@ pm
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 tooltipNode
 =
