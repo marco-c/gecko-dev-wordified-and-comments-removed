@@ -517,14 +517,6 @@ mAnimation
 ;
 }
 }
-mRecordedContentTooLarge
-=
-false
-;
-mRecordedFrameSize
-=
-false
-;
 }
 void
 KeyframeEffect
