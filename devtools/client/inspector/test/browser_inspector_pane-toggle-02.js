@@ -440,8 +440,6 @@ state
 "
 )
 ;
-debugger
-;
 is
 (
 inspector
