@@ -152,7 +152,7 @@ os
 =
 =
 "
-windows_nt
+windows
 "
 :
         
