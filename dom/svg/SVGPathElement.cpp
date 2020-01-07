@@ -1243,7 +1243,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 nsComputedDOMStyle
 :
@@ -1256,7 +1256,7 @@ nullptr
 ;
 if
 (
-styleContext
+computedStyle
 )
 {
 const
@@ -1264,7 +1264,7 @@ nsStyleSVG
 *
 style
 =
-styleContext
+computedStyle
 -
 >
 StyleSVG
@@ -1297,7 +1297,7 @@ SVGContentUtils
 GetStrokeWidth
 (
 this
-styleContext
+computedStyle
 nullptr
 )
 ;
