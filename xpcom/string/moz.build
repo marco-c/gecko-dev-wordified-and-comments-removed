@@ -184,11 +184,6 @@ nsSubstring
 h
 '
 '
-nsSubstringTuple
-.
-h
-'
-'
 nsTDependentString
 .
 h
@@ -289,12 +284,12 @@ nsSubstring
 cpp
 '
 '
-nsSubstringTuple
+nsTextFormatter
 .
 cpp
 '
 '
-nsTextFormatter
+nsTSubstringTuple
 .
 cpp
 '
