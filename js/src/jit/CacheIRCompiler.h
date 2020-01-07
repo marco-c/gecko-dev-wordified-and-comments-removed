@@ -148,6 +148,11 @@ LoadWrapperTarget
 \
 _
 (
+LoadValueTag
+)
+\
+_
+(
 LoadDOMExpandoValue
 )
 \
