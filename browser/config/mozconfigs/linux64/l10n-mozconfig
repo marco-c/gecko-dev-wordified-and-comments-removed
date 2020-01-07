@@ -61,14 +61,6 @@ export
 MOZ_TELEMETRY_REPORTING
 =
 1
-ac_add_options
--
--
-disable
--
-stdcxx
--
-compat
 #
 Don
 '

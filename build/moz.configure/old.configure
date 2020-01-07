@@ -1720,15 +1720,6 @@ startupcache
 -
 enable
 -
-stdcxx
--
-compat
-'
-'
--
--
-enable
--
 strip
 '
 '
