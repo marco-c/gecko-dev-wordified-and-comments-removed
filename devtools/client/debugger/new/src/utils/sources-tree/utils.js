@@ -38,9 +38,9 @@ isDirectory
 ;
 exports
 .
-getExtension
+getFileExtension
 =
-getExtension
+getFileExtension
 ;
 exports
 .
@@ -294,7 +294,7 @@ index
 ;
 }
 function
-getExtension
+getFileExtension
 (
 url
 =
@@ -364,7 +364,7 @@ png
 .
 includes
 (
-getExtension
+getFileExtension
 (
 source
 .
@@ -394,6 +394,11 @@ url
 |
 |
 !
+(
+source
+.
+get
+?
 source
 .
 get
@@ -401,6 +406,11 @@ get
 "
 url
 "
+)
+:
+source
+.
+url
 )
 |
 |

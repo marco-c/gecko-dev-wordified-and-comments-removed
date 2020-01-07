@@ -24917,6 +24917,14 @@ onDOMNodeClick
 (
 object
 )
+className
+:
+{
+baseConfig
+.
+className
+}
+clickable
 }
 )
 ;

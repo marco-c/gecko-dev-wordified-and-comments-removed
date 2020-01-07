@@ -21,6 +21,10 @@ true
 const
 Task
 =
+exports
+.
+Task
+=
 {
 async
 :
@@ -166,10 +170,4 @@ undefined
 ;
 }
 }
-;
-exports
-.
-Task
-=
-Task
 ;

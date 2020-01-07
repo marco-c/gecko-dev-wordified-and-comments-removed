@@ -22,7 +22,7 @@ exports
 .
 onConnect
 =
-undefined
+onConnect
 ;
 var
 _firefox
@@ -562,9 +562,3 @@ commands
 }
 ;
 }
-exports
-.
-onConnect
-=
-onConnect
-;

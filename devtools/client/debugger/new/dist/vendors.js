@@ -112895,6 +112895,10 @@ newObj
 const
 vendored
 =
+exports
+.
+vendored
+=
 {
 classnames
 :
@@ -112978,12 +112982,6 @@ _Svg2
 default
 url
 }
-;
-exports
-.
-vendored
-=
-vendored
 ;
 }
 )
