@@ -1833,6 +1833,16 @@ localName
 )
 ;
 boolean
+toggleAttribute
+(
+DOMString
+qualifiedName
+optional
+boolean
+force
+)
+;
+boolean
 hasAttribute
 (
 DOMString
