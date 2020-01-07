@@ -343,15 +343,11 @@ networkDetailsWidth
 PropTypes
 .
 number
-.
-isRequired
 networkDetailsHeight
 :
 PropTypes
 .
 number
-.
-isRequired
 cloneSelectedRequest
 :
 PropTypes
