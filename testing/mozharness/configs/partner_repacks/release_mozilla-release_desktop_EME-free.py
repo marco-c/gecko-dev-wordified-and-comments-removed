@@ -32,9 +32,13 @@ mozilla
 -
 partners
 /
-repack
+mozilla
 -
-manifests
+EME
+-
+free
+-
+manifest
 .
 git
 "
