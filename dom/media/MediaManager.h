@@ -821,6 +821,14 @@ aWindowId
 )
 ;
 }
+bool
+IsWindowListenerStillActive
+(
+GetUserMediaWindowListener
+*
+aListener
+)
+;
 void
 RemoveFromWindowList
 (
