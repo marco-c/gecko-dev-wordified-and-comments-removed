@@ -6180,15 +6180,6 @@ getLocation
 ;
 if
 (
-isa
-<
-EnumConstantDecl
->
-(
-D
-)
-&
-&
 SM
 .
 isMacroBodyExpansion
