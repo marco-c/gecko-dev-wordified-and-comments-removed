@@ -181,6 +181,8 @@ Close
 bool
 IsClosed
 (
+AutoLock
+&
 )
 const
 {
@@ -195,10 +197,6 @@ IsAvailableForSharing
 const
 {
 return
-!
-mClosed
-&
-&
 !
 mIsPrivateBrowsing
 ;
