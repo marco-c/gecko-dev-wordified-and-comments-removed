@@ -2702,10 +2702,6 @@ user
 s
 profile
 directory
-*
-(
-NS_APP_USER_SEARCH_DIR
-)
 .
 *
 *
