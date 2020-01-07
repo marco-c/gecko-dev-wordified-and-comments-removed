@@ -254,7 +254,7 @@ APIParentScope
 "
 }
 "
-onerror
+onError
 "
 :
 "
@@ -353,7 +353,7 @@ APIChildScope
 "
 }
 "
-onerror
+onError
 "
 :
 "
@@ -489,7 +489,7 @@ APIEvent
 "
 }
 "
-onerror
+onError
 "
 :
 "
