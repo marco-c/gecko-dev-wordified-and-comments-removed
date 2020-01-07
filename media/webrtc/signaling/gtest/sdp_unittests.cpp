@@ -210,6 +210,10 @@ SdpTest
 (
 )
 :
+final_level_
+(
+0
+)
 sdp_ptr_
 (
 nullptr
@@ -11319,6 +11323,11 @@ public
 :
 NewSdpTest
 (
+)
+:
+mSdpErrorHolder
+(
+nullptr
 )
 {
 }
