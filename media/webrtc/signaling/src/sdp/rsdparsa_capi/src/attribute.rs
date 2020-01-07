@@ -31,6 +31,7 @@ attribute_type
 :
 {
 SdpAttribute
+SdpAttributeType
 SdpAttributePayloadType
 SdpAttributeFingerprint
 SdpAttributeSetup
