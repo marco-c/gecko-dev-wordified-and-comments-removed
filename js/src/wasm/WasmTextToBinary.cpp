@@ -301,6 +301,7 @@ char16_t
 end_
 ;
 union
+U
 {
 uint32_t
 index_
@@ -326,6 +327,16 @@ miscOp_
 ThreadOp
 threadOp_
 ;
+U
+(
+)
+:
+index_
+(
+0
+)
+{
+}
 }
 u
 ;
@@ -15261,6 +15272,10 @@ constToken
 valueType
 (
 )
+.
+code
+(
+)
 )
 {
 case
@@ -29589,6 +29604,10 @@ val
 )
 .
 type
+(
+)
+.
+code
 (
 )
 )
