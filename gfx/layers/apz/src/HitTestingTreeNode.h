@@ -112,6 +112,10 @@ aLayersId
 void
 RecycleWith
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfTreeLock
 AsyncPanZoomController
 *
 aApzc
@@ -122,6 +126,15 @@ aLayersId
 void
 Destroy
 (
+)
+;
+bool
+IsRecyclable
+(
+const
+RecursiveMutexAutoLock
+&
+aProofOfTreeLock
 )
 ;
 void
