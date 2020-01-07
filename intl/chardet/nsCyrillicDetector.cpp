@@ -594,6 +594,10 @@ aItems
 aCyrillicClass
 aCharsets
 )
+mResult
+(
+nullptr
+)
 {
 }
 nsCyrXPCOMStringDetector
