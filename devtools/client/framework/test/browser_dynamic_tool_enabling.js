@@ -3,17 +3,6 @@ gItemsToTest
 =
 {
 "
-menu_devToolbar
-"
-:
-"
-devtools
-.
-toolbar
-.
-enabled
-"
-"
 menu_browserToolbox
 "
 :
