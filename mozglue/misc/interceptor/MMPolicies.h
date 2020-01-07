@@ -489,6 +489,15 @@ mbi
 AllocationProtect
 &
 &
+(
+mbi
+.
+Type
+&
+MEM_IMAGE
+)
+&
+&
 mbi
 .
 State
