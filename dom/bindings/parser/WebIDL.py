@@ -15079,6 +15079,22 @@ return
 True
     
 def
+isJSONType
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isJSONType
+(
+)
+    
+def
 tag
 (
 self
@@ -16377,6 +16393,22 @@ isVoid
 )
     
 def
+isJSONType
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isJSONType
+(
+)
+    
+def
 isSequence
 (
 self
@@ -17177,7 +17209,17 @@ isExternal
 return
 False
             
-return
+iface
+=
+self
+.
+inner
+            
+while
+iface
+:
+                
+if
 any
 (
 m
@@ -17200,6 +17242,19 @@ inner
 .
 members
 )
+:
+                    
+return
+True
+                
+iface
+=
+iface
+.
+parent
+            
+return
+False
         
 elif
 self
@@ -18950,7 +19005,7 @@ isString
 or
 self
 .
-isDate
+isObject
 (
 )
     
