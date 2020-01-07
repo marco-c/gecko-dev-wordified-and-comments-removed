@@ -440,7 +440,7 @@ get
 nsAutoString
 nodeValue
 ;
-DOMNode
+mNode
 -
 >
 GetNodeValue
