@@ -832,7 +832,7 @@ with
 Files
 (
 "
-TabsPopup
+TabsList
 .
 jsm
 "
@@ -1224,7 +1224,7 @@ SitePermissions
 jsm
 '
 '
-TabsPopup
+TabsList
 .
 jsm
 '
