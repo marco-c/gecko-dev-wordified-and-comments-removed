@@ -1137,7 +1137,7 @@ equal
 (
 result
 false
-conains
+contains
 (
 )
 returns
@@ -3511,7 +3511,7 @@ true
 captureVisibleTab
 (
 )
-avaiable
+available
 after
 optional
 permission

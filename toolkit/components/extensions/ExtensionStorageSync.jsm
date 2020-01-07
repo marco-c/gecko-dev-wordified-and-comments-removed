@@ -4207,7 +4207,7 @@ uuid
 }
 )
 .
-Reseting
+Resetting
 sync
 status
 for

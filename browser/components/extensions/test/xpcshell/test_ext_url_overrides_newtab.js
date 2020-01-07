@@ -746,7 +746,7 @@ NEWTAB_URI_2
 "
 newTabURL
 is
-overriden
+overridden
 by
 the
 second
@@ -912,7 +912,7 @@ NEWTAB_URI_2
 "
 newTabURL
 is
-overriden
+overridden
 by
 the
 second
@@ -950,7 +950,7 @@ NEWTAB_URI_2
 newTabURL
 is
 still
-overriden
+overridden
 by
 the
 second
@@ -987,7 +987,7 @@ NEWTAB_URI_3
 "
 newTabURL
 is
-overriden
+overridden
 by
 the
 third
@@ -1036,7 +1036,7 @@ NEWTAB_URI_3
 newTabURL
 is
 still
-overriden
+overridden
 by
 the
 third
@@ -1085,7 +1085,7 @@ NEWTAB_URI_3
 newTabURL
 is
 still
-overriden
+overridden
 by
 the
 third
@@ -1124,7 +1124,7 @@ newTabURL
 reverts
 to
 being
-overriden
+overridden
 by
 the
 second

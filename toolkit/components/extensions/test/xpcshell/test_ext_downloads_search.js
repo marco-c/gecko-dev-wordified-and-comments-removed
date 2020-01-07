@@ -1655,7 +1655,7 @@ HTML_REGEX
 =
 "
 [
-downlad
+download
 ]
 {
 8
@@ -1957,7 +1957,7 @@ html1
 "
 ]
 "
-postive
+positive
 and
 negative
 terms

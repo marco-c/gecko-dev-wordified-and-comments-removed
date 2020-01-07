@@ -7590,7 +7590,7 @@ WebExtensions
 may
 not
 be
-upated
+updated
 to
 other
 extension
