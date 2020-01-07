@@ -437,13 +437,6 @@ ChangeType
 {
 }
 void
-InvalidateStyleForDocumentStateChanges
-(
-EventStates
-aStatesChanged
-)
-;
-void
 RecordShadowStyleChange
 (
 dom
