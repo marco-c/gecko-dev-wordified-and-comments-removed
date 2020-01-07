@@ -414,10 +414,7 @@ self
 write_mozbuild_list
 (
 k
-alphabetical_sorted
-(
 v
-)
 )
             
 elif
@@ -515,7 +512,7 @@ indent
 .
 join
 (
-sorted
+alphabetical_sorted
 (
 self
 .
