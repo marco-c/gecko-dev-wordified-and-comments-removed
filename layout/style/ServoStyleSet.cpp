@@ -550,7 +550,6 @@ set
 Init
 (
 aPresContext
-nullptr
 )
 ;
 set
@@ -641,9 +640,6 @@ Init
 nsPresContext
 *
 aPresContext
-nsBindingManager
-*
-aBindingManager
 )
 {
 mDocument
@@ -678,10 +674,6 @@ Servo_StyleSet_Init
 aPresContext
 )
 )
-;
-mBindingManager
-=
-aBindingManager
 ;
 aPresContext
 -
@@ -3382,10 +3374,15 @@ const
 {
 if
 (
-mBindingManager
+mDocument
 )
 {
-mBindingManager
+mDocument
+-
+>
+BindingManager
+(
+)
 -
 >
 AppendAllSheets
