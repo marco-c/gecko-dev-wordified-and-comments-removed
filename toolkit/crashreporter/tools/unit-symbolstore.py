@@ -4019,6 +4019,25 @@ skip_test
 =
 True
         
+if
+buildconfig
+.
+substs
+.
+get
+(
+'
+ENABLE_STRIP
+'
+)
+:
+            
+self
+.
+skip_test
+=
+True
+        
 self
 .
 topsrcdir
