@@ -22096,7 +22096,7 @@ const
 LAllocation
 index
 =
-useRegisterOrConstant
+useRegister
 (
 ins
 -
@@ -22292,7 +22292,7 @@ const
 LAllocation
 index
 =
-useRegisterOrConstant
+useRegister
 (
 ins
 -
