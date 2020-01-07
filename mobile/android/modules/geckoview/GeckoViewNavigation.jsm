@@ -398,7 +398,7 @@ this
 .
 browser
 .
-loadURIWithFlags
+loadURI
 (
 uri
 {

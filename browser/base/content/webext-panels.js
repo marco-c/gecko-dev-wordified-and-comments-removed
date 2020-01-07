@@ -706,7 +706,7 @@ uri
 ;
 browser
 .
-loadURIWithFlags
+loadURI
 (
 extensionUrl
 {

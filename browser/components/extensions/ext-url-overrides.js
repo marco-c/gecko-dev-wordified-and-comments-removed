@@ -395,7 +395,7 @@ resolve
 ;
 gBrowser
 .
-loadURIWithFlags
+loadURI
 (
 url
 {

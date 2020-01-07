@@ -503,7 +503,7 @@ gBrowser
 .
 selectedBrowser
 .
-loadURIWithFlags
+loadURI
 (
 uri
 {

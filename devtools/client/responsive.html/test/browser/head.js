@@ -2106,8 +2106,6 @@ browser
 loadURI
 (
 url
-null
-null
 )
 ;
 return

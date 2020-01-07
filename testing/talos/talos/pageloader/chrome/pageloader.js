@@ -1700,7 +1700,7 @@ loadNoCache
 {
 content
 .
-loadURIWithFlags
+loadURI
 (
 pageName
 {

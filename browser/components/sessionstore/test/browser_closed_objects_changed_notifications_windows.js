@@ -67,7 +67,7 @@ gBrowser
 .
 selectedBrowser
 .
-loadURIWithFlags
+loadURI
 (
 url
 {
