@@ -3638,8 +3638,14 @@ vars
 GetVariationsForStyle
 (
 vars
+aFontStyle
+?
 *
 aFontStyle
+:
+gfxFontStyle
+(
+)
 )
 ;
 if
