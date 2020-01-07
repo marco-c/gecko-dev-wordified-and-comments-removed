@@ -360,6 +360,11 @@ CATCH
 \
 F
 (
+CATCHLIST
+)
+\
+F
+(
 THROW
 )
 \
