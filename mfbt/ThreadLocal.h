@@ -800,6 +800,7 @@ MOZ_CRASH
 }
 #
 if
+(
 defined
 (
 XP_WIN
@@ -809,6 +810,14 @@ XP_WIN
 defined
 (
 MACOSX_HAS_THREAD_LOCAL
+)
+)
+&
+&
+!
+defined
+(
+__MINGW32__
 )
 #
 define
