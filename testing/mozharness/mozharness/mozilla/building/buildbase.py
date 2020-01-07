@@ -11876,6 +11876,15 @@ get_output_from_command
 cmd
 )
         
+if
+not
+output
+:
+            
+return
+{
+}
+        
 size_section_re
 =
 re
