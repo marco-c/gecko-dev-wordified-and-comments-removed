@@ -733,6 +733,10 @@ sVectoredExceptionHandler
 )
 )
 ;
+sExceptionHandlerInstalled
+=
+false
+;
 uintptr_t
 address
 =
