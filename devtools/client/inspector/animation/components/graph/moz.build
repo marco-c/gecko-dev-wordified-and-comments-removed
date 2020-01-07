@@ -76,6 +76,16 @@ EndDelaySign
 js
 '
 '
+NegativeDelayPath
+.
+js
+'
+'
+NegativePath
+.
+js
+'
+'
 SummaryGraph
 .
 js
