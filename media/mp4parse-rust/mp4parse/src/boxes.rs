@@ -862,5 +862,12 @@ Also
 used
 by
 ALACSampleEntry
+UuidBox
+0x75756964
+/
+/
+"
+uuid
+"
 )
 ;
