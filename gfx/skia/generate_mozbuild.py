@@ -677,10 +677,6 @@ has
 byte
 stack
 alignment
-(
-BSDs
-Windows
-)
 .
 if
 CONFIG
@@ -701,17 +697,11 @@ CONFIG
 CC_TYPE
 '
 ]
-in
-(
+=
+=
 '
 clang
 '
-'
-clang
--
-cl
-'
-)
 :
     
 SOURCES
