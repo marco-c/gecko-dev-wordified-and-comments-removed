@@ -1301,7 +1301,7 @@ case
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 :
 UndefineCaretBidiLevel
 (

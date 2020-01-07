@@ -35,9 +35,7 @@ eSetTextProperty
 eRemoveTextProperty
 eComputeTextToOutput
 eSetText
-insertBreak
-=
-3000
+eInsertParagraphSeparator
 makeList
 indent
 outdent
