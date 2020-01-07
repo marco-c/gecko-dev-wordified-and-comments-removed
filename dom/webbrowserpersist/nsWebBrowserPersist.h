@@ -387,6 +387,9 @@ MakeAndStoreLocalFilenameInURIMap
 nsIURI
 *
 aURI
+nsIWebBrowserPersistDocument
+*
+aDoc
 bool
 aNeedsPersisting
 URIData
@@ -525,6 +528,9 @@ const
 char
 *
 aURI
+nsIWebBrowserPersistDocument
+*
+aDoc
 bool
 aNeedsPersisting
 =
@@ -543,6 +549,9 @@ StoreURI
 nsIURI
 *
 aURI
+nsIWebBrowserPersistDocument
+*
+aDoc
 bool
 aNeedsPersisting
 =
@@ -570,6 +579,9 @@ SaveSubframeContent
 nsIWebBrowserPersistDocument
 *
 aFrameContent
+nsIWebBrowserPersistDocument
+*
+aParentDocument
 const
 nsCString
 &
