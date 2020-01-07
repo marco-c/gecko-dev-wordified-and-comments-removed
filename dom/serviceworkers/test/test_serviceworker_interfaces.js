@@ -284,9 +284,6 @@ FileList
 FileReader
 "
 "
-FileReaderSync
-"
-"
 FormData
 "
 "

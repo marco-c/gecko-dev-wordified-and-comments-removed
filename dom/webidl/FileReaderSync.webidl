@@ -145,7 +145,10 @@ apply
 Constructor
 Exposed
 =
-Worker
+(
+DedicatedWorker
+SharedWorker
+)
 ]
 interface
 FileReaderSync
