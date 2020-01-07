@@ -6188,6 +6188,9 @@ listener
 ;
 resolve
 (
+message
+.
+data
 )
 ;
 if
@@ -6197,6 +6200,9 @@ optionalCallback
 {
 optionalCallback
 (
+message
+.
+data
 )
 ;
 }
@@ -6281,6 +6287,7 @@ function
 do_send_remote_message
 (
 name
+data
 )
 {
 var
@@ -6354,6 +6361,7 @@ sender
 ]
 (
 name
+data
 )
 ;
 }
