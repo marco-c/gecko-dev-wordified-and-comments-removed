@@ -1031,7 +1031,7 @@ wr_init_external_log_handler
 wr
 :
 :
-LogLevelFilter
+WrLogLevelFilter
 :
 :
 Error
