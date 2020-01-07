@@ -356,6 +356,11 @@ Move
 h
 '
 '
+NonDereferenceable
+.
+h
+'
+'
 NotNull
 .
 h

@@ -189,6 +189,9 @@ TestMathAlgorithms
 TestMaybe
 '
 '
+TestNonDereferenceable
+'
+'
 TestNotNull
 '
 '
