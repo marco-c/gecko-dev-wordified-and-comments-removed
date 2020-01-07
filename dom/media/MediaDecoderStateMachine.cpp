@@ -2039,6 +2039,16 @@ GetMediaTime
 (
 )
 ;
+Reader
+(
+)
+-
+>
+AdjustByLooping
+(
+t
+)
+;
 mPendingSeek
 .
 mTarget
