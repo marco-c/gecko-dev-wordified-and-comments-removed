@@ -657,8 +657,6 @@ Element
 aElement
 bool
 aNotify
-=
-true
 nsINode
 *
 aChangedNode
@@ -3441,12 +3439,6 @@ aNotify
 void
 SetDirOnBind
 (
-mozilla
-:
-:
-dom
-:
-:
 Element
 *
 aElement
@@ -3600,12 +3592,6 @@ false
 void
 ResetDir
 (
-mozilla
-:
-:
-dom
-:
-:
 Element
 *
 aElement
