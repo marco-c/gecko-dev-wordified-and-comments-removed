@@ -747,16 +747,6 @@ weight
 600
 ;
 }
-#
-startupPageBox
-{
-padding
--
-top
-:
-32px
-;
-}
 .
 extension
 -
@@ -1049,10 +1039,6 @@ important
 }
 #
 updateRadioGroup
->
-radio
-#
-browserStartupPage
 >
 radio
 {
