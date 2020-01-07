@@ -235,8 +235,15 @@ this
 }
 onClick
 (
+event
 )
 {
+event
+.
+stopPropagation
+(
+)
+;
 this
 .
 props
