@@ -8252,6 +8252,12 @@ mDocument
 )
 )
 ;
+NS_ENSURE_STATE
+(
+!
+mHaveShutDown
+)
+;
 }
 NS_ASSERTION
 (
