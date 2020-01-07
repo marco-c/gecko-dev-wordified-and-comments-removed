@@ -254,6 +254,9 @@ class
 HitTestingTreeNode
 ;
 class
+HitTestingTreeNodeAutoLock
+;
+class
 WebRenderScrollDataWrapper
 ;
 struct
@@ -854,10 +857,7 @@ gfx
 CompositorHitTestInfo
 *
 aOutHitResult
-RefPtr
-<
-HitTestingTreeNode
->
+HitTestingTreeNodeAutoLock
 *
 aOutScrollbarNode
 =
@@ -1144,10 +1144,7 @@ gfx
 CompositorHitTestInfo
 *
 aOutHitResult
-RefPtr
-<
-HitTestingTreeNode
->
+HitTestingTreeNodeAutoLock
 *
 aOutHitScrollbarNode
 )
@@ -1173,8 +1170,8 @@ MouseInput
 &
 aMouseInput
 const
-HitTestingTreeNode
-*
+HitTestingTreeNodeAutoLock
+&
 aScrollThumbNode
 AsyncPanZoomController
 *
@@ -1188,8 +1185,8 @@ MultiTouchInput
 &
 aInput
 const
-HitTestingTreeNode
-*
+HitTestingTreeNodeAutoLock
+&
 aScrollThumbNode
 ScrollableLayerGuid
 *
