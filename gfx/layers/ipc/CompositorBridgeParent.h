@@ -2659,6 +2659,9 @@ TransactionId
 mPendingTransaction
 ;
 TimeStamp
+mRefreshStartTime
+;
+TimeStamp
 mTxnStartTime
 ;
 TimeStamp
