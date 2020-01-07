@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-DocumentOrShadowRoot
+StyleScope
 .
 h
 "
@@ -72,7 +72,7 @@ NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 explicit
 StyleSheetList
 (
-DocumentOrShadowRoot
+StyleScope
 &
 aScope
 )
@@ -106,10 +106,10 @@ GetParentObject
 const
 {
 return
-mDocumentOrShadowRoot
+mStyleScope
 ?
 &
-mDocumentOrShadowRoot
+mStyleScope
 -
 >
 AsNode
@@ -126,9 +126,9 @@ Length
 const
 {
 return
-mDocumentOrShadowRoot
+mStyleScope
 ?
-mDocumentOrShadowRoot
+mStyleScope
 -
 >
 SheetCount
@@ -153,7 +153,7 @@ const
 if
 (
 !
-mDocumentOrShadowRoot
+mStyleScope
 )
 {
 aFound
@@ -168,7 +168,7 @@ StyleSheet
 *
 sheet
 =
-mDocumentOrShadowRoot
+mStyleScope
 -
 >
 SheetAt
@@ -216,9 +216,9 @@ StyleSheetList
 (
 )
 ;
-DocumentOrShadowRoot
+StyleScope
 *
-mDocumentOrShadowRoot
+mStyleScope
 ;
 }
 ;

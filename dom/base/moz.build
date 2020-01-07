@@ -847,11 +847,6 @@ DocumentFragment
 h
 '
 '
-DocumentOrShadowRoot
-.
-h
-'
-'
 DocumentType
 .
 h
@@ -1077,6 +1072,11 @@ StructuredCloneTags
 h
 '
 '
+StyleScope
+.
+h
+'
+'
 StyleSheetList
 .
 h
@@ -1225,11 +1225,6 @@ cpp
 '
 '
 DocumentFragment
-.
-cpp
-'
-'
-DocumentOrShadowRoot
 .
 cpp
 '
@@ -1780,6 +1775,11 @@ cpp
 '
 '
 StructuredCloneHolder
+.
+cpp
+'
+'
+StyleScope
 .
 cpp
 '
