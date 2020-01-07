@@ -4045,7 +4045,7 @@ constructor
 "
 isInstance
 "
-InterfaceHasInstance
+InterfaceIsInstance
 1
 0
 )
