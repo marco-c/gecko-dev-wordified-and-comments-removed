@@ -7690,9 +7690,15 @@ s
 n
 '
 %
+self
+.
+_pretty_path
+(
 obj
 .
-program
+output_path
+backend_file
+)
 )
         
 if

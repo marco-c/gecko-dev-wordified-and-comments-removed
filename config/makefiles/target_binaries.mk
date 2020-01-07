@@ -84,9 +84,6 @@ ifneq
 (
 strip
 (
-PROGRAM
-)
-(
 SIMPLE_PROGRAMS
 )
 (
@@ -98,9 +95,6 @@ PROGRAMS_EXECUTABLES
 =
 (
 SIMPLE_PROGRAMS
-)
-(
-PROGRAM
 )
 (
 RUST_PROGRAMS
