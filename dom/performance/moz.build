@@ -168,6 +168,11 @@ PerformanceStorage
 h
 '
 '
+PerformanceStorageWorker
+.
+h
+'
+'
 PerformanceTiming
 .
 h
@@ -229,6 +234,11 @@ cpp
 '
 '
 PerformanceService
+.
+cpp
+'
+'
+PerformanceStorageWorker
 .
 cpp
 '
