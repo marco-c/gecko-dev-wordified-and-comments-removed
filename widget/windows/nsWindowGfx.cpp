@@ -966,6 +966,15 @@ true
 }
 if
 (
+mIsEarlyBlankWindow
+)
+{
+return
+true
+;
+}
+if
+(
 GetLayerManager
 (
 )

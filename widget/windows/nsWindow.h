@@ -1347,6 +1347,17 @@ const
 override
 ;
 virtual
+void
+SetWindowClass
+(
+const
+nsAString
+&
+xulWinType
+)
+override
+;
+virtual
 bool
 DispatchMouseEvent
 (
@@ -2778,6 +2789,9 @@ mDestroyCalled
 ;
 bool
 mOpeningAnimationSuppressed
+;
+bool
+mIsEarlyBlankWindow
 ;
 uint32_t
 mBlurSuppressLevel
