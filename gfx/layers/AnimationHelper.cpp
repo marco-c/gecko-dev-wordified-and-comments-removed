@@ -52,6 +52,17 @@ include
 "
 mozilla
 /
+dom
+/
+Nullable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CompositorThread
@@ -945,6 +956,9 @@ AnimationEffectReadOnly
 :
 GetComputedTimingAt
 (
+dom
+:
+:
 Nullable
 <
 TimeDuration

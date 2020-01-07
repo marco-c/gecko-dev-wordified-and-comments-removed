@@ -59,6 +59,9 @@ mActiveTime
 StickyTimeDuration
 mEndTime
 ;
+dom
+:
+:
 Nullable
 <
 double
