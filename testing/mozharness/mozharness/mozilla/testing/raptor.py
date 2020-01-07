@@ -1464,27 +1464,6 @@ items
 )
 :
             
-if
-key
-=
-=
-"
-test
-"
-:
-                
-options
-.
-extend
-(
-[
-value
-]
-)
-            
-else
-:
-                
 options
 .
 extend
