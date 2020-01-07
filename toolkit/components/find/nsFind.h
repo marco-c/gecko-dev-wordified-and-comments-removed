@@ -168,14 +168,6 @@ aParent
 )
 ;
 bool
-IsTextNode
-(
-nsIDOMNode
-*
-aNode
-)
-;
-bool
 IsBlockNode
 (
 nsIContent

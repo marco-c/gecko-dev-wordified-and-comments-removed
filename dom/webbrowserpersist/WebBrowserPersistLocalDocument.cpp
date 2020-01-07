@@ -3995,25 +3995,25 @@ aSerializeCloneKids
 =
 false
 ;
-uint16_t
-type
-;
-nsresult
-rv
-=
-aNodeIn
--
+nsCOMPtr
+<
+nsINode
 >
-GetNodeType
+nodeIn
+=
+do_QueryInterface
 (
-&
-type
+aNodeIn
 )
 ;
-NS_ENSURE_SUCCESS
+uint16_t
+type
+=
+nodeIn
+-
+>
+NodeType
 (
-rv
-rv
 )
 ;
 if
@@ -4081,6 +4081,7 @@ stylesheet
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4300,8 +4301,6 @@ NS_LITERAL_STRING
 )
 ;
 }
-rv
-=
 ownerDocument
 -
 >
@@ -4357,6 +4356,7 @@ if
 nodeAsAnchor
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4413,6 +4413,7 @@ if
 nodeAsArea
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4458,6 +4459,7 @@ body
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4506,6 +4508,7 @@ table
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4554,6 +4557,7 @@ tr
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4606,6 +4610,7 @@ th
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4654,6 +4659,7 @@ img
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4736,6 +4742,7 @@ if
 nodeAsMedia
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4784,6 +4791,7 @@ source
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4832,6 +4840,7 @@ img
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4919,6 +4928,7 @@ script
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -4967,6 +4977,7 @@ script
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5030,6 +5041,7 @@ embed
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5078,6 +5090,7 @@ object
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5126,6 +5139,7 @@ link
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5191,6 +5205,7 @@ frame
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5239,6 +5254,7 @@ iframe
 )
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5298,6 +5314,7 @@ if
 nodeAsInput
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5564,6 +5581,7 @@ if
 nodeAsTextArea
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup
@@ -5639,6 +5657,7 @@ if
 nodeAsOption
 )
 {
+nsresult
 rv
 =
 GetNodeToFixup

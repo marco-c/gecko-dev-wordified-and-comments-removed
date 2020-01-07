@@ -272,12 +272,6 @@ NOTATION_NODE
 ;
 readonly
 attribute
-unsigned
-short
-nodeType
-;
-readonly
-attribute
 nsIDOMNode
 parentNode
 ;
