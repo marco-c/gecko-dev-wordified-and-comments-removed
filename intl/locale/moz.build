@@ -229,11 +229,6 @@ intl
 =
 [
 '
-Locale
-.
-h
-'
-'
 LocaleService
 .
 h
@@ -250,11 +245,6 @@ UNIFIED_SOURCES
 [
 '
 DateTimeFormat
-.
-cpp
-'
-'
-Locale
 .
 cpp
 '
