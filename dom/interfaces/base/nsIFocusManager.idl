@@ -632,7 +632,7 @@ focused
 /
 readonly
 attribute
-nsIDOMElement
+Element
 focusedElement
 ;
 /
@@ -1113,7 +1113,7 @@ is
 null
 *
 /
-nsIDOMElement
+Element
 getFocusedElementForWindow
 (
 in
