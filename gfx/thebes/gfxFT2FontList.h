@@ -73,6 +73,7 @@ gfxFontEntry
 {
 public
 :
+explicit
 FT2FontEntry
 (
 const
@@ -339,6 +340,7 @@ gfxFontFamily
 {
 public
 :
+explicit
 FT2FontFamily
 (
 const

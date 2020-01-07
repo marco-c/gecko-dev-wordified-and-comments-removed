@@ -180,6 +180,7 @@ glyphIndex
 )
 {
 }
+explicit
 CachedGlyphData
 (
 uint32_t
