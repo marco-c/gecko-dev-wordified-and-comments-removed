@@ -109,17 +109,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-NodeFilter
-"
-]
-)
-;
 const
 SIMPLETEST_OVERRIDES
 =
