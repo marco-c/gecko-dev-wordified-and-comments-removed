@@ -3500,6 +3500,7 @@ GetBlockNodeParent
 (
 &
 aNode
+aAncestorLimiter
 )
 ;
 }
