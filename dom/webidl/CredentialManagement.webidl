@@ -167,6 +167,9 @@ webauthn
 interface
 CredentialsContainer
 {
+[
+Throws
+]
 Promise
 <
 Credential
@@ -179,6 +182,9 @@ CredentialRequestOptions
 options
 )
 ;
+[
+Throws
+]
 Promise
 <
 Credential
@@ -191,6 +197,9 @@ CredentialCreationOptions
 options
 )
 ;
+[
+Throws
+]
 Promise
 <
 Credential

@@ -89,6 +89,9 @@ const
 CredentialRequestOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -101,6 +104,9 @@ const
 CredentialCreationOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -113,6 +119,9 @@ const
 Credential
 &
 aCredential
+ErrorResult
+&
+aRv
 )
 ;
 private
