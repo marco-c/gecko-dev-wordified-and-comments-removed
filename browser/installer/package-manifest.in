@@ -3416,6 +3416,12 @@ MOZ_DEBUG
 |
 defined
 (
+MOZ_DEV_EDITION
+)
+|
+|
+defined
+(
 NIGHTLY_BUILD
 )
 RESPATH
