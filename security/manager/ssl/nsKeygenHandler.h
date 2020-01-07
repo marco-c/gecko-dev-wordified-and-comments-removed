@@ -238,14 +238,6 @@ nsAString
 keyParamsValue
 )
 ;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
-{
-}
 protected
 :
 virtual
@@ -253,7 +245,8 @@ virtual
 nsKeygenFormProcessor
 (
 )
-;
+{
+}
 nsresult
 GetPublicKey
 (

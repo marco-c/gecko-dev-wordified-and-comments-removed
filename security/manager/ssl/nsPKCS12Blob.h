@@ -69,13 +69,6 @@ virtual
 nsPKCS12Blob
 (
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 {
 }
 nsresult

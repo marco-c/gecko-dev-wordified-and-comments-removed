@@ -77,13 +77,6 @@ private
 nsDataSignatureVerifier
 (
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 {
 }
 }

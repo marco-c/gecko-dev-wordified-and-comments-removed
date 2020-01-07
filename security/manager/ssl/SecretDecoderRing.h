@@ -73,13 +73,6 @@ NS_DECL_NSISECRETDECODERRING
 SecretDecoderRing
 (
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 {
 }
 protected
@@ -89,7 +82,8 @@ virtual
 SecretDecoderRing
 (
 )
-;
+{
+}
 private
 :
 nsresult

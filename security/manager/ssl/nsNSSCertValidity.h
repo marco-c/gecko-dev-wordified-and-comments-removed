@@ -63,13 +63,6 @@ virtual
 nsX509CertValidity
 (
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 {
 }
 private

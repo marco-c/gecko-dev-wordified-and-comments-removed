@@ -82,13 +82,6 @@ private
 nsRandomGenerator
 (
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 {
 }
 }

@@ -109,7 +109,8 @@ virtual
 nsSSLStatus
 (
 )
-;
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -174,13 +175,6 @@ CertificateTransparencyInfo
 &
 info
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 ;
 uint16_t
 mCipherSuite

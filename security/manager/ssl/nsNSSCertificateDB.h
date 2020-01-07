@@ -114,7 +114,8 @@ virtual
 nsNSSCertificateDB
 (
 )
-;
+{
+}
 private
 :
 static
@@ -196,15 +197,6 @@ nsIInterfaceRequestor
 *
 ctx
 )
-;
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
-{
-}
 ;
 }
 ;
