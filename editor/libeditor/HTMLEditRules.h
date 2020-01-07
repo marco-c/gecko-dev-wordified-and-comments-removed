@@ -673,6 +673,7 @@ bool
 aHandled
 )
 ;
+MOZ_MUST_USE
 nsresult
 WillDeleteSelection
 (
