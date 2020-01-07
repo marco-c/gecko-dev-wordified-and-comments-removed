@@ -5809,8 +5809,9 @@ divElement
 )
 ;
 return
-BeginningOfDocument
+MaybeCollapseSelectionAtFirstEditableNode
 (
+false
 )
 ;
 }
@@ -5996,8 +5997,9 @@ AsElement
 )
 ;
 return
-BeginningOfDocument
+MaybeCollapseSelectionAtFirstEditableNode
 (
+false
 )
 ;
 }
@@ -20862,8 +20864,9 @@ return
 }
 rv
 =
-BeginningOfDocument
+MaybeCollapseSelectionAtFirstEditableNode
 (
+false
 )
 ;
 if
