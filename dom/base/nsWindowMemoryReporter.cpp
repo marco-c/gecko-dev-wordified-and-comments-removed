@@ -138,13 +138,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 StaticRefPtr
 <
 nsWindowMemoryReporter

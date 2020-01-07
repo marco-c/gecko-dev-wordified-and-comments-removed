@@ -3617,6 +3617,11 @@ onEndUpdateBatch
 )
 {
 }
+onVisits
+(
+)
+{
+}
 onPageChanged
 (
 )
