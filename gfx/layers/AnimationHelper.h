@@ -466,7 +466,7 @@ AnimationHelper
 public
 :
 static
-bool
+void
 SampleAnimationForEachNode
 (
 TimeStamp
