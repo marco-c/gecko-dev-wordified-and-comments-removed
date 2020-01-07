@@ -64,8 +64,8 @@ void
 onRecordStoreSucceeded
 (
 final
-String
-guid
+int
+count
 )
 {
 executor
@@ -88,7 +88,7 @@ inner
 .
 onRecordStoreSucceeded
 (
-guid
+count
 )
 ;
 }

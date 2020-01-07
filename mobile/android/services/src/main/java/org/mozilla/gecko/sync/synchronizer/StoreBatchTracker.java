@@ -318,12 +318,15 @@ incrementAndGet
 void
 onRecordStoreSucceeded
 (
+int
+count
 )
 {
 currentStoreBatchAccepted
 .
-incrementAndGet
+addAndGet
 (
+count
 )
 ;
 }

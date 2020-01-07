@@ -47,8 +47,8 @@ newVersion
 void
 onRecordStoreSucceeded
 (
-String
-guid
+int
+count
 )
 ;
 void

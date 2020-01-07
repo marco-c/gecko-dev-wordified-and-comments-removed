@@ -1418,9 +1418,7 @@ storeDelegate
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 }
@@ -1614,9 +1612,7 @@ storeDelegate
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 }

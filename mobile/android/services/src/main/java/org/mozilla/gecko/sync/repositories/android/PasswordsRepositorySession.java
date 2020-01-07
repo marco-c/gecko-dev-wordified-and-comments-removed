@@ -1821,9 +1821,7 @@ storeDelegate
 .
 onRecordStoreSucceeded
 (
-inserted
-.
-guid
+1
 )
 ;
 return
@@ -2074,9 +2072,7 @@ storeDelegate
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 return
@@ -3283,9 +3279,7 @@ storeDelegate
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 }

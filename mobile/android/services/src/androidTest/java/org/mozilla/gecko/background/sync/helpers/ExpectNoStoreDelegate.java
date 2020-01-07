@@ -22,8 +22,8 @@ public
 void
 onRecordStoreSucceeded
 (
-String
-guid
+int
+count
 )
 {
 performNotify
@@ -33,10 +33,11 @@ Should
 not
 have
 stored
-record
+records
+:
 "
 +
-guid
+count
 null
 )
 ;

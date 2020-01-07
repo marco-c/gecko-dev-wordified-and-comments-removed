@@ -874,9 +874,7 @@ delegateExecutor
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 return
@@ -955,9 +953,7 @@ delegateExecutor
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 }

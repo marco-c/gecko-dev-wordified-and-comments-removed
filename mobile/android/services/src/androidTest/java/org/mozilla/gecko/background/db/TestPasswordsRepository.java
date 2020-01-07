@@ -2402,9 +2402,7 @@ record
 new
 ExpectStoredDelegate
 (
-record
-.
-guid
+1
 )
 )
 ;
