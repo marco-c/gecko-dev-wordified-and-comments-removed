@@ -10317,6 +10317,15 @@ reservedClient
 )
 )
 ;
+clientInfo
+=
+loadInfo
+-
+>
+GetReservedClientInfo
+(
+)
+;
 }
 }
 StartControllingClient
