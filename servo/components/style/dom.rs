@@ -2737,6 +2737,16 @@ borrow_mut
 )
 )
 }
+fn
+skip_root_and_item_based_display_fixup
+(
+&
+self
+)
+-
+>
+bool
+;
 unsafe
 fn
 set_selector_flags
