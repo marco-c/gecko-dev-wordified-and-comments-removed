@@ -4589,13 +4589,10 @@ AllowXULXBL
 )
 ;
 }
-virtual
 bool
 IsScriptEnabled
 (
 )
-=
-0
 ;
 bool
 IsTopLevelContentDocument
