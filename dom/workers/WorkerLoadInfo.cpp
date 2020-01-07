@@ -383,6 +383,10 @@ mStorageAllowed
 (
 false
 )
+mFirstPartyStorageAccessGranted
+(
+false
+)
 mServiceWorkersTestingInWindow
 (
 false
@@ -662,6 +666,12 @@ mStorageAllowed
 aOther
 .
 mStorageAllowed
+;
+mFirstPartyStorageAccessGranted
+=
+aOther
+.
+mFirstPartyStorageAccessGranted
 ;
 mServiceWorkersTestingInWindow
 =
