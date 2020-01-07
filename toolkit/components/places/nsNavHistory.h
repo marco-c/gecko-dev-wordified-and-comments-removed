@@ -1776,12 +1776,6 @@ mLastCachedEndOfDay
 bool
 mCanNotify
 ;
-nsCategoryCache
-<
-nsINavHistoryObserver
->
-mCacheObservers
-;
 #
 ifdef
 XP_WIN

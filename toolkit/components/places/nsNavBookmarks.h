@@ -1190,12 +1190,6 @@ mIndex
 bool
 mCanNotify
 ;
-nsCategoryCache
-<
-nsINavBookmarkObserver
->
-mCacheObservers
-;
 bool
 mBatching
 ;

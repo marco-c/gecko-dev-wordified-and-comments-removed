@@ -167,9 +167,11 @@ b9fe
 1517e0dee56f
 }
 category
-history
+places
 -
-observers
+init
+-
+complete
 nsPlacesExpiration
 mozilla
 .
