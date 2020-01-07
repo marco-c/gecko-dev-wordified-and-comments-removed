@@ -866,11 +866,10 @@ aItemType
 nullptr
 )
 ;
+MOZ_MUST_USE
 nsresult
 WillRemoveList
 (
-bool
-aOrdered
 bool
 *
 aCancel
