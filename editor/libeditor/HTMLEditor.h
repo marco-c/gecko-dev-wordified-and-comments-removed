@@ -2173,12 +2173,12 @@ aCfcontext
 bool
 IsInLink
 (
-nsIDOMNode
+nsINode
 *
 aNode
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 *
 outLink

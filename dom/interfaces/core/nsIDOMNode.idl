@@ -270,10 +270,5 @@ NOTATION_NODE
 =
 12
 ;
-readonly
-attribute
-nsIDOMNode
-parentNode
-;
 }
 ;
