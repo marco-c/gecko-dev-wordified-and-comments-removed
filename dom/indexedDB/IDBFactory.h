@@ -236,6 +236,12 @@ mEventTarget
 uint64_t
 mInnerWindowID
 ;
+uint32_t
+mActiveTransactionCount
+;
+uint32_t
+mActiveDatabaseCount
+;
 bool
 mBackgroundActorFailed
 ;
@@ -629,6 +635,14 @@ SystemCallerGuarantee
 ErrorResult
 &
 aRv
+)
+;
+void
+RebindToNewWindow
+(
+nsPIDOMWindowInner
+*
+aNewWindow
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
