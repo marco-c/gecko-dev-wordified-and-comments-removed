@@ -242,7 +242,7 @@ using
 mozilla
 :
 :
-ReleaseAcquire
+Relaxed
 ;
 using
 JS
@@ -278,7 +278,7 @@ static
 Atomic
 <
 uint32_t
-ReleaseAcquire
+Relaxed
 >
 sResolutionUsec
 ;

@@ -326,7 +326,7 @@ false
 Atomic
 <
 bool
-ReleaseAcquire
+Relaxed
 >
 nsRFPService
 :
@@ -336,7 +336,7 @@ sPrivacyResistFingerprinting
 Atomic
 <
 bool
-ReleaseAcquire
+Relaxed
 >
 nsRFPService
 :
@@ -346,7 +346,7 @@ sPrivacyTimerPrecisionReduction
 Atomic
 <
 uint32_t
-ReleaseAcquire
+Relaxed
 >
 sResolutionUSec
 ;
