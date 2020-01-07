@@ -4439,7 +4439,7 @@ deal
 with
 widget
 roles
-nsAtom
+nsStaticAtom
 *
 roleAtom
 =
@@ -4472,7 +4472,6 @@ ARIARoleMap
 ;
 roleAtom
 =
-*
 roleMap
 -
 >

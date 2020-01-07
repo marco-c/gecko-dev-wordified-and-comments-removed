@@ -158,7 +158,6 @@ aARIARole
 const
 {
 return
-*
 roleAtom
 =
 =
@@ -195,14 +194,13 @@ const
 return
 nsDependentAtomString
 (
-*
 roleAtom
 )
 ;
 }
 nsStaticAtom
 *
-*
+const
 roleAtom
 ;
 mozilla
