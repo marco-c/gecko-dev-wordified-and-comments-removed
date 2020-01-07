@@ -412,6 +412,7 @@ nsAString
 outFormat
 )
 ;
+MOZ_MUST_USE
 nsresult
 MakeSureElemStartsAndEndsOnCR
 (
@@ -1928,6 +1929,7 @@ bool
 aChildrenOnly
 )
 ;
+MOZ_MUST_USE
 nsresult
 MakeSureElemStartsOrEndsOnCR
 (
