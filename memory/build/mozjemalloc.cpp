@@ -4315,10 +4315,6 @@ nullptr
 }
 #
 endif
-base_next_decommitted
-=
-pbase_next_addr
-;
 base_committed
 +
 =
@@ -4331,6 +4327,10 @@ pbase_next_addr
 uintptr_t
 )
 base_next_decommitted
+;
+base_next_decommitted
+=
+pbase_next_addr
 ;
 }
 return
