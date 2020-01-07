@@ -5152,11 +5152,15 @@ aList
 )
 {
 }
+private
+:
 ~
 nsCSSValueSharedList
 (
 )
 ;
+public
+:
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 nsCSSValueSharedList
