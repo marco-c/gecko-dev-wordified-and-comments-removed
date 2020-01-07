@@ -80,9 +80,13 @@ af0cdd211868
 0x68
 }
 }
+namespace
+mozilla
+{
 class
-nsITextServicesDocument
+TextServicesDocument
 ;
+}
 class
 nsISpellChecker
 :
@@ -98,7 +102,10 @@ NS_ISPELLCHECKER_IID
 NS_IMETHOD
 SetDocument
 (
-nsITextServicesDocument
+mozilla
+:
+:
+TextServicesDocument
 *
 aDoc
 bool
