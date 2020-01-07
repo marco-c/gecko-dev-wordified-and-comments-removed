@@ -380,15 +380,6 @@ nsAtom
 aPseudo
 )
 ;
-static
-nsAtom
-*
-GetNonInheritingPseudoAtom
-(
-NonInheriting
-aBoxType
-)
-;
 }
 ;
 #
