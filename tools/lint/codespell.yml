@@ -246,6 +246,11 @@ python
 mozlint
 /
 -
+python
+/
+safety
+/
+-
 services
 /
 sync

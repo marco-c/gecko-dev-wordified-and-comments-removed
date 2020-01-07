@@ -80,6 +80,10 @@ python
 /
 mozversioncontrol
 -
+python
+/
+safety
+-
 security
 /
 -
