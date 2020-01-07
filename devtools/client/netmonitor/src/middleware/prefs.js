@@ -71,6 +71,10 @@ TOGGLE_REQUEST_FILTER_TYPE
 let
 filters
 =
+Object
+.
+entries
+(
 store
 .
 getState
@@ -80,13 +84,6 @@ getState
 filters
 .
 requestFilterTypes
-.
-entrySeq
-(
-)
-.
-toArray
-(
 )
 .
 filter
