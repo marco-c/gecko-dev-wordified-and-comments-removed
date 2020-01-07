@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -545,8 +544,7 @@ true
 }
 )
 ;
-this
-.
+var
 DownloadsCommon
 =
 {

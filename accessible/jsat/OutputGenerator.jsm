@@ -182,8 +182,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2732,8 +2731,7 @@ output
 }
 }
 ;
-this
-.
+var
 UtteranceGenerator
 =
 {
@@ -4141,8 +4139,7 @@ utterance
 }
 }
 ;
-this
-.
+var
 BrailleGenerator
 =
 {

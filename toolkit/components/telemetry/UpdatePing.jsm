@@ -131,8 +131,7 @@ update
 downloaded
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -141,8 +140,7 @@ UpdatePing
 "
 ]
 ;
-this
-.
+var
 UpdatePing
 =
 {

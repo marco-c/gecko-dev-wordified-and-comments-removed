@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -90,8 +89,7 @@ browser
 xul
 "
 ;
-this
-.
+var
 ContentWebRTC
 =
 {

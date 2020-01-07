@@ -2707,8 +2707,7 @@ _rescheduleTimeout
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2717,8 +2716,7 @@ TelemetrySession
 "
 ]
 ;
-this
-.
+var
 TelemetrySession
 =
 Object

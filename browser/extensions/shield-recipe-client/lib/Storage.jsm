@@ -68,8 +68,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -142,8 +141,7 @@ store
 }
 )
 ;
-this
-.
+var
 Storage
 =
 class

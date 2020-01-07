@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -14,8 +13,7 @@ timeStamps
 {
 }
 ;
-this
-.
+var
 TelemetryTimestamps
 =
 {

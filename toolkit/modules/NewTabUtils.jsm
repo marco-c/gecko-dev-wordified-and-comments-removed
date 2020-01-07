@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -7489,8 +7488,7 @@ urls
 }
 }
 ;
-this
-.
+var
 NewTabUtils
 =
 {

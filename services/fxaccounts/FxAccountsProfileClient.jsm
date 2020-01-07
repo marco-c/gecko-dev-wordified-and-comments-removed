@@ -4,8 +4,7 @@ strict
 ;
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -104,8 +103,7 @@ URL
 ]
 )
 ;
-this
-.
+var
 FxAccountsProfileClient
 =
 function
@@ -824,8 +822,7 @@ etag
 }
 }
 ;
-this
-.
+var
 FxAccountsProfileClientError
 =
 function

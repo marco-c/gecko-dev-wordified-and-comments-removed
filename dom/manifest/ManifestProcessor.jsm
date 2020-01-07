@@ -184,8 +184,7 @@ jsm
 '
 )
 ;
-this
-.
+var
 ManifestProcessor
 =
 {
@@ -1282,8 +1281,7 @@ tag
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

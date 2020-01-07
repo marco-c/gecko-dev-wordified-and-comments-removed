@@ -36,8 +36,7 @@ AppConstants
 platform
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -46,10 +45,6 @@ WindowDraggingElement
 "
 ]
 ;
-this
-.
-WindowDraggingElement
-=
 function
 WindowDraggingElement
 (
@@ -99,7 +94,6 @@ this
 )
 ;
 }
-;
 WindowDraggingElement
 .
 prototype

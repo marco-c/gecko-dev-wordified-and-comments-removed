@@ -134,8 +134,7 @@ URL
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

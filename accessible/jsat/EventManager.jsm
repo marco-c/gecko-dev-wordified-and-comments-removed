@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+TEXT_NODE
+=
+3
+;
 ChromeUtils
 .
 import
@@ -195,8 +200,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -205,10 +209,6 @@ EventManager
 "
 ]
 ;
-this
-.
-EventManager
-=
 function
 EventManager
 (
@@ -304,7 +304,6 @@ nsIWebProgress
 )
 ;
 }
-;
 this
 .
 EventManager

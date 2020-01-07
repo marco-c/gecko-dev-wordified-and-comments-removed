@@ -2272,8 +2272,7 @@ SectionsManager
 =
 SectionsManager
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

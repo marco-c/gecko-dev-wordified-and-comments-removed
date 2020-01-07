@@ -98,8 +98,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 ManifestObtainer
 =
 {
@@ -746,8 +745,7 @@ manifest
 ;
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

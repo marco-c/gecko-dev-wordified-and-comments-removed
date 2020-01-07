@@ -115,8 +115,7 @@ jsm
 }
 )
 ;
-this
-.
+var
 Store
 =
 class
@@ -653,8 +652,7 @@ destroyChannel
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

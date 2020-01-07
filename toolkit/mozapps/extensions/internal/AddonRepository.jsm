@@ -166,8 +166,7 @@ jsm
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1251,8 +1250,7 @@ json
 }
 }
 ;
-this
-.
+var
 AddonRepository
 =
 {

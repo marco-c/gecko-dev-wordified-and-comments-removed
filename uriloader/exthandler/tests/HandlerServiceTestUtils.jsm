@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -139,8 +138,7 @@ nsIMIMEService
 "
 )
 ;
-this
-.
+var
 HandlerServiceTestUtils
 =
 {

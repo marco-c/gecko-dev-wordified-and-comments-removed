@@ -161,8 +161,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 ManualMigration
 =
 class
@@ -535,8 +534,7 @@ break
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

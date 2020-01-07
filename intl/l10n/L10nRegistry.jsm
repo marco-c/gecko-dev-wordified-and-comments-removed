@@ -1297,8 +1297,7 @@ IndexedFileSource
 =
 IndexedFileSource
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -37,8 +37,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 ManifestIcons
 =
 {
@@ -515,8 +514,7 @@ blob
 )
 ;
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

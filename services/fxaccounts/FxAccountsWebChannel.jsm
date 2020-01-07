@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2070,8 +2069,7 @@ pressed
 var
 singleton
 ;
-this
-.
+var
 EnsureFxAccountsWebChannel
 =
 (

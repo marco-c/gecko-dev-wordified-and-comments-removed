@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -57,10 +56,6 @@ MIN_INT
 -
 0x80000000
 ;
-this
-.
-Preferences
-=
 function
 Preferences
 (
@@ -136,7 +131,6 @@ _branchStr
 args
 ;
 }
-;
 Preferences
 .
 get

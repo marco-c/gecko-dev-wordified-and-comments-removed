@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -77,8 +76,7 @@ level
 1
 }
 ;
-this
-.
+var
 Debugging
 =
 {
@@ -87,8 +85,7 @@ fake
 false
 }
 ;
-this
-.
+var
 GetBattery
 =
 function
@@ -149,8 +146,7 @@ reject
 ;
 }
 ;
-this
-.
+var
 Battery
 =
 {

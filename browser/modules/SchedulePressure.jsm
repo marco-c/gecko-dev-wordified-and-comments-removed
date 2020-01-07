@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -91,8 +90,7 @@ timeoutMs
 1000
 )
 ;
-this
-.
+var
 SchedulePressure
 =
 {

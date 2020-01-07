@@ -307,8 +307,7 @@ push
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -562,8 +561,7 @@ STATE_READY
 =
 3
 ;
-this
-.
+var
 PushServiceWebSocket
 =
 {

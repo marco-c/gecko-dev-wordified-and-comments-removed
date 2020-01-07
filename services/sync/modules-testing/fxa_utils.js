@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -135,8 +134,7 @@ js
 "
 )
 ;
-this
-.
+var
 initializeIdentityWithTokenServerResponse
 =
 function

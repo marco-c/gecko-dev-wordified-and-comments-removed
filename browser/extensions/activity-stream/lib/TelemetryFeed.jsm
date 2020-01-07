@@ -304,8 +304,7 @@ TELEMETRY_PREF
 telemetry
 "
 ;
-this
-.
+var
 TelemetryFeed
 =
 class
@@ -1703,8 +1702,7 @@ e
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

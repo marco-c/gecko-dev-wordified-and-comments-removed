@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -360,8 +359,7 @@ c20a
 }
 "
 ;
-this
-.
+var
 ReaderMode
 =
 {

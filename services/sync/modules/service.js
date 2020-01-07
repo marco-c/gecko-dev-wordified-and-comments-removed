@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -7865,8 +7864,7 @@ extra
 }
 }
 ;
-this
-.
+var
 Service
 =
 new

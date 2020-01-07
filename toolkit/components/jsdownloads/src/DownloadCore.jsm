@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -513,8 +512,7 @@ kProgressUpdateIntervalMs
 =
 400
 ;
-this
-.
+var
 Download
 =
 function
@@ -3184,8 +3182,7 @@ download
 ;
 }
 ;
-this
-.
+var
 DownloadSource
 =
 function
@@ -3512,8 +3509,7 @@ source
 ;
 }
 ;
-this
-.
+var
 DownloadTarget
 =
 function
@@ -3785,8 +3781,7 @@ target
 ;
 }
 ;
-this
-.
+var
 DownloadError
 =
 function
@@ -4346,8 +4341,7 @@ e
 ;
 }
 ;
-this
-.
+var
 DownloadSaver
 =
 function
@@ -4708,8 +4702,7 @@ saver
 ;
 }
 ;
-this
-.
+var
 DownloadCopySaver
 =
 function
@@ -6247,8 +6240,7 @@ saver
 ;
 }
 ;
-this
-.
+var
 DownloadLegacySaver
 =
 function
@@ -7071,8 +7063,7 @@ DownloadLegacySaver
 ;
 }
 ;
-this
-.
+var
 DownloadPDFSaver
 =
 function

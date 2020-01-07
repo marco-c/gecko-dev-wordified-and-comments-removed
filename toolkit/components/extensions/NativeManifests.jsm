@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -205,8 +204,7 @@ Software
 Mozilla
 "
 ;
-this
-.
+var
 NativeManifests
 =
 {

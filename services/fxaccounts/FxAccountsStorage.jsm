@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -142,8 +141,7 @@ fieldName
 )
 ;
 }
-this
-.
+var
 FxAccountsStorageManager
 =
 function

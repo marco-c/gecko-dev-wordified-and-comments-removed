@@ -160,8 +160,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -477,8 +476,7 @@ studyPrefsChanged
 {
 }
 ;
-this
-.
+var
 Bootstrap
 =
 {

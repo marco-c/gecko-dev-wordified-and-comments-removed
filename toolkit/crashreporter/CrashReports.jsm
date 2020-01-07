@@ -17,8 +17,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -27,8 +26,7 @@ CrashReports
 "
 ]
 ;
-this
-.
+var
 CrashReports
 =
 {

@@ -76,8 +76,7 @@ jsm
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -86,8 +85,7 @@ PlacesDBUtils
 "
 ]
 ;
-this
-.
+var
 PlacesDBUtils
 =
 {

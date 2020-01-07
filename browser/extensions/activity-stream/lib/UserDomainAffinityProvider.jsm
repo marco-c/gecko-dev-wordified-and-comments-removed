@@ -268,8 +268,7 @@ args
 )
 ;
 }
-this
-.
+var
 UserDomainAffinityProvider
 =
 class
@@ -1408,8 +1407,7 @@ scores
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

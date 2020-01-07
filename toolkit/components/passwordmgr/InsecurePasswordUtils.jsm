@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -158,8 +157,7 @@ InsecurePasswordUtils
 }
 )
 ;
-this
-.
+var
 InsecurePasswordUtils
 =
 {

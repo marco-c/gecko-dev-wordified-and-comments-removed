@@ -17,8 +17,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -112,8 +111,7 @@ reason
 )
 ;
 }
-this
-.
+var
 monitor
 =
 function

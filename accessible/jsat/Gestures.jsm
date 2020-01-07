@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -406,8 +405,7 @@ startY
 }
 }
 ;
-this
-.
+var
 GestureSettings
 =
 {
@@ -443,8 +441,7 @@ travelThreshold
 025
 }
 ;
-this
-.
+var
 GestureTracker
 =
 {

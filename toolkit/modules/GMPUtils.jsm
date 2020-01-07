@@ -24,8 +24,7 @@ Cm
 =
 Components
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -134,8 +133,7 @@ EME_DISABLED
 2
 }
 ;
-this
-.
+var
 GMPUtils
 =
 {
@@ -367,8 +365,7 @@ id
 }
 }
 ;
-this
-.
+var
 GMPPrefs
 =
 {

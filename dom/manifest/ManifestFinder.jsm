@@ -31,8 +31,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 ManifestFinder
 =
 {
@@ -289,8 +288,7 @@ return
 true
 ;
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

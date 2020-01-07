@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -41,8 +40,7 @@ js
 "
 )
 ;
-this
-.
+var
 TranslationDocument
 =
 function

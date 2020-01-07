@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -304,10 +303,6 @@ profileDir
 )
 ;
 }
-this
-.
-Tracker
-=
 function
 Tracker
 (
@@ -471,7 +466,6 @@ _log
 )
 ;
 }
-;
 Tracker
 .
 prototype
@@ -1278,10 +1272,6 @@ finalize
 }
 }
 ;
-this
-.
-Store
-=
 function
 Store
 (
@@ -1396,7 +1386,6 @@ nsITimer
 )
 ;
 }
-;
 Store
 .
 prototype
@@ -1737,10 +1726,6 @@ subclass
 }
 }
 ;
-this
-.
-EngineManager
-=
 function
 EngineManager
 (
@@ -1834,7 +1819,6 @@ engine
 )
 ;
 }
-;
 EngineManager
 .
 prototype
@@ -2554,10 +2538,6 @@ finalize
 }
 }
 ;
-this
-.
-SyncEngine
-=
 function
 SyncEngine
 (
@@ -2932,7 +2912,6 @@ Map
 )
 ;
 }
-;
 SyncEngine
 .
 kRecoveryStrategy

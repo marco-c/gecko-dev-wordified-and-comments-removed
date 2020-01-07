@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -257,8 +256,7 @@ callback
 }
 }
 ;
-this
-.
+var
 RemotePages
 =
 function
@@ -2510,8 +2508,7 @@ init
 (
 )
 ;
-this
-.
+var
 RemotePageManager
 =
 {

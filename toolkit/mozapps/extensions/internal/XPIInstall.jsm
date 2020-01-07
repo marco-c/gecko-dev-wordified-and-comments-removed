@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -5243,8 +5242,7 @@ close
 }
 }
 ;
-this
-.
+var
 loadManifestFromFile
 =
 function
@@ -6067,8 +6065,7 @@ callback
 )
 ;
 }
-this
-.
+var
 verifyBundleSignedState
 =
 function
@@ -10160,8 +10157,7 @@ releaseStagingDir
 ;
 }
 }
-this
-.
+var
 LocalAddonInstall
 =
 class
@@ -10815,8 +10811,7 @@ install
 }
 }
 ;
-this
-.
+var
 DownloadAddonInstall
 =
 class
@@ -12896,8 +12891,7 @@ iid
 }
 }
 ;
-this
-.
+var
 StagedAddonInstall
 =
 class
@@ -13478,8 +13472,7 @@ true
 }
 )
 ;
-this
-.
+var
 UpdateChecker
 =
 function

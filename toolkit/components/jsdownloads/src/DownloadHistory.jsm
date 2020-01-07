@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -215,8 +214,7 @@ METADATA_STATE_DIRTY
 =
 8
 ;
-this
-.
+var
 DownloadHistory
 =
 {
@@ -1232,8 +1230,7 @@ historyDownload
 }
 }
 ;
-this
-.
+var
 DownloadHistoryList
 =
 function

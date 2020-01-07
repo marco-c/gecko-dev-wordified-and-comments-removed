@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -88,8 +87,7 @@ ORIGIN_BOTTOM_LEFT
 =
 2
 ;
-this
-.
+var
 LightweightThemeImageOptimizer
 =
 {

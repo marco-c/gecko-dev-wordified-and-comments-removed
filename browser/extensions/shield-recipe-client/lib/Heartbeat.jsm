@@ -178,8 +178,7 @@ URL
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -413,8 +412,7 @@ window
 }
 )
 ;
-this
-.
+var
 Heartbeat
 =
 class

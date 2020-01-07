@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -156,8 +155,7 @@ update
 custom
 "
 ;
-this
-.
+var
 UpdateUtils
 =
 {

@@ -95,8 +95,7 @@ js
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -189,8 +188,7 @@ jexl
 }
 )
 ;
-this
-.
+var
 FilterExpressions
 =
 {

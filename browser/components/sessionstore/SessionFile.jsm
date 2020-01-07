@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -321,8 +320,7 @@ max_write_failures
 5
 )
 ;
-this
-.
+var
 SessionFile
 =
 {

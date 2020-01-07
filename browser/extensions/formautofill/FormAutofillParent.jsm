@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -164,8 +163,6 @@ FormAutofillUtils
 defineLazyLogGetter
 (
 this
-this
-.
 EXPORTED_SYMBOLS
 [
 0
@@ -3167,8 +3164,7 @@ startedFillingMS
 }
 }
 ;
-this
-.
+var
 formAutofillParent
 =
 new

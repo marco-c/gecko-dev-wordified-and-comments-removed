@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -561,8 +560,7 @@ stack
 )
 ;
 }
-this
-.
+var
 UserAgentUpdates
 =
 {

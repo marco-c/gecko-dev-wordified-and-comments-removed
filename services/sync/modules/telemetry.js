@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -4257,8 +4256,7 @@ msg
 ;
 }
 }
-this
-.
+var
 SyncTelemetry
 =
 new

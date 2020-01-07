@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -186,10 +185,6 @@ js
 "
 )
 ;
-this
-.
-WBORecord
-=
 function
 WBORecord
 (
@@ -224,7 +219,6 @@ id
 id
 ;
 }
-;
 WBORecord
 .
 prototype
@@ -657,10 +651,6 @@ payload
 ]
 )
 ;
-this
-.
-CryptoWrapper
-=
 function
 CryptoWrapper
 (
@@ -697,7 +687,6 @@ id
 id
 ;
 }
-;
 CryptoWrapper
 .
 prototype
@@ -1281,10 +1270,6 @@ deleted
 "
 )
 ;
-this
-.
-RecordManager
-=
 function
 RecordManager
 (
@@ -1320,7 +1305,6 @@ _records
 }
 ;
 }
-;
 RecordManager
 .
 prototype
@@ -1620,10 +1604,6 @@ url
 }
 }
 ;
-this
-.
-CollectionKeyManager
-=
 function
 CollectionKeyManager
 (
@@ -1678,7 +1658,6 @@ CollectionKeyManager
 )
 ;
 }
-;
 CollectionKeyManager
 .
 prototype
@@ -2888,10 +2867,6 @@ r
 }
 }
 ;
-this
-.
-Collection
-=
 function
 Collection
 (
@@ -3015,7 +2990,6 @@ _offset
 null
 ;
 }
-;
 Collection
 .
 prototype

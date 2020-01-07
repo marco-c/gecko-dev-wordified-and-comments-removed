@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -5529,8 +5528,7 @@ interrupt
 }
 )
 ;
-this
-.
+var
 Sqlite
 =
 {

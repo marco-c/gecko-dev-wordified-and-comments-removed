@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -38,8 +37,7 @@ prefVisibility
 new
 Map
 ;
-this
-.
+var
 TransientPrefs
 =
 {

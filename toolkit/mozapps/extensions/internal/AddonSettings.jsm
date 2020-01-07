@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -73,8 +72,7 @@ legacy
 enabled
 "
 ;
-this
-.
+var
 AddonSettings
 =
 {

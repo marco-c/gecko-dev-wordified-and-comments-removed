@@ -191,8 +191,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -210,8 +209,7 @@ PrefCache
 "
 ]
 ;
-this
-.
+var
 Utils
 =
 {
@@ -2820,8 +2818,7 @@ join
 }
 }
 ;
-this
-.
+var
 Logger
 =
 {
@@ -3775,10 +3772,6 @@ aIndent
 }
 }
 ;
-this
-.
-PivotContext
-=
 function
 PivotContext
 (
@@ -3851,7 +3844,6 @@ _includeInvisible
 aIncludeInvisible
 ;
 }
-;
 PivotContext
 .
 prototype
@@ -5306,10 +5298,6 @@ true
 }
 }
 ;
-this
-.
-PrefCache
-=
 function
 PrefCache
 (
@@ -5398,7 +5386,6 @@ true
 )
 ;
 }
-;
 PrefCache
 .
 prototype

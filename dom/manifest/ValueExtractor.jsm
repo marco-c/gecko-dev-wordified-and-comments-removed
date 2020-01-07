@@ -254,14 +254,7 @@ color
 }
 }
 ;
-this
-.
-ValueExtractor
-=
-ValueExtractor
-;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

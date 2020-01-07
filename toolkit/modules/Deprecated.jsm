@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -169,8 +168,7 @@ return
 msg
 ;
 }
-this
-.
+var
 Deprecated
 =
 {

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -377,8 +376,7 @@ null
 }
 }
 ;
-this
-.
+var
 LanguageDetector
 =
 {

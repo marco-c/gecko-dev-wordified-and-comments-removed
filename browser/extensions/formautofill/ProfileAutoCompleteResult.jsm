@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -101,8 +100,6 @@ FormAutofillUtils
 defineLazyLogGetter
 (
 this
-this
-.
 EXPORTED_SYMBOLS
 [
 0

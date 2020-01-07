@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -8,8 +7,7 @@ PHONE_NUMBER_META_DATA
 "
 ]
 ;
-this
-.
+var
 PHONE_NUMBER_META_DATA
 =
 {

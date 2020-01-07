@@ -248,8 +248,7 @@ fetch
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -499,8 +498,7 @@ reason
 )
 ;
 }
-this
-.
+var
 AddonStudies
 =
 {

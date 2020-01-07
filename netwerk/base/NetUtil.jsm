@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -75,8 +74,7 @@ setInputStream
 "
 )
 ;
-this
-.
+var
 NetUtil
 =
 {

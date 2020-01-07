@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -165,10 +164,6 @@ common
 "
 )
 ;
-this
-.
-RESTRequest
-=
 function
 RESTRequest
 (
@@ -262,7 +257,6 @@ request
 ]
 ;
 }
-;
 RESTRequest
 .
 prototype
@@ -2633,10 +2627,6 @@ NS_OK
 }
 }
 ;
-this
-.
-RESTResponse
-=
 function
 RESTResponse
 (
@@ -2684,7 +2674,6 @@ response
 ]
 ;
 }
-;
 RESTResponse
 .
 prototype
@@ -3017,10 +3006,6 @@ body
 null
 }
 ;
-this
-.
-TokenAuthenticatedRESTRequest
-=
 function
 TokenAuthenticatedRESTRequest
 (
@@ -3054,7 +3039,6 @@ extra
 }
 ;
 }
-;
 TokenAuthenticatedRESTRequest
 .
 prototype

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -134,8 +133,7 @@ MAX_REQUESTS
 =
 15
 ;
-this
-.
+var
 BingTranslator
 =
 function

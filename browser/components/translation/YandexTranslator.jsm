@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -184,8 +183,7 @@ YANDEX_ERR_DAILY_REQ_LIMIT_EXCEEDED
 YANDEX_ERR_DAILY_CHAR_LIMIT_EXCEEDED
 ]
 ;
-this
-.
+var
 YandexTranslator
 =
 function

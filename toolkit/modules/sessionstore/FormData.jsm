@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -403,8 +402,7 @@ return
 false
 ;
 }
-this
-.
+var
 FormData
 =
 Object

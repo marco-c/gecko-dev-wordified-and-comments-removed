@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -29,8 +28,7 @@ XMLHttpRequest
 ]
 )
 ;
-this
-.
+var
 webrequest_test
 =
 {

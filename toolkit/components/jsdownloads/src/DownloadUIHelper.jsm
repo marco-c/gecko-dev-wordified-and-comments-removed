@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -140,8 +139,7 @@ leavePrivateBrowsingWindowsCancelDownloadsAlertMsgMultiple2
 true
 }
 ;
-this
-.
+var
 DownloadUIHelper
 =
 {
@@ -290,8 +288,7 @@ strings
 }
 )
 ;
-this
-.
+var
 DownloadPrompter
 =
 function

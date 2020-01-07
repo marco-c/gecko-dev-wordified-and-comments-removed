@@ -59,8 +59,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -78,8 +77,7 @@ parseKeyValuePairsFromFileAsync
 "
 ]
 ;
-this
-.
+var
 parseKeyValuePairsFromLines
 =
 function
@@ -206,10 +204,6 @@ data
 ;
 }
 ;
-this
-.
-parseKeyValuePairs
-=
 function
 parseKeyValuePairs
 (
@@ -236,11 +230,6 @@ lines
 )
 ;
 }
-;
-this
-.
-parseKeyValuePairsFromFile
-=
 function
 parseKeyValuePairsFromFile
 (
@@ -387,11 +376,6 @@ contents
 )
 ;
 }
-;
-this
-.
-parseKeyValuePairsFromFileAsync
-=
 async
 function
 parseKeyValuePairsFromFileAsync
@@ -428,4 +412,3 @@ contents
 )
 ;
 }
-;

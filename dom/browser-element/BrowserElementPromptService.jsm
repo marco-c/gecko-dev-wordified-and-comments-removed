@@ -17,8 +17,7 @@ Ci
 nsIComponentRegistrar
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2555,8 +2554,7 @@ iid
 }
 }
 ;
-this
-.
+var
 BrowserElementPromptService
 =
 {

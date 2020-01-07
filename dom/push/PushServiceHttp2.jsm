@@ -171,8 +171,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2214,8 +2213,7 @@ spec
 }
 ;
 }
-this
-.
+var
 PushServiceHttp2
 =
 {

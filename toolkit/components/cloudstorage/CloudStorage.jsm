@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -175,8 +174,7 @@ providers
 json
 "
 ;
-this
-.
+var
 CloudStorage
 =
 {

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -110,8 +109,7 @@ Number
 .
 MAX_SAFE_INTEGER
 ;
-this
-.
+var
 SessionCookies
 =
 Object

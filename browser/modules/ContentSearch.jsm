@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -153,8 +152,7 @@ MAX_SUGGESTIONS
 =
 6
 ;
-this
-.
+var
 ContentSearch
 =
 {

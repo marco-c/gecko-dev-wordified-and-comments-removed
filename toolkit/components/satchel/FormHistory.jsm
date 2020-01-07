@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1303,8 +1302,7 @@ query
 }
 ;
 }
-this
-.
+var
 InProgressInserts
 =
 {
@@ -2546,8 +2544,7 @@ expireEndCountFailure
 )
 ;
 }
-this
-.
+var
 DB
 =
 {

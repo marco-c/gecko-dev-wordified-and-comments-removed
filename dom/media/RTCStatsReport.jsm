@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -138,9 +137,3 @@ return
 report
 ;
 }
-this
-.
-convertToRTCStatsReport
-=
-convertToRTCStatsReport
-;

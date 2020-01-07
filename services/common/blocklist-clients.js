@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2191,8 +2190,7 @@ e
 ;
 }
 }
-this
-.
+var
 OneCRLBlocklistClient
 =
 new
@@ -2229,8 +2227,7 @@ org
 "
 )
 ;
-this
-.
+var
 AddonBlocklistClient
 =
 new
@@ -2269,8 +2266,7 @@ PREF_BLOCKLIST_BUCKET
 )
 )
 ;
-this
-.
+var
 GfxBlocklistClient
 =
 new
@@ -2309,8 +2305,7 @@ PREF_BLOCKLIST_BUCKET
 )
 )
 ;
-this
-.
+var
 PluginBlocklistClient
 =
 new
@@ -2349,8 +2344,7 @@ PREF_BLOCKLIST_BUCKET
 )
 )
 ;
-this
-.
+var
 PinningPreloadClient
 =
 new

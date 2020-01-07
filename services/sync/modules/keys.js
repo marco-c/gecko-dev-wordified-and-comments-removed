@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -526,10 +525,6 @@ generatedHMAC
 }
 }
 ;
-this
-.
-BulkKeyBundle
-=
 function
 BulkKeyBundle
 (
@@ -580,7 +575,6 @@ _collection
 collection
 ;
 }
-;
 BulkKeyBundle
 .
 fromHexKey

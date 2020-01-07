@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1012,8 +1011,7 @@ topic
 )
 ;
 }
-this
-.
+var
 UIState
 =
 {

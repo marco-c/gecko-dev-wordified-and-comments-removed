@@ -245,10 +245,7 @@ varsIgnorePattern
 :
 "
 ^
-C
-[
-ciur
-]
+EXPORTED_SYMBOLS
 "
 }
 ]

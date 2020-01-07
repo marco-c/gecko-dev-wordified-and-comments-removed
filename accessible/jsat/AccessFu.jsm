@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -89,6 +88,11 @@ jsm
 ;
 }
 const
+ACCESSFU_DISABLE
+=
+0
+;
+const
 ACCESSFU_ENABLE
 =
 1
@@ -129,8 +133,7 @@ accessfu
 quicknav_index
 "
 ;
-this
-.
+var
 AccessFu
 =
 {

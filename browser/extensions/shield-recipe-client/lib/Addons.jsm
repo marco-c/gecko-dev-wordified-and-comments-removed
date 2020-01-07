@@ -95,8 +95,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -105,8 +104,7 @@ Addons
 "
 ]
 ;
-this
-.
+var
 Addons
 =
 {

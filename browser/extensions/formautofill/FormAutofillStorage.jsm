@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -7718,8 +7717,7 @@ _save
 }
 }
 ;
-this
-.
+var
 profileStorage
 =
 new

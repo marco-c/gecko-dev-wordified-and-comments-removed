@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -547,8 +546,7 @@ return
 gMigrationBundle
 ;
 }
-this
-.
+var
 MigratorPrototype
 =
 {
@@ -1879,8 +1877,7 @@ profileKey
 }
 }
 ;
-this
-.
+var
 MigrationUtils
 =
 Object

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -227,14 +226,12 @@ Doctor
 "
 )
 ;
-this
-.
+var
 REPAIR_ADVANCE_PERIOD
 =
 86400
 ;
-this
-.
+var
 Doctor
 =
 {

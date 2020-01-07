@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2090,8 +2089,7 @@ value
 FINALIZATION_TOPIC
 )
 ;
-this
-.
+var
 PerformanceStats
 =
 {

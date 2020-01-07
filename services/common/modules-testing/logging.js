@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -35,10 +34,6 @@ jsm
 "
 )
 ;
-this
-.
-initTestLogging
-=
 function
 initTestLogging
 (
@@ -286,11 +281,6 @@ return
 logStats
 ;
 }
-;
-this
-.
-getTestLogger
-=
 function
 getTestLogger
 (
@@ -310,4 +300,3 @@ Testing
 )
 ;
 }
-;

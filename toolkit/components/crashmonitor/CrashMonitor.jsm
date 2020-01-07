@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -385,8 +384,7 @@ previousCheckpoints
 }
 }
 ;
-this
-.
+var
 CrashMonitor
 =
 {

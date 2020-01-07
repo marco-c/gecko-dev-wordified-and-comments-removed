@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -333,8 +332,7 @@ finish
 "
 )
 ;
-this
-.
+var
 SessionSaver
 =
 Object

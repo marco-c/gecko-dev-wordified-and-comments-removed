@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -11,10 +10,6 @@ Rect
 "
 ]
 ;
-this
-.
-Point
-=
 function
 Point
 (
@@ -31,7 +26,6 @@ y
 )
 ;
 }
-;
 Point
 .
 prototype
@@ -374,10 +368,6 @@ f
 (
 )
 ;
-this
-.
-Rect
-=
 function
 Rect
 (
@@ -416,7 +406,6 @@ y
 h
 ;
 }
-;
 Rect
 .
 fromRect

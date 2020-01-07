@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -164,8 +163,7 @@ InspectorUtils
 ]
 )
 ;
-this
-.
+var
 Tabs
 =
 {

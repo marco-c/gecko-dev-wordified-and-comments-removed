@@ -107,8 +107,7 @@ SYSTEM_TICK_INTERVAL
 *
 1000
 ;
-this
-.
+var
 SystemTickFeed
 =
 class
@@ -195,8 +194,7 @@ SYSTEM_TICK_INTERVAL
 =
 SYSTEM_TICK_INTERVAL
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

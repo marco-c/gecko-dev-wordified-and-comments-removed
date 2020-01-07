@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1077,10 +1076,4 @@ break
 }
 }
 }
-;
-this
-.
-ReceiverStateMachine
-=
-ReceiverStateMachine
 ;

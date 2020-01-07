@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -73,8 +72,7 @@ jsm
 var
 gFakeAppDirectoryProvider
 ;
-this
-.
+var
 makeFakeAppDir
 =
 function

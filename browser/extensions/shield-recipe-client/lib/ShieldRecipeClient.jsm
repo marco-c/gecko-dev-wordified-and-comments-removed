@@ -276,8 +276,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -319,8 +318,7 @@ log
 =
 null
 ;
-this
-.
+var
 ShieldRecipeClient
 =
 {

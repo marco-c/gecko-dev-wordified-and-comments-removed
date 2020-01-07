@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -735,8 +734,7 @@ path
 ;
 }
 }
-this
-.
+var
 ExtensionTestCommon
 =
 class

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -40,8 +39,7 @@ Map
 (
 )
 ;
-this
-.
+var
 Integration
 =
 new
@@ -95,8 +93,7 @@ integrationPoint
 }
 )
 ;
-this
-.
+var
 IntegrationPoint
 =
 function

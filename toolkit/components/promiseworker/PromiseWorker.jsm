@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -374,8 +373,7 @@ result
 }
 }
 ;
-this
-.
+var
 BasePromiseWorker
 =
 function

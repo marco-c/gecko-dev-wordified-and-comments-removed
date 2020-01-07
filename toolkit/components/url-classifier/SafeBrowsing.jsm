@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -257,8 +256,7 @@ flashInfobarTable
 "
 ]
 ;
-this
-.
+var
 SafeBrowsing
 =
 {

@@ -524,8 +524,7 @@ HIDE_FROM_ABOUTABOUT
 )
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

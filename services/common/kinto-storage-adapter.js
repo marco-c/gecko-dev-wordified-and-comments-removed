@@ -2088,8 +2088,7 @@ FirefoxAdapter
 =
 FirefoxAdapter
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

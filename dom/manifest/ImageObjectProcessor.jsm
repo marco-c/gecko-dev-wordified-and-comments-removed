@@ -699,14 +699,7 @@ validDecimals
 }
 }
 ;
-this
-.
-ImageObjectProcessor
-=
-ImageObjectProcessor
-;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -38,8 +37,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 DownloadList
 =
 function
@@ -505,8 +503,7 @@ reportError
 }
 }
 ;
-this
-.
+var
 DownloadCombinedList
 =
 function
@@ -745,8 +742,7 @@ aDownload
 }
 }
 ;
-this
-.
+var
 DownloadSummary
 =
 function

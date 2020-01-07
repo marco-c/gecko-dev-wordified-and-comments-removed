@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -49,8 +48,7 @@ this
 )
 )
 ;
-this
-.
+var
 CoverageCollector
 =
 function

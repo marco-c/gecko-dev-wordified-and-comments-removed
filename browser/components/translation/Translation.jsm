@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -59,8 +58,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 Translation
 =
 {
@@ -1421,8 +1419,7 @@ recordDeniedTranslationOffer
 }
 }
 ;
-this
-.
+var
 TranslationTelemetry
 =
 {

@@ -22,8 +22,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -50,8 +49,7 @@ rootLogger
 =
 null
 ;
-this
-.
+var
 LogManager
 =
 {

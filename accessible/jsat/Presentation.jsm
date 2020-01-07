@@ -193,8 +193,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2747,8 +2746,7 @@ aEnd
 ;
 }
 ;
-this
-.
+var
 Presentation
 =
 {

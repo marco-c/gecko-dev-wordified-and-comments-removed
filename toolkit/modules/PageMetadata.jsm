@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -101,8 +100,7 @@ DISCOVER_IMAGES_MAX
 =
 5
 ;
-this
-.
+var
 PageMetadata
 =
 {

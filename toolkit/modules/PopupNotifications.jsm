@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -764,10 +763,6 @@ value
 }
 }
 ;
-this
-.
-PopupNotifications
-=
 function
 PopupNotifications
 (
@@ -1208,7 +1203,6 @@ true
 )
 ;
 }
-;
 PopupNotifications
 .
 prototype

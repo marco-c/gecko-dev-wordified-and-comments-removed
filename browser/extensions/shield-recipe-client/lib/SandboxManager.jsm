@@ -17,8 +17,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -27,8 +26,7 @@ SandboxManager
 "
 ]
 ;
-this
-.
+var
 SandboxManager
 =
 class

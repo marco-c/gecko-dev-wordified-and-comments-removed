@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -983,8 +982,7 @@ Prefilters
 .
 TRANSPARENT
 ;
-this
-.
+var
 TraversalRules
 =
 {
@@ -1704,8 +1702,7 @@ MATCH
 }
 }
 ;
-this
-.
+var
 TraversalHelper
 =
 {

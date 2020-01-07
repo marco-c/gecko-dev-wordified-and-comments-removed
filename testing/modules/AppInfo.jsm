@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -92,8 +91,7 @@ Ci
 nsIXULRuntime
 )
 ;
-this
-.
+var
 newAppInfo
 =
 function
@@ -422,8 +420,7 @@ newAppInfo
 (
 )
 ;
-this
-.
+var
 getAppInfo
 =
 function
@@ -435,8 +432,7 @@ currentAppInfo
 ;
 }
 ;
-this
-.
+var
 updateAppInfo
 =
 function

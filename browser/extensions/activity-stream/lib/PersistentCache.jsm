@@ -63,8 +63,7 @@ TextDecoder
 )
 )
 ;
-this
-.
+var
 PersistentCache
 =
 class
@@ -363,8 +362,7 @@ tmp
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

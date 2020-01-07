@@ -1406,8 +1406,7 @@ id
 ]
 ;
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 Object

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -19,8 +18,7 @@ Object
 =
 Object
 ;
-this
-.
+var
 redux
 =
 (

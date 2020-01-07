@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -21,10 +20,6 @@ URL
 ]
 )
 ;
-this
-.
-checkFromJSM
-=
 function
 checkFromJSM
 (

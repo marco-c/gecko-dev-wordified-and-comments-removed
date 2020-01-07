@@ -8,8 +8,7 @@ global
 =
 this
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

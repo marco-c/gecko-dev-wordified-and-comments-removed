@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -113,10 +112,6 @@ logger
 tokenserverclient
 "
 ;
-this
-.
-TokenServerClientError
-=
 function
 TokenServerClientError
 (
@@ -155,7 +150,6 @@ Error
 stack
 ;
 }
-;
 TokenServerClientError
 .
 prototype
@@ -262,10 +256,6 @@ result
 ;
 }
 ;
-this
-.
-TokenServerClientNetworkError
-=
 function
 TokenServerClientNetworkError
 (
@@ -297,7 +287,6 @@ Error
 stack
 ;
 }
-;
 TokenServerClientNetworkError
 .
 prototype
@@ -336,10 +325,6 @@ error
 ;
 }
 ;
-this
-.
-TokenServerClientServerError
-=
 function
 TokenServerClientServerError
 (
@@ -402,7 +387,6 @@ Error
 stack
 ;
 }
-;
 TokenServerClientServerError
 .
 prototype
@@ -494,10 +478,6 @@ fields
 ;
 }
 ;
-this
-.
-TokenServerClient
-=
 function
 TokenServerClient
 (
@@ -532,7 +512,6 @@ PREF_LOG_LEVEL
 )
 ;
 }
-;
 TokenServerClient
 .
 prototype

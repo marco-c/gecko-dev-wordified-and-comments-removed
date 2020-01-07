@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -370,8 +369,7 @@ utils
 js
 "
 ;
-this
-.
+var
 BrowserTestUtils
 =
 {

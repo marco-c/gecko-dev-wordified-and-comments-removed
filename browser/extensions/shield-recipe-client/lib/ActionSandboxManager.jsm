@@ -72,8 +72,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -98,8 +97,7 @@ manager
 "
 )
 ;
-this
-.
+var
 ActionSandboxManager
 =
 class

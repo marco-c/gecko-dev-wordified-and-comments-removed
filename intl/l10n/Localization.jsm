@@ -1063,8 +1063,7 @@ Localization
 =
 Localization
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

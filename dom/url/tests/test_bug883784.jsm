@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -22,8 +21,7 @@ XMLHttpRequest
 ]
 )
 ;
-this
-.
+var
 Test
 =
 {

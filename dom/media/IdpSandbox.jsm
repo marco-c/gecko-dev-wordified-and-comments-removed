@@ -1526,8 +1526,7 @@ spec
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1535,10 +1534,4 @@ EXPORTED_SYMBOLS
 IdpSandbox
 "
 ]
-;
-this
-.
-IdpSandbox
-=
-IdpSandbox
 ;

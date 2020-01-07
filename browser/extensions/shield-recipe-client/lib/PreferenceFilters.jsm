@@ -22,8 +22,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -32,8 +31,7 @@ PreferenceFilters
 "
 ]
 ;
-this
-.
+var
 PreferenceFilters
 =
 {

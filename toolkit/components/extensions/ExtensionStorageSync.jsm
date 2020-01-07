@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -669,8 +668,7 @@ Android
 ;
 }
 }
-this
-.
+var
 extensionStorageSync
 =
 null
@@ -5297,8 +5295,6 @@ ExtensionStorageSync
 =
 ExtensionStorageSync
 ;
-this
-.
 extensionStorageSync
 =
 new

@@ -47,8 +47,7 @@ js
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -68,8 +67,7 @@ recipe
 client
 "
 ;
-this
-.
+var
 Uptake
 =
 {

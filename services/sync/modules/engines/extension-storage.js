@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -112,10 +111,6 @@ jsm
 "
 )
 ;
-this
-.
-ExtensionStorageEngine
-=
 function
 ExtensionStorageEngine
 (
@@ -136,7 +131,6 @@ service
 )
 ;
 }
-;
 ExtensionStorageEngine
 .
 prototype

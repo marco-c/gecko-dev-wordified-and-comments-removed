@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -200,10 +199,6 @@ jsm
 "
 )
 ;
-this
-.
-HistoryRec
-=
 function
 HistoryRec
 (
@@ -221,7 +216,6 @@ id
 )
 ;
 }
-;
 HistoryRec
 .
 prototype
@@ -267,10 +261,6 @@ visits
 ]
 )
 ;
-this
-.
-HistoryEngine
-=
 function
 HistoryEngine
 (
@@ -289,7 +279,6 @@ service
 )
 ;
 }
-;
 HistoryEngine
 .
 prototype

@@ -23,8 +23,7 @@ jsm
 this
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -33,8 +32,7 @@ ReaderWorker
 "
 ]
 ;
-this
-.
+var
 ReaderWorker
 =
 new

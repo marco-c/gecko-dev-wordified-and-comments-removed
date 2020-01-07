@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -141,10 +140,6 @@ fetch
 ]
 )
 ;
-this
-.
-Resource
-=
 function
 Resource
 (
@@ -201,7 +196,6 @@ _headers
 }
 ;
 }
-;
 Resource
 .
 serverTime

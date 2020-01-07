@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -43,8 +42,7 @@ gTemporaryAutoStartMode
 =
 false
 ;
-this
-.
+var
 PrivateBrowsingUtils
 =
 {

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -6318,8 +6317,7 @@ bootstrapped
 ;
 }
 }
-this
-.
+var
 XPIStates
 =
 {
@@ -7784,8 +7782,7 @@ false
 }
 }
 ;
-this
-.
+var
 XPIProvider
 =
 {
@@ -30813,8 +30810,7 @@ true
 ;
 }
 }
-this
-.
+var
 XPIInternal
 =
 {

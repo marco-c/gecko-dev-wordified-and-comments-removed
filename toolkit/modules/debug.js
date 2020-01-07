@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -55,10 +54,6 @@ gTraceOnAssert
 =
 false
 ;
-this
-.
-NS_ASSERT
-=
 function
 NS_ASSERT
 (
@@ -313,4 +308,3 @@ stackText
 )
 ;
 }
-;

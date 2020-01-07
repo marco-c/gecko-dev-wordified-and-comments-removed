@@ -195,8 +195,7 @@ return
 true
 ;
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -205,8 +204,7 @@ ContentMetaHandler
 "
 ]
 ;
-this
-.
+var
 ContentMetaHandler
 =
 {

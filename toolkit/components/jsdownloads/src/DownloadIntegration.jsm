@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -782,8 +781,7 @@ Error
 BLOCK_VERDICT_MALWARE
 }
 ;
-this
-.
+var
 DownloadIntegration
 =
 {
@@ -2810,8 +2808,7 @@ resolve
 }
 }
 ;
-this
-.
+var
 DownloadObserver
 =
 {
@@ -3532,8 +3529,7 @@ nsIObserver
 )
 }
 ;
-this
-.
+var
 DownloadHistoryObserver
 =
 function
@@ -3664,8 +3660,7 @@ onDeleteVisits
 }
 }
 ;
-this
-.
+var
 DownloadAutoSaveView
 =
 function

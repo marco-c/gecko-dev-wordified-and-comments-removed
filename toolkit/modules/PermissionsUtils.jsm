@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -266,8 +265,7 @@ pref
 ;
 }
 }
-this
-.
+var
 PermissionsUtils
 =
 {

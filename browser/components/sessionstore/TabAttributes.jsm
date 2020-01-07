@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -43,8 +42,7 @@ blocked
 ]
 )
 ;
-this
-.
+var
 TabAttributes
 =
 Object

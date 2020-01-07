@@ -1937,8 +1937,7 @@ DOMLocalization
 =
 DOMLocalization
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

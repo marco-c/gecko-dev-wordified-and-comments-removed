@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -269,10 +268,6 @@ NS_ERROR_ABORT
 ;
 }
 }
-this
-.
-HttpError
-=
 function
 HttpError
 (
@@ -319,8 +314,7 @@ description
 }
 }
 ;
-this
-.
+var
 HTTP_400
 =
 new
@@ -333,8 +327,7 @@ Request
 "
 )
 ;
-this
-.
+var
 HTTP_401
 =
 new
@@ -346,8 +339,7 @@ Unauthorized
 "
 )
 ;
-this
-.
+var
 HTTP_402
 =
 new
@@ -360,8 +352,7 @@ Required
 "
 )
 ;
-this
-.
+var
 HTTP_403
 =
 new
@@ -373,8 +364,7 @@ Forbidden
 "
 )
 ;
-this
-.
+var
 HTTP_404
 =
 new
@@ -387,8 +377,7 @@ Found
 "
 )
 ;
-this
-.
+var
 HTTP_405
 =
 new
@@ -402,8 +391,7 @@ Allowed
 "
 )
 ;
-this
-.
+var
 HTTP_406
 =
 new
@@ -416,8 +404,7 @@ Acceptable
 "
 )
 ;
-this
-.
+var
 HTTP_407
 =
 new
@@ -431,8 +418,7 @@ Required
 "
 )
 ;
-this
-.
+var
 HTTP_408
 =
 new
@@ -445,8 +431,7 @@ Timeout
 "
 )
 ;
-this
-.
+var
 HTTP_409
 =
 new
@@ -458,8 +443,7 @@ Conflict
 "
 )
 ;
-this
-.
+var
 HTTP_410
 =
 new
@@ -471,8 +455,7 @@ Gone
 "
 )
 ;
-this
-.
+var
 HTTP_411
 =
 new
@@ -485,8 +468,7 @@ Required
 "
 )
 ;
-this
-.
+var
 HTTP_412
 =
 new
@@ -499,8 +481,7 @@ Failed
 "
 )
 ;
-this
-.
+var
 HTTP_413
 =
 new
@@ -515,8 +496,7 @@ Large
 "
 )
 ;
-this
-.
+var
 HTTP_414
 =
 new
@@ -532,8 +512,7 @@ Long
 "
 )
 ;
-this
-.
+var
 HTTP_415
 =
 new
@@ -547,8 +526,7 @@ Type
 "
 )
 ;
-this
-.
+var
 HTTP_417
 =
 new
@@ -561,8 +539,7 @@ Failed
 "
 )
 ;
-this
-.
+var
 HTTP_500
 =
 new
@@ -576,8 +553,7 @@ Error
 "
 )
 ;
-this
-.
+var
 HTTP_501
 =
 new
@@ -590,8 +566,7 @@ Implemented
 "
 )
 ;
-this
-.
+var
 HTTP_502
 =
 new
@@ -604,8 +579,7 @@ Gateway
 "
 )
 ;
-this
-.
+var
 HTTP_503
 =
 new
@@ -618,8 +592,7 @@ Unavailable
 "
 )
 ;
-this
-.
+var
 HTTP_504
 =
 new
@@ -632,8 +605,7 @@ Timeout
 "
 )
 ;
-this
-.
+var
 HTTP_505
 =
 new
@@ -3488,8 +3460,7 @@ true
 }
 }
 ;
-this
-.
+var
 HttpServer
 =
 nsHttpServer
@@ -19233,8 +19204,7 @@ WritablePropertyBag
 }
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

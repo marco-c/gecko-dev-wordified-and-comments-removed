@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -405,8 +404,7 @@ fxAccountsCommon
 ON_ACCOUNT_STATE_CHANGE_NOTIFICATION
 ]
 ;
-this
-.
+var
 telemetryHelper
 =
 {
@@ -904,10 +902,6 @@ details
 }
 }
 ;
-this
-.
-BrowserIDManager
-=
 function
 BrowserIDManager
 (
@@ -970,7 +964,6 @@ username
 )
 ;
 }
-;
 this
 .
 BrowserIDManager

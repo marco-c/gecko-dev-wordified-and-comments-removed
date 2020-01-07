@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -15814,8 +15813,7 @@ freeze
 CustomizableUIInternal
 )
 ;
-this
-.
+var
 CustomizableUI
 =
 {

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -24,8 +23,7 @@ EXPIRATION_TIME
 *
 1000
 ;
-this
-.
+var
 LinksCache
 =
 class

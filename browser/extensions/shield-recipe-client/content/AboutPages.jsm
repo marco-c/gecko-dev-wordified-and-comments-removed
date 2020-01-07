@@ -129,8 +129,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -471,8 +470,7 @@ nsIAboutModule
 ]
 )
 ;
-this
-.
+var
 AboutPages
 =
 {

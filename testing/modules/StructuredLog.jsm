@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -16,8 +15,7 @@ StructuredFormatter
 "
 ]
 ;
-this
-.
+var
 StructuredLogger
 =
 function
@@ -859,8 +857,7 @@ test
 }
 }
 ;
-this
-.
+var
 StructuredFormatter
 =
 function

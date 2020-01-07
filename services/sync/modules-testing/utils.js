@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -431,10 +430,6 @@ resolve
 }
 }
 ;
-this
-.
-waitForZeroTimer
-=
 function
 waitForZeroTimer
 (
@@ -490,9 +485,7 @@ timer
 )
 ;
 }
-;
-this
-.
+var
 promiseZeroTimer
 =
 function
@@ -517,8 +510,7 @@ resolve
 ;
 }
 ;
-this
-.
+var
 promiseNamedTimer
 =
 function
@@ -551,8 +543,7 @@ name
 ;
 }
 ;
-this
-.
+var
 makeIdentityConfig
 =
 function
@@ -720,8 +711,7 @@ result
 ;
 }
 ;
-this
-.
+var
 makeFxAccountsInternalMock
 =
 function
@@ -808,8 +798,7 @@ assertion
 ;
 }
 ;
-this
-.
+var
 configureFxAccountIdentity
 =
 function
@@ -975,8 +964,7 @@ email
 ;
 }
 ;
-this
-.
+var
 configureIdentity
 =
 async
@@ -1214,8 +1202,7 @@ return
 logStats
 ;
 }
-this
-.
+var
 SyncTestingInfrastructure
 =
 async
@@ -1299,10 +1286,6 @@ FakeCryptoService
 ;
 }
 ;
-this
-.
-encryptPayload
-=
 function
 encryptPayload
 (
@@ -1356,9 +1339,7 @@ makeHMACKey
 }
 ;
 }
-;
-this
-.
+var
 sumHistogram
 =
 function
@@ -1436,8 +1417,7 @@ sum
 ;
 }
 ;
-this
-.
+var
 getLoginTelemetryScalar
 =
 function

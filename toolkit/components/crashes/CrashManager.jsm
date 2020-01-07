@@ -165,8 +165,7 @@ jsm
 this
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -311,8 +310,7 @@ return
 value
 ;
 }
-this
-.
+var
 CrashManager
 =
 function

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -72,8 +71,7 @@ MockRegistrar
 "
 )
 ;
-this
-.
+var
 MockRegistrar
 =
 Object

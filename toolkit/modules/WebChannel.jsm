@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -577,8 +576,7 @@ errorMsg
 }
 )
 ;
-this
-.
+var
 WebChannel
 =
 function

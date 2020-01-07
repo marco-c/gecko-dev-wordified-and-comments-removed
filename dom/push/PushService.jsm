@@ -284,8 +284,7 @@ nsIPushNotifier
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -535,8 +534,7 @@ prevChar
 )
 ;
 }
-this
-.
+var
 PushService
 =
 {

@@ -286,8 +286,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -301,8 +300,7 @@ _classifyRequest
 =
 null
 ;
-this
-.
+var
 ClientEnvironment
 =
 {

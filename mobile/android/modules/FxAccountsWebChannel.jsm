@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1957,8 +1956,7 @@ prePath
 var
 singleton
 ;
-this
-.
+var
 EnsureFxAccountsWebChannel
 =
 (

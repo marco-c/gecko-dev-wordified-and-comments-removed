@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -88,8 +87,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 CommonUtils
 =
 {

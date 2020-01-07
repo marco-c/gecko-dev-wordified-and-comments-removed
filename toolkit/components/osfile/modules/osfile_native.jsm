@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -185,8 +184,7 @@ nsINativeOSFileInternalsService
 "
 )
 ;
-this
-.
+var
 read
 =
 function
@@ -410,8 +408,7 @@ path
 ;
 }
 ;
-this
-.
+var
 writeAtomic
 =
 function

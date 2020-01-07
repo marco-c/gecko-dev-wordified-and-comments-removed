@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -41,10 +40,6 @@ jsm
 "
 )
 ;
-this
-.
-InlineSpellChecker
-=
 function
 InlineSpellChecker
 (
@@ -66,7 +61,6 @@ mAddedWordStack
 ]
 ;
 }
-;
 InlineSpellChecker
 .
 prototype

@@ -309,8 +309,7 @@ SECTION_ID
 highlights
 "
 ;
-this
-.
+var
 HighlightsFeed
 =
 class
@@ -1035,8 +1034,7 @@ break
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

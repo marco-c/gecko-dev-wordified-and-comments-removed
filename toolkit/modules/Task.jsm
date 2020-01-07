@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -129,8 +128,7 @@ Generator
 "
 ;
 }
-this
-.
+var
 Task
 =
 {

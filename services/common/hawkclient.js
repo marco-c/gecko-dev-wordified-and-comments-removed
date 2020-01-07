@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -347,8 +346,7 @@ false
 }
 )
 ;
-this
-.
+var
 HawkClient
 =
 function

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -466,8 +465,7 @@ return
 guids
 ;
 }
-this
-.
+var
 PlacesBackups
 =
 {

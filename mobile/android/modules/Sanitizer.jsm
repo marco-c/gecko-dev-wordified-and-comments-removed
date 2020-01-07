@@ -165,8 +165,7 @@ jsm
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1964,8 +1963,7 @@ false
 }
 }
 ;
-this
-.
+var
 Sanitizer
 =
 new

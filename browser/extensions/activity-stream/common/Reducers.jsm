@@ -2032,8 +2032,7 @@ TOP_SITES_MAX_SITES_PER_ROW
 =
 TOP_SITES_MAX_SITES_PER_ROW
 ;
-this
-.
+var
 reducers
 =
 {
@@ -2046,14 +2045,7 @@ Sections
 PreferencesPane
 }
 ;
-this
-.
-insertPinned
-=
-insertPinned
-;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

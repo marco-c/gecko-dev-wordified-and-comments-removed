@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -88,8 +87,7 @@ gMessageID
 =
 1
 ;
-this
-.
+var
 ContentTask
 =
 {

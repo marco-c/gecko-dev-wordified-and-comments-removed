@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -109,10 +108,6 @@ _lastTopLevelWindowID
 =
 0
 ;
-this
-.
-trackBrowserWindow
-=
 function
 trackBrowserWindow
 (
@@ -127,7 +122,6 @@ aWindow
 )
 ;
 }
-;
 function
 debug
 (

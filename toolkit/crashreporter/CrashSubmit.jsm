@@ -111,8 +111,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2370,8 +2369,7 @@ submitStatusPromise
 }
 }
 ;
-this
-.
+var
 CrashSubmit
 =
 {

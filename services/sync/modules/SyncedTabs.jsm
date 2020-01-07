@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1297,8 +1296,7 @@ tabs
 SyncedTabsInternal
 )
 ;
-this
-.
+var
 SyncedTabs
 =
 {

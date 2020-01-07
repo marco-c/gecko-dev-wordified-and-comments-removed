@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -188,8 +187,7 @@ rest
 "
 )
 ;
-this
-.
+var
 HAWKAuthenticatedRESTRequest
 =
 function
@@ -517,10 +515,6 @@ onProgress
 }
 }
 ;
-this
-.
-deriveHawkCredentials
-=
 function
 deriveHawkCredentials
 (
@@ -634,11 +628,6 @@ return
 result
 ;
 }
-;
-this
-.
-Intl
-=
 function
 Intl
 (
@@ -709,7 +698,6 @@ init
 )
 ;
 }
-;
 this
 .
 Intl

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -396,8 +395,7 @@ blob
 }
 }
 ;
-this
-.
+var
 PageThumbs
 =
 {
@@ -1861,8 +1859,7 @@ true
 }
 }
 ;
-this
-.
+var
 PageThumbsStorage
 =
 {

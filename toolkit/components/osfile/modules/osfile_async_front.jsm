@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -4678,8 +4677,7 @@ DirectoryIterator
 =
 DirectoryIterator
 ;
-this
-.
+var
 OS
 =
 {

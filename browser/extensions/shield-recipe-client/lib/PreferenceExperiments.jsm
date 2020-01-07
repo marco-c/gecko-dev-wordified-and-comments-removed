@@ -195,8 +195,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -598,8 +597,7 @@ prefName
 ;
 }
 }
-this
-.
+var
 PreferenceExperiments
 =
 {

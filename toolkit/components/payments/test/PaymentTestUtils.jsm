@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -13,8 +12,7 @@ PaymentTestUtils
 "
 ]
 ;
-this
-.
+var
 PaymentTestUtils
 =
 {

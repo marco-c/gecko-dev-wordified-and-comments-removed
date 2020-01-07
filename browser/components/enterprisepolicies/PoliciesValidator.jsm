@@ -117,8 +117,7 @@ PREF_LOGLEVEL
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -127,8 +126,7 @@ PoliciesValidator
 "
 ]
 ;
-this
-.
+var
 PoliciesValidator
 =
 {

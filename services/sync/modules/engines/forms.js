@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -202,10 +201,6 @@ FORMS_TTL
 *
 60
 ;
-this
-.
-FormRec
-=
 function
 FormRec
 (
@@ -223,7 +218,6 @@ id
 )
 ;
 }
-;
 FormRec
 .
 prototype
@@ -587,10 +581,6 @@ changes
 }
 }
 ;
-this
-.
-FormEngine
-=
 function
 FormEngine
 (
@@ -609,7 +599,6 @@ service
 )
 ;
 }
-;
 FormEngine
 .
 prototype

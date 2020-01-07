@@ -115,8 +115,7 @@ RECENT
 1
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -480,8 +479,7 @@ true
 }
 ]
 ;
-this
-.
+var
 WinTaskbarJumpList
 =
 {

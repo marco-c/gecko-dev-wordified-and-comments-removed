@@ -106,8 +106,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -199,8 +198,7 @@ prevChar
 )
 ;
 }
-this
-.
+var
 ForgetAboutSite
 =
 {

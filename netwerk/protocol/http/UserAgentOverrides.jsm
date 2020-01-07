@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -181,8 +180,7 @@ gBuiltUAs
 new
 Map
 ;
-this
-.
+var
 UserAgentOverrides
 =
 {

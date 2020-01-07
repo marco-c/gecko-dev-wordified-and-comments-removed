@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -508,8 +507,7 @@ changed
 PREF_SHOW_REMOTE_ICONS
 )
 ;
-this
-.
+var
 PlacesRemoteTabsAutocompleteProvider
 =
 {

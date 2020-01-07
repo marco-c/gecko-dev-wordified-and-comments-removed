@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1033,8 +1032,7 @@ gResistFingerprintingEnabled
 =
 false
 ;
-this
-.
+var
 SessionStore
 =
 {

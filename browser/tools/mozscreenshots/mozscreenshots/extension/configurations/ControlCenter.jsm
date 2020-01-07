@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -324,8 +323,7 @@ tracking
 .
 html
 ;
-this
-.
+var
 ControlCenter
 =
 {

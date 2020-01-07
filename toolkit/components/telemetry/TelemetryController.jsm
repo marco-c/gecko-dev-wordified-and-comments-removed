@@ -719,8 +719,7 @@ getCachedClientID
 )
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -729,8 +728,7 @@ TelemetryController
 "
 ]
 ;
-this
-.
+var
 TelemetryController
 =
 Object

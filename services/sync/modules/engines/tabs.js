@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -201,10 +200,6 @@ jsm
 "
 )
 ;
-this
-.
-TabSetRecord
-=
 function
 TabSetRecord
 (
@@ -222,7 +217,6 @@ id
 )
 ;
 }
-;
 TabSetRecord
 .
 prototype
@@ -265,10 +259,6 @@ tabs
 ]
 )
 ;
-this
-.
-TabEngine
-=
 function
 TabEngine
 (
@@ -287,7 +277,6 @@ service
 )
 ;
 }
-;
 TabEngine
 .
 prototype

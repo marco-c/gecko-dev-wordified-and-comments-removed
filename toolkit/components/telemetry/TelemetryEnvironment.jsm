@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -398,8 +397,7 @@ return
 gGlobalEnvironment
 ;
 }
-this
-.
+var
 TelemetryEnvironment
 =
 {

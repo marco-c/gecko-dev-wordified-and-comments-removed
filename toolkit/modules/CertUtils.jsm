@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -43,10 +42,6 @@ jsm
 "
 )
 ;
-this
-.
-readCertPrefs
-=
 function
 readCertPrefs
 (
@@ -175,11 +170,6 @@ return
 certs
 ;
 }
-;
-this
-.
-validateCert
-=
 function
 validateCert
 (
@@ -461,11 +451,6 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 }
-;
-this
-.
-checkCert
-=
 function
 checkCert
 (
@@ -635,11 +620,6 @@ NS_ERROR_ABORT
 )
 ;
 }
-;
-this
-.
-BadCertHandler
-=
 function
 BadCertHandler
 (
@@ -653,7 +633,6 @@ allowNonBuiltInCerts
 aAllowNonBuiltInCerts
 ;
 }
-;
 BadCertHandler
 .
 prototype

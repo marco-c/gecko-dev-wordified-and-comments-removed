@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -421,8 +420,7 @@ browser
 ;
 }
 }
-this
-.
+var
 TabCrashHandler
 =
 {
@@ -2320,8 +2318,7 @@ browser
 }
 }
 ;
-this
-.
+var
 UnsubmittedCrashHandler
 =
 {
@@ -3545,8 +3542,7 @@ reportError
 }
 }
 ;
-this
-.
+var
 PluginCrashReporter
 =
 {

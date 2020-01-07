@@ -190,8 +190,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -215,10 +214,6 @@ MOVEMENT_GRANULARITY_PARAGRAPH
 =
 8
 ;
-this
-.
-ContentControl
-=
 function
 ContentControl
 (
@@ -246,7 +241,6 @@ WeakMap
 )
 ;
 }
-;
 this
 .
 ContentControl

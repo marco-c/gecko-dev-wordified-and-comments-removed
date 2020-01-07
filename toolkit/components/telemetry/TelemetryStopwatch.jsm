@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -505,8 +504,7 @@ true
 }
 }
 ;
-this
-.
+var
 TelemetryStopwatch
 =
 {
@@ -708,8 +706,7 @@ true
 }
 }
 ;
-this
-.
+var
 TelemetryStopwatchImpl
 =
 {

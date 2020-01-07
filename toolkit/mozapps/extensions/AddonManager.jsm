@@ -714,8 +714,7 @@ d
 *
 /
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -12993,8 +12992,7 @@ id
 }
 }
 ;
-this
-.
+var
 AddonManagerPrivate
 =
 {
@@ -13734,8 +13732,7 @@ false
 }
 }
 ;
-this
-.
+var
 AddonManager
 =
 {

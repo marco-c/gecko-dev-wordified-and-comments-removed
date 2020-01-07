@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2318,8 +2317,7 @@ buffer
 )
 ;
 }
-this
-.
+var
 ExtensionUtils
 =
 {

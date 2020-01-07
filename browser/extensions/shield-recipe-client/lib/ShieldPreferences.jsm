@@ -118,8 +118,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -188,8 +187,7 @@ optoutstudies
 enabled
 "
 ;
-this
-.
+var
 ShieldPreferences
 =
 {

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -125,8 +124,7 @@ fxaccounts
 allowHttp
 "
 ;
-this
-.
+var
 FxAccountsOAuthGrantClient
 =
 function
@@ -738,8 +736,7 @@ ERROR_MSG_METHOD_NOT_ALLOWED
 }
 }
 ;
-this
-.
+var
 FxAccountsOAuthGrantClientError
 =
 function

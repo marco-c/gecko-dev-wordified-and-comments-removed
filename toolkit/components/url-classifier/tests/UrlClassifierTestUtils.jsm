@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -95,8 +94,7 @@ Ci
 nsITimer
 )
 ;
-this
-.
+var
 UrlClassifierTestUtils
 =
 {

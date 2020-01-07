@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -126,10 +125,6 @@ js
 "
 )
 ;
-this
-.
-EngineSynchronizer
-=
 function
 EngineSynchronizer
 (
@@ -179,7 +174,6 @@ service
 service
 ;
 }
-;
 EngineSynchronizer
 .
 prototype

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -120,8 +119,7 @@ TextEncoder
 }
 )
 ;
-this
-.
+var
 DownloadStore
 =
 function

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -246,8 +245,7 @@ BasicFormatter
 )
 )
 ;
-this
-.
+var
 Credentials
 =
 Object

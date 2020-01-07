@@ -140,10 +140,6 @@ true
 )
 ;
 }
-this
-.
-filterAdult
-=
 function
 filterAdult
 (
@@ -210,9 +206,7 @@ true
 )
 ;
 }
-;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

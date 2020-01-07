@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -537,8 +536,7 @@ entry
 }
 }
 ;
-this
-.
+var
 SitePermissions
 =
 {

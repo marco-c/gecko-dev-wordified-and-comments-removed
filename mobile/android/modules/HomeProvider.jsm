@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -614,8 +613,7 @@ now
 }
 }
 }
-this
-.
+var
 HomeStorage
 =
 function
@@ -631,8 +629,7 @@ datasetId
 ;
 }
 ;
-this
-.
+var
 ValidationError
 =
 function
@@ -673,8 +670,7 @@ constructor
 =
 ValidationError
 ;
-this
-.
+var
 HomeProvider
 =
 Object

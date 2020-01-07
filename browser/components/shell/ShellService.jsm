@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -404,8 +403,7 @@ Ci
 nsIShellService
 )
 ;
-this
-.
+var
 ShellService
 =
 new

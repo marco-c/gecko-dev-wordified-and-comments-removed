@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -79,10 +78,6 @@ js
 "
 )
 ;
-this
-.
-FakeFilesystemService
-=
 function
 FakeFilesystemService
 (
@@ -372,11 +367,6 @@ resolve
 }
 ;
 }
-;
-this
-.
-fakeSHA256HMAC
-=
 function
 fakeSHA256HMAC
 (
@@ -413,11 +403,6 @@ return
 message
 ;
 }
-;
-this
-.
-FakeGUIDService
-=
 function
 FakeGUIDService
 (
@@ -480,11 +465,6 @@ length
 }
 ;
 }
-;
-this
-.
-FakeCryptoService
-=
 function
 FakeCryptoService
 (
@@ -530,7 +510,6 @@ ciphertext
 }
 ;
 }
-;
 FakeCryptoService
 .
 prototype

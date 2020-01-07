@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -79,8 +78,7 @@ initWithCallback
 "
 )
 ;
-this
-.
+var
 DeferredTask
 =
 function

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -420,8 +419,7 @@ currentThread
 )
 ;
 }
-this
-.
+var
 ZipUtils
 =
 {

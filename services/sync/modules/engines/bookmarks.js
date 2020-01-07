@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -511,10 +510,6 @@ return
 null
 ;
 }
-this
-.
-PlacesItem
-=
 function
 PlacesItem
 (
@@ -544,7 +539,6 @@ item
 "
 ;
 }
-;
 PlacesItem
 .
 prototype
@@ -785,10 +779,6 @@ dateAdded
 ]
 )
 ;
-this
-.
-Bookmark
-=
 function
 Bookmark
 (
@@ -813,7 +803,6 @@ bookmark
 )
 ;
 }
-;
 Bookmark
 .
 prototype
@@ -1003,10 +992,6 @@ keyword
 ]
 )
 ;
-this
-.
-BookmarkQuery
-=
 function
 BookmarkQuery
 (
@@ -1027,7 +1012,6 @@ query
 )
 ;
 }
-;
 BookmarkQuery
 .
 prototype
@@ -1139,10 +1123,6 @@ queryId
 ]
 )
 ;
-this
-.
-BookmarkFolder
-=
 function
 BookmarkFolder
 (
@@ -1167,7 +1147,6 @@ folder
 )
 ;
 }
-;
 BookmarkFolder
 .
 prototype
@@ -1290,10 +1269,6 @@ children
 ]
 )
 ;
-this
-.
-Livemark
-=
 function
 Livemark
 (
@@ -1314,7 +1289,6 @@ livemark
 )
 ;
 }
-;
 Livemark
 .
 prototype
@@ -1438,10 +1412,6 @@ feedUri
 ]
 )
 ;
-this
-.
-BookmarkSeparator
-=
 function
 BookmarkSeparator
 (
@@ -1462,7 +1432,6 @@ separator
 )
 ;
 }
-;
 BookmarkSeparator
 .
 prototype
@@ -1776,10 +1745,6 @@ BookmarkValidator
 }
 }
 ;
-this
-.
-BookmarksEngine
-=
 function
 BookmarksEngine
 (
@@ -1795,7 +1760,6 @@ arguments
 )
 ;
 }
-;
 BookmarksEngine
 .
 prototype
@@ -3344,10 +3308,6 @@ order
 }
 }
 ;
-this
-.
-BufferedBookmarksEngine
-=
 function
 BufferedBookmarksEngine
 (
@@ -3362,7 +3322,6 @@ arguments
 )
 ;
 }
-;
 BufferedBookmarksEngine
 .
 prototype

@@ -99,8 +99,7 @@ content
 js
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -117,10 +116,6 @@ WeakSet
 (
 )
 ;
-this
-.
-ViewSourceBrowser
-=
 function
 ViewSourceBrowser
 (
@@ -140,7 +135,6 @@ init
 )
 ;
 }
-;
 ViewSourceBrowser
 .
 prototype

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -202,10 +201,6 @@ BROWSER_SUGGEST_PREF
 }
 )
 ;
-this
-.
-SearchSuggestionController
-=
 function
 SearchSuggestionController
 (
@@ -221,7 +216,6 @@ _callback
 callback
 ;
 }
-;
 this
 .
 SearchSuggestionController

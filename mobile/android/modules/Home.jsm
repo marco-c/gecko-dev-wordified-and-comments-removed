@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2506,8 +2505,7 @@ isAuthenticated
 (
 )
 ;
-this
-.
+var
 Home
 =
 Object

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -333,8 +332,7 @@ HMACMismatch
 ;
 }
 }
-this
-.
+var
 Utils
 =
 {
@@ -3263,8 +3261,7 @@ utf
 )
 )
 ;
-this
-.
+var
 Svc
 =
 {

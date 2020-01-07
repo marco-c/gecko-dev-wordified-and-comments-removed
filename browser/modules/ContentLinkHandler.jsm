@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -997,8 +996,7 @@ return
 true
 ;
 }
-this
-.
+var
 ContentLinkHandler
 =
 {

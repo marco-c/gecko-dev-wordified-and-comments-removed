@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -166,8 +165,7 @@ WeakMap
 (
 )
 ;
-this
-.
+var
 AssociatedToNode
 =
 class
@@ -552,8 +550,7 @@ cancel
 }
 }
 ;
-this
-.
+var
 PanelMultiView
 =
 class
@@ -4359,8 +4356,7 @@ break
 }
 }
 ;
-this
-.
+var
 PanelView
 =
 class

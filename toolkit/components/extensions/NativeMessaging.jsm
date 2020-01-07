@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -262,8 +261,7 @@ global
 =
 this
 ;
-this
-.
+var
 NativeApp
 =
 class

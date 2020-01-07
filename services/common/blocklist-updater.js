@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -284,8 +283,7 @@ PinningPreloadClient
 }
 )
 ;
-this
-.
+var
 addTestBlocklistClient
 =
 (
@@ -529,8 +527,7 @@ backoffSeconds
 }
 ;
 }
-this
-.
+var
 checkVersions
 =
 async

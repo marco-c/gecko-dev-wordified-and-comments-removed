@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -193,8 +192,7 @@ account
 create
 "
 ;
-this
-.
+var
 FxAccountsClient
 =
 function
