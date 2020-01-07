@@ -48,6 +48,8 @@ SelectorProtocolPart
                        
 ClickProtocolPart
                        
+SendKeysProtocolPart
+                       
 TestDriverProtocolPart
 )
 from
@@ -748,6 +750,46 @@ click
 (
 )
 class
+SeleniumSendKeysProtocolPart
+(
+SendKeysProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+send_keys
+(
+self
+element
+keys
+)
+:
+        
+return
+element
+.
+send_keys
+(
+keys
+)
+class
 SeleniumTestDriverProtocolPart
 (
 TestDriverProtocolPart
@@ -873,6 +915,8 @@ SeleniumTestharnessProtocolPart
 SeleniumSelectorProtocolPart
                   
 SeleniumClickProtocolPart
+                  
+SeleniumSendKeysProtocolPart
                   
 SeleniumTestDriverProtocolPart
 ]
