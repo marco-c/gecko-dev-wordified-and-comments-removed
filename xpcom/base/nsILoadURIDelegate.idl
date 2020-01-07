@@ -217,7 +217,7 @@ aURI
 .
 *
 /
-void
+boolean
 loadURI
 (
 in
