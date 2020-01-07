@@ -7885,6 +7885,11 @@ aCpId
 ;
 if
 (
+!
+contentParent
+|
+|
+(
 ChildID
 (
 )
@@ -7901,6 +7906,7 @@ CanCommunicateWith
 (
 ChildID
 (
+)
 )
 )
 )
