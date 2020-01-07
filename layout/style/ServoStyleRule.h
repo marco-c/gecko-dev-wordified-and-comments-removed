@@ -49,7 +49,7 @@ DocGroup
 ;
 }
 class
-ServoDeclarationBlock
+DeclarationBlock
 ;
 class
 ServoStyleRule
@@ -157,7 +157,7 @@ const
 ;
 RefPtr
 <
-ServoDeclarationBlock
+DeclarationBlock
 >
 mDecls
 ;

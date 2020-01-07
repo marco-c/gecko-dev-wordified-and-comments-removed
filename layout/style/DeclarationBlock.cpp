@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-ServoDeclarationBlock
+DeclarationBlock
 .
 h
 "
@@ -28,9 +28,9 @@ mozilla
 {
 already_AddRefed
 <
-ServoDeclarationBlock
+DeclarationBlock
 >
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 FromCssText
@@ -79,12 +79,12 @@ Consume
 ;
 RefPtr
 <
-ServoDeclarationBlock
+DeclarationBlock
 >
 decl
 =
 new
-ServoDeclarationBlock
+DeclarationBlock
 (
 raw
 .
@@ -102,7 +102,7 @@ forget
 ;
 }
 void
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 GetPropertyValue
@@ -134,7 +134,7 @@ aValue
 ;
 }
 void
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 GetPropertyValueByID
@@ -157,7 +157,7 @@ aValue
 ;
 }
 bool
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 GetPropertyIsImportant
@@ -185,7 +185,7 @@ property
 ;
 }
 bool
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 RemoveProperty
@@ -216,7 +216,7 @@ property
 ;
 }
 bool
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 RemovePropertyByID

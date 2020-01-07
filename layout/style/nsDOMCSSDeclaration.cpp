@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
+DeclarationBlock
 .
 h
 "
@@ -470,7 +470,7 @@ DeclarationBlock
 >
 newdecl
 =
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 FromCssText
@@ -1028,11 +1028,6 @@ changed
 aFunc
 (
 decl
--
->
-AsServo
-(
-)
 servoEnv
 )
 ;
@@ -1081,7 +1076,7 @@ aSubjectPrincipal
 &
 ]
 (
-ServoDeclarationBlock
+DeclarationBlock
 *
 decl
 ParsingEnvironment
@@ -1167,7 +1162,7 @@ aSubjectPrincipal
 &
 ]
 (
-ServoDeclarationBlock
+DeclarationBlock
 *
 decl
 ParsingEnvironment

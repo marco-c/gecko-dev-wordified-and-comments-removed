@@ -12,16 +12,7 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoDeclarationBlock
+DeclarationBlock
 .
 h
 "
@@ -66,7 +57,7 @@ aRule
 mDecls
 =
 new
-ServoDeclarationBlock
+DeclarationBlock
 (
 Servo_Keyframe_GetStyle
 (
@@ -185,11 +176,6 @@ nullptr
 mDecls
 =
 aDecls
--
->
-AsServo
-(
-)
 ;
 mDecls
 -
@@ -319,7 +305,7 @@ mRule
 ;
 RefPtr
 <
-ServoDeclarationBlock
+DeclarationBlock
 >
 mDecls
 ;

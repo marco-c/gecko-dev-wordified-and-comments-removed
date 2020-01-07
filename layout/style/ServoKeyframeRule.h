@@ -31,7 +31,7 @@ namespace
 mozilla
 {
 class
-ServoDeclarationBlock
+DeclarationBlock
 ;
 class
 ServoKeyframeDeclaration

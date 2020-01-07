@@ -449,11 +449,6 @@ DeclarationBlock
 h
 '
 '
-DeclarationBlockInlines
-.
-h
-'
-'
 DocumentStyleRootIterator
 .
 h
@@ -530,11 +525,6 @@ h
 '
 '
 ServoCSSRuleList
-.
-h
-'
-'
-ServoDeclarationBlock
 .
 h
 '
@@ -907,6 +897,11 @@ CSSSupportsRule
 cpp
 '
 '
+DeclarationBlock
+.
+cpp
+'
+'
 DocumentStyleRootIterator
 .
 cpp
@@ -1108,11 +1103,6 @@ cpp
 '
 '
 ServoCSSRuleList
-.
-cpp
-'
-'
-ServoDeclarationBlock
 .
 cpp
 '
