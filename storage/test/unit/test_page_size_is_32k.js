@@ -96,7 +96,9 @@ name
 var
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -153,9 +155,9 @@ shared32k
 ;
 check_size
 (
-getService
-(
-)
+Services
+.
+storage
 .
 openUnsharedDatabase
 (
