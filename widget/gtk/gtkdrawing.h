@@ -269,7 +269,7 @@ ToolbarButtonGTKMetrics
 #
 define
 TOOLBAR_BUTTONS
-4
+3
 typedef
 struct
 {
@@ -469,7 +469,7 @@ MOZ_GTK_HEADER_BAR_MAXIMIZED
 MOZ_GTK_HEADER_BAR_BUTTON_CLOSE
 MOZ_GTK_HEADER_BAR_BUTTON_MINIMIZE
 MOZ_GTK_HEADER_BAR_BUTTON_MAXIMIZE
-MOZ_GTK_HEADER_BAR_BUTTON_RESTORE
+MOZ_GTK_HEADER_BAR_BUTTON_MAXIMIZE_RESTORE
 MOZ_GTK_WIDGET_NODE_COUNT
 }
 WidgetNodeType
@@ -764,11 +764,14 @@ WidgetNodeType
 aWidgetType
 )
 ;
-bool
-IsToolbarButtonEnabled
+int
+GetGtkHeaderBarButtonLayout
 (
 WidgetNodeType
-aWidgetType
+*
+aButtonLayout
+int
+aMaxButtonNums
 )
 ;
 #
