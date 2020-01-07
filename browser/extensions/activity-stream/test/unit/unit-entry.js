@@ -506,6 +506,14 @@ function
 )
 {
 }
+LightweightThemeManager
+:
+{
+currentThemeForDisplay
+:
+{
+}
+}
 PlacesUtils
 :
 {

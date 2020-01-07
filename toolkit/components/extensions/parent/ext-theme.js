@@ -765,16 +765,6 @@ case
 popup_highlight_text
 "
 :
-case
-"
-ntp_background
-"
-:
-case
-"
-ntp_text
-"
-:
 this
 .
 lwtStyles
