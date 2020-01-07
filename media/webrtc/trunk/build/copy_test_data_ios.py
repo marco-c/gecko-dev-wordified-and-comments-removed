@@ -33,6 +33,39 @@ Exception
   
 pass
 def
+EscapePath
+(
+path
+)
+:
+  
+"
+"
+"
+Returns
+a
+path
+with
+spaces
+escaped
+.
+"
+"
+"
+  
+return
+path
+.
+replace
+(
+"
+"
+"
+\
+\
+"
+)
+def
 ListFilesForPath
 (
 path
@@ -64,6 +97,7 @@ output
 ]
   
 if
+(
 os
 .
 path
@@ -77,7 +111,27 @@ startswith
 (
 '
 .
+git
 '
+)
+or
+      
+os
+.
+path
+.
+basename
+(
+path
+)
+.
+startswith
+(
+'
+.
+svn
+'
+)
 )
 :
     
@@ -187,27 +241,13 @@ in
 inputs
 :
     
-tokens
-=
-input
-.
-split
-(
-)
-    
-for
-token
-in
-tokens
-:
-      
 output
 .
 extend
 (
 ListFilesForPath
 (
-token
+input
 )
 )
   
@@ -503,6 +543,22 @@ CalcInputs
 arglist
 )
   
+escaped_files
+=
+[
+EscapePath
+(
+x
+)
+for
+x
+in
+CalcInputs
+(
+arglist
+)
+]
+  
 if
 options
 .
@@ -517,7 +573,7 @@ n
 .
 join
 (
-files_to_copy
+escaped_files
 )
   
 if
@@ -561,7 +617,7 @@ x
 for
 x
 in
-files_to_copy
+escaped_files
 ]
     
 return
