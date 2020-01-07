@@ -156,7 +156,6 @@ Support
 The
 minimum
 supported
-*
 Rust
 version
 is
@@ -170,15 +169,3 @@ of
 associated
 constants
 .
-_
-*
-As
-of
-the
-current
-master
-branch
-(
-unreleased
-)
-_

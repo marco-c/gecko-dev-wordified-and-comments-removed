@@ -69,8 +69,8 @@ args
 :
 :
 {
-FlagBuilder
 AnyArg
+FlagBuilder
 }
 ;
 use
@@ -78,9 +78,9 @@ fmt
 :
 :
 {
+ColorWhen
 Colorizer
 ColorizerOption
-ColorWhen
 }
 ;
 use
@@ -608,7 +608,6 @@ n
 None
 =
 >
-{
 c
 .
 none
@@ -628,7 +627,6 @@ to_owned
 (
 )
 )
-}
 }
 usage
 c

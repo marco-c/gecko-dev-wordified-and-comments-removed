@@ -31,11 +31,11 @@ arg_builder
 :
 {
 Base
-Switched
-Valued
 FlagBuilder
 OptBuilder
 PosBuilder
+Switched
+Valued
 }
 ;
 pub
@@ -57,9 +57,9 @@ arg_matches
 :
 :
 {
-Values
-OsValues
 ArgMatches
+OsValues
+Values
 }
 ;
 pub

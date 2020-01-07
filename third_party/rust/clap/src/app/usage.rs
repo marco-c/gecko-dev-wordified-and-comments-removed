@@ -448,7 +448,6 @@ unwrap_or_else
 (
 |
 |
-{
 p
 .
 meta
@@ -468,7 +467,6 @@ meta
 .
 name
 )
-}
 )
 ;
 usage
@@ -555,7 +553,6 @@ new
 a
 s
 |
-{
 a
 +
 &
@@ -572,7 +569,6 @@ s
 .
 .
 ]
-}
 )
 }
 else
@@ -662,6 +658,7 @@ any
 |
 o
 |
+{
 !
 o
 .
@@ -684,6 +681,7 @@ ArgSettings
 :
 Hidden
 )
+}
 )
 {
 usage
@@ -790,10 +788,23 @@ Required
 &
 &
 !
+(
 p
 .
 has_visible_subcommands
 (
+)
+|
+|
+p
+.
+is_set
+(
+AS
+:
+:
+AllowExternalSubcommands
+)
 )
 &
 &
@@ -822,6 +833,7 @@ p
 &
 PosBuilder
 |
+{
 (
 !
 p
@@ -857,6 +869,7 @@ ArgSettings
 :
 Hidden
 )
+}
 ;
 if
 p
@@ -1128,6 +1141,17 @@ has_visible_subcommands
 &
 &
 incl_reqs
+|
+|
+p
+.
+is_set
+(
+AS
+:
+:
+AllowExternalSubcommands
+)
 {
 if
 p
@@ -1417,7 +1441,6 @@ new
 acc
 s
 |
-{
 acc
 +
 &
@@ -1434,7 +1457,6 @@ s
 .
 .
 ]
-}
 )
 ;
 usage
@@ -1456,7 +1478,6 @@ unwrap_or_else
 (
 |
 |
-{
 p
 .
 meta
@@ -1476,7 +1497,6 @@ meta
 .
 name
 )
-}
 )
 [
 .
@@ -2132,6 +2152,7 @@ idx
 pos
 )
 |
+{
 if
 pos
 .
@@ -2167,6 +2188,7 @@ idx
 else
 {
 None
+}
 }
 )
 .
@@ -2206,6 +2228,7 @@ idx
 pos
 )
 |
+{
 if
 idx
 <
@@ -2220,6 +2243,7 @@ pos
 else
 {
 None
+}
 }
 )
 .
@@ -3797,6 +3821,7 @@ filter
 |
 name
 |
+{
 !
 (
 matcher
@@ -3821,6 +3846,7 @@ contains
 name
 )
 )
+}
 )
 {
 debugln

@@ -229,6 +229,15 @@ cc
 shim
 (
 "
+c
++
++
+"
+)
+.
+shim
+(
+"
 ar
 "
 )
@@ -400,7 +409,7 @@ self
 gcc
 :
 :
-Config
+Build
 {
 let
 mut
@@ -409,7 +418,7 @@ cfg
 gcc
 :
 :
-Config
+Build
 :
 :
 new
