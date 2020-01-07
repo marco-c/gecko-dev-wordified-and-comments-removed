@@ -105,6 +105,11 @@ ignoreStrings
 :
 true
 "
+ignoreTemplateLiterals
+"
+:
+true
+"
 ignoreUrls
 "
 :
