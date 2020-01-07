@@ -351,11 +351,6 @@ WindowsDllBlocklist
 .
 h
 '
-'
-WindowsDllServices
-.
-h
-'
 ]
 if
 CONFIG
