@@ -2566,9 +2566,9 @@ if
 platform
 =
 =
-'
-darwin
-'
+"
+mac
+"
 else
 Keys
 .
