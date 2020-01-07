@@ -1137,6 +1137,8 @@ enable
 unsigned
 char
 id
+bool
+isLevelSsrc
 )
 {
 WEBRTC_TRACE
@@ -1314,6 +1316,7 @@ SetReceiveAudioLevelIndicationStatus
 (
 enable
 id
+isLevelSsrc
 )
 ;
 }

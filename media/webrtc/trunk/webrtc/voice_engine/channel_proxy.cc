@@ -310,6 +310,8 @@ bool
 enable
 int
 id
+bool
+isLevelSsrc
 )
 {
 RTC_DCHECK
@@ -333,6 +335,7 @@ SetReceiveAudioLevelIndicationStatus
 (
 enable
 id
+isLevelSsrc
 )
 ;
 RTC_DCHECK_EQ

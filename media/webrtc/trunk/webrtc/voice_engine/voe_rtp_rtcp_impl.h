@@ -172,6 +172,10 @@ enable
 unsigned
 char
 id
+bool
+isLevelSsrc
+=
+true
 )
 override
 ;
