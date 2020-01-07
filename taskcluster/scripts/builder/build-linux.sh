@@ -710,12 +710,6 @@ debug_flag
 \
 custom_build_variant_cfg_flag
 \
--
--
-disable
--
-mock
-\
 actions
 \
 options

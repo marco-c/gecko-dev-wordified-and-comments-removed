@@ -27,12 +27,6 @@ sources
 '
         
 '
-setup
--
-mock
-'
-        
-'
 build
 '
         

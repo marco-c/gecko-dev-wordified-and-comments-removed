@@ -161,12 +161,6 @@ sources
 '
                 
 '
-setup
--
-mock
-'
-                
-'
 build
 '
                 

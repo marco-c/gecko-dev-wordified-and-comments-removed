@@ -128,14 +128,6 @@ mozharness
 .
 mozilla
 .
-mock
-import
-MockMixin
-from
-mozharness
-.
-mozilla
-.
 secrets
 import
 SecretsMixin
@@ -147,16 +139,6 @@ mozilla
 signing
 import
 SigningMixin
-from
-mozharness
-.
-mozilla
-.
-mock
-import
-ERROR_MSGS
-as
-MOCK_ERROR_MSGS
 from
 mozharness
 .
@@ -334,12 +316,6 @@ run_tooltool
 .
 '
 }
-ERROR_MSGS
-.
-update
-(
-MOCK_ERROR_MSGS
-)
 TBPL_UPLOAD_ERRORS
 =
 [
@@ -5023,55 +4999,6 @@ change
 "
 }
 ]
-    
-[
-[
-"
--
--
-disable
--
-mock
-"
-]
-{
-        
-"
-dest
-"
-:
-"
-disable_mock
-"
-        
-"
-action
-"
-:
-"
-store_true
-"
-        
-"
-help
-"
-:
-"
-do
-not
-run
-under
-mock
-despite
-what
-gecko
--
-config
-says
-"
-    
-}
-]
 ]
 def
 generate_build_ID
@@ -5128,7 +5055,6 @@ BuildScript
 (
 BuildbotMixin
 PurgeMixin
-MockMixin
 BalrogMixin
                   
 SigningMixin
@@ -6245,7 +6171,7 @@ MOZ_OBJDIR
 return
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
 cmd
                 
@@ -8963,7 +8889,7 @@ cmd
         
 self
 .
-run_command_m
+run_command
 (
 cmd
 cwd
@@ -8977,7 +8903,7 @@ abs_src_dir
 halt_on_failure
 =
 True
-                           
+                         
 env
 =
 env
@@ -10307,7 +10233,7 @@ prop_val
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
                 
 base_cmd
@@ -12628,7 +12554,7 @@ return_code
 =
 self
 .
-run_command_m
+run_command
 (
             
 command
@@ -13043,7 +12969,7 @@ summary
         
 self
 .
-run_command_m
+run_command
 (
 cmd
 env
@@ -13056,7 +12982,7 @@ query_build_env
 cwd
 =
 base_work_dir
-                           
+                         
 halt_on_failure
 =
 True
@@ -13090,7 +13016,7 @@ package_filename
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
             
 package_cmd
@@ -13199,10 +13125,10 @@ multi
         
 self
 .
-run_command_m
+run_command
 (
 upload_cmd
-                           
+                         
 env
 =
 self
@@ -13213,14 +13139,14 @@ multiLocale
 =
 False
 )
-                           
+                         
 cwd
 =
 objdir
 halt_on_failure
 =
 True
-                           
+                         
 output_parser
 =
 parser
@@ -13280,7 +13206,7 @@ output
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
             
 upload_files_cmd
@@ -13454,7 +13380,7 @@ mach_command_args
         
 self
 .
-run_command_m
+run_command
 (
             
 command
@@ -13561,7 +13487,7 @@ query_abs_dirs
         
 self
 .
-run_command_m
+run_command
 (
             
 command
@@ -13612,7 +13538,7 @@ True
         
 self
 .
-run_command_m
+run_command
 (
             
 command
@@ -13817,7 +13743,7 @@ output
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
             
 command
@@ -14044,12 +13970,12 @@ return_code
 =
 self
 .
-run_command_m
+run_command
 (
 command
 =
 cmd
-                                         
+                                       
 cwd
 =
 dirs
@@ -14058,11 +13984,11 @@ dirs
 abs_src_dir
 '
 ]
-                                         
+                                       
 env
 =
 env
-                                         
+                                       
 output_parser
 =
 parser
@@ -16704,7 +16630,7 @@ return_code
 =
 self
 .
-run_command_m
+run_command
 (
             
 command
