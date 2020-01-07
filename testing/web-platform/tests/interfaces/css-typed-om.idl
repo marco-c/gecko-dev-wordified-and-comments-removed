@@ -61,7 +61,8 @@ LayoutWorklet
 interface
 StylePropertyMapReadOnly
 {
-iterable
+readonly
+maplike
 <
 DOMString
 sequence
@@ -124,10 +125,7 @@ DOMString
 property
 )
 ;
-readonly
-attribute
-long
-size
+stringifier
 ;
 }
 ;
