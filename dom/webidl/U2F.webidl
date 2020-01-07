@@ -213,6 +213,7 @@ interface
 GlobalU2F
 {
 [
+SecureContext
 Throws
 Pref
 =
@@ -391,6 +392,7 @@ response
 )
 ;
 [
+SecureContext
 Pref
 =
 "
