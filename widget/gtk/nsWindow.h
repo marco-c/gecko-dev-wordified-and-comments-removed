@@ -1849,12 +1849,6 @@ WidgetTypeSupportsAcceleration
 )
 override
 ;
-bool
-DoDrawTitlebar
-(
-)
-const
-;
 typedef
 enum
 {
@@ -1867,7 +1861,7 @@ CSDSupportLevel
 ;
 static
 CSDSupportLevel
-GetCSDSupportLevel
+GetSystemCSDSupportLevel
 (
 )
 ;
@@ -2216,11 +2210,11 @@ unsigned
 int
 mPendingConfigures
 ;
-bool
-mIsCSDAvailable
+CSDSupportLevel
+mCSDSupportLevel
 ;
 bool
-mIsCSDEnabled
+mDrawInTitlebar
 ;
 LayoutDeviceIntRegion
 mDraggableRegion
