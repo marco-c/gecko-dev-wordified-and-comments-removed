@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h
@@ -4203,7 +4196,7 @@ else
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 startNode
 ;

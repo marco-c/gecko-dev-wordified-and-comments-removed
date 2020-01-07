@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -268,7 +268,7 @@ RangeCount
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 selNode
 ;

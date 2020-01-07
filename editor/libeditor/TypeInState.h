@@ -67,7 +67,7 @@ class
 nsAtom
 ;
 class
-nsIDOMNode
+nsINode
 ;
 namespace
 mozilla
@@ -372,7 +372,7 @@ mRelativeFontSize
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mLastSelectionContainer
 ;

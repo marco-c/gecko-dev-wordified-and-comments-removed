@@ -1122,7 +1122,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 targetNode
 ;
@@ -1178,7 +1178,10 @@ else
 {
 targetNode
 =
+do_QueryInterface
+(
 aDestNode
+)
 ;
 targetOffset
 =

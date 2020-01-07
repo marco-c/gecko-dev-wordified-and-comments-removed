@@ -715,7 +715,7 @@ CheckBidiLevelForDeletion
 Selection
 *
 aSelection
-nsIDOMNode
+nsINode
 *
 aSelNode
 int32_t
