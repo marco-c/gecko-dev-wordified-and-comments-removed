@@ -5656,6 +5656,15 @@ nsAString
 aScope
 )
 ;
+void
+PropagateClearSiteDataReload
+(
+const
+nsACString
+&
+aOrigin
+)
+;
 already_AddRefed
 <
 mozilla
