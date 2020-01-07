@@ -10626,7 +10626,6 @@ createZeroed
 (
 cx
 descr
-1
 gc
 :
 :
