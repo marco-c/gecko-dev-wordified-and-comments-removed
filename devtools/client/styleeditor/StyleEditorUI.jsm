@@ -104,8 +104,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -2272,7 +2270,6 @@ _onError
 :
 function
 (
-event
 data
 )
 {
@@ -2488,7 +2485,6 @@ added
 function
 onAdd
 (
-event
 added
 )
 {
@@ -3616,7 +3612,6 @@ added
 function
 onAdd
 (
-e
 selected
 )
 {
@@ -3705,7 +3700,6 @@ added
 function
 onAdd
 (
-e
 selected
 )
 {

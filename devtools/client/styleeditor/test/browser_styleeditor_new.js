@@ -30,8 +30,8 @@ red
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -41,7 +41,7 @@ panel
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -50,7 +50,7 @@ TESTCASE_URI
 let
 editor
 =
-yield
+await
 createNew
 (
 ui
@@ -59,7 +59,7 @@ panel
 panelWindow
 )
 ;
-yield
+await
 testInitialState
 (
 editor
@@ -82,7 +82,7 @@ onPropertyChange
 editor
 )
 ;
-yield
+await
 typeInEditor
 (
 editor
@@ -91,7 +91,7 @@ panel
 panelWindow
 )
 ;
-yield
+await
 waitForPropertyChange
 ;
 testUpdated
@@ -138,10 +138,7 @@ editor
 -
 added
 "
-(
-ev
 editor
-)
 =
 >
 {
@@ -302,8 +299,8 @@ resolve
 )
 ;
 }
+async
 function
-*
 testInitialState
 (
 editor
@@ -422,7 +419,7 @@ rules
 let
 color
 =
-yield
+await
 getComputedStyleProperty
 (
 {
