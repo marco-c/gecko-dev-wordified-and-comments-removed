@@ -109,6 +109,12 @@ Pattern
 aPattern
 uint32_t
 aAppUnitsPerDevPixel
+const
+Matrix
+*
+aMat
+=
+nullptr
 )
 ;
 static
