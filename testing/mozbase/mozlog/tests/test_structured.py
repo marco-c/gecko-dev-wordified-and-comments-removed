@@ -61,6 +61,12 @@ handlers
     
 formatters
 )
+import
+six
+from
+six
+import
+unichr
 class
 TestHandler
 (
@@ -274,10 +280,11 @@ for
 key
 value
 in
-all_expected
+six
 .
 iteritems
 (
+all_expected
 )
 :
             
@@ -8990,10 +8997,11 @@ for
 key
 value
 in
-all_expected
+six
 .
 iteritems
 (
+all_expected
 )
 :
             

@@ -15,6 +15,8 @@ from
 mozlog
 import
 reader
+import
+six
 class
 StatusHandler
 (
@@ -78,7 +80,9 @@ test
 in
 (
 str
-unicode
+six
+.
+text_type
 )
 :
             
@@ -309,10 +313,11 @@ for
 run_info
 tests
 in
-statuses
+six
 .
 iteritems
 (
+statuses
 )
 :
             
@@ -320,10 +325,11 @@ for
 test
 subtests
 in
-tests
+six
 .
 iteritems
 (
+tests
 )
 :
                 
@@ -331,10 +337,11 @@ for
 name
 results
 in
-subtests
+six
 .
 iteritems
 (
+subtests
 )
 :
                     
@@ -420,10 +427,11 @@ for
 run_info
 tests
 in
-data
+six
 .
 iteritems
 (
+data
 )
 :
         
@@ -431,10 +439,11 @@ for
 test
 subtests
 in
-tests
+six
 .
 iteritems
 (
+tests
 )
 :
             
@@ -442,10 +451,11 @@ for
 name
 results
 in
-subtests
+six
 .
 iteritems
 (
+subtests
 )
 :
                 
@@ -453,10 +463,11 @@ for
 status
 number
 in
-results
+six
 .
 iteritems
 (
+results
 )
 :
                     
@@ -487,10 +498,11 @@ for
 run_info
 tests
 in
-data
+six
 .
 iteritems
 (
+data
 )
 :
         
@@ -599,10 +611,11 @@ for
 name
 results
 in
-subtests
+six
 .
 iteritems
 (
+subtests
 )
 :
             
@@ -651,10 +664,11 @@ for
 k
 v
 in
-results
+six
 .
 iteritems
 (
+results
 )
 )
 )

@@ -12,6 +12,8 @@ as
 formatlog
 import
 logmerge
+import
+six
 def
 get_parser
 (
@@ -103,10 +105,11 @@ parser_func
 main_func
 )
 in
-commands
+six
 .
 iteritems
 (
+commands
 )
 :
         

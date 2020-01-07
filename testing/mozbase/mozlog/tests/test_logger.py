@@ -24,6 +24,8 @@ mozlog
 unstructured
 as
 mozlog
+import
+six
 class
 ListHandler
 (
@@ -611,10 +613,9 @@ actual
 _time
 '
 ]
-(
-int
-long
-)
+six
+.
+integer_types
 )
 )
         

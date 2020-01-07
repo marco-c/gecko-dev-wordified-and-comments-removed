@@ -118,12 +118,15 @@ format
 "
 choices
 =
+list
+(
 commandline
 .
 log_formatters
 .
 keys
 (
+)
 )
                         
 help

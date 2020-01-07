@@ -17,6 +17,8 @@ from
 reader
 import
 LogHandler
+import
+six
 class
 SummaryHandler
 (
@@ -381,12 +383,13 @@ for
 suite
 data
 in
-self
-.
-summary
+six
 .
 iteritems
 (
+self
+.
+summary
 )
 :
             

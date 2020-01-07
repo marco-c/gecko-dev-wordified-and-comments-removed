@@ -41,6 +41,8 @@ logtypes
 import
 log_action
 convertor_registry
+import
+six
 "
 "
 "
@@ -1299,10 +1301,11 @@ for
 k
 v
 in
-raw_data
+six
 .
 iteritems
 (
+raw_data
 )
 :
             

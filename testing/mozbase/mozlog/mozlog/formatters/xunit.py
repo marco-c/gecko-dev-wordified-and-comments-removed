@@ -2,14 +2,14 @@ from
 __future__
 import
 absolute_import
-import
-types
 from
 xml
 .
 etree
 import
 ElementTree
+import
+six
 from
 .
 import
@@ -45,15 +45,14 @@ path
 "
     
 if
-type
+not
+isinstance
 (
 test_id
-)
-not
-in
-types
+six
 .
-StringTypes
+string_types
+)
 :
         
 raise
