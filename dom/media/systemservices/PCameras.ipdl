@@ -403,6 +403,15 @@ capability
 )
 ;
 async
+FocusOnSelectedSource
+(
+CaptureEngine
+engine
+int
+numdev
+)
+;
+async
 StopCapture
 (
 CaptureEngine
