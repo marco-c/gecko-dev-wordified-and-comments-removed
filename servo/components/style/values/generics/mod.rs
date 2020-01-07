@@ -117,10 +117,6 @@ image
 ;
 pub
 mod
-pointing
-;
-pub
-mod
 position
 ;
 pub
@@ -142,6 +138,10 @@ text
 pub
 mod
 transform
+;
+pub
+mod
+ui
 ;
 pub
 mod

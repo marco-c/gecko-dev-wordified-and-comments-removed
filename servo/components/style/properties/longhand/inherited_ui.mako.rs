@@ -25,7 +25,7 @@ data
 new_style_struct
 (
 "
-Pointing
+InheritedUI
 "
 inherited
 =
@@ -468,7 +468,7 @@ CaretColor
 generics
 :
 :
-pointing
+ui
 :
 :
 CaretColor
