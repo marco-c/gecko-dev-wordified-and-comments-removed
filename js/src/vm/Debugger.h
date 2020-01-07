@@ -5369,6 +5369,14 @@ HandleNativeObject
 debugger
 )
 ;
+void
+freeFrameIterData
+(
+FreeOp
+*
+fop
+)
+;
 static
 MOZ_MUST_USE
 bool
