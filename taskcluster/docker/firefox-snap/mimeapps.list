@@ -10,7 +10,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 excel
@@ -19,7 +19,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 msexcel
@@ -28,7 +28,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 msword
@@ -37,7 +37,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 ogg
@@ -46,7 +46,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 oxps
@@ -55,7 +55,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 pdf
@@ -64,7 +64,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 postscript
@@ -73,7 +73,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 rtf
@@ -82,7 +82,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 tab
@@ -95,7 +95,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -110,7 +110,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -125,7 +125,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -142,7 +142,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -155,7 +155,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -168,7 +168,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -181,7 +181,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -194,7 +194,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -209,7 +209,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -224,7 +224,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -241,7 +241,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -256,7 +256,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -273,7 +273,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -288,7 +288,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -303,7 +303,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -320,7 +320,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -337,7 +337,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -352,7 +352,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -367,7 +367,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -382,7 +382,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -399,7 +399,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -414,7 +414,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -431,7 +431,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -446,7 +446,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -463,7 +463,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -478,7 +478,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -495,7 +495,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -512,7 +512,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -529,7 +529,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -544,7 +544,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -561,7 +561,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -574,7 +574,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -587,7 +587,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -600,7 +600,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -613,7 +613,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -626,7 +626,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 mspowerpoint
@@ -635,7 +635,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -648,7 +648,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -659,7 +659,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 wordperfect
@@ -668,7 +668,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -685,7 +685,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -702,7 +702,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -719,7 +719,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -736,7 +736,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -753,7 +753,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -770,7 +770,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -787,7 +787,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 vnd
@@ -804,7 +804,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -815,7 +815,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -826,7 +826,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -839,7 +839,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -850,7 +850,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -861,7 +861,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -874,7 +874,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -885,7 +885,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -900,7 +900,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -911,7 +911,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -922,7 +922,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -933,7 +933,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -944,7 +944,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -955,7 +955,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -966,7 +966,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -979,7 +979,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -990,7 +990,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1001,7 +1001,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1016,7 +1016,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1027,7 +1027,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1040,7 +1040,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1051,7 +1051,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1062,7 +1062,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1073,7 +1073,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1084,7 +1084,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1097,7 +1097,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1110,7 +1110,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1121,7 +1121,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1132,7 +1132,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1143,7 +1143,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1154,7 +1154,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1165,7 +1165,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1176,7 +1176,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1187,7 +1187,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1198,7 +1198,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 xhtml
@@ -1209,7 +1209,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1220,7 +1220,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1233,7 +1233,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1248,7 +1248,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1259,7 +1259,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1270,7 +1270,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 xls
@@ -1279,7 +1279,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1290,7 +1290,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1301,7 +1301,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1312,7 +1312,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1325,7 +1325,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1336,7 +1336,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1347,7 +1347,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1358,7 +1358,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1369,7 +1369,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1380,7 +1380,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1391,7 +1391,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1404,7 +1404,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1415,7 +1415,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1426,7 +1426,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1437,7 +1437,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1450,7 +1450,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1461,7 +1461,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1472,7 +1472,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1483,7 +1483,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1494,7 +1494,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1505,7 +1505,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1516,7 +1516,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1529,7 +1529,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1540,7 +1540,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 x
@@ -1551,7 +1551,7 @@ xdg
 -
 open
 .
-html
+desktop
 application
 /
 zip
@@ -1560,7 +1560,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 3gpp
@@ -1569,7 +1569,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 ac3
@@ -1578,7 +1578,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 AMR
@@ -1587,7 +1587,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 AMR
@@ -1598,7 +1598,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 basic
@@ -1607,7 +1607,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 flac
@@ -1616,7 +1616,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 midi
@@ -1625,7 +1625,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 mp4
@@ -1634,7 +1634,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 mpeg
@@ -1643,7 +1643,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 mpegurl
@@ -1652,7 +1652,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 ogg
@@ -1661,7 +1661,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 prs
@@ -1672,7 +1672,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 vnd
@@ -1685,7 +1685,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1696,7 +1696,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1707,7 +1707,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1718,7 +1718,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1729,7 +1729,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1740,7 +1740,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1751,7 +1751,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1762,7 +1762,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1773,7 +1773,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1784,7 +1784,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1795,7 +1795,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1808,7 +1808,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1821,7 +1821,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1834,7 +1834,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1847,7 +1847,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1858,7 +1858,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1871,7 +1871,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1884,7 +1884,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1897,7 +1897,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1912,7 +1912,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1925,7 +1925,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1940,7 +1940,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1951,7 +1951,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1964,7 +1964,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1975,7 +1975,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1986,7 +1986,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -1997,7 +1997,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -2008,7 +2008,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -2019,7 +2019,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -2030,7 +2030,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -2041,7 +2041,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -2054,7 +2054,7 @@ xdg
 -
 open
 .
-html
+desktop
 audio
 /
 x
@@ -2065,7 +2065,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 bmp
@@ -2074,7 +2074,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 gif
@@ -2083,7 +2083,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 jpeg
@@ -2092,7 +2092,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 jpg
@@ -2101,7 +2101,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 pjpeg
@@ -2110,7 +2110,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 png
@@ -2119,7 +2119,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 svg
@@ -2130,7 +2130,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 tiff
@@ -2139,7 +2139,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 vnd
@@ -2150,7 +2150,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 vnd
@@ -2163,7 +2163,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2174,7 +2174,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2185,7 +2185,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2196,7 +2196,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2207,7 +2207,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2218,7 +2218,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2229,7 +2229,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2240,7 +2240,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2251,7 +2251,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2264,7 +2264,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2277,7 +2277,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2290,7 +2290,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2303,7 +2303,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2314,7 +2314,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2325,7 +2325,7 @@ xdg
 -
 open
 .
-html
+desktop
 image
 /
 x
@@ -2336,7 +2336,7 @@ xdg
 -
 open
 .
-html
+desktop
 inode
 /
 directory
@@ -2345,7 +2345,7 @@ xdg
 -
 open
 .
-html
+desktop
 misc
 /
 ultravox
@@ -2354,7 +2354,7 @@ xdg
 -
 open
 .
-html
+desktop
 multipart
 /
 x
@@ -2365,7 +2365,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 abiword
@@ -2374,7 +2374,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 calendar
@@ -2383,7 +2383,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 comma
@@ -2396,7 +2396,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 csv
@@ -2405,7 +2405,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 html
@@ -2414,7 +2414,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 plain
@@ -2423,7 +2423,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 richtext
@@ -2432,7 +2432,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 rtf
@@ -2441,7 +2441,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 spreadsheet
@@ -2450,7 +2450,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 tab
@@ -2463,7 +2463,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2478,7 +2478,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2492,7 +2492,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2506,7 +2506,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2517,7 +2517,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2528,7 +2528,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2539,7 +2539,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2550,7 +2550,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2561,7 +2561,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 mathml
@@ -2570,7 +2570,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2581,7 +2581,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 x
@@ -2592,7 +2592,7 @@ xdg
 -
 open
 .
-html
+desktop
 text
 /
 xml
@@ -2601,7 +2601,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 3gpp
@@ -2610,7 +2610,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 dv
@@ -2619,7 +2619,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 fli
@@ -2628,7 +2628,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 flv
@@ -2637,7 +2637,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 mp2t
@@ -2646,7 +2646,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 mp4
@@ -2655,7 +2655,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 mp4v
@@ -2666,7 +2666,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 mpeg
@@ -2675,7 +2675,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 msvideo
@@ -2684,7 +2684,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 ogg
@@ -2693,7 +2693,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 quicktime
@@ -2702,7 +2702,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 vivo
@@ -2711,7 +2711,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 vnd
@@ -2722,7 +2722,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 vnd
@@ -2735,7 +2735,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 vnd
@@ -2746,7 +2746,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 webm
@@ -2755,7 +2755,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2766,7 +2766,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2777,7 +2777,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2788,7 +2788,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2799,7 +2799,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2810,7 +2810,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2821,7 +2821,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2832,7 +2832,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2843,7 +2843,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2854,7 +2854,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2867,7 +2867,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2880,7 +2880,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2891,7 +2891,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2904,7 +2904,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2917,7 +2917,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2930,7 +2930,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2943,7 +2943,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2954,7 +2954,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2967,7 +2967,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2980,7 +2980,7 @@ xdg
 -
 open
 .
-html
+desktop
 video
 /
 x
@@ -2993,7 +2993,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3006,7 +3006,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3019,7 +3019,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3032,7 +3032,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3045,7 +3045,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3058,7 +3058,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3071,7 +3071,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3084,7 +3084,7 @@ xdg
 -
 open
 .
-html
+desktop
 x
 -
 content
@@ -3097,7 +3097,7 @@ xdg
 -
 open
 .
-html
+desktop
 zz
 -
 application
@@ -3112,4 +3112,4 @@ xdg
 -
 open
 .
-html
+desktop
