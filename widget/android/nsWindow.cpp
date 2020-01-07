@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+WheelHandlingHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentParent
@@ -2298,6 +2307,10 @@ origin
 aHScroll
 aVScroll
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 ScrollableLayerGuid

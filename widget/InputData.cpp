@@ -2998,6 +2998,8 @@ double
 aDeltaY
 bool
 aAllowToOverrideSystemScrollSpeed
+WheelDeltaAdjustmentStrategy
+aWheelDeltaAdjustmentStrategy
 )
 :
 InputData
@@ -3066,6 +3068,10 @@ false
 mAllowToOverrideSystemScrollSpeed
 (
 aAllowToOverrideSystemScrollSpeed
+)
+mWheelDeltaAdjustmentStrategy
+(
+aWheelDeltaAdjustmentStrategy
 )
 {
 }
@@ -3171,6 +3177,13 @@ mAllowToOverrideSystemScrollSpeed
 aWheelEvent
 .
 mAllowToOverrideSystemScrollSpeed
+)
+mWheelDeltaAdjustmentStrategy
+(
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 {
 mOrigin

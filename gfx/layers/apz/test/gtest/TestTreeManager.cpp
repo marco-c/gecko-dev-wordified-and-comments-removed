@@ -843,6 +843,10 @@ origin
 0
 10
 false
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 )
 ;
 uint64_t

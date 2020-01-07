@@ -612,6 +612,7 @@ eNone
 eHorizontalize
 eAutoDir
 eAutoDirWithRootHonour
+eSentinel
 }
 ;
 class

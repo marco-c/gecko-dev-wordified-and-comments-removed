@@ -724,6 +724,7 @@ mDeltaY
 wheelEvent
 .
 mAllowToOverrideSystemScrollSpeed
+strategy
 )
 ;
 EventStateManager
