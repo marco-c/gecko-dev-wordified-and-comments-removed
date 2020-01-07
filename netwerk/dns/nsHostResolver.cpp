@@ -2945,7 +2945,7 @@ node
 >
 next
 ;
-OnLookupComplete
+CompleteLookup
 (
 rec
 NS_ERROR_ABORT
@@ -4993,7 +4993,7 @@ result
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 result
@@ -5171,7 +5171,7 @@ rec
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 rec
@@ -6560,7 +6560,7 @@ LookupStatus
 nsHostResolver
 :
 :
-OnLookupComplete
+CompleteLookup
 (
 nsHostRecord
 *
@@ -7069,7 +7069,7 @@ next
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 rec
@@ -7249,7 +7249,7 @@ rec
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 recPtr
@@ -7862,7 +7862,7 @@ LOOKUP_RESOLVEAGAIN
 resolver
 -
 >
-OnLookupComplete
+CompleteLookup
 (
 rec
 status

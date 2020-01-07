@@ -473,7 +473,7 @@ public
 :
 virtual
 void
-OnLookupComplete
+OnResolveHostComplete
 (
 nsHostResolver
 *
@@ -751,7 +751,7 @@ LOOKUP_RESOLVEAGAIN
 }
 ;
 LookupStatus
-OnLookupComplete
+CompleteLookup
 (
 nsHostRecord
 *
