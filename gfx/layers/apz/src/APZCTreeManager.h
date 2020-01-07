@@ -107,7 +107,7 @@ include
 "
 mozilla
 /
-Mutex
+RecursiveMutex
 .
 h
 "
@@ -1197,7 +1197,7 @@ mutable
 mozilla
 :
 :
-Mutex
+RecursiveMutex
 mTreeLock
 ;
 RefPtr
