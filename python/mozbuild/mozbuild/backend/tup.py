@@ -5641,7 +5641,7 @@ for
 module
 (
 idls
-directories
+_
 )
 in
 sorted
@@ -5747,28 +5747,6 @@ conf
 for
 d
 in
-directories
-:
-                
-cmd
-.
-extend
-(
-[
-'
--
--
-input
--
-dir
-'
-d
-]
-)
-            
-for
-d
-in
 all_idl_directories
 :
                 
@@ -5865,6 +5843,30 @@ xpt
 module
 ]
             
+stems
+=
+sorted
+(
+mozpath
+.
+splitext
+(
+mozpath
+.
+basename
+(
+idl
+)
+)
+[
+0
+]
+for
+idl
+in
+idls
+)
+            
 outputs
 .
 extend
@@ -5889,10 +5891,7 @@ f
 for
 f
 in
-sorted
-(
-idls
-)
+stems
 ]
 )
             
@@ -5922,10 +5921,7 @@ f
 for
 f
 in
-sorted
-(
-idls
-)
+stems
 ]
 )
             
@@ -5955,10 +5951,7 @@ f
 for
 f
 in
-sorted
-(
-idls
-)
+stems
 ]
 )
             

@@ -385,7 +385,7 @@ add
 entry
 [
 '
-root
+source
 '
 ]
 )
