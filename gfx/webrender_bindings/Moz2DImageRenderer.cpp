@@ -438,6 +438,11 @@ font
 }
 sFontDeleteLog
 ;
+extern
+"
+C
+"
+{
 void
 ClearBlobImageResources
 (
@@ -533,11 +538,6 @@ i
 }
 }
 }
-extern
-"
-C
-"
-{
 void
 AddFontData
 (
