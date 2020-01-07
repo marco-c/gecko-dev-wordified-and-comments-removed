@@ -3238,13 +3238,8 @@ Scope
 )
 mRegistration
 (
-ServiceWorkerRegistration
-:
-:
-CreateForWorker
+GetOrCreateServiceWorkerRegistration
 (
-aWorkerPrivate
-this
 aRegistrationDescriptor
 )
 )
