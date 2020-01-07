@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h
