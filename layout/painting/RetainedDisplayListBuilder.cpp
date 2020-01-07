@@ -4329,7 +4329,7 @@ aBackstop
 {
 mBuilder
 .
-RemoveModifiedWindowDraggingRegion
+RemoveModifiedWindowRegions
 (
 )
 ;
