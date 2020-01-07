@@ -70,6 +70,14 @@ get_phase
 from
 taskgraph
 .
+util
+.
+taskcluster
+import
+get_artifact_prefix
+from
+taskgraph
+.
 transforms
 .
 beetmover
@@ -734,6 +742,7 @@ task
 def
 generate_upstream_artifacts
 (
+job
 signing_task_ref
 build_task_ref
 )
@@ -749,11 +758,10 @@ CHECKSUMS_SIGNING_ARTIFACTS
     
 artifact_prefix
 =
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+job
+)
     
 upstream_artifacts
 =
@@ -1064,6 +1072,7 @@ artifacts
 generate_upstream_artifacts
 (
                 
+job
 signing_task_ref
 build_task_ref
             
