@@ -37,7 +37,8 @@ TIMED_OUT
 }
 ;
 virtual
-guchar
+const
+char
 *
 WaitForClipboardContext
 (
