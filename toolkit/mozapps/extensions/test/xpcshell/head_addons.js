@@ -849,11 +849,6 @@ test_syncGUID
 js
 "
 "
-test_targetPlatforms
-.
-js
-"
-"
 test_updateCancel
 .
 js
