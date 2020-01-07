@@ -771,6 +771,9 @@ self
 root
 =
 None
+log_error
+=
+True
 )
 :
         
@@ -796,6 +799,9 @@ show
 -
 toplevel
 "
+log_error
+=
+log_error
 )
 .
 strip
@@ -820,6 +826,9 @@ git
 self
 .
 root
+log_error
+=
+log_error
 )
         
 self

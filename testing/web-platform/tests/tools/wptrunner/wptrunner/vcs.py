@@ -197,6 +197,9 @@ bind_to_repo
 (
 vcs_func
 repo
+log_error
+=
+True
 )
 :
     
@@ -207,11 +210,17 @@ vcs_func
 repo
 =
 repo
+log_error
+=
+log_error
 )
 def
 is_git_root
 (
 path
+log_error
+=
+True
 )
 :
     
@@ -237,6 +246,9 @@ cdup
 repo
 =
 path
+log_error
+=
+log_error
 )
     
 except

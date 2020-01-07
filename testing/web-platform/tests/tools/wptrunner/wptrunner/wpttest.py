@@ -517,6 +517,9 @@ rev
 =
 GitTree
 (
+log_error
+=
+False
 )
 .
 rev
