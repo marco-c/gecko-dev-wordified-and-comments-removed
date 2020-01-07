@@ -13,6 +13,8 @@ mozprofile
 import
 (
     
+BaseProfile
+    
 Profile
     
 FirefoxProfile
@@ -195,7 +197,7 @@ assert
 isinstance
 (
 profile
-Profile
+BaseProfile
 )
     
 assert
