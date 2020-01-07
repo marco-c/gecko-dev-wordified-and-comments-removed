@@ -510,8 +510,8 @@ const
 {
 return
 mBaseVal
-/
-GetUnitScaleFactor
+*
+GetPixelsPerUnit
 (
 aSVGElement
 mSpecifiedUnitType
@@ -529,8 +529,8 @@ const
 {
 return
 mAnimVal
-/
-GetUnitScaleFactor
+*
+GetPixelsPerUnit
 (
 aSVGElement
 mSpecifiedUnitType
@@ -548,8 +548,8 @@ const
 {
 return
 mAnimVal
-/
-GetUnitScaleFactor
+*
+GetPixelsPerUnit
 (
 aFrame
 mSpecifiedUnitType
@@ -567,8 +567,8 @@ const
 {
 return
 mAnimVal
-/
-GetUnitScaleFactor
+*
+GetPixelsPerUnit
 (
 aCtx
 mSpecifiedUnitType
@@ -587,8 +587,8 @@ const
 {
 return
 mAnimVal
-/
-GetUnitScaleFactor
+*
+GetPixelsPerUnit
 (
 aMetrics
 mSpecifiedUnitType
@@ -662,8 +662,8 @@ const
 {
 return
 mBaseVal
-/
-GetUnitScaleFactor
+*
+GetPixelsPerUnit
 (
 aCtx
 mSpecifiedUnitType
@@ -752,7 +752,7 @@ mIsBaseSet
 1
 ;
 float
-GetUnitScaleFactor
+GetPixelsPerUnit
 (
 nsIFrame
 *
@@ -763,7 +763,7 @@ aUnitType
 const
 ;
 float
-GetUnitScaleFactor
+GetPixelsPerUnit
 (
 const
 UserSpaceMetrics
@@ -775,7 +775,7 @@ aUnitType
 const
 ;
 float
-GetUnitScaleFactor
+GetPixelsPerUnit
 (
 nsSVGElement
 *
@@ -786,7 +786,7 @@ aUnitType
 const
 ;
 float
-GetUnitScaleFactor
+GetPixelsPerUnit
 (
 SVGViewportElement
 *
@@ -796,7 +796,7 @@ aUnitType
 )
 const
 ;
-void
+nsresult
 SetBaseValue
 (
 float
@@ -820,7 +820,7 @@ bool
 aDoSetAttr
 )
 ;
-void
+nsresult
 SetAnimValue
 (
 float
