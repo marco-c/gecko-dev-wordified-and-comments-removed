@@ -98,6 +98,17 @@ jsmin
 .
 0
 "
+python
+-
+hglib
+=
+"
+=
+=
+2
+.
+4
+"
 [
 requires
 ]
