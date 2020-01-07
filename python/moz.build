@@ -318,6 +318,15 @@ python
 ini
 '
 '
+mozterm
+/
+test
+/
+python
+.
+ini
+'
+'
 mozversioncontrol
 /
 test

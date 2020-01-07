@@ -68,6 +68,10 @@ mozlint
 -
 python
 /
+mozterm
+-
+python
+/
 mozversioncontrol
 -
 security
