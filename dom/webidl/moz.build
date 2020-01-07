@@ -2051,11 +2051,9 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
-"
-"
 WebExtensions
-:
+"
+"
 Request
 Handling
 "

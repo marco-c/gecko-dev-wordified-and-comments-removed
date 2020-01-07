@@ -565,11 +565,9 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
-"
-"
 WebExtensions
-:
+"
+"
 General
 "
 )
@@ -865,11 +863,9 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
-"
-"
 WebExtensions
-:
+"
+"
 Themes
 "
 )

@@ -845,11 +845,9 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
-"
-"
 WebExtensions
-:
+"
+"
 Untriaged
 "
 )
@@ -1296,11 +1294,9 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
-"
-"
 WebExtensions
-:
+"
+"
 Frontend
 "
 )
