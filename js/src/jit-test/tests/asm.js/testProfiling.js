@@ -274,7 +274,7 @@ replace
 (
 /
 fast
-FFI
+exit
 trampoline
 to
 native
@@ -329,7 +329,7 @@ fast
 |
 slow
 )
-FFI
+exit
 trampoline
 /
 g
@@ -345,7 +345,11 @@ frame
 replace
 (
 /
+(
+fast
+|
 slow
+)
 entry
 trampoline
 /
