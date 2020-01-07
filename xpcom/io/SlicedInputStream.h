@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -112,6 +121,10 @@ aInputStream
 nsresult
 RunAsyncWaitCallback
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 nsCOMPtr
@@ -165,6 +178,9 @@ mAsyncWaitFlags
 ;
 uint32_t
 mAsyncWaitRequestedCount
+;
+Mutex
+mMutex
 ;
 }
 ;
