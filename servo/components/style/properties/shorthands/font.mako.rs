@@ -2021,6 +2021,11 @@ font
 -
 variant
 "
+flags
+=
+"
+SHORTHAND_IN_GETCS
+"
 sub_properties
 =
 "

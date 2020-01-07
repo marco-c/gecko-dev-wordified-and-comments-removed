@@ -441,6 +441,14 @@ endif
 "
 )
     
+COMPILE_TIME_FLAGS
+=
+{
+"
+ExposedOnGetCS
+"
+}
+    
 MACRO_NAMES
 =
 {
@@ -590,12 +598,6 @@ method
 ]
 )
             
-if
-prop
-.
-flags
-:
-                
 flags
 =
 "
@@ -616,16 +618,24 @@ format
 (
 flag
 )
-                                   
+                               
 for
 flag
 in
 prop
 .
 flags
+                               
+if
+flag
+not
+in
+COMPILE_TIME_FLAGS
 )
             
-else
+if
+not
+flags
 :
                 
 flags

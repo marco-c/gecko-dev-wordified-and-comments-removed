@@ -38,6 +38,11 @@ extra_prefixes
 "
 webkit
 "
+flags
+=
+"
+SHORTHAND_IN_GETCS
+"
 sub_properties
 =
 "
@@ -1467,6 +1472,11 @@ extra_prefixes
 =
 "
 webkit
+"
+flags
+=
+"
+SHORTHAND_IN_GETCS
 "
 sub_properties
 =
