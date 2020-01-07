@@ -3077,11 +3077,6 @@ mShouldUnsuppressPainting
 1
 ;
 bool
-mResizeEventPending
-:
-1
-;
-bool
 mApproximateFrameVisibilityVisited
 :
 1
