@@ -2834,6 +2834,16 @@ map
 public
 static
 native
+boolean
+verifyCRCs
+(
+String
+apkName
+)
+;
+public
+static
+native
 void
 nativeRun
 (

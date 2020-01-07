@@ -910,6 +910,12 @@ return
 name
 ;
 }
+bool
+VerifyCRCs
+(
+)
+const
+;
 private
 :
 char
