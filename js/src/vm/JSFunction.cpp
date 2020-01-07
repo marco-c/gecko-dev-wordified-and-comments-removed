@@ -8394,7 +8394,9 @@ MOZ_ASSERT
 realm
 -
 >
-isSelfHosting
+isSelfHostingRealm
+(
+)
 )
 ;
 if
@@ -11435,12 +11437,14 @@ MOZ_ASSERT
 fun
 -
 >
-compartment
+realm
 (
 )
 -
 >
-isSelfHosting
+isSelfHostingRealm
+(
+)
 )
 ;
 MOZ_ASSERT
