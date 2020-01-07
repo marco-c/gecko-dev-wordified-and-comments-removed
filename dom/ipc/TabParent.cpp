@@ -1053,7 +1053,7 @@ mPreserveLayers
 (
 false
 )
-mRenderLayers
+mRenderingLayers
 (
 false
 )
@@ -14082,7 +14082,7 @@ if
 aEnabled
 =
 =
-mRenderLayers
+mRenderingLayers
 )
 {
 return
@@ -14102,7 +14102,7 @@ return
 NS_OK
 ;
 }
-mRenderLayers
+mRenderingLayers
 =
 aEnabled
 ;
