@@ -703,6 +703,10 @@ RequestHeaderTuples
 &
 changedHeaders
 const
+ChildLoadInfoForwarderArgs
+&
+aLoadInfoForwarder
+const
 uint32_t
 &
 loadFlags

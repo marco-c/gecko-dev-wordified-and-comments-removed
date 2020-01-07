@@ -361,6 +361,8 @@ nsresult
 result
 RequestHeaderTuples
 changedHeaders
+ChildLoadInfoForwarderArgs
+loadInfoForwarder
 uint32_t
 loadFlags
 uint32_t
