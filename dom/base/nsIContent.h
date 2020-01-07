@@ -603,6 +603,7 @@ IsInHTMLDocument
 )
 const
 ;
+inline
 bool
 IsInChromeDocument
 (
