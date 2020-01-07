@@ -944,6 +944,13 @@ _backend_output_files
 else
 :
             
+if
+not
+self
+.
+dry_run
+:
+                
 with
 open
 (
@@ -953,7 +960,7 @@ a
 '
 )
 :
-                
+                    
 os
 .
 utime
