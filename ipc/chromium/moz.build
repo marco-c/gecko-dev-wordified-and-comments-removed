@@ -514,15 +514,6 @@ src
 /
 base
 /
-file_descriptor_shuffle
-.
-cc
-'
-'
-src
-/
-base
-/
 file_util_posix
 .
 cc
