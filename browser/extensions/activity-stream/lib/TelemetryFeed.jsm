@@ -239,7 +239,9 @@ showSearch
 <
 0
 "
-showTopSites
+feeds
+.
+topsites
 "
 :
 1

@@ -2393,8 +2393,13 @@ getState
 Prefs
 .
 values
+[
+"
+feeds
 .
-showTopSites
+topsites
+"
+]
 )
 {
 sections

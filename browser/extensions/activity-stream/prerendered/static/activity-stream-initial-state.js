@@ -73,7 +73,9 @@ migrationExpired
 :
 true
 "
-showTopSites
+feeds
+.
+topsites
 "
 :
 true

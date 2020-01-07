@@ -123,7 +123,9 @@ activity
 -
 stream
 .
-showTopSites
+feeds
+.
+topsites
 "
 false
 ]

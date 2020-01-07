@@ -339,7 +339,9 @@ migrationExpired
 :
 true
 "
-showTopSites
+feeds
+.
+topsites
 "
 :
 true
@@ -395,7 +397,9 @@ validation
 :
 [
 "
-showTopSites
+feeds
+.
+topsites
 "
 "
 showSearch
