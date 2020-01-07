@@ -7,6 +7,12 @@ os
 from
 mozbuild
 .
+base
+import
+MozbuildObject
+from
+mozbuild
+.
 frontend
 .
 reader
@@ -36,8 +42,53 @@ import
 sphinx
 .
 apidoc
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
+build
+=
+MozbuildObject
+.
+from_environment
+(
+cwd
+=
+here
+)
+MAIN_DOC_PATH
+=
+os
+.
+path
+.
+join
+(
+build
+.
+topsrcdir
+'
+tools
+'
+'
+docs
+'
+)
 class
-SphinxManager
+_SphinxManager
 (
 object
 )
@@ -66,41 +117,18 @@ __init__
 self
 topsrcdir
 main_path
-output_dir
 )
 :
         
 self
 .
-_topsrcdir
+topsrcdir
 =
 topsrcdir
         
 self
 .
-_output_dir
-=
-output_dir
-        
-self
-.
-_docs_dir
-=
-os
-.
-path
-.
-join
-(
-output_dir
-'
-_staging
-'
-)
-        
-self
-.
-_conf_py_path
+conf_py_path
 =
 os
 .
@@ -118,7 +146,7 @@ py
         
 self
 .
-_index_path
+index_path
 =
 os
 .
@@ -148,6 +176,12 @@ _python_package_dirs
 set
 (
 )
+        
+self
+.
+staging_dir
+=
+None
     
 def
 read_build_config
@@ -202,7 +236,7 @@ fakeconfig
 (
 self
 .
-_topsrcdir
+topsrcdir
 )
         
 reader
@@ -448,6 +482,24 @@ documentation
 "
 "
         
+self
+.
+staging_dir
+=
+os
+.
+path
+.
+join
+(
+app
+.
+outdir
+'
+_staging
+'
+)
+        
 app
 .
 info
@@ -533,7 +585,7 @@ join
 (
 self
 .
-_docs_dir
+staging_dir
 '
 python
 '
@@ -580,7 +632,7 @@ join
 (
 self
 .
-_topsrcdir
+topsrcdir
 p
 )
             
@@ -687,7 +739,7 @@ add_link
 (
 self
 .
-_conf_py_path
+conf_py_path
 '
 conf
 .
@@ -721,7 +773,7 @@ join
 (
 self
 .
-_topsrcdir
+topsrcdir
 source
 )
             
@@ -804,7 +856,7 @@ copy
 (
 self
 .
-_docs_dir
+staging_dir
 )
         
 with
@@ -812,7 +864,7 @@ open
 (
 self
 .
-_index_path
+index_path
 '
 rb
 '
@@ -943,7 +995,7 @@ join
 (
 self
 .
-_docs_dir
+staging_dir
 '
 index
 .
@@ -963,4 +1015,13 @@ fh
 write
 (
 data
+)
+manager
+=
+_SphinxManager
+(
+build
+.
+topsrcdir
+MAIN_DOC_PATH
 )
