@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-flexbox
-.
-js
-'
-'
 index
 .
 js

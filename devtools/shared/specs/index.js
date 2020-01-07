@@ -622,9 +622,6 @@ types
 :
 [
 "
-flexbox
-"
-"
 grid
 "
 "

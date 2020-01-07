@@ -5,14 +5,14 @@ strict
 ;
 exports
 .
-flexbox
+flexboxes
 =
 require
 (
 "
 .
 /
-flexbox
+flexboxes
 "
 )
 ;
