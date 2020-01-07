@@ -1100,7 +1100,7 @@ maxResolutionMs
 =
 0
 .
-005
+020
 ;
 return
 nsRFPService
