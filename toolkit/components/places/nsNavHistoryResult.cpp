@@ -12736,7 +12736,6 @@ bookmarks
 QueryFolderChildren
 (
 mTargetFolderItemId
-mOriginalOptions
 mOptions
 &
 mChildren
@@ -12986,7 +12985,6 @@ bmSvc
 QueryFolderChildrenAsync
 (
 this
-mTargetFolderItemId
 getter_AddRefs
 (
 mAsyncPendingStmt
@@ -13084,7 +13082,6 @@ bmSvc
 ProcessFolderNodeRow
 (
 row
-mOriginalOptions
 mOptions
 &
 mChildren
@@ -14088,7 +14085,10 @@ bookmarks
 ResultNodeForContainer
 (
 aItemId
-mOptions
+new
+nsNavHistoryQueryOptions
+(
+)
 getter_AddRefs
 (
 node
