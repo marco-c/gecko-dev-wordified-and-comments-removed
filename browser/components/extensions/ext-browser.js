@@ -665,17 +665,6 @@ ownerGlobal
 .
 gBrowser
 ;
-if
-(
-browser
-=
-=
-=
-gBrowser
-.
-selectedBrowser
-)
-{
 let
 tab
 =
@@ -713,7 +702,6 @@ tab
 fromBrowse
 )
 ;
-}
 }
 shutdown
 (
