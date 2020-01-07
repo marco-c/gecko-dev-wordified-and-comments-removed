@@ -8758,7 +8758,7 @@ win32k
 -
 disable
 "
-true
+false
 )
 ;
 #
