@@ -2046,6 +2046,8 @@ bug_numbers
 :
 -
 1369911
+-
+1445961
 description
 :
 >
@@ -2073,7 +2075,7 @@ browser
 expires
 :
 "
-62
+69
 "
 kind
 :
@@ -2087,6 +2089,11 @@ notification_emails
 seceng
 -
 telemetry
+mozilla
+.
+com
+-
+dkeeler
 mozilla
 .
 com
