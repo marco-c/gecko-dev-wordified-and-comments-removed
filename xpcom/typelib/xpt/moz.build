@@ -109,6 +109,17 @@ xpt_arena
 cpp
 '
 ]
+SOURCES
++
+=
+[
+'
+!
+XPTInfo
+.
+cpp
+'
+]
 EXPORTS
 +
 =
