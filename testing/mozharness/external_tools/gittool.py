@@ -1312,19 +1312,6 @@ GIT_BRANCH
 None
 )
         
-propsfile
-=
-os
-.
-environ
-.
-get
-(
-'
-PROPERTIES_FILE
-'
-)
-        
 loglevel
 =
 logging
