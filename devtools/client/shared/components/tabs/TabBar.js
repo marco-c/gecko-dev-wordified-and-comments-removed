@@ -1111,8 +1111,11 @@ activeTab
 :
 index
 }
+(
 )
-;
+=
+>
+{
 if
 (
 this
@@ -1141,6 +1144,9 @@ id
 )
 ;
 }
+}
+)
+;
 }
 onAllTabsMenuClick
 (
