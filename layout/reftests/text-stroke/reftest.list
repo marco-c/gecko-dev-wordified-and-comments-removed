@@ -109,6 +109,10 @@ if
 skiaContent
 &
 &
+!
+webrender
+&
+&
 (
 gtkWidget
 |
