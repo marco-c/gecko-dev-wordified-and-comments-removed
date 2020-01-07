@@ -4464,9 +4464,12 @@ IsEmpty
 statRetval
 &
 &
+uint32_t
+(
 s
 .
 st_mtime
+)
 =
 =
 timestamp
