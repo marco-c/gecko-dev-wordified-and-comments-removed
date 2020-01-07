@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -1172,7 +1165,6 @@ aResizable
 )
 const
 ;
-NS_DECL_NSIDOMEVENTTARGET
 virtual
 mozilla
 :
@@ -1876,7 +1868,13 @@ WindowStateHolder
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsGlobalWindowInner
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 )
 #
 ifdef

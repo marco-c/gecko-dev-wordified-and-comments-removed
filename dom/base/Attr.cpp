@@ -433,7 +433,6 @@ Attr
 nsINode
 nsIAttribute
 nsIDOMNode
-nsIDOMEventTarget
 EventTarget
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE_CYCLE_COLLECTION

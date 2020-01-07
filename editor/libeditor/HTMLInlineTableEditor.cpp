@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIHTMLObjectResizer
 .
 h

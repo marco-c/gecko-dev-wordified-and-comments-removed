@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h
@@ -88,7 +81,6 @@ aWindow
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMEVENTTARGET
 virtual
 mozilla
 :
@@ -336,10 +328,9 @@ aGivenProto
 )
 override
 ;
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsWindowRoot
-nsIDOMEventTarget
 )
 virtual
 void

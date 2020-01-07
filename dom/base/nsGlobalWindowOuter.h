@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -1030,7 +1023,6 @@ nsPIDOMWindowOuter
 _retval
 )
 ;
-NS_DECL_NSIDOMEVENTTARGET
 virtual
 mozilla
 :
@@ -1684,7 +1676,13 @@ WindowStateHolder
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsGlobalWindowOuter
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 )
 virtual
 bool

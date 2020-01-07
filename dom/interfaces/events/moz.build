@@ -120,11 +120,6 @@ nsIDOMEventListener
 .
 idl
 '
-'
-nsIDOMEventTarget
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

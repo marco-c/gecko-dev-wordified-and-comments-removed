@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

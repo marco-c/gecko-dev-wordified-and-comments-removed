@@ -2722,7 +2722,6 @@ GetRootNodeOptions
 aOptions
 )
 ;
-NS_DECL_NSIDOMEVENTTARGET
 virtual
 mozilla
 :

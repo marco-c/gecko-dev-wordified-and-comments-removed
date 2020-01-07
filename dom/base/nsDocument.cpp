@@ -8110,11 +8110,6 @@ nsIScriptObjectPrincipal
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsIDOMEventTarget
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 mozilla
 :
 :
