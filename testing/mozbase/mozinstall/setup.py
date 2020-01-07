@@ -31,7 +31,7 @@ __file__
     
 description
 =
-file
+open
 (
 os
 .
@@ -244,10 +244,7 @@ Language
 Python
 :
 :
-2
-:
-:
-Only
+3
 '
 ]
       
