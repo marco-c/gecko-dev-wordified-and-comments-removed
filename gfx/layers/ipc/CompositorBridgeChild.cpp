@@ -218,6 +218,17 @@ include
 "
 mozilla
 /
+layers
+/
+SyncObject
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 gfxVars

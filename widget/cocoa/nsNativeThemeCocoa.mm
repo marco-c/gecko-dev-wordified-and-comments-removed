@@ -319,6 +319,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+StackingContextHelper
+.
+h
+"
+#
+include
+"
 nsLookAndFeel
 .
 h
