@@ -346,8 +346,7 @@ strict
                          
 "
 -
--
-verbose
+vv
 "
                          
 "
