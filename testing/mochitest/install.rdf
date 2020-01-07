@@ -104,9 +104,6 @@ em
 :
 version
 >
-#
-ifdef
-MOCHITEST_BOOTSTRAP
 <
 em
 :
@@ -119,8 +116,6 @@ em
 :
 bootstrap
 >
-#
-endif
 <
 em
 :
