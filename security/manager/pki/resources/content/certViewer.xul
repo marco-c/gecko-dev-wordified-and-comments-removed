@@ -283,7 +283,7 @@ pippki
 /
 content
 /
-certViewer
+pippki
 .
 js
 "
@@ -309,7 +309,7 @@ pippki
 /
 content
 /
-pippki
+certViewer
 .
 js
 "
