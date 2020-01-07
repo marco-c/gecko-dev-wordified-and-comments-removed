@@ -87,6 +87,12 @@ bump
 -
 files
 '
+        
+'
+worker
+-
+type
+'
     
 ]
     
