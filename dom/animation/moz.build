@@ -301,6 +301,11 @@ AnimationEffectTimingReadOnly
 cpp
 '
 '
+AnimationEventDispatcher
+.
+cpp
+'
+'
 AnimationPerformanceWarning
 .
 cpp
