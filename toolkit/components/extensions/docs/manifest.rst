@@ -425,8 +425,11 @@ block
 :
 :
 js
-class
+this
+.
 myapi
+=
+class
 extends
 ExtensionAPI
 {
