@@ -253,6 +253,16 @@ effectTiming
 true
 )
 ;
+if
+(
+!
+simulatedAnimation
+)
+{
+return
+null
+;
+}
 const
 simulatedElement
 =
