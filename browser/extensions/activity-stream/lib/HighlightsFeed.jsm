@@ -309,7 +309,8 @@ SECTION_ID
 highlights
 "
 ;
-var
+this
+.
 HighlightsFeed
 =
 class
@@ -1214,7 +1215,7 @@ break
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -2233,7 +2233,7 @@ SectionsManager
 =
 SectionsManager
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

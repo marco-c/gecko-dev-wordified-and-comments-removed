@@ -198,7 +198,8 @@ TIPPYTOP_RETRY_DELAY
 =
 FIVE_MINUTES
 ;
-var
+this
+.
 FaviconFeed
 =
 class
@@ -953,7 +954,7 @@ break
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -206,7 +206,7 @@ true
 )
 ;
 }
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -23,7 +23,8 @@ EXPIRATION_TIME
 *
 1000
 ;
-var
+this
+.
 LinksCache
 =
 class

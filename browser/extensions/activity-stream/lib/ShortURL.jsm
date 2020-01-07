@@ -248,7 +248,7 @@ parsed
 href
 ;
 }
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -277,7 +277,8 @@ startTime
 }
 }
 ;
-var
+this
+.
 perfService
 =
 new
@@ -285,7 +286,7 @@ _PerfService
 (
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

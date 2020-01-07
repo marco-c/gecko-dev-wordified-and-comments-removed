@@ -1449,7 +1449,8 @@ PingCentre
 =
 PingCentre
 ;
-var
+this
+.
 PingCentreConstants
 =
 {
@@ -1459,7 +1460,7 @@ TELEMETRY_PREF
 LOGGING_PREF
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

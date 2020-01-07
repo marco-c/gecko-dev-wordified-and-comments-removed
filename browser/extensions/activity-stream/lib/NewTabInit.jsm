@@ -36,7 +36,8 @@ jsm
 }
 )
 ;
-var
+this
+.
 NewTabInit
 =
 class
@@ -220,7 +221,7 @@ break
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
