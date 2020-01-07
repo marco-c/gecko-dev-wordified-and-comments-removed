@@ -28,14 +28,7 @@ clients
 length
 )
 {
-reject
-(
-"
-No
-clients
-found
-"
-)
+return
 ;
 }
 if
