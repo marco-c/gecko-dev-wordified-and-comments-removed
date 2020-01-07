@@ -294,8 +294,6 @@ conftest
 {
 ac_exeext
 }
-CFLAGS
-CPPFLAGS
 LDFLAGS
 conftest
 .
@@ -388,8 +386,6 @@ conftest
 {
 ac_exeext
 }
-CFLAGS
-CPPFLAGS
 LDFLAGS
 [
 -
@@ -434,8 +430,6 @@ conftest
 {
 ac_exeext
 }
-CFLAGS
-CPPFLAGS
 LDFLAGS
 conftest
 .
