@@ -11777,6 +11777,8 @@ bool
 ignoresReturnValue
 bool
 isDOMCall
+DOMObjectKind
+objectKind
 )
 {
 WrappedFunction
@@ -11829,6 +11831,7 @@ MCallDOMNative
 (
 wrappedTarget
 numActualArgs
+objectKind
 )
 ;
 }
