@@ -10522,6 +10522,10 @@ rect
 style
 )
 ;
+#
+define
+TITLEBAR_EXTENT
+4
 gtk_render_background
 (
 style
@@ -10542,6 +10546,8 @@ rect
 -
 >
 height
++
+TITLEBAR_EXTENT
 )
 ;
 gtk_render_frame
@@ -10564,6 +10570,8 @@ rect
 -
 >
 height
++
+TITLEBAR_EXTENT
 )
 ;
 return
