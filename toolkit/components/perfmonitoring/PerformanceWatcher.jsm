@@ -441,14 +441,6 @@ result
 ;
 }
 ;
-let
-gListeners
-=
-new
-WeakMap
-(
-)
-;
 function
 Observable
 (

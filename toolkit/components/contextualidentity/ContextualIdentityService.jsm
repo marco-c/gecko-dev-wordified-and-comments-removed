@@ -46,14 +46,6 @@ jsm
 )
 ;
 const
-DEFAULT_TAB_COLOR
-=
-"
-#
-909090
-"
-;
-const
 SAVE_DELAY_MS
 =
 1500

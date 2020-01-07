@@ -161,7 +161,6 @@ TelemetryUtils
 const
 {
 AddonManager
-AddonManagerPrivate
 }
 =
 ChromeUtils

@@ -61,13 +61,6 @@ XMLHttpRequest
 ]
 )
 ;
-function
-log
-(
-msg
-)
-{
-}
 const
 PROTOCOL_VERSION
 =

@@ -2239,17 +2239,6 @@ true
 ;
 }
 const
-WEB_WORKERS_SHUTDOWN_TOPIC
-=
-"
-web
--
-workers
--
-shutdown
-"
-;
-const
 PREF_OSFILE_TEST_SHUTDOWN_OBSERVER
 =
 "
