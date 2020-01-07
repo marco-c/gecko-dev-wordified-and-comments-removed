@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIDOMScreen
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -74,8 +67,6 @@ mozilla
 :
 :
 DOMEventTargetHelper
-public
-nsIDOMScreen
 {
 typedef
 mozilla
@@ -99,7 +90,6 @@ aWindow
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSCREEN
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsScreen

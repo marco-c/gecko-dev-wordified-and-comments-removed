@@ -154,11 +154,6 @@ nsIDOMGlobalPropertyInitializer
 idl
 '
 '
-nsIDOMScreen
-.
-idl
-'
-'
 nsIDOMWindow
 .
 idl

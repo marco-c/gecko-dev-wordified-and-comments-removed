@@ -188,9 +188,6 @@ nsIDOMWindow
 interface
 nsIDOMWindowCollection
 ;
-interface
-nsIDOMScreen
-;
 /
 /
 Events

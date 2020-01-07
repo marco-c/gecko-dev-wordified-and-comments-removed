@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsIDOMScreen
-.
-h
-"
-#
-include
-"
 nsIDOMXULMenuListElement
 .
 h
