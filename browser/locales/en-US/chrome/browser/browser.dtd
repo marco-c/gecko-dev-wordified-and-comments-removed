@@ -738,6 +738,17 @@ c
 <
 !
 ENTITY
+hiddenTabs
+.
+label
+"
+Hidden
+Tabs
+"
+>
+<
+!
+ENTITY
 listAllTabs
 .
 label
