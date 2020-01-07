@@ -139,6 +139,9 @@ apply
 .
 *
 /
+[
+NoInterfaceObject
+]
 interface
 SVGPathSeg
 {
@@ -306,6 +309,9 @@ pathSegTypeAsLetter
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegClosePath
 :
@@ -313,6 +319,9 @@ SVGPathSeg
 {
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegMovetoAbs
 :
@@ -334,6 +343,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegMovetoRel
 :
@@ -355,6 +367,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegLinetoAbs
 :
@@ -376,6 +391,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegLinetoRel
 :
@@ -397,6 +415,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoCubicAbs
 :
@@ -446,6 +467,9 @@ y2
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoCubicRel
 :
@@ -495,6 +519,9 @@ y2
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoQuadraticAbs
 :
@@ -530,6 +557,9 @@ y1
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoQuadraticRel
 :
@@ -565,6 +595,9 @@ y1
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegArcAbs
 :
@@ -621,6 +654,9 @@ sweepFlag
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegArcRel
 :
@@ -677,6 +713,9 @@ sweepFlag
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegLinetoHorizontalAbs
 :
@@ -691,6 +730,9 @@ x
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegLinetoHorizontalRel
 :
@@ -705,6 +747,9 @@ x
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegLinetoVerticalAbs
 :
@@ -719,6 +764,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegLinetoVerticalRel
 :
@@ -733,6 +781,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoCubicSmoothAbs
 :
@@ -768,6 +819,9 @@ y2
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoCubicSmoothRel
 :
@@ -803,6 +857,9 @@ y2
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoQuadraticSmoothAbs
 :
@@ -824,6 +881,9 @@ y
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 SVGPathSegCurvetoQuadraticSmoothRel
 :
