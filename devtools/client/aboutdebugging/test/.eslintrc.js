@@ -55,11 +55,6 @@ CHROME_ROOT
 :
 true
 "
-changeAboutDebuggingHash
-"
-:
-true
-"
 closeAboutDebugging
 "
 :
@@ -85,11 +80,6 @@ openAboutDebugging
 :
 true
 "
-openPanel
-"
-:
-true
-"
 removeTab
 "
 :
@@ -106,11 +96,6 @@ unregisterServiceWorker
 true
 "
 waitForInitialAddonList
-"
-:
-true
-"
-waitForMutation
 "
 :
 true
