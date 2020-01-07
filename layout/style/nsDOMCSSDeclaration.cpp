@@ -120,8 +120,9 @@ nsDOMCSSDeclaration
 nsDOMCSSDeclaration
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 nsDOMCSSDeclaration
