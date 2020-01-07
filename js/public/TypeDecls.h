@@ -80,7 +80,7 @@ endif
 union
 Value
 ;
-struct
+class
 Compartment
 ;
 class
@@ -89,7 +89,7 @@ Realm
 struct
 Runtime
 ;
-struct
+class
 Zone
 ;
 template

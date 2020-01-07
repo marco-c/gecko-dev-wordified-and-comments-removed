@@ -416,7 +416,7 @@ string
 namespace
 JS
 {
-struct
+class
 Zone
 :
 public
@@ -453,6 +453,8 @@ JS
 Zone
 >
 {
+public
+:
 explicit
 Zone
 (

@@ -3150,14 +3150,12 @@ class
 WeakMapBase
 ;
 }
-struct
+class
 JS
 :
 :
 Compartment
 {
-private
-:
 JS
 :
 :

@@ -95,13 +95,6 @@ Shape
 h
 "
 namespace
-JS
-{
-struct
-Zone
-;
-}
-namespace
 js
 {
 struct
