@@ -150,6 +150,9 @@ sidebarTools
 =
 [
 "
+ruleview
+"
+"
 computedview
 "
 "
@@ -297,15 +300,6 @@ histId
 =
 "
 DEVTOOLS_TOOLBOX_OPENED_COUNT
-"
-|
-|
-histId
-=
-=
-=
-"
-DEVTOOLS_RULEVIEW_OPENED_COUNT
 "
 )
 {
