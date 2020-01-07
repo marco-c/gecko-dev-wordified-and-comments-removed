@@ -2826,9 +2826,8 @@ interruptRegExpJit_
 =
 true
 ;
-FutexThread
-:
-:
+fx
+.
 lock
 (
 )
@@ -2851,9 +2850,8 @@ FutexThread
 WakeForJSInterrupt
 )
 ;
-FutexThread
-:
-:
+fx
+.
 unlock
 (
 )

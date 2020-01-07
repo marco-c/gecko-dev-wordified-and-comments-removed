@@ -5179,9 +5179,8 @@ continue
 bool
 isMisspelled
 ;
-mozInlineSpellWordUtil
-:
-:
+aWordUtil
+.
 NormalizeWord
 (
 wordText

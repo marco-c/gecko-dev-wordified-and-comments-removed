@@ -219,9 +219,9 @@ list
 ;
 mValueAfter
 =
-nsCounterList
-:
-:
+aList
+-
+>
 ValueBefore
 (
 this
@@ -295,9 +295,9 @@ nsCounterManager
 :
 IncrementCounter
 (
-nsCounterList
-:
-:
+aList
+-
+>
 ValueBefore
 (
 this

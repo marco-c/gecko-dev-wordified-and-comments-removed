@@ -7825,9 +7825,8 @@ if
 pendingLayerization
 )
 {
-InputAPZContext
-:
-:
+context
+.
 SetPendingLayerization
 (
 )

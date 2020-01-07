@@ -5094,9 +5094,9 @@ AppUnitsPerDevPixel
 ;
 cssPixel
 =
-nsPresContext
-:
-:
+pc
+-
+>
 AppUnitsPerCSSPixel
 (
 )

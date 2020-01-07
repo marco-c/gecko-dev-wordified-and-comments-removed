@@ -1030,9 +1030,9 @@ imageContainer
 {
 imageContainer
 =
-LayerManager
-:
-:
+aManager
+-
+>
 CreateImageContainer
 (
 )

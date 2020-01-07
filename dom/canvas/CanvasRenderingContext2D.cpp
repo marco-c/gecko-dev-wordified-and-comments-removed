@@ -18553,9 +18553,9 @@ AppUnitsPerDevPixel
 )
 )
 /
-nsPresContext
-:
-:
+c
+-
+>
 AppUnitsPerCSSPixel
 (
 )

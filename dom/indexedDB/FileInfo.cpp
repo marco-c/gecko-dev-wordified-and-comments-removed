@@ -950,9 +950,9 @@ nsIFile
 >
 file
 =
-FileManager
-:
-:
+fileManager
+-
+>
 GetFileForId
 (
 directory

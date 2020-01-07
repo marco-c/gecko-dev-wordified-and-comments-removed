@@ -456,9 +456,8 @@ reader
 mReaderInitialized
 &
 &
-URLPreloader
-:
-:
+reader
+.
 sInitialized
 )
 {

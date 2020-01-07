@@ -141,9 +141,9 @@ mColorPickerParent
 Unused
 <
 <
-ColorPickerParent
-:
-:
+mColorPickerParent
+-
+>
 Send__delete__
 (
 mColorPickerParent

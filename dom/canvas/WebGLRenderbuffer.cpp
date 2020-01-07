@@ -1000,9 +1000,9 @@ char
 *
 errorName
 =
-WebGLContext
-:
-:
+mContext
+-
+>
 ErrorName
 (
 error

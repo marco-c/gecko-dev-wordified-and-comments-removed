@@ -25540,9 +25540,9 @@ ClearGlobalActiveContent
 activeESM
 )
 ;
-nsIPresShell
-:
-:
+activeShell
+-
+>
 SetCapturingContent
 (
 nullptr

@@ -90,9 +90,9 @@ mActor
 Unused
 <
 <
-WebBrowserPersistDocumentParent
-:
-:
+mActor
+-
+>
 Send__delete__
 (
 mActor

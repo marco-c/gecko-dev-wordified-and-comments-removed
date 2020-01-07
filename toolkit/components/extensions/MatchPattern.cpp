@@ -443,9 +443,8 @@ if
 index
 !
 =
-ArrayType
-:
-:
+mElems
+.
 NoIndex
 )
 {

@@ -1511,12 +1511,8 @@ wrapper
 ;
 if
 (
-xpc
-:
-:
-JSXrayTraits
-:
-:
+self
+.
 getProtoKey
 (
 holder

@@ -958,9 +958,9 @@ marginTwips
 ;
 mMargin
 =
-nsPresContext
-:
-:
+aPresContext
+-
+>
 CSSTwipsToAppUnits
 (
 marginTwips
@@ -1068,9 +1068,9 @@ mPageData
 >
 mEdgePaperMargin
 =
-nsPresContext
-:
-:
+aPresContext
+-
+>
 CSSTwipsToAppUnits
 (
 edgeTwips

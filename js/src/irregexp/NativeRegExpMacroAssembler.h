@@ -995,12 +995,8 @@ jit
 :
 Address
 (
-jit
-:
-:
-MacroAssembler
-:
-:
+masm
+.
 getStackPointer
 (
 )
