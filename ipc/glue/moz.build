@@ -232,6 +232,11 @@ IPCStreamUtils
 h
 '
 '
+IPDLParamTraits
+.
+h
+'
+'
 MessageChannel
 .
 h
