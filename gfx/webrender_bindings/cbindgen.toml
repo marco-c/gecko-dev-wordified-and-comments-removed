@@ -245,9 +245,6 @@ struct
 derive_eq
 =
 true
-generic_template_specialization
-=
-false
 [
 enum
 ]

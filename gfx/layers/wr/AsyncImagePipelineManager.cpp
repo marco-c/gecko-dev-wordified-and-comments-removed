@@ -1289,7 +1289,10 @@ GetFormat
 wr
 :
 :
-Vec_u8
+Vec
+<
+uint8_t
+>
 bytes
 ;
 bytes

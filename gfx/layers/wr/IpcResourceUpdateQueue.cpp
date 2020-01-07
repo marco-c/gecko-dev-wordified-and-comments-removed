@@ -940,7 +940,10 @@ aRange
 wr
 :
 :
-Vec_u8
+Vec
+<
+uint8_t
+>
 &
 aInto
 )
@@ -1073,7 +1076,10 @@ aRange
 wr
 :
 :
-Vec_u8
+Vec
+<
+uint8_t
+>
 &
 aInto
 )
