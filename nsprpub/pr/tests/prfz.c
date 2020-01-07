@@ -28,6 +28,13 @@ string
 .
 h
 >
+#
+include
+<
+stdint
+.
+h
+>
 int
 main
 (
