@@ -3330,12 +3330,6 @@ CSP_STRICT_DYNAMIC
 &
 !
 aParserCreated
-&
-&
-aKeyword
-!
-=
-CSP_UNSAFE_EVAL
 )
 )
 ;
