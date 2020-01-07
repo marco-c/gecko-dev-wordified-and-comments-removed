@@ -378,6 +378,10 @@ InitializeTargetServices
 (
 )
 {
+InitializeHandleVerifier
+(
+)
+;
 sandbox
 :
 :
@@ -425,10 +429,6 @@ return
 nullptr
 ;
 }
-InitializeHandleVerifier
-(
-)
-;
 return
 targetServices
 ;
@@ -483,6 +483,10 @@ InitializeBrokerServices
 (
 )
 {
+InitializeHandleVerifier
+(
+)
+;
 sandbox
 :
 :
@@ -558,10 +562,6 @@ policy
 CreateAlternateDesktop
 (
 true
-)
-;
-InitializeHandleVerifier
-(
 )
 ;
 return
