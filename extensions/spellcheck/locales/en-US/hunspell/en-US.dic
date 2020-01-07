@@ -1,4 +1,4 @@
-52388
+52456
 0
 /
 nm
@@ -3819,6 +3819,7 @@ M
 Belarus
 /
 M
+Belarusian
 Belau
 /
 M
@@ -3910,6 +3911,7 @@ M
 Bender
 /
 M
+Bendictus
 Bendix
 /
 M
@@ -5103,6 +5105,7 @@ M
 Brewster
 /
 M
+Brexit
 Brezhnev
 /
 M
@@ -5706,7 +5709,7 @@ CCTV
 CCU
 CD
 /
-M
+SM
 CDC
 CDT
 CEO
@@ -21824,6 +21827,7 @@ Magi
 Maginot
 /
 M
+Magnificat
 Magnitogorsk
 /
 M
@@ -31477,6 +31481,9 @@ M
 Segundo
 /
 M
+Segway
+/
+S
 Seiko
 /
 M
@@ -38731,6 +38738,9 @@ DSMG
 achene
 /
 MS
+achievable
+/
+U
 achieve
 /
 BLZGDRS
@@ -40813,6 +40823,9 @@ amidst
 amigo
 /
 MS
+amine
+/
+S
 amino
 amir
 /
@@ -40971,6 +40984,7 @@ Y
 amylase
 /
 M
+amyloid
 an
 /
 CS
@@ -41036,11 +41050,12 @@ analyst
 /
 SM
 analytic
+/
+S
 analytical
 /
 Y
 analyticalally
-analytics
 analyzable
 analyze
 /
@@ -41684,6 +41699,12 @@ antimissile
 antimony
 /
 M
+antineutrino
+/
+SM
+antineutron
+/
+MS
 antinuclear
 antioxidant
 /
@@ -41720,6 +41741,9 @@ antipodes
 M
 antipollution
 antipoverty
+antiproton
+/
+MS
 antiquarian
 /
 SM
@@ -43153,7 +43177,7 @@ assimilation
 M
 assist
 /
-GMDS
+GVMDS
 assistance
 /
 M
@@ -44593,7 +44617,7 @@ SGMD
 balkanization
 balkanize
 /
-SDG
+GDS
 balky
 /
 RT
@@ -48397,6 +48421,9 @@ bother
 /
 SMDG
 botheration
+bothered
+/
+U
 bothersome
 botnet
 /
@@ -49699,7 +49726,7 @@ bulldozer
 M
 bullet
 /
-SM
+SMD
 bulletin
 /
 MDGS
@@ -52157,6 +52184,7 @@ M
 caving
 /
 M
+cavitation
 cavity
 /
 FSM
@@ -54871,11 +54899,11 @@ clutch
 /
 GMDS
 clutter
+'
+s
+clutter
 /
-MDSG
-cluttered
-/
-U
+UDSG
 clvi
 clvii
 clxi
@@ -55053,7 +55081,7 @@ SM
 cockamamie
 cockatiel
 /
-SM
+MS
 cockatoo
 /
 SM
@@ -55510,7 +55538,7 @@ MS
 collegiate
 collide
 /
-DSG
+DRSZG
 collie
 /
 RSMZ
@@ -55742,7 +55770,7 @@ combo
 SM
 combust
 /
-DS
+SGVD
 combustibility
 /
 M
@@ -55752,7 +55780,6 @@ MS
 combustion
 /
 M
-combustive
 come
 /
 IMZGRS
@@ -56683,6 +56710,7 @@ AGSD
 conditional
 /
 SMY
+conditionality
 conditioned
 /
 U
@@ -57596,6 +57624,7 @@ MS
 contortionist
 /
 SM
+contra
 contraband
 /
 M
@@ -58754,6 +58783,9 @@ GSM
 counterspy
 /
 SM
+counterstroke
+/
+SM
 countersunk
 countertenor
 /
@@ -59582,6 +59614,7 @@ SM
 critical
 /
 UY
+criticality
 criticism
 /
 MS
@@ -59968,8 +60001,11 @@ cryosurgery
 /
 M
 crypt
+'
+s
+crypt
 /
-SM
+S
 cryptic
 cryptically
 cryptogram
@@ -61527,8 +61563,9 @@ decree
 /
 MDS
 decreeing
-decremented
-decrements
+decrement
+/
+DS
 decrepit
 decrepitude
 /
@@ -61541,8 +61578,7 @@ decry
 GDS
 decrypt
 /
-GDS
-decryptable
+BSGD
 decryption
 dedicate
 /
@@ -63287,6 +63323,7 @@ M
 diffusion
 /
 M
+diffusivity
 dig
 /
 SM
@@ -63411,6 +63448,7 @@ SM
 dillydally
 /
 DSG
+diluent
 dilute
 /
 DSGNX
@@ -63807,7 +63845,7 @@ discouraging
 Y
 discover
 /
-ASDGB
+ABSDG
 discovered
 /
 U
@@ -66429,6 +66467,7 @@ Y
 echelon
 /
 SM
+echidna
 echinoderm
 /
 SM
@@ -66744,6 +66783,7 @@ effluvia
 effluvium
 /
 M
+efflux
 effort
 /
 SM
@@ -67744,11 +67784,10 @@ enclosure
 SM
 encode
 /
-DRSZG
+DRSJZG
 encoder
 /
 M
-encodings
 encomium
 /
 MS
@@ -68193,6 +68232,7 @@ SM
 enter
 /
 ASGD
+enteral
 enteric
 enteritis
 /
@@ -68286,6 +68326,7 @@ acte
 entrails
 /
 M
+entrained
 entrance
 /
 LDSMG
@@ -69118,6 +69159,7 @@ MS
 eugenics
 /
 M
+eukaryotes
 eulogist
 /
 MS
@@ -69189,6 +69231,9 @@ AGNVDSX
 evaluation
 /
 AM
+evaluator
+/
+S
 evanescence
 /
 M
@@ -70133,7 +70178,7 @@ MS
 expunction
 expunge
 /
-GDS
+LGDS
 expungement
 /
 S
@@ -70262,7 +70307,7 @@ SM
 extracellular
 extract
 /
-MDGS
+MDGVS
 extraction
 /
 SM
@@ -70480,6 +70525,9 @@ faceless
 facelift
 /
 SM
+facepalm
+/
+SDG
 facet
 /
 SMDG
@@ -74759,7 +74807,7 @@ ADGS
 fug
 fugacious
 /
-YP
+PY
 fugal
 fuggy
 fugitive
@@ -76751,6 +76799,9 @@ glummest
 glumness
 /
 M
+gluon
+/
+S
 glut
 /
 MNS
@@ -76784,6 +76835,7 @@ M
 glycogen
 /
 M
+glycol
 glyph
 gm
 gnarl
@@ -79641,6 +79693,9 @@ SM
 hayloft
 /
 SM
+haymaker
+/
+S
 haymaking
 haymow
 /
@@ -80408,6 +80463,7 @@ SM
 heretical
 hereto
 heretofore
+hereunder
 hereunto
 hereupon
 herewith
@@ -82396,6 +82452,7 @@ SM
 hydrometry
 /
 M
+hydrophilic
 hydrophobia
 /
 M
@@ -84517,7 +84574,7 @@ inflatable
 SM
 inflate
 /
-DSGNB
+ADSG
 inflation
 /
 EM
@@ -84566,6 +84623,7 @@ Y
 informant
 /
 SM
+informatics
 information
 /
 EM
@@ -84879,6 +84937,7 @@ inordinate
 /
 Y
 inorganic
+inositol
 inquire
 /
 ZGDR
@@ -85908,7 +85967,10 @@ inverse
 SMY
 invert
 /
-SMDGR
+SMDRZG
+inverter
+/
+M
 invest
 /
 ASDGL
@@ -85998,6 +86060,9 @@ M
 involve
 /
 LDSG
+involved
+/
+U
 involvement
 /
 SM
@@ -87494,6 +87559,9 @@ MS
 ketchup
 /
 M
+ketone
+/
+S
 kettle
 /
 SM
@@ -91229,6 +91297,7 @@ lumbermen
 lumberyard
 /
 SM
+lumen
 luminary
 /
 SM
@@ -91364,6 +91433,7 @@ SM
 lutetium
 /
 M
+lux
 luxuriance
 /
 M
@@ -91999,11 +92069,10 @@ malfeasance
 M
 malform
 /
-S
+SD
 malformation
 /
 SM
-malformed
 malfunction
 /
 MDSG
@@ -93082,6 +93151,7 @@ maxillary
 maxim
 /
 SM
+maxima
 maximal
 /
 Y
@@ -93317,7 +93387,7 @@ median
 MS
 mediate
 /
-DSGN
+ADSGN
 mediated
 /
 U
@@ -94712,6 +94782,7 @@ minifloppies
 minim
 /
 SM
+minima
 minimal
 /
 Y
@@ -95352,6 +95423,7 @@ MNSX
 mitten
 /
 M
+mitzvah
 mix
 /
 ZGMDRSB
@@ -96721,6 +96793,7 @@ mullion
 SMD
 multi
 multicast
+multichannel
 multicolored
 multicultural
 multiculturalism
@@ -96756,6 +96829,7 @@ SM
 multinational
 /
 SM
+multipart
 multiparty
 multiplayer
 /
@@ -96843,6 +96917,9 @@ mun
 munch
 /
 GDS
+munchie
+/
+S
 munchies
 /
 M
@@ -97070,6 +97147,7 @@ mutably
 mutagen
 /
 MS
+mutagenic
 mutant
 /
 MS
@@ -98454,6 +98532,7 @@ DSMGN
 nitration
 /
 M
+nitric
 nitrification
 /
 M
@@ -100109,6 +100188,7 @@ MS
 oculist
 /
 SM
+oculomotor
 odalisque
 /
 SM
@@ -100463,6 +100543,7 @@ M
 on
 /
 Y
+onboard
 once
 /
 M
@@ -100844,6 +100925,9 @@ SM
 order
 /
 EAMDGS
+ordered
+/
+U
 orderings
 orderliness
 /
@@ -101802,6 +101886,7 @@ overindulgence
 /
 M
 overindulgent
+overinflated
 overjoy
 /
 GSD
@@ -102163,6 +102248,7 @@ oxidase
 oxidation
 /
 M
+oxidative
 oxide
 /
 MS
@@ -102923,6 +103009,9 @@ MS
 parameter
 /
 MS
+parameterize
+/
+D
 parametric
 paramilitary
 /
@@ -103174,13 +103263,10 @@ parry
 GDSM
 parse
 /
-DSG
+DRSZG
 parsec
 /
 MS
-parser
-/
-S
 parsimonious
 /
 Y
@@ -104634,6 +104720,9 @@ GDS
 perplexed
 /
 Y
+perplexing
+/
+Y
 perplexity
 /
 SM
@@ -105509,6 +105598,9 @@ picnicking
 picot
 /
 SM
+pictogram
+/
+S
 pictograph
 /
 M
@@ -107316,6 +107408,9 @@ DSG
 populate
 /
 ACGDS
+populated
+/
+U
 population
 /
 CM
@@ -107512,7 +107607,7 @@ positioned
 K
 positioning
 /
-K
+AK
 positive
 /
 MYPS
@@ -107525,7 +107620,7 @@ positivist
 S
 positivity
 /
-MS
+SM
 positron
 /
 MS
@@ -108376,6 +108471,7 @@ preoperative
 preordain
 /
 GDS
+preowned
 prep
 /
 MS
@@ -109008,6 +109104,8 @@ problem
 /
 MS
 problematic
+/
+U
 problematical
 /
 Y
@@ -109037,6 +109135,7 @@ s
 process
 /
 AGDS
+processable
 processed
 /
 U
@@ -111068,6 +111167,7 @@ SM
 quine
 /
 S
+quinidine
 quinine
 /
 M
@@ -111309,6 +111409,9 @@ raddled
 radial
 /
 SMY
+radian
+/
+S
 radiance
 /
 M
@@ -113222,9 +113325,6 @@ remarked
 /
 U
 remediable
-remediate
-/
-DGS
 remedy
 /
 GDSM
@@ -113424,6 +113524,7 @@ M
 repeat
 /
 SMDRZGB
+repeatability
 repeatable
 /
 U
@@ -113520,6 +113621,7 @@ reported
 Y
 reportorial
 reposeful
+reposition
 repository
 /
 SM
@@ -113681,9 +113783,6 @@ M
 reseal
 /
 B
-resell
-/
-SG
 resemble
 /
 DSG
@@ -113766,6 +113865,7 @@ resistant
 /
 U
 resistible
+resistivity
 resistless
 resistor
 /
@@ -117153,7 +117253,7 @@ scone
 MS
 scooch
 /
-DGS
+DSG
 scoop
 /
 MDSG
@@ -118168,11 +118268,14 @@ selflessness
 M
 selfsame
 sell
+'
+s
+sell
 /
-ZGMRS
+AZGRS
 seller
-/
-M
+'
+s
 selloff
 /
 MS
@@ -125299,7 +125402,7 @@ strategist
 SM
 strategize
 /
-GD
+DG
 strategy
 /
 SM
@@ -125849,6 +125952,9 @@ GDS
 subdivision
 /
 SM
+subdomain
+/
+MS
 subdominant
 subdue
 /
@@ -126692,6 +126798,7 @@ M
 superconductor
 /
 SM
+supercritical
 superego
 /
 MS
@@ -126760,6 +126867,7 @@ M
 supermarket
 /
 SM
+supermassive
 supermen
 supermodel
 /
@@ -126928,7 +127036,7 @@ suppository
 SM
 suppress
 /
-GDS
+GVDS
 suppressant
 /
 MS
@@ -128377,6 +128485,7 @@ GMDS
 task
 /
 GMDS
+taskbar
 taskmaster
 /
 MS
@@ -129627,6 +129736,7 @@ thereof
 thereon
 thereto
 theretofore
+thereunder
 thereunto
 thereupon
 therewith
@@ -131375,6 +131485,7 @@ trabecule
 trace
 /
 JDRSMZG
+traceability
 traceable
 /
 U
@@ -133451,6 +133562,7 @@ ultramarine
 /
 M
 ultramodern
+ultrashort
 ultrasonic
 ultrasonically
 ultrasound
@@ -133757,6 +133869,7 @@ PY
 underhandedness
 /
 M
+underinflated
 underlain
 underlay
 /
@@ -134285,6 +134398,7 @@ unrepresentative
 unrest
 /
 M
+unrevealing
 unripe
 /
 TR
@@ -135003,7 +135117,9 @@ SM
 vanish
 /
 JDSG
-vanishingly
+vanishing
+/
+Y
 vanity
 /
 SM
@@ -136309,6 +136425,7 @@ volubly
 volume
 /
 SM
+volumetric
 voluminous
 /
 YP
@@ -137149,6 +137266,7 @@ waveband
 /
 S
 waveform
+wavefront
 wavelength
 /
 M
@@ -139037,6 +139155,10 @@ workshop
 /
 MS
 workshy
+worksite
+/
+S
+workspace
 workstation
 /
 MS
