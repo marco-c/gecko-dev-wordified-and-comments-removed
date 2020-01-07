@@ -3866,13 +3866,13 @@ endif
 if
 defined
 (
-FP_sig
+PC_sig
 )
 &
 &
 defined
 (
-SP_sig
+FP_sig
 )
 &
 &
