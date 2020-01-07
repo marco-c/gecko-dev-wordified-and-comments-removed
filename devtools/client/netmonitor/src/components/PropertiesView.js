@@ -360,6 +360,11 @@ object
 PropTypes
 .
 object
+provider
+:
+PropTypes
+.
+object
 enableInput
 :
 PropTypes
@@ -985,6 +990,7 @@ renderRow
 renderValue
 sectionNames
 openLink
+provider
 }
 =
 this
@@ -1060,6 +1066,7 @@ TreeView
 (
 {
 object
+provider
 columns
 :
 [

@@ -1143,7 +1143,7 @@ responseHeaders
 headers
 .
 length
-10
+13
 "
 The
 responseHeaders
@@ -1166,7 +1166,7 @@ requestItem
 responseHeaders
 .
 headersSize
-330
+335
 "
 The
 responseHeaders
@@ -1477,7 +1477,7 @@ is
 requestItem
 .
 headersSize
-330
+335
 "
 The
 headersSize
@@ -1670,7 +1670,7 @@ requestItem
 .
 transferredSize
 "
-342
+347
 "
 "
 The
