@@ -1,4 +1,7 @@
 use
+WeakAtom
+;
+use
 dom
 :
 :
@@ -691,7 +694,8 @@ self
 >
 Option
 <
-Atom
+&
+WeakAtom
 >
 {
 if
@@ -747,13 +751,16 @@ else
 {
 Some
 (
-Atom
+unsafe
+{
+WeakAtom
 :
 :
-from
+new
 (
 ptr
 )
+}
 )
 }
 }

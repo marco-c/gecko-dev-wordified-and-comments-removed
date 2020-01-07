@@ -234,7 +234,7 @@ f
 (
 element
 .
-get_local_name
+local_name
 (
 )
 .
@@ -247,7 +247,7 @@ f
 (
 element
 .
-get_namespace
+namespace
 (
 )
 .
@@ -265,7 +265,7 @@ id
 =
 element
 .
-get_id
+id
 (
 )
 {

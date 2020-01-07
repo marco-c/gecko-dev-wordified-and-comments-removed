@@ -222,7 +222,7 @@ self
 bool
 ;
 fn
-get_local_name
+local_name
 (
 &
 self
@@ -243,7 +243,7 @@ SelectorImpl
 BorrowedLocalName
 ;
 fn
-get_namespace
+namespace
 (
 &
 self

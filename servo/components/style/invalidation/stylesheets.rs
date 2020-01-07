@@ -310,7 +310,7 @@ element_id
 =
 element
 .
-get_id
+id
 (
 )
 {
@@ -385,7 +385,7 @@ local_name
 =
 element
 .
-get_local_name
+local_name
 (
 )
 ;

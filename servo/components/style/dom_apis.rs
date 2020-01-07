@@ -1621,7 +1621,7 @@ is_html_element_in_html_document
 {
 element
 .
-get_local_name
+local_name
 (
 )
 =
@@ -1636,7 +1636,7 @@ else
 {
 element
 .
-get_local_name
+local_name
 (
 )
 =

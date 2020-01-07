@@ -2,6 +2,7 @@ use
 {
 Atom
 LocalName
+WeakAtom
 }
 ;
 use
@@ -671,7 +672,7 @@ id
 =
 rule_hash_target
 .
-get_id
+id
 (
 )
 {
@@ -688,7 +689,6 @@ id_hash
 .
 get
 (
-&
 id
 quirks_mode
 )
@@ -764,7 +764,7 @@ get
 (
 rule_hash_target
 .
-get_local_name
+local_name
 (
 )
 )
@@ -1191,7 +1191,7 @@ id
 =
 element
 .
-get_id
+id
 (
 )
 {
@@ -1208,7 +1208,6 @@ id_hash
 .
 get
 (
-&
 id
 quirks_mode
 )
@@ -1324,7 +1323,7 @@ get
 (
 element
 .
-get_local_name
+local_name
 (
 )
 )
@@ -1407,7 +1406,7 @@ additional_id
 Option
 <
 &
-Atom
+WeakAtom
 >
 additional_classes
 :
@@ -2022,7 +2021,7 @@ self
 key
 :
 &
-Atom
+WeakAtom
 quirks_mode
 :
 QuirksMode

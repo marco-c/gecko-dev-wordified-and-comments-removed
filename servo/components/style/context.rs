@@ -1321,6 +1321,10 @@ EagerPseudoCascadeInputs
 impl
 ElementCascadeInputs
 {
+#
+[
+inline
+]
 pub
 fn
 new_from_element_data
@@ -2679,10 +2683,6 @@ el
 )
 }
 before_change_style
-:
-before_change_style
-tasks
-:
 tasks
 }
 }
@@ -2735,8 +2735,6 @@ new
 el
 )
 }
-tasks
-:
 tasks
 }
 }

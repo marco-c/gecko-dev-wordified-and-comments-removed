@@ -1832,7 +1832,7 @@ Self
 if
 self
 .
-get_local_name
+local_name
 (
 )
 =
@@ -1849,7 +1849,7 @@ details
 &
 self
 .
-get_namespace
+namespace
 (
 )
 =
@@ -1899,7 +1899,7 @@ Self
 if
 self
 .
-get_local_name
+local_name
 (
 )
 =
@@ -1916,7 +1916,7 @@ details
 &
 self
 .
-get_namespace
+namespace
 (
 )
 =

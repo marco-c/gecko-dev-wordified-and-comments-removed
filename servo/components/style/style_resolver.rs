@@ -1983,14 +1983,14 @@ self
 .
 element
 .
-get_smil_override
+smil_override
 (
 )
 self
 .
 element
 .
-get_animation_rules
+animation_rules
 (
 )
 self
