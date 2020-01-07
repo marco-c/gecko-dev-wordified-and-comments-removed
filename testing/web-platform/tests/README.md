@@ -913,7 +913,7 @@ very
 configurable
 ;
 for
-examaple
+example
 to
 specify
 a
