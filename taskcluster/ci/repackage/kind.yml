@@ -145,10 +145,6 @@ nightly
 /
 opt
 -
-linux
-/
-opt
--
 linux64
 -
 nightly
@@ -173,10 +169,6 @@ nightly
 /
 opt
 -
-linux64
-/
-opt
--
 macosx64
 -
 nightly
@@ -188,10 +180,6 @@ macosx64
 devedition
 -
 nightly
-/
-opt
--
-macosx64
 /
 opt
 -
@@ -209,10 +197,6 @@ nightly
 /
 opt
 -
-win32
-/
-opt
--
 win64
 -
 nightly
@@ -224,10 +208,6 @@ win64
 devedition
 -
 nightly
-/
-opt
--
-win64
 /
 opt
 job
@@ -245,8 +225,7 @@ build
 platform
 :
 linux
-\
-b
+-
 .
 *
 :
@@ -257,8 +236,7 @@ linux32_signed
 .
 py
 linux64
-\
-b
+-
 .
 *
 :
@@ -269,8 +247,7 @@ linux64_signed
 .
 py
 macosx64
-\
-b
+-
 .
 *
 :
@@ -281,8 +258,7 @@ osx_signed
 .
 py
 win32
-\
-b
+-
 .
 *
 :
@@ -293,8 +269,7 @@ win32_signed
 .
 py
 win64
-\
-b
+-
 .
 *
 :

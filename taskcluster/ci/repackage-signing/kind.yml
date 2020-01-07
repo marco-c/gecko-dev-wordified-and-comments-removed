@@ -181,10 +181,6 @@ nightly
 /
 opt
 -
-win32
-/
-opt
--
 win64
 -
 nightly
@@ -196,9 +192,5 @@ win64
 devedition
 -
 nightly
-/
-opt
--
-win64
 /
 opt

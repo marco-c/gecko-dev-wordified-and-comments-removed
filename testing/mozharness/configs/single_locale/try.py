@@ -52,8 +52,6 @@ update_channel
 :
 "
 nightly
--
-try
 "
     
 "
