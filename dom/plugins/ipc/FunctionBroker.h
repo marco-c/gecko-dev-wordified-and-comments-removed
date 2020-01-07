@@ -5836,6 +5836,15 @@ p
 .
 )
 ;
+{
+MonitorAutoLock
+lock
+(
+*
+monitor
+)
+;
+}
 *
 ok
 &
