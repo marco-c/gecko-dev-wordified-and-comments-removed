@@ -273,9 +273,7 @@ taskcluster
 /
 docker
 /
-desktop
--
-build
+recipes
 /
 oauth
 .
@@ -287,9 +285,7 @@ taskcluster
 /
 docker
 /
-desktop
--
-build
+recipes
 /
 oauth
 .
@@ -351,9 +347,7 @@ taskcluster
 /
 docker
 /
-desktop
--
-build
+recipes
 /
 buildprops
 .
@@ -365,9 +359,7 @@ taskcluster
 /
 docker
 /
-desktop
--
-build
+recipes
 /
 buildprops
 .
