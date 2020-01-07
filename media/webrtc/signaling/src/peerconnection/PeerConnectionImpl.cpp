@@ -479,6 +479,15 @@ h
 #
 include
 "
+js
+/
+GCAnnotations
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PeerIdentity
@@ -857,6 +866,7 @@ SuppressException
 ;
 }
 }
+JS_HAZ_ROOTED
 ;
 class
 WrappableJSErrorResult
@@ -950,6 +960,7 @@ bool
 isCopy
 ;
 }
+JS_HAZ_ROOTED
 ;
 }
 static

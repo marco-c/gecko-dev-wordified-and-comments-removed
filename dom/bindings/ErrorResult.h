@@ -1734,6 +1734,7 @@ TErrorResult
 delete
 ;
 }
+JS_HAZ_ROOTED
 ;
 struct
 JustAssertCleanupPolicy
@@ -2703,6 +2704,7 @@ JustSuppressCleanupPolicy
 mInner
 ;
 }
+JS_HAZ_ROOTED
 ;
 #
 define
