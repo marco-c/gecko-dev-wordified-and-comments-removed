@@ -370,9 +370,6 @@ dist_xpcrs_dir
 (
 D
 )
-(
-libxul_sdk_includes
-)
 \
 (
 basename
