@@ -65,6 +65,16 @@ return
 sInServoTraversal
 ;
 }
+inline
+bool
+IsInServoTraversalWithoutMainThreadAssertion
+(
+)
+{
+return
+sInServoTraversal
+;
+}
 }
 #
 define
