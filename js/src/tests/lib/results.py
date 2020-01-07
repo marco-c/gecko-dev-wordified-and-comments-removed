@@ -69,6 +69,9 @@ err
 rc
 dt
 timed_out
+extra
+=
+None
 )
 :
         
@@ -113,6 +116,12 @@ self
 timed_out
 =
 timed_out
+        
+self
+.
+extra
+=
+extra
     
 def
 describe_failure
@@ -1655,6 +1664,16 @@ time
 output
 .
 dt
+extra
+=
+getattr
+(
+output
+'
+extra
+'
+None
+)
 )
                 
 return
@@ -2425,6 +2444,9 @@ False
 time
 =
 None
+extra
+=
+None
 )
 :
         
@@ -2578,6 +2600,14 @@ details
 extra
 '
 :
+extra
+.
+copy
+(
+)
+if
+extra
+else
 {
 }
 }

@@ -3307,6 +3307,26 @@ jitflags
     
 }
     
+if
+res
+.
+extra
+:
+        
+details
+[
+'
+extra
+'
+]
+.
+update
+(
+res
+.
+extra
+)
+    
 slog
 .
 test
