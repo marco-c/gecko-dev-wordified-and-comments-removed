@@ -2560,6 +2560,11 @@ anyChanges
 if
 (
 anyChanges
+&
+&
+this
+.
+_paneInfo
 )
 this
 .
