@@ -159,10 +159,6 @@ start
 end
 )
 {
-dirtyFrameFn
-(
-)
-;
 }
 QueryInterface
 :
