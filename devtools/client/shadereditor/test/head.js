@@ -337,12 +337,8 @@ loadFrameScripts
 {
 if
 (
-Cu
-.
-isCrossProcessWrapper
-(
+!
 content
-)
 )
 {
 loadFrameScriptUtils
@@ -861,12 +857,8 @@ navigate
 {
 if
 (
-Cu
-.
-isCrossProcessWrapper
-(
+!
 content
-)
 )
 {
 let
