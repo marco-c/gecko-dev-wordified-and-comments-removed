@@ -86,7 +86,7 @@ aReflector
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 return

@@ -270,7 +270,7 @@ options
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 globalOptions
 ;
 JS

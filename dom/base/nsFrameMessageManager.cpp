@@ -7374,7 +7374,7 @@ mPrincipal
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options

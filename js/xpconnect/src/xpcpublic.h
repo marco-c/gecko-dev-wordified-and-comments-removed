@@ -479,7 +479,7 @@ aFlags
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 JS

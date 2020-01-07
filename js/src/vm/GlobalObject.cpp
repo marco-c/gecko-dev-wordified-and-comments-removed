@@ -2399,7 +2399,7 @@ const
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 options
 )

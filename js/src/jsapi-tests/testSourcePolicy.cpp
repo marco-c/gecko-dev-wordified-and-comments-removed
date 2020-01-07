@@ -35,7 +35,7 @@ cx
 JS
 :
 :
-CompartmentBehaviorsRef
+RealmBehaviorsRef
 (
 cx
 -

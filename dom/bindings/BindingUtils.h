@@ -13662,7 +13662,7 @@ aClass
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 JSPrincipals

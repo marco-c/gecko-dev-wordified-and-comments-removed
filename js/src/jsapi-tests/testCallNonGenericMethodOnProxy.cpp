@@ -169,7 +169,7 @@ test_CallNonGenericMethodOnProxy
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS
@@ -296,7 +296,7 @@ Int32Value
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

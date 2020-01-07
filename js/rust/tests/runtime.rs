@@ -89,7 +89,7 @@ c_option
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 :
 :
 default

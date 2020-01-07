@@ -12,7 +12,7 @@ DoesntCrossCompartmentBoundaries
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

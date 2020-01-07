@@ -82,7 +82,7 @@ clsOps
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

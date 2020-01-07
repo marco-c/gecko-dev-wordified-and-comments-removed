@@ -6887,7 +6887,7 @@ return
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options
@@ -7105,7 +7105,7 @@ return
 JS
 :
 :
-CompartmentBehaviorsRef
+RealmBehaviorsRef
 (
 glob
 )

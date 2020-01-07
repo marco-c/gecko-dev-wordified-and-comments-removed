@@ -2101,7 +2101,7 @@ principal
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 )
@@ -2340,7 +2340,7 @@ InitGlobalObjectOptions
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 nsIPrincipal
@@ -2583,7 +2583,7 @@ aFlags
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 MutableHandleObject

@@ -2174,7 +2174,7 @@ false
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options

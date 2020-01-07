@@ -3115,13 +3115,13 @@ const
 JS
 :
 :
-CompartmentCreationOptions
+RealmCreationOptions
 creationOptions_
 ;
 JS
 :
 :
-CompartmentBehaviors
+RealmBehaviors
 behaviors_
 ;
 private
@@ -3393,7 +3393,7 @@ const
 JS
 :
 :
-CompartmentCreationOptions
+RealmCreationOptions
 &
 creationOptions
 (
@@ -3407,7 +3407,7 @@ creationOptions_
 JS
 :
 :
-CompartmentBehaviors
+RealmBehaviors
 &
 behaviors
 (
@@ -3421,7 +3421,7 @@ const
 JS
 :
 :
-CompartmentBehaviors
+RealmBehaviors
 &
 behaviors
 (
@@ -4011,7 +4011,7 @@ const
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 options
 )

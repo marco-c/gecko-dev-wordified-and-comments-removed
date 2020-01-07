@@ -471,7 +471,7 @@ preserveJitCode
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options

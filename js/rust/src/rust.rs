@@ -3227,7 +3227,7 @@ for
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 {
 fn
 default

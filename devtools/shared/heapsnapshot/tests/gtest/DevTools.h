@@ -411,7 +411,7 @@ cx
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 newGlobal

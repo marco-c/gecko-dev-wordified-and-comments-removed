@@ -1019,7 +1019,7 @@ JS_NULL_OBJECT_OPS
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

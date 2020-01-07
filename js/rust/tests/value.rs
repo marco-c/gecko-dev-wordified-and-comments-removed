@@ -19,7 +19,7 @@ root
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 ;
 use
 js
@@ -136,7 +136,7 @@ OnNewGlobalHookOption
 :
 FireOnNewGlobalHook
 &
-CompartmentOptions
+RealmOptions
 :
 :
 default
@@ -270,7 +270,7 @@ OnNewGlobalHookOption
 :
 FireOnNewGlobalHook
 &
-CompartmentOptions
+RealmOptions
 :
 :
 default

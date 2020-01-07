@@ -19,7 +19,7 @@ root
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 ;
 use
 js
@@ -121,7 +121,7 @@ FireOnNewGlobalHook
 let
 c_option
 =
-CompartmentOptions
+RealmOptions
 :
 :
 default

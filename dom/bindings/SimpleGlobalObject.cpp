@@ -347,7 +347,7 @@ cx
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options

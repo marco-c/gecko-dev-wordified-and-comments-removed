@@ -480,7 +480,7 @@ aCx
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 JS
@@ -713,7 +713,7 @@ aCx
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 JS

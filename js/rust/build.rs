@@ -869,7 +869,7 @@ Class
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 "
 "
 JS

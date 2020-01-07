@@ -101,7 +101,7 @@ return
 JS
 :
 :
-CompartmentCreationOptionsRef
+RealmCreationOptionsRef
 (
 js
 :
@@ -120,7 +120,7 @@ secureContext
 JS
 :
 :
-CompartmentCreationOptionsRef
+RealmCreationOptionsRef
 (
 js
 :

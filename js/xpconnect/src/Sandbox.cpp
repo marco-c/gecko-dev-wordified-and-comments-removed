@@ -5467,14 +5467,14 @@ principal
 JS
 :
 :
-CompartmentOptions
-compartmentOptions
+RealmOptions
+realmOptions
 ;
 auto
 &
 creationOptions
 =
-compartmentOptions
+realmOptions
 .
 creationOptions
 (
@@ -5570,7 +5570,7 @@ setTrace
 TraceXPCGlobal
 )
 ;
-compartmentOptions
+realmOptions
 .
 behaviors
 (
@@ -5612,7 +5612,7 @@ Jsvalify
 clasp
 )
 principal
-compartmentOptions
+realmOptions
 )
 )
 ;

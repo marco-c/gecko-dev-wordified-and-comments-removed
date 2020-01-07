@@ -5806,7 +5806,7 @@ initStandardClasses
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 XPCWrappedNative
@@ -10201,7 +10201,7 @@ principal
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 )
@@ -10212,7 +10212,7 @@ InitGlobalObjectOptions
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 nsIPrincipal

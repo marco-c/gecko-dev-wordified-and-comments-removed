@@ -99,7 +99,7 @@ false
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 global2
