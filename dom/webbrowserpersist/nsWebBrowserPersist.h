@@ -191,6 +191,9 @@ SaveURIInternal
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 uint32_t
 aCacheKey
 nsIURI

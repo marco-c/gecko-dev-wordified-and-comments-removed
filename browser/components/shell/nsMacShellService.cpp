@@ -762,6 +762,12 @@ wbp
 SaveURI
 (
 imageURI
+aElement
+-
+>
+NodePrincipal
+(
+)
 0
 docURI
 aElement

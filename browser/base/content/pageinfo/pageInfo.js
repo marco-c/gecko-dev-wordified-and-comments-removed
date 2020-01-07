@@ -4220,6 +4220,9 @@ null
 gDocInfo
 .
 isContentWindowPrivate
+gDocInfo
+.
+principal
 )
 ;
 }

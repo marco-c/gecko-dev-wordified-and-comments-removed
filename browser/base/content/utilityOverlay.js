@@ -1145,6 +1145,7 @@ null
 params
 .
 isContentWindowPrivate
+aPrincipal
 )
 ;
 }
