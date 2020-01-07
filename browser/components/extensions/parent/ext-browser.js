@@ -686,7 +686,7 @@ this
 }
 get
 (
-nativeTab
+keyObject
 )
 {
 if
@@ -698,7 +698,7 @@ tabData
 .
 has
 (
-nativeTab
+keyObject
 )
 )
 {
@@ -708,12 +708,12 @@ tabData
 .
 set
 (
-nativeTab
+keyObject
 this
 .
 getDefaults
 (
-nativeTab
+keyObject
 )
 )
 ;
@@ -725,13 +725,13 @@ tabData
 .
 get
 (
-nativeTab
+keyObject
 )
 ;
 }
 clear
 (
-nativeTab
+keyObject
 )
 {
 this
@@ -740,7 +740,7 @@ tabData
 .
 delete
 (
-nativeTab
+keyObject
 )
 ;
 }
