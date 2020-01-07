@@ -413,9 +413,6 @@ interface
 nsIMessageBroadcaster
 ;
 interface
-nsIDOMCrypto
-;
-interface
 XULControllers
 ;
 /

@@ -242,9 +242,3 @@ Range
 interface
 nsIDOMRange
 ;
-/
-/
-Crypto
-interface
-nsIDOMCrypto
-;
