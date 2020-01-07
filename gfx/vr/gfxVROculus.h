@@ -279,8 +279,6 @@ VROculusSession
 void
 Uninitialize
 (
-bool
-aUnloadLib
 )
 ;
 bool
