@@ -769,6 +769,8 @@ aURI
 nsIScriptElement
 *
 aElement
+ValidJSVersion
+aValidJSVersion
 mozilla
 :
 :
