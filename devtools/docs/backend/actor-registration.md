@@ -165,6 +165,8 @@ server
 /
 actors
 /
+addon
+/
 addons
 "
 {

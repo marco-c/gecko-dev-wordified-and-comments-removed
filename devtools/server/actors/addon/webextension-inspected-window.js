@@ -113,6 +113,8 @@ shared
 /
 specs
 /
+addon
+/
 webextension
 -
 inspected

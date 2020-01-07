@@ -75,6 +75,8 @@ shared
 /
 specs
 /
+addon
+/
 addons
 "
 )

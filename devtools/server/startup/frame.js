@@ -207,6 +207,8 @@ server
 /
 actors
 /
+addon
+/
 webextension
 "
 )

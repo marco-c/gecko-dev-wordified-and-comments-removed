@@ -47,6 +47,8 @@ shared
 /
 specs
 /
+addon
+/
 webextension
 -
 parent

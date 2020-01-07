@@ -17,6 +17,8 @@ shared
 /
 fronts
 /
+addon
+/
 addons
 "
 )

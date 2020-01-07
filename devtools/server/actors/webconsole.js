@@ -1178,7 +1178,7 @@ null
 _webConsoleCommandsCache
 :
 null
-actorPrefix
+typeName
 :
 "
 console
