@@ -161,14 +161,6 @@ task
 graph
 jobs
 :
-image_builder
-:
-symbol
-:
-I
-(
-ib
-)
 desktop1604
 -
 test
