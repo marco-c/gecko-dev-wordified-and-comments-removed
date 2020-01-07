@@ -143,6 +143,8 @@ evt
 ;
 is
 (
+window
+.
 TabContextMenu
 .
 contextTab
