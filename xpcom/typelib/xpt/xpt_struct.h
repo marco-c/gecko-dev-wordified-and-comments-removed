@@ -185,6 +185,7 @@ XPTConstDescriptor
 *
 const_descriptors
 ;
+const
 XPTTypeDescriptor
 *
 additional_types
