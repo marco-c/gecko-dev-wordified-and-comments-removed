@@ -1879,7 +1879,7 @@ const
 uint16_t
 kPHFSize
 =
-256
+512
 ;
 extern
 const

@@ -12,7 +12,7 @@ import
 OrderedDict
 PHFSIZE
 =
-256
+512
 def
 indented
 (
