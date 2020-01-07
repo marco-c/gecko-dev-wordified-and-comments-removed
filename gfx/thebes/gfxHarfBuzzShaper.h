@@ -306,14 +306,6 @@ return
 hbScript
 ;
 }
-static
-hb_codepoint_t
-GetVerticalPresentationForm
-(
-hb_codepoint_t
-aUnicode
-)
-;
 protected
 :
 nsresult
