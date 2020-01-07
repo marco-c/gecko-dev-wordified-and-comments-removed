@@ -106,6 +106,9 @@ actors
 '
 performance
 '
+'
+socket
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
@@ -185,13 +188,6 @@ service
 worker
 -
 child
-.
-js
-'
-'
-websocket
--
-server
 .
 js
 '
