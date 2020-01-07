@@ -939,7 +939,7 @@ nfixed
 this
 -
 >
-flags
+immutableFlags
 |
 =
 IN_DICTIONARY

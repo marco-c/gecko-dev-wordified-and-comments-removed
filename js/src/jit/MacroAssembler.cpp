@@ -6227,7 +6227,7 @@ Min
 templateObj
 -
 >
-numFixedSlotsForCompilation
+numFixedSlots
 (
 )
 end
@@ -8102,7 +8102,7 @@ nfixed
 ntemplate
 -
 >
-numFixedSlotsForCompilation
+numFixedSlots
 (
 )
 ;
@@ -20263,7 +20263,7 @@ scratch
 Shape
 :
 :
-offsetOfSlotInfo
+offsetOfImmutableFlags
 (
 )
 )
