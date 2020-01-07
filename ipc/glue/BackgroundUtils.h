@@ -314,7 +314,7 @@ net
 :
 ParentLoadInfoForwarderArgs
 *
-outLoadInfoChildForwardArgs
+aForwarderArgsOut
 )
 ;
 nsresult
@@ -329,7 +329,7 @@ net
 ParentLoadInfoForwarderArgs
 const
 &
-outLoadInfoChildForwardArgs
+aForwarderArgs
 nsILoadInfo
 *
 aLoadInfo
