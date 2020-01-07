@@ -4831,7 +4831,6 @@ aFilter
 ;
 if
 (
-(
 globalFilter
 &
 &
@@ -4845,8 +4844,9 @@ url1
 spec
 )
 )
-|
-|
+return
+;
+if
 (
 manifestFilter
 &
@@ -4862,7 +4862,6 @@ test
 url1
 .
 spec
-)
 )
 )
 )
