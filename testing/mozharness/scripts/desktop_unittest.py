@@ -7134,8 +7134,6 @@ GCOV_RESULTS_DIR
 '
 ]
 =
-gcov_dir
-=
 tempfile
 .
 mkdtemp
@@ -7182,15 +7180,46 @@ self
 add_per_test_coverage_report
 (
                             
+env
+[
+'
+GCOV_RESULTS_DIR
+'
+]
+if
+'
+GCOV_RESULTS_DIR
+'
+in
+env
+else
 gcov_dir
+                            
 jsvm_dir
+                            
 suite
+                            
 per_test_args
 [
 -
 1
 ]
                         
+)
+                        
+if
+'
+GCOV_RESULTS_DIR
+'
+in
+env
+:
+                            
+shutil
+.
+rmtree
+(
+gcov_dir
 )
                     
 success_codes
