@@ -2364,6 +2364,7 @@ bool
 )
 IsCrossCompartmentWrapper
 (
+const
 JSObject
 *
 obj

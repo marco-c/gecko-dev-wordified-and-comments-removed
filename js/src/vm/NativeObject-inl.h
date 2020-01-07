@@ -3688,10 +3688,7 @@ global
 const
 {
 return
-JSObject
-:
-:
-global
+nonCCWGlobal
 (
 )
 ;

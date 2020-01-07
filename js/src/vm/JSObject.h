@@ -1594,6 +1594,17 @@ global
 const
 ;
 inline
+js
+:
+:
+GlobalObject
+&
+nonCCWGlobal
+(
+)
+const
+;
+inline
 bool
 isOwnGlobal
 (

@@ -1989,6 +1989,7 @@ Wrapper
 :
 wrapperHandler
 (
+const
 JSObject
 *
 wrapper
