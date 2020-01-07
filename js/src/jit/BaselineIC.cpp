@@ -3060,6 +3060,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+GetElem
 CacheIR
 stub
 "
@@ -3482,6 +3483,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+GetElemSuper
 CacheIR
 stub
 "
@@ -4418,6 +4420,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+SetElem
 CacheIR
 stub
 "
@@ -4864,6 +4867,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+SetElem
 CacheIR
 stub
 "
@@ -5964,6 +5968,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+In
 CacheIR
 stub
 "
@@ -6340,6 +6345,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+HasOwn
 CacheIR
 stub
 "
@@ -6750,6 +6756,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+GetName
 CacheIR
 stub
 "
@@ -7257,6 +7264,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+BindName
 CacheIR
 stub
 "
@@ -7677,6 +7685,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+GetIntrinsic
 CacheIR
 stub
 "
@@ -8249,6 +8258,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+SetProp
 CacheIR
 stub
 "
@@ -8744,6 +8754,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+SetProp
 CacheIR
 stub
 "
@@ -13313,6 +13324,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+Call
 CacheIR
 stub
 "
@@ -21398,6 +21410,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+GetIterator
 CacheIR
 stub
 "
@@ -22880,6 +22893,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
+TypeOf
 CacheIR
 stub
 "
@@ -24694,9 +24708,7 @@ JitSpew
 JitSpew_BaselineIC
 "
 Attached
-(
-shared
-)
+UnaryArith
 CacheIR
 stub
 for
