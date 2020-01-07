@@ -10205,9 +10205,9 @@ get
 )
 )
 ;
-RefPtr
+nsCOMPtr
 <
-nsStandardURL
+nsIURI
 >
 pushedOrigin
 ;
@@ -10619,9 +10619,9 @@ Path
 )
 )
 ;
-RefPtr
+nsCOMPtr
 <
-nsStandardURL
+nsIURI
 >
 pushedURL
 ;
@@ -14923,9 +14923,9 @@ break
 nsAutoCString
 originString
 ;
-RefPtr
+nsCOMPtr
 <
-nsStandardURL
+nsIURI
 >
 originURL
 ;

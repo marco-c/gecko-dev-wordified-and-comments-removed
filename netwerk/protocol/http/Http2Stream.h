@@ -687,9 +687,9 @@ const
 nsACString
 &
 origin
-RefPtr
+nsCOMPtr
 <
-nsStandardURL
+nsIURI
 >
 &
 url
@@ -708,9 +708,9 @@ const
 nsACString
 &
 origin
-RefPtr
+nsCOMPtr
 <
-nsStandardURL
+nsIURI
 >
 &
 url
