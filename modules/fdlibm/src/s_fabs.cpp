@@ -1,9 +1,4 @@
 #
-ifndef
-lint
-#
-endif
-#
 include
 "
 math_private

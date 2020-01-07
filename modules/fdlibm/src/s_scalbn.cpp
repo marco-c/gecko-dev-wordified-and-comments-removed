@@ -1,9 +1,4 @@
 #
-ifndef
-lint
-#
-endif
-#
 include
 <
 float
@@ -215,6 +210,7 @@ k
 -
 54
 )
+{
 if
 (
 n
@@ -240,6 +236,7 @@ tiny
 x
 )
 ;
+}
 k
 +
 =
