@@ -242,6 +242,12 @@ mozilla
 :
 :
 InfallibleAmountFn
+mLowMemoryEventsCommitSpace
+;
+mozilla
+:
+:
+InfallibleAmountFn
 mLowMemoryEventsPhysical
 ;
 mozilla
