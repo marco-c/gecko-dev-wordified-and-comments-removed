@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -52,8 +45,6 @@ dom
 :
 :
 Text
-public
-nsIDOMNode
 {
 private
 :

@@ -302,12 +302,6 @@ DocumentType
 =
 default
 ;
-NS_IMPL_ISUPPORTS_INHERITED
-(
-DocumentType
-CharacterData
-nsIDOMNode
-)
 bool
 DocumentType
 :

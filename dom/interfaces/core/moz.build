@@ -109,11 +109,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMNode
-.
-idl
-'
-'
 nsIDOMNSEditableElement
 .
 idl

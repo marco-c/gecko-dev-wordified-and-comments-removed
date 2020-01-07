@@ -310,11 +310,10 @@ ProcessingInstruction
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 ProcessingInstruction
 CharacterData
-nsIDOMNode
 )
 JSObject
 *

@@ -1153,13 +1153,13 @@ Element
 ASSERT_ELEMENT_SIZE
 (
 HTMLDivElement
-128
+120
 )
 ;
 ASSERT_ELEMENT_SIZE
 (
 HTMLSpanElement
-128
+120
 )
 ;
 #

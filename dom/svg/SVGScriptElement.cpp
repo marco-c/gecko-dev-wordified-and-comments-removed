@@ -128,7 +128,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 SVGScriptElement
 SVGScriptElementBase
-nsIDOMNode
 nsIScriptLoaderObserver
 nsIScriptElement
 nsIMutationObserver

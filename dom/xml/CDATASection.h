@@ -24,13 +24,6 @@ Text
 .
 h
 "
-#
-include
-"
-nsIDOMNode
-.
-h
-"
 namespace
 mozilla
 {
@@ -43,8 +36,6 @@ final
 :
 public
 Text
-public
-nsIDOMNode
 {
 private
 :
@@ -137,7 +128,11 @@ Init
 )
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+CDATASection
+Text
+)
 virtual
 bool
 IsNodeOfType

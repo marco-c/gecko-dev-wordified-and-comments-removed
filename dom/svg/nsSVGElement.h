@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 SVGContentUtils
 .
 h
@@ -212,8 +205,6 @@ nsSVGElement
 :
 public
 nsSVGElementBase
-public
-nsIDOMNode
 {
 protected
 :
@@ -363,7 +354,11 @@ mozilla
 SVGStringList
 SVGStringList
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+nsSVGElement
+nsSVGElementBase
+)
 void
 DidAnimateClass
 (

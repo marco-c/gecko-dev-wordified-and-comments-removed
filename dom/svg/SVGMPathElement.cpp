@@ -187,7 +187,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 SVGMPathElement
 SVGMPathElementBase
-nsIDOMNode
 nsIMutationObserver
 )
 SVGMPathElement

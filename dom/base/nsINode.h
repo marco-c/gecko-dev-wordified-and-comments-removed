@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

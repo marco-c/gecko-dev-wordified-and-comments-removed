@@ -7,13 +7,6 @@ nsXBLChildrenElement_h___
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsINodeList
 .
 h
@@ -100,7 +93,11 @@ aNodeInfo
 )
 {
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+XBLChildrenElement
+nsXMLElement
+)
 virtual
 nsresult
 Clone

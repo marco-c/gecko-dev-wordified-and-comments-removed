@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDOMXULMultSelectCntrlEl
 .
 h
@@ -1229,8 +1222,6 @@ nsXULElement
 :
 public
 nsStyledElement
-public
-nsIDOMNode
 {
 protected
 :

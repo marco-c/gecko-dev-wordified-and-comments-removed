@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsStubDocumentObserver
 .
 h
@@ -574,8 +567,6 @@ nsDocument
 :
 public
 nsIDocument
-public
-nsIDOMNode
 public
 nsSupportsWeakReference
 public

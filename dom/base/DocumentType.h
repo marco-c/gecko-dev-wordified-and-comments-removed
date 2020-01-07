@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -64,8 +57,6 @@ final
 :
 public
 CharacterData
-public
-nsIDOMNode
 {
 public
 :
@@ -97,7 +88,11 @@ nsAString
 aInternalSubset
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+DocumentType
+CharacterData
+)
 virtual
 bool
 IsNodeOfType

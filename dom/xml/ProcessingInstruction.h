@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h
@@ -64,8 +57,6 @@ public
 CharacterData
 public
 nsStyleLinkElement
-public
-nsIDOMNode
 {
 public
 :

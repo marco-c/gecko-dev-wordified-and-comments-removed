@@ -185,7 +185,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 nsMathMLElement
 nsMathMLElementBase
-nsIDOMNode
 Link
 )
 static

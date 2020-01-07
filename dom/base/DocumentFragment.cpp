@@ -599,10 +599,6 @@ nsINode
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMNode
-)
-NS_INTERFACE_MAP_ENTRY
-(
 mozilla
 :
 :

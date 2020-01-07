@@ -1132,12 +1132,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-nsSVGElement
-nsSVGElementBase
-nsIDOMNode
-)
 nsresult
 nsSVGElement
 :
@@ -10689,14 +10683,7 @@ tests
 (
 do_QueryInterface
 (
-static_cast
-<
-nsIDOMNode
-*
->
-(
 this
-)
 )
 )
 ;

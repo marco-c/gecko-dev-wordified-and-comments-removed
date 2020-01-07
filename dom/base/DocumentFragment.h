@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -72,8 +65,6 @@ DocumentFragment
 :
 public
 FragmentOrElement
-public
-nsIDOMNode
 {
 private
 :

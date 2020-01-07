@@ -8049,11 +8049,6 @@ nsIDocument
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsIDOMNode
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 nsIScriptObjectPrincipal
 )
 NS_INTERFACE_TABLE_ENTRY

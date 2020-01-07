@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
