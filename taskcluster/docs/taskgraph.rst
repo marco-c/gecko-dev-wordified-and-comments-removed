@@ -1611,6 +1611,14 @@ a
 literal
 <
 .
+.
+.
+_taskgraph
+-
+graph
+-
+config
+:
 Graph
 Configuration
 -
@@ -1787,6 +1795,7 @@ chain_of_trust
 .
 html
 >
+_
 )
 .
 Firefox
