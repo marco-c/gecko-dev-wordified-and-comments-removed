@@ -53616,7 +53616,7 @@ rv
 aURI
 -
 >
-GetSpec
+GetDisplaySpec
 (
 spec
 )
