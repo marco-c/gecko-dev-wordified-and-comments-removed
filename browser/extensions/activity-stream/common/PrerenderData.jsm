@@ -323,6 +323,15 @@ enableWideLayout
 "
 :
 true
+"
+sectionOrder
+"
+:
+"
+topsites
+topstories
+highlights
+"
 }
 validation
 :
@@ -355,6 +364,9 @@ collapsed
 "
 "
 enableWideLayout
+"
+"
+sectionOrder
 "
 {
 oneOf
