@@ -596,6 +596,11 @@ aBinaryOrData
 FILE
 *
 aFile
+nsACString
+*
+aString
+=
+nullptr
 )
 ;
 static
