@@ -548,6 +548,13 @@ _
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
