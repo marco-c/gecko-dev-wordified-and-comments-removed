@@ -634,16 +634,6 @@ Set
 (
 [
 "
-test_AddonRepository
-.
-js
-"
-"
-test_AddonRepository_cache
-.
-js
-"
-"
 test_blocklistchange
 .
 js
