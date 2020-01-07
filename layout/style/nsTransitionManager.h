@@ -96,7 +96,7 @@ public
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 {
 ElementPropertyTransition
 (
@@ -126,7 +126,7 @@ aEffectOptions
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 (
 aDocument
 aTarget

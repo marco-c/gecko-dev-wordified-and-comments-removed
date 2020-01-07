@@ -2052,7 +2052,7 @@ mozilla
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =

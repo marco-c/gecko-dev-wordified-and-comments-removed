@@ -380,7 +380,7 @@ const
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :

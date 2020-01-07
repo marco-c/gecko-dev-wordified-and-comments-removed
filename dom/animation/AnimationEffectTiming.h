@@ -38,7 +38,7 @@ namespace
 dom
 {
 class
-KeyframeEffectReadOnly
+KeyframeEffect
 ;
 class
 AnimationEffectTiming
@@ -57,7 +57,7 @@ const
 TimingParams
 &
 aTiming
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 aEffect
 )
@@ -181,7 +181,7 @@ aRv
 ;
 private
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 MOZ_NON_OWNING_REF
 mEffect

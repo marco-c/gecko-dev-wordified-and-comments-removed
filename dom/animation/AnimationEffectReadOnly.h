@@ -112,7 +112,7 @@ class
 AnimationEffectTimingReadOnly
 ;
 class
-KeyframeEffectReadOnly
+KeyframeEffect
 ;
 struct
 ComputedTimingProperties
@@ -143,7 +143,7 @@ aTiming
 )
 ;
 virtual
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 AsKeyframeEffect
 (

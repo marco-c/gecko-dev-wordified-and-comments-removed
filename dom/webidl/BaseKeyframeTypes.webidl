@@ -250,11 +250,11 @@ IDL
 JS
 conversions
 in
-/
-/
-KeyframeEffectReadOnly
+KeyframeEffect
 '
 s
+/
+/
 implementation
 .
 dictionary

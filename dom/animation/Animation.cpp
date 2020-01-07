@@ -2706,7 +2706,7 @@ mEffect
 return
 ;
 }
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =
@@ -3416,7 +3416,7 @@ return
 false
 ;
 }
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =
@@ -3810,7 +3810,7 @@ MOZ_ASSERT
 mEffect
 )
 ;
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =
@@ -3972,7 +3972,7 @@ mPlaybackRate
 ;
 }
 }
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =
@@ -5484,7 +5484,7 @@ UpdateRelevance
 (
 )
 ;
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =
@@ -5566,7 +5566,7 @@ mEffect
 return
 ;
 }
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 keyframeEffect
 =

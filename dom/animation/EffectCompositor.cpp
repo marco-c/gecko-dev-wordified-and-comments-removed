@@ -260,7 +260,7 @@ mozilla
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 ;
 namespace
 mozilla
@@ -390,7 +390,7 @@ MatchForCompositor
 IsMatchForCompositor
 (
 const
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 nsCSSPropertyID
@@ -861,7 +861,7 @@ false
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -1758,7 +1758,7 @@ MarkCascadeNeedsUpdate
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -1787,11 +1787,11 @@ bool
 Equals
 (
 const
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 a
 const
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 b
 )
@@ -1808,11 +1808,11 @@ bool
 LessThan
 (
 const
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 a
 const
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 b
 )
@@ -2019,7 +2019,7 @@ false
 }
 nsTArray
 <
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 >
 sortedEffectList
@@ -2034,7 +2034,7 @@ Count
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -2091,7 +2091,7 @@ PropertiesForAnimationsLevel
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -2429,7 +2429,7 @@ return
 }
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -2752,7 +2752,7 @@ propertiesToTrackAsSet
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -2934,7 +2934,7 @@ return
 }
 nsTArray
 <
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 >
 sortedEffectList
@@ -2948,7 +2948,7 @@ Count
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -3128,7 +3128,7 @@ propertiesForTransitionsLevel
 for
 (
 const
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -3449,7 +3449,7 @@ return
 }
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -4023,7 +4023,7 @@ continue
 }
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -4311,7 +4311,7 @@ aPseudoType
 ;
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :

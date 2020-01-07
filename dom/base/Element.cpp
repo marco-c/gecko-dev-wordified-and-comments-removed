@@ -17212,7 +17212,7 @@ return
 }
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :

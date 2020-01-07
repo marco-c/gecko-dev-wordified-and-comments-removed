@@ -1345,7 +1345,7 @@ aTest
 {
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
@@ -1439,7 +1439,7 @@ aFrame
 [
 ]
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -1623,7 +1623,7 @@ aEffectSet
 aProperty
 ]
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -1693,7 +1693,7 @@ aFrame
 aProperty
 ]
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -1779,7 +1779,7 @@ effects
 aProperty
 ]
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 &
 aEffect
 )
@@ -2037,7 +2037,7 @@ IsRelevant
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 =

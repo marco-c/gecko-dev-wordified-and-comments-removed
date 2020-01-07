@@ -266,15 +266,6 @@ dom
 CSSTransition
 ;
 using
-mozilla
-:
-:
-dom
-:
-:
-KeyframeEffectReadOnly
-;
-using
 namespace
 mozilla
 ;

@@ -1171,7 +1171,7 @@ iEnd
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffect
 :
 :
 HasComputedTimingChanged

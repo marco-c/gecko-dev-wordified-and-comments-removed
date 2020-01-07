@@ -112,9 +112,6 @@ namespace
 dom
 {
 class
-KeyframeEffectReadOnly
-;
-class
 Promise
 ;
 }

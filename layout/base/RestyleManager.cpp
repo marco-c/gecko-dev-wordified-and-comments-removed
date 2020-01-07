@@ -8220,7 +8220,7 @@ effectSet
 {
 for
 (
-KeyframeEffectReadOnly
+KeyframeEffect
 *
 effect
 :
