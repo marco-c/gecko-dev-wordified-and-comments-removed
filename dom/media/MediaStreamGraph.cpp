@@ -9437,6 +9437,15 @@ this
 #
 ifdef
 DEBUG
+if
+(
+!
+mGraph
+-
+>
+mForceShutDown
+)
+{
 for
 (
 StreamTracks
@@ -9518,6 +9527,7 @@ track
 "
 )
 ;
+}
 }
 }
 #
