@@ -7658,11 +7658,8 @@ State
 {
 Start
 Try
-TryEnd
 Catch
-CatchEnd
 Finally
-FinallyEnd
 End
 }
 ;
