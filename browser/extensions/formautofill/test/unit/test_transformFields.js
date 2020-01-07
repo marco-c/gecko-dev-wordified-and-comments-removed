@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-ProfileStorage
+FormAutofillStorage
 }
 =
 ChromeUtils
@@ -19,7 +19,7 @@ resource
 /
 formautofill
 /
-ProfileStorage
+FormAutofillStorage
 .
 jsm
 "
@@ -4717,7 +4717,7 @@ let
 profileStorage
 =
 new
-ProfileStorage
+FormAutofillStorage
 (
 path
 )
@@ -4821,7 +4821,7 @@ let
 profileStorage
 =
 new
-ProfileStorage
+FormAutofillStorage
 (
 path
 )
@@ -4925,7 +4925,7 @@ let
 profileStorage
 =
 new
-ProfileStorage
+FormAutofillStorage
 (
 path
 )
@@ -5029,7 +5029,7 @@ let
 profileStorage
 =
 new
-ProfileStorage
+FormAutofillStorage
 (
 path
 )
