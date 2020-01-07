@@ -449,6 +449,9 @@ bool
 forceAllowDataURI
 ;
 bool
+allowInsecureRedirectToDataURI
+;
+bool
 forceInheritPrincipalDropped
 ;
 uint64_t

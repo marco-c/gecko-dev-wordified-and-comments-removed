@@ -4671,6 +4671,14 @@ redirectUrl
 )
 )
 ;
+channel
+.
+loadInfo
+.
+allowInsecureRedirectToDataURI
+=
+true
+;
 return
 ;
 }
