@@ -339,6 +339,8 @@ friend
 class
 nsHtml5AtomEntry
 ;
+protected
+:
 nsAtom
 (
 AtomKind
@@ -351,8 +353,6 @@ uint32_t
 aHash
 )
 ;
-protected
-:
 nsAtom
 (
 const
@@ -369,12 +369,6 @@ aHash
 nsAtom
 (
 )
-;
-mozilla
-:
-:
-ThreadSafeAutoRefCnt
-mRefCnt
 ;
 uint32_t
 mLength
