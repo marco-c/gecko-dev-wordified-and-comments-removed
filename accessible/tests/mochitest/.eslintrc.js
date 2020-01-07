@@ -92,17 +92,6 @@ undef
 "
 off
 "
-"
-space
--
-unary
--
-ops
-"
-:
-"
-off
-"
 }
 }
 ;
