@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineInspector
@@ -5404,6 +5413,9 @@ Ok
 inlineGenericFallback
 (
 const
+mozilla
+:
+:
 Maybe
 <
 CallTargets
@@ -5425,6 +5437,9 @@ Ok
 inlineObjectGroupFallback
 (
 const
+mozilla
+:
+:
 Maybe
 <
 CallTargets
@@ -5514,6 +5529,9 @@ MCall
 makeCallHelper
 (
 const
+mozilla
+:
+:
 Maybe
 <
 CallTargets
@@ -5532,6 +5550,9 @@ Ok
 makeCall
 (
 const
+mozilla
+:
+:
 Maybe
 <
 CallTargets

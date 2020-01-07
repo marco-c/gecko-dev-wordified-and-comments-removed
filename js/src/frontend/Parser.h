@@ -5505,6 +5505,9 @@ uint32_t
 numBindings
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 GlobalScope
@@ -5532,6 +5535,9 @@ ParseContext
 pc
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 EvalScope
@@ -5559,6 +5565,9 @@ ParseContext
 pc
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 FunctionScope
@@ -5588,6 +5597,9 @@ ParseContext
 pc
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 VarScope
@@ -5615,6 +5627,9 @@ ParseContext
 pc
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 LexicalScope

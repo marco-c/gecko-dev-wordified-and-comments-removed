@@ -7,6 +7,15 @@ jit_CacheIRCompiler_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jit
 /
 CacheIR
@@ -2393,6 +2402,9 @@ failurePaths
 LiveFloatRegisterSet
 liveFloatRegs_
 ;
+mozilla
+:
+:
 Maybe
 <
 TypedOrValueRegister
@@ -2402,6 +2414,9 @@ outputUnchecked_
 Mode
 mode_
 ;
+mozilla
+:
+:
 Maybe
 <
 bool
