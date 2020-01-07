@@ -326,6 +326,7 @@ lambda
 ;
 public
 :
+explicit
 LambdaEvent
 (
 T
@@ -379,6 +380,7 @@ baseEvent
 ;
 public
 :
+explicit
 ProxyEvent
 (
 mozilla
@@ -795,6 +797,7 @@ appShell
 ;
 public
 :
+explicit
 NativeCallbackEvent
 (
 nsAppShell

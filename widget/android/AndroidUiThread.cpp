@@ -488,6 +488,7 @@ TimeDuration
 ;
 public
 :
+explicit
 AndroidUiTask
 (
 already_AddRefed

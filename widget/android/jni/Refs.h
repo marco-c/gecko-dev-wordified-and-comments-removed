@@ -308,6 +308,7 @@ mEnv
 Type
 mInstance
 ;
+explicit
 AutoLock
 (
 Type
@@ -3292,6 +3293,7 @@ Ref
 ;
 public
 :
+explicit
 DependentRef
 (
 typename

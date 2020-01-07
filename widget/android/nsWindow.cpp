@@ -813,6 +813,7 @@ aInstance
 )
 {
 }
+explicit
 WindowEvent
 (
 Lambda
@@ -1270,6 +1271,7 @@ mImpl
 ;
 public
 :
+explicit
 Locked
 (
 NativePtr
@@ -3987,6 +3989,7 @@ event
 )
 ;
 }
+explicit
 LayerViewEvent
 (
 UniquePtr
@@ -4782,6 +4785,7 @@ mCompositor
 ;
 public
 :
+explicit
 OnResumedEvent
 (
 LayerSession
