@@ -9,6 +9,7 @@ flex
 ;
 }
 form
+div
 {
 flex
 -
@@ -16,13 +17,15 @@ wrap
 :
 wrap
 ;
+}
+form
+{
 padding
 :
 2px
 ;
 }
 form
->
 label
 form
 >
