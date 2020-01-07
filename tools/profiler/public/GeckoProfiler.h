@@ -670,9 +670,6 @@ undef
 DECLARE
 }
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 mozilla
 {
@@ -846,8 +843,6 @@ sActiveAndFeatures
 }
 }
 }
-#
-endif
 #
 if
 !
@@ -1087,9 +1082,6 @@ profiler_is_active
 (
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 return
 mozilla
 :
@@ -1107,13 +1099,6 @@ IsActive
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 bool
 profiler_is_paused
