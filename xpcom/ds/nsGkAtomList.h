@@ -230,6 +230,15 @@ charset
 )
 GK_ATOM
 (
+accessiblenode
+"
+accessible
+-
+node
+"
+)
+GK_ATOM
+(
 accesskey
 "
 accesskey

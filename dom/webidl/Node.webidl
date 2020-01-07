@@ -1352,6 +1352,7 @@ AccessibleNode
 :
 IsAOMEnabled
 "
+SameObject
 ]
 readonly
 attribute
