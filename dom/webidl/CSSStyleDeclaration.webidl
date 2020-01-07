@@ -121,8 +121,6 @@ CSSStyleDeclaration
 [
 CEReactions
 SetterNeedsSubjectPrincipal
-=
-NonSystem
 SetterThrows
 ]
 attribute
@@ -181,8 +179,6 @@ property
 [
 CEReactions
 NeedsSubjectPrincipal
-=
-NonSystem
 Throws
 ]
 void

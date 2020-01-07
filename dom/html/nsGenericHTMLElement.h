@@ -2736,7 +2736,7 @@ nsAString
 &
 aValue
 nsIPrincipal
-*
+&
 aTriggeringPrincipal
 mozilla
 :

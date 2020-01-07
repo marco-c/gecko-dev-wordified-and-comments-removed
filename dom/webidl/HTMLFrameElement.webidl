@@ -208,8 +208,6 @@ scrolling
 [
 CEReactions
 SetterNeedsSubjectPrincipal
-=
-NonSystem
 SetterThrows
 ]
 attribute

@@ -182,8 +182,6 @@ state
 [
 CEReactions
 SetterNeedsSubjectPrincipal
-=
-NonSystem
 SetterThrows
 ]
 attribute

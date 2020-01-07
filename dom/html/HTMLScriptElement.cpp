@@ -664,7 +664,7 @@ nsAString
 &
 aInnerHTML
 nsIPrincipal
-*
+&
 aScriptedPrincipal
 ErrorResult
 &

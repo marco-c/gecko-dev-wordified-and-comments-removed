@@ -173,8 +173,6 @@ HTMLElement
 [
 CEReactions
 SetterNeedsSubjectPrincipal
-=
-NonSystem
 SetterThrows
 ]
 attribute
@@ -198,8 +196,6 @@ HTMLSourceElement
 [
 CEReactions
 SetterNeedsSubjectPrincipal
-=
-NonSystem
 SetterThrows
 ]
 attribute

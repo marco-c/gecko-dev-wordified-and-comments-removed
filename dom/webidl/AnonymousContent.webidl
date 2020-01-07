@@ -306,8 +306,6 @@ content
 /
 [
 NeedsSubjectPrincipal
-=
-NonSystem
 Throws
 ]
 void

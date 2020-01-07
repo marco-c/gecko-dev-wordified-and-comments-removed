@@ -203,8 +203,6 @@ HTMLElement
 [
 CEReactions
 SetterNeedsSubjectPrincipal
-=
-NonSystem
 SetterThrows
 Pure
 ]
