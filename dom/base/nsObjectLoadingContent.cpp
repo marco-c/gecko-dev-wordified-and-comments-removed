@@ -15429,7 +15429,6 @@ rv
 GetPluginJSObject
 (
 aCx
-aObject
 pi
 &
 pi_obj
@@ -15571,15 +15570,6 @@ GetPluginJSObject
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-obj
 nsNPAPIPluginInstance
 *
 plugin_inst
@@ -15603,13 +15593,6 @@ JSObject
 plugin_proto
 )
 {
-JSAutoRealm
-ar
-(
-cx
-obj
-)
-;
 if
 (
 plugin_inst
