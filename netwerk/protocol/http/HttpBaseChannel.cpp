@@ -11246,7 +11246,7 @@ if
 ContainsAllFlags
 (
 mLoadFlags
-LOAD_FROM_CACHE
+VALIDATE_NEVER
 |
 nsICachingChannel
 :
@@ -11270,7 +11270,7 @@ if
 ContainsAllFlags
 (
 mLoadFlags
-LOAD_FROM_CACHE
+VALIDATE_NEVER
 )
 )
 {
@@ -11437,7 +11437,7 @@ FETCH_CACHE_MODE_FORCE_CACHE
 SetCacheFlags
 (
 mLoadFlags
-LOAD_FROM_CACHE
+VALIDATE_NEVER
 )
 ;
 break
@@ -11451,7 +11451,7 @@ FETCH_CACHE_MODE_ONLY_IF_CACHED
 SetCacheFlags
 (
 mLoadFlags
-LOAD_FROM_CACHE
+VALIDATE_NEVER
 |
 nsICachingChannel
 :
