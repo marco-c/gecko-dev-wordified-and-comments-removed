@@ -1182,6 +1182,9 @@ bool
 mBackupConnectedOK
 ;
 bool
+mBackupConnStatsSet
+;
+bool
 mFreeToUse
 ;
 nsresult
