@@ -985,6 +985,16 @@ desktop_release_type
 '
 '
     
+parameters
+[
+'
+release_eta
+'
+]
+=
+'
+'
+    
 if
 '
 '

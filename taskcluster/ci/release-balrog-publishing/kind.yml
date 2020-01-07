@@ -77,6 +77,14 @@ taskgraph
 .
 transforms
 .
+release_balrog_publishing
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 job
 :
 transforms
