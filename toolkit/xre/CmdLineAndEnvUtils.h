@@ -187,6 +187,7 @@ FuncT
 typename
 CharT
 >
+static
 inline
 bool
 strimatch
