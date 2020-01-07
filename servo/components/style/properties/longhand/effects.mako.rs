@@ -87,6 +87,11 @@ color
 #
 opacity
 "
+servo_restyle_damage
+=
+"
+reflow_out_of_flow
+"
 )
 }
 {

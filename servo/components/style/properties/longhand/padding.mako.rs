@@ -223,6 +223,12 @@ side
 [
 1
 ]
+servo_restyle_damage
+=
+"
+reflow
+rebuild_and_reflow_inline
+"
 )
 }
 %

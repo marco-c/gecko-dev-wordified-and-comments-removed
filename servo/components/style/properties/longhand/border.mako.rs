@@ -447,6 +447,12 @@ allow_quirks
 =
 not
 is_logical
+servo_restyle_damage
+=
+"
+reflow
+rebuild_and_reflow_inline
+"
 )
 }
 %

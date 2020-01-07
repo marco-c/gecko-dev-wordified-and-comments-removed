@@ -241,6 +241,11 @@ writing
 -
 mode
 "
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {
@@ -287,6 +292,11 @@ direction
 needs_conversion
 =
 True
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {

@@ -138,6 +138,11 @@ text
 -
 overflow
 "
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {
@@ -192,6 +197,11 @@ propdef
 unicode
 -
 bidi
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 )
 }
@@ -273,6 +283,11 @@ text
 decoration
 -
 line
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 )
 }

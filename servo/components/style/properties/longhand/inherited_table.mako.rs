@@ -86,6 +86,11 @@ border
 -
 collapse
 "
+servo_restyle_damage
+=
+"
+reflow
+"
 )
 }
 {
@@ -135,6 +140,11 @@ propdef
 empty
 -
 cells
+"
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
 "
 )
 }
@@ -198,6 +208,11 @@ caption
 -
 side
 "
+servo_restyle_damage
+=
+"
+rebuild_and_reflow
+"
 )
 }
 {
@@ -255,6 +270,11 @@ propdef
 border
 -
 spacing
+"
+servo_restyle_damage
+=
+"
+reflow
 "
 )
 }
