@@ -4577,7 +4577,7 @@ this
 EditSubAction
 :
 :
-insertText
+eInsertText
 nsIEditor
 :
 :

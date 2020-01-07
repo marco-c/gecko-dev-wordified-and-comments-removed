@@ -28,9 +28,7 @@ eDeleteNode
 eSplitNode
 eJoinNodes
 eDeleteText
-insertText
-=
-2000
+eInsertText
 insertIMEText
 deleteSelection
 setTextProperty

@@ -4466,7 +4466,7 @@ editSubAction
 EditSubAction
 :
 :
-insertText
+eInsertText
 ;
 if
 (
@@ -8266,7 +8266,7 @@ this
 EditSubAction
 :
 :
-insertText
+eInsertText
 nsIEditor
 :
 :
