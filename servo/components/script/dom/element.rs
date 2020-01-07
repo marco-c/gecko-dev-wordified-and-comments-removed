@@ -2551,6 +2551,7 @@ clear
 ;
 }
 }
+pub
 fn
 style
 (
