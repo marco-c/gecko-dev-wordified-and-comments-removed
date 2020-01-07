@@ -259,13 +259,12 @@ mozInlineSpellWordUtil
 aWordUtil
 )
 ;
-already_AddRefed
-<
 nsIDocument
->
+*
 GetDocument
 (
 )
+const
 ;
 already_AddRefed
 <
