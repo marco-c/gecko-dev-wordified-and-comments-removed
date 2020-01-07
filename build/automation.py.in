@@ -467,6 +467,16 @@ _BIN_SUFFIX
 __BIN_SUFFIX__
 #
 expand
+_DEFAULT_APP
+=
+"
+.
+/
+"
++
+__BROWSER_PATH__
+#
+expand
 _CERTS_SRC_DIR
 =
 __CERTS_SRC_DIR__
@@ -691,6 +701,9 @@ IS_WIN32
 and
 not
 IS_MAC
+DEFAULT_APP
+=
+_DEFAULT_APP
 CERTS_SRC_DIR
 =
 _CERTS_SRC_DIR
@@ -819,6 +832,9 @@ Process
 "
 "
 DIST_BIN
+"
+"
+DEFAULT_APP
 "
 "
 CERTS_SRC_DIR

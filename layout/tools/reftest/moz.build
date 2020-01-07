@@ -151,6 +151,16 @@ bootstrap
 js
 '
 ]
+GENERATED_FILES
++
+=
+[
+'
+automation
+.
+py
+'
+]
 TEST_HARNESS_FILES
 .
 reftest
@@ -159,9 +169,6 @@ reftest
 [
 '
 !
-/
-build
-/
 automation
 .
 py
