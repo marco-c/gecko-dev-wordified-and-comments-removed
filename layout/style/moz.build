@@ -1594,9 +1594,10 @@ inc
 in
 '
 '
-PythonCSSProps
+!
+ServoCSSPropList
 .
-h
+py
 '
 ]
 CONFIGURE_SUBST_FILES
