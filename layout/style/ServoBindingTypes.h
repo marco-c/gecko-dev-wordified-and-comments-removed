@@ -377,9 +377,6 @@ StyleChildrenIterator
 RawGeckoStyleChildrenIterator
 ;
 struct
-RawServoUnlockedDeclarationBlock
-;
-struct
 DeclarationBlockMutationClosure
 {
 void
@@ -388,9 +385,6 @@ void
 function
 )
 (
-const
-RawServoUnlockedDeclarationBlock
-*
 void
 *
 )
