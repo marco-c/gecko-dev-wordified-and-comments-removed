@@ -59,6 +59,35 @@ ManifestError
 :
     
 pass
+def
+iterfilter
+(
+filters
+iter
+)
+:
+    
+for
+f
+in
+filters
+:
+        
+iter
+=
+f
+(
+iter
+)
+    
+for
+item
+in
+iter
+:
+        
+yield
+item
 class
 Manifest
 (
@@ -1092,6 +1121,12 @@ from_json
 cls
 tests_root
 obj
+types
+=
+None
+meta_filters
+=
+None
 )
 :
         
@@ -1241,6 +1276,13 @@ support
 SupportFile
 }
         
+meta_filters
+=
+meta_filters
+or
+[
+]
+        
 source_files
 =
 {
@@ -1270,6 +1312,17 @@ item_classes
                 
 raise
 ManifestError
+            
+if
+types
+and
+test_type
+not
+in
+types
+:
+                
+continue
             
 test_cls
 =
@@ -1305,7 +1358,11 @@ path
 for
 test
 in
+iterfilter
+(
+meta_filters
 manifest_tests
+)
 :
                     
 manifest_item
@@ -1353,6 +1410,12 @@ load
 (
 tests_root
 manifest
+types
+=
+None
+meta_filters
+=
+None
 )
 :
     
@@ -1440,6 +1503,12 @@ load
 (
 f
 )
+types
+=
+types
+meta_filters
+=
+meta_filters
 )
         
 except
@@ -1485,6 +1554,12 @@ load
 (
 manifest
 )
+types
+=
+types
+meta_filters
+=
+meta_filters
 )
 def
 write
