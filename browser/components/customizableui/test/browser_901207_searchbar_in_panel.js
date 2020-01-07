@@ -57,6 +57,7 @@ add_task
 (
 async
 function
+check_shortcut_when_in_closed_overflow_panel_closed
 (
 )
 {
@@ -127,6 +128,7 @@ add_task
 (
 async
 function
+check_shortcut_when_in_opened_overflow_panel
 (
 )
 {
@@ -516,6 +518,7 @@ add_task
 (
 async
 function
+check_shortcut_when_not_in_overflow
 (
 )
 {
