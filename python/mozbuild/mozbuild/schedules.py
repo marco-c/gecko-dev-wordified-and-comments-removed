@@ -54,6 +54,28 @@ yaml
 -
 lint
 '
+    
+'
+jittest
+'
+    
+'
+test
+-
+verify
+'
+    
+'
+test
+-
+verify
+-
+wpt
+'
+    
+'
+jsreftest
+'
 ]
 INCLUSIVE_COMPONENTS
 =
@@ -101,10 +123,6 @@ geckoview
     
 '
 gtest
-'
-    
-'
-jittest
 '
     
 '
