@@ -568,10 +568,8 @@ a
 partir
 do
 seu
-'
-Novo
+novo
 separador
-'
 .
 "
 "
