@@ -162,13 +162,6 @@ env
 mach
 build
 -
-cef
-env
-.
-/
-mach
-build
--
 -
 dev
 -

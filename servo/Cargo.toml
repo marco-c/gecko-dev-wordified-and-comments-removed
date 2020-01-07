@@ -28,11 +28,6 @@ geckolib
 /
 tests
 "
-"
-ports
-/
-cef
-"
 ]
 default
 -
