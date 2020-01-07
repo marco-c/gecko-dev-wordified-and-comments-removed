@@ -564,6 +564,8 @@ IsPointerTest
 :
 *
 )
+(
+)
 not
 a
 pointer
