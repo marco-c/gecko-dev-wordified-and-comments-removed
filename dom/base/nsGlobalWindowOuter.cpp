@@ -24411,6 +24411,14 @@ get
 "
 DOM
 "
+!
+!
+principal
+-
+>
+PrivateBrowsingId
+(
+)
 )
 ;
 attrs

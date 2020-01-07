@@ -812,6 +812,7 @@ warningFlag
 chrome
 registration
 "
+false
 )
 ;
 if

@@ -602,6 +602,8 @@ char
 aCategory
 uint64_t
 aInnerWindowID
+bool
+aFromPrivateWindow
 )
 {
 nsCOMPtr
@@ -756,6 +758,7 @@ aLineNumber
 aColumnNumber
 aFlags
 aCategory
+aFromPrivateWindow
 )
 ;
 }
@@ -813,6 +816,8 @@ char
 aCategory
 uint64_t
 aInnerWindowID
+bool
+aFromPrivateWindow
 )
 {
 nsAutoString
@@ -836,6 +841,7 @@ aColumnNumber
 aFlags
 aCategory
 aInnerWindowID
+aFromPrivateWindow
 )
 ;
 }

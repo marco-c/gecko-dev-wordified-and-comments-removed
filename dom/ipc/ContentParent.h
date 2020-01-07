@@ -4231,6 +4231,10 @@ const
 nsCString
 &
 aCategory
+const
+bool
+&
+aIsFromPrivateWindow
 )
 override
 ;
@@ -4272,6 +4276,10 @@ const
 nsCString
 &
 aCategory
+const
+bool
+&
+aIsFromPrivateWindow
 const
 ClonedMessageData
 &
@@ -4318,6 +4326,10 @@ const
 nsCString
 &
 aCategory
+const
+bool
+&
+aIsFromPrivateWindow
 const
 ClonedMessageData
 *

@@ -569,6 +569,12 @@ flags
 in
 string
 category
+[
+optional
+]
+in
+bool
+fromPrivateWindow
 )
 ;
 /

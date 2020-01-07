@@ -475,6 +475,7 @@ aLogLevel
 chrome
 javascript
 "
+false
 )
 ;
 console

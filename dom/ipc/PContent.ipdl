@@ -4414,6 +4414,8 @@ uint32_t
 flags
 nsCString
 category
+bool
+privateWindow
 )
 ;
 async
@@ -4433,6 +4435,8 @@ uint32_t
 flags
 nsCString
 category
+bool
+privateWindow
 ClonedMessageData
 stack
 )

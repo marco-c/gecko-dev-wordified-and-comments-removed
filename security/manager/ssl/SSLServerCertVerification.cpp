@@ -517,6 +517,16 @@ message
 "
 SSL
 "
+!
+!
+socketInfo
+-
+>
+GetOriginAttributes
+(
+)
+.
+mPrivateBrowsingId
 )
 ;
 }

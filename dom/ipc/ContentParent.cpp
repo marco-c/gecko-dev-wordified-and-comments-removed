@@ -18712,6 +18712,10 @@ const
 nsCString
 &
 aCategory
+const
+bool
+&
+aFromPrivateWindow
 )
 {
 return
@@ -18724,6 +18728,7 @@ aLineNumber
 aColNumber
 aFlags
 aCategory
+aFromPrivateWindow
 )
 ;
 }
@@ -18768,6 +18773,10 @@ nsCString
 &
 aCategory
 const
+bool
+&
+aFromPrivateWindow
+const
 ClonedMessageData
 &
 aFrame
@@ -18783,6 +18792,7 @@ aLineNumber
 aColNumber
 aFlags
 aCategory
+aFromPrivateWindow
 &
 aFrame
 )
@@ -18828,6 +18838,10 @@ const
 nsCString
 &
 aCategory
+const
+bool
+&
+aFromPrivateWindow
 const
 ClonedMessageData
 *
@@ -19005,7 +19019,7 @@ rv
 msg
 -
 >
-InitWithWindowID
+Init
 (
 aMessage
 aSourceName
@@ -19014,7 +19028,11 @@ aLineNumber
 aColNumber
 aFlags
 aCategory
-0
+.
+get
+(
+)
+aFromPrivateWindow
 )
 ;
 if

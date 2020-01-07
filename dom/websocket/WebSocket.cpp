@@ -579,6 +579,10 @@ mInnerWindowID
 (
 0
 )
+mPrivateBrowsing
+(
+false
+)
 mWorkerPrivate
 (
 nullptr
@@ -912,6 +916,9 @@ mScriptColumn
 ;
 uint64_t
 mInnerWindowID
+;
+bool
+mPrivateBrowsing
 ;
 WorkerPrivate
 *
@@ -1493,6 +1500,7 @@ errorFlag
 Web
 Socket
 "
+mPrivateBrowsing
 )
 ;
 }
@@ -5950,6 +5958,19 @@ aCx
 )
 ;
 }
+mPrivateBrowsing
+=
+!
+!
+aPrincipal
+-
+>
+OriginAttributesRef
+(
+)
+.
+mPrivateBrowsingId
+;
 rv
 =
 ParseURL
@@ -6223,6 +6244,7 @@ warningFlag
 CSP
 "
 mInnerWindowID
+mPrivateBrowsing
 )
 ;
 }
