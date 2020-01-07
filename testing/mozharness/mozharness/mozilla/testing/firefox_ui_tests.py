@@ -1150,6 +1150,7 @@ path
 .
 join
 (
+                
 abs_dirs
 [
 '
@@ -1162,12 +1163,6 @@ blobber_upload_dir
 )
             
 '
-abs_test_install_dir
-'
-:
-abs_tests_install_dir
-            
-'
 abs_fxui_dir
 '
 :
@@ -1177,6 +1172,7 @@ path
 .
 join
 (
+                
 abs_tests_install_dir
 '
 firefox
@@ -1184,6 +1180,45 @@ firefox
 ui
 '
 )
+            
+'
+abs_fxui_manifest_dir
+'
+:
+os
+.
+path
+.
+join
+(
+                
+abs_tests_install_dir
+'
+firefox
+-
+ui
+'
+'
+tests
+'
+'
+testing
+'
+'
+firefox
+-
+ui
+'
+'
+tests
+'
+)
+            
+'
+abs_test_install_dir
+'
+:
+abs_tests_install_dir
         
 }
         
@@ -1697,16 +1732,13 @@ join
 dirs
 [
 '
-abs_fxui_dir
+abs_fxui_manifest_dir
 '
 ]
-'
-tests
-'
-test
+t
 )
 for
-test
+t
 in
 self
 .
@@ -1885,7 +1917,7 @@ cwd
 dirs
 [
 '
-abs_work_dir
+abs_fxui_dir
 '
 ]
                                        
