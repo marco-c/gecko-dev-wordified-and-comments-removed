@@ -234,6 +234,12 @@ mMetrics
 bool
 mEmbolden
 ;
+nsTArray
+<
+FT_Fixed
+>
+mCoords
+;
 mozilla
 :
 :
