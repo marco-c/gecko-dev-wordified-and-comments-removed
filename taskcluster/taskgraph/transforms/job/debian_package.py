@@ -53,7 +53,7 @@ job
 .
 common
 import
-add_public_artifacts
+add_artifacts
 from
 taskgraph
 .
@@ -366,7 +366,7 @@ snapshot
 ]
 )
     
-add_public_artifacts
+add_artifacts
 (
 config
 job
