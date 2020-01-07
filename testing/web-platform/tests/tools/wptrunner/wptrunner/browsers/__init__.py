@@ -85,7 +85,7 @@ name
 of
 the
 Executor
-implemantation
+implementation
 that
 will
 be
@@ -219,6 +219,10 @@ chrome_android
                 
 "
 edge
+"
+                
+"
+fennec
 "
                 
 "
