@@ -1913,11 +1913,6 @@ InterruptCheck
 \
 _
 (
-WasmInterruptCheck
-)
-\
-_
-(
 Rotate
 )
 \

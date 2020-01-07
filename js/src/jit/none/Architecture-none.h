@@ -54,13 +54,6 @@ WasmStackAlignment
 8
 ;
 static
-const
-uint32_t
-WasmTrapInstructionLength
-=
-0
-;
-static
 constexpr
 bool
 SupportsUint32x4FloatConversions
