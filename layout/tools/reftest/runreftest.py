@@ -1638,7 +1638,7 @@ self
 .
 run_by_manifest
 =
-False
+True
         
 if
 suite
