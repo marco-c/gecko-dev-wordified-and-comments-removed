@@ -6136,9 +6136,6 @@ name
 "
 VRDisplay
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6149,9 +6146,6 @@ name
 "
 VRDisplayCapabilities
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6162,9 +6156,6 @@ name
 "
 VRDisplayEvent
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6175,9 +6166,6 @@ name
 "
 VREyeParameters
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6188,9 +6176,6 @@ name
 "
 VRFieldOfView
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6201,9 +6186,6 @@ name
 "
 VRFrameData
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6214,9 +6196,6 @@ name
 "
 VRPose
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
@@ -6227,9 +6206,6 @@ name
 "
 VRStageParameters
 "
-insecureContext
-:
-true
 releaseNonWindows
 :
 false
