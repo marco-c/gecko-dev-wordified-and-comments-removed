@@ -194,12 +194,14 @@ duration
 of
 the
 hang
+in
+milliseconds
 .
 *
 /
 readonly
 attribute
-uint32_t
+double
 duration
 ;
 /

@@ -7003,7 +7003,10 @@ mCondVar
 .
 Wait
 (
-PR_SecondsToInterval
+TimeDuration
+:
+:
+FromSeconds
 (
 3
 )
