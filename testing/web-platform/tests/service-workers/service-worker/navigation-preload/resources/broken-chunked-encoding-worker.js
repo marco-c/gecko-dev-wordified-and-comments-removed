@@ -55,11 +55,10 @@ new
 Response
 (
 '
-Fail
+PASS
 :
-got
-a
-response
+preloadResponse
+resolved
 '
 )
 _
@@ -69,7 +68,10 @@ new
 Response
 (
 '
-Done
+FAIL
+:
+preloadResponse
+rejected
 '
 )
 )
