@@ -9779,6 +9779,10 @@ mType
 (
 eStyleImageType_Null
 )
+mImage
+(
+nullptr
+)
 mCropRect
 (
 nullptr
