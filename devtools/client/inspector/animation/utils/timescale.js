@@ -83,6 +83,8 @@ endDelay
 iterationCount
 playbackRate
 previousStartTime
+=
+0
 }
 =
 state
@@ -140,13 +142,6 @@ toRate
 delay
 )
 :
-0
-;
-previousStartTime
-=
-previousStartTime
-|
-|
 0
 ;
 const
