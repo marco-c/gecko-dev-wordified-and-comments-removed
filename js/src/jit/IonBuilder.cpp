@@ -127,6 +127,15 @@ h
 #
 include
 "
+util
+/
+PortableMath
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject
