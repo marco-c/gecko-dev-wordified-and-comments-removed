@@ -2904,9 +2904,22 @@ install_pip_package
 html5lib
 =
 =
+1
+.
 0
 .
-99
+1
+'
+)
+        
+self
+.
+virtualenv_manager
+.
+install_pip_package
+(
+'
+ujson
 '
 )
         
