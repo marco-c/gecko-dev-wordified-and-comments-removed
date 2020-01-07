@@ -50,6 +50,16 @@ opacity
 1
 ;
 }
+:
+root
+[
+lwt
+-
+popup
+-
+brighttext
+]
+panel
 toolbar
 [
 brighttext
