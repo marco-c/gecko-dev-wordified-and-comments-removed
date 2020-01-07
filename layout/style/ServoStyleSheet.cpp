@@ -1147,13 +1147,6 @@ css
 :
 :
 Loader
-(
-StyleBackendType
-:
-:
-Servo
-nullptr
-)
 ;
 }
 mozAutoDocUpdate

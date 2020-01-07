@@ -3953,10 +3953,6 @@ loader
 =
 new
 Loader
-(
-mBackendType
-nullptr
-)
 ;
 if
 (

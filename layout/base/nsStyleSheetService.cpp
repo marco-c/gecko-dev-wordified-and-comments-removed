@@ -992,8 +992,6 @@ css
 :
 SheetParsingMode
 aParsingMode
-StyleBackendType
-aType
 RefPtr
 <
 StyleSheet
@@ -1016,10 +1014,6 @@ css
 :
 :
 Loader
-(
-aType
-nullptr
-)
 ;
 return
 loader
@@ -1128,10 +1122,6 @@ LoadSheet
 (
 aSheetURI
 parsingMode
-StyleBackendType
-:
-:
-Servo
 &
 servoSheet
 )

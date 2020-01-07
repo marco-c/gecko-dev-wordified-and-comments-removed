@@ -212,10 +212,6 @@ css
 :
 :
 Loader
-(
-aType
-nullptr
-)
 ;
 nsresult
 rv
@@ -407,13 +403,6 @@ css
 :
 :
 Loader
-(
-StyleBackendType
-:
-:
-Servo
-nullptr
-)
 ;
 RefPtr
 <
