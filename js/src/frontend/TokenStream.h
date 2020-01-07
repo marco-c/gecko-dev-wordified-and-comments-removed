@@ -4430,6 +4430,11 @@ uint32_t
 codePoint
 )
 ;
+void
+ungetLineTerminator
+(
+)
+;
 }
 ;
 template
