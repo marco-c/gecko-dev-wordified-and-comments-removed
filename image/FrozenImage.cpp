@@ -272,7 +272,7 @@ nullptr
 }
 NS_IMETHODIMP_
 (
-DrawResult
+ImgDrawResult
 )
 FrozenImage
 :

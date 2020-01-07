@@ -212,8 +212,8 @@ mozilla
 image
 :
 :
-DrawResult
-DrawResult
+ImgDrawResult
+ImgDrawResult
 ;
 public
 :
@@ -1000,7 +1000,7 @@ mColumnsScrollFrame
 ;
 }
 ;
-DrawResult
+ImgDrawResult
 PaintTreeBody
 (
 gfxContext
@@ -1060,7 +1060,7 @@ friend
 class
 nsOverflowChecker
 ;
-DrawResult
+ImgDrawResult
 PaintColumn
 (
 nsTreeColumn
@@ -1082,7 +1082,7 @@ nsRect
 aDirtyRect
 )
 ;
-DrawResult
+ImgDrawResult
 PaintRow
 (
 int32_t
@@ -1108,7 +1108,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-DrawResult
+ImgDrawResult
 PaintSeparator
 (
 int32_t
@@ -1129,7 +1129,7 @@ nsRect
 aDirtyRect
 )
 ;
-DrawResult
+ImgDrawResult
 PaintCell
 (
 int32_t
@@ -1161,7 +1161,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-DrawResult
+ImgDrawResult
 PaintTwisty
 (
 int32_t
@@ -1191,7 +1191,7 @@ nscoord
 aCurrX
 )
 ;
-DrawResult
+ImgDrawResult
 PaintImage
 (
 int32_t
@@ -1224,7 +1224,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-DrawResult
+ImgDrawResult
 PaintText
 (
 int32_t
@@ -1251,7 +1251,7 @@ nscoord
 aCurrX
 )
 ;
-DrawResult
+ImgDrawResult
 PaintCheckbox
 (
 int32_t
@@ -1275,7 +1275,7 @@ nsRect
 aDirtyRect
 )
 ;
-DrawResult
+ImgDrawResult
 PaintProgressMeter
 (
 int32_t
@@ -1302,7 +1302,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-DrawResult
+ImgDrawResult
 PaintDropFeedback
 (
 const
@@ -1323,7 +1323,7 @@ nsPoint
 aPt
 )
 ;
-DrawResult
+ImgDrawResult
 PaintBackgroundLayer
 (
 nsStyleContext

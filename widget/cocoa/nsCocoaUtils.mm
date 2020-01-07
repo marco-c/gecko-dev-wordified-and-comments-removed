@@ -3125,7 +3125,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 res
 =
 aImage
@@ -3176,7 +3176,7 @@ mozilla
 image
 :
 :
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS

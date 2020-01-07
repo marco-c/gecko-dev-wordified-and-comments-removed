@@ -1717,7 +1717,7 @@ GetSize
 )
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
 mBFR
@@ -2152,7 +2152,7 @@ GetSize
 )
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
 mBFR
@@ -2593,7 +2593,7 @@ innerFocusPadding
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsButtonFrameRenderer
 :
 :
@@ -2640,10 +2640,10 @@ PaintBorderFlags
 (
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
-DrawResult
+ImgDrawResult
 :
 :
 SUCCESS
@@ -2766,7 +2766,7 @@ Nothing
 )
 ;
 }
-DrawResult
+ImgDrawResult
 nsButtonFrameRenderer
 :
 :
@@ -2837,7 +2837,7 @@ mFrame
 buttonRect
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
 nsCSSRendering

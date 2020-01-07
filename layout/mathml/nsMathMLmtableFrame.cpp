@@ -1613,7 +1613,7 @@ PaintBorderFlags
 (
 )
 ;
-DrawResult
+ImgDrawResult
 result
 =
 nsCSSRendering

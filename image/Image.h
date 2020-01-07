@@ -1136,7 +1136,7 @@ mError
 virtual
 Tuple
 <
-DrawResult
+ImgDrawResult
 gfx
 :
 :
@@ -1174,7 +1174,7 @@ aFlags
 return
 MakeTuple
 (
-DrawResult
+ImgDrawResult
 :
 :
 BAD_IMAGE
@@ -1333,7 +1333,7 @@ aContainer
 )
 mLastDrawResult
 (
-DrawResult
+ImgDrawResult
 :
 :
 NOT_READY
@@ -1365,7 +1365,7 @@ ImageContainer
 >
 mContainer
 ;
-DrawResult
+ImgDrawResult
 mLastDrawResult
 ;
 uint32_t

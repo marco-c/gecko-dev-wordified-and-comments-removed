@@ -1261,7 +1261,7 @@ Build
 }
 NS_IMETHODIMP_
 (
-DrawResult
+ImgDrawResult
 )
 OrientedImage
 :
