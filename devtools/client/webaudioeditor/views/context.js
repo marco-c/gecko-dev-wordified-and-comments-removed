@@ -1410,7 +1410,6 @@ _onThemeChange
 :
 function
 (
-eventName
 theme
 )
 {
