@@ -51,7 +51,12 @@ Components
 =
 SpecialPowers
 .
+wrap
+(
+SpecialPowers
+.
 Components
+)
 ;
 }
 function
