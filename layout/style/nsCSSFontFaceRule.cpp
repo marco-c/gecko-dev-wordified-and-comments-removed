@@ -519,7 +519,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMETHODIMP
+void
 nsCSSFontFaceStyleDecl
 :
 :
@@ -534,9 +534,6 @@ GetCssTextImpl
 (
 aCssText
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -690,7 +687,7 @@ n
 }
 }
 }
-NS_IMETHODIMP
+void
 nsCSSFontFaceStyleDecl
 :
 :
@@ -703,10 +700,17 @@ aCssText
 nsIPrincipal
 *
 aSubjectPrincipal
+ErrorResult
+&
+aRv
 )
 {
-return
+aRv
+.
+Throw
+(
 NS_ERROR_NOT_IMPLEMENTED
+)
 ;
 }
 NS_IMETHODIMP
