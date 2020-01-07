@@ -53,7 +53,7 @@ shift
 uint32_t
 h
 =
-BROTLI_UNALIGNED_LOAD32
+BROTLI_UNALIGNED_LOAD32LE
 (
 data
 )
@@ -815,13 +815,9 @@ FindLongestMatch
 HasherHandle
 handle
 const
-BrotliDictionary
+BrotliEncoderDictionary
 *
 dictionary
-const
-uint16_t
-*
-dictionary_hash
 const
 uint8_t
 *
@@ -847,6 +843,9 @@ max_backward
 const
 size_t
 gap
+const
+size_t
+max_distance
 HasherSearchResult
 *
 BROTLI_RESTRICT
@@ -1448,7 +1447,6 @@ score
 SearchInStaticDictionary
 (
 dictionary
-dictionary_hash
 handle
 &
 data
@@ -1459,6 +1457,7 @@ max_length
 max_backward
 +
 gap
+max_distance
 out
 BROTLI_FALSE
 )

@@ -69,7 +69,6 @@ data
 BrotliDictionary
 ;
 BROTLI_COMMON_API
-extern
 const
 BrotliDictionary
 *

@@ -393,7 +393,7 @@ i
 size_t
 j
 ;
-assert
+BROTLI_DCHECK
 (
 num_histograms
 <
@@ -773,7 +773,7 @@ k
 =
 block_switch_cost
 ;
-assert
+BROTLI_DCHECK
 (
 (
 k
@@ -851,7 +851,7 @@ cur_id
 )
 )
 ;
-assert
+BROTLI_DCHECK
 (
 (
 (
@@ -1003,7 +1003,7 @@ length
 i
 )
 {
-assert
+BROTLI_DCHECK
 (
 block_ids
 [
@@ -1072,7 +1072,7 @@ i
 ]
 ]
 ;
-assert
+BROTLI_DCHECK
 (
 block_ids
 [
@@ -1083,7 +1083,7 @@ num_histograms
 )
 ;
 }
-assert
+BROTLI_DCHECK
 (
 next_id
 <
@@ -1433,7 +1433,7 @@ length
 i
 )
 {
-assert
+BROTLI_DCHECK
 (
 block_idx
 <
@@ -1477,7 +1477,7 @@ block_idx
 ;
 }
 }
-assert
+BROTLI_DCHECK
 (
 block_idx
 =
@@ -1786,7 +1786,7 @@ num_clusters
 =
 num_new_clusters
 ;
-assert
+BROTLI_DCHECK
 (
 num_clusters
 =
@@ -1794,7 +1794,7 @@ num_clusters
 cluster_size_size
 )
 ;
-assert
+BROTLI_DCHECK
 (
 num_clusters
 =

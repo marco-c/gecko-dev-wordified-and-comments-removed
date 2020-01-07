@@ -159,6 +159,13 @@ dictionary
 c
 '
 '
+common
+/
+transform
+.
+c
+'
+'
 dec
 /
 bit_reader
@@ -302,6 +309,13 @@ c
 enc
 /
 encode
+.
+c
+'
+'
+enc
+/
+encoder_dict
 .
 c
 '

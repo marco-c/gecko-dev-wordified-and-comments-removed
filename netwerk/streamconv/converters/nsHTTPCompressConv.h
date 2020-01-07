@@ -222,6 +222,9 @@ BrotliDecoderStateInit
 (
 &
 mState
+0
+0
+0
 )
 ;
 }
