@@ -1546,16 +1546,6 @@ return
 mNeedStyleFlush
 ;
 }
-bool
-NeedLayoutFlush
-(
-)
-const
-{
-return
-mNeedLayoutFlush
-;
-}
 virtual
 nsresult
 PostReflowCallback
