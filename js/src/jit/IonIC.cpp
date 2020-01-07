@@ -375,6 +375,12 @@ CacheKind
 :
 TypeOf
 :
+case
+CacheKind
+:
+:
+ToBool
+:
 MOZ_CRASH
 (
 "
