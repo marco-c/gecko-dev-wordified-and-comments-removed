@@ -921,6 +921,8 @@ history
 -
 remember
 -
+browser
+-
 option
 .
 label
@@ -1198,6 +1200,8 @@ history
 -
 remember
 -
+browser
+-
 option
 "
 preference
@@ -1437,7 +1441,7 @@ searchkeywords
 =
 "
 &
-clearDataSettings3
+clearDataSettings4
 .
 label
 ;

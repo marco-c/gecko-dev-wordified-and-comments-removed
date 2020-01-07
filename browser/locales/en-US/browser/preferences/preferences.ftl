@@ -4868,13 +4868,14 @@ history
 -
 remember
 -
+browser
+-
 option
 =
 .
 label
 =
 Remember
-my
 browsing
 and
 download
