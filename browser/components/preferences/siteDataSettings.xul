@@ -464,6 +464,11 @@ thin
 >
 <
 richlistbox
+seltype
+=
+"
+multiple
+"
 id
 =
 "
