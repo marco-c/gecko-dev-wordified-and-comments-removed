@@ -9,7 +9,8 @@ support
 .
 mouse
 import
-get_center
+get_inview_center
+get_viewport_rect
 from
 tests
 .
@@ -90,27 +91,6 @@ inline
 (
 content
 )
-def
-approx
-(
-n
-m
-tolerance
-=
-1
-)
-:
-    
-return
-abs
-(
-n
--
-m
-)
-<
-=
-tolerance
 def
 test_click_at_coordinates
 (
@@ -519,11 +499,15 @@ False
     
 center
 =
-get_center
+get_inview_center
 (
 outer
 .
 rect
+get_viewport_rect
+(
+session
+)
 )
     
 mouse_chain
@@ -610,6 +594,8 @@ mousemove
 :
             
 assert
+pytest
+.
 approx
 (
 e
@@ -627,6 +613,8 @@ x
 )
             
 assert
+pytest
+.
 approx
 (
 e
@@ -852,8 +840,8 @@ parametrize
 dx
 dy
 "
-    
 [
+    
 (
 20
 0
@@ -926,9 +914,13 @@ rect
     
 initial_center
 =
-get_center
+get_inview_center
 (
 initial_rect
+get_viewport_rect
+(
+session
+)
 )
     
 mouse_chain
@@ -1018,6 +1010,8 @@ mouseup
 "
     
 assert
+pytest
+.
 approx
 (
 e
@@ -1037,6 +1031,8 @@ dx
 )
     
 assert
+pytest
+.
 approx
 (
 e
