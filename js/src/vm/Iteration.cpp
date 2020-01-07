@@ -4912,6 +4912,12 @@ return
 iterResultTemplate_
 ;
 }
+AutoSweepObjectGroup
+sweep
+(
+group
+)
+;
 if
 (
 !
@@ -4920,6 +4926,7 @@ group
 >
 unknownProperties
 (
+sweep
 )
 )
 {
@@ -4932,6 +4939,7 @@ group
 >
 maybeGetProperty
 (
+sweep
 NameToId
 (
 cx
@@ -4962,6 +4970,7 @@ types
 >
 makeUnknown
 (
+sweep
 cx
 )
 ;

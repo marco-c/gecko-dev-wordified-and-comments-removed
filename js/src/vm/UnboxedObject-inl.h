@@ -61,6 +61,14 @@ layout
 )
 const
 {
+AutoSweepObjectGroup
+sweep
+(
+group
+(
+)
+)
+;
 return
 group
 (
@@ -69,6 +77,7 @@ group
 >
 unboxedLayout
 (
+sweep
 )
 ;
 }

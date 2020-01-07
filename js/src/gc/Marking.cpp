@@ -8166,11 +8166,18 @@ JSTracer
 trc
 )
 {
+AutoSweepObjectGroup
+sweep
+(
+this
+)
+;
 unsigned
 count
 =
 getPropertyCount
 (
+sweep
 )
 ;
 for
@@ -8200,6 +8207,7 @@ prop
 =
 getProperty
 (
+sweep
 i
 )
 )
@@ -8286,10 +8294,12 @@ if
 (
 newScript
 (
+sweep
 )
 )
 newScript
 (
+sweep
 )
 -
 >
@@ -8302,10 +8312,12 @@ if
 (
 maybePreliminaryObjects
 (
+sweep
 )
 )
 maybePreliminaryObjects
 (
+sweep
 )
 -
 >
@@ -8318,10 +8330,12 @@ if
 (
 maybeUnboxedLayout
 (
+sweep
 )
 )
 unboxedLayout
 (
+sweep
 )
 .
 trace
@@ -8443,6 +8457,12 @@ ObjectGroup
 group
 )
 {
+AutoSweepObjectGroup
+sweep
+(
+group
+)
+;
 unsigned
 count
 =
@@ -8451,6 +8471,7 @@ group
 >
 getPropertyCount
 (
+sweep
 )
 ;
 for
@@ -8483,6 +8504,7 @@ group
 >
 getProperty
 (
+sweep
 i
 )
 )
@@ -8578,6 +8600,7 @@ group
 >
 newScript
 (
+sweep
 )
 )
 group
@@ -8585,6 +8608,7 @@ group
 >
 newScript
 (
+sweep
 )
 -
 >
@@ -8600,6 +8624,7 @@ group
 >
 maybePreliminaryObjects
 (
+sweep
 )
 )
 group
@@ -8607,6 +8632,7 @@ group
 >
 maybePreliminaryObjects
 (
+sweep
 )
 -
 >
@@ -8622,6 +8648,7 @@ group
 >
 maybeUnboxedLayout
 (
+sweep
 )
 )
 group
@@ -8629,6 +8656,7 @@ group
 >
 unboxedLayout
 (
+sweep
 )
 .
 trace
@@ -9502,7 +9530,7 @@ needsSweep
 group
 -
 >
-unknownProperties
+unknownPropertiesDontCheckGeneration
 (
 )
 )
@@ -9516,7 +9544,7 @@ typeSet
 group
 -
 >
-maybeGetProperty
+maybeGetPropertyDontCheckGeneration
 (
 JSID_VOID
 )
