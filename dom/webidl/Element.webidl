@@ -1575,6 +1575,7 @@ SetterNeedsSubjectPrincipal
 NonSystem
 Pure
 SetterThrows
+GetterCanOOM
 TreatNullAs
 =
 EmptyString

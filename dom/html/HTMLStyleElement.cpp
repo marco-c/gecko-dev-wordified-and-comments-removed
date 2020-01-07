@@ -566,7 +566,7 @@ aNotify
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLStyleElement
 :
 :
@@ -575,6 +575,9 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
+OOMReporter
+&
+aError
 )
 {
 if
@@ -592,13 +595,13 @@ fallible
 )
 )
 {
-return
-NS_ERROR_OUT_OF_MEMORY
+aError
+.
+ReportOOM
+(
+)
 ;
 }
-return
-NS_OK
-;
 }
 void
 HTMLStyleElement

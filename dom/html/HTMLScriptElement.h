@@ -79,12 +79,15 @@ aFromParser
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_IMETHOD
+void
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
+OOMReporter
+&
+aError
 )
 override
 ;
