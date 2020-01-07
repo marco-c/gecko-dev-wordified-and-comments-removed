@@ -1252,15 +1252,6 @@ Promise
 >
 mPromiseGripArray
 ;
-nsTArray
-<
-RefPtr
-<
-Promise
->
->
-mPendingResumePromises
-;
 nsTHashtable
 <
 nsRefPtrHashKey
