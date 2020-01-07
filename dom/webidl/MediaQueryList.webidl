@@ -141,6 +141,9 @@ apply
 .
 *
 /
+[
+ProbablyShortLivingWrapper
+]
 interface
 MediaQueryList
 :
