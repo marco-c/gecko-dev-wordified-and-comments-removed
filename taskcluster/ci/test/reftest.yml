@@ -377,6 +377,11 @@ qr
 *
 :
 4
+linux32
+/
+debug
+:
+5
 macosx
 .
 *
