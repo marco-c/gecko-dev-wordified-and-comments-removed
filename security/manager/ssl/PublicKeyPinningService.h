@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsNSSCertificate
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -77,7 +84,10 @@ nsresult
 ChainHasValidPins
 (
 const
-UniqueCERTCertList
+RefPtr
+<
+nsNSSCertList
+>
 &
 certList
 const
@@ -111,7 +121,10 @@ nsresult
 ChainMatchesPinset
 (
 const
-UniqueCERTCertList
+RefPtr
+<
+nsNSSCertList
+>
 &
 certList
 const
