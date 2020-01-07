@@ -489,9 +489,6 @@ nsTArray
 <
 RefPtr
 <
-workers
-:
-:
 WorkerRunnable
 >
 >

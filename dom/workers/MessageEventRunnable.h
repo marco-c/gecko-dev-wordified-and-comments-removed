@@ -43,9 +43,6 @@ MessageEventRunnable
 final
 :
 public
-workers
-:
-:
 WorkerRunnable
 public
 StructuredCloneHolder

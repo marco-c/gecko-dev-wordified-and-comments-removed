@@ -110,7 +110,16 @@ WorkerScope
 .
 h
 "
-USING_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+using
+namespace
+workers
+;
 namespace
 {
 const
@@ -2966,4 +2975,6 @@ mWorkerHolder
 =
 nullptr
 ;
+}
+}
 }
