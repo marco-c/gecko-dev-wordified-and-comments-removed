@@ -266,20 +266,12 @@ JSON
 \
 n
 "
++
                 
-"
-%
-s
-"
-%
-json
+http_response
 .
-dumps
+read
 (
-body
-indent
-=
-2
 )
 )
         
