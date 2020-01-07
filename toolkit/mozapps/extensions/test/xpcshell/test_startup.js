@@ -300,6 +300,9 @@ mozilla
 .
 org
 "
+version
+:
+undefined
 name
 :
 "
