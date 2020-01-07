@@ -563,7 +563,7 @@ PanelUI
 -
 remotetabs
 -
-setupsync
+unverified
 "
 false
 )
@@ -573,7 +573,7 @@ checkMenuBarItem
 "
 sync
 -
-setup
+unverifieditem
 "
 )
 ;
@@ -1126,6 +1126,13 @@ remotetabs
 -
 reauthsync
 "
+"
+PanelUI
+-
+remotetabs
+-
+unverified
+"
 ]
 expectedShownItemId
 )
@@ -1182,6 +1189,11 @@ syncnowitem
 sync
 -
 reauthitem
+"
+"
+sync
+-
+unverifieditem
 "
 ]
 expectedShownItemId
