@@ -7834,7 +7834,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWorkerPrivate
 )
