@@ -3909,14 +3909,6 @@ true
 ;
 }
 virtual
-void
-Dump
-(
-)
-=
-0
-;
-virtual
 bool
 ContainsOnlyColoredGlyphs
 (
