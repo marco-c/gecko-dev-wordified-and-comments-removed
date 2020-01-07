@@ -527,6 +527,12 @@ aMessage
 {
 if
 (
+NS_SUCCEEDED
+(
+mInitializationResult
+)
+&
+&
 !
 mDestroyed
 )
