@@ -37,6 +37,9 @@ notificationclose
 class
 nsIInterceptedChannel
 ;
+class
+nsIWorkerDebugger
+;
 namespace
 mozilla
 {
