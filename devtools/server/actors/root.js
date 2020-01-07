@@ -67,7 +67,7 @@ lazyRequireGetter
 (
 this
 "
-WindowActor
+ChromeWindowTargetActor
 "
 "
 devtools
@@ -76,6 +76,10 @@ server
 /
 actors
 /
+targets
+/
+chrome
+-
 window
 "
 true
@@ -515,7 +519,7 @@ null
 ;
 this
 .
-_windowActorPool
+_chromeWindowActorPool
 =
 null
 ;
@@ -1102,12 +1106,12 @@ if
 !
 this
 .
-_windowActorPool
+_chromeWindowActorPool
 )
 {
 this
 .
-_windowActorPool
+_chromeWindowActorPool
 =
 new
 ActorPool
@@ -1125,7 +1129,7 @@ addActorPool
 (
 this
 .
-_windowActorPool
+_chromeWindowActorPool
 )
 ;
 }
@@ -1133,7 +1137,7 @@ const
 actor
 =
 new
-WindowActor
+ChromeWindowTargetActor
 (
 this
 .
@@ -1151,7 +1155,7 @@ actorID
 ;
 this
 .
-_windowActorPool
+_chromeWindowActorPool
 .
 addActor
 (

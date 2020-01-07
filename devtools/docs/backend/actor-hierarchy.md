@@ -632,8 +632,10 @@ process
 |
 -
 -
-WindowActor
+ChromeWindowTargetActor
 (
+chrome
+-
 window
 .
 js

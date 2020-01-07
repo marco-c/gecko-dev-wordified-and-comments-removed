@@ -95,6 +95,13 @@ context
 js
 '
 '
+chrome
+-
+window
+.
+js
+'
+'
 frame
 -
 proxy
