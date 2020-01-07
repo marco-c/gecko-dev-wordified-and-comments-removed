@@ -6652,6 +6652,14 @@ do_QueryObject
 preHttp
 )
 ;
+if
+(
+preCh
+&
+&
+reqCh
+)
+{
 preCh
 -
 >
@@ -6665,6 +6673,7 @@ GetWarningReporter
 )
 )
 ;
+}
 nsTArray
 <
 nsCString
