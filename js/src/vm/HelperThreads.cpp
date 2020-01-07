@@ -4084,7 +4084,7 @@ setMergeable
 true
 )
 .
-setNewZone
+setNewCompartmentAndZone
 (
 )
 ;

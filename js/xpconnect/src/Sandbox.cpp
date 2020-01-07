@@ -5576,7 +5576,7 @@ sameZoneAs
 )
 creationOptions
 .
-setExistingZone
+setNewCompartmentInExistingZone
 (
 js
 :
@@ -5598,14 +5598,14 @@ freshZone
 )
 creationOptions
 .
-setNewZone
+setNewCompartmentAndZone
 (
 )
 ;
 else
 creationOptions
 .
-setSystemZone
+setNewCompartmentInSystemZone
 (
 )
 ;

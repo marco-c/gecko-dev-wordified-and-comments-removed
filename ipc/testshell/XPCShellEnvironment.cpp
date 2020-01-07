@@ -2183,7 +2183,7 @@ creationOptions
 (
 )
 .
-setSystemZone
+setNewCompartmentInSystemZone
 (
 )
 ;

@@ -2882,7 +2882,7 @@ creationOptions
 (
 )
 .
-setSystemZone
+setNewCompartmentInSystemZone
 (
 )
 ;

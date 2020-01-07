@@ -17191,7 +17191,7 @@ creationOptions
 (
 )
 .
-setNewZone
+setNewCompartmentAndZone
 (
 )
 ;

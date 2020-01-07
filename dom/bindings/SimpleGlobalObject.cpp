@@ -361,7 +361,7 @@ setInvisibleToDebugger
 true
 )
 .
-setSystemZone
+setNewCompartmentInSystemZone
 (
 )
 ;
