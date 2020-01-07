@@ -18,17 +18,6 @@ h
 "
 const
 jsid
-JSID_VOID
-=
-{
-size_t
-(
-JSID_TYPE_VOID
-)
-}
-;
-const
-jsid
 JSID_EMPTY
 =
 {
