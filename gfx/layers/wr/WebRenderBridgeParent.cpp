@@ -4616,6 +4616,16 @@ this
 )
 ;
 }
+TimeStamp
+start
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 MOZ_ASSERT
 (
 bufferTexture
@@ -4744,6 +4754,7 @@ mApi
 >
 Readback
 (
+start
 size
 buffer
 buffer_size

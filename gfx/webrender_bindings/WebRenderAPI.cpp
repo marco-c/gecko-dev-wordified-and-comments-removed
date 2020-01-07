@@ -1705,6 +1705,10 @@ WebRenderAPI
 :
 Readback
 (
+const
+TimeStamp
+&
+aStartTime
 gfx
 :
 :
@@ -1734,6 +1738,8 @@ layers
 SynchronousTask
 *
 aTask
+TimeStamp
+aStartTime
 gfx
 :
 :
@@ -1749,6 +1755,10 @@ aBufferSize
 mTask
 (
 aTask
+)
+mStartTime
+(
+aStartTime
 )
 mSize
 (
@@ -1797,6 +1807,7 @@ aRenderThread
 UpdateAndRender
 (
 aWindowId
+mStartTime
 true
 )
 ;
@@ -1840,6 +1851,9 @@ SynchronousTask
 *
 mTask
 ;
+TimeStamp
+mStartTime
+;
 gfx
 :
 :
@@ -1876,6 +1890,7 @@ Readback
 (
 &
 task
+aStartTime
 size
 buffer
 buffer_size
