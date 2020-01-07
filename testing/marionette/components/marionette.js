@@ -1201,6 +1201,7 @@ this
 .
 init
 (
+false
 )
 ;
 }
@@ -1724,6 +1725,9 @@ true
 }
 init
 (
+quit
+=
+true
 )
 {
 if
@@ -2016,6 +2020,11 @@ uninit
 (
 )
 ;
+if
+(
+quit
+)
+{
 Services
 .
 startup
@@ -2029,6 +2038,7 @@ nsIAppStartup
 eForceQuit
 )
 ;
+}
 return
 ;
 }
