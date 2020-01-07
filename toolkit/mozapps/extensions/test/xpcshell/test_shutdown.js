@@ -143,6 +143,9 @@ recordTiming
 "
 BOOTSTRAP_REASONS
 "
+"
+notifyAddonChanged
+"
 ]
 ;
 async
