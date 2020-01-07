@@ -2094,10 +2094,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsMapObject
+IntrinsicGuardToMapObject
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
