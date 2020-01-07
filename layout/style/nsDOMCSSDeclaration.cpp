@@ -1778,6 +1778,9 @@ EnsureMutable
 (
 )
 ;
+if
+(
+!
 decl
 -
 >
@@ -1785,7 +1788,12 @@ RemovePropertyByID
 (
 aPropID
 )
+)
+{
+return
+NS_OK
 ;
+}
 return
 SetCSSDeclaration
 (
@@ -1846,6 +1854,9 @@ EnsureMutable
 (
 )
 ;
+if
+(
+!
 decl
 -
 >
@@ -1853,7 +1864,12 @@ RemoveProperty
 (
 aPropertyName
 )
+)
+{
+return
+NS_OK
 ;
+}
 return
 SetCSSDeclaration
 (

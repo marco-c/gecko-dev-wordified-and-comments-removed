@@ -1621,7 +1621,7 @@ loader
 SERVO_BINDING_FUNC
 (
 Servo_DeclarationBlock_RemoveProperty
-void
+bool
 RawServoDeclarationBlockBorrowed
 declarations
 const

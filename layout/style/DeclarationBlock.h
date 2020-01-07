@@ -450,7 +450,7 @@ aProperty
 const
 ;
 inline
-void
+bool
 RemoveProperty
 (
 const

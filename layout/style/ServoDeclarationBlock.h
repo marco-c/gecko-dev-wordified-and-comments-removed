@@ -352,7 +352,7 @@ aProperty
 )
 const
 ;
-void
+bool
 RemoveProperty
 (
 const

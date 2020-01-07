@@ -903,7 +903,7 @@ return
 r
 ;
 }
-void
+bool
 Declaration
 :
 :
@@ -915,6 +915,11 @@ nsAString
 aProperty
 )
 {
+bool
+r
+=
+true
+;
 DispatchPropertyOperation
 (
 aProperty
@@ -926,6 +931,8 @@ nsCSSPropertyID
 propID
 )
 {
+r
+=
 RemovePropertyByID
 (
 propID
@@ -942,6 +949,8 @@ nsAString
 name
 )
 {
+r
+=
 RemoveVariable
 (
 name
@@ -949,6 +958,9 @@ name
 ;
 }
 )
+;
+return
+r
 ;
 }
 bool
@@ -8159,6 +8171,9 @@ MOZ_FALLTHROUGH
 ;
 }
 case
+eCSSProperty_overflow_clip_box
+:
+case
 eCSSProperty_grid_gap
 :
 {
@@ -10517,7 +10532,7 @@ propertyIndex
 )
 ;
 }
-void
+bool
 Declaration
 :
 :
@@ -10596,7 +10611,13 @@ index
 eCSSProperty_COUNT
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 bool
 Declaration

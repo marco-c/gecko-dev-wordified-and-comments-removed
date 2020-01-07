@@ -380,7 +380,7 @@ aProperty
 )
 const
 ;
-void
+bool
 RemoveProperty
 (
 const
@@ -439,7 +439,7 @@ bool
 aOverrideImportant
 )
 ;
-void
+bool
 RemoveVariable
 (
 const
