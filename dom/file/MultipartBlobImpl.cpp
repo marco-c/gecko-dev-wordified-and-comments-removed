@@ -1387,6 +1387,7 @@ PR_USEC_PER_MSEC
 JS_Now
 (
 )
+0
 )
 ;
 }

@@ -250,6 +250,7 @@ ReduceTimePrecisionAsUSecs
 PR_Now
 (
 )
+0
 )
 ;
 }
