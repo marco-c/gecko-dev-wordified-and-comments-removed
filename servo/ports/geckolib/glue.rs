@@ -22432,9 +22432,6 @@ ServoElementSnapshotTable
 raw_data
 :
 RawServoStyleSetBorrowed
-ignore_existing_styles
-:
-bool
 )
 -
 >
@@ -22616,10 +22613,6 @@ RuleInclusion
 :
 :
 All
-&
-&
-!
-ignore_existing_styles
 {
 let
 styles
@@ -22742,7 +22735,6 @@ mut
 context
 element
 rule_inclusion
-ignore_existing_styles
 pseudo
 .
 as_ref

@@ -1064,9 +1064,6 @@ E
 rule_inclusion
 :
 RuleInclusion
-ignore_existing_style
-:
-bool
 pseudo
 :
 Option
@@ -1099,9 +1096,6 @@ RuleInclusion
 :
 :
 DefaultOnly
-|
-|
-ignore_existing_style
 |
 |
 pseudo
@@ -1211,10 +1205,6 @@ RuleInclusion
 :
 :
 All
-&
-&
-!
-ignore_existing_style
 {
 if
 let
