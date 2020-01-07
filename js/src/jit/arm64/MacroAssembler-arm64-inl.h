@@ -10194,7 +10194,7 @@ index
 Register
 length
 Register
-scratch
+maybeScratch
 Label
 *
 failure
@@ -10213,7 +10213,7 @@ MOZ_ASSERT
 length
 !
 =
-scratch
+maybeScratch
 )
 ;
 MOZ_ASSERT
@@ -10221,7 +10221,7 @@ MOZ_ASSERT
 index
 !
 =
-scratch
+maybeScratch
 )
 ;
 branch32
@@ -10277,7 +10277,7 @@ Address
 &
 length
 Register
-scratch
+maybeScratch
 Label
 *
 failure
@@ -10300,7 +10300,7 @@ length
 base
 !
 =
-scratch
+maybeScratch
 )
 ;
 MOZ_ASSERT
@@ -10308,7 +10308,7 @@ MOZ_ASSERT
 index
 !
 =
-scratch
+maybeScratch
 )
 ;
 branch32
