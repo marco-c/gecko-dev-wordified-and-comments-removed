@@ -191,8 +191,6 @@ EventListenerOptions
 {
 boolean
 passive
-=
-false
 ;
 boolean
 once
