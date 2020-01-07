@@ -621,7 +621,7 @@ Inactive
 DocumentSource
 :
 :
-NotFromParser
+FromParser
 loader
 None
 None
@@ -642,6 +642,16 @@ parse_xml_document
 document
 s
 url
+)
+;
+document
+.
+set_ready_state
+(
+DocumentReadyState
+:
+:
+Complete
 )
 ;
 Ok
