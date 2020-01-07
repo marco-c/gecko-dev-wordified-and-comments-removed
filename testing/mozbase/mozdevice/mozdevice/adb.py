@@ -1523,7 +1523,10 @@ start_time
 )
 <
 =
+float
+(
 timeout
+)
 and
                
 adb_process
@@ -7570,7 +7573,10 @@ signal
 .
 alarm
 (
+int
+(
 timeout
+)
 )
             
 try
@@ -7913,7 +7919,10 @@ start_time
 )
 <
 =
+float
+(
 timeout
+)
 )
 and
 exitcode
@@ -7970,7 +7979,10 @@ start_time
 )
 <
 =
+float
+(
 timeout
+)
 )
 and
 exitcode
