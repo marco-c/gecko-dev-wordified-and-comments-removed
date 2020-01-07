@@ -372,9 +372,6 @@ namespace
 dom
 {
 class
-BlobSet
-;
-class
 DOMString
 ;
 class

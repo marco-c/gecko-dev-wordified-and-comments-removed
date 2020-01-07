@@ -58,17 +58,6 @@ mozilla
 /
 dom
 /
-BlobSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DocGroup
 .
 h
