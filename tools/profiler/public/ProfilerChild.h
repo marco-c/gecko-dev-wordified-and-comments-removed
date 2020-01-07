@@ -161,6 +161,15 @@ aActorDestroyReason
 )
 override
 ;
+Shmem
+ConvertProfileStringToShmem
+(
+const
+nsCString
+&
+profile
+)
+;
 FORWARD_SHMEM_ALLOCATOR_TO
 (
 PProfilerChild
