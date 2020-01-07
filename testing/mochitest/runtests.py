@@ -753,13 +753,6 @@ buffered_messages
 =
 [
 ]
-        
-self
-.
-errors
-=
-[
-]
     
 def
 validate
@@ -1287,15 +1280,6 @@ UNEXPECTED
 )
 )
 :
-            
-self
-.
-errors
-.
-append
-(
-message
-)
             
 self
 .
@@ -17472,7 +17456,7 @@ tests
         
 result
 =
-1
+0
         
 origPrefs
 =
@@ -17622,7 +17606,7 @@ manifest
 m
 ]
             
-result
+res
 =
 self
 .
@@ -17631,6 +17615,12 @@ runMochitests
 options
 tests_in_manifest
 )
+            
+result
+=
+result
+or
+res
             
 self
 .
@@ -17641,7 +17631,7 @@ dump_buffered
 )
             
 if
-result
+res
 =
 =
 -
@@ -17861,6 +17851,20 @@ SimpleTest
 FINISHED
 "
 )
+        
+if
+not
+result
+and
+not
+self
+.
+countpass
+:
+            
+result
+=
+1
         
 return
 result
@@ -20740,60 +20744,6 @@ logzip
 .
 close
 (
-)
-    
-if
-build_obj
-:
-        
-if
-runner
-.
-message_logger
-.
-errors
-:
-            
-result
-=
-1
-            
-runner
-.
-message_logger
-.
-logger
-.
-warning
-(
-"
-The
-following
-tests
-failed
-:
-"
-)
-            
-for
-error
-in
-runner
-.
-message_logger
-.
-errors
-:
-                
-runner
-.
-message_logger
-.
-logger
-.
-log_raw
-(
-error
 )
     
 runner
