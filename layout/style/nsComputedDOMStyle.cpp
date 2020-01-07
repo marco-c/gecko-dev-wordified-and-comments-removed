@@ -822,7 +822,10 @@ nsCSSProps
 PropHasFlags
 (
 mProperty
-CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+CSSPropFlags
+:
+:
+GetCSNeedsLayoutFlush
 )
 ;
 }

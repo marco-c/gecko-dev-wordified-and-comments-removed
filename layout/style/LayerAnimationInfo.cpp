@@ -77,7 +77,10 @@ PropHasFlags
 record
 .
 mProperty
-CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+CSSPropFlags
+:
+:
+CanAnimateOnCompositor
 )
 "
 CSS
@@ -95,7 +98,10 @@ not
 "
 have
 the
-CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+CSSPropFlags
+:
+:
+CanAnimateOnCompositor
 flag
 "
 )
@@ -133,7 +139,10 @@ nsCSSProps
 PropHasFlags
 (
 prop
-CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+CSSPropFlags
+:
+:
+CanAnimateOnCompositor
 )
 )
 {
@@ -178,7 +187,10 @@ CSS
 property
 with
 the
-CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+CSSPropFlags
+:
+:
+CanAnimateOnCompositor
 "
 "
 flag

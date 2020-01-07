@@ -449,6 +449,11 @@ CSSEnabledState
 h
 '
 '
+CSSPropFlags
+.
+h
+'
+'
 DeclarationBlock
 .
 h
