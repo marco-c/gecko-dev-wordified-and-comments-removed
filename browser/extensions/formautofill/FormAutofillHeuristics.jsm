@@ -1290,9 +1290,7 @@ el
 nodeType
 =
 =
-Ci
-.
-nsIDOMNode
+el
 .
 TEXT_NODE
 |
@@ -1356,9 +1354,7 @@ if
 nodeType
 !
 =
-Ci
-.
-nsIDOMNode
+node
 .
 ELEMENT_NODE
 &
@@ -1366,9 +1362,7 @@ ELEMENT_NODE
 nodeType
 !
 =
-Ci
-.
-nsIDOMNode
+node
 .
 TEXT_NODE
 )
