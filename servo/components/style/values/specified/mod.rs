@@ -797,7 +797,8 @@ text
 InitialLetter
 LetterSpacing
 LineHeight
-TextDecorationLine
+MozTabSize
+TextAlign
 }
 ;
 pub
@@ -809,8 +810,8 @@ text
 :
 :
 {
-TextAlign
 TextAlignKeyword
+TextDecorationLine
 TextOverflow
 WordSpacing
 }
