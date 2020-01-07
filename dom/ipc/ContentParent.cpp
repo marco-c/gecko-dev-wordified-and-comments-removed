@@ -11576,15 +11576,6 @@ gAppData
 vendor
 )
 ;
-nsCString
-sourceURL
-(
-gAppData
--
->
-sourceURL
-)
-;
 Unused
 <
 <
@@ -11596,7 +11587,6 @@ name
 UAName
 ID
 vendor
-sourceURL
 )
 ;
 }

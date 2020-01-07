@@ -356,9 +356,6 @@ profile
 CharPtr
 UAName
 ;
-CharPtr
-sourceURL
-;
 #
 if
 defined
@@ -477,11 +474,6 @@ const
 char
 *
 UAName
-;
-const
-char
-*
-sourceURL
 ;
 }
 ;
