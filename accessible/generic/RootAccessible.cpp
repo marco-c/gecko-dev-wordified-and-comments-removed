@@ -867,9 +867,6 @@ e_end
 e
 )
 {
-nsresult
-rv
-=
 target
 -
 >
@@ -882,12 +879,6 @@ e
 )
 this
 true
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
