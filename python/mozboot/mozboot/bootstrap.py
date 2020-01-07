@@ -2192,24 +2192,6 @@ ensure_stylo_packages
 state_dir
 checkout_root
 )
-            
-if
-'
-mobile_android
-'
-in
-application
-:
-                
-self
-.
-instance
-.
-ensure_proguard_packages
-(
-state_dir
-checkout_root
-)
         
 print
 (
