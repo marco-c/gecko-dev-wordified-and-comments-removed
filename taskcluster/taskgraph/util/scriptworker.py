@@ -2829,6 +2829,28 @@ updates
 builder
 '
                                                  
+'
+release
+-
+update
+-
+verify
+-
+config
+'
+                                                 
+'
+release
+-
+secondary
+-
+update
+-
+verify
+-
+config
+'
+                                                 
 )
 :
         
