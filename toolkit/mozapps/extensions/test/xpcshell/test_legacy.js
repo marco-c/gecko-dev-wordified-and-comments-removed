@@ -75,9 +75,6 @@ version
 bootstrap
 :
 true
-multiprocessCompatible
-:
-true
 }
 {
 id
@@ -211,9 +208,6 @@ version
 0
 "
 bootstrap
-:
-true
-multiprocessCompatible
 :
 true
 }

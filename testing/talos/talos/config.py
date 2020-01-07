@@ -2038,20 +2038,6 @@ required
 '
 :
 False
-        
-'
-extensions
-.
-allow
--
-non
--
-mpc
--
-extensions
-'
-:
-True
     
 }
 )
