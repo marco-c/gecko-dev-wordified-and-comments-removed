@@ -8621,7 +8621,7 @@ addon
 =
 XPIDatabase
 .
-addAddonMetadata
+addToDatabase
 (
 this
 .
@@ -18219,7 +18219,7 @@ addon
 =
 XPIDatabase
 .
-addAddonMetadata
+addToDatabase
 (
 addon
 addon
