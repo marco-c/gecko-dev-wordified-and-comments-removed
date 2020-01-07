@@ -787,6 +787,7 @@ None
 if
 pattern
 :
+        
 filelist
 =
 glob
@@ -865,6 +866,7 @@ filename
 file_suffix
 =
 file_suffix
+                  
 prefix
 =
 prefix
@@ -928,6 +930,7 @@ file_suffix
 platform
 .
 arch
+               
 prefix
 =
 platform
@@ -1488,6 +1491,7 @@ s
 n
 '
 %
+                             
 (
 tag_tuple
 [

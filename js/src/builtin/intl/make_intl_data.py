@@ -1557,6 +1557,7 @@ preferred
 raise
 Exception
 (
+                    
 "
 Expected
 '
@@ -2159,7 +2160,7 @@ in
 3
 ]
 \
-                       
+                    
 "
 Language
 -
@@ -2347,6 +2348,7 @@ cond
 .
 append
 (
+                        
 '
 callFunction
 (
@@ -2937,7 +2939,7 @@ in
 3
 ]
 \
-                   
+                
 "
 Language
 -
@@ -3345,6 +3347,7 @@ length
 .
 format
 (
+                    
 preferred_subtag
 )
 )
@@ -3726,7 +3729,7 @@ tag
 dict
 )
 \
-                   
+                
 "
 only
 supports
@@ -5210,6 +5213,7 @@ s
 ?
 "
 %
+                       
 (
 nameSyntax
 nameSyntax
@@ -5588,11 +5592,13 @@ r
 "
 '
     
+def
 asVector
-=
-lambda
+(
 val
+)
 :
+return
 r
 "
 %
@@ -6011,10 +6017,12 @@ tables
 [
 ]
     
+def
 currentTable
-=
-lambda
+(
+)
 :
+return
 "
 |
 "
@@ -6334,11 +6342,13 @@ timezone
 |
 "
     
+def
 toTimeZone
-=
-lambda
+(
 name
+)
 :
+return
 Zone
 (
 name
@@ -6787,11 +6797,13 @@ readICUTimeZonesFromTimezoneTypes
 icuTzDir
 )
     
+def
 inZoneInfo64
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 zoneinfoZones
@@ -6833,6 +6845,7 @@ zone
 target
 for
 (
+        
 zone
 target
 )
@@ -6937,7 +6950,7 @@ set
 (
 chain
 (
-                 
+        
 (
 zone
 for
@@ -6950,7 +6963,7 @@ not
 in
 typesLinks
 )
-                 
+        
 (
 zone
 for
@@ -6958,7 +6971,7 @@ zone
 in
 typesZones
 )
-               
+    
 )
 )
     
@@ -6968,7 +6981,7 @@ dict
 (
 chain
 (
-                 
+        
 (
 (
 zone
@@ -6991,7 +7004,7 @@ not
 in
 typesZones
 )
-                 
+        
 (
 (
 zone
@@ -7009,7 +7022,7 @@ items
 (
 )
 )
-               
+    
 )
 )
     
@@ -7344,11 +7357,13 @@ entries
 "
 "
     
+def
 isIANATimeZone
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 ianaZones
@@ -7357,11 +7372,13 @@ zone
 in
 ianaLinks
     
+def
 isICUTimeZone
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 icuZones
@@ -7370,11 +7387,13 @@ zone
 in
 icuLinks
     
+def
 isICULink
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 icuLinks
@@ -7604,11 +7623,13 @@ entries
 "
 "
     
+def
 isIANATimeZone
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 ianaZones
@@ -7617,11 +7638,13 @@ zone
 in
 ianaLinks
     
+def
 isICUTimeZone
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 icuZones
@@ -7630,20 +7653,24 @@ zone
 in
 icuLinks
     
+def
 isICULink
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 icuLinks
     
+def
 isICUZone
-=
-lambda
+(
 zone
+)
 :
+return
 zone
 in
 icuZones
@@ -7781,6 +7808,7 @@ for
 zone
 target
 )
+         
 in
 ianaLinks
 .
@@ -8005,6 +8033,7 @@ incorrectZones
 =
 findIncorrectICUZones
 (
+        
 ianaZones
 ianaLinks
 icuZones
@@ -8739,11 +8768,13 @@ links
 )
 :
     
+def
 withZone
-=
-lambda
+(
 fn
+)
 :
+return
 lambda
 zone_target
 :
@@ -8838,7 +8869,7 @@ zone
 )
 updatedLinks
 )
-           
+                
 )
 )
 def
@@ -9581,6 +9612,7 @@ links
 zone
 ]
 )
+         
 for
 zone
 in
@@ -9811,6 +9843,7 @@ links
 zone
 ]
 )
+         
 for
 (
 zone
@@ -10301,6 +10334,7 @@ tar
 icuDir
 icuTzDir
 version
+                                 
 ignoreBackzone
 ignoreFactory
 out
@@ -10313,6 +10347,7 @@ TzDataFile
 tar
 )
 version
+                                    
 ignoreBackzone
 dateTimeFormatTestDir
 )
@@ -10337,6 +10372,7 @@ f
 icuDir
 icuTzDir
 version
+                             
 ignoreBackzone
 ignoreFactory
 out
@@ -11112,6 +11148,7 @@ request
 .
 add_header
 (
+            
 "
 User
 -

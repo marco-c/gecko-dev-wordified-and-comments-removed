@@ -656,6 +656,7 @@ target
 )
 )
 :
+                
 yield
 t2
         
@@ -715,6 +716,7 @@ followers
 b
 )
 :
+                    
 yield
 t2
     
@@ -729,6 +731,7 @@ followers
 t
 )
 :
+        
 yield
 t2
 template_regexp
@@ -981,6 +984,7 @@ t2
 if
 p
 :
+                        
 return
 p
             
@@ -1019,6 +1023,7 @@ t2
 if
 p
 :
+                        
 return
 p
             
@@ -1036,6 +1041,7 @@ t
 if
 p
 :
+                    
 return
 p
                 
@@ -1081,6 +1087,7 @@ group
 if
 p
 :
+                            
 return
 p
         
@@ -1132,6 +1139,7 @@ cache
 if
 p
 :
+                        
 return
 p
         
@@ -1449,11 +1457,13 @@ enumval
 )
 :
             
+def
 field_enum_value
-=
-lambda
+(
 f
+)
 :
+return
 f
 .
 enumval
@@ -1461,11 +1471,13 @@ enumval
 else
 :
             
+def
 field_enum_value
-=
-lambda
+(
 f
+)
 :
+return
 f
 .
 bitpos

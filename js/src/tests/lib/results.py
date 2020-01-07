@@ -1238,7 +1238,7 @@ options
 .
 show_output
 \
-                              
+                    
 or
 not
 self
@@ -1275,7 +1275,7 @@ options
 .
 show_output
 \
-                              
+                    
 and
 not
 self
@@ -1316,7 +1316,7 @@ options
 .
 show_cmd
 \
-                           
+                    
 and
 not
 self
@@ -2058,7 +2058,7 @@ RANDOM
 '
 '
 )
-        
+    
 }
     
 def

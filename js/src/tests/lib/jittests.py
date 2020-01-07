@@ -4,8 +4,11 @@ import
 print_function
 import
 os
+import
 posixpath
+import
 sys
+import
 traceback
 import
 subprocess
@@ -1074,7 +1077,6 @@ opts
 in
 variants
 ]
-;
         
 return
 [
@@ -2156,7 +2158,6 @@ scriptdir_var
 )
 )
 ]
-;
         
 cmd
 =

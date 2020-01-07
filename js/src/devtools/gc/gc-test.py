@@ -1,13 +1,20 @@
 import
 datetime
+import
 os
+import
 re
+import
 sys
+import
 traceback
 import
 math
+import
 string
+import
 copy
+import
 json
 import
 subprocess
@@ -685,7 +692,7 @@ SAvg
 SAvg
 )
 )
-            
+                
 for
 filename
 (
@@ -855,7 +862,7 @@ baseline
 '
 %
 \
-                    
+                
 (
 CTAvg
 BTAvg
@@ -911,7 +918,7 @@ baseline
 '
 %
 \
-                    
+                
 (
 CTAvg
 BTAvg
@@ -1046,7 +1053,7 @@ metavar
 '
 JSON_PATH
 '
-            
+                  
 dest
 =
 '
@@ -1062,7 +1069,7 @@ baseline
 values
 to
 '
-            
+                  
 '
 compare
 against

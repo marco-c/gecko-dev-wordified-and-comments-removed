@@ -26,8 +26,11 @@ import
 print_function
 import
 os
+import
 sys
+import
 textwrap
+import
 platform
 from
 os
@@ -60,7 +63,7 @@ RefTestCase
 get_jitflags
 get_cpu_count
 \
-                      
+    
 get_environment_overlay
 change_env
 from
@@ -185,6 +188,7 @@ PathOptions
 .
 _split_files_and_dirs
 (
+            
 location
 excluded_paths
 )
@@ -1960,7 +1964,7 @@ default
 '
 none
 '
-                          
+                         
 type
 =
 '
@@ -1976,7 +1980,7 @@ automation
 none
 '
 ]
-                          
+                         
 help
 =
 '
@@ -3331,7 +3335,7 @@ exe
 )
 or
 not
-            
+                
 os
 .
 access
@@ -3350,7 +3354,7 @@ X_OK
 )
 )
 :
-           
+            
 print
 (
 '
@@ -3366,7 +3370,7 @@ options
 .
 js_shell
 )
-           
+            
 return
 1
     

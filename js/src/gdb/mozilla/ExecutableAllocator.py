@@ -339,7 +339,6 @@ self
 index
 =
 0
-;
             
 HASHNUMBER_BIT_SIZE
 =
@@ -399,7 +398,6 @@ self
             
 return
 self
-;
         
 def
 __next__

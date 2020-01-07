@@ -1381,7 +1381,7 @@ length
 '
 ]
 and
-            
+                
 diff
 =
 =
@@ -3762,6 +3762,7 @@ d
 values
 (
 )
+                                               
 for
 d
 in
@@ -3788,6 +3789,7 @@ d
 values
 (
 )
+                                               
 for
 d
 in
@@ -3885,6 +3887,7 @@ d
 values
 (
 )
+                                               
 for
 d
 in
@@ -3911,6 +3914,7 @@ d
 values
 (
 )
+                                               
 for
 d
 in
@@ -3946,7 +3950,6 @@ unconditional_toupper
 0x0053
 0x0053
 ]
-;
     
 assert
 unconditional_tolower
@@ -3983,7 +3986,6 @@ conditional_tolower
 Final_Sigma
 '
 )
-;
     
 return
 (
@@ -4012,7 +4014,6 @@ UnicodeNonBMP
 .
 h
 '
-;
     
 with
 io
@@ -4223,6 +4224,7 @@ non_bmp_file
 '
 CASE_FOLDING
 '
+                                   
 non_bmp_folding_map
 codepoint_table
 )
@@ -4243,6 +4245,7 @@ non_bmp_file
 '
 REV_CASE_FOLDING
 '
+                                   
 non_bmp_rev_folding_map
 codepoint_table
 )
@@ -6142,7 +6145,6 @@ i
 10
 +
 j
-;
                 
 if
 (
@@ -6970,7 +6972,7 @@ non_bmp_upper_map
 [
 code
 ]
-           
+                
 codepoint_table
 .
 name
@@ -7055,7 +7057,7 @@ non_bmp_lower_map
 [
 code
 ]
-           
+                
 codepoint_table
 .
 name
@@ -9228,6 +9230,7 @@ codepoint_table
 .
 name
 (
+                                                                                                 
 from_code
 )
                                                                                              
@@ -9795,8 +9798,7 @@ getsize
 (
 t
 )
-\
-            
+              
 "
 bytes
 "
@@ -10605,7 +10607,7 @@ hex4
 (
 end
 )
-                                                               
+                                                   
 '
 {
 }
@@ -10620,7 +10622,7 @@ format
 s_name
 e_name
 )
-                                                               
+                                                   
 if
 start
 !
@@ -12080,7 +12082,7 @@ utf
 as
 unicode_data
 \
-         
+            
 io
 .
 open
@@ -12112,7 +12114,7 @@ utf
 as
 case_folding
 \
-         
+            
 io
 .
 open
@@ -12144,7 +12146,7 @@ utf
 as
 derived_core_properties
 \
-         
+            
 io
 .
 open
@@ -12327,6 +12329,7 @@ make_non_bmp_mapping_test
 (
 unicode_version
 non_bmp_upper_map
+                              
 non_bmp_lower_map
 codepoint_table
 )

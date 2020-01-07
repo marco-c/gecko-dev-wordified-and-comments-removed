@@ -857,7 +857,7 @@ Deallocate
 )
         
 JoinParallelTasksPhaseKind
-        
+    
 ]
 )
     
@@ -1514,7 +1514,6 @@ name
 type
 )
 )
-;
     
 writeList
 (

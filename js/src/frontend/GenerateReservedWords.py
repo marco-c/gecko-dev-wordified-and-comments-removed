@@ -216,7 +216,6 @@ reserved_word_list
 =
 0
 )
-;
     
 chars_dict
 =
@@ -291,7 +290,6 @@ reserved_word_list
 =
 0
 )
-;
     
 assert
 (
@@ -300,7 +298,6 @@ unprocessed_columns
 =
 0
 )
-;
     
 min_count
 =
@@ -450,7 +447,6 @@ reserved_word_list
 =
 0
 )
-;
     
 column_dict
 =
@@ -533,7 +529,6 @@ reserved_word_list
 =
 0
 )
-;
     
 if
 not
@@ -773,7 +768,6 @@ unprocessed_columns
 =
 0
 )
-;
     
 optimal_column_index
 use_if
@@ -986,7 +980,6 @@ reserved_word_list
 =
 0
 )
-;
     
 length_dict
 =
@@ -1061,7 +1054,6 @@ reserved_word_list
 =
 0
 )
-;
     
 line
 (

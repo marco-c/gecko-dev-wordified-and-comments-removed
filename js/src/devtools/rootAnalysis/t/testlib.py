@@ -47,6 +47,7 @@ HazardSummary
 =
 namedtuple
 (
+    
 '
 HazardSummary
 '
@@ -1003,6 +1004,7 @@ re
 .
 match
 (
+                
 r
 "
 Function
