@@ -39,6 +39,15 @@ include
 "
 mozilla
 /
+CORSMode
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -331,6 +340,10 @@ aValue
 StartImageLoad
 (
 aDocument
+CORSMode
+:
+:
+CORS_NONE
 )
 ;
 if

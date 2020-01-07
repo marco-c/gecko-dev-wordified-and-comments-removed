@@ -5119,6 +5119,11 @@ StartImageLoad
 nsIDocument
 *
 aDocument
+mozilla
+:
+:
+CORSMode
+aCORSMode
 )
 const
 {
@@ -5162,6 +5167,7 @@ mValue
 .
 mURL
 aDocument
+aCORSMode
 )
 ;
 nsCSSValue
@@ -17351,6 +17357,8 @@ aExtraData
 nsIDocument
 *
 aDocument
+CORSMode
+aCORSMode
 )
 :
 URLValueData
@@ -17379,6 +17387,10 @@ aExtraData
 )
 )
 {
+mCORSMode
+=
+aCORSMode
+;
 Initialize
 (
 aDocument
@@ -17409,6 +17421,8 @@ aExtraData
 nsIDocument
 *
 aDocument
+CORSMode
+aCORSMode
 )
 :
 URLValueData
@@ -17437,6 +17451,10 @@ aExtraData
 )
 )
 {
+mCORSMode
+=
+aCORSMode
+;
 Initialize
 (
 aDocument
@@ -17460,6 +17478,8 @@ already_AddRefed
 URLExtraData
 >
 aExtraData
+CORSMode
+aCORSMode
 )
 :
 URLValueData
@@ -17471,6 +17491,10 @@ aExtraData
 )
 )
 {
+mCORSMode
+=
+aCORSMode
+;
 }
 css
 :
@@ -17490,6 +17514,8 @@ already_AddRefed
 URLExtraData
 >
 aExtraData
+CORSMode
+aCORSMode
 )
 :
 URLValueData
@@ -17501,6 +17527,10 @@ aExtraData
 )
 )
 {
+mCORSMode
+=
+aCORSMode
+;
 }
 css
 :
@@ -17521,6 +17551,8 @@ aUrl
 nsIDocument
 *
 aDocument
+CORSMode
+aCORSMode
 )
 {
 if
@@ -17562,6 +17594,7 @@ aUrl
 mExtraData
 )
 aDocument
+aCORSMode
 )
 ;
 }
@@ -17592,6 +17625,7 @@ aUrl
 mExtraData
 )
 aDocument
+aCORSMode
 )
 ;
 }
@@ -17670,10 +17704,7 @@ GetReferrer
 (
 )
 this
-CORSMode
-:
-:
-CORS_NONE
+mCORSMode
 )
 ;
 mLoadedImage
