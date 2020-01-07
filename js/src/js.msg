@@ -3755,6 +3755,17 @@ literal
 )
 MSG_DEF
 (
+JSMSG_BAD_ESCAPE
+0
+JSEXN_SYNTAXERR
+"
+invalid
+escape
+sequence
+"
+)
+MSG_DEF
+(
 JSMSG_ILLEGAL_CHARACTER
 0
 JSEXN_SYNTAXERR
