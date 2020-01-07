@@ -14185,9 +14185,6 @@ nsFrameLoader
 :
 AttributeChanged
 (
-nsIDocument
-*
-aDocument
 mozilla
 :
 :

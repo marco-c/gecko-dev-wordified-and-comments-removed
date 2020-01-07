@@ -1305,13 +1305,6 @@ aShell
 ContentRemoved
 (
 aContent
--
->
-GetComposedDoc
-(
-)
-parentContent
-aContent
 nullptr
 )
 ;

@@ -700,9 +700,6 @@ SVGMPathElement
 :
 AttributeChanged
 (
-nsIDocument
-*
-aDocument
 Element
 *
 aElement

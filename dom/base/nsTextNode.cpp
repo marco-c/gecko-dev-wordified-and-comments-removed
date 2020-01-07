@@ -1259,9 +1259,6 @@ nsAttributeTextNode
 :
 AttributeChanged
 (
-nsIDocument
-*
-aDocument
 Element
 *
 aElement
