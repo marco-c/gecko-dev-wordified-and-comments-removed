@@ -2712,7 +2712,7 @@ frame
 content
 aStatus
 true
-aTargetContent
+nullptr
 )
 ;
 PostHandlePointerEventsPreventDefault
@@ -2742,7 +2742,6 @@ aFrame
 event
 aDontRetargetEvents
 aStatus
-aTargetContent
 )
 ;
 PostHandlePointerEventsPreventDefault

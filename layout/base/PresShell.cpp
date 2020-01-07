@@ -31006,10 +31006,6 @@ aDontRetargetEvents
 nsEventStatus
 *
 aEventStatus
-nsIContent
-*
-*
-aTargetContent
 )
 {
 #
