@@ -431,7 +431,7 @@ specify
 hashes
 to
 ensure
-compatibiliy
+compatibility
 and
 protect
 against
