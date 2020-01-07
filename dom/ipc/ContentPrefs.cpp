@@ -488,6 +488,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 "
 "
