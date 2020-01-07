@@ -1,5 +1,11 @@
-unsigned
-int
+#
+include
+"
+bzlib_private
+.
+h
+"
+UInt32
 BZ2_crc32Table
 [
 256
