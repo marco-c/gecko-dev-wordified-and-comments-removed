@@ -837,6 +837,11 @@ TimeUnits
 h
 '
 '
+Tracing
+.
+h
+'
+'
 TrackID
 .
 h
@@ -1360,6 +1365,11 @@ cpp
 '
 '
 TextTrackRegion
+.
+cpp
+'
+'
+Tracing
 .
 cpp
 '
