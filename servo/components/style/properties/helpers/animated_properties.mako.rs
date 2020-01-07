@@ -5862,7 +5862,7 @@ Ok
 SquaredDistance
 :
 :
-Value
+from_sqrt
 (
 if
 *
@@ -14677,10 +14677,8 @@ Ok
 SquaredDistance
 :
 :
-Value
+from_sqrt
 (
-distance
-*
 distance
 )
 )
