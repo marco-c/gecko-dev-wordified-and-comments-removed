@@ -19,8 +19,6 @@ Components
 )
 {
 }
-Assert
-.
 ok
 (
 false
@@ -42,8 +40,6 @@ catch
 e
 )
 {
-Assert
-.
 ok
 (
 true
@@ -58,8 +54,6 @@ threw
 true
 ;
 }
-Assert
-.
 ok
 (
 threw
@@ -109,9 +103,9 @@ true
 ;
 sb
 .
-do_check_true
+ok
 =
-do_check_true
+ok
 ;
 Components
 .

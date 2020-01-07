@@ -219,8 +219,6 @@ readyState
 return
 false
 ;
-Assert
-.
 equal
 (
 xhr
@@ -229,8 +227,6 @@ status
 200
 )
 ;
-Assert
-.
 equal
 (
 xhr
@@ -258,8 +254,6 @@ item
 0
 )
 ;
-Assert
-.
 equal
 (
 root_node
@@ -707,9 +701,9 @@ sb
 ;
 sb
 .
-do_check_eq
+equal
 =
-do_check_eq
+equal
 ;
 sb
 .

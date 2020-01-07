@@ -1003,9 +1003,9 @@ ADDONID
 ;
 moduleScope
 .
-do_check_eq
+equal
 =
-do_check_eq
+equal
 ;
 function
 funToIntercept
@@ -1013,8 +1013,6 @@ funToIntercept
 addonId
 )
 {
-Assert
-.
 equal
 (
 addonId

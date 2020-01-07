@@ -2299,7 +2299,7 @@ Assert
 .
 equal
 (
-false
+null
 await
 PlacesUtils
 .

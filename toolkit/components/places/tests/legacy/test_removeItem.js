@@ -50,7 +50,7 @@ Assert
 .
 equal
 (
-false
+null
 await
 PlacesUtils
 .
@@ -147,7 +147,7 @@ Assert
 .
 equal
 (
-false
+null
 await
 PlacesUtils
 .

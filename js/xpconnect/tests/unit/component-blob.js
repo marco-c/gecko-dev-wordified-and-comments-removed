@@ -56,8 +56,11 @@ Components
 .
 utils
 ;
-function
-do_check_true
+const
+Assert
+=
+{
+ok
 (
 cond
 text
@@ -78,6 +81,8 @@ check
 text
 ;
 }
+}
+;
 function
 BlobComponent
 (

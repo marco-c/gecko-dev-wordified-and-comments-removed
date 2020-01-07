@@ -33,8 +33,6 @@ catch
 e
 )
 {
-Assert
-.
 ok
 (
 /
@@ -102,9 +100,9 @@ com
 ;
 sb
 .
-do_check_true
+ok
 =
-do_check_true
+ok
 ;
 sb
 .
