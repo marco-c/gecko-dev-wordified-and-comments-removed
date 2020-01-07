@@ -12247,7 +12247,7 @@ this
 EditSubAction
 :
 :
-deleteText
+eDeleteText
 nsIEditor
 :
 :

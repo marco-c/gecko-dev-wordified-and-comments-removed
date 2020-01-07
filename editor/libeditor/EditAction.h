@@ -27,9 +27,7 @@ eCreateNode
 eDeleteNode
 eSplitNode
 eJoinNodes
-deleteText
-=
-1003
+eDeleteText
 insertText
 =
 2000

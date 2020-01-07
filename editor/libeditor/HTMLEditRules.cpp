@@ -34045,7 +34045,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteText
+eDeleteText
 )
 {
 bool
@@ -35191,7 +35191,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteText
+eDeleteText
 )
 {
 if
