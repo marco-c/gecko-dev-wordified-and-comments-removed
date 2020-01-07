@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+3
+)
+;
 function
 getCoordsFromPosition
 (
