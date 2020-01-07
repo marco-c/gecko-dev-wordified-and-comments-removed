@@ -38898,7 +38898,7 @@ network
 .
 activity
 .
-intervalMilliseconds
+blipIntervalMilliseconds
 "
 0
 )

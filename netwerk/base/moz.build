@@ -375,11 +375,6 @@ nsINetUtil
 idl
 '
 '
-nsINetworkActivityData
-.
-idl
-'
-'
 nsINetworkInfoService
 .
 idl

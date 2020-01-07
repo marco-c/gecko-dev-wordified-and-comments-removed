@@ -1890,9 +1890,9 @@ network
 .
 activity
 .
-intervalMilliseconds
+blipIntervalMilliseconds
 "
-5000
+250
 )
 ;
 user_pref
