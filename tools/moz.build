@@ -457,3 +457,17 @@ cram
 ini
 '
 ]
+PYTHON_UNITTEST_MANIFESTS
++
+=
+[
+'
+tryselect
+/
+test
+/
+python
+.
+ini
+'
+]
