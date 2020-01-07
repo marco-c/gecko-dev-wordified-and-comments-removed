@@ -3032,7 +3032,7 @@ binaryname
 ContextForTopLevelLoad
 )
 ]
-nsISupports
+LoadContextRef
 binaryContextForTopLevelLoad
 (
 )
