@@ -638,9 +638,7 @@ tab
 )
 ;
 await
-TestUtils
-.
-waitForCondition
+promiseWaitForCondition
 (
 (
 )
@@ -1411,15 +1409,12 @@ tab
 )
 ;
 await
-TestUtils
-.
-waitForCondition
+promiseWaitForCondition
 (
 (
 )
 =
 >
-!
 webrtcUI
 .
 showCameraIndicator
