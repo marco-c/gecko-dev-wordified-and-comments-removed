@@ -645,7 +645,8 @@ bool
 aHandled
 )
 ;
-void
+MOZ_MUST_USE
+nsresult
 DeleteNodeIfCollapsedText
 (
 nsINode
