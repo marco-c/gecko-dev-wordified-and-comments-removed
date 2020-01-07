@@ -45,16 +45,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "
@@ -2655,7 +2646,8 @@ Style
 (
 )
 ;
-StyleSetHandle
+ServoStyleSet
+*
 styleSet
 =
 aPresContext

@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-ServoStyleSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 css
 /
 GroupRule

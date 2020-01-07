@@ -299,15 +299,6 @@ include
 "
 mozilla
 /
-ServoStyleSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Unused
 .
 h

@@ -1850,11 +1850,6 @@ presShell
 StyleSet
 (
 )
--
->
-AsServo
-(
-)
 ;
 StyleChildrenIterator
 iter
@@ -2096,11 +2091,6 @@ presShell
 -
 >
 StyleSet
-(
-)
--
->
-AsServo
 (
 )
 ;

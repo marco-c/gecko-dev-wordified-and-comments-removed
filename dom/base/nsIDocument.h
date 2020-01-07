@@ -587,7 +587,7 @@ class
 PendingAnimationTracker
 ;
 class
-StyleSetHandle
+ServoStyleSet
 ;
 template
 <
@@ -2802,7 +2802,13 @@ aViewManager
 mozilla
 :
 :
-StyleSetHandle
+UniquePtr
+<
+mozilla
+:
+:
+ServoStyleSet
+>
 aStyleSet
 )
 ;
@@ -9820,7 +9826,8 @@ FillStyleSet
 mozilla
 :
 :
-StyleSetHandle
+ServoStyleSet
+*
 aStyleSet
 )
 ;

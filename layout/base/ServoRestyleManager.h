@@ -73,6 +73,9 @@ class
 Element
 ;
 }
+class
+ServoStyleSet
+;
 }
 class
 nsAttrValue
@@ -746,11 +749,6 @@ PresContext
 -
 >
 StyleSet
-(
-)
--
->
-AsServo
 (
 )
 ;

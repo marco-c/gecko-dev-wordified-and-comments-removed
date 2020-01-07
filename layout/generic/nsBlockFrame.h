@@ -67,7 +67,7 @@ class
 ServoRestyleState
 ;
 class
-StyleSetHandle
+ServoStyleSet
 ;
 }
 class
@@ -2540,7 +2540,8 @@ aType
 mozilla
 :
 :
-StyleSetHandle
+ServoStyleSet
+*
 aStyleSet
 )
 ;

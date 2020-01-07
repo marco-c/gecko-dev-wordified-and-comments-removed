@@ -262,7 +262,7 @@ include
 "
 mozilla
 /
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "
@@ -409,7 +409,8 @@ if
 presShell
 )
 {
-StyleSetHandle
+ServoStyleSet
+*
 styleSet
 =
 presShell
@@ -982,11 +983,6 @@ shell
 -
 >
 StyleSet
-(
-)
--
->
-AsServo
 (
 )
 ;

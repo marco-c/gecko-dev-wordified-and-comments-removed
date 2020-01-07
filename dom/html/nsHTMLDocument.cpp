@@ -9348,7 +9348,7 @@ nsTArray
 <
 RefPtr
 <
-StyleSheet
+ServoStyleSheet
 >
 >
 agentSheets
@@ -9904,7 +9904,7 @@ nsTArray
 <
 RefPtr
 <
-StyleSheet
+ServoStyleSheet
 >
 >
 agentSheets
@@ -9935,7 +9935,7 @@ Singleton
 (
 )
 ;
-StyleSheet
+ServoStyleSheet
 *
 contentEditableSheet
 =
@@ -9943,6 +9943,11 @@ cache
 -
 >
 ContentEditableSheet
+(
+)
+-
+>
+AsServo
 (
 )
 ;
@@ -9970,7 +9975,7 @@ if
 designMode
 )
 {
-StyleSheet
+ServoStyleSheet
 *
 designModeSheet
 =
@@ -9978,6 +9983,11 @@ cache
 -
 >
 DesignModeSheet
+(
+)
+-
+>
+AsServo
 (
 )
 ;
@@ -10029,6 +10039,11 @@ cache
 -
 >
 DesignModeSheet
+(
+)
+-
+>
+AsServo
 (
 )
 )

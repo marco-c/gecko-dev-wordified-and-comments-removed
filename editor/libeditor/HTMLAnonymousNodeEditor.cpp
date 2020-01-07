@@ -846,8 +846,6 @@ forget
 )
 )
 ;
-if
-(
 ServoStyleSet
 *
 styleSet
@@ -858,13 +856,7 @@ ps
 StyleSet
 (
 )
--
->
-GetAsServo
-(
-)
-)
-{
+;
 if
 (
 ServoStyleSet
@@ -884,7 +876,6 @@ StyleNewSubtree
 newContent
 )
 ;
-}
 }
 ElementDeletionObserver
 *

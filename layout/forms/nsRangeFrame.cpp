@@ -141,16 +141,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "
@@ -318,7 +309,8 @@ mDummyTouchListener
 false
 )
 ;
-StyleSetHandle
+ServoStyleSet
+*
 styleSet
 =
 PresContext

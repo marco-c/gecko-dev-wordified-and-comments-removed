@@ -39,15 +39,6 @@ nsSVGUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ServoStyleSet
-.
-h
-"
 inline
 void
 nsStyleImage
