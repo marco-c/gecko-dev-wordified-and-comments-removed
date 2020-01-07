@@ -39,9 +39,3 @@ VIEW_NODE_SHAPE_POINT_TYPE
 =
 6
 ;
-exports
-.
-VIEW_NODE_VARIABLE_TYPE
-=
-7
-;
