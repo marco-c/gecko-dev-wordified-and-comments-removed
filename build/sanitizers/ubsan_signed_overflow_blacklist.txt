@@ -1772,13 +1772,6 @@ src
 :
 *
 /
-HashFunctions
-.
-h
-src
-:
-*
-/
 intl
 /
 icu
