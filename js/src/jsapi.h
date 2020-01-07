@@ -21800,13 +21800,15 @@ TranscodeSources
 ;
 enum
 TranscodeResult
+:
+uint8_t
 {
 TranscodeResult_Ok
 =
 0
 TranscodeResult_Failure
 =
-0x100
+0x10
 TranscodeResult_Failure_BadBuildId
 =
 TranscodeResult_Failure
@@ -21839,7 +21841,7 @@ TranscodeResult_Failure
 0x6
 TranscodeResult_Throw
 =
-0x200
+0x20
 }
 ;
 extern

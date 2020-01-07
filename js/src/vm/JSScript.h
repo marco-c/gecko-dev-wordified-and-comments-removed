@@ -1864,7 +1864,7 @@ XDRMode
 mode
 >
 MOZ_MUST_USE
-bool
+XDRResult
 performXDR
 (
 XDRState
@@ -2601,7 +2601,7 @@ template
 XDRMode
 mode
 >
-bool
+XDRResult
 XDRScript
 (
 XDRState
@@ -2625,7 +2625,7 @@ template
 XDRMode
 mode
 >
-bool
+XDRResult
 XDRLazyScript
 (
 XDRState
@@ -2653,7 +2653,7 @@ template
 XDRMode
 mode
 >
-bool
+XDRResult
 XDRScriptConst
 (
 XDRState
@@ -3162,7 +3162,10 @@ XDRMode
 mode
 >
 friend
-bool
+js
+:
+:
+XDRResult
 js
 :
 :
