@@ -3402,7 +3402,7 @@ NS_OK
 Loader
 :
 :
-StyleSheetInfo
+SheetInfo
 info
 {
 *

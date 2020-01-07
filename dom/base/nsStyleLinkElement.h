@@ -316,7 +316,7 @@ mozilla
 :
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (

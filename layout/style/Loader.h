@@ -704,8 +704,8 @@ typedef
 nsIStyleSheetLinkingElement
 :
 :
-StyleSheetInfo
-StyleSheetInfo
+SheetInfo
+SheetInfo
 ;
 Loader
 (
@@ -787,7 +787,7 @@ nsresult
 LoadInlineStyle
 (
 const
-StyleSheetInfo
+SheetInfo
 &
 const
 nsAString
@@ -808,7 +808,7 @@ nsresult
 LoadStyleLink
 (
 const
-StyleSheetInfo
+SheetInfo
 &
 nsICSSLoaderObserver
 *
@@ -1115,7 +1115,7 @@ nsresult
 CreateSheet
 (
 const
-StyleSheetInfo
+SheetInfo
 &
 aInfo
 nsIPrincipal

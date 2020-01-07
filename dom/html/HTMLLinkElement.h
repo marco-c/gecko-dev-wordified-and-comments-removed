@@ -963,7 +963,7 @@ HTMLLinkElement
 ;
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (

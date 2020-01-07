@@ -346,7 +346,7 @@ Maybe
 nsStyleLinkElement
 :
 :
-StyleSheetInfo
+SheetInfo
 >
 XMLStylesheetProcessingInstruction
 :
@@ -597,7 +597,7 @@ baseURL
 return
 Some
 (
-StyleSheetInfo
+SheetInfo
 {
 *
 doc

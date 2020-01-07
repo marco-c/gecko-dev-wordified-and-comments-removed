@@ -292,7 +292,7 @@ mOverriddenBaseURI
 ;
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (

@@ -357,7 +357,7 @@ NS_OK
 }
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (
