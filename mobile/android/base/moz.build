@@ -3739,13 +3739,6 @@ java
 '
 gfx
 /
-PanZoomController
-.
-java
-'
-'
-gfx
-/
 PointUtils
 .
 java
