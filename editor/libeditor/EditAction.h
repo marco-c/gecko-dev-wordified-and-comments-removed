@@ -17,7 +17,7 @@ ignore
 =
 -
 1
-none
+eNone
 =
 0
 undo
@@ -87,7 +87,7 @@ mozilla
 EditSubAction
 :
 :
-none
+eNone
 ;
 }
 #

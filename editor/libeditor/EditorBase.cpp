@@ -999,7 +999,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-none
+eNone
 )
 mDirection
 (
@@ -1378,7 +1378,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-none
+eNone
 "
 Initializing
 during
@@ -9802,7 +9802,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-none
+eNone
 ;
 mDirection
 =
