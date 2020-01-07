@@ -427,8 +427,7 @@ Servo_StyleSheet_HasRules
 Inner
 (
 )
--
->
+.
 mContents
 )
 ;
@@ -539,7 +538,7 @@ child
 .
 swap
 (
-SheetInfo
+Inner
 (
 )
 .
@@ -906,7 +905,7 @@ IsComplete
 const
 {
 return
-SheetInfo
+Inner
 (
 )
 .
@@ -947,7 +946,7 @@ unique
 "
 )
 ;
-SheetInfo
+Inner
 (
 )
 .
@@ -1659,7 +1658,7 @@ nsIURI
 *
 sheetURI
 =
-SheetInfo
+Inner
 (
 )
 .
@@ -2958,7 +2957,7 @@ StyleSheetInfo
 &
 info
 =
-SheetInfo
+Inner
 (
 )
 ;
@@ -3053,7 +3052,7 @@ aRv
 if
 (
 !
-SheetInfo
+Inner
 (
 )
 .
@@ -3108,7 +3107,7 @@ GetFirstChild
 const
 {
 return
-SheetInfo
+Inner
 (
 )
 .
@@ -3247,13 +3246,13 @@ aSheet
 >
 mNext
 =
-SheetInfo
+Inner
 (
 )
 .
 mFirstChild
 ;
-SheetInfo
+Inner
 (
 )
 .
@@ -3322,8 +3321,7 @@ s
 Inner
 (
 )
--
->
+.
 mSheets
 .
 LastElement
@@ -3343,8 +3341,7 @@ s
 Inner
 (
 )
--
->
+.
 SizeOfIncludingThis
 (
 aMallocSizeOf
@@ -3786,8 +3783,7 @@ MOZ_ASSERT
 Inner
 (
 )
--
->
+.
 mSheets
 .
 Length
@@ -3810,8 +3806,7 @@ MOZ_ASSERT
 Inner
 (
 )
--
->
+.
 mSheets
 [
 0
@@ -3827,8 +3822,7 @@ MOZ_ASSERT
 Inner
 (
 )
--
->
+.
 mFirstChild
 )
 ;
@@ -3839,8 +3833,7 @@ contents
 Inner
 (
 )
--
->
+.
 mContents
 .
 get
@@ -4140,8 +4133,7 @@ __func__
 Inner
 (
 )
--
->
+.
 mURLData
 =
 new
@@ -4187,8 +4179,7 @@ mParsingMode
 Inner
 (
 )
--
->
+.
 mURLData
 aLoadData
 -
@@ -4244,8 +4235,7 @@ loadDataHolder
 Inner
 (
 )
--
->
+.
 mURLData
 &
 aBytes
@@ -4303,8 +4293,7 @@ IsEmpty
 Inner
 (
 )
--
->
+.
 mContents
 =
 aSheetContents
@@ -4371,8 +4360,7 @@ eCompatibility_FullStandards
 Inner
 (
 )
--
->
+.
 mURLData
 =
 new
@@ -4392,8 +4380,7 @@ Principal
 Inner
 (
 )
--
->
+.
 mContents
 =
 Servo_StyleSheet_FromUTF8Bytes
@@ -4407,8 +4394,7 @@ mParsingMode
 Inner
 (
 )
--
->
+.
 mURLData
 aLineNumber
 compatMode
@@ -4440,8 +4426,7 @@ Servo_StyleSheet_GetSourceMapURL
 Inner
 (
 )
--
->
+.
 mContents
 &
 sourceMapURL
@@ -4460,8 +4445,7 @@ Servo_StyleSheet_GetSourceURL
 Inner
 (
 )
--
->
+.
 mContents
 &
 sourceURL
@@ -4657,8 +4641,7 @@ next
 Inner
 (
 )
--
->
+.
 mFirstChild
 =
 nullptr
@@ -4770,6 +4753,9 @@ Type
 )
 =
 =
+dom
+:
+:
 CSSRuleBinding
 :
 :
@@ -5113,8 +5099,7 @@ Servo_StyleSheet_GetRules
 Inner
 (
 )
--
->
+.
 mContents
 )
 .
@@ -5439,8 +5424,7 @@ Servo_StyleSheet_GetOrigin
 Inner
 (
 )
--
->
+.
 mContents
 )
 )
