@@ -1310,12 +1310,9 @@ strongWorkerRef
 )
 )
 {
-aRv
-.
-Throw
-(
-NS_ERROR_FAILURE
-)
+mState
+=
+eStateDisentangledForClose
 ;
 return
 ;

@@ -200,17 +200,6 @@ MOZ_ASSERT
 mWorkerRef
 )
 ;
-if
-(
-aStatus
-<
-Canceling
-)
-{
-return
-true
-;
-}
 RefPtr
 <
 WorkerRef
@@ -415,7 +404,7 @@ holder
 HoldWorker
 (
 aWorkerPrivate
-Canceling
+Closing
 )
 )
 )
@@ -613,7 +602,7 @@ holder
 HoldWorker
 (
 aWorkerPrivate
-Canceling
+Closing
 )
 )
 )
