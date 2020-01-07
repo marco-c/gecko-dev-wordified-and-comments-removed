@@ -2265,11 +2265,14 @@ aChannel
 )
 ;
 bool
-NS_IsTopLevelForeign
+NS_IsSameSiteForeign
 (
 nsIChannel
 *
 aChannel
+nsIURI
+*
+aHostURI
 )
 ;
 #

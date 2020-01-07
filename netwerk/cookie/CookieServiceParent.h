@@ -128,7 +128,7 @@ aIsSafeTopLevelNav
 const
 bool
 &
-aIsTopLevelForeign
+aIsSameSiteForeign
 const
 OriginAttributes
 &
@@ -153,6 +153,10 @@ const
 URIParams
 &
 aHost
+const
+URIParams
+&
+aChannelURI
 const
 bool
 &
@@ -201,7 +205,7 @@ aIsSafeTopLevelNav
 const
 bool
 &
-aIsTopLevelForeign
+aIsSameSiteForeign
 const
 OriginAttributes
 &
