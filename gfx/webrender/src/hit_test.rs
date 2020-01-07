@@ -1234,8 +1234,10 @@ clip_and_scroll
 clip_chain_index
 ;
 clipped_in
-|
 =
+clipped_in
+|
+|
 self
 .
 is_point_clipped_in_for_clip_chain

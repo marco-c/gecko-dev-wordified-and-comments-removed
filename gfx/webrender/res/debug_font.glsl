@@ -76,7 +76,7 @@ vec4
 aColor
 ;
 in
-vec4
+vec2
 aColorTexCoord
 ;
 void
@@ -92,8 +92,6 @@ aColor
 vColorTexCoord
 =
 aColorTexCoord
-.
-xy
 ;
 vec4
 pos

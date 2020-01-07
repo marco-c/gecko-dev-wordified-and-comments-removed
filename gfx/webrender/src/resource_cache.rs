@@ -860,6 +860,7 @@ user_data
 :
 U
 }
+pub
 fn
 intersect_for_tile
 (
@@ -3495,14 +3496,6 @@ self
 blob_image_renderer
 {
 let
-mut
-dirty_rect
-=
-template
-.
-dirty_rect
-;
-let
 (
 offset
 w
@@ -3583,10 +3576,11 @@ Some
 dirty
 )
 =
+template
+.
 dirty_rect
 {
-dirty_rect
-=
+if
 intersect_for_tile
 (
 dirty
@@ -3595,9 +3589,6 @@ h
 tile_size
 tile_offset
 )
-;
-if
-dirty_rect
 .
 is_none
 (
@@ -3666,6 +3657,8 @@ descriptor
 .
 format
 }
+template
+.
 dirty_rect
 )
 ;
