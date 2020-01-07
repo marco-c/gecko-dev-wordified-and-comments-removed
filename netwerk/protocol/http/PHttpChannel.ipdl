@@ -769,8 +769,6 @@ int64_t
 altDataLength
 bool
 applyConversion
-ResourceTimingStruct
-timing
 )
 ;
 /
@@ -834,6 +832,8 @@ uint32_t
 registrarId
 URIParams
 newOriginalUri
+uint32_t
+newLoadFlags
 uint32_t
 redirectFlags
 ParentLoadInfoForwarderArgs
