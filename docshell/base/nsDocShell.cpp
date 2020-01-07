@@ -4314,6 +4314,7 @@ nsDocShell
 nsDocLoader
 mSessionStorageManager
 mScriptGlobal
+mInitialClientSource
 )
 NS_IMPL_ADDREF_INHERITED
 (
