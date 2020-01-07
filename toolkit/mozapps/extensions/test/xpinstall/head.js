@@ -1521,13 +1521,6 @@ endTest
 ;
 }
 }
-onWindowTitleChange
-(
-window
-title
-)
-{
-}
 onOpenWindow
 (
 window

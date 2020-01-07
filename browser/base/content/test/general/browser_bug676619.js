@@ -133,16 +133,6 @@ aXULWindow
 >
 {
 }
-onWindowTitleChange
-:
-(
-aXULWindow
-aNewTitle
-)
-=
->
-{
-}
 }
 ;
 Services

@@ -1466,11 +1466,6 @@ onCloseWindow
 )
 {
 }
-onWindowTitleChange
-(
-)
-{
-}
 }
 ;
 Services

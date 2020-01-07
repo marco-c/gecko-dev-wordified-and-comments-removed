@@ -214,15 +214,6 @@ aWindow
 )
 {
 }
-onWindowTitleChange
-:
-function
-(
-aWindow
-aTitle
-)
-{
-}
 }
 ;
 function

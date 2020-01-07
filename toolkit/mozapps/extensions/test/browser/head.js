@@ -3083,13 +3083,6 @@ aWindow
 )
 {
 }
-onWindowTitleChange
-(
-aWindow
-aTitle
-)
-{
-}
 }
 )
 ;

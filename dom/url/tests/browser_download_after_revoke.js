@@ -170,15 +170,6 @@ aXULWindow
 )
 {
 }
-onWindowTitleChange
-:
-function
-(
-aXULWindow
-aNewTitle
-)
-{
-}
 }
 Services
 .
