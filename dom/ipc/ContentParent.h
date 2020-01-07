@@ -2458,11 +2458,13 @@ aResults
 override
 ;
 void
-ForceTabPaint
+PaintTabWhileInterruptingJS
 (
 TabParent
 *
 aTabParent
+bool
+aForceRepaint
 uint64_t
 aLayerObserverEpoch
 )

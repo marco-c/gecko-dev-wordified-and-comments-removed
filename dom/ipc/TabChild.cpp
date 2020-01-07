@@ -11541,6 +11541,7 @@ false
 RecvRenderLayers
 (
 mPendingRenderLayers
+false
 mPendingLayerObserverEpoch
 )
 ;
@@ -11651,6 +11652,10 @@ bool
 &
 aEnabled
 const
+bool
+&
+aForceRepaint
+const
 uint64_t
 &
 aLayerObserverEpoch
@@ -11700,7 +11705,7 @@ mLayerObserverEpoch
 aLayerObserverEpoch
 ;
 auto
-clearForcePaint
+clearPaintWhileInterruptingJS
 =
 MakeScopeExit
 (
@@ -11716,7 +11721,7 @@ aEnabled
 ProcessHangMonitor
 :
 :
-ClearForcePaint
+ClearPaintWhileInterruptingJS
 (
 mLayerObserverEpoch
 )
@@ -11733,7 +11738,7 @@ aEnabled
 ProcessHangMonitor
 :
 :
-MaybeStartForcePaint
+MaybeStartPaintWhileInterruptingJS
 (
 )
 ;
@@ -11782,6 +11787,10 @@ aEnabled
 {
 if
 (
+!
+aForceRepaint
+&
+&
 IsVisible
 (
 )
@@ -11797,7 +11806,7 @@ IPCOpen
 Unused
 <
 <
-SendForcePaintNoOp
+SendPaintWhileInterruptingJSNoOp
 (
 mLayerObserverEpoch
 )
@@ -15503,10 +15512,12 @@ void
 TabChild
 :
 :
-ForcePaint
+PaintWhileInterruptingJS
 (
 uint64_t
 aLayerObserverEpoch
+bool
+aForceRepaint
 )
 {
 if
@@ -15539,6 +15550,7 @@ scriptBlocker
 RecvRenderLayers
 (
 true
+aForceRepaint
 aLayerObserverEpoch
 )
 ;

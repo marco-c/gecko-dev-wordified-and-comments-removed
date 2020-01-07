@@ -139,7 +139,7 @@ ClearHang
 ;
 static
 void
-ForcePaint
+PaintWhileInterruptingJS
 (
 PProcessHangMonitorParent
 *
@@ -150,13 +150,15 @@ dom
 TabParent
 *
 aTab
+bool
+aForceRepaint
 uint64_t
 aLayerObserverEpoch
 )
 ;
 static
 void
-ClearForcePaint
+ClearPaintWhileInterruptingJS
 (
 uint64_t
 aLayerObserverEpoch
@@ -164,7 +166,7 @@ aLayerObserverEpoch
 ;
 static
 void
-MaybeStartForcePaint
+MaybeStartPaintWhileInterruptingJS
 (
 )
 ;

@@ -213,10 +213,12 @@ EndStartingDebugger
 )
 ;
 async
-ForcePaint
+PaintWhileInterruptingJS
 (
 TabId
 tabId
+bool
+forceRepaint
 uint64_t
 aLayerObserverEpoch
 )

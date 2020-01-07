@@ -2782,7 +2782,7 @@ ipc
 :
 :
 IPCResult
-RecvForcePaintNoOp
+RecvPaintWhileInterruptingJSNoOp
 (
 const
 uint64_t
@@ -2895,6 +2895,15 @@ private
 void
 DestroyInternal
 (
+)
+;
+void
+SetRenderLayersInternal
+(
+bool
+aEnabled
+bool
+aForceRepaint
 )
 ;
 already_AddRefed
