@@ -435,6 +435,12 @@ initialized
 =
 true
 ;
+this
+.
+initGlobal
+(
+)
+;
 for
 (
 let
