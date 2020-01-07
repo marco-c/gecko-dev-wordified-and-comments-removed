@@ -208,11 +208,6 @@ nsIDOMElement
 :
 nsIDOMNode
 {
-readonly
-attribute
-DOMString
-tagName
-;
 DOMString
 getAttribute
 (
