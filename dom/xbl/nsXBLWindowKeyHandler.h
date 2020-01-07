@@ -186,9 +186,6 @@ aKeyEvent
 nsAtom
 *
 aEventType
-nsXBLPrototypeHandler
-*
-aHandler
 bool
 aExecute
 bool
@@ -207,9 +204,6 @@ aKeyEvent
 nsAtom
 *
 aEventType
-nsXBLPrototypeHandler
-*
-aHandler
 uint32_t
 aCharCode
 const
@@ -366,10 +360,6 @@ mTarget
 nsXBLPrototypeHandler
 *
 mHandler
-;
-nsXBLPrototypeHandler
-*
-mUserHandler
 ;
 static
 uint32_t
