@@ -1669,6 +1669,12 @@ clear
 ;
 }
 }
+this
+.
+_childrenPromise
+=
+null
+;
 delete
 this
 .
