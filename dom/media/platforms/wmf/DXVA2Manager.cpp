@@ -6578,6 +6578,15 @@ aFramerate
 const
 {
 return
+!
+gfxPrefs
+:
+:
+PDMWMFAMDHighResEnabled
+(
+)
+&
+&
 mIsAMDPreUVD4
 &
 &
