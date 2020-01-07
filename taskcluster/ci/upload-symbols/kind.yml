@@ -260,9 +260,13 @@ v1
 /
 gecko
 -
-symbol
+{
+level
+}
 -
-upload
+b
+-
+linux
 worker
 :
 docker
