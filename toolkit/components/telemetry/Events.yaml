@@ -110,8 +110,6 @@ expiry_version
 :
 "
 65
-.
-0
 "
 extra_keys
 :
@@ -353,8 +351,6 @@ expiry_version
 :
 "
 3
-.
-6
 "
 not_expired_optout
 :
@@ -416,8 +412,6 @@ expiry_version
 :
 "
 999
-.
-0
 "
 main_only
 :

@@ -1177,12 +1177,6 @@ type
 "
 N
 "
-and
-"
-N
-.
-0
-"
 is
 automatically
 converted
