@@ -46,7 +46,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneGeneral
+paneHome
 "
 {
 leaveOpen
@@ -74,11 +74,11 @@ about
 :
 preferences
 #
-general
+home
 "
 "
 #
-general
+home
 should
 be
 in
@@ -117,7 +117,7 @@ doc
 getElementById
 (
 "
-useCurrent
+useCurrentBtn
 "
 )
 ;
