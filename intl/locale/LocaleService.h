@@ -209,7 +209,7 @@ LocalesChanged
 (
 )
 ;
-bool
+void
 NegotiateLanguages
 (
 const
