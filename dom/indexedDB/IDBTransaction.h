@@ -103,6 +103,9 @@ IDBOpenDBRequest
 class
 IDBRequest
 ;
+class
+StrongWorkerRef
+;
 namespace
 indexedDB
 {
@@ -225,11 +228,11 @@ IDBObjectStore
 >
 mDeletedObjectStores
 ;
-nsAutoPtr
+RefPtr
 <
-WorkerHolder
+StrongWorkerRef
 >
-mWorkerHolder
+mWorkerRef
 ;
 union
 {
