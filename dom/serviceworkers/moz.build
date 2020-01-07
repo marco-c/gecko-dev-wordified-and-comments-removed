@@ -205,6 +205,11 @@ ServiceWorker
 cpp
 '
 '
+ServiceWorkerCloneData
+.
+cpp
+'
+'
 ServiceWorkerContainer
 .
 cpp

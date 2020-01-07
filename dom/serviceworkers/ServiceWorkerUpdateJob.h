@@ -38,6 +38,9 @@ class
 ServiceWorkerManager
 ;
 class
+ServiceWorkerRegistrationInfo
+;
+class
 ServiceWorkerUpdateJob
 :
 public

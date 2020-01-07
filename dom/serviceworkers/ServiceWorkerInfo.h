@@ -59,6 +59,9 @@ class
 ClientInfoAndState
 ;
 class
+ClientState
+;
+class
 ServiceWorkerPrivate
 ;
 class
