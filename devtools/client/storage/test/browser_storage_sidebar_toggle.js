@@ -89,12 +89,12 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -150,7 +150,7 @@ location
 )
 )
 {
-yield
+await
 selectTreeItem
 (
 location
@@ -163,7 +163,7 @@ if
 location
 )
 {
-yield
+await
 selectTableItem
 (
 location
@@ -244,7 +244,7 @@ repeat
 )
 ;
 }
-yield
+await
 finishTests
 (
 )

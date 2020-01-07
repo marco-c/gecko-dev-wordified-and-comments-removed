@@ -50,8 +50,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -73,7 +73,7 @@ selectedTool
 let
 tab
 =
-yield
+await
 addTab
 (
 URL
@@ -229,7 +229,7 @@ toggle
 (
 )
 ;
-yield
+await
 wait
 (
 50
@@ -255,7 +255,7 @@ ready
 3
 )
 {
-yield
+await
 wait
 (
 100
@@ -274,7 +274,7 @@ destroyed
 3
 )
 {
-yield
+await
 wait
 (
 100

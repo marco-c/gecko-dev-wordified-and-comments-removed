@@ -1,5 +1,5 @@
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-yield
+await
 initCallWatcherBackend
 (
 SIMPLE_CANVAS_URL
@@ -27,7 +27,7 @@ navigate
 "
 )
 ;
-yield
+await
 front
 .
 setup
@@ -69,7 +69,7 @@ successfully
 "
 )
 ;
-yield
+await
 navigated
 ;
 ok
@@ -89,7 +89,7 @@ up
 "
 )
 ;
-yield
+await
 waitForTick
 (
 )
@@ -97,7 +97,7 @@ waitForTick
 let
 functionCalls
 =
-yield
+await
 front
 .
 pauseRecording
@@ -293,7 +293,7 @@ correct
 let
 details
 =
-yield
+await
 functionCalls
 [
 1
@@ -608,7 +608,7 @@ correct
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

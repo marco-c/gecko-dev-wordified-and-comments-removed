@@ -1,5 +1,5 @@
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-yield
+await
 initCanvasDebuggerFrontend
 (
 RAF_BEGIN_URL
@@ -32,7 +32,7 @@ loadFrameScriptUtils
 (
 )
 ;
-yield
+await
 reload
 (
 target
@@ -55,18 +55,18 @@ _onRecordButtonClick
 (
 )
 ;
-yield
+await
 waitUntil
 (
+async
 function
-*
 (
 )
 {
 return
 !
 (
-yield
+await
 gFront
 .
 isRecording
@@ -87,7 +87,7 @@ start
 "
 )
 ;
-yield
+await
 recordingFinished
 ;
 ok
@@ -106,7 +106,7 @@ loop
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

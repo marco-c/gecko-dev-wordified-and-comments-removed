@@ -1,5 +1,5 @@
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-yield
+await
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -163,7 +163,7 @@ UI
 "
 )
 ;
-yield
+await
 reload
 (
 target
@@ -219,7 +219,7 @@ _onRecordButtonClick
 (
 )
 ;
-yield
+await
 promise
 .
 all
@@ -383,7 +383,7 @@ reload
 target
 )
 ;
-yield
+await
 reset
 ;
 ok
@@ -507,7 +507,7 @@ navigating
 "
 )
 ;
-yield
+await
 navigated
 ;
 ok
@@ -522,7 +522,7 @@ reloading
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

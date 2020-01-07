@@ -53,8 +53,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -80,7 +80,7 @@ vbox
 "
 )
 ;
-yield
+await
 appendAndWaitForPaint
 (
 gBrowser

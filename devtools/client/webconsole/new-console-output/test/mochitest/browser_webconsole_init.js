@@ -45,15 +45,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -123,7 +123,7 @@ text
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -149,7 +149,7 @@ doLogs
 }
 )
 ;
-yield
+await
 receievedMessages
 ;
 const

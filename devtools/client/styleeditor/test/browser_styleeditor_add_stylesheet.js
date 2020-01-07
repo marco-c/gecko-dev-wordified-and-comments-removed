@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -125,7 +125,7 @@ sheet
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -191,7 +191,7 @@ style
 }
 )
 ;
-yield
+await
 added
 ;
 is

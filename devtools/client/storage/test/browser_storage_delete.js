@@ -159,12 +159,12 @@ url
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -249,7 +249,7 @@ treeItemName
 }
 )
 ;
-yield
+await
 selectTreeItem
 (
 treeItem
@@ -302,11 +302,11 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -398,7 +398,7 @@ truncated
 }
 )
 ;
-yield
+await
 eventWait
 ;
 ok
@@ -432,7 +432,7 @@ deletion
 )
 ;
 }
-yield
+await
 finishTests
 (
 )

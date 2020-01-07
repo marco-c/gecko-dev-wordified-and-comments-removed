@@ -31,12 +31,12 @@ p
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -49,7 +49,7 @@ enabled
 true
 )
 ;
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -81,7 +81,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -144,7 +144,7 @@ panel
 let
 webconsolePanel
 =
-yield
+await
 toolbox
 .
 selectTool
@@ -228,7 +228,7 @@ run
 let
 message
 =
-yield
+await
 waitFor
 (
 (
@@ -330,7 +330,7 @@ hud
 iframeWindow
 )
 ;
-yield
+await
 onScratchpadSelected
 ;
 is

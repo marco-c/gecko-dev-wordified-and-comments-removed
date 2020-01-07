@@ -116,8 +116,8 @@ snapshot
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -126,7 +126,7 @@ getState
 let
 outputFile
 =
-yield
+await
 openFilePicker
 (
 {
@@ -198,7 +198,7 @@ outputFile
 return
 ;
 }
-yield
+await
 dispatch
 (
 exportSnapshot
@@ -228,8 +228,8 @@ dest
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -274,7 +274,7 @@ state
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -341,8 +341,8 @@ heapWorker
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -351,7 +351,7 @@ getState
 let
 input
 =
-yield
+await
 openFilePicker
 (
 {
@@ -411,7 +411,7 @@ input
 return
 ;
 }
-yield
+await
 dispatch
 (
 importSnapshotAndCensus
@@ -437,8 +437,8 @@ path
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -499,7 +499,7 @@ id
 ;
 try
 {
-yield
+await
 dispatch
 (
 readSnapshot
@@ -509,7 +509,7 @@ id
 )
 )
 ;
-yield
+await
 dispatch
 (
 computeSnapshotData

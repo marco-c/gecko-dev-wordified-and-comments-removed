@@ -1,5 +1,5 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -33,7 +33,7 @@ reload
 target
 )
 ;
-yield
+await
 promise
 .
 all
@@ -211,7 +211,7 @@ selected
 let
 vsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -224,7 +224,7 @@ vs
 let
 fsEditor
 =
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -326,7 +326,7 @@ blank
 "
 )
 ;
-yield
+await
 promise
 .
 all
@@ -493,7 +493,7 @@ index
 "
 )
 ;
-yield
+await
 navigated
 ;
 is
@@ -592,7 +592,7 @@ content
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

@@ -842,12 +842,8 @@ toolbox
 var
 continueTests
 =
-Task
-.
 async
-(
 function
-*
 (
 toolbox
 panel
@@ -959,7 +955,7 @@ select
 let
 unregisteredTool
 =
-yield
+await
 new
 Promise
 (
@@ -998,7 +994,7 @@ toolId2
 }
 )
 ;
-yield
+await
 toolSelected
 ;
 is
@@ -1071,7 +1067,7 @@ event
 let
 registeredTool
 =
-yield
+await
 new
 Promise
 (
@@ -1189,7 +1185,6 @@ toolbox
 )
 ;
 }
-)
 ;
 function
 destroyToolbox

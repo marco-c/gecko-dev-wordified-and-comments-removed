@@ -48,8 +48,8 @@ toolbox
 ;
 add_task
 (
+async
 function
-*
 themeRegistration
 (
 )
@@ -57,7 +57,7 @@ themeRegistration
 let
 tab
 =
-yield
+await
 addTab
 (
 "
@@ -82,7 +82,7 @@ tab
 ;
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -96,7 +96,7 @@ options
 let
 themeId
 =
-yield
+await
 new
 Promise
 (
@@ -209,8 +209,8 @@ map
 ;
 add_task
 (
+async
 function
-*
 themeInOptionsPanel
 (
 )
@@ -404,7 +404,7 @@ loading
 "
 )
 ;
-yield
+await
 onThemeSwithComplete
 ;
 is
@@ -504,7 +504,7 @@ loading
 "
 )
 ;
-yield
+await
 onThemeSwithComplete
 ;
 is
@@ -592,7 +592,7 @@ click
 (
 )
 ;
-yield
+await
 onThemeSwithComplete
 ;
 is
@@ -649,8 +649,8 @@ onThemeChanged
 ;
 add_task
 (
+async
 function
-*
 themeUnregistration
 (
 )
@@ -734,10 +734,10 @@ unregisterTheme
 TEST_THEME_NAME
 )
 ;
-yield
+await
 onUnRegisteredTheme
 ;
-yield
+await
 onThemeSwitchComplete
 ;
 is
@@ -872,13 +872,13 @@ onThemeChanged
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
 {
-yield
+await
 toolbox
 .
 destroy

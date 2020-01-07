@@ -57,8 +57,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -159,7 +159,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 gStore
@@ -275,7 +275,7 @@ Snapshots
 "
 )
 ;
-yield
+await
 clearSnapshots
 (
 panel

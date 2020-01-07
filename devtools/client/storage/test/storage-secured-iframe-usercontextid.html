@@ -104,8 +104,8 @@ n
 let
 idbGenerator
 =
+async
 function
-*
 (
 )
 {
@@ -149,7 +149,7 @@ connection
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -218,7 +218,7 @@ db
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -316,7 +316,7 @@ com
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -356,7 +356,7 @@ s2uc1
 let
 db2
 =
-yield
+await
 new
 Promise
 (
@@ -445,7 +445,7 @@ db2
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -518,7 +518,7 @@ com
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -612,12 +612,12 @@ window
 .
 setup
 =
+async
 function
-*
 (
 )
 {
-yield
+await
 idbGenerator
 (
 )
@@ -628,12 +628,12 @@ window
 .
 clear
 =
+async
 function
-*
 (
 )
 {
-yield
+await
 deleteDB
 (
 "
@@ -643,7 +643,7 @@ s1uc1
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "

@@ -52,8 +52,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -62,7 +62,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -85,7 +85,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -157,7 +157,7 @@ fail
 )
 ;
 }
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

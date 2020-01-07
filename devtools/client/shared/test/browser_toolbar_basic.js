@@ -68,8 +68,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -83,7 +83,7 @@ js
 "
 )
 ;
-yield
+await
 addTab
 (
 TEST_URI
@@ -141,7 +141,7 @@ doCommand
 (
 )
 ;
-yield
+await
 shown
 ;
 ok
@@ -225,7 +225,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -251,7 +251,7 @@ checked
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -319,7 +319,7 @@ doCommand
 (
 )
 ;
-yield
+await
 hidden
 ;
 ok
@@ -362,7 +362,7 @@ doCommand
 (
 )
 ;
-yield
+await
 shown
 ;
 ok
@@ -423,7 +423,7 @@ doCommand
 (
 )
 ;
-yield
+await
 hidden
 ;
 ok

@@ -100,8 +100,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -112,7 +112,7 @@ toolbox
 console
 }
 =
-yield
+await
 initConsoleInNewTab
 (
 {
@@ -143,7 +143,7 @@ performance
 "
 )
 ;
-yield
+await
 console
 .
 profile
@@ -153,7 +153,7 @@ rust
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -204,7 +204,7 @@ unloaded
 "
 )
 ;
-yield
+await
 console
 .
 profileEnd
@@ -214,7 +214,7 @@ rust
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -269,7 +269,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInTab
 (
 {
@@ -281,7 +281,7 @@ tab
 }
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -314,7 +314,7 @@ tool
 "
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -347,7 +347,7 @@ finishes
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

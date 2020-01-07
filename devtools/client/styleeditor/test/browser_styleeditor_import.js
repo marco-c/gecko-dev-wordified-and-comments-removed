@@ -75,8 +75,8 @@ red
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -86,7 +86,7 @@ panel
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -136,7 +136,7 @@ sheet
 let
 editor
 =
-yield
+await
 added
 ;
 is

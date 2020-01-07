@@ -37,12 +37,12 @@ TOOL_DELAY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -70,7 +70,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -89,7 +89,7 @@ opened
 "
 )
 ;
-yield
+await
 testSidebar
 (
 toolbox
@@ -105,7 +105,7 @@ stopRecordingTelemetryLogs
 Telemetry
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -123,7 +123,6 @@ removeCurrentTab
 )
 ;
 function
-*
 testSidebar
 (
 toolbox

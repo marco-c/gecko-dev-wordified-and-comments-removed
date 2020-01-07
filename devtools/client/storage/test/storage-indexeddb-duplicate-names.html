@@ -245,12 +245,12 @@ window
 .
 clear
 =
+async
 function
-*
 (
 )
 {
-yield
+await
 deleteDB
 (
 "
@@ -261,7 +261,7 @@ temporary
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -272,7 +272,7 @@ default
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -283,7 +283,7 @@ persistent
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -294,7 +294,7 @@ temporary
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -305,7 +305,7 @@ default
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "

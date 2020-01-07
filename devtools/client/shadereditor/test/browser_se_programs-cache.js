@@ -1,5 +1,5 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -11,7 +11,7 @@ debuggee
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 MULTIPLE_CONTEXTS_URL
@@ -41,7 +41,7 @@ programActor
 ]
 ]
 =
-yield
+await
 promise
 .
 all
@@ -97,7 +97,7 @@ item
 is
 (
 (
-yield
+await
 programActor
 .
 getVertexShader
@@ -105,7 +105,7 @@ getVertexShader
 )
 )
 (
-yield
+await
 programItem
 .
 attachment
@@ -129,7 +129,7 @@ actor
 is
 (
 (
-yield
+await
 programActor
 .
 getFragmentShader
@@ -137,7 +137,7 @@ getFragmentShader
 )
 )
 (
-yield
+await
 programItem
 .
 attachment
@@ -161,9 +161,9 @@ actor
 is
 (
 (
-yield
+await
 (
-yield
+await
 programActor
 .
 getVertexShader
@@ -176,9 +176,9 @@ getText
 )
 )
 (
-yield
+await
 (
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -210,9 +210,9 @@ text
 is
 (
 (
-yield
+await
 (
-yield
+await
 programActor
 .
 getFragmentShader
@@ -225,9 +225,9 @@ getText
 )
 )
 (
-yield
+await
 (
-yield
+await
 ShadersEditorsView
 .
 _getEditor
@@ -256,7 +256,7 @@ text
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

@@ -18,8 +18,8 @@ doc_theme
 .
 css
 ;
+async
 function
-*
 viewSource
 (
 )
@@ -27,7 +27,7 @@ viewSource
 let
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 URL
@@ -36,7 +36,7 @@ URL
 let
 fileFound
 =
-yield
+await
 toolbox
 .
 viewSourceInStyleEditor
@@ -171,7 +171,7 @@ editor
 "
 )
 ;
-yield
+await
 closeToolboxAndTab
 (
 toolbox
@@ -187,11 +187,8 @@ test
 (
 )
 {
-Task
-.
-spawn
-(
 viewSource
+(
 )
 .
 then

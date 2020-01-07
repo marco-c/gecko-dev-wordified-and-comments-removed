@@ -19,12 +19,12 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -88,7 +88,7 @@ of
 tabs
 )
 {
-yield
+await
 initTab
 (
 tab
@@ -98,7 +98,7 @@ startToolbox
 )
 ;
 }
-yield
+await
 setDisableCacheCheckboxChecked
 (
 tabs
@@ -115,7 +115,7 @@ tabs
 .
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -131,7 +131,7 @@ options
 "
 )
 ;
-yield
+await
 checkCacheEnabled
 (
 tabs
@@ -141,7 +141,7 @@ tabs
 false
 )
 ;
-yield
+await
 tabs
 [
 2
@@ -172,7 +172,7 @@ tabs
 tab
 )
 ;
-yield
+await
 checkCacheEnabled
 (
 tabs
@@ -189,7 +189,7 @@ tabs
 .
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -205,7 +205,7 @@ options
 "
 )
 ;
-yield
+await
 checkCacheEnabled
 (
 tabs
@@ -215,7 +215,7 @@ tabs
 false
 )
 ;
-yield
+await
 setDisableCacheCheckboxChecked
 (
 tabs
@@ -225,7 +225,7 @@ tabs
 false
 )
 ;
-yield
+await
 checkCacheStateForAllTabs
 (
 [
@@ -236,7 +236,7 @@ true
 ]
 )
 ;
-yield
+await
 finishUp
 (
 )

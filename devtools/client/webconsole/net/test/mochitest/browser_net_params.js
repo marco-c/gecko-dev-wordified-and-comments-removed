@@ -27,8 +27,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -48,7 +48,7 @@ let
 hud
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -57,7 +57,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-yield
+await
 executeAndInspectXhr
 (
 hud
@@ -84,7 +84,7 @@ bar
 let
 tabBody
 =
-yield
+await
 selectNetInfoTab
 (
 hud
@@ -190,8 +190,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -211,7 +211,7 @@ let
 hud
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -220,7 +220,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-yield
+await
 executeAndInspectXhr
 (
 hud
@@ -255,7 +255,7 @@ box
 let
 tabBody
 =
-yield
+await
 selectNetInfoTab
 (
 hud

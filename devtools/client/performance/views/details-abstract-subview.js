@@ -157,12 +157,8 @@ this
 .
 render
 =
-Task
-.
 async
-(
 function
-*
 (
 .
 .
@@ -173,7 +169,7 @@ args
 let
 maybeRetval
 =
-yield
+await
 originalRenderFn
 .
 apply
@@ -190,7 +186,6 @@ return
 maybeRetval
 ;
 }
-)
 ;
 }
 destroy

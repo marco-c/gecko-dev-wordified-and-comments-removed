@@ -1,5 +1,5 @@
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 MULTIPLE_CONTEXTS_URL
@@ -33,7 +33,7 @@ firstProgramActor
 secondProgramActor
 ]
 =
-yield
+await
 getPrograms
 (
 front
@@ -62,7 +62,7 @@ contexts
 let
 firstVertexShader
 =
-yield
+await
 firstProgramActor
 .
 getVertexShader
@@ -72,7 +72,7 @@ getVertexShader
 let
 firstFragmentShader
 =
-yield
+await
 firstProgramActor
 .
 getFragmentShader
@@ -82,7 +82,7 @@ getFragmentShader
 let
 secondVertexShader
 =
-yield
+await
 secondProgramActor
 .
 getVertexShader
@@ -92,7 +92,7 @@ getVertexShader
 let
 secondFragmentShader
 =
-yield
+await
 secondProgramActor
 .
 getFragmentShader
@@ -136,7 +136,7 @@ shaders
 let
 firstVertSource
 =
-yield
+await
 firstVertexShader
 .
 getText
@@ -146,7 +146,7 @@ getText
 let
 firstFragSource
 =
-yield
+await
 firstFragmentShader
 .
 getText
@@ -156,7 +156,7 @@ getText
 let
 secondVertSource
 =
-yield
+await
 secondVertexShader
 .
 getText
@@ -166,7 +166,7 @@ getText
 let
 secondFragSource
 =
-yield
+await
 secondFragmentShader
 .
 getText
@@ -205,7 +205,7 @@ sources
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -238,7 +238,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -271,7 +271,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -304,7 +304,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -351,7 +351,7 @@ drawn
 "
 )
 ;
-yield
+await
 firstProgramActor
 .
 highlight
@@ -364,7 +364,7 @@ highlight
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -397,7 +397,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -430,7 +430,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -463,7 +463,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -512,7 +512,7 @@ highlighting
 "
 )
 ;
-yield
+await
 secondProgramActor
 .
 highlight
@@ -525,7 +525,7 @@ highlight
 ]
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -558,7 +558,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -591,7 +591,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -624,7 +624,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -673,21 +673,21 @@ highlighting
 "
 )
 ;
-yield
+await
 firstProgramActor
 .
 unhighlight
 (
 )
 ;
-yield
+await
 secondProgramActor
 .
 unhighlight
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -720,7 +720,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -753,7 +753,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -786,7 +786,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -835,7 +835,7 @@ unhighlighting
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

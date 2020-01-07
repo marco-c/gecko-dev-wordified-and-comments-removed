@@ -54,12 +54,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 loadTab
 (
 TEST_URI
@@ -68,7 +68,7 @@ TEST_URI
 let
 hud
 =
-yield
+await
 openConsole
 (
 )
@@ -88,7 +88,7 @@ string
 let
 results
 =
-yield
+await
 waitForMessages
 (
 {
@@ -193,7 +193,7 @@ expansion
 "
 )
 ;
-yield
+await
 waitForMessages
 (
 {

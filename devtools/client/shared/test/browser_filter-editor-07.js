@@ -60,8 +60,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -70,7 +70,7 @@ let
 doc
 ]
 =
-yield
+await
 createHost
 (
 "

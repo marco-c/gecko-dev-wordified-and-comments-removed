@@ -11,8 +11,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -22,7 +22,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 BUG_1141261_URL
@@ -76,7 +76,7 @@ reload
 target
 )
 ;
-yield
+await
 events
 ;
 ok
@@ -93,7 +93,7 @@ disconnected
 "
 )
 ;
-yield
+await
 teardown
 (
 target

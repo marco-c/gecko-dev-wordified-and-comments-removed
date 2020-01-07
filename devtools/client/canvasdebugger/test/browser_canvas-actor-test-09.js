@@ -1,5 +1,5 @@
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -10,7 +10,7 @@ target
 front
 }
 =
-yield
+await
 initCanvasDebuggerBackend
 (
 WEBGL_ENUM_URL
@@ -27,7 +27,7 @@ navigate
 "
 )
 ;
-yield
+await
 front
 .
 setup
@@ -53,7 +53,7 @@ successfully
 "
 )
 ;
-yield
+await
 navigated
 ;
 ok
@@ -76,7 +76,7 @@ up
 let
 snapshotActor
 =
-yield
+await
 front
 .
 recordAnimationFrame
@@ -86,7 +86,7 @@ recordAnimationFrame
 let
 animationOverview
 =
-yield
+await
 snapshotActor
 .
 getOverview
@@ -211,7 +211,7 @@ values
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

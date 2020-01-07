@@ -45,12 +45,8 @@ editor
 const
 createInplaceEditorAndClick
 =
-Task
-.
 async
-(
 function
-*
 (
 options
 doc
@@ -123,7 +119,6 @@ click
 )
 ;
 }
-)
 ;
 function
 createSpan
@@ -290,8 +285,8 @@ return
 span
 ;
 }
+async
 function
-*
 testCompletion
 (
 [
@@ -478,13 +473,13 @@ input
 defaultView
 )
 ;
-yield
+await
 onSuggest
 ;
-yield
+await
 onVisibilityChange
 ;
-yield
+await
 waitForTime
 (
 5

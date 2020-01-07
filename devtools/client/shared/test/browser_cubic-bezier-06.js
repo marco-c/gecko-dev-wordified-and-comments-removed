@@ -60,8 +60,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -72,7 +72,7 @@ win
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -177,7 +177,7 @@ padding
 0
 ]
 ;
-yield
+await
 adjustingBezierUpdatesPreset
 (
 w
@@ -186,7 +186,7 @@ doc
 rect
 )
 ;
-yield
+await
 selectingPresetUpdatesBezier
 (
 w
@@ -211,7 +211,6 @@ destroy
 )
 ;
 function
-*
 adjustingBezierUpdatesPreset
 (
 widget
@@ -394,8 +393,8 @@ preset
 )
 ;
 }
+async
 function
-*
 selectingPresetUpdatesBezier
 (
 widget
@@ -497,7 +496,7 @@ preset
 }
 )
 ;
-yield
+await
 onNewCoordinates
 ;
 ok
@@ -519,7 +518,7 @@ event
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok

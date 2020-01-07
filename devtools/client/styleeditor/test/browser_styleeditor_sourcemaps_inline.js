@@ -119,8 +119,8 @@ TCxLQUFLLEVBQUUsS0FBSyIsCiJzb3VyY2VzIjogWyJ0ZXN0LnNjc3MiXSwKInNvdXJjZXNDb25
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -129,7 +129,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -155,7 +155,7 @@ enabled
 "
 )
 ;
-yield
+await
 testEditor
 (
 ui
@@ -172,7 +172,7 @@ scss
 sassContent
 )
 ;
-yield
+await
 togglePref
 (
 ui
@@ -197,7 +197,7 @@ toggled
 "
 )
 ;
-yield
+await
 testEditor
 (
 ui
@@ -230,8 +230,8 @@ PREF
 }
 )
 ;
+async
 function
-*
 testEditor
 (
 editor
@@ -261,7 +261,7 @@ correct
 "
 )
 ;
-yield
+await
 openEditor
 (
 editor

@@ -7,14 +7,8 @@ var
 ToolbarView
 =
 {
-initialize
-:
-Task
-.
 async
-(
-function
-*
+initialize
 (
 )
 {
@@ -123,7 +117,7 @@ _toggleExperimentalUI
 experimentalEnabled
 )
 ;
-yield
+await
 this
 .
 optionsView
@@ -203,7 +197,6 @@ _onFilterPopupHiding
 )
 ;
 }
-)
 destroy
 :
 function

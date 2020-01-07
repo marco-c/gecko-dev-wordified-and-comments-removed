@@ -147,12 +147,8 @@ window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -308,13 +304,13 @@ appendChild
 tabpanels
 )
 ;
-yield
+await
 addTabWithPanel
 (
 0
 )
 ;
-yield
+await
 addTabWithPanel
 (
 1
@@ -571,7 +567,7 @@ correctly
 "
 )
 ;
-yield
+await
 setState
 (
 tabbarReact
@@ -776,7 +772,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

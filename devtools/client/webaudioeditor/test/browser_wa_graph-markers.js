@@ -18,8 +18,8 @@ theme
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -29,7 +29,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -147,7 +147,7 @@ let
 actors
 ]
 =
-yield
+await
 events
 ;
 is
@@ -304,7 +304,7 @@ again
 "
 )
 ;
-yield
+await
 teardown
 (
 target

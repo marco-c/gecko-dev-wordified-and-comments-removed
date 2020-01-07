@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -25,7 +25,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -257,7 +257,7 @@ themeSheet
 )
 ;
 }
-yield
+await
 toolbox
 .
 destroy

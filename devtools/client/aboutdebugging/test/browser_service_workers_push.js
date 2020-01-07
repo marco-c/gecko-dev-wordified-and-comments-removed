@@ -39,12 +39,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 enableServiceWorkerDebugging
 (
 )
@@ -55,7 +55,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -74,7 +74,7 @@ document
 let
 swTab
 =
-yield
+await
 addTab
 (
 TAB_URL
@@ -100,7 +100,7 @@ message
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -178,7 +178,7 @@ UI
 "
 )
 ;
-yield
+await
 waitUntilServiceWorkerContainer
 (
 SERVICE_WORKER
@@ -208,7 +208,7 @@ worker
 "
 )
 ;
-yield
+await
 waitForServiceWorkerRegistered
 (
 swTab
@@ -225,7 +225,7 @@ resolved
 "
 )
 ;
-yield
+await
 waitForServiceWorkerActivation
 (
 SERVICE_WORKER
@@ -346,7 +346,7 @@ proceeding
 "
 )
 ;
-yield
+await
 onClaimed
 ;
 info
@@ -393,7 +393,7 @@ click
 (
 )
 ;
-yield
+await
 onPushNotification
 ;
 ok
@@ -411,7 +411,7 @@ notification
 ;
 try
 {
-yield
+await
 unregisterServiceWorker
 (
 swTab
@@ -449,13 +449,13 @@ e
 )
 ;
 }
-yield
+await
 removeTab
 (
 swTab
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

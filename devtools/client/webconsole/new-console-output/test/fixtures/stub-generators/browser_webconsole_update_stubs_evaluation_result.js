@@ -26,15 +26,15 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 fileContent
 =
-yield
+await
 generateEvaluationResultStubs
 (
 )
@@ -60,7 +60,7 @@ js
 "
 )
 ;
-yield
+await
 OS
 .
 File

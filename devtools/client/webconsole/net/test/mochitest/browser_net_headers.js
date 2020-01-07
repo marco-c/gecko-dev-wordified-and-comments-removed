@@ -27,12 +27,12 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -63,7 +63,7 @@ let
 hud
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -72,7 +72,7 @@ TEST_PAGE_URL
 let
 netInfoBody
 =
-yield
+await
 executeAndInspectXhr
 (
 hud
@@ -91,7 +91,7 @@ JSON_XHR_URL
 let
 tabBody
 =
-yield
+await
 selectNetInfoTab
 (
 hud

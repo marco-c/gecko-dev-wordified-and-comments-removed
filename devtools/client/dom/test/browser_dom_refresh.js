@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -37,13 +37,13 @@ let
 panel
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
 )
 ;
-yield
+await
 evaluateJSAsync
 (
 panel
@@ -55,7 +55,7 @@ _b
 "
 )
 ;
-yield
+await
 refreshPanel
 (
 panel

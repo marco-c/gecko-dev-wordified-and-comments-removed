@@ -18,8 +18,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,13 +28,13 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
 )
 ;
-yield
+await
 openEditor
 (
 ui

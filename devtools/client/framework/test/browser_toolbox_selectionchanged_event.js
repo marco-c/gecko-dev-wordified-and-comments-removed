@@ -36,15 +36,15 @@ body
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 PAGE_URL
@@ -53,7 +53,7 @@ PAGE_URL
 let
 toolbox
 =
-yield
+await
 openToolboxForTab
 (
 tab
@@ -77,7 +77,7 @@ getCurrentPanel
 let
 root
 =
-yield
+await
 inspector
 .
 walker
@@ -89,7 +89,7 @@ getRootNode
 let
 body
 =
-yield
+await
 inspector
 .
 walker
@@ -105,7 +105,7 @@ body
 let
 node
 =
-yield
+await
 inspector
 .
 walker
@@ -186,7 +186,7 @@ menu
 "
 )
 ;
-yield
+await
 onSelectionChanged
 ;
 is
@@ -256,7 +256,7 @@ menu
 "
 )
 ;
-yield
+await
 onClearSelectionChanged
 ;
 is

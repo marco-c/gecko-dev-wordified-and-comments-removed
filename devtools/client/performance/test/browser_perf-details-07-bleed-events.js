@@ -99,8 +99,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -109,7 +109,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -133,13 +133,13 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -156,7 +156,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -168,7 +168,7 @@ calltree
 "
 )
 ;
-yield
+await
 callTreeRendered
 ;
 let
@@ -182,7 +182,7 @@ EVENTS
 UI_DETAILS_VIEW_SELECTED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -192,7 +192,7 @@ waterfall
 "
 )
 ;
-yield
+await
 waterfallSelected
 ;
 once
@@ -224,13 +224,13 @@ event
 )
 )
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -247,7 +247,7 @@ EVENTS
 UI_JS_CALL_TREE_RENDERED
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -259,7 +259,7 @@ calltree
 "
 )
 ;
-yield
+await
 callTreeRerendered
 ;
 ok
@@ -272,7 +272,7 @@ passed
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

@@ -16,8 +16,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ light
 "
 )
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -68,7 +68,7 @@ TEST_JSON_URL
 ;
 is
 (
-yield
+await
 getTheme
 (
 )
@@ -102,7 +102,7 @@ dark
 ;
 is
 (
-yield
+await
 getTheme
 (
 )
@@ -135,7 +135,7 @@ firebug
 ;
 is
 (
-yield
+await
 getTheme
 (
 )
@@ -168,7 +168,7 @@ light
 ;
 is
 (
-yield
+await
 getTheme
 (
 )
