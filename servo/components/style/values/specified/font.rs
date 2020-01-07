@@ -10750,7 +10750,7 @@ FontSynthesis
 {
 #
 [
-value_info
+css
 (
 represents_keyword
 )
@@ -10761,7 +10761,7 @@ weight
 bool
 #
 [
-value_info
+css
 (
 represents_keyword
 )
