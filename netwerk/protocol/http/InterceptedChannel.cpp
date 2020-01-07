@@ -1165,6 +1165,9 @@ aBody
 nsIInterceptedBodyCallback
 *
 aBodyCallback
+nsICacheInfoChannel
+*
+aCacheInfoChannel
 const
 nsACString
 &
@@ -1301,6 +1304,7 @@ ForceIntercepted
 (
 aBody
 aBodyCallback
+aCacheInfoChannel
 )
 ;
 mChannel
@@ -1334,6 +1338,7 @@ ref
 aBody
 aBodyCallback
 mStreamListener
+aCacheInfoChannel
 )
 ;
 }

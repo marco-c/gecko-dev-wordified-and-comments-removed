@@ -940,6 +940,9 @@ nsHttpResponseHead
 >
 &
 aHead
+nsICacheInfoChannel
+*
+aCacheInfo
 )
 ;
 NS_IMETHOD
@@ -990,6 +993,12 @@ nsAutoPtr
 nsHttpResponseHead
 >
 mHead
+;
+nsCOMPtr
+<
+nsICacheInfoChannel
+>
+mSynthesizedCacheInfo
 ;
 }
 ;
@@ -1214,6 +1223,9 @@ aSynthesizedCallback
 InterceptStreamListener
 *
 aStreamListener
+nsICacheInfoChannel
+*
+aCacheInfoChannel
 )
 ;
 void
@@ -1225,6 +1237,9 @@ aSynthesizedInput
 nsIInterceptedBodyCallback
 *
 aSynthesizedCallback
+nsICacheInfoChannel
+*
+aCacheInfo
 )
 ;
 void
@@ -1288,6 +1303,12 @@ mCacheExpirationTime
 ;
 nsCString
 mCachedCharset
+;
+nsCOMPtr
+<
+nsICacheInfoChannel
+>
+mSynthesizedCacheInfo
 ;
 nsCString
 mProtocolVersion
