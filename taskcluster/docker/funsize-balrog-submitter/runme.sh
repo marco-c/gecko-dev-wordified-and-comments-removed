@@ -78,6 +78,15 @@ manifest
 .
 json
 "
+#
+EXTRA_BALROG_SUBMITTER_PARAMS
+is
+optional
+#
+shellcheck
+disable
+=
+SC2086
 python
 /
 home
