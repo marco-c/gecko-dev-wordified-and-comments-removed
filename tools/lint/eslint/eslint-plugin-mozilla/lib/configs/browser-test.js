@@ -205,6 +205,11 @@ requestLongerTimeout
 :
 false
 "
+setExpectedFailuresForSelfTest
+"
+:
+false
+"
 todo
 "
 :

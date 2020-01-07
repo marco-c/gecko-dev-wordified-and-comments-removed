@@ -3452,7 +3452,6 @@ response
 var
 [
 links
-count
 ]
 =
 list
