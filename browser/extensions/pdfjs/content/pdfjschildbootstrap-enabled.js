@@ -35,7 +35,7 @@ pdf
 .
 js
 /
-PdfJs
+PdfJsRegistration
 .
 jsm
 "
@@ -58,7 +58,7 @@ appinfo
 PROCESS_TYPE_CONTENT
 )
 {
-PdfJs
+PdfJsRegistration
 .
 ensureRegistered
 (
