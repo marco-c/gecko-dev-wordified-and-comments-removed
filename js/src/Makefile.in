@@ -338,7 +338,7 @@ masm
 (
 cd
 (
-srcdir
+topsrcdir
 )
 &
 &
