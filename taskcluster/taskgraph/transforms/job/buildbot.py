@@ -131,9 +131,6 @@ release_props
 get_release_config
 (
 config
-force
-=
-True
 )
     
 repo_path
