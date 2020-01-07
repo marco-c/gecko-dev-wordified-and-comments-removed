@@ -1,9 +1,5 @@
 pub
 mod
-collector
-;
-pub
-mod
 element_wrapper
 ;
 pub
@@ -17,4 +13,8 @@ invalidator
 pub
 mod
 restyle_hints
+;
+pub
+mod
+state_and_attributes
 ;

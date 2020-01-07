@@ -1275,10 +1275,10 @@ invalidation
 element
 :
 :
-collector
+invalidator
 :
 :
-StateAndAttrInvalidationProcessor
+TreeStyleInvalidator
 ;
 use
 invalidation
@@ -1287,10 +1287,10 @@ invalidation
 element
 :
 :
-invalidator
+state_and_attributes
 :
 :
-TreeStyleInvalidator
+StateAndAttrInvalidationProcessor
 ;
 debug
 !
