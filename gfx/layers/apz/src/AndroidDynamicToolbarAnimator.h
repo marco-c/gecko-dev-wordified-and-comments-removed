@@ -106,6 +106,9 @@ struct
 FrameMetrics
 ;
 class
+APZCTreeManager
+;
+class
 CompositorOGL
 ;
 class
@@ -118,8 +121,12 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 AndroidDynamicToolbarAnimator
 )
 ;
+explicit
 AndroidDynamicToolbarAnimator
 (
+APZCTreeManager
+*
+aApz
 )
 ;
 void
@@ -127,6 +134,11 @@ Initialize
 (
 uint64_t
 aRootLayerTreeId
+)
+;
+void
+ClearTreeManager
+(
 )
 ;
 nsEventStatus
@@ -497,6 +509,11 @@ aMessage
 ;
 uint64_t
 mRootLayerTreeId
+;
+MOZ_NON_OWNING_REF
+APZCTreeManager
+*
+mApz
 ;
 Atomic
 <
