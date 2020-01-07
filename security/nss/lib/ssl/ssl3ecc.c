@@ -2780,6 +2780,12 @@ rv
 SECSuccess
 )
 {
+errCode
+=
+PORT_GetError
+(
+)
+;
 goto
 alert_loser
 ;
@@ -2806,6 +2812,12 @@ rv
 SECSuccess
 )
 {
+errCode
+=
+PORT_GetError
+(
+)
+;
 goto
 alert_loser
 ;

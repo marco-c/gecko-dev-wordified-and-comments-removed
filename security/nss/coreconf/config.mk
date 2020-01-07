@@ -3220,6 +3220,14 @@ DEFINES
 -
 DNSS_NO_INIT_SUPPORT
 endif
+ifdef
+NSS_SEED_ONLY_DEV_URANDOM
+DEFINES
++
+=
+-
+DSEED_ONLY_DEV_URANDOM
+endif
 #
 Avoid
 building
