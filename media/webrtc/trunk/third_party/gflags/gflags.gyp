@@ -133,10 +133,12 @@ gflags_root
 '
 :
 '
-<
-(
-DEPTH
-)
+/
+media
+/
+webrtc
+/
+trunk
 /
 third_party
 /
