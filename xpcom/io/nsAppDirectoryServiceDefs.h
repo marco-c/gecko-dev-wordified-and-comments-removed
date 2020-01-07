@@ -177,12 +177,6 @@ UChrm
 "
 #
 define
-NS_APP_LOCALSTORE_50_FILE
-"
-LclSt
-"
-#
-define
 NS_APP_USER_PANELS_50_FILE
 "
 UPnls
