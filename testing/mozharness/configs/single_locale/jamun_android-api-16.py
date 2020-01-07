@@ -8,9 +8,6 @@ jamun
 MOZILLA_DIR
 =
 BRANCH
-EN_US_BINARY_URL
-=
-None
 config
 =
 {
@@ -254,14 +251,11 @@ EN_US_BINARY_URL
 os
 .
 environ
-.
-get
-(
+[
 "
 EN_US_BINARY_URL
 "
-EN_US_BINARY_URL
-)
+]
         
 "
 MOZ_UPDATE_CHANNEL
