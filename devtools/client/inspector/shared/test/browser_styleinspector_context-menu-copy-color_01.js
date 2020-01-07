@@ -336,7 +336,7 @@ node
 ;
 view
 .
-_contextmenu
+contextMenu
 .
 _colorToCopy
 =
@@ -348,7 +348,7 @@ result
 =
 view
 .
-_contextmenu
+contextMenu
 .
 _isColorPopup
 (
@@ -381,7 +381,7 @@ is
 (
 view
 .
-_contextmenu
+contextMenu
 .
 _colorToCopy
 (

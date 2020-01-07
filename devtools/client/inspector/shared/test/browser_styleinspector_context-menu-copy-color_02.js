@@ -402,7 +402,7 @@ contextMenu
 =
 view
 .
-_contextmenu
+contextMenu
 ;
 contextMenu
 .
@@ -589,7 +589,7 @@ contextMenu
 =
 view
 .
-_contextmenu
+contextMenu
 ;
 contextMenu
 .
