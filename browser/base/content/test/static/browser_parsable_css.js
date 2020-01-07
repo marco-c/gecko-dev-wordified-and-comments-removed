@@ -32,6 +32,9 @@ debugger
 new
 \
 /
+dist
+\
+/
 debugger
 .
 css
@@ -1709,10 +1712,8 @@ match
 var
 \
 (
-|
-\
-W
 )
+?
 (
 -
 -
@@ -1947,16 +1948,6 @@ prevValue
 ;
 }
 else
-{
-prop
-=
-prop
-.
-substring
-(
-1
-)
-;
 if
 (
 !
@@ -1976,7 +1967,6 @@ prop
 undefined
 )
 ;
-}
 }
 }
 }
