@@ -440,8 +440,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 testGoodPermissions
 (
 )
@@ -477,7 +477,7 @@ permission
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -515,7 +515,7 @@ permission
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -556,7 +556,7 @@ permission
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {

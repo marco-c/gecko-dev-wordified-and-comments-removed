@@ -65,8 +65,8 @@ js
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {

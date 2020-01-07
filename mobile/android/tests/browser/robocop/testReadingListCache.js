@@ -230,8 +230,8 @@ prerequisites
 ;
 add_task
 (
+async
 function
-*
 test_article_not_found
 (
 )
@@ -239,7 +239,7 @@ test_article_not_found
 let
 article
 =
-yield
+await
 ReaderMode
 .
 getArticleFromCache
@@ -263,13 +263,13 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_store_article
 (
 )
 {
-yield
+await
 ReaderMode
 .
 storeArticleInCache
@@ -325,7 +325,7 @@ excerpt
 let
 article
 =
-yield
+await
 ReaderMode
 .
 getArticleFromCache
@@ -352,13 +352,13 @@ TEST_PAGES
 ;
 add_task
 (
+async
 function
-*
 test_remove_article
 (
 )
 {
-yield
+await
 ReaderMode
 .
 removeArticleFromCache
@@ -374,7 +374,7 @@ url
 let
 article
 =
-yield
+await
 ReaderMode
 .
 getArticleFromCache
@@ -398,8 +398,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_parse_articles
 (
 )
@@ -415,7 +415,7 @@ TEST_PAGES
 let
 article
 =
-yield
+await
 ReaderMode
 .
 downloadAndParseDocument
@@ -437,8 +437,8 @@ testcase
 ;
 add_task
 (
+async
 function
-*
 test_migrate_cache
 (
 )
@@ -446,7 +446,7 @@ test_migrate_cache
 let
 cacheDB
 =
-yield
+await
 new
 Promise
 (
@@ -558,7 +558,7 @@ result
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -681,7 +681,7 @@ resolve
 }
 )
 ;
-yield
+await
 Reader
 .
 migrateCache
@@ -691,7 +691,7 @@ migrateCache
 let
 article
 =
-yield
+await
 ReaderMode
 .
 getArticleFromCache

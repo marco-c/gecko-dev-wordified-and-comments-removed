@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -886,14 +886,14 @@ runTests
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -905,7 +905,7 @@ create
 "
 )
 ;
-yield
+await
 extension
 .
 unload

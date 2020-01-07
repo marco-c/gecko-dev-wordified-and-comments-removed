@@ -281,8 +281,8 @@ time
 /
 add_task
 (
+async
 function
-*
 testExecuteScript
 (
 )
@@ -986,14 +986,14 @@ DEBUG
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1005,7 +1005,7 @@ runAt
 "
 )
 ;
-yield
+await
 extension
 .
 unload

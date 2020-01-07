@@ -487,12 +487,12 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT
@@ -503,7 +503,7 @@ gVisitURLs
 [
 ]
 ;
-yield
+await
 promiseLoadEvent
 (
 gBrowser
@@ -526,7 +526,7 @@ html
 "
 )
 ;
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT_LONG
@@ -617,7 +617,7 @@ gVisitURLs
 [
 ]
 ;
-yield
+await
 promiseLoadEvent
 (
 gBrowser
@@ -656,7 +656,7 @@ html
 "
 )
 ;
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT
@@ -749,7 +749,7 @@ gVisitURLs
 [
 ]
 ;
-yield
+await
 promiseLoadEvent
 (
 gBrowser
@@ -788,7 +788,7 @@ html
 "
 )
 ;
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT

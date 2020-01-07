@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -685,14 +685,14 @@ html
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -704,7 +704,7 @@ pass
 "
 )
 ;
-yield
+await
 extension
 .
 unload

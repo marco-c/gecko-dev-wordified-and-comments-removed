@@ -596,8 +596,8 @@ first
 .
 add_task
 (
+async
 function
-*
 test_sessionStoreClearFiles
 (
 )
@@ -937,7 +937,7 @@ sanitize
 sanitize
 )
 ;
-yield
+await
 notification
 ;
 ok
@@ -1023,8 +1023,8 @@ STATE_RUNNING
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreClearTabHistory
 (
 )
@@ -1059,7 +1059,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1086,7 +1086,7 @@ loadURI
 url2
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1106,7 +1106,7 @@ loadURI
 url3
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1140,7 +1140,7 @@ goBack
 (
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1264,7 +1264,7 @@ sanitize
 sanitize
 )
 ;
-yield
+await
 notification
 ;
 /
@@ -1353,8 +1353,8 @@ cleanupTabs
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreClearZombieTabHistory
 (
 )
@@ -1389,7 +1389,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1416,7 +1416,7 @@ loadURI
 url2
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1436,7 +1436,7 @@ loadURI
 url3
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1470,7 +1470,7 @@ goBack
 (
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1593,7 +1593,7 @@ id
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -1722,7 +1722,7 @@ sanitize
 sanitize
 )
 ;
-yield
+await
 notification
 ;
 /

@@ -272,8 +272,8 @@ sjs
 ;
 add_task
 (
+async
 function
-*
 test_desktopmode
 (
 )
@@ -349,7 +349,7 @@ desktopTab
 .
 browser
 ;
-yield
+await
 promiseBrowserEvent
 (
 desktopBrowser
@@ -526,7 +526,7 @@ mobileTab
 .
 browser
 ;
-yield
+await
 promiseBrowserEvent
 (
 mobileBrowser

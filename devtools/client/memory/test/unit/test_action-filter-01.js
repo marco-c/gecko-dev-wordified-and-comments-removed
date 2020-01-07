@@ -25,8 +25,8 @@ filter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

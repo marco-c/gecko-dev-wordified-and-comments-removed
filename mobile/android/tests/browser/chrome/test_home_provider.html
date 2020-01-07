@@ -498,8 +498,8 @@ ID
 }
 add_task
 (
+async
 function
-*
 test_save_and_delete
 (
 )
@@ -525,7 +525,7 @@ getStorage
 TEST_DATASET_ID
 )
 ;
-yield
+await
 storage
 .
 save
@@ -566,7 +566,7 @@ data
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -591,7 +591,7 @@ created
 ok
 (
 (
-yield
+await
 db
 .
 tableExists
@@ -626,7 +626,7 @@ there
 let
 result
 =
-yield
+await
 db
 .
 execute
@@ -730,7 +730,7 @@ delete
 the
 data
 .
-yield
+await
 storage
 .
 deleteAll
@@ -748,7 +748,7 @@ deleted
 .
 result
 =
-yield
+await
 db
 .
 execute
@@ -785,8 +785,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_row_validation
 (
 )
@@ -866,7 +866,7 @@ invalidRows
 {
 try
 {
-yield
+await
 storage
 .
 save
@@ -926,7 +926,7 @@ data
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -951,7 +951,7 @@ saved
 let
 result
 =
-yield
+await
 db
 .
 execute
@@ -988,8 +988,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_save_transaction
 (
 )
@@ -1054,7 +1054,7 @@ at
 once
 try
 {
-yield
+await
 storage
 .
 save
@@ -1111,7 +1111,7 @@ data
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -1136,7 +1136,7 @@ saved
 let
 result
 =
-yield
+await
 db
 .
 execute

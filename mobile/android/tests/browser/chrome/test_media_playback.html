@@ -491,8 +491,8 @@ BrowserApp
 }
 add_task
 (
+async
 function
-*
 test_media_control
 (
 )
@@ -541,7 +541,7 @@ content
 "
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -563,7 +563,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -640,7 +640,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -721,7 +721,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -798,7 +798,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -862,8 +862,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_audio_focus
 (
 )
@@ -912,7 +912,7 @@ content
 "
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -934,7 +934,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -1014,7 +1014,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -1098,7 +1098,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser
@@ -1177,7 +1177,7 @@ playing
 "
 )
 ;
-yield
+await
 promiseTabEvent
 (
 browser

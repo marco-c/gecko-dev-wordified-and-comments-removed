@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testExecuteScript
 (
 )
@@ -746,14 +746,14 @@ rgb
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -763,7 +763,7 @@ insertCSS
 "
 )
 ;
-yield
+await
 extension
 .
 unload

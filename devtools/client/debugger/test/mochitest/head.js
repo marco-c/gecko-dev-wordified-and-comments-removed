@@ -377,8 +377,8 @@ false
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -473,7 +473,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -517,7 +517,7 @@ test
 "
 )
 ;
-yield
+await
 new
 Promise
 (

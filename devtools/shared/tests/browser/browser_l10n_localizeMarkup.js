@@ -22,8 +22,8 @@ l10n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -708,8 +708,8 @@ _selectionID
 }
 add_task
 (
+async
 function
-*
 testAccessibleCarets
 (
 )
@@ -721,7 +721,7 @@ gChromeWin
 .
 BrowserApp
 ;
-yield
+await
 do_promiseTabChangeEvent
 (
 BrowserApp
@@ -764,7 +764,7 @@ getTabForBrowser
 browser
 )
 ;
-yield
+await
 do_promiseTabChangeEvent
 (
 tab
@@ -1748,8 +1748,8 @@ tests
 ;
 add_task
 (
+async
 function
-*
 testAccessibleCarets_designMode
 (
 )
@@ -1817,7 +1817,7 @@ true
 }
 )
 ;
-yield
+await
 do_promiseTabChangeEvent
 (
 tab

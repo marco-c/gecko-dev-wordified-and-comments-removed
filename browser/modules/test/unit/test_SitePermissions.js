@@ -1182,8 +1182,8 @@ permission
 ;
 add_task
 (
+async
 function
-*
 testDefaultPrefs
 (
 )

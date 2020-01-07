@@ -788,8 +788,8 @@ nsISessionStore
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreScrollPositionReaderMode
 (
 )
@@ -984,7 +984,7 @@ SSTabCloseProcessed
 )
 ;
 }
-yield
+await
 createAndRemoveReaderTab
 (
 )
@@ -1054,7 +1054,7 @@ chromeWin
 closedTabData
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -1164,8 +1164,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreScrollPositionAndZoomLevel
 (
 )
@@ -1512,7 +1512,7 @@ SSTabCloseProcessed
 )
 ;
 }
-yield
+await
 createAndRemoveTab
 (
 )
@@ -1624,10 +1624,10 @@ scroll
 "
 )
 ;
-yield
+await
 pageshow
 ;
-yield
+await
 scroll
 ;
 /
@@ -1798,10 +1798,10 @@ goBack
 (
 )
 ;
-yield
+await
 pageshow
 ;
-yield
+await
 scroll
 ;
 utils
@@ -1885,8 +1885,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreZoomLevelRecalc
 (
 )
@@ -2122,7 +2122,7 @@ SSTabCloseProcessed
 )
 ;
 }
-yield
+await
 createAndRemoveTab
 (
 )
@@ -2272,7 +2272,7 @@ chromeWin
 closedTabData
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser

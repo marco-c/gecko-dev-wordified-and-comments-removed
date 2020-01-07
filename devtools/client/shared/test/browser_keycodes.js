@@ -23,8 +23,8 @@ keycodes
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

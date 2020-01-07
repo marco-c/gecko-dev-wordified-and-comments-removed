@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -497,14 +497,14 @@ false
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -516,7 +516,7 @@ finished
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -541,7 +541,7 @@ the
 extension
 unloads
 .
-yield
+await
 extension
 .
 unload

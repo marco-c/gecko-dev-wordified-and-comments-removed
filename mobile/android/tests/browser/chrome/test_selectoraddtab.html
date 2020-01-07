@@ -383,8 +383,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_selectOrAdd
 (
 )
@@ -458,7 +458,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -512,7 +512,7 @@ selectTab
 tabBlank
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -576,7 +576,7 @@ id
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -625,7 +625,7 @@ selectTab
 tabBlank
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -698,7 +698,7 @@ kTestPage
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -747,7 +747,7 @@ selectTab
 tabBlank
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -871,7 +871,7 @@ id
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp

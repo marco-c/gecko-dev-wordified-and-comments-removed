@@ -144,8 +144,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -374,8 +374,8 @@ URLs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -440,8 +440,8 @@ scheme
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -506,8 +506,8 @@ scheme
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -567,8 +567,8 @@ wasm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -679,8 +679,8 @@ scheme
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -741,8 +741,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -831,8 +831,8 @@ scratchpad
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1403,8 +1403,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

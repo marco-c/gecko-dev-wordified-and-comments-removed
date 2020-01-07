@@ -171,8 +171,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_upgrade
 (
 )
@@ -485,7 +485,7 @@ blocking
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -528,7 +528,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -544,7 +544,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -556,8 +556,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_redirect_wins
 (
 )
@@ -774,7 +774,7 @@ blocking
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -817,7 +817,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -833,7 +833,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

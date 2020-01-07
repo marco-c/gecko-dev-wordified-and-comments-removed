@@ -48,8 +48,8 @@ t4
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -59,7 +59,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 POST_DATA_URL
@@ -143,7 +143,7 @@ false
 )
 )
 ;
-yield
+await
 performRequests
 (
 monitor
@@ -216,7 +216,7 @@ customItem
 origItem
 )
 ;
-yield
+await
 editCustomForm
 (
 )
@@ -258,13 +258,13 @@ connector
 )
 )
 ;
-yield
+await
 wait
 ;
 let
 sentItem
 ;
-yield
+await
 waitUntil
 (
 (
@@ -322,7 +322,7 @@ requestPostData
 }
 )
 ;
-yield
+await
 testSentRequest
 (
 sentItem

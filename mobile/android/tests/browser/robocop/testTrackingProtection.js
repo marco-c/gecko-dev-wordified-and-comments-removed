@@ -513,8 +513,8 @@ BrowserApp
 ;
 add_task
 (
+async
 function
-*
 test_tracking_pb
 (
 )
@@ -550,7 +550,7 @@ true
 .
 browser
 ;
-yield
+await
 new
 Promise
 (
@@ -612,12 +612,12 @@ simple
 "
 )
 ;
-yield
+await
 doUpdate
 (
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -664,7 +664,7 @@ unknown
 }
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -711,7 +711,7 @@ tracking_content_blocked
 }
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -770,7 +770,7 @@ tracking_content_loaded
 }
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -847,7 +847,7 @@ enabled
 false
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -894,7 +894,7 @@ unknown
 }
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -963,8 +963,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 test_tracking_not_pb
 (
 )
@@ -990,7 +990,7 @@ true
 .
 browser
 ;
-yield
+await
 new
 Promise
 (
@@ -1036,7 +1036,7 @@ true
 }
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1083,7 +1083,7 @@ unknown
 }
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1146,7 +1146,7 @@ enabled
 true
 )
 ;
-yield
+await
 promiseLoadEvent
 (
 browser

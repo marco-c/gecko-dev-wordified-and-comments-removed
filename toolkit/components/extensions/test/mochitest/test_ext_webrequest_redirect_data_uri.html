@@ -271,8 +271,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_redirect_data_uri
 (
 )
@@ -616,7 +616,7 @@ finished
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -633,7 +633,7 @@ open
 WIN_URL
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -649,7 +649,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

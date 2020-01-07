@@ -28,8 +28,8 @@ PREF_DEVTOOLS_THEME
 ;
 add_task
 (
+async
 function
-*
 testDevtoolsTheme
 (
 )

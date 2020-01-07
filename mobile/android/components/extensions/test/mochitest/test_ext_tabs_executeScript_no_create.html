@@ -164,8 +164,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testExecuteScriptAtOnUpdated
 (
 )
@@ -675,7 +675,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -689,7 +689,7 @@ sendMessage
 URL
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -713,7 +713,7 @@ open
 URL
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -727,7 +727,7 @@ onUpdated
 "
 )
 ;
-yield
+await
 extension
 .
 unload

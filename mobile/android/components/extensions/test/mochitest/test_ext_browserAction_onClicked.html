@@ -433,8 +433,8 @@ event
 }
 add_task
 (
+async
 function
-*
 test_browserAction
 (
 )
@@ -450,7 +450,7 @@ Extension
 "
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -460,7 +460,7 @@ startup
 const
 tab
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -481,7 +481,7 @@ uuid
 }
 }
 ;
-yield
+await
 checkBrowserAction
 (
 extension
@@ -489,7 +489,7 @@ id
 tab
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -523,8 +523,8 @@ unloads
 ;
 add_task
 (
+async
 function
-*
 test_multiple_browserActions
 (
 )
@@ -565,7 +565,7 @@ its
 browser
 action
 .
-yield
+await
 ext1
 .
 startup
@@ -575,7 +575,7 @@ startup
 const
 tab1
 =
-yield
+await
 ext1
 .
 awaitMessage
@@ -596,7 +596,7 @@ uuid
 }
 }
 ;
-yield
+await
 checkBrowserAction
 (
 ext1
@@ -616,7 +616,7 @@ its
 browser
 action
 .
-yield
+await
 ext2
 .
 startup
@@ -626,7 +626,7 @@ startup
 const
 tab2
 =
-yield
+await
 ext2
 .
 awaitMessage
@@ -647,7 +647,7 @@ uuid
 }
 }
 ;
-yield
+await
 checkBrowserAction
 (
 ext2
@@ -667,7 +667,7 @@ is
 still
 active
 .
-yield
+await
 checkBrowserAction
 (
 ext1
@@ -690,7 +690,7 @@ action
 is
 removed
 .
-yield
+await
 ext1
 .
 unload
@@ -731,7 +731,7 @@ is
 still
 active
 .
-yield
+await
 checkBrowserAction
 (
 ext2
@@ -754,7 +754,7 @@ action
 is
 removed
 .
-yield
+await
 ext2
 .
 unload

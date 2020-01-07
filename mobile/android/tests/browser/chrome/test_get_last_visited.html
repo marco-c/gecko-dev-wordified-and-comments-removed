@@ -636,8 +636,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_get_last_visited
 (
 )
@@ -645,7 +645,7 @@ test_get_last_visited
 var
 v
 =
-yield
+await
 get_last_visited
 (
 "
@@ -733,7 +733,7 @@ now
 (
 )
 ;
-yield
+await
 add_history_visit
 (
 url1
@@ -741,7 +741,7 @@ url1
 ;
 v
 =
-yield
+await
 get_last_visited
 (
 prePath
@@ -812,7 +812,7 @@ now
 (
 )
 ;
-yield
+await
 add_history_visit
 (
 url1
@@ -820,7 +820,7 @@ url1
 ;
 v
 =
-yield
+await
 get_last_visited
 (
 prePath
@@ -859,7 +859,7 @@ now
 (
 )
 ;
-yield
+await
 add_history_visit
 (
 url2
@@ -867,7 +867,7 @@ url2
 ;
 v
 =
-yield
+await
 get_last_visited
 (
 prePath
@@ -940,7 +940,7 @@ completes
 while
 debugging
 .
-yield
+await
 add_history_visit
 (
 url3

@@ -85,12 +85,12 @@ FORM
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -123,7 +123,7 @@ tab
 panel
 ]
 =
-yield
+await
 initDebugger
 (
 TAB_URL
@@ -259,7 +259,7 @@ panel
 TAB_URL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -299,7 +299,7 @@ click
 }
 )
 ;
-yield
+await
 onSourceUpdated
 ;
 source
@@ -380,7 +380,7 @@ delicious
 "
 )
 ;
-yield
+await
 closeDebuggerAndFinish
 (
 panel

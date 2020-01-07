@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ dir
 .
 spec
 ;
-yield
+await
 openTabAndSetupStorage
 (
 uriString
@@ -76,7 +76,7 @@ selectedBrowser
 let
 actualPath
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -135,7 +135,7 @@ g
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -225,7 +225,7 @@ test6
 ]
 )
 ;
-yield
+await
 finishTests
 (
 )

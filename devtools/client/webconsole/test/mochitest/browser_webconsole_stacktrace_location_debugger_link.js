@@ -140,8 +140,8 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {

@@ -64,8 +64,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -4461,8 +4461,8 @@ foo
 ;
 add_task
 (
+async
 function
-*
 format_errors
 (
 )
@@ -4550,7 +4550,7 @@ Error
 ;
 try
 {
-yield
+await
 Promise
 .
 resolve

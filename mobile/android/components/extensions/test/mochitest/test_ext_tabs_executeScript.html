@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testExecuteScript
 (
 )
@@ -220,7 +220,7 @@ open
 URL
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2249,14 +2249,14 @@ window
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -2266,7 +2266,7 @@ executeScript
 "
 )
 ;
-yield
+await
 extension
 .
 unload

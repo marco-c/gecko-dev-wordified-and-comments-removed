@@ -43,8 +43,8 @@ prefs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
