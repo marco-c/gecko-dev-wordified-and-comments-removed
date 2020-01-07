@@ -6522,6 +6522,15 @@ unloadBootstrapScope
 ;
 XPIInstall
 .
+flushJarCache
+(
+this
+.
+file
+)
+;
+XPIInstall
+.
 flushChromeCaches
 (
 )
