@@ -377,7 +377,7 @@ mOutputStream
 )
 ;
 }
-void
+bool
 DrawEventRecorderMemory
 :
 :
@@ -404,6 +404,16 @@ mIndex
 mLength
 )
 ;
+bool
+hasItems
+=
+mIndex
+.
+mLength
+!
+=
+0
+;
 mIndex
 =
 MemStream
@@ -419,6 +429,9 @@ indexOffset
 ClearResources
 (
 )
+;
+return
+hasItems
 ;
 }
 size_t

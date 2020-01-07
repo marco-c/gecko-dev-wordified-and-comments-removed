@@ -83,7 +83,7 @@ DrawEventRecorderPrivate
 {
 }
 virtual
-void
+bool
 Finish
 (
 )
@@ -92,6 +92,9 @@ override
 ClearResources
 (
 )
+;
+return
+true
 ;
 }
 virtual
@@ -780,7 +783,7 @@ WipeRecording
 (
 )
 ;
-void
+bool
 Finish
 (
 )
