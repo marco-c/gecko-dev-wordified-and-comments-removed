@@ -161,10 +161,6 @@ Complete
 (
 )
 ;
-DisconnectFromOwner
-(
-)
-;
 }
 void
 DisconnectIfExists
