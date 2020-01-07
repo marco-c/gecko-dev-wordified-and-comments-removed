@@ -374,6 +374,9 @@ update
 in
 nsIPaymentDetails
 aDetails
+in
+boolean
+aRequestShipping
 )
 ;
 }
