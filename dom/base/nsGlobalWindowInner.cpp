@@ -5326,10 +5326,6 @@ mHistory
 =
 nullptr
 ;
-mCustomElements
-=
-nullptr
-;
 if
 (
 mNavigator
