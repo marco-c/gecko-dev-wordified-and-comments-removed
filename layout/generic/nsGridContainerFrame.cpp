@@ -21635,7 +21635,7 @@ false
 std
 :
 :
-stable_sort
+sort
 (
 step2Items
 .
