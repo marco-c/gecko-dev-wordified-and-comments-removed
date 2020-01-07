@@ -115,11 +115,6 @@ onEndUpdateBatch
 )
 {
 }
-onVisits
-(
-)
-{
-}
 onTitleChanged
 (
 aURI

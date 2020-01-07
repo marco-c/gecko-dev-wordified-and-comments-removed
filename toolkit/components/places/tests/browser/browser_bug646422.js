@@ -85,11 +85,6 @@ onEndUpdateBatch
 )
 {
 }
-onVisits
-(
-)
-{
-}
 onDeleteURI
 (
 )
