@@ -145,7 +145,7 @@ reflow_out_of_flow
 endfor
 /
 /
-offset
+inset
 -
 *
 logical
@@ -179,7 +179,7 @@ helpers
 predefined_type
 (
 "
-offset
+inset
 -
 %
 s
@@ -220,7 +220,7 @@ props
 #
 propdef
 -
-offset
+inset
 -
 %
 s
@@ -232,6 +232,16 @@ flags
 "
 GETCS_NEEDS_LAYOUT_FLUSH
 "
+alias
+=
+"
+offset
+-
+%
+s
+"
+%
+side
 animation_value_type
 =
 "

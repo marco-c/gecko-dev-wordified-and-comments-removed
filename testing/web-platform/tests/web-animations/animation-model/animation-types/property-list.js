@@ -4671,7 +4671,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 block
 -
@@ -4685,7 +4685,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 block
 -
@@ -4699,7 +4699,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 inline
 -
@@ -4713,7 +4713,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 inline
 -
