@@ -2420,6 +2420,13 @@ defined
 (
 _M_IX86
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 if
 (
 mozilla
