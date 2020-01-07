@@ -465,6 +465,14 @@ nsContainerFrame
 aStyle
 kClassID
 )
+mCachedMinISize
+(
+NS_INTRINSIC_WIDTH_UNKNOWN
+)
+mCachedPrefISize
+(
+NS_INTRINSIC_WIDTH_UNKNOWN
+)
 mBaselineFromLastReflow
 (
 NS_INTRINSIC_WIDTH_UNKNOWN
@@ -818,6 +826,12 @@ nsLayoutUtils
 IntrinsicISizeType
 aType
 )
+;
+nscoord
+mCachedMinISize
+;
+nscoord
+mCachedPrefISize
 ;
 nscoord
 mBaselineFromLastReflow
