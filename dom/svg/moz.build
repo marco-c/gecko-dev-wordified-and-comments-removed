@@ -215,6 +215,11 @@ SVGAnimatedNumber
 h
 '
 '
+SVGAnimatedPathSegList
+.
+h
+'
+'
 SVGAnimatedRect
 .
 h
