@@ -66,13 +66,9 @@ IsChromeOrXBL
 interface
 TreeColumn
 {
-[
-Throws
-]
 readonly
 attribute
 Element
-?
 element
 ;
 readonly
