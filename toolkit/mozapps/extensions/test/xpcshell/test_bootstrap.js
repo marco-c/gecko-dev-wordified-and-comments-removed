@@ -6484,7 +6484,6 @@ AddonManager
 getInstallForURL
 (
 url
-null
 "
 application
 /

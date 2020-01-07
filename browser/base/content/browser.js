@@ -6030,7 +6030,6 @@ getInstallForURL
 aUri
 .
 spec
-null
 mimeType
 )
 .

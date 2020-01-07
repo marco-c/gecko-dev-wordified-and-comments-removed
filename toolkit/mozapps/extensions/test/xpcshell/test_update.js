@@ -5053,7 +5053,6 @@ AddonManager
 getInstallForURL
 (
 url
-null
 "
 application
 /
@@ -5130,7 +5129,6 @@ AddonManager
 getInstallForURL
 (
 url_2
-null
 "
 application
 /

@@ -712,7 +712,6 @@ theme
 .
 xpi
 "
-null
 "
 application
 /

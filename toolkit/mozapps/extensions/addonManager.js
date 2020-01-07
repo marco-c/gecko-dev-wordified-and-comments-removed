@@ -401,7 +401,6 @@ AddonManager
 getInstallForURL
 (
 aUri
-null
 aMimetype
 aHash
 aName

@@ -156,7 +156,6 @@ AddonManager
 getInstallForURL
 (
 addonUrl
-null
 "
 application
 /

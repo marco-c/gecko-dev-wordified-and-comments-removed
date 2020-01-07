@@ -73,7 +73,6 @@ browser_update1_1
 .
 xpi
 "
-null
 "
 application
 /
@@ -170,7 +169,6 @@ browser_update1_2
 .
 xpi
 "
-null
 "
 application
 /
