@@ -3881,11 +3881,14 @@ map
 |
 arg
 |
+unsafe
+{
 arg
 .
 handle
 (
 )
+}
 )
 .
 collect

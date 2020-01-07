@@ -21101,9 +21101,9 @@ hashglobe
 mozjs
 0
 .
-3
+4
 .
-1
+0
 (
 registry
 +
@@ -23411,9 +23411,9 @@ version
 "
 0
 .
-3
+4
 .
-1
+0
 "
 source
 =
@@ -32758,9 +32758,9 @@ index
 mozjs
 0
 .
-3
+4
 .
-1
+0
 (
 registry
 +
@@ -55631,9 +55631,9 @@ checksum
 mozjs
 0
 .
-3
+4
 .
-1
+0
 (
 registry
 +
@@ -55658,7 +55658,7 @@ index
 "
 =
 "
-896b93aaf26a4cbdcd878b6a9e3b4b90ac018dccebaaac1fe67d2d0724f6a711
+4463834f4d4ffcf2a54706c8a202e25ddac3f142e3eccc4aebade58fa62bc1ff
 "
 "
 checksum

@@ -241,6 +241,8 @@ self
 >
 HandleObject
 {
+unsafe
+{
 self
 .
 object
@@ -248,6 +250,7 @@ object
 handle
 (
 )
+}
 }
 pub
 fn
