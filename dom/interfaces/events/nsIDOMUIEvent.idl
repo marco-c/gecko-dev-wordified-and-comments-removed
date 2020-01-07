@@ -223,11 +223,6 @@ attribute
 mozIDOMWindowProxy
 view
 ;
-readonly
-attribute
-long
-detail
-;
 void
 initUIEvent
 (
