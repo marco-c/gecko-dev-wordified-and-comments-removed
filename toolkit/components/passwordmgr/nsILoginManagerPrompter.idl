@@ -67,10 +67,10 @@ interface
 nsILoginInfo
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIDOMWindow
+;
+webidl
+Element
 ;
 [
 scriptable
@@ -296,7 +296,7 @@ argument
 *
 /
 attribute
-nsIDOMElement
+Element
 browser
 ;
 /

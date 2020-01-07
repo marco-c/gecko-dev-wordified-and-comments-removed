@@ -64,13 +64,13 @@ nsISupports
 idl
 "
 interface
-nsIDOMElement
-;
-interface
 nsIURI
 ;
 interface
 nsIVariant
+;
+webidl
+Element
 ;
 /
 *
@@ -186,7 +186,7 @@ void
 confirm
 (
 in
-nsIDOMElement
+Element
 aBrowser
 in
 nsIURI

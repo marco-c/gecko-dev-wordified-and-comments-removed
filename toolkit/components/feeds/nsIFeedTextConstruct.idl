@@ -103,11 +103,11 @@ idl
 interface
 nsIURI
 ;
-interface
-nsIDOMElement
-;
 webidl
 DocumentFragment
+;
+webidl
+Element
 ;
 /
 *
@@ -406,7 +406,7 @@ DocumentFragment
 createDocumentFragment
 (
 in
-nsIDOMElement
+Element
 element
 )
 ;

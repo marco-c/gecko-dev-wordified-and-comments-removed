@@ -172,8 +172,7 @@ idl
 "
 /
 /
-nsIDOMElement
-nsIDOMWindow
+nsIDOMRange
 #
 include
 "

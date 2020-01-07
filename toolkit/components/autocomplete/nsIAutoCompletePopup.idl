@@ -64,10 +64,10 @@ nsISupports
 idl
 "
 interface
-nsIDOMElement
-;
-interface
 nsIAutoCompleteInput
+;
+webidl
+Element
 ;
 [
 scriptable
@@ -228,7 +228,7 @@ in
 nsIAutoCompleteInput
 input
 in
-nsIDOMElement
+Element
 element
 )
 ;
