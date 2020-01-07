@@ -25,9 +25,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -55,9 +56,10 @@ arg
 assert
 False
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -90,17 +92,16 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 *
 SETUP
 F
 arg
 *
-'
-        
-'
+"
+"
 *
 test_arg
 (
@@ -109,15 +110,14 @@ used
 :
 arg
 )
-'
-        
-'
+"
+"
 *
 TEARDOWN
 F
 arg
 *
-'
-    
+"
 ]
+    
 )

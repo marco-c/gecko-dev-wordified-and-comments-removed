@@ -13,17 +13,17 @@ __file__
 .
 dirpath
 (
-'
+"
 failure_demo
 .
 py
-'
+"
 )
 pytest_plugins
 =
-'
+"
 pytester
-'
+"
 def
 test_failure_demo_fails_properly
 (
@@ -86,14 +86,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 42
 failed
 *
 "
-    
 ]
 )
     

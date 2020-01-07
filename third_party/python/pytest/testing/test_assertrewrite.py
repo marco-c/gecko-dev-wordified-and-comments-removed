@@ -15,6 +15,8 @@ stat
 import
 sys
 import
+textwrap
+import
 zipfile
 import
 py
@@ -37,9 +39,14 @@ assertion
 .
 rewrite
 import
+(
+    
 rewrite_asserts
+    
 PYTEST_TAG
+    
 AssertionRewritingHook
+)
 from
 _pytest
 .
@@ -183,10 +190,10 @@ message
     
 src
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -353,6 +360,214 @@ at
 all
 "
 )
+def
+adjust_body_for_new_docstring_in_module_node
+(
+m
+)
+:
+    
+"
+"
+"
+Module
+docstrings
+in
+3
+.
+8
+are
+part
+of
+Module
+node
+.
+    
+This
+was
+briefly
+in
+3
+.
+7
+as
+well
+but
+got
+reverted
+in
+beta
+5
+.
+    
+It
+'
+s
+not
+in
+the
+body
+so
+we
+remove
+it
+so
+the
+following
+body
+items
+have
+    
+the
+same
+indexes
+on
+all
+Python
+versions
+:
+    
+TODO
+:
+    
+We
+have
+a
+complicated
+sys
+.
+version_info
+if
+in
+here
+to
+ease
+testing
+on
+    
+various
+Python
+3
+.
+7
+versions
+but
+we
+should
+remove
+the
+3
+.
+7
+check
+after
+    
+3
+.
+7
+is
+released
+as
+stable
+to
+make
+this
+check
+more
+straightforward
+.
+    
+"
+"
+"
+    
+if
+(
+        
+sys
+.
+version_info
+<
+(
+3
+8
+)
+        
+and
+not
+(
+(
+3
+7
+)
+<
+=
+sys
+.
+version_info
+<
+=
+(
+3
+7
+0
+"
+beta
+"
+4
+)
+)
+    
+)
+:
+        
+assert
+len
+(
+m
+.
+body
+)
+>
+1
+        
+assert
+isinstance
+(
+m
+.
+body
+[
+0
+]
+ast
+.
+Expr
+)
+        
+assert
+isinstance
+(
+m
+.
+body
+[
+0
+]
+.
+value
+ast
+.
+Str
+)
+        
+del
+m
+.
+body
+[
+0
+]
 class
 TestAssertionRewrite
 (
@@ -391,54 +606,10 @@ rewrite
 s
 )
         
-if
-sys
-.
-version_info
-<
-(
-3
-7
-)
-:
-            
-assert
-isinstance
+adjust_body_for_new_docstring_in_module_node
 (
 m
-.
-body
-[
-0
-]
-ast
-.
-Expr
 )
-            
-assert
-isinstance
-(
-m
-.
-body
-[
-0
-]
-.
-value
-ast
-.
-Str
-)
-            
-del
-m
-.
-body
-[
-0
-]
         
 for
 imp
@@ -605,54 +776,10 @@ rewrite
 s
 )
         
-if
-sys
-.
-version_info
-<
-(
-3
-7
-)
-:
-            
-assert
-isinstance
+adjust_body_for_new_docstring_in_module_node
 (
 m
-.
-body
-[
-0
-]
-ast
-.
-Expr
 )
-            
-assert
-isinstance
-(
-m
-.
-body
-[
-0
-]
-.
-value
-ast
-.
-Str
-)
-            
-del
-m
-.
-body
-[
-0
-]
         
 assert
 isinstance
@@ -733,54 +860,10 @@ rewrite
 s
 )
         
-if
-sys
-.
-version_info
-<
-(
-3
-7
-)
-:
-            
-assert
-isinstance
+adjust_body_for_new_docstring_in_module_node
 (
 m
-.
-body
-[
-0
-]
-ast
-.
-Expr
 )
-            
-assert
-isinstance
-(
-m
-.
-body
-[
-0
-]
-.
-value
-ast
-.
-Str
-)
-            
-del
-m
-.
-body
-[
-0
-]
         
 assert
 isinstance
@@ -951,69 +1034,11 @@ rewrite
 s
 )
         
-if
-sys
-.
-version_info
-<
-(
-3
-7
-)
-:
-            
-assert
-len
+adjust_body_for_new_docstring_in_module_node
 (
 m
-.
-body
 )
-=
-=
-2
-            
-assert
-isinstance
-(
-m
-.
-body
-[
-0
-]
-ast
-.
-Expr
-)
-            
-assert
-isinstance
-(
-m
-.
-body
-[
-0
-]
-.
-value
-ast
-.
-Str
-)
-            
-del
-m
-.
-body
-[
-0
-]
         
-else
-:
-            
 assert
 len
 (
@@ -1036,6 +1061,97 @@ body
 msg
 is
 None
+    
+def
+test_dont_rewrite_plugin
+(
+self
+testdir
+)
+:
+        
+contents
+=
+{
+            
+"
+conftest
+.
+py
+"
+:
+"
+pytest_plugins
+=
+'
+plugin
+'
+;
+import
+plugin
+"
+            
+"
+plugin
+.
+py
+"
+:
+"
+'
+PYTEST_DONT_REWRITE
+'
+"
+            
+"
+test_foo
+.
+py
+"
+:
+"
+def
+test_foo
+(
+)
+:
+pass
+"
+        
+}
+        
+testdir
+.
+makepyfile
+(
+*
+*
+contents
+)
+        
+result
+=
+testdir
+.
+runpytest_subprocess
+(
+)
+        
+assert
+"
+warnings
+"
+not
+in
+"
+"
+.
+join
+(
+result
+.
+outlines
+)
     
 def
 test_name
@@ -1246,6 +1362,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1270,6 +1387,7 @@ message
 "
 "
 "
+        
 )
         
 result
@@ -1294,8 +1412,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 AssertionError
@@ -1305,7 +1423,6 @@ failure
 message
 *
 "
-            
 "
 *
 assert
@@ -1315,8 +1432,8 @@ assert
 2
 *
 "
-        
 ]
+        
 )
     
 def
@@ -1331,6 +1448,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1358,6 +1476,7 @@ message
 "
 "
 "
+        
 )
         
 result
@@ -1382,8 +1501,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 AssertionError
@@ -1392,14 +1511,12 @@ A
 multiline
 *
 "
-            
 "
 *
 failure
 message
 *
 "
-            
 "
 *
 assert
@@ -1409,8 +1526,8 @@ assert
 2
 *
 "
-        
 ]
+        
 )
     
 def
@@ -1425,6 +1542,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1448,6 +1566,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -1472,8 +1591,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 AssertionError
@@ -1490,7 +1609,6 @@ repr
 2
 )
 )
-            
 "
 *
 assert
@@ -1500,8 +1618,8 @@ assert
 2
 *
 "
-        
 ]
+        
 )
     
 def
@@ -1516,6 +1634,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1538,6 +1657,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -1563,7 +1683,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 AssertionError
@@ -1571,7 +1690,6 @@ AssertionError
 3
 *
 "
-            
 "
 *
 assert
@@ -1581,7 +1699,6 @@ assert
 2
 *
 "
-        
 ]
 )
     
@@ -1597,6 +1714,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1623,6 +1741,7 @@ escaped
 "
 "
 "
+        
 )
         
 result
@@ -1647,8 +1766,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 AssertionError
@@ -1659,7 +1778,6 @@ escaped
 :
 %
 "
-            
 "
 *
 assert
@@ -1668,8 +1786,8 @@ assert
 =
 2
 "
-        
 ]
+        
 )
     
 def
@@ -1863,6 +1981,8 @@ x
 )
         
 assert
+(
+            
 getmsg
 (
 f
@@ -1874,6 +1994,7 @@ x
 x
 }
 )
+            
 =
 =
 "
@@ -1894,6 +2015,8 @@ x
 "
 "
 "
+        
+)
         
 def
 f
@@ -1909,6 +2032,8 @@ x
 )
         
 assert
+(
+            
 getmsg
 (
 f
@@ -1920,6 +2045,7 @@ x
 x
 }
 )
+            
 =
 =
 "
@@ -1942,6 +2068,8 @@ x
 "
 "
 "
+        
+)
         
 def
 f
@@ -2458,6 +2586,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2521,6 +2650,7 @@ Matrix
 "
 "
 "
+        
 )
         
 testdir
@@ -2582,11 +2712,14 @@ g
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2605,6 +2738,8 @@ g
 "
 "
 "
+        
+)
         
 def
 f
@@ -2619,11 +2754,14 @@ g
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2643,6 +2781,8 @@ g
 "
 "
 "
+        
+)
         
 def
 f
@@ -2658,11 +2798,14 @@ g
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2683,6 +2826,8 @@ g
 "
 "
 "
+        
+)
         
 def
 f
@@ -2700,11 +2845,14 @@ g
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2727,6 +2875,8 @@ g
 "
 "
 "
+        
+)
         
 def
 f
@@ -2745,11 +2895,14 @@ g
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2773,6 +2926,8 @@ g
 "
 "
 "
+        
+)
         
 def
 f
@@ -2796,11 +2951,14 @@ seq
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2825,6 +2983,8 @@ g
 "
 "
 "
+        
+)
         
 def
 f
@@ -2851,11 +3011,14 @@ x
 )
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2883,6 +3046,8 @@ a
 "
 "
 "
+        
+)
     
 def
 test_attribute
@@ -2925,11 +3090,14 @@ x
 g
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2950,6 +3118,8 @@ g
 "
 "
         
+)
+        
 def
 f
 (
@@ -2968,11 +3138,14 @@ x
 a
         
 assert
+(
+            
 getmsg
 (
 f
 ns
 )
+            
 =
 =
 "
@@ -2991,6 +3164,8 @@ a
 "
 "
 "
+        
+)
     
 def
 test_comparisons
@@ -3220,6 +3395,7 @@ f
 .
 startswith
 (
+            
 "
 "
 "
@@ -3239,6 +3415,7 @@ len
 "
 "
 "
+        
 )
     
 def
@@ -3636,6 +3813,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3657,6 +3835,7 @@ globals
 "
 "
 "
+        
 )
         
 assert
@@ -3717,6 +3896,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3738,6 +3918,7 @@ globals
 "
 "
 "
+        
 )
         
 try
@@ -3860,6 +4041,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3884,10 +4066,12 @@ test_lizard
 "
 "
 "
+            
 %
 (
 z_fn
 )
+        
 )
         
 assert
@@ -3941,6 +4125,7 @@ builtin
 .
 _totext
 (
+                
 "
 "
 "
@@ -3962,19 +4147,24 @@ globals
 "
 "
 "
+            
 )
 .
 encode
 (
+                
 "
 utf
 -
 8
 "
+            
 )
+            
 "
 wb
 "
+        
 )
         
 old_mode
@@ -4032,6 +4222,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4083,6 +4274,7 @@ __cached__
 "
 "
 "
+        
 )
         
 monkeypatch
@@ -4130,9 +4322,9 @@ and
 hasattr
 (
 sys
-'
+"
 pypy_version_info
-'
+"
 )
 :
             
@@ -4156,6 +4348,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4180,12 +4373,14 @@ value
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 orphan
 =
 "
@@ -4199,6 +4394,7 @@ value
 "
 "
 "
+        
 )
         
 py_compile
@@ -4322,6 +4518,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4348,7 +4545,7 @@ None
 "
 "
 "
-                           
+        
 )
         
 p
@@ -4361,6 +4558,7 @@ local
 .
 make_numbered_dir
 (
+            
 prefix
 =
 "
@@ -4370,12 +4568,12 @@ runpytest
 keep
 =
 None
-                                            
 rootdir
 =
 testdir
 .
 tmpdir
+        
 )
         
 tmp
@@ -4557,6 +4755,7 @@ py
 .
 write
 (
+            
 "
 "
 "
@@ -4577,6 +4776,7 @@ globals
 "
 "
 "
+        
 )
         
 assert
@@ -4673,18 +4873,19 @@ mark
 .
 skipif
 (
+        
 sys
 .
 version_info
 <
 (
 3
-3
+4
 )
-                        
+        
 reason
 =
-'
+"
 packages
 without
 __init__
@@ -4695,7 +4896,8 @@ supported
 on
 python
 2
-'
+"
+    
 )
     
 def
@@ -4712,20 +4914,20 @@ testdir
 .
 mkdir
 (
-'
+"
 a_package_without_init_py
-'
+"
 )
         
 pkg
 .
 join
 (
-'
+"
 module
 .
 py
-'
+"
 )
 .
 ensure
@@ -4802,9 +5004,9 @@ setattr
 hook
 .
 config
-'
+"
 warn
-'
+"
 mywarn
 )
         
@@ -4812,15 +5014,15 @@ hook
 .
 mark_rewrite
 (
-'
+"
 _pytest
-'
+"
 )
         
 assert
-'
+"
 _pytest
-'
+"
 in
 warnings
 [
@@ -4842,27 +5044,30 @@ testdir
 .
 makeconftest
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 test_rewrite_module_imported
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 test_rewrite_module_imported
 =
-'
-'
-'
+"
+"
+"
             
 def
 test_rewritten
@@ -4879,9 +5084,10 @@ globals
 (
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 assert
@@ -4949,8 +5155,8 @@ makepyfile
 (
 test_remember_rewritten_modules
 =
-'
-'
+"
+"
 )
         
 warnings
@@ -4972,9 +5178,9 @@ setattr
 hook
 .
 config
-'
+"
 warn
-'
+"
 lambda
 code
 msg
@@ -4991,36 +5197,36 @@ hook
 .
 find_module
 (
-'
+"
 test_remember_rewritten_modules
-'
+"
 )
         
 hook
 .
 load_module
 (
-'
+"
 test_remember_rewritten_modules
-'
+"
 )
         
 hook
 .
 mark_rewrite
 (
-'
+"
 test_remember_rewritten_modules
-'
+"
 )
         
 hook
 .
 mark_rewrite
 (
-'
+"
 test_remember_rewritten_modules
-'
+"
 )
         
 assert
@@ -5042,15 +5248,16 @@ testdir
 .
 makepyfile
 (
+            
 *
 *
 {
-            
-'
+                
+"
 conftest
 .
 py
-'
+"
 :
 "
 pytest_plugins
@@ -5067,21 +5274,21 @@ sci
 '
 ]
 "
-            
-'
+                
+"
 core
 .
 py
-'
+"
 :
 "
 "
-            
-'
+                
+"
 gui
 .
 py
-'
+"
 :
 "
 pytest_plugins
@@ -5095,12 +5302,12 @@ sci
 '
 ]
 "
-            
-'
+                
+"
 sci
 .
 py
-'
+"
 :
 "
 pytest_plugins
@@ -5111,12 +5318,12 @@ core
 '
 ]
 "
-            
-'
+                
+"
 test_rewrite_warning_pytest_plugins
 .
 py
-'
+"
 :
 "
 def
@@ -5126,8 +5333,9 @@ test
 :
 pass
 "
-        
+            
 }
+        
 )
         
 testdir
@@ -5151,7 +5359,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 1
@@ -5160,17 +5368,17 @@ in
 *
 =
 *
-'
+"
 ]
 )
         
 assert
-'
+"
 pytest
 -
 warning
 summary
-'
+"
 not
 in
 result
@@ -5194,36 +5402,37 @@ monkeypatch
 .
 setenv
 (
-'
+"
 PYTEST_PLUGINS
-'
-'
+"
+"
 plugin
-'
+"
 )
         
 testdir
 .
 makepyfile
 (
+            
 *
 *
 {
-            
-'
+                
+"
 plugin
 .
 py
-'
+"
 :
 "
 "
-            
-'
+                
+"
 test_rewrite_warning_using_pytest_plugins_env_var
 .
 py
-'
+"
 :
 "
 "
@@ -5251,8 +5460,9 @@ pass
 "
 "
 "
-        
+            
 }
+        
 )
         
 testdir
@@ -5276,7 +5486,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 1
@@ -5285,17 +5495,17 @@ in
 *
 =
 *
-'
+"
 ]
 )
         
 assert
-'
+"
 pytest
 -
 warning
 summary
-'
+"
 not
 in
 result
@@ -5322,11 +5532,11 @@ version_info
 2
 reason
 =
-'
+"
 python
 2
 only
-'
+"
 )
     
 def
@@ -5402,9 +5612,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 def
 test
@@ -5426,9 +5637,10 @@ x
 is
 int
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -5465,6 +5677,7 @@ testdir
 .
 makepyfile
 (
+            
 test_fun
 =
 "
@@ -5489,6 +5702,7 @@ __name__
 "
 "
 "
+        
 )
         
 result
@@ -5506,14 +5720,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -5529,6 +5741,7 @@ testdir
 .
 makepyfile
 (
+            
 test_fun
 =
 "
@@ -5586,15 +5799,16 @@ pytest_not_there
 "
 "
 "
+        
 )
         
 testdir
 .
 mkpydir
 (
-'
+"
 fun
-'
+"
 )
         
 result
@@ -5612,14 +5826,12 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 3
 passed
 *
-'
-        
+"
 ]
 )
     
@@ -5771,6 +5983,7 @@ testdir
 .
 makepyfile
 (
+            
 test_cookie
 =
 "
@@ -5816,6 +6029,7 @@ globals
 "
 "
 "
+        
 )
         
 assert
@@ -5861,6 +6075,7 @@ testdir
 .
 makepyfile
 (
+            
 test_cookie
 =
 "
@@ -5906,6 +6121,7 @@ globals
 "
 "
 "
+        
 )
         
 assert
@@ -5951,6 +6167,7 @@ testdir
 .
 makepyfile
 (
+            
 test_cookie
 =
 "
@@ -5996,6 +6213,7 @@ globals
 "
 "
 "
+        
 )
         
 assert
@@ -6022,6 +6240,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6044,6 +6263,7 @@ meta_path
 "
 "
 "
+        
 )
         
 assert
@@ -6084,22 +6304,13 @@ assertion
 import
 AssertionState
         
-try
-:
-            
 import
-__builtin__
-as
-b
+atomicwrites
         
-except
-ImportError
-:
-            
+from
+contextlib
 import
-builtins
-as
-b
+contextmanager
         
 config
 =
@@ -6162,11 +6373,20 @@ stat
 pycpath
 )
         
+contextmanager
+        
 def
-open
+atomic_write_failed
 (
-*
-args
+fn
+mode
+=
+"
+r
+"
+overwrite
+=
+False
 )
 :
             
@@ -6184,16 +6404,18 @@ errno
             
 raise
 e
+            
+yield
         
 monkeypatch
 .
 setattr
 (
-b
+atomicwrites
 "
-open
+atomic_write
 "
-open
+atomic_write_failed
 )
         
 assert
@@ -6271,20 +6493,20 @@ testdir
 .
 mkpydir
 (
-'
+"
 testpkg
-'
+"
 )
         
 contents
 =
 {
             
-'
+"
 testpkg
 /
 test_pkg
-'
+"
 :
 "
 "
@@ -6376,11 +6598,11 @@ maketxtfile
 *
 *
 {
-'
+"
 testpkg
 /
 resource
-'
+"
 :
 "
 Load
@@ -6477,33 +6699,33 @@ tmpdir
 .
 join
 (
-'
+"
 source
 .
 py
-'
+"
 )
         
 pyc
 =
 source
 +
-'
+"
 c
-'
+"
         
 source
 .
 write
 (
-'
+"
 def
 test
 (
 )
 :
 pass
-'
+"
 )
         
 py_compile
@@ -6528,9 +6750,9 @@ read
 (
 mode
 =
-'
+"
 rb
-'
+"
 )
         
 strip_bytes
@@ -6556,9 +6778,9 @@ strip_bytes
 ]
 mode
 =
-'
+"
 wb
-'
+"
 )
         
 assert
@@ -6613,14 +6835,12 @@ ini
 .
 write
 (
-py
-.
-std
-.
+            
 textwrap
 .
 dedent
 (
+                
 "
 "
 "
@@ -6638,13 +6858,16 @@ py
 "
 "
 "
+            
 )
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 test_fun
 =
 "
@@ -6695,6 +6918,7 @@ file
 "
 "
 "
+        
 )
         
 result
@@ -6703,10 +6927,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 s
-'
+"
 )
         
 result
@@ -6716,14 +6940,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -6776,12 +6998,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -6833,25 +7057,27 @@ Hey
 "
 "
 "
+            
 )
+        
 )
         
 path
 .
 join
 (
-'
+"
 data
 .
 txt
-'
+"
 )
 .
 write
 (
-'
+"
 Hey
-'
+"
 )
         
 result
@@ -6868,12 +7094,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 passed
 *
-'
+"
 )
 def
 test_issue731
@@ -6886,6 +7112,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6967,6 +7194,7 @@ some_method
 "
 "
 "
+    
 )
     
 result
@@ -6978,10 +7206,10 @@ runpytest
 )
     
 assert
-'
+"
 unbalanced
 braces
-'
+"
 not
 in
 result
@@ -7010,6 +7238,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7034,6 +7263,7 @@ False
 "
 "
 "
+        
 )
         
 result
@@ -7050,7 +7280,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 E
 *
@@ -7064,7 +7294,7 @@ False
 =
 =
 False
-'
+"
 )
     
 def
@@ -7079,6 +7309,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7106,6 +7337,7 @@ True
 "
 "
 "
+        
 )
         
 result
@@ -7122,7 +7354,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 E
 *
@@ -7136,7 +7368,7 @@ True
 =
 =
 True
-'
+"
 )
     
 def
@@ -7151,6 +7383,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7180,6 +7413,7 @@ True
 "
 "
 "
+        
 )
         
 result
@@ -7196,7 +7430,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 E
 *
@@ -7215,7 +7449,7 @@ True
 =
 True
 )
-'
+"
 )
 class
 TestIssue2121
@@ -7252,6 +7486,7 @@ ensure
 .
 write
 (
+            
 "
 "
 "
@@ -7271,6 +7506,7 @@ assert
 "
 "
 "
+        
 )
         
 testdir
@@ -7288,14 +7524,12 @@ ini
 .
 write
 (
-py
-.
-std
-.
+            
 textwrap
 .
 dedent
 (
+                
 "
 "
 "
@@ -7316,7 +7550,9 @@ py
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -7333,7 +7569,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 E
 *
@@ -7346,5 +7582,5 @@ assert
 =
 =
 3
-'
+"
 )

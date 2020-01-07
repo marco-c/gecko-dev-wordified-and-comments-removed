@@ -17,9 +17,11 @@ absolute_import
 division
 print_function
 import
-sys
-import
 operator
+import
+os
+import
+sys
 import
 _pytest
 import
@@ -43,6 +45,12 @@ ReprExceptionInfo
     
 ExceptionChainRepr
 )
+from
+six
+.
+moves
+import
+queue
 from
 test_source
 import
@@ -71,21 +79,6 @@ importlib
 invalidate_caches
 "
 None
-)
-queue
-=
-py
-.
-builtin
-.
-_tryimport
-(
-'
-queue
-'
-'
-Queue
-'
 )
 failsonjython
 =
@@ -360,6 +353,7 @@ ExceptionInfo
 linenumbers
 =
 [
+        
 _pytest
 .
 _code
@@ -374,7 +368,7 @@ co_firstlineno
 1
 +
 4
-                   
+        
 _pytest
 .
 _code
@@ -389,7 +383,7 @@ co_firstlineno
 1
 +
 1
-                   
+        
 _pytest
 .
 _code
@@ -404,6 +398,7 @@ co_firstlineno
 1
 +
 1
+    
 ]
     
 values
@@ -543,15 +538,15 @@ entries
 names
 =
 [
-'
+"
 f
-'
-'
+"
+"
 g
-'
-'
+"
+"
 h
-'
+"
 ]
         
 for
@@ -660,6 +655,7 @@ _code
 .
 Source
 (
+            
 "
 "
 "
@@ -690,6 +686,7 @@ xyz
 "
 "
 "
+        
 )
         
 try
@@ -951,9 +948,9 @@ if
 hasattr
 (
 x
-'
+"
 path
-'
+"
 )
 :
                 
@@ -1034,12 +1031,14 @@ mark
 .
 parametrize
 (
-'
+        
+"
 tracebackhide
 matching
-'
+"
+        
 [
-        
+            
 (
 lambda
 info
@@ -1047,7 +1046,7 @@ info
 True
 True
 )
-        
+            
 (
 lambda
 info
@@ -1055,34 +1054,35 @@ info
 False
 False
 )
-        
+            
 (
 operator
 .
 methodcaller
 (
-'
+"
 errisinstance
-'
+"
 ValueError
 )
 True
 )
-        
+            
 (
 operator
 .
 methodcaller
 (
-'
+"
 errisinstance
-'
+"
 IndexError
 )
 False
 )
-    
+        
 ]
+    
 )
     
 def
@@ -1153,15 +1153,14 @@ filter
         
 print
 (
-'
+"
 old
 :
 {
-0
 !
 r
 }
-'
+"
 .
 format
 (
@@ -1171,15 +1170,14 @@ traceback
         
 print
 (
-'
+"
 new
 :
 {
-0
 !
 r
 }
-'
+"
 .
 format
 (
@@ -1477,9 +1475,9 @@ pytest
 .
 importorskip
 (
-'
+"
 decorator
-'
+"
 )
 .
 decorator
@@ -1498,12 +1496,12 @@ kw
             
 print
 (
-'
+"
 %
 s
 %
 s
-'
+"
 %
 (
 k
@@ -1536,8 +1534,8 @@ fail
 raise
 ValueError
 (
-'
-'
+"
+"
 )
         
 fail
@@ -1696,9 +1694,9 @@ code
 name
 =
 =
-'
+"
 h
-'
+"
     
 def
 test_traceback_getcrashentry_empty
@@ -1805,9 +1803,9 @@ code
 name
 =
 =
-'
+"
 g
-'
+"
 def
 test_excinfo_exconly
 (
@@ -1833,9 +1831,9 @@ exconly
 .
 startswith
 (
-'
+"
 ValueError
-'
+"
 )
     
 excinfo
@@ -1845,7 +1843,6 @@ pytest
 raises
 (
 ValueError
-                            
 "
 raise
 ValueError
@@ -1876,9 +1873,9 @@ msg
 .
 startswith
 (
-'
+"
 ValueError
-'
+"
 )
     
 assert
@@ -2056,48 +2053,6 @@ traceback
 ]
 )
     
-if
-py
-.
-std
-.
-sys
-.
-version_info
-<
-(
-2
-5
-)
-:
-        
-assert
-s
-=
-=
-"
-File
-'
-<
-string
->
-'
-:
-1
-in
-?
-\
-n
-?
-?
-?
-\
-n
-"
-    
-else
-:
-        
 assert
 s
 =
@@ -2134,11 +2089,11 @@ tmpdir
 .
 join
 (
-'
+"
 test
 .
 txt
-'
+"
 )
 .
 write
@@ -2161,9 +2116,9 @@ pytest
 .
 importorskip
 (
-'
+"
 jinja2
-'
+"
 )
     
 loader
@@ -2195,11 +2150,11 @@ env
 .
 get_template
 (
-'
+"
 test
 .
 txt
-'
+"
 )
     
 excinfo
@@ -2209,7 +2164,6 @@ pytest
 raises
 (
 ValueError
-                            
 template
 .
 render
@@ -2243,11 +2197,11 @@ path
 basename
 =
 =
-'
+"
 test
 .
 txt
-'
+"
 :
             
 assert
@@ -2259,7 +2213,7 @@ source
 )
 =
 =
-'
+"
 {
 {
 h
@@ -2268,7 +2222,7 @@ h
 }
 }
 :
-'
+"
 def
 test_entrysource_Queue_example
 (
@@ -2470,13 +2424,13 @@ excinfo
 match
 (
 r
-'
+"
 .
 *
 zero
 .
 *
-'
+"
 )
 def
 test_match_raises_error
@@ -2489,6 +2443,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2533,6 +2488,7 @@ r
 "
 "
 "
+    
 )
     
 result
@@ -2558,7 +2514,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 AssertionError
@@ -2573,7 +2528,6 @@ not
 found
 *
 "
-    
 ]
 )
 class
@@ -2758,6 +2712,7 @@ _code
 .
 Source
 (
+            
 "
 "
 "
@@ -2774,6 +2729,7 @@ pass
 "
 "
 "
+        
 )
 .
 strip
@@ -2866,6 +2822,7 @@ self
 .
 excinfo_from_exec
 (
+            
 "
 "
 "
@@ -2886,6 +2843,7 @@ f
 "
 "
 "
+        
 )
         
 pr
@@ -2925,26 +2883,22 @@ lines
 =
 =
 [
-            
-'
+"
 def
 f
 (
 )
 :
-'
-            
-'
+"
+"
 >
 assert
 0
-'
-            
-'
+"
+"
 E
 AssertionError
-'
-        
+"
 ]
     
 def
@@ -3032,10 +2986,6 @@ lines
 "
         
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -3093,6 +3043,7 @@ co
 =
 compile
 (
+            
 "
 "
 "
@@ -3106,11 +3057,14 @@ ValueError
 "
 "
 "
+            
 "
 "
+            
 "
 exec
 "
+        
 )
         
 try
@@ -3168,10 +3122,6 @@ lines
 "
         
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -3241,15 +3191,15 @@ object
                 
 co_filename
 =
-'
+"
 ?
-'
+"
             
 path
 =
-'
+"
 ?
-'
+"
             
 firstlineno
 =
@@ -3483,10 +3433,6 @@ lines
 "
         
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -3568,10 +3514,6 @@ lines
 "
         
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -3631,29 +3573,29 @@ True
 loc
 =
 {
-'
+"
 y
-'
+"
 :
 5
-'
+"
 z
-'
+"
 :
 7
-'
+"
 x
-'
+"
 :
 3
-'
+"
 x
-'
+"
 :
 2
-'
+"
 __builtins__
-'
+"
 :
 {
 }
@@ -3682,13 +3624,13 @@ lines
 ]
 =
 =
-'
+"
 __builtins__
 =
 <
 builtins
 >
-'
+"
         
 assert
 reprlocals
@@ -3699,11 +3641,11 @@ lines
 ]
 =
 =
-'
+"
 x
 =
 3
-'
+"
         
 assert
 reprlocals
@@ -3714,11 +3656,11 @@ lines
 ]
 =
 =
-'
+"
 y
 =
 5
-'
+"
         
 assert
 reprlocals
@@ -3729,11 +3671,11 @@ lines
 ]
 =
 =
-'
+"
 z
 =
 7
-'
+"
     
 def
 test_repr_tracebackentry_lines
@@ -3747,6 +3689,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -3771,6 +3714,7 @@ nworld
 "
 "
 "
+        
 )
         
 excinfo
@@ -3831,13 +3775,13 @@ lines
 ]
 =
 =
-'
+"
 def
 func1
 (
 )
 :
-'
+"
         
 assert
 lines
@@ -3898,13 +3842,13 @@ lines
 ]
 =
 =
-'
+"
 def
 func1
 (
 )
 :
-'
+"
         
 assert
 lines
@@ -3934,12 +3878,12 @@ lines
 ]
 =
 =
-'
+"
 E
 ValueError
 :
 hello
-'
+"
         
 assert
 lines
@@ -3948,10 +3892,10 @@ lines
 ]
 =
 =
-'
+"
 E
 world
-'
+"
         
 assert
 not
@@ -4006,6 +3950,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -4034,6 +3979,7 @@ nworld
 "
 "
 "
+        
 )
         
 excinfo
@@ -4110,9 +4056,9 @@ args
 =
 =
 (
-'
+"
 m
-'
+"
 repr
 (
 "
@@ -4133,12 +4079,12 @@ args
 =
 =
 (
-'
+"
 x
-'
-'
+"
+"
 5
-'
+"
 )
         
 assert
@@ -4151,12 +4097,12 @@ args
 =
 =
 (
-'
+"
 y
-'
-'
+"
+"
 13
-'
+"
 )
         
 assert
@@ -4169,9 +4115,9 @@ args
 =
 =
 (
-'
+"
 z
-'
+"
 repr
 (
 "
@@ -4241,9 +4187,9 @@ m
 +
 repr
 (
-'
+"
 m
-'
+"
 *
 90
 )
@@ -4282,9 +4228,9 @@ z
 +
 repr
 (
-'
+"
 z
-'
+"
 *
 120
 )
@@ -4301,6 +4247,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -4331,6 +4278,7 @@ nworld
 "
 "
 "
+        
 )
         
 excinfo
@@ -4343,17 +4291,17 @@ ValueError
 mod
 .
 func1
-'
+"
 a
-'
-'
+"
+"
 b
-'
+"
 c
 =
-'
+"
 d
-'
+"
 )
         
 excinfo
@@ -4406,14 +4354,14 @@ args
 =
 =
 (
-'
+"
 x
-'
+"
 repr
 (
-'
+"
 a
-'
+"
 )
 )
         
@@ -4427,15 +4375,15 @@ args
 =
 =
 (
-'
+"
 y
-'
+"
 repr
 (
 (
-'
+"
 b
-'
+"
 )
 )
 )
@@ -4450,19 +4398,19 @@ args
 =
 =
 (
-'
+"
 z
-'
+"
 repr
 (
 {
-'
+"
 c
-'
+"
 :
-'
+"
 d
-'
+"
 }
 )
 )
@@ -4557,6 +4505,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -4588,6 +4537,7 @@ func1
 "
 "
 "
+        
 )
         
 excinfo
@@ -4656,11 +4606,11 @@ lines
 ]
 =
 =
-'
+"
 func1
 (
 )
-'
+"
         
 assert
 basename
@@ -4741,12 +4691,12 @@ lines
 ]
 =
 =
-'
+"
 E
 ValueError
 :
 hello
-'
+"
         
 assert
 basename
@@ -4782,6 +4732,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -4813,6 +4764,7 @@ func1
 "
 "
 "
+        
 )
         
 excinfo
@@ -4891,12 +4843,12 @@ lines
 ]
 =
 =
-'
+"
 E
 ValueError
 :
 hello
-'
+"
         
 assert
 not
@@ -4918,6 +4870,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -4949,6 +4902,7 @@ f
 "
 "
 "
+        
 )
         
 excinfo
@@ -5034,6 +4988,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5065,6 +5020,7 @@ func1
 "
 "
 "
+        
 )
         
 excinfo
@@ -5093,12 +5049,12 @@ monkeypatch
 setattr
 (
 Code
-'
+"
 path
-'
-'
+"
+"
 bogus
-'
+"
 )
         
 excinfo
@@ -5196,11 +5152,11 @@ lines
 ]
 =
 =
-'
+"
 func1
 (
 )
-'
+"
         
 assert
 last_lines
@@ -5226,12 +5182,12 @@ last_lines
 ]
 =
 =
-'
+"
 E
 ValueError
 :
 hello
-'
+"
     
 def
 test_repr_traceback_and_excinfo
@@ -5245,6 +5201,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5276,6 +5233,7 @@ f
 "
 "
 "
+        
 )
         
 excinfo
@@ -5379,10 +5337,6 @@ reprentries
 )
             
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -5472,6 +5426,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5503,6 +5458,7 @@ f
 "
 "
 "
+        
 )
         
 excinfo
@@ -5539,14 +5495,10 @@ monkeypatch
 .
 setattr
 (
-py
-.
-std
-.
 os
-'
+"
 getcwd
-'
+"
 raiseos
 )
         
@@ -5580,6 +5532,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5598,6 +5551,7 @@ ValueError
 "
 "
 "
+        
 )
         
 excinfo
@@ -5690,6 +5644,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5708,6 +5663,7 @@ ValueError
 "
 "
 "
+        
 )
         
 excinfo
@@ -5801,6 +5757,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5849,6 +5806,7 @@ rec1
 "
 "
 "
+        
 )
         
 excinfo
@@ -5937,6 +5895,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -5968,6 +5927,7 @@ f
 "
 "
 "
+        
 )
         
 excinfo
@@ -6022,10 +5982,6 @@ showlocals
 )
                 
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -6054,10 +6010,6 @@ style
 style
                 
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -6190,6 +6142,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -6221,6 +6174,7 @@ g
 "
 "
 "
+        
 )
         
 excinfo
@@ -6515,6 +6469,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -6546,6 +6501,7 @@ g
 "
 "
 "
+        
 )
         
 excinfo
@@ -6564,11 +6520,11 @@ tmpdir
 .
 join
 (
-'
+"
 mod
 .
 py
-'
+"
 )
 .
 remove
@@ -6815,6 +6771,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -6846,6 +6803,7 @@ g
 "
 "
 "
+        
 )
         
 excinfo
@@ -6864,18 +6822,18 @@ tmpdir
 .
 join
 (
-'
+"
 mod
 .
 py
-'
+"
 )
 .
 write
 (
-'
+"
 asdf
-'
+"
 )
         
 excinfo
@@ -7117,6 +7075,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -7135,6 +7094,7 @@ ValueError
 "
 "
 "
+        
 )
         
 excinfo
@@ -7338,35 +7298,41 @@ mark
 .
 parametrize
 (
-'
-reproptions
-'
-[
         
+"
+reproptions
+"
+        
+[
+            
 {
-'
+                
+"
 style
-'
+"
 :
 style
-'
+                
+"
 showlocals
-'
+"
 :
 showlocals
-         
-'
+                
+"
 funcargs
-'
+"
 :
 funcargs
-'
+                
+"
 tbfilter
-'
+"
 :
 tbfilter
-         
+            
 }
+            
 for
 style
 in
@@ -7381,7 +7347,7 @@ short
 no
 "
 )
-        
+            
 for
 showlocals
 in
@@ -7389,7 +7355,7 @@ in
 True
 False
 )
-        
+            
 for
 tbfilter
 in
@@ -7397,7 +7363,7 @@ in
 True
 False
 )
-        
+            
 for
 funcargs
 in
@@ -7405,7 +7371,9 @@ in
 True
 False
 )
+        
 ]
+    
 )
     
 def
@@ -7421,6 +7389,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -7452,6 +7421,7 @@ g
 "
 "
 "
+        
 )
         
 excinfo
@@ -7518,6 +7488,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -7566,6 +7537,7 @@ ValueError
 "
 "
 "
+        
 )
         
 excinfo
@@ -7998,6 +7970,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -8069,6 +8042,7 @@ AttributeError
 "
 "
 "
+        
 )
         
 excinfo
@@ -8207,11 +8181,11 @@ line
 .
 endswith
 (
-'
+"
 mod
 .
 py
-'
+"
 )
         
 assert
@@ -8223,11 +8197,11 @@ lines
 ]
 =
 =
-'
+"
 :
 6
 :
-'
+"
         
 assert
 tw
@@ -8331,11 +8305,11 @@ line
 .
 endswith
 (
-'
+"
 mod
 .
 py
-'
+"
 )
         
 assert
@@ -8347,12 +8321,12 @@ lines
 ]
 =
 =
-'
+"
 :
 12
 :
 ValueError
-'
+"
         
 assert
 tw
@@ -8367,12 +8341,15 @@ lines
 "
         
 assert
+(
+            
 tw
 .
 lines
 [
 16
 ]
+            
 =
 =
 "
@@ -8389,6 +8366,8 @@ following
 exception
 :
 "
+        
+)
         
 assert
 tw
@@ -8528,11 +8507,11 @@ line
 .
 endswith
 (
-'
+"
 mod
 .
 py
-'
+"
 )
         
 assert
@@ -8564,12 +8543,15 @@ lines
 "
         
 assert
+(
+            
 tw
 .
 lines
 [
 28
 ]
+            
 =
 =
 "
@@ -8584,6 +8566,8 @@ exception
 occurred
 :
 "
+        
+)
         
 assert
 tw
@@ -8734,11 +8718,11 @@ line
 .
 endswith
 (
-'
+"
 mod
 .
 py
-'
+"
 )
         
 assert
@@ -8766,9 +8750,9 @@ lines
 =
 =
 (
-'
+"
 _
-'
+"
 None
 )
         
@@ -8858,11 +8842,11 @@ line
 .
 endswith
 (
-'
+"
 mod
 .
 py
-'
+"
 )
         
 assert
@@ -8911,6 +8895,7 @@ mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -8953,6 +8938,7 @@ ValueError
 "
 "
 "
+        
 )
         
 excinfo
@@ -9138,11 +9124,11 @@ line
 .
 endswith
 (
-'
+"
 mod
 .
 py
-'
+"
 )
         
 assert
@@ -9196,17 +9182,21 @@ mark
 .
 parametrize
 (
-'
+        
+"
 reason
 description
-'
-[
+"
         
+[
+            
 (
-'
+                
+"
 cause
-'
-'
+"
+                
+"
 The
 above
 exception
@@ -9219,14 +9209,17 @@ the
 following
 exception
 :
-'
+"
+            
 )
-        
+            
 (
-'
+                
+"
 context
-'
-'
+"
+                
+"
 During
 handling
 of
@@ -9237,10 +9230,12 @@ another
 exception
 occurred
 :
-'
+"
+            
 )
-    
+        
 ]
+    
 )
     
 def
@@ -9307,25 +9302,26 @@ LineMatcher
         
 exc_handling_code
 =
-'
+"
 from
 e
-'
+"
 if
 reason
 =
 =
-'
+"
 cause
-'
+"
 else
-'
-'
+"
+"
         
 mod
 =
 importasmod
 (
+            
 "
 "
 "
@@ -9382,10 +9378,13 @@ value
 .
 format
 (
+                
 exc_handling_code
 =
 exc_handling_code
+            
 )
+        
 )
         
 with
@@ -9407,11 +9406,11 @@ f
         
 attr
 =
-'
+"
 __
 %
 s__
-'
+"
 %
 reason
         
@@ -9482,17 +9481,18 @@ matcher
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 ValueError
 :
 invalid
 value
 "
-            
+                
 description
-            
+                
 "
 *
 except
@@ -9501,7 +9501,7 @@ as
 e
 :
 "
-            
+                
 "
 >
 *
@@ -9516,7 +9516,7 @@ problem
 "
 +
 exc_handling_code
-            
+                
 "
 E
 *
@@ -9525,8 +9525,9 @@ RuntimeError
 runtime
 problem
 "
-        
+            
 ]
+        
 )
 pytest
 .
@@ -9576,8 +9577,8 @@ encoding
 msg
 =
 u
-'
-'
+"
+"
     
 if
 encoding
@@ -9648,6 +9649,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -9677,6 +9679,7 @@ False
 "
 "
 "
+    
 )
     
 result
@@ -9694,20 +9697,20 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 failed
 in
 *
-'
+"
 ]
 )
     
 assert
-'
+"
 INTERNALERROR
-'
+"
 not
 in
 result
@@ -9751,7 +9754,7 @@ locals
 raise
 error
 on
-comparision
+comparison
 (
 #
 2459
@@ -9789,16 +9792,17 @@ numpy_like
 raise
 ValueError
 (
-'
+                    
+"
 The
 truth
 value
 of
 an
 array
-'
-                                 
-'
+"
+                    
+"
 with
 more
 than
@@ -9807,7 +9811,8 @@ element
 is
 ambiguous
 .
-'
+"
+                
 )
     
 def
@@ -9897,9 +9902,10 @@ matcher
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 !
 !
 !
@@ -9916,18 +9922,18 @@ origin
 of
 recursion
 .
-'
-            
-'
+"
+                
+"
 *
 The
 following
 exception
 happened
 *
-'
-            
-'
+"
+                
+"
 *
 ValueError
 :
@@ -9938,9 +9944,10 @@ of
 an
 array
 *
-'
-        
+"
+            
 ]
+        
 )
 def
 test_no_recursion_index_on_recursion_error
@@ -10006,9 +10013,9 @@ return
 getattr
 (
 self
-'
+"
 _
-'
+"
 +
 attr
 )
@@ -10037,52 +10044,11 @@ ExceptionInfo
 (
 )
         
-if
-sys
-.
-version_info
-[
-:
-2
-]
-=
-=
-(
-2
-6
-)
-:
-            
 assert
 "
-'
-RecursionDepthError
-'
-object
-has
-no
-attribute
-'
-___
-"
-in
-str
-(
-exc_info
-.
-getrepr
-(
-)
-)
-        
-else
-:
-            
-assert
-'
 maximum
 recursion
-'
+"
 in
 str
 (

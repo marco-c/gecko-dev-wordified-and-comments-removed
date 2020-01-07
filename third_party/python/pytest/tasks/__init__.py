@@ -21,15 +21,11 @@ from
 .
 import
 generate
-vendoring
 ns
 =
 invoke
 .
 Collection
 (
-    
 generate
-    
-vendoring
 )

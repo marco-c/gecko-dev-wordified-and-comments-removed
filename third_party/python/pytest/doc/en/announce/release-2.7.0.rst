@@ -507,9 +507,7 @@ fix
 issue615
 :
 assertion
-re
--
-writing
+rewriting
 did
 not
 correctly

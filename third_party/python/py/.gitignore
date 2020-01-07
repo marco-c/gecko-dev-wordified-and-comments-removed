@@ -23,3 +23,12 @@ eggs
 dist
 /
 *
+/
+py
+/
+_version
+.
+py
+.
+pytest_cache
+/

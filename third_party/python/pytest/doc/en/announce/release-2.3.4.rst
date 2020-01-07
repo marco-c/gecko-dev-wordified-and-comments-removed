@@ -303,7 +303,7 @@ discovered
 if
 defined
 in
-a
+an
 a
 /
 conftest

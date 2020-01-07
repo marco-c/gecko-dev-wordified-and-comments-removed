@@ -15,6 +15,8 @@ re
 import
 sys
 import
+attr
+import
 _pytest
 .
 _code
@@ -56,6 +58,9 @@ Metafunc
 (
 self
 func
+config
+=
+None
 )
 :
         
@@ -84,6 +89,25 @@ names_closure
 =
 names
         
+attr
+.
+s
+        
+class
+DefinitionMock
+(
+object
+)
+:
+            
+obj
+=
+attr
+.
+ib
+(
+)
+        
 names
 =
 fixtures
@@ -100,14 +124,21 @@ FixtureInfo
 names
 )
         
+definition
+=
+DefinitionMock
+(
+func
+)
+        
 return
 python
 .
 Metafunc
 (
-func
+definition
 fixtureinfo
-None
+config
 )
     
 def
@@ -190,9 +221,9 @@ fixturenames
 1
         
 assert
-'
+"
 arg1
-'
+"
 in
 metafunc
 .
@@ -278,9 +309,9 @@ not
 hasattr
 (
 call
-'
+"
 param
-'
+"
 )
     
 def
@@ -658,9 +689,9 @@ funcargs
 =
 =
 {
-'
+"
 x
-'
+"
 :
 2
 }
@@ -677,9 +708,9 @@ funcargs
 =
 =
 {
-'
+"
 x
-'
+"
 :
 3
 }
@@ -694,9 +725,9 @@ _calls
 [
 1
 ]
-'
+"
 param
-'
+"
 )
     
 def
@@ -876,9 +907,9 @@ x
 ]
 scope
 =
-'
+"
 doggy
-'
+"
 )
         
 except
@@ -944,12 +975,12 @@ x
 ids
 =
 [
-'
+"
 basic
-'
-'
+"
+"
 advanced
-'
+"
 ]
 )
         
@@ -1074,13 +1105,13 @@ ids
 =
 [
 u
-'
+"
 basic
-'
+"
 u
-'
+"
 advanced
-'
+"
 ]
 )
         
@@ -1144,10 +1175,10 @@ pytest
 .
 raises
 (
+            
 ValueError
 lambda
 :
-                      
 metafunc
 .
 parametrize
@@ -1162,25 +1193,28 @@ x
 ids
 =
 [
-'
+"
 basic
-'
+"
 ]
 )
+        
 )
         
 pytest
 .
 raises
 (
+            
 ValueError
+            
 lambda
 :
-                      
 metafunc
 .
 parametrize
 (
+                
 (
 "
 x
@@ -1198,7 +1232,6 @@ abc
 def
 "
 )
-                                                        
 (
 "
 ghi
@@ -1215,7 +1248,9 @@ ids
 one
 "
 ]
+            
 )
+        
 )
     
 pytest
@@ -1240,6 +1275,49 @@ y
             
 pass
         
+class
+MockConfig
+(
+object
+)
+:
+            
+def
+getini
+(
+self
+name
+)
+:
+                
+return
+"
+"
+            
+property
+            
+def
+hook
+(
+self
+)
+:
+                
+return
+self
+            
+def
+pytest_make_parametrize_id
+(
+self
+*
+*
+kw
+)
+:
+                
+pass
+        
 metafunc
 =
 self
@@ -1247,6 +1325,9 @@ self
 Metafunc
 (
 func
+MockConfig
+(
+)
 )
         
 metafunc
@@ -1261,10 +1342,11 @@ y
 )
         
 assert
-'
+"
 skip
-'
-in
+"
+=
+=
 metafunc
 .
 _calls
@@ -1272,7 +1354,12 @@ _calls
 0
 ]
 .
-keywords
+marks
+[
+0
+]
+.
+name
     
 def
 test_parametrize_with_userobjects
@@ -1426,6 +1513,19 @@ binary
 )
 )
     
+hypothesis
+.
+settings
+(
+        
+deadline
+=
+400
+.
+0
+    
+)
+    
 def
 test_idval_hypothesis
 (
@@ -1446,9 +1546,9 @@ escaped
 _idval
 (
 value
-'
+"
 a
-'
+"
 6
 None
 )
@@ -1468,9 +1568,9 @@ escaped
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
         
 else
@@ -1480,9 +1580,9 @@ escaped
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
     
 def
@@ -1545,38 +1645,30 @@ values
 [
             
 (
-                
 u
-'
-'
-                
-'
-'
-            
+"
+"
+"
+"
 )
             
 (
-                
 u
-'
+"
 ascii
-'
-                
-'
+"
+"
 ascii
-'
-            
+"
 )
             
 (
-                
 u
-'
+"
 a
 o
-'
-                
-'
+"
+"
 a
 \
 \
@@ -1584,21 +1676,18 @@ xe7
 \
 \
 xe3o
-'
-            
+"
 )
             
 (
-                
 u
-'
+"
 jos
 blah
 .
 com
-'
-                
-'
+"
+"
 jos
 \
 \
@@ -1606,19 +1695,18 @@ xe9
 blah
 .
 com
-'
-            
+"
 )
             
 (
                 
 u
-'
+"
 .
 .
-'
+"
                 
-'
+"
 \
 \
 u03b4
@@ -1662,9 +1750,9 @@ u03b9
 \
 \
 u03b3
-'
+"
                 
-'
+"
 \
 \
 u03bc
@@ -1690,7 +1778,7 @@ u03bc
 \
 \
 u03ae
-'
+"
             
 )
         
@@ -1707,9 +1795,9 @@ assert
 _idval
 (
 val
-'
+"
 a
-'
+"
 6
 None
 )
@@ -1805,15 +1893,15 @@ values
             
 (
 b
-'
-'
-'
-'
+"
+"
+"
+"
 )
             
 (
 b
-'
+"
 \
 xc3
 \
@@ -1822,8 +1910,8 @@ xb4
 xff
 \
 xe4
-'
-'
+"
+"
 \
 \
 xc3
@@ -1836,33 +1924,33 @@ xff
 \
 \
 xe4
-'
+"
 )
             
 (
 b
-'
+"
 ascii
-'
-'
+"
+"
 ascii
-'
+"
 )
             
 (
 u
-'
-'
+"
+"
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
-'
+"
 \
 \
 xce
@@ -1881,7 +1969,7 @@ xce
 \
 \
 xac
-'
+"
 )
         
 ]
@@ -1897,9 +1985,107 @@ assert
 _idval
 (
 val
-'
+"
 a
-'
+"
+6
+None
+)
+=
+=
+expected
+    
+def
+test_class_or_function_idval
+(
+self
+)
+:
+        
+"
+"
+"
+unittest
+for
+the
+expected
+behavior
+to
+obtain
+ids
+for
+parametrized
+        
+values
+that
+are
+classes
+or
+functions
+:
+their
+__name__
+.
+        
+"
+"
+"
+        
+from
+_pytest
+.
+python
+import
+_idval
+        
+class
+TestClass
+(
+object
+)
+:
+            
+pass
+        
+def
+test_function
+(
+)
+:
+            
+pass
+        
+values
+=
+[
+(
+TestClass
+"
+TestClass
+"
+)
+(
+test_function
+"
+test_function
+"
+)
+]
+        
+for
+val
+expected
+in
+values
+:
+            
+assert
+_idval
+(
+val
+"
+a
+"
 6
 None
 )
@@ -1931,6 +2117,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -1951,7 +2138,6 @@ string
 .
 0
 )
-                                      
 pytest
 .
 param
@@ -1966,6 +2152,7 @@ ring
 0
 )
 ]
+        
 )
         
 assert
@@ -1995,6 +2182,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -2015,7 +2203,6 @@ object
 .
 0
 )
-                                      
 pytest
 .
 param
@@ -2028,6 +2215,7 @@ object
 )
 )
 ]
+        
 )
         
 assert
@@ -2069,7 +2257,6 @@ a
 b
 "
 )
-            
 [
 pytest
 .
@@ -2078,14 +2265,15 @@ param
 {
 }
 b
-'
+"
 \
 xc3
 \
 xb4
-'
+"
 )
 ]
+        
 )
         
 assert
@@ -2093,7 +2281,7 @@ result
 =
 =
 [
-'
+"
 a0
 -
 \
@@ -2102,7 +2290,7 @@ xc3
 \
 \
 xb4
-'
+"
 ]
     
 def
@@ -2138,9 +2326,9 @@ re
 compile
 (
 b
-'
+"
 foo
-'
+"
 )
 1
 .
@@ -2185,6 +2373,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -2193,8 +2382,9 @@ a
 b
 "
 )
-[
             
+[
+                
 pytest
 .
 param
@@ -2207,7 +2397,7 @@ param
 .
 1
 )
-            
+                
 pytest
 .
 param
@@ -2216,7 +2406,7 @@ param
 -
 202
 )
-            
+                
 pytest
 .
 param
@@ -2229,7 +2419,7 @@ three
 hundred
 "
 )
-            
+                
 pytest
 .
 param
@@ -2237,7 +2427,7 @@ param
 True
 False
 )
-            
+                
 pytest
 .
 param
@@ -2245,7 +2435,7 @@ param
 None
 None
 )
-            
+                
 pytest
 .
 param
@@ -2254,20 +2444,20 @@ re
 .
 compile
 (
-'
+"
 foo
-'
+"
 )
 re
 .
 compile
 (
-'
+"
 bar
-'
+"
 )
 )
-            
+                
 pytest
 .
 param
@@ -2275,7 +2465,7 @@ param
 str
 int
 )
-            
+                
 pytest
 .
 param
@@ -2291,17 +2481,14 @@ six
 66
 ]
 )
-            
+                
 pytest
 .
 param
 (
-set
-(
-[
+{
 7
-]
-)
+}
 set
 (
 "
@@ -2309,7 +2496,7 @@ seven
 "
 )
 )
-            
+                
 pytest
 .
 param
@@ -2327,35 +2514,35 @@ eight
 8
 )
 )
-            
+                
 pytest
 .
 param
 (
 b
-'
+"
 \
 xc3
 \
 xb4
-'
+"
 b
 "
 name
 "
 )
-            
+                
 pytest
 .
 param
 (
 b
-'
+"
 \
 xc3
 \
 xb4
-'
+"
 totext
 (
 "
@@ -2363,15 +2550,20 @@ other
 "
 )
 )
-        
+            
 ]
+        
 )
         
 assert
+(
+            
 result
+            
 =
 =
 [
+                
 "
 1
 .
@@ -2382,63 +2574,63 @@ result
 .
 1
 "
-                          
+                
 "
 2
 -
 -
 202
 "
-                          
+                
 "
 three
 -
 three
 hundred
 "
-                          
+                
 "
 True
 -
 False
 "
-                          
+                
 "
 None
 -
 None
 "
-                          
+                
 "
 foo
 -
 bar
 "
-                          
+                
 "
 str
 -
 int
 "
-                          
+                
 "
 a7
 -
 b7
 "
-                          
+                
 "
 a8
 -
 b8
 "
-                          
+                
 "
 a9
 -
 b9
 "
-                          
+                
 "
 \
 \
@@ -2449,7 +2641,7 @@ xb4
 -
 name
 "
-                          
+                
 "
 \
 \
@@ -2460,8 +2652,10 @@ xb4
 -
 other
 "
-                          
+            
 ]
+        
+)
     
 def
 test_idmaker_enum
@@ -2591,6 +2785,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -2599,8 +2794,9 @@ a
 b
 "
 )
-[
             
+[
+                
 pytest
 .
 param
@@ -2612,7 +2808,7 @@ IndexError
 (
 )
 )
-            
+                
 pytest
 .
 param
@@ -2622,7 +2818,7 @@ KeyError
 (
 )
 )
-            
+                
 pytest
 .
 param
@@ -2636,11 +2832,13 @@ three
 3
 ]
 )
-        
+            
 ]
+            
 idfn
 =
 ids
+        
 )
         
 assert
@@ -2657,7 +2855,6 @@ IndexError
 (
 )
 "
-                          
 "
 20
 -
@@ -2665,13 +2862,11 @@ KeyError
 (
 )
 "
-                          
 "
 three
 -
 b2
 "
-                          
 ]
     
 pytest
@@ -2702,14 +2897,15 @@ val
 :
             
 return
-'
+"
 a
-'
+"
         
 result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -2718,7 +2914,9 @@ a
 b
 "
 )
+            
 [
+                
 pytest
 .
 param
@@ -2730,7 +2928,7 @@ IndexError
 (
 )
 )
-                                      
+                
 pytest
 .
 param
@@ -2740,7 +2938,7 @@ KeyError
 (
 )
 )
-                                      
+                
 pytest
 .
 param
@@ -2754,11 +2952,13 @@ three
 3
 ]
 )
-                                      
+            
 ]
+            
 idfn
 =
 ids
+        
 )
         
 assert
@@ -2771,19 +2971,16 @@ a
 -
 a0
 "
-                          
 "
 a
 -
 a1
 "
-                          
 "
 a
 -
 a2
 "
-                          
 ]
     
 pytest
@@ -2850,6 +3047,7 @@ rec
             
 idmaker
 (
+                
 (
 "
 a
@@ -2858,8 +3056,9 @@ a
 b
 "
 )
-[
                 
+[
+                    
 pytest
 .
 param
@@ -2871,7 +3070,7 @@ IndexError
 (
 )
 )
-                
+                    
 pytest
 .
 param
@@ -2881,7 +3080,7 @@ KeyError
 (
 )
 )
-                
+                    
 pytest
 .
 param
@@ -2895,14 +3094,18 @@ three
 3
 ]
 )
-            
+                
 ]
+                
 idfn
 =
 ids
+            
 )
         
 assert
+(
+            
 [
 str
 (
@@ -2917,10 +3120,11 @@ rec
 .
 list
 ]
+            
 =
 =
 [
-            
+                
 "
 Raised
 while
@@ -2936,7 +3140,7 @@ position
 0
 .
 "
-            
+                
 "
 \
 nUpdate
@@ -2956,7 +3160,7 @@ pytest
 0
 .
 "
-            
+                
 "
 Raised
 while
@@ -2972,7 +3176,7 @@ position
 0
 .
 "
-            
+                
 "
 \
 nUpdate
@@ -2992,7 +3196,7 @@ pytest
 0
 .
 "
-            
+                
 "
 Raised
 while
@@ -3008,7 +3212,7 @@ position
 1
 .
 "
-            
+                
 "
 \
 nUpdate
@@ -3028,7 +3232,7 @@ pytest
 0
 .
 "
-            
+                
 "
 Raised
 while
@@ -3044,7 +3248,7 @@ position
 1
 .
 "
-            
+                
 "
 \
 nUpdate
@@ -3064,7 +3268,7 @@ pytest
 0
 .
 "
-            
+                
 "
 Raised
 while
@@ -3080,7 +3284,7 @@ position
 2
 .
 "
-            
+                
 "
 \
 nUpdate
@@ -3100,7 +3304,7 @@ pytest
 0
 .
 "
-            
+                
 "
 Raised
 while
@@ -3116,7 +3320,7 @@ position
 2
 .
 "
-            
+                
 "
 \
 nUpdate
@@ -3136,8 +3340,10 @@ pytest
 0
 .
 "
-        
+            
 ]
+        
+)
     
 def
 test_parametrize_ids_exception
@@ -3175,6 +3381,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3232,6 +3439,7 @@ pass
 "
 "
 "
+        
 )
         
 with
@@ -3264,8 +3472,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 <
 Module
@@ -3276,7 +3485,7 @@ py
 '
 >
 "
-            
+                
 "
 <
 Function
@@ -3288,7 +3497,7 @@ a
 '
 >
 "
-            
+                
 "
 <
 Function
@@ -3300,8 +3509,9 @@ b
 '
 >
 "
-        
+            
 ]
+        
 )
     
 def
@@ -3322,6 +3532,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -3338,7 +3549,6 @@ param
 1
 2
 )
-                                      
 pytest
 .
 param
@@ -3347,7 +3557,6 @@ param
 4
 )
 ]
-                         
 ids
 =
 [
@@ -3356,6 +3565,7 @@ a
 "
 None
 ]
+        
 )
         
 assert
@@ -3391,6 +3601,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -3399,6 +3610,7 @@ a
 b
 "
 )
+            
 [
 pytest
 .
@@ -3412,7 +3624,6 @@ id
 me
 "
 )
-                                      
 pytest
 .
 param
@@ -3426,7 +3637,7 @@ you
 "
 )
 ]
-                         
+            
 ids
 =
 [
@@ -3435,6 +3646,7 @@ a
 "
 None
 ]
+        
 )
         
 assert
@@ -3468,6 +3680,7 @@ result
 =
 idmaker
 (
+            
 (
 "
 a
@@ -3486,7 +3699,6 @@ param
 5
 ]
 )
-                         
 ids
 =
 [
@@ -3506,6 +3718,7 @@ c
 b
 "
 ]
+        
 )
         
 assert
@@ -3561,9 +3774,9 @@ metafunc
 addcall
 (
 {
-'
+"
 x
-'
+"
 :
 1
 }
@@ -3573,9 +3786,9 @@ metafunc
 .
 parametrize
 (
-'
+"
 y
-'
+"
 [
 2
 3
@@ -3605,14 +3818,14 @@ funcargs
 =
 =
 {
-'
+"
 x
-'
+"
 :
 1
-'
+"
 y
-'
+"
 :
 2
 }
@@ -3629,14 +3842,14 @@ funcargs
 =
 =
 {
-'
+"
 x
-'
+"
 :
 1
-'
+"
 y
-'
+"
 :
 3
 }
@@ -3711,9 +3924,9 @@ metafunc
 .
 parametrize
 (
-'
+"
 x
-'
+"
 [
 1
 ]
@@ -3726,9 +3939,9 @@ metafunc
 .
 parametrize
 (
-'
+"
 y
-'
+"
 [
 2
 3
@@ -3855,26 +4068,26 @@ metafunc
 .
 parametrize
 (
-'
+"
 x
 y
-'
+"
 [
 (
-'
+"
 a
-'
-'
+"
+"
 b
-'
+"
 )
 ]
 indirect
 =
 [
-'
+"
 x
-'
+"
 ]
 )
         
@@ -3893,9 +4106,9 @@ dict
 (
 y
 =
-'
+"
 b
-'
+"
 )
         
 assert
@@ -3913,9 +4126,9 @@ dict
 (
 x
 =
-'
+"
 a
-'
+"
 )
     
 pytest
@@ -3954,29 +4167,29 @@ metafunc
 .
 parametrize
 (
-'
+"
 x
 y
-'
+"
 [
 (
-'
+"
 a
-'
-'
+"
+"
 b
-'
+"
 )
 ]
 indirect
 =
 [
-'
+"
 x
-'
-'
+"
+"
 y
-'
+"
 ]
 )
         
@@ -4009,14 +4222,14 @@ dict
 (
 x
 =
-'
+"
 a
-'
+"
 y
 =
-'
+"
 b
-'
+"
 )
     
 pytest
@@ -4055,18 +4268,18 @@ metafunc
 .
 parametrize
 (
-'
+"
 x
 y
-'
+"
 [
 (
-'
+"
 a
-'
-'
+"
+"
 b
-'
+"
 )
 ]
 indirect
@@ -4090,14 +4303,14 @@ dict
 (
 x
 =
-'
+"
 a
-'
+"
 y
 =
-'
+"
 b
-'
+"
 )
         
 assert
@@ -4192,6 +4405,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4307,6 +4521,7 @@ y
 "
 "
 "
+        
 )
         
 result
@@ -4328,7 +4543,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_simple
@@ -4338,14 +4552,12 @@ a
 b
 *
 "
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -4395,29 +4607,29 @@ metafunc
 .
 parametrize
 (
-'
+"
 x
 y
-'
+"
 [
 (
-'
+"
 a
-'
-'
+"
+"
 b
-'
+"
 )
 ]
 indirect
 =
 [
-'
+"
 x
-'
-'
+"
+"
 z
-'
+"
 ]
 )
     
@@ -4495,6 +4707,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4546,6 +4759,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -4570,7 +4784,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 uses
@@ -4581,7 +4794,6 @@ y
 '
 *
 "
-        
 ]
 )
     
@@ -4603,6 +4815,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4704,6 +4917,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -4728,7 +4942,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 uses
@@ -4739,7 +4952,6 @@ y
 '
 *
 "
-        
 ]
 )
     
@@ -4761,6 +4973,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4839,6 +5052,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -4863,7 +5077,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 uses
@@ -4874,7 +5087,6 @@ y
 '
 *
 "
-        
 ]
 )
     
@@ -4896,6 +5108,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4976,6 +5189,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -5000,7 +5214,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 uses
@@ -5011,7 +5224,6 @@ y
 '
 *
 "
-        
 ]
 )
     
@@ -5033,6 +5245,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5113,6 +5326,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -5137,7 +5351,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 uses
@@ -5148,8 +5361,117 @@ y
 '
 *
 "
-        
 ]
+)
+    
+def
+test_parametrize_gives_indicative_error_on_function_with_default_argument
+(
+        
+self
+testdir
+    
+)
+:
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+mark
+.
+parametrize
+(
+'
+x
+y
+'
+[
+(
+'
+a
+'
+'
+b
+'
+)
+]
+)
+            
+def
+test_simple
+(
+x
+y
+=
+1
+)
+:
+                
+assert
+len
+(
+x
+)
+=
+=
+1
+        
+"
+"
+"
+        
+)
+        
+result
+=
+testdir
+.
+runpytest
+(
+"
+-
+-
+collect
+-
+only
+"
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+[
+"
+*
+already
+takes
+an
+argument
+'
+y
+'
+with
+a
+default
+value
+"
+]
+        
 )
     
 def
@@ -5193,9 +5515,9 @@ metafunc
 .
 parametrize
 (
-'
+"
 x
-'
+"
 [
 1
 ]
@@ -5208,9 +5530,9 @@ metafunc
 .
 parametrize
 (
-'
+"
 y
-'
+"
 [
 2
 3
@@ -5313,6 +5635,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5398,6 +5721,7 @@ y
 "
 "
 "
+        
 )
         
 result
@@ -5418,8 +5742,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 test_simple
@@ -5429,7 +5753,6 @@ test_simple
 2
 *
 "
-            
 "
 *
 test_simple
@@ -5439,15 +5762,14 @@ test_simple
 2
 *
 "
-            
 "
 *
 2
 passed
 *
 "
-        
 ]
+        
 )
     
 def
@@ -5803,6 +6125,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5878,6 +6201,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -5917,6 +6241,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5965,6 +6290,7 @@ y
 "
 "
 "
+        
 )
         
 reprec
@@ -5996,6 +6322,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6201,6 +6528,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -6229,6 +6557,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -6277,6 +6606,7 @@ passed
 "
 "
 "
+        
 )
     
 def
@@ -6303,10 +6633,10 @@ function1
 )
 =
 =
-'
+"
 (
 )
-'
+"
         
 def
 function2
@@ -6420,6 +6750,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6437,7 +6768,7 @@ same
 process
             
 import
-py
+sys
 pytest
             
 def
@@ -6560,10 +6891,6 @@ __name__
 __name__
                     
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -6621,6 +6948,7 @@ TestClass
 "
 "
 "
+        
 )
         
 result
@@ -6657,6 +6985,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -6697,6 +7026,7 @@ arg2
 "
 "
 "
+        
 )
         
 p
@@ -6705,6 +7035,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6758,6 +7089,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -6779,8 +7111,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 test_myfunc
@@ -6790,7 +7122,6 @@ test_myfunc
 PASS
 *
 "
-            
 "
 *
 test_myfunc
@@ -6800,7 +7131,6 @@ test_myfunc
 FAIL
 *
 "
-            
 "
 *
 1
@@ -6809,8 +7139,8 @@ failed
 passed
 *
 "
-        
 ]
+        
 )
     
 def
@@ -6827,6 +7157,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6906,6 +7237,7 @@ in
 "
 "
 "
+        
 )
         
 result
@@ -6927,8 +7259,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_func1
@@ -6938,7 +7271,7 @@ test_func1
 PASS
 *
 "
-            
+                
 "
 *
 test_func1
@@ -6948,7 +7281,7 @@ test_func1
 FAIL
 *
 "
-            
+                
 "
 *
 test_func2
@@ -6956,7 +7289,7 @@ test_func2
 PASS
 *
 "
-            
+                
 "
 *
 1
@@ -6965,8 +7298,9 @@ failed
 passed
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -6983,6 +7317,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7023,6 +7358,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -7055,6 +7391,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -7095,6 +7432,7 @@ param
 "
 "
 "
+        
 )
         
 p
@@ -7103,6 +7441,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7197,6 +7536,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -7218,8 +7558,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_myfunc
@@ -7229,7 +7570,7 @@ hello
 PASS
 *
 "
-            
+                
 "
 *
 test_myfunc
@@ -7239,7 +7580,7 @@ world
 FAIL
 *
 "
-            
+                
 "
 *
 1
@@ -7248,8 +7589,9 @@ failed
 passed
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -7266,6 +7608,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7326,6 +7669,7 @@ world
 "
 "
 "
+        
 )
         
 result
@@ -7348,7 +7692,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_myfunc
@@ -7358,14 +7701,12 @@ hello
 PASS
 *
 "
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -7383,6 +7724,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7454,6 +7796,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -7475,8 +7818,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 test_func
@@ -7486,7 +7829,6 @@ test_func
 PASS
 *
 "
-            
 "
 *
 test_func
@@ -7496,15 +7838,14 @@ test_func
 PASS
 *
 "
-            
 "
 *
 2
 pass
 *
 "
-        
 ]
+        
 )
     
 def
@@ -7521,6 +7862,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7585,6 +7927,7 @@ val
 "
 "
 "
+        
 )
         
 result
@@ -7617,6 +7960,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7672,6 +8016,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -7688,8 +8033,8 @@ stdout
 .
 fnmatch_lines
 (
+            
 [
-            
 "
 *
 (
@@ -7698,7 +8043,6 @@ fnmatch_lines
 )
 *
 "
-            
 "
 *
 (
@@ -7707,7 +8051,6 @@ fnmatch_lines
 )
 *
 "
-            
 "
 *
 (
@@ -7716,7 +8059,6 @@ fnmatch_lines
 )
 *
 "
-            
 "
 *
 (
@@ -7725,15 +8067,14 @@ fnmatch_lines
 )
 *
 "
-            
 "
 *
 4
 failed
 *
 "
-        
 ]
+        
 )
     
 def
@@ -7750,6 +8091,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7856,6 +8198,7 @@ arg1
 "
 "
 "
+        
 )
         
 result
@@ -7878,7 +8221,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_func1
@@ -7888,14 +8230,12 @@ test_func1
 PASS
 *
 "
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -7913,6 +8253,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8000,6 +8341,7 @@ arg2
 "
 "
 "
+        
 )
         
 result
@@ -8022,7 +8364,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_func
@@ -8032,14 +8373,12 @@ test_func
 PASS
 *
 "
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -8053,8 +8392,32 @@ testdir
         
 testdir
 .
+makeini
+(
+            
+"
+"
+"
+            
+[
+pytest
+]
+            
+console_output_style
+=
+classic
+        
+"
+"
+"
+        
+)
+        
+testdir
+.
 makepyfile
 (
+            
 "
 "
 "
@@ -8121,6 +8484,7 @@ b
 "
 "
 "
+        
 )
         
 result
@@ -8149,8 +8513,8 @@ stdout
 .
 fnmatch_lines_random
 (
-[
             
+[
 "
 *
 test_function
@@ -8159,7 +8523,6 @@ basic
 *
 PASSED
 "
-            
 "
 *
 test_function
@@ -8168,8 +8531,8 @@ advanced
 *
 FAILED
 "
-        
 ]
+        
 )
     
 def
@@ -8184,6 +8547,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8243,6 +8607,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -8263,6 +8628,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -8288,6 +8654,7 @@ b1
 "
 "
 "
+        
 )
     
 def
@@ -8302,6 +8669,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8373,6 +8741,7 @@ b
 "
 "
 "
+        
 )
         
 result
@@ -8401,8 +8770,9 @@ stdout
 .
 fnmatch_lines_random
 (
-[
             
+[
+                
 "
 *
 test_function
@@ -8410,8 +8780,9 @@ test_function
 basic
 *
 PASSED
+*
 "
-            
+                
 "
 *
 test_function
@@ -8421,8 +8792,9 @@ test_function
 1
 *
 PASSED
+*
 "
-            
+                
 "
 *
 test_function
@@ -8430,9 +8802,11 @@ test_function
 advanced
 *
 FAILED
+*
 "
-        
+            
 ]
+        
 )
     
 def
@@ -8468,9 +8842,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -8515,9 +8890,10 @@ temp
                  
 pass
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -8535,12 +8911,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 skipped
 *
-'
+"
 ]
 )
     
@@ -8577,9 +8953,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -8611,9 +8988,10 @@ temp
                  
 pass
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -8631,12 +9009,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 skipped
 *
-'
+"
 ]
 )
     
@@ -8672,9 +9050,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -8723,9 +9102,10 @@ x
 =
 expected
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -8742,8 +9122,9 @@ stdout
 .
 fnmatch_lines
 (
+            
 [
-'
+"
 *
 ids
 must
@@ -8760,8 +9141,9 @@ type
 int
 )
 *
-'
+"
 ]
+        
 )
     
 def
@@ -8776,6 +9158,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -8842,6 +9225,7 @@ b
 "
 "
 "
+        
 )
         
 result
@@ -8870,8 +9254,8 @@ stdout
 .
 fnmatch_lines_random
 (
-[
             
+[
 "
 *
 test_function
@@ -8879,8 +9263,8 @@ test_function
 a0
 *
 PASSED
+*
 "
-            
 "
 *
 test_function
@@ -8888,9 +9272,10 @@ test_function
 a1
 *
 FAILED
+*
 "
-        
 ]
+        
 )
     
 pytest
@@ -8907,7 +9292,6 @@ scope
 length
 "
 )
-                             
 [
 (
 "
@@ -8938,6 +9322,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9062,11 +9447,13 @@ d
 "
 "
 "
+            
 %
 (
 scope
 length
 )
+        
 )
         
 reprec
@@ -9098,6 +9485,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9155,6 +9543,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -9195,6 +9584,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9252,6 +9642,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -9314,12 +9705,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -9346,7 +9739,9 @@ test_1
 "
 "
 "
+            
 )
+        
 )
         
 sub2
@@ -9362,12 +9757,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -9394,7 +9791,9 @@ test_2
 "
 "
 "
+            
 )
+        
 )
         
 sub1
@@ -9490,6 +9889,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9545,6 +9945,7 @@ make_tests
 "
 "
 "
+        
 )
         
 reprec
@@ -9576,20 +9977,19 @@ mark
 .
 parametrize
 (
-'
+"
 attr
-'
+"
 [
-'
+"
 parametrise
-'
-'
+"
+"
 parameterize
-'
-                                      
-'
+"
+"
 parameterise
-'
+"
 ]
 )
     
@@ -9606,6 +10006,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -9618,7 +10019,6 @@ pytest
 mark
 .
 {
-0
 }
 (
 "
@@ -9645,8 +10045,11 @@ pass
 .
 format
 (
+                
 attr
+            
 )
+        
 )
         
 reprec
@@ -9655,11 +10058,11 @@ testdir
 .
 inline_run
 (
-'
+"
 -
 -
 collectonly
-'
+"
 )
         
 failures
@@ -9688,7 +10091,6 @@ test_foo
 has
 '
 {
-0
 }
 '
 spelling
@@ -9701,7 +10103,9 @@ parametrize
 .
 format
 (
+            
 attr
+        
 )
         
 assert
@@ -9762,9 +10166,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -9861,9 +10266,10 @@ animal
 fish
 '
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -9881,12 +10287,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 3
 passed
 *
-'
+"
 ]
 )
     
@@ -9902,9 +10308,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -10046,9 +10453,10 @@ in
 3
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -10066,12 +10474,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 3
 passed
 *
-'
+"
 ]
 )
     
@@ -10087,9 +10495,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -10157,9 +10566,10 @@ cat
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -10177,12 +10587,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 2
 passed
 *
-'
+"
 ]
 )
     
@@ -10198,9 +10608,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -10352,9 +10763,10 @@ in
 3
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -10372,12 +10784,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 3
 passed
 *
-'
+"
 ]
 )
     
@@ -10393,9 +10805,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -10535,9 +10948,10 @@ indirect
 True
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 result
@@ -10567,12 +10981,12 @@ output
 .
 count
 (
-'
+"
 preparing
 foo
 -
 2
-'
+"
 )
 =
 =
@@ -10583,12 +10997,12 @@ output
 .
 count
 (
-'
+"
 preparing
 foo
 -
 3
-'
+"
 )
 =
 =
@@ -10599,7 +11013,7 @@ mark
 .
 filterwarnings
 (
-'
+"
 ignore
 :
 Applying
@@ -10607,7 +11021,7 @@ marks
 directly
 to
 parameters
-'
+"
 )
 pytest
 .
@@ -10730,18 +11144,18 @@ items
 :
             
 assert
-'
+"
 foo
-'
+"
 in
 item
 .
 keywords
         
 assert
-'
+"
 bar
-'
+"
 not
 in
 items
@@ -10752,9 +11166,9 @@ items
 keywords
         
 assert
-'
+"
 bar
-'
+"
 in
 items
 [
@@ -10764,9 +11178,9 @@ items
 keywords
         
 assert
-'
+"
 bar
-'
+"
 not
 in
 items
@@ -10871,9 +11285,9 @@ inline_run
 -
 m
 "
-'
+"
 foo
-'
+"
 )
         
 passed
@@ -11043,12 +11457,12 @@ for
 mark
 in
 [
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 ]
 :
             
@@ -11624,9 +12038,9 @@ mark
 .
 parametrize
 (
-'
+"
 strict
-'
+"
 [
 True
 False
@@ -11738,9 +12152,11 @@ expected
 .
 format
 (
+            
 strict
 =
 strict
+        
 )
         
 testdir
@@ -11937,6 +12353,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -11990,6 +12407,7 @@ return
 "
 "
 "
+        
 )
         
 reprec
@@ -12015,9 +12433,9 @@ mark
 .
 parametrize
 (
-'
+"
 strict
-'
+"
 [
 True
 False
@@ -12169,9 +12587,11 @@ expected
 .
 format
 (
+            
 strict
 =
 strict
+        
 )
         
 testdir
@@ -12228,6 +12648,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -12251,12 +12672,14 @@ val
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12291,6 +12714,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -12312,7 +12736,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_func
@@ -12322,7 +12745,6 @@ test_func
 PASS
 *
 "
-            
 "
 *
 test_func
@@ -12332,7 +12754,6 @@ test_func
 PASS
 *
 "
-        
 ]
 )
     
@@ -12348,6 +12769,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -12383,12 +12805,14 @@ val
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -12446,6 +12870,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -12466,8 +12891,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 test_func_a
@@ -12477,7 +12902,6 @@ test_func_a
 PASS
 *
 "
-            
 "
 *
 test_func_a
@@ -12487,7 +12911,6 @@ test_func_a
 PASS
 *
 "
-            
 "
 *
 test_func_b
@@ -12497,6 +12920,6 @@ test_func_b
 PASS
 *
 "
-        
 ]
+        
 )

@@ -7,34 +7,33 @@ fixture
 params
 =
 [
-'
+"
 -
 -
 setup
 -
 only
-'
-'
+"
+"
 -
 -
 setup
 -
 plan
-'
-'
+"
+"
 -
 -
 setup
 -
 show
-'
+"
 ]
-                
 scope
 =
-'
+"
 module
-'
+"
 )
 def
 mode
@@ -61,6 +60,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -119,6 +119,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -145,17 +146,16 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 *
 SETUP
 F
 arg1
 *
-'
-        
-'
+"
+"
 *
 test_arg1
 (
@@ -165,17 +165,16 @@ used
 arg1
 )
 *
-'
-        
-'
+"
+"
 *
 TEARDOWN
 F
 arg1
 *
-'
-    
+"
 ]
+    
 )
     
 assert
@@ -205,6 +204,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -272,6 +272,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -298,24 +299,25 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 SETUP
 S
 arg_session
 *
-'
-        
-'
+"
+            
+"
 *
 SETUP
 F
 arg_function
 *
-'
-        
-'
+"
+            
+"
 *
 test_arg1
 (
@@ -326,24 +328,25 @@ arg_function
 arg_session
 )
 *
-'
-        
-'
+"
+            
+"
 *
 TEARDOWN
 F
 arg_function
 *
-'
-        
-'
+"
+            
+"
 TEARDOWN
 S
 arg_session
 *
-'
-    
+"
+        
 ]
+    
 )
 def
 test_show_nested_fixtures
@@ -357,6 +360,7 @@ testdir
 .
 makeconftest
 (
+        
 '
 '
 '
@@ -394,6 +398,7 @@ fixture
 '
 '
 '
+    
 )
     
 p
@@ -402,6 +407,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -449,6 +455,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -475,16 +482,17 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 SETUP
 S
 arg_same
 *
-'
-        
-'
+"
+            
+"
 *
 SETUP
 F
@@ -496,9 +504,9 @@ used
 arg_same
 )
 *
-'
-        
-'
+"
+            
+"
 *
 test_arg1
 (
@@ -508,24 +516,25 @@ used
 arg_same
 )
 *
-'
-        
-'
+"
+            
+"
 *
 TEARDOWN
 F
 arg_same
 *
-'
-        
-'
+"
+            
+"
 TEARDOWN
 S
 arg_same
 *
-'
-    
+"
+        
 ]
+    
 )
 def
 test_show_fixtures_with_autouse
@@ -541,6 +550,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -610,6 +620,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -636,24 +647,25 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 SETUP
 S
 arg_session
 *
-'
-        
-'
+"
+            
+"
 *
 SETUP
 F
 arg_function
 *
-'
-        
-'
+"
+            
+"
 *
 test_arg1
 (
@@ -664,9 +676,10 @@ arg_function
 arg_session
 )
 *
-'
-    
+"
+        
 ]
+    
 )
 def
 test_show_fixtures_with_parameters
@@ -680,6 +693,7 @@ testdir
 .
 makeconftest
 (
+        
 '
 '
 '
@@ -727,6 +741,7 @@ fixture
 '
 '
 '
+    
 )
     
 p
@@ -735,6 +750,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -782,6 +798,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -808,45 +825,47 @@ stdout
 .
 fnmatch_lines
 (
+        
 [
-        
-'
+            
+"
 SETUP
 S
 arg_same
 ?
 foo
 ?
-'
-        
-'
+"
+            
+"
 TEARDOWN
 S
 arg_same
 ?
 foo
 ?
-'
-        
-'
+"
+            
+"
 SETUP
 S
 arg_same
 ?
 bar
 ?
-'
-        
-'
+"
+            
+"
 TEARDOWN
 S
 arg_same
 ?
 bar
 ?
-'
-    
+"
+        
 ]
+    
 )
 def
 test_show_fixtures_with_parameter_ids
@@ -860,6 +879,7 @@ testdir
 .
 makeconftest
 (
+        
 '
 '
 '
@@ -918,6 +938,7 @@ fixture
 '
 '
 '
+    
 )
     
 p
@@ -926,6 +947,7 @@ testdir
 .
 makepyfile
 (
+        
 '
 '
 '
@@ -973,6 +995,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -999,27 +1022,26 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 SETUP
 S
 arg_same
 ?
 spam
 ?
-'
-        
-'
+"
+"
 SETUP
 S
 arg_same
 ?
 ham
 ?
-'
-    
+"
 ]
+    
 )
 def
 test_show_fixtures_with_parameter_ids_function
@@ -1035,9 +1057,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -1085,9 +1108,10 @@ foobar
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1115,8 +1139,7 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 SETUP
 F
@@ -1124,9 +1147,8 @@ foobar
 ?
 FOO
 ?
-'
-        
-'
+"
+"
 *
 SETUP
 F
@@ -1134,8 +1156,7 @@ foobar
 ?
 BAR
 ?
-'
-    
+"
 ]
 )
 def
@@ -1151,9 +1172,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -1203,9 +1225,10 @@ dependent_fixture
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1214,13 +1237,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 setup
 -
 only
-'
+"
 p
 )
     
@@ -1238,23 +1261,25 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 SETUP
 F
 dynamically_requested_fixture
-'
-        
-'
+"
+            
+"
 *
 TEARDOWN
 F
 dynamically_requested_fixture
-'
-    
+"
+        
 ]
+    
 )
 def
 test_capturing
@@ -1269,9 +1294,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -1343,9 +1369,10 @@ two
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1354,13 +1381,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 setup
 -
 only
-'
+"
 p
 )
     
@@ -1370,24 +1397,23 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 this
 should
 be
 captured
-'
-        
-'
+"
+"
 this
 should
 also
 be
 captured
-'
-    
+"
 ]
+    
 )
 def
 test_show_fixtures_and_execute_test
@@ -1419,9 +1445,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -1449,9 +1476,10 @@ arg
 assert
 False
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -1484,17 +1512,16 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 *
 SETUP
 F
 arg
 *
-'
-        
-'
+"
+"
 *
 test_arg
 (
@@ -1504,15 +1531,15 @@ used
 arg
 )
 F
-'
-        
-'
+*
+"
+"
 *
 TEARDOWN
 F
 arg
 *
-'
-    
+"
 ]
+    
 )

@@ -21,6 +21,8 @@ _pytest
 .
 _code
 import
+inspect
+import
 os
 import
 py
@@ -28,6 +30,8 @@ import
 pytest
 import
 sys
+import
+types
 from
 _pytest
 import
@@ -181,6 +185,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -208,6 +213,7 @@ pass
 "
 "
 "
+        
 )
         
 ss
@@ -271,9 +277,9 @@ r
 .
 append
 (
-'
+"
 fin1
-'
+"
 )
         
 def
@@ -285,9 +291,9 @@ fin2
 raise
 Exception
 (
-'
+"
 oops
-'
+"
 )
         
 def
@@ -300,9 +306,9 @@ r
 .
 append
 (
-'
+"
 fin3
-'
+"
 )
         
 item
@@ -380,9 +386,9 @@ args
 =
 =
 (
-'
+"
 oops
-'
+"
 )
         
 assert
@@ -390,12 +396,12 @@ r
 =
 =
 [
-'
+"
 fin3
-'
-'
+"
+"
 fin1
-'
+"
 ]
     
 def
@@ -415,9 +421,9 @@ fin1
 raise
 Exception
 (
-'
+"
 oops1
-'
+"
 )
         
 def
@@ -429,9 +435,9 @@ fin2
 raise
 Exception
 (
-'
+"
 oops2
-'
+"
 )
         
 item
@@ -501,10 +507,132 @@ args
 =
 =
 (
-'
+"
 oops2
-'
+"
 )
+    
+def
+test_teardown_multiple_scopes_one_fails
+(
+self
+testdir
+)
+:
+        
+module_teardown
+=
+[
+]
+        
+def
+fin_func
+(
+)
+:
+            
+raise
+Exception
+(
+"
+oops1
+"
+)
+        
+def
+fin_module
+(
+)
+:
+            
+module_teardown
+.
+append
+(
+"
+fin_module
+"
+)
+        
+item
+=
+testdir
+.
+getitem
+(
+"
+def
+test_func
+(
+)
+:
+pass
+"
+)
+        
+ss
+=
+runner
+.
+SetupState
+(
+)
+        
+ss
+.
+addfinalizer
+(
+fin_module
+item
+.
+listchain
+(
+)
+[
+-
+2
+]
+)
+        
+ss
+.
+addfinalizer
+(
+fin_func
+item
+)
+        
+ss
+.
+prepare
+(
+item
+)
+        
+with
+pytest
+.
+raises
+(
+Exception
+match
+=
+"
+oops1
+"
+)
+:
+            
+ss
+.
+teardown_exact
+(
+item
+None
+)
+        
+assert
+module_teardown
 class
 BaseFunctionalTests
 (
@@ -526,6 +654,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -541,6 +670,7 @@ pass
 "
 "
 "
+        
 )
         
 rep
@@ -591,6 +721,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -607,6 +738,7 @@ assert
 "
 "
 "
+        
 )
         
 rep
@@ -667,6 +799,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -692,6 +825,7 @@ hello
 "
 "
 "
+        
 )
         
 rep
@@ -742,6 +876,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -776,6 +911,7 @@ pass
 "
 "
 "
+        
 )
         
 print
@@ -838,6 +974,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -869,6 +1006,7 @@ pass
 "
 "
 "
+        
 )
         
 rep
@@ -928,6 +1066,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -959,6 +1098,7 @@ pass
 "
 "
 "
+        
 )
         
 print
@@ -1021,6 +1161,7 @@ testdir
 .
 makepyfile
 (
+            
 conftest
 =
 "
@@ -1055,6 +1196,7 @@ hello
 "
 "
 "
+        
 )
         
 reports
@@ -1063,6 +1205,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -1082,6 +1225,7 @@ assert
 "
 "
 "
+        
 )
         
 rep
@@ -1122,6 +1266,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -1150,6 +1295,7 @@ ValueError
 "
 "
 "
+        
 )
         
 assert
@@ -1159,6 +1305,119 @@ ret
 =
 =
 1
+    
+def
+test_logstart_logfinish_hooks
+(
+self
+testdir
+)
+:
+        
+rec
+=
+testdir
+.
+inline_runsource
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+def
+test_func
+(
+)
+:
+                
+pass
+        
+"
+"
+"
+        
+)
+        
+reps
+=
+rec
+.
+getcalls
+(
+"
+pytest_runtest_logstart
+pytest_runtest_logfinish
+"
+)
+        
+assert
+(
+            
+[
+x
+.
+_name
+for
+x
+in
+reps
+]
+            
+=
+=
+[
+"
+pytest_runtest_logstart
+"
+"
+pytest_runtest_logfinish
+"
+]
+        
+)
+        
+for
+rep
+in
+reps
+:
+            
+assert
+rep
+.
+nodeid
+=
+=
+"
+test_logstart_logfinish_hooks
+.
+py
+:
+:
+test_func
+"
+            
+assert
+rep
+.
+location
+=
+=
+(
+"
+test_logstart_logfinish_hooks
+.
+py
+"
+1
+"
+test_func
+"
+)
     
 def
 test_exact_teardown_issue90
@@ -1174,6 +1433,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -1299,6 +1559,7 @@ ValueError
 "
 "
 "
+        
 )
         
 reps
@@ -1480,6 +1741,7 @@ testdir
 .
 inline_runsource
 (
+            
 "
 "
 "
@@ -1519,6 +1781,7 @@ True
 "
 "
 "
+        
 )
         
 reps
@@ -1578,9 +1841,9 @@ reps
 when
 =
 =
-'
+"
 setup
-'
+"
         
 assert
 reps
@@ -1614,9 +1877,9 @@ reps
 when
 =
 =
-'
+"
 call
-'
+"
         
 assert
 reps
@@ -1689,7 +1952,7 @@ z
 '
 "
             
-'
+"
 TypeError
 :
 teardown_method
@@ -1703,7 +1966,7 @@ arguments
 2
 given
 )
-'
+"
         
 )
     
@@ -1719,6 +1982,7 @@ testdir
 .
 makepyfile
 (
+            
 conftest
 =
 "
@@ -1751,6 +2015,7 @@ assert
 "
 "
 "
+        
 )
         
 reports
@@ -1759,6 +2024,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -1787,6 +2053,7 @@ pass
 "
 "
 "
+        
 )
         
 assert
@@ -1844,6 +2111,7 @@ testdir
 .
 runitem
 (
+                
 "
 "
 "
@@ -1863,6 +2131,7 @@ SystemExit
 "
 "
 "
+            
 )
         
 except
@@ -1919,6 +2188,7 @@ testdir
 .
 runitem
 (
+                
 "
 "
 "
@@ -1944,6 +2214,7 @@ Exception
 "
 "
 "
+            
 )
         
 except
@@ -2019,6 +2290,7 @@ testdir
 .
 runitem
 (
+                
 "
 "
 "
@@ -2040,6 +2312,7 @@ fake
 "
 "
 "
+            
 )
         
 except
@@ -2127,6 +2400,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -2155,6 +2429,7 @@ getpid
 "
 "
 "
+        
 )
         
 rep
@@ -2201,6 +2476,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -2225,6 +2501,7 @@ pass
 "
 "
 "
+        
 )
         
 rep
@@ -2358,9 +2635,10 @@ mark
 .
 parametrize
 (
-'
+    
+"
 reporttype
-'
+"
 reporttypes
 ids
 =
@@ -2384,14 +2662,10 @@ reporttype
 if
 hasattr
 (
-py
-.
-std
-.
 inspect
-'
+"
 signature
-'
+"
 )
 :
         
@@ -2399,10 +2673,6 @@ args
 =
 list
 (
-py
-.
-std
-.
 inspect
 .
 signature
@@ -2428,10 +2698,6 @@ else
         
 args
 =
-py
-.
-std
-.
 inspect
 .
 getargspec
@@ -2493,9 +2759,9 @@ CallInfo
 lambda
 :
 0
-'
+"
 123
-'
+"
 )
     
 assert
@@ -2537,9 +2803,9 @@ lambda
 0
 /
 0
-'
+"
 123
-'
+"
 )
     
 assert
@@ -2557,9 +2823,9 @@ not
 hasattr
 (
 ci
-'
+"
 result
-'
+"
 )
     
 assert
@@ -2594,6 +2860,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -2776,6 +3043,7 @@ mylist
 "
 "
 "
+    
 )
     
 result
@@ -2794,14 +3062,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 passed
 *
 "
-    
 ]
 )
 def
@@ -2816,9 +3082,9 @@ outcomes
 .
 OutcomeException
 (
-'
+"
 test
-'
+"
 )
     
 assert
@@ -2858,9 +3124,9 @@ outcomes
 .
 OutcomeException
 (
-'
+"
 test
-'
+"
 )
         
 except
@@ -2978,6 +3244,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -3005,6 +3272,7 @@ noes
 "
 "
 "
+    
 )
     
 result
@@ -3022,14 +3290,12 @@ stderr
 fnmatch_lines
 (
 [
-        
 "
 Exit
 :
 oh
 noes
 "
-    
 ]
 )
 def
@@ -3043,6 +3309,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -3090,6 +3357,7 @@ False
 "
 "
 "
+    
 )
     
 result
@@ -3107,23 +3375,20 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 world
 "
-        
 "
 hello
 "
-    
 ]
 )
     
 assert
-'
+"
 def
 teardown_function
-'
+"
 not
 in
 result
@@ -3139,15 +3404,15 @@ mark
 .
 parametrize
 (
-'
+"
 str_prefix
-'
+"
 [
-'
+"
 u
-'
-'
-'
+"
+"
+"
 ]
 )
 def
@@ -3202,6 +3467,7 @@ testdir
 .
 makepyfile
 (
+        
 u
 "
 "
@@ -3242,8 +3508,10 @@ False
 "
 "
 "
+        
 %
 str_prefix
+    
 )
     
 result
@@ -3273,11 +3541,11 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 test_hello
 *
-'
+"
 "
 oh
 oh
@@ -3296,11 +3564,11 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 test_hello
 *
-'
+"
 "
 oh
 oh
@@ -3311,10 +3579,10 @@ oh
 )
     
 assert
-'
+"
 def
 test_hello
-'
+"
 not
 in
 result
@@ -3345,13 +3613,13 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 collected
 0
 items
 *
-'
+"
 )
     
 assert
@@ -3368,6 +3636,7 @@ testdir
 .
 makepyfile
 (
+        
 test_foo
 =
 "
@@ -3386,6 +3655,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -3402,13 +3672,13 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 collected
 1
 item
 *
-'
+"
 )
     
 result
@@ -3417,12 +3687,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 passed
 *
-'
+"
 )
     
 assert
@@ -3441,11 +3711,11 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 k
 nonmatch
-'
+"
 )
     
 result
@@ -3454,13 +3724,13 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 collected
 1
 item
 *
-'
+"
 )
     
 result
@@ -3469,12 +3739,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 deselected
 *
-'
+"
 )
     
 assert
@@ -3571,7 +3841,7 @@ asdlkj
 try
 :
         
-sys
+sysmod
 =
 importorskip
 (
@@ -3581,13 +3851,8 @@ sys
 )
         
 assert
-sys
-=
-=
-py
-.
-std
-.
+sysmod
+is
 sys
         
 excinfo
@@ -3673,10 +3938,6 @@ y
         
 mod
 =
-py
-.
-std
-.
 types
 .
 ModuleType
@@ -3713,11 +3974,13 @@ pytest
 .
 raises
 (
+            
 pytest
 .
 skip
 .
 Exception
+            
 "
 "
 "
@@ -3743,6 +4006,7 @@ minversion
 "
 "
 "
+        
 )
         
 mod2
@@ -3835,10 +4099,6 @@ try
         
 mod
 =
-py
-.
-std
-.
 types
 .
 ModuleType
@@ -3852,7 +4112,7 @@ mod
 .
 __version__
 =
-'
+"
 0
 .
 13
@@ -3862,7 +4122,7 @@ __version__
 dev
 -
 43290
-'
+"
         
 monkeypatch
 .
@@ -3871,9 +4131,9 @@ setitem
 sys
 .
 modules
-'
+"
 mockmodule
-'
+"
 mod
 )
         
@@ -3883,18 +4143,18 @@ pytest
 .
 importorskip
 (
-'
+"
 mockmodule
-'
+"
 minversion
 =
-'
+"
 0
 .
 12
 .
 0
-'
+"
 )
         
 assert
@@ -3907,11 +4167,13 @@ pytest
 .
 raises
 (
+            
 pytest
 .
 skip
 .
 Exception
+            
 "
 "
 "
@@ -3936,6 +4198,7 @@ minversion
 "
 "
 "
+        
 )
     
 except
@@ -3997,9 +4260,10 @@ testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -4023,9 +4287,10 @@ test_foo
             
 pass
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -4043,7 +4308,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 collected
 0
@@ -4052,7 +4317,7 @@ items
 1
 skipped
 *
-'
+"
 ]
 )
 def
@@ -4068,6 +4333,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4107,6 +4373,7 @@ __file__
 "
 "
 "
+    
 )
     
 import
@@ -4164,25 +4431,51 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
         
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+        
 import
-py
+pytest
+        
+pytest
+.
+hookimpl
+(
+hookwrapper
+=
+True
+)
         
 def
 pytest_runtest_makereport
 (
-__multicall__
 )
 :
             
+outcome
+=
+yield
+            
 rep
 =
-__multicall__
+outcome
 .
-execute
+get_result
 (
 )
             
@@ -4201,37 +4494,21 @@ rep
 .
 longrepr
 =
-py
-.
-builtin
-.
-_totext
-(
-"
-\
-\
-xc3
-\
-\
-xa4
-"
-"
-utf8
-"
-)
-            
-return
-rep
+u
+'
+'
     
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4248,6 +4525,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -4290,6 +4568,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4315,6 +4594,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -4357,6 +4637,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4380,6 +4661,7 @@ False
 "
 "
 "
+    
 )
     
 result
@@ -4391,9 +4673,9 @@ runpytest
 )
     
 assert
-'
+"
 INTERNALERROR
-'
+"
 not
 in
 result
@@ -4411,14 +4693,14 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 else
 :
 assert
 False
 *
-'
+"
 ]
 )
 def
@@ -4479,9 +4761,9 @@ obj
 __name__
 =
 =
-'
+"
 foo
-'
+"
 :
             
 raise
@@ -4505,9 +4787,9 @@ monkeypatch
 setattr
 (
 inspect
-'
+"
 findsource
-'
+"
 findsource
 )
     
@@ -4515,6 +4797,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4548,6 +4831,7 @@ False
 "
 "
 "
+    
 )
     
 result
@@ -4556,16 +4840,16 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 vv
-'
+"
 )
     
 assert
-'
+"
 INTERNALERROR
-'
+"
 not
 in
 result
@@ -4603,7 +4887,7 @@ found
 ]
 )
 def
-test_store_except_info_on_eror
+test_store_except_info_on_error
 (
 )
 :
@@ -4635,7 +4919,7 @@ friends
 "
     
 class
-ItemThatRaises
+ItemMightRaise
 (
 object
 )
@@ -4643,9 +4927,13 @@ object
         
 nodeid
 =
-'
+"
 item_that_raises
-'
+"
+        
+raise_error
+=
+True
         
 def
 runtest
@@ -4654,12 +4942,18 @@ self
 )
 :
             
+if
+self
+.
+raise_error
+:
+                
 raise
 IndexError
 (
-'
+"
 TEST
-'
+"
 )
     
 try
@@ -4669,7 +4963,7 @@ runner
 .
 pytest_runtest_call
 (
-ItemThatRaises
+ItemMightRaise
 (
 )
 )
@@ -4698,14 +4992,50 @@ args
 ]
 =
 =
-'
+"
 TEST
-'
+"
     
 assert
 sys
 .
 last_traceback
+    
+ItemMightRaise
+.
+raise_error
+=
+False
+    
+runner
+.
+pytest_runtest_call
+(
+ItemMightRaise
+(
+)
+)
+    
+assert
+sys
+.
+last_type
+is
+None
+    
+assert
+sys
+.
+last_value
+is
+None
+    
+assert
+sys
+.
+last_traceback
+is
+None
 def
 test_current_test_env_var
 (
@@ -4723,23 +5053,26 @@ monkeypatch
 .
 setattr
 (
+        
 sys
-'
+"
 pytest_current_test_vars
-'
+"
 pytest_current_test_vars
 raising
 =
 False
+    
 )
     
 testdir
 .
 makepyfile
 (
-'
-'
-'
+        
+"
+"
+"
         
 import
 pytest
@@ -4832,9 +5165,10 @@ PYTEST_CURRENT_TEST
 )
 )
     
-'
-'
-'
+"
+"
+"
+    
 )
     
 result
@@ -4855,63 +5189,71 @@ ret
     
 test_id
 =
-'
+"
 test_current_test_env_var
 .
 py
 :
 :
 test
-'
+"
     
 assert
+(
+        
 pytest_current_test_vars
+        
 =
 =
 [
+            
+(
+"
+setup
+"
+test_id
++
+"
+(
+setup
+)
+"
+)
+            
+(
+"
+call
+"
+test_id
++
+"
+(
+call
+)
+"
+)
+            
+(
+"
+teardown
+"
+test_id
++
+"
+(
+teardown
+)
+"
+)
         
-(
-'
-setup
-'
-test_id
-+
-'
-(
-setup
-)
-'
-)
-(
-'
-call
-'
-test_id
-+
-'
-(
-call
-)
-'
-)
-(
-'
-teardown
-'
-test_id
-+
-'
-(
-teardown
-)
-'
-)
 ]
     
+)
+    
 assert
-'
+"
 PYTEST_CURRENT_TEST
-'
+"
 not
 in
 os
@@ -4977,6 +5319,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -4992,6 +5335,7 @@ pass
 "
 "
 "
+        
 )
         
 rep
@@ -5007,8 +5351,8 @@ rep
 longreprtext
 =
 =
-'
-'
+"
+"
     
 def
 test_longreprtext_failure
@@ -5024,6 +5368,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -5047,6 +5392,7 @@ x
 "
 "
 "
+        
 )
         
 rep
@@ -5057,13 +5403,13 @@ reports
 ]
         
 assert
-'
+"
 assert
 1
 =
 =
 4
-'
+"
 in
 rep
 .
@@ -5083,6 +5429,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -5217,6 +5564,7 @@ assert
 "
 "
 "
+        
 )
         
 setup
@@ -5231,13 +5579,13 @@ setup
 capstdout
 =
 =
-'
+"
 setup
 :
 stdout
 \
 n
-'
+"
         
 assert
 call
@@ -5245,7 +5593,7 @@ call
 capstdout
 =
 =
-'
+"
 setup
 :
 stdout
@@ -5255,7 +5603,7 @@ ncall
 stdout
 \
 n
-'
+"
         
 assert
 teardown
@@ -5263,7 +5611,7 @@ teardown
 capstdout
 =
 =
-'
+"
 setup
 :
 stdout
@@ -5277,7 +5625,7 @@ nteardown
 stdout
 \
 n
-'
+"
         
 assert
 setup
@@ -5285,13 +5633,13 @@ setup
 capstderr
 =
 =
-'
+"
 setup
 :
 stderr
 \
 n
-'
+"
         
 assert
 call
@@ -5299,7 +5647,7 @@ call
 capstderr
 =
 =
-'
+"
 setup
 :
 stderr
@@ -5309,7 +5657,7 @@ ncall
 stderr
 \
 n
-'
+"
         
 assert
 teardown
@@ -5317,7 +5665,7 @@ teardown
 capstderr
 =
 =
-'
+"
 setup
 :
 stderr
@@ -5331,7 +5679,7 @@ nteardown
 stderr
 \
 n
-'
+"
     
 def
 test_no_captured_text
@@ -5347,6 +5695,7 @@ testdir
 .
 runitem
 (
+            
 "
 "
 "
@@ -5362,6 +5711,7 @@ pass
 "
 "
 "
+        
 )
         
 rep
@@ -5377,8 +5727,8 @@ rep
 capstdout
 =
 =
-'
-'
+"
+"
         
 assert
 rep
@@ -5386,5 +5736,5 @@ rep
 capstderr
 =
 =
-'
-'
+"
+"
