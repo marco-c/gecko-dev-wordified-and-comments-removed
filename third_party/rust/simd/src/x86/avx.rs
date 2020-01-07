@@ -569,7 +569,7 @@ super
 *
 ;
 use
-std
+core
 :
 :
 mem

@@ -584,7 +584,7 @@ u8x32
 )
 -
 >
-u8x32
+u64x4
 ;
 fn
 x86_mm256_shuffle_epi8

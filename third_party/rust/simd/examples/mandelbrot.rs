@@ -3,7 +3,7 @@
 [
 feature
 (
-step_by
+iterator_step_by
 test
 )
 ]

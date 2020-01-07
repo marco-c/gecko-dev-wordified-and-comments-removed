@@ -390,12 +390,10 @@ i32
 for
 _
 in
-(
 0
 .
 .
 steps
-)
 {
 let
 mut

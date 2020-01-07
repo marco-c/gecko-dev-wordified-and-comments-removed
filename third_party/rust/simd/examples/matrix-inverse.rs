@@ -355,6 +355,13 @@ x
 ]
 ]
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 inverse_naive
 (
