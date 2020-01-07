@@ -1,9 +1,9 @@
 #
 ifndef
-widget_gtk_InProcessGtkCompositorWidgetParent_h
+widget_gtk_InProcessGtkCompositorWidget_h
 #
 define
-widget_gtk_InProcessGtkCompositorWidgetParent_h
+widget_gtk_InProcessGtkCompositorWidget_h
 #
 include
 "
