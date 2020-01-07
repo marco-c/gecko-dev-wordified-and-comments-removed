@@ -2132,7 +2132,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aDocument
@@ -15507,14 +15507,6 @@ GetFocusedContent
 if
 (
 content
-&
-&
-content
--
->
-OwnerDoc
-(
-)
 &
 &
 content
