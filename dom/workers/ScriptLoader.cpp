@@ -6337,7 +6337,6 @@ cache
 CHROME_ONLY_NAMESPACE
 mSandboxGlobalObject
 aPrincipal
-false
 true
 error
 )
