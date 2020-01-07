@@ -948,6 +948,14 @@ aFailureReason
 )
 ;
 }
+#
+ifdef
+MOZ_APPLEMEDIA
+return
+true
+;
+#
+else
 return
 MediaDataDecoder
 :
@@ -957,6 +965,8 @@ IsHardwareAccelerated
 aFailureReason
 )
 ;
+#
+endif
 }
 void
 H264Converter
