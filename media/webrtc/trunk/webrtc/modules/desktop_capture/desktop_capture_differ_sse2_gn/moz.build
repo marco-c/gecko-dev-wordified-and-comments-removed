@@ -606,6 +606,10 @@ CXXFLAGS
 -
 msse2
 "
+"
+-
+msse2
+"
 ]
 DEFINES
 [
