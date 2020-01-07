@@ -14183,6 +14183,13 @@ ThemeChanged
 )
 ;
 }
+mWidgetListener
+-
+>
+UIResolutionChanged
+(
+)
+;
 }
 }
 void
