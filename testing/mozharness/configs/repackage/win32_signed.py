@@ -59,6 +59,26 @@ get
 UNSIGNED_MAR
 "
 )
+}
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+NO_STUB_INSTALLER
+"
+)
+:
+    
+download_config
+.
+update
+(
+{
         
 "
 setup
@@ -80,6 +100,7 @@ SIGNED_SETUP_STUB
 )
     
 }
+)
 repackage_config
 =
 [
@@ -263,6 +284,25 @@ mar
 "
     
 ]
+]
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+NO_STUB_INSTALLER
+"
+)
+:
+    
+repackage_config
+.
+append
+(
 [
         
 "
@@ -293,7 +333,7 @@ stub
 .
 tag
 "
-         
+        
 "
 -
 -
@@ -314,7 +354,7 @@ stub
 .
 exe
 "
-         
+        
 "
 -
 o
@@ -356,7 +396,7 @@ sfx
 "
     
 ]
-]
+)
 config
 =
 {

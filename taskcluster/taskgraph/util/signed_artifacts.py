@@ -69,6 +69,9 @@ True
 kind
 =
 None
+project
+=
+None
 )
 :
     
@@ -364,6 +367,19 @@ widevine
 }
 ]
         
+no_stub
+=
+(
+"
+mozilla
+-
+esr60
+"
+"
+jamun
+"
+)
+        
 if
 '
 win32
@@ -372,6 +388,11 @@ in
 build_platform
 and
 is_nightly
+and
+project
+not
+in
+no_stub
 :
             
 artifacts_specifications
