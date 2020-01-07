@@ -640,6 +640,14 @@ dwInternetStatus
 INTERNET_STATUS_NAME_RESOLVED
 )
 {
+if
+(
+g_FilesTotal
+!
+=
+0
+)
+{
 StatsLock_AcquireExclusive
 (
 )
@@ -686,6 +694,7 @@ StatsLock_ReleaseExclusive
 (
 )
 ;
+}
 }
 #
 if
