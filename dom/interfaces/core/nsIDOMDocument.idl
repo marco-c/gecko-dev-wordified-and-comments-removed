@@ -273,11 +273,6 @@ attribute
 nsIDOMDOMImplementation
 implementation
 ;
-nsIDOMDocumentFragment
-createDocumentFragment
-(
-)
-;
 nsIDOMNodeList
 getElementsByTagName
 (
