@@ -4458,7 +4458,7 @@ JSContext
 cx
 FramePtr
 &
-frameptr
+framePtr
 const
 jsbytecode
 *
