@@ -1033,16 +1033,6 @@ JSObject
 aStack
 )
 ;
-protected
-:
-int32_t
-GetColNo
-(
-JSContext
-*
-aCx
-)
-;
 private
 :
 virtual
@@ -1820,7 +1810,7 @@ int32_t
 JSStackFrame
 :
 :
-GetColNo
+GetColumnNumber
 (
 JSContext
 *
@@ -1896,7 +1886,7 @@ NS_IMETHODIMP
 JSStackFrame
 :
 :
-GetColumnNumber
+GetColumnNumberXPCOM
 (
 JSContext
 *
@@ -1909,7 +1899,7 @@ aColumnNumber
 *
 aColumnNumber
 =
-GetColNo
+GetColumnNumber
 (
 aCx
 )
