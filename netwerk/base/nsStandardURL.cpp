@@ -10999,6 +10999,7 @@ nsIURISetters
 nsIURIMutator
 nsIStandardURLMutator
 nsIURLMutator
+nsIFileURLMutator
 )
 NS_IMETHODIMP
 nsStandardURL

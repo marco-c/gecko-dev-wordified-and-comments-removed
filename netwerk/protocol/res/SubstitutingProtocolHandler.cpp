@@ -126,6 +126,7 @@ nsIURISetters
 nsIURIMutator
 nsIStandardURLMutator
 nsIURLMutator
+nsIFileURLMutator
 )
 nsresult
 SubstitutingURL
