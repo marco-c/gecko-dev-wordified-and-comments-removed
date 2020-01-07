@@ -466,9 +466,11 @@ closed
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

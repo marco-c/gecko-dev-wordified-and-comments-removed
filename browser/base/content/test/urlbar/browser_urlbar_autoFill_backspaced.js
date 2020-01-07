@@ -238,9 +238,11 @@ handleRevert
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
@@ -947,9 +949,11 @@ selectionEnd
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

@@ -173,9 +173,11 @@ com
 "
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
@@ -343,9 +345,11 @@ history
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

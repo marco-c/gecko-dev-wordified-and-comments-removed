@@ -274,9 +274,11 @@ EXPIRE_SESSION
 ;
 }
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

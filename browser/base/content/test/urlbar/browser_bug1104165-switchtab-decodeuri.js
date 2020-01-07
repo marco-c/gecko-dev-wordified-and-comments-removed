@@ -230,9 +230,11 @@ removeCurrentTab
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

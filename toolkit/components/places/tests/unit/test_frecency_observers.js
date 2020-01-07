@@ -242,9 +242,11 @@ all
 onManyFrecenciesChanged
 (
 )
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ]

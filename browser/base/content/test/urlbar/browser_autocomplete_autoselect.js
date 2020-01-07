@@ -212,9 +212,11 @@ function
 )
 {
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

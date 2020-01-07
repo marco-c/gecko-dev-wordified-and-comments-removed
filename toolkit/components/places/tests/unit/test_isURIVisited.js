@@ -357,9 +357,11 @@ aIsVisited2
 aIsVisited2
 )
 ;
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 .

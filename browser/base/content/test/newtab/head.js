@@ -772,9 +772,11 @@ cleanupAndFinish
 (
 )
 {
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 .
@@ -1068,9 +1070,11 @@ function
 (
 )
 {
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 .

@@ -12,9 +12,11 @@ test_removeByFilter
 )
 {
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

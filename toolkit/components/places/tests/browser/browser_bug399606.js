@@ -7,9 +7,11 @@ function
 {
 registerCleanupFunction
 (
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 )
 ;
 const

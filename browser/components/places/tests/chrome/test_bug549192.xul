@@ -525,9 +525,11 @@ function
 )
 {
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
@@ -1087,9 +1089,11 @@ decreased
 Cleanup
 .
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

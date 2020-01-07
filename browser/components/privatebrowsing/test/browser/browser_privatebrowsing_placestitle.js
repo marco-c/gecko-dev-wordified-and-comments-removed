@@ -59,9 +59,11 @@ removeAll
 )
 ;
 return
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

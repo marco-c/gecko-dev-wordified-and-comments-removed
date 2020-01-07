@@ -483,9 +483,11 @@ function
 )
 {
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
@@ -656,9 +658,11 @@ thrown
 Cleanup
 .
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
