@@ -607,6 +607,11 @@ cubeb_pulse_rust
 "
 cubeb
 -
+sys
+"
+"
+cubeb
+-
 pulse
 "
 ]
