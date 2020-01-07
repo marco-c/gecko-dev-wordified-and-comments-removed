@@ -300,3 +300,17 @@ DOM_WEBIDL_PREF
 (
 PerformanceObserverEnabled
 )
+DOM_UINT32_PREF
+(
+WorkerCancelingTimeoutMillis
+"
+dom
+.
+worker
+.
+canceling
+.
+timeoutMilliseconds
+"
+30000
+)
