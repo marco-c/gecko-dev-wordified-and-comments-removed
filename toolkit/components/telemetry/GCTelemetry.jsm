@@ -487,15 +487,6 @@ count
 log
 )
 {
-log
-.
-trace
-(
-"
-limitProperties
-"
-)
-;
 let
 num_properties
 =
