@@ -1,4 +1,4 @@
-EmojiOne
+Twemoji
 Mozilla
 =
 =
@@ -20,7 +20,7 @@ The
 upstream
 repository
 of
-EmojiOne
+Twemoji
 Mozilla
 can
 be
@@ -36,7 +36,7 @@ com
 /
 mozilla
 /
-emojione
+twemoji
 -
 colr
 Please
