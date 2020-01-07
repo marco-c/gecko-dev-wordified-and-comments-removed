@@ -245,11 +245,6 @@ nsTransform2D
 h
 '
 '
-PingPongRegion
-.
-h
-'
-'
 RegionBuilder
 .
 h
