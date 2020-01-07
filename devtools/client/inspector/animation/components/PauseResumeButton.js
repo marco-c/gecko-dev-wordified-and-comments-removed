@@ -375,6 +375,7 @@ event
 }
 updateState
 (
+props
 )
 {
 const
@@ -382,8 +383,6 @@ const
 animations
 }
 =
-this
-.
 props
 ;
 const
