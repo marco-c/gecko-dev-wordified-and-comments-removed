@@ -3796,6 +3796,16 @@ intent
 Override
 public
 void
+onCloseRequest
+(
+GeckoSession
+session
+)
+{
+}
+Override
+public
+void
 onFullScreen
 (
 GeckoSession

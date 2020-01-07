@@ -4399,6 +4399,17 @@ session
 Override
 public
 void
+onCloseRequest
+(
+final
+GeckoSession
+session
+)
+{
+}
+Override
+public
+void
 onFullScreen
 (
 final
