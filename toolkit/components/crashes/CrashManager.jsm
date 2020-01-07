@@ -779,6 +779,9 @@ BuildID
 ipc_channel_error
 "
 "
+LowCommitSpaceEvents
+"
+"
 ProductID
 "
 "
