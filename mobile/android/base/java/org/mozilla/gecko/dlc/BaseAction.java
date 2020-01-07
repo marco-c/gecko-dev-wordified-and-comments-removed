@@ -495,6 +495,10 @@ content
 getKind
 (
 )
+.
+toString
+(
+)
 )
 ;
 }

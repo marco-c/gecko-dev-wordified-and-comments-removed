@@ -655,6 +655,10 @@ content
 getType
 (
 )
+.
+toString
+(
+)
 )
 ;
 temporaryFile

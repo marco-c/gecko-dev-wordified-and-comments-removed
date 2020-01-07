@@ -1002,15 +1002,9 @@ Object
 value
 )
 {
-SuppressWarnings
-(
-"
-unchecked
-"
-)
 Map
 <
-Object
+String
 Object
 >
 map

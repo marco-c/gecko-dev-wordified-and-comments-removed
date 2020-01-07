@@ -1143,7 +1143,7 @@ validClientId
 is
 valid
 "
-profile
+GeckoProfile
 .
 isClientIdValid
 (
@@ -1241,7 +1241,7 @@ invalidClientId
 is
 invalid
 "
-profile
+GeckoProfile
 .
 isClientIdValid
 (
@@ -1296,7 +1296,7 @@ generatedClientId
 is
 valid
 "
-profile
+GeckoProfile
 .
 isClientIdValid
 (

@@ -1089,10 +1089,15 @@ type
 :
 "
 +
+String
+.
+valueOf
+(
 topSite
 .
 getType
 (
+)
 )
 )
 ;
