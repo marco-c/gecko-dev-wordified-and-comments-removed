@@ -4299,14 +4299,6 @@ InitializeShowFocusRings
 (
 )
 ;
-public
-:
-nsDOMWindowList
-*
-GetWindowList
-(
-)
-;
 protected
 :
 already_AddRefed
