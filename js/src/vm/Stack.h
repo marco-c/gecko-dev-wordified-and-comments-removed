@@ -4469,9 +4469,13 @@ find
 JSContext
 *
 cx
-FrameIter
+FramePtr
 &
-frameIter
+frameptr
+const
+jsbytecode
+*
+pc
 MutableHandleSavedFrame
 frame
 )
