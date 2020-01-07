@@ -1601,12 +1601,6 @@ cocoaWidget
 128
 9
 )
-skip
--
-if
-(
-Android
-)
 random
 -
 if
