@@ -155,10 +155,15 @@ if
 (
 recorded_events
 .
-includes
+indexOf
 (
 name
 )
+!
+=
+=
+-
+1
 )
 {
 events
