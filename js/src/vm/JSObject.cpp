@@ -6934,9 +6934,6 @@ static
 bool
 GetScriptArrayObjectElements
 (
-JSContext
-*
-cx
 HandleArrayObject
 arr
 MutableHandle
@@ -7047,9 +7044,6 @@ static
 bool
 GetScriptPlainObjectProperties
 (
-JSContext
-*
-cx
 HandleObject
 obj
 MutableHandle
@@ -7630,7 +7624,6 @@ if
 !
 GetScriptArrayObjectElements
 (
-cx
 obj
 .
 as
@@ -7778,7 +7771,6 @@ if
 !
 GetScriptPlainObjectProperties
 (
-cx
 obj
 &
 properties
@@ -8549,7 +8541,6 @@ if
 !
 GetScriptArrayObjectElements
 (
-cx
 arr
 &
 values
@@ -8795,7 +8786,6 @@ XDR_ENCODE
 !
 GetScriptPlainObjectProperties
 (
-cx
 obj
 &
 properties
@@ -11014,8 +11004,6 @@ JSContext
 cx
 HandleObject
 obj
-JSProtoKey
-key
 JSAtom
 *
 atom
@@ -11345,7 +11333,6 @@ DefineStandardSlot
 (
 cx
 obj
-key
 atom
 value
 attrs
@@ -11424,7 +11411,6 @@ DefineStandardSlot
 (
 cx
 obj
-key
 atom
 value
 0

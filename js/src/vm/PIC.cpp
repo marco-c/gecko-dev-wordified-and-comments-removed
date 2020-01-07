@@ -494,7 +494,6 @@ isArrayStateStillSane
 {
 reset
 (
-cx
 )
 ;
 if
@@ -785,9 +784,6 @@ Chain
 :
 reset
 (
-JSContext
-*
-cx
 )
 {
 MOZ_ASSERT

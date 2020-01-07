@@ -2771,9 +2771,6 @@ JS_GC_ZEAL
 void
 checkHashTablesAfterMovingGC
 (
-JSRuntime
-*
-rt
 )
 ;
 #

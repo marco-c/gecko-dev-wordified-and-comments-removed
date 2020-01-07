@@ -9724,9 +9724,6 @@ ObjectGroupCompartment
 :
 sweep
 (
-FreeOp
-*
-fop
 )
 {
 if

@@ -2204,8 +2204,6 @@ js
 GenericPrinter
 &
 out
-int
-indent
 const
 char
 *

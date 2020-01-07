@@ -4495,7 +4495,6 @@ GeneratorObject
 :
 finalSuspend
 (
-cx
 obj
 )
 ;

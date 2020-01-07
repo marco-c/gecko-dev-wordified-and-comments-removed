@@ -1200,8 +1200,6 @@ js
 GenericPrinter
 &
 out
-int
-indent
 const
 char
 *
@@ -2030,7 +2028,6 @@ const
 dumpRepresentationHeader
 (
 out
-indent
 "
 JSRope
 "
@@ -4320,7 +4317,6 @@ const
 dumpRepresentationHeader
 (
 out
-indent
 "
 JSDependentString
 "
@@ -6843,7 +6839,6 @@ const
 dumpRepresentationHeader
 (
 out
-indent
 "
 JSExternalString
 "
@@ -9012,7 +9007,6 @@ const
 dumpRepresentationHeader
 (
 out
-indent
 "
 JSExtensibleString
 "
@@ -9072,7 +9066,6 @@ const
 dumpRepresentationHeader
 (
 out
-indent
 isFatInline
 (
 )
@@ -9118,7 +9111,6 @@ const
 dumpRepresentationHeader
 (
 out
-indent
 "
 JSFlatString
 "

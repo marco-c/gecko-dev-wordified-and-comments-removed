@@ -676,9 +676,6 @@ obj
 void
 reset
 (
-JSContext
-*
-cx
 )
 ;
 void

@@ -618,9 +618,6 @@ Zone
 :
 beginSweepTypes
 (
-FreeOp
-*
-fop
 bool
 releaseTypes
 )
@@ -635,7 +632,6 @@ types
 .
 beginSweep
 (
-fop
 releaseTypes
 oom
 )

@@ -333,9 +333,6 @@ static
 void
 finalSuspend
 (
-JSContext
-*
-cx
 HandleObject
 obj
 )

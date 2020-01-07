@@ -1735,8 +1735,6 @@ MOZ_MUST_USE
 bool
 readSharedArrayBuffer
 (
-uint32_t
-nbytes
 MutableHandleValue
 vp
 )
@@ -10150,8 +10148,6 @@ JSStructuredCloneReader
 :
 readSharedArrayBuffer
 (
-uint32_t
-nbytes
 MutableHandleValue
 vp
 )
@@ -11570,7 +11566,6 @@ if
 !
 readSharedArrayBuffer
 (
-data
 vp
 )
 )

@@ -23481,9 +23481,6 @@ TypeZone
 :
 beginSweep
 (
-FreeOp
-*
-fop
 bool
 releaseTypes
 AutoClearTypeInferenceStateOnOOM

@@ -2145,9 +2145,6 @@ clearTables
 void
 sweep
 (
-FreeOp
-*
-fop
 )
 ;
 void

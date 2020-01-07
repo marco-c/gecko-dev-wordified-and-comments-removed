@@ -725,12 +725,6 @@ nullptr
 void
 beginSweepTypes
 (
-js
-:
-:
-FreeOp
-*
-fop
 bool
 releaseTypes
 )
