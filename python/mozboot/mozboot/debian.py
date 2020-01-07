@@ -181,6 +181,10 @@ ccache
 '
         
 '
+nodejs
+'
+        
+'
 python
 -
 dev
@@ -215,6 +219,16 @@ zip
 DISTRO_PACKAGES
 =
 [
+]
+    
+DEBIAN_PACKAGES
+=
+[
+        
+'
+npm
+'
+    
 ]
     
 BROWSER_COMMON_PACKAGES
@@ -356,6 +370,7 @@ def
 __init__
 (
 self
+distro
 version
 dist_id
 *
@@ -373,6 +388,12 @@ self
 *
 kwargs
 )
+        
+self
+.
+distro
+=
+distro
         
 self
 .
@@ -397,6 +418,35 @@ COMMON_PACKAGES
 self
 .
 DISTRO_PACKAGES
+        
+if
+self
+.
+distro
+=
+=
+'
+Debian
+'
+or
+self
+.
+distro
+=
+=
+'
+debian
+'
+:
+            
+self
+.
+packages
++
+=
+self
+.
+DEBIAN_PACKAGES
         
 self
 .

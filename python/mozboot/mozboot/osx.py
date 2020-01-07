@@ -2303,6 +2303,10 @@ python
 '
             
 '
+python3
+'
+            
+'
 mercurial
 '
             
@@ -2331,6 +2335,10 @@ watchman
 terminal
 -
 notifier
+'
+            
+'
+node
 '
         
 ]
@@ -2636,6 +2644,10 @@ python27
 '
             
 '
+python36
+'
+            
+'
 py27
 -
 gnureadline
@@ -2655,6 +2667,10 @@ gnutar
             
 '
 watchman
+'
+            
+'
+nodejs8
 '
         
 ]

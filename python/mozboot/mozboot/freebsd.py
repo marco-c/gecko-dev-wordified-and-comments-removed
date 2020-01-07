@@ -91,6 +91,10 @@ mercurial
 '
             
 '
+node
+'
+            
+'
 pkgconf
 '
             

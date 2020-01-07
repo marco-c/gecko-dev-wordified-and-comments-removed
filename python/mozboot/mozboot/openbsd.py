@@ -63,6 +63,12 @@ gtar
 '
             
 '
+node
+-
+devel
+'
+            
+'
 rust
 '
             
