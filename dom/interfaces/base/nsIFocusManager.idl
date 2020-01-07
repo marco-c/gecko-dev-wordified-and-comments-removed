@@ -1170,7 +1170,7 @@ boolean
 elementIsFocusable
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 unsigned

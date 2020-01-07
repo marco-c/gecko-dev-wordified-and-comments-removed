@@ -19186,7 +19186,7 @@ nsGlobalWindowInner
 :
 SetFocusedNode
 (
-nsIContent
+Element
 *
 aNode
 uint32_t
