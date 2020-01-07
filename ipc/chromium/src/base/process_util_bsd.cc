@@ -169,7 +169,7 @@ BuildEnvironmentArray
 (
 options
 .
-environ
+env_map
 )
 ;
 posix_spawn_file_actions_t
