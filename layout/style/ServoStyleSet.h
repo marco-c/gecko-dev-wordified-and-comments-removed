@@ -418,11 +418,6 @@ aSourceSizeList
 const
 ;
 void
-InvalidateStyleForCSSRuleChanges
-(
-)
-;
-void
 AddSizeOfIncludingThis
 (
 nsWindowSizes

@@ -937,10 +937,15 @@ nsRestyleHint
 )
 ;
 void
-PostRestyleEventForCSSRuleChanges
+NextRestyleIsForCSSRuleChanges
 (
 )
+{
+mRestyleForCSSRuleChanges
+=
+true
 ;
+}
 void
 RebuildAllStyleData
 (

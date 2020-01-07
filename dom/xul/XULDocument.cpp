@@ -10959,14 +10959,6 @@ done
 )
 ;
 {
-mozAutoDocUpdate
-updateBatch
-(
-this
-UPDATE_STYLE
-true
-)
-;
 uint32_t
 count
 =
