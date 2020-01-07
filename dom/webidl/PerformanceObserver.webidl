@@ -188,5 +188,10 @@ disconnect
 (
 )
 ;
+PerformanceEntryList
+takeRecords
+(
+)
+;
 }
 ;
