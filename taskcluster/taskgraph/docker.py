@@ -21,8 +21,6 @@ json
 import
 os
 import
-sys
-import
 subprocess
 import
 tarfile
@@ -855,10 +853,6 @@ None
 None
 None
     
-error
-=
-None
-    
 try
 :
         
@@ -1191,21 +1185,6 @@ close
 (
 )
     
-except
-Exception
-:
-        
-error
-=
-sys
-.
-exc_info
-(
-)
-[
-0
-]
-    
 finally
 :
         
@@ -1336,13 +1315,6 @@ docker
 failed
 '
 )
-        
-if
-error
-:
-            
-raise
-error
     
 if
 not
