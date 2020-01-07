@@ -40,9 +40,15 @@ mac
 focusring
 %
 define
-roundButtonBorder
+roundButtonBorderWidth
 1px
+%
+define
+roundButtonBorderStyle
 solid
+%
+define
+roundButtonBorderColor
 rgba
 (
 0
