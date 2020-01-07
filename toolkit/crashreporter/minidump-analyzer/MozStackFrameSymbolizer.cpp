@@ -83,6 +83,10 @@ CodeModules
 *
 modules
 const
+CodeModules
+*
+unloaded_modules
+const
 SystemInfo
 *
 system_info
@@ -100,6 +104,7 @@ StackFrameSymbolizer
 FillSourceLineInfo
 (
 modules
+unloaded_modules
 system_info
 stack_frame
 )

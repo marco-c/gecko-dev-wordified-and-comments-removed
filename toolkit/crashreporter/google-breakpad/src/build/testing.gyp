@@ -298,7 +298,7 @@ sources
 /
 testing
 /
-gtest
+googletest
 /
 src
 /
@@ -320,7 +320,7 @@ include_dirs
 /
 testing
 /
-gtest
+googletest
 '
 '
 .
@@ -328,7 +328,7 @@ gtest
 /
 testing
 /
-gtest
+googletest
 /
 include
 '
@@ -349,7 +349,7 @@ include_dirs
 /
 testing
 /
-gtest
+googletest
 /
 include
 '
@@ -386,7 +386,12 @@ sources
 :
 [
 '
-gtest
+.
+.
+/
+testing
+/
+googletest
 /
 src
 /
@@ -431,6 +436,8 @@ sources
 /
 testing
 /
+googlemock
+/
 src
 /
 gmock
@@ -450,12 +457,16 @@ include_dirs
 .
 /
 testing
+/
+googlemock
 '
 '
 .
 .
 /
 testing
+/
+googlemock
 /
 include
 '
@@ -475,6 +486,8 @@ include_dirs
 .
 /
 testing
+/
+googlemock
 /
 include
 '
@@ -524,6 +537,8 @@ sources
 .
 /
 testing
+/
+googlemock
 /
 src
 /

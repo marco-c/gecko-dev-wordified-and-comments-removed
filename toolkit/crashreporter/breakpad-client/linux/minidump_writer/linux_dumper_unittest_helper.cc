@@ -162,6 +162,13 @@ data
 ;
 volatile
 pid_t
+*
+thread_id
+=
+new
+pid_t
+;
+*
 thread_id
 =
 syscall
@@ -219,7 +226,6 @@ asm
 TID_PTR_REGISTER
 )
 =
-&
 thread_id
 ;
 while

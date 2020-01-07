@@ -309,6 +309,11 @@ module
 cc
 '
 '
+path_helper
+.
+cc
+'
+'
 string_conversion
 .
 cc

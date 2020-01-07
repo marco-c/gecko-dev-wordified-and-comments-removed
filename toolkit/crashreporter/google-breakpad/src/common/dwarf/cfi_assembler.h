@@ -243,6 +243,14 @@ bool
 dwarf64
 =
 false
+uint8_t
+address_size
+=
+8
+uint8_t
+segment_size
+=
+0
 )
 ;
 CFISection

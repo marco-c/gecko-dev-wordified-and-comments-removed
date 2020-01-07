@@ -145,17 +145,6 @@ CFIFrameInfo
 cfi_frame_info
 )
 ;
-bool
-IsEndOfStack
-(
-uint64_t
-caller_rip
-uint64_t
-caller_rsp
-uint64_t
-callee_rsp
-)
-;
 StackFrameAMD64
 *
 GetCallerByFramePointerRecovery

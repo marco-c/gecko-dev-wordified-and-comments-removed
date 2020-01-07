@@ -5451,9 +5451,8 @@ load_command_handler
 )
 )
 ;
-EXPECT_EQ
+EXPECT_FALSE
 (
-false
 actual_segment
 .
 bits_64
@@ -5687,9 +5686,8 @@ load_command_handler
 )
 )
 ;
-EXPECT_EQ
+EXPECT_FALSE
 (
-false
 actual_segment
 .
 bits_64

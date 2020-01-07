@@ -1168,6 +1168,10 @@ signal_fd
 if
 (
 signal_fd
+!
+=
+-
+1
 )
 close
 (

@@ -184,6 +184,21 @@ FUNC
 )
 :
                     
+line
+=
+line
+.
+replace
+(
+"
+FUNC
+m
+"
+"
+FUNC
+"
+)
+                    
 bits
 =
 line
@@ -258,6 +273,21 @@ PUBLIC
 "
 )
 :
+                    
+line
+=
+line
+.
+replace
+(
+"
+PUBLIC
+m
+"
+"
+PUBLIC
+"
+)
                     
 (
 junk
