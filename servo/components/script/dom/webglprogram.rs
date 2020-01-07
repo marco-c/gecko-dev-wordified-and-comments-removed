@@ -1893,12 +1893,9 @@ gl_
 )
 {
 return
-Err
+Ok
 (
-WebGLError
-:
-:
-InvalidOperation
+None
 )
 ;
 }
@@ -1908,7 +1905,7 @@ name
 starts_with
 (
 "
-webgl
+webgl_
 "
 )
 |

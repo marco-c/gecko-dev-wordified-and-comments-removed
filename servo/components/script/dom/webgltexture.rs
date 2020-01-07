@@ -644,7 +644,7 @@ Err
 WebGLError
 :
 :
-InvalidOperation
+InvalidEnum
 )
 }
 ;
