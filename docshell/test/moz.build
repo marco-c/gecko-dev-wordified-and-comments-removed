@@ -235,12 +235,9 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
-:
 Performance
 Tools
 (
@@ -266,11 +263,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
+General
 '
 )
 with

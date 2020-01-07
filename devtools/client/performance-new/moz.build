@@ -117,12 +117,9 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
-:
 Performance
 Tools
 (

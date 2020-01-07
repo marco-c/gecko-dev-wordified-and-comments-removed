@@ -157,12 +157,9 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
-:
 Source
 Editor
 '

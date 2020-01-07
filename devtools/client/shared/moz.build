@@ -388,11 +388,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
+General
 '
 )
 with
@@ -410,12 +409,9 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
-:
 Shared
 Components
 '

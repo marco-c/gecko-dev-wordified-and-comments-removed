@@ -155,12 +155,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DevTools
 '
 '
-Developer
-Tools
-:
 Accessibility
+Tools
 '
 )
