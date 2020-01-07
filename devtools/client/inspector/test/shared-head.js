@@ -1845,7 +1845,7 @@ menu
 =
 view
 .
-_contextmenu
+contextMenu
 .
 _openMenu
 (
