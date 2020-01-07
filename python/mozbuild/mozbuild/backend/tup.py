@@ -393,6 +393,12 @@ _skip_files
 [
             
 '
+built_in_addons
+.
+json
+'
+            
+'
 signmar
 '
         
