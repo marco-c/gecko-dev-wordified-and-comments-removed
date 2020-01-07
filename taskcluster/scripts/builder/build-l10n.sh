@@ -533,12 +533,6 @@ testing
 MOZHARNESS_SCRIPT
 }
 \
--
--
-disable
--
-mock
-\
 actions
 \
 options

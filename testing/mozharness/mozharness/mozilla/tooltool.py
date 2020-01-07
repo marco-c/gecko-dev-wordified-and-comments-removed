@@ -670,34 +670,6 @@ split
 )
 )
         
-if
-self
-.
-config
-.
-get
-(
-'
-mock_target
-'
-)
-:
-            
-cmd_runner
-=
-self
-.
-run_command_m
-        
-else
-:
-            
-cmd_runner
-=
-self
-.
-run_command
-        
 timeout
 =
 self
@@ -719,7 +691,9 @@ self
 retry
 (
             
-cmd_runner
+self
+.
+run_command
             
 args
 =

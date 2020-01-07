@@ -24,32 +24,10 @@ self
 )
 :
         
-python
-=
+return
 sys
 .
 executable
-        
-if
-'
-mock_target
-'
-in
-self
-.
-config
-:
-            
-python
-=
-'
-python2
-.
-7
-'
-        
-return
-python
     
 def
 generate_balrog_props

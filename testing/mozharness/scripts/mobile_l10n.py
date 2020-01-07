@@ -151,14 +151,6 @@ mozharness
 .
 mozilla
 .
-mock
-import
-MockMixin
-from
-mozharness
-.
-mozilla
-.
 secrets
 import
 SecretsMixin
@@ -183,7 +175,6 @@ VirtualenvMixin
 class
 MobileSingleLocale
 (
-MockMixin
 LocalesMixin
 ReleaseMixin
                          
@@ -660,56 +651,6 @@ of
 chunks
 of
 locales
-"
-         
-}
-    
-]
-[
-        
-[
-"
--
--
-disable
--
-mock
-"
-]
-        
-{
-"
-dest
-"
-:
-"
-disable_mock
-"
-         
-"
-action
-"
-:
-"
-store_true
-"
-         
-"
-help
-"
-:
-"
-do
-not
-run
-under
-mock
-despite
-what
-gecko
--
-config
-says
 "
          
 }
@@ -3522,12 +3463,6 @@ locale
 }
 )
             
-self
-.
-enable_mock
-(
-)
-            
 status
 =
 self
@@ -3559,12 +3494,6 @@ key_alias
 '
 ]
             
-)
-            
-self
-.
-disable_mock
-(
 )
             
 if
