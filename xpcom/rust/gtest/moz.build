@@ -96,6 +96,13 @@ Test
 .
 cpp
 '
+'
+xpcom
+/
+Test
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
