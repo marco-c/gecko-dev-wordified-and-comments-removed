@@ -279,10 +279,6 @@ libspeex_resampler
 /
 media
 /
-libstagefright
-/
-media
-/
 libtheora
 /
 media
@@ -347,6 +343,11 @@ double
 -
 conversion
 /
+mfbt
+/
+lz4
+.
+*
 mobile
 /
 android
@@ -600,12 +601,6 @@ toolkit
 components
 /
 jsoncpp
-/
-toolkit
-/
-components
-/
-lz4
 /
 toolkit
 /
