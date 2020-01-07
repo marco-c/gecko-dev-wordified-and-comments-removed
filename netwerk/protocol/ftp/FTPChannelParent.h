@@ -160,6 +160,12 @@ ResumeMessageDiversion
 )
 override
 ;
+nsresult
+CancelDiversion
+(
+)
+override
+;
 void
 StartDiversion
 (
