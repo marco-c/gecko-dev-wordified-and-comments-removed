@@ -908,6 +908,10 @@ zip
 -
 r
 "
+"
+-
+q
+"
 zipFile
 "
 .
@@ -1174,6 +1178,10 @@ zip
 -
 r
 '
+'
+-
+q
+'
 file_path_jsvm
 '
 .
@@ -1359,6 +1367,10 @@ run_command
 [
 '
 zip
+'
+'
+-
+q
 '
 os
 .
