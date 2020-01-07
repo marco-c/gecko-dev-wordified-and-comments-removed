@@ -3086,10 +3086,6 @@ ipc
 IPCResult
 RecvAddPerformanceMetrics
 (
-const
-nsID
-&
-aID
 nsTArray
 <
 PerformanceInfo

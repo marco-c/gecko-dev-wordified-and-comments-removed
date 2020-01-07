@@ -178,11 +178,6 @@ UNIFIED_SOURCES
 =
 [
 '
-PerformanceMetricsCollector
-.
-cpp
-'
-'
 PerformanceUtils
 .
 cpp
@@ -194,11 +189,6 @@ mozilla
 +
 =
 [
-'
-PerformanceMetricsCollector
-.
-h
-'
 '
 PerformanceUtils
 .

@@ -2220,8 +2220,6 @@ DMDFile
 async
 RequestPerformanceMetrics
 (
-nsID
-aID
 )
 ;
 /
@@ -6269,8 +6267,6 @@ aHangDetails
 async
 AddPerformanceMetrics
 (
-nsID
-aID
 PerformanceInfo
 [
 ]
