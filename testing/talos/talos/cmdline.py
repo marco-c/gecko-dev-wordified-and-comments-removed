@@ -504,7 +504,7 @@ ex
 .
 damp
 :
-cart
+tart
 )
 "
 )
