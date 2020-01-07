@@ -7815,6 +7815,12 @@ case
 nsXPTType
 :
 :
+T_PROMISE
+:
+case
+nsXPTType
+:
+:
 T_INTERFACE
 :
 case
