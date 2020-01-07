@@ -11035,6 +11035,12 @@ have_diff
 }
 if
 (
+blend
+-
+>
+normalizedcoords
+&
+&
 !
 have_diff
 )
