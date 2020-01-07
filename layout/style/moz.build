@@ -386,11 +386,6 @@ nsICSSLoaderObserver
 h
 '
 '
-nsICSSStyleRuleDOMWrapper
-.
-h
-'
-'
 nsIStyleRule
 .
 h
