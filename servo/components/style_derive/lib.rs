@@ -275,6 +275,7 @@ ToAnimatedZero
 attributes
 (
 animation
+zero
 )
 )
 ]
