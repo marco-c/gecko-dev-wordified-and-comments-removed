@@ -2991,6 +2991,19 @@ e
             
 self
 .
+logger
+.
+warning
+(
+traceback
+.
+format_exc
+(
+)
+)
+            
+self
+.
 result
 =
 False
@@ -3520,6 +3533,15 @@ async
 =
 True
 )
+            
+if
+result
+is
+None
+:
+                
+return
+None
             
 done
 rv

@@ -993,6 +993,20 @@ as
 e
 :
             
+self
+.
+logger
+.
+warning
+(
+traceback
+.
+format_exc
+(
+e
+)
+)
+            
 result
 =
 self
