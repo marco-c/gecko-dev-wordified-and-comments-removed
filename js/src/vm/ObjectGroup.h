@@ -1396,6 +1396,18 @@ TraceKind
 :
 ObjectGroup
 ;
+private
+:
+friend
+class
+js
+:
+:
+jit
+:
+:
+MacroAssembler
+;
 static
 inline
 uint32_t
@@ -1471,6 +1483,8 @@ flags_
 )
 ;
 }
+public
+:
 const
 ObjectGroupFlags
 *
