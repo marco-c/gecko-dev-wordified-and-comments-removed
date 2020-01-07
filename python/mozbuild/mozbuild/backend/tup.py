@@ -4099,14 +4099,15 @@ if
 any
 (
 f
-in
-obj
 .
-outputs
-for
-f
-in
+endswith
 (
+(
+'
+automation
+.
+py
+'
 '
 source
 -
@@ -4120,6 +4121,14 @@ buildid
 h
 '
 )
+)
+                   
+for
+f
+in
+obj
+.
+outputs
 )
 :
                 
