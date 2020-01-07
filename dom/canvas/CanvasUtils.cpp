@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDOMCanvasRenderingContext2D
-.
-h
-"
-#
-include
-"
 nsICanvasRenderingContextInternal
 .
 h

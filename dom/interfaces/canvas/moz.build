@@ -133,11 +133,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMCanvasRenderingContext2D
-.
-idl
-'
-'
 nsIDOMWebGLRenderingContext
 .
 idl

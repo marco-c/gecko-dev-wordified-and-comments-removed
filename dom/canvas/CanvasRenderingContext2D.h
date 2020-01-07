@@ -21,13 +21,6 @@ vector
 #
 include
 "
-nsIDOMCanvasRenderingContext2D
-.
-h
-"
-#
-include
-"
 nsICanvasRenderingContextInternal
 .
 h
