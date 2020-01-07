@@ -516,12 +516,14 @@ now
 const
 ;
 void
-StartTimeout
+EnsureTimeout
 (
+PRIntervalTime
+now
 )
 ;
 void
-StopTimeout
+DisengageTimeout
 (
 )
 ;
@@ -658,6 +660,8 @@ Poll
 TimeDuration
 *
 pollDuration
+PRIntervalTime
+now
 )
 ;
 AutoCleanLinkedList
