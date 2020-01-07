@@ -1667,6 +1667,18 @@ _ensure_state_subdir_exists
 '
 )
         
+if
+not
+params
+.
+get
+(
+'
+log
+'
+)
+:
+            
 params
 [
 '
@@ -1683,9 +1695,9 @@ setup_logging
 "
 XPCShellTests
 "
-                                                             
+                                                                 
 params
-                                                             
+                                                                 
 {
 "
 mach
@@ -1695,7 +1707,7 @@ sys
 .
 stdout
 }
-                                                             
+                                                                 
 {
 "
 verbose

@@ -125,7 +125,10 @@ self
 options
 .
 flavor
+vars
+(
 options
+)
 )
         
 self
