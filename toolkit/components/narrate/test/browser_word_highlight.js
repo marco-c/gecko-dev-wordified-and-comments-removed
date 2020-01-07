@@ -26,8 +26,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 teresa
 "
@@ -174,8 +172,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 teresa
 "

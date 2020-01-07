@@ -77,8 +77,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 bob
 '
@@ -114,8 +112,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 lenny
 '
@@ -151,8 +147,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 amy
 '
@@ -187,8 +181,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 celine
 '
@@ -223,8 +215,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 julie
 '
@@ -298,8 +288,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 lenny
 "
@@ -329,8 +317,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 lenny
 "
@@ -416,8 +402,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 zanetta
 '
@@ -452,8 +436,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 margherita
 '
@@ -487,8 +469,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 bob
 '
@@ -523,8 +503,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 celine
 '
@@ -559,8 +537,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 julie
 '
@@ -634,8 +610,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 zanetta
 "
@@ -665,8 +639,6 @@ moz
 tts
 :
 fake
--
-indirect
 :
 zanetta
 "

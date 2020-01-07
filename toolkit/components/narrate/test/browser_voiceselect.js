@@ -334,8 +334,6 @@ moz
 tts
 :
 fake
--
-direct
 :
 lenny
 "
