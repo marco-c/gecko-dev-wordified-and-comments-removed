@@ -23426,17 +23426,6 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-nsIDOMDocument
->
-domDocument
-=
-do_QueryInterface
-(
-document
-)
-;
 rv
 =
 nsContentUtils
@@ -23497,7 +23486,7 @@ encoder
 >
 Init
 (
-domDocument
+document
 NS_LITERAL_STRING
 (
 "

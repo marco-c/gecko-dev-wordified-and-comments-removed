@@ -101,9 +101,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMDocument
-;
-interface
 nsIDOMRange
 ;
 interface
@@ -114,6 +111,9 @@ nsIOutputStream
 ;
 webidl
 Selection
+;
+webidl
+Document
 ;
 %
 {
@@ -1832,7 +1832,7 @@ void
 init
 (
 in
-nsIDOMDocument
+Document
 aDocument
 in
 AString
