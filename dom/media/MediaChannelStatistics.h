@@ -171,6 +171,7 @@ bool
 *
 aReliable
 )
+const
 {
 double
 seconds
@@ -234,6 +235,7 @@ bool
 *
 aReliable
 )
+const
 {
 TimeDuration
 time
