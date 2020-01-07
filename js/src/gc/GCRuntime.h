@@ -2432,6 +2432,13 @@ return
 verifyPreData
 ;
 }
+bool
+shouldYieldForZeal
+(
+ZealMode
+mode
+)
+;
 #
 else
 bool
