@@ -637,8 +637,9 @@ a
 value
 like
 Firefox
-or
 Fennec
+or
+B2G
 .
 The
 client

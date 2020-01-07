@@ -237,6 +237,14 @@ host2
 '
 )
         
+c3
+.
+os
+=
+'
+B2G
+'
+        
 c4
 =
 TestContext
