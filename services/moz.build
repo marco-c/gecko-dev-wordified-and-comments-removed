@@ -117,9 +117,6 @@ common
 '
 crypto
 '
-'
-settings
-'
 ]
 if
 CONFIG
@@ -140,6 +137,9 @@ DIRS
 [
 '
 fxaccounts
+'
+'
+blocklists
 '
 ]
 if
