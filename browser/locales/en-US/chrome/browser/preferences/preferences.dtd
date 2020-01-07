@@ -62,17 +62,6 @@ MPL
 <
 !
 ENTITY
-paneContainers
-.
-title
-"
-Container
-Tabs
-"
->
-<
-!
-ENTITY
 browserPrivacy
 .
 label
