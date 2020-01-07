@@ -49,6 +49,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -3933,6 +3942,7 @@ nsZipFind
 )
 ;
 }
+MOZ_NO_SANITIZE_UNSIGNED_OVERFLOW
 static
 uint32_t
 HashName
