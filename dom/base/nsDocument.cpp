@@ -29991,7 +29991,7 @@ aData
 }
 nsSMILAnimationController
 *
-nsDocument
+nsIDocument
 :
 :
 GetAnimationController
@@ -30089,7 +30089,7 @@ mAnimationController
 }
 PendingAnimationTracker
 *
-nsDocument
+nsIDocument
 :
 :
 GetOrCreatePendingAnimationTracker
