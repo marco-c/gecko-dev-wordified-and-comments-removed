@@ -68,6 +68,14 @@ extern
 crate
 cssparser
 ;
+#
+[
+macro_use
+]
+extern
+crate
+debug_unreachable
+;
 extern
 crate
 euclid

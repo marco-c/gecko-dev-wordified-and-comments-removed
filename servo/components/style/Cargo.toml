@@ -249,6 +249,15 @@ cssparser
 .
 0
 "
+debug_unreachable
+=
+"
+0
+.
+1
+.
+1
+"
 encoding_rs
 =
 {
