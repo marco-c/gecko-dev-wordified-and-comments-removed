@@ -2037,6 +2037,10 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+const
+uint32_t
+&
+aReferrerPolicy
 CreateWindowResolver
 &
 &
@@ -2100,6 +2104,10 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+const
+uint32_t
+&
+aReferrerPolicy
 )
 override
 ;
@@ -2720,6 +2728,8 @@ aWindowIsNew
 nsIPrincipal
 *
 aTriggeringPrincipal
+uint32_t
+aReferrerPolicy
 bool
 aLoadUri
 )

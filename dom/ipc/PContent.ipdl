@@ -5525,6 +5525,8 @@ float
 aFullZoom
 Principal
 aTriggeringPrincipal
+uint32_t
+aReferrerPolicy
 )
 returns
 (
@@ -5557,6 +5559,8 @@ nsString
 aName
 Principal
 aTriggeringPrincipal
+uint32_t
+aReferrerPolicy
 )
 ;
 sync

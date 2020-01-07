@@ -21663,6 +21663,8 @@ aWindowIsNew
 nsIPrincipal
 *
 aTriggeringPrincipal
+uint32_t
+aReferrerPolicy
 bool
 aLoadURI
 )
@@ -22079,6 +22081,14 @@ SetTriggeringPrincipal
 aTriggeringPrincipal
 )
 ;
+params
+-
+>
+SetReferrerPolicy
+(
+aReferrerPolicy
+)
+;
 nsCOMPtr
 <
 nsIFrameLoaderOwner
@@ -22486,6 +22496,10 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+const
+uint32_t
+&
+aReferrerPolicy
 CreateWindowResolver
 &
 &
@@ -22699,6 +22713,7 @@ windowOpened
 (
 )
 aTriggeringPrincipal
+aReferrerPolicy
 false
 )
 ;
@@ -22956,6 +22971,10 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+const
+uint32_t
+&
+aReferrerPolicy
 )
 {
 nsCOMPtr
@@ -23009,6 +23028,7 @@ newRemoteTab
 &
 windowIsNew
 aTriggeringPrincipal
+aReferrerPolicy
 true
 )
 ;

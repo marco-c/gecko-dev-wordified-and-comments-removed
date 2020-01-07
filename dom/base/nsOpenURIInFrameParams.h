@@ -94,6 +94,9 @@ mOpenerBrowser
 nsString
 mReferrer
 ;
+uint32_t
+mReferrerPolicy
+;
 nsCOMPtr
 <
 nsIPrincipal

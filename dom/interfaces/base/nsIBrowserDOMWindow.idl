@@ -137,6 +137,11 @@ attribute
 DOMString
 referrer
 ;
+attribute
+unsigned
+long
+referrerPolicy
+;
 readonly
 attribute
 boolean
