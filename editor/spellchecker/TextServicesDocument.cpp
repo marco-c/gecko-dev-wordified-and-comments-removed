@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsComposeTxtSrvFilter
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -163,13 +170,6 @@ h
 include
 "
 nsISupportsUtils
-.
-h
-"
-#
-include
-"
-nsITextServicesFilter
 .
 h
 "
@@ -1270,7 +1270,7 @@ TextServicesDocument
 :
 SetFilter
 (
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 *
 aFilter
 )

@@ -54,6 +54,9 @@ nscore
 h
 "
 class
+nsComposeTxtSrvFilter
+;
+class
 nsIContent
 ;
 class
@@ -67,9 +70,6 @@ nsINode
 ;
 class
 nsISelectionController
-;
-class
-nsITextServicesFilter
 ;
 class
 nsRange
@@ -163,9 +163,9 @@ nsRange
 >
 mExtent
 ;
-nsCOMPtr
+RefPtr
 <
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 >
 mTxtSvcFilter
 ;
@@ -230,7 +230,7 @@ aRange
 nsresult
 SetFilter
 (
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 *
 aFilter
 )
