@@ -4735,9 +4735,6 @@ DataViewObject
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 thisView
@@ -4764,8 +4761,6 @@ return
 false
 ;
 }
-#
-endif
 args
 .
 rval
@@ -4866,9 +4861,6 @@ DataViewObject
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 thisView
@@ -4895,8 +4887,6 @@ return
 false
 ;
 }
-#
-endif
 args
 .
 rval
