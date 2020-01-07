@@ -87,7 +87,7 @@ def
 test_invalid_always_match
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 value
 )
 :
@@ -105,7 +105,7 @@ firstMatch
 "
 :
 [
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -159,7 +159,7 @@ def
 test_invalid_first_match
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 value
 )
 :
@@ -171,7 +171,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -696,7 +696,7 @@ def
 test_invalid_values
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 body
 key
 value
@@ -726,7 +726,7 @@ alwaysMatch
 "
 ]
 =
-add_browser_capabilites
+add_browser_capabilities
 (
 capabilities
 [
@@ -749,7 +749,7 @@ firstMatch
 0
 ]
 =
-add_browser_capabilites
+add_browser_capabilities
 (
 capabilities
 [
@@ -934,7 +934,7 @@ def
 test_invalid_extensions
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 body
 key
 )
@@ -964,7 +964,7 @@ alwaysMatch
 "
 ]
 =
-add_browser_capabilites
+add_browser_capabilities
 (
 capabilities
 [
@@ -987,7 +987,7 @@ firstMatch
 0
 ]
 =
-add_browser_capabilites
+add_browser_capabilities
 (
 capabilities
 [

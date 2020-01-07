@@ -12,7 +12,7 @@ def
 test_sessionid
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -31,7 +31,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -76,7 +76,7 @@ def
 test_capabilites
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -95,7 +95,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -215,7 +215,7 @@ def
 test_data
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 platform_name
 )
 :
@@ -235,7 +235,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -453,7 +453,7 @@ def
 test_timeouts
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 platform_name
 )
 :
@@ -474,7 +474,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 "
@@ -541,7 +541,7 @@ def
 test_pageLoadStrategy
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 platform_name
 )
 :
@@ -562,7 +562,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 "

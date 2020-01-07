@@ -50,7 +50,7 @@ def
 test_valid
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 key
 value
 )
@@ -72,7 +72,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 key

@@ -9,8 +9,6 @@ fixtures
 import
 (
     
-add_browser_capabilites
-    
 add_event_listeners
     
 configuration
@@ -109,14 +107,6 @@ args
 ids
 =
 None
-)
-pytest
-.
-fixture
-(
-)
-(
-add_browser_capabilites
 )
 pytest
 .
