@@ -60452,7 +60452,11 @@ pattern
 :
 Invalid
 quantifier
+\
+u201c
 *
+\
+u201d
 "
 "
 html
@@ -60496,6 +60500,10 @@ pattern
 :
 Unterminated
 parenthetical
+\
+u201c
+\
+u201d
 "
 "
 html
