@@ -1638,7 +1638,6 @@ interface
 .
     
 Includes
-installation
 webdriver
 installation
 and
@@ -2230,17 +2229,12 @@ Chrome
 specific
 interface
 for
-android
+Android
 .
     
 Includes
-installation
 webdriver
 installation
-and
-wptrunner
-setup
-methods
 .
     
 "
@@ -2340,7 +2334,6 @@ interface
 .
     
 Includes
-installation
 webdriver
 installation
 and
@@ -2989,17 +2982,6 @@ Edge
 specific
 interface
 .
-    
-Includes
-installation
-webdriver
-installation
-and
-wptrunner
-setup
-methods
-.
-    
 "
 "
 "
@@ -3095,17 +3077,6 @@ Explorer
 specific
 interface
 .
-    
-Includes
-installation
-webdriver
-installation
-and
-wptrunner
-setup
-methods
-.
-    
 "
 "
 "
@@ -3202,17 +3173,6 @@ Servo
 specific
 interface
 .
-    
-Includes
-installation
-webdriver
-installation
-and
-wptrunner
-setup
-methods
-.
-    
 "
 "
 "
@@ -3307,17 +3267,6 @@ Sauce
 specific
 interface
 .
-    
-Includes
-installation
-webdriver
-installation
-and
-wptrunner
-setup
-methods
-.
-    
 "
 "
 "
