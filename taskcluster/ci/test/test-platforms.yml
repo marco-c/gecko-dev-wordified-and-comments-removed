@@ -335,6 +335,12 @@ awsy
 mochitest
 -
 headless
+-
+linux
+-
+talos
+-
+flex
 linux64
 -
 nightly
