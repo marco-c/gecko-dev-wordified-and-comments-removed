@@ -1564,7 +1564,7 @@ AsKeyboardEvent
 mLocation
 =
 =
-nsIDOMKeyEvent
+KeyboardEventBinding
 :
 :
 DOM_KEY_LOCATION_NUMPAD
