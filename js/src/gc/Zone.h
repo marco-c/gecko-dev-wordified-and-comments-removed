@@ -1128,7 +1128,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 DebuggerVector
 *
@@ -1249,7 +1249,7 @@ clearTables
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 bool
 >
@@ -1619,7 +1619,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 JS
 :
@@ -2212,7 +2212,7 @@ gcDelayBytes
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 uint32_t
 >
@@ -2221,7 +2221,7 @@ tenuredStrings
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 bool
 >
@@ -2232,7 +2232,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 js
 :
@@ -2265,7 +2265,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 js
 :
@@ -2298,7 +2298,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 js
 :
@@ -2351,7 +2351,7 @@ SystemAllocPolicy
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 NurseryShapeVector
 >
@@ -2401,7 +2401,7 @@ fixupAfterMovingGC
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 void
 *
@@ -2411,7 +2411,7 @@ data
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 bool
 >
@@ -2591,7 +2591,7 @@ DEBUG
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 unsigned
 >
@@ -3437,7 +3437,7 @@ private
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 js
 :
@@ -3471,7 +3471,7 @@ gcScheduledSaved_
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 bool
 >
@@ -3480,7 +3480,7 @@ gcPreserveCode_
 js
 :
 :
-ZoneGroupData
+ZoneData
 <
 bool
 >
