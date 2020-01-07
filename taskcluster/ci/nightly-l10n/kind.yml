@@ -435,10 +435,6 @@ android
 sdk
 -
 linux
--
-proguard
--
-jar
 tooltool
 :
 by

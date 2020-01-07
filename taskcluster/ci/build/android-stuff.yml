@@ -294,10 +294,6 @@ android
 sdk
 -
 linux
--
-proguard
--
-jar
 optimization
 :
 skip
@@ -735,10 +731,6 @@ android
 sdk
 -
 linux
--
-proguard
--
-jar
 optimization
 :
 skip
@@ -1191,10 +1183,6 @@ android
 sdk
 -
 linux
--
-proguard
--
-jar
 optimization
 :
 skip
@@ -1611,10 +1599,6 @@ android
 sdk
 -
 linux
--
-proguard
--
-jar
 optimization
 :
 skip
@@ -1984,10 +1968,6 @@ android
 sdk
 -
 linux
--
-proguard
--
-jar
 optimization
 :
 skip
