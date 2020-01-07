@@ -135,7 +135,7 @@ base
 Thread
 (
 "
-Renderer
+WinCompositor
 "
 )
 ;
