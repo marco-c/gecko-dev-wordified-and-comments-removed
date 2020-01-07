@@ -2612,6 +2612,8 @@ browser
 PREF_DIR
 /
 devtools
+-
+client
 .
 js
 RESPATH

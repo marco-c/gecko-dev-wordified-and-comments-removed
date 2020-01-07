@@ -91,6 +91,8 @@ JS_PREFERENCE_PP_FILES
 [
 '
 devtools
+-
+client
 .
 js
 '
