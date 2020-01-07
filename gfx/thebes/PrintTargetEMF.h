@@ -241,6 +241,9 @@ mPDFiumProcess
 HDC
 mPrinterDC
 ;
+bool
+mWaitingForEMFConversion
+;
 }
 ;
 }
