@@ -836,6 +836,9 @@ stdout
 subprocess
 .
 PIPE
+universal_newlines
+=
+True
 )
 for
 line
@@ -1616,6 +1619,9 @@ gtests
 "
 "
 ssl_gtests
+"
+"
+bogo
 "
 ]
 parser_test
