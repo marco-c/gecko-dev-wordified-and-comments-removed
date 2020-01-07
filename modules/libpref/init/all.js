@@ -18701,7 +18701,6 @@ home
 newtab
 printpreview
 srcdoc
-studies
 welcome
 "
 )
