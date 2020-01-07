@@ -95,6 +95,13 @@ h
 #
 include
 "
+nsThemeConstants
+.
+h
+"
+#
+include
+"
 nsDOMCSSRect
 .
 h

@@ -254,16 +254,6 @@ mochitest
 ini
 '
 ]
-XPCSHELL_TESTS_MANIFESTS
-+
-=
-[
-'
-xpcshell
-.
-ini
-'
-]
 BROWSER_CHROME_MANIFESTS
 +
 =

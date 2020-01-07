@@ -86,6 +86,13 @@ mozilla
 class
 FontSlantStyle
 ;
+namespace
+dom
+{
+class
+Element
+;
+}
 }
 class
 nsStyleUtil

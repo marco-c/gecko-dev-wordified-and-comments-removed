@@ -205,16 +205,6 @@ CSSStyleSheet
 sheet
 )
 ;
-[
-NewObject
-]
-CSSLexer
-getCSSLexer
-(
-DOMString
-text
-)
-;
 unsigned
 long
 getSelectorCount

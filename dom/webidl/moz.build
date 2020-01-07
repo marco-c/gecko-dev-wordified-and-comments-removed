@@ -2970,11 +2970,6 @@ CSSKeyframesRule
 webidl
 '
 '
-CSSLexer
-.
-webidl
-'
-'
 CSSMediaRule
 .
 webidl

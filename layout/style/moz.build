@@ -643,11 +643,6 @@ CSSKeyframesRule
 h
 '
 '
-CSSLexer
-.
-h
-'
-'
 CSSMediaRule
 .
 h
@@ -828,11 +823,6 @@ cpp
 '
 '
 CSSKeyframesRule
-.
-cpp
-'
-'
-CSSLexer
 .
 cpp
 '
