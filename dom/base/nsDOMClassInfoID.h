@@ -18,8 +18,6 @@ eDOMClassInfo_DOMPrototype_id
 eDOMClassInfo_DOMConstructor_id
 eDOMClassInfo_ContentFrameMessageManager_id
 eDOMClassInfo_ContentProcessMessageManager_id
-eDOMClassInfo_ChromeMessageBroadcaster_id
-eDOMClassInfo_ChromeMessageSender_id
 eDOMClassInfoIDCount
 }
 ;
