@@ -5627,6 +5627,14 @@ ENABLE_WASM_THREAD_OPS
 ]
 =
 True
+DEFINES
+[
+'
+ENABLE_WASM_GC
+'
+]
+=
+True
 #
 An
 experiment
