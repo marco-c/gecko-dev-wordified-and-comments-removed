@@ -3521,6 +3521,14 @@ DoGetContextProperties
 (
 )
 ;
+already_AddRefed
+<
+CSSValue
+>
+DummyGetter
+(
+)
+;
 void
 SetToRGBAColor
 (
