@@ -3775,7 +3775,7 @@ EventDispatcher
 :
 Dispatch
 "
-EVENTS
+OTHER
 )
 ;
 NS_ASSERTION

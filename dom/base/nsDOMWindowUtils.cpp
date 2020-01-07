@@ -3345,7 +3345,7 @@ nsDOMWindowUtils
 :
 SendMouseEventToWindow
 "
-EVENTS
+OTHER
 )
 ;
 return

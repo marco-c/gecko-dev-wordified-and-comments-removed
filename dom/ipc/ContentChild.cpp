@@ -11831,7 +11831,7 @@ ContentChild
 :
 RecvAsyncMessage
 "
-EVENTS
+OTHER
 aMsg
 )
 ;

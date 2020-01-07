@@ -2439,7 +2439,7 @@ nsAppShell
 :
 ProcessGeckoEvents
 "
-EVENTS
+OTHER
 )
 ;
 nsAppShell
