@@ -622,6 +622,11 @@ AutoWheelDeltaAdjuster
 (
 )
 ;
+void
+CancelAdjustment
+(
+)
+;
 private
 :
 WidgetWheelEvent

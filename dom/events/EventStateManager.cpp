@@ -14506,6 +14506,12 @@ WantsToHandleWheelEventAsDefaultAction
 )
 )
 ;
+adjuster
+.
+CancelAdjustment
+(
+)
+;
 action
 =
 WheelPrefs
