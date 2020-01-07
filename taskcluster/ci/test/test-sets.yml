@@ -688,6 +688,12 @@ profiling
 -
 talos
 -
+motionmark
+-
+profiling
+-
+talos
+-
 svgr
 -
 profiling
@@ -1209,6 +1215,12 @@ profiling
 talos
 -
 speedometer
+-
+profiling
+-
+talos
+-
+motionmark
 -
 profiling
 -
