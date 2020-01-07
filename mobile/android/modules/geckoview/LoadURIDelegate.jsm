@@ -123,7 +123,7 @@ type
 "
 GeckoView
 :
-OnLoadUri
+OnLoadRequest
 "
 uri
 :
