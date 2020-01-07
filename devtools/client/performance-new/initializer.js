@@ -204,6 +204,14 @@ win
 .
 gBrowser
 ;
+Services
+.
+focus
+.
+activeWindow
+=
+win
+;
 }
 const
 tab
