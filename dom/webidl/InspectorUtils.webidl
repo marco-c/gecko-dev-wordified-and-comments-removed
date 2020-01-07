@@ -297,6 +297,14 @@ octet
 b
 )
 ;
+InspectorRGBATuple
+?
+colorToRGBA
+(
+DOMString
+colorString
+)
+;
 }
 ;
 dictionary

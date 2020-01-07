@@ -188,7 +188,7 @@ colorName
 let
 fromDom
 =
-DOMUtils
+InspectorUtils
 .
 colorToRGBA
 (
@@ -204,7 +204,7 @@ colorName
 "
 agrees
 with
-DOMUtils
+InspectorUtils
 "
 )
 ;
@@ -262,7 +262,7 @@ canonical
 name
 agrees
 with
-DOMUtils
+InspectorUtils
 "
 )
 ;
