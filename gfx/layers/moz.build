@@ -312,6 +312,13 @@ OGLShaderProgram
 h
 '
 '
+opengl
+/
+TexturePoolOGL
+.
+h
+'
+'
 protobuf
 /
 LayerScopePacket
@@ -3017,6 +3024,13 @@ cpp
 opengl
 /
 TextureHostOGL
+.
+cpp
+'
+'
+opengl
+/
+TexturePoolOGL
 .
 cpp
 '
