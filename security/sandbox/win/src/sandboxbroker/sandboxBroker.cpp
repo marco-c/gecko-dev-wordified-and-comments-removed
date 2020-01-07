@@ -2492,14 +2492,6 @@ aSandboxLevel
 3
 )
 {
-mitigations
-|
-=
-sandbox
-:
-:
-MITIGATION_IMAGE_LOAD_NO_LOW_LABEL
-;
 if
 (
 !
@@ -2513,6 +2505,11 @@ sandbox
 :
 :
 MITIGATION_IMAGE_LOAD_NO_REMOTE
+|
+sandbox
+:
+:
+MITIGATION_IMAGE_LOAD_NO_LOW_LABEL
 ;
 }
 }
