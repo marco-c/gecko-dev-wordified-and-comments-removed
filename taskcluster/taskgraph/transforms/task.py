@@ -2270,7 +2270,11 @@ percentage
 '
 )
 :
+Any
+(
 int
+None
+)
     
 }
 )
