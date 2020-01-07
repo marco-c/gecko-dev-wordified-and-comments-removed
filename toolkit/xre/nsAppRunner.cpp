@@ -3728,9 +3728,14 @@ SYNC_ENUMS
 GPU
 GPU
 )
+SYNC_ENUMS
+(
+PDFIUM
+PDFium
+)
 static_assert
 (
-GeckoProcessType_GPU
+GeckoProcessType_PDFium
 +
 1
 =
