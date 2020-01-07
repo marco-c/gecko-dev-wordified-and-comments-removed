@@ -710,16 +710,6 @@ RTC_DCHECK
 muted
 )
 ;
-rtc
-:
-:
-CritScope
-lock
-(
-&
-crit_sect_
-)
-;
 if
 (
 neteq_
