@@ -1,4 +1,4 @@
-52491
+52520
 0
 /
 nm
@@ -11171,6 +11171,9 @@ Emerson
 /
 M
 Emery
+/
+M
+Emeryville
 /
 M
 Emil
@@ -26846,7 +26849,13 @@ SMDG
 PMS
 /
 M
+PNG
+/
+MS
 PO
+POTUS
+/
+M
 POW
 /
 M
@@ -27952,6 +27961,9 @@ Pittsburgh
 /
 M
 Pius
+/
+M
+Pixar
 /
 M
 Pizarro
@@ -30554,6 +30566,9 @@ SASE
 SAT
 SBA
 SC
+/
+M
+SCOTUS
 /
 M
 SCSI
@@ -37311,6 +37326,12 @@ M
 XL
 /
 M
+XLS
+/
+MS
+XLSX
+/
+MS
 XML
 XPCOM
 /
@@ -39052,6 +39073,11 @@ adapter
 /
 M
 adaption
+/
+S
+add
+-
+on
 /
 S
 add
@@ -58817,6 +58843,9 @@ countersunk
 countertenor
 /
 MS
+countertop
+/
+S
 countervail
 /
 GSD
@@ -59853,6 +59882,9 @@ U
 crowdfund
 /
 SDG
+crowdsource
+/
+SDG
 crowfeet
 crowfoot
 /
@@ -60038,6 +60070,9 @@ crypt
 S
 cryptic
 cryptically
+cryptocurrency
+/
+S
 cryptogram
 /
 SM
@@ -61556,6 +61591,9 @@ decongestant
 /
 MS
 deconstructionism
+decontextualize
+/
+DGS
 decor
 /
 MS
@@ -65510,6 +65548,9 @@ M
 dreary
 /
 RPT
+dreck
+dreckish
+drecky
 dredge
 /
 DRSMZG
@@ -65519,6 +65560,7 @@ M
 dregs
 /
 M
+drek
 drench
 /
 GDS
@@ -84142,6 +84184,9 @@ U
 incorporation
 /
 AM
+incorporator
+/
+S
 incorporeal
 incorrect
 /
@@ -85677,6 +85722,9 @@ internship
 /
 MS
 interoffice
+interoperability
+interoperable
+interoperate
 interpenetrate
 /
 DSGN
@@ -93217,6 +93265,9 @@ maxima
 maximal
 /
 Y
+maximalist
+/
+MS
 maximization
 /
 M
@@ -100494,7 +100545,7 @@ okra
 MS
 old
 /
-TMNRP
+TMNRPS
 oldie
 /
 SM
@@ -102344,6 +102395,8 @@ oxymora
 oxymoron
 /
 M
+oyes
+oyez
 oyster
 /
 SM
@@ -112404,6 +112457,9 @@ M
 reboil
 /
 SDG
+rebrand
+/
+DG
 rebuild
 /
 SG
@@ -112720,7 +112776,7 @@ redact
 SDG
 redaction
 /
-M
+MS
 redactor
 /
 SM
@@ -113240,7 +113296,7 @@ M
 rel
 relate
 /
-DRSXZGNV
+DRSXZGNVB
 relatedness
 /
 M
@@ -115193,6 +115249,7 @@ M
 rollmop
 /
 S
+rollout
 rollover
 /
 SM
@@ -122278,6 +122335,9 @@ soever
 sofa
 /
 MS
+soffit
+/
+S
 soft
 /
 NRYXTP
@@ -123726,7 +123786,7 @@ sponsor
 MDGS
 sponsorship
 /
-M
+MS
 spontaneity
 /
 M
@@ -125542,6 +125602,7 @@ SM
 streetwalker
 /
 SM
+streetwalking
 streetwise
 strength
 /
@@ -134464,6 +134525,7 @@ B
 unready
 unreal
 unreasoning
+unredacted
 unregenerate
 unrelated
 unrelenting
@@ -139731,6 +139793,7 @@ M
 yaws
 /
 M
+yay
 yd
 ye
 /
