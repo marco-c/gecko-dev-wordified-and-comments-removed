@@ -22,8 +22,8 @@ eNone
 0
 eUndo
 eRedo
-insertNode
-createNode
+eInsertNode
+eCreateNode
 deleteNode
 splitNode
 joinNode
