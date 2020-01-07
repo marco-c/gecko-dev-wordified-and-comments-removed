@@ -4098,9 +4098,8 @@ parent
 doc
 -
 >
-GetFirstParentDocumentWithSamePrincipal
+GetSameTypeParentDocument
 (
-principal
 )
 ;
 while
@@ -4111,8 +4110,9 @@ parent
 parent
 -
 >
-NotifyUserActivation
+MaybeNotifyUserActivation
 (
+principal
 )
 ;
 parent
@@ -4120,9 +4120,8 @@ parent
 parent
 -
 >
-GetFirstParentDocumentWithSamePrincipal
+GetSameTypeParentDocument
 (
-principal
 )
 ;
 }
