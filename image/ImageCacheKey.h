@@ -169,11 +169,14 @@ aScheme
 static
 void
 *
-GetControlledDocumentToken
+GetSpecialCaseDocumentToken
 (
 nsIDocument
 *
 aDocument
+nsIURI
+*
+aURI
 )
 ;
 nsCOMPtr
