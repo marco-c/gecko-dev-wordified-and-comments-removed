@@ -260,6 +260,17 @@ loadFrameScript
 if
 (
 !
+this
+.
+browser
+)
+{
+return
+;
+}
+if
+(
+!
 gKnownBrowsers
 .
 has
