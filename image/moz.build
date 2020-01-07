@@ -345,6 +345,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AnimationFrameBuffer
+.
+cpp
+'
+'
 AnimationSurfaceProvider
 .
 cpp
