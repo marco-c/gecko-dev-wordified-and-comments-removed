@@ -8,7 +8,7 @@ const
 addDebuggerToGlobal
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -137,7 +137,7 @@ value
 const
 promise
 =
-Cu
+ChromeUtils
 .
 import
 (

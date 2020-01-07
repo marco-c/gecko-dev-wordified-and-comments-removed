@@ -63,9 +63,7 @@ const
 FileUtils
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -80,8 +78,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

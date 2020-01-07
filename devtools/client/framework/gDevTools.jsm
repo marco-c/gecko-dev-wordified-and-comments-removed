@@ -21,7 +21,7 @@ const
 loader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -60,7 +60,7 @@ let
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

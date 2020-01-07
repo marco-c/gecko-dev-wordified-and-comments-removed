@@ -1315,7 +1315,7 @@ temp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -1351,9 +1351,7 @@ NetUtil
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -1368,8 +1366,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 .
 NetUtil
@@ -1391,9 +1387,7 @@ OS
 >
 {
 return
-Cu
-.
-import
+require
 (
 "
 resource
@@ -1408,8 +1402,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 .
 OS

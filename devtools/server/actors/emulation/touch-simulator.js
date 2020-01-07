@@ -21,9 +21,7 @@ const
 Services
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -38,8 +36,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 var

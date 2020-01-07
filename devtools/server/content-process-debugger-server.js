@@ -8,7 +8,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -56,7 +56,7 @@ let
 init
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -84,7 +84,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -115,9 +115,7 @@ this
 .
 Promise
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -132,8 +130,6 @@ Promise
 .
 jsm
 "
-{
-}
 )
 .
 Promise
@@ -142,9 +138,7 @@ this
 .
 console
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -159,8 +153,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 .
 console

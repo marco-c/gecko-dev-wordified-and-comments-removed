@@ -16,7 +16,7 @@ _appInfo
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -80,7 +80,7 @@ require
 loader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -106,7 +106,7 @@ const
 worker
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -368,7 +368,7 @@ const
 addDebuggerToGlobal
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

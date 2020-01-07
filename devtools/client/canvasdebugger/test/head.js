@@ -35,7 +35,7 @@ var
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

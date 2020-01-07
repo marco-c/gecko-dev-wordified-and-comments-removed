@@ -372,7 +372,7 @@ code
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

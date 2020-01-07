@@ -20,7 +20,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

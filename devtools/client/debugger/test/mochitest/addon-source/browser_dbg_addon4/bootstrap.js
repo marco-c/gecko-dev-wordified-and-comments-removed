@@ -35,7 +35,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -89,7 +89,7 @@ aParams
 resourceURI
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

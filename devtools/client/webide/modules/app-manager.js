@@ -43,9 +43,7 @@ const
 FileUtils
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -60,8 +58,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -87,9 +83,7 @@ const
 OS
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -104,8 +98,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -271,9 +263,7 @@ const
 NetUtil
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -288,8 +278,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 const

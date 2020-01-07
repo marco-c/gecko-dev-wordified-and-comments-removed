@@ -8,7 +8,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -81,7 +81,7 @@ const
 console
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

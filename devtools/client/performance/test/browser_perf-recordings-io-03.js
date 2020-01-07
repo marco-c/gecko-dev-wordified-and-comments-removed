@@ -8,7 +8,7 @@ var
 FileUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -34,7 +34,7 @@ var
 NetUtil
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

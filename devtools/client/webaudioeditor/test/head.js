@@ -8,7 +8,7 @@ const
 PromiseTestUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -165,7 +165,7 @@ var
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

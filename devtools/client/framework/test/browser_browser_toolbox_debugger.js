@@ -541,7 +541,7 @@ const
 Task
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -567,7 +567,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -593,7 +593,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -619,7 +619,7 @@ const
 setTimeout
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -903,7 +903,7 @@ let
 BrowserToolboxProcess
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

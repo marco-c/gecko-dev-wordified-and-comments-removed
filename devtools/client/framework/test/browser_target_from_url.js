@@ -37,7 +37,7 @@ const
 DevToolsLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

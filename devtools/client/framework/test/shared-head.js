@@ -36,7 +36,7 @@ scope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -3144,7 +3144,7 @@ const
 HttpServer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

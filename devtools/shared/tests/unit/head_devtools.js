@@ -9,7 +9,7 @@ require
 DevToolsLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

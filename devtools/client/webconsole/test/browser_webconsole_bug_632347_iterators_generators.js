@@ -107,7 +107,7 @@ provider
 let
 tmp
 =
-Cu
+ChromeUtils
 .
 import
 (

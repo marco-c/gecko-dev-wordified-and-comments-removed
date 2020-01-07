@@ -18,7 +18,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -201,7 +201,7 @@ const
 OS
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -30,9 +30,7 @@ const
 DevToolsShim
 }
 =
-Cu
-.
-import
+require
 (
 "
 chrome
@@ -49,8 +47,6 @@ DevToolsShim
 .
 jsm
 "
-{
-}
 )
 ;
 loader
@@ -647,9 +643,7 @@ let
 Deprecated
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -664,8 +658,6 @@ Deprecated
 .
 jsm
 "
-{
-}
 )
 ;
 Deprecated

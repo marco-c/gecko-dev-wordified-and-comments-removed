@@ -8,7 +8,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -93,7 +93,7 @@ setTimeout
 clearTimeout
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

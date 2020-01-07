@@ -98,7 +98,7 @@ let
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

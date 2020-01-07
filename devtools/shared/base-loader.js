@@ -131,7 +131,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -158,7 +158,7 @@ normalize
 dirname
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -2247,7 +2247,7 @@ module
 .
 exports
 =
-Cu
+ChromeUtils
 .
 import
 (

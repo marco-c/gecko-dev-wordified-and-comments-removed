@@ -8,7 +8,7 @@ const
 devtools
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

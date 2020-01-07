@@ -313,7 +313,7 @@ let
 BrowserToolboxProcess
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

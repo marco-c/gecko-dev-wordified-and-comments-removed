@@ -15,7 +15,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -41,7 +41,7 @@ const
 Match
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -65,7 +65,7 @@ const
 Census
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -89,7 +89,7 @@ const
 addDebuggerToGlobal
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
