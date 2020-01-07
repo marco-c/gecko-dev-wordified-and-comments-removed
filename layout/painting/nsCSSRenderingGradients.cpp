@@ -2454,6 +2454,16 @@ rightStop
 mColor
 .
 a
+|
+|
+leftStop
+.
+mPosition
+=
+=
+rightStop
+.
+mPosition
 )
 {
 continue
