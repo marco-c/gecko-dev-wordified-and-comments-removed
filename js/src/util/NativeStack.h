@@ -1,9 +1,9 @@
 #
 ifndef
-jsnativestack_h
+util_NativeStack_h
 #
 define
-jsnativestack_h
+util_NativeStack_h
 #
 include
 "

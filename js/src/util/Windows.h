@@ -1,9 +1,9 @@
 #
 ifndef
-jswin_h
+util_Windows_h
 #
 define
-jswin_h
+util_Windows_h
 #
 ifdef
 XP_WIN

@@ -1,7 +1,9 @@
 #
 include
 "
-jsnativestack
+util
+/
+NativeStack
 .
 h
 "
@@ -11,7 +13,9 @@ XP_WIN
 #
 include
 "
-jswin
+util
+/
+Windows
 .
 h
 "

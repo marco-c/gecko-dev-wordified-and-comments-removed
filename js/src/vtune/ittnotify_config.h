@@ -685,7 +685,9 @@ ITT_PLATFORM_WIN
 #
 include
 "
-jswin
+util
+/
+Windows
 .
 h
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsdtoa_h
+util_DoubleToString_h
 #
 define
-jsdtoa_h
+util_DoubleToString_h
 #
 include
 <
