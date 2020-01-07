@@ -18,7 +18,7 @@ webpack
 webpack
 /
 bootstrap
-ce5a3febd2184465bc3b
+0baaf15f35ff7d5d485d
 "
 "
 webpack
@@ -356,6 +356,9 @@ anAliased2
 aNamed2
 "
 "
+anotherNamed2
+"
+"
 aNamespace2
 "
 "
@@ -610,7 +613,7 @@ AACAD
 UAAQC
 GAAR
 CAAY
-2DAAZ
+yDAAZ
 ;
 AACAD
 UAAQC
@@ -651,18 +654,18 @@ AACAJ
 YAAQC
 GAAR
 CAAY
-mEAAAE
+kEAAAI
 EAAZ
 ;
-AACAH
+AACAL
 YAAQC
 GAAR
 CAAY
-uCAAAI
+uCAAAK
 EAAZ
 ;
 ;
-AAEAL
+AAEAN
 YAAQC
 GAAR
 CAAY
@@ -691,7 +694,7 @@ YAAQC
 GAAR
 CAAY
 IAAI
-6DAAJ
+2DAAJ
 EAAZ
 ;
 AACAD
@@ -705,7 +708,7 @@ EAAZ
 AACD
 GAdD
 CAcE
-OAAOK
+OAAOM
 CAAP
 EAAU
 CAAE
@@ -733,7 +736,7 @@ MAAM
 AAC3BC
 SAAOC
 iBAAP
-GAA2Bb
+GAA2Bd
 IAA3B
 ;
 AACD
@@ -760,7 +763,7 @@ E
 ;
 ;
 ACAO
-MAAMc
+MAAMe
 SAAS
 SAAf
 C
@@ -819,7 +822,7 @@ E
 ;
 ;
 ACAO
-MAAMT
+MAAMV
 UAAU
 UAAhB
 C
@@ -833,7 +836,7 @@ C
 ;
 ;
 ACAA
-MAAMU
+MAAMW
 WAAW
 cAAjB
 C
@@ -927,7 +930,7 @@ C
 ;
 ;
 ACDQ
-SAASf
+SAAShB
 YAAT
 GAAwB
 CAAE
@@ -1600,7 +1603,7 @@ n
 webpack
 /
 bootstrap
-ce5a3febd2184465bc3b
+0baaf15f35ff7d5d485d
 "
 "
 import
@@ -1620,6 +1623,9 @@ mod1
 nimport
 {
 aNamed
+aNamed
+as
+anotherNamed
 }
 from
 \
@@ -1686,6 +1692,9 @@ mod5
 nimport
 {
 aNamed2
+aNamed2
+as
+anotherNamed2
 }
 from
 \
@@ -1752,6 +1761,9 @@ mod9
 nimport
 {
 aNamed3
+aNamed3
+as
+anotherNamed3
 }
 from
 \
@@ -1881,7 +1893,7 @@ console
 .
 log
 (
-anAliased
+anotherNamed
 )
 ;
 \
@@ -1975,7 +1987,7 @@ console
 .
 log
 (
-anAliased2
+anotherNamed2
 (
 )
 )
@@ -2036,7 +2048,7 @@ console
 log
 (
 new
-anAliased3
+anotherNamed3
 (
 )
 )

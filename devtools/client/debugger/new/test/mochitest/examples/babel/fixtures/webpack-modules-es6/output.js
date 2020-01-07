@@ -467,7 +467,7 @@ console
 .
 log
 (
-__WEBPACK_IMPORTED_MODULE_2__src_mod3__
+__WEBPACK_IMPORTED_MODULE_1__src_mod2__
 [
 "
 a
@@ -541,7 +541,7 @@ log
 (
 Object
 (
-__WEBPACK_IMPORTED_MODULE_6__src_mod7__
+__WEBPACK_IMPORTED_MODULE_5__src_mod6__
 [
 "
 a
@@ -611,7 +611,7 @@ console
 log
 (
 new
-__WEBPACK_IMPORTED_MODULE_10__src_mod11__
+__WEBPACK_IMPORTED_MODULE_9__src_mod10__
 [
 "
 a

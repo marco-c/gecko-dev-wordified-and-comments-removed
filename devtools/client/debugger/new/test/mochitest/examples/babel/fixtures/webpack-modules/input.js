@@ -12,6 +12,9 @@ mod1
 import
 {
 aNamed
+aNamed
+as
+anotherNamed
 }
 from
 "
@@ -64,6 +67,9 @@ mod5
 import
 {
 aNamed2
+aNamed2
+as
+anotherNamed2
 }
 from
 "
@@ -116,6 +122,9 @@ mod9
 import
 {
 aNamed3
+aNamed3
+as
+anotherNamed3
 }
 from
 "
@@ -214,7 +223,7 @@ console
 .
 log
 (
-anAliased
+anotherNamed
 )
 ;
 console
@@ -257,7 +266,7 @@ console
 .
 log
 (
-anAliased2
+anotherNamed2
 (
 )
 )
@@ -306,7 +315,7 @@ console
 log
 (
 new
-anAliased3
+anotherNamed3
 (
 )
 )
