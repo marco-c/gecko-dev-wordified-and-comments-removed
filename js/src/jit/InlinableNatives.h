@@ -121,12 +121,12 @@ IntlGuardToNumberFormat
 \
 _
 (
-IntlIsPluralRules
+IntlIsRelativeTimeFormat
 )
 \
 _
 (
-IntlIsRelativeTimeFormat
+IntlGuardToPluralRules
 )
 \
 \
