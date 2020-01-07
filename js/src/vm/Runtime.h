@@ -1926,10 +1926,10 @@ activeThreadHasScriptDataAccess
 ;
 #
 endif
-js
+mozilla
 :
 :
-UnprotectedData
+Atomic
 <
 size_t
 >
