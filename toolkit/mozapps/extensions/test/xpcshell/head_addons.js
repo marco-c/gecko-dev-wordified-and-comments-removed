@@ -638,6 +638,11 @@ test_bug455906
 .
 js
 "
+"
+test_update
+.
+js
+"
 ]
 )
 ;
