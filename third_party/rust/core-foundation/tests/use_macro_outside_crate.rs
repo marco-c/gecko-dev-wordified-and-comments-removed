@@ -6,10 +6,6 @@ extern
 crate
 core_foundation
 ;
-extern
-crate
-libc
-;
 use
 core_foundation
 :
@@ -23,7 +19,13 @@ TCFType
 }
 ;
 use
-libc
+std
+:
+:
+os
+:
+:
+raw
 :
 :
 c_void

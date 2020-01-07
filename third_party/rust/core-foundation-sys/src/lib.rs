@@ -33,10 +33,6 @@ linkage
 )
 )
 ]
-extern
-crate
-libc
-;
 pub
 mod
 array

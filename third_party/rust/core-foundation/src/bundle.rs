@@ -21,7 +21,10 @@ use
 base
 :
 :
+{
+CFType
 TCFType
+}
 ;
 use
 url
@@ -34,6 +37,12 @@ dictionary
 :
 :
 CFDictionary
+;
+use
+string
+:
+:
+CFString
 ;
 declare_TCFType
 !
@@ -150,6 +159,10 @@ self
 -
 >
 CFDictionary
+<
+CFString
+CFType
+>
 {
 unsafe
 {
