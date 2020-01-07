@@ -132,11 +132,13 @@ WrAnimationProperty
 aAnimation
 =
 nullptr
+const
 float
 *
 aOpacityPtr
 =
 nullptr
+const
 gfx
 :
 :
@@ -145,6 +147,7 @@ Matrix4x4
 aTransformPtr
 =
 nullptr
+const
 gfx
 :
 :
