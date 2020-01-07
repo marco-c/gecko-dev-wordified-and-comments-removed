@@ -35355,6 +35355,12 @@ mParentAGR
 if
 (
 mSubDocFrame
+&
+&
+mSubDocFrame
+!
+=
+mFrame
 )
 {
 mSubDocFrame
