@@ -1543,10 +1543,6 @@ FCDATA_IS_SVG_TEXT
 0x80000
 #
 define
-FCDATA_IS_CONTENTS
-0x100000
-#
-define
 FCDATA_ALLOW_GRID_FLEX_COLUMNSET
 0x200000
 #
@@ -1731,6 +1727,11 @@ FrameConstructionDataByTag
 aDataPtr
 uint32_t
 aDataLength
+bool
+*
+aTagFound
+=
+nullptr
 )
 ;
 class

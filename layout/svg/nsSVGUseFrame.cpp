@@ -657,8 +657,7 @@ ContentInfo
 aElements
 )
 {
-SVGUseElement
-*
+auto
 use
 =
 static_cast
