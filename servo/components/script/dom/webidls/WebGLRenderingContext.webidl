@@ -3425,8 +3425,6 @@ getError
 (
 )
 ;
-/
-/
 any
 getFramebufferAttachmentParameter
 (
@@ -3434,8 +3432,6 @@ GLenum
 target
 GLenum
 attachment
-/
-/
 GLenum
 pname
 )
