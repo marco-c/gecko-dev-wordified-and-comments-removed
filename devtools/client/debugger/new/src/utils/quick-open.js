@@ -881,6 +881,14 @@ tabs
 return
 sources
 .
+valueSeq
+(
+)
+.
+toArray
+(
+)
+.
 filter
 (
 source

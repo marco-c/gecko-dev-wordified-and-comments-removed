@@ -917,6 +917,10 @@ this
 getBreakpointText
 (
 )
+|
+|
+"
+"
 ;
 const
 editor

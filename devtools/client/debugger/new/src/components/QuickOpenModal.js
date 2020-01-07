@@ -2794,10 +2794,6 @@ getRelativeSources
 (
 state
 )
-.
-toArray
-(
-)
 (
 0
 _selectors
