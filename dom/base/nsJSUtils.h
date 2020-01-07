@@ -126,16 +126,6 @@ nullptr
 )
 ;
 static
-nsIScriptGlobalObject
-*
-GetStaticScriptGlobal
-(
-JSObject
-*
-aObj
-)
-;
-static
 uint64_t
 GetCurrentlyRunningCodeInnerWindowID
 (
