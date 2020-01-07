@@ -1,7 +1,9 @@
 FROM
 ubuntu
 :
-latest
+16
+.
+04
 MAINTAINER
 Tim
 Taubert
