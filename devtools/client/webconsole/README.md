@@ -1146,7 +1146,7 @@ WebConsole
 panel
 .
 *
-webconsole
+index
 .
 html
 panel
@@ -1204,7 +1204,7 @@ entry
 point
 equivalent
 to
-webconsole
+index
 .
 html
 .

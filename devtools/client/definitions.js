@@ -893,7 +893,7 @@ content
 /
 inspector
 /
-inspector
+index
 .
 xhtml
 "
@@ -1133,7 +1133,7 @@ content
 /
 webconsole
 /
-webconsole
+index
 .
 html
 "
@@ -1180,7 +1180,7 @@ content
 /
 webconsole
 /
-webconsole
+index
 .
 html
 "
@@ -1434,7 +1434,7 @@ content
 /
 debugger
 /
-debugger
+index
 .
 xul
 "
@@ -1643,7 +1643,7 @@ content
 /
 debugger
 /
-debugger
+index
 .
 xul
 "
@@ -1764,7 +1764,7 @@ content
 /
 styleeditor
 /
-styleeditor
+index
 .
 xul
 "
@@ -2058,7 +2058,7 @@ content
 /
 canvasdebugger
 /
-canvasdebugger
+index
 .
 xul
 "
@@ -2290,7 +2290,7 @@ performance
 -
 new
 /
-perf
+index
 .
 xhtml
 "
@@ -2353,7 +2353,7 @@ content
 /
 performance
 /
-performance
+index
 .
 xul
 "
@@ -2478,7 +2478,7 @@ content
 /
 memory
 /
-memory
+index
 .
 xhtml
 "
@@ -2803,7 +2803,7 @@ content
 /
 storage
 /
-storage
+index
 .
 xul
 "
@@ -2980,7 +2980,7 @@ content
 /
 webaudioeditor
 /
-webaudioeditor
+index
 .
 xul
 "
@@ -3111,7 +3111,7 @@ content
 /
 scratchpad
 /
-scratchpad
+index
 .
 xul
 "
@@ -3262,7 +3262,7 @@ content
 /
 dom
 /
-dom
+index
 .
 html
 "
@@ -3455,7 +3455,7 @@ content
 /
 accessibility
 /
-accessibility
+index
 .
 html
 "

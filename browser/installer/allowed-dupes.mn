@@ -281,7 +281,7 @@ content
 /
 dom
 /
-dom
+index
 .
 html
 browser
@@ -337,7 +337,7 @@ content
 /
 inspector
 /
-inspector
+index
 .
 xhtml
 browser
@@ -407,7 +407,7 @@ client
 /
 dom
 /
-dom
+index
 .
 html
 browser
@@ -479,7 +479,7 @@ client
 /
 inspector
 /
-inspector
+index
 .
 xhtml
 browser

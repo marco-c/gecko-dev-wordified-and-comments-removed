@@ -22,7 +22,7 @@ content
 /
 scratchpad
 /
-scratchpad
+index
 .
 xul
 "
