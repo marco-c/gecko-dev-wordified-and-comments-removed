@@ -3183,7 +3183,7 @@ IsEmpty
 )
 )
 {
-Clear
+ClearAndRetainStorage
 (
 )
 ;
@@ -6652,12 +6652,12 @@ Clear
 (
 )
 {
-RemoveElementsAt
-(
-0
-Length
+ClearAndRetainStorage
 (
 )
+;
+Compact
+(
 )
 ;
 }
