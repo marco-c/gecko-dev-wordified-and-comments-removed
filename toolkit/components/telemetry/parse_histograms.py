@@ -13,6 +13,8 @@ re
 import
 sys
 import
+atexit
+import
 shared_telemetry_utils
 as
 utils
@@ -24,6 +26,14 @@ from
 collections
 import
 OrderedDict
+atexit
+.
+register
+(
+ParserError
+.
+exit_func
+)
 MAX_LABEL_LENGTH
 =
 20
@@ -517,7 +527,6 @@ except
 ValueError
 :
                 
-raise
 ParserError
 (
 '
@@ -531,6 +540,10 @@ s
 %
 whitelist_path
 )
+.
+handle_now
+(
+)
     
 except
 IOError
@@ -540,7 +553,6 @@ whitelists
 =
 None
         
-raise
 ParserError
 (
 '
@@ -555,6 +567,10 @@ s
 '
 %
 whitelist_path
+)
+.
+handle_now
+(
 )
 class
 Histogram
@@ -1496,7 +1512,6 @@ in
 bucket_fns
 :
             
-raise
 ParserError
 (
 '
@@ -1515,6 +1530,7 @@ s
 .
 '
 %
+                        
 (
 self
 .
@@ -1523,6 +1539,10 @@ self
 .
 _name
 )
+)
+.
+handle_later
+(
 )
         
 fn
@@ -1633,7 +1653,6 @@ in
 bucket_fns
 :
             
-raise
 ParserError
 (
 '
@@ -1652,6 +1671,7 @@ s
 .
 '
 %
+                        
 (
 self
 .
@@ -1660,6 +1680,10 @@ self
 .
 _name
 )
+)
+.
+handle_later
+(
 )
         
 fn
@@ -1810,7 +1834,6 @@ in
 table
 :
             
-raise
 ParserError
 (
 '
@@ -1833,6 +1856,10 @@ s
 kind
 name
 )
+)
+.
+handle_later
+(
 )
         
 allowed_keys
@@ -1930,7 +1957,6 @@ in
 name
 :
             
-raise
 ParserError
 (
 '
@@ -1952,9 +1978,14 @@ allowed
 .
 '
 %
+                        
 (
 name
 )
+)
+.
+handle_later
+(
 )
         
 if
@@ -1968,7 +1999,6 @@ LABELS_
 )
 :
             
-raise
 ParserError
 (
 '
@@ -1991,10 +2021,14 @@ LABELS_
 .
 '
 %
-                              
+                        
 (
 name
 )
+)
+.
+handle_later
+(
 )
         
 if
@@ -2043,7 +2077,6 @@ IGNORECASE
 )
 :
                 
-raise
 ParserError
 (
 '
@@ -2067,11 +2100,15 @@ s
 "
 '
 %
-                                  
+                            
 (
 name
 pattern
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -2133,7 +2170,6 @@ expiry_default
 ]
 :
             
-raise
 ParserError
 (
 '
@@ -2154,10 +2190,15 @@ value
 .
 '
 %
+                        
 (
 name
 field
 )
+)
+.
+handle_later
+(
 )
         
 if
@@ -2177,7 +2218,6 @@ expiration
 )
 :
             
-raise
 ParserError
 (
 (
@@ -2196,7 +2236,7 @@ invalid
 }
 .
 '
-                               
+                        
 '
 \
 nSee
@@ -2211,7 +2251,7 @@ in
 version
 '
 )
-                              
+                        
 .
 format
 (
@@ -2220,6 +2260,10 @@ field
 expiration
 HISTOGRAMS_DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 expiration
@@ -2290,7 +2334,6 @@ invalid
 0
 :
             
-raise
 ParserError
 (
 '
@@ -2312,7 +2355,7 @@ d
 s
 '
 %
-                              
+                        
 (
 name
 MAX_LABEL_LENGTH
@@ -2325,6 +2368,10 @@ invalid
 )
 )
 )
+.
+handle_later
+(
+)
         
 if
 len
@@ -2335,7 +2382,6 @@ labels
 MAX_LABEL_COUNT
 :
             
-raise
 ParserError
 (
 '
@@ -2353,11 +2399,15 @@ of
 d
 '
 %
-                              
+                        
 (
 name
 MAX_LABEL_COUNT
 )
+)
+.
+handle_now
+(
 )
         
 invalid
@@ -2390,7 +2440,6 @@ invalid
 0
 :
             
-raise
 ParserError
 (
 '
@@ -2412,7 +2461,7 @@ s
 s
 '
 %
-                              
+                        
 (
 name
 CPP_IDENTIFIER_PATTERN
@@ -2424,6 +2473,10 @@ join
 invalid
 )
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -2477,7 +2530,6 @@ not
 rip
 :
             
-raise
 ParserError
 (
 '
@@ -2500,13 +2552,17 @@ n
 %
 s
 '
-                              
+                        
 %
 (
 name
 field
 DOC_URL
 )
+)
+.
+handle_later
+(
 )
         
 for
@@ -2525,7 +2581,6 @@ process
 )
 :
                 
-raise
 ParserError
 (
 '
@@ -2551,13 +2606,17 @@ n
 s
 '
 %
-                                  
+                            
 (
 name
 process
 field
 DOC_URL
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -2911,7 +2970,6 @@ kind
 ]
 :
             
-raise
 ParserError
 (
 (
@@ -2932,7 +2990,7 @@ s
 \
 n
 '
-                               
+                         
 '
 New
 "
@@ -2948,7 +3006,7 @@ Desktop
 you
 should
 '
-                               
+                         
 '
 use
 scalars
@@ -2957,14 +3015,14 @@ instead
 \
 n
 '
-                               
+                         
 '
 %
 s
 \
 n
 '
-                               
+                         
 '
 Are
 you
@@ -2977,7 +3035,7 @@ on
 Android
 ?
 '
-                               
+                         
 '
 Add
 "
@@ -2994,7 +3052,7 @@ definition
 .
 '
 )
-                              
+                        
 %
 (
 hist_kind
@@ -3002,6 +3060,10 @@ name
 hist_kind
 SCALARS_DOC_URL
 )
+)
+.
+handle_now
+(
 )
     
 def
@@ -3062,7 +3124,6 @@ field
 ]
 :
                 
-raise
 ParserError
 (
 '
@@ -3083,10 +3144,15 @@ field
 .
 '
 %
+                            
 (
 name
 field
 )
+)
+.
+handle_later
+(
 )
             
 if
@@ -3134,7 +3200,6 @@ json
 .
 '
                 
-raise
 ParserError
 (
 msg
@@ -3143,6 +3208,10 @@ msg
 name
 field
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -3456,7 +3525,6 @@ key_type
 )
 :
                 
-raise
 ParserError
 (
 '
@@ -3482,7 +3550,7 @@ be
 }
 .
 '
-                                  
+                            
 .
 format
 (
@@ -3493,6 +3561,10 @@ nice_type_name
 key_type
 )
 )
+)
+.
+handle_later
+(
 )
         
 for
@@ -3534,7 +3606,6 @@ key
 )
 :
                 
-raise
 ParserError
 (
 '
@@ -3559,7 +3630,7 @@ be
 of
 type
 '
-                                  
+                            
 '
 {
 2
@@ -3576,6 +3647,10 @@ nice_type_name
 key_type
 )
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -3614,7 +3689,6 @@ in
 allowed_keys
 :
                 
-raise
 ParserError
 (
 '
@@ -3635,10 +3709,15 @@ s
 .
 '
 %
+                            
 (
 key
 name
 )
+)
+.
+handle_later
+(
 )
     
 def
@@ -3705,7 +3784,6 @@ n_buckets
 ]
 :
                 
-raise
 ParserError
 (
                     
@@ -3800,6 +3878,10 @@ self
 .
 _name
                     
+)
+.
+handle_later
+(
 )
     
 staticmethod
@@ -4040,7 +4122,6 @@ in
 types
 :
             
-raise
 ParserError
 (
 '
@@ -4059,6 +4140,7 @@ s
 .
 '
 %
+                        
 (
 self
 .
@@ -4067,6 +4149,10 @@ self
 .
 _name
 )
+)
+.
+handle_later
+(
 )
         
 self
@@ -4146,7 +4232,6 @@ in
 datasets
 :
             
-raise
 ParserError
 (
 '
@@ -4155,7 +4240,7 @@ value
 for
 releaseChannelCollection
 '
-                              
+                        
 '
 policy
 for
@@ -4170,6 +4255,10 @@ s
 self
 .
 _name
+)
+.
+handle_later
+(
 )
         
 self
@@ -4217,7 +4306,6 @@ in
 d
 :
             
-raise
 ParserError
 (
 "
@@ -4233,6 +4321,10 @@ s
 "
 %
 key
+)
+.
+handle_later
+(
 )
         
 d
@@ -4298,7 +4390,6 @@ ValueError
 e
 :
             
-raise
 ParserError
 (
 "
@@ -4319,6 +4410,10 @@ e
 .
 message
 )
+)
+.
+handle_now
+(
 )
     
 return
@@ -4634,7 +4729,6 @@ OrderedDict
 )
 :
             
-raise
 ParserError
 (
 "
@@ -4647,6 +4741,10 @@ an
 OrderedDict
 .
 "
+)
+.
+handle_now
+(
 )
         
 for
@@ -4668,7 +4766,6 @@ in
 all_histograms
 :
                 
-raise
 ParserError
 (
 '
@@ -4683,6 +4780,10 @@ s
 '
 %
 name
+)
+.
+handle_later
+(
 )
             
 all_histograms
@@ -4764,7 +4865,6 @@ use_counter_indices
 )
 :
             
-raise
 ParserError
 (
 "
@@ -4780,6 +4880,11 @@ contiguous
 block
 .
 "
+                        
+)
+.
+handle_later
+(
 )
     
 if
@@ -4858,7 +4963,6 @@ n
 s
 '
             
-raise
 ParserError
 (
 msg
@@ -4875,6 +4979,10 @@ orphaned
 )
 )
 )
+)
+.
+handle_later
+(
 )
     
 for
