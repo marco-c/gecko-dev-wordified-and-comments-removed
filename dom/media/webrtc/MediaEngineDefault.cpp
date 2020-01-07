@@ -2193,10 +2193,6 @@ mFreq
 )
 ;
 }
-mLastNotify
-=
-0
-;
 MutexAutoLock
 lock
 (
