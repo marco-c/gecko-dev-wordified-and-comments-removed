@@ -2741,7 +2741,6 @@ rv
 =
 AllocateFrame
 (
-0
 OutputSize
 (
 )

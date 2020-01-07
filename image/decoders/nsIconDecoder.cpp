@@ -294,7 +294,6 @@ SurfacePipeFactory
 CreateSurfacePipe
 (
 this
-0
 Size
 (
 )
@@ -308,6 +307,9 @@ SurfaceFormat
 :
 :
 B8G8R8A8
+Nothing
+(
+)
 SurfacePipeFlags
 (
 )
