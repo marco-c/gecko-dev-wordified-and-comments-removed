@@ -1488,7 +1488,7 @@ aPopups
 ;
 already_AddRefed
 <
-nsIDOMNode
+nsINode
 >
 GetLastTriggerPopupNode
 (
@@ -1507,7 +1507,7 @@ false
 }
 already_AddRefed
 <
-nsIDOMNode
+nsINode
 >
 GetLastTriggerTooltipNode
 (
@@ -1844,7 +1844,7 @@ protected
 :
 already_AddRefed
 <
-nsIDOMNode
+nsINode
 >
 GetLastTriggerNode
 (

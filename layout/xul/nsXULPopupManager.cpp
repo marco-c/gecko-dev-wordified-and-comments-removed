@@ -7850,7 +7850,7 @@ GetParent
 }
 already_AddRefed
 <
-nsIDOMNode
+nsINode
 >
 nsXULPopupManager
 :
@@ -7874,7 +7874,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 node
 ;
@@ -7911,8 +7911,6 @@ tooltip
 {
 node
 =
-do_QueryInterface
-(
 nsMenuPopupFrame
 :
 :
@@ -7922,7 +7920,6 @@ GetPopupFrameForContent
 (
 mOpeningPopup
 false
-)
 )
 )
 ;
@@ -7976,8 +7973,6 @@ aDocument
 {
 node
 =
-do_QueryInterface
-(
 nsMenuPopupFrame
 :
 :
@@ -7988,7 +7983,6 @@ item
 >
 Frame
 (
-)
 )
 )
 ;
