@@ -388,6 +388,11 @@ NSSErrorsService
 h
 '
 '
+RootCertificateTelemetryUtils
+.
+h
+'
+'
 ScopedNSSTypes
 .
 h
