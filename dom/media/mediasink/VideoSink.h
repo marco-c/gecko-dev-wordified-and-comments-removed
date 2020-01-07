@@ -328,6 +328,11 @@ DisconnectListener
 )
 ;
 void
+EnsureHighResTimersOnOnlyIfPlaying
+(
+)
+;
+void
 RenderVideoFrames
 (
 int32_t
@@ -470,6 +475,14 @@ const
 uint32_t
 mMinVideoQueueSize
 ;
+#
+ifdef
+XP_WIN
+bool
+mHiResTimersRequested
+;
+#
+endif
 }
 ;
 }
