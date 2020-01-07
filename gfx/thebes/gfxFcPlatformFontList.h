@@ -1162,6 +1162,10 @@ aLanguage
 nsACString
 &
 aLangStr
+bool
+aForFontEnumerationThread
+=
+false
 )
 ;
 static
@@ -1304,6 +1308,8 @@ aLangGroup
 nsACString
 &
 aLang
+bool
+aForFontEnumerationThread
 )
 ;
 #
