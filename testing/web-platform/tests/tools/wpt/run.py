@@ -1582,15 +1582,6 @@ is
 None
 :
             
-print
-(
-"
-Downloading
-gecko
-prefs
-"
-)
-            
 prefs_root
 =
 self
@@ -1599,6 +1590,12 @@ browser
 .
 install_prefs
 (
+kwargs
+[
+"
+binary
+"
+]
 self
 .
 venv
