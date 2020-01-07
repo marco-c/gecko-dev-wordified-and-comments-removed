@@ -1333,7 +1333,7 @@ aGlobal
 )
 ;
 }
-mAutoNullableCompartment
+mAutoNullableRealm
 .
 emplace
 (

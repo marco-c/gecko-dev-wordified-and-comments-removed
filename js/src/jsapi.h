@@ -4720,7 +4720,7 @@ class
 MOZ_RAII
 JS_PUBLIC_API
 (
-JSAutoNullableCompartment
+JSAutoNullableRealm
 )
 {
 JSContext
@@ -4734,7 +4734,7 @@ oldCompartment_
 public
 :
 explicit
-JSAutoNullableCompartment
+JSAutoNullableRealm
 (
 JSContext
 *
@@ -4746,7 +4746,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
-JSAutoNullableCompartment
+JSAutoNullableRealm
 (
 )
 ;

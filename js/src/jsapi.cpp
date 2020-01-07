@@ -3408,10 +3408,10 @@ oldCompartment_
 )
 ;
 }
-JSAutoNullableCompartment
+JSAutoNullableRealm
 :
 :
-JSAutoNullableCompartment
+JSAutoNullableRealm
 (
 JSContext
 *
@@ -3463,11 +3463,11 @@ enterNullCompartment
 )
 ;
 }
-JSAutoNullableCompartment
+JSAutoNullableRealm
 :
 :
 ~
-JSAutoNullableCompartment
+JSAutoNullableRealm
 (
 )
 {

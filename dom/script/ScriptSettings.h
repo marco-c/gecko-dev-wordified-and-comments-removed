@@ -526,9 +526,9 @@ mozilla
 :
 Maybe
 <
-JSAutoNullableCompartment
+JSAutoNullableRealm
 >
-mAutoNullableCompartment
+mAutoNullableRealm
 ;
 JSContext
 *
