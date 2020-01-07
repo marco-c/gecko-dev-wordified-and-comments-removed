@@ -220,13 +220,6 @@ id
 "
 textbox
 "
-extends
-=
-"
-xul
-:
-box
-"
 >
 <
 resources
