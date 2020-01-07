@@ -363,7 +363,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoEditable
 5
@@ -398,7 +398,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoEditable
 5
