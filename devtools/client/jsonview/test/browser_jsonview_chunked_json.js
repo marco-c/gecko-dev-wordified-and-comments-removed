@@ -213,6 +213,9 @@ await
 write
 (
 "
+[
+3
+]
 ]
 "
 )
@@ -286,14 +289,14 @@ treeTable
 treeRow
 "
 )
-2
+4
 "
 There
 is
 a
 tree
 with
-2
+4
 rows
 .
 "

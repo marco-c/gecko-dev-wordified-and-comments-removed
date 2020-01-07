@@ -361,7 +361,7 @@ expandedNodes
 :
 this
 .
-props
+state
 .
 expandedNodes
 actions
