@@ -539,7 +539,7 @@ nsContentUtils
 SetNodeTextContent
 (
 this
-mDefaultValue
+aDefaultValue
 true
 )
 ;
