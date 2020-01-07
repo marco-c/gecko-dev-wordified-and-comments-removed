@@ -189,7 +189,7 @@ defineLazyGetter
 (
 this
 "
-formAutofillStorage
+profileStorage
 "
 (
 )
@@ -198,7 +198,7 @@ formAutofillStorage
 {
 let
 {
-formAutofillStorage
+profileStorage
 }
 =
 ChromeUtils
@@ -226,11 +226,11 @@ debug
 (
 "
 Loading
-formAutofillStorage
+profileStorage
 "
 )
 ;
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -253,7 +253,7 @@ _updateSavedFieldNames
 )
 ;
 return
-formAutofillStorage
+profileStorage
 ;
 }
 )
@@ -835,7 +835,7 @@ InitStorage
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -880,7 +880,7 @@ guid
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -899,7 +899,7 @@ else
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -951,7 +951,7 @@ return
 }
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -984,7 +984,7 @@ guid
 >
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -1016,7 +1016,7 @@ guid
 >
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -1175,7 +1175,7 @@ _uninit
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 _saveImmediately
 (
@@ -1340,7 +1340,7 @@ collection
 =
 this
 .
-formAutofillStorage
+profileStorage
 [
 collectionName
 ]
@@ -1706,7 +1706,7 @@ c
 {
 this
 .
-formAutofillStorage
+profileStorage
 [
 c
 ]
@@ -1774,7 +1774,7 @@ fieldName
 ;
 this
 .
-formAutofillStorage
+profileStorage
 .
 INTERNAL_FIELDS
 .
@@ -1853,7 +1853,7 @@ originalAddress
 =
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -1911,7 +1911,7 @@ if
 !
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -1982,7 +1982,7 @@ changedGUIDs
 =
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2018,7 +2018,7 @@ push
 (
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2048,7 +2048,7 @@ length
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2077,7 +2077,7 @@ else
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2101,7 +2101,7 @@ guid
 >
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2147,7 +2147,7 @@ timeStartedFillingMS
 ;
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2183,7 +2183,7 @@ changedGUIDs
 =
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2208,7 +2208,7 @@ push
 (
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2230,7 +2230,7 @@ guid
 >
 this
 .
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -2427,7 +2427,7 @@ originalCCData
 =
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2532,7 +2532,7 @@ recordUnchanged
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2650,7 +2650,7 @@ dupGuid
 =
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2668,7 +2668,7 @@ dupGuid
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2836,7 +2836,7 @@ update
 {
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2875,7 +2875,7 @@ push
 (
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2900,7 +2900,7 @@ push
 .
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2926,7 +2926,7 @@ push
 (
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -2949,7 +2949,7 @@ guid
 >
 this
 .
-formAutofillStorage
+profileStorage
 .
 creditCards
 .

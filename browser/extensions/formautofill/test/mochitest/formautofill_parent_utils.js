@@ -41,7 +41,7 @@ jsm
 ;
 let
 {
-formAutofillStorage
+profileStorage
 }
 =
 ChromeUtils
@@ -670,7 +670,7 @@ for
 let
 field
 of
-formAutofillStorage
+profileStorage
 [
 collectionName
 ]
@@ -703,7 +703,7 @@ for
 let
 field
 of
-formAutofillStorage
+profileStorage
 .
 INTERNAL_FIELDS
 )

@@ -316,7 +316,7 @@ init
 await
 formAutofillParent
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -437,9 +437,7 @@ nonExisting
 let
 collection
 =
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 [
 collectionName
 ]
@@ -587,7 +585,7 @@ init
 await
 formAutofillParent
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -604,9 +602,7 @@ TEST_ADDRESS_2
 let
 collection
 =
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 addresses
 ;
@@ -1001,7 +997,7 @@ init
 await
 formAutofillParent
 .
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -1010,9 +1006,7 @@ initialize
 let
 collection
 =
-formAutofillParent
-.
-formAutofillStorage
+profileStorage
 .
 creditCards
 ;

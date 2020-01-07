@@ -3,13 +3,12 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
 "
-formAutofillStorage
+profileStorage
 "
 ]
 ;
@@ -7716,9 +7715,8 @@ _save
 }
 }
 ;
-this
-.
-formAutofillStorage
+var
+profileStorage
 =
 new
 FormAutofillStorage

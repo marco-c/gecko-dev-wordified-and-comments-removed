@@ -175,7 +175,7 @@ defineModuleGetter
 (
 this
 "
-formAutofillStorage
+profileStorage
 "
 "
 resource
@@ -485,7 +485,7 @@ this
 .
 _storage
 =
-formAutofillStorage
+profileStorage
 [
 this
 .
@@ -1376,7 +1376,7 @@ _syncStartup
 )
 {
 await
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -1510,7 +1510,7 @@ _resetClient
 )
 {
 await
-formAutofillStorage
+profileStorage
 .
 initialize
 (

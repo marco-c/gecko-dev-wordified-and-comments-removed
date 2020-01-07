@@ -99,7 +99,7 @@ defineLazyGetter
 (
 this
 "
-formAutofillStorage
+profileStorage
 "
 (
 )
@@ -107,11 +107,11 @@ formAutofillStorage
 >
 {
 let
-formAutofillStorage
+profileStorage
 ;
 try
 {
-formAutofillStorage
+profileStorage
 =
 ChromeUtils
 .
@@ -132,9 +132,9 @@ jsm
 }
 )
 .
-formAutofillStorage
+profileStorage
 ;
-formAutofillStorage
+profileStorage
 .
 initialize
 (
@@ -146,7 +146,7 @@ catch
 ex
 )
 {
-formAutofillStorage
+profileStorage
 =
 null
 ;
@@ -159,7 +159,7 @@ ex
 ;
 }
 return
-formAutofillStorage
+profileStorage
 ;
 }
 )
@@ -207,7 +207,7 @@ guid
 let
 addressData
 =
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -330,7 +330,7 @@ cardSecurityCode
 let
 cardData
 =
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
@@ -1053,7 +1053,7 @@ for
 let
 address
 of
-formAutofillStorage
+profileStorage
 .
 addresses
 .
@@ -1091,7 +1091,7 @@ for
 let
 card
 of
-formAutofillStorage
+profileStorage
 .
 creditCards
 .
