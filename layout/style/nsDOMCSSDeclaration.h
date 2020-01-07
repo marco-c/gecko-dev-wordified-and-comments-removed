@@ -241,7 +241,7 @@ _retval
 )
 override
 ;
-NS_IMETHOD
+void
 GetPropertyPriority
 (
 const
@@ -250,7 +250,7 @@ nsAString
 propertyName
 nsAString
 &
-_retval
+aPriority
 )
 override
 ;

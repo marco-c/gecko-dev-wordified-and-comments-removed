@@ -797,7 +797,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsDOMCSSDeclaration
 :
 :
@@ -809,7 +809,7 @@ nsAString
 aPropertyName
 nsAString
 &
-aReturn
+aPriority
 )
 {
 DeclarationBlock
@@ -821,7 +821,7 @@ GetCSSDeclaration
 eOperation_Read
 )
 ;
-aReturn
+aPriority
 .
 Truncate
 (
@@ -841,7 +841,7 @@ aPropertyName
 )
 )
 {
-aReturn
+aPriority
 .
 AssignLiteral
 (
@@ -851,9 +851,6 @@ important
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsDOMCSSDeclaration
