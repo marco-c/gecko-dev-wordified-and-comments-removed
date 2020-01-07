@@ -3459,7 +3459,7 @@ symbol
 Bd
 tier
 :
-2
+1
 worker
 -
 type
@@ -3645,7 +3645,7 @@ symbol
 Bo
 tier
 :
-2
+1
 worker
 -
 type
