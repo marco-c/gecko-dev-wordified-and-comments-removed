@@ -452,6 +452,13 @@ profile
 preference_file_names
 )
     
+if
+cls
+=
+=
+Profile
+:
+        
 assert
 len
 (
@@ -462,7 +469,7 @@ _addons
 =
 =
 1
-    
+        
 assert
 profile
 .
@@ -479,7 +486,7 @@ empty
 xpi
 '
 )
-    
+        
 assert
 os
 .
@@ -494,6 +501,20 @@ _addons
 0
 ]
 )
+    
+else
+:
+        
+assert
+len
+(
+profile
+.
+_addons
+)
+=
+=
+0
 if
 __name__
 =

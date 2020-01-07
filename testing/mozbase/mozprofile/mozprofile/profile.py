@@ -3213,14 +3213,7 @@ addon
 :
             
 return
-os
-.
-path
-.
-exists
-(
-addon
-)
+False
     
 def
 __init__
