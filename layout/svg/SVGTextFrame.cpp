@@ -4124,7 +4124,7 @@ if
 correspondence
 )
 {
-NS_NOTREACHED
+NS_ERROR
 (
 "
 expected
