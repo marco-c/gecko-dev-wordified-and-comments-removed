@@ -1012,7 +1012,6 @@ return_type
 .
 .
 )
-\
 return_type
 name
 (
