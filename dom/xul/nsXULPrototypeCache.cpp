@@ -2288,7 +2288,7 @@ rv
 chromeDir
 -
 >
-GetNativePath
+GetPersistentDescriptor
 (
 chromePath
 )
