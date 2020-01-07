@@ -20541,14 +20541,6 @@ MOZ_ASSERT
 (
 aLoadInfo
 .
-mPrincipal
-=
-=
-aPrincipal
-|
-|
-aLoadInfo
-.
 mLoadingPrincipal
 =
 =
