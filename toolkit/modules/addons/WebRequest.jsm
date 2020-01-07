@@ -4242,6 +4242,8 @@ opts
 responseHeaders
 )
 {
+try
+{
 responseHeaders
 =
 responseHeaders
@@ -4263,6 +4265,13 @@ toArray
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 if
 (
