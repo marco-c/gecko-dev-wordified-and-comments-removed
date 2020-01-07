@@ -68,10 +68,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 const
 {
 GlobalManager
@@ -105,6 +101,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 equal
 (
 GlobalManager

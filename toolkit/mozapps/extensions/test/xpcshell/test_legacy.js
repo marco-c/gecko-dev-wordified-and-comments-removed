@@ -30,10 +30,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 add_task
 (
 async
@@ -42,6 +38,11 @@ test_disable
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 let
 legacy
 =

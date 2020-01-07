@@ -122,10 +122,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 function
 promiseLangpackStartup
 (
@@ -190,6 +186,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 equal
 (
 L10nRegistry

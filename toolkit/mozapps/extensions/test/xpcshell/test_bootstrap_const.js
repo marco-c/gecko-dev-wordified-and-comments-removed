@@ -19,10 +19,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 add_task
 (
 async
@@ -30,6 +26,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 let
 sawInstall
 =

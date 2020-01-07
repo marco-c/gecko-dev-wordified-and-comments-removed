@@ -52,10 +52,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 add_task
 (
 async
@@ -64,6 +60,11 @@ schema_change
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 const
 ID
 =

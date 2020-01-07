@@ -63,10 +63,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 async
 function
 testSimpleIconsetParsing
@@ -610,6 +606,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 await
 testSimpleIconsetParsing
 (

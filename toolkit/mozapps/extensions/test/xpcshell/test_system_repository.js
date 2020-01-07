@@ -283,8 +283,7 @@ server
 }
 )
 ;
-awaitPromise
-(
+await
 overrideBuiltIns
 (
 {
@@ -319,7 +318,6 @@ org
 "
 ]
 }
-)
 )
 ;
 await

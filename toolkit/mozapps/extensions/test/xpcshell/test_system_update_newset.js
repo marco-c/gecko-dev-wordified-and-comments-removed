@@ -756,8 +756,7 @@ setup
 (
 )
 {
-awaitPromise
-(
+await
 overrideBuiltIns
 (
 {
@@ -768,7 +767,6 @@ system
 [
 ]
 }
-)
 )
 ;
 await

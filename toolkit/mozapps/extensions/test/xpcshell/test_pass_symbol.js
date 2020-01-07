@@ -64,10 +64,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 BootstrapMonitor
 .
 init
@@ -81,6 +77,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 PromiseTestUtils
 .
 expectUncaughtRejection

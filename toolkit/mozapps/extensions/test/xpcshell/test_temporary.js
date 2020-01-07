@@ -105,10 +105,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 BootstrapMonitor
 .
 init
@@ -270,6 +266,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 let
 extInstallCalled
 =
