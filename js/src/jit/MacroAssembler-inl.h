@@ -2113,7 +2113,7 @@ Label
 label
 )
 {
-loadObjClass
+loadObjClassUnsafe
 (
 objReg
 scratch
@@ -2610,7 +2610,7 @@ Label
 label
 )
 {
-loadObjClass
+loadObjClassUnsafe
 (
 object
 scratch
