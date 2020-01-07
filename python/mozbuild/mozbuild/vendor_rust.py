@@ -1188,6 +1188,14 @@ MIT
 '
             
 '
+BSD
+-
+2
+-
+Clause
+'
+            
+'
 CC0
 -
 1
@@ -1262,22 +1270,6 @@ MIT
 BUILDTIME_LICENSE_WHITELIST
 =
 {
-            
-'
-BSD
--
-2
--
-Clause
-'
-:
-[
-                
-'
-Inflector
-'
-            
-]
             
 '
 BSD
