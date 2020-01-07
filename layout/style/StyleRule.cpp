@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsCSSRuleProcessor
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -170,6 +177,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 #
 define

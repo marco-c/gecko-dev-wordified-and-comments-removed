@@ -70,6 +70,12 @@ nsIDocument
 struct
 nsCSSRect
 ;
+struct
+nsTimingFunction
+;
+struct
+RawServoDeclarationBlock
+;
 using
 RawGeckoGfxMatrix4x4
 =

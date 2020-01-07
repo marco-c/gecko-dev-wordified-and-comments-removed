@@ -24,6 +24,9 @@ ServoBindingTypes
 .
 h
 "
+class
+nsICSSDeclaration
+;
 namespace
 mozilla
 {

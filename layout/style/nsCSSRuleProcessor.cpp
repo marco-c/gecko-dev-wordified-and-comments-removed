@@ -52,6 +52,15 @@ include
 "
 mozilla
 /
+StylePrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 ImportRule

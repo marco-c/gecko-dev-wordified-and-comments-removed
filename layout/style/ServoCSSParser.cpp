@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoStyleSet
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
