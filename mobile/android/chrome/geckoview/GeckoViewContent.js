@@ -1111,6 +1111,13 @@ this
 .
 _savedState
 )
+id
+:
+aMsg
+.
+data
+.
+id
 }
 )
 ;
@@ -1142,6 +1149,13 @@ stringify
 (
 state
 )
+id
+:
+aMsg
+.
+data
+.
+id
 }
 )
 ;
