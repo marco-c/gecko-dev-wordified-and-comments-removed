@@ -906,7 +906,7 @@ htmlElement
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mInlineEditedCell
 )

@@ -1067,7 +1067,7 @@ inputElt
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -1284,7 +1284,7 @@ inputElt
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 content
 )

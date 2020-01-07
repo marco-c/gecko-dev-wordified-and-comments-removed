@@ -3767,7 +3767,7 @@ area
 HTMLAreaElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -4586,7 +4586,7 @@ areaElement
 HTMLAreaElement
 :
 :
-FromContent
+FromNode
 (
 aChild
 )

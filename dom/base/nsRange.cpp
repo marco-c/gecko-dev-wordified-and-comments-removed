@@ -10074,7 +10074,7 @@ charData
 CharacterData
 :
 :
-FromContent
+FromNode
 (
 node
 )
@@ -12221,7 +12221,7 @@ charData
 CharacterData
 :
 :
-FromContent
+FromNode
 (
 clone
 )

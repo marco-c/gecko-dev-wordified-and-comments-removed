@@ -879,7 +879,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

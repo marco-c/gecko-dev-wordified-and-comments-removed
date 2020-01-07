@@ -328,7 +328,7 @@ elm
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 aElement
 )
@@ -724,7 +724,7 @@ el
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 content
 )

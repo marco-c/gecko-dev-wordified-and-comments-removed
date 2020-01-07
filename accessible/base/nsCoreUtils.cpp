@@ -273,7 +273,7 @@ dom
 HTMLLabelElement
 :
 :
-FromContent
+FromNode
 (
 aContent
 )
@@ -534,7 +534,7 @@ tcBoxObj
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 tcXULElm
 )
@@ -2559,7 +2559,7 @@ tcXULElm
 nsXULElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 tcContent
 )
@@ -2638,7 +2638,7 @@ xulElement
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 currentContent
 )

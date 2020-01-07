@@ -661,7 +661,7 @@ FlattenAssignedNodes
 HTMLSlotElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -731,7 +731,7 @@ FlattenAssignedNodes
 HTMLSlotElement
 :
 :
-FromContent
+FromNode
 (
 assignedNode
 -

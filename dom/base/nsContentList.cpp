@@ -2244,7 +2244,7 @@ el
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 content
 )

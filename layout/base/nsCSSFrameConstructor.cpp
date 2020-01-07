@@ -12668,7 +12668,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -24353,7 +24353,7 @@ details
 HTMLDetailsElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 parent
 )
@@ -24406,7 +24406,7 @@ summary
 HTMLSummaryElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aContent
 )
@@ -25130,7 +25130,7 @@ summary
 HTMLSummaryElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aContent
 )
@@ -28806,7 +28806,7 @@ xulElement
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 aContainer
 )
@@ -38375,7 +38375,7 @@ summary
 HTMLSummaryElement
 :
 :
-FromContent
+FromNode
 (
 aFrame
 -

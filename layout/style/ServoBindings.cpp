@@ -1968,7 +1968,7 @@ svg
 nsSVGElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aElement
 )

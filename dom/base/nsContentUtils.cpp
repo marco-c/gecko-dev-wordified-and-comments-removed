@@ -17563,7 +17563,7 @@ htmlElement
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 aContent
 )

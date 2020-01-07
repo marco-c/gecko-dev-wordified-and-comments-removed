@@ -764,7 +764,7 @@ nsGenericHTMLElement
 *
 element
 =
-FromContent
+FromNode
 (
 node
 )

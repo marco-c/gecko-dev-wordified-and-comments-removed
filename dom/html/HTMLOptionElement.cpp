@@ -325,7 +325,7 @@ optGroupElement
 HTMLOptGroupElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 parent
 )
@@ -1200,7 +1200,7 @@ select
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 parent
 )
@@ -1237,7 +1237,7 @@ return
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 parent
 -

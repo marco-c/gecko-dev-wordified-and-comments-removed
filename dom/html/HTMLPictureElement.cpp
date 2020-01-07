@@ -163,7 +163,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -244,7 +244,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 nextSibling
 )
@@ -332,7 +332,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 aKid
 )
@@ -413,7 +413,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 nextSibling
 )
@@ -526,7 +526,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 aKid
 )
@@ -604,7 +604,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 nextSibling
 )
@@ -710,7 +710,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 aKid
 )
@@ -788,7 +788,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 nextSibling
 )

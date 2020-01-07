@@ -668,7 +668,7 @@ dom
 HTMLAreaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )

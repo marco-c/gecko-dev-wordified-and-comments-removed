@@ -529,7 +529,7 @@ buttonElement
 HTMLButtonElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 button
 )
@@ -616,7 +616,7 @@ fileContent
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )
@@ -738,7 +738,7 @@ value
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -1164,7 +1164,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mFrame
 -
@@ -1669,7 +1669,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mFrame
 -

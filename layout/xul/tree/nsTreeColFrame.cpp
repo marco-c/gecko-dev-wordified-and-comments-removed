@@ -743,7 +743,7 @@ treeElement
 nsXULElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 grandParent
 )

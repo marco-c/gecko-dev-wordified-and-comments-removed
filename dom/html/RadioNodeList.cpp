@@ -102,7 +102,7 @@ el
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 node
 )

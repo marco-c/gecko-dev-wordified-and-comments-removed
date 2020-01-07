@@ -907,7 +907,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 content
 )

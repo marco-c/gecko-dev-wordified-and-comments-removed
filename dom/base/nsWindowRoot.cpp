@@ -925,7 +925,7 @@ xulElement
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 focusedContent
 )
@@ -972,7 +972,7 @@ htmlTextArea
 HTMLTextAreaElement
 :
 :
-FromContent
+FromNode
 (
 focusedContent
 )
@@ -997,7 +997,7 @@ htmlInputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 focusedContent
 )

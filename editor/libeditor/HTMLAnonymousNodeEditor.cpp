@@ -1971,7 +1971,7 @@ htmlElement
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 &
 aElement

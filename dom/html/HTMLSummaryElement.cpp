@@ -531,7 +531,7 @@ return
 HTMLDetailsElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 GetParent
 (

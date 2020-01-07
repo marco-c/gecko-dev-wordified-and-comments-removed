@@ -30846,7 +30846,7 @@ element
 nsGenericHTMLElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 GetContent
 (

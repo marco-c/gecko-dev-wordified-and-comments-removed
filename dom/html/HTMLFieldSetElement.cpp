@@ -970,7 +970,7 @@ HTMLFieldSetElement
 *
 fieldSet
 =
-FromContent
+FromNode
 (
 aElement
 )
@@ -1079,7 +1079,7 @@ HTMLFieldSetElement
 *
 fieldSet
 =
-FromContent
+FromNode
 (
 mDependentElements
 [
@@ -1181,7 +1181,7 @@ HTMLFieldSetElement
 *
 fieldSet
 =
-FromContent
+FromNode
 (
 aElement
 )
@@ -1290,7 +1290,7 @@ HTMLFieldSetElement
 *
 fieldSet
 =
-FromContent
+FromNode
 (
 mDependentElements
 [

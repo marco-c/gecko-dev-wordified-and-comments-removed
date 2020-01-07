@@ -763,7 +763,7 @@ element
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -798,7 +798,7 @@ menuitem
 HTMLMenuItemElement
 :
 :
-FromContent
+FromNode
 (
 child
 )

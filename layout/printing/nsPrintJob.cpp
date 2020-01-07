@@ -12636,7 +12636,7 @@ canvas
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 canvases
 -

@@ -1472,7 +1472,7 @@ aElement
 nsGenericHTMLElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 beforeContent
 )

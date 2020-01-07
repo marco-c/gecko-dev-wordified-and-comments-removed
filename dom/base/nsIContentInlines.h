@@ -520,7 +520,7 @@ dom
 HTMLSlotElement
 :
 :
-FromContent
+FromNode
 (
 parentAsContent
 )

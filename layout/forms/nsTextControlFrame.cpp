@@ -1788,7 +1788,7 @@ htmlElement
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -5218,7 +5218,7 @@ textArea
 HTMLTextAreaElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -5263,7 +5263,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

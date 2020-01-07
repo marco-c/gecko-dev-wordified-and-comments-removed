@@ -21224,7 +21224,7 @@ mediaElem
 HTMLMediaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -21324,7 +21324,7 @@ mediaElem
 HTMLMediaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -21432,7 +21432,7 @@ mediaElem
 HTMLMediaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -35966,7 +35966,7 @@ input
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 nodes
 -
@@ -36122,7 +36122,7 @@ form
 HTMLFormElement
 :
 :
-FromContent
+FromNode
 (
 nodes
 -
@@ -44620,7 +44620,7 @@ textArea
 HTMLTextAreaElement
 :
 :
-FromContent
+FromNode
 (
 nonanon
 )

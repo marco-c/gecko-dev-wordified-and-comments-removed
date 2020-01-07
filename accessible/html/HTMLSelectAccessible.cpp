@@ -710,7 +710,7 @@ option
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -1151,7 +1151,7 @@ option
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -1962,7 +1962,7 @@ select
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

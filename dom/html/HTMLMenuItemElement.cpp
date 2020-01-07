@@ -1094,7 +1094,7 @@ selectedRadio
 HTMLMenuItemElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -1630,7 +1630,7 @@ menuitem
 HTMLMenuItemElement
 :
 :
-FromContent
+FromNode
 (
 cur
 )

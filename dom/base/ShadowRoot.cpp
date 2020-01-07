@@ -2920,7 +2920,7 @@ slot
 HTMLSlotElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aChild
 -
@@ -3086,7 +3086,7 @@ slot
 HTMLSlotElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aChild
 -

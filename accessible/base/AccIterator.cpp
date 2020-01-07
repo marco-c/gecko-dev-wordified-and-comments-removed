@@ -556,7 +556,7 @@ dom
 HTMLLabelElement
 :
 :
-FromContent
+FromNode
 (
 aLabel
 -

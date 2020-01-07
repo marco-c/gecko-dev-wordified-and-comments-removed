@@ -214,7 +214,7 @@ summary
 HTMLSummaryElement
 :
 :
-FromContent
+FromNode
 (
 child
 -
@@ -389,7 +389,7 @@ details
 HTMLDetailsElement
 :
 :
-FromContent
+FromNode
 (
 GetContent
 (

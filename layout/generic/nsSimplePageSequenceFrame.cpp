@@ -2080,7 +2080,7 @@ canvas
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 canvasFrame
 -

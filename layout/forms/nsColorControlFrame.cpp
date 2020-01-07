@@ -397,7 +397,7 @@ elt
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

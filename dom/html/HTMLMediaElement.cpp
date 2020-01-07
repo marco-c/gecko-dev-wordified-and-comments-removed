@@ -9944,7 +9944,7 @@ childSrc
 HTMLSourceElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -19173,7 +19173,7 @@ vid
 HTMLVideoElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 this
 )

@@ -2568,7 +2568,7 @@ iframe
 HTMLIFrameElement
 :
 :
-FromContent
+FromNode
 (
 mOwnerContent
 )
@@ -9731,7 +9731,7 @@ iframe
 HTMLIFrameElement
 :
 :
-FromContent
+FromNode
 (
 mOwnerContent
 )
