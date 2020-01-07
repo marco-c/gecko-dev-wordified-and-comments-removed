@@ -3827,6 +3827,21 @@ marionette_extra
 )
             
 '
+xpcshell_extra
+'
+:
+c
+.
+get
+(
+'
+xpcshell_extra
+'
+'
+'
+)
+            
+'
 test_manifest
 '
 :
@@ -4000,14 +4015,22 @@ _query_package_name
 else
 :
                 
+option
+=
+option
+%
+str_format_values
+                
+if
+option
+:
+                    
 cmd
 .
 extend
 (
 [
 option
-%
-str_format_values
 ]
 )
         

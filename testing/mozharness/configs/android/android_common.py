@@ -3040,6 +3040,14 @@ device_serial
 )
 s
 "
+                
+"
+%
+(
+xpcshell_extra
+)
+s
+"
             
 ]
         
