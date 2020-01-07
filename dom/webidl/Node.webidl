@@ -1259,7 +1259,7 @@ value
 Key
 1
 "
-attributes
+attrs
 :
 {
 accesskey
@@ -1276,7 +1276,7 @@ undefined
 value
 :
 null
-attributes
+attrs
 :
 {
 title

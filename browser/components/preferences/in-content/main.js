@@ -2837,7 +2837,7 @@ update
 -
 application
 -
-version
+info
 "
 {
 version
