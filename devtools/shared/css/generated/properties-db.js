@@ -1073,6 +1073,13 @@ inherit
 initial
 "
 "
+inner
+-
+spin
+-
+button
+"
+"
 listbox
 "
 "
@@ -14505,6 +14512,13 @@ start
 inline
 -
 table
+"
+"
+inner
+-
+spin
+-
+button
 "
 "
 inset
