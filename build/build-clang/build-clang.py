@@ -3722,6 +3722,14 @@ extra_cflags2
 -
 fPIC
 "
+                         
+'
+-
+gcc
+-
+toolchain
+'
+stage1_inst_dir
 ]
         
 extra_cxxflags2
@@ -3745,6 +3753,14 @@ libstdc
 +
 +
 "
+                           
+'
+-
+gcc
+-
+toolchain
+'
+stage1_inst_dir
 ]
         
 extra_asmflags
