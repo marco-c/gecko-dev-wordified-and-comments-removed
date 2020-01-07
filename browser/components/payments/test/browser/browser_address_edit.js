@@ -592,7 +592,6 @@ cancel
 "
 )
 ;
-await
 spawnPaymentDialogTask
 (
 frame
@@ -1149,7 +1148,6 @@ cancel
 "
 )
 ;
-await
 spawnPaymentDialogTask
 (
 frame
