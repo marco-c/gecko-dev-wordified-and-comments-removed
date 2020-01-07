@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIXULBrowserWindow
 .
 h
