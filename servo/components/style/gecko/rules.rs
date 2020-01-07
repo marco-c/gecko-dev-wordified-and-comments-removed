@@ -19,6 +19,12 @@ font_weight
 ;
 use
 counter_style
+:
+:
+{
+self
+CounterBound
+}
 ;
 use
 cssparser
@@ -2045,10 +2051,7 @@ set_bound
 (
 bound
 :
-Option
-<
-i32
->
+CounterBound
 nscssvalue
 :
 &
@@ -2058,7 +2061,10 @@ nsCSSValue
 {
 if
 let
-Some
+CounterBound
+:
+:
+Integer
 (
 finite
 )

@@ -9270,7 +9270,6 @@ Clone
 Debug
 Eq
 PartialEq
-ToCss
 )
 ]
 pub
@@ -9412,6 +9411,7 @@ Clone
 Debug
 Eq
 PartialEq
+ToCss
 )
 ]
 pub
@@ -12481,10 +12481,6 @@ Write
 self
 .
 value
-.
-borrow
-(
-)
 .
 to_css
 (
