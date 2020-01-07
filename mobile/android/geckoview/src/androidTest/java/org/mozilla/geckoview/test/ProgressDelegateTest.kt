@@ -104,6 +104,14 @@ mozilla
 .
 geckoview
 .
+GeckoResponse
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoSession
 import
 org
@@ -500,9 +508,7 @@ where
 Int
 response
 :
-GeckoSession
-.
-Response
+GeckoResponse
 <
 Boolean
 >

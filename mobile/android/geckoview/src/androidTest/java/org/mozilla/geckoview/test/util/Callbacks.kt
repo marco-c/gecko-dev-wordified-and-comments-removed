@@ -44,6 +44,14 @@ mozilla
 .
 geckoview
 .
+GeckoResponse
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoSession
 class
 Callbacks
@@ -226,9 +234,7 @@ where
 Int
 response
 :
-GeckoSession
-.
-Response
+GeckoResponse
 <
 Boolean
 >
@@ -253,9 +259,7 @@ uri
 String
 response
 :
-GeckoSession
-.
-Response
+GeckoResponse
 <
 GeckoSession
 >
@@ -792,9 +796,7 @@ String
 >
 response
 :
-GeckoSession
-.
-Response
+GeckoResponse
 <
 String
 >
