@@ -4830,6 +4830,27 @@ IDL_PARSER_CACHE_DIR
 '
                 
 '
+-
+-
+bindings
+-
+conf
+'
+'
+(
+topsrcdir
+)
+/
+dom
+/
+bindings
+/
+Bindings
+.
+conf
+'
+                
+'
 (
 DIST
 )
@@ -5095,9 +5116,9 @@ _get_backend_file
 '
 xpcom
 /
-typelib
+reflect
 /
-xpt
+xptinfo
 '
 )
         
@@ -5120,7 +5141,9 @@ display
 =
 '
 XPIDL
-linkgen
+xptcodegen
+.
+py
 %
 o
 '
@@ -5148,25 +5171,18 @@ topsrcdir
 /
 xpcom
 /
-typelib
+reflect
 /
-xpt
+xptinfo
 /
-tools
-/
-xpt
+xptcodegen
 .
 py
 '
                 
 '
-linkgen
-'
-                
-'
-XPTInfo
-.
-cpp
+%
+o
 '
                 
 '
@@ -5180,7 +5196,7 @@ outputs
 =
 [
 '
-XPTInfo
+xptdata
 .
 cpp
 '
