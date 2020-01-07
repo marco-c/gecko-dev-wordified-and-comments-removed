@@ -10528,7 +10528,7 @@ true
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 Reset
@@ -11301,7 +11301,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-nsDocument
+nsIDocument
 :
 :
 MaybeDowngradePrincipal
@@ -13313,7 +13313,7 @@ NS_OK
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SendToConsole
@@ -22994,7 +22994,7 @@ aObserver
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 MaybeEndOutermostXBLUpdate
@@ -37515,7 +37515,7 @@ forget
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 EnsureOnloadBlocker
