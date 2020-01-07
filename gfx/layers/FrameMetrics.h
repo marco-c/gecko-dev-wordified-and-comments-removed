@@ -634,8 +634,8 @@ width
 {
 scrollableRect
 .
-x
-=
+SetRectX
+(
 std
 :
 :
@@ -646,7 +646,9 @@ max
 f
 scrollableRect
 .
-x
+X
+(
+)
 -
 (
 compSize
@@ -660,11 +662,6 @@ Width
 )
 )
 )
-;
-scrollableRect
-.
-SetWidth
-(
 compSize
 .
 width
@@ -686,8 +683,8 @@ height
 {
 scrollableRect
 .
-y
-=
+SetRectY
+(
 std
 :
 :
@@ -698,7 +695,9 @@ max
 f
 scrollableRect
 .
-y
+Y
+(
+)
 -
 (
 compSize
@@ -712,11 +711,6 @@ Height
 )
 )
 )
-;
-scrollableRect
-.
-SetHeight
-(
 compSize
 .
 height

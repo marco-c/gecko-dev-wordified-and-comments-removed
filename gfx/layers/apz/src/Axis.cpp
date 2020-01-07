@@ -2730,7 +2730,9 @@ const
 return
 aRect
 .
-x
+X
+(
+)
 ;
 }
 CSSToParentLayerScale
@@ -2884,7 +2886,9 @@ const
 return
 aRect
 .
-y
+Y
+(
+)
 ;
 }
 CSSToParentLayerScale

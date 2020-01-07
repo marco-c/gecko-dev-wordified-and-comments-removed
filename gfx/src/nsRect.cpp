@@ -258,7 +258,9 @@ NSAppUnitsToFloatPixels
 (
 rect
 .
-x
+X
+(
+)
 nsDeviceContext
 :
 :
@@ -284,7 +286,9 @@ NSAppUnitsToFloatPixels
 (
 rect
 .
-y
+Y
+(
+)
 nsDeviceContext
 :
 :

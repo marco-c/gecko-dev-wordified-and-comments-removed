@@ -1783,7 +1783,9 @@ x
 =
 rect
 .
-x
+X
+(
+)
 ;
 r
 .
@@ -1793,7 +1795,9 @@ y
 =
 rect
 .
-y
+Y
+(
+)
 ;
 r
 .
@@ -1851,7 +1855,9 @@ x
 =
 rect
 .
-x
+X
+(
+)
 ;
 r
 .
@@ -1861,7 +1867,9 @@ y
 =
 rect
 .
-y
+Y
+(
+)
 ;
 r
 .
@@ -1922,7 +1930,9 @@ x
 =
 rect
 .
-x
+X
+(
+)
 ;
 r
 .
@@ -1932,7 +1942,9 @@ y
 =
 rect
 .
-y
+Y
+(
+)
 ;
 r
 .
@@ -1942,7 +1954,9 @@ width
 =
 rect
 .
-width
+Width
+(
+)
 ;
 r
 .
@@ -1952,7 +1966,9 @@ height
 =
 rect
 .
-height
+Height
+(
+)
 ;
 return
 r

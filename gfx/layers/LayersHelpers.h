@@ -155,7 +155,9 @@ float
 (
 aRect
 .
-x
+X
+(
+)
 )
 /
 aSize
@@ -165,7 +167,9 @@ float
 (
 aRect
 .
-y
+Y
+(
+)
 )
 /
 aSize
@@ -175,7 +179,9 @@ float
 (
 aRect
 .
-width
+Width
+(
+)
 )
 /
 aSize
@@ -185,7 +191,9 @@ float
 (
 aRect
 .
-height
+Height
+(
+)
 )
 /
 aSize
