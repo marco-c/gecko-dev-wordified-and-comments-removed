@@ -23039,12 +23039,8 @@ imageHeight
 0
 )
 {
-nsDisplayBackgroundGeometry
-:
-:
 UpdateDrawResult
 (
-this
 ImgDrawResult
 :
 :
