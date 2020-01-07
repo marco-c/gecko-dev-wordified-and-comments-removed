@@ -657,12 +657,6 @@ repack
 "
                 
 "
-funsize
--
-props
-"
-                
-"
 summary
 "
             
