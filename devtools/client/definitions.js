@@ -611,7 +611,7 @@ properties
 "
 devtools
 /
-shim
+startup
 /
 locales
 /

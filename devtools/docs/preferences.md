@@ -593,7 +593,7 @@ js
 -
 devtools
 /
-shim
+startup
 /
 devtools
 -
@@ -655,7 +655,7 @@ go
 in
 devtools
 /
-shim
+startup
 /
 devtools
 -

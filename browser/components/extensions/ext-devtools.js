@@ -18,7 +18,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /

@@ -164,7 +164,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 locale
 /
@@ -195,7 +195,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 locale
 /
@@ -528,7 +528,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -590,7 +590,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -652,7 +652,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -714,7 +714,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -776,7 +776,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -838,7 +838,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -900,7 +900,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -962,7 +962,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /
@@ -1024,7 +1024,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 content
 /

@@ -880,7 +880,7 @@ C
 /
 devtools
 /
-shim
+startup
 /
 locales
 AB_CD
@@ -1162,7 +1162,7 @@ C
 /
 devtools
 /
-shim
+startup
 /
 locales
 chrome

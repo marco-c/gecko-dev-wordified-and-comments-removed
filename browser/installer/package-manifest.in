@@ -3797,7 +3797,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 JAREXT
 RESPATH
 /
@@ -3807,7 +3807,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 .
 manifest
 RESPATH

@@ -278,7 +278,7 @@ locale
 "
 devtools
 /
-shim
+startup
 /
 locales
 "
@@ -290,7 +290,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 locale
 "

@@ -64,7 +64,7 @@ jar
 locale
 devtools
 -
-shim
+startup
 AB_CD
 %
 locale
@@ -73,7 +73,7 @@ AB_CD
 /
 devtools
 /
-shim
+startup
 /
 locale
 /
@@ -81,7 +81,7 @@ AB_CD
 /
 devtools
 /
-shim
+startup
 /
 (
 %

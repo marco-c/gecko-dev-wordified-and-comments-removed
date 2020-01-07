@@ -699,7 +699,7 @@ reference
 "
 devtools
 /
-shim
+startup
 /
 locales
 /
@@ -718,7 +718,7 @@ l
 }
 devtools
 /
-shim
+startup
 /
 *
 *

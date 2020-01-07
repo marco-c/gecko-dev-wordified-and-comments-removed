@@ -100,7 +100,7 @@ properties
 )
 ;
 const
-reqShim
+reqStartup
 =
 require
 .
@@ -111,7 +111,7 @@ raw
 !
 devtools
 /
-shim
+startup
 /
 locales
 /
@@ -308,7 +308,7 @@ if
 devtools
 \
 /
-shim
+startup
 /
 .
 test
@@ -319,7 +319,7 @@ url
 {
 reqFn
 =
-reqShim
+reqStartup
 ;
 }
 else

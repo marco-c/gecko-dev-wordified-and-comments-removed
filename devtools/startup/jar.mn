@@ -55,7 +55,7 @@ MPL
 .
 devtools
 -
-shim
+startup
 .
 jar
 :
@@ -63,7 +63,7 @@ jar
 content
 devtools
 -
-shim
+startup
 %
 content
 /

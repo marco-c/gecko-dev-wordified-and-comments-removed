@@ -169,7 +169,7 @@ binary
 components
 #
 and
-shim
+startup
 modules
 that
 are
@@ -199,7 +199,7 @@ DIRS
 =
 [
 '
-shim
+startup
 '
 '
 platform
