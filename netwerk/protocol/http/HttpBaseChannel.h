@@ -1684,6 +1684,15 @@ unsafeHeaders
 )
 override
 ;
+virtual
+void
+SetAltDataForChild
+(
+bool
+aIsForChild
+)
+override
+;
 NS_IMETHOD
 GetConnectionInfoHashKey
 (
@@ -3025,6 +3034,9 @@ mAvailableCachedAltDataType
 ;
 int64_t
 mAltDataLength
+;
+bool
+mAltDataForChild
 ;
 bool
 mForceMainDocumentChannel
