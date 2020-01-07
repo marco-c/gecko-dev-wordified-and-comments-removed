@@ -48,6 +48,8 @@ mochi
 .
 test
 /
+?
+discoTest
 "
 ]
 }
@@ -138,7 +140,7 @@ test
 assertEq
 (
 "
-connect_from_contentscript
+connect_from_script
 "
 msg
 "
@@ -502,7 +504,7 @@ port
 postMessage
 (
 "
-connect_from_contentscript
+connect_from_script
 "
 )
 ;
@@ -551,6 +553,8 @@ test
 :
 8888
 /
+?
+discoTest
 "
 )
 ;
