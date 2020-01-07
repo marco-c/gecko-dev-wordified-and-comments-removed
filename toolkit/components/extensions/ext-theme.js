@@ -577,7 +577,7 @@ textcolor
 :
 case
 "
-background_tab_text
+tab_background_text
 "
 :
 this

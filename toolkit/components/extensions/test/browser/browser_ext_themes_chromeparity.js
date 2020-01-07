@@ -109,7 +109,7 @@ frame
 :
 FRAME_COLOR
 "
-background_tab_text
+tab_background_text
 "
 :
 TAB_TEXT_COLOR
@@ -420,7 +420,7 @@ frame_inactive
 :
 FRAME_COLOR_INACTIVE
 "
-background_tab_text
+tab_background_text
 "
 :
 TAB_TEXT_COLOR
@@ -659,7 +659,7 @@ frame
 :
 FRAME_COLOR
 "
-background_tab_text
+tab_background_text
 "
 :
 TAB_TEXT_COLOR
