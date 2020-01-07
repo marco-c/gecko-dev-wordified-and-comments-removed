@@ -564,12 +564,7 @@ TransactionIdAllocator
 aAllocator
 )
 override
-{
-mTransactionIdAllocator
-=
-aAllocator
 ;
-}
 virtual
 void
 AddDidCompositeObserver
