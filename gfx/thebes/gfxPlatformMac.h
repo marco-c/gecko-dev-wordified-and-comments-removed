@@ -272,6 +272,12 @@ AccelerateLayersByDefault
 )
 override
 ;
+BackendPrefsData
+GetBackendPrefs
+(
+)
+override
+;
 private
 :
 virtual
