@@ -134,7 +134,6 @@ aProgressiveDisplay
 SurfaceConfig
 {
 decoder
-0
 aSize
 SurfaceFormat
 :
@@ -199,7 +198,6 @@ true
 PalettedSurfaceConfig
 {
 decoder
-0
 aSize
 IntRect
 (
@@ -258,7 +256,6 @@ true
 SurfaceConfig
 {
 decoder
-0
 aSize
 SurfaceFormat
 :

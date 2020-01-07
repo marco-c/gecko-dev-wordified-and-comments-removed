@@ -154,7 +154,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 50

@@ -181,7 +181,9 @@ PixelType
 >
 &
 aConfig
+const
 Rest
+&
 .
 .
 .
@@ -1419,7 +1421,9 @@ const
 RemoveFrameRectConfig
 &
 aConfig
+const
 Rest
+&
 .
 .
 .
@@ -2231,7 +2235,9 @@ const
 ADAM7InterpolatingConfig
 &
 aConfig
+const
 Rest
+&
 .
 .
 .

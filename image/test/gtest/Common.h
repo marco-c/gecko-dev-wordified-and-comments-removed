@@ -677,7 +677,9 @@ Decoder
 aDecoder
 Func
 aFunc
+const
 Configs
+&
 .
 .
 .
@@ -777,7 +779,9 @@ AssertConfiguringPipelineFails
 Decoder
 *
 aDecoder
+const
 Configs
+&
 .
 .
 .

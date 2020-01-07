@@ -133,7 +133,6 @@ aFrameRect
 SurfaceConfig
 {
 decoder
-0
 aSize
 SurfaceFormat
 :
@@ -185,7 +184,6 @@ aFrameRect
 SurfaceConfig
 {
 decoder
-0
 aSize
 SurfaceFormat
 :
@@ -1711,7 +1709,6 @@ IntRect
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100

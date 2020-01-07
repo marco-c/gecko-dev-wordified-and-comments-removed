@@ -171,7 +171,9 @@ const
 DownscalingConfig
 &
 aConfig
+const
 Rest
+&
 .
 .
 .
@@ -283,7 +285,9 @@ const
 DownscalingConfig
 &
 aConfig
+const
 Rest
+&
 .
 .
 .
