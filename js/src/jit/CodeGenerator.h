@@ -373,7 +373,6 @@ LOsiPoint
 *
 lir
 )
-override
 ;
 void
 visitGoto
@@ -382,7 +381,6 @@ LGoto
 *
 lir
 )
-override
 ;
 void
 visitTableSwitch
@@ -391,7 +389,6 @@ LTableSwitch
 *
 ins
 )
-override
 ;
 void
 visitTableSwitchV
@@ -400,7 +397,6 @@ LTableSwitchV
 *
 ins
 )
-override
 ;
 void
 visitCloneLiteral
@@ -409,7 +405,6 @@ LCloneLiteral
 *
 lir
 )
-override
 ;
 void
 visitParameter
@@ -418,7 +413,6 @@ LParameter
 *
 lir
 )
-override
 ;
 void
 visitCallee
@@ -427,7 +421,6 @@ LCallee
 *
 lir
 )
-override
 ;
 void
 visitIsConstructing
@@ -436,7 +429,6 @@ LIsConstructing
 *
 lir
 )
-override
 ;
 void
 visitStart
@@ -445,7 +437,6 @@ LStart
 *
 lir
 )
-override
 ;
 void
 visitReturn
@@ -454,7 +445,6 @@ LReturn
 *
 ret
 )
-override
 ;
 void
 visitDefVar
@@ -463,7 +453,6 @@ LDefVar
 *
 lir
 )
-override
 ;
 void
 visitDefLexical
@@ -472,7 +461,6 @@ LDefLexical
 *
 lir
 )
-override
 ;
 void
 visitDefFun
@@ -481,7 +469,6 @@ LDefFun
 *
 lir
 )
-override
 ;
 void
 visitOsrEntry
@@ -490,7 +477,6 @@ LOsrEntry
 *
 lir
 )
-override
 ;
 void
 visitOsrEnvironmentChain
@@ -499,7 +485,6 @@ LOsrEnvironmentChain
 *
 lir
 )
-override
 ;
 void
 visitOsrValue
@@ -508,7 +493,6 @@ LOsrValue
 *
 lir
 )
-override
 ;
 void
 visitOsrReturnValue
@@ -517,7 +501,6 @@ LOsrReturnValue
 *
 lir
 )
-override
 ;
 void
 visitOsrArgumentsObject
@@ -526,7 +509,6 @@ LOsrArgumentsObject
 *
 lir
 )
-override
 ;
 void
 visitStackArgT
@@ -535,7 +517,6 @@ LStackArgT
 *
 lir
 )
-override
 ;
 void
 visitStackArgV
@@ -544,7 +525,6 @@ LStackArgV
 *
 lir
 )
-override
 ;
 void
 visitMoveGroup
@@ -553,7 +533,6 @@ LMoveGroup
 *
 group
 )
-override
 ;
 void
 visitValueToInt32
@@ -562,7 +541,6 @@ LValueToInt32
 *
 lir
 )
-override
 ;
 void
 visitValueToDouble
@@ -571,7 +549,6 @@ LValueToDouble
 *
 lir
 )
-override
 ;
 void
 visitValueToFloat32
@@ -580,7 +557,6 @@ LValueToFloat32
 *
 lir
 )
-override
 ;
 void
 visitFloat32ToDouble
@@ -589,7 +565,6 @@ LFloat32ToDouble
 *
 lir
 )
-override
 ;
 void
 visitDoubleToFloat32
@@ -598,7 +573,6 @@ LDoubleToFloat32
 *
 lir
 )
-override
 ;
 void
 visitInt32ToFloat32
@@ -607,7 +581,6 @@ LInt32ToFloat32
 *
 lir
 )
-override
 ;
 void
 visitInt32ToDouble
@@ -616,7 +589,6 @@ LInt32ToDouble
 *
 lir
 )
-override
 ;
 void
 emitOOLTestObject
@@ -640,7 +612,6 @@ LTestOAndBranch
 *
 lir
 )
-override
 ;
 void
 visitTestVAndBranch
@@ -649,7 +620,6 @@ LTestVAndBranch
 *
 lir
 )
-override
 ;
 void
 visitFunctionDispatch
@@ -658,7 +628,6 @@ LFunctionDispatch
 *
 lir
 )
-override
 ;
 void
 visitObjectGroupDispatch
@@ -667,7 +636,6 @@ LObjectGroupDispatch
 *
 lir
 )
-override
 ;
 void
 visitBooleanToString
@@ -676,7 +644,6 @@ LBooleanToString
 *
 lir
 )
-override
 ;
 void
 emitIntToString
@@ -697,7 +664,6 @@ LIntToString
 *
 lir
 )
-override
 ;
 void
 visitDoubleToString
@@ -706,7 +672,6 @@ LDoubleToString
 *
 lir
 )
-override
 ;
 void
 visitValueToString
@@ -715,7 +680,6 @@ LValueToString
 *
 lir
 )
-override
 ;
 void
 visitValueToObject
@@ -724,7 +688,6 @@ LValueToObject
 *
 lir
 )
-override
 ;
 void
 visitValueToObjectOrNull
@@ -733,7 +696,6 @@ LValueToObjectOrNull
 *
 lir
 )
-override
 ;
 void
 visitInteger
@@ -742,7 +704,6 @@ LInteger
 *
 lir
 )
-override
 ;
 void
 visitInteger64
@@ -751,7 +712,6 @@ LInteger64
 *
 lir
 )
-override
 ;
 void
 visitRegExp
@@ -760,7 +720,6 @@ LRegExp
 *
 lir
 )
-override
 ;
 void
 visitRegExpMatcher
@@ -769,7 +728,6 @@ LRegExpMatcher
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineRegExpMatcher
@@ -786,7 +744,6 @@ LRegExpSearcher
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineRegExpSearcher
@@ -803,7 +760,6 @@ LRegExpTester
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineRegExpTester
@@ -820,7 +776,6 @@ LRegExpPrototypeOptimizable
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineRegExpPrototypeOptimizable
@@ -837,7 +792,6 @@ LRegExpInstanceOptimizable
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineRegExpInstanceOptimizable
@@ -854,7 +808,6 @@ LGetFirstDollarIndex
 *
 lir
 )
-override
 ;
 void
 visitStringReplace
@@ -863,7 +816,6 @@ LStringReplace
 *
 lir
 )
-override
 ;
 void
 emitSharedStub
@@ -885,7 +837,6 @@ LBinarySharedStub
 *
 lir
 )
-override
 ;
 void
 visitUnarySharedStub
@@ -894,7 +845,6 @@ LUnarySharedStub
 *
 lir
 )
-override
 ;
 void
 visitNullarySharedStub
@@ -903,7 +853,6 @@ LNullarySharedStub
 *
 lir
 )
-override
 ;
 void
 visitClassConstructor
@@ -912,7 +861,6 @@ LClassConstructor
 *
 lir
 )
-override
 ;
 void
 visitLambda
@@ -921,7 +869,6 @@ LLambda
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineLambdaArrow
@@ -938,7 +885,6 @@ LLambdaArrow
 *
 lir
 )
-override
 ;
 void
 visitLambdaForSingleton
@@ -947,7 +893,6 @@ LLambdaForSingleton
 *
 lir
 )
-override
 ;
 void
 visitSetFunName
@@ -956,7 +901,6 @@ LSetFunName
 *
 lir
 )
-override
 ;
 void
 visitPointer
@@ -965,7 +909,6 @@ LPointer
 *
 lir
 )
-override
 ;
 void
 visitKeepAliveObject
@@ -974,7 +917,6 @@ LKeepAliveObject
 *
 lir
 )
-override
 ;
 void
 visitSlots
@@ -983,7 +925,6 @@ LSlots
 *
 lir
 )
-override
 ;
 void
 visitLoadSlotT
@@ -992,7 +933,6 @@ LLoadSlotT
 *
 lir
 )
-override
 ;
 void
 visitLoadSlotV
@@ -1001,7 +941,6 @@ LLoadSlotV
 *
 lir
 )
-override
 ;
 void
 visitStoreSlotT
@@ -1010,7 +949,6 @@ LStoreSlotT
 *
 lir
 )
-override
 ;
 void
 visitStoreSlotV
@@ -1019,7 +957,6 @@ LStoreSlotV
 *
 lir
 )
-override
 ;
 void
 visitElements
@@ -1028,7 +965,6 @@ LElements
 *
 lir
 )
-override
 ;
 void
 visitConvertElementsToDoubles
@@ -1037,7 +973,6 @@ LConvertElementsToDoubles
 *
 lir
 )
-override
 ;
 void
 visitMaybeToDoubleElement
@@ -1046,7 +981,6 @@ LMaybeToDoubleElement
 *
 lir
 )
-override
 ;
 void
 visitMaybeCopyElementsForWrite
@@ -1055,7 +989,6 @@ LMaybeCopyElementsForWrite
 *
 lir
 )
-override
 ;
 void
 visitGuardObjectIdentity
@@ -1064,7 +997,6 @@ LGuardObjectIdentity
 *
 guard
 )
-override
 ;
 void
 visitGuardReceiverPolymorphic
@@ -1073,7 +1005,6 @@ LGuardReceiverPolymorphic
 *
 lir
 )
-override
 ;
 void
 visitGuardUnboxedExpando
@@ -1082,7 +1013,6 @@ LGuardUnboxedExpando
 *
 lir
 )
-override
 ;
 void
 visitLoadUnboxedExpando
@@ -1091,7 +1021,6 @@ LLoadUnboxedExpando
 *
 lir
 )
-override
 ;
 void
 visitTypeBarrierV
@@ -1100,7 +1029,6 @@ LTypeBarrierV
 *
 lir
 )
-override
 ;
 void
 visitTypeBarrierO
@@ -1109,7 +1037,6 @@ LTypeBarrierO
 *
 lir
 )
-override
 ;
 void
 visitMonitorTypes
@@ -1118,7 +1045,6 @@ LMonitorTypes
 *
 lir
 )
-override
 ;
 void
 emitPostWriteBarrier
@@ -1188,7 +1114,6 @@ LPostWriteBarrierO
 *
 lir
 )
-override
 ;
 void
 visitPostWriteElementBarrierO
@@ -1197,7 +1122,6 @@ LPostWriteElementBarrierO
 *
 lir
 )
-override
 ;
 void
 visitPostWriteBarrierV
@@ -1206,7 +1130,6 @@ LPostWriteBarrierV
 *
 lir
 )
-override
 ;
 void
 visitPostWriteElementBarrierV
@@ -1215,7 +1138,6 @@ LPostWriteElementBarrierV
 *
 lir
 )
-override
 ;
 void
 visitPostWriteBarrierS
@@ -1224,7 +1146,6 @@ LPostWriteBarrierS
 *
 lir
 )
-override
 ;
 void
 visitPostWriteElementBarrierS
@@ -1233,7 +1154,6 @@ LPostWriteElementBarrierS
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineCallPostWriteBarrier
@@ -1258,7 +1178,6 @@ LCallNative
 *
 call
 )
-override
 ;
 void
 emitCallInvokeFunction
@@ -1285,7 +1204,6 @@ LCallGeneric
 *
 call
 )
-override
 ;
 void
 emitCallInvokeFunctionShuffleNewTarget
@@ -1308,7 +1226,6 @@ LCallKnown
 *
 call
 )
-override
 ;
 template
 <
@@ -1389,7 +1306,6 @@ LApplyArgsGeneric
 *
 apply
 )
-override
 ;
 void
 emitPushArguments
@@ -1408,7 +1324,6 @@ LApplyArrayGeneric
 *
 apply
 )
-override
 ;
 void
 visitBail
@@ -1417,7 +1332,6 @@ LBail
 *
 lir
 )
-override
 ;
 void
 visitUnreachable
@@ -1426,7 +1340,6 @@ LUnreachable
 *
 unreachable
 )
-override
 ;
 void
 visitEncodeSnapshot
@@ -1435,7 +1348,6 @@ LEncodeSnapshot
 *
 lir
 )
-override
 ;
 void
 visitGetDynamicName
@@ -1444,7 +1356,6 @@ LGetDynamicName
 *
 lir
 )
-override
 ;
 void
 visitCallDirectEval
@@ -1453,7 +1364,6 @@ LCallDirectEval
 *
 lir
 )
-override
 ;
 void
 visitDoubleToInt32
@@ -1462,7 +1372,6 @@ LDoubleToInt32
 *
 lir
 )
-override
 ;
 void
 visitFloat32ToInt32
@@ -1471,7 +1380,6 @@ LFloat32ToInt32
 *
 lir
 )
-override
 ;
 void
 visitNewArrayCallVM
@@ -1488,7 +1396,6 @@ LNewArray
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineNewArray
@@ -1505,7 +1412,6 @@ LNewArrayCopyOnWrite
 *
 lir
 )
-override
 ;
 void
 visitNewArrayDynamicLength
@@ -1514,7 +1420,6 @@ LNewArrayDynamicLength
 *
 lir
 )
-override
 ;
 void
 visitNewIterator
@@ -1523,7 +1428,6 @@ LNewIterator
 *
 lir
 )
-override
 ;
 void
 visitNewTypedArray
@@ -1532,7 +1436,6 @@ LNewTypedArray
 *
 lir
 )
-override
 ;
 void
 visitNewTypedArrayDynamicLength
@@ -1541,7 +1444,6 @@ LNewTypedArrayDynamicLength
 *
 lir
 )
-override
 ;
 void
 visitNewObjectVMCall
@@ -1558,7 +1460,6 @@ LNewObject
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineNewObject
@@ -1575,7 +1476,6 @@ LNewTypedObject
 *
 lir
 )
-override
 ;
 void
 visitSimdBox
@@ -1584,7 +1484,6 @@ LSimdBox
 *
 lir
 )
-override
 ;
 void
 visitSimdUnbox
@@ -1593,7 +1492,6 @@ LSimdUnbox
 *
 lir
 )
-override
 ;
 void
 visitNewNamedLambdaObject
@@ -1602,7 +1500,6 @@ LNewNamedLambdaObject
 *
 lir
 )
-override
 ;
 void
 visitNewCallObject
@@ -1611,7 +1508,6 @@ LNewCallObject
 *
 lir
 )
-override
 ;
 void
 visitNewSingletonCallObject
@@ -1620,7 +1516,6 @@ LNewSingletonCallObject
 *
 lir
 )
-override
 ;
 void
 visitNewStringObject
@@ -1629,7 +1524,6 @@ LNewStringObject
 *
 lir
 )
-override
 ;
 void
 visitNewDerivedTypedObject
@@ -1638,7 +1532,6 @@ LNewDerivedTypedObject
 *
 lir
 )
-override
 ;
 void
 visitInitElem
@@ -1647,7 +1540,6 @@ LInitElem
 *
 lir
 )
-override
 ;
 void
 visitInitElemGetterSetter
@@ -1656,7 +1548,6 @@ LInitElemGetterSetter
 *
 lir
 )
-override
 ;
 void
 visitMutateProto
@@ -1665,7 +1556,6 @@ LMutateProto
 *
 lir
 )
-override
 ;
 void
 visitInitPropGetterSetter
@@ -1674,7 +1564,6 @@ LInitPropGetterSetter
 *
 lir
 )
-override
 ;
 void
 visitCreateThis
@@ -1683,7 +1572,6 @@ LCreateThis
 *
 lir
 )
-override
 ;
 void
 visitCreateThisWithProto
@@ -1692,7 +1580,6 @@ LCreateThisWithProto
 *
 lir
 )
-override
 ;
 void
 visitCreateThisWithTemplate
@@ -1701,7 +1588,6 @@ LCreateThisWithTemplate
 *
 lir
 )
-override
 ;
 void
 visitCreateArgumentsObject
@@ -1710,7 +1596,6 @@ LCreateArgumentsObject
 *
 lir
 )
-override
 ;
 void
 visitGetArgumentsObjectArg
@@ -1719,7 +1604,6 @@ LGetArgumentsObjectArg
 *
 lir
 )
-override
 ;
 void
 visitSetArgumentsObjectArg
@@ -1728,7 +1612,6 @@ LSetArgumentsObjectArg
 *
 lir
 )
-override
 ;
 void
 visitReturnFromCtor
@@ -1737,7 +1620,6 @@ LReturnFromCtor
 *
 lir
 )
-override
 ;
 void
 visitComputeThis
@@ -1746,7 +1628,6 @@ LComputeThis
 *
 lir
 )
-override
 ;
 void
 visitImplicitThis
@@ -1755,7 +1636,6 @@ LImplicitThis
 *
 lir
 )
-override
 ;
 void
 visitArrayLength
@@ -1764,7 +1644,6 @@ LArrayLength
 *
 lir
 )
-override
 ;
 void
 visitSetArrayLength
@@ -1773,7 +1652,6 @@ LSetArrayLength
 *
 lir
 )
-override
 ;
 void
 visitGetNextEntryForIterator
@@ -1782,7 +1660,6 @@ LGetNextEntryForIterator
 *
 lir
 )
-override
 ;
 void
 visitTypedArrayLength
@@ -1791,7 +1668,6 @@ LTypedArrayLength
 *
 lir
 )
-override
 ;
 void
 visitTypedArrayElements
@@ -1800,7 +1676,6 @@ LTypedArrayElements
 *
 lir
 )
-override
 ;
 void
 visitSetDisjointTypedElements
@@ -1809,7 +1684,6 @@ LSetDisjointTypedElements
 *
 lir
 )
-override
 ;
 void
 visitTypedObjectElements
@@ -1818,7 +1692,6 @@ LTypedObjectElements
 *
 lir
 )
-override
 ;
 void
 visitSetTypedObjectOffset
@@ -1827,7 +1700,6 @@ LSetTypedObjectOffset
 *
 lir
 )
-override
 ;
 void
 visitTypedObjectDescr
@@ -1836,7 +1708,6 @@ LTypedObjectDescr
 *
 ins
 )
-override
 ;
 void
 visitStringLength
@@ -1845,7 +1716,6 @@ LStringLength
 *
 lir
 )
-override
 ;
 void
 visitSubstr
@@ -1854,7 +1724,6 @@ LSubstr
 *
 lir
 )
-override
 ;
 void
 visitInitializedLength
@@ -1863,7 +1732,6 @@ LInitializedLength
 *
 lir
 )
-override
 ;
 void
 visitSetInitializedLength
@@ -1872,7 +1740,6 @@ LSetInitializedLength
 *
 lir
 )
-override
 ;
 void
 visitNotO
@@ -1881,7 +1748,6 @@ LNotO
 *
 ins
 )
-override
 ;
 void
 visitNotV
@@ -1890,7 +1756,6 @@ LNotV
 *
 ins
 )
-override
 ;
 void
 visitBoundsCheck
@@ -1899,7 +1764,6 @@ LBoundsCheck
 *
 lir
 )
-override
 ;
 void
 visitBoundsCheckRange
@@ -1908,7 +1772,6 @@ LBoundsCheckRange
 *
 lir
 )
-override
 ;
 void
 visitBoundsCheckLower
@@ -1917,7 +1780,6 @@ LBoundsCheckLower
 *
 lir
 )
-override
 ;
 void
 visitSpectreMaskIndex
@@ -1926,7 +1788,6 @@ LSpectreMaskIndex
 *
 lir
 )
-override
 ;
 void
 visitLoadFixedSlotV
@@ -1935,7 +1796,6 @@ LLoadFixedSlotV
 *
 ins
 )
-override
 ;
 void
 visitLoadFixedSlotAndUnbox
@@ -1944,7 +1804,6 @@ LLoadFixedSlotAndUnbox
 *
 lir
 )
-override
 ;
 void
 visitLoadFixedSlotT
@@ -1953,7 +1812,6 @@ LLoadFixedSlotT
 *
 ins
 )
-override
 ;
 void
 visitStoreFixedSlotV
@@ -1962,7 +1820,6 @@ LStoreFixedSlotV
 *
 ins
 )
-override
 ;
 void
 visitStoreFixedSlotT
@@ -1971,7 +1828,6 @@ LStoreFixedSlotT
 *
 ins
 )
-override
 ;
 void
 emitGetPropertyPolymorphic
@@ -1996,7 +1852,6 @@ LGetPropertyPolymorphicV
 *
 ins
 )
-override
 ;
 void
 visitGetPropertyPolymorphicT
@@ -2005,7 +1860,6 @@ LGetPropertyPolymorphicT
 *
 ins
 )
-override
 ;
 void
 emitSetPropertyPolymorphic
@@ -2030,7 +1884,6 @@ LSetPropertyPolymorphicV
 *
 ins
 )
-override
 ;
 void
 visitSetPropertyPolymorphicT
@@ -2039,7 +1892,6 @@ LSetPropertyPolymorphicT
 *
 ins
 )
-override
 ;
 void
 visitAbsI
@@ -2048,7 +1900,6 @@ LAbsI
 *
 lir
 )
-override
 ;
 void
 visitAtan2D
@@ -2057,7 +1908,6 @@ LAtan2D
 *
 lir
 )
-override
 ;
 void
 visitHypot
@@ -2066,7 +1916,6 @@ LHypot
 *
 lir
 )
-override
 ;
 void
 visitPowI
@@ -2075,7 +1924,6 @@ LPowI
 *
 lir
 )
-override
 ;
 void
 visitPowD
@@ -2084,7 +1932,6 @@ LPowD
 *
 lir
 )
-override
 ;
 void
 visitPowV
@@ -2093,7 +1940,6 @@ LPowV
 *
 lir
 )
-override
 ;
 void
 visitMathFunctionD
@@ -2102,7 +1948,6 @@ LMathFunctionD
 *
 ins
 )
-override
 ;
 void
 visitMathFunctionF
@@ -2111,7 +1956,6 @@ LMathFunctionF
 *
 ins
 )
-override
 ;
 void
 visitModD
@@ -2120,7 +1964,6 @@ LModD
 *
 ins
 )
-override
 ;
 void
 visitMinMaxI
@@ -2129,7 +1972,6 @@ LMinMaxI
 *
 lir
 )
-override
 ;
 void
 visitBinaryV
@@ -2138,7 +1980,6 @@ LBinaryV
 *
 lir
 )
-override
 ;
 void
 emitCompareS
@@ -2163,7 +2004,6 @@ LCompareS
 *
 lir
 )
-override
 ;
 void
 visitCompareStrictS
@@ -2172,7 +2012,6 @@ LCompareStrictS
 *
 lir
 )
-override
 ;
 void
 visitCompareVM
@@ -2181,7 +2020,6 @@ LCompareVM
 *
 lir
 )
-override
 ;
 void
 visitIsNullOrLikeUndefinedV
@@ -2190,7 +2028,6 @@ LIsNullOrLikeUndefinedV
 *
 lir
 )
-override
 ;
 void
 visitIsNullOrLikeUndefinedT
@@ -2199,7 +2036,6 @@ LIsNullOrLikeUndefinedT
 *
 lir
 )
-override
 ;
 void
 visitIsNullOrLikeUndefinedAndBranchV
@@ -2208,7 +2044,6 @@ LIsNullOrLikeUndefinedAndBranchV
 *
 lir
 )
-override
 ;
 void
 visitIsNullOrLikeUndefinedAndBranchT
@@ -2217,7 +2052,6 @@ LIsNullOrLikeUndefinedAndBranchT
 *
 lir
 )
-override
 ;
 void
 emitSameValue
@@ -2239,7 +2073,6 @@ LSameValueD
 *
 lir
 )
-override
 ;
 void
 visitSameValueV
@@ -2248,7 +2081,6 @@ LSameValueV
 *
 lir
 )
-override
 ;
 void
 visitSameValueVM
@@ -2257,7 +2089,6 @@ LSameValueVM
 *
 lir
 )
-override
 ;
 void
 emitConcat
@@ -2280,7 +2111,6 @@ LConcat
 *
 lir
 )
-override
 ;
 void
 visitCharCodeAt
@@ -2289,7 +2119,6 @@ LCharCodeAt
 *
 lir
 )
-override
 ;
 void
 visitFromCharCode
@@ -2298,7 +2127,6 @@ LFromCharCode
 *
 lir
 )
-override
 ;
 void
 visitFromCodePoint
@@ -2307,7 +2135,6 @@ LFromCodePoint
 *
 lir
 )
-override
 ;
 void
 visitStringConvertCase
@@ -2316,7 +2143,6 @@ LStringConvertCase
 *
 lir
 )
-override
 ;
 void
 visitSinCos
@@ -2325,7 +2151,6 @@ LSinCos
 *
 lir
 )
-override
 ;
 void
 visitStringSplit
@@ -2334,7 +2159,6 @@ LStringSplit
 *
 lir
 )
-override
 ;
 void
 visitFunctionEnvironment
@@ -2343,7 +2167,6 @@ LFunctionEnvironment
 *
 lir
 )
-override
 ;
 void
 visitHomeObject
@@ -2352,7 +2175,6 @@ LHomeObject
 *
 lir
 )
-override
 ;
 void
 visitHomeObjectSuperBase
@@ -2361,7 +2183,6 @@ LHomeObjectSuperBase
 *
 lir
 )
-override
 ;
 void
 visitNewLexicalEnvironmentObject
@@ -2370,7 +2191,6 @@ LNewLexicalEnvironmentObject
 *
 lir
 )
-override
 ;
 void
 visitCopyLexicalEnvironmentObject
@@ -2379,7 +2199,6 @@ LCopyLexicalEnvironmentObject
 *
 lir
 )
-override
 ;
 void
 visitCallGetProperty
@@ -2388,7 +2207,6 @@ LCallGetProperty
 *
 lir
 )
-override
 ;
 void
 visitCallGetElement
@@ -2397,7 +2215,6 @@ LCallGetElement
 *
 lir
 )
-override
 ;
 void
 visitCallSetElement
@@ -2406,7 +2223,6 @@ LCallSetElement
 *
 lir
 )
-override
 ;
 void
 visitCallInitElementArray
@@ -2415,7 +2231,6 @@ LCallInitElementArray
 *
 lir
 )
-override
 ;
 void
 visitThrow
@@ -2424,7 +2239,6 @@ LThrow
 *
 lir
 )
-override
 ;
 void
 visitTypeOfV
@@ -2433,7 +2247,6 @@ LTypeOfV
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineTypeOfV
@@ -2450,7 +2263,6 @@ LToAsync
 *
 lir
 )
-override
 ;
 void
 visitToAsyncGen
@@ -2459,7 +2271,6 @@ LToAsyncGen
 *
 lir
 )
-override
 ;
 void
 visitToAsyncIter
@@ -2468,7 +2279,6 @@ LToAsyncIter
 *
 lir
 )
-override
 ;
 void
 visitToIdV
@@ -2477,7 +2287,6 @@ LToIdV
 *
 lir
 )
-override
 ;
 template
 <
@@ -2503,7 +2312,6 @@ LLoadElementT
 *
 lir
 )
-override
 ;
 void
 visitLoadElementV
@@ -2512,7 +2320,6 @@ LLoadElementV
 *
 load
 )
-override
 ;
 void
 visitLoadElementHole
@@ -2521,7 +2328,6 @@ LLoadElementHole
 *
 lir
 )
-override
 ;
 void
 visitLoadUnboxedPointerV
@@ -2530,7 +2336,6 @@ LLoadUnboxedPointerV
 *
 lir
 )
-override
 ;
 void
 visitLoadUnboxedPointerT
@@ -2539,7 +2344,6 @@ LLoadUnboxedPointerT
 *
 lir
 )
-override
 ;
 void
 visitUnboxObjectOrNull
@@ -2548,7 +2352,6 @@ LUnboxObjectOrNull
 *
 lir
 )
-override
 ;
 template
 <
@@ -2573,7 +2376,6 @@ LLoadElementFromStateV
 *
 lir
 )
-override
 ;
 void
 visitStoreElementT
@@ -2582,7 +2384,6 @@ LStoreElementT
 *
 lir
 )
-override
 ;
 void
 visitStoreElementV
@@ -2591,7 +2392,6 @@ LStoreElementV
 *
 lir
 )
-override
 ;
 template
 <
@@ -2626,7 +2426,6 @@ LStoreElementHoleT
 *
 lir
 )
-override
 ;
 void
 visitStoreElementHoleV
@@ -2635,7 +2434,6 @@ LStoreElementHoleV
 *
 lir
 )
-override
 ;
 void
 visitFallibleStoreElementV
@@ -2644,7 +2442,6 @@ LFallibleStoreElementV
 *
 lir
 )
-override
 ;
 void
 visitFallibleStoreElementT
@@ -2653,7 +2450,6 @@ LFallibleStoreElementT
 *
 lir
 )
-override
 ;
 void
 visitStoreUnboxedPointer
@@ -2662,7 +2458,6 @@ LStoreUnboxedPointer
 *
 lir
 )
-override
 ;
 void
 visitConvertUnboxedObjectToNative
@@ -2671,7 +2466,6 @@ LConvertUnboxedObjectToNative
 *
 lir
 )
-override
 ;
 void
 emitArrayPopShift
@@ -2700,7 +2494,6 @@ LArrayPopShiftV
 *
 lir
 )
-override
 ;
 void
 visitArrayPopShiftT
@@ -2709,7 +2502,6 @@ LArrayPopShiftT
 *
 lir
 )
-override
 ;
 void
 emitArrayPush
@@ -2740,7 +2532,6 @@ LArrayPushV
 *
 lir
 )
-override
 ;
 void
 visitArrayPushT
@@ -2749,7 +2540,6 @@ LArrayPushT
 *
 lir
 )
-override
 ;
 void
 visitArraySlice
@@ -2758,7 +2548,6 @@ LArraySlice
 *
 lir
 )
-override
 ;
 void
 visitArrayJoin
@@ -2767,7 +2556,6 @@ LArrayJoin
 *
 lir
 )
-override
 ;
 void
 visitLoadUnboxedScalar
@@ -2776,7 +2564,6 @@ LLoadUnboxedScalar
 *
 lir
 )
-override
 ;
 void
 visitLoadTypedArrayElementHole
@@ -2785,7 +2572,6 @@ LLoadTypedArrayElementHole
 *
 lir
 )
-override
 ;
 void
 visitStoreUnboxedScalar
@@ -2794,7 +2580,6 @@ LStoreUnboxedScalar
 *
 lir
 )
-override
 ;
 void
 visitStoreTypedArrayElementHole
@@ -2803,7 +2588,6 @@ LStoreTypedArrayElementHole
 *
 lir
 )
-override
 ;
 void
 visitAtomicIsLockFree
@@ -2812,7 +2596,6 @@ LAtomicIsLockFree
 *
 lir
 )
-override
 ;
 void
 visitGuardSharedTypedArray
@@ -2821,7 +2604,6 @@ LGuardSharedTypedArray
 *
 lir
 )
-override
 ;
 void
 visitClampIToUint8
@@ -2830,7 +2612,6 @@ LClampIToUint8
 *
 lir
 )
-override
 ;
 void
 visitClampDToUint8
@@ -2839,7 +2620,6 @@ LClampDToUint8
 *
 lir
 )
-override
 ;
 void
 visitClampVToUint8
@@ -2848,7 +2628,6 @@ LClampVToUint8
 *
 lir
 )
-override
 ;
 void
 visitGetIteratorCache
@@ -2857,7 +2636,6 @@ LGetIteratorCache
 *
 lir
 )
-override
 ;
 void
 visitIteratorMore
@@ -2866,7 +2644,6 @@ LIteratorMore
 *
 lir
 )
-override
 ;
 void
 visitIsNoIterAndBranch
@@ -2875,7 +2652,6 @@ LIsNoIterAndBranch
 *
 lir
 )
-override
 ;
 void
 visitIteratorEnd
@@ -2884,7 +2660,6 @@ LIteratorEnd
 *
 lir
 )
-override
 ;
 void
 visitArgumentsLength
@@ -2893,7 +2668,6 @@ LArgumentsLength
 *
 lir
 )
-override
 ;
 void
 visitGetFrameArgument
@@ -2902,7 +2676,6 @@ LGetFrameArgument
 *
 lir
 )
-override
 ;
 void
 visitSetFrameArgumentT
@@ -2911,7 +2684,6 @@ LSetFrameArgumentT
 *
 lir
 )
-override
 ;
 void
 visitSetFrameArgumentC
@@ -2920,7 +2692,6 @@ LSetFrameArgumentC
 *
 lir
 )
-override
 ;
 void
 visitSetFrameArgumentV
@@ -2929,7 +2700,6 @@ LSetFrameArgumentV
 *
 lir
 )
-override
 ;
 void
 visitRunOncePrologue
@@ -2938,7 +2708,6 @@ LRunOncePrologue
 *
 lir
 )
-override
 ;
 void
 emitRest
@@ -2972,7 +2741,6 @@ LRest
 *
 lir
 )
-override
 ;
 void
 visitCallSetProperty
@@ -2981,7 +2749,6 @@ LCallSetProperty
 *
 ins
 )
-override
 ;
 void
 visitCallDeleteProperty
@@ -2990,7 +2757,6 @@ LCallDeleteProperty
 *
 lir
 )
-override
 ;
 void
 visitCallDeleteElement
@@ -2999,7 +2765,6 @@ LCallDeleteElement
 *
 lir
 )
-override
 ;
 void
 visitBitNotV
@@ -3008,7 +2773,6 @@ LBitNotV
 *
 lir
 )
-override
 ;
 void
 visitBitOpV
@@ -3017,7 +2781,6 @@ LBitOpV
 *
 lir
 )
-override
 ;
 void
 emitInstanceOf
@@ -3037,7 +2800,6 @@ LInCache
 *
 ins
 )
-override
 ;
 void
 visitInArray
@@ -3046,7 +2808,6 @@ LInArray
 *
 ins
 )
-override
 ;
 void
 visitInstanceOfO
@@ -3055,7 +2816,6 @@ LInstanceOfO
 *
 ins
 )
-override
 ;
 void
 visitInstanceOfV
@@ -3064,7 +2824,6 @@ LInstanceOfV
 *
 ins
 )
-override
 ;
 void
 visitInstanceOfCache
@@ -3073,7 +2832,6 @@ LInstanceOfCache
 *
 ins
 )
-override
 ;
 void
 visitGetDOMProperty
@@ -3082,7 +2840,6 @@ LGetDOMProperty
 *
 lir
 )
-override
 ;
 void
 visitGetDOMMemberV
@@ -3091,7 +2848,6 @@ LGetDOMMemberV
 *
 lir
 )
-override
 ;
 void
 visitGetDOMMemberT
@@ -3100,7 +2856,6 @@ LGetDOMMemberT
 *
 lir
 )
-override
 ;
 void
 visitSetDOMProperty
@@ -3109,7 +2864,6 @@ LSetDOMProperty
 *
 lir
 )
-override
 ;
 void
 visitCallDOMNative
@@ -3118,7 +2872,6 @@ LCallDOMNative
 *
 lir
 )
-override
 ;
 void
 visitCallGetIntrinsicValue
@@ -3127,7 +2880,6 @@ LCallGetIntrinsicValue
 *
 lir
 )
-override
 ;
 void
 visitCallBindVar
@@ -3136,7 +2888,6 @@ LCallBindVar
 *
 lir
 )
-override
 ;
 enum
 CallableOrConstructor
@@ -3169,7 +2920,6 @@ LIsCallableO
 *
 lir
 )
-override
 ;
 void
 visitIsCallableV
@@ -3178,7 +2928,6 @@ LIsCallableV
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineIsCallable
@@ -3195,7 +2944,6 @@ LIsConstructor
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineIsConstructor
@@ -3212,7 +2960,6 @@ LIsArrayO
 *
 lir
 )
-override
 ;
 void
 visitIsArrayV
@@ -3221,7 +2968,6 @@ LIsArrayV
 *
 lir
 )
-override
 ;
 void
 visitIsTypedArray
@@ -3230,7 +2976,6 @@ LIsTypedArray
 *
 lir
 )
-override
 ;
 void
 visitIsObject
@@ -3239,7 +2984,6 @@ LIsObject
 *
 lir
 )
-override
 ;
 void
 visitIsObjectAndBranch
@@ -3248,7 +2992,6 @@ LIsObjectAndBranch
 *
 lir
 )
-override
 ;
 void
 visitHasClass
@@ -3257,7 +3000,6 @@ LHasClass
 *
 lir
 )
-override
 ;
 void
 visitObjectClassToString
@@ -3266,7 +3008,6 @@ LObjectClassToString
 *
 lir
 )
-override
 ;
 void
 visitWasmParameter
@@ -3275,7 +3016,6 @@ LWasmParameter
 *
 lir
 )
-override
 ;
 void
 visitWasmParameterI64
@@ -3284,7 +3024,6 @@ LWasmParameterI64
 *
 lir
 )
-override
 ;
 void
 visitWasmReturn
@@ -3293,7 +3032,6 @@ LWasmReturn
 *
 ret
 )
-override
 ;
 void
 visitWasmReturnI64
@@ -3302,7 +3040,6 @@ LWasmReturnI64
 *
 ret
 )
-override
 ;
 void
 visitWasmReturnVoid
@@ -3311,7 +3048,6 @@ LWasmReturnVoid
 *
 ret
 )
-override
 ;
 void
 visitLexicalCheck
@@ -3320,7 +3056,6 @@ LLexicalCheck
 *
 ins
 )
-override
 ;
 void
 visitThrowRuntimeLexicalError
@@ -3329,7 +3064,6 @@ LThrowRuntimeLexicalError
 *
 ins
 )
-override
 ;
 void
 visitGlobalNameConflictsCheck
@@ -3338,7 +3072,6 @@ LGlobalNameConflictsCheck
 *
 ins
 )
-override
 ;
 void
 visitDebugger
@@ -3347,7 +3080,6 @@ LDebugger
 *
 ins
 )
-override
 ;
 void
 visitNewTarget
@@ -3356,7 +3088,6 @@ LNewTarget
 *
 ins
 )
-override
 ;
 void
 visitArrowNewTarget
@@ -3365,7 +3096,6 @@ LArrowNewTarget
 *
 ins
 )
-override
 ;
 void
 visitCheckReturn
@@ -3374,7 +3104,6 @@ LCheckReturn
 *
 ins
 )
-override
 ;
 void
 visitCheckIsObj
@@ -3383,7 +3112,6 @@ LCheckIsObj
 *
 ins
 )
-override
 ;
 void
 visitCheckIsCallable
@@ -3392,7 +3120,6 @@ LCheckIsCallable
 *
 ins
 )
-override
 ;
 void
 visitCheckObjCoercible
@@ -3401,7 +3128,6 @@ LCheckObjCoercible
 *
 ins
 )
-override
 ;
 void
 visitDebugCheckSelfHosted
@@ -3410,7 +3136,6 @@ LDebugCheckSelfHosted
 *
 ins
 )
-override
 ;
 void
 visitNaNToZero
@@ -3419,7 +3144,6 @@ LNaNToZero
 *
 ins
 )
-override
 ;
 void
 visitOutOfLineNaNToZero
@@ -3436,7 +3160,6 @@ LFinishBoundFunctionInit
 *
 lir
 )
-override
 ;
 void
 visitIsPackedArray
@@ -3445,7 +3168,6 @@ LIsPackedArray
 *
 lir
 )
-override
 ;
 void
 visitGetPrototypeOf
@@ -3454,7 +3176,6 @@ LGetPrototypeOf
 *
 lir
 )
-override
 ;
 void
 visitCheckOverRecursed
@@ -3463,7 +3184,6 @@ LCheckOverRecursed
 *
 lir
 )
-override
 ;
 void
 visitCheckOverRecursedFailure
@@ -3480,7 +3200,6 @@ LUnboxFloatingPoint
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineUnboxFloatingPoint
@@ -3530,7 +3249,6 @@ LGetPropertyCacheV
 *
 ins
 )
-override
 ;
 void
 visitGetPropertyCacheT
@@ -3539,7 +3257,6 @@ LGetPropertyCacheT
 *
 ins
 )
-override
 ;
 void
 visitGetPropSuperCacheV
@@ -3548,7 +3265,6 @@ LGetPropSuperCacheV
 *
 ins
 )
-override
 ;
 void
 visitBindNameCache
@@ -3557,7 +3273,6 @@ LBindNameCache
 *
 ins
 )
-override
 ;
 void
 visitCallSetProperty
@@ -3574,7 +3289,6 @@ LSetPropertyCache
 *
 ins
 )
-override
 ;
 void
 visitGetNameCache
@@ -3583,7 +3297,6 @@ LGetNameCache
 *
 ins
 )
-override
 ;
 void
 visitHasOwnCache
@@ -3592,7 +3305,6 @@ LHasOwnCache
 *
 ins
 )
-override
 ;
 void
 visitAssertRangeI
@@ -3601,7 +3313,6 @@ LAssertRangeI
 *
 ins
 )
-override
 ;
 void
 visitAssertRangeD
@@ -3610,7 +3321,6 @@ LAssertRangeD
 *
 ins
 )
-override
 ;
 void
 visitAssertRangeF
@@ -3619,7 +3329,6 @@ LAssertRangeF
 *
 ins
 )
-override
 ;
 void
 visitAssertRangeV
@@ -3628,7 +3337,6 @@ LAssertRangeV
 *
 ins
 )
-override
 ;
 void
 visitAssertResultV
@@ -3637,7 +3345,6 @@ LAssertResultV
 *
 ins
 )
-override
 ;
 void
 visitAssertResultT
@@ -3646,7 +3353,6 @@ LAssertResultT
 *
 ins
 )
-override
 ;
 void
 emitAssertResultV
@@ -3680,7 +3386,6 @@ LInterruptCheck
 *
 lir
 )
-override
 ;
 void
 visitOutOfLineInterruptCheckImplicit
@@ -3697,7 +3402,6 @@ LWasmTrap
 *
 lir
 )
-override
 ;
 void
 visitWasmLoadTls
@@ -3706,7 +3410,6 @@ LWasmLoadTls
 *
 ins
 )
-override
 ;
 void
 visitWasmBoundsCheck
@@ -3715,7 +3418,6 @@ LWasmBoundsCheck
 *
 ins
 )
-override
 ;
 void
 visitWasmAlignmentCheck
@@ -3724,7 +3426,6 @@ LWasmAlignmentCheck
 *
 ins
 )
-override
 ;
 void
 visitRecompileCheck
@@ -3733,7 +3434,6 @@ LRecompileCheck
 *
 ins
 )
-override
 ;
 void
 visitRotate
@@ -3742,7 +3442,6 @@ LRotate
 *
 ins
 )
-override
 ;
 void
 visitRandom
@@ -3751,7 +3450,6 @@ LRandom
 *
 ins
 )
-override
 ;
 void
 visitSignExtendInt32
@@ -3760,7 +3458,6 @@ LSignExtendInt32
 *
 ins
 )
-override
 ;
 #
 ifdef
