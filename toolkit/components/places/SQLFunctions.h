@@ -646,7 +646,7 @@ IsFrecencyDecayingFunction
 }
 ;
 class
-UpdateFrecencyStatsFunction
+SqrtFunction
 final
 :
 public
@@ -668,7 +668,7 @@ aDBConn
 private
 :
 ~
-UpdateFrecencyStatsFunction
+SqrtFunction
 (
 )
 {
