@@ -22,6 +22,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -813,7 +820,7 @@ id
 num_additional_types
 )
 >
-256
+UINT8_MAX
 )
 return
 false
