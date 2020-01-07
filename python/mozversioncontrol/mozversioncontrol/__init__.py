@@ -1435,10 +1435,14 @@ close
 )
     
 def
-_run_in_client
+_run
 (
 self
+*
 args
+*
+*
+runargs
 )
 :
         
@@ -1451,16 +1455,20 @@ _client
 server
 :
             
-raise
-Exception
+return
+super
 (
-'
-active
 HgRepository
-context
-manager
-required
-'
+self
+)
+.
+_run
+(
+*
+args
+*
+*
+runargs
 )
         
 return
@@ -1918,9 +1926,8 @@ in
                     
 self
 .
-_run_in_client
+_run
 (
-[
 b
 '
 files
@@ -1930,7 +1937,6 @@ b
 -
 0
 '
-]
 )
 .
 split
@@ -1941,7 +1947,6 @@ b
 0
 '
 )
-                    
 if
 p
 )
@@ -2036,8 +2041,9 @@ len
 (
 self
 .
-_run_in_client
+_run
 (
+*
 args
 )
 .
