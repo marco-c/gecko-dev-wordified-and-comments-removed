@@ -68,6 +68,12 @@ DecoderDoctorLogger
 public
 :
 static
+void
+Init
+(
+)
+;
+static
 inline
 bool
 IsDDLoggingEnabled
