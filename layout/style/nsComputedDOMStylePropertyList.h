@@ -865,6 +865,16 @@ ScrollSnapTypeY
 )
 COMPUTED_STYLE_PROP
 (
+scrollbar_face_color
+ScrollbarFaceColor
+)
+COMPUTED_STYLE_PROP
+(
+scrollbar_track_color
+ScrollbarTrackColor
+)
+COMPUTED_STYLE_PROP
+(
 shape_image_threshold
 ShapeImageThreshold
 )
