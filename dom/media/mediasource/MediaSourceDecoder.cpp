@@ -52,6 +52,13 @@ h
 #
 include
 "
+SourceBuffer
+.
+h
+"
+#
+include
+"
 SourceBufferList
 .
 h
