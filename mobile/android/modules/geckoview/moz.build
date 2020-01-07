@@ -150,6 +150,11 @@ GeckoViewUtils
 jsm
 '
 '
+LoadURIDelegate
+.
+jsm
+'
+'
 Messaging
 .
 jsm
