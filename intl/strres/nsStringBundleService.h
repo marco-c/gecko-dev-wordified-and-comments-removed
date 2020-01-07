@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIStringBundleOverride
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -308,12 +301,6 @@ nsCOMPtr
 nsIErrorService
 >
 mErrorService
-;
-nsCOMPtr
-<
-nsIStringBundleOverride
->
-mOverrideStrings
 ;
 }
 ;

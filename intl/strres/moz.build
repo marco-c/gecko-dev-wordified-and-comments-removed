@@ -108,11 +108,6 @@ nsIStringBundle
 .
 idl
 '
-'
-nsIStringBundleOverride
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -125,11 +120,6 @@ UNIFIED_SOURCES
 [
 '
 nsStringBundle
-.
-cpp
-'
-'
-nsStringBundleTextOverride
 .
 cpp
 '
