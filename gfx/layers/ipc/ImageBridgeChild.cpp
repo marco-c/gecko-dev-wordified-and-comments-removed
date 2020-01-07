@@ -2168,15 +2168,6 @@ return
 ;
 }
 }
-void
-ImageBridgeChild
-:
-:
-SendImageBridgeThreadId
-(
-)
-{
-}
 bool
 ImageBridgeChild
 :
@@ -2409,10 +2400,6 @@ mCanSend
 =
 true
 ;
-SendImageBridgeThreadId
-(
-)
-;
 }
 void
 ImageBridgeChild
@@ -2475,10 +2462,6 @@ AddRef
 mCanSend
 =
 true
-;
-SendImageBridgeThreadId
-(
-)
 ;
 }
 void
