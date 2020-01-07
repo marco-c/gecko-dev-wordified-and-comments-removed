@@ -239,6 +239,9 @@ class
 InterceptStreamListener
 ;
 class
+SyntheticDiversionListener
+;
+class
 HttpChannelChild
 final
 :
@@ -1833,6 +1836,10 @@ InterceptStreamListener
 friend
 class
 InterceptedChannelContent
+;
+friend
+class
+SyntheticDiversionListener
 ;
 friend
 class
