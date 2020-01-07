@@ -1732,7 +1732,7 @@ wrap
 (
 rule
 .
-clone_conditionally_gecko_or_servo
+clone
 (
 )
 )
