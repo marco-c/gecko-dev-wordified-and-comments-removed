@@ -936,7 +936,7 @@ be
 included
 after
 "
-jsscript
+jstypes
 .
 h
 "

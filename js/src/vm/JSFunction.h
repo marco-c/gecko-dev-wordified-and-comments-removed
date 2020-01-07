@@ -1,9 +1,9 @@
 #
 ifndef
-jsfun_h
+vm_JSFunction_h
 #
 define
-jsfun_h
+vm_JSFunction_h
 #
 include
 "

@@ -2233,11 +2233,6 @@ jsfriendapi
 cpp
 '
 '
-jsfun
-.
-cpp
-'
-'
 jsgc
 .
 cpp
@@ -2515,6 +2510,13 @@ cpp
 vm
 /
 Initialization
+.
+cpp
+'
+'
+vm
+/
+JSFunction
 .
 cpp
 '

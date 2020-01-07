@@ -17,7 +17,9 @@ h
 #
 include
 "
-jsfun
+vm
+/
+JSFunction
 .
 h
 "
