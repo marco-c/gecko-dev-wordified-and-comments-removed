@@ -144,11 +144,6 @@ SVGViewElement
 :
 SVGElement
 {
-readonly
-attribute
-SVGStringList
-viewTarget
-;
 }
 ;
 SVGViewElement
