@@ -12188,6 +12188,9 @@ installTemporaryAddon
 isInstallAllowed
 "
 "
+isInstallEnabled
+"
+"
 uninstallAddon
 "
 "
