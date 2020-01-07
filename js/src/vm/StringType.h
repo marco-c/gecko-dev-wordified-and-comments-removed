@@ -7151,6 +7151,17 @@ int32_t
 lengthInt
 )
 ;
+UniqueChars
+EncodeLatin1
+(
+JSContext
+*
+cx
+JSString
+*
+str
+)
+;
 extern
 const
 char
