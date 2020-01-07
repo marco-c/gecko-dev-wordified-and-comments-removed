@@ -546,7 +546,7 @@ slot
 -
 >
 isPresentCondition
-0
+PR_INTERVAL_NO_TIMEOUT
 )
 ;
 }
