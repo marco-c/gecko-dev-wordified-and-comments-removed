@@ -10,7 +10,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -167,7 +167,7 @@ uninit
 let
 getMostRecentBrowserWindowCopy
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 ;
@@ -176,7 +176,7 @@ defaultWindow
 =
 window
 ;
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 =
@@ -216,7 +216,7 @@ cleanUp
 (
 )
 {
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 =

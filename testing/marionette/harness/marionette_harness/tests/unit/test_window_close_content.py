@@ -741,7 +741,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -751,7 +751,7 @@ jsm
 let
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

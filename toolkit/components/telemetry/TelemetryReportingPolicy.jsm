@@ -1471,7 +1471,7 @@ try
 {
 const
 {
-RecentWindow
+BrowserWindowTracker
 }
 =
 ChromeUtils
@@ -1486,7 +1486,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -1496,7 +1496,7 @@ jsm
 ;
 win
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

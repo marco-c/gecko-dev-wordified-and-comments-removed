@@ -6212,7 +6212,7 @@ visible
 let
 browserWindow
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (

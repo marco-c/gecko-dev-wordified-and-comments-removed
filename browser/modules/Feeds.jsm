@@ -79,7 +79,7 @@ defineModuleGetter
 (
 this
 "
-RecentWindow
+BrowserWindowTracker
 "
 "
 resource
@@ -89,7 +89,7 @@ resource
 /
 modules
 /
-RecentWindow
+BrowserWindowTracker
 .
 jsm
 "
@@ -309,7 +309,7 @@ addLiveBookmark
 let
 topWindow
 =
-RecentWindow
+BrowserWindowTracker
 .
 getMostRecentBrowserWindow
 (
