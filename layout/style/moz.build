@@ -1316,6 +1316,11 @@ PreloadedStyleSheet
 cpp
 '
 '
+Rule
+.
+cpp
+'
+'
 RuleNodeCacheConditions
 .
 cpp
