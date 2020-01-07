@@ -115,7 +115,7 @@ NS_DECL_NSITRANSLATIONNODELIST
 void
 AppendElement
 (
-nsIDOMNode
+nsINode
 *
 aElement
 bool
@@ -153,7 +153,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 >
 mNodes

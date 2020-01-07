@@ -10509,7 +10509,7 @@ aIncludeSelf
 docEncoder
 -
 >
-SetNativeNode
+SetNode
 (
 this
 )
@@ -10520,7 +10520,7 @@ else
 docEncoder
 -
 >
-SetNativeContainerNode
+SetContainerNode
 (
 this
 )

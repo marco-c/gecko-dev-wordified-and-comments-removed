@@ -135,12 +135,6 @@ nsViewID
 ;
 /
 /
-Core
-interface
-nsIDOMNode
-;
-/
-/
 Needed
 for
 raises

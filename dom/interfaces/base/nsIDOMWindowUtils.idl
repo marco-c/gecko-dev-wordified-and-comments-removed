@@ -257,9 +257,6 @@ interface
 nsICycleCollectorListener
 ;
 interface
-nsIDOMNode
-;
-interface
 nsIPreloadedStyleSheet
 ;
 interface
@@ -306,6 +303,9 @@ EventTarget
 ;
 webidl
 Event
+;
+webidl
+Node
 ;
 webidl
 NodeList
@@ -5457,7 +5457,7 @@ nsITranslationNodeList
 getTranslationNodes
 (
 in
-nsIDOMNode
+Node
 aRoot
 )
 ;
@@ -6430,7 +6430,7 @@ boolean
 dispatchDOMEventViaPresShell
 (
 in
-nsIDOMNode
+Node
 aTarget
 in
 Event
@@ -9474,8 +9474,8 @@ void
 setAsyncScrollOffset
 (
 in
-nsIDOMNode
-aNode
+Element
+aElement
 in
 float
 aX
@@ -9549,7 +9549,7 @@ void
 setAsyncZoom
 (
 in
-nsIDOMNode
+Element
 aRootElement
 in
 float
@@ -11259,7 +11259,7 @@ boolean
 isNodeDisabledForEvents
 (
 in
-nsIDOMNode
+Node
 aNode
 )
 ;
@@ -12159,7 +12159,7 @@ void
 forceUseCounterFlush
 (
 in
-nsIDOMNode
+Node
 aNode
 )
 ;
@@ -12900,7 +12900,7 @@ unsigned
 long
 length
 ;
-nsIDOMNode
+Node
 item
 (
 in

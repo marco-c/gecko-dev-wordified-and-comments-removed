@@ -2181,7 +2181,7 @@ rv
 docEncoder
 -
 >
-SetNativeNode
+SetNode
 (
 aDOMNode
 )
