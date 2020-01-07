@@ -1122,14 +1122,12 @@ i
 {
 FloatRegister
 alias
-;
+=
 reg
 .
 alignedAliased
 (
 i
-&
-alias
 )
 ;
 if

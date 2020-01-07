@@ -456,14 +456,11 @@ return
 1
 ;
 }
-void
+Register
 aliased
 (
 uint32_t
 aliasIdx
-Register
-*
-ret
 )
 const
 {
@@ -475,9 +472,7 @@ aliasIdx
 0
 )
 ;
-*
-ret
-=
+return
 *
 this
 ;
