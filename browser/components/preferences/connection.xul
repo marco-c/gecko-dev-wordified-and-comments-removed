@@ -669,7 +669,7 @@ proxy
 -
 option
 -
-system
+auto
 "
 /
 >
@@ -693,7 +693,7 @@ proxy
 -
 option
 -
-auto
+system
 "
 id
 =
