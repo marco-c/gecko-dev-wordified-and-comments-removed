@@ -548,6 +548,9 @@ lastIndex
 "
 then
 "
+"
+isInstance
+"
 }
 ;
 class

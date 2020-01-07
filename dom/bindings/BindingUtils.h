@@ -11925,13 +11925,6 @@ JS
 Value
 *
 vp
-prototypes
-:
-:
-ID
-prototypeID
-int
-depth
 )
 ;
 bool
