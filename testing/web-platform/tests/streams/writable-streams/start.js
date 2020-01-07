@@ -1027,15 +1027,11 @@ reject
 ;
 }
 }
-new
-CountQueuingStrategy
-(
 {
 highWaterMark
 :
 0
 }
-)
 )
 ;
 const
