@@ -1463,11 +1463,11 @@ super
 :
 :
 {
-U2FDevice
 init_device
 ping_device
-sendrecv
 send_apdu
+sendrecv
+U2FDevice
 }
 ;
 use
@@ -1475,10 +1475,10 @@ consts
 :
 :
 {
-CID_BROADCAST
 U2FHID_INIT
-U2FHID_PING
 U2FHID_MSG
+U2FHID_PING
+CID_BROADCAST
 SW_NO_ERROR
 }
 ;

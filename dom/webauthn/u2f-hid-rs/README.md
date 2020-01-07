@@ -268,6 +268,10 @@ variable
 :
 cargo
 build
+-
+-
+example
+main
 RUST_LOG
 =
 debug
@@ -432,10 +436,9 @@ cargo
 -
 fuzz
 /
-rustup
-run
-nightly
 cargo
++
+nightly
 fuzz
 run
 u2f_read
@@ -445,10 +448,9 @@ u2f_read
 max_len
 =
 512
-rustup
-run
-nightly
 cargo
++
+nightly
 fuzz
 run
 u2f_read_write

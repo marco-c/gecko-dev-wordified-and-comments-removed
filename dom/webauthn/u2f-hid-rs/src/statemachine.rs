@@ -512,7 +512,6 @@ transaction
 |
 _
 |
-{
 cbc
 .
 call
@@ -531,7 +530,6 @@ transaction
 )
 )
 )
-}
 )
 )
 ;
@@ -733,11 +731,13 @@ empty
 t
 k
 |
+{
 t
 |
 k
 .
 transports
+}
 )
 ;
 if
@@ -896,7 +896,6 @@ transaction
 |
 _
 |
-{
 cbc
 .
 call
@@ -915,7 +914,6 @@ transaction
 )
 )
 )
-}
 )
 )
 ;

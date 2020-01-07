@@ -356,6 +356,7 @@ move
 |
 alive
 |
+{
 if
 alive
 (
@@ -367,6 +368,7 @@ path
 alive
 )
 ;
+}
 }
 )
 ;

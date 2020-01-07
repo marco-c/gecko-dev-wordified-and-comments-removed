@@ -16,8 +16,8 @@ mpsc
 :
 {
 channel
-Sender
 RecvTimeoutError
+Sender
 }
 ;
 use
