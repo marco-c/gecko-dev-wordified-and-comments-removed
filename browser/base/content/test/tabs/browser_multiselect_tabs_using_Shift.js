@@ -46,7 +46,7 @@ mSelectedTabs
 =
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 ;
 await
 BrowserTestUtils
@@ -336,7 +336,7 @@ mSelectedTabs
 =
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 ;
 await
 BrowserTestUtils
@@ -657,7 +657,7 @@ mSelectedTabs
 =
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 ;
 await
 BrowserTestUtils
