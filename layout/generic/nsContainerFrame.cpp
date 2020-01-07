@@ -8445,6 +8445,11 @@ ol
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None

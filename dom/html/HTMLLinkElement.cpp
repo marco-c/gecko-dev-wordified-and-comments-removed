@@ -872,7 +872,7 @@ aDoc
 return
 ;
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray

@@ -2071,6 +2071,11 @@ placeholderTxt
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None

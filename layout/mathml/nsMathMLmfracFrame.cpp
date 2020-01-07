@@ -960,6 +960,11 @@ value
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -983,6 +988,11 @@ fontSizeInflation
 )
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr
@@ -1616,6 +1626,11 @@ rightSpace
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1666,6 +1681,11 @@ Width
 )
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

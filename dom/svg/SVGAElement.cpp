@@ -915,7 +915,7 @@ aURI
 const
 {
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -938,7 +938,7 @@ nullptr
 }
 ;
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -966,7 +966,7 @@ nullptr
 }
 ;
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -1029,7 +1029,7 @@ eCaseMatters
 )
 !
 =
-nsIContent
+Element
 :
 :
 ATTR_VALUE_NO_MATCH
@@ -1047,7 +1047,7 @@ eCaseMatters
 )
 !
 =
-nsIContent
+Element
 :
 :
 ATTR_VALUE_NO_MATCH
@@ -1065,7 +1065,7 @@ eCaseMatters
 )
 !
 =
-nsIContent
+Element
 :
 :
 ATTR_VALUE_NO_MATCH
@@ -1166,7 +1166,7 @@ IsEmpty
 )
 {
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray

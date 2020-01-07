@@ -177,6 +177,11 @@ if
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -230,6 +235,11 @@ return
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -259,6 +269,11 @@ UnselectAll
 {
 return
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 HasAttr
@@ -543,6 +558,11 @@ aName
 )
 {
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

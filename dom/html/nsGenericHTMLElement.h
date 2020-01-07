@@ -3073,7 +3073,7 @@ const
 {
 static
 const
-nsIContent
+Element
 :
 :
 AttrValuesArray

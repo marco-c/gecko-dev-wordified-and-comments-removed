@@ -2527,6 +2527,11 @@ rows
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -2556,6 +2561,11 @@ dummy
 )
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

@@ -4178,9 +4178,9 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
-nsIContent
+Element
 *
-aContent
+aElement
 nsIPrincipal
 *
 aPrincipal
@@ -4218,10 +4218,10 @@ NS_OK
 MOZ_ASSERT
 (
 !
-aContent
+aElement
 |
 |
-aContent
+aElement
 -
 >
 NodeInfo
@@ -4239,7 +4239,7 @@ nsGkAtoms
 :
 style
 "
-aContent
+aElement
 passed
 to
 CSPAllowsInlineStyle
@@ -4343,10 +4343,10 @@ nonce
 ;
 if
 (
-aContent
+aElement
 )
 {
-aContent
+aElement
 -
 >
 GetAttr

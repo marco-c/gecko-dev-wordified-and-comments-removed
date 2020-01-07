@@ -340,7 +340,7 @@ bool
 aNotify
 )
 ;
-nsIContent
+Element
 *
 mGrandparent
 ;
@@ -1195,6 +1195,11 @@ aParent
 -
 >
 GetParent
+(
+)
+-
+>
+AsElement
 (
 )
 ;

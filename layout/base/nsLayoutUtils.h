@@ -4937,7 +4937,13 @@ aTarget
 )
 ;
 static
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetEditableRootContentByContentEditable
 (

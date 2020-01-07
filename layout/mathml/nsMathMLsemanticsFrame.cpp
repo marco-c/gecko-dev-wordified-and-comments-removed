@@ -234,6 +234,11 @@ if
 childContent
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -271,6 +276,11 @@ if
 childContent
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -286,6 +296,11 @@ nsAutoString
 value
 ;
 childContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

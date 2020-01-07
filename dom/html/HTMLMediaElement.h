@@ -2711,7 +2711,7 @@ LoadResource
 (
 )
 ;
-nsIContent
+Element
 *
 GetNextSource
 (

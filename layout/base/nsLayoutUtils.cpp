@@ -39153,7 +39153,7 @@ aTarget
 )
 ;
 }
-nsIContent
+Element
 *
 nsLayoutUtils
 :
@@ -39255,7 +39255,7 @@ body
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 content
 =

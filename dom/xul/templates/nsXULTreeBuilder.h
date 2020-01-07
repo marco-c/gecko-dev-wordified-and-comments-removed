@@ -741,7 +741,13 @@ Element
 aResult
 )
 ;
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetTemplateActionCellFor
 (

@@ -1286,6 +1286,11 @@ if
 child
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1343,6 +1348,11 @@ if
 child
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1391,7 +1401,7 @@ parameterCount
 ;
 }
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray
@@ -1442,6 +1452,11 @@ int32_t
 typeValue
 =
 child
+-
+>
+AsElement
+(
+)
 -
 >
 FindAttrValueIn
@@ -1627,7 +1642,7 @@ case
 5
 :
 case
-nsIContent
+Element
 :
 :
 ATTR_MISSING
