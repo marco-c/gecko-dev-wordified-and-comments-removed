@@ -608,7 +608,7 @@ SCALE_NONE
 !
 sourceRect
 .
-IsZero
+IsZeroArea
 (
 )
 )

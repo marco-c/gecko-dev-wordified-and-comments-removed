@@ -2853,7 +2853,7 @@ if
 (
 rect
 .
-IsZero
+IsZeroArea
 (
 )
 )

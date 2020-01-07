@@ -194,7 +194,7 @@ IsEmpty
 !
 rect1
 .
-IsZero
+IsZeroArea
 (
 )
 &
@@ -217,7 +217,7 @@ IsEmpty
 !
 rect2
 .
-IsZero
+IsZeroArea
 (
 )
 &
@@ -2199,7 +2199,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -2401,7 +2401,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -2585,7 +2585,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -2789,7 +2789,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -2880,7 +2880,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -2964,7 +2964,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -3049,7 +3049,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -3134,7 +3134,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -3233,7 +3233,7 @@ IsEmpty
 !
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 &
@@ -3313,7 +3313,7 @@ IsEmpty
 !
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 &
@@ -3394,7 +3394,7 @@ IsEmpty
 &
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -3474,7 +3474,7 @@ IsEmpty
 !
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 &
@@ -3603,7 +3603,7 @@ IsEmpty
 !
 dest
 .
-IsZero
+IsZeroArea
 (
 )
 &

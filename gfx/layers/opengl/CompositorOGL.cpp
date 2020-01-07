@@ -2604,7 +2604,7 @@ MOZ_ASSERT
 !
 aRect
 .
-IsZero
+IsZeroArea
 (
 )
 "
@@ -2624,7 +2624,7 @@ if
 (
 aRect
 .
-IsZero
+IsZeroArea
 (
 )
 )
@@ -2746,7 +2746,7 @@ MOZ_ASSERT
 !
 aRect
 .
-IsZero
+IsZeroArea
 (
 )
 "
@@ -2766,7 +2766,7 @@ if
 (
 aRect
 .
-IsZero
+IsZeroArea
 (
 )
 )
