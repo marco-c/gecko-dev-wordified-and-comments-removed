@@ -18292,10 +18292,6 @@ needContentRepaint
 =
 true
 ;
-ScheduleComposite
-(
-)
-;
 }
 else
 if
