@@ -3306,7 +3306,7 @@ NS_LITERAL_STRING
 cancel
 "
 )
-TimeStamp
+GetTimelineCurrentTimeAsTimeStamp
 (
 )
 )
