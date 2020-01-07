@@ -4041,16 +4041,6 @@ Call
 (
 )
 {
-MOZ_ASSERT
-(
-nsContentUtils
-:
-:
-IsSafeToRunScript
-(
-)
-)
-;
 ErrorResult
 error
 ;
