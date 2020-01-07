@@ -35619,7 +35619,7 @@ register
 "
 webauthn
 .
-registerPrompt
+registerPrompt2
 "
 origin
 mainAction
@@ -35721,7 +35721,7 @@ direct
 "
 webauthn
 .
-registerDirectPrompt
+registerDirectPrompt2
 "
 origin
 mainAction
@@ -35761,7 +35761,7 @@ sign
 "
 webauthn
 .
-signPrompt
+signPrompt2
 "
 origin
 mainAction
