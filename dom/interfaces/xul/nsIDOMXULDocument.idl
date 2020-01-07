@@ -135,11 +135,6 @@ nsIDOMDocument
 {
 readonly
 attribute
-nsIDOMXULCommandDispatcher
-commandDispatcher
-;
-readonly
-attribute
 long
 width
 ;
