@@ -51,6 +51,17 @@ required_prefs
 {
         
 "
+app
+.
+normandy
+.
+api_url
+"
+:
+"
+"
+        
+"
 apz
 .
 content_response_timeout
@@ -183,9 +194,13 @@ installDistroAddons
 False
         
 "
-app
+extensions
 .
-normandy
+shield
+-
+recipe
+-
+client
 .
 api_url
 "
