@@ -91,13 +91,13 @@ T
 <
 !
 ENTITY
-newWindowsAsTabs2
+newWindowsAsTabs3
 .
 label
 "
 Open
 links
-as
+in
 tabs
 instead
 of
@@ -108,7 +108,7 @@ windows
 <
 !
 ENTITY
-newWindowsAsTabs2
+newWindowsAsTabs3
 .
 accesskey
 "

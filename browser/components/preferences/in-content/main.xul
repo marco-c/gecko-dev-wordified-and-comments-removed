@@ -1291,7 +1291,7 @@ label
 =
 "
 &
-newWindowsAsTabs2
+newWindowsAsTabs3
 .
 label
 ;
@@ -1300,7 +1300,7 @@ accesskey
 =
 "
 &
-newWindowsAsTabs2
+newWindowsAsTabs3
 .
 accesskey
 ;
