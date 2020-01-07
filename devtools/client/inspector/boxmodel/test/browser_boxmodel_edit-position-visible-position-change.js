@@ -75,11 +75,11 @@ TEST_URI
 let
 {
 inspector
-boxmodel
+view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -96,7 +96,7 @@ inspector
 let
 editPositionButton
 =
-boxmodel
+view
 .
 document
 .
@@ -131,7 +131,7 @@ initially
 let
 positionLeftTextbox
 =
-boxmodel
+view
 .
 document
 .
@@ -198,7 +198,7 @@ synthesizeMouseAtCenter
 positionLeftTextbox
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -214,7 +214,7 @@ synthesizeKey
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -230,7 +230,7 @@ VK_RETURN
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -242,7 +242,7 @@ onUpdate
 ;
 editPositionButton
 =
-boxmodel
+view
 .
 document
 .

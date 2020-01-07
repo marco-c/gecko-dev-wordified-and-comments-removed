@@ -136,12 +136,12 @@ TEST_URI
 let
 {
 inspector
-boxmodel
+view
 testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -220,7 +220,7 @@ inspector
 let
 span
 =
-boxmodel
+view
 .
 document
 .
@@ -267,7 +267,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -277,7 +277,7 @@ defaultView
 let
 editor
 =
-boxmodel
+view
 .
 document
 .
@@ -334,7 +334,7 @@ synthesizeKey
 "
 {
 }
-boxmodel
+view
 .
 document
 .
@@ -441,7 +441,7 @@ VK_ESCAPE
 "
 {
 }
-boxmodel
+view
 .
 document
 .

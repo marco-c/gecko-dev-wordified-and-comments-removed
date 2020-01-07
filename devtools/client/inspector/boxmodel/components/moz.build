@@ -93,6 +93,11 @@ BoxModel
 js
 '
 '
+BoxModelApp
+.
+js
+'
+'
 BoxModelEditable
 .
 js

@@ -188,11 +188,11 @@ TEST_URI
 let
 {
 inspector
-boxmodel
+view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -244,7 +244,7 @@ yield
 testPositionValues
 (
 inspector
-boxmodel
+view
 )
 ;
 }
@@ -255,7 +255,7 @@ function
 testPositionValues
 (
 inspector
-boxmodel
+view
 )
 {
 info
@@ -276,9 +276,9 @@ correct
 )
 ;
 let
-doc
+viewdoc
 =
-boxmodel
+view
 .
 document
 ;
@@ -303,7 +303,7 @@ i
 let
 elt
 =
-doc
+viewdoc
 .
 querySelector
 (
