@@ -370,8 +370,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 Reflect_ownKeys
 (
 JSContext

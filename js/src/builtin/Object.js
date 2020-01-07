@@ -15,7 +15,7 @@ O
 var
 keys
 =
-OwnPropertyKeys
+std_Reflect_ownKeys
 (
 obj
 )
