@@ -753,7 +753,9 @@ return
 current_distance
 ;
 }
-return
+float
+distance
+=
 distance_to_ellipse
 (
 pos
@@ -765,6 +767,13 @@ ellipse_center_radius
 .
 zw
 aa_range
+)
+;
+return
+max
+(
+distance
+current_distance
 )
 ;
 }

@@ -1067,6 +1067,7 @@ width
 }
 }
 }
+pub
 fn
 ensure_no_corner_overlap
 (
@@ -1075,10 +1076,10 @@ radius
 &
 mut
 BorderRadius
-info
+rect
 :
 &
-LayerPrimitiveInfo
+LayerRect
 )
 {
 let
@@ -1137,8 +1138,6 @@ bottom_left_radius
 width
 ;
 if
-info
-.
 rect
 .
 size
@@ -1155,8 +1154,6 @@ f32
 min
 (
 ratio
-info
-.
 rect
 .
 size
@@ -1179,8 +1176,6 @@ bottom_right_radius
 width
 ;
 if
-info
-.
 rect
 .
 size
@@ -1197,8 +1192,6 @@ f32
 min
 (
 ratio
-info
-.
 rect
 .
 size
@@ -1221,8 +1214,6 @@ bottom_left_radius
 height
 ;
 if
-info
-.
 rect
 .
 size
@@ -1239,8 +1230,6 @@ f32
 min
 (
 ratio
-info
-.
 rect
 .
 size
@@ -1263,8 +1252,6 @@ bottom_right_radius
 height
 ;
 if
-info
-.
 rect
 .
 size
@@ -1281,8 +1268,6 @@ f32
 min
 (
 ratio
-info
-.
 rect
 .
 size
@@ -1749,6 +1734,8 @@ border
 radius
 &
 info
+.
+rect
 )
 ;
 let

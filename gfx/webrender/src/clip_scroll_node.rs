@@ -3164,6 +3164,14 @@ zero
 (
 )
 ;
+let
+translation
+=
+-
+info
+.
+origin_in_parent_reference_frame
+;
 state
 .
 nearest_scrolling_ancestor_viewport
@@ -3175,9 +3183,7 @@ nearest_scrolling_ancestor_viewport
 translate
 (
 &
-info
-.
-origin_in_parent_reference_frame
+translation
 )
 ;
 }
