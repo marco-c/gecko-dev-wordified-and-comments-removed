@@ -405,6 +405,12 @@ AutoGCRooter
 parser
 )
 ;
+#
+if
+defined
+(
+JS_BUILD_BINAST
+)
 void
 TraceBinParser
 (
@@ -419,6 +425,8 @@ AutoGCRooter
 parser
 )
 ;
+#
+endif
 class
 MOZ_STACK_CLASS
 AutoFrontendTraceLog
