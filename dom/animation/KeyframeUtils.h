@@ -176,8 +176,6 @@ IsAnimatableProperty
 (
 nsCSSPropertyID
 aProperty
-StyleBackendType
-aBackend
 )
 ;
 }

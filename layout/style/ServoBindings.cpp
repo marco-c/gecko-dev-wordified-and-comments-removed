@@ -2863,10 +2863,6 @@ EffectCompositor
 >
 UpdateCascadeResults
 (
-StyleBackendType
-:
-:
-Servo
 *
 effectSet
 const_cast
@@ -2878,7 +2874,6 @@ Element
 aElement
 )
 pseudoType
-nullptr
 )
 ;
 }

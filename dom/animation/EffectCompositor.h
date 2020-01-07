@@ -371,8 +371,6 @@ static
 void
 MaybeUpdateCascadeResults
 (
-StyleBackendType
-aBackendType
 dom
 :
 :
@@ -381,17 +379,12 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-ComputedStyle
-*
-aComputedStyle
 )
 ;
 static
 void
 UpdateCascadeResults
 (
-StyleBackendType
-aBackendType
 EffectSet
 &
 aEffectSet
@@ -403,9 +396,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-ComputedStyle
-*
-aComputedStyle
 )
 ;
 static
@@ -501,8 +491,6 @@ static
 nsCSSPropertyIDSet
 GetOverriddenProperties
 (
-StyleBackendType
-aBackendType
 EffectSet
 &
 aEffectSet
@@ -514,9 +502,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-ComputedStyle
-*
-aComputedStyle
 )
 ;
 static
