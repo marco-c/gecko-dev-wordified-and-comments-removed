@@ -203,6 +203,7 @@ urlbar
 .
 maxRichResults
 "
+10
 )
 /
 4
