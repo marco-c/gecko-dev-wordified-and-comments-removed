@@ -1869,8 +1869,9 @@ nsINode
 aNode2
 )
 ;
+MOZ_MUST_USE
 nsresult
-RemoveEmptyNodes
+RemoveEmptyNodesInChangedRange
 (
 )
 ;
