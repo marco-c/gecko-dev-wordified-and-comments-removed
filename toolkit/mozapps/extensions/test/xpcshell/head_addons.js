@@ -684,11 +684,6 @@ test_bug655254
 js
 "
 "
-test_checkcompatibility
-.
-js
-"
-"
 test_signed_verify
 .
 js
