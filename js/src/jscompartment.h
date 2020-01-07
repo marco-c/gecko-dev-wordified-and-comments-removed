@@ -3298,11 +3298,6 @@ warnedAboutExprClosure
 :
 1
 ;
-bool
-warnedAboutForEach
-:
-1
-;
 uint32_t
 warnedAboutStringGenericsMethods
 ;
