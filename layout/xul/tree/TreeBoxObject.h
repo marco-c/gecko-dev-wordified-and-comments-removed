@@ -50,6 +50,12 @@ TreeCellInfo
 class
 DOMRect
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 class
 TreeBoxObject
 final
@@ -140,6 +146,7 @@ nsITreeView
 >
 GetView
 (
+CallerType
 )
 ;
 void
@@ -148,6 +155,8 @@ SetView
 nsITreeView
 *
 arg
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

@@ -190,6 +190,7 @@ value
 /
 [
 SetterThrows
+NeedsCallerType
 ]
 attribute
 MozTreeView

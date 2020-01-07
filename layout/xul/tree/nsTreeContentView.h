@@ -111,7 +111,7 @@ nsTreeContentView
 final
 :
 public
-nsINativeTreeView
+nsITreeView
 public
 nsITreeContentView
 public
@@ -130,7 +130,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsTreeContentView
-nsINativeTreeView
+nsITreeView
 )
 virtual
 JSObject
@@ -650,16 +650,6 @@ aItem
 )
 ;
 NS_DECL_NSITREEVIEW
-NS_IMETHOD
-EnsureNative
-(
-)
-override
-{
-return
-NS_OK
-;
-}
 NS_DECL_NSITREECONTENTVIEW
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
