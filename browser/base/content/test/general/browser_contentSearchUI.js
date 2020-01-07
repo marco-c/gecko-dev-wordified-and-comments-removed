@@ -5129,7 +5129,7 @@ if
 gDidInitialSetUp
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

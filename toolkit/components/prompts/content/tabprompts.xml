@@ -1495,7 +1495,9 @@ tmp
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -2699,7 +2701,9 @@ let
 AppConstants
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

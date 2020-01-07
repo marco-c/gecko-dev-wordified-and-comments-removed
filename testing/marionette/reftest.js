@@ -8,11 +8,14 @@ const
 interfaces
 :
 Ci
+utils
+:
+Cu
 }
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -31,7 +34,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +53,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +72,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -93,7 +96,7 @@ const
 InvalidArgumentError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

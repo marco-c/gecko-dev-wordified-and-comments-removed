@@ -3,7 +3,9 @@ frameScript
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

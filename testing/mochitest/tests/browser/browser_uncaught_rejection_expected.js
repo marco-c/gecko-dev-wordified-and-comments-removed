@@ -1,7 +1,7 @@
 let
 JSMPromise
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -24,7 +24,7 @@ jsm
 .
 Promise
 ;
-ChromeUtils
+Cu
 .
 import
 (

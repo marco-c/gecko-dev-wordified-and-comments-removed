@@ -8,7 +8,7 @@ const
 PromiseMessage
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

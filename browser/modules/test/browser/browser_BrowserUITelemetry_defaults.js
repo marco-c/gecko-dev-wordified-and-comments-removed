@@ -9,7 +9,7 @@ s
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -28,7 +28,7 @@ jsm
 s
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

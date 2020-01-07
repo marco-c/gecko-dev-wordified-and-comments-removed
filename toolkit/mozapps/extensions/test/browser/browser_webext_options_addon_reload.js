@@ -8,7 +8,7 @@ const
 AddonTestUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ const
 ExtensionParent
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

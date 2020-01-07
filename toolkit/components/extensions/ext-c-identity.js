@@ -12,9 +12,9 @@ CC
 =
 Components
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

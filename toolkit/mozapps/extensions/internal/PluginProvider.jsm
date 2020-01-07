@@ -31,7 +31,7 @@ EXPORTED_SYMBOLS
 [
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -112,7 +112,7 @@ shockwave
 flash
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

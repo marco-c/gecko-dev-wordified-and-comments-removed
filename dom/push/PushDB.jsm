@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -29,7 +29,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -87,7 +87,7 @@ let
 ConsoleAPI
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -23,7 +23,7 @@ const
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -49,7 +49,7 @@ const
 XPCOMUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -70,9 +70,9 @@ jsm
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

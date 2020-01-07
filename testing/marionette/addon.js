@@ -3,7 +3,16 @@ use
 strict
 "
 ;
-ChromeUtils
+const
+{
+utils
+:
+Cu
+}
+=
+Components
+;
+Cu
 .
 import
 (
@@ -22,7 +31,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -46,7 +55,7 @@ const
 UnknownError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -3,7 +3,7 @@ const
 AddonManagerPrivate
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

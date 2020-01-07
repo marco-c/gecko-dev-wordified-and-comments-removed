@@ -24,7 +24,7 @@ Components
 .
 classes
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -43,7 +43,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

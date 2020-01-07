@@ -820,7 +820,9 @@ let
 Services
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

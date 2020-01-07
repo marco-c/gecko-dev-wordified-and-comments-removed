@@ -15,7 +15,7 @@ let
 HttpServer
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

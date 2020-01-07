@@ -11,7 +11,9 @@ cache
 enabled
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

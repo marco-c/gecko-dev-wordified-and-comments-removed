@@ -281,7 +281,7 @@ promiseNotification
 aTopic
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -386,7 +386,7 @@ promiseLinkVisit
 url
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

@@ -19,7 +19,9 @@ registerManifests
 manifests
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -386,7 +388,9 @@ run_test
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

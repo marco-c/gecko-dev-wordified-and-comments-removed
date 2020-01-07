@@ -27,7 +27,9 @@ bar
 =
 {
 }
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -9,7 +9,9 @@ imported
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

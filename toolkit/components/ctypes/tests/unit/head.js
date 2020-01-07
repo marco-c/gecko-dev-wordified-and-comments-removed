@@ -1,4 +1,6 @@
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -19,7 +21,9 @@ jsm
 ;
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -16,7 +16,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -35,7 +35,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -174,7 +174,7 @@ Linux
 ;
 }
 }
-ChromeUtils
+Cu
 .
 import
 (

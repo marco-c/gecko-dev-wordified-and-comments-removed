@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -93,7 +93,7 @@ const
 PushService
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

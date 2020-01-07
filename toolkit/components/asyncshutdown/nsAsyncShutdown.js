@@ -34,7 +34,7 @@ results
 var
 XPCOMUtils
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,9 +57,9 @@ jsm
 .
 XPCOMUtils
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

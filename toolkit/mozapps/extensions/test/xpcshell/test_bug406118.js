@@ -73,7 +73,7 @@ blocklist
 xul
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -92,7 +92,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

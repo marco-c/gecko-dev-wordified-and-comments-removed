@@ -2812,9 +2812,9 @@ true
 }
 }
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

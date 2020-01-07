@@ -21,7 +21,7 @@ let
 LoadContextInfo
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

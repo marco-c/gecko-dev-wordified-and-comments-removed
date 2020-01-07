@@ -223,7 +223,7 @@ const
 Manager
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -2106,7 +2106,9 @@ remoteType
 let
 E10SUtils
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -2486,7 +2488,9 @@ null
 let
 Finder
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -7254,7 +7258,7 @@ this
 .
 _selectParentHelper
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -47,7 +47,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -66,7 +66,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -450,7 +450,7 @@ nsIResProtocolHandler
 )
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -469,7 +469,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

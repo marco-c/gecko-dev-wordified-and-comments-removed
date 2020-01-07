@@ -347,7 +347,9 @@ const
 PanelMultiView
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -150,7 +150,9 @@ interfaces
 .
 nsIWindowWatcher
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -169,7 +171,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -188,7 +192,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -455,7 +461,9 @@ offline
 =
 false
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -472,7 +480,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -23,7 +23,7 @@ browserActionFor
 }
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

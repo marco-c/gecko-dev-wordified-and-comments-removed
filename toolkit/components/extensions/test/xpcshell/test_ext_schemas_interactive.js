@@ -3,7 +3,9 @@ use
 strict
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -35,7 +37,9 @@ const
 ExtensionManager
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -567,7 +571,9 @@ const
 apiManager
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -37,7 +37,7 @@ var
 WebRequest
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -63,7 +63,7 @@ var
 PromiseUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

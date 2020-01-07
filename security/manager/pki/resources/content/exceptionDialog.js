@@ -33,7 +33,9 @@ gSecHistogram
 var
 gNsISecTel
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

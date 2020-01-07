@@ -25,7 +25,7 @@ Windows8WindowFrameColor
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -44,7 +44,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -66,7 +66,7 @@ jsm
 var
 Registry
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -28,7 +28,7 @@ ActionBarHandler
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (

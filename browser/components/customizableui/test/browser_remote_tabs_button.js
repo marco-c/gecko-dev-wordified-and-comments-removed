@@ -9,7 +9,9 @@ syncService
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -41,7 +43,9 @@ const
 UIState
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

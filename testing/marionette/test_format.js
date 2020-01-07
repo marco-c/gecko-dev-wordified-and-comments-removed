@@ -13,7 +13,7 @@ pprint
 truncate
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

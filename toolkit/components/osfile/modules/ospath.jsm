@@ -94,7 +94,7 @@ Scope
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -133,7 +133,7 @@ Constants
 Win
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -158,7 +158,7 @@ Path
 }
 else
 {
-ChromeUtils
+Cu
 .
 import
 (

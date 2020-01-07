@@ -8,7 +8,7 @@ const
 UnsubmittedCrashHandler
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -33,7 +33,7 @@ const
 FileUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -59,7 +59,7 @@ const
 makeFakeAppDir
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -85,7 +85,7 @@ const
 OS
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

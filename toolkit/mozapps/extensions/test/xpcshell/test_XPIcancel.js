@@ -1,7 +1,9 @@
 var
 scope
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

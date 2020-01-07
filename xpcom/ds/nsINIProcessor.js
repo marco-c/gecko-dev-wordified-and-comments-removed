@@ -26,7 +26,9 @@ Components
 .
 utils
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

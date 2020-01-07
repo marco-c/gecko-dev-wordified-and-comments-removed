@@ -8,7 +8,7 @@ const
 SiteDataManager
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -33,7 +33,7 @@ const
 DownloadUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

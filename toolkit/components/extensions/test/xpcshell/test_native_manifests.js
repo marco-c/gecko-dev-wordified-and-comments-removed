@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -22,7 +22,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -41,7 +41,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -60,7 +60,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -79,7 +79,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -117,7 +117,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -142,7 +142,7 @@ Subprocess
 SubprocessImpl
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -163,7 +163,7 @@ jsm
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -182,7 +182,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -218,7 +218,7 @@ win
 "
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

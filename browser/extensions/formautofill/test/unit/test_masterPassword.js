@@ -8,7 +8,7 @@ const
 MockRegistrar
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ let
 MasterPassword
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

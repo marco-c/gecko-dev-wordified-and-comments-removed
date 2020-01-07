@@ -16,7 +16,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -35,7 +35,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -67,7 +67,9 @@ function
 )
 {
 return
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -95,7 +97,7 @@ do_get_profile
 (
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

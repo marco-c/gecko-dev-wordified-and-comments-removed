@@ -8,7 +8,7 @@ let
 SyncedTabs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ let
 SyncedTabsListStore
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

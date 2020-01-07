@@ -31,7 +31,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -70,7 +70,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -90,7 +90,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -110,7 +110,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -129,7 +129,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -1127,7 +1127,7 @@ this
 _initialized
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -3300,7 +3300,7 @@ o
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

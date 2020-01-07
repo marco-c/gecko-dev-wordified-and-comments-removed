@@ -75,7 +75,7 @@ exports
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -97,7 +97,7 @@ this
 ;
 Meta
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -254,7 +254,7 @@ undefined
 "
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

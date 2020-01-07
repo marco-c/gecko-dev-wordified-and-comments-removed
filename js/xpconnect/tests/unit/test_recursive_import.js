@@ -9,7 +9,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

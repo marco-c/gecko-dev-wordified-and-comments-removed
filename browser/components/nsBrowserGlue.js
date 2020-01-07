@@ -53,7 +53,7 @@ only
 xul
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -72,7 +72,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -91,7 +91,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -1061,7 +1061,7 @@ name
 =
 >
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -1987,7 +1987,7 @@ function
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -2062,9 +2062,9 @@ Sanitizer
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -2303,7 +2303,7 @@ delay
 :
 MAX_DELAY
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -5801,7 +5801,7 @@ _calculateProfileAgeInDays
 let
 ProfileAge
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -6146,7 +6146,7 @@ win
 )
 return
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -6718,7 +6718,7 @@ let
 Troubleshoot
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -6872,7 +6872,7 @@ try
 {
 updateChannel
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -7723,7 +7723,7 @@ temp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -7819,7 +7819,7 @@ let
 setTimeout
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -8085,7 +8085,7 @@ obj
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -12559,7 +12559,7 @@ currentUIVersion
 const
 Preferences
 =
-ChromeUtils
+Cu
 .
 import
 (

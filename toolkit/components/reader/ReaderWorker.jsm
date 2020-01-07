@@ -3,7 +3,14 @@ use
 strict
 "
 ;
-ChromeUtils
+const
+Cu
+=
+Components
+.
+utils
+;
+Cu
 .
 import
 (

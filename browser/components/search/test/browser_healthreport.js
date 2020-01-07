@@ -6,7 +6,7 @@ strict
 var
 Preferences
 =
-ChromeUtils
+Cu
 .
 import
 (

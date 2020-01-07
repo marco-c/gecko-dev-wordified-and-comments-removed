@@ -12,7 +12,7 @@ messages
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

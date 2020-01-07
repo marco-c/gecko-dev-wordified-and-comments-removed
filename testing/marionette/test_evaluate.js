@@ -13,7 +13,7 @@ element
 WebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -39,7 +39,7 @@ const
 evaluate
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

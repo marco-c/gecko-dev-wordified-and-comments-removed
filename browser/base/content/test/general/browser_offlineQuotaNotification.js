@@ -112,7 +112,9 @@ let
 OfflineAppCacheHelper
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -11,7 +11,9 @@ function
 )
 {
 return
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -35,9 +37,9 @@ js
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -63,7 +65,9 @@ var
 FxAccountsWebChannel
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

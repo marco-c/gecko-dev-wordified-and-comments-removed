@@ -8,7 +8,7 @@ const
 XPCOMUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ const
 SessionWorker
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -68,7 +68,7 @@ const
 SessionFile
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -124,7 +124,7 @@ com
 #
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

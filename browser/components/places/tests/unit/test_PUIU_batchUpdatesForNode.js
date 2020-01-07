@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -45,7 +45,7 @@ js
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

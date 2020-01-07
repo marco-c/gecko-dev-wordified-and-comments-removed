@@ -24,7 +24,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -49,7 +49,7 @@ SharedAll
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

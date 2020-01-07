@@ -782,7 +782,7 @@ let
 ReaderMode
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

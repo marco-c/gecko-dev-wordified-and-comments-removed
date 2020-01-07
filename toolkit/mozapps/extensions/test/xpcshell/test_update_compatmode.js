@@ -8,7 +8,9 @@ PREF_EM_CHECK_UPDATE_SECURITY
 false
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

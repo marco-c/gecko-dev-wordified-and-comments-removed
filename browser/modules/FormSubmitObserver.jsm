@@ -34,7 +34,7 @@ FormSubmitObserver
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -53,7 +53,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -72,7 +72,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -45,7 +45,7 @@ module
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -192,7 +192,7 @@ module
 ;
 try
 {
-ChromeUtils
+Cu
 .
 import
 (

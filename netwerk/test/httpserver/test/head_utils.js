@@ -27,7 +27,7 @@ DEBUG
 =
 true
 ;
-ChromeUtils
+Cu
 .
 import
 (

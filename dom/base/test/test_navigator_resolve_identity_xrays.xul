@@ -287,7 +287,9 @@ waitForExplicitFinish
 (
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
