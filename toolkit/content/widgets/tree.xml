@@ -2986,9 +2986,9 @@ column
 type
 !
 =
-Ci
+window
 .
-nsITreeColumn
+TreeColumn
 .
 TYPE_TEXT
 &
@@ -2998,9 +2998,9 @@ column
 type
 !
 =
-Ci
+window
 .
-nsITreeColumn
+TreeColumn
 .
 TYPE_PASSWORD
 )
@@ -8504,9 +8504,9 @@ col
 type
 =
 =
-Ci
+window
 .
-nsITreeColumn
+TreeColumn
 .
 TYPE_CHECKBOX
 )
@@ -9183,9 +9183,9 @@ col
 type
 !
 =
-Ci
+window
 .
-nsITreeColumn
+TreeColumn
 .
 TYPE_CHECKBOX
 )
