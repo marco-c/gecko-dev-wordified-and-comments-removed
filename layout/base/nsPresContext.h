@@ -3776,6 +3776,11 @@ aData
 public
 :
 void
+ForceReflowForFontInfoUpdate
+(
+)
+;
+void
 DoChangeCharSet
 (
 NotNull
