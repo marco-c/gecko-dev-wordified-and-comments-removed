@@ -2310,6 +2310,14 @@ mozilla
 TimeStamp
 >
 ;
+friend
+void
+StartupTimelineRecordExternal
+(
+int
+uint64_t
+)
+;
 MOZ_IMPLICIT
 TimeStamp
 (
