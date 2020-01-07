@@ -154,6 +154,16 @@ CurrentTimeLabel
 js
 '
 '
+CurrentTimeScrubber
+.
+js
+'
+'
+CurrentTimeScrubberController
+.
+js
+'
+'
 KeyframesProgressTickItem
 .
 js
