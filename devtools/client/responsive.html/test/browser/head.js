@@ -890,10 +890,7 @@ getViewportBrowser
 let
 onResize
 =
-(
-_
 data
-)
 =
 >
 {
