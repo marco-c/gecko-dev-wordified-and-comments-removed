@@ -1722,6 +1722,13 @@ return
 this
 ;
 }
+void
+SetPullEnabled
+(
+bool
+aEnabled
+)
+;
 nsresult
 OpenAudioInput
 (
@@ -1742,13 +1749,6 @@ DestroyImpl
 (
 )
 override
-;
-void
-SetPullEnabled
-(
-bool
-aEnabled
-)
 ;
 typedef
 MozPromise
