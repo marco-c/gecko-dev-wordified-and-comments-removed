@@ -99,11 +99,6 @@ FIELDS
 )
 ;
 }
-let
-foundGCs
-=
-0
-;
 for
 (
 let
@@ -174,10 +169,6 @@ non
 null
 "
 )
-;
-foundGCs
-+
-+
 ;
 ok
 (
