@@ -255,6 +255,11 @@ nsIDeprecationWarner
 idl
 '
 '
+nsIDHCPClient
+.
+idl
+'
+'
 nsIDivertableChannel
 .
 idl
