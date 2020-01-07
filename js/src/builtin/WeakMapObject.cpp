@@ -1176,13 +1176,11 @@ cx
 {
 return
 NewBuiltinClassInstance
+<
+WeakMapObject
+>
 (
 cx
-&
-WeakMapObject
-:
-:
-class_
 )
 ;
 }

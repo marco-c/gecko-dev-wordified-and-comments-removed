@@ -616,15 +616,10 @@ cx
 NewObjectWithGivenProto
 (
 cx
+Valueify
 (
-const
-js
-:
-:
-Class
-*
-)
 clasp
+)
 nullptr
 SingletonObject
 )

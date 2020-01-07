@@ -2031,7 +2031,7 @@ JSObject
 *
 obj
 =
-NewObjectWithClassProto
+NewObjectWithGivenProto
 (
 cx
 instanceClass
