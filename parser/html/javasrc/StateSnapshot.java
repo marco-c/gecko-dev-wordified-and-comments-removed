@@ -205,6 +205,7 @@ quirks
 quirks
 ;
 }
+Override
 public
 StackNode
 <
@@ -220,6 +221,7 @@ return
 stack
 ;
 }
+Override
 public
 int
 [
@@ -232,6 +234,7 @@ return
 templateModeStack
 ;
 }
+Override
 public
 StackNode
 <
@@ -247,6 +250,7 @@ return
 listOfActiveFormattingElements
 ;
 }
+Override
 public
 T
 getFormPointer
@@ -257,6 +261,7 @@ return
 formPointer
 ;
 }
+Override
 public
 T
 getHeadPointer
@@ -267,6 +272,7 @@ return
 headPointer
 ;
 }
+Override
 public
 T
 getDeepTreeSurrogateParent
@@ -277,6 +283,7 @@ return
 deepTreeSurrogateParent
 ;
 }
+Override
 public
 int
 getMode
@@ -287,6 +294,7 @@ return
 mode
 ;
 }
+Override
 public
 int
 getOriginalMode
@@ -297,6 +305,7 @@ return
 originalMode
 ;
 }
+Override
 public
 boolean
 isFramesetOk
@@ -307,6 +316,7 @@ return
 framesetOk
 ;
 }
+Override
 public
 boolean
 isNeedToDropLF
@@ -317,6 +327,7 @@ return
 needToDropLF
 ;
 }
+Override
 public
 boolean
 isQuirks
@@ -327,6 +338,7 @@ return
 quirks
 ;
 }
+Override
 public
 int
 getListOfActiveFormattingElementsLength
@@ -339,6 +351,7 @@ listOfActiveFormattingElements
 length
 ;
 }
+Override
 public
 int
 getStackLength
@@ -351,6 +364,7 @@ stack
 length
 ;
 }
+Override
 public
 int
 getTemplateModeStackLength
