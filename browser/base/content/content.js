@@ -1772,9 +1772,8 @@ init
 (
 )
 ;
+new
 ContentLinkHandler
-.
-init
 (
 this
 )
