@@ -3513,7 +3513,7 @@ this
 content
 content
 .
-GetVisibleRect
+GetBuildingRect
 (
 )
 :

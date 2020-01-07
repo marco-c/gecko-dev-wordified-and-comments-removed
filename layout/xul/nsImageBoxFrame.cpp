@@ -2342,7 +2342,9 @@ PaintImage
 (
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )

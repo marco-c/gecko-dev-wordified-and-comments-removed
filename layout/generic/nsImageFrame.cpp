@@ -5896,7 +5896,9 @@ DisplayAltFeedback
 (
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )
@@ -7015,7 +7017,9 @@ aCtx
 ToReferenceFrame
 (
 )
-mVisibleRect
+GetPaintRect
+(
+)
 mImage
 flags
 )
@@ -7073,7 +7077,9 @@ aCtx
 ToReferenceFrame
 (
 )
-mVisibleRect
+GetPaintRect
+(
+)
 mPrevImage
 flags
 )

@@ -230,7 +230,9 @@ CreateBorderRenderers
 (
 mBorderRenderers
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )
@@ -354,7 +356,9 @@ CreateBorderRenderers
 (
 mBorderRenderers
 screenRefCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )

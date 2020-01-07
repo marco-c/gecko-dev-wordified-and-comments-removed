@@ -2692,7 +2692,9 @@ ToReferenceFrame
 nsRect
 clipRect
 =
-mVisibleRect
+GetPaintRect
+(
+)
 .
 Intersect
 (

@@ -538,7 +538,9 @@ PresContext
 aCtx
 mFrame
 frameRect
-mVisibleRect
+GetPaintRect
+(
+)
 )
 ;
 }
@@ -721,7 +723,9 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-mVisibleRect
+GetPaintRect
+(
+)
 appUnitsPerDevPixel
 )
 ;
@@ -1580,7 +1584,9 @@ aBuilder
 pc
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 r
 )
 ;
@@ -1995,7 +2001,9 @@ aBuilder
 presContext
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 r
 )
 ;
@@ -2142,7 +2150,9 @@ CreateInnerFocusBorderRenderer
 aDisplayListBuilder
 presContext
 nullptr
-mVisibleRect
+GetPaintRect
+(
+)
 r
 &
 borderIsEmpty

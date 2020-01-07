@@ -1247,7 +1247,9 @@ PaintTextShadow
 mFrame
 aCtx
 mRect
-mVisibleRect
+GetPaintRect
+(
+)
 foregroundColor
 PaintTextShadowCallback
 (

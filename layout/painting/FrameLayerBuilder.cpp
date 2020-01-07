@@ -15049,7 +15049,7 @@ Intersect
 aItem
 -
 >
-GetVisibleRect
+GetBuildingRect
 (
 )
 )
@@ -16040,7 +16040,7 @@ itemVisibleRect
 aItem
 -
 >
-GetVisibleRect
+GetPaintRect
 (
 )
 .
@@ -18490,7 +18490,7 @@ ScaleToOutsidePixels
 item
 -
 >
-GetVisibleRect
+GetBuildingRect
 (
 )
 false
@@ -20000,7 +20000,7 @@ mVisibleRegion
 item
 -
 >
-GetVisibleRectForChildren
+GetBuildingRectForChildren
 (
 )
 .
@@ -20098,7 +20098,7 @@ useChildrenVisible
 item
 -
 >
-GetVisibleRectForChildren
+GetBuildingRectForChildren
 (
 )
 .
@@ -21938,7 +21938,7 @@ aItem
 mItem
 -
 >
-GetVisibleRect
+GetBuildingRect
 (
 )
 .
@@ -26250,7 +26250,7 @@ aContainerItem
 aContainerItem
 -
 >
-GetVisibleRectForChildren
+GetBuildingRectForChildren
 (
 )
 :
@@ -28148,7 +28148,7 @@ visibleRect
 item
 -
 >
-GetVisibleRect
+GetPaintRect
 (
 )
 ;

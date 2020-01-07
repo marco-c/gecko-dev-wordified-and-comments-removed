@@ -4185,7 +4185,9 @@ PaintPlugin
 aBuilder
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 GetBounds
 (
 aBuilder

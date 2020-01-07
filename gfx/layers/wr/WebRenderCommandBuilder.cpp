@@ -10487,10 +10487,9 @@ paintBounds
 aItem
 -
 >
-SetVisibleRect
+SetPaintRect
 (
 paintBounds
-false
 )
 ;
 aItem

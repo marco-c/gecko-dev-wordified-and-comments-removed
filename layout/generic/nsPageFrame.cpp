@@ -2844,7 +2844,7 @@ child
 content
 content
 .
-GetVisibleRect
+GetBuildingRect
 (
 )
 :
