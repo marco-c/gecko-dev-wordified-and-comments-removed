@@ -106,10 +106,6 @@ h
 double
 -
 conversion
-/
-double
--
-conversion
 .
 h
 '

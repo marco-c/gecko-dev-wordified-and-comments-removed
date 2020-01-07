@@ -1,13 +1,7 @@
 #
 include
 "
-double
--
-conversion
-/
-double
--
-conversion
+nsASCIIMask
 .
 h
 "
@@ -25,7 +19,9 @@ include
 "
 mozilla
 /
-MathAlgorithms
+double
+-
+conversion
 .
 h
 "
@@ -50,7 +46,9 @@ h
 #
 include
 "
-nsASCIIMask
+mozilla
+/
+MathAlgorithms
 .
 h
 "

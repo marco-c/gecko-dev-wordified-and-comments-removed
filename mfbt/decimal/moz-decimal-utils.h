@@ -7,6 +7,13 @@ MOZ_DECIMAL_UTILS_H
 #
 include
 "
+.
+.
+/
+double
+-
+conversion
+/
 double
 -
 conversion
