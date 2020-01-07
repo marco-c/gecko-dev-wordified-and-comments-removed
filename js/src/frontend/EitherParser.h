@@ -1307,7 +1307,7 @@ Args
 >
 MOZ_MUST_USE
 bool
-reportNoOffset
+warningNoOffset
 (
 Args
 &
@@ -1331,7 +1331,7 @@ ParserBaseMatcher
 )
 )
 .
-reportNoOffset
+warningNoOffset
 (
 mozilla
 :
