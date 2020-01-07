@@ -344,7 +344,6 @@ ViewShown
 "
 )
 ;
-await
 browserWindow
 .
 PanelUI
