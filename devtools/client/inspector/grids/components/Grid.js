@@ -239,13 +239,6 @@ PropTypes
 func
 .
 isRequired
-onShowGridLineNamesHighlight
-:
-PropTypes
-.
-func
-.
-isRequired
 onToggleGridHighlighter
 :
 PropTypes
