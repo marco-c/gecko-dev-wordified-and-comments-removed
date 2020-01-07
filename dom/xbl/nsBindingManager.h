@@ -445,6 +445,9 @@ void
 aResult
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 nsresult
 WalkRules
 (
@@ -474,6 +477,8 @@ ElementDependentRuleProcessorData
 aData
 )
 ;
+#
+endif
 bool
 MediumFeaturesChanged
 (

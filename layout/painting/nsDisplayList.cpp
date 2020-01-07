@@ -958,6 +958,9 @@ GeckoStyleContext
 *
 contextIfGecko
 =
+#
+ifdef
+MOZ_OLD_STYLE
 aContext
 ?
 aContext
@@ -969,6 +972,12 @@ GetAsGecko
 :
 nullptr
 ;
+#
+else
+nullptr
+;
+#
+endif
 for
 (
 const

@@ -573,6 +573,9 @@ aSID
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 inline
 nsRuleNode
 *
@@ -580,6 +583,8 @@ RuleNode
 (
 )
 ;
+#
+endif
 inline
 const
 ServoComputedData
@@ -1004,6 +1009,9 @@ sDependencyTable
 endif
 }
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 already_AddRefed
 <
 mozilla
@@ -1034,5 +1042,7 @@ bool
 aSkipParentDisplayBasedStyleFixup
 )
 ;
+#
+endif
 #
 endif

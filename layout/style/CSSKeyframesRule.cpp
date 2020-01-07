@@ -26,6 +26,9 @@ mozilla
 namespace
 dom
 {
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 CSSKeyframesRule
 :
@@ -54,6 +57,8 @@ return
 false
 ;
 }
+#
+endif
 JSObject
 *
 CSSKeyframesRule

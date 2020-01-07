@@ -12,6 +12,9 @@ nsIDocument
 .
 h
 "
+#
+ifdef
+MOZ_OLD_STYLE
 nsresult
 nsMappedAttributeElement
 :
@@ -34,6 +37,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 bool
 nsMappedAttributeElement
 :

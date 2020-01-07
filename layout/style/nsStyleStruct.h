@@ -15402,12 +15402,17 @@ aNewData
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 mozilla
 :
 :
 CSSVariableValues
 mVariables
 ;
+#
+endif
 }
 ;
 struct

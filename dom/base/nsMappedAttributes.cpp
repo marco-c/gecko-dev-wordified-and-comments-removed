@@ -634,6 +634,9 @@ delete
 this
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMPL_ADDREF
 (
 nsMappedAttributes
@@ -650,6 +653,8 @@ NS_IMPL_QUERY_INTERFACE
 nsMappedAttributes
 nsIStyleRule
 )
+#
+endif
 void
 nsMappedAttributes
 :
@@ -1237,6 +1242,9 @@ mSheet
 aSheet
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 void
 nsMappedAttributes
 :
@@ -1439,6 +1447,8 @@ get
 ;
 }
 }
+#
+endif
 #
 endif
 void

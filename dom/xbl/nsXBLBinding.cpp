@@ -3397,6 +3397,9 @@ return
 true
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 void
 nsXBLBinding
 :
@@ -3451,6 +3454,8 @@ aData
 )
 ;
 }
+#
+endif
 ServoStyleSet
 *
 nsXBLBinding

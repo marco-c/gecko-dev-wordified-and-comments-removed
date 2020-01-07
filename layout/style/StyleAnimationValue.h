@@ -217,6 +217,9 @@ RGBAColorData
 aEndColor
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 static
 MOZ_MUST_USE
 bool
@@ -240,6 +243,8 @@ double
 aDistance
 )
 ;
+#
+endif
 static
 MOZ_MUST_USE
 bool
@@ -322,6 +327,9 @@ aCount
 1
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 static
 MOZ_MUST_USE
 bool
@@ -442,6 +450,8 @@ PropertyStyleAnimationValuePair
 aResult
 )
 ;
+#
+endif
 static
 MOZ_MUST_USE
 bool
@@ -490,6 +500,9 @@ nsAString
 aSpecifiedValue
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 static
 MOZ_MUST_USE
 bool
@@ -508,6 +521,8 @@ StyleAnimationValue
 aComputedValue
 )
 ;
+#
+endif
 enum
 Unit
 {

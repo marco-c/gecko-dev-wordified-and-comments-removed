@@ -2250,6 +2250,9 @@ mCaretEnabled
 #
 ifdef
 DEBUG
+#
+ifdef
+MOZ_OLD_STYLE
 nsStyleSet
 *
 CloneStyleSet
@@ -2259,6 +2262,8 @@ nsStyleSet
 aSet
 )
 ;
+#
+endif
 ServoStyleSet
 *
 CloneStyleSet

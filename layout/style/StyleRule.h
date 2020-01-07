@@ -1424,6 +1424,9 @@ GetType
 const
 override
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 CSSStyleSheet
 *
 GetStyleSheet
@@ -1455,6 +1458,8 @@ AsGecko
 nullptr
 ;
 }
+#
+endif
 already_AddRefed
 <
 Rule

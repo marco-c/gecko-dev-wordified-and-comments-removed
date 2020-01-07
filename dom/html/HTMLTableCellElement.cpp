@@ -379,6 +379,9 @@ return
 1
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMETHODIMP
 HTMLTableCellElement
 :
@@ -437,6 +440,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsMappedAttributes
 *
 HTMLTableCellElement

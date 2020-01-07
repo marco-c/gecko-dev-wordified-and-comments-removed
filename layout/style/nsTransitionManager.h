@@ -984,6 +984,9 @@ CSSTransition
 >
 CSSTransitionCollection
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 StyleContextChanged
 (
@@ -1013,6 +1016,8 @@ GeckoStyleContext
 aNewStyleContext
 )
 ;
+#
+endif
 bool
 UpdateTransitions
 (
@@ -1046,6 +1051,9 @@ ServoStyleContext
 aNewStyle
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 PruneCompletedTransitions
 (
@@ -1071,6 +1079,8 @@ GeckoStyleContext
 aNewStyleContext
 )
 ;
+#
+endif
 void
 SetInAnimationOnlyStyleUpdate
 (

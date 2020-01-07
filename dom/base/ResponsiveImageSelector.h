@@ -277,6 +277,9 @@ RawServoSourceSizeList
 >
 mServoSourceSizeList
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 nsTArray
 <
 nsAutoPtr
@@ -292,6 +295,8 @@ nsCSSValue
 >
 mSizeValues
 ;
+#
+endif
 }
 ;
 class

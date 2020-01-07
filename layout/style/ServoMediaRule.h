@@ -77,6 +77,9 @@ Clone
 const
 override
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 UseForPresentation
 (
@@ -90,6 +93,8 @@ aKey
 final
 override
 ;
+#
+endif
 void
 SetStyleSheet
 (

@@ -122,6 +122,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 ServoSupportsRule
 :
@@ -152,6 +155,8 @@ return
 false
 ;
 }
+#
+endif
 #
 ifdef
 DEBUG

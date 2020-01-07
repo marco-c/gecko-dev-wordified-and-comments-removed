@@ -454,6 +454,9 @@ nsIDocument
 aNewDocument
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 WalkRules
 (
@@ -467,6 +470,8 @@ void
 aData
 )
 ;
+#
+endif
 mozilla
 :
 :

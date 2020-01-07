@@ -17,8 +17,13 @@ h
 ifdef
 DEBUG
 #
+ifdef
+MOZ_OLD_STYLE
+#
 define
 RESTYLE_LOGGING
+#
+endif
 #
 endif
 #

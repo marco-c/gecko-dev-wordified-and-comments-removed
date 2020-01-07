@@ -168,6 +168,9 @@ mPresContext
 aPresContext
 )
 {
+#
+ifdef
+MOZ_OLD_STYLE
 for
 (
 size_t
@@ -205,6 +208,8 @@ cascadeLevel
 )
 ;
 }
+#
+endif
 }
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
@@ -334,6 +339,9 @@ CSSPseudoElementType
 aPseudoType
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 MaybeUpdateAnimationRule
 (
@@ -371,6 +379,8 @@ nsStyleContext
 aStyleContext
 )
 ;
+#
+endif
 bool
 GetServoAnimationRule
 (
@@ -401,6 +411,9 @@ HasThrottledStyleUpdates
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 AddStyleUpdatesTo
 (
@@ -425,6 +438,8 @@ aCascadeLevel
 ]
 ;
 }
+#
+endif
 static
 bool
 HasAnimationsForCompositor
@@ -578,6 +593,9 @@ EffectCompositor
 =
 default
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 static
 void
 ComposeAnimationRule
@@ -594,6 +612,8 @@ CascadeLevel
 aCascadeLevel
 )
 ;
+#
+endif
 static
 nsCSSPropertyIDSet
 GetOverriddenProperties
@@ -675,6 +695,9 @@ mIsInPreTraverse
 =
 false
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 class
 AnimationStyleRuleProcessor
 final
@@ -850,6 +873,8 @@ AnimationStyleRuleProcessor
 >
 mRuleProcessors
 ;
+#
+endif
 }
 ;
 }

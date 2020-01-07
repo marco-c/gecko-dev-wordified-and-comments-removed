@@ -197,6 +197,9 @@ aResult
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 GatherRuleProcessor
 (
@@ -213,6 +216,8 @@ return
 mRuleProcessor
 ;
 }
+#
+endif
 void
 ComputeServoStyleSet
 (
@@ -259,12 +264,17 @@ StyleSheet
 >
 mStyleSheetList
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 RefPtr
 <
 nsCSSRuleProcessor
 >
 mRuleProcessor
 ;
+#
+endif
 mozilla
 :
 :

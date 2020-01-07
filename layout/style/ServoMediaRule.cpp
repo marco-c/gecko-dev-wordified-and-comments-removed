@@ -192,6 +192,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 ServoMediaRule
 :
@@ -222,6 +225,8 @@ return
 false
 ;
 }
+#
+endif
 void
 ServoMediaRule
 :

@@ -760,6 +760,9 @@ Count
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 RefPtr
 <
 AnimValuesStyleRule
@@ -781,6 +784,8 @@ aCascadeLevel
 ]
 ;
 }
+#
+endif
 const
 TimeStamp
 &
@@ -907,6 +912,9 @@ aPseudoType
 OwningEffectSet
 mEffects
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 EnumeratedArray
 <
 EffectCompositor
@@ -930,6 +938,8 @@ AnimValuesStyleRule
 >
 mAnimationRule
 ;
+#
+endif
 TimeStamp
 mLastTransformSyncTime
 ;

@@ -162,6 +162,9 @@ StyleTransition
 namespace
 css
 {
+class
+ErrorReporter
+;
 struct
 URLValue
 ;

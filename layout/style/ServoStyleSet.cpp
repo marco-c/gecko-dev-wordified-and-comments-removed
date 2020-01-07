@@ -232,13 +232,6 @@ h
 #
 include
 "
-nsStyleSet
-.
-h
-"
-#
-include
-"
 nsXBLPrototypeBinding
 .
 h

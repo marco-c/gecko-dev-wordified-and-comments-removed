@@ -5954,6 +5954,9 @@ IsRunningOnCompositor
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 template
 void
 Animation
@@ -5980,6 +5983,8 @@ nsCSSPropertyIDSet
 aPropertiesToSkip
 )
 ;
+#
+endif
 template
 void
 Animation

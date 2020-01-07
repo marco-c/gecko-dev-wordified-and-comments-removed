@@ -27,7 +27,10 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+ServoStyleSheet
+;
+class
+StyleSheet
 ;
 namespace
 css
@@ -290,7 +293,7 @@ const
 nsCSSScanner
 &
 const
-CSSStyleSheet
+StyleSheet
 *
 const
 Loader

@@ -666,6 +666,9 @@ ErrorResult
 aRv
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 SetKeyframes
 (
@@ -681,6 +684,8 @@ GeckoStyleContext
 aStyleContext
 )
 ;
+#
+endif
 void
 SetKeyframes
 (
@@ -1150,6 +1155,9 @@ MarkCascadeNeedsUpdate
 (
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 StyleAnimationValue
 CompositeValue
 (
@@ -1199,6 +1207,8 @@ AnimationProperty
 aProperties
 )
 ;
+#
+endif
 void
 EnsureBaseStyles
 (
@@ -1215,6 +1225,9 @@ AnimationProperty
 aProperties
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 EnsureBaseStyle
 (
@@ -1231,6 +1244,8 @@ GeckoStyleContext
 aCachedBaseStyleContext
 )
 ;
+#
+endif
 void
 EnsureBaseStyle
 (
@@ -1348,6 +1363,9 @@ StyleType
 aStyle
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 ComposeStyleRule
 (
@@ -1371,6 +1389,8 @@ ComputedTiming
 aComputedTiming
 )
 ;
+#
+endif
 void
 ComposeStyleRule
 (
@@ -1391,6 +1411,9 @@ ComputedTiming
 aComputedTiming
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 already_AddRefed
 <
 nsStyleContext
@@ -1408,6 +1431,8 @@ GeckoStyleContext
 aBaseStyleContext
 )
 ;
+#
+endif
 already_AddRefed
 <
 nsStyleContext

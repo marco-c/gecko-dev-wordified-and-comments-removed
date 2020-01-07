@@ -41099,6 +41099,9 @@ nsIPrincipal
 aPrincipal
 )
 {
+#
+ifdef
+MOZ_OLD_STYLE
 if
 (
 !
@@ -41120,6 +41123,8 @@ return
 false
 ;
 }
+#
+endif
 return
 true
 ;

@@ -761,6 +761,9 @@ CSSAnimation
 >
 OwningCSSAnimationPtrArray
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 void
 UpdateAnimations
 (
@@ -781,6 +784,8 @@ Element
 aElement
 )
 ;
+#
+endif
 void
 UpdateAnimations
 (

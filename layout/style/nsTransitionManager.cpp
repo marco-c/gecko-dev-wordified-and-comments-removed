@@ -77,12 +77,17 @@ nsRuleProcessorData
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleWalker
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2139,6 +2144,9 @@ ToValue
 ;
 }
 }
+#
+ifdef
+MOZ_OLD_STYLE
 static
 inline
 bool
@@ -2188,6 +2196,8 @@ mGecko
 )
 ;
 }
+#
+endif
 static
 inline
 bool
@@ -2244,6 +2254,9 @@ aAnimationValue
 mServo
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 void
 nsTransitionManager
 :
@@ -2828,6 +2841,8 @@ cascadeLevel
 ;
 }
 }
+#
+endif
 bool
 nsTransitionManager
 :
@@ -4919,6 +4934,9 @@ aProperty
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 void
 nsTransitionManager
 :
@@ -5122,3 +5140,5 @@ nullptr
 ;
 }
 }
+#
+endif

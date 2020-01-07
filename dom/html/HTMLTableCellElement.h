@@ -647,6 +647,9 @@ GetAttributeMappingFunction
 const
 override
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMETHOD
 WalkContentStyleRules
 (
@@ -656,6 +659,8 @@ aRuleWalker
 )
 override
 ;
+#
+endif
 NS_IMETHOD_
 (
 bool
