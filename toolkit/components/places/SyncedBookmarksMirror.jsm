@@ -16039,6 +16039,8 @@ kindToString
 )
 }
 ;
+Age
+=
 {
 this
 .
@@ -22122,7 +22124,8 @@ infos
 push
 (
 "
-L
+Delete
+Locally
 :
 "
 +
@@ -22133,13 +22136,6 @@ from
 this
 .
 deleteLocally
-guid
-=
->
-~
-{
-guid
-}
 )
 .
 join
@@ -22164,7 +22160,8 @@ infos
 push
 (
 "
-R
+Delete
+Remotely
 :
 "
 +
@@ -22175,13 +22172,6 @@ from
 this
 .
 deleteRemotely
-guid
-=
->
-~
-{
-guid
-}
 )
 .
 join

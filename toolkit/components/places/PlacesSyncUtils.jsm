@@ -6536,7 +6536,7 @@ Error
 (
 Bookmark
 with
-sync
+record
 ID
 {
 updateInfo
