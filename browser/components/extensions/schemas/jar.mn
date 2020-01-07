@@ -216,6 +216,15 @@ browser
 /
 schemas
 /
+search
+.
+json
+content
+/
+browser
+/
+schemas
+/
 sessions
 .
 json
