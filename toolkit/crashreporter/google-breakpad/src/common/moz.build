@@ -132,10 +132,10 @@ CONFIG
 OS_ARCH
 '
 ]
-!
+=
 =
 '
-WINNT
+Darwin
 '
 :
 UNIFIED_SOURCES
