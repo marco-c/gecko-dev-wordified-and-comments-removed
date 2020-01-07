@@ -541,6 +541,10 @@ ChooseFBConfig
 )
 SYMBOL
 (
+ChooseVisual
+)
+SYMBOL
+(
 GetFBConfigAttrib
 )
 SYMBOL
