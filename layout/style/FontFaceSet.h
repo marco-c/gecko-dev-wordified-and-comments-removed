@@ -983,7 +983,7 @@ aStatus
 )
 ;
 void
-RebuildUserFontSet
+MarkUserFontSetDirty
 (
 )
 ;
