@@ -6196,6 +6196,7 @@ CreateWebRenderCommandsForBCBorders
 (
 aBuilder
 aSc
+mVisibleRect
 ToReferenceFrame
 (
 )
@@ -38068,6 +38069,10 @@ StackingContextHelper
 &
 aSc
 const
+nsRect
+&
+aVisibleRect
+const
 nsPoint
 &
 aOffsetToReferenceFrame
@@ -38084,9 +38089,9 @@ aOffsetToReferenceFrame
 IterateBCBorders
 (
 action
-GetRect
-(
-)
+aVisibleRect
+-
+aOffsetToReferenceFrame
 )
 ;
 LayoutDeviceRect

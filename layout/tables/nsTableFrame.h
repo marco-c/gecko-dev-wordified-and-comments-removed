@@ -986,9 +986,13 @@ StackingContextHelper
 &
 aSc
 const
+nsRect
+&
+aVisibleRect
+const
 nsPoint
 &
-aPt
+aOffsetToReferenceFrame
 )
 ;
 virtual
