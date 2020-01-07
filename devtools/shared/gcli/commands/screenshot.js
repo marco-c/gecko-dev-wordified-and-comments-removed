@@ -19,6 +19,16 @@ chrome
 )
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 l10n
 =
 require
