@@ -3412,6 +3412,17 @@ compartment
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+lazy
+-
+>
+isEnclosingScriptLazy
+(
+)
+)
+;
 AutoAssertReportedException
 assertException
 (

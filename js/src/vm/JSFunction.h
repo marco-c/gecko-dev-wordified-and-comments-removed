@@ -2431,7 +2431,7 @@ nonLazyScript
 ;
 }
 bool
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 const
@@ -2464,7 +2464,7 @@ const
 MOZ_ASSERT
 (
 !
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 )

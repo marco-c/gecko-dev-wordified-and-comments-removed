@@ -21697,7 +21697,7 @@ hasScript
 fun
 -
 >
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 )
@@ -25290,7 +25290,7 @@ bool
 LazyScript
 :
 :
-hasUncompiledEnclosingScript
+hasUncompletedEnclosingScript
 (
 )
 const
@@ -25352,7 +25352,7 @@ hasScript
 fun
 -
 >
-hasUncompiledScript
+hasUncompletedScript
 (
 )
 |

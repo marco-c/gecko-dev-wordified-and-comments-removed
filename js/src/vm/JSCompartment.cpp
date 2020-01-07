@@ -5378,10 +5378,11 @@ if
 lazy
 &
 &
+!
 lazy
 -
 >
-sourceObject
+isEnclosingScriptLazy
 (
 )
 &
@@ -5390,7 +5391,7 @@ sourceObject
 lazy
 -
 >
-hasUncompiledEnclosingScript
+hasUncompletedEnclosingScript
 (
 )
 )
