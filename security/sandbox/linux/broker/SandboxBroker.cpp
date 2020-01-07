@@ -4169,6 +4169,7 @@ pathLen
 )
 )
 ;
+}
 if
 (
 !
@@ -4195,6 +4196,7 @@ perms
 =
 symlinkPerms
 ;
+}
 }
 if
 (
@@ -4228,8 +4230,6 @@ pathLen
 )
 )
 ;
-}
-}
 }
 pathLen2
 =
@@ -5539,7 +5539,7 @@ denied
 op
 =
 %
-d
+s
 rflags
 =
 %
@@ -5572,7 +5572,10 @@ s
 \
 "
 "
+OperationDescription
+[
 aOp
+]
 aFlags
 aPerms
 aPath

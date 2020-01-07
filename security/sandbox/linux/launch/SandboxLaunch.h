@@ -36,6 +36,11 @@ LaunchOptions
 aOptions
 )
 ;
+bool
+HasAtiDrivers
+(
+)
+;
 }
 #
 endif
