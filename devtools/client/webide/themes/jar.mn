@@ -151,16 +151,6 @@ css
 )
 skin
 /
-monitor
-.
-css
-(
-monitor
-.
-css
-)
-skin
-/
 config
 -
 view
