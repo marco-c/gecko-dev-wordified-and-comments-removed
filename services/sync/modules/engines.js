@@ -1253,6 +1253,13 @@ finalize
 (
 )
 {
+await
+this
+.
+stop
+(
+)
+;
 this
 .
 _saveChangedIDs
