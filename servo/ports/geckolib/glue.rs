@@ -28337,7 +28337,10 @@ specified
 font
 :
 :
+{
 SpecifiedFontFeatureSettings
+FontVariationSettings
+}
 ;
 let
 string
@@ -28589,6 +28592,9 @@ UnicodeRange
 eCSSFontDesc_FontFeatureSettings
 /
 SpecifiedFontFeatureSettings
+eCSSFontDesc_FontVariationSettings
+/
+FontVariationSettings
 eCSSFontDesc_FontLanguageOverride
 /
 font_language_override
