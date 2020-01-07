@@ -219,7 +219,7 @@ historyPanel
 getAttribute
 (
 "
-current
+visible
 "
 )
 "
