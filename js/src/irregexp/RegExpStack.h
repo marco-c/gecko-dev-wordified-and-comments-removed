@@ -231,7 +231,7 @@ void
 }
 }
 ;
-int
+bool
 GrowBacktrackStack
 (
 JSRuntime

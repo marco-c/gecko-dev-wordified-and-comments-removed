@@ -2187,7 +2187,7 @@ GrowBacktrackStack
 ;
 masm
 .
-storeCallWordResult
+storeCallBoolResult
 (
 temp0
 )
@@ -4538,7 +4538,7 @@ fun
 }
 masm
 .
-storeCallWordResult
+storeCallInt32Result
 (
 temp0
 )

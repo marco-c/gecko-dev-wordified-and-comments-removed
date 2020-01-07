@@ -65,7 +65,7 @@ reset
 )
 ;
 }
-int
+bool
 irregexp
 :
 :

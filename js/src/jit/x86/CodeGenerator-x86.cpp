@@ -5858,7 +5858,7 @@ DontCheckOther
 }
 masm
 .
-storeCallWordResult
+storeCallInt32Result
 (
 output
 )
@@ -6381,7 +6381,7 @@ DontCheckOther
 }
 masm
 .
-storeCallWordResult
+storeCallInt32Result
 (
 output
 )

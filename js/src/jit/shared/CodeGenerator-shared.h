@@ -1926,7 +1926,7 @@ t
 ;
 }
 void
-storeResultTo
+storePointerResultTo
 (
 Register
 reg
@@ -1934,7 +1934,7 @@ reg
 {
 masm
 .
-storeCallWordResult
+storeCallPointerResult
 (
 reg
 )
@@ -3083,7 +3083,7 @@ const
 codegen
 -
 >
-storeResultTo
+storePointerResultTo
 (
 out_
 )
