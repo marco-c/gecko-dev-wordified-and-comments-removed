@@ -7591,6 +7591,7 @@ Runnable
 {
 public
 :
+explicit
 GetUserMediaRunnableWrapper
 (
 GetUserMediaTask

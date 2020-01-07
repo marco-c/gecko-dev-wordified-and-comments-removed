@@ -159,6 +159,7 @@ NativeCallbacks
 :
 AttachNative
 ;
+explicit
 HLSResourceCallbacksSupport
 (
 HLSDecoder
