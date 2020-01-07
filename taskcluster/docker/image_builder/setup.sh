@@ -46,11 +46,7 @@ install
 -
 recommends
 \
-curl
-\
-tar
-\
-jq
+socat
 \
 python
 \
