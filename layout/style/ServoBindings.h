@@ -145,7 +145,7 @@ FontFamilyName
 enum
 FontFamilyType
 :
-uint8_t
+uint32_t
 ;
 class
 SharedFontList

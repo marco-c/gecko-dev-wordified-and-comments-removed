@@ -1069,7 +1069,8 @@ nsAString
 aFamily
 nsTArray
 <
-FamilyAndGeneric
+gfxFontFamily
+*
 >
 *
 aOutput
@@ -1126,7 +1127,8 @@ nsAtom
 aLanguage
 nsTArray
 <
-FamilyAndGeneric
+gfxFontFamily
+*
 >
 &
 aFamilyList
@@ -1350,7 +1352,8 @@ nsDataHashtable
 nsCStringHashKey
 nsTArray
 <
-FamilyAndGeneric
+gfxFontFamily
+*
 >
 >
 mFcSubstituteCache
