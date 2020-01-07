@@ -709,6 +709,14 @@ DISALLOW_COPY_AND_ASSIGN
 ActualCallParams
 )
 ;
+friend
+uint32_t
+GetMinDeclaredActualCallParamsSize
+(
+uint32_t
+param_count
+)
+;
 }
 ;
 static_assert
