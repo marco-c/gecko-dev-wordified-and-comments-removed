@@ -2605,6 +2605,9 @@ isLive
 ;
 MOZ_ASSERT
 (
+this
+-
+>
 is
 <
 T
@@ -2649,6 +2652,9 @@ isLive
 )
 ;
 return
+this
+-
+>
 is
 <
 T
