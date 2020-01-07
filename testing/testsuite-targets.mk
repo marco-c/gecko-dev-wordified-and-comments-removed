@@ -944,6 +944,8 @@ reftest
 \
 talos
 \
+raptor
+\
 awsy
 \
 xpcshell
