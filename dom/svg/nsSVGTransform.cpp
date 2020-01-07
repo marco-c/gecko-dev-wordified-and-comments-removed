@@ -46,6 +46,13 @@ M_PI
 namespace
 mozilla
 {
+using
+namespace
+dom
+:
+:
+SVGTransformBinding
+;
 void
 nsSVGTransform
 :

@@ -36,6 +36,13 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+:
+:
+SVGPathSegBinding
+;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DOMSVGPathSeg

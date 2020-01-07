@@ -27,6 +27,17 @@ mozilla
 /
 dom
 /
+SVGTextContentElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGIRect
 .
 h
@@ -79,6 +90,10 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+SVGTextContentElementBinding
+;
 nsSVGEnumMapping
 SVGTextContentElement
 :
@@ -94,7 +109,7 @@ nsGkAtoms
 :
 :
 spacing
-SVG_LENGTHADJUST_SPACING
+LENGTHADJUST_SPACING
 }
 {
 &
@@ -102,7 +117,7 @@ nsGkAtoms
 :
 :
 spacingAndGlyphs
-SVG_LENGTHADJUST_SPACINGANDGLYPHS
+LENGTHADJUST_SPACINGANDGLYPHS
 }
 {
 nullptr
@@ -130,7 +145,7 @@ nsGkAtoms
 :
 lengthAdjust
 sLengthAdjustMap
-SVG_LENGTHADJUST_SPACING
+LENGTHADJUST_SPACING
 }
 }
 ;

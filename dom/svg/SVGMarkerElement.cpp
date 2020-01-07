@@ -122,6 +122,16 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+SVGMarkerElementBinding
+;
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 Marker
@@ -132,6 +142,10 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+SVGAngleBinding
+;
 JSObject
 *
 SVGMarkerElement

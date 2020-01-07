@@ -37,6 +37,10 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+SVGViewElementBinding
+;
 JSObject
 *
 SVGViewElement

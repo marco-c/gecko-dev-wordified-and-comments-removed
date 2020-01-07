@@ -204,6 +204,16 @@ namespace
 mozilla
 :
 :
+dom
+:
+:
+SVGPreserveAspectRatioBinding
+;
+using
+namespace
+mozilla
+:
+:
 gfx
 ;
 SVGSVGElement
@@ -2855,7 +2865,7 @@ zero
 "
 )
 ;
-SVGAlign
+uint16_t
 align
 =
 aPreserveAspectRatio
@@ -2864,7 +2874,7 @@ GetAlign
 (
 )
 ;
-SVGMeetOrSlice
+uint16_t
 meetOrSlice
 =
 aPreserveAspectRatio

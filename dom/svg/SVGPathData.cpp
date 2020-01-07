@@ -131,6 +131,16 @@ namespace
 mozilla
 :
 :
+dom
+:
+:
+SVGPathSegBinding
+;
+using
+namespace
+mozilla
+:
+:
 gfx
 ;
 static
