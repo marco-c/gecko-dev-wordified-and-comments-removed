@@ -2219,9 +2219,9 @@ auto
 RemoteAutomation
 (
 None
-"
-fennec
-"
+options
+.
+app
 processArgs
 =
 process_args

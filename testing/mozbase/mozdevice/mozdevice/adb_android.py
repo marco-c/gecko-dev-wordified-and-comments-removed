@@ -2908,13 +2908,8 @@ launch_application
 (
 app_name
 "
-org
 .
-mozilla
-.
-gecko
-.
-BrowserApp
+App
 "
                                 
 intent

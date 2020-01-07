@@ -1052,6 +1052,9 @@ get_adb_path
 grant_runtime_permissions
 (
 self
+args
+.
+app
 )
         
 if
