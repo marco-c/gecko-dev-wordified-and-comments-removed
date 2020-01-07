@@ -6227,12 +6227,7 @@ GetContent
 )
 =
 =
-txtCtrl
--
->
-GetPreviewNode
-(
-)
+mPreviewDiv
 &
 &
 !
