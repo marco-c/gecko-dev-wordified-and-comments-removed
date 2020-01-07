@@ -305,11 +305,6 @@ nsIContentViewer
 idl
 '
 '
-nsIContentViewerContainer
-.
-idl
-'
-'
 nsIContentViewerEdit
 .
 idl
