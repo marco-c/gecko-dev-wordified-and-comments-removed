@@ -1313,10 +1313,6 @@ mNeedsComposite
 =
 false
 ;
-ClearDisplayItemLayers
-(
-)
-;
 }
 void
 WebRenderLayerManager

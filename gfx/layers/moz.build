@@ -2262,13 +2262,6 @@ cpp
 '
 basic
 /
-BasicDisplayItemLayer
-.
-cpp
-'
-'
-basic
-/
 BasicImages
 .
 cpp
