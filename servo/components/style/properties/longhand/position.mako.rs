@@ -1678,7 +1678,7 @@ webkit
 animation_value_type
 =
 "
-ComputedValue
+MozLength
 "
 allow_quirks
 =
@@ -1997,7 +1997,7 @@ size
 animation_value_type
 =
 "
-ComputedValues
+MozLength
 "
 )
 }
@@ -2062,7 +2062,7 @@ size
 animation_value_type
 =
 "
-ComputedValue
+MozLength
 "
 )
 }
@@ -2109,7 +2109,7 @@ size
 animation_value_type
 =
 "
-ComputedValue
+MaxLength
 "
 )
 }
