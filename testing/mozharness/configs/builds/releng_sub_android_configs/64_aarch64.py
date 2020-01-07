@@ -30,16 +30,6 @@ aarch64
 '
     
 '
-build_type
-'
-:
-'
-aarch64
--
-opt
-'
-    
-'
 src_mozconfig
 '
 :

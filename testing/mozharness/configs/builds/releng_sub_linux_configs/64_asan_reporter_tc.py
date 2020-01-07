@@ -39,14 +39,6 @@ reporter
 '
     
 '
-build_type
-'
-:
-'
-asan
-'
-    
-'
 enable_signing
 '
 :

@@ -578,18 +578,6 @@ android
 "
     
 "
-build_type
-"
-:
-"
-api
--
-16
--
-opt
-"
-    
-"
 build_target
 "
 :

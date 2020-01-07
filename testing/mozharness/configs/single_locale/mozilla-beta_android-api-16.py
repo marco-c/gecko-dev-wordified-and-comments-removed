@@ -207,18 +207,6 @@ is_release_or_beta
 True
     
 "
-build_type
-"
-:
-"
-api
--
-16
--
-opt
-"
-    
-"
 build_target
 "
 :

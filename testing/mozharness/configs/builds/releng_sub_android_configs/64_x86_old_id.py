@@ -36,16 +36,6 @@ id
 '
     
 '
-build_type
-'
-:
-'
-x86
--
-opt
-'
-    
-'
 src_mozconfig
 '
 :

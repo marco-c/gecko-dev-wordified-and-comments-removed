@@ -38,20 +38,6 @@ debug
 '
     
 '
-build_type
-'
-:
-'
-api
--
-16
--
-debug
--
-artifact
-'
-    
-'
 src_mozconfig
 '
 :

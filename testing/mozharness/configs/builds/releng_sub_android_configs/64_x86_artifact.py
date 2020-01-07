@@ -32,16 +32,6 @@ x86
 '
     
 '
-build_type
-'
-:
-'
-x86
--
-opt
-'
-    
-'
 src_mozconfig
 '
 :

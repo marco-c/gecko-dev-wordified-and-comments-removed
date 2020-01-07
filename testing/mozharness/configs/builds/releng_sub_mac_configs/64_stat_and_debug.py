@@ -45,18 +45,6 @@ debug
 '
     
 '
-build_type
-'
-:
-'
-st
--
-an
--
-debug
-'
-    
-'
 tooltool_manifest_src
 '
 :

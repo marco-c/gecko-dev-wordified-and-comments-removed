@@ -30,18 +30,6 @@ docs
 '
     
 '
-build_type
-'
-:
-'
-api
--
-16
--
-opt
-'
-    
-'
 src_mozconfig
 '
 :

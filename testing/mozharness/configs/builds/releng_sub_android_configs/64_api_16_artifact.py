@@ -35,20 +35,6 @@ api
 '
     
 '
-build_type
-'
-:
-'
-api
--
-16
--
-opt
--
-artifact
-'
-    
-'
 src_mozconfig
 '
 :

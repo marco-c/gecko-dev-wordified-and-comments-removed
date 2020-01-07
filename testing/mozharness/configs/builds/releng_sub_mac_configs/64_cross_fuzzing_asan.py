@@ -39,14 +39,6 @@ publish_nightly_en_US_routes
 False
     
 '
-build_type
-'
-:
-'
-asan
-'
-    
-'
 platform_supports_post_upload_to_latest
 '
 :

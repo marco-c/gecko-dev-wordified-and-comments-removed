@@ -41,18 +41,6 @@ devel
 '
     
 '
-build_type
-'
-:
-'
-add
--
-on
--
-devel
-'
-    
-'
 enable_signing
 '
 :

@@ -39,22 +39,6 @@ sample1
 '
     
 '
-build_type
-'
-:
-'
-api
--
-16
--
-partner
--
-sample1
--
-opt
-'
-    
-'
 src_mozconfig
 '
 :

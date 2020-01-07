@@ -43,14 +43,6 @@ valgrind
 '
     
 '
-build_type
-'
-:
-'
-valgrind
-'
-    
-'
 enable_signing
 '
 :
