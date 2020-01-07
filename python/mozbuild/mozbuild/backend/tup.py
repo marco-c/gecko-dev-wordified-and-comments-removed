@@ -2291,26 +2291,6 @@ library
         
 )
         
-install_exts
-=
-(
-            
-'
-.
-h
-'
-            
-'
-.
-inc
-'
-            
-'
-new
-'
-        
-)
-        
 if
 obj
 .
@@ -2461,21 +2441,9 @@ self
 _installed_files
 ]
 if
-any
-(
-f
-.
-endswith
-(
-install_exts
-)
-for
-f
-in
 obj
 .
-outputs
-)
+required_for_compile
 else
 None
             
