@@ -926,6 +926,18 @@ GetBackgroundAllocKind
 kind
 )
 ;
+ObjectGroupRealm
+&
+realm
+=
+ObjectGroupRealm
+:
+:
+getForNewObject
+(
+cx
+)
+;
 RootedObjectGroup
 group
 (
@@ -936,6 +948,7 @@ ObjectGroup
 lazySingletonGroup
 (
 cx
+realm
 &
 class_
 TaggedProto

@@ -1578,7 +1578,6 @@ false
 }
 if
 (
-(
 key
 =
 =
@@ -1596,8 +1595,21 @@ key
 =
 JSProto_Array
 )
+{
+ObjectGroupRealm
 &
-&
+realm
+=
+ObjectGroupRealm
+:
+:
+getForNewObject
+(
+cx
+)
+;
+if
+(
 !
 JSObject
 :
@@ -1605,6 +1617,7 @@ JSObject
 setNewGroupUnknown
 (
 cx
+realm
 placeholder
 -
 >
@@ -1614,7 +1627,6 @@ getClass
 placeholder
 )
 )
-{
 return
 false
 ;

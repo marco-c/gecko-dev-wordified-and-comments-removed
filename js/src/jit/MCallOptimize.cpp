@@ -10287,7 +10287,7 @@ ObjectGroup
 *
 group
 =
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 getStringSplitStringGroup

@@ -4334,6 +4334,18 @@ setInterpretedFunction
 functionProto
 )
 ;
+ObjectGroupRealm
+&
+realm
+=
+ObjectGroupRealm
+:
+:
+getForNewObject
+(
+cx
+)
+;
 if
 (
 !
@@ -4343,6 +4355,7 @@ JSObject
 setNewGroupUnknown
 (
 cx
+realm
 &
 JSFunction
 :

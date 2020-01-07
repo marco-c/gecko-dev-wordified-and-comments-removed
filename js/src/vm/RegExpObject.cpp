@@ -6609,7 +6609,7 @@ ObjectGroup
 *
 group
 =
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 makeGroup

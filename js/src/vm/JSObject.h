@@ -1511,6 +1511,12 @@ setNewGroupUnknown
 JSContext
 *
 cx
+js
+:
+:
+ObjectGroupRealm
+&
+realm
 const
 js
 :

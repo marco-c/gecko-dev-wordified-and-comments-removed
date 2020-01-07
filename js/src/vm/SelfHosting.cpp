@@ -10831,7 +10831,7 @@ RootedObjectGroup
 group
 (
 cx
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 getStringSplitStringGroup
@@ -10988,7 +10988,7 @@ RootedObjectGroup
 group
 (
 cx
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 getStringSplitStringGroup
