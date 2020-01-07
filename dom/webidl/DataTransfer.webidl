@@ -242,7 +242,6 @@ format
 )
 ;
 [
-Throws
 NeedsSubjectPrincipal
 ]
 readonly

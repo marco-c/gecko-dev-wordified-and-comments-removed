@@ -572,12 +572,6 @@ GetFiles
 nsIPrincipal
 &
 aSubjectPrincipal
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 already_AddRefed
