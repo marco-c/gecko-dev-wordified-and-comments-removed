@@ -349,7 +349,7 @@ namespace
 dom
 {
 class
-Performance
+PerformanceStorage
 ;
 }
 class
@@ -2249,9 +2249,9 @@ mozilla
 dom
 :
 :
-Performance
+PerformanceStorage
 *
-GetPerformance
+GetPerformanceStorage
 (
 )
 ;
