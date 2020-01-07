@@ -55,11 +55,7 @@ XMLHttpRequest
 const
 POSITION_UNAVAILABLE
 =
-Ci
-.
-nsIDOMGeoPositionError
-.
-POSITION_UNAVAILABLE
+2
 ;
 var
 gLoggingEnabled

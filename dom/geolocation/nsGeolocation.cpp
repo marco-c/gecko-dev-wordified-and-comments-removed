@@ -52,6 +52,17 @@ include
 "
 mozilla
 /
+dom
+/
+PositionErrorBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -142,13 +153,6 @@ h
 include
 "
 nsIDocument
-.
-h
-"
-#
-include
-"
-nsIDOMGeoPositionError
 .
 h
 "
@@ -1041,7 +1045,7 @@ SetTimeoutTimer
 ;
 NotifyErrorAndShutdown
 (
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 TIMEOUT
@@ -1309,7 +1313,7 @@ NS_OK
 }
 NotifyError
 (
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 PERMISSION_DENIED
@@ -1636,7 +1640,7 @@ mIsWatchPositionRequest
 {
 NotifyError
 (
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 TIMEOUT
@@ -1670,7 +1674,7 @@ rv
 {
 NotifyError
 (
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 POSITION_UNAVAILABLE
@@ -1992,7 +1996,7 @@ wrapped
 {
 NotifyError
 (
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 POSITION_UNAVAILABLE
@@ -3133,7 +3137,7 @@ this
 {
 NotifyError
 (
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 POSITION_UNAVAILABLE

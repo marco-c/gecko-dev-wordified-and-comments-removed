@@ -63,8 +63,8 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMGeoPositionError
+webidl
+PositionError
 ;
 [
 scriptable
@@ -91,7 +91,7 @@ void
 handleEvent
 (
 in
-nsIDOMGeoPositionError
+PositionError
 positionError
 )
 ;

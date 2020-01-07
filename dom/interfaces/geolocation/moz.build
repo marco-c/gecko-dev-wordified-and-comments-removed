@@ -129,11 +129,6 @@ nsIDOMGeoPositionCoords
 idl
 '
 '
-nsIDOMGeoPositionError
-.
-idl
-'
-'
 nsIDOMGeoPositionErrorCallback
 .
 idl
