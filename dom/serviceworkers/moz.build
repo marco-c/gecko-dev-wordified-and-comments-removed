@@ -260,6 +260,11 @@ ServiceWorkerContainerParent
 cpp
 '
 '
+ServiceWorkerContainerProxy
+.
+cpp
+'
+'
 ServiceWorkerDescriptor
 .
 cpp
