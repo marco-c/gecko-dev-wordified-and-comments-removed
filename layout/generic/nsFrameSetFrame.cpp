@@ -1291,13 +1291,6 @@ NODE_DESCENDANTS_NEED_FRAMES
 NODE_NEEDS_FRAME
 )
 ;
-child
--
->
-UnsetRestyleFlagsIfGecko
-(
-)
-;
 }
 break
 ;
@@ -1310,13 +1303,6 @@ UnsetFlags
 NODE_DESCENDANTS_NEED_FRAMES
 |
 NODE_NEEDS_FRAME
-)
-;
-child
--
->
-UnsetRestyleFlagsIfGecko
-(
 )
 ;
 if

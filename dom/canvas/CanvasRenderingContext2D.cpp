@@ -12252,11 +12252,6 @@ styleSet
 ResolveForDeclarations
 (
 parentStyle
--
->
-AsServo
-(
-)
 declarations
 )
 ;

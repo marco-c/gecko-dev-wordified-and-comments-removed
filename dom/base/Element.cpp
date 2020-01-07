@@ -7730,6 +7730,18 @@ SetParentIsContent
 aParent
 )
 ;
+MOZ_ASSERT
+(
+!
+HasAnyOfFlags
+(
+Element
+:
+:
+kAllServoDescendantBits
+)
+)
+;
 if
 (
 aDocument
@@ -7748,8 +7760,6 @@ UnsetFlags
 NODE_NEEDS_FRAME
 |
 NODE_DESCENDANTS_NEED_FRAMES
-|
-ELEMENT_ALL_RESTYLE_FLAGS
 )
 ;
 }
@@ -7766,8 +7776,6 @@ UnsetFlags
 NODE_NEEDS_FRAME
 |
 NODE_DESCENDANTS_NEED_FRAMES
-|
-ELEMENT_ALL_RESTYLE_FLAGS
 )
 ;
 }

@@ -2413,11 +2413,6 @@ GetAnimationValues
 servoDeclarationBlock
 aTargetElement
 aComputedStyle
--
->
-AsServo
-(
-)
 result
 )
 ;

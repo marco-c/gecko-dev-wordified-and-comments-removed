@@ -957,17 +957,6 @@ shell
 return
 ;
 }
-ComputedStyle
-*
-servo
-=
-computedStyle
--
->
-AsServo
-(
-)
-;
 nsTArray
 <
 const
@@ -978,7 +967,7 @@ rawRuleList
 ;
 Servo_ComputedValues_GetStyleRuleList
 (
-servo
+computedStyle
 &
 rawRuleList
 )

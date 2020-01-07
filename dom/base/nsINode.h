@@ -2801,12 +2801,6 @@ IsStyledByServo
 )
 const
 ;
-inline
-void
-UnsetRestyleFlagsIfGecko
-(
-)
-;
 void
 AddMutationObserver
 (
