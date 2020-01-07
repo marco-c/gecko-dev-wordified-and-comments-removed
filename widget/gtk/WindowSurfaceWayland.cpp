@@ -502,6 +502,9 @@ PostDelayedTask
 (
 NewRunnableFunction
 (
+"
+WaylandDisplayLoop
+"
 &
 WaylandDisplayLoop
 aDisplay
@@ -858,6 +861,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+WaylandDisplayLoop
+"
 &
 WaylandDisplayLoop
 mDisplay
@@ -2040,6 +2046,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+WaylandDisplayRelease
+"
 &
 WaylandDisplayRelease
 mWaylandDisplay
