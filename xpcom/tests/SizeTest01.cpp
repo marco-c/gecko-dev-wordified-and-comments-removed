@@ -1,7 +1,7 @@
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -21,13 +21,13 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 void
 Test01_raw
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -35,7 +35,7 @@ nsString
 aResult
 )
 {
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -68,7 +68,7 @@ node
 void
 Test01_raw_optimized
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -76,7 +76,7 @@ nsString
 aResult
 )
 {
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -105,7 +105,7 @@ node
 void
 Test01_nsCOMPtr
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -115,7 +115,7 @@ aResult
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 node
 =
@@ -138,7 +138,7 @@ aResult
 void
 Test01_nsCOMPtr_optimized
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -148,7 +148,7 @@ aResult
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 node
 =

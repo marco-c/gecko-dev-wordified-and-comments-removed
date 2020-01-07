@@ -1,7 +1,7 @@
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -14,7 +14,7 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 class
@@ -34,7 +34,7 @@ Test05_Raw
 void
 GetNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aNode
@@ -42,7 +42,7 @@ aNode
 ;
 private
 :
-nsIDOMNode
+nsINode
 *
 mNode
 ;
@@ -81,7 +81,7 @@ Test05_Raw
 :
 GetNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aNode
@@ -107,7 +107,7 @@ public
 void
 GetNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aNode
@@ -117,7 +117,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNode
 ;
@@ -129,7 +129,7 @@ Test05_nsCOMPtr
 :
 GetNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aNode

@@ -1,7 +1,7 @@
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -21,7 +21,7 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 void
@@ -35,7 +35,7 @@ nsString
 aResult
 )
 {
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -51,7 +51,7 @@ QueryInterface
 (
 NS_GET_IID
 (
-nsIDOMNode
+nsINode
 )
 (
 void
@@ -97,7 +97,7 @@ nsString
 aResult
 )
 {
-nsIDOMNode
+nsINode
 *
 node
 ;
@@ -111,7 +111,7 @@ QueryInterface
 (
 NS_GET_IID
 (
-nsIDOMNode
+nsINode
 )
 (
 void
@@ -162,7 +162,7 @@ status
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 node
 =

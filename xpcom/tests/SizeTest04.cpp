@@ -1,7 +1,7 @@
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -14,7 +14,7 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 class
@@ -34,14 +34,14 @@ Test04_Raw
 void
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
 ;
 private
 :
-nsIDOMNode
+nsINode
 *
 mNode
 ;
@@ -80,7 +80,7 @@ Test04_Raw
 :
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
@@ -108,7 +108,7 @@ public
 void
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
@@ -117,7 +117,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNode
 ;
@@ -129,7 +129,7 @@ Test04_nsCOMPtr
 :
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
