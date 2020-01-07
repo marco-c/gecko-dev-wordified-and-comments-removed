@@ -54,14 +54,6 @@ apt_packages
 =
 (
 '
-codespell
-'
-)
-apt_packages
-+
-=
-(
-'
 curl
 '
 )
