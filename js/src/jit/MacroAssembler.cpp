@@ -7800,12 +7800,12 @@ Label
 notAtom
 ;
 Imm32
-atomBit
+nonAtomBit
 (
 JSString
 :
 :
-ATOM_BIT
+NON_ATOM_BIT
 )
 ;
 branchTest32
@@ -7813,7 +7813,7 @@ branchTest32
 Assembler
 :
 :
-Zero
+NonZero
 Address
 (
 left
@@ -7824,7 +7824,7 @@ offsetOfFlags
 (
 )
 )
-atomBit
+nonAtomBit
 &
 notAtom
 )
@@ -7834,7 +7834,7 @@ branchTest32
 Assembler
 :
 :
-Zero
+NonZero
 Address
 (
 right
@@ -7845,7 +7845,7 @@ offsetOfFlags
 (
 )
 )
-atomBit
+nonAtomBit
 &
 notAtom
 )
@@ -8031,6 +8031,8 @@ str
 Register
 index
 Register
+temp
+Register
 output
 Label
 *
@@ -8065,6 +8067,7 @@ notRope
 branchIfNotRope
 (
 str
+temp
 &
 notRope
 )
@@ -8107,6 +8110,7 @@ fail
 branchIfRope
 (
 output
+temp
 fail
 )
 ;

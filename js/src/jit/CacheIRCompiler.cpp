@@ -10936,6 +10936,7 @@ loadStringChar
 (
 str
 index
+scratch2
 scratch1
 failure
 -

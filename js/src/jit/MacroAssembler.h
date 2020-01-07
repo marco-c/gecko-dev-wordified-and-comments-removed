@@ -5439,6 +5439,8 @@ branchIfRope
 (
 Register
 str
+Register
+temp
 Label
 *
 label
@@ -5463,6 +5465,8 @@ branchIfNotRope
 (
 Register
 str
+Register
+temp
 Label
 *
 label
@@ -9218,6 +9222,8 @@ Register
 str
 Register
 index
+Register
+temp
 Register
 output
 Label
