@@ -7546,8 +7546,6 @@ id
 =
 "
 canvas
-/
-extractData
 "
 class
 =
@@ -7558,8 +7556,6 @@ permission
 -
 icon
 canvas
-/
-extractData
 -
 icon
 "

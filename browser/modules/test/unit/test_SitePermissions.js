@@ -161,8 +161,6 @@ push
 (
 "
 canvas
-/
-extractData
 "
 )
 ;
@@ -914,8 +912,6 @@ push
 (
 "
 canvas
-/
-extractData
 "
 )
 ;
@@ -1496,8 +1492,6 @@ set
 uri
 "
 canvas
-/
-extractData
 "
 SitePermissions
 .
@@ -1532,8 +1526,6 @@ indexOf
 (
 "
 canvas
-/
-extractData
 "
 )
 -
@@ -1564,8 +1556,6 @@ id
 =
 "
 canvas
-/
-extractData
 "
 )
 .
@@ -1601,8 +1591,6 @@ indexOf
 (
 "
 canvas
-/
-extractData
 "
 )
 -
@@ -1633,8 +1621,6 @@ id
 =
 "
 canvas
-/
-extractData
 "
 )
 .
@@ -1649,8 +1635,6 @@ remove
 uri
 "
 canvas
-/
-extractData
 "
 )
 ;

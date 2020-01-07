@@ -725,8 +725,6 @@ type
 =
 "
 canvas
-/
-extractData
 "
 )
 &
@@ -997,8 +995,6 @@ permission
 =
 "
 canvas
-/
-extractData
 "
 )
 ;
@@ -2193,16 +2189,9 @@ BLOCK
 }
 "
 canvas
-/
-extractData
 "
 :
 {
-labelID
-:
-"
-canvas
-"
 }
 }
 ;

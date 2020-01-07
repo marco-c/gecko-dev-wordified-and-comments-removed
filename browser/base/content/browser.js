@@ -34302,8 +34302,6 @@ add
 aURI
 "
 canvas
-/
-extractData
 "
 aPerm
 aPersistent
