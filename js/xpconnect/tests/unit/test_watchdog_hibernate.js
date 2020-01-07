@@ -98,6 +98,10 @@ ok
 startHibernation
 <
 now
+"
+startHibernation
+ok
+"
 )
 ;
 Assert
@@ -107,6 +111,10 @@ ok
 stopHibernation
 <
 now
+"
+stopHibernation
+ok
+"
 )
 ;
 await
@@ -276,6 +284,10 @@ now
 1000
 -
 FUZZ_FACTOR
+"
+stateChange
+ok
+"
 )
 ;
 Assert
@@ -293,6 +305,10 @@ now
 1000
 -
 FUZZ_FACTOR
+"
+startHibernation
+ok
+"
 )
 ;
 Assert
@@ -310,6 +326,10 @@ now
 1000
 +
 FUZZ_FACTOR
+"
+startHibernation
+ok
+"
 )
 ;
 Assert
@@ -327,6 +347,10 @@ now
 1000
 -
 FUZZ_FACTOR
+"
+stopHibernation
+ok
+"
 )
 ;
 }

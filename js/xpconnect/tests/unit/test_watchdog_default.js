@@ -1,10 +1,9 @@
-async
 function
 testBody
 (
 )
 {
-await
+return
 checkWatchdog
 (
 isWatchdogEnabled

@@ -1,4 +1,3 @@
-async
 function
 testBody
 (
@@ -9,7 +8,7 @@ setWatchdogEnabled
 false
 )
 ;
-await
+return
 checkWatchdog
 (
 false
