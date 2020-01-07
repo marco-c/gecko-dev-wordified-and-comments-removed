@@ -375,6 +375,7 @@ void
 int
 loadiJIT_Funcs
 (
+void
 )
 ;
 int

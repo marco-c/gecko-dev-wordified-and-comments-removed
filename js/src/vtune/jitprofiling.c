@@ -74,7 +74,7 @@ n
 )
 Revision
 :
-523557
+471937
 \
 n
 "
@@ -741,11 +741,6 @@ if
 dllName
 )
 {
-if
-(
-DL_SYMBOLS
-)
-{
 m_libHandle
 =
 dlopen
@@ -754,7 +749,6 @@ dllName
 RTLD_LAZY
 )
 ;
-}
 }
 #
 endif
@@ -779,11 +773,6 @@ DEFAULT_DLLNAME
 ;
 #
 else
-if
-(
-DL_SYMBOLS
-)
-{
 m_libHandle
 =
 dlopen
@@ -792,7 +781,6 @@ DEFAULT_DLLNAME
 RTLD_LAZY
 )
 ;
-}
 #
 endif
 }

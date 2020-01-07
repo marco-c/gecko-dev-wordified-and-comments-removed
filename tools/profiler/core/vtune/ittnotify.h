@@ -6310,7 +6310,6 @@ pack
 (
 pop
 )
-static
 const
 __itt_id
 __itt_null
