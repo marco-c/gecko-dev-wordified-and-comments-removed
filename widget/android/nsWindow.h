@@ -691,14 +691,9 @@ GeckoViewSupport
 >
 mGeckoViewSupport
 ;
-#
-ifdef
-MOZ_NATIVE_DEVICES
 class
 PMPMSupport
 ;
-#
-endif
 mozilla
 :
 :
