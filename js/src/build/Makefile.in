@@ -337,6 +337,10 @@ DESTDIR
 (
 includedir
 )
+/
+(
+JS_LIBRARY_NAME
+)
 #
 #
 #
@@ -489,7 +493,7 @@ includedir
 /
 #
 (
-LIBRARY_NAME
+JS_LIBRARY_NAME
 )
 /
 #
@@ -577,6 +581,10 @@ DESTDIR
 )
 (
 includedir
+)
+/
+(
+JS_LIBRARY_NAME
 )
 (
 DEPTH
