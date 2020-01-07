@@ -494,6 +494,14 @@ mContent
 GetParent
 (
 )
+&
+&
+mContent
+-
+>
+GetParent
+(
+)
 -
 >
 IsXULElement
