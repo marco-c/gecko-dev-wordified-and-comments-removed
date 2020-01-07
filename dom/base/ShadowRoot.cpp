@@ -633,6 +633,7 @@ oldSlot
 currentSlot
 )
 {
+const
 nsTArray
 <
 RefPtr
@@ -893,6 +894,7 @@ if
 doReplaceSlot
 )
 {
+const
 nsTArray
 <
 RefPtr
@@ -1546,6 +1548,7 @@ MOZ_ASSERT
 slot
 )
 ;
+const
 nsTArray
 <
 RefPtr

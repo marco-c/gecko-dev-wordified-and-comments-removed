@@ -229,6 +229,7 @@ nsINode
 aNodes
 )
 ;
+const
 nsTArray
 <
 RefPtr
@@ -240,6 +241,7 @@ nsINode
 AssignedNodes
 (
 )
+const
 ;
 void
 InsertAssignedNode

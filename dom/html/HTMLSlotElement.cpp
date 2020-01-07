@@ -554,6 +554,7 @@ GetContainingShadow
 return
 ;
 }
+const
 nsTArray
 <
 RefPtr
@@ -779,6 +780,7 @@ aNodes
 mAssignedNodes
 ;
 }
+const
 nsTArray
 <
 RefPtr
@@ -793,6 +795,7 @@ HTMLSlotElement
 AssignedNodes
 (
 )
+const
 {
 return
 mAssignedNodes

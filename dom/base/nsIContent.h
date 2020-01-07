@@ -2105,6 +2105,13 @@ DoGetID
 )
 const
 ;
+nsINode
+*
+GetFlattenedTreeParentForMaybeAssignedNode
+(
+)
+const
+;
 public
 :
 #
