@@ -73,7 +73,12 @@ error
 =
 sys
 .
-exc_value
+exc_info
+(
+)
+[
+1
+]
         
 if
 (
