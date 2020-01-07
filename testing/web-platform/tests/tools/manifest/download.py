@@ -256,13 +256,13 @@ com
 /
 repos
 /
-w3c
-/
 web
 -
 platform
 -
 tests
+/
+wpt
 /
 releases
 "
