@@ -892,6 +892,11 @@ DOMPoint
 h
 '
 '
+DOMPreferences
+.
+h
+'
+'
 DOMQuad
 .
 h
@@ -1260,6 +1265,11 @@ cpp
 '
 '
 DOMPoint
+.
+cpp
+'
+'
+DOMPreferences
 .
 cpp
 '
