@@ -77,13 +77,6 @@ rules
 :
 {
 "
-camelcase
-"
-:
-"
-off
-"
-"
 mozilla
 /
 reject

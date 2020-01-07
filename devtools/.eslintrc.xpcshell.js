@@ -31,6 +31,15 @@ camelcase
 off
 "
 "
+no
+-
+undef
+"
+:
+"
+off
+"
+"
 block
 -
 scoped

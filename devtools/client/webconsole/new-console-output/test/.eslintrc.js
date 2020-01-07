@@ -12,10 +12,8 @@ exports
 extends
 "
 :
+[
 "
-.
-.
-/
 .
 .
 /
@@ -31,9 +29,10 @@ extends
 .
 eslintrc
 .
-mochitests
+xpcshell
 .
 js
 "
+]
 }
 ;
