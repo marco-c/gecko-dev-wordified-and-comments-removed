@@ -10645,6 +10645,12 @@ Clear
 (
 )
 ;
+mDAG
+.
+Clear
+(
+)
+;
 nsDisplayList
 :
 :
@@ -10654,11 +10660,6 @@ aBuilder
 )
 ;
 }
-void
-ClearDAG
-(
-)
-;
 DirectedAcyclicGraph
 <
 MergedListUnits
