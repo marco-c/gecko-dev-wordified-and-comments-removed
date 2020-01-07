@@ -608,6 +608,8 @@ ApplyAsyncProperties
 LayerTransactionParent
 *
 aLayerTree
+TransformsToSkip
+aSkip
 )
 override
 ;

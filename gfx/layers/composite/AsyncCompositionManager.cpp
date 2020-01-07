@@ -5214,6 +5214,9 @@ TimeStamp
 aCurrentFrame
 TimeDuration
 aVsyncRate
+CompositorBridgeParentBase
+:
+:
 TransformsToSkip
 aSkip
 )
@@ -5400,6 +5403,9 @@ if
 (
 aSkip
 &
+CompositorBridgeParentBase
+:
+:
 TransformsToSkip
 :
 :
