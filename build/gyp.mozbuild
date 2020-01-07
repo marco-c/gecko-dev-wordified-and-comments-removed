@@ -187,7 +187,7 @@ mac_sdk_min
 '
 10
 .
-7
+9
 '
 '
 mac_deployment_target
@@ -196,7 +196,7 @@ mac_deployment_target
 '
 10
 .
-7
+9
 '
 '
 use_official_google_api_keys
