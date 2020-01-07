@@ -4966,16 +4966,6 @@ iid
 )
 const
 ;
-inline
-XPCNativeInterface
-*
-FindNamedInterface
-(
-jsid
-name
-)
-const
-;
 uint16_t
 GetMemberCount
 (
