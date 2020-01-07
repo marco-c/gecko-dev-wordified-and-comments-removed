@@ -940,7 +940,9 @@ msection
 AddDataChannel
 (
 "
-rejected
+webrtc
+-
+datachannel
 "
 0
 0
@@ -3933,7 +3935,7 @@ return
 SdpMediaSection
 :
 :
-kDtlsSctp
+kUdpDtlsSctp
 ;
 }
 return
