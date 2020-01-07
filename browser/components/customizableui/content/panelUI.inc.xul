@@ -6754,7 +6754,7 @@ newTabControlled
 .
 header
 .
-message
+message2
 ;
 "
 buttonlabel
@@ -6785,7 +6785,7 @@ secondarybuttonlabel
 &
 newTabControlled
 .
-restoreButton
+disableButton
 .
 label
 ;
@@ -6796,7 +6796,7 @@ secondarybuttonaccesskey
 &
 newTabControlled
 .
-restoreButton
+disableButton
 .
 accesskey
 ;
@@ -6840,15 +6840,7 @@ notification
 -
 description
 "
->
-&
-newTabControlled
-.
-message
-;
-<
 /
-description
 >
 <
 /
