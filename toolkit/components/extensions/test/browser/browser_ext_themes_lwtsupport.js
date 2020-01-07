@@ -544,7 +544,7 @@ add_task
 (
 async
 function
-test_LWT_requires_accentcolor_defined_textcolor_only
+test_LWT_does_not_require_accentcolor_textcolor_only
 (
 )
 {
@@ -600,7 +600,6 @@ Assert
 .
 ok
 (
-!
 docEl
 .
 hasAttribute
@@ -613,7 +612,6 @@ lwtheme
 LWT
 attribute
 should
-not
 be
 set
 "
@@ -708,7 +706,7 @@ add_task
 (
 async
 function
-test_LWT_requires_accentcolor_defined_image_only
+test_LWT_does_not_require_accentcolor_image_only
 (
 )
 {
@@ -779,7 +777,6 @@ Assert
 .
 ok
 (
-!
 docEl
 .
 hasAttribute
@@ -792,7 +789,6 @@ lwtheme
 LWT
 attribute
 should
-not
 be
 set
 "
@@ -802,7 +798,6 @@ Assert
 .
 ok
 (
-!
 docEl
 .
 hasAttribute
@@ -818,7 +813,6 @@ LWT
 image
 attribute
 should
-not
 be
 set
 "
