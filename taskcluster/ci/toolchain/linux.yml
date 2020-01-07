@@ -544,12 +544,15 @@ linux64
 clang
 -
 6
+-
+pre
 :
 description
 :
 "
 Clang
 6
+Pre
 toolchain
 build
 "
@@ -567,7 +570,7 @@ symbol
 :
 TL
 (
-clang6
+clang6p
 )
 tier
 :
@@ -617,6 +620,8 @@ clang
 -
 6
 -
+pre
+-
 linux
 .
 sh
@@ -647,6 +652,8 @@ clang
 clang
 -
 6
+-
+pre
 -
 linux64
 .
@@ -695,6 +702,8 @@ clang
 -
 6
 -
+pre
+-
 macosx
 -
 cross
@@ -704,6 +713,7 @@ description
 "
 Clang
 6
+Pre
 toolchain
 build
 with
@@ -726,7 +736,7 @@ symbol
 :
 TL
 (
-clang6
+clang6p
 -
 macosx
 -
@@ -799,6 +809,8 @@ clang
 -
 6
 -
+pre
+-
 linux
 -
 macosx
@@ -833,6 +845,8 @@ clang
 clang
 -
 6
+-
+pre
 -
 macosx64
 .
@@ -884,6 +898,8 @@ linux64
 clang
 -
 6
+-
+pre
 -
 linux64
 -
