@@ -247,6 +247,14 @@ DIST
 )
 /
 include
+dist_xpcrs_dir
+:
+=
+(
+DIST
+)
+/
+xpcrs
 process_py
 :
 =
@@ -355,6 +363,9 @@ dist_idl_dir
 )
 (
 dist_include_dir
+)
+(
+dist_xpcrs_dir
 )
 (
 D
@@ -716,6 +727,9 @@ idl_deps_dir
 )
 (
 dist_include_dir
+)
+(
+dist_xpcrs_dir
 )
 )
 -
