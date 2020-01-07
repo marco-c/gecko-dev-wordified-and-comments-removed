@@ -301,11 +301,6 @@ nsCSSPseudoElements
 h
 '
 '
-nsCSSScanner
-.
-h
-'
-'
 nsCSSValue
 .
 h
@@ -938,11 +933,6 @@ cpp
 '
 '
 nsCSSProps
-.
-cpp
-'
-'
-nsCSSScanner
 .
 cpp
 '
