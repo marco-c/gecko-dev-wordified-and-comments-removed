@@ -5535,6 +5535,18 @@ script
                 
 pass
             
+elif
+key
+=
+=
+b
+"
+variant
+"
+:
+                
+pass
+            
 else
 :
                 
