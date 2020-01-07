@@ -11744,6 +11744,14 @@ AddTrackInternal
 track
 )
 ;
+track
+-
+>
+MutedChanged
+(
+true
+)
+;
 return
 OwningNonNull
 <
