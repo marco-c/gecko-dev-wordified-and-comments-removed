@@ -15,7 +15,8 @@ static
 ref
 DEFAULT
 :
-[
+Vec
+<
 (
 &
 '
@@ -23,10 +24,10 @@ static
 str
 Pref
 )
-;
-54
-]
+>
 =
+vec
+!
 [
 /
 /
