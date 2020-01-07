@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

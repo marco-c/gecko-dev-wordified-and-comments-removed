@@ -131,6 +131,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 JSObjectHolder
 .
 h

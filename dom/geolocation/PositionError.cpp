@@ -23,6 +23,15 @@ h
 #
 include
 "
+mozilla
+/
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
 nsGeolocation
 .
 h

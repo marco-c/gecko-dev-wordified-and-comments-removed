@@ -91,6 +91,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
