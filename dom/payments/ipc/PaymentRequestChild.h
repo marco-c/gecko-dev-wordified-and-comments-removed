@@ -132,15 +132,6 @@ PaymentRequestChild
 =
 default
 ;
-bool
-SendRequestPayment
-(
-const
-IPCPaymentActionRequest
-&
-aAction
-)
-;
 void
 DetachFromRequest
 (
