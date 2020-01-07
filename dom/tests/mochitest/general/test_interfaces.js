@@ -821,9 +821,6 @@ name
 "
 AuthenticatorAssertionResponse
 "
-nightly
-:
-true
 }
 {
 name
@@ -831,9 +828,6 @@ name
 "
 AuthenticatorAttestationResponse
 "
-nightly
-:
-true
 }
 {
 name
@@ -841,9 +835,6 @@ name
 "
 AuthenticatorResponse
 "
-nightly
-:
-true
 }
 {
 name
@@ -1140,9 +1131,6 @@ name
 "
 Credential
 "
-nightly
-:
-true
 }
 {
 name
@@ -1150,9 +1138,6 @@ name
 "
 CredentialsContainer
 "
-nightly
-:
-true
 }
 {
 name
@@ -4116,9 +4101,6 @@ name
 "
 PublicKeyCredential
 "
-nightly
-:
-true
 }
 {
 name
