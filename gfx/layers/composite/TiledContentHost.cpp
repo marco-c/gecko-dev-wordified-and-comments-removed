@@ -748,9 +748,9 @@ const
 IntRect
 &
 aUpdateRect
-Compositor
+TextureSourceProvider
 *
-aCompositor
+aProvider
 )
 {
 MOZ_ASSERT
@@ -769,7 +769,7 @@ return
 }
 if
 (
-aCompositor
+aProvider
 )
 {
 aTexture
@@ -777,7 +777,7 @@ aTexture
 >
 SetTextureSourceProvider
 (
-aCompositor
+aProvider
 )
 ;
 }
@@ -1686,7 +1686,7 @@ updateRect
 aLayerManager
 -
 >
-GetCompositor
+GetTextureSourceProvider
 (
 )
 )
@@ -1714,7 +1714,7 @@ updateRect
 aLayerManager
 -
 >
-GetCompositor
+GetTextureSourceProvider
 (
 )
 )
