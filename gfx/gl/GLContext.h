@@ -13063,6 +13063,11 @@ get
 )
 ;
 }
+void
+ClearSafely
+(
+)
+;
 bool
 WorkAroundDriverBugs
 (
