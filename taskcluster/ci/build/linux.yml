@@ -4548,6 +4548,8 @@ linux64
 -
 rust
 -
+nightly
+-
 linux64
 -
 sccache
