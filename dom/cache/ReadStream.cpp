@@ -2297,10 +2297,9 @@ stream
 ;
 #
 if
-!
 defined
 (
-RELEASE_OR_BETA
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 )
 if
 (
