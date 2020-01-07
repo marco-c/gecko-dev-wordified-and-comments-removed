@@ -15340,6 +15340,11 @@ reason
 {
 MOZ_RELEASE_ASSERT
 (
+invalidated
+(
+)
+|
+|
 script
 -
 >
