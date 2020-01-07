@@ -206,6 +206,7 @@ props
 const
 {
 id
+extensionId
 tooltip
 label
 iconOnly
@@ -299,6 +300,15 @@ id
 "
 :
 id
+"
+data
+-
+extension
+-
+id
+"
+:
+extensionId
 title
 :
 tooltip
