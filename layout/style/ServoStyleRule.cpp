@@ -732,7 +732,7 @@ void
 ServoStyleRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

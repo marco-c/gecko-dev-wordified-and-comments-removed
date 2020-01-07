@@ -119,7 +119,7 @@ final
 override
 ;
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

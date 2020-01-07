@@ -1600,7 +1600,7 @@ void
 nsCSSFontFaceRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

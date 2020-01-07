@@ -368,7 +368,7 @@ aMedia
 )
 ;
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -621,7 +621,7 @@ aURLs
 ;
 }
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -798,7 +798,7 @@ final
 override
 ;
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1260,7 +1260,7 @@ const
 override
 ;
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1496,7 +1496,7 @@ const
 override
 ;
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1897,7 +1897,7 @@ override
 ;
 virtual
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -2070,7 +2070,7 @@ override
 ;
 NS_DECL_ISUPPORTS_INHERITED
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

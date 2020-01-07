@@ -97,7 +97,7 @@ PAGE_RULE
 }
 virtual
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

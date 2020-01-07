@@ -189,7 +189,7 @@ void
 ServoFontFeatureValuesRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

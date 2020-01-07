@@ -1351,7 +1351,7 @@ const
 override
 ;
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

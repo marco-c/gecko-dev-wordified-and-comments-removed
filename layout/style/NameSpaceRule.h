@@ -173,7 +173,7 @@ mURLSpec
 ;
 }
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

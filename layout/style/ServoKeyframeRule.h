@@ -137,7 +137,7 @@ mRaw
 ;
 }
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

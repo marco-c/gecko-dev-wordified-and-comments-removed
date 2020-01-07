@@ -646,7 +646,7 @@ void
 ImportRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1233,7 +1233,7 @@ void
 MediaRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1846,7 +1846,7 @@ void
 DocumentRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -2549,7 +2549,7 @@ void
 NameSpaceRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -3266,7 +3266,7 @@ void
 nsCSSFontFeatureValuesRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -4093,7 +4093,7 @@ void
 nsCSSKeyframeRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -4645,7 +4645,7 @@ void
 nsCSSKeyframesRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -5709,7 +5709,7 @@ void
 nsCSSPageRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -6161,7 +6161,7 @@ void
 CSSSupportsRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

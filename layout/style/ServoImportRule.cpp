@@ -429,7 +429,7 @@ void
 ServoImportRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

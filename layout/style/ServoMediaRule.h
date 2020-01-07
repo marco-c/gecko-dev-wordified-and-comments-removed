@@ -133,7 +133,7 @@ mRawRule
 ;
 }
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
