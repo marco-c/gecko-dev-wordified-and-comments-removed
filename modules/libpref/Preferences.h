@@ -297,13 +297,6 @@ const
 char
 *
 aPrefName
-PrefValueKind
-aKind
-=
-PrefValueKind
-:
-:
-User
 )
 ;
 static
