@@ -128,6 +128,8 @@ guid
 ]
 )
 ;
+Assert
+.
 ok
 (
 tree
