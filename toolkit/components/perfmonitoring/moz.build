@@ -173,15 +173,6 @@ nsPerformanceStats
 cpp
 '
 ]
-if
-not
-CONFIG
-[
-'
-RELEASE_OR_BETA
-'
-]
-:
 UNIFIED_SOURCES
 +
 =
