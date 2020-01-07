@@ -754,9 +754,10 @@ requests
 .
 requests
 .
-isEmpty
-(
-)
+size
+=
+=
+0
 networkDetailsOpen
 :
 state
