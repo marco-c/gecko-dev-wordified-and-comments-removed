@@ -457,6 +457,11 @@ Base64
 h
 '
 '
+FilePreferences
+.
+h
+'
+'
 InputStreamLengthHelper
 .
 h
@@ -508,6 +513,11 @@ c
 '
 '
 FileDescriptorFile
+.
+cpp
+'
+'
+FilePreferences
 .
 cpp
 '

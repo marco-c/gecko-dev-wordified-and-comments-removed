@@ -180,6 +180,11 @@ TestFile
 cpp
 '
 '
+TestFilePreferencesWin
+.
+cpp
+'
+'
 TestGCPostBarriers
 .
 cpp
