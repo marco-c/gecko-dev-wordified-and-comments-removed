@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIDOMComment
-.
-h
-"
-#
-include
-"
 nsHTMLParts
 .
 h

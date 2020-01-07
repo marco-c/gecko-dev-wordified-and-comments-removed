@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIDOMComment
+nsIDOMCharacterData
 .
 h
 "
@@ -40,7 +40,7 @@ final
 public
 nsGenericDOMDataNode
 public
-nsIDOMComment
+nsIDOMCharacterData
 {
 private
 :

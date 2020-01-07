@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsIDOMComment
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

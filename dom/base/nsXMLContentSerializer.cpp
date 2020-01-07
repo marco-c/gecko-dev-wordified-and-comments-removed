@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMComment
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

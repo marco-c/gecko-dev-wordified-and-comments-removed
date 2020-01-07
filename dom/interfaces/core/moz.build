@@ -114,11 +114,6 @@ nsIDOMCharacterData
 idl
 '
 '
-nsIDOMComment
-.
-idl
-'
-'
 nsIDOMDocument
 .
 idl

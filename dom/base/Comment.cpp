@@ -65,7 +65,6 @@ Comment
 nsGenericDOMDataNode
 nsIDOMNode
 nsIDOMCharacterData
-nsIDOMComment
 )
 bool
 Comment

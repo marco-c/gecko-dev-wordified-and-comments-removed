@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIDOMComment
-.
-h
-"
-#
-include
-"
 nsIDOMProcessingInstruction
 .
 h

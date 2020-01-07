@@ -234,13 +234,6 @@ h
 #
 include
 "
-nsIDOMComment
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

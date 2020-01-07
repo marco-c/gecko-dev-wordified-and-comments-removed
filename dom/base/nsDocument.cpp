@@ -499,13 +499,6 @@ h
 #
 include
 "
-nsIDOMComment
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
