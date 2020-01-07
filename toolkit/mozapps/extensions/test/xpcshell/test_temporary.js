@@ -2624,6 +2624,13 @@ uninstall
 (
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 addon
 =
 await
@@ -4232,6 +4239,13 @@ addon
 userDisabled
 =
 false
+;
+await
+new
+Promise
+(
+executeSoon
+)
 ;
 addon
 =

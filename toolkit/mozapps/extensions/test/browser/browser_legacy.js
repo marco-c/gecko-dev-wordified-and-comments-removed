@@ -1065,6 +1065,13 @@ false
 )
 ;
 await
+new
+Promise
+(
+executeSoon
+)
+;
+await
 mgrWin
 .
 gLegacyView

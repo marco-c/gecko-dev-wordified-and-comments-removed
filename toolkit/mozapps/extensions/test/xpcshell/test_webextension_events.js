@@ -140,6 +140,13 @@ fn
 (
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 for
 (
 let
