@@ -61,7 +61,7 @@ resource
 /
 formautofill
 /
-FormAutofillUtils
+FormAutofill
 .
 jsm
 "
@@ -128,6 +128,19 @@ FormAutofillDoorhanger
 .
 jsm
 "
+FormAutofillUtils
+:
+"
+resource
+:
+/
+/
+formautofill
+/
+FormAutofillUtils
+.
+jsm
+"
 MasterPassword
 :
 "
@@ -150,7 +163,7 @@ log
 =
 null
 ;
-FormAutofillUtils
+FormAutofill
 .
 defineLazyLogGetter
 (
@@ -165,6 +178,12 @@ const
 {
 ENABLED_AUTOFILL_ADDRESSES_PREF
 ENABLED_AUTOFILL_CREDITCARDS_PREF
+}
+=
+FormAutofill
+;
+const
+{
 CREDITCARDS_COLLECTION_NAME
 }
 =
@@ -434,7 +453,7 @@ changed
 ;
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsAvailable
 )
@@ -1254,7 +1273,7 @@ this
 ;
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsAvailable
 )
@@ -2244,7 +2263,7 @@ timeStartedFillingMS
 ;
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillAddressesFirstTimeUse
 )
@@ -2255,7 +2274,7 @@ prefs
 .
 setBoolPref
 (
-FormAutofillUtils
+FormAutofill
 .
 ADDRESSES_FIRST_TIME_USE_PREF
 false
@@ -2377,7 +2396,7 @@ status
 {
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 AutofillCreditCardsUsedStatus
 <
@@ -2390,7 +2409,7 @@ prefs
 .
 setIntPref
 (
-FormAutofillUtils
+FormAutofill
 .
 CREDITCARDS_USED_STATUS_PREF
 status
@@ -2685,7 +2704,7 @@ async
 if
 (
 !
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsEnabled
 )
