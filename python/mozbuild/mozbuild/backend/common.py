@@ -1245,6 +1245,11 @@ objs
 [
 ]
         
+no_pgo_objs
+=
+[
+]
+        
 seen_objs
 =
 set
@@ -1287,6 +1292,23 @@ o
 )
                     
 objs
+.
+append
+(
+o
+)
+                    
+if
+lib
+.
+no_pgo_objs
+or
+lib
+.
+no_pgo
+:
+                        
+no_pgo_objs
 .
 append
 (
@@ -1520,6 +1542,7 @@ lib
         
 return
 objs
+no_pgo_objs
 shared_libs
 os_libs
 static_libs

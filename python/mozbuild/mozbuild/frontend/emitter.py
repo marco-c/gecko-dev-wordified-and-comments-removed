@@ -6349,6 +6349,26 @@ suffix
 +
 =
 srcs
+                
+if
+no_pgo_sources
+:
+                    
+linkable
+.
+no_pgo_sources
+=
+no_pgo_sources
+                
+elif
+no_pgo
+:
+                    
+linkable
+.
+no_pgo
+=
+True
             
 for
 host_linkable
