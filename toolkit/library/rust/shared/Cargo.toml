@@ -438,6 +438,13 @@ audioipc
 /
 client
 "
+version
+=
+"
+0
+.
+2
+"
 optional
 =
 true
@@ -467,6 +474,13 @@ media
 audioipc
 /
 server
+"
+version
+=
+"
+0
+.
+2
 "
 optional
 =
