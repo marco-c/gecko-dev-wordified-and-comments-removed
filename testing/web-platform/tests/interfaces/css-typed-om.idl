@@ -305,6 +305,8 @@ optional
 CSSUnparsedValue
 ?
 fallback
+=
+null
 )
 ]
 interface
