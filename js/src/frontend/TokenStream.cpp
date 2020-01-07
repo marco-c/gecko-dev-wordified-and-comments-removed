@@ -7442,17 +7442,11 @@ Modifier
 modifier
 )
 {
-Token
-*
-tp
-;
 auto
 FinishToken
 =
 [
 this
-&
-tp
 #
 ifdef
 DEBUG
@@ -7463,6 +7457,9 @@ endif
 ttp
 ]
 (
+Token
+*
+tp
 )
 {
 this
@@ -7587,6 +7584,10 @@ TemplateTail
 )
 )
 {
+Token
+*
+tp
+;
 if
 (
 !
@@ -7609,6 +7610,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -7630,6 +7632,8 @@ hasRawChars
 )
 )
 {
+Token
+*
 tp
 =
 newToken
@@ -7659,6 +7663,7 @@ true
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -7752,6 +7757,8 @@ updateFlagsForEOL
 continue
 ;
 }
+Token
+*
 tp
 =
 newToken
@@ -7883,6 +7890,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -7951,6 +7959,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -7994,6 +8003,8 @@ c1kind
 OneChar_Max
 )
 {
+Token
+*
 tp
 =
 newToken
@@ -8014,6 +8025,7 @@ c1kind
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8037,6 +8049,8 @@ c1kind
 Ident
 )
 {
+Token
+*
 tp
 =
 newToken
@@ -8075,6 +8089,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8089,6 +8104,8 @@ c1kind
 Dec
 )
 {
+Token
+*
 tp
 =
 newToken
@@ -8131,6 +8148,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8145,6 +8163,10 @@ c1kind
 String
 )
 {
+Token
+*
+tp
+;
 if
 (
 !
@@ -8172,6 +8194,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8248,6 +8271,8 @@ c1kind
 ZeroDigit
 )
 {
+Token
+*
 tp
 =
 newToken
@@ -8649,6 +8674,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8704,6 +8730,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8882,6 +8909,7 @@ NoDecimal
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -8896,6 +8924,8 @@ c1kind
 Other
 )
 ;
+Token
+*
 tp
 =
 newToken
@@ -8964,6 +8994,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9002,6 +9033,7 @@ TripleDot
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9026,6 +9058,7 @@ Dot
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9100,6 +9133,7 @@ Assign
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9154,6 +9188,7 @@ Add
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9213,6 +9248,7 @@ false
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9314,6 +9350,7 @@ BitOr
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9348,6 +9385,7 @@ BitXor
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9402,6 +9440,7 @@ BitAnd
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9456,6 +9495,7 @@ Not
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9593,6 +9633,7 @@ Lt
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9695,6 +9736,7 @@ Gt
 }
 FinishToken
 (
+tp
 )
 ;
 return
@@ -9761,6 +9803,7 @@ Mul
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -10409,6 +10452,7 @@ reflags
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -10439,6 +10483,7 @@ Div
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -10473,6 +10518,7 @@ Mod
 ;
 FinishToken
 (
+tp
 )
 ;
 return
@@ -10572,6 +10618,7 @@ Sub
 }
 FinishToken
 (
+tp
 )
 ;
 return
