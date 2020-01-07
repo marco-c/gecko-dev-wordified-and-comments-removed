@@ -450,7 +450,7 @@ getMostRecentBrowserWindow
 (
 )
 .
-openUILinkIn
+openTrustedLinkIn
 (
 attribution
 "

@@ -5746,7 +5746,7 @@ true
 )
 ;
 }
-openUILinkIn
+openTrustedLinkIn
 (
 alternativeURI
 .
@@ -12548,7 +12548,7 @@ break
 ;
 }
 }
-openUILinkIn
+openTrustedLinkIn
 (
 BROWSER_NEW_TAB_URL
 where
@@ -12818,7 +12818,7 @@ ex
 )
 {
 }
-openUILinkIn
+openTrustedLinkIn
 (
 fp
 .
@@ -16867,7 +16867,7 @@ callback
 (
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 reportUrl
 "
@@ -16961,7 +16961,7 @@ callback
 (
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 reportUrl
 "
@@ -20927,7 +20927,7 @@ tab
 window
 "
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 this
 .
@@ -21888,7 +21888,7 @@ window
 )
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about
@@ -22716,7 +22716,7 @@ openNewUserContextTab
 event
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 BROWSER_NEW_TAB_URL
 "
@@ -32111,6 +32111,13 @@ disallowInheritPrincipal
 data
 .
 mayInheritPrincipal
+triggeringPrincipal
+:
+gBrowser
+.
+selectedBrowser
+.
+contentPrincipal
 }
 )
 ;
@@ -36566,7 +36573,7 @@ current
 tab
 "
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about
@@ -37242,7 +37249,7 @@ if
 reportUrl
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 reportUrl
 "
@@ -44872,7 +44879,7 @@ gBrowser
 selectedTab
 )
 )
-openUILinkIn
+openTrustedLinkIn
 (
 aURI
 .
@@ -44884,7 +44891,7 @@ aOpenParams
 )
 ;
 else
-openUILinkIn
+openTrustedLinkIn
 (
 aURI
 .

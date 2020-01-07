@@ -2416,7 +2416,7 @@ if
 win
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 url
 "

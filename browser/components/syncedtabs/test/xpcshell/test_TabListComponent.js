@@ -693,7 +693,7 @@ openDialog
 )
 {
 }
-openUILinkIn
+openTrustedLinkIn
 (
 )
 {
@@ -1052,7 +1052,7 @@ spy
 (
 windowMock
 "
-openUILinkIn
+openTrustedLinkIn
 "
 )
 ;
@@ -1077,7 +1077,7 @@ ok
 (
 windowMock
 .
-openUILinkIn
+openTrustedLinkIn
 .
 calledWith
 (

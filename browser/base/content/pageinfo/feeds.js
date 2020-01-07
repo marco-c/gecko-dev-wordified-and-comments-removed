@@ -337,7 +337,7 @@ click
 )
 =
 >
-openUILinkIn
+openWebLinkIn
 (
 url
 "

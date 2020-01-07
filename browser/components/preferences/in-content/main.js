@@ -4207,7 +4207,7 @@ user
 {
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 about

@@ -5177,7 +5177,7 @@ where
 to
 pass
 to
-openUILinkIn
+openTrustedLinkIn
 .
 This
 method
@@ -5208,7 +5208,7 @@ parameters
 to
 pass
 to
-openUILinkIn
+openTrustedLinkIn
 .
 As
 with
@@ -6700,7 +6700,7 @@ handleRevert
 }
 try
 {
-openUILinkIn
+openTrustedLinkIn
 (
 url
 openUILinkWhere

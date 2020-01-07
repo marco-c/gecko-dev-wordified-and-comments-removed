@@ -778,7 +778,7 @@ command
 >
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 this
 .

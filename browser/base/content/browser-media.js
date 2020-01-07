@@ -2039,7 +2039,7 @@ baseURL
 "
 )
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 baseURL
 +
@@ -2254,7 +2254,7 @@ details
 )
 )
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 endpoint
 +

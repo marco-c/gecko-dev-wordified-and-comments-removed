@@ -1788,7 +1788,7 @@ promiseConnectDeviceURI
 entryPoint
 )
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 url
 "

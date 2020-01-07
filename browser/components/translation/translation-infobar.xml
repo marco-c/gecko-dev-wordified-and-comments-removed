@@ -421,7 +421,7 @@ link
 onclick
 =
 "
-openUILinkIn
+openTrustedLinkIn
 (
 '
 https

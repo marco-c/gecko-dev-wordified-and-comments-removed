@@ -340,7 +340,7 @@ nsIDOMWindow
 ;
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 submission
 .
@@ -350,10 +350,16 @@ spec
 "
 current
 "
+{
+allowThirdPartyFixup
+:
 false
+postData
+:
 submission
 .
 postData
+}
 )
 ;
 }

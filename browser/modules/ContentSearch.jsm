@@ -949,7 +949,7 @@ loadInBackground
 ;
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 submission
 .

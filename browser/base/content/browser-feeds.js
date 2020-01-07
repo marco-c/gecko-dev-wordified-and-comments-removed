@@ -871,6 +871,11 @@ event
 ignoreAlt
 :
 true
+triggeringPrincipal
+:
+gBrowser
+.
+contentPrincipal
 }
 )
 ;

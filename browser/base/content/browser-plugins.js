@@ -538,7 +538,7 @@ pluginTag
 )
 ;
 }
-openUILinkIn
+openTrustedLinkIn
 (
 url
 "

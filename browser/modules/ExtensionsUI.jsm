@@ -624,7 +624,7 @@ sideloaded
 {
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 about
 :

@@ -3660,7 +3660,7 @@ tab
 }
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 data
 .
@@ -6119,7 +6119,7 @@ callback
 {
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 https
@@ -9528,7 +9528,7 @@ aButton
 {
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 url
 "
@@ -9673,7 +9673,7 @@ getMostRecentBrowserWindow
 ;
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 data
 "
@@ -10835,7 +10835,7 @@ aButton
 {
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 url
 "
@@ -16244,7 +16244,7 @@ callback
 {
 win
 .
-openUILinkIn
+openTrustedLinkIn
 (
 "
 https
