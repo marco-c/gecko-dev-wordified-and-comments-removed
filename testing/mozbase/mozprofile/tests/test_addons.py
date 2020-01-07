@@ -11,6 +11,8 @@ tempfile
 import
 unittest
 import
+urllib2
+import
 zipfile
 import
 mozunit
@@ -35,14 +37,6 @@ addon_stubs
 import
 generate_addon
 generate_manifest
-from
-six
-.
-moves
-.
-urllib
-import
-error
 here
 =
 os
@@ -671,7 +665,7 @@ self
 .
 assertRaises
 (
-error
+urllib2
 .
 HTTPError
                           
@@ -1222,7 +1216,7 @@ temp_addon
 addons_installed
 =
 [
-str
+unicode
 (
 x
 [
@@ -2541,7 +2535,7 @@ temp_manifest
 addons_installed
 =
 [
-str
+unicode
 (
 x
 [
@@ -2890,7 +2884,7 @@ addon_one
 installed_addons
 =
 [
-str
+unicode
 (
 x
 [
@@ -2966,7 +2960,7 @@ clean
 addons_after_cleanup
 =
 [
-str
+unicode
 (
 x
 [
