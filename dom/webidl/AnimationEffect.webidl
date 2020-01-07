@@ -181,7 +181,7 @@ reverse
 }
 ;
 dictionary
-AnimationEffectTimingProperties
+EffectTiming
 {
 double
 delay
@@ -248,9 +248,9 @@ linear
 }
 ;
 dictionary
-ComputedTimingProperties
+ComputedEffectTiming
 :
-AnimationEffectTimingProperties
+EffectTiming
 {
 unrestricted
 double
@@ -318,7 +318,7 @@ BinaryName
 getComputedTimingAsDict
 "
 ]
-ComputedTimingProperties
+ComputedEffectTiming
 getComputedTiming
 (
 )

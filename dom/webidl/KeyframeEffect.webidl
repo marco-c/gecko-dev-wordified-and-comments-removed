@@ -159,7 +159,7 @@ accumulate
 dictionary
 KeyframeEffectOptions
 :
-AnimationEffectTimingProperties
+EffectTiming
 {
 IterationCompositeOperation
 iterationComposite

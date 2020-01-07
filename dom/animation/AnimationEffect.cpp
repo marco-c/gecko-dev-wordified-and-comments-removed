@@ -1373,7 +1373,7 @@ const
 TimingParams
 &
 aTiming
-ComputedTimingProperties
+ComputedEffectTiming
 &
 aRetVal
 )
@@ -1588,7 +1588,7 @@ AnimationEffect
 :
 GetComputedTimingAsDict
 (
-ComputedTimingProperties
+ComputedEffectTiming
 &
 aRetVal
 )

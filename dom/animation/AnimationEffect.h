@@ -115,7 +115,7 @@ class
 KeyframeEffect
 ;
 struct
-ComputedTimingProperties
+ComputedEffectTiming
 ;
 class
 AnimationEffect
@@ -292,7 +292,7 @@ const
 void
 GetComputedTimingAsDict
 (
-ComputedTimingProperties
+ComputedEffectTiming
 &
 aRetVal
 )
