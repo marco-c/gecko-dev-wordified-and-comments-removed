@@ -738,9 +738,6 @@ main
 current
 ;
 EitherParser
-<
-FullParseHandler
->
 parser
 ;
 PooledMapPtr
@@ -857,9 +854,6 @@ BytecodeEmitter
 parent
 const
 EitherParser
-<
-FullParseHandler
->
 &
 parser
 SharedContext
@@ -921,9 +915,6 @@ BytecodeEmitter
 (
 parent
 EitherParser
-<
-FullParseHandler
->
 (
 parser
 )
@@ -942,9 +933,6 @@ BytecodeEmitter
 parent
 const
 EitherParser
-<
-FullParseHandler
->
 &
 parser
 SharedContext
@@ -1006,9 +994,6 @@ BytecodeEmitter
 (
 parent
 EitherParser
-<
-FullParseHandler
->
 (
 parser
 )
