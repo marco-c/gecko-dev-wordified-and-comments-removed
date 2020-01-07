@@ -3333,7 +3333,7 @@ FlexBasis
 VARIANT_AHKLP
 |
 VARIANT_CALC
-kWidthKTable
+kFlexBasisKTable
 eStyleAnimType_Coord
 )
 CSS_PROP_POSITION

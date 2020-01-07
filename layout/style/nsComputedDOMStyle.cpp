@@ -23773,7 +23773,7 @@ nullptr
 nsCSSProps
 :
 :
-kWidthKTable
+kFlexBasisKTable
 )
 ;
 return

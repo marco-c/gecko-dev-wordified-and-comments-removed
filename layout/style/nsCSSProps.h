@@ -3391,6 +3391,13 @@ kWidthKTable
 static
 const
 KTableEntry
+kFlexBasisKTable
+[
+]
+;
+static
+const
+KTableEntry
 kWindowDraggingKTable
 [
 ]

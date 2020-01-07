@@ -49997,6 +49997,9 @@ none
 2px
 "
 "
+content
+"
+"
 calc
 (
 50
@@ -54220,6 +54223,9 @@ auto
 other_values
 :
 [
+"
+content
+"
 "
 15px
 "
