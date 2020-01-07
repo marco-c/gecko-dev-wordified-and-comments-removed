@@ -1830,7 +1830,7 @@ mPlaybackBytesPerSecond
 =
 mPlaybackStatistics
 .
-GetRateAtLastStop
+GetRate
 (
 &
 reliable
