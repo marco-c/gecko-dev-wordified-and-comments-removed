@@ -1491,6 +1491,7 @@ XULTreeItemIterator
 :
 XULTreeItemIterator
 (
+const
 XULTreeAccessible
 *
 aXULTree
