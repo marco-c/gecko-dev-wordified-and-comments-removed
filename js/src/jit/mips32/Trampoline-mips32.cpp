@@ -3940,9 +3940,6 @@ explicitArg
 +
 )
 {
-MoveOperand
-from
-;
 switch
 (
 f
