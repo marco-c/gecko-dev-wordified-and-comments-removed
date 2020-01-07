@@ -6080,7 +6080,7 @@ padding
 "
 TileEdgePaddingEnabled
 bool
-true
+false
 )
 ;
 DECL_GFX_PREF
