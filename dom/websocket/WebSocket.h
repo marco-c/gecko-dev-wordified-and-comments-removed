@@ -255,6 +255,15 @@ aGivenProto
 )
 override
 ;
+void
+BindToOwner
+(
+nsIGlobalObject
+*
+aNew
+)
+override
+;
 public
 :
 static
