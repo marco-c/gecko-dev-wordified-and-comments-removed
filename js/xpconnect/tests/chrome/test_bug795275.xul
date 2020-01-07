@@ -630,10 +630,9 @@ touchInterfaces
 /
 /
 This
-shouldn
-'
-t
+should
 warn
+twice
 .
 getWin
 (
@@ -687,7 +686,7 @@ gListener
 is
 (
 gWarnings
-3
+5
 "
 Got
 the

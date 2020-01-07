@@ -1141,7 +1141,7 @@ options
 .
 wantComponents
 =
-true
+false
 ;
 options
 .
