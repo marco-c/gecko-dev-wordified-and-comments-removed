@@ -4535,8 +4535,7 @@ skip
 -
 if
 (
-!
-winWidget
+true
 )
 pref
 (
