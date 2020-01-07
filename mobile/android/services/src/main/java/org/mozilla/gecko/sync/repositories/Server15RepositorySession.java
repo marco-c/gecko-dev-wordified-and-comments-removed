@@ -196,6 +196,9 @@ BatchingDownloader
 (
 this
 .
+delegateQueue
+this
+.
 serverRepository
 .
 authHeaderProvider

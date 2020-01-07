@@ -260,6 +260,15 @@ util
 .
 concurrent
 .
+Executors
+;
+import
+java
+.
+util
+.
+concurrent
+.
 TimeUnit
 ;
 import
@@ -383,6 +392,7 @@ repositorySession
 {
 super
 (
+null
 null
 Uri
 .
@@ -621,6 +631,11 @@ downloader
 new
 BatchingDownloader
 (
+Executors
+.
+newSingleThreadExecutor
+(
+)
 null
 Uri
 .
