@@ -581,6 +581,11 @@ Unused
 h
 '
 '
+Utf8
+.
+h
+'
+'
 Variant
 .
 h
@@ -870,6 +875,11 @@ cpp
 '
 '
 Unused
+.
+cpp
+'
+'
+Utf8
 .
 cpp
 '
