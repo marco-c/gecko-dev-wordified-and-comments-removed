@@ -860,9 +860,6 @@ reset_line
 mut
 self
 )
--
->
-Line
 {
 self
 .
@@ -870,16 +867,10 @@ last_known_line_breaking_opportunity
 =
 None
 ;
-mem
-:
-:
-replace
-(
-&
-mut
 self
 .
 pending_line
+=
 Line
 :
 :
@@ -895,7 +886,7 @@ self
 .
 minimum_metrics
 )
-)
+;
 }
 fn
 scan_for_lines
