@@ -900,7 +900,7 @@ directory
 svn
 "
 "
-update
+revert
 "
 "
 -
@@ -908,9 +908,11 @@ q
 "
 "
 -
-r
+R
 "
-revision
+"
+.
+"
 ]
 )
     
@@ -922,7 +924,7 @@ directory
 svn
 "
 "
-revert
+update
 "
 "
 -
@@ -930,7 +932,7 @@ q
 "
 "
 -
-R
+r
 "
 revision
 ]
