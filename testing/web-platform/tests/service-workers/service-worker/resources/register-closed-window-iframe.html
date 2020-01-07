@@ -14,6 +14,7 @@ addEventListener
 '
 message
 '
+async
 function
 (
 evt
@@ -64,6 +65,9 @@ w
 =
 null
 ;
+try
+{
+await
 sw
 .
 register
@@ -75,6 +79,9 @@ js
 '
 )
 ;
+}
+finally
+{
 parent
 .
 postMessage
@@ -87,6 +94,7 @@ OK
 '
 )
 ;
+}
 }
 }
 )

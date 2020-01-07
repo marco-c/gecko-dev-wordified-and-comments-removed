@@ -18,7 +18,7 @@ bluetooth
 /
 public
 /
-interfaces
+mojom
 /
 uuid
 .

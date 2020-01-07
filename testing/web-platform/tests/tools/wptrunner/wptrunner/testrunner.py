@@ -1405,14 +1405,6 @@ init_timer
 cancel
 (
 )
-        
-self
-.
-browser
-.
-cleanup
-(
-)
     
 def
 check_for_crashes

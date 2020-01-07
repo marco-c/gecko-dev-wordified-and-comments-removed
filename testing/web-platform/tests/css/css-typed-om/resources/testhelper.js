@@ -829,7 +829,7 @@ return
 rule
 rule
 .
-attributeStyleMap
+styleMap
 ]
 ;
 }

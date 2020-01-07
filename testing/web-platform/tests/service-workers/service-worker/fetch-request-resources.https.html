@@ -108,6 +108,40 @@ expected_results
 }
 ;
 function
+add_promise_to_test
+(
+url
+)
+{
+var
+expected
+=
+expected_results
+[
+url
+]
+;
+return
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
+expected
+.
+resolve
+=
+resolve
+;
+}
+)
+;
+}
+function
 image_test
 (
 frame
@@ -176,7 +210,6 @@ cross_origin
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -185,6 +218,12 @@ load_image
 (
 actual_url
 cross_origin
+)
+;
+return
+add_promise_to_test
+(
+actual_url
 )
 ;
 }
@@ -257,7 +296,6 @@ cross_origin
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -266,6 +304,12 @@ load_script
 (
 actual_url
 cross_origin
+)
+;
+return
+add_promise_to_test
+(
+actual_url
 )
 ;
 }
@@ -338,7 +382,6 @@ cross_origin
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -347,6 +390,12 @@ load_css
 (
 actual_url
 cross_origin
+)
+;
+return
+add_promise_to_test
+(
+actual_url
 )
 ;
 }
@@ -411,12 +460,17 @@ actual_url
 '
 }
 ;
-return
 frame
 .
 contentWindow
 .
 load_font
+(
+actual_url
+)
+;
+return
+add_promise_to_test
 (
 actual_url
 )
@@ -488,7 +542,6 @@ actual_url
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -497,6 +550,12 @@ load_script_with_integrity
 (
 actual_url
 integrity
+)
+;
+return
+add_promise_to_test
+(
+actual_url
 )
 ;
 }
@@ -566,7 +625,6 @@ actual_url
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -575,6 +633,12 @@ load_css_with_integrity
 (
 actual_url
 integrity
+)
+;
+return
+add_promise_to_test
+(
+actual_url
 )
 ;
 }
@@ -651,7 +715,6 @@ credentials
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -671,6 +734,28 @@ credentials
 credentials
 }
 )
+)
+.
+then
+(
+(
+)
+=
+>
+{
+}
+(
+)
+=
+>
+{
+}
+)
+;
+return
+add_promise_to_test
+(
+actual_url
 )
 ;
 }
@@ -740,7 +825,6 @@ cross_origin
 '
 }
 ;
-return
 frame
 .
 contentWindow
@@ -751,8 +835,14 @@ actual_url
 cross_origin
 )
 ;
+return
+add_promise_to_test
+(
+actual_url
+)
+;
 }
-async_test
+promise_test
 (
 function
 (
@@ -852,6 +942,7 @@ worker
 var
 frame
 ;
+return
 service_worker_unregister_and_register
 (
 t
@@ -898,6 +989,7 @@ Promise
 function
 (
 resolve
+reject
 )
 {
 var
@@ -965,6 +1057,13 @@ expected
 return
 ;
 }
+test
+(
+(
+)
+=
+>
+{
 assert_equals
 (
 result
@@ -1090,9 +1189,17 @@ integrity
 '
 )
 ;
--
--
-url_count
+}
+expected
+.
+message
+)
+;
+expected
+.
+resolve
+(
+)
 ;
 delete
 expected_results
@@ -1102,27 +1209,6 @@ result
 url
 ]
 ;
-if
-(
-url_count
-=
-=
-0
-)
-{
-frame
-.
-remove
-(
-)
-;
-service_worker_unregister_and_done
-(
-t
-SCOPE
-)
-;
-}
 }
 )
 ;
@@ -1167,6 +1253,7 @@ SCOPE
 .
 then
 (
+async
 function
 (
 f
@@ -1176,6 +1263,7 @@ frame
 =
 f
 ;
+await
 image_test
 (
 f
@@ -1192,6 +1280,7 @@ include
 '
 )
 ;
+await
 image_test
 (
 f
@@ -1208,6 +1297,7 @@ include
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1224,6 +1314,7 @@ include
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1240,6 +1331,7 @@ include
 '
 )
 ;
+await
 image_test
 (
 f
@@ -1257,6 +1349,7 @@ origin
 '
 )
 ;
+await
 image_test
 (
 f
@@ -1274,6 +1367,7 @@ include
 '
 )
 ;
+await
 image_test
 (
 f
@@ -1290,6 +1384,7 @@ include
 '
 )
 ;
+await
 image_test
 (
 f
@@ -1307,6 +1402,7 @@ origin
 '
 )
 ;
+await
 image_test
 (
 f
@@ -1324,6 +1420,7 @@ include
 '
 )
 ;
+await
 script_test
 (
 f
@@ -1340,6 +1437,7 @@ include
 '
 )
 ;
+await
 script_test
 (
 f
@@ -1357,6 +1455,7 @@ origin
 '
 )
 ;
+await
 script_test
 (
 f
@@ -1374,6 +1473,7 @@ include
 '
 )
 ;
+await
 script_test
 (
 f
@@ -1390,6 +1490,7 @@ include
 '
 )
 ;
+await
 script_test
 (
 f
@@ -1407,6 +1508,7 @@ origin
 '
 )
 ;
+await
 script_test
 (
 f
@@ -1424,6 +1526,7 @@ include
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1440,6 +1543,7 @@ include
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1457,6 +1561,7 @@ origin
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1474,6 +1579,7 @@ include
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1490,6 +1596,7 @@ include
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1507,6 +1614,7 @@ origin
 '
 )
 ;
+await
 css_test
 (
 f
@@ -1524,6 +1632,7 @@ include
 '
 )
 ;
+await
 font_face_test
 (
 f
@@ -1538,6 +1647,7 @@ origin
 '
 )
 ;
+await
 font_face_test
 (
 f
@@ -1552,6 +1662,7 @@ origin
 '
 )
 ;
+await
 script_integrity_test
 (
 f
@@ -1562,6 +1673,7 @@ LOCAL_URL
 '
 )
 ;
+await
 script_integrity_test
 (
 f
@@ -1594,6 +1706,7 @@ dashes
 '
 )
 ;
+await
 script_integrity_test
 (
 f
@@ -1608,6 +1721,7 @@ sha256
 '
 )
 ;
+await
 script_integrity_test
 (
 f
@@ -1628,6 +1742,7 @@ foo
 '
 )
 ;
+await
 script_integrity_test
 (
 f
@@ -1650,6 +1765,7 @@ abc
 '
 )
 ;
+await
 script_integrity_test
 (
 f
@@ -1672,6 +1788,7 @@ abc
 '
 )
 ;
+await
 css_integrity_test
 (
 f
@@ -1682,6 +1799,7 @@ LOCAL_URL
 '
 )
 ;
+await
 css_integrity_test
 (
 f
@@ -1714,6 +1832,7 @@ dashes
 '
 )
 ;
+await
 css_integrity_test
 (
 f
@@ -1728,6 +1847,7 @@ sha256
 '
 )
 ;
+await
 css_integrity_test
 (
 f
@@ -1748,6 +1868,7 @@ foo
 '
 )
 ;
+await
 css_integrity_test
 (
 f
@@ -1770,6 +1891,7 @@ abc
 '
 )
 ;
+await
 css_integrity_test
 (
 f
@@ -1792,6 +1914,7 @@ abc
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1814,6 +1937,7 @@ omit
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1840,6 +1964,7 @@ origin
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1862,6 +1987,7 @@ include
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1884,6 +2010,7 @@ omit
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1910,6 +2037,7 @@ origin
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1932,6 +2060,7 @@ include
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1950,6 +2079,7 @@ omit
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1972,6 +2102,7 @@ origin
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -1990,6 +2121,7 @@ include
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -2012,6 +2144,7 @@ omit
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -2038,6 +2171,7 @@ origin
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -2060,6 +2194,7 @@ include
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -2078,6 +2213,7 @@ omit
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -2100,6 +2236,7 @@ origin
 '
 )
 ;
+await
 fetch_test
 (
 f
@@ -2118,6 +2255,7 @@ include
 '
 )
 ;
+await
 audio_test
 (
 f
@@ -2134,6 +2272,7 @@ include
 '
 )
 ;
+await
 audio_test
 (
 f
@@ -2151,6 +2290,7 @@ origin
 '
 )
 ;
+await
 audio_test
 (
 f
@@ -2168,6 +2308,7 @@ include
 '
 )
 ;
+await
 audio_test
 (
 f
@@ -2184,6 +2325,7 @@ include
 '
 )
 ;
+await
 audio_test
 (
 f
@@ -2201,6 +2343,7 @@ origin
 '
 )
 ;
+await
 audio_test
 (
 f
@@ -2216,6 +2359,18 @@ cors
 '
 include
 '
+)
+;
+frame
+.
+remove
+(
+)
+;
+service_worker_unregister
+(
+t
+SCOPE
 )
 ;
 }

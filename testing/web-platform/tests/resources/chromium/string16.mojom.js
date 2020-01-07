@@ -38,7 +38,11 @@ mojomId
 '
 mojo
 /
-common
+public
+/
+mojom
+/
+base
 /
 string16
 .
@@ -487,7 +491,11 @@ define
 "
 mojo
 /
-common
+public
+/
+mojom
+/
+base
 /
 string16
 .

@@ -18,7 +18,7 @@ usb
 /
 public
 /
-interfaces
+mojom
 /
 chooser_service
 .
@@ -145,7 +145,7 @@ usb
 /
 public
 /
-interfaces
+mojom
 /
 device
 .
@@ -199,7 +199,7 @@ usb
 /
 public
 /
-interfaces
+mojom
 /
 device_manager
 .

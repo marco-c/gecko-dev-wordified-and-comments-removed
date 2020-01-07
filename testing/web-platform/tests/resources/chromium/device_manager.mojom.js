@@ -18,7 +18,7 @@ usb
 /
 public
 /
-interfaces
+mojom
 /
 device_manager
 .
@@ -145,7 +145,7 @@ usb
 /
 public
 /
-interfaces
+mojom
 /
 device
 .
@@ -197,7 +197,11 @@ loadMojomIfNecessary
 '
 mojo
 /
-common
+public
+/
+mojom
+/
+base
 /
 string16
 .
@@ -218,7 +222,11 @@ mojom
 /
 mojo
 /
-common
+public
+/
+mojom
+/
+base
 /
 string16
 .

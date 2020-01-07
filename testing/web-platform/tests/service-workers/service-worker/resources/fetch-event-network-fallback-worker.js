@@ -1,0 +1,15 @@
+self
+.
+addEventListener
+(
+'
+fetch
+'
+(
+)
+=
+>
+{
+}
+)
+;

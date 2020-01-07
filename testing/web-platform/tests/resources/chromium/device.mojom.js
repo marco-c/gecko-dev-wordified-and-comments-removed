@@ -18,7 +18,7 @@ usb
 /
 public
 /
-interfaces
+mojom
 /
 device
 .
@@ -143,7 +143,11 @@ loadMojomIfNecessary
 '
 mojo
 /
-common
+public
+/
+mojom
+/
+base
 /
 string16
 .
@@ -164,7 +168,11 @@ mojom
 /
 mojo
 /
-common
+public
+/
+mojom
+/
+base
 /
 string16
 .
@@ -11045,7 +11053,7 @@ kStructHeaderSize
 codec
 .
 Uint8
-true
+false
 [
 0
 ]
@@ -12738,7 +12746,7 @@ kStructHeaderSize
 codec
 .
 Uint8
-true
+false
 [
 0
 ]
@@ -14341,7 +14349,7 @@ kStructHeaderSize
 codec
 .
 Uint8
-true
+false
 [
 0
 ]
