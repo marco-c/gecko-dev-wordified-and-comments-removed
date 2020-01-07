@@ -474,9 +474,10 @@ newer
 s
 found
 '
+%
 (
 MIN_NODE_VERSION
-node_version
+version
 )
 if
 require
