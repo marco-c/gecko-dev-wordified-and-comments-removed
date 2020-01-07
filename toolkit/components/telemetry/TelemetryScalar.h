@@ -7,13 +7,6 @@ TelemetryScalar_h__
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 TelemetryScalarEnums
