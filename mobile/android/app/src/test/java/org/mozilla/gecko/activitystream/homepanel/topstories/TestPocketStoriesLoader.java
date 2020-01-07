@@ -73,15 +73,9 @@ TopStory
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -92,7 +86,7 @@ List
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

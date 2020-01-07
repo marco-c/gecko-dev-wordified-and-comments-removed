@@ -42,15 +42,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -95,7 +89,7 @@ when
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

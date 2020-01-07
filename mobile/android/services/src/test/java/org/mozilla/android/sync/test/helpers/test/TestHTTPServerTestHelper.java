@@ -79,15 +79,9 @@ MockServer
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -155,7 +149,7 @@ fail
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

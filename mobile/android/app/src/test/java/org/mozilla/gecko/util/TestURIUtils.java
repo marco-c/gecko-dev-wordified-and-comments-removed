@@ -33,15 +33,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 org
@@ -66,7 +60,7 @@ URISyntaxException
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

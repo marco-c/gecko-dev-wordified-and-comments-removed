@@ -35,15 +35,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 org
@@ -89,7 +83,7 @@ Map
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

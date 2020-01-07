@@ -82,15 +82,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 org
@@ -113,7 +107,7 @@ Assert
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

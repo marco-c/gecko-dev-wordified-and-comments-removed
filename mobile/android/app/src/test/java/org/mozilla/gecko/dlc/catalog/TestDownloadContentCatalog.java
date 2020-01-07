@@ -73,15 +73,9 @@ AppConstants
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -159,7 +153,7 @@ verify
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

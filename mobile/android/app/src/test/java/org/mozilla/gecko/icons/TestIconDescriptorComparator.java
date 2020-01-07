@@ -33,15 +33,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -52,7 +46,7 @@ TreeSet
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )
