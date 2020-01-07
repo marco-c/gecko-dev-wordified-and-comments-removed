@@ -2162,9 +2162,14 @@ value
 -
 updated
 "
-this
-.
-valueSpan
+{
+property
+:
+name
+value
+:
+val
+}
 )
 ;
 const
