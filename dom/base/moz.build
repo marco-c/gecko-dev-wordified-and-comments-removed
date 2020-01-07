@@ -277,11 +277,6 @@ mozAutoDocUpdate
 h
 '
 '
-nsAtomListUtils
-.
-h
-'
-'
 nsAttrAndChildArray
 .
 h
@@ -1396,11 +1391,6 @@ cpp
 '
 '
 NodeIterator
-.
-cpp
-'
-'
-nsAtomListUtils
 .
 cpp
 '

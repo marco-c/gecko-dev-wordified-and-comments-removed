@@ -30,6 +30,9 @@ FromParser
 h
 "
 class
+nsAtom
+;
+class
 nsIContent
 ;
 class

@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h
