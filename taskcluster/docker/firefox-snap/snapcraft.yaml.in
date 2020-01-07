@@ -59,6 +59,11 @@ environment
 DISABLE_WAYLAND
 :
 1
+HOME
+:
+"
+SNAP_USER_COMMON
+"
 plugs
 :
 -
