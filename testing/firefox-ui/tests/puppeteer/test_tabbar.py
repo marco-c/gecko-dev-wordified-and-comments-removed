@@ -916,7 +916,7 @@ localName
 '
 )
 '
-toolbarbutton
+image
 '
 )
     
