@@ -100,6 +100,9 @@ popup
 xml
 "
 ]
+maxCount
+:
+3
 }
 {
 stack
