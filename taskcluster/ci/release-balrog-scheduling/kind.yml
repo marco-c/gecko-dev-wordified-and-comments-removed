@@ -106,12 +106,6 @@ release
 bouncer
 -
 check
--
-release
--
-update
--
-verify
 job
 -
 defaults

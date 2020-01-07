@@ -106,12 +106,6 @@ release
 generate
 -
 checksums
--
-release
--
-update
--
-verify
 job
 -
 defaults

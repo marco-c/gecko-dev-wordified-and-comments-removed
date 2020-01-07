@@ -122,14 +122,6 @@ balrog
 submit
 -
 toplevel
--
-release
--
-secondary
--
-update
--
-verify
 job
 -
 defaults
