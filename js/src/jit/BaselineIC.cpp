@@ -274,6 +274,17 @@ h
 #
 include
 "
+jit
+/
+SharedICHelpers
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 EnvironmentObject
