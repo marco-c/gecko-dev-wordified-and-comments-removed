@@ -332,16 +332,10 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 MOZ_ASSERT
 (
-js
-:
-:
-GetGlobalForObjectCrossCompartment
+JS_IsGlobalObject
 (
 scopeObject
 )
-=
-=
-scopeObject
 )
 ;
 JSAutoRealm

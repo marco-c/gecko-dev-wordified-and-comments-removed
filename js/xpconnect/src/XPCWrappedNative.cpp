@@ -1409,16 +1409,10 @@ XPCWrappedNative
 ;
 MOZ_ASSERT
 (
-js
-:
-:
-GetGlobalForObjectCrossCompartment
+JS_IsGlobalObject
 (
 parent
 )
-=
-=
-parent
 "
 Non
 -
