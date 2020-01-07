@@ -1837,10 +1837,6 @@ mResolver
 DetachCallback
 (
 mHost
-.
-get
-(
-)
 mOriginAttributes
 mFlags
 mAF
@@ -3925,10 +3921,6 @@ req
 -
 >
 mHost
-.
-get
-(
-)
 req
 -
 >
@@ -4153,10 +4145,6 @@ res
 CancelAsyncRequest
 (
 hostname
-.
-get
-(
-)
 aOriginAttributes
 aFlags
 af
@@ -4508,10 +4496,6 @@ res
 ResolveHost
 (
 hostname
-.
-get
-(
-)
 aOriginAttributes
 flags
 af
