@@ -552,6 +552,9 @@ message
 "
 lastIndex
 "
+"
+then
+"
 }
 ;
 class

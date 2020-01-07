@@ -1020,7 +1020,6 @@ return
 true
 ;
 }
-else
 if
 (
 type
@@ -1029,7 +1028,7 @@ type
 CrossOriginOpaque
 &
 &
-IsCrossOriginWhitelistedSymbol
+IsCrossOriginWhitelistedProp
 (
 cx
 id

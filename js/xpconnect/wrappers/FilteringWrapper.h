@@ -612,7 +612,7 @@ override
 }
 ;
 bool
-IsCrossOriginWhitelistedSymbol
+IsCrossOriginWhitelistedProp
 (
 JSContext
 *
