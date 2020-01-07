@@ -1440,14 +1440,7 @@ nullptr
 mshlFlags
 )
 ;
-#
-if
-!
-defined
-(
-MOZ_DEV_EDITION
-)
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 marshalResult
 !
@@ -1455,8 +1448,6 @@ marshalResult
 E_INVALIDARG
 )
 ;
-#
-endif
 if
 (
 FAILED
