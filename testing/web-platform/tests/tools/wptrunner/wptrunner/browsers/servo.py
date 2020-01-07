@@ -349,9 +349,7 @@ test
 bind_hostname
 "
 :
-"
-false
-"
+False
             
 "
 testharnessreport
