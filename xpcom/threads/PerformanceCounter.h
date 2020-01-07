@@ -155,11 +155,6 @@ GetTotalDispatchCount
 (
 )
 ;
-void
-ResetPerformanceCounters
-(
-)
-;
 private
 :
 ~

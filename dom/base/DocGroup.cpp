@@ -641,13 +641,6 @@ items
 ;
 }
 }
-mPerformanceCounter
--
->
-ResetPerformanceCounters
-(
-)
-;
 return
 PerformanceInfo
 (
