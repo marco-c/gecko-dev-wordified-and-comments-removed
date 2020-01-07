@@ -1375,6 +1375,14 @@ VendorParallels
 ;
 DECLARE_VENDOR_ID
 (
+VendorQualcomm
+"
+0x5143
+"
+)
+;
+DECLARE_VENDOR_ID
+(
 DeviceVendorMax
 "
 "
