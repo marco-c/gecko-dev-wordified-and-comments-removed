@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -156,6 +165,9 @@ mPos
 ;
 bool
 mClosed
+;
+Mutex
+mMutex
 ;
 }
 ;
