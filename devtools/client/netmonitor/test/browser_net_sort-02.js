@@ -126,7 +126,7 @@ false
 )
 )
 ;
-loadFrameScriptUtils
+loadCommonFrameScript
 (
 )
 ;

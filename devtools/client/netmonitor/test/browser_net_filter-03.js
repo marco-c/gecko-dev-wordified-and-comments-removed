@@ -328,7 +328,7 @@ undefined
 newres
 )
 ;
-loadFrameScriptUtils
+loadCommonFrameScript
 (
 )
 ;

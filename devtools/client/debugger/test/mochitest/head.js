@@ -24,7 +24,7 @@ devtools
 /
 client
 /
-shared
+framework
 /
 test
 /
@@ -1422,11 +1422,8 @@ deferred
 promise
 ;
 }
-this
-.
-once
-=
 function
+once
 (
 aTarget
 aEventName
@@ -1569,7 +1566,6 @@ deferred
 promise
 ;
 }
-;
 function
 waitForTick
 (

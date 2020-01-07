@@ -206,7 +206,7 @@ NOTIFY_LOCATION
 ]
 )
 ;
-loadFrameScriptUtils
+getFrameScript
 (
 )
 ;

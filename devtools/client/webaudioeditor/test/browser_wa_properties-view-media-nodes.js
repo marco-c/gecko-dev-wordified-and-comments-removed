@@ -240,7 +240,7 @@ true
 )
 ;
 yield
-loadFrameScriptUtils
+loadFrameScripts
 (
 )
 ;

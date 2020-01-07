@@ -524,7 +524,7 @@ title
 let
 mm
 =
-loadFrameScriptUtils
+getFrameScript
 (
 )
 ;

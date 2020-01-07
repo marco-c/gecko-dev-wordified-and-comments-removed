@@ -19,7 +19,7 @@ devtools
 /
 client
 /
-shared
+framework
 /
 test
 /
@@ -702,7 +702,10 @@ url
 }
 )
 ;
-loadFrameScriptUtils
+let
+mm
+=
+getFrameScript
 (
 )
 ;
@@ -750,6 +753,7 @@ null
 return
 evalInDebuggee
 (
+mm
 command
 )
 ;

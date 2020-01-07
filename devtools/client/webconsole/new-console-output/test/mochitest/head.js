@@ -60,7 +60,7 @@ devtools
 /
 client
 /
-shared
+framework
 /
 test
 /

@@ -393,7 +393,7 @@ monitor
 9
 )
 ;
-loadFrameScriptUtils
+loadCommonFrameScript
 (
 )
 ;

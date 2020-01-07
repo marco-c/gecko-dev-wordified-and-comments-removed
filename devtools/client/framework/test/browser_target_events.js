@@ -155,7 +155,7 @@ onWillNavigate
 let
 mm
 =
-loadFrameScriptUtils
+getFrameScript
 (
 )
 ;
