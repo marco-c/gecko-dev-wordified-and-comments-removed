@@ -80,6 +80,11 @@ GeckoViewContent
 js
 content
 /
+GeckoViewNavigationContent
+.
+js
+content
+/
 GeckoViewScrollContent
 .
 js
