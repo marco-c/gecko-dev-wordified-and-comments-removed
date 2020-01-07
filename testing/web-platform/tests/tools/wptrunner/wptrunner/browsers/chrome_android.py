@@ -2,12 +2,6 @@ import
 subprocess
 from
 .
-.
-config
-import
-*
-from
-.
 base
 import
 Browser
