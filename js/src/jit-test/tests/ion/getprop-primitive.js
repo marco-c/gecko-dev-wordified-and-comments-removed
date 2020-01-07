@@ -240,6 +240,12 @@ set
 length
 )
 ;
+if
+(
+inIon
+(
+)
+)
 lastX
 =
 x

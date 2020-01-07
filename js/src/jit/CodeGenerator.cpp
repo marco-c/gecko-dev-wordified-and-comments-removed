@@ -61157,6 +61157,15 @@ CompilerConstraintList
 constraints
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+(
+cx
+)
+;
 RootedScript
 script
 (
@@ -61559,7 +61568,7 @@ linker
 .
 newCode
 <
-CanGC
+NoGC
 >
 (
 cx
