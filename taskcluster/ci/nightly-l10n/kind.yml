@@ -93,6 +93,14 @@ taskgraph
 .
 transforms
 .
+release_notifications
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 task
 :
 transforms
