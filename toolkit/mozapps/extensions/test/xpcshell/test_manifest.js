@@ -2701,6 +2701,7 @@ Assert
 .
 ok
 (
+!
 a4
 .
 isActive
@@ -2720,7 +2721,6 @@ Assert
 .
 ok
 (
-!
 a4
 .
 appDisabled
@@ -2730,6 +2730,7 @@ Assert
 .
 ok
 (
+!
 a4
 .
 providesUpdatesSecurely

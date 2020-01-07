@@ -344,9 +344,6 @@ internalName
 updateURL
 "
 "
-updateKey
-"
-"
 optionsURL
 "
 "

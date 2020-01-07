@@ -756,9 +756,6 @@ internalName
 updateURL
 "
 "
-updateKey
-"
-"
 optionsURL
 "
 "
@@ -1688,12 +1685,6 @@ updateURL
 bss
 .
 update_url
-;
-addon
-.
-updateKey
-=
-null
 ;
 addon
 .
@@ -3725,12 +3716,6 @@ AUTOUPDATE_DISABLE
 addon
 .
 updateURL
-=
-null
-;
-addon
-.
-updateKey
 =
 null
 ;
@@ -13405,9 +13390,6 @@ checkForUpdates
 aAddon
 .
 id
-aAddon
-.
-updateKey
 url
 this
 )

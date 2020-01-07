@@ -619,7 +619,6 @@ mozilla
 .
 org
 "
-null
 url
 {
 onUpdateCheckComplete
