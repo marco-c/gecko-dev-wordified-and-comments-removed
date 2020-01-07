@@ -809,7 +809,7 @@ io_object_t
 >
 primary_interface
 ;
-while
+for
 (
 primary_interface
 .
@@ -820,7 +820,18 @@ IOIteratorNext
 primary_interface_iterator
 )
 )
+;
 primary_interface
+;
+primary_interface
+.
+reset
+(
+IOIteratorNext
+(
+primary_interface_iterator
+)
+)
 )
 {
 io_object_t
