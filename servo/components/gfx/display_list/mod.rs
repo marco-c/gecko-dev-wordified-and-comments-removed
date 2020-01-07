@@ -3220,6 +3220,13 @@ pub
 gradient
 :
 Gradient
+pub
+tile
+:
+Size2D
+<
+Au
+>
 }
 #
 [
@@ -3283,6 +3290,13 @@ pub
 gradient
 :
 RadialGradient
+pub
+tile
+:
+Size2D
+<
+Au
+>
 }
 #
 [
