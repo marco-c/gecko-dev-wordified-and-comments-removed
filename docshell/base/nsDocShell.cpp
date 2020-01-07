@@ -25359,14 +25359,6 @@ SetReferrer
 mCurrentURI
 )
 ;
-loadInfo
--
->
-SetOriginalURI
-(
-mCurrentURI
-)
-;
 nsCOMPtr
 <
 nsIPrincipal
