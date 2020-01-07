@@ -2367,8 +2367,10 @@ Clone
 const
 ;
 virtual
+UniquePtr
+<
 MediaRawDataWriter
-*
+>
 CreateWriter
 (
 )

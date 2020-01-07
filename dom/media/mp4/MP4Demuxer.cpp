@@ -2975,7 +2975,7 @@ mCrypto
 mValid
 )
 {
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
