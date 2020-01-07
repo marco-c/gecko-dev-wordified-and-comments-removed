@@ -350,7 +350,7 @@ api
 IDS
 %
 .
-xml
+json
 '
         
 '
