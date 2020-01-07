@@ -159,7 +159,6 @@ setupStickyTest
 right
 '
 25
-true
 )
 ;
 elements
@@ -171,7 +170,7 @@ scrollLeft
 200
 ;
 const
-nonStickyLeftY
+nonStickyLeftX
 =
 elements
 .
@@ -192,7 +191,7 @@ elements
 sticky
 .
 offsetLeft
-nonStickyLeftY
+nonStickyLeftX
 )
 ;
 }
@@ -228,7 +227,6 @@ setupStickyTest
 right
 '
 25
-true
 )
 ;
 elements
@@ -240,7 +238,7 @@ scrollLeft
 75
 ;
 const
-nonStickyLeftY
+nonStickyLeftX
 =
 elements
 .
@@ -255,9 +253,9 @@ filler
 clientWidth
 ;
 const
-nonStickyBottomY
+nonStickyRightX
 =
-nonStickyLeftY
+nonStickyLeftX
 +
 elements
 .
@@ -266,7 +264,7 @@ sticky
 clientWidth
 ;
 const
-targetBottomY
+targetRightX
 =
 elements
 .
@@ -285,9 +283,9 @@ scrollLeft
 const
 stickyOffset
 =
-nonStickyBottomY
+nonStickyRightX
 -
-targetBottomY
+targetRightX
 ;
 assert_equals
 (
@@ -296,7 +294,7 @@ elements
 sticky
 .
 offsetLeft
-nonStickyLeftY
+nonStickyLeftX
 -
 stickyOffset
 )
@@ -333,7 +331,6 @@ setupStickyTest
 right
 '
 25
-true
 )
 ;
 elements
