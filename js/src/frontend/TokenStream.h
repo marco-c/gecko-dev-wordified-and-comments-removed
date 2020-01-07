@@ -2983,7 +2983,7 @@ ptr
 ;
 MOZ_MUST_USE
 bool
-appendMultiUnitCodepointToTokenbuf
+appendCodePointToTokenbuf
 (
 uint32_t
 codepoint
@@ -3504,7 +3504,7 @@ using
 CharsSharedBase
 :
 :
-appendMultiUnitCodepointToTokenbuf
+appendCodePointToTokenbuf
 ;
 using
 CharsSharedBase
