@@ -629,11 +629,6 @@ jsbytecode
 h
 '
 '
-jscpucfg
-.
-h
-'
-'
 jsfriendapi
 .
 h

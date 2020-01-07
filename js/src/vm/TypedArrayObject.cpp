@@ -92,13 +92,6 @@ h
 #
 include
 "
-jscpucfg
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h

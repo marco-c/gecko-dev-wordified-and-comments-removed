@@ -113,6 +113,13 @@ platform
 #
 endif
 #
+include
+"
+jsfriendapi
+.
+h
+"
+#
 if
 defined
 (
