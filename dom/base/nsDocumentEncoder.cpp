@@ -242,6 +242,17 @@ mozilla
 /
 dom
 /
+Comment
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentType
 .
 h
@@ -1706,7 +1717,7 @@ AppendComment
 (
 static_cast
 <
-nsIContent
+Comment
 *
 >
 (

@@ -192,7 +192,13 @@ NS_OK
 NS_IMETHOD
 AppendComment
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Comment
 *
 aComment
 int32_t

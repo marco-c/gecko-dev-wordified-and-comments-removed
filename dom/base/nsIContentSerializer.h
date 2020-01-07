@@ -34,6 +34,9 @@ namespace
 dom
 {
 class
+Comment
+;
+class
 DocumentType
 ;
 class
@@ -152,7 +155,13 @@ aStr
 NS_IMETHOD
 AppendComment
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Comment
 *
 aComment
 int32_t
