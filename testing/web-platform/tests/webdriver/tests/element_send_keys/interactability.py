@@ -6,7 +6,6 @@ support
 asserts
 import
 assert_error
-assert_same_element
 assert_success
 from
 tests
@@ -103,10 +102,10 @@ onkeypress
 "
 document
 .
-getElementById
+querySelector
 (
 '
-result
+input
 '
 )
 .
@@ -121,17 +120,6 @@ key
           
 <
 input
-type
-=
-"
-text
-"
-id
-=
-"
-result
-"
-/
 >
         
 <
@@ -176,14 +164,12 @@ all
 False
 )
     
-assert_same_element
-(
-session
-element
+assert
 session
 .
 active_element
-)
+is
+element
     
 response
 =
@@ -201,14 +187,12 @@ assert_success
 response
 )
     
-assert_same_element
-(
-session
-element
+assert
 session
 .
 active_element
-)
+is
+element
     
 assert
 result
@@ -248,10 +232,10 @@ onkeypress
 "
 document
 .
-getElementById
+querySelector
 (
 '
-result
+input
 '
 )
 .
@@ -266,17 +250,6 @@ key
           
 <
 input
-type
-=
-"
-text
-"
-id
-=
-"
-result
-"
-/
 >
         
 <
@@ -338,14 +311,12 @@ all
 False
 )
     
-assert_same_element
-(
-session
-body
+assert
 session
 .
 active_element
-)
+is
+body
     
 response
 =
@@ -363,14 +334,12 @@ assert_success
 response
 )
     
-assert_same_element
-(
-session
-body
+assert
 session
 .
 active_element
-)
+is
+element
     
 assert
 result
@@ -412,10 +381,10 @@ onkeypress
 "
 document
 .
-getElementById
+querySelector
 (
 '
-result
+input
 '
 )
 .
@@ -430,17 +399,6 @@ key
           
 <
 input
-type
-=
-"
-text
-"
-id
-=
-"
-result
-"
-/
 >
         
 <
@@ -486,14 +444,12 @@ all
 False
 )
     
-assert_same_element
-(
-session
-body
+assert
 session
 .
 active_element
-)
+is
+body
     
 response
 =
@@ -511,14 +467,12 @@ assert_success
 response
 )
     
-assert_same_element
-(
-session
-body
+assert
 session
 .
 active_element
-)
+is
+frame
     
 session
 .
@@ -571,19 +525,20 @@ url
 inline
 (
 "
+"
+"
 <
 input
 style
 =
-\
 "
 opacity
 :
 0
-;
-\
 "
 >
+"
+"
 "
 )
     
@@ -718,12 +673,6 @@ inline
       
 <
 input
-type
-=
-"
-text
-"
-/
 >
       
 <
@@ -745,10 +694,9 @@ height
 5em
 ;
 background
--
-color
 :
 blue
+;
 "
 >
 <
@@ -882,18 +830,20 @@ url
 inline
 (
 "
+"
+"
 <
 input
 style
 =
-\
 "
 display
 :
 none
-\
 "
 >
+"
+"
 "
 )
     
@@ -947,18 +897,20 @@ url
 inline
 (
 "
+"
+"
 <
 input
 style
 =
-\
 "
 visibility
 :
 hidden
-\
 "
 >
+"
+"
 "
 )
     
@@ -1012,16 +964,14 @@ url
 inline
 (
 "
+"
+"
 <
 input
 disabled
-=
-\
-"
-false
-\
-"
 >
+"
+"
 "
 )
     
