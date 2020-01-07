@@ -1065,11 +1065,7 @@ case
 WRAPVECTOR
 :
 {
-AutoWrapperVector
-:
-:
-VectorImpl
-&
+auto
 vector
 =
 static_cast
@@ -1080,9 +1076,6 @@ AutoWrapperVector
 (
 this
 )
--
->
-vector
 ;
 for
 (
@@ -1091,7 +1084,8 @@ WrapperValue
 p
 =
 vector
-.
+-
+>
 begin
 (
 )
@@ -1099,7 +1093,8 @@ begin
 p
 <
 vector
-.
+-
+>
 end
 (
 )
