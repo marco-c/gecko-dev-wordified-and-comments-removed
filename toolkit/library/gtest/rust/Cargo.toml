@@ -429,9 +429,4 @@ branch
 "
 deserialize_from_enums4
 "
-feature
-=
-"
-deserialize_in_place
-"
 }
