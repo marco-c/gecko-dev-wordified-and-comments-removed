@@ -316,7 +316,7 @@ const
 GlobalObject
 &
 aGlobal
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 const
@@ -492,7 +492,7 @@ Animation
 :
 SetEffect
 (
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 )
@@ -513,7 +513,7 @@ Animation
 :
 SetEffectNoUpdate
 (
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 )
@@ -582,7 +582,7 @@ this
 }
 RefPtr
 <
-AnimationEffectReadOnly
+AnimationEffect
 >
 oldEffect
 =
@@ -612,7 +612,7 @@ aEffect
 {
 RefPtr
 <
-AnimationEffectReadOnly
+AnimationEffect
 >
 newEffect
 =

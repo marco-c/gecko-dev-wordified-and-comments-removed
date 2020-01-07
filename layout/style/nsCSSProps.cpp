@@ -65,7 +65,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadOnlyBinding
+AnimationEffectBinding
 .
 h
 "

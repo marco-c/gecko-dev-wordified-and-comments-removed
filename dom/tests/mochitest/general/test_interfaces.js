@@ -742,7 +742,7 @@ true
 name
 :
 "
-AnimationEffectReadOnly
+AnimationEffect
 "
 insecureContext
 :

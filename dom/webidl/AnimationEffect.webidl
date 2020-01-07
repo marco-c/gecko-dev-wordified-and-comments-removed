@@ -300,7 +300,7 @@ IsWebAnimationsEnabled
 "
 ]
 interface
-AnimationEffectReadOnly
+AnimationEffect
 {
 [
 Cached

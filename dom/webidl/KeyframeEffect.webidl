@@ -239,7 +239,7 @@ source
 interface
 KeyframeEffect
 :
-AnimationEffectReadOnly
+AnimationEffect
 {
 attribute
 (

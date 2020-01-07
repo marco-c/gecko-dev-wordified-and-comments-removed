@@ -93,7 +93,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadOnly
+AnimationEffect
 .
 h
 "
@@ -228,7 +228,7 @@ mozilla
 dom
 :
 :
-AnimationEffectReadOnly
+AnimationEffect
 ;
 using
 mozilla
@@ -1593,7 +1593,7 @@ aAnimation
 dom
 :
 :
-AnimationEffectReadOnly
+AnimationEffect
 *
 effect
 =
@@ -1697,7 +1697,7 @@ GetEffect
 dom
 :
 :
-AnimationEffectReadOnly
+AnimationEffect
 *
 oldEffect
 =

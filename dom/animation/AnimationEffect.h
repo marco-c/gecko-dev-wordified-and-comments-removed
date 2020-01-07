@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_AnimationEffectReadOnly_h
+mozilla_dom_AnimationEffect_h
 #
 define
-mozilla_dom_AnimationEffectReadOnly_h
+mozilla_dom_AnimationEffect_h
 #
 include
 "
@@ -118,7 +118,7 @@ struct
 ComputedTimingProperties
 ;
 class
-AnimationEffectReadOnly
+AnimationEffect
 :
 public
 nsISupports
@@ -130,9 +130,9 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-AnimationEffectReadOnly
+AnimationEffect
 )
-AnimationEffectReadOnly
+AnimationEffect
 (
 nsIDocument
 *
@@ -334,7 +334,7 @@ protected
 :
 virtual
 ~
-AnimationEffectReadOnly
+AnimationEffect
 (
 )
 ;

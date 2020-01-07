@@ -170,7 +170,7 @@ IsElementAnimateEnabled
 Constructor
 (
 optional
-AnimationEffectReadOnly
+AnimationEffect
 ?
 effect
 =
@@ -202,7 +202,7 @@ IsWebAnimationsEnabled
 Pure
 ]
 attribute
-AnimationEffectReadOnly
+AnimationEffect
 ?
 effect
 ;
