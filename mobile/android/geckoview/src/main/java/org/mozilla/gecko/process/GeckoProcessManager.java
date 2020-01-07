@@ -840,6 +840,9 @@ String
 args
 final
 int
+prefsFd
+final
+int
 ipcFd
 final
 int
@@ -856,6 +859,7 @@ start
 (
 type
 args
+prefsFd
 ipcFd
 crashFd
 crashAnnotationFd
@@ -875,6 +879,9 @@ String
 [
 ]
 args
+final
+int
+prefsFd
 final
 int
 ipcFd
@@ -932,6 +939,10 @@ getActiveExtras
 ;
 final
 ParcelFileDescriptor
+prefsPfd
+;
+final
+ParcelFileDescriptor
 ipcPfd
 ;
 final
@@ -944,6 +955,15 @@ crashAnnotationPfd
 ;
 try
 {
+prefsPfd
+=
+ParcelFileDescriptor
+.
+fromFd
+(
+prefsFd
+)
+;
 ipcPfd
 =
 ParcelFileDescriptor
@@ -1033,6 +1053,7 @@ start
 this
 args
 extras
+prefsPfd
 ipcPfd
 crashPfd
 crashAnnotationPfd
@@ -1103,6 +1124,7 @@ start
 (
 type
 args
+prefsFd
 ipcFd
 crashFd
 crashAnnotationFd

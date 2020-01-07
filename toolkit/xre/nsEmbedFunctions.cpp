@@ -1152,6 +1152,8 @@ JNIEnv
 *
 env
 int
+prefsFd
+int
 ipcFd
 int
 crashFd
@@ -1168,6 +1170,17 @@ jni
 SetGeckoThreadEnv
 (
 env
+)
+;
+mozilla
+:
+:
+dom
+:
+:
+SetPrefsFd
+(
+prefsFd
 )
 ;
 IPC
