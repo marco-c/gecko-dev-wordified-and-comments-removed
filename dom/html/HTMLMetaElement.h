@@ -232,7 +232,7 @@ aRv
 )
 ;
 }
-nsresult
+void
 GetContent
 (
 nsAString
@@ -248,9 +248,6 @@ nsGkAtoms
 content
 aValue
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -347,7 +344,7 @@ HTMLMetaElement
 ;
 private
 :
-nsresult
+void
 SetMetaReferrer
 (
 nsIDocument
