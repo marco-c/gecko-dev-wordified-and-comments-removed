@@ -7788,7 +7788,7 @@ IsHandlingUserInput
 )
 )
 {
-mIsBlessed
+mHasUserInteractedLoadOrSeek
 =
 true
 ;
@@ -11519,7 +11519,7 @@ IsHandlingUserInput
 )
 )
 {
-mIsBlessed
+mHasUserInteractedLoadOrSeek
 =
 true
 ;
@@ -17355,6 +17355,10 @@ mDisableVideo
 (
 false
 )
+mHasUserInteractedLoadOrSeek
+(
+false
+)
 mFirstFrameLoaded
 (
 false
@@ -18223,10 +18227,6 @@ UpdatePreloadAction
 UpdateSrcMediaStreamPlaying
 (
 )
-;
-mIsBlessed
-=
-true
 ;
 if
 (

@@ -185,7 +185,7 @@ return
 aElement
 -
 >
-IsBlessed
+GetAndClearHasUserInteractedLoadOrSeek
 (
 )
 |
