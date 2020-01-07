@@ -13000,7 +13000,6 @@ supportedCountries
 "
 US
 CA
-DE
 "
 )
 ;
