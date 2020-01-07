@@ -76,6 +76,10 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeSoftware
 override
 )
+FilterNodeSoftware
+(
+)
+;
 virtual
 ~
 FilterNodeSoftware
@@ -389,6 +393,9 @@ FilterInvalidationListener
 *
 >
 mInvalidationListeners
+;
+Mutex
+mCacheMutex
 ;
 IntRect
 mRequestedRect
