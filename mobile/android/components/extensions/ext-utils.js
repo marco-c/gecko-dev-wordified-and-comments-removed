@@ -1732,6 +1732,17 @@ getActive
 ;
 }
 get
+highlighted
+(
+)
+{
+return
+this
+.
+active
+;
+}
+get
 selected
 (
 )
