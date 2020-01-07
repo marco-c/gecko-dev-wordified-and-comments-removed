@@ -924,7 +924,7 @@ mOffThreadCompileStringBuf
 nsresult
 NS_NewXULDocument
 (
-nsIXULDocument
+nsIDocument
 *
 *
 result
@@ -1192,7 +1192,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 XULDocument
 XMLDocument
-nsIXULDocument
 nsIStreamLoaderObserver
 nsICSSLoaderObserver
 nsIOffThreadScriptReceiver

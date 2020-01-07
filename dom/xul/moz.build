@@ -151,11 +151,6 @@ EXPORTS
 =
 [
 '
-nsIXULDocument
-.
-h
-'
-'
 nsXULElement
 .
 h
