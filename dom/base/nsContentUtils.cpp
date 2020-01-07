@@ -35787,6 +35787,10 @@ aIsPrivateData
 nsIPrincipal
 *
 aRequestingPrincipal
+const
+nsContentPolicyType
+&
+aContentPolicyType
 nsITransferable
 *
 aTransferable
@@ -36245,6 +36249,14 @@ aTransferable
 SetRequestingPrincipal
 (
 aRequestingPrincipal
+)
+;
+aTransferable
+-
+>
+SetContentPolicyType
+(
+aContentPolicyType
 )
 ;
 return

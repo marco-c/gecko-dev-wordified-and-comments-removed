@@ -5499,6 +5499,10 @@ aIsPrivateData
 nsIPrincipal
 *
 aRequestingPrincipal
+const
+nsContentPolicyType
+&
+aContentPolicyType
 nsITransferable
 *
 aTransferable

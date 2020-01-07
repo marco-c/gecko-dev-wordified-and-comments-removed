@@ -4461,6 +4461,8 @@ bool
 aIsPrivateData
 Principal
 aRequestingPrincipal
+uint32_t
+aContentPolicyType
 int32_t
 aWhichClipboard
 )

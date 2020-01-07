@@ -3036,6 +3036,17 @@ NodePrincipal
 )
 )
 ;
+aTransferable
+-
+>
+SetContentPolicyType
+(
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_IMAGE
+)
+;
 return
 aTransferable
 -
