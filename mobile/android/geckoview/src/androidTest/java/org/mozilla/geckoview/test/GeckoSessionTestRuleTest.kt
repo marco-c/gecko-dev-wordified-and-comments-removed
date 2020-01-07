@@ -189,7 +189,6 @@ junit
 runner
 .
 RunWith
-inline
 fun
 GeckoSession
 .
