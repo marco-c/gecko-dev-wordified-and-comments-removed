@@ -1702,6 +1702,9 @@ attribute
 DOMTokenList
 classList
 ;
+[
+Unscopable
+]
 attribute
 DOMString
 slot
