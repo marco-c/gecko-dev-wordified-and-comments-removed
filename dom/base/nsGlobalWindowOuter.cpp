@@ -342,13 +342,6 @@ h
 #
 include
 "
-nsScriptNameSpaceManager
-.
-h
-"
-#
-include
-"
 nsISlowScriptDebug
 .
 h

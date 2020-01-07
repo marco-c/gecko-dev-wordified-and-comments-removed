@@ -543,11 +543,6 @@ nsIScriptGlobalObject
 h
 '
 '
-nsIScriptNameSpaceManager
-.
-h
-'
-'
 nsIScriptObjectPrincipal
 .
 h
@@ -1701,11 +1696,6 @@ cpp
 '
 '
 nsScreen
-.
-cpp
-'
-'
-nsScriptNameSpaceManager
 .
 cpp
 '

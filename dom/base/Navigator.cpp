@@ -565,13 +565,6 @@ h
 #
 include
 "
-nsScriptNameSpaceManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

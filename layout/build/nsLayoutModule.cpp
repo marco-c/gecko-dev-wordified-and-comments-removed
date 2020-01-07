@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsIScriptNameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h
@@ -403,13 +396,6 @@ h
 include
 "
 nsJSProtocolHandler
-.
-h
-"
-#
-include
-"
-nsScriptNameSpaceManager
 .
 h
 "
