@@ -13988,6 +13988,16 @@ aBuilder
 this
 )
 ;
+nsDisplayListBuilder
+:
+:
+AutoFilterASRSetter
+filterASRSetter
+(
+aBuilder
+usingFilter
+)
+;
 CheckForApzAwareEventHandlers
 (
 aBuilder
