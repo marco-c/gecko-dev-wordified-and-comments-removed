@@ -47,16 +47,6 @@ childCert
 (
 aChildCert
 )
-version
-(
-der
-:
-:
-Version
-:
-:
-Uninitialized
-)
 {
 }
 Result
