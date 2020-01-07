@@ -129,3 +129,11 @@ short
 name
 =
 Nightly
+-
+vendor
+-
+short
+-
+name
+=
+Mozilla

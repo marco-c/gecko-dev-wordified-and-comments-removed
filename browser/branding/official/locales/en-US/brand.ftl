@@ -129,3 +129,11 @@ short
 name
 =
 Firefox
+-
+vendor
+-
+short
+-
+name
+=
+Mozilla
