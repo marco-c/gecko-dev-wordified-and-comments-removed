@@ -11232,13 +11232,6 @@ isActive
 var
 showProgress
 =
-this
-.
-mAddon
-.
-purchaseURL
-|
-|
 (
 this
 .
