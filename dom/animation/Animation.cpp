@@ -5514,7 +5514,7 @@ void
 Animation
 :
 :
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 const
@@ -5537,10 +5537,14 @@ doc
 >
 FlushPendingNotifications
 (
+ChangesToFlush
+(
 FlushType
 :
 :
 Style
+false
+)
 )
 ;
 }

@@ -1314,7 +1314,7 @@ UpdateEffect
 )
 ;
 void
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 const
