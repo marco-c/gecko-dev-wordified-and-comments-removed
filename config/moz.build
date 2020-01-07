@@ -111,8 +111,9 @@ Files
 (
 '
 mozunit
-.
-py
+/
+*
+*
 '
 )
 :

@@ -312,6 +312,13 @@ mozilla
 .
 pth
 :
+config
+/
+mozunit
+mozilla
+.
+pth
+:
 dom
 /
 bindings

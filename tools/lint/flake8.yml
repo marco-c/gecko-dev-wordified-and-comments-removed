@@ -35,8 +35,6 @@ py
 config
 /
 mozunit
-.
-py
 -
 configure
 .
