@@ -313,6 +313,14 @@ bitset
 >
 #
 ifdef
+CreateEvent
+#
+undef
+CreateEvent
+#
+endif
+#
+ifdef
 MOZILLA_INTERNAL_API
 #
 include

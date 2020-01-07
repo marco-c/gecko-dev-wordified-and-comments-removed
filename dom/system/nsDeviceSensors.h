@@ -78,6 +78,9 @@ h
 class
 nsIDOMWindow
 ;
+class
+nsIDocument
+;
 namespace
 mozilla
 {
@@ -243,8 +246,7 @@ aIsAbsolute
 void
 FireDOMMotionEvent
 (
-class
-nsIDOMDocument
+nsIDocument
 *
 domDoc
 mozilla
