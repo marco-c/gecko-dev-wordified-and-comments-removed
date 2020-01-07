@@ -496,6 +496,13 @@ mozilla
 :
 TimeStamp
 &
+aRefreshStartTime
+const
+mozilla
+:
+:
+TimeStamp
+&
 aTxnStartTime
 )
 {
@@ -640,6 +647,7 @@ smallShmems
 )
 largeShmems
 mIdNamespace
+aRefreshStartTime
 aTxnStartTime
 fwdTime
 )
@@ -679,6 +687,13 @@ uint32_t
 aPaintSequenceNumber
 TransactionId
 aTransactionId
+const
+mozilla
+:
+:
+TimeStamp
+&
+aRefreshStartTime
 const
 mozilla
 :
@@ -734,6 +749,7 @@ GetFwdTransactionId
 )
 aTransactionId
 mIdNamespace
+aRefreshStartTime
 aTxnStartTime
 fwdTime
 )

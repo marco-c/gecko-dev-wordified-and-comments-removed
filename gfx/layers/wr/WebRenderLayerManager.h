@@ -988,6 +988,9 @@ mPaintSequenceNumber
 APZTestData
 mApzTestData
 ;
+TimeStamp
+mTransactionStart
+;
 WebRenderCommandBuilder
 mWebRenderCommandBuilder
 ;

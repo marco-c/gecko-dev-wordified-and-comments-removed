@@ -8542,6 +8542,7 @@ move
 (
 animStorage
 )
+mVsyncRate
 )
 ;
 mWrBridge
