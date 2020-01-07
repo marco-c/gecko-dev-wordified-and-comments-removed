@@ -11858,7 +11858,7 @@ isThemed
 {
 LayoutDeviceIntMargin
 border
-;
+=
 presContext
 -
 >
@@ -11880,8 +11880,6 @@ disp
 -
 >
 mAppearance
-&
-border
 )
 ;
 ComputedPhysicalBorderPadding

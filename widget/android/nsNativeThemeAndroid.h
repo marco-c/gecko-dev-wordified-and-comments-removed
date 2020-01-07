@@ -52,7 +52,8 @@ aDirtyRect
 )
 override
 ;
-NS_IMETHOD
+MOZ_MUST_USE
+LayoutDeviceIntMargin
 GetWidgetBorder
 (
 nsDeviceContext
@@ -63,12 +64,6 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-mozilla
-:
-:
-LayoutDeviceIntMargin
-*
-aResult
 )
 override
 ;
@@ -83,9 +78,6 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-mozilla
-:
-:
 LayoutDeviceIntMargin
 *
 aResult

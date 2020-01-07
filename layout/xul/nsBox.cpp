@@ -695,7 +695,7 @@ mAppearance
 {
 LayoutDeviceIntMargin
 margin
-;
+=
 gTheme
 -
 >
@@ -712,8 +712,6 @@ disp
 -
 >
 mAppearance
-&
-margin
 )
 ;
 aMargin
