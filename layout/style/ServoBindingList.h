@@ -128,11 +128,9 @@ SheetLoadData
 *
 load_data
 const
-uint8_t
+nsACString
 *
-data
-size_t
-data_len
+bytes
 mozilla
 :
 :
