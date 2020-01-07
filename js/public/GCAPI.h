@@ -785,7 +785,7 @@ JS_PUBLIC_API
 (
 void
 )
-GCForReason
+NonIncrementalGC
 (
 JSContext
 *

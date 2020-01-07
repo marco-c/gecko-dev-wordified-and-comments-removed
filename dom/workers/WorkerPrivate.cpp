@@ -20304,7 +20304,7 @@ aShrinking
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 aCx
 GC_SHRINK
@@ -20350,7 +20350,7 @@ else
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 aCx
 GC_NORMAL

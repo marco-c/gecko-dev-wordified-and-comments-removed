@@ -5180,7 +5180,7 @@ else
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 gckind

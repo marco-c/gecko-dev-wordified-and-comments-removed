@@ -639,7 +639,7 @@ cx
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_SHRINK

@@ -2589,7 +2589,7 @@ cx_
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx_
 GC_SHRINK
