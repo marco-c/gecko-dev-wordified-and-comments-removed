@@ -17906,6 +17906,13 @@ SetWillComputePluginGeometry
 true
 )
 ;
+builder
+.
+SetDisablePartialUpdates
+(
+true
+)
+;
 }
 nsRect
 canvasArea
@@ -20122,6 +20129,13 @@ ScheduleComposite
 )
 ;
 }
+builder
+.
+SetDisablePartialUpdates
+(
+true
+)
+;
 }
 builder
 .
