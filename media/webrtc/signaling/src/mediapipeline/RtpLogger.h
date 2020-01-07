@@ -52,8 +52,6 @@ MediaPacket
 packet
 bool
 input
-size_t
-headerLength
 std
 :
 :
