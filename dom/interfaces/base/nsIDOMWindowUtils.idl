@@ -98,6 +98,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+domstubs
+.
+idl
+"
 /
 *
 *
@@ -242,12 +249,6 @@ gfxContext
 (
 gfxContext
 )
-;
-typedef
-unsigned
-long
-long
-nsViewID
 ;
 interface
 nsIArray
