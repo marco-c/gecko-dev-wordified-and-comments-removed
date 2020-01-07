@@ -116,6 +116,9 @@ AudioTrack
 >
 CreateAudioTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &
@@ -143,6 +146,9 @@ VideoTrack
 >
 CreateVideoTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &

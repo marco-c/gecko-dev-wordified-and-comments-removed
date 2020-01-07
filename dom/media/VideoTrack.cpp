@@ -64,6 +64,9 @@ VideoTrack
 :
 VideoTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &
@@ -87,6 +90,7 @@ aStreamTarck
 :
 MediaTrack
 (
+aOwnerGlobal
 aId
 aKind
 aLabel

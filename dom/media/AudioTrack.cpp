@@ -53,6 +53,9 @@ AudioTrack
 :
 AudioTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &
@@ -75,6 +78,7 @@ aEnabled
 :
 MediaTrack
 (
+aOwnerGlobal
 aId
 aKind
 aLabel
