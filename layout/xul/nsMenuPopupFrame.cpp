@@ -10823,14 +10823,6 @@ eIntID_ContextMenuOffsetVertical
 )
 ;
 }
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 mAnchorType
 =
 MenuPopupAnchorType_Point
