@@ -130,9 +130,6 @@ nsPresContext
 class
 gfxFontFeatureValueSet
 ;
-struct
-TreeMatchContext
-;
 namespace
 mozilla
 {
@@ -420,14 +417,8 @@ dom
 Element
 *
 aElement
-nsStyleContext
-*
-aParentContext
 LazyComputeBehavior
 aMayCompute
-TreeMatchContext
-*
-aTreeMatchContext
 )
 ;
 inline
@@ -804,12 +795,6 @@ mozilla
 :
 CSSPseudoElementType
 aType
-nsStyleContext
-*
-aParentContext
-TreeMatchContext
-*
-aTreeMatchContext
 )
 ;
 inline

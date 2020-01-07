@@ -477,11 +477,6 @@ nsIContent
 aFirstNewContent
 InsertionKind
 aInsertionKind
-TreeMatchContext
-*
-aProvidedTreeMatchContext
-=
-nullptr
 )
 ;
 void
@@ -517,11 +512,6 @@ nsILayoutHistoryState
 aFrameState
 InsertionKind
 aInsertionKind
-TreeMatchContext
-*
-aProvidedTreeMatchContext
-=
-nullptr
 )
 ;
 enum
@@ -795,9 +785,6 @@ aContainer
 nsIContent
 *
 aChild
-nsFrameConstructorState
-*
-aState
 )
 ;
 already_AddRefed
@@ -812,9 +799,6 @@ aParentFrame
 nsIContent
 *
 aChild
-nsFrameConstructorState
-*
-aState
 )
 ;
 already_AddRefed
@@ -830,9 +814,6 @@ aInsertion
 nsIContent
 *
 aChild
-nsFrameConstructorState
-*
-aState
 )
 ;
 already_AddRefed
@@ -847,9 +828,6 @@ aParentStyleContext
 nsIContent
 *
 aContent
-nsFrameConstructorState
-*
-aState
 Element
 *
 aOriginatingElementOrNull

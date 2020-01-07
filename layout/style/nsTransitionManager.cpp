@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsRuleProcessorData
-.
-h
-"
-#
-include
-"
 nsCSSPropertyIDSet
 .
 h

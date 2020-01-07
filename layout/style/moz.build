@@ -391,11 +391,6 @@ nsMediaFeatures
 h
 '
 '
-nsRuleProcessorData
-.
-h
-'
-'
 nsStyleAutoArray
 .
 h
