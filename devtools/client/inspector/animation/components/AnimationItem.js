@@ -257,6 +257,11 @@ setState
 {
 isSelected
 :
+nextProps
+.
+selectedAnimation
+&
+&
 animation
 .
 actorID
