@@ -2250,6 +2250,7 @@ def
 task_template_builder
 (
 parameters
+graph_config
 )
 :
 #
