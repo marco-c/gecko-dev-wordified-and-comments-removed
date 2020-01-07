@@ -164,13 +164,6 @@ NeedsComposite
 )
 ;
 void
-Composite
-(
-TimeStamp
-aVsyncTimestamp
-)
-;
-void
 ForceComposeToTarget
 (
 gfx
@@ -244,6 +237,13 @@ PostVRTask
 (
 TimeStamp
 aTimestamp
+)
+;
+void
+Composite
+(
+TimeStamp
+aVsyncTimestamp
 )
 ;
 void
