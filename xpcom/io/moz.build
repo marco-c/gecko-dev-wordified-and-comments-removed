@@ -452,6 +452,11 @@ Base64
 h
 '
 '
+NonBlockingAsyncInputStream
+.
+h
+'
+'
 SlicedInputStream
 .
 h
@@ -488,6 +493,11 @@ c
 '
 '
 FileDescriptorFile
+.
+cpp
+'
+'
+NonBlockingAsyncInputStream
 .
 cpp
 '
