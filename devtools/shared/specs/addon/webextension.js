@@ -29,7 +29,7 @@ generateActorSpec
 typeName
 :
 "
-webExtensionAddon
+webExtension
 "
 methods
 :
