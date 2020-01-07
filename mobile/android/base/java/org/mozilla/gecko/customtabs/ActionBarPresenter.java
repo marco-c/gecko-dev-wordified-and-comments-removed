@@ -256,6 +256,17 @@ mozilla
 .
 gecko
 .
+toolbar
+.
+CustomTabsSecurityPopup
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ColorUtil

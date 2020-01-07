@@ -4887,6 +4887,13 @@ java
 '
 db
 /
+PerProfileDatabaseProvider
+.
+java
+'
+'
+db
+/
 PerProfileDatabases
 .
 java
@@ -5518,6 +5525,13 @@ java
 home
 /
 HomeContextMenuInfo
+.
+java
+'
+'
+home
+/
+HomeExpandableListView
 .
 java
 '
@@ -9437,8 +9451,6 @@ all
 deprecation
 -
 fallthrough
--
-cast
 '
 '
 -

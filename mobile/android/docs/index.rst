@@ -84,7 +84,6 @@ mma
 defaultdomains
 shutdown
 push
-gradle
 Indices
 and
 tables
