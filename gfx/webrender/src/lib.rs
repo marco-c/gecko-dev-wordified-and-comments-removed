@@ -181,6 +181,9 @@ mod
 hit_test
 ;
 mod
+image
+;
+mod
 internal_types
 ;
 mod
@@ -221,6 +224,9 @@ scene_builder
 ;
 mod
 segment
+;
+mod
+shade
 ;
 mod
 spring
@@ -616,6 +622,8 @@ debugger
 extern
 crate
 image
+as
+image_loader
 ;
 #
 [

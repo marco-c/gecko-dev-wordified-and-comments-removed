@@ -139,9 +139,6 @@ common_data
 float
 blur_radius
 ;
-vec4
-color
-;
 }
 ;
 BlurTask
@@ -172,9 +169,6 @@ task_data
 data1
 .
 x
-task_data
-.
-data2
 )
 ;
 return
