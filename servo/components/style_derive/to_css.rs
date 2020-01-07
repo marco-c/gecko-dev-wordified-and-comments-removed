@@ -1493,6 +1493,13 @@ Option
 String
 >
 pub
+parse_condition
+:
+Option
+<
+Path
+>
+pub
 skip
 :
 bool
