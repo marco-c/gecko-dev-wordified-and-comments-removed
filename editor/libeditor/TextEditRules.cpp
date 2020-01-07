@@ -1469,7 +1469,7 @@ case
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 :
 return
 WillInsert

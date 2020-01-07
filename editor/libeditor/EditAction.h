@@ -43,7 +43,7 @@ eSetOrClearAlignment
 eCreateOrRemoveBlock
 eRemoveList
 eCreateOrChangeDefinitionList
-insertElement
+eInsertElement
 insertQuotation
 htmlPaste
 =
