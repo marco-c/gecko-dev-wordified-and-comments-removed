@@ -1031,12 +1031,6 @@ AsElement
 (
 )
 nullptr
-document
--
->
-GetShell
-(
-)
 )
 ;
 if
