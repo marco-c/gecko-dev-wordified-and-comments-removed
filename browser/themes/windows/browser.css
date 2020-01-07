@@ -4166,7 +4166,10 @@ theme
 0
 )
 {
+#
 tabbrowser
+-
+tabpanels
 :
 root
 [
@@ -4174,7 +4177,10 @@ privatebrowsingmode
 =
 temporary
 ]
+#
 tabbrowser
+-
+tabpanels
 {
 background
 -
