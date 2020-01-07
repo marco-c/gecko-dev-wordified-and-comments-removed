@@ -208,7 +208,7 @@ LoadData
 (
 )
 ;
-void
+nsresult
 SaveData
 (
 )
