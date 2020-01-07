@@ -1,17 +1,15 @@
 #
 ifndef
-mozilla_dom_workers_serviceworkerregistrationinfo_h
+mozilla_dom_serviceworkerregistrationinfo_h
 #
 define
-mozilla_dom_workers_serviceworkerregistrationinfo_h
+mozilla_dom_serviceworkerregistrationinfo_h
 #
 include
 "
 mozilla
 /
 dom
-/
-workers
 /
 ServiceWorkerInfo
 .
@@ -51,9 +49,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 class
 ServiceWorkerRegistrationInfo
@@ -453,7 +448,6 @@ NotifyChromeRegistrationListeners
 ;
 }
 ;
-}
 }
 }
 #

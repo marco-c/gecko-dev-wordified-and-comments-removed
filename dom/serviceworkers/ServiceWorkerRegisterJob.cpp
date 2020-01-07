@@ -18,9 +18,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 ServiceWorkerRegisterJob
 :
 :
@@ -66,8 +63,11 @@ AsyncExecute
 (
 )
 {
-AssertIsOnMainThread
+MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
 )
 ;
 RefPtr
@@ -276,7 +276,6 @@ ServiceWorkerRegisterJob
 (
 )
 {
-}
 }
 }
 }

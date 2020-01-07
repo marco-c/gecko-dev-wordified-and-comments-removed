@@ -39,9 +39,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 ServiceWorkerUpdaterChild
 final
@@ -110,7 +107,6 @@ mFailureRunnable
 ;
 }
 ;
-}
 }
 }
 #

@@ -31,9 +31,6 @@ BackgroundParentImpl
 namespace
 dom
 {
-namespace
-workers
-{
 class
 ServiceWorkerManagerService
 ;
@@ -274,7 +271,6 @@ mID
 ;
 }
 ;
-}
 }
 }
 #

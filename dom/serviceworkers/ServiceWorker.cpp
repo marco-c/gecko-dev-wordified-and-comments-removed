@@ -122,9 +122,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 bool
 ServiceWorkerVisible
 (
@@ -182,8 +179,11 @@ mInfo
 aInfo
 )
 {
-AssertIsOnMainThread
+MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -208,8 +208,11 @@ ServiceWorker
 (
 )
 {
-AssertIsOnMainThread
+MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
 )
 ;
 mInfo
@@ -260,8 +263,11 @@ JSObject
 aGivenProto
 )
 {
-AssertIsOnMainThread
+MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
 )
 ;
 return
@@ -573,7 +579,6 @@ ToIPC
 )
 )
 ;
-}
 }
 }
 }

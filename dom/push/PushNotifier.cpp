@@ -54,8 +54,6 @@ mozilla
 /
 dom
 /
-workers
-/
 ServiceWorkerManager
 .
 h
@@ -122,12 +120,6 @@ workers
 :
 :
 AssertIsOnMainThread
-;
-using
-workers
-:
-:
-ServiceWorkerManager
 ;
 PushNotifier
 :

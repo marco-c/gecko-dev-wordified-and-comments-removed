@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_serviceworkerjobqueue_h
+mozilla_dom_serviceworkerjobqueue_h
 #
 define
-mozilla_dom_workers_serviceworkerjobqueue_h
+mozilla_dom_serviceworkerjobqueue_h
 #
 include
 "
@@ -25,9 +25,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 class
 ServiceWorkerJob
@@ -91,7 +88,6 @@ ServiceWorkerJobQueue
 )
 }
 ;
-}
 }
 }
 #

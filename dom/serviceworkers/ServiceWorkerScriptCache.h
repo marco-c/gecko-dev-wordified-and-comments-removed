@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_ServiceWorkerScriptCache_h
+mozilla_dom_ServiceWorkerScriptCache_h
 #
 define
-mozilla_dom_workers_ServiceWorkerScriptCache_h
+mozilla_dom_ServiceWorkerScriptCache_h
 #
 include
 "
@@ -22,9 +22,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 class
 ServiceWorkerRegistrationInfo
@@ -107,7 +104,6 @@ nsILoadGroup
 aLoadGroup
 )
 ;
-}
 }
 }
 }

@@ -49,13 +49,10 @@ namespace
 dom
 {
 class
-ServiceWorkerRegistrationData
-;
-namespace
-workers
-{
-class
 ServiceWorkerManagerParent
+;
+class
+ServiceWorkerRegistrationData
 ;
 class
 ServiceWorkerUpdaterParent
@@ -237,7 +234,6 @@ mPendingUpdaterActors
 ;
 }
 ;
-}
 }
 }
 #

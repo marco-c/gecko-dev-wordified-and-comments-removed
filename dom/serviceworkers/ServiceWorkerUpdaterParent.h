@@ -30,9 +30,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 ServiceWorkerManagerService
 ;
@@ -71,7 +68,6 @@ mService
 ;
 }
 ;
-}
 }
 }
 #

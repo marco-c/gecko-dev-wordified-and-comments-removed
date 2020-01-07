@@ -18,9 +18,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 bool
 ServiceWorkerUpdaterParent
 :
@@ -76,7 +73,6 @@ UpdaterActorDestroyed
 this
 )
 ;
-}
 }
 }
 }

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_serviceworkerupdatejob_h
+mozilla_dom_serviceworkerupdatejob_h
 #
 define
-mozilla_dom_workers_serviceworkerupdatejob_h
+mozilla_dom_serviceworkerupdatejob_h
 #
 include
 "
@@ -23,9 +23,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 class
 ServiceWorkerManager
@@ -207,7 +204,6 @@ mRegistration
 ;
 }
 ;
-}
 }
 }
 #

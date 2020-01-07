@@ -38,9 +38,6 @@ ipc
 namespace
 dom
 {
-namespace
-workers
-{
 mozilla
 :
 :
@@ -453,7 +450,6 @@ aActor
 return
 true
 ;
-}
 }
 }
 }

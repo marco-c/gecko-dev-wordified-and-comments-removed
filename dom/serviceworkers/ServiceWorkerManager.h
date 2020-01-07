@@ -181,8 +181,6 @@ mozilla
 /
 dom
 /
-workers
-/
 ServiceWorkerRegistrationInfo
 .
 h
@@ -253,15 +251,6 @@ namespace
 dom
 {
 class
-ServiceWorkerRegistrar
-;
-class
-ServiceWorkerRegistrationListener
-;
-namespace
-workers
-{
-class
 ServiceWorkerInfo
 ;
 class
@@ -272,6 +261,12 @@ ServiceWorkerManagerChild
 ;
 class
 ServiceWorkerPrivate
+;
+class
+ServiceWorkerRegistrar
+;
+class
+ServiceWorkerRegistrationListener
 ;
 class
 ServiceWorkerUpdateFinishCallback
@@ -1535,7 +1530,6 @@ aBehavior
 ;
 }
 ;
-}
 }
 }
 #

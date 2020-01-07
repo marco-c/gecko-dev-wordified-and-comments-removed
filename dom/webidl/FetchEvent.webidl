@@ -132,15 +132,6 @@ eventInitDict
 Func
 =
 "
-mozilla
-:
-:
-dom
-:
-:
-workers
-:
-:
 ServiceWorkerVisible
 "
 Exposed

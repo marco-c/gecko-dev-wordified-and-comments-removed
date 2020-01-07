@@ -42,9 +42,6 @@ BackgroundChildImpl
 namespace
 dom
 {
-namespace
-workers
-{
 class
 ServiceWorkerManagerChild
 final
@@ -216,7 +213,6 @@ mShuttingDown
 ;
 }
 ;
-}
 }
 }
 #

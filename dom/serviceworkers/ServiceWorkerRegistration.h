@@ -101,16 +101,6 @@ PushManager
 class
 WorkerListener
 ;
-namespace
-workers
-{
-class
-ServiceWorker
-;
-class
-WorkerPrivate
-;
-}
 class
 ServiceWorkerRegistrationListener
 {
@@ -237,9 +227,6 @@ override
 virtual
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorker
 >
 GetInstalling
@@ -251,9 +238,6 @@ GetInstalling
 virtual
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorker
 >
 GetWaiting
@@ -265,9 +249,6 @@ GetWaiting
 virtual
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorker
 >
 GetActive

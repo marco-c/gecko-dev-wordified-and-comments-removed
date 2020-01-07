@@ -138,6 +138,9 @@ class
 EventMessageAutoOverride
 ;
 class
+ExtendableEvent
+;
+class
 WantsPopupControlCheck
 ;
 #
@@ -163,13 +166,6 @@ h
 #
 undef
 GENERATED_EVENT
-namespace
-workers
-{
-class
-ExtendableEvent
-;
-}
 class
 EventBase
 :
@@ -401,9 +397,6 @@ h
 undef
 GENERATED_EVENT
 virtual
-workers
-:
-:
 ExtendableEvent
 *
 AsExtendableEvent

@@ -157,15 +157,6 @@ issues
 Func
 =
 "
-mozilla
-:
-:
-dom
-:
-:
-workers
-:
-:
 ServiceWorkerVisible
 "
 /

@@ -28,13 +28,9 @@ Promise
 struct
 RegistrationOptions
 ;
-namespace
-workers
-{
 class
 ServiceWorker
 ;
-}
 class
 ServiceWorkerContainer
 final
@@ -123,9 +119,6 @@ aRv
 ;
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorker
 >
 GetController
@@ -210,9 +203,6 @@ RemoveReadyPromise
 ;
 RefPtr
 <
-workers
-:
-:
 ServiceWorker
 >
 mControllerWorker

@@ -90,9 +90,6 @@ namespace
 dom
 {
 namespace
-workers
-{
-namespace
 {
 uint64_t
 sServiceWorkerManagerParentID
@@ -122,9 +119,6 @@ Runnable
 (
 "
 dom
-:
-:
-workers
 :
 :
 RegisterServiceWorkerCallback
@@ -269,9 +263,6 @@ Runnable
 (
 "
 dom
-:
-:
-workers
 :
 :
 UnregisterServiceWorkerCallback
@@ -430,9 +421,6 @@ Runnable
 (
 "
 dom
-:
-:
-workers
 :
 :
 CheckPrincipalWithCallbackRunnable
@@ -1345,7 +1333,6 @@ UnregisterActor
 this
 )
 ;
-}
 }
 }
 }
