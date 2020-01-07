@@ -6718,6 +6718,16 @@ shadowdom
 enabled
 true
 )
+fails
+-
+if
+(
+!
+stylo
+|
+|
+styloVsGecko
+)
 =
 =
 shadow
