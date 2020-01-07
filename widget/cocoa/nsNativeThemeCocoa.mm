@@ -22335,14 +22335,14 @@ true
 ;
 }
 }
-nsIntMargin
+LayoutDeviceIntMargin
 nsNativeThemeCocoa
 :
 :
 DirectionAwareMargin
 (
 const
-nsIntMargin
+LayoutDeviceIntMargin
 &
 aMargin
 nsIFrame
@@ -22422,7 +22422,7 @@ wm
 )
 ;
 return
-nsIntMargin
+LayoutDeviceIntMargin
 (
 m
 .
@@ -22441,7 +22441,7 @@ left
 }
 static
 const
-nsIntMargin
+LayoutDeviceIntMargin
 kAquaDropdownBorder
 (
 1
@@ -22452,7 +22452,7 @@ kAquaDropdownBorder
 ;
 static
 const
-nsIntMargin
+LayoutDeviceIntMargin
 kAquaComboboxBorder
 (
 3
@@ -22463,7 +22463,7 @@ kAquaComboboxBorder
 ;
 static
 const
-nsIntMargin
+LayoutDeviceIntMargin
 kAquaSearchfieldBorder
 (
 3
@@ -22486,7 +22486,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -22538,7 +22538,7 @@ aResult
 =
 DirectionAwareMargin
 (
-nsIntMargin
+LayoutDeviceIntMargin
 (
 1
 7
@@ -22561,7 +22561,7 @@ aResult
 =
 DirectionAwareMargin
 (
-nsIntMargin
+LayoutDeviceIntMargin
 (
 1
 4

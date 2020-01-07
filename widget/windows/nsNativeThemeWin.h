@@ -156,7 +156,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -419,7 +422,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -572,7 +578,10 @@ int32_t
 aPart
 int32_t
 aState
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -632,7 +641,10 @@ THEME_PART_DISTINCT_VALUE_COUNT
 8
 ]
 ;
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 mBorderCache
 [
 eUXNumClasses

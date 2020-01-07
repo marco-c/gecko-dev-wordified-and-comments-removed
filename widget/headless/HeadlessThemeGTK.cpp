@@ -73,7 +73,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+LayoutDeviceIntMargin
 *
 aResult
 )
