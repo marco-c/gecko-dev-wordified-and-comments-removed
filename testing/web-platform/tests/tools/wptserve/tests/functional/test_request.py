@@ -1,6 +1,4 @@
 import
-unittest
-import
 pytest
 wptserve
 =
@@ -23,10 +21,6 @@ wptserve
 request
 import
 InputFile
-from
-urllib2
-import
-HTTPError
 class
 TestInputFile
 (

@@ -1,8 +1,6 @@
 import
 argparse
 import
-itertools
-import
 logging
 import
 os

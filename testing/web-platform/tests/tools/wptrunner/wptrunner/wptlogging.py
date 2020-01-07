@@ -5,10 +5,6 @@ sys
 import
 threading
 from
-Queue
-import
-Empty
-from
 StringIO
 import
 StringIO

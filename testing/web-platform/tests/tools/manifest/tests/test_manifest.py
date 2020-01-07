@@ -22,7 +22,6 @@ from
 import
 manifest
 item
-sourcefile
 utils
 def
 SourceFileWithTest

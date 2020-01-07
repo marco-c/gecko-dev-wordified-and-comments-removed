@@ -15,8 +15,6 @@ import
 check_errors
 import
 pytest
-import
-six
 def
 test_allowed_path_length
 (

@@ -14,7 +14,6 @@ from
 abc
 import
 ABCMeta
-abstractmethod
 abstractproperty
 def
 get_source_file

@@ -1,10 +1,6 @@
 import
 base64
 import
-hashlib
-import
-httplib
-import
 json
 import
 os
@@ -15,15 +11,7 @@ tempfile
 import
 threading
 import
-traceback
-import
-urlparse
-import
 uuid
-from
-collections
-import
-defaultdict
 from
 mozprocess
 import
@@ -39,8 +27,6 @@ from
 base
 import
 (
-ExecutorException
-                   
 ConnectionlessProtocol
                    
 RefTestImplementation

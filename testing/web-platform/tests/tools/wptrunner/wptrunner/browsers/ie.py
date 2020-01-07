@@ -195,13 +195,6 @@ kwargs
 )
 :
     
-from
-selenium
-.
-webdriver
-import
-DesiredCapabilities
-    
 options
 =
 {

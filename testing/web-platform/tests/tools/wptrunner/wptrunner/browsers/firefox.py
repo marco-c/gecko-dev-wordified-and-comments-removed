@@ -11,8 +11,6 @@ subprocess
 import
 sys
 import
-tempfile
-import
 mozinfo
 import
 mozleak

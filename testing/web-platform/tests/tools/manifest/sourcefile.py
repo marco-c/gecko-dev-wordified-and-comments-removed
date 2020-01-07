@@ -57,7 +57,6 @@ Stub
 ManualTest
 WebdriverSpecTest
 RefTestNode
-RefTest
 TestharnessTest
 SupportFile
 ConformanceCheckerTest

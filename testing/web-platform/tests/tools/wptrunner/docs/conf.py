@@ -10,10 +10,6 @@ utf
 -
 *
 -
-import
-sys
-import
-os
 extensions
 =
 [

@@ -48,27 +48,17 @@ import
 (
 CallbackHandler
                    
-ExecutorException
-                   
 RefTestExecutor
                    
 RefTestImplementation
-                   
-TestExecutor
                    
 TestharnessExecutor
                    
 WdspecExecutor
                    
-WdspecRun
-                   
 WebDriverProtocol
                    
 extra_timeout
-                   
-testharness_result_converter
-                   
-reftest_result_converter
                    
 strip_server
 )

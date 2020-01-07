@@ -5,8 +5,6 @@ unicode_literals
 import
 multiprocessing
 import
-sys
-import
 threading
 import
 traceback

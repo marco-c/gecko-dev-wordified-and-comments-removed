@@ -13,10 +13,6 @@ from
 mozlog
 import
 structured
-import
-mock
-import
-pytest
 sys
 .
 path

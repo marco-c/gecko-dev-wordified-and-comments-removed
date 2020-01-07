@@ -14,7 +14,6 @@ from
 .
 vcs
 import
-bind_to_repo
 git
 hg
 def

@@ -9,8 +9,6 @@ sys
 import
 mock
 import
-pytest
-import
 six
 from
 .

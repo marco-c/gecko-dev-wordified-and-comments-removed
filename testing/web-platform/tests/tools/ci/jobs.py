@@ -13,7 +13,6 @@ testfiles
 import
 branch_point
 files_changed
-affected_testfiles
 from
 tools
 import

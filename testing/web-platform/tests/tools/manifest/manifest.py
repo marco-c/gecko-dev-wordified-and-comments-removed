@@ -39,7 +39,6 @@ utils
 import
 from_os_path
 to_os_path
-rel_path_to_url
 CURRENT_VERSION
 =
 4
