@@ -76,9 +76,6 @@ MPL
 0
 /
 .
-#
-ifdef
-XP_MACOSX
 <
 ?
 xml
@@ -303,5 +300,3 @@ popupset
 /
 window
 >
-#
-endif

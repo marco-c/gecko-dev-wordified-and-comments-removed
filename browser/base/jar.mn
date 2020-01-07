@@ -1750,6 +1750,9 @@ nsContextMenu
 js
 )
 #
+ifdef
+XP_MACOSX
+#
 XXX
 :
 We
@@ -1778,6 +1781,8 @@ hiddenWindow
 .
 xul
 )
+#
+endif
 #
 ifndef
 XP_MACOSX
