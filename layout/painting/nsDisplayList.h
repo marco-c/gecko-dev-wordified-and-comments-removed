@@ -14401,16 +14401,6 @@ MOZ_COUNT_CTOR
 nsDisplayEventReceiver
 )
 ;
-MOZ_ASSERT
-(
-aBuilder
--
->
-IsForEventDelivery
-(
-)
-)
-;
 }
 #
 ifdef
